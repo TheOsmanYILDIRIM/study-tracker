@@ -18,16 +18,40 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.ComposeView
 import androidx.core.app.NotificationCompat
-import androidx.lifecycle.setViewTreeLifecycleOwner
-import androidx.lifecycle.setViewTreeViewModelStoreOwner
-import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import androidx.lifecycle.*
+import androidx.savedstate.*
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.ui.theme.StudyTrackerTheme
+
+class OverlayLifecycleOwner : LifecycleOwner, ViewModelStoreOwner, SavedStateRegistryOwner {
+    private val lifecycleRegistry = LifecycleRegistry(this)
+    private val savedStateRegistryController = SavedStateRegistryController.create(this)
+    private val store = ViewModelStore()
+
+    override val lifecycle: Lifecycle get() = lifecycleRegistry
+    override val viewModelStore: ViewModelStore get() = store
+    override val savedStateRegistry: SavedStateRegistry get() = savedStateRegistryController.savedStateRegistry
+
+    fun onCreate() {
+        savedStateRegistryController.performRestore(null)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
+    }
+
+    fun onDestroy() {
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_STOP)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+        store.clear()
+    }
+}
 
 class FloatingButtonService : Service() {
 
     private var windowManager: WindowManager? = null
     private var floatingView: View? = null
+    private var overlayLifecycleOwner: OverlayLifecycleOwner? = null
     private lateinit var stateManager: SessionStateManager
 
     override fun onCreate() {
@@ -84,7 +108,15 @@ class FloatingButtonService : Service() {
             y = 300
         }
 
+        val lifecycleOwner = OverlayLifecycleOwner()
+        lifecycleOwner.onCreate()
+        overlayLifecycleOwner = lifecycleOwner
+
         val composeView = ComposeView(this).apply {
+            ViewTreeLifecycleOwner.set(this, lifecycleOwner)
+            ViewTreeSavedStateRegistryOwner.set(this, lifecycleOwner)
+            ViewTreeViewModelStoreOwner.set(this, lifecycleOwner)
+
             setContent {
                 StudyTrackerTheme {
                     val activeState by stateManager.activeState.collectAsState()
@@ -144,6 +176,8 @@ class FloatingButtonService : Service() {
 
     override fun onDestroy() {
         super.onDestroy()
+        overlayLifecycleOwner?.onDestroy()
+        overlayLifecycleOwner = null
         if (floatingView != null) {
             windowManager?.removeView(floatingView)
             floatingView = null

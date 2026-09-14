@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.activity.compose)
+    implementation("androidx.savedstate:savedstate-ktx:1.2.1")
 
     // Compose
     implementation(platform(libs.androidx.compose.bom))
