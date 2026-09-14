@@ -14,12 +14,12 @@
 - [x] Floating HUD Compose UI ve dokunma/manyetik yapışma etkileşimi
 
 ## 4. Kullanıcı Arayüzü (Jetpack Compose Ekranları)
-- [WIP / Yapılıyor: Rol Seçici, Çocuk İnteraktif Demo Tutorial, Çocuk Görev Masası, Ebeveyn Dashboard, Kanıt İnceleme, AI Plan Stüdyosu ve Geliştirici Konsolu]
-- [ ] Rol Seçici & PIN Gate (`RoleSelectionScreen`)
-- [ ] Çocuk İnteraktif Rehber & Demo (`ChildTutorialScreen`)
-- [ ] Çocuk Görev Masası (`ChildHomeScreen`)
-- [ ] Ebeveyn Dashboard & Onay Kuyruğu (`ParentDashboardScreen`)
-- [ ] Kanıt İnceleme & Screenshot Timeline (`SessionReviewScreen`)
-- [ ] AI Plan Stüdyosu (`AIPlanStudioScreen`)
-- [ ] Geliştirici & Test Modu Konsolu (`DeveloperConsoleScreen`)
+- [x] Rol Seçici & PIN Gate (`RoleSelectionScreen`)
+- [x] Çocuk İnteraktif Rehber & Demo (`ChildTutorialScreen`)
+- [x] Çocuk Görev Masası (`ChildHomeScreen`)
+- [x] Ebeveyn Dashboard & Onay Kuyruğu (`ParentDashboardScreen`)
+- [x] Kanıt İnceleme & Screenshot Timeline (`SessionReviewScreen`)
+- [x] AI Plan Stüdyosu (`AIPlanStudioScreen`)
+- [x] Geliştirici & Test Modu Konsolu (`DeveloperConsoleScreen`)
+- [x] TDD Birim Testleri (`PlanMergeEngineTest`)
 
