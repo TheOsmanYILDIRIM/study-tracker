@@ -46,7 +46,7 @@ fun StudyTrackerTheme(
         }
     }
 
-    Material3Theme(
+    MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography(),
         content = content

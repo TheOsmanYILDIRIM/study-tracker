@@ -19,7 +19,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.ComposeView
 import androidx.core.app.NotificationCompat
 import androidx.lifecycle.*
+import androidx.lifecycle.setViewTreeLifecycleOwner
+import androidx.lifecycle.setViewTreeViewModelStoreOwner
 import androidx.savedstate.*
+import androidx.savedstate.setViewTreeSavedStateRegistryOwner
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.ui.theme.StudyTrackerTheme
 
@@ -113,9 +116,9 @@ class FloatingButtonService : Service() {
         overlayLifecycleOwner = lifecycleOwner
 
         val composeView = ComposeView(this).apply {
-            ViewTreeLifecycleOwner.set(this, lifecycleOwner)
-            ViewTreeSavedStateRegistryOwner.set(this, lifecycleOwner)
-            ViewTreeViewModelStoreOwner.set(this, lifecycleOwner)
+            setViewTreeLifecycleOwner(lifecycleOwner)
+            setViewTreeSavedStateRegistryOwner(lifecycleOwner)
+            setViewTreeViewModelStoreOwner(lifecycleOwner)
 
             setContent {
                 StudyTrackerTheme {
