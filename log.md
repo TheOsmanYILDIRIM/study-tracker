@@ -15,3 +15,9 @@
 - **Çocuk İnteraktif Rehber & Demo Modu:** İlk açılışta açılan 3 adımlı sanal yüzen düğme deneme alanı ve rehber ekranı (`ChildTutorialScreen`) geliştirildi.
 - Ebeveyn Dashboard, Kanıt İnceleme Zaman Tüneli, AI Plan Stüdyosu ve Geliştirici Test Konsolu Jetpack Compose ile tamamlandı.
 - Tüm birim testler (`PlanMergeEngineTest`) yazıldı ve Git reposuna işlendi.
+
+### [2026-09-14] Başarılı: GitHub Actions CI/CD ve APK Üretimi
+- GitHub üzerinde `TheOsmanYILDIRIM/study-tracker` reposu senkronize edildi.
+- GitHub Actions CI/CD workflow (`Build & Release StudyTracker APK`, Run ID: `34897481921`) tüm testleri ve derleme adımlarını başarıyla tamamladı (4m 17s).
+- `StudyTracker-debug-apk` artifact'i (app-debug.apk) GitHub Actions üzerinden üretildi.
+
