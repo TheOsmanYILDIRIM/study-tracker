@@ -65,4 +65,7 @@
 - **🌙 Gece / ☀️ Gündüz Dinamik Tema Geçişi:** `AppPreferences` yöneticisine `isNightMode` StateFlow ve `toggleNightMode` desteği eklendi. TopAppBar'a tek dokunuşluk 🌙/☀️ butonu ve geliştirici konsoluna tema seçici switch yerleştirildi.
 - **Yarı Saydam Koruyucu Arkalıklar (High Contrast Backplates):** Görseller ve açık zeminler üzerindeki metinlerin kaybolmasını önlemek için yüksek kontrastlı `ZenTextBackplate` ve `ZenTopBarBackplate` uygulandı.
 - **CI/CD Derleme:** GitHub Actions workflow (`Build & Release StudyTracker APK`, Run ID: `35015675276` ✓, Commit: `d6012ef`) başarıyla tamamlandı ve `StudyTracker.apk` indirilenler klasörüne aktarıldı.
-
+### [2026-09-15] Tamamlandı: Tam Ekran Arka Plan, Hafif Kutu Butonlar ve R8 Optimized Release APK Derlemesi
+- **Tam Ekran Atmosferik Arka Plan:** Tüm ekranların arkasına tam ekran `Image(bg_zen_night / bg_zen_day)` yerleştirilerek yüksek kontrastlı yarı saydam okuma katmanı (`0xD9080D1A` / `0xB3EEF2F6`) entegre edildi.
+- **Hafif Kutu Butonlar:** `StudyTaskCard` içindeki ağır Material3 `Button` (dahili `Surface`, `InteractionSource`, `animateElevation` ve ripple layer) yerine saf `Box.background(shape).clickable` butonları uygulandı.
+- **R8 ProGuard & Release APK Optimizasyonu:** Compose derleyicisinin debug trace overhead'ini sıfırlayan, metot inlining ve dead-code elimination sağlayan `assembleRelease` CI/CD hattı kuruldu. 16MB'lık debug APK yerine 2.1MB'lık ultra-optimize imzalı Release APK üretildi (CI Run ID: `35018741072` ✓).
