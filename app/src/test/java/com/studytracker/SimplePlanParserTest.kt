@@ -80,4 +80,80 @@ class SimplePlanParserTest {
         assertEquals(plan1.weekId, plan2?.weekId)
         assertEquals(plan1.dailyOccurrences.size, plan2?.dailyOccurrences?.size)
     }
+
+    @Test
+    fun `parse complex text with preamble and prompt template successfully without duplicate errors`() {
+        val userPastedText = """
+            Sen uzman bir ders çalışma planı hazırlayıcısısın.
+            Amacın: Android StudyTracker uygulaması için haftalık ders çalışma planı üretmek.
+
+            ÇIKTI FORMATI KURALLARI (AŞIRI BASİT DEĞİŞKEN FORMATI):
+            Aşağıdaki basit, temiz değişken formatında çıktı üret. JSON veya Markdown kod blokları kullanma!
+
+            Örnek Çıktı Şablonu:
+            HAFTA = 2026-W38
+            BASLANGIC = 2026-09-14
+            OGRENCI = child_1
+
+            [DERSLER]
+            mat = Matematik | 40 dk | Soru Çözümü
+            turkce = Türkçe | 30 dk | Paragraf ve Dil Bilgisi
+            fen = Fen Bilimleri | 35 dk | Konu Tekrarı
+            kitap = Kitap Okuma | 20 dk | Günlük 20 Sayfa
+
+            [GUNLER]
+            Pazartesi = mat, turkce, kitap
+            Sali = fen, turkce, kitap
+            Carsamba = mat, fen, kitap
+            Persembe = turkce, fen, kitap
+            Cuma = mat, turkce, kitap
+            Cumartesi = fen, mat, kitap
+            Pazar = kitap
+
+            [HAFTALIK]
+            deneme = Hafta Sonu Deneme Sınavı | 90 dk | Genel Tekrar Denemesi
+
+            ---
+            Hedef Hafta Bilgisi:
+            Hafta: 2026-W38
+            Başlangıç Tarihi: 2026-09-14
+            Öğrenci: child_1
+
+            Mevcut Plan Metni:
+            null
+
+            Kullanıcı Özel İsteği:
+            HAFTA = 2026-W38
+            BASLANGIC = 2026-09-14
+            OGRENCI = child_1
+            [DERSLER]
+            mat = Matematik | 40 dk | Konu Tekrarı ve Soru Çözümü
+            turkce = Türkçe | 35 dk | Paragraf ve Dil Bilgisi
+            fen = Fen Bilimleri | 35 dk | Konu Tekrarı ve Test
+            sosyal = Sosyal Bilgiler | 30 dk | Kavram Tekrarı ve Soru Çözümü
+            ingilizce = İngilizce | 25 dk | Kelime Ezberi ve Alıştırma
+            kitap = Kitap Okuma | 20 dk | Serbest Okuma
+            [GUNLER]
+            Pazartesi = mat, turkce, kitap
+            Sali = fen, ingilizce, kitap
+            Carsamba = mat, sosyal, kitap
+            Persembe = turkce, fen, kitap
+            Cuma = mat, ingilizce, kitap
+            Cumartesi = fen, sosyal, kitap
+            Pazar = kitap
+            [HAFTALIK]
+            deneme = Hafta Sonu Deneme Sınavı | 90 dk | Tüm Dersler Genel Değerlendirme Denemesi
+
+
+            Şimdi hiçbir sohbet metni eklemeden doğrudan yukarıdaki [DERSLER], [GUNLER] ve [HAFTALIK] formatında planı yaz:
+        """.trimIndent()
+
+        val (plan, result) = com.studytracker.core.data.plan_engine.PlanValidator.parseAndValidate(userPastedText)
+
+        assertNotNull(plan)
+        assertTrue("Validation should pass but was: $result", result is ValidationResult.Valid)
+        assertEquals("2026-W38", plan?.weekId)
+        assertEquals("2026-09-14", plan?.weekStartDate)
+        assertTrue((plan?.dailyOccurrences?.size ?: 0) > 0)
+    }
 }

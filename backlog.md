@@ -27,4 +27,6 @@
 - [x] Öğrenci Modunda Ders Çalışma Oturumunu Duraklatma / Devam Etme (Pause/Resume HUD & Canlı Kontrol Kartı)
 - [x] Plan Stüdyosunda Takvim Tabanlı Hafta Seçici Bileşeni (`WeekCalendarPicker`)
 - [x] JSON Yerine Kolay Bozulmayan Basit Değişken/DSL Plan Formatı (`SimplePlanParser` & `SimplePlanExporter`)
+- [x] Ultra Hata Toleranslı Plan Ayrıştırma (Preamble/Prompt Temizliği, Çoklu Blok ve Yinelenen Anahtar Otomatik Tekilleştirme / Auto-Healing)
+
 

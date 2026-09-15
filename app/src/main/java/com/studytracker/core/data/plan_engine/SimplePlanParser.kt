@@ -10,10 +10,27 @@ object SimplePlanParser {
     private val weekIdRegex = Regex("""^\d{4}-W(0[1-9]|[1-4][0-9]|5[0-3])$""")
 
     /**
-     * Basit metin tabanlı (Key-Value / DSL) plan formatını doğrular ve Plan modeline dönüştürür.
+     * Basit metin tabanlı (Key-Value / DSL) plan formatını aşırı toleranslı şekilde ayrıştırır.
+     * Kullanıcı prompt metni, sohbet açıklamaları, şablon örnekleri veya çift blok yapıştırsa bile
+     * gerçek planı bulur, yinelenen anahtarları otomatik tekilleştirir.
      */
     fun parse(rawText: String): Pair<Plan?, ValidationResult> {
-        val lines = rawText.lines().map { it.trim() }.filter { it.isNotEmpty() && !it.startsWith("#") && !it.startsWith("//") }
+        // Remove markdown code blocks (```text, ```json, etc.)
+        val cleanText = rawText
+            .replace(Regex("""```[a-zA-Z]*"""), "")
+            .replace("```", "")
+
+        val allLines = cleanText.lines().map { it.trim() }.filter {
+            it.isNotEmpty() &&
+            !it.startsWith("#") &&
+            !it.startsWith("//") &&
+            !it.startsWith("---") &&
+            !it.startsWith("Sen uzman", ignoreCase = true) &&
+            !it.startsWith("Amacın:", ignoreCase = true) &&
+            !it.startsWith("ÇIKTI FORMATI", ignoreCase = true) &&
+            !it.startsWith("Aşağıdaki basit", ignoreCase = true) &&
+            !it.startsWith("Şimdi hiçbir", ignoreCase = true)
+        }
 
         var weekId = ""
         var weekStartDate = ""
@@ -24,26 +41,41 @@ object SimplePlanParser {
         // Section tracking: 0 = HEADER, 1 = TASKS, 2 = DAYS/DAILY, 3 = WEEKLY
         var currentSection = 0
 
-        val taskDefMap = mutableMapOf<String, TaskTemplate>() // id -> TaskTemplate
-        val dailyMap = mutableMapOf<String, MutableList<String>>() // date -> list of taskIds/titles
-        val weeklyOccurrences = mutableListOf<WeeklyOccurrenceJson>()
+        var taskDefMap = mutableMapOf<String, TaskTemplate>()
+        var dailyMap = mutableMapOf<String, MutableList<String>>() // date -> list of taskIds/titles
+        var weeklyOccurrences = mutableListOf<WeeklyOccurrenceJson>()
 
-        // Date calculation helper
         val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
-
         var activeDayDate: String? = null
 
-        for (line in lines) {
+        var hasProcessedDays = false
+
+        for (line in allLines) {
             val upper = line.uppercase(Locale.ROOT)
+
+            // Ignore prompt artifact lines
+            if (upper.startsWith("ÖRNEK ÇIKTI") || upper.startsWith("ORNEK CIKTI") ||
+                upper.startsWith("HEDEF HAFTA") || upper.startsWith("MEVCUT PLAN") ||
+                upper.startsWith("KULLANICI ÖZEL") || upper.startsWith("KULLANICI OZEL")) {
+                continue
+            }
 
             // Section markers
             when {
                 upper.startsWith("[DERSLER]") || upper.startsWith("[TASKS]") || upper.startsWith("[GOREVLER]") -> {
+                    // If we previously completed days and encounter a new [DERSLER] block (e.g. prompt example then real plan), reset to real plan!
+                    if (hasProcessedDays) {
+                        taskDefMap.clear()
+                        dailyMap.clear()
+                        weeklyOccurrences.clear()
+                        hasProcessedDays = false
+                    }
                     currentSection = 1
                     continue
                 }
                 upper.startsWith("[GUNLER]") || upper.startsWith("[DAYS]") || upper.startsWith("[GUNLUK]") || upper.startsWith("[DAILY]") -> {
                     currentSection = 2
+                    hasProcessedDays = true
                     continue
                 }
                 upper.startsWith("[HAFTALIK]") || upper.startsWith("[WEEKLY]") || upper.startsWith("[HEDEFLER]") -> {
@@ -60,25 +92,27 @@ object SimplePlanParser {
 
                 when (key) {
                     "HAFTA", "WEEK", "WEEKID", "WEEK_ID" -> {
-                        weekId = value
+                        val cleanVal = value.filter { it.isLetterOrDigit() || it == '-' }
+                        if (cleanVal.isNotBlank()) weekId = cleanVal
                         continue
                     }
                     "BASLANGIC", "START", "START_DATE", "WEEK_START_DATE", "TARIH" -> {
-                        weekStartDate = value
+                        val cleanVal = value.filter { it.isDigit() || it == '-' }
+                        if (cleanVal.isNotBlank()) weekStartDate = cleanVal
                         continue
                     }
                     "OGRENCI", "CHILD", "CHILD_ID", "STUDENT" -> {
-                        childId = value
+                        if (value.isNotBlank() && value != "null") childId = value
                         continue
                     }
                     "TIMEZONE", "ZAMAN_DILIMI" -> {
-                        timezone = value
+                        if (value.isNotBlank() && value != "null") timezone = value
                         continue
                     }
                 }
             }
 
-            // If we are in Days section and line starts with a day name (e.g. "Pazartesi = mat, turkce" or "Pazartesi:")
+            // Handle Days section when line starts with day name (e.g. "Pazartesi = mat, turkce" or "Pazartesi:")
             val dayOffset = parseDayOfWeekOffset(line.substringBefore("=").substringBefore(":").trim())
             if (dayOffset != null && weekStartDate.isNotBlank() && dateRegex.matches(weekStartDate)) {
                 val cal = Calendar.getInstance(Locale.US)
@@ -93,11 +127,17 @@ object SimplePlanParser {
                     if (content.isNotBlank()) {
                         // "Pazartesi = mat, turkce, kitap"
                         val tasksInDay = content.split(",").map { it.trim() }.filter { it.isNotEmpty() }
-                        dailyMap.getOrPut(targetDate) { mutableListOf() }.addAll(tasksInDay)
+                        val dayList = dailyMap.getOrPut(targetDate) { mutableListOf() }
+                        for (t in tasksInDay) {
+                            if (!dayList.contains(t)) {
+                                dayList.add(t)
+                            }
+                        }
                     } else {
                         // "Pazartesi:" followed by "- Matematik | 40 dk"
                         activeDayDate = targetDate
                     }
+                    hasProcessedDays = true
                     continue
                 } catch (_: Exception) {}
             }
@@ -105,9 +145,10 @@ object SimplePlanParser {
             // Handle section 1: Task definitions ("mat = Matematik | 40 dk | Soru Çözümü")
             if (currentSection == 1 || (line.contains("=") && currentSection == 0)) {
                 if (line.contains("=")) {
-                    val id = line.substringBefore("=").trim().lowercase(Locale.ROOT).replace(" ", "_")
+                    val rawId = line.substringBefore("=").trim()
+                    val id = sanitizeId(rawId)
                     val parts = line.substringAfter("=").split("|").map { it.trim() }
-                    val title = parts.getOrNull(0) ?: id
+                    val title = parts.getOrNull(0) ?: rawId
                     val durationMin = extractMinutes(parts.getOrNull(1) ?: "30")
 
                     if (id.isNotBlank() && title.isNotBlank()) {
@@ -122,7 +163,7 @@ object SimplePlanParser {
                 }
             }
 
-            // Handle daily bullet points ("- Matematik | 40 dk | ..." or "- mat")
+            // Handle daily bullet points ("- Matematik | 40 dk" or "- mat")
             if (line.startsWith("-") || line.startsWith("*")) {
                 val item = line.removePrefix("-").removePrefix("*").trim()
                 if (item.contains("|")) {
@@ -139,46 +180,57 @@ object SimplePlanParser {
                     ))
 
                     if (currentSection == 3) {
-                        // Weekly task
-                        weeklyOccurrences.add(WeeklyOccurrenceJson(
-                            occurrenceKey = "$id:$weekId",
-                            taskId = id,
-                            weekId = weekId,
-                            title = title,
-                            targetMode = TargetMode.COUNT,
-                            targetCount = 1,
-                            plannedMinutes = durationMin,
-                            reviewRequired = true
-                        ))
+                        val key = "$id:$weekId"
+                        if (weeklyOccurrences.none { it.occurrenceKey == key }) {
+                            weeklyOccurrences.add(WeeklyOccurrenceJson(
+                                occurrenceKey = key,
+                                taskId = id,
+                                weekId = weekId,
+                                title = title,
+                                targetMode = TargetMode.COUNT,
+                                targetCount = 1,
+                                plannedMinutes = durationMin,
+                                reviewRequired = true
+                            ))
+                        }
                     } else if (activeDayDate != null) {
-                        dailyMap.getOrPut(activeDayDate!!) { mutableListOf() }.add(id)
+                        val dayList = dailyMap.getOrPut(activeDayDate!!) { mutableListOf() }
+                        if (!dayList.contains(id)) {
+                            dayList.add(id)
+                        }
                     }
                 } else {
-                    // Just task id or task title
                     val id = sanitizeId(item)
                     if (currentSection == 3) {
-                        weeklyOccurrences.add(WeeklyOccurrenceJson(
-                            occurrenceKey = "$id:$weekId",
-                            taskId = id,
-                            weekId = weekId,
-                            title = item,
-                            targetMode = TargetMode.COUNT,
-                            targetCount = 1,
-                            plannedMinutes = 60,
-                            reviewRequired = true
-                        ))
+                        val key = "$id:$weekId"
+                        if (weeklyOccurrences.none { it.occurrenceKey == key }) {
+                            weeklyOccurrences.add(WeeklyOccurrenceJson(
+                                occurrenceKey = key,
+                                taskId = id,
+                                weekId = weekId,
+                                title = item,
+                                targetMode = TargetMode.COUNT,
+                                targetCount = 1,
+                                plannedMinutes = 60,
+                                reviewRequired = true
+                            ))
+                        }
                     } else if (activeDayDate != null) {
-                        dailyMap.getOrPut(activeDayDate!!) { mutableListOf() }.add(item)
+                        val dayList = dailyMap.getOrPut(activeDayDate!!) { mutableListOf() }
+                        if (!dayList.contains(item)) {
+                            dayList.add(item)
+                        }
                     }
                 }
                 continue
             }
 
-            // Handle Section 3: Weekly tasks ("deneme = Deneme Sınavı | 90 dk | Açıklama")
+            // Handle Section 3: Weekly tasks ("deneme = Deneme Sınavı | 90 dk")
             if (currentSection == 3 && line.contains("=")) {
-                val id = line.substringBefore("=").trim().lowercase(Locale.ROOT).replace(" ", "_")
+                val rawId = line.substringBefore("=").trim()
+                val id = sanitizeId(rawId)
                 val parts = line.substringAfter("=").split("|").map { it.trim() }
-                val title = parts.getOrNull(0) ?: id
+                val title = parts.getOrNull(0) ?: rawId
                 val durationMin = extractMinutes(parts.getOrNull(1) ?: "45")
 
                 taskDefMap[id] = TaskTemplate(
@@ -188,21 +240,24 @@ object SimplePlanParser {
                     kind = TaskKind.WEEKLY
                 )
 
-                weeklyOccurrences.add(WeeklyOccurrenceJson(
-                    occurrenceKey = "$id:$weekId",
-                    taskId = id,
-                    weekId = weekId,
-                    title = title,
-                    targetMode = TargetMode.COUNT,
-                    targetCount = 1,
-                    plannedMinutes = durationMin,
-                    reviewRequired = true
-                ))
+                val key = "$id:$weekId"
+                if (weeklyOccurrences.none { it.occurrenceKey == key }) {
+                    weeklyOccurrences.add(WeeklyOccurrenceJson(
+                        occurrenceKey = key,
+                        taskId = id,
+                        weekId = weekId,
+                        title = title,
+                        targetMode = TargetMode.COUNT,
+                        targetCount = 1,
+                        plannedMinutes = durationMin,
+                        reviewRequired = true
+                    ))
+                }
                 continue
             }
         }
 
-        // Auto-derive weekId or weekStartDate if missing
+        // Auto-derive weekId or weekStartDate if missing or malformed
         if (weekId.isBlank() && weekStartDate.isNotBlank() && dateRegex.matches(weekStartDate)) {
             weekId = deriveWeekIdFromDate(weekStartDate)
         } else if (weekStartDate.isBlank() && weekId.isNotBlank() && weekIdRegex.matches(weekId)) {
@@ -210,17 +265,22 @@ object SimplePlanParser {
         }
 
         if (weekId.isBlank()) {
-            return Pair(null, ValidationResult.Invalid("Hafta bilgisi eksik. Örn: 'HAFTA = 2026-W38'"))
+            val nowCal = Calendar.getInstance(Locale.US)
+            val year = nowCal.get(Calendar.YEAR)
+            val week = nowCal.get(Calendar.WEEK_OF_YEAR)
+            weekId = String.format(Locale.US, "%04d-W%02d", year, week)
         }
         if (weekStartDate.isBlank() || !dateRegex.matches(weekStartDate)) {
-            return Pair(null, ValidationResult.Invalid("Başlangıç tarihi eksik veya hatalı. Örn: 'BASLANGIC = 2026-09-14'"))
+            weekStartDate = deriveStartDateFromWeekId(weekId)
         }
 
-        // If daily occurrences were defined by day names/dates, construct Daily Occurrences list
+        // Build Daily Occurrences list with guaranteed unique occurrenceKeys
         val dailyOccurrences = mutableListOf<DailyOccurrenceJson>()
+        val seenDailyKeys = mutableSetOf<String>()
+
         for ((date, taskRefList) in dailyMap) {
             for (ref in taskRefList) {
-                val cleanRef = ref.lowercase(Locale.ROOT).replace(" ", "_")
+                val cleanRef = sanitizeId(ref)
                 val template = taskDefMap[cleanRef] ?: taskDefMap.values.find { it.title.equals(ref, ignoreCase = true) }
                 val taskId = template?.taskId ?: cleanRef
                 val title = template?.title ?: ref
@@ -235,8 +295,19 @@ object SimplePlanParser {
                     )
                 }
 
+                var uniqueKey = "$taskId:$date"
+                if (seenDailyKeys.contains(uniqueKey)) {
+                    // If same task is added multiple times on same day, give index
+                    var idx = 2
+                    while (seenDailyKeys.contains("${taskId}_$idx:$date")) {
+                        idx++
+                    }
+                    uniqueKey = "${taskId}_$idx:$date"
+                }
+
+                seenDailyKeys.add(uniqueKey)
                 dailyOccurrences.add(DailyOccurrenceJson(
-                    occurrenceKey = "$taskId:$date",
+                    occurrenceKey = uniqueKey,
                     taskId = taskId,
                     date = date,
                     title = title,
@@ -245,6 +316,9 @@ object SimplePlanParser {
                 ))
             }
         }
+
+        // Clean weekly occurrences with unique keys
+        val cleanWeekly = weeklyOccurrences.distinctBy { it.occurrenceKey }
 
         val nowIso = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX", Locale.US).format(Date())
 
@@ -256,9 +330,9 @@ object SimplePlanParser {
             weekStartDate = weekStartDate,
             timezone = timezone,
             updatedAt = nowIso,
-            tasks = taskDefMap.values.toList(),
+            tasks = taskDefMap.values.distinctBy { it.taskId },
             dailyOccurrences = dailyOccurrences,
-            weeklyOccurrences = weeklyOccurrences
+            weeklyOccurrences = cleanWeekly
         )
 
         return Pair(plan, ValidationResult.Valid)
@@ -287,7 +361,6 @@ object SimplePlanParser {
         val dayNameFormat = SimpleDateFormat("EEEE", Locale("tr", "TR"))
         val groupedByDate = plan.dailyOccurrences.groupBy { it.date }
 
-        // Sort dates
         val sortedDates = groupedByDate.keys.filter { it.isNotBlank() }.sorted()
         for (dateStr in sortedDates) {
             val occurrences = groupedByDate[dateStr] ?: emptyList()
@@ -297,7 +370,7 @@ object SimplePlanParser {
             } catch (_: Exception) {
                 dateStr
             }
-            val taskIds = occurrences.joinToString(", ") { it.taskId }
+            val taskIds = occurrences.map { it.taskId }.distinct().joinToString(", ")
             sb.appendLine("$dayName = $taskIds")
         }
         sb.appendLine()
@@ -331,8 +404,8 @@ object SimplePlanParser {
         return digits.toIntOrNull() ?: 30
     }
 
-    private fun sanitizeId(title: String): String {
-        return title.trim().lowercase(Locale("tr", "TR"))
+    fun sanitizeId(title: String): String {
+        val sanitized = title.trim().lowercase(Locale("tr", "TR"))
             .replace("ç", "c")
             .replace("ğ", "g")
             .replace("ı", "i")
@@ -342,6 +415,7 @@ object SimplePlanParser {
             .replace(Regex("""[^a-z0-9_]"""), "_")
             .replace(Regex("""_+"""), "_")
             .trim('_')
+        return if (sanitized.isNotBlank()) sanitized else "task"
     }
 
     private fun deriveWeekIdFromDate(dateStr: String): String {

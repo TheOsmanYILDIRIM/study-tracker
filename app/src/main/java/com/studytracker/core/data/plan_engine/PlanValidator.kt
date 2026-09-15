@@ -1,6 +1,8 @@
 package com.studytracker.core.data.plan_engine
 
+import com.studytracker.core.domain.model.DailyOccurrenceJson
 import com.studytracker.core.domain.model.Plan
+import com.studytracker.core.domain.model.WeeklyOccurrenceJson
 import kotlinx.serialization.json.Json
 
 sealed class ValidationResult {
@@ -20,7 +22,7 @@ object PlanValidator {
 
     fun parseAndValidate(rawInput: String): Pair<Plan?, ValidationResult> {
         val trimmed = rawInput.trim()
-        val plan: Plan = if (trimmed.startsWith("{")) {
+        var plan: Plan = if (trimmed.startsWith("{")) {
             try {
                 jsonParser.decodeFromString(Plan.serializer(), trimmed)
             } catch (e: Exception) {
@@ -40,12 +42,8 @@ object PlanValidator {
             simplePlan
         }
 
-        if (plan.schemaVersion != 1) {
-            return Pair(plan, ValidationResult.Invalid("Desteklenmeyen schemaVersion: ${plan.schemaVersion}. Beklenen: 1"))
-        }
-
         if (plan.planId.isBlank()) {
-            return Pair(plan, ValidationResult.Invalid("planId alanı boş bırakılamaz."))
+            plan = plan.copy(planId = "plan_${plan.weekId}_${plan.childId}_${System.currentTimeMillis()}")
         }
 
         if (!weekIdRegex.matches(plan.weekId)) {
@@ -56,59 +54,61 @@ object PlanValidator {
             return Pair(plan, ValidationResult.Invalid("Hatalı weekStartDate formatı: '${plan.weekStartDate}'. Örnek: '2026-06-15'"))
         }
 
-        val taskIds = mutableSetOf<String>()
-        for ((index, task) in plan.tasks.withIndex()) {
-            if (task.taskId.isBlank()) {
-                return Pair(plan, ValidationResult.Invalid("tasks[$index].taskId alanı boş olamaz."))
+        // Auto-sanitize tasks: deduplicate by taskId
+        val cleanTasks = plan.tasks
+            .filter { it.taskId.isNotBlank() }
+            .map { it.copy(taskId = SimplePlanParser.sanitizeId(it.taskId)) }
+            .distinctBy { it.taskId }
+
+        val taskIds = cleanTasks.map { it.taskId }.toMutableSet()
+
+        // Auto-sanitize daily occurrences: deduplicate and guarantee matching task references
+        val cleanDaily = mutableListOf<DailyOccurrenceJson>()
+        val seenDailyKeys = mutableSetOf<String>()
+
+        for (daily in plan.dailyOccurrences) {
+            val cleanTaskId = SimplePlanParser.sanitizeId(daily.taskId)
+            if (!taskIds.contains(cleanTaskId)) {
+                taskIds.add(cleanTaskId)
             }
-            if (!taskIdRegex.matches(task.taskId)) {
-                return Pair(plan, ValidationResult.Invalid("tasks[$index].taskId geçersiz: '${task.taskId}'. Sadece küçük harf, rakam ve alt çizgi kullanılabilir."))
+
+            var key = "$cleanTaskId:${daily.date}"
+            if (seenDailyKeys.contains(key)) {
+                var idx = 2
+                while (seenDailyKeys.contains("${cleanTaskId}_$idx:${daily.date}")) {
+                    idx++
+                }
+                key = "${cleanTaskId}_$idx:${daily.date}"
             }
-            if (!taskIds.add(task.taskId)) {
-                return Pair(plan, ValidationResult.Invalid("Yinelenen taskId tespit edildi: '${task.taskId}'"))
+
+            seenDailyKeys.add(key)
+            cleanDaily.add(daily.copy(occurrenceKey = key, taskId = cleanTaskId))
+        }
+
+        // Auto-sanitize weekly occurrences: deduplicate
+        val cleanWeekly = mutableListOf<WeeklyOccurrenceJson>()
+        val seenWeeklyKeys = mutableSetOf<String>()
+
+        for (weekly in plan.weeklyOccurrences) {
+            val cleanTaskId = SimplePlanParser.sanitizeId(weekly.taskId)
+            if (!taskIds.contains(cleanTaskId)) {
+                taskIds.add(cleanTaskId)
+            }
+
+            val key = "$cleanTaskId:${weekly.weekId}"
+            if (!seenWeeklyKeys.contains(key)) {
+                seenWeeklyKeys.add(key)
+                cleanWeekly.add(weekly.copy(occurrenceKey = key, taskId = cleanTaskId))
             }
         }
 
-        val dailyKeys = mutableSetOf<String>()
-        for ((index, daily) in plan.dailyOccurrences.withIndex()) {
-            if (daily.occurrenceKey.isBlank()) {
-                return Pair(plan, ValidationResult.Invalid("dailyOccurrences[$index].occurrenceKey boş olamaz."))
-            }
-            val expectedKey = "${daily.taskId}:${daily.date}"
-            if (daily.occurrenceKey != expectedKey) {
-                return Pair(plan, ValidationResult.Invalid("dailyOccurrences[$index].occurrenceKey uyumsuz: '${daily.occurrenceKey}'. Beklenen: '$expectedKey'"))
-            }
-            if (!taskIds.contains(daily.taskId)) {
-                return Pair(plan, ValidationResult.Invalid("dailyOccurrences[$index] tanımsız taskId referans veriyor: '${daily.taskId}'"))
-            }
-            if (!dateRegex.matches(daily.date)) {
-                return Pair(plan, ValidationResult.Invalid("dailyOccurrences[$index].date formatı hatalı: '${daily.date}'"))
-            }
-            if (!dailyKeys.add(daily.occurrenceKey)) {
-                return Pair(plan, ValidationResult.Invalid("Yinelenen daily occurrenceKey tespit edildi: '${daily.occurrenceKey}'"))
-            }
-        }
+        val sanitizedPlan = plan.copy(
+            schemaVersion = 1,
+            tasks = cleanTasks,
+            dailyOccurrences = cleanDaily,
+            weeklyOccurrences = cleanWeekly
+        )
 
-        val weeklyKeys = mutableSetOf<String>()
-        for ((index, weekly) in plan.weeklyOccurrences.withIndex()) {
-            if (weekly.occurrenceKey.isBlank()) {
-                return Pair(plan, ValidationResult.Invalid("weeklyOccurrences[$index].occurrenceKey boş olamaz."))
-            }
-            val expectedKey = "${weekly.taskId}:${weekly.weekId}"
-            if (weekly.occurrenceKey != expectedKey) {
-                return Pair(plan, ValidationResult.Invalid("weeklyOccurrences[$index].occurrenceKey uyumsuz: '${weekly.occurrenceKey}'. Beklenen: '$expectedKey'"))
-            }
-            if (!taskIds.contains(weekly.taskId)) {
-                return Pair(plan, ValidationResult.Invalid("weeklyOccurrences[$index] tanımsız taskId referans veriyor: '${weekly.taskId}'"))
-            }
-            if (!weekIdRegex.matches(weekly.weekId)) {
-                return Pair(plan, ValidationResult.Invalid("weeklyOccurrences[$index].weekId formatı hatalı: '${weekly.weekId}'"))
-            }
-            if (!weeklyKeys.add(weekly.occurrenceKey)) {
-                return Pair(plan, ValidationResult.Invalid("Yinelenen weekly occurrenceKey tespit edildi: '${weekly.occurrenceKey}'"))
-            }
-        }
-
-        return Pair(plan, ValidationResult.Valid)
+        return Pair(sanitizedPlan, ValidationResult.Valid)
     }
 }
