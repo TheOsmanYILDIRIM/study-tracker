@@ -29,7 +29,8 @@ class LocalPlanRepositoryImpl(
                 try {
                     json.decodeFromString(Plan.serializer(), it.rawJson)
                 } catch (e: Exception) {
-                    null
+                    val (p, _) = PlanValidator.parseAndValidate(it.rawJson)
+                    p
                 }
             }
         }
@@ -40,7 +41,8 @@ class LocalPlanRepositoryImpl(
         return try {
             json.decodeFromString(Plan.serializer(), entity.rawJson)
         } catch (e: Exception) {
-            null
+            val (p, _) = PlanValidator.parseAndValidate(entity.rawJson)
+            p
         }
     }
 
@@ -63,6 +65,12 @@ class LocalPlanRepositoryImpl(
         // DB Transactions
         val taskEntities = newPlan.tasks.map { it.toEntity() }
         val occurrenceEntities = mergedOccurrences.map { it.toEntity() }
+        val canonicalJson = try {
+            json.encodeToString(newPlan)
+        } catch (_: Exception) {
+            planJson
+        }
+
         val planEntity = PlanEntity(
             planId = newPlan.planId,
             weekId = newPlan.weekId,
@@ -70,7 +78,7 @@ class LocalPlanRepositoryImpl(
             childId = newPlan.childId,
             timezone = newPlan.timezone,
             updatedAt = newPlan.updatedAt,
-            rawJson = planJson
+            rawJson = canonicalJson
         )
 
         db.taskTemplateDao().upsertTasks(taskEntities)

@@ -156,4 +156,40 @@ class SimplePlanParserTest {
         assertEquals("2026-09-14", plan?.weekStartDate)
         assertTrue((plan?.dailyOccurrences?.size ?: 0) > 0)
     }
+
+    @Test
+    fun `parse clean user plan snippet with Turkish day names and pipe descriptions`() {
+        val cleanSnippet = """
+            HAFTA = 2026-W38
+            BASLANGIC = 2026-09-14
+            OGRENCI = child_1
+            [DERSLER]
+            mat = Matematik | 40 dk | Konu Tekrarı ve Soru Çözümü
+            turkce = Türkçe | 35 dk | Paragraf ve Dil Bilgisi
+            fen = Fen Bilimleri | 35 dk | Konu Tekrarı ve Test
+            sosyal = Sosyal Bilgiler | 30 dk | Kavram Tekrarı ve Soru Çözümü
+            ingilizce = İngilizce | 25 dk | Kelime Ezberi ve Alıştırma
+            kitap = Kitap Okuma | 20 dk | Serbest Okuma
+            [GUNLER]
+            Pazartesi = mat, turkce, kitap
+            Sali = fen, ingilizce, kitap
+            Carsamba = mat, sosyal, kitap
+            Persembe = turkce, fen, kitap
+            Cuma = mat, ingilizce, kitap
+            Cumartesi = fen, sosyal, kitap
+            Pazar = kitap
+            [HAFTALIK]
+            deneme = Hafta Sonu Deneme Sınavı | 90 dk | Tüm Dersler Genel Değerlendirme Denemesi
+        """.trimIndent()
+
+        val (plan, result) = com.studytracker.core.data.plan_engine.PlanValidator.parseAndValidate(cleanSnippet)
+
+        assertNotNull(plan)
+        assertTrue("Validation should pass: $result", result is ValidationResult.Valid)
+        assertEquals("2026-W38", plan?.weekId)
+        assertEquals("2026-09-14", plan?.weekStartDate)
+        assertEquals(7, plan?.tasks?.size)
+        assertEquals(19, plan?.dailyOccurrences?.size)
+        assertEquals(1, plan?.weeklyOccurrences?.size)
+    }
 }
