@@ -28,5 +28,7 @@
 - [x] Plan Stüdyosunda Takvim Tabanlı Hafta Seçici Bileşeni (`WeekCalendarPicker`)
 - [x] JSON Yerine Kolay Bozulmayan Basit Değişken/DSL Plan Formatı (`SimplePlanParser` & `SimplePlanExporter`)
 - [x] Ultra Hata Toleranslı Plan Ayrıştırma (Preamble/Prompt Temizliği, Çoklu Blok ve Yinelenen Anahtar Otomatik Tekilleştirme / Auto-Healing)
+- [x] Sabit Kalıcı Keystore İmzalama (`antigravity.keystore` ile üst üste güncelleme) & Modern Adaptive Uygulama İkonu (`ic_launcher` / `ic_launcher_round`)
+
 
 

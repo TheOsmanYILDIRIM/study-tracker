@@ -22,8 +22,18 @@ android {
         }
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("antigravity.keystore")
+            storePassword = "antigravity_android_key"
+            keyAlias = "antigravity"
+            keyPassword = "antigravity_android_key"
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -31,6 +41,7 @@ android {
             )
         }
         debug {
+            signingConfig = signingConfigs.getByName("release")
             applicationIdSuffix = ".debug"
         }
     }

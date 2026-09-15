@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Open Book Left Page -->
+        <path
+            android:fillColor="#F8FAFC"
+            android:pathData="M51,46 C42,42 32,43 24,46 L24,76 C32,73 42,72 51,76 Z" />
+        <!-- Open Book Right Page -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M57,46 C66,42 76,43 84,46 L84,76 C76,73 66,72 57,76 Z" />
+        <!-- Book Spine/Center -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M51,46 L57,46 L57,76 L51,76 Z" />
+        <!-- Graduation Cap / Scholar Icon on top -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M54,24 L28,36 L54,48 L80,36 Z" />
+        <path
+            android:fillColor="#059669"
+            android:pathData="M38,41 L38,55 C38,62 70,62 70,55 L70,41 L54,48 Z" />
+        <!-- Glowing Tassel / Star -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M78,37 L82,48 L78,54 L74,48 Z" />
+        <!-- Target / Progress Check Badge -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M68,66 A10,10 0 1,0 68,86 A10,10 0 1,0 68,66 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M64,76 L67,79 L73,73 L71.5,71.5 L67,76 L65.5,74.5 Z" />
+    </group>
+</vector>
