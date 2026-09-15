@@ -4,67 +4,94 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
 // ============================================================================
-// 🌌 CYBER-VIOLET FUTURISTIC DESIGN SYSTEM (Dark Violet Canvas + Neon Accents)
+// 🌌 ZEN STARRY NIGHT & NATURE DESIGN SYSTEM (Calming Night Sky & Nature Tones)
+// Inspired by peaceful evening mountain lakes, starry skies & soft moon glow
 // ============================================================================
 
-// 1. Deep Dark Violet Canvas & Glass Surfaces (Futuristic & OLED-Friendly)
-val ZomoDarkCanvas = Color(0xFF090414)        // Deepest cosmic purple background
-val ZomoDarkSurface = Color(0xFF140C28)       // Glass card surface
-val ZomoDarkCard = Color(0xFF1A1033)          // Elevated card background
-val ZomoDarkCardElevated = Color(0xFF231645)  // High elevated surface
-val ZomoDarkBorder = Color(0x33A855F7)        // Subtle luminous purple glass border (20% alpha)
-val ZomoGlassBorder = Color(0x26C084FC)       // Delicate glow border (15% alpha)
+// 1. Deep Midnight Blue & Starry Night Surfaces (Calming, Eye-friendly, OLED optimized)
+val ZenNightCanvas = Color(0xFF080D1A)         // Deepest night sky canvas
+val ZenNightSurface = Color(0xFF0F172A)        // Refined translucent night slate card
+val ZenNightCard = Color(0xFF162036)           // Elevated soft slate card
+val ZenNightCardElevated = Color(0xFF1E2B48)   // High elevation surface
+val ZenNightBorder = Color(0x3338BDF8)         // Soft aurora glow glass border (20% cyan alpha)
+val ZenGlassBorder = Color(0x1FFFFFFF)         // Delicate translucent white border (12% alpha)
 
-// 2. Futuristic Hero Gradients (Glowing Violet -> Magenta -> Cyan)
-val ZomoGradientStart = Color(0xFF6D28D9)      // Vivid deep violet
-val ZomoGradientMiddle = Color(0xFF9333EA)     // Electric purple
-val ZomoGradientEnd = Color(0xFFD946EF)        // Neon fuchsia / magenta
+// Backward compatible aliases
+val ZomoDarkCanvas = ZenNightCanvas
+val ZomoDarkSurface = ZenNightSurface
+val ZomoDarkCard = ZenNightCard
+val ZomoDarkCardElevated = ZenNightCardElevated
+val ZomoDarkBorder = ZenNightBorder
+val ZomoGlassBorder = ZenGlassBorder
 
-val ZomoHeroGradient = Brush.horizontalGradient(
-    colors = listOf(ZomoGradientStart, ZomoGradientMiddle, ZomoGradientEnd)
+// 2. Serene Hero Gradients (Deep Indigo -> Mountain Teal -> Starry Cyan)
+val ZenGradientStart = Color(0xFF1E293B)       // Serene slate blue
+val ZenGradientMiddle = Color(0xFF0F3A5D)      // Mountain lake indigo
+val ZenGradientEnd = Color(0xFF0369A1)         // Midnight cyan glow
+
+val ZomoGradientStart = Color(0xFF1E293B)
+val ZomoGradientMiddle = Color(0xFF0F3A5D)
+val ZomoGradientEnd = Color(0xFF0369A1)
+
+val ZenHeroGradient = Brush.horizontalGradient(
+    colors = listOf(Color(0xFF0F172A), Color(0xFF162D4A), Color(0xFF0C4A6E))
 )
 
+val ZomoHeroGradient = ZenHeroGradient
+
 val ZomoCardGradient = Brush.verticalGradient(
-    colors = listOf(Color(0xFF1F123D), Color(0xFF130A26))
+    colors = listOf(Color(0xFF131D33), Color(0xFF0A1020))
 )
 
 val ZomoGlowGradient = Brush.radialGradient(
-    colors = listOf(Color(0x4DA855F7), Color(0x00000000))
+    colors = listOf(Color(0x3338BDF8), Color(0x00000000))
 )
 
-// 3. High-Contrast Neon Mint / Cyan (Primary CTA buttons, progress sliders, active thumbs)
-val ZomoNeonMint = Color(0xFF00F5D4)          // Electric glowing mint
-val ZomoNeonMintDark = Color(0xFF0F766E)
-val ZomoNeonMintContainer = Color(0x2800F5D4)  // Translucent glowing mint container
-val ZomoNeonMintText = Color(0xFF02241F)      // Deep dark contrast text for neon mint buttons
+// 3. Calming Moon & Aurora Accents
+val ZenMoonGold = Color(0xFFFBBF24)            // Warm golden moon accent
+val ZenMoonGoldContainer = Color(0x28FBBF24)
+val ZenSkyCyan = Color(0xFF38BDF8)             // Serene lake cyan
+val ZenSkyCyanContainer = Color(0x2838BDF8)
+val ZenMintSoft = Color(0xFF2DD4BF)            // Soft nature mint
+val ZenMintContainer = Color(0x282DD4BF)
+val ZenMintText = Color(0xFF032824)
+val ZenForestGreen = Color(0xFF10B981)         // Pine emerald
+val ZenForestContainer = Color(0x2810B981)
+val ZenRoseCoral = Color(0xFFF43F5E)           // Gentle sunset coral
+val ZenRoseContainer = Color(0x28F43F5E)
+val ZenLavender = Color(0xFFA78BFA)            // Twilight violet
+val ZenLavenderContainer = Color(0x28A78BFA)
 
-// 4. Vibrant Neon Accent Colors for Categories & Statuses
-val ZomoPink = Color(0xFFFF2E93)              // Electric hot pink (videos / urgent)
-val ZomoPinkContainer = Color(0x26FF2E93)
+// Mappings for existing symbols
+val ZomoNeonMint = ZenSkyCyan
+val ZomoNeonMintDark = Color(0xFF0284C7)
+val ZomoNeonMintContainer = ZenSkyCyanContainer
+val ZomoNeonMintText = Color(0xFF082F49)
 
-val ZomoAmber = Color(0xFFFBBF24)             // Electric gold / amber (paused / goals)
-val ZomoAmberContainer = Color(0x26FBBF24)
+val ZomoPink = ZenRoseCoral
+val ZomoPinkContainer = ZenRoseContainer
 
-val ZomoSky = Color(0xFF38BDF8)               // Electric cyan (reading / books)
-val ZomoSkyContainer = Color(0x2638BDF8)
+val ZomoAmber = ZenMoonGold
+val ZomoAmberContainer = ZenMoonGoldContainer
 
-val ZomoEmerald = Color(0xFF10B981)           // Emerald green (approved / success)
-val ZomoEmeraldContainer = Color(0x2610B981)
+val ZomoSky = ZenSkyCyan
+val ZomoSkyContainer = ZenSkyCyanContainer
 
-val ZomoPurplePrimary = Color(0xFFA855F7)     // Vibrant electric violet
-val ZomoPurpleLight = Color(0xFFC084FC)
+val ZomoEmerald = ZenForestGreen
+val ZomoEmeraldContainer = ZenForestContainer
+
+val ZomoPurplePrimary = ZenLavender
+val ZomoPurpleLight = Color(0xFFC4B5FD)
 val ZomoPurpleDark = Color(0xFF7C3AED)
-val ZomoVioletContainer = Color(0x26A855F7)
+val ZomoVioletContainer = ZenLavenderContainer
 
-// 5. Crisp High-Contrast Typography
-val ZomoTextPrimary = Color(0xFFF8FAFC)       // Pure crisp white
-val ZomoTextSecondary = Color(0xFF94A3B8)     // Soft slate / silver
-val ZomoTextMuted = Color(0xFF64748B)         // Deep muted slate
-val ZomoTextAccent = Color(0xFFC084FC)        // Glowing purple text
+// 4. Crisp High-Contrast Typography
+val ZomoTextPrimary = Color(0xFFF8FAFC)        // Pure crisp white
+val ZomoTextSecondary = Color(0xFF94A3B8)      // Serene slate / silver
+val ZomoTextMuted = Color(0xFF64748B)          // Deep muted slate
+val ZomoTextAccent = ZenSkyCyan                // Glowing starry cyan
 
-// ============================================================================
-// Semantic Aliases for Universal Dark Futuristic Experience
-// ============================================================================
+// Semantic Aliases
 val ZomoBackground = ZomoDarkCanvas
 val ZomoLavenderBg = ZomoDarkCanvas
 val ZomoCardBackground = ZomoDarkSurface
@@ -98,7 +125,7 @@ val PurpleDark = ZomoPurpleLight
 val PurpleContainer = ZomoVioletContainer
 
 val RoseReject = ZomoPink
-val RoseDark = Color(0xFFFB7185)
+val RoseDark = Color(0xFFE11D48)
 val RoseContainer = ZomoPinkContainer
 
 val DarkBackground = ZomoDarkCanvas

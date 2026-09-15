@@ -1,8 +1,8 @@
 package com.studytracker.feature.parent
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -15,18 +15,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.studytracker.R
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.ui.theme.*
 
-private val FuturisticHeroShape = RoundedCornerShape(32.dp)
-private val FuturisticCardShape = RoundedCornerShape(28.dp)
-private val FuturisticSquircleShape = RoundedCornerShape(18.dp)
-private val FuturisticPillShape = CircleShape
+private val ZenHeroShape = RoundedCornerShape(28.dp)
+private val ZenCardShape = RoundedCornerShape(24.dp)
+private val ZenSquircleShape = RoundedCornerShape(16.dp)
+private val ZenPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -46,11 +49,11 @@ fun RoleSelectionScreen(
     var pinError by remember { mutableStateOf(false) }
 
     Scaffold(
-        containerColor = ZomoDarkCanvas,
+        containerColor = ZenNightCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoDarkCanvas,
+                    containerColor = ZenNightCanvas,
                     titleContentColor = ZomoTextPrimary
                 ),
                 title = {
@@ -59,38 +62,38 @@ fun RoleSelectionScreen(
                         horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(14.dp),
-                            color = ZomoVioletContainer,
-                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
-                            modifier = Modifier.size(38.dp)
+                            shape = RoundedCornerShape(12.dp),
+                            color = ZenSkyCyanContainer,
+                            border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
+                            modifier = Modifier.size(36.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     Icons.Default.AutoStories,
                                     contentDescription = null,
-                                    tint = ZomoPurplePrimary,
-                                    modifier = Modifier.size(20.dp)
+                                    tint = ZenSkyCyan,
+                                    modifier = Modifier.size(18.dp)
                                 )
                             }
                         }
                         Text(
                             "StudyTracker",
-                            fontWeight = FontWeight.Black,
-                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 19.sp,
                             color = ZomoTextPrimary
                         )
                         if (isTestModeEnabled) {
                             Surface(
-                                shape = FuturisticPillShape,
-                                color = ZomoPinkContainer,
-                                border = BorderStroke(1.dp, ZomoPink.copy(alpha = 0.4f))
+                                shape = ZenPillShape,
+                                color = ZenRoseContainer,
+                                border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f))
                             ) {
                                 Text(
                                     text = "🧪 TEST",
-                                    color = ZomoPink,
+                                    color = ZenRoseCoral,
                                     fontSize = 10.sp,
-                                    fontWeight = FontWeight.Black,
-                                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 3.dp)
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
                                 )
                             }
                         }
@@ -99,16 +102,16 @@ fun RoleSelectionScreen(
                 actions = {
                     IconButton(onClick = onNavigateToDevMode) {
                         Surface(
-                            shape = FuturisticPillShape,
-                            color = ZomoDarkSurface,
-                            border = BorderStroke(1.dp, ZomoDarkBorder),
+                            shape = ZenPillShape,
+                            color = ZenNightSurface,
+                            border = BorderStroke(1.dp, ZenNightBorder),
                             modifier = Modifier.size(36.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     imageVector = if (isTestModeEnabled) Icons.Default.Build else Icons.Default.Settings,
                                     contentDescription = "Ayarlar / Test Konsolu",
-                                    tint = if (isTestModeEnabled) ZomoPurplePrimary else ZomoTextSecondary,
+                                    tint = if (isTestModeEnabled) ZenSkyCyan else ZomoTextSecondary,
                                     modifier = Modifier.size(18.dp)
                                 )
                             }
@@ -122,25 +125,51 @@ fun RoleSelectionScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 20.dp, vertical = 12.dp),
+                .padding(horizontal = 18.dp, vertical = 8.dp),
             verticalArrangement = Arrangement.SpaceBetween,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Futuristic Hero Header Card
+            // Serene Zen Nature & Starry Sky Hero Card (Illustration + Calming Greeting)
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clip(FuturisticHeroShape)
-                    .background(ZomoHeroGradient)
-                    .padding(24.dp)
+                    .height(210.dp)
+                    .clip(ZenHeroShape)
+                    .border(BorderStroke(1.dp, ZenNightBorder), ZenHeroShape)
             ) {
+                // Background Night Sky Illustration
+                Image(
+                    painter = painterResource(id = R.drawable.bg_zen_night),
+                    contentDescription = null,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier.fillMaxSize()
+                )
+
+                // Soft dark gradient overlay for crystal clear typography
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .background(
+                            Brush.verticalGradient(
+                                colors = listOf(
+                                    Color(0x55080D1A),
+                                    Color(0xDD080D1A)
+                                )
+                            )
+                        )
+                )
+
+                // Card Content
                 Column(
-                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(20.dp),
+                    verticalArrangement = Arrangement.SpaceBetween
                 ) {
                     Surface(
-                        shape = FuturisticPillShape,
-                        color = Color.Black.copy(alpha = 0.35f),
-                        border = BorderStroke(1.dp, Color.White.copy(alpha = 0.2f))
+                        shape = ZenPillShape,
+                        color = Color.Black.copy(alpha = 0.45f),
+                        border = BorderStroke(1.dp, Color.White.copy(alpha = 0.25f))
                     ) {
                         Row(
                             modifier = Modifier.padding(horizontal = 12.dp, vertical = 5.dp),
@@ -148,42 +177,44 @@ fun RoleSelectionScreen(
                             horizontalArrangement = Arrangement.spacedBy(6.dp)
                         ) {
                             Icon(
-                                Icons.Default.AutoAwesome,
+                                Icons.Default.NightsStay,
                                 contentDescription = null,
-                                tint = ZomoNeonMint,
-                                modifier = Modifier.size(14.dp)
+                                tint = ZenMoonGold,
+                                modifier = Modifier.size(13.dp)
                             )
                             Text(
-                                text = "Akıllı Çalışma & Hedef Takibi",
+                                text = "Huzurlu & Odaklı Çalışma",
                                 color = Color.White,
-                                fontSize = 12.sp,
-                                fontWeight = FontWeight.Bold
+                                fontSize = 11.sp,
+                                fontWeight = FontWeight.SemiBold
                             )
                         }
                     }
 
-                    Text(
-                        text = "Geleceğini Şekillendir,\nHer Gün Bir Adım İleri!",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Black,
-                        color = Color.White,
-                        lineHeight = 30.sp
-                    )
-
-                    Text(
-                        text = "Lütfen devam etmek için giriş yapacağınız modu seçin.",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = Color.White.copy(alpha = 0.85f)
-                    )
+                    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        Text(
+                            text = "Hoş Geldin! ✨",
+                            style = MaterialTheme.typography.headlineSmall,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White,
+                            letterSpacing = 0.2.sp
+                        )
+                        Text(
+                            text = "Sakin bir zihinle hedeflerine adım at. Giriş yapacağın modu seç.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = Color.White.copy(alpha = 0.9f),
+                            lineHeight = 17.sp
+                        )
+                    }
                 }
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(14.dp))
 
-            // Role Selection Cards Column (Futuristic Dark Glass)
+            // Role Selection Cards Column
             Column(
                 modifier = Modifier.fillMaxWidth(),
-                verticalArrangement = Arrangement.spacedBy(16.dp)
+                verticalArrangement = Arrangement.spacedBy(14.dp)
             ) {
                 // Student Mode Card
                 Card(
@@ -195,77 +226,82 @@ fun RoleSelectionScreen(
                         }
                     },
                     modifier = Modifier.fillMaxWidth(),
-                    shape = FuturisticCardShape,
-                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
-                    border = BorderStroke(1.dp, ZomoDarkBorder)
+                    shape = ZenCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZenNightSurface),
+                    border = BorderStroke(1.dp, ZenNightBorder)
                 ) {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(20.dp),
+                            .padding(18.dp),
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(16.dp)
+                        horizontalArrangement = Arrangement.spacedBy(14.dp)
                     ) {
                         Surface(
-                            shape = FuturisticSquircleShape,
-                            color = ZomoVioletContainer,
-                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.4f)),
-                            modifier = Modifier.size(60.dp)
+                            shape = ZenSquircleShape,
+                            color = ZenSkyCyanContainer,
+                            border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.35f)),
+                            modifier = Modifier.size(54.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     Icons.Default.School,
                                     contentDescription = null,
-                                    tint = ZomoPurplePrimary,
-                                    modifier = Modifier.size(30.dp)
+                                    tint = ZenSkyCyan,
+                                    modifier = Modifier.size(26.dp)
                                 )
                             }
                         }
 
-                        Column(modifier = Modifier.weight(1f)) {
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            verticalArrangement = Arrangement.spacedBy(2.dp)
+                        ) {
                             Row(
                                 verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
                             ) {
                                 Text(
                                     "Öğrenci Modu",
                                     style = MaterialTheme.typography.titleMedium,
-                                    fontWeight = FontWeight.Black,
-                                    color = ZomoTextPrimary
+                                    fontWeight = FontWeight.Bold,
+                                    color = ZomoTextPrimary,
+                                    maxLines = 1
                                 )
                                 Surface(
-                                    shape = FuturisticPillShape,
-                                    color = ZomoNeonMintContainer
+                                    shape = ZenPillShape,
+                                    color = ZenSkyCyanContainer
                                 ) {
                                     Text(
-                                        "ÖĞRENCİ",
-                                        color = ZomoNeonMint,
+                                        text = "ÖĞRENCİ",
+                                        color = ZenSkyCyan,
                                         fontSize = 9.sp,
-                                        fontWeight = FontWeight.Black,
-                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
+                                        fontWeight = FontWeight.Bold,
+                                        maxLines = 1,
+                                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 2.dp)
                                     )
                                 }
                             }
-                            Spacer(modifier = Modifier.height(3.dp))
                             Text(
                                 text = if (hasCompletedTutorial) "Bugünkü derslerine ve görevlerine başla" else "İlk giriş: Hızlı rehber ve görev masam",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary,
-                                lineHeight = 16.sp
+                                lineHeight = 15.sp,
+                                maxLines = 2
                             )
                         }
 
                         Surface(
-                            shape = FuturisticPillShape,
-                            color = ZomoNeonMint,
-                            modifier = Modifier.size(40.dp)
+                            shape = ZenPillShape,
+                            color = ZenSkyCyan,
+                            modifier = Modifier.size(36.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     Icons.Default.ArrowForward,
                                     contentDescription = null,
-                                    tint = ZomoNeonMintText,
-                                    modifier = Modifier.size(20.dp)
+                                    tint = ZenMintText,
+                                    modifier = Modifier.size(18.dp)
                                 )
                             }
                         }
@@ -276,78 +312,83 @@ fun RoleSelectionScreen(
                 Card(
                     onClick = { showPinDialog = true },
                     modifier = Modifier.fillMaxWidth(),
-                    shape = FuturisticCardShape,
-                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
-                    border = BorderStroke(1.dp, ZomoGlassBorder)
+                    shape = ZenCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZenNightSurface),
+                    border = BorderStroke(1.dp, ZenGlassBorder)
                 ) {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(20.dp),
+                            .padding(18.dp),
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(16.dp)
+                        horizontalArrangement = Arrangement.spacedBy(14.dp)
                     ) {
                         Surface(
-                            shape = FuturisticSquircleShape,
-                            color = ZomoEmeraldContainer,
-                            border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f)),
-                            modifier = Modifier.size(60.dp)
+                            shape = ZenSquircleShape,
+                            color = ZenForestContainer,
+                            border = BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.35f)),
+                            modifier = Modifier.size(54.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     Icons.Default.SupervisorAccount,
                                     contentDescription = null,
-                                    tint = ZomoEmerald,
-                                    modifier = Modifier.size(30.dp)
+                                    tint = ZenForestGreen,
+                                    modifier = Modifier.size(26.dp)
                                 )
                             }
                         }
 
-                        Column(modifier = Modifier.weight(1f)) {
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            verticalArrangement = Arrangement.spacedBy(2.dp)
+                        ) {
                             Row(
                                 verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
                             ) {
                                 Text(
                                     "Ebeveyn Modu",
                                     style = MaterialTheme.typography.titleMedium,
-                                    fontWeight = FontWeight.Black,
-                                    color = ZomoTextPrimary
+                                    fontWeight = FontWeight.Bold,
+                                    color = ZomoTextPrimary,
+                                    maxLines = 1
                                 )
                                 Surface(
-                                    shape = FuturisticPillShape,
-                                    color = ZomoVioletContainer
+                                    shape = ZenPillShape,
+                                    color = ZenForestContainer
                                 ) {
                                     Text(
-                                        "YÖNETİM",
-                                        color = ZomoPurplePrimary,
+                                        text = "YÖNETİM",
+                                        color = ZenForestGreen,
                                         fontSize = 9.sp,
-                                        fontWeight = FontWeight.Black,
-                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
+                                        fontWeight = FontWeight.Bold,
+                                        maxLines = 1,
+                                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 2.dp)
                                     )
                                 }
                             }
-                            Spacer(modifier = Modifier.height(3.dp))
                             Text(
                                 text = "Haftalık plan oluştur, onay kuyruğunu ve kanıtları incele",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary,
-                                lineHeight = 16.sp
+                                lineHeight = 15.sp,
+                                maxLines = 2
                             )
                         }
 
                         Surface(
-                            shape = FuturisticPillShape,
-                            color = Color(0x33A855F7),
-                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.4f)),
-                            modifier = Modifier.size(40.dp)
+                            shape = ZenPillShape,
+                            color = ZenNightCardElevated,
+                            border = BorderStroke(1.dp, ZenNightBorder),
+                            modifier = Modifier.size(36.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(
                                     Icons.Default.Lock,
                                     contentDescription = null,
-                                    tint = ZomoPurplePrimary,
-                                    modifier = Modifier.size(18.dp)
+                                    tint = ZenSkyCyan,
+                                    modifier = Modifier.size(16.dp)
                                 )
                             }
                         }
@@ -359,23 +400,23 @@ fun RoleSelectionScreen(
             if (isTestModeEnabled) {
                 OutlinedButton(
                     onClick = onNavigateToDevMode,
-                    shape = FuturisticPillShape,
-                    border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
+                    shape = ZenPillShape,
+                    border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = 12.dp)
+                        .padding(top = 10.dp)
                 ) {
-                    Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(16.dp), tint = ZomoPurplePrimary)
+                    Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(15.dp), tint = ZenSkyCyan)
                     Spacer(modifier = Modifier.width(8.dp))
-                    Text("🛠️ Geliştirici & Test Konsolu", color = ZomoPurplePrimary, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Text("🛠️ Geliştirici & Test Konsolu", color = ZenSkyCyan, fontWeight = FontWeight.Bold, fontSize = 12.sp)
                 }
             } else {
-                Spacer(modifier = Modifier.height(12.dp))
+                Spacer(modifier = Modifier.height(10.dp))
             }
         }
     }
 
-    // Parent PIN Dialog (Dark Futuristic)
+    // Parent PIN Dialog
     if (showPinDialog) {
         AlertDialog(
             onDismissRequest = {
@@ -383,45 +424,45 @@ fun RoleSelectionScreen(
                 pinText = ""
                 pinError = false
             },
-            shape = FuturisticCardShape,
-            containerColor = ZomoDarkCard,
+            shape = ZenCardShape,
+            containerColor = ZenNightCard,
             title = {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
                     Surface(
-                        shape = RoundedCornerShape(12.dp),
-                        color = ZomoVioletContainer,
-                        modifier = Modifier.size(38.dp)
+                        shape = RoundedCornerShape(10.dp),
+                        color = ZenSkyCyanContainer,
+                        modifier = Modifier.size(34.dp)
                     ) {
                         Box(contentAlignment = Alignment.Center) {
-                            Icon(Icons.Default.Lock, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
+                            Icon(Icons.Default.Lock, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                         }
                     }
-                    Text("Ebeveyn PIN Girişi", fontWeight = FontWeight.Black, color = ZomoTextPrimary)
+                    Text("Ebeveyn PIN Girişi", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 17.sp)
                 }
             },
             text = {
-                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text("Lütfen 4 haneli ebeveyn PIN kodunuzu girin (Varsayılan: 1234):", fontSize = 13.sp, color = ZomoTextSecondary)
                     OutlinedTextField(
                         value = pinText,
                         onValueChange = { if (it.length <= 4) pinText = it },
                         singleLine = true,
-                        shape = RoundedCornerShape(16.dp),
+                        shape = RoundedCornerShape(14.dp),
                         visualTransformation = PasswordVisualTransformation(),
                         isError = pinError,
                         modifier = Modifier.fillMaxWidth(),
                         colors = OutlinedTextFieldDefaults.colors(
-                            focusedBorderColor = ZomoPurplePrimary,
-                            unfocusedBorderColor = ZomoDarkBorder,
+                            focusedBorderColor = ZenSkyCyan,
+                            unfocusedBorderColor = ZenNightBorder,
                             focusedTextColor = ZomoTextPrimary,
                             unfocusedTextColor = ZomoTextPrimary
                         )
                     )
                     if (pinError) {
-                        Text("Hatalı PIN! Lütfen tekrar deneyin.", color = ZomoPink, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                        Text("Hatalı PIN! Lütfen tekrar deneyin.", color = ZenRoseCoral, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                     }
                 }
             },
@@ -436,18 +477,18 @@ fun RoleSelectionScreen(
                             pinError = true
                         }
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = ZomoNeonMint, contentColor = ZomoNeonMintText),
-                    shape = FuturisticPillShape
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan, contentColor = ZenMintText),
+                    shape = ZenPillShape
                 ) {
-                    Text("Giriş Yap", fontWeight = FontWeight.Black)
+                    Text("Giriş Yap", fontWeight = FontWeight.Bold)
                 }
             },
             dismissButton = {
                 TextButton(
                     onClick = { showPinDialog = false },
-                    shape = FuturisticPillShape
+                    shape = ZenPillShape
                 ) {
-                    Text("İptal", color = ZomoTextSecondary, fontWeight = FontWeight.Bold)
+                    Text("İptal", color = ZomoTextSecondary, fontWeight = FontWeight.SemiBold)
                 }
             }
         )
