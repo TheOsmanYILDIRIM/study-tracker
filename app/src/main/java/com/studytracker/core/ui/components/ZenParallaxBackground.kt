@@ -32,26 +32,26 @@ data class ZenConstellationStar(
 )
 
 val ZenConstellationStars = listOf(
-    ZenConstellationStar(0, 0.1185f, 0.4513f, 3.2f),
-    ZenConstellationStar(1, 0.6523f, 0.1490f, 3.0f),
-    ZenConstellationStar(2, 0.5755f, 0.0916f, 3.5f),
-    ZenConstellationStar(3, 0.5924f, 0.1424f, 2.8f),
-    ZenConstellationStar(4, 0.4128f, 0.1017f, 3.0f),
-    ZenConstellationStar(5, 0.8854f, 0.2951f, 3.4f),
-    ZenConstellationStar(6, 0.4727f, 0.1185f, 2.6f),
-    ZenConstellationStar(7, 0.6302f, 0.1025f, 3.1f),
-    ZenConstellationStar(8, 0.2878f, 0.1265f, 3.3f),
-    ZenConstellationStar(9, 0.5365f, 0.1344f, 2.9f),
-    ZenConstellationStar(10, 0.1602f, 0.1751f, 3.0f),
-    ZenConstellationStar(11, 0.2005f, 0.1562f, 2.7f),
-    ZenConstellationStar(12, 0.3424f, 0.1126f, 3.2f),
-    ZenConstellationStar(13, 0.6784f, 0.2209f, 2.8f),
-    ZenConstellationStar(14, 0.5872f, 0.1730f, 2.9f),
-    ZenConstellationStar(15, 0.5898f, 0.2951f, 3.1f),
-    ZenConstellationStar(16, 0.1497f, 0.4898f, 2.5f),
-    ZenConstellationStar(17, 0.6888f, 0.1250f, 3.0f),
-    ZenConstellationStar(18, 0.7487f, 0.1359f, 3.4f),
-    ZenConstellationStar(19, 0.4818f, 0.0872f, 3.0f)
+    ZenConstellationStar(0, 0.3724f, 0.2035f, 3.2f),
+    ZenConstellationStar(1, 0.6211f, 0.5487f, 3.2f),
+    ZenConstellationStar(2, 0.3568f, 0.5610f, 3.2f),
+    ZenConstellationStar(3, 0.1536f, 0.0894f, 3.2f),
+    ZenConstellationStar(4, 0.4648f, 0.2391f, 3.2f),
+    ZenConstellationStar(5, 0.7031f, 0.5283f, 3.2f),
+    ZenConstellationStar(6, 0.8581f, 0.0879f, 3.2f),
+    ZenConstellationStar(7, 0.2461f, 0.0821f, 3.2f),
+    ZenConstellationStar(8, 0.1393f, 0.1323f, 3.2f),
+    ZenConstellationStar(9, 0.4297f, 0.1613f, 3.2f),
+    ZenConstellationStar(10, 0.7969f, 0.5451f, 3.2f),
+    ZenConstellationStar(11, 0.8372f, 0.5000f, 3.2f),
+    ZenConstellationStar(12, 0.1914f, 0.5458f, 3.2f),
+    ZenConstellationStar(13, 0.1940f, 0.5196f, 3.2f),
+    ZenConstellationStar(14, 0.7448f, 0.4993f, 3.2f),
+    ZenConstellationStar(15, 0.5078f, 0.1744f, 3.2f),
+    ZenConstellationStar(16, 0.5833f, 0.0959f, 3.2f),
+    ZenConstellationStar(17, 0.5365f, 0.5908f, 3.2f),
+    ZenConstellationStar(18, 0.3919f, 0.2413f, 3.2f),
+    ZenConstellationStar(19, 0.3542f, 0.3016f, 3.2f)
 )
 
 private data class AmbientFirefly(
