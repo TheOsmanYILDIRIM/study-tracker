@@ -130,69 +130,12 @@ fun RoleSelectionScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 18.dp, vertical = 12.dp),
-            verticalArrangement = Arrangement.SpaceBetween,
+                .padding(horizontal = 18.dp, vertical = 16.dp),
+            verticalArrangement = Arrangement.Bottom,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Clean Frosted Glass Welcome Header without duplicate picture
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(ZenCardShape)
-                    .background(ZenPaperCard)
-                    .border(1.dp, ZenPaperBorder, ZenCardShape)
-                    .padding(20.dp)
-            ) {
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .clip(ZenPillShape)
-                                .background(ZenMoonGoldContainer)
-                                .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), ZenPillShape)
-                                .padding(horizontal = 10.dp, vertical = 4.dp)
-                        ) {
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(4.dp)
-                            ) {
-                                Icon(
-                                    imageVector = Icons.Default.NightsStay,
-                                    contentDescription = null,
-                                    tint = ZenMoonGold,
-                                    modifier = Modifier.size(13.dp)
-                                )
-                                Text(
-                                    text = "Zen Gece Modu",
-                                    color = ZenMoonGold,
-                                    fontSize = 11.sp,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            }
-                        }
-                    }
-
-                    Text(
-                        text = "Hoş Geldin! ✨",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = ZomoTextPrimary,
-                        fontSize = 22.sp
-                    )
-                    Text(
-                        text = "Sakin bir zihinle hedeflerine adım at. Giriş yapacağın modu seç.",
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = ZomoTextSecondary,
-                        lineHeight = 18.sp,
-                        fontSize = 13.sp
-                    )
-                }
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
+            // Push role cards to bottom half so the celestial moon & sky are fully visible in 3D parallax
+            Spacer(modifier = Modifier.weight(1f))
 
             // Role Selection Cards Column
             Column(

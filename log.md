@@ -83,7 +83,7 @@
   2. `bg_zen_layer2_mountains.webp`: Sisli dağ silsilesi ve krem bulutlar (ZIT YÖN: Sağa -> Sola `19s` süzülme).
   3. `bg_zen_layer3_forest.webp`: Zümrüt yeşili katmanlı çam ormanı ve orman gölü (ZIT YÖN: Sola -> Sağa `14s` hızlı süzülme).
   4. `bg_zen_layer4_foreground.webp`: Ön plan sazlıklar, çalılar, göldeki ay yansıması ve çerçeveleme ağaçları (ZIT YÖN: Sağa -> Sola `11s` en hızlı süzülme).
-- **Her Katmanda Ters Yönlü Sinüzoidal Hareket:** Her ardışık derinlik düzlemi bir öncekinin zıt yönüne hareket ederek üst düzey 3D stereoskopik derinlik etkisi sağlandı.
-- **Canlı Ateşböcekleri & %40 Transparanlık:** Çamların ve gölün üzerinde süzülen parıltılı altın/turkuaz ateşböceği tuvali entegre edildi; görselin tüm renklerini parlak gösteren %40'lık hafif bir okuma katmanı uygulandı.
+- **Rol Seçim Ekranı Üst Kartının Kaldırılması:** `RoleSelectionScreen` üstündeki "Hoş Geldin / Zen Gece Modu" kutusu tamamen kaldırılarak ekranın üst yarısı temizlendi; hilal ay, takımyıldızlar ve gökyüzü katmanının 3D paralaks görünümü doğrudan görünür kılındı, mod kartları alt yarıya hizalandı.
+
 
 
