@@ -4,17 +4,22 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
 // ============================================================================
-// 🌌 ZEN STARRY NIGHT & NATURE DESIGN SYSTEM (Calming Night Sky & Nature Tones)
-// Inspired by peaceful evening mountain lakes, starry skies & soft moon glow
+// 🌌 ZEN STARRY NIGHT & STORYBOOK PAPER CRAFT DESIGN SYSTEM
+// Layered paper cutout depth, peaceful night sky & nature aesthetics
 // ============================================================================
 
 // 1. Deep Midnight Blue & Starry Night Surfaces (Calming, Eye-friendly, OLED optimized)
 val ZenNightCanvas = Color(0xFF080D1A)         // Deepest night sky canvas
-val ZenNightSurface = Color(0xFF0F172A)        // Refined translucent night slate card
-val ZenNightCard = Color(0xFF162036)           // Elevated soft slate card
-val ZenNightCardElevated = Color(0xFF1E2B48)   // High elevation surface
-val ZenNightBorder = Color(0x3338BDF8)         // Soft aurora glow glass border (20% cyan alpha)
-val ZenGlassBorder = Color(0x1FFFFFFF)         // Delicate translucent white border (12% alpha)
+val ZenNightSurface = Color(0xEE0F172A)        // Refined translucent paper slate card
+val ZenNightCard = Color(0xF0162036)           // Elevated soft slate paper card
+val ZenNightCardElevated = Color(0xF51E2B48)   // High elevation paper surface
+val ZenNightBorder = Color(0x3838BDF8)         // Soft aurora glow glass border (22% cyan alpha)
+val ZenGlassBorder = Color(0x24FFFFFF)         // Delicate translucent white border (14% alpha)
+
+// Paper craft layers
+val ZenPaperCard = Color(0xEB111A2E)
+val ZenPaperElevated = Color(0xF218223C)
+val ZenPaperBorder = Color(0x4038BDF8)
 
 // Backward compatible aliases
 val ZomoDarkCanvas = ZenNightCanvas

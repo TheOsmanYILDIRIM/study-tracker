@@ -1,7 +1,6 @@
 package com.studytracker.core.ui.components
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -11,7 +10,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -21,8 +20,8 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.theme.*
 
-private val ZenCardShape = RoundedCornerShape(20.dp)
-private val ZenSquircleShape = RoundedCornerShape(14.dp)
+private val ZenCardShape = RoundedCornerShape(18.dp)
+private val ZenSquircleShape = RoundedCornerShape(13.dp)
 private val ZenPillShape = CircleShape
 
 @Composable
@@ -45,37 +44,39 @@ fun StudyTaskCard(
     }
 
     val borderColor = when {
-        occurrence.warning -> ZenMoonGold.copy(alpha = 0.6f)
-        occurrence.status == OccurrenceStatus.APPROVED -> ZenForestGreen.copy(alpha = 0.35f)
-        occurrence.status == OccurrenceStatus.ACTIVE -> ZenSkyCyan.copy(alpha = 0.7f)
-        else -> ZenNightBorder
+        occurrence.warning -> ZenMoonGold.copy(alpha = 0.65f)
+        occurrence.status == OccurrenceStatus.APPROVED -> ZenForestGreen.copy(alpha = 0.4f)
+        occurrence.status == OccurrenceStatus.ACTIVE -> ZenSkyCyan.copy(alpha = 0.75f)
+        else -> ZenPaperBorder
     }
 
     Card(
-        modifier = modifier.fillMaxWidth(),
+        modifier = modifier
+            .fillMaxWidth()
+            .shadow(elevation = 2.dp, shape = ZenCardShape, spotColor = Color.Black),
         shape = ZenCardShape,
         colors = CardDefaults.cardColors(
-            containerColor = if (occurrence.status == OccurrenceStatus.ACTIVE) ZenNightCardElevated else ZenNightSurface
+            containerColor = if (occurrence.status == OccurrenceStatus.ACTIVE) ZenPaperElevated else ZenPaperCard
         ),
         border = BorderStroke(1.dp, borderColor)
     ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp)
+                .padding(horizontal = 14.dp, vertical = 10.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp)
         ) {
-            // Main Compact Row: Icon + Title/Details + Right Action/Status Pill
+            // Main Single-Row Task: Icon + Title/Details + Right Action/Status Pill
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                // Soft Squircle Icon
+                // Layered Paper Squircle Icon
                 Surface(
                     shape = ZenSquircleShape,
                     color = tileBg,
-                    modifier = Modifier.size(44.dp)
+                    modifier = Modifier.size(42.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
                         Icon(
@@ -97,17 +98,17 @@ fun StudyTaskCard(
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold,
                         color = ZomoTextPrimary,
-                        fontSize = 15.sp,
+                        fontSize = 14.5.sp,
                         maxLines = 1
                     )
-                    Spacer(modifier = Modifier.height(2.dp))
+                    Spacer(modifier = Modifier.height(1.dp))
                     Text(
                         text = "${occurrence.plannedMinutes} dk" +
                                 if (occurrence.type == TaskKind.WEEKLY && occurrence.targetCount != null)
                                     " • 🎯 ${occurrence.approvedCount}/${occurrence.targetCount}" else "",
                         style = MaterialTheme.typography.bodySmall,
                         color = ZomoTextSecondary,
-                        fontSize = 12.sp,
+                        fontSize = 11.5.sp,
                         maxLines = 1
                     )
                 }
@@ -118,37 +119,37 @@ fun StudyTaskCard(
                         if (occurrence.warning) {
                             Button(
                                 onClick = onRetryClick,
-                                modifier = Modifier.height(38.dp),
+                                modifier = Modifier.height(36.dp),
                                 colors = ButtonDefaults.buttonColors(
                                     containerColor = ZenMoonGold,
                                     contentColor = Color(0xFF451A03)
                                 ),
                                 shape = ZenPillShape,
-                                contentPadding = PaddingValues(horizontal = 14.dp)
+                                contentPadding = PaddingValues(horizontal = 12.dp)
                             ) {
-                                Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(16.dp))
-                                Spacer(modifier = Modifier.width(4.dp))
-                                Text("Tekrarla", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                                Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(15.dp))
+                                Spacer(modifier = Modifier.width(3.dp))
+                                Text("Tekrarla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
                             }
                         } else {
                             Button(
                                 onClick = onStartClick,
-                                modifier = Modifier.height(38.dp),
+                                modifier = Modifier.height(36.dp),
                                 colors = ButtonDefaults.buttonColors(
                                     containerColor = ZenSkyCyan,
                                     contentColor = ZenMintText
                                 ),
                                 shape = ZenPillShape,
-                                contentPadding = PaddingValues(horizontal = 14.dp)
+                                contentPadding = PaddingValues(horizontal = 12.dp)
                             ) {
                                 Icon(
                                     Icons.Default.PlayArrow,
                                     contentDescription = null,
-                                    modifier = Modifier.size(17.dp),
+                                    modifier = Modifier.size(16.dp),
                                     tint = ZenMintText
                                 )
-                                Spacer(modifier = Modifier.width(4.dp))
-                                Text("Başla", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                                Spacer(modifier = Modifier.width(3.dp))
+                                Text("Başla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
                             }
                         }
                     }
@@ -157,14 +158,14 @@ fun StudyTaskCard(
                             shape = ZenPillShape,
                             color = ZenSkyCyanContainer,
                             border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f)),
-                            modifier = Modifier.height(34.dp)
+                            modifier = Modifier.height(32.dp)
                         ) {
                             Row(
-                                modifier = Modifier.padding(horizontal = 12.dp),
+                                modifier = Modifier.padding(horizontal = 10.dp),
                                 verticalAlignment = Alignment.CenterVertically,
                                 horizontalArrangement = Arrangement.spacedBy(4.dp)
                             ) {
-                                Icon(Icons.Default.HourglassBottom, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
+                                Icon(Icons.Default.HourglassBottom, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(13.dp))
                                 Text(
                                     text = "Çalışılıyor ⚡",
                                     color = ZenSkyCyan,
@@ -179,14 +180,14 @@ fun StudyTaskCard(
                             shape = ZenPillShape,
                             color = ZenMoonGoldContainer,
                             border = BorderStroke(1.dp, ZenMoonGold.copy(alpha = 0.4f)),
-                            modifier = Modifier.height(34.dp)
+                            modifier = Modifier.height(32.dp)
                         ) {
                             Row(
-                                modifier = Modifier.padding(horizontal = 12.dp),
+                                modifier = Modifier.padding(horizontal = 10.dp),
                                 verticalAlignment = Alignment.CenterVertically,
                                 horizontalArrangement = Arrangement.spacedBy(4.dp)
                             ) {
-                                Icon(Icons.Default.Schedule, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(14.dp))
+                                Icon(Icons.Default.Schedule, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(13.dp))
                                 Text(
                                     text = "İnceleniyor",
                                     color = ZenMoonGold,
@@ -201,14 +202,14 @@ fun StudyTaskCard(
                             shape = ZenPillShape,
                             color = ZenForestContainer,
                             border = BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f)),
-                            modifier = Modifier.height(34.dp)
+                            modifier = Modifier.height(32.dp)
                         ) {
                             Row(
-                                modifier = Modifier.padding(horizontal = 12.dp),
+                                modifier = Modifier.padding(horizontal = 10.dp),
                                 verticalAlignment = Alignment.CenterVertically,
                                 horizontalArrangement = Arrangement.spacedBy(4.dp)
                             ) {
-                                Icon(Icons.Default.Check, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(14.dp))
+                                Icon(Icons.Default.Check, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(13.dp))
                                 Text(
                                     text = "Bitti",
                                     color = ZenForestGreen,
@@ -224,31 +225,31 @@ fun StudyTaskCard(
                 }
             }
 
-            // Compact Parent Warning Note if rejected
+            // Compact Parent Warning Note
             if (occurrence.warning && !occurrence.warningText.isNullOrBlank()) {
                 Surface(
-                    shape = RoundedCornerShape(10.dp),
+                    shape = RoundedCornerShape(8.dp),
                     color = ZenMoonGoldContainer,
                     border = BorderStroke(1.dp, ZenMoonGold.copy(alpha = 0.25f)),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Row(
-                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        horizontalArrangement = Arrangement.spacedBy(4.dp)
                     ) {
                         Icon(
                             imageVector = Icons.Default.Info,
                             contentDescription = null,
                             tint = ZenMoonGold,
-                            modifier = Modifier.size(14.dp)
+                            modifier = Modifier.size(13.dp)
                         )
                         Text(
                             text = occurrence.warningText ?: "",
                             style = MaterialTheme.typography.bodySmall,
                             fontWeight = FontWeight.Medium,
                             color = ZenMoonGold,
-                            fontSize = 11.sp,
+                            fontSize = 10.5.sp,
                             maxLines = 2
                         )
                     }
@@ -303,7 +304,7 @@ fun StatusBadge(status: OccurrenceStatus, warning: Boolean) {
             color = fg,
             fontSize = 10.sp,
             fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+            modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
         )
     }
 }
