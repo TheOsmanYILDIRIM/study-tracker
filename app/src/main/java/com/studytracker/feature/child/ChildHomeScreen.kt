@@ -76,8 +76,7 @@ fun ChildHomeScreen(
     val completedTasksCount = remember(occurrences) {
         occurrences.count {
             it.status == OccurrenceStatus.APPROVED ||
-            it.status == OccurrenceStatus.COMPLETED ||
-            it.status == OccurrenceStatus.REVIEW_PENDING
+            it.status == OccurrenceStatus.WAITING_REVIEW
         }
     }
     val totalTasksCount = remember(occurrences) {
