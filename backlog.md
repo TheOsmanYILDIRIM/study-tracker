@@ -45,8 +45,8 @@
 ## 11. Cyber-Violet Dark Futuristic Tasarım Sistemi & Ticker İzolasyon Performans Optimizasyonu
 - [x] Derin Cyber-Violet Koyu Mor Arka Plan (`#090414`), Koyu Cam Kartlar (`#140C28`), 32dp Hero Gradyanı, Neon Mint (`#00F5D4`) Pill Butonlar, Ticker Saniye Akışının Bağımsız StateFlow'a Ayrıştırılması ve 120 FPS Donanım Hızlandırmalı Kenarlık Optimizasyonu
 
-## 14. 3 Katmanlı 3D / 2.5D Donanım Hızlandırmalı Paralaks Arka Planı & Mükerrer Hero Resim Kartlarının Temizlenmesi
-- [x] Generative AI ile 9:16 Dikey Çok Katmanlı Derinlik Varlıkları (`bg_layer_sky.webp`, `bg_layer_mountains.webp`, `bg_layer_foreground.webp`)
-- [x] Ters Yönlü Sinüzoidal GPU RenderNode Hareketi & Parıltılı Yıldız Tozu Tuvali (`ZenParallaxBackground.kt`)
-- [x] Rol Seçimi ve Ebeveyn Masasındaki Mükerrer Resimli Hero Kutularının Kaldırılarak Buzlu Cam Kartlara Dönüştürülmesi
+## 15. Orijinal Masal Kağıt Kesim Sanatından 4 Düzlemli Zıt Yönlü 3D Paralaks Mimarisi
+- [x] Orijinal `paper_night_sky` Görselinden 4 Bağımsız Derinlik Katmanının Üretilmesi (`bg_zen_layer1_sky.webp`, `bg_zen_layer2_mountains.webp`, `bg_zen_layer3_forest.webp`, `bg_zen_layer4_foreground.webp`)
+- [x] Her Katmanın Birbirine Zıt Yönlerde Farklı Hızlarla Sinüzoidal Salınımı (Stereoscopic 3D Depth)
+- [x] Çam Ormanı ve Göl Üzerinde Parıldayan Ateşböceği Tuvali & %40 Transparan Canlı Görünüm
 

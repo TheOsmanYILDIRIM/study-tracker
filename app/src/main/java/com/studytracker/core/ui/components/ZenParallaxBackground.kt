@@ -16,55 +16,56 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import com.studytracker.R
-import com.studytracker.core.ui.theme.ZenSkyCyan
 import com.studytracker.core.ui.theme.ZenMoonGold
+import com.studytracker.core.ui.theme.ZenSkyCyan
 import kotlin.random.Random
 
-private data class StarParticle(
+private data class AmbientFirefly(
     val xRatio: Float,
     val yRatio: Float,
     val radius: Float,
     val isGold: Boolean,
-    val speedFactor: Float
+    val pulseSpeed: Float
 )
 
 /**
- * 2.5D / 3D Multi-Layered Parallax Background for Zen Paper Cutout Night theme.
- * Composes 3 distinct depth planes moving in opposing sinusoidal drifts on GPU RenderNode:
- * 1. Sky & Celestial Moon Layer (Deep Background)
- * 2. Misty Silhouette Mountain Ridges (Midground)
- * 3. Pine Forest & Village Silhouettes (Foreground)
- * 4. Ambient Floating Stardust & Fireflies (Interactive Depth Particle Canvas)
- * 5. Translucent Reading Scrim (45% opacity for maximum artwork visibility & high contrast)
+ * 4-Layer 3D / 2.5D Opposing Multi-Plane Parallax Background.
+ * Derived from the original paper cutout fairy tale night art:
+ * - Layer 1 (Sky & Moon): Sinusoidal drift Left-to-Right (-14dp -> +14dp, 24s)
+ * - Layer 2 (Mountains & Clouds): Sinusoidal drift Right-to-Left (+18dp -> -18dp, 19s) [OPPOSITE]
+ * - Layer 3 (Pine Forest & Fireflies): Sinusoidal drift Left-to-Right (-24dp -> +24dp, 14s) [OPPOSITE]
+ * - Layer 4 (Foreground Reeds & Lake Shore): Sinusoidal drift Right-to-Left (+30dp -> -30dp, 11s) [OPPOSITE]
+ * - Layer 5: Interactive Stardust & Fireflies Canvas
+ * - Layer 6: High-contrast translucent reading scrim (40% opacity for maximum artwork brilliance)
  */
 @Composable
 fun ZenParallaxBackground(
     modifier: Modifier = Modifier,
-    scrimColor: Color = Color(0x73080D1A)
+    scrimColor: Color = Color(0x66081420)
 ) {
-    val infiniteTransition = rememberInfiniteTransition(label = "Zen3DParallax")
+    val infiniteTransition = rememberInfiniteTransition(label = "ZenMultiPlane3DParallax")
 
-    // Layer 1: Sky & Moon drift (Slow, deep)
+    // Plane 1: Far Sky, Moon & Constellations (Left -> Right)
     val skyX by infiniteTransition.animateFloat(
         initialValue = -14f,
         targetValue = 14f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 26000, easing = LinearEasing),
+            animation = tween(durationMillis = 24000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "skyX"
     )
     val skyY by infiniteTransition.animateFloat(
-        initialValue = -8f,
-        targetValue = 8f,
+        initialValue = -6f,
+        targetValue = 6f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 20000, easing = LinearEasing),
+            animation = tween(durationMillis = 18000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "skyY"
     )
 
-    // Layer 2: Midground Mountain ridges drift (Opposite X-direction, moderate speed)
+    // Plane 2: Mountains & Rolling Clouds (OPPOSITE: Right -> Left)
     val mountainX by infiniteTransition.animateFloat(
         initialValue = 18f,
         targetValue = -18f,
@@ -75,64 +76,84 @@ fun ZenParallaxBackground(
         label = "mountainX"
     )
     val mountainY by infiniteTransition.animateFloat(
-        initialValue = 9f,
-        targetValue = -9f,
+        initialValue = 8f,
+        targetValue = -8f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 16000, easing = LinearEasing),
+            animation = tween(durationMillis = 15000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "mountainY"
     )
 
-    // Layer 3: Foreground Forest & Village drift (Fastest opposite movement)
-    val fgX by infiniteTransition.animateFloat(
+    // Plane 3: Pine Forest & Middle Lake (OPPOSITE: Left -> Right, Faster)
+    val forestX by infiniteTransition.animateFloat(
         initialValue = -24f,
         targetValue = 24f,
         animationSpec = infiniteRepeatable(
             animation = tween(durationMillis = 14000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
         ),
+        label = "forestX"
+    )
+    val forestY by infiniteTransition.animateFloat(
+        initialValue = -7f,
+        targetValue = 7f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 12000, easing = LinearEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "forestY"
+    )
+
+    // Plane 4: Foreground Lake Shore, Reeds & Framing Trees (OPPOSITE: Right -> Left, Fastest Depth)
+    val fgX by infiniteTransition.animateFloat(
+        initialValue = 30f,
+        targetValue = -30f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 11000, easing = LinearEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
         label = "fgX"
     )
     val fgY by infiniteTransition.animateFloat(
-        initialValue = -6f,
-        targetValue = 6f,
+        initialValue = 6f,
+        targetValue = -6f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 13000, easing = LinearEasing),
+            animation = tween(durationMillis = 10000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "fgY"
     )
 
-    // Layer 4: Twinkling Stardust Alpha
-    val starAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.35f,
-        targetValue = 0.95f,
+    // Fireflies & Stardust Twinkle Alpha
+    val fireflyPulse by infiniteTransition.animateFloat(
+        initialValue = 0.3f,
+        targetValue = 1.0f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 3500, easing = FastOutSlowInEasing),
+            animation = tween(durationMillis = 2800, easing = FastOutSlowInEasing),
             repeatMode = RepeatMode.Reverse
         ),
-        label = "starAlpha"
+        label = "fireflyPulse"
     )
 
-    // Deterministic random floating star positions
-    val starParticles = remember {
-        val rand = Random(42)
-        List(24) {
-            StarParticle(
+    // Firefly Particle Locations
+    val fireflies = remember {
+        val rand = Random(1337)
+        List(28) {
+            AmbientFirefly(
                 xRatio = rand.nextFloat(),
-                yRatio = rand.nextFloat() * 0.75f, // Mostly in upper sky
+                yRatio = rand.nextFloat() * 0.85f + 0.05f,
                 radius = rand.nextFloat() * 2.2f + 1.2f,
                 isGold = rand.nextBoolean(),
-                speedFactor = rand.nextFloat() * 0.8f + 0.5f
+                pulseSpeed = rand.nextFloat() * 0.7f + 0.6f
             )
         }
     }
 
     Box(modifier = modifier.fillMaxSize()) {
-        // Plane 1: Far Sky & Moon
+        // --- PLANE 1: Sky & Moon (Drifts Left-to-Right) ---
         Image(
-            painter = painterResource(id = R.drawable.bg_layer_sky),
+            painter = painterResource(id = R.drawable.bg_zen_layer1_sky),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -145,9 +166,9 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // Plane 2: Midground Mountain Ridges
+        // --- PLANE 2: Mountains & Clouds (Drifts OPPOSITE Right-to-Left) ---
         Image(
-            painter = painterResource(id = R.drawable.bg_layer_mountains),
+            painter = painterResource(id = R.drawable.bg_zen_layer2_mountains),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -160,9 +181,24 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // Plane 3: Foreground Forest & Cozy Village
+        // --- PLANE 3: Pine Forest (Drifts OPPOSITE Left-to-Right) ---
         Image(
-            painter = painterResource(id = R.drawable.bg_layer_foreground),
+            painter = painterResource(id = R.drawable.bg_zen_layer3_forest),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer {
+                    translationX = forestX
+                    translationY = forestY
+                    scaleX = 1.12f
+                    scaleY = 1.12f
+                }
+        )
+
+        // --- PLANE 4: Foreground Reeds, Lake & Side Trees (Drifts OPPOSITE Right-to-Left) ---
+        Image(
+            painter = painterResource(id = R.drawable.bg_zen_layer4_foreground),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -170,44 +206,44 @@ fun ZenParallaxBackground(
                 .graphicsLayer {
                     translationX = fgX
                     translationY = fgY
-                    scaleX = 1.12f
-                    scaleY = 1.12f
+                    scaleX = 1.14f
+                    scaleY = 1.14f
                 }
         )
 
-        // Plane 4: Ambient Floating Stardust & Fireflies Canvas
+        // --- PLANE 5: Ambient Fireflies & Glowing Stardust Canvas ---
         Canvas(
             modifier = Modifier
                 .fillMaxSize()
                 .graphicsLayer {
-                    translationX = skyX * 0.5f
-                    translationY = skyY * 0.5f
+                    translationX = forestX * 0.6f
+                    translationY = forestY * 0.6f
                 }
         ) {
             val width = size.width
             val height = size.height
-            for (p in starParticles) {
-                val cx = p.xRatio * width
-                val cy = p.yRatio * height
-                val col = if (p.isGold) ZenMoonGold else ZenSkyCyan
-                val alpha = (starAlpha * p.speedFactor).coerceIn(0.1f, 1f)
+            for (f in fireflies) {
+                val cx = f.xRatio * width
+                val cy = f.yRatio * height
+                val col = if (f.isGold) ZenMoonGold else ZenSkyCyan
+                val alpha = (fireflyPulse * f.pulseSpeed).coerceIn(0.15f, 1f)
 
-                // Soft outer glow
+                // Soft firefly aura
                 drawCircle(
-                    color = col.copy(alpha = alpha * 0.35f),
-                    radius = p.radius * 2.8f,
+                    color = col.copy(alpha = alpha * 0.4f),
+                    radius = f.radius * 3.0f,
                     center = Offset(cx, cy)
                 )
-                // Core bright pinpoint
+                // Bright inner spark
                 drawCircle(
                     color = Color.White.copy(alpha = alpha),
-                    radius = p.radius,
+                    radius = f.radius,
                     center = Offset(cx, cy)
                 )
             }
         }
 
-        // Plane 5: 20% More Translucent Scrim for 100% Readability and Vibrant Art
+        // --- PLANE 6: 40% Scrim for High Readability & Vibrant Art ---
         Box(
             modifier = Modifier
                 .fillMaxSize()
