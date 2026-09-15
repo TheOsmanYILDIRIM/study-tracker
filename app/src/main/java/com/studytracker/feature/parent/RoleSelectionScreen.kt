@@ -49,14 +49,28 @@ fun RoleSelectionScreen(
     var pinText by remember { mutableStateOf("") }
     var pinError by remember { mutableStateOf(false) }
 
-    Scaffold(
-        containerColor = ZenNightCanvas,
-        topBar = {
-            TopAppBar(
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZenNightCanvas,
-                    titleContentColor = ZomoTextPrimary
-                ),
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(if (isNightMode) Color(0xD9080D1A) else Color(0xB3EEF2F6))
+        )
+
+        Scaffold(
+            containerColor = Color.Transparent,
+            topBar = {
+                TopAppBar(
+                    colors = TopAppBarDefaults.topAppBarColors(
+                        containerColor = if (isNightMode) Color(0xB3080D1A) else Color(0xB3EEF2F6),
+                        titleContentColor = ZomoTextPrimary
+                    ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
@@ -518,4 +532,5 @@ fun RoleSelectionScreen(
             }
         )
     }
+}
 }

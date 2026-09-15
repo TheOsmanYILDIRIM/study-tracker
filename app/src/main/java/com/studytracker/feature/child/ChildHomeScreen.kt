@@ -87,194 +87,183 @@ fun ChildHomeScreen(
         if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
     }
 
-    // High performance solid canvas background (zero alpha compositing fill-rate jank)
-    Scaffold(
-        containerColor = ZenNightCanvas,
-        topBar = {
-            TopAppBar(
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZenNightCanvas,
-                    titleContentColor = ZomoTextPrimary
-                ),
-                title = {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(10.dp)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), RoundedCornerShape(10.dp)),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.School, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
-                        }
-                        Column {
-                            Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 17.sp, color = ZomoTextPrimary)
-                            Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary, fontSize = 11.sp)
-                        }
-                    }
-                },
-                navigationIcon = {
-                    IconButton(onClick = onNavigateBackToRole) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
-                    }
-                },
-                actions = {
-                    // Quick Day / Night Theme Toggle
-                    IconButton(onClick = { appPreferences.toggleNightMode() }) {
-                        Box(
-                            modifier = Modifier
-                                .size(34.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                contentDescription = "Tema Değiştir",
-                                tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
-                                modifier = Modifier.size(17.dp)
-                            )
-                        }
-                    }
+    Box(modifier = Modifier.fillMaxSize()) {
+        // 1. Atmospheric Fullscreen Background Image
+        Image(
+            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
 
-                    IconButton(onClick = onOpenTutorial) {
-                        Box(
-                            modifier = Modifier
-                                .size(34.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
-                        }
-                    }
-                }
-            )
-        }
-    ) { padding ->
-        LazyColumn(
+        // 2. High-contrast translucent reading overlay
+        Box(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding)
-                .padding(horizontal = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp)
-        ) {
-            // Storybook Hero Artwork Card (Embedded as a crisp header card)
-            item(key = "progress_hero_card") {
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(170.dp)
-                        .clip(ZenHeroShape)
-                        .border(1.dp, ZenPaperBorder, ZenHeroShape)
-                ) {
-                    Image(
-                        painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
-                        contentDescription = null,
-                        contentScale = ContentScale.Crop,
-                        modifier = Modifier.fillMaxSize()
-                    )
+                .background(if (isNightMode) Color(0xD9080D1A) else Color(0xB3EEF2F6))
+        )
 
-                    // Gradient overlay for contrast
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(
-                                Brush.verticalGradient(
-                                    listOf(
-                                        Color(0x33080D1A),
-                                        Color(0xCC080D1A)
-                                    )
-                                )
-                            )
-                    )
-
-                    Column(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(16.dp),
-                        verticalArrangement = Arrangement.SpaceBetween
-                    ) {
+        Scaffold(
+            containerColor = Color.Transparent,
+            topBar = {
+                TopAppBar(
+                    colors = TopAppBarDefaults.topAppBarColors(
+                        containerColor = if (isNightMode) Color(0xB3080D1A) else Color(0xB3EEF2F6),
+                        titleContentColor = ZomoTextPrimary
+                    ),
+                    title = {
                         Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
                         ) {
-                            Column {
-                                Text(
-                                    text = if (isNightMode) "Huzurlu Akşamlar ✨" else "Güzel Bir Gün ☀️",
-                                    color = Color.White.copy(alpha = 0.9f),
-                                    fontSize = 12.sp,
-                                    fontWeight = FontWeight.Bold
-                                )
-                                Text(
-                                    text = "Bugünkü Hedeflerin",
-                                    color = Color.White,
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 18.sp
-                                )
-                            }
-
                             Box(
                                 modifier = Modifier
-                                    .clip(ZenPillShape)
-                                    .background(Color.Black.copy(alpha = 0.5f))
-                                    .border(1.dp, Color.White.copy(alpha = 0.25f), ZenPillShape)
-                                    .padding(horizontal = 10.dp, vertical = 4.dp)
+                                    .size(36.dp)
+                                    .background(ZenSkyCyanContainer, RoundedCornerShape(10.dp))
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), RoundedCornerShape(10.dp)),
+                                contentAlignment = Alignment.Center
                             ) {
-                                Text(
-                                    text = "$approvedTasks / $totalTasks Ders",
-                                    color = Color.White,
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 11.sp
+                                Icon(Icons.Default.School, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                            }
+                            Column {
+                                Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 17.sp, color = ZomoTextPrimary)
+                                Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary, fontSize = 11.sp)
+                            }
+                        }
+                    },
+                    navigationIcon = {
+                        IconButton(onClick = onNavigateBackToRole) {
+                            Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
+                        }
+                    },
+                    actions = {
+                        // Quick Day / Night Theme Toggle
+                        IconButton(onClick = { appPreferences.toggleNightMode() }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenPaperCard, ZenPillShape)
+                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
+                                    contentDescription = "Tema Değiştir",
+                                    tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
+                                    modifier = Modifier.size(17.dp)
                                 )
                             }
                         }
 
-                        // Compact Progress Bar
-                        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        IconButton(onClick = onOpenTutorial) {
                             Box(
                                 modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(8.dp)
-                                    .clip(ZenPillShape)
-                                    .background(Color.Black.copy(alpha = 0.45f))
+                                    .size(34.dp)
+                                    .background(ZenPaperCard, ZenPillShape)
+                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
+                                contentAlignment = Alignment.Center
                             ) {
-                                Box(
-                                    modifier = Modifier
-                                        .fillMaxHeight()
-                                        .fillMaxWidth(fraction = progress.coerceIn(if (totalTasks > 0) 0.03f else 0f, 1f))
-                                        .clip(ZenPillShape)
-                                        .background(
-                                            Brush.horizontalGradient(
-                                                listOf(ZenSkyCyan, ZenMintSoft)
-                                            )
-                                        )
-                                )
+                                Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
                             }
-
+                        }
+                    }
+                )
+            }
+        ) { padding ->
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .padding(horizontal = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+                // Frosted Progress Summary Card
+                item(key = "progress_hero_card") {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .graphicsLayer {
+                                shape = ZenHeroShape
+                                clip = true
+                            }
+                            .background(if (isNightMode) Color(0xCC111B30) else Color(0xE6FFFFFF), ZenHeroShape)
+                            .border(1.dp, ZenPaperBorder, ZenHeroShape)
+                            .padding(16.dp)
+                    ) {
+                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Text(
-                                    text = "%${(progress * 100).toInt()} Tamamlandı",
-                                    color = ZenSkyCyan,
-                                    fontSize = 11.5.sp,
-                                    fontWeight = FontWeight.Bold
-                                )
-                                Text(
-                                    text = if (totalTasks - approvedTasks > 0) "${totalTasks - approvedTasks} ders kaldı" else "Tüm dersler bitti! 🎉",
-                                    color = Color.White.copy(alpha = 0.9f),
-                                    fontSize = 11.sp,
-                                    fontWeight = FontWeight.Normal
-                                )
+                                Column {
+                                    Text(
+                                        text = if (isNightMode) "Huzurlu Akşamlar ✨" else "Güzel Bir Gün ☀️",
+                                        color = if (isNightMode) ZenSkyCyan else ZenForestGreen,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                    Text(
+                                        text = "Bugünkü Hedeflerin",
+                                        color = ZomoTextPrimary,
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 18.sp
+                                    )
+                                }
+
+                                Box(
+                                    modifier = Modifier
+                                        .background(if (isNightMode) Color(0x66000000) else Color(0x15000000), ZenPillShape)
+                                        .border(1.dp, ZenPaperBorder, ZenPillShape)
+                                        .padding(horizontal = 10.dp, vertical = 4.dp)
+                                ) {
+                                    Text(
+                                        text = "$approvedTasks / $totalTasks Ders",
+                                        color = ZomoTextPrimary,
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 11.5.sp
+                                    )
+                                }
+                            }
+
+                            // Compact Progress Bar
+                            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .height(8.dp)
+                                        .background(if (isNightMode) Color(0x66000000) else Color(0x20000000), ZenPillShape)
+                                ) {
+                                    Box(
+                                        modifier = Modifier
+                                            .fillMaxHeight()
+                                            .fillMaxWidth(fraction = progress.coerceIn(if (totalTasks > 0) 0.03f else 0f, 1f))
+                                            .background(
+                                                Brush.horizontalGradient(
+                                                    listOf(ZenSkyCyan, ZenMintSoft)
+                                                ),
+                                                ZenPillShape
+                                            )
+                                    )
+                                }
+
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    Text(
+                                        text = "%${(progress * 100).toInt()} Tamamlandı",
+                                        color = ZenSkyCyan,
+                                        fontSize = 11.5.sp,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                    Text(
+                                        text = if (totalTasks - approvedTasks > 0) "${totalTasks - approvedTasks} ders kaldı" else "Tüm dersler bitti! 🎉",
+                                        color = ZomoTextSecondary,
+                                        fontSize = 11.sp,
+                                        fontWeight = FontWeight.Normal
+                                    )
+                                }
                             }
                         }
                     }

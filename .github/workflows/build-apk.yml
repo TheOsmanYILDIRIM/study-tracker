@@ -25,8 +25,16 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace --info
+      - name: Build Release & Debug APKs
+        run: ./gradlew assembleRelease assembleDebug --stacktrace --info
+
+      - name: Upload Release APK Artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: StudyTracker-release-apk
+          path: app/build/outputs/apk/release/*.apk
+          retention-days: 14
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
@@ -35,3 +43,4 @@ jobs:
           name: StudyTracker-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           retention-days: 14
+

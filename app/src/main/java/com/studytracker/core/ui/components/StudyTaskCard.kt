@@ -2,6 +2,7 @@ package com.studytracker.core.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -139,39 +140,58 @@ fun StudyTaskCard(
             when (occurrence.status) {
                 OccurrenceStatus.PENDING -> {
                     if (occurrence.warning) {
-                        Button(
-                            onClick = { onRetryClick(occurrence) },
-                            modifier = Modifier.height(34.dp),
-                            colors = ButtonDefaults.buttonColors(
-                                containerColor = ZenMoonGold,
-                                contentColor = Color(0xFF451A03)
-                            ),
-                            shape = ZenPillShape,
-                            contentPadding = PaddingValues(horizontal = 12.dp)
+                        Box(
+                            modifier = Modifier
+                                .height(34.dp)
+                                .background(ZenMoonGold, ZenPillShape)
+                                .clickable { onRetryClick(occurrence) }
+                                .padding(horizontal = 12.dp),
+                            contentAlignment = Alignment.Center
                         ) {
-                            Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(14.dp))
-                            Spacer(modifier = Modifier.width(3.dp))
-                            Text("Tekrarla", fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(3.dp)
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.Refresh,
+                                    contentDescription = null,
+                                    tint = Color(0xFF451A03),
+                                    modifier = Modifier.size(14.dp)
+                                )
+                                Text(
+                                    text = "Tekrarla",
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 11.sp,
+                                    color = Color(0xFF451A03)
+                                )
+                            }
                         }
                     } else {
-                        Button(
-                            onClick = { onStartClick(occurrence) },
-                            modifier = Modifier.height(34.dp),
-                            colors = ButtonDefaults.buttonColors(
-                                containerColor = ZenSkyCyan,
-                                contentColor = ZenMintText
-                            ),
-                            shape = ZenPillShape,
-                            contentPadding = PaddingValues(horizontal = 12.dp)
+                        Box(
+                            modifier = Modifier
+                                .height(34.dp)
+                                .background(ZenSkyCyan, ZenPillShape)
+                                .clickable { onStartClick(occurrence) }
+                                .padding(horizontal = 12.dp),
+                            contentAlignment = Alignment.Center
                         ) {
-                            Icon(
-                                Icons.Default.PlayArrow,
-                                contentDescription = null,
-                                modifier = Modifier.size(15.dp),
-                                tint = ZenMintText
-                            )
-                            Spacer(modifier = Modifier.width(3.dp))
-                            Text("Başla", fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(3.dp)
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.PlayArrow,
+                                    contentDescription = null,
+                                    modifier = Modifier.size(15.dp),
+                                    tint = ZenMintText
+                                )
+                                Text(
+                                    text = "Başla",
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 11.sp,
+                                    color = ZenMintText
+                                )
+                            }
                         }
                     }
                 }
