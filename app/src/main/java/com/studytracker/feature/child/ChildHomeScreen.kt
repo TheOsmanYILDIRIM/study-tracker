@@ -34,6 +34,7 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.components.StudyTaskCard
 import com.studytracker.core.ui.components.StudyWeeklyTaskCard
+import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -72,48 +73,8 @@ fun ChildHomeScreen(
         occurrences.filter { it.warning }
     }
 
-    // 0-recomposition GPU infinite breathing / parallax drift for background
-    val infiniteTransition = rememberInfiniteTransition(label = "BackgroundParallax")
-    val bgOffsetY by infiniteTransition.animateFloat(
-        initialValue = -10f,
-        targetValue = 10f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 20000, easing = LinearEasing),
-            repeatMode = RepeatMode.Reverse
-        ),
-        label = "bgOffsetY"
-    )
-    val bgScale by infiniteTransition.animateFloat(
-        initialValue = 1.03f,
-        targetValue = 1.07f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 25000, easing = LinearEasing),
-            repeatMode = RepeatMode.Reverse
-        ),
-        label = "bgScale"
-    )
-
     Box(modifier = Modifier.fillMaxSize()) {
-        // 1. Atmospheric Fullscreen Fairy Tale Paper Cutout Night Background with slow GPU drift
-        Image(
-            painter = painterResource(id = R.drawable.bg_zen_night),
-            contentDescription = null,
-            contentScale = ContentScale.Crop,
-            modifier = Modifier
-                .fillMaxSize()
-                .graphicsLayer {
-                    translationY = bgOffsetY
-                    scaleX = bgScale
-                    scaleY = bgScale
-                }
-        )
-
-        // 2. 20% more transparent translucent scrim for vibrant scenery while maintaining readability
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(Color(0x8A080D1A))
-        )
+        ZenParallaxBackground()
 
         Scaffold(
             containerColor = Color.Transparent,

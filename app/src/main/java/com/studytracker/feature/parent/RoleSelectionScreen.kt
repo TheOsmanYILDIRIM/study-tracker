@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.R
 import com.studytracker.core.data.local.prefs.AppPreferences
+import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 
 private val ZenHeroShape = RoundedCornerShape(22.dp)
@@ -49,18 +50,7 @@ fun RoleSelectionScreen(
     var pinError by remember { mutableStateOf(false) }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        Image(
-            painter = painterResource(id = R.drawable.bg_zen_night),
-            contentDescription = null,
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
-        )
-
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(Color(0x8A080D1A))
-        )
+        ZenParallaxBackground()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -144,82 +134,61 @@ fun RoleSelectionScreen(
             verticalArrangement = Arrangement.SpaceBetween,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Storybook Hero Artwork Card with dark gradient and text overlay
+            // Clean Frosted Glass Welcome Header without duplicate picture
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(190.dp)
-                    .clip(ZenHeroShape)
-                    .border(1.dp, ZenPaperBorder, ZenHeroShape)
+                    .clip(ZenCardShape)
+                    .background(ZenPaperCard)
+                    .border(1.dp, ZenPaperBorder, ZenCardShape)
+                    .padding(20.dp)
             ) {
-                Image(
-                    painter = painterResource(id = R.drawable.bg_zen_night),
-                    contentDescription = null,
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier.fillMaxSize()
-                )
-
-                // Dark vignette gradient for 100% text readability
-                Box(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .background(
-                            Brush.verticalGradient(
-                                listOf(
-                                    Color(0x33080D1A),
-                                    Color(0xDD080D1A)
-                                )
-                            )
-                        )
-                )
-
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(18.dp),
-                    verticalArrangement = Arrangement.SpaceBetween
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .clip(ZenPillShape)
-                            .background(Color.Black.copy(alpha = 0.5f))
-                            .border(1.dp, Color.White.copy(alpha = 0.25f), ZenPillShape)
-                            .padding(horizontal = 10.dp, vertical = 4.dp)
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(5.dp)
+                        Box(
+                            modifier = Modifier
+                                .clip(ZenPillShape)
+                                .background(ZenMoonGoldContainer)
+                                .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), ZenPillShape)
+                                .padding(horizontal = 10.dp, vertical = 4.dp)
                         ) {
-                            Icon(
-                                imageVector = Icons.Default.NightsStay,
-                                contentDescription = null,
-                                tint = ZenMoonGold,
-                                modifier = Modifier.size(13.dp)
-                            )
-                            Text(
-                                text = "Huzurlu Gece Modu",
-                                color = ZenMoonGold,
-                                fontSize = 11.sp,
-                                fontWeight = FontWeight.Bold
-                            )
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(4.dp)
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.NightsStay,
+                                    contentDescription = null,
+                                    tint = ZenMoonGold,
+                                    modifier = Modifier.size(13.dp)
+                                )
+                                Text(
+                                    text = "Zen Gece Modu",
+                                    color = ZenMoonGold,
+                                    fontSize = 11.sp,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
                         }
                     }
 
-                    Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                        Text(
-                            text = "Hoş Geldin! ✨",
-                            style = MaterialTheme.typography.headlineSmall,
-                            fontWeight = FontWeight.Bold,
-                            color = Color.White,
-                            letterSpacing = 0.2.sp
-                        )
-                        Text(
-                            text = "Sakin bir zihinle hedeflerine adım at. Giriş yapacağın modu seç.",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = Color.White.copy(alpha = 0.9f),
-                            lineHeight = 16.sp
-                        )
-                    }
+                    Text(
+                        text = "Hoş Geldin! ✨",
+                        style = MaterialTheme.typography.headlineSmall,
+                        fontWeight = FontWeight.Bold,
+                        color = ZomoTextPrimary,
+                        fontSize = 22.sp
+                    )
+                    Text(
+                        text = "Sakin bir zihinle hedeflerine adım at. Giriş yapacağın modu seç.",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = ZomoTextSecondary,
+                        lineHeight = 18.sp,
+                        fontSize = 13.sp
+                    )
                 }
             }
 

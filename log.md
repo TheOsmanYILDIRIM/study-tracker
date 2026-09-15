@@ -76,3 +76,9 @@
 - **Gündüz Modunu Kaldırma & Tek Zen Gece Teması:** Tüm ekranlardan (ChildHome, ParentDashboard, RoleSelection, DeveloperConsole) gündüz modu toggle butonları ve dinamik kontroller kaldırılarak atmosferik Zen Masal Gece teması sabitlendi.
 - **Haftalık Hedefler Üste & Yatay Kaydırma (LazyRow):** Çocuk ana ekranında haftalık hedefler en üste taşındı ve yatay kaydırmalı `LazyRow` içinde `StudyWeeklyTaskCard` ile gösterildi; günlük görevler altta dikey sıralandı.
 - **Mükerrer Hero Kartının Kaldırılması & Canlı Paralaks Arka Plan:** Yinelenen hero progress kartı kaldırıldı; arka plandaki masal görseli %20 daha açık parlak bir filtreyle belirginleştirildi ve GPU `graphicsLayer` üzerinde çalışan yavaş, akıcı bir nefes alma/paralaks süzülme animasyonu (`rememberInfiniteTransition`) uygulandı.
+
+### [2026-09-15] Tamamlandı: 3 Katmanlı 3D / 2.5D Donanım Hızlandırmalı Paralaks Arka Planı & Mükerrer Hero Resim Kartlarının Temizlenmesi
+- **Generative AI ile 3 Katmanlı Derinlik Düzlemleri:** `bg_layer_sky.webp` (uzak gökyüzü & hilal ay), `bg_layer_mountains.webp` (orta katman dağ silsilesi & sis), `bg_layer_foreground.webp` (ön plan çam ormanı & köy silueti) üretilerek `app/src/main/res/drawable/` altına entegre edildi.
+- **Ters Yönlü Sinüzoidal GPU RenderNode Hareketi (`ZenParallaxBackground.kt`):** Gökyüzü, dağlar ve ön plan katmanları farklı periyot ve genliklerde ters yönde sinüzoidal olarak süzülerek gerçek 3D derinlik oluşturuldu. Üzerine parıltılı parçacık tuvali (stardust/fireflies Canvas) ve %45 yüksek kontrastlı okuma filtresi eklendi.
+- **Mükerrer Resimli Hero Kutularının Kaldırılması:** Rol seçim ekranındaki (`RoleSelectionScreen`) ve ebeveyn masasındaki (`ParentDashboardScreen`) arka plan resmini kutu içinde tekrar eden eski hero kartları kaldırılarak zarif buzlu cam karşılama ve plan özet kartlarına dönüştürüldü.
+

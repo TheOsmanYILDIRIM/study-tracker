@@ -33,6 +33,7 @@ import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
 import com.studytracker.core.domain.model.*
+import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -92,18 +93,7 @@ fun ParentDashboardScreen(
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        Image(
-            painter = painterResource(id = R.drawable.bg_zen_night),
-            contentDescription = null,
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
-        )
-
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(Color(0x8A080D1A))
-        )
+        ZenParallaxBackground()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -238,41 +228,19 @@ fun ParentDashboardScreen(
                         .padding(horizontal = 16.dp, vertical = 6.dp),
                     verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
-                    // Plan Overview Hero Artwork Card
+                    // Plan Overview Summary Card without duplicate picture
                     item {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(160.dp)
-                                .clip(ZenHeroShape)
-                                .border(1.dp, ZenPaperBorder, ZenHeroShape)
+                                .clip(ZenCardShape)
+                                .background(ZenPaperCard)
+                                .border(1.dp, ZenPaperBorder, ZenCardShape)
+                                .padding(16.dp)
                         ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.bg_zen_night),
-                                contentDescription = null,
-                                contentScale = ContentScale.Crop,
-                                modifier = Modifier.fillMaxSize()
-                            )
-
-                            // Dark vignette overlay
-                            Box(
-                                modifier = Modifier
-                                    .fillMaxSize()
-                                    .background(
-                                        Brush.verticalGradient(
-                                            listOf(
-                                                Color(0x33080D1A),
-                                                Color(0xCC080D1A)
-                                            )
-                                        )
-                                    )
-                            )
-
                             Column(
-                                modifier = Modifier
-                                    .fillMaxSize()
-                                    .padding(16.dp),
-                                verticalArrangement = Arrangement.SpaceBetween
+                                modifier = Modifier.fillMaxWidth(),
+                                verticalArrangement = Arrangement.spacedBy(10.dp)
                             ) {
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
@@ -281,40 +249,53 @@ fun ParentDashboardScreen(
                                 ) {
                                     Column {
                                         Text(
-                                            text = "Aktif Hafta",
+                                            text = "Aktif Çalışma Planı",
                                             style = MaterialTheme.typography.labelMedium,
-                                            color = Color.White.copy(alpha = 0.85f)
+                                            color = ZenMoonGold,
+                                            fontWeight = FontWeight.Bold
                                         )
                                         Text(
                                             text = activePlan?.weekId ?: "Plan Yüklenmedi",
                                             style = MaterialTheme.typography.titleMedium,
                                             fontWeight = FontWeight.Bold,
-                                            color = Color.White
+                                            color = ZomoTextPrimary
                                         )
                                     }
 
                                     Box(
                                         modifier = Modifier
                                             .clip(ZenPillShape)
-                                            .background(Color.Black.copy(alpha = 0.5f))
-                                            .border(1.dp, Color.White.copy(alpha = 0.25f), ZenPillShape)
-                                            .padding(horizontal = 12.dp, vertical = 5.dp)
+                                            .background(ZenForestContainer)
+                                            .border(1.dp, ZenForestGreen.copy(alpha = 0.4f), ZenPillShape)
+                                            .padding(horizontal = 10.dp, vertical = 4.dp)
                                     ) {
                                         Text(
                                             text = "$approvedTasks/$totalTasks Tamamlandı",
-                                            color = Color.White,
+                                            color = ZenForestGreen,
                                             fontWeight = FontWeight.Bold,
-                                            fontSize = 11.5.sp
+                                            fontSize = 11.sp
                                         )
                                     }
                                 }
 
-                                Text(
-                                    text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
-                                    style = MaterialTheme.typography.bodySmall,
-                                    color = Color.White.copy(alpha = 0.9f),
-                                    fontSize = 11.sp
-                                )
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    Text(
+                                        text = "${dailyOccurrences.size} Günlük • ${weeklyOccurrences.size} Haftalık Görev",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = ZomoTextSecondary,
+                                        fontSize = 11.5.sp
+                                    )
+                                    Text(
+                                        text = if (totalTasks > 0) "%${(approvedTasks * 100 / totalTasks)} İlerleme" else "%0",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        fontWeight = FontWeight.Bold,
+                                        color = ZenSkyCyan,
+                                        fontSize = 11.5.sp
+                                    )
+                                }
                             }
                         }
                     }
