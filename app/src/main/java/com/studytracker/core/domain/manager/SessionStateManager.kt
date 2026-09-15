@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import com.studytracker.core.data.local.db.AppDatabase
+import com.studytracker.core.data.local.driver.AccessibilityCaptureDriver
 import com.studytracker.core.data.local.driver.FakeCaptureDriver
-import com.studytracker.core.data.local.driver.RealMediaProjectionCaptureDriver
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
@@ -37,13 +37,13 @@ class SessionStateManager private constructor(
     val occurrenceRepository = LocalOccurrenceRepositoryImpl(db)
 
     private val fakeCaptureDriver = FakeCaptureDriver(context, db)
-    private val realCaptureDriver = RealMediaProjectionCaptureDriver(context, db)
+    private val accessibilityCaptureDriver = AccessibilityCaptureDriver(context, db)
 
     fun getEffectiveCaptureDriver(): CaptureDriver {
         return if (appPreferences.isFakeCaptureEnabled.value) {
             fakeCaptureDriver
         } else {
-            realCaptureDriver
+            accessibilityCaptureDriver
         }
     }
 

@@ -248,7 +248,8 @@ fun DeveloperConsoleScreen(
                             Column(modifier = Modifier.weight(1f)) {
                                 Text("Ekran Yakalama Simülasyonu (FakeCaptureDriver)")
                                 Text(
-                                    "Açıkken gerçek ekran yerine sanal çalışma şablonu fotoğrafları üretir.",
+                                    if (isFakeCaptureEnabled) "Açık: Sanal çalışma şablonu fotoğrafları üretir."
+                                    else "Kapalı: Erişilebilirlik servisiyle sessiz gerçek ekran yakalama devrede.",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
@@ -257,12 +258,53 @@ fun DeveloperConsoleScreen(
                                 checked = isFakeCaptureEnabled,
                                 onCheckedChange = { enabled ->
                                     appPreferences.setFakeCaptureEnabled(enabled)
-                                    if (!enabled) {
-                                        (context as? com.studytracker.MainActivity)?.requestScreenCapture()
-                                    }
-                                    Toast.makeText(context, if (enabled) "Sanal sürücü devrede" else "Gerçek ekran yakalama devrede", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context, if (enabled) "Sanal sürücü devrede" else "Sessiz gerçek ekran yakalama devrede", Toast.LENGTH_SHORT).show()
                                 }
                             )
+                        }
+
+                        if (!isFakeCaptureEnabled) {
+                            val isAccEnabled = remember { com.studytracker.core.service.StudyAccessibilityService.isAccessibilityServiceEnabled(context) }
+                            val isAccRunning = com.studytracker.core.service.StudyAccessibilityService.isServiceRunning()
+
+                            Surface(
+                                shape = RoundedCornerShape(10.dp),
+                                color = if (isAccRunning) EmeraldSuccess.copy(alpha = 0.15f) else AmberContainer,
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Row(
+                                    modifier = Modifier.padding(12.dp).fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Column(modifier = Modifier.weight(1f)) {
+                                        Text(
+                                            text = if (isAccRunning) "⚡ Erişilebilirlik: AKTİF" else "⚙️ Erişilebilirlik İzni Gerekli",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 13.sp,
+                                            color = if (isAccRunning) EmeraldSuccess else Color(0xFF92400E)
+                                        )
+                                        Text(
+                                            text = if (isAccRunning) "Sıfır sistem uyarısıyla arka planda sessiz ekran yakalanır."
+                                            else "Sessiz ekran yakalamak için ayarlardan StudyTracker'ı 1 kez açın.",
+                                            fontSize = 11.sp,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+
+                                    if (!isAccRunning) {
+                                        Button(
+                                            onClick = {
+                                                com.studytracker.core.service.StudyAccessibilityService.openAccessibilitySettings(context)
+                                            },
+                                            shape = RoundedCornerShape(8.dp),
+                                            colors = ButtonDefaults.buttonColors(containerColor = AmberWarning)
+                                        ) {
+                                            Text("Ayarları Aç", fontSize = 11.sp)
+                                        }
+                                    }
+                                }
+                            }
                         }
 
                         HorizontalDivider()

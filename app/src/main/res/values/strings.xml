@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StudyTracker</string>
+    <string name="accessibility_service_description">StudyTracker ders esnasında sessiz kanıt ekran görüntüsü alabilmek için bu servisi kullanır.</string>
 </resources>

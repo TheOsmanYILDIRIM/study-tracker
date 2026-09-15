@@ -46,8 +46,8 @@
 - **İsteğe Bağlı Tekrar Açma:** Görev Masası'nın sağ üstündeki (?) yardım butonu ile rehber unutulduğunda istenildiği zaman tekrar açılabilir. Geliştirici konsolunda da rehberi sıfırlama butonu eklendi.
 - **Yeni Özelliklerle Donatılmış 4 Adımlı Rehber:** Saniyelik sayaç, tek dokunuşla kanıt alma, **Pause/Resume (Duraklat/Devam Et)** mola verme mantığı ve 2 saniye basılı tutarak bitirme hareketlerinin tamamı canlı sandbox deneme alanına entegre edildi.
 
-### [2026-09-15] Tamamlandı: Gerçek Ekran Yakalama Motoru (RealMediaProjectionCaptureDriver)
-- **MediaProjection & ImageReader Mimarisi:** Android `MediaProjectionManager`, `VirtualDisplay` ve `ImageReader` (RGBA_8888, 720p optimize ölçeklendirme) kullanılarak gerçek ekran görüntüsü yakalayan `RealMediaProjectionCaptureDriver` ve izin yaşam döngüsünü yöneten `MediaProjectionHolder` geliştirildi.
-- **Dinamik Sürücü Seçimi:** `SessionStateManager` ve `DeveloperConsoleScreen` üzerinden sanal (`FakeCaptureDriver`) ve gerçek (`RealMediaProjectionCaptureDriver`) sürücüler arasında anında geçiş yapılması sağlandı.
-- **İzin Yönetimi ve Entegrasyon:** `AndroidManifest.xml` içine `FOREGROUND_SERVICE_MEDIA_PROJECTION` izni ve `mediaProjection` servis tipi eklendi; `MainActivity` ve ekranlardan tek tıkla sistem projeksiyon izni tetikleyicisi bağlandı.
+### [2026-09-15] Tamamlandı: Sıfır Uyarı & Sessiz Ekran Yakalama (StudyAccessibilityService & AccessibilityCaptureDriver)
+- **Sessiz Erişilebilirlik Mimarisi:** Android 11+ (API 30+) `AccessibilityService.takeScreenshot()` API'si kullanılarak her oturumda ekran kaydı onay penceresi ve rahatsız edici yeşil/kırmızı kayıt noktası çıkaran `MediaProjection` tamamen kaldırıldı.
+- **Kullanıcı Dostu Tek Seferlik Kurulum:** Ebeveyn sistem ayarlarından StudyTracker erişilebilirlik servisini 1 kez açtığında, uygulama arka planda veya yüzen düğmeye basıldığında sıfır sistem uyarısıyla ve sıfır çökme riskiyle anında tam ekran Bitmap görüntüsü yakalar.
+- **Sürücü & UI Entegrasyonu:** `AccessibilityCaptureDriver`, `SessionStateManager`, `DeveloperConsoleScreen` ve `accessibility_service_config.xml` entegrasyonu tamamlandı.
 

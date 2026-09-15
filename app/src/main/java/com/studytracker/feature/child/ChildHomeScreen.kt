@@ -16,8 +16,6 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.studytracker.MainActivity
-import com.studytracker.core.data.local.driver.MediaProjectionHolder
 import com.studytracker.core.domain.manager.ActiveSessionState
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
@@ -43,11 +41,8 @@ fun ChildHomeScreen(
     val activeState by stateManager.activeState.collectAsState()
     val isSessionActive = activeState != null
 
-    val handleStartSession: (Occurrence) -> Unit = remember(stateManager, context) {
+    val handleStartSession: (Occurrence) -> Unit = remember(stateManager) {
         { task ->
-            if (!stateManager.appPreferences.isFakeCaptureEnabled.value && !MediaProjectionHolder.hasPermission()) {
-                (context as? MainActivity)?.requestScreenCapture()
-            }
             stateManager.startSession(task.occurrenceKey, task.title)
         }
     }
