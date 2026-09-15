@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Build
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.driver.FakeCaptureDriver
+import com.studytracker.core.data.local.driver.RealMediaProjectionCaptureDriver
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
 import com.studytracker.core.domain.model.Session
@@ -29,11 +31,21 @@ class SessionStateManager private constructor(
 ) {
     private val scope = CoroutineScope(Dispatchers.Main + SupervisorJob())
     private val db = AppDatabase.getInstance(context)
+    val appPreferences = AppPreferences.getInstance(context)
+
     val sessionRepository = LocalSessionRepositoryImpl(db)
     val occurrenceRepository = LocalOccurrenceRepositoryImpl(db)
 
-    // Default to FakeCaptureDriver for test mode / out-of-box operation
-    var captureDriver: CaptureDriver = FakeCaptureDriver(context, db)
+    private val fakeCaptureDriver = FakeCaptureDriver(context, db)
+    private val realCaptureDriver = RealMediaProjectionCaptureDriver(context, db)
+
+    fun getEffectiveCaptureDriver(): CaptureDriver {
+        return if (appPreferences.isFakeCaptureEnabled.value) {
+            fakeCaptureDriver
+        } else {
+            realCaptureDriver
+        }
+    }
 
     private val _activeState = MutableStateFlow<ActiveSessionState?>(null)
     val activeState: StateFlow<ActiveSessionState?> = _activeState.asStateFlow()
@@ -46,10 +58,11 @@ class SessionStateManager private constructor(
             if (_activeState.value != null) return@launch // Zaten aktif session var
 
             val session = sessionRepository.startSession(occurrenceKey, childId)
-            captureDriver.start(session.sessionId, occurrenceKey)
+            val driver = getEffectiveCaptureDriver()
+            driver.start(session.sessionId, occurrenceKey)
 
             // Initial capture
-            val firstSs = captureDriver.captureNow()
+            driver.captureNow()
 
             _activeState.value = ActiveSessionState(
                 session = session,
@@ -82,7 +95,7 @@ class SessionStateManager private constructor(
     fun captureManual() {
         scope.launch {
             val current = _activeState.value ?: return@launch
-            val ss = captureDriver.captureNow()
+            getEffectiveCaptureDriver().captureNow()
             _activeState.value = current.copy(
                 screenshotCount = current.screenshotCount + 1
             )
@@ -95,7 +108,7 @@ class SessionStateManager private constructor(
             _activeState.value = current.copy(isFinishing = true)
 
             // Final screenshot
-            val finalSs = captureDriver.stop()
+            val finalSs = getEffectiveCaptureDriver().stop()
 
             // Update session in DB
             sessionRepository.finishSession(current.session.sessionId, finalSs?.url)
@@ -132,7 +145,7 @@ class SessionStateManager private constructor(
                 delay(60_000) // Her 60 saniyede bir otomatik screenshot
                 val current = _activeState.value
                 if (current != null && !current.isPaused) {
-                    val ss = captureDriver.captureNow()
+                    getEffectiveCaptureDriver().captureNow()
                     _activeState.value = current.copy(screenshotCount = current.screenshotCount + 1)
                 }
             }

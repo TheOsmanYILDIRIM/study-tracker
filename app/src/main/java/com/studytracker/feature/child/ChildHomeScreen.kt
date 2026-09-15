@@ -16,6 +16,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.studytracker.MainActivity
+import com.studytracker.core.data.local.driver.MediaProjectionHolder
 import com.studytracker.core.domain.manager.ActiveSessionState
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
@@ -40,6 +42,15 @@ fun ChildHomeScreen(
 
     val activeState by stateManager.activeState.collectAsState()
     val isSessionActive = activeState != null
+
+    val handleStartSession: (Occurrence) -> Unit = remember(stateManager, context) {
+        { task ->
+            if (!stateManager.appPreferences.isFakeCaptureEnabled.value && !MediaProjectionHolder.hasPermission()) {
+                (context as? MainActivity)?.requestScreenCapture()
+            }
+            stateManager.startSession(task.occurrenceKey, task.title)
+        }
+    }
 
     val todayDate = remember {
         SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
@@ -144,8 +155,8 @@ fun ChildHomeScreen(
                 items(rejectedTasks, key = { "rej_" + it.occurrenceKey }) { task ->
                     StudyTaskCard(
                         occurrence = task,
-                        onStartClick = { stateManager.startSession(task.occurrenceKey, task.title) },
-                        onRetryClick = { stateManager.startSession(task.occurrenceKey, task.title) }
+                        onStartClick = { handleStartSession(task) },
+                        onRetryClick = { handleStartSession(task) }
                     )
                 }
             }
@@ -171,8 +182,8 @@ fun ChildHomeScreen(
                 items(dailyTasks, key = { "daily_" + it.occurrenceKey }) { task ->
                     StudyTaskCard(
                         occurrence = task,
-                        onStartClick = { stateManager.startSession(task.occurrenceKey, task.title) },
-                        onRetryClick = { stateManager.startSession(task.occurrenceKey, task.title) }
+                        onStartClick = { handleStartSession(task) },
+                        onRetryClick = { handleStartSession(task) }
                     )
                 }
             }
@@ -198,8 +209,8 @@ fun ChildHomeScreen(
                 items(weeklyTasks, key = { "weekly_" + it.occurrenceKey }) { task ->
                     StudyTaskCard(
                         occurrence = task,
-                        onStartClick = { stateManager.startSession(task.occurrenceKey, task.title) },
-                        onRetryClick = { stateManager.startSession(task.occurrenceKey, task.title) }
+                        onStartClick = { handleStartSession(task) },
+                        onRetryClick = { handleStartSession(task) }
                     )
                 }
             }

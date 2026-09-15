@@ -36,7 +36,5 @@
 ## 7. Test Modu & Güncel Rehber (Tutorial) Yönetimi
 - [x] Test Modunu Açma/Kapama Ayarı, Tek Seferlik ve İsteğe Bağlı Yeniden Açılabilen Güncel Tutorial
 
-
-
-
-
+## 8. Gerçek Ekran Yakalama (Real MediaProjection Driver)
+- [x] `MediaProjectionManager` ve `ImageReader` Tabanlı Gerçek Ekran Yakalama Sürücüsü (`RealMediaProjectionCaptureDriver`) & Sahte/Gerçek Dinamik Sürücü Geçişi

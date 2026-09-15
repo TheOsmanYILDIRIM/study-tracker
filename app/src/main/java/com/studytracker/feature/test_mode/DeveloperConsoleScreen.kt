@@ -255,9 +255,12 @@ fun DeveloperConsoleScreen(
                             }
                             Switch(
                                 checked = isFakeCaptureEnabled,
-                                onCheckedChange = {
-                                    appPreferences.setFakeCaptureEnabled(it)
-                                    Toast.makeText(context, "Sanal sürücü: $it", Toast.LENGTH_SHORT).show()
+                                onCheckedChange = { enabled ->
+                                    appPreferences.setFakeCaptureEnabled(enabled)
+                                    if (!enabled) {
+                                        (context as? com.studytracker.MainActivity)?.requestScreenCapture()
+                                    }
+                                    Toast.makeText(context, if (enabled) "Sanal sürücü devrede" else "Gerçek ekran yakalama devrede", Toast.LENGTH_SHORT).show()
                                 }
                             )
                         }
@@ -329,10 +332,11 @@ fun DeveloperConsoleScreen(
                                 scope.launch {
                                     val key = "math_video:2026-06-15"
                                     val session = sessionRepo.startSession(key, "child_1")
-                                    stateManager.captureDriver.start(session.sessionId, key)
-                                    stateManager.captureDriver.captureNow()
-                                    stateManager.captureDriver.captureNow()
-                                    val finalSs = stateManager.captureDriver.stop()
+                                    val driver = stateManager.getEffectiveCaptureDriver()
+                                    driver.start(session.sessionId, key)
+                                    driver.captureNow()
+                                    driver.captureNow()
+                                    val finalSs = driver.stop()
                                     sessionRepo.finishSession(session.sessionId, finalSs?.url)
                                     Toast.makeText(context, "⏳ Onay bekleyen oturum oluşturuldu!", Toast.LENGTH_SHORT).show()
                                 }

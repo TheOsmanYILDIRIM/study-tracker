@@ -46,8 +46,8 @@
 - **İsteğe Bağlı Tekrar Açma:** Görev Masası'nın sağ üstündeki (?) yardım butonu ile rehber unutulduğunda istenildiği zaman tekrar açılabilir. Geliştirici konsolunda da rehberi sıfırlama butonu eklendi.
 - **Yeni Özelliklerle Donatılmış 4 Adımlı Rehber:** Saniyelik sayaç, tek dokunuşla kanıt alma, **Pause/Resume (Duraklat/Devam Et)** mola verme mantığı ve 2 saniye basılı tutarak bitirme hareketlerinin tamamı canlı sandbox deneme alanına entegre edildi.
 
-
-
-
-
+### [2026-09-15] Tamamlandı: Gerçek Ekran Yakalama Motoru (RealMediaProjectionCaptureDriver)
+- **MediaProjection & ImageReader Mimarisi:** Android `MediaProjectionManager`, `VirtualDisplay` ve `ImageReader` (RGBA_8888, 720p optimize ölçeklendirme) kullanılarak gerçek ekran görüntüsü yakalayan `RealMediaProjectionCaptureDriver` ve izin yaşam döngüsünü yöneten `MediaProjectionHolder` geliştirildi.
+- **Dinamik Sürücü Seçimi:** `SessionStateManager` ve `DeveloperConsoleScreen` üzerinden sanal (`FakeCaptureDriver`) ve gerçek (`RealMediaProjectionCaptureDriver`) sürücüler arasında anında geçiş yapılması sağlandı.
+- **İzin Yönetimi ve Entegrasyon:** `AndroidManifest.xml` içine `FOREGROUND_SERVICE_MEDIA_PROJECTION` izni ve `mediaProjection` servis tipi eklendi; `MainActivity` ve ekranlardan tek tıkla sistem projeksiyon izni tetikleyicisi bağlandı.
 
