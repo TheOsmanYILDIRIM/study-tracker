@@ -21,5 +21,10 @@
 - [x] Kanıt İnceleme & Screenshot Timeline (`SessionReviewScreen`)
 - [x] AI Plan Stüdyosu (`AIPlanStudioScreen`)
 - [x] Geliştirici & Test Modu Konsolu (`DeveloperConsoleScreen`)
-- [x] TDD Birim Testleri (`PlanMergeEngineTest`)
+
+## 5. Yeni İyileştirmeler & Kullanıcı İstekleri
+- [x] Ebeveyn Modunda Haftalık ve Günlük Plan İnceleme Görünümü (`ParentDashboardScreen` Sekmeli Yapı & Gün Filtreleri)
+- [x] Öğrenci Modunda Ders Çalışma Oturumunu Duraklatma / Devam Etme (Pause/Resume HUD & Canlı Kontrol Kartı)
+- [x] Plan Stüdyosunda Takvim Tabanlı Hafta Seçici Bileşeni (`WeekCalendarPicker`)
+- [x] JSON Yerine Kolay Bozulmayan Basit Değişken/DSL Plan Formatı (`SimplePlanParser` & `SimplePlanExporter`)
 

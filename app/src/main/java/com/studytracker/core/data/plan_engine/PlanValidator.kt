@@ -18,11 +18,26 @@ object PlanValidator {
     private val dateRegex = Regex("""^\d{4}-\d{2}-\d{2}$""")
     private val taskIdRegex = Regex("""^[a-z0-9_]+$""")
 
-    fun parseAndValidate(rawJson: String): Pair<Plan?, ValidationResult> {
-        val plan: Plan = try {
-            jsonParser.decodeFromString(Plan.serializer(), rawJson)
-        } catch (e: Exception) {
-            return Pair(null, ValidationResult.Invalid("Geçersiz JSON formatı: ${e.localizedMessage}"))
+    fun parseAndValidate(rawInput: String): Pair<Plan?, ValidationResult> {
+        val trimmed = rawInput.trim()
+        val plan: Plan = if (trimmed.startsWith("{")) {
+            try {
+                jsonParser.decodeFromString(Plan.serializer(), trimmed)
+            } catch (e: Exception) {
+                // If JSON fails, attempt SimplePlanParser as fallback
+                val (simplePlan, simpleResult) = SimplePlanParser.parse(trimmed)
+                if (simplePlan != null && simpleResult is ValidationResult.Valid) {
+                    simplePlan
+                } else {
+                    return Pair(null, ValidationResult.Invalid("Geçersiz JSON / Metin formatı: ${e.localizedMessage}"))
+                }
+            }
+        } else {
+            val (simplePlan, simpleResult) = SimplePlanParser.parse(trimmed)
+            if (simplePlan == null || simpleResult is ValidationResult.Invalid) {
+                return Pair(null, simpleResult)
+            }
+            simplePlan
         }
 
         if (plan.schemaVersion != 1) {

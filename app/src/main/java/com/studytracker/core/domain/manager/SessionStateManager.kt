@@ -20,7 +20,8 @@ data class ActiveSessionState(
     val occurrenceTitle: String,
     val elapsedSeconds: Long = 0,
     val screenshotCount: Int = 0,
-    val isFinishing: Boolean = false
+    val isFinishing: Boolean = false,
+    val isPaused: Boolean = false
 )
 
 class SessionStateManager private constructor(
@@ -54,12 +55,27 @@ class SessionStateManager private constructor(
                 session = session,
                 occurrenceTitle = occurrenceTitle,
                 elapsedSeconds = 0,
-                screenshotCount = 1
+                screenshotCount = 1,
+                isPaused = false
             )
 
             startFloatingService()
             startTicker()
             startPeriodicCapture()
+        }
+    }
+
+    fun pauseSession() {
+        _activeState.value = _activeState.value?.copy(isPaused = true)
+    }
+
+    fun resumeSession() {
+        _activeState.value = _activeState.value?.copy(isPaused = false)
+    }
+
+    fun togglePause() {
+        _activeState.value = _activeState.value?.let {
+            it.copy(isPaused = !it.isPaused)
         }
     }
 
@@ -98,8 +114,12 @@ class SessionStateManager private constructor(
         tickerJob = scope.launch {
             while (isActive && _activeState.value != null) {
                 delay(1000)
-                _activeState.value = _activeState.value?.let {
-                    it.copy(elapsedSeconds = it.elapsedSeconds + 1)
+                _activeState.value = _activeState.value?.let { current ->
+                    if (!current.isPaused) {
+                        current.copy(elapsedSeconds = current.elapsedSeconds + 1)
+                    } else {
+                        current
+                    }
                 }
             }
         }
@@ -110,11 +130,10 @@ class SessionStateManager private constructor(
         periodicCaptureJob = scope.launch {
             while (isActive && _activeState.value != null) {
                 delay(60_000) // Her 60 saniyede bir otomatik screenshot
-                if (_activeState.value != null) {
+                val current = _activeState.value
+                if (current != null && !current.isPaused) {
                     val ss = captureDriver.captureNow()
-                    _activeState.value = _activeState.value?.let {
-                        it.copy(screenshotCount = it.screenshotCount + 1)
-                    }
+                    _activeState.value = current.copy(screenshotCount = current.screenshotCount + 1)
                 }
             }
         }

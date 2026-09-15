@@ -5,11 +5,15 @@ import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CameraAlt
+import androidx.compose.material.icons.filled.Pause
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Stop
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
@@ -27,6 +31,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.studytracker.core.ui.theme.AmberWarning
 import com.studytracker.core.ui.theme.EmeraldSuccess
 import com.studytracker.core.ui.theme.PurpleActive
 import kotlinx.coroutines.launch
@@ -36,8 +41,10 @@ fun FloatingHUDView(
     elapsedSeconds: Long,
     screenshotCount: Int,
     isFinishing: Boolean,
+    isPaused: Boolean = false,
     onSingleTapCapture: () -> Unit,
-    onLongPressFinish: () -> Unit
+    onLongPressFinish: () -> Unit,
+    onTogglePause: () -> Unit
 ) {
     val coroutineScope = rememberCoroutineScope()
     val progress = remember { Animatable(0f) }
@@ -52,41 +59,10 @@ fun FloatingHUDView(
 
     Box(
         modifier = Modifier
-            .shadow(12.dp, shape = RoundedCornerShape(28.dp))
+            .shadow(14.dp, shape = RoundedCornerShape(28.dp))
             .clip(RoundedCornerShape(28.dp))
-            .background(Color(0xFF1E1B4B).copy(alpha = 0.92f))
-            .pointerInput(Unit) {
-                detectTapGestures(
-                    onPress = {
-                        isPressing = true
-                        val animationJob = coroutineScope.launch {
-                            progress.animateTo(
-                                targetValue = 1f,
-                                animationSpec = tween(durationMillis = 2000, easing = LinearEasing)
-                            )
-                            if (progress.value >= 0.99f) {
-                                onLongPressFinish()
-                            }
-                        }
-                        tryAwaitRelease()
-                        isPressing = false
-                        animationJob.cancel()
-                        coroutineScope.launch {
-                            progress.animateTo(0f, animationSpec = tween(200))
-                        }
-                    },
-                    onTap = {
-                        // Flash animation
-                        flashAlpha = 0.6f
-                        onSingleTapCapture()
-                        coroutineScope.launch {
-                            kotlinx.coroutines.delay(150)
-                            flashAlpha = 0f
-                        }
-                    }
-                )
-            }
-            .padding(horizontal = 14.dp, vertical = 8.dp),
+            .background(if (isPaused) Color(0xFF332005).copy(alpha = 0.94f) else Color(0xFF1E1B4B).copy(alpha = 0.94f))
+            .padding(horizontal = 12.dp, vertical = 6.dp),
         contentAlignment = Alignment.Center
     ) {
         // Flash overlay for capture feedback
@@ -102,9 +78,41 @@ fun FloatingHUDView(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            // Circular progress indicator around icon
+            // Main Action Button: Single tap -> Capture, Long hold -> Finish
             Box(
-                modifier = Modifier.size(36.dp),
+                modifier = Modifier
+                    .size(38.dp)
+                    .pointerInput(Unit) {
+                        detectTapGestures(
+                            onPress = {
+                                isPressing = true
+                                val animationJob = coroutineScope.launch {
+                                    progress.animateTo(
+                                        targetValue = 1f,
+                                        animationSpec = tween(durationMillis = 2000, easing = LinearEasing)
+                                    )
+                                    if (progress.value >= 0.99f) {
+                                        onLongPressFinish()
+                                    }
+                                }
+                                tryAwaitRelease()
+                                isPressing = false
+                                animationJob.cancel()
+                                coroutineScope.launch {
+                                    progress.animateTo(0f, animationSpec = tween(200))
+                                }
+                            },
+                            onTap = {
+                                // Flash animation
+                                flashAlpha = 0.6f
+                                onSingleTapCapture()
+                                coroutineScope.launch {
+                                    kotlinx.coroutines.delay(150)
+                                    flashAlpha = 0f
+                                }
+                            }
+                        )
+                    },
                 contentAlignment = Alignment.Center
             ) {
                 Canvas(modifier = Modifier.fillMaxSize()) {
@@ -125,8 +133,8 @@ fun FloatingHUDView(
 
                 Icon(
                     imageVector = if (isPressing || isFinishing) Icons.Default.Stop else Icons.Default.CameraAlt,
-                    contentDescription = "Oturum Durumu",
-                    tint = if (isPressing) EmeraldSuccess else PurpleActive,
+                    contentDescription = "Kanıt Al / Bitir",
+                    tint = if (isPressing) EmeraldSuccess else if (isPaused) AmberWarning else PurpleActive,
                     modifier = Modifier.size(18.dp)
                 )
             }
@@ -135,18 +143,54 @@ fun FloatingHUDView(
             Column(
                 horizontalAlignment = Alignment.Start
             ) {
-                Text(
-                    text = formattedTime,
-                    color = Color.White,
-                    fontSize = 14.sp,
-                    fontWeight = FontWeight.Bold,
-                    fontFamily = FontFamily.Monospace
-                )
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    Text(
+                        text = formattedTime,
+                        color = if (isPaused) AmberWarning else Color.White,
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = FontFamily.Monospace
+                    )
+                    if (isPaused) {
+                        Surface(
+                            shape = RoundedCornerShape(4.dp),
+                            color = AmberWarning.copy(alpha = 0.25f)
+                        ) {
+                            Text(
+                                text = "DURDU",
+                                color = AmberWarning,
+                                fontSize = 9.sp,
+                                fontWeight = FontWeight.ExtraBold,
+                                modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.dp)
+                            )
+                        }
+                    }
+                }
                 Text(
                     text = "📸 $screenshotCount kare",
                     color = Color(0xFFA5B4FC),
                     fontSize = 11.sp,
                     fontWeight = FontWeight.Medium
+                )
+            }
+
+            // Pause / Resume Button
+            Box(
+                modifier = Modifier
+                    .size(32.dp)
+                    .clip(CircleShape)
+                    .background(if (isPaused) AmberWarning else Color.White.copy(alpha = 0.15f))
+                    .clickable { onTogglePause() },
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                    contentDescription = if (isPaused) "Devam Et" else "Duraklat",
+                    tint = if (isPaused) Color.Black else Color.White,
+                    modifier = Modifier.size(18.dp)
                 )
             }
         }

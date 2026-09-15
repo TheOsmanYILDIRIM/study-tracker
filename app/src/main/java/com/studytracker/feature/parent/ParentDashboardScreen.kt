@@ -1,9 +1,11 @@
 package com.studytracker.feature.parent
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -21,14 +23,8 @@ import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
-import com.studytracker.core.domain.model.OccurrenceStatus
-import com.studytracker.core.domain.model.Review
-import com.studytracker.core.domain.model.ReviewStatus
-import com.studytracker.core.domain.model.Session
-import com.studytracker.core.ui.theme.AmberContainer
-import com.studytracker.core.ui.theme.EmeraldContainer
-import com.studytracker.core.ui.theme.EmeraldSuccess
-import com.studytracker.core.ui.theme.RoseReject
+import com.studytracker.core.domain.model.*
+import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
@@ -51,11 +47,24 @@ fun ParentDashboardScreen(
     val allOccurrences by occurrenceRepo.getAllOccurrences().collectAsState(initial = emptyList())
     val activePlan by planRepo.getActivePlan().collectAsState(initial = null)
 
+    var selectedTabIndex by remember { mutableStateOf(0) }
+    var selectedDayFilter by remember { mutableStateOf("ALL") } // ALL, MON, TUE, WED, THU, FRI, SAT, SUN
+
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
+    val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
+    val dayNameFormat = remember { SimpleDateFormat("EEEE", Locale("tr", "TR")) }
 
     val totalTasks = allOccurrences.size
     val approvedTasks = allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
     val pendingTasks = allOccurrences.count { it.status == OccurrenceStatus.PENDING }
+
+    // Grouping for Weekly / Daily view
+    val dailyOccurrences = remember(allOccurrences) {
+        allOccurrences.filter { it.type == TaskKind.DAILY }
+    }
+    val weeklyOccurrences = remember(allOccurrences) {
+        allOccurrences.filter { it.type == TaskKind.WEEKLY }
+    }
 
     Scaffold(
         topBar = {
@@ -74,184 +83,431 @@ fun ParentDashboardScreen(
             )
         }
     ) { padding ->
-        LazyColumn(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Plan Overview Card
-            item {
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
+            // Tab Row
+            TabRow(
+                selectedTabIndex = selectedTabIndex,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Tab(
+                    selected = selectedTabIndex == 0,
+                    onClick = { selectedTabIndex = 0 },
+                    text = {
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Text("🚨 Onay Masası")
+                            if (waitingSessions.isNotEmpty()) {
+                                Badge(containerColor = MaterialTheme.colorScheme.error) {
+                                    Text("${waitingSessions.size}")
+                                }
+                            }
+                        }
+                    }
+                )
+                Tab(
+                    selected = selectedTabIndex == 1,
+                    onClick = { selectedTabIndex = 1 },
+                    text = { Text("📅 Haftalık & Günlük Plan") }
+                )
+            }
+
+            if (selectedTabIndex == 0) {
+                // TAB 1: Review Queue & Summary
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
-                    Column(
-                        modifier = Modifier.padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
+                    // Plan Overview Card
+                    item {
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            shape = RoundedCornerShape(16.dp),
+                            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
+                        ) {
+                            Column(
+                                modifier = Modifier.padding(16.dp),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Text(
+                                        text = "Aktif Hafta: ${activePlan?.weekId ?: "Plan Yüklenmedi"}",
+                                        style = MaterialTheme.typography.titleMedium,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                    Surface(
+                                        shape = RoundedCornerShape(8.dp),
+                                        color = EmeraldContainer
+                                    ) {
+                                        Text(
+                                            text = "$approvedTasks/$totalTasks Tamamlandı",
+                                            color = Color(0xFF065F46),
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 12.sp,
+                                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                        )
+                                    }
+                                }
+
+                                Text(
+                                    text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSecondaryContainer
+                                )
+                            }
+                        }
+                    }
+
+                    // Quick Studio Action Button
+                    item {
+                        Button(
+                            onClick = onNavigateToPlanStudio,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(50.dp),
+                            shape = RoundedCornerShape(14.dp)
+                        ) {
+                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(20.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.Bold)
+                        }
+                    }
+
+                    // Waiting Review Queue Header
+                    item {
+                        Text(
+                            text = "🚨 Onay Bekleyen Çalışma Oturumları",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+
+                    if (waitingSessions.isEmpty()) {
+                        item {
+                            Card(
+                                modifier = Modifier.fillMaxWidth(),
+                                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(24.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text("Şu anda incelenmeyi bekleyen çalışma oturumu yok. 🎉", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            }
+                        }
+                    } else {
+                        items(waitingSessions, key = { it.sessionId }) { session ->
+                            Card(
+                                modifier = Modifier.fillMaxWidth(),
+                                shape = RoundedCornerShape(14.dp),
+                                colors = CardDefaults.cardColors(containerColor = AmberContainer.copy(alpha = 0.6f))
+                            ) {
+                                Column(
+                                    modifier = Modifier.padding(16.dp),
+                                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                                ) {
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.SpaceBetween,
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Text(
+                                            text = session.occurrenceKey,
+                                            fontWeight = FontWeight.Bold,
+                                            style = MaterialTheme.typography.titleSmall
+                                        )
+                                        Text(
+                                            text = "Başlama: ${timeFormat.format(Date(session.startTime))}",
+                                            fontSize = 12.sp,
+                                            color = Color(0xFF92400E)
+                                        )
+                                    }
+
+                                    Text(
+                                        text = "📸 Alınan Kanıt Ekran Görüntüsü: ${session.screenshotCount} adet",
+                                        style = MaterialTheme.typography.bodyMedium
+                                    )
+
+                                    // Action buttons
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        OutlinedButton(
+                                            onClick = { onNavigateToSessionReview(session.sessionId) },
+                                            modifier = Modifier.weight(1f),
+                                            shape = RoundedCornerShape(10.dp)
+                                        ) {
+                                            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(18.dp))
+                                            Spacer(modifier = Modifier.width(4.dp))
+                                            Text("İncele")
+                                        }
+
+                                        Button(
+                                            onClick = {
+                                                scope.launch {
+                                                    sessionRepo.submitReview(
+                                                        Review(
+                                                            sessionId = session.sessionId,
+                                                            occurrenceKey = session.occurrenceKey,
+                                                            reviewStatus = ReviewStatus.APPROVED,
+                                                            reviewNote = null,
+                                                            reviewedAt = System.currentTimeMillis()
+                                                        )
+                                                    )
+                                                }
+                                            },
+                                            modifier = Modifier.weight(1f),
+                                            colors = ButtonDefaults.buttonColors(containerColor = EmeraldSuccess),
+                                            shape = RoundedCornerShape(10.dp)
+                                        ) {
+                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
+                                            Spacer(modifier = Modifier.width(4.dp))
+                                            Text("Onayla")
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    item { Spacer(modifier = Modifier.height(24.dp)) }
+                }
+            } else {
+                // TAB 2: Full Weekly & Daily Plan Inspection View (Öğrenci Modu Tarzı Plan İnceleme)
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalArrangement = Arrangement.spacedBy(14.dp)
+                ) {
+                    // Day Selector Horizontal Filter
+                    item {
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text("🗓️ Gün Filtresi", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .horizontalScroll(rememberScrollState()),
+                                horizontalArrangement = Arrangement.spacedBy(6.dp)
+                            ) {
+                                val dayFilters = listOf(
+                                    "ALL" to "Tüm Hafta",
+                                    "MON" to "Pzt",
+                                    "TUE" to "Sal",
+                                    "WED" to "Çar",
+                                    "THU" to "Per",
+                                    "FRI" to "Cum",
+                                    "SAT" to "Cmt",
+                                    "SUN" to "Paz"
+                                )
+                                for ((key, label) in dayFilters) {
+                                    FilterChip(
+                                        selected = selectedDayFilter == key,
+                                        onClick = { selectedDayFilter = key },
+                                        label = { Text(label, fontSize = 12.sp) }
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // Filtered Daily Tasks
+                    val filteredTasks = remember(dailyOccurrences, selectedDayFilter, activePlan) {
+                        if (selectedDayFilter == "ALL") {
+                            dailyOccurrences
+                        } else {
+                            val startDate = activePlan?.weekStartDate
+                            if (startDate != null && startDate.isNotBlank()) {
+                                val dayOffset = when (selectedDayFilter) {
+                                    "MON" -> 0
+                                    "TUE" -> 1
+                                    "WED" -> 2
+                                    "THU" -> 3
+                                    "FRI" -> 4
+                                    "SAT" -> 5
+                                    "SUN" -> 6
+                                    else -> 0
+                                }
+                                val cal = Calendar.getInstance(Locale.US)
+                                try {
+                                    cal.time = dateFormat.parse(startDate) ?: Date()
+                                    cal.add(Calendar.DAY_OF_YEAR, dayOffset)
+                                    val targetDate = dateFormat.format(cal.time)
+                                    dailyOccurrences.filter { it.date == targetDate }
+                                } catch (_: Exception) {
+                                    dailyOccurrences
+                                }
+                            } else {
+                                dailyOccurrences
+                            }
+                        }
+                    }
+
+                    // Section Title
+                    item {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Text(
-                                text = "Aktif Hafta: ${activePlan?.weekId ?: "Plan Yüklenmedi"}",
+                                text = "📖 Günlük Dersler (${filteredTasks.size})",
                                 style = MaterialTheme.typography.titleMedium,
                                 fontWeight = FontWeight.Bold
                             )
-                            Surface(
-                                shape = RoundedCornerShape(8.dp),
-                                color = EmeraldContainer
-                            ) {
-                                Text(
-                                    text = "$approvedTasks/$totalTasks Tamamlandı",
-                                    color = Color(0xFF065F46),
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 12.sp,
-                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
-                                )
+                        }
+                    }
+
+                    if (filteredTasks.isEmpty()) {
+                        item {
+                            Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+                                Box(modifier = Modifier.padding(20.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                                    Text("Bu güne ait tanımlı ders bulunamadı.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
                             }
                         }
-
-                        Text(
-                            text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSecondaryContainer
-                        )
+                    } else {
+                        items(filteredTasks, key = { "inspect_" + it.occurrenceKey }) { task ->
+                            ParentTaskInspectionCard(task = task)
+                        }
                     }
+
+                    // Weekly Goals Section (Haftalık Genel Hedefler)
+                    if (selectedDayFilter == "ALL" || selectedDayFilter == "SUN" || selectedDayFilter == "SAT") {
+                        item {
+                            Text(
+                                text = "🎯 Haftalık Genel Hedefler (${weeklyOccurrences.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+
+                        if (weeklyOccurrences.isEmpty()) {
+                            item {
+                                Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+                                Box(modifier = Modifier.padding(16.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                                    Text("Haftalık genel hedef tanımlanmamış.", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            }
+                            }
+                        } else {
+                            items(weeklyOccurrences, key = { "inspect_w_" + it.occurrenceKey }) { task ->
+                                ParentTaskInspectionCard(task = task)
+                            }
+                        }
+                    }
+
+                    item { Spacer(modifier = Modifier.height(24.dp)) }
                 }
             }
+        }
+    }
+}
 
-            // Quick Studio Action Button
-            item {
-                Button(
-                    onClick = onNavigateToPlanStudio,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(52.dp),
-                    shape = RoundedCornerShape(14.dp)
-                ) {
-                    Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(20.dp))
-                    Spacer(modifier = Modifier.width(8.dp))
-                    Text("🤖 AI Plan Stüdyosu & JSON İçe/Dışa Aktar", fontWeight = FontWeight.Bold)
-                }
-            }
+@Composable
+fun ParentTaskInspectionCard(task: Occurrence) {
+    val statusColor = when (task.status) {
+        OccurrenceStatus.APPROVED -> EmeraldSuccess
+        OccurrenceStatus.WAITING_REVIEW -> AmberWarning
+        OccurrenceStatus.ACTIVE -> PurpleActive
+        OccurrenceStatus.REJECTED -> RoseReject
+        OccurrenceStatus.PENDING -> MaterialTheme.colorScheme.outline
+    }
 
-            // Waiting Review Queue Header
-            item {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+    val statusText = when (task.status) {
+        OccurrenceStatus.APPROVED -> "✅ Onaylandı"
+        OccurrenceStatus.WAITING_REVIEW -> "⏳ İnceleniyor"
+        OccurrenceStatus.ACTIVE -> "⚡ Devam Ediyor"
+        OccurrenceStatus.REJECTED -> "❌ Tekrar İsteniyor"
+        OccurrenceStatus.PENDING -> "🕒 Bekliyor"
+    }
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(14.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+    ) {
+        Column(
+            modifier = Modifier.padding(14.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp)
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = task.title,
+                    fontWeight = FontWeight.Bold,
+                    style = MaterialTheme.typography.titleSmall
+                )
+                Surface(
+                    shape = RoundedCornerShape(6.dp),
+                    color = statusColor.copy(alpha = 0.15f)
                 ) {
                     Text(
-                        text = "🚨 Onay Bekleyen Çalışmalar",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold
+                        text = statusText,
+                        color = statusColor,
+                        fontSize = 11.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
                     )
-                    if (waitingSessions.isNotEmpty()) {
-                        Badge(containerColor = MaterialTheme.colorScheme.error) {
-                            Text("${waitingSessions.size}")
-                        }
-                    }
                 }
             }
 
-            if (waitingSessions.isEmpty()) {
-                item {
-                    Card(
-                        modifier = Modifier.fillMaxWidth(),
-                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(24.dp),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Text("Şu anda incelenmeyi bekleyen çalışma oturumu yok. 🎉", color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        }
-                    }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                if (task.date != null) {
+                    Text(
+                        text = "📅 ${task.date}",
+                        fontSize = 12.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                 }
-            } else {
-                items(waitingSessions, key = { it.sessionId }) { session ->
-                    Card(
-                        modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(14.dp),
-                        colors = CardDefaults.cardColors(containerColor = AmberContainer.copy(alpha = 0.6f))
-                    ) {
-                        Column(
-                            modifier = Modifier.padding(16.dp),
-                            verticalArrangement = Arrangement.spacedBy(10.dp)
-                        ) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-                                Text(
-                                    text = session.occurrenceKey,
-                                    fontWeight = FontWeight.Bold,
-                                    style = MaterialTheme.typography.titleSmall
-                                )
-                                Text(
-                                    text = "Başlama: ${timeFormat.format(Date(session.startTime))}",
-                                    fontSize = 12.sp,
-                                    color = Color(0xFF92400E)
-                                )
-                            }
-
-                            Text(
-                                text = "📸 Alınan Kanıt Ekran Görüntüsü: ${session.screenshotCount} adet",
-                                style = MaterialTheme.typography.bodyMedium
-                            )
-
-                            // Action buttons
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.spacedBy(8.dp)
-                            ) {
-                                OutlinedButton(
-                                    onClick = { onNavigateToSessionReview(session.sessionId) },
-                                    modifier = Modifier.weight(1f),
-                                    shape = RoundedCornerShape(10.dp)
-                                ) {
-                                    Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(18.dp))
-                                    Spacer(modifier = Modifier.width(4.dp))
-                                    Text("İncele")
-                                }
-
-                                Button(
-                                    onClick = {
-                                        scope.launch {
-                                            sessionRepo.submitReview(
-                                                Review(
-                                                    sessionId = session.sessionId,
-                                                    occurrenceKey = session.occurrenceKey,
-                                                    reviewStatus = ReviewStatus.APPROVED,
-                                                    reviewNote = null,
-                                                    reviewedAt = System.currentTimeMillis()
-                                                )
-                                            )
-                                        }
-                                    },
-                                    modifier = Modifier.weight(1f),
-                                    colors = ButtonDefaults.buttonColors(containerColor = EmeraldSuccess),
-                                    shape = RoundedCornerShape(10.dp)
-                                ) {
-                                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
-                                    Spacer(modifier = Modifier.width(4.dp))
-                                    Text("Onayla")
-                                }
-                            }
-                        }
-                    }
-                }
+                Text(
+                    text = "⏱️ Hedef: ${task.targetDurationMinutes} dk",
+                    fontSize = 12.sp,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
             }
 
-            item { Spacer(modifier = Modifier.height(24.dp)) }
+            if (!task.description.isNullOrBlank()) {
+                Text(
+                    text = task.description,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+            }
+
+            if (task.warning && !task.warningReason.isNullOrBlank()) {
+                Surface(
+                    color = RoseReject.copy(alpha = 0.1f),
+                    shape = RoundedCornerShape(8.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = "Ebeveyn Notu: ${task.warningReason}",
+                        color = RoseReject,
+                        fontSize = 11.sp,
+                        fontWeight = FontWeight.Medium,
+                        modifier = Modifier.padding(8.dp)
+                    )
+                }
+            }
         }
     }
 }

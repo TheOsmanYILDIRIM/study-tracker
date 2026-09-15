@@ -129,11 +129,15 @@ class FloatingButtonService : Service() {
                             elapsedSeconds = state.elapsedSeconds,
                             screenshotCount = state.screenshotCount,
                             isFinishing = state.isFinishing,
+                            isPaused = state.isPaused,
                             onSingleTapCapture = {
                                 stateManager.captureManual()
                             },
                             onLongPressFinish = {
                                 stateManager.finishSession()
+                            },
+                            onTogglePause = {
+                                stateManager.togglePause()
                             }
                         )
                     }

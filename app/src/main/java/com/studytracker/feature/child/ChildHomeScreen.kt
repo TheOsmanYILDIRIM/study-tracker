@@ -113,6 +113,94 @@ fun ChildHomeScreen(
                 }
             }
 
+            // Live Active / Paused Session Banner
+            activeState?.let { active ->
+                item {
+                    val mins = active.elapsedSeconds / 60
+                    val secs = active.elapsedSeconds % 60
+                    val timeText = String.format("%02d:%02d", mins, secs)
+
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(16.dp),
+                        colors = CardDefaults.cardColors(
+                            containerColor = if (active.isPaused) MaterialTheme.colorScheme.tertiaryContainer else MaterialTheme.colorScheme.secondaryContainer
+                        )
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                ) {
+                                    Icon(
+                                        imageVector = if (active.isPaused) Icons.Default.PauseCircle else Icons.Default.PlayCircle,
+                                        contentDescription = null,
+                                        tint = if (active.isPaused) MaterialTheme.colorScheme.error else EmeraldSuccess
+                                    )
+                                    Text(
+                                        text = if (active.isPaused) "⏸️ Ders Duraklatıldı" else "⚡ Ders Devam Ediyor",
+                                        fontWeight = FontWeight.Bold,
+                                        style = MaterialTheme.typography.titleMedium
+                                    )
+                                }
+                                Text(
+                                    text = timeText,
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 18.sp,
+                                    fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                                )
+                            }
+
+                            Text(
+                                text = "Ders: ${active.occurrenceTitle} • 📸 ${active.screenshotCount} ekran görüntüsü",
+                                style = MaterialTheme.typography.bodyMedium
+                            )
+
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Button(
+                                    onClick = { stateManager.togglePause() },
+                                    modifier = Modifier.weight(1f),
+                                    colors = ButtonDefaults.buttonColors(
+                                        containerColor = if (active.isPaused) EmeraldSuccess else MaterialTheme.colorScheme.tertiary
+                                    ),
+                                    shape = RoundedCornerShape(10.dp)
+                                ) {
+                                    Icon(
+                                        imageVector = if (active.isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                                        contentDescription = null,
+                                        modifier = Modifier.size(18.dp)
+                                    )
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Text(if (active.isPaused) "Devam Et" else "Duraklat")
+                                }
+
+                                Button(
+                                    onClick = { stateManager.finishSession() },
+                                    modifier = Modifier.weight(1f),
+                                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error),
+                                    shape = RoundedCornerShape(10.dp)
+                                ) {
+                                    Icon(Icons.Default.Stop, contentDescription = null, modifier = Modifier.size(18.dp))
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Text("Tamamla")
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             // Warning Banner for Rejected tasks
             if (rejectedTasks.isNotEmpty()) {
                 item {

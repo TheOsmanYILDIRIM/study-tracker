@@ -23,7 +23,9 @@ import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.plan_engine.AIPromptBuilder
+import com.studytracker.core.data.plan_engine.SimplePlanParser
 import com.studytracker.core.domain.repository.PlanImportResult
+import com.studytracker.core.ui.components.WeekCalendarPicker
 import com.studytracker.core.ui.theme.EmeraldContainer
 import com.studytracker.core.ui.theme.EmeraldSuccess
 import com.studytracker.core.ui.theme.SapphirePrimary
@@ -47,12 +49,28 @@ fun AIPlanStudioScreen(
     val activePlan by planRepo.getActivePlan().collectAsState(initial = null)
     val occurrences by occurrenceRepo.getAllOccurrences().collectAsState(initial = emptyList())
 
-    var userCustomRequest by remember { mutableStateOf("") }
-    var targetWeekId by remember { mutableStateOf("2026-W25") }
-    var targetWeekStartDate by remember { mutableStateOf("2026-06-15") }
-    var childId by remember { mutableStateOf("child_1") }
+    // Derive initial week info
+    val initialWeekInfo = remember {
+        val cal = Calendar.getInstance(Locale.US)
+        cal.firstDayOfWeek = Calendar.MONDAY
+        cal.minimalDaysInFirstWeek = 4
+        val dayOfWeek = cal.get(Calendar.DAY_OF_WEEK)
+        val daysFromMonday = if (dayOfWeek == Calendar.SUNDAY) 6 else dayOfWeek - Calendar.MONDAY
+        cal.add(Calendar.DAY_OF_MONTH, -daysFromMonday)
 
-    var jsonInput by remember { mutableStateOf("") }
+        val year = cal.get(Calendar.YEAR)
+        val week = cal.get(Calendar.WEEK_OF_YEAR)
+        val weekId = String.format(Locale.US, "%04d-W%02d", year, week)
+        val startDate = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(cal.time)
+        Pair(weekId, startDate)
+    }
+
+    var targetWeekId by remember { mutableStateOf(initialWeekInfo.first) }
+    var targetWeekStartDate by remember { mutableStateOf(initialWeekInfo.second) }
+    var childId by remember { mutableStateOf("child_1") }
+    var userCustomRequest by remember { mutableStateOf("") }
+
+    var planTextInput by remember { mutableStateOf("") }
     var importResult by remember { mutableStateOf<PlanImportResult?>(null) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
     var isImporting by remember { mutableStateOf(false) }
@@ -84,7 +102,7 @@ fun AIPlanStudioScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Section 1: AI Prompt Builder
+            // Section 1: Graphical Calendar Week Selector
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
@@ -99,41 +117,30 @@ fun AIPlanStudioScreen(
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
-                            Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = SapphirePrimary)
-                            Text("1. AI Plan Prompt'u Hazırla", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                            Icon(Icons.Default.CalendarMonth, contentDescription = null, tint = SapphirePrimary)
+                            Text("1. Takvimden Hedef Haftayı Seçin", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                         }
 
                         Text(
-                            text = "Mevcut planı ve tamamlanmış görevleri AI'a aktararak yeni veya revize haftalık plan üretmesini sağlayın.",
+                            text = "Haftayı elle yazmak yerine aşağıdaki takvimden dokunarak kolayca belirleyin.",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onPrimaryContainer
                         )
 
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.spacedBy(8.dp)
-                        ) {
-                            OutlinedTextField(
-                                value = targetWeekId,
-                                onValueChange = { targetWeekId = it },
-                                label = { Text("Hafta (WeekId)") },
-                                modifier = Modifier.weight(1f),
-                                singleLine = true
-                            )
-                            OutlinedTextField(
-                                value = targetWeekStartDate,
-                                onValueChange = { targetWeekStartDate = it },
-                                label = { Text("Başlangıç (Tarih)") },
-                                modifier = Modifier.weight(1f),
-                                singleLine = true
-                            )
-                        }
+                        WeekCalendarPicker(
+                            selectedWeekId = targetWeekId,
+                            selectedStartDate = targetWeekStartDate,
+                            onWeekSelected = { wId, sDate ->
+                                targetWeekId = wId
+                                targetWeekStartDate = sDate
+                            }
+                        )
 
                         OutlinedTextField(
                             value = userCustomRequest,
                             onValueChange = { userCustomRequest = it },
-                            label = { Text("Özel İsteğiniz (Opsiyonel)") },
-                            placeholder = { Text("Örn: Perşembe matematik süresini 40 dk yap...") },
+                            label = { Text("Özel Plan İsteğiniz (Opsiyonel)") },
+                            placeholder = { Text("Örn: Çarşamba ve Cuma günleri İngilizce ağırlıklı olsun...") },
                             modifier = Modifier.fillMaxWidth(),
                             minLines = 2
                         )
@@ -163,7 +170,7 @@ fun AIPlanStudioScreen(
                 }
             }
 
-            // Section 2: JSON Import
+            // Section 2: Simple Plan / JSON Import Area
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
@@ -179,30 +186,92 @@ fun AIPlanStudioScreen(
                             horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
                             Icon(Icons.Default.Download, contentDescription = null, tint = EmeraldSuccess)
-                            Text("2. AI JSON Çıktısını İçe Aktar", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                            Text("2. Planı İçe Aktar (Basit Format / JSON)", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                        }
+
+                        Text(
+                            text = "AI çıktısını veya aşağıdaki basit değişken formatındaki ders planını buraya yapıştırın.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+
+                        // Action Quick Buttons: Load Template & Export Current Plan
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            OutlinedButton(
+                                onClick = {
+                                    planTextInput = """
+HAFTA = $targetWeekId
+BASLANGIC = $targetWeekStartDate
+OGRENCI = $childId
+
+[DERSLER]
+mat = Matematik | 40 dk | Soru Çözümü & Konu Tekrarı
+turkce = Türkçe | 30 dk | Paragraf ve Dil Bilgisi
+fen = Fen Bilimleri | 35 dk | Deney ve Ünite Değerlendirme
+sosyal = Sosyal Bilgiler | 25 dk | Harita & Tarih Özeti
+ingilizce = İngilizce | 25 dk | Kelime ve Dinleme
+kitap = Kitap Okuma | 20 dk | 25 Sayfa Kitap
+
+[GUNLER]
+Pazartesi = mat, turkce, kitap
+Sali = fen, sosyal, kitap
+Carsamba = mat, ingilizce, kitap
+Persembe = turkce, fen, kitap
+Cuma = mat, sosyal, ingilizce
+Cumartesi = fen, mat, kitap
+Pazar = kitap
+
+[HAFTALIK]
+deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemesi
+                                    """.trimIndent()
+                                },
+                                modifier = Modifier.weight(1f),
+                                shape = RoundedCornerShape(10.dp)
+                            ) {
+                                Icon(Icons.Default.Article, contentDescription = null, modifier = Modifier.size(16.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text("Şablon Doldur", fontSize = 11.sp)
+                            }
+
+                            if (activePlan != null) {
+                                OutlinedButton(
+                                    onClick = {
+                                        planTextInput = SimplePlanParser.exportToSimpleText(activePlan!!)
+                                    },
+                                    modifier = Modifier.weight(1f),
+                                    shape = RoundedCornerShape(10.dp)
+                                ) {
+                                    Icon(Icons.Default.Output, contentDescription = null, modifier = Modifier.size(16.dp))
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Text("Aktif Planı Çek", fontSize = 11.sp)
+                                }
+                            }
                         }
 
                         OutlinedTextField(
-                            value = jsonInput,
-                            onValueChange = { jsonInput = it },
-                            placeholder = { Text("AI'dan gelen haftalık plan JSON'unu buraya yapıştırın...") },
+                            value = planTextInput,
+                            onValueChange = { planTextInput = it },
+                            placeholder = { Text("HAFTA = $targetWeekId\n[DERSLER]\nmat = Matematik | 40 dk\n[GUNLER]\nPazartesi = mat...") },
                             modifier = Modifier.fillMaxWidth(),
                             minLines = 6,
-                            maxLines = 10,
+                            maxLines = 12,
                             textStyle = LocalTextStyle.current.copy(fontFamily = FontFamily.Monospace, fontSize = 12.sp)
                         )
 
                         Button(
                             onClick = {
-                                if (jsonInput.isBlank()) {
-                                    errorMessage = "Lütfen önce geçerli bir JSON yapıştırın."
+                                if (planTextInput.isBlank()) {
+                                    errorMessage = "Lütfen önce geçerli bir plan metni veya JSON yapıştırın."
                                     return@Button
                                 }
                                 isImporting = true
                                 errorMessage = null
                                 importResult = null
                                 scope.launch {
-                                    val res = planRepo.importPlanJson(jsonInput)
+                                    val res = planRepo.importPlanJson(planTextInput)
                                     isImporting = false
                                     res.onSuccess {
                                         importResult = it
