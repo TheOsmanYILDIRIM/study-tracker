@@ -73,8 +73,25 @@ fun ChildHomeScreen(
         occurrences.filter { it.warning }
     }
 
+    val completedTasksCount = remember(occurrences) {
+        occurrences.count {
+            it.status == OccurrenceStatus.APPROVED ||
+            it.status == OccurrenceStatus.COMPLETED ||
+            it.status == OccurrenceStatus.REVIEW_PENDING
+        }
+    }
+    val totalTasksCount = remember(occurrences) {
+        occurrences.size.coerceAtLeast(1)
+    }
+
+    var flyingStarTrigger by remember { mutableStateOf(0L) }
+
     Box(modifier = Modifier.fillMaxSize()) {
-        ZenParallaxBackground()
+        ZenParallaxBackground(
+            completedTasksCount = completedTasksCount,
+            totalTasksCount = totalTasksCount,
+            flyingStarTrigger = flyingStarTrigger
+        )
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -140,7 +157,13 @@ fun ChildHomeScreen(
                 // Live Active Session Banner (Shows when session is ongoing or paused)
                 if (isSessionActive) {
                     item(key = "live_active_banner") {
-                        LiveActiveSessionBanner(stateManager = stateManager)
+                        LiveActiveSessionBanner(
+                            stateManager = stateManager,
+                            onFinishClick = {
+                                flyingStarTrigger = System.currentTimeMillis()
+                                stateManager.finishSession()
+                            }
+                        )
                     }
                 }
 
@@ -296,7 +319,10 @@ fun ChildHomeScreen(
 }
 
 @Composable
-fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
+fun LiveActiveSessionBanner(
+    stateManager: SessionStateManager,
+    onFinishClick: () -> Unit = { stateManager.finishSession() }
+) {
     val activeState by stateManager.activeState.collectAsState()
     val active = activeState ?: return
 
@@ -373,7 +399,7 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
 
                 // 2. Complete Button
                 Button(
-                    onClick = { stateManager.finishSession() },
+                    onClick = onFinishClick,
                     modifier = Modifier.weight(1f).height(36.dp),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = ZenForestGreen,

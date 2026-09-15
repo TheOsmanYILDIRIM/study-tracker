@@ -77,12 +77,14 @@
 - **Haftalık Hedefler Üste & Yatay Kaydırma (LazyRow):** Çocuk ana ekranında haftalık hedefler en üste taşındı ve yatay kaydırmalı `LazyRow` içinde `StudyWeeklyTaskCard` ile gösterildi; günlük görevler altta dikey sıralandı.
 - **Mükerrer Hero Kartının Kaldırılması & Canlı Paralaks Arka Plan:** Yinelenen hero progress kartı kaldırıldı; arka plandaki masal görseli %20 daha açık parlak bir filtreyle belirginleştirildi ve GPU `graphicsLayer` üzerinde çalışan yavaş, akıcı bir nefes alma/paralaks süzülme animasyonu (`rememberInfiniteTransition`) uygulandı.
 
-### [2026-09-15] Tamamlandı: Ayrıştırılmış Işık Katmanları ile Dinamik Parlama & Yanıp Sönme Efektleri
-- **3 Ayrıştırılmış Işık Katmanı:** Orijinal görseldeki parlak altın ve zümrüt ışıklar 3 bağımsız alfa katmanına ayrıştırıldı:
-  1. `bg_zen_lights_sky.webp`: Gökyüzü yıldızları, takımyıldız noktaları ve hilal ay ışıltısı (`3600ms` yavaş nefes alma parlaması).
-  2. `bg_zen_lights_forest.webp`: Çam ağaçları arasındaki sıcak ateşböcekleri ve orman fenerleri (`2200ms` canlı yanıp sönme / titreşim).
-  3. `bg_zen_lights_lake.webp`: Göldeki ay yansıması ve su üzerindeki pırıltılar (`2900ms` dalgalı ışık parıltısı).
-- **Zıt Yönlü Paralaks ile Tam Senkronizasyon:** Her ışık katmanı kendi derinlik düzlemiyle birlikte hareket ederken bağımsız alfa döngüsüyle parlayıp sönerek masalsı canlı bir gece atmosferi oluşturdu.
+### [2026-09-15] Tamamlandı: Orijinal Gökyüzü Katman Ayrıştırma & Görev Tamamlama Yıldız Uçuş Efekti
+- **Önceki Işık Katmanlarının Temizlenmesi:** Önceki orman ateşböceği ve göl ışık katmanları revert edildi.
+- **Orijinal Kağıt Kesimden 2 Tam Örtüşen Gökyüzü Katmanı:**
+  1. `bg_zen_layer1_sky.webp`: Küçük yıldızların morfolojik filtre ve pürüzsüz interpolasyon ile kaldırıldığı, hilal ay ve gece gradyanının korunduğu temiz gökyüzü katmanı (Katman A).
+  2. `bg_zen_stars_isolated.webp`: Orijinal görsel ile piksel piksel birebir örtüşen (`768x1376`), arka planı tam saydam, yalnızca yıldızların ve takımyıldızlarının yer aldığı saf alfa katmanı (Katman B).
+- **Kademeli Yıldız Aydınlanması:** Tamamlanan/onaylanan görev sayısı arttıkça gökyüzünün yıldızları %35 taban loşluktan %100 canlı ışıltıya doğru dinamik olarak aydınlanacak şekilde `ZenParallaxBackground`'a bağlandı.
+- **Görev Tamamlama Yıldız Uçuşu & Patlama Halkası (`FlyingComet` & `StarBurstRing`):** Öğrenci dersi bitirdiğinde görev kartından gökyüzündeki hedef yıldıza doğru kavisli altın-cyan kuyruklu yıldız parçacığı uçar (`Animatable(1400ms)`), ulaştığında hedef yıldızda dairesel ışık halkası patlaması (`StarBurstRing`) meydana gelir ve takımyıldızı kalıcı olarak aktif hale gelir.
+
 
 
 
