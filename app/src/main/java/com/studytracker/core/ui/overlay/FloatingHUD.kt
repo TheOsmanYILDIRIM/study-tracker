@@ -3,8 +3,10 @@ package com.studytracker.core.ui.overlay
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
@@ -22,7 +24,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -31,9 +32,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.studytracker.core.ui.theme.AmberWarning
-import com.studytracker.core.ui.theme.ZomoMintAccent
-import com.studytracker.core.ui.theme.ZomoPurplePrimary
+import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 
 @Composable
@@ -59,9 +58,9 @@ fun FloatingHUDView(
 
     Box(
         modifier = Modifier
-            .shadow(16.dp, shape = RoundedCornerShape(50), spotColor = ZomoPurplePrimary.copy(alpha = 0.4f))
-            .clip(RoundedCornerShape(50))
-            .background(if (isPaused) Color(0xFF2E1A05).copy(alpha = 0.96f) else Color(0xFF160B29).copy(alpha = 0.96f))
+            .clip(CircleShape)
+            .background(if (isPaused) Color(0xFF261808).copy(alpha = 0.98f) else Color(0xFF0C061C).copy(alpha = 0.98f))
+            .border(1.5.dp, if (isPaused) ZomoAmber.copy(alpha = 0.8f) else ZomoPurplePrimary.copy(alpha = 0.6f), CircleShape)
             .padding(horizontal = 14.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center
     ) {
@@ -81,7 +80,7 @@ fun FloatingHUDView(
             // Main Action Button: Single tap -> Capture, Long hold -> Finish
             Box(
                 modifier = Modifier
-                    .size(40.dp)
+                    .size(42.dp)
                     .pointerInput(Unit) {
                         detectTapGestures(
                             onPress = {
@@ -116,11 +115,11 @@ fun FloatingHUDView(
             ) {
                 Canvas(modifier = Modifier.fillMaxSize()) {
                     drawCircle(
-                        color = Color.White.copy(alpha = 0.18f),
+                        color = Color.White.copy(alpha = 0.15f),
                         style = Stroke(width = 3.dp.toPx())
                     )
                     drawArc(
-                        color = ZomoMintAccent,
+                        color = ZomoNeonMint,
                         startAngle = -90f,
                         sweepAngle = progress.value * 360f,
                         useCenter = false,
@@ -131,8 +130,8 @@ fun FloatingHUDView(
                 Icon(
                     imageVector = if (isPressing || isFinishing) Icons.Default.Stop else Icons.Default.CameraAlt,
                     contentDescription = "Kanıt Al / Bitir",
-                    tint = if (isPressing) ZomoMintAccent else if (isPaused) AmberWarning else Color.White,
-                    modifier = Modifier.size(19.dp)
+                    tint = if (isPressing) ZomoNeonMint else if (isPaused) ZomoAmber else Color.White,
+                    modifier = Modifier.size(20.dp)
                 )
             }
 
@@ -146,31 +145,31 @@ fun FloatingHUDView(
                 ) {
                     Text(
                         text = formattedTime,
-                        color = if (isPaused) AmberWarning else Color.White,
+                        color = if (isPaused) ZomoAmber else Color.White,
                         fontSize = 14.sp,
-                        fontWeight = FontWeight.ExtraBold,
+                        fontWeight = FontWeight.Black,
                         fontFamily = FontFamily.Monospace
                     )
                     if (isPaused) {
                         Surface(
-                            shape = RoundedCornerShape(50),
-                            color = AmberWarning.copy(alpha = 0.25f)
+                            shape = CircleShape,
+                            color = ZomoAmberContainer
                         ) {
                             Text(
                                 text = "MOLA",
-                                color = AmberWarning,
+                                color = ZomoAmber,
                                 fontSize = 9.sp,
-                                fontWeight = FontWeight.ExtraBold,
-                                modifier = Modifier.padding(horizontal = 5.dp, vertical = 1.dp)
+                                fontWeight = FontWeight.Black,
+                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
                             )
                         }
                     }
                 }
                 Text(
                     text = "📸 $screenshotCount kanıt",
-                    color = ZomoMintAccent,
+                    color = ZomoNeonMint,
                     fontSize = 11.sp,
-                    fontWeight = FontWeight.SemiBold
+                    fontWeight = FontWeight.Bold
                 )
             }
 
@@ -179,14 +178,14 @@ fun FloatingHUDView(
                 modifier = Modifier
                     .size(34.dp)
                     .clip(CircleShape)
-                    .background(if (isPaused) AmberWarning else Color.White.copy(alpha = 0.15f))
+                    .background(if (isPaused) ZomoAmber else Color(0x33A855F7))
                     .clickable { onTogglePause() },
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
                     imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
                     contentDescription = if (isPaused) "Devam Et" else "Duraklat",
-                    tint = if (isPaused) Color.Black else Color.White,
+                    tint = if (isPaused) Color(0xFF451A03) else Color.White,
                     modifier = Modifier.size(18.dp)
                 )
             }

@@ -20,7 +20,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
@@ -94,8 +93,8 @@ fun EvidenceTimelineView(
         Text(
             text = "📸 Kanıt Zaman Tüneli (${screenshots.size} Ekran Görüntüsü)",
             style = MaterialTheme.typography.titleMedium,
-            fontWeight = FontWeight.ExtraBold,
-            color = Color(0xFF1E1B4B)
+            fontWeight = FontWeight.Black,
+            color = ZomoTextPrimary
         )
 
         // Horizontal thumbnail selector
@@ -106,9 +105,9 @@ fun EvidenceTimelineView(
             items(screenshots, key = { it.screenshotId }) { ss ->
                 val isSelected = selectedScreenshot?.screenshotId == ss.screenshotId
                 val borderModifier = if (isSelected) {
-                    Modifier.border(2.5.dp, ZomoPurplePrimary, RoundedCornerShape(14.dp))
+                    Modifier.border(2.dp, ZomoNeonMint, RoundedCornerShape(16.dp))
                 } else {
-                    Modifier.border(1.dp, ZomoSquirclePurple.copy(alpha = 0.5f), RoundedCornerShape(14.dp))
+                    Modifier.border(1.dp, ZomoDarkBorder, RoundedCornerShape(16.dp))
                 }
 
                 val thumbBitmap by produceState<Bitmap?>(initialValue = null, key1 = ss.url) {
@@ -116,7 +115,7 @@ fun EvidenceTimelineView(
                 }
 
                 Surface(
-                    shape = RoundedCornerShape(14.dp),
+                    shape = RoundedCornerShape(16.dp),
                     modifier = Modifier
                         .width(105.dp)
                         .height(78.dp)
@@ -129,7 +128,7 @@ fun EvidenceTimelineView(
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
-                            .background(ZomoSoftLavender),
+                            .background(ZomoDarkSurface),
                         contentAlignment = Alignment.Center
                     ) {
                         if (thumbBitmap != null) {
@@ -148,7 +147,7 @@ fun EvidenceTimelineView(
                             modifier = Modifier
                                 .align(Alignment.BottomCenter)
                                 .fillMaxWidth()
-                                .background(Color.Black.copy(alpha = 0.65f))
+                                .background(Color.Black.copy(alpha = 0.75f))
                                 .padding(2.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -174,10 +173,9 @@ fun EvidenceTimelineView(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(260.dp)
-                    .shadow(6.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.12f))
-                    .clip(RoundedCornerShape(24.dp))
-                    .border(1.dp, ZomoSquirclePurple.copy(alpha = 0.4f), RoundedCornerShape(24.dp)),
-                color = ZomoCardBackground
+                    .clip(RoundedCornerShape(26.dp))
+                    .border(1.dp, ZomoDarkBorder, RoundedCornerShape(26.dp)),
+                color = ZomoDarkSurface
             ) {
                 Box(
                     modifier = Modifier.fillMaxSize(),
@@ -193,7 +191,7 @@ fun EvidenceTimelineView(
                     } else {
                         CircularProgressIndicator(
                             modifier = Modifier.size(32.dp),
-                            color = ZomoPurplePrimary,
+                            color = ZomoNeonMint,
                             strokeWidth = 2.5.dp
                         )
                     }

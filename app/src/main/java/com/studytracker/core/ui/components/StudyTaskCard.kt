@@ -1,5 +1,6 @@
 package com.studytracker.core.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -12,7 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -22,10 +22,10 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.theme.*
 
-private val ZomoCardShape = RoundedCornerShape(24.dp)
-private val ZomoTileShape = RoundedCornerShape(16.dp)
-private val ZomoPillShape = CircleShape
-private val ZomoBannerShape = RoundedCornerShape(14.dp)
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticSquircleShape = RoundedCornerShape(18.dp)
+private val FuturisticPillShape = CircleShape
+private val FuturisticBannerShape = RoundedCornerShape(16.dp)
 
 @Composable
 fun StudyTaskCard(
@@ -43,57 +43,56 @@ fun StudyTaskCard(
     }
 
     val borderColor = when {
-        occurrence.warning -> ZomoAmber.copy(alpha = 0.6f)
+        occurrence.warning -> ZomoAmber.copy(alpha = 0.7f)
         occurrence.status == OccurrenceStatus.APPROVED -> ZomoEmerald.copy(alpha = 0.5f)
         occurrence.status == OccurrenceStatus.ACTIVE -> ZomoPurplePrimary
-        else -> ZomoLavenderBorder
+        else -> ZomoDarkBorder
     }
 
     Card(
         modifier = modifier
             .fillMaxWidth()
-            .shadow(4.dp, shape = ZomoCardShape, spotColor = ZomoPurplePrimary.copy(alpha = 0.08f))
-            .border(width = 1.2.dp, color = borderColor, shape = ZomoCardShape),
-        shape = ZomoCardShape,
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+            .border(width = 1.dp, color = borderColor, shape = FuturisticCardShape),
+        shape = FuturisticCardShape,
+        colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
     ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(18.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+            verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
-            // Main Top Row: Pastel Squircle Icon + Title + Status Pill
+            // Main Top Row: Futuristic Neon Squircle + Title + Status Pill
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
+                horizontalArrangement = Arrangement.spacedBy(14.dp)
             ) {
-                // 3D/Pastel Squircle Icon Tile
+                // Futuristic Glowing Squircle Icon Container
                 Surface(
-                    shape = ZomoTileShape,
+                    shape = FuturisticSquircleShape,
                     color = tileBg,
-                    modifier = Modifier.size(48.dp)
+                    modifier = Modifier.size(52.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
                         Icon(
                             imageVector = iconVector,
                             contentDescription = null,
                             tint = tileFg,
-                            modifier = Modifier.size(26.dp)
+                            modifier = Modifier.size(28.dp)
                         )
                     }
                 }
 
                 Column(
                     modifier = Modifier.weight(1f),
-                    verticalArrangement = Arrangement.spacedBy(2.dp)
+                    verticalArrangement = Arrangement.spacedBy(3.dp)
                 ) {
                     Text(
                         text = occurrence.title,
                         style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onSurface,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = ZomoTextPrimary,
                         maxLines = 1
                     )
                     Text(
@@ -101,7 +100,7 @@ fun StudyTaskCard(
                                 if (occurrence.type == TaskKind.WEEKLY && occurrence.targetCount != null)
                                     " • 🎯 ${occurrence.approvedCount}/${occurrence.targetCount}" else "",
                         style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                        color = ZomoTextSecondary
                     )
                 }
 
@@ -112,12 +111,13 @@ fun StudyTaskCard(
             // Parent Warning Note Banner
             if (occurrence.warning && !occurrence.warningText.isNullOrBlank()) {
                 Surface(
-                    shape = ZomoBannerShape,
-                    color = ZomoAmberContainer.copy(alpha = 0.7f),
+                    shape = FuturisticBannerShape,
+                    color = ZomoAmberContainer,
+                    border = BorderStroke(1.dp, ZomoAmber.copy(alpha = 0.3f)),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Row(
-                        modifier = Modifier.padding(10.dp),
+                        modifier = Modifier.padding(12.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
@@ -128,10 +128,10 @@ fun StudyTaskCard(
                             modifier = Modifier.size(18.dp)
                         )
                         Text(
-                            text = "Not: ${occurrence.warningText}",
+                            text = "Ebeveyn Notu: ${occurrence.warningText}",
                             style = MaterialTheme.typography.bodySmall,
-                            fontWeight = FontWeight.Medium,
-                            color = Color(0xFF92400E)
+                            fontWeight = FontWeight.SemiBold,
+                            color = ZomoAmber
                         )
                     }
                 }
@@ -145,53 +145,54 @@ fun StudyTaskCard(
                             onClick = onRetryClick,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(46.dp),
+                                .height(48.dp),
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = ZomoAmber,
-                                contentColor = Color.White
+                                contentColor = Color(0xFF451A03)
                             ),
-                            shape = ZomoPillShape
+                            shape = FuturisticPillShape
                         ) {
                             Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text("Dersi Tekrar Başlat", fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("Dersi Tekrar Başlat", fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
                         }
                     } else {
-                        // High-contrast Neon Mint Pill Button (Zomo style)
+                        // High-contrast Glowing Neon Mint Pill Button (Futuristic Cyber CTA)
                         Button(
                             onClick = onStartClick,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(46.dp),
+                                .height(48.dp),
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = ZomoNeonMint,
-                                contentColor = Color(0xFF042F2E)
+                                contentColor = ZomoNeonMintText
                             ),
-                            shape = ZomoPillShape
+                            shape = FuturisticPillShape
                         ) {
-                            Icon(Icons.Default.PlayArrow, contentDescription = null, modifier = Modifier.size(20.dp), tint = Color(0xFF042F2E))
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text("Çalışmayı Başlat", fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                            Icon(Icons.Default.PlayArrow, contentDescription = null, modifier = Modifier.size(20.dp), tint = ZomoNeonMintText)
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("Çalışmayı Başlat", fontWeight = FontWeight.Black, fontSize = 14.sp)
                         }
                     }
                 }
                 OccurrenceStatus.ACTIVE -> {
                     Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = ZomoPillShape,
-                        color = ZomoVioletContainer
+                        shape = FuturisticPillShape,
+                        color = ZomoVioletContainer,
+                        border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f))
                     ) {
                         Row(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(vertical = 10.dp, horizontal = 16.dp),
+                                .padding(vertical = 12.dp, horizontal = 16.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.Center
                         ) {
                             Icon(Icons.Default.HourglassBottom, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
                             Spacer(modifier = Modifier.width(8.dp))
                             Text(
-                                text = "Şu anda çalışılıyor... (Yüzen düğme aktif)",
+                                text = "Şu anda çalışılıyor... (Yüzen düğme aktif ⚡)",
                                 color = ZomoPurplePrimary,
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 13.sp
@@ -202,19 +203,20 @@ fun StudyTaskCard(
                 OccurrenceStatus.WAITING_REVIEW -> {
                     Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = ZomoPillShape,
-                        color = ZomoAmberContainer
+                        shape = FuturisticPillShape,
+                        color = ZomoAmberContainer,
+                        border = BorderStroke(1.dp, ZomoAmber.copy(alpha = 0.4f))
                     ) {
                         Row(
-                            modifier = Modifier.padding(vertical = 10.dp, horizontal = 16.dp),
+                            modifier = Modifier.padding(vertical = 12.dp, horizontal = 16.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.Center
                         ) {
                             Icon(Icons.Default.Schedule, contentDescription = null, tint = ZomoAmber, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
                             Text(
                                 text = "⏳ Ebeveyn Onayı Bekliyor",
-                                color = Color(0xFF92400E),
+                                color = ZomoAmber,
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 13.sp
                             )
@@ -224,19 +226,20 @@ fun StudyTaskCard(
                 OccurrenceStatus.APPROVED -> {
                     Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = ZomoPillShape,
-                        color = ZomoEmeraldContainer
+                        shape = FuturisticPillShape,
+                        color = ZomoEmeraldContainer,
+                        border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f))
                     ) {
                         Row(
-                            modifier = Modifier.padding(vertical = 10.dp, horizontal = 16.dp),
+                            modifier = Modifier.padding(vertical = 12.dp, horizontal = 16.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.Center
                         ) {
                             Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
                             Text(
                                 text = "✅ Görev Başarıyla Tamamlandı",
-                                color = Color(0xFF065F46),
+                                color = ZomoEmerald,
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 13.sp
                             )
@@ -258,18 +261,18 @@ fun StatusBadge(status: OccurrenceStatus, warning: Boolean) {
     if (warning) {
         label = "⚠️ Tekrar"
         bg = ZomoAmberContainer
-        fg = Color(0xFF92400E)
+        fg = ZomoAmber
     } else {
         when (status) {
             OccurrenceStatus.APPROVED -> {
                 label = "✅ Onaylandı"
                 bg = ZomoEmeraldContainer
-                fg = Color(0xFF065F46)
+                fg = ZomoEmerald
             }
             OccurrenceStatus.WAITING_REVIEW -> {
                 label = "⏳ İnceleniyor"
                 bg = ZomoAmberContainer
-                fg = Color(0xFF92400E)
+                fg = ZomoAmber
             }
             OccurrenceStatus.ACTIVE -> {
                 label = "⚡ Aktif"
@@ -277,8 +280,8 @@ fun StatusBadge(status: OccurrenceStatus, warning: Boolean) {
                 fg = ZomoPurplePrimary
             }
             else -> {
-                label = "Yapılacak"
-                bg = ZomoLavenderCard
+                label = "🕒 Bekliyor"
+                bg = Color(0x1FFFFFFF)
                 fg = ZomoTextSecondary
             }
         }
@@ -286,16 +289,15 @@ fun StatusBadge(status: OccurrenceStatus, warning: Boolean) {
 
     Surface(
         color = bg,
-        shape = ZomoPillShape
+        shape = FuturisticPillShape,
+        border = BorderStroke(1.dp, fg.copy(alpha = 0.3f))
     ) {
         Text(
             text = label,
             color = fg,
             fontSize = 11.sp,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.ExtraBold,
             modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
         )
     }
 }
-
-

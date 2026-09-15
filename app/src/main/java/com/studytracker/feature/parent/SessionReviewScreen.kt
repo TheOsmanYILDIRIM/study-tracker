@@ -14,7 +14,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -25,7 +24,6 @@ import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
 import com.studytracker.core.data.local.repository.toDomain
 import com.studytracker.core.domain.model.Review
 import com.studytracker.core.domain.model.ReviewStatus
-import com.studytracker.core.domain.model.Screenshot
 import com.studytracker.core.domain.model.Session
 import com.studytracker.core.ui.components.EvidenceTimelineView
 import com.studytracker.core.ui.theme.*
@@ -33,6 +31,9 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
+
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -59,41 +60,42 @@ fun SessionReviewScreen(
     }
 
     Scaffold(
-        containerColor = ZomoBackground,
+        containerColor = ZomoDarkCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoBackground,
-                    titleContentColor = Color(0xFF1E1B4B)
+                    containerColor = ZomoDarkCanvas,
+                    titleContentColor = ZomoTextPrimary
                 ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(10.dp),
-                            color = ZomoSquirclePurple,
-                            modifier = Modifier.size(32.dp)
+                            shape = RoundedCornerShape(14.dp),
+                            color = ZomoVioletContainer,
+                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.PhotoLibrary, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.PhotoLibrary, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
                             }
                         }
-                        Text("Kanıt İnceleme", fontWeight = FontWeight.ExtraBold, fontSize = 20.sp)
+                        Text("Kanıt İnceleme", fontWeight = FontWeight.Black, fontSize = 20.sp, color = ZomoTextPrimary)
                     }
                 },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = Color(0xFF1E1B4B))
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
                     }
                 }
             )
         },
         bottomBar = {
             Surface(
-                color = ZomoCardBackground,
-                shadowElevation = 12.dp
+                color = ZomoDarkSurface,
+                border = BorderStroke(1.dp, ZomoDarkBorder)
             ) {
                 Row(
                     modifier = Modifier
@@ -118,13 +120,13 @@ fun SessionReviewScreen(
                                 onNavigateBack()
                             }
                         },
-                        modifier = Modifier.weight(1f).height(52.dp),
-                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF43F5E), contentColor = Color.White),
-                        shape = RoundedCornerShape(50)
+                        modifier = Modifier.weight(1f).height(50.dp),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZomoPink, contentColor = Color.White),
+                        shape = FuturisticPillShape
                     ) {
                         Icon(Icons.Default.Close, contentDescription = null, modifier = Modifier.size(18.dp))
                         Spacer(modifier = Modifier.width(6.dp))
-                        Text("Reddet (Uyarı)", fontWeight = FontWeight.ExtraBold)
+                        Text("Reddet (Uyarı)", fontWeight = FontWeight.Black)
                     }
 
                     // Approve Button (Neon Mint Pill)
@@ -144,13 +146,13 @@ fun SessionReviewScreen(
                                 onNavigateBack()
                             }
                         },
-                        modifier = Modifier.weight(1f).height(52.dp),
-                        colors = ButtonDefaults.buttonColors(containerColor = ZomoMintAccent, contentColor = Color(0xFF064E3B)),
-                        shape = RoundedCornerShape(50)
+                        modifier = Modifier.weight(1f).height(50.dp),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZomoNeonMint, contentColor = ZomoNeonMintText),
+                        shape = FuturisticPillShape
                     ) {
-                        Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
+                        Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp), tint = ZomoNeonMintText)
                         Spacer(modifier = Modifier.width(6.dp))
-                        Text("Onayla", fontWeight = FontWeight.ExtraBold)
+                        Text("Onayla", fontWeight = FontWeight.Black)
                     }
                 }
             }
@@ -166,16 +168,14 @@ fun SessionReviewScreen(
             // Session Info Card
             item {
                 Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-                    shape = RoundedCornerShape(24.dp),
-                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                    border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = FuturisticCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                    border = BorderStroke(1.dp, ZomoDarkBorder)
                 ) {
                     Column(
                         modifier = Modifier.padding(18.dp),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -184,20 +184,21 @@ fun SessionReviewScreen(
                         ) {
                             Text(
                                 text = session?.occurrenceKey ?: "Yükleniyor...",
-                                fontWeight = FontWeight.ExtraBold,
+                                fontWeight = FontWeight.Black,
                                 style = MaterialTheme.typography.titleMedium,
-                                color = Color(0xFF1E1B4B)
+                                color = ZomoTextPrimary
                             )
                             Surface(
-                                shape = RoundedCornerShape(50),
-                                color = ZomoSoftLavender
+                                shape = FuturisticPillShape,
+                                color = ZomoVioletContainer,
+                                border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.4f))
                             ) {
                                 Text(
                                     text = "📸 ${screenshots.size} Görsel",
                                     color = ZomoPurplePrimary,
                                     fontSize = 11.sp,
-                                    fontWeight = FontWeight.ExtraBold,
-                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                                    fontWeight = FontWeight.Black,
+                                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
                                 )
                             }
                         }
@@ -209,7 +210,7 @@ fun SessionReviewScreen(
                             Text(
                                 text = "⏰ Başlama: $startStr • Bitiş: $endStr • Süre: $durationMins dk",
                                 style = MaterialTheme.typography.bodySmall,
-                                color = Color(0xFF6B7280)
+                                color = ZomoTextSecondary
                             )
                         }
 
@@ -218,11 +219,13 @@ fun SessionReviewScreen(
                             onValueChange = { reviewNote = it },
                             placeholder = { Text("Ebeveyn notu / geri bildirimi ekleyin (opsiyonel)...") },
                             modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(14.dp),
+                            shape = RoundedCornerShape(16.dp),
                             minLines = 2,
                             colors = OutlinedTextFieldDefaults.colors(
                                 focusedBorderColor = ZomoPurplePrimary,
-                                unfocusedBorderColor = ZomoSquirclePurple.copy(alpha = 0.5f)
+                                unfocusedBorderColor = ZomoDarkBorder,
+                                focusedTextColor = ZomoTextPrimary,
+                                unfocusedTextColor = ZomoTextPrimary
                             )
                         )
                     }
@@ -234,8 +237,8 @@ fun SessionReviewScreen(
                 Text(
                     text = "📸 Alınan Çalışma Kanıtları",
                     style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.ExtraBold,
-                    color = Color(0xFF1E1B4B)
+                    fontWeight = FontWeight.Black,
+                    color = ZomoTextPrimary
                 )
             }
 

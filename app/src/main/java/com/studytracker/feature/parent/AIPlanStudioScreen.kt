@@ -13,7 +13,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
@@ -33,6 +32,9 @@ import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
+
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -85,33 +87,34 @@ fun AIPlanStudioScreen(
     }
 
     Scaffold(
-        containerColor = ZomoBackground,
+        containerColor = ZomoDarkCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoBackground,
-                    titleContentColor = Color(0xFF1E1B4B)
+                    containerColor = ZomoDarkCanvas,
+                    titleContentColor = ZomoTextPrimary
                 ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(10.dp),
-                            color = ZomoSquirclePurple,
-                            modifier = Modifier.size(32.dp)
+                            shape = RoundedCornerShape(14.dp),
+                            color = ZomoVioletContainer,
+                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
                             }
                         }
-                        Text("AI Plan Stüdyosu", fontWeight = FontWeight.ExtraBold, fontSize = 20.sp)
+                        Text("AI Plan Stüdyosu", fontWeight = FontWeight.Black, fontSize = 20.sp, color = ZomoTextPrimary)
                     }
                 },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = Color(0xFF1E1B4B))
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
                     }
                 }
             )
@@ -127,16 +130,14 @@ fun AIPlanStudioScreen(
             // Section 1: Graphical Calendar Week Selector
             item {
                 Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-                    shape = RoundedCornerShape(24.dp),
-                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                    border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = FuturisticCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                    border = BorderStroke(1.dp, ZomoDarkBorder)
                 ) {
                     Column(
                         modifier = Modifier.padding(18.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
+                        verticalArrangement = Arrangement.spacedBy(14.dp)
                     ) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
@@ -144,20 +145,20 @@ fun AIPlanStudioScreen(
                         ) {
                             Surface(
                                 shape = RoundedCornerShape(12.dp),
-                                color = ZomoSquirclePurple,
-                                modifier = Modifier.size(36.dp)
+                                color = ZomoVioletContainer,
+                                modifier = Modifier.size(38.dp)
                             ) {
                                 Box(contentAlignment = Alignment.Center) {
                                     Icon(Icons.Default.CalendarMonth, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
                                 }
                             }
-                            Text("1. Hedef Haftayı Belirleyin", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.ExtraBold, color = Color(0xFF1E1B4B))
+                            Text("1. Hedef Haftayı Belirleyin", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Black, color = ZomoTextPrimary)
                         }
 
                         Text(
                             text = "Haftayı takvimden seçin veya hazır butonlarla hızlıca belirleyin.",
                             style = MaterialTheme.typography.bodySmall,
-                            color = Color(0xFF6B7280)
+                            color = ZomoTextSecondary
                         )
 
                         WeekCalendarPicker(
@@ -179,7 +180,9 @@ fun AIPlanStudioScreen(
                             minLines = 2,
                             colors = OutlinedTextFieldDefaults.colors(
                                 focusedBorderColor = ZomoPurplePrimary,
-                                unfocusedBorderColor = ZomoSquirclePurple.copy(alpha = 0.5f)
+                                unfocusedBorderColor = ZomoDarkBorder,
+                                focusedTextColor = ZomoTextPrimary,
+                                unfocusedTextColor = ZomoTextPrimary
                             )
                         )
 
@@ -198,14 +201,13 @@ fun AIPlanStudioScreen(
                             },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(52.dp)
-                                .shadow(4.dp, shape = RoundedCornerShape(50), spotColor = ZomoPurplePrimary.copy(alpha = 0.3f)),
-                            shape = RoundedCornerShape(50),
+                                .height(50.dp),
+                            shape = FuturisticPillShape,
                             colors = ButtonDefaults.buttonColors(containerColor = ZomoPurplePrimary, contentColor = Color.White)
                         ) {
                             Icon(Icons.Default.ContentCopy, contentDescription = null, modifier = Modifier.size(18.dp))
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("📋 AI Master Prompt'unu Kopyala", fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                            Text("📋 AI Master Prompt'unu Kopyala", fontWeight = FontWeight.Black, fontSize = 14.sp)
                         }
                     }
                 }
@@ -214,16 +216,14 @@ fun AIPlanStudioScreen(
             // Section 2: Simple Plan / JSON Import Area
             item {
                 Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-                    shape = RoundedCornerShape(24.dp),
-                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                    border = BorderStroke(1.dp, ZomoSquircleEmerald.copy(alpha = 0.3f))
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = FuturisticCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                    border = BorderStroke(1.dp, ZomoGlassBorder)
                 ) {
                     Column(
                         modifier = Modifier.padding(18.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
+                        verticalArrangement = Arrangement.spacedBy(14.dp)
                     ) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
@@ -231,20 +231,20 @@ fun AIPlanStudioScreen(
                         ) {
                             Surface(
                                 shape = RoundedCornerShape(12.dp),
-                                color = ZomoSquircleEmerald,
-                                modifier = Modifier.size(36.dp)
+                                color = ZomoEmeraldContainer,
+                                modifier = Modifier.size(38.dp)
                             ) {
                                 Box(contentAlignment = Alignment.Center) {
-                                    Icon(Icons.Default.Download, contentDescription = null, tint = Color(0xFF059669), modifier = Modifier.size(20.dp))
+                                    Icon(Icons.Default.Download, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(20.dp))
                                 }
                             }
-                            Text("2. Planı İçe Aktar (Basit Format / JSON)", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.ExtraBold, color = Color(0xFF1E1B4B))
+                            Text("2. Planı İçe Aktar (Basit Format / JSON)", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Black, color = ZomoTextPrimary)
                         }
 
                         Text(
                             text = "AI çıktısını veya aşağıdaki basit formatındaki ders planını buraya yapıştırın.",
                             style = MaterialTheme.typography.bodySmall,
-                            color = Color(0xFF6B7280)
+                            color = ZomoTextSecondary
                         )
 
                         // Action Quick Buttons: Load Template & Export Current Plan
@@ -281,8 +281,8 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                                     """.trimIndent()
                                 },
                                 modifier = Modifier.weight(1f),
-                                shape = RoundedCornerShape(50),
-                                border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.3f))
+                                shape = FuturisticPillShape,
+                                border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f))
                             ) {
                                 Icon(Icons.Default.Article, contentDescription = null, modifier = Modifier.size(16.dp), tint = ZomoPurplePrimary)
                                 Spacer(modifier = Modifier.width(4.dp))
@@ -295,8 +295,8 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                                         planTextInput = SimplePlanParser.exportToSimpleText(activePlan!!)
                                     },
                                     modifier = Modifier.weight(1f),
-                                    shape = RoundedCornerShape(50),
-                                    border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.3f))
+                                    shape = FuturisticPillShape,
+                                    border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f))
                                 ) {
                                     Icon(Icons.Default.Output, contentDescription = null, modifier = Modifier.size(16.dp), tint = ZomoPurplePrimary)
                                     Spacer(modifier = Modifier.width(4.dp))
@@ -316,7 +316,9 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                             textStyle = LocalTextStyle.current.copy(fontFamily = FontFamily.Monospace, fontSize = 12.sp),
                             colors = OutlinedTextFieldDefaults.colors(
                                 focusedBorderColor = ZomoPurplePrimary,
-                                unfocusedBorderColor = ZomoSquirclePurple.copy(alpha = 0.5f)
+                                unfocusedBorderColor = ZomoDarkBorder,
+                                focusedTextColor = ZomoTextPrimary,
+                                unfocusedTextColor = ZomoTextPrimary
                             )
                         )
 
@@ -342,39 +344,39 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                             },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(52.dp)
-                                .shadow(4.dp, shape = RoundedCornerShape(50), spotColor = ZomoMintAccent.copy(alpha = 0.4f)),
-                            shape = RoundedCornerShape(50),
+                                .height(50.dp),
+                            shape = FuturisticPillShape,
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = ZomoMintAccent,
-                                contentColor = Color(0xFF064E3B)
+                                containerColor = ZomoNeonMint,
+                                contentColor = ZomoNeonMintText
                             )
                         ) {
                             if (isImporting) {
-                                CircularProgressIndicator(color = Color(0xFF064E3B), modifier = Modifier.size(24.dp))
+                                CircularProgressIndicator(color = ZomoNeonMintText, modifier = Modifier.size(24.dp))
                             } else {
-                                Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp), tint = ZomoNeonMintText)
                                 Spacer(modifier = Modifier.width(8.dp))
-                                Text("📥 Planı Doğrula ve İçe Aktar (Merge)", fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                                Text("📥 Planı Doğrula ve İçe Aktar (Merge)", fontWeight = FontWeight.Black, fontSize = 14.sp)
                             }
                         }
 
                         // Success Result Box
                         importResult?.let { res ->
                             Surface(
-                                color = ZomoSquircleEmerald,
+                                color = ZomoEmeraldContainer,
                                 shape = RoundedCornerShape(18.dp),
+                                border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f)),
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Column(
                                     modifier = Modifier.padding(16.dp),
                                     verticalArrangement = Arrangement.spacedBy(4.dp)
                                 ) {
-                                    Text("🎉 Plan Başarıyla İçe Aktarıldı!", fontWeight = FontWeight.ExtraBold, color = Color(0xFF065F46))
-                                    Text("• Mod: ${if (res.isSameWeekRevision) "Aynı Hafta Revizyonu" else "Yeni Hafta Planı"}", fontSize = 12.sp, color = Color(0xFF065F46))
-                                    Text("• Korunan Tamamlanmış Görev: ${res.preservedCount} adet", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color(0xFF065F46))
-                                    Text("• Eklenen Yeni Görev: ${res.occurrencesCreated} adet", fontSize = 12.sp, color = Color(0xFF065F46))
-                                    Text("• Güncellenen Görev: ${res.occurrencesUpdated} adet", fontSize = 12.sp, color = Color(0xFF065F46))
+                                    Text("🎉 Plan Başarıyla İçe Aktarıldı!", fontWeight = FontWeight.Black, color = ZomoEmerald)
+                                    Text("• Mod: ${if (res.isSameWeekRevision) "Aynı Hafta Revizyonu" else "Yeni Hafta Planı"}", fontSize = 12.sp, color = ZomoEmerald)
+                                    Text("• Korunan Tamamlanmış Görev: ${res.preservedCount} adet", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = ZomoEmerald)
+                                    Text("• Eklenen Yeni Görev: ${res.occurrencesCreated} adet", fontSize = 12.sp, color = ZomoEmerald)
+                                    Text("• Güncellenen Görev: ${res.occurrencesUpdated} adet", fontSize = 12.sp, color = ZomoEmerald)
                                 }
                             }
                         }
@@ -382,8 +384,9 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                         // Error Box
                         errorMessage?.let { err ->
                             Surface(
-                                color = ZomoSquirclePink,
+                                color = ZomoPinkContainer,
                                 shape = RoundedCornerShape(18.dp),
+                                border = BorderStroke(1.dp, ZomoPink.copy(alpha = 0.4f)),
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Row(
@@ -391,8 +394,8 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                                     verticalAlignment = Alignment.CenterVertically,
                                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
-                                    Icon(Icons.Default.Error, contentDescription = null, tint = Color(0xFFBE123C))
-                                    Text(text = err, color = Color(0xFFBE123C), fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                                    Icon(Icons.Default.Error, contentDescription = null, tint = ZomoPink)
+                                    Text(text = err, color = ZomoPink, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                                 }
                             }
                         }

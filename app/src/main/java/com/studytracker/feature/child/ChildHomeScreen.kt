@@ -1,6 +1,7 @@
 package com.studytracker.feature.child
 
 import android.content.Context
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,7 +15,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
@@ -30,8 +31,9 @@ import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-private val ZomoHeroCardShape = RoundedCornerShape(28.dp)
-private val ZomoPillShape = CircleShape
+private val FuturisticHeroShape = RoundedCornerShape(32.dp)
+private val FuturisticPillShape = CircleShape
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -45,7 +47,7 @@ fun ChildHomeScreen(
         stateManager.occurrenceRepository.getAllOccurrences()
     }.collectAsState(initial = emptyList())
 
-    // High performance: Only observe boolean status change at screen level (prevents 1s recompositions!)
+    // High performance: Only observe boolean status change at screen level
     val isSessionActive by stateManager.isSessionActive.collectAsState()
 
     val handleStartSession: (Occurrence) -> Unit = remember(stateManager) {
@@ -58,16 +60,17 @@ fun ChildHomeScreen(
         SimpleDateFormat("d MMMM yyyy", Locale("tr", "TR")).format(Date())
     }
 
-    val dailyTasks by remember(occurrences) {
-        derivedStateOf { occurrences.filter { it.type == TaskKind.DAILY } }
+    // Direct memoized lists (zero state churn)
+    val dailyTasks = remember(occurrences) {
+        occurrences.filter { it.type == TaskKind.DAILY }
     }
 
-    val weeklyTasks by remember(occurrences) {
-        derivedStateOf { occurrences.filter { it.type == TaskKind.WEEKLY } }
+    val weeklyTasks = remember(occurrences) {
+        occurrences.filter { it.type == TaskKind.WEEKLY }
     }
 
-    val rejectedTasks by remember(occurrences) {
-        derivedStateOf { occurrences.filter { it.warning } }
+    val rejectedTasks = remember(occurrences) {
+        occurrences.filter { it.warning }
     }
 
     val totalTasks = occurrences.size
@@ -79,11 +82,11 @@ fun ChildHomeScreen(
     }
 
     Scaffold(
-        containerColor = ZomoLavenderBg,
+        containerColor = ZomoDarkCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoLavenderBg,
+                    containerColor = ZomoDarkCanvas,
                     titleContentColor = ZomoTextPrimary
                 ),
                 title = {
@@ -92,16 +95,17 @@ fun ChildHomeScreen(
                         horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(14.dp),
-                            color = ZomoPurplePrimary,
-                            modifier = Modifier.size(38.dp)
+                            shape = RoundedCornerShape(16.dp),
+                            color = ZomoVioletContainer,
+                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.4f)),
+                            modifier = Modifier.size(42.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.School, contentDescription = null, tint = Color.White, modifier = Modifier.size(22.dp))
+                                Icon(Icons.Default.School, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(24.dp))
                             }
                         }
                         Column {
-                            Text("Görev Masam", fontWeight = FontWeight.ExtraBold, fontSize = 20.sp, color = ZomoTextPrimary)
+                            Text("Görev Masam", fontWeight = FontWeight.Black, fontSize = 20.sp, color = ZomoTextPrimary)
                             Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary)
                         }
                     }
@@ -114,9 +118,10 @@ fun ChildHomeScreen(
                 actions = {
                     IconButton(onClick = onOpenTutorial) {
                         Surface(
-                            shape = CircleShape,
-                            color = Color.White,
-                            modifier = Modifier.size(36.dp).shadow(2.dp, CircleShape)
+                            shape = FuturisticPillShape,
+                            color = ZomoDarkSurface,
+                            border = BorderStroke(1.dp, ZomoDarkBorder),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
                                 Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
@@ -134,19 +139,18 @@ fun ChildHomeScreen(
                 .padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Zomo Hero Gradient Card (Cloud Storage / Goal Progress Style)
+            // Futuristic Hero Gradient Card (Cyber Violet & Neon Progress)
             item(key = "progress_card") {
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .shadow(12.dp, shape = ZomoHeroCardShape, spotColor = ZomoPurplePrimary.copy(alpha = 0.35f))
-                        .clip(ZomoHeroCardShape)
+                        .clip(FuturisticHeroShape)
                         .background(ZomoHeroGradient)
-                        .padding(20.dp)
+                        .padding(22.dp)
                 ) {
                     Column(
                         modifier = Modifier.fillMaxWidth(),
-                        verticalArrangement = Arrangement.spacedBy(14.dp)
+                        verticalArrangement = Arrangement.spacedBy(16.dp)
                     ) {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -163,41 +167,46 @@ fun ChildHomeScreen(
                                 Text(
                                     text = "Başarı İlerlemen 🚀",
                                     color = Color.White,
-                                    fontWeight = FontWeight.ExtraBold,
-                                    fontSize = 20.sp
+                                    fontWeight = FontWeight.Black,
+                                    fontSize = 22.sp
                                 )
                             }
 
                             // Glowing Translucent Pill Badge
                             Surface(
-                                shape = ZomoPillShape,
-                                color = Color.White.copy(alpha = 0.22f)
+                                shape = FuturisticPillShape,
+                                color = Color.Black.copy(alpha = 0.35f),
+                                border = BorderStroke(1.dp, Color.White.copy(alpha = 0.2f))
                             ) {
                                 Text(
                                     text = "$approvedTasks / $totalTasks Ders",
                                     color = Color.White,
-                                    fontWeight = FontWeight.Bold,
+                                    fontWeight = FontWeight.ExtraBold,
                                     fontSize = 12.sp,
-                                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
+                                    modifier = Modifier.padding(horizontal = 14.dp, vertical = 7.dp)
                                 )
                             }
                         }
 
-                        // Custom Neon Mint Progress Bar with Rounded Thumb
-                        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        // Custom Neon Mint Progress Bar
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .height(12.dp)
-                                    .clip(ZomoPillShape)
-                                    .background(Color.Black.copy(alpha = 0.25f))
+                                    .height(14.dp)
+                                    .clip(FuturisticPillShape)
+                                    .background(Color.Black.copy(alpha = 0.35f))
                             ) {
                                 Box(
                                     modifier = Modifier
                                         .fillMaxHeight()
                                         .fillMaxWidth(fraction = progress.coerceIn(0.04f, 1f))
-                                        .clip(ZomoPillShape)
-                                        .background(ZomoNeonMint)
+                                        .clip(FuturisticPillShape)
+                                        .background(
+                                            Brush.horizontalGradient(
+                                                listOf(ZomoNeonMint, Color(0xFF38BDF8))
+                                            )
+                                        )
                                 )
                             }
 
@@ -208,14 +217,14 @@ fun ChildHomeScreen(
                                 Text(
                                     text = "%${(progress * 100).toInt()} Tamamlandı",
                                     color = ZomoNeonMint,
-                                    fontSize = 12.sp,
-                                    fontWeight = FontWeight.ExtraBold
+                                    fontSize = 13.sp,
+                                    fontWeight = FontWeight.Black
                                 )
                                 Text(
                                     text = if (totalTasks - approvedTasks > 0) "${totalTasks - approvedTasks} ders kaldı" else "Tüm dersler bitti! 🎉",
-                                    color = Color.White.copy(alpha = 0.85f),
+                                    color = Color.White.copy(alpha = 0.9f),
                                     fontSize = 12.sp,
-                                    fontWeight = FontWeight.Medium
+                                    fontWeight = FontWeight.SemiBold
                                 )
                             }
                         }
@@ -223,7 +232,7 @@ fun ChildHomeScreen(
                 }
             }
 
-            // Live Active / Paused Session Banner (Fully Isolated Composable)
+            // Live Active / Paused Session Banner
             if (isSessionActive) {
                 item(key = "live_active_banner") {
                     LiveActiveSessionBanner(stateManager = stateManager)
@@ -233,12 +242,22 @@ fun ChildHomeScreen(
             // Warning Banner for Rejected tasks
             if (rejectedTasks.isNotEmpty()) {
                 item(key = "rejected_header") {
-                    Text(
-                        text = "⚠️ Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.ExtraBold,
-                        color = ZomoPink
-                    )
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Surface(
+                            shape = FuturisticPillShape,
+                            color = ZomoPinkContainer,
+                            modifier = Modifier.size(10.dp)
+                        ) {}
+                        Text(
+                            text = "Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.ExtraBold,
+                            color = ZomoPink
+                        )
+                    }
                 }
 
                 items(rejectedTasks, key = { "rej_" + it.occurrenceKey }) { task ->
@@ -270,11 +289,12 @@ fun ChildHomeScreen(
                 item(key = "daily_empty") {
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(20.dp),
-                        colors = CardDefaults.cardColors(containerColor = Color.White)
+                        shape = FuturisticCardShape,
+                        border = BorderStroke(1.dp, ZomoDarkBorder),
+                        colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
                     ) {
-                        Box(modifier = Modifier.padding(24.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
-                            Text("Bugün için tanımlı görev bulunamadı. 🎉", color = ZomoTextSecondary)
+                        Box(modifier = Modifier.padding(28.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                            Text("Bugün için tanımlı görev bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 13.sp)
                         }
                     }
                 }
@@ -302,11 +322,12 @@ fun ChildHomeScreen(
                 item(key = "weekly_empty") {
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(20.dp),
-                        colors = CardDefaults.cardColors(containerColor = Color.White)
+                        shape = FuturisticCardShape,
+                        border = BorderStroke(1.dp, ZomoDarkBorder),
+                        colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
                     ) {
                         Box(modifier = Modifier.padding(24.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
-                            Text("Bu hafta için haftalık hedef bulunamadı.", color = ZomoTextSecondary)
+                            Text("Bu hafta için haftalık hedef bulunamadı.", color = ZomoTextSecondary, fontSize = 13.sp)
                         }
                     }
                 }
@@ -335,17 +356,16 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
     val ssCount = active.screenshotCount
 
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .shadow(6.dp, shape = RoundedCornerShape(24.dp), spotColor = if (isPaused) ZomoAmber.copy(alpha = 0.3f) else ZomoPurplePrimary.copy(alpha = 0.3f)),
-        shape = RoundedCornerShape(24.dp),
+        modifier = Modifier.fillMaxWidth(),
+        shape = FuturisticCardShape,
+        border = BorderStroke(1.5.dp, if (isPaused) ZomoAmber else ZomoPurplePrimary),
         colors = CardDefaults.cardColors(
-            containerColor = if (isPaused) ZomoAmberContainer else ZomoVioletContainer
+            containerColor = if (isPaused) Color(0xFF261808) else Color(0xFF1B0F38)
         )
     ) {
         Column(
-            modifier = Modifier.padding(18.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+            modifier = Modifier.padding(20.dp),
+            verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -354,30 +374,30 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
             ) {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    horizontalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
                     Icon(
                         imageVector = if (isPaused) Icons.Default.PauseCircle else Icons.Default.PlayCircle,
                         contentDescription = null,
                         tint = if (isPaused) ZomoAmber else ZomoPurplePrimary,
-                        modifier = Modifier.size(24.dp)
+                        modifier = Modifier.size(26.dp)
                     )
                     Text(
-                        text = if (isPaused) "Ders Duraklatıldı" else "Ders Devam Ediyor",
-                        fontWeight = FontWeight.ExtraBold,
+                        text = if (isPaused) "Ders Duraklatıldı" else "Ders Devam Ediyor ⚡",
+                        fontWeight = FontWeight.Black,
                         style = MaterialTheme.typography.titleMedium,
-                        color = if (isPaused) Color(0xFF78350F) else ZomoPurpleDark
+                        color = if (isPaused) ZomoAmber else ZomoTextPrimary
                     )
                 }
 
-                // Isolated micro timer text
+                // Isolated micro timer text (observes elapsedSeconds independently!)
                 LiveTimerText(stateManager = stateManager)
             }
 
             Text(
-                text = "Ders: $title • 📸 $ssCount ekran görüntüsü",
+                text = "Ders: $title • 📸 $ssCount kanıt görüntüsü",
                 style = MaterialTheme.typography.bodyMedium,
-                color = if (isPaused) Color(0xFF92400E) else ZomoPurpleDark
+                color = if (isPaused) ZomoAmber.copy(alpha = 0.85f) else ZomoTextSecondary
             )
 
             Row(
@@ -386,12 +406,12 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
             ) {
                 Button(
                     onClick = { stateManager.togglePause() },
-                    modifier = Modifier.weight(1f).height(44.dp),
+                    modifier = Modifier.weight(1f).height(46.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = if (isPaused) ZomoNeonMint else Color.White,
-                        contentColor = if (isPaused) Color(0xFF042F2E) else ZomoPurplePrimary
+                        containerColor = if (isPaused) ZomoNeonMint else Color(0x33A855F7),
+                        contentColor = if (isPaused) ZomoNeonMintText else Color.White
                     ),
-                    shape = ZomoPillShape
+                    shape = FuturisticPillShape
                 ) {
                     Icon(
                         imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
@@ -404,12 +424,12 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
 
                 Button(
                     onClick = { stateManager.finishSession() },
-                    modifier = Modifier.weight(1f).height(44.dp),
+                    modifier = Modifier.weight(1f).height(46.dp),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = ZomoPink,
                         contentColor = Color.White
                     ),
-                    shape = ZomoPillShape
+                    shape = FuturisticPillShape
                 ) {
                     Icon(Icons.Default.Stop, contentDescription = null, modifier = Modifier.size(18.dp))
                     Spacer(modifier = Modifier.width(6.dp))
@@ -422,20 +442,23 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
 
 @Composable
 fun LiveTimerText(stateManager: SessionStateManager) {
-    val activeState by stateManager.activeState.collectAsState()
-    val elapsed = activeState?.elapsedSeconds ?: 0L
+    val elapsed by stateManager.elapsedSeconds.collectAsState()
     val mins = elapsed / 60
     val secs = elapsed % 60
     val timeText = String.format(Locale.US, "%02d:%02d", mins, secs)
 
-    Text(
-        text = timeText,
-        fontWeight = FontWeight.ExtraBold,
-        fontSize = 18.sp,
-        fontFamily = FontFamily.Monospace,
-        color = ZomoPurplePrimary
-    )
+    Surface(
+        shape = FuturisticPillShape,
+        color = Color.Black.copy(alpha = 0.4f),
+        border = BorderStroke(1.dp, ZomoNeonMint.copy(alpha = 0.4f))
+    ) {
+        Text(
+            text = timeText,
+            fontWeight = FontWeight.Black,
+            fontSize = 16.sp,
+            fontFamily = FontFamily.Monospace,
+            color = ZomoNeonMint,
+            modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
+        )
+    }
 }
-
-
-

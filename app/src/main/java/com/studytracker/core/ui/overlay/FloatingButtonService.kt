@@ -123,10 +123,11 @@ class FloatingButtonService : Service() {
             setContent {
                 StudyTrackerTheme {
                     val activeState by stateManager.activeState.collectAsState()
+                    val elapsedSeconds by stateManager.elapsedSeconds.collectAsState()
                     val state = activeState
                     if (state != null) {
                         FloatingHUDView(
-                            elapsedSeconds = state.elapsedSeconds,
+                            elapsedSeconds = elapsedSeconds,
                             screenshotCount = state.screenshotCount,
                             isFinishing = state.isFinishing,
                             isPaused = state.isPaused,
@@ -162,7 +163,7 @@ class FloatingButtonService : Service() {
                         initialTouchX = event.rawX
                         initialTouchY = event.rawY
                         isDragging = false
-                        return false // Allow child compose tap gestures
+                        return false
                     }
                     MotionEvent.ACTION_MOVE -> {
                         val dx = (event.rawX - initialTouchX).toInt()

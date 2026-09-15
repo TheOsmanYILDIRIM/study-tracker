@@ -16,7 +16,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -42,6 +42,11 @@ private val DAY_FILTERS = listOf(
     "SAT" to "Cmt",
     "SUN" to "Paz"
 )
+
+private val FuturisticHeroShape = RoundedCornerShape(32.dp)
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticSquircleShape = RoundedCornerShape(18.dp)
+private val FuturisticPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -72,52 +77,54 @@ fun ParentDashboardScreen(
         allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
     }
 
-    val dailyOccurrences by remember(allOccurrences) {
-        derivedStateOf { allOccurrences.filter { it.type == TaskKind.DAILY } }
+    val dailyOccurrences = remember(allOccurrences) {
+        allOccurrences.filter { it.type == TaskKind.DAILY }
     }
-    val weeklyOccurrences by remember(allOccurrences) {
-        derivedStateOf { allOccurrences.filter { it.type == TaskKind.WEEKLY } }
+    val weeklyOccurrences = remember(allOccurrences) {
+        allOccurrences.filter { it.type == TaskKind.WEEKLY }
     }
 
     Scaffold(
-        containerColor = ZomoBackground,
+        containerColor = ZomoDarkCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoBackground,
-                    titleContentColor = Color(0xFF1E1B4B)
+                    containerColor = ZomoDarkCanvas,
+                    titleContentColor = ZomoTextPrimary
                 ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(10.dp),
-                            color = ZomoSquirclePurple,
-                            modifier = Modifier.size(32.dp)
+                            shape = RoundedCornerShape(14.dp),
+                            color = ZomoEmeraldContainer,
+                            border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(20.dp))
                             }
                         }
-                        Text("Ebeveyn Masası", fontWeight = FontWeight.ExtraBold, fontSize = 20.sp)
+                        Text("Ebeveyn Masası", fontWeight = FontWeight.Black, fontSize = 20.sp, color = ZomoTextPrimary)
                     }
                 },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = Color(0xFF1E1B4B))
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
                     }
                 },
                 actions = {
                     IconButton(onClick = onNavigateToPlanStudio) {
                         Surface(
-                            shape = CircleShape,
-                            color = ZomoMintAccent.copy(alpha = 0.2f),
-                            modifier = Modifier.size(36.dp)
+                            shape = FuturisticPillShape,
+                            color = ZomoNeonMintContainer,
+                            border = BorderStroke(1.dp, ZomoNeonMint.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = Color(0xFF0F766E), modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZomoNeonMint, modifier = Modifier.size(18.dp))
                             }
                         }
                     }
@@ -130,9 +137,9 @@ fun ParentDashboardScreen(
                 .fillMaxSize()
                 .padding(padding)
         ) {
-            // Zomo Pill Tabs
+            // Futuristic Dark Pill Tabs
             Surface(
-                color = ZomoBackground,
+                color = ZomoDarkCanvas,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 6.dp)
@@ -140,17 +147,17 @@ fun ParentDashboardScreen(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clip(RoundedCornerShape(50))
-                        .background(ZomoSoftLavender)
+                        .clip(FuturisticPillShape)
+                        .background(ZomoDarkSurface)
+                        .border(1.dp, ZomoDarkBorder, FuturisticPillShape)
                         .padding(4.dp),
                     horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     // Tab 1
                     Surface(
                         onClick = { selectedTabIndex = 0 },
-                        shape = RoundedCornerShape(50),
-                        color = if (selectedTabIndex == 0) Color.White else Color.Transparent,
-                        shadowElevation = if (selectedTabIndex == 0) 2.dp else 0.dp,
+                        shape = FuturisticPillShape,
+                        color = if (selectedTabIndex == 0) ZomoPurplePrimary else Color.Transparent,
                         modifier = Modifier.weight(1f)
                     ) {
                         Row(
@@ -160,23 +167,23 @@ fun ParentDashboardScreen(
                         ) {
                             Text(
                                 "🚨 Onay Masası",
-                                fontWeight = if (selectedTabIndex == 0) FontWeight.ExtraBold else FontWeight.Medium,
+                                fontWeight = if (selectedTabIndex == 0) FontWeight.Black else FontWeight.Medium,
                                 fontSize = 13.sp,
-                                color = if (selectedTabIndex == 0) ZomoPurplePrimary else Color(0xFF6B7280)
+                                color = if (selectedTabIndex == 0) Color.White else ZomoTextSecondary
                             )
                             if (waitingSessions.isNotEmpty()) {
                                 Spacer(modifier = Modifier.width(6.dp))
                                 Surface(
-                                    shape = RoundedCornerShape(50),
-                                    color = MaterialTheme.colorScheme.error,
+                                    shape = FuturisticPillShape,
+                                    color = ZomoPink,
                                     modifier = Modifier.padding(start = 2.dp)
                                 ) {
                                     Text(
                                         "${waitingSessions.size}",
                                         color = Color.White,
                                         fontSize = 10.sp,
-                                        fontWeight = FontWeight.ExtraBold,
-                                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 1.dp)
+                                        fontWeight = FontWeight.Black,
+                                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 1.dp)
                                     )
                                 }
                             }
@@ -186,9 +193,8 @@ fun ParentDashboardScreen(
                     // Tab 2
                     Surface(
                         onClick = { selectedTabIndex = 1 },
-                        shape = RoundedCornerShape(50),
-                        color = if (selectedTabIndex == 1) Color.White else Color.Transparent,
-                        shadowElevation = if (selectedTabIndex == 1) 2.dp else 0.dp,
+                        shape = FuturisticPillShape,
+                        color = if (selectedTabIndex == 1) ZomoPurplePrimary else Color.Transparent,
                         modifier = Modifier.weight(1f)
                     ) {
                         Row(
@@ -198,9 +204,9 @@ fun ParentDashboardScreen(
                         ) {
                             Text(
                                 "📅 Haftalık Plan",
-                                fontWeight = if (selectedTabIndex == 1) FontWeight.ExtraBold else FontWeight.Medium,
+                                fontWeight = if (selectedTabIndex == 1) FontWeight.Black else FontWeight.Medium,
                                 fontSize = 13.sp,
-                                color = if (selectedTabIndex == 1) ZomoPurplePrimary else Color(0xFF6B7280)
+                                color = if (selectedTabIndex == 1) Color.White else ZomoTextSecondary
                             )
                         }
                     }
@@ -217,61 +223,54 @@ fun ParentDashboardScreen(
                 ) {
                     // Plan Overview Hero Card
                     item {
-                        Card(
+                        Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .shadow(10.dp, shape = RoundedCornerShape(28.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.2f)),
-                            shape = RoundedCornerShape(28.dp),
-                            colors = CardDefaults.cardColors(containerColor = Color.Transparent)
+                                .clip(FuturisticHeroShape)
+                                .background(ZomoHeroGradient)
+                                .padding(22.dp)
                         ) {
-                            Box(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .background(ZomoHeroGradient)
-                                    .padding(20.dp)
+                            Column(
+                                verticalArrangement = Arrangement.spacedBy(12.dp)
                             ) {
-                                Column(
-                                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
                                 ) {
-                                    Row(
-                                        modifier = Modifier.fillMaxWidth(),
-                                        horizontalArrangement = Arrangement.SpaceBetween,
-                                        verticalAlignment = Alignment.CenterVertically
-                                    ) {
-                                        Column {
-                                            Text(
-                                                text = "Aktif Hafta",
-                                                style = MaterialTheme.typography.labelMedium,
-                                                color = Color.White.copy(alpha = 0.8f)
-                                            )
-                                            Text(
-                                                text = activePlan?.weekId ?: "Plan Yüklenmedi",
-                                                style = MaterialTheme.typography.titleLarge,
-                                                fontWeight = FontWeight.ExtraBold,
-                                                color = Color.White
-                                            )
-                                        }
-
-                                        Surface(
-                                            shape = RoundedCornerShape(50),
-                                            color = ZomoMintAccent
-                                        ) {
-                                            Text(
-                                                text = "$approvedTasks/$totalTasks Tamamlandı",
-                                                color = Color(0xFF064E3B),
-                                                fontWeight = FontWeight.ExtraBold,
-                                                fontSize = 12.sp,
-                                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
-                                            )
-                                        }
+                                    Column {
+                                        Text(
+                                            text = "Aktif Hafta",
+                                            style = MaterialTheme.typography.labelMedium,
+                                            color = Color.White.copy(alpha = 0.8f)
+                                        )
+                                        Text(
+                                            text = activePlan?.weekId ?: "Plan Yüklenmedi",
+                                            style = MaterialTheme.typography.titleLarge,
+                                            fontWeight = FontWeight.Black,
+                                            color = Color.White
+                                        )
                                     }
 
-                                    Text(
-                                        text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
-                                        style = MaterialTheme.typography.bodySmall,
-                                        color = Color.White.copy(alpha = 0.85f)
-                                    )
+                                    Surface(
+                                        shape = FuturisticPillShape,
+                                        color = ZomoNeonMint
+                                    ) {
+                                        Text(
+                                            text = "$approvedTasks/$totalTasks Tamamlandı",
+                                            color = ZomoNeonMintText,
+                                            fontWeight = FontWeight.Black,
+                                            fontSize = 12.sp,
+                                            modifier = Modifier.padding(horizontal = 14.dp, vertical = 7.dp)
+                                        )
+                                    }
                                 }
+
+                                Text(
+                                    text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = Color.White.copy(alpha = 0.9f)
+                                )
                             }
                         }
                     }
@@ -282,17 +281,16 @@ fun ParentDashboardScreen(
                             onClick = onNavigateToPlanStudio,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(52.dp)
-                                .shadow(4.dp, shape = RoundedCornerShape(50), spotColor = ZomoMintAccent.copy(alpha = 0.4f)),
-                            shape = RoundedCornerShape(50),
+                                .height(52.dp),
+                            shape = FuturisticPillShape,
                             colors = ButtonDefaults.buttonColors(
-                                containerColor = ZomoMintAccent,
-                                contentColor = Color(0xFF064E3B)
+                                containerColor = ZomoNeonMint,
+                                contentColor = ZomoNeonMintText
                             )
                         ) {
-                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(20.dp))
+                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(20.dp), tint = ZomoNeonMintText)
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.ExtraBold, fontSize = 14.sp)
+                            Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.Black, fontSize = 14.sp)
                         }
                     }
 
@@ -306,20 +304,21 @@ fun ParentDashboardScreen(
                             Text(
                                 text = "🚨 Onay Bekleyen Oturumlar",
                                 style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.ExtraBold,
-                                color = Color(0xFF1E1B4B)
+                                fontWeight = FontWeight.Black,
+                                color = ZomoTextPrimary
                             )
                             if (waitingSessions.isNotEmpty()) {
                                 Surface(
-                                    shape = RoundedCornerShape(50),
-                                    color = ZomoSquirclePink
+                                    shape = FuturisticPillShape,
+                                    color = ZomoPinkContainer,
+                                    border = BorderStroke(1.dp, ZomoPink.copy(alpha = 0.4f))
                                 ) {
                                     Text(
                                         "${waitingSessions.size} bekliyor",
-                                        color = Color(0xFFBE123C),
+                                        color = ZomoPink,
                                         fontSize = 11.sp,
-                                        fontWeight = FontWeight.ExtraBold,
-                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                                        fontWeight = FontWeight.Black,
+                                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
                                     )
                                 }
                             }
@@ -329,35 +328,35 @@ fun ParentDashboardScreen(
                     if (waitingSessions.isEmpty()) {
                         item {
                             Card(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .shadow(2.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.06f)),
-                                shape = RoundedCornerShape(24.dp),
-                                colors = CardDefaults.cardColors(containerColor = ZomoCardBackground)
+                                modifier = Modifier.fillMaxWidth(),
+                                shape = FuturisticCardShape,
+                                border = BorderStroke(1.dp, ZomoDarkBorder),
+                                colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
                             ) {
                                 Box(
                                     modifier = Modifier
                                         .fillMaxWidth()
-                                        .padding(28.dp),
+                                        .padding(32.dp),
                                     contentAlignment = Alignment.Center
                                 ) {
                                     Column(
                                         horizontalAlignment = Alignment.CenterHorizontally,
-                                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                                        verticalArrangement = Arrangement.spacedBy(10.dp)
                                     ) {
                                         Surface(
-                                            shape = RoundedCornerShape(16.dp),
-                                            color = ZomoSquircleEmerald,
-                                            modifier = Modifier.size(48.dp)
+                                            shape = FuturisticSquircleShape,
+                                            color = ZomoEmeraldContainer,
+                                            border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f)),
+                                            modifier = Modifier.size(54.dp)
                                         ) {
                                             Box(contentAlignment = Alignment.Center) {
-                                                Icon(Icons.Default.CheckCircle, contentDescription = null, tint = Color(0xFF059669))
+                                                Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(28.dp))
                                             }
                                         }
                                         Text(
                                             "İncelenmeyi bekleyen oturum yok 🎉",
                                             fontWeight = FontWeight.Bold,
-                                            color = Color(0xFF4B5563),
+                                            color = ZomoTextSecondary,
                                             fontSize = 14.sp
                                         )
                                     }
@@ -367,16 +366,14 @@ fun ParentDashboardScreen(
                     } else {
                         items(waitingSessions, key = { it.sessionId }) { session ->
                             Card(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-                                shape = RoundedCornerShape(24.dp),
-                                colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                                border = BorderStroke(1.dp, ZomoSquircleAmber.copy(alpha = 0.5f))
+                                modifier = Modifier.fillMaxWidth(),
+                                shape = FuturisticCardShape,
+                                colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                                border = BorderStroke(1.dp, ZomoAmber.copy(alpha = 0.5f))
                             ) {
                                 Column(
                                     modifier = Modifier.padding(18.dp),
-                                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                                    verticalArrangement = Arrangement.spacedBy(14.dp)
                                 ) {
                                     Row(
                                         modifier = Modifier.fillMaxWidth(),
@@ -385,42 +382,43 @@ fun ParentDashboardScreen(
                                     ) {
                                         Row(
                                             verticalAlignment = Alignment.CenterVertically,
-                                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                                            horizontalArrangement = Arrangement.spacedBy(12.dp)
                                         ) {
                                             Surface(
-                                                shape = RoundedCornerShape(12.dp),
-                                                color = ZomoSquircleAmber,
-                                                modifier = Modifier.size(40.dp)
+                                                shape = FuturisticSquircleShape,
+                                                color = ZomoAmberContainer,
+                                                modifier = Modifier.size(46.dp)
                                             ) {
                                                 Box(contentAlignment = Alignment.Center) {
-                                                    Icon(Icons.Default.HourglassTop, contentDescription = null, tint = Color(0xFFD97706), modifier = Modifier.size(20.dp))
+                                                    Icon(Icons.Default.HourglassTop, contentDescription = null, tint = ZomoAmber, modifier = Modifier.size(22.dp))
                                                 }
                                             }
                                             Column {
                                                 Text(
                                                     text = session.occurrenceKey,
-                                                    fontWeight = FontWeight.ExtraBold,
+                                                    fontWeight = FontWeight.Black,
                                                     style = MaterialTheme.typography.titleSmall,
-                                                    color = Color(0xFF1E1B4B)
+                                                    color = ZomoTextPrimary
                                                 )
                                                 Text(
                                                     text = "Başlama: ${timeFormat.format(Date(session.startTime))}",
                                                     fontSize = 11.sp,
-                                                    color = Color(0xFF6B7280)
+                                                    color = ZomoTextSecondary
                                                 )
                                             }
                                         }
 
                                         Surface(
-                                            shape = RoundedCornerShape(50),
-                                            color = ZomoSoftLavender
+                                            shape = FuturisticPillShape,
+                                            color = ZomoVioletContainer,
+                                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.4f))
                                         ) {
                                             Text(
                                                 text = "📸 ${session.screenshotCount} Kanıt",
                                                 color = ZomoPurplePrimary,
                                                 fontWeight = FontWeight.Bold,
                                                 fontSize = 11.sp,
-                                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
                                             )
                                         }
                                     }
@@ -433,8 +431,8 @@ fun ParentDashboardScreen(
                                         OutlinedButton(
                                             onClick = { onNavigateToSessionReview(session.sessionId) },
                                             modifier = Modifier.weight(1f),
-                                            shape = RoundedCornerShape(50),
-                                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.3f))
+                                            shape = FuturisticPillShape,
+                                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f))
                                         ) {
                                             Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(16.dp), tint = ZomoPurplePrimary)
                                             Spacer(modifier = Modifier.width(6.dp))
@@ -457,14 +455,14 @@ fun ParentDashboardScreen(
                                             },
                                             modifier = Modifier.weight(1f),
                                             colors = ButtonDefaults.buttonColors(
-                                                containerColor = ZomoMintAccent,
-                                                contentColor = Color(0xFF064E3B)
+                                                containerColor = ZomoNeonMint,
+                                                contentColor = ZomoNeonMintText
                                             ),
-                                            shape = RoundedCornerShape(50)
+                                            shape = FuturisticPillShape
                                         ) {
-                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(16.dp))
+                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(16.dp), tint = ZomoNeonMintText)
                                             Spacer(modifier = Modifier.width(6.dp))
-                                            Text("Onayla", fontWeight = FontWeight.ExtraBold)
+                                            Text("Onayla", fontWeight = FontWeight.Black)
                                         }
                                     }
                                 }
@@ -516,28 +514,27 @@ fun ParentDashboardScreen(
                     // Day Selector Horizontal Filter Chips
                     item(key = "day_filter_row") {
                         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            Text("🗓️ Gün Filtresi", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.ExtraBold, color = Color(0xFF1E1B4B))
+                            Text("🗓️ Gün Filtresi", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Black, color = ZomoTextPrimary)
                             Row(
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .horizontalScroll(rememberScrollState()),
-                                horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
                             ) {
                                 for ((key, label) in DAY_FILTERS) {
                                     val isSelected = selectedDayFilter == key
                                     Surface(
                                         onClick = { selectedDayFilter = key },
-                                        shape = RoundedCornerShape(50),
-                                        color = if (isSelected) ZomoPurplePrimary else ZomoCardBackground,
-                                        border = BorderStroke(1.dp, if (isSelected) ZomoPurplePrimary else ZomoSquirclePurple.copy(alpha = 0.4f)),
-                                        shadowElevation = if (isSelected) 2.dp else 0.dp
+                                        shape = FuturisticPillShape,
+                                        color = if (isSelected) ZomoPurplePrimary else ZomoDarkSurface,
+                                        border = BorderStroke(1.dp, if (isSelected) ZomoPurplePrimary else ZomoDarkBorder)
                                     ) {
                                         Text(
                                             text = label,
                                             fontSize = 12.sp,
-                                            fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
-                                            color = if (isSelected) Color.White else Color(0xFF4B5563),
-                                            modifier = Modifier.padding(horizontal = 14.dp, vertical = 7.dp)
+                                            fontWeight = if (isSelected) FontWeight.Black else FontWeight.Medium,
+                                            color = if (isSelected) Color.White else ZomoTextSecondary,
+                                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
                                         )
                                     }
                                 }
@@ -555,8 +552,8 @@ fun ParentDashboardScreen(
                             Text(
                                 text = "📖 Günlük Dersler (${filteredTasks.size})",
                                 style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.ExtraBold,
-                                color = Color(0xFF1E1B4B)
+                                fontWeight = FontWeight.Black,
+                                color = ZomoTextPrimary
                             )
                         }
                     }
@@ -564,14 +561,13 @@ fun ParentDashboardScreen(
                     if (filteredTasks.isEmpty()) {
                         item {
                             Card(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .shadow(2.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.06f)),
-                                shape = RoundedCornerShape(24.dp),
-                                colors = CardDefaults.cardColors(containerColor = ZomoCardBackground)
+                                modifier = Modifier.fillMaxWidth(),
+                                shape = FuturisticCardShape,
+                                border = BorderStroke(1.dp, ZomoDarkBorder),
+                                colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
                             ) {
-                                Box(modifier = Modifier.padding(24.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
-                                    Text("Bu güne ait tanımlı ders bulunamadı.", color = Color(0xFF6B7280), fontSize = 13.sp)
+                                Box(modifier = Modifier.padding(28.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                                    Text("Bu güne ait tanımlı ders bulunamadı.", color = ZomoTextSecondary, fontSize = 13.sp)
                                 }
                             }
                         }
@@ -587,22 +583,21 @@ fun ParentDashboardScreen(
                             Text(
                                 text = "🎯 Haftalık Genel Hedefler (${weeklyOccurrences.size})",
                                 style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.ExtraBold,
-                                color = Color(0xFF1E1B4B)
+                                fontWeight = FontWeight.Black,
+                                color = ZomoTextPrimary
                             )
                         }
 
                         if (weeklyOccurrences.isEmpty()) {
                             item {
                                 Card(
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .shadow(2.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.06f)),
-                                    shape = RoundedCornerShape(24.dp),
-                                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground)
+                                    modifier = Modifier.fillMaxWidth(),
+                                    shape = FuturisticCardShape,
+                                    border = BorderStroke(1.dp, ZomoDarkBorder),
+                                    colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface)
                                 ) {
                                     Box(modifier = Modifier.padding(20.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
-                                        Text("Haftalık genel hedef tanımlanmamış.", color = Color(0xFF6B7280), fontSize = 13.sp)
+                                        Text("Haftalık genel hedef tanımlanmamış.", color = ZomoTextSecondary, fontSize = 13.sp)
                                     }
                                 }
                             }
@@ -623,25 +618,23 @@ fun ParentDashboardScreen(
 @Composable
 fun ParentTaskInspectionCard(task: Occurrence) {
     val (statusBg, statusFg, statusText) = when (task.status) {
-        OccurrenceStatus.APPROVED -> Triple(ZomoSquircleEmerald, Color(0xFF059669), "✅ Onaylandı")
-        OccurrenceStatus.WAITING_REVIEW -> Triple(ZomoSquircleAmber, Color(0xFFD97706), "⏳ İnceleniyor")
-        OccurrenceStatus.ACTIVE -> Triple(ZomoSquirclePurple, ZomoPurplePrimary, "⚡ Devam Ediyor")
-        OccurrenceStatus.REJECTED -> Triple(ZomoSquirclePink, Color(0xFFE11D48), "❌ Tekrar İsteniyor")
-        OccurrenceStatus.PENDING -> Triple(ZomoSoftLavender, Color(0xFF6B7280), "🕒 Bekliyor")
-        OccurrenceStatus.ARCHIVED -> Triple(ZomoSoftLavender, Color(0xFF9CA3AF), "📦 Arşivlendi")
+        OccurrenceStatus.APPROVED -> Triple(ZomoEmeraldContainer, ZomoEmerald, "✅ Onaylandı")
+        OccurrenceStatus.WAITING_REVIEW -> Triple(ZomoAmberContainer, ZomoAmber, "⏳ İnceleniyor")
+        OccurrenceStatus.ACTIVE -> Triple(ZomoVioletContainer, ZomoPurplePrimary, "⚡ Devam Ediyor")
+        OccurrenceStatus.REJECTED -> Triple(ZomoPinkContainer, ZomoPink, "❌ Tekrar İsteniyor")
+        OccurrenceStatus.PENDING -> Triple(Color(0x1FFFFFFF), ZomoTextSecondary, "🕒 Bekliyor")
+        OccurrenceStatus.ARCHIVED -> Triple(Color(0x1FFFFFFF), ZomoTextMuted, "📦 Arşivlendi")
     }
 
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .shadow(4.dp, shape = RoundedCornerShape(20.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-        border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
+        modifier = Modifier.fillMaxWidth(),
+        shape = FuturisticCardShape,
+        colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+        border = BorderStroke(1.dp, ZomoDarkBorder)
     ) {
         Column(
-            modifier = Modifier.padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
+            modifier = Modifier.padding(18.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -650,70 +643,73 @@ fun ParentTaskInspectionCard(task: Occurrence) {
             ) {
                 Text(
                     text = task.title,
-                    fontWeight = FontWeight.ExtraBold,
+                    fontWeight = FontWeight.Black,
                     style = MaterialTheme.typography.titleMedium,
-                    color = Color(0xFF1E1B4B)
+                    color = ZomoTextPrimary
                 )
                 Surface(
-                    shape = RoundedCornerShape(50),
-                    color = statusBg
+                    shape = FuturisticPillShape,
+                    color = statusBg,
+                    border = BorderStroke(1.dp, statusFg.copy(alpha = 0.3f))
                 ) {
                     Text(
                         text = statusText,
                         color = statusFg,
                         fontSize = 11.sp,
-                        fontWeight = FontWeight.ExtraBold,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                        fontWeight = FontWeight.Black,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
                     )
                 }
             }
 
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(12.dp)
+                horizontalArrangement = Arrangement.spacedBy(14.dp)
             ) {
                 if (task.date != null) {
                     Text(
                         text = "📅 ${task.date}",
                         fontSize = 12.sp,
-                        color = Color(0xFF6B7280)
+                        color = ZomoTextSecondary
                     )
                 }
                 Text(
                     text = "⏱️ Hedef: ${task.plannedMinutes} dk",
                     fontSize = 12.sp,
-                    color = Color(0xFF6B7280),
+                    color = ZomoTextSecondary,
                     fontWeight = FontWeight.Medium
                 )
             }
 
             if (!task.youtubeUrl.isNullOrBlank()) {
                 Surface(
-                    color = ZomoSquircleBlue,
-                    shape = RoundedCornerShape(8.dp),
+                    color = ZomoSkyContainer,
+                    shape = RoundedCornerShape(10.dp),
+                    border = BorderStroke(1.dp, ZomoSky.copy(alpha = 0.3f)),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
                         text = "🔗 ${task.youtubeUrl}",
                         style = MaterialTheme.typography.bodySmall,
-                        color = Color(0xFF0284C7),
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                        color = ZomoSky,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp)
                     )
                 }
             }
 
             if (task.warning && !task.warningText.isNullOrBlank()) {
                 Surface(
-                    color = ZomoSquirclePink,
-                    shape = RoundedCornerShape(10.dp),
+                    color = ZomoPinkContainer,
+                    shape = RoundedCornerShape(12.dp),
+                    border = BorderStroke(1.dp, ZomoPink.copy(alpha = 0.4f)),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
                         text = "Ebeveyn Notu: ${task.warningText}",
-                        color = Color(0xFFBE123C),
+                        color = ZomoPink,
                         fontSize = 11.sp,
-                        fontWeight = FontWeight.SemiBold,
-                        modifier = Modifier.padding(8.dp)
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.padding(10.dp)
                     )
                 }
             }

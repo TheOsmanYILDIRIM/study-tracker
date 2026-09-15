@@ -20,7 +20,6 @@ import kotlinx.coroutines.flow.*
 data class ActiveSessionState(
     val session: Session,
     val occurrenceTitle: String,
-    val elapsedSeconds: Long = 0,
     val screenshotCount: Int = 0,
     val isFinishing: Boolean = false,
     val isPaused: Boolean = false
@@ -50,6 +49,10 @@ class SessionStateManager private constructor(
     private val _activeState = MutableStateFlow<ActiveSessionState?>(null)
     val activeState: StateFlow<ActiveSessionState?> = _activeState.asStateFlow()
 
+    // Dedicated high-performance seconds ticker isolated from parent state recompositions
+    private val _elapsedSeconds = MutableStateFlow<Long>(0L)
+    val elapsedSeconds: StateFlow<Long> = _elapsedSeconds.asStateFlow()
+
     // Dedicated high-performance boolean state flow to prevent recomposition storms on root screens
     val isSessionActive: StateFlow<Boolean> = _activeState
         .map { it != null }
@@ -72,10 +75,10 @@ class SessionStateManager private constructor(
         )
 
         // 1. Instant Optimistic UI State Transition (0ms latency touch response)
+        _elapsedSeconds.value = 0L
         _activeState.value = ActiveSessionState(
             session = tempSession,
             occurrenceTitle = occurrenceTitle,
-            elapsedSeconds = 0,
             screenshotCount = 1,
             isPaused = false
         )
@@ -90,14 +93,12 @@ class SessionStateManager private constructor(
             val driver = getEffectiveCaptureDriver()
             driver.start(session.sessionId, occurrenceKey)
 
-            // Update with persisted session if ID differed
             if (session.sessionId != tempSessionId) {
                 withContext(Dispatchers.Main) {
                     _activeState.value = _activeState.value?.copy(session = session)
                 }
             }
 
-            // Capture initial evidence photo asynchronously
             driver.captureNow()
         }
     }
@@ -118,11 +119,9 @@ class SessionStateManager private constructor(
 
     fun captureManual() {
         val current = _activeState.value ?: return
-        // Instant visual feedback
         _activeState.value = current.copy(
             screenshotCount = current.screenshotCount + 1
         )
-        // Background capture
         scope.launch(Dispatchers.IO) {
             getEffectiveCaptureDriver().captureNow()
         }
@@ -137,14 +136,12 @@ class SessionStateManager private constructor(
         stopFloatingService()
 
         scope.launch(Dispatchers.IO) {
-            // Final screenshot
             val finalSs = getEffectiveCaptureDriver().stop()
-
-            // Update session in DB
             sessionRepository.finishSession(current.session.sessionId, finalSs?.url)
 
             withContext(Dispatchers.Main) {
                 _activeState.value = null
+                _elapsedSeconds.value = 0L
                 onFinished?.invoke()
             }
         }
@@ -155,12 +152,9 @@ class SessionStateManager private constructor(
         tickerJob = scope.launch {
             while (isActive && _activeState.value != null) {
                 delay(1000)
-                _activeState.value = _activeState.value?.let { current ->
-                    if (!current.isPaused) {
-                        current.copy(elapsedSeconds = current.elapsedSeconds + 1)
-                    } else {
-                        current
-                    }
+                val current = _activeState.value
+                if (current != null && !current.isPaused) {
+                    _elapsedSeconds.value += 1
                 }
             }
         }
@@ -170,7 +164,7 @@ class SessionStateManager private constructor(
         periodicCaptureJob?.cancel()
         periodicCaptureJob = scope.launch(Dispatchers.IO) {
             while (isActive && _activeState.value != null) {
-                delay(60_000) // Her 60 saniyede bir otomatik screenshot
+                delay(60_000)
                 val current = _activeState.value
                 if (current != null && !current.isPaused) {
                     getEffectiveCaptureDriver().captureNow()
@@ -223,4 +217,3 @@ class SessionStateManager private constructor(
         }
     }
 }
-

@@ -16,7 +16,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -26,6 +25,10 @@ import androidx.compose.ui.unit.sp
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.ui.overlay.FloatingHUDView
 import com.studytracker.core.ui.theme.*
+
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticSquircleShape = RoundedCornerShape(22.dp)
+private val FuturisticPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -48,36 +51,37 @@ fun ChildTutorialScreen(
     }
 
     Scaffold(
-        containerColor = ZomoBackground,
+        containerColor = ZomoDarkCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = ZomoBackground,
-                    titleContentColor = Color(0xFF1E1B4B)
+                    containerColor = ZomoDarkCanvas,
+                    titleContentColor = ZomoTextPrimary
                 ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(10.dp),
-                            color = ZomoSquirclePurple,
-                            modifier = Modifier.size(32.dp)
+                            shape = RoundedCornerShape(14.dp),
+                            color = ZomoVioletContainer,
+                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(38.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.School, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.School, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(20.dp))
                             }
                         }
-                        Text("Öğrenci Rehberi", fontWeight = FontWeight.ExtraBold, fontSize = 20.sp)
+                        Text("Öğrenci Rehberi", fontWeight = FontWeight.Black, fontSize = 20.sp, color = ZomoTextPrimary)
                     }
                 },
                 actions = {
                     TextButton(
                         onClick = { completeAndExit() },
-                        shape = RoundedCornerShape(50)
+                        shape = FuturisticPillShape
                     ) {
-                        Text("Rehberi Geç", fontWeight = FontWeight.Bold, color = Color(0xFF6B7280))
+                        Text("Rehberi Geç", fontWeight = FontWeight.Bold, color = ZomoTextSecondary)
                     }
                 }
             )
@@ -103,8 +107,8 @@ fun ChildTutorialScreen(
                     Text(
                         text = "Adım $step / $totalSteps",
                         style = MaterialTheme.typography.labelMedium,
-                        fontWeight = FontWeight.ExtraBold,
-                        color = ZomoPurplePrimary
+                        fontWeight = FontWeight.Black,
+                        color = ZomoNeonMint
                     )
                     Text(
                         text = when (step) {
@@ -115,7 +119,7 @@ fun ChildTutorialScreen(
                         },
                         style = MaterialTheme.typography.labelSmall,
                         fontWeight = FontWeight.Bold,
-                        color = Color(0xFF6B7280)
+                        color = ZomoTextSecondary
                     )
                 }
 
@@ -124,9 +128,9 @@ fun ChildTutorialScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(8.dp)
-                        .clip(RoundedCornerShape(50)),
-                    color = ZomoMintAccent,
-                    trackColor = ZomoSoftLavender
+                        .clip(FuturisticPillShape),
+                    color = ZomoNeonMint,
+                    trackColor = ZomoDarkSurface
                 )
             }
 
@@ -141,46 +145,47 @@ fun ChildTutorialScreen(
                         modifier = Modifier.weight(1f)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(24.dp),
-                            color = ZomoSquirclePurple,
-                            modifier = Modifier.size(88.dp)
+                            shape = FuturisticSquircleShape,
+                            color = ZomoVioletContainer,
+                            border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(90.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.School, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(46.dp))
+                                Icon(Icons.Default.School, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(48.dp))
                             }
                         }
 
                         Text(
                             text = "📚 Ders ve Görev Masan",
                             style = MaterialTheme.typography.headlineSmall,
-                            fontWeight = FontWeight.ExtraBold,
+                            fontWeight = FontWeight.Black,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF1E1B4B)
+                            color = ZomoTextPrimary
                         )
 
                         Text(
                             text = "Ebeveynin senin için günlük dersler ve haftalık genel hedefler belirler. Her görevin hedef süresi, konusu ve varsa YouTube ders bağlantısı kart üzerinde yer alır.",
                             style = MaterialTheme.typography.bodyMedium,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF4B5563),
-                            lineHeight = 20.sp
+                            color = ZomoTextSecondary,
+                            lineHeight = 22.sp
                         )
 
                         Card(
-                            shape = RoundedCornerShape(20.dp),
-                            colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                            border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.4f)),
+                            shape = FuturisticCardShape,
+                            colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                            border = BorderStroke(1.dp, ZomoDarkBorder),
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Column(modifier = Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
-                                    Icon(Icons.Default.Lightbulb, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
-                                    Text("İpucu:", fontWeight = FontWeight.ExtraBold, fontSize = 13.sp, color = ZomoPurplePrimary)
+                                    Icon(Icons.Default.Lightbulb, contentDescription = null, tint = ZomoNeonMint, modifier = Modifier.size(18.dp))
+                                    Text("İpucu:", fontWeight = FontWeight.Black, fontSize = 13.sp, color = ZomoNeonMint)
                                 }
-                                Text("Ders çalışmaya başlamak için tek yapman gereken 'Çalışmayı Başlat' düğmesine dokunmaktır. Ders başladığında sistem üstü yüzen düğmen otomatik olarak açılır.", fontSize = 12.sp, color = Color(0xFF4B5563))
+                                Text("Ders çalışmaya başlamak için tek yapman gereken 'Çalışmayı Başlat' düğmesine dokunmaktır. Ders başladığında sistem üstü yüzen düğmen otomatik olarak açılır.", fontSize = 12.sp, color = ZomoTextSecondary)
                             }
                         }
                     }
@@ -190,32 +195,32 @@ fun ChildTutorialScreen(
                     // STEP 2: Interactive Sandbox Floating HUD
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(12.dp),
+                        verticalArrangement = Arrangement.spacedBy(14.dp),
                         modifier = Modifier.weight(1f)
                     ) {
                         Text(
                             text = "🟣 Yüzen Düğme ile Canlı Deneme",
                             style = MaterialTheme.typography.titleLarge,
-                            fontWeight = FontWeight.ExtraBold,
+                            fontWeight = FontWeight.Black,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF1E1B4B)
+                            color = ZomoTextPrimary
                         )
 
                         Text(
                             text = "Ders çalışırken ekranda bu yüzen düğme bulunur. Aşağıdaki kutuda canlı olarak dene:",
                             style = MaterialTheme.typography.bodySmall,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF6B7280)
+                            color = ZomoTextSecondary
                         )
 
-                        // Interactive Sandbox Box
+                        // Interactive Sandbox Box (Futuristic Cyber)
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(150.dp)
-                                .clip(RoundedCornerShape(24.dp))
-                                .background(Color(0xFF160B29))
-                                .border(1.5.dp, ZomoPurplePrimary.copy(alpha = 0.4f), RoundedCornerShape(24.dp)),
+                                .clip(FuturisticCardShape)
+                                .background(Color(0xFF0C061C))
+                                .border(1.5.dp, ZomoPurplePrimary.copy(alpha = 0.5f), FuturisticCardShape),
                             contentAlignment = Alignment.Center
                         ) {
                             if (!isMockFinished) {
@@ -237,12 +242,12 @@ fun ChildTutorialScreen(
                             } else {
                                 Column(
                                     horizontalAlignment = Alignment.CenterHorizontally,
-                                    verticalArrangement = Arrangement.spacedBy(6.dp)
+                                    verticalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
                                     Text(
                                         text = "🎉 Harika! Dersi Başarıyla Bitirdin!",
-                                        color = ZomoMintAccent,
-                                        fontWeight = FontWeight.ExtraBold,
+                                        color = ZomoNeonMint,
+                                        fontWeight = FontWeight.Black,
                                         fontSize = 15.sp
                                     )
                                     OutlinedButton(
@@ -251,28 +256,28 @@ fun ChildTutorialScreen(
                                             mockScreenshotCount = 0
                                             isMockPaused = false
                                         },
-                                        shape = RoundedCornerShape(50),
-                                        border = BorderStroke(1.dp, ZomoMintAccent)
+                                        shape = FuturisticPillShape,
+                                        border = BorderStroke(1.dp, ZomoNeonMint)
                                     ) {
-                                        Text("Tekrar Dene", fontSize = 12.sp, color = ZomoMintAccent, fontWeight = FontWeight.Bold)
+                                        Text("Tekrar Dene", fontSize = 12.sp, color = ZomoNeonMint, fontWeight = FontWeight.Bold)
                                     }
                                 }
                             }
                         }
 
                         Column(
-                            verticalArrangement = Arrangement.spacedBy(4.dp),
+                            verticalArrangement = Arrangement.spacedBy(6.dp),
                             horizontalAlignment = Alignment.Start,
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Text("📸 1 Kez Dokun: Anlık çalışma kanıtı çeker.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = Color(0xFF1E1B4B))
-                            Text("⏸️ / ▶️ Duraklat/Devam Et: Mola vermek için basabilirsin.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = Color(0xFF1E1B4B))
-                            Text("🛑 2 Saniye Basılı Tut: Dersi tamamlar ve ebeveynine iletir.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = Color(0xFF1E1B4B))
+                            Text("📸 1 Kez Dokun: Anlık çalışma kanıtı çeker.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = ZomoTextPrimary)
+                            Text("⏸️ / ▶️ Duraklat/Devam Et: Mola vermek için basabilirsin.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = ZomoTextPrimary)
+                            Text("🛑 2 Saniye Basılı Tut: Dersi tamamlar ve ebeveynine iletir.", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = ZomoTextPrimary)
                         }
 
                         if (mockScreenshotCount > 0 && !isMockFinished) {
-                            Surface(color = ZomoSquircleEmerald, shape = RoundedCornerShape(50)) {
-                                Text("📸 Tebrikler! $mockScreenshotCount adet kanıt çektin!", color = Color(0xFF059669), modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp), fontWeight = FontWeight.ExtraBold, fontSize = 12.sp)
+                            Surface(color = ZomoEmeraldContainer, shape = FuturisticPillShape, border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f))) {
+                                Text("📸 Tebrikler! $mockScreenshotCount adet kanıt çektin!", color = ZomoEmerald, modifier = Modifier.padding(horizontal = 14.dp, vertical = 6.dp), fontWeight = FontWeight.Black, fontSize = 12.sp)
                             }
                         }
                     }
@@ -282,50 +287,51 @@ fun ChildTutorialScreen(
                     // STEP 3: Pause / Resume Feature
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(14.dp),
+                        verticalArrangement = Arrangement.spacedBy(16.dp),
                         modifier = Modifier.weight(1f)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(24.dp),
-                            color = ZomoSquircleAmber,
-                            modifier = Modifier.size(88.dp)
+                            shape = FuturisticSquircleShape,
+                            color = ZomoAmberContainer,
+                            border = BorderStroke(1.dp, ZomoAmber.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(90.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.PauseCircle, contentDescription = null, tint = Color(0xFFD97706), modifier = Modifier.size(46.dp))
+                                Icon(Icons.Default.PauseCircle, contentDescription = null, tint = ZomoAmber, modifier = Modifier.size(48.dp))
                             }
                         }
 
                         Text(
                             text = "⏸️ Mola Verme ve Devam Etme",
                             style = MaterialTheme.typography.headlineSmall,
-                            fontWeight = FontWeight.ExtraBold,
+                            fontWeight = FontWeight.Black,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF1E1B4B)
+                            color = ZomoTextPrimary
                         )
 
                         Text(
-                            text = "Ders sırasında su içmek veya kısa bir ara vermek istersen yüzen düğmedeki veya ana ekrandaki 'Duraklat' butonuna dokunabilirsin.",
+                            text = "Ders sırasında su içmek veya kısa bir ara vermek istersen yüzen düğmedeki veya ana ekrandaki 'Mola Ver' butonuna dokunabilirsin.",
                             style = MaterialTheme.typography.bodyMedium,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF4B5563),
-                            lineHeight = 20.sp
+                            color = ZomoTextSecondary,
+                            lineHeight = 22.sp
                         )
 
                         Card(
-                            shape = RoundedCornerShape(20.dp),
-                            colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                            border = BorderStroke(1.dp, ZomoSquircleAmber.copy(alpha = 0.5f)),
+                            shape = FuturisticCardShape,
+                            colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                            border = BorderStroke(1.dp, ZomoAmber.copy(alpha = 0.4f)),
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Column(modifier = Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
-                                    Icon(Icons.Default.Timer, contentDescription = null, tint = Color(0xFFD97706), modifier = Modifier.size(18.dp))
-                                    Text("Sayaç Durur, Kanıt Alınmaz:", fontWeight = FontWeight.ExtraBold, fontSize = 13.sp, color = Color(0xFFD97706))
+                                    Icon(Icons.Default.Timer, contentDescription = null, tint = ZomoAmber, modifier = Modifier.size(18.dp))
+                                    Text("Sayaç Durur, Kanıt Alınmaz:", fontWeight = FontWeight.Black, fontSize = 13.sp, color = ZomoAmber)
                                 }
-                                Text("Ders duraklatıldığında çalışma süresi sayacı durur ve otomatik ekran görüntüsü alınmaz. Masana döndüğünde 'Devam Et' diyerek kaldığın yerden çalışmaya devam edersin.", fontSize = 12.sp, color = Color(0xFF4B5563))
+                                Text("Ders duraklatıldığında çalışma süresi sayacı durur ve otomatik ekran görüntüsü alınmaz. Masana döndüğünde 'Devam Et' diyerek kaldığın yerden çalışmaya devam edersin.", fontSize = 12.sp, color = ZomoTextSecondary)
                             }
                         }
                     }
@@ -335,50 +341,51 @@ fun ChildTutorialScreen(
                     // STEP 4: Review & Badges
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(14.dp),
+                        verticalArrangement = Arrangement.spacedBy(16.dp),
                         modifier = Modifier.weight(1f)
                     ) {
                         Surface(
-                            shape = RoundedCornerShape(24.dp),
-                            color = ZomoSquircleEmerald,
-                            modifier = Modifier.size(88.dp)
+                            shape = FuturisticSquircleShape,
+                            color = ZomoEmeraldContainer,
+                            border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.5f)),
+                            modifier = Modifier.size(90.dp)
                         ) {
                             Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.Verified, contentDescription = null, tint = Color(0xFF059669), modifier = Modifier.size(46.dp))
+                                Icon(Icons.Default.Verified, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(48.dp))
                             }
                         }
 
                         Text(
                             text = "🏆 Ebeveyn Onayı ve Rozetler",
                             style = MaterialTheme.typography.headlineSmall,
-                            fontWeight = FontWeight.ExtraBold,
+                            fontWeight = FontWeight.Black,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF1E1B4B)
+                            color = ZomoTextPrimary
                         )
 
                         Text(
                             text = "Dersi bitirdiğinde aldığın kanıt fotoğrafları ebeveyn onay masasına iletilir. Ebeveynin inceleyip onayladığında görev 'Onaylandı' yeşil rozetine kavuşur!",
                             style = MaterialTheme.typography.bodyMedium,
                             textAlign = TextAlign.Center,
-                            color = Color(0xFF4B5563),
-                            lineHeight = 20.sp
+                            color = ZomoTextSecondary,
+                            lineHeight = 22.sp
                         )
 
                         Card(
-                            shape = RoundedCornerShape(20.dp),
-                            colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-                            border = BorderStroke(1.dp, ZomoSquircleEmerald.copy(alpha = 0.5f)),
+                            shape = FuturisticCardShape,
+                            colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+                            border = BorderStroke(1.dp, ZomoEmerald.copy(alpha = 0.4f)),
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Column(modifier = Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
-                                    Icon(Icons.Default.Star, contentDescription = null, tint = Color(0xFF059669), modifier = Modifier.size(18.dp))
-                                    Text("Tebrikler, Rehberi Tamamladın!", fontWeight = FontWeight.ExtraBold, fontSize = 13.sp, color = Color(0xFF059669))
+                                    Icon(Icons.Default.Star, contentDescription = null, tint = ZomoEmerald, modifier = Modifier.size(18.dp))
+                                    Text("Tebrikler, Rehberi Tamamladın!", fontWeight = FontWeight.Black, fontSize = 13.sp, color = ZomoEmerald)
                                 }
-                                Text("Bu rehber ilk girişinde gösterilir. İleride kuralları hatırlamak istersen Görev Masası'nın sağ üstündeki (?) simgesine dokunarak rehberi istediğin zaman tekrar açabilirsin.", fontSize = 12.sp, color = Color(0xFF4B5563))
+                                Text("Bu rehber ilk girişinde gösterilir. İleride kuralları hatırlamak istersen Görev Masası'nın sağ üstündeki (?) simgesine dokunarak rehberi istediğin zaman tekrar açabilirsin.", fontSize = 12.sp, color = ZomoTextSecondary)
                             }
                         }
                     }
@@ -395,9 +402,9 @@ fun ChildTutorialScreen(
                 if (step > 1) {
                     OutlinedButton(
                         onClick = { step-- },
-                        modifier = Modifier.weight(1f).height(52.dp),
-                        shape = RoundedCornerShape(50),
-                        border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.3f))
+                        modifier = Modifier.weight(1f).height(50.dp),
+                        shape = FuturisticPillShape,
+                        border = BorderStroke(1.dp, ZomoPurplePrimary.copy(alpha = 0.5f))
                     ) {
                         Text("Geri", color = ZomoPurplePrimary, fontWeight = FontWeight.Bold)
                     }
@@ -411,16 +418,16 @@ fun ChildTutorialScreen(
                             completeAndExit()
                         }
                     },
-                    modifier = Modifier.weight(2f).height(52.dp),
-                    shape = RoundedCornerShape(50),
+                    modifier = Modifier.weight(2f).height(50.dp),
+                    shape = FuturisticPillShape,
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = ZomoMintAccent,
-                        contentColor = Color(0xFF064E3B)
+                        containerColor = ZomoNeonMint,
+                        contentColor = ZomoNeonMintText
                     )
                 ) {
                     Text(
                         text = if (step < totalSteps) "İleri ->" else "🚀 Görev Masama Başla!",
-                        fontWeight = FontWeight.ExtraBold,
+                        fontWeight = FontWeight.Black,
                         fontSize = 15.sp
                     )
                 }

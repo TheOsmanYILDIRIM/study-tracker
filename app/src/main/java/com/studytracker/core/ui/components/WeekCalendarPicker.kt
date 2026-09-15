@@ -16,7 +16,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -25,6 +24,9 @@ import androidx.compose.ui.unit.sp
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
+
+private val FuturisticCardShape = RoundedCornerShape(26.dp)
+private val FuturisticPillShape = CircleShape
 
 @Composable
 fun WeekCalendarPicker(
@@ -76,16 +78,14 @@ fun WeekCalendarPicker(
     }
 
     Card(
-        modifier = modifier
-            .fillMaxWidth()
-            .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
-        shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
-        border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
+        modifier = modifier.fillMaxWidth(),
+        shape = FuturisticCardShape,
+        colors = CardDefaults.cardColors(containerColor = ZomoDarkSurface),
+        border = BorderStroke(1.dp, ZomoDarkBorder)
     ) {
         Column(
-            modifier = Modifier.padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+            modifier = Modifier.padding(18.dp),
+            verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
             // Quick preset pill chips
             Row(
@@ -95,16 +95,17 @@ fun WeekCalendarPicker(
                 val isCurrent = selectedWeekId == currentWeekInfo.first
                 Surface(
                     onClick = { onWeekSelected(currentWeekInfo.first, currentWeekInfo.second) },
-                    shape = RoundedCornerShape(50),
-                    color = if (isCurrent) ZomoPurplePrimary else ZomoSoftLavender,
+                    shape = FuturisticPillShape,
+                    color = if (isCurrent) ZomoPurplePrimary else Color(0x28A855F7),
+                    border = BorderStroke(1.dp, if (isCurrent) ZomoPurplePrimary else ZomoDarkBorder),
                     modifier = Modifier.weight(1f)
                 ) {
                     Box(modifier = Modifier.padding(vertical = 8.dp), contentAlignment = Alignment.Center) {
                         Text(
                             "Bu Hafta (${currentWeekInfo.first})",
                             fontSize = 12.sp,
-                            fontWeight = if (isCurrent) FontWeight.ExtraBold else FontWeight.Medium,
-                            color = if (isCurrent) Color.White else ZomoPurplePrimary
+                            fontWeight = if (isCurrent) FontWeight.Black else FontWeight.Medium,
+                            color = if (isCurrent) Color.White else ZomoPurpleLight
                         )
                     }
                 }
@@ -112,16 +113,17 @@ fun WeekCalendarPicker(
                 val isNext = selectedWeekId == nextWeekInfo.first
                 Surface(
                     onClick = { onWeekSelected(nextWeekInfo.first, nextWeekInfo.second) },
-                    shape = RoundedCornerShape(50),
-                    color = if (isNext) ZomoPurplePrimary else ZomoSoftLavender,
+                    shape = FuturisticPillShape,
+                    color = if (isNext) ZomoPurplePrimary else Color(0x28A855F7),
+                    border = BorderStroke(1.dp, if (isNext) ZomoPurplePrimary else ZomoDarkBorder),
                     modifier = Modifier.weight(1f)
                 ) {
                     Box(modifier = Modifier.padding(vertical = 8.dp), contentAlignment = Alignment.Center) {
                         Text(
                             "Gelecek Hafta",
                             fontSize = 12.sp,
-                            fontWeight = if (isNext) FontWeight.ExtraBold else FontWeight.Medium,
-                            color = if (isNext) Color.White else ZomoPurplePrimary
+                            fontWeight = if (isNext) FontWeight.Black else FontWeight.Medium,
+                            color = if (isNext) Color.White else ZomoPurpleLight
                         )
                     }
                 }
@@ -139,20 +141,21 @@ fun WeekCalendarPicker(
                         newCal.add(Calendar.MONTH, -1)
                         displayedMonthCal = newCal
                     },
-                    shape = CircleShape,
-                    color = ZomoSoftLavender,
+                    shape = FuturisticPillShape,
+                    color = Color(0x28A855F7),
+                    border = BorderStroke(1.dp, ZomoDarkBorder),
                     modifier = Modifier.size(36.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
-                        Icon(Icons.Default.ChevronLeft, contentDescription = "Önceki Ay", tint = ZomoPurplePrimary)
+                        Icon(Icons.Default.ChevronLeft, contentDescription = "Önceki Ay", tint = ZomoPurpleLight)
                     }
                 }
 
                 Text(
                     text = monthYearFormat.format(displayedMonthCal.time).replaceFirstChar { it.uppercase() },
-                    fontWeight = FontWeight.ExtraBold,
+                    fontWeight = FontWeight.Black,
                     style = MaterialTheme.typography.titleMedium,
-                    color = Color(0xFF1E1B4B)
+                    color = ZomoTextPrimary
                 )
 
                 Surface(
@@ -161,12 +164,13 @@ fun WeekCalendarPicker(
                         newCal.add(Calendar.MONTH, 1)
                         displayedMonthCal = newCal
                     },
-                    shape = CircleShape,
-                    color = ZomoSoftLavender,
+                    shape = FuturisticPillShape,
+                    color = Color(0x28A855F7),
+                    border = BorderStroke(1.dp, ZomoDarkBorder),
                     modifier = Modifier.size(36.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
-                        Icon(Icons.Default.ChevronRight, contentDescription = "Sonraki Ay", tint = ZomoPurplePrimary)
+                        Icon(Icons.Default.ChevronRight, contentDescription = "Sonraki Ay", tint = ZomoPurpleLight)
                     }
                 }
             }
@@ -181,7 +185,7 @@ fun WeekCalendarPicker(
                         textAlign = TextAlign.Center,
                         fontSize = 11.sp,
                         fontWeight = FontWeight.Bold,
-                        color = Color(0xFF9CA3AF)
+                        color = ZomoTextSecondary
                     )
                 }
             }
@@ -226,7 +230,7 @@ fun WeekCalendarPicker(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clip(RoundedCornerShape(14.dp))
-                            .background(if (isSelectedWeek) ZomoSquirclePurple.copy(alpha = 0.5f) else Color.Transparent)
+                            .background(if (isSelectedWeek) ZomoVioletContainer else Color.Transparent)
                             .border(
                                 width = if (isSelectedWeek) 1.5.dp else 0.dp,
                                 color = if (isSelectedWeek) ZomoPurplePrimary else Color.Transparent,
@@ -252,10 +256,10 @@ fun WeekCalendarPicker(
                                 Text(
                                     text = "$dayNum",
                                     fontSize = 13.sp,
-                                    fontWeight = if (isSelectedWeek) FontWeight.ExtraBold else FontWeight.Normal,
-                                    color = if (isSelectedWeek) ZomoPurplePrimary
-                                    else if (isCurrentMonth) Color(0xFF1E1B4B)
-                                    else Color(0xFFCBD5E1)
+                                    fontWeight = if (isSelectedWeek) FontWeight.Black else FontWeight.Normal,
+                                    color = if (isSelectedWeek) ZomoNeonMint
+                                    else if (isCurrentMonth) ZomoTextPrimary
+                                    else ZomoTextMuted
                                 )
                             }
                         }
@@ -264,44 +268,39 @@ fun WeekCalendarPicker(
             }
 
             // Selected Week Banner Info (Hero Gradient Pill)
-            Surface(
-                shape = RoundedCornerShape(16.dp),
-                color = Color.Transparent,
-                modifier = Modifier.fillMaxWidth()
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(18.dp))
+                    .background(ZomoHeroGradient)
+                    .padding(14.dp)
             ) {
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .background(ZomoHeroGradient)
-                        .padding(12.dp)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                    Surface(
+                        shape = FuturisticPillShape,
+                        color = Color.Black.copy(alpha = 0.35f),
+                        modifier = Modifier.size(36.dp)
                     ) {
-                        Surface(
-                            shape = CircleShape,
-                            color = Color.White.copy(alpha = 0.2f),
-                            modifier = Modifier.size(32.dp)
-                        ) {
-                            Box(contentAlignment = Alignment.Center) {
-                                Icon(Icons.Default.DateRange, contentDescription = null, tint = ZomoMintAccent, modifier = Modifier.size(18.dp))
-                            }
+                        Box(contentAlignment = Alignment.Center) {
+                            Icon(Icons.Default.DateRange, contentDescription = null, tint = ZomoNeonMint, modifier = Modifier.size(20.dp))
                         }
-                        Column {
-                            Text(
-                                text = "Seçili Hafta: $selectedWeekId",
-                                fontWeight = FontWeight.ExtraBold,
-                                fontSize = 13.sp,
-                                color = Color.White
-                            )
-                            Text(
-                                text = "Pazartesi Başlangıç: $selectedStartDate",
-                                fontSize = 11.sp,
-                                color = ZomoMintAccent,
-                                fontWeight = FontWeight.SemiBold
-                            )
-                        }
+                    }
+                    Column {
+                        Text(
+                            text = "Seçili Hafta: $selectedWeekId",
+                            fontWeight = FontWeight.Black,
+                            fontSize = 13.sp,
+                            color = Color.White
+                        )
+                        Text(
+                            text = "Pazartesi Başlangıç: $selectedStartDate",
+                            fontSize = 11.sp,
+                            color = ZomoNeonMint,
+                            fontWeight = FontWeight.Bold
+                        )
                     }
                 }
             }

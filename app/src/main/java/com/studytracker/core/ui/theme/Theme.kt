@@ -9,55 +9,43 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
-private val DarkColorScheme = darkColorScheme(
-    primary = ZomoPurpleLight,
-    onPrimary = ZomoDarkBg,
+private val CyberVioletColorScheme = darkColorScheme(
+    primary = ZomoPurplePrimary,
+    onPrimary = ZomoDarkCanvas,
     primaryContainer = ZomoDarkCard,
     onPrimaryContainer = ZomoPurpleLight,
     secondary = ZomoNeonMint,
-    onSecondary = ZomoDarkBg,
-    secondaryContainer = ZomoDarkSurface,
+    onSecondary = ZomoNeonMintText,
+    secondaryContainer = ZomoDarkCardElevated,
+    onSecondaryContainer = ZomoNeonMint,
     tertiary = ZomoPink,
-    background = ZomoDarkBg,
+    background = ZomoDarkCanvas,
     surface = ZomoDarkSurface,
     surfaceVariant = ZomoDarkCard,
-    onSurface = ZomoLavenderSurface,
-    onSurfaceVariant = ZomoPurpleLight,
-    outline = ZomoDarkBorder,
-    error = ZomoPink
-)
-
-private val LightColorScheme = lightColorScheme(
-    primary = ZomoPurplePrimary,
-    onPrimary = ZomoLavenderSurface,
-    primaryContainer = ZomoVioletContainer,
-    onPrimaryContainer = ZomoPurpleDark,
-    secondary = ZomoNeonMint,
-    onSecondary = ZomoTextPrimary,
-    secondaryContainer = ZomoLavenderCard,
-    tertiary = ZomoAmber,
-    background = ZomoLavenderBg,
-    surface = ZomoLavenderSurface,
-    surfaceVariant = ZomoLavenderCard,
+    onBackground = ZomoTextPrimary,
     onSurface = ZomoTextPrimary,
     onSurfaceVariant = ZomoTextSecondary,
-    outline = ZomoLavenderBorder,
+    outline = ZomoDarkBorder,
+    outlineVariant = ZomoGlassBorder,
     error = ZomoPink
 )
 
 @Composable
 fun StudyTrackerTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = true, // Futuristic Cyber-Violet Dark is default
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    val colorScheme = CyberVioletColorScheme
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as? Activity)?.window
             if (window != null) {
                 window.statusBarColor = colorScheme.background.toArgb()
-                WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
+                window.navigationBarColor = colorScheme.background.toArgb()
+                val controller = WindowCompat.getInsetsController(window, view)
+                controller.isAppearanceLightStatusBars = false
+                controller.isAppearanceLightNavigationBars = false
             }
         }
     }
@@ -68,4 +56,3 @@ fun StudyTrackerTheme(
         content = content
     )
 }
-
