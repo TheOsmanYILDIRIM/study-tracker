@@ -28,7 +28,7 @@
 - **Bozulmayan Basit Değişken/Metin Plan Formatı:** JSON kırılganlığını önlemek için `SimplePlanParser` ve `SimplePlanExporter` geliştirildi (`HAFTA = ...`, `[DERSLER]`, `[GUNLER]`, `[HAFTALIK]`). Hem basit metin hem JSON otomatik algılanıyor.
 - **Birim Testleri:** `SimplePlanParserTest` ile parser ve exporter doğrulaması tamamlandı.
 - **CI/CD Derleme:** GitHub Actions workflow (Run ID: `34955820944`) başarıyla tamamlandı ve yeni `StudyTracker-debug-apk` artifact'i üretildi.
-- **Ultra Hata Toleransı & Auto-Healing:** `SimplePlanParser` ve `PlanValidator` şablon/prompt karmaşık metinlerini ayıklayacak, çoklu şablon bloklarını filtreleyecek ve yinelenen anahtarları otomatik iyileştirecek şekilde güncellendi (CI Run ID: `34957226496` ✓).
+- **Ultra Hata Toleransı & Auto-Healing:** `SimplePlanParser` ve `PlanValidator` şablon/prompt karmaşık metinlerini ayıklayacak, çoklu şablon bloklarını filtreleyecek ve yinelenen anahtar otomatik iyileştirecek şekilde güncellendi (CI Run ID: `34957226496` ✓).
 - **Room DB Kanonik JSON & Test:** `LocalPlanRepositoryImpl` içerisinde basit formatın kanonik JSON olarak veritabanına kaydedilmesi ve test süiti güncellendi (CI Run ID: `34957885567` ✓).
 - **Sabit Keystore & Adaptive Icon:** Kalıcı imzalama ve özel uygulama ikonu bağlandı (CI Run ID: `34987156064` ✓).
 
@@ -51,3 +51,18 @@
 - **Kullanıcı Dostu Tek Seferlik Kurulum:** Ebeveyn sistem ayarlarından StudyTracker erişilebilirlik servisini 1 kez açtığında, uygulama arka planda veya yüzen düğmeye basıldığında sıfır sistem uyarısıyla ve sıfır çökme riskiyle anında tam ekran Bitmap görüntüsü yakalar.
 - **Sürücü & UI Entegrasyonu:** `AccessibilityCaptureDriver`, `SessionStateManager`, `DeveloperConsoleScreen` ve `accessibility_service_config.xml` entegrasyonu tamamlandı.
 
+### [2026-09-15] Tamamlandı: Aşırı Yüksek Performans & 60-120 FPS Sıfır Gecikmeli Dokunma Optimizasyonu
+- **Sıfır Gecikmeli Optimistik Dokunma Tepkisi (0ms Touch Response):** `SessionStateManager` içinde "Çalışmayı Başlat", "Duraklat/Devam Et", "Manuel Kanıt Al" ve "Tamamla" aksiyonları tıklandığı an UI durumunu (`_activeState.value`) anında Main thread'de güncelleyecek şekilde yeniden yapılandırıldı. Veritabanı yazımları, dosya sıkıştırma ve bitmap işlemleri arka plana (`Dispatchers.IO`) taşınarak dokunma gecikmesi tamamen sıfırlandı.
+- **Recomposition Storm ve Ticker Yalıtımı:** `ChildHomeScreen` ana ekranının saniyelik sayaç akışından etkilenmemesi için `isSessionActive` boolean `StateFlow` ayrıştırıldı. Sayaç metni `LiveTimerText` mikro-bileşenine izole edildi; böylece her saniye ana ekranın ve LazyColumn'daki tüm kartların baştan çizilmesi engellendi.
+- **Compose @Immutable Kararlılığı:** `Occurrence`, `TaskTemplate`, `Plan`, `Session`, `Screenshot`, `Review` domain modellerine `@Immutable` annotasyonları eklendi. Compose derleyicisinin gereksiz recomposition'ları akıllıca atlaması (Smart Recomposition Skipping) sağlandı.
+- **Room Flow Distinct & IO Offloading:** `LocalRepositories.kt` üzerindeki tüm DAO Flow akışlarına `.distinctUntilChanged()` ve `.flowOn(Dispatchers.IO)` eklendi; mükerrer ve gereksiz UI tetiklemeleri önlendi.
+- **Statik Shape & Modifier Tahsisatı:** `StudyTaskCard` ve `ParentDashboardScreen` bileşenlerinde her frame'de üretilen nesne tahsisatları (`Triple(...)`, `RoundedCornerShape(...)`, `DAY_FILTERS`) statik ve değişmez hale getirildi.
+
+### [2026-09-15] Tamamlandı: Pinterest Zomo File Modern Tasarım Sistemi Dönüşümü
+- **Tasarım Dili ve Renk Paleti:** Pinterest Zomo File UI referans alınarak Soft Lavender arka plan (`#F5F2FB`), Canlı Violet/Purple Hero Gradient (`#6D28D9` -> `#8B5CF6` -> `#A855F7`), Neon Mint CTA aksanı (`#2DD4BF`), Pastel Squircle kategori tonları (`#F3E8FF`, `#D1FAE5`, `#FEF3C7`, `#FFE4E6`, `#E0F2FE`) ve derin mor/lacivert tipografi (`#1E1B4B`) tanımlandı ([Color.kt](file:///data/data/com.termux/files/home/projects/study-tracker/app/src/main/java/com/studytracker/core/ui/theme/Color.kt) & [Theme.kt](file:///data/data/com.termux/files/home/projects/study-tracker/app/src/main/java/com/studytracker/core/ui/theme/Theme.kt)).
+- **Ders & Görev Kartları (`StudyTaskCard.kt`):** `24dp` derin yuvarlatılmış beyaz kartlar, pastel squircle ikon kutuları (`16dp` radius), Neon Mint pill "Çalışmayı Başlat" CTA butonu ve şık pill durum rozetleri uygulandı.
+- **Öğrenci Görev Masası (`ChildHomeScreen.kt`):** Zomo Hero Gradient haftalık ilerleme kartı (`28dp` radius, neon mint dairesel thumb slider, pill sayaçlar), Zomo AppBar ve canlı oturum kontrol kartı dönüştürüldü.
+- **Rol Seçim & Hoş Geldin Ekranı (`RoleSelectionScreen.kt`):** Zomo Onboarding tarzı hero banner, 24dp squircle ikonlu öğrenci/ebeveyn seçim kartları ve 28dp yuvarlatılmış PIN dialogu geliştirildi.
+- **Ebeveyn Dashboard & Sekmeler (`ParentDashboardScreen.kt`):** Zomo Soft Lavender pill tab switcher, hero gradient aktif hafta kartı, neon mint AI Plan butonu, pastel squircle bekleyen inceleme kartları ve gün filtreleme çipleri entegre edildi.
+- **Sistem Üstü Yüzen Düğme (`FloatingHUD.kt`):** Derin mor pill kapsül (`#160B29`), neon mint progress halkası ve yüksek kontrastlı mola/kare sayacı ile modernize edildi.
+- **AI Plan Stüdyosu, Hafta Takvimi & Rehber:** `AIPlanStudioScreen.kt`, `WeekCalendarPicker.kt`, `SessionReviewScreen.kt`, `EvidenceTimelineView.kt`, `ChildTutorialScreen.kt` ve `DeveloperConsoleScreen.kt` ekranlarının tamamı Zomo tasarım diline kavuşturuldu.

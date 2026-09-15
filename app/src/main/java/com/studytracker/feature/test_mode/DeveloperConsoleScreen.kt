@@ -1,8 +1,10 @@
 package com.studytracker.feature.test_mode
 
 import android.widget.Toast
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -10,6 +12,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -22,10 +25,7 @@ import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.OccurrenceStatus
-import com.studytracker.core.ui.theme.AmberContainer
-import com.studytracker.core.ui.theme.AmberWarning
-import com.studytracker.core.ui.theme.EmeraldSuccess
-import com.studytracker.core.ui.theme.RoseReject
+import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 
 private const val SAMPLE_WEEKLY_PLAN_JSON = """{
@@ -108,18 +108,59 @@ private const val SAMPLE_WEEKLY_PLAN_JSON = """{
       "plannedMinutes": 25,
       "youtubeUrl": null,
       "reviewRequired": true
-    }
-  ],
-  "weeklyOccurrences": [
+    },
     {
-      "occurrenceKey": "weekly_exam:2026-W25",
-      "taskId": "weekly_exam",
-      "weekId": "2026-W25",
-      "title": "Haftalık Deneme Sınavı",
-      "targetMode": "COUNT",
-      "targetCount": 2,
-      "targetMinutes": null,
-      "plannedMinutes": 120,
+      "occurrenceKey": "math_video:2026-06-16",
+      "taskId": "math_video",
+      "date": "2026-06-16",
+      "title": "Matematik videosu izle",
+      "plannedMinutes": 30,
+      "youtubeUrl": "https://youtube.com/watch?v=math1",
+      "reviewRequired": true
+    },
+    {
+      "occurrenceKey": "reading:2026-06-16",
+      "taskId": "reading",
+      "date": "2026-06-16",
+      "title": "Paragraf soru çözümü",
+      "plannedMinutes": 20,
+      "youtubeUrl": null,
+      "reviewRequired": true
+    },
+    {
+      "occurrenceKey": "anki:2026-06-16",
+      "taskId": "anki",
+      "date": "2026-06-16",
+      "title": "Anki kelime tekrarı",
+      "plannedMinutes": 25,
+      "youtubeUrl": null,
+      "reviewRequired": true
+    },
+    {
+      "occurrenceKey": "math_video:2026-06-17",
+      "taskId": "math_video",
+      "date": "2026-06-17",
+      "title": "Matematik videosu izle",
+      "plannedMinutes": 30,
+      "youtubeUrl": "https://youtube.com/watch?v=math1",
+      "reviewRequired": true
+    },
+    {
+      "occurrenceKey": "reading:2026-06-17",
+      "taskId": "reading",
+      "date": "2026-06-17",
+      "title": "Paragraf soru çözümü",
+      "plannedMinutes": 20,
+      "youtubeUrl": null,
+      "reviewRequired": true
+    },
+    {
+      "occurrenceKey": "anki:2026-06-17",
+      "taskId": "anki",
+      "date": "2026-06-17",
+      "title": "Anki kelime tekrarı",
+      "plannedMinutes": 25,
+      "youtubeUrl": null,
       "reviewRequired": true
     }
   ]
@@ -134,10 +175,11 @@ fun DeveloperConsoleScreen(
     val scope = rememberCoroutineScope()
     val appPreferences = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
+    val stateManager = remember { SessionStateManager.getInstance(context) }
+
     val planRepo = remember { LocalPlanRepositoryImpl(db) }
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
-    val stateManager = remember { SessionStateManager.getInstance(context) }
 
     val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
     val isFakeCaptureEnabled by appPreferences.isFakeCaptureEnabled.collectAsState()
@@ -147,12 +189,33 @@ fun DeveloperConsoleScreen(
     val waitingSessions by remember(sessionRepo) { sessionRepo.getWaitingReviewSessions() }.collectAsState(initial = emptyList())
 
     Scaffold(
+        containerColor = ZomoBackground,
         topBar = {
             TopAppBar(
-                title = { Text("🛠️ Geliştirici & Test Konsolu", fontWeight = FontWeight.Bold) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = ZomoBackground,
+                    titleContentColor = Color(0xFF1E1B4B)
+                ),
+                title = {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Surface(
+                            shape = RoundedCornerShape(10.dp),
+                            color = ZomoSquirclePurple,
+                            modifier = Modifier.size(32.dp)
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                Icon(Icons.Default.Build, contentDescription = null, tint = ZomoPurplePrimary, modifier = Modifier.size(18.dp))
+                            }
+                        }
+                        Text("Geliştirici & Test Konsolu", fontWeight = FontWeight.ExtraBold, fontSize = 18.sp)
+                    }
+                },
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri")
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = Color(0xFF1E1B4B))
                     }
                 }
             )
@@ -165,18 +228,19 @@ fun DeveloperConsoleScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Master Test Mode Switch Card
+            // Master Switch Card
             item {
                 Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(
-                        containerColor = if (isTestModeEnabled) MaterialTheme.colorScheme.primaryContainer else AmberContainer
-                    )
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
+                    shape = RoundedCornerShape(24.dp),
+                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
+                    border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
                 ) {
                     Column(
-                        modifier = Modifier.padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                        modifier = Modifier.padding(18.dp),
+                        verticalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -184,18 +248,12 @@ fun DeveloperConsoleScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Column(modifier = Modifier.weight(1f)) {
+                                Text("🧪 Test Modu Anahtarı", fontWeight = FontWeight.ExtraBold, style = MaterialTheme.typography.titleMedium, color = Color(0xFF1E1B4B))
                                 Text(
-                                    text = if (isTestModeEnabled) "🛠️ Test Modu: AÇIK" else "🔒 Test Modu: KAPALI",
-                                    fontWeight = FontWeight.Bold,
-                                    style = MaterialTheme.typography.titleMedium
-                                )
-                                Text(
-                                    text = if (isTestModeEnabled)
-                                        "Test modu açıkken sahte veriler ve geliştirici konsolu kolay erişimde kalır."
-                                    else
-                                        "Test modu kapatıldı. Uygulama canlı kullanım modundadır.",
+                                    if (isTestModeEnabled) "Test modu AÇIK. Rol seçim ekranında konsol butonu ve simülasyonlar görünür."
+                                    else "Test modu KAPALI. Uygulama normal kullanıcı modunda çalışır.",
                                     style = MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    color = Color(0xFF6B7280)
                                 )
                             }
 
@@ -205,21 +263,25 @@ fun DeveloperConsoleScreen(
                                     appPreferences.setTestModeEnabled(newStatus)
                                     val msg = if (newStatus) "Test Modu AÇILDI" else "Test Modu KAPATILDI"
                                     Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
-                                }
+                                },
+                                colors = SwitchDefaults.colors(
+                                    checkedThumbColor = Color.White,
+                                    checkedTrackColor = ZomoPurplePrimary
+                                )
                             )
                         }
 
                         if (!isTestModeEnabled) {
                             Surface(
-                                shape = RoundedCornerShape(8.dp),
-                                color = AmberWarning.copy(alpha = 0.2f),
+                                shape = RoundedCornerShape(12.dp),
+                                color = ZomoSquircleAmber,
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Text(
-                                    text = "💡 Test modunu kapattınız. Rol Seçim ekranındaki test konsolu butonu artık gizlenir (Giriş için sağ üstteki kilit ikonunu kullanabilirsiniz).",
+                                    text = "💡 Test modunu kapattınız. Rol Seçim ekranındaki test konsolu butonu gizlenir (Giriş için sağ üstteki ayarlar simgesine dokunabilirsiniz).",
                                     fontSize = 11.sp,
                                     color = Color(0xFF92400E),
-                                    modifier = Modifier.padding(8.dp)
+                                    modifier = Modifier.padding(10.dp)
                                 )
                             }
                         }
@@ -230,15 +292,18 @@ fun DeveloperConsoleScreen(
             // Environment & Drivers Card
             item {
                 Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
+                    shape = RoundedCornerShape(24.dp),
+                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
+                    border = BorderStroke(1.dp, ZomoSquircleEmerald.copy(alpha = 0.3f))
                 ) {
                     Column(
-                        modifier = Modifier.padding(16.dp),
+                        modifier = Modifier.padding(18.dp),
                         verticalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
-                        Text("Sürücü ve Ortam Ayarları", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+                        Text("⚙️ Sürücü ve Ortam Ayarları", fontWeight = FontWeight.ExtraBold, style = MaterialTheme.typography.titleMedium, color = Color(0xFF1E1B4B))
 
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -246,12 +311,12 @@ fun DeveloperConsoleScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Column(modifier = Modifier.weight(1f)) {
-                                Text("Ekran Yakalama Simülasyonu (FakeCaptureDriver)")
+                                Text("Ekran Yakalama Simülasyonu", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Color(0xFF1E1B4B))
                                 Text(
                                     if (isFakeCaptureEnabled) "Açık: Sanal çalışma şablonu fotoğrafları üretir."
                                     else "Kapalı: Erişilebilirlik servisiyle sessiz gerçek ekran yakalama devrede.",
                                     style = MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    color = Color(0xFF6B7280)
                                 )
                             }
                             Switch(
@@ -259,17 +324,20 @@ fun DeveloperConsoleScreen(
                                 onCheckedChange = { enabled ->
                                     appPreferences.setFakeCaptureEnabled(enabled)
                                     Toast.makeText(context, if (enabled) "Sanal sürücü devrede" else "Sessiz gerçek ekran yakalama devrede", Toast.LENGTH_SHORT).show()
-                                }
+                                },
+                                colors = SwitchDefaults.colors(
+                                    checkedThumbColor = Color.White,
+                                    checkedTrackColor = ZomoPurplePrimary
+                                )
                             )
                         }
 
                         if (!isFakeCaptureEnabled) {
-                            val isAccEnabled = remember { com.studytracker.core.service.StudyAccessibilityService.isAccessibilityServiceEnabled(context) }
                             val isAccRunning = com.studytracker.core.service.StudyAccessibilityService.isServiceRunning()
 
                             Surface(
-                                shape = RoundedCornerShape(10.dp),
-                                color = if (isAccRunning) EmeraldSuccess.copy(alpha = 0.15f) else AmberContainer,
+                                shape = RoundedCornerShape(14.dp),
+                                color = if (isAccRunning) ZomoSquircleEmerald else ZomoSquircleAmber,
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Row(
@@ -280,15 +348,15 @@ fun DeveloperConsoleScreen(
                                     Column(modifier = Modifier.weight(1f)) {
                                         Text(
                                             text = if (isAccRunning) "⚡ Erişilebilirlik: AKTİF" else "⚙️ Erişilebilirlik İzni Gerekli",
-                                            fontWeight = FontWeight.Bold,
+                                            fontWeight = FontWeight.ExtraBold,
                                             fontSize = 13.sp,
-                                            color = if (isAccRunning) EmeraldSuccess else Color(0xFF92400E)
+                                            color = if (isAccRunning) Color(0xFF059669) else Color(0xFF92400E)
                                         )
                                         Text(
                                             text = if (isAccRunning) "Sıfır sistem uyarısıyla arka planda sessiz ekran yakalanır."
                                             else "Sessiz ekran yakalamak için ayarlardan StudyTracker'ı 1 kez açın.",
                                             fontSize = 11.sp,
-                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                            color = Color(0xFF4B5563)
                                         )
                                     }
 
@@ -297,7 +365,7 @@ fun DeveloperConsoleScreen(
                                             onClick = {
                                                 com.studytracker.core.service.StudyAccessibilityService.openAccessibilitySettings(context)
                                             },
-                                            shape = RoundedCornerShape(8.dp),
+                                            shape = RoundedCornerShape(50),
                                             colors = ButtonDefaults.buttonColors(containerColor = AmberWarning)
                                         ) {
                                             Text("Ayarları Aç", fontSize = 11.sp)
@@ -307,7 +375,7 @@ fun DeveloperConsoleScreen(
                             }
                         }
 
-                        HorizontalDivider()
+                        HorizontalDivider(color = ZomoSoftLavender)
 
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -315,11 +383,11 @@ fun DeveloperConsoleScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Column(modifier = Modifier.weight(1f)) {
-                                Text("Öğrenci Rehberi Durumu")
+                                Text("Öğrenci Rehberi Durumu", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Color(0xFF1E1B4B))
                                 Text(
-                                    if (hasCompletedTutorial) "Öğrenci rehberi tamamlandı (doğrudan masa açılır)" else "Rehber henüz görülmedi (ilk girişte açılacak)",
+                                    if (hasCompletedTutorial) "Rehber tamamlandı (doğrudan masa açılır)" else "Rehber henüz görülmedi (ilk girişte açılacak)",
                                     style = MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    color = Color(0xFF6B7280)
                                 )
                             }
 
@@ -328,9 +396,10 @@ fun DeveloperConsoleScreen(
                                     appPreferences.setHasCompletedTutorial(false)
                                     Toast.makeText(context, "🎓 Rehber sıfırlandı! Öğrenci moduna girince rehber açılacak.", Toast.LENGTH_SHORT).show()
                                 },
-                                shape = RoundedCornerShape(8.dp)
+                                shape = RoundedCornerShape(50),
+                                colors = ButtonDefaults.buttonColors(containerColor = ZomoPurplePrimary)
                             ) {
-                                Text("Rehberi Sıfırla", fontSize = 12.sp)
+                                Text("Sıfırla", fontSize = 12.sp)
                             }
                         }
                     }
@@ -340,15 +409,18 @@ fun DeveloperConsoleScreen(
             // Quick Simulators
             item {
                 Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
+                    shape = RoundedCornerShape(24.dp),
+                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground),
+                    border = BorderStroke(1.dp, ZomoSquirclePurple.copy(alpha = 0.3f))
                 ) {
                     Column(
-                        modifier = Modifier.padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                        modifier = Modifier.padding(18.dp),
+                        verticalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
-                        Text("🧪 Hızlı Simülasyon Tetikleyicileri", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+                        Text("🧪 Hızlı Simülasyon Tetikleyicileri", fontWeight = FontWeight.ExtraBold, style = MaterialTheme.typography.titleMedium, color = Color(0xFF1E1B4B))
 
                         // Load Sample Plan
                         Button(
@@ -360,12 +432,13 @@ fun DeveloperConsoleScreen(
                                     }
                                 }
                             },
-                            modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(10.dp)
+                            modifier = Modifier.fillMaxWidth().height(48.dp),
+                            shape = RoundedCornerShape(50),
+                            colors = ButtonDefaults.buttonColors(containerColor = ZomoPurplePrimary)
                         ) {
-                            Icon(Icons.Default.UploadFile, contentDescription = null)
+                            Icon(Icons.Default.UploadFile, contentDescription = null, modifier = Modifier.size(18.dp))
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("📦 Örnek Haftalık Planı Yükle")
+                            Text("📦 Örnek Haftalık Planı Yükle", fontWeight = FontWeight.Bold)
                         }
 
                         // Create Mock Waiting Session
@@ -383,13 +456,13 @@ fun DeveloperConsoleScreen(
                                     Toast.makeText(context, "⏳ Onay bekleyen oturum oluşturuldu!", Toast.LENGTH_SHORT).show()
                                 }
                             },
-                            modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(10.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = EmeraldSuccess)
+                            modifier = Modifier.fillMaxWidth().height(48.dp),
+                            shape = RoundedCornerShape(50),
+                            colors = ButtonDefaults.buttonColors(containerColor = ZomoMintAccent, contentColor = Color(0xFF064E3B))
                         ) {
-                            Icon(Icons.Default.HourglassTop, contentDescription = null)
+                            Icon(Icons.Default.HourglassTop, contentDescription = null, modifier = Modifier.size(18.dp))
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("⏳ Sahte Onay Bekleyen Oturum Yarat")
+                            Text("⏳ Sahte Onay Bekleyen Oturum Yarat", fontWeight = FontWeight.ExtraBold)
                         }
 
                         // Reset Database
@@ -401,13 +474,13 @@ fun DeveloperConsoleScreen(
                                     Toast.makeText(context, "🧹 Tüm test veritabanı temizlendi.", Toast.LENGTH_SHORT).show()
                                 }
                             },
-                            modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(10.dp),
-                            colors = ButtonDefaults.outlinedButtonColors(contentColor = RoseReject)
+                            modifier = Modifier.fillMaxWidth().height(48.dp),
+                            shape = RoundedCornerShape(50),
+                            border = BorderStroke(1.dp, Color(0xFFF43F5E))
                         ) {
-                            Icon(Icons.Default.Delete, contentDescription = null)
+                            Icon(Icons.Default.Delete, contentDescription = null, modifier = Modifier.size(18.dp), tint = Color(0xFFF43F5E))
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text("🧹 Test Veritabanını Tamamen Sıfırla")
+                            Text("🧹 Test Veritabanını Tamamen Sıfırla", color = Color(0xFFF43F5E), fontWeight = FontWeight.Bold)
                         }
                     }
                 }
@@ -416,19 +489,21 @@ fun DeveloperConsoleScreen(
             // Real-time Database Snapshot Summary
             item {
                 Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .shadow(4.dp, shape = RoundedCornerShape(24.dp), spotColor = ZomoPurplePrimary.copy(alpha = 0.08f)),
+                    shape = RoundedCornerShape(24.dp),
+                    colors = CardDefaults.cardColors(containerColor = ZomoCardBackground)
                 ) {
                     Column(
-                        modifier = Modifier.padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(6.dp)
+                        modifier = Modifier.padding(18.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Text("📊 Canlı Veritabanı Sayaçları", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
-                        Text("• Toplam Görev Sayısı: ${occurrences.size}")
-                        Text("• Tamamlanan (Approved): ${occurrences.count { it.status == OccurrenceStatus.APPROVED }}")
-                        Text("• İnceleme Bekleyen Oturumlar: ${waitingSessions.size}")
-                        Text("• Aktif Oturum: ${if (stateManager.activeState.value != null) "ÇALIŞIYOR ⚡" else "Yok"}")
+                        Text("📊 Canlı Veritabanı Sayaçları", fontWeight = FontWeight.ExtraBold, style = MaterialTheme.typography.titleMedium, color = Color(0xFF1E1B4B))
+                        Text("• Toplam Görev Sayısı: ${occurrences.size}", color = Color(0xFF4B5563))
+                        Text("• Tamamlanan (Approved): ${occurrences.count { it.status == OccurrenceStatus.APPROVED }}", color = Color(0xFF059669), fontWeight = FontWeight.Bold)
+                        Text("• İnceleme Bekleyen Oturumlar: ${waitingSessions.size}", color = Color(0xFFD97706), fontWeight = FontWeight.Bold)
+                        Text("• Aktif Oturum: ${if (stateManager.activeState.value != null) "ÇALIŞIYOR ⚡" else "Yok"}", color = ZomoPurplePrimary, fontWeight = FontWeight.Bold)
                     }
                 }
             }

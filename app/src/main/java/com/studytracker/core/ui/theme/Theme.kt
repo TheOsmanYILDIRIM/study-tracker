@@ -10,23 +10,39 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = SapphireDark,
-    secondary = PurpleDark,
-    tertiary = EmeraldDark,
-    background = DarkBackground,
-    surface = DarkSurface,
-    surfaceVariant = DarkCard,
-    error = RoseDark
+    primary = ZomoPurpleLight,
+    onPrimary = ZomoDarkBg,
+    primaryContainer = ZomoDarkCard,
+    onPrimaryContainer = ZomoPurpleLight,
+    secondary = ZomoNeonMint,
+    onSecondary = ZomoDarkBg,
+    secondaryContainer = ZomoDarkSurface,
+    tertiary = ZomoPink,
+    background = ZomoDarkBg,
+    surface = ZomoDarkSurface,
+    surfaceVariant = ZomoDarkCard,
+    onSurface = ZomoLavenderSurface,
+    onSurfaceVariant = ZomoPurpleLight,
+    outline = ZomoDarkBorder,
+    error = ZomoPink
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = SapphirePrimary,
-    secondary = PurpleActive,
-    tertiary = EmeraldSuccess,
-    background = LightBackground,
-    surface = LightSurface,
-    surfaceVariant = LightCard,
-    error = RoseReject
+    primary = ZomoPurplePrimary,
+    onPrimary = ZomoLavenderSurface,
+    primaryContainer = ZomoVioletContainer,
+    onPrimaryContainer = ZomoPurpleDark,
+    secondary = ZomoNeonMint,
+    onSecondary = ZomoTextPrimary,
+    secondaryContainer = ZomoLavenderCard,
+    tertiary = ZomoAmber,
+    background = ZomoLavenderBg,
+    surface = ZomoLavenderSurface,
+    surfaceVariant = ZomoLavenderCard,
+    onSurface = ZomoTextPrimary,
+    onSurfaceVariant = ZomoTextSecondary,
+    outline = ZomoLavenderBorder,
+    error = ZomoPink
 )
 
 @Composable
@@ -52,3 +68,4 @@ fun StudyTrackerTheme(
         content = content
     )
 }
+

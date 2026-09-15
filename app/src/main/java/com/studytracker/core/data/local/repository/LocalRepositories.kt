@@ -24,16 +24,19 @@ class LocalPlanRepositoryImpl(
     }
 
     override fun getActivePlan(): Flow<Plan?> {
-        return db.planDao().getActivePlan().map { entity ->
-            entity?.let {
-                try {
-                    json.decodeFromString(Plan.serializer(), it.rawJson)
-                } catch (e: Exception) {
-                    val (p, _) = PlanValidator.parseAndValidate(it.rawJson)
-                    p
+        return db.planDao().getActivePlan()
+            .map { entity ->
+                entity?.let {
+                    try {
+                        json.decodeFromString(Plan.serializer(), it.rawJson)
+                    } catch (e: Exception) {
+                        val (p, _) = PlanValidator.parseAndValidate(it.rawJson)
+                        p
+                    }
                 }
             }
-        }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override suspend fun getActivePlanOnce(): Plan? {
@@ -105,19 +108,31 @@ class LocalOccurrenceRepositoryImpl(
 ) : OccurrenceRepository {
 
     override fun getAllOccurrences(): Flow<List<Occurrence>> {
-        return db.occurrenceDao().getAllOccurrences().map { list -> list.map { it.toDomain() } }
+        return db.occurrenceDao().getAllOccurrences()
+            .map { list -> list.map { it.toDomain() } }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override fun getDailyOccurrencesForDate(date: String): Flow<List<Occurrence>> {
-        return db.occurrenceDao().getDailyOccurrencesForDate(date).map { list -> list.map { it.toDomain() } }
+        return db.occurrenceDao().getDailyOccurrencesForDate(date)
+            .map { list -> list.map { it.toDomain() } }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override fun getWeeklyOccurrences(weekId: String): Flow<List<Occurrence>> {
-        return db.occurrenceDao().getWeeklyOccurrences(weekId).map { list -> list.map { it.toDomain() } }
+        return db.occurrenceDao().getWeeklyOccurrences(weekId)
+            .map { list -> list.map { it.toDomain() } }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override fun getOccurrenceByKey(key: String): Flow<Occurrence?> {
-        return db.occurrenceDao().getOccurrenceByKey(key).map { it?.toDomain() }
+        return db.occurrenceDao().getOccurrenceByKey(key)
+            .map { it?.toDomain() }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override suspend fun getOccurrenceByKeyOnce(key: String): Occurrence? {
@@ -154,7 +169,10 @@ class LocalSessionRepositoryImpl(
 ) : SessionRepository {
 
     override fun getActiveSession(): Flow<Session?> {
-        return db.sessionDao().getActiveSession().map { it?.toDomain() }
+        return db.sessionDao().getActiveSession()
+            .map { it?.toDomain() }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override suspend fun getActiveSessionOnce(): Session? {
@@ -162,11 +180,17 @@ class LocalSessionRepositoryImpl(
     }
 
     override fun getWaitingReviewSessions(): Flow<List<Session>> {
-        return db.sessionDao().getWaitingReviewSessions().map { list -> list.map { it.toDomain() } }
+        return db.sessionDao().getWaitingReviewSessions()
+            .map { list -> list.map { it.toDomain() } }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override fun getSessionsForOccurrence(occurrenceKey: String): Flow<List<Session>> {
-        return db.sessionDao().getSessionsForOccurrence(occurrenceKey).map { list -> list.map { it.toDomain() } }
+        return db.sessionDao().getSessionsForOccurrence(occurrenceKey)
+            .map { list -> list.map { it.toDomain() } }
+            .distinctUntilChanged()
+            .flowOn(kotlinx.coroutines.Dispatchers.IO)
     }
 
     override suspend fun getSessionById(sessionId: String): Session? {

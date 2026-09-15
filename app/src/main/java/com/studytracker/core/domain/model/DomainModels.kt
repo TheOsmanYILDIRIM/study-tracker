@@ -1,5 +1,6 @@
 package com.studytracker.core.domain.model
 
+import androidx.compose.runtime.Immutable
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -56,6 +57,7 @@ enum class ReviewStatus {
     REJECTED
 }
 
+@Immutable
 @Serializable
 data class TaskTemplate(
     val taskId: String,
@@ -71,6 +73,7 @@ data class TaskTemplate(
     val active: Boolean = true
 )
 
+@Immutable
 @Serializable
 data class Occurrence(
     val occurrenceKey: String,
@@ -91,6 +94,7 @@ data class Occurrence(
     val targetMinutes: Int? = null
 )
 
+@Immutable
 @Serializable
 data class DailyOccurrenceJson(
     val occurrenceKey: String,
@@ -102,6 +106,7 @@ data class DailyOccurrenceJson(
     val reviewRequired: Boolean = true
 )
 
+@Immutable
 @Serializable
 data class WeeklyOccurrenceJson(
     val occurrenceKey: String,
@@ -115,6 +120,7 @@ data class WeeklyOccurrenceJson(
     val reviewRequired: Boolean = true
 )
 
+@Immutable
 @Serializable
 data class Plan(
     val schemaVersion: Int = 1,
@@ -129,6 +135,7 @@ data class Plan(
     val weeklyOccurrences: List<WeeklyOccurrenceJson> = emptyList()
 )
 
+@Immutable
 @Serializable
 data class Session(
     val sessionId: String,
@@ -141,6 +148,7 @@ data class Session(
     val finalScreenshotUrl: String? = null
 )
 
+@Immutable
 @Serializable
 data class Screenshot(
     val screenshotId: String,
@@ -152,6 +160,7 @@ data class Screenshot(
     val uploadStatus: UploadStatus = UploadStatus.PENDING
 )
 
+@Immutable
 @Serializable
 data class Review(
     val sessionId: String,
@@ -160,3 +169,4 @@ data class Review(
     val reviewNote: String? = null,
     val reviewedAt: Long
 )
+

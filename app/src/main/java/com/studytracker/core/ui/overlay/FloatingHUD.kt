@@ -32,8 +32,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.core.ui.theme.AmberWarning
-import com.studytracker.core.ui.theme.EmeraldSuccess
-import com.studytracker.core.ui.theme.PurpleActive
+import com.studytracker.core.ui.theme.ZomoMintAccent
+import com.studytracker.core.ui.theme.ZomoPurplePrimary
 import kotlinx.coroutines.launch
 
 @Composable
@@ -59,10 +59,10 @@ fun FloatingHUDView(
 
     Box(
         modifier = Modifier
-            .shadow(14.dp, shape = RoundedCornerShape(28.dp))
-            .clip(RoundedCornerShape(28.dp))
-            .background(if (isPaused) Color(0xFF332005).copy(alpha = 0.94f) else Color(0xFF1E1B4B).copy(alpha = 0.94f))
-            .padding(horizontal = 12.dp, vertical = 6.dp),
+            .shadow(16.dp, shape = RoundedCornerShape(50), spotColor = ZomoPurplePrimary.copy(alpha = 0.4f))
+            .clip(RoundedCornerShape(50))
+            .background(if (isPaused) Color(0xFF2E1A05).copy(alpha = 0.96f) else Color(0xFF160B29).copy(alpha = 0.96f))
+            .padding(horizontal = 14.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center
     ) {
         // Flash overlay for capture feedback
@@ -76,12 +76,12 @@ fun FloatingHUDView(
 
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
+            horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             // Main Action Button: Single tap -> Capture, Long hold -> Finish
             Box(
                 modifier = Modifier
-                    .size(38.dp)
+                    .size(40.dp)
                     .pointerInput(Unit) {
                         detectTapGestures(
                             onPress = {
@@ -103,7 +103,6 @@ fun FloatingHUDView(
                                 }
                             },
                             onTap = {
-                                // Flash animation
                                 flashAlpha = 0.6f
                                 onSingleTapCapture()
                                 coroutineScope.launch {
@@ -116,14 +115,12 @@ fun FloatingHUDView(
                 contentAlignment = Alignment.Center
             ) {
                 Canvas(modifier = Modifier.fillMaxSize()) {
-                    // Background track
                     drawCircle(
-                        color = Color.White.copy(alpha = 0.2f),
+                        color = Color.White.copy(alpha = 0.18f),
                         style = Stroke(width = 3.dp.toPx())
                     )
-                    // Progress arc (fills as user holds)
                     drawArc(
-                        color = EmeraldSuccess,
+                        color = ZomoMintAccent,
                         startAngle = -90f,
                         sweepAngle = progress.value * 360f,
                         useCenter = false,
@@ -134,8 +131,8 @@ fun FloatingHUDView(
                 Icon(
                     imageVector = if (isPressing || isFinishing) Icons.Default.Stop else Icons.Default.CameraAlt,
                     contentDescription = "Kanıt Al / Bitir",
-                    tint = if (isPressing) EmeraldSuccess else if (isPaused) AmberWarning else PurpleActive,
-                    modifier = Modifier.size(18.dp)
+                    tint = if (isPressing) ZomoMintAccent else if (isPaused) AmberWarning else Color.White,
+                    modifier = Modifier.size(19.dp)
                 )
             }
 
@@ -151,36 +148,36 @@ fun FloatingHUDView(
                         text = formattedTime,
                         color = if (isPaused) AmberWarning else Color.White,
                         fontSize = 14.sp,
-                        fontWeight = FontWeight.Bold,
+                        fontWeight = FontWeight.ExtraBold,
                         fontFamily = FontFamily.Monospace
                     )
                     if (isPaused) {
                         Surface(
-                            shape = RoundedCornerShape(4.dp),
+                            shape = RoundedCornerShape(50),
                             color = AmberWarning.copy(alpha = 0.25f)
                         ) {
                             Text(
-                                text = "DURDU",
+                                text = "MOLA",
                                 color = AmberWarning,
                                 fontSize = 9.sp,
                                 fontWeight = FontWeight.ExtraBold,
-                                modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.dp)
+                                modifier = Modifier.padding(horizontal = 5.dp, vertical = 1.dp)
                             )
                         }
                     }
                 }
                 Text(
-                    text = "📸 $screenshotCount kare",
-                    color = Color(0xFFA5B4FC),
+                    text = "📸 $screenshotCount kanıt",
+                    color = ZomoMintAccent,
                     fontSize = 11.sp,
-                    fontWeight = FontWeight.Medium
+                    fontWeight = FontWeight.SemiBold
                 )
             }
 
             // Pause / Resume Button
             Box(
                 modifier = Modifier
-                    .size(32.dp)
+                    .size(34.dp)
                     .clip(CircleShape)
                     .background(if (isPaused) AmberWarning else Color.White.copy(alpha = 0.15f))
                     .clickable { onTogglePause() },
