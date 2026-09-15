@@ -11,7 +11,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -29,14 +31,13 @@ private data class AmbientFirefly(
 )
 
 /**
- * 4-Layer 3D / 2.5D Opposing Multi-Plane Parallax Background.
- * Derived from the original paper cutout fairy tale night art:
- * - Layer 1 (Sky & Moon): Sinusoidal drift Left-to-Right (-14dp -> +14dp, 24s)
- * - Layer 2 (Mountains & Clouds): Sinusoidal drift Right-to-Left (+18dp -> -18dp, 19s) [OPPOSITE]
- * - Layer 3 (Pine Forest & Fireflies): Sinusoidal drift Left-to-Right (-24dp -> +24dp, 14s) [OPPOSITE]
- * - Layer 4 (Foreground Reeds & Lake Shore): Sinusoidal drift Right-to-Left (+30dp -> -30dp, 11s) [OPPOSITE]
- * - Layer 5: Interactive Stardust & Fireflies Canvas
- * - Layer 6: High-contrast translucent reading scrim (40% opacity for maximum artwork brilliance)
+ * 4-Layer 3D Multi-Plane Parallax Background with Dynamic Twinkling & Glowing Lights:
+ * 1. Sky & Moon Plane + Animated Pulsing Celestial Lights (bg_zen_lights_sky.webp)
+ * 2. Mountains & Clouds Plane (Opposing Movement)
+ * 3. Pine Forest Plane + Animated Flickering Tree Fireflies (bg_zen_lights_forest.webp)
+ * 4. Foreground Lake Shore + Animated Shimmering Water Reflection (bg_zen_lights_lake.webp)
+ * 5. Interactive Ambient Firefly & Stardust Particle Canvas
+ * 6. High-contrast translucent reading scrim
  */
 @Composable
 fun ZenParallaxBackground(
@@ -45,7 +46,8 @@ fun ZenParallaxBackground(
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "ZenMultiPlane3DParallax")
 
-    // Plane 1: Far Sky, Moon & Constellations (Left -> Right)
+    // --- PARALLAX MOVEMENTS ---
+    // Plane 1: Sky & Moon (Left -> Right)
     val skyX by infiniteTransition.animateFloat(
         initialValue = -14f,
         targetValue = 14f,
@@ -65,7 +67,7 @@ fun ZenParallaxBackground(
         label = "skyY"
     )
 
-    // Plane 2: Mountains & Rolling Clouds (OPPOSITE: Right -> Left)
+    // Plane 2: Mountains (OPPOSITE: Right -> Left)
     val mountainX by infiniteTransition.animateFloat(
         initialValue = 18f,
         targetValue = -18f,
@@ -85,7 +87,7 @@ fun ZenParallaxBackground(
         label = "mountainY"
     )
 
-    // Plane 3: Pine Forest & Middle Lake (OPPOSITE: Left -> Right, Faster)
+    // Plane 3: Pine Forest (OPPOSITE: Left -> Right)
     val forestX by infiniteTransition.animateFloat(
         initialValue = -24f,
         targetValue = 24f,
@@ -105,7 +107,7 @@ fun ZenParallaxBackground(
         label = "forestY"
     )
 
-    // Plane 4: Foreground Lake Shore, Reeds & Framing Trees (OPPOSITE: Right -> Left, Fastest Depth)
+    // Plane 4: Foreground Lake Shore & Reeds (OPPOSITE: Right -> Left)
     val fgX by infiniteTransition.animateFloat(
         initialValue = 30f,
         targetValue = -30f,
@@ -125,18 +127,52 @@ fun ZenParallaxBackground(
         label = "fgY"
     )
 
-    // Fireflies & Stardust Twinkle Alpha
-    val fireflyPulse by infiniteTransition.animateFloat(
-        initialValue = 0.3f,
+    // --- DYNAMIC LIGHT TWINKLING & GLOW ANIMATIONS ---
+    // 1. Sky Stars & Moon Twinkle
+    val skyLightsAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.25f,
         targetValue = 1.0f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 2800, easing = FastOutSlowInEasing),
+            animation = tween(durationMillis = 3600, easing = FastOutSlowInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "skyLightsAlpha"
+    )
+
+    // 2. Tree Fireflies & Forest Fairy Lights Flicker
+    val forestLightsAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.15f,
+        targetValue = 1.0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 2200, easing = FastOutLinearInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "forestLightsAlpha"
+    )
+
+    // 3. Lake Moon Reflection & Water Sparkles
+    val lakeLightsAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.30f,
+        targetValue = 0.95f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 2900, easing = LinearOutSlowInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "lakeLightsAlpha"
+    )
+
+    // 4. Floating Fireflies Sparkle
+    val fireflyPulse by infiniteTransition.animateFloat(
+        initialValue = 0.25f,
+        targetValue = 1.0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 2500, easing = FastOutSlowInEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "fireflyPulse"
     )
 
-    // Firefly Particle Locations
+    // Ambient Floating Fireflies
     val fireflies = remember {
         val rand = Random(1337)
         List(28) {
@@ -151,7 +187,7 @@ fun ZenParallaxBackground(
     }
 
     Box(modifier = modifier.fillMaxSize()) {
-        // --- PLANE 1: Sky & Moon (Drifts Left-to-Right) ---
+        // --- PLANE 1: Sky & Moon ---
         Image(
             painter = painterResource(id = R.drawable.bg_zen_layer1_sky),
             contentDescription = null,
@@ -166,7 +202,23 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // --- PLANE 2: Mountains & Clouds (Drifts OPPOSITE Right-to-Left) ---
+        // --- PLANE 1 LIGHTS: Stars, Constellations & Moon Glow (Animated Twinkle) ---
+        Image(
+            painter = painterResource(id = R.drawable.bg_zen_lights_sky),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer {
+                    translationX = skyX
+                    translationY = skyY
+                    scaleX = 1.08f
+                    scaleY = 1.08f
+                    alpha = skyLightsAlpha
+                }
+        )
+
+        // --- PLANE 2: Mountains & Clouds (Opposite Drift) ---
         Image(
             painter = painterResource(id = R.drawable.bg_zen_layer2_mountains),
             contentDescription = null,
@@ -181,7 +233,7 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // --- PLANE 3: Pine Forest (Drifts OPPOSITE Left-to-Right) ---
+        // --- PLANE 3: Pine Forest & Middle Lake ---
         Image(
             painter = painterResource(id = R.drawable.bg_zen_layer3_forest),
             contentDescription = null,
@@ -196,7 +248,23 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // --- PLANE 4: Foreground Reeds, Lake & Side Trees (Drifts OPPOSITE Right-to-Left) ---
+        // --- PLANE 3 LIGHTS: Glowing Tree Fireflies & Forest Lanterns (Animated Flicker) ---
+        Image(
+            painter = painterResource(id = R.drawable.bg_zen_lights_forest),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer {
+                    translationX = forestX
+                    translationY = forestY
+                    scaleX = 1.12f
+                    scaleY = 1.12f
+                    alpha = forestLightsAlpha
+                }
+        )
+
+        // --- PLANE 4: Foreground Lake Shore, Reeds & Side Trees ---
         Image(
             painter = painterResource(id = R.drawable.bg_zen_layer4_foreground),
             contentDescription = null,
@@ -211,7 +279,23 @@ fun ZenParallaxBackground(
                 }
         )
 
-        // --- PLANE 5: Ambient Fireflies & Glowing Stardust Canvas ---
+        // --- PLANE 4 LIGHTS: Water Moon Reflection & Sparkles (Animated Shimmer) ---
+        Image(
+            painter = painterResource(id = R.drawable.bg_zen_lights_lake),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer {
+                    translationX = fgX
+                    translationY = fgY
+                    scaleX = 1.14f
+                    scaleY = 1.14f
+                    alpha = lakeLightsAlpha
+                }
+        )
+
+        // --- PLANE 5: Ambient Drifting Fireflies & Stardust Particle Canvas ---
         Canvas(
             modifier = Modifier
                 .fillMaxSize()
@@ -230,11 +314,11 @@ fun ZenParallaxBackground(
 
                 // Soft firefly aura
                 drawCircle(
-                    color = col.copy(alpha = alpha * 0.4f),
-                    radius = f.radius * 3.0f,
+                    color = col.copy(alpha = alpha * 0.45f),
+                    radius = f.radius * 3.2f,
                     center = Offset(cx, cy)
                 )
-                // Bright inner spark
+                // Bright inner core
                 drawCircle(
                     color = Color.White.copy(alpha = alpha),
                     radius = f.radius,

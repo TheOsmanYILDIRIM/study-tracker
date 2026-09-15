@@ -77,13 +77,13 @@
 - **Haftalık Hedefler Üste & Yatay Kaydırma (LazyRow):** Çocuk ana ekranında haftalık hedefler en üste taşındı ve yatay kaydırmalı `LazyRow` içinde `StudyWeeklyTaskCard` ile gösterildi; günlük görevler altta dikey sıralandı.
 - **Mükerrer Hero Kartının Kaldırılması & Canlı Paralaks Arka Plan:** Yinelenen hero progress kartı kaldırıldı; arka plandaki masal görseli %20 daha açık parlak bir filtreyle belirginleştirildi ve GPU `graphicsLayer` üzerinde çalışan yavaş, akıcı bir nefes alma/paralaks süzülme animasyonu (`rememberInfiniteTransition`) uygulandı.
 
-### [2026-09-15] Tamamlandı: Orijinal Masal Kağıt Kesim Sanatından 4 Düzlemli Zıt Yönlü 3D Paralaks Mimarisi
-- **Orijinal Kağıt Kesim Sanatı Referansı:** Kullanıcının beğendiği `paper_night_sky` görseli temel alınarak hassas alfa maskeleme ile 4 bağımsız derinlik düzlemi üretildi:
-  1. `bg_zen_layer1_sky.webp`: Derin lacivert gökyüzü, parıldayan hilal ay, takımyıldızlar (Sola -> Sağa `24s` süzülme).
-  2. `bg_zen_layer2_mountains.webp`: Sisli dağ silsilesi ve krem bulutlar (ZIT YÖN: Sağa -> Sola `19s` süzülme).
-  3. `bg_zen_layer3_forest.webp`: Zümrüt yeşili katmanlı çam ormanı ve orman gölü (ZIT YÖN: Sola -> Sağa `14s` hızlı süzülme).
-  4. `bg_zen_layer4_foreground.webp`: Ön plan sazlıklar, çalılar, göldeki ay yansıması ve çerçeveleme ağaçları (ZIT YÖN: Sağa -> Sola `11s` en hızlı süzülme).
-- **Rol Seçim Ekranı Üst Kartının Kaldırılması:** `RoleSelectionScreen` üstündeki "Hoş Geldin / Zen Gece Modu" kutusu tamamen kaldırılarak ekranın üst yarısı temizlendi; hilal ay, takımyıldızlar ve gökyüzü katmanının 3D paralaks görünümü doğrudan görünür kılındı, mod kartları alt yarıya hizalandı.
+### [2026-09-15] Tamamlandı: Ayrıştırılmış Işık Katmanları ile Dinamik Parlama & Yanıp Sönme Efektleri
+- **3 Ayrıştırılmış Işık Katmanı:** Orijinal görseldeki parlak altın ve zümrüt ışıklar 3 bağımsız alfa katmanına ayrıştırıldı:
+  1. `bg_zen_lights_sky.webp`: Gökyüzü yıldızları, takımyıldız noktaları ve hilal ay ışıltısı (`3600ms` yavaş nefes alma parlaması).
+  2. `bg_zen_lights_forest.webp`: Çam ağaçları arasındaki sıcak ateşböcekleri ve orman fenerleri (`2200ms` canlı yanıp sönme / titreşim).
+  3. `bg_zen_lights_lake.webp`: Göldeki ay yansıması ve su üzerindeki pırıltılar (`2900ms` dalgalı ışık parıltısı).
+- **Zıt Yönlü Paralaks ile Tam Senkronizasyon:** Her ışık katmanı kendi derinlik düzlemiyle birlikte hareket ederken bağımsız alfa döngüsüyle parlayıp sönerek masalsı canlı bir gece atmosferi oluşturdu.
+
 
 
 
