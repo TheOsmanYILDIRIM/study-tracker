@@ -16,11 +16,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.core.data.local.db.AppDatabase
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.OccurrenceStatus
+import com.studytracker.core.ui.theme.AmberContainer
+import com.studytracker.core.ui.theme.AmberWarning
 import com.studytracker.core.ui.theme.EmeraldSuccess
 import com.studytracker.core.ui.theme.RoseReject
 import kotlinx.coroutines.launch
@@ -129,14 +132,16 @@ fun DeveloperConsoleScreen(
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val appPreferences = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
     val planRepo = remember { LocalPlanRepositoryImpl(db) }
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
     val stateManager = remember { SessionStateManager.getInstance(context) }
 
-    var isLocalStore by remember { mutableStateOf(true) }
-    var isFakeCapture by remember { mutableStateOf(true) }
+    val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
+    val isFakeCaptureEnabled by appPreferences.isFakeCaptureEnabled.collectAsState()
+    val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
 
     val occurrences by remember(occurrenceRepo) { occurrenceRepo.getAllOccurrences() }.collectAsState(initial = emptyList())
     val waitingSessions by remember(sessionRepo) { sessionRepo.getWaitingReviewSessions() }.collectAsState(initial = emptyList())
@@ -160,7 +165,69 @@ fun DeveloperConsoleScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Environment Switches
+            // Master Test Mode Switch Card
+            item {
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(16.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = if (isTestModeEnabled) MaterialTheme.colorScheme.primaryContainer else AmberContainer
+                    )
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = if (isTestModeEnabled) "🛠️ Test Modu: AÇIK" else "🔒 Test Modu: KAPALI",
+                                    fontWeight = FontWeight.Bold,
+                                    style = MaterialTheme.typography.titleMedium
+                                )
+                                Text(
+                                    text = if (isTestModeEnabled)
+                                        "Test modu açıkken sahte veriler ve geliştirici konsolu kolay erişimde kalır."
+                                    else
+                                        "Test modu kapatıldı. Uygulama canlı kullanım modundadır.",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+
+                            Switch(
+                                checked = isTestModeEnabled,
+                                onCheckedChange = { newStatus ->
+                                    appPreferences.setTestModeEnabled(newStatus)
+                                    val msg = if (newStatus) "Test Modu AÇILDI" else "Test Modu KAPATILDI"
+                                    Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
+                                }
+                            )
+                        }
+
+                        if (!isTestModeEnabled) {
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = AmberWarning.copy(alpha = 0.2f),
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Text(
+                                    text = "💡 Test modunu kapattınız. Rol Seçim ekranındaki test konsolu butonu artık gizlenir (Giriş için sağ üstteki kilit ikonunu kullanabilirsiniz).",
+                                    fontSize = 11.sp,
+                                    color = Color(0xFF92400E),
+                                    modifier = Modifier.padding(8.dp)
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Environment & Drivers Card
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
@@ -178,17 +245,48 @@ fun DeveloperConsoleScreen(
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Text("Veri Deposu: Local (Room)")
-                            Switch(checked = isLocalStore, onCheckedChange = { isLocalStore = it })
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text("Ekran Yakalama Simülasyonu (FakeCaptureDriver)")
+                                Text(
+                                    "Açıkken gerçek ekran yerine sanal çalışma şablonu fotoğrafları üretir.",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                            Switch(
+                                checked = isFakeCaptureEnabled,
+                                onCheckedChange = {
+                                    appPreferences.setFakeCaptureEnabled(it)
+                                    Toast.makeText(context, "Sanal sürücü: $it", Toast.LENGTH_SHORT).show()
+                                }
+                            )
                         }
+
+                        HorizontalDivider()
 
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Text("Ekran Yakalama: FakeCaptureDriver")
-                            Switch(checked = isFakeCapture, onCheckedChange = { isFakeCapture = it })
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text("Öğrenci Rehberi Durumu")
+                                Text(
+                                    if (hasCompletedTutorial) "Öğrenci rehberi tamamlandı (doğrudan masa açılır)" else "Rehber henüz görülmedi (ilk girişte açılacak)",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+
+                            Button(
+                                onClick = {
+                                    appPreferences.setHasCompletedTutorial(false)
+                                    Toast.makeText(context, "🎓 Rehber sıfırlandı! Öğrenci moduna girince rehber açılacak.", Toast.LENGTH_SHORT).show()
+                                },
+                                shape = RoundedCornerShape(8.dp)
+                            ) {
+                                Text("Rehberi Sıfırla", fontSize = 12.sp)
+                            }
                         }
                     }
                 }
@@ -199,7 +297,7 @@ fun DeveloperConsoleScreen(
                 Card(
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
                 ) {
                     Column(
                         modifier = Modifier.padding(16.dp),

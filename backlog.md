@@ -33,6 +33,10 @@
 ## 6. Performans & FPS Optimizasyonu
 - [x] Jetpack Compose Recomposition Yalıtımı, Flow Hatırlama, Async Resim Yükleme ve Room İndeksleme
 
+## 7. Test Modu & Güncel Rehber (Tutorial) Yönetimi
+- [x] Test Modunu Açma/Kapama Ayarı, Tek Seferlik ve İsteğe Bağlı Yeniden Açılabilen Güncel Tutorial
+
+
 
 
 

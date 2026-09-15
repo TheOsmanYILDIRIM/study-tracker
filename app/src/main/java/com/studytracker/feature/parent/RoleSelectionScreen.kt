@@ -11,20 +11,28 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.ui.theme.EmeraldSuccess
 import com.studytracker.core.ui.theme.SapphirePrimary
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun RoleSelectionScreen(
-    onNavigateToChild: () -> Unit,
+    onNavigateToChildHome: () -> Unit,
+    onNavigateToChildTutorial: () -> Unit,
     onNavigateToParent: () -> Unit,
     onNavigateToDevMode: () -> Unit
 ) {
+    val context = LocalContext.current
+    val appPreferences = remember { AppPreferences.getInstance(context) }
+    val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
+    val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
+
     var showPinDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
     var pinError by remember { mutableStateOf(false) }
@@ -33,11 +41,40 @@ fun RoleSelectionScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(
-                        "StudyTracker",
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary
-                    )
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Text(
+                            "StudyTracker",
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        if (isTestModeEnabled) {
+                            Surface(
+                                shape = RoundedCornerShape(6.dp),
+                                color = MaterialTheme.colorScheme.errorContainer
+                            ) {
+                                Text(
+                                    text = "🧪 TEST MODU",
+                                    color = MaterialTheme.colorScheme.onErrorContainer,
+                                    fontSize = 10.sp,
+                                    fontWeight = FontWeight.ExtraBold,
+                                    modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                                )
+                            }
+                        }
+                    }
+                },
+                actions = {
+                    // Small discreeet dev mode access icon when button is hidden
+                    IconButton(onClick = onNavigateToDevMode) {
+                        Icon(
+                            imageVector = if (isTestModeEnabled) Icons.Default.Build else Icons.Default.Settings,
+                            contentDescription = "Ayarlar / Test Konsolu",
+                            tint = if (isTestModeEnabled) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f)
+                        )
+                    }
                 }
             )
         }
@@ -65,7 +102,13 @@ fun RoleSelectionScreen(
 
             // Child Card
             Card(
-                onClick = onNavigateToChild,
+                onClick = {
+                    if (hasCompletedTutorial) {
+                        onNavigateToChildHome()
+                    } else {
+                        onNavigateToChildTutorial()
+                    }
+                },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(130.dp),
@@ -91,7 +134,11 @@ fun RoleSelectionScreen(
                     }
                     Column {
                         Text("🚀 Öğrenci Modu", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                        Text("Bugünkü derslerimi ve görevlerimi başlat", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(
+                            text = if (hasCompletedTutorial) "Bugünkü derslerimi ve görevlerimi başlat" else "İlk giriş: Hızlı rehber ve görev masam",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     }
                 }
             }
@@ -131,17 +178,19 @@ fun RoleSelectionScreen(
                 }
             }
 
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(36.dp))
 
-            // Developer / Test Mode Entrance
-            OutlinedButton(
-                onClick = onNavigateToDevMode,
-                shape = RoundedCornerShape(12.dp),
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("🛠️ Geliştirici & Test Modu Konsolu")
+            // Developer / Test Mode Entrance Button (Only prominent when Test Mode is Active)
+            if (isTestModeEnabled) {
+                OutlinedButton(
+                    onClick = onNavigateToDevMode,
+                    shape = RoundedCornerShape(12.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(18.dp))
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text("🛠️ Geliştirici & Test Modu Konsolu")
+                }
             }
         }
     }

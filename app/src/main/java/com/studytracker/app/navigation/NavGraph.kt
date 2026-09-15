@@ -16,8 +16,7 @@ import com.studytracker.feature.test_mode.DeveloperConsoleScreen
 
 @Composable
 fun AppNavGraph(
-    navController: NavHostController,
-    isFirstChildLaunch: Boolean = true
+    navController: NavHostController
 ) {
     NavHost(
         navController = navController,
@@ -25,12 +24,11 @@ fun AppNavGraph(
     ) {
         composable(Screen.RoleSelection.route) {
             RoleSelectionScreen(
-                onNavigateToChild = {
-                    if (isFirstChildLaunch) {
-                        navController.navigate(Screen.ChildTutorial.route)
-                    } else {
-                        navController.navigate(Screen.ChildHome.route)
-                    }
+                onNavigateToChildHome = {
+                    navController.navigate(Screen.ChildHome.route)
+                },
+                onNavigateToChildTutorial = {
+                    navController.navigate(Screen.ChildTutorial.route)
                 },
                 onNavigateToParent = {
                     navController.navigate(Screen.ParentDashboard.route)

@@ -38,6 +38,14 @@
 - **Async & LRU Korumalı Görsel Yükleme:** `EvidenceTimelineView` içinde ana iş parçacığında (UI thread) senkron `BitmapFactory.decodeFile` çağrısı kaldırıldı; arka planda çalışan (`Dispatchers.IO`) bellek önbellekli (LRU Cache) ve küçük resimler için 4x downsample eden (`inSampleSize = 4`) asenkron yükleme mekanizması uygulandı.
 - **Room Veritabanı İndeksleri:** `OccurrenceEntity`, `SessionEntity` ve `ScreenshotEntity` tablolarında `date`, `weekId`, `status`, `sessionId` kolonlarına B-Tree indeksleri eklendi.
 - **Pencere Sürükleme IPC Optimizasyonu:** `FloatingButtonService` içinde her mikroskopik piksel hareketinde yapılan `updateViewLayout` WindowManager IPC çağrıları optimize edildi.
+- **CI/CD Derleme:** GitHub Actions workflow (Run ID: `34988316038`) başarıyla tamamlandı (1m 28s).
+
+### [2026-09-15] Tamamlandı: Test Modu Kalıcı Yönetimi ve Güncel İnteraktif Rehber
+- **Test Modu Açma/Kapama:** `AppPreferences` yöneticisi oluşturuldu. `DeveloperConsoleScreen` içine Test Modu Anahtarı (Master Switch) eklendi. Test modu kapatıldığında ana ekrandaki geliştirici butonu gizlenerek uygulama canlı üretim moduna geçer.
+- **Tek Seferlik ve Kalıcı Rehber:** Öğrenci Moduna ilk girişte açılan, tamamlandığında veya geçildiğinde `hasCompletedTutorial = true` olarak kaydedilen mekanizma kuruldu. Sonraki girişlerde doğrudan Görev Masası açılır.
+- **İsteğe Bağlı Tekrar Açma:** Görev Masası'nın sağ üstündeki (?) yardım butonu ile rehber unutulduğunda istenildiği zaman tekrar açılabilir. Geliştirici konsolunda da rehberi sıfırlama butonu eklendi.
+- **Yeni Özelliklerle Donatılmış 4 Adımlı Rehber:** Saniyelik sayaç, tek dokunuşla kanıt alma, **Pause/Resume (Duraklat/Devam Et)** mola verme mantığı ve 2 saniye basılı tutarak bitirme hareketlerinin tamamı canlı sandbox deneme alanına entegre edildi.
+
 
 
 
