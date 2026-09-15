@@ -134,12 +134,14 @@ fun ChildTutorialScreen(
                                     elapsedSeconds = 125,
                                     screenshotCount = mockScreenshotCount,
                                     isFinishing = false,
+                                    isPaused = false,
                                     onSingleTapCapture = {
                                         mockScreenshotCount++
                                     },
                                     onLongPressFinish = {
                                         isMockFinished = true
-                                    }
+                                    },
+                                    onTogglePause = {}
                                 )
                             } else {
                                 Text(

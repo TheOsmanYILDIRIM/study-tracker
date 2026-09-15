@@ -286,6 +286,37 @@ fun ParentDashboardScreen(
                 }
             } else {
                 // TAB 2: Full Weekly & Daily Plan Inspection View (Öğrenci Modu Tarzı Plan İnceleme)
+                val filteredTasks = remember(dailyOccurrences, selectedDayFilter, activePlan) {
+                    if (selectedDayFilter == "ALL") {
+                        dailyOccurrences
+                    } else {
+                        val startDate = activePlan?.weekStartDate
+                        if (startDate != null && startDate.isNotBlank()) {
+                            val dayOffset = when (selectedDayFilter) {
+                                "MON" -> 0
+                                "TUE" -> 1
+                                "WED" -> 2
+                                "THU" -> 3
+                                "FRI" -> 4
+                                "SAT" -> 5
+                                "SUN" -> 6
+                                else -> 0
+                            }
+                            val cal = Calendar.getInstance(Locale.US)
+                            try {
+                                cal.time = dateFormat.parse(startDate) ?: Date()
+                                cal.add(Calendar.DAY_OF_YEAR, dayOffset)
+                                val targetDate = dateFormat.format(cal.time)
+                                dailyOccurrences.filter { it.date == targetDate }
+                            } catch (_: Exception) {
+                                dailyOccurrences
+                            }
+                        } else {
+                            dailyOccurrences
+                        }
+                    }
+                }
+
                 LazyColumn(
                     modifier = Modifier
                         .fillMaxSize()
@@ -319,38 +350,6 @@ fun ParentDashboardScreen(
                                         label = { Text(label, fontSize = 12.sp) }
                                     )
                                 }
-                            }
-                        }
-                    }
-
-                    // Filtered Daily Tasks
-                    val filteredTasks = remember(dailyOccurrences, selectedDayFilter, activePlan) {
-                        if (selectedDayFilter == "ALL") {
-                            dailyOccurrences
-                        } else {
-                            val startDate = activePlan?.weekStartDate
-                            if (startDate != null && startDate.isNotBlank()) {
-                                val dayOffset = when (selectedDayFilter) {
-                                    "MON" -> 0
-                                    "TUE" -> 1
-                                    "WED" -> 2
-                                    "THU" -> 3
-                                    "FRI" -> 4
-                                    "SAT" -> 5
-                                    "SUN" -> 6
-                                    else -> 0
-                                }
-                                val cal = Calendar.getInstance(Locale.US)
-                                try {
-                                    cal.time = dateFormat.parse(startDate) ?: Date()
-                                    cal.add(Calendar.DAY_OF_YEAR, dayOffset)
-                                    val targetDate = dateFormat.format(cal.time)
-                                    dailyOccurrences.filter { it.date == targetDate }
-                                } catch (_: Exception) {
-                                    dailyOccurrences
-                                }
-                            } else {
-                                dailyOccurrences
                             }
                         }
                     }
@@ -424,6 +423,7 @@ fun ParentTaskInspectionCard(task: Occurrence) {
         OccurrenceStatus.ACTIVE -> PurpleActive
         OccurrenceStatus.REJECTED -> RoseReject
         OccurrenceStatus.PENDING -> MaterialTheme.colorScheme.outline
+        OccurrenceStatus.ARCHIVED -> MaterialTheme.colorScheme.outlineVariant
     }
 
     val statusText = when (task.status) {
@@ -432,6 +432,7 @@ fun ParentTaskInspectionCard(task: Occurrence) {
         OccurrenceStatus.ACTIVE -> "⚡ Devam Ediyor"
         OccurrenceStatus.REJECTED -> "❌ Tekrar İsteniyor"
         OccurrenceStatus.PENDING -> "🕒 Bekliyor"
+        OccurrenceStatus.ARCHIVED -> "📦 Arşivlendi"
     }
 
     Card(
