@@ -479,28 +479,28 @@ fun ParentTaskInspectionCard(task: Occurrence) {
                     )
                 }
                 Text(
-                    text = "⏱️ Hedef: ${task.targetDurationMinutes} dk",
+                    text = "⏱️ Hedef: ${task.plannedMinutes} dk",
                     fontSize = 12.sp,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
 
-            if (!task.description.isNullOrBlank()) {
+            if (!task.youtubeUrl.isNullOrBlank()) {
                 Text(
-                    text = task.description,
+                    text = "🔗 ${task.youtubeUrl}",
                     style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurface
+                    color = MaterialTheme.colorScheme.primary
                 )
             }
 
-            if (task.warning && !task.warningReason.isNullOrBlank()) {
+            if (task.warning && !task.warningText.isNullOrBlank()) {
                 Surface(
                     color = RoseReject.copy(alpha = 0.1f),
                     shape = RoundedCornerShape(8.dp),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
-                        text = "Ebeveyn Notu: ${task.warningReason}",
+                        text = "Ebeveyn Notu: ${task.warningText}",
                         color = RoseReject,
                         fontSize = 11.sp,
                         fontWeight = FontWeight.Medium,
