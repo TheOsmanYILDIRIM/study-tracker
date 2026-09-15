@@ -57,7 +57,15 @@ val ZomoDarkSurface = Color(0xFF1B1633)
 val ZomoDarkCard = Color(0xFF272147)
 val ZomoDarkBorder = Color(0xFF38305F)
 
-// Backward Compatibility Aliases for components
+// Backward Compatibility & Semantic Aliases for components
+val ZomoSoftLavender = ZomoLavenderCard
+val ZomoCardBackground = ZomoLavenderSurface
+val ZomoBackground = ZomoLavenderBg
+val ZomoMintAccent = ZomoNeonMint
+val ZomoSquirclePurple = ZomoVioletContainer
+val ZomoSquircleAmber = ZomoAmberContainer
+val ZomoSquircleEmerald = ZomoEmeraldContainer
+
 val SapphirePrimary = ZomoPurplePrimary
 val SapphireDark = ZomoPurpleLight
 val SapphireContainer = ZomoVioletContainer
@@ -85,4 +93,5 @@ val DarkCard = ZomoDarkCard
 val LightBackground = ZomoLavenderBg
 val LightSurface = ZomoLavenderSurface
 val LightCard = ZomoLavenderCard
+
 
