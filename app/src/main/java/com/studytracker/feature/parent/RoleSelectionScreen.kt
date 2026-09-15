@@ -137,7 +137,7 @@ fun RoleSelectionScreen(
                                 horizontalArrangement = Arrangement.spacedBy(6.dp)
                             ) {
                                 Icon(
-                                    Icons.Default.Sparkles,
+                                    Icons.Default.AutoAwesome,
                                     contentDescription = null,
                                     tint = ZomoMintAccent,
                                     modifier = Modifier.size(14.dp)

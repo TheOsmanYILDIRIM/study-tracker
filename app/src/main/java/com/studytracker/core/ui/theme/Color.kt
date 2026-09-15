@@ -65,6 +65,9 @@ val ZomoMintAccent = ZomoNeonMint
 val ZomoSquirclePurple = ZomoVioletContainer
 val ZomoSquircleAmber = ZomoAmberContainer
 val ZomoSquircleEmerald = ZomoEmeraldContainer
+val ZomoSquirclePink = ZomoPinkContainer
+val ZomoSquircleBlue = ZomoSkyContainer
+val ZomoSquircleSky = ZomoSkyContainer
 
 val SapphirePrimary = ZomoPurplePrimary
 val SapphireDark = ZomoPurpleLight
