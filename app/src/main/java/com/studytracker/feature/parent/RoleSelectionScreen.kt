@@ -41,7 +41,6 @@ fun RoleSelectionScreen(
 ) {
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
-    val isNightMode by appPreferences.isNightMode.collectAsState()
     val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
 
@@ -51,7 +50,7 @@ fun RoleSelectionScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+            painter = painterResource(id = R.drawable.bg_zen_night),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
@@ -60,7 +59,7 @@ fun RoleSelectionScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(if (isNightMode) Color(0xD9080D1A) else Color(0xB3EEF2F6))
+                .background(Color(0x8A080D1A))
         )
 
         Scaffold(
@@ -68,7 +67,7 @@ fun RoleSelectionScreen(
             topBar = {
                 TopAppBar(
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = if (isNightMode) Color(0xB3080D1A) else Color(0xB3EEF2F6),
+                        containerColor = Color(0xB3080D1A),
                         titleContentColor = ZomoTextPrimary
                     ),
                 title = {
@@ -116,25 +115,6 @@ fun RoleSelectionScreen(
                     }
                 },
                 actions = {
-                    // Quick Day / Night Theme Toggle
-                    IconButton(onClick = { appPreferences.toggleNightMode() }) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                contentDescription = "Tema Değiştir",
-                                tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
-                                modifier = Modifier.size(18.dp)
-                            )
-                        }
-                    }
-
                     IconButton(onClick = onNavigateToDevMode) {
                         Box(
                             modifier = Modifier
@@ -173,7 +153,7 @@ fun RoleSelectionScreen(
                     .border(1.dp, ZenPaperBorder, ZenHeroShape)
             ) {
                 Image(
-                    painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+                    painter = painterResource(id = R.drawable.bg_zen_night),
                     contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
@@ -211,13 +191,13 @@ fun RoleSelectionScreen(
                             horizontalArrangement = Arrangement.spacedBy(5.dp)
                         ) {
                             Icon(
-                                imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
+                                imageVector = Icons.Default.NightsStay,
                                 contentDescription = null,
                                 tint = ZenMoonGold,
                                 modifier = Modifier.size(13.dp)
                             )
                             Text(
-                                text = if (isNightMode) "Huzurlu Gece Modu" else "Aydınlık Gündüz Modu",
+                                text = "Huzurlu Gece Modu",
                                 color = ZenMoonGold,
                                 fontSize = 11.sp,
                                 fontWeight = FontWeight.Bold
@@ -532,5 +512,4 @@ fun RoleSelectionScreen(
             }
         )
     }
-}
 }

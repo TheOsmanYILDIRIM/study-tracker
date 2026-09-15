@@ -63,8 +63,6 @@ fun ParentDashboardScreen(
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val appPreferences = remember { AppPreferences.getInstance(context) }
-    val isNightMode by appPreferences.isNightMode.collectAsState()
 
     val db = remember { AppDatabase.getInstance(context) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
@@ -95,7 +93,7 @@ fun ParentDashboardScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+            painter = painterResource(id = R.drawable.bg_zen_night),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
@@ -104,7 +102,7 @@ fun ParentDashboardScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(if (isNightMode) Color(0xD9080D1A) else Color(0xB3EEF2F6))
+                .background(Color(0x8A080D1A))
         )
 
         Scaffold(
@@ -112,7 +110,7 @@ fun ParentDashboardScreen(
             topBar = {
                 TopAppBar(
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = if (isNightMode) Color(0xB3080D1A) else Color(0xB3EEF2F6),
+                        containerColor = Color(0xB3080D1A),
                         titleContentColor = ZomoTextPrimary
                     ),
                 title = {
@@ -139,25 +137,6 @@ fun ParentDashboardScreen(
                     }
                 },
                 actions = {
-                    // Quick Day / Night Toggle
-                    IconButton(onClick = { appPreferences.toggleNightMode() }) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                contentDescription = "Tema Değiştir",
-                                tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
-                                modifier = Modifier.size(18.dp)
-                            )
-                        }
-                    }
-
                     IconButton(onClick = onNavigateToPlanStudio) {
                         Box(
                             modifier = Modifier
@@ -269,7 +248,7 @@ fun ParentDashboardScreen(
                                 .border(1.dp, ZenPaperBorder, ZenHeroShape)
                         ) {
                             Image(
-                                painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+                                painter = painterResource(id = R.drawable.bg_zen_night),
                                 contentDescription = null,
                                 contentScale = ContentScale.Crop,
                                 modifier = Modifier.fillMaxSize()

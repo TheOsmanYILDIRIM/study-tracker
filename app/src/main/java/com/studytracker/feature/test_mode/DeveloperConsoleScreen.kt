@@ -183,7 +183,6 @@ fun DeveloperConsoleScreen(
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
 
-    val isNightMode by appPreferences.isNightMode.collectAsState()
     val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
     val isFakeCaptureEnabled by appPreferences.isFakeCaptureEnabled.collectAsState()
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
@@ -233,67 +232,6 @@ fun DeveloperConsoleScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
             // Theme Mode Card (Day / Night Selection)
-            item {
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = ZenCardShape,
-                    colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
-                    border = BorderStroke(1.dp, ZenPaperBorder)
-                ) {
-                    Column(
-                        modifier = Modifier.padding(16.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
-                    ) {
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(10.dp)
-                            ) {
-                                Surface(
-                                    shape = RoundedCornerShape(10.dp),
-                                    color = ZenMoonGoldContainer,
-                                    modifier = Modifier.size(36.dp)
-                                ) {
-                                    Box(contentAlignment = Alignment.Center) {
-                                        Icon(
-                                            imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                            contentDescription = null,
-                                            tint = ZenMoonGold,
-                                            modifier = Modifier.size(20.dp)
-                                        )
-                                    }
-                                }
-                                Column {
-                                    Text("🎨 Görsel Tema Ayarı", fontWeight = FontWeight.Bold, fontSize = 15.sp, color = ZomoTextPrimary)
-                                    Text(
-                                        if (isNightMode) "Gece Modu: Derin yıldızlı masal gökyüzü" else "Gündüz Modu: Aydınlık doğa ve vadi",
-                                        style = MaterialTheme.typography.bodySmall,
-                                        color = ZomoTextSecondary,
-                                        fontSize = 11.5.sp
-                                    )
-                                }
-                            }
-
-                            Switch(
-                                checked = isNightMode,
-                                onCheckedChange = { night ->
-                                    appPreferences.setNightMode(night)
-                                    val msg = if (night) "🌙 Gece Modu Devrede" else "☀️ Gündüz Modu Devrede"
-                                    Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
-                                },
-                                colors = SwitchDefaults.colors(
-                                    checkedThumbColor = ZenMoonGold,
-                                    checkedTrackColor = ZenSkyCyan
-                                )
-                            )
-                        }
-                    }
-                }
-            }
 
             // Master Test Mode Switch Card
             item {

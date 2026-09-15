@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CameraAlt
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Stop
@@ -43,7 +44,8 @@ fun FloatingHUDView(
     isPaused: Boolean = false,
     onSingleTapCapture: () -> Unit,
     onLongPressFinish: () -> Unit,
-    onTogglePause: () -> Unit
+    onTogglePause: () -> Unit,
+    onCancelSession: (() -> Unit)? = null
 ) {
     val coroutineScope = rememberCoroutineScope()
     val progress = remember { Animatable(0f) }
@@ -188,6 +190,26 @@ fun FloatingHUDView(
                     tint = if (isPaused) Color(0xFF451A03) else Color.White,
                     modifier = Modifier.size(18.dp)
                 )
+            }
+
+            // Quick Cancel / Discard Session Button
+            if (isPaused && onCancelSession != null) {
+                Box(
+                    modifier = Modifier
+                        .size(34.dp)
+                        .clip(CircleShape)
+                        .background(Color(0x33F43F5E))
+                        .border(1.dp, Color(0x66F43F5E), CircleShape)
+                        .clickable { onCancelSession() },
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Close,
+                        contentDescription = "Görevi İptal Et",
+                        tint = Color(0xFFFB7185),
+                        modifier = Modifier.size(17.dp)
+                    )
+                }
             }
         }
     }

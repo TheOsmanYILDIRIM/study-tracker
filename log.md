@@ -69,3 +69,10 @@
 - **Tam Ekran Atmosferik Arka Plan:** Tüm ekranların arkasına tam ekran `Image(bg_zen_night / bg_zen_day)` yerleştirilerek yüksek kontrastlı yarı saydam okuma katmanı (`0xD9080D1A` / `0xB3EEF2F6`) entegre edildi.
 - **Hafif Kutu Butonlar:** `StudyTaskCard` içindeki ağır Material3 `Button` (dahili `Surface`, `InteractionSource`, `animateElevation` ve ripple layer) yerine saf `Box.background(shape).clickable` butonları uygulandı.
 - **R8 ProGuard & Release APK Optimizasyonu:** Compose derleyicisinin debug trace overhead'ini sıfırlayan, metot inlining ve dead-code elimination sağlayan `assembleRelease` CI/CD hattı kuruldu. 16MB'lık debug APK yerine 2.1MB'lık ultra-optimize imzalı Release APK üretildi (CI Run ID: `35018741072` ✓).
+
+### [2026-09-15] Tamamlandı: Görev İptal, İncelemedeki Görevi Yeniden Başlatma, Haftalık Hedefler Üste (LazyRow) & Canlı Paralaks Gece Arka Planı
+- **Görevi İptal Etme (`cancelSession`):** Çalışma sırasında veya mola verildiğinde görevi iptal edip durumu `PENDING`'e geri döndüren mekanizma `SessionStateManager`'a eklendi; Floating HUD ve `LiveActiveSessionBanner` bileşenlerine kırmızı "İptal Et" butonu yerleştirildi.
+- **İncelemedeki Görevi Yeniden Başlatma:** Ebeveyn onayı bekleyen (`WAITING_REVIEW`) görevlerin üzerine yazılabilmesi için `StudyTaskCard` ve `StudyWeeklyTaskCard` kartlarına "Yeniden Başlat / Tekrar" butonu eklendi.
+- **Gündüz Modunu Kaldırma & Tek Zen Gece Teması:** Tüm ekranlardan (ChildHome, ParentDashboard, RoleSelection, DeveloperConsole) gündüz modu toggle butonları ve dinamik kontroller kaldırılarak atmosferik Zen Masal Gece teması sabitlendi.
+- **Haftalık Hedefler Üste & Yatay Kaydırma (LazyRow):** Çocuk ana ekranında haftalık hedefler en üste taşındı ve yatay kaydırmalı `LazyRow` içinde `StudyWeeklyTaskCard` ile gösterildi; günlük görevler altta dikey sıralandı.
+- **Mükerrer Hero Kartının Kaldırılması & Canlı Paralaks Arka Plan:** Yinelenen hero progress kartı kaldırıldı; arka plandaki masal görseli %20 daha açık parlak bir filtreyle belirginleştirildi ve GPU `graphicsLayer` üzerinde çalışan yavaş, akıcı bir nefes alma/paralaks süzülme animasyonu (`rememberInfiniteTransition`) uygulandı.

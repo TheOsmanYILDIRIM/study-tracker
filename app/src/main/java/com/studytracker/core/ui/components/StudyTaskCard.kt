@@ -220,26 +220,56 @@ fun StudyTaskCard(
                     }
                 }
                 OccurrenceStatus.WAITING_REVIEW -> {
-                    Box(
-                        modifier = Modifier
-                            .height(30.dp)
-                            .clip(ZenPillShape)
-                            .background(ZenMoonGoldContainer)
-                            .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), ZenPillShape)
-                            .padding(horizontal = 10.dp),
-                        contentAlignment = Alignment.Center
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
                     ) {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(4.dp)
+                        Box(
+                            modifier = Modifier
+                                .height(30.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenMoonGoldContainer)
+                                .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), ZenPillShape)
+                                .padding(horizontal = 8.dp),
+                            contentAlignment = Alignment.Center
                         ) {
-                            Icon(Icons.Default.Schedule, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(12.dp))
-                            Text(
-                                text = "İnceleniyor",
-                                color = ZenMoonGold,
-                                fontWeight = FontWeight.Bold,
-                                fontSize = 10.5.sp
-                            )
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(4.dp)
+                            ) {
+                                Icon(Icons.Default.Schedule, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(12.dp))
+                                Text(
+                                    text = "İnceleniyor",
+                                    color = ZenMoonGold,
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 10.5.sp
+                                )
+                            }
+                        }
+
+                        // Child can restart review-waiting task
+                        Box(
+                            modifier = Modifier
+                                .height(30.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenSkyCyanContainer)
+                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape)
+                                .clickable { onStartClick(occurrence) }
+                                .padding(horizontal = 8.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(3.dp)
+                            ) {
+                                Icon(Icons.Default.Replay, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(12.dp))
+                                Text(
+                                    text = "Yeniden",
+                                    color = ZenSkyCyan,
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 10.5.sp
+                                )
+                            }
                         }
                     }
                 }
@@ -302,6 +332,205 @@ fun StudyTaskCard(
                         maxLines = 2
                     )
                 }
+            }
+        }
+    }
+}
+
+/**
+ * Compact horizontal weekly target card designed for LazyRow
+ */
+@Composable
+fun StudyWeeklyTaskCard(
+    occurrence: Occurrence,
+    onStartClick: (Occurrence) -> Unit,
+    onRetryClick: (Occurrence) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val target = occurrence.targetCount ?: 1
+    val approved = occurrence.approvedCount ?: 0
+    val fraction = (approved.toFloat() / target.coerceAtLeast(1)).coerceIn(0f, 1f)
+
+    val tileBg = ZenMoonGoldContainer
+    val tileFg = ZenMoonGold
+
+    val borderColor = when {
+        occurrence.warning -> ZenMoonGold.copy(alpha = 0.7f)
+        occurrence.status == OccurrenceStatus.APPROVED -> ZenForestGreen.copy(alpha = 0.5f)
+        occurrence.status == OccurrenceStatus.ACTIVE -> ZenSkyCyan.copy(alpha = 0.8f)
+        else -> ZenPaperBorder
+    }
+
+    Column(
+        modifier = modifier
+            .width(230.dp)
+            .clip(ZenCardShape)
+            .background(ZenPaperCard)
+            .border(1.dp, borderColor, ZenCardShape)
+            .padding(12.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        // Top: Icon + Badge/Action
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Box(
+                modifier = Modifier
+                    .size(34.dp)
+                    .clip(ZenSquircleShape)
+                    .background(tileBg),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = Icons.Default.EmojiEvents,
+                    contentDescription = null,
+                    tint = tileFg,
+                    modifier = Modifier.size(18.dp)
+                )
+            }
+
+            // Status or Start button
+            when (occurrence.status) {
+                OccurrenceStatus.PENDING -> {
+                    Box(
+                        modifier = Modifier
+                            .height(28.dp)
+                            .background(ZenSkyCyan, ZenPillShape)
+                            .clickable { onStartClick(occurrence) }
+                            .padding(horizontal = 10.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(3.dp)
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.PlayArrow,
+                                contentDescription = null,
+                                modifier = Modifier.size(13.dp),
+                                tint = ZenMintText
+                            )
+                            Text(
+                                text = "Başla",
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 10.5.sp,
+                                color = ZenMintText
+                            )
+                        }
+                    }
+                }
+                OccurrenceStatus.ACTIVE -> {
+                    Box(
+                        modifier = Modifier
+                            .height(26.dp)
+                            .clip(ZenPillShape)
+                            .background(ZenSkyCyanContainer)
+                            .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape)
+                            .padding(horizontal = 8.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "Aktif ⚡",
+                            color = ZenSkyCyan,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 10.sp
+                        )
+                    }
+                }
+                OccurrenceStatus.WAITING_REVIEW -> {
+                    Box(
+                        modifier = Modifier
+                            .height(26.dp)
+                            .clip(ZenPillShape)
+                            .background(ZenMoonGoldContainer)
+                            .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), ZenPillShape)
+                            .clickable { onStartClick(occurrence) }
+                            .padding(horizontal = 8.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(2.dp)
+                        ) {
+                            Icon(Icons.Default.Replay, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(11.dp))
+                            Text(
+                                text = "Tekrar",
+                                color = ZenMoonGold,
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 10.sp
+                            )
+                        }
+                    }
+                }
+                OccurrenceStatus.APPROVED -> {
+                    Box(
+                        modifier = Modifier
+                            .height(26.dp)
+                            .clip(ZenPillShape)
+                            .background(ZenForestContainer)
+                            .border(1.dp, ZenForestGreen.copy(alpha = 0.4f), ZenPillShape)
+                            .padding(horizontal = 8.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "✓ Bitti",
+                            color = ZenForestGreen,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 10.sp
+                        )
+                    }
+                }
+                else -> {
+                    StatusBadge(status = occurrence.status, warning = occurrence.warning)
+                }
+            }
+        }
+
+        // Middle: Title
+        Text(
+            text = occurrence.title,
+            style = MaterialTheme.typography.titleSmall,
+            fontWeight = FontWeight.Bold,
+            color = ZomoTextPrimary,
+            fontSize = 13.5.sp,
+            maxLines = 1
+        )
+
+        // Progress Bar & Target Text
+        Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(5.dp)
+                    .background(Color(0x33000000), ZenPillShape)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxHeight()
+                        .fillMaxWidth(fraction = fraction.coerceIn(if (fraction > 0f) 0.05f else 0f, 1f))
+                        .background(ZenMoonGold, ZenPillShape)
+                )
+            }
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = "${occurrence.plannedMinutes} dk",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = ZomoTextSecondary,
+                    fontSize = 10.5.sp
+                )
+                Text(
+                    text = "🎯 $approved/$target",
+                    style = MaterialTheme.typography.bodySmall,
+                    fontWeight = FontWeight.Bold,
+                    color = ZenMoonGold,
+                    fontSize = 10.5.sp
+                )
             }
         }
     }

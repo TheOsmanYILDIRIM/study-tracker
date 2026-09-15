@@ -45,6 +45,10 @@
 ## 11. Cyber-Violet Dark Futuristic Tasarım Sistemi & Ticker İzolasyon Performans Optimizasyonu
 - [x] Derin Cyber-Violet Koyu Mor Arka Plan (`#090414`), Koyu Cam Kartlar (`#140C28`), 32dp Hero Gradyanı, Neon Mint (`#00F5D4`) Pill Butonlar, Ticker Saniye Akışının Bağımsız StateFlow'a Ayrıştırılması ve 120 FPS Donanım Hızlandırmalı Kenarlık Optimizasyonu
 
-## 12. Zen Masal Kitabı Doğa Teması, Gündüz/Gece Modu & Katı Tuval Performans Çözümü
-- [x] 9:16 Dikey Masal Kitabı / Doğa İllüstrasyonu (`bg_zen_night.webp` / `bg_zen_day.webp`), Katı Donanım Hızlandırmalı Tuval Mimarisi (`ZenNightCanvas` / `ZenDayCanvas`), 60/120 FPS Sıfır-Kasma Kaydırma, 🌙/☀️ Canlı Tema Değiştirici, Ebeveyn Masası Hero Kartı ve Yarı Saydam Koruyucu Arkalıklar
+## 13. Görev İptal, İncelemedeki Görevi Yeniden Başlatma, Haftalık Hedefler Üste (LazyRow) & Canlı Paralaks Gece Arka Planı
+- [x] Floating HUD & Canlı Banner'a Görevi İptal Etme (`cancelSession`) Butonu
+- [x] İnceleme Bekleyen (`WAITING_REVIEW`) Görevleri Öğrenci Tarafından Yeniden Başlatabilme
+- [x] Gündüz Modunu Tamamen Kaldırma ve Kalıcı Zen Gece/Cyber-Dark Teması
+- [x] Haftalık Hedefleri En Üste Alma & Yatay Kaydırmalı (`LazyRow`) Kompakt Kartlar (`StudyWeeklyTaskCard`)
+- [x] Mükerrer Hero Kartını Kaldırma ve %20 Daha Belirgin Canlı/Paralaks Arka Plan (GPU Infinite Drift)
 

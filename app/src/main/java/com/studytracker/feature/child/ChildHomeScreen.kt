@@ -1,11 +1,13 @@
 package com.studytracker.feature.child
 
 import android.content.Context
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -16,7 +18,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
@@ -27,17 +28,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.R
-import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
 import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.components.StudyTaskCard
+import com.studytracker.core.ui.components.StudyWeeklyTaskCard
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-private val ZenHeroShape = RoundedCornerShape(22.dp)
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(16.dp)
 
@@ -48,9 +48,6 @@ fun ChildHomeScreen(
     onOpenTutorial: () -> Unit
 ) {
     val context = LocalContext.current
-    val appPreferences = remember { AppPreferences.getInstance(context) }
-    val isNightMode by appPreferences.isNightMode.collectAsState()
-
     val stateManager = remember { SessionStateManager.getInstance(context) }
     val occurrences by remember(stateManager) {
         stateManager.occurrenceRepository.getAllOccurrences()
@@ -61,10 +58,6 @@ fun ChildHomeScreen(
     // Stable method reference
     val onTaskStart: (Occurrence) -> Unit = remember(stateManager) {
         { task -> stateManager.startSession(task.occurrenceKey, task.title) }
-    }
-
-    val todayDate = remember {
-        SimpleDateFormat("d MMMM EEEE", Locale("tr", "TR")).format(Date())
     }
 
     val dailyTasks = remember(occurrences) {
@@ -79,28 +72,47 @@ fun ChildHomeScreen(
         occurrences.filter { it.warning }
     }
 
-    val totalTasks = occurrences.size
-    val approvedTasks = remember(occurrences) {
-        occurrences.count { it.status == OccurrenceStatus.APPROVED }
-    }
-    val progress = remember(totalTasks, approvedTasks) {
-        if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
-    }
+    // 0-recomposition GPU infinite breathing / parallax drift for background
+    val infiniteTransition = rememberInfiniteTransition(label = "BackgroundParallax")
+    val bgOffsetY by infiniteTransition.animateFloat(
+        initialValue = -10f,
+        targetValue = 10f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 20000, easing = LinearEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "bgOffsetY"
+    )
+    val bgScale by infiniteTransition.animateFloat(
+        initialValue = 1.03f,
+        targetValue = 1.07f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 25000, easing = LinearEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "bgScale"
+    )
 
     Box(modifier = Modifier.fillMaxSize()) {
-        // 1. Atmospheric Fullscreen Background Image
+        // 1. Atmospheric Fullscreen Fairy Tale Paper Cutout Night Background with slow GPU drift
         Image(
-            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+            painter = painterResource(id = R.drawable.bg_zen_night),
             contentDescription = null,
             contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer {
+                    translationY = bgOffsetY
+                    scaleX = bgScale
+                    scaleY = bgScale
+                }
         )
 
-        // 2. High-contrast translucent reading overlay
+        // 2. 20% more transparent translucent scrim for vibrant scenery while maintaining readability
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(if (isNightMode) Color(0xD9080D1A) else Color(0xB3EEF2F6))
+                .background(Color(0x8A080D1A))
         )
 
         Scaffold(
@@ -108,7 +120,7 @@ fun ChildHomeScreen(
             topBar = {
                 TopAppBar(
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = if (isNightMode) Color(0xB3080D1A) else Color(0xB3EEF2F6),
+                        containerColor = Color(0xB3080D1A),
                         titleContentColor = ZomoTextPrimary
                     ),
                     title = {
@@ -127,7 +139,12 @@ fun ChildHomeScreen(
                             }
                             Column {
                                 Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 17.sp, color = ZomoTextPrimary)
-                                Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary, fontSize = 11.sp)
+                                Text(
+                                    SimpleDateFormat("d MMMM EEEE", Locale("tr", "TR")).format(Date()),
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = ZomoTextSecondary,
+                                    fontSize = 11.sp
+                                )
                             }
                         }
                     },
@@ -137,24 +154,6 @@ fun ChildHomeScreen(
                         }
                     },
                     actions = {
-                        // Quick Day / Night Theme Toggle
-                        IconButton(onClick = { appPreferences.toggleNightMode() }) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenPaperCard, ZenPillShape)
-                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(
-                                    imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                    contentDescription = "Tema Değiştir",
-                                    tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
-                                    modifier = Modifier.size(17.dp)
-                                )
-                            }
-                        }
-
                         IconButton(onClick = onOpenTutorial) {
                             Box(
                                 modifier = Modifier
@@ -175,110 +174,105 @@ fun ChildHomeScreen(
                     .fillMaxSize()
                     .padding(padding)
                     .padding(horizontal = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(10.dp)
+                verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                // Frosted Progress Summary Card
-                item(key = "progress_hero_card") {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .graphicsLayer {
-                                shape = ZenHeroShape
+                // Live Active Session Banner (Shows when session is ongoing or paused)
+                if (isSessionActive) {
+                    item(key = "live_active_banner") {
+                        LiveActiveSessionBanner(stateManager = stateManager)
+                    }
+                }
+
+                // 1. Warning Banner & Tasks for Rejected items
+                if (rejectedTasks.isNotEmpty()) {
+                    item(key = "rejected_header") {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(8.dp)
+                                    .clip(ZenPillShape)
+                                    .background(ZenRoseCoral)
+                            )
+                            Text(
+                                text = "Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZenRoseCoral,
+                                fontSize = 13.5.sp
+                            )
+                        }
+                    }
+
+                    items(
+                        items = rejectedTasks,
+                        key = { "rej_" + it.occurrenceKey },
+                        contentType = { "study_task" }
+                    ) { task ->
+                        StudyTaskCard(
+                            occurrence = task,
+                            onStartClick = onTaskStart,
+                            onRetryClick = onTaskStart,
+                            modifier = Modifier.graphicsLayer {
+                                shape = ZenCardShape
                                 clip = true
                             }
-                            .background(if (isNightMode) Color(0xCC111B30) else Color(0xE6FFFFFF), ZenHeroShape)
-                            .border(1.dp, ZenPaperBorder, ZenHeroShape)
-                            .padding(16.dp)
-                    ) {
-                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-                                Column {
-                                    Text(
-                                        text = if (isNightMode) "Huzurlu Akşamlar ✨" else "Güzel Bir Gün ☀️",
-                                        color = if (isNightMode) ZenSkyCyan else ZenForestGreen,
-                                        fontSize = 12.sp,
-                                        fontWeight = FontWeight.Bold
-                                    )
-                                    Text(
-                                        text = "Bugünkü Hedeflerin",
-                                        color = ZomoTextPrimary,
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 18.sp
-                                    )
-                                }
+                        )
+                    }
+                }
 
-                                Box(
-                                    modifier = Modifier
-                                        .background(if (isNightMode) Color(0x66000000) else Color(0x15000000), ZenPillShape)
-                                        .border(1.dp, ZenPaperBorder, ZenPillShape)
-                                        .padding(horizontal = 10.dp, vertical = 4.dp)
-                                ) {
-                                    Text(
-                                        text = "$approvedTasks / $totalTasks Ders",
-                                        color = ZomoTextPrimary,
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 11.5.sp
-                                    )
-                                }
-                            }
+                // 2. Weekly Goals Section AT TOP in a Horizontal LazyRow
+                if (weeklyTasks.isNotEmpty()) {
+                    item(key = "weekly_header") {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(8.dp)
+                                    .clip(ZenPillShape)
+                                    .background(ZenMoonGold)
+                            )
+                            Text(
+                                text = "🎯 Haftalık Hedefler (${weeklyTasks.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZenMoonGold,
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
 
-                            // Compact Progress Bar
-                            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                                Box(
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .height(8.dp)
-                                        .background(if (isNightMode) Color(0x66000000) else Color(0x20000000), ZenPillShape)
-                                ) {
-                                    Box(
-                                        modifier = Modifier
-                                            .fillMaxHeight()
-                                            .fillMaxWidth(fraction = progress.coerceIn(if (totalTasks > 0) 0.03f else 0f, 1f))
-                                            .background(
-                                                Brush.horizontalGradient(
-                                                    listOf(ZenSkyCyan, ZenMintSoft)
-                                                ),
-                                                ZenPillShape
-                                            )
-                                    )
-                                }
-
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween
-                                ) {
-                                    Text(
-                                        text = "%${(progress * 100).toInt()} Tamamlandı",
-                                        color = ZenSkyCyan,
-                                        fontSize = 11.5.sp,
-                                        fontWeight = FontWeight.Bold
-                                    )
-                                    Text(
-                                        text = if (totalTasks - approvedTasks > 0) "${totalTasks - approvedTasks} ders kaldı" else "Tüm dersler bitti! 🎉",
-                                        color = ZomoTextSecondary,
-                                        fontSize = 11.sp,
-                                        fontWeight = FontWeight.Normal
-                                    )
-                                }
+                    item(key = "weekly_row") {
+                        LazyRow(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(10.dp),
+                            contentPadding = PaddingValues(vertical = 2.dp)
+                        ) {
+                            items(
+                                items = weeklyTasks,
+                                key = { "w_" + it.occurrenceKey },
+                                contentType = { "weekly_task" }
+                            ) { task ->
+                                StudyWeeklyTaskCard(
+                                    occurrence = task,
+                                    onStartClick = onTaskStart,
+                                    onRetryClick = onTaskStart,
+                                    modifier = Modifier.graphicsLayer {
+                                        shape = ZenCardShape
+                                        clip = true
+                                    }
+                                )
                             }
                         }
                     }
                 }
 
-            // Live Active Session Banner
-            if (isSessionActive) {
-                item(key = "live_active_banner") {
-                    LiveActiveSessionBanner(stateManager = stateManager)
-                }
-            }
-
-            // Warning Banner for Rejected tasks
-            if (rejectedTasks.isNotEmpty()) {
-                item(key = "rejected_header") {
+                // 3. Daily Tasks Section Vertical
+                item(key = "daily_header") {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(6.dp)
@@ -287,131 +281,57 @@ fun ChildHomeScreen(
                             modifier = Modifier
                                 .size(8.dp)
                                 .clip(ZenPillShape)
-                                .background(ZenRoseCoral)
+                                .background(ZenSkyCyan)
                         )
                         Text(
-                            text = "Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
+                            text = "📅 Bugünkü Dersler (${dailyTasks.size})",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,
-                            color = ZenRoseCoral,
-                            fontSize = 13.5.sp
+                            color = ZomoTextPrimary,
+                            fontSize = 14.sp
                         )
                     }
                 }
 
-                items(
-                    items = rejectedTasks,
-                    key = { "rej_" + it.occurrenceKey },
-                    contentType = { "study_task" }
-                ) { task ->
-                    StudyTaskCard(
-                        occurrence = task,
-                        onStartClick = onTaskStart,
-                        onRetryClick = onTaskStart,
-                        modifier = Modifier.graphicsLayer {
-                            shape = ZenCardShape
-                            clip = true
+                if (dailyTasks.isEmpty()) {
+                    item(key = "daily_empty") {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .graphicsLayer {
+                                    shape = ZenCardShape
+                                    clip = true
+                                }
+                                .background(ZenPaperCard)
+                                .border(1.dp, ZenPaperBorder, ZenCardShape)
+                                .padding(16.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text("Bugün için tanımlı ders bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 12.5.sp)
                         }
-                    )
-                }
-            }
-
-            // Daily Tasks Section
-            item(key = "daily_header") {
-                Text(
-                    text = "📅 Bugünkü Dersler (${dailyTasks.size})",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = ZomoTextPrimary,
-                    fontSize = 14.sp
-                )
-            }
-
-            if (dailyTasks.isEmpty()) {
-                item(key = "daily_empty") {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .graphicsLayer {
+                    }
+                } else {
+                    items(
+                        items = dailyTasks,
+                        key = { "daily_" + it.occurrenceKey },
+                        contentType = { "study_task" }
+                    ) { task ->
+                        StudyTaskCard(
+                            occurrence = task,
+                            onStartClick = onTaskStart,
+                            onRetryClick = onTaskStart,
+                            modifier = Modifier.graphicsLayer {
                                 shape = ZenCardShape
                                 clip = true
                             }
-                            .background(ZenPaperCard)
-                            .border(1.dp, ZenPaperBorder, ZenCardShape)
-                            .padding(16.dp),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Text("Bugün için tanımlı ders bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 12.5.sp)
+                        )
                     }
                 }
-            } else {
-                items(
-                    items = dailyTasks,
-                    key = { "daily_" + it.occurrenceKey },
-                    contentType = { "study_task" }
-                ) { task ->
-                    StudyTaskCard(
-                        occurrence = task,
-                        onStartClick = onTaskStart,
-                        onRetryClick = onTaskStart,
-                        modifier = Modifier.graphicsLayer {
-                            shape = ZenCardShape
-                            clip = true
-                        }
-                    )
-                }
-            }
 
-            // Weekly Tasks Section
-            item(key = "weekly_header") {
-                Text(
-                    text = "🎯 Bu Haftanın Hedefleri (${weeklyTasks.size})",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = ZomoTextPrimary,
-                    fontSize = 14.sp
-                )
+                item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
             }
-
-            if (weeklyTasks.isEmpty()) {
-                item(key = "weekly_empty") {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .graphicsLayer {
-                                shape = ZenCardShape
-                                clip = true
-                            }
-                            .background(ZenPaperCard)
-                            .border(1.dp, ZenPaperBorder, ZenCardShape)
-                            .padding(16.dp),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Text("Bu hafta için haftalık hedef bulunamadı.", color = ZomoTextSecondary, fontSize = 12.5.sp)
-                    }
-                }
-            } else {
-                items(
-                    items = weeklyTasks,
-                    key = { "weekly_" + it.occurrenceKey },
-                    contentType = { "study_task" }
-                ) { task ->
-                    StudyTaskCard(
-                        occurrence = task,
-                        onStartClick = onTaskStart,
-                        onRetryClick = onTaskStart,
-                        modifier = Modifier.graphicsLayer {
-                            shape = ZenCardShape
-                            clip = true
-                        }
-                    )
-                }
-            }
-
-            item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
         }
     }
-}
 }
 
 @Composable
@@ -470,6 +390,7 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
+                // 1. Pause / Resume Button
                 Button(
                     onClick = { stateManager.togglePause() },
                     modifier = Modifier.weight(1f).height(36.dp),
@@ -478,30 +399,47 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
                         contentColor = if (isPaused) ZenMintText else Color.White
                     ),
                     shape = ZenPillShape,
-                    contentPadding = PaddingValues(horizontal = 8.dp)
+                    contentPadding = PaddingValues(horizontal = 6.dp)
                 ) {
                     Icon(
                         imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
                         contentDescription = null,
-                        modifier = Modifier.size(15.dp)
+                        modifier = Modifier.size(14.dp)
                     )
-                    Spacer(modifier = Modifier.width(4.dp))
-                    Text(if (isPaused) "Devam Et" else "Mola Ver", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                    Spacer(modifier = Modifier.width(3.dp))
+                    Text(if (isPaused) "Devam Et" else "Mola Ver", fontWeight = FontWeight.Bold, fontSize = 11.sp)
                 }
 
+                // 2. Complete Button
                 Button(
                     onClick = { stateManager.finishSession() },
                     modifier = Modifier.weight(1f).height(36.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = ZenRoseCoral,
+                        containerColor = ZenForestGreen,
                         contentColor = Color.White
                     ),
                     shape = ZenPillShape,
-                    contentPadding = PaddingValues(horizontal = 8.dp)
+                    contentPadding = PaddingValues(horizontal = 6.dp)
                 ) {
-                    Icon(Icons.Default.Stop, contentDescription = null, modifier = Modifier.size(15.dp))
-                    Spacer(modifier = Modifier.width(4.dp))
-                    Text("Tamamla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(14.dp))
+                    Spacer(modifier = Modifier.width(3.dp))
+                    Text("Bitir", fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                }
+
+                // 3. Cancel / Abandon Button
+                Button(
+                    onClick = { stateManager.cancelSession() },
+                    modifier = Modifier.weight(1f).height(36.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0x33FF4D4F),
+                        contentColor = ZenRoseCoral
+                    ),
+                    shape = ZenPillShape,
+                    contentPadding = PaddingValues(horizontal = 6.dp)
+                ) {
+                    Icon(Icons.Default.Close, contentDescription = null, modifier = Modifier.size(14.dp))
+                    Spacer(modifier = Modifier.width(3.dp))
+                    Text("İptal Et", fontWeight = FontWeight.Bold, fontSize = 11.sp)
                 }
             }
         }

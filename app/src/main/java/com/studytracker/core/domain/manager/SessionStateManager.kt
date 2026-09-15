@@ -127,6 +127,30 @@ class SessionStateManager private constructor(
         }
     }
 
+    fun cancelSession(onCancelled: (() -> Unit)? = null) {
+        val current = _activeState.value ?: return
+        _activeState.value = current.copy(isFinishing = true)
+
+        stopPeriodicCapture()
+        stopTicker()
+        stopFloatingService()
+
+        scope.launch(Dispatchers.IO) {
+            getEffectiveCaptureDriver().stop()
+            // Reset task status to PENDING so student can start whenever desired
+            occurrenceRepository.updateOccurrenceStatus(
+                current.session.occurrenceKey,
+                com.studytracker.core.domain.model.OccurrenceStatus.PENDING
+            )
+
+            withContext(Dispatchers.Main) {
+                _activeState.value = null
+                _elapsedSeconds.value = 0L
+                onCancelled?.invoke()
+            }
+        }
+    }
+
     fun finishSession(onFinished: (() -> Unit)? = null) {
         val current = _activeState.value ?: return
         _activeState.value = current.copy(isFinishing = true)

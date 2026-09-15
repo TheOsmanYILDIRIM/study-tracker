@@ -139,6 +139,9 @@ class FloatingButtonService : Service() {
                             },
                             onTogglePause = {
                                 stateManager.togglePause()
+                            },
+                            onCancelSession = {
+                                stateManager.cancelSession()
                             }
                         )
                     }
