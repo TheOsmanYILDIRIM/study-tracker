@@ -44,3 +44,7 @@
 
 ## 11. Cyber-Violet Dark Futuristic Tasarım Sistemi & Ticker İzolasyon Performans Optimizasyonu
 - [x] Derin Cyber-Violet Koyu Mor Arka Plan (`#090414`), Koyu Cam Kartlar (`#140C28`), 32dp Hero Gradyanı, Neon Mint (`#00F5D4`) Pill Butonlar, Ticker Saniye Akışının Bağımsız StateFlow'a Ayrıştırılması ve 120 FPS Donanım Hızlandırmalı Kenarlık Optimizasyonu
+
+## 12. Zen Masal Kitabı Doğa Teması, Gündüz/Gece Modu & Katı Tuval Performans Çözümü
+- [x] 9:16 Dikey Masal Kitabı / Doğa İllüstrasyonu (`bg_zen_night.webp` / `bg_zen_day.webp`), Katı Donanım Hızlandırmalı Tuval Mimarisi (`ZenNightCanvas` / `ZenDayCanvas`), 60/120 FPS Sıfır-Kasma Kaydırma, 🌙/☀️ Canlı Tema Değiştirici, Ebeveyn Masası Hero Kartı ve Yarı Saydam Koruyucu Arkalıklar
+

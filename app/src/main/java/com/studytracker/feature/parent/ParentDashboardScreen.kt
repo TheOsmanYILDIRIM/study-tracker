@@ -1,6 +1,5 @@
 package com.studytracker.feature.parent
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -20,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -50,8 +50,8 @@ private val DAY_FILTERS = listOf(
 )
 
 private val ZenHeroShape = RoundedCornerShape(22.dp)
-private val ZenCardShape = RoundedCornerShape(18.dp)
-private val ZenSquircleShape = RoundedCornerShape(14.dp)
+private val ZenCardShape = RoundedCornerShape(16.dp)
+private val ZenSquircleShape = RoundedCornerShape(12.dp)
 private val ZenPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -93,574 +93,559 @@ fun ParentDashboardScreen(
         allOccurrences.filter { it.type == TaskKind.WEEKLY }
     }
 
-    // Full-screen Storybook Paper Cutout Scene Root
-    Box(modifier = Modifier.fillMaxSize()) {
-        // Layer 0: Vertical 9:16 Paper Cutout Illustration (Day or Night)
-        Image(
-            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
-            contentDescription = null,
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
-        )
+    // High performance solid canvas background
+    Scaffold(
+        containerColor = ZenNightCanvas,
+        topBar = {
+            TopAppBar(
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = ZenNightCanvas,
+                    titleContentColor = ZomoTextPrimary
+                ),
+                title = {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(RoundedCornerShape(10.dp))
+                                .background(ZenForestContainer)
+                                .border(1.dp, ZenForestGreen.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(20.dp))
+                        }
+                        Text("Ebeveyn Masası", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ZomoTextPrimary)
+                    }
+                },
+                navigationIcon = {
+                    IconButton(onClick = onNavigateBack) {
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
+                    }
+                },
+                actions = {
+                    // Quick Day / Night Toggle
+                    IconButton(onClick = { appPreferences.toggleNightMode() }) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenPaperCard)
+                                .border(1.dp, ZenPaperBorder, ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
+                                contentDescription = "Tema Değiştir",
+                                tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
+                                modifier = Modifier.size(18.dp)
+                            )
+                        }
+                    }
 
-        // Layer 1: Frosted Dark Vignette
-        Box(
+                    IconButton(onClick = onNavigateToPlanStudio) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenSkyCyanContainer)
+                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                        }
+                    }
+                }
+            )
+        }
+    ) { padding ->
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(
-                    Brush.verticalGradient(
-                        listOf(
-                            Color(0x88080D1A),
-                            Color(0xCC080D1A),
-                            Color(0xF0080D1A)
-                        )
-                    )
-                )
-        )
-
-        // Layer 2: Interactive UI
-        Scaffold(
-            containerColor = Color.Transparent,
-            topBar = {
-                Surface(
-                    color = ZenTopBarBackplate,
-                    border = BorderStroke(0.dp, Color.Transparent)
+                .padding(padding)
+        ) {
+            // Navigation Tabs
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 6.dp)
+                    .clip(ZenPillShape)
+                    .background(ZenPaperCard)
+                    .border(1.dp, ZenPaperBorder, ZenPillShape)
+                    .padding(3.dp)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
-                    TopAppBar(
-                        colors = TopAppBarDefaults.topAppBarColors(
-                            containerColor = Color.Transparent,
-                            titleContentColor = ZomoTextPrimary
-                        ),
-                        title = {
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(10.dp)
-                            ) {
-                                Surface(
-                                    shape = RoundedCornerShape(12.dp),
-                                    color = ZenForestContainer,
-                                    border = BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f)),
-                                    modifier = Modifier.size(36.dp)
+                    // Tab 1
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .clip(ZenPillShape)
+                            .background(if (selectedTabIndex == 0) ZenSkyCyan else Color.Transparent)
+                            .padding(vertical = 8.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Row(
+                            horizontalArrangement = Arrangement.Center,
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text(
+                                "🚨 Onay Masası",
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 12.5.sp,
+                                color = if (selectedTabIndex == 0) ZenMintText else ZomoTextSecondary
+                            )
+                            if (waitingSessions.isNotEmpty()) {
+                                Spacer(modifier = Modifier.width(6.dp))
+                                Box(
+                                    modifier = Modifier
+                                        .clip(ZenPillShape)
+                                        .background(ZenRoseCoral)
+                                        .padding(horizontal = 6.dp, vertical = 1.dp)
                                 ) {
-                                    Box(contentAlignment = Alignment.Center) {
-                                        Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(20.dp))
-                                    }
-                                }
-                                Text("Ebeveyn Masası", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ZomoTextPrimary)
-                            }
-                        },
-                        navigationIcon = {
-                            IconButton(onClick = onNavigateBack) {
-                                Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
-                            }
-                        },
-                        actions = {
-                            // Quick Day / Night Toggle
-                            IconButton(onClick = { appPreferences.toggleNightMode() }) {
-                                Surface(
-                                    shape = ZenPillShape,
-                                    color = ZenPaperCard,
-                                    border = BorderStroke(1.dp, ZenPaperBorder),
-                                    modifier = Modifier.size(36.dp)
-                                ) {
-                                    Box(contentAlignment = Alignment.Center) {
-                                        Icon(
-                                            imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
-                                            contentDescription = "Tema Değiştir",
-                                            tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
-                                            modifier = Modifier.size(18.dp)
-                                        )
-                                    }
-                                }
-                            }
-
-                            IconButton(onClick = onNavigateToPlanStudio) {
-                                Surface(
-                                    shape = ZenPillShape,
-                                    color = ZenSkyCyanContainer,
-                                    border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f)),
-                                    modifier = Modifier.size(36.dp)
-                                ) {
-                                    Box(contentAlignment = Alignment.Center) {
-                                        Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
-                                    }
+                                    Text(
+                                        "${waitingSessions.size}",
+                                        color = Color.White,
+                                        fontSize = 9.5.sp,
+                                        fontWeight = FontWeight.Bold
+                                    )
                                 }
                             }
                         }
-                    )
+                    }
+
+                    // Tab 2
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .clip(ZenPillShape)
+                            .background(if (selectedTabIndex == 1) ZenSkyCyan else Color.Transparent)
+                            .padding(vertical = 8.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            "📅 Haftalık Plan",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 12.5.sp,
+                            color = if (selectedTabIndex == 1) ZenMintText else ZomoTextSecondary
+                        )
+                    }
                 }
             }
-        ) { padding ->
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(padding)
-            ) {
-                // Frosted Navigation Tabs
-                Surface(
-                    color = ZenTextBackplate,
+
+            if (selectedTabIndex == 0) {
+                // TAB 1: Review Queue & Summary
+                LazyColumn(
                     modifier = Modifier
-                        .fillMaxWidth()
+                        .fillMaxSize()
                         .padding(horizontal = 16.dp, vertical = 6.dp),
-                    shape = ZenPillShape,
-                    border = BorderStroke(1.dp, ZenPaperBorder)
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(3.dp),
-                        horizontalArrangement = Arrangement.spacedBy(4.dp)
-                    ) {
-                        // Tab 1
-                        Surface(
-                            onClick = { selectedTabIndex = 0 },
-                            shape = ZenPillShape,
-                            color = if (selectedTabIndex == 0) ZenSkyCyan else Color.Transparent,
-                            modifier = Modifier.weight(1f)
+                    // Plan Overview Hero Artwork Card
+                    item {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(160.dp)
+                                .clip(ZenHeroShape)
+                                .border(1.dp, ZenPaperBorder, ZenHeroShape)
                         ) {
-                            Row(
-                                modifier = Modifier.padding(vertical = 8.dp),
-                                horizontalArrangement = Arrangement.Center,
-                                verticalAlignment = Alignment.CenterVertically
+                            Image(
+                                painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
+                                contentDescription = null,
+                                contentScale = ContentScale.Crop,
+                                modifier = Modifier.fillMaxSize()
+                            )
+
+                            // Dark vignette overlay
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .background(
+                                        Brush.verticalGradient(
+                                            listOf(
+                                                Color(0x33080D1A),
+                                                Color(0xCC080D1A)
+                                            )
+                                        )
+                                    )
+                            )
+
+                            Column(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .padding(16.dp),
+                                verticalArrangement = Arrangement.SpaceBetween
                             ) {
-                                Text(
-                                    "🚨 Onay Masası",
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 12.5.sp,
-                                    color = if (selectedTabIndex == 0) ZenMintText else ZomoTextSecondary
-                                )
-                                if (waitingSessions.isNotEmpty()) {
-                                    Spacer(modifier = Modifier.width(6.dp))
-                                    Surface(
-                                        shape = ZenPillShape,
-                                        color = ZenRoseCoral,
-                                        modifier = Modifier.padding(start = 2.dp)
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Column {
+                                        Text(
+                                            text = "Aktif Hafta",
+                                            style = MaterialTheme.typography.labelMedium,
+                                            color = Color.White.copy(alpha = 0.85f)
+                                        )
+                                        Text(
+                                            text = activePlan?.weekId ?: "Plan Yüklenmedi",
+                                            style = MaterialTheme.typography.titleMedium,
+                                            fontWeight = FontWeight.Bold,
+                                            color = Color.White
+                                        )
+                                    }
+
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(ZenPillShape)
+                                            .background(Color.Black.copy(alpha = 0.5f))
+                                            .border(1.dp, Color.White.copy(alpha = 0.25f), ZenPillShape)
+                                            .padding(horizontal = 12.dp, vertical = 5.dp)
                                     ) {
                                         Text(
-                                            "${waitingSessions.size}",
+                                            text = "$approvedTasks/$totalTasks Tamamlandı",
                                             color = Color.White,
-                                            fontSize = 9.5.sp,
                                             fontWeight = FontWeight.Bold,
-                                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 1.dp)
+                                            fontSize = 11.5.sp
                                         )
                                     }
                                 }
-                            }
-                        }
 
-                        // Tab 2
-                        Surface(
-                            onClick = { selectedTabIndex = 1 },
-                            shape = ZenPillShape,
-                            color = if (selectedTabIndex == 1) ZenSkyCyan else Color.Transparent,
-                            modifier = Modifier.weight(1f)
-                        ) {
-                            Row(
-                                modifier = Modifier.padding(vertical = 8.dp),
-                                horizontalArrangement = Arrangement.Center,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
                                 Text(
-                                    "📅 Haftalık Plan",
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 12.5.sp,
-                                    color = if (selectedTabIndex == 1) ZenMintText else ZomoTextSecondary
+                                    text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = Color.White.copy(alpha = 0.9f),
+                                    fontSize = 11.sp
                                 )
                             }
                         }
                     }
-                }
 
-                if (selectedTabIndex == 0) {
-                    // TAB 1: Review Queue & Summary
-                    LazyColumn(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(horizontal = 16.dp, vertical = 6.dp),
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
-                    ) {
-                        // Plan Overview Hero Card
+                    // Quick Studio Action Button
+                    item {
+                        Button(
+                            onClick = onNavigateToPlanStudio,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(46.dp),
+                            shape = ZenPillShape,
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = ZenSkyCyan,
+                                contentColor = ZenMintText
+                            )
+                        ) {
+                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(18.dp), tint = ZenMintText)
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                        }
+                    }
+
+                    // Waiting Review Queue Header
+                    item {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "🚨 Onay Bekleyen Oturumlar",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZomoTextPrimary,
+                                fontSize = 14.sp
+                            )
+                            if (waitingSessions.isNotEmpty()) {
+                                Box(
+                                    modifier = Modifier
+                                        .clip(ZenPillShape)
+                                        .background(ZenRoseContainer)
+                                        .border(1.dp, ZenRoseCoral.copy(alpha = 0.4f), ZenPillShape)
+                                        .padding(horizontal = 8.dp, vertical = 2.dp)
+                                ) {
+                                    Text(
+                                        "${waitingSessions.size} bekliyor",
+                                        color = ZenRoseCoral,
+                                        fontSize = 10.5.sp,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    if (waitingSessions.isEmpty()) {
                         item {
-                            Surface(
-                                modifier = Modifier.fillMaxWidth(),
-                                shape = ZenHeroShape,
-                                color = ZenPaperCard,
-                                border = BorderStroke(1.dp, ZenPaperBorder)
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clip(ZenCardShape)
+                                    .background(ZenPaperCard)
+                                    .border(1.dp, ZenPaperBorder, ZenCardShape)
+                                    .padding(24.dp),
+                                contentAlignment = Alignment.Center
                             ) {
                                 Column(
-                                    modifier = Modifier.padding(16.dp),
+                                    horizontalAlignment = Alignment.CenterHorizontally,
                                     verticalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
+                                    Box(
+                                        modifier = Modifier
+                                            .size(44.dp)
+                                            .clip(ZenSquircleShape)
+                                            .background(ZenForestContainer)
+                                            .border(1.dp, ZenForestGreen.copy(alpha = 0.4f), ZenSquircleShape),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(24.dp))
+                                    }
+                                    Text(
+                                        "İncelenmeyi bekleyen oturum yok 🎉",
+                                        fontWeight = FontWeight.Bold,
+                                        color = ZomoTextSecondary,
+                                        fontSize = 13.sp
+                                    )
+                                }
+                            }
+                        }
+                    } else {
+                        items(waitingSessions, key = { it.sessionId }) { session ->
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .graphicsLayer {
+                                        shape = ZenCardShape
+                                        clip = true
+                                    }
+                                    .background(ZenPaperCard)
+                                    .border(1.dp, ZenMoonGold.copy(alpha = 0.5f), ZenCardShape)
+                                    .padding(14.dp)
+                            ) {
+                                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                                     Row(
                                         modifier = Modifier.fillMaxWidth(),
                                         horizontalArrangement = Arrangement.SpaceBetween,
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
-                                        Column {
-                                            Text(
-                                                text = "Aktif Hafta",
-                                                style = MaterialTheme.typography.labelMedium,
-                                                color = ZomoTextSecondary
-                                            )
-                                            Text(
-                                                text = activePlan?.weekId ?: "Plan Yüklenmedi",
-                                                style = MaterialTheme.typography.titleMedium,
-                                                fontWeight = FontWeight.Bold,
-                                                color = ZomoTextPrimary
-                                            )
-                                        }
-
-                                        Surface(
-                                            shape = ZenPillShape,
-                                            color = ZenForestContainer,
-                                            border = BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f))
-                                        ) {
-                                            Text(
-                                                text = "$approvedTasks/$totalTasks Tamamlandı",
-                                                color = ZenForestGreen,
-                                                fontWeight = FontWeight.Bold,
-                                                fontSize = 11.5.sp,
-                                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 5.dp)
-                                            )
-                                        }
-                                    }
-
-                                    Text(
-                                        text = "Öğrenci: ${activePlan?.childId ?: "child_1"} • Zaman Dilimi: ${activePlan?.timezone ?: "Europe/Istanbul"}",
-                                        style = MaterialTheme.typography.bodySmall,
-                                        color = ZomoTextSecondary,
-                                        fontSize = 11.sp
-                                    )
-                                }
-                            }
-                        }
-
-                        // Quick Studio Action Button
-                        item {
-                            Button(
-                                onClick = onNavigateToPlanStudio,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(46.dp),
-                                shape = ZenPillShape,
-                                colors = ButtonDefaults.buttonColors(
-                                    containerColor = ZenSkyCyan,
-                                    contentColor = ZenMintText
-                                )
-                            ) {
-                                Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(18.dp), tint = ZenMintText)
-                                Spacer(modifier = Modifier.width(6.dp))
-                                Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                            }
-                        }
-
-                        // Waiting Review Queue Header
-                        item {
-                            Surface(
-                                shape = RoundedCornerShape(12.dp),
-                                color = ZenTextBackplate,
-                                border = BorderStroke(1.dp, ZenPaperBorder),
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Row(
-                                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
-                                    horizontalArrangement = Arrangement.SpaceBetween,
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    Text(
-                                        text = "🚨 Onay Bekleyen Oturumlar",
-                                        style = MaterialTheme.typography.titleMedium,
-                                        fontWeight = FontWeight.Bold,
-                                        color = ZomoTextPrimary,
-                                        fontSize = 14.sp
-                                    )
-                                    if (waitingSessions.isNotEmpty()) {
-                                        Surface(
-                                            shape = ZenPillShape,
-                                            color = ZenRoseContainer,
-                                            border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f))
-                                        ) {
-                                            Text(
-                                                "${waitingSessions.size} bekliyor",
-                                                color = ZenRoseCoral,
-                                                fontSize = 10.5.sp,
-                                                fontWeight = FontWeight.Bold,
-                                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
-                                            )
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        if (waitingSessions.isEmpty()) {
-                            item {
-                                Surface(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    shape = ZenCardShape,
-                                    border = BorderStroke(1.dp, ZenPaperBorder),
-                                    color = ZenPaperCard
-                                ) {
-                                    Box(
-                                        modifier = Modifier
-                                            .fillMaxWidth()
-                                            .padding(24.dp),
-                                        contentAlignment = Alignment.Center
-                                    ) {
-                                        Column(
-                                            horizontalAlignment = Alignment.CenterHorizontally,
-                                            verticalArrangement = Arrangement.spacedBy(8.dp)
-                                        ) {
-                                            Surface(
-                                                shape = ZenSquircleShape,
-                                                color = ZenForestContainer,
-                                                border = BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f)),
-                                                modifier = Modifier.size(46.dp)
-                                            ) {
-                                                Box(contentAlignment = Alignment.Center) {
-                                                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(24.dp))
-                                                }
-                                            }
-                                            Text(
-                                                "İncelenmeyi bekleyen oturum yok 🎉",
-                                                fontWeight = FontWeight.Bold,
-                                                color = ZomoTextSecondary,
-                                                fontSize = 13.sp
-                                            )
-                                        }
-                                    }
-                                }
-                            }
-                        } else {
-                            items(waitingSessions, key = { it.sessionId }) { session ->
-                                Surface(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    shape = ZenCardShape,
-                                    color = ZenPaperCard,
-                                    border = BorderStroke(1.dp, ZenMoonGold.copy(alpha = 0.5f))
-                                ) {
-                                    Column(
-                                        modifier = Modifier.padding(14.dp),
-                                        verticalArrangement = Arrangement.spacedBy(10.dp)
-                                    ) {
                                         Row(
-                                            modifier = Modifier.fillMaxWidth(),
-                                            horizontalArrangement = Arrangement.SpaceBetween,
-                                            verticalAlignment = Alignment.CenterVertically
+                                            verticalAlignment = Alignment.CenterVertically,
+                                            horizontalArrangement = Arrangement.spacedBy(10.dp)
                                         ) {
-                                            Row(
-                                                verticalAlignment = Alignment.CenterVertically,
-                                                horizontalArrangement = Arrangement.spacedBy(10.dp)
+                                            Box(
+                                                modifier = Modifier
+                                                    .size(38.dp)
+                                                    .clip(ZenSquircleShape)
+                                                    .background(ZenMoonGoldContainer),
+                                                contentAlignment = Alignment.Center
                                             ) {
-                                                Surface(
-                                                    shape = ZenSquircleShape,
-                                                    color = ZenMoonGoldContainer,
-                                                    modifier = Modifier.size(40.dp)
-                                                ) {
-                                                    Box(contentAlignment = Alignment.Center) {
-                                                        Icon(Icons.Default.HourglassTop, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(20.dp))
-                                                    }
-                                                }
-                                                Column {
-                                                    Text(
-                                                        text = session.occurrenceKey,
-                                                        fontWeight = FontWeight.Bold,
-                                                        color = ZomoTextPrimary,
-                                                        fontSize = 14.sp
-                                                    )
-                                                    Text(
-                                                        text = "Başlangıç: ${timeFormat.format(Date(session.startTime))}" +
-                                                                (session.endTime?.let { " • Bitiş: ${timeFormat.format(Date(it))}" } ?: ""),
-                                                        style = MaterialTheme.typography.bodySmall,
-                                                        color = ZomoTextSecondary,
-                                                        fontSize = 11.5.sp
-                                                    )
-                                                }
+                                                Icon(Icons.Default.HourglassTop, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(18.dp))
                                             }
-
-                                            Surface(
-                                                shape = ZenPillShape,
-                                                color = ZenSkyCyanContainer,
-                                                border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.3f))
-                                            ) {
+                                            Column {
                                                 Text(
-                                                    text = "📸 ${session.screenshotCount} Kanıt",
-                                                    color = ZenSkyCyan,
-                                                    fontSize = 10.5.sp,
+                                                    text = session.occurrenceKey,
                                                     fontWeight = FontWeight.Bold,
-                                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                                                    color = ZomoTextPrimary,
+                                                    fontSize = 14.sp
+                                                )
+                                                Text(
+                                                    text = "Başlangıç: ${timeFormat.format(Date(session.startTime))}" +
+                                                            (session.endTime?.let { " • Bitiş: ${timeFormat.format(Date(it))}" } ?: ""),
+                                                    style = MaterialTheme.typography.bodySmall,
+                                                    color = ZomoTextSecondary,
+                                                    fontSize = 11.5.sp
                                                 )
                                             }
                                         }
 
-                                        Row(
-                                            modifier = Modifier.fillMaxWidth(),
-                                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                        Box(
+                                            modifier = Modifier
+                                                .clip(ZenPillShape)
+                                                .background(ZenSkyCyanContainer)
+                                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.3f), ZenPillShape)
+                                                .padding(horizontal = 8.dp, vertical = 3.dp)
                                         ) {
-                                            Button(
-                                                onClick = { onNavigateToSessionReview(session.sessionId) },
-                                                modifier = Modifier.weight(1f).height(38.dp),
-                                                shape = ZenPillShape,
-                                                colors = ButtonDefaults.buttonColors(
-                                                    containerColor = ZenSkyCyan,
-                                                    contentColor = ZenMintText
-                                                )
-                                            ) {
-                                                Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(15.dp), tint = ZenMintText)
-                                                Spacer(modifier = Modifier.width(4.dp))
-                                                Text("Kanıtları İncele", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
-                                            }
+                                            Text(
+                                                text = "📸 ${session.screenshotCount} Kanıt",
+                                                color = ZenSkyCyan,
+                                                fontSize = 10.5.sp,
+                                                fontWeight = FontWeight.Bold
+                                            )
+                                        }
+                                    }
 
-                                            Button(
-                                                onClick = {
-                                                    scope.launch {
-                                                        sessionRepo.submitReview(
-                                                            Review(
-                                                                sessionId = session.sessionId,
-                                                                occurrenceKey = session.occurrenceKey,
-                                                                reviewStatus = ReviewStatus.APPROVED,
-                                                                reviewNote = "Ebeveyn tarafından hızlı onaylandı",
-                                                                reviewedAt = System.currentTimeMillis()
-                                                            )
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        Button(
+                                            onClick = { onNavigateToSessionReview(session.sessionId) },
+                                            modifier = Modifier.weight(1f).height(36.dp),
+                                            shape = ZenPillShape,
+                                            colors = ButtonDefaults.buttonColors(
+                                                containerColor = ZenSkyCyan,
+                                                contentColor = ZenMintText
+                                            )
+                                        ) {
+                                            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(14.dp), tint = ZenMintText)
+                                            Spacer(modifier = Modifier.width(4.dp))
+                                            Text("Kanıtları İncele", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                                        }
+
+                                        Button(
+                                            onClick = {
+                                                scope.launch {
+                                                    sessionRepo.submitReview(
+                                                        Review(
+                                                            sessionId = session.sessionId,
+                                                            occurrenceKey = session.occurrenceKey,
+                                                            reviewStatus = ReviewStatus.APPROVED,
+                                                            reviewNote = "Ebeveyn tarafından hızlı onaylandı",
+                                                            reviewedAt = System.currentTimeMillis()
                                                         )
-                                                    }
-                                                },
-                                                modifier = Modifier.height(38.dp),
-                                                shape = ZenPillShape,
-                                                colors = ButtonDefaults.buttonColors(
-                                                    containerColor = ZenForestGreen,
-                                                    contentColor = Color.White
-                                                )
-                                            ) {
-                                                Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(15.dp))
-                                                Spacer(modifier = Modifier.width(3.dp))
-                                                Text("Hızlı Onayla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
-                                            }
+                                                    )
+                                                }
+                                            },
+                                            modifier = Modifier.height(36.dp),
+                                            shape = ZenPillShape,
+                                            colors = ButtonDefaults.buttonColors(
+                                                containerColor = ZenForestGreen,
+                                                contentColor = Color.White
+                                            )
+                                        ) {
+                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(14.dp))
+                                            Spacer(modifier = Modifier.width(3.dp))
+                                            Text("Hızlı Onayla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
                                         }
                                     }
                                 }
                             }
                         }
-
-                        item { Spacer(modifier = Modifier.height(20.dp)) }
                     }
-                } else {
-                    // TAB 2: Weekly Plan Overview
-                    Column(
+
+                    item { Spacer(modifier = Modifier.height(20.dp)) }
+                }
+            } else {
+                // TAB 2: Weekly Plan Overview
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp, vertical = 6.dp),
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                ) {
+                    // Day Filter Row
+                    Row(
                         modifier = Modifier
-                            .fillMaxSize()
-                            .padding(horizontal = 16.dp, vertical = 6.dp),
-                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                            .fillMaxWidth()
+                            .horizontalScroll(rememberScrollState()),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
                     ) {
-                        // Day Filter Row
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .horizontalScroll(rememberScrollState()),
-                            horizontalArrangement = Arrangement.spacedBy(6.dp)
-                        ) {
-                            for ((code, label) in DAY_FILTERS) {
-                                val isSelected = selectedDayFilter == code
-                                Surface(
-                                    onClick = { selectedDayFilter = code },
-                                    shape = ZenPillShape,
-                                    color = if (isSelected) ZenSkyCyan else ZenPaperCard,
-                                    border = BorderStroke(1.dp, if (isSelected) ZenSkyCyan else ZenPaperBorder)
-                                ) {
-                                    Text(
-                                        text = label,
-                                        color = if (isSelected) ZenMintText else ZomoTextSecondary,
-                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
-                                        fontSize = 11.5.sp,
-                                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
-                                    )
+                        for ((code, label) in DAY_FILTERS) {
+                            val isSelected = selectedDayFilter == code
+                            Box(
+                                modifier = Modifier
+                                    .clip(ZenPillShape)
+                                    .background(if (isSelected) ZenSkyCyan else ZenPaperCard)
+                                    .border(1.dp, if (isSelected) ZenSkyCyan else ZenPaperBorder, ZenPillShape)
+                                    .padding(horizontal = 12.dp, vertical = 6.dp),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Text(
+                                    text = label,
+                                    color = if (isSelected) ZenMintText else ZomoTextSecondary,
+                                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
+                                    fontSize = 11.5.sp
+                                )
+                            }
+                        }
+                    }
+
+                    val filteredDailyOccurrences = remember(dailyOccurrences, selectedDayFilter) {
+                        if (selectedDayFilter == "ALL") {
+                            dailyOccurrences
+                        } else {
+                            val dayIndex = listOf("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN").indexOf(selectedDayFilter)
+                            val calendar = Calendar.getInstance(Locale.US)
+
+                            dailyOccurrences.filter { occ ->
+                                val dateStr = occ.date ?: ""
+                                try {
+                                    val occDate = dateFormat.parse(dateStr)
+                                    if (occDate != null) {
+                                        calendar.time = occDate
+                                        val occDayOfWeek = calendar.get(Calendar.DAY_OF_WEEK)
+                                        val normalizedDay = when (occDayOfWeek) {
+                                            Calendar.MONDAY -> "MON"
+                                            Calendar.TUESDAY -> "TUE"
+                                            Calendar.WEDNESDAY -> "WED"
+                                            Calendar.THURSDAY -> "THU"
+                                            Calendar.FRIDAY -> "FRI"
+                                            Calendar.SATURDAY -> "SAT"
+                                            Calendar.SUNDAY -> "SUN"
+                                            else -> ""
+                                        }
+                                        normalizedDay == selectedDayFilter
+                                    } else false
+                                } catch (_: Exception) {
+                                    true
                                 }
                             }
                         }
+                    }
 
-                        val filteredDailyOccurrences = remember(dailyOccurrences, selectedDayFilter) {
-                            if (selectedDayFilter == "ALL") {
-                                dailyOccurrences
-                            } else {
-                                val dayIndex = listOf("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN").indexOf(selectedDayFilter)
-                                val calendar = Calendar.getInstance(Locale.US)
-                                val mondayOffset = if (dayIndex >= 0) dayIndex else 0
-
-                                dailyOccurrences.filter { occ ->
-                                    val dateStr = occ.date ?: ""
-                                    try {
-                                        val occDate = dateFormat.parse(dateStr)
-                                        if (occDate != null) {
-                                            calendar.time = occDate
-                                            val occDayOfWeek = calendar.get(Calendar.DAY_OF_WEEK)
-                                            val normalizedDay = when (occDayOfWeek) {
-                                                Calendar.MONDAY -> "MON"
-                                                Calendar.TUESDAY -> "TUE"
-                                                Calendar.WEDNESDAY -> "WED"
-                                                Calendar.THURSDAY -> "THU"
-                                                Calendar.FRIDAY -> "FRI"
-                                                Calendar.SATURDAY -> "SAT"
-                                                Calendar.SUNDAY -> "SUN"
-                                                else -> ""
-                                            }
-                                            normalizedDay == selectedDayFilter
-                                        } else false
-                                    } catch (_: Exception) {
-                                        true
-                                    }
-                                }
-                            }
-                        }
-
-                        LazyColumn(
-                            verticalArrangement = Arrangement.spacedBy(10.dp),
-                            modifier = Modifier.fillMaxSize()
-                        ) {
-                            if (selectedDayFilter == "ALL" && weeklyOccurrences.isNotEmpty()) {
-                                item {
-                                    Text(
-                                        text = "🎯 Haftalık Hedefler (${weeklyOccurrences.size})",
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 14.sp,
-                                        color = ZomoTextPrimary
-                                    )
-                                }
-
-                                items(weeklyOccurrences, key = { "wk_" + it.occurrenceKey }) { occ ->
-                                    OccurrenceAdminCard(occurrence = occ)
-                                }
-                            }
-
+                    LazyColumn(
+                        verticalArrangement = Arrangement.spacedBy(8.dp),
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        if (selectedDayFilter == "ALL" && weeklyOccurrences.isNotEmpty()) {
                             item {
                                 Text(
-                                    text = "📅 Günlük Ders Görevleri (${filteredDailyOccurrences.size})",
+                                    text = "🎯 Haftalık Hedefler (${weeklyOccurrences.size})",
                                     fontWeight = FontWeight.Bold,
                                     fontSize = 14.sp,
                                     color = ZomoTextPrimary
                                 )
                             }
 
-                            if (filteredDailyOccurrences.isEmpty()) {
-                                item {
-                                    Surface(
-                                        modifier = Modifier.fillMaxWidth(),
-                                        shape = ZenCardShape,
-                                        border = BorderStroke(1.dp, ZenPaperBorder),
-                                        color = ZenPaperCard
-                                    ) {
-                                        Box(modifier = Modifier.padding(20.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
-                                            Text("Seçilen gün için tanımlı görev bulunamadı.", color = ZomoTextSecondary, fontSize = 12.5.sp)
-                                        }
-                                    }
-                                }
-                            } else {
-                                items(filteredDailyOccurrences, key = { "dl_" + it.occurrenceKey }) { occ ->
-                                    OccurrenceAdminCard(occurrence = occ)
+                            items(weeklyOccurrences, key = { "wk_" + it.occurrenceKey }) { occ ->
+                                OccurrenceAdminCard(occurrence = occ)
+                            }
+                        }
+
+                        item {
+                            Text(
+                                text = "📅 Günlük Ders Görevleri (${filteredDailyOccurrences.size})",
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 14.sp,
+                                color = ZomoTextPrimary
+                            )
+                        }
+
+                        if (filteredDailyOccurrences.isEmpty()) {
+                            item {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .clip(ZenCardShape)
+                                        .background(ZenPaperCard)
+                                        .border(1.dp, ZenPaperBorder, ZenCardShape)
+                                        .padding(18.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text("Seçilen gün için tanımlı görev bulunamadı.", color = ZomoTextSecondary, fontSize = 12.5.sp)
                                 }
                             }
-
-                            item { Spacer(modifier = Modifier.height(20.dp)) }
+                        } else {
+                            items(filteredDailyOccurrences, key = { "dl_" + it.occurrenceKey }) { occ ->
+                                OccurrenceAdminCard(occurrence = occ)
+                            }
                         }
+
+                        item { Spacer(modifier = Modifier.height(20.dp)) }
                     }
                 }
             }
@@ -669,33 +654,66 @@ fun ParentDashboardScreen(
 }
 
 @Composable
-fun OccurrenceAdminCard(occurrence: Occurrence) {
-    Surface(
-        modifier = Modifier.fillMaxWidth(),
-        shape = ZenCardShape,
-        color = ZenPaperCard,
-        border = BorderStroke(1.dp, ZenPaperBorder)
+fun OccurrenceAdminCard(
+    occurrence: Occurrence,
+    modifier: Modifier = Modifier
+) {
+    val badgeText: String
+    val badgeBg: Color
+    val badgeFg: Color
+
+    when (occurrence.status) {
+        OccurrenceStatus.APPROVED -> {
+            badgeText = "Onaylandı"
+            badgeBg = ZenForestContainer
+            badgeFg = ZenForestGreen
+        }
+        OccurrenceStatus.WAITING_REVIEW -> {
+            badgeText = "İnceleniyor"
+            badgeBg = ZenMoonGoldContainer
+            badgeFg = ZenMoonGold
+        }
+        OccurrenceStatus.ACTIVE -> {
+            badgeText = "Aktif"
+            badgeBg = ZenSkyCyanContainer
+            badgeFg = ZenSkyCyan
+        }
+        else -> {
+            badgeText = "Bekliyor"
+            badgeBg = Color(0x15FFFFFF)
+            badgeFg = ZomoTextSecondary
+        }
+    }
+
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .graphicsLayer {
+                shape = ZenCardShape
+                clip = true
+            }
+            .background(ZenPaperCard)
+            .border(1.dp, ZenPaperBorder, ZenCardShape)
+            .padding(12.dp)
     ) {
         Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(14.dp),
+            modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp)
+            horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
-            Surface(
-                shape = ZenSquircleShape,
-                color = if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestContainer else ZenSkyCyanContainer,
-                modifier = Modifier.size(38.dp)
+            Box(
+                modifier = Modifier
+                    .size(36.dp)
+                    .clip(ZenSquircleShape)
+                    .background(if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestContainer else ZenSkyCyanContainer),
+                contentAlignment = Alignment.Center
             ) {
-                Box(contentAlignment = Alignment.Center) {
-                    Icon(
-                        imageVector = if (occurrence.status == OccurrenceStatus.APPROVED) Icons.Default.Check else Icons.Default.MenuBook,
-                        contentDescription = null,
-                        tint = if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestGreen else ZenSkyCyan,
-                        modifier = Modifier.size(18.dp)
-                    )
-                }
+                Icon(
+                    imageVector = if (occurrence.status == OccurrenceStatus.APPROVED) Icons.Default.Check else Icons.Default.MenuBook,
+                    contentDescription = null,
+                    tint = if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestGreen else ZenSkyCyan,
+                    modifier = Modifier.size(17.dp)
+                )
             }
 
             Column(modifier = Modifier.weight(1f)) {
@@ -716,24 +734,18 @@ fun OccurrenceAdminCard(occurrence: Occurrence) {
                 )
             }
 
-            val (badgeText, badgeBg, badgeFg) = when (occurrence.status) {
-                OccurrenceStatus.APPROVED -> Triple("Onaylandı", ZenForestContainer, ZenForestGreen)
-                OccurrenceStatus.WAITING_REVIEW -> Triple("İnceleniyor", ZenMoonGoldContainer, ZenMoonGold)
-                OccurrenceStatus.ACTIVE -> Triple("Aktif", ZenSkyCyanContainer, ZenSkyCyan)
-                else -> Triple("Bekliyor", Color(0x15FFFFFF), ZomoTextSecondary)
-            }
-
-            Surface(
-                shape = ZenPillShape,
-                color = badgeBg,
-                border = BorderStroke(1.dp, badgeFg.copy(alpha = 0.3f))
+            Box(
+                modifier = Modifier
+                    .clip(ZenPillShape)
+                    .background(badgeBg)
+                    .border(1.dp, badgeFg.copy(alpha = 0.3f), ZenPillShape)
+                    .padding(horizontal = 8.dp, vertical = 2.dp)
             ) {
                 Text(
                     text = badgeText,
                     color = badgeFg,
                     fontSize = 10.sp,
-                    fontWeight = FontWeight.Bold,
-                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
+                    fontWeight = FontWeight.Bold
                 )
             }
         }
