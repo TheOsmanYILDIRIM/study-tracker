@@ -11,7 +11,6 @@
 # Kotlinx Serialization
 -dontnote kotlinx.serialization.**
 -keepclassmembers class * {
-    companion object *;
     *** Companion;
 }
 -keepclasseswithmembers class * {
