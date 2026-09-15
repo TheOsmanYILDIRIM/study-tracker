@@ -138,7 +138,7 @@ class SessionStateManager private constructor(
         scope.launch(Dispatchers.IO) {
             getEffectiveCaptureDriver().stop()
             // Reset task status to PENDING so student can start whenever desired
-            occurrenceRepository.updateOccurrenceStatus(
+            occurrenceRepository.updateStatus(
                 current.session.occurrenceKey,
                 com.studytracker.core.domain.model.OccurrenceStatus.PENDING
             )
