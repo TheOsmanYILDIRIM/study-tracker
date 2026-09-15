@@ -10,7 +10,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -50,10 +49,9 @@ fun StudyTaskCard(
         else -> ZenPaperBorder
     }
 
+    // High performance: Solid card background & border (zero alpha blend lag during fast scroll)
     Card(
-        modifier = modifier
-            .fillMaxWidth()
-            .shadow(elevation = 2.dp, shape = ZenCardShape, spotColor = Color.Black),
+        modifier = modifier.fillMaxWidth(),
         shape = ZenCardShape,
         colors = CardDefaults.cardColors(
             containerColor = if (occurrence.status == OccurrenceStatus.ACTIVE) ZenPaperElevated else ZenPaperCard

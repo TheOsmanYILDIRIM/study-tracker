@@ -3,7 +3,6 @@ package com.studytracker.feature.parent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -13,8 +12,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
@@ -28,9 +25,9 @@ import com.studytracker.R
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.ui.theme.*
 
-private val ZenHeroShape = RoundedCornerShape(26.dp)
-private val ZenCardShape = RoundedCornerShape(22.dp)
-private val ZenSquircleShape = RoundedCornerShape(15.dp)
+private val ZenHeroShape = RoundedCornerShape(22.dp)
+private val ZenCardShape = RoundedCornerShape(20.dp)
+private val ZenSquircleShape = RoundedCornerShape(14.dp)
 private val ZenPillShape = CircleShape
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -43,6 +40,7 @@ fun RoleSelectionScreen(
 ) {
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
+    val isNightMode by appPreferences.isNightMode.collectAsState()
     val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
 
@@ -52,116 +50,138 @@ fun RoleSelectionScreen(
 
     // Full-screen Storybook Paper Cutout Scene Root
     Box(modifier = Modifier.fillMaxSize()) {
-        // Layer 0: Vertical 9:16 Paper Cutout Illustration
+        // Layer 0: Vertical 9:16 Paper Cutout Illustration (Day or Night)
         Image(
-            painter = painterResource(id = R.drawable.bg_zen_night),
+            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
 
-        // Layer 1: Soft Translucent Vignette for Storybook Layering
+        // Layer 1: Frosted Dark Vignette for Readability
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
                         colors = listOf(
-                            Color(0x77080D1A),
-                            Color(0xB3080D1A),
-                            Color(0xEB080D1A)
+                            Color(0x88080D1A),
+                            Color(0xC0080D1A),
+                            Color(0xF0080D1A)
                         )
                     )
                 )
         )
 
-        // Layer 2: Interactive UI Layer
+        // Layer 2: Interactive UI
         Scaffold(
             containerColor = Color.Transparent,
             topBar = {
-                TopAppBar(
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent,
-                        titleContentColor = ZomoTextPrimary
-                    ),
-                    title = {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
-                        ) {
-                            Surface(
-                                shape = RoundedCornerShape(12.dp),
-                                color = ZenSkyCyanContainer,
-                                border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
-                                modifier = Modifier.size(36.dp)
+                Surface(
+                    color = ZenTopBarBackplate,
+                    border = BorderStroke(0.dp, Color.Transparent)
+                ) {
+                    TopAppBar(
+                        colors = TopAppBarDefaults.topAppBarColors(
+                            containerColor = Color.Transparent,
+                            titleContentColor = ZomoTextPrimary
+                        ),
+                        title = {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(10.dp)
                             ) {
-                                Box(contentAlignment = Alignment.Center) {
-                                    Icon(
-                                        Icons.Default.AutoStories,
-                                        contentDescription = null,
-                                        tint = ZenSkyCyan,
-                                        modifier = Modifier.size(18.dp)
-                                    )
+                                Surface(
+                                    shape = RoundedCornerShape(12.dp),
+                                    color = ZenSkyCyanContainer,
+                                    border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(
+                                            Icons.Default.AutoStories,
+                                            contentDescription = null,
+                                            tint = ZenSkyCyan,
+                                            modifier = Modifier.size(18.dp)
+                                        )
+                                    }
+                                }
+                                Text(
+                                    "StudyTracker",
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 19.sp,
+                                    color = ZomoTextPrimary
+                                )
+                                if (isTestModeEnabled) {
+                                    Surface(
+                                        shape = ZenPillShape,
+                                        color = ZenRoseContainer,
+                                        border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f))
+                                    ) {
+                                        Text(
+                                            text = "🧪 TEST",
+                                            color = ZenRoseCoral,
+                                            fontSize = 10.sp,
+                                            fontWeight = FontWeight.Bold,
+                                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
+                                        )
+                                    }
                                 }
                             }
-                            Text(
-                                "StudyTracker",
-                                fontWeight = FontWeight.Bold,
-                                fontSize = 19.sp,
-                                color = ZomoTextPrimary
-                            )
-                            if (isTestModeEnabled) {
+                        },
+                        actions = {
+                            // Quick Day / Night Theme Toggle
+                            IconButton(onClick = { appPreferences.toggleNightMode() }) {
                                 Surface(
                                     shape = ZenPillShape,
-                                    color = ZenRoseContainer,
-                                    border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f))
+                                    color = ZenPaperCard,
+                                    border = BorderStroke(1.dp, ZenPaperBorder),
+                                    modifier = Modifier.size(36.dp)
                                 ) {
-                                    Text(
-                                        text = "🧪 TEST",
-                                        color = ZenRoseCoral,
-                                        fontSize = 10.sp,
-                                        fontWeight = FontWeight.Bold,
-                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
-                                    )
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(
+                                            imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
+                                            contentDescription = "Tema Değiştir",
+                                            tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
+                                            modifier = Modifier.size(18.dp)
+                                        )
+                                    }
+                                }
+                            }
+
+                            IconButton(onClick = onNavigateToDevMode) {
+                                Surface(
+                                    shape = ZenPillShape,
+                                    color = ZenPaperCard,
+                                    border = BorderStroke(1.dp, ZenPaperBorder),
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(
+                                            imageVector = if (isTestModeEnabled) Icons.Default.Build else Icons.Default.Settings,
+                                            contentDescription = "Ayarlar / Test Konsolu",
+                                            tint = if (isTestModeEnabled) ZenSkyCyan else ZomoTextSecondary,
+                                            modifier = Modifier.size(18.dp)
+                                        )
+                                    }
                                 }
                             }
                         }
-                    },
-                    actions = {
-                        IconButton(onClick = onNavigateToDevMode) {
-                            Surface(
-                                shape = ZenPillShape,
-                                color = ZenPaperCard,
-                                border = BorderStroke(1.dp, ZenPaperBorder),
-                                modifier = Modifier.size(36.dp)
-                            ) {
-                                Box(contentAlignment = Alignment.Center) {
-                                    Icon(
-                                        imageVector = if (isTestModeEnabled) Icons.Default.Build else Icons.Default.Settings,
-                                        contentDescription = "Ayarlar / Test Konsolu",
-                                        tint = if (isTestModeEnabled) ZenSkyCyan else ZomoTextSecondary,
-                                        modifier = Modifier.size(18.dp)
-                                    )
-                                }
-                            }
-                        }
-                    }
-                )
+                    )
+                }
             }
         ) { padding ->
             Column(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
-                    .padding(horizontal = 18.dp, vertical = 8.dp),
+                    .padding(horizontal = 18.dp, vertical = 12.dp),
                 verticalArrangement = Arrangement.SpaceBetween,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 // Storybook Layered Paper Hero Welcome Card
                 Surface(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .shadow(elevation = 4.dp, shape = ZenHeroShape, spotColor = Color.Black),
+                    modifier = Modifier.fillMaxWidth(),
                     shape = ZenHeroShape,
                     color = ZenPaperCard,
                     border = BorderStroke(1.dp, ZenPaperBorder)
@@ -169,7 +189,7 @@ fun RoleSelectionScreen(
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(20.dp),
+                            .padding(18.dp),
                         verticalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Surface(
@@ -183,13 +203,13 @@ fun RoleSelectionScreen(
                                 horizontalArrangement = Arrangement.spacedBy(5.dp)
                             ) {
                                 Icon(
-                                    Icons.Default.NightsStay,
+                                    imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
                                     contentDescription = null,
                                     tint = ZenMoonGold,
                                     modifier = Modifier.size(13.dp)
                                 )
                                 Text(
-                                    text = "Huzurlu Masal & Odaklanma",
+                                    text = if (isNightMode) "Huzurlu Gece Modu" else "Aydınlık Gündüz Modu",
                                     color = ZenMoonGold,
                                     fontSize = 11.sp,
                                     fontWeight = FontWeight.Bold
@@ -215,7 +235,7 @@ fun RoleSelectionScreen(
                     }
                 }
 
-                Spacer(modifier = Modifier.height(10.dp))
+                Spacer(modifier = Modifier.height(8.dp))
 
                 // Role Selection Cards Column
                 Column(
@@ -231,9 +251,7 @@ fun RoleSelectionScreen(
                                 onNavigateToChildTutorial()
                             }
                         },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .shadow(elevation = 3.dp, shape = ZenCardShape, spotColor = Color.Black),
+                        modifier = Modifier.fillMaxWidth(),
                         shape = ZenCardShape,
                         colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
                         border = BorderStroke(1.dp, ZenPaperBorder)
@@ -319,9 +337,7 @@ fun RoleSelectionScreen(
                     // Parent Mode Card
                     Card(
                         onClick = { showPinDialog = true },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .shadow(elevation = 3.dp, shape = ZenCardShape, spotColor = Color.Black),
+                        modifier = Modifier.fillMaxWidth(),
                         shape = ZenCardShape,
                         colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
                         border = BorderStroke(1.dp, ZenGlassBorder)
@@ -417,14 +433,14 @@ fun RoleSelectionScreen(
                         ),
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(top = 10.dp)
+                            .padding(top = 8.dp)
                     ) {
                         Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(15.dp), tint = ZenSkyCyan)
                         Spacer(modifier = Modifier.width(8.dp))
                         Text("🛠️ Geliştirici & Test Konsolu", color = ZenSkyCyan, fontWeight = FontWeight.Bold, fontSize = 12.sp)
                     }
                 } else {
-                    Spacer(modifier = Modifier.height(10.dp))
+                    Spacer(modifier = Modifier.height(8.dp))
                 }
             }
         }

@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -17,7 +16,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
@@ -28,6 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.R
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
 import com.studytracker.core.domain.model.OccurrenceStatus
@@ -37,9 +36,10 @@ import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-private val ZenHeroShape = RoundedCornerShape(24.dp)
+private val ZenHeroShape = RoundedCornerShape(22.dp)
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(18.dp)
+private val ZenHeaderBackplateShape = RoundedCornerShape(14.dp)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -48,6 +48,9 @@ fun ChildHomeScreen(
     onOpenTutorial: () -> Unit
 ) {
     val context = LocalContext.current
+    val appPreferences = remember { AppPreferences.getInstance(context) }
+    val isNightMode by appPreferences.isNightMode.collectAsState()
+
     val stateManager = remember { SessionStateManager.getInstance(context) }
     val occurrences by remember(stateManager) {
         stateManager.occurrenceRepository.getAllOccurrences()
@@ -84,81 +87,105 @@ fun ChildHomeScreen(
         if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
     }
 
-    // Full-screen Storybook Paper Cutout Scene Root (Hardware accelerated static background)
+    // Full-screen Storybook Paper Cutout Scene Root
     Box(modifier = Modifier.fillMaxSize()) {
-        // Layer 0: Vertical 9:16 Paper Cutout Illustration
+        // Layer 0: Vertical 9:16 Paper Cutout Illustration (Day or Night)
         Image(
-            painter = painterResource(id = R.drawable.bg_zen_night),
+            painter = painterResource(id = if (isNightMode) R.drawable.bg_zen_night else R.drawable.bg_zen_day),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
 
-        // Layer 1: Soft Translucent Vignette
+        // Layer 1: Frosted Dark Vignette for Crisp Contrast
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
                         listOf(
-                            Color(0x77080D1A),
-                            Color(0xB3080D1A),
-                            Color(0xEB080D1A)
+                            Color(0x88080D1A),
+                            Color(0xCC080D1A),
+                            Color(0xF0080D1A)
                         )
                     )
                 )
         )
 
-        // Layer 2: Scaffold with zero opacity background for ultra-smooth scrolling
+        // Layer 2: Interactive UI
         Scaffold(
             containerColor = Color.Transparent,
             topBar = {
-                TopAppBar(
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent,
-                        titleContentColor = ZomoTextPrimary
-                    ),
-                    title = {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
-                        ) {
-                            Surface(
-                                shape = RoundedCornerShape(12.dp),
-                                color = ZenSkyCyanContainer,
-                                border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.35f)),
-                                modifier = Modifier.size(38.dp)
+                Surface(
+                    color = ZenTopBarBackplate,
+                    border = BorderStroke(0.dp, Color.Transparent)
+                ) {
+                    TopAppBar(
+                        colors = TopAppBarDefaults.topAppBarColors(
+                            containerColor = Color.Transparent,
+                            titleContentColor = ZomoTextPrimary
+                        ),
+                        title = {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(10.dp)
                             ) {
-                                Box(contentAlignment = Alignment.Center) {
-                                    Icon(Icons.Default.School, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
+                                Surface(
+                                    shape = RoundedCornerShape(12.dp),
+                                    color = ZenSkyCyanContainer,
+                                    border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.35f)),
+                                    modifier = Modifier.size(38.dp)
+                                ) {
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(Icons.Default.School, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
+                                    }
+                                }
+                                Column {
+                                    Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ZomoTextPrimary)
+                                    Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary, fontSize = 11.sp)
                                 }
                             }
-                            Column {
-                                Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ZomoTextPrimary)
-                                Text(todayDate, style = MaterialTheme.typography.bodySmall, color = ZomoTextSecondary, fontSize = 11.sp)
+                        },
+                        navigationIcon = {
+                            IconButton(onClick = onNavigateBackToRole) {
+                                Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
                             }
-                        }
-                    },
-                    navigationIcon = {
-                        IconButton(onClick = onNavigateBackToRole) {
-                            Icon(Icons.Default.ArrowBack, contentDescription = "Geri", tint = ZomoTextPrimary)
-                        }
-                    },
-                    actions = {
-                        IconButton(onClick = onOpenTutorial) {
-                            Surface(
-                                shape = ZenPillShape,
-                                color = ZenPaperCard,
-                                border = BorderStroke(1.dp, ZenPaperBorder),
-                                modifier = Modifier.size(36.dp)
-                            ) {
-                                Box(contentAlignment = Alignment.Center) {
-                                    Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                        },
+                        actions = {
+                            // Quick Day / Night Mode Toggle
+                            IconButton(onClick = { appPreferences.toggleNightMode() }) {
+                                Surface(
+                                    shape = ZenPillShape,
+                                    color = ZenPaperCard,
+                                    border = BorderStroke(1.dp, ZenPaperBorder),
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(
+                                            imageVector = if (isNightMode) Icons.Default.NightsStay else Icons.Default.WbSunny,
+                                            contentDescription = "Tema Değiştir",
+                                            tint = if (isNightMode) ZenMoonGold else ZenSkyCyan,
+                                            modifier = Modifier.size(18.dp)
+                                        )
+                                    }
+                                }
+                            }
+
+                            IconButton(onClick = onOpenTutorial) {
+                                Surface(
+                                    shape = ZenPillShape,
+                                    color = ZenPaperCard,
+                                    border = BorderStroke(1.dp, ZenPaperBorder),
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Box(contentAlignment = Alignment.Center) {
+                                        Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                                    }
                                 }
                             }
                         }
-                    }
-                )
+                    )
+                }
             }
         ) { padding ->
             LazyColumn(
@@ -166,14 +193,14 @@ fun ChildHomeScreen(
                     .fillMaxSize()
                     .padding(padding)
                     .padding(horizontal = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+                verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                // Storybook Layered Paper Progress Hero Card
+                item(key = "top_spacer") { Spacer(modifier = Modifier.height(4.dp)) }
+
+                // Storybook Layered Paper Progress Hero Card (with frosted dark backing)
                 item(key = "progress_card") {
                     Surface(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .shadow(elevation = 4.dp, shape = ZenHeroShape, spotColor = Color.Black),
+                        modifier = Modifier.fillMaxWidth(),
                         shape = ZenHeroShape,
                         color = ZenPaperCard,
                         border = BorderStroke(1.dp, ZenPaperBorder)
@@ -182,7 +209,7 @@ fun ChildHomeScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(16.dp),
-                            verticalArrangement = Arrangement.spacedBy(12.dp)
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
                         ) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
@@ -191,7 +218,7 @@ fun ChildHomeScreen(
                             ) {
                                 Column {
                                     Text(
-                                        text = "İyi Çalışmalar ✨",
+                                        text = if (isNightMode) "Huzurlu Akşamlar ✨" else "Güzel Bir Gün ☀️",
                                         color = ZenMoonGold,
                                         fontSize = 12.sp,
                                         fontWeight = FontWeight.Bold
@@ -224,9 +251,9 @@ fun ChildHomeScreen(
                                 Box(
                                     modifier = Modifier
                                         .fillMaxWidth()
-                                        .height(9.dp)
+                                        .height(8.dp)
                                         .clip(ZenPillShape)
-                                        .background(Color.Black.copy(alpha = 0.4f))
+                                        .background(Color.Black.copy(alpha = 0.5f))
                                 ) {
                                     Box(
                                         modifier = Modifier
@@ -270,25 +297,33 @@ fun ChildHomeScreen(
                     }
                 }
 
-                // Warning Banner for Rejected tasks
+                // Warning Header with Frosted Backplate
                 if (rejectedTasks.isNotEmpty()) {
                     item(key = "rejected_header") {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        Surface(
+                            shape = ZenHeaderBackplateShape,
+                            color = ZenTextBackplate,
+                            border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.3f)),
+                            modifier = Modifier.fillMaxWidth()
                         ) {
-                            Surface(
-                                shape = ZenPillShape,
-                                color = ZenRoseContainer,
-                                modifier = Modifier.size(8.dp)
-                            ) {}
-                            Text(
-                                text = "Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
-                                style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.Bold,
-                                color = ZenRoseCoral,
-                                fontSize = 14.5.sp
-                            )
+                            Row(
+                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Surface(
+                                    shape = ZenPillShape,
+                                    color = ZenRoseContainer,
+                                    modifier = Modifier.size(8.dp)
+                                ) {}
+                                Text(
+                                    text = "Tekrar Edilmesi Gerekenler (${rejectedTasks.size})",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = ZenRoseCoral,
+                                    fontSize = 13.5.sp
+                                )
+                            }
                         }
                     }
 
@@ -305,15 +340,27 @@ fun ChildHomeScreen(
                     }
                 }
 
-                // Daily Tasks Section
+                // Daily Tasks Section with Frosted Header Backplate
                 item(key = "daily_header") {
-                    Text(
-                        text = "Bugünkü Dersler (${dailyTasks.size})",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = ZomoTextPrimary,
-                        fontSize = 15.sp
-                    )
+                    Surface(
+                        shape = ZenHeaderBackplateShape,
+                        color = ZenTextBackplate,
+                        border = BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "📅 Bugünkü Dersler (${dailyTasks.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZomoTextPrimary,
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
                 }
 
                 if (dailyTasks.isEmpty()) {
@@ -324,7 +371,7 @@ fun ChildHomeScreen(
                             border = BorderStroke(1.dp, ZenPaperBorder),
                             color = ZenPaperCard
                         ) {
-                            Box(modifier = Modifier.padding(18.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                            Box(modifier = Modifier.padding(16.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
                                 Text("Bugün için tanımlı ders bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 12.5.sp)
                             }
                         }
@@ -343,15 +390,27 @@ fun ChildHomeScreen(
                     }
                 }
 
-                // Weekly Tasks Section
+                // Weekly Tasks Section with Frosted Header Backplate
                 item(key = "weekly_header") {
-                    Text(
-                        text = "Bu Haftanın Hedefleri (${weeklyTasks.size})",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = ZomoTextPrimary,
-                        fontSize = 15.sp
-                    )
+                    Surface(
+                        shape = ZenHeaderBackplateShape,
+                        color = ZenTextBackplate,
+                        border = BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "🎯 Bu Haftanın Hedefleri (${weeklyTasks.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZomoTextPrimary,
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
                 }
 
                 if (weeklyTasks.isEmpty()) {
@@ -362,7 +421,7 @@ fun ChildHomeScreen(
                             border = BorderStroke(1.dp, ZenPaperBorder),
                             color = ZenPaperCard
                         ) {
-                            Box(modifier = Modifier.padding(18.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
+                            Box(modifier = Modifier.padding(16.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
                                 Text("Bu hafta için haftalık hedef bulunamadı.", color = ZomoTextSecondary, fontSize = 12.5.sp)
                             }
                         }
@@ -381,7 +440,7 @@ fun ChildHomeScreen(
                     }
                 }
 
-                item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(18.dp)) }
+                item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
             }
         }
     }
@@ -397,12 +456,10 @@ fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
     val ssCount = active.screenshotCount
 
     Surface(
-        modifier = Modifier
-            .fillMaxWidth()
-            .shadow(elevation = 4.dp, shape = ZenCardShape, spotColor = Color.Black),
+        modifier = Modifier.fillMaxWidth(),
         shape = ZenCardShape,
         border = BorderStroke(1.5.dp, if (isPaused) ZenMoonGold else ZenSkyCyan),
-        color = if (isPaused) Color(0xF0231808) else Color(0xF00F2338)
+        color = if (isPaused) Color(0xFF231808) else Color(0xFF0F2338)
     ) {
         Column(
             modifier = Modifier.padding(14.dp),
@@ -493,8 +550,8 @@ fun LiveTimerText(stateManager: SessionStateManager) {
 
     Surface(
         shape = ZenPillShape,
-        color = Color.Black.copy(alpha = 0.45f),
-        border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.35f))
+        color = Color.Black.copy(alpha = 0.5f),
+        border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f))
     ) {
         Text(
             text = timeText,

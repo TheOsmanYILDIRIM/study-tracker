@@ -10,15 +10,19 @@ import androidx.compose.ui.graphics.Color
 
 // 1. Deep Midnight Blue & Starry Night Surfaces (Calming, Eye-friendly, OLED optimized)
 val ZenNightCanvas = Color(0xFF080D1A)         // Deepest night sky canvas
-val ZenNightSurface = Color(0xEE0F172A)        // Refined translucent paper slate card
-val ZenNightCard = Color(0xF0162036)           // Elevated soft slate paper card
-val ZenNightCardElevated = Color(0xF51E2B48)   // High elevation paper surface
+val ZenNightSurface = Color(0xFF10192D)        // Solid night slate card for zero-lag rendering
+val ZenNightCard = Color(0xFF141F36)           // Elevated soft slate paper card
+val ZenNightCardElevated = Color(0xFF1A2845)   // High elevation paper surface
 val ZenNightBorder = Color(0x3838BDF8)         // Soft aurora glow glass border (22% cyan alpha)
 val ZenGlassBorder = Color(0x24FFFFFF)         // Delicate translucent white border (14% alpha)
 
-// Paper craft layers
-val ZenPaperCard = Color(0xEB111A2E)
-val ZenPaperElevated = Color(0xF218223C)
+// Semi-transparent Backplates for Text & Header Readability
+val ZenTextBackplate = Color(0xDC080E1B)       // Frosted dark backplate for crisp text reading
+val ZenTopBarBackplate = Color(0xEE080D1A)     // Semi-transparent top bar backing
+
+// Solid High-Performance Paper craft layers (prevents expensive GPU alpha overdraw during scroll)
+val ZenPaperCard = Color(0xFF111B30)
+val ZenPaperElevated = Color(0xFF182642)
 val ZenPaperBorder = Color(0x4038BDF8)
 
 // Backward compatible aliases

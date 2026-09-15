@@ -19,6 +19,9 @@ class AppPreferences private constructor(context: Context) {
     private val _isFakeCaptureEnabled = MutableStateFlow(prefs.getBoolean(KEY_FAKE_CAPTURE, true))
     val isFakeCaptureEnabled: StateFlow<Boolean> = _isFakeCaptureEnabled.asStateFlow()
 
+    private val _isNightMode = MutableStateFlow(prefs.getBoolean(KEY_NIGHT_MODE, true))
+    val isNightMode: StateFlow<Boolean> = _isNightMode.asStateFlow()
+
     fun setTestModeEnabled(enabled: Boolean) {
         prefs.edit().putBoolean(KEY_TEST_MODE, enabled).apply()
         _isTestModeEnabled.value = enabled
@@ -34,11 +37,21 @@ class AppPreferences private constructor(context: Context) {
         _isFakeCaptureEnabled.value = enabled
     }
 
+    fun setNightMode(enabled: Boolean) {
+        prefs.edit().putBoolean(KEY_NIGHT_MODE, enabled).apply()
+        _isNightMode.value = enabled
+    }
+
+    fun toggleNightMode() {
+        setNightMode(!_isNightMode.value)
+    }
+
     fun resetAllPreferences() {
         prefs.edit().clear().apply()
         _isTestModeEnabled.value = true
         _hasCompletedTutorial.value = false
         _isFakeCaptureEnabled.value = true
+        _isNightMode.value = true
     }
 
     companion object {
@@ -46,6 +59,7 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_TEST_MODE = "is_test_mode_enabled"
         private const val KEY_HAS_COMPLETED_TUTORIAL = "has_completed_tutorial"
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
+        private const val KEY_NIGHT_MODE = "is_night_mode"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null
