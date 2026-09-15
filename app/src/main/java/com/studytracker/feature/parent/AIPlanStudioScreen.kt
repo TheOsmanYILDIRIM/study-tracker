@@ -46,8 +46,8 @@ fun AIPlanStudioScreen(
     val planRepo = remember { LocalPlanRepositoryImpl(db) }
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
 
-    val activePlan by planRepo.getActivePlan().collectAsState(initial = null)
-    val occurrences by occurrenceRepo.getAllOccurrences().collectAsState(initial = emptyList())
+    val activePlan by remember(planRepo) { planRepo.getActivePlan() }.collectAsState(initial = null)
+    val occurrences by remember(occurrenceRepo) { occurrenceRepo.getAllOccurrences() }.collectAsState(initial = emptyList())
 
     // Derive initial week info
     val initialWeekInfo = remember {

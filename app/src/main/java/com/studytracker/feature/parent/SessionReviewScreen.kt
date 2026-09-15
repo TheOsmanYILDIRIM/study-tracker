@@ -41,10 +41,10 @@ fun SessionReviewScreen(
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
 
     var session by remember { mutableStateOf<Session?>(null) }
-    var reviewNote by remember { mutableStateOf("") }
-    val screenshots by db.screenshotDao().getScreenshotsForSession(sessionId)
-        .map { list -> list.map { it.toDomain() } }
-        .collectAsState(initial = emptyList())
+    val screenshots by remember(sessionId) {
+        db.screenshotDao().getScreenshotsForSession(sessionId)
+            .map { list -> list.map { it.toDomain() } }
+    }.collectAsState(initial = emptyList())
 
     val timeFormat = remember { SimpleDateFormat("HH:mm:ss", Locale.getDefault()) }
 

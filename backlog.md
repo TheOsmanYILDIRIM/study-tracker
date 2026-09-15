@@ -30,5 +30,9 @@
 - [x] Ultra Hata Toleranslı Plan Ayrıştırma (Preamble/Prompt Temizliği, Çoklu Blok ve Yinelenen Anahtar Otomatik Tekilleştirme / Auto-Healing)
 - [x] Sabit Kalıcı Keystore İmzalama (`antigravity.keystore` ile üst üste güncelleme) & Modern Adaptive Uygulama İkonu (`ic_launcher` / `ic_launcher_round`)
 
+## 6. Performans & FPS Optimizasyonu
+- [x] Jetpack Compose Recomposition Yalıtımı, Flow Hatırlama, Async Resim Yükleme ve Room İndeksleme
+
+
 
 

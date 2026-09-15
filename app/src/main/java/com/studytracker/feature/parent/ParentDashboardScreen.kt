@@ -43,9 +43,9 @@ fun ParentDashboardScreen(
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
     val planRepo = remember { LocalPlanRepositoryImpl(db) }
 
-    val waitingSessions by sessionRepo.getWaitingReviewSessions().collectAsState(initial = emptyList())
-    val allOccurrences by occurrenceRepo.getAllOccurrences().collectAsState(initial = emptyList())
-    val activePlan by planRepo.getActivePlan().collectAsState(initial = null)
+    val waitingSessions by remember(sessionRepo) { sessionRepo.getWaitingReviewSessions() }.collectAsState(initial = emptyList())
+    val allOccurrences by remember(occurrenceRepo) { occurrenceRepo.getAllOccurrences() }.collectAsState(initial = emptyList())
+    val activePlan by remember(planRepo) { planRepo.getActivePlan() }.collectAsState(initial = null)
 
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") } // ALL, MON, TUE, WED, THU, FRI, SAT, SUN
@@ -55,15 +55,19 @@ fun ParentDashboardScreen(
     val dayNameFormat = remember { SimpleDateFormat("EEEE", Locale("tr", "TR")) }
 
     val totalTasks = allOccurrences.size
-    val approvedTasks = allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
-    val pendingTasks = allOccurrences.count { it.status == OccurrenceStatus.PENDING }
+    val approvedTasks = remember(allOccurrences) {
+        allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
+    }
+    val pendingTasks = remember(allOccurrences) {
+        allOccurrences.count { it.status == OccurrenceStatus.PENDING }
+    }
 
     // Grouping for Weekly / Daily view
-    val dailyOccurrences = remember(allOccurrences) {
-        allOccurrences.filter { it.type == TaskKind.DAILY }
+    val dailyOccurrences by remember(allOccurrences) {
+        derivedStateOf { allOccurrences.filter { it.type == TaskKind.DAILY } }
     }
-    val weeklyOccurrences = remember(allOccurrences) {
-        allOccurrences.filter { it.type == TaskKind.WEEKLY }
+    val weeklyOccurrences by remember(allOccurrences) {
+        derivedStateOf { allOccurrences.filter { it.type == TaskKind.WEEKLY } }
     }
 
     Scaffold(
@@ -333,16 +337,18 @@ fun ParentDashboardScreen(
                                     .horizontalScroll(rememberScrollState()),
                                 horizontalArrangement = Arrangement.spacedBy(6.dp)
                             ) {
-                                val dayFilters = listOf(
-                                    "ALL" to "Tüm Hafta",
-                                    "MON" to "Pzt",
-                                    "TUE" to "Sal",
-                                    "WED" to "Çar",
-                                    "THU" to "Per",
-                                    "FRI" to "Cum",
-                                    "SAT" to "Cmt",
-                                    "SUN" to "Paz"
-                                )
+                                val dayFilters = remember {
+                                    listOf(
+                                        "ALL" to "Tüm Hafta",
+                                        "MON" to "Pzt",
+                                        "TUE" to "Sal",
+                                        "WED" to "Çar",
+                                        "THU" to "Per",
+                                        "FRI" to "Cum",
+                                        "SAT" to "Cmt",
+                                        "SUN" to "Paz"
+                                    )
+                                }
                                 for ((key, label) in dayFilters) {
                                     FilterChip(
                                         selected = selectedDayFilter == key,

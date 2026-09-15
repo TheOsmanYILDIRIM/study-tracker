@@ -138,8 +138,8 @@ fun DeveloperConsoleScreen(
     var isLocalStore by remember { mutableStateOf(true) }
     var isFakeCapture by remember { mutableStateOf(true) }
 
-    val occurrences by occurrenceRepo.getAllOccurrences().collectAsState(initial = emptyList())
-    val waitingSessions by sessionRepo.getWaitingReviewSessions().collectAsState(initial = emptyList())
+    val occurrences by remember(occurrenceRepo) { occurrenceRepo.getAllOccurrences() }.collectAsState(initial = emptyList())
+    val waitingSessions by remember(sessionRepo) { sessionRepo.getWaitingReviewSessions() }.collectAsState(initial = emptyList())
 
     Scaffold(
         topBar = {

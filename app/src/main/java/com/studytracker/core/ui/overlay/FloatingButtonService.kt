@@ -145,12 +145,13 @@ class FloatingButtonService : Service() {
             }
         }
 
-        // Drag listener for magnetic positioning
+        // Drag listener for smooth positioning with minimal IPC overhead
         composeView.setOnTouchListener(object : View.OnTouchListener {
             private var initialX = 0
             private var initialY = 0
             private var initialTouchX = 0f
             private var initialTouchY = 0f
+            private var isDragging = false
 
             override fun onTouch(v: View?, event: MotionEvent?): Boolean {
                 if (event == null) return false
@@ -160,15 +161,27 @@ class FloatingButtonService : Service() {
                         initialY = params.y
                         initialTouchX = event.rawX
                         initialTouchY = event.rawY
-                        return false // Allow compose tap gestures
+                        isDragging = false
+                        return false // Allow child compose tap gestures
                     }
                     MotionEvent.ACTION_MOVE -> {
                         val dx = (event.rawX - initialTouchX).toInt()
                         val dy = (event.rawY - initialTouchY).toInt()
-                        if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
-                            params.x = initialX + dx
-                            params.y = initialY + dy
-                            windowManager?.updateViewLayout(composeView, params)
+                        if (isDragging || Math.abs(dx) > 12 || Math.abs(dy) > 12) {
+                            isDragging = true
+                            val newX = initialX + dx
+                            val newY = initialY + dy
+                            if (params.x != newX || params.y != newY) {
+                                params.x = newX
+                                params.y = newY
+                                windowManager?.updateViewLayout(composeView, params)
+                            }
+                            return true
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        if (isDragging) {
+                            isDragging = false
                             return true
                         }
                     }

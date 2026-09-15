@@ -1,6 +1,7 @@
 package com.studytracker.core.data.local.db.entity
 
 import androidx.room.Entity
+import androidx.room.Index
 import androidx.room.PrimaryKey
 import com.studytracker.core.domain.model.*
 
@@ -19,7 +20,15 @@ data class TaskTemplateEntity(
     val active: Boolean
 )
 
-@Entity(tableName = "occurrences")
+@Entity(
+    tableName = "occurrences",
+    indices = [
+        Index(value = ["date"]),
+        Index(value = ["weekId"]),
+        Index(value = ["status"]),
+        Index(value = ["type"])
+    ]
+)
 data class OccurrenceEntity(
     @PrimaryKey val occurrenceKey: String,
     val taskId: String,
@@ -50,7 +59,13 @@ data class PlanEntity(
     val rawJson: String
 )
 
-@Entity(tableName = "sessions")
+@Entity(
+    tableName = "sessions",
+    indices = [
+        Index(value = ["status"]),
+        Index(value = ["occurrenceKey"])
+    ]
+)
 data class SessionEntity(
     @PrimaryKey val sessionId: String,
     val occurrenceKey: String,
@@ -62,7 +77,12 @@ data class SessionEntity(
     val finalScreenshotUrl: String?
 )
 
-@Entity(tableName = "screenshots")
+@Entity(
+    tableName = "screenshots",
+    indices = [
+        Index(value = ["sessionId"])
+    ]
+)
 data class ScreenshotEntity(
     @PrimaryKey val screenshotId: String,
     val sessionId: String,

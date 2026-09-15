@@ -12,9 +12,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.studytracker.core.domain.manager.ActiveSessionState
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
 import com.studytracker.core.domain.model.OccurrenceStatus
@@ -32,28 +34,36 @@ fun ChildHomeScreen(
 ) {
     val context = LocalContext.current
     val stateManager = remember { SessionStateManager.getInstance(context) }
-    val occurrences by stateManager.occurrenceRepository.getAllOccurrences().collectAsState(initial = emptyList())
+    val occurrences by remember(stateManager) {
+        stateManager.occurrenceRepository.getAllOccurrences()
+    }.collectAsState(initial = emptyList())
+
     val activeState by stateManager.activeState.collectAsState()
+    val isSessionActive = activeState != null
 
     val todayDate = remember {
         SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
     }
 
-    val dailyTasks = remember(occurrences, todayDate) {
-        occurrences.filter { it.type == TaskKind.DAILY }
+    val dailyTasks by remember(occurrences, todayDate) {
+        derivedStateOf { occurrences.filter { it.type == TaskKind.DAILY } }
     }
 
-    val weeklyTasks = remember(occurrences) {
-        occurrences.filter { it.type == TaskKind.WEEKLY }
+    val weeklyTasks by remember(occurrences) {
+        derivedStateOf { occurrences.filter { it.type == TaskKind.WEEKLY } }
     }
 
-    val rejectedTasks = remember(occurrences) {
-        occurrences.filter { it.warning }
+    val rejectedTasks by remember(occurrences) {
+        derivedStateOf { occurrences.filter { it.warning } }
     }
 
     val totalTasks = occurrences.size
-    val approvedTasks = occurrences.count { it.status == OccurrenceStatus.APPROVED }
-    val progress = if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
+    val approvedTasks = remember(occurrences) {
+        occurrences.count { it.status == OccurrenceStatus.APPROVED }
+    }
+    val progress = remember(totalTasks, approvedTasks) {
+        if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
+    }
 
     Scaffold(
         topBar = {
@@ -85,7 +95,7 @@ fun ChildHomeScreen(
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             // Header Progress Card
-            item {
+            item(key = "progress_card") {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(16.dp),
@@ -113,97 +123,16 @@ fun ChildHomeScreen(
                 }
             }
 
-            // Live Active / Paused Session Banner
-            activeState?.let { active ->
-                item {
-                    val mins = active.elapsedSeconds / 60
-                    val secs = active.elapsedSeconds % 60
-                    val timeText = String.format("%02d:%02d", mins, secs)
-
-                    Card(
-                        modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(16.dp),
-                        colors = CardDefaults.cardColors(
-                            containerColor = if (active.isPaused) MaterialTheme.colorScheme.tertiaryContainer else MaterialTheme.colorScheme.secondaryContainer
-                        )
-                    ) {
-                        Column(
-                            modifier = Modifier.padding(16.dp),
-                            verticalArrangement = Arrangement.spacedBy(10.dp)
-                        ) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
-                                ) {
-                                    Icon(
-                                        imageVector = if (active.isPaused) Icons.Default.PauseCircle else Icons.Default.PlayCircle,
-                                        contentDescription = null,
-                                        tint = if (active.isPaused) MaterialTheme.colorScheme.error else EmeraldSuccess
-                                    )
-                                    Text(
-                                        text = if (active.isPaused) "⏸️ Ders Duraklatıldı" else "⚡ Ders Devam Ediyor",
-                                        fontWeight = FontWeight.Bold,
-                                        style = MaterialTheme.typography.titleMedium
-                                    )
-                                }
-                                Text(
-                                    text = timeText,
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 18.sp,
-                                    fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
-                                )
-                            }
-
-                            Text(
-                                text = "Ders: ${active.occurrenceTitle} • 📸 ${active.screenshotCount} ekran görüntüsü",
-                                style = MaterialTheme.typography.bodyMedium
-                            )
-
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.spacedBy(8.dp)
-                            ) {
-                                Button(
-                                    onClick = { stateManager.togglePause() },
-                                    modifier = Modifier.weight(1f),
-                                    colors = ButtonDefaults.buttonColors(
-                                        containerColor = if (active.isPaused) EmeraldSuccess else MaterialTheme.colorScheme.tertiary
-                                    ),
-                                    shape = RoundedCornerShape(10.dp)
-                                ) {
-                                    Icon(
-                                        imageVector = if (active.isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
-                                        contentDescription = null,
-                                        modifier = Modifier.size(18.dp)
-                                    )
-                                    Spacer(modifier = Modifier.width(4.dp))
-                                    Text(if (active.isPaused) "Devam Et" else "Duraklat")
-                                }
-
-                                Button(
-                                    onClick = { stateManager.finishSession() },
-                                    modifier = Modifier.weight(1f),
-                                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error),
-                                    shape = RoundedCornerShape(10.dp)
-                                ) {
-                                    Icon(Icons.Default.Stop, contentDescription = null, modifier = Modifier.size(18.dp))
-                                    Spacer(modifier = Modifier.width(4.dp))
-                                    Text("Tamamla")
-                                }
-                            }
-                        }
-                    }
+            // Live Active / Paused Session Banner (Isolated Composable)
+            if (isSessionActive) {
+                item(key = "live_active_banner") {
+                    LiveActiveSessionBanner(stateManager = stateManager)
                 }
             }
 
             // Warning Banner for Rejected tasks
             if (rejectedTasks.isNotEmpty()) {
-                item {
+                item(key = "rejected_header") {
                     Text(
                         text = "⚠️ Tekrar Edilmesi Gereken Görevler (${rejectedTasks.size})",
                         style = MaterialTheme.typography.titleMedium,
@@ -222,7 +151,7 @@ fun ChildHomeScreen(
             }
 
             // Daily Tasks Section
-            item {
+            item(key = "daily_header") {
                 Text(
                     text = "📅 Bugünkü Görevler (${dailyTasks.size})",
                     style = MaterialTheme.typography.titleMedium,
@@ -231,7 +160,7 @@ fun ChildHomeScreen(
             }
 
             if (dailyTasks.isEmpty()) {
-                item {
+                item(key = "daily_empty") {
                     Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                         Box(modifier = Modifier.padding(24.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
                             Text("Bugün için tanımlı görev bulunamadı.", color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -249,7 +178,7 @@ fun ChildHomeScreen(
             }
 
             // Weekly Tasks Section
-            item {
+            item(key = "weekly_header") {
                 Text(
                     text = "🎯 Bu Haftanın Genel Hedefleri (${weeklyTasks.size})",
                     style = MaterialTheme.typography.titleMedium,
@@ -258,7 +187,7 @@ fun ChildHomeScreen(
             }
 
             if (weeklyTasks.isEmpty()) {
-                item {
+                item(key = "weekly_empty") {
                     Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                         Box(modifier = Modifier.padding(24.dp).fillMaxWidth(), contentAlignment = Alignment.Center) {
                             Text("Bu hafta için haftalık hedef bulunamadı.", color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -275,7 +204,97 @@ fun ChildHomeScreen(
                 }
             }
 
-            item { Spacer(modifier = Modifier.height(24.dp)) }
+            item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(24.dp)) }
         }
     }
 }
+
+@Composable
+fun LiveActiveSessionBanner(stateManager: SessionStateManager) {
+    val activeState by stateManager.activeState.collectAsState()
+    val active = activeState ?: return
+
+    val mins = active.elapsedSeconds / 60
+    val secs = active.elapsedSeconds % 60
+    val timeText = String.format(Locale.US, "%02d:%02d", mins, secs)
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = if (active.isPaused) MaterialTheme.colorScheme.tertiaryContainer else MaterialTheme.colorScheme.secondaryContainer
+        )
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    Icon(
+                        imageVector = if (active.isPaused) Icons.Default.PauseCircle else Icons.Default.PlayCircle,
+                        contentDescription = null,
+                        tint = if (active.isPaused) MaterialTheme.colorScheme.error else EmeraldSuccess
+                    )
+                    Text(
+                        text = if (active.isPaused) "⏸️ Ders Duraklatıldı" else "⚡ Ders Devam Ediyor",
+                        fontWeight = FontWeight.Bold,
+                        style = MaterialTheme.typography.titleMedium
+                    )
+                }
+                Text(
+                    text = timeText,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 18.sp,
+                    fontFamily = FontFamily.Monospace
+                )
+            }
+
+            Text(
+                text = "Ders: ${active.occurrenceTitle} • 📸 ${active.screenshotCount} ekran görüntüsü",
+                style = MaterialTheme.typography.bodyMedium
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                Button(
+                    onClick = { stateManager.togglePause() },
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = if (active.isPaused) EmeraldSuccess else MaterialTheme.colorScheme.tertiary
+                    ),
+                    shape = RoundedCornerShape(10.dp)
+                ) {
+                    Icon(
+                        imageVector = if (active.isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                        contentDescription = null,
+                        modifier = Modifier.size(18.dp)
+                    )
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(if (active.isPaused) "Devam Et" else "Duraklat")
+                }
+
+                Button(
+                    onClick = { stateManager.finishSession() },
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error),
+                    shape = RoundedCornerShape(10.dp)
+                ) {
+                    Icon(Icons.Default.Stop, contentDescription = null, modifier = Modifier.size(18.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text("Tamamla")
+                }
+            }
+        }
+    }
+}
+
