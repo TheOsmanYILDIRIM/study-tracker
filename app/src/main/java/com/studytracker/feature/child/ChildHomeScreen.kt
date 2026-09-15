@@ -268,7 +268,6 @@ fun ChildHomeScreen(
                         }
                     }
                 }
-            }
 
             // Live Active Session Banner
             if (isSessionActive) {
@@ -412,6 +411,7 @@ fun ChildHomeScreen(
             item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
         }
     }
+}
 }
 
 @Composable
