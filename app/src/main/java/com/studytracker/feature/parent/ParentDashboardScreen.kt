@@ -84,11 +84,10 @@ fun ParentDashboardScreen(
 
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") }
-    var showSyncDialog by remember { mutableStateOf(false) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
-    var showQuizStudioDialog by remember { mutableStateOf(false) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
+    var showAIQuizDialog by remember { mutableStateOf(false) }
 
     val filePickerLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
         contract = androidx.activity.result.contract.ActivityResultContracts.GetContent()
@@ -102,10 +101,8 @@ fun ParentDashboardScreen(
                     android.widget.Toast.makeText(context, "❌ Yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
                 }
             }
-    var showResetConfirmDialog by remember { mutableStateOf(false) }
-    var sessionToReject by remember { mutableStateOf<com.studytracker.core.domain.model.Session?>(null) }
-    var rejectNoteInput by remember { mutableStateOf("") }
-    var showAIQuizDialog by remember { mutableStateOf(false) }
+        }
+    }
 
     if (showResetConfirmDialog) {
         AlertDialog(
