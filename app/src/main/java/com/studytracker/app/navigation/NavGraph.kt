@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import com.studytracker.BuildConfig

@@ -117,7 +117,7 @@ fun ParentDashboardScreen(
                             modifier = Modifier
                                 .size(36.dp)
                                 .clip(RoundedCornerShape(10.dp))
-                                .background(ZenForestGreenContainer)
+                                .background(ZenForestContainer)
                                 .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), RoundedCornerShape(10.dp)),
                             contentAlignment = Alignment.Center
                         ) {

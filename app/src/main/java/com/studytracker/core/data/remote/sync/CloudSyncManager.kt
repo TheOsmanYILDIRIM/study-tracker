@@ -104,7 +104,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                     startTime = sess.startTime,
                     endTime = sess.endTime,
                     durationMin = if (sess.endTime != null) ((sess.endTime - sess.startTime) / 60000).toInt() else 0,
-                    isCompleted = sess.status == SessionStatus.COMPLETED
+                    isCompleted = sess.status != SessionStatus.ACTIVE
                 )
                 supabaseClient.post("sessions", dto) { json.encodeToString(it) }
             }
