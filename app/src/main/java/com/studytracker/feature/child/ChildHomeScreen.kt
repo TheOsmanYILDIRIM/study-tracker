@@ -39,6 +39,7 @@ import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlinx.coroutines.launch
 
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(16.dp)
@@ -51,6 +52,7 @@ fun ChildHomeScreen(
     onNavigateToSettings: () -> Unit = {}
 ) {
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
     val stateManager = remember { SessionStateManager.getInstance(context) }
     val occurrences by remember(stateManager) {
         stateManager.occurrenceRepository.getAllOccurrences()
