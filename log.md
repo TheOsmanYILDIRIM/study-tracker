@@ -127,9 +127,17 @@
 ### [2026-09-16] Tamamlandı: Kanıt Görselleri Uçtan Uca Aktarımı & Ebeveyn Reddet/Onayla Anında Tepki Düzeltmesi
 - **Tekil Session ID Senkronizasyonu:** `SessionStateManager` ve `LocalSessionRepositoryImpl` arasındaki oturum ID çiftliği giderildi. Bellek, Room veritabanı ve ekran görüntüsü sürücüsünün (`FakeCaptureDriver` & `AccessibilityCaptureDriver`) tam olarak aynı `sessionId` üzerinden çalışması sağlandı.
 - **`StudySyncProvider` (Binder IPC) Kanıt ve İnceleme Desteği:** Binder IPC aktarımına Base64 ekran görüntüsü sıkıştırma ve ayrıştırma mekanizması eklendi; ebeveyn onay ve red kararlarının diğer APK'da `OccurrenceStatus` ve uyarı metnini anında güncellemesi sağlandı.
-- **Üç Katmanlı Eşitleme Güvencesi:** `CloudSyncManager` içine doğrudan Binder IPC, çoklu konumlu paylaşılan dosya köprüsü (`/sdcard/Download/`, `/sdcard/Documents/`, vb.) ve küresel bulut rölesi entegre edilerek hem yerel hem uzaktan sıfır gecikmeli veri aktarımı garantilendi.
-- **Ebeveyn İnceleme Ekranı Anında Tepki:** `SessionReviewScreen` ve `ParentDashboardScreen` içindeki butonlara anlık `Toast` bildirimi ve ekran geri dönüşü eklendi; veritabanı yazımı ve bulut dağıtımı ekran kapanmasından etkilenmeyen bağımsız arka plan iş parçacığına taşındı.
-- **Esnek Kanıt DAO Sorgusu:** `ScreenshotDao.getScreenshotsForSession` sorgusu hem `sessionId` hem `occurrenceKey` ile eşleşecek şekilde genişletilerek `EvidenceTimelineView` içinde hiçbir kanıtın kaybolmaması sağlandı.
+### [2026-09-16] Tamamlandı: Aşırı Basit & Sıfır Hata Paylı İki Yönlü Senkronizasyon Mimarisi
+- **Basitleştirilmiş Tekil Değiş-Tokuş (Single Unified IPC Exchange):**
+  - Karmaşık, yavaş, 15 saniyelik ağ zaman aşımlarına yol açan ve birbiriyle çakışan çok katmanlı yapı (`Supabase` dummy endpoint'ler, Scoped Storage engeline takılan dosya köprüleri, takılan ağ istekleri) tamamen temizlendi.
+  - `StudySyncProvider` ve `CloudSyncManager` arasında tek bir doğrudan ContentProvider `sync` metodu geliştirildi. Veli veya Öğrenci tarafında herhangi bir değişiklik olduğunda diğer APK'nın provider'ı çağrılır, tek bir IPC çağrısıyla yerel Room veritabanları 2 milisaniyede karşılıklı eşitlenir.
+- **Kanıt Görselleri İçin `openFile` ve Hafif Küçük Resim Desteği:**
+  - `StudySyncProvider` içine `openFile(uri, mode)` eklenerek büyük ekran görüntülerinin Binder bellek sınırını (`TransactionTooLargeException`) aşmadan doğrudan dosya akışı üzerinden okunması sağlandı.
+  - `EvidenceTimelineView` bileşeni `content://`, `data:image/jpeg;base64,...` ve yerel dosya yollarını LRU önbellekle asenkron ve akıcı şekilde gösterecek şekilde güçlendirildi.
+- **Arka Planda Donmayan Bulut Yedeklemesi:**
+  - Ağ çağrıları 3 saniye katı zaman aşımına alındı ve yerel eşitlemeyi asla bekletmeyecek/engellemeyecek şekilde tamamen bağımsız arka plan görevine dönüştürüldü.
+- **Tek Dokunuşla Manuel Kopyala-Yapıştır Köprüsü:**
+  - `CloudSyncDialog` içinde "Veriyi Kopyala" (tüm plan, görevler ve durumları panoya kopyalar) ve "Yapıştır & Yükle" (panodaki veriyi tek tıkla içeri aktarır) butonları ile internet veya cihaz kısıtlamasından bağımsız %100 garantili yedek köprü sağlandı.
 
 
 

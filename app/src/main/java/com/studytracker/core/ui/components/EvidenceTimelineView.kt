@@ -46,7 +46,7 @@ private object BitmapMemoryCache {
         }
     }
 
-    suspend fun loadBitmap(pathOrData: String, isThumbnail: Boolean): Bitmap? = withContext(Dispatchers.IO) {
+    suspend fun loadBitmap(context: android.content.Context?, pathOrData: String, isThumbnail: Boolean): Bitmap? = withContext(Dispatchers.IO) {
         if (pathOrData.isBlank()) return@withContext null
         val cacheKey = if (isThumbnail) "thumb_$pathOrData" else "full_$pathOrData"
         lruCache.get(cacheKey)?.let { return@withContext it }
@@ -63,6 +63,11 @@ private object BitmapMemoryCache {
 
         try {
             val bitmap = when {
+                pathOrData.startsWith("content://") && context != null -> {
+                    context.contentResolver.openInputStream(android.net.Uri.parse(pathOrData))?.use { stream ->
+                        BitmapFactory.decodeStream(stream, null, options)
+                    }
+                }
                 pathOrData.startsWith("data:image/") || pathOrData.contains("base64,") -> {
                     val base64Data = if (pathOrData.contains(",")) pathOrData.substringAfter(",") else pathOrData
                     val bytes = Base64.decode(base64Data, Base64.DEFAULT)
@@ -103,6 +108,8 @@ fun EvidenceTimelineView(
     }
     val timeFormat = remember { SimpleDateFormat("HH:mm:ss", Locale.getDefault()) }
 
+    val context = androidx.compose.ui.platform.LocalContext.current
+
     Column(
         modifier = modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(14.dp)
@@ -128,7 +135,7 @@ fun EvidenceTimelineView(
                 }
 
                 val thumbBitmap by produceState<Bitmap?>(initialValue = null, key1 = ss.url) {
-                    value = BitmapMemoryCache.loadBitmap(ss.url, isThumbnail = true)
+                    value = BitmapMemoryCache.loadBitmap(context, ss.url, isThumbnail = true)
                 }
 
                 Surface(
@@ -183,7 +190,7 @@ fun EvidenceTimelineView(
         // Full Preview Card with async loading
         selectedScreenshot?.let { ss ->
             val fullBitmap by produceState<Bitmap?>(initialValue = null, key1 = ss.url) {
-                value = BitmapMemoryCache.loadBitmap(ss.url, isThumbnail = false)
+                value = BitmapMemoryCache.loadBitmap(context, ss.url, isThumbnail = false)
             }
 
             Surface(
