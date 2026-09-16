@@ -154,7 +154,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                             taskId = t.taskId,
                             title = t.title,
                             kind = try { TaskKind.valueOf(t.kind) } catch (e: Exception) { TaskKind.DAILY },
-                            contentType = try { ContentType.valueOf(t.contentType) } catch (e: Exception) { ContentType.TEXT },
+                            contentType = try { ContentType.valueOf(t.contentType) } catch (e: Exception) { ContentType.READING },
                             youtubeUrl = t.youtubeUrl,
                             plannedMinutes = t.plannedMinutes,
                             targetMode = t.targetMode?.let { try { TargetMode.valueOf(it) } catch (e: Exception) { null } },
