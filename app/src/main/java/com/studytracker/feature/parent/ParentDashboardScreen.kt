@@ -80,9 +80,13 @@ fun ParentDashboardScreen(
     var showSyncDialog by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
-        try {
-            com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context).syncAll()
-        } catch (_: Exception) {}
+        val syncManager = com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
+        while (true) {
+            try {
+                syncManager.syncAll()
+            } catch (_: Exception) {}
+            kotlinx.coroutines.delay(10_000L)
+        }
     }
 
     if (showSyncDialog) {

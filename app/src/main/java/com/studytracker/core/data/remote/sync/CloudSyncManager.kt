@@ -221,91 +221,22 @@ class CloudSyncManager private constructor(private val context: Context) {
         }
     }
 
-    private fun getBridgeFiles(familyCode: String): List<File> {
-        val files = LinkedHashSet<File>()
-        val fileName = "study_tracker_sync_${familyCode}.json"
-        val hiddenFileName = ".study_tracker_sync_${familyCode}.json"
-
+    private fun cleanupOldBridgeFiles(familyCode: String) {
         try {
-            val downloadDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
-            if (downloadDir != null) {
-                files.add(File(downloadDir, fileName))
-                files.add(File(downloadDir, hiddenFileName))
-            }
-        } catch (e: Exception) {
-            Log.w("CloudSyncManager", "Downloads directory access error: ${e.message}")
-        }
-
-        try {
-            val docsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
-            if (docsDir != null) {
-                files.add(File(docsDir, fileName))
-                files.add(File(docsDir, hiddenFileName))
-            }
-        } catch (e: Exception) {
-            Log.w("CloudSyncManager", "Documents directory access error: ${e.message}")
-        }
-
-        files.add(File("/sdcard/Download/$fileName"))
-        files.add(File("/sdcard/Download/$hiddenFileName"))
-        files.add(File("/sdcard/Documents/$fileName"))
-        files.add(File("/storage/emulated/0/Download/$fileName"))
-        files.add(File("/storage/emulated/0/Download/$hiddenFileName"))
-        files.add(File("/storage/emulated/0/Documents/$fileName"))
-
-        try {
-            val extFiles = context.getExternalFilesDir(null)
-            if (extFiles != null) {
-                files.add(File(extFiles, fileName))
+            val names = listOf("study_tracker_sync_${familyCode}.json", ".study_tracker_sync_${familyCode}.json")
+            val dirs = listOfNotNull(
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),
+                File("/sdcard/Download"),
+                File("/sdcard/Documents")
+            )
+            for (dir in dirs) {
+                for (name in names) {
+                    val f = File(dir, name)
+                    if (f.exists()) f.delete()
+                }
             }
         } catch (_: Exception) {}
-
-        files.add(File(context.filesDir, fileName))
-        return files.toList()
-    }
-
-    private fun readFromBridgeFile(familyCode: String): SharedFamilySyncPayload? {
-        var latestPayload: SharedFamilySyncPayload? = null
-        var maxUpdatedAt = -1L
-
-        for (file in getBridgeFiles(familyCode)) {
-            try {
-                if (file.exists() && file.canRead()) {
-                    val text = file.readText()
-                    if (text.isNotBlank()) {
-                        val payload = json.decodeFromString<SharedFamilySyncPayload>(text)
-                        if (payload.updatedAt > maxUpdatedAt) {
-                            maxUpdatedAt = payload.updatedAt
-                            latestPayload = payload
-                        }
-                    }
-                }
-            } catch (e: Exception) {
-                Log.d("CloudSyncManager", "Skipping bridge file ${file.absolutePath}: ${e.message}")
-            }
-        }
-        return latestPayload
-    }
-
-    private fun writeToBridgeFile(familyCode: String, payload: SharedFamilySyncPayload) {
-        val text = try {
-            json.encodeToString(payload)
-        } catch (e: Exception) {
-            Log.w("CloudSyncManager", "Failed encoding sync payload: ${e.message}")
-            return
-        }
-
-        var writeCount = 0
-        for (file in getBridgeFiles(familyCode)) {
-            try {
-                file.parentFile?.mkdirs()
-                file.writeText(text)
-                writeCount++
-            } catch (e: Exception) {
-                Log.d("CloudSyncManager", "Could not write bridge file to ${file.absolutePath}: ${e.message}")
-            }
-        }
-        Log.d("CloudSyncManager", "Successfully written sync bridge to $writeCount locations")
     }
 
     suspend fun importPayloadString(payloadJson: String): Result<Int> = withContext(Dispatchers.IO) {
@@ -487,12 +418,12 @@ class CloudSyncManager private constructor(private val context: Context) {
             var localTasks = db.taskTemplateDao().getAllTasksOnce()
             val localReviews = db.reviewDao().getAllReviewsOnce()
 
-            // 1. --- READ FROM SOURCES (Peer Binder IPC + Zero-Config Cloud Relay + Local Disk Bridge) ---
+            // 1. --- READ FROM SOURCES (Peer Binder IPC + Zero-Config Cloud Relay) ---
+            cleanupOldBridgeFiles(familyCode)
             val peerPayload = readFromPeerProvider(familyCode)
             val cloudPayload = readFromCloudRelay(familyCode)
-            val filePayload = readFromBridgeFile(familyCode)
 
-            val incomingPayload = listOfNotNull(peerPayload, cloudPayload, filePayload).maxByOrNull { it.updatedAt }
+            val incomingPayload = listOfNotNull(peerPayload, cloudPayload).maxByOrNull { it.updatedAt }
 
             if (incomingPayload != null) {
                 // A. Reconcile Plan & Task Templates
@@ -835,9 +766,6 @@ class CloudSyncManager private constructor(private val context: Context) {
             // Push to zero-config cloud relay across the internet
             writeToCloudRelay(familyCode, finalPayload)
 
-            // Shared disk files fallback
-            writeToBridgeFile(familyCode, finalPayload)
-
             val finalCount = finalOccurrences.size
             val waitingCount = finalSessions.count { it.status == SessionStatus.WAITING_REVIEW }
             _lastSyncedTime.value = System.currentTimeMillis()
@@ -865,8 +793,7 @@ class CloudSyncManager private constructor(private val context: Context) {
 
                 val peer = listOfNotNull(
                     readFromPeerProvider(familyCode),
-                    readFromCloudRelay(familyCode),
-                    readFromBridgeFile(familyCode)
+                    readFromCloudRelay(familyCode)
                 ).maxByOrNull { it.updatedAt }
 
                 val updatedSessions = (peer?.sessions?.filter { it.id != sessionDto.id } ?: emptyList()) + sessionDto
@@ -888,7 +815,6 @@ class CloudSyncManager private constructor(private val context: Context) {
 
                 writeToPeerProvider(familyCode, payload)
                 writeToCloudRelay(familyCode, payload)
-                writeToBridgeFile(familyCode, payload)
 
                 syncAll()
                 Result.success(Unit)
@@ -918,8 +844,7 @@ class CloudSyncManager private constructor(private val context: Context) {
 
             val peer = listOfNotNull(
                 readFromPeerProvider(familyCode),
-                readFromCloudRelay(familyCode),
-                readFromBridgeFile(familyCode)
+                readFromCloudRelay(familyCode)
             ).maxByOrNull { it.updatedAt }
 
             val updatedReviews = (peer?.reviews?.filter { it.sessionId != sessionId } ?: emptyList()) + reviewDto
@@ -951,7 +876,6 @@ class CloudSyncManager private constructor(private val context: Context) {
 
             writeToPeerProvider(familyCode, payload)
             writeToCloudRelay(familyCode, payload)
-            writeToBridgeFile(familyCode, payload)
 
             syncAll()
             Result.success(Unit)
