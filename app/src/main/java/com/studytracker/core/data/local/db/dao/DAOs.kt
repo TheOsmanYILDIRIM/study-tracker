@@ -53,6 +53,12 @@ interface OccurrenceDao {
     @Query("UPDATE occurrences SET approvedCount = approvedCount + 1 WHERE occurrenceKey = :key")
     suspend fun incrementApprovedCount(key: String)
 
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0")
+    suspend fun resetAllOccurrencesProgress()
+
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0 WHERE weekId = :weekId")
+    suspend fun resetWeeklyOccurrencesProgress(weekId: String)
+
     @Query("DELETE FROM occurrences")
     suspend fun clearOccurrences()
 }
@@ -133,4 +139,7 @@ interface ReviewDao {
 
     @Query("SELECT * FROM reviews")
     suspend fun getAllReviewsOnce(): List<ReviewEntity>
+
+    @Query("DELETE FROM reviews")
+    suspend fun clearReviews()
 }

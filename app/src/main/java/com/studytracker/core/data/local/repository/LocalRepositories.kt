@@ -165,6 +165,17 @@ class LocalOccurrenceRepositoryImpl(
         }
         return db.occurrenceDao().getOccurrenceByKeyOnce(occurrenceKey)!!.toDomain()
     }
+
+    override suspend fun resetProgress(weekId: String?) {
+        if (weekId != null) {
+            db.occurrenceDao().resetWeeklyOccurrencesProgress(weekId)
+        } else {
+            db.occurrenceDao().resetAllOccurrencesProgress()
+        }
+        db.sessionDao().clearSessions()
+        db.screenshotDao().clearScreenshots()
+        db.reviewDao().clearReviews()
+    }
 }
 
 class LocalSessionRepositoryImpl(

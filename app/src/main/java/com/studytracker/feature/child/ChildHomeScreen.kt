@@ -94,6 +94,7 @@ fun ChildHomeScreen(
 
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showSyncDialog by remember { mutableStateOf(false) }
+    var showResetConfirmDialog by remember { mutableStateOf(false) }
     val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
         maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
     }
@@ -111,6 +112,55 @@ fun ChildHomeScreen(
     if (showSyncDialog) {
         com.studytracker.core.ui.components.CloudSyncDialog(
             onDismissRequest = { showSyncDialog = false }
+        )
+    }
+
+    if (showResetConfirmDialog) {
+        AlertDialog(
+            onDismissRequest = { showResetConfirmDialog = false },
+            title = {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral)
+                    Text("İlerlemeyi Sıfırla?", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
+                }
+            },
+            text = {
+                Text(
+                    "Tüm tamamlanan dersler, oturum süreleri ve yıldız puanları sıfırlanacaktır. Haftalık planınız korunur.\n\nEmin misiniz?",
+                    color = ZomoTextSecondary,
+                    fontSize = 13.sp
+                )
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showResetConfirmDialog = false
+                        scope.launch {
+                            if (isSessionActive) {
+                                stateManager.cancelSession()
+                            }
+                            val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context)
+                            res.onSuccess { msg ->
+                                android.widget.Toast.makeText(context, "🔄 $msg", android.widget.Toast.LENGTH_SHORT).show()
+                            }.onFailure { err ->
+                                android.widget.Toast.makeText(context, "Hata: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
+                ) {
+                    Text("Evet, Sıfırla", fontWeight = FontWeight.Bold)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showResetConfirmDialog = false }) {
+                    Text("Vazgeç", color = ZomoTextSecondary)
+                }
+            },
+            containerColor = Color(0xFF10192E)
         )
     }
 
@@ -167,6 +217,17 @@ fun ChildHomeScreen(
                         }
                     },
                     actions = {
+                        IconButton(onClick = { showResetConfirmDialog = true }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenRoseCoral.copy(alpha = 0.15f), ZenPillShape)
+                                    .border(1.dp, ZenRoseCoral.copy(alpha = 0.5f), ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(17.dp))
+                            }
+                        }
                         IconButton(onClick = {
                             scope.launch {
                                 val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)

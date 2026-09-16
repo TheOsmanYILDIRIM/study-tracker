@@ -158,8 +158,15 @@
 - **Evrensel Metin & URI Ayrıştırma:**
   - `MainActivity` intent işleyicisi hem dosya akışlarını (`Uri`) hem de mesaj olarak kopyalanıp paylaşılan JSON/DSL metin yüklerini (`EXTRA_TEXT`) otomatik ayrıştırıp yükleyecek şekilde genişletildi.
 
-
-
-
-
-
+### [2026-09-16] Tamamlandı: Veli İcraat Masası, Öğrenci Başarıları Karnesi ve İlerleme Sıfırlama Özelliği
+- **Veli İcraat Masası ve Başarı Karnesi UI:**
+  - Veli tarafındaki Onay Masası sekmesi "🚨 Öğrenci İcraat Masası" olarak yenilendi.
+  - "🎓 Öğrenci Çalışma Karnesi": Onaylanan ders sayısı, başarı oranı, onay bekleyen oturum sayısı ve kalan dersleri net özetleyen durum kartı eklendi.
+  - "🚨 Öğrencinin Onay Bekleyen Oturumları": Her oturum kartı `"🎓 Öğrenci Tamamladı: [Ders Adı]"`, başlangıç/bitiş saatleri, ekran kanıt sayısı, "🔍 Kanıtları İncele", "✅ Aferin & Onayla" ve "❌ Reddet" butonları ile donatıldı.
+  - "❌ Not Bırak & Reddet": Veli reddet butonuna bastığında açıklama notu girebileceği bir diyalog açılır; girilen not öğrenciye doğrudan uyarı mesajı olarak iletilir.
+  - "🏆 Öğrencinin Başarıları & Onaylanan Dersler": Öğrencinin bitirdiği ve velinin onayladığı tüm dersler yeşil başarı rozetleriyle geçmiş listesi olarak sunuldu.
+- **Veli Haftalık Planında Öğrenci Perspektifli Görev Rozetleri:**
+  - Haftalık Plan sekmesindeki kartlar (`OccurrenceAdminCard`): `✅ Öğrenci Yaptı & Onaylandı`, `⏳ Öğrenci Tamamladı (Onay Bekliyor)`, `⚡ Öğrenci Şu An Çalışıyor`, `⚪ Öğrenci Henüz Yapmadı` olarak güncellendi ve reddedilen derslerde veli notunu içeren kırmızı uyarı bandı eklendi.
+- **Hem Veli Hem Öğrenci Uygulamasında İlerleme Sıfırlama:**
+  - Veli ve Öğrenci TopBar'larına "🔄 İlerlemeyi Sıfırla" butonu ve teyit diyalogu eklendi.
+  - `StudyPackageExchangeManager.resetAllProgress(context, weekId)` ve DAO `resetProgress` ile plan iskeletine dokunulmadan tüm oturumlar, kanıtlar ve ders tamamlanma durumları güvenle sıfırlanabilir hale getirildi.

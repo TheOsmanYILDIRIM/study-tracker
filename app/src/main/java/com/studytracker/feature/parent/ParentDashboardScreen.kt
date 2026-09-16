@@ -79,6 +79,9 @@ fun ParentDashboardScreen(
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showSyncDialog by remember { mutableStateOf(false) }
+    var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var sessionToReject by remember { mutableStateOf<Session?>(null) }
+    var rejectNoteInput by remember { mutableStateOf("") }
 
     val filePickerLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
         contract = androidx.activity.result.contract.ActivityResultContracts.GetContent()
@@ -111,12 +114,134 @@ fun ParentDashboardScreen(
         )
     }
 
+    if (showResetConfirmDialog) {
+        AlertDialog(
+            onDismissRequest = { showResetConfirmDialog = false },
+            title = {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral)
+                    Text("İlerlemeyi Sıfırla?", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
+                }
+            },
+            text = {
+                Text(
+                    "Tüm öğrenci ders tamamlama kayıtları, onay bekleyen oturumlar ve ekran görüntüleri sıfırlanacaktır. Haftalık plan şablonunuz korunur.\n\nEmin misiniz?",
+                    color = ZomoTextSecondary,
+                    fontSize = 13.sp
+                )
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showResetConfirmDialog = false
+                        scope.launch {
+                            val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context, activePlan?.weekId)
+                            res.onSuccess { msg ->
+                                Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
+                            }.onFailure { err ->
+                                Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
+                ) {
+                    Text("Evet, Sıfırla", fontWeight = FontWeight.Bold)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showResetConfirmDialog = false }) {
+                    Text("Vazgeç", color = ZomoTextSecondary)
+                }
+            },
+            containerColor = Color(0xFF10192E)
+        )
+    }
+
+    if (sessionToReject != null) {
+        val currentSession = sessionToReject!!
+        AlertDialog(
+            onDismissRequest = { sessionToReject = null },
+            title = {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Icon(Icons.Default.Cancel, contentDescription = null, tint = ZenRoseCoral)
+                    Text("Oturumu Reddet & Not Yaz", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
+                }
+            },
+            text = {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        "Ders: ${currentSession.occurrenceKey}\nÖğrencinin bu çalışmasını yetersiz bulduysanız veya eksik kanıt varsa açıklama notu yazarak reddedebilirsiniz:",
+                        color = ZomoTextSecondary,
+                        fontSize = 12.5.sp
+                    )
+                    OutlinedTextField(
+                        value = rejectNoteInput,
+                        onValueChange = { rejectNoteInput = it },
+                        placeholder = { Text("Örn: Kanıt ekranında ders içeriği görünmüyor, lütfen tekrar çalış.", fontSize = 12.sp) },
+                        modifier = Modifier.fillMaxWidth(),
+                        maxLines = 3,
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor = ZenRoseCoral,
+                            unfocusedBorderColor = ZenPaperBorder,
+                            focusedTextColor = ZomoTextPrimary,
+                            unfocusedTextColor = ZomoTextPrimary
+                        )
+                    )
+                }
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        val note = rejectNoteInput.ifBlank { "Ebeveyn tarafından eksik görüldü" }
+                        sessionToReject = null
+                        rejectNoteInput = ""
+                        scope.launch {
+                            sessionRepo.submitReview(
+                                Review(
+                                    sessionId = currentSession.sessionId,
+                                    occurrenceKey = currentSession.occurrenceKey,
+                                    reviewStatus = ReviewStatus.REJECTED,
+                                    reviewNote = note,
+                                    reviewedAt = System.currentTimeMillis()
+                                )
+                            )
+                            occurrenceRepo.setWarning(currentSession.occurrenceKey, true, note)
+                            try {
+                                com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
+                                    .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, false, note)
+                            } catch (_: Exception) {}
+                            Toast.makeText(context, "Ders reddedildi ve not iletildi.", Toast.LENGTH_SHORT).show()
+                        }
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
+                ) {
+                    Text("Reddet & Not Gönder", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { sessionToReject = null; rejectNoteInput = "" }) {
+                    Text("Vazgeç", color = ZomoTextSecondary)
+                }
+            },
+            containerColor = Color(0xFF10192E)
+        )
+    }
+
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
     val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
 
     val totalTasks = allOccurrences.size
     val approvedTasks = remember(allOccurrences) {
         allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
+    }
+    val approvedOccurrences = remember(allOccurrences) {
+        allOccurrences.filter { it.status == OccurrenceStatus.APPROVED }
     }
 
     val dailyOccurrences = remember(allOccurrences) {
@@ -159,6 +284,18 @@ fun ParentDashboardScreen(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { showResetConfirmDialog = true }) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenRoseCoral.copy(alpha = 0.15f))
+                                .border(1.dp, ZenRoseCoral.copy(alpha = 0.5f), ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(18.dp))
+                        }
+                    }
                     IconButton(onClick = { showSyncDialog = true }) {
                         Box(
                             modifier = Modifier
@@ -234,9 +371,9 @@ fun ParentDashboardScreen(
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             Text(
-                                "🚨 Onay Masası",
+                                "🚨 Öğrenci İcraat Masası",
                                 fontWeight = FontWeight.Bold,
-                                fontSize = 12.5.sp,
+                                fontSize = 12.sp,
                                 color = if (selectedTabIndex == 0) ZenMintText else ZomoTextSecondary
                             )
                             if (waitingSessions.isNotEmpty()) {
@@ -271,7 +408,7 @@ fun ParentDashboardScreen(
                         Text(
                             "📅 Haftalık Plan",
                             fontWeight = FontWeight.Bold,
-                            fontSize = 12.5.sp,
+                            fontSize = 12.sp,
                             color = if (selectedTabIndex == 1) ZenMintText else ZomoTextSecondary
                         )
                     }
@@ -279,14 +416,14 @@ fun ParentDashboardScreen(
             }
 
             if (selectedTabIndex == 0) {
-                // TAB 1: Review Queue & Summary
+                // TAB 1: Student Accomplishments & Review Desk
                 LazyColumn(
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(horizontal = 16.dp, vertical = 6.dp),
                     verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
-                    // Plan Overview Summary Card without duplicate picture
+                    // Student Performance Summary Card
                     item {
                         Box(
                             modifier = Modifier
@@ -307,13 +444,13 @@ fun ParentDashboardScreen(
                                 ) {
                                     Column {
                                         Text(
-                                            text = "Aktif Çalışma Planı",
+                                            text = "🎓 Öğrenci Çalışma Karnesi",
                                             style = MaterialTheme.typography.labelMedium,
                                             color = ZenMoonGold,
                                             fontWeight = FontWeight.Bold
                                         )
                                         Text(
-                                            text = activePlan?.weekId ?: "Plan Yüklenmedi",
+                                            text = activePlan?.weekId ?: "Haftalık Plan",
                                             style = MaterialTheme.typography.titleMedium,
                                             fontWeight = FontWeight.Bold,
                                             color = ZomoTextPrimary
@@ -341,13 +478,13 @@ fun ParentDashboardScreen(
                                     horizontalArrangement = Arrangement.SpaceBetween
                                 ) {
                                     Text(
-                                        text = "${dailyOccurrences.size} Günlük • ${weeklyOccurrences.size} Haftalık Görev",
+                                        text = "${waitingSessions.size} Onay Bekleyen • ${totalTasks - approvedTasks} Kalan Ders",
                                         style = MaterialTheme.typography.bodySmall,
                                         color = ZomoTextSecondary,
                                         fontSize = 11.5.sp
                                     )
                                     Text(
-                                        text = if (totalTasks > 0) "%${(approvedTasks * 100 / totalTasks)} İlerleme" else "%0",
+                                        text = if (totalTasks > 0) "%${(approvedTasks * 100 / totalTasks)} Başarı Oranı" else "%0",
                                         style = MaterialTheme.typography.bodySmall,
                                         fontWeight = FontWeight.Bold,
                                         color = ZenSkyCyan,
@@ -470,7 +607,7 @@ fun ParentDashboardScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Text(
-                                text = "🚨 Onay Bekleyen Oturumlar",
+                                text = "🚨 Öğrencinin Onay Bekleyen Oturumları",
                                 style = MaterialTheme.typography.titleMedium,
                                 fontWeight = FontWeight.Bold,
                                 color = ZomoTextPrimary,
@@ -521,7 +658,7 @@ fun ParentDashboardScreen(
                                         Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(24.dp))
                                     }
                                     Text(
-                                        "İncelenmeyi bekleyen oturum yok 🎉",
+                                        "İncelenmeyi bekleyen öğrenci oturumu yok 🎉",
                                         fontWeight = FontWeight.Bold,
                                         color = ZomoTextSecondary,
                                         fontSize = 13.sp
@@ -563,17 +700,17 @@ fun ParentDashboardScreen(
                                             }
                                             Column {
                                                 Text(
-                                                    text = session.occurrenceKey,
+                                                    text = "🎓 Öğrenci Tamamladı: ${session.occurrenceKey}",
                                                     fontWeight = FontWeight.Bold,
                                                     color = ZomoTextPrimary,
-                                                    fontSize = 14.sp
+                                                    fontSize = 13.5.sp
                                                 )
                                                 Text(
                                                     text = "Başlangıç: ${timeFormat.format(Date(session.startTime))}" +
                                                             (session.endTime?.let { " • Bitiş: ${timeFormat.format(Date(it))}" } ?: ""),
                                                     style = MaterialTheme.typography.bodySmall,
                                                     color = ZomoTextSecondary,
-                                                    fontSize = 11.5.sp
+                                                    fontSize = 11.sp
                                                 )
                                             }
                                         }
@@ -596,7 +733,7 @@ fun ParentDashboardScreen(
 
                                     Row(
                                         modifier = Modifier.fillMaxWidth(),
-                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
                                     ) {
                                         Button(
                                             onClick = { onNavigateToSessionReview(session.sessionId) },
@@ -605,30 +742,31 @@ fun ParentDashboardScreen(
                                             colors = ButtonDefaults.buttonColors(
                                                 containerColor = ZenSkyCyan,
                                                 contentColor = ZenMintText
-                                            )
+                                            ),
+                                            contentPadding = PaddingValues(horizontal = 4.dp)
                                         ) {
-                                            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(14.dp), tint = ZenMintText)
-                                            Spacer(modifier = Modifier.width(4.dp))
-                                            Text("Kanıtları İncele", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                                            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(13.dp), tint = ZenMintText)
+                                            Spacer(modifier = Modifier.width(3.dp))
+                                            Text("Kanıtları İncele", fontWeight = FontWeight.Bold, fontSize = 10.5.sp)
                                         }
 
                                         Button(
                                             onClick = {
-                                                Toast.makeText(context, "Görev hızlı onaylandı.", Toast.LENGTH_SHORT).show()
+                                                Toast.makeText(context, "Öğrenci çalışması onaylandı! 🌟", Toast.LENGTH_SHORT).show()
                                                 scope.launch {
                                                     sessionRepo.submitReview(
                                                         Review(
                                                             sessionId = session.sessionId,
                                                             occurrenceKey = session.occurrenceKey,
                                                             reviewStatus = ReviewStatus.APPROVED,
-                                                            reviewNote = "Ebeveyn tarafından hızlı onaylandı",
+                                                            reviewNote = "Ebeveyn tarafından onaylandı",
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
                                                     try {
                                                         com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-                                                            .pushReviewDecision(session.sessionId, session.occurrenceKey, true, "Ebeveyn tarafından hızlı onaylandı")
-                                                    } catch (ignored: Exception) {}
+                                                            .pushReviewDecision(session.sessionId, session.occurrenceKey, true, "Ebeveyn tarafından onaylandı")
+                                                    } catch (_: Exception) {}
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),
@@ -636,12 +774,100 @@ fun ParentDashboardScreen(
                                             colors = ButtonDefaults.buttonColors(
                                                 containerColor = ZenForestGreen,
                                                 contentColor = Color.White
-                                            )
+                                            ),
+                                            contentPadding = PaddingValues(horizontal = 8.dp)
                                         ) {
-                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(14.dp))
+                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(13.dp))
                                             Spacer(modifier = Modifier.width(3.dp))
-                                            Text("Hızlı Onayla", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                                            Text("Aferin & Onayla", fontWeight = FontWeight.Bold, fontSize = 10.5.sp)
                                         }
+
+                                        OutlinedButton(
+                                            onClick = {
+                                                sessionToReject = session
+                                                rejectNoteInput = ""
+                                            },
+                                            modifier = Modifier.height(36.dp),
+                                            shape = ZenPillShape,
+                                            border = androidx.compose.foundation.BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.6f)),
+                                            contentPadding = PaddingValues(horizontal = 6.dp)
+                                        ) {
+                                            Icon(Icons.Default.Close, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(13.dp))
+                                            Spacer(modifier = Modifier.width(2.dp))
+                                            Text("Reddet", color = ZenRoseCoral, fontWeight = FontWeight.Bold, fontSize = 10.5.sp)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // Öğrencinin Onaylanmış Başarıları & Geçmişi
+                    if (approvedOccurrences.isNotEmpty()) {
+                        item {
+                            Spacer(modifier = Modifier.height(6.dp))
+                            Text(
+                                text = "🏆 Öğrencinin Başarıları & Onaylanan Dersler (${approvedOccurrences.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = ZenForestGreen,
+                                fontSize = 13.5.sp
+                            )
+                        }
+
+                        items(approvedOccurrences, key = { "appr_" + it.occurrenceKey }) { occ ->
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clip(ZenCardShape)
+                                    .background(ZenPaperCard)
+                                    .border(1.dp, ZenForestGreen.copy(alpha = 0.3f), ZenCardShape)
+                                    .padding(12.dp)
+                            ) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(10.dp)
+                                ) {
+                                    Box(
+                                        modifier = Modifier
+                                            .size(34.dp)
+                                            .clip(ZenSquircleShape)
+                                            .background(ZenForestContainer),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(18.dp))
+                                    }
+
+                                    Column(modifier = Modifier.weight(1f)) {
+                                        Text(
+                                            text = occ.title,
+                                            fontWeight = FontWeight.Bold,
+                                            color = ZomoTextPrimary,
+                                            fontSize = 13.sp
+                                        )
+                                        Text(
+                                            text = "${occ.plannedMinutes} dk" + (occ.date?.let { " • $it" } ?: "") +
+                                                    if (occ.type == TaskKind.WEEKLY && occ.targetCount != null) " • 🎯 ${occ.approvedCount}/${occ.targetCount}" else "",
+                                            style = MaterialTheme.typography.bodySmall,
+                                            color = ZomoTextSecondary,
+                                            fontSize = 10.5.sp
+                                        )
+                                    }
+
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(ZenPillShape)
+                                            .background(ZenForestContainer)
+                                            .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), ZenPillShape)
+                                            .padding(horizontal = 8.dp, vertical = 3.dp)
+                                    ) {
+                                        Text(
+                                            text = "✅ Başarıyla Tamamlandı",
+                                            color = ZenForestGreen,
+                                            fontSize = 10.sp,
+                                            fontWeight = FontWeight.Bold
+                                        )
                                     }
                                 }
                             }
@@ -786,22 +1012,22 @@ fun OccurrenceAdminCard(
 
     when (occurrence.status) {
         OccurrenceStatus.APPROVED -> {
-            badgeText = "Onaylandı"
+            badgeText = "✅ Öğrenci Yaptı & Onaylandı"
             badgeBg = ZenForestContainer
             badgeFg = ZenForestGreen
         }
         OccurrenceStatus.WAITING_REVIEW -> {
-            badgeText = "İnceleniyor"
+            badgeText = "⏳ Öğrenci Tamamladı (Onay Bekliyor)"
             badgeBg = ZenMoonGoldContainer
             badgeFg = ZenMoonGold
         }
         OccurrenceStatus.ACTIVE -> {
-            badgeText = "Aktif"
+            badgeText = "⚡ Öğrenci Şu An Çalışıyor"
             badgeBg = ZenSkyCyanContainer
             badgeFg = ZenSkyCyan
         }
         else -> {
-            badgeText = "Bekliyor"
+            badgeText = "⚪ Öğrenci Henüz Yapmadı"
             badgeBg = Color(0x15FFFFFF)
             badgeFg = ZomoTextSecondary
         }
@@ -815,60 +1041,86 @@ fun OccurrenceAdminCard(
                 clip = true
             }
             .background(ZenPaperCard)
-            .border(1.dp, ZenPaperBorder, ZenCardShape)
+            .border(1.dp, if (occurrence.warning) ZenRoseCoral.copy(alpha = 0.6f) else ZenPaperBorder, ZenCardShape)
             .padding(12.dp)
     ) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(10.dp)
-        ) {
-            Box(
-                modifier = Modifier
-                    .size(36.dp)
-                    .clip(ZenSquircleShape)
-                    .background(if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestContainer else ZenSkyCyanContainer),
-                contentAlignment = Alignment.Center
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                Icon(
-                    imageVector = if (occurrence.status == OccurrenceStatus.APPROVED) Icons.Default.Check else Icons.Default.MenuBook,
-                    contentDescription = null,
-                    tint = if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestGreen else ZenSkyCyan,
-                    modifier = Modifier.size(17.dp)
-                )
+                Box(
+                    modifier = Modifier
+                        .size(36.dp)
+                        .clip(ZenSquircleShape)
+                        .background(if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestContainer else ZenSkyCyanContainer),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = if (occurrence.status == OccurrenceStatus.APPROVED) Icons.Default.Check else Icons.Default.MenuBook,
+                        contentDescription = null,
+                        tint = if (occurrence.status == OccurrenceStatus.APPROVED) ZenForestGreen else ZenSkyCyan,
+                        modifier = Modifier.size(17.dp)
+                    )
+                }
+
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = occurrence.title,
+                        fontWeight = FontWeight.Bold,
+                        color = ZomoTextPrimary,
+                        fontSize = 13.5.sp
+                    )
+                    Text(
+                        text = "${occurrence.plannedMinutes} dk" +
+                                (occurrence.date?.let { " • $it" } ?: "") +
+                                if (occurrence.type == TaskKind.WEEKLY && occurrence.targetCount != null)
+                                    " • 🎯 ${occurrence.approvedCount}/${occurrence.targetCount}" else "",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = ZomoTextSecondary,
+                        fontSize = 11.sp
+                    )
+                }
+
+                Box(
+                    modifier = Modifier
+                        .clip(ZenPillShape)
+                        .background(badgeBg)
+                        .border(1.dp, badgeFg.copy(alpha = 0.4f), ZenPillShape)
+                        .padding(horizontal = 8.dp, vertical = 3.dp)
+                ) {
+                    Text(
+                        text = badgeText,
+                        color = badgeFg,
+                        fontSize = 9.5.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
             }
 
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = occurrence.title,
-                    fontWeight = FontWeight.Bold,
-                    color = ZomoTextPrimary,
-                    fontSize = 13.5.sp
-                )
-                Text(
-                    text = "${occurrence.plannedMinutes} dk" +
-                            (occurrence.date?.let { " • $it" } ?: "") +
-                            if (occurrence.type == TaskKind.WEEKLY && occurrence.targetCount != null)
-                                " • 🎯 ${occurrence.approvedCount}/${occurrence.targetCount}" else "",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = ZomoTextSecondary,
-                    fontSize = 11.sp
-                )
-            }
-
-            Box(
-                modifier = Modifier
-                    .clip(ZenPillShape)
-                    .background(badgeBg)
-                    .border(1.dp, badgeFg.copy(alpha = 0.3f), ZenPillShape)
-                    .padding(horizontal = 8.dp, vertical = 2.dp)
-            ) {
-                Text(
-                    text = badgeText,
-                    color = badgeFg,
-                    fontSize = 10.sp,
-                    fontWeight = FontWeight.Bold
-                )
+            if (occurrence.warning && !occurrence.warningText.isNullOrBlank()) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(ZenRoseCoral.copy(alpha = 0.12f))
+                        .border(1.dp, ZenRoseCoral.copy(alpha = 0.35f), RoundedCornerShape(8.dp))
+                        .padding(horizontal = 8.dp, vertical = 5.dp)
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        Icon(Icons.Default.Warning, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(14.dp))
+                        Text(
+                            text = "Reddedildi: ${occurrence.warningText}",
+                            color = ZenRoseCoral,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.Medium
+                        )
+                    }
+                }
             }
         }
     }

@@ -549,4 +549,30 @@ object StudyPackageExchangeManager {
             Result.failure(e)
         }
     }
+
+    /**
+     * Reset all student progress, sessions, and screenshots (İlerleme Sıfırlama).
+     */
+    suspend fun resetAllProgress(context: Context, weekId: String? = null) = withContext(Dispatchers.IO) {
+        val db = AppDatabase.getInstance(context)
+        if (weekId != null) {
+            db.occurrenceDao().resetWeeklyOccurrencesProgress(weekId)
+        } else {
+            db.occurrenceDao().resetAllOccurrencesProgress()
+        }
+        db.sessionDao().clearSessions()
+        db.screenshotDao().clearScreenshots()
+        db.reviewDao().clearReviews()
+
+        // Clean screenshots directory
+        val screenshotsDir = File(context.filesDir, "study_screenshots")
+        if (screenshotsDir.exists()) {
+            screenshotsDir.listFiles()?.forEach { it.delete() }
+        }
+
+        // Trigger sync so peer APK is notified
+        try {
+            CloudSyncManager.getInstance(context).syncAll()
+        } catch (_: Exception) {}
+    }
 }

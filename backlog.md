@@ -92,5 +92,8 @@
 - [x] Öğrenci Masası (`ChildHomeScreen`) üzerinde belirgin "📦 Günlük Rapor & Kanıt Paketi" kartı ve tam genişlikli "Raporu WhatsApp / Dosya İle Gönder" butonu
 - [x] Hem dosya URI (`content://`) hem de doğrudan JSON metin yüklemesini destekleyen `MainActivity` intent işleyicisi
 
-
-
+## 28. Veli İcraat Masası, Öğrenci Başarıları Karnesi ve İlerleme Sıfırlama Özelliği
+- [x] Veli uygulamasında öğrencinin yaptığı icraatları, başarıları ve kanıtları öne çıkaran "🎓 Öğrenci Çalışma Karnesi", "🚨 Öğrencinin Onay Bekleyen Oturumları" ve "🏆 Öğrencinin Başarıları & Onaylanan Dersler" görünümleri
+- [x] Veli haftalık plan sekmesinde görev durumlarının öğrenci perspektifli net etiketlerle sunulması (`✅ Öğrenci Yaptı & Onaylandı`, `⏳ Öğrenci Tamamladı (Onay Bekliyor)`, `⚡ Öğrenci Şu An Çalışıyor`, `⚪ Öğrenci Henüz Yapmadı`) ve reddedilen derslerde açıklama notu uyarısı
+- [x] Veli için hızlı tek tıkla "❌ Not Bırak & Reddet" diyalogu (öğrenciye doğrudan açıklama notu gönderme)
+- [x] Hem Veli hem Öğrenci uygulaması TopBar'ında "🔄 İlerlemeyi Sıfırla" butonu ve onay diyalogu (haftalık plan şablonunu koruyarak tüm tamamlanma kayıtlarını, oturumları ve kanıtları temizleme)

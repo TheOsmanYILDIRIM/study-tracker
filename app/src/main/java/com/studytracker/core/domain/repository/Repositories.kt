@@ -31,6 +31,7 @@ interface OccurrenceRepository {
     suspend fun updateStatus(occurrenceKey: String, status: OccurrenceStatus)
     suspend fun setWarning(occurrenceKey: String, warning: Boolean, note: String?)
     suspend fun incrementApprovedCount(occurrenceKey: String): Occurrence
+    suspend fun resetProgress(weekId: String? = null)
 }
 
 interface SessionRepository {
