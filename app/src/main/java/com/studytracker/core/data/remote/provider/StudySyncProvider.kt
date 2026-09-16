@@ -19,7 +19,8 @@ import com.studytracker.core.domain.model.ReviewStatus
 import com.studytracker.core.domain.model.SessionStatus
 import com.studytracker.core.domain.model.TargetMode
 import com.studytracker.core.domain.model.TaskKind
-import com.studytracker.core.domain.model.UploadStatus
+import com.studytracker.core.data.local.repository.toDomain
+import com.studytracker.core.data.local.repository.toEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.encodeToString
@@ -299,6 +300,22 @@ class StudySyncProvider : ContentProvider() {
                 db.screenshotDao().upsertScreenshots(toUpsert)
             }
         }
+
+        // 7. Quizzes
+        if (payload.quizzes.isNotEmpty()) {
+            val localQuizzes = db.quizDao().getAllQuizzesOnce().associateBy { it.quizId }
+            val mergedQuizzes = payload.quizzes.map { remoteQ ->
+                val local = localQuizzes[remoteQ.quizId]?.toDomain()
+                if (remoteQ.completed || (remoteQ.studentAnswers.isNotEmpty() && local?.completed != true)) {
+                    remoteQ.toEntity()
+                } else if (local?.completed == true) {
+                    local.toEntity()
+                } else {
+                    remoteQ.toEntity()
+                }
+            }
+            db.quizDao().upsertQuizzes(mergedQuizzes)
+        }
     }
 
     private suspend fun buildConsolidatedPayload(ctx: android.content.Context, db: AppDatabase, familyCode: String): SharedFamilySyncPayload {
@@ -417,6 +434,8 @@ class StudySyncProvider : ContentProvider() {
             }
         }
 
+        val quizzes = db.quizDao().getAllQuizzesOnce().map { it.toDomain() }
+
         return SharedFamilySyncPayload(
             familyCode = familyCode,
             plan = plan,
@@ -425,6 +444,7 @@ class StudySyncProvider : ContentProvider() {
             sessions = sessions,
             screenshots = screenshots,
             reviews = reviews,
+            quizzes = quizzes,
             updatedAt = System.currentTimeMillis()
         )
     }

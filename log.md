@@ -184,3 +184,26 @@
 - **Paket & Senkronizasyon Uyumluluğu (`StudyPackageExchangeManager`, `StudySyncProvider`, `SupabaseDto`):**
   - `.studyplan` WhatsApp paylaşım paketleri, ContentProvider Binder IPC ve Supabase bulut senkronizasyon modellerine `studentNote` alanı entegre edilerek iki yönlü aktarım güvenceye alındı.
 
+## [2026-09-16] 30. LaTeX Destekli Şıklı Test & Sınav Değerlendirme Sistemi (AI Prompt, Gizli Öğrenci Çözümü ve Veli Masası)
+- **Domain Modelleri & Room Veritabanı Genişletmesi (`Quiz`, `QuizQuestion`, `QuizOption`, `QuizEntity`, `QuizDao`, `AppDatabase`):**
+  - `Quiz`, `QuizQuestion`, `QuizOption` domain modelleri oluşturuldu.
+  - Room DB versiyonu 3'e yükseltildi, `quizzes` tablosu ve `QuizDao` eklendi.
+  - Soru listesi ve öğrenci cevapları JSON serializer ile tam tip güvenliğiyle saklanıyor.
+- **Bozulmayan Basit Metin DSL Test Formatı & Parser (`SimpleQuizParser`):**
+  - AI modellerinin (ChatGPT, Claude, Gemini) kolayca üretebileceği ve kopyalanıp yapıştırılabileceği `=== TEST: <Başlık> ===`, `[SORU 1]`, `A) ...`, `DOGRU: ...`, `COZUM: ...` formatı tasarlandı.
+  - LaTeX matematiksel ifadeler (`$\frac{a}{b}$`, `$\sqrt{x}$`, `$\int$`, `$x^2$`) için tam regex ve parser desteği kodlandı.
+  - `SimpleQuizParserTest` ile otomatik birim testleri doğrulandı.
+- **Dinamik AI Soru & Test Üretici Promptu (`AIPromptBuilder` & `AIQuizStudioDialog`):**
+  - Veli için sınıf seviyesi, ders konusu, soru sayısı ve süreye göre hazır AI promptu üreten stüdyo diyalogu geliştirildi.
+  - Tek tıkla prompt kopyalama, örnek soru doldurma ve yapıştırılan testi anında veritabanına kaydetme iş akışı sağlandı.
+- **Donanım Hızlandırmalı KaTeX/MathJax LaTeX Görüntüleyici (`LatexMathView`):**
+  - Formüller, köklü ifadeler, kesirler ve integral sembolleri için karanlık Zen temasına uyumlu (`#070B14`, `#0F1B2E`, `#00F5D4`) yerel WebView/KaTeX bileşeni kodlandı.
+- **Öğrenci Test Çözüm Ekranı (`ChildQuizScreen` — Gizli Cevap/Skor Kuralı):**
+  - Öğrenci sorular arasında kaydırarak veya düğmelerle gezinebiliyor, şıkları işaretleyebiliyor.
+  - **Kritik Kural:** Öğrenci testi çözerken veya bitirdiğinde doğru/yanlış cevapları ve test skorunu ASLA görmez; yalnızca teslim onay diyalogu gösterilerek cevapları kaydedilir.
+- **Veli Detaylı Test İnceleme Masası (`ParentQuizReviewScreen` & `ParentDashboardScreen`):**
+  - Veli tarafında çözülen testler için başarı oranı, doğru/yanlış/boş sayıları, öğrencinin işaretlediği şık ile doğru cevabın renkli karşılaştırması ve çözüm açıklamaları eksiksiz sunuldu.
+- **Paket & Senkronizasyon Entegrasyonu (`StudyPackageExchangeManager`, `StudySyncProvider`, `SupabaseDto`):**
+  - `.studyplan` plan ve günlük rapor paketlerine testler entegre edildi; veliden öğrenciye test gönderme ve öğrenciden veliye çözülmüş test cevaplarını iletme döngüsü tamamlandı.
+
+

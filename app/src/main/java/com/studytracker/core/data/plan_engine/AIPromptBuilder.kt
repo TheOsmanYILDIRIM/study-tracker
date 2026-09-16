@@ -96,4 +96,50 @@ object AIPromptBuilder {
             appendLine("Şimdi hiçbir sohbet metni eklemeden doğrudan yukarıdaki [DERSLER], [GUNLER] ve [HAFTALIK] formatında planı yaz:")
         }
     }
+
+    fun buildQuizPrompt(
+        topic: String,
+        questionCount: Int = 5,
+        targetGrade: String = "Ortaokul / Lise / YKS / KPSS",
+        date: String? = null,
+        durationMinutes: Int = 15,
+        userCustomNotes: String = ""
+    ): String {
+        return buildString {
+            appendLine("Sen uzman bir öğretmen ve sınav sorusu hazırlama uzmanısın.")
+            appendLine("Amacın: Android StudyTracker uygulaması için '$topic' konusunda şıklı test soruları üretmek.")
+            appendLine("Matematik ve fen formüllerinde standart LaTeX notasyonu kullan (örneğin \\frac{a}{b}, x^2, \\sqrt{x}, \\sin(x), \\int, \\sum vb.).")
+            appendLine()
+            appendLine("ÇIKTI FORMATI KURALLARI (BASİT TEST METİN FORMATI):")
+            appendLine("Aşağıdaki tam formatta çıktı üret. JSON kullanma, sadece belirtilen formatı doldur!")
+            appendLine()
+            appendLine("=== TEST: $topic Testi ===")
+            if (!date.isNullOrBlank()) {
+                appendLine("TARIH: $date")
+            }
+            appendLine("SURE: $durationMinutes")
+            appendLine("ACIKLAMA: $targetGrade seviyesinde $topic kazanım değerlendirme testi")
+            appendLine()
+            appendLine("[SORU 1]")
+            appendLine("f(x) = \\frac{x^2 - 4}{x - 2} fonksiyonunun x = 2 noktasındaki limiti kaçtır?")
+            appendLine("A) 2")
+            appendLine("B) 4")
+            appendLine("C) 0")
+            appendLine("D) Tanımsız")
+            appendLine("DOGRU: B")
+            appendLine("COZUM: Pay çarpanlarına ayrılırsa \\frac{(x-2)(x+2)}{x-2} = x+2 olur. x=2 için limit 4'tür.")
+            appendLine()
+            appendLine("---")
+            appendLine("İstenen Test Özellikleri:")
+            appendLine("- Konu: $topic")
+            appendLine("- Soru Sayısı: $questionCount")
+            appendLine("- Seviye: $targetGrade")
+            if (userCustomNotes.isNotBlank()) {
+                appendLine("- Ek Notlar / Özel İstek: $userCustomNotes")
+            }
+            appendLine()
+            appendLine("Şimdi hiçbir selamlama veya sohbet metni eklemeden doğrudan yukarıdaki === TEST: ... === formatında $questionCount adet soru yaz:")
+        }
+    }
 }
+

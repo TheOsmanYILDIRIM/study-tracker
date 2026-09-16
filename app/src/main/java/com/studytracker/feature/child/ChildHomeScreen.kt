@@ -41,6 +41,10 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlinx.coroutines.launch
 
+import com.studytracker.core.data.local.db.AppDatabase
+import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
+import com.studytracker.core.domain.model.Quiz
+
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(16.dp)
 
@@ -49,10 +53,15 @@ private val ZenCardShape = RoundedCornerShape(16.dp)
 fun ChildHomeScreen(
     onNavigateBackToRole: () -> Unit,
     onOpenTutorial: () -> Unit,
-    onNavigateToSettings: () -> Unit = {}
+    onNavigateToSettings: () -> Unit = {},
+    onNavigateToQuiz: (String) -> Unit = {}
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val db = remember { AppDatabase.getInstance(context) }
+    val quizRepo = remember { LocalQuizRepositoryImpl(db) }
+    val quizzes by quizRepo.getAllQuizzes().collectAsState(initial = emptyList())
+
     val stateManager = remember { SessionStateManager.getInstance(context) }
     val occurrences by remember(stateManager) {
         stateManager.occurrenceRepository.getAllOccurrences()
@@ -579,6 +588,40 @@ fun ChildHomeScreen(
                     }
                 }
 
+                // 1.5. Quizzes / Tests Section (Günün Testleri & Soru Çözümleri)
+                if (quizzes.isNotEmpty()) {
+                    item(key = "quizzes_header") {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(8.dp)
+                                    .clip(ZenPillShape)
+                                    .background(Color(0xFF00E5FF))
+                            )
+                            Text(
+                                text = "📝 Testler & Soru Çözümü (${quizzes.size})",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = Color(0xFF00E5FF),
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
+
+                    items(
+                        items = quizzes,
+                        key = { "quiz_" + it.quizId }
+                    ) { quiz ->
+                        StudyQuizCard(
+                            quiz = quiz,
+                            onStartClick = { onNavigateToQuiz(quiz.quizId) }
+                        )
+                    }
+                }
+
                 // 2. Weekly Goals Section AT TOP in a Horizontal LazyRow
                 if (weeklyTasks.isNotEmpty()) {
                     item(key = "weekly_header") {
@@ -828,3 +871,103 @@ fun LiveTimerText(stateManager: SessionStateManager) {
         )
     }
 }
+
+@Composable
+fun StudyQuizCard(
+    quiz: Quiz,
+    onStartClick: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val isCompleted = quiz.completed
+    val totalQuestions = quiz.questions.size
+
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .clip(ZenCardShape)
+            .background(if (isCompleted) Color(0xFF0C1F1D) else Color(0xFF0F1B2E))
+            .border(1.2.dp, if (isCompleted) ZenForestGreen.copy(alpha = 0.5f) else Color(0xFF00E5FF).copy(alpha = 0.4f), ZenCardShape)
+            .padding(14.dp)
+    ) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Row(
+                    modifier = Modifier.weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(36.dp)
+                            .clip(ZenPillShape)
+                            .background(if (isCompleted) ZenForestContainer else ZenSkyCyanContainer),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            imageVector = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.Quiz,
+                            contentDescription = null,
+                            tint = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
+                            modifier = Modifier.size(18.dp)
+                        )
+                    }
+
+                    Column {
+                        Text(
+                            text = quiz.title,
+                            fontWeight = FontWeight.Bold,
+                            color = ZomoTextPrimary,
+                            fontSize = 13.5.sp,
+                            maxLines = 1
+                        )
+                        Text(
+                            text = "$totalQuestions Soru • ${quiz.durationMinutes} dk" + (quiz.description?.let { " • $it" } ?: ""),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = ZomoTextSecondary,
+                            fontSize = 11.sp,
+                            maxLines = 1
+                        )
+                    }
+                }
+
+                Box(
+                    modifier = Modifier
+                        .clip(ZenPillShape)
+                        .background(if (isCompleted) ZenForestContainer else ZenSkyCyanContainer)
+                        .border(1.dp, if (isCompleted) ZenForestGreen.copy(alpha = 0.4f) else Color(0xFF00E5FF).copy(alpha = 0.3f), ZenPillShape)
+                        .padding(horizontal = 8.dp, vertical = 3.dp)
+                ) {
+                    Text(
+                        text = if (isCompleted) "✅ Veliye İletildi" else "⏳ Bekliyor",
+                        color = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
+                        fontSize = 10.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+            }
+
+            Button(
+                onClick = onStartClick,
+                modifier = Modifier.fillMaxWidth().height(38.dp),
+                shape = ZenPillShape,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (isCompleted) Color(0xFF143328) else Color(0xFF00E5FF),
+                    contentColor = if (isCompleted) ZenForestGreen else Color(0xFF070B14)
+                ),
+                border = if (isCompleted) androidx.compose.foundation.BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f)) else null
+            ) {
+                Icon(
+                    imageVector = if (isCompleted) Icons.Default.Refresh else Icons.Default.PlayArrow,
+                    contentDescription = null,
+                    modifier = Modifier.size(15.dp)
+                )
+                Spacer(modifier = Modifier.width(4.dp))
+                Text(if (isCompleted) "Testi Tekrar Çöz" else "Testi Başlat ⚡", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            }
+        }
+    }
+}
+

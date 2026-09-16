@@ -149,3 +149,46 @@ interface ReviewDao {
     @Query("DELETE FROM reviews")
     suspend fun clearReviews()
 }
+
+@Dao
+interface QuizDao {
+    @Query("SELECT * FROM quizzes ORDER BY rowid DESC")
+    fun getAllQuizzes(): kotlinx.coroutines.flow.Flow<List<QuizEntity>>
+
+    @Query("SELECT * FROM quizzes")
+    suspend fun getAllQuizzesOnce(): List<QuizEntity>
+
+    @Query("SELECT * FROM quizzes WHERE quizId = :quizId LIMIT 1")
+    suspend fun getQuizById(quizId: String): QuizEntity?
+
+    @Query("SELECT * FROM quizzes WHERE quizId = :quizId LIMIT 1")
+    fun observeQuizById(quizId: String): kotlinx.coroutines.flow.Flow<QuizEntity?>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertQuiz(quiz: QuizEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertQuizzes(quizzes: List<QuizEntity>)
+
+    @Query("UPDATE quizzes SET completed = :completed, submittedAt = :submittedAt, studentAnswersJson = :studentAnswersJson, studentDurationSeconds = :studentDurationSeconds, correctCount = :correctCount, wrongCount = :wrongCount, emptyCount = :emptyCount WHERE quizId = :quizId")
+    suspend fun submitQuiz(
+        quizId: String,
+        completed: Boolean,
+        submittedAt: Long,
+        studentAnswersJson: String,
+        studentDurationSeconds: Int,
+        correctCount: Int,
+        wrongCount: Int,
+        emptyCount: Int
+    )
+
+    @Query("UPDATE quizzes SET completed = 0, submittedAt = NULL, studentAnswersJson = '{}', studentDurationSeconds = 0, correctCount = 0, wrongCount = 0, emptyCount = 0")
+    suspend fun resetAllQuizzesProgress()
+
+    @Query("DELETE FROM quizzes WHERE quizId = :quizId")
+    suspend fun deleteQuiz(quizId: String)
+
+    @Query("DELETE FROM quizzes")
+    suspend fun clearQuizzes()
+}
+

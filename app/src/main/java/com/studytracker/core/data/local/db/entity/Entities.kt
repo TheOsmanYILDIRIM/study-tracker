@@ -103,3 +103,23 @@ data class ReviewEntity(
     val reviewNote: String?,
     val reviewedAt: Long
 )
+
+@Entity(tableName = "quizzes")
+data class QuizEntity(
+    @PrimaryKey val quizId: String,
+    val title: String,
+    val description: String? = null,
+    val date: String? = null,
+    val weekId: String? = null,
+    val durationMinutes: Int = 15,
+    val targetOccurrenceKey: String? = null,
+    val questionsJson: String = "[]",
+    val completed: Boolean = false,
+    val submittedAt: Long? = null,
+    val studentAnswersJson: String = "{}",
+    val studentDurationSeconds: Int = 0,
+    val correctCount: Int = 0,
+    val wrongCount: Int = 0,
+    val emptyCount: Int = 0
+)
+

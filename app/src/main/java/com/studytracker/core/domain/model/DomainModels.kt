@@ -172,3 +172,42 @@ data class Review(
     val reviewedAt: Long
 )
 
+@Immutable
+@Serializable
+data class QuizOption(
+    val key: String,                      // "A", "B", "C", "D", "E"
+    val text: String                      // Option text with LaTeX support
+)
+
+@Immutable
+@Serializable
+data class QuizQuestion(
+    val questionId: String,
+    val questionNumber: Int,
+    val text: String,                     // Question text with LaTeX support
+    val options: List<QuizOption> = emptyList(),
+    val correctOption: String = "",       // "A", "B", "C", "D", "E" (Hidden from student during quiz)
+    val solutionExplanation: String? = null
+)
+
+@Immutable
+@Serializable
+data class Quiz(
+    val quizId: String,
+    val title: String,
+    val description: String? = null,
+    val date: String? = null,             // YYYY-MM-DD
+    val weekId: String? = null,           // YYYY-Www
+    val durationMinutes: Int = 15,
+    val targetOccurrenceKey: String? = null,
+    val questions: List<QuizQuestion> = emptyList(),
+    val completed: Boolean = false,
+    val submittedAt: Long? = null,
+    val studentAnswers: Map<String, String> = emptyMap(), // questionId -> selectedOption ("A", "B", ...)
+    val studentDurationSeconds: Int = 0,
+    val correctCount: Int = 0,
+    val wrongCount: Int = 0,
+    val emptyCount: Int = 0
+)
+
+

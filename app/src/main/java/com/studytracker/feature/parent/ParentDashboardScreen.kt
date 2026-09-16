@@ -41,6 +41,9 @@ import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
 
+import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
+import com.studytracker.core.domain.model.Quiz
+
 private val DAY_FILTERS = listOf(
     "ALL" to "Tüm Hafta",
     "MON" to "Pzt",
@@ -62,6 +65,7 @@ fun ParentDashboardScreen(
     onNavigateBack: () -> Unit,
     onNavigateToPlanStudio: () -> Unit,
     onNavigateToSessionReview: (sessionId: String) -> Unit,
+    onNavigateToQuizReview: (quizId: String) -> Unit = {},
     onNavigateToSettings: () -> Unit = {}
 ) {
     val context = LocalContext.current
@@ -71,15 +75,18 @@ fun ParentDashboardScreen(
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
     val occurrenceRepo = remember { LocalOccurrenceRepositoryImpl(db) }
     val planRepo = remember { LocalPlanRepositoryImpl(db) }
+    val quizRepo = remember { LocalQuizRepositoryImpl(db) }
 
     val waitingSessions by remember(sessionRepo) { sessionRepo.getWaitingReviewSessions() }.collectAsState(initial = emptyList())
     val allOccurrences by remember(occurrenceRepo) { occurrenceRepo.getAllOccurrences() }.collectAsState(initial = emptyList())
     val activePlan by remember(planRepo) { planRepo.getActivePlan() }.collectAsState(initial = null)
+    val quizzes by quizRepo.getAllQuizzes().collectAsState(initial = emptyList())
 
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showSyncDialog by remember { mutableStateOf(false) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var showQuizStudioDialog by remember { mutableStateOf(false) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
 
@@ -230,6 +237,12 @@ fun ParentDashboardScreen(
                 }
             },
             containerColor = Color(0xFF10192E)
+        )
+    }
+
+    if (showQuizStudioDialog) {
+        AIQuizStudioDialog(
+            onDismissRequest = { showQuizStudioDialog = false }
         )
     }
 
@@ -495,22 +508,45 @@ fun ParentDashboardScreen(
                         }
                     }
 
-                    // Quick Studio Action Button
+                    // Quick Studio Action Buttons
                     item {
-                        Button(
-                            onClick = onNavigateToPlanStudio,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(46.dp),
-                            shape = ZenPillShape,
-                            colors = ButtonDefaults.buttonColors(
-                                containerColor = ZenSkyCyan,
-                                contentColor = Color(0xFF070B14)
-                            )
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
-                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(8.dp))
-                            Text("Yeni AI Haftalık Planı Oluştur", fontWeight = FontWeight.Bold, fontSize = 13.5.sp)
+                            Button(
+                                onClick = onNavigateToPlanStudio,
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .height(44.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(
+                                    containerColor = ZenSkyCyan,
+                                    contentColor = Color(0xFF070B14)
+                                ),
+                                contentPadding = PaddingValues(horizontal = 6.dp)
+                            ) {
+                                Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(16.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text("AI Haftalık Plan", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                            }
+
+                            Button(
+                                onClick = { showQuizStudioDialog = true },
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .height(44.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(
+                                    containerColor = Color(0xFF00E5FF),
+                                    contentColor = Color(0xFF070B14)
+                                ),
+                                contentPadding = PaddingValues(horizontal = 6.dp)
+                            ) {
+                                Icon(Icons.Default.Quiz, contentDescription = null, modifier = Modifier.size(16.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text("AI Test & Soru", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                            }
                         }
                     }
 
@@ -820,6 +856,134 @@ fun ParentDashboardScreen(
                                             Spacer(modifier = Modifier.width(2.dp))
                                             Text("Reddet", color = ZenRoseCoral, fontWeight = FontWeight.Bold, fontSize = 10.5.sp)
                                         }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // 📝 Öğrencinin Çözdüğü Testler & Sınavlar
+                    if (quizzes.isNotEmpty()) {
+                        item {
+                            Spacer(modifier = Modifier.height(6.dp))
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Text(
+                                    text = "📝 Öğrencinin Testleri & Soru Sonuçları (${quizzes.size})",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = Color(0xFF00E5FF),
+                                    fontSize = 13.5.sp
+                                )
+                                TextButton(
+                                    onClick = { showQuizStudioDialog = true },
+                                    contentPadding = PaddingValues(horizontal = 6.dp)
+                                ) {
+                                    Icon(Icons.Default.Add, contentDescription = null, tint = Color(0xFF00E5FF), modifier = Modifier.size(15.dp))
+                                    Spacer(modifier = Modifier.width(2.dp))
+                                    Text("Test Ekle", color = Color(0xFF00E5FF), fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                                }
+                            }
+                        }
+
+                        items(quizzes, key = { "p_quiz_" + it.quizId }) { q ->
+                            val isCompleted = q.completed
+                            val totalQ = q.questions.size.coerceAtLeast(1)
+                            val correctQ = q.correctCount
+                            val wrongQ = q.wrongCount
+                            val emptyQ = q.emptyCount
+                            val successRate = (correctQ * 100) / totalQ
+
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clip(ZenCardShape)
+                                    .background(ZenPaperCard)
+                                    .border(1.dp, if (isCompleted) Color(0xFF00E5FF).copy(alpha = 0.5f) else ZenPaperBorder, ZenCardShape)
+                                    .padding(14.dp)
+                            ) {
+                                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.SpaceBetween,
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Row(
+                                            modifier = Modifier.weight(1f),
+                                            verticalAlignment = Alignment.CenterVertically,
+                                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                                        ) {
+                                            Box(
+                                                modifier = Modifier
+                                                    .size(36.dp)
+                                                    .clip(ZenSquircleShape)
+                                                    .background(if (isCompleted) ZenForestContainer else ZenSkyCyanContainer),
+                                                contentAlignment = Alignment.Center
+                                            ) {
+                                                Icon(
+                                                    imageVector = if (isCompleted) Icons.Default.Assessment else Icons.Default.Quiz,
+                                                    contentDescription = null,
+                                                    tint = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
+                                                    modifier = Modifier.size(18.dp)
+                                                )
+                                            }
+
+                                            Column {
+                                                Text(
+                                                    text = q.title,
+                                                    fontWeight = FontWeight.Bold,
+                                                    color = ZomoTextPrimary,
+                                                    fontSize = 13.sp,
+                                                    maxLines = 1
+                                                )
+                                                Text(
+                                                    text = if (isCompleted)
+                                                        "✅ $correctQ D • ❌ $wrongQ Y • ⚪ $emptyQ B • %$successRate Başarı"
+                                                    else
+                                                        "$totalQ Soru • ${q.durationMinutes} dk • Henüz Çözülmedi",
+                                                    style = MaterialTheme.typography.bodySmall,
+                                                    color = if (isCompleted) ZenForestGreen else ZomoTextSecondary,
+                                                    fontSize = 11.sp,
+                                                    fontWeight = if (isCompleted) FontWeight.Bold else FontWeight.Normal
+                                                )
+                                            }
+                                        }
+
+                                        Box(
+                                            modifier = Modifier
+                                                .clip(ZenPillShape)
+                                                .background(if (isCompleted) ZenForestContainer else Color(0x15FFFFFF))
+                                                .border(1.dp, if (isCompleted) ZenForestGreen.copy(alpha = 0.5f) else ZenPaperBorder, ZenPillShape)
+                                                .padding(horizontal = 8.dp, vertical = 3.dp)
+                                        ) {
+                                            Text(
+                                                text = if (isCompleted) "%$successRate Başarı" else "⏳ Bekliyor",
+                                                color = if (isCompleted) ZenForestGreen else ZomoTextMuted,
+                                                fontSize = 10.sp,
+                                                fontWeight = FontWeight.Bold
+                                            )
+                                        }
+                                    }
+
+                                    Button(
+                                        onClick = { onNavigateToQuizReview(q.quizId) },
+                                        modifier = Modifier.fillMaxWidth().height(36.dp),
+                                        shape = ZenPillShape,
+                                        colors = ButtonDefaults.buttonColors(
+                                            containerColor = if (isCompleted) Color(0xFF00E5FF) else ZenSkyCyanContainer,
+                                            contentColor = if (isCompleted) Color(0xFF070B14) else ZenSkyCyan
+                                        )
+                                    ) {
+                                        Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(14.dp))
+                                        Spacer(modifier = Modifier.width(4.dp))
+                                        Text(
+                                            if (isCompleted) "Sonuçları & Çözümleri İncele" else "Soruları Önizle",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 11.5.sp
+                                        )
                                     }
                                 }
                             }

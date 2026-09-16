@@ -11,9 +11,11 @@ import androidx.compose.ui.platform.LocalContext
 import com.studytracker.BuildConfig
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.feature.child.ChildHomeScreen
+import com.studytracker.feature.child.ChildQuizScreen
 import com.studytracker.feature.child.ChildTutorialScreen
 import com.studytracker.feature.parent.AIPlanStudioScreen
 import com.studytracker.feature.parent.ParentDashboardScreen
+import com.studytracker.feature.parent.ParentQuizReviewScreen
 import com.studytracker.feature.parent.RoleSelectionScreen
 import com.studytracker.feature.parent.SessionReviewScreen
 import com.studytracker.feature.test_mode.DeveloperConsoleScreen
@@ -74,6 +76,9 @@ fun AppNavGraph(
                 },
                 onNavigateToSettings = {
                     navController.navigate(Screen.DeveloperConsole.route)
+                },
+                onNavigateToQuiz = { quizId ->
+                    navController.navigate(Screen.ChildQuiz.createRoute(quizId))
                 }
             )
         }
@@ -88,6 +93,9 @@ fun AppNavGraph(
                 },
                 onNavigateToSessionReview = { sessionId ->
                     navController.navigate(Screen.SessionReview.createRoute(sessionId))
+                },
+                onNavigateToQuizReview = { quizId ->
+                    navController.navigate(Screen.ParentQuizReview.createRoute(quizId))
                 },
                 onNavigateToSettings = {
                     navController.navigate(Screen.DeveloperConsole.route)
@@ -110,6 +118,32 @@ fun AppNavGraph(
             val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
             SessionReviewScreen(
                 sessionId = sessionId,
+                onNavigateBack = {
+                    navController.popBackStack()
+                }
+            )
+        }
+
+        composable(
+            route = Screen.ChildQuiz.route,
+            arguments = listOf(navArgument("quizId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val quizId = backStackEntry.arguments?.getString("quizId") ?: ""
+            ChildQuizScreen(
+                quizId = quizId,
+                onNavigateBack = {
+                    navController.popBackStack()
+                }
+            )
+        }
+
+        composable(
+            route = Screen.ParentQuizReview.route,
+            arguments = listOf(navArgument("quizId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val quizId = backStackEntry.arguments?.getString("quizId") ?: ""
+            ParentQuizReviewScreen(
+                quizId = quizId,
                 onNavigateBack = {
                     navController.popBackStack()
                 }

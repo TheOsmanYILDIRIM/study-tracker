@@ -1,5 +1,6 @@
 package com.studytracker.core.data.remote.supabase
 
+import com.studytracker.core.domain.model.Quiz
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
@@ -101,6 +102,7 @@ data class SharedFamilySyncPayload(
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
+    val quizzes: List<Quiz> = emptyList(),
     val updatedAt: Long = System.currentTimeMillis()
 )
 

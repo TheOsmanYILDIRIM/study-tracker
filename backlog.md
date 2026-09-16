@@ -105,3 +105,12 @@
 - [x] Veli Masasında (`ParentDashboardScreen`) onay bekleyen oturumlarda, onaylanan dersler listesinde ve `OccurrenceAdminCard` bileşenlerinde öğrenci notunun belirgin vurgulanması
 - [x] Veli Kanıt İnceleme ekranında (`SessionReviewScreen`) oturum detayları kartında öğrenci notunun özel neon kutuyla gösterilmesi
 - [x] `.studyplan` paket alışverişi (`StudyPackageExchangeManager`), ContentProvider Binder IPC (`StudySyncProvider`) ve Supabase Cloud Sync (`RemoteOccurrenceSyncDto`) veri köprülerine `studentNote` alanının eklenmesi
+
+## 30. LaTeX & Matematik Formül Destekli Şıklı Test & Sınav Değerlendirme Sistemi
+- [x] `Quiz`, `QuizQuestion`, `QuizOption` domain modelleri, `QuizEntity`, Room `QuizDao`, `LocalQuizRepositoryImpl` ve DB v3 yükseltmesi
+- [x] AI modelleri (ChatGPT/Claude/Gemini) için kolay ve bozulmaz test DSL formatı (`=== TEST: ... ===`, `[SORU 1]`, `A) ...`, `DOGRU: ...`, `COZUM: ...`) ve `SimpleQuizParser`
+- [x] Veli AI Test & Soru Stüdyosu (`AIQuizStudioDialog`): Ders/konu, soru sayısı ve seviyeye göre anında LaTeX formatlı AI istemi (prompt) üretme ve yapıştırma alanı
+- [x] Zengin donanım destekli, koyu tema uyumlu LaTeX matematik formül render bileşeni (`LatexMathView` / KaTeX)
+- [x] Öğrenci Test Çözme Ekranı (`ChildQuizScreen`): Şık seçimi, soru gezinti şeridi, sayaç ve testi veliye gönderme onay diyalogu (**öğrenci çözerken veya bitirince doğru cevapları ve puanı görmez**)
+- [x] Veli Test İnceleme Ekranı (`ParentQuizReviewScreen`): Başarı yüzdesi (%X), Doğru/Yanlış/Boş metrikleri, soru bazında öğrencinin seçimi ile doğru cevabın karşılaştırılması ve LaTeX çözümler
+- [x] `.studyplan` dosya paketi, Binder IPC (`StudySyncProvider`) ve Supabase bulut senkronizasyonuna testlerin ve öğrenci cevaplarının tam entegrasyonu

@@ -9,5 +9,11 @@ sealed class Screen(val route: String) {
     object SessionReview : Screen("session_review/{sessionId}") {
         fun createRoute(sessionId: String) = "session_review/$sessionId"
     }
+    object ChildQuiz : Screen("child_quiz/{quizId}") {
+        fun createRoute(quizId: String) = "child_quiz/$quizId"
+    }
+    object ParentQuizReview : Screen("parent_quiz_review/{quizId}") {
+        fun createRoute(quizId: String) = "parent_quiz_review/$quizId"
+    }
     object DeveloperConsole : Screen("developer_console")
 }

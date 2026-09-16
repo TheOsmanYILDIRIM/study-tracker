@@ -16,9 +16,10 @@ import com.studytracker.core.data.local.db.entity.*
         PlanEntity::class,
         SessionEntity::class,
         ScreenshotEntity::class,
-        ReviewEntity::class
+        ReviewEntity::class,
+        QuizEntity::class
     ],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 @TypeConverters(AppTypeConverters::class)
@@ -29,6 +30,7 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun sessionDao(): SessionDao
     abstract fun screenshotDao(): ScreenshotDao
     abstract fun reviewDao(): ReviewDao
+    abstract fun quizDao(): QuizDao
 
     companion object {
         @Volatile

@@ -27,6 +27,9 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
 
+import com.studytracker.core.data.local.repository.toDomain
+import com.studytracker.core.data.local.repository.toEntity
+
 @Serializable
 enum class PackageType {
     PLAN_DISTRIBUTION, // Veli -> Öğrenci (Haftalık Plan veya Revize Plan)
@@ -48,7 +51,8 @@ data class StudyTrackerPackage(
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
-    val reviews: List<RemoteReviewSyncDto> = emptyList()
+    val reviews: List<RemoteReviewSyncDto> = emptyList(),
+    val quizzes: List<Quiz> = emptyList()
 )
 
 object StudyPackageExchangeManager {
@@ -145,6 +149,8 @@ object StudyPackageExchangeManager {
             )
         }
 
+        val quizzes = db.quizDao().getAllQuizzesOnce().map { it.toDomain() }
+
         val pkg = StudyTrackerPackage(
             packageType = PackageType.PLAN_DISTRIBUTION,
             familyCode = familyCode,
@@ -152,7 +158,8 @@ object StudyPackageExchangeManager {
             title = "Haftalık Çalışma Planı (${plan?.weekId ?: "Hafta"})",
             plan = plan,
             tasks = tasks,
-            occurrences = occurrences
+            occurrences = occurrences,
+            quizzes = quizzes
         )
 
         val outDir = File(context.cacheDir, "plans").apply { if (!exists()) mkdirs() }
@@ -227,6 +234,7 @@ object StudyPackageExchangeManager {
         }
 
         val completedCount = occurrences.count { it.status == OccurrenceStatus.APPROVED.name || it.status == OccurrenceStatus.WAITING_REVIEW.name }
+        val quizzes = db.quizDao().getAllQuizzesOnce().map { it.toDomain() }
 
         val pkg = StudyTrackerPackage(
             packageType = PackageType.STUDY_REPORT,
@@ -236,7 +244,8 @@ object StudyPackageExchangeManager {
             note = "$completedCount ders tamamlandı, ${screenshotDtos.size} kanıt görseli eklendi.",
             occurrences = occurrences,
             sessions = sessions,
-            screenshots = screenshotDtos
+            screenshots = screenshotDtos,
+            quizzes = quizzes
         )
 
         val outDir = File(context.cacheDir, "reports").apply { if (!exists()) mkdirs() }
@@ -542,12 +551,28 @@ object StudyPackageExchangeManager {
                 }
             }
 
-            // 7. Auto trigger ContentProvider sync if peer exists on the device
+            // 7. Reconcile Quizzes & Student Quiz Submissions
+            if (pkg.quizzes.isNotEmpty()) {
+                val localQuizzes = db.quizDao().getAllQuizzesOnce().associateBy { it.quizId }
+                val mergedQuizzes = pkg.quizzes.map { remoteQ ->
+                    val local = localQuizzes[remoteQ.quizId]?.toDomain()
+                    if (remoteQ.completed || (remoteQ.studentAnswers.isNotEmpty() && local?.completed != true)) {
+                        remoteQ.toEntity()
+                    } else if (local?.completed == true) {
+                        local.toEntity()
+                    } else {
+                        remoteQ.toEntity()
+                    }
+                }
+                db.quizDao().upsertQuizzes(mergedQuizzes)
+            }
+
+            // 8. Auto trigger ContentProvider sync if peer exists on the device
             try {
                 CloudSyncManager.getInstance(context).syncAll()
             } catch (_: Exception) {}
 
-            val summary = "${pkg.title} başarıyla yüklendi! (${pkg.occurrences.size} ders, ${pkg.screenshots.size} kanıt)"
+            val summary = "${pkg.title} başarıyla yüklendi! (${pkg.occurrences.size} ders, ${pkg.quizzes.size} test, ${pkg.screenshots.size} kanıt)"
             Result.success(summary)
         } catch (e: Exception) {
             Log.e("PackageExchange", "Import error: ${e.message}", e)
@@ -569,6 +594,7 @@ object StudyPackageExchangeManager {
             db.sessionDao().clearSessions()
             db.screenshotDao().clearScreenshots()
             db.reviewDao().clearReviews()
+            db.quizDao().resetAllQuizzesProgress()
 
             // Clean screenshots directory
             val screenshotsDir = File(context.filesDir, "study_screenshots")

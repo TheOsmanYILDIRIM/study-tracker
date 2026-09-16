@@ -350,3 +350,136 @@ fun Review.toEntity() = ReviewEntity(
     sessionId = sessionId, occurrenceKey = occurrenceKey, reviewStatus = reviewStatus,
     reviewNote = reviewNote, reviewedAt = reviewedAt
 )
+
+class LocalQuizRepositoryImpl(
+    private val db: AppDatabase
+) : QuizRepository {
+
+    private val json = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    override fun getAllQuizzes(): Flow<List<Quiz>> {
+        return db.quizDao().getAllQuizzes()
+            .map { list -> list.map { it.toDomain(json) } }
+            .distinctUntilChanged()
+            .flowOn(Dispatchers.IO)
+    }
+
+    override suspend fun getAllQuizzesOnce(): List<Quiz> {
+        return db.quizDao().getAllQuizzesOnce().map { it.toDomain(json) }
+    }
+
+    override suspend fun getQuizById(quizId: String): Quiz? {
+        return db.quizDao().getQuizById(quizId)?.toDomain(json)
+    }
+
+    override fun observeQuizById(quizId: String): Flow<Quiz?> {
+        return db.quizDao().observeQuizById(quizId)
+            .map { it?.toDomain(json) }
+            .distinctUntilChanged()
+            .flowOn(Dispatchers.IO)
+    }
+
+    override suspend fun saveQuiz(quiz: Quiz) {
+        db.quizDao().insertQuiz(quiz.toEntity(json))
+    }
+
+    override suspend fun upsertQuizzes(quizzes: List<Quiz>) {
+        db.quizDao().upsertQuizzes(quizzes.map { it.toEntity(json) })
+    }
+
+    override suspend fun submitQuizAnswers(quizId: String, studentAnswers: Map<String, String>, durationSeconds: Int) {
+        val quizEntity = db.quizDao().getQuizById(quizId) ?: return
+        val quiz = quizEntity.toDomain(json)
+
+        var correct = 0
+        var wrong = 0
+        var empty = 0
+
+        for (q in quiz.questions) {
+            val ans = studentAnswers[q.questionId]?.trim()
+            val expected = q.correctOption.trim()
+            if (ans.isNullOrBlank()) {
+                empty++
+            } else if (ans.equals(expected, ignoreCase = true)) {
+                correct++
+            } else {
+                wrong++
+            }
+        }
+
+        db.quizDao().submitQuiz(
+            quizId = quizId,
+            completed = true,
+            submittedAt = System.currentTimeMillis(),
+            studentAnswersJson = json.encodeToString(studentAnswers),
+            studentDurationSeconds = durationSeconds,
+            correctCount = correct,
+            wrongCount = wrong,
+            emptyCount = empty
+        )
+    }
+
+    override suspend fun resetAllQuizzesProgress() {
+        db.quizDao().resetAllQuizzesProgress()
+    }
+
+    override suspend fun deleteQuiz(quizId: String) {
+        db.quizDao().deleteQuiz(quizId)
+    }
+
+    override suspend fun clearQuizzes() {
+        db.quizDao().clearQuizzes()
+    }
+}
+
+fun Quiz.toEntity(json: Json = Json { ignoreUnknownKeys = true }) = QuizEntity(
+    quizId = quizId,
+    title = title,
+    description = description,
+    date = date,
+    weekId = weekId,
+    durationMinutes = durationMinutes,
+    targetOccurrenceKey = targetOccurrenceKey,
+    questionsJson = try { json.encodeToString(questions) } catch (_: Exception) { "[]" },
+    completed = completed,
+    submittedAt = submittedAt,
+    studentAnswersJson = try { json.encodeToString(studentAnswers) } catch (_: Exception) { "{}" },
+    studentDurationSeconds = studentDurationSeconds,
+    correctCount = correctCount,
+    wrongCount = wrongCount,
+    emptyCount = emptyCount
+)
+
+fun QuizEntity.toDomain(json: Json = Json { ignoreUnknownKeys = true }): Quiz {
+    val qList: List<QuizQuestion> = try {
+        json.decodeFromString(questionsJson)
+    } catch (_: Exception) {
+        emptyList()
+    }
+    val aMap: Map<String, String> = try {
+        json.decodeFromString(studentAnswersJson)
+    } catch (_: Exception) {
+        emptyMap()
+    }
+    return Quiz(
+        quizId = quizId,
+        title = title,
+        description = description,
+        date = date,
+        weekId = weekId,
+        durationMinutes = durationMinutes,
+        targetOccurrenceKey = targetOccurrenceKey,
+        questions = qList,
+        completed = completed,
+        submittedAt = submittedAt,
+        studentAnswers = aMap,
+        studentDurationSeconds = studentDurationSeconds,
+        correctCount = correctCount,
+        wrongCount = wrongCount,
+        emptyCount = emptyCount
+    )
+}
+
