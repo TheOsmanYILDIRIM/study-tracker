@@ -208,5 +208,18 @@
 - **Paket & Senkronizasyon Entegrasyonu (`StudyPackageExchangeManager`, `StudySyncProvider`, `SupabaseDto`):**
   - `.studyplan` plan ve günlük rapor paketlerine testler entegre edildi; veliden öğrenciye test gönderme ve öğrenciden veliye çözülmüş test cevaplarını iletme döngüsü tamamlandı.
 
+## [2026-09-16] 31. Görev İçi Test Bütünleştirmesi & Saf Android Paylaşım (Share Sheet) Mimarisi
+- **Günlük Akışa Gömülü Test Kartları (`ChildHomeScreen`):**
+  - Testlerin izole ve ayrı bir başlık altında toplanması kaldırıldı.
+  - Günlük görevler ve testler `📅 Bugünkü Dersler & Görevler (${dailyTasks.size + quizzes.size})` başlığı altında tek ve kesintisiz bir akış olarak birleştirildi.
+  - Test kartı (`StudyQuizCard`), `StudyTaskCard` ile birebir aynı Zen koyu tema, pastel ikon rozeti, süre etiketi ve durum hap butonları (Neon Mint "Testi Çöz", "Çözüldü (İncelemede)", "Tamamlandı") ile yeniden tasarlandı.
+- **Dinamik İlerleme & Yıldız Entegrasyonu:**
+  - Günlük tamamlanan işler ve toplam iş sayısı (`completedTasksCount` / `totalTasksCount`) hesaplamasına testler doğrudan dahil edildi.
+  - Test bitirildiğinde ilerleme barı artar, arkaplan parlaklığı/doygunluğu fullenir ve gökyüzüne süzülen altın kuyruklu yıldız animasyonu tetiklenir.
+- **Saf Android Paylaşım Sayfası (Share Sheet) Mimarisi:**
+  - Veli ve Öğrenci TopBar'larından ve ana panellerden sunucu/bulut senkronizasyon diyalogları ve butonları temizlendi.
+  - Tüm veri iletimi, cihazlar arası `.studyplan` dosya paketi ve Android yerel Paylaşım Sayfası (WhatsApp, Telegram, QuickShare, Bluetooth, Dosya Yöneticisi) üzerine kurgulandı.
+
+
 
 

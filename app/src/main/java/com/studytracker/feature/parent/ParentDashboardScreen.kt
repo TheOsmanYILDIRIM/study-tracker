@@ -102,24 +102,10 @@ fun ParentDashboardScreen(
                     android.widget.Toast.makeText(context, "❌ Yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
                 }
             }
-        }
-    }
-
-    LaunchedEffect(Unit) {
-        val syncManager = com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-        while (true) {
-            try {
-                syncManager.syncAll()
-            } catch (_: Exception) {}
-            kotlinx.coroutines.delay(10_000L)
-        }
-    }
-
-    if (showSyncDialog) {
-        com.studytracker.core.ui.components.CloudSyncDialog(
-            onDismissRequest = { showSyncDialog = false }
-        )
-    }
+    var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var sessionToReject by remember { mutableStateOf<com.studytracker.core.domain.model.Session?>(null) }
+    var rejectNoteInput by remember { mutableStateOf("") }
+    var showAIQuizDialog by remember { mutableStateOf(false) }
 
     if (showResetConfirmDialog) {
         AlertDialog(
@@ -219,10 +205,6 @@ fun ParentDashboardScreen(
                                 )
                             )
                             occurrenceRepo.setWarning(currentSession.occurrenceKey, true, note)
-                            try {
-                                com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-                                    .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, false, note)
-                            } catch (_: Exception) {}
                             Toast.makeText(context, "Ders reddedildi ve not iletildi.", Toast.LENGTH_SHORT).show()
                         }
                     },
@@ -240,18 +222,19 @@ fun ParentDashboardScreen(
         )
     }
 
-    if (showQuizStudioDialog) {
+    if (showAIQuizDialog) {
         AIQuizStudioDialog(
-            onDismissRequest = { showQuizStudioDialog = false }
+            onDismissRequest = { showAIQuizDialog = false },
+            onQuizCreated = {}
         )
     }
 
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
     val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
 
-    val totalTasks = allOccurrences.size
-    val approvedTasks = remember(allOccurrences) {
-        allOccurrences.count { it.status == OccurrenceStatus.APPROVED }
+    val totalTasks = allOccurrences.size + quizzes.size
+    val approvedTasks = remember(allOccurrences, quizzes) {
+        allOccurrences.count { it.status == OccurrenceStatus.APPROVED } + quizzes.count { it.completed }
     }
     val approvedOccurrences = remember(allOccurrences) {
         allOccurrences.filter { it.status == OccurrenceStatus.APPROVED }
@@ -309,16 +292,25 @@ fun ParentDashboardScreen(
                             Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(18.dp))
                         }
                     }
-                    IconButton(onClick = { showSyncDialog = true }) {
+                    IconButton(onClick = {
+                        scope.launch {
+                            val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportStudyPlanPackage(context)
+                            com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                context,
+                                file,
+                                "Haftalık Çalışma Planını Öğrenciye Gönder"
+                            )
+                        }
+                    }) {
                         Box(
                             modifier = Modifier
                                 .size(36.dp)
                                 .clip(ZenPillShape)
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
+                                .background(ZenForestGreen.copy(alpha = 0.25f))
+                                .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
                             contentAlignment = Alignment.Center
                         ) {
-                            Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                            Icon(Icons.Default.Send, contentDescription = "Planı Paylaş", tint = ZenForestGreen, modifier = Modifier.size(18.dp))
                         }
                     }
                     IconButton(onClick = onNavigateToPlanStudio) {
@@ -823,10 +815,6 @@ fun ParentDashboardScreen(
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
-                                                    try {
-                                                        com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-                                                            .pushReviewDecision(session.sessionId, session.occurrenceKey, true, "Ebeveyn tarafından onaylandı")
-                                                    } catch (_: Exception) {}
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),

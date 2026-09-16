@@ -91,39 +91,22 @@ fun ChildHomeScreen(
     val testProgressOverride by appPreferences.testProgressOverride.collectAsState()
     val testFlyingStarTrigger by appPreferences.testFlyingStarTrigger.collectAsState()
 
-    val completedTasksCount = remember(occurrences) {
+    val completedTasksCount = remember(occurrences, quizzes) {
         occurrences.count {
             it.status == OccurrenceStatus.APPROVED ||
             it.status == OccurrenceStatus.WAITING_REVIEW
-        }
+        } + quizzes.count { it.completed }
     }
-    val totalTasksCount = remember(occurrences) {
-        occurrences.size.coerceAtLeast(1)
+    val totalTasksCount = remember(occurrences, quizzes) {
+        (occurrences.size + quizzes.size).coerceAtLeast(1)
     }
 
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
-    var showSyncDialog by remember { mutableStateOf(false) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
     var studentNoteInput by remember { mutableStateOf("") }
     val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
         maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
-    }
-
-    LaunchedEffect(Unit) {
-        val syncManager = com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-        while (true) {
-            try {
-                syncManager.syncAll()
-            } catch (_: Exception) {}
-            kotlinx.coroutines.delay(10_000L)
-        }
-    }
-
-    if (showSyncDialog) {
-        com.studytracker.core.ui.components.CloudSyncDialog(
-            onDismissRequest = { showSyncDialog = false }
-        )
     }
 
     if (showResetConfirmDialog) {
@@ -320,17 +303,6 @@ fun ChildHomeScreen(
                                 contentAlignment = Alignment.Center
                             ) {
                                 Icon(Icons.Default.Send, contentDescription = "Raporu Gönder", tint = ZenForestGreen, modifier = Modifier.size(17.dp))
-                            }
-                        }
-                        IconButton(onClick = { showSyncDialog = true }) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenSkyCyanContainer, ZenPillShape)
-                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
                             }
                         }
                         IconButton(onClick = onOpenTutorial) {
@@ -588,40 +560,6 @@ fun ChildHomeScreen(
                     }
                 }
 
-                // 1.5. Quizzes / Tests Section (Günün Testleri & Soru Çözümleri)
-                if (quizzes.isNotEmpty()) {
-                    item(key = "quizzes_header") {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(6.dp)
-                        ) {
-                            Box(
-                                modifier = Modifier
-                                    .size(8.dp)
-                                    .clip(ZenPillShape)
-                                    .background(Color(0xFF00E5FF))
-                            )
-                            Text(
-                                text = "📝 Testler & Soru Çözümü (${quizzes.size})",
-                                style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.Bold,
-                                color = Color(0xFF00E5FF),
-                                fontSize = 14.sp
-                            )
-                        }
-                    }
-
-                    items(
-                        items = quizzes,
-                        key = { "quiz_" + it.quizId }
-                    ) { quiz ->
-                        StudyQuizCard(
-                            quiz = quiz,
-                            onStartClick = { onNavigateToQuiz(quiz.quizId) }
-                        )
-                    }
-                }
-
                 // 2. Weekly Goals Section AT TOP in a Horizontal LazyRow
                 if (weeklyTasks.isNotEmpty()) {
                     item(key = "weekly_header") {
@@ -670,7 +608,8 @@ fun ChildHomeScreen(
                     }
                 }
 
-                // 3. Daily Tasks Section Vertical
+                // 3. Daily Tasks & Quizzes Section (Dersler ve Testler Birlikte)
+                val totalDailyCount = dailyTasks.size + quizzes.size
                 item(key = "daily_header") {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
@@ -683,7 +622,7 @@ fun ChildHomeScreen(
                                 .background(ZenSkyCyan)
                         )
                         Text(
-                            text = "📅 Bugünkü Dersler (${dailyTasks.size})",
+                            text = "📅 Bugünkü Dersler & Görevler ($totalDailyCount)",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,
                             color = ZomoTextPrimary,
@@ -692,7 +631,7 @@ fun ChildHomeScreen(
                     }
                 }
 
-                if (dailyTasks.isEmpty()) {
+                if (dailyTasks.isEmpty() && quizzes.isEmpty()) {
                     item(key = "daily_empty") {
                         Box(
                             modifier = Modifier
@@ -706,10 +645,11 @@ fun ChildHomeScreen(
                                 .padding(16.dp),
                             contentAlignment = Alignment.Center
                         ) {
-                            Text("Bugün için tanımlı ders bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 12.5.sp)
+                            Text("Bugün için tanımlی ders veya test bulunamadı. 🎉", color = ZomoTextSecondary, fontSize = 12.5.sp)
                         }
                     }
                 } else {
+                    // Günlük Ders Görevleri
                     items(
                         items = dailyTasks,
                         key = { "daily_" + it.occurrenceKey },
@@ -719,6 +659,22 @@ fun ChildHomeScreen(
                             occurrence = task,
                             onStartClick = onTaskStart,
                             onRetryClick = onTaskStart,
+                            modifier = Modifier.graphicsLayer {
+                                shape = ZenCardShape
+                                clip = true
+                            }
+                        )
+                    }
+
+                    // Günlük Testler (Dersler ile aynı formatta, aralarında gösterilir)
+                    items(
+                        items = quizzes,
+                        key = { "quiz_" + it.quizId },
+                        contentType = { "quiz_task" }
+                    ) { quiz ->
+                        StudyQuizCard(
+                            quiz = quiz,
+                            onStartClick = { onNavigateToQuiz(quiz.quizId) },
                             modifier = Modifier.graphicsLayer {
                                 shape = ZenCardShape
                                 clip = true
@@ -749,11 +705,11 @@ fun LiveActiveSessionBanner(
         modifier = Modifier
             .fillMaxWidth()
             .clip(ZenCardShape)
-            .background(if (isPaused) Color(0xFF231808) else Color(0xFF0F2338))
-            .border(1.5.dp, if (isPaused) ZenMoonGold else ZenSkyCyan, ZenCardShape)
+            .background(if (isPaused) Color(0xFF261908) else ZenSkyCyanContainer)
+            .border(1.2.dp, if (isPaused) ZenMoonGold else ZenSkyCyan, ZenCardShape)
             .padding(14.dp)
     ) {
-        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -763,85 +719,72 @@ fun LiveActiveSessionBanner(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Icon(
-                        imageVector = if (isPaused) Icons.Default.PauseCircle else Icons.Default.PlayCircle,
-                        contentDescription = null,
-                        tint = if (isPaused) ZenMoonGold else ZenSkyCyan,
-                        modifier = Modifier.size(20.dp)
+                    Box(
+                        modifier = Modifier
+                            .size(10.dp)
+                            .clip(ZenPillShape)
+                            .background(if (isPaused) ZenMoonGold else ZenForestGreen)
                     )
                     Text(
-                        text = if (isPaused) "Ders Duraklatıldı" else "Ders Devam Ediyor ⚡",
+                        text = if (isPaused) "Ders Duraklatıldı" else "Ders Devam Ediyor",
+                        color = if (isPaused) ZenMoonGold else ZenSkyCyan,
                         fontWeight = FontWeight.Bold,
-                        style = MaterialTheme.typography.titleMedium,
-                        fontSize = 14.sp,
-                        color = if (isPaused) ZenMoonGold else ZomoTextPrimary
+                        fontSize = 12.sp
                     )
                 }
 
-                LiveTimerText(stateManager = stateManager)
+                Text(
+                    text = "📸 $ssCount Kanıt",
+                    color = ZomoTextSecondary,
+                    fontSize = 11.5.sp
+                )
             }
 
             Text(
-                text = "$title • 📸 $ssCount kanıt görüntüsü",
-                style = MaterialTheme.typography.bodySmall,
-                color = if (isPaused) ZenMoonGold.copy(alpha = 0.85f) else ZomoTextSecondary,
-                fontSize = 11.5.sp
+                text = title,
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                color = ZomoTextPrimary,
+                fontSize = 15.sp,
+                maxLines = 1
             )
 
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                // 1. Pause / Resume Button
+                // Pause / Resume Button
                 Button(
-                    onClick = { stateManager.togglePause() },
-                    modifier = Modifier.weight(1f).height(36.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = if (isPaused) ZenSkyCyan else ZenPaperElevated,
-                        contentColor = if (isPaused) ZenMintText else Color.White
-                    ),
+                    onClick = {
+                        if (isPaused) stateManager.resumeSession() else stateManager.pauseSession()
+                    },
+                    modifier = Modifier.weight(1f).height(38.dp),
                     shape = ZenPillShape,
-                    contentPadding = PaddingValues(horizontal = 6.dp)
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = if (isPaused) ZenMoonGold else Color(0x3000E5FF),
+                        contentColor = if (isPaused) Color(0xFF451A03) else ZenSkyCyan
+                    )
                 ) {
                     Icon(
                         imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
                         contentDescription = null,
-                        modifier = Modifier.size(14.dp)
+                        modifier = Modifier.size(16.dp)
                     )
-                    Spacer(modifier = Modifier.width(3.dp))
-                    Text(if (isPaused) "Devam Et" else "Mola Ver", fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(if (isPaused) "Devam Et" else "Mola Ver", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
                 }
 
-                // 2. Complete Button
+                // Finish Button
                 Button(
                     onClick = onFinishClick,
-                    modifier = Modifier.weight(1f).height(36.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = ZenForestGreen,
-                        contentColor = Color.White
-                    ),
+                    modifier = Modifier.weight(1f).height(38.dp),
                     shape = ZenPillShape,
-                    contentPadding = PaddingValues(horizontal = 6.dp)
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen, contentColor = Color.White)
                 ) {
-                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(14.dp))
-                    Spacer(modifier = Modifier.width(3.dp))
-                    Text("Bitir", fontWeight = FontWeight.Bold, fontSize = 11.sp)
-                }
-
-                // 3. Cancel / Abandon Button
-                Button(
-                    onClick = { stateManager.cancelSession() },
-                    modifier = Modifier.weight(1f).height(36.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0x33FF4D4F),
-                        contentColor = ZenRoseCoral
-                    ),
-                    shape = ZenPillShape,
-                    contentPadding = PaddingValues(horizontal = 6.dp)
-                ) {
-                    Icon(Icons.Default.Close, contentDescription = null, modifier = Modifier.size(14.dp))
-                    Spacer(modifier = Modifier.width(3.dp))
-                    Text("İptal Et", fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(16.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text("Bitir", fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
                 }
             }
         }
@@ -872,6 +815,9 @@ fun LiveTimerText(stateManager: SessionStateManager) {
     }
 }
 
+/**
+ * Görev kartlarıyla birebir aynı boyut ve tasarımda, dersler arasında doğal olarak duran Test Kartı.
+ */
 @Composable
 fun StudyQuizCard(
     quiz: Quiz,
@@ -881,93 +827,119 @@ fun StudyQuizCard(
     val isCompleted = quiz.completed
     val totalQuestions = quiz.questions.size
 
-    Box(
+    val borderColor = if (isCompleted) ZenForestGreen.copy(alpha = 0.5f) else Color(0xFF00E5FF).copy(alpha = 0.4f)
+    val cardBg = if (isCompleted) Color(0xFF09171C) else ZenPaperCard
+
+    Column(
         modifier = modifier
             .fillMaxWidth()
             .clip(ZenCardShape)
-            .background(if (isCompleted) Color(0xFF0C1F1D) else Color(0xFF0F1B2E))
-            .border(1.2.dp, if (isCompleted) ZenForestGreen.copy(alpha = 0.5f) else Color(0xFF00E5FF).copy(alpha = 0.4f), ZenCardShape)
-            .padding(14.dp)
+            .background(cardBg)
+            .border(1.dp, borderColor, ZenCardShape)
+            .padding(horizontal = 14.dp, vertical = 10.dp),
+        verticalArrangement = Arrangement.spacedBy(4.dp)
     ) {
-        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Row(
-                    modifier = Modifier.weight(1f),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .size(36.dp)
-                            .clip(ZenPillShape)
-                            .background(if (isCompleted) ZenForestContainer else ZenSkyCyanContainer),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Icon(
-                            imageVector = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.Quiz,
-                            contentDescription = null,
-                            tint = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
-                            modifier = Modifier.size(18.dp)
-                        )
-                    }
-
-                    Column {
-                        Text(
-                            text = quiz.title,
-                            fontWeight = FontWeight.Bold,
-                            color = ZomoTextPrimary,
-                            fontSize = 13.5.sp,
-                            maxLines = 1
-                        )
-                        Text(
-                            text = "$totalQuestions Soru • ${quiz.durationMinutes} dk" + (quiz.description?.let { " • $it" } ?: ""),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = ZomoTextSecondary,
-                            fontSize = 11.sp,
-                            maxLines = 1
-                        )
-                    }
-                }
-
-                Box(
-                    modifier = Modifier
-                        .clip(ZenPillShape)
-                        .background(if (isCompleted) ZenForestContainer else ZenSkyCyanContainer)
-                        .border(1.dp, if (isCompleted) ZenForestGreen.copy(alpha = 0.4f) else Color(0xFF00E5FF).copy(alpha = 0.3f), ZenPillShape)
-                        .padding(horizontal = 8.dp, vertical = 3.dp)
-                ) {
-                    Text(
-                        text = if (isCompleted) "✅ Veliye İletildi" else "⏳ Bekliyor",
-                        color = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
-                        fontSize = 10.sp,
-                        fontWeight = FontWeight.Bold
-                    )
-                }
-            }
-
-            Button(
-                onClick = onStartClick,
-                modifier = Modifier.fillMaxWidth().height(38.dp),
-                shape = ZenPillShape,
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = if (isCompleted) Color(0xFF143328) else Color(0xFF00E5FF),
-                    contentColor = if (isCompleted) ZenForestGreen else Color(0xFF070B14)
-                ),
-                border = if (isCompleted) androidx.compose.foundation.BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.4f)) else null
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            // Squircle Icon Box (Ders kartlarıyla aynı boyutta)
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(if (isCompleted) ZenForestContainer else Color(0xFF10283A)),
+                contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    imageVector = if (isCompleted) Icons.Default.Refresh else Icons.Default.PlayArrow,
+                    imageVector = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.Quiz,
                     contentDescription = null,
-                    modifier = Modifier.size(15.dp)
+                    tint = if (isCompleted) ZenForestGreen else Color(0xFF00E5FF),
+                    modifier = Modifier.size(20.dp)
                 )
-                Spacer(modifier = Modifier.width(4.dp))
-                Text(if (isCompleted) "Testi Tekrar Çöz" else "Testi Başlat ⚡", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            }
+
+            // Middle: Title & Details
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = quiz.title,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                    color = ZomoTextPrimary,
+                    fontSize = 14.5.sp,
+                    maxLines = 1
+                )
+                Spacer(modifier = Modifier.height(1.dp))
+                Text(
+                    text = "📝 $totalQuestions Soru • ⏱ ${quiz.durationMinutes} dk",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = ZomoTextSecondary,
+                    fontSize = 11.5.sp,
+                    maxLines = 1
+                )
+            }
+
+            // Right Side Action Pill
+            if (isCompleted) {
+                Box(
+                    modifier = Modifier
+                        .height(34.dp)
+                        .background(ZenForestContainer, ZenPillShape)
+                        .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), ZenPillShape)
+                        .clickable { onStartClick() }
+                        .padding(horizontal = 12.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(3.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Refresh,
+                            contentDescription = null,
+                            tint = ZenForestGreen,
+                            modifier = Modifier.size(13.dp)
+                        )
+                        Text(
+                            text = "Tekrar Çöz",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 11.sp,
+                            color = ZenForestGreen
+                        )
+                    }
+                }
+            } else {
+                Box(
+                    modifier = Modifier
+                        .height(34.dp)
+                        .background(Color(0xFF00E5FF), ZenPillShape)
+                        .clickable { onStartClick() }
+                        .padding(horizontal = 12.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(3.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = null,
+                            tint = Color(0xFF070B14),
+                            modifier = Modifier.size(15.dp)
+                        )
+                        Text(
+                            text = "Testi Çöz",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 11.sp,
+                            color = Color(0xFF070B14)
+                        )
+                    }
+                }
             }
         }
     }
 }
-

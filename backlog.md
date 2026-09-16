@@ -115,3 +115,9 @@
 - [x] Veli Test İnceleme Ekranı (`ParentQuizReviewScreen`): Başarı yüzdesi (%X), Doğru/Yanlış/Boş metrikleri, soru bazında öğrencinin seçimi ile doğru cevabın karşılaştırılması ve LaTeX çözümler
 - [x] `.studyplan` dosya paketi, Binder IPC (`StudySyncProvider`) ve Supabase bulut senkronizasyonuna testlerin ve öğrenci cevaplarının tam entegrasyonu
 
+## 31. Görev İçi Test Bütünleştirmesi & Saf Android Paylaşım (Share Sheet) Mimarisi
+- [x] Öğrenci ana ekranında (`ChildHomeScreen`) testlerin izole/ayrı bir kategori olarak gösterilmesi kaldırıldı; günlük dersler ve görevler (`📅 Bugünkü Dersler & Görevler`) akışına birebir aynı kart tasarımı ve rozetlerle gömüldü
+- [x] Test tamamlandığında günlük ilerleme çubuğu, gece masalı arkaplan doygunluğu ve gökyüzüne uçan kuyruklu yıldız animasyonunun dinamik olarak tetiklenmesi
+- [x] Sunucu / Supabase bağımlılıkları ve butonlarının arayüzden tamamen temizlenmesi; Veli ve Öğrenci arasındaki tüm veri aktarımının saf Android Paylaşım Sayfası (`.studyplan` Share Sheet - WhatsApp, Telegram, QuickShare, Dosya) üzerinden gerçekleştirilmesi
+
+
