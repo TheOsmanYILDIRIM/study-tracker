@@ -65,3 +65,8 @@
 - [x] Android `StudySyncProvider` (Binder IPC) ile tek cihazda sıfır gecikmeli APK'lar arası doğrudan senkronizasyon (`content://com.studytracker.child.syncprovider` & `content://com.studytracker.parent.syncprovider`)
 - [x] Farklı fiziksel cihazlar ve internet üzerinden test için Supabase bulut veri şeması (`occurrences`, `sessions`, `reviews`, `plans`, `tasks`, `screenshots`) ve dinamik ayar desteği
 - [x] CI/CD ile kalıcı imzalı Release APK'ların üretimi ve `/sdcard/Download/` dizinine aktarılması
+
+## 22. Sıfır Kurulum & Girişsiz İnternet Bulut Rölesi (Zero-Config Cloud Relay)
+- [x] Hesap açma, API key ve SQL kurulumu gerektirmeyen hazır küresel bulut rölesi (`ntfy.sh` / `studytracker_relay_${familyCode}`)
+- [x] Çift yönlü otomatik senkronizasyon (Binder IPC + Cloud Relay + Yerel Disk Köprüsü üçlü koruma)
+

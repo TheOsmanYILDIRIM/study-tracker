@@ -114,3 +114,9 @@
 - **Sıfır Gecikmeli Doğrudan IPC Köprüsü (`StudySyncProvider`):** Android Scoped Storage kısıtlamalarını aşmak ve tek cihazda yan yana çalışan Veli ve Öğrenci APK'ları arasında 0ms hızında veri aktarmak için ContentProvider Binder IPC altyapısı kodlandı (`content://com.studytracker.child.syncprovider` & `content://com.studytracker.parent.syncprovider`).
 - **Gerçek Zamanlı İnternet / Bulut Senkronizasyonu (Supabase Backend):** Farklı fiziksel cihazlar üzerinden test yapılabilmesi için Supabase REST & Realtime mimarisi ve SQL tablo şemaları hazırlandı.
 - **CI/CD Derleme & Kurulum:** GitHub Actions workflow (`Build & Release StudyTracker APK`, Run ID: `35087642980` ✓) başarıyla tamamlandı; imzalı `StudyTracker-Veli.apk` (2.5MB) ve `StudyTracker-Ogrenci.apk` (2.5MB) `/sdcard/Download/` dizinine aktarıldı.
+
+### [2026-09-16] Tamamlandı: Sıfır Kurulum & Girişsiz İnternet Bulut Rölesi (Zero-Config Cloud Relay)
+- **Girişsiz ve Ücretsiz Bulut Rölesi Entegrasyonu:** Kullanıcının hesap açması, veritabanı kurması veya API anahtarı girmesi gerekmeksizin, yalnızca ortak 6 haneli Aile Kodu (`ST-XXXX`) ile çalışan küresel bulut rölesi (`ntfy.sh` tabanlı `studytracker_relay_${familyCode}`) doğrudan `CloudSyncManager` içine entegre edildi.
+- **Üç Katmanlı Eşitleme Mimarisi:** Senkronizasyon çağrıldığında sistem sırasıyla; (1) Tek cihazdaki diğer APK'nın Binder IPC ContentProvider'ını, (2) İnternet üzerindeki bulut rölesini, (3) Yerel dosya köprüsünü sorgular; en güncel zaman damgasına sahip veriyi alıp yerel Room veritabanıyla akıllıca birleştirir ve her üç kanala birden geri dağıtır.
+- **Sıfır Çaba ile Uzaktan Eşitleme:** Veli dünyanın herhangi bir yerinde 4G/5G ile plan eklediğinde veya ders onayladığında, öğrencinin evdeki Wi-Fi'ya bağlı telefonu anında güncellenir.
+

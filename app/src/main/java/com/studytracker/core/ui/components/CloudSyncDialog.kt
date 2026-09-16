@@ -94,7 +94,7 @@ fun CloudSyncDialog(
                         }
                         Column {
                             Text("Senkronizasyon Masası", color = ZomoTextPrimary, fontWeight = FontWeight.Bold, fontSize = 16.sp)
-                            Text("Yerel Köprü + Supabase Bulut", color = ZenSkyCyan, fontSize = 11.sp)
+                            Text("Girişsiz Hazır Bulut + Binder IPC", color = ZenSkyCyan, fontSize = 11.sp)
                         }
                     }
 

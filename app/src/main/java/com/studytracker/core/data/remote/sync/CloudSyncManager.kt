@@ -28,7 +28,14 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
 import java.io.File
+import java.util.concurrent.TimeUnit
 
 sealed class SyncState {
     object Idle : SyncState()
@@ -42,6 +49,15 @@ class CloudSyncManager private constructor(private val context: Context) {
     private val prefs = AppPreferences.getInstance(context)
     private val supabaseClient = SupabaseHttpClient.getInstance(context)
     private val db = AppDatabase.getInstance(context)
+
+    private val httpClient = OkHttpClient.Builder()
+        .connectTimeout(12, TimeUnit.SECONDS)
+        .readTimeout(15, TimeUnit.SECONDS)
+        .writeTimeout(15, TimeUnit.SECONDS)
+        .retryOnConnectionFailure(true)
+        .build()
+
+    private val jsonMediaType = "application/json; charset=utf-8".toMediaType()
 
     private val json = Json {
         ignoreUnknownKeys = true
@@ -111,6 +127,72 @@ class CloudSyncManager private constructor(private val context: Context) {
             } catch (e: Exception) {
                 Log.d("CloudSyncManager", "Failed broadcasting to peer provider $auth: ${e.message}")
             }
+        }
+    }
+
+    private fun getCloudRelayTopic(familyCode: String): String {
+        val clean = familyCode.trim().uppercase().replace(Regex("[^A-Z0-9]"), "_")
+        return "studytracker_relay_${clean.lowercase()}"
+    }
+
+    private suspend fun readFromCloudRelay(familyCode: String): SharedFamilySyncPayload? = withContext(Dispatchers.IO) {
+        val topic = getCloudRelayTopic(familyCode)
+        val url = "https://ntfy.sh/$topic/json?poll=1"
+        try {
+            val request = Request.Builder()
+                .url(url)
+                .get()
+                .build()
+            val response = httpClient.newCall(request).execute()
+            if (response.isSuccessful) {
+                val body = response.body?.string() ?: return@withContext null
+                var latestPayload: SharedFamilySyncPayload? = null
+                for (line in body.lineSequence()) {
+                    val trimmed = line.trim()
+                    if (trimmed.startsWith("{") && trimmed.contains("\"message\"")) {
+                        try {
+                            val eventObj = json.parseToJsonElement(trimmed)
+                            val messageContent = eventObj.jsonObject["message"]?.jsonPrimitive?.content
+                            if (!messageContent.isNullOrBlank()) {
+                                val payload = json.decodeFromString<SharedFamilySyncPayload>(messageContent)
+                                if (latestPayload == null || payload.updatedAt >= latestPayload.updatedAt) {
+                                    latestPayload = payload
+                                }
+                            }
+                        } catch (_: Exception) {}
+                    }
+                }
+                if (latestPayload != null) {
+                    Log.d("CloudSyncManager", "Read from cloud relay for $familyCode: ${latestPayload.occurrences.size} tasks (updatedAt=${latestPayload.updatedAt})")
+                }
+                return@withContext latestPayload
+            }
+        } catch (e: Exception) {
+            Log.d("CloudSyncManager", "Zero-config cloud relay read error: ${e.message}")
+        }
+        null
+    }
+
+    private suspend fun writeToCloudRelay(familyCode: String, payload: SharedFamilySyncPayload) = withContext(Dispatchers.IO) {
+        val topic = getCloudRelayTopic(familyCode)
+        val url = "https://ntfy.sh/$topic"
+        try {
+            val payloadJson = json.encodeToString(payload)
+            val requestBody = payloadJson.toRequestBody(jsonMediaType)
+            val request = Request.Builder()
+                .url(url)
+                .addHeader("Title", "StudyTracker Sync")
+                .addHeader("Tags", "books,sync")
+                .post(requestBody)
+                .build()
+            val response = httpClient.newCall(request).execute()
+            if (response.isSuccessful) {
+                Log.d("CloudSyncManager", "Successfully pushed to zero-config cloud relay for $familyCode")
+            } else {
+                Log.w("CloudSyncManager", "Cloud relay push failed: HTTP ${response.code}")
+            }
+        } catch (e: Exception) {
+            Log.d("CloudSyncManager", "Zero-config cloud relay push error: ${e.message}")
         }
     }
 
@@ -380,14 +462,12 @@ class CloudSyncManager private constructor(private val context: Context) {
             var localTasks = db.taskTemplateDao().getAllTasksOnce()
             val localReviews = db.reviewDao().getAllReviewsOnce()
 
-            // 1. --- READ FROM PEER IPC PROVIDER FIRST (0ms direct cross-APK sync) ---
+            // 1. --- READ FROM SOURCES (Peer Binder IPC + Zero-Config Cloud Relay + Local Disk Bridge) ---
             val peerPayload = readFromPeerProvider(familyCode)
+            val cloudPayload = readFromCloudRelay(familyCode)
             val filePayload = readFromBridgeFile(familyCode)
-            val incomingPayload = when {
-                peerPayload != null && filePayload != null -> if (peerPayload.updatedAt >= filePayload.updatedAt) peerPayload else filePayload
-                peerPayload != null -> peerPayload
-                else -> filePayload
-            }
+
+            val incomingPayload = listOfNotNull(peerPayload, cloudPayload, filePayload).maxByOrNull { it.updatedAt }
 
             if (incomingPayload != null) {
                 // A. Reconcile Plan & Task Templates
@@ -727,6 +807,9 @@ class CloudSyncManager private constructor(private val context: Context) {
             // Direct Binder IPC broadcast to the other APK
             writeToPeerProvider(familyCode, finalPayload)
 
+            // Push to zero-config cloud relay across the internet
+            writeToCloudRelay(familyCode, finalPayload)
+
             // Shared disk files fallback
             writeToBridgeFile(familyCode, finalPayload)
 
@@ -755,7 +838,12 @@ class CloudSyncManager private constructor(private val context: Context) {
                     isCompleted = true
                 )
 
-                val peer = readFromPeerProvider(familyCode) ?: readFromBridgeFile(familyCode)
+                val peer = listOfNotNull(
+                    readFromPeerProvider(familyCode),
+                    readFromCloudRelay(familyCode),
+                    readFromBridgeFile(familyCode)
+                ).maxByOrNull { it.updatedAt }
+
                 val updatedSessions = (peer?.sessions?.filter { it.id != sessionDto.id } ?: emptyList()) + sessionDto
                 val updatedOccurrences = (peer?.occurrences ?: emptyList()).map { occ ->
                     if (occ.id == session.occurrenceKey) {
@@ -774,6 +862,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                 )
 
                 writeToPeerProvider(familyCode, payload)
+                writeToCloudRelay(familyCode, payload)
                 writeToBridgeFile(familyCode, payload)
 
                 syncAll()
@@ -802,7 +891,12 @@ class CloudSyncManager private constructor(private val context: Context) {
                 reviewedAt = System.currentTimeMillis()
             )
 
-            val peer = readFromPeerProvider(familyCode) ?: readFromBridgeFile(familyCode)
+            val peer = listOfNotNull(
+                readFromPeerProvider(familyCode),
+                readFromCloudRelay(familyCode),
+                readFromBridgeFile(familyCode)
+            ).maxByOrNull { it.updatedAt }
+
             val updatedReviews = (peer?.reviews?.filter { it.sessionId != sessionId } ?: emptyList()) + reviewDto
             val updatedOccurrences = (peer?.occurrences ?: emptyList()).map { occ ->
                 if (occ.id == occurrenceKey) {
@@ -831,6 +925,7 @@ class CloudSyncManager private constructor(private val context: Context) {
             )
 
             writeToPeerProvider(familyCode, payload)
+            writeToCloudRelay(familyCode, payload)
             writeToBridgeFile(familyCode, payload)
 
             syncAll()
