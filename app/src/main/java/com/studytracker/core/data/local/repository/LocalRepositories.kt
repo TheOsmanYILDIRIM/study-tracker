@@ -241,28 +241,29 @@ class LocalSessionRepositoryImpl(
         val session = db.sessionDao().getSessionById(review.sessionId)
         if (session != null) {
             db.sessionDao().upsertSession(session.copy(status = sessionStatus))
+        }
 
-            val occurrence = db.occurrenceDao().getOccurrenceByKeyOnce(review.occurrenceKey)
-            if (occurrence != null) {
-                if (review.reviewStatus == ReviewStatus.APPROVED) {
-                    if (occurrence.type == TaskKind.WEEKLY) {
-                        db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
-                        val updated = db.occurrenceDao().getOccurrenceByKeyOnce(occurrence.occurrenceKey)!!
-                        val target = updated.targetCount ?: 1
-                        val newStatus = if (updated.approvedCount >= target) OccurrenceStatus.APPROVED else OccurrenceStatus.PENDING
-                        db.occurrenceDao().updateStatus(occurrence.occurrenceKey, newStatus)
-                    } else {
-                        db.occurrenceDao().updateStatus(occurrence.occurrenceKey, OccurrenceStatus.APPROVED)
-                    }
-                    db.occurrenceDao().setWarning(occurrence.occurrenceKey, false, null)
+        val targetOccKey = session?.occurrenceKey ?: review.occurrenceKey
+        val occurrence = db.occurrenceDao().getOccurrenceByKeyOnce(targetOccKey)
+        if (occurrence != null) {
+            if (review.reviewStatus == ReviewStatus.APPROVED) {
+                if (occurrence.type == TaskKind.WEEKLY) {
+                    db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
+                    val updated = db.occurrenceDao().getOccurrenceByKeyOnce(occurrence.occurrenceKey)!!
+                    val target = updated.targetCount ?: 1
+                    val newStatus = if (updated.approvedCount >= target) OccurrenceStatus.APPROVED else OccurrenceStatus.PENDING
+                    db.occurrenceDao().updateStatus(occurrence.occurrenceKey, newStatus)
                 } else {
-                    db.occurrenceDao().updateStatus(occurrence.occurrenceKey, OccurrenceStatus.PENDING)
-                    db.occurrenceDao().setWarning(
-                        occurrence.occurrenceKey,
-                        true,
-                        review.reviewNote ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yap."
-                    )
+                    db.occurrenceDao().updateStatus(occurrence.occurrenceKey, OccurrenceStatus.APPROVED)
                 }
+                db.occurrenceDao().setWarning(occurrence.occurrenceKey, false, null)
+            } else {
+                db.occurrenceDao().updateStatus(occurrence.occurrenceKey, OccurrenceStatus.PENDING)
+                db.occurrenceDao().setWarning(
+                    occurrence.occurrenceKey,
+                    true,
+                    review.reviewNote ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yap."
+                )
             }
         }
     }

@@ -124,5 +124,10 @@
 - **Yerel Dosya Köprüsünün Tamamen Kaldırılması:** Bulut testinin güvenilirliğini gölgeleyen ve sahte pozitif oluşturan tüm ortak disk dosyası okuma/yazma kodları (`getBridgeFiles`, `readFromBridgeFile`, `writeToBridgeFile`) tamamen kaldırıldı. Sistem artık %100 saf internet bulut rölesi (`ntfy.sh`) ve tek cihazdaki yan yana APK'lar için Android Binder IPC üzerinden çalışır.
 - **Sürekli Otomatik Eşitleme Döngüsü (Auto-Sync Loop):** `ChildHomeScreen` ve `ParentDashboardScreen` ekranlarına 10 saniyelik aralıksız arka plan otomatik eşitleme döngüsü eklendi. Veli veya öğrenci uygulamada gezinirken veya açtığında hiçbir butona basmaya gerek kalmadan tüm değişiklikler anında karşılıklı senkronize olur.
 
+### [2026-09-16] Tamamlandı: Kanıt Görselleri (Screenshots) Senkronizasyonu & Ebeveyn Onay/Red Akışı Düzeltmesi
+- **Kanıt Görselleri Bulut Senkronizasyonu:** Öğrenci ders çalışırken veya bitirdiğinde alınan ekran görüntüleri, optimize edilmiş JPEG Base64 / Remote URL formatında `SharedFamilySyncPayload.screenshots` alanına dahil edildi.
+- **Ebeveyn Kanıt Zaman Tüneli (`EvidenceTimelineView`):** Veli uygulamasında `SessionReviewScreen` açıldığında görseller yerel diskte olmasa dahi Base64 veya ağ üzerinden anında decode edilerek `BitmapMemoryCache` (LRU Cache) ile akıcı biçimde görüntülenir.
+- **Ebeveyn Reddet ve Hızlı Onayla Tetikleyicisi:** `SessionReviewScreen` ve `ParentDashboardScreen` üzerindeki "Reddet" ve "Hızlı Onayla" butonlarının `pushReviewDecision` ile bulut rölesine anında karar basması ve `submitReview` içinde `occurrenceKey`'in hatasız çözümlenmesi sağlandı. Veli reddettiğinde girilen açıklama notu öğrenci ekranında anında kırmızı uyarı kartına dönüşür.
+
 
 

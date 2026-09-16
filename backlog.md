@@ -70,3 +70,8 @@
 - [x] Hesap açma, API key ve SQL kurulumu gerektirmeyen hazır küresel bulut rölesi (`ntfy.sh` / `studytracker_relay_${familyCode}`)
 - [x] Çift yönlü otomatik senkronizasyon (Binder IPC + Cloud Relay + Yerel Disk Köprüsü üçlü koruma)
 
+## 23. Kanıt Görselleri (Screenshots) Senkronizasyonu & Ebeveyn Reddet/Onayla Akışı Düzeltmesi
+- [x] Öğrencinin aldığı ekran görüntülerini (`screenshots`) Base64 / Remote URL formatında `SharedFamilySyncPayload` ile buluta ve diğer cihaza aktarma
+- [x] `EvidenceTimelineView` bileşeninde Base64, disk dosyası ve ağ görsellerini LRU cache ile donanım hızlandırmalı çözme
+- [x] `SessionReviewScreen` ve `ParentDashboardScreen` içindeki "Reddet" ve "Hızlı Onayla" kararlarının anında bulut rölesine aktarılması ve öğrenci tarafında uyarı kartı oluşturması
+

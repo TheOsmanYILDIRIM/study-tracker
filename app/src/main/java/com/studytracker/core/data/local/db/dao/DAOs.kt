@@ -104,8 +104,17 @@ interface ScreenshotDao {
     @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId ORDER BY capturedAt ASC")
     fun getScreenshotsForSession(sessionId: String): Flow<List<ScreenshotEntity>>
 
+    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId ORDER BY capturedAt ASC")
+    suspend fun getScreenshotsForSessionOnce(sessionId: String): List<ScreenshotEntity>
+
+    @Query("SELECT * FROM screenshots ORDER BY capturedAt DESC")
+    suspend fun getAllScreenshotsOnce(): List<ScreenshotEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertScreenshot(screenshot: ScreenshotEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertScreenshots(screenshots: List<ScreenshotEntity>)
 
     @Query("SELECT COUNT(*) FROM screenshots WHERE sessionId = :sessionId")
     suspend fun getScreenshotsCount(sessionId: String): Int

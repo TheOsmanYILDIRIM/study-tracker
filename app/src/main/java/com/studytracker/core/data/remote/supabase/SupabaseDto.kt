@@ -98,6 +98,7 @@ data class SharedFamilySyncPayload(
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
+    val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val updatedAt: Long = System.currentTimeMillis()
 )

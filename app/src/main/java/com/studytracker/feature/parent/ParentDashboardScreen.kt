@@ -523,6 +523,10 @@ fun ParentDashboardScreen(
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
+                                                    try {
+                                                        com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
+                                                            .pushReviewDecision(session.sessionId, session.occurrenceKey, true, "Ebeveyn tarafından hızlı onaylandı")
+                                                    } catch (ignored: Exception) {}
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),

@@ -30,7 +30,9 @@ import com.studytracker.core.domain.model.Screenshot
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import android.util.Base64
 import java.io.File
+import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -44,16 +46,14 @@ private object BitmapMemoryCache {
         }
     }
 
-    suspend fun loadBitmap(filePath: String, isThumbnail: Boolean): Bitmap? = withContext(Dispatchers.IO) {
-        val cacheKey = if (isThumbnail) "thumb_$filePath" else "full_$filePath"
+    suspend fun loadBitmap(pathOrData: String, isThumbnail: Boolean): Bitmap? = withContext(Dispatchers.IO) {
+        if (pathOrData.isBlank()) return@withContext null
+        val cacheKey = if (isThumbnail) "thumb_$pathOrData" else "full_$pathOrData"
         lruCache.get(cacheKey)?.let { return@withContext it }
-
-        val file = File(filePath)
-        if (!file.exists()) return@withContext null
 
         val options = BitmapFactory.Options().apply {
             if (isThumbnail) {
-                inSampleSize = 4
+                inSampleSize = 2
                 inPreferredConfig = Bitmap.Config.RGB_565
             } else {
                 inSampleSize = 1
@@ -62,7 +62,24 @@ private object BitmapMemoryCache {
         }
 
         try {
-            val bitmap = BitmapFactory.decodeFile(file.absolutePath, options)
+            val bitmap = when {
+                pathOrData.startsWith("data:image/") || pathOrData.contains("base64,") -> {
+                    val base64Data = if (pathOrData.contains(",")) pathOrData.substringAfter(",") else pathOrData
+                    val bytes = Base64.decode(base64Data, Base64.DEFAULT)
+                    BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
+                }
+                pathOrData.startsWith("http://") || pathOrData.startsWith("https://") -> {
+                    val bytes = URL(pathOrData).readBytes()
+                    BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
+                }
+                else -> {
+                    val file = File(pathOrData)
+                    if (file.exists()) {
+                        BitmapFactory.decodeFile(file.absolutePath, options)
+                    } else null
+                }
+            }
+
             if (bitmap != null) {
                 lruCache.put(cacheKey, bitmap)
             }

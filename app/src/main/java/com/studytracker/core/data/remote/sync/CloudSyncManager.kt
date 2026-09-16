@@ -34,6 +34,10 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.util.Base64
+import java.io.ByteArrayOutputStream
 import java.io.File
 import java.util.concurrent.TimeUnit
 
@@ -239,6 +243,94 @@ class CloudSyncManager private constructor(private val context: Context) {
         } catch (_: Exception) {}
     }
 
+    private suspend fun convertLocalScreenshotsToDtos(familyCode: String): List<RemoteScreenshotSyncDto> = withContext(Dispatchers.IO) {
+        val finalScreenshots = db.screenshotDao().getAllScreenshotsOnce()
+        finalScreenshots.take(20).mapNotNull { ss ->
+            try {
+                val imgData = when {
+                    ss.url.startsWith("data:image/") || ss.url.contains("base64,") -> ss.url
+                    ss.url.startsWith("http://") || ss.url.startsWith("https://") -> ss.url
+                    else -> {
+                        val file = File(ss.url)
+                        if (file.exists() && file.length() > 0) {
+                            val bytes = file.readBytes()
+                            if (bytes.size > 80 * 1024) {
+                                val bmp = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
+                                if (bmp != null) {
+                                    val targetW = 480
+                                    val targetH = (480 * bmp.height / bmp.width).coerceAtLeast(1)
+                                    val scaled = Bitmap.createScaledBitmap(bmp, targetW, targetH, true)
+                                    val bos = ByteArrayOutputStream()
+                                    scaled.compress(Bitmap.CompressFormat.JPEG, 60, bos)
+                                    "data:image/jpeg;base64," + Base64.encodeToString(bos.toByteArray(), Base64.NO_WRAP)
+                                } else {
+                                    "data:image/jpeg;base64," + Base64.encodeToString(bytes, Base64.NO_WRAP)
+                                }
+                            } else {
+                                "data:image/jpeg;base64," + Base64.encodeToString(bytes, Base64.NO_WRAP)
+                            }
+                        } else null
+                    }
+                }
+                if (imgData != null) {
+                    RemoteScreenshotSyncDto(
+                        id = ss.screenshotId,
+                        familyCode = familyCode,
+                        sessionId = ss.sessionId,
+                        imageUrl = imgData,
+                        timestamp = ss.capturedAt
+                    )
+                } else null
+            } catch (_: Exception) {
+                null
+            }
+        }
+    }
+
+    private suspend fun reconcileIncomingScreenshots(incomingScreenshots: List<RemoteScreenshotSyncDto>) = withContext(Dispatchers.IO) {
+        if (incomingScreenshots.isEmpty()) return@withContext
+        val screenshotsDir = File(context.filesDir, "screenshots").apply { if (!exists()) mkdirs() }
+        val existingLocalSs = db.screenshotDao().getAllScreenshotsOnce().associateBy { it.screenshotId }
+        val toUpsert = mutableListOf<ScreenshotEntity>()
+
+        for (rss in incomingScreenshots) {
+            val existing = existingLocalSs[rss.id]
+            var localFilePath = existing?.url
+
+            if (localFilePath == null || !File(localFilePath).exists()) {
+                if (rss.imageUrl.startsWith("data:image/") || rss.imageUrl.contains("base64,")) {
+                    try {
+                        val base64Data = if (rss.imageUrl.contains(",")) rss.imageUrl.substringAfter(",") else rss.imageUrl
+                        val bytes = Base64.decode(base64Data, Base64.DEFAULT)
+                        val targetFile = File(screenshotsDir, "${rss.id}.jpg")
+                        targetFile.writeBytes(bytes)
+                        localFilePath = targetFile.absolutePath
+                    } catch (_: Exception) {
+                        localFilePath = rss.imageUrl
+                    }
+                } else {
+                    localFilePath = rss.imageUrl
+                }
+            }
+
+            toUpsert.add(
+                ScreenshotEntity(
+                    screenshotId = rss.id,
+                    sessionId = rss.sessionId,
+                    occurrenceKey = rss.sessionId,
+                    capturedAt = rss.timestamp,
+                    url = localFilePath ?: rss.imageUrl,
+                    sizeKb = 15,
+                    uploadStatus = UploadStatus.UPLOADED
+                )
+            )
+        }
+
+        if (toUpsert.isNotEmpty()) {
+            db.screenshotDao().upsertScreenshots(toUpsert)
+        }
+    }
+
     suspend fun importPayloadString(payloadJson: String): Result<Int> = withContext(Dispatchers.IO) {
         try {
             val payload = json.decodeFromString<SharedFamilySyncPayload>(payloadJson)
@@ -300,6 +392,10 @@ class CloudSyncManager private constructor(private val context: Context) {
                 })
             }
 
+            if (payload.screenshots.isNotEmpty()) {
+                reconcileIncomingScreenshots(payload.screenshots)
+            }
+
             // Broadcast to peer and cloud
             writeToPeerProvider(familyCode, payload)
             writeToCloudRelay(familyCode, payload)
@@ -318,6 +414,7 @@ class CloudSyncManager private constructor(private val context: Context) {
         val finalPlan = db.planDao().getActivePlanOnce()
         val finalTasks = db.taskTemplateDao().getAllTasksOnce()
         val finalReviews = db.reviewDao().getAllReviewsOnce()
+        val finalScreenshots = convertLocalScreenshotsToDtos(familyCode)
 
         val occDtos = finalOccurrences.map { occ ->
             RemoteOccurrenceSyncDto(
@@ -397,6 +494,7 @@ class CloudSyncManager private constructor(private val context: Context) {
             tasks = taskDtos,
             occurrences = occDtos,
             sessions = sessDtos,
+            screenshots = finalScreenshots,
             reviews = reviewDtos,
             updatedAt = System.currentTimeMillis()
         )
@@ -593,6 +691,11 @@ class CloudSyncManager private constructor(private val context: Context) {
                         )
                     }
                 }
+
+                // E. Reconcile Screenshots
+                if (incomingPayload.screenshots.isNotEmpty()) {
+                    reconcileIncomingScreenshots(incomingPayload.screenshots)
+                }
             }
 
             // 2. --- REMOTE SUPABASE SYNC (with fail-safe fallback) ---
@@ -750,12 +853,15 @@ class CloudSyncManager private constructor(private val context: Context) {
                 )
             }
 
+            val finalScreenshots = convertLocalScreenshotsToDtos(familyCode)
+
             val finalPayload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 plan = planDto,
                 tasks = taskDtos,
                 occurrences = occDtos,
                 sessions = sessDtos,
+                screenshots = finalScreenshots,
                 reviews = reviewDtos,
                 updatedAt = System.currentTimeMillis()
             )
@@ -769,7 +875,7 @@ class CloudSyncManager private constructor(private val context: Context) {
             val finalCount = finalOccurrences.size
             val waitingCount = finalSessions.count { it.status == SessionStatus.WAITING_REVIEW }
             _lastSyncedTime.value = System.currentTimeMillis()
-            _syncState.value = SyncState.Success("Eşitleme Başarılı ($finalCount ders, $waitingCount onay bekleyen)")
+            _syncState.value = SyncState.Success("Eşitleme Başarılı ($finalCount ders, $waitingCount onay bekleyen, ${finalScreenshots.size} kanıt)")
             Result.success("Senkronizasyon tamamlandı")
         } catch (e: Exception) {
             _syncState.value = SyncState.Error("Senkronizasyon hatası: ${e.message}")
@@ -803,12 +909,15 @@ class CloudSyncManager private constructor(private val context: Context) {
                     } else occ
                 }
 
+                val currentLocalScreenshots = convertLocalScreenshotsToDtos(familyCode)
+
                 val payload = SharedFamilySyncPayload(
                     familyCode = familyCode,
                     plan = peer?.plan,
                     tasks = peer?.tasks ?: emptyList(),
                     occurrences = updatedOccurrences,
                     sessions = updatedSessions,
+                    screenshots = currentLocalScreenshots,
                     reviews = peer?.reviews ?: emptyList(),
                     updatedAt = System.currentTimeMillis()
                 )
@@ -852,7 +961,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                 if (occ.id == occurrenceKey) {
                     occ.copy(
                         status = if (isApproved) OccurrenceStatus.APPROVED.name else OccurrenceStatus.PENDING.name,
-                        parentNote = if (!isApproved) (feedbackNote ?: "") else "",
+                        parentNote = if (!isApproved) (feedbackNote ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız.") else "",
                         completedQuestionCount = if (isApproved) occ.completedQuestionCount + 1 else occ.completedQuestionCount
                     )
                 } else occ
@@ -864,12 +973,15 @@ class CloudSyncManager private constructor(private val context: Context) {
                 } else sess
             }
 
+            val currentLocalScreenshots = convertLocalScreenshotsToDtos(familyCode)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 plan = peer?.plan,
                 tasks = peer?.tasks ?: emptyList(),
                 occurrences = updatedOccurrences,
                 sessions = updatedSessions,
+                screenshots = if (currentLocalScreenshots.isNotEmpty()) currentLocalScreenshots else (peer?.screenshots ?: emptyList()),
                 reviews = updatedReviews,
                 updatedAt = System.currentTimeMillis()
             )

@@ -47,4 +47,24 @@ class SyncReconciliationTest {
         assertTrue(isApprovedByTarget)
         assertEquals(3, approvedCount)
     }
+
+    @Test
+    fun `shared family sync payload includes screenshots list`() {
+        val screenshot = RemoteScreenshotSyncDto(
+            id = "ss_001",
+            familyCode = "ST-7738",
+            sessionId = "sess_001",
+            imageUrl = "data:image/jpeg;base64,/9j/4AAQSkZJRg==",
+            timestamp = 1720000000000L
+        )
+
+        val payload = SharedFamilySyncPayload(
+            familyCode = "ST-7738",
+            screenshots = listOf(screenshot)
+        )
+
+        assertEquals(1, payload.screenshots.size)
+        assertEquals("ss_001", payload.screenshots.first().id)
+        assertTrue(payload.screenshots.first().imageUrl.startsWith("data:image/jpeg;base64,"))
+    }
 }
