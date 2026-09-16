@@ -638,10 +638,8 @@ fun ParentDashboardScreen(
                         item { Spacer(modifier = Modifier.height(20.dp)) }
                     }
                 }
-            }
         }
     }
-}
 }
 
 @Composable
