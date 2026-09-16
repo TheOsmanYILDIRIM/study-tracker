@@ -72,9 +72,9 @@ class CloudSyncManager private constructor(private val context: Context) {
         val familyCode = getOrCreateFamilyCode()
 
         try {
-            // 1. Push Occurrences Up
-            val occurrences = db.occurrenceDao().getAllOccurrencesOnce()
-            for (occ in occurrences) {
+            // 1. Push Local Occurrences Up
+            val localOccurrences = db.occurrenceDao().getAllOccurrencesOnce()
+            for (occ in localOccurrences) {
                 val dto = RemoteOccurrenceSyncDto(
                     id = occ.occurrenceKey,
                     familyCode = familyCode,
@@ -94,9 +94,9 @@ class CloudSyncManager private constructor(private val context: Context) {
                 supabaseClient.post("occurrences", dto) { json.encodeToString(it) }
             }
 
-            // 2. Push Sessions Up
-            val sessions = db.sessionDao().getAllSessionsOnce()
-            for (sess in sessions) {
+            // 2. Push Local Sessions Up
+            val localSessions = db.sessionDao().getAllSessionsOnce()
+            for (sess in localSessions) {
                 val dto = RemoteSessionSyncDto(
                     id = sess.sessionId,
                     familyCode = familyCode,
@@ -109,7 +109,98 @@ class CloudSyncManager private constructor(private val context: Context) {
                 supabaseClient.post("sessions", dto) { json.encodeToString(it) }
             }
 
-            // 3. Pull Remote Reviews from Supabase (Veli Onayları)
+            // 3. Pull Remote Occurrences (Görevleri İndir)
+            var pulledOccCount = 0
+            val occResponse = supabaseClient.get("occurrences", "family_code=eq.$familyCode")
+            if (occResponse.isSuccess) {
+                val occBody = occResponse.getOrNull() ?: ""
+                if (occBody.isNotEmpty() && occBody != "[]") {
+                    try {
+                        val remoteOccs: List<RemoteOccurrenceSyncDto> = json.decodeFromString(occBody)
+                        val entities = remoteOccs.map { remote ->
+                            OccurrenceEntity(
+                                occurrenceKey = remote.id,
+                                taskId = remote.planId,
+                                type = try { com.studytracker.core.domain.model.TaskKind.valueOf(remote.topic) } catch (e: Exception) { com.studytracker.core.domain.model.TaskKind.DAILY },
+                                date = remote.date.ifEmpty { null },
+                                weekId = remote.weekId.ifEmpty { null },
+                                title = remote.subject,
+                                plannedMinutes = remote.targetDurationMin,
+                                youtubeUrl = null,
+                                reviewRequired = true,
+                                status = try { OccurrenceStatus.valueOf(remote.status) } catch (e: Exception) { OccurrenceStatus.PENDING },
+                                warning = false,
+                                warningText = remote.parentNote.ifEmpty { null },
+                                rejectCount = 0,
+                                approvedCount = remote.completedQuestionCount,
+                                targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null,
+                                targetMinutes = if (remote.completedDurationMin > 0) remote.completedDurationMin else null
+                            )
+                        }
+                        if (entities.isNotEmpty()) {
+                            db.occurrenceDao().upsertOccurrences(entities)
+                            pulledOccCount = entities.size
+                        }
+                    } catch (e: Exception) {
+                        Log.w("CloudSyncManager", "Error parsing remote occurrences: ${e.message}")
+                    }
+                }
+            }
+
+            // 4. Pull Remote Sessions (Oturumları İndir)
+            var pulledSessCount = 0
+            val sessResponse = supabaseClient.get("sessions", "family_code=eq.$familyCode")
+            if (sessResponse.isSuccess) {
+                val sessBody = sessResponse.getOrNull() ?: ""
+                if (sessBody.isNotEmpty() && sessBody != "[]") {
+                    try {
+                        val remoteSessions: List<RemoteSessionSyncDto> = json.decodeFromString(sessBody)
+                        for (rs in remoteSessions) {
+                            val sessionEntity = SessionEntity(
+                                sessionId = rs.id,
+                                occurrenceKey = rs.occurrenceId,
+                                childId = "child_1",
+                                startTime = rs.startTime,
+                                endTime = rs.endTime,
+                                status = if (rs.isCompleted) SessionStatus.WAITING_REVIEW else SessionStatus.ACTIVE,
+                                screenshotCount = 0,
+                                finalScreenshotUrl = null
+                            )
+                            db.sessionDao().upsertSession(sessionEntity)
+                        }
+                        pulledSessCount = remoteSessions.size
+                    } catch (e: Exception) {
+                        Log.w("CloudSyncManager", "Error parsing remote sessions: ${e.message}")
+                    }
+                }
+            }
+
+            // 5. Pull Remote Screenshots (Kanıtları İndir)
+            val scResponse = supabaseClient.get("screenshots", "family_code=eq.$familyCode")
+            if (scResponse.isSuccess) {
+                val scBody = scResponse.getOrNull() ?: ""
+                if (scBody.isNotEmpty() && scBody != "[]") {
+                    try {
+                        val remoteScs: List<RemoteScreenshotSyncDto> = json.decodeFromString(scBody)
+                        for (rsc in remoteScs) {
+                            val scEntity = ScreenshotEntity(
+                                screenshotId = rsc.id,
+                                sessionId = rsc.sessionId,
+                                occurrenceKey = rsc.sessionId,
+                                capturedAt = rsc.timestamp,
+                                url = rsc.imageUrl,
+                                sizeKb = 150,
+                                uploadStatus = UploadStatus.UPLOADED
+                            )
+                            db.screenshotDao().insertScreenshot(scEntity)
+                        }
+                    } catch (e: Exception) {
+                        Log.w("CloudSyncManager", "Error parsing remote screenshots: ${e.message}")
+                    }
+                }
+            }
+
+            // 6. Pull Remote Reviews from Supabase (Veli Onayları)
             val reviewsResponse = supabaseClient.get("reviews", "family_code=eq.$familyCode")
             if (reviewsResponse.isSuccess) {
                 val responseText = reviewsResponse.getOrNull() ?: ""
@@ -140,7 +231,8 @@ class CloudSyncManager private constructor(private val context: Context) {
             }
 
             _lastSyncedTime.value = System.currentTimeMillis()
-            _syncState.value = SyncState.Success("Senkronizasyon Başarılı (${occurrences.size} görev, ${sessions.size} oturum)")
+            val totalCount = maxOf(localOccurrences.size, pulledOccCount)
+            _syncState.value = SyncState.Success("Senkronizasyon Başarılı ($totalCount görev, $pulledSessCount oturum)")
             Result.success("Senkronizasyon tamamlandı")
         } catch (e: Exception) {
             _syncState.value = SyncState.Error("Senkronizasyon hatası: ${e.message}")

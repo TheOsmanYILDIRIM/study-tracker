@@ -71,6 +71,9 @@ fun AppNavGraph(
                 },
                 onOpenTutorial = {
                     navController.navigate(Screen.ChildTutorial.route)
+                },
+                onNavigateToSettings = {
+                    navController.navigate(Screen.DeveloperConsole.route)
                 }
             )
         }
@@ -85,6 +88,9 @@ fun AppNavGraph(
                 },
                 onNavigateToSessionReview = { sessionId ->
                     navController.navigate(Screen.SessionReview.createRoute(sessionId))
+                },
+                onNavigateToSettings = {
+                    navController.navigate(Screen.DeveloperConsole.route)
                 }
             )
         }

@@ -3,6 +3,7 @@ package com.studytracker.feature.parent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -50,8 +51,7 @@ private val DAY_FILTERS = listOf(
     "SUN" to "Paz"
 )
 
-private val ZenHeroShape = RoundedCornerShape(22.dp)
-private val ZenCardShape = RoundedCornerShape(16.dp)
+private val ZenCardShape = RoundedCornerShape(18.dp)
 private val ZenSquircleShape = RoundedCornerShape(12.dp)
 private val ZenPillShape = CircleShape
 
@@ -60,7 +60,8 @@ private val ZenPillShape = CircleShape
 fun ParentDashboardScreen(
     onNavigateBack: () -> Unit,
     onNavigateToPlanStudio: () -> Unit,
-    onNavigateToSessionReview: (sessionId: String) -> Unit
+    onNavigateToSessionReview: (sessionId: String) -> Unit,
+    onNavigateToSettings: () -> Unit = {}
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -156,6 +157,18 @@ fun ParentDashboardScreen(
                             Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                         }
                     }
+                    IconButton(onClick = onNavigateToSettings) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenPaperCard)
+                                .border(1.dp, ZenPaperBorder, ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.Settings, contentDescription = "Ayarlar", tint = ZomoTextSecondary, modifier = Modifier.size(18.dp))
+                        }
+                    }
                 }
             )
         }
@@ -185,6 +198,7 @@ fun ParentDashboardScreen(
                             .weight(1f)
                             .clip(ZenPillShape)
                             .background(if (selectedTabIndex == 0) ZenSkyCyan else Color.Transparent)
+                            .clickable { selectedTabIndex = 0 }
                             .padding(vertical = 8.dp),
                         contentAlignment = Alignment.Center
                     ) {
@@ -224,6 +238,7 @@ fun ParentDashboardScreen(
                             .weight(1f)
                             .clip(ZenPillShape)
                             .background(if (selectedTabIndex == 1) ZenSkyCyan else Color.Transparent)
+                            .clickable { selectedTabIndex = 1 }
                             .padding(vertical = 8.dp),
                         contentAlignment = Alignment.Center
                     ) {
@@ -541,6 +556,7 @@ fun ParentDashboardScreen(
                                     .clip(ZenPillShape)
                                     .background(if (isSelected) ZenSkyCyan else ZenPaperCard)
                                     .border(1.dp, if (isSelected) ZenSkyCyan else ZenPaperBorder, ZenPillShape)
+                                    .clickable { selectedDayFilter = code }
                                     .padding(horizontal = 12.dp, vertical = 6.dp),
                                 contentAlignment = Alignment.Center
                             ) {

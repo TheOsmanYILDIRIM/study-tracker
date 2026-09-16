@@ -54,6 +54,10 @@ fun CloudSyncDialog(
         if (familyCode.isEmpty()) syncManager.getOrCreateFamilyCode() else familyCode
     }
 
+    LaunchedEffect(Unit) {
+        syncManager.syncAll()
+    }
+
     Dialog(onDismissRequest = onDismissRequest) {
         Surface(
             shape = ZenCardShape,

@@ -47,7 +47,8 @@ private val ZenCardShape = RoundedCornerShape(16.dp)
 @Composable
 fun ChildHomeScreen(
     onNavigateBackToRole: () -> Unit,
-    onOpenTutorial: () -> Unit
+    onOpenTutorial: () -> Unit,
+    onNavigateToSettings: () -> Unit = {}
 ) {
     val context = LocalContext.current
     val stateManager = remember { SessionStateManager.getInstance(context) }
@@ -174,6 +175,17 @@ fun ChildHomeScreen(
                                 contentAlignment = Alignment.Center
                             ) {
                                 Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
+                            }
+                        }
+                        IconButton(onClick = onNavigateToSettings) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenPaperCard, ZenPillShape)
+                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.Settings, contentDescription = "Ayarlar", tint = ZomoTextSecondary, modifier = Modifier.size(17.dp))
                             }
                         }
                     }
