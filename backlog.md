@@ -86,4 +86,11 @@
 - [x] Öğrenciden veliye gelen günlük raporda tamamlanan derslerin, sürelerin, onay bekleyen oturumların ve kanıtların seceresinin eksiksiz tutulması
 - [x] Veliden öğrenciye gelen revize planlarda `PlanMergeEngine` ile öğrencinin önceden yaptığı aynı görevleri, soru sayılarını ve onayları kaybetmeden akıllı güncelleme yapabilmesi
 
+## 27. WhatsApp "Birlikte Aç" Desteği & Büyük Belirgin Paylaşım Kartları
+- [x] WhatsApp'ın içerik sağlayıcı (ContentProvider) üzerinden aktardığı dosyalarda `pathSuffix=".studyplan"`, `pathPattern=".*\\.studyplan"`, `mimeType="*/*"`, `application/octet-stream`, `application/json`, `text/plain` ve `ACTION_SEND` intent filter genişletmesi
+- [x] Ebeveyn Masası (`ParentDashboardScreen`) üzerinde belirgin "📦 WhatsApp & Dosya Köprüsü" kartı ve 42dp yüksekliğinde "Planı Gönder" / "Rapor Yükle" butonları
+- [x] Öğrenci Masası (`ChildHomeScreen`) üzerinde belirgin "📦 Günlük Rapor & Kanıt Paketi" kartı ve tam genişlikli "Raporu WhatsApp / Dosya İle Gönder" butonu
+- [x] Hem dosya URI (`content://`) hem de doğrudan JSON metin yüklemesini destekleyen `MainActivity` intent işleyicisi
+
+
 

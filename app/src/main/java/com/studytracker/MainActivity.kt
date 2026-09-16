@@ -47,6 +47,8 @@ class MainActivity : ComponentActivity() {
 
     private fun handleIncomingIntent(intent: Intent) {
         val uri: Uri? = intent.data ?: intent.getParcelableExtra(Intent.EXTRA_STREAM) ?: intent.clipData?.getItemAt(0)?.uri
+        val extraText: String? = intent.getStringExtra(Intent.EXTRA_TEXT)
+
         if (uri != null) {
             kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
                 val result = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageFromUri(this@MainActivity, uri)
@@ -55,6 +57,17 @@ class MainActivity : ComponentActivity() {
                         android.widget.Toast.makeText(this@MainActivity, "✅ $msg", android.widget.Toast.LENGTH_LONG).show()
                     }.onFailure { err ->
                         android.widget.Toast.makeText(this@MainActivity, "❌ Paket yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        } else if (!extraText.isNullOrBlank() && (extraText.contains("familyCode") || extraText.contains("packageType") || extraText.contains("occurrences"))) {
+            kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+                val result = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageString(this@MainActivity, extraText)
+                withContext(kotlinx.coroutines.Dispatchers.Main) {
+                    result.onSuccess { msg ->
+                        android.widget.Toast.makeText(this@MainActivity, "✅ $msg", android.widget.Toast.LENGTH_LONG).show()
+                    }.onFailure { err ->
+                        android.widget.Toast.makeText(this@MainActivity, "❌ Metin yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
                     }
                 }
             }

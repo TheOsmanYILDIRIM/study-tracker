@@ -335,6 +335,84 @@ fun ChildHomeScreen(
                     }
                 }
 
+                // 📦 Günlük Çalışma Raporunu ve Kanıtları Veliye Gönder Kartı (WhatsApp / .studyplan)
+                item(key = "share_daily_report_card") {
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(ZenCardShape),
+                        colors = CardDefaults.cardColors(containerColor = Color(0x900D1F38)),
+                        border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenForestGreen.copy(alpha = 0.6f))
+                    ) {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(14.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .size(32.dp)
+                                        .background(ZenForestGreen.copy(alpha = 0.2f), ZenPillShape)
+                                        .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Icon(Icons.Default.Send, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(16.dp))
+                                }
+                                Column {
+                                    Text(
+                                        "📦 Günlük Rapor & Kanıt Paketi (.studyplan)",
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 13.sp,
+                                        color = Color.White
+                                    )
+                                    Text(
+                                        "Tamamlanan dersleri ve ekran görüntülerini veliye gönder",
+                                        fontSize = 10.5.sp,
+                                        color = ZomoTextMuted
+                                    )
+                                }
+                            }
+
+                            Button(
+                                onClick = {
+                                    scope.launch {
+                                        val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
+                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                            context,
+                                            file,
+                                            "Çalışma Raporunu ve Kanıtları Veliye Gönder"
+                                        )
+                                    }
+                                },
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(44.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen)
+                            ) {
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    Icon(Icons.Default.Share, contentDescription = null, tint = Color(0xFF042010), modifier = Modifier.size(16.dp))
+                                    Text(
+                                        "Raporu WhatsApp / Dosya İle Gönder",
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 12.sp,
+                                        color = Color(0xFF042010)
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+
                 // 1. Warning Banner & Tasks for Rejected items
                 if (rejectedTasks.isNotEmpty()) {
                     item(key = "rejected_header") {

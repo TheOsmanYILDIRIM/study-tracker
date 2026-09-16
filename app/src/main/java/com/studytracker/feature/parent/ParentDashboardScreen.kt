@@ -80,6 +80,21 @@ fun ParentDashboardScreen(
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showSyncDialog by remember { mutableStateOf(false) }
 
+    val filePickerLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        contract = androidx.activity.result.contract.ActivityResultContracts.GetContent()
+    ) { uri ->
+        if (uri != null) {
+            scope.launch {
+                val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageFromUri(context, uri)
+                res.onSuccess { msg ->
+                    android.widget.Toast.makeText(context, "✅ $msg", android.widget.Toast.LENGTH_LONG).show()
+                }.onFailure { err ->
+                    android.widget.Toast.makeText(context, "❌ Yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
+    }
+
     LaunchedEffect(Unit) {
         val syncManager = com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
         while (true) {
@@ -353,12 +368,97 @@ fun ParentDashboardScreen(
                             shape = ZenPillShape,
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = ZenSkyCyan,
-                                contentColor = ZenMintText
+                                contentColor = Color(0xFF070B14)
                             )
                         ) {
-                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(18.dp), tint = ZenMintText)
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text("🤖 AI Plan Stüdyosu & İçe/Dışa Aktar", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                            Icon(Icons.Default.AutoAwesome, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text("Yeni AI Haftalık Planı Oluştur", fontWeight = FontWeight.Bold, fontSize = 13.5.sp)
+                        }
+                    }
+
+                    // 📦 WhatsApp / .studyplan Paket Değişim Kartı
+                    item {
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(ZenCardShape),
+                            colors = CardDefaults.cardColors(containerColor = Color(0x90101E36)),
+                            border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenSkyCyan.copy(alpha = 0.5f))
+                        ) {
+                            Column(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(14.dp),
+                                verticalArrangement = Arrangement.spacedBy(10.dp)
+                            ) {
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    Icon(Icons.Default.Share, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
+                                    Column {
+                                        Text(
+                                            "📦 WhatsApp & Dosya Köprüsü (.studyplan)",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 13.sp,
+                                            color = Color.White
+                                        )
+                                        Text(
+                                            "İnternetsiz veya WhatsApp üzerinden tek tıkla plan ve rapor aktarımı",
+                                            fontSize = 10.5.sp,
+                                            color = ZomoTextMuted
+                                        )
+                                    }
+                                }
+
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    Button(
+                                        onClick = {
+                                            activePlan?.let { plan ->
+                                                scope.launch {
+                                                    val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context, plan.id)
+                                                    if (file != null) {
+                                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                                            context,
+                                                            file,
+                                                            "Haftalık Ders Planını Paylaş"
+                                                        )
+                                                    } else {
+                                                        android.widget.Toast.makeText(context, "Aktif plan bulunamadı!", android.widget.Toast.LENGTH_SHORT).show()
+                                                    }
+                                                }
+                                            } ?: run {
+                                                android.widget.Toast.makeText(context, "Lütfen önce bir plan oluşturun!", android.widget.Toast.LENGTH_SHORT).show()
+                                            }
+                                        },
+                                        modifier = Modifier.weight(1f).height(42.dp),
+                                        shape = ZenPillShape,
+                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
+                                    ) {
+                                        Icon(Icons.Default.Send, contentDescription = null, tint = Color(0xFF070B14), modifier = Modifier.size(15.dp))
+                                        Spacer(modifier = Modifier.width(4.dp))
+                                        Text("Planı Gönder", color = Color(0xFF070B14), fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                                    }
+
+                                    Button(
+                                        onClick = {
+                                            filePickerLauncher.launch("*/*")
+                                        },
+                                        modifier = Modifier.weight(1f).height(42.dp),
+                                        shape = ZenPillShape,
+                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyanContainer),
+                                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f))
+                                    ) {
+                                        Icon(Icons.Default.FolderOpen, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(15.dp))
+                                        Spacer(modifier = Modifier.width(4.dp))
+                                        Text("Rapor Yükle", color = ZenSkyCyan, fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
+                                    }
+                                }
+                            }
                         }
                     }
 

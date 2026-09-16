@@ -148,9 +148,16 @@
   - 10-15 adet tam oturum kanıt görseli içeren bir günlük rapor paketi sadece ~150 KB boyutunda olup WhatsApp üzerinden saniyeler içinde gönderilebilir hale getirildi.
 - **Secere Takibi & İki Yönlü Akıllı Birleştirme:**
   - Öğrenci günlük raporunu (`STUDY_REPORT`) veliye gönderdiğinde, veli uygulaması tamamlanan tüm dersleri, süreleri, onay bekleyen oturumları ve WebP kanıtları eksiksiz kendi Room veritabanına işler (öğrencinin tüm çalışma seceresini tutar).
-  - Veli AI Plan Stüdyosu'ndan öğrenciye revize bir plan (`PLAN_DISTRIBUTION`) gönderdiğinde, öğrenci tarafındaki `PlanMergeEngine` devreye girerek öğrencinin aynı hafta içinde daha önce bitirdiği (`APPROVED`, `WAITING_REVIEW`) dersleri ve soru sayaçlarını kaybetmeden yeni/değişen dersleri kayıpsız birleştirir.
-- **Android FileProvider ve Kolay Paylaşım Butonları:**
-  - `AIPlanStudioScreen`, `ParentDashboardScreen`, `ChildHomeScreen` ve `CloudSyncDialog` bileşenlerine tek dokunuşla çalışan `.studyplan` paylaşım ve içe aktarma butonları eklendi.
+### [2026-09-16] Tamamlandı: WhatsApp "Birlikte Aç" Desteği & Büyük Belirgin Paylaşım Kartları
+- **WhatsApp İçerik Sağlayıcı & "Birlikte Aç" Entegrasyonu:**
+  - WhatsApp'ın dahili dosya sağlayıcısının (`content://com.whatsapp.provider.media/export/...`) uzantı bilgisi içermeyen akışlarında da StudyTracker'ın "Birlikte Aç" listesinde görünmesi sağlandı.
+  - `AndroidManifest.xml` içine `pathSuffix=".studyplan"`, `pathPattern=".*\\.studyplan"`, `mimeType="application/octet-stream"`, `mimeType="application/json"`, `mimeType="text/plain"`, `mimeType="*/*"` ve `ACTION_SEND` intent filtreleri tanımlandı.
+- **Büyük & Belirgin Hero Paylaşım Kartları:**
+  - `ParentDashboardScreen`: Onay Masası sekmesinin en üstüne "📦 WhatsApp & Dosya Köprüsü (.studyplan)" kartı eklendi. 42dp yüksekliğinde "Planı Gönder" ve "Rapor Yükle" butonları ile tek tıkla paylaşım ve içe aktarma sağlandı.
+  - `ChildHomeScreen`: Canlı görev listesinin üzerine büyük, dikkat çekici yeşil rozetli "📦 Günlük Rapor & Kanıt Paketi (.studyplan)" kartı ve tam genişlikli "Raporu WhatsApp / Dosya İle Gönder" butonu yerleştirildi.
+- **Evrensel Metin & URI Ayrıştırma:**
+  - `MainActivity` intent işleyicisi hem dosya akışlarını (`Uri`) hem de mesaj olarak kopyalanıp paylaşılan JSON/DSL metin yüklerini (`EXTRA_TEXT`) otomatik ayrıştırıp yükleyecek şekilde genişletildi.
+
 
 
 

@@ -63,6 +63,29 @@
                 <data android:host="*" />
                 <data android:pathPattern=".*\\.studyplan" />
                 <data android:pathPattern=".*\\..*\\.studyplan" />
+                <data android:pathSuffix=".studyplan" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/octet-stream" />
+                <data android:pathPattern=".*\\.studyplan" />
+                <data android:pathPattern=".*\\..*\\.studyplan" />
+                <data android:pathSuffix=".studyplan" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/json" />
+                <data android:pathPattern=".*\\.studyplan" />
+                <data android:pathPattern=".*\\..*\\.studyplan" />
+                <data android:pathSuffix=".studyplan" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -75,6 +98,10 @@
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="application/vnd.studytracker.plan" />
+                <data android:mimeType="application/octet-stream" />
+                <data android:mimeType="application/json" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="*/*" />
             </intent-filter>
         </activity>
 
