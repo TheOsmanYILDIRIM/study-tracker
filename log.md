@@ -77,12 +77,16 @@
 - **Haftalık Hedefler Üste & Yatay Kaydırma (LazyRow):** Çocuk ana ekranında haftalık hedefler en üste taşındı ve yatay kaydırmalı `LazyRow` içinde `StudyWeeklyTaskCard` ile gösterildi; günlük görevler altta dikey sıralandı.
 - **Mükerrer Hero Kartının Kaldırılması & Canlı Paralaks Arka Plan:** Yinelenen hero progress kartı kaldırıldı; arka plandaki masal görseli %20 daha açık parlak bir filtreyle belirginleştirildi ve GPU `graphicsLayer` üzerinde çalışan yavaş, akıcı bir nefes alma/paralaks süzülme animasyonu (`rememberInfiniteTransition`) uygulandı.
 
-### [2026-09-15] Tamamlandı: Generative AI ile Gökyüzü Katman Ayrıştırma & Görev Tamamlama Yıldız Uçuş Efekti
-- **AI Görüntü Düzenleme & Üretimi:** Orijinal kağıt kesim illüstrasyonundan Generative AI (`generate_image`) ile 2 yeni katman üretildi:
-  1. `bg_zen_layer1_sky.webp`: Yıldızların tamamen kaldırıldığı, pürüzsüz gece gradyanı, ay ve bulutların korunduğu temiz gökyüzü tabanı.
-  2. `bg_zen_stars_isolated.webp`: Yalnızca parıldayan kağıt kesim yıldız kümeleri, takımyıldızları ve ışık noktalarının izole edildiği, arka planı tam saydam (%100 alpha) yıldız katmanı.
-- **20 Noktalı AI Takımyıldızı Koordinat Matrisi:** Yeni AI yıldız katmanındaki en parlak 20 yıldızın pozisyonları (`ZenConstellationStars`) belirlendi.
-- **Kademeli Yıldız Aydınlanması & Kuyruklu Yıldız Uçuşu:** Öğrencinin tamamladığı/onaylanan dersler oranında gökyüzü yıldızları kademeli olarak parıldar. Dersi "Bitir" bastığında karttan gökyüzündeki ilgili yıldıza altın-cyan ışıltılı bir kuyruklu yıldız uçar (`Animatable - 1400ms`) ve hedef yıldızda dairesel ışık halkası patlaması (`StarBurstRing`) yaparak takımyıldızını aydınlatır.
+### [2026-09-16] Tamamlandı: Tek Parça Zen Masal Arkaplanı, Dinamik Parlaklık Fullenmesi, Uçan Yıldız ve Test Modu Canlı Önizleme Sliderı
+- **Tek Parça Yüksek Kaliteli Gece İllüstrasyonu:** Çoklu katman ayrıştırma karmaşası yerine tek parça yüksek çözünürlüklü masal gecesi görseline (`bg_zen_night.webp`) dönüştürüldü; GPU süzülme ve nefes alma paralaksı korundu.
+- **Canlı Parlaklık & Renk Doygunluğu Fullenmesi:**
+  - 0% ilerlemede arkaplan gizemli, loş ve sakin bir gece modundadır (`alpha = 0.55f`, koyu okuma koruması).
+  - Görevler tamamlandıkça (100% fullendiğinde) renk doygunluğu (`ColorMatrix saturation: 0.85 -> 1.30`) artar, okuma koruması açılarak masal görseli ve altın takımyıldızları tüm ışıltısıyla parlar.
+- **Uçan Kuyruklu Yıldız & Patlama Halkası (`FlyingComet` & `StarBurstRing`):** Görev bitirildiğinde görev kartından gökyüzüne süzülen altın-cyan kuyruklu yıldız parçacığı uçar (`Animatable(1200ms)`) ve hedef gökyüzü noktasında süpernova patlama dalgası oluşturur.
+- **🧪 Test Modu Canlı Önizleme Sliderı:**
+  - Hem `ChildHomeScreen`'de (Test modu açıkken) hem de `DeveloperConsoleScreen` içinde 0% - 100% arasında sürüklenebilir interaktif Slider yerleştirildi.
+  - Kullanıcı slider'ı sürükledikçe anlık olarak arkaplanın parıldamasını, renk doygunluğunu ve gökyüzü yıldızlarının nasıl "fullendiğini" canlı izleyebilir; "✨ Yıldız Uçur" butonuyla uçuş animasyonunu anında test edebilir.
+
 
 
 

@@ -22,9 +22,27 @@ class AppPreferences private constructor(context: Context) {
     private val _isNightMode = MutableStateFlow(prefs.getBoolean(KEY_NIGHT_MODE, true))
     val isNightMode: StateFlow<Boolean> = _isNightMode.asStateFlow()
 
+    // Test mode simulation overrides for real-time background brightness & flying star previews
+    private val _testProgressOverride = MutableStateFlow<Float?>(null)
+    val testProgressOverride: StateFlow<Float?> = _testProgressOverride.asStateFlow()
+
+    private val _testFlyingStarTrigger = MutableStateFlow<Long>(0L)
+    val testFlyingStarTrigger: StateFlow<Long> = _testFlyingStarTrigger.asStateFlow()
+
+    fun setTestProgressOverride(ratio: Float?) {
+        _testProgressOverride.value = ratio
+    }
+
+    fun triggerTestFlyingStar() {
+        _testFlyingStarTrigger.value = System.currentTimeMillis()
+    }
+
     fun setTestModeEnabled(enabled: Boolean) {
         prefs.edit().putBoolean(KEY_TEST_MODE, enabled).apply()
         _isTestModeEnabled.value = enabled
+        if (!enabled) {
+            _testProgressOverride.value = null
+        }
     }
 
     fun setHasCompletedTutorial(completed: Boolean) {

@@ -43,14 +43,14 @@ fun RoleSelectionScreen(
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
     val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
-    val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
+    val testProgressOverride by appPreferences.testProgressOverride.collectAsState()
 
     var showPinDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
     var pinError by remember { mutableStateOf(false) }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        ZenParallaxBackground()
+        ZenParallaxBackground(progressOverride = testProgressOverride)
 
         Scaffold(
             containerColor = Color.Transparent,

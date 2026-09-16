@@ -395,6 +395,119 @@ fun DeveloperConsoleScreen(
                 }
             }
 
+            // Live Background Brightness & Flying Star Simulation Card
+            item {
+                val currentOverride by appPreferences.testProgressOverride.collectAsState()
+                val sliderVal = currentOverride ?: 0.5f
+
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = ZenCardShape,
+                    colors = CardDefaults.cardColors(containerColor = Color(0xE60D1929)),
+                    border = BorderStroke(1.5.dp, ZenMoonGold.copy(alpha = 0.8f))
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(20.dp))
+                                Text("🌌 Gökyüzü Parlaklığı & Yıldız Simülatörü", fontWeight = FontWeight.Bold, fontSize = 14.5.sp, color = ZenMoonGold)
+                            }
+                            Text("${(sliderVal * 100).toInt()}% Full", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenSkyCyan)
+                        }
+
+                        Text(
+                            "Slider'ı kaydırarak arka planın renk doygunluğu, parlaklığı ve stardust ışıltısının nasıl 'fullendiğini' gerçek zamanlı test edin:",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = ZomoTextSecondary,
+                            fontSize = 11.5.sp
+                        )
+
+                        Slider(
+                            value = sliderVal,
+                            onValueChange = { appPreferences.setTestProgressOverride(it) },
+                            valueRange = 0f..1f,
+                            colors = SliderDefaults.colors(
+                                thumbColor = ZenMoonGold,
+                                activeTrackColor = ZenSkyCyan,
+                                inactiveTrackColor = Color.White.copy(alpha = 0.25f)
+                            ),
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Button(
+                                onClick = { appPreferences.setTestProgressOverride(0.0f) },
+                                modifier = Modifier.weight(1f).height(34.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenPaperElevated, contentColor = Color.White),
+                                contentPadding = PaddingValues(horizontal = 2.dp)
+                            ) {
+                                Text("%0 Loş", fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+                            Button(
+                                onClick = { appPreferences.setTestProgressOverride(0.5f) },
+                                modifier = Modifier.weight(1f).height(34.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenPaperElevated, contentColor = Color.White),
+                                contentPadding = PaddingValues(horizontal = 2.dp)
+                            ) {
+                                Text("%50 Yarım", fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+                            Button(
+                                onClick = { appPreferences.setTestProgressOverride(1.0f) },
+                                modifier = Modifier.weight(1f).height(34.dp),
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen, contentColor = Color.White),
+                                contentPadding = PaddingValues(horizontal = 2.dp)
+                            ) {
+                                Text("%100 Full", fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+                        }
+
+                        Button(
+                            onClick = {
+                                appPreferences.triggerTestFlyingStar()
+                                Toast.makeText(context, "🚀 Yıldız gökyüzüne fırlatıldı!", Toast.LENGTH_SHORT).show()
+                            },
+                            modifier = Modifier.fillMaxWidth().height(40.dp),
+                            shape = ZenPillShape,
+                            colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold, contentColor = Color(0xFF451A03))
+                        ) {
+                            Icon(Icons.Default.FlightTakeoff, contentDescription = null, modifier = Modifier.size(16.dp))
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text("✨ Gökyüzüne Yıldız Fırlat (Test Uçuşu)", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+                        }
+
+                        if (currentOverride != null) {
+                            OutlinedButton(
+                                onClick = {
+                                    appPreferences.setTestProgressOverride(null)
+                                    Toast.makeText(context, "Gerçek görev ilerleme verisine dönüldü.", Toast.LENGTH_SHORT).show()
+                                },
+                                modifier = Modifier.fillMaxWidth().height(36.dp),
+                                shape = ZenPillShape,
+                                border = BorderStroke(1.dp, ZenSkyCyan)
+                            ) {
+                                Text("Gerçek Görev Verisine Sıfırla", color = ZenSkyCyan, fontSize = 11.5.sp)
+                            }
+                        }
+                    }
+                }
+            }
+
             // Quick Simulators
             item {
                 Card(

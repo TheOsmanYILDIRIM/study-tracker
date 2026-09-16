@@ -93,7 +93,10 @@ fun ParentDashboardScreen(
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        ZenParallaxBackground()
+        ZenParallaxBackground(
+            completedTasksCount = approvedTasks,
+            totalTasksCount = totalTasks
+        )
 
         Scaffold(
             containerColor = Color.Transparent,
