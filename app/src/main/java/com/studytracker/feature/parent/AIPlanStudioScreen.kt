@@ -373,13 +373,33 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                             ) {
                                 Column(
                                     modifier = Modifier.padding(16.dp),
-                                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                                    verticalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
                                     Text("🎉 Plan Başarıyla İçe Aktarıldı!", fontWeight = FontWeight.Black, color = ZomoEmerald)
                                     Text("• Mod: ${if (res.isSameWeekRevision) "Aynı Hafta Revizyonu" else "Yeni Hafta Planı"}", fontSize = 12.sp, color = ZomoEmerald)
                                     Text("• Korunan Tamamlanmış Görev: ${res.preservedCount} adet", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = ZomoEmerald)
                                     Text("• Eklenen Yeni Görev: ${res.occurrencesCreated} adet", fontSize = 12.sp, color = ZomoEmerald)
                                     Text("• Güncellenen Görev: ${res.occurrencesUpdated} adet", fontSize = 12.sp, color = ZomoEmerald)
+
+                                    Button(
+                                        onClick = {
+                                            scope.launch {
+                                                val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
+                                                com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                                    context,
+                                                    file,
+                                                    "Haftalık Çalışma Planını Öğrenciye Gönder"
+                                                )
+                                            }
+                                        },
+                                        shape = FuturisticPillShape,
+                                        colors = ButtonDefaults.buttonColors(containerColor = ZomoEmerald),
+                                        modifier = Modifier.fillMaxWidth().height(42.dp)
+                                    ) {
+                                        Icon(Icons.Default.Share, contentDescription = null, tint = Color.Black, modifier = Modifier.size(16.dp))
+                                        Spacer(modifier = Modifier.width(6.dp))
+                                        Text("📤 Planı Öğrenciye Gönder (.studyplan)", color = Color.Black, fontWeight = FontWeight.Black, fontSize = 13.sp)
+                                    }
                                 }
                             }
                         }

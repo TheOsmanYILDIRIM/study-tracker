@@ -79,4 +79,11 @@
 - [x] Ağ kesintilerinden ve zaman aşımlarından etkilenmeyen, 3 saniye zaman aşımlı bağımsız ve arka planda çalışan bulut yedekleme sistemi
 - [x] Farklı cihazlar için tek dokunuşla Android sistem paylaşım menüsü (WhatsApp/SMS/QuickShare/Nearby), panoya kopyalama ve içe aktarma mekanizması
 
+## 26. Özel `.studyplan` Dosya Formatı, Otomatik İçe Aktarma, Lossy WebP Kanıt Sıkıştırması ve Secere Takibi
+- [x] Özel `.studyplan` dosya uzantısı, MIME tipi (`application/vnd.studytracker.plan`) ve Android Intent Filter (`VIEW` / `SEND`) ile WhatsApp/Telegram'dan tek tıkla otomatik içe aktarma
+- [x] Android `FileProvider` ile güvenli dosya paylaşımı ve Android sistem Paylaşım Sayfası (Share Sheet) entegrasyonu
+- [x] Ekran görüntülerinin 8-15 KB'a düşürülmesi için donanım destekli Lossy WebP (`Bitmap.CompressFormat.WEBP_LOSSY`) sıkıştırması
+- [x] Öğrenciden veliye gelen günlük raporda tamamlanan derslerin, sürelerin, onay bekleyen oturumların ve kanıtların seceresinin eksiksiz tutulması
+- [x] Veliden öğrenciye gelen revize planlarda `PlanMergeEngine` ile öğrencinin önceden yaptığı aynı görevleri, soru sayılarını ve onayları kaybetmeden akıllı güncelleme yapabilmesi
+
 

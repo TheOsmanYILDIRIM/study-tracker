@@ -139,6 +139,20 @@
 - **Tek Dokunuşla Manuel Kopyala-Yapıştır Köprüsü:**
   - `CloudSyncDialog` içinde "Veriyi Kopyala" (tüm plan, görevler ve durumları panoya kopyalar) ve "Yapıştır & Yükle" (panodaki veriyi tek tıkla içeri aktarır) butonları ile internet veya cihaz kısıtlamasından bağımsız %100 garantili yedek köprü sağlandı.
 
+### [2026-09-16] Tamamlandı: Özel `.studyplan` Dosya Formatı, Otomatik İçe Aktarma, Lossy WebP Kanıt Sıkıştırması ve Secere Takibi
+- **Özel `.studyplan` Dosya Formatı & Android Intent Entegrasyonu:**
+  - `application/vnd.studytracker.plan` MIME tipi ve `.studyplan` dosya uzantısı tanımlandı.
+  - Android Manifest içine `VIEW` ve `SEND` intent filtreleri eklenerek kullanıcının WhatsApp, Telegram, Gmail veya Dosyalar uygulamasından bir `.studyplan` dosyasına dokunduğunda `MainActivity` tarafından otomatik açılıp içeri aktarılması sağlandı (`StudyPackageExchangeManager.importPackageFromUri`).
+- **Lossy WebP Ekran Görüntüsü Sıkıştırması:**
+  - Android donanım destekli `Bitmap.CompressFormat.WEBP_LOSSY` (quality: 65, max dimension: 640px) kullanılarak ekran görüntüleri 2-3 MB'tan 8-15 KB'a düşürüldü.
+  - 10-15 adet tam oturum kanıt görseli içeren bir günlük rapor paketi sadece ~150 KB boyutunda olup WhatsApp üzerinden saniyeler içinde gönderilebilir hale getirildi.
+- **Secere Takibi & İki Yönlü Akıllı Birleştirme:**
+  - Öğrenci günlük raporunu (`STUDY_REPORT`) veliye gönderdiğinde, veli uygulaması tamamlanan tüm dersleri, süreleri, onay bekleyen oturumları ve WebP kanıtları eksiksiz kendi Room veritabanına işler (öğrencinin tüm çalışma seceresini tutar).
+  - Veli AI Plan Stüdyosu'ndan öğrenciye revize bir plan (`PLAN_DISTRIBUTION`) gönderdiğinde, öğrenci tarafındaki `PlanMergeEngine` devreye girerek öğrencinin aynı hafta içinde daha önce bitirdiği (`APPROVED`, `WAITING_REVIEW`) dersleri ve soru sayaçlarını kaybetmeden yeni/değişen dersleri kayıpsız birleştirir.
+- **Android FileProvider ve Kolay Paylaşım Butonları:**
+  - `AIPlanStudioScreen`, `ParentDashboardScreen`, `ChildHomeScreen` ve `CloudSyncDialog` bileşenlerine tek dokunuşla çalışan `.studyplan` paylaşım ve içe aktarma butonları eklendi.
+
+
 
 
 

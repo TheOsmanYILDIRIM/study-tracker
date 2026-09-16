@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="shared_plans" path="plans/" />
+    <cache-path name="shared_reports" path="reports/" />
+    <cache-path name="shared_packages" path="packages/" />
+    <files-path name="screenshots" path="screenshots/" />
+    <files-path name="packages" path="packages/" />
+    <external-files-path name="external_packages" path="packages/" />
+    <external-cache-path name="external_cache_packages" path="packages/" />
+</paths>

@@ -15,6 +15,8 @@ import androidx.navigation.compose.rememberNavController
 import com.studytracker.app.navigation.AppNavGraph
 import com.studytracker.core.service.StudyAccessibilityService
 import com.studytracker.core.ui.theme.StudyTrackerTheme
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class MainActivity : ComponentActivity() {
 
@@ -22,6 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         checkOverlayPermission()
+        handleIncomingIntent(intent)
 
         setContent {
             StudyTrackerTheme {
@@ -31,6 +34,28 @@ class MainActivity : ComponentActivity() {
                 ) {
                     val navController = rememberNavController()
                     AppNavGraph(navController = navController)
+                }
+            }
+        }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        intent?.let { handleIncomingIntent(it) }
+    }
+
+    private fun handleIncomingIntent(intent: Intent) {
+        val uri: Uri? = intent.data ?: intent.getParcelableExtra(Intent.EXTRA_STREAM) ?: intent.clipData?.getItemAt(0)?.uri
+        if (uri != null) {
+            kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+                val result = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageFromUri(this@MainActivity, uri)
+                withContext(kotlinx.coroutines.Dispatchers.Main) {
+                    result.onSuccess { msg ->
+                        android.widget.Toast.makeText(this@MainActivity, "✅ $msg", android.widget.Toast.LENGTH_LONG).show()
+                    }.onFailure { err ->
+                        android.widget.Toast.makeText(this@MainActivity, "❌ Paket yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
+                    }
                 }
             }
         }

@@ -281,6 +281,87 @@ fun CloudSyncDialog(
                     }
                 }
 
+                val filePickerLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+                    contract = androidx.activity.result.contract.ActivityResultContracts.GetContent()
+                ) { uri ->
+                    if (uri != null) {
+                        scope.launch {
+                            val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageFromUri(context, uri)
+                            res.onSuccess { msg ->
+                                Toast.makeText(context, "✅ $msg", Toast.LENGTH_LONG).show()
+                                syncManager.syncAll()
+                            }.onFailure { err ->
+                                Toast.makeText(context, "❌ Yükleme hatası: ${err.message}", Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    }
+                }
+
+                // .studyplan Package Sharing (WhatsApp, Telegram, QuickShare)
+                Surface(
+                    shape = RoundedCornerShape(14.dp),
+                    color = Color(0x60132038),
+                    border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.3f)),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Column(
+                        modifier = Modifier.padding(12.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Text(
+                            "📦 .studyplan ÖZEL DOSYA KÖPRÜSÜ",
+                            color = ZenSkyCyan,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            "Tüm haftalık planı veya günlük WebP kanıtlı çalışma raporunu tek bir dosya olarak WhatsApp'tan atın, diğer telefonda dokununca otomatik yüklensin.",
+                            color = ZomoTextMuted,
+                            fontSize = 10.5.sp
+                        )
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Button(
+                                onClick = {
+                                    scope.launch {
+                                        val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
+                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                            context,
+                                            file,
+                                            "Çalışma Raporu ve Kanıtları Paylaş"
+                                        )
+                                    }
+                                },
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyanContainer),
+                                border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f)),
+                                modifier = Modifier.weight(1f).height(38.dp)
+                            ) {
+                                Icon(Icons.Default.Send, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text("Raporu Paylaş", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+
+                            Button(
+                                onClick = {
+                                    filePickerLauncher.launch("*/*")
+                                },
+                                shape = ZenPillShape,
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen.copy(alpha = 0.2f)),
+                                border = androidx.compose.foundation.BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.5f)),
+                                modifier = Modifier.weight(1f).height(38.dp)
+                            ) {
+                                Icon(Icons.Default.FolderOpen, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(14.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text(".studyplan Seç", color = ZenForestGreen, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                            }
+                        }
+                    }
+                }
+
                 // Direct Copy/Paste & Native Share Bridge Options
                 Row(
                     modifier = Modifier.fillMaxWidth(),
@@ -289,14 +370,12 @@ fun CloudSyncDialog(
                     OutlinedButton(
                         onClick = {
                             scope.launch {
-                                val payload = syncManager.exportCurrentPayloadString()
-                                val sendIntent = android.content.Intent().apply {
-                                    action = android.content.Intent.ACTION_SEND
-                                    putExtra(android.content.Intent.EXTRA_TEXT, payload)
-                                    type = "text/plain"
-                                }
-                                val shareIntent = android.content.Intent.createChooser(sendIntent, "StudyTracker Verisini Paylaş")
-                                context.startActivity(shareIntent)
+                                val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
+                                com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                    context,
+                                    file,
+                                    "Haftalık Planı Paylaş"
+                                )
                             }
                         },
                         shape = ZenPillShape,
@@ -305,7 +384,7 @@ fun CloudSyncDialog(
                     ) {
                         Icon(Icons.Default.Share, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
                         Spacer(modifier = Modifier.width(4.dp))
-                        Text("Paylaş / Gönder", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Text("Planı Gönder", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                     }
 
                     OutlinedButton(
@@ -314,9 +393,10 @@ fun CloudSyncDialog(
                             val clipItem = clipboard.primaryClip?.getItemAt(0)?.text?.toString()
                             if (!clipItem.isNullOrBlank() && clipItem.contains("familyCode")) {
                                 scope.launch {
-                                    val res = syncManager.importPayloadString(clipItem)
+                                    val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageString(context, clipItem)
                                     res.onSuccess { count ->
-                                        Toast.makeText(context, "✅ $count ders başarıyla içe aktarıldı!", Toast.LENGTH_LONG).show()
+                                        Toast.makeText(context, "✅ $count", Toast.LENGTH_LONG).show()
+                                        syncManager.syncAll()
                                     }.onFailure {
                                         Toast.makeText(context, "❌ Geçersiz veri formatı!", Toast.LENGTH_SHORT).show()
                                     }
@@ -331,7 +411,7 @@ fun CloudSyncDialog(
                     ) {
                         Icon(Icons.Default.Download, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(14.dp))
                         Spacer(modifier = Modifier.width(4.dp))
-                        Text("Yapıştır & Yükle", color = ZenForestGreen, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Text("Panodan Yükle", color = ZenForestGreen, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                     }
                 }
             }

@@ -165,6 +165,26 @@ fun ChildHomeScreen(
                         }
                     },
                     actions = {
+                        IconButton(onClick = {
+                            scope.launch {
+                                val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
+                                com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                    context,
+                                    file,
+                                    "Çalışma Raporunu ve Kanıtları Veliye Gönder"
+                                )
+                            }
+                        }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenForestGreen.copy(alpha = 0.25f), ZenPillShape)
+                                    .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.Send, contentDescription = "Raporu Gönder", tint = ZenForestGreen, modifier = Modifier.size(17.dp))
+                            }
+                        }
                         IconButton(onClick = { showSyncDialog = true }) {
                             Box(
                                 modifier = Modifier
