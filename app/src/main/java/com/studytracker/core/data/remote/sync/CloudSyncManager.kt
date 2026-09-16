@@ -181,7 +181,8 @@ class CloudSyncManager private constructor(private val context: Context) {
             if (bridgePayload != null) {
                 // A. Reconcile Plan & Task Templates
                 bridgePayload.plan?.let { p ->
-                    if (localPlan == null || localPlan.weekId != p.weekId || localPlan.rawJson.isBlank()) {
+                    val currentPlan = localPlan
+                    if (currentPlan == null || currentPlan.weekId != p.weekId || currentPlan.rawJson.isBlank()) {
                         db.planDao().setActivePlan(
                             PlanEntity(
                                 planId = p.planId,
