@@ -953,6 +953,30 @@ fun ParentDashboardScreen(
                                         }
                                     }
 
+                                    if (isCompleted && !q.studentNote.isNullOrBlank()) {
+                                        Surface(
+                                            shape = RoundedCornerShape(8.dp),
+                                            color = Color(0x6014203D),
+                                            border = BorderStroke(1.dp, Color(0xFF00E5FF).copy(alpha = 0.4f)),
+                                            modifier = Modifier.fillMaxWidth()
+                                        ) {
+                                            Row(
+                                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp),
+                                                verticalAlignment = Alignment.CenterVertically,
+                                                horizontalArrangement = Arrangement.spacedBy(5.dp)
+                                            ) {
+                                                Icon(Icons.Default.Psychology, contentDescription = null, tint = Color(0xFF00E5FF), modifier = Modifier.size(13.dp))
+                                                Text(
+                                                    text = q.studentNote,
+                                                    fontSize = 11.sp,
+                                                    color = Color.White,
+                                                    fontWeight = FontWeight.Medium,
+                                                    maxLines = 2
+                                                )
+                                            }
+                                        }
+                                    }
+
                                     Button(
                                         onClick = { onNavigateToQuizReview(q.quizId) },
                                         modifier = Modifier.fillMaxWidth().height(36.dp),
@@ -962,6 +986,7 @@ fun ParentDashboardScreen(
                                             contentColor = if (isCompleted) Color(0xFF070B14) else ZenSkyCyan
                                         )
                                     ) {
+
                                         Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(14.dp))
                                         Spacer(modifier = Modifier.width(4.dp))
                                         Text(

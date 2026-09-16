@@ -220,6 +220,21 @@
   - Veli ve Öğrenci TopBar'larından ve ana panellerden sunucu/bulut senkronizasyon diyalogları ve butonları temizlendi.
   - Tüm veri iletimi, cihazlar arası `.studyplan` dosya paketi ve Android yerel Paylaşım Sayfası (WhatsApp, Telegram, QuickShare, Bluetooth, Dosya Yöneticisi) üzerine kurgulandı.
 
+## [2026-09-16] 32. Ders ve Test Bitiminde İnteraktif Öğrenci Öz Değerlendirme & Veli Raporlama Sistemi
+- **İnteraktif Ders Bitirme Değerlendirmesi (`ChildHomeScreen`):**
+  - Ders oturumu bitirildiğinde açılan diyalog zengin bir öz değerlendirme anketine dönüştürüldü.
+  - Öğrenci tek dokunuşla konuyu anlama düzeyini (🌟 Harika, 👍 İyi, 🤔 Zorlandım, ❌ Zayıf), odaklanma seviyesini (⚡ %100 Odak, 🎯 İyi, 📱 Dağıldı), çözdüğü soru sayısını (+10, +20, +30, +50) seçebiliyor ve velisine açıklama notu yazabiliyor.
+  - Tüm bu değerlendirme Room veritabanına (`OccurrenceEntity` ve `SessionEntity`) kaydediliyor.
+- **İnteraktif Test Bitirme Değerlendirmesi (`ChildQuizScreen`):**
+  - Test çözümü tamamlanıp bitirildiğinde öğrencinin karşısına test zorluk derecesi (🟢 Kolay, 🟡 Orta, 🔴 Zor), tahmini başarı/güven hissi (🌟 Çok İyi, 👍 Fena Değil, 🤔 Kararsızım) ve veliye iletmek istediği test notunu girebileceği anket sunuldu.
+  - Değerlendirme `QuizEntity.studentNote` ve `Quiz.studentNote` alanına kaydediliyor (Room DB v4).
+- **Veli Masası & Test İnceleme Ekranı Entegrasyonu (`ParentDashboardScreen`, `ParentQuizReviewScreen`, `SessionReviewScreen`):**
+  - Veli Masasında onay bekleyen derslerde ve çözülen test kartlarında öğrencinin öz değerlendirme metrikleri ("Öğrenci Öz Değerlendirmesi") renkli rozetlerle sergileniyor.
+  - Test inceleme ekranının en üstünde öğrencinin test zorluk ve başarı algısını gösteren özel bilgi kartı yerleştirildi.
+- **`.studyplan` Paket Paylaşımı Uyumluluğu (`StudyPackageExchangeManager`):**
+  - Öğrenci günlük çalışma raporunu veliye WhatsApp veya dosya olarak gönderdiğinde tüm ders ve test değerlendirme verileri eksiksiz pakete dahil edilip veli tarafında içe aktarılıyor.
+
+
 
 
 

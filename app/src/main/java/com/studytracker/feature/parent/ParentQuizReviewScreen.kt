@@ -232,6 +232,39 @@ fun ParentQuizReviewScreen(
                             }
                         }
 
+                        if (!quiz.studentNote.isNullOrBlank()) {
+                            Surface(
+                                shape = RoundedCornerShape(12.dp),
+                                color = Color(0x6014203D),
+                                border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Column(
+                                    modifier = Modifier.padding(12.dp),
+                                    verticalArrangement = Arrangement.spacedBy(4.dp)
+                                ) {
+                                    Row(
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    ) {
+                                        Icon(Icons.Default.Psychology, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(16.dp))
+                                        Text(
+                                            text = "Öğrenci Öz Değerlendirmesi",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 11.5.sp,
+                                            color = ZenSkyCyan
+                                        )
+                                    }
+                                    Text(
+                                        text = quiz.studentNote,
+                                        fontSize = 12.sp,
+                                        color = Color.White,
+                                        fontWeight = FontWeight.Medium
+                                    )
+                                }
+                            }
+                        }
+
                         Text(
                             text = "📅 Tamamlanma: $submitTimeStr",
                             color = ZomoTextMuted,
@@ -240,6 +273,7 @@ fun ParentQuizReviewScreen(
                     }
                 }
             }
+
 
             item {
                 Text(

@@ -120,4 +120,12 @@
 - [x] Test tamamlandığında günlük ilerleme çubuğu, gece masalı arkaplan doygunluğu ve gökyüzüne uçan kuyruklu yıldız animasyonunun dinamik olarak tetiklenmesi
 - [x] Sunucu / Supabase bağımlılıkları ve butonlarının arayüzden tamamen temizlenmesi; Veli ve Öğrenci arasındaki tüm veri aktarımının saf Android Paylaşım Sayfası (`.studyplan` Share Sheet - WhatsApp, Telegram, QuickShare, Dosya) üzerinden gerçekleştirilmesi
 
+## 32. Ders ve Test Bitiminde İnteraktif Öğrenci Öz Değerlendirme & Veli Raporlama Sistemi
+- [x] Ders bitirme akışında (`ChildHomeScreen`) interaktif öğrenci öz değerlendirme anketi: Anlama Seviyesi (🌟 Harika, 👍 İyi, 🤔 Zorlandım, ❌ Zayıf), Odaklanma Seviyesi (⚡ %100, 🎯 İyi, 📱 Dağıldı), Soru Sayısı (+10, +20, +30, +50) ve Serbest Öğrenci Notu
+- [x] Test bitirme akışında (`ChildQuizScreen`) interaktif test değerlendirme anketi: Zorluk Seviyesi (🟢 Kolay, 🟡 Orta, 🔴 Zor), Güven/His Düzeyi (🌟 Çok İyi, 👍 Fena Değil, 🤔 Kararsız) ve Veliye Özel Test Notu
+- [x] `Quiz` ve `QuizEntity` modellerine `studentNote` alanı entegrasyonu, Room DB v4 yükseltmesi
+- [x] Veli Paneli (`ParentDashboardScreen`) ve Test İnceleme Ekranında (`ParentQuizReviewScreen`) öğrencinin ders ve test öz değerlendirme metriklerinin ("🎓 Öğrenci Öz Değerlendirmesi") renkli kartlarla sergilenmesi
+- [x] `.studyplan` paket alışverişine (`StudyPackageExchangeManager`) ders ve test değerlendirme verilerinin tam dahil edilmesi
+
+
 

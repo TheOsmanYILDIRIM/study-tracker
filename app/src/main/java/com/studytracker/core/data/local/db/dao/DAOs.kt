@@ -170,7 +170,7 @@ interface QuizDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertQuizzes(quizzes: List<QuizEntity>)
 
-    @Query("UPDATE quizzes SET completed = :completed, submittedAt = :submittedAt, studentAnswersJson = :studentAnswersJson, studentDurationSeconds = :studentDurationSeconds, correctCount = :correctCount, wrongCount = :wrongCount, emptyCount = :emptyCount WHERE quizId = :quizId")
+    @Query("UPDATE quizzes SET completed = :completed, submittedAt = :submittedAt, studentAnswersJson = :studentAnswersJson, studentDurationSeconds = :studentDurationSeconds, correctCount = :correctCount, wrongCount = :wrongCount, emptyCount = :emptyCount, studentNote = :studentNote WHERE quizId = :quizId")
     suspend fun submitQuiz(
         quizId: String,
         completed: Boolean,
@@ -179,10 +179,11 @@ interface QuizDao {
         studentDurationSeconds: Int,
         correctCount: Int,
         wrongCount: Int,
-        emptyCount: Int
+        emptyCount: Int,
+        studentNote: String?
     )
 
-    @Query("UPDATE quizzes SET completed = 0, submittedAt = NULL, studentAnswersJson = '{}', studentDurationSeconds = 0, correctCount = 0, wrongCount = 0, emptyCount = 0")
+    @Query("UPDATE quizzes SET completed = 0, submittedAt = NULL, studentAnswersJson = '{}', studentDurationSeconds = 0, correctCount = 0, wrongCount = 0, emptyCount = 0, studentNote = NULL")
     suspend fun resetAllQuizzesProgress()
 
     @Query("DELETE FROM quizzes WHERE quizId = :quizId")

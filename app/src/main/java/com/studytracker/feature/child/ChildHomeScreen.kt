@@ -105,7 +105,13 @@ fun ChildHomeScreen(
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
+    
+    // Öğrenci Öz Değerlendirme Durumları
+    var evalUnderstanding by remember { mutableStateOf("Harika") }
+    var evalFocus by remember { mutableStateOf("%100 Odak") }
+    var evalQuestionsCount by remember { mutableStateOf("") }
     var studentNoteInput by remember { mutableStateOf("") }
+    
     val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
         maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
     }
@@ -168,24 +174,130 @@ fun ChildHomeScreen(
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Icon(Icons.Default.Celebration, contentDescription = null, tint = ZenSkyCyan)
-                    Text("Tebrikler, Dersi Bitiriyorsun! 🎉", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
+                    Text("Ders Değerlendirmesi 🎉", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
                 }
             },
             text = {
-                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                    modifier = Modifier.verticalScroll(rememberScrollState())
+                ) {
                     Text(
-                        "Bu çalışma hakkında veline iletmek istediğin bir not var mı? (Çözülen soru sayısı, netler, anladığın/zorlandığın yerler vb.)",
+                        "Dersi tamamladın! Çalışmanı değerlendir, veline rapor olarak iletilecektir:",
                         color = ZomoTextSecondary,
-                        fontSize = 12.5.sp
+                        fontSize = 12.sp
                     )
+
+                    // 1. Konuyu Anlama Düzeyi
+                    Text("1. Konuyu ne kadar iyi anladın?", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.5.sp)
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        listOf(
+                            "Harika" to "🌟 Harika",
+                            "İyi" to "👍 İyi",
+                            "Zorlandım" to "🤔 Zorlandım",
+                            "Anlamadım" to "❌ Zayıf"
+                        ).forEach { (key, label) ->
+                            val isSelected = evalUnderstanding == key
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = if (isSelected) ZenForestGreen.copy(alpha = 0.3f) else Color(0xFF182238),
+                                border = BorderStroke(1.dp, if (isSelected) ZenForestGreen else ZenPaperBorder),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .clickable { evalUnderstanding = key }
+                            ) {
+                                Box(
+                                    modifier = Modifier.padding(vertical = 6.dp, horizontal = 2.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text(
+                                        text = label,
+                                        fontSize = 10.5.sp,
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                                        color = if (isSelected) Color.White else ZomoTextSecondary,
+                                        maxLines = 1
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // 2. Odaklanma Seviyesi
+                    Text("2. Odaklanma ve verimin nasıldı?", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.5.sp)
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        listOf(
+                            "%100 Odak" to "⚡ %100 Odak",
+                            "İyi" to "🎯 İyi",
+                            "Dağıldı" to "📱 Dağıldı"
+                        ).forEach { (key, label) ->
+                            val isSelected = evalFocus == key
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = if (isSelected) ZenSkyCyan.copy(alpha = 0.3f) else Color(0xFF182238),
+                                border = BorderStroke(1.dp, if (isSelected) ZenSkyCyan else ZenPaperBorder),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .clickable { evalFocus = key }
+                            ) {
+                                Box(
+                                    modifier = Modifier.padding(vertical = 6.dp, horizontal = 4.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text(
+                                        text = label,
+                                        fontSize = 11.sp,
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                                        color = if (isSelected) Color.White else ZomoTextSecondary,
+                                        maxLines = 1
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // 3. Soru Sayısı / Hedef
+                    Text("3. Çözülen Soru Sayısı (Varsa):", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.5.sp)
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        listOf("10", "20", "30", "50").forEach { count ->
+                            val isSelected = evalQuestionsCount == count
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = if (isSelected) Color(0xFF8B5CF6).copy(alpha = 0.3f) else Color(0xFF182238),
+                                border = BorderStroke(1.dp, if (isSelected) Color(0xFF8B5CF6) else ZenPaperBorder),
+                                modifier = Modifier.clickable { evalQuestionsCount = count }
+                            ) {
+                                Box(modifier = Modifier.padding(horizontal = 8.dp, vertical = 5.dp)) {
+                                    Text(
+                                        text = "$count Soru",
+                                        fontSize = 11.sp,
+                                        color = if (isSelected) Color.White else ZomoTextSecondary,
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // 4. Öğrenci Notu / Detay
+                    Text("4. Veline Notun / Zorlandığın Konular:", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.5.sp)
                     OutlinedTextField(
                         value = studentNoteInput,
                         onValueChange = { studentNoteInput = it },
-                        placeholder = { Text("Örn: 40 soru çözdüm, 2 yanlış çıktı. Konuyu çok iyi anladım!", fontSize = 12.sp, color = ZomoTextMuted) },
+                        placeholder = { Text("Örn: Formülleri iyi anladım, soru çözümü yaptım...", fontSize = 11.5.sp, color = ZomoTextMuted) },
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(12.dp),
+                        shape = RoundedCornerShape(10.dp),
                         minLines = 2,
-                        maxLines = 4,
+                        maxLines = 3,
                         colors = OutlinedTextFieldDefaults.colors(
                             focusedBorderColor = ZenSkyCyan,
                             unfocusedBorderColor = ZenPaperBorder,
@@ -199,18 +311,28 @@ fun ChildHomeScreen(
             confirmButton = {
                 Button(
                     onClick = {
-                        val note = studentNoteInput.trim().ifBlank { null }
+                        val parts = mutableListOf<String>()
+                        if (evalUnderstanding.isNotBlank()) parts.add("⭐ Anlama: $evalUnderstanding")
+                        if (evalFocus.isNotBlank()) parts.add("⚡ Odak: $evalFocus")
+                        if (evalQuestionsCount.isNotBlank()) parts.add("🎯 $evalQuestionsCount Soru")
+                        if (studentNoteInput.isNotBlank()) parts.add("📝 ${studentNoteInput.trim()}")
+
+                        val compiledNote = if (parts.isNotEmpty()) parts.joinToString(" | ") else null
+
                         showFinishNoteDialog = false
                         localFlyingStarTrigger = System.currentTimeMillis()
-                        stateManager.finishSession(studentNote = note)
+                        stateManager.finishSession(studentNote = compiledNote)
+                        
+                        // Formu sıfırla
                         studentNoteInput = ""
+                        evalQuestionsCount = ""
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                     shape = ZenPillShape
                 ) {
                     Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(15.dp))
                     Spacer(modifier = Modifier.width(4.dp))
-                    Text(if (studentNoteInput.isNotBlank()) "Notu Kaydet & Bitir" else "Bitir", fontWeight = FontWeight.Bold)
+                    Text("Değerlendirmeyi Kaydet & Bitir", fontWeight = FontWeight.Bold)
                 }
             },
             dismissButton = {
@@ -221,6 +343,7 @@ fun ChildHomeScreen(
             containerColor = Color(0xFF10192E)
         )
     }
+
 
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground(

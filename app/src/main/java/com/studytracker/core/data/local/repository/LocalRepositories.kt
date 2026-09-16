@@ -390,20 +390,22 @@ class LocalQuizRepositoryImpl(
         db.quizDao().upsertQuizzes(quizzes.map { it.toEntity(json) })
     }
 
-    override suspend fun submitQuizAnswers(quizId: String, studentAnswers: Map<String, String>, durationSeconds: Int) {
-        val quizEntity = db.quizDao().getQuizById(quizId) ?: return
-        val quiz = quizEntity.toDomain(json)
-
+    override suspend fun submitQuizAnswers(
+        quizId: String,
+        studentAnswers: Map<String, String>,
+        durationSeconds: Int,
+        studentNote: String?
+    ) {
+        val quiz = db.quizDao().getQuizById(quizId)?.toDomain(json) ?: return
         var correct = 0
         var wrong = 0
         var empty = 0
 
-        for (q in quiz.questions) {
-            val ans = studentAnswers[q.questionId]?.trim()
-            val expected = q.correctOption.trim()
-            if (ans.isNullOrBlank()) {
+        quiz.questions.forEach { q ->
+            val answer = studentAnswers[q.questionId]?.trim()?.uppercase()
+            if (answer.isNullOrBlank()) {
                 empty++
-            } else if (ans.equals(expected, ignoreCase = true)) {
+            } else if (answer == q.correctOption.trim().uppercase()) {
                 correct++
             } else {
                 wrong++
@@ -418,7 +420,8 @@ class LocalQuizRepositoryImpl(
             studentDurationSeconds = durationSeconds,
             correctCount = correct,
             wrongCount = wrong,
-            emptyCount = empty
+            emptyCount = empty,
+            studentNote = studentNote?.trim()?.ifBlank { null }
         )
     }
 
@@ -450,7 +453,8 @@ fun Quiz.toEntity(json: Json = Json { ignoreUnknownKeys = true }) = QuizEntity(
     studentDurationSeconds = studentDurationSeconds,
     correctCount = correctCount,
     wrongCount = wrongCount,
-    emptyCount = emptyCount
+    emptyCount = emptyCount,
+    studentNote = studentNote
 )
 
 fun QuizEntity.toDomain(json: Json = Json { ignoreUnknownKeys = true }): Quiz {
@@ -479,7 +483,7 @@ fun QuizEntity.toDomain(json: Json = Json { ignoreUnknownKeys = true }): Quiz {
         studentDurationSeconds = studentDurationSeconds,
         correctCount = correctCount,
         wrongCount = wrongCount,
-        emptyCount = emptyCount
+        emptyCount = emptyCount,
+        studentNote = studentNote
     )
 }
-

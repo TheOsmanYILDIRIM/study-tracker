@@ -66,7 +66,7 @@ interface QuizRepository {
     fun observeQuizById(quizId: String): Flow<Quiz?>
     suspend fun saveQuiz(quiz: Quiz)
     suspend fun upsertQuizzes(quizzes: List<Quiz>)
-    suspend fun submitQuizAnswers(quizId: String, studentAnswers: Map<String, String>, durationSeconds: Int)
+    suspend fun submitQuizAnswers(quizId: String, studentAnswers: Map<String, String>, durationSeconds: Int, studentNote: String? = null)
     suspend fun resetAllQuizzesProgress()
     suspend fun deleteQuiz(quizId: String)
     suspend fun clearQuizzes()

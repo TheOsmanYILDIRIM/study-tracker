@@ -120,6 +120,8 @@ data class QuizEntity(
     val studentDurationSeconds: Int = 0,
     val correctCount: Int = 0,
     val wrongCount: Int = 0,
-    val emptyCount: Int = 0
+    val emptyCount: Int = 0,
+    val studentNote: String? = null
 )
+
 

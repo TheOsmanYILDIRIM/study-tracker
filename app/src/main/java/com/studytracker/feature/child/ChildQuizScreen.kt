@@ -57,19 +57,22 @@ fun ChildQuizScreen(
     var elapsedSeconds by remember { mutableStateOf(0) }
     var showSubmitConfirmDialog by remember { mutableStateOf(false) }
 
+    // Test Değerlendirme Durumları
+    var evalDifficulty by remember { mutableStateOf("Orta") }
+    var evalConfidence by remember { mutableStateOf("Çok İyi") }
+    var studentQuizNote by remember { mutableStateOf("") }
+
     // Quiz yüklendiğinde var olan cevapları aktar
     LaunchedEffect(quiz) {
         if (quiz != null && studentAnswers.isEmpty()) {
-            studentAnswers.putAll(quiz.studentAnswers)
-            if (quiz.studentDurationSeconds > 0) {
-                elapsedSeconds = quiz.studentDurationSeconds
-            }
+            quiz.studentAnswers.forEach { (k, v) -> studentAnswers[k] = v }
+            elapsedSeconds = quiz.studentDurationSeconds
         }
     }
 
-    // Sayaç (Eğer test henüz tamamlanmadıysa)
+    // Sayaç (Eğer tamamlanmadıysa)
     LaunchedEffect(quiz?.completed) {
-        if (quiz?.completed == false) {
+        if (quiz != null && !quiz.completed) {
             while (true) {
                 delay(1000L)
                 elapsedSeconds++
@@ -94,17 +97,13 @@ fun ChildQuizScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color(0xFF070B14))
-                .padding(24.dp),
+                .background(Color(0xFF070B14)),
             contentAlignment = Alignment.Center
         ) {
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                Icon(Icons.Default.HelpOutline, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(48.dp))
-                Text("Bu testte henüz soru bulunmuyor.", color = ZomoTextPrimary, fontWeight = FontWeight.Bold)
-                Button(onClick = onNavigateBack, colors = ButtonDefaults.buttonColors(containerColor = ZenPaperElevated)) {
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text("Bu testte henüz soru bulunmuyor.", color = ZomoTextSecondary)
+                Spacer(modifier = Modifier.height(12.dp))
+                Button(onClick = onNavigateBack, colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)) {
                     Text("Geri Dön")
                 }
             }
@@ -114,7 +113,7 @@ fun ChildQuizScreen(
 
     val currentQuestion = questions.getOrElse(currentQuestionIndex) { questions.first() }
 
-    // Testi Bitirme Onay Diyalogu
+    // Testi Bitirme ve Öğrenci Öz Değerlendirme Diyalogu
     if (showSubmitConfirmDialog) {
         val answeredCount = studentAnswers.values.count { it.isNotBlank() }
         val emptyCount = questions.size - answeredCount
@@ -127,41 +126,138 @@ fun ChildQuizScreen(
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Icon(Icons.Default.Celebration, contentDescription = null, tint = ZenSkyCyan)
-                    Text("Testi Tamamla & Gönder", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
+                    Text("Test Değerlendirmesi 🎉", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
                 }
             },
             text = {
-                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                    modifier = Modifier.verticalScroll(rememberScrollState())
+                ) {
                     Text(
                         text = "Toplam ${questions.size} sorudan $answeredCount tanesini yanıtladın." +
                                 (if (emptyCount > 0) " $emptyCount soru boş bırakıldı." else " Tüm sorular cevaplandı! 🌟"),
                         color = ZomoTextSecondary,
-                        fontSize = 13.sp
+                        fontSize = 12.5.sp
                     )
-                    Text(
-                        text = "Cevapların veline iletilecek ve incelemesine sunulacaktır. Testi bitirmek istediğine emin misin?",
-                        color = Color.White,
-                        fontSize = 12.5.sp,
-                        fontWeight = FontWeight.Medium
+
+                    // 1. Zorluk Derecesi
+                    Text("1. Testin zorluk seviyesi nasıldı?", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.sp)
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        listOf(
+                            "Kolay" to "🟢 Kolay",
+                            "Orta" to "🟡 Orta",
+                            "Zor" to "🔴 Zor"
+                        ).forEach { (key, label) ->
+                            val isSelected = evalDifficulty == key
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = if (isSelected) ZenForestGreen.copy(alpha = 0.3f) else Color(0xFF182238),
+                                border = BorderStroke(1.dp, if (isSelected) ZenForestGreen else Color(0xFF1F2E4D)),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .clickable { evalDifficulty = key }
+                            ) {
+                                Box(
+                                    modifier = Modifier.padding(vertical = 6.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text(
+                                        text = label,
+                                        fontSize = 11.sp,
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                                        color = if (isSelected) Color.White else ZomoTextSecondary
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // 2. Kendine Güven / Başarı Tahmini
+                    Text("2. Kendine güvenin ve test hissin?", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.sp)
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        listOf(
+                            "Çok İyi" to "🌟 Çok İyi",
+                            "Fena Değil" to "👍 Fena Değil",
+                            "Kararsızım" to "🤔 Kararsızım"
+                        ).forEach { (key, label) ->
+                            val isSelected = evalConfidence == key
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = if (isSelected) ZenSkyCyan.copy(alpha = 0.3f) else Color(0xFF182238),
+                                border = BorderStroke(1.dp, if (isSelected) ZenSkyCyan else Color(0xFF1F2E4D)),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .clickable { evalConfidence = key }
+                            ) {
+                                Box(
+                                    modifier = Modifier.padding(vertical = 6.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Text(
+                                        text = label,
+                                        fontSize = 10.5.sp,
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                                        color = if (isSelected) Color.White else ZomoTextSecondary
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    // 3. Veline Notun / Yorumun
+                    Text("3. Veline Notun / Takıldığın Sorular:", fontWeight = FontWeight.SemiBold, color = Color.White, fontSize = 12.sp)
+                    OutlinedTextField(
+                        value = studentQuizNote,
+                        onValueChange = { studentQuizNote = it },
+                        placeholder = { Text("Örn: 3. ve 5. sorularda biraz takıldım...", fontSize = 11.5.sp, color = ZomoTextMuted) },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(10.dp),
+                        minLines = 2,
+                        maxLines = 3,
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor = ZenSkyCyan,
+                            unfocusedBorderColor = Color(0xFF1F2E4D),
+                            focusedTextColor = ZomoTextPrimary,
+                            unfocusedTextColor = ZomoTextPrimary,
+                            cursorColor = ZenSkyCyan
+                        )
                     )
                 }
             },
             confirmButton = {
                 Button(
                     onClick = {
+                        val parts = mutableListOf<String>()
+                        if (evalDifficulty.isNotBlank()) parts.add("📊 Zorluk: $evalDifficulty")
+                        if (evalConfidence.isNotBlank()) parts.add("🌟 Güven: $evalConfidence")
+                        if (studentQuizNote.isNotBlank()) parts.add("📝 ${studentQuizNote.trim()}")
+                        val compiledNote = if (parts.isNotEmpty()) parts.joinToString(" | ") else null
+
                         showSubmitConfirmDialog = false
                         scope.launch {
-                            quizRepo.submitQuizAnswers(quizId, studentAnswers.toMap(), elapsedSeconds)
-                            Toast.makeText(context, "Test cevapların veline iletildi! 🎉", Toast.LENGTH_LONG).show()
+                            quizRepo.submitQuizAnswers(
+                                quizId = quizId,
+                                studentAnswers = studentAnswers.toMap(),
+                                durationSeconds = elapsedSeconds,
+                                studentNote = compiledNote
+                            )
+                            Toast.makeText(context, "Test cevapların ve değerlendirmen veline iletildi! 🎉", Toast.LENGTH_LONG).show()
                             onNavigateBack()
                         }
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                     shape = ZenPillShape
                 ) {
-                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(16.dp))
+                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(15.dp))
                     Spacer(modifier = Modifier.width(4.dp))
-                    Text("Evet, Bitir & Gönder", fontWeight = FontWeight.Bold)
+                    Text("Değerlendirmeyi Gönder", fontWeight = FontWeight.Bold)
                 }
             },
             dismissButton = {

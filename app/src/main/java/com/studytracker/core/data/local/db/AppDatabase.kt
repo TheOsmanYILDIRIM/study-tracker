@@ -19,7 +19,7 @@ import com.studytracker.core.data.local.db.entity.*
         ReviewEntity::class,
         QuizEntity::class
     ],
-    version = 3,
+    version = 4,
     exportSchema = false
 )
 @TypeConverters(AppTypeConverters::class)
