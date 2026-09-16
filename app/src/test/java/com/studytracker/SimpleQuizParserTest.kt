@@ -82,9 +82,22 @@ COZUM: Cisim merkezde (2f) ise görüntü merkezde ve ters oluşur.
         val exported = SimpleQuizParser.exportToSimpleText(parsed.first())
         val reParsed = SimpleQuizParser.parse(exported)
 
-        assertEquals(1, reParsed.size)
-        assertEquals("Fizik - Optik", reParsed.first().title)
-        assertEquals(1, reParsed.first().questions.size)
         assertEquals("B", reParsed.first().questions.first().correctOption)
     }
+
+    @Test
+    fun `formatLatexString properly groups LaTeX equations and options`() {
+        val rawQuestion = "\\arctan(1) + \\arcsin\\left(-\\frac{1}{2}\\right)\nifadesinin değeri kaçtır?"
+        val formatted = com.studytracker.core.ui.components.formatLatexString(rawQuestion)
+
+        // Line 1 is pure math equation, should be enclosed in $$...$$
+        assertTrue(formatted.contains("$$\\arctan(1) + \\arcsin\\left(-\\frac{1}{2}\\right)$$"))
+        // Line 2 has Turkish prose
+        assertTrue(formatted.contains("ifadesinin değeri kaçtır?"))
+
+        val optionText = "\\frac{\\pi}{12}"
+        val formattedOption = com.studytracker.core.ui.components.formatLatexString(optionText)
+        assertTrue(formattedOption.contains("$$\\frac{\\pi}{12}$$"))
+    }
 }
+

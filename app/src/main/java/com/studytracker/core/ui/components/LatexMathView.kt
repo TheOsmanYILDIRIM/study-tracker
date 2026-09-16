@@ -11,7 +11,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
@@ -86,7 +85,7 @@ fun LatexMathView(
 }
 
 /**
- * KaTeX ve MathJax CDN kütüphanelerini içeren, offline fallback özellikli HTML yapıcı.
+ * KaTeX CDN kütüphanelerini içeren ve formülleri güvenle işleyen HTML yapıcı.
  */
 private fun buildKatexHtml(
     rawText: String,
@@ -94,8 +93,6 @@ private fun buildKatexHtml(
     accentColorHex: String,
     fontSizePx: Int
 ): String {
-    // Formül metnini KaTeX render için hazırla
-    // Eğer metinde $ yoksa ve \frac, \sqrt gibi LaTeX komutları varsa satırları koruyarak otomatik çevrele
     val formattedText = formatLatexString(rawText)
 
     return """
@@ -106,16 +103,7 @@ private fun buildKatexHtml(
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
             <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-                onload="renderMathInElement(document.body, {
-                    delimiters: [
-                        {left: '$$', right: '$$', display: true},
-                        {left: '$', right: '$', display: false},
-                        {left: '\\[', right: '\\]', display: true},
-                        {left: '\\(', right: '\\)', display: false}
-                    ],
-                    throwOnError : false
-                });"></script>
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
             <style>
                 * {
                     margin: 0;
@@ -127,45 +115,157 @@ private fun buildKatexHtml(
                     color: $textColorHex;
                     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
                     font-size: ${fontSizePx}px;
-                    line-height: 1.5;
+                    line-height: 1.55;
                     word-wrap: break-word;
                     overflow-x: hidden;
                     padding: 2px 0;
                 }
                 .katex {
                     color: $accentColorHex;
-                    font-size: 1.1em;
+                    font-size: 1.15em;
                 }
                 .katex-display {
                     margin: 0.5em 0;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                }
+                .katex .base {
+                    margin-top: 2px;
+                    margin-bottom: 2px;
                 }
             </style>
         </head>
         <body>
-            $formattedText
+            <div id="content">$formattedText</div>
+            <script>
+                function renderKatex() {
+                    if (window.renderMathInElement) {
+                        renderMathInElement(document.getElementById('content') || document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                                {left: '\\[', right: '\\]', display: true},
+                                {left: '\\(', right: '\\)', display: false}
+                            ],
+                            throwOnError : false,
+                            errorColor: '$accentColorHex'
+                        });
+                    } else {
+                        setTimeout(renderKatex, 50);
+                    }
+                }
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', renderKatex);
+                } else {
+                    renderKatex();
+                }
+                window.addEventListener('load', renderKatex);
+            </script>
         </body>
         </html>
     """.trimIndent()
 }
 
 /**
- * Metindeki LaTeX formüllerini KaTeX auto-render için normalize eder.
+ * Metindeki LaTeX formüllerini parçalamadan ve parantez bütünlüğünü bozmadan
+ * KaTeX için $...$ veya $$...$$ içine sarar.
  */
-private fun formatLatexString(input: String): String {
-    val escaped = input
+internal fun formatLatexString(input: String): String {
+    // 1. Eğer metin zaten $ veya $$ veya \( veya \[ içeriyorsa, sadece satır sonlarını ve html etiketlerini escape et
+    val hasExplicitDelimiters = input.contains("$") || input.contains("\\[") || input.contains("\\(")
+    if (hasExplicitDelimiters) {
+        return escapeHtmlExceptDelimiters(input)
+    }
+
+    // 2. Satır satır inceleyip matematik bloklarını bütün olarak yakala
+    val lines = input.lines()
+    val processedLines = lines.map { line ->
+        processSingleLineLatex(line)
+    }
+
+    return processedLines.joinToString("<br>")
+}
+
+/**
+ * Tek bir satırı analiz ederek saf formül satırlarını veya metin içi LaTeX formüllerini sarar.
+ */
+private fun processSingleLineLatex(line: String): String {
+    val trimmed = line.trim()
+    if (trimmed.isEmpty()) return ""
+
+    val containsLatexCommands = trimmed.contains("\\") || trimmed.contains("^") || trimmed.contains("_")
+    if (!containsLatexCommands) {
+        return escapeHtml(trimmed)
+    }
+
+    // Türkçe yaygın kelimeler veya uzun Türkçe metin kontrolü
+    val turkishProseRegex = Regex("""(?i)\b(olmak|üzere|ifadesinin|değeri|kaçtır|hangisidir|eşiti|hali|aşağıdakilerden|olduğuna|göre|elde|edilir|bulunur|ve|için|ile|noktasındaki|fonksiyonunun|denklemini|sağlayan|değerlerinin|toplamı|üçgeninde|kenar|uzunlukları|seçenek|kökler|köklerin|yazılarak|düzenlenirse|çarpanlarına|ayrılırsa|bağıntıları|uygulanırsa|teoremine|paydalar|eşitlenirse|radyan|radyandır|toplanırsa|farkı|oranı)\b|[çğıöşüÇĞİÖŞÜ]""")
+
+    val hasProse = turkishProseRegex.containsMatchIn(trimmed)
+
+    // Eğer satırda hiç Türkçe kelime yoksa ve LaTeX komutu varsa, tüm satırı tek bir bütünleşik formül olarak sar!
+    if (!hasProse) {
+        return "$$" + trimmed + "$$"
+    }
+
+    // Satırda hem Türkçe metin hem LaTeX formülü varsa:
+    // Formül parçalarını (iç içe \left( ... \right), \frac{...}{...}, \cos, \sin, değişkenler vb.) bütün olarak yakala
+    return wrapInlineMathExpressions(trimmed)
+}
+
+/**
+ * Cümle içindeki matematiksel ifadeleri (\\ ile başlayan bloklar ve parametreleri) bütünleşik olarak $...$ içine alır.
+ */
+private fun wrapInlineMathExpressions(text: String): String {
+    // 1. \ ile başlayan veya x \in ..., a = 5\text{ cm} gibi matematiksel kümeleri yakalayan regex
+    // Parantez ve argüman zincirlerini (\left(...\right), \frac{...}{...}, \sqrt{...}) tek parça tutar
+    val mathPattern = Regex("""(?<!\$)(\\?[a-zA-Z0-9]+(\s*[\^_]\s*(\{[^}]+\}|[a-zA-Z0-9]))*(\s*[\+\-\*\/\=\<\>\:\cdot\in\Rightarrow]\s*(\\?[a-zA-Z0-9]+(\{[^}]*\})*(\[[^\]]*\])*(\([^)]*\))*))*|\\(frac|sqrt|sin|cos|tan|cot|sec|csc|arcsin|arccos|arctan|left|right|int|sum|prod|lim|pi|alpha|beta|theta|cdot|in|widehat|text|mathbf|times|pm|mp|le|ge|neq|approx|infty|to|rightarrow|Rightarrow)(\{[^}]*\}|\[[^\]]*\]|\([^\)]*\)|\s*[a-zA-Z0-9\+\-\*\/\=\(\)\,\.\^]+)*)(?!\$)""")
+
+    val result = StringBuilder()
+    var lastIndex = 0
+
+    // Daha güvenli ve temiz yaklaşım: \ ile başlayan tüm matematik bloklarını ve ilişkili terimlerini bul
+    val latexChunkRegex = Regex("""(\\[a-zA-Z]+(\{[^}]*\}|\[[^\]]*\]|\([^\)]*\)|\s*)*([0-9a-zA-Z\+\-\*\/\=\(\)\,\.\^\_]|(\\[a-zA-Z]+(\{[^}]*\}|\[[^\]]*\]|\([^\)]*\))*))*)""")
+
+    val matches = latexChunkRegex.findAll(text).toList()
+
+    if (matches.isEmpty()) {
+        return escapeHtml(text)
+    }
+
+    for (match in matches) {
+        // Öncesindeki metin
+        if (match.range.first > lastIndex) {
+            val prefix = text.substring(lastIndex, match.range.first)
+            result.append(escapeHtml(prefix))
+        }
+
+        val mathSnippet = match.value.trim()
+        if (mathSnippet.isNotEmpty()) {
+            result.append("$").append(mathSnippet).append("$")
+        }
+
+        lastIndex = match.range.last + 1
+    }
+
+    if (lastIndex < text.length) {
+        val suffix = text.substring(lastIndex)
+        result.append(escapeHtml(suffix))
+    }
+
+    return result.toString()
+}
+
+private fun escapeHtml(text: String): String {
+    return text
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+}
+
+private fun escapeHtmlExceptDelimiters(text: String): String {
+    return text
         .replace("<", "&lt;")
         .replace(">", "&gt;")
         .replace("\n", "<br>")
-
-    // Eğer $ işaretleri yoksa ama LaTeX anahtar kelimeleri varsa, onları $ içine saralım
-    val hasDelimiters = escaped.contains("$") || escaped.contains("\\[") || escaped.contains("\\(")
-    if (hasDelimiters) {
-        return escaped
-    }
-
-    // Basit otomatik algılama
-    val regex = Regex("""(\\[a-zA-Z]+(\{[^}]*\})*(\[[^\]]*\])*(\{[^}]*\})*|([a-zA-Z0-9]+[\^_]\{[^}]+\})|([a-zA-Z0-9]+[\^_][a-zA-Z0-9]))""")
-    return regex.replace(escaped) { match ->
-        "$" + match.value + "$"
-    }
 }
+

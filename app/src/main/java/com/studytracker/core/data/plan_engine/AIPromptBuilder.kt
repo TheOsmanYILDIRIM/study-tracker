@@ -108,7 +108,7 @@ object AIPromptBuilder {
         return buildString {
             appendLine("Sen uzman bir öğretmen ve sınav sorusu hazırlama uzmanısın.")
             appendLine("Amacın: Android StudyTracker uygulaması için '$topic' konusunda şıklı test soruları üretmek.")
-            appendLine("Matematik ve fen formüllerinde standart LaTeX notasyonu kullan (örneğin \\frac{a}{b}, x^2, \\sqrt{x}, \\sin(x), \\int, \\sum vb.).")
+            appendLine("Matematik ve fen formüllerini mutlaka standart LaTeX formatında ve '$...$' işaretleri arasına alarak yaz (örneğin: '$\\frac{a}{b}$', '$x^2$', '$\\sqrt{x}$', '$\\sin(x)$', '$\\arctan(1) + \\arcsin\\left(-\\frac{1}{2}\\right)$', '$\\int_0^1 x dx$'). Türkçe metinleri ise '$...$' dışında tut.")
             appendLine()
             appendLine("ÇIKTI FORMATI KURALLARI (BASİT TEST METİN FORMATI):")
             appendLine("Aşağıdaki tam formatta çıktı üret. JSON kullanma, sadece belirtilen formatı doldur!")
@@ -121,13 +121,13 @@ object AIPromptBuilder {
             appendLine("ACIKLAMA: $targetGrade seviyesinde $topic kazanım değerlendirme testi")
             appendLine()
             appendLine("[SORU 1]")
-            appendLine("f(x) = \\frac{x^2 - 4}{x - 2} fonksiyonunun x = 2 noktasındaki limiti kaçtır?")
-            appendLine("A) 2")
-            appendLine("B) 4")
-            appendLine("C) 0")
+            appendLine("$f(x) = \\frac{x^2 - 4}{x - 2}$ fonksiyonunun $x = 2$ noktasındaki limiti kaçtır?")
+            appendLine("A) $2$")
+            appendLine("B) $4$")
+            appendLine("C) $0$")
             appendLine("D) Tanımsız")
             appendLine("DOGRU: B")
-            appendLine("COZUM: Pay çarpanlarına ayrılırsa \\frac{(x-2)(x+2)}{x-2} = x+2 olur. x=2 için limit 4'tür.")
+            appendLine("COZUM: Pay çarpanlarına ayrılırsa $\\frac{(x-2)(x+2)}{x-2} = x+2$ olur. $x=2$ için limit $4$'tür.")
             appendLine()
             appendLine("---")
             appendLine("İstenen Test Özellikleri:")
@@ -142,4 +142,5 @@ object AIPromptBuilder {
         }
     }
 }
+
 
