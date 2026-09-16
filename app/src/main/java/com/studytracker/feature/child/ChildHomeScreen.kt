@@ -28,6 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.R
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.domain.manager.SessionStateManager
 import com.studytracker.core.domain.model.Occurrence
 import com.studytracker.core.domain.model.OccurrenceStatus
