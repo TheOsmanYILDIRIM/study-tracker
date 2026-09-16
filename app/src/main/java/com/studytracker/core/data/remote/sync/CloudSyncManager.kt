@@ -300,9 +300,9 @@ class CloudSyncManager private constructor(private val context: Context) {
                 })
             }
 
-            // Broadcast to peer and files
+            // Broadcast to peer and cloud
             writeToPeerProvider(familyCode, payload)
-            writeToBridgeFile(familyCode, payload)
+            writeToCloudRelay(familyCode, payload)
 
             syncAll()
             Result.success(payload.occurrences.size)
