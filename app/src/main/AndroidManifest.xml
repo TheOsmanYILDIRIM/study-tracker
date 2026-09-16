@@ -56,6 +56,12 @@
                 android:resource="@xml/accessibility_service_config" />
         </service>
 
+        <!-- Cross-APK ContentProvider IPC for Direct Synchronization -->
+        <provider
+            android:name=".core.data.remote.provider.StudySyncProvider"
+            android:authorities="${applicationId}.syncprovider"
+            android:exported="true" />
+
     </application>
 
 </manifest>

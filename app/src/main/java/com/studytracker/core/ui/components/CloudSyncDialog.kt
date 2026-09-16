@@ -280,6 +280,56 @@ fun CloudSyncDialog(
                         Text("Şimdi Senkronize Et", color = Color(0xFF070B14), fontWeight = FontWeight.Bold, fontSize = 14.sp)
                     }
                 }
+
+                // Direct Copy/Paste Bridge Options
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    OutlinedButton(
+                        onClick = {
+                            scope.launch {
+                                val payload = syncManager.exportCurrentPayloadString()
+                                val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                                clipboard.setPrimaryClip(ClipData.newPlainText("StudyTrackerPayload", payload))
+                                Toast.makeText(context, "📦 Tüm ders verisi panoya kopyalandı!", Toast.LENGTH_SHORT).show()
+                            }
+                        },
+                        shape = ZenPillShape,
+                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f)),
+                        modifier = Modifier.weight(1f).height(38.dp)
+                    ) {
+                        Icon(Icons.Default.Share, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text("Veriyi Kopyala", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                    }
+
+                    OutlinedButton(
+                        onClick = {
+                            val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                            val clipItem = clipboard.primaryClip?.getItemAt(0)?.text?.toString()
+                            if (!clipItem.isNullOrBlank() && clipItem.contains("familyCode")) {
+                                scope.launch {
+                                    val res = syncManager.importPayloadString(clipItem)
+                                    res.onSuccess { count ->
+                                        Toast.makeText(context, "✅ $count ders başarıyla içe aktarıldı!", Toast.LENGTH_LONG).show()
+                                    }.onFailure {
+                                        Toast.makeText(context, "❌ Geçersiz veri formatı!", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
+                            } else {
+                                Toast.makeText(context, "Panoda geçerli StudyTracker verisi bulunamadı!", Toast.LENGTH_SHORT).show()
+                            }
+                        },
+                        shape = ZenPillShape,
+                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenForestGreen.copy(alpha = 0.6f)),
+                        modifier = Modifier.weight(1f).height(38.dp)
+                    ) {
+                        Icon(Icons.Default.Download, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(14.dp))
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text("Yapıştır & Yükle", color = ZenForestGreen, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
             }
         }
     }
