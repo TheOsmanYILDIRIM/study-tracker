@@ -418,9 +418,9 @@ fun ParentDashboardScreen(
                                 ) {
                                     Button(
                                         onClick = {
-                                            activePlan?.let { plan ->
+                                            activePlan?.let { _ ->
                                                 scope.launch {
-                                                    val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context, plan.id)
+                                                    val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
                                                     if (file != null) {
                                                         com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
                                                             context,
