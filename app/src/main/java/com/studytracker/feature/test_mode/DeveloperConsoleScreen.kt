@@ -395,6 +395,93 @@ fun DeveloperConsoleScreen(
                 }
             }
 
+            // ☁️ Supabase Bulut Senkronizasyonu & Aile Kodu Kartı
+            item {
+                val familyCode by appPreferences.familyPairCode.collectAsState()
+                val isSyncEnabled by appPreferences.isCloudSyncEnabled.collectAsState()
+                val syncManager = remember { com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context) }
+                val syncState by syncManager.syncState.collectAsState()
+                val scope = rememberCoroutineScope()
+                var inputCode by remember { mutableStateOf("") }
+
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = ZenCardShape,
+                    colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
+                    border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f))
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Icon(Icons.Default.CloudSync, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
+                                Text("☁️ Bulut Senkronizasyonu (Supabase)", fontWeight = FontWeight.Bold, fontSize = 14.5.sp, color = ZomoTextPrimary)
+                            }
+
+                            Switch(
+                                checked = isSyncEnabled,
+                                onCheckedChange = { appPreferences.setCloudSyncEnabled(it) },
+                                colors = SwitchDefaults.colors(checkedThumbColor = Color.White, checkedTrackColor = ZenSkyCyan)
+                            )
+                        }
+
+                        Text(
+                            "Veli ve Öğrenci cihazları arasındaki gerçek zamanlı ders, durum ve görsel kanıt senkronizasyonu.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = ZomoTextSecondary,
+                            fontSize = 11.5.sp
+                        )
+
+                        // Pair code display
+                        Surface(
+                            shape = RoundedCornerShape(12.dp),
+                            color = Color(0x8014203D),
+                            border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.3f)),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Row(
+                                modifier = Modifier.padding(12.dp).fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column {
+                                    Text("🔑 AİLE KODU", color = ZomoTextMuted, fontSize = 10.sp, fontWeight = FontWeight.Bold)
+                                    Text(
+                                        text = if (familyCode.isNotEmpty()) familyCode else syncManager.getOrCreateFamilyCode(),
+                                        color = ZenSkyCyan,
+                                        fontSize = 18.sp,
+                                        fontWeight = FontWeight.ExtraBold
+                                    )
+                                }
+
+                                Button(
+                                    onClick = {
+                                        scope.launch {
+                                            syncManager.syncAll()
+                                        }
+                                    },
+                                    shape = ZenPillShape,
+                                    colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan, contentColor = Color(0xFF070B14))
+                                ) {
+                                    Icon(Icons.Default.Sync, contentDescription = null, modifier = Modifier.size(14.dp))
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Text("Şimdi Eşitle", fontSize = 11.5.sp, fontWeight = FontWeight.Bold)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             // Live Background Brightness & Flying Star Simulation Card
             item {
                 val currentOverride by appPreferences.testProgressOverride.collectAsState()

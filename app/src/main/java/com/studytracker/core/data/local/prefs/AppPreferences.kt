@@ -64,12 +64,48 @@ class AppPreferences private constructor(context: Context) {
         setNightMode(!_isNightMode.value)
     }
 
+    // Cloud Sync & Supabase preferences
+    private val _familyPairCode = MutableStateFlow(prefs.getString(KEY_FAMILY_PAIR_CODE, "") ?: "")
+    val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
+
+    private val _isCloudSyncEnabled = MutableStateFlow(prefs.getBoolean(KEY_CLOUD_SYNC_ENABLED, true))
+    val isCloudSyncEnabled: StateFlow<Boolean> = _isCloudSyncEnabled.asStateFlow()
+
+    private val _supabaseUrl = MutableStateFlow(prefs.getString(KEY_SUPABASE_URL, DEFAULT_SUPABASE_URL) ?: DEFAULT_SUPABASE_URL)
+    val supabaseUrl: StateFlow<String> = _supabaseUrl.asStateFlow()
+
+    private val _supabaseAnonKey = MutableStateFlow(prefs.getString(KEY_SUPABASE_ANON_KEY, DEFAULT_SUPABASE_ANON_KEY) ?: DEFAULT_SUPABASE_ANON_KEY)
+    val supabaseAnonKey: StateFlow<String> = _supabaseAnonKey.asStateFlow()
+
+    fun setFamilyPairCode(code: String) {
+        prefs.edit().putString(KEY_FAMILY_PAIR_CODE, code).apply()
+        _familyPairCode.value = code
+    }
+
+    fun setCloudSyncEnabled(enabled: Boolean) {
+        prefs.edit().putBoolean(KEY_CLOUD_SYNC_ENABLED, enabled).apply()
+        _isCloudSyncEnabled.value = enabled
+    }
+
+    fun setSupabaseConfig(url: String, anonKey: String) {
+        prefs.edit()
+            .putString(KEY_SUPABASE_URL, url)
+            .putString(KEY_SUPABASE_ANON_KEY, anonKey)
+            .apply()
+        _supabaseUrl.value = url
+        _supabaseAnonKey.value = anonKey
+    }
+
     fun resetAllPreferences() {
         prefs.edit().clear().apply()
         _isTestModeEnabled.value = true
         _hasCompletedTutorial.value = false
         _isFakeCaptureEnabled.value = true
         _isNightMode.value = true
+        _familyPairCode.value = ""
+        _isCloudSyncEnabled.value = true
+        _supabaseUrl.value = DEFAULT_SUPABASE_URL
+        _supabaseAnonKey.value = DEFAULT_SUPABASE_ANON_KEY
     }
 
     companion object {
@@ -78,6 +114,14 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_HAS_COMPLETED_TUTORIAL = "has_completed_tutorial"
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
         private const val KEY_NIGHT_MODE = "is_night_mode"
+        private const val KEY_FAMILY_PAIR_CODE = "family_pair_code"
+        private const val KEY_CLOUD_SYNC_ENABLED = "is_cloud_sync_enabled"
+        private const val KEY_SUPABASE_URL = "supabase_url"
+        private const val KEY_SUPABASE_ANON_KEY = "supabase_anon_key"
+
+        // Default public demo project or placeholder endpoints (easily overridden in UI / DevConsole)
+        const val DEFAULT_SUPABASE_URL = "https://wixmpyfegcvyzomgopte.supabase.co"
+        const val DEFAULT_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndpeG1weWZlZ2N2eXpvbWdvcHRlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAwMDAwMDAsImV4cCI6MjAyMDAwMDAwMH0.demo_placeholder_token"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null

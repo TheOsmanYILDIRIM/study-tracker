@@ -108,15 +108,20 @@ fun SessionReviewScreen(
                         onClick = {
                             val currentSession = session ?: return@Button
                             scope.launch {
+                                val note = reviewNote.ifBlank { "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yap." }
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
                                         occurrenceKey = currentSession.occurrenceKey,
                                         reviewStatus = ReviewStatus.REJECTED,
-                                        reviewNote = reviewNote.ifBlank { "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yap." },
+                                        reviewNote = note,
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
+                                try {
+                                    com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
+                                        .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, false, note)
+                                } catch (ignored: Exception) {}
                                 onNavigateBack()
                             }
                         },
@@ -134,15 +139,20 @@ fun SessionReviewScreen(
                         onClick = {
                             val currentSession = session ?: return@Button
                             scope.launch {
+                                val note = reviewNote.ifBlank { null }
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
                                         occurrenceKey = currentSession.occurrenceKey,
                                         reviewStatus = ReviewStatus.APPROVED,
-                                        reviewNote = reviewNote.ifBlank { null },
+                                        reviewNote = note,
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
+                                try {
+                                    com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
+                                        .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, true, note)
+                                } catch (ignored: Exception) {}
                                 onNavigateBack()
                             }
                         },

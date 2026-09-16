@@ -85,7 +85,12 @@
 - **Uçan Kuyruklu Yıldız & Patlama Halkası (`FlyingComet` & `StarBurstRing`):** Görev bitirildiğinde görev kartından gökyüzüne süzülen altın-cyan kuyruklu yıldız parçacığı uçar (`Animatable(1200ms)`) ve hedef gökyüzü noktasında süpernova patlama dalgası oluşturur.
 - **🧪 Test Modu Canlı Önizleme Sliderı:**
   - Hem `ChildHomeScreen`'de (Test modu açıkken) hem de `DeveloperConsoleScreen` içinde 0% - 100% arasında sürüklenebilir interaktif Slider yerleştirildi.
-  - Kullanıcı slider'ı sürükledikçe anlık olarak arkaplanın parıldamasını, renk doygunluğunu ve gökyüzü yıldızlarının nasıl "fullendiğini" canlı izleyebilir; "✨ Yıldız Uçur" butonuyla uçuş animasyonunu anında test edebilir.
+### [2026-09-16] Tamamlandı: Tek Cihazda Çift APK (Flavors) & Supabase Gerçek Zamanlı Bulut Senkronizasyonu
+- **Gradle Product Flavors (Çift APK):** `child` ve `parent` flavor'ları tanımlandı. Tek cihazda aynı anda yüklenebilen iki bağımsız uygulama paketi (`com.studytracker.child` - "StudyTracker Öğrenci" ve `com.studytracker.parent` - "StudyTracker Veli") oluşturuldu.
+- **Role Özel Otomatik Başlangıç:** `BuildConfig.APP_ROLE` ile Öğrenci APK'sı doğrudan Çalışma Masasına/Rehbere, Veli APK'sı ise PIN korumalı Ebeveyn Masasına yönlenir.
+- **Supabase REST, Storage & Realtime İstemcisi:** OkHttp ve Kotlinx Serialization ile güçlendirilmiş hafif `SupabaseHttpClient` ve veri transfer modelleri (`RemoteOccurrenceSyncDto`, `RemoteSessionSyncDto`, `RemoteScreenshotSyncDto`, `RemoteReviewSyncDto`) kodlandı.
+- **6 Haneli Aile Eşleşme Kodu (`ST-XXXX`):** `CloudSyncManager` ile cihazlar arası eşleşme, veritabanı kopyalama ve iki yönlü senkronizasyon sağlandı.
+- **Modern Arayüz ve Otomatik Eşitleme:** Tüm ekranlara (RoleSelection, ParentDashboard, ChildHome, DevConsole) entegre `CloudSyncDialog` bileşeni eklendi; ders bitirme ve inceleme kararlarında arka planda otomatik bulut eşitlemesi bağlandı.
 
 
 

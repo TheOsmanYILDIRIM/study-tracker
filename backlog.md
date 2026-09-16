@@ -51,6 +51,14 @@
 - [x] Görev Bitince Görev Kartından Gökyüzüne Parabolik Uçan Altın Kuyruklu Yıldız (`FlyingComet`) ve Patlama Halkası (`StarBurstRing`)
 - [x] Test Modunda ve Geliştirici Konsolunda Anlık Canlı Parlaklık/Fullenme Slider'ı (`0% - 100%`) ve Hızlı Test Uçuşu Tetikleyicisi
 
+## 19. Tek Cihazda Çift APK (Flavors) & Supabase Gerçek Zamanlı Bulut Senkronizasyonu
+- [x] Gradle Product Flavors ile İki Bağımsız APK (`com.studytracker.child` & `com.studytracker.parent`)
+- [x] Tek Cihaza Yan Yana Kurulum, Ayrı Uygulama Başlıkları ve Role Özel Doğrudan Başlangıç Ekranları
+- [x] Supabase REST, Storage & Realtime İstemcisi (`SupabaseHttpClient`, `SupabaseDto`)
+- [x] 6 Haneli Aile Eşleşme Kodu (`ST-XXXX`) ile Cihaz Eşleştirme ve Çift Yönlü Senkronizasyon (`CloudSyncManager`, `CloudSyncDialog`)
+- [x] Oturum Tamamlama ve Kanıt Onay/Reddetme Süreçlerine Otomatik Arka Plan Bulut Eşitlemesi
+
+
 
 
 

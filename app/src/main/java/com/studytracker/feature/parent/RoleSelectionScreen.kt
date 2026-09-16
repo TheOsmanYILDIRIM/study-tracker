@@ -47,8 +47,15 @@ fun RoleSelectionScreen(
     val testProgressOverride by appPreferences.testProgressOverride.collectAsState()
 
     var showPinDialog by remember { mutableStateOf(false) }
+    var showSyncDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
     var pinError by remember { mutableStateOf(false) }
+
+    if (showSyncDialog) {
+        com.studytracker.core.ui.components.CloudSyncDialog(
+            onDismissRequest = { showSyncDialog = false }
+        )
+    }
 
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground(progressOverride = testProgressOverride)
@@ -106,6 +113,23 @@ fun RoleSelectionScreen(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { showSyncDialog = true }) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenSkyCyanContainer)
+                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.CloudSync,
+                                contentDescription = "Bulut Senkronizasyonu & Aile Kodu",
+                                tint = ZenSkyCyan,
+                                modifier = Modifier.size(18.dp)
+                            )
+                        }
+                    }
                     IconButton(onClick = onNavigateToDevMode) {
                         Box(
                             modifier = Modifier

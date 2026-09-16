@@ -20,6 +20,25 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+        manifestPlaceholders["appName"] = "StudyTracker"
+    }
+
+    flavorDimensions += "role"
+    productFlavors {
+        create("child") {
+            dimension = "role"
+            applicationIdSuffix = ".child"
+            versionNameSuffix = "-child"
+            manifestPlaceholders["appName"] = "StudyTracker Öğrenci"
+            buildConfigField("String", "APP_ROLE", "\"CHILD\"")
+        }
+        create("parent") {
+            dimension = "role"
+            applicationIdSuffix = ".parent"
+            versionNameSuffix = "-parent"
+            manifestPlaceholders["appName"] = "StudyTracker Veli"
+            buildConfigField("String", "APP_ROLE", "\"PARENT\"")
+        }
     }
 
     signingConfigs {
@@ -57,6 +76,7 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     composeOptions {
@@ -96,6 +116,10 @@ dependencies {
 
     // Kotlinx Serialization JSON
     implementation(libs.kotlinx.serialization.json)
+
+    // Networking (OkHttp for Supabase REST, Realtime & Storage)
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
 
     // Testing
     testImplementation(libs.junit)

@@ -5,7 +5,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.navArgument
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import com.studytracker.BuildConfig
+import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.feature.child.ChildHomeScreen
 import com.studytracker.feature.child.ChildTutorialScreen
 import com.studytracker.feature.parent.AIPlanStudioScreen
@@ -18,9 +21,20 @@ import com.studytracker.feature.test_mode.DeveloperConsoleScreen
 fun AppNavGraph(
     navController: NavHostController
 ) {
+    val context = LocalContext.current
+    val prefs = remember { AppPreferences.getInstance(context) }
+
+    val startDestination = remember {
+        when (BuildConfig.APP_ROLE) {
+            "CHILD" -> if (prefs.hasCompletedTutorial.value) Screen.ChildHome.route else Screen.ChildTutorial.route
+            "PARENT" -> Screen.ParentDashboard.route
+            else -> Screen.RoleSelection.route
+        }
+    }
+
     NavHost(
         navController = navController,
-        startDestination = Screen.RoleSelection.route
+        startDestination = startDestination
     ) {
         composable(Screen.RoleSelection.route) {
             RoleSelectionScreen(

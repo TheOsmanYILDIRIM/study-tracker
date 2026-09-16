@@ -86,6 +86,9 @@ interface SessionDao {
     @Query("SELECT * FROM sessions WHERE sessionId = :sessionId LIMIT 1")
     suspend fun getSessionById(sessionId: String): SessionEntity?
 
+    @Query("SELECT * FROM sessions")
+    suspend fun getAllSessionsOnce(): List<SessionEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertSession(session: SessionEntity)
 

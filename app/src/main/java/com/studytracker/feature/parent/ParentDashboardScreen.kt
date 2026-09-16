@@ -76,6 +76,13 @@ fun ParentDashboardScreen(
 
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") }
+    var showSyncDialog by remember { mutableStateOf(false) }
+
+    if (showSyncDialog) {
+        com.studytracker.core.ui.components.CloudSyncDialog(
+            onDismissRequest = { showSyncDialog = false }
+        )
+    }
 
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
     val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
@@ -88,24 +95,19 @@ fun ParentDashboardScreen(
     val dailyOccurrences = remember(allOccurrences) {
         allOccurrences.filter { it.type == TaskKind.DAILY }
     }
+
     val weeklyOccurrences = remember(allOccurrences) {
         allOccurrences.filter { it.type == TaskKind.WEEKLY }
     }
 
-    Box(modifier = Modifier.fillMaxSize()) {
-        ZenParallaxBackground(
-            completedTasksCount = approvedTasks,
-            totalTasksCount = totalTasks
-        )
-
-        Scaffold(
-            containerColor = Color.Transparent,
-            topBar = {
-                TopAppBar(
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color(0xB3080D1A),
-                        titleContentColor = ZomoTextPrimary
-                    ),
+    Scaffold(
+        containerColor = ZenNightCanvas,
+        topBar = {
+            TopAppBar(
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = ZenTopBarBackplate,
+                    titleContentColor = ZomoTextPrimary
+                ),
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
@@ -115,8 +117,8 @@ fun ParentDashboardScreen(
                             modifier = Modifier
                                 .size(36.dp)
                                 .clip(RoundedCornerShape(10.dp))
-                                .background(ZenForestContainer)
-                                .border(1.dp, ZenForestGreen.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
+                                .background(ZenForestGreenContainer)
+                                .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), RoundedCornerShape(10.dp)),
                             contentAlignment = Alignment.Center
                         ) {
                             Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(20.dp))
@@ -130,6 +132,18 @@ fun ParentDashboardScreen(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { showSyncDialog = true }) {
+                        Box(
+                            modifier = Modifier
+                                .size(36.dp)
+                                .clip(ZenPillShape)
+                                .background(ZenSkyCyanContainer)
+                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                        }
+                    }
                     IconButton(onClick = onNavigateToPlanStudio) {
                         Box(
                             modifier = Modifier

@@ -90,8 +90,15 @@ fun ChildHomeScreen(
     }
 
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
+    var showSyncDialog by remember { mutableStateOf(false) }
     val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
         maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
+    }
+
+    if (showSyncDialog) {
+        com.studytracker.core.ui.components.CloudSyncDialog(
+            onDismissRequest = { showSyncDialog = false }
+        )
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
@@ -118,14 +125,20 @@ fun ChildHomeScreen(
                             Box(
                                 modifier = Modifier
                                     .size(36.dp)
-                                    .background(ZenSkyCyanContainer, RoundedCornerShape(10.dp))
-                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), RoundedCornerShape(10.dp)),
+                                    .clip(RoundedCornerShape(10.dp))
+                                    .background(ZenSkyCyanContainer)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
                                 contentAlignment = Alignment.Center
                             ) {
-                                Icon(Icons.Default.School, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.AutoStories, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                             }
                             Column {
-                                Text("Görev Masam", fontWeight = FontWeight.Bold, fontSize = 17.sp, color = ZomoTextPrimary)
+                                Text(
+                                    "Çalışma Masam",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = ZomoTextPrimary
+                                )
                                 Text(
                                     SimpleDateFormat("d MMMM EEEE", Locale("tr", "TR")).format(Date()),
                                     style = MaterialTheme.typography.bodySmall,
@@ -141,6 +154,17 @@ fun ChildHomeScreen(
                         }
                     },
                     actions = {
+                        IconButton(onClick = { showSyncDialog = true }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenSkyCyanContainer, ZenPillShape)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
+                            }
+                        }
                         IconButton(onClick = onOpenTutorial) {
                             Box(
                                 modifier = Modifier
