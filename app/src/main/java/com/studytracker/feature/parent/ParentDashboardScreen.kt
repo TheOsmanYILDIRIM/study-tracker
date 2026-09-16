@@ -291,7 +291,7 @@ fun ParentDashboardScreen(
                     }
                     IconButton(onClick = {
                         scope.launch {
-                            val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportStudyPlanPackage(context)
+                            val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
                             com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
                                 context,
                                 file,
@@ -521,7 +521,7 @@ fun ParentDashboardScreen(
                             }
 
                             Button(
-                                onClick = { showQuizStudioDialog = true },
+                                onClick = { showAIQuizDialog = true },
                                 modifier = Modifier
                                     .weight(1f)
                                     .height(44.dp),
@@ -864,7 +864,7 @@ fun ParentDashboardScreen(
                                     fontSize = 13.5.sp
                                 )
                                 TextButton(
-                                    onClick = { showQuizStudioDialog = true },
+                                    onClick = { showAIQuizDialog = true },
                                     contentPadding = PaddingValues(horizontal = 6.dp)
                                 ) {
                                     Icon(Icons.Default.Add, contentDescription = null, tint = Color(0xFF00E5FF), modifier = Modifier.size(15.dp))
