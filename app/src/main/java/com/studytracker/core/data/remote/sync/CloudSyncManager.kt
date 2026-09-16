@@ -225,22 +225,51 @@ class CloudSyncManager private constructor(private val context: Context) {
         }
     }
 
-    private fun cleanupOldBridgeFiles(familyCode: String) {
-        try {
-            val names = listOf("study_tracker_sync_${familyCode}.json", ".study_tracker_sync_${familyCode}.json")
-            val dirs = listOfNotNull(
-                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
-                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),
-                File("/sdcard/Download"),
-                File("/sdcard/Documents")
-            )
-            for (dir in dirs) {
-                for (name in names) {
-                    val f = File(dir, name)
-                    if (f.exists()) f.delete()
-                }
+    private fun getBridgeFiles(familyCode: String): List<File> {
+        val filenames = listOf(
+            "study_tracker_sync_${familyCode}.json",
+            ".study_tracker_sync_${familyCode}.json"
+        )
+        val dirs = listOfNotNull(
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),
+            File("/sdcard/Download"),
+            File("/sdcard/Documents"),
+            File("/storage/emulated/0/Download"),
+            File("/storage/emulated/0/Documents"),
+            context.getExternalFilesDir(null)
+        )
+        return dirs.flatMap { dir -> filenames.map { name -> File(dir, name) } }
+    }
+
+    private fun readFromBridgeFiles(familyCode: String): SharedFamilySyncPayload? {
+        val files = getBridgeFiles(familyCode)
+        var latest: SharedFamilySyncPayload? = null
+        for (f in files) {
+            if (f.exists() && f.length() > 0) {
+                try {
+                    val content = f.readText()
+                    if (content.isNotBlank() && content.startsWith("{")) {
+                        val payload = json.decodeFromString<SharedFamilySyncPayload>(content)
+                        if (latest == null || payload.updatedAt >= latest.updatedAt) {
+                            latest = payload
+                        }
+                    }
+                } catch (_: Exception) {}
             }
-        } catch (_: Exception) {}
+        }
+        return latest
+    }
+
+    private fun writeToBridgeFiles(familyCode: String, payload: SharedFamilySyncPayload) {
+        val files = getBridgeFiles(familyCode)
+        val payloadJson = try { json.encodeToString(payload) } catch (_: Exception) { return }
+        for (f in files) {
+            try {
+                f.parentFile?.mkdirs()
+                f.writeText(payloadJson)
+            } catch (_: Exception) {}
+        }
     }
 
     private suspend fun convertLocalScreenshotsToDtos(familyCode: String): List<RemoteScreenshotSyncDto> = withContext(Dispatchers.IO) {
@@ -516,12 +545,12 @@ class CloudSyncManager private constructor(private val context: Context) {
             var localTasks = db.taskTemplateDao().getAllTasksOnce()
             val localReviews = db.reviewDao().getAllReviewsOnce()
 
-            // 1. --- READ FROM SOURCES (Peer Binder IPC + Zero-Config Cloud Relay) ---
-            cleanupOldBridgeFiles(familyCode)
+            // 1. --- READ FROM SOURCES (Peer Binder IPC + Shared File Bridge + Zero-Config Cloud Relay) ---
             val peerPayload = readFromPeerProvider(familyCode)
+            val filePayload = readFromBridgeFiles(familyCode)
             val cloudPayload = readFromCloudRelay(familyCode)
 
-            val incomingPayload = listOfNotNull(peerPayload, cloudPayload).maxByOrNull { it.updatedAt }
+            val incomingPayload = listOfNotNull(peerPayload, filePayload, cloudPayload).maxByOrNull { it.updatedAt }
 
             if (incomingPayload != null) {
                 // A. Reconcile Plan & Task Templates
@@ -869,6 +898,9 @@ class CloudSyncManager private constructor(private val context: Context) {
             // Direct Binder IPC broadcast to the other APK
             writeToPeerProvider(familyCode, finalPayload)
 
+            // Direct Shared File Bridge for zero-latency offline / local sync
+            writeToBridgeFiles(familyCode, finalPayload)
+
             // Push to zero-config cloud relay across the internet
             writeToCloudRelay(familyCode, finalPayload)
 
@@ -899,6 +931,7 @@ class CloudSyncManager private constructor(private val context: Context) {
 
                 val peer = listOfNotNull(
                     readFromPeerProvider(familyCode),
+                    readFromBridgeFiles(familyCode),
                     readFromCloudRelay(familyCode)
                 ).maxByOrNull { it.updatedAt }
 
@@ -917,12 +950,13 @@ class CloudSyncManager private constructor(private val context: Context) {
                     tasks = peer?.tasks ?: emptyList(),
                     occurrences = updatedOccurrences,
                     sessions = updatedSessions,
-                    screenshots = currentLocalScreenshots,
+                    screenshots = if (currentLocalScreenshots.isNotEmpty()) currentLocalScreenshots else (peer?.screenshots ?: emptyList()),
                     reviews = peer?.reviews ?: emptyList(),
                     updatedAt = System.currentTimeMillis()
                 )
 
                 writeToPeerProvider(familyCode, payload)
+                writeToBridgeFiles(familyCode, payload)
                 writeToCloudRelay(familyCode, payload)
 
                 syncAll()
@@ -940,19 +974,45 @@ class CloudSyncManager private constructor(private val context: Context) {
     ): Result<Unit> = withContext(Dispatchers.IO) {
         val familyCode = getOrCreateFamilyCode()
         try {
+            // 1. Immediately persist review decision in local Room DB
+            val note = feedbackNote ?: if (!isApproved) "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız." else null
+            val reviewEntity = ReviewEntity(
+                sessionId = sessionId,
+                occurrenceKey = occurrenceKey,
+                reviewStatus = if (isApproved) ReviewStatus.APPROVED else ReviewStatus.REJECTED,
+                reviewNote = note,
+                reviewedAt = System.currentTimeMillis()
+            )
+            db.reviewDao().insertReview(reviewEntity)
+
+            val session = db.sessionDao().getSessionById(sessionId)
+            if (session != null) {
+                db.sessionDao().upsertSession(session.copy(status = if (isApproved) SessionStatus.APPROVED else SessionStatus.REJECTED))
+            }
+
+            if (isApproved) {
+                db.occurrenceDao().updateStatus(occurrenceKey, OccurrenceStatus.APPROVED)
+                db.occurrenceDao().setWarning(occurrenceKey, false, null)
+            } else {
+                db.occurrenceDao().updateStatus(occurrenceKey, OccurrenceStatus.PENDING)
+                db.occurrenceDao().setWarning(occurrenceKey, true, note ?: "Bu görev onaylanmadı.")
+            }
+
+            // 2. Broadcast to Peer Binder IPC, Bridge Files, and Cloud Relay
             val reviewDto = RemoteReviewSyncDto(
                 id = "rev_${sessionId}",
                 familyCode = familyCode,
                 sessionId = sessionId,
                 isApproved = isApproved,
-                rejectionReason = if (!isApproved) feedbackNote else null,
+                rejectionReason = if (!isApproved) note else null,
                 parentRating = if (isApproved) 5 else 1,
-                feedbackNote = feedbackNote,
+                feedbackNote = note,
                 reviewedAt = System.currentTimeMillis()
             )
 
             val peer = listOfNotNull(
                 readFromPeerProvider(familyCode),
+                readFromBridgeFiles(familyCode),
                 readFromCloudRelay(familyCode)
             ).maxByOrNull { it.updatedAt }
 
@@ -961,7 +1021,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                 if (occ.id == occurrenceKey) {
                     occ.copy(
                         status = if (isApproved) OccurrenceStatus.APPROVED.name else OccurrenceStatus.PENDING.name,
-                        parentNote = if (!isApproved) (feedbackNote ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız.") else "",
+                        parentNote = if (!isApproved) (note ?: "") else "",
                         completedQuestionCount = if (isApproved) occ.completedQuestionCount + 1 else occ.completedQuestionCount
                     )
                 } else occ
@@ -987,6 +1047,7 @@ class CloudSyncManager private constructor(private val context: Context) {
             )
 
             writeToPeerProvider(familyCode, payload)
+            writeToBridgeFiles(familyCode, payload)
             writeToCloudRelay(familyCode, payload)
 
             syncAll()

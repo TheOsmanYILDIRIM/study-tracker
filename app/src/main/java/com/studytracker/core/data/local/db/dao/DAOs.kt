@@ -101,10 +101,10 @@ interface SessionDao {
 
 @Dao
 interface ScreenshotDao {
-    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId ORDER BY capturedAt ASC")
+    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId ORDER BY capturedAt ASC")
     fun getScreenshotsForSession(sessionId: String): Flow<List<ScreenshotEntity>>
 
-    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId ORDER BY capturedAt ASC")
+    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId ORDER BY capturedAt ASC")
     suspend fun getScreenshotsForSessionOnce(sessionId: String): List<ScreenshotEntity>
 
     @Query("SELECT * FROM screenshots ORDER BY capturedAt DESC")

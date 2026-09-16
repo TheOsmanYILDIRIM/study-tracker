@@ -3,8 +3,11 @@ package com.studytracker.core.data.remote.provider
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.database.Cursor
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
+import android.util.Base64
 import android.util.Log
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.db.entity.*
@@ -15,9 +18,12 @@ import com.studytracker.core.domain.model.ReviewStatus
 import com.studytracker.core.domain.model.SessionStatus
 import com.studytracker.core.domain.model.TargetMode
 import com.studytracker.core.domain.model.TaskKind
+import com.studytracker.core.domain.model.UploadStatus
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import java.io.ByteArrayOutputStream
+import java.io.File
 
 class StudySyncProvider : ContentProvider() {
 
@@ -106,12 +112,54 @@ class StudySyncProvider : ContentProvider() {
                                 reviewedAt = it.reviewedAt
                             )
                         }
+                        val screenshots = db.screenshotDao().getAllScreenshotsOnce().take(15).mapNotNull { ss ->
+                            try {
+                                val imgData = when {
+                                    ss.url.startsWith("data:image/") || ss.url.contains("base64,") -> ss.url
+                                    ss.url.startsWith("http://") || ss.url.startsWith("https://") -> ss.url
+                                    else -> {
+                                        val file = File(ss.url)
+                                        if (file.exists() && file.length() > 0) {
+                                            val bytes = file.readBytes()
+                                            if (bytes.size > 60 * 1024) {
+                                                val bmp = BitmapFactory.decodeByteArray(bytes, 0, bytes.size)
+                                                if (bmp != null) {
+                                                    val targetW = 400
+                                                    val targetH = (400 * bmp.height / bmp.width).coerceAtLeast(1)
+                                                    val scaled = Bitmap.createScaledBitmap(bmp, targetW, targetH, true)
+                                                    val bos = ByteArrayOutputStream()
+                                                    scaled.compress(Bitmap.CompressFormat.JPEG, 50, bos)
+                                                    "data:image/jpeg;base64," + Base64.encodeToString(bos.toByteArray(), Base64.NO_WRAP)
+                                                } else {
+                                                    "data:image/jpeg;base64," + Base64.encodeToString(bytes, Base64.NO_WRAP)
+                                                }
+                                            } else {
+                                                "data:image/jpeg;base64," + Base64.encodeToString(bytes, Base64.NO_WRAP)
+                                            }
+                                        } else null
+                                    }
+                                }
+                                if (imgData != null) {
+                                    RemoteScreenshotSyncDto(
+                                        id = ss.screenshotId,
+                                        familyCode = familyCode,
+                                        sessionId = ss.sessionId,
+                                        imageUrl = imgData,
+                                        timestamp = ss.capturedAt
+                                    )
+                                } else null
+                            } catch (_: Exception) {
+                                null
+                            }
+                        }
+
                         SharedFamilySyncPayload(
                             familyCode = familyCode,
                             plan = plan,
                             tasks = tasks,
                             occurrences = occurrences,
                             sessions = sessions,
+                            screenshots = screenshots,
                             reviews = reviews,
                             updatedAt = System.currentTimeMillis()
                         )
@@ -214,15 +262,69 @@ class StudySyncProvider : ContentProvider() {
                                     )
                                 )
                             }
+                            if (payload.screenshots.isNotEmpty()) {
+                                val screenshotsDir = File(ctx.filesDir, "screenshots").apply { if (!exists()) mkdirs() }
+                                val existingLocalSs = db.screenshotDao().getAllScreenshotsOnce().associateBy { it.screenshotId }
+                                val toUpsert = mutableListOf<ScreenshotEntity>()
+                                for (rss in payload.screenshots) {
+                                    val existing = existingLocalSs[rss.id]
+                                    var localFilePath = existing?.url
+
+                                    if (localFilePath == null || !File(localFilePath).exists()) {
+                                        if (rss.imageUrl.startsWith("data:image/") || rss.imageUrl.contains("base64,")) {
+                                            try {
+                                                val base64Data = if (rss.imageUrl.contains(",")) rss.imageUrl.substringAfter(",") else rss.imageUrl
+                                                val bytes = Base64.decode(base64Data, Base64.DEFAULT)
+                                                val targetFile = File(screenshotsDir, "${rss.id}.jpg")
+                                                targetFile.writeBytes(bytes)
+                                                localFilePath = targetFile.absolutePath
+                                            } catch (_: Exception) {
+                                                localFilePath = rss.imageUrl
+                                            }
+                                        } else {
+                                            localFilePath = rss.imageUrl
+                                        }
+                                    }
+
+                                    toUpsert.add(
+                                        ScreenshotEntity(
+                                            screenshotId = rss.id,
+                                            sessionId = rss.sessionId,
+                                            occurrenceKey = rss.sessionId,
+                                            capturedAt = rss.timestamp,
+                                            url = localFilePath ?: rss.imageUrl,
+                                            sizeKb = 15,
+                                            uploadStatus = UploadStatus.UPLOADED
+                                        )
+                                    )
+                                }
+                                if (toUpsert.isNotEmpty()) {
+                                    db.screenshotDao().upsertScreenshots(toUpsert)
+                                }
+                            }
                             for (rev in payload.reviews) {
+                                val session = db.sessionDao().getSessionById(rev.sessionId)
+                                val targetOccKey = session?.occurrenceKey ?: rev.sessionId
                                 val reviewEntity = ReviewEntity(
                                     sessionId = rev.sessionId,
-                                    occurrenceKey = rev.sessionId,
+                                    occurrenceKey = targetOccKey,
                                     reviewStatus = if (rev.isApproved) ReviewStatus.APPROVED else ReviewStatus.REJECTED,
                                     reviewNote = rev.feedbackNote ?: rev.rejectionReason,
                                     reviewedAt = rev.reviewedAt
                                 )
                                 db.reviewDao().insertReview(reviewEntity)
+
+                                if (rev.isApproved) {
+                                    db.occurrenceDao().updateStatus(targetOccKey, OccurrenceStatus.APPROVED)
+                                    db.occurrenceDao().setWarning(targetOccKey, false, null)
+                                } else {
+                                    db.occurrenceDao().updateStatus(targetOccKey, OccurrenceStatus.PENDING)
+                                    db.occurrenceDao().setWarning(
+                                        targetOccKey,
+                                        true,
+                                        rev.feedbackNote ?: rev.rejectionReason ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız."
+                                    )
+                                }
                             }
                         }
                     }

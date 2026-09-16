@@ -1,5 +1,6 @@
 package com.studytracker.feature.parent
 
+import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -513,6 +514,7 @@ fun ParentDashboardScreen(
 
                                         Button(
                                             onClick = {
+                                                Toast.makeText(context, "Görev hızlı onaylandı.", Toast.LENGTH_SHORT).show()
                                                 scope.launch {
                                                     sessionRepo.submitReview(
                                                         Review(

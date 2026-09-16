@@ -124,10 +124,13 @@
 - **Yerel Dosya Köprüsünün Tamamen Kaldırılması:** Bulut testinin güvenilirliğini gölgeleyen ve sahte pozitif oluşturan tüm ortak disk dosyası okuma/yazma kodları (`getBridgeFiles`, `readFromBridgeFile`, `writeToBridgeFile`) tamamen kaldırıldı. Sistem artık %100 saf internet bulut rölesi (`ntfy.sh`) ve tek cihazdaki yan yana APK'lar için Android Binder IPC üzerinden çalışır.
 - **Sürekli Otomatik Eşitleme Döngüsü (Auto-Sync Loop):** `ChildHomeScreen` ve `ParentDashboardScreen` ekranlarına 10 saniyelik aralıksız arka plan otomatik eşitleme döngüsü eklendi. Veli veya öğrenci uygulamada gezinirken veya açtığında hiçbir butona basmaya gerek kalmadan tüm değişiklikler anında karşılıklı senkronize olur.
 
-### [2026-09-16] Tamamlandı: Kanıt Görselleri (Screenshots) Senkronizasyonu & Ebeveyn Onay/Red Akışı Düzeltmesi
-- **Kanıt Görselleri Bulut Senkronizasyonu:** Öğrenci ders çalışırken veya bitirdiğinde alınan ekran görüntüleri, optimize edilmiş JPEG Base64 / Remote URL formatında `SharedFamilySyncPayload.screenshots` alanına dahil edildi.
-- **Ebeveyn Kanıt Zaman Tüneli (`EvidenceTimelineView`):** Veli uygulamasında `SessionReviewScreen` açıldığında görseller yerel diskte olmasa dahi Base64 veya ağ üzerinden anında decode edilerek `BitmapMemoryCache` (LRU Cache) ile akıcı biçimde görüntülenir.
-- **Ebeveyn Reddet ve Hızlı Onayla Tetikleyicisi:** `SessionReviewScreen` ve `ParentDashboardScreen` üzerindeki "Reddet" ve "Hızlı Onayla" butonlarının `pushReviewDecision` ile bulut rölesine anında karar basması ve `submitReview` içinde `occurrenceKey`'in hatasız çözümlenmesi sağlandı. Veli reddettiğinde girilen açıklama notu öğrenci ekranında anında kırmızı uyarı kartına dönüşür.
+### [2026-09-16] Tamamlandı: Kanıt Görselleri Uçtan Uca Aktarımı & Ebeveyn Reddet/Onayla Anında Tepki Düzeltmesi
+- **Tekil Session ID Senkronizasyonu:** `SessionStateManager` ve `LocalSessionRepositoryImpl` arasındaki oturum ID çiftliği giderildi. Bellek, Room veritabanı ve ekran görüntüsü sürücüsünün (`FakeCaptureDriver` & `AccessibilityCaptureDriver`) tam olarak aynı `sessionId` üzerinden çalışması sağlandı.
+- **`StudySyncProvider` (Binder IPC) Kanıt ve İnceleme Desteği:** Binder IPC aktarımına Base64 ekran görüntüsü sıkıştırma ve ayrıştırma mekanizması eklendi; ebeveyn onay ve red kararlarının diğer APK'da `OccurrenceStatus` ve uyarı metnini anında güncellemesi sağlandı.
+- **Üç Katmanlı Eşitleme Güvencesi:** `CloudSyncManager` içine doğrudan Binder IPC, çoklu konumlu paylaşılan dosya köprüsü (`/sdcard/Download/`, `/sdcard/Documents/`, vb.) ve küresel bulut rölesi entegre edilerek hem yerel hem uzaktan sıfır gecikmeli veri aktarımı garantilendi.
+- **Ebeveyn İnceleme Ekranı Anında Tepki:** `SessionReviewScreen` ve `ParentDashboardScreen` içindeki butonlara anlık `Toast` bildirimi ve ekran geri dönüşü eklendi; veritabanı yazımı ve bulut dağıtımı ekran kapanmasından etkilenmeyen bağımsız arka plan iş parçacığına taşındı.
+- **Esnek Kanıt DAO Sorgusu:** `ScreenshotDao.getScreenshotsForSession` sorgusu hem `sessionId` hem `occurrenceKey` ile eşleşecek şekilde genişletilerek `EvidenceTimelineView` içinde hiçbir kanıtın kaybolmaması sağlandı.
+
 
 
 

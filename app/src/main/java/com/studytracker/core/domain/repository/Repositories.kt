@@ -39,7 +39,7 @@ interface SessionRepository {
     fun getWaitingReviewSessions(): Flow<List<Session>>
     fun getSessionsForOccurrence(occurrenceKey: String): Flow<List<Session>>
     suspend fun getSessionById(sessionId: String): Session?
-    suspend fun startSession(occurrenceKey: String, childId: String): Session
+    suspend fun startSession(occurrenceKey: String, childId: String, customSessionId: String? = null): Session
     suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?): Session
     suspend fun submitReview(review: Review)
     suspend fun clearAllSessions()

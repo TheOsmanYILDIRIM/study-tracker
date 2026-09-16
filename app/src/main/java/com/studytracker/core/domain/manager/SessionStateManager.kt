@@ -89,15 +89,9 @@ class SessionStateManager private constructor(
 
         // 2. Perform DB write & screenshot driver setup asynchronously in IO
         scope.launch(Dispatchers.IO) {
-            val session = sessionRepository.startSession(occurrenceKey, childId)
+            val session = sessionRepository.startSession(occurrenceKey, childId, tempSessionId)
             val driver = getEffectiveCaptureDriver()
             driver.start(session.sessionId, occurrenceKey)
-
-            if (session.sessionId != tempSessionId) {
-                withContext(Dispatchers.Main) {
-                    _activeState.value = _activeState.value?.copy(session = session)
-                }
-            }
 
             driver.captureNow()
         }

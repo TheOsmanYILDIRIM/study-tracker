@@ -1,5 +1,6 @@
 package com.studytracker.feature.parent
 
+import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -27,6 +28,9 @@ import com.studytracker.core.domain.model.ReviewStatus
 import com.studytracker.core.domain.model.Session
 import com.studytracker.core.ui.components.EvidenceTimelineView
 import com.studytracker.core.ui.theme.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -42,7 +46,6 @@ fun SessionReviewScreen(
     onNavigateBack: () -> Unit
 ) {
     val context = LocalContext.current
-    val scope = rememberCoroutineScope()
     val db = remember { AppDatabase.getInstance(context) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
 
@@ -122,8 +125,14 @@ fun SessionReviewScreen(
                                 startTime = System.currentTimeMillis(),
                                 status = com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW
                             )
-                            scope.launch {
-                                val note = reviewNote.ifBlank { "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yap." }
+                            val note = reviewNote.ifBlank { "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız." }
+                            
+                            // Instant UI Feedback & Navigation
+                            Toast.makeText(context, "Görev reddedildi, öğrenciye uyarı iletildi.", Toast.LENGTH_SHORT).show()
+                            onNavigateBack()
+
+                            // Detached async execution to prevent cancellation on unmount
+                            CoroutineScope(Dispatchers.IO + SupervisorJob()).launch {
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
@@ -137,7 +146,6 @@ fun SessionReviewScreen(
                                     com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
                                         .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, false, note)
                                 } catch (ignored: Exception) {}
-                                onNavigateBack()
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),
@@ -159,8 +167,14 @@ fun SessionReviewScreen(
                                 startTime = System.currentTimeMillis(),
                                 status = com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW
                             )
-                            scope.launch {
-                                val note = reviewNote.ifBlank { null }
+                            val note = reviewNote.ifBlank { null }
+                            
+                            // Instant UI Feedback & Navigation
+                            Toast.makeText(context, "Görev başarıyla onaylandı.", Toast.LENGTH_SHORT).show()
+                            onNavigateBack()
+
+                            // Detached async execution to prevent cancellation on unmount
+                            CoroutineScope(Dispatchers.IO + SupervisorJob()).launch {
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
@@ -174,7 +188,6 @@ fun SessionReviewScreen(
                                     com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
                                         .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, true, note)
                                 } catch (ignored: Exception) {}
-                                onNavigateBack()
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),

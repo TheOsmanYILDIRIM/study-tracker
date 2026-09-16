@@ -200,9 +200,9 @@ class LocalSessionRepositoryImpl(
         return db.sessionDao().getSessionById(sessionId)?.toDomain()
     }
 
-    override suspend fun startSession(occurrenceKey: String, childId: String): Session {
+    override suspend fun startSession(occurrenceKey: String, childId: String, customSessionId: String?): Session {
         val session = Session(
-            sessionId = "sess_" + UUID.randomUUID().toString().take(8),
+            sessionId = customSessionId ?: ("sess_" + UUID.randomUUID().toString().take(8)),
             occurrenceKey = occurrenceKey,
             childId = childId,
             startTime = System.currentTimeMillis(),
