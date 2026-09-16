@@ -17,6 +17,22 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <!-- Package Visibility Queries for Cross-APK ContentProvider IPC -->
+    <queries>
+        <package android:name="com.studytracker.parent" />
+        <package android:name="com.studytracker.parent.debug" />
+        <package android:name="com.studytracker.child" />
+        <package android:name="com.studytracker.child.debug" />
+        <package android:name="com.studytracker" />
+        <package android:name="com.studytracker.debug" />
+        <provider android:authorities="com.studytracker.parent.syncprovider" />
+        <provider android:authorities="com.studytracker.parent.debug.syncprovider" />
+        <provider android:authorities="com.studytracker.child.syncprovider" />
+        <provider android:authorities="com.studytracker.child.debug.syncprovider" />
+        <provider android:authorities="com.studytracker.syncprovider" />
+        <provider android:authorities="com.studytracker.debug.syncprovider" />
+    </queries>
+
     <application
         android:name=".StudyTrackerApp"
         android:allowBackup="true"

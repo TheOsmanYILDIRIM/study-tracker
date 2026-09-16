@@ -149,12 +149,36 @@ class CloudSyncManager private constructor(private val context: Context) {
                 var latestPayload: SharedFamilySyncPayload? = null
                 for (line in body.lineSequence()) {
                     val trimmed = line.trim()
-                    if (trimmed.startsWith("{") && trimmed.contains("\"message\"")) {
+                    if (trimmed.startsWith("{")) {
                         try {
-                            val eventObj = json.parseToJsonElement(trimmed)
-                            val messageContent = eventObj.jsonObject["message"]?.jsonPrimitive?.content
-                            if (!messageContent.isNullOrBlank()) {
-                                val payload = json.decodeFromString<SharedFamilySyncPayload>(messageContent)
+                            val eventObj = json.parseToJsonElement(trimmed).jsonObject
+                            var payloadJson: String? = null
+
+                            // 1. Check if payload was uploaded as an attachment (payload > 4KB)
+                            val attachmentObj = eventObj["attachment"]?.jsonObject
+                            val attachmentUrl = attachmentObj?.get("url")?.jsonPrimitive?.content
+                            if (!attachmentUrl.isNullOrBlank()) {
+                                try {
+                                    val fileReq = Request.Builder().url(attachmentUrl).get().build()
+                                    val fileResp = httpClient.newCall(fileReq).execute()
+                                    if (fileResp.isSuccessful) {
+                                        payloadJson = fileResp.body?.string()
+                                    }
+                                } catch (fileEx: Exception) {
+                                    Log.w("CloudSyncManager", "Failed downloading attachment from $attachmentUrl: ${fileEx.message}")
+                                }
+                            }
+
+                            // 2. Fallback to inline message body (payload <= 4KB)
+                            if (payloadJson.isNullOrBlank()) {
+                                val messageContent = eventObj["message"]?.jsonPrimitive?.content
+                                if (!messageContent.isNullOrBlank() && messageContent.startsWith("{")) {
+                                    payloadJson = messageContent
+                                }
+                            }
+
+                            if (!payloadJson.isNullOrBlank()) {
+                                val payload = json.decodeFromString<SharedFamilySyncPayload>(payloadJson)
                                 if (latestPayload == null || payload.updatedAt >= latestPayload.updatedAt) {
                                     latestPayload = payload
                                 }
@@ -163,7 +187,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                     }
                 }
                 if (latestPayload != null) {
-                    Log.d("CloudSyncManager", "Read from cloud relay for $familyCode: ${latestPayload.occurrences.size} tasks (updatedAt=${latestPayload.updatedAt})")
+                    Log.d("CloudSyncManager", "Read from zero-config cloud relay for $familyCode: ${latestPayload.occurrences.size} tasks (updatedAt=${latestPayload.updatedAt})")
                 }
                 return@withContext latestPayload
             }
@@ -182,6 +206,7 @@ class CloudSyncManager private constructor(private val context: Context) {
             val request = Request.Builder()
                 .url(url)
                 .addHeader("Title", "StudyTracker Sync")
+                .addHeader("Filename", "studytracker_${familyCode}.json")
                 .addHeader("Tags", "books,sync")
                 .post(requestBody)
                 .build()

@@ -120,3 +120,8 @@
 - **Üç Katmanlı Eşitleme Mimarisi:** Senkronizasyon çağrıldığında sistem sırasıyla; (1) Tek cihazdaki diğer APK'nın Binder IPC ContentProvider'ını, (2) İnternet üzerindeki bulut rölesini, (3) Yerel dosya köprüsünü sorgular; en güncel zaman damgasına sahip veriyi alıp yerel Room veritabanıyla akıllıca birleştirir ve her üç kanala birden geri dağıtır.
 - **Sıfır Çaba ile Uzaktan Eşitleme:** Veli dünyanın herhangi bir yerinde 4G/5G ile plan eklediğinde veya ders onayladığında, öğrencinin evdeki Wi-Fi'ya bağlı telefonu anında güncellenir.
 
+### [2026-09-16] Düzeltildi: Bulut Yük Boyutu (Attachment URL) & Android 11+ Package Visibility IPC
+- **Kök Hata 1 (Bulut Yükü 4KB Sınırı):** ntfy.sh bulut rölesinde 19 derslik plan JSON'u (>4KB) `attachment.url` (`https://ntfy.sh/file/...`) olarak saklandığı için `eventObj["message"]` içindeki metin parse edilemiyordu. `readFromCloudRelay` fonksiyonuna `attachment.url` üzerinden tam JSON dosyasını indirme ve parse etme desteği eklendi.
+- **Kök Hata 2 (Android 11+ IPC Görünürlüğü):** Android 11+ (API 30+) işletim sistemi `AndroidManifest.xml` içinde `<queries>` bloğu tanımlanmadığında diğer APK'nın ContentProvider'ını engelliyordu. `com.studytracker.parent` ve `com.studytracker.child` paketleri ve `syncprovider` otoriteleri `<queries>` etiketine eklenerek Binder IPC erişimi açıldı.
+
+
