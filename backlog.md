@@ -97,3 +97,11 @@
 - [x] Veli haftalık plan sekmesinde görev durumlarının öğrenci perspektifli net etiketlerle sunulması (`✅ Öğrenci Yaptı & Onaylandı`, `⏳ Öğrenci Tamamladı (Onay Bekliyor)`, `⚡ Öğrenci Şu An Çalışıyor`, `⚪ Öğrenci Henüz Yapmadı`) ve reddedilen derslerde açıklama notu uyarısı
 - [x] Veli için hızlı tek tıkla "❌ Not Bırak & Reddet" diyalogu (öğrenciye doğrudan açıklama notu gönderme)
 - [x] Hem Veli hem Öğrenci uygulaması TopBar'ında "🔄 İlerlemeyi Sıfırla" butonu ve onay diyalogu (haftalık plan şablonunu koruyarak tüm tamamlanma kayıtlarını, oturumları ve kanıtları temizleme)
+
+## 29. Öğrenci Görev Tamamlama Notu (Reflection & Soru Sayısı / Net Bildirimi)
+- [x] Öğrenci dersi bitirdiğinde ("Bitir" butonuna bastığında) isteğe bağlı çalışma notu, çözülen soru sayısı, net veya anladığı konuları yazabileceği şık diyalog (`showFinishNoteDialog`)
+- [x] Room veritabanında `studentNote` alanının `OccurrenceEntity` ve `SessionEntity` tablolarına eklenmesi ve DB versiyonunun 2'ye yükseltilmesi
+- [x] Öğrenci kartlarında (`StudyTaskCard`) öğrencinin yazdığı notun "📝 Notum: [not]" rozetiyle gösterilmesi
+- [x] Veli Masasında (`ParentDashboardScreen`) onay bekleyen oturumlarda, onaylanan dersler listesinde ve `OccurrenceAdminCard` bileşenlerinde öğrenci notunun belirgin vurgulanması
+- [x] Veli Kanıt İnceleme ekranında (`SessionReviewScreen`) oturum detayları kartında öğrenci notunun özel neon kutuyla gösterilmesi
+- [x] `.studyplan` paket alışverişi (`StudyPackageExchangeManager`), ContentProvider Binder IPC (`StudySyncProvider`) ve Supabase Cloud Sync (`RemoteOccurrenceSyncDto`) veri köprülerine `studentNote` alanının eklenmesi

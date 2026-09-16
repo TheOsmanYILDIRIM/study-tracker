@@ -145,7 +145,7 @@ class SessionStateManager private constructor(
         }
     }
 
-    fun finishSession(onFinished: (() -> Unit)? = null) {
+    fun finishSession(studentNote: String? = null, onFinished: (() -> Unit)? = null) {
         val current = _activeState.value ?: return
         _activeState.value = current.copy(isFinishing = true)
 
@@ -155,12 +155,12 @@ class SessionStateManager private constructor(
 
         scope.launch(Dispatchers.IO) {
             val finalSs = getEffectiveCaptureDriver().stop()
-            sessionRepository.finishSession(current.session.sessionId, finalSs?.url)
+            sessionRepository.finishSession(current.session.sessionId, finalSs?.url, studentNote)
 
             // Auto sync to cloud in background
             try {
                 com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context).syncAll()
-            } catch (ignored: Exception) {}
+            } catch (_: Exception) {}
 
             withContext(Dispatchers.Main) {
                 _activeState.value = null

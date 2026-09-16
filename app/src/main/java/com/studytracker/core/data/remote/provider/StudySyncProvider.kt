@@ -194,7 +194,8 @@ class StudySyncProvider : ContentProvider() {
                     rejectCount = maxOf(local?.rejectCount ?: 0, if (hasWarning) 1 else 0),
                     approvedCount = approvedCount,
                     targetCount = targetCount,
-                    targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null
+                    targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
+                    studentNote = remote.studentNote ?: local?.studentNote
                 )
             }
             db.occurrenceDao().upsertOccurrences(mergedOccs)
@@ -221,7 +222,8 @@ class StudySyncProvider : ContentProvider() {
                         endTime = rs.endTime ?: existing?.endTime,
                         status = resolvedStatus,
                         screenshotCount = existing?.screenshotCount ?: 1,
-                        finalScreenshotUrl = existing?.finalScreenshotUrl
+                        finalScreenshotUrl = existing?.finalScreenshotUrl,
+                        studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                     )
                 )
             }
@@ -343,7 +345,8 @@ class StudySyncProvider : ContentProvider() {
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
-                orderIndex = 0
+                orderIndex = 0,
+                studentNote = it.studentNote
             )
         }
 
@@ -355,7 +358,8 @@ class StudySyncProvider : ContentProvider() {
                 startTime = it.startTime,
                 endTime = it.endTime,
                 durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
-                isCompleted = it.status != SessionStatus.ACTIVE
+                isCompleted = it.status != SessionStatus.ACTIVE,
+                notes = it.studentNote ?: ""
             )
         }
 

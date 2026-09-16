@@ -731,6 +731,30 @@ fun ParentDashboardScreen(
                                         }
                                     }
 
+                                    session.studentNote?.takeIf { it.isNotBlank() }?.let { note ->
+                                        Box(
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .clip(RoundedCornerShape(8.dp))
+                                                .background(Color(0xFF0F2D3D))
+                                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(8.dp))
+                                                .padding(horizontal = 9.dp, vertical = 6.dp)
+                                        ) {
+                                            Row(
+                                                verticalAlignment = Alignment.CenterVertically,
+                                                horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                            ) {
+                                                Icon(Icons.Default.EditNote, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(16.dp))
+                                                Text(
+                                                    text = "Öğrenci Notu: $note",
+                                                    color = Color.White,
+                                                    fontSize = 11.5.sp,
+                                                    fontWeight = FontWeight.Medium
+                                                )
+                                            }
+                                        }
+                                    }
+
                                     Row(
                                         modifier = Modifier.fillMaxWidth(),
                                         horizontalArrangement = Arrangement.spacedBy(6.dp)
@@ -853,6 +877,15 @@ fun ParentDashboardScreen(
                                             color = ZomoTextSecondary,
                                             fontSize = 10.5.sp
                                         )
+                                        if (!occ.studentNote.isNullOrBlank()) {
+                                            Text(
+                                                text = "📝 Öğrenci: ${occ.studentNote}",
+                                                style = MaterialTheme.typography.bodySmall,
+                                                color = ZenSkyCyan,
+                                                fontSize = 10.5.sp,
+                                                fontWeight = FontWeight.Medium
+                                            )
+                                        }
                                     }
 
                                     Box(
@@ -1116,6 +1149,30 @@ fun OccurrenceAdminCard(
                         Text(
                             text = "Reddedildi: ${occurrence.warningText}",
                             color = ZenRoseCoral,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.Medium
+                        )
+                    }
+                }
+            }
+
+            if (!occurrence.studentNote.isNullOrBlank()) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(ZenSkyCyan.copy(alpha = 0.10f))
+                        .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), RoundedCornerShape(8.dp))
+                        .padding(horizontal = 8.dp, vertical = 5.dp)
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        Icon(Icons.Default.EditNote, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(16.dp))
+                        Text(
+                            text = "Öğrenci Notu: ${occurrence.studentNote}",
+                            color = ZenSkyCyan,
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Medium
                         )

@@ -29,6 +29,7 @@ interface OccurrenceRepository {
     suspend fun getOccurrenceByKeyOnce(key: String): Occurrence?
     suspend fun upsertOccurrences(occurrences: List<Occurrence>)
     suspend fun updateStatus(occurrenceKey: String, status: OccurrenceStatus)
+    suspend fun updateStudentNote(occurrenceKey: String, note: String?)
     suspend fun setWarning(occurrenceKey: String, warning: Boolean, note: String?)
     suspend fun incrementApprovedCount(occurrenceKey: String): Occurrence
     suspend fun resetProgress(weekId: String? = null)
@@ -41,7 +42,7 @@ interface SessionRepository {
     fun getSessionsForOccurrence(occurrenceKey: String): Flow<List<Session>>
     suspend fun getSessionById(sessionId: String): Session?
     suspend fun startSession(occurrenceKey: String, childId: String, customSessionId: String? = null): Session
-    suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?): Session
+    suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String? = null): Session
     suspend fun submitReview(review: Review)
     suspend fun clearAllSessions()
 }

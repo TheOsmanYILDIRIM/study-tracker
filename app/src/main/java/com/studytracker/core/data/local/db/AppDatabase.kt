@@ -18,7 +18,7 @@ import com.studytracker.core.data.local.db.entity.*
         ScreenshotEntity::class,
         ReviewEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 @TypeConverters(AppTypeConverters::class)

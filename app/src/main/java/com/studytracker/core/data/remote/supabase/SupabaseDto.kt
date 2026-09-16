@@ -27,6 +27,7 @@ data class RemoteOccurrenceSyncDto(
     @SerialName("parent_note") val parentNote: String,
     @SerialName("week_id") val weekId: String,
     @SerialName("order_index") val orderIndex: Int,
+    @SerialName("student_note") val studentNote: String? = null,
     @SerialName("updated_at") val updatedAt: Long = System.currentTimeMillis()
 )
 

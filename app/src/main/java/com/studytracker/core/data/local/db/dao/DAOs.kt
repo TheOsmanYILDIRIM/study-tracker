@@ -47,16 +47,19 @@ interface OccurrenceDao {
     @Query("UPDATE occurrences SET status = :status WHERE occurrenceKey = :key")
     suspend fun updateStatus(key: String, status: OccurrenceStatus)
 
+    @Query("UPDATE occurrences SET studentNote = :studentNote WHERE occurrenceKey = :key")
+    suspend fun updateStudentNote(key: String, studentNote: String?)
+
     @Query("UPDATE occurrences SET warning = :warning, warningText = :warningText, rejectCount = rejectCount + 1 WHERE occurrenceKey = :key")
     suspend fun setWarning(key: String, warning: Boolean, warningText: String?)
 
     @Query("UPDATE occurrences SET approvedCount = approvedCount + 1 WHERE occurrenceKey = :key")
     suspend fun incrementApprovedCount(key: String)
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL")
     suspend fun resetAllOccurrencesProgress()
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0 WHERE weekId = :weekId")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL WHERE weekId = :weekId")
     suspend fun resetWeeklyOccurrencesProgress(weekId: String)
 
     @Query("DELETE FROM occurrences")
@@ -94,6 +97,9 @@ interface SessionDao {
 
     @Query("SELECT * FROM sessions WHERE sessionId = :sessionId LIMIT 1")
     suspend fun getSessionById(sessionId: String): SessionEntity?
+
+    @Query("UPDATE sessions SET studentNote = :studentNote WHERE sessionId = :sessionId")
+    suspend fun updateStudentNote(sessionId: String, studentNote: String?)
 
     @Query("SELECT * FROM sessions")
     suspend fun getAllSessionsOnce(): List<SessionEntity>

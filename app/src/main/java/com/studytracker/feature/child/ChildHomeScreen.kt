@@ -95,6 +95,8 @@ fun ChildHomeScreen(
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showSyncDialog by remember { mutableStateOf(false) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var showFinishNoteDialog by remember { mutableStateOf(false) }
+    var studentNoteInput by remember { mutableStateOf("") }
     val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
         maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
     }
@@ -158,6 +160,69 @@ fun ChildHomeScreen(
             dismissButton = {
                 TextButton(onClick = { showResetConfirmDialog = false }) {
                     Text("Vazgeç", color = ZomoTextSecondary)
+                }
+            },
+            containerColor = Color(0xFF10192E)
+        )
+    }
+
+    if (showFinishNoteDialog) {
+        AlertDialog(
+            onDismissRequest = { showFinishNoteDialog = false },
+            title = {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Icon(Icons.Default.Celebration, contentDescription = null, tint = ZenSkyCyan)
+                    Text("Tebrikler, Dersi Bitiriyorsun! 🎉", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 16.sp)
+                }
+            },
+            text = {
+                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(
+                        "Bu çalışma hakkında veline iletmek istediğin bir not var mı? (Çözülen soru sayısı, netler, anladığın/zorlandığın yerler vb.)",
+                        color = ZomoTextSecondary,
+                        fontSize = 12.5.sp
+                    )
+                    OutlinedTextField(
+                        value = studentNoteInput,
+                        onValueChange = { studentNoteInput = it },
+                        placeholder = { Text("Örn: 40 soru çözdüm, 2 yanlış çıktı. Konuyu çok iyi anladım!", fontSize = 12.sp, color = ZomoTextMuted) },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(12.dp),
+                        minLines = 2,
+                        maxLines = 4,
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor = ZenSkyCyan,
+                            unfocusedBorderColor = ZenPaperBorder,
+                            focusedTextColor = ZomoTextPrimary,
+                            unfocusedTextColor = ZomoTextPrimary,
+                            cursorColor = ZenSkyCyan
+                        )
+                    )
+                }
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        val note = studentNoteInput.trim().ifBlank { null }
+                        showFinishNoteDialog = false
+                        localFlyingStarTrigger = System.currentTimeMillis()
+                        stateManager.finishSession(studentNote = note)
+                        studentNoteInput = ""
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
+                    shape = ZenPillShape
+                ) {
+                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(15.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(if (studentNoteInput.isNotBlank()) "Notu Kaydet & Bitir" else "Bitir", fontWeight = FontWeight.Bold)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showFinishNoteDialog = false }) {
+                    Text("Geri Dön", color = ZomoTextSecondary)
                 }
             },
             containerColor = Color(0xFF10192E)
@@ -389,8 +454,8 @@ fun ChildHomeScreen(
                         LiveActiveSessionBanner(
                             stateManager = stateManager,
                             onFinishClick = {
-                                localFlyingStarTrigger = System.currentTimeMillis()
-                                stateManager.finishSession()
+                                studentNoteInput = ""
+                                showFinishNoteDialog = true
                             }
                         )
                     }

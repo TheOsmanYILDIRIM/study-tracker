@@ -91,7 +91,8 @@ data class Occurrence(
     val rejectCount: Int = 0,
     val approvedCount: Int = 0,         // weekly görev tamamlanma sayacı
     val targetCount: Int? = null,
-    val targetMinutes: Int? = null
+    val targetMinutes: Int? = null,
+    val studentNote: String? = null
 )
 
 @Immutable
@@ -145,7 +146,8 @@ data class Session(
     val endTime: Long? = null,
     val status: SessionStatus = SessionStatus.ACTIVE,
     val screenshotCount: Int = 0,
-    val finalScreenshotUrl: String? = null
+    val finalScreenshotUrl: String? = null,
+    val studentNote: String? = null
 )
 
 @Immutable

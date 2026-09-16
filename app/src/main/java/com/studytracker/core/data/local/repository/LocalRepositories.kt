@@ -150,6 +150,10 @@ class LocalOccurrenceRepositoryImpl(
         db.occurrenceDao().updateStatus(occurrenceKey, status)
     }
 
+    override suspend fun updateStudentNote(occurrenceKey: String, note: String?) {
+        db.occurrenceDao().updateStudentNote(occurrenceKey, note)
+    }
+
     override suspend fun setWarning(occurrenceKey: String, warning: Boolean, note: String?) {
         db.occurrenceDao().setWarning(occurrenceKey, warning, note)
     }
@@ -224,7 +228,7 @@ class LocalSessionRepositoryImpl(
         return session
     }
 
-    override suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?): Session {
+    override suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String?): Session {
         val existing = db.sessionDao().getSessionById(sessionId)
             ?: throw IllegalStateException("Session not found: $sessionId")
 
@@ -233,10 +237,14 @@ class LocalSessionRepositoryImpl(
             endTime = System.currentTimeMillis(),
             status = SessionStatus.WAITING_REVIEW,
             screenshotCount = count,
-            finalScreenshotUrl = finalScreenshotUrl
+            finalScreenshotUrl = finalScreenshotUrl,
+            studentNote = studentNote ?: existing.studentNote
         )
         db.sessionDao().upsertSession(updated)
         db.occurrenceDao().updateStatus(existing.occurrenceKey, OccurrenceStatus.WAITING_REVIEW)
+        if (!studentNote.isNullOrBlank()) {
+            db.occurrenceDao().updateStudentNote(existing.occurrenceKey, studentNote)
+        }
         return updated.toDomain()
     }
 
@@ -302,26 +310,30 @@ fun Occurrence.toEntity() = OccurrenceEntity(
     occurrenceKey = occurrenceKey, taskId = taskId, type = type, date = date, weekId = weekId,
     title = title, plannedMinutes = plannedMinutes, youtubeUrl = youtubeUrl, reviewRequired = reviewRequired,
     status = status, warning = warning, warningText = warningText, rejectCount = rejectCount,
-    approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes
+    approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes,
+    studentNote = studentNote
 )
 
 fun OccurrenceEntity.toDomain() = Occurrence(
     occurrenceKey = occurrenceKey, taskId = taskId, type = type, date = date, weekId = weekId,
     title = title, plannedMinutes = plannedMinutes, youtubeUrl = youtubeUrl, reviewRequired = reviewRequired,
     status = status, warning = warning, warningText = warningText, rejectCount = rejectCount,
-    approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes
+    approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes,
+    studentNote = studentNote
 )
 
 fun Session.toEntity() = SessionEntity(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl
+    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    studentNote = studentNote
 )
 
 fun SessionEntity.toDomain() = Session(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl
+    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    studentNote = studentNote
 )
 
 fun Screenshot.toEntity() = ScreenshotEntity(

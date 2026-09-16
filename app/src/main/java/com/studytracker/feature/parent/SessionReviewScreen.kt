@@ -7,10 +7,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.PhotoLibrary
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -256,6 +253,23 @@ fun SessionReviewScreen(
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary
                             )
+                        }
+
+                        session?.studentNote?.takeIf { it.isNotBlank() }?.let { sNote ->
+                            Surface(
+                                shape = RoundedCornerShape(12.dp),
+                                color = Color(0xFF1E293B),
+                                border = BorderStroke(1.dp, Color(0xFF00E5FF).copy(alpha = 0.5f)),
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                        Icon(Icons.Default.EditNote, contentDescription = null, tint = Color(0xFF00E5FF), modifier = Modifier.size(18.dp))
+                                        Text("Öğrencinin Tamamlama Notu", fontWeight = FontWeight.Bold, fontSize = 12.sp, color = Color(0xFF00E5FF))
+                                    }
+                                    Text(sNote, fontSize = 13.5.sp, color = ZomoTextPrimary, fontWeight = FontWeight.Medium)
+                                }
+                            }
                         }
 
                         OutlinedTextField(

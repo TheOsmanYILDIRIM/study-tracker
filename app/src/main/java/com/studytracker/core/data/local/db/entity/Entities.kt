@@ -45,7 +45,8 @@ data class OccurrenceEntity(
     val rejectCount: Int,
     val approvedCount: Int,
     val targetCount: Int?,
-    val targetMinutes: Int?
+    val targetMinutes: Int?,
+    val studentNote: String? = null
 )
 
 @Entity(tableName = "active_plan")
@@ -74,7 +75,8 @@ data class SessionEntity(
     val endTime: Long?,
     val status: SessionStatus,
     val screenshotCount: Int,
-    val finalScreenshotUrl: String?
+    val finalScreenshotUrl: String?,
+    val studentNote: String? = null
 )
 
 @Entity(

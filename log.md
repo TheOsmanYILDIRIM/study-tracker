@@ -170,3 +170,17 @@
 - **Hem Veli Hem Öğrenci Uygulamasında İlerleme Sıfırlama:**
   - Veli ve Öğrenci TopBar'larına "🔄 İlerlemeyi Sıfırla" butonu ve teyit diyalogu eklendi.
   - `StudyPackageExchangeManager.resetAllProgress(context, weekId)` ve DAO `resetProgress` ile plan iskeletine dokunulmadan tüm oturumlar, kanıtlar ve ders tamamlanma durumları güvenle sıfırlanabilir hale getirildi.
+
+## [2026-09-16] 29. Öğrenci Görev Tamamlama Notu & Veli İnceleme Entegrasyonu
+- **Öğrenci Notu Giriş Arayüzü (`ChildHomeScreen`):**
+  - Öğrenci dersi bitirmek için "Bitir" butonuna bastığında karşısına çıkan tebrik diyalogunda isteğe bağlı olarak velisine çalışma notu (çözülen soru sayısı, netler, anladığı veya zorlandığı kısımlar) yazabileceği bir giriş alanı sunuldu. "Notu Kaydet & Bitir" veya "Bitir" seçenekleriyle hızlıca tamamlanabiliyor.
+- **Veri Modeli ve Veritabanı Genişletmesi (`DomainModels`, `Entities`, `DAOs`, `AppDatabase`):**
+  - `Occurrence` ve `Session` modellerine `studentNote: String? = null` alanı eklendi.
+  - Room DB versiyonu 2'ye güncellendi (`OccurrenceEntity` ve `SessionEntity` tablolarına `studentNote` kolonu tanımlandı).
+  - DAO ve repository katmanlarına `updateStudentNote` ve `finishSession(studentNote)` fonksiyonları eklendi.
+- **Veli Ekranları Entegrasyonu (`ParentDashboardScreen`, `SessionReviewScreen`):**
+  - Veli Masasında onay bekleyen oturum kartlarında, onaylanan dersler listesinde ve haftalık plan kartlarında öğrencinin yazdığı not özel rozetlerle (`Öğrenci Notu: ...`) gösterildi.
+  - Kanıt inceleme ekranında (`SessionReviewScreen`) oturum özetinin altında öğrenci notu özel neon kutuyla vurgulandı.
+- **Paket & Senkronizasyon Uyumluluğu (`StudyPackageExchangeManager`, `StudySyncProvider`, `SupabaseDto`):**
+  - `.studyplan` WhatsApp paylaşım paketleri, ContentProvider Binder IPC ve Supabase bulut senkronizasyon modellerine `studentNote` alanı entegre edilerek iki yönlü aktarım güvenceye alındı.
+

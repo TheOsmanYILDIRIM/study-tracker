@@ -303,6 +303,37 @@ fun StudyTaskCard(
             }
         }
 
+        // Student Note Banner
+        if (!occurrence.studentNote.isNullOrBlank()) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(ZenSkyCyan.copy(alpha = 0.08f))
+                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.25f), RoundedCornerShape(8.dp))
+                    .padding(horizontal = 8.dp, vertical = 4.dp)
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.EditNote,
+                        contentDescription = null,
+                        tint = ZenSkyCyan,
+                        modifier = Modifier.size(14.dp)
+                    )
+                    Text(
+                        text = "Notum: ${occurrence.studentNote}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = ZenSkyCyan,
+                        fontSize = 11.sp,
+                        maxLines = 2
+                    )
+                }
+            }
+        }
+
         // Compact Parent Warning Note
         if (occurrence.warning && !occurrence.warningText.isNullOrBlank()) {
             Box(
