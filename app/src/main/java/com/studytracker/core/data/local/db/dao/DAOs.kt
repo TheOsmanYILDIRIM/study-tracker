@@ -11,6 +11,9 @@ interface TaskTemplateDao {
     @Query("SELECT * FROM task_templates")
     fun getAllTasks(): Flow<List<TaskTemplateEntity>>
 
+    @Query("SELECT * FROM task_templates")
+    suspend fun getAllTasksOnce(): List<TaskTemplateEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertTasks(tasks: List<TaskTemplateEntity>)
 

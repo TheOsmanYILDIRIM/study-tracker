@@ -66,8 +66,46 @@ data class RemoteReviewSyncDto(
 )
 
 @Serializable
+data class LocalPlanSyncDto(
+    val planId: String,
+    val weekId: String,
+    val weekStartDate: String,
+    val childId: String,
+    val timezone: String,
+    val updatedAt: String,
+    val rawJson: String
+)
+
+@Serializable
+data class LocalTaskTemplateSyncDto(
+    val taskId: String,
+    val title: String,
+    val kind: String,
+    val contentType: String,
+    val youtubeUrl: String?,
+    val plannedMinutes: Int,
+    val targetMode: String? = null,
+    val targetCount: Int? = null,
+    val targetMinutes: Int? = null,
+    val reviewRequired: Boolean = true,
+    val active: Boolean = true
+)
+
+@Serializable
+data class SharedFamilySyncPayload(
+    val familyCode: String,
+    val plan: LocalPlanSyncDto? = null,
+    val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
+    val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
+    val sessions: List<RemoteSessionSyncDto> = emptyList(),
+    val reviews: List<RemoteReviewSyncDto> = emptyList(),
+    val updatedAt: Long = System.currentTimeMillis()
+)
+
+@Serializable
 data class SyncResponseStatus(
     val success: Boolean,
     val message: String? = null,
     val syncedCount: Int = 0
 )
+
