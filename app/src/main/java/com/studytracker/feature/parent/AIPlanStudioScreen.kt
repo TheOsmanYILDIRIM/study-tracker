@@ -337,6 +337,9 @@ deneme = Hafta Sonu Deneme Sınavı | 90 dk | LGS / Genel Değerlendirme Denemes
                                     res.onSuccess {
                                         importResult = it
                                         Toast.makeText(context, "✅ Plan başarıyla birleştirildi ve yüklendi!", Toast.LENGTH_LONG).show()
+                                        try {
+                                            com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context).syncAll()
+                                        } catch (_: Exception) {}
                                     }.onFailure {
                                         errorMessage = it.localizedMessage ?: "İçe aktarma hatası"
                                     }

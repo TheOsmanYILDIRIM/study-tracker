@@ -93,8 +93,8 @@ fun CloudSyncDialog(
                             Icon(Icons.Default.CloudSync, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
                         }
                         Column {
-                            Text("Bulut Senkronizasyonu", color = ZomoTextPrimary, fontWeight = FontWeight.Bold, fontSize = 16.sp)
-                            Text("Supabase Realtime + Storage", color = ZenSkyCyan, fontSize = 11.sp)
+                            Text("Senkronizasyon Masası", color = ZomoTextPrimary, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                            Text("Yerel Köprü + Supabase Bulut", color = ZenSkyCyan, fontSize = 11.sp)
                         }
                     }
 
@@ -104,6 +104,44 @@ fun CloudSyncDialog(
                 }
 
                 Divider(color = ZenPaperBorder, thickness = 0.8.dp)
+
+                // Sync Mode Info Chip
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Surface(
+                        shape = RoundedCornerShape(10.dp),
+                        color = ZenSkyCyanContainer,
+                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.3f)),
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 6.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Icon(Icons.Default.Devices, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
+                            Text("Çift APK Köprüsü: Aktif", fontSize = 10.5.sp, color = ZenSkyCyan, fontWeight = FontWeight.Bold)
+                        }
+                    }
+
+                    Surface(
+                        shape = RoundedCornerShape(10.dp),
+                        color = Color(0x601A243D),
+                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 6.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Icon(Icons.Default.CloudQueue, contentDescription = null, tint = ZomoTextSecondary, modifier = Modifier.size(14.dp))
+                            Text("Bulut Eşitleme: Otomatik", fontSize = 10.5.sp, color = ZomoTextSecondary, fontWeight = FontWeight.Medium)
+                        }
+                    }
+                }
 
                 // Family Code Banner
                 Box(

@@ -121,4 +121,7 @@ interface ReviewDao {
 
     @Query("SELECT * FROM reviews WHERE sessionId = :sessionId LIMIT 1")
     suspend fun getReviewForSession(sessionId: String): ReviewEntity?
+
+    @Query("SELECT * FROM reviews")
+    suspend fun getAllReviewsOnce(): List<ReviewEntity>
 }

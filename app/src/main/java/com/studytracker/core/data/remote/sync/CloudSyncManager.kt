@@ -27,7 +27,6 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
-import kotlin.random.Random
 
 sealed class SyncState {
     object Idle : SyncState()
@@ -46,6 +45,7 @@ class CloudSyncManager private constructor(private val context: Context) {
         ignoreUnknownKeys = true
         encodeDefaults = true
         isLenient = true
+        prettyPrint = false
     }
 
     private val _syncState = MutableStateFlow<SyncState>(SyncState.Idle)
@@ -57,63 +57,108 @@ class CloudSyncManager private constructor(private val context: Context) {
     fun getOrCreateFamilyCode(): String {
         var code = prefs.familyPairCode.value.trim().uppercase()
         if (code.isEmpty()) {
-            val randomNum = Random.nextInt(1000, 9999)
-            code = "ST-$randomNum"
+            code = AppPreferences.DEFAULT_FAMILY_CODE
             prefs.setFamilyPairCode(code)
         }
         return code
     }
 
     fun joinFamily(code: String) {
-        val formatted = code.trim().uppercase()
+        val formatted = code.trim().uppercase().ifBlank { AppPreferences.DEFAULT_FAMILY_CODE }
         prefs.setFamilyPairCode(formatted)
     }
 
     private fun getBridgeFiles(familyCode: String): List<File> {
-        val files = mutableListOf<File>()
+        val files = LinkedHashSet<File>()
+        val fileName = "study_tracker_sync_${familyCode}.json"
+        val hiddenFileName = ".study_tracker_sync_${familyCode}.json"
+
+        // 1. Android standard public downloads
         try {
             val downloadDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
             if (downloadDir != null) {
-                files.add(File(downloadDir, ".study_tracker_sync_${familyCode}.json"))
-                files.add(File(downloadDir, "study_tracker_sync_${familyCode}.json"))
+                files.add(File(downloadDir, fileName))
+                files.add(File(downloadDir, hiddenFileName))
             }
         } catch (e: Exception) {
-            Log.w("CloudSyncManager", "External storage download dir not accessible: ${e.message}")
+            Log.w("CloudSyncManager", "Downloads directory access error: ${e.message}")
         }
-        files.add(File("/sdcard/Download/.study_tracker_sync_${familyCode}.json"))
-        files.add(File("/sdcard/Download/study_tracker_sync_${familyCode}.json"))
-        files.add(File(context.filesDir, "study_tracker_sync_${familyCode}.json"))
-        return files
+
+        // 2. Android standard public documents
+        try {
+            val docsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+            if (docsDir != null) {
+                files.add(File(docsDir, fileName))
+                files.add(File(docsDir, hiddenFileName))
+            }
+        } catch (e: Exception) {
+            Log.w("CloudSyncManager", "Documents directory access error: ${e.message}")
+        }
+
+        // 3. Absolute unix paths for /sdcard and /storage/emulated/0
+        files.add(File("/sdcard/Download/$fileName"))
+        files.add(File("/sdcard/Download/$hiddenFileName"))
+        files.add(File("/sdcard/Documents/$fileName"))
+        files.add(File("/storage/emulated/0/Download/$fileName"))
+        files.add(File("/storage/emulated/0/Download/$hiddenFileName"))
+        files.add(File("/storage/emulated/0/Documents/$fileName"))
+
+        // 4. App external files dir (accessible if shared storage restricted)
+        try {
+            val extFiles = context.getExternalFilesDir(null)
+            if (extFiles != null) {
+                files.add(File(extFiles, fileName))
+            }
+        } catch (_: Exception) {}
+
+        // 5. Internal private app files
+        files.add(File(context.filesDir, fileName))
+
+        return files.toList()
     }
 
     private fun readFromBridgeFile(familyCode: String): SharedFamilySyncPayload? {
+        var latestPayload: SharedFamilySyncPayload? = null
+        var maxUpdatedAt = -1L
+
         for (file in getBridgeFiles(familyCode)) {
             try {
                 if (file.exists() && file.canRead()) {
                     val text = file.readText()
                     if (text.isNotBlank()) {
                         val payload = json.decodeFromString<SharedFamilySyncPayload>(text)
-                        Log.d("CloudSyncManager", "Loaded bridge payload from ${file.absolutePath}")
-                        return payload
+                        if (payload.updatedAt > maxUpdatedAt) {
+                            maxUpdatedAt = payload.updatedAt
+                            latestPayload = payload
+                        }
                     }
                 }
             } catch (e: Exception) {
-                Log.w("CloudSyncManager", "Failed reading bridge from ${file.absolutePath}: ${e.message}")
+                Log.d("CloudSyncManager", "Skipping bridge file ${file.absolutePath}: ${e.message}")
             }
         }
-        return null
+        return latestPayload
     }
 
     private fun writeToBridgeFile(familyCode: String, payload: SharedFamilySyncPayload) {
-        val text = try { json.encodeToString(payload) } catch (e: Exception) { return }
+        val text = try {
+            json.encodeToString(payload)
+        } catch (e: Exception) {
+            Log.w("CloudSyncManager", "Failed encoding sync payload: ${e.message}")
+            return
+        }
+
+        var writeCount = 0
         for (file in getBridgeFiles(familyCode)) {
             try {
                 file.parentFile?.mkdirs()
                 file.writeText(text)
+                writeCount++
             } catch (e: Exception) {
-                Log.w("CloudSyncManager", "Failed writing bridge to ${file.absolutePath}: ${e.message}")
+                Log.d("CloudSyncManager", "Could not write bridge file to ${file.absolutePath}: ${e.message}")
             }
         }
+        Log.d("CloudSyncManager", "Successfully written sync bridge to $writeCount locations")
     }
 
     suspend fun syncAll(): Result<String> = withContext(Dispatchers.IO) {
@@ -126,26 +171,30 @@ class CloudSyncManager private constructor(private val context: Context) {
 
         try {
             var localOccurrences = db.occurrenceDao().getAllOccurrencesOnce()
-            val localSessions = db.sessionDao().getAllSessionsOnce()
-            val localPlan = db.planDao().getActivePlanOnce()
-            val localTasks = db.taskTemplateDao().getAllTasksOnce()
+            var localSessions = db.sessionDao().getAllSessionsOnce()
+            var localPlan = db.planDao().getActivePlanOnce()
+            var localTasks = db.taskTemplateDao().getAllTasksOnce()
+            val localReviews = db.reviewDao().getAllReviewsOnce()
 
-            // --- LOCAL BRIDGE FALLBACK SYNC ---
+            // 1. --- SMART TWO-WAY LOCAL BRIDGE RECONCILIATION ---
             val bridgePayload = readFromBridgeFile(familyCode)
-            if (localOccurrences.isEmpty() && bridgePayload != null && bridgePayload.occurrences.isNotEmpty()) {
-                // Student app has no data, restore from parent's bridge payload
+            if (bridgePayload != null) {
+                // A. Reconcile Plan & Task Templates
                 bridgePayload.plan?.let { p ->
-                    db.planDao().setActivePlan(
-                        PlanEntity(
-                            planId = p.planId,
-                            weekId = p.weekId,
-                            weekStartDate = p.weekStartDate,
-                            childId = p.childId,
-                            timezone = p.timezone,
-                            updatedAt = p.updatedAt,
-                            rawJson = p.rawJson
+                    if (localPlan == null || localPlan.weekId != p.weekId || localPlan.rawJson.isBlank()) {
+                        db.planDao().setActivePlan(
+                            PlanEntity(
+                                planId = p.planId,
+                                weekId = p.weekId,
+                                weekStartDate = p.weekStartDate,
+                                childId = p.childId,
+                                timezone = p.timezone,
+                                updatedAt = p.updatedAt,
+                                rawJson = p.rawJson
+                            )
                         )
-                    )
+                        localPlan = db.planDao().getActivePlanOnce()
+                    }
                 }
 
                 if (bridgePayload.tasks.isNotEmpty()) {
@@ -165,112 +214,143 @@ class CloudSyncManager private constructor(private val context: Context) {
                         )
                     }
                     db.taskTemplateDao().upsertTasks(taskEntities)
+                    localTasks = db.taskTemplateDao().getAllTasksOnce()
                 }
 
-                val occEntities = bridgePayload.occurrences.map { remote ->
-                    OccurrenceEntity(
-                        occurrenceKey = remote.id,
-                        taskId = remote.planId,
-                        type = try { TaskKind.valueOf(remote.topic) } catch (e: Exception) { TaskKind.DAILY },
-                        date = remote.date.ifEmpty { null },
-                        weekId = remote.weekId.ifEmpty { null },
-                        title = remote.subject,
-                        plannedMinutes = remote.targetDurationMin,
-                        youtubeUrl = null,
-                        reviewRequired = true,
-                        status = try { OccurrenceStatus.valueOf(remote.status) } catch (e: Exception) { OccurrenceStatus.PENDING },
-                        warning = false,
-                        warningText = remote.parentNote.ifEmpty { null },
-                        rejectCount = 0,
-                        approvedCount = remote.completedQuestionCount,
-                        targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null,
-                        targetMinutes = if (remote.completedDurationMin > 0) remote.completedDurationMin else null
-                    )
-                }
-                db.occurrenceDao().upsertOccurrences(occEntities)
-                localOccurrences = db.occurrenceDao().getAllOccurrencesOnce()
-            } else if (localOccurrences.isNotEmpty() || localPlan != null) {
-                // Parent app or active student has data, export to bridge payload
-                val occDtos = localOccurrences.map { occ ->
-                    RemoteOccurrenceSyncDto(
-                        id = occ.occurrenceKey,
-                        familyCode = familyCode,
-                        date = occ.date ?: "",
-                        planId = occ.taskId,
-                        subject = occ.title,
-                        topic = occ.type.name,
-                        targetDurationMin = occ.plannedMinutes,
-                        targetQuestionCount = occ.targetCount ?: 0,
-                        completedDurationMin = occ.targetMinutes ?: 0,
-                        completedQuestionCount = occ.approvedCount,
-                        status = occ.status.name,
-                        parentNote = occ.warningText ?: "",
-                        weekId = occ.weekId ?: "",
-                        orderIndex = 0
-                    )
-                }
+                // B. Reconcile Occurrences (Two-Way Status & Progress Merging)
+                val bridgeOccMap = bridgePayload.occurrences.associateBy { it.id }
+                val localOccMap = localOccurrences.associateBy { it.occurrenceKey }
+                val allOccKeys = (localOccMap.keys + bridgeOccMap.keys).distinct()
 
-                val sessDtos = localSessions.map { sess ->
-                    RemoteSessionSyncDto(
-                        id = sess.sessionId,
-                        familyCode = familyCode,
-                        occurrenceId = sess.occurrenceKey,
-                        startTime = sess.startTime,
-                        endTime = sess.endTime,
-                        durationMin = if (sess.endTime != null) ((sess.endTime - sess.startTime) / 60000).toInt() else 0,
-                        isCompleted = sess.status != SessionStatus.ACTIVE
-                    )
-                }
+                val mergedOccurrences = mutableListOf<OccurrenceEntity>()
 
-                val planDto = localPlan?.let {
-                    LocalPlanSyncDto(
-                        planId = it.planId,
-                        weekId = it.weekId,
-                        weekStartDate = it.weekStartDate,
-                        childId = it.childId,
-                        timezone = it.timezone,
-                        updatedAt = it.updatedAt,
-                        rawJson = it.rawJson
-                    )
-                } ?: bridgePayload?.plan
+                for (key in allOccKeys) {
+                    val local = localOccMap[key]
+                    val remote = bridgeOccMap[key]
 
-                val taskDtos = if (localTasks.isNotEmpty()) {
-                    localTasks.map {
-                        LocalTaskTemplateSyncDto(
-                            taskId = it.taskId,
-                            title = it.title,
-                            kind = it.kind.name,
-                            contentType = it.contentType.name,
-                            youtubeUrl = it.youtubeUrl,
-                            plannedMinutes = it.plannedMinutes,
-                            targetMode = it.targetMode?.name,
-                            targetCount = it.targetCount,
-                            targetMinutes = it.targetMinutes,
-                            reviewRequired = it.reviewRequired,
-                            active = it.active
+                    if (local != null && remote != null) {
+                        val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
+                        
+                        // Status resolution hierarchy: APPROVED > WAITING_REVIEW > ACTIVE > PENDING/REJECTED
+                        val resolvedStatus = when {
+                            local.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+                            local.status == OccurrenceStatus.WAITING_REVIEW || remoteStatus == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
+                            local.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
+                            remoteStatus == OccurrenceStatus.REJECTED || local.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
+                            else -> local.status
+                        }
+
+                        val approvedCount = maxOf(local.approvedCount, remote.completedQuestionCount)
+                        val targetCount = local.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null
+                        val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
+                        val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
+
+                        val hasWarning = local.warning || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
+                        val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local.warningText
+
+                        mergedOccurrences.add(
+                            OccurrenceEntity(
+                                occurrenceKey = key,
+                                taskId = if (local.taskId.isNotBlank()) local.taskId else remote.planId,
+                                type = local.type,
+                                date = local.date ?: remote.date.ifEmpty { null },
+                                weekId = local.weekId ?: remote.weekId.ifEmpty { null },
+                                title = if (local.title.isNotBlank()) local.title else remote.subject,
+                                plannedMinutes = if (local.plannedMinutes > 0) local.plannedMinutes else remote.targetDurationMin,
+                                youtubeUrl = local.youtubeUrl,
+                                reviewRequired = true,
+                                status = finalStatus,
+                                warning = hasWarning,
+                                warningText = warningText,
+                                rejectCount = maxOf(local.rejectCount, if (hasWarning) 1 else 0),
+                                approvedCount = approvedCount,
+                                targetCount = targetCount,
+                                targetMinutes = local.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null
+                            )
+                        )
+                    } else if (local != null) {
+                        mergedOccurrences.add(local)
+                    } else if (remote != null) {
+                        mergedOccurrences.add(
+                            OccurrenceEntity(
+                                occurrenceKey = remote.id,
+                                taskId = remote.planId,
+                                type = try { TaskKind.valueOf(remote.topic) } catch (e: Exception) { TaskKind.DAILY },
+                                date = remote.date.ifEmpty { null },
+                                weekId = remote.weekId.ifEmpty { null },
+                                title = remote.subject,
+                                plannedMinutes = remote.targetDurationMin,
+                                youtubeUrl = null,
+                                reviewRequired = true,
+                                status = try { OccurrenceStatus.valueOf(remote.status) } catch (e: Exception) { OccurrenceStatus.PENDING },
+                                warning = remote.parentNote.isNotBlank() && remote.status != "APPROVED",
+                                warningText = remote.parentNote.ifEmpty { null },
+                                rejectCount = 0,
+                                approvedCount = remote.completedQuestionCount,
+                                targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null,
+                                targetMinutes = if (remote.completedDurationMin > 0) remote.completedDurationMin else null
+                            )
                         )
                     }
-                } else (bridgePayload?.tasks ?: emptyList())
+                }
 
-                writeToBridgeFile(
-                    familyCode,
-                    SharedFamilySyncPayload(
-                        familyCode = familyCode,
-                        plan = planDto,
-                        tasks = taskDtos,
-                        occurrences = occDtos,
-                        sessions = sessDtos,
-                        reviews = bridgePayload?.reviews ?: emptyList()
+                if (mergedOccurrences.isNotEmpty()) {
+                    db.occurrenceDao().upsertOccurrences(mergedOccurrences)
+                    localOccurrences = db.occurrenceDao().getAllOccurrencesOnce()
+                }
+
+                // C. Reconcile Sessions (Preserve Completed & Waiting Review Sessions)
+                for (rs in bridgePayload.sessions) {
+                    val existing = localSessions.find { it.sessionId == rs.id }
+                    val resolvedSessionStatus = when {
+                        existing?.status == SessionStatus.APPROVED -> SessionStatus.APPROVED
+                        existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED
+                        rs.isCompleted -> SessionStatus.WAITING_REVIEW
+                        else -> existing?.status ?: SessionStatus.ACTIVE
+                    }
+
+                    val sessionEntity = SessionEntity(
+                        sessionId = rs.id,
+                        occurrenceKey = rs.occurrenceId,
+                        childId = "child_1",
+                        startTime = rs.startTime,
+                        endTime = rs.endTime ?: existing?.endTime,
+                        status = resolvedSessionStatus,
+                        screenshotCount = existing?.screenshotCount ?: 1,
+                        finalScreenshotUrl = existing?.finalScreenshotUrl
                     )
-                )
+                    db.sessionDao().upsertSession(sessionEntity)
+                }
+                localSessions = db.sessionDao().getAllSessionsOnce()
+
+                // D. Reconcile Reviews
+                for (rv in bridgePayload.reviews) {
+                    val reviewEntity = ReviewEntity(
+                        sessionId = rv.sessionId,
+                        occurrenceKey = rv.occurrenceIdOrKey(db),
+                        reviewStatus = if (rv.isApproved) ReviewStatus.APPROVED else ReviewStatus.REJECTED,
+                        reviewNote = rv.feedbackNote ?: rv.rejectionReason,
+                        reviewedAt = rv.reviewedAt
+                    )
+                    db.reviewDao().insertReview(reviewEntity)
+
+                    if (rv.isApproved) {
+                        db.occurrenceDao().updateStatus(reviewEntity.occurrenceKey, OccurrenceStatus.APPROVED)
+                        db.occurrenceDao().setWarning(reviewEntity.occurrenceKey, false, null)
+                    } else {
+                        db.occurrenceDao().updateStatus(reviewEntity.occurrenceKey, OccurrenceStatus.PENDING)
+                        db.occurrenceDao().setWarning(
+                            reviewEntity.occurrenceKey,
+                            true,
+                            rv.feedbackNote ?: rv.rejectionReason ?: "Lütfen eksikleri tamamlayıp tekrar yapınız."
+                        )
+                    }
+                }
             }
 
-            // --- REMOTE SUPABASE SYNC (with fallback) ---
-            var pulledOccCount = 0
-            var pulledSessCount = 0
-
+            // 2. --- REMOTE SUPABASE SYNC (with fail-safe fallback) ---
             try {
-                // 1. Push Local Occurrences Up
+                // Push local occurrences
                 for (occ in localOccurrences) {
                     val dto = RemoteOccurrenceSyncDto(
                         id = occ.occurrenceKey,
@@ -291,7 +371,7 @@ class CloudSyncManager private constructor(private val context: Context) {
                     supabaseClient.post("occurrences", dto) { json.encodeToString(it) }
                 }
 
-                // 2. Push Local Sessions Up
+                // Push local sessions
                 for (sess in localSessions) {
                     val dto = RemoteSessionSyncDto(
                         id = sess.sessionId,
@@ -305,15 +385,18 @@ class CloudSyncManager private constructor(private val context: Context) {
                     supabaseClient.post("sessions", dto) { json.encodeToString(it) }
                 }
 
-                // 3. Pull Remote Occurrences (Görevleri İndir)
+                // Pull remote occurrences
                 val occResponse = supabaseClient.get("occurrences", "family_code=eq.$familyCode")
                 if (occResponse.isSuccess) {
                     val occBody = occResponse.getOrNull() ?: ""
                     if (occBody.isNotEmpty() && occBody != "[]") {
                         try {
                             val remoteOccs: List<RemoteOccurrenceSyncDto> = json.decodeFromString(occBody)
-                            val entities = remoteOccs.map { remote ->
-                                OccurrenceEntity(
+                            for (remote in remoteOccs) {
+                                val current = db.occurrenceDao().getOccurrenceByKeyOnce(remote.id)
+                                val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
+                                val status = if (current?.status == OccurrenceStatus.APPROVED) OccurrenceStatus.APPROVED else remoteStatus
+                                val entity = OccurrenceEntity(
                                     occurrenceKey = remote.id,
                                     taskId = remote.planId,
                                     type = try { TaskKind.valueOf(remote.topic) } catch (e: Exception) { TaskKind.DAILY },
@@ -323,26 +406,23 @@ class CloudSyncManager private constructor(private val context: Context) {
                                     plannedMinutes = remote.targetDurationMin,
                                     youtubeUrl = null,
                                     reviewRequired = true,
-                                    status = try { OccurrenceStatus.valueOf(remote.status) } catch (e: Exception) { OccurrenceStatus.PENDING },
-                                    warning = false,
+                                    status = status,
+                                    warning = remote.parentNote.isNotBlank() && status != OccurrenceStatus.APPROVED,
                                     warningText = remote.parentNote.ifEmpty { null },
                                     rejectCount = 0,
-                                    approvedCount = remote.completedQuestionCount,
+                                    approvedCount = maxOf(current?.approvedCount ?: 0, remote.completedQuestionCount),
                                     targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null,
                                     targetMinutes = if (remote.completedDurationMin > 0) remote.completedDurationMin else null
                                 )
-                            }
-                            if (entities.isNotEmpty()) {
-                                db.occurrenceDao().upsertOccurrences(entities)
-                                pulledOccCount = entities.size
+                                db.occurrenceDao().upsertOccurrences(listOf(entity))
                             }
                         } catch (e: Exception) {
-                            Log.w("CloudSyncManager", "Error parsing remote occurrences: ${e.message}")
+                            Log.w("CloudSyncManager", "Error decoding remote occurrences: ${e.message}")
                         }
                     }
                 }
 
-                // 4. Pull Remote Sessions (Oturumları İndir)
+                // Pull remote sessions
                 val sessResponse = supabaseClient.get("sessions", "family_code=eq.$familyCode")
                 if (sessResponse.isSuccess) {
                     val sessBody = sessResponse.getOrNull() ?: ""
@@ -357,44 +437,18 @@ class CloudSyncManager private constructor(private val context: Context) {
                                     startTime = rs.startTime,
                                     endTime = rs.endTime,
                                     status = if (rs.isCompleted) SessionStatus.WAITING_REVIEW else SessionStatus.ACTIVE,
-                                    screenshotCount = 0,
+                                    screenshotCount = 1,
                                     finalScreenshotUrl = null
                                 )
                                 db.sessionDao().upsertSession(sessionEntity)
                             }
-                            pulledSessCount = remoteSessions.size
                         } catch (e: Exception) {
-                            Log.w("CloudSyncManager", "Error parsing remote sessions: ${e.message}")
+                            Log.w("CloudSyncManager", "Error decoding remote sessions: ${e.message}")
                         }
                     }
                 }
 
-                // 5. Pull Remote Screenshots (Kanıtları İndir)
-                val scResponse = supabaseClient.get("screenshots", "family_code=eq.$familyCode")
-                if (scResponse.isSuccess) {
-                    val scBody = scResponse.getOrNull() ?: ""
-                    if (scBody.isNotEmpty() && scBody != "[]") {
-                        try {
-                            val remoteScs: List<RemoteScreenshotSyncDto> = json.decodeFromString(scBody)
-                            for (rsc in remoteScs) {
-                                val scEntity = ScreenshotEntity(
-                                    screenshotId = rsc.id,
-                                    sessionId = rsc.sessionId,
-                                    occurrenceKey = rsc.sessionId,
-                                    capturedAt = rsc.timestamp,
-                                    url = rsc.imageUrl,
-                                    sizeKb = 150,
-                                    uploadStatus = UploadStatus.UPLOADED
-                                )
-                                db.screenshotDao().insertScreenshot(scEntity)
-                            }
-                        } catch (e: Exception) {
-                            Log.w("CloudSyncManager", "Error parsing remote screenshots: ${e.message}")
-                        }
-                    }
-                }
-
-                // 6. Pull Remote Reviews from Supabase (Veli Onayları)
+                // Pull remote reviews
                 val reviewsResponse = supabaseClient.get("reviews", "family_code=eq.$familyCode")
                 if (reviewsResponse.isSuccess) {
                     val responseText = reviewsResponse.getOrNull() ?: ""
@@ -406,29 +460,130 @@ class CloudSyncManager private constructor(private val context: Context) {
                                     sessionId = remoteReview.sessionId,
                                     occurrenceKey = remoteReview.occurrenceIdOrKey(db),
                                     reviewStatus = if (remoteReview.isApproved) ReviewStatus.APPROVED else ReviewStatus.REJECTED,
-                                    reviewNote = remoteReview.feedbackNote,
+                                    reviewNote = remoteReview.feedbackNote ?: remoteReview.rejectionReason,
                                     reviewedAt = remoteReview.reviewedAt
                                 )
                                 db.reviewDao().insertReview(reviewEntity)
 
                                 if (remoteReview.isApproved) {
                                     db.occurrenceDao().updateStatus(reviewEntity.occurrenceKey, OccurrenceStatus.APPROVED)
+                                    db.occurrenceDao().setWarning(reviewEntity.occurrenceKey, false, null)
                                 } else {
-                                    db.occurrenceDao().updateStatus(reviewEntity.occurrenceKey, OccurrenceStatus.REJECTED)
+                                    db.occurrenceDao().updateStatus(reviewEntity.occurrenceKey, OccurrenceStatus.PENDING)
+                                    db.occurrenceDao().setWarning(
+                                        reviewEntity.occurrenceKey,
+                                        true,
+                                        remoteReview.feedbackNote ?: remoteReview.rejectionReason ?: "Eksikleri tamamlayıp tekrar yapınız."
+                                    )
                                 }
                             }
                         } catch (e: Exception) {
-                            Log.w("CloudSyncManager", "Error parsing remote reviews: ${e.message}")
+                            Log.w("CloudSyncManager", "Error decoding remote reviews: ${e.message}")
                         }
                     }
                 }
             } catch (netEx: Exception) {
-                Log.w("CloudSyncManager", "Remote Supabase sync skipped/failed (local bridge used): ${netEx.message}")
+                Log.d("CloudSyncManager", "Remote Supabase sync skipped/offline: ${netEx.message}")
             }
 
-            val finalCount = db.occurrenceDao().getAllOccurrencesOnce().size
+            // 3. --- RE-EXPORT FULL CONSOLIDATED STATE TO ALL SHARED BRIDGE LOCATIONS ---
+            val finalOccurrences = db.occurrenceDao().getAllOccurrencesOnce()
+            val finalSessions = db.sessionDao().getAllSessionsOnce()
+            val finalPlan = db.planDao().getActivePlanOnce()
+            val finalTasks = db.taskTemplateDao().getAllTasksOnce()
+            val finalReviews = db.reviewDao().getAllReviewsOnce()
+
+            val occDtos = finalOccurrences.map { occ ->
+                RemoteOccurrenceSyncDto(
+                    id = occ.occurrenceKey,
+                    familyCode = familyCode,
+                    date = occ.date ?: "",
+                    planId = occ.taskId,
+                    subject = occ.title,
+                    topic = occ.type.name,
+                    targetDurationMin = occ.plannedMinutes,
+                    targetQuestionCount = occ.targetCount ?: 0,
+                    completedDurationMin = occ.targetMinutes ?: 0,
+                    completedQuestionCount = occ.approvedCount,
+                    status = occ.status.name,
+                    parentNote = occ.warningText ?: "",
+                    weekId = occ.weekId ?: "",
+                    orderIndex = 0
+                )
+            }
+
+            val sessDtos = finalSessions.map { sess ->
+                RemoteSessionSyncDto(
+                    id = sess.sessionId,
+                    familyCode = familyCode,
+                    occurrenceId = sess.occurrenceKey,
+                    startTime = sess.startTime,
+                    endTime = sess.endTime,
+                    durationMin = if (sess.endTime != null) ((sess.endTime - sess.startTime) / 60000).toInt() else 0,
+                    isCompleted = sess.status != SessionStatus.ACTIVE
+                )
+            }
+
+            val planDto = finalPlan?.let {
+                LocalPlanSyncDto(
+                    planId = it.planId,
+                    weekId = it.weekId,
+                    weekStartDate = it.weekStartDate,
+                    childId = it.childId,
+                    timezone = it.timezone,
+                    updatedAt = it.updatedAt,
+                    rawJson = it.rawJson
+                )
+            } ?: bridgePayload?.plan
+
+            val taskDtos = if (finalTasks.isNotEmpty()) {
+                finalTasks.map {
+                    LocalTaskTemplateSyncDto(
+                        taskId = it.taskId,
+                        title = it.title,
+                        kind = it.kind.name,
+                        contentType = it.contentType.name,
+                        youtubeUrl = it.youtubeUrl,
+                        plannedMinutes = it.plannedMinutes,
+                        targetMode = it.targetMode?.name,
+                        targetCount = it.targetCount,
+                        targetMinutes = it.targetMinutes,
+                        reviewRequired = it.reviewRequired,
+                        active = it.active
+                    )
+                }
+            } else (bridgePayload?.tasks ?: emptyList())
+
+            val reviewDtos = finalReviews.map { r ->
+                RemoteReviewSyncDto(
+                    id = "rev_${r.sessionId}",
+                    familyCode = familyCode,
+                    sessionId = r.sessionId,
+                    isApproved = r.reviewStatus == ReviewStatus.APPROVED,
+                    rejectionReason = if (r.reviewStatus != ReviewStatus.APPROVED) r.reviewNote else null,
+                    parentRating = if (r.reviewStatus == ReviewStatus.APPROVED) 5 else 1,
+                    feedbackNote = r.reviewNote,
+                    reviewedAt = r.reviewedAt
+                )
+            }
+
+            writeToBridgeFile(
+                familyCode,
+                SharedFamilySyncPayload(
+                    familyCode = familyCode,
+                    plan = planDto,
+                    tasks = taskDtos,
+                    occurrences = occDtos,
+                    sessions = sessDtos,
+                    reviews = reviewDtos,
+                    updatedAt = System.currentTimeMillis()
+                )
+            )
+
+            val finalCount = finalOccurrences.size
+            val waitingCount = finalSessions.count { it.status == SessionStatus.WAITING_REVIEW }
             _lastSyncedTime.value = System.currentTimeMillis()
-            _syncState.value = SyncState.Success("Senkronizasyon Başarılı ($finalCount görev aktif)")
+            _syncState.value = SyncState.Success("Eşitleme Başarılı ($finalCount ders, $waitingCount onay bekleyen)")
             Result.success("Senkronizasyon tamamlandı")
         } catch (e: Exception) {
             _syncState.value = SyncState.Error("Senkronizasyon hatası: ${e.message}")
@@ -450,33 +605,31 @@ class CloudSyncManager private constructor(private val context: Context) {
                     isCompleted = true
                 )
 
-                // Update bridge file with session
+                // Update bridge payload directly
                 val bridge = readFromBridgeFile(familyCode)
-                if (bridge != null) {
-                    val updatedSessions = bridge.sessions.filter { it.id != sessionDto.id } + sessionDto
-                    writeToBridgeFile(familyCode, bridge.copy(sessions = updatedSessions, updatedAt = System.currentTimeMillis()))
+                val updatedSessions = (bridge?.sessions?.filter { it.id != sessionDto.id } ?: emptyList()) + sessionDto
+                val updatedOccurrences = (bridge?.occurrences ?: emptyList()).map { occ ->
+                    if (occ.id == session.occurrenceKey) {
+                        occ.copy(status = OccurrenceStatus.WAITING_REVIEW.name)
+                    } else occ
                 }
 
-                supabaseClient.post("sessions", sessionDto) { json.encodeToString(it) }
-
-                // Upload screenshot files
-                for (sc in screenshots) {
-                    val file = File(sc.url)
-                    val uploadResultUrl = if (file.exists()) {
-                        supabaseClient.uploadStorageFile("study-evidence", "${familyCode}/${sc.screenshotId}.jpg", file).getOrDefault(sc.url)
-                    } else {
-                        sc.url
-                    }
-
-                    val scDto = RemoteScreenshotSyncDto(
-                        id = sc.screenshotId,
+                writeToBridgeFile(
+                    familyCode,
+                    SharedFamilySyncPayload(
                         familyCode = familyCode,
-                        sessionId = sc.sessionId,
-                        imageUrl = uploadResultUrl,
-                        timestamp = sc.capturedAt
+                        plan = bridge?.plan,
+                        tasks = bridge?.tasks ?: emptyList(),
+                        occurrences = updatedOccurrences,
+                        sessions = updatedSessions,
+                        reviews = bridge?.reviews ?: emptyList(),
+                        updatedAt = System.currentTimeMillis()
                     )
-                    supabaseClient.post("screenshots", scDto) { json.encodeToString(it) }
-                }
+                )
+
+                // Also run full sync to broadcast
+                syncAll()
+
                 Result.success(Unit)
             } catch (e: Exception) {
                 Result.failure(e)
@@ -504,17 +657,39 @@ class CloudSyncManager private constructor(private val context: Context) {
 
             // Update bridge file with review decision
             val bridge = readFromBridgeFile(familyCode)
-            if (bridge != null) {
-                val updatedReviews = bridge.reviews.filter { it.sessionId != sessionId } + reviewDto
-                val updatedOccurrences = bridge.occurrences.map { occ ->
-                    if (occ.id == occurrenceKey) {
-                        occ.copy(status = if (isApproved) OccurrenceStatus.APPROVED.name else OccurrenceStatus.REJECTED.name)
-                    } else occ
-                }
-                writeToBridgeFile(familyCode, bridge.copy(reviews = updatedReviews, occurrences = updatedOccurrences, updatedAt = System.currentTimeMillis()))
+            val updatedReviews = (bridge?.reviews?.filter { it.sessionId != sessionId } ?: emptyList()) + reviewDto
+            val updatedOccurrences = (bridge?.occurrences ?: emptyList()).map { occ ->
+                if (occ.id == occurrenceKey) {
+                    occ.copy(
+                        status = if (isApproved) OccurrenceStatus.APPROVED.name else OccurrenceStatus.PENDING.name,
+                        parentNote = if (!isApproved) (feedbackNote ?: "") else "",
+                        completedQuestionCount = if (isApproved) occ.completedQuestionCount + 1 else occ.completedQuestionCount
+                    )
+                } else occ
             }
 
-            supabaseClient.post("reviews", reviewDto) { json.encodeToString(it) }
+            val updatedSessions = (bridge?.sessions ?: emptyList()).map { sess ->
+                if (sess.id == sessionId) {
+                    sess.copy(isCompleted = true)
+                } else sess
+            }
+
+            writeToBridgeFile(
+                familyCode,
+                SharedFamilySyncPayload(
+                    familyCode = familyCode,
+                    plan = bridge?.plan,
+                    tasks = bridge?.tasks ?: emptyList(),
+                    occurrences = updatedOccurrences,
+                    sessions = updatedSessions,
+                    reviews = updatedReviews,
+                    updatedAt = System.currentTimeMillis()
+                )
+            )
+
+            // Run full sync to broadcast
+            syncAll()
+
             Result.success(Unit)
         } catch (e: Exception) {
             Result.failure(e)

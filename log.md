@@ -85,6 +85,7 @@
 - **Uçan Kuyruklu Yıldız & Patlama Halkası (`FlyingComet` & `StarBurstRing`):** Görev bitirildiğinde görev kartından gökyüzüne süzülen altın-cyan kuyruklu yıldız parçacığı uçar (`Animatable(1200ms)`) ve hedef gökyüzü noktasında süpernova patlama dalgası oluşturur.
 - **🧪 Test Modu Canlı Önizleme Sliderı:**
   - Hem `ChildHomeScreen`'de (Test modu açıkken) hem de `DeveloperConsoleScreen` içinde 0% - 100% arasında sürüklenebilir interaktif Slider yerleştirildi.
+
 ### [2026-09-16] Tamamlandı: Tek Cihazda Çift APK (Flavors) & Supabase Gerçek Zamanlı Bulut Senkronizasyonu
 - **Gradle Product Flavors (Çift APK):** `child` ve `parent` flavor'ları tanımlandı. Tek cihazda aynı anda yüklenebilen iki bağımsız uygulama paketi (`com.studytracker.child` - "StudyTracker Öğrenci" ve `com.studytracker.parent` - "StudyTracker Veli") oluşturuldu.
 - **Role Özel Otomatik Başlangıç:** `BuildConfig.APP_ROLE` ile Öğrenci APK'sı doğrudan Çalışma Masasına/Rehbere, Veli APK'sı ise PIN korumalı Ebeveyn Masasına yönlenir.
@@ -92,9 +93,21 @@
 - **6 Haneli Aile Eşleşme Kodu (`ST-XXXX`):** `CloudSyncManager` ile cihazlar arası eşleşme, veritabanı kopyalama ve iki yönlü senkronizasyon sağlandı.
 - **Modern Arayüz ve Otomatik Eşitleme:** Tüm ekranlara (RoleSelection, ParentDashboard, ChildHome, DevConsole) entegre `CloudSyncDialog` bileşeni eklendi; ders bitirme ve inceleme kararlarında arka planda otomatik bulut eşitlemesi bağlandı.
 
-
-
-
-
+### [2026-09-16] Tamamlandı: Çift Yönlü Sağlam Senkronizasyon (Bidirectional Reconciliation) & Otomatik Eşitleme
+- **Kök Hata Tespiti & Çözümü:**
+  - Veli ve Öğrenci cihazlarının / APK'larının senkronize olamamasının ana sebebi, `CloudSyncManager.syncAll()` içinde "eğer yerel veritabanı boşsa köprüden oku, değilse köprünün üzerine yerel veriyi yaz" mantığının bulunmasıydı. Öğrenci veya Veli tarafında herhangi bir eski görev varken senkronizasyon tetiklendiğinde diğer tarafın güncel planı veya onay durumu okunmayıp üzerine yazılıyordu.
+  - Ayrıca iki bağımsız APK ilk kurulduğunda rastgele farklı aile kodları ürettiği için birbirlerinin dosya köprüsünü göremiyorlardı.
+- **İki Yönlü Akıllı Durum Mutabakatı (Status Reconciliation Engine):**
+  - **Durum Hiyerarşisi:** `APPROVED > WAITING_REVIEW > ACTIVE > PENDING`. Taraflardan biri görevi onayladığında onay durumu korunur; öğrenci görevi bitirdiğinde onay bekleyen durum veli tarafına anında yansıtılır.
+  - **Haftalık Görev & Geri Bildirim:** Veli reddettiğinde girilen açıklama notu öğrenci ekranında kırmızı uyarı kartı olarak görünür; haftalık soru/hedef sayaçları `maxOf(local, remote)` ile birleştirilir.
+  - **Plan & Şablon Eşitlemesi:** Veli AI Plan Stüdyosu'ndan yeni veya revize bir plan yüklediğinde, öğrenci uygulaması açılır açılmaz yeni haftayı ve dersleri otomatik olarak alır.
+- **Çok Konumlu Paylaşılan Dosya Köprüsü (Multi-Path Local Bridge):**
+  - `Environment.DIRECTORY_DOWNLOADS`, `Environment.DIRECTORY_DOCUMENTS`, `/sdcard/Download`, `/sdcard/Documents`, `/storage/emulated/0/...` ve uygulama dizinlerinin tamamı taranarak en güncel `updatedAt` zaman damgalı köprü yükü seçilir ve tüm erişilebilir konumlara yazılır.
+- **Varsayılan Paylaşılan Aile Kodu (`ST-2026`):**
+  - Her iki APK ilk kez yüklendiğinde varsayılan olarak `ST-2026` ortak aile koduna bağlanır; kullanıcının elle kod kopyalama/yazma zorunluluğu olmadan tek cihazda veya aynı ağda doğrudan çalışır.
+- **Otomatik Tetikleme:**
+  - Veli paneli açıldığında (`LaunchedEffect`), Öğrenci masası açıldığında (`LaunchedEffect`), AI Stüdyosu'nda plan içe aktarıldığında ve veli onay/red kararı verdiğinde anında `syncAll()` çağrılır.
+- **Birim Testleri:**
+  - `SyncReconciliationTest` ile durum çözünürlüğü, haftalık hedef tamamlama ve ebeveyn geri bildirim notlarının aktarımı doğrulandı.
 
 

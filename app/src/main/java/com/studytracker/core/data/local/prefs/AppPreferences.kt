@@ -65,7 +65,9 @@ class AppPreferences private constructor(context: Context) {
     }
 
     // Cloud Sync & Supabase preferences
-    private val _familyPairCode = MutableStateFlow(prefs.getString(KEY_FAMILY_PAIR_CODE, "") ?: "")
+    private val _familyPairCode = MutableStateFlow(
+        prefs.getString(KEY_FAMILY_PAIR_CODE, DEFAULT_FAMILY_CODE)?.ifBlank { DEFAULT_FAMILY_CODE } ?: DEFAULT_FAMILY_CODE
+    )
     val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
 
     private val _isCloudSyncEnabled = MutableStateFlow(prefs.getBoolean(KEY_CLOUD_SYNC_ENABLED, true))
@@ -78,8 +80,9 @@ class AppPreferences private constructor(context: Context) {
     val supabaseAnonKey: StateFlow<String> = _supabaseAnonKey.asStateFlow()
 
     fun setFamilyPairCode(code: String) {
-        prefs.edit().putString(KEY_FAMILY_PAIR_CODE, code).apply()
-        _familyPairCode.value = code
+        val sanitized = code.trim().uppercase().ifBlank { DEFAULT_FAMILY_CODE }
+        prefs.edit().putString(KEY_FAMILY_PAIR_CODE, sanitized).apply()
+        _familyPairCode.value = sanitized
     }
 
     fun setCloudSyncEnabled(enabled: Boolean) {
@@ -102,7 +105,7 @@ class AppPreferences private constructor(context: Context) {
         _hasCompletedTutorial.value = false
         _isFakeCaptureEnabled.value = true
         _isNightMode.value = true
-        _familyPairCode.value = ""
+        _familyPairCode.value = DEFAULT_FAMILY_CODE
         _isCloudSyncEnabled.value = true
         _supabaseUrl.value = DEFAULT_SUPABASE_URL
         _supabaseAnonKey.value = DEFAULT_SUPABASE_ANON_KEY
@@ -118,6 +121,8 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_CLOUD_SYNC_ENABLED = "is_cloud_sync_enabled"
         private const val KEY_SUPABASE_URL = "supabase_url"
         private const val KEY_SUPABASE_ANON_KEY = "supabase_anon_key"
+
+        const val DEFAULT_FAMILY_CODE = "ST-2026"
 
         // Default public demo project or placeholder endpoints (easily overridden in UI / DevConsole)
         const val DEFAULT_SUPABASE_URL = "https://wixmpyfegcvyzomgopte.supabase.co"

@@ -79,6 +79,12 @@ fun ParentDashboardScreen(
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showSyncDialog by remember { mutableStateOf(false) }
 
+    LaunchedEffect(Unit) {
+        try {
+            com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context).syncAll()
+        } catch (_: Exception) {}
+    }
+
     if (showSyncDialog) {
         com.studytracker.core.ui.components.CloudSyncDialog(
             onDismissRequest = { showSyncDialog = false }
