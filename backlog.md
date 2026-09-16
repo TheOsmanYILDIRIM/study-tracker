@@ -60,3 +60,8 @@
 
 ## 20. Çift Yönlü Sağlam Senkronizasyon & Otomatik Eşitleme Düzeltmesi
 - [x] Çift Yönlü Sağlam Senkronizasyon Motoru & Otomatik Eşitleme Düzeltmesi (İki yönlü durum mutabakatı, çoklu konumlu paylaşılan dosya köprüsü, varsayılan ST-2026 aile kodu, ekran açılışı & plan aktarımında otomatik tetikleme)
+
+## 21. Android ContentProvider IPC & Gerçek Zamanlı Bulut Senkronizasyon Altyapısı
+- [x] Android `StudySyncProvider` (Binder IPC) ile tek cihazda sıfır gecikmeli APK'lar arası doğrudan senkronizasyon (`content://com.studytracker.child.syncprovider` & `content://com.studytracker.parent.syncprovider`)
+- [x] Farklı fiziksel cihazlar ve internet üzerinden test için Supabase bulut veri şeması (`occurrences`, `sessions`, `reviews`, `plans`, `tasks`, `screenshots`) ve dinamik ayar desteği
+- [x] CI/CD ile kalıcı imzalı Release APK'ların üretimi ve `/sdcard/Download/` dizinine aktarılması

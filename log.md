@@ -105,9 +105,12 @@
   - `Environment.DIRECTORY_DOWNLOADS`, `Environment.DIRECTORY_DOCUMENTS`, `/sdcard/Download`, `/sdcard/Documents`, `/storage/emulated/0/...` ve uygulama dizinlerinin tamamı taranarak en güncel `updatedAt` zaman damgalı köprü yükü seçilir ve tüm erişilebilir konumlara yazılır.
 - **Varsayılan Paylaşılan Aile Kodu (`ST-2026`):**
   - Her iki APK ilk kez yüklendiğinde varsayılan olarak `ST-2026` ortak aile koduna bağlanır; kullanıcının elle kod kopyalama/yazma zorunluluğu olmadan tek cihazda veya aynı ağda doğrudan çalışır.
-- **Otomatik Tetikleme:**
+- [x] Otomatik Tetikleme:
   - Veli paneli açıldığında (`LaunchedEffect`), Öğrenci masası açıldığında (`LaunchedEffect`), AI Stüdyosu'nda plan içe aktarıldığında ve veli onay/red kararı verdiğinde anında `syncAll()` çağrılır.
 - **Birim Testleri:**
   - `SyncReconciliationTest` ile durum çözünürlüğü, haftalık hedef tamamlama ve ebeveyn geri bildirim notlarının aktarımı doğrulandı.
 
-
+### [2026-09-16] Tamamlandı: Android ContentProvider Binder IPC & Kalıcı İmzalı APK Derlemesi
+- **Sıfır Gecikmeli Doğrudan IPC Köprüsü (`StudySyncProvider`):** Android Scoped Storage kısıtlamalarını aşmak ve tek cihazda yan yana çalışan Veli ve Öğrenci APK'ları arasında 0ms hızında veri aktarmak için ContentProvider Binder IPC altyapısı kodlandı (`content://com.studytracker.child.syncprovider` & `content://com.studytracker.parent.syncprovider`).
+- **Gerçek Zamanlı İnternet / Bulut Senkronizasyonu (Supabase Backend):** Farklı fiziksel cihazlar üzerinden test yapılabilmesi için Supabase REST & Realtime mimarisi ve SQL tablo şemaları hazırlandı.
+- **CI/CD Derleme & Kurulum:** GitHub Actions workflow (`Build & Release StudyTracker APK`, Run ID: `35087642980` ✓) başarıyla tamamlandı; imzalı `StudyTracker-Veli.apk` (2.5MB) ve `StudyTracker-Ogrenci.apk` (2.5MB) `/sdcard/Download/` dizinine aktarıldı.
