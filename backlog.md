@@ -77,6 +77,6 @@
 - [x] Karmaşık, yavaş ve zaman aşımına uğrayan çok katmanlı yapı yerine tek ve kesin çalışan 0-gecikmeli ContentProvider Binder IPC eşitleme köprüsü
 - [x] `StudySyncProvider` içinde `sync` ve `openFile` metotları ile canlı veritabanı ve kanıt görsellerinin kesintisiz, anında aktarımı
 - [x] Ağ kesintilerinden ve zaman aşımlarından etkilenmeyen, 3 saniye zaman aşımlı bağımsız ve arka planda çalışan bulut yedekleme sistemi
-- [x] Tek tıkla JSON kopyalama ve içe aktarma ile her ortamda garantili manuel yedekleme mekanizması
+- [x] Farklı cihazlar için tek dokunuşla Android sistem paylaşım menüsü (WhatsApp/SMS/QuickShare/Nearby), panoya kopyalama ve içe aktarma mekanizması
 
 

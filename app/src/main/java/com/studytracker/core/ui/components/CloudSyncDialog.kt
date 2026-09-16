@@ -281,7 +281,7 @@ fun CloudSyncDialog(
                     }
                 }
 
-                // Direct Copy/Paste Bridge Options
+                // Direct Copy/Paste & Native Share Bridge Options
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
@@ -290,9 +290,13 @@ fun CloudSyncDialog(
                         onClick = {
                             scope.launch {
                                 val payload = syncManager.exportCurrentPayloadString()
-                                val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                                clipboard.setPrimaryClip(ClipData.newPlainText("StudyTrackerPayload", payload))
-                                Toast.makeText(context, "📦 Tüm ders verisi panoya kopyalandı!", Toast.LENGTH_SHORT).show()
+                                val sendIntent = android.content.Intent().apply {
+                                    action = android.content.Intent.ACTION_SEND
+                                    putExtra(android.content.Intent.EXTRA_TEXT, payload)
+                                    type = "text/plain"
+                                }
+                                val shareIntent = android.content.Intent.createChooser(sendIntent, "StudyTracker Verisini Paylaş")
+                                context.startActivity(shareIntent)
                             }
                         },
                         shape = ZenPillShape,
@@ -301,7 +305,7 @@ fun CloudSyncDialog(
                     ) {
                         Icon(Icons.Default.Share, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(14.dp))
                         Spacer(modifier = Modifier.width(4.dp))
-                        Text("Veriyi Kopyala", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Text("Paylaş / Gönder", color = ZenSkyCyan, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                     }
 
                     OutlinedButton(
