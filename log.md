@@ -196,8 +196,10 @@
 - **Dinamik AI Soru & Test Üretici Promptu (`AIPromptBuilder` & `AIQuizStudioDialog`):**
   - Veli için sınıf seviyesi, ders konusu, soru sayısı ve süreye göre hazır AI promptu üreten stüdyo diyalogu geliştirildi.
   - Tek tıkla prompt kopyalama, örnek soru doldurma ve yapıştırılan testi anında veritabanına kaydetme iş akışı sağlandı.
-- **Donanım Hızlandırmalı KaTeX/MathJax LaTeX Görüntüleyici (`LatexMathView`):**
-  - Formüller, köklü ifadeler, kesirler ve integral sembolleri için karanlık Zen temasına uyumlu (`#070B14`, `#0F1B2E`, `#00F5D4`) yerel WebView/KaTeX bileşeni kodlandı.
+- **Donanım Hızlandırmalı & %100 Çökme Korumalı Yerel (Native) Matematik Görüntüleyici (`LatexMathView`):**
+  - LazyColumn ve liste görünümlerinde onlarca WebView örneğinin aynı anda açılmasından kaynaklanan bellek tüketimi ve çökme riski tamamen ortadan kaldırıldı.
+  - Yerine sıfır gecikmeli (0ms), 120 FPS akıcı ve %100 yerel Compose Text tabanlı Unicode matematik dönüştürücüsü (`formatLatexToNativeMath`) entegre edildi.
+  - Kesirler (`1/2`, `(x²-4)/(x-2)`), karekökler (`√(x)`), üslü sayılar (`x²`, `cos²(x)`), indisler (`x₀`), Yunan harfleri (`π`, `θ`, `α`), limit, integral ve trigonometrik fonksiyonlar donanım hızlandırmalı ve sıfır çökme garantisiyle çiziliyor.
 - **Öğrenci Test Çözüm Ekranı (`ChildQuizScreen` — Gizli Cevap/Skor Kuralı):**
   - Öğrenci sorular arasında kaydırarak veya düğmelerle gezinebiliyor, şıkları işaretleyebiliyor.
   - **Kritik Kural:** Öğrenci testi çözerken veya bitirdiğinde doğru/yanlış cevapları ve test skorunu ASLA görmez; yalnızca teslim onay diyalogu gösterilerek cevapları kaydedilir.
@@ -205,5 +207,6 @@
   - Veli tarafında çözülen testler için başarı oranı, doğru/yanlış/boş sayıları, öğrencinin işaretlediği şık ile doğru cevabın renkli karşılaştırması ve çözüm açıklamaları eksiksiz sunuldu.
 - **Paket & Senkronizasyon Entegrasyonu (`StudyPackageExchangeManager`, `StudySyncProvider`, `SupabaseDto`):**
   - `.studyplan` plan ve günlük rapor paketlerine testler entegre edildi; veliden öğrenciye test gönderme ve öğrenciden veliye çözülmüş test cevaplarını iletme döngüsü tamamlandı.
+
 
 

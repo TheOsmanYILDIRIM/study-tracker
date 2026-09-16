@@ -86,18 +86,21 @@ COZUM: Cisim merkezde (2f) ise görüntü merkezde ve ters oluşur.
     }
 
     @Test
-    fun `formatLatexString properly groups LaTeX equations and options`() {
+    fun `formatLatexToNativeMath properly transforms LaTeX equations and options`() {
         val rawQuestion = "\\arctan(1) + \\arcsin\\left(-\\frac{1}{2}\\right)\nifadesinin değeri kaçtır?"
-        val formatted = com.studytracker.core.ui.components.formatLatexString(rawQuestion)
+        val formatted = com.studytracker.core.ui.components.formatLatexToNativeMath(rawQuestion)
 
-        // Line 1 is pure math equation, should be enclosed in $$...$$
-        assertTrue(formatted.contains("$$\\arctan(1) + \\arcsin\\left(-\\frac{1}{2}\\right)$$"))
-        // Line 2 has Turkish prose
+        assertTrue(formatted.contains("arctan(1) + arcsin(-1/2)"))
         assertTrue(formatted.contains("ifadesinin değeri kaçtır?"))
 
         val optionText = "\\frac{\\pi}{12}"
-        val formattedOption = com.studytracker.core.ui.components.formatLatexString(optionText)
-        assertTrue(formattedOption.contains("$$\\frac{\\pi}{12}$$"))
+        val formattedOption = com.studytracker.core.ui.components.formatLatexToNativeMath(optionText)
+        assertEquals("π/12", formattedOption)
+
+        val powerText = "x^2 + 2x - 3 = 0"
+        val formattedPower = com.studytracker.core.ui.components.formatLatexToNativeMath(powerText)
+        assertEquals("x² + 2x - 3 = 0", formattedPower)
     }
 }
+
 
