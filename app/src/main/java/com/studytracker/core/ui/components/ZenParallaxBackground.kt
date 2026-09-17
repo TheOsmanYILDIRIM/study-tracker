@@ -78,7 +78,8 @@ fun ZenParallaxBackground(
     modifier: Modifier = Modifier,
     completedTasksCount: Int = 0,
     totalTasksCount: Int = 1,
-    flyingStarTrigger: Long = 0L
+    flyingStarTrigger: Long = 0L,
+    progressOverride: Float? = null
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "ZenSingleImageParallax")
 
@@ -113,8 +114,8 @@ fun ZenParallaxBackground(
     )
 
     // Görev tamamlama ilerleme oranı (0.0f = Loş Gece, 1.0f = Işıl Işıl Aydınlık Gece)
-    val effectiveProgress = remember(completedTasksCount, totalTasksCount) {
-        if (totalTasksCount <= 0) {
+    val effectiveProgress = remember(completedTasksCount, totalTasksCount, progressOverride) {
+        progressOverride ?: if (totalTasksCount <= 0) {
             0.5f
         } else {
             (completedTasksCount.toFloat() / totalTasksCount.coerceAtLeast(1)).coerceIn(0f, 1f)
