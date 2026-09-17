@@ -1278,7 +1278,9 @@ fun OccurrenceAdminCard(
                         text = occurrence.title,
                         fontWeight = FontWeight.Bold,
                         color = ZomoTextPrimary,
-                        fontSize = 13.5.sp
+                        fontSize = 13.5.sp,
+                        maxLines = 3,
+                        overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                     )
                     Text(
                         text = "${occurrence.plannedMinutes} dk" +

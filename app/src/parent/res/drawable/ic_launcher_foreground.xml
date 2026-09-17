@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.78"
+        android:scaleY="0.78"
+        android:translateX="11.88"
+        android:translateY="11.88">
+        <!-- Shield of Guidance / Family Protection -->
+        <path
+            android:fillColor="#A78BFA"
+            android:pathData="M54,20 L82,32 L82,56 C82,74 54,88 54,88 C54,88 26,74 26,56 L26,32 Z" />
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M54,26 L76,36 L76,55 C76,70 54,81 54,81 C54,81 32,70 32,55 L32,36 Z" />
+        <!-- Analytical Eye / Insight / Heart Star in Center -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M54,42 L57,50 L66,50 L59,55 L61,64 L54,59 L47,64 L49,55 L42,50 L51,50 Z" />
+        <!-- Checkmark Badge on Shield bottom -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M68,66 A9,9 0 1,0 68,84 A9,9 0 1,0 68,66 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M65,75 L67,77 L72,72 L70.5,70.5 L67,74 L66,73 Z" />
+    </group>
+</vector>

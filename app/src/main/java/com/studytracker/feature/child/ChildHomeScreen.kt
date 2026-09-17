@@ -75,7 +75,17 @@ fun ChildHomeScreen(
 
     // Stable method reference
     val onTaskStart: (Occurrence) -> Unit = remember(stateManager) {
-        { task -> stateManager.startSession(task.occurrenceKey, task.title) }
+        { task ->
+            stateManager.startSession(task.occurrenceKey, task.title)
+            if (!task.youtubeUrl.isNullOrBlank()) {
+                try {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(task.youtubeUrl)).apply {
+                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    }
+                    context.startActivity(intent)
+                } catch (_: Exception) {}
+            }
+        }
     }
 
     val dailyTasks = remember(occurrences) {

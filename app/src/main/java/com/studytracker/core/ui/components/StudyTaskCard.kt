@@ -17,6 +17,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.platform.LocalContext
+import android.content.Intent
+import android.net.Uri
 import com.studytracker.core.domain.model.Occurrence
 import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
@@ -141,10 +144,11 @@ fun StudyTaskCard(
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     color = ZomoTextPrimary,
-                    fontSize = 14.5.sp,
-                    maxLines = 1
+                    fontSize = 14.sp,
+                    maxLines = 3,
+                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                 )
-                Spacer(modifier = Modifier.height(1.dp))
+                Spacer(modifier = Modifier.height(2.dp))
                 Text(
                     text = "${occurrence.plannedMinutes} dk" +
                             if (occurrence.type == TaskKind.WEEKLY && occurrence.targetCount != null)
@@ -319,6 +323,60 @@ fun StudyTaskCard(
                 }
                 else -> {
                     StatusBadge(status = occurrence.status, warning = occurrence.warning)
+                }
+            }
+        }
+
+        // Video Link Action Button
+        if (!occurrence.youtubeUrl.isNullOrBlank()) {
+            val context = LocalContext.current
+            val validUrl = occurrence.youtubeUrl
+            Surface(
+                shape = RoundedCornerShape(8.dp),
+                color = ZenRoseCoral.copy(alpha = 0.12f),
+                border = androidx.compose.foundation.BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.45f)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable {
+                        try {
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(validUrl)).apply {
+                                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                            }
+                            context.startActivity(intent)
+                        } catch (_: Exception) {
+                            try {
+                                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(validUrl)).apply {
+                                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                }
+                                context.startActivity(browserIntent)
+                            } catch (_: Exception) {}
+                        }
+                    }
+            ) {
+                Row(
+                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.SmartDisplay,
+                        contentDescription = null,
+                        tint = ZenRoseCoral,
+                        modifier = Modifier.size(15.dp)
+                    )
+                    Text(
+                        text = "🎬 Videoyu / Dersi Aç",
+                        fontWeight = FontWeight.Bold,
+                        color = ZenRoseCoral,
+                        fontSize = 11.5.sp,
+                        modifier = Modifier.weight(1f)
+                    )
+                    Icon(
+                        imageVector = Icons.Default.OpenInNew,
+                        contentDescription = null,
+                        tint = ZenRoseCoral,
+                        modifier = Modifier.size(13.dp)
+                    )
                 }
             }
         }
@@ -545,8 +603,9 @@ fun StudyWeeklyTaskCard(
             style = MaterialTheme.typography.titleSmall,
             fontWeight = FontWeight.Bold,
             color = ZomoTextPrimary,
-            fontSize = 13.5.sp,
-            maxLines = 1
+            fontSize = 13.sp,
+            maxLines = 2,
+            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
         )
 
         // Progress Bar & Target Text
