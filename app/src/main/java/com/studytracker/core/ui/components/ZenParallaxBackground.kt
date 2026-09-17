@@ -9,20 +9,23 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.ColorMatrix
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import com.studytracker.R
 import com.studytracker.core.ui.theme.ZenMoonGold
 import com.studytracker.core.ui.theme.ZenSkyCyan
+import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.random.Random
 
 /**
- * Gökyüzündeki kağıt kesim takımyıldızı koordinatları (xRatio, yRatio, 0.0f - 1.0f).
+ * Gökyüzündeki takımyıldızı koordinatları (xRatio, yRatio, 0.0f - 1.0f).
  */
 data class ZenConstellationStar(
     val id: Int,
@@ -62,30 +65,35 @@ private data class AmbientFirefly(
     val pulseSpeed: Float
 )
 
+private data class ForegroundDustParticle(
+    val startXRatio: Float,
+    val startYRatio: Float,
+    val radius: Float,
+    val isGold: Boolean,
+    val driftSpeed: Float,
+    val baseAlpha: Float
+)
+
 /**
- * Tek Parça Masal Arka Planı + Canlı Renk & Parlaklık Fullenmesi + Görev Uçan Yıldız Sistemi:
- * - Tek bir yüksek kaliteli masal gecesi görseli (bg_zen_night.webp).
- * - Görevler tamamlandıkça (progressRatio 0f -> 1f):
+ * Tek Parça Masal Arka Planı:
+ * - Görevler tamamlandıkça (progress = completed / total):
  *   - Arka plan görselinin alpha ve renk doygunluğu artar (ColorMatrix saturation & brightness).
- *   - Üstteki koruyucu okuma scrim katmanı açılarak muazzam canlılık ve parıltı sunar.
- *   - Gökyüzündeki altın takımyıldızları ve stardust parçacıkları kademeli olarak ışıldar.
- * - Görev bitirildiğinde görev kartından gökyüzüne altın-cyan kuyruklu yıldız uçar ve patlama halkasıyla hedef yıldızı aydınlatır.
+ *   - Üstteki koruyucu okuma scrim katmanı açılarak arkaplan aydınlanır ve parıldar.
+ *   - Gökyüzündeki altın takımyıldızları ve ateşböceği parçacıkları kademeli olarak canlanır.
  */
 @Composable
 fun ZenParallaxBackground(
     modifier: Modifier = Modifier,
     completedTasksCount: Int = 0,
     totalTasksCount: Int = 1,
-    progressOverride: Float? = null,
-    flyingStarTrigger: Long = 0L,
-    scrimColor: Color = Color(0x66081420)
+    progressOverride: Float? = null
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "ZenSingleImageParallax")
 
-    // Hafif ve büyüleyici süzülme / nefes alma hareketi (120 FPS GPU graphicsLayer)
+    // Hafif süzülme / nefes alma hareketi (120 FPS GPU graphicsLayer)
     val floatX by infiniteTransition.animateFloat(
-        initialValue = -10f,
-        targetValue = 10f,
+        initialValue = -8f,
+        targetValue = 8f,
         animationSpec = infiniteRepeatable(
             animation = tween(durationMillis = 18000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
@@ -93,8 +101,8 @@ fun ZenParallaxBackground(
         label = "bgFloatX"
     )
     val floatY by infiniteTransition.animateFloat(
-        initialValue = -5f,
-        targetValue = 5f,
+        initialValue = -4f,
+        targetValue = 4f,
         animationSpec = infiniteRepeatable(
             animation = tween(durationMillis = 14000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
@@ -102,18 +110,18 @@ fun ZenParallaxBackground(
         label = "bgFloatY"
     )
 
-    // Gökyüzü nefes alma / parıldama ritmi
+    // Gökyüzü nefes alma ritmi
     val shimmerPulse by infiniteTransition.animateFloat(
-        initialValue = 0.75f,
+        initialValue = 0.70f,
         targetValue = 1.0f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 3000, easing = FastOutSlowInEasing),
+            animation = tween(durationMillis = 3500, easing = FastOutSlowInEasing),
             repeatMode = RepeatMode.Reverse
         ),
         label = "shimmerPulse"
     )
 
-    // Görev tamamlama ilerleme oranı (0.0f = Loş/Sakin Gece, 1.0f = Işıl Işıl Dolu/Canlı Gece)
+    // Görev tamamlama ilerleme oranı (0.0f = Loş Gece, 1.0f = Işıl Işıl Aydınlık Gece)
     val effectiveProgress = remember(completedTasksCount, totalTasksCount, progressOverride) {
         if (progressOverride != null) {
             progressOverride.coerceIn(0f, 1f)
@@ -124,10 +132,10 @@ fun ZenParallaxBackground(
         }
     }
 
-    // İlerleme durumuna göre dinamik görsel parametreleri
-    val bgAlpha = 0.55f + 0.45f * effectiveProgress // 0.55f (loş) -> 1.0f (tam parlak)
-    val scrimAlpha = (0.55f - 0.35f * effectiveProgress).coerceIn(0.15f, 0.65f) // 0.55f -> 0.20f (okuma koruması açılır)
-    val colorSaturation = 0.85f + 0.45f * effectiveProgress // 0.85f -> 1.30f (renkler canlanır)
+    // Görevler tamamlandıkça arka plan belirginleşir ve aydınlanır
+    val bgAlpha = 0.45f + 0.55f * effectiveProgress // 0.45f (loş) -> 1.0f (tam aydınlık)
+    val scrimAlpha = (0.52f - 0.38f * effectiveProgress).coerceIn(0.10f, 0.60f) // 0.52f -> 0.14f (okuma koruması incelir)
+    val colorSaturation = 0.80f + 0.55f * effectiveProgress // 0.80f -> 1.35f (renkler doygunlaşır)
 
     val colorMatrix = remember(colorSaturation) {
         ColorMatrix().apply {
@@ -135,40 +143,14 @@ fun ZenParallaxBackground(
         }
     }
 
-    // --- UÇAN YILDIZ (FLYING COMET & BURST) ANİMASYON DURUMU ---
-    val flyingStarAnim = remember { Animatable(0f) }
-    var burstTargetIndex by remember { mutableStateOf(0) }
-    var burstAnimTrigger by remember { mutableStateOf(false) }
-
-    LaunchedEffect(flyingStarTrigger) {
-        if (flyingStarTrigger > 0L) {
-            val starCount = ZenConstellationStars.size
-            burstTargetIndex = ((effectiveProgress * starCount).toInt()).coerceIn(0, starCount - 1)
-            flyingStarAnim.snapTo(0f)
-            burstAnimTrigger = false
-            flyingStarAnim.animateTo(
-                targetValue = 1f,
-                animationSpec = tween(durationMillis = 1200, easing = FastOutSlowInEasing)
-            )
-            burstAnimTrigger = true
-        }
-    }
-
-    // Patlama halkası animasyonu (Burst Ring)
-    val burstRingProgress by animateFloatAsState(
-        targetValue = if (burstAnimTrigger) 1f else 0f,
-        animationSpec = tween(durationMillis = 800, easing = LinearOutSlowInEasing),
-        label = "burstRingProgress"
-    )
-
     // Ambient Yüzen Ateşböcekleri
     val fireflies = remember {
         val rand = Random(1337)
-        List(28) {
+        List(24) {
             AmbientFirefly(
                 xRatio = rand.nextFloat(),
                 yRatio = rand.nextFloat() * 0.85f + 0.05f,
-                radius = rand.nextFloat() * 2.2f + 1.2f,
+                radius = rand.nextFloat() * 2.0f + 1.2f,
                 isGold = rand.nextBoolean(),
                 pulseSpeed = rand.nextFloat() * 0.7f + 0.6f
             )
@@ -187,13 +169,13 @@ fun ZenParallaxBackground(
                 .graphicsLayer {
                     translationX = floatX
                     translationY = floatY
-                    scaleX = 1.08f
-                    scaleY = 1.08f
+                    scaleX = 1.06f
+                    scaleY = 1.06f
                     alpha = bgAlpha
                 }
         )
 
-        // --- 2. DİNAMİK GÖKYÜZÜ YILDIZLARI, UÇAN KUYRUKLU YILDIZ & PATLAMA TUVALİ ---
+        // --- 2. DİNAMİK GÖKYÜZÜ YILDIZLARI TUVALİ ---
         Canvas(
             modifier = Modifier
                 .fillMaxSize()
@@ -205,7 +187,7 @@ fun ZenParallaxBackground(
             val width = size.width
             val height = size.height
 
-            // A. İlerlemeye Göre Açılan / Parlayan Takımyıldızı Noktaları
+            // İlerlemeye Göre Açılan / Parlayan Takımyıldızı Noktaları
             val totalStars = ZenConstellationStars.size
             val activeStarsCount = (effectiveProgress * totalStars).toInt().coerceIn(0, totalStars)
 
@@ -218,15 +200,15 @@ fun ZenParallaxBackground(
                 val starAlpha = if (isActive) {
                     (0.70f + 0.30f * shimmerPulse)
                 } else {
-                    (0.15f + 0.10f * shimmerPulse) * effectiveProgress.coerceAtLeast(0.2f)
+                    (0.12f + 0.08f * shimmerPulse) * effectiveProgress.coerceAtLeast(0.15f)
                 }
 
-                val auraRadius = if (isActive) star.baseRadius * (3.5f + 1.2f * effectiveProgress) else star.baseRadius * 1.8f
-                val coreRadius = if (isActive) star.baseRadius * (1.2f + 0.4f * effectiveProgress) else star.baseRadius * 0.8f
+                val auraRadius = if (isActive) star.baseRadius * (3.5f + 1.2f * effectiveProgress) else star.baseRadius * 1.6f
+                val coreRadius = if (isActive) star.baseRadius * (1.2f + 0.4f * effectiveProgress) else star.baseRadius * 0.7f
 
                 // Altın Işıltı Aurası
                 drawCircle(
-                    color = ZenMoonGold.copy(alpha = starAlpha * 0.55f),
+                    color = ZenMoonGold.copy(alpha = starAlpha * 0.50f),
                     radius = auraRadius,
                     center = Offset(starX, starY)
                 )
@@ -238,90 +220,27 @@ fun ZenParallaxBackground(
                 )
             }
 
-            // B. Uçan Kuyruklu Yıldız (Karttan Gökyüzüne Fırlayan Parçacık)
-            val flyP = flyingStarAnim.value
-            if (flyP > 0f && flyP < 1f) {
-                val targetStar = ZenConstellationStars[burstTargetIndex]
-                val startX = width * 0.5f
-                val startY = height * 0.80f // Kart bölgesinden çıkış
-                val endX = targetStar.xRatio * width
-                val endY = targetStar.yRatio * height
-
-                // Parabolik süzülüş
-                val currentX = startX + (endX - startX) * flyP
-                val arcHeight = height * 0.18f * sin(flyP * Math.PI.toFloat())
-                val currentY = startY + (endY - startY) * flyP - arcHeight
-
-                // Işıltılı Kuyruk Parçacıkları (Tail Sparks)
-                for (tail in 1..5) {
-                    val tailP = (flyP - tail * 0.035f).coerceAtLeast(0f)
-                    val tailX = startX + (endX - startX) * tailP
-                    val tailArc = height * 0.18f * sin(tailP * Math.PI.toFloat())
-                    val tailY = startY + (endY - startY) * tailP - tailArc
-                    drawCircle(
-                        color = ZenSkyCyan.copy(alpha = (1f - tail * 0.18f) * (1f - flyP)),
-                        radius = (6f - tail).coerceAtLeast(1.5f),
-                        center = Offset(tailX, tailY)
-                    )
-                }
-
-                // Yıldız Başı / Çekirdek (Golden Head)
-                drawCircle(
-                    color = ZenMoonGold.copy(alpha = 0.85f),
-                    radius = 11f,
-                    center = Offset(currentX, currentY)
-                )
-                drawCircle(
-                    color = Color.White,
-                    radius = 6f,
-                    center = Offset(currentX, currentY)
-                )
-            }
-
-            // C. Hedefe Ulaşma Patlaması (Target Star Ignition Burst Ring)
-            if (burstRingProgress > 0f && burstRingProgress < 1f) {
-                val targetStar = ZenConstellationStars[burstTargetIndex]
-                val targetX = targetStar.xRatio * width
-                val targetY = targetStar.yRatio * height
-
-                val ringRadius = 12f + burstRingProgress * 55f
-                val ringAlpha = (1f - burstRingProgress) * 0.90f
-
-                // Dış süpernova halkası
-                drawCircle(
-                    color = ZenMoonGold.copy(alpha = ringAlpha),
-                    radius = ringRadius,
-                    center = Offset(targetX, targetY)
-                )
-                // İç süper ışıltı çekirdeği
-                drawCircle(
-                    color = Color.White.copy(alpha = (1f - burstRingProgress)),
-                    radius = 10f * (1f - burstRingProgress),
-                    center = Offset(targetX, targetY)
-                )
-            }
-
-            // D. Ambient Ateşböcekleri (İlerleme arttıkça daha canlı ve parlak)
+            // Ambient Ateşböcekleri (İlerleme arttıkça daha canlı)
             for (f in fireflies) {
                 val cx = f.xRatio * width
                 val cy = f.yRatio * height
                 val col = if (f.isGold) ZenMoonGold else ZenSkyCyan
-                val alpha = (shimmerPulse * f.pulseSpeed * (0.40f + 0.60f * effectiveProgress)).coerceIn(0.15f, 1.0f)
+                val alpha = (shimmerPulse * f.pulseSpeed * (0.35f + 0.65f * effectiveProgress)).coerceIn(0.10f, 0.95f)
 
                 drawCircle(
-                    color = col.copy(alpha = alpha * 0.40f),
-                    radius = f.radius * (2.2f + 1.2f * effectiveProgress),
+                    color = col.copy(alpha = alpha * 0.35f),
+                    radius = f.radius * (2.0f + 1.0f * effectiveProgress),
                     center = Offset(cx, cy)
                 )
                 drawCircle(
-                    color = Color.White.copy(alpha = alpha),
+                    color = Color.White.copy(alpha = alpha * 0.8f),
                     radius = f.radius,
                     center = Offset(cx, cy)
                 )
             }
         }
 
-        // --- 3. DİNAMİK OKUMA KORUMA SCIRIM KATMANI (İlerleme Arttıkça Hafifler) ---
+        // --- 3. DİNAMİK OKUMA KORUMA SCRIM KATMANI (İlerleme Arttıkça İnceleşir ve Aydınlanır) ---
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -329,5 +248,224 @@ fun ZenParallaxBackground(
         )
     }
 }
+
+/**
+ * Metinlerin ve kartların EN ÖNÜNDE (foreground) süzülen, aşırı sönük (ambient dim) kayan yıldızlar
+ * ve parıltılı toz zerrecikleri katmanı.
+ *
+ * - Okuma konforunu ve kart tıklamalarını ASLA bozmaz.
+ * - Çok düşük opaklık (0.08f - 0.22f) ile metinlerin üzerinden büyüleyici bir zarafetle geçer.
+ */
+@Composable
+fun ZenForegroundStarOverlay(
+    modifier: Modifier = Modifier
+) {
+    val infiniteTransition = rememberInfiniteTransition(label = "ZenForegroundShootingStars")
+
+    // Kayan Yıldız 1: Üst-Sol'dan Sağ-Aşağı (Periyodik süzülüş)
+    val star1Time by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 7200, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "star1Time"
+    )
+
+    // Kayan Yıldız 2: Sağ-Üst'ten Sol-Aşağı (Farklı faz ve süre)
+    val star2Time by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 9800, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "star2Time"
+    )
+
+    // Kayan Yıldız 3: Orta Bölge Hızlı & Çok İnce Çizgi
+    val star3Time by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 13500, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "star3Time"
+    )
+
+    // Faint Stardust Floating (Hafif yukarı ve yana salınım)
+    val dustDrift by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 1f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 16000, easing = LinearEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "dustDrift"
+    )
+
+    val dustParticles = remember {
+        val rand = Random(4242)
+        List(18) {
+            ForegroundDustParticle(
+                startXRatio = rand.nextFloat(),
+                startYRatio = rand.nextFloat(),
+                radius = rand.nextFloat() * 1.5f + 0.8f,
+                isGold = rand.nextBoolean(),
+                driftSpeed = rand.nextFloat() * 0.6f + 0.4f,
+                baseAlpha = rand.nextFloat() * 0.10f + 0.08f // Aşırı sönük (0.08 - 0.18)
+            )
+        }
+    }
+
+    Canvas(modifier = modifier.fillMaxSize()) {
+        val w = size.width
+        val h = size.height
+
+        // --- 1. SÖNÜK KAYAN YILDIZ 1 ---
+        // Zaman dilimi: 0.10f .. 0.35f arası uçar, geri kalan zamanda gizlidir
+        if (star1Time in 0.08f..0.32f) {
+            val progress = (star1Time - 0.08f) / 0.24f
+            val startX = w * 0.05f
+            val startY = h * 0.12f
+            val travelDistX = w * 0.75f
+            val travelDistY = h * 0.28f
+
+            val headX = startX + travelDistX * progress
+            val headY = startY + travelDistY * progress
+
+            val tailLength = 90f
+            val tailX = headX - tailLength * 0.85f
+            val tailY = headY - tailLength * 0.35f
+
+            // Girişte ve çıkışta yumuşak sönümlenme (Peak alpha: ~0.20f)
+            val fade = sin(progress * Math.PI.toFloat()).coerceIn(0f, 1f)
+            val starAlpha = (0.22f * fade).coerceIn(0f, 0.22f)
+
+            if (starAlpha > 0.01f) {
+                // Kuyruk İzi (Soft Gradient Trail)
+                drawLine(
+                    brush = Brush.linearGradient(
+                        colors = listOf(Color.Transparent, ZenSkyCyan.copy(alpha = starAlpha * 0.6f), Color.White.copy(alpha = starAlpha)),
+                        start = Offset(tailX, tailY),
+                        end = Offset(headX, headY)
+                    ),
+                    start = Offset(tailX, tailY),
+                    end = Offset(headX, headY),
+                    strokeWidth = 1.6f,
+                    cap = StrokeCap.Round
+                )
+                // Yıldız Başı Noktası
+                drawCircle(
+                    color = Color.White.copy(alpha = starAlpha * 0.9f),
+                    radius = 2.0f,
+                    center = Offset(headX, headY)
+                )
+            }
+        }
+
+        // --- 2. SÖNÜK KAYAN YILDIZ 2 ---
+        // Zaman dilimi: 0.45f .. 0.72f arası
+        if (star2Time in 0.45f..0.72f) {
+            val progress = (star2Time - 0.45f) / 0.27f
+            val startX = w * 0.92f
+            val startY = h * 0.25f
+            val travelDistX = -w * 0.70f
+            val travelDistY = h * 0.24f
+
+            val headX = startX + travelDistX * progress
+            val headY = startY + travelDistY * progress
+
+            val tailLength = 80f
+            val tailX = headX + tailLength * 0.85f
+            val tailY = headY - tailLength * 0.32f
+
+            val fade = sin(progress * Math.PI.toFloat()).coerceIn(0f, 1f)
+            val starAlpha = (0.18f * fade).coerceIn(0f, 0.18f)
+
+            if (starAlpha > 0.01f) {
+                drawLine(
+                    brush = Brush.linearGradient(
+                        colors = listOf(Color.Transparent, ZenMoonGold.copy(alpha = starAlpha * 0.6f), Color.White.copy(alpha = starAlpha)),
+                        start = Offset(tailX, tailY),
+                        end = Offset(headX, headY)
+                    ),
+                    start = Offset(tailX, tailY),
+                    end = Offset(headX, headY),
+                    strokeWidth = 1.4f,
+                    cap = StrokeCap.Round
+                )
+                drawCircle(
+                    color = Color.White.copy(alpha = starAlpha * 0.85f),
+                    radius = 1.8f,
+                    center = Offset(headX, headY)
+                )
+            }
+        }
+
+        // --- 3. SÖNÜK KAYAN YILDIZ 3 (Alt/Orta Bölge Hızlı Geçiş) ---
+        // Zaman dilimi: 0.65f .. 0.88f
+        if (star3Time in 0.65f..0.88f) {
+            val progress = (star3Time - 0.65f) / 0.23f
+            val startX = w * 0.20f
+            val startY = h * 0.50f
+            val travelDistX = w * 0.65f
+            val travelDistY = h * 0.22f
+
+            val headX = startX + travelDistX * progress
+            val headY = startY + travelDistY * progress
+
+            val tailLength = 70f
+            val tailX = headX - tailLength * 0.85f
+            val tailY = headY - tailLength * 0.30f
+
+            val fade = sin(progress * Math.PI.toFloat()).coerceIn(0f, 1f)
+            val starAlpha = (0.16f * fade).coerceIn(0f, 0.16f)
+
+            if (starAlpha > 0.01f) {
+                drawLine(
+                    brush = Brush.linearGradient(
+                        colors = listOf(Color.Transparent, ZenSkyCyan.copy(alpha = starAlpha * 0.5f), Color.White.copy(alpha = starAlpha)),
+                        start = Offset(tailX, tailY),
+                        end = Offset(headX, headY)
+                    ),
+                    start = Offset(tailX, tailY),
+                    end = Offset(headX, headY),
+                    strokeWidth = 1.2f,
+                    cap = StrokeCap.Round
+                )
+                drawCircle(
+                    color = Color.White.copy(alpha = starAlpha * 0.8f),
+                    radius = 1.6f,
+                    center = Offset(headX, headY)
+                )
+            }
+        }
+
+        // --- 4. ÖN PLANDA YAVAŞÇA YÜZEN AŞIRI SÖNÜK PARILTI TOZLARI (FOREGROUND STARDUST) ---
+        for (d in dustParticles) {
+            val driftOffset = (dustDrift * d.driftSpeed) * 30f
+            val cx = (d.startXRatio * w + sin(dustDrift * 6.28f * d.driftSpeed) * 15f) % w
+            val cy = (d.startYRatio * h - driftOffset + h) % h
+
+            val col = if (d.isGold) ZenMoonGold else ZenSkyCyan
+            val alpha = d.baseAlpha * (0.8f + 0.2f * sin(dustDrift * 3.14f * d.driftSpeed))
+
+            drawCircle(
+                color = col.copy(alpha = alpha * 0.6f),
+                radius = d.radius * 1.8f,
+                center = Offset(cx, cy)
+            )
+            drawCircle(
+                color = Color.White.copy(alpha = alpha),
+                radius = d.radius,
+                center = Offset(cx, cy)
+            )
+        }
+    }
+}
+
 
 

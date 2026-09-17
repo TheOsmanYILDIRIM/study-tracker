@@ -1,6 +1,8 @@
 package com.studytracker.feature.child
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -39,6 +41,7 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.components.StudyTaskCard
 import com.studytracker.core.ui.components.StudyWeeklyTaskCard
+import com.studytracker.core.ui.components.ZenForegroundStarOverlay
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
@@ -100,11 +103,6 @@ fun ChildHomeScreen(
         occurrences.filter { it.warning }
     }
 
-    val appPreferences = remember { AppPreferences.getInstance(context) }
-    val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
-    val testProgressOverride by appPreferences.testProgressOverride.collectAsState()
-    val testFlyingStarTrigger by appPreferences.testFlyingStarTrigger.collectAsState()
-
     val completedTasksCount = remember(occurrences, quizzes) {
         occurrences.count {
             it.status == OccurrenceStatus.APPROVED ||
@@ -115,7 +113,6 @@ fun ChildHomeScreen(
         (occurrences.size + quizzes.size).coerceAtLeast(1)
     }
 
-    var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
     
@@ -124,10 +121,6 @@ fun ChildHomeScreen(
     var evalFocus by remember { mutableStateOf("%100 Odak") }
     var evalQuestionsCount by remember { mutableStateOf("") }
     var studentNoteInput by remember { mutableStateOf("") }
-    
-    val effectiveFlyingStarTrigger = remember(localFlyingStarTrigger, testFlyingStarTrigger) {
-        maxOf(localFlyingStarTrigger, testFlyingStarTrigger)
-    }
 
     if (showResetConfirmDialog) {
         AlertDialog(
@@ -333,7 +326,6 @@ fun ChildHomeScreen(
                         val compiledNote = if (parts.isNotEmpty()) parts.joinToString(" | ") else null
 
                         showFinishNoteDialog = false
-                        localFlyingStarTrigger = System.currentTimeMillis()
                         stateManager.finishSession(studentNote = compiledNote)
                         
                         // Formu sıfırla
@@ -361,9 +353,7 @@ fun ChildHomeScreen(
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground(
             completedTasksCount = completedTasksCount,
-            totalTasksCount = totalTasksCount,
-            progressOverride = testProgressOverride,
-            flyingStarTrigger = effectiveFlyingStarTrigger
+            totalTasksCount = totalTasksCount
         )
 
         Scaffold(
@@ -381,10 +371,10 @@ fun ChildHomeScreen(
                         ) {
                             Box(
                                 modifier = Modifier
-                                    .size(36.dp)
-                                    .clip(RoundedCornerShape(10.dp))
-                                    .background(ZenSkyCyanContainer)
-                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
+                                .size(36.dp)
+                                .clip(RoundedCornerShape(10.dp))
+                                .background(ZenSkyCyanContainer)
+                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
                                 contentAlignment = Alignment.Center
                             ) {
                                 Icon(Icons.Default.AutoStories, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
@@ -475,97 +465,6 @@ fun ChildHomeScreen(
                     .padding(horizontal = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                // 🧪 TEST MODU CANLI ÖNİZLEME SLIDERI (Yalnızca test modu açıkken görünür)
-                if (isTestModeEnabled) {
-                    item(key = "test_mode_preview_card") {
-                        val currentSliderVal = testProgressOverride ?: (completedTasksCount.toFloat() / totalTasksCount.coerceAtLeast(1))
-                        Box(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clip(ZenCardShape)
-                                .background(Color(0xE60D1929))
-                                .border(1.5.dp, ZenMoonGold.copy(alpha = 0.7f), ZenCardShape)
-                                .padding(12.dp)
-                        ) {
-                            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween,
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    Row(
-                                        verticalAlignment = Alignment.CenterVertically,
-                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                                    ) {
-                                        Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZenMoonGold, modifier = Modifier.size(18.dp))
-                                        Text(
-                                            "🧪 Canlı Parlaklık & Yıldız Simülatörü",
-                                            fontWeight = FontWeight.Bold,
-                                            fontSize = 13.sp,
-                                            color = ZenMoonGold
-                                        )
-                                    }
-                                    Text(
-                                        "${(currentSliderVal * 100).toInt()}% Full",
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 12.sp,
-                                        color = ZenSkyCyan
-                                    )
-                                }
-
-                                Text(
-                                    "Slider'ı kaydırarak arkaplanın canlanmasını, parlamasını ve takımyıldızlarını test edin:",
-                                    fontSize = 11.sp,
-                                    color = ZomoTextSecondary
-                                )
-
-                                Slider(
-                                    value = currentSliderVal,
-                                    onValueChange = { appPreferences.setTestProgressOverride(it) },
-                                    valueRange = 0f..1f,
-                                    colors = SliderDefaults.colors(
-                                        thumbColor = ZenMoonGold,
-                                        activeTrackColor = ZenSkyCyan,
-                                        inactiveTrackColor = Color.White.copy(alpha = 0.2f)
-                                    ),
-                                    modifier = Modifier.fillMaxWidth().height(28.dp)
-                                )
-
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    Button(
-                                        onClick = {
-                                            localFlyingStarTrigger = System.currentTimeMillis()
-                                        },
-                                        modifier = Modifier.weight(1f).height(34.dp),
-                                        shape = ZenPillShape,
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold, contentColor = Color(0xFF451A03)),
-                                        contentPadding = PaddingValues(horizontal = 4.dp)
-                                    ) {
-                                        Icon(Icons.Default.FlightTakeoff, contentDescription = null, modifier = Modifier.size(14.dp))
-                                        Spacer(modifier = Modifier.width(4.dp))
-                                        Text("✨ Yıldız Uçur", fontWeight = FontWeight.Bold, fontSize = 11.sp)
-                                    }
-
-                                    if (testProgressOverride != null) {
-                                        OutlinedButton(
-                                            onClick = { appPreferences.setTestProgressOverride(null) },
-                                            modifier = Modifier.height(34.dp),
-                                            shape = ZenPillShape,
-                                            border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f)),
-                                            contentPadding = PaddingValues(horizontal = 8.dp)
-                                        ) {
-                                            Text("Gerçek Veri", fontSize = 10.5.sp, color = ZenSkyCyan)
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
                 // Live Active Session Banner (Shows when session is ongoing or paused)
                 if (isSessionActive) {
                     item(key = "live_active_banner") {
@@ -823,6 +722,11 @@ fun ChildHomeScreen(
                 item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
             }
         }
+
+        // Metin ve kartların önünde (foreground) süzülen çok sönük kayan yıldızlar & parıltılar
+        ZenForegroundStarOverlay(
+            modifier = Modifier.fillMaxSize()
+        )
     }
 }
 
