@@ -41,8 +41,8 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.components.StudyTaskCard
 import com.studytracker.core.ui.components.StudyWeeklyTaskCard
-import com.studytracker.core.ui.components.ZenForegroundStarOverlay
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.ui.components.extractVideoUrl
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -80,9 +80,10 @@ fun ChildHomeScreen(
     val onTaskStart: (Occurrence) -> Unit = remember(stateManager) {
         { task ->
             stateManager.startSession(task.occurrenceKey, task.title)
-            if (!task.youtubeUrl.isNullOrBlank()) {
+            val vUrl = extractVideoUrl(task)
+            if (!vUrl.isNullOrBlank()) {
                 try {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(task.youtubeUrl)).apply {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(vUrl)).apply {
                         addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                     }
                     context.startActivity(intent)
@@ -113,6 +114,7 @@ fun ChildHomeScreen(
         (occurrences.size + quizzes.size).coerceAtLeast(1)
     }
 
+    var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
     
@@ -326,6 +328,7 @@ fun ChildHomeScreen(
                         val compiledNote = if (parts.isNotEmpty()) parts.joinToString(" | ") else null
 
                         showFinishNoteDialog = false
+                        localFlyingStarTrigger = System.currentTimeMillis()
                         stateManager.finishSession(studentNote = compiledNote)
                         
                         // Formu sıfırla
@@ -353,7 +356,8 @@ fun ChildHomeScreen(
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground(
             completedTasksCount = completedTasksCount,
-            totalTasksCount = totalTasksCount
+            totalTasksCount = totalTasksCount,
+            flyingStarTrigger = localFlyingStarTrigger
         )
 
         Scaffold(
@@ -722,11 +726,6 @@ fun ChildHomeScreen(
                 item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
             }
         }
-
-        // Metin ve kartların önünde (foreground) süzülen çok sönük kayan yıldızlar & parıltılar
-        ZenForegroundStarOverlay(
-            modifier = Modifier.fillMaxSize()
-        )
     }
 }
 

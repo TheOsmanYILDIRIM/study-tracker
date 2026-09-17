@@ -29,6 +29,25 @@ private val ZenCardShape = RoundedCornerShape(16.dp)
 private val ZenSquircleShape = RoundedCornerShape(12.dp)
 private val ZenPillShape = CircleShape
 
+fun extractVideoUrl(occurrence: Occurrence): String? {
+    if (!occurrence.youtubeUrl.isNullOrBlank()) {
+        val raw = occurrence.youtubeUrl.trim()
+        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+    }
+    val urlRegex = Regex("""(https?://[^\s|]+|youtu\.be/[^\s|]+|youtube\.com/[^\s|]+)""")
+    val matchTitle = urlRegex.find(occurrence.title)
+    if (matchTitle != null) {
+        val raw = matchTitle.value.trim()
+        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+    }
+    val matchNote = occurrence.studentNote?.let { urlRegex.find(it) }
+    if (matchNote != null) {
+        val raw = matchNote.value.trim()
+        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+    }
+    return null
+}
+
 @Composable
 fun StudyTaskCard(
     occurrence: Occurrence,
@@ -36,12 +55,23 @@ fun StudyTaskCard(
     onRetryClick: (Occurrence) -> Unit,
     modifier: Modifier = Modifier
 ) {
+    val effectiveVideoUrl = extractVideoUrl(occurrence)
+    val displayTitle = occurrence.title
+        .replace(Regex("""\s*\|\s*https?://\S+"""), "")
+        .replace(Regex("""\s*\|\s*youtu\.be/\S+"""), "")
+        .replace(Regex("""\s*\|\s*youtube\.com/\S+"""), "")
+        .replace(Regex("""https?://\S+"""), "")
+        .replace(Regex("""youtu\.be/\S+"""), "")
+        .replace(Regex("""youtube\.com/\S+"""), "")
+        .trim()
+        .ifBlank { occurrence.title }
+
     val tileBg: Color
     val tileFg: Color
     val iconVector: androidx.compose.ui.graphics.vector.ImageVector
 
     when {
-        occurrence.youtubeUrl != null || occurrence.title.contains("video", ignoreCase = true) || occurrence.title.contains("izle", ignoreCase = true) -> {
+        effectiveVideoUrl != null || occurrence.title.contains("video", ignoreCase = true) || occurrence.title.contains("izle", ignoreCase = true) -> {
             tileBg = ZenRoseContainer
             tileFg = ZenRoseCoral
             iconVector = Icons.Default.SmartDisplay
@@ -110,7 +140,7 @@ fun StudyTaskCard(
             .background(cardBg)
             .border(1.dp, borderColor, ZenCardShape)
             .padding(horizontal = 14.dp, vertical = 10.dp),
-        verticalArrangement = Arrangement.spacedBy(4.dp)
+        verticalArrangement = Arrangement.spacedBy(6.dp)
     ) {
         // Main Single-Row Task: Icon + Title/Details + Right Action/Status Pill
         Row(
@@ -140,7 +170,7 @@ fun StudyTaskCard(
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = occurrence.title,
+                    text = displayTitle,
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     color = ZomoTextPrimary,
@@ -328,13 +358,13 @@ fun StudyTaskCard(
         }
 
         // Video Link Action Button
-        if (!occurrence.youtubeUrl.isNullOrBlank()) {
+        if (effectiveVideoUrl != null) {
             val context = LocalContext.current
-            val validUrl = occurrence.youtubeUrl
+            val validUrl = effectiveVideoUrl
             Surface(
-                shape = RoundedCornerShape(8.dp),
-                color = ZenRoseCoral.copy(alpha = 0.12f),
-                border = androidx.compose.foundation.BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.45f)),
+                shape = RoundedCornerShape(10.dp),
+                color = Color(0x33E11D48),
+                border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenRoseCoral),
                 modifier = Modifier
                     .fillMaxWidth()
                     .clickable {
@@ -349,33 +379,42 @@ fun StudyTaskCard(
                                     addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                                 }
                                 context.startActivity(browserIntent)
-                            } catch (_: Exception) {}
+                            } catch (_: Exception) {
+                                android.widget.Toast.makeText(context, "Link açılamadı: $validUrl", android.widget.Toast.LENGTH_LONG).show()
+                            }
                         }
                     }
             ) {
                 Row(
-                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 7.dp),
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Icon(
-                        imageVector = Icons.Default.SmartDisplay,
-                        contentDescription = null,
-                        tint = ZenRoseCoral,
-                        modifier = Modifier.size(15.dp)
-                    )
+                    Box(
+                        modifier = Modifier
+                            .size(24.dp)
+                            .background(ZenRoseCoral, CircleShape),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = null,
+                            tint = Color.White,
+                            modifier = Modifier.size(15.dp)
+                        )
+                    }
                     Text(
-                        text = "🎬 Videoyu / Dersi Aç",
+                        text = "🎬 Videoyu / Dersi Aç (YouTube)",
                         fontWeight = FontWeight.Bold,
-                        color = ZenRoseCoral,
-                        fontSize = 11.5.sp,
+                        color = Color.White,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Icon(
                         imageVector = Icons.Default.OpenInNew,
                         contentDescription = null,
                         tint = ZenRoseCoral,
-                        modifier = Modifier.size(13.dp)
+                        modifier = Modifier.size(16.dp)
                     )
                 }
             }
