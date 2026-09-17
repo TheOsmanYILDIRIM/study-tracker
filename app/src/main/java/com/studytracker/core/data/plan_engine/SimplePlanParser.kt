@@ -142,7 +142,7 @@ object SimplePlanParser {
                 } catch (_: Exception) {}
             }
 
-            // Handle section 1: Task definitions ("mat = Matematik | 40 dk | Soru Çözümü")
+            // Handle section 1: Task definitions ("mat = Matematik | 40 dk | Soru Çözümü | https://youtu.be/...")
             if (currentSection == 1 || (line.contains("=") && currentSection == 0)) {
                 if (line.contains("=")) {
                     val rawId = line.substringBefore("=").trim()
@@ -150,12 +150,15 @@ object SimplePlanParser {
                     val parts = line.substringAfter("=").split("|").map { it.trim() }
                     val title = parts.getOrNull(0) ?: rawId
                     val durationMin = extractMinutes(parts.getOrNull(1) ?: "30")
+                    val potentialUrl = parts.find { it.startsWith("http://", ignoreCase = true) || it.startsWith("https://", ignoreCase = true) }
 
                     if (id.isNotBlank() && title.isNotBlank()) {
                         taskDefMap[id] = TaskTemplate(
                             taskId = id,
                             title = title,
                             plannedMinutes = durationMin,
+                            youtubeUrl = potentialUrl,
+                            contentType = if (potentialUrl != null) ContentType.VIDEO else ContentType.OTHER,
                             kind = TaskKind.DAILY
                         )
                     }
@@ -305,6 +308,8 @@ object SimplePlanParser {
                     uniqueKey = "${taskId}_$idx:$date"
                 }
 
+                val youtubeUrl = template?.youtubeUrl
+
                 seenDailyKeys.add(uniqueKey)
                 dailyOccurrences.add(DailyOccurrenceJson(
                     occurrenceKey = uniqueKey,
@@ -312,6 +317,7 @@ object SimplePlanParser {
                     date = date,
                     title = title,
                     plannedMinutes = duration,
+                    youtubeUrl = youtubeUrl,
                     reviewRequired = true
                 ))
             }
@@ -352,7 +358,8 @@ object SimplePlanParser {
 
         sb.appendLine("[DERSLER]")
         for (task in plan.tasks.filter { it.kind == TaskKind.DAILY }) {
-            sb.appendLine("${task.taskId} = ${task.title} | ${task.plannedMinutes} dk")
+            val urlSuffix = if (!task.youtubeUrl.isNullOrBlank()) " | ${task.youtubeUrl}" else ""
+            sb.appendLine("${task.taskId} = ${task.title} | ${task.plannedMinutes} dk$urlSuffix")
         }
         sb.appendLine()
 

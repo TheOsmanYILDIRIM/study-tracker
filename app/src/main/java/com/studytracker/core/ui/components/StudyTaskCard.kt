@@ -38,17 +38,22 @@ fun StudyTaskCard(
     val iconVector: androidx.compose.ui.graphics.vector.ImageVector
 
     when {
-        occurrence.youtubeUrl != null -> {
+        occurrence.youtubeUrl != null || occurrence.title.contains("video", ignoreCase = true) || occurrence.title.contains("izle", ignoreCase = true) -> {
             tileBg = ZenRoseContainer
             tileFg = ZenRoseCoral
-            iconVector = Icons.Default.PlayCircle
+            iconVector = Icons.Default.SmartDisplay
+        }
+        occurrence.title.contains("anki", ignoreCase = true) || occurrence.title.contains("kart", ignoreCase = true) -> {
+            tileBg = ZenMintContainer
+            tileFg = ZenMintSoft
+            iconVector = Icons.Default.FlipToFront
         }
         occurrence.type == TaskKind.WEEKLY -> {
             tileBg = ZenMoonGoldContainer
             tileFg = ZenMoonGold
             iconVector = Icons.Default.EmojiEvents
         }
-        occurrence.title.contains("kitap", ignoreCase = true) || occurrence.title.contains("paragraf", ignoreCase = true) -> {
+        occurrence.title.contains("kitap", ignoreCase = true) || occurrence.title.contains("paragraf", ignoreCase = true) || occurrence.title.contains("edebiyat", ignoreCase = true) || occurrence.title.contains("tde", ignoreCase = true) -> {
             tileBg = ZenSkyCyanContainer
             tileFg = ZenSkyCyan
             iconVector = Icons.Default.MenuBook
@@ -58,10 +63,25 @@ fun StudyTaskCard(
             tileFg = ZenSkyCyan
             iconVector = Icons.Default.Calculate
         }
-        occurrence.title.contains("fen", ignoreCase = true) || occurrence.title.contains("fizik", ignoreCase = true) -> {
+        occurrence.title.contains("fizik", ignoreCase = true) || occurrence.title.contains("kimya", ignoreCase = true) || occurrence.title.contains("biyo", ignoreCase = true) || occurrence.title.contains("fen", ignoreCase = true) -> {
             tileBg = ZenForestContainer
             tileFg = ZenForestGreen
             iconVector = Icons.Default.Biotech
+        }
+        occurrence.title.contains("cografya", ignoreCase = true) || occurrence.title.contains("coğrafya", ignoreCase = true) -> {
+            tileBg = ZenForestContainer
+            tileFg = ZenForestGreen
+            iconVector = Icons.Default.Public
+        }
+        occurrence.title.contains("tarih", ignoreCase = true) -> {
+            tileBg = ZenMoonGoldContainer
+            tileFg = ZenMoonGold
+            iconVector = Icons.Default.HistoryEdu
+        }
+        occurrence.title.contains("ingilizce", ignoreCase = true) || occurrence.title.contains("almanca", ignoreCase = true) || occurrence.title.contains("dil", ignoreCase = true) -> {
+            tileBg = ZenLavenderContainer
+            tileFg = ZenLavender
+            iconVector = Icons.Default.Translate
         }
         else -> {
             tileBg = ZenLavenderContainer
