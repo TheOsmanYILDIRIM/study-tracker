@@ -140,3 +140,9 @@
 ## 36. Cloudflare Workers Serverless Bulut Senkronizasyonu & KV Entegrasyonu
 - [x] Cloudflare Worker (`studytracker-sync.osman13241429.workers.dev`) ve `STUDY_SYNC_KV` canlı dağıtımı ve Node.js uçtan uca testi
 - [x] Android `CloudflareSyncManager` istemcisi, `ChildHomeScreen` ve `ParentDashboardScreen` tek tık bulut senkronizasyon butonları
+
+## 37. Dinamik Çok Kiracılı (Multi-Tenant) Aile Eşleştirme & Bulut Eşitleme Diyalogu
+- [x] Sabit `ST-2026` aile kodu bağımlılığının kaldırılması, her cihaza özel rastgele benzersiz aile kodu üretimi (`ST-XXXX`) ve çoklu aile veri izolasyonu
+- [x] Veli ve Öğrenci ekranlarında `CloudSyncDialog` etkileşimli bulut eşleme penceresi (Kodu Kopyala, Yeni Kod Üret, Kod Girerek Eşleş, Eşitle)
+- [x] DTO varsayılan değerleri ve `coerceInputValues = true` ile Kotlin Serialization eksik alan çökme koruması
+- [x] Testlerin (`Quiz`) Cloudflare senkronizasyonuna tam dahil edilmesi ve `toDomain` uzantı metodunun bağlanması

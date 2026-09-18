@@ -272,14 +272,15 @@
 - **Birim Testleri:**
   - `StudyPackageExchangeTest` güncellendi ve `youtubeUrl` alanının `.studyplan` JSON serileştirmesinde korunduğu doğrulandı.
 
-## [2026-09-18] 36. Cloudflare Workers Serverless Bulut Senkronizasyonu & KV Entegrasyonu
-- **Cloudflare Edge Worker & KV Dağıtımı (`studytracker-sync.osman13241429.workers.dev`):**
-  - Sıfır soğuk açılış gecikmeli, REST JSON tabanlı `worker.js` scripti Cloudflare hesabına (`988ce42497272fb90cec4edd3c76d5a2`) yüklendi.
-  - Kalıcı depolama için `STUDY_SYNC_KV` (`f756993219034064afcc35f1bfef2f78`) isim alanı bağlandı.
-- **Node.js Simülasyon Testi:**
-  - `test-sync.js` ile Veli ➔ Öğrenci plan yükleme, indirme, ders bitirme raporu gönderme ve veli onay akışı canlı uçtan uca test edildi (%100 Başarılı).
-- **Android İstemci Entegrasyonu (`CloudflareSyncManager`):**
-  - Standart HTTP `POST /api/sync?code=ST-XXXX` ile yerel Room DB değişikliklerini buluta basan ve buluttan dönen en güncel verileri akıllıca birleştiren `CloudflareSyncManager.kt` oluşturuldu.
-  - `ChildHomeScreen` ve `ParentDashboardScreen` TopBar'larına tek dokunuşla çalışan **"☁️ Cloudflare Bulut Senkronizasyonu"** butonu entegre edildi.
+## [2026-09-18] 37. Dinamik Çok Kiracılı Aile Eşleştirme & Bulut Eşitleme Diyalogu
+- **Çok Kiracılı İzolasyon & Rastgele Aile Kodu:**
+  - Sabit `ST-2026` kodu kaldırılarak `AppPreferences` üzerinde ilk kurulumda rastgele 4 haneli benzersiz kod (`ST-XXXX`) oluşturulması sağlandı.
+  - Farklı ailelerin verilerinin birbirine karışması engellendi.
+- **Etkileşimli `CloudSyncDialog` Modalı:**
+  - Hem Veli Masası hem Öğrenci Masası TopBar bulut butonuna basıldığında açılan şık diyalog eklendi.
+  - Aktif aile kodunu panoya kopyalama, yeni rastgele kod üretme ve eşleştirme kodu girerek diğer cihaza bağlanma özellikleri sağlandı.
+- **Kotlinx Serialization ve Quiz Entegrasyonu:**
+  - DTO modellerine varsayılan değerler eklendi, `coerceInputValues = true` aktif edilerek geriye dönük uyumluluk ve sıfır çökme garantilendi.
+  - Sınav/Test (`Quiz`) verileri de bulut senkronizasyonuna tam dahil edildi.
 
 

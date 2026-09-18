@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.Log
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.prefs.AppPreferences
+import com.studytracker.core.data.local.repository.toDomain
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.data.remote.sync.*
 import kotlinx.coroutines.Dispatchers
@@ -136,7 +137,7 @@ object CloudflareSyncManager {
             }
 
             val quizzes = db.quizDao().getAllQuizzesOnce().map {
-                com.studytracker.core.data.local.repository.toDomain(it)
+                it.toDomain(json)
             }
 
             val payload = SharedFamilySyncPayload(
