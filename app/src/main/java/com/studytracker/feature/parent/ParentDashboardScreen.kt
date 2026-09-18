@@ -1204,6 +1204,7 @@ fun ParentDashboardScreen(
         )
     }
 }
+}
 
 @Composable
 fun OccurrenceAdminCard(
