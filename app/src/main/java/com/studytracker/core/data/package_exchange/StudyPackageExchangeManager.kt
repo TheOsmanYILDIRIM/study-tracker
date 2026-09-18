@@ -60,6 +60,7 @@ object StudyPackageExchangeManager {
         ignoreUnknownKeys = true
         encodeDefaults = true
         isLenient = true
+        coerceInputValues = true
         prettyPrint = false
     }
 

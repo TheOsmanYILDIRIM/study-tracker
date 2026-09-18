@@ -33,7 +33,8 @@ data class CloudSyncPayloadWrapper(
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
-    val reviews: List<RemoteReviewSyncDto> = emptyList()
+    val reviews: List<RemoteReviewSyncDto> = emptyList(),
+    val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList()
 )
 
 object CloudflareSyncManager {
@@ -45,6 +46,7 @@ object CloudflareSyncManager {
         ignoreUnknownKeys = true
         encodeDefaults = true
         isLenient = true
+        coerceInputValues = true
     }
 
     /**
@@ -185,7 +187,8 @@ object CloudflareSyncManager {
                 tasks = cloudData.tasks,
                 occurrences = cloudData.occurrences,
                 sessions = cloudData.sessions,
-                reviews = cloudData.reviews
+                reviews = cloudData.reviews,
+                quizzes = cloudData.quizzes
             )
 
             StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
