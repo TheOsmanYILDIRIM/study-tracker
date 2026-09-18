@@ -2,10 +2,10 @@ package com.studytracker
 
 import com.studytracker.core.data.package_exchange.PackageType
 import com.studytracker.core.data.package_exchange.StudyTrackerPackage
-import com.studytracker.core.data.remote.supabase.LocalPlanSyncDto
-import com.studytracker.core.data.remote.supabase.RemoteOccurrenceSyncDto
-import com.studytracker.core.data.remote.supabase.RemoteScreenshotSyncDto
-import com.studytracker.core.data.remote.supabase.RemoteSessionSyncDto
+import com.studytracker.core.data.remote.sync.LocalPlanSyncDto
+import com.studytracker.core.data.remote.sync.RemoteOccurrenceSyncDto
+import com.studytracker.core.data.remote.sync.RemoteScreenshotSyncDto
+import com.studytracker.core.data.remote.sync.RemoteSessionSyncDto
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.junit.Assert.*

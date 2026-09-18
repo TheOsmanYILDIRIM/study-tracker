@@ -1,6 +1,6 @@
 package com.studytracker
 
-import com.studytracker.core.data.remote.supabase.*
+import com.studytracker.core.data.remote.sync.*
 import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import org.junit.Assert.*

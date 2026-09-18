@@ -12,7 +12,7 @@ import android.util.Base64
 import android.util.Log
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.db.entity.*
-import com.studytracker.core.data.remote.supabase.*
+import com.studytracker.core.data.remote.sync.*
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.data.local.repository.toDomain
 import com.studytracker.core.data.local.repository.toEntity
