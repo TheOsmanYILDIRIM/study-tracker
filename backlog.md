@@ -188,4 +188,10 @@
 ## 44. CI/CD Derleme Süresi Optimizasyonu & Sadece Release APK Üretimi
 - [x] **Sadece Release APK Derleme:** `.github/workflows/build-apk.yml` üzerinden `assembleDebug` ve debug artifact adımları kaldırılarak sadece kalıcı imzalı Release APK'ların (`assembleRelease`) derlenmesi sağlandı; CI/CD süresi ve işlem kaynakları optimize edildi.
 
+## 45. Otomatik Kanıt Senkronizasyonu & Çift Anahtarlı Screenshot Eşleme Mimarisi
+- [x] **Oturum Bitişinde Otomatik Bulut Eşitlemesi:** Öğrenci dersi bitirdiğinde (`finishSession`) Cloudflare KV senkronizasyonunun otomatik olarak tetiklenmesi ve alınan ekran görüntülerinin anında buluta push edilmesi sağlandı.
+- [x] **Çift Anahtarlı (Session ID & Occurrence Key) Room DB Eşleme:** `.studyplan` paket alışverişi ve `StudySyncProvider` içinde `occurrenceKey`'in doğrudan `sessionId` olarak kaydedilmesi hatası giderildi; oturum ve veritabanından asıl `occurrenceKey` çözülerek kaydedildi.
+- [x] **ScreenshotDao Çift Anahtar Desteği:** `getScreenshotsForSessionAndOccurrence` ile hem `sessionId` hem `occurrenceKey` üzerinden tam esnek ve kayıpsız sorgulama sağlandı.
+- [x] **Veli İnceleme Ekranı Otomatik Tazeleyici & Timeline Boş Durum Görünümü:** Veli kanıt ekranını açtığında yerelde henüz olmayan kanıtlar için arka planda sessiz bulut eşitlemesi tetiklendi, saf base64 string'leri için dekoder koruması ve şık boş durum kartı eklendi.
+
 

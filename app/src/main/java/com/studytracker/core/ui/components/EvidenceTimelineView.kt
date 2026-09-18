@@ -77,6 +77,15 @@ private object BitmapMemoryCache {
                     val bytes = URL(pathOrData).readBytes()
                     BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
                 }
+                pathOrData.length > 200 && !pathOrData.startsWith("/") -> {
+                    try {
+                        val base64Data = if (pathOrData.contains(",")) pathOrData.substringAfter(",") else pathOrData
+                        val bytes = Base64.decode(base64Data, Base64.DEFAULT)
+                        BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
+                    } catch (_: Exception) {
+                        null
+                    }
+                }
                 else -> {
                     val file = File(pathOrData)
                     if (file.exists()) {
@@ -121,18 +130,49 @@ fun EvidenceTimelineView(
             color = ZomoTextPrimary
         )
 
-        // Horizontal thumbnail selector
-        LazyRow(
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            items(screenshots, key = { it.screenshotId }) { ss ->
-                val isSelected = selectedScreenshot?.screenshotId == ss.screenshotId
-                val borderModifier = if (isSelected) {
-                    Modifier.border(2.dp, ZomoNeonMint, RoundedCornerShape(16.dp))
-                } else {
-                    Modifier.border(1.dp, ZomoDarkBorder, RoundedCornerShape(16.dp))
+        if (screenshots.isEmpty()) {
+            Surface(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 4.dp),
+                shape = RoundedCornerShape(16.dp),
+                color = ZomoDarkSurface,
+                border = BorderStroke(1.dp, ZomoDarkBorder)
+            ) {
+                Row(
+                    modifier = Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    Text("📷", fontSize = 24.sp)
+                    Column {
+                        Text(
+                            "Ekran Görüntüsü Kaydı",
+                            fontWeight = FontWeight.Bold,
+                            color = ZomoTextPrimary,
+                            fontSize = 14.sp
+                        )
+                        Text(
+                            "Öğrenci cihazı bu oturumu tamamladığında kanıt görüntüleri bulut üzerinden otomatik olarak buraya aktarılır.",
+                            color = ZomoTextSecondary,
+                            fontSize = 12.sp
+                        )
+                    }
                 }
+            }
+        } else {
+            // Horizontal thumbnail selector
+            LazyRow(
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                items(screenshots, key = { it.screenshotId }) { ss ->
+                    val isSelected = selectedScreenshot?.screenshotId == ss.screenshotId
+                    val borderModifier = if (isSelected) {
+                        Modifier.border(2.dp, ZomoNeonMint, RoundedCornerShape(16.dp))
+                    } else {
+                        Modifier.border(1.dp, ZomoDarkBorder, RoundedCornerShape(16.dp))
+                    }
 
                 val thumbBitmap by produceState<Bitmap?>(initialValue = null, key1 = ss.url) {
                     value = BitmapMemoryCache.loadBitmap(context, ss.url, isThumbnail = true)

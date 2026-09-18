@@ -599,11 +599,16 @@ object StudyPackageExchangeManager {
                         }
                     }
 
+                    // Resolve true occurrenceKey from package sessions or local DB
+                    val resolvedOccKey = pkg.sessions.find { it.id == rss.sessionId }?.occurrenceId
+                        ?: db.sessionDao().getSessionById(rss.sessionId)?.occurrenceKey
+                        ?: rss.sessionId
+
                     toUpsert.add(
                         ScreenshotEntity(
                             screenshotId = rss.id,
                             sessionId = rss.sessionId,
-                            occurrenceKey = rss.sessionId,
+                            occurrenceKey = resolvedOccKey,
                             capturedAt = rss.timestamp,
                             url = localFilePath ?: rss.imageUrl,
                             sizeKb = 15,

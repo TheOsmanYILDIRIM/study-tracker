@@ -48,8 +48,9 @@ fun SessionReviewScreen(
 
     var session by remember { mutableStateOf<Session?>(null) }
     var reviewNote by remember { mutableStateOf("") }
-    val screenshots by remember(sessionId) {
-        db.screenshotDao().getScreenshotsForSession(sessionId)
+    val screenshots by remember(sessionId, session?.occurrenceKey) {
+        val occKey = session?.occurrenceKey ?: sessionId
+        db.screenshotDao().getScreenshotsForSessionAndOccurrence(sessionId, occKey)
             .map { list -> list.map { it.toDomain() } }
     }.collectAsState(initial = emptyList())
 
@@ -66,6 +67,10 @@ fun SessionReviewScreen(
                 status = com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW
             )
         session = found
+
+        try {
+            com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+        } catch (_: Exception) {}
     }
 
     Scaffold(

@@ -304,11 +304,15 @@ class StudySyncProvider : ContentProvider() {
                     }
                 }
 
+                val resolvedOccKey = payload.sessions.find { it.id == rss.sessionId }?.occurrenceId
+                    ?: db.sessionDao().getSessionById(rss.sessionId)?.occurrenceKey
+                    ?: rss.sessionId
+
                 toUpsert.add(
                     ScreenshotEntity(
                         screenshotId = rss.id,
                         sessionId = rss.sessionId,
-                        occurrenceKey = rss.sessionId,
+                        occurrenceKey = resolvedOccKey,
                         capturedAt = rss.timestamp,
                         url = localFilePath ?: rss.imageUrl,
                         sizeKb = 15,

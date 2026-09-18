@@ -157,6 +157,12 @@ class SessionStateManager private constructor(
             val finalSs = getEffectiveCaptureDriver().stop()
             sessionRepository.finishSession(current.session.sessionId, finalSs?.url, studentNote)
 
+            try {
+                com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+            } catch (e: Exception) {
+                android.util.Log.w("SessionStateManager", "Auto-sync failed on finishSession: ${e.message}")
+            }
+
             withContext(Dispatchers.Main) {
                 _activeState.value = null
                 _elapsedSeconds.value = 0L

@@ -131,8 +131,14 @@ interface ScreenshotDao {
     @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId ORDER BY capturedAt ASC")
     fun getScreenshotsForSession(sessionId: String): Flow<List<ScreenshotEntity>>
 
+    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId OR sessionId = :occurrenceKey OR occurrenceKey = :occurrenceKey ORDER BY capturedAt ASC")
+    fun getScreenshotsForSessionAndOccurrence(sessionId: String, occurrenceKey: String): Flow<List<ScreenshotEntity>>
+
     @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId ORDER BY capturedAt ASC")
     suspend fun getScreenshotsForSessionOnce(sessionId: String): List<ScreenshotEntity>
+
+    @Query("SELECT * FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId OR sessionId = :occurrenceKey OR occurrenceKey = :occurrenceKey ORDER BY capturedAt ASC")
+    suspend fun getScreenshotsForSessionAndOccurrenceOnce(sessionId: String, occurrenceKey: String): List<ScreenshotEntity>
 
     @Query("SELECT * FROM screenshots ORDER BY capturedAt DESC")
     suspend fun getAllScreenshotsOnce(): List<ScreenshotEntity>
@@ -143,7 +149,7 @@ interface ScreenshotDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertScreenshots(screenshots: List<ScreenshotEntity>)
 
-    @Query("SELECT COUNT(*) FROM screenshots WHERE sessionId = :sessionId")
+    @Query("SELECT COUNT(*) FROM screenshots WHERE sessionId = :sessionId OR occurrenceKey = :sessionId")
     suspend fun getScreenshotsCount(sessionId: String): Int
 
     @Query("DELETE FROM screenshots")
