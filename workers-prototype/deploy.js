@@ -55,7 +55,8 @@ async function main() {
 
   // 3. Upload Worker Script with FormData / Multipart (ES Module)
   console.log('\n3️⃣ Worker scripti derlenip Cloudflare edge ağına yükleniyor...');
-  const scriptContent = fs.readFileSync(path.join(process.cwd(), 'worker.js'), 'utf8');
+  const workerDir = path.dirname(new URL(import.meta.url).pathname);
+  const scriptContent = fs.readFileSync(path.join(workerDir, 'worker.js'), 'utf8');
 
   const metadata = {
     main_module: 'worker.js',

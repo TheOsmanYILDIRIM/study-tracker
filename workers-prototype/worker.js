@@ -133,6 +133,22 @@ export default {
             return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
           }
 
+          // B) İlerleme Sıfırlama (Reset Progress)
+          if (action === 'RESET') {
+            for (const occ of (current.occurrences || [])) {
+              occ.status = 'PENDING';
+              occ.completedDurationMin = 0;
+              occ.completedQuestionCount = 0;
+              occ.studentNote = null;
+              occ.parentNote = '';
+            }
+            current.sessions = [];
+            current.reviews = [];
+            current.updatedAt = Date.now();
+            await setStoreData(env, storeKey, current);
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
+          }
+
           const isParent = senderRole === 'PARENT';
 
           // 1. Plan & Task Templates (Parent is absolute authority)
@@ -163,10 +179,11 @@ export default {
               } else {
                 // Parent updates structural fields (title, date, targetDurationMin, targetQuestionCount, youtubeUrl, parentNote)
                 // Preserves student completion metrics (status if approved/waiting, completedQuestionCount, completedDurationMin, studentNote)
-                let resolvedStatus = local.status || remote.status;
-                if (local.status === 'APPROVED') resolvedStatus = 'APPROVED';
-                else if (local.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
-                else if (local.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
+                let resolvedStatus = remote.status || local.status || 'PENDING';
+                if (local.status === 'APPROVED' || remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                else if (remote.status === 'WAITING_REVIEW' || local.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
+                else if (remote.status === 'ACTIVE' || local.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
+                else resolvedStatus = remote.status || local.status || 'PENDING';
 
                 newOccMap.set(remote.id, {
                   ...local,

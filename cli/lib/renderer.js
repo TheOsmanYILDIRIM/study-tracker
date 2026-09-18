@@ -68,7 +68,7 @@ function renderDashboard(data) {
   const totalOcc = occurrences.length + quizzes.length;
   const approvedOcc = occurrences.filter(o => o.status === 'APPROVED').length + quizzes.filter(q => q.completed).length;
   const waitingReviewOcc = occurrences.filter(o => o.status === 'WAITING_REVIEW').length;
-  const rejectedOcc = occurrences.filter(o => o.parentNote && o.status !== 'APPROVED').length;
+  const rejectedOcc = occurrences.filter(o => o.status === 'REJECTED' || (o.parentNote && o.parentNote.toLowerCase().includes('reddedil'))).length;
   const percent = totalOcc > 0 ? Math.round((approvedOcc / totalOcc) * 100) : 0;
 
   console.log(`${colors.bold}📊 İlerleme Özeti:${colors.reset}`);

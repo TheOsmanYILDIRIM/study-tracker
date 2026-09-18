@@ -133,6 +133,22 @@ export default {
             return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
           }
 
+          // B) İlerleme Sıfırlama (Reset Progress)
+          if (action === 'RESET') {
+            for (const occ of (current.occurrences || [])) {
+              occ.status = 'PENDING';
+              occ.completedDurationMin = 0;
+              occ.completedQuestionCount = 0;
+              occ.studentNote = null;
+              occ.parentNote = '';
+            }
+            current.sessions = [];
+            current.reviews = [];
+            current.updatedAt = Date.now();
+            await setStoreData(env, storeKey, current);
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
+          }
+
           const isParent = senderRole === 'PARENT';
 
           // 1. Plan & Task Templates (Parent is absolute authority)

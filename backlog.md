@@ -166,3 +166,8 @@
 - [x] Sekme butonunun ("🚨 Öğrenci İcraat Masası") 2 satıra taşması düzeltildi; "🚨 İcraat Masası" olarak dengeli ve tek satır pill sekme haline getirildi.
 - [x] "🎓 Öğrenci Çalışma Karnesi" kartında tamamlanma rozetinin dikey uzaması engellendi (`maxLines = 1`), modern `LinearProgressIndicator` eklendi, durum metni ile başarı yüzdesinin birbirine yapışması (`38 Kalan Ders%2 Başarı`) önlendi.
 
+## 41. Node.js Parenting AI & Admin CLI Aracı ve Modüler Alt Projeler
+- [x] Projenin 3 bağımsız modüler alt proje (`app/`, `worker/`, `cli/`) halinde tek çatı altında yapılandırılması
+- [x] Cloudflare Worker ve KV ile doğrudan konuşan, sıfır harici bağımlılıklı Node.js tabanlı `studytracker-cli` (`study-cli`) CLI aracının kodlanması
+- [x] AI ve Veli için durum izleme (`status` / `--json`), haftalık DSL plan uygulama (`plan apply` / `plan set`), öğrenci oturumu onaylama/reddetme (`approve` / `reject`), tekil ders düzenleme/silme (`task add/edit/delete`) ve sıfırlama (`reset`) komutlarının tamamlanması
+- [x] CLI aracının Termux ortamında `/data/data/com.termux/files/usr/bin/studytracker-cli` olarak global PATH'e bağlanması ve doğrulanması

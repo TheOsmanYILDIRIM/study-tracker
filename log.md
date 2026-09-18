@@ -302,6 +302,7 @@
   - Veli bir dersi sildiğinde hem `occurrences` tablosundan hem de ilişkili `task_templates` tablosundan kaldırılır ve buluttan da kalıcı olarak silinir.
 - **Öğrenci Masasında Belirgin `"🛡️ Kanıt Alma & Sayaç Hizmeti"` Kartı:**
   - Öğrenci Masasında (`ChildHomeScreen`) izinler kapalıyken en üstte dikkat çekici altın rengi uyarı kartı ve `"Hizmeti Aç"` butonu eklendi; öğrencinin hizmeti açması kolaylaştırıldı.
+
 ## [2026-09-18] 40. Veli Masası TopBar, Tab Bar ve Karne Rozeti Mobil UI & Taşma Düzeltmesi
 - **TopBar Başlığı ve İkon Sıkışması Düzeltmesi (`ParentDashboardScreen`):**
   - TopBar başlığındaki "Ebeveyn Masası" metninin 4 adet aksiyon butonu sebebiyle 120dp dar alana sıkışarak "yn \n Masas" şeklinde iki satıra bölünmesi ve kırpılması giderildi.
@@ -312,3 +313,11 @@
   - Sağ üstteki "$approvedTasks / $totalTasks Tamamlandı" rozetinin dikey uzaması engellendi (`maxLines = 1, softWrap = false`).
   - İlerlemeyi gösteren modern `LinearProgressIndicator` eklendi.
   - Alttaki "0 Onay Bekleyen • 38 Kalan Ders" metni ile "%2 Başarı Oranı" metninin dar ekranlarda birbirine yapışması (`38 Kalan Ders%2 Başarı`) engellendi; dikey `Arrangement.SpaceBetween` ve `weight(1f)` ile güvenli aralık sağlandı.
+
+## [2026-09-18] 41. Node.js Parenting AI & Admin CLI Aracı ve Modüler Alt Projeler
+- **Modüler Monorepo Yapılanması:**
+  - `study-tracker` proje dizini altında 3 bağımsız alt proje netleştirildi: `app/` (Android Studio Jetpack Compose), `worker/` (Cloudflare Serverless KV Backend), `cli/` (Node.js AI & Parenting CLI Toolkit).
+- **`studytracker-cli` (ve `study-cli`) CLI Aracı:**
+  - Cloudflare Worker API'si ile doğrudan haberleşen, sıfır harici paket bağımlılıklı Node.js CLI motoru kodlandı.
+  - Komutlar: `status` (dashboard ve `--json`), `plan show` / `plan apply` / `plan set` (DSL formatında plan yönetimi), `review list` / `approve` / `reject` (öğrenci oturum onay/red süreçleri), `task add` / `task edit` / `task delete` (tekil ders operasyonları) ve `reset` (ilerleme sıfırlama / temiz masa).
+  - Termux ortamında `/data/data/com.termux/files/usr/bin/studytracker-cli` ve `/data/data/com.termux/files/usr/bin/study-cli` symlinkleri kurularak doğrudan terminalden ve AI otomasyonundan erişilebilir hale getirildi.
