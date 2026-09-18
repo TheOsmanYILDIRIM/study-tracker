@@ -1,0 +1,30 @@
+HAFTA = 2026-W38
+BASLANGIC = 2026-09-14
+OGRENCI = child_1
+
+[DERSLER]
+mat_1 = Matematik: Üslü Sayılar Giriş ve Çarpma | 40 dk | https://www.youtube.com/watch?v=kYqP9K0Y0pU
+tar_1 = Tarih: Tarih Bilimi ve Zaman | 30 dk | https://www.youtube.com/watch?v=cK8U7k1f9sE
+mat_2 = Matematik: Bölme Kuralı ve Negatif Üs | 35 dk | https://www.youtube.com/watch?v=s5Rz-1i0n18
+edeb_1 = Edebiyat: Edebiyatın Anlamı ve Güzel Sanatlar | 30 dk | https://www.youtube.com/watch?v=vB8K6s3b2j1
+mat_soru = Matematik: Üslü Sayılar MEB Pekiştirme | 35 dk | 15 Soru
+biyo_1 = Biyoloji: Canlıların Ortak Özellikleri | 35 dk | https://www.youtube.com/watch?v=mZ7K8j1e0uQ
+cog_1 = Coğrafya: Doğa ve İnsan Etkileşimi | 30 dk | https://www.youtube.com/watch?v=yP8R6m1b5zQ
+fiz_1 = Fizik: Fizik Bilimi ve Alt Dalları | 35 dk | https://www.youtube.com/watch?v=F0m8l6FzM2k
+kim_1 = Kimya: Simyadan Kimyaya ve Disiplinler | 35 dk | https://www.youtube.com/watch?v=k9X8j1e0uQw
+anki_ing = Anki Temizle: 9. Sınıf İngilizce - 1. Ay | 15 dk
+anki_alm = Anki Temizle: 9. Sınıf Almanca - 1. Ay | 15 dk
+anki_cog = Anki Temizle: 9. Sınıf Coğrafya - 1. Ay | 15 dk
+kitap = Serbest Kitap Okuma | 25 dk
+
+[GUNLER]
+Pazartesi = mat_1, tar_1, anki_ing, kitap
+Sali = mat_2, edeb_1, anki_alm, kitap
+Carsamba = mat_soru, anki_cog, kitap
+Persembe = biyo_1, cog_1, anki_ing, kitap
+Cuma = fiz_1, kim_1, anki_alm, kitap
+Cumartesi = kitap
+Pazar = kitap
+
+[HAFTALIK]
+hafta_tekrar = Hafta Sonu Soru Çözümü & Mini Pekiştirme | 45 dk | 20 Soru

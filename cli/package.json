@@ -1,0 +1,20 @@
+{
+  "name": "studytracker-cli",
+  "version": "1.0.0",
+  "description": "StudyTracker AI Parenting & Admin CLI Tool for Cloudflare KV Sync",
+  "main": "index.js",
+  "bin": {
+    "studytracker-cli": "./bin/studytracker-cli.js",
+    "study-cli": "./bin/studytracker-cli.js"
+  },
+  "keywords": [
+    "studytracker",
+    "parenting",
+    "ai-agent",
+    "cli",
+    "cloudflare-worker",
+    "education"
+  ],
+  "author": "Antigravity & Osman YILDIRIM",
+  "license": "MIT"
+}

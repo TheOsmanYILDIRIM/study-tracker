@@ -1,0 +1,194 @@
+/**
+ * Test script to simulate the entire Veli <-> Öğrenci Cloudflare Worker Sync cycle.
+ */
+
+import worker from './worker.js';
+
+async function mockFetch(method, path, body = null, headers = {}) {
+  const url = `https://studytracker-sync.workers.dev${path}`;
+  const init = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+      ...headers
+    }
+  };
+  if (body) {
+    init.body = typeof body === 'string' ? body : JSON.stringify(body);
+  }
+
+  const req = new Request(url, init);
+  const res = await worker.fetch(req, {}, {});
+  const json = await res.json();
+  return { status: res.status, ok: res.ok, data: json };
+}
+
+async function runTest() {
+  console.log('🚀 === Cloudflare Worker StudyTracker Senkronizasyon Testi Başlıyor ===\n');
+
+  // Adım 1: Ping / Canlılık Kontrolü
+  console.log('1️⃣ Ping testi yapılıyor...');
+  const ping = await mockFetch('GET', '/api/ping');
+  console.log('   Ping Sonucu:', ping.data);
+  if (ping.data.status !== 'ok') throw new Error('Ping başarısız!');
+  console.log('   ✅ Ping başarılı.\n');
+
+  // Adım 2: Aile Eşleşme Kodu Oluşturma (Veli)
+  console.log('2️⃣ Veli için Aile Kodu oluşturuluyor (ST-8821)...');
+  const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-8821' });
+  console.log('   Eşleşme Kodu:', pair.data.familyCode);
+  const familyCode = pair.data.familyCode;
+  console.log('   ✅ Eşleşme kodu hazır.\n');
+
+  // Adım 3: Veli Haftalık Planı Yüklüyor (POST /api/sync)
+  console.log('3️⃣ Veli 1. Hafta planını ve derslerini buluta yüklüyor...');
+  const initialPayload = {
+    plan: {
+      planId: 'plan_2026_w38',
+      weekId: '2026-W38',
+      weekStartDate: '2026-09-14',
+      childId: 'child_1',
+      timezone: 'Europe/Istanbul',
+      updatedAt: '2026-09-18T09:00:00Z',
+      rawJson: '{}'
+    },
+    tasks: [
+      {
+        taskId: 'mat_01',
+        title: 'Matematik - Üslü Sayılara Giriş',
+        kind: 'DAILY',
+        contentType: 'VIDEO',
+        youtubeUrl: 'https://youtu.be/kYqP9K0Y0pU',
+        plannedMinutes: 35
+      },
+      {
+        taskId: 'tar_01',
+        title: 'Tarih - Geçmişin İnşa Sürecinde Tarih',
+        kind: 'DAILY',
+        contentType: 'VIDEO',
+        youtubeUrl: 'https://youtu.be/5QxOpTALmEE',
+        plannedMinutes: 25
+      }
+    ],
+    occurrences: [
+      {
+        id: 'occ_mat_pzt',
+        familyCode,
+        date: '2026-09-14',
+        planId: 'mat_01',
+        subject: 'Matematik - Üslü Sayılara Giriş',
+        topic: 'DAILY',
+        targetDurationMin: 35,
+        targetQuestionCount: 0,
+        completedDurationMin: 0,
+        completedQuestionCount: 0,
+        status: 'PENDING',
+        parentNote: 'Khan Academy videosunu dikkatlice izle',
+        weekId: '2026-W38',
+        orderIndex: 0,
+        youtubeUrl: 'https://youtu.be/kYqP9K0Y0pU'
+      }
+    ]
+  };
+
+  const uploadRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, initialPayload);
+  console.log('   Veli Yükleme Sonucu:', uploadRes.data.success ? 'BAŞARILI' : 'HATA');
+  console.log('   Buluttaki Görev Sayısı:', uploadRes.data.data.tasks.length);
+  console.log('   ✅ Veli planı buluta aktardı.\n');
+
+  // Adım 4: Öğrenci Buluttan Planı İndiriyor (GET /api/sync)
+  console.log('4️⃣ Öğrenci uygulaması buluttan güncel planı çekiyor...');
+  const childFetch = await mockFetch('GET', `/api/sync?code=${familyCode}`);
+  console.log('   Öğrencinin İndirdiği Plan ID:', childFetch.data.plan?.planId);
+  console.log('   Öğrencinin İndirdiği Görev:', childFetch.data.occurrences[0]?.subject);
+  console.log('   Video Linki:', childFetch.data.occurrences[0]?.youtubeUrl);
+  if (!childFetch.data.occurrences[0]?.youtubeUrl) throw new Error('Video URL eksik!');
+  console.log('   ✅ Öğrenci planı eksiksiz indirdi.\n');
+
+  // Adım 5: Öğrenci Dersi Tamamlayıp Rapor Gönderiyor (POST /api/sync)
+  console.log('5️⃣ Öğrenci Matematik dersini tamamlıyor (35 dk) ve öz değerlendirme notu ekliyor...');
+  const studentReport = {
+    occurrences: [
+      {
+        id: 'occ_mat_pzt',
+        familyCode,
+        date: '2026-09-14',
+        planId: 'mat_01',
+        subject: 'Matematik - Üslü Sayılara Giriş',
+        topic: 'DAILY',
+        targetDurationMin: 35,
+        targetQuestionCount: 0,
+        completedDurationMin: 35,
+        completedQuestionCount: 15,
+        status: 'WAITING_REVIEW',
+        parentNote: 'Khan Academy videosunu dikkatlice izle',
+        weekId: '2026-W38',
+        orderIndex: 0,
+        studentNote: '🌟 Konuyu çok iyi anladım, 15 soru çözdüm.',
+        youtubeUrl: 'https://youtu.be/kYqP9K0Y0pU'
+      }
+    ],
+    sessions: [
+      {
+        id: 'sess_mat_01',
+        familyCode,
+        occurrenceId: 'occ_mat_pzt',
+        startTime: Date.now() - 35 * 60 * 1000,
+        endTime: Date.now(),
+        durationMin: 35,
+        isCompleted: true,
+        notes: 'Öğrenci başarıyla bitirdi'
+      }
+    ]
+  };
+
+  const studentRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, studentReport);
+  console.log('   Öğrenci Rapor Yükleme Sonucu:', studentRes.data.success ? 'BAŞARILI' : 'HATA');
+  console.log('   Buluttaki Görev Durumu:', studentRes.data.data.occurrences[0]?.status);
+  console.log('   Öğrenci Notu:', studentRes.data.data.occurrences[0]?.studentNote);
+  console.log('   ✅ Öğrenci raporu buluta iletildi.\n');
+
+  // Adım 6: Veli Masasında Onaylıyor (POST /api/sync)
+  console.log('6️⃣ Veli onay masasını açıyor ve görevi ONAYLIYOR (APPROVED)...');
+  const parentReview = {
+    occurrences: [
+      {
+        id: 'occ_mat_pzt',
+        familyCode,
+        status: 'APPROVED'
+      }
+    ],
+    reviews: [
+      {
+        id: 'rev_sess_mat_01',
+        familyCode,
+        sessionId: 'sess_mat_01',
+        isApproved: true,
+        parentRating: 5,
+        feedbackNote: 'Tebrikler harika çalışma! 🌟',
+        reviewedAt: Date.now()
+      }
+    ]
+  };
+
+  const parentReviewRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, parentReview);
+  console.log('   Veli Onay Sonucu:', parentReviewRes.data.data.occurrences[0]?.status);
+  console.log('   Veli Puanı:', parentReviewRes.data.data.reviews[0]?.parentRating);
+  console.log('   ✅ Veli onayı buluta işlendi.\n');
+
+  // Adım 7: Öğrenci Onay Durumunu Alıyor (GET /api/sync)
+  console.log('7️⃣ Öğrenci son durumu çekiyor...');
+  const finalCheck = await mockFetch('GET', `/api/sync?code=${familyCode}`);
+  console.log('   Öğrenci Ekranındaki Son Durum:', finalCheck.data.occurrences[0]?.status);
+  console.log('   Gelen Veli Notu:', finalCheck.data.reviews[0]?.feedbackNote);
+  if (finalCheck.data.occurrences[0]?.status !== 'APPROVED') throw new Error('Onay durumu yansımadı!');
+  
+  console.log('\n🎉 ========================================================');
+  console.log('🎉 TÜM CLOUDFLARE WORKERS SENKRONİZASYON DÖNGÜSÜ KUSURSUZ ÇALIŞTI!');
+  console.log('🎉 ========================================================');
+}
+
+runTest().catch(err => {
+  console.error('❌ Test sırasında hata:', err);
+  process.exit(1);
+});

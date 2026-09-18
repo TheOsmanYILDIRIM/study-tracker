@@ -302,8 +302,13 @@
   - Veli bir dersi sildiğinde hem `occurrences` tablosundan hem de ilişkili `task_templates` tablosundan kaldırılır ve buluttan da kalıcı olarak silinir.
 - **Öğrenci Masasında Belirgin `"🛡️ Kanıt Alma & Sayaç Hizmeti"` Kartı:**
   - Öğrenci Masasında (`ChildHomeScreen`) izinler kapalıyken en üstte dikkat çekici altın rengi uyarı kartı ve `"Hizmeti Aç"` butonu eklendi; öğrencinin hizmeti açması kolaylaştırıldı.
-- **Ortalanmış ve Pürüzsüz Pull-to-Refresh:**
-  - Hem Veli hem Öğrenci masasında `PullToRefreshContainer` bileşeni TopBar altında tam yatay merkezde pürüzsüz görünecek şekilde hizalandı.
-
-
-
+## [2026-09-18] 40. Veli Masası TopBar, Tab Bar ve Karne Rozeti Mobil UI & Taşma Düzeltmesi
+- **TopBar Başlığı ve İkon Sıkışması Düzeltmesi (`ParentDashboardScreen`):**
+  - TopBar başlığındaki "Ebeveyn Masası" metninin 4 adet aksiyon butonu sebebiyle 120dp dar alana sıkışarak "yn \n Masas" şeklinde iki satıra bölünmesi ve kırpılması giderildi.
+  - Birincil eylem olan Bulut Senkronizasyonu (`CloudSync`) ikon butonu olarak korunurken; ikincil eylemler (AI Plan Stüdyosu, WhatsApp/Dosya Paylaşımı, İlerleme Sıfırlama) şık bir taşma menüsüne (`MoreVert` / `DropdownMenu`) toplandı. Başlık `maxLines = 1, TextOverflow.Ellipsis` ve 16.sp ile genişletilerek tüm mobil ekran boyutlarında (320dp - 411dp) ferahlatıldı.
+- **Sekme Başlıklarının Tek Satıra Dengelenmesi:**
+  - Tab 1 başlığındaki "🚨 Öğrenci İcraat Masası" metninin dar ekranlarda 2 satıra taşması ("🚨 Öğrenci İcraat \n Masası") düzeltildi; "🚨 İcraat Masası" olarak dengelenerek `maxLines = 1` güvencesine alındı.
+- **Öğrenci Çalışma Karnesi Kartı & Metin Çakışması İyileştirmesi:**
+  - Sağ üstteki "$approvedTasks / $totalTasks Tamamlandı" rozetinin dikey uzaması engellendi (`maxLines = 1, softWrap = false`).
+  - İlerlemeyi gösteren modern `LinearProgressIndicator` eklendi.
+  - Alttaki "0 Onay Bekleyen • 38 Kalan Ders" metni ile "%2 Başarı Oranı" metninin dar ekranlarda birbirine yapışması (`38 Kalan Ders%2 Başarı`) engellendi; dikey `Arrangement.SpaceBetween` ve `weight(1f)` ile güvenli aralık sağlandı.

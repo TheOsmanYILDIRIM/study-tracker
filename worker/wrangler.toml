@@ -1,0 +1,9 @@
+name = "studytracker-sync"
+main = "worker.js"
+compatibility_date = "2026-09-18"
+
+# Cloudflare KV Namespace for persisting family sync data (KV bound)
+# To create KV: npx wrangler kv:namespace create STUDY_SYNC_KV
+# kv_namespaces = [
+#   { binding = "STUDY_SYNC_KV", id = "<YOUR_KV_NAMESPACE_ID>" }
+# ]

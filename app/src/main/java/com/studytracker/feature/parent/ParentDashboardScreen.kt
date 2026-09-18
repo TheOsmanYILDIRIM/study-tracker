@@ -93,6 +93,7 @@ fun ParentDashboardScreen(
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showCloudSyncDialog by remember { mutableStateOf(false) }
+    var showMoreMenu by remember { mutableStateOf(false) }
     var taskToEdit by remember { mutableStateOf<Occurrence?>(null) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
@@ -351,19 +352,26 @@ fun ParentDashboardScreen(
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
                         Box(
                             modifier = Modifier
-                                .size(36.dp)
-                                .clip(RoundedCornerShape(10.dp))
+                                .size(32.dp)
+                                .clip(RoundedCornerShape(8.dp))
                                 .background(ZenForestContainer)
-                                .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), RoundedCornerShape(10.dp)),
+                                .border(1.dp, ZenForestGreen.copy(alpha = 0.5f), RoundedCornerShape(8.dp)),
                             contentAlignment = Alignment.Center
                         ) {
-                            Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(20.dp))
+                            Icon(Icons.Default.SupervisorAccount, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(18.dp))
                         }
-                        Text("Ebeveyn Masası", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ZomoTextPrimary)
+                        Text(
+                            text = "Ebeveyn Masası",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 16.sp,
+                            color = ZomoTextPrimary,
+                            maxLines = 1,
+                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
+                        )
                     }
                 },
                 navigationIcon = {
@@ -372,22 +380,10 @@ fun ParentDashboardScreen(
                     }
                 },
                 actions = {
-                    IconButton(onClick = { showResetConfirmDialog = true }) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenRoseCoral.copy(alpha = 0.15f))
-                                .border(1.dp, ZenRoseCoral.copy(alpha = 0.5f), ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(18.dp))
-                        }
-                    }
                     IconButton(onClick = { showCloudSyncDialog = true }) {
                         Box(
                             modifier = Modifier
-                                .size(36.dp)
+                                .size(34.dp)
                                 .clip(ZenPillShape)
                                 .background(ZenSkyCyanContainer)
                                 .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
@@ -396,37 +392,58 @@ fun ParentDashboardScreen(
                             Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                         }
                     }
-                    IconButton(onClick = {
-                        scope.launch {
-                            val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
-                            com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
-                                context,
-                                file,
-                                "Haftalık Çalışma Planını Öğrenciye Gönder"
+
+                    Box {
+                        IconButton(onClick = { showMoreMenu = true }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .clip(ZenPillShape)
+                                    .background(Color(0xFF141F36))
+                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.MoreVert, contentDescription = "Daha Fazla", tint = ZomoTextSecondary, modifier = Modifier.size(18.dp))
+                            }
+                        }
+
+                        DropdownMenu(
+                            expanded = showMoreMenu,
+                            onDismissRequest = { showMoreMenu = false },
+                            modifier = Modifier.background(Color(0xFF10192D)).border(1.dp, ZenNightBorder, RoundedCornerShape(12.dp))
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("✨ AI Plan Stüdyosu", color = ZenSkyCyan, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) },
+                                leadingIcon = { Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp)) },
+                                onClick = {
+                                    showMoreMenu = false
+                                    onNavigateToPlanStudio()
+                                }
                             )
-                        }
-                    }) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenForestGreen.copy(alpha = 0.25f))
-                                .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.Send, contentDescription = "Planı Paylaş", tint = ZenForestGreen, modifier = Modifier.size(18.dp))
-                        }
-                    }
-                    IconButton(onClick = onNavigateToPlanStudio) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                            DropdownMenuItem(
+                                text = { Text("📤 Planı WhatsApp/Dosya Paylaş", color = ZenForestGreen, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) },
+                                leadingIcon = { Icon(Icons.Default.Send, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(18.dp)) },
+                                onClick = {
+                                    showMoreMenu = false
+                                    scope.launch {
+                                        val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
+                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
+                                            context,
+                                            file,
+                                            "Haftalık Çalışma Planını Öğrenciye Gönder"
+                                        )
+                                    }
+                                }
+                            )
+                            Divider(color = ZenPaperBorder.copy(alpha = 0.3f), thickness = 0.8.dp)
+                            DropdownMenuItem(
+                                text = { Text("🔄 İlerlemeyi / Planı Sıfırla", color = ZenRoseCoral, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) },
+                                leadingIcon = { Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(18.dp)) },
+                                onClick = {
+                                    showMoreMenu = false
+                                    showResetConfirmDialog = true
+                                }
+                            )
                         }
                     }
                 }
@@ -468,21 +485,23 @@ fun ParentDashboardScreen(
                         Row(
                             horizontalArrangement = Arrangement.Center,
                             verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.fillMaxWidth()
+                            modifier = Modifier.fillMaxWidth().padding(horizontal = 4.dp)
                         ) {
                             Text(
-                                "🚨 Öğrenci İcraat Masası",
+                                text = "🚨 İcraat Masası",
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 12.sp,
-                                color = if (selectedTabIndex == 0) ZenMintText else ZomoTextSecondary
+                                color = if (selectedTabIndex == 0) ZenMintText else ZomoTextSecondary,
+                                maxLines = 1,
+                                overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                             )
                             if (waitingSessions.isNotEmpty()) {
-                                Spacer(modifier = Modifier.width(6.dp))
+                                Spacer(modifier = Modifier.width(5.dp))
                                 Box(
                                     modifier = Modifier
                                         .clip(ZenPillShape)
                                         .background(ZenRoseCoral)
-                                        .padding(horizontal = 6.dp, vertical = 1.dp)
+                                        .padding(horizontal = 5.dp, vertical = 1.dp)
                                 ) {
                                     Text(
                                         "${waitingSessions.size}",
@@ -506,10 +525,12 @@ fun ParentDashboardScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         Text(
-                            "📅 Haftalık Plan",
+                            text = "📅 Haftalık Plan",
                             fontWeight = FontWeight.Bold,
                             fontSize = 12.sp,
-                            color = if (selectedTabIndex == 1) ZenMintText else ZomoTextSecondary
+                            color = if (selectedTabIndex == 1) ZenMintText else ZomoTextSecondary,
+                            maxLines = 1,
+                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                         )
                     }
                 }
@@ -525,6 +546,9 @@ fun ParentDashboardScreen(
                 ) {
                     // Student Performance Summary Card
                     item {
+                        val completionRate = if (totalTasks > 0) (approvedTasks * 100 / totalTasks) else 0
+                        val progressFloat = if (totalTasks > 0) approvedTasks.toFloat() / totalTasks else 0f
+
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
@@ -542,7 +566,7 @@ fun ParentDashboardScreen(
                                     horizontalArrangement = Arrangement.SpaceBetween,
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
-                                    Column {
+                                    Column(modifier = Modifier.weight(1f, fill = false)) {
                                         Text(
                                             text = "🎓 Öğrenci Çalışma Karnesi",
                                             style = MaterialTheme.typography.labelMedium,
@@ -553,9 +577,13 @@ fun ParentDashboardScreen(
                                             text = activePlan?.weekId ?: "Haftalık Plan",
                                             style = MaterialTheme.typography.titleMedium,
                                             fontWeight = FontWeight.Bold,
-                                            color = ZomoTextPrimary
+                                            color = ZomoTextPrimary,
+                                            maxLines = 1,
+                                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                                         )
                                     }
+
+                                    Spacer(modifier = Modifier.width(8.dp))
 
                                     Box(
                                         modifier = Modifier
@@ -565,30 +593,50 @@ fun ParentDashboardScreen(
                                             .padding(horizontal = 10.dp, vertical = 4.dp)
                                     ) {
                                         Text(
-                                            text = "$approvedTasks/$totalTasks Tamamlandı",
+                                            text = "$approvedTasks / $totalTasks Tamamlandı",
                                             color = ZenForestGreen,
                                             fontWeight = FontWeight.Bold,
-                                            fontSize = 11.sp
+                                            fontSize = 11.sp,
+                                            maxLines = 1,
+                                            softWrap = false
                                         )
                                     }
                                 }
 
+                                // Linear Progress Bar
+                                LinearProgressIndicator(
+                                    progress = { progressFloat },
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .height(6.dp)
+                                        .clip(RoundedCornerShape(3.dp)),
+                                    color = ZenForestGreen,
+                                    trackColor = Color(0xFF142038)
+                                )
+
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Text(
-                                        text = "${waitingSessions.size} Onay Bekleyen • ${totalTasks - approvedTasks} Kalan Ders",
+                                        text = "${waitingSessions.size} Onay Bekleyen • ${totalTasks - approvedTasks} Kalan",
                                         style = MaterialTheme.typography.bodySmall,
                                         color = ZomoTextSecondary,
-                                        fontSize = 11.5.sp
+                                        fontSize = 11.5.sp,
+                                        maxLines = 1,
+                                        overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+                                        modifier = Modifier.weight(1f, fill = false)
                                     )
+                                    Spacer(modifier = Modifier.width(8.dp))
                                     Text(
-                                        text = if (totalTasks > 0) "%${(approvedTasks * 100 / totalTasks)} Başarı Oranı" else "%0",
+                                        text = "%$completionRate Başarı",
                                         style = MaterialTheme.typography.bodySmall,
                                         fontWeight = FontWeight.Bold,
                                         color = ZenSkyCyan,
-                                        fontSize = 11.5.sp
+                                        fontSize = 11.5.sp,
+                                        maxLines = 1,
+                                        softWrap = false
                                     )
                                 }
                             }

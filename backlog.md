@@ -160,3 +160,9 @@
 - [x] Veli masasında silinen derslerin buluttan ve yerel veritabanından kalıcı olarak silinmesi, ilgili `TaskTemplateEntity`'nin otomatik temizlenmesi
 - [x] Öğrenci Masasında (`ChildHomeScreen`) izinler kapalıyken en üstte beliren şık, dikkat çekici `"🛡️ Kanıt Alma & Sayaç Hizmeti"` kartı ve `"Hizmeti Aç"` butonu
 - [x] Hem Veli hem Öğrenci masasında `PullToRefreshContainer` bileşeninin TopBar altında tam yatay merkezde pürüzsüz görünümünün sağlanması
+
+## 40. Veli Masası TopBar, Tab Bar ve Karne Rozeti Mobil UI & Taşma Düzeltmesi
+- [x] TopBar başlığının dar ekranlarda sıkışarak ("yn Masas") kırpılması sorununun giderilmesi: Başlık `maxLines = 1, Ellipsis` yapıldı, ikincil eylemler (`DropdownMenu` / `MoreVert`) içine toplanarak TopBar ferahlatıldı.
+- [x] Sekme butonunun ("🚨 Öğrenci İcraat Masası") 2 satıra taşması düzeltildi; "🚨 İcraat Masası" olarak dengeli ve tek satır pill sekme haline getirildi.
+- [x] "🎓 Öğrenci Çalışma Karnesi" kartında tamamlanma rozetinin dikey uzaması engellendi (`maxLines = 1`), modern `LinearProgressIndicator` eklendi, durum metni ile başarı yüzdesinin birbirine yapışması (`38 Kalan Ders%2 Başarı`) önlendi.
+
