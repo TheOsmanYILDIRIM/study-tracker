@@ -139,10 +139,6 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
-                                try {
-                                    com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-                                        .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, false, note)
-                                } catch (ignored: Exception) {}
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),
@@ -181,10 +177,6 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
-                                try {
-                                    com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context)
-                                        .pushReviewDecision(currentSession.sessionId, currentSession.occurrenceKey, true, note)
-                                } catch (ignored: Exception) {}
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),

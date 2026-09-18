@@ -443,17 +443,6 @@ fun ChildHomeScreen(
                                 Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
                             }
                         }
-                        IconButton(onClick = onNavigateToSettings) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenPaperCard, ZenPillShape)
-                                    .border(1.dp, ZenPaperBorder, ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(Icons.Default.Settings, contentDescription = "Ayarlar", tint = ZomoTextSecondary, modifier = Modifier.size(17.dp))
-                            }
-                        }
                     }
                 )
             }
@@ -794,29 +783,64 @@ fun LiveActiveSessionBanner(
                 maxLines = 1
             )
 
+            // 🎬 Büyük Belirgin Tıklanabilir Video Kartı
+            if (!videoUrl.isNullOrBlank()) {
+                Surface(
+                    shape = RoundedCornerShape(12.dp),
+                    color = Color(0x33E11D48),
+                    border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenRoseCoral),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable { openVideoUrl(context, videoUrl) }
+                ) {
+                    Row(
+                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 9.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .size(32.dp)
+                                .background(ZenRoseCoral, CircleShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.PlayArrow,
+                                contentDescription = null,
+                                tint = Color.White,
+                                modifier = Modifier.size(18.dp)
+                            )
+                        }
+                        Column(modifier = Modifier.weight(1f)) {
+                            Text(
+                                text = "🎬 Videoyu / Dersi İzle (YouTube)",
+                                fontWeight = FontWeight.Bold,
+                                color = Color.White,
+                                fontSize = 12.5.sp
+                            )
+                            Text(
+                                text = videoUrl,
+                                color = ZenRoseCoral.copy(alpha = 0.9f),
+                                fontSize = 10.5.sp,
+                                maxLines = 1,
+                                overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
+                            )
+                        }
+                        Icon(
+                            imageVector = Icons.Default.OpenInNew,
+                            contentDescription = null,
+                            tint = ZenRoseCoral,
+                            modifier = Modifier.size(18.dp)
+                        )
+                    }
+                }
+            }
+
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                // Video quick launcher button if task has video
-                if (!videoUrl.isNullOrBlank()) {
-                    IconButton(
-                        onClick = { openVideoUrl(context, videoUrl) },
-                        modifier = Modifier
-                            .size(38.dp)
-                            .background(ZenRoseCoral.copy(alpha = 0.2f), CircleShape)
-                            .border(1.dp, ZenRoseCoral, CircleShape)
-                    ) {
-                        Icon(
-                            imageVector = Icons.Default.SmartDisplay,
-                            contentDescription = "Videoyu Aç",
-                            tint = ZenRoseCoral,
-                            modifier = Modifier.size(20.dp)
-                        )
-                    }
-                }
-
                 // Pause / Resume Button
                 Button(
                     onClick = {

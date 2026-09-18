@@ -15,5 +15,4 @@ sealed class Screen(val route: String) {
     object ParentQuizReview : Screen("parent_quiz_review/{quizId}") {
         fun createRoute(quizId: String) = "parent_quiz_review/$quizId"
     }
-    object DeveloperConsole : Screen("developer_console")
 }

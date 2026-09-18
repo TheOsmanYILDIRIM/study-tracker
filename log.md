@@ -249,3 +249,13 @@
 - **Öğrenci Masası & Canlı Oturum Banner Entegrasyonu (`ChildHomeScreen` & `StudyTaskCard`):**
   - "Başla" butonuna basıldığında video linki varsa otomatik olarak açılıyor.
   - Canlı aktif ders şeridinde (`LiveActiveSessionBanner`) öğrencinin ders devam ederken dilediği an videoyu yeniden açabilmesi için tek tık "🎬 Videoyu Aç" butonu entegre edildi.
+
+## [2026-09-18] 34. Bulut ve Test Konsolu Kodlarının Temizlenmesi & Canlı Video Butonunun Belirginleştirilmesi
+- **Bulut / Supabase & Test Modu Kodlarının Temizliği:**
+  - `SupabaseHttpClient`, `SupabaseDto`, `CloudSyncManager`, `CloudSyncDialog` ve `DeveloperConsoleScreen` dosyaları ve bağımlılıkları projeden tamamen silindi.
+  - `RoleSelectionScreen`, `ChildHomeScreen`, `ParentDashboardScreen` ve `NavGraph` üzerindeki test modu rozetleri, ayarlar ve geliştirici konsolu navigasyon rotaları temizlendi.
+  - `AppPreferences` içerisinden test override ve supabase anahtarları kaldırılarak temiz üretim durumuna getirildi.
+- **Canlı Aktif Oturumda Belirgin Tıklanabilir Video Kartı:**
+  - Öğrenci bir görevi başlattığında ekranın en üstünde beliren `LiveActiveSessionBanner` içerisine tam genişlikli, parlak kırmızı YouTube rozetli ve link önizlemeli **"🎬 Videoyu / Dersi İzle (YouTube)"** tıklanabilir kartı yerleştirildi.
+  - `StudyTaskCard` ve `StudyWeeklyTaskCard` üzerinde video linki bulunan her ders için tıklanabilir kart doğrudan görünür hale getirildi.
+

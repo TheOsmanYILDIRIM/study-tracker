@@ -323,18 +323,6 @@ fun ParentDashboardScreen(
                             Icon(Icons.Default.AutoAwesome, contentDescription = "AI Plan Stüdyosu", tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                         }
                     }
-                    IconButton(onClick = onNavigateToSettings) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(Icons.Default.Settings, contentDescription = "Ayarlar", tint = ZomoTextSecondary, modifier = Modifier.size(18.dp))
-                        }
-                    }
                 }
             )
         }

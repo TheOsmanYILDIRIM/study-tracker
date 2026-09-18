@@ -18,7 +18,6 @@ import com.studytracker.feature.parent.ParentDashboardScreen
 import com.studytracker.feature.parent.ParentQuizReviewScreen
 import com.studytracker.feature.parent.RoleSelectionScreen
 import com.studytracker.feature.parent.SessionReviewScreen
-import com.studytracker.feature.test_mode.DeveloperConsoleScreen
 
 @Composable
 fun AppNavGraph(
@@ -49,9 +48,6 @@ fun AppNavGraph(
                 },
                 onNavigateToParent = {
                     navController.navigate(Screen.ParentDashboard.route)
-                },
-                onNavigateToDevMode = {
-                    navController.navigate(Screen.DeveloperConsole.route)
                 }
             )
         }
@@ -74,9 +70,6 @@ fun AppNavGraph(
                 onOpenTutorial = {
                     navController.navigate(Screen.ChildTutorial.route)
                 },
-                onNavigateToSettings = {
-                    navController.navigate(Screen.DeveloperConsole.route)
-                },
                 onNavigateToQuiz = { quizId ->
                     navController.navigate(Screen.ChildQuiz.createRoute(quizId))
                 }
@@ -96,9 +89,6 @@ fun AppNavGraph(
                 },
                 onNavigateToQuizReview = { quizId ->
                     navController.navigate(Screen.ParentQuizReview.createRoute(quizId))
-                },
-                onNavigateToSettings = {
-                    navController.navigate(Screen.DeveloperConsole.route)
                 }
             )
         }
@@ -144,14 +134,6 @@ fun AppNavGraph(
             val quizId = backStackEntry.arguments?.getString("quizId") ?: ""
             ParentQuizReviewScreen(
                 quizId = quizId,
-                onNavigateBack = {
-                    navController.popBackStack()
-                }
-            )
-        }
-
-        composable(Screen.DeveloperConsole.route) {
-            DeveloperConsoleScreen(
                 onNavigateBack = {
                     navController.popBackStack()
                 }

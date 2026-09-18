@@ -10,40 +10,14 @@ class AppPreferences private constructor(context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
-    private val _isTestModeEnabled = MutableStateFlow(prefs.getBoolean(KEY_TEST_MODE, true))
-    val isTestModeEnabled: StateFlow<Boolean> = _isTestModeEnabled.asStateFlow()
-
     private val _hasCompletedTutorial = MutableStateFlow(prefs.getBoolean(KEY_HAS_COMPLETED_TUTORIAL, false))
     val hasCompletedTutorial: StateFlow<Boolean> = _hasCompletedTutorial.asStateFlow()
 
-    private val _isFakeCaptureEnabled = MutableStateFlow(prefs.getBoolean(KEY_FAKE_CAPTURE, true))
+    private val _isFakeCaptureEnabled = MutableStateFlow(prefs.getBoolean(KEY_FAKE_CAPTURE, false))
     val isFakeCaptureEnabled: StateFlow<Boolean> = _isFakeCaptureEnabled.asStateFlow()
 
     private val _isNightMode = MutableStateFlow(prefs.getBoolean(KEY_NIGHT_MODE, true))
     val isNightMode: StateFlow<Boolean> = _isNightMode.asStateFlow()
-
-    // Test mode simulation overrides for real-time background brightness & flying star previews
-    private val _testProgressOverride = MutableStateFlow<Float?>(null)
-    val testProgressOverride: StateFlow<Float?> = _testProgressOverride.asStateFlow()
-
-    private val _testFlyingStarTrigger = MutableStateFlow<Long>(0L)
-    val testFlyingStarTrigger: StateFlow<Long> = _testFlyingStarTrigger.asStateFlow()
-
-    fun setTestProgressOverride(ratio: Float?) {
-        _testProgressOverride.value = ratio
-    }
-
-    fun triggerTestFlyingStar() {
-        _testFlyingStarTrigger.value = System.currentTimeMillis()
-    }
-
-    fun setTestModeEnabled(enabled: Boolean) {
-        prefs.edit().putBoolean(KEY_TEST_MODE, enabled).apply()
-        _isTestModeEnabled.value = enabled
-        if (!enabled) {
-            _testProgressOverride.value = null
-        }
-    }
 
     fun setHasCompletedTutorial(completed: Boolean) {
         prefs.edit().putBoolean(KEY_HAS_COMPLETED_TUTORIAL, completed).apply()
@@ -64,69 +38,18 @@ class AppPreferences private constructor(context: Context) {
         setNightMode(!_isNightMode.value)
     }
 
-    // Cloud Sync & Supabase preferences
-    private val _familyPairCode = MutableStateFlow(
-        prefs.getString(KEY_FAMILY_PAIR_CODE, DEFAULT_FAMILY_CODE)?.ifBlank { DEFAULT_FAMILY_CODE } ?: DEFAULT_FAMILY_CODE
-    )
-    val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
-
-    private val _isCloudSyncEnabled = MutableStateFlow(prefs.getBoolean(KEY_CLOUD_SYNC_ENABLED, true))
-    val isCloudSyncEnabled: StateFlow<Boolean> = _isCloudSyncEnabled.asStateFlow()
-
-    private val _supabaseUrl = MutableStateFlow(prefs.getString(KEY_SUPABASE_URL, DEFAULT_SUPABASE_URL) ?: DEFAULT_SUPABASE_URL)
-    val supabaseUrl: StateFlow<String> = _supabaseUrl.asStateFlow()
-
-    private val _supabaseAnonKey = MutableStateFlow(prefs.getString(KEY_SUPABASE_ANON_KEY, DEFAULT_SUPABASE_ANON_KEY) ?: DEFAULT_SUPABASE_ANON_KEY)
-    val supabaseAnonKey: StateFlow<String> = _supabaseAnonKey.asStateFlow()
-
-    fun setFamilyPairCode(code: String) {
-        val sanitized = code.trim().uppercase().ifBlank { DEFAULT_FAMILY_CODE }
-        prefs.edit().putString(KEY_FAMILY_PAIR_CODE, sanitized).apply()
-        _familyPairCode.value = sanitized
-    }
-
-    fun setCloudSyncEnabled(enabled: Boolean) {
-        prefs.edit().putBoolean(KEY_CLOUD_SYNC_ENABLED, enabled).apply()
-        _isCloudSyncEnabled.value = enabled
-    }
-
-    fun setSupabaseConfig(url: String, anonKey: String) {
-        prefs.edit()
-            .putString(KEY_SUPABASE_URL, url)
-            .putString(KEY_SUPABASE_ANON_KEY, anonKey)
-            .apply()
-        _supabaseUrl.value = url
-        _supabaseAnonKey.value = anonKey
-    }
-
     fun resetAllPreferences() {
         prefs.edit().clear().apply()
-        _isTestModeEnabled.value = true
         _hasCompletedTutorial.value = false
-        _isFakeCaptureEnabled.value = true
+        _isFakeCaptureEnabled.value = false
         _isNightMode.value = true
-        _familyPairCode.value = DEFAULT_FAMILY_CODE
-        _isCloudSyncEnabled.value = true
-        _supabaseUrl.value = DEFAULT_SUPABASE_URL
-        _supabaseAnonKey.value = DEFAULT_SUPABASE_ANON_KEY
     }
 
     companion object {
         private const val PREFS_NAME = "study_tracker_prefs"
-        private const val KEY_TEST_MODE = "is_test_mode_enabled"
         private const val KEY_HAS_COMPLETED_TUTORIAL = "has_completed_tutorial"
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
         private const val KEY_NIGHT_MODE = "is_night_mode"
-        private const val KEY_FAMILY_PAIR_CODE = "family_pair_code"
-        private const val KEY_CLOUD_SYNC_ENABLED = "is_cloud_sync_enabled"
-        private const val KEY_SUPABASE_URL = "supabase_url"
-        private const val KEY_SUPABASE_ANON_KEY = "supabase_anon_key"
-
-        const val DEFAULT_FAMILY_CODE = "ST-2026"
-
-        // Default public demo project or placeholder endpoints (easily overridden in UI / DevConsole)
-        const val DEFAULT_SUPABASE_URL = "https://wixmpyfegcvyzomgopte.supabase.co"
-        const val DEFAULT_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndpeG1weWZlZ2N2eXpvbWdvcHRlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAwMDAwMDAsImV4cCI6MjAyMDAwMDAwMH0.demo_placeholder_token"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null
@@ -140,3 +63,4 @@ class AppPreferences private constructor(context: Context) {
         }
     }
 }
+

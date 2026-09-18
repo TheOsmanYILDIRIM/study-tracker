@@ -479,13 +479,21 @@ fun StudyTaskCard(
                             modifier = Modifier.size(15.dp)
                         )
                     }
-                    Text(
-                        text = "🎬 Videoyu / Dersi Aç (YouTube)",
-                        fontWeight = FontWeight.Bold,
-                        color = Color.White,
-                        fontSize = 12.sp,
-                        modifier = Modifier.weight(1f)
-                    )
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(
+                            text = "🎬 Videoyu / Dersi Aç (YouTube)",
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White,
+                            fontSize = 12.sp
+                        )
+                        Text(
+                            text = validUrl,
+                            color = ZenRoseCoral.copy(alpha = 0.85f),
+                            fontSize = 10.sp,
+                            maxLines = 1,
+                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
+                        )
+                    }
                     Icon(
                         imageVector = Icons.Default.OpenInNew,
                         contentDescription = null,

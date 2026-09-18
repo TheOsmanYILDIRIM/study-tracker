@@ -130,3 +130,7 @@
 ## 33. Görev Başlatıldığında Video Linklerinin Otomatik ve Sorunsuz Açılması (Video Launcher & Plan Parser Güçlendirmesi)
 - [x] Görev Başlatıldığında Video Linklerinin Güvenilir Açılması, Android 11+ Package Visibility Desteği, Gelişmiş URL Temizleme ve Plan Ayrıştırma İyileştirmesi
 
+## 34. Bulut ve Test Konsolu Kodlarının Temizlenmesi & Canlı Video Butonunun Belirginleştirilmesi
+- [x] Bulut/Supabase ve Test Modu/Geliştirici Konsolunun Kod Tabanından Temizlenmesi, Ders Başlatıldığında Aktif Şeritte ve Görev Kartlarında Belirgin Tıklanabilir Video Linki Kartının Sunulması
+
+

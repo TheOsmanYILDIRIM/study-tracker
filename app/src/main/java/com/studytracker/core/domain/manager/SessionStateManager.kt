@@ -157,11 +157,6 @@ class SessionStateManager private constructor(
             val finalSs = getEffectiveCaptureDriver().stop()
             sessionRepository.finishSession(current.session.sessionId, finalSs?.url, studentNote)
 
-            // Auto sync to cloud in background
-            try {
-                com.studytracker.core.data.remote.sync.CloudSyncManager.getInstance(context).syncAll()
-            } catch (_: Exception) {}
-
             withContext(Dispatchers.Main) {
                 _activeState.value = null
                 _elapsedSeconds.value = 0L

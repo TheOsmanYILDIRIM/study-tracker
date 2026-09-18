@@ -14,8 +14,6 @@ import com.studytracker.core.data.local.db.entity.*
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.plan_engine.PlanMergeEngine
 import com.studytracker.core.data.plan_engine.SimplePlanParser
-import com.studytracker.core.data.remote.supabase.*
-import com.studytracker.core.data.remote.sync.CloudSyncManager
 import com.studytracker.core.domain.model.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -567,11 +565,6 @@ object StudyPackageExchangeManager {
                 db.quizDao().upsertQuizzes(mergedQuizzes)
             }
 
-            // 8. Auto trigger ContentProvider sync if peer exists on the device
-            try {
-                CloudSyncManager.getInstance(context).syncAll()
-            } catch (_: Exception) {}
-
             val summary = "${pkg.title} başarıyla yüklendi! (${pkg.occurrences.size} ders, ${pkg.quizzes.size} test, ${pkg.screenshots.size} kanıt)"
             Result.success(summary)
         } catch (e: Exception) {
@@ -601,11 +594,6 @@ object StudyPackageExchangeManager {
             if (screenshotsDir.exists()) {
                 screenshotsDir.listFiles()?.forEach { it.delete() }
             }
-
-            // Trigger sync so peer APK is notified
-            try {
-                CloudSyncManager.getInstance(context).syncAll()
-            } catch (_: Exception) {}
 
             "Tüm çalışma ve kanıt verileri sıfırlandı."
         }

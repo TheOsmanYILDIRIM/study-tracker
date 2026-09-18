@@ -38,20 +38,18 @@ fun RoleSelectionScreen(
     onNavigateToChildHome: () -> Unit,
     onNavigateToChildTutorial: () -> Unit,
     onNavigateToParent: () -> Unit,
-    onNavigateToDevMode: () -> Unit
+    onNavigateToDevMode: () -> Unit = {}
 ) {
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
-    val isTestModeEnabled by appPreferences.isTestModeEnabled.collectAsState()
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
-    val testProgressOverride by appPreferences.testProgressOverride.collectAsState()
 
     var showPinDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
     var pinError by remember { mutableStateOf(false) }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        ZenParallaxBackground(progressOverride = testProgressOverride)
+        ZenParallaxBackground()
 
         Scaffold(
             containerColor = Color.Transparent,
@@ -61,73 +59,38 @@ fun RoleSelectionScreen(
                         containerColor = Color(0xB3080D1A),
                         titleContentColor = ZomoTextPrimary
                     ),
-                title = {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(10.dp)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
-                            contentAlignment = Alignment.Center
+                    title = {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
                         ) {
-                            Icon(
-                                Icons.Default.AutoStories,
-                                contentDescription = null,
-                                tint = ZenSkyCyan,
-                                modifier = Modifier.size(18.dp)
-                            )
-                        }
-                        Text(
-                            "StudyTracker",
-                            fontWeight = FontWeight.Bold,
-                            fontSize = 19.sp,
-                            color = ZomoTextPrimary
-                        )
-                        if (isTestModeEnabled) {
                             Box(
                                 modifier = Modifier
-                                    .clip(ZenPillShape)
-                                    .background(ZenRoseContainer)
-                                    .border(1.dp, ZenRoseCoral.copy(alpha = 0.4f), ZenPillShape)
-                                    .padding(horizontal = 8.dp, vertical = 2.dp)
+                                    .size(36.dp)
+                                    .clip(RoundedCornerShape(10.dp))
+                                    .background(ZenSkyCyanContainer)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
+                                contentAlignment = Alignment.Center
                             ) {
-                                Text(
-                                    text = "🧪 TEST",
-                                    color = ZenRoseCoral,
-                                    fontSize = 10.sp,
-                                    fontWeight = FontWeight.Bold
+                                Icon(
+                                    Icons.Default.AutoStories,
+                                    contentDescription = null,
+                                    tint = ZenSkyCyan,
+                                    modifier = Modifier.size(18.dp)
                                 )
                             }
-                        }
-                    }
-                },
-                actions = {
-                    IconButton(onClick = onNavigateToDevMode) {
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenPaperCard)
-                                .border(1.dp, ZenPaperBorder, ZenPillShape),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                imageVector = if (isTestModeEnabled) Icons.Default.Build else Icons.Default.Settings,
-                                contentDescription = "Ayarlar / Test Konsolu",
-                                tint = if (isTestModeEnabled) ZenSkyCyan else ZomoTextSecondary,
-                                modifier = Modifier.size(18.dp)
+                            Text(
+                                "StudyTracker",
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 19.sp,
+                                color = ZomoTextPrimary
                             )
                         }
                     }
-                }
-            )
-        }
-    ) { padding ->
-        Column(
+                )
+            }
+        ) { padding ->
+            Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
