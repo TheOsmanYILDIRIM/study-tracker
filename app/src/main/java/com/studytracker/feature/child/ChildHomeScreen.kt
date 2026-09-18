@@ -348,6 +348,8 @@ fun ChildHomeScreen(
             },
             containerColor = Color(0xFF10192E)
         )
+    }
+
     if (showCloudSyncDialog) {
         com.studytracker.core.ui.components.CloudSyncDialog(
             isParent = false,
