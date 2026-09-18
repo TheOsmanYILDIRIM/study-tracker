@@ -44,7 +44,7 @@ fun EditTaskDialog(
 ) {
     var title by remember { mutableStateOf(task.title) }
     var plannedMinutesStr by remember { mutableStateOf(task.plannedMinutes.toString()) }
-    var youtubeUrl by remember { mutableStateOf(task.youtubeUrl ?: "") }
+    var youtubeUrl by remember { mutableStateOf(task.youtubeUrl ?: extractVideoUrl(task) ?: "") }
     var targetCountStr by remember { mutableStateOf((task.targetCount ?: 0).let { if (it > 0) it.toString() else "" }) }
     var parentNote by remember { mutableStateOf(task.warningText ?: "") }
     var selectedDay by remember {

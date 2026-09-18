@@ -11,6 +11,68 @@ const CORS_HEADERS = {
   'Content-Type': 'application/json; charset=utf-8'
 };
 
+function normalizeOccurrence(o) {
+  if (!o) return null;
+  const youtubeUrl = (o.youtubeUrl !== undefined && o.youtubeUrl !== null && o.youtubeUrl !== '')
+    ? o.youtubeUrl
+    : ((o.youtube_url !== undefined && o.youtube_url !== null && o.youtube_url !== '') ? o.youtube_url : null);
+
+  const parentNote = (o.parentNote !== undefined && o.parentNote !== null)
+    ? o.parentNote
+    : ((o.parent_note !== undefined && o.parent_note !== null) ? o.parent_note : (o.warningText || ''));
+
+  const studentNote = (o.studentNote !== undefined && o.studentNote !== null)
+    ? o.studentNote
+    : ((o.student_note !== undefined && o.student_note !== null) ? o.student_note : null);
+
+  return {
+    id: o.id || o.occurrenceKey || '',
+    familyCode: o.familyCode || o.family_code || '',
+    date: o.date || '',
+    planId: o.planId || o.plan_id || '',
+    subject: o.subject || o.title || '',
+    topic: o.topic || o.type || 'DAILY',
+    targetDurationMin: Number(o.targetDurationMin ?? o.target_duration_min ?? o.plannedMinutes ?? 30),
+    targetQuestionCount: Number(o.targetQuestionCount ?? o.target_question_count ?? o.targetCount ?? 0),
+    completedDurationMin: Number(o.completedDurationMin ?? o.completed_duration_min ?? o.targetMinutes ?? 0),
+    completedQuestionCount: Number(o.completedQuestionCount ?? o.completed_question_count ?? o.approvedCount ?? 0),
+    status: o.status || 'PENDING',
+    parentNote: parentNote,
+    weekId: o.weekId || o.week_id || '',
+    orderIndex: Number(o.orderIndex ?? o.order_index ?? 0),
+    studentNote: studentNote,
+    youtubeUrl: youtubeUrl,
+    updatedAt: Number(o.updatedAt ?? o.updated_at ?? Date.now())
+  };
+}
+
+function normalizeSession(s) {
+  if (!s) return null;
+  return {
+    id: s.id || s.sessionId || '',
+    familyCode: s.familyCode || s.family_code || '',
+    occurrenceId: s.occurrenceId || s.occurrence_id || s.occurrenceKey || '',
+    startTime: Number(s.startTime ?? s.start_time ?? 0),
+    endTime: (s.endTime !== undefined && s.endTime !== null) ? Number(s.endTime) : ((s.end_time !== undefined && s.end_time !== null) ? Number(s.end_time) : null),
+    durationMin: Number(s.durationMin ?? s.duration_min ?? 0),
+    isCompleted: Boolean(s.isCompleted ?? s.is_completed ?? false),
+    notes: s.notes || s.studentNote || '',
+    updatedAt: Number(s.updatedAt ?? s.updated_at ?? Date.now())
+  };
+}
+
+function normalizeReview(r) {
+  if (!r) return null;
+  return {
+    id: r.id || `rev_${r.sessionId || r.session_id}`,
+    familyCode: r.familyCode || r.family_code || '',
+    sessionId: r.sessionId || r.session_id || '',
+    isApproved: Boolean(r.isApproved ?? r.is_approved ?? true),
+    rejectionReason: r.rejectionReason ?? r.rejection_reason ?? null,
+    parentRating: Number(r.parentRating ?? r.parent_rating ?? 5),
+    feedbackNote: r.feedbackNote ?? r.feedback_note ?? r.reviewNote ?? '',
+    reviewedAt: Number(r.reviewedAt ?? r.reviewed_at ?? Date.now())
+  };
 const inMemoryStore = new Map();
 
 async function getStoreData(env, key) {
@@ -193,7 +255,12 @@ export default {
             return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
           }
 
-          const prevOccMap = new Map((current.occurrences || []).map(o => [o.id, o]));
+          // Normalize all existing occurrences
+          current.occurrences = (current.occurrences || []).map(normalizeOccurrence).filter(Boolean);
+          current.sessions = (current.sessions || []).map(normalizeSession).filter(Boolean);
+          current.reviews = (current.reviews || []).map(normalizeReview).filter(Boolean);
+
+          const prevOccMap = new Map(current.occurrences.map(o => [o.id, o]));
           const tombstoneSet = new Set(current.deletedOccurrences || []);
 
           const parseTime = (val) => {
@@ -205,14 +272,18 @@ export default {
             return isNaN(parsed) ? 0 : parsed;
           };
 
+          const incomingOccurrences = Array.isArray(incoming.occurrences)
+            ? incoming.occurrences.map(normalizeOccurrence).filter(Boolean)
+            : [];
+
           // 1. ADMIN / CLI (Supreme Master Plan Authority: CLI > PARENT > CHILD)
           if (isAdmin) {
             current.planUpdatedAt = Date.now();
             if (incoming.plan !== undefined) current.plan = incoming.plan;
             if (Array.isArray(incoming.tasks)) current.tasks = incoming.tasks;
 
-            if (Array.isArray(incoming.occurrences)) {
-              const incomingKeys = new Set(incoming.occurrences.map(o => o.id));
+            if (incomingOccurrences.length > 0) {
+              const incomingKeys = new Set(incomingOccurrences.map(o => o.id));
 
               // Find deleted occurrences and tombstone them
               for (const [oldId] of prevOccMap) {
@@ -222,7 +293,7 @@ export default {
               }
 
               // Merge incoming occurrences while preserving existing student progress
-              const mergedOccs = incoming.occurrences.map(inc => {
+              const mergedOccs = incomingOccurrences.map(inc => {
                 const prev = prevOccMap.get(inc.id);
                 tombstoneSet.delete(inc.id); // Re-added or active
                 if (!prev) return inc;
@@ -234,7 +305,7 @@ export default {
                   date: inc.date !== undefined ? inc.date : prev.date,
                   targetDurationMin: inc.targetDurationMin || prev.targetDurationMin,
                   targetQuestionCount: inc.targetQuestionCount !== undefined ? inc.targetQuestionCount : prev.targetQuestionCount,
-                  youtubeUrl: inc.youtubeUrl !== undefined ? inc.youtubeUrl : prev.youtubeUrl,
+                  youtubeUrl: (inc.youtubeUrl !== undefined && inc.youtubeUrl !== null) ? inc.youtubeUrl : prev.youtubeUrl,
                   parentNote: inc.parentNote !== undefined ? inc.parentNote : prev.parentNote,
                   completedDurationMin: Math.max(prev.completedDurationMin || 0, inc.completedDurationMin || 0),
                   completedQuestionCount: Math.max(prev.completedQuestionCount || 0, inc.completedQuestionCount || 0),
@@ -260,20 +331,20 @@ export default {
               current.plan = incoming.plan;
               current.tasks = incoming.tasks;
               current.planUpdatedAt = Date.now();
-              if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
-                const incomingKeys = new Set(incoming.occurrences.map(o => o.id));
+              if (incomingOccurrences.length > 0) {
+                const incomingKeys = new Set(incomingOccurrences.map(o => o.id));
                 for (const [oldId] of prevOccMap) {
                   if (!incomingKeys.has(oldId)) tombstoneSet.add(oldId);
                 }
-                current.occurrences = incoming.occurrences;
+                current.occurrences = incomingOccurrences;
                 current.deletedOccurrences = Array.from(tombstoneSet);
               }
             } else {
               // Regular Sync from Parent:
               // Update task details and reviews on existing occurrences only.
               // NEVER resurrect deleted/tombstoned occurrences!
-              if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
-                for (const remote of incoming.occurrences) {
+              if (incomingOccurrences.length > 0) {
+                for (const remote of incomingOccurrences) {
                   if (tombstoneSet.has(remote.id)) continue; // Do not resurrect deleted tasks
 
                   const local = prevOccMap.get(remote.id);
@@ -289,7 +360,7 @@ export default {
                       date: remote.date || local.date,
                       targetDurationMin: remote.targetDurationMin || local.targetDurationMin,
                       targetQuestionCount: remote.targetQuestionCount !== undefined ? remote.targetQuestionCount : local.targetQuestionCount,
-                      youtubeUrl: remote.youtubeUrl !== undefined ? remote.youtubeUrl : local.youtubeUrl,
+                      youtubeUrl: (remote.youtubeUrl !== undefined && remote.youtubeUrl !== null) ? remote.youtubeUrl : local.youtubeUrl,
                       parentNote: remote.parentNote !== undefined ? remote.parentNote : local.parentNote,
                       status: resolvedStatus,
                       completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
@@ -303,8 +374,8 @@ export default {
             }
           } else {
             // 3. CHILD (Öğrenci Authority: Activity & Progress only)
-            if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
-              for (const remote of incoming.occurrences) {
+            if (incomingOccurrences.length > 0) {
+              for (const remote of incomingOccurrences) {
                 if (tombstoneSet.has(remote.id)) continue;
 
                 const local = prevOccMap.get(remote.id);
@@ -332,7 +403,7 @@ export default {
           // 4. Sessions (Student -> Parent)
           if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
             const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
-            incoming.sessions.forEach(s => {
+            incoming.sessions.map(normalizeSession).filter(Boolean).forEach(s => {
               const prev = sessMap.get(s.id);
               sessMap.set(s.id, prev ? { ...prev, ...s } : s);
             });
@@ -342,7 +413,7 @@ export default {
           // 5. Reviews (Parent / Admin -> Student)
           if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
             const revMap = new Map((current.reviews || []).map(r => [r.id, r]));
-            incoming.reviews.forEach(r => revMap.set(r.id, r));
+            incoming.reviews.map(normalizeReview).filter(Boolean).forEach(r => revMap.set(r.id, r));
             current.reviews = Array.from(revMap.values());
           }
 

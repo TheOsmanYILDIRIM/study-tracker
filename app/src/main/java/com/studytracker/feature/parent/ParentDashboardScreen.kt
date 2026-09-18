@@ -131,6 +131,21 @@ fun ParentDashboardScreen(
                                 targetCount = updated.targetCount
                             )
                         ))
+                    } else {
+                        db.taskTemplateDao().upsertTasks(listOf(
+                            com.studytracker.core.data.local.db.entity.TaskTemplateEntity(
+                                taskId = updated.taskId,
+                                title = updated.title,
+                                kind = updated.type,
+                                contentType = if (updated.youtubeUrl != null) ContentType.VIDEO else ContentType.OTHER,
+                                youtubeUrl = updated.youtubeUrl,
+                                plannedMinutes = updated.plannedMinutes,
+                                targetMode = if (updated.targetCount != null) TargetMode.COUNT else null,
+                                targetCount = updated.targetCount,
+                                reviewRequired = true,
+                                active = true
+                            )
+                        ))
                     }
                     CloudflareSyncManager.syncWithCloud(context)
                     Toast.makeText(context, "✅ '${updated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()

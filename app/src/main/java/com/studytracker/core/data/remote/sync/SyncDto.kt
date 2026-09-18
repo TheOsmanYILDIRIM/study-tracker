@@ -6,66 +6,66 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class RemoteFamilyDto(
-    @SerialName("id") val id: String = "",
-    @SerialName("pair_code") val pairCode: String = "",
-    @SerialName("family_name") val familyName: String = "Çalışma Ailesi",
-    @SerialName("created_at") val createdAt: String? = null
+    val id: String = "",
+    val pairCode: String = "",
+    val familyName: String = "Çalışma Ailesi",
+    val createdAt: String? = null
 )
 
 @Serializable
 data class RemoteOccurrenceSyncDto(
-    @SerialName("id") val id: String = "",
-    @SerialName("family_code") val familyCode: String = "",
-    @SerialName("date") val date: String = "",
-    @SerialName("plan_id") val planId: String = "",
-    @SerialName("subject") val subject: String = "",
-    @SerialName("topic") val topic: String = "",
-    @SerialName("target_duration_min") val targetDurationMin: Int = 30,
-    @SerialName("target_question_count") val targetQuestionCount: Int = 0,
-    @SerialName("completed_duration_min") val completedDurationMin: Int = 0,
-    @SerialName("completed_question_count") val completedQuestionCount: Int = 0,
-    @SerialName("status") val status: String = "PENDING",
-    @SerialName("parent_note") val parentNote: String = "",
-    @SerialName("week_id") val weekId: String = "",
-    @SerialName("order_index") val orderIndex: Int = 0,
-    @SerialName("student_note") val studentNote: String? = null,
-    @SerialName("youtube_url") val youtubeUrl: String? = null,
-    @SerialName("updated_at") val updatedAt: Long = System.currentTimeMillis()
+    val id: String = "",
+    val familyCode: String = "",
+    val date: String = "",
+    val planId: String = "",
+    val subject: String = "",
+    val topic: String = "",
+    val targetDurationMin: Int = 30,
+    val targetQuestionCount: Int = 0,
+    val completedDurationMin: Int = 0,
+    val completedQuestionCount: Int = 0,
+    val status: String = "PENDING",
+    val parentNote: String = "",
+    val weekId: String = "",
+    val orderIndex: Int = 0,
+    val studentNote: String? = null,
+    val youtubeUrl: String? = null,
+    val updatedAt: Long = System.currentTimeMillis()
 )
 
 @Serializable
 data class RemoteSessionSyncDto(
-    @SerialName("id") val id: String = "",
-    @SerialName("family_code") val familyCode: String = "",
-    @SerialName("occurrence_id") val occurrenceId: String = "",
-    @SerialName("start_time") val startTime: Long = 0L,
-    @SerialName("end_time") val endTime: Long? = null,
-    @SerialName("duration_min") val durationMin: Int = 0,
-    @SerialName("is_completed") val isCompleted: Boolean = false,
-    @SerialName("notes") val notes: String = "",
-    @SerialName("updated_at") val updatedAt: Long = System.currentTimeMillis()
+    val id: String = "",
+    val familyCode: String = "",
+    val occurrenceId: String = "",
+    val startTime: Long = 0L,
+    val endTime: Long? = null,
+    val durationMin: Int = 0,
+    val isCompleted: Boolean = false,
+    val notes: String = "",
+    val updatedAt: Long = System.currentTimeMillis()
 )
 
 @Serializable
 data class RemoteScreenshotSyncDto(
-    @SerialName("id") val id: String = "",
-    @SerialName("family_code") val familyCode: String = "",
-    @SerialName("session_id") val sessionId: String = "",
-    @SerialName("image_url") val imageUrl: String = "",
-    @SerialName("timestamp") val timestamp: Long = 0L,
-    @SerialName("ai_analysis_json") val aiAnalysisJson: String? = null
+    val id: String = "",
+    val familyCode: String = "",
+    val sessionId: String = "",
+    val imageUrl: String = "",
+    val timestamp: Long = 0L,
+    val aiAnalysisJson: String? = null
 )
 
 @Serializable
 data class RemoteReviewSyncDto(
-    @SerialName("id") val id: String = "",
-    @SerialName("family_code") val familyCode: String = "",
-    @SerialName("session_id") val sessionId: String = "",
-    @SerialName("is_approved") val isApproved: Boolean = true,
-    @SerialName("rejection_reason") val rejectionReason: String? = null,
-    @SerialName("parent_rating") val parentRating: Int? = 5,
-    @SerialName("feedback_note") val feedbackNote: String? = null,
-    @SerialName("reviewed_at") val reviewedAt: Long = System.currentTimeMillis()
+    val id: String = "",
+    val familyCode: String = "",
+    val sessionId: String = "",
+    val isApproved: Boolean = true,
+    val rejectionReason: String? = null,
+    val parentRating: Int? = 5,
+    val feedbackNote: String? = null,
+    val reviewedAt: Long = System.currentTimeMillis()
 )
 
 @Serializable
