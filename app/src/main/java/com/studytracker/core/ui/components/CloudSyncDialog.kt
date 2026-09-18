@@ -37,7 +37,8 @@ import kotlinx.coroutines.launch
 @Composable
 fun CloudSyncDialog(
     isParent: Boolean,
-    onDismissRequest: () -> Unit
+    onDismissRequest: () -> Unit,
+    onConflictDetected: ((SyncConflictData, com.studytracker.core.data.remote.cloudflare.CloudSyncPayloadWrapper) -> Unit)? = null
 ) {
     val context = LocalContext.current
     val clipboardManager = LocalClipboardManager.current
@@ -207,15 +208,36 @@ fun CloudSyncDialog(
                         syncResultSuccess = null
 
                         scope.launch {
-                            val res = CloudflareSyncManager.syncWithCloud(context)
-                            isSyncing = false
-                            if (res.isSuccess) {
-                                syncResultSuccess = true
-                                syncResultText = res.getOrNull() ?: "Senkronizasyon Başarılı"
-                                Toast.makeText(context, "✅ Senkronizasyon Başarılı!", Toast.LENGTH_SHORT).show()
+                            if (isParent && onConflictDetected != null) {
+                                when (val checkRes = CloudflareSyncManager.syncWithConflictCheck(context)) {
+                                    is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Conflict -> {
+                                        isSyncing = false
+                                        onDismissRequest()
+                                        onConflictDetected(checkRes.conflictData, checkRes.cloudData)
+                                    }
+                                    is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Success -> {
+                                        isSyncing = false
+                                        syncResultSuccess = true
+                                        syncResultText = checkRes.message
+                                        Toast.makeText(context, "✅ ${checkRes.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                    is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Error -> {
+                                        isSyncing = false
+                                        syncResultSuccess = false
+                                        syncResultText = "Hata: ${checkRes.message}"
+                                    }
+                                }
                             } else {
-                                syncResultSuccess = false
-                                syncResultText = "Hata: ${res.exceptionOrNull()?.message}"
+                                val res = CloudflareSyncManager.syncWithCloud(context)
+                                isSyncing = false
+                                if (res.isSuccess) {
+                                    syncResultSuccess = true
+                                    syncResultText = res.getOrNull() ?: "Senkronizasyon Başarılı"
+                                    Toast.makeText(context, "✅ Senkronizasyon Başarılı!", Toast.LENGTH_SHORT).show()
+                                } else {
+                                    syncResultSuccess = false
+                                    syncResultText = "Hata: ${res.exceptionOrNull()?.message}"
+                                }
                             }
                         }
                     },

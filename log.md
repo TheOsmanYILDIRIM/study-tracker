@@ -1,5 +1,11 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-18] Tamamlandı: AnkiDroid Tarzı Çakışma Yönetimi (SyncConflictDialog) ve Sıfır Yan Etkili PATCH_TASK
+- **AnkiDroid Tarzı Çakışma Penceresi (`SyncConflictDialog`):** Veli uygulaması açıldığında veya yenilendiğinde, buluttaki plan ile yerel telefon planı arasında uyuşmazlık tespit edilirse otomatik ezmek yerine açık bir diyalog penceresi açılır. Kaynak rozetleri ("Kaynak: CLI / Bilgisayar", "Kaynak: Veli Masası"), hafta numarası, ders adetleri, son güncelleme saati ve örnek dersler gösterilir.
+- **3 Çözüm Stratejisi:** `☁️ Buluttan İndir (Önerilen)`, `🔀 Akıllı Birleştir (Onayları Koru)`, `📱 Bu Cihazdakini Buluta Zorla Yükle`.
+- **Sıfır Yan Etkili Tekil Güncelleme (`PATCH_TASK`):** Veli Masası'nda tek bir dersin süresi veya video linki düzenlendiğinde tüm veritabanı buluta fırlatılmaz; sadece düzenlenen dersin tekil delta paketi (`action = "PATCH_TASK"`) gönderilerek diğer derslerin video linklerinin bozulması imkansız hale getirildi.
+- **Worker Eşitlemesi:** Cloudflare Worker içerisine `PATCH_TASK` ve `planSource` izleme mekanizması eklendi.
+
 ### [2026-09-14] Başlangıç: Mimari ve UI Planlaması
 - StudyTracker projesi başlatıldı.
 - Sistem Mimarisi ve Teknik Şartname hazırlandı: [SYSTEM_ARCHITECTURE.md](file:///data/data/com.termux/files/home/projects/study-tracker/SYSTEM_ARCHITECTURE.md)

@@ -45,10 +45,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
-import com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
+import com.studytracker.core.data.remote.cloudflare.*
 import com.studytracker.core.domain.model.Quiz
-import com.studytracker.core.ui.components.CloudSyncDialog
-import com.studytracker.core.ui.components.EditTaskDialog
+import com.studytracker.core.ui.components.*
 import androidx.compose.material3.pulltorefresh.PullToRefreshContainer
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.ui.input.nestedscroll.nestedScroll
@@ -100,18 +99,63 @@ fun ParentDashboardScreen(
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
     var showAIQuizDialog by remember { mutableStateOf(false) }
+    var pendingConflictData by remember { mutableStateOf<Pair<SyncConflictData, CloudSyncPayloadWrapper>?>(null) }
 
-    // Auto-sync on startup
+    // Auto-sync on startup with conflict check
     LaunchedEffect(Unit) {
-        CloudflareSyncManager.syncWithCloud(context)
+        when (val res = CloudflareSyncManager.syncWithConflictCheck(context)) {
+            is SyncCheckResult.Conflict -> {
+                pendingConflictData = Pair(res.conflictData, res.cloudData)
+            }
+            else -> {}
+        }
     }
 
     val pullRefreshState = rememberPullToRefreshState()
     if (pullRefreshState.isRefreshing) {
         LaunchedEffect(true) {
-            CloudflareSyncManager.syncWithCloud(context)
+            when (val res = CloudflareSyncManager.syncWithConflictCheck(context)) {
+                is SyncCheckResult.Conflict -> {
+                    pendingConflictData = Pair(res.conflictData, res.cloudData)
+                }
+                is SyncCheckResult.Success -> {
+                    Toast.makeText(context, "✅ ${res.message}", Toast.LENGTH_SHORT).show()
+                }
+                is SyncCheckResult.Error -> {
+                    Toast.makeText(context, "⚠️ ${res.message}", Toast.LENGTH_SHORT).show()
+                }
+            }
             pullRefreshState.endRefresh()
         }
+    }
+
+    if (pendingConflictData != null) {
+        val (conflict, cloudData) = pendingConflictData!!
+        SyncConflictDialog(
+            conflict = conflict,
+            onDismissRequest = { pendingConflictData = null },
+            onDownloadCloud = {
+                scope.launch {
+                    val res = CloudflareSyncManager.resolveConflict(context, ConflictResolutionStrategy.DOWNLOAD_CLOUD, cloudData)
+                    pendingConflictData = null
+                    Toast.makeText(context, res.getOrNull() ?: "Bulut planı indirildi", Toast.LENGTH_SHORT).show()
+                }
+            },
+            onSmartMerge = {
+                scope.launch {
+                    val res = CloudflareSyncManager.resolveConflict(context, ConflictResolutionStrategy.SMART_MERGE, cloudData)
+                    pendingConflictData = null
+                    Toast.makeText(context, res.getOrNull() ?: "Akıllı birleştirme tamamlandı", Toast.LENGTH_SHORT).show()
+                }
+            },
+            onUploadLocal = {
+                scope.launch {
+                    val res = CloudflareSyncManager.resolveConflict(context, ConflictResolutionStrategy.UPLOAD_LOCAL, cloudData)
+                    pendingConflictData = null
+                    Toast.makeText(context, res.getOrNull() ?: "Yerel plan buluta yüklendi", Toast.LENGTH_SHORT).show()
+                }
+            }
+        )
     }
 
     if (taskToEdit != null) {
@@ -155,7 +199,8 @@ fun ParentDashboardScreen(
                             )
                         ))
                     }
-                    CloudflareSyncManager.syncWithCloud(context)
+                    // Isolated single task patch to cloud (No blind full dump)
+                    CloudflareSyncManager.patchSingleTask(context, cleanUpdated)
                     Toast.makeText(context, "✅ '${cleanUpdated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()
                 }
             },
@@ -336,9 +381,12 @@ fun ParentDashboardScreen(
     }
 
     if (showCloudSyncDialog) {
-        com.studytracker.core.ui.components.CloudSyncDialog(
+        CloudSyncDialog(
             isParent = true,
-            onDismissRequest = { showCloudSyncDialog = false }
+            onDismissRequest = { showCloudSyncDialog = false },
+            onConflictDetected = { conflict, cloudData ->
+                pendingConflictData = Pair(conflict, cloudData)
+            }
         )
     }
 

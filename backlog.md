@@ -23,6 +23,7 @@
 - [x] Geliştirici & Test Modu Konsolu (`DeveloperConsoleScreen`)
 
 ## 5. Yeni İyileştirmeler & Kullanıcı İstekleri
+- [x] AnkiDroid Tarzı Çakışma Yönetimi (SyncConflictDialog) ve Kaynak Gösterimli Güvenli Senkronizasyon (PATCH_TASK & Çift Yönlü Güvence)
 - [x] Ebeveyn Modunda Haftalık ve Günlük Plan İnceleme Görünümü (`ParentDashboardScreen` Sekmeli Yapı & Gün Filtreleri)
 - [x] Öğrenci Modunda Ders Çalışma Oturumunu Duraklatma / Devam Etme (Pause/Resume HUD & Canlı Kontrol Kartı)
 - [x] Plan Stüdyosunda Takvim Tabanlı Hafta Seçici Bileşeni (`WeekCalendarPicker`)

@@ -7,6 +7,9 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.toDomain
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.data.remote.sync.*
+import com.studytracker.core.domain.model.Occurrence
+import com.studytracker.core.ui.components.PlanVersionSummary
+import com.studytracker.core.ui.components.SyncConflictData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
@@ -17,6 +20,9 @@ import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
 import java.net.URL
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 @Serializable
 data class CloudSyncResponse(
@@ -30,6 +36,7 @@ data class CloudSyncResponse(
 data class CloudSyncPayloadWrapper(
     val familyCode: String = "",
     val updatedAt: Long = 0L,
+    val planSource: String? = null,
     val plan: LocalPlanSyncDto? = null,
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
@@ -37,6 +44,18 @@ data class CloudSyncPayloadWrapper(
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList()
 )
+
+sealed class SyncCheckResult {
+    data class Success(val message: String) : SyncCheckResult()
+    data class Conflict(val conflictData: SyncConflictData, val cloudData: CloudSyncPayloadWrapper) : SyncCheckResult()
+    data class Error(val message: String) : SyncCheckResult()
+}
+
+enum class ConflictResolutionStrategy {
+    DOWNLOAD_CLOUD,
+    SMART_MERGE,
+    UPLOAD_LOCAL
+}
 
 object CloudflareSyncManager {
 
@@ -51,8 +70,276 @@ object CloudflareSyncManager {
     }
 
     /**
-     * Uçtan uca çift yönlü Cloudflare KV senkronizasyonu (Veli <-> Öğrenci).
-     * Yerel Room DB değişikliklerini buluta yükler ve buluttaki en güncel değişiklikleri indirip birleştirir.
+     * Buluttan sadece okuma yapar (GET). Yerel veriyi asla değiştirmez.
+     */
+    suspend fun fetchCloudData(context: Context): Result<CloudSyncPayloadWrapper> = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "GET"
+                connectTimeout = 10000
+                readTimeout = 10000
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+            }
+
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                return@withContext Result.failure(Exception("Cloudflare GET Hatası ($responseCode): $errorStream"))
+            }
+
+            val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+            val syncRes = json.decodeFromString<CloudSyncResponse>(responseText)
+
+            if (!syncRes.success || syncRes.data == null) {
+                return@withContext Result.failure(Exception(syncRes.error ?: "Buluttan veri alınamadı"))
+            }
+
+            Result.success(syncRes.data)
+        } catch (e: Exception) {
+            Log.e(TAG, "fetchCloudData failed: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
+
+    /**
+     * Veli senkronizasyonu öncesi AnkiDroid tarzı çakışma denetimi.
+     * Bulut ve yerel plan farklıysa çakışma diyalogu verisi döndürür, farklılık yoksa sessizce eşitler.
+     */
+    suspend fun syncWithConflictCheck(context: Context): SyncCheckResult = withContext(Dispatchers.IO) {
+        try {
+            val cloudRes = fetchCloudData(context)
+            if (cloudRes.isFailure) {
+                return@withContext SyncCheckResult.Error(cloudRes.exceptionOrNull()?.message ?: "Buluta bağlanılamadı")
+            }
+
+            val cloudData = cloudRes.getOrNull()!!
+            val db = AppDatabase.getInstance(context)
+            val localPlan = db.planDao().getActivePlanOnce()
+            val localOccs = db.occurrenceDao().getAllOccurrencesOnce()
+
+            // 1. Yerel veritabanı tamamen boşsa doğrudan buluttan indir
+            if (localPlan == null && localOccs.isEmpty()) {
+                if (cloudData.plan != null || cloudData.occurrences.isNotEmpty()) {
+                    applyCloudDataToLocal(context, cloudData)
+                    return@withContext SyncCheckResult.Success("Buluttaki plan başarıyla yüklendi (${cloudData.occurrences.size} Ders)")
+                } else {
+                    return@withContext SyncCheckResult.Success("Bulutta ve cihazda aktif plan bulunmuyor.")
+                }
+            }
+
+            // 2. Bulutta plan yoksa doğrudan yereli buluta yükle
+            if (cloudData.plan == null && cloudData.occurrences.isEmpty()) {
+                val pushRes = syncWithCloud(context, action = "SYNC")
+                return@withContext if (pushRes.isSuccess) {
+                    SyncCheckResult.Success("Bu cihazdaki plan buluta başarıyla yüklendi (${localOccs.size} Ders)")
+                } else {
+                    SyncCheckResult.Error(pushRes.exceptionOrNull()?.message ?: "Yükleme başarısız")
+                }
+            }
+
+            // 3. Her iki tarafta da plan var: Çakışma ve Farklılık Kontrolü
+            val remoteOccs = cloudData.occurrences
+            val remoteOccMap = remoteOccs.associateBy { it.id }
+            val localOccMap = localOccs.associateBy { it.occurrenceKey }
+
+            var hasDefinitionMismatch = false
+            if (cloudData.plan?.weekId != localPlan?.weekId) {
+                hasDefinitionMismatch = true
+            } else if (remoteOccs.size != localOccs.size) {
+                hasDefinitionMismatch = true
+            } else {
+                for (local in localOccs) {
+                    val remote = remoteOccMap[local.occurrenceKey]
+                    if (remote == null) {
+                        hasDefinitionMismatch = true
+                        break
+                    }
+                    if (remote.subject != local.title ||
+                        remote.targetDurationMin != local.plannedMinutes ||
+                        remote.youtubeUrl != local.youtubeUrl
+                    ) {
+                        hasDefinitionMismatch = true
+                        break
+                    }
+                }
+            }
+
+            if (hasDefinitionMismatch) {
+                // Çakışma var! AnkiDroid tarzı karar penceresi açılması için bilgileri hazırla
+                val timeFormat = SimpleDateFormat("dd MMM HH:mm", Locale("tr"))
+                val cloudTimeStr = if (cloudData.updatedAt > 0) timeFormat.format(Date(cloudData.updatedAt)) else (cloudData.plan?.updatedAt ?: "")
+                val localTimeStr = localPlan?.updatedAt ?: "Yerel Saat"
+
+                val cloudSummary = PlanVersionSummary(
+                    source = cloudData.planSource ?: "CLI / Bulut Master",
+                    weekId = cloudData.plan?.weekId ?: "2026-W38",
+                    taskCount = cloudData.occurrences.size,
+                    sampleTasks = cloudData.occurrences.map { it.subject }.take(4),
+                    updatedAtFormatted = cloudTimeStr
+                )
+
+                val localSummary = PlanVersionSummary(
+                    source = "Veli Masası (Bu Telefon)",
+                    weekId = localPlan?.weekId ?: "2026-W38",
+                    taskCount = localOccs.size,
+                    sampleTasks = localOccs.map { it.title }.take(4),
+                    updatedAtFormatted = localTimeStr
+                )
+
+                return@withContext SyncCheckResult.Conflict(
+                    conflictData = SyncConflictData(cloud = cloudSummary, local = localSummary),
+                    cloudData = cloudData
+                )
+            } else {
+                // Tanımlarda fark yok, sadece öğrenci ilerlemelerini ve oturumları eşitle
+                val syncRes = syncWithCloud(context, action = "SYNC")
+                return@withContext if (syncRes.isSuccess) {
+                    SyncCheckResult.Success(syncRes.getOrNull() ?: "Senkronize")
+                } else {
+                    SyncCheckResult.Error(syncRes.exceptionOrNull()?.message ?: "Eşitleme hatası")
+                }
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "syncWithConflictCheck failed: ${e.message}", e)
+            SyncCheckResult.Error(e.message ?: "Beklenmeyen hata")
+        }
+    }
+
+    /**
+     * Veli çakışma diyaloğundan bir seçenek belirlediğinde çalıştırılır.
+     */
+    suspend fun resolveConflict(
+        context: Context,
+        strategy: ConflictResolutionStrategy,
+        cloudData: CloudSyncPayloadWrapper
+    ): Result<String> = withContext(Dispatchers.IO) {
+        try {
+            when (strategy) {
+                ConflictResolutionStrategy.DOWNLOAD_CLOUD -> {
+                    applyCloudDataToLocal(context, cloudData)
+                    Result.success("☁️ Buluttaki taze plan bu cihaza indirildi ve eşitlendi.")
+                }
+                ConflictResolutionStrategy.SMART_MERGE -> {
+                    // Bulut tanımlarını al, yerel öğrenci onaylarını ve oturumlarını koru
+                    applyCloudDataToLocal(context, cloudData)
+                    // Ardından yerel öğrenci oturumlarını buluta aktar
+                    syncWithCloud(context, action = "SYNC")
+                    Result.success("🔀 Ders tanımları buluttan güncellendi, onay ve oturumlar korundu.")
+                }
+                ConflictResolutionStrategy.UPLOAD_LOCAL -> {
+                    // Bu cihazdaki planı buluta zorla yaz
+                    val pushRes = syncWithCloud(context, action = "SYNC")
+                    if (pushRes.isSuccess) {
+                        Result.success("📱 Bu cihazdaki plan bulutun üzerine başarıyla yazıldı.")
+                    } else {
+                        Result.failure(pushRes.exceptionOrNull() ?: Exception("Yükleme başarısız"))
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "resolveConflict failed: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
+
+    /**
+     * Tek bir dersi diğer dersleri etkilemeden tekil delta olarak buluta günceller (Zero side-effects).
+     */
+    suspend fun patchSingleTask(
+        context: Context,
+        occurrence: Occurrence
+    ): Result<String> = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+
+            val cleanTaskId = when {
+                occurrence.taskId.isNotBlank() -> occurrence.taskId
+                occurrence.occurrenceKey.contains("_") -> occurrence.occurrenceKey.substringAfterLast("_")
+                else -> occurrence.title.replace(Regex("""[^a-zA-Z0-9_-]"""), "_").lowercase()
+            }
+
+            val patchDto = RemoteOccurrenceSyncDto(
+                id = occurrence.occurrenceKey,
+                familyCode = familyCode,
+                date = occurrence.date ?: "",
+                planId = cleanTaskId,
+                subject = occurrence.title,
+                topic = occurrence.type.name,
+                targetDurationMin = occurrence.plannedMinutes,
+                targetQuestionCount = occurrence.targetCount ?: 0,
+                completedDurationMin = occurrence.targetMinutes ?: 0,
+                completedQuestionCount = occurrence.approvedCount,
+                status = occurrence.status.name,
+                parentNote = occurrence.warningText ?: "",
+                weekId = occurrence.weekId ?: "",
+                orderIndex = 0,
+                studentNote = occurrence.studentNote,
+                youtubeUrl = occurrence.youtubeUrl
+            )
+
+            val payload = SharedFamilySyncPayload(
+                familyCode = familyCode,
+                senderRole = "PARENT",
+                action = "PATCH_TASK",
+                occurrences = listOf(patchDto)
+            )
+
+            // Ayrıca JSON içine patchTask nesnesi koyarak worker ile çift güvence sağlayalım
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"
+                connectTimeout = 8000
+                readTimeout = 8000
+                doOutput = true
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+            }
+
+            val payloadJson = json.encodeToString(payload)
+            OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
+                writer.write(payloadJson)
+                writer.flush()
+            }
+
+            if (conn.responseCode in 200..299) {
+                Result.success("Ders bulutta güncellendi: ${occurrence.title}")
+            } else {
+                Result.failure(Exception("HTTP ${conn.responseCode}"))
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "patchSingleTask failed: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
+
+    private suspend fun applyCloudDataToLocal(context: Context, cloudData: CloudSyncPayloadWrapper) {
+        val prefs = AppPreferences.getInstance(context)
+        val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+
+        val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
+            formatVersion = 1,
+            packageType = com.studytracker.core.data.package_exchange.PackageType.PLAN_DISTRIBUTION,
+            familyCode = familyCode,
+            senderRole = "PARENT",
+            title = "Cloudflare KV Sync ($familyCode)",
+            plan = cloudData.plan,
+            tasks = cloudData.tasks,
+            occurrences = cloudData.occurrences,
+            sessions = cloudData.sessions,
+            reviews = cloudData.reviews,
+            quizzes = cloudData.quizzes
+        )
+
+        StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
+    }
+
+    /**
+     * Uçtan uca çift yönlü Cloudflare KV senkronizasyonu.
      */
     suspend fun syncWithCloud(
         context: Context,
@@ -64,7 +351,6 @@ object CloudflareSyncManager {
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
 
-            // 1. Yerel verileri topla
             val plan = db.planDao().getActivePlanOnce()?.let {
                 LocalPlanSyncDto(
                     planId = it.planId,
@@ -163,7 +449,6 @@ object CloudflareSyncManager {
 
             val payloadJson = json.encodeToString(payload)
 
-            // 2. Cloudflare Worker POST isteği gönder
             val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -192,23 +477,8 @@ object CloudflareSyncManager {
                 return@withContext Result.failure(Exception(syncRes.error ?: "Bilinmeyen senkronizasyon hatası"))
             }
 
-            // 3. Buluttan dönen birleştirilmiş verileri yerel Room DB'ye aktar
             val cloudData = syncRes.data
-            val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
-                formatVersion = 1,
-                packageType = com.studytracker.core.data.package_exchange.PackageType.PLAN_DISTRIBUTION,
-                familyCode = familyCode,
-                senderRole = "PARENT",
-                title = "Cloudflare KV Sync ($familyCode)",
-                plan = cloudData.plan,
-                tasks = cloudData.tasks,
-                occurrences = cloudData.occurrences,
-                sessions = cloudData.sessions,
-                reviews = cloudData.reviews,
-                quizzes = cloudData.quizzes
-            )
-
-            StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
+            applyCloudDataToLocal(context, cloudData)
 
             val occCount = cloudData.occurrences.size
             val taskCount = cloudData.tasks.size

@@ -211,9 +211,37 @@ export default {
             return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
           }
 
+          // C) Tekil Ders Güncelleme (Patch Single Task - Zero Side-effects)
+          if (action === 'PATCH_TASK' && incoming.patchTask) {
+            const pt = incoming.patchTask;
+            const targetKey = pt.id || pt.occurrenceKey;
+            const currentOccs = (current.occurrences || []).map(normalizeOccurrence).filter(Boolean);
+            const idx = currentOccs.findIndex(o => o.id === targetKey);
+            if (idx !== -1) {
+              const oldOcc = currentOccs[idx];
+              currentOccs[idx] = {
+                ...oldOcc,
+                subject: pt.subject !== undefined ? pt.subject : (pt.title !== undefined ? pt.title : oldOcc.subject),
+                targetDurationMin: pt.targetDurationMin !== undefined ? pt.targetDurationMin : (pt.plannedMinutes !== undefined ? pt.plannedMinutes : oldOcc.targetDurationMin),
+                targetQuestionCount: pt.targetQuestionCount !== undefined ? pt.targetQuestionCount : (pt.targetCount !== undefined ? pt.targetCount : oldOcc.targetQuestionCount),
+                youtubeUrl: pt.youtubeUrl !== undefined ? pt.youtubeUrl : oldOcc.youtubeUrl,
+                parentNote: pt.parentNote !== undefined ? pt.parentNote : (pt.warningText !== undefined ? pt.warningText : oldOcc.parentNote),
+                updatedAt: Date.now()
+              };
+              current.occurrences = currentOccs;
+              current.updatedAt = Date.now();
+              await setStoreData(env, storeKey, current);
+              return new Response(JSON.stringify({ success: true, data: current, message: `Ders '${targetKey}' güncellendi` }), { headers: CORS_HEADERS });
+            }
+          }
+
           const isAdmin = senderRole === 'ADMIN' || senderRole === 'CLI' || senderRole === 'PARENTING_AI';
           const isParent = senderRole === 'PARENT';
           const isChild = senderRole === 'CHILD';
+
+          if (incoming.plan) {
+            current.planSource = incoming.planSource || (isAdmin ? 'CLI / Bilgisayar' : 'Veli Masası');
+          }
 
           // Ensure tombstones array exists for deleted tasks
           if (!Array.isArray(current.deletedOccurrences)) {
