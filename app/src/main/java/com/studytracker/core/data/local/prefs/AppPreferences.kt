@@ -19,6 +19,15 @@ class AppPreferences private constructor(context: Context) {
     private val _isNightMode = MutableStateFlow(prefs.getBoolean(KEY_NIGHT_MODE, true))
     val isNightMode: StateFlow<Boolean> = _isNightMode.asStateFlow()
 
+    private val _familyPairCode = MutableStateFlow(prefs.getString(KEY_FAMILY_PAIR_CODE, "ST-2026") ?: "ST-2026")
+    val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
+
+    fun setFamilyPairCode(code: String) {
+        val clean = code.trim().uppercase().ifBlank { "ST-2026" }
+        prefs.edit().putString(KEY_FAMILY_PAIR_CODE, clean).apply()
+        _familyPairCode.value = clean
+    }
+
     fun setHasCompletedTutorial(completed: Boolean) {
         prefs.edit().putBoolean(KEY_HAS_COMPLETED_TUTORIAL, completed).apply()
         _hasCompletedTutorial.value = completed
@@ -50,6 +59,7 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_HAS_COMPLETED_TUTORIAL = "has_completed_tutorial"
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
         private const val KEY_NIGHT_MODE = "is_night_mode"
+        private const val KEY_FAMILY_PAIR_CODE = "family_pair_code"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null

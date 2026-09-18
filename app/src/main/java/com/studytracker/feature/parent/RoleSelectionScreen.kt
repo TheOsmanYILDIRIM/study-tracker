@@ -37,8 +37,7 @@ private val ZenPillShape = CircleShape
 fun RoleSelectionScreen(
     onNavigateToChildHome: () -> Unit,
     onNavigateToChildTutorial: () -> Unit,
-    onNavigateToParent: () -> Unit,
-    onNavigateToDevMode: () -> Unit = {}
+    onNavigateToParent: () -> Unit
 ) {
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
@@ -288,26 +287,7 @@ fun RoleSelectionScreen(
                 }
             }
 
-            // Developer / Test Mode Entrance Button
-            if (isTestModeEnabled) {
-                OutlinedButton(
-                    onClick = onNavigateToDevMode,
-                    shape = ZenPillShape,
-                    border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.4f)),
-                    colors = ButtonDefaults.outlinedButtonColors(
-                        containerColor = ZenPaperCard
-                    ),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 8.dp)
-                ) {
-                    Icon(Icons.Default.Build, contentDescription = null, modifier = Modifier.size(15.dp), tint = ZenSkyCyan)
-                    Spacer(modifier = Modifier.width(8.dp))
-                    Text("🛠️ Geliştirici & Test Konsolu", color = ZenSkyCyan, fontWeight = FontWeight.Bold, fontSize = 12.sp)
-                }
-            } else {
-                Spacer(modifier = Modifier.height(8.dp))
-            }
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 

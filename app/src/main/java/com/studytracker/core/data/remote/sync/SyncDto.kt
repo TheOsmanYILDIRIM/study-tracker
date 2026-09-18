@@ -74,7 +74,7 @@ data class LocalPlanSyncDto(
     val weekStartDate: String,
     val childId: String,
     val timezone: String,
-    val updatedAt: Long = System.currentTimeMillis(),
+    val updatedAt: String,
     val rawJson: String
 )
 

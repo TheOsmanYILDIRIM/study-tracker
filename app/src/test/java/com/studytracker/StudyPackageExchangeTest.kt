@@ -27,7 +27,7 @@ class StudyPackageExchangeTest {
             weekStartDate = "2026-09-14",
             childId = "child_1",
             timezone = "Europe/Istanbul",
-            updatedAt = 1720000000000L,
+            updatedAt = "2026-09-14T00:00:00Z",
             rawJson = "{}"
         )
 
