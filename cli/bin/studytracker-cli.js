@@ -131,12 +131,9 @@ async function main() {
           }
         } else if (sub === 'apply' || sub === 'set') {
           let dslText = '';
-          if (parsed.options.file) {
-            const filePath = path.resolve(process.cwd(), parsed.options.file);
-            if (!fs.existsSync(filePath)) {
-              console.error(`${colors.red}Hata: Dosya bulunamadı: ${filePath}${colors.reset}`);
-              process.exit(1);
-            }
+          const potentialFile = parsed.options.file || parsed.positionals[2];
+          if (potentialFile && fs.existsSync(path.resolve(process.cwd(), potentialFile))) {
+            const filePath = path.resolve(process.cwd(), potentialFile);
             dslText = fs.readFileSync(filePath, 'utf8');
           } else if (parsed.positionals[2]) {
             dslText = parsed.positionals.slice(2).join(' ');

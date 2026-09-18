@@ -432,14 +432,26 @@ object StudyPackageExchangeManager {
                     val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
                     val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
 
-                    // Resolve video URL with thorough fallbacks
-                    val templateTask = taskTemplateMap[remote.planId] ?: (local?.taskId?.let { taskTemplateMap[it] })
+                    val derivedTaskId = when {
+                        remote.planId.isNotBlank() -> remote.planId
+                        !local?.taskId.isNullOrBlank() -> local.taskId
+                        remote.id.contains("_") -> remote.id.substringAfterLast("_")
+                        remote.id.contains(":") -> remote.id.substringBefore(":")
+                        else -> remote.subject.replace(Regex("""[^a-zA-Z0-9_-]"""), "_").lowercase()
+                    }
+
+                    // Resolve video URL with thorough fallbacks (never match empty planId)
+                    val templateTask = if (derivedTaskId.isNotBlank()) taskTemplateMap[derivedTaskId] else null
                     val extractedFromText = urlRegex.find(remote.subject)?.value 
                         ?: urlRegex.find(remote.parentNote)?.value 
                         ?: remote.studentNote?.let { urlRegex.find(it)?.value }
 
-                    val resolvedYoutubeUrl = if (isParentPlan && !remote.youtubeUrl.isNullOrBlank()) {
-                        remote.youtubeUrl
+                    val resolvedYoutubeUrl = if (isParentPlan) {
+                        if (!remote.youtubeUrl.isNullOrBlank()) {
+                            remote.youtubeUrl
+                        } else {
+                            templateTask?.youtubeUrl ?: extractedFromText
+                        }
                     } else {
                         remote.youtubeUrl ?: local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText
                     }
@@ -450,7 +462,7 @@ object StudyPackageExchangeManager {
 
                     OccurrenceEntity(
                         occurrenceKey = remote.id,
-                        taskId = if (!local?.taskId.isNullOrBlank()) local!!.taskId else remote.planId,
+                        taskId = derivedTaskId,
                         type = local?.type ?: try { TaskKind.valueOf(remote.topic) } catch (_: Exception) { TaskKind.DAILY },
                         date = finalDate,
                         weekId = local?.weekId ?: remote.weekId.ifEmpty { null },

@@ -120,28 +120,35 @@ fun ParentDashboardScreen(
             onDismissRequest = { taskToEdit = null },
             onSaveTask = { updated ->
                 scope.launch {
-                    occurrenceRepo.updateOccurrence(updated)
-                    val taskEntity = db.taskTemplateDao().getTaskById(updated.taskId)
+                    val cleanTaskId = when {
+                        updated.taskId.isNotBlank() -> updated.taskId
+                        updated.occurrenceKey.contains("_") -> updated.occurrenceKey.substringAfterLast("_")
+                        updated.occurrenceKey.contains(":") -> updated.occurrenceKey.substringBefore(":")
+                        else -> updated.title.replace(Regex("""[^a-zA-Z0-9_-]"""), "_").lowercase()
+                    }
+                    val cleanUpdated = updated.copy(taskId = cleanTaskId)
+                    occurrenceRepo.updateOccurrence(cleanUpdated)
+                    val taskEntity = db.taskTemplateDao().getTaskById(cleanTaskId)
                     if (taskEntity != null) {
                         db.taskTemplateDao().upsertTasks(listOf(
                             taskEntity.copy(
-                                title = updated.title,
-                                plannedMinutes = updated.plannedMinutes,
-                                youtubeUrl = updated.youtubeUrl,
-                                targetCount = updated.targetCount
+                                title = cleanUpdated.title,
+                                plannedMinutes = cleanUpdated.plannedMinutes,
+                                youtubeUrl = cleanUpdated.youtubeUrl,
+                                targetCount = cleanUpdated.targetCount
                             )
                         ))
                     } else {
                         db.taskTemplateDao().upsertTasks(listOf(
                             com.studytracker.core.data.local.db.entity.TaskTemplateEntity(
-                                taskId = updated.taskId,
-                                title = updated.title,
-                                kind = updated.type,
-                                contentType = if (updated.youtubeUrl != null) ContentType.VIDEO else ContentType.OTHER,
-                                youtubeUrl = updated.youtubeUrl,
-                                plannedMinutes = updated.plannedMinutes,
-                                targetMode = if (updated.targetCount != null) TargetMode.COUNT else null,
-                                targetCount = updated.targetCount,
+                                taskId = cleanTaskId,
+                                title = cleanUpdated.title,
+                                kind = cleanUpdated.type,
+                                contentType = if (cleanUpdated.youtubeUrl != null) ContentType.VIDEO else ContentType.OTHER,
+                                youtubeUrl = cleanUpdated.youtubeUrl,
+                                plannedMinutes = cleanUpdated.plannedMinutes,
+                                targetMode = if (cleanUpdated.targetCount != null) TargetMode.COUNT else null,
+                                targetCount = cleanUpdated.targetCount,
                                 targetMinutes = null,
                                 reviewRequired = true,
                                 active = true
@@ -149,7 +156,7 @@ fun ParentDashboardScreen(
                         ))
                     }
                     CloudflareSyncManager.syncWithCloud(context)
-                    Toast.makeText(context, "✅ '${updated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "✅ '${cleanUpdated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()
                 }
             },
             onDeleteTask = { key ->

@@ -94,11 +94,12 @@ object CloudflareSyncManager {
             }
 
             val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
+                val cleanPlanId = if (it.taskId.isNotBlank()) it.taskId else it.occurrenceKey.substringAfterLast("_", "")
                 RemoteOccurrenceSyncDto(
                     id = it.occurrenceKey,
                     familyCode = familyCode,
                     date = it.date ?: "",
-                    planId = it.taskId,
+                    planId = cleanPlanId,
                     subject = it.title,
                     topic = it.type.name,
                     targetDurationMin = it.plannedMinutes,
