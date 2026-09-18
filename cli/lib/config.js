@@ -20,17 +20,24 @@ function ensureConfigDir() {
 
 function loadConfig() {
   ensureConfigDir();
-  if (!fs.existsSync(CONFIG_FILE)) {
+  let cfg = { ...DEFAULT_CONFIG };
+  if (fs.existsSync(CONFIG_FILE)) {
+    try {
+      const raw = fs.readFileSync(CONFIG_FILE, 'utf8');
+      const parsed = JSON.parse(raw);
+      cfg = { ...cfg, ...parsed };
+    } catch (e) {
+      // ignore parse error
+    }
+  } else {
     saveConfig(DEFAULT_CONFIG);
-    return { ...DEFAULT_CONFIG };
   }
-  try {
-    const raw = fs.readFileSync(CONFIG_FILE, 'utf8');
-    const parsed = JSON.parse(raw);
-    return { ...DEFAULT_CONFIG, ...parsed };
-  } catch (e) {
-    return { ...DEFAULT_CONFIG };
+  if (process.env.STUDYTRACKER_FAMILY_CODE) {
+    cfg.familyCode = process.env.STUDYTRACKER_FAMILY_CODE.toUpperCase().trim();
+  } else if (process.env.STUDY_FAMILY_CODE) {
+    cfg.familyCode = process.env.STUDY_FAMILY_CODE.toUpperCase().trim();
   }
+  return cfg;
 }
 
 function saveConfig(cfg) {
