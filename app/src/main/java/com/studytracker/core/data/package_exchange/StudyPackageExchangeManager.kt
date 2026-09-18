@@ -434,7 +434,7 @@ object StudyPackageExchangeManager {
 
                     val derivedTaskId = when {
                         remote.planId.isNotBlank() -> remote.planId
-                        !local?.taskId.isNullOrBlank() -> local.taskId
+                        !local?.taskId.isNullOrBlank() -> local!!.taskId
                         remote.id.contains("_") -> remote.id.substringAfterLast("_")
                         remote.id.contains(":") -> remote.id.substringBefore(":")
                         else -> remote.subject.replace(Regex("""[^a-zA-Z0-9_-]"""), "_").lowercase()
