@@ -73,6 +73,20 @@ function normalizeReview(r) {
     feedbackNote: r.feedbackNote ?? r.feedback_note ?? r.reviewNote ?? '',
     reviewedAt: Number(r.reviewedAt ?? r.reviewed_at ?? Date.now())
   };
+}
+
+function normalizeScreenshot(ss) {
+  if (!ss) return null;
+  return {
+    id: ss.id || ss.screenshotId || '',
+    familyCode: ss.familyCode || ss.family_code || '',
+    sessionId: ss.sessionId || ss.session_id || ss.occurrenceKey || '',
+    imageUrl: ss.imageUrl || ss.image_url || ss.url || '',
+    timestamp: Number(ss.timestamp ?? ss.capturedAt ?? Date.now()),
+    aiAnalysisJson: ss.aiAnalysisJson || ss.ai_analysis_json || null
+  };
+}
+
 const inMemoryStore = new Map();
 
 async function getStoreData(env, key) {
@@ -127,6 +141,7 @@ export default {
             tasks: [],
             occurrences: [],
             sessions: [],
+            screenshots: [],
             reviews: [],
             quizzes: []
           };
@@ -154,6 +169,7 @@ export default {
               tasks: [],
               occurrences: [],
               sessions: [],
+              screenshots: [],
               reviews: [],
               quizzes: []
             }), { headers: CORS_HEADERS });
@@ -174,6 +190,7 @@ export default {
             tasks: [],
             occurrences: [],
             sessions: [],
+            screenshots: [],
             reviews: [],
             quizzes: []
           };
@@ -188,6 +205,7 @@ export default {
               tasks: [],
               occurrences: [],
               sessions: [],
+              screenshots: [],
               reviews: [],
               quizzes: []
             };
@@ -205,6 +223,7 @@ export default {
               occ.parentNote = '';
             }
             current.sessions = [];
+            current.screenshots = [];
             current.reviews = [];
             current.updatedAt = Date.now();
             await setStoreData(env, storeKey, current);
@@ -248,44 +267,10 @@ export default {
             current.deletedOccurrences = [];
           }
 
-          // A) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
-          if (action === 'WIPE') {
-            current = {
-              familyCode,
-              createdAt: current.createdAt || Date.now(),
-              updatedAt: Date.now(),
-              planUpdatedAt: Date.now(),
-              plan: null,
-              tasks: [],
-              occurrences: [],
-              deletedOccurrences: [],
-              sessions: [],
-              reviews: [],
-              quizzes: []
-            };
-            await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
-          }
-
-          // B) İlerleme Sıfırlama (Reset Progress)
-          if (action === 'RESET') {
-            for (const occ of (current.occurrences || [])) {
-              occ.status = 'PENDING';
-              occ.completedDurationMin = 0;
-              occ.completedQuestionCount = 0;
-              occ.studentNote = null;
-              occ.parentNote = '';
-            }
-            current.sessions = [];
-            current.reviews = [];
-            current.updatedAt = Date.now();
-            await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
-          }
-
           // Normalize all existing occurrences
           current.occurrences = (current.occurrences || []).map(normalizeOccurrence).filter(Boolean);
           current.sessions = (current.sessions || []).map(normalizeSession).filter(Boolean);
+          current.screenshots = (current.screenshots || []).map(normalizeScreenshot).filter(Boolean);
           current.reviews = (current.reviews || []).map(normalizeReview).filter(Boolean);
 
           const prevOccMap = new Map(current.occurrences.map(o => [o.id, o]));
@@ -320,11 +305,18 @@ export default {
                 }
               }
 
-              // Merge incoming occurrences while preserving existing student progress
+              // Merge incoming occurrences while preserving existing student progress & approval
               const mergedOccs = incomingOccurrences.map(inc => {
                 const prev = prevOccMap.get(inc.id);
                 tombstoneSet.delete(inc.id); // Re-added or active
                 if (!prev) return inc;
+
+                let resolvedStatus = inc.status || prev.status || 'PENDING';
+                if (prev.status === 'APPROVED' || inc.status === 'APPROVED') {
+                  resolvedStatus = 'APPROVED';
+                } else if (prev.status === 'WAITING_REVIEW' && inc.status === 'PENDING') {
+                  resolvedStatus = 'WAITING_REVIEW';
+                }
 
                 return {
                   ...prev,
@@ -338,7 +330,7 @@ export default {
                   completedDurationMin: Math.max(prev.completedDurationMin || 0, inc.completedDurationMin || 0),
                   completedQuestionCount: Math.max(prev.completedQuestionCount || 0, inc.completedQuestionCount || 0),
                   studentNote: inc.studentNote || prev.studentNote,
-                  status: inc.status || prev.status || 'PENDING'
+                  status: resolvedStatus
                 };
               });
 
@@ -438,14 +430,24 @@ export default {
             current.sessions = Array.from(sessMap.values());
           }
 
-          // 5. Reviews (Parent / Admin -> Student)
+          // 5. Screenshots (Student -> Parent)
+          if (Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
+            const ssMap = new Map((current.screenshots || []).map(s => [s.id, s]));
+            incoming.screenshots.map(normalizeScreenshot).filter(Boolean).forEach(s => {
+              const prev = ssMap.get(s.id);
+              ssMap.set(s.id, prev ? { ...prev, ...s } : s);
+            });
+            current.screenshots = Array.from(ssMap.values()).slice(-40);
+          }
+
+          // 6. Reviews (Parent / Admin -> Student)
           if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
             const revMap = new Map((current.reviews || []).map(r => [r.id, r]));
             incoming.reviews.map(normalizeReview).filter(Boolean).forEach(r => revMap.set(r.id, r));
             current.reviews = Array.from(revMap.values());
           }
 
-          // 6. Quizzes (Student Quiz Submissions)
+          // 7. Quizzes (Student Quiz Submissions)
           if (Array.isArray(incoming.quizzes) && incoming.quizzes.length > 0) {
             const quizMap = new Map((current.quizzes || []).map(q => [q.quizId, q]));
             incoming.quizzes.forEach(q => {

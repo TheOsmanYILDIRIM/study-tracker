@@ -340,3 +340,16 @@
   - `studytracker-cli task list`: Tüm dersleri numaralandırılmış, gün, video linki, süre ve onay durumlu görsel liste olarak sunar.
   - `studytracker-cli task delete <1|id|isim>`: Sıra numarası, tekil ID veya ders adı vererek tek tıkla buluttan ve programdan ders silmeyi sağlar.
   - `studytracker-cli task edit` ve `approve/reject` komutlarına sıra numarasıyla hedef seçme esnekliği eklendi.
+
+## [2026-09-18] 43. Kanıt Ekran Görüntüsü Bulut Eşitlemesi ve Toleranslı İnceleme/Onay Senkronizasyonu
+- **Cloudflare KV Kanıt Ekran Görüntüsü Mimarisi:**
+  - `CloudflareSyncManager.kt` içindeki `SharedFamilySyncPayload` ve `CloudSyncPayloadWrapper` modellerine sıkıştırılmış WebP ekran görüntüleri (`screenshots: List<RemoteScreenshotSyncDto>`) entegre edildi.
+  - Öğrenci cihazında alınan ekran görüntüleri WebP formatında ultra kompakt boyuta indirilerek bulut senkronizasyon paketine dahil edildi.
+  - `worker/worker.js` üzerinde ekran görüntüleri normalizasyonu (`normalizeScreenshot`), KV saklama ve istemcilere dağıtım mekanizması tamamlandı.
+- **Toleranslı / Esnek Ders Anahtarı Eşleme (Fuzzy Key Matching):**
+  - `StudyPackageExchangeManager.kt`, `StudySyncProvider.kt` ve `LocalRepositories.kt` üzerinde onay ve inceleme kayıtları işlenirken, DSL (`2026-W38_MON_mat_1`), yerel parser (`mat_1:2026-09-14`) ve oturum ID format farklılıklarını tolere eden esnek arama mimarisi kuruldu.
+  - Bir ders için onaylanmış (`APPROVED`) bir inceleme kaydı bulunduğunda veya ders daha önce onaylandığında, sonraki plan eşitlemelerinde durumunun istem dışı `PENDING`'e düşmesi engellendi.
+- **CLI & Renderer İnceleme Entegrasyonu:**
+  - `studytracker-cli.js` içindeki `plan apply`, `approve` ve `reject` komutları ekran görüntülerini ve onaylanmış derslerin durumlarını eksiksiz koruyacak şekilde güncellendi.
+  - `renderer.js` üzerinde onaylanmış oturumların "Onay Bekleyenler" listesinde mükerrer görünmesi engellendi.
+

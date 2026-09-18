@@ -41,6 +41,7 @@ data class CloudSyncPayloadWrapper(
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
+    val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList()
 )
@@ -331,6 +332,7 @@ object CloudflareSyncManager {
             tasks = cloudData.tasks,
             occurrences = cloudData.occurrences,
             sessions = cloudData.sessions,
+            screenshots = cloudData.screenshots,
             reviews = cloudData.reviews,
             quizzes = cloudData.quizzes
         )
@@ -414,6 +416,34 @@ object CloudflareSyncManager {
                 )
             }
 
+            // Convert and compress local screenshots into compact WebP Base64 strings for Cloudflare sync
+            val localScreenshots = db.screenshotDao().getAllScreenshotsOnce().take(15)
+            val screenshots = localScreenshots.mapNotNull { ss ->
+                try {
+                    val imgData = when {
+                        ss.url.startsWith("data:image/") || ss.url.contains("base64,") -> ss.url
+                        ss.url.startsWith("http://") || ss.url.startsWith("https://") -> ss.url
+                        else -> {
+                            val f = java.io.File(ss.url)
+                            if (f.exists() && f.length() > 0) {
+                                StudyPackageExchangeManager.compressBitmapToWebpBase64(f)
+                            } else null
+                        }
+                    }
+                    if (imgData != null) {
+                        RemoteScreenshotSyncDto(
+                            id = ss.screenshotId,
+                            familyCode = familyCode,
+                            sessionId = ss.sessionId,
+                            imageUrl = imgData,
+                            timestamp = ss.capturedAt
+                        )
+                    } else null
+                } catch (_: Exception) {
+                    null
+                }
+            }
+
             val reviews = db.reviewDao().getAllReviewsOnce().map {
                 RemoteReviewSyncDto(
                     id = "rev_${it.sessionId}",
@@ -443,6 +473,7 @@ object CloudflareSyncManager {
                 tasks = tasks,
                 occurrences = occurrences,
                 sessions = sessions,
+                screenshots = screenshots,
                 reviews = reviews,
                 quizzes = quizzes
             )

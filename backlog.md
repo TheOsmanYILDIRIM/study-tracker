@@ -178,3 +178,10 @@
 - [x] **Tombstone Silme Güvencesi:** CLI veya Veli tarafından silinen derslerin `deletedOccurrences` tombstone mekanizmasıyla işaretlenerek, eski yerel veritabanına sahip cihazların silinen dersi tekrar hortlatmasının engellenmesi.
 - [x] **Öğrenci Çalışma & Not Otoritesi:** Öğrencinin tamamladığı süre, çözdüğü soru sayısı, öz değerlendirme notları, oturumları ve test yanıtlarının veli veya CLI senkronizasyonlarında kayıpsız korunması ve ileriye taşınması.
 - [x] **Gelişmiş CLI Komutları:** `studytracker-cli task list`, `studytracker-cli task delete <numara|id|isim>`, `studytracker-cli task edit <numara|id>`, `studytracker-cli approve/reject <numara|id>` ile numaralandırılmış pratik ders yönetimi.
+
+## 43. Kanıt Ekran Görüntüsü Bulut Eşitlemesi ve Toleranslı İnceleme/Onay Senkronizasyonu
+- [x] **Cloudflare KV Kanıt Ekran Görüntüsü Eşitlemesi:** `CloudflareSyncManager.kt` ve `worker/worker.js` içine `screenshots` (WebP Base64) entegrasyonu tamamlandı; öğrenci ekran görüntülerinin veli uygulamasına ve buluta kesintisiz aktarımı sağlandı.
+- [x] **Toleranslı Anahtar Eşleme (Fuzzy Key Matching):** DSL (`2026-W38_MON_mat_1`), yerel parser (`mat_1:2026-09-14`) ve oturum ID formatları arasındaki farklılıkları gideren esnek arama mimarisi ile onaylanan derslerin kartlarının `APPROVED` ("Bitti") durumuna geçmesi garanti altına alındı.
+- [x] **Kayıpsız Onay Durumu Koruma:** Bir ders onaylandığında (`APPROVED`), sonraki plan senkronizasyonlarının ders durumunu `PENDING`'e geri çekmesi engellendi.
+- [x] **CLI Dashboard & İnceleme Filtreleme:** `studytracker-cli.js` ve `renderer.js` üzerinde onaylanan oturumların bekleme listesinden temizlenmesi ve ekran görüntüsü aktarımı mühürlendi.
+

@@ -412,12 +412,17 @@ object StudyPackageExchangeManager {
                     val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
 
                     // Status resolution hierarchy:
-                    // If either side approved -> APPROVED
+                    // If either side approved OR approved review exists -> APPROVED
                     // If student sent report with WAITING_REVIEW -> WAITING_REVIEW
                     // If student was ACTIVE -> ACTIVE
                     // If rejected -> PENDING with warning
+                    val cleanPlanId = remote.planId.ifBlank { remote.id.substringAfterLast("_", "").ifBlank { remote.id.substringBefore(":", "") } }
+                    val hasApprovedReview = pkg.reviews.any { rev ->
+                        (rev.sessionId == remote.id || rev.sessionId == cleanPlanId || rev.sessionId.endsWith("_$cleanPlanId") || (local != null && rev.sessionId == local.occurrenceKey)) && rev.isApproved
+                    }
+
                     val resolvedStatus = when {
-                        local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+                        local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED || hasApprovedReview -> OccurrenceStatus.APPROVED
                         remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                         local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
                         remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
@@ -528,9 +533,21 @@ object StudyPackageExchangeManager {
 
             // 5. Reconcile Reviews (Feedback & Badges)
             if (pkg.reviews.isNotEmpty()) {
+                val allOccs = db.occurrenceDao().getAllOccurrencesOnce()
                 for (rev in pkg.reviews) {
                     val session = db.sessionDao().getSessionById(rev.sessionId)
-                    val targetOccKey = session?.occurrenceKey ?: rev.sessionId
+                    val rawTargetKey = session?.occurrenceKey ?: rev.sessionId
+                    val cleanRevSessionId = rev.sessionId.substringAfterLast("_", "").ifBlank { rev.sessionId.substringBefore(":", "") }
+                    val targetOcc = allOccs.find { 
+                        it.occurrenceKey == rawTargetKey || 
+                        it.occurrenceKey == rev.sessionId || 
+                        it.occurrenceKey.endsWith("_${rev.sessionId}") || 
+                        it.taskId == rev.sessionId ||
+                        it.taskId == cleanRevSessionId ||
+                        (session?.occurrenceKey != null && it.occurrenceKey == session.occurrenceKey)
+                    }
+                    val targetOccKey = targetOcc?.occurrenceKey ?: rawTargetKey
+
                     val reviewEntity = ReviewEntity(
                         sessionId = rev.sessionId,
                         occurrenceKey = targetOccKey,

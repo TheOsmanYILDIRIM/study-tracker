@@ -274,8 +274,18 @@ class LocalSessionRepositoryImpl(
             db.sessionDao().upsertSession(session.copy(status = sessionStatus))
         }
 
-        val targetOccKey = session?.occurrenceKey ?: review.occurrenceKey
-        val occurrence = db.occurrenceDao().getOccurrenceByKeyOnce(targetOccKey)
+        val rawTargetKey = session?.occurrenceKey ?: review.occurrenceKey
+        val allOccs = db.occurrenceDao().getAllOccurrencesOnce()
+        val cleanSessionId = review.sessionId.substringAfterLast("_", "").ifBlank { review.sessionId.substringBefore(":", "") }
+        val occurrence = allOccs.find {
+            it.occurrenceKey == rawTargetKey ||
+            it.occurrenceKey == review.sessionId ||
+            it.occurrenceKey.endsWith("_${review.sessionId}") ||
+            it.taskId == review.sessionId ||
+            it.taskId == cleanSessionId ||
+            (session?.occurrenceKey != null && it.occurrenceKey == session.occurrenceKey)
+        } ?: db.occurrenceDao().getOccurrenceByKeyOnce(rawTargetKey)
+
         if (occurrence != null) {
             if (review.reviewStatus == ReviewStatus.APPROVED) {
                 if (occurrence.type == TaskKind.WEEKLY) {

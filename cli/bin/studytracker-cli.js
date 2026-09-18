@@ -145,13 +145,30 @@ async function main() {
           console.log(`${colors.cyan}⏳ Plan ayrıştırılıyor ve Cloudflare KV'ye yükleniyor (${familyCode})...${colors.reset}`);
           const parsedPlan = parseDSL(dslText, familyCode);
           
-          // Preserve existing completed sessions, reviews and quizzes
+          // Reconcile existing occurrence statuses (preserve APPROVED / WAITING_REVIEW)
+          const prevOccMap = new Map((data.occurrences || []).map(o => [o.id, o]));
+          const mergedOccurrences = parsedPlan.occurrences.map(newOcc => {
+            const prev = prevOccMap.get(newOcc.id) || 
+                         (data.occurrences || []).find(o => o.planId === newOcc.planId && o.date === newOcc.date);
+            if (!prev) return newOcc;
+            return {
+              ...newOcc,
+              status: (prev.status === 'APPROVED' || prev.status === 'WAITING_REVIEW') ? prev.status : newOcc.status,
+              completedDurationMin: prev.completedDurationMin || 0,
+              completedQuestionCount: prev.completedQuestionCount || 0,
+              studentNote: prev.studentNote || null,
+              parentNote: prev.parentNote || ''
+            };
+          });
+
+          // Preserve existing completed sessions, screenshots, reviews and quizzes
           const payload = {
             familyCode,
             plan: parsedPlan.plan,
             tasks: parsedPlan.tasks,
-            occurrences: parsedPlan.occurrences,
+            occurrences: mergedOccurrences,
             sessions: data.sessions || [],
+            screenshots: data.screenshots || [],
             reviews: data.reviews || [],
             quizzes: data.quizzes || []
           };
@@ -212,7 +229,8 @@ async function main() {
         occ.completedQuestionCount = Math.max(occ.completedQuestionCount || 0, occ.targetQuestionCount || 1);
 
         data.reviews = data.reviews || [];
-        data.reviews.push({
+        const existingRevIdx = data.reviews.findIndex(r => r.sessionId === occ.id || r.sessionId === occ.planId);
+        const reviewRecord = {
           id: `rev_${Date.now()}`,
           familyCode,
           sessionId: occ.id,
@@ -221,7 +239,12 @@ async function main() {
           parentRating: 5,
           feedbackNote: parsed.options.note || 'Harika çalışma!',
           reviewedAt: Date.now()
-        });
+        };
+        if (existingRevIdx !== -1) {
+          data.reviews[existingRevIdx] = reviewRecord;
+        } else {
+          data.reviews.push(reviewRecord);
+        }
 
         await pushFamilyData(data, familyCode, 'PARENT');
         console.log(`${colors.green}✔ '${occ.subject}' [${occ.id}] başarıyla ONAYLANDI ve buluta işlendi.${colors.reset}`);
@@ -253,7 +276,8 @@ async function main() {
         occ.parentNote = note;
 
         data.reviews = data.reviews || [];
-        data.reviews.push({
+        const existingRevIdx = data.reviews.findIndex(r => r.sessionId === occ.id || r.sessionId === occ.planId);
+        const reviewRecord = {
           id: `rev_${Date.now()}`,
           familyCode,
           sessionId: occ.id,
@@ -262,7 +286,12 @@ async function main() {
           parentRating: 1,
           feedbackNote: note,
           reviewedAt: Date.now()
-        });
+        };
+        if (existingRevIdx !== -1) {
+          data.reviews[existingRevIdx] = reviewRecord;
+        } else {
+          data.reviews.push(reviewRecord);
+        }
 
         await pushFamilyData(data, familyCode, 'PARENT');
         console.log(`${colors.brightRed}✔ '${occ.subject}' [${occ.id}] REDDEDİLDİ ve öğrenciye geri bildirim notu iletildi.${colors.reset}`);

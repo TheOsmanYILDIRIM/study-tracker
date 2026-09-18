@@ -118,8 +118,9 @@ function renderDashboard(data) {
     console.log('');
   }
 
-  // 3. Waiting Reviews List
-  const pendingSessions = sessions.filter(s => s.isCompleted);
+  // 3. Waiting Reviews List (Exclude already reviewed sessions)
+  const reviewedSessionIds = new Set(reviews.map(r => r.sessionId));
+  const pendingSessions = sessions.filter(s => s.isCompleted && !reviewedSessionIds.has(s.id));
   if (pendingSessions.length > 0) {
     console.log(`${colors.bold}${colors.brightYellow}🔍 Onay Bekleyen Öğrenci Oturumları (${pendingSessions.length}):${colors.reset}`);
     for (const s of pendingSessions) {

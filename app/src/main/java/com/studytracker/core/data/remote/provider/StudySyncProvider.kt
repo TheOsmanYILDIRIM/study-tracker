@@ -240,9 +240,21 @@ class StudySyncProvider : ContentProvider() {
 
         // 5. Reviews
         if (payload.reviews.isNotEmpty()) {
+            val allOccs = db.occurrenceDao().getAllOccurrencesOnce()
             for (rev in payload.reviews) {
                 val session = db.sessionDao().getSessionById(rev.sessionId)
-                val targetOccKey = session?.occurrenceKey ?: rev.sessionId
+                val rawTargetKey = session?.occurrenceKey ?: rev.sessionId
+                val cleanRevSessionId = rev.sessionId.substringAfterLast("_", "").ifBlank { rev.sessionId.substringBefore(":", "") }
+                val targetOcc = allOccs.find { 
+                    it.occurrenceKey == rawTargetKey || 
+                    it.occurrenceKey == rev.sessionId || 
+                    it.occurrenceKey.endsWith("_${rev.sessionId}") || 
+                    it.taskId == rev.sessionId ||
+                    it.taskId == cleanRevSessionId ||
+                    (session?.occurrenceKey != null && it.occurrenceKey == session.occurrenceKey)
+                }
+                val targetOccKey = targetOcc?.occurrenceKey ?: rawTargetKey
+
                 val reviewEntity = ReviewEntity(
                     sessionId = rev.sessionId,
                     occurrenceKey = targetOccKey,
@@ -260,7 +272,7 @@ class StudySyncProvider : ContentProvider() {
                     db.occurrenceDao().setWarning(
                         targetOccKey,
                         true,
-                        rev.feedbackNote ?: rev.rejectionReason ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız."
+                        rev.feedbackNote ?: rev.rejectionReason ?: "Bu görev onaylanmadı. Lütfen tekrar yapınız."
                     )
                 }
             }
