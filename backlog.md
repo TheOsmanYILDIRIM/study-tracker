@@ -185,3 +185,7 @@
 - [x] **Kayıpsız Onay Durumu Koruma:** Bir ders onaylandığında (`APPROVED`), sonraki plan senkronizasyonlarının ders durumunu `PENDING`'e geri çekmesi engellendi.
 - [x] **CLI Dashboard & İnceleme Filtreleme:** `studytracker-cli.js` ve `renderer.js` üzerinde onaylanan oturumların bekleme listesinden temizlenmesi ve ekran görüntüsü aktarımı mühürlendi.
 
+## 44. CI/CD Derleme Süresi Optimizasyonu & Sadece Release APK Üretimi
+- [x] **Sadece Release APK Derleme:** `.github/workflows/build-apk.yml` üzerinden `assembleDebug` ve debug artifact adımları kaldırılarak sadece kalıcı imzalı Release APK'ların (`assembleRelease`) derlenmesi sağlandı; CI/CD süresi ve işlem kaynakları optimize edildi.
+
+

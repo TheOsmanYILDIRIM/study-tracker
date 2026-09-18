@@ -353,3 +353,9 @@
   - `studytracker-cli.js` içindeki `plan apply`, `approve` ve `reject` komutları ekran görüntülerini ve onaylanmış derslerin durumlarını eksiksiz koruyacak şekilde güncellendi.
   - `renderer.js` üzerinde onaylanmış oturumların "Onay Bekleyenler" listesinde mükerrer görünmesi engellendi.
 
+## [2026-09-18] 44. CI/CD Derleme Süresi Optimizasyonu & Sadece Release APK Üretimi
+- **GitHub Actions CI/CD Hattı Sadeleştirmesi:**
+  - `.github/workflows/build-apk.yml` dosyasından gereksiz `assembleDebug` derleme adımı ve debug artifact yükleme eylemleri kaldırıldı.
+  - Sadece kalıcı imzalı Release APK'ları (`assembleRelease`) derlenerek CI/CD işlem süresi ve kaynak tüketimi yaklaşık yarı yarıya optimize edildi.
+
+
