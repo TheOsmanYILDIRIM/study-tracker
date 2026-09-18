@@ -431,6 +431,7 @@ fun ParentDashboardScreen(
                     }
                 }
             )
+        }
     ) { padding ->
         Box(
             modifier = Modifier
@@ -1225,6 +1226,8 @@ fun ParentDashboardScreen(
             contentColor = ZenForestGreen
         )
     }
+}
+}
 }
 
 @Composable

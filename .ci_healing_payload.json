@@ -1,0 +1,49 @@
+{
+  "run_id": 35363521290,
+  "conclusion": "failure",
+  "url": "https://github.com/TheOsmanYILDIRIM/study-tracker/actions/runs/35363521290",
+  "critical_errors": [
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:37:31.3730898Z The client will now receive all logging from the daemon (pid: 2320). The daemon log file: /home/runner/.gradle/daemon/8.7/daemon-2320.out.log",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:37:46.4732451Z Adopted [service: null]",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:37:50.3373777Z Adopted [service: null]",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:37:52.7784881Z Adopted [service: null]",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5720719Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/child/ChildHomeScreen.kt:1145:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5750510Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:434:5 Expecting an element",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5780606Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5810502Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting ')'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5840302Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/child/ChildHomeScreen.kt:1145:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5841549Z > Task :app:kspChildReleaseKotlin FAILED",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5870442Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:434:5 Expecting an element",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5900268Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5921197Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting ')'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:04.5959671Z > Task :app:kspParentReleaseKotlin FAILED",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:09.1740620Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/child/ChildHomeScreen.kt:1145:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:09.1742722Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:434:5 Expecting an element",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:09.1744763Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting '}'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:09.1746703Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt:1403:2 Expecting ')'",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:09.1769757Z > Task :app:kspChildDebugKotlin FAILED",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.6929708Z    > Compilation error. See log for more details",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7100100Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kspChildReleaseKotlin'.",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7489479Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7691053Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7752321Z    > Compilation error. See log for more details",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7755548Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kspParentReleaseKotlin'.",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.7872655Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.8153375Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.8206104Z    > Compilation error. See log for more details",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.8209675Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kspChildDebugKotlin'.",
+    "build\tBuild Release & Debug APKs\t2026-09-18T15:38:11.8269314Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction"
+  ],
+  "diagnosed_files": {
+    "app/src/main/java/com/studytracker/feature/parent/ParentDashboardScreen.kt": {
+      "error_line": 1403,
+      "error_description": "Expecting ')'",
+      "code_context": "   1383:                         .background(ZenSkyCyan.copy(alpha = 0.10f))\n   1384:                         .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), RoundedCornerShape(8.dp))\n   1385:                         .padding(horizontal = 8.dp, vertical = 5.dp)\n   1386:                 ) {\n   1387:                     Row(\n   1388:                         verticalAlignment = Alignment.CenterVertically,\n   1389:                         horizontalArrangement = Arrangement.spacedBy(6.dp)\n   1390:                     ) {\n   1391:                         Icon(Icons.Default.EditNote, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(16.dp))\n   1392:                         Text(\n   1393:                             text = \"Öğrenci Notu: ${occurrence.studentNote}\",\n   1394:                             color = ZenSkyCyan,\n   1395:                             fontSize = 11.sp,\n   1396:                             fontWeight = FontWeight.Medium\n   1397:                         )\n   1398:                     }\n   1399:                 }\n   1400:             }\n   1401:         }\n   1402:     }\n>> 1403: }"
+    },
+    "app/src/main/java/com/studytracker/feature/child/ChildHomeScreen.kt": {
+      "error_line": 1145,
+      "error_description": "Expecting '}'",
+      "code_context": "   1125:                         verticalAlignment = Alignment.CenterVertically,\n   1126:                         horizontalArrangement = Arrangement.spacedBy(3.dp)\n   1127:                     ) {\n   1128:                         Icon(\n   1129:                             imageVector = Icons.Default.PlayArrow,\n   1130:                             contentDescription = null,\n   1131:                             tint = Color(0xFF070B14),\n   1132:                             modifier = Modifier.size(15.dp)\n   1133:                         )\n   1134:                         Text(\n   1135:                             text = \"Testi Çöz\",\n   1136:                             fontWeight = FontWeight.Bold,\n   1137:                             fontSize = 11.sp,\n   1138:                             color = Color(0xFF070B14)\n   1139:                         )\n   1140:                     }\n   1141:                 }\n   1142:             }\n   1143:         }\n   1144:     }\n>> 1145: }"
+    }
+  }
+}

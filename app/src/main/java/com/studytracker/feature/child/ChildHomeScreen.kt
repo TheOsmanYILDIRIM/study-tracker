@@ -826,6 +826,7 @@ fun ChildHomeScreen(
         }
     }
 }
+}
 
 @Composable
 fun LiveActiveSessionBanner(
