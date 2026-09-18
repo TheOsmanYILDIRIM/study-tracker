@@ -142,6 +142,7 @@ fun ParentDashboardScreen(
                                 plannedMinutes = updated.plannedMinutes,
                                 targetMode = if (updated.targetCount != null) TargetMode.COUNT else null,
                                 targetCount = updated.targetCount,
+                                targetMinutes = null,
                                 reviewRequired = true,
                                 active = true
                             )
