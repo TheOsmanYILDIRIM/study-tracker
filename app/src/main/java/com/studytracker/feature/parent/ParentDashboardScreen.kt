@@ -35,8 +35,9 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
-import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.ui.components.extractVideoUrl
+import com.studytracker.core.ui.components.openVideoUrl
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -1398,6 +1399,36 @@ fun OccurrenceAdminCard(
                             tint = ZenSkyCyan,
                             modifier = Modifier.size(15.dp)
                         )
+                    }
+                }
+            }
+
+            val effectiveVideoUrl = extractVideoUrl(occurrence)
+            if (!effectiveVideoUrl.isNullOrBlank()) {
+                val context = LocalContext.current
+                Surface(
+                    onClick = { openVideoUrl(context, effectiveVideoUrl) },
+                    shape = RoundedCornerShape(8.dp),
+                    color = Color(0x33E11D48),
+                    border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.5f)),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Row(
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Icon(Icons.Default.SmartDisplay, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(16.dp))
+                        Text(
+                            text = "🎬 Video: $effectiveVideoUrl",
+                            color = Color.White,
+                            fontSize = 11.5.sp,
+                            fontWeight = FontWeight.Medium,
+                            maxLines = 1,
+                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+                            modifier = Modifier.weight(1f)
+                        )
+                        Icon(Icons.Default.OpenInNew, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(14.dp))
                     }
                 }
             }
