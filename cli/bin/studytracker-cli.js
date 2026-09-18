@@ -156,7 +156,7 @@ async function main() {
             quizzes: data.quizzes || []
           };
 
-          await pushFamilyData(payload, familyCode, 'ADMIN');
+          await pushFamilyData(payload, familyCode, 'PARENT');
           console.log(`${colors.green}✔ Plan başarıyla yüklendi!${colors.reset}`);
           console.log(`  • Hafta      : ${parsedPlan.plan.weekId}`);
           console.log(`  • Ders Sayısı: ${parsedPlan.occurrences.length}`);
@@ -223,7 +223,7 @@ async function main() {
           reviewedAt: Date.now()
         });
 
-        await pushFamilyData(data, familyCode, 'ADMIN');
+        await pushFamilyData(data, familyCode, 'PARENT');
         console.log(`${colors.green}✔ '${occ.subject}' [${occ.id}] başarıyla ONAYLANDI ve buluta işlendi.${colors.reset}`);
         console.log(`${colors.dim}Öğrenci uygulamasında takımyıldızı animasyonu tetiklenecektir.${colors.reset}`);
         break;
@@ -264,7 +264,7 @@ async function main() {
           reviewedAt: Date.now()
         });
 
-        await pushFamilyData(data, familyCode, 'ADMIN');
+        await pushFamilyData(data, familyCode, 'PARENT');
         console.log(`${colors.brightRed}✔ '${occ.subject}' [${occ.id}] REDDEDİLDİ ve öğrenciye geri bildirim notu iletildi.${colors.reset}`);
         break;
       }
@@ -343,7 +343,7 @@ async function main() {
             updatedAt: Date.now()
           });
 
-          await pushFamilyData(data, familyCode, 'ADMIN');
+          await pushFamilyData(data, familyCode, 'PARENT');
           console.log(`${colors.green}✔ Yeni ders eklendi: '${title}' (${day} - ${min} dk) [ID: ${occKey}]${colors.reset}`);
         } else if (sub === 'edit') {
           const target = parsed.positionals[2];
@@ -373,7 +373,7 @@ async function main() {
             if (parsed.options.video !== undefined) taskTmpl.youtubeUrl = parsed.options.video || null;
           }
 
-          await pushFamilyData(data, familyCode, 'ADMIN');
+          await pushFamilyData(data, familyCode, 'PARENT');
           console.log(`${colors.green}✔ Ders başarıyla güncellendi: '${occ.subject}' [${occ.id}]${colors.reset}`);
         } else if (sub === 'delete') {
           const target = parsed.positionals[2];
@@ -401,7 +401,7 @@ async function main() {
             data.tasks = data.tasks.filter(t => t.taskId !== deletedPlanId);
           }
 
-          await pushFamilyData(data, familyCode, 'ADMIN');
+          await pushFamilyData(data, familyCode, 'PARENT');
           console.log(`${colors.green}✔ Ders programdan ve buluttan kalıcı olarak silindi: '${deletedSubject}' [${deletedId}]${colors.reset}`);
           console.log(`  Kalan ders sayısı: ${data.occurrences.length}`);
           console.log(`${colors.dim}Veli ve Öğrenci uygulamaları eşitlendiğinde bu ders otomatik olarak silinecektir.${colors.reset}`);
@@ -424,7 +424,7 @@ async function main() {
           data.reviews = [];
           data.quizzes = [];
           data.action = 'WIPE';
-          await pushFamilyData(data, familyCode, 'ADMIN');
+          await pushFamilyData(data, familyCode, 'PARENT');
           console.log(`${colors.brightRed}✔ Tüm plan, dersler ve testler tamamen temizlendi (Temiz Masa).${colors.reset}`);
         } else {
           for (const occ of (data.occurrences || [])) {
@@ -436,7 +436,7 @@ async function main() {
           data.sessions = [];
           data.reviews = [];
           data.action = 'RESET';
-          await pushFamilyData(data, familyCode, 'ADMIN');
+          await pushFamilyData(data, familyCode, 'PARENT');
           console.log(`${colors.green}✔ Öğrenci çalışma ilerlemeleri ve süreleri sıfırlandı (Plan korundu).${colors.reset}`);
         }
         break;
