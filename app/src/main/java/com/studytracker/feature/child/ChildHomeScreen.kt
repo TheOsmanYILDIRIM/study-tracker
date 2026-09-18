@@ -900,12 +900,11 @@ fun LiveActiveSessionBanner(
             // 🎬 Büyük Belirgin Tıklanabilir Video Kartı
             if (!videoUrl.isNullOrBlank()) {
                 Surface(
+                    onClick = { openVideoUrl(context, videoUrl) },
                     shape = RoundedCornerShape(12.dp),
                     color = Color(0x33E11D48),
                     border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenRoseCoral),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clickable { openVideoUrl(context, videoUrl) }
+                    modifier = Modifier.fillMaxWidth()
                 ) {
                     Row(
                         modifier = Modifier.padding(horizontal = 12.dp, vertical = 9.dp),

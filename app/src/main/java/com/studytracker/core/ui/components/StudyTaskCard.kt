@@ -90,54 +90,75 @@ fun extractVideoUrl(occurrence: Occurrence): String? {
     return null
 }
 
+fun extractYoutubeVideoId(url: String): String? {
+    val clean = sanitizeUrl(url)
+    if (clean.isBlank()) return null
+
+    val vParamRegex = Regex("""[?&]v=([a-zA-Z0-9_-]{11})""")
+    val matchV = vParamRegex.find(clean)
+    if (matchV != null) return matchV.groupValues[1]
+
+    val youtuBeRegex = Regex("""youtu\.be/([a-zA-Z0-9_-]{11})""")
+    val matchYt = youtuBeRegex.find(clean)
+    if (matchYt != null) return matchYt.groupValues[1]
+
+    val embedRegex = Regex("""youtube\.com/(?:embed|shorts)/([a-zA-Z0-9_-]{11})""")
+    val matchEmbed = embedRegex.find(clean)
+    if (matchEmbed != null) return matchEmbed.groupValues[1]
+
+    return null
+}
+
 fun openVideoUrl(context: Context, rawUrl: String) {
     val cleanUrl = sanitizeUrl(rawUrl)
-    if (cleanUrl.isBlank()) return
-
-    val uri = try {
-        Uri.parse(cleanUrl)
-    } catch (_: Exception) {
-        android.widget.Toast.makeText(context, "Geçersiz video linki", android.widget.Toast.LENGTH_SHORT).show()
+    if (cleanUrl.isBlank()) {
+        android.widget.Toast.makeText(context, "Video linki bulunamadı", android.widget.Toast.LENGTH_SHORT).show()
         return
     }
 
-    val isYoutube = cleanUrl.contains("youtube.com", ignoreCase = true) || cleanUrl.contains("youtu.be", ignoreCase = true)
-    var launched = false
+    val videoId = extractYoutubeVideoId(cleanUrl)
 
-    if (isYoutube) {
+    // 1. YouTube App Intent (vnd.youtube: scheme - opens directly in official app, ReVanced, NewPipe if supported)
+    if (!videoId.isNullOrBlank()) {
         try {
-            val ytIntent = Intent(Intent.ACTION_VIEW, uri).apply {
-                setPackage("com.google.android.youtube")
+            val appIntent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId")).apply {
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             }
-            context.startActivity(ytIntent)
-            launched = true
+            context.startActivity(appIntent)
+            return
         } catch (_: Exception) {
-            // YouTube app package failed or not installed, fallback to generic view
+            // Fallthrough to universal browser / app-links intent
         }
     }
 
-    if (!launched) {
-        try {
-            val generalIntent = Intent(Intent.ACTION_VIEW, uri).apply {
-                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            }
-            context.startActivity(generalIntent)
-            launched = true
-        } catch (_: Exception) {
-            try {
-                val browserIntent = Intent(Intent.ACTION_VIEW, uri).apply {
-                    addCategory(Intent.CATEGORY_BROWSABLE)
-                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                }
-                context.startActivity(Intent.createChooser(browserIntent, "Videoyu Aç").apply {
-                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                })
-                launched = true
-            } catch (_: Exception) {
-                android.widget.Toast.makeText(context, "Video linki açılamadı: $cleanUrl", android.widget.Toast.LENGTH_LONG).show()
-            }
+    // 2. Universal HTTPS Intent (Handles Android App Links & Default Browsers)
+    try {
+        val webUri = Uri.parse(cleanUrl)
+        val webIntent = Intent(Intent.ACTION_VIEW, webUri).apply {
+            addCategory(Intent.CATEGORY_BROWSABLE)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         }
+        context.startActivity(webIntent)
+        return
+    } catch (_: Exception) {
+        // Direct launch failed, fallthrough to chooser
+    }
+
+    // 3. Fallback to App Chooser
+    try {
+        val webUri = Uri.parse(cleanUrl)
+        val chooserIntent = Intent.createChooser(
+            Intent(Intent.ACTION_VIEW, webUri).apply {
+                addCategory(Intent.CATEGORY_BROWSABLE)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            },
+            "Dersi / Videoyu Aç"
+        ).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+        context.startActivity(chooserIntent)
+    } catch (e: Exception) {
+        android.widget.Toast.makeText(context, "Video açılamadı: ${e.localizedMessage ?: cleanUrl}", android.widget.Toast.LENGTH_LONG).show()
     }
 }
 
@@ -452,14 +473,11 @@ fun StudyTaskCard(
             val context = LocalContext.current
             val validUrl = effectiveVideoUrl
             Surface(
+                onClick = { openVideoUrl(context, validUrl) },
                 shape = RoundedCornerShape(10.dp),
                 color = Color(0x33E11D48),
                 border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenRoseCoral),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clickable {
-                        openVideoUrl(context, validUrl)
-                    }
+                modifier = Modifier.fillMaxWidth()
             ) {
                 Row(
                     modifier = Modifier.padding(horizontal = 12.dp, vertical = 7.dp),
