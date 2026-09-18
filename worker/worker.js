@@ -77,12 +77,20 @@ function normalizeReview(r) {
 
 function normalizeScreenshot(ss) {
   if (!ss) return null;
+  const id = ss.id || ss.screenshotId || ss.screenshot_id || `ss_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
+  const familyCode = ss.familyCode || ss.family_code || '';
+  const sessionId = ss.sessionId || ss.session_id || ss.occurrenceKey || '';
+  const imageUrl = ss.imageUrl || ss.image_url || ss.url || '';
+  const timestamp = Number(ss.timestamp ?? ss.capturedAt ?? ss.captured_at ?? Date.now());
+
+  if (!imageUrl) return null;
+
   return {
-    id: ss.id || ss.screenshotId || '',
-    familyCode: ss.familyCode || ss.family_code || '',
-    sessionId: ss.sessionId || ss.session_id || ss.occurrenceKey || '',
-    imageUrl: ss.imageUrl || ss.image_url || ss.url || '',
-    timestamp: Number(ss.timestamp ?? ss.capturedAt ?? Date.now()),
+    id,
+    familyCode,
+    sessionId,
+    imageUrl,
+    timestamp,
     aiAnalysisJson: ss.aiAnalysisJson || ss.ai_analysis_json || null
   };
 }
@@ -161,8 +169,7 @@ export default {
         if (request.method === 'GET') {
           const current = await getStoreData(env, storeKey);
           if (!current) {
-            return new Response(JSON.stringify({
-              success: true,
+            const initialData = {
               familyCode,
               updatedAt: Date.now(),
               plan: null,
@@ -172,8 +179,21 @@ export default {
               screenshots: [],
               reviews: [],
               quizzes: []
+            };
+            return new Response(JSON.stringify({
+              success: true,
+              familyCode,
+              data: initialData
             }), { headers: CORS_HEADERS });
           }
+
+          current.occurrences = Array.isArray(current.occurrences) ? current.occurrences : [];
+          current.tasks = Array.isArray(current.tasks) ? current.tasks : [];
+          current.sessions = Array.isArray(current.sessions) ? current.sessions : [];
+          current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
+          current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
+          current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
+
           return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
         }
 
@@ -194,6 +214,13 @@ export default {
             reviews: [],
             quizzes: []
           };
+
+          current.occurrences = Array.isArray(current.occurrences) ? current.occurrences : [];
+          current.tasks = Array.isArray(current.tasks) ? current.tasks : [];
+          current.sessions = Array.isArray(current.sessions) ? current.sessions : [];
+          current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
+          current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
+          current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
 
           // A) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
           if (action === 'WIPE') {

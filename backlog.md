@@ -194,4 +194,9 @@
 - [x] **ScreenshotDao Çift Anahtar Desteği:** `getScreenshotsForSessionAndOccurrence` ile hem `sessionId` hem `occurrenceKey` üzerinden tam esnek ve kayıpsız sorgulama sağlandı.
 - [x] **Veli İnceleme Ekranı Otomatik Tazeleyici & Timeline Boş Durum Görünümü:** Veli kanıt ekranını açtığında yerelde henüz olmayan kanıtlar için arka planda sessiz bulut eşitlemesi tetiklendi, saf base64 string'leri için dekoder koruması ve şık boş durum kartı eklendi.
 
+## 46. Cloudflare Worker Çift Yönlü (Giren & Çıkan) Kanıt / Screenshot Motoru
+- [x] **Giren (Incoming) Kanıt Normalizasyonu:** `worker.js` içinde `normalizeScreenshot` güçlendirilerek `imageUrl`, `image_url`, `url`, `screenshotId`, `id`, `sessionId`, `session_id`, `occurrenceKey` gibi tüm farklı anahtar biçimleri standart formata oturtuldu; `POST /api/sync` ile gelen kanıtlar zaman damgasına göre sıralı olarak KV'ye yazıldı.
+- [x] **Çıkan (Outgoing) Kanıt Güvencesi:** `GET /api/sync` ve `POST /api/sync` yanıtlarında `data.screenshots` dizisi null/undefined düşmesini engelleyecek şekilde normalize edildi; ilk açılışlarda dahi boş dizi `[]` garantisi sağlandı.
+- [x] **CLI Kanıt Rozetleri:** `studytracker-cli` inceleme dashboard'unda onay bekleyen her oturumun yanında kanıt sayısı (`📸 X Kanıt`) gösterilecek şekilde güncellendi.
+
 

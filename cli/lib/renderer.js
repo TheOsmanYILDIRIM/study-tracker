@@ -119,12 +119,21 @@ function renderDashboard(data) {
   }
 
   // 3. Waiting Reviews List (Exclude already reviewed sessions)
+  const ssCountMap = new Map();
+  (data.screenshots || []).forEach(ss => {
+    if (ss.sessionId) {
+      ssCountMap.set(ss.sessionId, (ssCountMap.get(ss.sessionId) || 0) + 1);
+    }
+  });
+
   const reviewedSessionIds = new Set(reviews.map(r => r.sessionId));
   const pendingSessions = sessions.filter(s => s.isCompleted && !reviewedSessionIds.has(s.id));
   if (pendingSessions.length > 0) {
     console.log(`${colors.bold}${colors.brightYellow}🔍 Onay Bekleyen Öğrenci Oturumları (${pendingSessions.length}):${colors.reset}`);
     for (const s of pendingSessions) {
-      console.log(`  • ID: ${colors.yellow}${s.id}${colors.reset} | Ders: ${colors.brightWhite}${s.occurrenceId}${colors.reset} | Süre: ${s.durationMin} dk`);
+      const ssCount = ssCountMap.get(s.id) || 0;
+      const ssBadge = ssCount > 0 ? `${colors.green}📸 ${ssCount} Kanıt${colors.reset}` : `${colors.gray}📷 Kanıt Yok${colors.reset}`;
+      console.log(`  • ID: ${colors.yellow}${s.id}${colors.reset} | Ders: ${colors.brightWhite}${s.occurrenceId}${colors.reset} | Süre: ${s.durationMin} dk | ${ssBadge}`);
       if (s.notes) console.log(`    Öğrenci Notu: ${colors.italic}${s.notes}${colors.reset}`);
     }
     console.log('');
