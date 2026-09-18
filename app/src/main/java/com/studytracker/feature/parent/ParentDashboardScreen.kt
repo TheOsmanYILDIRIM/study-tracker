@@ -86,6 +86,7 @@ fun ParentDashboardScreen(
     var selectedTabIndex by remember { mutableStateOf(0) }
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var showCloudSyncDialog by remember { mutableStateOf(false) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
     var showAIQuizDialog by remember { mutableStateOf(false) }
@@ -227,6 +228,13 @@ fun ParentDashboardScreen(
         )
     }
 
+    if (showCloudSyncDialog) {
+        com.studytracker.core.ui.components.CloudSyncDialog(
+            isParent = true,
+            onDismissRequest = { showCloudSyncDialog = false }
+        )
+    }
+
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
     val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
 
@@ -290,17 +298,7 @@ fun ParentDashboardScreen(
                             Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(18.dp))
                         }
                     }
-                    IconButton(onClick = {
-                        scope.launch {
-                            Toast.makeText(context, "☁️ Cloudflare ile senkronize ediliyor...", Toast.LENGTH_SHORT).show()
-                            val res = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
-                            if (res.isSuccess) {
-                                Toast.makeText(context, "✅ ${res.getOrNull()}", Toast.LENGTH_SHORT).show()
-                            } else {
-                                Toast.makeText(context, "⚠️ Bulut Bağlantı Hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
-                            }
-                        }
-                    }) {
+                    IconButton(onClick = { showCloudSyncDialog = true }) {
                         Box(
                             modifier = Modifier
                                 .size(36.dp)

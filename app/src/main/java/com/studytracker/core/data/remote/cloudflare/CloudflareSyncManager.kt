@@ -135,13 +135,18 @@ object CloudflareSyncManager {
                 )
             }
 
+            val quizzes = db.quizDao().getAllQuizzesOnce().map {
+                com.studytracker.core.data.local.repository.toDomain(it)
+            }
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 plan = plan,
                 tasks = tasks,
                 occurrences = occurrences,
                 sessions = sessions,
-                reviews = reviews
+                reviews = reviews,
+                quizzes = quizzes
             )
 
             val payloadJson = json.encodeToString(payload)
@@ -193,7 +198,16 @@ object CloudflareSyncManager {
 
             StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
 
-            Result.success("Bulut Senkronizasyonu Başarılı ($familyCode)")
+            val occCount = cloudData.occurrences.size
+            val taskCount = cloudData.tasks.size
+            val reviewCount = cloudData.reviews.size
+            val summary = if (occCount > 0 || taskCount > 0) {
+                "Bulut Eşitlemesi Başarılı: $occCount Ders, $taskCount Şablon, $reviewCount Onay ($familyCode)"
+            } else {
+                "Bulut Bağlantısı Kuruldu ($familyCode). Henüz buluta yüklenmiş bir plan bulunmuyor."
+            }
+
+            Result.success(summary)
         } catch (e: Exception) {
             Log.e(TAG, "Sync failed: ${e.message}", e)
             Result.failure(e)

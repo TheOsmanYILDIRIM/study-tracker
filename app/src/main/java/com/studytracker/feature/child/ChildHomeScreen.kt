@@ -113,6 +113,7 @@ fun ChildHomeScreen(
 
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
+    var showCloudSyncDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
     
     // Öğrenci Öz Değerlendirme Durumları
@@ -347,8 +348,12 @@ fun ChildHomeScreen(
             },
             containerColor = Color(0xFF10192E)
         )
+    if (showCloudSyncDialog) {
+        com.studytracker.core.ui.components.CloudSyncDialog(
+            isParent = false,
+            onDismissRequest = { showCloudSyncDialog = false }
+        )
     }
-
 
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground(
@@ -413,17 +418,7 @@ fun ChildHomeScreen(
                                 Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(17.dp))
                             }
                         }
-                        IconButton(onClick = {
-                            scope.launch {
-                                Toast.makeText(context, "☁️ Cloudflare ile senkronize ediliyor...", Toast.LENGTH_SHORT).show()
-                                val res = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
-                                if (res.isSuccess) {
-                                    Toast.makeText(context, "✅ ${res.getOrNull()}", Toast.LENGTH_SHORT).show()
-                                } else {
-                                    Toast.makeText(context, "⚠️ Bulut Bağlantı Hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
-                                }
-                            }
-                        }) {
+                        IconButton(onClick = { showCloudSyncDialog = true }) {
                             Box(
                                 modifier = Modifier
                                     .size(34.dp)

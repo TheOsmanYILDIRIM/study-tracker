@@ -19,13 +19,28 @@ class AppPreferences private constructor(context: Context) {
     private val _isNightMode = MutableStateFlow(prefs.getBoolean(KEY_NIGHT_MODE, true))
     val isNightMode: StateFlow<Boolean> = _isNightMode.asStateFlow()
 
-    private val _familyPairCode = MutableStateFlow(prefs.getString(KEY_FAMILY_PAIR_CODE, "ST-2026") ?: "ST-2026")
+    private val _familyPairCode = MutableStateFlow(
+        prefs.getString(KEY_FAMILY_PAIR_CODE, null) ?: generateRandomFamilyCode().also {
+            prefs.edit().putString(KEY_FAMILY_PAIR_CODE, it).apply()
+        }
+    )
     val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
 
     fun setFamilyPairCode(code: String) {
-        val clean = code.trim().uppercase().ifBlank { "ST-2026" }
+        val clean = code.trim().uppercase().ifBlank { generateRandomFamilyCode() }
         prefs.edit().putString(KEY_FAMILY_PAIR_CODE, clean).apply()
         _familyPairCode.value = clean
+    }
+
+    fun generateNewFamilyCode(): String {
+        val newCode = generateRandomFamilyCode()
+        setFamilyPairCode(newCode)
+        return newCode
+    }
+
+    private fun generateRandomFamilyCode(): String {
+        val num = (1000..9999).random()
+        return "ST-$num"
     }
 
     fun setHasCompletedTutorial(completed: Boolean) {
