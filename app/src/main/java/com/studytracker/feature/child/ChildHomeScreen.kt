@@ -557,28 +557,102 @@ fun ChildHomeScreen(
                 )
             }
         ) { padding ->
-            LazyColumn(
+            Box(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
-                    .padding(horizontal = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                // Live Active Session Banner (Shows when session is ongoing or paused)
-                if (isSessionActive) {
-                    item(key = "live_active_banner") {
-                        LiveActiveSessionBanner(
-                            stateManager = stateManager,
-                            onFinishClick = {
-                                studentNoteInput = ""
-                                showFinishNoteDialog = true
-                            }
-                        )
-                    }
-                }
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    // 0. Belirgin Kanıt Alma & Sayaç Hizmeti Açma Kartı
+                    if (!hasOverlayPermission || !hasAccessibilityPermission) {
+                        item(key = "permission_service_alert") {
+                            Surface(
+                                shape = RoundedCornerShape(16.dp),
+                                color = Color(0xFF2A1B0E),
+                                border = BorderStroke(1.5.dp, ZenMoonGold),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clickable { showPermissionGuideDialog = true }
+                            ) {
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(14.dp),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                                ) {
+                                    Box(
+                                        modifier = Modifier
+                                            .size(44.dp)
+                                            .clip(CircleShape)
+                                            .background(ZenMoonGold.copy(alpha = 0.2f))
+                                            .border(1.dp, ZenMoonGold, CircleShape),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Icon(
+                                            imageVector = Icons.Default.Shield,
+                                            contentDescription = null,
+                                            tint = ZenMoonGold,
+                                            modifier = Modifier.size(24.dp)
+                                        )
+                                    }
 
-                // 1. Warning Banner & Tasks for Rejected items
-                if (rejectedTasks.isNotEmpty()) {
+                                    Column(modifier = Modifier.weight(1f)) {
+                                        Text(
+                                            text = "🛡️ Kanıt Alma & Sayaç Hizmeti",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 14.sp,
+                                            color = ZenMoonGold
+                                        )
+                                        Spacer(modifier = Modifier.height(2.dp))
+                                        Text(
+                                            text = "Sürenin sayılması ve ekran kanıtı alınabilmesi için hizmeti açın.",
+                                            fontSize = 11.5.sp,
+                                            color = ZomoTextSecondary,
+                                            lineHeight = 15.sp
+                                        )
+                                    }
+
+                                    Button(
+                                        onClick = { showPermissionGuideDialog = true },
+                                        colors = ButtonDefaults.buttonColors(
+                                            containerColor = ZenMoonGold,
+                                            contentColor = Color(0xFF080D1A)
+                                        ),
+                                        shape = RoundedCornerShape(10.dp),
+                                        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 8.dp)
+                                    ) {
+                                        Text(
+                                            text = "Hizmeti Aç",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 12.sp
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // Live Active Session Banner (Shows when session is ongoing or paused)
+                    if (isSessionActive) {
+                        item(key = "live_active_banner") {
+                            LiveActiveSessionBanner(
+                                stateManager = stateManager,
+                                onFinishClick = {
+                                    studentNoteInput = ""
+                                    showFinishNoteDialog = true
+                                }
+                            )
+                        }
+                    }
+
+                    // 1. Warning Banner & Tasks for Rejected items
+                    if (rejectedTasks.isNotEmpty()) {
                     item(key = "rejected_header") {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
@@ -742,6 +816,13 @@ fun ChildHomeScreen(
 
                 item(key = "bottom_spacer") { Spacer(modifier = Modifier.height(16.dp)) }
             }
+
+            PullToRefreshContainer(
+                state = pullRefreshState,
+                modifier = Modifier.align(Alignment.TopCenter),
+                containerColor = Color(0xFF141F36),
+                contentColor = ZenSkyCyan
+            )
         }
     }
 }

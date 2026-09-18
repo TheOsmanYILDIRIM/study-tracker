@@ -1,16 +1,16 @@
 /**
  * StudyTracker Cloudflare Worker - Family Cloud Sync & Pairing
  * Zero-dependency, KV-backed serverless sync engine.
+ * Multi-tenant, role-aware authoritative plan reconciliation.
  */
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Family-Code',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Family-Code, X-Sender-Role',
   'Content-Type': 'application/json; charset=utf-8'
 };
 
-// In-memory fallback if KV is not bound (for local testing)
 const inMemoryStore = new Map();
 
 async function getStoreData(env, key) {
@@ -21,7 +21,7 @@ async function getStoreData(env, key) {
   return inMemoryStore.get(key) || null;
 }
 
-async function setStoreData(env, key, value, ttlSeconds = 60 * 60 * 24 * 30) {
+async function setStoreData(env, key, value, ttlSeconds = 60 * 60 * 24 * 60) {
   if (env && env.STUDY_SYNC_KV) {
     await env.STUDY_SYNC_KV.put(key, JSON.stringify(value), { expirationTtl: ttlSeconds });
   } else {
@@ -31,7 +31,6 @@ async function setStoreData(env, key, value, ttlSeconds = 60 * 60 * 24 * 30) {
 
 export default {
   async fetch(request, env = {}, ctx) {
-    // Handle CORS preflight
     if (request.method === 'OPTIONS') {
       return new Response(null, { headers: CORS_HEADERS, status: 204 });
     }
@@ -52,7 +51,6 @@ export default {
         const body = await request.json().catch(() => ({}));
         let code = body.familyCode ? body.familyCode.toUpperCase().trim() : '';
         if (!code) {
-          // Generate a clean 6-digit pair code (e.g. ST-7842)
           const randomNum = Math.floor(1000 + Math.random() * 9000);
           code = `ST-${randomNum}`;
         }
@@ -98,11 +96,14 @@ export default {
               quizzes: []
             }), { headers: CORS_HEADERS });
           }
-          return new Response(JSON.stringify({ success: true, ...current }), { headers: CORS_HEADERS });
+          return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
         }
 
         if (request.method === 'POST') {
           const incoming = await request.json();
+          const senderRole = (incoming.senderRole || request.headers.get('X-Sender-Role') || 'PARENT').toUpperCase().trim();
+          const action = (incoming.action || 'SYNC').toUpperCase().trim();
+
           let current = (await getStoreData(env, storeKey)) || {
             familyCode,
             createdAt: Date.now(),
@@ -115,67 +116,131 @@ export default {
             quizzes: []
           };
 
-          // Smart Reconcile logic:
-          // 1. Plan (latest updatedAt wins)
-          if (incoming.plan) {
-            if (!current.plan || (incoming.plan.updatedAt >= (current.plan.updatedAt || ''))) {
+          // A) Tam Sıfırlama (Wipe)
+          if (action === 'WIPE' || (senderRole === 'PARENT' && !incoming.plan && (!incoming.occurrences || incoming.occurrences.length === 0) && (!incoming.tasks || incoming.tasks.length === 0))) {
+            current = {
+              familyCode,
+              createdAt: current.createdAt || Date.now(),
+              updatedAt: Date.now(),
+              plan: null,
+              tasks: [],
+              occurrences: [],
+              sessions: [],
+              reviews: [],
+              quizzes: []
+            };
+            await setStoreData(env, storeKey, current);
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
+          }
+
+          const isParent = senderRole === 'PARENT';
+
+          // 1. Plan & Task Templates (Parent is absolute authority)
+          if (isParent) {
+            if (incoming.plan !== undefined) {
               current.plan = incoming.plan;
             }
+            if (Array.isArray(incoming.tasks)) {
+              current.tasks = incoming.tasks;
+            }
+          } else if (incoming.plan && !current.plan) {
+            current.plan = incoming.plan;
           }
 
-          // 2. Tasks
-          if (Array.isArray(incoming.tasks) && incoming.tasks.length > 0) {
-            const taskMap = new Map((current.tasks || []).map(t => [t.taskId, t]));
-            incoming.tasks.forEach(t => taskMap.set(t.taskId, t));
-            current.tasks = Array.from(taskMap.values());
-          }
+          // 2. Occurrences Mutabakatı
+          const existingOccMap = new Map((current.occurrences || []).map(o => [o.id, o]));
+          
+          if (isParent) {
+            // Parent's occurrences list is authoritative for active week
+            // Any occurrence deleted by Parent in the local plan is removed from KV!
+            const newOccMap = new Map();
+            const incomingKeys = new Set((incoming.occurrences || []).map(o => o.id));
 
-          // 3. Occurrences (Status hierarchy & count merge)
-          if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
-            const occMap = new Map((current.occurrences || []).map(o => [o.id, o]));
-            for (const remote of incoming.occurrences) {
-              const local = occMap.get(remote.id);
+            for (const remote of (incoming.occurrences || [])) {
+              const local = existingOccMap.get(remote.id);
               if (!local) {
-                occMap.set(remote.id, remote);
+                newOccMap.set(remote.id, remote);
               } else {
-                // Merge status
-                let resolvedStatus = remote.status || local.status;
-                if (local.status === 'APPROVED' || remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
-                else if (local.status === 'WAITING_REVIEW' || remote.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
-                else if (local.status === 'ACTIVE' || remote.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
+                // Parent updates structural fields (title, date, targetDurationMin, targetQuestionCount, youtubeUrl, parentNote)
+                // Preserves student completion metrics (status if approved/waiting, completedQuestionCount, completedDurationMin, studentNote)
+                let resolvedStatus = local.status || remote.status;
+                if (local.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                else if (local.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
+                else if (local.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
 
-                occMap.set(remote.id, {
+                newOccMap.set(remote.id, {
                   ...local,
                   ...remote,
+                  subject: remote.subject || local.subject,
+                  date: remote.date || local.date,
+                  targetDurationMin: remote.targetDurationMin || local.targetDurationMin,
+                  targetQuestionCount: remote.targetQuestionCount !== undefined ? remote.targetQuestionCount : local.targetQuestionCount,
+                  youtubeUrl: remote.youtubeUrl !== undefined ? remote.youtubeUrl : local.youtubeUrl,
+                  parentNote: remote.parentNote !== undefined ? remote.parentNote : local.parentNote,
                   status: resolvedStatus,
                   completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
                   completedDurationMin: Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0),
-                  studentNote: remote.studentNote || local.studentNote,
-                  youtubeUrl: remote.youtubeUrl || local.youtubeUrl
+                  studentNote: local.studentNote || remote.studentNote
                 });
               }
             }
-            current.occurrences = Array.from(occMap.values());
+            current.occurrences = Array.from(newOccMap.values());
+          } else {
+            // Child sending study updates
+            // Child ONLY updates progress on existing occurrences; NEVER restores parent-deleted occurrences!
+            for (const remote of (incoming.occurrences || [])) {
+              const existing = existingOccMap.get(remote.id);
+              if (existing) {
+                let resolvedStatus = remote.status || existing.status;
+                if (existing.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                else if (remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                else if (remote.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
+                else if (remote.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
+
+                existingOccMap.set(remote.id, {
+                  ...existing,
+                  status: resolvedStatus,
+                  completedQuestionCount: Math.max(existing.completedQuestionCount || 0, remote.completedQuestionCount || 0),
+                  completedDurationMin: Math.max(existing.completedDurationMin || 0, remote.completedDurationMin || 0),
+                  studentNote: remote.studentNote || existing.studentNote
+                });
+              }
+            }
+            current.occurrences = Array.from(existingOccMap.values());
           }
 
-          // 4. Sessions
+          // 3. Sessions (Student -> Parent)
           if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
             const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
             incoming.sessions.forEach(s => sessMap.set(s.id, s));
             current.sessions = Array.from(sessMap.values());
           }
 
-          // 5. Reviews
+          // 4. Reviews (Parent -> Student)
           if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
             const revMap = new Map((current.reviews || []).map(r => [r.id, r]));
             incoming.reviews.forEach(r => revMap.set(r.id, r));
             current.reviews = Array.from(revMap.values());
           }
 
-          // 6. Quizzes
+          // 5. Quizzes
           if (Array.isArray(incoming.quizzes) && incoming.quizzes.length > 0) {
             const quizMap = new Map((current.quizzes || []).map(q => [q.quizId, q]));
-            incoming.quizzes.forEach(q => quizMap.set(q.quizId, q));
+            incoming.quizzes.forEach(q => {
+              const existing = quizMap.get(q.quizId);
+              if (!existing) {
+                quizMap.set(q.quizId, q);
+              } else {
+                quizMap.set(q.quizId, {
+                  ...existing,
+                  ...q,
+                  completed: existing.completed || q.completed,
+                  score: q.score !== undefined ? q.score : existing.score,
+                  studentAnswers: q.studentAnswers || existing.studentAnswers,
+                  studentNote: q.studentNote || existing.studentNote
+                });
+              }
+            });
             current.quizzes = Array.from(quizMap.values());
           }
 

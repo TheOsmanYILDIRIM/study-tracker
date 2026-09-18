@@ -155,3 +155,8 @@
 - [x] Veli onayı senkronize edildiğinde veya uygulama ilk açıldığında öğrenci ekranında göğe yükselen kuyruklu yıldız animasyonu tetikleyicisi
 - [x] Ana ekrandaki hantal WhatsApp paylaşım kartının kaldırılarak doğrudan `CloudSyncDialog` içine taşınması
 
+## 39. Çift Yönlü Rol Tabanlı Bulut Eşitlemesi, Belirgin İzin Kartı ve Ortalanmış Pull-to-Refresh
+- [x] Cloudflare Worker ve Android istemcisinde `senderRole` ("PARENT" / "CHILD") tabanlı akıllı uzlaştırma (Veli düzenlemelerinin ve silinen derslerin öğrenciye kayıpsız yansıması, öğrenci ilerlemelerinin korunması)
+- [x] Veli masasında silinen derslerin buluttan ve yerel veritabanından kalıcı olarak silinmesi, ilgili `TaskTemplateEntity`'nin otomatik temizlenmesi
+- [x] Öğrenci Masasında (`ChildHomeScreen`) izinler kapalıyken en üstte beliren şık, dikkat çekici `"🛡️ Kanıt Alma & Sayaç Hizmeti"` kartı ve `"Hizmeti Aç"` butonu
+- [x] Hem Veli hem Öğrenci masasında `PullToRefreshContainer` bileşeninin TopBar altında tam yatay merkezde pürüzsüz görünümünün sağlanması

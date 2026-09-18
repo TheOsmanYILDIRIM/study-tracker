@@ -20,6 +20,9 @@ interface TaskTemplateDao {
     @Query("DELETE FROM task_templates WHERE taskId = :taskId")
     suspend fun deleteTask(taskId: String)
 
+    @Query("SELECT * FROM task_templates WHERE taskId = :taskId LIMIT 1")
+    suspend fun getTaskById(taskId: String): TaskTemplateEntity?
+
     @Query("DELETE FROM task_templates")
     suspend fun clearTasks()
 }

@@ -142,6 +142,8 @@ object CloudflareSyncManager {
 
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
+                senderRole = com.studytracker.BuildConfig.APP_ROLE,
+                action = "SYNC",
                 plan = plan,
                 tasks = tasks,
                 occurrences = occurrences,
@@ -187,7 +189,7 @@ object CloudflareSyncManager {
                 formatVersion = 1,
                 packageType = com.studytracker.core.data.package_exchange.PackageType.PLAN_DISTRIBUTION,
                 familyCode = familyCode,
-                senderRole = "CLOUD",
+                senderRole = "PARENT",
                 title = "Cloudflare KV Sync ($familyCode)",
                 plan = cloudData.plan,
                 tasks = cloudData.tasks,

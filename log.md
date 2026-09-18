@@ -293,13 +293,17 @@
   - Kullanıcı listeyi aşağı çektiğinde dönen modern yükleme göstergesi ile Cloudflare senkronizasyonu anında tetiklenir.
 - **Açılışta ve Kalkan Butonunda Kullanıcı Dostu İzin Rehberi (`PermissionGuideDialog`):**
   - Açılışta kullanıcıyı doğrudan ayarlara atmak yerine, izinlerin amacını (Yüzen Sayaç & Ekran Görüntüsü Kanıtı) anlatan şık modal tasarlandı.
-  - İzin durumu anında kontrol edilir ve tek tıkla ilgili sistem ayarları sayfası açılır.
-- **İlerleme Sıfırlama vs Fabrika Sıfırlama (Temiz Sayfa):**
-  - TopBar sıfırlama diyaloguna iki seçenek eklendi: "Sadece İlerlemeyi Sıfırla" (plan korunur) ve "Komple Temizle / Fabrika Sıfırla" (`clearAllData` - tüm görevler, testler ve bulut verisi sıfırlanır).
-- **Veli Onayında Göğe Yükselen Yıldız Tetikleyicisi:**
-  - Öğrenci uygulamayı açtığında veya senkronizasyon yapıldığında veli tarafından yeni onaylanan dersler algılanarak takımyıldızına doğru yükselen altın meteor animasyonu tetiklenir.
-- **WhatsApp ve Dosya Paylaşımının Bulut Menüsüne Taşınması:**
-  - Ana ekranlardaki hantal paylaşım kartları kaldırılarak `CloudSyncDialog` içerisine "📦 WhatsApp & Dosya (.studyplan) Paylaşımı" sekmesi olarak dahil edildi.
+## [2026-09-18] 39. Çift Yönlü Rol Tabanlı Bulut Eşitlemesi, Belirgin İzin Kartı ve Ortalanmış Pull-to-Refresh
+- **Cloudflare Worker & İstemci Rol Tabanlı Akıllı Senkronizasyon:**
+  - `SharedFamilySyncPayload` ve Cloudflare KV motoruna `senderRole` ("PARENT" / "CHILD") mimarisi entegre edildi.
+  - Veli tarafından yapılan tüm ders düzenlemeleri (isim, video linki, süre, soru hedefi, veli yönergesi) ve silinen dersler bulutta otoriter olarak güncellenir.
+  - Öğrenci cihazı eşitleme yaptığında velinin güncel ders programını indirir, silinen dersleri yerelden temizler; öğrencinin tamamladığı çalışmalar ve kanıtlar kayıpsız korunur.
+- **Veli Masasında Silinen Derslerin Tam Temizliği:**
+  - Veli bir dersi sildiğinde hem `occurrences` tablosundan hem de ilişkili `task_templates` tablosundan kaldırılır ve buluttan da kalıcı olarak silinir.
+- **Öğrenci Masasında Belirgin `"🛡️ Kanıt Alma & Sayaç Hizmeti"` Kartı:**
+  - Öğrenci Masasında (`ChildHomeScreen`) izinler kapalıyken en üstte dikkat çekici altın rengi uyarı kartı ve `"Hizmeti Aç"` butonu eklendi; öğrencinin hizmeti açması kolaylaştırıldı.
+- **Ortalanmış ve Pürüzsüz Pull-to-Refresh:**
+  - Hem Veli hem Öğrenci masasında `PullToRefreshContainer` bileşeni TopBar altında tam yatay merkezde pürüzsüz görünecek şekilde hizalandı.
 
 
 

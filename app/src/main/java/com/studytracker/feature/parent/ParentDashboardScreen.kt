@@ -118,13 +118,31 @@ fun ParentDashboardScreen(
             onSaveTask = { updated ->
                 scope.launch {
                     occurrenceRepo.updateOccurrence(updated)
+                    val taskEntity = db.taskTemplateDao().getTaskById(updated.taskId)
+                    if (taskEntity != null) {
+                        db.taskTemplateDao().upsertTasks(listOf(
+                            taskEntity.copy(
+                                title = updated.title,
+                                plannedMinutes = updated.plannedMinutes,
+                                youtubeUrl = updated.youtubeUrl,
+                                targetCount = updated.targetCount
+                            )
+                        ))
+                    }
                     CloudflareSyncManager.syncWithCloud(context)
                     Toast.makeText(context, "✅ '${updated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()
                 }
             },
             onDeleteTask = { key ->
                 scope.launch {
+                    val occ = occurrenceRepo.getOccurrenceByKeyOnce(key)
                     occurrenceRepo.deleteOccurrence(key)
+                    if (occ != null) {
+                        val remainingOccs = db.occurrenceDao().getAllOccurrencesOnce()
+                        if (remainingOccs.none { it.taskId == occ.taskId }) {
+                            db.taskTemplateDao().deleteTask(occ.taskId)
+                        }
+                    }
                     CloudflareSyncManager.syncWithCloud(context)
                     Toast.makeText(context, "🗑️ Ders programdan ve buluttan silindi", Toast.LENGTH_SHORT).show()
                 }
@@ -413,13 +431,15 @@ fun ParentDashboardScreen(
                     }
                 }
             )
-        }
     ) { padding ->
-        Column(
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
         ) {
+            Column(
+                modifier = Modifier.fillMaxSize()
+            ) {
             // Navigation Tabs
             Box(
                 modifier = Modifier
@@ -1200,10 +1220,11 @@ fun ParentDashboardScreen(
 
         PullToRefreshContainer(
             state = pullRefreshState,
-            modifier = Modifier.align(Alignment.TopCenter)
+            modifier = Modifier.align(Alignment.TopCenter),
+            containerColor = Color(0xFF141F36),
+            contentColor = ZenForestGreen
         )
     }
-}
 }
 
 @Composable
