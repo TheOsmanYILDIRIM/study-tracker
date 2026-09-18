@@ -39,11 +39,11 @@ enum class PackageType {
 @Serializable
 data class StudyTrackerPackage(
     val formatVersion: Int = 1,
-    val packageType: PackageType,
-    val familyCode: String,
+    val packageType: PackageType = PackageType.PLAN_DISTRIBUTION,
+    val familyCode: String = "",
     val createdAt: Long = System.currentTimeMillis(),
-    val senderRole: String, // "PARENT" or "CHILD"
-    val title: String,
+    val senderRole: String = "APP", // "PARENT" or "CHILD" or "CLOUD"
+    val title: String = "StudyTracker Data Package",
     val note: String? = null,
     val plan: LocalPlanSyncDto? = null,
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),

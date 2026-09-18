@@ -176,7 +176,11 @@ object CloudflareSyncManager {
             // 3. Buluttan dönen birleştirilmiş verileri yerel Room DB'ye aktar
             val cloudData = syncRes.data
             val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
+                formatVersion = 1,
+                packageType = com.studytracker.core.data.package_exchange.PackageType.PLAN_DISTRIBUTION,
                 familyCode = familyCode,
+                senderRole = "CLOUD",
+                title = "Cloudflare KV Sync ($familyCode)",
                 plan = cloudData.plan,
                 tasks = cloudData.tasks,
                 occurrences = cloudData.occurrences,
