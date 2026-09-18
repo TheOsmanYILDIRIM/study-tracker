@@ -414,6 +414,27 @@ fun ChildHomeScreen(
                         }
                         IconButton(onClick = {
                             scope.launch {
+                                Toast.makeText(context, "☁️ Cloudflare ile senkronize ediliyor...", Toast.LENGTH_SHORT).show()
+                                val res = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                                if (res.isSuccess) {
+                                    Toast.makeText(context, "✅ ${res.getOrNull()}", Toast.LENGTH_SHORT).show()
+                                } else {
+                                    Toast.makeText(context, "⚠️ Bulut Bağlantı Hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                }
+                            }
+                        }) {
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(ZenSkyCyanContainer, ZenPillShape)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
+                            }
+                        }
+                        IconButton(onClick = {
+                            scope.launch {
                                 val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
                                 com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
                                     context,

@@ -272,4 +272,14 @@
 - **Birim Testleri:**
   - `StudyPackageExchangeTest` güncellendi ve `youtubeUrl` alanının `.studyplan` JSON serileştirmesinde korunduğu doğrulandı.
 
+## [2026-09-18] 36. Cloudflare Workers Serverless Bulut Senkronizasyonu & KV Entegrasyonu
+- **Cloudflare Edge Worker & KV Dağıtımı (`studytracker-sync.osman13241429.workers.dev`):**
+  - Sıfır soğuk açılış gecikmeli, REST JSON tabanlı `worker.js` scripti Cloudflare hesabına (`988ce42497272fb90cec4edd3c76d5a2`) yüklendi.
+  - Kalıcı depolama için `STUDY_SYNC_KV` (`f756993219034064afcc35f1bfef2f78`) isim alanı bağlandı.
+- **Node.js Simülasyon Testi:**
+  - `test-sync.js` ile Veli ➔ Öğrenci plan yükleme, indirme, ders bitirme raporu gönderme ve veli onay akışı canlı uçtan uca test edildi (%100 Başarılı).
+- **Android İstemci Entegrasyonu (`CloudflareSyncManager`):**
+  - Standart HTTP `POST /api/sync?code=ST-XXXX` ile yerel Room DB değişikliklerini buluta basan ve buluttan dönen en güncel verileri akıllıca birleştiren `CloudflareSyncManager.kt` oluşturuldu.
+  - `ChildHomeScreen` ve `ParentDashboardScreen` TopBar'larına tek dokunuşla çalışan **"☁️ Cloudflare Bulut Senkronizasyonu"** butonu entegre edildi.
+
 

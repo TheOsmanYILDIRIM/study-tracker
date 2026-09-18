@@ -136,3 +136,7 @@
 ## 35. Paket İçe Aktarmada Video Linki Eşleme Düzeltmesi & Görev Bitiminde Göğe Yükselen Yıldız Animasyonu
 - [x] `.studyplan` paket alışverişinde `RemoteOccurrenceSyncDto` modeline `youtubeUrl` alanının eklenmesi, içe/dışa aktarmada eksiksiz Room DB eşlemesi ve akıllı video linki çözümü
 - [x] Görev tamamlandığında göğe yükselerek takımyıldızını parlatan meteor & süpernova halkası animasyonunun tamamlanması
+
+## 36. Cloudflare Workers Serverless Bulut Senkronizasyonu & KV Entegrasyonu
+- [x] Cloudflare Worker (`studytracker-sync.osman13241429.workers.dev`) ve `STUDY_SYNC_KV` canlı dağıtımı ve Node.js uçtan uca testi
+- [x] Android `CloudflareSyncManager` istemcisi, `ChildHomeScreen` ve `ParentDashboardScreen` tek tık bulut senkronizasyon butonları
