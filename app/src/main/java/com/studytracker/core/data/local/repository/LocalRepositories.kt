@@ -146,6 +146,18 @@ class LocalOccurrenceRepositoryImpl(
         db.occurrenceDao().upsertOccurrences(occurrences.map { it.toEntity() })
     }
 
+    override suspend fun updateOccurrence(occurrence: Occurrence) {
+        db.occurrenceDao().updateOccurrence(occurrence.toEntity())
+    }
+
+    override suspend fun deleteOccurrence(occurrenceKey: String) {
+        db.occurrenceDao().deleteOccurrence(occurrenceKey)
+    }
+
+    override suspend fun deleteOccurrencesByTaskId(taskId: String) {
+        db.occurrenceDao().deleteOccurrencesByTaskId(taskId)
+    }
+
     override suspend fun updateStatus(occurrenceKey: String, status: OccurrenceStatus) {
         db.occurrenceDao().updateStatus(occurrenceKey, status)
     }

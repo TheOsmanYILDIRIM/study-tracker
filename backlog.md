@@ -146,3 +146,12 @@
 - [x] Veli ve Öğrenci ekranlarında `CloudSyncDialog` etkileşimli bulut eşleme penceresi (Kodu Kopyala, Yeni Kod Üret, Kod Girerek Eşleş, Eşitle)
 - [x] DTO varsayılan değerleri ve `coerceInputValues = true` ile Kotlin Serialization eksik alan çökme koruması
 - [x] Testlerin (`Quiz`) Cloudflare senkronizasyonuna tam dahil edilmesi ve `toDomain` uzantı metodunun bağlanması
+
+## 38. Görev Düzenleme, Pull-to-Refresh, İzin Rehberi, Fabrika Sıfırlama ve Onay Yıldızı Tetikleyicisi
+- [x] Veli Masasında her ders ve görev için detaylı düzenleme (`EditTaskDialog`) ve anında bulut senkronizasyonu
+- [x] Hem Veli hem Öğrenci masasında yukarıdan aşağı kaydırarak yenileme (`Pull-to-Refresh` / `PullToRefreshContainer`)
+- [x] Açılışta ve kalkan butonunda kullanıcı dostu izin rehberi (`PermissionGuideDialog` - Yüzen Sayaç ve Ekran Görüntüsü Erişilebilirliği)
+- [x] İlerleme sıfırlama yanında tüm görev, test ve geçmişi temizleyen "Fabrika Sıfırlama / Temiz Sayfa" (`clearAllData`) seçeneği
+- [x] Veli onayı senkronize edildiğinde veya uygulama ilk açıldığında öğrenci ekranında göğe yükselen kuyruklu yıldız animasyonu tetikleyicisi
+- [x] Ana ekrandaki hantal WhatsApp paylaşım kartının kaldırılarak doğrudan `CloudSyncDialog` içine taşınması
+

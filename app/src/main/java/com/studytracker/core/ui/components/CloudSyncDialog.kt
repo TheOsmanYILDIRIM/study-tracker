@@ -1,13 +1,18 @@
 package com.studytracker.core.ui.components
 
+import android.net.Uri
 import android.widget.Toast
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
@@ -24,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.studytracker.core.data.local.prefs.AppPreferences
+import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -44,6 +50,25 @@ fun CloudSyncDialog(
     var syncResultText by remember { mutableStateOf<String?>(null) }
     var syncResultSuccess by remember { mutableStateOf<Boolean?>(null) }
 
+    val filePickerLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            scope.launch {
+                val res = StudyPackageExchangeManager.importPackageFromUri(context, uri)
+                res.onSuccess { msg ->
+                    syncResultSuccess = true
+                    syncResultText = "✅ $msg"
+                    Toast.makeText(context, "✅ $msg", Toast.LENGTH_LONG).show()
+                }.onFailure { err ->
+                    syncResultSuccess = false
+                    syncResultText = "❌ İçe aktarma hatası: ${err.message}"
+                    Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
+    }
+
     Dialog(onDismissRequest = { if (!isSyncing) onDismissRequest() }) {
         Surface(
             shape = RoundedCornerShape(24.dp),
@@ -51,10 +76,12 @@ fun CloudSyncDialog(
             border = BorderStroke(1.dp, ZenNightBorder),
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 8.dp)
+                .padding(horizontal = 4.dp)
         ) {
             Column(
-                modifier = Modifier.padding(20.dp),
+                modifier = Modifier
+                    .padding(20.dp)
+                    .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(14.dp)
             ) {
                 // Header
@@ -78,13 +105,13 @@ fun CloudSyncDialog(
                     }
                     Column {
                         Text(
-                            text = if (isParent) "☁️ Aile Bulut Köprüsü" else "☁️ Ebeveyn Bulut Eşleşmesi",
+                            text = if (isParent) "☁️ Aile Bulut & Paylaşım" else "☁️ Ebeveyn Bulut & Paylaşım",
                             fontSize = 17.sp,
                             fontWeight = FontWeight.Bold,
                             color = Color.White
                         )
                         Text(
-                            text = "Sunucusuz, anonim ve çift yönlü senkronizasyon",
+                            text = "Sunucusuz bulut eşitleme ve WhatsApp köprüsü",
                             fontSize = 11.5.sp,
                             color = ZomoTextSecondary
                         )
@@ -93,9 +120,9 @@ fun CloudSyncDialog(
 
                 Divider(color = ZenPaperBorder.copy(alpha = 0.3f), thickness = 0.8.dp)
 
-                // Family Code Section
+                // 1. Cloudflare Sync Section
                 Text(
-                    text = if (isParent) "1. Aile Eşleşme Kodunuz" else "1. Ebeveyn Aile Kodu",
+                    text = if (isParent) "1. Aile Eşleşme Kodunuz (Cloudflare)" else "1. Ebeveyn Aile Kodu (Cloudflare)",
                     fontSize = 13.sp,
                     fontWeight = FontWeight.SemiBold,
                     color = Color.White
@@ -167,17 +194,108 @@ fun CloudSyncDialog(
                     }
                 }
 
-                // Info note
-                Text(
-                    text = if (isParent) {
-                        "💡 Bu kodu öğrenci cihazındaki 'Ebeveyn Aile Kodu' alanına girin. Plan, dersler ve onaylar yalnızca bu iki cihaz arasında paylaşılır."
-                    } else {
-                        "💡 Ebeveyn masasında üretilen 6 haneli kodu buraya girerek 'Bağlan & Senkronize Et' butonuna dokunun."
+                // Cloud Sync Trigger Button
+                Button(
+                    onClick = {
+                        if (codeInput.isBlank()) {
+                            Toast.makeText(context, "Lütfen bir Aile Kodu girin", Toast.LENGTH_SHORT).show()
+                            return@Button
+                        }
+                        prefs.setFamilyPairCode(codeInput)
+                        isSyncing = true
+                        syncResultText = null
+                        syncResultSuccess = null
+
+                        scope.launch {
+                            val res = CloudflareSyncManager.syncWithCloud(context)
+                            isSyncing = false
+                            if (res.isSuccess) {
+                                syncResultSuccess = true
+                                syncResultText = res.getOrNull() ?: "Senkronizasyon Başarılı"
+                                Toast.makeText(context, "✅ Senkronizasyon Başarılı!", Toast.LENGTH_SHORT).show()
+                            } else {
+                                syncResultSuccess = false
+                                syncResultText = "Hata: ${res.exceptionOrNull()?.message}"
+                            }
+                        }
                     },
-                    fontSize = 11.5.sp,
-                    color = ZomoTextSecondary,
-                    lineHeight = 16.sp
+                    enabled = !isSyncing,
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = ZenSkyCyan,
+                        contentColor = Color(0xFF080D1A)
+                    )
+                ) {
+                    if (isSyncing) {
+                        CircularProgressIndicator(color = Color(0xFF080D1A), modifier = Modifier.size(18.dp), strokeWidth = 2.dp)
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text("Bulutla Eşitleniyor...", fontSize = 13.sp, fontWeight = FontWeight.Bold)
+                    } else {
+                        Icon(Icons.Default.CloudSync, contentDescription = null, modifier = Modifier.size(18.dp))
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text("☁️ Şimdi Bulutla Eşitle", fontSize = 13.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
+
+                Divider(color = ZenPaperBorder.copy(alpha = 0.3f), thickness = 0.8.dp)
+
+                // 2. WhatsApp & File Share Section
+                Text(
+                    text = "2. Alternatif: WhatsApp & Dosya Köprüsü (.studyplan)",
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.SemiBold,
+                    color = Color.White
                 )
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    OutlinedButton(
+                        onClick = {
+                            scope.launch {
+                                try {
+                                    val pkgFile = if (isParent) {
+                                        StudyPackageExchangeManager.exportPlanPackage(context)
+                                    } else {
+                                        StudyPackageExchangeManager.exportDailyReportPackage(context)
+                                    }
+                                    val title = if (isParent) "Haftalık Çalışma Planı" else "Günlük Çalışma Raporu"
+                                    StudyPackageExchangeManager.sharePackageFile(context, pkgFile, title)
+                                } catch (e: Exception) {
+                                    Toast.makeText(context, "Paylaşım hatası: ${e.message}", Toast.LENGTH_SHORT).show()
+                                }
+                            }
+                        },
+                        modifier = Modifier.weight(1f),
+                        shape = RoundedCornerShape(12.dp),
+                        border = BorderStroke(1.dp, Color(0xFF25D366)),
+                        colors = ButtonDefaults.outlinedButtonColors(
+                            contentColor = Color(0xFF25D366)
+                        )
+                    ) {
+                        Icon(Icons.Default.Share, contentDescription = null, modifier = Modifier.size(16.dp))
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text(if (isParent) "Planı Paylaş" else "Raporu Paylaş", fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                    }
+
+                    OutlinedButton(
+                        onClick = {
+                            filePickerLauncher.launch("*/*")
+                        },
+                        modifier = Modifier.weight(1f),
+                        shape = RoundedCornerShape(12.dp),
+                        border = BorderStroke(1.dp, ZenMoonGold),
+                        colors = ButtonDefaults.outlinedButtonColors(
+                            contentColor = ZenMoonGold
+                        )
+                    ) {
+                        Icon(Icons.Default.FileOpen, contentDescription = null, modifier = Modifier.size(16.dp))
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text("Dosya Yükle", fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
 
                 // Result Box
                 if (syncResultText != null) {
@@ -210,63 +328,15 @@ fun CloudSyncDialog(
                     }
                 }
 
-                // Actions
-                Row(
+                // Close Button
+                OutlinedButton(
+                    onClick = onDismissRequest,
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp)
+                    shape = RoundedCornerShape(12.dp),
+                    border = BorderStroke(1.dp, ZenPaperBorder),
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = ZomoTextSecondary)
                 ) {
-                    OutlinedButton(
-                        onClick = onDismissRequest,
-                        modifier = Modifier.weight(1f),
-                        shape = RoundedCornerShape(12.dp),
-                        border = BorderStroke(1.dp, ZenPaperBorder),
-                        colors = ButtonDefaults.outlinedButtonColors(contentColor = ZomoTextSecondary)
-                    ) {
-                        Text("Kapat", fontSize = 13.sp)
-                    }
-
-                    Button(
-                        onClick = {
-                            if (codeInput.isBlank()) {
-                                Toast.makeText(context, "Lütfen bir Aile Kodu girin", Toast.LENGTH_SHORT).show()
-                                return@Button
-                            }
-                            prefs.setFamilyPairCode(codeInput)
-                            isSyncing = true
-                            syncResultText = null
-                            syncResultSuccess = null
-
-                            scope.launch {
-                                val res = CloudflareSyncManager.syncWithCloud(context)
-                                isSyncing = false
-                                if (res.isSuccess) {
-                                    syncResultSuccess = true
-                                    syncResultText = res.getOrNull() ?: "Senkronizasyon Başarılı"
-                                    Toast.makeText(context, "✅ Senkronizasyon Başarılı!", Toast.LENGTH_SHORT).show()
-                                } else {
-                                    syncResultSuccess = false
-                                    syncResultText = "Hata: ${res.exceptionOrNull()?.message}"
-                                }
-                            }
-                        },
-                        enabled = !isSyncing,
-                        modifier = Modifier.weight(1.5f),
-                        shape = RoundedCornerShape(12.dp),
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = ZenSkyCyan,
-                            contentColor = Color(0xFF080D1A)
-                        )
-                    ) {
-                        if (isSyncing) {
-                            CircularProgressIndicator(color = Color(0xFF080D1A), modifier = Modifier.size(18.dp), strokeWidth = 2.dp)
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text("Eşitleniyor...", fontSize = 13.sp, fontWeight = FontWeight.Bold)
-                        } else {
-                            Icon(Icons.Default.Sync, contentDescription = null, modifier = Modifier.size(17.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text("Şimdi Eşitle", fontSize = 13.sp, fontWeight = FontWeight.Bold)
-                        }
-                    }
+                    Text("Kapat", fontSize = 13.sp)
                 }
             }
         }

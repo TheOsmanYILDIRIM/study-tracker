@@ -43,7 +43,13 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
+import com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
 import com.studytracker.core.domain.model.Quiz
+import com.studytracker.core.ui.components.CloudSyncDialog
+import com.studytracker.core.ui.components.EditTaskDialog
+import androidx.compose.material3.pulltorefresh.PullToRefreshContainer
+import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 
 private val DAY_FILTERS = listOf(
     "ALL" to "Tüm Hafta",
@@ -87,23 +93,43 @@ fun ParentDashboardScreen(
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showCloudSyncDialog by remember { mutableStateOf(false) }
+    var taskToEdit by remember { mutableStateOf<Occurrence?>(null) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
     var rejectNoteInput by remember { mutableStateOf("") }
     var showAIQuizDialog by remember { mutableStateOf(false) }
 
-    val filePickerLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
-        contract = androidx.activity.result.contract.ActivityResultContracts.GetContent()
-    ) { uri ->
-        if (uri != null) {
-            scope.launch {
-                val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.importPackageFromUri(context, uri)
-                res.onSuccess { msg ->
-                    android.widget.Toast.makeText(context, "✅ $msg", android.widget.Toast.LENGTH_LONG).show()
-                }.onFailure { err ->
-                    android.widget.Toast.makeText(context, "❌ Yükleme hatası: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
+    // Auto-sync on startup
+    LaunchedEffect(Unit) {
+        CloudflareSyncManager.syncWithCloud(context)
+    }
+
+    val pullRefreshState = rememberPullToRefreshState()
+    if (pullRefreshState.isRefreshing) {
+        LaunchedEffect(true) {
+            CloudflareSyncManager.syncWithCloud(context)
+            pullRefreshState.endRefresh()
+        }
+    }
+
+    if (taskToEdit != null) {
+        EditTaskDialog(
+            task = taskToEdit!!,
+            onDismissRequest = { taskToEdit = null },
+            onSaveTask = { updated ->
+                scope.launch {
+                    occurrenceRepo.updateOccurrence(updated)
+                    CloudflareSyncManager.syncWithCloud(context)
+                    Toast.makeText(context, "✅ '${updated.title}' güncellendi ve bulutla eşitlendi", Toast.LENGTH_SHORT).show()
+                }
+            },
+            onDeleteTask = { key ->
+                scope.launch {
+                    occurrenceRepo.deleteOccurrence(key)
+                    CloudflareSyncManager.syncWithCloud(context)
+                    Toast.makeText(context, "🗑️ Ders programdan ve buluttan silindi", Toast.LENGTH_SHORT).show()
                 }
             }
-        }
+        )
     }
 
     if (showResetConfirmDialog) {
@@ -115,34 +141,71 @@ fun ParentDashboardScreen(
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral)
-                    Text("İlerlemeyi Sıfırla?", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
+                    Text("Sıfırlama & Temizleme", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
                 }
             },
             text = {
-                Text(
-                    "Tüm öğrenci ders tamamlama kayıtları, onay bekleyen oturumlar ve ekran görüntüleri sıfırlanacaktır. Haftalık plan şablonunuz korunur.\n\nEmin misiniz?",
-                    color = ZomoTextSecondary,
-                    fontSize = 13.sp
-                )
-            },
-            confirmButton = {
-                Button(
-                    onClick = {
-                        showResetConfirmDialog = false
-                        scope.launch {
-                            val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context, activePlan?.weekId)
-                            res.onSuccess { msg ->
-                                Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
-                            }.onFailure { err ->
-                                Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(
+                        "Lütfen yapmak istediğiniz işlemi seçin:",
+                        color = ZomoTextSecondary,
+                        fontSize = 13.sp
+                    )
+
+                    Surface(
+                        shape = RoundedCornerShape(12.dp),
+                        color = Color(0xFF182642),
+                        border = BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                showResetConfirmDialog = false
+                                scope.launch {
+                                    val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context, activePlan?.weekId)
+                                    CloudflareSyncManager.syncWithCloud(context)
+                                    res.onSuccess { msg ->
+                                        Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
                             }
+                    ) {
+                        Column(modifier = Modifier.padding(12.dp)) {
+                            Text("🔄 Sadece Öğrenci İlerlemesini Sıfırla", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenMoonGold)
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text("Ders programı ve testler korunur. Sadece tamamlanan dersler, süreler ve onaylar sıfırlanır.", fontSize = 11.sp, color = ZomoTextSecondary)
                         }
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
-                ) {
-                    Text("Evet, Sıfırla", fontWeight = FontWeight.Bold)
+                    }
+
+                    Surface(
+                        shape = RoundedCornerShape(12.dp),
+                        color = ZenRoseCoral.copy(alpha = 0.12f),
+                        border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f)),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                showResetConfirmDialog = false
+                                scope.launch {
+                                    val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.clearAllData(context)
+                                    CloudflareSyncManager.syncWithCloud(context)
+                                    res.onSuccess { msg ->
+                                        Toast.makeText(context, "🗑️ $msg", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
+                            }
+                    ) {
+                        Column(modifier = Modifier.padding(12.dp)) {
+                            Text("🗑️ Tüm Planı & Testleri Komple Sil (Temiz Sayfa)", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenRoseCoral)
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text("Tüm ders planları, görevler, testler ve geçmiş kayıtlar tamamen silinir. Bulut sıfırlanır.", fontSize = 11.sp, color = ZomoTextSecondary)
+                        }
+                    }
                 }
             },
+            confirmButton = {},
             dismissButton = {
                 TextButton(onClick = { showResetConfirmDialog = false }) {
                     Text("Vazgeç", color = ZomoTextSecondary)
@@ -254,8 +317,13 @@ fun ParentDashboardScreen(
         allOccurrences.filter { it.type == TaskKind.WEEKLY }
     }
 
-    Scaffold(
-        containerColor = ZenNightCanvas,
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .nestedScroll(pullRefreshState.nestedScrollConnection)
+    ) {
+        Scaffold(
+            containerColor = ZenNightCanvas,
         topBar = {
             TopAppBar(
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -544,91 +612,6 @@ fun ParentDashboardScreen(
                                 Icon(Icons.Default.Quiz, contentDescription = null, modifier = Modifier.size(16.dp))
                                 Spacer(modifier = Modifier.width(4.dp))
                                 Text("AI Test & Soru", fontWeight = FontWeight.Bold, fontSize = 12.sp)
-                            }
-                        }
-                    }
-
-                    // 📦 WhatsApp / .studyplan Paket Değişim Kartı
-                    item {
-                        Card(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clip(ZenCardShape),
-                            colors = CardDefaults.cardColors(containerColor = Color(0x90101E36)),
-                            border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenSkyCyan.copy(alpha = 0.5f))
-                        ) {
-                            Column(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(14.dp),
-                                verticalArrangement = Arrangement.spacedBy(10.dp)
-                            ) {
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    Icon(Icons.Default.Share, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(20.dp))
-                                    Column {
-                                        Text(
-                                            "📦 WhatsApp & Dosya Köprüsü (.studyplan)",
-                                            fontWeight = FontWeight.Bold,
-                                            fontSize = 13.sp,
-                                            color = Color.White
-                                        )
-                                        Text(
-                                            "İnternetsiz veya WhatsApp üzerinden tek tıkla plan ve rapor aktarımı",
-                                            fontSize = 10.5.sp,
-                                            color = ZomoTextMuted
-                                        )
-                                    }
-                                }
-
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    Button(
-                                        onClick = {
-                                            activePlan?.let { _ ->
-                                                scope.launch {
-                                                    val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportPlanPackage(context)
-                                                    if (file != null) {
-                                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
-                                                            context,
-                                                            file,
-                                                            "Haftalık Ders Planını Paylaş"
-                                                        )
-                                                    } else {
-                                                        android.widget.Toast.makeText(context, "Aktif plan bulunamadı!", android.widget.Toast.LENGTH_SHORT).show()
-                                                    }
-                                                }
-                                            } ?: run {
-                                                android.widget.Toast.makeText(context, "Lütfen önce bir plan oluşturun!", android.widget.Toast.LENGTH_SHORT).show()
-                                            }
-                                        },
-                                        modifier = Modifier.weight(1f).height(42.dp),
-                                        shape = ZenPillShape,
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
-                                    ) {
-                                        Icon(Icons.Default.Send, contentDescription = null, tint = Color(0xFF070B14), modifier = Modifier.size(15.dp))
-                                        Spacer(modifier = Modifier.width(4.dp))
-                                        Text("Planı Gönder", color = Color(0xFF070B14), fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
-                                    }
-
-                                    Button(
-                                        onClick = {
-                                            filePickerLauncher.launch("*/*")
-                                        },
-                                        modifier = Modifier.weight(1f).height(42.dp),
-                                        shape = ZenPillShape,
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyanContainer),
-                                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.5f))
-                                    ) {
-                                        Icon(Icons.Default.FolderOpen, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(15.dp))
-                                        Spacer(modifier = Modifier.width(4.dp))
-                                        Text("Rapor Yükle", color = ZenSkyCyan, fontWeight = FontWeight.Bold, fontSize = 11.5.sp)
-                                    }
-                                }
                             }
                         }
                     }
@@ -1176,7 +1159,7 @@ fun ParentDashboardScreen(
                             }
 
                             items(weeklyOccurrences, key = { "wk_" + it.occurrenceKey }) { occ ->
-                                OccurrenceAdminCard(occurrence = occ)
+                                OccurrenceAdminCard(occurrence = occ, onEdit = { taskToEdit = occ })
                             }
                         }
 
@@ -1205,7 +1188,7 @@ fun ParentDashboardScreen(
                             }
                         } else {
                             items(filteredDailyOccurrences, key = { "dl_" + it.occurrenceKey }) { occ ->
-                                OccurrenceAdminCard(occurrence = occ)
+                                OccurrenceAdminCard(occurrence = occ, onEdit = { taskToEdit = occ })
                             }
                         }
 
@@ -1214,12 +1197,18 @@ fun ParentDashboardScreen(
                 }
             }
         }
+
+        PullToRefreshContainer(
+            state = pullRefreshState,
+            modifier = Modifier.align(Alignment.TopCenter)
+        )
     }
 }
 
 @Composable
 fun OccurrenceAdminCard(
     occurrence: Occurrence,
+    onEdit: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val badgeText: String
@@ -1228,22 +1217,22 @@ fun OccurrenceAdminCard(
 
     when (occurrence.status) {
         OccurrenceStatus.APPROVED -> {
-            badgeText = "✅ Öğrenci Yaptı & Onaylandı"
+            badgeText = "✅ Onaylandı"
             badgeBg = ZenForestContainer
             badgeFg = ZenForestGreen
         }
         OccurrenceStatus.WAITING_REVIEW -> {
-            badgeText = "⏳ Öğrenci Tamamladı (Onay Bekliyor)"
+            badgeText = "⏳ Onay Bekliyor"
             badgeBg = ZenMoonGoldContainer
             badgeFg = ZenMoonGold
         }
         OccurrenceStatus.ACTIVE -> {
-            badgeText = "⚡ Öğrenci Şu An Çalışıyor"
+            badgeText = "⚡ Çalışıyor"
             badgeBg = ZenSkyCyanContainer
             badgeFg = ZenSkyCyan
         }
         else -> {
-            badgeText = "⚪ Öğrenci Henüz Yapmadı"
+            badgeText = "⚪ Yapılmadı"
             badgeBg = Color(0x15FFFFFF)
             badgeFg = ZomoTextSecondary
         }
@@ -1258,6 +1247,7 @@ fun OccurrenceAdminCard(
             }
             .background(ZenPaperCard)
             .border(1.dp, if (occurrence.warning) ZenRoseCoral.copy(alpha = 0.6f) else ZenPaperBorder, ZenCardShape)
+            .clickable { onEdit() }
             .padding(12.dp)
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -1301,19 +1291,41 @@ fun OccurrenceAdminCard(
                     )
                 }
 
-                Box(
-                    modifier = Modifier
-                        .clip(ZenPillShape)
-                        .background(badgeBg)
-                        .border(1.dp, badgeFg.copy(alpha = 0.4f), ZenPillShape)
-                        .padding(horizontal = 8.dp, vertical = 3.dp)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
-                    Text(
-                        text = badgeText,
-                        color = badgeFg,
-                        fontSize = 9.5.sp,
-                        fontWeight = FontWeight.Bold
-                    )
+                    Box(
+                        modifier = Modifier
+                            .clip(ZenPillShape)
+                            .background(badgeBg)
+                            .border(1.dp, badgeFg.copy(alpha = 0.4f), ZenPillShape)
+                            .padding(horizontal = 7.dp, vertical = 3.dp)
+                    ) {
+                        Text(
+                            text = badgeText,
+                            color = badgeFg,
+                            fontSize = 9.5.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+
+                    Box(
+                        modifier = Modifier
+                            .size(30.dp)
+                            .clip(CircleShape)
+                            .background(Color(0xFF182642))
+                            .border(0.8.dp, ZenPaperBorder, CircleShape)
+                            .clickable { onEdit() },
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Edit,
+                            contentDescription = "Düzenle",
+                            tint = ZenSkyCyan,
+                            modifier = Modifier.size(15.dp)
+                        )
+                    }
                 }
             }
 

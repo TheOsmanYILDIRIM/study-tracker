@@ -283,4 +283,23 @@
   - DTO modellerine varsayılan değerler eklendi, `coerceInputValues = true` aktif edilerek geriye dönük uyumluluk ve sıfır çökme garantilendi.
   - Sınav/Test (`Quiz`) verileri de bulut senkronizasyonuna tam dahil edildi.
 
+## [2026-09-18] 38. Görev Düzenleme, Pull-to-Refresh, İzin Rehberi, Fabrika Sıfırlama ve Onay Yıldızı Tetikleyicisi
+- **Veli Masasında Görev Düzenleme ve Silme (`EditTaskDialog`):**
+  - Veli Haftalık Plan görünümündeki her görev kartına (`OccurrenceAdminCard`) "✏️ Düzenle" butonu eklendi.
+  - Veli ders başlığı, tahmini süre, gün (Pzt-Paz), YouTube video linki, hedef soru sayısı ve veli notunu düzenleyebilir ya da görevi silebilir.
+  - Değişiklikler anında yerel Room veritabanına ve Cloudflare bulutuna yazılır; öğrenci cihazıyla senkronize edilir.
+- **Yukarıdan Aşağı Kaydırarak Yenileme (`Pull-to-Refresh`):**
+  - Hem Veli hem Öğrenci masasına Jetpack Compose Material 3 `PullToRefreshContainer` entegre edildi.
+  - Kullanıcı listeyi aşağı çektiğinde dönen modern yükleme göstergesi ile Cloudflare senkronizasyonu anında tetiklenir.
+- **Açılışta ve Kalkan Butonunda Kullanıcı Dostu İzin Rehberi (`PermissionGuideDialog`):**
+  - Açılışta kullanıcıyı doğrudan ayarlara atmak yerine, izinlerin amacını (Yüzen Sayaç & Ekran Görüntüsü Kanıtı) anlatan şık modal tasarlandı.
+  - İzin durumu anında kontrol edilir ve tek tıkla ilgili sistem ayarları sayfası açılır.
+- **İlerleme Sıfırlama vs Fabrika Sıfırlama (Temiz Sayfa):**
+  - TopBar sıfırlama diyaloguna iki seçenek eklendi: "Sadece İlerlemeyi Sıfırla" (plan korunur) ve "Komple Temizle / Fabrika Sıfırla" (`clearAllData` - tüm görevler, testler ve bulut verisi sıfırlanır).
+- **Veli Onayında Göğe Yükselen Yıldız Tetikleyicisi:**
+  - Öğrenci uygulamayı açtığında veya senkronizasyon yapıldığında veli tarafından yeni onaylanan dersler algılanarak takımyıldızına doğru yükselen altın meteor animasyonu tetiklenir.
+- **WhatsApp ve Dosya Paylaşımının Bulut Menüsüne Taşınması:**
+  - Ana ekranlardaki hantal paylaşım kartları kaldırılarak `CloudSyncDialog` içerisine "📦 WhatsApp & Dosya (.studyplan) Paylaşımı" sekmesi olarak dahil edildi.
+
+
 

@@ -17,6 +17,9 @@ interface TaskTemplateDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertTasks(tasks: List<TaskTemplateEntity>)
 
+    @Query("DELETE FROM task_templates WHERE taskId = :taskId")
+    suspend fun deleteTask(taskId: String)
+
     @Query("DELETE FROM task_templates")
     suspend fun clearTasks()
 }
@@ -43,6 +46,15 @@ interface OccurrenceDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertOccurrences(occurrences: List<OccurrenceEntity>)
+
+    @Update
+    suspend fun updateOccurrence(occurrence: OccurrenceEntity)
+
+    @Query("DELETE FROM occurrences WHERE occurrenceKey = :key")
+    suspend fun deleteOccurrence(key: String)
+
+    @Query("DELETE FROM occurrences WHERE taskId = :taskId")
+    suspend fun deleteOccurrencesByTaskId(taskId: String)
 
     @Query("UPDATE occurrences SET status = :status WHERE occurrenceKey = :key")
     suspend fun updateStatus(key: String, status: OccurrenceStatus)

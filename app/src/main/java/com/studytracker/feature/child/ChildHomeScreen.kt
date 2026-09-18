@@ -52,7 +52,16 @@ import kotlinx.coroutines.launch
 
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
+import com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
 import com.studytracker.core.domain.model.Quiz
+import com.studytracker.core.service.StudyAccessibilityService
+import com.studytracker.core.ui.components.CloudSyncDialog
+import com.studytracker.core.ui.components.PermissionGuideDialog
+import android.provider.Settings
+import android.os.Build
+import androidx.compose.material3.pulltorefresh.PullToRefreshContainer
+import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(16.dp)
@@ -114,13 +123,56 @@ fun ChildHomeScreen(
     var localFlyingStarTrigger by remember { mutableStateOf(0L) }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showCloudSyncDialog by remember { mutableStateOf(false) }
+    var showPermissionGuideDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
     
+    val hasOverlayPermission = remember {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) Settings.canDrawOverlays(context) else true
+    }
+    val hasAccessibilityPermission = remember {
+        StudyAccessibilityService.isAccessibilityServiceEnabled(context)
+    }
+
+    // Auto-sync on startup
+    LaunchedEffect(Unit) {
+        CloudflareSyncManager.syncWithCloud(context)
+    }
+
+    val pullRefreshState = rememberPullToRefreshState()
+    if (pullRefreshState.isRefreshing) {
+        LaunchedEffect(true) {
+            CloudflareSyncManager.syncWithCloud(context)
+            pullRefreshState.endRefresh()
+        }
+    }
+
+    // Detect newly approved tasks by parent and trigger the shooting star ascent!
+    var previousApprovedKeys by remember { 
+        mutableStateOf(occurrences.filter { it.status == OccurrenceStatus.APPROVED }.map { it.occurrenceKey }.toSet()) 
+    }
+    
+    LaunchedEffect(occurrences) {
+        val currentApproved = occurrences.filter { it.status == OccurrenceStatus.APPROVED }
+        val newlyApproved = currentApproved.filter { it.occurrenceKey !in previousApprovedKeys }
+        if (newlyApproved.isNotEmpty()) {
+            localFlyingStarTrigger = System.currentTimeMillis()
+            val taskName = newlyApproved.first().title
+            Toast.makeText(context, "🌟 Tebrikler! '$taskName' velin tarafından onaylandı!", Toast.LENGTH_LONG).show()
+        }
+        previousApprovedKeys = currentApproved.map { it.occurrenceKey }.toSet()
+    }
+
     // Öğrenci Öz Değerlendirme Durumları
     var evalUnderstanding by remember { mutableStateOf("Harika") }
     var evalFocus by remember { mutableStateOf("%100 Odak") }
     var evalQuestionsCount by remember { mutableStateOf("") }
     var studentNoteInput by remember { mutableStateOf("") }
+
+    if (showPermissionGuideDialog) {
+        PermissionGuideDialog(
+            onDismissRequest = { showPermissionGuideDialog = false }
+        )
+    }
 
     if (showResetConfirmDialog) {
         AlertDialog(
@@ -131,37 +183,75 @@ fun ChildHomeScreen(
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral)
-                    Text("İlerlemeyi Sıfırla?", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
+                    Text("Sıfırlama Seçenekleri", fontWeight = FontWeight.Bold, color = ZomoTextPrimary)
                 }
             },
             text = {
-                Text(
-                    "Tüm tamamlanan dersler, oturum süreleri ve yıldız puanları sıfırlanacaktır. Haftalık planınız korunur.\n\nEmin misiniz?",
-                    color = ZomoTextSecondary,
-                    fontSize = 13.sp
-                )
-            },
-            confirmButton = {
-                Button(
-                    onClick = {
-                        showResetConfirmDialog = false
-                        scope.launch {
-                            if (isSessionActive) {
-                                stateManager.cancelSession()
+                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(
+                        "Lütfen yapmak istediğiniz sıfırlama işlemini seçin:",
+                        color = ZomoTextSecondary,
+                        fontSize = 13.sp
+                    )
+
+                    Surface(
+                        shape = RoundedCornerShape(12.dp),
+                        color = Color(0xFF182642),
+                        border = BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                showResetConfirmDialog = false
+                                scope.launch {
+                                    if (isSessionActive) {
+                                        stateManager.cancelSession()
+                                    }
+                                    val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context)
+                                    res.onSuccess { msg ->
+                                        Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
                             }
-                            val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context)
-                            res.onSuccess { msg ->
-                                android.widget.Toast.makeText(context, "🔄 $msg", android.widget.Toast.LENGTH_SHORT).show()
-                            }.onFailure { err ->
-                                android.widget.Toast.makeText(context, "Hata: ${err.message}", android.widget.Toast.LENGTH_SHORT).show()
-                            }
+                    ) {
+                        Column(modifier = Modifier.padding(12.dp)) {
+                            Text("🔄 Sadece Çalışma Sürelerini & Puanları Sıfırla", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenMoonGold)
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text("Ders programı korunur. Sadece tamamlanan dersler sıfırlanır.", fontSize = 11.sp, color = ZomoTextSecondary)
                         }
-                    },
-                    colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
-                ) {
-                    Text("Evet, Sıfırla", fontWeight = FontWeight.Bold)
+                    }
+
+                    Surface(
+                        shape = RoundedCornerShape(12.dp),
+                        color = ZenRoseCoral.copy(alpha = 0.12f),
+                        border = BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.4f)),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                showResetConfirmDialog = false
+                                scope.launch {
+                                    if (isSessionActive) {
+                                        stateManager.cancelSession()
+                                    }
+                                    val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.clearAllData(context)
+                                    res.onSuccess { msg ->
+                                        Toast.makeText(context, "🗑️ $msg", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
+                            }
+                    ) {
+                        Column(modifier = Modifier.padding(12.dp)) {
+                            Text("🗑️ Tüm Planı & Dersleri Sıfırla (Temiz Masa)", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenRoseCoral)
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text("Tüm dersler, testler ve kayıtlar tamamen temizlenir.", fontSize = 11.sp, color = ZomoTextSecondary)
+                        }
+                    }
                 }
             },
+            confirmButton = {},
             dismissButton = {
                 TextButton(onClick = { showResetConfirmDialog = false }) {
                     Text("Vazgeç", color = ZomoTextSecondary)
@@ -357,7 +447,11 @@ fun ChildHomeScreen(
         )
     }
 
-    Box(modifier = Modifier.fillMaxSize()) {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .nestedScroll(pullRefreshState.nestedScrollConnection)
+    ) {
         ZenParallaxBackground(
             completedTasksCount = completedTasksCount,
             totalTasksCount = totalTasksCount,
@@ -409,6 +503,23 @@ fun ChildHomeScreen(
                         }
                     },
                     actions = {
+                        IconButton(onClick = { showPermissionGuideDialog = true }) {
+                            val allGranted = hasOverlayPermission && hasAccessibilityPermission
+                            Box(
+                                modifier = Modifier
+                                    .size(34.dp)
+                                    .background(if (allGranted) ZenForestGreen.copy(alpha = 0.2f) else ZenMoonGold.copy(alpha = 0.25f), ZenPillShape)
+                                    .border(1.dp, if (allGranted) ZenForestGreen.copy(alpha = 0.5f) else ZenMoonGold, ZenPillShape),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    Icons.Default.Shield,
+                                    contentDescription = "İzin Rehberi",
+                                    tint = if (allGranted) ZenForestGreen else ZenMoonGold,
+                                    modifier = Modifier.size(17.dp)
+                                )
+                            }
+                        }
                         IconButton(onClick = { showResetConfirmDialog = true }) {
                             Box(
                                 modifier = Modifier
@@ -429,26 +540,6 @@ fun ChildHomeScreen(
                                 contentAlignment = Alignment.Center
                             ) {
                                 Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
-                            }
-                        }
-                        IconButton(onClick = {
-                            scope.launch {
-                                val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
-                                com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
-                                    context,
-                                    file,
-                                    "Çalışma Raporunu ve Kanıtları Veliye Gönder"
-                                )
-                            }
-                        }) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenForestGreen.copy(alpha = 0.25f), ZenPillShape)
-                                    .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(Icons.Default.Send, contentDescription = "Raporu Gönder", tint = ZenForestGreen, modifier = Modifier.size(17.dp))
                             }
                         }
                         IconButton(onClick = onOpenTutorial) {
@@ -483,84 +574,6 @@ fun ChildHomeScreen(
                                 showFinishNoteDialog = true
                             }
                         )
-                    }
-                }
-
-                // 📦 Günlük Çalışma Raporunu ve Kanıtları Veliye Gönder Kartı (WhatsApp / .studyplan)
-                item(key = "share_daily_report_card") {
-                    Card(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clip(ZenCardShape),
-                        colors = CardDefaults.cardColors(containerColor = Color(0x900D1F38)),
-                        border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenForestGreen.copy(alpha = 0.6f))
-                    ) {
-                        Column(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(14.dp),
-                            verticalArrangement = Arrangement.spacedBy(10.dp)
-                        ) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(8.dp)
-                            ) {
-                                Box(
-                                    modifier = Modifier
-                                        .size(32.dp)
-                                        .background(ZenForestGreen.copy(alpha = 0.2f), ZenPillShape)
-                                        .border(1.dp, ZenForestGreen.copy(alpha = 0.6f), ZenPillShape),
-                                    contentAlignment = Alignment.Center
-                                ) {
-                                    Icon(Icons.Default.Send, contentDescription = null, tint = ZenForestGreen, modifier = Modifier.size(16.dp))
-                                }
-                                Column {
-                                    Text(
-                                        "📦 Günlük Rapor & Kanıt Paketi (.studyplan)",
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 13.sp,
-                                        color = Color.White
-                                    )
-                                    Text(
-                                        "Tamamlanan dersleri ve ekran görüntülerini veliye gönder",
-                                        fontSize = 10.5.sp,
-                                        color = ZomoTextMuted
-                                    )
-                                }
-                            }
-
-                            Button(
-                                onClick = {
-                                    scope.launch {
-                                        val file = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.exportDailyReportPackage(context)
-                                        com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.sharePackageFile(
-                                            context,
-                                            file,
-                                            "Çalışma Raporunu ve Kanıtları Veliye Gönder"
-                                        )
-                                    }
-                                },
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(44.dp),
-                                shape = ZenPillShape,
-                                colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen)
-                            ) {
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    Icon(Icons.Default.Share, contentDescription = null, tint = Color(0xFF042010), modifier = Modifier.size(16.dp))
-                                    Text(
-                                        "Raporu WhatsApp / Dosya İle Gönder",
-                                        fontWeight = FontWeight.Bold,
-                                        fontSize = 12.sp,
-                                        color = Color(0xFF042010)
-                                    )
-                                }
-                            }
-                        }
                     }
                 }
 

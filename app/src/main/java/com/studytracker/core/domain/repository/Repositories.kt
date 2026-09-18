@@ -28,6 +28,9 @@ interface OccurrenceRepository {
     fun getOccurrenceByKey(key: String): Flow<Occurrence?>
     suspend fun getOccurrenceByKeyOnce(key: String): Occurrence?
     suspend fun upsertOccurrences(occurrences: List<Occurrence>)
+    suspend fun updateOccurrence(occurrence: Occurrence)
+    suspend fun deleteOccurrence(occurrenceKey: String)
+    suspend fun deleteOccurrencesByTaskId(taskId: String)
     suspend fun updateStatus(occurrenceKey: String, status: OccurrenceStatus)
     suspend fun updateStudentNote(occurrenceKey: String, note: String?)
     suspend fun setWarning(occurrenceKey: String, warning: Boolean, note: String?)

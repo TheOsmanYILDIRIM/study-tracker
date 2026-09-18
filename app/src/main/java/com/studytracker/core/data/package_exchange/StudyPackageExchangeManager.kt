@@ -400,7 +400,8 @@ object StudyPackageExchangeManager {
                 })
             }
 
-            // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions)
+            // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions & reflect parent edits/deletions)
+            val isParentPlan = pkg.senderRole == "PARENT" || pkg.packageType == PackageType.PLAN_DISTRIBUTION
             if (pkg.occurrences.isNotEmpty()) {
                 val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
                 val taskTemplateMap = pkg.tasks.associateBy { it.taskId }
@@ -424,32 +425,37 @@ object StudyPackageExchangeManager {
                     }
 
                     val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
-                    val targetCount = local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null
+                    val targetCount = if (isParentPlan && remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null)
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
 
                     val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
                     val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
 
-                    // Resolve video URL with thorough fallbacks (from remote occurrence, local occurrence, pkg.tasks template, or subject/notes regex)
+                    // Resolve video URL with thorough fallbacks
                     val templateTask = taskTemplateMap[remote.planId] ?: (local?.taskId?.let { taskTemplateMap[it] })
                     val extractedFromText = urlRegex.find(remote.subject)?.value 
                         ?: urlRegex.find(remote.parentNote)?.value 
                         ?: remote.studentNote?.let { urlRegex.find(it)?.value }
 
-                    val resolvedYoutubeUrl = remote.youtubeUrl
-                        ?: local?.youtubeUrl
-                        ?: templateTask?.youtubeUrl
-                        ?: extractedFromText
+                    val resolvedYoutubeUrl = if (isParentPlan && !remote.youtubeUrl.isNullOrBlank()) {
+                        remote.youtubeUrl
+                    } else {
+                        remote.youtubeUrl ?: local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText
+                    }
+
+                    val finalTitle = if (isParentPlan && remote.subject.isNotBlank()) remote.subject else (local?.title ?: remote.subject)
+                    val finalPlannedMinutes = if (isParentPlan && remote.targetDurationMin > 0) remote.targetDurationMin else ((local?.plannedMinutes ?: 0).takeIf { it > 0 } ?: remote.targetDurationMin)
+                    val finalDate = if (isParentPlan && remote.date.isNotBlank()) remote.date else (local?.date ?: remote.date.ifEmpty { null })
 
                     OccurrenceEntity(
                         occurrenceKey = remote.id,
                         taskId = if (!local?.taskId.isNullOrBlank()) local!!.taskId else remote.planId,
                         type = local?.type ?: try { TaskKind.valueOf(remote.topic) } catch (_: Exception) { TaskKind.DAILY },
-                        date = local?.date ?: remote.date.ifEmpty { null },
+                        date = finalDate,
                         weekId = local?.weekId ?: remote.weekId.ifEmpty { null },
-                        title = if (!local?.title.isNullOrBlank()) local!!.title else remote.subject,
-                        plannedMinutes = if ((local?.plannedMinutes ?: 0) > 0) local!!.plannedMinutes else remote.targetDurationMin,
+                        title = finalTitle,
+                        plannedMinutes = finalPlannedMinutes,
                         youtubeUrl = resolvedYoutubeUrl,
                         reviewRequired = true,
                         status = finalStatus,
@@ -462,7 +468,22 @@ object StudyPackageExchangeManager {
                         studentNote = remote.studentNote ?: local?.studentNote
                     )
                 }
+
+                // If this is a parent plan sync, remove any local occurrences that were deleted by parent
+                if (isParentPlan) {
+                    val remoteKeys = pkg.occurrences.map { it.id }.toSet()
+                    val allLocal = db.occurrenceDao().getAllOccurrencesOnce()
+                    allLocal.filter { it.occurrenceKey !in remoteKeys && (pkg.plan?.weekId == null || it.weekId == pkg.plan?.weekId) }
+                        .forEach { db.occurrenceDao().deleteOccurrence(it.occurrenceKey) }
+                }
+
                 db.occurrenceDao().upsertOccurrences(mergedOccs)
+            } else if (isParentPlan && pkg.plan == null && pkg.tasks.isEmpty()) {
+                // Parent wiped everything
+                db.occurrenceDao().clearOccurrences()
+                db.planDao().clearActivePlan()
+                db.taskTemplateDao().clearTasks()
+                db.quizDao().clearQuizzes()
             }
 
             // 4. Reconcile Sessions (Seceresini tutar)
@@ -614,6 +635,29 @@ object StudyPackageExchangeManager {
             }
 
             "Tüm çalışma ve kanıt verileri sıfırlandı."
+        }
+    }
+
+    /**
+     * Wipe all plans, tasks, occurrences, sessions, screenshots, reviews and quizzes (Komple Sıfırla & Temiz Sayfa).
+     */
+    suspend fun clearAllData(context: Context): Result<String> = runCatching {
+        withContext(Dispatchers.IO) {
+            val db = AppDatabase.getInstance(context)
+            db.planDao().clearActivePlan()
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.sessionDao().clearSessions()
+            db.screenshotDao().clearScreenshots()
+            db.reviewDao().clearReviews()
+            db.quizDao().clearQuizzes()
+
+            val screenshotsDir = File(context.filesDir, "study_screenshots")
+            if (screenshotsDir.exists()) {
+                screenshotsDir.listFiles()?.forEach { it.delete() }
+            }
+
+            "Tüm ders planları, görevler, testler ve geçmiş kayıtlar tamamen temizlendi."
         }
     }
 }
