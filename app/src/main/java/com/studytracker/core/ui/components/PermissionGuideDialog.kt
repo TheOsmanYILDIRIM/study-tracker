@@ -37,14 +37,16 @@ fun PermissionGuideDialog(
     val lifecycleOwner = LocalLifecycleOwner.current
 
     var hasOverlayPermission by remember { mutableStateOf(checkOverlayPermission(context)) }
-    var hasAccessibilityPermission by remember { mutableStateOf(StudyAccessibilityService.isAccessibilityServiceEnabled(context)) }
+    var hasAccessibilityPermission by remember {
+        mutableStateOf(StudyAccessibilityService.isAccessibilityServiceEnabled(context) || StudyAccessibilityService.isServiceRunning())
+    }
 
     // Re-check permissions when user comes back from Settings
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
                 hasOverlayPermission = checkOverlayPermission(context)
-                hasAccessibilityPermission = StudyAccessibilityService.isAccessibilityServiceEnabled(context)
+                hasAccessibilityPermission = StudyAccessibilityService.isAccessibilityServiceEnabled(context) || StudyAccessibilityService.isServiceRunning()
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)

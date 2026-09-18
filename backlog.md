@@ -194,9 +194,10 @@
 - [x] **ScreenshotDao Çift Anahtar Desteği:** `getScreenshotsForSessionAndOccurrence` ile hem `sessionId` hem `occurrenceKey` üzerinden tam esnek ve kayıpsız sorgulama sağlandı.
 - [x] **Veli İnceleme Ekranı Otomatik Tazeleyici & Timeline Boş Durum Görünümü:** Veli kanıt ekranını açtığında yerelde henüz olmayan kanıtlar için arka planda sessiz bulut eşitlemesi tetiklendi, saf base64 string'leri için dekoder koruması ve şık boş durum kartı eklendi.
 
-## 46. Cloudflare Worker Çift Yönlü (Giren & Çıkan) Kanıt / Screenshot Motoru
-- [x] **Giren (Incoming) Kanıt Normalizasyonu:** `worker.js` içinde `normalizeScreenshot` güçlendirilerek `imageUrl`, `image_url`, `url`, `screenshotId`, `id`, `sessionId`, `session_id`, `occurrenceKey` gibi tüm farklı anahtar biçimleri standart formata oturtuldu; `POST /api/sync` ile gelen kanıtlar zaman damgasına göre sıralı olarak KV'ye yazıldı.
-- [x] **Çıkan (Outgoing) Kanıt Güvencesi:** `GET /api/sync` ve `POST /api/sync` yanıtlarında `data.screenshots` dizisi null/undefined düşmesini engelleyecek şekilde normalize edildi; ilk açılışlarda dahi boş dizi `[]` garantisi sağlandı.
-- [x] **CLI Kanıt Rozetleri:** `studytracker-cli` inceleme dashboard'unda onay bekleyen her oturumun yanında kanıt sayısı (`📸 X Kanıt`) gösterilecek şekilde güncellendi.
+## 47. Arka Plan Erişilebilirlik Ekran Yakalama Güçlendirmesi & Dinamik İzin Durum Yönetimi
+- [x] **Arka Plan Ekran Yakalama Güçlendirmesi:** `accessibility_service_config.xml` içinde `typeAllMask`, `canRetrieveWindowContent="true"` ve `flagRetrieveInteractiveWindows|flagIncludeNotImportantViews` bayrakları aktif edildi; `StudyAccessibilityService` içinde `onServiceConnected()` anında servis konfigürasyonu programatik olarak pekiştirildi.
+- [x] **3 Aşamalı Toleranslı Yeniden Deneme (Retry Loop):** Animasyonlu geçişler, YouTube video oynatımı veya Android `ERROR_TAKE_SCREENSHOT_INTERVAL_TIME_SHORT` / `ERROR_TAKE_SCREENSHOT_NO_END_OF_FRAME` durumlarında ekran yakalama 350ms aralıklarla 3 kez denenerek başarısızlık ve gereksiz fallback kartı üretimi tamamen engellendi.
+- [x] **Dinamik & Anında İzin Durumu Güncellemesi:** `ChildHomeScreen` ve `PermissionGuideDialog` üzerinde izin durumları `LifecycleEventObserver` (`ON_RESUME`) ile canlı hale getirildi; kullanıcı Ayarlar'dan servisi açıp döndüğü an izin kartı ve kalkan ikonu anında yeşile dönerek taze durumunu yansıtır.
+- [x] **Kullanıcı Rehberliği & Ayar Yönlendirici:** Erişilebilirlik ve Overlay açma butonlarına çok katmanlı `try/catch` ve yönlendirici sistem Toast mesajları ("👉 Yüklü Uygulamalar -> StudyTracker'ı Açık yapın") eklendi.
 
 

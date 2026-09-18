@@ -1,5 +1,11 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-19] Tamamlandı: Arka Plan Erişilebilirlik Ekran Yakalama Güçlendirmesi & Dinamik İzin Durum Yönetimi
+- **Arka Plan Ekran Yakalama İyileştirmesi:** `accessibility_service_config.xml` ve `StudyAccessibilityService.kt` güncellenerek `typeAllMask`, `canRetrieveWindowContent="true"`, `FLAG_RETRIEVE_INTERACTIVE_WINDOWS` ve `FLAG_INCLUDE_NOT_IMPORTANT_VIEWS` etkinleştirildi.
+- **3 Kademeli Retry Motoru:** `takeScreenshot` çağrısı `withTimeoutOrNull(2500L)` ve 3 denemeli döngü ile sarıldı. Harici uygulamalara geçiş (YouTube, test uygulamaları) esnasında oluşan kare senkronizasyonu gecikmelerinde ekran görüntüsünün başarıyla yakalanması sağlandı.
+- **Canlı İzin Durumu Senkronizasyonu:** `ChildHomeScreen` ve `PermissionGuideDialog` içerisindeki izin değişkenleri `LifecycleEventObserver` ile `ON_RESUME` olayına bağlandı; kullanıcı Ayarlar'dan izinleri aktif edip uygulamaya döndüğü an üstteki izin kartı anında kaybolur veya onay durumunu gösterir.
+- **Yönlendirici Toast Bildirimleri:** Erişilebilirlik ayarları açılırken kullanıcıya doğrudan "Yüklü Uygulamalar / İndirilen Servisler -> StudyTracker'ı Açık yapın" yönlendirmesi sunuldu.
+
 ### [2026-09-18] Tamamlandı: AnkiDroid Tarzı Çakışma Yönetimi (SyncConflictDialog) ve Sıfır Yan Etkili PATCH_TASK
 - **AnkiDroid Tarzı Çakışma Penceresi (`SyncConflictDialog`):** Veli uygulaması açıldığında veya yenilendiğinde, buluttaki plan ile yerel telefon planı arasında uyuşmazlık tespit edilirse otomatik ezmek yerine açık bir diyalog penceresi açılır. Kaynak rozetleri ("Kaynak: CLI / Bilgisayar", "Kaynak: Veli Masası"), hafta numarası, ders adetleri, son güncelleme saati ve örnek dersler gösterilir.
 - **3 Çözüm Stratejisi:** `☁️ Buluttan İndir (Önerilen)`, `🔀 Akıllı Birleştir (Onayları Koru)`, `📱 Bu Cihazdakini Buluta Zorla Yükle`.

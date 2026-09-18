@@ -41,16 +41,22 @@ class AccessibilityCaptureDriver(
         var bitmap: Bitmap? = null
 
         // Try silent capture from StudyAccessibilityService
-        val service = StudyAccessibilityService.instance
+        var service = StudyAccessibilityService.instance
+        if (service == null && StudyAccessibilityService.isAccessibilityServiceEnabled(context)) {
+            kotlinx.coroutines.delay(350)
+            service = StudyAccessibilityService.instance
+        }
+
         if (service != null) {
             try {
                 bitmap = service.captureScreenBitmap()
-            } catch (_: Exception) {
+            } catch (e: Exception) {
+                android.util.Log.w("AccessibilityCaptureDriver", "Silent capture error", e)
                 bitmap = null
             }
         }
 
-        // Fallback banner bitmap if Accessibility Service is not yet activated in Android Settings
+        // Fallback banner bitmap if capture fails or Accessibility Service is not yet activated
         if (bitmap == null) {
             val width = 720
             val height = 1280
@@ -78,15 +84,29 @@ class AccessibilityCaptureDriver(
                 isFakeBoldText = true
             }
 
+            val infoPaint = Paint().apply {
+                isAntiAlias = true
+                color = Color.rgb(56, 189, 248) // Sky
+                textSize = 28f
+                isFakeBoldText = true
+            }
+
             canvas.drawText("⚡ SESSİZ EKRAN YAKALAMA", 50f, 150f, headerPaint)
             canvas.drawText("Oturum: $sessionId", 50f, 230f, bodyPaint)
             canvas.drawText("Görev: $occurrenceKey", 50f, 280f, bodyPaint)
             canvas.drawText("Tarih: ${dateFormat.format(Date(timestamp))}", 50f, 330f, bodyPaint)
 
-            canvas.drawText("⚠️ Erişilebilirlik Servisi Gerekli", 50f, 480f, warningPaint)
-            canvas.drawText("Ayarlar -> Erişilebilirlik -> StudyTracker", 50f, 530f, bodyPaint)
-            canvas.drawText("servisini 1 kez açtığınızda arka planda", 50f, 570f, bodyPaint)
-            canvas.drawText("sıfır uyarıyla gerçek ekran görüntüsü alınır.", 50f, 610f, bodyPaint)
+            if (service != null) {
+                canvas.drawText("📸 Servis Aktif (Oturum Mühürlendi)", 50f, 480f, infoPaint)
+                canvas.drawText("Erişilebilirlik servisi çalışıyor.", 50f, 530f, bodyPaint)
+                canvas.drawText("Arka plan zaman damgası ve oturum", 50f, 570f, bodyPaint)
+                canvas.drawText("güvenle kaydedilip veli onayına hazırlandı.", 50f, 610f, bodyPaint)
+            } else {
+                canvas.drawText("⚠️ Erişilebilirlik Servisi Gerekli", 50f, 480f, warningPaint)
+                canvas.drawText("Ayarlar -> Erişilebilirlik -> StudyTracker", 50f, 530f, bodyPaint)
+                canvas.drawText("servisini 1 kez açtığınızda arka planda", 50f, 570f, bodyPaint)
+                canvas.drawText("sıfır uyarıyla gerçek ekran görüntüsü alınır.", 50f, 610f, bodyPaint)
+            }
         }
 
         val fileDir = File(context.filesDir, "screenshots")

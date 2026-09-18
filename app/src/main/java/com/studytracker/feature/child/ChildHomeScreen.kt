@@ -62,6 +62,9 @@ import android.os.Build
 import androidx.compose.material3.pulltorefresh.PullToRefreshContainer
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 
 private val ZenPillShape = CircleShape
 private val ZenCardShape = RoundedCornerShape(16.dp)
@@ -125,12 +128,38 @@ fun ChildHomeScreen(
     var showCloudSyncDialog by remember { mutableStateOf(false) }
     var showPermissionGuideDialog by remember { mutableStateOf(false) }
     var showFinishNoteDialog by remember { mutableStateOf(false) }
-    
-    val hasOverlayPermission = remember {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) Settings.canDrawOverlays(context) else true
+
+    val lifecycleOwner = LocalLifecycleOwner.current
+    var hasOverlayPermission by remember {
+        mutableStateOf(
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) Settings.canDrawOverlays(context) else true
+        )
     }
-    val hasAccessibilityPermission = remember {
-        StudyAccessibilityService.isAccessibilityServiceEnabled(context)
+    var hasAccessibilityPermission by remember {
+        mutableStateOf(
+            StudyAccessibilityService.isAccessibilityServiceEnabled(context) || StudyAccessibilityService.isServiceRunning()
+        )
+    }
+
+    fun refreshPermissions() {
+        hasOverlayPermission = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Settings.canDrawOverlays(context)
+        } else true
+        hasAccessibilityPermission = StudyAccessibilityService.isAccessibilityServiceEnabled(context) ||
+                StudyAccessibilityService.isServiceRunning()
+    }
+
+    // Auto-refresh permission status whenever returning from Android Settings
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                refreshPermissions()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
     }
 
     // Auto-sync on startup
@@ -170,7 +199,10 @@ fun ChildHomeScreen(
 
     if (showPermissionGuideDialog) {
         PermissionGuideDialog(
-            onDismissRequest = { showPermissionGuideDialog = false }
+            onDismissRequest = {
+                showPermissionGuideDialog = false
+                refreshPermissions()
+            }
         )
     }
 
