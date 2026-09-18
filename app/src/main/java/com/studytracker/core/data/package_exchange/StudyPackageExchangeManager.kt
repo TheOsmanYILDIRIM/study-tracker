@@ -144,7 +144,8 @@ object StudyPackageExchangeManager {
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
                 orderIndex = 0,
-                studentNote = it.studentNote
+                studentNote = it.studentNote,
+                youtubeUrl = it.youtubeUrl
             )
         }
 
@@ -193,7 +194,8 @@ object StudyPackageExchangeManager {
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
                 orderIndex = 0,
-                studentNote = it.studentNote
+                studentNote = it.studentNote,
+                youtubeUrl = it.youtubeUrl
             )
         }
 
@@ -276,7 +278,9 @@ object StudyPackageExchangeManager {
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
-                orderIndex = 0
+                orderIndex = 0,
+                studentNote = it.studentNote,
+                youtubeUrl = it.youtubeUrl
             )
         }
 
@@ -320,16 +324,14 @@ object StudyPackageExchangeManager {
                 type = "application/vnd.studytracker.plan"
                 putExtra(Intent.EXTRA_STREAM, uri)
                 putExtra(Intent.EXTRA_SUBJECT, title)
-                putExtra(Intent.EXTRA_TEXT, "StudyTracker Çalışma Paketi: $title\nUygulamada açmak için dosyaya dokunun.")
+                putExtra(Intent.EXTRA_TITLE, title)
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             }
-
-            val chooser = Intent.createChooser(shareIntent, title).apply {
+            context.startActivity(Intent.createChooser(shareIntent, title).apply {
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            }
-            context.startActivity(chooser)
+            })
         } catch (e: Exception) {
-            Log.e("PackageExchange", "Share error: ${e.message}", e)
+            Log.e("StudyPackageExchange", "Failed to share package: ${e.message}", e)
         }
     }
 
@@ -352,11 +354,11 @@ object StudyPackageExchangeManager {
     /**
      * Core Import & Smart Reconciliation Logic (Secere & Kayıpsız Revize Plan Birleştirme)
      */
-    suspend fun importPackageString(context: Context, content: String): Result<String> = withContext(Dispatchers.IO) {
+    suspend fun importPackageString(context: Context, packageContent: String): Result<String> = withContext(Dispatchers.IO) {
         try {
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
-            val pkg = json.decodeFromString<StudyTrackerPackage>(content)
+            val pkg = json.decodeFromString<StudyTrackerPackage>(packageContent)
 
             // 1. Update family code
             if (pkg.familyCode.isNotBlank()) {
@@ -400,6 +402,9 @@ object StudyPackageExchangeManager {
             // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions)
             if (pkg.occurrences.isNotEmpty()) {
                 val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
+                val taskTemplateMap = pkg.tasks.associateBy { it.taskId }
+                val urlRegex = Regex("""(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/shorts/)[\w-]+[^\s]*)""", RegexOption.IGNORE_CASE)
+
                 val mergedOccs = pkg.occurrences.map { remote ->
                     val local = localOccMap[remote.id]
                     val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
@@ -425,6 +430,17 @@ object StudyPackageExchangeManager {
                     val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
                     val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
 
+                    // Resolve video URL with thorough fallbacks (from remote occurrence, local occurrence, pkg.tasks template, or subject/notes regex)
+                    val templateTask = taskTemplateMap[remote.planId] ?: (local?.taskId?.let { taskTemplateMap[it] })
+                    val extractedFromText = urlRegex.find(remote.subject)?.value 
+                        ?: urlRegex.find(remote.parentNote)?.value 
+                        ?: remote.studentNote?.let { urlRegex.find(it)?.value }
+
+                    val resolvedYoutubeUrl = remote.youtubeUrl
+                        ?: local?.youtubeUrl
+                        ?: templateTask?.youtubeUrl
+                        ?: extractedFromText
+
                     OccurrenceEntity(
                         occurrenceKey = remote.id,
                         taskId = if (!local?.taskId.isNullOrBlank()) local!!.taskId else remote.planId,
@@ -433,7 +449,7 @@ object StudyPackageExchangeManager {
                         weekId = local?.weekId ?: remote.weekId.ifEmpty { null },
                         title = if (!local?.title.isNullOrBlank()) local!!.title else remote.subject,
                         plannedMinutes = if ((local?.plannedMinutes ?: 0) > 0) local!!.plannedMinutes else remote.targetDurationMin,
-                        youtubeUrl = local?.youtubeUrl,
+                        youtubeUrl = resolvedYoutubeUrl,
                         reviewRequired = true,
                         status = finalStatus,
                         warning = hasWarning,

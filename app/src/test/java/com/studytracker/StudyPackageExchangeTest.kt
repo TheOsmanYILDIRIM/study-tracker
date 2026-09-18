@@ -45,7 +45,8 @@ class StudyPackageExchangeTest {
             status = "PENDING",
             parentNote = "",
             weekId = "2026-W38",
-            orderIndex = 1
+            orderIndex = 1,
+            youtubeUrl = "https://youtu.be/dQw4w9WgXcQ"
         )
 
         val pkg = StudyTrackerPackage(
@@ -67,6 +68,7 @@ class StudyPackageExchangeTest {
         assertEquals("ST-2026", decoded.familyCode)
         assertEquals(1, decoded.occurrences.size)
         assertEquals("Matematik - Fonksiyonlar", decoded.occurrences.first().subject)
+        assertEquals("https://youtu.be/dQw4w9WgXcQ", decoded.occurrences.first().youtubeUrl)
     }
 
     @Test

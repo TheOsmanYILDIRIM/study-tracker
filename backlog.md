@@ -133,4 +133,6 @@
 ## 34. Bulut ve Test Konsolu Kodlarının Temizlenmesi & Canlı Video Butonunun Belirginleştirilmesi
 - [x] Bulut/Supabase ve Test Modu/Geliştirici Konsolunun Kod Tabanından Temizlenmesi, Ders Başlatıldığında Aktif Şeritte ve Görev Kartlarında Belirgin Tıklanabilir Video Linki Kartının Sunulması
 
-
+## 35. Paket İçe Aktarmada Video Linki Eşleme Düzeltmesi & Görev Bitiminde Göğe Yükselen Yıldız Animasyonu
+- [x] `.studyplan` paket alışverişinde `RemoteOccurrenceSyncDto` modeline `youtubeUrl` alanının eklenmesi, içe/dışa aktarmada eksiksiz Room DB eşlemesi ve akıllı video linki çözümü
+- [x] Görev tamamlandığında göğe yükselerek takımyıldızını parlatan meteor & süpernova halkası animasyonunun tamamlanması

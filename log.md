@@ -259,3 +259,17 @@
   - Öğrenci bir görevi başlattığında ekranın en üstünde beliren `LiveActiveSessionBanner` içerisine tam genişlikli, parlak kırmızı YouTube rozetli ve link önizlemeli **"🎬 Videoyu / Dersi İzle (YouTube)"** tıklanabilir kartı yerleştirildi.
   - `StudyTaskCard` ve `StudyWeeklyTaskCard` üzerinde video linki bulunan her ders için tıklanabilir kart doğrudan görünür hale getirildi.
 
+## [2026-09-18] 35. Paket İçe Aktarmada Video Linki Eşleme Düzeltmesi & Görev Bitiminde Göğe Yükselen Yıldız Animasyonu
+- **Paket Alışverişinde Video Linki Alanı (`RemoteOccurrenceSyncDto`):**
+  - `RemoteOccurrenceSyncDto` modeline `@SerialName("youtube_url") val youtubeUrl: String? = null` alanı eklendi.
+  - Veli `.studyplan` paketini dışa aktarırken veya öğrenci raporu gönderirken her görevdeki `youtubeUrl` alanının kayıpsız aktarılması sağlandı.
+- **Akıllı Video Linki Çözümlemesi (`StudyPackageExchangeManager` & `StudySyncProvider`):**
+  - İçe aktarma sırasında `youtubeUrl = remote.youtubeUrl ?: local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText` hiyerarşisi kuruldu.
+  - Öğrenci cihazında plan daha önce bulunmasa dahi gelen paketteki video linkleri doğrudan Room veritabanına kaydedildi.
+- **Görev-Yıldız Dönüşümü ve Takımyıldızı Tutuşma Animasyonu (`ZenParallaxBackground`):**
+  - Sürekli ve rastgele kayan dikkat dağıtıcı ortam yıldızları kaldırıldı.
+  - Yalnızca bir görev veya test tamamlandığında (`flyingStarTrigger`), tamamlanan görev gökyüzüne doğru süzülen ışıltılı bir meteora dönüşüyor, zirveye ulaştığında süpernova patlama halkası oluşturarak takımyıldızındaki bir yıldızı parlatıyor.
+- **Birim Testleri:**
+  - `StudyPackageExchangeTest` güncellendi ve `youtubeUrl` alanının `.studyplan` JSON serileştirmesinde korunduğu doğrulandı.
+
+

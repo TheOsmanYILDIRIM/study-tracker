@@ -154,6 +154,9 @@ class StudySyncProvider : ContentProvider() {
         // 3. Occurrences
         if (payload.occurrences.isNotEmpty()) {
             val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
+            val taskTemplateMap = payload.tasks.associateBy { it.taskId }
+            val urlRegex = Regex("""(https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/|youtube\.com/shorts/)[\w-]+[^\s]*)""", RegexOption.IGNORE_CASE)
+
             val mergedOccs = payload.occurrences.map { remote ->
                 val local = localOccMap[remote.id]
                 val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
@@ -174,6 +177,16 @@ class StudySyncProvider : ContentProvider() {
                 val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
                 val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
 
+                val templateTask = taskTemplateMap[remote.planId] ?: (local?.taskId?.let { taskTemplateMap[it] })
+                val extractedFromText = urlRegex.find(remote.subject)?.value 
+                    ?: urlRegex.find(remote.parentNote)?.value 
+                    ?: remote.studentNote?.let { urlRegex.find(it)?.value }
+
+                val resolvedYoutubeUrl = remote.youtubeUrl
+                    ?: local?.youtubeUrl
+                    ?: templateTask?.youtubeUrl
+                    ?: extractedFromText
+
                 OccurrenceEntity(
                     occurrenceKey = remote.id,
                     taskId = if (!local?.taskId.isNullOrBlank()) local!!.taskId else remote.planId,
@@ -182,7 +195,7 @@ class StudySyncProvider : ContentProvider() {
                     weekId = local?.weekId ?: remote.weekId.ifEmpty { null },
                     title = if (!local?.title.isNullOrBlank()) local!!.title else remote.subject,
                     plannedMinutes = if ((local?.plannedMinutes ?: 0) > 0) local!!.plannedMinutes else remote.targetDurationMin,
-                    youtubeUrl = local?.youtubeUrl,
+                    youtubeUrl = resolvedYoutubeUrl,
                     reviewRequired = true,
                     status = finalStatus,
                     warning = hasWarning,
@@ -358,7 +371,8 @@ class StudySyncProvider : ContentProvider() {
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
                 orderIndex = 0,
-                studentNote = it.studentNote
+                studentNote = it.studentNote,
+                youtubeUrl = it.youtubeUrl
             )
         }
 
