@@ -35,6 +35,7 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalOccurrenceRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalPlanRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalSessionRepositoryImpl
+import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.components.extractVideoUrl
 import com.studytracker.core.ui.components.openVideoUrl
