@@ -43,6 +43,7 @@ import com.studytracker.core.ui.components.StudyTaskCard
 import com.studytracker.core.ui.components.StudyWeeklyTaskCard
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.components.extractVideoUrl
+import com.studytracker.core.ui.components.openVideoUrl
 import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -76,18 +77,13 @@ fun ChildHomeScreen(
 
     val isSessionActive by stateManager.isSessionActive.collectAsState()
 
-    // Stable method reference
-    val onTaskStart: (Occurrence) -> Unit = remember(stateManager) {
+    // Stable method reference with robust video launcher
+    val onTaskStart: (Occurrence) -> Unit = remember(stateManager, context) {
         { task ->
             stateManager.startSession(task.occurrenceKey, task.title)
             val vUrl = extractVideoUrl(task)
             if (!vUrl.isNullOrBlank()) {
-                try {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(vUrl)).apply {
-                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                    }
-                    context.startActivity(intent)
-                } catch (_: Exception) {}
+                openVideoUrl(context, vUrl)
             }
         }
     }
@@ -734,12 +730,21 @@ fun LiveActiveSessionBanner(
     stateManager: SessionStateManager,
     onFinishClick: () -> Unit = { stateManager.finishSession() }
 ) {
+    val context = LocalContext.current
     val activeState by stateManager.activeState.collectAsState()
     val active = activeState ?: return
 
     val isPaused = active.isPaused
     val title = active.occurrenceTitle
     val ssCount = active.screenshotCount
+
+    val activeOcc by remember(active.session.occurrenceKey) {
+        stateManager.occurrenceRepository.getOccurrenceByKey(active.session.occurrenceKey)
+    }.collectAsState(initial = null)
+    val videoUrl = activeOcc?.let { extractVideoUrl(it) } ?: run {
+        val m = Regex("""(https?://[^\s|"'<>)]+|(?:\bwww\.|(?:\bm\.)?youtube\.com/|youtu\.be/)[^\s|"'<>)]+)""", RegexOption.IGNORE_CASE).find(title)
+        m?.value?.let { com.studytracker.core.ui.components.sanitizeUrl(it) }
+    }
 
     Box(
         modifier = Modifier
@@ -794,6 +799,24 @@ fun LiveActiveSessionBanner(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
+                // Video quick launcher button if task has video
+                if (!videoUrl.isNullOrBlank()) {
+                    IconButton(
+                        onClick = { openVideoUrl(context, videoUrl) },
+                        modifier = Modifier
+                            .size(38.dp)
+                            .background(ZenRoseCoral.copy(alpha = 0.2f), CircleShape)
+                            .border(1.dp, ZenRoseCoral, CircleShape)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.SmartDisplay,
+                            contentDescription = "Videoyu Aç",
+                            tint = ZenRoseCoral,
+                            modifier = Modifier.size(20.dp)
+                        )
+                    }
+                }
+
                 // Pause / Resume Button
                 Button(
                     onClick = {

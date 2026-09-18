@@ -234,7 +234,18 @@
 - **`.studyplan` Paket Paylaşımı Uyumluluğu (`StudyPackageExchangeManager`):**
   - Öğrenci günlük çalışma raporunu veliye WhatsApp veya dosya olarak gönderdiğinde tüm ders ve test değerlendirme verileri eksiksiz pakete dahil edilip veli tarafında içe aktarılıyor.
 
-
-
-
-
+## [2026-09-18] 33. Görev Başlatıldığında Video Linklerinin Otomatik ve Sorunsuz Açılması (Video Launcher & Plan Parser Güçlendirmesi)
+- **Android 11+ Package Visibility & Intent Queries (`AndroidManifest.xml`):**
+  - `<queries>` bloğuna `com.google.android.youtube`, `https` ve `http` intent filtreleri eklendi. Android 11+ kısıtlamalarında dış video ve tarayıcı uygulamalarının engellenmesi sorunu çözüldü.
+- **Ultra Dayanıklı URL Temizleyici ve Çıkarıcı (`sanitizeUrl` & `extractVideoUrl`):**
+  - Parantez (`(https://...)`), köşeli parantez, tırnak, noktalama işaretleri (`.`, `,`, `;`) gibi URL sonuna yapışan karakterleri otomatik temizleyen temizleme algoritması uygulandı.
+  - `http://`, `https://`, `youtu.be/`, `youtube.com/`, `www.youtube.com/`, `m.youtube.com/` gibi tüm formatlar otomatik yakalanıp standart `https://` formatına normalize edildi.
+  - `youtubeUrl`, `title`, `studentNote` ve `warningText` alanlarının tamamından URL çıkarma desteği sağlandı.
+- **Çok Kademeli Güvenli Video Başlatıcı (`openVideoUrl`):**
+  - Doğrudan YouTube uygulaması (`com.google.android.youtube`), standart `ACTION_VIEW` intent'i ve son çare olarak sistem tarayıcı seçicisi (`Intent.createChooser`) ile kademeli fallback mekanizması kuruldu.
+  - Sessiz hata yutma (`catch {}`) kaldırıldı; URL açılamadığında kullanıcıya bilgilendirici Toast mesajı eklendi.
+- **Plan Ayrıştırıcı Güçlendirmesi (`SimplePlanParser`):**
+  - `[DERSLER]`, `[GUNLER]`, `[HAFTALIK]` ve madde işaretli (`- Ders | 40 dk | https://...`) girdilerin tamamından URL ayıklama eklendi.
+- **Öğrenci Masası & Canlı Oturum Banner Entegrasyonu (`ChildHomeScreen` & `StudyTaskCard`):**
+  - "Başla" butonuna basıldığında video linki varsa otomatik olarak açılıyor.
+  - Canlı aktif ders şeridinde (`LiveActiveSessionBanner`) öğrencinin ders devam ederken dilediği an videoyu yeniden açabilmesi için tek tık "🎬 Videoyu Aç" butonu entegre edildi.

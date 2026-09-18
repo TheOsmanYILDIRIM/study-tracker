@@ -127,5 +127,6 @@
 - [x] Veli Paneli (`ParentDashboardScreen`) ve Test İnceleme Ekranında (`ParentQuizReviewScreen`) öğrencinin ders ve test öz değerlendirme metriklerinin ("🎓 Öğrenci Öz Değerlendirmesi") renkli kartlarla sergilenmesi
 - [x] `.studyplan` paket alışverişine (`StudyPackageExchangeManager`) ders ve test değerlendirme verilerinin tam dahil edilmesi
 
-
+## 33. Görev Başlatıldığında Video Linklerinin Otomatik ve Sorunsuz Açılması (Video Launcher & Plan Parser Güçlendirmesi)
+- [x] Görev Başlatıldığında Video Linklerinin Güvenilir Açılması, Android 11+ Package Visibility Desteği, Gelişmiş URL Temizleme ve Plan Ayrıştırma İyileştirmesi
 

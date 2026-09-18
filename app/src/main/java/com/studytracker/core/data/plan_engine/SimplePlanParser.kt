@@ -8,6 +8,19 @@ object SimplePlanParser {
 
     private val dateRegex = Regex("""^\d{4}-\d{2}-\d{2}$""")
     private val weekIdRegex = Regex("""^\d{4}-W(0[1-9]|[1-4][0-9]|5[0-3])$""")
+    private val URL_REGEX = Regex("""(https?://[^\s|"'<>)]+|(?:\bwww\.|(?:\bm\.)?youtube\.com/|youtu\.be/)[^\s|"'<>)]+)""", RegexOption.IGNORE_CASE)
+
+    fun extractUrl(text: String): String? {
+        val m = URL_REGEX.find(text) ?: return null
+        var u = m.value.trim()
+        while (u.isNotEmpty() && (u.endsWith(")") || u.endsWith("]") || u.endsWith(".") || u.endsWith(",") || u.endsWith(";"))) {
+            u = u.dropLast(1).trim()
+        }
+        if (u.isBlank()) return null
+        return if (!u.startsWith("http://", ignoreCase = true) && !u.startsWith("https://", ignoreCase = true)) {
+            "https://$u"
+        } else u
+    }
 
     /**
      * Basit metin tabanlı (Key-Value / DSL) plan formatını aşırı toleranslı şekilde ayrıştırır.
@@ -147,10 +160,11 @@ object SimplePlanParser {
                 if (line.contains("=")) {
                     val rawId = line.substringBefore("=").trim()
                     val id = sanitizeId(rawId)
-                    val parts = line.substringAfter("=").split("|").map { it.trim() }
+                    val afterEq = line.substringAfter("=")
+                    val parts = afterEq.split("|").map { it.trim() }
                     val title = parts.getOrNull(0) ?: rawId
                     val durationMin = extractMinutes(parts.getOrNull(1) ?: "30")
-                    val potentialUrl = parts.find { it.startsWith("http://", ignoreCase = true) || it.startsWith("https://", ignoreCase = true) }
+                    val potentialUrl = extractUrl(afterEq)
 
                     if (id.isNotBlank() && title.isNotBlank()) {
                         taskDefMap[id] = TaskTemplate(
@@ -166,19 +180,22 @@ object SimplePlanParser {
                 }
             }
 
-            // Handle daily bullet points ("- Matematik | 40 dk" or "- mat")
+            // Handle daily bullet points ("- Matematik | 40 dk | https://..." or "- mat")
             if (line.startsWith("-") || line.startsWith("*")) {
                 val item = line.removePrefix("-").removePrefix("*").trim()
                 if (item.contains("|")) {
                     val parts = item.split("|").map { it.trim() }
                     val title = parts.getOrNull(0) ?: "Ders"
                     val durationMin = extractMinutes(parts.getOrNull(1) ?: "30")
+                    val potentialUrl = extractUrl(item)
                     val id = sanitizeId(title)
 
                     taskDefMap.putIfAbsent(id, TaskTemplate(
                         taskId = id,
                         title = title,
                         plannedMinutes = durationMin,
+                        youtubeUrl = potentialUrl,
+                        contentType = if (potentialUrl != null) ContentType.VIDEO else ContentType.OTHER,
                         kind = if (currentSection == 3) TaskKind.WEEKLY else TaskKind.DAILY
                     ))
 
@@ -204,6 +221,7 @@ object SimplePlanParser {
                     }
                 } else {
                     val id = sanitizeId(item)
+                    val potentialUrl = extractUrl(item)
                     if (currentSection == 3) {
                         val key = "$id:$weekId"
                         if (weeklyOccurrences.none { it.occurrenceKey == key }) {
@@ -228,18 +246,22 @@ object SimplePlanParser {
                 continue
             }
 
-            // Handle Section 3: Weekly tasks ("deneme = Deneme Sınavı | 90 dk")
+            // Handle Section 3: Weekly tasks ("deneme = Deneme Sınavı | 90 dk | https://...")
             if (currentSection == 3 && line.contains("=")) {
                 val rawId = line.substringBefore("=").trim()
                 val id = sanitizeId(rawId)
-                val parts = line.substringAfter("=").split("|").map { it.trim() }
+                val afterEq = line.substringAfter("=")
+                val parts = afterEq.split("|").map { it.trim() }
                 val title = parts.getOrNull(0) ?: rawId
                 val durationMin = extractMinutes(parts.getOrNull(1) ?: "45")
+                val potentialUrl = extractUrl(afterEq)
 
                 taskDefMap[id] = TaskTemplate(
                     taskId = id,
                     title = title,
                     plannedMinutes = durationMin,
+                    youtubeUrl = potentialUrl,
+                    contentType = if (potentialUrl != null) ContentType.VIDEO else ContentType.OTHER,
                     kind = TaskKind.WEEKLY
                 )
 
@@ -308,7 +330,7 @@ object SimplePlanParser {
                     uniqueKey = "${taskId}_$idx:$date"
                 }
 
-                val youtubeUrl = template?.youtubeUrl
+                val youtubeUrl = template?.youtubeUrl ?: extractUrl(ref) ?: extractUrl(title)
 
                 seenDailyKeys.add(uniqueKey)
                 dailyOccurrences.add(DailyOccurrenceJson(

@@ -25,27 +25,120 @@ import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.TaskKind
 import com.studytracker.core.ui.theme.*
 
+import android.content.Context
+
 private val ZenCardShape = RoundedCornerShape(16.dp)
 private val ZenSquircleShape = RoundedCornerShape(12.dp)
 private val ZenPillShape = CircleShape
 
+private val URL_FIND_REGEX = Regex("""(https?://[^\s|"'<>)]+|(?:\bwww\.|(?:\bm\.)?youtube\.com/|youtu\.be/)[^\s|"'<>)]+)""", RegexOption.IGNORE_CASE)
+
+fun sanitizeUrl(rawUrl: String): String {
+    var u = rawUrl.trim()
+    u = u.removePrefix("<").removeSuffix(">")
+        .removePrefix("(").removeSuffix(")")
+        .removePrefix("[").removeSuffix("]")
+        .removePrefix("\"").removeSuffix("\"")
+        .removePrefix("'").removeSuffix("'")
+        .trim()
+
+    while (u.isNotEmpty() && (u.endsWith(")") || u.endsWith("]") || u.endsWith(".") || u.endsWith(",") || u.endsWith(";") || u.endsWith(">"))) {
+        u = u.dropLast(1).trim()
+    }
+
+    if (u.isBlank()) return ""
+
+    return when {
+        u.startsWith("http://", ignoreCase = true) || u.startsWith("https://", ignoreCase = true) -> u
+        u.startsWith("youtu.be/", ignoreCase = true) ||
+        u.startsWith("youtube.com/", ignoreCase = true) ||
+        u.startsWith("www.youtube.com/", ignoreCase = true) ||
+        u.startsWith("m.youtube.com/", ignoreCase = true) -> "https://$u"
+        u.startsWith("www.", ignoreCase = true) -> "https://$u"
+        else -> if (u.contains("youtu.be") || u.contains("youtube.com")) {
+            if (!u.startsWith("http://") && !u.startsWith("https://")) "https://$u" else u
+        } else if (!u.startsWith("http://") && !u.startsWith("https://") && (u.contains(".com") || u.contains(".org") || u.contains(".net") || u.contains(".edu"))) {
+            "https://$u"
+        } else u
+    }
+}
+
 fun extractVideoUrl(occurrence: Occurrence): String? {
     if (!occurrence.youtubeUrl.isNullOrBlank()) {
-        val raw = occurrence.youtubeUrl.trim()
-        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+        val sanitized = sanitizeUrl(occurrence.youtubeUrl)
+        if (sanitized.isNotBlank()) return sanitized
     }
-    val urlRegex = Regex("""(https?://[^\s|]+|youtu\.be/[^\s|]+|youtube\.com/[^\s|]+)""")
-    val matchTitle = urlRegex.find(occurrence.title)
+
+    val matchTitle = URL_FIND_REGEX.find(occurrence.title)
     if (matchTitle != null) {
-        val raw = matchTitle.value.trim()
-        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+        val sanitized = sanitizeUrl(matchTitle.value)
+        if (sanitized.isNotBlank()) return sanitized
     }
-    val matchNote = occurrence.studentNote?.let { urlRegex.find(it) }
+
+    val matchNote = occurrence.studentNote?.let { URL_FIND_REGEX.find(it) }
     if (matchNote != null) {
-        val raw = matchNote.value.trim()
-        return if (!raw.startsWith("http://") && !raw.startsWith("https://")) "https://$raw" else raw
+        val sanitized = sanitizeUrl(matchNote.value)
+        if (sanitized.isNotBlank()) return sanitized
     }
+
+    val matchWarning = occurrence.warningText?.let { URL_FIND_REGEX.find(it) }
+    if (matchWarning != null) {
+        val sanitized = sanitizeUrl(matchWarning.value)
+        if (sanitized.isNotBlank()) return sanitized
+    }
+
     return null
+}
+
+fun openVideoUrl(context: Context, rawUrl: String) {
+    val cleanUrl = sanitizeUrl(rawUrl)
+    if (cleanUrl.isBlank()) return
+
+    val uri = try {
+        Uri.parse(cleanUrl)
+    } catch (_: Exception) {
+        android.widget.Toast.makeText(context, "Geçersiz video linki", android.widget.Toast.LENGTH_SHORT).show()
+        return
+    }
+
+    val isYoutube = cleanUrl.contains("youtube.com", ignoreCase = true) || cleanUrl.contains("youtu.be", ignoreCase = true)
+    var launched = false
+
+    if (isYoutube) {
+        try {
+            val ytIntent = Intent(Intent.ACTION_VIEW, uri).apply {
+                setPackage("com.google.android.youtube")
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            context.startActivity(ytIntent)
+            launched = true
+        } catch (_: Exception) {
+            // YouTube app package failed or not installed, fallback to generic view
+        }
+    }
+
+    if (!launched) {
+        try {
+            val generalIntent = Intent(Intent.ACTION_VIEW, uri).apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            context.startActivity(generalIntent)
+            launched = true
+        } catch (_: Exception) {
+            try {
+                val browserIntent = Intent(Intent.ACTION_VIEW, uri).apply {
+                    addCategory(Intent.CATEGORY_BROWSABLE)
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+                context.startActivity(Intent.createChooser(browserIntent, "Videoyu Aç").apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                })
+                launched = true
+            } catch (_: Exception) {
+                android.widget.Toast.makeText(context, "Video linki açılamadı: $cleanUrl", android.widget.Toast.LENGTH_LONG).show()
+            }
+        }
+    }
 }
 
 @Composable
@@ -57,13 +150,10 @@ fun StudyTaskCard(
 ) {
     val effectiveVideoUrl = extractVideoUrl(occurrence)
     val displayTitle = occurrence.title
-        .replace(Regex("""\s*\|\s*https?://\S+"""), "")
-        .replace(Regex("""\s*\|\s*youtu\.be/\S+"""), "")
-        .replace(Regex("""\s*\|\s*youtube\.com/\S+"""), "")
-        .replace(Regex("""https?://\S+"""), "")
-        .replace(Regex("""youtu\.be/\S+"""), "")
-        .replace(Regex("""youtube\.com/\S+"""), "")
+        .replace(URL_FIND_REGEX, "")
+        .replace(Regex("""\s*\|\s*"""), " • ")
         .trim()
+        .trim('•', ' ', '-', '|')
         .ifBlank { occurrence.title }
 
     val tileBg: Color
@@ -368,21 +458,7 @@ fun StudyTaskCard(
                 modifier = Modifier
                     .fillMaxWidth()
                     .clickable {
-                        try {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(validUrl)).apply {
-                                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                            }
-                            context.startActivity(intent)
-                        } catch (_: Exception) {
-                            try {
-                                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(validUrl)).apply {
-                                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                                }
-                                context.startActivity(browserIntent)
-                            } catch (_: Exception) {
-                                android.widget.Toast.makeText(context, "Link açılamadı: $validUrl", android.widget.Toast.LENGTH_LONG).show()
-                            }
-                        }
+                        openVideoUrl(context, validUrl)
                     }
             ) {
                 Row(
