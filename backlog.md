@@ -171,3 +171,9 @@
 - [x] Cloudflare Worker ve KV ile doğrudan konuşan, sıfır harici bağımlılıklı Node.js tabanlı `studytracker-cli` (`study-cli`) CLI aracının kodlanması
 - [x] AI ve Veli için durum izleme (`status` / `--json`), haftalık DSL plan uygulama (`plan apply` / `plan set`), öğrenci oturumu onaylama/reddetme (`approve` / `reject`), tekil ders düzenleme/silme (`task add/edit/delete`) ve sıfırlama (`reset`) komutlarının tamamlanması
 - [x] CLI aracının Termux ortamında `/data/data/com.termux/files/usr/bin/studytracker-cli` olarak global PATH'e bağlanması ve doğrulanması
+
+## 42. Hiyerarşik Rol Yetkilendirmesi (CLI > Veli > Öğrenci) ve Tombstone Tabanlı Kalıcı Silme & Senkronizasyon
+- [x] **Hiyerarşik Otorite Matrisi:** CLI (`ADMIN`) > Veli (`PARENT`) > Öğrenci (`CHILD`) rol ayrıştırması. CLI'ın sildiği veya düzenlediği derslerin Cloudflare KV'de mutlak otorite kazanması.
+- [x] **Tombstone Silme Güvencesi:** CLI veya Veli tarafından silinen derslerin `deletedOccurrences` tombstone mekanizmasıyla işaretlenerek, eski yerel veritabanına sahip cihazların silinen dersi tekrar hortlatmasının engellenmesi.
+- [x] **Öğrenci Çalışma & Not Otoritesi:** Öğrencinin tamamladığı süre, çözdüğü soru sayısı, öz değerlendirme notları, oturumları ve test yanıtlarının veli veya CLI senkronizasyonlarında kayıpsız korunması ve ileriye taşınması.
+- [x] **Gelişmiş CLI Komutları:** `studytracker-cli task list`, `studytracker-cli task delete <numara|id|isim>`, `studytracker-cli task edit <numara|id>`, `studytracker-cli approve/reject <numara|id>` ile numaralandırılmış pratik ders yönetimi.

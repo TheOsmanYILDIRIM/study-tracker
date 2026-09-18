@@ -54,7 +54,11 @@ object CloudflareSyncManager {
      * Uçtan uca çift yönlü Cloudflare KV senkronizasyonu (Veli <-> Öğrenci).
      * Yerel Room DB değişikliklerini buluta yükler ve buluttaki en güncel değişiklikleri indirip birleştirir.
      */
-    suspend fun syncWithCloud(context: Context): Result<String> = withContext(Dispatchers.IO) {
+    suspend fun syncWithCloud(
+        context: Context,
+        action: String = "SYNC",
+        deleteTaskId: String? = null
+    ): Result<String> = withContext(Dispatchers.IO) {
         try {
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
@@ -146,7 +150,8 @@ object CloudflareSyncManager {
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = effectiveRole,
-                action = "SYNC",
+                action = action,
+                deleteTaskId = deleteTaskId,
                 plan = plan,
                 tasks = tasks,
                 occurrences = occurrences,

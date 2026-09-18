@@ -144,7 +144,7 @@ fun ParentDashboardScreen(
                             db.taskTemplateDao().deleteTask(occ.taskId)
                         }
                     }
-                    CloudflareSyncManager.syncWithCloud(context)
+                    CloudflareSyncManager.syncWithCloud(context, action = "DELETE_TASK", deleteTaskId = key)
                     Toast.makeText(context, "🗑️ Ders programdan ve buluttan silindi", Toast.LENGTH_SHORT).show()
                 }
             }

@@ -99,6 +99,7 @@ data class SharedFamilySyncPayload(
     val familyCode: String = "",
     val senderRole: String = "PARENT",
     val action: String = "SYNC",
+    val deleteTaskId: String? = null,
     val plan: LocalPlanSyncDto? = null,
     val tasks: List<LocalTaskTemplateSyncDto> = emptyList(),
     val occurrences: List<RemoteOccurrenceSyncDto> = emptyList(),

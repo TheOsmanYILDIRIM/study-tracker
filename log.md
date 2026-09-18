@@ -321,3 +321,16 @@
   - Cloudflare Worker API'si ile doğrudan haberleşen, sıfır harici paket bağımlılıklı Node.js CLI motoru kodlandı.
   - Komutlar: `status` (dashboard ve `--json`), `plan show` / `plan apply` / `plan set` (DSL formatında plan yönetimi), `review list` / `approve` / `reject` (öğrenci oturum onay/red süreçleri), `task add` / `task edit` / `task delete` (tekil ders operasyonları) ve `reset` (ilerleme sıfırlama / temiz masa).
   - Termux ortamında `/data/data/com.termux/files/usr/bin/studytracker-cli` ve `/data/data/com.termux/files/usr/bin/study-cli` symlinkleri kurularak doğrudan terminalden ve AI otomasyonundan erişilebilir hale getirildi.
+
+## [2026-09-18] 42. Hiyerarşik Rol Yetkilendirmesi (CLI > Veli > Öğrenci) ve Tombstone Tabanlı Kalıcı Silme
+- **Hiyerarşik Otorite & Uzlaştırma Matrisi (CLI > Veli > Öğrenci):**
+  - CLI (`ADMIN` / `PARENTING_AI`): Mutlak plan otoritesi. Plan yükleme, ders silme veya düzenlemelerde Cloudflare KV üzerinde doğrudan yetkilidir.
+  - Veli (`PARENT`): İkinci kademe yetki. Ders ekleme/düzenleme/silme ve onay/red verme işlemlerini yönetir.
+  - Öğrenci (`CHILD`): Plan yapısında salt-okunur; ancak kendi çalışma icraatlarında (çözülen sorular, oturum süreleri, öz değerlendirme notları, kanıtlar ve test cevapları) tek ve kesin otorite.
+- **Tombstone Silme Mimarisi (`deletedOccurrences`):**
+  - CLI veya Veli tarafından bir ders silindiğinde KV üzerinde `deletedOccurrences` mezartaşı (tombstone) listesine kaydedilir.
+  - Eski yerel veritabanına sahip Veli veya Öğrenci cihazları senkronize olduğunda, silinen dersi tekrar sunucuya yükleyemez; aksine buluttaki silinme durumunu alarak yerel Room veritabanından kalıcı olarak temizler.
+- **Gelişmiş CLI Deneyimi:**
+  - `studytracker-cli task list`: Tüm dersleri numaralandırılmış, gün, video linki, süre ve onay durumlu görsel liste olarak sunar.
+  - `studytracker-cli task delete <1|id|isim>`: Sıra numarası, tekil ID veya ders adı vererek tek tıkla buluttan ve programdan ders silmeyi sağlar.
+  - `studytracker-cli task edit` ve `approve/reject` komutlarına sıra numarasıyla hedef seçme esnekliği eklendi.

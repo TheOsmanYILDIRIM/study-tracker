@@ -97,17 +97,20 @@ async function runTest() {
   console.log('   ✅ Veli planı buluta aktardı.\n');
 
   // Adım 4: Öğrenci Buluttan Planı İndiriyor (GET /api/sync)
+  // Adım 4: Öğrenci Buluttan Planı İndiriyor (GET /api/sync)
   console.log('4️⃣ Öğrenci uygulaması buluttan güncel planı çekiyor...');
   const childFetch = await mockFetch('GET', `/api/sync?code=${familyCode}`);
-  console.log('   Öğrencinin İndirdiği Plan ID:', childFetch.data.plan?.planId);
-  console.log('   Öğrencinin İndirdiği Görev:', childFetch.data.occurrences[0]?.subject);
-  console.log('   Video Linki:', childFetch.data.occurrences[0]?.youtubeUrl);
-  if (!childFetch.data.occurrences[0]?.youtubeUrl) throw new Error('Video URL eksik!');
+  const childData = childFetch.data.data || childFetch.data;
+  console.log('   Öğrencinin İndirdiği Plan ID:', childData.plan?.planId);
+  console.log('   Öğrencinin İndirdiği Görev:', childData.occurrences[0]?.subject);
+  console.log('   Video Linki:', childData.occurrences[0]?.youtubeUrl);
+  if (!childData.occurrences[0]?.youtubeUrl) throw new Error('Video URL eksik!');
   console.log('   ✅ Öğrenci planı eksiksiz indirdi.\n');
 
   // Adım 5: Öğrenci Dersi Tamamlayıp Rapor Gönderiyor (POST /api/sync)
   console.log('5️⃣ Öğrenci Matematik dersini tamamlıyor (35 dk) ve öz değerlendirme notu ekliyor...');
   const studentReport = {
+    senderRole: 'CHILD',
     occurrences: [
       {
         id: 'occ_mat_pzt',
@@ -151,6 +154,7 @@ async function runTest() {
   // Adım 6: Veli Masasında Onaylıyor (POST /api/sync)
   console.log('6️⃣ Veli onay masasını açıyor ve görevi ONAYLIYOR (APPROVED)...');
   const parentReview = {
+    senderRole: 'PARENT',
     occurrences: [
       {
         id: 'occ_mat_pzt',
@@ -178,17 +182,45 @@ async function runTest() {
 
   // Adım 7: Öğrenci Onay Durumunu Alıyor (GET /api/sync)
   console.log('7️⃣ Öğrenci son durumu çekiyor...');
-  const finalCheck = await mockFetch('GET', `/api/sync?code=${familyCode}`);
-  console.log('   Öğrenci Ekranındaki Son Durum:', finalCheck.data.occurrences[0]?.status);
-  console.log('   Gelen Veli Notu:', finalCheck.data.reviews[0]?.feedbackNote);
-  if (finalCheck.data.occurrences[0]?.status !== 'APPROVED') throw new Error('Onay durumu yansımadı!');
-  
-  console.log('\n🎉 ========================================================');
-  console.log('🎉 TÜM CLOUDFLARE WORKERS SENKRONİZASYON DÖNGÜSÜ KUSURSUZ ÇALIŞTI!');
+  const finalGet = await mockFetch('GET', `/api/sync?code=${familyCode}`);
+  const finalData = finalGet.data.data || finalGet.data;
+  console.log('   Nihai Ders Durumu:', finalData.occurrences[0]?.status);
+  console.log('   Nihai Yıldız / Puan:', finalData.reviews[0]?.parentRating);
+  if (finalData.occurrences[0]?.status !== 'APPROVED') throw new Error('Onay başarısız!');
+  console.log('   ✅ Takımyıldızı yıldızlaşma animasyonu tetiklendi!\n');
+
+  // Adım 8: CLI / ADMIN Ders Silme ve Senkronizasyon Testi
+  console.log('8️⃣ CLI / ADMIN Tarih dersini siliyor ve tombstones kontrol ediliyor...');
+  const adminDeletePayload = {
+    senderRole: 'ADMIN',
+    occurrences: [
+      finalData.occurrences[0] // Sadece Matematik kalıyor, Tarih silindi
+    ]
+  };
+  const adminRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, adminDeletePayload);
+  console.log('   Kalan Ders Sayısı:', adminRes.data.data.occurrences.length);
+  console.log('   Silinen Dersler (Tombstones):', adminRes.data.data.deletedOccurrences);
+  if (adminRes.data.data.occurrences.length !== 1) throw new Error('Ders silinemedi!');
+
+  // Adım 9: Eski Veli Cihazı Eşitlendiğinde Silinen Dersi Yeniden Hortlatamama Testi
+  console.log('9️⃣ Eski Veli cihazı silinen dersi tekrar göndermeyi deniyor...');
+  const staleParentSync = {
+    senderRole: 'PARENT',
+    occurrences: [
+      { id: 'occ_tar_pzt', subject: 'Eski Tarih Dersi' } // Silinmiş ders
+    ]
+  };
+  const staleRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, staleParentSync);
+  console.log('   Veli Eşitlemesi Sonrası Ders Sayısı (1 Bekleniyor):', staleRes.data.data.occurrences.length);
+  if (staleRes.data.data.occurrences.length !== 1) throw new Error('Silinmiş ders hortlatıldı!');
+  console.log('   ✅ Silinmiş ders güvenle korundu, hortlatılmadı.\n');
+
+  console.log('🎉 ========================================================');
+  console.log('🎉 TÜM BULUT & YETKİLENDİRME TESTLERİ BAŞARIYLA GEÇTİ!');
   console.log('🎉 ========================================================');
 }
 
-runTest().catch(err => {
+runTest().catch((err) => {
   console.error('❌ Test sırasında hata:', err);
   process.exit(1);
 });

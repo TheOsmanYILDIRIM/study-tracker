@@ -74,6 +74,19 @@ function parseArgs(args) {
   return result;
 }
 
+// Helper to resolve occurrence by index (1-based), exact ID, or subject substring
+function findOccurrence(occurrences, target) {
+  if (!occurrences || occurrences.length === 0 || !target) return null;
+  const num = parseInt(target, 10);
+  if (!isNaN(num) && num >= 1 && num <= occurrences.length) {
+    return occurrences[num - 1];
+  }
+  const exact = occurrences.find(o => o.id === target || o.planId === target);
+  if (exact) return exact;
+  const lower = target.toLowerCase();
+  return occurrences.find(o => (o.subject && o.subject.toLowerCase().includes(lower)) || o.id.toLowerCase().includes(lower)) || null;
+}
+
 async function main() {
   const parsed = parseArgs(process.argv.slice(2));
   const cmd = parsed.positionals[0];
@@ -135,7 +148,7 @@ async function main() {
           console.log(`${colors.cyan}⏳ Plan ayrıştırılıyor ve Cloudflare KV'ye yükleniyor (${familyCode})...${colors.reset}`);
           const parsedPlan = parseDSL(dslText, familyCode);
           
-          // Preserve existing completed reviews and quizzes
+          // Preserve existing completed sessions, reviews and quizzes
           const payload = {
             familyCode,
             plan: parsedPlan.plan,
@@ -146,11 +159,11 @@ async function main() {
             quizzes: data.quizzes || []
           };
 
-          const updated = await pushFamilyData(payload, familyCode, 'PARENT');
+          await pushFamilyData(payload, familyCode, 'ADMIN');
           console.log(`${colors.green}✔ Plan başarıyla yüklendi!${colors.reset}`);
-          console.log(`  • Hafta     : ${parsedPlan.plan.weekId}`);
+          console.log(`  • Hafta      : ${parsedPlan.plan.weekId}`);
           console.log(`  • Ders Sayısı: ${parsedPlan.occurrences.length}`);
-          console.log(`  • Şablonlar : ${parsedPlan.tasks.length}`);
+          console.log(`  • Şablonlar  : ${parsedPlan.tasks.length}`);
           console.log(`\n${colors.dim}Öğrenci ve Veli uygulamaları açıldığında veya yenilendiğinde otomatik senkronize olacaktır.${colors.reset}`);
         } else {
           console.log(`${colors.red}Bilinmeyen alt komut: plan ${sub}. Kullanım: plan show | plan apply --file <path>${colors.reset}`);
@@ -165,9 +178,10 @@ async function main() {
           const waiting = (data.occurrences || []).filter(o => o.status === 'WAITING_REVIEW');
           const sessions = (data.sessions || []).filter(s => s.isCompleted);
           console.log(`\n${colors.bold}${colors.brightYellow}🔍 Onay Bekleyen Dersler (${waiting.length}):${colors.reset}`);
-          for (const occ of waiting) {
-            console.log(`  • ${colors.bold}${occ.id}${colors.reset} : ${colors.brightWhite}${occ.subject}${colors.reset} (${occ.date || 'Haftalık'})`);
-            if (occ.studentNote) console.log(`    Öğrenci Notu: ${colors.italic}${occ.studentNote}${colors.reset}`);
+          for (let i = 0; i < waiting.length; i++) {
+            const occ = waiting[i];
+            console.log(`  [${i + 1}] ${colors.bold}${occ.id}${colors.reset} : ${colors.brightWhite}${occ.subject}${colors.reset} (${occ.date || 'Haftalık'})`);
+            if (occ.studentNote) console.log(`      Öğrenci Notu: ${colors.italic}${occ.studentNote}${colors.reset}`);
           }
           if (sessions.length > 0) {
             console.log(`\n${colors.bold}📸 Oturum Kayıtları (${sessions.length}):${colors.reset}`);
@@ -182,31 +196,29 @@ async function main() {
       }
 
       case 'approve': {
-        const targetId = parsed.positionals[1];
-        if (!targetId) {
-          console.error(`${colors.red}Hata: Onaylanacak ders veya oturum ID'si belirtilmeli (Örn: approve 2026-W38_MON_mat_1)${colors.reset}`);
+        const target = parsed.positionals[1];
+        if (!target) {
+          console.error(`${colors.red}Hata: Onaylanacak ders sıra numarası veya ID'si belirtilmeli (Örn: approve 1 veya approve 2026-W38_MON_mat_1)${colors.reset}`);
           process.exit(1);
         }
 
         const data = await fetchFamilyData(familyCode);
-        let found = false;
+        const occ = findOccurrence(data.occurrences, target);
 
-        // Update occurrence status
-        for (const occ of (data.occurrences || [])) {
-          if (occ.id === targetId || occ.planId === targetId) {
-            occ.status = 'APPROVED';
-            occ.parentNote = parsed.options.note || 'Tebrikler! Çalışman onaylandı.';
-            occ.completedQuestionCount = Math.max(occ.completedQuestionCount, occ.targetQuestionCount || 1);
-            found = true;
-          }
+        if (!occ) {
+          console.error(`${colors.red}Hata: Ders bulunamadı: ${target}${colors.reset}`);
+          process.exit(1);
         }
 
-        // Add review record
+        occ.status = 'APPROVED';
+        occ.parentNote = parsed.options.note || 'Tebrikler! Çalışman onaylandı.';
+        occ.completedQuestionCount = Math.max(occ.completedQuestionCount || 0, occ.targetQuestionCount || 1);
+
         data.reviews = data.reviews || [];
         data.reviews.push({
           id: `rev_${Date.now()}`,
           familyCode,
-          sessionId: targetId,
+          sessionId: occ.id,
           isApproved: true,
           rejectionReason: null,
           parentRating: 5,
@@ -214,17 +226,17 @@ async function main() {
           reviewedAt: Date.now()
         });
 
-        await pushFamilyData(data, familyCode, 'PARENT');
-        console.log(`${colors.green}✔ '${targetId}' başarıyla ONAYLANDI ve buluta işlendi.${colors.reset}`);
+        await pushFamilyData(data, familyCode, 'ADMIN');
+        console.log(`${colors.green}✔ '${occ.subject}' [${occ.id}] başarıyla ONAYLANDI ve buluta işlendi.${colors.reset}`);
         console.log(`${colors.dim}Öğrenci uygulamasında takımyıldızı animasyonu tetiklenecektir.${colors.reset}`);
         break;
       }
 
       case 'reject': {
-        const targetId = parsed.positionals[1];
+        const target = parsed.positionals[1];
         const note = parsed.options.note;
-        if (!targetId) {
-          console.error(`${colors.red}Hata: Reddedilecek ders veya oturum ID'si belirtilmeli.${colors.reset}`);
+        if (!target) {
+          console.error(`${colors.red}Hata: Reddedilecek ders sıra numarası veya ID'si belirtilmeli.${colors.reset}`);
           process.exit(1);
         }
         if (!note) {
@@ -233,18 +245,21 @@ async function main() {
         }
 
         const data = await fetchFamilyData(familyCode);
-        for (const occ of (data.occurrences || [])) {
-          if (occ.id === targetId || occ.planId === targetId) {
-            occ.status = 'PENDING';
-            occ.parentNote = note;
-          }
+        const occ = findOccurrence(data.occurrences, target);
+
+        if (!occ) {
+          console.error(`${colors.red}Hata: Ders bulunamadı: ${target}${colors.reset}`);
+          process.exit(1);
         }
+
+        occ.status = 'PENDING';
+        occ.parentNote = note;
 
         data.reviews = data.reviews || [];
         data.reviews.push({
           id: `rev_${Date.now()}`,
           familyCode,
-          sessionId: targetId,
+          sessionId: occ.id,
           isApproved: false,
           rejectionReason: note,
           parentRating: 1,
@@ -252,18 +267,35 @@ async function main() {
           reviewedAt: Date.now()
         });
 
-        await pushFamilyData(data, familyCode, 'PARENT');
-        console.log(`${colors.brightRed}✔ '${targetId}' REDDEDİLDİ ve öğrenciye geri bildirim notu iletildi.${colors.reset}`);
+        await pushFamilyData(data, familyCode, 'ADMIN');
+        console.log(`${colors.brightRed}✔ '${occ.subject}' [${occ.id}] REDDEDİLDİ ve öğrenciye geri bildirim notu iletildi.${colors.reset}`);
         break;
       }
 
-      // 4. TASK (ADD, EDIT, DELETE)
+      // 4. TASK (LIST, ADD, EDIT, DELETE)
       case 'task': {
         const data = await fetchFamilyData(familyCode);
         data.occurrences = data.occurrences || [];
         data.tasks = data.tasks || [];
 
-        if (sub === 'add') {
+        if (sub === 'list') {
+          if (data.occurrences.length === 0) {
+            console.log(`${colors.yellow}Mevcut planda ders bulunmuyor.${colors.reset}`);
+            return;
+          }
+          console.log(`\n${colors.bold}${colors.brightCyan}📋 Plandaki Dersler (${data.occurrences.length}):${colors.reset}\n`);
+          data.occurrences.forEach((occ, idx) => {
+            const num = `[${(idx + 1).toString().padStart(2, ' ')}]`;
+            const dayBadge = occ.date ? `[${occ.date}]` : '[HAFTA]';
+            const vid = occ.youtubeUrl ? '🎬 ' : '   ';
+            const dur = `${occ.targetDurationMin || 30} dk`;
+            const q = occ.targetQuestionCount > 0 ? ` • ${occ.targetQuestionCount} Soru` : '';
+            const status = statusBadge(occ.status);
+            console.log(`  ${colors.brightYellow}${num}${colors.reset} ${colors.cyan}${dayBadge.padEnd(8, ' ')}${colors.reset} ${vid}${colors.bold}${occ.subject.padEnd(42, ' ')}${colors.reset} ${colors.dim}(${dur}${q})${colors.reset} ${status}`);
+            console.log(`       ${colors.dim}ID: ${occ.id}${occ.youtubeUrl ? ` | URL: ${occ.youtubeUrl}` : ''}${colors.reset}`);
+          });
+          console.log(`\n${colors.dim}İpucu: Bir dersi silmek için 'studytracker-cli task delete <numara>', düzenlemek için 'studytracker-cli task edit <numara>' kullanabilirsiniz.${colors.reset}`);
+        } else if (sub === 'add') {
           const title = parsed.options.title;
           const day = (parsed.options.day || 'MON').toUpperCase();
           const min = parseInt(parsed.options.min || '30', 10);
@@ -314,18 +346,18 @@ async function main() {
             updatedAt: Date.now()
           });
 
-          await pushFamilyData(data, familyCode, 'PARENT');
+          await pushFamilyData(data, familyCode, 'ADMIN');
           console.log(`${colors.green}✔ Yeni ders eklendi: '${title}' (${day} - ${min} dk) [ID: ${occKey}]${colors.reset}`);
         } else if (sub === 'edit') {
-          const targetKey = parsed.positionals[2];
-          if (!targetKey) {
-            console.error(`${colors.red}Hata: Düzenlenecek ders ID'si belirtilmelidir.${colors.reset}`);
+          const target = parsed.positionals[2];
+          if (!target) {
+            console.error(`${colors.red}Hata: Düzenlenecek ders numarası veya ID'si belirtilmelidir (Örn: task edit 3 --min 40).${colors.reset}`);
             process.exit(1);
           }
 
-          const occ = data.occurrences.find(o => o.id === targetKey || o.planId === targetKey);
+          const occ = findOccurrence(data.occurrences, target);
           if (!occ) {
-            console.error(`${colors.red}Hata: Ders bulunamadı: ${targetKey}${colors.reset}`);
+            console.error(`${colors.red}Hata: Ders bulunamadı: ${target}${colors.reset}`);
             process.exit(1);
           }
 
@@ -334,6 +366,7 @@ async function main() {
           if (parsed.options.video !== undefined) occ.youtubeUrl = parsed.options.video || null;
           if (parsed.options.note !== undefined) occ.parentNote = parsed.options.note;
           if (parsed.options.day) occ.date = parsed.options.day.toUpperCase();
+          if (parsed.options.questions !== undefined) occ.targetQuestionCount = parseInt(parsed.options.questions, 10);
 
           // Sync task template
           const taskTmpl = data.tasks.find(t => t.taskId === occ.planId);
@@ -343,25 +376,40 @@ async function main() {
             if (parsed.options.video !== undefined) taskTmpl.youtubeUrl = parsed.options.video || null;
           }
 
-          await pushFamilyData(data, familyCode, 'PARENT');
-          console.log(`${colors.green}✔ Ders başarıyla güncellendi: '${occ.subject}' [${targetKey}]${colors.reset}`);
+          await pushFamilyData(data, familyCode, 'ADMIN');
+          console.log(`${colors.green}✔ Ders başarıyla güncellendi: '${occ.subject}' [${occ.id}]${colors.reset}`);
         } else if (sub === 'delete') {
-          const targetKey = parsed.positionals[2];
-          if (!targetKey) {
-            console.error(`${colors.red}Hata: Silinecek ders ID'si belirtilmelidir.${colors.reset}`);
+          const target = parsed.positionals[2];
+          if (!target) {
+            console.error(`${colors.red}Hata: Silinecek ders numarası veya ID'si belirtilmelidir (Örn: task delete 5 veya task delete 2026-W38_MON_mat_1).${colors.reset}`);
             process.exit(1);
           }
 
-          const beforeCount = data.occurrences.length;
-          data.occurrences = data.occurrences.filter(o => o.id !== targetKey && o.planId !== targetKey);
-          if (data.occurrences.length === beforeCount) {
-            console.error(`${colors.yellow}Uyarı: Belirtilen ID ile eşleşen ders bulunamadı.${colors.reset}`);
-          } else {
-            await pushFamilyData(data, familyCode, 'PARENT');
-            console.log(`${colors.green}✔ Ders programdan ve buluttan silindi [${targetKey}]${colors.reset}`);
+          const occ = findOccurrence(data.occurrences, target);
+          if (!occ) {
+            console.error(`${colors.red}Hata: Belirtilen numara veya ID ile eşleşen ders bulunamadı: ${target}${colors.reset}`);
+            process.exit(1);
           }
+
+          const deletedSubject = occ.subject;
+          const deletedId = occ.id;
+          const deletedPlanId = occ.planId;
+
+          // Remove occurrence
+          data.occurrences = data.occurrences.filter(o => o.id !== deletedId);
+
+          // Clean template if no other occurrence references it
+          const stillUsed = data.occurrences.some(o => o.planId === deletedPlanId);
+          if (!stillUsed) {
+            data.tasks = data.tasks.filter(t => t.taskId !== deletedPlanId);
+          }
+
+          await pushFamilyData(data, familyCode, 'ADMIN');
+          console.log(`${colors.green}✔ Ders programdan ve buluttan kalıcı olarak silindi: '${deletedSubject}' [${deletedId}]${colors.reset}`);
+          console.log(`  Kalan ders sayısı: ${data.occurrences.length}`);
+          console.log(`${colors.dim}Veli ve Öğrenci uygulamaları eşitlendiğinde bu ders otomatik olarak silinecektir.${colors.reset}`);
         } else {
-          console.log(`${colors.red}Kullanım: studytracker-cli task add|edit|delete ...${colors.reset}`);
+          console.log(`${colors.red}Kullanım: studytracker-cli task list | add | edit | delete ...${colors.reset}`);
         }
         break;
       }
@@ -378,8 +426,8 @@ async function main() {
           data.sessions = [];
           data.reviews = [];
           data.quizzes = [];
-          data.action = 'CLEAR';
-          await pushFamilyData(data, familyCode, 'PARENT');
+          data.action = 'WIPE';
+          await pushFamilyData(data, familyCode, 'ADMIN');
           console.log(`${colors.brightRed}✔ Tüm plan, dersler ve testler tamamen temizlendi (Temiz Masa).${colors.reset}`);
         } else {
           for (const occ of (data.occurrences || [])) {
@@ -391,7 +439,7 @@ async function main() {
           data.sessions = [];
           data.reviews = [];
           data.action = 'RESET';
-          await pushFamilyData(data, familyCode, 'PARENT');
+          await pushFamilyData(data, familyCode, 'ADMIN');
           console.log(`${colors.green}✔ Öğrenci çalışma ilerlemeleri ve süreleri sıfırlandı (Plan korundu).${colors.reset}`);
         }
         break;
