@@ -116,8 +116,8 @@ export default {
             quizzes: []
           };
 
-          // A) Tam Sıfırlama (Wipe)
-          if (action === 'WIPE' || (senderRole === 'PARENT' && !incoming.plan && (!incoming.occurrences || incoming.occurrences.length === 0) && (!incoming.tasks || incoming.tasks.length === 0))) {
+          // A) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
+          if (action === 'WIPE') {
             current = {
               familyCode,
               createdAt: current.createdAt || Date.now(),
@@ -149,81 +149,91 @@ export default {
             return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
           }
 
+          const isAdmin = senderRole === 'ADMIN' || senderRole === 'CLI' || senderRole === 'PARENTING_AI';
           const isParent = senderRole === 'PARENT';
+          const isChild = senderRole === 'CHILD';
 
-          // 1. Plan & Task Templates (Parent is absolute authority)
-          if (isParent) {
-            if (incoming.plan !== undefined) {
+          // 1. Plan & Task Templates (CLI / ADMIN has supreme master authority)
+          if (isAdmin) {
+            if (incoming.plan !== undefined) current.plan = incoming.plan;
+            if (Array.isArray(incoming.tasks)) current.tasks = incoming.tasks;
+            if (Array.isArray(incoming.occurrences)) current.occurrences = incoming.occurrences;
+          } else if (isParent) {
+            // Veli uygulaması: Yalnızca dolu bir plan gönderdiyse ve buluttaki plandan yeniyse günceller
+            if (incoming.plan && Array.isArray(incoming.tasks) && incoming.tasks.length > 0) {
+              if (!current.plan || (incoming.plan.updatedAt || 0) >= (current.plan.updatedAt || 0)) {
+                current.plan = incoming.plan;
+                current.tasks = incoming.tasks;
+              }
+            }
+          } else if (isChild) {
+            // Öğrenci: Asla planı veya şablonları ezemez
+            if (incoming.plan && !current.plan) {
               current.plan = incoming.plan;
             }
-            if (Array.isArray(incoming.tasks)) {
-              current.tasks = incoming.tasks;
-            }
-          } else if (incoming.plan && !current.plan) {
-            current.plan = incoming.plan;
           }
 
           // 2. Occurrences Mutabakatı
           const existingOccMap = new Map((current.occurrences || []).map(o => [o.id, o]));
           
-          if (isParent) {
-            // Parent's occurrences list is authoritative for active week
-            // Any occurrence deleted by Parent in the local plan is removed from KV!
-            const newOccMap = new Map();
-            const incomingKeys = new Set((incoming.occurrences || []).map(o => o.id));
+          if (isAdmin) {
+            // Admin occurrences were already assigned in step 1 if provided
+          } else if (isParent) {
+            // Veli uygulaması senkronizasyonu:
+            // Eğer Veli uygulamasında yerel dersler varsa, mevcut bulut dersleriyle birleştirir
+            if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
+              for (const remote of incoming.occurrences) {
+                const local = existingOccMap.get(remote.id);
+                if (!local) {
+                  existingOccMap.set(remote.id, remote);
+                } else {
+                  let resolvedStatus = remote.status || local.status || 'PENDING';
+                  if (local.status === 'APPROVED' || remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                  else if (remote.status === 'WAITING_REVIEW' || local.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
+                  else if (remote.status === 'ACTIVE' || local.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
 
-            for (const remote of (incoming.occurrences || [])) {
-              const local = existingOccMap.get(remote.id);
-              if (!local) {
-                newOccMap.set(remote.id, remote);
-              } else {
-                // Parent updates structural fields (title, date, targetDurationMin, targetQuestionCount, youtubeUrl, parentNote)
-                // Preserves student completion metrics (status if approved/waiting, completedQuestionCount, completedDurationMin, studentNote)
-                let resolvedStatus = remote.status || local.status || 'PENDING';
-                if (local.status === 'APPROVED' || remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
-                else if (remote.status === 'WAITING_REVIEW' || local.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
-                else if (remote.status === 'ACTIVE' || local.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
-                else resolvedStatus = remote.status || local.status || 'PENDING';
-
-                newOccMap.set(remote.id, {
-                  ...local,
-                  ...remote,
-                  subject: remote.subject || local.subject,
-                  date: remote.date || local.date,
-                  targetDurationMin: remote.targetDurationMin || local.targetDurationMin,
-                  targetQuestionCount: remote.targetQuestionCount !== undefined ? remote.targetQuestionCount : local.targetQuestionCount,
-                  youtubeUrl: remote.youtubeUrl !== undefined ? remote.youtubeUrl : local.youtubeUrl,
-                  parentNote: remote.parentNote !== undefined ? remote.parentNote : local.parentNote,
-                  status: resolvedStatus,
-                  completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
-                  completedDurationMin: Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0),
-                  studentNote: local.studentNote || remote.studentNote
-                });
+                  existingOccMap.set(remote.id, {
+                    ...local,
+                    ...remote,
+                    subject: remote.subject || local.subject,
+                    date: remote.date || local.date,
+                    targetDurationMin: remote.targetDurationMin || local.targetDurationMin,
+                    targetQuestionCount: remote.targetQuestionCount !== undefined ? remote.targetQuestionCount : local.targetQuestionCount,
+                    youtubeUrl: remote.youtubeUrl !== undefined ? remote.youtubeUrl : local.youtubeUrl,
+                    parentNote: remote.parentNote !== undefined ? remote.parentNote : local.parentNote,
+                    status: resolvedStatus,
+                    completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
+                    completedDurationMin: Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0),
+                    studentNote: local.studentNote || remote.studentNote
+                  });
+                }
               }
+              current.occurrences = Array.from(existingOccMap.values());
             }
-            current.occurrences = Array.from(newOccMap.values());
+            // NOT: Eğer Veli'nin yerel occurrences listesi boş ise, buluttaki master listeyi korur ve Veli'ye geri döndürür!
           } else {
-            // Child sending study updates
-            // Child ONLY updates progress on existing occurrences; NEVER restores parent-deleted occurrences!
-            for (const remote of (incoming.occurrences || [])) {
-              const existing = existingOccMap.get(remote.id);
-              if (existing) {
-                let resolvedStatus = remote.status || existing.status;
-                if (existing.status === 'APPROVED') resolvedStatus = 'APPROVED';
-                else if (remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
-                else if (remote.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
-                else if (remote.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
+            // Öğrenci ilerleme güncellemesi
+            if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
+              for (const remote of incoming.occurrences) {
+                const existing = existingOccMap.get(remote.id);
+                if (existing) {
+                  let resolvedStatus = remote.status || existing.status;
+                  if (existing.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                  else if (remote.status === 'APPROVED') resolvedStatus = 'APPROVED';
+                  else if (remote.status === 'WAITING_REVIEW') resolvedStatus = 'WAITING_REVIEW';
+                  else if (remote.status === 'ACTIVE') resolvedStatus = 'ACTIVE';
 
-                existingOccMap.set(remote.id, {
-                  ...existing,
-                  status: resolvedStatus,
-                  completedQuestionCount: Math.max(existing.completedQuestionCount || 0, remote.completedQuestionCount || 0),
-                  completedDurationMin: Math.max(existing.completedDurationMin || 0, remote.completedDurationMin || 0),
-                  studentNote: remote.studentNote || existing.studentNote
-                });
+                  existingOccMap.set(remote.id, {
+                    ...existing,
+                    status: resolvedStatus,
+                    completedQuestionCount: Math.max(existing.completedQuestionCount || 0, remote.completedQuestionCount || 0),
+                    completedDurationMin: Math.max(existing.completedDurationMin || 0, remote.completedDurationMin || 0),
+                    studentNote: remote.studentNote || existing.studentNote
+                  });
+                }
               }
+              current.occurrences = Array.from(existingOccMap.values());
             }
-            current.occurrences = Array.from(existingOccMap.values());
           }
 
           // 3. Sessions (Student -> Parent)

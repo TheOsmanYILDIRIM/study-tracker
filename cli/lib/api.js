@@ -79,7 +79,7 @@ async function fetchFamilyData(overrideCode = null) {
 /**
  * Cloudflare KV'ye güncel aile verilerini yükler (senderRole: "PARENT" veya "CHILD")
  */
-async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT') {
+async function pushFamilyData(payload, overrideCode = null, senderRole = 'ADMIN') {
   const config = loadConfig();
   const code = (overrideCode || payload.familyCode || config.familyCode || 'ST-2026').toUpperCase().trim();
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;

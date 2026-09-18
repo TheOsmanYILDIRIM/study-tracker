@@ -140,9 +140,12 @@ object CloudflareSyncManager {
                 it.toDomain(json)
             }
 
+            val isLocalDbEmpty = (plan == null && occurrences.isEmpty())
+            val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
-                senderRole = com.studytracker.BuildConfig.APP_ROLE,
+                senderRole = effectiveRole,
                 action = "SYNC",
                 plan = plan,
                 tasks = tasks,
