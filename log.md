@@ -1,5 +1,12 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-19] Tamamlandı: Cloudflare Worker v2.0 - Veri Ayrıştırma (Data Segregation), Komut Deseni & RBAC
+- **Veri Ayrıştırma ve KV Sharding:** Monolitik tek parça JSON yerine `meta`, `plan`, `progress:${taskId}`, `sessions`, `screenshots`, `reviews`, `messages` bağımsız KV parçalarına ayrıldı.
+- **Rol Bazlı Yetki ve Komut Deseni (`POST /api/v2/commands`):** Veli `REJECT_TASK`, `RESET_ALL_PROGRESS`, `WIPE`, `RESTORE` komutlarını tekilleştirilmiş API üzerinden tetikler; öğrenci yalnızca kendi ilerlemesini (`POST /api/v2/progress/:taskId`) güncelleyebilir.
+- **Tombstone & Silinen Görev Koruması:** Veli/Admin görev sildiğinde `meta.tombstones` listesine eklenir; eski istemciler senkronize olduğunda silinen dersleri tekrar hortlatamaz.
+- **Çift Yönlü Tam Geriye Uyumluluk (v1 & v2 Dual Routing):** Hem `/api/v2/...` hem de eski `/api/sync`, `/api/messages`, `/api/pair`, `/api/reset`, `/api/wipe` uç noktaları eksiksiz desteklendi.
+- **Android & CLI Dayanıklılığı:** `CloudflareSyncManager.kt` içerisine hem v2 hem v1 otomatik fallback yerleştirildi. `test-sync.js` test paketi güncellenip %100 doğrulandı.
+
 ### [2026-09-19] Tamamlandı: Öğrenci Hatırlatıcı, Veli Bildirim Gönderme & 5 Dakikalık Arkaplan Kontrolcüsü (Periodic Nudge & Reminder Engine)
 - **Android Sistem Bildirimi Kanalları:** `StudyNotificationManager.kt` ile `studytracker_reminders` (Ders & Mola Hatırlatıcıları) ve `studytracker_parent_nudges` (Veli Mesaj & Yönlendirmeleri - Yüksek Öncelik/Sesli/Titreşimli) kanalları kuruldu.
 - **5 Dakikalık Periyodik Alarm & Alıcı:** `StudyReminderScheduler.kt` ve `StudyReminderReceiver.kt` geliştirildi. Android arka plan kısıtlamalarını aşmak için `AlarmManager.setAndAllowWhileIdle` ile 5 dakikalık hassas döngü kuruldu. Cihaz yeniden başlatmalarında `BootReceiver.kt` ile alarm otomatik yeniden başlatılır.

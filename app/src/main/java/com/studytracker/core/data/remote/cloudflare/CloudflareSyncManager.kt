@@ -622,16 +622,6 @@ object CloudflareSyncManager {
         try {
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
-            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages")
-            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
-                requestMethod = "POST"
-                connectTimeout = 8000
-                readTimeout = 8000
-                doOutput = true
-                setRequestProperty("Content-Type", "application/json; charset=utf-8")
-                setRequestProperty("X-Family-Code", familyCode)
-                setRequestProperty("X-Sender-Role", "PARENT")
-            }
 
             val msgPayload = RemoteMessageSyncDto(
                 id = "msg_${System.currentTimeMillis()}_${(1000..9999).random()}",
@@ -647,12 +637,54 @@ object CloudflareSyncManager {
             )
 
             val bodyJson = json.encodeToString(msgPayload)
-            OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(bodyJson); it.flush() }
+            var sent = false
 
-            val responseCode = conn.responseCode
-            if (responseCode !in 200..299) {
-                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
-                return@withContext Result.failure(Exception("Mesaj iletilemedi ($responseCode): $errorStream"))
+            // 1. Doğrudan v2 /api/v2/messages veya /api/messages dene
+            try {
+                val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode")
+                val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                    requestMethod = "POST"
+                    connectTimeout = 6000
+                    readTimeout = 6000
+                    doOutput = true
+                    setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                    setRequestProperty("X-Family-Code", familyCode)
+                    setRequestProperty("X-Sender-Role", "PARENT")
+                }
+                OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(bodyJson); it.flush() }
+                if (conn.responseCode in 200..299) {
+                    sent = true
+                }
+            } catch (e: Exception) {
+                Log.w(TAG, "v2/messages isteği başarısız, /api/sync fallback deneniyor: ${e.message}")
+            }
+
+            // 2. Fallback: POST /api/sync ile ilet
+            if (!sent) {
+                val syncPayload = SharedFamilySyncPayload(
+                    familyCode = familyCode,
+                    senderRole = "PARENT",
+                    action = "ADD_MESSAGE",
+                    messages = listOf(msgPayload)
+                )
+                val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
+                val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                    requestMethod = "POST"
+                    connectTimeout = 8000
+                    readTimeout = 8000
+                    doOutput = true
+                    setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                    setRequestProperty("X-Family-Code", familyCode)
+                    setRequestProperty("X-Sender-Role", "PARENT")
+                }
+                val syncJson = json.encodeToString(syncPayload)
+                OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(syncJson); it.flush() }
+                if (conn.responseCode in 200..299) {
+                    sent = true
+                } else {
+                    val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP ${conn.responseCode}"
+                    return@withContext Result.failure(Exception("Mesaj iletilemedi (${conn.responseCode}): $errorStream"))
+                }
             }
 
             Log.d(TAG, "Öğrenciye bildirim mesajı gönderildi: $title -> $message")
@@ -670,25 +702,24 @@ object CloudflareSyncManager {
         try {
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
-            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages?code=$familyCode&unread=$unreadOnly")
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode&unread=$unreadOnly")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
-                connectTimeout = 8000
-                readTimeout = 8000
+                connectTimeout = 6000
+                readTimeout = 6000
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
             }
 
             val responseCode = conn.responseCode
-            if (responseCode !in 200..299) {
-                return@withContext Result.failure(Exception("HTTP $responseCode"))
+            if (responseCode in 200..299) {
+                val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+                val parsed = json.decodeFromString<CloudSyncPayloadWrapper>(responseText)
+                return@withContext Result.success(parsed.messages)
             }
-
-            val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
-            val parsed = json.decodeFromString<CloudSyncPayloadWrapper>(responseText)
-            Result.success(parsed.messages)
+            throw Exception("HTTP $responseCode")
         } catch (e: Exception) {
-            // Alternatif direkt JSON listesi denemesi
+            // Alternatif direkt /api/sync denemesi
             try {
                 val prefs = AppPreferences.getInstance(context)
                 val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
@@ -756,7 +787,7 @@ object CloudflareSyncManager {
         try {
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
-            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages")
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "PUT"
                 connectTimeout = 6000
