@@ -401,7 +401,7 @@ object StudyPackageExchangeManager {
             }
 
             // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions & reflect parent edits/deletions)
-            val isParentPlan = (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION)
+            val isParentOrCloudPlan = (pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD" || pkg.packageType == PackageType.PLAN_DISTRIBUTION)
             if (pkg.occurrences.isNotEmpty()) {
                 val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
                 val taskTemplateMap = pkg.tasks.associateBy { it.taskId }
@@ -411,23 +411,37 @@ object StudyPackageExchangeManager {
                     val local = localOccMap[remote.id]
                     val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
 
-                    // Status resolution hierarchy:
-                    // If either side approved OR approved review exists -> APPROVED
-                    // If student sent report with WAITING_REVIEW -> WAITING_REVIEW
-                    // If student was ACTIVE -> ACTIVE
-                    // If rejected -> PENDING with warning
                     val cleanPlanId = remote.planId.ifBlank { remote.id.substringAfterLast("_", "").ifBlank { remote.id.substringBefore(":", "") } }
-                    val hasApprovedReview = pkg.reviews.any { rev ->
-                        (rev.sessionId == remote.id || rev.sessionId == cleanPlanId || rev.sessionId.endsWith("_$cleanPlanId") || (local != null && rev.sessionId == local.occurrenceKey)) && rev.isApproved
+                    val matchingReview = pkg.reviews.find { rev ->
+                        rev.sessionId == remote.id ||
+                        rev.sessionId == cleanPlanId ||
+                        rev.sessionId.endsWith("_$cleanPlanId") ||
+                        (local != null && (rev.sessionId == local.occurrenceKey || rev.occurrenceKey == local.occurrenceKey)) ||
+                        (rev.occurrenceKey == remote.id)
                     }
 
+                    val hasApprovedReview = (matchingReview != null && matchingReview.isApproved)
+                    val hasRejectedReview = (matchingReview != null && !matchingReview.isApproved)
+                    val hasParentWarning = remote.parentNote.isNotBlank() || (local?.warning == true) || hasRejectedReview
+
+                    val warningText = when {
+                        hasRejectedReview -> matchingReview?.feedbackNote ?: matchingReview?.rejectionReason ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız."
+                        remote.parentNote.isNotBlank() -> remote.parentNote
+                        else -> local?.warningText
+                    }
+
+                    // Status resolution hierarchy:
+                    // 1. Approved (either review approved or status approved)
+                    // 2. Rejected (either review rejected or remote has parent note/rejection while local is waiting)
+                    // 3. Waiting Review (submitted by student, awaiting parent)
+                    // 4. Active (currently in progress)
+                    // 5. Default remote status
                     val resolvedStatus = when {
-                        local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED || hasApprovedReview -> OccurrenceStatus.APPROVED
+                        hasApprovedReview || remoteStatus == OccurrenceStatus.APPROVED || local?.status == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+                        hasRejectedReview || (hasParentWarning && remoteStatus == OccurrenceStatus.PENDING) || remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
                         remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                         local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
-                        remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
-                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
-                        else -> local?.status ?: remoteStatus
+                        else -> remoteStatus
                     }
 
                     val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
@@ -435,8 +449,8 @@ object StudyPackageExchangeManager {
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
 
-                    val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
-                    val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
+                    val finalWarning = if (finalStatus == OccurrenceStatus.APPROVED) false else hasParentWarning
+                    val finalWarningText = if (finalStatus == OccurrenceStatus.APPROVED) null else warningText
 
                     val derivedTaskId = when {
                         remote.planId.isNotBlank() -> remote.planId
@@ -452,19 +466,15 @@ object StudyPackageExchangeManager {
                         ?: urlRegex.find(remote.parentNote)?.value 
                         ?: remote.studentNote?.let { urlRegex.find(it)?.value }
 
-                    val resolvedYoutubeUrl = if (isParentPlan) {
-                        if (!remote.youtubeUrl.isNullOrBlank()) {
-                            remote.youtubeUrl
-                        } else {
-                            templateTask?.youtubeUrl ?: extractedFromText
-                        }
+                    val resolvedYoutubeUrl = if (!remote.youtubeUrl.isNullOrBlank()) {
+                        remote.youtubeUrl
                     } else {
-                        remote.youtubeUrl ?: local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText
+                        local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText
                     }
 
-                    val finalTitle = if (isParentPlan && remote.subject.isNotBlank()) remote.subject else (local?.title ?: remote.subject)
-                    val finalPlannedMinutes = if (isParentPlan && remote.targetDurationMin > 0) remote.targetDurationMin else ((local?.plannedMinutes ?: 0).takeIf { it > 0 } ?: remote.targetDurationMin)
-                    val finalDate = if (isParentPlan && remote.date.isNotBlank()) remote.date else (local?.date ?: remote.date.ifEmpty { null })
+                    val finalTitle = if (remote.subject.isNotBlank()) remote.subject else (local?.title ?: remote.subject)
+                    val finalPlannedMinutes = if (remote.targetDurationMin > 0) remote.targetDurationMin else (local?.plannedMinutes ?: 30)
+                    val finalDate = if (remote.date.isNotBlank()) remote.date else (local?.date ?: remote.date.ifEmpty { null })
 
                     OccurrenceEntity(
                         occurrenceKey = remote.id,
@@ -477,9 +487,9 @@ object StudyPackageExchangeManager {
                         youtubeUrl = resolvedYoutubeUrl,
                         reviewRequired = true,
                         status = finalStatus,
-                        warning = hasWarning,
-                        warningText = warningText,
-                        rejectCount = maxOf(local?.rejectCount ?: 0, if (hasWarning) 1 else 0),
+                        warning = finalWarning,
+                        warningText = finalWarningText,
+                        rejectCount = maxOf(local?.rejectCount ?: 0, if (finalWarning) 1 else 0),
                         approvedCount = approvedCount,
                         targetCount = targetCount,
                         targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
@@ -488,7 +498,7 @@ object StudyPackageExchangeManager {
                 }
 
                 // If this is an explicit parent plan distribution file, remove any local occurrences that were deleted by parent
-                if (isParentPlan) {
+                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
                     val remoteKeys = pkg.occurrences.map { it.id }.toSet()
                     val allLocal = db.occurrenceDao().getAllOccurrencesOnce()
                     allLocal.filter { it.occurrenceKey !in remoteKeys && (pkg.plan?.weekId == null || it.weekId == pkg.plan?.weekId) }
@@ -496,7 +506,7 @@ object StudyPackageExchangeManager {
                 }
 
                 db.occurrenceDao().upsertOccurrences(mergedOccs)
-            } else if (isParentPlan && pkg.plan == null && pkg.tasks.isEmpty()) {
+            } else if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION && pkg.plan == null && pkg.tasks.isEmpty()) {
                 // Parent wiped everything
                 db.occurrenceDao().clearOccurrences()
                 db.planDao().clearActivePlan()
@@ -508,7 +518,7 @@ object StudyPackageExchangeManager {
             if (pkg.sessions.isNotEmpty()) {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
                 val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
-                if (isParentPlan) {
+                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
                     // Parent provided active session list in explicit plan package, remove orphan local sessions
                     localSessions.keys.filter { it !in remoteSessionIds }.forEach {
                         db.sessionDao().deleteSession(it)
@@ -516,9 +526,11 @@ object StudyPackageExchangeManager {
                 }
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
+                    val hasApprovedReview = pkg.reviews.any { it.sessionId == rs.id && it.isApproved }
+                    val hasRejectedReview = pkg.reviews.any { it.sessionId == rs.id && !it.isApproved }
                     val resolvedStatus = when {
-                        existing?.status == SessionStatus.APPROVED -> SessionStatus.APPROVED
-                        existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED
+                        hasApprovedReview || existing?.status == SessionStatus.APPROVED -> SessionStatus.APPROVED
+                        hasRejectedReview || existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED
                         rs.isCompleted -> SessionStatus.WAITING_REVIEW
                         else -> existing?.status ?: SessionStatus.ACTIVE
                     }

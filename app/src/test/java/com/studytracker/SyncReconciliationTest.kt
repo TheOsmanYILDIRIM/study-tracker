@@ -69,21 +69,30 @@ class SyncReconciliationTest {
     }
 
     @Test
-    fun `reconciliation preserves student WAITING_REVIEW when remote is PENDING`() {
+    fun `reconciliation transitions student WAITING_REVIEW to PENDING with warning when parent rejects`() {
         val localStatus = OccurrenceStatus.WAITING_REVIEW
         val remoteStatus = OccurrenceStatus.PENDING
-        val isParentPlan = false
+        val hasRejectedReview = true
+        val hasApprovedReview = false
+        val hasParentWarning = true
 
         val resolvedStatus = when {
-            localStatus == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+            hasApprovedReview || remoteStatus == OccurrenceStatus.APPROVED || localStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+            hasRejectedReview || (hasParentWarning && remoteStatus == OccurrenceStatus.PENDING) || remoteStatus == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
             remoteStatus == OccurrenceStatus.WAITING_REVIEW || localStatus == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
-            localStatus == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
-            remoteStatus == OccurrenceStatus.REJECTED || localStatus == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
-            isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
-            else -> localStatus
+            else -> remoteStatus
         }
 
-        assertEquals(OccurrenceStatus.WAITING_REVIEW, resolvedStatus)
+        assertEquals(OccurrenceStatus.PENDING, resolvedStatus)
+    }
+
+    @Test
+    fun `reconciliation overrides stale local title when remote has updated title from parent`() {
+        val localTitle = "Eski Ders İsmi"
+        val remoteSubject = "Yeni Güncellenmiş Ders İsmi"
+
+        val finalTitle = if (remoteSubject.isNotBlank()) remoteSubject else localTitle
+        assertEquals("Yeni Güncellenmiş Ders İsmi", finalTitle)
     }
 
     @Test

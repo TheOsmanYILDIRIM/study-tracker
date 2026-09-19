@@ -188,47 +188,70 @@ class StudySyncProvider : ContentProvider() {
                 val local = localOccMap[remote.id]
                 val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
 
+                val cleanPlanId = remote.planId.ifBlank { remote.id.substringAfterLast("_", "").ifBlank { remote.id.substringBefore(":", "") } }
+                val matchingReview = payload.reviews.find { rev ->
+                    rev.sessionId == remote.id ||
+                    rev.sessionId == cleanPlanId ||
+                    rev.sessionId.endsWith("_$cleanPlanId") ||
+                    (local != null && (rev.sessionId == local.occurrenceKey || rev.occurrenceKey == local.occurrenceKey)) ||
+                    (rev.occurrenceKey == remote.id)
+                }
+
+                val hasApprovedReview = (matchingReview != null && matchingReview.isApproved)
+                val hasRejectedReview = (matchingReview != null && !matchingReview.isApproved)
+                val hasParentWarning = remote.parentNote.isNotBlank() || (local?.warning == true) || hasRejectedReview
+
+                val warningText = when {
+                    hasRejectedReview -> matchingReview?.feedbackNote ?: matchingReview?.rejectionReason ?: "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız."
+                    remote.parentNote.isNotBlank() -> remote.parentNote
+                    else -> local?.warningText
+                }
+
                 val resolvedStatus = when {
-                    isParentRole && remoteStatus == OccurrenceStatus.PENDING && (local?.status == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.REJECTED) -> OccurrenceStatus.PENDING
-                    local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
-                    local?.status == OccurrenceStatus.WAITING_REVIEW || remoteStatus == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
+                    hasApprovedReview || remoteStatus == OccurrenceStatus.APPROVED || local?.status == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+                    hasRejectedReview || (hasParentWarning && remoteStatus == OccurrenceStatus.PENDING) || remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
+                    remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                     local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
-                    remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
-                    else -> local?.status ?: remoteStatus
+                    else -> remoteStatus
                 }
 
                 val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
-                val targetCount = local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null
+                val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                 val isApprovedByCount = (targetCount != null && approvedCount >= targetCount && payload.action != "RESET")
                 val finalStatus = if (isApprovedByCount) OccurrenceStatus.APPROVED else resolvedStatus
 
-                val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
-                val warningText = if (remote.parentNote.isNotBlank()) remote.parentNote else local?.warningText
+                val finalWarning = if (finalStatus == OccurrenceStatus.APPROVED) false else hasParentWarning
+                val finalWarningText = if (finalStatus == OccurrenceStatus.APPROVED) null else warningText
 
                 val templateTask = taskTemplateMap[remote.planId] ?: (local?.taskId?.let { taskTemplateMap[it] })
                 val extractedFromText = urlRegex.find(remote.subject)?.value 
                     ?: urlRegex.find(remote.parentNote)?.value 
                     ?: remote.studentNote?.let { urlRegex.find(it)?.value }
 
-                val resolvedYoutubeUrl = remote.youtubeUrl
-                    ?: local?.youtubeUrl
-                    ?: templateTask?.youtubeUrl
-                    ?: extractedFromText
+                val resolvedYoutubeUrl = if (!remote.youtubeUrl.isNullOrBlank()) {
+                    remote.youtubeUrl
+                } else {
+                    local?.youtubeUrl ?: templateTask?.youtubeUrl ?: extractedFromText
+                }
+
+                val finalTitle = if (remote.subject.isNotBlank()) remote.subject else (local?.title ?: remote.subject)
+                val finalPlannedMinutes = if (remote.targetDurationMin > 0) remote.targetDurationMin else (local?.plannedMinutes ?: 30)
+                val finalDate = if (remote.date.isNotBlank()) remote.date else (local?.date ?: remote.date.ifEmpty { null })
 
                 OccurrenceEntity(
                     occurrenceKey = remote.id,
                     taskId = if (!local?.taskId.isNullOrBlank()) local!!.taskId else remote.planId,
                     type = local?.type ?: try { TaskKind.valueOf(remote.topic) } catch (_: Exception) { TaskKind.DAILY },
-                    date = local?.date ?: remote.date.ifEmpty { null },
+                    date = finalDate,
                     weekId = local?.weekId ?: remote.weekId.ifEmpty { null },
-                    title = if (!local?.title.isNullOrBlank()) local!!.title else remote.subject,
-                    plannedMinutes = if ((local?.plannedMinutes ?: 0) > 0) local!!.plannedMinutes else remote.targetDurationMin,
+                    title = finalTitle,
+                    plannedMinutes = finalPlannedMinutes,
                     youtubeUrl = resolvedYoutubeUrl,
                     reviewRequired = true,
                     status = finalStatus,
-                    warning = hasWarning,
-                    warningText = warningText,
-                    rejectCount = maxOf(local?.rejectCount ?: 0, if (hasWarning) 1 else 0),
+                    warning = finalWarning,
+                    warningText = finalWarningText,
+                    rejectCount = maxOf(local?.rejectCount ?: 0, if (finalWarning) 1 else 0),
                     approvedCount = approvedCount,
                     targetCount = targetCount,
                     targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
