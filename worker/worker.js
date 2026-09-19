@@ -455,7 +455,10 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [], plan: null };
 
   if (isAdminOrParent && (incoming.plan || Array.isArray(incoming.tasks) || Array.isArray(incoming.occurrences))) {
-    const incomingTasks = (incoming.tasks || incoming.occurrences || []).map(normalizeTask).filter(Boolean);
+    const rawList = (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0)
+      ? incoming.occurrences
+      : (Array.isArray(incoming.tasks) && incoming.tasks.length > 0 ? incoming.tasks : []);
+    const incomingTasks = rawList.map(normalizeTask).filter(Boolean);
     if (incomingTasks.length > 0) {
       const incomingIds = new Set(incomingTasks.map(t => t.id));
       const oldIds = (planData.tasks || []).map(t => t.id || t.occurrenceKey);
@@ -464,6 +467,9 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
         if (!incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) {
           meta.tombstones.push(oldId);
         }
+      }
+      for (const incId of incomingIds) {
+        meta.tombstones = (meta.tombstones || []).filter(id => id !== incId);
       }
 
       planData.tasks = incomingTasks;
@@ -492,11 +498,20 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
         if (occ.studentNote !== undefined) prog.studentNote = occ.studentNote;
         if (occ.status === 'WAITING_REVIEW') prog.status = 'WAITING_REVIEW';
       } else if (isAdminOrParent) {
-        if (occ.status === 'APPROVED' || occ.status === 'REJECTED') {
+        if (occ.status) {
           prog.status = occ.status;
+        }
+        if (occ.completedDurationMin !== undefined || occ.completedMin !== undefined) {
+          prog.completedMin = Number(occ.completedDurationMin ?? occ.completedMin ?? 0);
+        }
+        if (occ.completedQuestionCount !== undefined || occ.completedQuestions !== undefined) {
+          prog.completedQuestions = Number(occ.completedQuestionCount ?? occ.completedQuestions ?? 0);
         }
         if (occ.warningText !== undefined || occ.parentNote !== undefined) {
           prog.parentNote = occ.warningText || occ.parentNote;
+        }
+        if (occ.studentNote !== undefined) {
+          prog.studentNote = occ.studentNote;
         }
       }
 
@@ -560,8 +575,12 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
 
   if (method === 'POST' || method === 'PUT') {
     const body = await request.json();
-    if (body.tasks && Array.isArray(body.tasks)) {
-      const incomingTasks = body.tasks.map(normalizeTask).filter(Boolean);
+    const rawList = (Array.isArray(body.occurrences) && body.occurrences.length > 0)
+      ? body.occurrences
+      : (Array.isArray(body.tasks) && body.tasks.length > 0 ? body.tasks : []);
+
+    if (rawList.length > 0) {
+      const incomingTasks = rawList.map(normalizeTask).filter(Boolean);
       const incomingIds = new Set(incomingTasks.map(t => t.id));
       const oldIds = (planData.tasks || []).map(t => t.id);
 
@@ -569,6 +588,9 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
         if (!incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) {
           meta.tombstones.push(oldId);
         }
+      }
+      for (const incId of incomingIds) {
+        meta.tombstones = (meta.tombstones || []).filter(id => id !== incId);
       }
 
       planData.tasks = incomingTasks;
