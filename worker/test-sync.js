@@ -215,8 +215,35 @@ async function runTest() {
   if (staleRes.data.data.occurrences.length !== 1) throw new Error('Silinmiş ders hortlatıldı!');
   console.log('   ✅ Silinmiş ders güvenle korundu, hortlatılmadı.\n');
 
+  // Adım 10: Veli Mesajı & Bildirim Gönderme ve Okundu Testi
+  console.log('🔟 Veli öğrenciye anlık motivasyon/hatırlatma mesajı gönderiyor (POST /api/messages)...');
+  const sendMsg = await mockFetch('POST', `/api/messages?code=${familyCode}`, {
+    title: 'Ders Zamanı!',
+    message: 'Bugünkü 9. Sınıf Matematik etüdünü yapmayı unutma 🚀',
+    type: 'REMINDER'
+  });
+  console.log('   Mesaj Gönderim Sonucu:', sendMsg.data.message);
+  console.log('   Eklenen Mesaj ID:', sendMsg.data.data?.id);
+  if (!sendMsg.data.success || !sendMsg.data.data?.id) throw new Error('Mesaj gönderilemedi!');
+
+  console.log('   Öğrenci okunmamış mesajları çekiyor (GET /api/messages?unread=true)...');
+  const unreadRes = await mockFetch('GET', `/api/messages?code=${familyCode}&unread=true`);
+  console.log('   Okunmamış Mesaj Sayısı (1 Bekleniyor):', unreadRes.data.count);
+  if (unreadRes.data.count !== 1) throw new Error('Okunmamış mesaj sayısı hatalı!');
+
+  console.log('   Öğrenci mesajı okundu olarak işaretliyor (PUT /api/messages)...');
+  const readRes = await mockFetch('PUT', `/api/messages?code=${familyCode}`, {
+    messageId: sendMsg.data.data.id
+  });
+  console.log('   Okundu Sonucu:', readRes.data.message);
+
+  const unreadAfter = await mockFetch('GET', `/api/messages?code=${familyCode}&unread=true`);
+  console.log('   Kalan Okunmamış Mesaj (0 Bekleniyor):', unreadAfter.data.count);
+  if (unreadAfter.data.count !== 0) throw new Error('Mesaj okundu olarak işaretlenemedi!');
+  console.log('   ✅ Bildirim ve mesaj döngüsü %100 başarılı.\n');
+
   console.log('🎉 ========================================================');
-  console.log('🎉 TÜM BULUT & YETKİLENDİRME TESTLERİ BAŞARIYLA GEÇTİ!');
+  console.log('🎉 TÜM BULUT & YETKİLENDİRME & BİLDİRİM TESTLERİ BAŞARIYLA GEÇTİ!');
   console.log('🎉 ========================================================');
 }
 

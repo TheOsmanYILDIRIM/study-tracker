@@ -94,6 +94,7 @@ fun ParentDashboardScreen(
     var selectedDayFilter by remember { mutableStateOf("ALL") }
     var showResetConfirmDialog by remember { mutableStateOf(false) }
     var showCloudSyncDialog by remember { mutableStateOf(false) }
+    var showSendNudgeDialog by remember { mutableStateOf(false) }
     var showMoreMenu by remember { mutableStateOf(false) }
     var taskToEdit by remember { mutableStateOf<Occurrence?>(null) }
     var sessionToReject by remember { mutableStateOf<Session?>(null) }
@@ -419,6 +420,12 @@ fun ParentDashboardScreen(
         )
     }
 
+    if (showSendNudgeDialog) {
+        com.studytracker.core.ui.components.SendNudgeDialog(
+            onDismissRequest = { showSendNudgeDialog = false }
+        )
+    }
+
     val timeFormat = remember { SimpleDateFormat("HH:mm", Locale.getDefault()) }
     val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd", Locale.US) }
 
@@ -482,6 +489,20 @@ fun ParentDashboardScreen(
                     }
                 },
                 actions = {
+                    // Öğrenciye Bildirim/Mesaj Gönder Butonu
+                    IconButton(onClick = { showSendNudgeDialog = true }) {
+                        Box(
+                            modifier = Modifier
+                                .size(34.dp)
+                                .clip(ZenPillShape)
+                                .background(Color(0xFF8B5CF6).copy(alpha = 0.2f))
+                                .border(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.5f), ZenPillShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.NotificationsActive, contentDescription = "Öğrenciye Bildirim Gönder", tint = Color(0xFFA78BFA), modifier = Modifier.size(18.dp))
+                        }
+                    }
+
                     IconButton(onClick = { showCloudSyncDialog = true }) {
                         Box(
                             modifier = Modifier
@@ -514,6 +535,14 @@ fun ParentDashboardScreen(
                             onDismissRequest = { showMoreMenu = false },
                             modifier = Modifier.background(Color(0xFF10192D)).border(1.dp, ZenNightBorder, RoundedCornerShape(12.dp))
                         ) {
+                            DropdownMenuItem(
+                                text = { Text("📢 Öğrenciye Bildirim Gönder", color = Color(0xFFA78BFA), fontWeight = FontWeight.SemiBold, fontSize = 13.sp) },
+                                leadingIcon = { Icon(Icons.Default.NotificationsActive, contentDescription = null, tint = Color(0xFFA78BFA), modifier = Modifier.size(18.dp)) },
+                                onClick = {
+                                    showMoreMenu = false
+                                    showSendNudgeDialog = true
+                                }
+                            )
                             DropdownMenuItem(
                                 text = { Text("✨ AI Plan Stüdyosu", color = ZenSkyCyan, fontWeight = FontWeight.SemiBold, fontSize = 13.sp) },
                                 leadingIcon = { Icon(Icons.Default.AutoAwesome, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp)) },

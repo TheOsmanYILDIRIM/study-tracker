@@ -141,6 +141,29 @@ async function restoreFamilyData(overrideCode = null) {
 }
 
 /**
+ * Öğrenciye anlık bildirim / motivasyon mesajı gönderir
+ */
+async function sendNotification(overrideCode, messagePayload) {
+  const config = loadConfig();
+  const code = (overrideCode || messagePayload.familyCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const endpoint = `${config.workerUrl}/api/messages`;
+
+  return await makeRequest(endpoint, {
+    method: 'POST',
+    headers: {
+      'X-Family-Code': code,
+      'X-Sender-Role': messagePayload.senderRole || 'PARENT'
+    }
+  }, {
+    familyCode: code,
+    title: messagePayload.title || 'Ders Hatırlatması',
+    message: messagePayload.message || '',
+    type: messagePayload.type || 'REMINDER',
+    senderRole: messagePayload.senderRole || 'PARENT'
+  });
+}
+
+/**
  * Aile kodunu doğrular / oluşturur
  */
 async function pairFamily(pairCode) {
@@ -155,5 +178,6 @@ module.exports = {
   fetchFamilyData,
   pushFamilyData,
   restoreFamilyData,
+  sendNotification,
   pairFamily
 };

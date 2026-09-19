@@ -16,6 +16,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <!-- Package Visibility Queries for Cross-APK ContentProvider IPC and External Video/Browser Launching -->
     <queries>
@@ -149,6 +150,27 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+        <!-- 5-Minute Background Reminder & Cloud Notification Receiver -->
+        <receiver
+            android:name=".core.notification.StudyReminderReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.studytracker.action.CHECK_REMINDERS" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Device Boot Receiver -->
+        <receiver
+            android:name=".core.notification.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
 
     </application>
 

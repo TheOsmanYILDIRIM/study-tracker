@@ -62,11 +62,41 @@ class AppPreferences private constructor(context: Context) {
         setNightMode(!_isNightMode.value)
     }
 
+    private val _isNotificationsEnabled = MutableStateFlow(prefs.getBoolean(KEY_NOTIFICATIONS_ENABLED, true))
+    val isNotificationsEnabled: StateFlow<Boolean> = _isNotificationsEnabled.asStateFlow()
+
+    private val _lastUnreadMessage = MutableStateFlow(prefs.getString(KEY_LAST_UNREAD_MESSAGE, null))
+    val lastUnreadMessage: StateFlow<String?> = _lastUnreadMessage.asStateFlow()
+
+    var lastNotifiedMessageTime: Long
+        get() = prefs.getLong(KEY_LAST_NOTIFIED_MESSAGE_TIME, 0L)
+        set(value) = prefs.edit().putLong(KEY_LAST_NOTIFIED_MESSAGE_TIME, value).apply()
+
+    var lastStudyReminderDate: String?
+        get() = prefs.getString(KEY_LAST_STUDY_REMINDER_DATE, null)
+        set(value) = prefs.edit().putString(KEY_LAST_STUDY_REMINDER_DATE, value).apply()
+
+    fun setNotificationsEnabled(enabled: Boolean) {
+        prefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, enabled).apply()
+        _isNotificationsEnabled.value = enabled
+    }
+
+    fun setLastUnreadMessage(messageJson: String?) {
+        prefs.edit().putString(KEY_LAST_UNREAD_MESSAGE, messageJson).apply()
+        _lastUnreadMessage.value = messageJson
+    }
+
+    fun clearLastUnreadMessage() {
+        setLastUnreadMessage(null)
+    }
+
     fun resetAllPreferences() {
         prefs.edit().clear().apply()
         _hasCompletedTutorial.value = false
         _isFakeCaptureEnabled.value = false
         _isNightMode.value = true
+        _isNotificationsEnabled.value = true
+        _lastUnreadMessage.value = null
     }
 
     companion object {
@@ -75,6 +105,10 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
         private const val KEY_NIGHT_MODE = "is_night_mode"
         private const val KEY_FAMILY_PAIR_CODE = "family_pair_code"
+        private const val KEY_NOTIFICATIONS_ENABLED = "is_notifications_enabled"
+        private const val KEY_LAST_NOTIFIED_MESSAGE_TIME = "last_notified_message_time"
+        private const val KEY_LAST_STUDY_REMINDER_DATE = "last_study_reminder_date"
+        private const val KEY_LAST_UNREAD_MESSAGE = "last_unread_message"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null

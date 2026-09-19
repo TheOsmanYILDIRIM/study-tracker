@@ -95,6 +95,20 @@ data class LocalTaskTemplateSyncDto(
 )
 
 @Serializable
+data class RemoteMessageSyncDto(
+    val id: String = "",
+    val familyCode: String = "",
+    val senderRole: String = "PARENT", // "PARENT" or "SYSTEM"
+    val title: String = "",
+    val message: String = "",
+    val type: String = "REMINDER", // "REMINDER", "PRAISE", "URGENT", "CUSTOM"
+    val timestamp: Long = System.currentTimeMillis(),
+    val isRead: Boolean = false,
+    val targetDate: String? = null,
+    val targetOccurrenceId: String? = null
+)
+
+@Serializable
 data class SharedFamilySyncPayload(
     val familyCode: String = "",
     val senderRole: String = "PARENT",
@@ -107,6 +121,7 @@ data class SharedFamilySyncPayload(
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<Quiz> = emptyList(),
+    val messages: List<RemoteMessageSyncDto> = emptyList(),
     val updatedAt: Long = System.currentTimeMillis()
 )
 

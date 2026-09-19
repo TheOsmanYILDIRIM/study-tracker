@@ -49,6 +49,8 @@ import com.studytracker.core.ui.theme.*
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlinx.coroutines.launch
+import kotlinx.serialization.json.Json
+import com.studytracker.core.data.remote.sync.RemoteMessageSyncDto
 
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.repository.LocalQuizRepositoryImpl
@@ -79,6 +81,7 @@ fun ChildHomeScreen(
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val prefs = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
     val quizRepo = remember { LocalQuizRepositoryImpl(db) }
     val quizzes by quizRepo.getAllQuizzes().collectAsState(initial = emptyList())
@@ -162,15 +165,17 @@ fun ChildHomeScreen(
         }
     }
 
-    // Auto-sync on startup
+    // Auto-sync & check notifications on startup
     LaunchedEffect(Unit) {
         CloudflareSyncManager.syncWithCloud(context)
+        CloudflareSyncManager.checkAndDeliverPendingNotifications(context)
     }
 
     val pullRefreshState = rememberPullToRefreshState()
     if (pullRefreshState.isRefreshing) {
         LaunchedEffect(true) {
             CloudflareSyncManager.syncWithCloud(context)
+            CloudflareSyncManager.checkAndDeliverPendingNotifications(context)
             pullRefreshState.endRefresh()
         }
     }
@@ -613,12 +618,109 @@ fun ChildHomeScreen(
                     .fillMaxSize()
                     .padding(padding)
             ) {
+                val unreadMessageJson by prefs.lastUnreadMessage.collectAsState()
+                val unreadMessage = remember(unreadMessageJson) {
+                    if (!unreadMessageJson.isNullOrBlank()) {
+                        try {
+                            Json { ignoreUnknownKeys = true }.decodeFromString<RemoteMessageSyncDto>(unreadMessageJson!!)
+                        } catch (_: Exception) { null }
+                    } else null
+                }
+
                 LazyColumn(
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(horizontal = 16.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
+                    // -1. Veliden Gelen Yeni Mesaj / Bildirim Kartı
+                    if (unreadMessage != null) {
+                        item(key = "parent_nudge_banner") {
+                            Surface(
+                                shape = RoundedCornerShape(18.dp),
+                                color = Color(0xFF1E1538),
+                                border = BorderStroke(1.5.dp, Color(0xFFA78BFA)),
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Column(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(16.dp)
+                                ) {
+                                    Row(
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                                    ) {
+                                        Box(
+                                            modifier = Modifier
+                                                .size(38.dp)
+                                                .clip(CircleShape)
+                                                .background(Color(0xFF8B5CF6).copy(alpha = 0.3f))
+                                                .border(1.dp, Color(0xFFA78BFA), CircleShape),
+                                            contentAlignment = Alignment.Center
+                                        ) {
+                                            val icon = when (unreadMessage.type) {
+                                                "PRAISE" -> Icons.Default.Star
+                                                "URGENT" -> Icons.Default.Warning
+                                                else -> Icons.Default.NotificationsActive
+                                            }
+                                            Icon(
+                                                imageVector = icon,
+                                                contentDescription = null,
+                                                tint = Color(0xFFA78BFA),
+                                                modifier = Modifier.size(20.dp)
+                                            )
+                                        }
+                                        Column(modifier = Modifier.weight(1f)) {
+                                            Text(
+                                                text = unreadMessage.title.ifBlank { "Velinden Mesaj Var!" },
+                                                fontWeight = FontWeight.Bold,
+                                                fontSize = 14.sp,
+                                                color = Color(0xFFE9D5FF)
+                                            )
+                                            Text(
+                                                text = "Ebeveyn Notu",
+                                                fontSize = 11.sp,
+                                                color = ZomoTextSecondary
+                                            )
+                                        }
+                                    }
+
+                                    Spacer(modifier = Modifier.height(10.dp))
+
+                                    Text(
+                                        text = unreadMessage.message,
+                                        fontSize = 13.sp,
+                                        color = ZomoTextPrimary,
+                                        lineHeight = 18.sp
+                                    )
+
+                                    Spacer(modifier = Modifier.height(12.dp))
+
+                                    Row(
+                                        horizontalArrangement = Arrangement.End,
+                                        modifier = Modifier.fillMaxWidth()
+                                    ) {
+                                        Button(
+                                            onClick = {
+                                                scope.launch {
+                                                    CloudflareSyncManager.markMessageAsRead(context, unreadMessage.id)
+                                                }
+                                            },
+                                            shape = RoundedCornerShape(12.dp),
+                                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF8B5CF6)),
+                                            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp)
+                                        ) {
+                                            Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(16.dp))
+                                            Spacer(modifier = Modifier.width(6.dp))
+                                            Text("Anladım / Okundu 👍", fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     // 0. Belirgin Kanıt Alma & Sayaç Hizmeti Açma Kartı
                     if (!hasOverlayPermission || !hasAccessibilityPermission) {
                         item(key = "permission_service_alert") {

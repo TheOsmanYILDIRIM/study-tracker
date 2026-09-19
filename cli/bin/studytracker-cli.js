@@ -35,6 +35,9 @@ ${colors.bold}Ders / Görev İşlemleri:${colors.reset}
   ${colors.green}studytracker-cli task edit <occKey> [--title "..."] [--min 40] [--video "..."]${colors.reset} Dersi düzenler
   ${colors.green}studytracker-cli task delete <occKey>${colors.reset}       Dersi programdan ve buluttan kalıcı siler
   
+${colors.bold}Öğrenciye Bildirim & Mesaj Gönderme:${colors.reset}
+  ${colors.green}studytracker-cli notify -m "Ders vakti!" [-t "Başlık"] [--type REMINDER|PRAISE|URGENT]${colors.reset}
+
 ${colors.bold}Sıfırlama & Geri Alma (Snapshot & Fallback):${colors.reset}
   ${colors.green}studytracker-cli reset [--full]${colors.reset}              İlerlemeyi sıfırlar (24 saatlik yedek alır)
   ${colors.green}studytracker-cli restore${colors.reset}                     Sıfırlama öncesi 24 saatlik yedeği geri yükler (Undo)
@@ -483,6 +486,39 @@ async function main() {
         console.log(`  • Onaylı Sayısı: ${(restored.occurrences || []).filter(o => o.status === 'APPROVED').length}`);
         console.log(`  • Oturum Sayısı: ${(restored.sessions || []).length}`);
         console.log(`\n${colors.dim}Öğrenci ve Veli uygulamaları açıldığında veya yenilendiğinde eski ilerleme geri gelecektir.${colors.reset}`);
+        break;
+      }
+
+      // 7. NOTIFY / NUDGE / SEND MESSAGE
+      case 'notify':
+      case 'nudge':
+      case 'message': {
+        const msgText = parsed.options.message || parsed.options.m || parsed.positionals.slice(1).join(' ');
+        const title = parsed.options.title || parsed.options.t || 'Ders Hatırlatması';
+        const type = (parsed.options.type || 'REMINDER').toUpperCase();
+
+        if (!msgText) {
+          console.error(`${colors.red}❌ Hata: Gönderilecek mesaj metni belirtilmedi! (Örn: studytracker-cli notify -m "Matematik etüdünü yap") ${colors.reset}`);
+          process.exit(1);
+        }
+
+        const { sendNotification } = require('../lib/api');
+        const res = await sendNotification(familyCode, {
+          title,
+          message: msgText,
+          type,
+          senderRole: 'PARENT'
+        });
+
+        if (res.success) {
+          console.log(`\n${colors.bold}${colors.brightGreen}✅ Bildirim başarıyla öğrenciye iletildi!${colors.reset}`);
+          console.log(`  • Aile Kodu : ${colors.cyan}${familyCode}${colors.reset}`);
+          console.log(`  • Başlık    : ${colors.bold}${title}${colors.reset}`);
+          console.log(`  • Mesaj     : ${msgText}`);
+          console.log(`  • Tür       : ${type}\n`);
+        } else {
+          console.error(`${colors.red}❌ Bildirim iletilemedi: ${res.error || 'Bilinmeyen hata'}${colors.reset}`);
+        }
         break;
       }
 

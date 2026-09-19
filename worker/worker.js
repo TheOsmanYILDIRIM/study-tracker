@@ -95,6 +95,22 @@ function normalizeScreenshot(ss) {
   };
 }
 
+function normalizeMessage(m) {
+  if (!m) return null;
+  return {
+    id: m.id || `msg_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+    familyCode: m.familyCode || m.family_code || '',
+    senderRole: m.senderRole || m.sender_role || 'PARENT',
+    title: m.title || 'Bildirim',
+    message: m.message || m.body || m.text || '',
+    type: m.type || 'REMINDER', // REMINDER, PRAISE, URGENT, CUSTOM
+    timestamp: Number(m.timestamp ?? m.createdAt ?? Date.now()),
+    isRead: Boolean(m.isRead ?? m.is_read ?? false),
+    targetDate: m.targetDate || m.target_date || null,
+    targetOccurrenceId: m.targetOccurrenceId || m.target_occurrence_id || null
+  };
+}
+
 const inMemoryStore = new Map();
 
 async function getStoreData(env, key) {
@@ -151,7 +167,8 @@ export default {
             sessions: [],
             screenshots: [],
             reviews: [],
-            quizzes: []
+            quizzes: [],
+            messages: []
           };
           await setStoreData(env, `family:${code}`, initialRecord);
         }
@@ -178,7 +195,8 @@ export default {
               sessions: [],
               screenshots: [],
               reviews: [],
-              quizzes: []
+              quizzes: [],
+              messages: []
             };
             return new Response(JSON.stringify({
               success: true,
@@ -193,6 +211,7 @@ export default {
           current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
           current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
           current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
+          current.messages = Array.isArray(current.messages) ? current.messages : [];
 
           return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
         }
@@ -212,7 +231,8 @@ export default {
             sessions: [],
             screenshots: [],
             reviews: [],
-            quizzes: []
+            quizzes: [],
+            messages: []
           };
 
           current.occurrences = Array.isArray(current.occurrences) ? current.occurrences : [];
@@ -221,6 +241,7 @@ export default {
           current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
           current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
           current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
+          current.messages = Array.isArray(current.messages) ? current.messages : [];
 
           // Snapshot key for 24h rollback / fallback
           const snapshotKey = `family:${familyCode}:snapshot_prev`;
@@ -541,10 +562,104 @@ export default {
             current.quizzes = Array.from(quizMap.values());
           }
 
+          // 8. Messages / Notifications (Parent/System -> Student Nudges & Reminders)
+          if (Array.isArray(incoming.messages) && incoming.messages.length > 0) {
+            const msgMap = new Map((current.messages || []).map(m => [m.id, m]));
+            incoming.messages.map(normalizeMessage).filter(Boolean).forEach(m => {
+              const prev = msgMap.get(m.id);
+              msgMap.set(m.id, prev ? { ...prev, ...m } : m);
+            });
+            current.messages = Array.from(msgMap.values()).slice(-50);
+          }
+
           current.updatedAt = Date.now();
           await setStoreData(env, storeKey, current);
 
           return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
+        }
+      }
+
+      // 4. Messages / Notifications Endpoint (GET / POST / PUT)
+      if (path === '/api/messages' || path === '/api/notify') {
+        const familyCode = (url.searchParams.get('code') || request.headers.get('X-Family-Code') || 'ST-2026').toUpperCase().trim();
+        const storeKey = `family:${familyCode}`;
+        let current = (await getStoreData(env, storeKey)) || {
+          familyCode,
+          createdAt: Date.now(),
+          updatedAt: Date.now(),
+          plan: null,
+          tasks: [],
+          occurrences: [],
+          sessions: [],
+          screenshots: [],
+          reviews: [],
+          quizzes: [],
+          messages: []
+        };
+        current.messages = (current.messages || []).map(normalizeMessage).filter(Boolean);
+
+        if (request.method === 'GET') {
+          const unreadOnly = url.searchParams.get('unread') === 'true';
+          const since = Number(url.searchParams.get('since') || 0);
+          let list = current.messages;
+          if (unreadOnly) {
+            list = list.filter(m => !m.isRead);
+          }
+          if (since > 0) {
+            list = list.filter(m => m.timestamp > since);
+          }
+          return new Response(JSON.stringify({
+            success: true,
+            familyCode,
+            count: list.length,
+            messages: list
+          }), { headers: CORS_HEADERS });
+        }
+
+        if (request.method === 'POST') {
+          const incoming = await request.json().catch(() => ({}));
+          const newMsg = normalizeMessage({
+            ...incoming,
+            familyCode,
+            senderRole: incoming.senderRole || request.headers.get('X-Sender-Role') || 'PARENT',
+            timestamp: Date.now(),
+            isRead: false
+          });
+
+          if (!newMsg || !newMsg.message) {
+            return new Response(JSON.stringify({ success: false, error: 'Mesaj metni boş olamaz' }), { status: 400, headers: CORS_HEADERS });
+          }
+
+          current.messages.push(newMsg);
+          // Sadece son 50 mesajı tut
+          if (current.messages.length > 50) {
+            current.messages = current.messages.slice(-50);
+          }
+          current.updatedAt = Date.now();
+          await setStoreData(env, storeKey, current);
+
+          return new Response(JSON.stringify({
+            success: true,
+            message: 'Bildirim başarıyla kaydedildi ve öğrenciye iletildi',
+            data: newMsg
+          }), { headers: CORS_HEADERS });
+        }
+
+        if (request.method === 'PUT') {
+          const body = await request.json().catch(() => ({}));
+          const targetId = body.messageId || body.id;
+          const markAll = body.all === true;
+
+          if (markAll) {
+            current.messages.forEach(m => { m.isRead = true; });
+          } else if (targetId) {
+            const m = current.messages.find(x => x.id === targetId);
+            if (m) m.isRead = true;
+          }
+          current.updatedAt = Date.now();
+          await setStoreData(env, storeKey, current);
+
+          return new Response(JSON.stringify({ success: true, message: 'Mesaj durumu güncellendi' }), { headers: CORS_HEADERS });
         }
       }
 

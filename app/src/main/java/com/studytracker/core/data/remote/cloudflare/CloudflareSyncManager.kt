@@ -43,7 +43,8 @@ data class CloudSyncPayloadWrapper(
     val sessions: List<RemoteSessionSyncDto> = emptyList(),
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
-    val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList()
+    val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList(),
+    val messages: List<RemoteMessageSyncDto> = emptyList()
 )
 
 sealed class SyncCheckResult {
@@ -604,6 +605,175 @@ object CloudflareSyncManager {
             }
         } catch (e: Exception) {
             Result.failure(e)
+        }
+    }
+
+    /**
+     * Veli tarafından öğrenciye anlık bildirim / motivasyon mesajı gönderir.
+     */
+    suspend fun sendMessageToStudent(
+        context: Context,
+        title: String,
+        message: String,
+        type: String = "REMINDER",
+        targetDate: String? = null,
+        targetOccurrenceId: String? = null
+    ): Result<RemoteMessageSyncDto> = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"
+                connectTimeout = 8000
+                readTimeout = 8000
+                doOutput = true
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", "PARENT")
+            }
+
+            val msgPayload = RemoteMessageSyncDto(
+                id = "msg_${System.currentTimeMillis()}_${(1000..9999).random()}",
+                familyCode = familyCode,
+                senderRole = "PARENT",
+                title = title.trim(),
+                message = message.trim(),
+                type = type,
+                timestamp = System.currentTimeMillis(),
+                isRead = false,
+                targetDate = targetDate,
+                targetOccurrenceId = targetOccurrenceId
+            )
+
+            val bodyJson = json.encodeToString(msgPayload)
+            OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(bodyJson); it.flush() }
+
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                return@withContext Result.failure(Exception("Mesaj iletilemedi ($responseCode): $errorStream"))
+            }
+
+            Log.d(TAG, "Öğrenciye bildirim mesajı gönderildi: $title -> $message")
+            Result.success(msgPayload)
+        } catch (e: Exception) {
+            Log.e(TAG, "sendMessageToStudent hatası: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
+
+    /**
+     * Cloudflare KV üzerinden aileye ait mesajları çeker.
+     */
+    suspend fun fetchMessages(context: Context, unreadOnly: Boolean = false): Result<List<RemoteMessageSyncDto>> = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages?code=$familyCode&unread=$unreadOnly")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "GET"
+                connectTimeout = 8000
+                readTimeout = 8000
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+            }
+
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                return@withContext Result.failure(Exception("HTTP $responseCode"))
+            }
+
+            val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+            val parsed = json.decodeFromString<CloudSyncPayloadWrapper>(responseText)
+            Result.success(parsed.messages)
+        } catch (e: Exception) {
+            // Alternatif direkt JSON listesi denemesi
+            try {
+                val prefs = AppPreferences.getInstance(context)
+                val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+                val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
+                val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                    requestMethod = "GET"
+                    connectTimeout = 8000
+                    readTimeout = 8000
+                }
+                val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+                val syncRes = json.decodeFromString<CloudSyncResponse>(responseText)
+                Result.success(syncRes.data?.messages ?: emptyList())
+            } catch (ex: Exception) {
+                Log.e(TAG, "fetchMessages hatası: ${ex.message}", ex)
+                Result.failure(ex)
+            }
+        }
+    }
+
+    /**
+     * Arkaplanda (5 dakikada bir) çalışarak yeni okunmamış veli mesajlarını Android sistem bildirimi olarak gösterir.
+     */
+    suspend fun checkAndDeliverPendingNotifications(context: Context): Int = withContext(Dispatchers.IO) {
+        var deliveredCount = 0
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val lastNotifiedTime = prefs.lastNotifiedMessageTime
+
+            // Cloudflare'den en son veriyi çek
+            val cloudRes = fetchCloudData(context)
+            if (cloudRes.isFailure) return@withContext 0
+
+            val cloudData = cloudRes.getOrNull() ?: return@withContext 0
+            val messages = cloudData.messages
+
+            val unreadNewMessages = messages.filter { msg ->
+                !msg.isRead && msg.timestamp > lastNotifiedTime && msg.senderRole != "CHILD"
+            }.sortedBy { it.timestamp }
+
+            for (msg in unreadNewMessages) {
+                // Bildirim göster
+                com.studytracker.core.notification.StudyNotificationManager.showParentNudgeNotification(context, msg)
+                deliveredCount++
+
+                if (msg.timestamp > prefs.lastNotifiedMessageTime) {
+                    prefs.lastNotifiedMessageTime = msg.timestamp
+                }
+                prefs.setLastUnreadMessage(json.encodeToString(msg))
+            }
+
+            if (deliveredCount > 0) {
+                Log.d(TAG, "✅ $deliveredCount yeni veli bildirimi öğrenciye teslim edildi.")
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "checkAndDeliverPendingNotifications hatası: ${e.message}", e)
+        }
+        deliveredCount
+    }
+
+    /**
+     * Mesajı okundu olarak işaretler.
+     */
+    suspend fun markMessageAsRead(context: Context, messageId: String? = null, all: Boolean = false): Boolean = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/messages")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "PUT"
+                connectTimeout = 6000
+                readTimeout = 6000
+                doOutput = true
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+            }
+
+            val body = if (all) "{\"familyCode\": \"$familyCode\", \"all\": true}" else "{\"familyCode\": \"$familyCode\", \"messageId\": \"$messageId\"}"
+            OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(body); it.flush() }
+
+            prefs.clearLastUnreadMessage()
+            conn.responseCode in 200..299
+        } catch (e: Exception) {
+            Log.e(TAG, "markMessageAsRead hatası: ${e.message}", e)
+            false
         }
     }
 }

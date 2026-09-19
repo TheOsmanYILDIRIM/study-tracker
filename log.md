@@ -1,5 +1,12 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-19] Tamamlandı: Öğrenci Hatırlatıcı, Veli Bildirim Gönderme & 5 Dakikalık Arkaplan Kontrolcüsü (Periodic Nudge & Reminder Engine)
+- **Android Sistem Bildirimi Kanalları:** `StudyNotificationManager.kt` ile `studytracker_reminders` (Ders & Mola Hatırlatıcıları) ve `studytracker_parent_nudges` (Veli Mesaj & Yönlendirmeleri - Yüksek Öncelik/Sesli/Titreşimli) kanalları kuruldu.
+- **5 Dakikalık Periyodik Alarm & Alıcı:** `StudyReminderScheduler.kt` ve `StudyReminderReceiver.kt` geliştirildi. Android arka plan kısıtlamalarını aşmak için `AlarmManager.setAndAllowWhileIdle` ile 5 dakikalık hassas döngü kuruldu. Cihaz yeniden başlatmalarında `BootReceiver.kt` ile alarm otomatik yeniden başlatılır.
+- **Veli Anlık Bildirim & Nudge Gönderme Masası:** `SendNudgeDialog.kt` ile velinin tek dokunuşla hazır şablonlar (⏰ Ders Vakti, 🌟 Harika Gidiyorsun, ☕ Mola Ver, 📇 Anki Kartları, ✍️ Ödevini Bitir, 🚨 Önemli Uyarı) veya özel metin yazarak öğrencinin cihazına anlık bildirim gönderebilmesi sağlandı. `ParentDashboardScreen.kt` TopBar ve menüsüne entegre edildi.
+- **Öğrenci Ekranı İnteraktif Bildirim Banner'ı:** `ChildHomeScreen.kt` üzerine mor temalı "Velinden Mesaj Var" başlığı, animasyonlu zil ikonu ve "Anladım / Okundu 👍" onay butonu eklendi.
+- **Cloudflare Worker & CLI Mesajlaşma API:** `worker/worker.js` içine `GET /api/messages`, `POST /api/messages`, `POST /api/notify` ve `PUT /api/messages` uç noktaları eklendi. `studytracker-cli notify -m "..." -t "..."` komutu ile terminalden öğrenciye bildirim gönderme desteği getirildi.
+
 ### [2026-09-19] Tamamlandı: Onay ve İlerleme Sıfırlanma / Bulut Ezilme Düzeltmesi (Lossless Sync & Immediate Review Push)
 - **Öğrenci Oturumu & İlerlemesinin Bulut Tarafından Sıfırlanmasını Engelleme:** `CloudflareSyncManager.kt` içindeki zararlı pre-fetch (`fetchCloudData -> applyCloudDataToLocal`) kodu kaldırıldı; `applyCloudDataToLocal` çağrısında `senderRole = "CLOUD"` ve `packageType = REVIEW_FEEDBACK` yapıldı.
 - **Yıkıcı Oturum ve Soru Sayısı Silinmesinin Önlenmesi:** `StudyPackageExchangeManager.kt` içinde bulut senkronizasyonunun yanlışlıkla tam plan dağıtımı gibi davranarak yerel bekleyen oturumları silmesi engellendi; `approvedCount` her zaman `maxOf(local, remote)` olarak korundu ve `WAITING_REVIEW` / `APPROVED` durumları kalıcı kılındı.

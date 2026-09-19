@@ -95,6 +95,22 @@ function normalizeScreenshot(ss) {
   };
 }
 
+function normalizeMessage(m) {
+  if (!m) return null;
+  return {
+    id: m.id || `msg_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+    familyCode: m.familyCode || m.family_code || '',
+    senderRole: m.senderRole || m.sender_role || 'PARENT',
+    title: m.title || 'Bildirim',
+    message: m.message || m.body || m.text || '',
+    type: m.type || 'REMINDER', // REMINDER, PRAISE, URGENT, CUSTOM
+    timestamp: Number(m.timestamp ?? m.createdAt ?? Date.now()),
+    isRead: Boolean(m.isRead ?? m.is_read ?? false),
+    targetDate: m.targetDate || m.target_date || null,
+    targetOccurrenceId: m.targetOccurrenceId || m.target_occurrence_id || null
+  };
+}
+
 const inMemoryStore = new Map();
 
 async function getStoreData(env, key) {
@@ -151,7 +167,8 @@ export default {
             sessions: [],
             screenshots: [],
             reviews: [],
-            quizzes: []
+            quizzes: [],
+            messages: []
           };
           await setStoreData(env, `family:${code}`, initialRecord);
         }
@@ -178,7 +195,8 @@ export default {
               sessions: [],
               screenshots: [],
               reviews: [],
-              quizzes: []
+              quizzes: [],
+              messages: []
             };
             return new Response(JSON.stringify({
               success: true,
@@ -193,6 +211,7 @@ export default {
           current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
           current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
           current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
+          current.messages = Array.isArray(current.messages) ? current.messages : [];
 
           return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
         }
@@ -212,7 +231,8 @@ export default {
             sessions: [],
             screenshots: [],
             reviews: [],
-            quizzes: []
+            quizzes: [],
+            messages: []
           };
 
           current.occurrences = Array.isArray(current.occurrences) ? current.occurrences : [];
@@ -221,9 +241,33 @@ export default {
           current.screenshots = Array.isArray(current.screenshots) ? current.screenshots : [];
           current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
           current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
+          current.messages = Array.isArray(current.messages) ? current.messages : [];
 
-          // A) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
+          // Snapshot key for 24h rollback / fallback
+          const snapshotKey = `family:${familyCode}:snapshot_prev`;
+
+          // A) Geri Alma / Fallback (RESTORE / UNDO_RESET)
+          if (action === 'RESTORE' || action === 'UNDO_RESET') {
+            const previousSnapshot = await getStoreData(env, snapshotKey);
+            if (!previousSnapshot) {
+              return new Response(JSON.stringify({ 
+                success: false, 
+                error: 'Geri yüklenebilecek önceki bir durum yedeği (snapshot) bulunamadı veya süresi doldu.' 
+              }), { status: 404, headers: CORS_HEADERS });
+            }
+            previousSnapshot.updatedAt = Date.now();
+            await setStoreData(env, storeKey, previousSnapshot);
+            return new Response(JSON.stringify({ 
+              success: true, 
+              data: previousSnapshot, 
+              message: 'Önceki durum yedeği (snapshot) başarıyla geri yüklendi.' 
+            }), { headers: CORS_HEADERS });
+          }
+
+          // A.1) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
           if (action === 'WIPE') {
+            // Save current state as fallback snapshot for 24 hours (86400s)
+            await setStoreData(env, snapshotKey, current, 86400);
             current = {
               familyCode,
               createdAt: current.createdAt || Date.now(),
@@ -237,11 +281,16 @@ export default {
               quizzes: []
             };
             await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı (24 saatlik yedek alındı)' }), { headers: CORS_HEADERS });
           }
 
           // B) İlerleme Sıfırlama (Reset Progress)
           if (action === 'RESET') {
+            // Save current state as fallback snapshot before wiping progress
+            await setStoreData(env, snapshotKey, current, 86400);
+            const resetTime = Date.now();
+            current.resetAt = resetTime;
+            current.planUpdatedAt = resetTime;
             for (const occ of (current.occurrences || [])) {
               occ.status = 'PENDING';
               occ.completedDurationMin = 0;
@@ -252,9 +301,9 @@ export default {
             current.sessions = [];
             current.screenshots = [];
             current.reviews = [];
-            current.updatedAt = Date.now();
+            current.updatedAt = resetTime;
             await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı (24 saatlik geri alma yedeği oluşturuldu)' }), { headers: CORS_HEADERS });
           }
 
           // C) Tekil Ders Güncelleme (Patch Single Task - Zero Side-effects)
@@ -421,6 +470,16 @@ export default {
             }
           } else {
             // 3. CHILD (Öğrenci Authority: Activity & Progress only)
+            const resetThreshold = parseTime(current.resetAt || 0);
+
+            // Filter incoming sessions to only accept those created AFTER the resetAt threshold
+            const incomingSessionsList = (Array.isArray(incoming.sessions) ? incoming.sessions : [])
+              .map(normalizeSession)
+              .filter(Boolean)
+              .filter(s => parseTime(s.startTime) >= resetThreshold);
+
+            const activeOccKeysWithNewSessions = new Set(incomingSessionsList.map(s => s.occurrenceId));
+
             if (incomingOccurrences.length > 0) {
               for (const remote of incomingOccurrences) {
                 if (tombstoneSet.has(remote.id)) continue;
@@ -429,42 +488,50 @@ export default {
                 if (local) {
                   let resolvedStatus = local.status;
                   if (local.status !== 'APPROVED') {
-                    if (remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE') {
+                    if (remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE' || remote.status === 'APPROVED') {
                       resolvedStatus = remote.status;
                     }
                   }
 
+                  const newCount = Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0);
+                  const newDuration = Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0);
+
                   prevOccMap.set(remote.id, {
                     ...local,
                     status: resolvedStatus,
-                    completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
-                    completedDurationMin: Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0),
+                    completedQuestionCount: newCount,
+                    completedDurationMin: newDuration,
                     studentNote: remote.studentNote || local.studentNote
                   });
                 }
               }
               current.occurrences = Array.from(prevOccMap.values());
             }
-          }
 
-          // 4. Sessions (Student -> Parent)
-          if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
-            const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
-            incoming.sessions.map(normalizeSession).filter(Boolean).forEach(s => {
-              const prev = sessMap.get(s.id);
-              sessMap.set(s.id, prev ? { ...prev, ...s } : s);
-            });
-            current.sessions = Array.from(sessMap.values());
-          }
+            // 4. Sessions (Student -> Parent) - Only merge sessions after reset
+            if (incomingSessionsList.length > 0) {
+              const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
+              incomingSessionsList.forEach(s => {
+                const prev = sessMap.get(s.id);
+                sessMap.set(s.id, prev ? { ...prev, ...s } : s);
+              });
+              current.sessions = Array.from(sessMap.values());
+            }
 
-          // 5. Screenshots (Student -> Parent)
-          if (Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
-            const ssMap = new Map((current.screenshots || []).map(s => [s.id, s]));
-            incoming.screenshots.map(normalizeScreenshot).filter(Boolean).forEach(s => {
-              const prev = ssMap.get(s.id);
-              ssMap.set(s.id, prev ? { ...prev, ...s } : s);
-            });
-            current.screenshots = Array.from(ssMap.values()).slice(-40);
+            // 5. Screenshots (Student -> Parent) - Only merge screenshots after reset
+            const incomingScreenshotsList = (Array.isArray(incoming.screenshots) ? incoming.screenshots : [])
+              .map(normalizeScreenshot)
+              .filter(Boolean)
+              .filter(ss => parseTime(ss.timestamp) >= resetThreshold);
+
+            if (incomingScreenshotsList.length > 0) {
+              const ssMap = new Map((current.screenshots || []).map(s => [s.id, s]));
+              incomingScreenshotsList.forEach(s => {
+                const prev = ssMap.get(s.id);
+                ssMap.set(s.id, prev ? { ...prev, ...s } : s);
+              });
+              current.screenshots = Array.from(ssMap.values()).slice(-40);
+            }
           }
 
           // 6. Reviews (Parent / Admin -> Student)
@@ -495,10 +562,104 @@ export default {
             current.quizzes = Array.from(quizMap.values());
           }
 
+          // 8. Messages / Notifications (Parent/System -> Student Nudges & Reminders)
+          if (Array.isArray(incoming.messages) && incoming.messages.length > 0) {
+            const msgMap = new Map((current.messages || []).map(m => [m.id, m]));
+            incoming.messages.map(normalizeMessage).filter(Boolean).forEach(m => {
+              const prev = msgMap.get(m.id);
+              msgMap.set(m.id, prev ? { ...prev, ...m } : m);
+            });
+            current.messages = Array.from(msgMap.values()).slice(-50);
+          }
+
           current.updatedAt = Date.now();
           await setStoreData(env, storeKey, current);
 
           return new Response(JSON.stringify({ success: true, data: current }), { headers: CORS_HEADERS });
+        }
+      }
+
+      // 4. Messages / Notifications Endpoint (GET / POST / PUT)
+      if (path === '/api/messages' || path === '/api/notify') {
+        const familyCode = (url.searchParams.get('code') || request.headers.get('X-Family-Code') || 'ST-2026').toUpperCase().trim();
+        const storeKey = `family:${familyCode}`;
+        let current = (await getStoreData(env, storeKey)) || {
+          familyCode,
+          createdAt: Date.now(),
+          updatedAt: Date.now(),
+          plan: null,
+          tasks: [],
+          occurrences: [],
+          sessions: [],
+          screenshots: [],
+          reviews: [],
+          quizzes: [],
+          messages: []
+        };
+        current.messages = (current.messages || []).map(normalizeMessage).filter(Boolean);
+
+        if (request.method === 'GET') {
+          const unreadOnly = url.searchParams.get('unread') === 'true';
+          const since = Number(url.searchParams.get('since') || 0);
+          let list = current.messages;
+          if (unreadOnly) {
+            list = list.filter(m => !m.isRead);
+          }
+          if (since > 0) {
+            list = list.filter(m => m.timestamp > since);
+          }
+          return new Response(JSON.stringify({
+            success: true,
+            familyCode,
+            count: list.length,
+            messages: list
+          }), { headers: CORS_HEADERS });
+        }
+
+        if (request.method === 'POST') {
+          const incoming = await request.json().catch(() => ({}));
+          const newMsg = normalizeMessage({
+            ...incoming,
+            familyCode,
+            senderRole: incoming.senderRole || request.headers.get('X-Sender-Role') || 'PARENT',
+            timestamp: Date.now(),
+            isRead: false
+          });
+
+          if (!newMsg || !newMsg.message) {
+            return new Response(JSON.stringify({ success: false, error: 'Mesaj metni boş olamaz' }), { status: 400, headers: CORS_HEADERS });
+          }
+
+          current.messages.push(newMsg);
+          // Sadece son 50 mesajı tut
+          if (current.messages.length > 50) {
+            current.messages = current.messages.slice(-50);
+          }
+          current.updatedAt = Date.now();
+          await setStoreData(env, storeKey, current);
+
+          return new Response(JSON.stringify({
+            success: true,
+            message: 'Bildirim başarıyla kaydedildi ve öğrenciye iletildi',
+            data: newMsg
+          }), { headers: CORS_HEADERS });
+        }
+
+        if (request.method === 'PUT') {
+          const body = await request.json().catch(() => ({}));
+          const targetId = body.messageId || body.id;
+          const markAll = body.all === true;
+
+          if (markAll) {
+            current.messages.forEach(m => { m.isRead = true; });
+          } else if (targetId) {
+            const m = current.messages.find(x => x.id === targetId);
+            if (m) m.isRead = true;
+          }
+          current.updatedAt = Date.now();
+          await setStoreData(env, storeKey, current);
+
+          return new Response(JSON.stringify({ success: true, message: 'Mesaj durumu güncellendi' }), { headers: CORS_HEADERS });
         }
       }
 
