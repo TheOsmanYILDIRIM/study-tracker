@@ -977,6 +977,9 @@ fun ParentDashboardScreen(
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
+                                                    try {
+                                                        CloudflareSyncManager.syncWithCloud(context)
+                                                    } catch (_: Exception) {}
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),

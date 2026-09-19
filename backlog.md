@@ -202,6 +202,12 @@
 - [x] **Sıfırlama Senkronizasyon Eylemi (`action: RESET` & `action: WIPE`):** Veli veya CLI sıfırlama yaptığında sunucuya `action: 'RESET'` gönderilerek öğrenci ve veli cihazlarındaki tamamlanmış/bekleyen oturumların `PENDING`'e çekilmesi.
 - [x] **24 Saatlik Geri Alma (Snapshot / Fallback):** Sıfırlama yapılmadan önce sunucuda `family:ST-XXXX:snapshot_prev` anahtarına mevcut durumun kaydedilmesi ve CLI/Veli ekranına **"Geri Al (Undo Reset)"** imkanının getirilmesi.
 
+## 49. Onay ve İlerleme Sıfırlanma / Bulut Ezilme Düzeltmesi (Lossless Sync & Immediate Review Push)
+- [x] **Öğrenci Oturumu & İlerlemesinin Bulut Tarafından Sıfırlanmasını Engelleme:** `CloudflareSyncManager.kt` içindeki zararlı pre-fetch (`fetchCloudData -> applyCloudDataToLocal`) kodu kaldırıldı; `applyCloudDataToLocal` çağrısında `senderRole = "CLOUD"` ve `packageType = REVIEW_FEEDBACK` yapıldı. `StudyPackageExchangeManager.kt` içinde yerel oturumları silen ve `approvedCount`'u sıfıra ezen yıkıcı davranış düzeltildi.
+- [x] **Veli Tek Tık Onayında Anında Bulut Eşitlemesi:** `ParentDashboardScreen.kt` içindeki "Aferin & Onayla" butonuna `CloudflareSyncManager.syncWithCloud(context)` çağrısı eklendi.
+- [x] **Kayıpsız Durum Mutabakatı:** `StudyPackageExchangeManager.kt` içinde `APPROVED` ve `WAITING_REVIEW` durumlarının ve soru sayılarının (`approvedCount = maxOf(...)`) korunması garanti altına alındı.
+
+
 
 
 

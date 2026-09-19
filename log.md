@@ -1,5 +1,11 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-19] Tamamlandı: Onay ve İlerleme Sıfırlanma / Bulut Ezilme Düzeltmesi (Lossless Sync & Immediate Review Push)
+- **Öğrenci Oturumu & İlerlemesinin Bulut Tarafından Sıfırlanmasını Engelleme:** `CloudflareSyncManager.kt` içindeki zararlı pre-fetch (`fetchCloudData -> applyCloudDataToLocal`) kodu kaldırıldı; `applyCloudDataToLocal` çağrısında `senderRole = "CLOUD"` ve `packageType = REVIEW_FEEDBACK` yapıldı.
+- **Yıkıcı Oturum ve Soru Sayısı Silinmesinin Önlenmesi:** `StudyPackageExchangeManager.kt` içinde bulut senkronizasyonunun yanlışlıkla tam plan dağıtımı gibi davranarak yerel bekleyen oturumları silmesi engellendi; `approvedCount` her zaman `maxOf(local, remote)` olarak korundu ve `WAITING_REVIEW` / `APPROVED` durumları kalıcı kılındı.
+- **Veli Tek Tık Onayında Anında Bulut Eşitlemesi:** `ParentDashboardScreen.kt` içindeki "Aferin & Onayla" butonuna `CloudflareSyncManager.syncWithCloud(context)` çağrısı eklendi.
+- **Worker İlerleme Koruması:** `worker/worker.js` içinde öğrenci durumu ve soru sayılarının sunucu tarafında da sıfırlanmadan korunması sağlandı.
+
 ### [2026-09-19] Tamamlandı: Veli Onay/Red Bulut Eşitlemesi, Sıfırlama Eylemi ve 24 Saatlik Geri Alma (Snapshot Fallback)
 - **Anlık Veli Onay/Red Bulut Push:** `SessionReviewScreen.kt` ve `ParentDashboardScreen.kt` içinde veli onay veya red kararı verdiği anda `CloudflareSyncManager.syncWithCloud(context)` tetiklenerek kararın Cloudflare KV ve öğrenci cihazına anında yansıması sağlandı.
 - **Sıfırlama Senkronizasyon Eylemi (`action: RESET` & `action: WIPE`):** Veli veya CLI sıfırlama yaptığında sunucuya `action: 'RESET'` gönderilerek sunucudaki oturumların temizlenmesi ve `StudySyncProvider` ile öğrenci cihazındaki onay bekleyen oturumların da `PENDING`'e çekilmesi sağlandı.

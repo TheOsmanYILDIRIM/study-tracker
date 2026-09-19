@@ -324,9 +324,9 @@ object CloudflareSyncManager {
 
         val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
             formatVersion = 1,
-            packageType = com.studytracker.core.data.package_exchange.PackageType.PLAN_DISTRIBUTION,
+            packageType = com.studytracker.core.data.package_exchange.PackageType.REVIEW_FEEDBACK,
             familyCode = familyCode,
-            senderRole = "PARENT",
+            senderRole = "CLOUD",
             title = "Cloudflare KV Sync ($familyCode)",
             plan = cloudData.plan,
             tasks = cloudData.tasks,
@@ -355,15 +355,6 @@ object CloudflareSyncManager {
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
             val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
-
-            // If CHILD is doing normal SYNC, fetch and apply cloud data first so student doesn't resurrect stale sessions
-            if (effectiveRole == "CHILD" && action == "SYNC") {
-                val cloudRes = fetchCloudData(context)
-                if (cloudRes.isSuccess && cloudRes.getOrNull() != null) {
-                    val cloudData = cloudRes.getOrNull()!!
-                    applyCloudDataToLocal(context, cloudData)
-                }
-            }
 
             val plan = db.planDao().getActivePlanOnce()?.let {
                 LocalPlanSyncDto(

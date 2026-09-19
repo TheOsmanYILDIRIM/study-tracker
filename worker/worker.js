@@ -466,23 +466,21 @@ export default {
                 const local = prevOccMap.get(remote.id);
                 if (local) {
                   let resolvedStatus = local.status;
-                  const hasNewSession = activeOccKeysWithNewSessions.has(remote.id);
-
                   if (local.status !== 'APPROVED') {
-                    if ((remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE') && (hasNewSession || resetThreshold === 0)) {
+                    if (remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE' || remote.status === 'APPROVED') {
                       resolvedStatus = remote.status;
                     }
                   }
 
-                  const newCount = hasNewSession ? Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0) : (local.completedQuestionCount || 0);
-                  const newDuration = hasNewSession ? Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0) : (local.completedDurationMin || 0);
+                  const newCount = Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0);
+                  const newDuration = Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0);
 
                   prevOccMap.set(remote.id, {
                     ...local,
                     status: resolvedStatus,
                     completedQuestionCount: newCount,
                     completedDurationMin: newDuration,
-                    studentNote: hasNewSession ? (remote.studentNote || local.studentNote) : local.studentNote
+                    studentNote: remote.studentNote || local.studentNote
                   });
                 }
               }

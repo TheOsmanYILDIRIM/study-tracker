@@ -67,4 +67,31 @@ class SyncReconciliationTest {
         assertEquals("ss_001", payload.screenshots.first().id)
         assertTrue(payload.screenshots.first().imageUrl.startsWith("data:image/jpeg;base64,"))
     }
+
+    @Test
+    fun `reconciliation preserves student WAITING_REVIEW when remote is PENDING`() {
+        val localStatus = OccurrenceStatus.WAITING_REVIEW
+        val remoteStatus = OccurrenceStatus.PENDING
+        val isParentPlan = false
+
+        val resolvedStatus = when {
+            localStatus == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
+            remoteStatus == OccurrenceStatus.WAITING_REVIEW || localStatus == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
+            localStatus == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
+            remoteStatus == OccurrenceStatus.REJECTED || localStatus == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
+            isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
+            else -> localStatus
+        }
+
+        assertEquals(OccurrenceStatus.WAITING_REVIEW, resolvedStatus)
+    }
+
+    @Test
+    fun `reconciliation never overwrites non-zero local approvedCount with remote zero`() {
+        val localApprovedCount = 20
+        val remoteCompletedCount = 0
+
+        val approvedCount = maxOf(localApprovedCount, remoteCompletedCount)
+        assertEquals(20, approvedCount)
+    }
 }

@@ -401,7 +401,7 @@ object StudyPackageExchangeManager {
             }
 
             // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions & reflect parent edits/deletions)
-            val isParentPlan = pkg.senderRole == "PARENT" || pkg.packageType == PackageType.PLAN_DISTRIBUTION
+            val isParentPlan = (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION)
             if (pkg.occurrences.isNotEmpty()) {
                 val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
                 val taskTemplateMap = pkg.tasks.associateBy { it.taskId }
@@ -422,20 +422,16 @@ object StudyPackageExchangeManager {
                     }
 
                     val resolvedStatus = when {
-                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
                         local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED || hasApprovedReview -> OccurrenceStatus.APPROVED
                         remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                         local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
                         remoteStatus == OccurrenceStatus.REJECTED || local?.status == OccurrenceStatus.REJECTED -> OccurrenceStatus.PENDING
+                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
                         else -> local?.status ?: remoteStatus
                     }
 
-                    val approvedCount = if (isParentPlan && remoteStatus == OccurrenceStatus.PENDING) {
-                        remote.completedQuestionCount
-                    } else {
-                        maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
-                    }
-                    val targetCount = if (isParentPlan && remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null)
+                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                    val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
 
@@ -491,7 +487,7 @@ object StudyPackageExchangeManager {
                     )
                 }
 
-                // If this is a parent plan sync, remove any local occurrences that were deleted by parent
+                // If this is an explicit parent plan distribution file, remove any local occurrences that were deleted by parent
                 if (isParentPlan) {
                     val remoteKeys = pkg.occurrences.map { it.id }.toSet()
                     val allLocal = db.occurrenceDao().getAllOccurrencesOnce()
@@ -513,7 +509,7 @@ object StudyPackageExchangeManager {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
                 val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
                 if (isParentPlan) {
-                    // Parent provided active session list, remove orphan local sessions not in remote
+                    // Parent provided active session list in explicit plan package, remove orphan local sessions
                     localSessions.keys.filter { it !in remoteSessionIds }.forEach {
                         db.sessionDao().deleteSession(it)
                     }
@@ -541,8 +537,7 @@ object StudyPackageExchangeManager {
                         )
                     )
                 }
-            } else if (isParentPlan) {
-                // If parent distributed or reset plan and remote has 0 sessions, clean local sessions & screenshots
+            } else if (isParentPlan && pkg.plan == null && pkg.tasks.isEmpty()) {
                 db.sessionDao().clearSessions()
                 db.screenshotDao().clearScreenshots()
             }
@@ -585,7 +580,7 @@ object StudyPackageExchangeManager {
                         )
                     }
                 }
-            } else if (isParentPlan) {
+            } else if (isParentPlan && pkg.plan == null && pkg.tasks.isEmpty()) {
                 db.reviewDao().clearReviews()
             }
 
