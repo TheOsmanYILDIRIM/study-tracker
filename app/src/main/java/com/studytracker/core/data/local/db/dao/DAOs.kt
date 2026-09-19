@@ -35,6 +35,9 @@ interface OccurrenceDao {
     @Query("SELECT * FROM occurrences WHERE date = :date")
     fun getDailyOccurrencesForDate(date: String): Flow<List<OccurrenceEntity>>
 
+    @Query("SELECT * FROM occurrences WHERE date = :date")
+    suspend fun getOccurrencesByDate(date: String): List<OccurrenceEntity>
+
     @Query("SELECT * FROM occurrences WHERE weekId = :weekId")
     fun getWeeklyOccurrences(weekId: String): Flow<List<OccurrenceEntity>>
 

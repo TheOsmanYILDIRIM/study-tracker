@@ -70,7 +70,7 @@ class StudyReminderReceiver : BroadcastReceiver() {
                             context = context,
                             title = "Bugünkü Ders Vakti Geldi!",
                             message = "Bugün tamamlanmayı bekleyen $pendingCount dersin var. Kısa bir seansla başlamak ister misin? 🎯",
-                            taskId = todayOccurrences.firstOrNull()?.id
+                            taskId = todayOccurrences.firstOrNull()?.taskId
                         )
                         prefs.lastStudyReminderDate = todayStr
                         Log.d(TAG, "Günlük ders hatırlatıcısı gönderildi ($pendingCount ders)")
