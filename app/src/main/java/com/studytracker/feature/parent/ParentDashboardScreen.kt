@@ -813,7 +813,9 @@ fun ParentDashboardScreen(
                                         "${waitingSessions.size} bekliyor",
                                         color = ZenRoseCoral,
                                         fontSize = 10.5.sp,
-                                        fontWeight = FontWeight.Bold
+                                        fontWeight = FontWeight.Bold,
+                                        maxLines = 1,
+                                        softWrap = false
                                     )
                                 }
                             }

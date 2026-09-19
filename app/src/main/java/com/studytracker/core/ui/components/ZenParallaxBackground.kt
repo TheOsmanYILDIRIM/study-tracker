@@ -193,6 +193,13 @@ fun ZenParallaxBackground(
                 }
         )
 
+        // --- 1.1 KORUYUCU KOYU OKUNABİLİRLİK SCRIM KATMANI (H33 / Kontrast Koruması) ---
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color(0xCC080D1A))
+        )
+
         // --- 2. DİNAMİK GÖKYÜZÜ TAKIMYILDIZLARI, GÖREV DÖNÜŞÜM UÇUŞU & DOĞUŞ PATLAMASI ---
         Canvas(
             modifier = Modifier

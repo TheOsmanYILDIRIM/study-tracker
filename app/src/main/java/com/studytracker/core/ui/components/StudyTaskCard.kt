@@ -282,10 +282,10 @@ fun StudyTaskCard(
             ) {
                 Text(
                     text = displayTitle,
-                    style = MaterialTheme.typography.titleMedium,
+                    style = MaterialTheme.typography.titleMedium.copy(lineHeight = 18.sp),
                     fontWeight = FontWeight.Bold,
                     color = ZomoTextPrimary,
-                    fontSize = 14.sp,
+                    fontSize = 13.5.sp,
                     maxLines = 3,
                     overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                 )
@@ -468,19 +468,19 @@ fun StudyTaskCard(
             }
         }
 
-        // Video Link Action Button
+        // Video Link Action Button (No raw URL leak, high contrast)
         if (effectiveVideoUrl != null) {
             val context = LocalContext.current
             val validUrl = effectiveVideoUrl
             Surface(
                 onClick = { openVideoUrl(context, validUrl) },
                 shape = RoundedCornerShape(10.dp),
-                color = Color(0x33E11D48),
-                border = androidx.compose.foundation.BorderStroke(1.2.dp, ZenRoseCoral),
+                color = ZenRoseCoral.copy(alpha = 0.14f),
+                border = androidx.compose.foundation.BorderStroke(1.dp, ZenRoseCoral.copy(alpha = 0.6f)),
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Row(
-                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 7.dp),
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
@@ -499,15 +499,15 @@ fun StudyTaskCard(
                     }
                     Column(modifier = Modifier.weight(1f)) {
                         Text(
-                            text = "🎬 Videoyu / Dersi Aç (YouTube)",
+                            text = "Dersi YouTube'da Aç",
                             fontWeight = FontWeight.Bold,
                             color = Color.White,
                             fontSize = 12.sp
                         )
                         Text(
-                            text = validUrl,
-                            color = ZenRoseCoral.copy(alpha = 0.85f),
-                            fontSize = 10.sp,
+                            text = "Konu anlatım videosunu izlemek için dokun",
+                            color = Color(0xFFFDA4AF),
+                            fontSize = 10.5.sp,
                             maxLines = 1,
                             overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                         )

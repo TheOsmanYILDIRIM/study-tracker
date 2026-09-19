@@ -493,6 +493,7 @@ fun ChildHomeScreen(
         Scaffold(
             containerColor = Color.Transparent,
             topBar = {
+                var showMoreActions by remember { mutableStateOf(false) }
                 TopAppBar(
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color(0xB3080D1A),
@@ -501,30 +502,35 @@ fun ChildHomeScreen(
                     title = {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                            horizontalArrangement = Arrangement.spacedBy(8.dp),
+                            modifier = Modifier.fillMaxWidth()
                         ) {
                             Box(
                                 modifier = Modifier
-                                .size(36.dp)
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
+                                    .size(34.dp)
+                                    .clip(RoundedCornerShape(10.dp))
+                                    .background(ZenSkyCyanContainer)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.4f), RoundedCornerShape(10.dp)),
                                 contentAlignment = Alignment.Center
                             ) {
-                                Icon(Icons.Default.AutoStories, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
+                                Icon(Icons.Default.AutoStories, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
                             }
-                            Column {
+                            Column(modifier = Modifier.weight(1f)) {
                                 Text(
                                     "Çalışma Masam",
-                                    style = MaterialTheme.typography.titleMedium,
+                                    style = MaterialTheme.typography.titleMedium.copy(lineHeight = 18.sp),
                                     fontWeight = FontWeight.Bold,
-                                    color = ZomoTextPrimary
+                                    color = ZomoTextPrimary,
+                                    maxLines = 1,
+                                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                                 )
                                 Text(
                                     SimpleDateFormat("d MMMM EEEE", Locale("tr", "TR")).format(Date()),
-                                    style = MaterialTheme.typography.bodySmall,
+                                    style = MaterialTheme.typography.bodySmall.copy(lineHeight = 14.sp),
                                     color = ZomoTextSecondary,
-                                    fontSize = 11.sp
+                                    fontSize = 11.sp,
+                                    maxLines = 1,
+                                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                                 )
                             }
                         }
@@ -539,7 +545,7 @@ fun ChildHomeScreen(
                             val allGranted = hasOverlayPermission && hasAccessibilityPermission
                             Box(
                                 modifier = Modifier
-                                    .size(34.dp)
+                                    .size(32.dp)
                                     .background(if (allGranted) ZenForestGreen.copy(alpha = 0.2f) else ZenMoonGold.copy(alpha = 0.25f), ZenPillShape)
                                     .border(1.dp, if (allGranted) ZenForestGreen.copy(alpha = 0.5f) else ZenMoonGold, ZenPillShape),
                                 contentAlignment = Alignment.Center
@@ -548,41 +554,54 @@ fun ChildHomeScreen(
                                     Icons.Default.Shield,
                                     contentDescription = "İzin Rehberi",
                                     tint = if (allGranted) ZenForestGreen else ZenMoonGold,
-                                    modifier = Modifier.size(17.dp)
+                                    modifier = Modifier.size(16.dp)
                                 )
-                            }
-                        }
-                        IconButton(onClick = { showResetConfirmDialog = true }) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenRoseCoral.copy(alpha = 0.15f), ZenPillShape)
-                                    .border(1.dp, ZenRoseCoral.copy(alpha = 0.5f), ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(Icons.Default.RestartAlt, contentDescription = "İlerlemeyi Sıfırla", tint = ZenRoseCoral, modifier = Modifier.size(17.dp))
-                            }
-                        }
-                        IconButton(onClick = { showCloudSyncDialog = true }) {
-                            Box(
-                                modifier = Modifier
-                                    .size(34.dp)
-                                    .background(ZenSkyCyanContainer, ZenPillShape)
-                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.5f), ZenPillShape),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(Icons.Default.CloudSync, contentDescription = "Bulut Senkronizasyonu", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
                             }
                         }
                         IconButton(onClick = onOpenTutorial) {
                             Box(
                                 modifier = Modifier
-                                    .size(34.dp)
+                                    .size(32.dp)
                                     .background(ZenPaperCard, ZenPillShape)
                                     .border(1.dp, ZenPaperBorder, ZenPillShape),
                                 contentAlignment = Alignment.Center
                             ) {
-                                Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(17.dp))
+                                Icon(Icons.Default.HelpOutline, contentDescription = "Rehber", tint = ZenSkyCyan, modifier = Modifier.size(16.dp))
+                            }
+                        }
+                        Box {
+                            IconButton(onClick = { showMoreActions = true }) {
+                                Box(
+                                    modifier = Modifier
+                                        .size(32.dp)
+                                        .background(ZenPaperCard, ZenPillShape)
+                                        .border(1.dp, ZenPaperBorder, ZenPillShape),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Icon(Icons.Default.MoreVert, contentDescription = "Daha Fazla", tint = ZomoTextPrimary, modifier = Modifier.size(16.dp))
+                                }
+                            }
+                            DropdownMenu(
+                                expanded = showMoreActions,
+                                onDismissRequest = { showMoreActions = false },
+                                modifier = Modifier.background(Color(0xFF10192D)).border(1.dp, ZenNightBorder, RoundedCornerShape(12.dp))
+                            ) {
+                                DropdownMenuItem(
+                                    text = { Text("Bulut Senkronizasyonu", color = ZenSkyCyan, fontSize = 13.sp) },
+                                    leadingIcon = { Icon(Icons.Default.CloudSync, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp)) },
+                                    onClick = {
+                                        showMoreActions = false
+                                        showCloudSyncDialog = true
+                                    }
+                                )
+                                DropdownMenuItem(
+                                    text = { Text("İlerlemeyi Sıfırla", color = ZenRoseCoral, fontSize = 13.sp) },
+                                    leadingIcon = { Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(18.dp)) },
+                                    onClick = {
+                                        showMoreActions = false
+                                        showResetConfirmDialog = true
+                                    }
+                                )
                             }
                         }
                     }
@@ -774,24 +793,13 @@ fun ChildHomeScreen(
                 // 3. Daily Tasks & Quizzes Section (Dersler ve Testler Birlikte)
                 val totalDailyCount = dailyTasks.size + quizzes.size
                 item(key = "daily_header") {
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .size(8.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenSkyCyan)
-                        )
-                        Text(
-                            text = "📅 Bugünkü Dersler & Görevler ($totalDailyCount)",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = ZomoTextPrimary,
-                            fontSize = 14.sp
-                        )
-                    }
+                    Text(
+                        text = "📅 Bugünkü Dersler & Görevler ($totalDailyCount)",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = ZomoTextPrimary,
+                        fontSize = 14.sp
+                    )
                 }
 
                 if (dailyTasks.isEmpty() && quizzes.isEmpty()) {
