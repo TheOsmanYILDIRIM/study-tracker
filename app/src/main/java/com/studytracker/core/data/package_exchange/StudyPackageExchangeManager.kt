@@ -401,6 +401,7 @@ object StudyPackageExchangeManager {
             }
 
             // 3. Smart Occurrences Reconciliation (Preserve prior work on revisions & reflect parent edits/deletions)
+            val isParentPlan = (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION)
             val isParentOrCloudPlan = (pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD" || pkg.packageType == PackageType.PLAN_DISTRIBUTION)
             if (pkg.occurrences.isNotEmpty()) {
                 val localOccMap = db.occurrenceDao().getAllOccurrencesOnce().associateBy { it.occurrenceKey }
