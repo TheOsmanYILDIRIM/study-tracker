@@ -122,6 +122,9 @@ interface SessionDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertSession(session: SessionEntity)
 
+    @Query("DELETE FROM sessions WHERE sessionId = :sessionId")
+    suspend fun deleteSession(sessionId: String)
+
     @Query("DELETE FROM sessions")
     suspend fun clearSessions()
 }

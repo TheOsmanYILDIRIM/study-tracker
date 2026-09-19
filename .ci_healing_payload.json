@@ -1,30 +1,30 @@
 {
-  "run_id": 35391594208,
+  "run_id": 35435917172,
   "conclusion": "failure",
-  "url": "https://github.com/TheOsmanYILDIRIM/study-tracker/actions/runs/35391594208",
+  "url": "https://github.com/TheOsmanYILDIRIM/study-tracker/actions/runs/35435917172",
   "critical_errors": [
-    "build\tBuild Release APKs\t2026-09-18T20:28:12.1930562Z The client will now receive all logging from the daemon (pid: 2307). The daemon log file: /home/runner/.gradle/daemon/8.7/daemon-2307.out.log",
-    "build\tBuild Release APKs\t2026-09-18T20:28:26.6785056Z Adopted [service: null]",
-    "build\tBuild Release APKs\t2026-09-18T20:28:30.5490719Z Adopted [service: null]",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.4914153Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/core/ui/components/EvidenceTimelineView.kt:266:2 Expecting '}'",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.4921330Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/core/ui/components/EvidenceTimelineView.kt:266:2 Expecting '}'",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.4975667Z > Task :app:kspParentReleaseKotlin FAILED",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.5045310Z > Task :app:kspChildReleaseKotlin FAILED",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.6145247Z    > Compilation error. See log for more details",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.6207976Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kspParentReleaseKotlin'.",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.6720431Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7344598Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7395298Z    > Compilation error. See log for more details",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7398901Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kspChildReleaseKotlin'.",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7455913Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7660295Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
-    "build\tBuild Release APKs\t2026-09-18T20:28:38.7710327Z BUILD FAILED in 28s"
+    "build\tBuild Release APKs\t2026-09-19T09:53:44.0113345Z The client will now receive all logging from the daemon (pid: 2354). The daemon log file: /home/runner/.gradle/daemon/8.7/daemon-2354.out.log",
+    "build\tBuild Release APKs\t2026-09-19T09:54:00.8995972Z Adopted [service: null]",
+    "build\tBuild Release APKs\t2026-09-19T09:54:05.0372367Z Adopted [service: null]",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.7112433Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/core/data/package_exchange/StudyPackageExchangeManager.kt:518:41 Unresolved reference: deleteSession",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.7115727Z e: file:///home/runner/work/study-tracker/study-tracker/app/src/main/java/com/studytracker/core/data/package_exchange/StudyPackageExchangeManager.kt:518:41 Unresolved reference: deleteSession",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.7133373Z > Task :app:compileParentReleaseKotlin FAILED",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.7166463Z > Task :app:compileChildReleaseKotlin FAILED",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.8408110Z    > Compilation error. See log for more details",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.8578420Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileParentReleaseKotlin'.",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.8827669Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.9300077Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.9419214Z    > Compilation error. See log for more details",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.9422757Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileChildReleaseKotlin'.",
+    "build\tBuild Release APKs\t2026-09-19T09:54:52.9661453Z Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction",
+    "build\tBuild Release APKs\t2026-09-19T09:54:53.0256699Z Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details",
+    "build\tBuild Release APKs\t2026-09-19T09:54:53.0372172Z BUILD FAILED in 1m 11s"
   ],
   "diagnosed_files": {
-    "app/src/main/java/com/studytracker/core/ui/components/EvidenceTimelineView.kt": {
-      "error_line": 266,
-      "error_description": "Expecting '}'",
-      "code_context": "    246:                     contentAlignment = Alignment.Center\n    247:                 ) {\n    248:                     if (fullBitmap != null) {\n    249:                         Image(\n    250:                             bitmap = fullBitmap!!.asImageBitmap(),\n    251:                             contentDescription = \"Büyük Ekran Görüntüsü\",\n    252:                             contentScale = ContentScale.Fit,\n    253:                             modifier = Modifier.fillMaxSize()\n    254:                         )\n    255:                     } else {\n    256:                         CircularProgressIndicator(\n    257:                             modifier = Modifier.size(32.dp),\n    258:                             color = ZomoNeonMint,\n    259:                             strokeWidth = 2.5.dp\n    260:                         )\n    261:                     }\n    262:                 }\n    263:             }\n    264:         }\n    265:     }\n>>  266: }"
+    "app/src/main/java/com/studytracker/core/data/package_exchange/StudyPackageExchangeManager.kt": {
+      "error_line": 518,
+      "error_description": "Unresolved reference: deleteSession",
+      "code_context": "    498:                     allLocal.filter { it.occurrenceKey !in remoteKeys && (pkg.plan?.weekId == null || it.weekId == pkg.plan?.weekId) }\n    499:                         .forEach { db.occurrenceDao().deleteOccurrence(it.occurrenceKey) }\n    500:                 }\n    501: \n    502:                 db.occurrenceDao().upsertOccurrences(mergedOccs)\n    503:             } else if (isParentPlan && pkg.plan == null && pkg.tasks.isEmpty()) {\n    504:                 // Parent wiped everything\n    505:                 db.occurrenceDao().clearOccurrences()\n    506:                 db.planDao().clearActivePlan()\n    507:                 db.taskTemplateDao().clearTasks()\n    508:                 db.quizDao().clearQuizzes()\n    509:             }\n    510: \n    511:             // 4. Reconcile Sessions (Seceresini tutar)\n    512:             if (pkg.sessions.isNotEmpty()) {\n    513:                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }\n    514:                 val remoteSessionIds = pkg.sessions.map { it.id }.toSet()\n    515:                 if (isParentPlan) {\n    516:                     // Parent provided active session list, remove orphan local sessions not in remote\n    517:                     localSessions.keys.filter { it !in remoteSessionIds }.forEach {\n>>  518:                         db.sessionDao().deleteSession(it)\n    519:                     }\n    520:                 }\n    521:                 for (rs in pkg.sessions) {\n    522:                     val existing = localSessions[rs.id]\n    523:                     val resolvedStatus = when {\n    524:                         existing?.status == SessionStatus.APPROVED -> SessionStatus.APPROVED\n    525:                         existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED\n    526:                         rs.isCompleted -> SessionStatus.WAITING_REVIEW\n    527:                         else -> existing?.status ?: SessionStatus.ACTIVE\n    528:                     }\n    529: \n    530:                     db.sessionDao().upsertSession(\n    531:                         SessionEntity(\n    532:                             sessionId = rs.id,\n    533:                             occurrenceKey = rs.occurrenceId,\n    534:                             childId = \"child_1\",\n    535:                             startTime = rs.startTime,\n    536:                             endTime = rs.endTime ?: existing?.endTime,\n    537:                             status = resolvedStatus,\n    538:                             screenshotCount = existing?.screenshotCount ?: 1,"
     }
   }
 }
