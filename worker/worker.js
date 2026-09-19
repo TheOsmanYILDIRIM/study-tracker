@@ -267,6 +267,9 @@ export default {
           if (action === 'RESET') {
             // Save current state as fallback snapshot before wiping progress
             await setStoreData(env, snapshotKey, current, 86400);
+            const resetTime = Date.now();
+            current.resetAt = resetTime;
+            current.planUpdatedAt = resetTime;
             for (const occ of (current.occurrences || [])) {
               occ.status = 'PENDING';
               occ.completedDurationMin = 0;
@@ -277,7 +280,7 @@ export default {
             current.sessions = [];
             current.screenshots = [];
             current.reviews = [];
-            current.updatedAt = Date.now();
+            current.updatedAt = resetTime;
             await setStoreData(env, storeKey, current);
             return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı (24 saatlik geri alma yedeği oluşturuldu)' }), { headers: CORS_HEADERS });
           }
@@ -446,6 +449,16 @@ export default {
             }
           } else {
             // 3. CHILD (Öğrenci Authority: Activity & Progress only)
+            const resetThreshold = parseTime(current.resetAt || 0);
+
+            // Filter incoming sessions to only accept those created AFTER the resetAt threshold
+            const incomingSessionsList = (Array.isArray(incoming.sessions) ? incoming.sessions : [])
+              .map(normalizeSession)
+              .filter(Boolean)
+              .filter(s => parseTime(s.startTime) >= resetThreshold);
+
+            const activeOccKeysWithNewSessions = new Set(incomingSessionsList.map(s => s.occurrenceId));
+
             if (incomingOccurrences.length > 0) {
               for (const remote of incomingOccurrences) {
                 if (tombstoneSet.has(remote.id)) continue;
@@ -453,43 +466,53 @@ export default {
                 const local = prevOccMap.get(remote.id);
                 if (local) {
                   let resolvedStatus = local.status;
+                  const hasNewSession = activeOccKeysWithNewSessions.has(remote.id);
+
                   if (local.status !== 'APPROVED') {
-                    if (remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE') {
+                    if ((remote.status === 'WAITING_REVIEW' || remote.status === 'ACTIVE') && (hasNewSession || resetThreshold === 0)) {
                       resolvedStatus = remote.status;
                     }
                   }
 
+                  const newCount = hasNewSession ? Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0) : (local.completedQuestionCount || 0);
+                  const newDuration = hasNewSession ? Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0) : (local.completedDurationMin || 0);
+
                   prevOccMap.set(remote.id, {
                     ...local,
                     status: resolvedStatus,
-                    completedQuestionCount: Math.max(local.completedQuestionCount || 0, remote.completedQuestionCount || 0),
-                    completedDurationMin: Math.max(local.completedDurationMin || 0, remote.completedDurationMin || 0),
-                    studentNote: remote.studentNote || local.studentNote
+                    completedQuestionCount: newCount,
+                    completedDurationMin: newDuration,
+                    studentNote: hasNewSession ? (remote.studentNote || local.studentNote) : local.studentNote
                   });
                 }
               }
               current.occurrences = Array.from(prevOccMap.values());
             }
-          }
 
-          // 4. Sessions (Student -> Parent)
-          if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
-            const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
-            incoming.sessions.map(normalizeSession).filter(Boolean).forEach(s => {
-              const prev = sessMap.get(s.id);
-              sessMap.set(s.id, prev ? { ...prev, ...s } : s);
-            });
-            current.sessions = Array.from(sessMap.values());
-          }
+            // 4. Sessions (Student -> Parent) - Only merge sessions after reset
+            if (incomingSessionsList.length > 0) {
+              const sessMap = new Map((current.sessions || []).map(s => [s.id, s]));
+              incomingSessionsList.forEach(s => {
+                const prev = sessMap.get(s.id);
+                sessMap.set(s.id, prev ? { ...prev, ...s } : s);
+              });
+              current.sessions = Array.from(sessMap.values());
+            }
 
-          // 5. Screenshots (Student -> Parent)
-          if (Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
-            const ssMap = new Map((current.screenshots || []).map(s => [s.id, s]));
-            incoming.screenshots.map(normalizeScreenshot).filter(Boolean).forEach(s => {
-              const prev = ssMap.get(s.id);
-              ssMap.set(s.id, prev ? { ...prev, ...s } : s);
-            });
-            current.screenshots = Array.from(ssMap.values()).slice(-40);
+            // 5. Screenshots (Student -> Parent) - Only merge screenshots after reset
+            const incomingScreenshotsList = (Array.isArray(incoming.screenshots) ? incoming.screenshots : [])
+              .map(normalizeScreenshot)
+              .filter(Boolean)
+              .filter(ss => parseTime(ss.timestamp) >= resetThreshold);
+
+            if (incomingScreenshotsList.length > 0) {
+              const ssMap = new Map((current.screenshots || []).map(s => [s.id, s]));
+              incomingScreenshotsList.forEach(s => {
+                const prev = ssMap.get(s.id);
+                ssMap.set(s.id, prev ? { ...prev, ...s } : s);
+              });
+              current.screenshots = Array.from(ssMap.values()).slice(-40);
+            }
           }
 
           // 6. Reviews (Parent / Admin -> Student)

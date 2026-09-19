@@ -353,6 +353,18 @@ object CloudflareSyncManager {
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
 
+            val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
+            val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
+
+            // If CHILD is doing normal SYNC, fetch and apply cloud data first so student doesn't resurrect stale sessions
+            if (effectiveRole == "CHILD" && action == "SYNC") {
+                val cloudRes = fetchCloudData(context)
+                if (cloudRes.isSuccess && cloudRes.getOrNull() != null) {
+                    val cloudData = cloudRes.getOrNull()!!
+                    applyCloudDataToLocal(context, cloudData)
+                }
+            }
+
             val plan = db.planDao().getActivePlanOnce()?.let {
                 LocalPlanSyncDto(
                     planId = it.planId,
@@ -460,9 +472,6 @@ object CloudflareSyncManager {
             val quizzes = db.quizDao().getAllQuizzesOnce().map {
                 it.toDomain(json)
             }
-
-            val isLocalDbEmpty = (plan == null && occurrences.isEmpty())
-            val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
 
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
