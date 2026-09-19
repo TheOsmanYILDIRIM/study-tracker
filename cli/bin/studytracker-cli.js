@@ -69,7 +69,13 @@ function parseArgs(args) {
       }
     } else if (arg.startsWith('-')) {
       const key = arg.slice(1);
-      result.options[key] = true;
+      const next = args[i + 1];
+      if (next && !next.startsWith('-')) {
+        result.options[key] = next;
+        i++;
+      } else {
+        result.options[key] = true;
+      }
     } else {
       result.positionals.push(arg);
     }
