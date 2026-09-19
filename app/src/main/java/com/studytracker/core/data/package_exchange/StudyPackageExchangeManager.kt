@@ -416,8 +416,9 @@ object StudyPackageExchangeManager {
                         rev.sessionId == remote.id ||
                         rev.sessionId == cleanPlanId ||
                         rev.sessionId.endsWith("_$cleanPlanId") ||
-                        (local != null && (rev.sessionId == local.occurrenceKey || rev.occurrenceKey == local.occurrenceKey)) ||
-                        (rev.occurrenceKey == remote.id)
+                        (local != null && rev.sessionId == local.occurrenceKey) ||
+                        rev.id == "rev_${remote.id}" ||
+                        rev.id == remote.id
                     }
 
                     val hasApprovedReview = (matchingReview != null && matchingReview.isApproved)
