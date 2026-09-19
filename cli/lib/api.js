@@ -114,6 +114,33 @@ async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT
 }
 
 /**
+ * Cloudflare KV'den 24 saatlik önceki durum yedeğini (snapshot) geri yükler
+ */
+async function restoreFamilyData(overrideCode = null) {
+  const config = loadConfig();
+  const code = (overrideCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
+
+  const res = await makeRequest(endpoint, {
+    method: 'POST',
+    headers: {
+      'X-Family-Code': code,
+      'X-Sender-Role': 'PARENT'
+    }
+  }, {
+    familyCode: code,
+    senderRole: 'PARENT',
+    action: 'RESTORE'
+  });
+
+  if (!res.success) {
+    throw new Error(res.error || 'Geri alma başarısız');
+  }
+
+  return res.data;
+}
+
+/**
  * Aile kodunu doğrular / oluşturur
  */
 async function pairFamily(pairCode) {
@@ -127,5 +154,6 @@ async function pairFamily(pairCode) {
 module.exports = {
   fetchFamilyData,
   pushFamilyData,
+  restoreFamilyData,
   pairFamily
 };

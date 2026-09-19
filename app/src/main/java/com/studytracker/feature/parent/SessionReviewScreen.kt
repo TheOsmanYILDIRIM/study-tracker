@@ -144,6 +144,9 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
+                                try {
+                                    com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                                } catch (_: Exception) {}
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),
@@ -182,6 +185,9 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
+                                try {
+                                    com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                                } catch (_: Exception) {}
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),

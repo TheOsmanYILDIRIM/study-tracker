@@ -197,7 +197,11 @@
 ## 47. Arka Plan Erişilebilirlik Ekran Yakalama Güçlendirmesi & Dinamik İzin Durum Yönetimi
 - [x] **Arka Plan Ekran Yakalama Güçlendirmesi:** `accessibility_service_config.xml` içinde `typeAllMask`, `canRetrieveWindowContent="true"` ve `flagRetrieveInteractiveWindows|flagIncludeNotImportantViews` bayrakları aktif edildi; `StudyAccessibilityService` içinde `onServiceConnected()` anında servis konfigürasyonu programatik olarak pekiştirildi.
 - [x] **3 Aşamalı Toleranslı Yeniden Deneme (Retry Loop):** Animasyonlu geçişler, YouTube video oynatımı veya Android `ERROR_TAKE_SCREENSHOT_INTERVAL_TIME_SHORT` / `ERROR_TAKE_SCREENSHOT_NO_END_OF_FRAME` durumlarında ekran yakalama 350ms aralıklarla 3 kez denenerek başarısızlık ve gereksiz fallback kartı üretimi tamamen engellendi.
-- [x] **Dinamik & Anında İzin Durumu Güncellemesi:** `ChildHomeScreen` ve `PermissionGuideDialog` üzerinde izin durumları `LifecycleEventObserver` (`ON_RESUME`) ile canlı hale getirildi; kullanıcı Ayarlar'dan servisi açıp döndüğü an izin kartı ve kalkan ikonu anında yeşile dönerek taze durumunu yansıtır.
-- [x] **Kullanıcı Rehberliği & Ayar Yönlendirici:** Erişilebilirlik ve Overlay açma butonlarına çok katmanlı `try/catch` ve yönlendirici sistem Toast mesajları ("👉 Yüklü Uygulamalar -> StudyTracker'ı Açık yapın") eklendi.
+## 48. Veli Onay/Red Bulut Eşitlemesi, Sıfırlama Eylemi ve 24 Saatlik Geri Alma (Snapshot Fallback)
+- [x] **Anlık Onay/Red Bulut Push:** `SessionReviewScreen.kt`, `ParentDashboardScreen.kt` ve `LocalSessionRepositoryImpl` üzerinden onay veya red verildiği an Cloudflare Worker'a anlık eşitleme (`syncWithCloud`) tetiklenmesi.
+- [x] **Sıfırlama Senkronizasyon Eylemi (`action: RESET` & `action: WIPE`):** Veli veya CLI sıfırlama yaptığında sunucuya `action: 'RESET'` gönderilerek öğrenci ve veli cihazlarındaki tamamlanmış/bekleyen oturumların `PENDING`'e çekilmesi.
+- [x] **24 Saatlik Geri Alma (Snapshot / Fallback):** Sıfırlama yapılmadan önce sunucuda `family:ST-XXXX:snapshot_prev` anahtarına mevcut durumun kaydedilmesi ve CLI/Veli ekranına **"Geri Al (Undo Reset)"** imkanının getirilmesi.
+
+
 
 

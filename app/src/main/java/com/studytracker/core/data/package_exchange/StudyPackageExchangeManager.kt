@@ -422,6 +422,7 @@ object StudyPackageExchangeManager {
                     }
 
                     val resolvedStatus = when {
+                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING && (local?.status == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.REJECTED) -> OccurrenceStatus.PENDING
                         local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED || hasApprovedReview -> OccurrenceStatus.APPROVED
                         remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                         local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE

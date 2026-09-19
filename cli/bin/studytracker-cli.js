@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const { loadConfig, setFamilyCode } = require('../lib/config');
-const { fetchFamilyData, pushFamilyData, pairFamily } = require('../lib/api');
+const { fetchFamilyData, pushFamilyData, restoreFamilyData, pairFamily } = require('../lib/api');
 const { parseDSL, exportToDSL } = require('../lib/dsl-parser');
 const { colors, statusBadge, printHeader, renderDashboard } = require('../lib/renderer');
 
@@ -35,8 +35,9 @@ ${colors.bold}Ders / Görev İşlemleri:${colors.reset}
   ${colors.green}studytracker-cli task edit <occKey> [--title "..."] [--min 40] [--video "..."]${colors.reset} Dersi düzenler
   ${colors.green}studytracker-cli task delete <occKey>${colors.reset}       Dersi programdan ve buluttan kalıcı siler
   
-${colors.bold}Sıfırlama & Yapılandırma:${colors.reset}
-  ${colors.green}studytracker-cli reset [--full]${colors.reset}              İlerlemeyi sıfırlar (veya --full ile temiz masa)
+${colors.bold}Sıfırlama & Geri Alma (Snapshot & Fallback):${colors.reset}
+  ${colors.green}studytracker-cli reset [--full]${colors.reset}              İlerlemeyi sıfırlar (24 saatlik yedek alır)
+  ${colors.green}studytracker-cli restore${colors.reset}                     Sıfırlama öncesi 24 saatlik yedeği geri yükler (Undo)
   ${colors.green}studytracker-cli config set-code <ST-XXXX>${colors.reset}   Varsayılan aile kodunu kaydeder
   ${colors.green}studytracker-cli config get-code${colors.reset}             Aktif aile kodunu gösterir
 
@@ -471,7 +472,21 @@ async function main() {
         break;
       }
 
-      // 6. CONFIG
+      // 6. RESTORE / UNDO
+      case 'restore':
+      case 'undo': {
+        console.log(`${colors.cyan}⏳ Sıfırlama öncesi 24 saatlik yedek kontrol ediliyor (${familyCode})...${colors.reset}`);
+        const restored = await restoreFamilyData(familyCode);
+        console.log(`${colors.green}✔ Önceki durum yedeği (snapshot) başarıyla geri yüklendi!${colors.reset}`);
+        console.log(`  • Hafta        : ${restored.plan?.weekId || 'Aktif'}`);
+        console.log(`  • Ders Sayısı  : ${(restored.occurrences || []).length}`);
+        console.log(`  • Onaylı Sayısı: ${(restored.occurrences || []).filter(o => o.status === 'APPROVED').length}`);
+        console.log(`  • Oturum Sayısı: ${(restored.sessions || []).length}`);
+        console.log(`\n${colors.dim}Öğrenci ve Veli uygulamaları açıldığında veya yenilendiğinde eski ilerleme geri gelecektir.${colors.reset}`);
+        break;
+      }
+
+      // 7. CONFIG
       case 'config': {
         if (sub === 'set-code') {
           const newCode = parsed.positionals[2];

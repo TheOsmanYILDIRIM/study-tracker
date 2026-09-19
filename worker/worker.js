@@ -222,8 +222,31 @@ export default {
           current.reviews = Array.isArray(current.reviews) ? current.reviews : [];
           current.quizzes = Array.isArray(current.quizzes) ? current.quizzes : [];
 
-          // A) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
+          // Snapshot key for 24h rollback / fallback
+          const snapshotKey = `family:${familyCode}:snapshot_prev`;
+
+          // A) Geri Alma / Fallback (RESTORE / UNDO_RESET)
+          if (action === 'RESTORE' || action === 'UNDO_RESET') {
+            const previousSnapshot = await getStoreData(env, snapshotKey);
+            if (!previousSnapshot) {
+              return new Response(JSON.stringify({ 
+                success: false, 
+                error: 'Geri yüklenebilecek önceki bir durum yedeği (snapshot) bulunamadı veya süresi doldu.' 
+              }), { status: 404, headers: CORS_HEADERS });
+            }
+            previousSnapshot.updatedAt = Date.now();
+            await setStoreData(env, storeKey, previousSnapshot);
+            return new Response(JSON.stringify({ 
+              success: true, 
+              data: previousSnapshot, 
+              message: 'Önceki durum yedeği (snapshot) başarıyla geri yüklendi.' 
+            }), { headers: CORS_HEADERS });
+          }
+
+          // A.1) Tam Sıfırlama (Wipe) - SADECE ve SADECE açıkça action === 'WIPE' ise
           if (action === 'WIPE') {
+            // Save current state as fallback snapshot for 24 hours (86400s)
+            await setStoreData(env, snapshotKey, current, 86400);
             current = {
               familyCode,
               createdAt: current.createdAt || Date.now(),
@@ -237,11 +260,13 @@ export default {
               quizzes: []
             };
             await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı' }), { headers: CORS_HEADERS });
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Tüm bulut verisi sıfırlandı (24 saatlik yedek alındı)' }), { headers: CORS_HEADERS });
           }
 
           // B) İlerleme Sıfırlama (Reset Progress)
           if (action === 'RESET') {
+            // Save current state as fallback snapshot before wiping progress
+            await setStoreData(env, snapshotKey, current, 86400);
             for (const occ of (current.occurrences || [])) {
               occ.status = 'PENDING';
               occ.completedDurationMin = 0;
@@ -254,7 +279,7 @@ export default {
             current.reviews = [];
             current.updatedAt = Date.now();
             await setStoreData(env, storeKey, current);
-            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı' }), { headers: CORS_HEADERS });
+            return new Response(JSON.stringify({ success: true, data: current, message: 'Öğrenci ilerlemesi sıfırlandı (24 saatlik geri alma yedeği oluşturuldu)' }), { headers: CORS_HEADERS });
           }
 
           // C) Tekil Ders Güncelleme (Patch Single Task - Zero Side-effects)

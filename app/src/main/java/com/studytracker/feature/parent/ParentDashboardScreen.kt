@@ -251,7 +251,7 @@ fun ParentDashboardScreen(
                                 showResetConfirmDialog = false
                                 scope.launch {
                                     val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context, activePlan?.weekId)
-                                    CloudflareSyncManager.syncWithCloud(context)
+                                    CloudflareSyncManager.syncWithCloud(context, action = "RESET")
                                     res.onSuccess { msg ->
                                         Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
                                     }.onFailure { err ->
@@ -263,7 +263,33 @@ fun ParentDashboardScreen(
                         Column(modifier = Modifier.padding(12.dp)) {
                             Text("🔄 Sadece Öğrenci İlerlemesini Sıfırla", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = ZenMoonGold)
                             Spacer(modifier = Modifier.height(4.dp))
-                            Text("Ders programı ve testler korunur. Sadece tamamlanan dersler, süreler ve onaylar sıfırlanır.", fontSize = 11.sp, color = ZomoTextSecondary)
+                            Text("Ders programı ve testler korunur. Sadece tamamlanan dersler, süreler ve onaylar sıfırlanır (24 saatlik geri alma yedeği oluşturulur).", fontSize = 11.sp, color = ZomoTextSecondary)
+                        }
+                    }
+
+                    // Fallback / Undo Reset Card
+                    Surface(
+                        shape = RoundedCornerShape(12.dp),
+                        color = Color(0xFF102838),
+                        border = BorderStroke(1.dp, Color(0xFF2DD4BF).copy(alpha = 0.4f)),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                showResetConfirmDialog = false
+                                scope.launch {
+                                    val res = CloudflareSyncManager.restoreFromSnapshot(context)
+                                    res.onSuccess { msg ->
+                                        Toast.makeText(context, "⏪ $msg", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Geri alma başarısız: ${err.message}", Toast.LENGTH_SHORT).show()
+                                    }
+                                }
+                            }
+                    ) {
+                        Column(modifier = Modifier.padding(12.dp)) {
+                            Text("⏪ Sıfırlamayı Geri Al (Undo Reset / 24 Saat)", fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Color(0xFF2DD4BF))
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text("Yanlışlıkla sıfırlama yapıldıysa, sıfırlama öncesi son 24 saat içindeki ders ilerlemelerini ve onayları geri yükler.", fontSize = 11.sp, color = ZomoTextSecondary)
                         }
                     }
 
@@ -277,7 +303,7 @@ fun ParentDashboardScreen(
                                 showResetConfirmDialog = false
                                 scope.launch {
                                     val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.clearAllData(context)
-                                    CloudflareSyncManager.syncWithCloud(context)
+                                    CloudflareSyncManager.syncWithCloud(context, action = "WIPE")
                                     res.onSuccess { msg ->
                                         Toast.makeText(context, "🗑️ $msg", Toast.LENGTH_SHORT).show()
                                     }.onFailure { err ->
@@ -356,6 +382,9 @@ fun ParentDashboardScreen(
                                 )
                             )
                             occurrenceRepo.setWarning(currentSession.occurrenceKey, true, note)
+                            try {
+                                CloudflareSyncManager.syncWithCloud(context)
+                            } catch (_: Exception) {}
                             Toast.makeText(context, "Ders reddedildi ve not iletildi.", Toast.LENGTH_SHORT).show()
                         }
                     },

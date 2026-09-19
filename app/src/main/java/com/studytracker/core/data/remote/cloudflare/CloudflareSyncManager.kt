@@ -528,6 +528,56 @@ object CloudflareSyncManager {
     }
 
     /**
+     * Sıfırlama öncesi alınan 24 saatlik durum yedeğini (snapshot) geri yükler (Undo Reset).
+     */
+    suspend fun restoreFromSnapshot(context: Context): Result<String> = withContext(Dispatchers.IO) {
+        try {
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"
+                connectTimeout = 10000
+                readTimeout = 10000
+                doOutput = true
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", "PARENT")
+            }
+
+            val payload = SharedFamilySyncPayload(
+                familyCode = familyCode,
+                senderRole = "PARENT",
+                action = "RESTORE"
+            )
+            val payloadJson = json.encodeToString(payload)
+            OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
+                writer.write(payloadJson)
+                writer.flush()
+            }
+
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                return@withContext Result.failure(Exception("Geri alma hatası ($responseCode): $errorStream"))
+            }
+
+            val responseText = BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+            val syncRes = json.decodeFromString<CloudSyncResponse>(responseText)
+            if (!syncRes.success || syncRes.data == null) {
+                return@withContext Result.failure(Exception(syncRes.error ?: "Geri yüklenebilecek yedek bulunamadı"))
+            }
+
+            val cloudData = syncRes.data
+            applyCloudDataToLocal(context, cloudData)
+            Result.success("Önceki durum yedeği başarıyla geri yüklendi! (${cloudData.occurrences.size} ders)")
+        } catch (e: Exception) {
+            Log.e(TAG, "restoreFromSnapshot failed: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
+
+    /**
      * Aile eşleştirme kodunu doğrular veya yenisini oluşturur.
      */
     suspend fun pairFamilyCode(context: Context, pairCode: String): Result<String> = withContext(Dispatchers.IO) {

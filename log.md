@@ -1,5 +1,10 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-19] Tamamlandı: Veli Onay/Red Bulut Eşitlemesi, Sıfırlama Eylemi ve 24 Saatlik Geri Alma (Snapshot Fallback)
+- **Anlık Veli Onay/Red Bulut Push:** `SessionReviewScreen.kt` ve `ParentDashboardScreen.kt` içinde veli onay veya red kararı verdiği anda `CloudflareSyncManager.syncWithCloud(context)` tetiklenerek kararın Cloudflare KV ve öğrenci cihazına anında yansıması sağlandı.
+- **Sıfırlama Senkronizasyon Eylemi (`action: RESET` & `action: WIPE`):** Veli veya CLI sıfırlama yaptığında sunucuya `action: 'RESET'` gönderilerek sunucudaki oturumların temizlenmesi ve `StudySyncProvider` ile öğrenci cihazındaki onay bekleyen oturumların da `PENDING`'e çekilmesi sağlandı.
+- **24 Saatlik Geri Alma (Snapshot & Fallback):** `worker.js` içinde `RESET` ve `WIPE` öncesi son durum `family:ST-XXXX:snapshot_prev` anahtarına 24 saatlik TTL ile yedeklendi. `CloudflareSyncManager.kt`, `ParentDashboardScreen.kt` ve `studytracker-cli` içine `restore` / `undo` fonksiyonu eklenerek kazara sıfırlamalarda tek tıkla geri dönüş imkanı getirildi.
+
 ### [2026-09-19] Tamamlandı: Arka Plan Erişilebilirlik Ekran Yakalama Güçlendirmesi & Dinamik İzin Durum Yönetimi
 - **Arka Plan Ekran Yakalama İyileştirmesi:** `accessibility_service_config.xml` ve `StudyAccessibilityService.kt` güncellenerek `typeAllMask`, `canRetrieveWindowContent="true"`, `FLAG_RETRIEVE_INTERACTIVE_WINDOWS` ve `FLAG_INCLUDE_NOT_IMPORTANT_VIEWS` etkinleştirildi.
 - **3 Kademeli Retry Motoru:** `takeScreenshot` çağrısı `withTimeoutOrNull(2500L)` ve 3 denemeli döngü ile sarıldı. Harici uygulamalara geçiş (YouTube, test uygulamaları) esnasında oluşan kare senkronizasyonu gecikmelerinde ekran görüntüsünün başarıyla yakalanması sağlandı.

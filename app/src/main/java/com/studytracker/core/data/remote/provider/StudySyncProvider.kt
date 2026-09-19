@@ -113,6 +113,33 @@ class StudySyncProvider : ContentProvider() {
     }
 
     private suspend fun mergePayloadIntoDb(ctx: android.content.Context, db: AppDatabase, payload: SharedFamilySyncPayload) {
+        val isParentRole = payload.senderRole == "PARENT" || payload.senderRole == "CLI" || payload.senderRole == "ADMIN" || payload.senderRole == "PARENTING_AI"
+
+        // A) Tam Sıfırlama (WIPE)
+        if (payload.action == "WIPE") {
+            db.planDao().clearActivePlan()
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.sessionDao().clearSessions()
+            db.screenshotDao().clearScreenshots()
+            db.reviewDao().clearReviews()
+            db.quizDao().clearQuizzes()
+            val screenshotsDir = File(ctx.filesDir, "screenshots")
+            if (screenshotsDir.exists()) screenshotsDir.listFiles()?.forEach { it.delete() }
+            return
+        }
+
+        // B) İlerleme Sıfırlama (RESET)
+        if (payload.action == "RESET") {
+            db.occurrenceDao().resetAllOccurrencesProgress()
+            db.sessionDao().clearSessions()
+            db.screenshotDao().clearScreenshots()
+            db.reviewDao().clearReviews()
+            db.quizDao().resetAllQuizzesProgress()
+            val screenshotsDir = File(ctx.filesDir, "screenshots")
+            if (screenshotsDir.exists()) screenshotsDir.listFiles()?.forEach { it.delete() }
+        }
+
         // 1. Plan
         payload.plan?.let { p ->
             val current = db.planDao().getActivePlanOnce()
@@ -162,6 +189,7 @@ class StudySyncProvider : ContentProvider() {
                 val remoteStatus = try { OccurrenceStatus.valueOf(remote.status) } catch (_: Exception) { OccurrenceStatus.PENDING }
 
                 val resolvedStatus = when {
+                    isParentRole && remoteStatus == OccurrenceStatus.PENDING && (local?.status == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.REJECTED) -> OccurrenceStatus.PENDING
                     local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED -> OccurrenceStatus.APPROVED
                     local?.status == OccurrenceStatus.WAITING_REVIEW || remoteStatus == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                     local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
@@ -169,9 +197,9 @@ class StudySyncProvider : ContentProvider() {
                     else -> local?.status ?: remoteStatus
                 }
 
-                val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
                 val targetCount = local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null
-                val isApprovedByCount = (targetCount != null && approvedCount >= targetCount)
+                val isApprovedByCount = (targetCount != null && approvedCount >= targetCount && payload.action != "RESET")
                 val finalStatus = if (isApprovedByCount) OccurrenceStatus.APPROVED else resolvedStatus
 
                 val hasWarning = (local?.warning == true) || (remote.parentNote.isNotBlank() && finalStatus != OccurrenceStatus.APPROVED)
