@@ -422,7 +422,7 @@ object StudyPackageExchangeManager {
                     }
 
                     val resolvedStatus = when {
-                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING && (local?.status == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.REJECTED) -> OccurrenceStatus.PENDING
+                        isParentPlan && remoteStatus == OccurrenceStatus.PENDING -> OccurrenceStatus.PENDING
                         local?.status == OccurrenceStatus.APPROVED || remoteStatus == OccurrenceStatus.APPROVED || hasApprovedReview -> OccurrenceStatus.APPROVED
                         remoteStatus == OccurrenceStatus.WAITING_REVIEW || local?.status == OccurrenceStatus.WAITING_REVIEW -> OccurrenceStatus.WAITING_REVIEW
                         local?.status == OccurrenceStatus.ACTIVE || remoteStatus == OccurrenceStatus.ACTIVE -> OccurrenceStatus.ACTIVE
@@ -430,7 +430,11 @@ object StudyPackageExchangeManager {
                         else -> local?.status ?: remoteStatus
                     }
 
-                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                    val approvedCount = if (isParentPlan && remoteStatus == OccurrenceStatus.PENDING) {
+                        remote.completedQuestionCount
+                    } else {
+                        maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                    }
                     val targetCount = if (isParentPlan && remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: if (remote.targetQuestionCount > 0) remote.targetQuestionCount else null)
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
@@ -507,6 +511,13 @@ object StudyPackageExchangeManager {
             // 4. Reconcile Sessions (Seceresini tutar)
             if (pkg.sessions.isNotEmpty()) {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
+                val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
+                if (isParentPlan) {
+                    // Parent provided active session list, remove orphan local sessions not in remote
+                    localSessions.keys.filter { it !in remoteSessionIds }.forEach {
+                        db.sessionDao().deleteSession(it)
+                    }
+                }
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
                     val resolvedStatus = when {
@@ -530,6 +541,10 @@ object StudyPackageExchangeManager {
                         )
                     )
                 }
+            } else if (isParentPlan) {
+                // If parent distributed or reset plan and remote has 0 sessions, clean local sessions & screenshots
+                db.sessionDao().clearSessions()
+                db.screenshotDao().clearScreenshots()
             }
 
             // 5. Reconcile Reviews (Feedback & Badges)
@@ -570,6 +585,8 @@ object StudyPackageExchangeManager {
                         )
                     }
                 }
+            } else if (isParentPlan) {
+                db.reviewDao().clearReviews()
             }
 
             // 6. Decode WebP Screenshots to local app storage
