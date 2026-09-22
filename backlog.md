@@ -216,6 +216,9 @@
 - [x] **Öğrenci Masası Mesaj Banner'ı:** `ChildHomeScreen.kt` üzerinde veliden gelen yeni mesaj banner'ı ve "Anladım / Okundu 👍" onay butonu.
 - [x] **CLI Entegrasyonu:** `studytracker-cli notify -m "..."` komutu.
 
+## 51. Terminal Hub Güvenli Action Runner ve Canlı Çıktı (TAMAMLANDI)
+- [x] **Güvenli Action Çalıştırıcı:** Terminal Hub eylemleri allowlist ve kontrollü çalışma diziniyle doğrulanarak güvenli biçimde çalıştırıldı.
+- [x] **Canlı Çıktı Akışı:** Action stdout/stderr akışı Terminal Hub'a canlı aktarılıp başarı/başarısızlık durumu görünür şekilde mühürlendi.
 
 
 

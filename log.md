@@ -1,5 +1,10 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-22] Tamamlandı: Terminal Hub Güvenli Action Runner ve Canlı Çıktı
+- Terminal Hub action çalıştırma akışı allowlist ve kontrollü çalışma dizini doğrulamasıyla güvenli hale getirildi.
+- Action stdout/stderr çıktısı canlı akış olarak gösterildi; tamamlanma durumu ve hata sonucu kaybolmadan görünür kaldı.
+- Android repository kapsamı yalnızca dokümantasyon kaydıyla güncellendi; yerel Gradle çalıştırılmadı.
+
 ### [2026-09-19] Tamamlandı: Cloudflare Worker v2.0 - Veri Ayrıştırma (Data Segregation), Komut Deseni & RBAC
 - **Veri Ayrıştırma ve KV Sharding:** Monolitik tek parça JSON yerine `meta`, `plan`, `progress:${taskId}`, `sessions`, `screenshots`, `reviews`, `messages` bağımsız KV parçalarına ayrıldı.
 - **Rol Bazlı Yetki ve Komut Deseni (`POST /api/v2/commands`):** Veli `REJECT_TASK`, `RESET_ALL_PROGRESS`, `WIPE`, `RESTORE` komutlarını tekilleştirilmiş API üzerinden tetikler; öğrenci yalnızca kendi ilerlemesini (`POST /api/v2/progress/:taskId`) güncelleyebilir.
@@ -388,5 +393,4 @@
 - **GitHub Actions CI/CD Hattı Sadeleştirmesi:**
   - `.github/workflows/build-apk.yml` dosyasından gereksiz `assembleDebug` derleme adımı ve debug artifact yükleme eylemleri kaldırıldı.
   - Sadece kalıcı imzalı Release APK'ları (`assembleRelease`) derlenerek CI/CD işlem süresi ve kaynak tüketimi yaklaşık yarı yarıya optimize edildi.
-
 
