@@ -3,7 +3,7 @@ package com.studytracker.core.data.plan_engine
 import com.studytracker.core.domain.model.Quiz
 import com.studytracker.core.domain.model.QuizOption
 import com.studytracker.core.domain.model.QuizQuestion
-import java.util.UUID
+import java.security.MessageDigest
 
 object SimpleQuizParser {
 
@@ -37,16 +37,18 @@ object SimpleQuizParser {
         fun flushQuestion() {
             if (inQuestion && (currentQuestionTextLines.isNotEmpty() || currentOptions.isNotEmpty())) {
                 val qText = currentQuestionTextLines.joinToString("\n").trim()
-                if (qText.isNotBlank() || currentOptions.isNotEmpty()) {
+                val normalizedCorrect = currentCorrectOption.trim().uppercase()
+                val optionKeys = currentOptions.map { it.key }.toSet()
+                if (qText.isNotBlank() && currentOptions.size >= 2 && normalizedCorrect in optionKeys) {
                     currentQuestionNumber++
-                    val qId = "q_${currentQuestionNumber}_${UUID.randomUUID().toString().take(6)}"
+                    val qId = stableId("q", "$currentTitle|${currentQuestionNumber}|$qText")
                     currentQuestions.add(
                         QuizQuestion(
                             questionId = qId,
                             questionNumber = currentQuestionNumber,
                             text = qText,
-                            options = currentOptions.toList(),
-                            correctOption = currentCorrectOption.trim().uppercase(),
+                            options = currentOptions.distinctBy { it.key }.toList(),
+                            correctOption = normalizedCorrect,
                             solutionExplanation = currentExplanation.trim().ifBlank { null }
                         )
                     )
@@ -62,7 +64,7 @@ object SimpleQuizParser {
         fun flushQuiz() {
             flushQuestion()
             if (currentQuestions.isNotEmpty()) {
-                val quizId = "quiz_${System.currentTimeMillis()}_${UUID.randomUUID().toString().take(4)}"
+                val quizId = stableId("quiz", "$currentTitle|${currentDate.orEmpty()}|${currentQuestions.joinToString("|") { it.text }}")
                 quizzes.add(
                     Quiz(
                         quizId = quizId,
@@ -170,6 +172,14 @@ object SimpleQuizParser {
         flushQuiz()
 
         return quizzes
+    }
+
+    private fun stableId(prefix: String, value: String): String {
+        val hash = MessageDigest.getInstance("SHA-256")
+            .digest(value.toByteArray(Charsets.UTF_8))
+            .joinToString("") { "%02x".format(it) }
+            .take(16)
+        return "${prefix}_$hash"
     }
 
     /**
