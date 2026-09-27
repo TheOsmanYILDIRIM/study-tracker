@@ -403,6 +403,17 @@ object CloudflareSyncManager {
                 )
             }
 
+            val localSessionEntities = db.sessionDao().getAllSessionsOnce()
+            val completedMinutesByOccurrence = localSessionEntities
+                .filter { it.endTime != null && it.endTime >= it.startTime }
+                .groupBy { it.occurrenceKey }
+                .mapValues { (_, list) ->
+                    list.sumOf { (((it.endTime ?: it.startTime) - it.startTime) / 60000L).toInt().coerceAtLeast(0) }
+                }
+            fun reportedQuestionCount(note: String?): Int =
+                Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
+                    .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
+
             val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
                 val cleanPlanId = if (it.taskId.isNotBlank()) it.taskId else it.occurrenceKey.substringAfterLast("_", "")
                 RemoteOccurrenceSyncDto(
@@ -414,8 +425,9 @@ object CloudflareSyncManager {
                     topic = it.type.name,
                     targetDurationMin = it.plannedMinutes,
                     targetQuestionCount = it.targetCount ?: 0,
-                    completedDurationMin = it.targetMinutes ?: 0,
-                    completedQuestionCount = it.approvedCount,
+                    completedDurationMin = completedMinutesByOccurrence[it.occurrenceKey] ?: 0,
+                    completedQuestionCount = reportedQuestionCount(it.studentNote),
+                    approvedCount = it.approvedCount,
                     status = it.status.name,
                     parentNote = it.warningText ?: "",
                     weekId = it.weekId ?: "",
@@ -425,7 +437,7 @@ object CloudflareSyncManager {
                 )
             }
 
-            val sessions = db.sessionDao().getAllSessionsOnce().map {
+            val sessions = localSessionEntities.map {
                 RemoteSessionSyncDto(
                     id = it.sessionId,
                     familyCode = familyCode,
