@@ -329,10 +329,7 @@ async function handlePair(request, env, providedCode) {
     await putKV(env, prefix + 'messages', []);
     created = true;
   } else if (!meta.adminToken) {
-    issuedToken = randomToken();
-    meta.adminToken = issuedToken;
-    meta.updatedAt = Date.now();
-    await putKV(env, prefix + 'meta', meta);
+    return error('Legacy aile kodu güvenli yönetici anahtarına sahip değil. Veli uygulamasından yeni güvenli aile kodu oluşturun.', 409);
   } else {
     const providedToken = request.headers.get('X-Admin-Token') || body.adminToken || '';
     if (providedToken && providedToken === meta.adminToken) issuedToken = meta.adminToken;
@@ -390,7 +387,8 @@ async function handleSync(env, familyCode) {
     };
   });
 
-  const finalMeta = meta || { resetAt: 0, wipedAt: 0, tombstones: [], planSource: 'Cloud Master' };
+  const rawMeta = meta || { resetAt: 0, wipedAt: 0, tombstones: [], planSource: 'Cloud Master' };
+  const { adminToken: _privateAdminToken, ...finalMeta } = rawMeta;
 
   const unifiedData = {
     familyCode,
@@ -688,76 +686,68 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
 async function handlePlanAndTasks(request, env, familyCode, path, role) {
   const method = request.method;
   const prefix = `family:${familyCode}:`;
+  let planData = (await getKV(env, `${prefix}plan`)) || { templates: [], tasks: [], plan: null };
+  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], revision: 0 };
 
   if (method === 'GET') {
-    const planData = (await getKV(env, `${prefix}plan`)) || { tasks: [], plan: null };
-    return json({ success: true, plan: planData.plan, tasks: planData.tasks });
+    const tombstones = new Set(meta.tombstones || []);
+    const occurrences = (planData.tasks || []).map(normalizeTask).filter(Boolean).filter(t => !tombstones.has(t.id));
+    return json({ success: true, plan: planData.plan, tasks: planData.templates || [], occurrences });
   }
 
-  if (!['PARENT', 'ADMIN', 'CLI', 'PARENTING_AI'].includes(role)) {
-    return error('Yetki Hatası: Sadece Veli/Admin plan ve görevleri değiştirebilir.', 403);
-  }
-
-  let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [], plan: null };
-  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [] };
+  if (!isParentRole(role)) return error('Yetki Hatası: Sadece Veli/Admin plan ve görevleri değiştirebilir.', 403);
+  if (!(await hasAdminAuth(request, env, familyCode))) return error('Geçerli X-Admin-Token zorunludur.', 401);
 
   if (method === 'POST' || method === 'PUT') {
     const body = await request.json();
-    const rawList = (Array.isArray(body.occurrences) && body.occurrences.length > 0)
-      ? body.occurrences
-      : (Array.isArray(body.tasks) && body.tasks.length > 0 ? body.tasks : []);
-
-    if (rawList.length > 0) {
-      const incomingTasks = rawList.map(normalizeTask).filter(Boolean);
-      const incomingIds = new Set(incomingTasks.map(t => t.id));
-      const oldIds = (planData.tasks || []).map(t => t.id);
-
-      for (const oldId of oldIds) {
-        if (!incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) {
-          meta.tombstones.push(oldId);
-        }
+    if (Array.isArray(body.tasks)) planData.templates = body.tasks.filter(t => t && t.taskId);
+    if (Array.isArray(body.occurrences) && body.occurrences.length > 0) {
+      const incoming = body.occurrences.map(normalizeTask).filter(Boolean);
+      const incomingIds = new Set(incoming.map(t => t.id));
+      for (const old of (planData.tasks || [])) {
+        const oldId = old.id || old.occurrenceKey;
+        if (oldId && !incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) meta.tombstones.push(oldId);
       }
-      for (const incId of incomingIds) {
-        meta.tombstones = (meta.tombstones || []).filter(id => id !== incId);
-      }
-
-      planData.tasks = incomingTasks;
-      planData.updatedAt = Date.now();
-      planData.source = role;
+      for (const id of incomingIds) meta.tombstones = meta.tombstones.filter(x => x !== id);
+      planData.tasks = incoming;
     }
     if (body.plan !== undefined) planData.plan = body.plan;
-
+    planData.updatedAt = Date.now();
+    planData.source = role;
+    meta.revision = Number(meta.revision || 0) + 1;
+    meta.updatedAt = Date.now();
     await putKV(env, `${prefix}plan`, planData);
     await putKV(env, `${prefix}meta`, meta);
-    return json({ success: true, message: 'Plan başarıyla güncellendi.', tasksCount: planData.tasks.length });
+    return await handleSync(env, familyCode);
   }
 
   if (method === 'PATCH' && (path.includes('/tasks/') || path.includes('/occurrences/'))) {
     const taskId = path.split('/').pop();
     const body = await request.json();
-    const idx = planData.tasks.findIndex(t => t.id === taskId);
-    if (idx !== -1) {
-      planData.tasks[idx] = { ...planData.tasks[idx], ...normalizeTask(body), id: taskId, updatedAt: Date.now() };
-      planData.updatedAt = Date.now();
-      await putKV(env, `${prefix}plan`, planData);
-      return json({ success: true, message: `Görev '${taskId}' güncellendi.`, task: planData.tasks[idx] });
-    }
-    return error('Görev bulunamadı', 404);
+    const idx = (planData.tasks || []).findIndex(t => (t.id || t.occurrenceKey) === taskId);
+    if (idx === -1) return error('Görev bulunamadı', 404);
+    planData.tasks[idx] = { ...planData.tasks[idx], ...normalizeTask(body), id: taskId, updatedAt: Date.now() };
+    planData.updatedAt = Date.now();
+    await putKV(env, `${prefix}plan`, planData);
+    return await handleSync(env, familyCode);
   }
 
   if (method === 'DELETE' && (path.includes('/tasks/') || path.includes('/occurrences/'))) {
     const taskId = path.split('/').pop();
-    planData.tasks = planData.tasks.filter(t => t.id !== taskId);
+    const removed = (planData.tasks || []).find(t => (t.id || t.occurrenceKey) === taskId);
+    planData.tasks = (planData.tasks || []).filter(t => (t.id || t.occurrenceKey) !== taskId);
     if (!meta.tombstones.includes(taskId)) meta.tombstones.push(taskId);
-
+    if (removed?.planId && !(planData.tasks || []).some(t => t.planId === removed.planId)) {
+      planData.templates = (planData.templates || []).filter(t => t.taskId !== removed.planId);
+    }
+    await deleteKV(env, `${prefix}progress:${taskId}`);
     await putKV(env, `${prefix}plan`, planData);
     await putKV(env, `${prefix}meta`, meta);
-    return json({ success: true, message: `Görev '${taskId}' silindi.` });
+    return await handleSync(env, familyCode);
   }
 
   return error('Method not allowed', 405);
 }
-
 async function handleProgress(request, env, familyCode, path, role) {
   const method = request.method;
   const taskId = path.split('/').pop();
@@ -802,6 +792,9 @@ async function handleCommands(request, env, familyCode, role, path) {
   if (request.method !== 'POST') return error('Method not allowed', 405);
   if (!['PARENT', 'ADMIN', 'CLI'].includes(role)) {
     return error('Yetki Hatası: Sadece Veli/Admin komut verebilir.', 403);
+  }
+  if (!(await hasAdminAuth(request, env, familyCode))) {
+    return error('Geçerli X-Admin-Token zorunludur.', 401);
   }
 
   const body = await request.json().catch(() => ({}));
@@ -893,6 +886,9 @@ async function handleReview(request, env, familyCode, role) {
   if (!['PARENT', 'ADMIN', 'CLI'].includes(role)) {
     return error('Yetki Hatası: Sadece Veli inceleme/onay verebilir.', 403);
   }
+  if (!(await hasAdminAuth(request, env, familyCode))) {
+    return error('Geçerli X-Admin-Token zorunludur.', 401);
+  }
 
   const body = await request.json();
   const taskId = body.taskId || body.occurrenceKey;
@@ -968,6 +964,9 @@ async function handleMessages(request, env, familyCode, role, url) {
   if (method === 'POST') {
     if (!['PARENT', 'ADMIN', 'CLI', 'SYSTEM'].includes(role)) {
       return error('Yetki Hatası: Sadece Veli veya Sistem bildirim gönderebilir.', 403);
+    }
+    if (role !== 'SYSTEM' && !(await hasAdminAuth(request, env, familyCode))) {
+      return error('Geçerli X-Admin-Token zorunludur.', 401);
     }
 
     const body = await request.json();
