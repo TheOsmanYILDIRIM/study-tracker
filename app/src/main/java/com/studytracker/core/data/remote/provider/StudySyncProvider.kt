@@ -7,6 +7,8 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
+import android.os.Binder
+import android.os.Process
 import android.os.ParcelFileDescriptor
 import android.util.Base64
 import android.util.Log
@@ -35,6 +37,7 @@ class StudySyncProvider : ContentProvider() {
     override fun onCreate(): Boolean = true
 
     override fun call(method: String, arg: String?, extras: Bundle?): Bundle? {
+        enforceAuthorizedCaller()
         val ctx = context ?: return null
         val db = AppDatabase.getInstance(ctx)
         val familyCode = arg?.trim()?.uppercase()?.ifBlank { "ST-2026" } ?: "ST-2026"
@@ -93,23 +96,41 @@ class StudySyncProvider : ContentProvider() {
     }
 
     override fun openFile(uri: Uri, mode: String): ParcelFileDescriptor? {
+        enforceAuthorizedCaller()
+        if (mode != "r") throw FileNotFoundException("Read-only provider")
         val ctx = context ?: throw FileNotFoundException("Context is null")
-        val path = uri.path ?: throw FileNotFoundException("Path is null")
-        val filename = path.substringAfterLast("/")
-        val cleanName = if (filename.endsWith(".jpg") || filename.endsWith(".png")) filename else "$filename.jpg"
-        
-        val file = File(File(ctx.filesDir, "screenshots"), cleanName)
-        if (file.exists() && file.length() > 0) {
-            return ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
+        val filename = uri.lastPathSegment ?: throw FileNotFoundException("Missing file name")
+        if (!filename.matches(Regex("""[A-Za-z0-9._-]{1,128}"""))) {
+            throw FileNotFoundException("Invalid screenshot name")
         }
-        
-        // Check exact path match
-        val directFile = File(path)
-        if (directFile.exists() && directFile.length() > 0) {
-            return ParcelFileDescriptor.open(directFile, ParcelFileDescriptor.MODE_READ_ONLY)
+        val cleanName = if (filename.endsWith(".jpg") || filename.endsWith(".jpeg") ||
+            filename.endsWith(".png") || filename.endsWith(".webp")) filename else "$filename.jpg"
+
+        val root = File(ctx.filesDir, "screenshots").canonicalFile
+        val file = File(root, cleanName).canonicalFile
+        if (!file.path.startsWith(root.path + File.separator) || !file.exists() || file.length() <= 0) {
+            throw FileNotFoundException("Screenshot not found")
         }
-        
-        throw FileNotFoundException("Screenshot not found at $path")
+        return ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
+    }
+
+    private fun enforceAuthorizedCaller() {
+        val ctx = context ?: throw SecurityException("Provider context unavailable")
+        val uid = Binder.getCallingUid()
+        if (uid == Process.myUid()) return
+
+        val allowedPackages = setOf(
+            "com.studytracker.child",
+            "com.studytracker.child.debug",
+            "com.studytracker.parent",
+            "com.studytracker.parent.debug",
+            "com.studytracker",
+            "com.studytracker.debug"
+        )
+        val callers = ctx.packageManager.getPackagesForUid(uid)?.toSet().orEmpty()
+        if (callers.none { it in allowedPackages }) {
+            throw SecurityException("Unauthorized StudyTracker sync caller")
+        }
     }
 
     private suspend fun mergePayloadIntoDb(ctx: android.content.Context, db: AppDatabase, payload: SharedFamilySyncPayload) {
