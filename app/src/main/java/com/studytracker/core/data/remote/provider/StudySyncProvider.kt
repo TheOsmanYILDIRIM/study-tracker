@@ -276,7 +276,7 @@ class StudySyncProvider : ContentProvider() {
                     rejectCount = maxOf(local?.rejectCount ?: 0, if (finalWarning) 1 else 0),
                     approvedCount = approvedCount,
                     targetCount = targetCount,
-                    targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
+                    targetMinutes = local?.targetMinutes,
                     studentNote = remote.studentNote ?: local?.studentNote
                 )
             }
