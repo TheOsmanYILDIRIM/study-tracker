@@ -79,7 +79,7 @@ function generateFamilyCode() {
 }
 
 function isValidFamilyCode(code) {
-  return /^ST-[A-Z0-9]{4}(?:-[A-Z0-9]{4}){0,7}$/.test(code);
+  return /^ST-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(code);
 }
 
 function isParentRole(role) {
