@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '988ce42497272fb90cec4edd3c76d5a2';
+const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '';
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN || '';
+const BUILD_REVISION = process.env.GITHUB_SHA || process.env.BUILD_REVISION || 'manual';
 const SCRIPT_NAME = 'studytracker-sync';
 
 async function cfRequest(endpoint, options = {}) {
@@ -21,6 +22,9 @@ async function cfRequest(endpoint, options = {}) {
 
 async function main() {
   console.log('🚀 === Cloudflare Worker Dağıtım Başlıyor ===\n');
+  if (!ACCOUNT_ID || !API_TOKEN) {
+    throw new Error('CLOUDFLARE_ACCOUNT_ID ve CLOUDFLARE_API_TOKEN zorunludur.');
+  }
 
   // 1. Get workers.dev subdomain
   console.log('1️⃣ Workers.dev alt alan adı alınıyor...');
@@ -60,13 +64,18 @@ async function main() {
 
   const metadata = {
     main_module: 'worker.js',
-    bindings: kvId ? [
-      {
+    bindings: [
+      ...(kvId ? [{
         type: 'kv_namespace',
         name: 'STUDY_SYNC_KV',
         namespace_id: kvId
+      }] : []),
+      {
+        type: 'plain_text',
+        name: 'BUILD_REVISION',
+        text: BUILD_REVISION
       }
-    ] : [],
+    ],
     compatibility_date: '2026-09-18'
   };
 
