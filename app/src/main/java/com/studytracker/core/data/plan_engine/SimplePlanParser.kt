@@ -2,6 +2,8 @@ package com.studytracker.core.data.plan_engine
 
 import com.studytracker.core.domain.model.*
 import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.temporal.WeekFields
 import java.util.*
 
 object SimplePlanParser {
@@ -429,8 +431,13 @@ object SimplePlanParser {
     }
 
     private fun extractMinutes(str: String): Int {
-        val digits = str.filter { it.isDigit() }
-        return digits.toIntOrNull() ?: 30
+        val lower = str.lowercase(Locale("tr", "TR"))
+        val hours = Regex("""(\d+)\s*(?:saat|hour|hr|h)\b""").find(lower)
+            ?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
+        val minutes = Regex("""(\d+)\s*(?:dk|dakika|min|minute|m)\b""").find(lower)
+            ?.groupValues?.getOrNull(1)?.toIntOrNull()
+        val fallback = Regex("""\d+""").find(lower)?.value?.toIntOrNull()
+        return (hours * 60 + (minutes ?: if (hours > 0) 0 else fallback ?: 30)).coerceIn(1, 600)
     }
 
     fun sanitizeId(title: String): String {
@@ -448,27 +455,30 @@ object SimplePlanParser {
     }
 
     private fun deriveWeekIdFromDate(dateStr: String): String {
-        val cal = Calendar.getInstance(Locale.US)
-        val d = SimpleDateFormat("yyyy-MM-dd", Locale.US).parse(dateStr) ?: Date()
-        cal.time = d
-        cal.firstDayOfWeek = Calendar.MONDAY
-        cal.minimalDaysInFirstWeek = 4
-        val year = cal.get(Calendar.YEAR)
-        val week = cal.get(Calendar.WEEK_OF_YEAR)
-        return String.format(Locale.US, "%04d-W%02d", year, week)
+        return try {
+            val date = LocalDate.parse(dateStr)
+            val wf = WeekFields.ISO
+            String.format(Locale.US, "%04d-W%02d", date.get(wf.weekBasedYear()), date.get(wf.weekOfWeekBasedYear()))
+        } catch (_: Exception) {
+            val now = LocalDate.now()
+            val wf = WeekFields.ISO
+            String.format(Locale.US, "%04d-W%02d", now.get(wf.weekBasedYear()), now.get(wf.weekOfWeekBasedYear()))
+        }
     }
 
     private fun deriveStartDateFromWeekId(weekIdStr: String): String {
-        val parts = weekIdStr.split("-W")
-        val year = parts.getOrNull(0)?.toIntOrNull() ?: 2026
-        val week = parts.getOrNull(1)?.toIntOrNull() ?: 1
-        val cal = Calendar.getInstance(Locale.US)
-        cal.clear()
-        cal.firstDayOfWeek = Calendar.MONDAY
-        cal.minimalDaysInFirstWeek = 4
-        cal.set(Calendar.YEAR, year)
-        cal.set(Calendar.WEEK_OF_YEAR, week)
-        cal.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY)
-        return SimpleDateFormat("yyyy-MM-dd", Locale.US).format(cal.time)
+        return try {
+            val parts = weekIdStr.split("-W")
+            val year = parts[0].toInt()
+            val week = parts[1].toInt()
+            val wf = WeekFields.ISO
+            LocalDate.of(year, 1, 4)
+                .with(wf.weekBasedYear(), year.toLong())
+                .with(wf.weekOfWeekBasedYear(), week.toLong())
+                .with(wf.dayOfWeek(), 1)
+                .toString()
+        } catch (_: Exception) {
+            LocalDate.now().toString()
+        }
     }
 }
