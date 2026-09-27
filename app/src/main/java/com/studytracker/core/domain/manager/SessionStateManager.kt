@@ -179,7 +179,11 @@ class SessionStateManager private constructor(
         }
     }
 
-    fun finishSession(studentNote: String? = null, onFinished: (() -> Unit)? = null) {
+    fun finishSession(
+        studentNote: String? = null,
+        reportedQuestionCount: Int = 0,
+        onFinished: (() -> Unit)? = null
+    ) {
         val current = _activeState.value ?: return
         _activeState.value = current.copy(isFinishing = true)
 
@@ -194,7 +198,8 @@ class SessionStateManager private constructor(
                     current.session.sessionId,
                     finalSs?.url,
                     studentNote,
-                    activeDurationSeconds = _elapsedSeconds.value
+                    activeDurationSeconds = _elapsedSeconds.value,
+                    reportedQuestionCount = reportedQuestionCount
                 )
 
                 val syncResult = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
