@@ -338,7 +338,12 @@ object CloudflareSyncManager {
             quizzes = cloudData.quizzes
         )
 
-        StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
+        val imported = StudyPackageExchangeManager.importPackageString(
+            context,
+            json.encodeToString(studyPackage),
+            trustedSource = true
+        )
+        imported.getOrThrow()
     }
 
     /**
@@ -489,6 +494,7 @@ object CloudflareSyncManager {
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", effectiveRole)
             }
 
             OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
