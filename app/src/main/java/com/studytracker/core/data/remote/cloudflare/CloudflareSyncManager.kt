@@ -805,13 +805,14 @@ object CloudflareSyncManager {
 
             for (msg in unreadNewMessages) {
                 // Bildirim göster
-                com.studytracker.core.notification.StudyNotificationManager.showParentNudgeNotification(context, msg)
-                deliveredCount++
-
-                if (msg.timestamp > prefs.lastNotifiedMessageTime) {
-                    prefs.lastNotifiedMessageTime = msg.timestamp
+                val shown = com.studytracker.core.notification.StudyNotificationManager.showParentNudgeNotification(context, msg)
+                if (shown) {
+                    deliveredCount++
+                    if (msg.timestamp > prefs.lastNotifiedMessageTime) {
+                        prefs.lastNotifiedMessageTime = msg.timestamp
+                    }
+                    prefs.setLastUnreadMessage(json.encodeToString(msg))
                 }
-                prefs.setLastUnreadMessage(json.encodeToString(msg))
             }
 
             if (deliveredCount > 0) {
