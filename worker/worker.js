@@ -586,14 +586,16 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
         if (occ.studentNote !== undefined) prog.studentNote = occ.studentNote;
         if (occ.status === 'WAITING_REVIEW') prog.status = 'WAITING_REVIEW';
       } else if (isAdminOrParent) {
-        if (occ.status) {
+        if (occ.status === 'APPROVED' || occ.status === 'REJECTED') {
+          prog.status = occ.status;
+        } else if (!(prog.status === 'WAITING_REVIEW' && occ.status === 'PENDING') && occ.status) {
           prog.status = occ.status;
         }
         if (occ.completedDurationMin !== undefined || occ.completedMin !== undefined) {
-          prog.completedMin = Number(occ.completedDurationMin ?? occ.completedMin ?? 0);
+          prog.completedMin = Math.max(prog.completedMin || 0, Number(occ.completedDurationMin ?? occ.completedMin ?? 0));
         }
         if (occ.completedQuestionCount !== undefined || occ.completedQuestions !== undefined) {
-          prog.completedQuestions = Number(occ.completedQuestionCount ?? occ.completedQuestions ?? 0);
+          prog.completedQuestions = Math.max(prog.completedQuestions || 0, Number(occ.completedQuestionCount ?? occ.completedQuestions ?? 0));
         }
         if (occ.warningText !== undefined || occ.parentNote !== undefined) {
           prog.parentNote = occ.warningText || occ.parentNote;
@@ -608,40 +610,67 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     }
   }
 
-  // Sessions, Screenshots, Reviews, Messages Eklemeleri
+  // Sessions: true upsert so ACTIVE -> completed updates are not lost.
   if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
     let list = (await getKV(env, `${prefix}sessions`)) || [];
-    const valid = incoming.sessions.map(normalizeSession).filter(Boolean);
-    const existingIds = new Set(list.map(s => s.id));
-    for (const v of valid) {
-      if (!existingIds.has(v.id)) list.push(v);
+    const byId = new Map(list.map(s => [s.id, s]));
+    for (const raw of incoming.sessions) {
+      const v = normalizeSession(raw);
+      if (!v) continue;
+      const old = byId.get(v.id);
+      if (!old || Number(v.updatedAt || 0) >= Number(old.updatedAt || 0) || (v.isCompleted && !old.isCompleted)) byId.set(v.id, { ...old, ...v });
     }
-    if (list.length > 100) list = list.slice(-100);
+    list = Array.from(byId.values()).sort((a, b) => Number(a.updatedAt || 0) - Number(b.updatedAt || 0)).slice(-200);
     await putKV(env, `${prefix}sessions`, list);
   }
 
   if (Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
     let list = (await getKV(env, `${prefix}screenshots`)) || [];
-    const valid = incoming.screenshots.map(normalizeScreenshot).filter(Boolean);
-    const existingIds = new Set(list.map(s => s.id));
-    for (const v of valid) {
-      if (!existingIds.has(v.id)) list.push(v);
+    const byId = new Map(list.map(s => [s.id, s]));
+    for (const raw of incoming.screenshots) {
+      const v = normalizeScreenshot(raw);
+      if (v) byId.set(v.id, { ...(byId.get(v.id) || {}), ...v });
     }
-    if (list.length > 50) list = list.slice(-50);
+    list = Array.from(byId.values()).sort((a, b) => Number(a.timestamp || 0) - Number(b.timestamp || 0)).slice(-100);
     await putKV(env, `${prefix}screenshots`, list);
+  }
+
+  if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
+    let list = (await getKV(env, `${prefix}reviews`)) || [];
+    const byId = new Map(list.map(r => [r.id || r.sessionId, r]));
+    for (const raw of incoming.reviews) {
+      const v = normalizeReview(raw);
+      if (!v) continue;
+      const key = v.id || v.sessionId;
+      const old = byId.get(key);
+      if (!old || Number(v.reviewedAt || 0) >= Number(old.reviewedAt || 0)) byId.set(key, v);
+    }
+    list = Array.from(byId.values()).sort((a, b) => Number(a.reviewedAt || 0) - Number(b.reviewedAt || 0)).slice(-200);
+    await putKV(env, `${prefix}reviews`, list);
+  }
+
+  if (Array.isArray(incoming.quizzes) && incoming.quizzes.length > 0) {
+    let list = (await getKV(env, `${prefix}quizzes`)) || [];
+    const byId = new Map(list.map(q => [q.quizId, q]));
+    for (const q of incoming.quizzes) {
+      if (!q?.quizId) continue;
+      const old = byId.get(q.quizId);
+      if (old?.completed && !q.completed) byId.set(q.quizId, old);
+      else byId.set(q.quizId, { ...(old || {}), ...q });
+    }
+    await putKV(env, `${prefix}quizzes`, Array.from(byId.values()).slice(-100));
   }
 
   if (Array.isArray(incoming.messages) && incoming.messages.length > 0) {
     let list = (await getKV(env, `${prefix}messages`)) || [];
-    const valid = incoming.messages.map(normalizeMessage).filter(Boolean);
-    const existingIds = new Set(list.map(m => m.id));
-    for (const v of valid) {
-      if (!existingIds.has(v.id)) list.push(v);
+    const byId = new Map(list.map(m => [m.id, m]));
+    for (const raw of incoming.messages) {
+      const v = normalizeMessage(raw);
+      if (v) byId.set(v.id, { ...(byId.get(v.id) || {}), ...v });
     }
-    if (list.length > 50) list = list.slice(-50);
+    list = Array.from(byId.values()).sort((a, b) => Number(a.timestamp || 0) - Number(b.timestamp || 0)).slice(-100);
     await putKV(env, `${prefix}messages`, list);
   }
-
   return await handleSync(env, familyCode);
 }
 
