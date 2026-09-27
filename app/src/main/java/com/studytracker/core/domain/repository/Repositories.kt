@@ -45,7 +45,7 @@ interface SessionRepository {
     fun getSessionsForOccurrence(occurrenceKey: String): Flow<List<Session>>
     suspend fun getSessionById(sessionId: String): Session?
     suspend fun startSession(occurrenceKey: String, childId: String, customSessionId: String? = null): Session
-    suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String? = null): Session
+    suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String? = null, activeDurationSeconds: Long = 0L): Session
     suspend fun submitReview(review: Review)
     suspend fun clearAllSessions()
 }
