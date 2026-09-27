@@ -39,7 +39,7 @@ class SessionStateManager private constructor(
     private val accessibilityCaptureDriver = AccessibilityCaptureDriver(context, db)
 
     fun getEffectiveCaptureDriver(): CaptureDriver {
-        return if (appPreferences.isFakeCaptureEnabled.value) {
+        return if (com.studytracker.BuildConfig.DEBUG && appPreferences.isFakeCaptureEnabled.value) {
             fakeCaptureDriver
         } else {
             accessibilityCaptureDriver
