@@ -383,10 +383,12 @@ fun ParentDashboardScreen(
                                 )
                             )
                             occurrenceRepo.setWarning(currentSession.occurrenceKey, true, note)
-                            try {
-                                CloudflareSyncManager.syncWithCloud(context)
-                            } catch (_: Exception) {}
-                            Toast.makeText(context, "Ders reddedildi ve not iletildi.", Toast.LENGTH_SHORT).show()
+                            val sync = CloudflareSyncManager.syncWithCloud(context)
+                            if (sync.isSuccess) {
+                                Toast.makeText(context, "Ders reddedildi ve not öğrenciye iletildi.", Toast.LENGTH_SHORT).show()
+                            } else {
+                                Toast.makeText(context, "Red yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                            }
                         }
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
@@ -995,7 +997,6 @@ fun ParentDashboardScreen(
 
                                         Button(
                                             onClick = {
-                                                Toast.makeText(context, "Öğrenci çalışması onaylandı! 🌟", Toast.LENGTH_SHORT).show()
                                                 scope.launch {
                                                     sessionRepo.submitReview(
                                                         Review(
@@ -1006,9 +1007,12 @@ fun ParentDashboardScreen(
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
-                                                    try {
-                                                        CloudflareSyncManager.syncWithCloud(context)
-                                                    } catch (_: Exception) {}
+                                                    val sync = CloudflareSyncManager.syncWithCloud(context)
+                                                    if (sync.isSuccess) {
+                                                        Toast.makeText(context, "Öğrenci çalışması onaylandı ve eşitlendi! 🌟", Toast.LENGTH_SHORT).show()
+                                                    } else {
+                                                        Toast.makeText(context, "Onay yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                                    }
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),
