@@ -5,15 +5,25 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
+val releaseStorePath = System.getenv("STUDYTRACKER_KEYSTORE_PATH")
+val releaseStorePassword = System.getenv("STUDYTRACKER_KEYSTORE_PASSWORD")
+val releaseKeyAlias = System.getenv("STUDYTRACKER_KEY_ALIAS")
+val releaseKeyPassword = System.getenv("STUDYTRACKER_KEY_PASSWORD")
+val hasReleaseSigning = !releaseStorePath.isNullOrBlank() &&
+    !releaseStorePassword.isNullOrBlank() &&
+    !releaseKeyAlias.isNullOrBlank() &&
+    !releaseKeyPassword.isNullOrBlank() &&
+    file(releaseStorePath!!).exists()
+
 android {
     namespace = "com.studytracker"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.studytracker"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 1
+        targetSdk = 36
+        versionCode = System.getenv("GITHUB_RUN_NUMBER")?.toIntOrNull() ?: 2
         versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -42,17 +52,19 @@ android {
     }
 
     signingConfigs {
-        create("release") {
-            storeFile = file("antigravity.keystore")
-            storePassword = "antigravity_android_key"
-            keyAlias = "antigravity"
-            keyPassword = "antigravity_android_key"
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = file(releaseStorePath!!)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
         }
     }
 
     buildTypes {
         release {
-            signingConfig = signingConfigs.getByName("release")
+            if (hasReleaseSigning) signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -60,7 +72,6 @@ android {
             )
         }
         debug {
-            signingConfig = signingConfigs.getByName("release")
             applicationIdSuffix = ".debug"
         }
     }
