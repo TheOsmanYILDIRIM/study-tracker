@@ -119,6 +119,7 @@ function normalizeTask(t) {
     targetCount: Number(t.targetQuestionCount ?? t.target_question_count ?? t.targetCount ?? 0),
     completedDurationMin: Number(t.completedDurationMin ?? t.completed_duration_min ?? t.completedMin ?? 0),
     completedQuestionCount: Number(t.completedQuestionCount ?? t.completed_question_count ?? t.completedQuestions ?? 0),
+    approvedCount: Number(t.approvedCount ?? t.approved_count ?? 0),
     status: t.status || 'PENDING',
     parentNote,
     warningText: parentNote,
