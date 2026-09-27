@@ -143,6 +143,7 @@ function normalizeSession(s) {
     startTime: Number(s.startTime ?? s.start_time ?? 0),
     endTime: (s.endTime !== undefined && s.endTime !== null) ? Number(s.endTime) : ((s.end_time !== undefined && s.end_time !== null) ? Number(s.end_time) : null),
     durationMin: Number(s.durationMin ?? s.duration_min ?? 0),
+    activeDurationSeconds: Number(s.activeDurationSeconds ?? s.active_duration_seconds ?? ((s.durationMin ?? s.duration_min ?? 0) * 60)),
     isCompleted: Boolean(s.isCompleted ?? s.is_completed ?? false),
     notes: s.notes || s.studentNote || '',
     studentNote: s.notes || s.studentNote || '',
