@@ -63,6 +63,18 @@ object StudyPackageExchangeManager {
     private const val MAX_SCREENSHOTS = 100
     private const val MAX_QUIZZES = 100
 
+    private suspend fun completedMinutesByOccurrence(db: AppDatabase): Map<String, Int> =
+        db.sessionDao().getAllSessionsOnce()
+            .filter { it.endTime != null && it.endTime >= it.startTime }
+            .groupBy { it.occurrenceKey }
+            .mapValues { (_, list) ->
+                list.sumOf { (((it.endTime ?: it.startTime) - it.startTime) / 60000L).toInt().coerceAtLeast(0) }
+            }
+
+    private fun extractReportedQuestionCount(note: String?): Int =
+        Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
+            .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
+
     private val json = Json {
         ignoreUnknownKeys = true
         encodeDefaults = true
@@ -136,6 +148,7 @@ object StudyPackageExchangeManager {
             )
         }
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -146,8 +159,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -186,6 +200,7 @@ object StudyPackageExchangeManager {
         val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
         val todayStr = dateFormat.format(Date())
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -196,8 +211,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -271,6 +287,7 @@ object StudyPackageExchangeManager {
         val prefs = AppPreferences.getInstance(context)
         val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -281,8 +298,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -488,7 +506,7 @@ object StudyPackageExchangeManager {
                         else -> remoteStatus
                     }
 
-                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.approvedCount)
                     val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
