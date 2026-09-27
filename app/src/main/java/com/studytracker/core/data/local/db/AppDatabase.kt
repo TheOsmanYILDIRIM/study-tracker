@@ -5,6 +5,8 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import com.studytracker.core.data.local.db.converter.AppTypeConverters
 import com.studytracker.core.data.local.db.dao.*
 import com.studytracker.core.data.local.db.entity.*
@@ -36,13 +38,50 @@ abstract class AppDatabase : RoomDatabase() {
         @Volatile
         private var INSTANCE: AppDatabase? = null
 
+        private val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE occurrences ADD COLUMN studentNote TEXT")
+                db.execSQL("ALTER TABLE sessions ADD COLUMN studentNote TEXT")
+            }
+        }
+
+        private val MIGRATION_2_3 = object : Migration(2, 3) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS quizzes (
+                        quizId TEXT NOT NULL PRIMARY KEY,
+                        title TEXT NOT NULL,
+                        description TEXT,
+                        date TEXT,
+                        weekId TEXT,
+                        durationMinutes INTEGER NOT NULL DEFAULT 15,
+                        targetOccurrenceKey TEXT,
+                        questionsJson TEXT NOT NULL DEFAULT '[]',
+                        completed INTEGER NOT NULL DEFAULT 0,
+                        submittedAt INTEGER,
+                        studentAnswersJson TEXT NOT NULL DEFAULT '{}',
+                        studentDurationSeconds INTEGER NOT NULL DEFAULT 0,
+                        correctCount INTEGER NOT NULL DEFAULT 0,
+                        wrongCount INTEGER NOT NULL DEFAULT 0,
+                        emptyCount INTEGER NOT NULL DEFAULT 0
+                    )""".trimIndent()
+                )
+            }
+        }
+
+        private val MIGRATION_3_4 = object : Migration(3, 4) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE quizzes ADD COLUMN studentNote TEXT")
+            }
+        }
+
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
                     "study_tracker_db"
-                ).fallbackToDestructiveMigration().build()
+).addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4).build()
                 INSTANCE = instance
                 instance
             }
