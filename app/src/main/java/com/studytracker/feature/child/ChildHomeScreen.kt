@@ -454,7 +454,10 @@ fun ChildHomeScreen(
 
                         showFinishNoteDialog = false
                         localFlyingStarTrigger = System.currentTimeMillis()
-                        stateManager.finishSession(studentNote = compiledNote)
+                        stateManager.finishSession(
+                            studentNote = compiledNote,
+                            reportedQuestionCount = evalQuestionsCount.toIntOrNull() ?: 0
+                        )
                         
                         // Formu sıfırla
                         studentNoteInput = ""
