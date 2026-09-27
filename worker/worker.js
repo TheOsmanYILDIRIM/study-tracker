@@ -155,8 +155,8 @@ function normalizeReview(r) {
   return {
     id: r.id || `rev_${r.sessionId || r.session_id || Date.now()}`,
     familyCode: r.familyCode || r.family_code || '',
-    sessionId: r.sessionId || r.session_id || '',
-    occurrenceKey: r.occurrenceKey || r.occurrenceId || r.taskId || '',
+    sessionId: r.sessionId || r.session_id || r.taskId || r.occurrenceKey || '',
+    occurrenceKey: r.occurrenceKey || r.occurrenceId || r.taskId || r.sessionId || '',
     isApproved: Boolean(r.isApproved ?? r.is_approved ?? true),
     rejectionReason: r.rejectionReason ?? r.rejection_reason ?? null,
     parentRating: Number(r.parentRating ?? r.parent_rating ?? 5),
@@ -928,14 +928,17 @@ async function handleAppendLog(request, env, familyCode, type, limit, normalizer
   const prefix = `family:${familyCode}:`;
   const key = `${prefix}${type}`;
   let logs = (await getKV(env, key)) || [];
+  const byId = new Map(logs.map(item => [item.id || item.sessionId || item.screenshotId, item]));
 
   const items = Array.isArray(body) ? body : [body];
   for (const raw of items) {
     const item = normalizer({ ...raw, familyCode });
-    if (item) logs.push(item);
+    if (!item) continue;
+    const id = item.id || item.sessionId || item.screenshotId;
+    if (id) byId.set(id, { ...(byId.get(id) || {}), ...item });
   }
 
-  if (logs.length > limit) logs = logs.slice(-limit);
+  logs = Array.from(byId.values()).slice(-limit);
   await putKV(env, key, logs);
 
   return json({ success: true, addedCount: items.length, total: logs.length });
