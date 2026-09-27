@@ -446,56 +446,67 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     return await handleSync(env, familyCode);
   }
 
-  // 1. Geri Alma (RESTORE)
+  // 1-3. RESTORE / WIPE / RESET use complete snapshots.
   if (action === 'RESTORE' || action === 'UNDO_RESET') {
     const snapshot = await getKV(env, `${prefix}snapshot_prev`);
-    if (!snapshot) {
-      return error('Geri yüklenebilecek önceki bir durum yedeği (snapshot) bulunamadı.', 404);
-    }
-    await putKV(env, `${prefix}plan`, { tasks: snapshot.tasks || [], plan: snapshot.plan || null, updatedAt: Date.now() });
-    if (snapshot.progress) {
-      for (const [taskId, prog] of Object.entries(snapshot.progress)) {
-        await putKV(env, `${prefix}progress:${taskId}`, prog);
-      }
-    }
-    return json({ success: true, message: 'Yedek başarıyla geri yüklendi.', data: snapshot });
+    if (!snapshot) return error('Geri yüklenecek önceki durum yedeği bulunamadı.', 404);
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
+    const list = await listKV(env, prefix);
+    for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
+
+    const restoredMeta = { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now() };
+    await putKV(env, `${prefix}meta`, restoredMeta);
+    await putKV(env, `${prefix}plan`, {
+      templates: snapshot.tasks || [],
+      tasks: snapshot.occurrences || [],
+      plan: snapshot.plan || null,
+      source: snapshot.planSource || 'RESTORE',
+      updatedAt: Date.now()
+    });
+    for (const [taskId, prog] of Object.entries(snapshot.progress || {})) await putKV(env, `${prefix}progress:${taskId}`, prog);
+    await putKV(env, `${prefix}sessions`, snapshot.sessions || []);
+    await putKV(env, `${prefix}screenshots`, snapshot.screenshots || []);
+    await putKV(env, `${prefix}reviews`, snapshot.reviews || []);
+    await putKV(env, `${prefix}messages`, snapshot.messages || []);
+    await putKV(env, `${prefix}quizzes`, snapshot.quizzes || []);
+    return await handleSync(env, familyCode);
   }
 
-  // 2. Tam Sıfırlama (WIPE)
   if (action === 'WIPE') {
     const currentSync = await (await handleSync(env, familyCode)).json();
-    await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400); // 24 saat
-
+    await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
-    for (const k of list.keys) {
-      if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
-    }
+    for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
 
-    const meta = { createdAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [] };
+    const meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: 1, adminToken: currentMeta.adminToken };
     await putKV(env, `${prefix}meta`, meta);
-    await putKV(env, `${prefix}plan`, { tasks: [], plan: null, updatedAt: Date.now() });
+    await putKV(env, `${prefix}plan`, { templates: [], tasks: [], plan: null, updatedAt: Date.now() });
     await putKV(env, `${prefix}messages`, []);
-
-    return json({ success: true, message: 'Sistem tamamen sıfırlandı (24 saatlik yedek alındı).' });
+    return await handleSync(env, familyCode);
   }
 
-  // 3. İlerleme Sıfırlama (RESET)
   if (action === 'RESET' || action === 'RESET_ALL_PROGRESS') {
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
 
     let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [] };
     meta.resetAt = Date.now();
+    meta.updatedAt = Date.now();
     await putKV(env, `${prefix}meta`, meta);
 
     const list = await listKV(env, `${prefix}progress:`);
-    for (const k of list.keys) {
-      await deleteKV(env, k.name);
-    }
-
-    return json({ success: true, message: 'Öğrenci ilerlemesi sıfırlandı.' });
+    for (const k of list.keys) await deleteKV(env, k.name);
+    await putKV(env, `${prefix}sessions`, []);
+    await putKV(env, `${prefix}screenshots`, []);
+    await putKV(env, `${prefix}reviews`, []);
+    const quizzes = (await getKV(env, `${prefix}quizzes`)) || [];
+    await putKV(env, `${prefix}quizzes`, quizzes.map(q => ({
+      ...q, completed: false, submittedAt: null, studentAnswers: {}, studentDurationSeconds: 0,
+      correctCount: 0, wrongCount: 0, emptyCount: 0, studentNote: null
+    })));
+    return await handleSync(env, familyCode);
   }
-
   // 4. Tekil Ders Güncelleme (PATCH_TASK)
   if (action === 'PATCH_TASK' && (incoming.patchTask || (incoming.occurrences && incoming.occurrences.length === 1))) {
     const pt = incoming.patchTask || incoming.occurrences[0];
