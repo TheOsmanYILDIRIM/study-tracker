@@ -56,6 +56,13 @@ data class StudyTrackerPackage(
 
 object StudyPackageExchangeManager {
 
+    private const val MAX_PACKAGE_CHARS = 8 * 1024 * 1024
+    private const val MAX_SCREENSHOT_CHARS = 512 * 1024
+    private const val MAX_OCCURRENCES = 500
+    private const val MAX_SESSIONS = 500
+    private const val MAX_SCREENSHOTS = 100
+    private const val MAX_QUIZZES = 100
+
     private val json = Json {
         ignoreUnknownKeys = true
         encodeDefaults = true
@@ -345,7 +352,10 @@ object StudyPackageExchangeManager {
                 stream.bufferedReader(Charsets.UTF_8).readText()
             } ?: return@withContext Result.failure(Exception("Dosya okunamadı"))
 
-            importPackageString(context, content)
+            if (content.length > MAX_PACKAGE_CHARS) {
+                return@withContext Result.failure(Exception("Paket güvenli boyut sınırını aşıyor"))
+            }
+            importPackageString(context, content, trustedSource = false)
         } catch (e: Exception) {
             Log.e("PackageExchange", "Import error: ${e.message}", e)
             Result.failure(e)
@@ -355,14 +365,46 @@ object StudyPackageExchangeManager {
     /**
      * Core Import & Smart Reconciliation Logic (Secere & Kayıpsız Revize Plan Birleştirme)
      */
-    suspend fun importPackageString(context: Context, packageContent: String): Result<String> = withContext(Dispatchers.IO) {
+    suspend fun importPackageString(
+        context: Context,
+        packageContent: String,
+        trustedSource: Boolean = false
+    ): Result<String> = withContext(Dispatchers.IO) {
         try {
+            if (packageContent.length > MAX_PACKAGE_CHARS) {
+                return@withContext Result.failure(Exception("Paket güvenli boyut sınırını aşıyor"))
+            }
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
             val pkg = json.decodeFromString<StudyTrackerPackage>(packageContent)
 
-            // 1. Update family code
-            if (pkg.familyCode.isNotBlank()) {
+            if (pkg.occurrences.size > MAX_OCCURRENCES ||
+                pkg.sessions.size > MAX_SESSIONS ||
+                pkg.screenshots.size > MAX_SCREENSHOTS ||
+                pkg.quizzes.size > MAX_QUIZZES) {
+                return@withContext Result.failure(Exception("Paket kayıt sınırlarını aşıyor"))
+            }
+            if (pkg.screenshots.any { it.imageUrl.length > MAX_SCREENSHOT_CHARS }) {
+                return@withContext Result.failure(Exception("Kanıt görseli güvenli boyut sınırını aşıyor"))
+            }
+
+            val currentFamilyCode = prefs.familyPairCode.value
+            if (!trustedSource) {
+                if (pkg.senderRole !in setOf("PARENT", "CHILD", "APP")) {
+                    return@withContext Result.failure(Exception("Harici paket için geçersiz gönderen rolü"))
+                }
+                if (pkg.familyCode.isNotBlank() && currentFamilyCode.isNotBlank() &&
+                    pkg.familyCode != currentFamilyCode) {
+                    return@withContext Result.failure(Exception("Paket farklı bir aile koduna ait"))
+                }
+                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION &&
+                    pkg.plan == null && pkg.tasks.isEmpty() && pkg.occurrences.isEmpty()) {
+                    return@withContext Result.failure(Exception("Boş ve yıkıcı plan paketi reddedildi"))
+                }
+            }
+
+            // Never silently re-pair a device from an untrusted package.
+            if (trustedSource && pkg.familyCode.isNotBlank() && pkg.familyCode != currentFamilyCode) {
                 prefs.setFamilyPairCode(pkg.familyCode)
             }
 
@@ -618,7 +660,13 @@ object StudyPackageExchangeManager {
                                 val base64Data = if (rss.imageUrl.contains(",")) rss.imageUrl.substringAfter(",") else rss.imageUrl
                                 val bytes = Base64.decode(base64Data, Base64.DEFAULT)
                                 val ext = if (rss.imageUrl.startsWith("data:image/webp")) "webp" else "jpg"
-                                val targetFile = File(screenshotsDir, "${rss.id}.$ext")
+                                val safeId = rss.id.replace(Regex("""[^A-Za-z0-9._-]"""), "_").take(96)
+                                if (safeId.isBlank()) throw IllegalArgumentException("Geçersiz screenshot id")
+                                val targetFile = File(screenshotsDir, "$safeId.$ext").canonicalFile
+                                val root = screenshotsDir.canonicalFile
+                                if (!targetFile.path.startsWith(root.path + File.separator)) {
+                                    throw SecurityException("Geçersiz screenshot yolu")
+                                }
                                 targetFile.writeBytes(bytes)
                                 localFilePath = targetFile.absolutePath
                             } catch (e: Exception) {
