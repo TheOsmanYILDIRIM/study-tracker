@@ -270,6 +270,7 @@ class LocalSessionRepositoryImpl(
     }
 
     override suspend fun submitReview(review: Review) {
+        val previousReview = db.reviewDao().getReviewForSession(review.sessionId)
         db.reviewDao().insertReview(review.toEntity())
 
         val sessionStatus = if (review.reviewStatus == ReviewStatus.APPROVED) {
@@ -298,7 +299,9 @@ class LocalSessionRepositoryImpl(
         if (occurrence != null) {
             if (review.reviewStatus == ReviewStatus.APPROVED) {
                 if (occurrence.type == TaskKind.WEEKLY) {
-                    db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
+                    if (previousReview?.reviewStatus != ReviewStatus.APPROVED) {
+                        db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
+                    }
                     val updated = db.occurrenceDao().getOccurrenceByKeyOnce(occurrence.occurrenceKey)!!
                     val target = updated.targetCount ?: 1
                     val newStatus = if (updated.approvedCount >= target) OccurrenceStatus.APPROVED else OccurrenceStatus.PENDING
