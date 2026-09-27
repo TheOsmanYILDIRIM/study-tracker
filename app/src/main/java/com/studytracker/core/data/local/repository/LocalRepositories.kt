@@ -7,6 +7,7 @@ import com.studytracker.core.data.plan_engine.PlanValidator
 import com.studytracker.core.data.plan_engine.ValidationResult
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.domain.repository.*
+import androidx.room.withTransaction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
@@ -87,9 +88,15 @@ class LocalPlanRepositoryImpl(
             rawJson = canonicalJson
         )
 
-        db.taskTemplateDao().upsertTasks(taskEntities)
-        db.occurrenceDao().upsertOccurrences(occurrenceEntities)
-        db.planDao().setActivePlan(planEntity)
+        db.withTransaction {
+            // A plan import is authoritative for the plan definition. Preserve progress via
+            // PlanMergeEngine above, but remove definitions that disappeared from the new plan.
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.taskTemplateDao().upsertTasks(taskEntities)
+            db.occurrenceDao().upsertOccurrences(occurrenceEntities)
+            db.planDao().setActivePlan(planEntity)
+        }
 
         return Result.success(importResult)
     }
@@ -100,9 +107,11 @@ class LocalPlanRepositoryImpl(
     }
 
     override suspend fun clearAllPlanData() {
-        db.taskTemplateDao().clearTasks()
-        db.occurrenceDao().clearOccurrences()
-        db.planDao().clearActivePlan()
+        db.withTransaction {
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.planDao().clearActivePlan()
+        }
     }
 }
 
