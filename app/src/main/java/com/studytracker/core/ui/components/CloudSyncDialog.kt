@@ -45,6 +45,7 @@ fun CloudSyncDialog(
     val scope = rememberCoroutineScope()
     val prefs = remember { AppPreferences.getInstance(context) }
     val currentCode by prefs.familyPairCode.collectAsState()
+    val adminToken by prefs.familyAdminToken.collectAsState()
 
     var codeInput by remember(currentCode) { mutableStateOf(currentCode) }
     var isSyncing by remember { mutableStateOf(false) }
@@ -201,6 +202,37 @@ fun CloudSyncDialog(
                             }
                         }
                     }
+                }
+
+                if (isParent && adminToken.isNotBlank()) {
+                    Surface(
+                        shape = RoundedCornerShape(10.dp),
+                        color = Color(0xFF101D32),
+                        border = BorderStroke(1.dp, ZenPaperBorder),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(10.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text("CLI Yönetici Anahtarı", color = Color.White, fontSize = 11.5.sp, fontWeight = FontWeight.SemiBold)
+                                Text("••••••••" + adminToken.takeLast(6), color = ZomoTextSecondary, fontSize = 10.5.sp)
+                            }
+                            IconButton(onClick = {
+                                clipboardManager.setText(AnnotatedString(adminToken))
+                                Toast.makeText(context, "🔐 Yönetici anahtarı panoya kopyalandı", Toast.LENGTH_SHORT).show()
+                            }) {
+                                Icon(Icons.Default.ContentCopy, contentDescription = "Yönetici anahtarını kopyala", tint = ZenSkyCyan)
+                            }
+                        }
+                    }
+                    Text(
+                        "Bu anahtarı yalnız kendi CLI cihazınızda kullanın; öğrenci cihazıyla paylaşmayın.",
+                        fontSize = 10.5.sp,
+                        color = ZomoTextMuted
+                    )
                 }
 
                 // Cloud Sync Trigger Button
