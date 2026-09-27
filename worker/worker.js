@@ -5,9 +5,8 @@
  */
 
 const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, PUT, PATCH, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Family-Code, X-Sender-Role',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Family-Code, X-Sender-Role, X-Admin-Token',
   'Content-Type': 'application/json; charset=utf-8'
 };
 
@@ -18,8 +17,19 @@ const error = (msg, status = 400) => json({ success: false, error: msg }, status
 // Local test (wrangler / node test-sync) için geçici bellek hafızası
 const inMemoryStore = new Map();
 
+function isLocalTest(env) {
+  return env && env.__LOCAL_TEST__ === true;
+}
+
+function requireStorage(env) {
+  if (!env?.STUDY_SYNC_KV && !isLocalTest(env)) {
+    throw new Error('STUDY_SYNC_KV binding is required');
+  }
+}
+
 async function getKV(env, key) {
-  if (env && env.STUDY_SYNC_KV) {
+  requireStorage(env);
+  if (env?.STUDY_SYNC_KV) {
     const raw = await env.STUDY_SYNC_KV.get(key);
     return raw ? JSON.parse(raw) : null;
   }
@@ -27,7 +37,8 @@ async function getKV(env, key) {
 }
 
 async function putKV(env, key, val, ttlSeconds = null) {
-  if (env && env.STUDY_SYNC_KV) {
+  requireStorage(env);
+  if (env?.STUDY_SYNC_KV) {
     const opts = ttlSeconds ? { expirationTtl: ttlSeconds } : {};
     await env.STUDY_SYNC_KV.put(key, JSON.stringify(val), opts);
   } else {
@@ -36,7 +47,8 @@ async function putKV(env, key, val, ttlSeconds = null) {
 }
 
 async function deleteKV(env, key) {
-  if (env && env.STUDY_SYNC_KV) {
+  requireStorage(env);
+  if (env?.STUDY_SYNC_KV) {
     await env.STUDY_SYNC_KV.delete(key);
   } else {
     inMemoryStore.delete(key);
@@ -44,16 +56,42 @@ async function deleteKV(env, key) {
 }
 
 async function listKV(env, prefix) {
-  if (env && env.STUDY_SYNC_KV) {
-    return await env.STUDY_SYNC_KV.list({ prefix });
-  }
+  requireStorage(env);
+  if (env?.STUDY_SYNC_KV) return await env.STUDY_SYNC_KV.list({ prefix });
   const keys = [];
-  for (const k of inMemoryStore.keys()) {
-    if (k.startsWith(prefix)) keys.push({ name: k });
-  }
+  for (const k of inMemoryStore.keys()) if (k.startsWith(prefix)) keys.push({ name: k });
   return { keys };
 }
 
+function randomToken(bytes = 24) {
+  const data = new Uint8Array(bytes);
+  crypto.getRandomValues(data);
+  return Array.from(data, b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function generateFamilyCode() {
+  const alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const data = new Uint8Array(16);
+  crypto.getRandomValues(data);
+  let body = '';
+  for (const b of data) body += alphabet[b % alphabet.length];
+  return 'ST-' + body.match(/.{1,4}/g).join('-');
+}
+
+function isValidFamilyCode(code) {
+  return /^ST-[A-Z0-9]{4}(?:-[A-Z0-9]{4}){0,7}$/.test(code);
+}
+
+function isParentRole(role) {
+  return ['PARENT', 'ADMIN', 'CLI', 'PARENTING_AI'].includes(role);
+}
+
+async function hasAdminAuth(request, env, familyCode) {
+  const meta = await getKV(env, 'family:' + familyCode + ':meta');
+  const expected = meta?.adminToken;
+  const provided = request.headers.get('X-Admin-Token') || '';
+  return Boolean(expected && provided && expected === provided);
+}
 // --- NORMALİZASYON FONKSİYONLARI ---
 
 function normalizeTask(t) {
@@ -180,15 +218,16 @@ export default {
     const method = request.method;
 
     // Header ve URL parametrelerinden aile kodu ve rolü çek
-    const familyCode = (url.searchParams.get('code') || request.headers.get('X-Family-Code') || 'ST-2026').toUpperCase().trim();
-    const role = (request.headers.get('X-Sender-Role') || 'PARENT').toUpperCase().trim();
+    const familyCode = (url.searchParams.get('code') || request.headers.get('X-Family-Code') || '').toUpperCase().trim();
+    const role = (request.headers.get('X-Sender-Role') || 'CLIENT').toUpperCase().trim();
 
     // 1. Health / Ping Check
     if (path === '/' || path === '/api/ping' || path === '/api/health') {
       return json({
         status: 'ok',
-        version: '2.0-segregated',
+        version: '3.0-hardened',
         engine: 'StudyTracker Multi-tenant Sharded Sync Engine',
+        storageConfigured: Boolean(env?.STUDY_SYNC_KV) || isLocalTest(env),
         timestamp: Date.now()
       });
     }
@@ -196,6 +235,10 @@ export default {
     // 2. Family Pairing
     if (path === '/api/pair' && method === 'POST') {
       return await handlePair(request, env, familyCode);
+    }
+
+    if (!familyCode || !isValidFamilyCode(familyCode)) {
+      return error('Geçerli X-Family-Code / ?code zorunludur.', 400);
     }
 
     try {
@@ -269,23 +312,34 @@ export default {
 
 async function handlePair(request, env, providedCode) {
   const body = await request.json().catch(() => ({}));
-  let code = (providedCode && providedCode !== 'ST-2026') ? providedCode : (body.familyCode ? body.familyCode.toUpperCase().trim() : '');
-  if (!code) {
-    code = `ST-${Math.floor(1000 + Math.random() * 9000)}`;
-  }
+  let code = (providedCode || body.familyCode || '').toUpperCase().trim();
+  if (!code) code = generateFamilyCode();
+  if (!isValidFamilyCode(code)) return error('Geçersiz aile kodu formatı.', 400);
 
-  const prefix = `family:${code}:`;
-  let meta = await getKV(env, `${prefix}meta`);
+  const prefix = 'family:' + code + ':';
+  let meta = await getKV(env, prefix + 'meta');
+  let created = false;
+  let issuedToken = null;
+
   if (!meta) {
-    meta = { createdAt: Date.now(), resetAt: 0, wipedAt: 0, tombstones: [] };
-    await putKV(env, `${prefix}meta`, meta);
-    await putKV(env, `${prefix}plan`, { tasks: [], plan: null, updatedAt: Date.now() });
-    await putKV(env, `${prefix}messages`, []);
+    issuedToken = randomToken();
+    meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: 0, wipedAt: 0, tombstones: [], revision: 1, adminToken: issuedToken };
+    await putKV(env, prefix + 'meta', meta);
+    await putKV(env, prefix + 'plan', { templates: [], tasks: [], plan: null, updatedAt: Date.now() });
+    await putKV(env, prefix + 'messages', []);
+    created = true;
+  } else if (!meta.adminToken) {
+    issuedToken = randomToken();
+    meta.adminToken = issuedToken;
+    meta.updatedAt = Date.now();
+    await putKV(env, prefix + 'meta', meta);
+  } else {
+    const providedToken = request.headers.get('X-Admin-Token') || body.adminToken || '';
+    if (providedToken && providedToken === meta.adminToken) issuedToken = meta.adminToken;
   }
 
-  return json({ success: true, familyCode: code });
+  return json({ success: true, familyCode: code, adminToken: issuedToken, created });
 }
-
 /**
  * Parçalanmış (sharded) KV verilerini okur ve tek bir zenginleştirilmiş yanıtta birleştirir.
  */
