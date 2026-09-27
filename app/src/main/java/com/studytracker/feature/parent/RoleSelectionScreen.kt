@@ -43,6 +43,7 @@ fun RoleSelectionScreen(
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
+    val hasParentPin by appPreferences.hasParentPin.collectAsState()
 
     var showPinDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
@@ -318,15 +319,22 @@ fun RoleSelectionScreen(
                     ) {
                         Icon(Icons.Default.Lock, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                     }
-                    Text("Ebeveyn PIN Girişi", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 17.sp)
+                    Text(if (hasParentPin) "Ebeveyn PIN Girişi" else "Ebeveyn PIN Oluştur", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 17.sp)
                 }
             },
             text = {
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("Lütfen 4 haneli ebeveyn PIN kodunuzu girin:", fontSize = 13.sp, color = ZomoTextSecondary)
+                    Text(
+                        if (hasParentPin) "Ebeveyn PIN kodunuzu girin:" else "İlk kullanım için 4-6 haneli yeni bir ebeveyn PIN kodu belirleyin:",
+                        fontSize = 13.sp,
+                        color = ZomoTextSecondary
+                    )
                     OutlinedTextField(
                         value = pinText,
-                        onValueChange = { if (it.length <= 4) pinText = it },
+                        onValueChange = { next ->
+                            if (next.length <= 6 && next.all(Char::isDigit)) pinText = next
+                            pinError = false
+                        },
                         singleLine = true,
                         shape = RoundedCornerShape(14.dp),
                         visualTransformation = PasswordVisualTransformation(),
@@ -347,9 +355,15 @@ fun RoleSelectionScreen(
             confirmButton = {
                 Button(
                     onClick = {
-                        if (pinText == "1234") {
+                        val accepted = if (hasParentPin) {
+                            appPreferences.verifyParentPin(pinText)
+                        } else {
+                            appPreferences.setParentPin(pinText)
+                        }
+                        if (accepted) {
                             showPinDialog = false
                             pinText = ""
+                            pinError = false
                             onNavigateToParent()
                         } else {
                             pinError = true
@@ -358,7 +372,7 @@ fun RoleSelectionScreen(
                     colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan, contentColor = ZenMintText),
                     shape = ZenPillShape
                 ) {
-                    Text("Giriş Yap", fontWeight = FontWeight.Bold)
+                    Text(if (hasParentPin) "Giriş Yap" else "PIN Oluştur", fontWeight = FontWeight.Bold)
                 }
             },
             dismissButton = {
