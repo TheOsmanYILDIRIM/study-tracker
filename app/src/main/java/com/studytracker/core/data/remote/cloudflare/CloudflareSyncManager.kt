@@ -86,7 +86,7 @@ object CloudflareSyncManager {
     suspend fun fetchCloudData(context: Context): Result<CloudSyncPayloadWrapper> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
@@ -333,7 +333,7 @@ object CloudflareSyncManager {
 
     private suspend fun applyCloudDataToLocal(context: Context, cloudData: CloudSyncPayloadWrapper) {
         val prefs = AppPreferences.getInstance(context)
-        val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+        val familyCode = prefs.familyPairCode.value
 
         val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
             formatVersion = 1,
@@ -756,7 +756,7 @@ object CloudflareSyncManager {
     suspend fun fetchMessages(context: Context, unreadOnly: Boolean = false): Result<List<RemoteMessageSyncDto>> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode&unread=$unreadOnly")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
@@ -777,7 +777,7 @@ object CloudflareSyncManager {
             // Alternatif direkt /api/sync denemesi
             try {
                 val prefs = AppPreferences.getInstance(context)
-                val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+                val familyCode = prefs.familyPairCode.value
                 val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
                 val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                     requestMethod = "GET"
@@ -801,7 +801,7 @@ object CloudflareSyncManager {
         var deliveredCount = 0
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val lastNotifiedTime = prefs.lastNotifiedMessageTime
 
             // Cloudflare'den en son veriyi çek
@@ -842,7 +842,7 @@ object CloudflareSyncManager {
     suspend fun markMessageAsRead(context: Context, messageId: String? = null, all: Boolean = false): Boolean = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "PUT"
