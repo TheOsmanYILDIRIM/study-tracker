@@ -423,8 +423,8 @@ object SimplePlanParser {
             n.startsWith("sali") || n.startsWith("salı") || n.startsWith("tue") || n == "sal" -> 1
             n.startsWith("carsamba") || n.startsWith("çarşamba") || n.startsWith("wed") || n == "çar" || n == "car" -> 2
             n.startsWith("persembe") || n.startsWith("perşembe") || n.startsWith("thu") || n == "per" -> 3
-            n.startsWith("cuma") || n.startsWith("fri") || n == "cum" -> 4
             n.startsWith("cumartesi") || n.startsWith("sat") || n == "cmt" -> 5
+            n.startsWith("cuma") || n.startsWith("fri") || n == "cum" -> 4
             n.startsWith("pazar") || n.startsWith("sun") || n == "paz" -> 6
             else -> null
         }
