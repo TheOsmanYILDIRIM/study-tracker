@@ -54,16 +54,16 @@ abstract class AppDatabase : RoomDatabase() {
                         description TEXT,
                         date TEXT,
                         weekId TEXT,
-                        durationMinutes INTEGER NOT NULL DEFAULT 15,
+                        durationMinutes INTEGER NOT NULL,
                         targetOccurrenceKey TEXT,
-                        questionsJson TEXT NOT NULL DEFAULT '[]',
-                        completed INTEGER NOT NULL DEFAULT 0,
+                        questionsJson TEXT NOT NULL,
+                        completed INTEGER NOT NULL,
                         submittedAt INTEGER,
-                        studentAnswersJson TEXT NOT NULL DEFAULT '{}',
-                        studentDurationSeconds INTEGER NOT NULL DEFAULT 0,
-                        correctCount INTEGER NOT NULL DEFAULT 0,
-                        wrongCount INTEGER NOT NULL DEFAULT 0,
-                        emptyCount INTEGER NOT NULL DEFAULT 0
+                        studentAnswersJson TEXT NOT NULL,
+                        studentDurationSeconds INTEGER NOT NULL,
+                        correctCount INTEGER NOT NULL,
+                        wrongCount INTEGER NOT NULL,
+                        emptyCount INTEGER NOT NULL
                     )""".trimIndent()
                 )
             }
