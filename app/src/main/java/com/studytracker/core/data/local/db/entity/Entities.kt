@@ -47,6 +47,7 @@ data class OccurrenceEntity(
     val approvedCount: Int,
     val targetCount: Int?,
     val targetMinutes: Int?,
+    @ColumnInfo(defaultValue = "0") val completedQuestionCount: Int = 0,
     val studentNote: String? = null
 )
 
@@ -77,6 +78,7 @@ data class SessionEntity(
     val status: SessionStatus,
     val screenshotCount: Int,
     @ColumnInfo(defaultValue = "0") val activeDurationSeconds: Long = 0L,
+    @ColumnInfo(defaultValue = "0") val reportedQuestionCount: Int = 0,
     val finalScreenshotUrl: String?,
     val studentNote: String? = null
 )
