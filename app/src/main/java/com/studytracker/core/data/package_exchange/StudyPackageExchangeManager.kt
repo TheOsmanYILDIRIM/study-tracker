@@ -70,10 +70,6 @@ object StudyPackageExchangeManager {
                 list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
             }
 
-    private fun extractReportedQuestionCount(note: String?): Int =
-        Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
-            .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
-
     private val json = Json {
         ignoreUnknownKeys = true
         encodeDefaults = true
@@ -159,7 +155,7 @@ object StudyPackageExchangeManager {
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
                 completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
-                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                completedQuestionCount = it.completedQuestionCount,
                 approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
@@ -211,7 +207,7 @@ object StudyPackageExchangeManager {
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
                 completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
-                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                completedQuestionCount = it.completedQuestionCount,
                 approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
@@ -231,6 +227,7 @@ object StudyPackageExchangeManager {
                 endTime = it.endTime,
                 durationMin = (it.activeDurationSeconds / 60L).toInt(),
                 activeDurationSeconds = it.activeDurationSeconds,
+                reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )
@@ -299,7 +296,7 @@ object StudyPackageExchangeManager {
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
                 completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
-                completedQuestionCount = extractReportedQuestionCount(it.studentNote),
+                completedQuestionCount = it.completedQuestionCount,
                 approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
@@ -558,6 +555,7 @@ object StudyPackageExchangeManager {
                         approvedCount = approvedCount,
                         targetCount = targetCount,
                         targetMinutes = local?.targetMinutes,
+                        completedQuestionCount = maxOf(local?.completedQuestionCount ?: 0, remote.completedQuestionCount),
                         studentNote = remote.studentNote ?: local?.studentNote
                     )
                 }
