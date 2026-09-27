@@ -118,7 +118,11 @@
             android:name=".core.ui.overlay.FloatingButtonService"
             android:enabled="true"
             android:exported="false"
-            android:foregroundServiceType="specialUse" />
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="study_session_overlay_and_evidence_capture" />
+        </service>
 
         <!-- Silent Accessibility Screenshot Service -->
         <service
