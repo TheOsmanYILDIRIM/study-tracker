@@ -92,6 +92,7 @@ data class Occurrence(
     val approvedCount: Int = 0,         // weekly görev tamamlanma sayacı
     val targetCount: Int? = null,
     val targetMinutes: Int? = null,
+    val completedQuestionCount: Int = 0,
     val studentNote: String? = null
 )
 
@@ -147,6 +148,7 @@ data class Session(
     val status: SessionStatus = SessionStatus.ACTIVE,
     val screenshotCount: Int = 0,
     val activeDurationSeconds: Long = 0L,
+    val reportedQuestionCount: Int = 0,
     val finalScreenshotUrl: String? = null,
     val studentNote: String? = null
 )
