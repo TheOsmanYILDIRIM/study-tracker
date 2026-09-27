@@ -35,8 +35,8 @@ async function runTest() {
   console.log('   ✅ Ping başarılı.\n');
 
   // Adım 2: Aile Eşleşme Kodu Oluşturma (Veli)
-  console.log('2️⃣ Veli için Aile Kodu oluşturuluyor (ST-8821)...');
-  const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-8821' });
+  console.log('2️⃣ Veli için güvenli test Aile Kodu oluşturuluyor...');
+  const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-TEST-2026-SYNC-8821' });
   console.log('   Eşleşme Kodu:', pair.data.familyCode);
   const familyCode = pair.data.familyCode;
   const adminToken = pair.data.adminToken;
