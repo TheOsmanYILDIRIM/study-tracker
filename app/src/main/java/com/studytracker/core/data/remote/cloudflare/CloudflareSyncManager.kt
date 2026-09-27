@@ -25,6 +25,15 @@ import java.util.Date
 import java.util.Locale
 
 @Serializable
+data class PairFamilyResponse(
+    val success: Boolean = false,
+    val familyCode: String = "",
+    val adminToken: String? = null,
+    val created: Boolean = false,
+    val error: String? = null
+)
+
+@Serializable
 data class CloudSyncResponse(
     val success: Boolean = false,
     val familyCode: String? = null,
@@ -257,7 +266,8 @@ object CloudflareSyncManager {
     ): Result<String> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val cleanTaskId = when {
                 occurrence.taskId.isNotBlank() -> occurrence.taskId
@@ -300,6 +310,8 @@ object CloudflareSyncManager {
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", "PARENT")
+                if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
             val payloadJson = json.encodeToString(payload)
@@ -357,7 +369,8 @@ object CloudflareSyncManager {
         try {
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
             val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
@@ -495,6 +508,9 @@ object CloudflareSyncManager {
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
                 setRequestProperty("X-Sender-Role", effectiveRole)
+                if (effectiveRole in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI") && adminToken.isNotBlank()) {
+                    setRequestProperty("X-Admin-Token", adminToken)
+                }
             }
 
             OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
@@ -540,7 +556,8 @@ object CloudflareSyncManager {
     suspend fun restoreFromSnapshot(context: Context): Result<String> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -550,6 +567,7 @@ object CloudflareSyncManager {
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
                 setRequestProperty("X-Sender-Role", "PARENT")
+                if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
             val payload = SharedFamilySyncPayload(
@@ -587,9 +605,16 @@ object CloudflareSyncManager {
     /**
      * Aile eşleştirme kodunu doğrular veya yenisini oluşturur.
      */
+    suspend fun createFamily(context: Context): Result<String> = withContext(Dispatchers.IO) {
+        pairFamilyCodeInternal(context, "")
+    }
+
     suspend fun pairFamilyCode(context: Context, pairCode: String): Result<String> = withContext(Dispatchers.IO) {
-        try {
-            val cleanCode = pairCode.trim().uppercase()
+        pairFamilyCodeInternal(context, pairCode.trim().uppercase())
+    }
+
+    private suspend fun pairFamilyCodeInternal(context: Context, pairCode: String): Result<String> {
+        return try {
             val targetUrl = URL("$CLOUD_WORKER_URL/api/pair")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -598,17 +623,26 @@ object CloudflareSyncManager {
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json")
             }
-
-            val body = "{\"familyCode\": \"$cleanCode\"}"
+            val body = if (pairCode.isBlank()) "{}" else "{\"familyCode\": \"$pairCode\"}"
             OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(body); it.flush() }
 
-            if (conn.responseCode in 200..299) {
-                val prefs = AppPreferences.getInstance(context)
-                prefs.setFamilyPairCode(cleanCode)
-                Result.success(cleanCode)
-            } else {
-                Result.failure(Exception("HTTP ${conn.responseCode}"))
+            val stream = if (conn.responseCode in 200..299) conn.inputStream else conn.errorStream
+            val responseText = stream?.let { BufferedReader(InputStreamReader(it, "UTF-8")).readText() }.orEmpty()
+            if (conn.responseCode !in 200..299) {
+                return Result.failure(Exception("Eşleştirme hatası (${conn.responseCode}): $responseText"))
             }
+
+            val response = json.decodeFromString<PairFamilyResponse>(responseText)
+            if (!response.success || response.familyCode.isBlank()) {
+                return Result.failure(Exception(response.error ?: "Eşleştirme başarısız"))
+            }
+
+            val prefs = AppPreferences.getInstance(context)
+            prefs.setFamilyPairCode(response.familyCode)
+            if (com.studytracker.BuildConfig.APP_ROLE == "PARENT" && !response.adminToken.isNullOrBlank()) {
+                prefs.setFamilyAdminToken(response.adminToken)
+            }
+            Result.success(response.familyCode)
         } catch (e: Exception) {
             Result.failure(e)
         }
@@ -627,7 +661,8 @@ object CloudflareSyncManager {
     ): Result<RemoteMessageSyncDto> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val msgPayload = RemoteMessageSyncDto(
                 id = "msg_${System.currentTimeMillis()}_${(1000..9999).random()}",
@@ -656,6 +691,7 @@ object CloudflareSyncManager {
                     setRequestProperty("Content-Type", "application/json; charset=utf-8")
                     setRequestProperty("X-Family-Code", familyCode)
                     setRequestProperty("X-Sender-Role", "PARENT")
+                    if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
                 }
                 OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(bodyJson); it.flush() }
                 if (conn.responseCode in 200..299) {
@@ -682,6 +718,7 @@ object CloudflareSyncManager {
                     setRequestProperty("Content-Type", "application/json; charset=utf-8")
                     setRequestProperty("X-Family-Code", familyCode)
                     setRequestProperty("X-Sender-Role", "PARENT")
+                    if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
                 }
                 val syncJson = json.encodeToString(syncPayload)
                 OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(syncJson); it.flush() }
