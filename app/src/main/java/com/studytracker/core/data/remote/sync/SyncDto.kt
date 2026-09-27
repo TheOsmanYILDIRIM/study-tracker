@@ -42,6 +42,7 @@ data class RemoteSessionSyncDto(
     val startTime: Long = 0L,
     val endTime: Long? = null,
     val durationMin: Int = 0,
+    val activeDurationSeconds: Long = 0L,
     val isCompleted: Boolean = false,
     val notes: String = "",
     val updatedAt: Long = System.currentTimeMillis()
