@@ -7,7 +7,8 @@ const CONFIG_FILE = path.join(CONFIG_DIR, 'config.json');
 
 const DEFAULT_CONFIG = {
   workerUrl: 'https://studytracker-sync.osman13241429.workers.dev',
-  familyCode: 'ST-2026',
+  familyCode: '',
+  adminToken: '',
   childId: 'child_1',
   author: 'Parenting AI'
 };
@@ -32,6 +33,7 @@ function loadConfig() {
   } else {
     saveConfig(DEFAULT_CONFIG);
   }
+  if (process.env.STUDYTRACKER_ADMIN_TOKEN) cfg.adminToken = process.env.STUDYTRACKER_ADMIN_TOKEN.trim();
   if (process.env.STUDYTRACKER_FAMILY_CODE) {
     cfg.familyCode = process.env.STUDYTRACKER_FAMILY_CODE.toUpperCase().trim();
   } else if (process.env.STUDY_FAMILY_CODE) {
@@ -45,6 +47,13 @@ function saveConfig(cfg) {
   fs.writeFileSync(CONFIG_FILE, JSON.stringify(cfg, null, 2), 'utf8');
 }
 
+function setAdminToken(token) {
+  const cfg = loadConfig();
+  cfg.adminToken = (token || '').trim();
+  saveConfig(cfg);
+  return cfg.adminToken;
+}
+
 function setFamilyCode(code) {
   const cfg = loadConfig();
   cfg.familyCode = code.toUpperCase().trim();
@@ -56,5 +65,6 @@ module.exports = {
   CONFIG_FILE,
   loadConfig,
   saveConfig,
-  setFamilyCode
+  setFamilyCode,
+  setAdminToken
 };
