@@ -237,7 +237,7 @@ class StudySyncProvider : ContentProvider() {
                     else -> remoteStatus
                 }
 
-                val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.approvedCount)
                 val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                 val isApprovedByCount = (targetCount != null && approvedCount >= targetCount && payload.action != "RESET")
                 val finalStatus = if (isApprovedByCount) OccurrenceStatus.APPROVED else resolvedStatus
@@ -444,6 +444,17 @@ class StudySyncProvider : ContentProvider() {
             )
         }
 
+        val localSessions = db.sessionDao().getAllSessionsOnce()
+        val completedMinutes = localSessions
+            .filter { it.endTime != null && it.endTime >= it.startTime }
+            .groupBy { it.occurrenceKey }
+            .mapValues { (_, list) ->
+                list.sumOf { (((it.endTime ?: it.startTime) - it.startTime) / 60000L).toInt().coerceAtLeast(0) }
+            }
+        fun reportedQuestionCount(note: String?): Int =
+            Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
+                .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
+
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -454,8 +465,9 @@ class StudySyncProvider : ContentProvider() {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = reportedQuestionCount(it.studentNote),
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -465,7 +477,7 @@ class StudySyncProvider : ContentProvider() {
             )
         }
 
-        val sessions = db.sessionDao().getAllSessionsOnce().map {
+        val sessions = localSessions.map {
             RemoteSessionSyncDto(
                 id = it.sessionId,
                 familyCode = familyCode,
