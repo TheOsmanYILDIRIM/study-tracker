@@ -230,6 +230,7 @@ export default {
         version: '3.0-hardened',
         engine: 'StudyTracker Multi-tenant Sharded Sync Engine',
         storageConfigured: Boolean(env?.STUDY_SYNC_KV) || isLocalTest(env),
+        revision: env?.BUILD_REVISION || 'unknown',
         timestamp: Date.now()
       });
     }
