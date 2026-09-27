@@ -2,6 +2,7 @@ package com.studytracker.core.data.local.prefs
 
 import android.content.Context
 import android.content.SharedPreferences
+import java.security.SecureRandom
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -39,8 +40,14 @@ class AppPreferences private constructor(context: Context) {
     }
 
     private fun generateRandomFamilyCode(): String {
-        val num = (1000..9999).random()
-        return "ST-$num"
+        val alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+        val random = SecureRandom()
+        val body = buildString {
+            repeat(16) {
+                append(alphabet[random.nextInt(alphabet.length)])
+            }
+        }
+        return "ST-" + body.chunked(4).joinToString("-")
     }
 
     fun setHasCompletedTutorial(completed: Boolean) {
