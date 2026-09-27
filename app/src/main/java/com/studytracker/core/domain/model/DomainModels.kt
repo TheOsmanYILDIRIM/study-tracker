@@ -146,6 +146,7 @@ data class Session(
     val endTime: Long? = null,
     val status: SessionStatus = SessionStatus.ACTIVE,
     val screenshotCount: Int = 0,
+    val activeDurationSeconds: Long = 0L,
     val finalScreenshotUrl: String? = null,
     val studentNote: String? = null
 )
