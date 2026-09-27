@@ -443,6 +443,9 @@ object StudyPackageExchangeManager {
             }
 
             if (pkg.tasks.isNotEmpty()) {
+                if (pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD" || pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
+                    db.taskTemplateDao().clearTasks()
+                }
                 db.taskTemplateDao().upsertTasks(pkg.tasks.map {
                     TaskTemplateEntity(
                         taskId = it.taskId,
@@ -582,14 +585,8 @@ object StudyPackageExchangeManager {
             // 4. Reconcile Sessions (Seceresini tutar)
             if (pkg.sessions.isNotEmpty()) {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
-                val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
-                if ((pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD") && 
-                    (pkg.packageType == PackageType.PLAN_DISTRIBUTION || pkg.packageType == PackageType.REVIEW_FEEDBACK)) {
-                    // Parent/Cloud provided active session list, remove orphan local sessions
-                    localSessions.keys.filter { it !in remoteSessionIds }.forEach {
-                        db.sessionDao().deleteSession(it)
-                    }
-                }
+                // Session history is append/upsert-only during ordinary sync. A stale or
+                // eventually-consistent cloud list must never delete a newer local session.
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
                     val hasApprovedReview = pkg.reviews.any { it.sessionId == rs.id && it.isApproved }
