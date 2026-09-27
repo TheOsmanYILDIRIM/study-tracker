@@ -249,7 +249,7 @@ class LocalSessionRepositoryImpl(
         return session
     }
 
-    override suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String?): Session {
+    override suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String?, activeDurationSeconds: Long): Session {
         val existing = db.sessionDao().getSessionById(sessionId)
             ?: throw IllegalStateException("Session not found: $sessionId")
 
@@ -258,6 +258,7 @@ class LocalSessionRepositoryImpl(
             endTime = System.currentTimeMillis(),
             status = SessionStatus.WAITING_REVIEW,
             screenshotCount = count,
+            activeDurationSeconds = activeDurationSeconds.coerceAtLeast(0L),
             finalScreenshotUrl = finalScreenshotUrl,
             studentNote = studentNote ?: existing.studentNote
         )
@@ -359,14 +360,14 @@ fun OccurrenceEntity.toDomain() = Occurrence(
 fun Session.toEntity() = SessionEntity(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, finalScreenshotUrl = finalScreenshotUrl,
     studentNote = studentNote
 )
 
 fun SessionEntity.toDomain() = Session(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, finalScreenshotUrl = finalScreenshotUrl,
     studentNote = studentNote
 )
 
