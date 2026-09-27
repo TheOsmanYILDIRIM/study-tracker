@@ -1,5 +1,6 @@
 package com.studytracker.core.data.local.db.entity
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
@@ -75,7 +76,7 @@ data class SessionEntity(
     val endTime: Long?,
     val status: SessionStatus,
     val screenshotCount: Int,
-    val activeDurationSeconds: Long = 0L,
+    @ColumnInfo(defaultValue = "0") val activeDurationSeconds: Long = 0L,
     val finalScreenshotUrl: String?,
     val studentNote: String? = null
 )
