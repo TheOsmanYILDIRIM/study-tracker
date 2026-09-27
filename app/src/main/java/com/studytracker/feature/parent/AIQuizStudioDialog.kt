@@ -266,7 +266,12 @@ COZUM: \frac{(x-3)(x+3)}{x-3} = x+3 olur. x=3 için sonuç 6'dır.
 
                         scope.launch {
                             quizRepo.upsertQuizzes(parsed)
-                            Toast.makeText(context, "🎉 ${parsed.size} adet test (${parsed.sumOf { it.questions.size }} soru) başarıyla kaydedildi!", Toast.LENGTH_LONG).show()
+                            val sync = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                            if (sync.isSuccess) {
+                                Toast.makeText(context, "🎉 ${parsed.size} test kaydedildi ve bulutla eşitlendi!", Toast.LENGTH_LONG).show()
+                            } else {
+                                Toast.makeText(context, "Testler yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                            }
                             onQuizCreated()
                             onDismissRequest()
                         }
