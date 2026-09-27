@@ -75,6 +75,7 @@ data class SessionEntity(
     val endTime: Long?,
     val status: SessionStatus,
     val screenshotCount: Int,
+    val activeDurationSeconds: Long = 0L,
     val finalScreenshotUrl: String?,
     val studentNote: String? = null
 )
