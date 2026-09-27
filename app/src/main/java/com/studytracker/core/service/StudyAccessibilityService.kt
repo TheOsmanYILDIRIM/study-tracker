@@ -23,17 +23,8 @@ class StudyAccessibilityService : AccessibilityService() {
     override fun onServiceConnected() {
         super.onServiceConnected()
         instance = this
-        try {
-            val info = serviceInfo ?: AccessibilityServiceInfo()
-            info.flags = info.flags or
-                    AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS or
-                    AccessibilityServiceInfo.FLAG_INCLUDE_NOT_IMPORTANT_VIEWS
-            info.eventTypes = AccessibilityEvent.TYPES_ALL_MASK
-            info.feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
-            serviceInfo = info
-        } catch (e: Exception) {
-            android.util.Log.e("StudyAccessibility", "Error configuring serviceInfo", e)
-        }
+        // Configuration is intentionally kept minimal in accessibility_service_config.xml.
+        // Screenshot capture does not require reading or traversing application window content.
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
