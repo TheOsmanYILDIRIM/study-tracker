@@ -65,10 +65,9 @@ object StudyPackageExchangeManager {
 
     private suspend fun completedMinutesByOccurrence(db: AppDatabase): Map<String, Int> =
         db.sessionDao().getAllSessionsOnce()
-            .filter { it.endTime != null && it.endTime >= it.startTime }
             .groupBy { it.occurrenceKey }
             .mapValues { (_, list) ->
-                list.sumOf { (((it.endTime ?: it.startTime) - it.startTime) / 60000L).toInt().coerceAtLeast(0) }
+                list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
             }
 
     private fun extractReportedQuestionCount(note: String?): Int =
@@ -230,7 +229,8 @@ object StudyPackageExchangeManager {
                 occurrenceId = it.occurrenceKey,
                 startTime = it.startTime,
                 endTime = it.endTime,
-                durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
+                durationMin = (it.activeDurationSeconds / 60L).toInt(),
+                activeDurationSeconds = it.activeDurationSeconds,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )
