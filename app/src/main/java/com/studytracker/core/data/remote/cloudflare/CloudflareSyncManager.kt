@@ -409,10 +409,6 @@ object CloudflareSyncManager {
                 .mapValues { (_, list) ->
                     list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
                 }
-            fun reportedQuestionCount(note: String?): Int =
-                Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
-                    .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
-
             val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
                 val cleanPlanId = if (it.taskId.isNotBlank()) it.taskId else it.occurrenceKey.substringAfterLast("_", "")
                 RemoteOccurrenceSyncDto(
@@ -425,7 +421,7 @@ object CloudflareSyncManager {
                     targetDurationMin = it.plannedMinutes,
                     targetQuestionCount = it.targetCount ?: 0,
                     completedDurationMin = completedMinutesByOccurrence[it.occurrenceKey] ?: 0,
-                    completedQuestionCount = reportedQuestionCount(it.studentNote),
+                    completedQuestionCount = it.completedQuestionCount,
                     approvedCount = it.approvedCount,
                     status = it.status.name,
                     parentNote = it.warningText ?: "",
@@ -445,6 +441,7 @@ object CloudflareSyncManager {
                     endTime = it.endTime,
                     durationMin = (it.activeDurationSeconds / 60L).toInt(),
                     activeDurationSeconds = it.activeDurationSeconds,
+                    reportedQuestionCount = it.reportedQuestionCount,
                     isCompleted = it.status != com.studytracker.core.domain.model.SessionStatus.ACTIVE,
                     notes = it.studentNote ?: ""
                 )
