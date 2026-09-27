@@ -19,7 +19,7 @@ async function mockFetch(method, path, body = null, headers = {}) {
   }
 
   const req = new Request(url, init);
-  const res = await worker.fetch(req, {}, {});
+  const res = await worker.fetch(req, { __LOCAL_TEST__: true }, {});
   const json = await res.json();
   return { status: res.status, ok: res.ok, data: json };
 }
@@ -39,7 +39,9 @@ async function runTest() {
   const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-8821' });
   console.log('   Eşleşme Kodu:', pair.data.familyCode);
   const familyCode = pair.data.familyCode;
-  console.log('   ✅ Eşleşme kodu hazır.\n');
+  const adminToken = pair.data.adminToken;
+  if (!adminToken) throw new Error('Parent admin token üretilmedi!');
+  console.log('   ✅ Eşleşme kodu ve admin token hazır.\n');
 
   // Adım 3: Veli Haftalık Planı Yüklüyor (POST /api/v2/plan & POST /api/sync)
   console.log('3️⃣ Veli 1. Hafta planını ve derslerini buluta yüklüyor...');
@@ -80,10 +82,25 @@ async function runTest() {
     ]
   };
 
-  const uploadRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, initialPayload, { 'X-Sender-Role': 'PARENT' });
+  initialPayload.occurrences = initialPayload.tasks.map(t => ({
+    id: t.id, familyCode, date: '2026-09-14', planId: t.taskId, subject: t.subject, topic: 'DAILY',
+    targetDurationMin: t.targetDurationMin, targetQuestionCount: 0, completedDurationMin: 0,
+    completedQuestionCount: 0, status: 'PENDING', parentNote: t.parentNote || '', weekId: '2026-W38',
+    youtubeUrl: t.youtubeUrl
+  }));
+  initialPayload.tasks = initialPayload.tasks.map(t => ({
+    taskId: t.taskId, title: t.title, kind: 'DAILY', contentType: 'VIDEO', youtubeUrl: t.youtubeUrl,
+    plannedMinutes: t.plannedMinutes, reviewRequired: true, active: true
+  }));
+
+  const uploadRes = await mockFetch('POST', `/api/sync?code=${familyCode}`, initialPayload, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
   console.log('   Veli Yükleme Sonucu:', uploadRes.data.success ? 'BAŞARILI' : 'HATA');
   console.log('   Buluttaki Görev Sayısı:', uploadRes.data.tasks?.length || uploadRes.data.data?.tasks?.length);
   console.log('   ✅ Veli planı buluta aktardı.\n');
+
+  const unauthorized = await mockFetch('POST', `/api/v2/commands?code=${familyCode}`, { action: 'WIPE' }, { 'X-Sender-Role': 'PARENT' });
+  if (unauthorized.status !== 401) throw new Error('Admin token olmadan yazma reddedilmedi!');
+  console.log('   ✅ Admin token olmadan veli yazması reddediliyor.\n');
 
   // Adım 4: Öğrenci Buluttan Planı İndiriyor (GET /api/v2/sync)
   console.log('4️⃣ Öğrenci uygulaması buluttan güncel planı çekiyor (GET /api/v2/sync)...');
@@ -115,7 +132,7 @@ async function runTest() {
     isApproved: true,
     parentRating: 5,
     feedbackNote: 'Tebrikler harika çalışma! 🌟'
-  }, { 'X-Sender-Role': 'PARENT' });
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
 
   console.log('   Veli Onay Sonucu:', parentReviewRes.data.message);
   console.log('   Nihai Durum:', parentReviewRes.data.progress?.status);
@@ -136,7 +153,7 @@ async function runTest() {
     action: 'REJECT_TASK',
     taskId: 'occ_mat_pzt',
     reason: 'Soruları eksik çözmüşsün, baştan yap.'
-  }, { 'X-Sender-Role': 'PARENT' });
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
 
   console.log('   İade Sonucu:', rejectRes.data.message);
   const syncAfterReject = await mockFetch('GET', `/api/v2/sync?code=${familyCode}`);
@@ -151,7 +168,7 @@ async function runTest() {
     title: 'Ders Zamanı!',
     message: 'Bugünkü 9. Sınıf Matematik etüdünü yapmayı unutma 🚀',
     type: 'REMINDER'
-  }, { 'X-Sender-Role': 'PARENT' });
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
 
   console.log('   Mesaj Gönderim Sonucu:', sendMsg.data.message);
   console.log('   Eklenen Mesaj ID:', sendMsg.data.data?.id);
@@ -173,14 +190,28 @@ async function runTest() {
   if (unreadAfter.data.messages?.length !== 0) throw new Error('Mesaj okundu olarak işaretlenemedi!');
   console.log('   ✅ Bildirim ve mesaj döngüsü %100 başarılı.\n');
 
+  // Adım 9.5: Full sync review + quiz round-trip
+  const roundTrip = await mockFetch('POST', `/api/sync?code=${familyCode}`, {
+    senderRole: 'PARENT',
+    plan: finalData.plan,
+    tasks: finalData.tasks,
+    occurrences: finalData.occurrences,
+    reviews: [{ id: 'rev_roundtrip', familyCode, sessionId: 'occ_tar_pzt', isApproved: false, feedbackNote: 'Tekrar et', reviewedAt: Date.now() }],
+    quizzes: [{ quizId: 'quiz_roundtrip', title: 'Mini Test', questions: [], completed: false }]
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
+  const roundData = roundTrip.data.data || roundTrip.data;
+  if (!(roundData.reviews || []).some(r => r.id === 'rev_roundtrip')) throw new Error('Review full-sync kalıcı değil!');
+  if (!(roundData.quizzes || []).some(q => q.quizId === 'quiz_roundtrip')) throw new Error('Quiz full-sync kalıcı değil!');
+  console.log('   ✅ Review ve quiz full-sync round-trip başarılı.\n');
+
   // Adım 10: 24 Saatlik Geri Alma ile Tam Sıfırlama (WIPE & RESTORE)
   console.log('🔟 Tam Sıfırlama (WIPE) ve 24 Saatlik Geri Alma (RESTORE) testi...');
-  const wipeRes = await mockFetch('POST', `/api/v2/commands?code=${familyCode}`, { action: 'WIPE' }, { 'X-Sender-Role': 'PARENT' });
+  const wipeRes = await mockFetch('POST', `/api/v2/commands?code=${familyCode}`, { action: 'WIPE' }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
   console.log('   Wipe Sonucu:', wipeRes.data.message);
   const syncAfterWipe = await mockFetch('GET', `/api/v2/sync?code=${familyCode}`);
   console.log('   Wipe Sonrası Görev Sayısı (0 Bekleniyor):', syncAfterWipe.data.tasks.length);
 
-  const restoreRes = await mockFetch('POST', `/api/v2/commands?code=${familyCode}`, { action: 'RESTORE' }, { 'X-Sender-Role': 'PARENT' });
+  const restoreRes = await mockFetch('POST', `/api/v2/commands?code=${familyCode}`, { action: 'RESTORE' }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': adminToken });
   console.log('   Restore Sonucu:', restoreRes.data.message);
   const syncAfterRestore = await mockFetch('GET', `/api/v2/sync?code=${familyCode}`);
   console.log('   Restore Sonrası Görev Sayısı (2 Bekleniyor):', syncAfterRestore.data.tasks.length);
