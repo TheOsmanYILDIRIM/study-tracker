@@ -190,7 +190,12 @@ class SessionStateManager private constructor(
         scope.launch(Dispatchers.IO) {
             try {
                 val finalSs = getEffectiveCaptureDriver().stop()
-                sessionRepository.finishSession(current.session.sessionId, finalSs?.url, studentNote)
+                sessionRepository.finishSession(
+                    current.session.sessionId,
+                    finalSs?.url,
+                    studentNote,
+                    activeDurationSeconds = _elapsedSeconds.value
+                )
 
                 val syncResult = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
                 syncResult.exceptionOrNull()?.let {
