@@ -177,9 +177,17 @@ fun CloudSyncDialog(
                     if (isParent) {
                         IconButton(
                             onClick = {
-                                val newCode = prefs.generateNewFamilyCode()
-                                codeInput = newCode
-                                Toast.makeText(context, "🎲 Yeni Aile Kodu üretildi: $newCode", Toast.LENGTH_SHORT).show()
+                                scope.launch {
+                                    isSyncing = true
+                                    val created = CloudflareSyncManager.createFamily(context)
+                                    isSyncing = false
+                                    created.onSuccess { newCode ->
+                                        codeInput = newCode
+                                        Toast.makeText(context, "🔐 Yeni güvenli Aile Kodu üretildi: $newCode", Toast.LENGTH_SHORT).show()
+                                    }.onFailure { err ->
+                                        Toast.makeText(context, "Yeni kod oluşturulamadı: ${err.message}", Toast.LENGTH_LONG).show()
+                                    }
+                                }
                             }
                         ) {
                             Box(
@@ -202,12 +210,20 @@ fun CloudSyncDialog(
                             Toast.makeText(context, "Lütfen bir Aile Kodu girin", Toast.LENGTH_SHORT).show()
                             return@Button
                         }
-                        prefs.setFamilyPairCode(codeInput)
                         isSyncing = true
                         syncResultText = null
                         syncResultSuccess = null
 
                         scope.launch {
+                            val pairResult = CloudflareSyncManager.pairFamilyCode(context, codeInput)
+                            if (pairResult.isFailure) {
+                                isSyncing = false
+                                syncResultSuccess = false
+                                syncResultText = "Eşleştirme hatası: ${pairResult.exceptionOrNull()?.message}"
+                                return@launch
+                            }
+                            codeInput = pairResult.getOrThrow()
+
                             if (isParent && onConflictDetected != null) {
                                 when (val checkRes = CloudflareSyncManager.syncWithConflictCheck(context)) {
                                     is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Conflict -> {
