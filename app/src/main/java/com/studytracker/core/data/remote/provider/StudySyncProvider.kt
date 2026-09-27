@@ -304,6 +304,7 @@ class StudySyncProvider : ContentProvider() {
                         endTime = rs.endTime ?: existing?.endTime,
                         status = resolvedStatus,
                         screenshotCount = existing?.screenshotCount ?: 1,
+                        activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: rs.durationMin * 60L),
                         finalScreenshotUrl = existing?.finalScreenshotUrl,
                         studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                     )
@@ -446,10 +447,9 @@ class StudySyncProvider : ContentProvider() {
 
         val localSessions = db.sessionDao().getAllSessionsOnce()
         val completedMinutes = localSessions
-            .filter { it.endTime != null && it.endTime >= it.startTime }
             .groupBy { it.occurrenceKey }
             .mapValues { (_, list) ->
-                list.sumOf { (((it.endTime ?: it.startTime) - it.startTime) / 60000L).toInt().coerceAtLeast(0) }
+                list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
             }
         fun reportedQuestionCount(note: String?): Int =
             Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
@@ -484,7 +484,8 @@ class StudySyncProvider : ContentProvider() {
                 occurrenceId = it.occurrenceKey,
                 startTime = it.startTime,
                 endTime = it.endTime,
-                durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
+                durationMin = (it.activeDurationSeconds / 60L).toInt(),
+                activeDurationSeconds = it.activeDurationSeconds,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )
