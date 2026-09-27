@@ -627,6 +627,8 @@ object CloudflareSyncManager {
 
     private suspend fun pairFamilyCodeInternal(context: Context, pairCode: String): Result<String> {
         return try {
+            val prefs = AppPreferences.getInstance(context)
+            val existingAdminToken = prefs.familyAdminToken.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/pair")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -634,6 +636,7 @@ object CloudflareSyncManager {
                 readTimeout = 8000
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json")
+                if (existingAdminToken.isNotBlank()) setRequestProperty("X-Admin-Token", existingAdminToken)
             }
             val body = if (pairCode.isBlank()) "{}" else "{\"familyCode\": \"$pairCode\"}"
             OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(body); it.flush() }
@@ -649,7 +652,6 @@ object CloudflareSyncManager {
                 return Result.failure(Exception(response.error ?: "Eşleştirme başarısız"))
             }
 
-            val prefs = AppPreferences.getInstance(context)
             prefs.setFamilyPairCode(response.familyCode)
             if (com.studytracker.BuildConfig.APP_ROLE == "PARENT" && !response.adminToken.isNullOrBlank()) {
                 prefs.setFamilyAdminToken(response.adminToken)
