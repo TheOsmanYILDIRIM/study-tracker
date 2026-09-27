@@ -831,14 +831,19 @@ async function handleCommands(request, env, familyCode, role, path) {
   if (action === 'RESET_ALL_PROGRESS' || action === 'RESET') {
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
-
     meta.resetAt = Date.now();
+    meta.updatedAt = Date.now();
     await putKV(env, `${prefix}meta`, meta);
-
     const list = await listKV(env, `${prefix}progress:`);
-    for (const k of list.keys) {
-      await deleteKV(env, k.name);
-    }
+    for (const k of list.keys) await deleteKV(env, k.name);
+    await putKV(env, `${prefix}sessions`, []);
+    await putKV(env, `${prefix}screenshots`, []);
+    await putKV(env, `${prefix}reviews`, []);
+    const quizzes = (await getKV(env, `${prefix}quizzes`)) || [];
+    await putKV(env, `${prefix}quizzes`, quizzes.map(q => ({
+      ...q, completed: false, submittedAt: null, studentAnswers: {}, studentDurationSeconds: 0,
+      correctCount: 0, wrongCount: 0, emptyCount: 0, studentNote: null
+    })));
     return json({ success: true, message: 'Tüm öğrenci ilerlemesi sıfırlandı (24 saatlik geri alma yedeği alındı).' });
   }
 
@@ -846,17 +851,13 @@ async function handleCommands(request, env, familyCode, role, path) {
   if (action === 'WIPE') {
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
-
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
-    for (const k of list.keys) {
-      if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
-    }
-
-    meta = { createdAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [] };
+    for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
+    meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: 1, adminToken: currentMeta.adminToken };
     await putKV(env, `${prefix}meta`, meta);
-    await putKV(env, `${prefix}plan`, { tasks: [], plan: null, updatedAt: Date.now() });
+    await putKV(env, `${prefix}plan`, { templates: [], tasks: [], plan: null, updatedAt: Date.now() });
     await putKV(env, `${prefix}messages`, []);
-
     return json({ success: true, message: 'Sistem tamamen sıfırlandı (24 saatlik yedek alındı).' });
   }
 
@@ -864,21 +865,19 @@ async function handleCommands(request, env, familyCode, role, path) {
   if (action === 'RESTORE' || action === 'UNDO_RESET') {
     const snapshot = await getKV(env, `${prefix}snapshot_prev`);
     if (!snapshot) return error('Geri yüklenecek yedek bulunamadı.', 404);
-
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
-    for (const k of list.keys) {
-      if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
-    }
-
-    await putKV(env, `${prefix}plan`, { tasks: snapshot.tasks || [], plan: snapshot.plan || null, updatedAt: Date.now() });
-    if (snapshot.progress) {
-      for (const [taskId, prog] of Object.entries(snapshot.progress)) {
-        await putKV(env, `${prefix}progress:${taskId}`, prog);
-      }
-    }
+    for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
+    await putKV(env, `${prefix}meta`, { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now() });
+    await putKV(env, `${prefix}plan`, { templates: snapshot.tasks || [], tasks: snapshot.occurrences || [], plan: snapshot.plan || null, source: snapshot.planSource || 'RESTORE', updatedAt: Date.now() });
+    for (const [taskId, prog] of Object.entries(snapshot.progress || {})) await putKV(env, `${prefix}progress:${taskId}`, prog);
+    await putKV(env, `${prefix}sessions`, snapshot.sessions || []);
+    await putKV(env, `${prefix}screenshots`, snapshot.screenshots || []);
+    await putKV(env, `${prefix}reviews`, snapshot.reviews || []);
+    await putKV(env, `${prefix}messages`, snapshot.messages || []);
+    await putKV(env, `${prefix}quizzes`, snapshot.quizzes || []);
     return json({ success: true, message: 'Yedek başarıyla geri yüklendi.', data: snapshot });
   }
-
   return error('Geçersiz komut (action).', 400);
 }
 
