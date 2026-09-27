@@ -87,6 +87,11 @@ object PlanValidator {
                 )
             }
 
+            val allowedKey = Regex("""^${Regex.escape(cleanTaskId)}(?:_\d+)?:${Regex.escape(daily.date)}$""")
+            if (daily.occurrenceKey.isNotBlank() && !allowedKey.matches(daily.occurrenceKey)) {
+                return Pair(plan, ValidationResult.Invalid("Hatalı occurrenceKey: '${daily.occurrenceKey}'"))
+            }
+
             var key = "$cleanTaskId:${daily.date}"
             if (seenDailyKeys.contains(key)) {
                 var idx = 2
@@ -125,6 +130,9 @@ object PlanValidator {
             }
 
             val key = "$cleanTaskId:${weekly.weekId}"
+            if (weekly.occurrenceKey.isNotBlank() && weekly.occurrenceKey != key) {
+                return Pair(plan, ValidationResult.Invalid("Hatalı haftalık occurrenceKey: '${weekly.occurrenceKey}'"))
+            }
             if (!seenWeeklyKeys.contains(key)) {
                 seenWeeklyKeys.add(key)
                 cleanWeekly.add(weekly.copy(occurrenceKey = key, taskId = cleanTaskId))
