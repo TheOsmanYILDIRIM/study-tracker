@@ -599,14 +599,6 @@ fun ChildHomeScreen(
                                         showCloudSyncDialog = true
                                     }
                                 )
-                                DropdownMenuItem(
-                                    text = { Text("İlerlemeyi Sıfırla", color = ZenRoseCoral, fontSize = 13.sp) },
-                                    leadingIcon = { Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(18.dp)) },
-                                    onClick = {
-                                        showMoreActions = false
-                                        showResetConfirmDialog = true
-                                    }
-                                )
                             }
                         }
                     }
