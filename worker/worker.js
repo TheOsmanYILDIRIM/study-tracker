@@ -367,6 +367,7 @@ async function handleSync(env, familyCode) {
   });
 
   const rawTasks = planData?.tasks || [];
+  const templates = Array.isArray(planData?.templates) ? planData.templates : [];
   const tombstones = new Set(meta?.tombstones || []);
   const normalizedTasks = rawTasks
     .map(normalizeTask)
@@ -396,7 +397,7 @@ async function handleSync(env, familyCode) {
     updatedAt: planData?.updatedAt || Date.now(),
     planSource: finalMeta.planSource || planData?.source || 'Veli / Bulut Masası',
     plan: planData?.plan || null,
-    tasks: planData?.tasks || [],
+    tasks: templates,
     occurrences,
     progress: progressMap,
     sessions: sessions || [],
@@ -416,7 +417,7 @@ async function handleSync(env, familyCode) {
     data: unifiedData,
     meta: finalMeta,
     plan: planData?.plan || null,
-    tasks: normalizedTasks,
+    tasks: templates,
     occurrences,
     progress: progressMap,
     sessions: sessions || [],
@@ -436,6 +437,14 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   const action = (incoming.action || 'SYNC').toUpperCase().trim();
 
   const prefix = `family:${familyCode}:`;
+
+  const privilegedAction = ['RESTORE', 'UNDO_RESET', 'WIPE', 'RESET', 'RESET_ALL_PROGRESS', 'PATCH_TASK', 'DELETE_TASK'].includes(action);
+  if ((isParentRole(senderRole) || privilegedAction) && !(await hasAdminAuth(request, env, familyCode))) {
+    return error('Veli/Admin yetkisi için geçerli X-Admin-Token zorunludur.', 401);
+  }
+  if (senderRole === 'CLIENT' && action === 'SYNC') {
+    return await handleSync(env, familyCode);
+  }
 
   // 1. Geri Alma (RESTORE)
   if (action === 'RESTORE' || action === 'UNDO_RESET') {
@@ -505,6 +514,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
       await putKV(env, `${prefix}plan`, planData);
       return json({ success: true, message: `Ders '${taskId}' güncellendi.` });
     }
+    return error('Görev bulunamadı; tam plan senkronuna düşülmedi.', 404);
   }
 
   // 4.5. Tekil Ders Silme (DELETE_TASK)
@@ -527,34 +537,35 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   }
 
   // 5. Standart Sync Gövdesi İşleme
-  const isAdminOrParent = ['PARENT', 'ADMIN', 'CLI', 'PARENTING_AI'].includes(senderRole);
-  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0 };
-  let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [], plan: null };
+  const isAdminOrParent = isParentRole(senderRole);
+  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+  let planData = (await getKV(env, `${prefix}plan`)) || { templates: [], tasks: [], plan: null };
 
   if (isAdminOrParent && (incoming.plan || Array.isArray(incoming.tasks) || Array.isArray(incoming.occurrences))) {
-    const rawList = (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0)
-      ? incoming.occurrences
-      : (Array.isArray(incoming.tasks) && incoming.tasks.length > 0 ? incoming.tasks : []);
-    const incomingTasks = rawList.map(normalizeTask).filter(Boolean);
-    if (incomingTasks.length > 0) {
+    if (Array.isArray(incoming.tasks)) {
+      planData.templates = incoming.tasks.filter(t => t && t.taskId);
+    }
+
+    if (Array.isArray(incoming.occurrences) && incoming.occurrences.length > 0) {
+      const incomingTasks = incoming.occurrences.map(normalizeTask).filter(Boolean);
       const incomingIds = new Set(incomingTasks.map(t => t.id));
       const oldIds = (planData.tasks || []).map(t => t.id || t.occurrenceKey);
 
       for (const oldId of oldIds) {
-        if (!incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) {
-          meta.tombstones.push(oldId);
-        }
+        if (!incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) meta.tombstones.push(oldId);
       }
       for (const incId of incomingIds) {
         meta.tombstones = (meta.tombstones || []).filter(id => id !== incId);
       }
-
       planData.tasks = incomingTasks;
-      planData.updatedAt = Date.now();
-      planData.source = senderRole;
     }
+
     if (incoming.plan !== undefined) planData.plan = incoming.plan;
     if (incoming.planSource) meta.planSource = incoming.planSource;
+    planData.updatedAt = Date.now();
+    planData.source = senderRole;
+    meta.revision = Number(meta.revision || 0) + 1;
+    meta.updatedAt = Date.now();
 
     await putKV(env, `${prefix}plan`, planData);
     await putKV(env, `${prefix}meta`, meta);
