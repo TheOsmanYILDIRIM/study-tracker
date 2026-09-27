@@ -68,16 +68,19 @@ interface OccurrenceDao {
     @Query("UPDATE occurrences SET studentNote = :studentNote WHERE occurrenceKey = :key")
     suspend fun updateStudentNote(key: String, studentNote: String?)
 
+    @Query("UPDATE occurrences SET completedQuestionCount = MAX(completedQuestionCount, :count) WHERE occurrenceKey = :key")
+    suspend fun updateCompletedQuestionCount(key: String, count: Int)
+
     @Query("UPDATE occurrences SET warning = :warning, warningText = :warningText, rejectCount = rejectCount + CASE WHEN :warning = 1 THEN 1 ELSE 0 END WHERE occurrenceKey = :key")
     suspend fun setWarning(key: String, warning: Boolean, warningText: String?)
 
     @Query("UPDATE occurrences SET approvedCount = approvedCount + 1 WHERE occurrenceKey = :key")
     suspend fun incrementApprovedCount(key: String)
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, completedQuestionCount = 0, studentNote = NULL")
     suspend fun resetAllOccurrencesProgress()
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL WHERE weekId = :weekId")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, completedQuestionCount = 0, studentNote = NULL WHERE weekId = :weekId")
     suspend fun resetWeeklyOccurrencesProgress(weekId: String)
 
     @Query("DELETE FROM occurrences")
