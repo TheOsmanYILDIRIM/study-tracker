@@ -499,8 +499,9 @@ object StudyPackageExchangeManager {
                     )
                 }
 
-                // If this is an explicit parent plan distribution file, remove any local occurrences that were deleted by parent
-                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
+                // If this is an explicit parent plan distribution file or cloud sync, remove any local occurrences that were deleted by parent
+                if ((pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD") && 
+                    (pkg.packageType == PackageType.PLAN_DISTRIBUTION || pkg.packageType == PackageType.REVIEW_FEEDBACK)) {
                     val remoteKeys = pkg.occurrences.map { it.id }.toSet()
                     val allLocal = db.occurrenceDao().getAllOccurrencesOnce()
                     allLocal.filter { it.occurrenceKey !in remoteKeys && (pkg.plan?.weekId == null || it.weekId == pkg.plan?.weekId) }
@@ -508,8 +509,10 @@ object StudyPackageExchangeManager {
                 }
 
                 db.occurrenceDao().upsertOccurrences(mergedOccs)
-            } else if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION && pkg.plan == null && pkg.tasks.isEmpty()) {
-                // Parent wiped everything
+            } else if ((pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD") && 
+                (pkg.packageType == PackageType.PLAN_DISTRIBUTION || pkg.packageType == PackageType.REVIEW_FEEDBACK) && 
+                pkg.plan == null && pkg.tasks.isEmpty() && pkg.occurrences.isEmpty()) {
+                // Parent / Cloud wiped everything
                 db.occurrenceDao().clearOccurrences()
                 db.planDao().clearActivePlan()
                 db.taskTemplateDao().clearTasks()
@@ -520,8 +523,9 @@ object StudyPackageExchangeManager {
             if (pkg.sessions.isNotEmpty()) {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
                 val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
-                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
-                    // Parent provided active session list in explicit plan package, remove orphan local sessions
+                if ((pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD") && 
+                    (pkg.packageType == PackageType.PLAN_DISTRIBUTION || pkg.packageType == PackageType.REVIEW_FEEDBACK)) {
+                    // Parent/Cloud provided active session list, remove orphan local sessions
                     localSessions.keys.filter { it !in remoteSessionIds }.forEach {
                         db.sessionDao().deleteSession(it)
                     }

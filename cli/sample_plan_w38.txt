@@ -4,7 +4,7 @@ OGRENCI = child_1
 
 [DERSLER]
 mat_1 = Matematik: Üslü Sayılar Giriş ve Çarpma | 40 dk | https://www.youtube.com/watch?v=TNw7eEas9Oo
-tar_1 = Tarih: Tarih Bilimi ve Zaman | 30 dk | https://www.youtube.com/watch?v=GXkdtN57sJA
+tar_1 = Tarih: Tarih Bilimi ve Zaman | 30 dk | https://www.youtube.com/watch?v=5QxOpTALmEE
 mat_2 = Matematik: Bölme Kuralı ve Negatif Üs | 35 dk | https://www.youtube.com/watch?v=drPKmUSKYCI
 edeb_1 = Edebiyat: Edebiyatın Anlamı ve Güzel Sanatlar | 30 dk | https://www.youtube.com/watch?v=NBhw_SkvV8E
 mat_soru = Matematik: Üslü Sayılar MEB Pekiştirme | 35 dk | 15 Soru

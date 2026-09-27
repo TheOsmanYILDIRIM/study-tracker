@@ -1,5 +1,11 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-27] Tamamlandı: Tarih Dersi Mehmet Celal Özyıldız Güncellemesi & Zombie Görev / Tombstone Onarımı
+- **Tarih Dersi Video Dersi Güncellendi:** 9. Sınıf Maarif Modeli 1. Hafta Tarih dersi (`tar_1` / `2026-W38_MON_tar_1`) için video kaynağı **Mehmet Celal ÖZYILDIZ** (`https://www.youtube.com/watch?v=5QxOpTALmEE`, 00:00 - 28:45) olarak güncellendi ve tüm plan dosyaları ile buluta yansıtıldı.
+- **Tombstone & Silinen Görevlerin Dirilmesini Önleme:** `worker/worker.js` içine `DELETE_TASK` işleyicisi eklendi; `handleSync` sorgusu `meta.tombstones` ile filtrelenerek silinen görevlerin yeniden listeye girmesi engellendi.
+- **Android Yetim Görev Temizliği:** `StudyPackageExchangeManager.kt` içinde bulut senkronizasyonu (`CLOUD` rolü) sırasında artık var olmayan eski anahtar formatındaki yetim görevlerin Room veritabanından güvenle budanması sağlandı.
+- **Bulut Veritabanı Temizliği:** `ST-7738` ve `ST-2026` aile kodlarındaki çiftleşmiş görevler temizlendi; 18 temiz ders ve doğru video linkleriyle canlıya alındı.
+
 ### [2026-09-22] Tamamlandı: Terminal Hub Güvenli Action Runner ve Canlı Çıktı
 - Terminal Hub action çalıştırma akışı allowlist ve kontrollü çalışma dizini doğrulamasıyla güvenli hale getirildi.
 - Action stdout/stderr çıktısı canlı akış olarak gösterildi; tamamlanma durumu ve hata sonucu kaybolmadan görünür kaldı.

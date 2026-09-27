@@ -313,7 +313,11 @@ async function handleSync(env, familyCode) {
   });
 
   const rawTasks = planData?.tasks || [];
-  const normalizedTasks = rawTasks.map(normalizeTask).filter(Boolean);
+  const tombstones = new Set(meta?.tombstones || []);
+  const normalizedTasks = rawTasks
+    .map(normalizeTask)
+    .filter(Boolean)
+    .filter(t => !tombstones.has(t.id) && !tombstones.has(t.occurrenceKey));
 
   // Görev tanımları ile dinamik ilerleme verilerini birleştirip occurrences listesi oluştur
   const occurrences = normalizedTasks.map(task => {
@@ -446,6 +450,25 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
       planData.updatedAt = Date.now();
       await putKV(env, `${prefix}plan`, planData);
       return json({ success: true, message: `Ders '${taskId}' güncellendi.` });
+    }
+  }
+
+  // 4.5. Tekil Ders Silme (DELETE_TASK)
+  if (action === 'DELETE_TASK' || incoming.deleteTaskId) {
+    const targetId = incoming.deleteTaskId || incoming.taskId || (incoming.occurrences && incoming.occurrences[0]?.id);
+    if (targetId) {
+      let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [] };
+      planData.tasks = (planData.tasks || []).filter(t => (t.id || t.occurrenceKey) !== targetId && t.planId !== targetId && (t.id || '').replace(/^.*_/, '') !== targetId);
+      planData.updatedAt = Date.now();
+      await putKV(env, `${prefix}plan`, planData);
+
+      let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [] };
+      if (!meta.tombstones) meta.tombstones = [];
+      if (!meta.tombstones.includes(targetId)) meta.tombstones.push(targetId);
+      await putKV(env, `${prefix}meta`, meta);
+
+      await deleteKV(env, `${prefix}progress:${targetId}`);
+      return await handleSync(env, familyCode);
     }
   }
 
