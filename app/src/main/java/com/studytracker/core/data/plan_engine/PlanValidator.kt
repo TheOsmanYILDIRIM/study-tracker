@@ -4,6 +4,8 @@ import com.studytracker.core.domain.model.DailyOccurrenceJson
 import com.studytracker.core.domain.model.Plan
 import com.studytracker.core.domain.model.WeeklyOccurrenceJson
 import kotlinx.serialization.json.Json
+import java.time.LocalDate
+import java.time.format.DateTimeParseException
 
 sealed class ValidationResult {
     object Valid : ValidationResult()
@@ -50,8 +52,8 @@ object PlanValidator {
             return Pair(plan, ValidationResult.Invalid("Hatalı weekId formatı: '${plan.weekId}'. Örnek: '2026-W25'"))
         }
 
-        if (!dateRegex.matches(plan.weekStartDate)) {
-            return Pair(plan, ValidationResult.Invalid("Hatalı weekStartDate formatı: '${plan.weekStartDate}'. Örnek: '2026-06-15'"))
+        if (!dateRegex.matches(plan.weekStartDate) || !isRealDate(plan.weekStartDate)) {
+            return Pair(plan, ValidationResult.Invalid("Hatalı weekStartDate: '${plan.weekStartDate}'. Örnek: '2026-06-15'"))
         }
 
         // Auto-sanitize tasks: deduplicate by taskId
@@ -59,6 +61,7 @@ object PlanValidator {
             .filter { it.taskId.isNotBlank() }
             .map { it.copy(taskId = SimplePlanParser.sanitizeId(it.taskId)) }
             .distinctBy { it.taskId }
+            .toMutableList()
 
         val taskIds = cleanTasks.map { it.taskId }.toMutableSet()
 
@@ -68,8 +71,20 @@ object PlanValidator {
 
         for (daily in plan.dailyOccurrences) {
             val cleanTaskId = SimplePlanParser.sanitizeId(daily.taskId)
+            if (!isRealDate(daily.date)) {
+                return Pair(plan, ValidationResult.Invalid("Geçersiz günlük görev tarihi: '${daily.date}'"))
+            }
             if (!taskIds.contains(cleanTaskId)) {
                 taskIds.add(cleanTaskId)
+                cleanTasks.add(
+                    com.studytracker.core.domain.model.TaskTemplate(
+                        taskId = cleanTaskId,
+                        title = daily.title.ifBlank { cleanTaskId },
+                        kind = com.studytracker.core.domain.model.TaskKind.DAILY,
+                        plannedMinutes = daily.plannedMinutes.coerceIn(1, 600),
+                        youtubeUrl = daily.youtubeUrl
+                    )
+                )
             }
 
             var key = "$cleanTaskId:${daily.date}"
@@ -91,8 +106,22 @@ object PlanValidator {
 
         for (weekly in plan.weeklyOccurrences) {
             val cleanTaskId = SimplePlanParser.sanitizeId(weekly.taskId)
+            if (!weekIdRegex.matches(weekly.weekId)) {
+                return Pair(plan, ValidationResult.Invalid("Geçersiz haftalık görev weekId: '${weekly.weekId}'"))
+            }
             if (!taskIds.contains(cleanTaskId)) {
                 taskIds.add(cleanTaskId)
+                cleanTasks.add(
+                    com.studytracker.core.domain.model.TaskTemplate(
+                        taskId = cleanTaskId,
+                        title = weekly.title.ifBlank { cleanTaskId },
+                        kind = com.studytracker.core.domain.model.TaskKind.WEEKLY,
+                        plannedMinutes = weekly.plannedMinutes.coerceIn(1, 600),
+                        targetMode = weekly.targetMode,
+                        targetCount = weekly.targetCount,
+                        targetMinutes = weekly.targetMinutes
+                    )
+                )
             }
 
             val key = "$cleanTaskId:${weekly.weekId}"
@@ -110,5 +139,14 @@ object PlanValidator {
         )
 
         return Pair(sanitizedPlan, ValidationResult.Valid)
+    }
+
+    private fun isRealDate(value: String): Boolean {
+        return try {
+            LocalDate.parse(value)
+            true
+        } catch (_: DateTimeParseException) {
+            false
+        }
     }
 }
