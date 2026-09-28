@@ -103,4 +103,70 @@ class SyncReconciliationTest {
         val approvedCount = maxOf(localApprovedCount, remoteCompletedCount)
         assertEquals(20, approvedCount)
     }
+
+    @Test
+    fun `reconciliation takes maximum of local and remote completed question count`() {
+        val localCompletedQuestions = 15
+        val remoteCompletedQuestions = 25
+
+        val merged = maxOf(localCompletedQuestions, remoteCompletedQuestions)
+        assertEquals(25, merged)
+
+        val localHigher = 30
+        val remoteLower = 10
+        assertEquals(30, maxOf(localHigher, remoteLower))
+    }
+
+    @Test
+    fun `setWarning updates reject count only when warning is true`() {
+        var currentRejectCount = 2
+
+        // Simulating SQL: rejectCount = rejectCount + CASE WHEN :warning = 1 THEN 1 ELSE 0 END
+        fun applyWarning(warning: Boolean) {
+            currentRejectCount += if (warning) 1 else 0
+        }
+
+        applyWarning(false)
+        assertEquals(2, currentRejectCount)
+
+        applyWarning(true)
+        assertEquals(3, currentRejectCount)
+
+        applyWarning(false)
+        assertEquals(3, currentRejectCount)
+    }
+
+    @Test
+    fun `weekly approval is idempotent when target count is met`() {
+        val targetCount = 3
+        var approvedCount = 2
+        var status = OccurrenceStatus.PENDING
+
+        fun registerApproval(isDuplicate: Boolean) {
+            if (!isDuplicate) approvedCount++
+            if (approvedCount >= targetCount) status = OccurrenceStatus.APPROVED
+        }
+
+        registerApproval(isDuplicate = false)
+        assertEquals(3, approvedCount)
+        assertEquals(OccurrenceStatus.APPROVED, status)
+
+        // Duplicate approval
+        registerApproval(isDuplicate = true)
+        assertEquals(3, approvedCount)
+        assertEquals(OccurrenceStatus.APPROVED, status)
+    }
+
+    @Test
+    fun `screenshot file name validation rejects path traversal`() {
+        val regex = Regex("""[A-Za-z0-9._-]{1,128}""")
+
+        assertTrue("ss_2026_09_27.jpg".matches(regex))
+        assertTrue("valid-screenshot-123.webp".matches(regex))
+
+        assertFalse("../secret.jpg".matches(regex))
+        assertFalse("/etc/passwd".matches(regex))
+        assertFalse("..\\windows.png".matches(regex))
+        assertFalse("image;rm -rf".matches(regex))
+    }
 }

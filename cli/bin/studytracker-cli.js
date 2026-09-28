@@ -7,7 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { loadConfig, setFamilyCode } = require('../lib/config');
+const { loadConfig, setFamilyCode, setAdminToken } = require('../lib/config');
 const { fetchFamilyData, pushFamilyData, restoreFamilyData, pairFamily } = require('../lib/api');
 const { parseDSL, exportToDSL } = require('../lib/dsl-parser');
 const { colors, statusBadge, printHeader, renderDashboard } = require('../lib/renderer');
@@ -539,7 +539,15 @@ async function main() {
           const saved = setFamilyCode(newCode);
           console.log(`${colors.green}✔ Varsayılan aile kodu kaydedildi: ${saved}${colors.reset}`);
         } else if (sub === 'get-code') {
-          console.log(`Aktif Aile Kodu: ${colors.bold}${colors.brightCyan}${config.familyCode}${colors.reset}`);
+          console.log(`Aktif Aile Kodu: ${colors.bold}${colors.brightCyan}${config.familyCode || '(ayarlı değil)'}${colors.reset}`);
+        } else if (sub === 'set-token') {
+          const token = parsed.positionals[2];
+          if (!token) {
+            console.error(`${colors.red}Hata: Yönetici tokenı belirtilmeli.${colors.reset}`);
+            process.exit(1);
+          }
+          setAdminToken(token);
+          console.log(`${colors.green}✔ Yönetici tokenı güvenli yerel config'e kaydedildi.${colors.reset}`);
         } else {
           console.log(JSON.stringify(config, null, 2));
         }

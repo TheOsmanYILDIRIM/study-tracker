@@ -454,7 +454,10 @@ fun ChildHomeScreen(
 
                         showFinishNoteDialog = false
                         localFlyingStarTrigger = System.currentTimeMillis()
-                        stateManager.finishSession(studentNote = compiledNote)
+                        stateManager.finishSession(
+                            studentNote = compiledNote,
+                            reportedQuestionCount = evalQuestionsCount.toIntOrNull() ?: 0
+                        )
                         
                         // Formu sıfırla
                         studentNoteInput = ""
@@ -597,14 +600,6 @@ fun ChildHomeScreen(
                                     onClick = {
                                         showMoreActions = false
                                         showCloudSyncDialog = true
-                                    }
-                                )
-                                DropdownMenuItem(
-                                    text = { Text("İlerlemeyi Sıfırla", color = ZenRoseCoral, fontSize = 13.sp) },
-                                    leadingIcon = { Icon(Icons.Default.RestartAlt, contentDescription = null, tint = ZenRoseCoral, modifier = Modifier.size(18.dp)) },
-                                    onClick = {
-                                        showMoreActions = false
-                                        showResetConfirmDialog = true
                                     }
                                 )
                             }

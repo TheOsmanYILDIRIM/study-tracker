@@ -215,8 +215,12 @@ fun ParentDashboardScreen(
                             db.taskTemplateDao().deleteTask(occ.taskId)
                         }
                     }
-                    CloudflareSyncManager.syncWithCloud(context, action = "DELETE_TASK", deleteTaskId = key)
-                    Toast.makeText(context, "🗑️ Ders programdan ve buluttan silindi", Toast.LENGTH_SHORT).show()
+                    val syncRes = CloudflareSyncManager.syncWithCloud(context, action = "DELETE_TASK", deleteTaskId = key)
+                    if (syncRes.isSuccess) {
+                        Toast.makeText(context, "🗑️ Ders programdan ve buluttan silindi", Toast.LENGTH_SHORT).show()
+                    } else {
+                        Toast.makeText(context, "🗑️ Ders yerelden silindi; bulut eşitlemesi başarısız: ${syncRes.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                    }
                 }
             }
         )
@@ -251,12 +255,16 @@ fun ParentDashboardScreen(
                             .clickable {
                                 showResetConfirmDialog = false
                                 scope.launch {
+                                    val cloud = CloudflareSyncManager.syncWithCloud(context, action = "RESET")
+                                    if (cloud.isFailure) {
+                                        Toast.makeText(context, "Bulut sıfırlama başarısız; yerel veri korunuyor: ${cloud.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                        return@launch
+                                    }
                                     val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.resetAllProgress(context, activePlan?.weekId)
-                                    CloudflareSyncManager.syncWithCloud(context, action = "RESET")
                                     res.onSuccess { msg ->
                                         Toast.makeText(context, "🔄 $msg", Toast.LENGTH_SHORT).show()
                                     }.onFailure { err ->
-                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                        Toast.makeText(context, "Yerel sıfırlama hatası: ${err.message}", Toast.LENGTH_SHORT).show()
                                     }
                                 }
                             }
@@ -303,12 +311,16 @@ fun ParentDashboardScreen(
                             .clickable {
                                 showResetConfirmDialog = false
                                 scope.launch {
+                                    val cloud = CloudflareSyncManager.syncWithCloud(context, action = "WIPE")
+                                    if (cloud.isFailure) {
+                                        Toast.makeText(context, "Bulut temizleme başarısız; yerel veri korunuyor: ${cloud.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                        return@launch
+                                    }
                                     val res = com.studytracker.core.data.package_exchange.StudyPackageExchangeManager.clearAllData(context)
-                                    CloudflareSyncManager.syncWithCloud(context, action = "WIPE")
                                     res.onSuccess { msg ->
                                         Toast.makeText(context, "🗑️ $msg", Toast.LENGTH_SHORT).show()
                                     }.onFailure { err ->
-                                        Toast.makeText(context, "Hata: ${err.message}", Toast.LENGTH_SHORT).show()
+                                        Toast.makeText(context, "Yerel temizleme hatası: ${err.message}", Toast.LENGTH_SHORT).show()
                                     }
                                 }
                             }
@@ -383,10 +395,12 @@ fun ParentDashboardScreen(
                                 )
                             )
                             occurrenceRepo.setWarning(currentSession.occurrenceKey, true, note)
-                            try {
-                                CloudflareSyncManager.syncWithCloud(context)
-                            } catch (_: Exception) {}
-                            Toast.makeText(context, "Ders reddedildi ve not iletildi.", Toast.LENGTH_SHORT).show()
+                            val sync = CloudflareSyncManager.syncWithCloud(context)
+                            if (sync.isSuccess) {
+                                Toast.makeText(context, "Ders reddedildi ve not öğrenciye iletildi.", Toast.LENGTH_SHORT).show()
+                            } else {
+                                Toast.makeText(context, "Red yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                            }
                         }
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenRoseCoral)
@@ -995,7 +1009,6 @@ fun ParentDashboardScreen(
 
                                         Button(
                                             onClick = {
-                                                Toast.makeText(context, "Öğrenci çalışması onaylandı! 🌟", Toast.LENGTH_SHORT).show()
                                                 scope.launch {
                                                     sessionRepo.submitReview(
                                                         Review(
@@ -1006,9 +1019,12 @@ fun ParentDashboardScreen(
                                                             reviewedAt = System.currentTimeMillis()
                                                         )
                                                     )
-                                                    try {
-                                                        CloudflareSyncManager.syncWithCloud(context)
-                                                    } catch (_: Exception) {}
+                                                    val sync = CloudflareSyncManager.syncWithCloud(context)
+                                                    if (sync.isSuccess) {
+                                                        Toast.makeText(context, "Öğrenci çalışması onaylandı ve eşitlendi! 🌟", Toast.LENGTH_SHORT).show()
+                                                    } else {
+                                                        Toast.makeText(context, "Onay yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                                    }
                                                 }
                                             },
                                             modifier = Modifier.height(36.dp),

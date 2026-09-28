@@ -4,7 +4,7 @@
 - **Tarih Dersi Video Dersi Güncellendi:** 9. Sınıf Maarif Modeli 1. Hafta Tarih dersi (`tar_1` / `2026-W38_MON_tar_1`) için video kaynağı **Mehmet Celal ÖZYILDIZ** (`https://www.youtube.com/watch?v=5QxOpTALmEE`, 00:00 - 28:45) olarak güncellendi ve tüm plan dosyaları ile buluta yansıtıldı.
 - **Tombstone & Silinen Görevlerin Dirilmesini Önleme:** `worker/worker.js` içine `DELETE_TASK` işleyicisi eklendi; `handleSync` sorgusu `meta.tombstones` ile filtrelenerek silinen görevlerin yeniden listeye girmesi engellendi.
 - **Android Yetim Görev Temizliği:** `StudyPackageExchangeManager.kt` içinde bulut senkronizasyonu (`CLOUD` rolü) sırasında artık var olmayan eski anahtar formatındaki yetim görevlerin Room veritabanından güvenle budanması sağlandı.
-- **Bulut Veritabanı Temizliği:** `ST-7738` ve `ST-2026` aile kodlarındaki çiftleşmiş görevler temizlendi; 18 temiz ders ve doğru video linkleriyle canlıya alındı.
+- **Bulut Veritabanı Temizliği:** `[REDACTED_FAMILY_CODE]` ve `[REDACTED_FAMILY_CODE]` aile kodlarındaki çiftleşmiş görevler temizlendi; 18 temiz ders ve doğru video linkleriyle canlıya alındı.
 
 ### [2026-09-22] Tamamlandı: Terminal Hub Güvenli Action Runner ve Canlı Çıktı
 - Terminal Hub action çalıştırma akışı allowlist ve kontrollü çalışma dizini doğrulamasıyla güvenli hale getirildi.
@@ -151,8 +151,8 @@
   - **Plan & Şablon Eşitlemesi:** Veli AI Plan Stüdyosu'ndan yeni veya revize bir plan yüklediğinde, öğrenci uygulaması açılır açılmaz yeni haftayı ve dersleri otomatik olarak alır.
 - **Çok Konumlu Paylaşılan Dosya Köprüsü (Multi-Path Local Bridge):**
   - `Environment.DIRECTORY_DOWNLOADS`, `Environment.DIRECTORY_DOCUMENTS`, `/sdcard/Download`, `/sdcard/Documents`, `/storage/emulated/0/...` ve uygulama dizinlerinin tamamı taranarak en güncel `updatedAt` zaman damgalı köprü yükü seçilir ve tüm erişilebilir konumlara yazılır.
-- **Varsayılan Paylaşılan Aile Kodu (`ST-2026`):**
-  - Her iki APK ilk kez yüklendiğinde varsayılan olarak `ST-2026` ortak aile koduna bağlanır; kullanıcının elle kod kopyalama/yazma zorunluluğu olmadan tek cihazda veya aynı ağda doğrudan çalışır.
+- **Varsayılan Paylaşılan Aile Kodu (`[REDACTED_FAMILY_CODE]`):**
+  - Her iki APK ilk kez yüklendiğinde varsayılan olarak `[REDACTED_FAMILY_CODE]` ortak aile koduna bağlanır; kullanıcının elle kod kopyalama/yazma zorunluluğu olmadan tek cihazda veya aynı ağda doğrudan çalışır.
 - [x] Otomatik Tetikleme:
   - Veli paneli açıldığında (`LaunchedEffect`), Öğrenci masası açıldığında (`LaunchedEffect`), AI Stüdyosu'nda plan içe aktarıldığında ve veli onay/red kararı verdiğinde anında `syncAll()` çağrılır.
 - **Birim Testleri:**
@@ -322,7 +322,7 @@
 
 ## [2026-09-18] 37. Dinamik Çok Kiracılı Aile Eşleştirme & Bulut Eşitleme Diyalogu
 - **Çok Kiracılı İzolasyon & Rastgele Aile Kodu:**
-  - Sabit `ST-2026` kodu kaldırılarak `AppPreferences` üzerinde ilk kurulumda rastgele 4 haneli benzersiz kod (`ST-XXXX`) oluşturulması sağlandı.
+  - Sabit `[REDACTED_FAMILY_CODE]` kodu kaldırılarak `AppPreferences` üzerinde ilk kurulumda rastgele 4 haneli benzersiz kod (`ST-XXXX`) oluşturulması sağlandı.
   - Farklı ailelerin verilerinin birbirine karışması engellendi.
 - **Etkileşimli `CloudSyncDialog` Modalı:**
   - Hem Veli Masası hem Öğrenci Masası TopBar bulut butonuna basıldığında açılan şık diyalog eklendi.

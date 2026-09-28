@@ -25,6 +25,15 @@ import java.util.Date
 import java.util.Locale
 
 @Serializable
+data class PairFamilyResponse(
+    val success: Boolean = false,
+    val familyCode: String = "",
+    val adminToken: String? = null,
+    val created: Boolean = false,
+    val error: String? = null
+)
+
+@Serializable
 data class CloudSyncResponse(
     val success: Boolean = false,
     val familyCode: String? = null,
@@ -77,7 +86,7 @@ object CloudflareSyncManager {
     suspend fun fetchCloudData(context: Context): Result<CloudSyncPayloadWrapper> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
@@ -257,7 +266,8 @@ object CloudflareSyncManager {
     ): Result<String> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val cleanTaskId = when {
                 occurrence.taskId.isNotBlank() -> occurrence.taskId
@@ -275,7 +285,8 @@ object CloudflareSyncManager {
                 targetDurationMin = occurrence.plannedMinutes,
                 targetQuestionCount = occurrence.targetCount ?: 0,
                 completedDurationMin = occurrence.targetMinutes ?: 0,
-                completedQuestionCount = occurrence.approvedCount,
+                completedQuestionCount = occurrence.completedQuestionCount,
+                approvedCount = occurrence.approvedCount,
                 status = occurrence.status.name,
                 parentNote = occurrence.warningText ?: "",
                 weekId = occurrence.weekId ?: "",
@@ -300,6 +311,8 @@ object CloudflareSyncManager {
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", "PARENT")
+                if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
             val payloadJson = json.encodeToString(payload)
@@ -321,7 +334,7 @@ object CloudflareSyncManager {
 
     private suspend fun applyCloudDataToLocal(context: Context, cloudData: CloudSyncPayloadWrapper) {
         val prefs = AppPreferences.getInstance(context)
-        val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+        val familyCode = prefs.familyPairCode.value
 
         val studyPackage = com.studytracker.core.data.package_exchange.StudyTrackerPackage(
             formatVersion = 1,
@@ -338,7 +351,12 @@ object CloudflareSyncManager {
             quizzes = cloudData.quizzes
         )
 
-        StudyPackageExchangeManager.importPackageString(context, json.encodeToString(studyPackage))
+        val imported = StudyPackageExchangeManager.importPackageString(
+            context,
+            json.encodeToString(studyPackage),
+            trustedSource = true
+        )
+        imported.getOrThrow()
     }
 
     /**
@@ -352,7 +370,8 @@ object CloudflareSyncManager {
         try {
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
             val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
@@ -385,6 +404,12 @@ object CloudflareSyncManager {
                 )
             }
 
+            val localSessionEntities = db.sessionDao().getAllSessionsOnce()
+            val completedMinutesByOccurrence = localSessionEntities
+                .groupBy { it.occurrenceKey }
+                .mapValues { (_, list) ->
+                    list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
+                }
             val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
                 val cleanPlanId = if (it.taskId.isNotBlank()) it.taskId else it.occurrenceKey.substringAfterLast("_", "")
                 RemoteOccurrenceSyncDto(
@@ -396,8 +421,9 @@ object CloudflareSyncManager {
                     topic = it.type.name,
                     targetDurationMin = it.plannedMinutes,
                     targetQuestionCount = it.targetCount ?: 0,
-                    completedDurationMin = it.targetMinutes ?: 0,
-                    completedQuestionCount = it.approvedCount,
+                    completedDurationMin = completedMinutesByOccurrence[it.occurrenceKey] ?: 0,
+                    completedQuestionCount = it.completedQuestionCount,
+                    approvedCount = it.approvedCount,
                     status = it.status.name,
                     parentNote = it.warningText ?: "",
                     weekId = it.weekId ?: "",
@@ -407,14 +433,16 @@ object CloudflareSyncManager {
                 )
             }
 
-            val sessions = db.sessionDao().getAllSessionsOnce().map {
+            val sessions = localSessionEntities.map {
                 RemoteSessionSyncDto(
                     id = it.sessionId,
                     familyCode = familyCode,
                     occurrenceId = it.occurrenceKey,
                     startTime = it.startTime,
                     endTime = it.endTime,
-                    durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
+                    durationMin = (it.activeDurationSeconds / 60L).toInt(),
+                    activeDurationSeconds = it.activeDurationSeconds,
+                    reportedQuestionCount = it.reportedQuestionCount,
                     isCompleted = it.status != com.studytracker.core.domain.model.SessionStatus.ACTIVE,
                     notes = it.studentNote ?: ""
                 )
@@ -489,6 +517,10 @@ object CloudflareSyncManager {
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
+                setRequestProperty("X-Sender-Role", effectiveRole)
+                if (effectiveRole in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI") && adminToken.isNotBlank()) {
+                    setRequestProperty("X-Admin-Token", adminToken)
+                }
             }
 
             OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
@@ -534,7 +566,8 @@ object CloudflareSyncManager {
     suspend fun restoreFromSnapshot(context: Context): Result<String> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -544,6 +577,7 @@ object CloudflareSyncManager {
                 setRequestProperty("Content-Type", "application/json; charset=utf-8")
                 setRequestProperty("X-Family-Code", familyCode)
                 setRequestProperty("X-Sender-Role", "PARENT")
+                if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
             val payload = SharedFamilySyncPayload(
@@ -581,9 +615,18 @@ object CloudflareSyncManager {
     /**
      * Aile eşleştirme kodunu doğrular veya yenisini oluşturur.
      */
+    suspend fun createFamily(context: Context): Result<String> = withContext(Dispatchers.IO) {
+        pairFamilyCodeInternal(context, "")
+    }
+
     suspend fun pairFamilyCode(context: Context, pairCode: String): Result<String> = withContext(Dispatchers.IO) {
-        try {
-            val cleanCode = pairCode.trim().uppercase()
+        pairFamilyCodeInternal(context, pairCode.trim().uppercase())
+    }
+
+    private suspend fun pairFamilyCodeInternal(context: Context, pairCode: String): Result<String> {
+        return try {
+            val prefs = AppPreferences.getInstance(context)
+            val existingAdminToken = prefs.familyAdminToken.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/pair")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "POST"
@@ -591,18 +634,27 @@ object CloudflareSyncManager {
                 readTimeout = 8000
                 doOutput = true
                 setRequestProperty("Content-Type", "application/json")
+                if (existingAdminToken.isNotBlank()) setRequestProperty("X-Admin-Token", existingAdminToken)
             }
-
-            val body = "{\"familyCode\": \"$cleanCode\"}"
+            val body = if (pairCode.isBlank()) "{}" else "{\"familyCode\": \"$pairCode\"}"
             OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(body); it.flush() }
 
-            if (conn.responseCode in 200..299) {
-                val prefs = AppPreferences.getInstance(context)
-                prefs.setFamilyPairCode(cleanCode)
-                Result.success(cleanCode)
-            } else {
-                Result.failure(Exception("HTTP ${conn.responseCode}"))
+            val stream = if (conn.responseCode in 200..299) conn.inputStream else conn.errorStream
+            val responseText = stream?.let { BufferedReader(InputStreamReader(it, "UTF-8")).readText() }.orEmpty()
+            if (conn.responseCode !in 200..299) {
+                return Result.failure(Exception("Eşleştirme hatası (${conn.responseCode}): $responseText"))
             }
+
+            val response = json.decodeFromString<PairFamilyResponse>(responseText)
+            if (!response.success || response.familyCode.isBlank()) {
+                return Result.failure(Exception(response.error ?: "Eşleştirme başarısız"))
+            }
+
+            prefs.setFamilyPairCode(response.familyCode)
+            if (com.studytracker.BuildConfig.APP_ROLE == "PARENT" && !response.adminToken.isNullOrBlank()) {
+                prefs.setFamilyAdminToken(response.adminToken)
+            }
+            Result.success(response.familyCode)
         } catch (e: Exception) {
             Result.failure(e)
         }
@@ -621,7 +673,8 @@ object CloudflareSyncManager {
     ): Result<RemoteMessageSyncDto> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
+            val adminToken = prefs.familyAdminToken.value
 
             val msgPayload = RemoteMessageSyncDto(
                 id = "msg_${System.currentTimeMillis()}_${(1000..9999).random()}",
@@ -650,6 +703,7 @@ object CloudflareSyncManager {
                     setRequestProperty("Content-Type", "application/json; charset=utf-8")
                     setRequestProperty("X-Family-Code", familyCode)
                     setRequestProperty("X-Sender-Role", "PARENT")
+                    if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
                 }
                 OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(bodyJson); it.flush() }
                 if (conn.responseCode in 200..299) {
@@ -676,6 +730,7 @@ object CloudflareSyncManager {
                     setRequestProperty("Content-Type", "application/json; charset=utf-8")
                     setRequestProperty("X-Family-Code", familyCode)
                     setRequestProperty("X-Sender-Role", "PARENT")
+                    if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
                 }
                 val syncJson = json.encodeToString(syncPayload)
                 OutputStreamWriter(conn.outputStream, "UTF-8").use { it.write(syncJson); it.flush() }
@@ -701,7 +756,7 @@ object CloudflareSyncManager {
     suspend fun fetchMessages(context: Context, unreadOnly: Boolean = false): Result<List<RemoteMessageSyncDto>> = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode&unread=$unreadOnly")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
@@ -722,7 +777,7 @@ object CloudflareSyncManager {
             // Alternatif direkt /api/sync denemesi
             try {
                 val prefs = AppPreferences.getInstance(context)
-                val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+                val familyCode = prefs.familyPairCode.value
                 val targetUrl = URL("$CLOUD_WORKER_URL/api/sync?code=$familyCode")
                 val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                     requestMethod = "GET"
@@ -746,7 +801,7 @@ object CloudflareSyncManager {
         var deliveredCount = 0
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val lastNotifiedTime = prefs.lastNotifiedMessageTime
 
             // Cloudflare'den en son veriyi çek
@@ -762,13 +817,14 @@ object CloudflareSyncManager {
 
             for (msg in unreadNewMessages) {
                 // Bildirim göster
-                com.studytracker.core.notification.StudyNotificationManager.showParentNudgeNotification(context, msg)
-                deliveredCount++
-
-                if (msg.timestamp > prefs.lastNotifiedMessageTime) {
-                    prefs.lastNotifiedMessageTime = msg.timestamp
+                val shown = com.studytracker.core.notification.StudyNotificationManager.showParentNudgeNotification(context, msg)
+                if (shown) {
+                    deliveredCount++
+                    if (msg.timestamp > prefs.lastNotifiedMessageTime) {
+                        prefs.lastNotifiedMessageTime = msg.timestamp
+                    }
+                    prefs.setLastUnreadMessage(json.encodeToString(msg))
                 }
-                prefs.setLastUnreadMessage(json.encodeToString(msg))
             }
 
             if (deliveredCount > 0) {
@@ -786,7 +842,7 @@ object CloudflareSyncManager {
     suspend fun markMessageAsRead(context: Context, messageId: String? = null, all: Boolean = false): Boolean = withContext(Dispatchers.IO) {
         try {
             val prefs = AppPreferences.getInstance(context)
-            val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
+            val familyCode = prefs.familyPairCode.value
             val targetUrl = URL("$CLOUD_WORKER_URL/api/v2/messages?code=$familyCode")
             val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
                 requestMethod = "PUT"

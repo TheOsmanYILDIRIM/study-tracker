@@ -7,6 +7,8 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
+import android.os.Binder
+import android.os.Process
 import android.os.ParcelFileDescriptor
 import android.util.Base64
 import android.util.Log
@@ -35,6 +37,7 @@ class StudySyncProvider : ContentProvider() {
     override fun onCreate(): Boolean = true
 
     override fun call(method: String, arg: String?, extras: Bundle?): Bundle? {
+        enforceAuthorizedCaller()
         val ctx = context ?: return null
         val db = AppDatabase.getInstance(ctx)
         val familyCode = arg?.trim()?.uppercase()?.ifBlank { "ST-2026" } ?: "ST-2026"
@@ -93,23 +96,41 @@ class StudySyncProvider : ContentProvider() {
     }
 
     override fun openFile(uri: Uri, mode: String): ParcelFileDescriptor? {
+        enforceAuthorizedCaller()
+        if (mode != "r") throw FileNotFoundException("Read-only provider")
         val ctx = context ?: throw FileNotFoundException("Context is null")
-        val path = uri.path ?: throw FileNotFoundException("Path is null")
-        val filename = path.substringAfterLast("/")
-        val cleanName = if (filename.endsWith(".jpg") || filename.endsWith(".png")) filename else "$filename.jpg"
-        
-        val file = File(File(ctx.filesDir, "screenshots"), cleanName)
-        if (file.exists() && file.length() > 0) {
-            return ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
+        val filename = uri.lastPathSegment ?: throw FileNotFoundException("Missing file name")
+        if (!filename.matches(Regex("""[A-Za-z0-9._-]{1,128}"""))) {
+            throw FileNotFoundException("Invalid screenshot name")
         }
-        
-        // Check exact path match
-        val directFile = File(path)
-        if (directFile.exists() && directFile.length() > 0) {
-            return ParcelFileDescriptor.open(directFile, ParcelFileDescriptor.MODE_READ_ONLY)
+        val cleanName = if (filename.endsWith(".jpg") || filename.endsWith(".jpeg") ||
+            filename.endsWith(".png") || filename.endsWith(".webp")) filename else "$filename.jpg"
+
+        val root = File(ctx.filesDir, "screenshots").canonicalFile
+        val file = File(root, cleanName).canonicalFile
+        if (!file.path.startsWith(root.path + File.separator) || !file.exists() || file.length() <= 0) {
+            throw FileNotFoundException("Screenshot not found")
         }
-        
-        throw FileNotFoundException("Screenshot not found at $path")
+        return ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
+    }
+
+    private fun enforceAuthorizedCaller() {
+        val ctx = context ?: throw SecurityException("Provider context unavailable")
+        val uid = Binder.getCallingUid()
+        if (uid == Process.myUid()) return
+
+        val allowedPackages = setOf(
+            "com.studytracker.child",
+            "com.studytracker.child.debug",
+            "com.studytracker.parent",
+            "com.studytracker.parent.debug",
+            "com.studytracker",
+            "com.studytracker.debug"
+        )
+        val callers = ctx.packageManager.getPackagesForUid(uid)?.toSet().orEmpty()
+        if (callers.none { it in allowedPackages }) {
+            throw SecurityException("Unauthorized StudyTracker sync caller")
+        }
     }
 
     private suspend fun mergePayloadIntoDb(ctx: android.content.Context, db: AppDatabase, payload: SharedFamilySyncPayload) {
@@ -216,7 +237,7 @@ class StudySyncProvider : ContentProvider() {
                     else -> remoteStatus
                 }
 
-                val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                val approvedCount = if (payload.action == "RESET") 0 else maxOf(local?.approvedCount ?: 0, remote.approvedCount)
                 val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                 val isApprovedByCount = (targetCount != null && approvedCount >= targetCount && payload.action != "RESET")
                 val finalStatus = if (isApprovedByCount) OccurrenceStatus.APPROVED else resolvedStatus
@@ -255,7 +276,8 @@ class StudySyncProvider : ContentProvider() {
                     rejectCount = maxOf(local?.rejectCount ?: 0, if (finalWarning) 1 else 0),
                     approvedCount = approvedCount,
                     targetCount = targetCount,
-                    targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
+                    targetMinutes = local?.targetMinutes,
+                    completedQuestionCount = maxOf(local?.completedQuestionCount ?: 0, remote.completedQuestionCount),
                     studentNote = remote.studentNote ?: local?.studentNote
                 )
             }
@@ -283,6 +305,8 @@ class StudySyncProvider : ContentProvider() {
                         endTime = rs.endTime ?: existing?.endTime,
                         status = resolvedStatus,
                         screenshotCount = existing?.screenshotCount ?: 1,
+                        activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: rs.durationMin * 60L),
+                        reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                         finalScreenshotUrl = existing?.finalScreenshotUrl,
                         studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                     )
@@ -423,6 +447,12 @@ class StudySyncProvider : ContentProvider() {
             )
         }
 
+        val localSessions = db.sessionDao().getAllSessionsOnce()
+        val completedMinutes = localSessions
+            .groupBy { it.occurrenceKey }
+            .mapValues { (_, list) ->
+                list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
+            }
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -433,8 +463,9 @@ class StudySyncProvider : ContentProvider() {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = it.completedQuestionCount,
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -444,14 +475,16 @@ class StudySyncProvider : ContentProvider() {
             )
         }
 
-        val sessions = db.sessionDao().getAllSessionsOnce().map {
+        val sessions = localSessions.map {
             RemoteSessionSyncDto(
                 id = it.sessionId,
                 familyCode = familyCode,
                 occurrenceId = it.occurrenceKey,
                 startTime = it.startTime,
                 endTime = it.endTime,
-                durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
+                durationMin = (it.activeDurationSeconds / 60L).toInt(),
+                activeDurationSeconds = it.activeDurationSeconds,
+                reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )

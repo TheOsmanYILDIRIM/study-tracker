@@ -59,7 +59,7 @@ object StudyNotificationManager {
     /**
      * Veliden gelen anlık mesaj veya motivasyon bildirimini gösterir.
      */
-    fun showParentNudgeNotification(context: Context, messageDto: RemoteMessageSyncDto) {
+    fun showParentNudgeNotification(context: Context, messageDto: RemoteMessageSyncDto): Boolean {
         createNotificationChannels(context)
 
         val intent = Intent(context, MainActivity::class.java).apply {
@@ -103,15 +103,16 @@ object StudyNotificationManager {
         try {
             val notificationId = NOTIFICATION_ID_BASE_PARENT + (messageDto.id.hashCode() % 1000).coerceAtLeast(0)
             NotificationManagerCompat.from(context).notify(notificationId, notification)
+            return true
         } catch (e: SecurityException) {
-            // Permission not granted on Android 13+
+            return false
         }
     }
 
     /**
      * Günlük veya yaklaşan ders için hatırlatıcı bildirim gösterir.
      */
-    fun showStudyReminderNotification(context: Context, title: String, message: String, taskId: String? = null) {
+    fun showStudyReminderNotification(context: Context, title: String, message: String, taskId: String? = null): Boolean {
         createNotificationChannels(context)
 
         val intent = Intent(context, MainActivity::class.java).apply {
@@ -142,8 +143,9 @@ object StudyNotificationManager {
         try {
             val notificationId = NOTIFICATION_ID_STUDY_REMINDER + ((taskId ?: title).hashCode() % 500).coerceAtLeast(0)
             NotificationManagerCompat.from(context).notify(notificationId, notification)
+            return true
         } catch (e: SecurityException) {
-            // Permission not granted
+            return false
         }
     }
 }

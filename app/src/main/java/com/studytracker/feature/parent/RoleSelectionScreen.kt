@@ -23,6 +23,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.studytracker.R
+import com.studytracker.BuildConfig
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
@@ -42,6 +43,7 @@ fun RoleSelectionScreen(
     val context = LocalContext.current
     val appPreferences = remember { AppPreferences.getInstance(context) }
     val hasCompletedTutorial by appPreferences.hasCompletedTutorial.collectAsState()
+    val hasParentPin by appPreferences.hasParentPin.collectAsState()
 
     var showPinDialog by remember { mutableStateOf(false) }
     var pinText by remember { mutableStateOf("") }
@@ -105,95 +107,97 @@ fun RoleSelectionScreen(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(14.dp)
             ) {
+                if (BuildConfig.APP_ROLE != "PARENT") {
                 // Student Mode Card
-                Card(
-                    onClick = {
-                        if (hasCompletedTutorial) {
-                            onNavigateToChildHome()
-                        } else {
-                            onNavigateToChildTutorial()
-                        }
-                    },
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = ZenCardShape,
-                    colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
-                    border = androidx.compose.foundation.BorderStroke(1.dp, ZenPaperBorder)
-                ) {
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(14.dp)
+                    Card(
+                        onClick = {
+                            if (hasCompletedTutorial) {
+                                onNavigateToChildHome()
+                            } else {
+                                onNavigateToChildTutorial()
+                            }
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = ZenCardShape,
+                        colors = CardDefaults.cardColors(containerColor = ZenPaperCard),
+                        border = androidx.compose.foundation.BorderStroke(1.dp, ZenPaperBorder)
                     ) {
-                        Box(
+                        Row(
                             modifier = Modifier
-                                .size(50.dp)
-                                .clip(ZenSquircleShape)
-                                .background(ZenSkyCyanContainer)
-                                .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), ZenSquircleShape),
-                            contentAlignment = Alignment.Center
+                                .fillMaxWidth()
+                                .padding(16.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(14.dp)
                         ) {
-                            Icon(
-                                Icons.Default.School,
-                                contentDescription = null,
-                                tint = ZenSkyCyan,
-                                modifier = Modifier.size(26.dp)
-                            )
-                        }
-
-                        Column(
-                            modifier = Modifier.weight(1f),
-                            verticalArrangement = Arrangement.spacedBy(2.dp)
-                        ) {
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            Box(
+                                modifier = Modifier
+                                    .size(50.dp)
+                                    .clip(ZenSquircleShape)
+                                    .background(ZenSkyCyanContainer)
+                                    .border(1.dp, ZenSkyCyan.copy(alpha = 0.35f), ZenSquircleShape),
+                                contentAlignment = Alignment.Center
                             ) {
-                                Text(
-                                    "Öğrenci Modu",
-                                    style = MaterialTheme.typography.titleMedium,
-                                    fontWeight = FontWeight.Bold,
-                                    color = ZomoTextPrimary,
-                                    maxLines = 1
+                                Icon(
+                                    Icons.Default.School,
+                                    contentDescription = null,
+                                    tint = ZenSkyCyan,
+                                    modifier = Modifier.size(26.dp)
                                 )
-                                Box(
-                                    modifier = Modifier
-                                        .clip(ZenPillShape)
-                                        .background(ZenSkyCyanContainer)
-                                        .padding(horizontal = 7.dp, vertical = 2.dp)
+                            }
+    
+                            Column(
+                                modifier = Modifier.weight(1f),
+                                verticalArrangement = Arrangement.spacedBy(2.dp)
+                            ) {
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                                 ) {
                                     Text(
-                                        text = "ÖĞRENCİ",
-                                        color = ZenSkyCyan,
-                                        fontSize = 9.sp,
+                                        "Öğrenci Modu",
+                                        style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold,
+                                        color = ZomoTextPrimary,
                                         maxLines = 1
                                     )
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(ZenPillShape)
+                                            .background(ZenSkyCyanContainer)
+                                            .padding(horizontal = 7.dp, vertical = 2.dp)
+                                    ) {
+                                        Text(
+                                            text = "ÖĞRENCİ",
+                                            color = ZenSkyCyan,
+                                            fontSize = 9.sp,
+                                            fontWeight = FontWeight.Bold,
+                                            maxLines = 1
+                                        )
+                                    }
                                 }
+                                Text(
+                                    text = if (hasCompletedTutorial) "Bugünkü derslerine ve görevlerine başla" else "İlk giriş: Hızlı rehber ve görev masam",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = ZomoTextSecondary,
+                                    lineHeight = 15.sp,
+                                    maxLines = 2
+                                )
                             }
-                            Text(
-                                text = if (hasCompletedTutorial) "Bugünkü derslerine ve görevlerine başla" else "İlk giriş: Hızlı rehber ve görev masam",
-                                style = MaterialTheme.typography.bodySmall,
-                                color = ZomoTextSecondary,
-                                lineHeight = 15.sp,
-                                maxLines = 2
-                            )
-                        }
-
-                        Box(
-                            modifier = Modifier
-                                .size(36.dp)
-                                .clip(ZenPillShape)
-                                .background(ZenSkyCyan),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            Icon(
-                                Icons.Default.ArrowForward,
-                                contentDescription = null,
-                                tint = ZenMintText,
-                                modifier = Modifier.size(18.dp)
-                            )
+    
+                            Box(
+                                modifier = Modifier
+                                    .size(36.dp)
+                                    .clip(ZenPillShape)
+                                    .background(ZenSkyCyan),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    Icons.Default.ArrowForward,
+                                    contentDescription = null,
+                                    tint = ZenMintText,
+                                    modifier = Modifier.size(18.dp)
+                                )
+                            }
                         }
                     }
                 }
@@ -315,15 +319,22 @@ fun RoleSelectionScreen(
                     ) {
                         Icon(Icons.Default.Lock, contentDescription = null, tint = ZenSkyCyan, modifier = Modifier.size(18.dp))
                     }
-                    Text("Ebeveyn PIN Girişi", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 17.sp)
+                    Text(if (hasParentPin) "Ebeveyn PIN Girişi" else "Ebeveyn PIN Oluştur", fontWeight = FontWeight.Bold, color = ZomoTextPrimary, fontSize = 17.sp)
                 }
             },
             text = {
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("Lütfen 4 haneli ebeveyn PIN kodunuzu girin (Varsayılan: 1234):", fontSize = 13.sp, color = ZomoTextSecondary)
+                    Text(
+                        if (hasParentPin) "Ebeveyn PIN kodunuzu girin:" else "İlk kullanım için 4-6 haneli yeni bir ebeveyn PIN kodu belirleyin:",
+                        fontSize = 13.sp,
+                        color = ZomoTextSecondary
+                    )
                     OutlinedTextField(
                         value = pinText,
-                        onValueChange = { if (it.length <= 4) pinText = it },
+                        onValueChange = { next ->
+                            if (next.length <= 6 && next.all(Char::isDigit)) pinText = next
+                            pinError = false
+                        },
                         singleLine = true,
                         shape = RoundedCornerShape(14.dp),
                         visualTransformation = PasswordVisualTransformation(),
@@ -344,9 +355,15 @@ fun RoleSelectionScreen(
             confirmButton = {
                 Button(
                     onClick = {
-                        if (pinText == "1234" || pinText == "0000") {
+                        val accepted = if (hasParentPin) {
+                            appPreferences.verifyParentPin(pinText)
+                        } else {
+                            appPreferences.setParentPin(pinText)
+                        }
+                        if (accepted) {
                             showPinDialog = false
                             pinText = ""
+                            pinError = false
                             onNavigateToParent()
                         } else {
                             pinError = true
@@ -355,7 +372,7 @@ fun RoleSelectionScreen(
                     colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan, contentColor = ZenMintText),
                     shape = ZenPillShape
                 ) {
-                    Text("Giriş Yap", fontWeight = FontWeight.Bold)
+                    Text(if (hasParentPin) "Giriş Yap" else "PIN Oluştur", fontWeight = FontWeight.Bold)
                 }
             },
             dismissButton = {

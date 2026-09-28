@@ -69,6 +69,8 @@ fun formatLatexToNativeMath(rawInput: String): String {
         .replace("\\]", "")
         .replace("\\(", "")
         .replace("\\)", "")
+        .replace("\\left", "")
+        .replace("\\right", "")
 
     // 2. \text{...}, \mathbf{...}, \mathit{...}, \mathrm{...} metin bloklarını ayıkla
     val textRegex = Regex("""\\(text|mathbf|mathit|mathrm|textbf)\{([^}]*)\}""")

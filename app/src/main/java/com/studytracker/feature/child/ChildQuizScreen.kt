@@ -251,7 +251,12 @@ fun ChildQuizScreen(
                                 durationSeconds = elapsedSeconds,
                                 studentNote = compiledNote
                             )
-                            Toast.makeText(context, "Test cevapların ve değerlendirmen veline iletildi! 🎉", Toast.LENGTH_LONG).show()
+                            val sync = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                            if (sync.isSuccess) {
+                                Toast.makeText(context, "Test cevapların veline iletildi! 🎉", Toast.LENGTH_LONG).show()
+                            } else {
+                                Toast.makeText(context, "Cevapların kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                            }
                             onNavigateBack()
                         }
                     },

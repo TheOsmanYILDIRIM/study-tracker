@@ -2,6 +2,8 @@ package com.studytracker.core.data.local.prefs
 
 import android.content.Context
 import android.content.SharedPreferences
+import java.security.MessageDigest
+import java.security.SecureRandom
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -26,8 +28,45 @@ class AppPreferences private constructor(context: Context) {
     )
     val familyPairCode: StateFlow<String> = _familyPairCode.asStateFlow()
 
+    private val _familyAdminToken = MutableStateFlow(prefs.getString(KEY_FAMILY_ADMIN_TOKEN, "") ?: "")
+    val familyAdminToken: StateFlow<String> = _familyAdminToken.asStateFlow()
+
+    private val _hasParentPin = MutableStateFlow(prefs.contains(KEY_PARENT_PIN_HASH))
+    val hasParentPin: StateFlow<Boolean> = _hasParentPin.asStateFlow()
+
+    fun setParentPin(pin: String): Boolean {
+        if (!pin.matches(Regex("""\d{4,6}"""))) return false
+        prefs.edit().putString(KEY_PARENT_PIN_HASH, hashPin(pin)).apply()
+        _hasParentPin.value = true
+        return true
+    }
+
+    fun verifyParentPin(pin: String): Boolean {
+        val expected = prefs.getString(KEY_PARENT_PIN_HASH, null) ?: return false
+        return MessageDigest.isEqual(
+            expected.toByteArray(Charsets.UTF_8),
+            hashPin(pin).toByteArray(Charsets.UTF_8)
+        )
+    }
+
+    private fun hashPin(pin: String): String {
+        val digest = MessageDigest.getInstance("SHA-256")
+            .digest(("studytracker-parent-pin-v1:" + pin).toByteArray(Charsets.UTF_8))
+        return digest.joinToString("") { "%02x".format(it) }
+    }
+
+    fun setFamilyAdminToken(token: String) {
+        prefs.edit().putString(KEY_FAMILY_ADMIN_TOKEN, token.trim()).apply()
+        _familyAdminToken.value = token.trim()
+    }
+
+    fun clearFamilyAdminToken() = setFamilyAdminToken("")
+
     fun setFamilyPairCode(code: String) {
         val clean = code.trim().uppercase().ifBlank { generateRandomFamilyCode() }
+        if (clean != _familyPairCode.value) {
+            clearFamilyAdminToken()
+        }
         prefs.edit().putString(KEY_FAMILY_PAIR_CODE, clean).apply()
         _familyPairCode.value = clean
     }
@@ -39,8 +78,14 @@ class AppPreferences private constructor(context: Context) {
     }
 
     private fun generateRandomFamilyCode(): String {
-        val num = (1000..9999).random()
-        return "ST-$num"
+        val alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+        val random = SecureRandom()
+        val body = buildString {
+            repeat(16) {
+                append(alphabet[random.nextInt(alphabet.length)])
+            }
+        }
+        return "ST-" + body.chunked(4).joinToString("-")
     }
 
     fun setHasCompletedTutorial(completed: Boolean) {
@@ -97,6 +142,8 @@ class AppPreferences private constructor(context: Context) {
         _isNightMode.value = true
         _isNotificationsEnabled.value = true
         _lastUnreadMessage.value = null
+        _familyAdminToken.value = ""
+        _hasParentPin.value = false
     }
 
     companion object {
@@ -105,6 +152,8 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_FAKE_CAPTURE = "is_fake_capture_enabled"
         private const val KEY_NIGHT_MODE = "is_night_mode"
         private const val KEY_FAMILY_PAIR_CODE = "family_pair_code"
+        private const val KEY_FAMILY_ADMIN_TOKEN = "family_admin_token"
+        private const val KEY_PARENT_PIN_HASH = "parent_pin_hash"
         private const val KEY_NOTIFICATIONS_ENABLED = "is_notifications_enabled"
         private const val KEY_LAST_NOTIFIED_MESSAGE_TIME = "last_notified_message_time"
         private const val KEY_LAST_STUDY_REMINDER_DATE = "last_study_reminder_date"

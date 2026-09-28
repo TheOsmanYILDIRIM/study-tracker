@@ -25,9 +25,6 @@ import com.studytracker.core.domain.model.ReviewStatus
 import com.studytracker.core.domain.model.Session
 import com.studytracker.core.ui.components.EvidenceTimelineView
 import com.studytracker.core.ui.theme.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
@@ -45,6 +42,7 @@ fun SessionReviewScreen(
     val context = LocalContext.current
     val db = remember { AppDatabase.getInstance(context) }
     val sessionRepo = remember { LocalSessionRepositoryImpl(db) }
+    val scope = rememberCoroutineScope()
 
     var session by remember { mutableStateOf<Session?>(null) }
     var reviewNote by remember { mutableStateOf("") }
@@ -129,12 +127,7 @@ fun SessionReviewScreen(
                             )
                             val note = reviewNote.ifBlank { "Bu görev onaylanmadı. Lütfen eksikleri tamamlayıp tekrar yapınız." }
                             
-                            // Instant UI Feedback & Navigation
-                            Toast.makeText(context, "Görev reddedildi, öğrenciye uyarı iletildi.", Toast.LENGTH_SHORT).show()
-                            onNavigateBack()
-
-                            // Detached async execution to prevent cancellation on unmount
-                            CoroutineScope(Dispatchers.IO + SupervisorJob()).launch {
+                            scope.launch {
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
@@ -144,9 +137,13 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
-                                try {
-                                    com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
-                                } catch (_: Exception) {}
+                                val sync = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                                if (sync.isSuccess) {
+                                    Toast.makeText(context, "Görev reddedildi ve öğrenciye iletildi.", Toast.LENGTH_SHORT).show()
+                                } else {
+                                    Toast.makeText(context, "Red yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                }
+                                onNavigateBack()
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),
@@ -170,12 +167,7 @@ fun SessionReviewScreen(
                             )
                             val note = reviewNote.ifBlank { null }
                             
-                            // Instant UI Feedback & Navigation
-                            Toast.makeText(context, "Görev başarıyla onaylandı.", Toast.LENGTH_SHORT).show()
-                            onNavigateBack()
-
-                            // Detached async execution to prevent cancellation on unmount
-                            CoroutineScope(Dispatchers.IO + SupervisorJob()).launch {
+                            scope.launch {
                                 sessionRepo.submitReview(
                                     Review(
                                         sessionId = currentSession.sessionId,
@@ -185,9 +177,13 @@ fun SessionReviewScreen(
                                         reviewedAt = System.currentTimeMillis()
                                     )
                                 )
-                                try {
-                                    com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
-                                } catch (_: Exception) {}
+                                val sync = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                                if (sync.isSuccess) {
+                                    Toast.makeText(context, "Görev onaylandı ve öğrenciye iletildi.", Toast.LENGTH_SHORT).show()
+                                } else {
+                                    Toast.makeText(context, "Onay yerelde kaydedildi; bulut eşitlemesi başarısız: ${sync.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                                }
+                                onNavigateBack()
                             }
                         },
                         modifier = Modifier.weight(1f).height(50.dp),

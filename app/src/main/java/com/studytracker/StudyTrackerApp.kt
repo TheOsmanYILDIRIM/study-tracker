@@ -11,7 +11,9 @@ class StudyTrackerApp : Application() {
         // Bildirim kanallarını oluştur (Android 8.0+)
         StudyNotificationManager.createNotificationChannels(this)
 
-        // Arkaplan 5 dakikalık bildirim ve hatırlatıcı kontrolcüsünü başlat
-        StudyReminderScheduler.start5MinuteChecker(this)
+        // Veli mesajı ve günlük ders hatırlatıcıları yalnız Öğrenci APK'da gerekir.
+        if (BuildConfig.APP_ROLE == "CHILD") {
+            StudyReminderScheduler.startReminderChecker(this)
+        }
     }
 }

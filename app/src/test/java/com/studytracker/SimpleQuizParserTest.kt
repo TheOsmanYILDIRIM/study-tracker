@@ -101,6 +101,42 @@ COZUM: Cisim merkezde (2f) ise görüntü merkezde ve ters oluşur.
         val formattedPower = com.studytracker.core.ui.components.formatLatexToNativeMath(powerText)
         assertEquals("x² + 2x - 3 = 0", formattedPower)
     }
+
+    @Test
+    fun `parse handles lowercase correct option and trims whitespace`() {
+        val quizText = """
+=== TEST: Kimya - Asitler ve Bazlar ===
+SURE: 10
+
+[SORU 1]
+pH değeri 3 olan bir çözelti için hangisi doğrudur?
+A) Nötrdür
+B) Asidiktir
+C) Baziktir
+D) Tuzdur
+DOGRU: b
+COZUM: pH < 7 olan sulu çözeltiler asidiktir.
+=== TEST_SONU ===
+        """.trimIndent()
+
+        val parsed = SimpleQuizParser.parse(quizText)
+        assertEquals(1, parsed.size)
+        assertEquals("B", parsed.first().questions.first().correctOption)
+    }
+
+    @Test
+    fun `parse ignores question block missing valid options`() {
+        val malformedQuiz = """
+=== TEST: Eksik Test ===
+[SORU 1]
+Bu sorunun şıkları yok.
+DOGRU: A
+=== TEST_SONU ===
+        """.trimIndent()
+
+        val parsed = SimpleQuizParser.parse(malformedQuiz)
+        assertTrue(parsed.isEmpty() || parsed.first().questions.isEmpty())
+    }
 }
 
 

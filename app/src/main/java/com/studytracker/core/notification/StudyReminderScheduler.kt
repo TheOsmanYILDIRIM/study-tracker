@@ -11,14 +11,14 @@ object StudyReminderScheduler {
 
     private const val TAG = "StudyReminderScheduler"
     private const val REQUEST_CODE = 4001
-    const val INTERVAL_MILLIS = 5 * 60 * 1000L // 5 Dakikada bir arkaplan kontrolü
+    const val INTERVAL_MILLIS = 15 * 60 * 1000L // Doze dostu yaklaşık kontrol aralığı
 
     const val ACTION_CHECK_REMINDERS = "com.studytracker.action.CHECK_REMINDERS"
 
     /**
      * 5 dakikada bir arkaplanda bildirim ve veli mesajlarını kontrol eden alarm döngüsünü başlatır.
      */
-    fun start5MinuteChecker(context: Context) {
+    fun startReminderChecker(context: Context) {
         scheduleNextCheck(context, delayMillis = 10 * 1000L) // İlk kontrol 10 sn sonra
     }
 
@@ -51,7 +51,7 @@ object StudyReminderScheduler {
                     pendingIntent
                 )
             }
-            Log.d(TAG, "Sonraki 5 dakikalık bildirim kontrolü kuruldu: ${delayMillis / 1000}s sonra")
+            Log.d(TAG, "Sonraki 15 dakikalık bildirim kontrolü kuruldu: ${delayMillis / 1000}s sonra")
         } catch (e: Exception) {
             Log.e(TAG, "scheduleNextCheck hatası: ${e.message}", e)
         }

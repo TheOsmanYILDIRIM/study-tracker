@@ -56,6 +56,20 @@ data class StudyTrackerPackage(
 
 object StudyPackageExchangeManager {
 
+    private const val MAX_PACKAGE_CHARS = 8 * 1024 * 1024
+    private const val MAX_SCREENSHOT_CHARS = 512 * 1024
+    private const val MAX_OCCURRENCES = 500
+    private const val MAX_SESSIONS = 500
+    private const val MAX_SCREENSHOTS = 100
+    private const val MAX_QUIZZES = 100
+
+    private suspend fun completedMinutesByOccurrence(db: AppDatabase): Map<String, Int> =
+        db.sessionDao().getAllSessionsOnce()
+            .groupBy { it.occurrenceKey }
+            .mapValues { (_, list) ->
+                list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
+            }
+
     private val json = Json {
         ignoreUnknownKeys = true
         encodeDefaults = true
@@ -129,6 +143,7 @@ object StudyPackageExchangeManager {
             )
         }
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -139,8 +154,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = it.completedQuestionCount,
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -179,6 +195,7 @@ object StudyPackageExchangeManager {
         val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
         val todayStr = dateFormat.format(Date())
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -189,8 +206,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = it.completedQuestionCount,
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -207,7 +225,9 @@ object StudyPackageExchangeManager {
                 occurrenceId = it.occurrenceKey,
                 startTime = it.startTime,
                 endTime = it.endTime,
-                durationMin = if (it.endTime != null) ((it.endTime - it.startTime) / 60000).toInt() else 0,
+                durationMin = (it.activeDurationSeconds / 60L).toInt(),
+                activeDurationSeconds = it.activeDurationSeconds,
+                reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )
@@ -264,6 +284,7 @@ object StudyPackageExchangeManager {
         val prefs = AppPreferences.getInstance(context)
         val familyCode = prefs.familyPairCode.value.ifBlank { "ST-2026" }
 
+        val completedMinutes = completedMinutesByOccurrence(db)
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -274,8 +295,9 @@ object StudyPackageExchangeManager {
                 topic = it.type.name,
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
-                completedDurationMin = it.targetMinutes ?: 0,
-                completedQuestionCount = it.approvedCount,
+                completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
+                completedQuestionCount = it.completedQuestionCount,
+                approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
                 weekId = it.weekId ?: "",
@@ -345,7 +367,10 @@ object StudyPackageExchangeManager {
                 stream.bufferedReader(Charsets.UTF_8).readText()
             } ?: return@withContext Result.failure(Exception("Dosya okunamadı"))
 
-            importPackageString(context, content)
+            if (content.length > MAX_PACKAGE_CHARS) {
+                return@withContext Result.failure(Exception("Paket güvenli boyut sınırını aşıyor"))
+            }
+            importPackageString(context, content, trustedSource = false)
         } catch (e: Exception) {
             Log.e("PackageExchange", "Import error: ${e.message}", e)
             Result.failure(e)
@@ -355,14 +380,46 @@ object StudyPackageExchangeManager {
     /**
      * Core Import & Smart Reconciliation Logic (Secere & Kayıpsız Revize Plan Birleştirme)
      */
-    suspend fun importPackageString(context: Context, packageContent: String): Result<String> = withContext(Dispatchers.IO) {
+    suspend fun importPackageString(
+        context: Context,
+        packageContent: String,
+        trustedSource: Boolean = false
+    ): Result<String> = withContext(Dispatchers.IO) {
         try {
+            if (packageContent.length > MAX_PACKAGE_CHARS) {
+                return@withContext Result.failure(Exception("Paket güvenli boyut sınırını aşıyor"))
+            }
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
             val pkg = json.decodeFromString<StudyTrackerPackage>(packageContent)
 
-            // 1. Update family code
-            if (pkg.familyCode.isNotBlank()) {
+            if (pkg.occurrences.size > MAX_OCCURRENCES ||
+                pkg.sessions.size > MAX_SESSIONS ||
+                pkg.screenshots.size > MAX_SCREENSHOTS ||
+                pkg.quizzes.size > MAX_QUIZZES) {
+                return@withContext Result.failure(Exception("Paket kayıt sınırlarını aşıyor"))
+            }
+            if (pkg.screenshots.any { it.imageUrl.length > MAX_SCREENSHOT_CHARS }) {
+                return@withContext Result.failure(Exception("Kanıt görseli güvenli boyut sınırını aşıyor"))
+            }
+
+            val currentFamilyCode = prefs.familyPairCode.value
+            if (!trustedSource) {
+                if (pkg.senderRole !in setOf("PARENT", "CHILD", "APP")) {
+                    return@withContext Result.failure(Exception("Harici paket için geçersiz gönderen rolü"))
+                }
+                if (pkg.familyCode.isNotBlank() && currentFamilyCode.isNotBlank() &&
+                    pkg.familyCode != currentFamilyCode) {
+                    return@withContext Result.failure(Exception("Paket farklı bir aile koduna ait"))
+                }
+                if (pkg.senderRole == "PARENT" && pkg.packageType == PackageType.PLAN_DISTRIBUTION &&
+                    pkg.plan == null && pkg.tasks.isEmpty() && pkg.occurrences.isEmpty()) {
+                    return@withContext Result.failure(Exception("Boş ve yıkıcı plan paketi reddedildi"))
+                }
+            }
+
+            // Never silently re-pair a device from an untrusted package.
+            if (trustedSource && pkg.familyCode.isNotBlank() && pkg.familyCode != currentFamilyCode) {
                 prefs.setFamilyPairCode(pkg.familyCode)
             }
 
@@ -383,6 +440,9 @@ object StudyPackageExchangeManager {
             }
 
             if (pkg.tasks.isNotEmpty()) {
+                if (pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD" || pkg.packageType == PackageType.PLAN_DISTRIBUTION) {
+                    db.taskTemplateDao().clearTasks()
+                }
                 db.taskTemplateDao().upsertTasks(pkg.tasks.map {
                     TaskTemplateEntity(
                         taskId = it.taskId,
@@ -446,7 +506,7 @@ object StudyPackageExchangeManager {
                         else -> remoteStatus
                     }
 
-                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.completedQuestionCount)
+                    val approvedCount = maxOf(local?.approvedCount ?: 0, remote.approvedCount)
                     val targetCount = if (remote.targetQuestionCount > 0) remote.targetQuestionCount else (local?.targetCount ?: null)
                     val isApprovedByTarget = (targetCount != null && approvedCount >= targetCount)
                     val finalStatus = if (isApprovedByTarget) OccurrenceStatus.APPROVED else resolvedStatus
@@ -494,7 +554,8 @@ object StudyPackageExchangeManager {
                         rejectCount = maxOf(local?.rejectCount ?: 0, if (finalWarning) 1 else 0),
                         approvedCount = approvedCount,
                         targetCount = targetCount,
-                        targetMinutes = local?.targetMinutes ?: if (remote.completedDurationMin > 0) remote.completedDurationMin else null,
+                        targetMinutes = local?.targetMinutes,
+                        completedQuestionCount = maxOf(local?.completedQuestionCount ?: 0, remote.completedQuestionCount),
                         studentNote = remote.studentNote ?: local?.studentNote
                     )
                 }
@@ -522,14 +583,8 @@ object StudyPackageExchangeManager {
             // 4. Reconcile Sessions (Seceresini tutar)
             if (pkg.sessions.isNotEmpty()) {
                 val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
-                val remoteSessionIds = pkg.sessions.map { it.id }.toSet()
-                if ((pkg.senderRole == "PARENT" || pkg.senderRole == "CLOUD") && 
-                    (pkg.packageType == PackageType.PLAN_DISTRIBUTION || pkg.packageType == PackageType.REVIEW_FEEDBACK)) {
-                    // Parent/Cloud provided active session list, remove orphan local sessions
-                    localSessions.keys.filter { it !in remoteSessionIds }.forEach {
-                        db.sessionDao().deleteSession(it)
-                    }
-                }
+                // Session history is append/upsert-only during ordinary sync. A stale or
+                // eventually-consistent cloud list must never delete a newer local session.
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
                     val hasApprovedReview = pkg.reviews.any { it.sessionId == rs.id && it.isApproved }
@@ -550,6 +605,8 @@ object StudyPackageExchangeManager {
                             endTime = rs.endTime ?: existing?.endTime,
                             status = resolvedStatus,
                             screenshotCount = existing?.screenshotCount ?: 1,
+                            activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: (rs.durationMin * 60L)),
+                            reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                             finalScreenshotUrl = existing?.finalScreenshotUrl,
                             studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                         )
@@ -618,7 +675,13 @@ object StudyPackageExchangeManager {
                                 val base64Data = if (rss.imageUrl.contains(",")) rss.imageUrl.substringAfter(",") else rss.imageUrl
                                 val bytes = Base64.decode(base64Data, Base64.DEFAULT)
                                 val ext = if (rss.imageUrl.startsWith("data:image/webp")) "webp" else "jpg"
-                                val targetFile = File(screenshotsDir, "${rss.id}.$ext")
+                                val safeId = rss.id.replace(Regex("""[^A-Za-z0-9._-]"""), "_").take(96)
+                                if (safeId.isBlank()) throw IllegalArgumentException("Geçersiz screenshot id")
+                                val targetFile = File(screenshotsDir, "$safeId.$ext").canonicalFile
+                                val root = screenshotsDir.canonicalFile
+                                if (!targetFile.path.startsWith(root.path + File.separator)) {
+                                    throw SecurityException("Geçersiz screenshot yolu")
+                                }
                                 targetFile.writeBytes(bytes)
                                 localFilePath = targetFile.absolutePath
                             } catch (e: Exception) {

@@ -68,16 +68,19 @@ interface OccurrenceDao {
     @Query("UPDATE occurrences SET studentNote = :studentNote WHERE occurrenceKey = :key")
     suspend fun updateStudentNote(key: String, studentNote: String?)
 
-    @Query("UPDATE occurrences SET warning = :warning, warningText = :warningText, rejectCount = rejectCount + 1 WHERE occurrenceKey = :key")
+    @Query("UPDATE occurrences SET completedQuestionCount = MAX(completedQuestionCount, :count) WHERE occurrenceKey = :key")
+    suspend fun updateCompletedQuestionCount(key: String, count: Int)
+
+    @Query("UPDATE occurrences SET warning = :warning, warningText = :warningText, rejectCount = rejectCount + CASE WHEN :warning = 1 THEN 1 ELSE 0 END WHERE occurrenceKey = :key")
     suspend fun setWarning(key: String, warning: Boolean, warningText: String?)
 
     @Query("UPDATE occurrences SET approvedCount = approvedCount + 1 WHERE occurrenceKey = :key")
     suspend fun incrementApprovedCount(key: String)
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, completedQuestionCount = 0, studentNote = NULL")
     suspend fun resetAllOccurrencesProgress()
 
-    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, studentNote = NULL WHERE weekId = :weekId")
+    @Query("UPDATE occurrences SET status = 'PENDING', approvedCount = 0, warning = 0, warningText = NULL, rejectCount = 0, completedQuestionCount = 0, studentNote = NULL WHERE weekId = :weekId")
     suspend fun resetWeeklyOccurrencesProgress(weekId: String)
 
     @Query("DELETE FROM occurrences")
@@ -86,17 +89,23 @@ interface OccurrenceDao {
 
 @Dao
 interface PlanDao {
-    @Query("SELECT * FROM active_plan LIMIT 1")
+    @Query("SELECT * FROM active_plan ORDER BY rowid DESC LIMIT 1")
     fun getActivePlan(): Flow<PlanEntity?>
 
-    @Query("SELECT * FROM active_plan LIMIT 1")
+    @Query("SELECT * FROM active_plan ORDER BY rowid DESC LIMIT 1")
     suspend fun getActivePlanOnce(): PlanEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun setActivePlan(plan: PlanEntity)
+    suspend fun insertActivePlan(plan: PlanEntity)
 
     @Query("DELETE FROM active_plan")
     suspend fun clearActivePlan()
+
+    @Transaction
+    suspend fun setActivePlan(plan: PlanEntity) {
+        clearActivePlan()
+        insertActivePlan(plan)
+    }
 }
 
 @Dao
@@ -127,6 +136,9 @@ interface SessionDao {
 
     @Query("DELETE FROM sessions WHERE sessionId = :sessionId")
     suspend fun deleteSession(sessionId: String)
+
+    @Query("UPDATE sessions SET status = 'INVALID', endTime = :endedAt WHERE sessionId = :sessionId")
+    suspend fun invalidateSession(sessionId: String, endedAt: Long)
 
     @Query("DELETE FROM sessions")
     suspend fun clearSessions()

@@ -39,7 +39,7 @@ class SessionStateManager private constructor(
     private val accessibilityCaptureDriver = AccessibilityCaptureDriver(context, db)
 
     fun getEffectiveCaptureDriver(): CaptureDriver {
-        return if (appPreferences.isFakeCaptureEnabled.value) {
+        return if (com.studytracker.BuildConfig.DEBUG && appPreferences.isFakeCaptureEnabled.value) {
             fakeCaptureDriver
         } else {
             accessibilityCaptureDriver
@@ -61,6 +61,17 @@ class SessionStateManager private constructor(
 
     private var tickerJob: Job? = null
     private var periodicCaptureJob: Job? = null
+
+    init {
+        // A process death cannot safely resume screenshot capture. Seal stale ACTIVE rows
+        // so a previous process does not block or corrupt the next session.
+        scope.launch(Dispatchers.IO) {
+            sessionRepository.getActiveSessionOnce()?.let { stale ->
+                db.sessionDao().invalidateSession(stale.sessionId, System.currentTimeMillis())
+                occurrenceRepository.updateStatus(stale.occurrenceKey, com.studytracker.core.domain.model.OccurrenceStatus.PENDING)
+            }
+        }
+    }
 
     fun startSession(occurrenceKey: String, occurrenceTitle: String, childId: String = "child_1") {
         if (_activeState.value != null) return // Already active
@@ -89,11 +100,26 @@ class SessionStateManager private constructor(
 
         // 2. Perform DB write & screenshot driver setup asynchronously in IO
         scope.launch(Dispatchers.IO) {
-            val session = sessionRepository.startSession(occurrenceKey, childId, tempSessionId)
-            val driver = getEffectiveCaptureDriver()
-            driver.start(session.sessionId, occurrenceKey)
-
-            driver.captureNow()
+            try {
+                val session = sessionRepository.startSession(occurrenceKey, childId, tempSessionId)
+                val driver = getEffectiveCaptureDriver()
+                driver.start(session.sessionId, occurrenceKey)
+                val first = driver.captureNow()
+                withContext(Dispatchers.Main) {
+                    _activeState.value = _activeState.value?.copy(screenshotCount = if (first.url.isNotBlank()) 1 else 0)
+                }
+            } catch (e: Exception) {
+                android.util.Log.e("SessionStateManager", "startSession failed", e)
+                stopPeriodicCapture()
+                stopTicker()
+                stopFloatingService()
+                runCatching { db.sessionDao().invalidateSession(tempSessionId, System.currentTimeMillis()) }
+                runCatching { occurrenceRepository.updateStatus(occurrenceKey, com.studytracker.core.domain.model.OccurrenceStatus.PENDING) }
+                withContext(Dispatchers.Main) {
+                    _activeState.value = null
+                    _elapsedSeconds.value = 0L
+                }
+            }
         }
     }
 
@@ -112,12 +138,16 @@ class SessionStateManager private constructor(
     }
 
     fun captureManual() {
-        val current = _activeState.value ?: return
-        _activeState.value = current.copy(
-            screenshotCount = current.screenshotCount + 1
-        )
+        if (_activeState.value == null) return
         scope.launch(Dispatchers.IO) {
-            getEffectiveCaptureDriver().captureNow()
+            try {
+                getEffectiveCaptureDriver().captureNow()
+                withContext(Dispatchers.Main) {
+                    _activeState.value = _activeState.value?.let { it.copy(screenshotCount = it.screenshotCount + 1) }
+                }
+            } catch (e: Exception) {
+                android.util.Log.w("SessionStateManager", "Manual capture failed", e)
+            }
         }
     }
 
@@ -130,22 +160,30 @@ class SessionStateManager private constructor(
         stopFloatingService()
 
         scope.launch(Dispatchers.IO) {
-            getEffectiveCaptureDriver().stop()
-            // Reset task status to PENDING so student can start whenever desired
-            occurrenceRepository.updateStatus(
-                current.session.occurrenceKey,
-                com.studytracker.core.domain.model.OccurrenceStatus.PENDING
-            )
-
-            withContext(Dispatchers.Main) {
-                _activeState.value = null
-                _elapsedSeconds.value = 0L
-                onCancelled?.invoke()
+            try {
+                getEffectiveCaptureDriver().stop()
+                db.sessionDao().invalidateSession(current.session.sessionId, System.currentTimeMillis())
+                occurrenceRepository.updateStatus(
+                    current.session.occurrenceKey,
+                    com.studytracker.core.domain.model.OccurrenceStatus.PENDING
+                )
+            } catch (e: Exception) {
+                android.util.Log.e("SessionStateManager", "cancelSession failed", e)
+            } finally {
+                withContext(Dispatchers.Main) {
+                    _activeState.value = null
+                    _elapsedSeconds.value = 0L
+                    onCancelled?.invoke()
+                }
             }
         }
     }
 
-    fun finishSession(studentNote: String? = null, onFinished: (() -> Unit)? = null) {
+    fun finishSession(
+        studentNote: String? = null,
+        reportedQuestionCount: Int = 0,
+        onFinished: (() -> Unit)? = null
+    ) {
         val current = _activeState.value ?: return
         _activeState.value = current.copy(isFinishing = true)
 
@@ -154,19 +192,28 @@ class SessionStateManager private constructor(
         stopFloatingService()
 
         scope.launch(Dispatchers.IO) {
-            val finalSs = getEffectiveCaptureDriver().stop()
-            sessionRepository.finishSession(current.session.sessionId, finalSs?.url, studentNote)
-
             try {
-                com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
-            } catch (e: Exception) {
-                android.util.Log.w("SessionStateManager", "Auto-sync failed on finishSession: ${e.message}")
-            }
+                val finalSs = getEffectiveCaptureDriver().stop()
+                sessionRepository.finishSession(
+                    current.session.sessionId,
+                    finalSs?.url,
+                    studentNote,
+                    activeDurationSeconds = _elapsedSeconds.value,
+                    reportedQuestionCount = reportedQuestionCount
+                )
 
-            withContext(Dispatchers.Main) {
-                _activeState.value = null
-                _elapsedSeconds.value = 0L
-                onFinished?.invoke()
+                val syncResult = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.syncWithCloud(context)
+                syncResult.exceptionOrNull()?.let {
+                    android.util.Log.w("SessionStateManager", "Auto-sync failed on finishSession", it)
+                }
+            } catch (e: Exception) {
+                android.util.Log.e("SessionStateManager", "finishSession failed", e)
+            } finally {
+                withContext(Dispatchers.Main) {
+                    _activeState.value = null
+                    _elapsedSeconds.value = 0L
+                    onFinished?.invoke()
+                }
             }
         }
     }
@@ -191,9 +238,13 @@ class SessionStateManager private constructor(
                 delay(60_000)
                 val current = _activeState.value
                 if (current != null && !current.isPaused) {
-                    getEffectiveCaptureDriver().captureNow()
-                    withContext(Dispatchers.Main) {
-                        _activeState.value = _activeState.value?.let { it.copy(screenshotCount = it.screenshotCount + 1) }
+                    try {
+                        getEffectiveCaptureDriver().captureNow()
+                        withContext(Dispatchers.Main) {
+                            _activeState.value = _activeState.value?.let { it.copy(screenshotCount = it.screenshotCount + 1) }
+                        }
+                    } catch (e: Exception) {
+                        android.util.Log.w("SessionStateManager", "Periodic capture failed", e)
                     }
                 }
             }
@@ -218,14 +269,18 @@ class SessionStateManager private constructor(
             } else {
                 context.startService(intent)
             }
-        } catch (_: Exception) {}
+        } catch (e: Exception) {
+            android.util.Log.w("SessionStateManager", "Floating service start failed", e)
+        }
     }
 
     private fun stopFloatingService() {
         try {
             val intent = Intent(context, FloatingButtonService::class.java)
             context.stopService(intent)
-        } catch (_: Exception) {}
+        } catch (e: Exception) {
+            android.util.Log.w("SessionStateManager", "Floating service stop failed", e)
+        }
     }
 
     companion object {

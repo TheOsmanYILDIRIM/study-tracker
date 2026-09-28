@@ -7,6 +7,7 @@ import com.studytracker.core.data.plan_engine.PlanValidator
 import com.studytracker.core.data.plan_engine.ValidationResult
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.domain.repository.*
+import androidx.room.withTransaction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
@@ -87,9 +88,15 @@ class LocalPlanRepositoryImpl(
             rawJson = canonicalJson
         )
 
-        db.taskTemplateDao().upsertTasks(taskEntities)
-        db.occurrenceDao().upsertOccurrences(occurrenceEntities)
-        db.planDao().setActivePlan(planEntity)
+        db.withTransaction {
+            // A plan import is authoritative for the plan definition. Preserve progress via
+            // PlanMergeEngine above, but remove definitions that disappeared from the new plan.
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.taskTemplateDao().upsertTasks(taskEntities)
+            db.occurrenceDao().upsertOccurrences(occurrenceEntities)
+            db.planDao().setActivePlan(planEntity)
+        }
 
         return Result.success(importResult)
     }
@@ -100,9 +107,11 @@ class LocalPlanRepositoryImpl(
     }
 
     override suspend fun clearAllPlanData() {
-        db.taskTemplateDao().clearTasks()
-        db.occurrenceDao().clearOccurrences()
-        db.planDao().clearActivePlan()
+        db.withTransaction {
+            db.taskTemplateDao().clearTasks()
+            db.occurrenceDao().clearOccurrences()
+            db.planDao().clearActivePlan()
+        }
     }
 }
 
@@ -240,7 +249,13 @@ class LocalSessionRepositoryImpl(
         return session
     }
 
-    override suspend fun finishSession(sessionId: String, finalScreenshotUrl: String?, studentNote: String?): Session {
+    override suspend fun finishSession(
+        sessionId: String,
+        finalScreenshotUrl: String?,
+        studentNote: String?,
+        activeDurationSeconds: Long,
+        reportedQuestionCount: Int
+    ): Session {
         val existing = db.sessionDao().getSessionById(sessionId)
             ?: throw IllegalStateException("Session not found: $sessionId")
 
@@ -249,6 +264,8 @@ class LocalSessionRepositoryImpl(
             endTime = System.currentTimeMillis(),
             status = SessionStatus.WAITING_REVIEW,
             screenshotCount = count,
+            activeDurationSeconds = activeDurationSeconds.coerceAtLeast(0L),
+            reportedQuestionCount = reportedQuestionCount.coerceAtLeast(0),
             finalScreenshotUrl = finalScreenshotUrl,
             studentNote = studentNote ?: existing.studentNote
         )
@@ -257,10 +274,14 @@ class LocalSessionRepositoryImpl(
         if (!studentNote.isNullOrBlank()) {
             db.occurrenceDao().updateStudentNote(existing.occurrenceKey, studentNote)
         }
+        if (reportedQuestionCount > 0) {
+            db.occurrenceDao().updateCompletedQuestionCount(existing.occurrenceKey, reportedQuestionCount)
+        }
         return updated.toDomain()
     }
 
     override suspend fun submitReview(review: Review) {
+        val previousReview = db.reviewDao().getReviewForSession(review.sessionId)
         db.reviewDao().insertReview(review.toEntity())
 
         val sessionStatus = if (review.reviewStatus == ReviewStatus.APPROVED) {
@@ -289,7 +310,9 @@ class LocalSessionRepositoryImpl(
         if (occurrence != null) {
             if (review.reviewStatus == ReviewStatus.APPROVED) {
                 if (occurrence.type == TaskKind.WEEKLY) {
-                    db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
+                    if (previousReview?.reviewStatus != ReviewStatus.APPROVED) {
+                        db.occurrenceDao().incrementApprovedCount(occurrence.occurrenceKey)
+                    }
                     val updated = db.occurrenceDao().getOccurrenceByKeyOnce(occurrence.occurrenceKey)!!
                     val target = updated.targetCount ?: 1
                     val newStatus = if (updated.approvedCount >= target) OccurrenceStatus.APPROVED else OccurrenceStatus.PENDING
@@ -333,7 +356,7 @@ fun Occurrence.toEntity() = OccurrenceEntity(
     title = title, plannedMinutes = plannedMinutes, youtubeUrl = youtubeUrl, reviewRequired = reviewRequired,
     status = status, warning = warning, warningText = warningText, rejectCount = rejectCount,
     approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes,
-    studentNote = studentNote
+    completedQuestionCount = completedQuestionCount, studentNote = studentNote
 )
 
 fun OccurrenceEntity.toDomain() = Occurrence(
@@ -341,20 +364,20 @@ fun OccurrenceEntity.toDomain() = Occurrence(
     title = title, plannedMinutes = plannedMinutes, youtubeUrl = youtubeUrl, reviewRequired = reviewRequired,
     status = status, warning = warning, warningText = warningText, rejectCount = rejectCount,
     approvedCount = approvedCount, targetCount = targetCount, targetMinutes = targetMinutes,
-    studentNote = studentNote
+    completedQuestionCount = completedQuestionCount, studentNote = studentNote
 )
 
 fun Session.toEntity() = SessionEntity(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, reportedQuestionCount = reportedQuestionCount, finalScreenshotUrl = finalScreenshotUrl,
     studentNote = studentNote
 )
 
 fun SessionEntity.toDomain() = Session(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
-    screenshotCount = screenshotCount, finalScreenshotUrl = finalScreenshotUrl,
+    screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, reportedQuestionCount = reportedQuestionCount, finalScreenshotUrl = finalScreenshotUrl,
     studentNote = studentNote
 )
 

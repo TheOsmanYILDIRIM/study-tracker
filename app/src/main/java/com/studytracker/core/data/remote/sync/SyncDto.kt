@@ -24,6 +24,7 @@ data class RemoteOccurrenceSyncDto(
     val targetQuestionCount: Int = 0,
     val completedDurationMin: Int = 0,
     val completedQuestionCount: Int = 0,
+    val approvedCount: Int = 0,
     val status: String = "PENDING",
     val parentNote: String = "",
     val weekId: String = "",
@@ -41,6 +42,8 @@ data class RemoteSessionSyncDto(
     val startTime: Long = 0L,
     val endTime: Long? = null,
     val durationMin: Int = 0,
+    val activeDurationSeconds: Long = 0L,
+    val reportedQuestionCount: Int = 0,
     val isCompleted: Boolean = false,
     val notes: String = "",
     val updatedAt: Long = System.currentTimeMillis()

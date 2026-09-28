@@ -53,7 +53,8 @@ function makeRequest(targetUrl, options = {}, postData = null) {
  */
 async function fetchFamilyData(overrideCode = null) {
   const config = loadConfig();
-  const code = (overrideCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const code = (overrideCode || config.familyCode || '').toUpperCase().trim();
+  if (!code) throw new Error('Aile kodu ayarlı değil. Önce config set-code kullanın.');
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
 
   const res = await makeRequest(endpoint, {
@@ -81,7 +82,7 @@ async function fetchFamilyData(overrideCode = null) {
  */
 async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT') {
   const config = loadConfig();
-  const code = (overrideCode || payload.familyCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const code = (overrideCode || payload.familyCode || config.familyCode || '').toUpperCase().trim();
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
 
   const fullPayload = {
@@ -102,7 +103,8 @@ async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT
     method: 'POST',
     headers: {
       'X-Family-Code': code,
-      'X-Sender-Role': senderRole
+      'X-Sender-Role': senderRole,
+      ...(config.adminToken ? { 'X-Admin-Token': config.adminToken } : {})
     }
   }, fullPayload);
 
@@ -118,14 +120,15 @@ async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT
  */
 async function restoreFamilyData(overrideCode = null) {
   const config = loadConfig();
-  const code = (overrideCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const code = (overrideCode || config.familyCode || '').toUpperCase().trim();
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
 
   const res = await makeRequest(endpoint, {
     method: 'POST',
     headers: {
       'X-Family-Code': code,
-      'X-Sender-Role': 'PARENT'
+      'X-Sender-Role': 'PARENT',
+      ...(config.adminToken ? { 'X-Admin-Token': config.adminToken } : {})
     }
   }, {
     familyCode: code,
@@ -145,14 +148,15 @@ async function restoreFamilyData(overrideCode = null) {
  */
 async function sendNotification(overrideCode, messagePayload) {
   const config = loadConfig();
-  const code = (overrideCode || messagePayload.familyCode || config.familyCode || 'ST-2026').toUpperCase().trim();
+  const code = (overrideCode || messagePayload.familyCode || config.familyCode || '').toUpperCase().trim();
   const endpoint = `${config.workerUrl}/api/messages`;
 
   return await makeRequest(endpoint, {
     method: 'POST',
     headers: {
       'X-Family-Code': code,
-      'X-Sender-Role': messagePayload.senderRole || 'PARENT'
+      'X-Sender-Role': messagePayload.senderRole || 'PARENT',
+      ...(config.adminToken ? { 'X-Admin-Token': config.adminToken } : {})
     }
   }, {
     familyCode: code,

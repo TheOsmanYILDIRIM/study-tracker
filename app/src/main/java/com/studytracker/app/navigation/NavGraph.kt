@@ -29,7 +29,7 @@ fun AppNavGraph(
     val startDestination = remember {
         when (BuildConfig.APP_ROLE) {
             "CHILD" -> if (prefs.hasCompletedTutorial.value) Screen.ChildHome.route else Screen.ChildTutorial.route
-            "PARENT" -> Screen.ParentDashboard.route
+            "PARENT" -> Screen.RoleSelection.route
             else -> Screen.RoleSelection.route
         }
     }
