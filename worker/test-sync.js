@@ -505,7 +505,83 @@ async function runTest() {
   if (storedSess.updatedAt !== 400 || storedSess.isCompleted !== true) {
     throw new Error('Newer session (updatedAt=400) kabul edilmedi!');
   }
-  console.log('   ✅ KV End-to-End: Güncel session (updatedAt=400) başarıyla kabul edildi.\n');
+  // 4. Görev 5A: Parent Authoritative Lost-Update Reproduction Test (Without Revision CAS)
+  console.log('1️⃣4️⃣ Görev 5A: Parent Authoritative Lost-Update Reproduction Test (CAS Yokluğu Kanıtı)...');
+  const lostUpCode = 'ST-REV1-2026-TEST-1001';
+  const lostUpPair = await mockFetch('POST', '/api/pair', { familyCode: lostUpCode });
+  const lostUpAdminToken = lostUpPair.data.adminToken;
+  if (!lostUpAdminToken) throw new Error('lostUpAdminToken oluşturulamadı!');
+
+  // 1. Initial Plan (title = ORIGINAL)
+  const initialPlanPayload = {
+    familyCode: lostUpCode,
+    plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'ORIGINAL' },
+    tasks: [{ taskId: 'task_orig', title: 'ORIGINAL', plannedMinutes: 30 }],
+    occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'ORIGINAL', targetDurationMin: 30 }]
+  };
+  const initRes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, initialPlanPayload, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': lostUpAdminToken
+  });
+  if (!initRes.ok) throw new Error(`Initial plan yükleme başarısız: ${JSON.stringify(initRes.data)}`);
+
+  // 2. GET baseRevision
+  const baseSync = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
+  const baseRevision = Number(baseSync.revision || baseSync.meta?.revision || 0);
+  const baseTitle = baseSync.plan?.title || baseSync.occurrences?.[0]?.subject;
+  console.log(`   Base snapshot alındı (revision=${baseRevision}, planTitle='${baseTitle}')`);
+
+  // 3. Parent A ve Parent B aynı baseRevision snapshot'ına sahip (baseRevision=2, pair sonrası 1, plan sonrası 2)
+  // 4. Parent A: title = PARENT_A_NEW yazar
+  const parentAPayload = {
+    familyCode: lostUpCode,
+    plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_A_NEW' },
+    tasks: [{ taskId: 'task_orig', title: 'PARENT_A_NEW', plannedMinutes: 40 }],
+    occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_A_NEW', targetDurationMin: 40 }]
+  };
+  const parentARes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, parentAPayload, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': lostUpAdminToken
+  });
+  if (!parentARes.ok) throw new Error(`Parent A yazması başarısız: ${JSON.stringify(parentARes.data)}`);
+
+  // 5. GET: A değişikliğinin mevcut olduğunu ve revision'ın ilerlediğini doğrula
+  const syncAfterA = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
+  const revisionAfterA = Number(syncAfterA.revision || syncAfterA.meta?.revision || 0);
+  const titleAfterA = syncAfterA.plan?.title || syncAfterA.occurrences?.[0]?.subject;
+  if (titleAfterA !== 'PARENT_A_NEW' || revisionAfterA <= baseRevision) {
+    throw new Error(`Parent A doğrulaması başarısız: title=${titleAfterA}, revision=${revisionAfterA}`);
+  }
+  console.log(`   Parent A planı yazdı (revision=${revisionAfterA}, title='${titleAfterA}')`);
+
+  // 6. Parent B: A'yı hiç görmemiş stale snapshot ile (title = PARENT_B_STALE) yazar
+  const parentBStalePayload = {
+    familyCode: lostUpCode,
+    plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_B_STALE' },
+    tasks: [{ taskId: 'task_orig', title: 'PARENT_B_STALE', plannedMinutes: 20 }],
+    occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_B_STALE', targetDurationMin: 20 }]
+  };
+  const parentBRes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, parentBStalePayload, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': lostUpAdminToken
+  });
+  if (!parentBRes.ok) throw new Error(`Parent B yazması beklenmedik şekilde reddedildi: ${JSON.stringify(parentBRes.data)}`);
+
+  // 7. GET: Mevcut bug nedeniyle stale Parent B write kabul edildi ve PARENT_A_NEW sessizce kayboldu (Lost Update)
+  const finalSync = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
+  const finalRevision = Number(finalSync.revision || finalSync.meta?.revision || 0);
+  const finalTitle = finalSync.plan?.title || finalSync.occurrences?.[0]?.subject;
+
+  if (finalTitle !== 'PARENT_B_STALE') {
+    throw new Error(`Beklenen bug davranışı (PARENT_B_STALE) gerçekleşmedi! finalTitle=${finalTitle}`);
+  }
+  if (finalRevision <= revisionAfterA) {
+    throw new Error(`Revision sayacı ilerlemedi: finalRevision=${finalRevision}`);
+  }
+
+  console.log(`   🚨 BUG KANITI (Lost-Update): Stale Parent B write kabul edildi (finalTitle='${finalTitle}', revision=${finalRevision})`);
+  console.log(`   🚨 Parent A'nın ('PARENT_A_NEW') değişikliği CAS kontrolü olmadığı için sessizce EZİLDİ ve KAYBOLDU.`);
+  console.log('   ✅ Görev 5A lost-update bug reproduksiyonu başarıyla kanıtlandı.\n');
 
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
