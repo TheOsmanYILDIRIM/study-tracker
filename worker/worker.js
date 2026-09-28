@@ -134,21 +134,52 @@ function normalizeTask(t) {
 
 function normalizeSession(s) {
   if (!s) return null;
+  const startTime = Number(s.startTime ?? s.start_time ?? 0) || 0;
+  const rawEnd = (s.endTime !== undefined && s.endTime !== null) ? Number(s.endTime) : ((s.end_time !== undefined && s.end_time !== null) ? Number(s.end_time) : null);
+  const endTime = (rawEnd !== null && !isNaN(rawEnd) && rawEnd > 0) ? rawEnd : null;
+
+  let updatedAt = 0;
+  if (s.updatedAt !== undefined && s.updatedAt !== null && !isNaN(Number(s.updatedAt))) {
+    updatedAt = Number(s.updatedAt);
+  } else if (s.updated_at !== undefined && s.updated_at !== null && !isNaN(Number(s.updated_at))) {
+    updatedAt = Number(s.updated_at);
+  } else if (endTime && endTime > 0) {
+    updatedAt = endTime;
+  } else if (startTime > 0) {
+    updatedAt = startTime;
+  }
+
   return {
     id: s.id || s.sessionId || `sess_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
     sessionId: s.id || s.sessionId || `sess_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
     familyCode: s.familyCode || s.family_code || '',
     occurrenceId: s.occurrenceId || s.occurrence_id || s.occurrenceKey || '',
     occurrenceKey: s.occurrenceId || s.occurrence_id || s.occurrenceKey || '',
-    startTime: Number(s.startTime ?? s.start_time ?? 0),
-    endTime: (s.endTime !== undefined && s.endTime !== null) ? Number(s.endTime) : ((s.end_time !== undefined && s.end_time !== null) ? Number(s.end_time) : null),
-    durationMin: Number(s.durationMin ?? s.duration_min ?? 0),
-    activeDurationSeconds: Number(s.activeDurationSeconds ?? s.active_duration_seconds ?? ((s.durationMin ?? s.duration_min ?? 0) * 60)),
+    startTime,
+    endTime,
+    durationMin: Number(s.durationMin ?? s.duration_min ?? 0) || 0,
+    activeDurationSeconds: Number(s.activeDurationSeconds ?? s.active_duration_seconds ?? ((s.durationMin ?? s.duration_min ?? 0) * 60)) || 0,
     isCompleted: Boolean(s.isCompleted ?? s.is_completed ?? false),
     notes: s.notes || s.studentNote || '',
     studentNote: s.notes || s.studentNote || '',
-    updatedAt: Number(s.updatedAt ?? s.updated_at ?? Date.now())
+    updatedAt: isNaN(updatedAt) ? 0 : updatedAt
   };
+}
+
+function shouldReplaceSession(old, incoming) {
+  if (!old) return true;
+  const oldUp = Number(old.updatedAt || 0);
+  const incUp = Number(incoming.updatedAt || 0);
+
+  if (incUp > oldUp) return true;
+  if (incUp < oldUp) return false;
+
+  // Timestamps are equal (tie-breaker on completion advancement)
+  const oldCompleted = Boolean(old.isCompleted);
+  const incCompleted = Boolean(incoming.isCompleted);
+
+  if (!oldCompleted && incCompleted) return true;
+  return false;
 }
 
 function normalizeReview(r) {
@@ -626,7 +657,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     }
   }
 
-  // Sessions: true upsert so ACTIVE -> completed updates are not lost.
+  // Sessions: true upsert with deterministic timestamp authority and tie-breaker.
   if (!isStaleChildAfterReset && Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
     let list = (await getKV(env, `${prefix}sessions`)) || [];
     const byId = new Map(list.map(s => [s.id, s]));
@@ -634,7 +665,9 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
       const v = normalizeSession(raw);
       if (!v) continue;
       const old = byId.get(v.id);
-      if (!old || Number(v.updatedAt || 0) >= Number(old.updatedAt || 0) || (v.isCompleted && !old.isCompleted)) byId.set(v.id, { ...old, ...v });
+      if (shouldReplaceSession(old, v)) {
+        byId.set(v.id, { ...(old || {}), ...v });
+      }
     }
     list = Array.from(byId.values()).sort((a, b) => Number(a.updatedAt || 0) - Number(b.updatedAt || 0)).slice(-200);
     await putKV(env, `${prefix}sessions`, list);
@@ -1036,3 +1069,5 @@ async function handleMessages(request, env, familyCode, role, url) {
 
   return error('Method not allowed', 405);
 }
+
+export { normalizeSession, shouldReplaceSession };

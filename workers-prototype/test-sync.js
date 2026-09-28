@@ -3,7 +3,7 @@
  * Tests both v1 unified sync and v2 granular segregated KV architecture.
  */
 
-import worker from './worker.js';
+import worker, { normalizeSession, shouldReplaceSession } from './worker.js';
 
 async function mockFetch(method, path, body = null, headers = {}) {
   const url = `https://studytracker-sync.workers.dev${path}`;
@@ -414,6 +414,98 @@ async function runTest() {
   if ((syncAfterStaleWipe.occurrences || []).length !== 0) throw new Error('Wipe sonrası occurrences geri oluştu!');
   if ((syncAfterStaleWipe.sessions || []).length !== 0) throw new Error('Wipe sonrası sessions geri oluştu!');
   console.log('   ✅ WIPE sonrası stale child gönderimi silinen plan ve oturumları diriltemedi.\n');
+
+  // Adım 13: Görev 4C1 - Session Winner & Legacy Timestamp Fallback Testleri
+  console.log('1️⃣3️⃣ Görev 4C1: Session Winner & Legacy Timestamp Fallback Testleri...');
+
+  // 1. normalizeSession Legacy Timestamp Fallbacks
+  const normA = normalizeSession({ id: 's1', updatedAt: 500, startTime: 100, endTime: 400 });
+  if (normA.updatedAt !== 500) throw new Error(`normalizeSession A failed: expected 500 got ${normA.updatedAt}`);
+
+  const normB = normalizeSession({ id: 's2', startTime: 100, endTime: 400 });
+  if (normB.updatedAt !== 400) throw new Error(`normalizeSession B failed: expected 400 got ${normB.updatedAt}`);
+
+  const normC = normalizeSession({ id: 's3', startTime: 100, endTime: null });
+  if (normC.updatedAt !== 100) throw new Error(`normalizeSession C failed: expected 100 got ${normC.updatedAt}`);
+
+  const normD = normalizeSession({ id: 's4' });
+  if (normD.updatedAt !== 0) throw new Error(`normalizeSession D failed: expected 0 got ${normD.updatedAt}`);
+
+  // 2. Pure shouldReplaceSession Test Cases (A - F)
+  // CASE A: Normal progression
+  if (!shouldReplaceSession({ updatedAt: 100, isCompleted: false }, { updatedAt: 200, isCompleted: true })) {
+    throw new Error('CASE A failed: newer timestamp must win');
+  }
+
+  // CASE B: Critical stale completion (stale completed must NOT overwrite newer active)
+  if (shouldReplaceSession({ updatedAt: 300, isCompleted: false }, { updatedAt: 100, isCompleted: true })) {
+    throw new Error('CASE B failed: stale completed must NOT overwrite newer active');
+  }
+
+  // CASE C: Stale active
+  if (shouldReplaceSession({ updatedAt: 300, isCompleted: true }, { updatedAt: 100, isCompleted: false })) {
+    throw new Error('CASE C failed: stale active must NOT overwrite newer completed');
+  }
+
+  // CASE D: Equal timestamp completion advancement
+  if (!shouldReplaceSession({ updatedAt: 200, isCompleted: false }, { updatedAt: 200, isCompleted: true })) {
+    throw new Error('CASE D failed: equal timestamp completion advancement must win');
+  }
+
+  // CASE E: Equal timestamp regression
+  if (shouldReplaceSession({ updatedAt: 200, isCompleted: true }, { updatedAt: 200, isCompleted: false })) {
+    throw new Error('CASE E failed: equal timestamp regression must be rejected');
+  }
+
+  // CASE F: Same timestamp / same state
+  if (shouldReplaceSession({ updatedAt: 200, isCompleted: true }, { updatedAt: 200, isCompleted: true })) {
+    throw new Error('CASE F failed: identical timestamp & state should not replace');
+  }
+
+  console.log('   ✅ normalizeSession ve shouldReplaceSession pure unit testleri (CASE A-F) başarılı.');
+
+  // 3. Gerçek KV End-to-End Stale Session Testi
+  const sessTestCode = 'ST-TEST-2026-SESS-9988';
+  const sessPair = await mockFetch('POST', '/api/pair', { familyCode: sessTestCode });
+  const sessAdminToken = sessPair.data.adminToken;
+
+  // 1. Initial session: updatedAt=300, isCompleted=false
+  await mockFetch('POST', `/api/sync?code=${sessTestCode}`, {
+    senderRole: 'CHILD',
+    sessions: [{ id: 'sess_stale_test', occurrenceId: 'occ_test', durationMin: 10, isCompleted: false, updatedAt: 300 }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  let sessSync1 = (await mockFetch('GET', `/api/v2/sync?code=${sessTestCode}`)).data;
+  let storedSess = sessSync1.sessions?.find(s => s.id === 'sess_stale_test');
+  if (!storedSess || storedSess.updatedAt !== 300 || storedSess.isCompleted !== false) {
+    throw new Error('Initial session kaydedilemedi!');
+  }
+
+  // 2. Stale incoming: updatedAt=100, isCompleted=true
+  await mockFetch('POST', `/api/sync?code=${sessTestCode}`, {
+    senderRole: 'CHILD',
+    sessions: [{ id: 'sess_stale_test', occurrenceId: 'occ_test', durationMin: 5, isCompleted: true, updatedAt: 100 }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  let sessSync2 = (await mockFetch('GET', `/api/v2/sync?code=${sessTestCode}`)).data;
+  storedSess = sessSync2.sessions?.find(s => s.id === 'sess_stale_test');
+  if (storedSess.updatedAt !== 300 || storedSess.isCompleted !== false) {
+    throw new Error('GÜVENLİK/STALE AÇIĞI: Stale completed session daha yeni server session kaydını ezdi!');
+  }
+  console.log('   ✅ KV End-to-End: Stale completed session (updatedAt=100) server kaydını (updatedAt=300) ezemedi.');
+
+  // 3. Newer incoming: updatedAt=400, isCompleted=true
+  await mockFetch('POST', `/api/sync?code=${sessTestCode}`, {
+    senderRole: 'CHILD',
+    sessions: [{ id: 'sess_stale_test', occurrenceId: 'occ_test', durationMin: 20, isCompleted: true, updatedAt: 400 }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  let sessSync3 = (await mockFetch('GET', `/api/v2/sync?code=${sessTestCode}`)).data;
+  storedSess = sessSync3.sessions?.find(s => s.id === 'sess_stale_test');
+  if (storedSess.updatedAt !== 400 || storedSess.isCompleted !== true) {
+    throw new Error('Newer session (updatedAt=400) kabul edilmedi!');
+  }
+  console.log('   ✅ KV End-to-End: Güncel session (updatedAt=400) başarıyla kabul edildi.\n');
 
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
