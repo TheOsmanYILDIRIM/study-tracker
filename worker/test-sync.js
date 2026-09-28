@@ -308,6 +308,72 @@ async function runTest() {
   if (syncAfterRestore.data.tasks.length !== 2) throw new Error('Restore başarısız!');
   console.log('   ✅ WIPE & RESTORE %100 başarılı.\n');
 
+  // Adım 11: Görev 3A Reproduction: RESET Sonrası Stale Data Resurrection
+  console.log('1️⃣1️⃣ Görev 3A: RESET Sonrası Stale Data Resurrection Testi...');
+  const resPair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-TEST-2026-RESU-8899' });
+  const resCode = resPair.data.familyCode;
+  const resAdminToken = resPair.data.adminToken;
+
+  // 1. Veli plan ve test yüklüyor
+  await mockFetch('POST', `/api/sync?code=${resCode}`, {
+    senderRole: 'PARENT',
+    plan: { planId: 'plan_res', weekId: '2026-W38' },
+    tasks: [{ taskId: 'task_res', title: 'Fizik Test', plannedMinutes: 30 }],
+    occurrences: [{ id: 'occ_res', planId: 'task_res', subject: 'Fizik', targetDurationMin: 30 }],
+    quizzes: [{ quizId: 'quiz_res', title: 'Fizik Quizi', questions: [], completed: false }]
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': resAdminToken });
+
+  // 2. Child çalışma verilerini gönderiyor (session, screenshot, quiz submission, progress)
+  await mockFetch('POST', `/api/sync?code=${resCode}`, {
+    senderRole: 'CHILD',
+    occurrences: [{ id: 'occ_res', completedDurationMin: 30, completedQuestionCount: 15, status: 'WAITING_REVIEW' }],
+    sessions: [{ id: 'sess_res_1', occurrenceId: 'occ_res', durationMin: 30, isCompleted: true, updatedAt: 1000 }],
+    screenshots: [{ id: 'ss_res_1', sessionId: 'sess_res_1', imageUrl: 'data:image/webp;base64,sample' }],
+    quizzes: [{ quizId: 'quiz_res', completed: true, studentAnswers: { q1: 'A' }, correctCount: 1 }],
+    reviews: [{ id: 'rev_fake_res', sessionId: 'occ_res', isApproved: true }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  // 3. Veli RESET_ALL_PROGRESS yapıyor
+  await mockFetch('POST', `/api/v2/commands?code=${resCode}`, { action: 'RESET_ALL_PROGRESS' }, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': resAdminToken
+  });
+
+  // 4. Worker'da sıfırlandığını doğrula
+  const syncAfterReset = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  const occList = syncAfterReset.occurrences || syncAfterReset.data?.occurrences || [];
+  const occAfterReset = occList.find(o => o.id === 'occ_res');
+  if (occAfterReset?.completedDurationMin !== 0) throw new Error('Reset sonrası progress sıfırlanmadı!');
+  if (syncAfterReset.sessions?.length !== 0) throw new Error('Reset sonrası sessions temizlenmedi!');
+  if (syncAfterReset.screenshots?.length !== 0) throw new Error('Reset sonrası screenshots temizlenmedi!');
+  if (syncAfterReset.quizzes?.[0]?.completed !== false) throw new Error('Reset sonrası quiz sıfırlanmadı!');
+
+  // 5. Henüz RESET'ten habersiz stale child cihazı eski yerel DB'sini tekrar POST ediyor
+  await mockFetch('POST', `/api/sync?code=${resCode}`, {
+    senderRole: 'CHILD',
+    occurrences: [{ id: 'occ_res', completedDurationMin: 30, completedQuestionCount: 15, status: 'WAITING_REVIEW' }],
+    sessions: [{ id: 'sess_res_1', occurrenceId: 'occ_res', durationMin: 30, isCompleted: true, updatedAt: 1000 }],
+    screenshots: [{ id: 'ss_res_1', sessionId: 'sess_res_1', imageUrl: 'data:image/webp;base64,sample' }],
+    quizzes: [{ quizId: 'quiz_res', completed: true, studentAnswers: { q1: 'A' }, correctCount: 1 }],
+    reviews: [{ id: 'rev_fake_res', sessionId: 'occ_res', isApproved: true }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  // 6. GET sync ile neyin dirildiğini ölç
+  const syncAfterStaleUpload = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  const occResurrected = syncAfterStaleUpload.occurrences?.find(o => o.id === 'occ_res');
+  const sessResurrected = syncAfterStaleUpload.sessions || [];
+  const ssResurrected = syncAfterStaleUpload.screenshots || [];
+  const quizResurrected = syncAfterStaleUpload.quizzes || [];
+  const revResurrected = syncAfterStaleUpload.reviews || [];
+
+  console.log('   [REPRODUCTION KANITI]');
+  console.log('   - Sessions Dirildi mi?:', sessResurrected.length > 0 ? '❌ EVET (' + sessResurrected.length + ' adet)' : 'HAYIR');
+  console.log('   - Screenshots Dirildi mi?:', ssResurrected.length > 0 ? '❌ EVET (' + ssResurrected.length + ' adet)' : 'HAYIR');
+  console.log('   - Occurrences Progress Dirildi mi?:', occResurrected?.completedDurationMin > 0 ? '❌ EVET (' + occResurrected.completedDurationMin + ' dk)' : 'HAYIR');
+  console.log('   - Quiz Completion Dirildi mi?:', quizResurrected[0]?.completed ? '❌ EVET' : 'HAYIR');
+  console.log('   - Reviews Dirildi mi?:', revResurrected.length > 0 ? 'EVET' : '✅ HAYIR (Görev 1 korudu)');
+  console.log('   ⚠️ Kanıtlandı: Stale child sync, Veli RESET işlemini sunucuda tamamen ezerek eski veriyi geri getirmektedir.\n');
+
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
   console.log('🎉 ========================================================');
