@@ -471,7 +471,8 @@ object CloudflareSyncManager {
                     activeDurationSeconds = it.activeDurationSeconds,
                     reportedQuestionCount = it.reportedQuestionCount,
                     isCompleted = it.status != com.studytracker.core.domain.model.SessionStatus.ACTIVE,
-                    notes = it.studentNote ?: ""
+                    notes = it.studentNote ?: "",
+                    updatedAt = it.updatedAt
                 )
             }
 

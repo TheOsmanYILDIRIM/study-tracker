@@ -296,6 +296,13 @@ class StudySyncProvider : ContentProvider() {
                     else -> existing?.status ?: SessionStatus.ACTIVE
                 }
 
+                val resolvedUpdatedAt = when {
+                    rs.updatedAt > 0L -> rs.updatedAt
+                    (existing?.updatedAt ?: 0L) > 0L -> existing!!.updatedAt
+                    (rs.endTime ?: 0L) > 0L -> rs.endTime!!
+                    else -> rs.startTime
+                }
+
                 db.sessionDao().upsertSession(
                     SessionEntity(
                         sessionId = rs.id,
@@ -308,7 +315,8 @@ class StudySyncProvider : ContentProvider() {
                         activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: rs.durationMin * 60L),
                         reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                         finalScreenshotUrl = existing?.finalScreenshotUrl,
-                        studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
+                        studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote,
+                        updatedAt = resolvedUpdatedAt
                     )
                 )
             }
@@ -486,7 +494,8 @@ class StudySyncProvider : ContentProvider() {
                 activeDurationSeconds = it.activeDurationSeconds,
                 reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
-                notes = it.studentNote ?: ""
+                notes = it.studentNote ?: "",
+                updatedAt = it.updatedAt
             )
         }
 

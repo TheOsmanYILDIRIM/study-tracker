@@ -371,14 +371,14 @@ fun Session.toEntity() = SessionEntity(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
     screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, reportedQuestionCount = reportedQuestionCount, finalScreenshotUrl = finalScreenshotUrl,
-    studentNote = studentNote
+    studentNote = studentNote, updatedAt = updatedAt
 )
 
 fun SessionEntity.toDomain() = Session(
     sessionId = sessionId, occurrenceKey = occurrenceKey, childId = childId,
     startTime = startTime, endTime = endTime, status = status,
     screenshotCount = screenshotCount, activeDurationSeconds = activeDurationSeconds, reportedQuestionCount = reportedQuestionCount, finalScreenshotUrl = finalScreenshotUrl,
-    studentNote = studentNote
+    studentNote = studentNote, updatedAt = updatedAt
 )
 
 fun Screenshot.toEntity() = ScreenshotEntity(

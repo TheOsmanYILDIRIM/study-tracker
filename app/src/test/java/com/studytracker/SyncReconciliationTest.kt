@@ -1,7 +1,11 @@
 package com.studytracker
 
 import com.studytracker.core.data.remote.sync.*
+import com.studytracker.core.data.local.db.entity.SessionEntity
+import com.studytracker.core.data.local.repository.toDomain
+import com.studytracker.core.data.local.repository.toEntity
 import com.studytracker.core.domain.model.OccurrenceStatus
+import com.studytracker.core.domain.model.Session
 import com.studytracker.core.domain.model.TaskKind
 import org.junit.Assert.*
 import org.junit.Test
@@ -209,5 +213,66 @@ class SyncReconciliationTest {
             clientLastResetAt = localResetAt
         )
         assertEquals(serverResetAt, childPayload.clientLastResetAt)
+    }
+
+    @Test
+    fun `session domain and entity mapper preserves updatedAt round trip`() {
+        val originalSession = Session(
+            sessionId = "sess_test_123",
+            occurrenceKey = "occ_math_1",
+            childId = "child_1",
+            startTime = 1727500000000L,
+            endTime = 1727501800000L,
+            updatedAt = 1727501850000L
+        )
+
+        val entity = originalSession.toEntity()
+        assertEquals(1727501850000L, entity.updatedAt)
+
+        val mappedBack = entity.toDomain()
+        assertEquals(1727501850000L, mappedBack.updatedAt)
+        assertEquals(originalSession, mappedBack)
+    }
+
+    @Test
+    fun `remote session sync dto default updatedAt is 0L and preserves explicit value`() {
+        val defaultDto = RemoteSessionSyncDto(
+            id = "sess_01",
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            occurrenceId = "occ_01"
+        )
+        assertEquals(0L, defaultDto.updatedAt)
+
+        val explicitDto = RemoteSessionSyncDto(
+            id = "sess_02",
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            occurrenceId = "occ_02",
+            updatedAt = 1727509999000L
+        )
+        assertEquals(1727509999000L, explicitDto.updatedAt)
+    }
+
+    @Test
+    fun `import session updatedAt fallback resolves correctly across legacy and current payloads`() {
+        fun resolveUpdatedAt(remoteUpdatedAt: Long, existingUpdatedAt: Long, remoteEndTime: Long?, remoteStartTime: Long): Long {
+            return when {
+                remoteUpdatedAt > 0L -> remoteUpdatedAt
+                existingUpdatedAt > 0L -> existingUpdatedAt
+                (remoteEndTime ?: 0L) > 0L -> remoteEndTime!!
+                else -> remoteStartTime
+            }
+        }
+
+        // Case 1: remote has valid updatedAt
+        assertEquals(5000L, resolveUpdatedAt(5000L, 0L, 3000L, 1000L))
+
+        // Case 2: legacy remote (updatedAt=0) with existing local session
+        assertEquals(4000L, resolveUpdatedAt(0L, 4000L, 3000L, 1000L))
+
+        // Case 3: legacy remote (updatedAt=0), no existing local, has endTime
+        assertEquals(3000L, resolveUpdatedAt(0L, 0L, 3000L, 1000L))
+
+        // Case 4: legacy remote (updatedAt=0), no existing local, no endTime (active session)
+        assertEquals(1000L, resolveUpdatedAt(0L, 0L, null, 1000L))
     }
 }

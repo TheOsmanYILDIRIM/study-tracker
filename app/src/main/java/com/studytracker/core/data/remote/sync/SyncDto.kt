@@ -46,7 +46,7 @@ data class RemoteSessionSyncDto(
     val reportedQuestionCount: Int = 0,
     val isCompleted: Boolean = false,
     val notes: String = "",
-    val updatedAt: Long = System.currentTimeMillis()
+    val updatedAt: Long = 0L
 )
 
 @Serializable
