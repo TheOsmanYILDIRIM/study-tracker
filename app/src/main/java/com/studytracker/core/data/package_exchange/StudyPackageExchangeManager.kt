@@ -605,6 +605,8 @@ object StudyPackageExchangeManager {
                             endTime = rs.endTime ?: existing?.endTime,
                             status = resolvedStatus,
                             screenshotCount = existing?.screenshotCount ?: 1,
+                            activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: (rs.durationMin * 60L)),
+                            reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                             finalScreenshotUrl = existing?.finalScreenshotUrl,
                             studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                         )

@@ -110,4 +110,55 @@ class StudyPackageExchangeTest {
         assertEquals(1, decoded.sessions.size)
         assertTrue(decoded.sessions.first().isCompleted)
     }
+
+    @Test
+    fun `structured question metrics and active duration roundtrip cleanly in exchange package`() {
+        val occ = RemoteOccurrenceSyncDto(
+            id = "occ_turkce_1",
+            familyCode = "ST-TEST-1234-5678-9012",
+            date = "2026-09-28",
+            planId = "task_turkce",
+            subject = "Türkçe - Paragraf",
+            topic = "DAILY",
+            targetDurationMin = 30,
+            targetQuestionCount = 20,
+            completedDurationMin = 28,
+            completedQuestionCount = 18,
+            approvedCount = 1,
+            status = "APPROVED"
+        )
+
+        val session = RemoteSessionSyncDto(
+            id = "sess_turkce_01",
+            familyCode = "ST-TEST-1234-5678-9012",
+            occurrenceId = "occ_turkce_1",
+            startTime = 1720000000000L,
+            endTime = 1720001800000L,
+            durationMin = 28,
+            activeDurationSeconds = 1680L,
+            reportedQuestionCount = 18,
+            isCompleted = true
+        )
+
+        val pkg = StudyTrackerPackage(
+            formatVersion = 1,
+            packageType = PackageType.STUDY_REPORT,
+            familyCode = "ST-TEST-1234-5678-9012",
+            senderRole = "CHILD",
+            occurrences = listOf(occ),
+            sessions = listOf(session)
+        )
+
+        val jsonStr = json.encodeToString(pkg)
+        val decoded = json.decodeFromString<StudyTrackerPackage>(jsonStr)
+
+        val decodedOcc = decoded.occurrences.first()
+        assertEquals(18, decodedOcc.completedQuestionCount)
+        assertEquals(1, decodedOcc.approvedCount)
+        assertEquals(20, decodedOcc.targetQuestionCount)
+
+        val decodedSession = decoded.sessions.first()
+        assertEquals(1680L, decodedSession.activeDurationSeconds)
+        assertEquals(18, decodedSession.reportedQuestionCount)
+    }
 }

@@ -79,7 +79,7 @@ function generateFamilyCode() {
 }
 
 function isValidFamilyCode(code) {
-  return /^ST-[A-Z0-9]{4}(?:-[A-Z0-9]{4}){0,7}$/.test(code);
+  return /^ST-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(code);
 }
 
 function isParentRole(role) {
@@ -143,6 +143,7 @@ function normalizeSession(s) {
     startTime: Number(s.startTime ?? s.start_time ?? 0),
     endTime: (s.endTime !== undefined && s.endTime !== null) ? Number(s.endTime) : ((s.end_time !== undefined && s.end_time !== null) ? Number(s.end_time) : null),
     durationMin: Number(s.durationMin ?? s.duration_min ?? 0),
+    activeDurationSeconds: Number(s.activeDurationSeconds ?? s.active_duration_seconds ?? ((s.durationMin ?? s.duration_min ?? 0) * 60)),
     isCompleted: Boolean(s.isCompleted ?? s.is_completed ?? false),
     notes: s.notes || s.studentNote || '',
     studentNote: s.notes || s.studentNote || '',
@@ -229,6 +230,7 @@ export default {
         version: '3.0-hardened',
         engine: 'StudyTracker Multi-tenant Sharded Sync Engine',
         storageConfigured: Boolean(env?.STUDY_SYNC_KV) || isLocalTest(env),
+        revision: env?.BUILD_REVISION || 'unknown',
         timestamp: Date.now()
       });
     }
@@ -596,11 +598,8 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
         if (occ.studentNote !== undefined) prog.studentNote = occ.studentNote;
         if (occ.status === 'WAITING_REVIEW') prog.status = 'WAITING_REVIEW';
       } else if (isAdminOrParent) {
-        if (occ.status === 'APPROVED' || occ.status === 'REJECTED') {
-          prog.status = occ.status;
-        } else if (!(prog.status === 'WAITING_REVIEW' && occ.status === 'PENDING') && occ.status) {
-          prog.status = occ.status;
-        }
+        // Parent occurrence snapshots can be stale. Status authority comes from reviews/commands,
+        // not from a bulk plan snapshot.
         if (occ.completedDurationMin !== undefined || occ.completedMin !== undefined) {
           prog.completedMin = Math.max(prog.completedMin || 0, Number(occ.completedDurationMin ?? occ.completedMin ?? 0));
         }
@@ -648,12 +647,27 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
     let list = (await getKV(env, `${prefix}reviews`)) || [];
     const byId = new Map(list.map(r => [r.id || r.sessionId, r]));
+    const sessionMap = new Map((incoming.sessions || []).map(s => [s.id || s.sessionId, s.occurrenceId || s.occurrenceKey]));
     for (const raw of incoming.reviews) {
       const v = normalizeReview(raw);
       if (!v) continue;
       const key = v.id || v.sessionId;
       const old = byId.get(key);
-      if (!old || Number(v.reviewedAt || 0) >= Number(old.reviewedAt || 0)) byId.set(key, v);
+      if (!old || Number(v.reviewedAt || 0) >= Number(old.reviewedAt || 0)) {
+        byId.set(key, v);
+        const targetId = v.occurrenceKey || sessionMap.get(v.sessionId) || v.sessionId;
+        if (targetId) {
+          const progKey = `${prefix}progress:${targetId}`;
+          const prog = (await getKV(env, progKey)) || { taskId: targetId, completedMin: 0, completedQuestions: 0, history: [] };
+          prog.status = v.isApproved ? 'APPROVED' : 'REJECTED';
+          prog.feedbackNote = v.feedbackNote || v.rejectionReason || '';
+          prog.rejectionReason = v.isApproved ? null : (v.rejectionReason || v.feedbackNote || '');
+          prog.parentRating = v.parentRating;
+          prog.reviewedAt = v.reviewedAt;
+          prog.updatedAt = Date.now();
+          await putKV(env, progKey, prog);
+        }
+      }
     }
     list = Array.from(byId.values()).sort((a, b) => Number(a.reviewedAt || 0) - Number(b.reviewedAt || 0)).slice(-200);
     await putKV(env, `${prefix}reviews`, list);
@@ -665,8 +679,23 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     for (const q of incoming.quizzes) {
       if (!q?.quizId) continue;
       const old = byId.get(q.quizId);
-      if (old?.completed && !q.completed) byId.set(q.quizId, old);
-      else byId.set(q.quizId, { ...(old || {}), ...q });
+      if (senderRole === 'CHILD' && old) {
+        byId.set(q.quizId, {
+          ...old,
+          completed: Boolean(q.completed),
+          submittedAt: q.submittedAt ?? old.submittedAt,
+          studentAnswers: q.studentAnswers || old.studentAnswers || {},
+          studentDurationSeconds: Number(q.studentDurationSeconds || 0),
+          correctCount: Number(q.correctCount || 0),
+          wrongCount: Number(q.wrongCount || 0),
+          emptyCount: Number(q.emptyCount || 0),
+          studentNote: q.studentNote ?? old.studentNote ?? null
+        });
+      } else if (old?.completed && !q.completed) {
+        byId.set(q.quizId, old);
+      } else {
+        byId.set(q.quizId, { ...(old || {}), ...q });
+      }
     }
     await putKV(env, `${prefix}quizzes`, Array.from(byId.values()).slice(-100));
   }

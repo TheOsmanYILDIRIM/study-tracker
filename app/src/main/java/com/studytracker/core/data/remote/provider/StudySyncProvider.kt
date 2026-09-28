@@ -277,6 +277,7 @@ class StudySyncProvider : ContentProvider() {
                     approvedCount = approvedCount,
                     targetCount = targetCount,
                     targetMinutes = local?.targetMinutes,
+                    completedQuestionCount = maxOf(local?.completedQuestionCount ?: 0, remote.completedQuestionCount),
                     studentNote = remote.studentNote ?: local?.studentNote
                 )
             }
@@ -305,6 +306,7 @@ class StudySyncProvider : ContentProvider() {
                         status = resolvedStatus,
                         screenshotCount = existing?.screenshotCount ?: 1,
                         activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: rs.durationMin * 60L),
+                        reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                         finalScreenshotUrl = existing?.finalScreenshotUrl,
                         studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
                     )
@@ -451,10 +453,6 @@ class StudySyncProvider : ContentProvider() {
             .mapValues { (_, list) ->
                 list.sumOf { (it.activeDurationSeconds / 60L).toInt().coerceAtLeast(0) }
             }
-        fun reportedQuestionCount(note: String?): Int =
-            Regex("""🎯\s*(\d+)\s*Soru""", RegexOption.IGNORE_CASE)
-                .find(note.orEmpty())?.groupValues?.getOrNull(1)?.toIntOrNull() ?: 0
-
         val occurrences = db.occurrenceDao().getAllOccurrencesOnce().map {
             RemoteOccurrenceSyncDto(
                 id = it.occurrenceKey,
@@ -466,7 +464,7 @@ class StudySyncProvider : ContentProvider() {
                 targetDurationMin = it.plannedMinutes,
                 targetQuestionCount = it.targetCount ?: 0,
                 completedDurationMin = completedMinutes[it.occurrenceKey] ?: 0,
-                completedQuestionCount = reportedQuestionCount(it.studentNote),
+                completedQuestionCount = it.completedQuestionCount,
                 approvedCount = it.approvedCount,
                 status = it.status.name,
                 parentNote = it.warningText ?: "",
@@ -486,6 +484,7 @@ class StudySyncProvider : ContentProvider() {
                 endTime = it.endTime,
                 durationMin = (it.activeDurationSeconds / 60L).toInt(),
                 activeDurationSeconds = it.activeDurationSeconds,
+                reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
                 notes = it.studentNote ?: ""
             )

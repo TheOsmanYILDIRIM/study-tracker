@@ -191,5 +191,17 @@ class SimplePlanParserTest {
         assertEquals(7, plan?.tasks?.size)
         assertEquals(19, plan?.dailyOccurrences?.size)
         assertEquals(1, plan?.weeklyOccurrences?.size)
+
+        // Verify Friday and Saturday date mapping
+        val fridayOccurrences = plan?.dailyOccurrences?.filter { it.date == "2026-09-18" }
+        assertEquals(3, fridayOccurrences?.size) // mat, ingilizce, kitap on Friday
+        assertTrue(fridayOccurrences?.any { it.taskId == "mat" } == true)
+
+        val saturdayOccurrences = plan?.dailyOccurrences?.filter { it.date == "2026-09-19" }
+        assertEquals(3, saturdayOccurrences?.size) // fen, sosyal, kitap on Saturday
+        assertTrue(saturdayOccurrences?.any { it.taskId == "fen" } == true)
+
+        val sundayOccurrences = plan?.dailyOccurrences?.filter { it.date == "2026-09-20" }
+        assertEquals(1, sundayOccurrences?.size) // kitap on Sunday
     }
 }
