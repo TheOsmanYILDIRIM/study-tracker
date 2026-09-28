@@ -588,6 +588,25 @@ object StudyPackageExchangeManager {
                 // eventually-consistent cloud list must never delete a newer local session.
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
+                    val incomingTimestamp = SessionReconciliationHelper.resolveIncomingSessionTimestamp(
+                        updatedAt = rs.updatedAt,
+                        endTime = rs.endTime,
+                        startTime = rs.startTime
+                    )
+
+                    if (existing != null) {
+                        val existingCompleted = SessionReconciliationHelper.isSessionStatusCompleted(existing.status)
+                        val shouldApply = SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                            existingUpdatedAt = existing.updatedAt,
+                            incomingUpdatedAt = incomingTimestamp,
+                            existingCompleted = existingCompleted,
+                            incomingCompleted = rs.isCompleted
+                        )
+                        if (!shouldApply) {
+                            continue
+                        }
+                    }
+
                     val hasApprovedReview = pkg.reviews.any { it.sessionId == rs.id && it.isApproved }
                     val hasRejectedReview = pkg.reviews.any { it.sessionId == rs.id && !it.isApproved }
                     val resolvedStatus = when {
@@ -595,13 +614,6 @@ object StudyPackageExchangeManager {
                         hasRejectedReview || existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED
                         rs.isCompleted -> SessionStatus.WAITING_REVIEW
                         else -> existing?.status ?: SessionStatus.ACTIVE
-                    }
-
-                    val resolvedUpdatedAt = when {
-                        rs.updatedAt > 0L -> rs.updatedAt
-                        (existing?.updatedAt ?: 0L) > 0L -> existing!!.updatedAt
-                        (rs.endTime ?: 0L) > 0L -> rs.endTime!!
-                        else -> rs.startTime
                     }
 
                     db.sessionDao().upsertSession(
@@ -617,7 +629,7 @@ object StudyPackageExchangeManager {
                             reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                             finalScreenshotUrl = existing?.finalScreenshotUrl,
                             studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote,
-                            updatedAt = resolvedUpdatedAt
+                            updatedAt = incomingTimestamp
                         )
                     )
                 }

@@ -253,27 +253,178 @@ class SyncReconciliationTest {
     }
 
     @Test
-    fun `import session updatedAt fallback resolves correctly across legacy and current payloads`() {
-        fun resolveUpdatedAt(remoteUpdatedAt: Long, existingUpdatedAt: Long, remoteEndTime: Long?, remoteStartTime: Long): Long {
-            return when {
-                remoteUpdatedAt > 0L -> remoteUpdatedAt
-                existingUpdatedAt > 0L -> existingUpdatedAt
-                (remoteEndTime ?: 0L) > 0L -> remoteEndTime!!
-                else -> remoteStartTime
-            }
+    fun `SessionReconciliationHelper resolveIncomingSessionTimestamp resolves legacy and explicit payloads without local timestamp pollution`() {
+        // Case A: remote has explicit updatedAt (500), endTime (400), startTime (100) -> 500
+        assertEquals(
+            500L,
+            SessionReconciliationHelper.resolveIncomingSessionTimestamp(updatedAt = 500L, endTime = 400L, startTime = 100L)
+        )
+
+        // Case B: legacy remote (updatedAt = 0), has endTime (400), startTime (100) -> 400
+        assertEquals(
+            400L,
+            SessionReconciliationHelper.resolveIncomingSessionTimestamp(updatedAt = 0L, endTime = 400L, startTime = 100L)
+        )
+
+        // Case C: legacy remote (updatedAt = 0), no endTime (null), startTime (100) -> 100
+        assertEquals(
+            100L,
+            SessionReconciliationHelper.resolveIncomingSessionTimestamp(updatedAt = 0L, endTime = null, startTime = 100L)
+        )
+
+        // Case D: all zero -> 0
+        assertEquals(
+            0L,
+            SessionReconciliationHelper.resolveIncomingSessionTimestamp(updatedAt = 0L, endTime = null, startTime = 0L)
+        )
+
+        // Critical verification: existing local session updatedAt (999) must NOT pollute incoming timestamp (400)
+        val existingLocalUpdatedAt = 999L
+        val incomingResolvedTimestamp = SessionReconciliationHelper.resolveIncomingSessionTimestamp(
+            updatedAt = 0L,
+            endTime = 400L,
+            startTime = 100L
+        )
+        assertNotEquals(existingLocalUpdatedAt, incomingResolvedTimestamp)
+        assertEquals(400L, incomingResolvedTimestamp)
+    }
+
+    @Test
+    fun `SessionReconciliationHelper isSessionStatusCompleted correctly maps lifecycle states`() {
+        assertFalse(SessionReconciliationHelper.isSessionStatusCompleted(null))
+        assertFalse(SessionReconciliationHelper.isSessionStatusCompleted(com.studytracker.core.domain.model.SessionStatus.ACTIVE))
+
+        assertTrue(SessionReconciliationHelper.isSessionStatusCompleted(com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW))
+        assertTrue(SessionReconciliationHelper.isSessionStatusCompleted(com.studytracker.core.domain.model.SessionStatus.APPROVED))
+        assertTrue(SessionReconciliationHelper.isSessionStatusCompleted(com.studytracker.core.domain.model.SessionStatus.REJECTED))
+        assertTrue(SessionReconciliationHelper.isSessionStatusCompleted(com.studytracker.core.domain.model.SessionStatus.INVALID))
+    }
+
+    @Test
+    fun `SessionReconciliationHelper shouldApplyIncomingSessionVersion enforces pure winner matrix CASE A-F`() {
+        // CASE A: local=100 ACTIVE (completed=false), remote=200 (completed=true) => true (newer wins)
+        assertTrue(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 100L,
+                incomingUpdatedAt = 200L,
+                existingCompleted = false,
+                incomingCompleted = true
+            )
+        )
+
+        // CASE B: local=300 ACTIVE (completed=false), remote=100 (completed=true) => false (stale rejected)
+        assertFalse(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 300L,
+                incomingUpdatedAt = 100L,
+                existingCompleted = false,
+                incomingCompleted = true
+            )
+        )
+
+        // CASE C: local=300 WAITING_REVIEW (completed=true), remote=100 (completed=false) => false (stale active rejected)
+        assertFalse(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 300L,
+                incomingUpdatedAt = 100L,
+                existingCompleted = true,
+                incomingCompleted = false
+            )
+        )
+
+        // CASE D: local=200 ACTIVE (completed=false), remote=200 (completed=true) => true (completion advancement on tie)
+        assertTrue(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 200L,
+                incomingUpdatedAt = 200L,
+                existingCompleted = false,
+                incomingCompleted = true
+            )
+        )
+
+        // CASE E: local=200 APPROVED (completed=true), remote=200 (completed=false) => false (completion regression rejected)
+        assertFalse(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 200L,
+                incomingUpdatedAt = 200L,
+                existingCompleted = true,
+                incomingCompleted = false
+            )
+        )
+
+        // CASE F: local=200 APPROVED (completed=true), remote=200 (completed=true) => false (same state tie rejected)
+        assertFalse(
+            SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                existingUpdatedAt = 200L,
+                incomingUpdatedAt = 200L,
+                existingCompleted = true,
+                incomingCompleted = true
+            )
+        )
+    }
+
+    @Test
+    fun `reconciliation simulation guarantees newer local session is not overwritten by stale remote`() {
+        var localSession = SessionEntity(
+            sessionId = "sess_reconcile_01",
+            occurrenceKey = "occ_math_01",
+            childId = "child_1",
+            startTime = 1000L,
+            endTime = 1800L,
+            status = com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW,
+            screenshotCount = 2,
+            activeDurationSeconds = 1800L,
+            reportedQuestionCount = 20,
+            finalScreenshotUrl = "https://cdn.example.com/ss_new.jpg",
+            studentNote = "NEW",
+            updatedAt = 300L
+        )
+
+        val staleRemote = RemoteSessionSyncDto(
+            id = "sess_reconcile_01",
+            occurrenceId = "occ_math_01",
+            startTime = 1000L,
+            endTime = 1300L,
+            durationMin = 5,
+            activeDurationSeconds = 300L,
+            reportedQuestionCount = 5,
+            isCompleted = true,
+            notes = "OLD",
+            updatedAt = 100L
+        )
+
+        // Simulate reconciliation loop
+        val incomingTimestamp = SessionReconciliationHelper.resolveIncomingSessionTimestamp(
+            updatedAt = staleRemote.updatedAt,
+            endTime = staleRemote.endTime,
+            startTime = staleRemote.startTime
+        )
+        val existingCompleted = SessionReconciliationHelper.isSessionStatusCompleted(localSession.status)
+        val shouldApply = SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+            existingUpdatedAt = localSession.updatedAt,
+            incomingUpdatedAt = incomingTimestamp,
+            existingCompleted = existingCompleted,
+            incomingCompleted = staleRemote.isCompleted
+        )
+
+        // Stale remote must NOT be applied
+        assertFalse(shouldApply)
+
+        if (shouldApply) {
+            localSession = localSession.copy(
+                activeDurationSeconds = maxOf(localSession.activeDurationSeconds, staleRemote.activeDurationSeconds),
+                studentNote = staleRemote.notes,
+                updatedAt = incomingTimestamp
+            )
         }
 
-        // Case 1: remote has valid updatedAt
-        assertEquals(5000L, resolveUpdatedAt(5000L, 0L, 3000L, 1000L))
-
-        // Case 2: legacy remote (updatedAt=0) with existing local session
-        assertEquals(4000L, resolveUpdatedAt(0L, 4000L, 3000L, 1000L))
-
-        // Case 3: legacy remote (updatedAt=0), no existing local, has endTime
-        assertEquals(3000L, resolveUpdatedAt(0L, 0L, 3000L, 1000L))
-
-        // Case 4: legacy remote (updatedAt=0), no existing local, no endTime (active session)
-        assertEquals(1000L, resolveUpdatedAt(0L, 0L, null, 1000L))
+        // Verify local session remained pristine
+        assertEquals(300L, localSession.updatedAt)
+        assertEquals(1800L, localSession.activeDurationSeconds)
+        assertEquals("NEW", localSession.studentNote)
+        assertEquals(com.studytracker.core.domain.model.SessionStatus.WAITING_REVIEW, localSession.status)
+        assertEquals(20, localSession.reportedQuestionCount)
+        assertEquals("https://cdn.example.com/ss_new.jpg", localSession.finalScreenshotUrl)
     }
 
     @Test
