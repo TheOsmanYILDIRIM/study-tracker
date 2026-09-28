@@ -125,6 +125,65 @@ async function runTest() {
   console.log('   Durum:', studentProgRes.data.progress?.status);
   console.log('   ✅ Granüler öğrenci ilerlemesi kaydedildi.\n');
 
+  // Adım 5.5: GÜVENLİK TESTLERİ (Child Sahte Review / Auth Kontrolleri)
+  console.log('5.5️⃣ Güvenlik Testi: Child sahte review saldırısı ve Veli auth denetimi...');
+  
+  // A. Child doğrudan /api/v2/reviews üzerinden onaylamaya çalışıyor -> 403 dönmeli
+  const childDirectReview = await mockFetch('POST', `/api/v2/reviews?code=${familyCode}`, {
+    taskId: 'occ_mat_pzt',
+    isApproved: true,
+    parentRating: 5,
+    feedbackNote: 'Kendime 5 yıldız veriyorum'
+  }, { 'X-Sender-Role': 'CHILD' });
+  if (childDirectReview.status !== 403) throw new Error('Child doğrudan review çağrısı 403 ile engellenmedi!');
+  console.log('   ✅ CHILD doğrudan /api/v2/reviews çağrısı 403 ile engellendi.');
+
+  // B. Veli token olmadan /api/v2/reviews çağrısı -> 401 dönmeli
+  const parentNoTokenReview = await mockFetch('POST', `/api/v2/reviews?code=${familyCode}`, {
+    taskId: 'occ_mat_pzt',
+    isApproved: true,
+    parentRating: 5
+  }, { 'X-Sender-Role': 'PARENT' });
+  if (parentNoTokenReview.status !== 401) throw new Error('Veli admin token olmadan /api/v2/reviews 401 dönmedi!');
+  console.log('   ✅ PARENT token olmadan /api/v2/reviews 401 ile engellendi.');
+
+  // C. Child unified POST /api/sync ile sahte review enjekte etmeye çalışıyor -> review yok sayılmalı, progress bozulmamalı
+  const childFakeSyncReview = await mockFetch('POST', `/api/sync?code=${familyCode}`, {
+    senderRole: 'CHILD',
+    occurrences: [{
+      id: 'occ_mat_pzt',
+      completedDurationMin: 40,
+      completedQuestionCount: 20,
+      status: 'WAITING_REVIEW'
+    }],
+    reviews: [{
+      id: 'rev_fake_child',
+      sessionId: 'occ_mat_pzt',
+      occurrenceKey: 'occ_mat_pzt',
+      isApproved: true,
+      feedbackNote: 'Sahte Veli Onayı'
+    }]
+  }, { 'X-Sender-Role': 'CHILD' });
+  
+  const checkAfterFake = await mockFetch('GET', `/api/v2/sync?code=${familyCode}`);
+  const occAfterFake = checkAfterFake.data.occurrences?.find(o => o.id === 'occ_mat_pzt');
+  const reviewsAfterFake = checkAfterFake.data.reviews || [];
+  if (occAfterFake?.status === 'APPROVED') throw new Error('GÜVENLİK AÇIĞI: Child sahte review ile görevi onayladı!');
+  if (reviewsAfterFake.some(r => r.id === 'rev_fake_child')) throw new Error('GÜVENLİK AÇIĞI: Child sahte review kaydı KV ye yazıldı!');
+  if (occAfterFake?.completedDurationMin !== 40 || occAfterFake?.completedQuestionCount !== 20) {
+    throw new Error('Child progress (süre/soru) yazımı başarısız oldu!');
+  }
+  console.log('   ✅ CHILD unified POST /api/sync üzerinden sahte review gönderdiğinde review yok sayıldı ve status APPROVED olmadı.');
+  console.log('   ✅ Normal CHILD progress (40 dk, 20 soru) başarıyla korundu ve güncellendi.');
+
+  // D. Veli token olmadan unified POST /api/sync ile review göndermeye çalışıyor -> 401 dönmeli
+  const parentNoTokenSync = await mockFetch('POST', `/api/sync?code=${familyCode}`, {
+    senderRole: 'PARENT',
+    reviews: [{ id: 'rev_parent_unauth', sessionId: 'occ_mat_pzt', isApproved: true }]
+  }, { 'X-Sender-Role': 'PARENT' });
+  if (parentNoTokenSync.status !== 401) throw new Error('Veli admin token olmadan unified sync 401 dönmedi!');
+  console.log('   ✅ PARENT token olmadan unified sync review write 401 döndü.\n');
+
   // Adım 6: Veli Masasında Onaylıyor (POST /api/v2/reviews)
   console.log('6️⃣ Veli onay masasını açıyor ve görevi ONAYLIYOR (POST /api/v2/reviews)...');
   const parentReviewRes = await mockFetch('POST', `/api/v2/reviews?code=${familyCode}`, {

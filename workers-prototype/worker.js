@@ -644,7 +644,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     await putKV(env, `${prefix}screenshots`, list);
   }
 
-  if (Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
+  if (isAdminOrParent && Array.isArray(incoming.reviews) && incoming.reviews.length > 0) {
     let list = (await getKV(env, `${prefix}reviews`)) || [];
     const byId = new Map(list.map(r => [r.id || r.sessionId, r]));
     const sessionMap = new Map((incoming.sessions || []).map(s => [s.id || s.sessionId, s.occurrenceId || s.occurrenceKey]));
@@ -912,7 +912,7 @@ async function handleCommands(request, env, familyCode, role, path) {
 }
 
 async function handleReview(request, env, familyCode, role) {
-  if (!['PARENT', 'ADMIN', 'CLI'].includes(role)) {
+  if (!isParentRole(role)) {
     return error('Yetki Hatası: Sadece Veli inceleme/onay verebilir.', 403);
   }
   if (!(await hasAdminAuth(request, env, familyCode))) {
