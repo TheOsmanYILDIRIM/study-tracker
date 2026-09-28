@@ -505,83 +505,152 @@ async function runTest() {
   if (storedSess.updatedAt !== 400 || storedSess.isCompleted !== true) {
     throw new Error('Newer session (updatedAt=400) kabul edilmedi!');
   }
-  // 4. Görev 5A: Parent Authoritative Lost-Update Reproduction Test (Without Revision CAS)
-  console.log('1️⃣4️⃣ Görev 5A: Parent Authoritative Lost-Update Reproduction Test (CAS Yokluğu Kanıtı)...');
-  const lostUpCode = 'ST-REV1-2026-TEST-1001';
-  const lostUpPair = await mockFetch('POST', '/api/pair', { familyCode: lostUpCode });
-  const lostUpAdminToken = lostUpPair.data.adminToken;
-  if (!lostUpAdminToken) throw new Error('lostUpAdminToken oluşturulamadı!');
+  // 14. Görev 5B1: Parent Authoritative Revision Precondition & Lost-Update Hardening Tests
+  console.log('1️⃣4️⃣ Görev 5B1: Parent Revision Precondition & Stale Write Guard Testleri...');
+  const revTestCode = 'ST-REV1-2026-TEST-1001';
+  const revTestPair = await mockFetch('POST', '/api/pair', { familyCode: revTestCode });
+  const revTestAdminToken = revTestPair.data.adminToken;
+  if (!revTestAdminToken) throw new Error('revTestAdminToken oluşturulamadı!');
 
   // 1. Initial Plan (title = ORIGINAL)
   const initialPlanPayload = {
-    familyCode: lostUpCode,
+    familyCode: revTestCode,
     plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'ORIGINAL' },
     tasks: [{ taskId: 'task_orig', title: 'ORIGINAL', plannedMinutes: 30 }],
     occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'ORIGINAL', targetDurationMin: 30 }]
   };
-  const initRes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, initialPlanPayload, {
+  const initRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, initialPlanPayload, {
     'X-Sender-Role': 'PARENT',
-    'X-Admin-Token': lostUpAdminToken
+    'X-Admin-Token': revTestAdminToken
   });
   if (!initRes.ok) throw new Error(`Initial plan yükleme başarısız: ${JSON.stringify(initRes.data)}`);
 
   // 2. GET baseRevision
-  const baseSync = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
+  const baseSync = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
   const baseRevision = Number(baseSync.revision || baseSync.meta?.revision || 0);
   const baseTitle = baseSync.plan?.title || baseSync.occurrences?.[0]?.subject;
   console.log(`   Base snapshot alındı (revision=${baseRevision}, planTitle='${baseTitle}')`);
 
-  // 3. Parent A ve Parent B aynı baseRevision snapshot'ına sahip (baseRevision=2, pair sonrası 1, plan sonrası 2)
-  // 4. Parent A: title = PARENT_A_NEW yazar
+  // 3. Parent A: expectedRevision = baseRevision, title = PARENT_A_NEW yazar
   const parentAPayload = {
-    familyCode: lostUpCode,
+    familyCode: revTestCode,
+    expectedRevision: baseRevision,
     plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_A_NEW' },
     tasks: [{ taskId: 'task_orig', title: 'PARENT_A_NEW', plannedMinutes: 40 }],
     occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_A_NEW', targetDurationMin: 40 }]
   };
-  const parentARes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, parentAPayload, {
+  const parentARes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, parentAPayload, {
     'X-Sender-Role': 'PARENT',
-    'X-Admin-Token': lostUpAdminToken
+    'X-Admin-Token': revTestAdminToken
   });
   if (!parentARes.ok) throw new Error(`Parent A yazması başarısız: ${JSON.stringify(parentARes.data)}`);
 
-  // 5. GET: A değişikliğinin mevcut olduğunu ve revision'ın ilerlediğini doğrula
-  const syncAfterA = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
+  // 4. GET: A değişikliğinin mevcut olduğunu ve revision'ın ilerlediğini doğrula
+  const syncAfterA = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
   const revisionAfterA = Number(syncAfterA.revision || syncAfterA.meta?.revision || 0);
   const titleAfterA = syncAfterA.plan?.title || syncAfterA.occurrences?.[0]?.subject;
-  if (titleAfterA !== 'PARENT_A_NEW' || revisionAfterA <= baseRevision) {
+  if (titleAfterA !== 'PARENT_A_NEW' || revisionAfterA !== baseRevision + 1) {
     throw new Error(`Parent A doğrulaması başarısız: title=${titleAfterA}, revision=${revisionAfterA}`);
   }
-  console.log(`   Parent A planı yazdı (revision=${revisionAfterA}, title='${titleAfterA}')`);
+  console.log(`   ✅ Parent A planı yazdı (expectedRevision=${baseRevision} -> newRevision=${revisionAfterA}, title='${titleAfterA}')`);
 
-  // 6. Parent B: A'yı hiç görmemiş stale snapshot ile (title = PARENT_B_STALE) yazar
+  // 5. Parent B: A'yı hiç görmemiş stale snapshot ile (expectedRevision = baseRevision, title = PARENT_B_STALE) yazar -> 409 REVISION_CONFLICT dönmeli
   const parentBStalePayload = {
-    familyCode: lostUpCode,
+    familyCode: revTestCode,
+    expectedRevision: baseRevision,
     plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_B_STALE' },
     tasks: [{ taskId: 'task_orig', title: 'PARENT_B_STALE', plannedMinutes: 20 }],
     occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_B_STALE', targetDurationMin: 20 }]
   };
-  const parentBRes = await mockFetch('POST', `/api/sync?code=${lostUpCode}`, parentBStalePayload, {
+  const parentBStaleRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, parentBStalePayload, {
     'X-Sender-Role': 'PARENT',
-    'X-Admin-Token': lostUpAdminToken
+    'X-Admin-Token': revTestAdminToken
   });
-  if (!parentBRes.ok) throw new Error(`Parent B yazması beklenmedik şekilde reddedildi: ${JSON.stringify(parentBRes.data)}`);
-
-  // 7. GET: Mevcut bug nedeniyle stale Parent B write kabul edildi ve PARENT_A_NEW sessizce kayboldu (Lost Update)
-  const finalSync = (await mockFetch('GET', `/api/sync?code=${lostUpCode}`)).data;
-  const finalRevision = Number(finalSync.revision || finalSync.meta?.revision || 0);
-  const finalTitle = finalSync.plan?.title || finalSync.occurrences?.[0]?.subject;
-
-  if (finalTitle !== 'PARENT_B_STALE') {
-    throw new Error(`Beklenen bug davranışı (PARENT_B_STALE) gerçekleşmedi! finalTitle=${finalTitle}`);
+  if (parentBStaleRes.status !== 409 || parentBStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`Stale Parent B yazması 409 REVISION_CONFLICT ile engellenmedi! status=${parentBStaleRes.status}, data=${JSON.stringify(parentBStaleRes.data)}`);
   }
-  if (finalRevision <= revisionAfterA) {
-    throw new Error(`Revision sayacı ilerlemedi: finalRevision=${finalRevision}`);
+  if (parentBStaleRes.data.currentRevision !== revisionAfterA) {
+    throw new Error(`Conflict yanıtındaki currentRevision (${parentBStaleRes.data.currentRevision}) beklenen (${revisionAfterA}) ile uyuşmuyor!`);
+  }
+  console.log(`   ✅ Stale Parent B yazması 409 REVISION_CONFLICT ile engellendi (currentRevision=${parentBStaleRes.data.currentRevision}).`);
+
+  // 6. GET: Conflict sonrası server state'in hiç bozulmadığını ve revision'ın ilerlemediğini doğrula
+  const syncAfterStale = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
+  const revisionAfterStale = Number(syncAfterStale.revision || syncAfterStale.meta?.revision || 0);
+  const titleAfterStale = syncAfterStale.plan?.title || syncAfterStale.occurrences?.[0]?.subject;
+  if (titleAfterStale !== 'PARENT_A_NEW' || revisionAfterStale !== revisionAfterA) {
+    throw new Error(`Conflict sonrası state korunamadı! title=${titleAfterStale}, revision=${revisionAfterStale}`);
+  }
+  console.log(`   ✅ Conflict sonrası server state korundu (title='${titleAfterStale}', revision=${revisionAfterStale}).`);
+
+  // 7. Fresh Retry Testi: Parent B güncel revision ile tekrar dener
+  const parentBFreshPayload = {
+    familyCode: revTestCode,
+    expectedRevision: revisionAfterA,
+    plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_B_FRESH' },
+    tasks: [{ taskId: 'task_orig', title: 'PARENT_B_FRESH', plannedMinutes: 20 }],
+    occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_B_FRESH', targetDurationMin: 20 }]
+  };
+  const parentBFreshRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, parentBFreshPayload, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': revTestAdminToken
+  });
+  if (!parentBFreshRes.ok) {
+    throw new Error(`Parent B fresh retry başarısız: ${JSON.stringify(parentBFreshRes.data)}`);
+  }
+  const syncAfterFresh = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
+  const revisionAfterFresh = Number(syncAfterFresh.revision || syncAfterFresh.meta?.revision || 0);
+  const titleAfterFresh = syncAfterFresh.plan?.title || syncAfterFresh.occurrences?.[0]?.subject;
+  if (titleAfterFresh !== 'PARENT_B_FRESH' || revisionAfterFresh !== revisionAfterA + 1) {
+    throw new Error(`Fresh retry sonrası doğrulama başarısız! title=${titleAfterFresh}, revision=${revisionAfterFresh}`);
+  }
+  console.log(`   ✅ Fresh retry başarılı (title='${titleAfterFresh}', revision=${revisionAfterFresh}).`);
+
+  // 8. Legacy Migration Testi: expectedRevision göndermeyen Parent yazması
+  const legacyParentPayload = {
+    familyCode: revTestCode,
+    plan: { planId: 'plan_orig', weekId: '2026-W38', title: 'PARENT_C_LEGACY' },
+    tasks: [{ taskId: 'task_orig', title: 'PARENT_C_LEGACY', plannedMinutes: 25 }],
+    occurrences: [{ id: 'occ_orig', planId: 'task_orig', subject: 'PARENT_C_LEGACY', targetDurationMin: 25 }]
+  };
+  const legacyRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, legacyParentPayload, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': revTestAdminToken
+  });
+  if (!legacyRes.ok) {
+    throw new Error(`Legacy parent yazması reddedildi: ${JSON.stringify(legacyRes.data)}`);
+  }
+  const syncAfterLegacy = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
+  const revisionAfterLegacy = Number(syncAfterLegacy.revision || syncAfterLegacy.meta?.revision || 0);
+  const titleAfterLegacy = syncAfterLegacy.plan?.title || syncAfterLegacy.occurrences?.[0]?.subject;
+  if (titleAfterLegacy !== 'PARENT_C_LEGACY' || revisionAfterLegacy !== revisionAfterFresh + 1) {
+    throw new Error(`Legacy parent sonrası doğrulama başarısız! title=${titleAfterLegacy}, revision=${revisionAfterLegacy}`);
+  }
+  console.log('   ✅ legacy parent without expectedRevision remains allowed during migration phase');
+  console.log(`   ✅ Legacy write başarılı (title='${titleAfterLegacy}', revision=${revisionAfterLegacy}).`);
+
+  // 9. Invalid expectedRevision Validasyon Testleri
+  const invalidNegRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, {
+    ...parentAPayload,
+    expectedRevision: -1
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': revTestAdminToken });
+  if (invalidNegRes.status !== 400 || invalidNegRes.data.error !== 'INVALID_EXPECTED_REVISION') {
+    throw new Error(`expectedRevision=-1 için 400 INVALID_EXPECTED_REVISION dönmedi! status=${invalidNegRes.status}`);
   }
 
-  console.log(`   🚨 BUG KANITI (Lost-Update): Stale Parent B write kabul edildi (finalTitle='${finalTitle}', revision=${finalRevision})`);
-  console.log(`   🚨 Parent A'nın ('PARENT_A_NEW') değişikliği CAS kontrolü olmadığı için sessizce EZİLDİ ve KAYBOLDU.`);
-  console.log('   ✅ Görev 5A lost-update bug reproduksiyonu başarıyla kanıtlandı.\n');
+  const invalidStrRes = await mockFetch('POST', `/api/sync?code=${revTestCode}`, {
+    ...parentAPayload,
+    expectedRevision: 'abc'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': revTestAdminToken });
+  if (invalidStrRes.status !== 400 || invalidStrRes.data.error !== 'INVALID_EXPECTED_REVISION') {
+    throw new Error(`expectedRevision="abc" için 400 INVALID_EXPECTED_REVISION dönmedi! status=${invalidStrRes.status}`);
+  }
+
+  const syncAfterInvalid = (await mockFetch('GET', `/api/sync?code=${revTestCode}`)).data;
+  if ((syncAfterInvalid.plan?.title || syncAfterInvalid.occurrences?.[0]?.subject) !== 'PARENT_C_LEGACY' || Number(syncAfterInvalid.revision || 0) !== revisionAfterLegacy) {
+    throw new Error('Invalid expectedRevision istekleri sunucu durumunu bozdu!');
+  }
+  console.log('   ✅ Geçersiz expectedRevision (-1, "abc") istekleri 400 INVALID_EXPECTED_REVISION ile engellendi ve server state korundu.\n');
 
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');

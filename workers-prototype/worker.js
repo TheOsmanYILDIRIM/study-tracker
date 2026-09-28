@@ -17,6 +17,31 @@ const error = (msg, status = 400) => json({ success: false, error: msg }, status
 // Local test (wrangler / node test-sync) için geçici bellek hafızası
 const inMemoryStore = new Map();
 
+function parseExpectedRevision(val) {
+  if (val === undefined || val === null) return { hasValue: false, isValid: true };
+  if (typeof val === 'boolean' || typeof val === 'object') {
+    return { hasValue: true, isValid: false };
+  }
+  if (typeof val === 'string' && val.trim() === '') {
+    return { hasValue: true, isValid: false };
+  }
+  const num = Number(val);
+  if (!Number.isFinite(num) || !Number.isInteger(num) || num < 0) {
+    return { hasValue: true, isValid: false };
+  }
+  return { hasValue: true, isValid: true, value: num };
+}
+
+function revisionConflictResponse(currentRevision, serverResetAt = 0) {
+  return json({
+    success: false,
+    error: 'REVISION_CONFLICT',
+    message: 'Server state has changed since this client snapshot.',
+    currentRevision: Number(currentRevision || 0),
+    serverResetAt: Number(serverResetAt || 0)
+  }, 409);
+}
+
 function isLocalTest(env) {
   return env && env.__LOCAL_TEST__ === true;
 }
@@ -591,7 +616,25 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   const clientLastResetAt = Number(incoming.clientLastResetAt || 0);
   const isStaleChildAfterReset = senderRole === 'CHILD' && serverResetAt > clientLastResetAt;
 
-  if (isAdminOrParent && (incoming.plan || Array.isArray(incoming.tasks) || Array.isArray(incoming.occurrences))) {
+  const expRev = parseExpectedRevision(incoming.expectedRevision);
+  if (expRev.hasValue && !expRev.isValid) {
+    return error('INVALID_EXPECTED_REVISION', 400);
+  }
+
+  const isAuthoritativePlanWrite = isAdminOrParent && (
+    incoming.plan !== undefined ||
+    Array.isArray(incoming.tasks) ||
+    Array.isArray(incoming.occurrences)
+  );
+
+  if (isAuthoritativePlanWrite && expRev.hasValue) {
+    const currentRevision = Number(meta.revision || 0);
+    if (expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, serverResetAt);
+    }
+  }
+
+  if (isAuthoritativePlanWrite) {
     if (Array.isArray(incoming.tasks)) {
       planData.templates = incoming.tasks.filter(t => t && t.taskId);
     }
