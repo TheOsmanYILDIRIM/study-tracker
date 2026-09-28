@@ -408,7 +408,8 @@ async function handleSync(env, familyCode) {
     quizzes: quizzes || [],
     meta: finalMeta,
     deletedOccurrences: finalMeta.tombstones || [],
-    resetAt: finalMeta.resetAt || 0
+    resetAt: Number(finalMeta.resetAt || 0),
+    revision: Number(finalMeta.revision || 0)
   };
 
   return json({
@@ -417,6 +418,8 @@ async function handleSync(env, familyCode) {
     serverTime: Date.now(),
     data: unifiedData,
     meta: finalMeta,
+    resetAt: Number(finalMeta.resetAt || 0),
+    revision: Number(finalMeta.revision || 0),
     plan: planData?.plan || null,
     tasks: templates,
     occurrences,
@@ -553,6 +556,10 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
   let planData = (await getKV(env, `${prefix}plan`)) || { templates: [], tasks: [], plan: null };
 
+  const serverResetAt = Number(meta.resetAt || 0);
+  const clientLastResetAt = Number(incoming.clientLastResetAt || 0);
+  const isStaleChildAfterReset = senderRole === 'CHILD' && serverResetAt > clientLastResetAt;
+
   if (isAdminOrParent && (incoming.plan || Array.isArray(incoming.tasks) || Array.isArray(incoming.occurrences))) {
     if (Array.isArray(incoming.tasks)) {
       planData.templates = incoming.tasks.filter(t => t && t.taskId);
@@ -583,8 +590,8 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     await putKV(env, `${prefix}meta`, meta);
   }
 
-  // Öğrenci veya Veli İlerleme Kayıtlarını Shard'lara Yaz
-  if (Array.isArray(incoming.occurrences)) {
+  // Öğrenci veya Veli İlerleme Kayıtlarını Shard'lara Yaz (Stale child reset sonrası mutable progress yazamaz)
+  if (!isStaleChildAfterReset && Array.isArray(incoming.occurrences)) {
     for (const occ of incoming.occurrences) {
       const taskId = occ.id || occ.occurrenceKey;
       if (!taskId) continue;
@@ -620,7 +627,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   }
 
   // Sessions: true upsert so ACTIVE -> completed updates are not lost.
-  if (Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
+  if (!isStaleChildAfterReset && Array.isArray(incoming.sessions) && incoming.sessions.length > 0) {
     let list = (await getKV(env, `${prefix}sessions`)) || [];
     const byId = new Map(list.map(s => [s.id, s]));
     for (const raw of incoming.sessions) {
@@ -633,7 +640,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     await putKV(env, `${prefix}sessions`, list);
   }
 
-  if (Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
+  if (!isStaleChildAfterReset && Array.isArray(incoming.screenshots) && incoming.screenshots.length > 0) {
     let list = (await getKV(env, `${prefix}screenshots`)) || [];
     const byId = new Map(list.map(s => [s.id, s]));
     for (const raw of incoming.screenshots) {
@@ -679,18 +686,20 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     for (const q of incoming.quizzes) {
       if (!q?.quizId) continue;
       const old = byId.get(q.quizId);
-      if (senderRole === 'CHILD' && old) {
-        byId.set(q.quizId, {
-          ...old,
-          completed: Boolean(q.completed),
-          submittedAt: q.submittedAt ?? old.submittedAt,
-          studentAnswers: q.studentAnswers || old.studentAnswers || {},
-          studentDurationSeconds: Number(q.studentDurationSeconds || 0),
-          correctCount: Number(q.correctCount || 0),
-          wrongCount: Number(q.wrongCount || 0),
-          emptyCount: Number(q.emptyCount || 0),
-          studentNote: q.studentNote ?? old.studentNote ?? null
-        });
+      if (senderRole === 'CHILD') {
+        if (!isStaleChildAfterReset && old) {
+          byId.set(q.quizId, {
+            ...old,
+            completed: Boolean(q.completed),
+            submittedAt: q.submittedAt ?? old.submittedAt,
+            studentAnswers: q.studentAnswers || old.studentAnswers || {},
+            studentDurationSeconds: Number(q.studentDurationSeconds || 0),
+            correctCount: Number(q.correctCount || 0),
+            wrongCount: Number(q.wrongCount || 0),
+            emptyCount: Number(q.emptyCount || 0),
+            studentNote: q.studentNote ?? old.studentNote ?? null
+          });
+        }
       } else if (old?.completed && !q.completed) {
         byId.set(q.quizId, old);
       } else {

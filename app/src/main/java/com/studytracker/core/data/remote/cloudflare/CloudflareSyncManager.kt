@@ -53,7 +53,9 @@ data class CloudSyncPayloadWrapper(
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList(),
-    val messages: List<RemoteMessageSyncDto> = emptyList()
+    val messages: List<RemoteMessageSyncDto> = emptyList(),
+    val resetAt: Long = 0L,
+    val revision: Long = 0L
 )
 
 sealed class SyncCheckResult {

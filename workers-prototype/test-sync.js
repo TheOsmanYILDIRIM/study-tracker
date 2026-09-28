@@ -308,8 +308,8 @@ async function runTest() {
   if (syncAfterRestore.data.tasks.length !== 2) throw new Error('Restore başarısız!');
   console.log('   ✅ WIPE & RESTORE %100 başarılı.\n');
 
-  // Adım 11: Görev 3A Reproduction: RESET Sonrası Stale Data Resurrection
-  console.log('1️⃣1️⃣ Görev 3A: RESET Sonrası Stale Data Resurrection Testi...');
+  // Adım 11: Görev 3B Regression Test: RESET & WIPE Sonrası Stale Child Guard
+  console.log('1️⃣1️⃣ Görev 3B: RESET Sonrası Stale Child Guard & Acknowledged Child Testi...');
   const resPair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-TEST-2026-RESU-8899' });
   const resCode = resPair.data.familyCode;
   const resAdminToken = resPair.data.adminToken;
@@ -339,8 +339,10 @@ async function runTest() {
     'X-Admin-Token': resAdminToken
   });
 
-  // 4. Worker'da sıfırlandığını doğrula
+  // 4. Worker'da sıfırlandığını ve resetAt alındığını doğrula
   const syncAfterReset = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  const serverResetAt = Number(syncAfterReset.resetAt || syncAfterReset.data?.resetAt || 0);
+  if (serverResetAt <= 0) throw new Error('serverResetAt üretilmedi veya sıfır döndü!');
   const occList = syncAfterReset.occurrences || syncAfterReset.data?.occurrences || [];
   const occAfterReset = occList.find(o => o.id === 'occ_res');
   if (occAfterReset?.completedDurationMin !== 0) throw new Error('Reset sonrası progress sıfırlanmadı!');
@@ -348,9 +350,10 @@ async function runTest() {
   if (syncAfterReset.screenshots?.length !== 0) throw new Error('Reset sonrası screenshots temizlenmedi!');
   if (syncAfterReset.quizzes?.[0]?.completed !== false) throw new Error('Reset sonrası quiz sıfırlanmadı!');
 
-  // 5. Henüz RESET'ten habersiz stale child cihazı eski yerel DB'sini tekrar POST ediyor
-  await mockFetch('POST', `/api/sync?code=${resCode}`, {
+  // 5. Henüz RESET'ten habersiz stale child cihazı (clientLastResetAt: 0) eski yerel DB'sini tekrar POST ediyor
+  const stalePostRes = await mockFetch('POST', `/api/sync?code=${resCode}`, {
     senderRole: 'CHILD',
+    clientLastResetAt: 0,
     occurrences: [{ id: 'occ_res', completedDurationMin: 30, completedQuestionCount: 15, status: 'WAITING_REVIEW' }],
     sessions: [{ id: 'sess_res_1', occurrenceId: 'occ_res', durationMin: 30, isCompleted: true, updatedAt: 1000 }],
     screenshots: [{ id: 'ss_res_1', sessionId: 'sess_res_1', imageUrl: 'data:image/webp;base64,sample' }],
@@ -358,7 +361,7 @@ async function runTest() {
     reviews: [{ id: 'rev_fake_res', sessionId: 'occ_res', isApproved: true }]
   }, { 'X-Sender-Role': 'CHILD' });
 
-  // 6. GET sync ile neyin dirildiğini ölç
+  // 6. GET sync ile stale verinin dirilmediğini doğrula
   const syncAfterStaleUpload = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
   const occResurrected = syncAfterStaleUpload.occurrences?.find(o => o.id === 'occ_res');
   const sessResurrected = syncAfterStaleUpload.sessions || [];
@@ -366,13 +369,51 @@ async function runTest() {
   const quizResurrected = syncAfterStaleUpload.quizzes || [];
   const revResurrected = syncAfterStaleUpload.reviews || [];
 
-  console.log('   [REPRODUCTION KANITI]');
-  console.log('   - Sessions Dirildi mi?:', sessResurrected.length > 0 ? '❌ EVET (' + sessResurrected.length + ' adet)' : 'HAYIR');
-  console.log('   - Screenshots Dirildi mi?:', ssResurrected.length > 0 ? '❌ EVET (' + ssResurrected.length + ' adet)' : 'HAYIR');
-  console.log('   - Occurrences Progress Dirildi mi?:', occResurrected?.completedDurationMin > 0 ? '❌ EVET (' + occResurrected.completedDurationMin + ' dk)' : 'HAYIR');
-  console.log('   - Quiz Completion Dirildi mi?:', quizResurrected[0]?.completed ? '❌ EVET' : 'HAYIR');
-  console.log('   - Reviews Dirildi mi?:', revResurrected.length > 0 ? 'EVET' : '✅ HAYIR (Görev 1 korudu)');
-  console.log('   ⚠️ Kanıtlandı: Stale child sync, Veli RESET işlemini sunucuda tamamen ezerek eski veriyi geri getirmektedir.\n');
+  if (sessResurrected.length !== 0) throw new Error('GÜVENLİK AÇIĞI: Stale session dirildi!');
+  if (ssResurrected.length !== 0) throw new Error('GÜVENLİK AÇIĞI: Stale screenshot dirildi!');
+  if (occResurrected?.completedDurationMin !== 0) throw new Error('GÜVENLİK AÇIĞI: Stale occurrence progress dirildi!');
+  if (quizResurrected[0]?.completed === true) throw new Error('GÜVENLİK AÇIĞI: Stale quiz submission dirildi!');
+  if (revResurrected.length !== 0) throw new Error('GÜVENLİK AÇIĞI: Fake review dirildi!');
+  console.log('   ✅ Stale child upload (clientLastResetAt=0) reset sonrası hiçbir eski veriyi diriltemedi.');
+
+  // 7. Reset epoch'u kabul eden güncel child (clientLastResetAt = serverResetAt) yeni çalışma gönderiyor
+  const ackPostRes = await mockFetch('POST', `/api/sync?code=${resCode}`, {
+    senderRole: 'CHILD',
+    clientLastResetAt: serverResetAt,
+    occurrences: [{ id: 'occ_res', completedDurationMin: 25, completedQuestionCount: 10, status: 'WAITING_REVIEW' }],
+    sessions: [{ id: 'sess_new_1', occurrenceId: 'occ_res', durationMin: 25, isCompleted: true, updatedAt: Date.now() }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  const syncAfterAck = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  const occAfterAck = syncAfterAck.occurrences?.find(o => o.id === 'occ_res');
+  const sessAfterAck = syncAfterAck.sessions || [];
+  if (occAfterAck?.completedDurationMin !== 25) throw new Error('Reset sonrası güncel child progress kabul edilmedi!');
+  if (sessAfterAck.length !== 1 || sessAfterAck[0].id !== 'sess_new_1') throw new Error('Reset sonrası güncel session kabul edilmedi!');
+  console.log('   ✅ Reset epoch kabul edildiğinde (clientLastResetAt=serverResetAt) yeni child progress (25 dk) başarıyla kabul edildi.\n');
+
+  // Adım 12: WIPE Sonrası Stale Child Guard Testi
+  console.log('1️⃣2️⃣ Görev 3B: WIPE Sonrası Stale Child Guard Testi...');
+  await mockFetch('POST', `/api/v2/commands?code=${resCode}`, { action: 'WIPE' }, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': resAdminToken
+  });
+
+  const syncAfterWipeCheck = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  const serverWipeAt = Number(syncAfterWipeCheck.resetAt || syncAfterWipeCheck.data?.resetAt || 0);
+
+  // Stale child eski veriyi POST ediyor (eski reset timestamp ile)
+  await mockFetch('POST', `/api/sync?code=${resCode}`, {
+    senderRole: 'CHILD',
+    clientLastResetAt: serverResetAt, // eski reset zamanı (WIPE'tan önceki)
+    occurrences: [{ id: 'occ_res', completedDurationMin: 30, completedQuestionCount: 15, status: 'WAITING_REVIEW' }],
+    sessions: [{ id: 'sess_res_1', occurrenceId: 'occ_res', durationMin: 30, isCompleted: true }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  const syncAfterStaleWipe = (await mockFetch('GET', `/api/v2/sync?code=${resCode}`)).data;
+  if ((syncAfterStaleWipe.tasks || []).length !== 0) throw new Error('Wipe sonrası tasks geri oluştu!');
+  if ((syncAfterStaleWipe.occurrences || []).length !== 0) throw new Error('Wipe sonrası occurrences geri oluştu!');
+  if ((syncAfterStaleWipe.sessions || []).length !== 0) throw new Error('Wipe sonrası sessions geri oluştu!');
+  console.log('   ✅ WIPE sonrası stale child gönderimi silinen plan ve oturumları diriltemedi.\n');
 
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
