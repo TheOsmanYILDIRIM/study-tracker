@@ -700,7 +700,7 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
     await putKV(env, `${prefix}quizzes`, Array.from(byId.values()).slice(-100));
   }
 
-  if (Array.isArray(incoming.messages) && incoming.messages.length > 0) {
+  if (isAdminOrParent && Array.isArray(incoming.messages) && incoming.messages.length > 0) {
     let list = (await getKV(env, `${prefix}messages`)) || [];
     const byId = new Map(list.map(m => [m.id, m]));
     for (const raw of incoming.messages) {
@@ -994,10 +994,10 @@ async function handleMessages(request, env, familyCode, role, url) {
   }
 
   if (method === 'POST') {
-    if (!['PARENT', 'ADMIN', 'CLI', 'SYSTEM'].includes(role)) {
-      return error('Yetki Hatası: Sadece Veli veya Sistem bildirim gönderebilir.', 403);
+    if (!isParentRole(role)) {
+      return error('Yetki Hatası: Sadece Veli/Admin bildirim gönderebilir.', 403);
     }
-    if (role !== 'SYSTEM' && !(await hasAdminAuth(request, env, familyCode))) {
+    if (!(await hasAdminAuth(request, env, familyCode))) {
       return error('Geçerli X-Admin-Token zorunludur.', 401);
     }
 

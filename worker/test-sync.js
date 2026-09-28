@@ -222,7 +222,38 @@ async function runTest() {
   console.log('   ✅ Komut Deseni (REJECT_TASK) %100 başarılı.\n');
 
   // Adım 9: Veli Mesajı & Bildirim Gönderme ve Okundu Testi (POST /api/v2/messages & /api/messages)
-  console.log('9️⃣ Veli öğrenciye anlık bildirim gönderiyor (POST /api/v2/messages)...');
+  console.log('9️⃣ Mesaj/Bildirim Auth Güvenlik Testi & Veli bildirim döngüsü...');
+
+  // A. SYSTEM spoof saldırısı (X-Sender-Role: SYSTEM, token yok) -> 403/401 ile engellenmeli
+  const systemSpoofMsg = await mockFetch('POST', `/api/v2/messages?code=${familyCode}`, {
+    title: 'Sahte Sistem Bildirimi',
+    message: 'Ben sistemim',
+    type: 'ALERT'
+  }, { 'X-Sender-Role': 'SYSTEM' });
+  if (systemSpoofMsg.status !== 403 && systemSpoofMsg.status !== 401) {
+    throw new Error('GÜVENLİK AÇIĞI: SYSTEM rolü spoofing engellenmedi!');
+  }
+  console.log('   ✅ SYSTEM spoof (token yok) 403 ile engellendi.');
+
+  // B. CHILD mesaj yazma denemesi (X-Sender-Role: CHILD) -> 403 dönmeli
+  const childWriteMsg = await mockFetch('POST', `/api/v2/messages?code=${familyCode}`, {
+    title: 'Öğrenci Mesajı',
+    message: 'Öğrenci mesaj yazamaz',
+    type: 'REMINDER'
+  }, { 'X-Sender-Role': 'CHILD' });
+  if (childWriteMsg.status !== 403) throw new Error('Child mesaj yazma isteği 403 ile engellenmedi!');
+  console.log('   ✅ CHILD mesaj yazma isteği 403 ile engellendi.');
+
+  // C. PARENT token olmadan mesaj gönderme -> 401 dönmeli
+  const parentNoTokenMsg = await mockFetch('POST', `/api/v2/messages?code=${familyCode}`, {
+    title: 'Yetkisiz Veli Mesajı',
+    message: 'Token yok',
+    type: 'REMINDER'
+  }, { 'X-Sender-Role': 'PARENT' });
+  if (parentNoTokenMsg.status !== 401) throw new Error('Veli admin token olmadan mesaj yazma 401 dönmedi!');
+  console.log('   ✅ PARENT token olmadan mesaj yazma 401 ile engellendi.');
+
+  // D. Yetkili PARENT doğru token ile mesaj gönderiyor -> Başarılı olmalı
   const sendMsg = await mockFetch('POST', `/api/v2/messages?code=${familyCode}`, {
     title: 'Ders Zamanı!',
     message: 'Bugünkü 9. Sınıf Matematik etüdünü yapmayı unutma 🚀',
