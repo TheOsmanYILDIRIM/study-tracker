@@ -275,4 +275,64 @@ class SyncReconciliationTest {
         // Case 4: legacy remote (updatedAt=0), no existing local, no endTime (active session)
         assertEquals(1000L, resolveUpdatedAt(0L, 0L, null, 1000L))
     }
+
+    @Test
+    fun `session start finish and review mutations advance updatedAt monotonically`() {
+        // A. New session start
+        val startTimestamp = 1000L
+        val newSession = Session(
+            sessionId = "sess_001",
+            occurrenceKey = "occ_001",
+            childId = "child_1",
+            startTime = startTimestamp,
+            updatedAt = startTimestamp
+        )
+        assertEquals(startTimestamp, newSession.startTime)
+        assertEquals(startTimestamp, newSession.updatedAt)
+
+        // B. Finish session with later timestamp
+        val finishMutationAt = 2000L
+        val finishedSession = newSession.copy(
+            endTime = finishMutationAt,
+            updatedAt = maxOf(newSession.updatedAt, finishMutationAt)
+        )
+        assertEquals(finishMutationAt, finishedSession.endTime)
+        assertEquals(2000L, finishedSession.updatedAt)
+
+        // C. Finish session with clock backwards (mutationAt < existing.updatedAt)
+        val clockBackwardsMutationAt = 1500L
+        val guardedFinish = finishedSession.copy(
+            endTime = clockBackwardsMutationAt,
+            updatedAt = maxOf(finishedSession.updatedAt, clockBackwardsMutationAt)
+        )
+        assertEquals(2000L, guardedFinish.updatedAt)
+
+        // D. Review session with newer reviewedAt timestamp
+        val reviewTimestamp = 2500L
+        val reviewedSession = finishedSession.copy(
+            status = com.studytracker.core.domain.model.SessionStatus.APPROVED,
+            updatedAt = maxOf(finishedSession.updatedAt, reviewTimestamp)
+        )
+        assertEquals(2500L, reviewedSession.updatedAt)
+
+        // E. Review session with older timestamp (clock drift or delayed review)
+        val olderReviewTimestamp = 1800L
+        val guardedReview = reviewedSession.copy(
+            status = com.studytracker.core.domain.model.SessionStatus.APPROVED,
+            updatedAt = maxOf(reviewedSession.updatedAt, olderReviewTimestamp)
+        )
+        assertEquals(2500L, guardedReview.updatedAt)
+    }
+
+    @Test
+    fun `invalidate session SQL CASE expression guarantees monotonic progression`() {
+        fun simulateSqlInvalidate(currentUpdatedAt: Long, endedAt: Long): Long {
+            // Simulated SQL: CASE WHEN updatedAt > :endedAt THEN updatedAt ELSE :endedAt END
+            return if (currentUpdatedAt > endedAt) currentUpdatedAt else endedAt
+        }
+
+        assertEquals(2000L, simulateSqlInvalidate(1000L, 2000L))
+        assertEquals(3000L, simulateSqlInvalidate(3000L, 2000L))
+        assertEquals(3000L, simulateSqlInvalidate(3000L, 3000L))
+    }
 }

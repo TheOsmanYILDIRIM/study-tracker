@@ -237,12 +237,14 @@ class LocalSessionRepositoryImpl(
     }
 
     override suspend fun startSession(occurrenceKey: String, childId: String, customSessionId: String?): Session {
+        val mutationAt = System.currentTimeMillis()
         val session = Session(
             sessionId = customSessionId ?: ("sess_" + UUID.randomUUID().toString().take(8)),
             occurrenceKey = occurrenceKey,
             childId = childId,
-            startTime = System.currentTimeMillis(),
-            status = SessionStatus.ACTIVE
+            startTime = mutationAt,
+            status = SessionStatus.ACTIVE,
+            updatedAt = mutationAt
         )
         db.sessionDao().upsertSession(session.toEntity())
         db.occurrenceDao().updateStatus(occurrenceKey, OccurrenceStatus.ACTIVE)
@@ -259,15 +261,17 @@ class LocalSessionRepositoryImpl(
         val existing = db.sessionDao().getSessionById(sessionId)
             ?: throw IllegalStateException("Session not found: $sessionId")
 
+        val mutationAt = System.currentTimeMillis()
         val count = db.screenshotDao().getScreenshotsCount(sessionId)
         val updated = existing.copy(
-            endTime = System.currentTimeMillis(),
+            endTime = mutationAt,
             status = SessionStatus.WAITING_REVIEW,
             screenshotCount = count,
             activeDurationSeconds = activeDurationSeconds.coerceAtLeast(0L),
             reportedQuestionCount = reportedQuestionCount.coerceAtLeast(0),
             finalScreenshotUrl = finalScreenshotUrl,
-            studentNote = studentNote ?: existing.studentNote
+            studentNote = studentNote ?: existing.studentNote,
+            updatedAt = maxOf(existing.updatedAt, mutationAt)
         )
         db.sessionDao().upsertSession(updated)
         db.occurrenceDao().updateStatus(existing.occurrenceKey, OccurrenceStatus.WAITING_REVIEW)
@@ -292,7 +296,13 @@ class LocalSessionRepositoryImpl(
 
         val session = db.sessionDao().getSessionById(review.sessionId)
         if (session != null) {
-            db.sessionDao().upsertSession(session.copy(status = sessionStatus))
+            val mutationAt = if (review.reviewedAt > 0L) review.reviewedAt else System.currentTimeMillis()
+            db.sessionDao().upsertSession(
+                session.copy(
+                    status = sessionStatus,
+                    updatedAt = maxOf(session.updatedAt, mutationAt)
+                )
+            )
         }
 
         val rawTargetKey = session?.occurrenceKey ?: review.occurrenceKey

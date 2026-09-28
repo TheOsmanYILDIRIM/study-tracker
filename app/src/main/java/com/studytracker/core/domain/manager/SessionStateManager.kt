@@ -77,12 +77,14 @@ class SessionStateManager private constructor(
         if (_activeState.value != null) return // Already active
 
         val tempSessionId = "sess_" + java.util.UUID.randomUUID().toString().take(8)
+        val startedAt = System.currentTimeMillis()
         val tempSession = Session(
             sessionId = tempSessionId,
             occurrenceKey = occurrenceKey,
             childId = childId,
-            startTime = System.currentTimeMillis(),
-            status = com.studytracker.core.domain.model.SessionStatus.ACTIVE
+            startTime = startedAt,
+            status = com.studytracker.core.domain.model.SessionStatus.ACTIVE,
+            updatedAt = startedAt
         )
 
         // 1. Instant Optimistic UI State Transition (0ms latency touch response)
