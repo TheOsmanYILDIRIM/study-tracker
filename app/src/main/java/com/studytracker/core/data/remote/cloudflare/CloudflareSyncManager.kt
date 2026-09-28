@@ -137,7 +137,7 @@ object CloudflareSyncManager {
             // 1. Yerel veritabanı tamamen boşsa doğrudan buluttan indir
             if (localPlan == null && localOccs.isEmpty()) {
                 if (cloudData.plan != null || cloudData.occurrences.isNotEmpty()) {
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     return@withContext SyncCheckResult.Success("Buluttaki plan başarıyla yüklendi (${cloudData.occurrences.size} Ders)")
                 } else {
                     return@withContext SyncCheckResult.Success("Bulutta ve cihazda aktif plan bulunmuyor.")
@@ -233,12 +233,12 @@ object CloudflareSyncManager {
         try {
             when (strategy) {
                 ConflictResolutionStrategy.DOWNLOAD_CLOUD -> {
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     Result.success("☁️ Buluttaki taze plan bu cihaza indirildi ve eşitlendi.")
                 }
                 ConflictResolutionStrategy.SMART_MERGE -> {
                     // Bulut tanımlarını al, yerel öğrenci onaylarını ve oturumlarını koru
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     // Ardından yerel öğrenci oturumlarını buluta aktar
                     syncWithCloud(context, action = "SYNC")
                     Result.success("🔀 Ders tanımları buluttan güncellendi, onay ve oturumlar korundu.")
@@ -331,6 +331,31 @@ object CloudflareSyncManager {
         } catch (e: Exception) {
             Log.e(TAG, "patchSingleTask failed: ${e.message}", e)
             Result.failure(e)
+        }
+    }
+
+    internal fun shouldApplyRemoteReset(serverResetAt: Long, lastKnownResetAt: Long): Boolean {
+        return serverResetAt > 0L && serverResetAt > lastKnownResetAt.coerceAtLeast(0L)
+    }
+
+    internal suspend fun applyCloudDataRespectingResetEpoch(
+        context: Context,
+        cloudData: CloudSyncPayloadWrapper
+    ) {
+        val prefs = AppPreferences.getInstance(context)
+        val serverResetAt = cloudData.resetAt
+        val localResetAt = prefs.lastKnownResetAt
+
+        if (shouldApplyRemoteReset(serverResetAt, localResetAt)) {
+            Log.i(TAG, "Yeni reset epoch algılandı: server=$serverResetAt > local=$localResetAt. Yerel ilerleme temizleniyor.")
+            val resetResult = StudyPackageExchangeManager.resetAllProgress(context)
+            resetResult.getOrThrow()
+        }
+
+        applyCloudDataToLocal(context, cloudData)
+
+        if (serverResetAt > localResetAt) {
+            prefs.lastKnownResetAt = serverResetAt
         }
     }
 
@@ -506,7 +531,8 @@ object CloudflareSyncManager {
                 sessions = sessions,
                 screenshots = screenshots,
                 reviews = reviews,
-                quizzes = quizzes
+                quizzes = quizzes,
+                clientLastResetAt = prefs.lastKnownResetAt
             )
 
             val payloadJson = json.encodeToString(payload)
@@ -544,7 +570,7 @@ object CloudflareSyncManager {
             }
 
             val cloudData = syncRes.data
-            applyCloudDataToLocal(context, cloudData)
+            applyCloudDataRespectingResetEpoch(context, cloudData)
 
             val occCount = cloudData.occurrences.size
             val taskCount = cloudData.tasks.size
@@ -606,7 +632,7 @@ object CloudflareSyncManager {
             }
 
             val cloudData = syncRes.data
-            applyCloudDataToLocal(context, cloudData)
+            applyCloudDataRespectingResetEpoch(context, cloudData)
             Result.success("Önceki durum yedeği başarıyla geri yüklendi! (${cloudData.occurrences.size} ders)")
         } catch (e: Exception) {
             Log.e(TAG, "restoreFromSnapshot failed: ${e.message}", e)

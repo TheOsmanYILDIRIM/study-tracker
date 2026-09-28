@@ -169,4 +169,45 @@ class SyncReconciliationTest {
         assertFalse("..\\windows.png".matches(regex))
         assertFalse("image;rm -rf".matches(regex))
     }
+
+    @Test
+    fun `shouldApplyRemoteReset correctly decides whether to apply reset epoch`() {
+        // A. server=0, local=0 => reset yok
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(0L, 0L))
+
+        // B. server=100, local=0 => reset gerekli
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(100L, 0L))
+
+        // C. server=100, local=100 => reset yok
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(100L, 100L))
+
+        // D. server=99, local=100 => reset yok
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(99L, 100L))
+
+        // E. server=0, local=100 => reset yok
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(0L, 100L))
+    }
+
+    @Test
+    fun `reset epoch prevents subsequent reset loop when local epoch is updated`() {
+        var localResetAt = 0L
+        val serverResetAt = 1727500000000L
+
+        // First sync: server reset detected
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(serverResetAt, localResetAt))
+
+        // After successful local reset and cloud apply, epoch is persisted
+        localResetAt = serverResetAt
+
+        // Second sync: same epoch received, must NOT trigger reset again
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(serverResetAt, localResetAt))
+
+        // Subsequent child request payload includes acknowledged epoch
+        val childPayload = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "CHILD",
+            clientLastResetAt = localResetAt
+        )
+        assertEquals(serverResetAt, childPayload.clientLastResetAt)
+    }
 }

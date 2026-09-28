@@ -121,6 +121,10 @@ class AppPreferences private constructor(context: Context) {
         get() = prefs.getString(KEY_LAST_STUDY_REMINDER_DATE, null)
         set(value) = prefs.edit().putString(KEY_LAST_STUDY_REMINDER_DATE, value).apply()
 
+    var lastKnownResetAt: Long
+        get() = prefs.getLong(KEY_LAST_KNOWN_RESET_AT, 0L).coerceAtLeast(0L)
+        set(value) = prefs.edit().putLong(KEY_LAST_KNOWN_RESET_AT, value.coerceAtLeast(0L)).apply()
+
     fun setNotificationsEnabled(enabled: Boolean) {
         prefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, enabled).apply()
         _isNotificationsEnabled.value = enabled
@@ -158,6 +162,7 @@ class AppPreferences private constructor(context: Context) {
         private const val KEY_LAST_NOTIFIED_MESSAGE_TIME = "last_notified_message_time"
         private const val KEY_LAST_STUDY_REMINDER_DATE = "last_study_reminder_date"
         private const val KEY_LAST_UNREAD_MESSAGE = "last_unread_message"
+        private const val KEY_LAST_KNOWN_RESET_AT = "last_known_reset_at"
 
         @Volatile
         private var INSTANCE: AppPreferences? = null
