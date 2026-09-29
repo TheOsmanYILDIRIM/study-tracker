@@ -571,6 +571,19 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   if (action === 'PATCH_TASK' && (incoming.patchTask || (incoming.occurrences && incoming.occurrences.length === 1))) {
     const pt = incoming.patchTask || incoming.occurrences[0];
     const taskId = pt.id || pt.occurrenceKey;
+
+    let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+    const expRev = parseExpectedRevision(incoming.expectedRevision !== undefined ? incoming.expectedRevision : pt.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue) {
+      const currentRevision = Number(meta.revision || 0);
+      if (expRev.value !== currentRevision) {
+        return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+      }
+    }
+
     let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [] };
     const idx = planData.tasks.findIndex(t => (t.id || t.occurrenceKey) === taskId);
 
@@ -582,8 +595,11 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
         updatedAt: Date.now()
       };
       planData.updatedAt = Date.now();
+      meta.revision = Number(meta.revision || 0) + 1;
+      meta.updatedAt = Date.now();
       await putKV(env, `${prefix}plan`, planData);
-      return json({ success: true, message: `Ders '${taskId}' güncellendi.` });
+      await putKV(env, `${prefix}meta`, meta);
+      return json({ success: true, message: `Ders '${taskId}' güncellendi.`, revision: meta.revision });
     }
     return error('Görev bulunamadı; tam plan senkronuna düşülmedi.', 404);
   }
@@ -592,16 +608,29 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   if (action === 'DELETE_TASK' || incoming.deleteTaskId) {
     const targetId = incoming.deleteTaskId || incoming.taskId || (incoming.occurrences && incoming.occurrences[0]?.id);
     if (targetId) {
+      let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+      const expRev = parseExpectedRevision(incoming.expectedRevision);
+      if (expRev.hasValue && !expRev.isValid) {
+        return error('INVALID_EXPECTED_REVISION', 400);
+      }
+      if (expRev.hasValue) {
+        const currentRevision = Number(meta.revision || 0);
+        if (expRev.value !== currentRevision) {
+          return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+        }
+      }
+
       let planData = (await getKV(env, `${prefix}plan`)) || { tasks: [] };
       planData.tasks = (planData.tasks || []).filter(t => (t.id || t.occurrenceKey) !== targetId && t.planId !== targetId && (t.id || '').replace(/^.*_/, '') !== targetId);
       planData.updatedAt = Date.now();
-      await putKV(env, `${prefix}plan`, planData);
 
-      let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [] };
       if (!meta.tombstones) meta.tombstones = [];
       if (!meta.tombstones.includes(targetId)) meta.tombstones.push(targetId);
-      await putKV(env, `${prefix}meta`, meta);
+      meta.revision = Number(meta.revision || 0) + 1;
+      meta.updatedAt = Date.now();
 
+      await putKV(env, `${prefix}plan`, planData);
+      await putKV(env, `${prefix}meta`, meta);
       await deleteKV(env, `${prefix}progress:${targetId}`);
       return await handleSync(env, familyCode);
     }
@@ -802,7 +831,7 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
   const method = request.method;
   const prefix = `family:${familyCode}:`;
   let planData = (await getKV(env, `${prefix}plan`)) || { templates: [], tasks: [], plan: null };
-  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], revision: 0 };
+  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
 
   if (method === 'GET') {
     const tombstones = new Set(meta.tombstones || []);
@@ -814,7 +843,18 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
   if (!(await hasAdminAuth(request, env, familyCode))) return error('Geçerli X-Admin-Token zorunludur.', 401);
 
   if (method === 'POST' || method === 'PUT') {
-    const body = await request.json();
+    const body = await request.json().catch(() => ({}));
+    const expRev = parseExpectedRevision(body.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue) {
+      const currentRevision = Number(meta.revision || 0);
+      if (expRev.value !== currentRevision) {
+        return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+      }
+    }
+
     if (Array.isArray(body.tasks)) planData.templates = body.tasks.filter(t => t && t.taskId);
     if (Array.isArray(body.occurrences) && body.occurrences.length > 0) {
       const incoming = body.occurrences.map(normalizeTask).filter(Boolean);
@@ -823,7 +863,7 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
         const oldId = old.id || old.occurrenceKey;
         if (oldId && !incomingIds.has(oldId) && !meta.tombstones.includes(oldId)) meta.tombstones.push(oldId);
       }
-      for (const id of incomingIds) meta.tombstones = meta.tombstones.filter(x => x !== id);
+      for (const id of incomingIds) meta.tombstones = (meta.tombstones || []).filter(x => x !== id);
       planData.tasks = incoming;
     }
     if (body.plan !== undefined) planData.plan = body.plan;
@@ -838,23 +878,55 @@ async function handlePlanAndTasks(request, env, familyCode, path, role) {
 
   if (method === 'PATCH' && (path.includes('/tasks/') || path.includes('/occurrences/'))) {
     const taskId = path.split('/').pop();
-    const body = await request.json();
+    const body = await request.json().catch(() => ({}));
+    const expRev = parseExpectedRevision(body.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue) {
+      const currentRevision = Number(meta.revision || 0);
+      if (expRev.value !== currentRevision) {
+        return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+      }
+    }
+
     const idx = (planData.tasks || []).findIndex(t => (t.id || t.occurrenceKey) === taskId);
     if (idx === -1) return error('Görev bulunamadı', 404);
+
     planData.tasks[idx] = { ...planData.tasks[idx], ...normalizeTask(body), id: taskId, updatedAt: Date.now() };
     planData.updatedAt = Date.now();
+    meta.revision = Number(meta.revision || 0) + 1;
+    meta.updatedAt = Date.now();
     await putKV(env, `${prefix}plan`, planData);
+    await putKV(env, `${prefix}meta`, meta);
     return await handleSync(env, familyCode);
   }
 
   if (method === 'DELETE' && (path.includes('/tasks/') || path.includes('/occurrences/'))) {
+    const url = new URL(request.url);
+    const expRev = parseExpectedRevision(url.searchParams.get('expectedRevision'));
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue) {
+      const currentRevision = Number(meta.revision || 0);
+      if (expRev.value !== currentRevision) {
+        return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+      }
+    }
+
     const taskId = path.split('/').pop();
     const removed = (planData.tasks || []).find(t => (t.id || t.occurrenceKey) === taskId);
     planData.tasks = (planData.tasks || []).filter(t => (t.id || t.occurrenceKey) !== taskId);
+    if (!meta.tombstones) meta.tombstones = [];
     if (!meta.tombstones.includes(taskId)) meta.tombstones.push(taskId);
     if (removed?.planId && !(planData.tasks || []).some(t => t.planId === removed.planId)) {
       planData.templates = (planData.templates || []).filter(t => t.taskId !== removed.planId);
     }
+    planData.updatedAt = Date.now();
+    meta.revision = Number(meta.revision || 0) + 1;
+    meta.updatedAt = Date.now();
+
     await deleteKV(env, `${prefix}progress:${taskId}`);
     await putKV(env, `${prefix}plan`, planData);
     await putKV(env, `${prefix}meta`, meta);

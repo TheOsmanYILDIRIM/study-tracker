@@ -652,6 +652,264 @@ async function runTest() {
   }
   console.log('   ✅ Geçersiz expectedRevision (-1, "abc") istekleri 400 INVALID_EXPECTED_REVISION ile engellendi ve server state korundu.\n');
 
+  // 15. Görev 5B2A: Plan & Task Revision Preconditions & Hardening Tests
+  console.log('1️⃣5️⃣ Görev 5B2A: Plan & Task Revision Preconditions & Hardening Testleri...');
+  const taskRevCode = 'ST-5B2A-2026-TEST-5501';
+  const taskRevPair = await mockFetch('POST', '/api/pair', { familyCode: taskRevCode });
+  const taskRevAdminToken = taskRevPair.data.adminToken;
+  if (!taskRevAdminToken) throw new Error('taskRevAdminToken oluşturulamadı!');
+
+  // Initial setup: create plan with 4 tasks
+  const initialTaskPlan = {
+    familyCode: taskRevCode,
+    plan: { planId: 'plan_5b2a', weekId: '2026-W39', title: '5B2A Initial' },
+    tasks: [
+      { taskId: 'task_5b2a_1', title: 'Task 1', plannedMinutes: 30 },
+      { taskId: 'task_5b2a_2', title: 'Task 2', plannedMinutes: 45 },
+      { taskId: 'task_5b2a_3', title: 'Task 3', plannedMinutes: 20 },
+      { taskId: 'task_5b2a_4', title: 'Task 4', plannedMinutes: 15 }
+    ],
+    occurrences: [
+      { id: 'occ_5b2a_1', planId: 'task_5b2a_1', subject: 'Task 1', targetDurationMin: 30 },
+      { id: 'occ_5b2a_2', planId: 'task_5b2a_2', subject: 'Task 2', targetDurationMin: 45 },
+      { id: 'occ_5b2a_3', planId: 'task_5b2a_3', subject: 'Task 3', targetDurationMin: 20 },
+      { id: 'occ_5b2a_4', planId: 'task_5b2a_4', subject: 'Task 4', targetDurationMin: 15 }
+    ]
+  };
+
+  const initTaskRes = await mockFetch('POST', `/api/sync?code=${taskRevCode}`, initialTaskPlan, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': taskRevAdminToken
+  });
+  if (!initTaskRes.ok) throw new Error(`5B2A initial plan yükleme başarısız: ${JSON.stringify(initTaskRes.data)}`);
+
+  const syncInit = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const rev0 = Number(syncInit.revision || syncInit.meta?.revision || 0);
+  console.log(`   Initial 5B2A snapshot alındı (revision=${rev0})`);
+
+  // A: PATCH_TASK fresh success +1
+  console.log('   A. PATCH_TASK fresh success (+1)...');
+  const patchTaskFreshRes = await mockFetch('POST', `/api/sync?code=${taskRevCode}`, {
+    action: 'PATCH_TASK',
+    expectedRevision: rev0,
+    patchTask: { id: 'occ_5b2a_1', subject: 'Task 1 Fresh Updated', targetDurationMin: 50 }
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (!patchTaskFreshRes.ok || !patchTaskFreshRes.data.success) {
+    throw new Error(`PATCH_TASK fresh başarısız: ${JSON.stringify(patchTaskFreshRes.data)}`);
+  }
+  const taskSyncAfterA = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterA = Number(taskSyncAfterA.revision || taskSyncAfterA.meta?.revision || 0);
+  const occ1AfterA = taskSyncAfterA.occurrences?.find(o => o.id === 'occ_5b2a_1');
+  if (revAfterA !== rev0 + 1 || occ1AfterA?.subject !== 'Task 1 Fresh Updated' || occ1AfterA?.targetDurationMin !== 50) {
+    throw new Error(`Test A doğrulaması başarısız: revision=${revAfterA}, occ1=${JSON.stringify(occ1AfterA)}`);
+  }
+  console.log(`   ✅ Test A başarılı: PATCH_TASK fresh revision=${revAfterA}, subject='${occ1AfterA.subject}'`);
+
+  // B: PATCH_TASK stale 409, unchanged
+  console.log('   B. PATCH_TASK stale 409 (unchanged)...');
+  const patchTaskStaleRes = await mockFetch('POST', `/api/sync?code=${taskRevCode}`, {
+    action: 'PATCH_TASK',
+    expectedRevision: rev0, // stale
+    patchTask: { id: 'occ_5b2a_1', subject: 'Task 1 Stale Attempt', targetDurationMin: 99 }
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (patchTaskStaleRes.status !== 409 || patchTaskStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`PATCH_TASK stale 409 dönmedi: ${JSON.stringify(patchTaskStaleRes)}`);
+  }
+  if (patchTaskStaleRes.data.currentRevision !== revAfterA) {
+    throw new Error(`PATCH_TASK stale currentRevision uyuşmuyor: ${patchTaskStaleRes.data.currentRevision}`);
+  }
+  const taskSyncAfterB = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterB = Number(taskSyncAfterB.revision || taskSyncAfterB.meta?.revision || 0);
+  const occ1AfterB = taskSyncAfterB.occurrences?.find(o => o.id === 'occ_5b2a_1');
+  if (revAfterB !== revAfterA || occ1AfterB?.subject !== 'Task 1 Fresh Updated') {
+    throw new Error(`Test B doğrulaması başarısız: state bozuldu! rev=${revAfterB}`);
+  }
+  console.log('   ✅ Test B başarılı: PATCH_TASK stale 409 REVISION_CONFLICT döndü, revision ve state değişmedi.');
+
+  // C: DELETE_TASK stale 409, task remains, tombstone absent, revision unchanged
+  console.log('   C. DELETE_TASK stale 409 (task remains, tombstone absent, revision unchanged)...');
+  const deleteTaskStaleRes = await mockFetch('POST', `/api/sync?code=${taskRevCode}`, {
+    action: 'DELETE_TASK',
+    expectedRevision: rev0, // stale
+    deleteTaskId: 'occ_5b2a_2'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (deleteTaskStaleRes.status !== 409 || deleteTaskStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`DELETE_TASK stale 409 dönmedi: ${JSON.stringify(deleteTaskStaleRes)}`);
+  }
+  const taskSyncAfterC = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterC = Number(taskSyncAfterC.revision || taskSyncAfterC.meta?.revision || 0);
+  const occ2Present = (taskSyncAfterC.occurrences || []).some(o => o.id === 'occ_5b2a_2');
+  const tombstone2Present = (taskSyncAfterC.deletedOccurrences || taskSyncAfterC.meta?.tombstones || []).includes('occ_5b2a_2');
+  if (revAfterC !== revAfterA || !occ2Present || tombstone2Present) {
+    throw new Error(`Test C doğrulaması başarısız: rev=${revAfterC}, occ2Present=${occ2Present}, tombstone2Present=${tombstone2Present}`);
+  }
+  console.log('   ✅ Test C başarılı: DELETE_TASK stale 409 döndü, task silinmedi, tombstone eklenmedi, revision değişmedi.');
+
+  // D: DELETE_TASK fresh success, removed, +1
+  console.log('   D. DELETE_TASK fresh success (removed, +1)...');
+  const deleteTaskFreshRes = await mockFetch('POST', `/api/sync?code=${taskRevCode}`, {
+    action: 'DELETE_TASK',
+    expectedRevision: revAfterA, // fresh
+    deleteTaskId: 'occ_5b2a_2'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (!deleteTaskFreshRes.ok) {
+    throw new Error(`DELETE_TASK fresh başarısız: ${JSON.stringify(deleteTaskFreshRes.data)}`);
+  }
+  const taskSyncAfterD = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterD = Number(taskSyncAfterD.revision || taskSyncAfterD.meta?.revision || 0);
+  const occ2PresentAfterD = (taskSyncAfterD.occurrences || []).some(o => o.id === 'occ_5b2a_2');
+  const tombstone2PresentAfterD = (taskSyncAfterD.deletedOccurrences || taskSyncAfterD.meta?.tombstones || []).includes('occ_5b2a_2');
+  if (revAfterD !== revAfterA + 1 || occ2PresentAfterD || !tombstone2PresentAfterD) {
+    throw new Error(`Test D doğrulaması başarısız: rev=${revAfterD}, occ2Present=${occ2PresentAfterD}, tombstone=${tombstone2PresentAfterD}`);
+  }
+  console.log(`   ✅ Test D başarılı: DELETE_TASK fresh silindi, tombstone eklendi, revision=${revAfterD}`);
+
+  // E: handlePlanAndTasks POST/PUT fresh +1, stale 409
+  console.log('   E. handlePlanAndTasks POST/PUT fresh +1, stale 409...');
+  const v2PutStaleRes = await mockFetch('PUT', `/api/v2/plan?code=${taskRevCode}`, {
+    expectedRevision: revAfterA, // stale
+    plan: { planId: 'plan_5b2a', title: '5B2A Stale PUT' }
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (v2PutStaleRes.status !== 409 || v2PutStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`v2 PUT stale 409 dönmedi: ${JSON.stringify(v2PutStaleRes)}`);
+  }
+
+  const v2PutFreshRes = await mockFetch('PUT', `/api/v2/plan?code=${taskRevCode}`, {
+    expectedRevision: revAfterD, // fresh
+    plan: { planId: 'plan_5b2a', title: '5B2A Fresh PUT' }
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (!v2PutFreshRes.ok) {
+    throw new Error(`v2 PUT fresh başarısız: ${JSON.stringify(v2PutFreshRes.data)}`);
+  }
+  const taskSyncAfterE = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterE = Number(taskSyncAfterE.revision || taskSyncAfterE.meta?.revision || 0);
+  if (revAfterE !== revAfterD + 1 || taskSyncAfterE.plan?.title !== '5B2A Fresh PUT') {
+    throw new Error(`Test E doğrulaması başarısız: rev=${revAfterE}, title=${taskSyncAfterE.plan?.title}`);
+  }
+  console.log(`   ✅ Test E başarılı: handlePlanAndTasks PUT stale 409 engellendi, fresh +1 (revision=${revAfterE})`);
+
+  // F: v2 PATCH stale 409, fresh +1
+  console.log('   F. v2 PATCH stale 409, fresh +1...');
+  const v2PatchStaleRes = await mockFetch('PATCH', `/api/v2/tasks/occ_5b2a_3?code=${taskRevCode}`, {
+    expectedRevision: revAfterD, // stale
+    subject: 'Task 3 Stale Patch'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (v2PatchStaleRes.status !== 409 || v2PatchStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`v2 PATCH stale 409 dönmedi: ${JSON.stringify(v2PatchStaleRes)}`);
+  }
+
+  const v2Patch404Res = await mockFetch('PATCH', `/api/v2/tasks/occ_non_existent?code=${taskRevCode}`, {
+    expectedRevision: revAfterE,
+    subject: 'Does Not Exist'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+  if (v2Patch404Res.status !== 404) {
+    throw new Error(`v2 PATCH 404 dönmedi: ${v2Patch404Res.status}`);
+  }
+
+  const v2PatchFreshRes = await mockFetch('PATCH', `/api/v2/tasks/occ_5b2a_3?code=${taskRevCode}`, {
+    expectedRevision: revAfterE, // fresh
+    subject: 'Task 3 Fresh Patched',
+    targetDurationMin: 60
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (!v2PatchFreshRes.ok) {
+    throw new Error(`v2 PATCH fresh başarısız: ${JSON.stringify(v2PatchFreshRes.data)}`);
+  }
+  const taskSyncAfterF = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterF = Number(taskSyncAfterF.revision || taskSyncAfterF.meta?.revision || 0);
+  const occ3AfterF = taskSyncAfterF.occurrences?.find(o => o.id === 'occ_5b2a_3');
+  if (revAfterF !== revAfterE + 1 || occ3AfterF?.subject !== 'Task 3 Fresh Patched' || occ3AfterF?.targetDurationMin !== 60) {
+    throw new Error(`Test F doğrulaması başarısız: rev=${revAfterF}, occ3=${JSON.stringify(occ3AfterF)}`);
+  }
+  console.log(`   ✅ Test F başarılı: v2 PATCH stale 409 ve 404 korundu, fresh +1 (revision=${revAfterF})`);
+
+  // G: v2 DELETE using chosen transport stale 409/no mutation, fresh +1
+  console.log('   G. v2 DELETE (?expectedRevision=...) stale 409/no mutation, fresh +1...');
+  const v2DeleteStaleRes = await mockFetch('DELETE', `/api/v2/tasks/occ_5b2a_4?code=${taskRevCode}&expectedRevision=${revAfterE}`, null, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': taskRevAdminToken
+  });
+
+  if (v2DeleteStaleRes.status !== 409 || v2DeleteStaleRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`v2 DELETE stale 409 dönmedi: ${JSON.stringify(v2DeleteStaleRes)}`);
+  }
+
+  const taskSyncAfterGStale = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterGStale = Number(taskSyncAfterGStale.revision || taskSyncAfterGStale.meta?.revision || 0);
+  const occ4Present = (taskSyncAfterGStale.occurrences || []).some(o => o.id === 'occ_5b2a_4');
+  if (revAfterGStale !== revAfterF || !occ4Present) {
+    throw new Error(`Test G stale doğrulaması başarısız: rev=${revAfterGStale}, occ4Present=${occ4Present}`);
+  }
+
+  const v2DeleteFreshRes = await mockFetch('DELETE', `/api/v2/tasks/occ_5b2a_4?code=${taskRevCode}&expectedRevision=${revAfterF}`, null, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': taskRevAdminToken
+  });
+
+  if (!v2DeleteFreshRes.ok) {
+    throw new Error(`v2 DELETE fresh başarısız: ${JSON.stringify(v2DeleteFreshRes.data)}`);
+  }
+  const taskSyncAfterGFresh = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterGFresh = Number(taskSyncAfterGFresh.revision || taskSyncAfterGFresh.meta?.revision || 0);
+  const occ4PresentAfterGFresh = (taskSyncAfterGFresh.occurrences || []).some(o => o.id === 'occ_5b2a_4');
+  const tombstone4Present = (taskSyncAfterGFresh.deletedOccurrences || taskSyncAfterGFresh.meta?.tombstones || []).includes('occ_5b2a_4');
+  if (revAfterGFresh !== revAfterF + 1 || occ4PresentAfterGFresh || !tombstone4Present) {
+    throw new Error(`Test G fresh doğrulaması başarısız: rev=${revAfterGFresh}, occ4Present=${occ4PresentAfterGFresh}, tombstone4=${tombstone4Present}`);
+  }
+  console.log(`   ✅ Test G başarılı: v2 DELETE query transport stale 409 korundu, fresh +1 (revision=${revAfterGFresh})`);
+
+  // H: one invalid expectedRevision on handlePlanAndTasks -> 400, state unchanged
+  console.log('   H. Invalid expectedRevision on handlePlanAndTasks -> 400, state unchanged...');
+  const invalidPutRes = await mockFetch('PUT', `/api/v2/plan?code=${taskRevCode}`, {
+    expectedRevision: 'not-a-number',
+    plan: { title: 'Invalid Plan' }
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (invalidPutRes.status !== 400 || invalidPutRes.data.error !== 'INVALID_EXPECTED_REVISION') {
+    throw new Error(`Invalid expectedRevision 400 dönmedi: ${JSON.stringify(invalidPutRes)}`);
+  }
+
+  const invalidDeleteRes = await mockFetch('DELETE', `/api/v2/tasks/occ_5b2a_3?code=${taskRevCode}&expectedRevision=-1`, null, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': taskRevAdminToken
+  });
+
+  if (invalidDeleteRes.status !== 400 || invalidDeleteRes.data.error !== 'INVALID_EXPECTED_REVISION') {
+    throw new Error(`Invalid expectedRevision DELETE 400 dönmedi: ${JSON.stringify(invalidDeleteRes)}`);
+  }
+
+  const taskSyncAfterH = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterH = Number(taskSyncAfterH.revision || taskSyncAfterH.meta?.revision || 0);
+  if (revAfterH !== revAfterGFresh) {
+    throw new Error(`Test H state bozuldu: rev=${revAfterH}, beklenen=${revAfterGFresh}`);
+  }
+  console.log('   ✅ Test H başarılı: 400 INVALID_EXPECTED_REVISION istekleri sunucu durumunu ve revizyonu değiştirmedi.');
+
+  // I: one legacy no-expectedRevision mutation -> 200; log migration compatibility
+  console.log('   I. Legacy no-expectedRevision mutation -> 200 (migration compatibility)...');
+  const legacyTaskPatchRes = await mockFetch('PATCH', `/api/v2/tasks/occ_5b2a_3?code=${taskRevCode}`, {
+    subject: 'Task 3 Legacy Mutated Without Revision'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': taskRevAdminToken });
+
+  if (!legacyTaskPatchRes.ok) {
+    throw new Error(`Legacy mutation başarısız: ${JSON.stringify(legacyTaskPatchRes.data)}`);
+  }
+  const taskSyncAfterI = (await mockFetch('GET', `/api/sync?code=${taskRevCode}`)).data;
+  const revAfterI = Number(taskSyncAfterI.revision || taskSyncAfterI.meta?.revision || 0);
+  const occ3AfterI = taskSyncAfterI.occurrences?.find(o => o.id === 'occ_5b2a_3');
+  if (revAfterI !== revAfterGFresh + 1 || occ3AfterI?.subject !== 'Task 3 Legacy Mutated Without Revision') {
+    throw new Error(`Test I doğrulaması başarısız: rev=${revAfterI}, occ3=${JSON.stringify(occ3AfterI)}`);
+  }
+  console.log('   ✅ legacy mutation without expectedRevision remains allowed during migration phase');
+  console.log(`   ✅ Test I başarılı: Legacy mutation 200 ile uygulandı (revision=${revAfterI}).\n`);
+
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
   console.log('🎉 ========================================================');
