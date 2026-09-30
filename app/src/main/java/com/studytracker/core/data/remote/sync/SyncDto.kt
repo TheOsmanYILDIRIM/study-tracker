@@ -126,6 +126,7 @@ data class SharedFamilySyncPayload(
     val quizzes: List<Quiz> = emptyList(),
     val messages: List<RemoteMessageSyncDto> = emptyList(),
     val clientLastResetAt: Long = 0L,
+    val expectedRevision: Long? = null,
     val updatedAt: Long = System.currentTimeMillis()
 )
 

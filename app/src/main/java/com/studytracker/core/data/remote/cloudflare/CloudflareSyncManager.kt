@@ -42,6 +42,21 @@ data class CloudSyncResponse(
 )
 
 @Serializable
+data class SyncErrorResponse(
+    val success: Boolean = false,
+    val error: String? = null,
+    val message: String? = null,
+    val currentRevision: Long? = null,
+    val serverResetAt: Long? = null
+)
+
+class RevisionConflictException(
+    override val message: String,
+    val currentRevision: Long? = null
+) : Exception(message)
+
+
+@Serializable
 data class CloudSyncPayloadWrapper(
     val familyCode: String = "",
     val updatedAt: Long = 0L,
@@ -109,6 +124,10 @@ object CloudflareSyncManager {
 
             if (!syncRes.success || syncRes.data == null) {
                 return@withContext Result.failure(Exception(syncRes.error ?: "Buluttan veri alınamadı"))
+            }
+
+            if (syncRes.data.revision >= 0L) {
+                prefs.lastKnownServerRevision = syncRes.data.revision
             }
 
             Result.success(syncRes.data)
@@ -338,6 +357,32 @@ object CloudflareSyncManager {
         return serverResetAt > 0L && serverResetAt > lastKnownResetAt.coerceAtLeast(0L)
     }
 
+    internal fun isAuthoritativeRole(role: String): Boolean {
+        return role.uppercase().trim() in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI")
+    }
+
+    internal fun resolveExpectedRevisionForSync(
+        senderRole: String,
+        lastKnownRevision: Long?
+    ): Long? {
+        if (!isAuthoritativeRole(senderRole)) return null
+        return if (lastKnownRevision != null && lastKnownRevision >= 0L) lastKnownRevision else null
+    }
+
+    internal fun parseRevisionFromConflictBody(errorBody: String?): Long? {
+        if (errorBody.isNullOrBlank()) return null
+        return try {
+            val parsed = json.decodeFromString<SyncErrorResponse>(errorBody)
+            if (parsed.currentRevision != null && parsed.currentRevision >= 0L) {
+                parsed.currentRevision
+            } else {
+                null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
     internal suspend fun applyCloudDataRespectingResetEpoch(
         context: Context,
         cloudData: CloudSyncPayloadWrapper
@@ -356,6 +401,9 @@ object CloudflareSyncManager {
 
         if (serverResetAt > localResetAt) {
             prefs.lastKnownResetAt = serverResetAt
+        }
+        if (cloudData.revision >= 0L) {
+            prefs.lastKnownServerRevision = cloudData.revision
         }
     }
 
@@ -521,6 +569,8 @@ object CloudflareSyncManager {
                 it.toDomain(json)
             }
 
+            val expectedRevision = resolveExpectedRevisionForSync(effectiveRole, prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = effectiveRole,
@@ -533,7 +583,8 @@ object CloudflareSyncManager {
                 screenshots = screenshots,
                 reviews = reviews,
                 quizzes = quizzes,
-                clientLastResetAt = prefs.lastKnownResetAt
+                clientLastResetAt = prefs.lastKnownResetAt,
+                expectedRevision = expectedRevision
             )
 
             val payloadJson = json.encodeToString(payload)
@@ -560,6 +611,18 @@ object CloudflareSyncManager {
             val responseCode = conn.responseCode
             if (responseCode !in 200..299) {
                 val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
                 return@withContext Result.failure(Exception("Cloudflare Hatası ($responseCode): $errorStream"))
             }
 

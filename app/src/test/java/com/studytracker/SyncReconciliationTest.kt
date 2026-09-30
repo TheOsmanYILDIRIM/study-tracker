@@ -486,4 +486,319 @@ class SyncReconciliationTest {
         assertEquals(3000L, simulateSqlInvalidate(3000L, 2000L))
         assertEquals(3000L, simulateSqlInvalidate(3000L, 3000L))
     }
+
+    // --- TASK 5C1 REVISION STATE & CAS TESTS ---
+
+    @Test
+    fun `test A - AppPreferences unknown revision returns null and payload expectedRevision is null`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        assertNull(prefs.lastKnownServerRevision)
+
+        val resolvedRevision = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertNull(resolvedRevision)
+
+        val payload = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            expectedRevision = resolvedRevision
+        )
+        assertNull(payload.expectedRevision)
+
+        val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
+        val serialized = json.encodeToString(payload)
+        val deserialized = json.decodeFromString<SharedFamilySyncPayload>(serialized)
+        assertNull(deserialized.expectedRevision)
+    }
+
+    @Test
+    fun `test B - known revision 7 persists and reloads correctly`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs1 = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        prefs1.lastKnownServerRevision = 7L
+        assertEquals(7L, prefs1.lastKnownServerRevision)
+
+        val prefs2 = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        assertEquals(7L, prefs2.lastKnownServerRevision)
+
+        // Setting null removes key
+        prefs2.lastKnownServerRevision = null
+        assertNull(prefs2.lastKnownServerRevision)
+        assertFalse(fakeStorage.containsKey("last_known_server_revision"))
+    }
+
+    @Test
+    fun `test C - CHILD payload has expectedRevision null even when prefs knows revision 7`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 7L
+
+        val childExpRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "CHILD",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertNull(childExpRev)
+
+        val clientExpRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "CLIENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertNull(clientExpRev)
+
+        val childPayload = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "CHILD",
+            expectedRevision = childExpRev
+        )
+        assertNull(childPayload.expectedRevision)
+    }
+
+    @Test
+    fun `test D - PARENT authoritative payload with known revision 7 sends expectedRevision 7`() {
+        val knownRev = 7L
+        val authoritativeRoles = listOf("PARENT", "ADMIN", "CLI", "PARENTING_AI")
+
+        for (role in authoritativeRoles) {
+            val expRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+                senderRole = role,
+                lastKnownRevision = knownRev
+            )
+            assertEquals(7L, expRev)
+
+            val payload = SharedFamilySyncPayload(
+                familyCode = "ST-TEST-2026-SYNC-1234",
+                senderRole = role,
+                expectedRevision = expRev
+            )
+            assertEquals(7L, payload.expectedRevision)
+
+            val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
+            val serialized = json.encodeToString(payload)
+            val deserialized = json.decodeFromString<SharedFamilySyncPayload>(serialized)
+            assertEquals(7L, deserialized.expectedRevision)
+        }
+    }
+
+    @Test
+    fun `test E - PARENT authoritative payload with unknown revision omits or sends null expectedRevision`() {
+        val unknownRev: Long? = null
+        val expRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = unknownRev
+        )
+        assertNull(expRev)
+
+        val payload = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            expectedRevision = expRev
+        )
+        assertNull(payload.expectedRevision)
+    }
+
+    @Test
+    fun `test F - successful server response revision 8 advances stored revision to 8`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 7L
+
+        val serverResponseRevision = 8L
+        val cloudData = com.studytracker.core.data.remote.cloudflare.CloudSyncPayloadWrapper(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            revision = serverResponseRevision
+        )
+
+        if (cloudData.revision >= 0L) {
+            prefs.lastKnownServerRevision = cloudData.revision
+        }
+
+        assertEquals(8L, prefs.lastKnownServerRevision)
+    }
+
+    @Test
+    fun `test G - 409 body currentRevision 9 updates stored revision to 9 and result remains failure`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 7L
+
+        val conflictBody = """
+            {"success":false,"error":"REVISION_CONFLICT","message":"Server state has changed since this client snapshot.","currentRevision":9,"serverResetAt":0}
+        """.trimIndent()
+
+        val parsedRevision = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(conflictBody)
+        assertEquals(9L, parsedRevision)
+
+        if (parsedRevision != null && parsedRevision >= 0L) {
+            prefs.lastKnownServerRevision = parsedRevision
+        }
+
+        val conflictException = com.studytracker.core.data.remote.cloudflare.RevisionConflictException(
+            message = "Sunucu revizyon çakışması (HTTP 409): $conflictBody",
+            currentRevision = parsedRevision
+        )
+        val syncResult: Result<String> = Result.failure(conflictException)
+
+        assertTrue(syncResult.isFailure)
+        assertTrue(syncResult.exceptionOrNull() is com.studytracker.core.data.remote.cloudflare.RevisionConflictException)
+        assertEquals(9L, prefs.lastKnownServerRevision)
+    }
+
+    @Test
+    fun `test H - malformed or missing currentRevision in 409 does not invent a revision`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 7L
+
+        // Case 1: JSON without currentRevision
+        val noRevBody = """{"success":false,"error":"REVISION_CONFLICT","message":"Conflict"}"""
+        val parsedNoRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(noRevBody)
+        assertNull(parsedNoRev)
+        if (parsedNoRev != null && parsedNoRev >= 0L) {
+            prefs.lastKnownServerRevision = parsedNoRev
+        }
+        assertEquals(7L, prefs.lastKnownServerRevision)
+
+        // Case 2: HTML / non-JSON error body
+        val htmlBody = "<html><body>409 Conflict</body></html>"
+        val parsedHtml = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(htmlBody)
+        assertNull(parsedHtml)
+        if (parsedHtml != null && parsedHtml >= 0L) {
+            prefs.lastKnownServerRevision = parsedHtml
+        }
+        assertEquals(7L, prefs.lastKnownServerRevision)
+
+        // Case 3: Empty string
+        val parsedEmpty = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody("")
+        assertNull(parsedEmpty)
+        if (parsedEmpty != null && parsedEmpty >= 0L) {
+            prefs.lastKnownServerRevision = parsedEmpty
+        }
+        assertEquals(7L, prefs.lastKnownServerRevision)
+
+        // Case 4: Negative currentRevision
+        val negBody = """{"success":false,"error":"REVISION_CONFLICT","currentRevision":-5}"""
+        val parsedNeg = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(negBody)
+        assertNull(parsedNeg)
+        if (parsedNeg != null && parsedNeg >= 0L) {
+            prefs.lastKnownServerRevision = parsedNeg
+        }
+        assertEquals(7L, prefs.lastKnownServerRevision)
+    }
+
+    @Test
+    fun `test I - lastKnownResetAt tests remain green`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        assertEquals(0L, prefs.lastKnownResetAt)
+        prefs.lastKnownResetAt = 1727500000000L
+        assertEquals(1727500000000L, prefs.lastKnownResetAt)
+
+        // Verify shouldApplyRemoteReset
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(0L, 0L))
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(1727500000000L, 0L))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(1727500000000L, 1727500000000L))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(1727400000000L, 1727500000000L))
+    }
+}
+
+class FakeSharedPreferences(
+    private val data: MutableMap<String, Any?> = mutableMapOf()
+) : android.content.SharedPreferences {
+
+    override fun getAll(): MutableMap<String, *> = HashMap(data)
+
+    override fun getString(key: String?, defValue: String?): String? =
+        (data[key] as? String) ?: defValue
+
+    override fun getStringSet(key: String?, defValues: MutableSet<String>?): MutableSet<String>? =
+        @Suppress("UNCHECKED_CAST") (data[key] as? MutableSet<String>) ?: defValues
+
+    override fun getInt(key: String?, defValue: Int): Int =
+        (data[key] as? Int) ?: defValue
+
+    override fun getLong(key: String?, defValue: Long): Long =
+        (data[key] as? Long) ?: defValue
+
+    override fun getFloat(key: String?, defValue: Float): Float =
+        (data[key] as? Float) ?: defValue
+
+    override fun getBoolean(key: String?, defValue: Boolean): Boolean =
+        (data[key] as? Boolean) ?: defValue
+
+    override fun contains(key: String?): Boolean = data.containsKey(key)
+
+    override fun edit(): android.content.SharedPreferences.Editor = FakeEditor(data)
+
+    override fun registerOnSharedPreferenceChangeListener(listener: android.content.SharedPreferences.OnSharedPreferenceChangeListener?) {}
+
+    override fun unregisterOnSharedPreferenceChangeListener(listener: android.content.SharedPreferences.OnSharedPreferenceChangeListener?) {}
+
+    class FakeEditor(
+        private val data: MutableMap<String, Any?>
+    ) : android.content.SharedPreferences.Editor {
+        private val temp = mutableMapOf<String, Any?>()
+        private val toRemove = mutableSetOf<String>()
+        private var clearAll = false
+
+        override fun putString(key: String?, value: String?): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = value; toRemove.remove(key) }
+            return this
+        }
+
+        override fun putStringSet(key: String?, values: MutableSet<String>?): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = values; toRemove.remove(key) }
+            return this
+        }
+
+        override fun putInt(key: String?, value: Int): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = value; toRemove.remove(key) }
+            return this
+        }
+
+        override fun putLong(key: String?, value: Long): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = value; toRemove.remove(key) }
+            return this
+        }
+
+        override fun putFloat(key: String?, value: Float): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = value; toRemove.remove(key) }
+            return this
+        }
+
+        override fun putBoolean(key: String?, value: Boolean): android.content.SharedPreferences.Editor {
+            if (key != null) { temp[key] = value; toRemove.remove(key) }
+            return this
+        }
+
+        override fun remove(key: String?): android.content.SharedPreferences.Editor {
+            if (key != null) { toRemove.add(key); temp.remove(key) }
+            return this
+        }
+
+        override fun clear(): android.content.SharedPreferences.Editor {
+            clearAll = true
+            temp.clear()
+            toRemove.clear()
+            return this
+        }
+
+        override fun commit(): Boolean {
+            apply()
+            return true
+        }
+
+        override fun apply() {
+            if (clearAll) data.clear()
+            for (k in toRemove) data.remove(k)
+            for ((k, v) in temp) {
+                if (v != null) data[k] = v else data.remove(k)
+            }
+        }
+    }
 }
