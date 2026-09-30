@@ -129,4 +129,137 @@ data class QuizEntity(
     val studentNote: String? = null
 )
 
+// --- V2 ENTITIES ---
+
+@Entity(
+    tableName = "courses",
+    indices = [
+        Index(value = ["familyCode", "isArchived", "orderKey"])
+    ]
+)
+data class CourseEntity(
+    @PrimaryKey val id: String,
+    val familyCode: String,
+    val title: String,
+    val subject: String,
+    @ColumnInfo(defaultValue = "9") val gradeLevel: Int = 9,
+    val description: String? = null,
+    @ColumnInfo(defaultValue = "1000.0") val orderKey: Double = 1000.0,
+    @ColumnInfo(defaultValue = "0") val isArchived: Boolean = false,
+    val createdAt: Long,
+    val updatedAt: Long
+)
+
+@Entity(
+    tableName = "lessons",
+    indices = [
+        Index(value = ["courseId", "isArchived", "orderKey"]),
+        Index(value = ["familyCode"])
+    ]
+)
+data class LessonEntity(
+    @PrimaryKey val id: String,
+    val courseId: String,
+    val familyCode: String,
+    val title: String,
+    @ColumnInfo(defaultValue = "1000.0") val orderKey: Double = 1000.0,
+    @ColumnInfo(defaultValue = "0") val isArchived: Boolean = false,
+    val createdAt: Long,
+    val updatedAt: Long
+)
+
+@Entity(
+    tableName = "learning_items",
+    indices = [
+        Index(value = ["lessonId", "isArchived", "orderKey"]),
+        Index(value = ["familyCode", "stableKey"])
+    ]
+)
+data class LearningItemEntity(
+    @PrimaryKey val id: String,
+    val lessonId: String,
+    val familyCode: String,
+    val itemType: ItemType,
+    val displayLabel: String,
+    val stableKey: String,
+    @ColumnInfo(defaultValue = "1000.0") val orderKey: Double = 1000.0,
+    val currentVersionId: String,
+    @ColumnInfo(defaultValue = "0") val isArchived: Boolean = false,
+    val createdAt: Long,
+    val updatedAt: Long
+)
+
+@Entity(
+    tableName = "learning_item_versions",
+    indices = [
+        Index(value = ["itemId", "versionNumber"], unique = true)
+    ]
+)
+data class LearningItemVersionEntity(
+    @PrimaryKey val id: String,
+    val itemId: String,
+    val versionNumber: Int,
+    val title: String,
+    val contentUrl: String? = null,
+    val payloadJson: String? = null,
+    val changelog: String? = null,
+    val createdAt: Long
+)
+
+@Entity(
+    tableName = "item_prerequisites",
+    indices = [
+        Index(value = ["itemId", "requiredItemId"], unique = true),
+        Index(value = ["itemId"])
+    ]
+)
+data class ItemPrerequisiteEntity(
+    @PrimaryKey val id: String,
+    val itemId: String,
+    val requiredItemId: String,
+    val minScore: Double? = null,
+    val createdAt: Long
+)
+
+@Entity(
+    tableName = "attempts",
+    indices = [
+        Index(value = ["familyCode", "studentId", "clientAttemptId"], unique = true),
+        Index(value = ["familyCode", "studentId", "itemId", "createdAt"])
+    ]
+)
+data class AttemptEntity(
+    @PrimaryKey val id: String,
+    val clientAttemptId: String,
+    val familyCode: String,
+    val studentId: String,
+    val itemId: String,
+    val versionId: String,
+    val status: AttemptStatus,
+    val score: Double? = null,
+    @ColumnInfo(defaultValue = "0") val durationSeconds: Int = 0,
+    val startedAt: Long,
+    val completedAt: Long? = null,
+    val metadataJson: String? = null,
+    val createdAt: Long
+)
+
+@Entity(
+    tableName = "quiz_answers",
+    indices = [
+        Index(value = ["attemptId"])
+    ]
+)
+data class QuizAnswerMetricEntity(
+    @PrimaryKey val id: String,
+    val attemptId: String,
+    val questionId: String,
+    val questionIndex: Int,
+    val selectedOption: String? = null,
+    @ColumnInfo(defaultValue = "0") val isCorrect: Boolean = false,
+    @ColumnInfo(defaultValue = "0") val durationSeconds: Int = 0,
+    val createdAt: Long
+)
+
+
 

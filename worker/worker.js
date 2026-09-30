@@ -14,6 +14,8 @@ const CORS_HEADERS = {
 const json = (data, status = 200) => new Response(JSON.stringify(data), { status, headers: CORS_HEADERS });
 const error = (msg, status = 400) => json({ success: false, error: msg }, status);
 
+import { handleV2Request } from './v2/routes.js';
+
 // Local test (wrangler / node test-sync) için geçici bellek hafızası
 const inMemoryStore = new Map();
 
@@ -301,6 +303,12 @@ export default {
     }
 
     try {
+      // 2.5 V2 CURRICULUM & MEASUREMENT SLICE (/api/v3/*)
+      if (path.startsWith('/api/v3/')) {
+        const hasAdmin = await hasAdminAuth(request, env, familyCode);
+        return await handleV2Request(request, env, inMemoryStore, familyCode, role, hasAdmin);
+      }
+
       // 3. READ-ONLY AGGREGATED SYNC (v1 & v2 Uyumlu)
       if ((path === '/api/v2/sync' || path === '/api/sync') && method === 'GET') {
         return await handleSync(env, familyCode);

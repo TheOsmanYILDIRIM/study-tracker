@@ -11,6 +11,7 @@ const { loadConfig, setFamilyCode, setAdminToken } = require('../lib/config');
 const { fetchFamilyData, pushFamilyData, restoreFamilyData, pairFamily } = require('../lib/api');
 const { parseDSL, exportToDSL } = require('../lib/dsl-parser');
 const { colors, statusBadge, printHeader, renderDashboard } = require('../lib/renderer');
+const { handleV2Command } = require('../lib/v2-cli');
 
 function printUsage() {
   console.log(`
@@ -43,6 +44,17 @@ ${colors.bold}Sıfırlama & Geri Alma (Snapshot & Fallback):${colors.reset}
   ${colors.green}studytracker-cli restore${colors.reset}                     Sıfırlama öncesi 24 saatlik yedeği geri yükler (Undo)
   ${colors.green}studytracker-cli config set-code <ST-XXXX>${colors.reset}   Varsayılan aile kodunu kaydeder
   ${colors.green}studytracker-cli config get-code${colors.reset}             Aktif aile kodunu gösterir
+
+${colors.bold}V2 Müfredat, Ölçme & Dış AI Entegrasyonu:${colors.reset}
+  ${colors.green}studytracker-cli v2 catalog [--course <id>] [--json]${colors.reset}       V2 müfredat ağacını görüntüler
+  ${colors.green}studytracker-cli v2 course list|create|archive ...${colors.reset}          Ders yönetimi
+  ${colors.green}studytracker-cli v2 lesson list|create|archive ...${colors.reset}          Ünite/konu yönetimi
+  ${colors.green}studytracker-cli v2 item list|get|create|update-content ...${colors.reset} Öğrenme öğeleri ve sürümleme
+  ${colors.green}studytracker-cli v2 item insert-before|insert-after ...${colors.reset}     Modüler/Puzzle sıralama
+  ${colors.green}studytracker-cli v2 prereq add|remove|list ...${colors.reset}              Ön koşul / bağımlılık grafiği
+  ${colors.green}studytracker-cli v2 attempts list|record ...${colors.reset}                İdempotent çalışma ve denemeler
+  ${colors.green}studytracker-cli v2 progress [--student <id>] [--json]${colors.reset}      Deterministik ölçme ve ilerleme
+  ${colors.green}studytracker-cli v2 export-context [--student <id>]${colors.reset}         Dış AI modelleri için analitik bağlam
 
 ${colors.dim}Global parametreler: --code <ST-XXXX>, --json${colors.reset}
 `);
@@ -111,6 +123,12 @@ async function main() {
 
   try {
     switch (cmd) {
+      // 0. V2 MEASUREMENT & CURRICULUM COMMANDS
+      case 'v2': {
+        await handleV2Command(parsed, familyCode);
+        break;
+      }
+
       // 1. STATUS
       case 'status':
       case 'get': {

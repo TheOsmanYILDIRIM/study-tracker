@@ -232,3 +232,168 @@ interface QuizDao {
     suspend fun clearQuizzes()
 }
 
+// --- V2 DAOS ---
+
+@Dao
+interface CourseDao {
+    @Query("SELECT * FROM courses WHERE familyCode = :familyCode AND isArchived = 0 ORDER BY orderKey ASC")
+    fun getActiveCourses(familyCode: String): Flow<List<CourseEntity>>
+
+    @Query("SELECT * FROM courses WHERE familyCode = :familyCode ORDER BY orderKey ASC")
+    fun getAllCourses(familyCode: String): Flow<List<CourseEntity>>
+
+    @Query("SELECT * FROM courses WHERE id = :id LIMIT 1")
+    suspend fun getCourseById(id: String): CourseEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertCourse(course: CourseEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertCourses(courses: List<CourseEntity>)
+
+    @Query("UPDATE courses SET isArchived = 1, updatedAt = :updatedAt WHERE id = :id")
+    suspend fun archiveCourse(id: String, updatedAt: Long = System.currentTimeMillis())
+
+    @Query("DELETE FROM courses")
+    suspend fun clearCourses()
+}
+
+@Dao
+interface LessonDao {
+    @Query("SELECT * FROM lessons WHERE courseId = :courseId AND isArchived = 0 ORDER BY orderKey ASC")
+    fun getActiveLessonsForCourse(courseId: String): Flow<List<LessonEntity>>
+
+    @Query("SELECT * FROM lessons WHERE familyCode = :familyCode AND isArchived = 0 ORDER BY orderKey ASC")
+    fun getActiveLessonsForFamily(familyCode: String): Flow<List<LessonEntity>>
+
+    @Query("SELECT * FROM lessons WHERE id = :id LIMIT 1")
+    suspend fun getLessonById(id: String): LessonEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertLesson(lesson: LessonEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertLessons(lessons: List<LessonEntity>)
+
+    @Query("UPDATE lessons SET isArchived = 1, updatedAt = :updatedAt WHERE id = :id")
+    suspend fun archiveLesson(id: String, updatedAt: Long = System.currentTimeMillis())
+
+    @Query("DELETE FROM lessons")
+    suspend fun clearLessons()
+}
+
+@Dao
+interface LearningItemDao {
+    @Query("SELECT * FROM learning_items WHERE lessonId = :lessonId AND isArchived = 0 ORDER BY orderKey ASC")
+    fun getActiveItemsForLesson(lessonId: String): Flow<List<LearningItemEntity>>
+
+    @Query("SELECT * FROM learning_items WHERE familyCode = :familyCode AND isArchived = 0 ORDER BY orderKey ASC")
+    fun getActiveItemsForFamily(familyCode: String): Flow<List<LearningItemEntity>>
+
+    @Query("SELECT * FROM learning_items WHERE id = :id LIMIT 1")
+    suspend fun getItemById(id: String): LearningItemEntity?
+
+    @Query("SELECT * FROM learning_items WHERE id = :id LIMIT 1")
+    fun observeItemById(id: String): Flow<LearningItemEntity?>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertItem(item: LearningItemEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertItems(items: List<LearningItemEntity>)
+
+    @Query("UPDATE learning_items SET orderKey = :newOrderKey, updatedAt = :updatedAt WHERE id = :id")
+    suspend fun updateOrderKey(id: String, newOrderKey: Double, updatedAt: Long = System.currentTimeMillis())
+
+    @Query("UPDATE learning_items SET currentVersionId = :versionId, updatedAt = :updatedAt WHERE id = :id")
+    suspend fun updateCurrentVersion(id: String, versionId: String, updatedAt: Long = System.currentTimeMillis())
+
+    @Query("UPDATE learning_items SET isArchived = 1, updatedAt = :updatedAt WHERE id = :id")
+    suspend fun archiveItem(id: String, updatedAt: Long = System.currentTimeMillis())
+
+    @Query("DELETE FROM learning_items")
+    suspend fun clearItems()
+}
+
+@Dao
+interface LearningItemVersionDao {
+    @Query("SELECT * FROM learning_item_versions WHERE itemId = :itemId ORDER BY versionNumber ASC")
+    fun getVersionsForItem(itemId: String): Flow<List<LearningItemVersionEntity>>
+
+    @Query("SELECT * FROM learning_item_versions WHERE itemId = :itemId ORDER BY versionNumber ASC")
+    suspend fun getVersionsForItemOnce(itemId: String): List<LearningItemVersionEntity>
+
+    @Query("SELECT * FROM learning_item_versions WHERE id = :id LIMIT 1")
+    suspend fun getVersionById(id: String): LearningItemVersionEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertVersion(version: LearningItemVersionEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertVersions(versions: List<LearningItemVersionEntity>)
+
+    @Query("DELETE FROM learning_item_versions")
+    suspend fun clearVersions()
+}
+
+@Dao
+interface ItemPrerequisiteDao {
+    @Query("SELECT * FROM item_prerequisites WHERE itemId = :itemId")
+    fun getPrerequisitesForItem(itemId: String): Flow<List<ItemPrerequisiteEntity>>
+
+    @Query("SELECT * FROM item_prerequisites WHERE itemId = :itemId")
+    suspend fun getPrerequisitesForItemOnce(itemId: String): List<ItemPrerequisiteEntity>
+
+    @Query("SELECT * FROM item_prerequisites")
+    suspend fun getAllPrerequisitesOnce(): List<ItemPrerequisiteEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertPrerequisite(prereq: ItemPrerequisiteEntity)
+
+    @Query("DELETE FROM item_prerequisites WHERE itemId = :itemId AND requiredItemId = :requiredItemId")
+    suspend fun deletePrerequisite(itemId: String, requiredItemId: String)
+
+    @Query("DELETE FROM item_prerequisites")
+    suspend fun clearPrerequisites()
+}
+
+@Dao
+interface AttemptDao {
+    @Query("SELECT * FROM attempts WHERE familyCode = :familyCode AND studentId = :studentId ORDER BY createdAt DESC")
+    fun getAttemptsForStudent(familyCode: String, studentId: String): Flow<List<AttemptEntity>>
+
+    @Query("SELECT * FROM attempts WHERE familyCode = :familyCode AND studentId = :studentId AND itemId = :itemId ORDER BY createdAt DESC")
+    fun getAttemptsForItem(familyCode: String, studentId: String, itemId: String): Flow<List<AttemptEntity>>
+
+    @Query("SELECT * FROM attempts WHERE familyCode = :familyCode AND studentId = :studentId AND clientAttemptId = :clientAttemptId LIMIT 1")
+    suspend fun getAttemptByClientId(familyCode: String, studentId: String, clientAttemptId: String): AttemptEntity?
+
+    @Query("SELECT * FROM attempts WHERE id = :id LIMIT 1")
+    suspend fun getAttemptById(id: String): AttemptEntity?
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertAttempt(attempt: AttemptEntity): Long
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertAttempts(attempts: List<AttemptEntity>)
+
+    @Query("DELETE FROM attempts")
+    suspend fun clearAttempts()
+}
+
+@Dao
+interface QuizAnswerMetricDao {
+    @Query("SELECT * FROM quiz_answers WHERE attemptId = :attemptId ORDER BY questionIndex ASC")
+    fun getAnswersForAttempt(attemptId: String): Flow<List<QuizAnswerMetricEntity>>
+
+    @Query("SELECT * FROM quiz_answers WHERE attemptId = :attemptId ORDER BY questionIndex ASC")
+    suspend fun getAnswersForAttemptOnce(attemptId: String): List<QuizAnswerMetricEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertAnswerMetrics(answers: List<QuizAnswerMetricEntity>)
+
+    @Query("DELETE FROM quiz_answers")
+    suspend fun clearAnswerMetrics()
+}
+
+

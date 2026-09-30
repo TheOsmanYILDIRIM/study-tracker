@@ -19,9 +19,16 @@ import com.studytracker.core.data.local.db.entity.*
         SessionEntity::class,
         ScreenshotEntity::class,
         ReviewEntity::class,
-        QuizEntity::class
+        QuizEntity::class,
+        CourseEntity::class,
+        LessonEntity::class,
+        LearningItemEntity::class,
+        LearningItemVersionEntity::class,
+        ItemPrerequisiteEntity::class,
+        AttemptEntity::class,
+        QuizAnswerMetricEntity::class
     ],
-    version = 7,
+    version = 8,
     exportSchema = false
 )
 @TypeConverters(AppTypeConverters::class)
@@ -33,6 +40,13 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun screenshotDao(): ScreenshotDao
     abstract fun reviewDao(): ReviewDao
     abstract fun quizDao(): QuizDao
+    abstract fun courseDao(): CourseDao
+    abstract fun lessonDao(): LessonDao
+    abstract fun learningItemDao(): LearningItemDao
+    abstract fun learningItemVersionDao(): LearningItemVersionDao
+    abstract fun itemPrerequisiteDao(): ItemPrerequisiteDao
+    abstract fun attemptDao(): AttemptDao
+    abstract fun quizAnswerMetricDao(): QuizAnswerMetricDao
 
     companion object {
         @Volatile
@@ -104,13 +118,134 @@ abstract class AppDatabase : RoomDatabase() {
             }
         }
 
+        private val MIGRATION_7_8 = object : Migration(7, 8) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS courses (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        familyCode TEXT NOT NULL,
+                        title TEXT NOT NULL,
+                        subject TEXT NOT NULL,
+                        gradeLevel INTEGER NOT NULL DEFAULT 9,
+                        description TEXT,
+                        orderKey REAL NOT NULL DEFAULT 1000.0,
+                        isArchived INTEGER NOT NULL DEFAULT 0,
+                        createdAt INTEGER NOT NULL,
+                        updatedAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_courses_family ON courses(familyCode, isArchived, orderKey)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS lessons (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        courseId TEXT NOT NULL,
+                        familyCode TEXT NOT NULL,
+                        title TEXT NOT NULL,
+                        orderKey REAL NOT NULL DEFAULT 1000.0,
+                        isArchived INTEGER NOT NULL DEFAULT 0,
+                        createdAt INTEGER NOT NULL,
+                        updatedAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_lessons_course ON lessons(courseId, isArchived, orderKey)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_lessons_family ON lessons(familyCode)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS learning_items (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        lessonId TEXT NOT NULL,
+                        familyCode TEXT NOT NULL,
+                        itemType TEXT NOT NULL,
+                        displayLabel TEXT NOT NULL,
+                        stableKey TEXT NOT NULL,
+                        orderKey REAL NOT NULL DEFAULT 1000.0,
+                        currentVersionId TEXT NOT NULL,
+                        isArchived INTEGER NOT NULL DEFAULT 0,
+                        createdAt INTEGER NOT NULL,
+                        updatedAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_learning_items_lesson ON learning_items(lessonId, isArchived, orderKey)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_learning_items_family_stable ON learning_items(familyCode, stableKey)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS learning_item_versions (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        itemId TEXT NOT NULL,
+                        versionNumber INTEGER NOT NULL,
+                        title TEXT NOT NULL,
+                        contentUrl TEXT,
+                        payloadJson TEXT,
+                        changelog TEXT,
+                        createdAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE UNIQUE INDEX IF NOT EXISTS idx_item_versions_num ON learning_item_versions(itemId, versionNumber)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS item_prerequisites (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        itemId TEXT NOT NULL,
+                        requiredItemId TEXT NOT NULL,
+                        minScore REAL,
+                        createdAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE UNIQUE INDEX IF NOT EXISTS idx_prereq_unique ON item_prerequisites(itemId, requiredItemId)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_prereq_item ON item_prerequisites(itemId)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS attempts (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        clientAttemptId TEXT NOT NULL,
+                        familyCode TEXT NOT NULL,
+                        studentId TEXT NOT NULL,
+                        itemId TEXT NOT NULL,
+                        versionId TEXT NOT NULL,
+                        status TEXT NOT NULL,
+                        score REAL,
+                        durationSeconds INTEGER NOT NULL DEFAULT 0,
+                        startedAt INTEGER NOT NULL,
+                        completedAt INTEGER,
+                        metadataJson TEXT,
+                        createdAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE UNIQUE INDEX IF NOT EXISTS idx_attempts_idempotency ON attempts(familyCode, studentId, clientAttemptId)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_attempts_student_item ON attempts(familyCode, studentId, itemId, createdAt)")
+
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS quiz_answers (
+                        id TEXT NOT NULL PRIMARY KEY,
+                        attemptId TEXT NOT NULL,
+                        questionId TEXT NOT NULL,
+                        questionIndex INTEGER NOT NULL,
+                        selectedOption TEXT,
+                        isCorrect INTEGER NOT NULL DEFAULT 0,
+                        durationSeconds INTEGER NOT NULL DEFAULT 0,
+                        createdAt INTEGER NOT NULL
+                    )""".trimIndent()
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS idx_quiz_answers_attempt ON quiz_answers(attemptId)")
+            }
+        }
+
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
                     "study_tracker_db"
-                ).addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6, MIGRATION_6_7).build()
+                ).addMigrations(
+                    MIGRATION_1_2,
+                    MIGRATION_2_3,
+                    MIGRATION_3_4,
+                    MIGRATION_4_5,
+                    MIGRATION_5_6,
+                    MIGRATION_6_7,
+                    MIGRATION_7_8
+                ).build()
                 INSTANCE = instance
                 instance
             }

@@ -6,7 +6,7 @@ concurrency:
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "feature/**" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -43,7 +43,14 @@ jobs:
         run: ./gradlew test --stacktrace
 
       - name: Run Worker integration tests
-        run: node worker/test-sync.js
+        run: |
+          node worker/test-sync.js
+          node worker/test-v2.js
+
+      - name: Run CLI tests
+        run: |
+          node cli/test-revision.js
+          node cli/test-v2.js
 
       - name: Configure release signing
         env:

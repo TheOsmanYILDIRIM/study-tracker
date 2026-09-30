@@ -45,4 +45,16 @@ class AppTypeConverters {
 
     @TypeConverter
     fun toReviewStatus(value: String?): ReviewStatus? = value?.let { ReviewStatus.valueOf(it) }
+
+    @TypeConverter
+    fun fromItemType(value: ItemType?): String? = value?.name
+
+    @TypeConverter
+    fun toItemType(value: String?): ItemType? = value?.let { ItemType.valueOf(it) }
+
+    @TypeConverter
+    fun fromAttemptStatus(value: AttemptStatus?): String? = value?.name
+
+    @TypeConverter
+    fun toAttemptStatus(value: String?): AttemptStatus? = value?.let { AttemptStatus.valueOf(it) }
 }

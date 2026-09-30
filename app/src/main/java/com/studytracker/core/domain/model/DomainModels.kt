@@ -215,5 +215,134 @@ data class Quiz(
     val studentNote: String? = null
 )
 
+// --- V2 CURRICULUM & MEASUREMENT DOMAIN MODELS ---
+
+@Serializable
+enum class ItemType {
+    VIDEO,
+    QUIZ,
+    ANKI
+}
+
+@Serializable
+enum class AttemptStatus {
+    STARTED,
+    COMPLETED,
+    ABANDONED
+}
+
+@Immutable
+@Serializable
+data class Course(
+    val id: String,
+    val familyCode: String,
+    val title: String,
+    val subject: String,
+    val gradeLevel: Int = 9,
+    val description: String = "",
+    val orderKey: Double = 1000.0,
+    val isArchived: Boolean = false,
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class Lesson(
+    val id: String,
+    val courseId: String,
+    val familyCode: String,
+    val title: String,
+    val orderKey: Double = 1000.0,
+    val isArchived: Boolean = false,
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class LearningItem(
+    val id: String,
+    val lessonId: String,
+    val familyCode: String,
+    val itemType: ItemType,
+    val displayLabel: String,
+    val stableKey: String,
+    val orderKey: Double = 1000.0,
+    val currentVersionId: String,
+    val isArchived: Boolean = false,
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis(),
+    val currentVersion: LearningItemVersion? = null,
+    val versionCount: Int = 1,
+    val prerequisites: List<ItemPrerequisite> = emptyList()
+)
+
+@Immutable
+@Serializable
+data class LearningItemVersion(
+    val id: String,
+    val itemId: String,
+    val versionNumber: Int,
+    val title: String,
+    val contentUrl: String? = null,
+    val payloadJson: String? = null,
+    val changelog: String = "",
+    val createdAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class ItemPrerequisite(
+    val id: String,
+    val itemId: String,
+    val requiredItemId: String,
+    val minScore: Double? = null,
+    val createdAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class Attempt(
+    val id: String,
+    val clientAttemptId: String,
+    val familyCode: String,
+    val studentId: String,
+    val itemId: String,
+    val versionId: String,
+    val status: AttemptStatus = AttemptStatus.COMPLETED,
+    val score: Double? = null,
+    val durationSeconds: Int = 0,
+    val startedAt: Long = System.currentTimeMillis(),
+    val completedAt: Long? = null,
+    val metadataJson: String? = null,
+    val createdAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class QuizAnswerMetric(
+    val id: String,
+    val attemptId: String,
+    val questionId: String,
+    val questionIndex: Int,
+    val selectedOption: String? = null,
+    val isCorrect: Boolean = false,
+    val durationSeconds: Int = 0,
+    val createdAt: Long = System.currentTimeMillis()
+)
+
+@Immutable
+@Serializable
+data class CurriculumProgressSummary(
+    val familyCode: String,
+    val studentId: String,
+    val totalItems: Int,
+    val completedItems: Int,
+    val completionPercentage: Int,
+    val averageScore: Double?
+)
+
+
 
 
