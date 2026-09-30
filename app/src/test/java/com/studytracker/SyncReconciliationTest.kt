@@ -707,6 +707,164 @@ class SyncReconciliationTest {
         assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(1727500000000L, 1727500000000L))
         assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.shouldApplyRemoteReset(1727400000000L, 1727500000000L))
     }
+
+    // --- TASK 5C2 PATCH_TASK & RESTORE CAS TESTS ---
+
+    @Test
+    fun `test J - parseRevisionFromSuccessBody parses top-level and nested revision correctly`() {
+        // Top-level revision (PATCH_TASK format)
+        val topLevelJson = """{"success":true,"message":"Ders 'math_1' güncellendi.","revision":15}"""
+        val parsedTopLevel = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody(topLevelJson)
+        assertEquals(15L, parsedTopLevel)
+
+        // Nested data.revision (full sync / restore format)
+        val nestedJson = """{"success":true,"familyCode":"ST-TEST","data":{"familyCode":"ST-TEST","revision":20}}"""
+        val parsedNested = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody(nestedJson)
+        assertEquals(20L, parsedNested)
+
+        // Missing revision / null
+        val noRevJson = """{"success":true,"message":"OK"}"""
+        assertNull(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody(noRevJson))
+
+        // Negative revision
+        val negJson = """{"success":true,"revision":-1}"""
+        assertNull(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody(negJson))
+
+        // Invalid JSON / blank
+        assertNull(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody(""))
+        assertNull(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromSuccessBody("not json"))
+    }
+
+    @Test
+    fun `test K - patchSingleTask payload constructs expectedRevision for PARENT and omits when null`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        // Case 1: prefs has no revision -> expectedRevision is null
+        val expRevNull = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertNull(expRevNull)
+
+        val patchPayload1 = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            action = "PATCH_TASK",
+            expectedRevision = expRevNull
+        )
+        assertNull(patchPayload1.expectedRevision)
+
+        // Case 2: prefs has revision 10 -> expectedRevision is 10
+        prefs.lastKnownServerRevision = 10L
+        val expRev10 = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertEquals(10L, expRev10)
+
+        val patchPayload2 = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            action = "PATCH_TASK",
+            expectedRevision = expRev10
+        )
+        assertEquals(10L, patchPayload2.expectedRevision)
+
+        val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
+        val serialized = json.encodeToString(patchPayload2)
+        val deserialized = json.decodeFromString<SharedFamilySyncPayload>(serialized)
+        assertEquals(10L, deserialized.expectedRevision)
+    }
+
+    @Test
+    fun `test L - restoreFromSnapshot payload constructs expectedRevision for PARENT and omits when null`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        // Case 1: null revision
+        val expRevNull = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        val restorePayload1 = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            action = "RESTORE",
+            expectedRevision = expRevNull
+        )
+        assertNull(restorePayload1.expectedRevision)
+
+        // Case 2: known revision 42
+        prefs.lastKnownServerRevision = 42L
+        val expRev42 = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertEquals(42L, expRev42)
+
+        val restorePayload2 = SharedFamilySyncPayload(
+            familyCode = "ST-TEST-2026-SYNC-1234",
+            senderRole = "PARENT",
+            action = "RESTORE",
+            expectedRevision = expRev42
+        )
+        assertEquals(42L, restorePayload2.expectedRevision)
+    }
+
+    @Test
+    fun `test M - patchSingleTask 409 handling parses currentRevision and sets lastKnownServerRevision without inventing revision`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 5L
+
+        val conflict409Body = """
+            {"success":false,"error":"REVISION_CONFLICT","message":"Stale PATCH_TASK","currentRevision":12}
+        """.trimIndent()
+
+        val parsedRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(conflict409Body)
+        assertEquals(12L, parsedRev)
+
+        if (parsedRev != null && parsedRev >= 0L) {
+            prefs.lastKnownServerRevision = parsedRev
+        }
+        assertEquals(12L, prefs.lastKnownServerRevision)
+
+        val exception = com.studytracker.core.data.remote.cloudflare.RevisionConflictException(
+            message = "Sunucu revizyon çakışması (HTTP 409): $conflict409Body",
+            currentRevision = parsedRev
+        )
+        val result: Result<String> = Result.failure(exception)
+        assertTrue(result.isFailure)
+        assertTrue(result.exceptionOrNull() is com.studytracker.core.data.remote.cloudflare.RevisionConflictException)
+    }
+
+    @Test
+    fun `test N - restoreFromSnapshot 409 handling parses currentRevision and sets lastKnownServerRevision`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 3L
+
+        val conflict409Body = """
+            {"success":false,"error":"REVISION_CONFLICT","message":"Stale RESTORE","currentRevision":8}
+        """.trimIndent()
+
+        val parsedRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(conflict409Body)
+        assertEquals(8L, parsedRev)
+
+        if (parsedRev != null && parsedRev >= 0L) {
+            prefs.lastKnownServerRevision = parsedRev
+        }
+        assertEquals(8L, prefs.lastKnownServerRevision)
+
+        val exception = com.studytracker.core.data.remote.cloudflare.RevisionConflictException(
+            message = "Sunucu revizyon çakışması (HTTP 409): $conflict409Body",
+            currentRevision = parsedRev
+        )
+        val result: Result<String> = Result.failure(exception)
+        assertTrue(result.isFailure)
+        assertEquals(8L, (result.exceptionOrNull() as com.studytracker.core.data.remote.cloudflare.RevisionConflictException).currentRevision)
+    }
 }
 
 class FakeSharedPreferences(

@@ -38,7 +38,9 @@ data class CloudSyncResponse(
     val success: Boolean = false,
     val familyCode: String? = null,
     val data: CloudSyncPayloadWrapper? = null,
-    val error: String? = null
+    val error: String? = null,
+    val revision: Long? = null,
+    val message: String? = null
 )
 
 @Serializable
@@ -316,11 +318,14 @@ object CloudflareSyncManager {
                 youtubeUrl = occurrence.youtubeUrl
             )
 
+            val expectedRevision = resolveExpectedRevisionForSync("PARENT", prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = "PARENT",
                 action = "PATCH_TASK",
-                occurrences = listOf(patchDto)
+                occurrences = listOf(patchDto),
+                expectedRevision = expectedRevision
             )
 
             // Ayrıca JSON içine patchTask nesnesi koyarak worker ile çift güvence sağlayalım
@@ -342,11 +347,30 @@ object CloudflareSyncManager {
                 writer.flush()
             }
 
-            if (conn.responseCode in 200..299) {
-                Result.success("Ders bulutta güncellendi: ${occurrence.title}")
-            } else {
-                Result.failure(Exception("HTTP ${conn.responseCode}"))
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
+                return@withContext Result.failure(Exception("HTTP $responseCode: $errorStream"))
             }
+
+            val responseText = conn.inputStream?.let { BufferedReader(InputStreamReader(it, "UTF-8")).readText() }.orEmpty()
+            val parsedRevision = parseRevisionFromSuccessBody(responseText)
+            if (parsedRevision != null && parsedRevision >= 0L) {
+                prefs.lastKnownServerRevision = parsedRevision
+            }
+            Result.success("Ders bulutta güncellendi: ${occurrence.title}")
         } catch (e: Exception) {
             Log.e(TAG, "patchSingleTask failed: ${e.message}", e)
             Result.failure(e)
@@ -377,6 +401,20 @@ object CloudflareSyncManager {
                 parsed.currentRevision
             } else {
                 null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    internal fun parseRevisionFromSuccessBody(responseBody: String?): Long? {
+        if (responseBody.isNullOrBlank()) return null
+        return try {
+            val parsed = json.decodeFromString<CloudSyncResponse>(responseBody)
+            when {
+                parsed.revision != null && parsed.revision >= 0L -> parsed.revision
+                parsed.data?.revision != null && parsed.data.revision >= 0L -> parsed.data.revision
+                else -> null
             }
         } catch (_: Exception) {
             null
@@ -672,10 +710,13 @@ object CloudflareSyncManager {
                 if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
+            val expectedRevision = resolveExpectedRevisionForSync("PARENT", prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = "PARENT",
-                action = "RESTORE"
+                action = "RESTORE",
+                expectedRevision = expectedRevision
             )
             val payloadJson = json.encodeToString(payload)
             OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
@@ -686,6 +727,18 @@ object CloudflareSyncManager {
             val responseCode = conn.responseCode
             if (responseCode !in 200..299) {
                 val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
                 return@withContext Result.failure(Exception("Geri alma hatası ($responseCode): $errorStream"))
             }
 
