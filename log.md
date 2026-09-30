@@ -1,5 +1,28 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-09-30] Tamamlandı: StudyTracker V2 Faz 4 - Operasyonel İçerik İnceleme, Quiz Yazarlığı, Yayınlama & Staging Hazırlığı
+- **İçerik İnceleme İş Akışı (Review Workflow):**
+  - `studytracker-cli v2 review list|show|approve|reject|replace-content` komutları eklendi.
+  - Değişmez `item.id` ve `item.stableKey` garantisi, tam secere/geçmiş takibi sağlandı.
+  - İçerik reddedildiğinde yayından kaldırılır (`archived`/`draft`), öğrencinin önceki tamamlama geçmişi/attempts ASLA silinmez.
+  - `reviewedOverridesPreserved`: Manuel incelenip onaylanan öğelerin tohum (`seed diff` / `seed apply`) tarafından sessizce ezilmesi engellendi.
+- **Quiz Yazarlık & İçe Aktarma:**
+  - Deterministik şema doğrulayıcı (`studytracker-cli v2 quiz validate`) kodlandı. Yalnızca `MULTIPLE_CHOICE` ve `TRUE_FALSE` türleri desteklenir, uydurma soru üretimi engellendi.
+  - `studytracker-cli v2 quiz attach` ile mevcut öğeye yeni sürüm olarak test bağlama.
+  - `studytracker-cli v2 quiz create` ile Quiz 17.2 puzzle araya ekleme (`insert-before` / `insert-after`) ve bağımsız etiket/stable key ayrımı.
+  - Gerçekçi test armatürleri (`cli/test-fixtures/quiz-mat-kumeler.json`, `content-replacement-sample.json`) eklendi.
+- **İçerik Yayınlama Semantiği (Publishing Semantics):**
+  - `draft`, `active`, `archived` durumları SQL (`schema-v2.sql`, `0001_v2_schema.sql`) ve KV katmanında mühürlendi.
+  - Öğrenci kataloğu varsayılan olarak `draft` ve `archived` öğeleri gizler.
+  - Aktif Tarih videolarında Mehmet Celal ÖZYILDIZ kuralı tohum doğrulamasında zorunlu kılındı.
+- **Staging & D1 Hazırlığı:**
+  - `0001_v2_schema.sql` migration dosyası hazırlandı.
+  - `GET /api/v3/health` uç noktası (sır sızdırmadan depolama arka planı `d1` vs `kv_fallback` ve şema sürümünü raporlar) eklendi.
+  - `studytracker-cli v2 doctor` teşhis motoru: API v3 erişilebilirliği, depolama arka planı, katalog özeti, attempts uç noktası ve sıfır-yazma tohum kayması (seed drift dry-run) kontrollerini tek komutta birleştirdi.
+- **Kapsamlı Testler & Dokümantasyon:**
+  - `worker/test-v2.js` (Test 12-14) ve `cli/test-v2.js` (Test 16-22) ile 7 yeni test eklendi; tüm test paketleri (%100) başarıyla geçti.
+  - `docs/v2-content-review.md` oluşturuldu, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellendi.
+
 ### [2026-09-30] Tamamlandı: StudyTracker V2 Faz 3 - Vault Tabanlı İçerik Tohumlama & Güvenli V1->V2 Geçişi
 - **Checked-in Tohum Kataloğu & Denetim Raporu:**
   - `content/9-sinif-v2-catalog.json`: 9 ders (Matematik, Fizik, Kimya, Biyoloji, Tarih, Coğrafya, İngilizce, Almanca, TDE), 12 ünite, 38 öğrenme öğesi (34 Video, 4 Anki, 0 uydurma soru).

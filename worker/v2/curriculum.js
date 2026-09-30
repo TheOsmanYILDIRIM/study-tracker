@@ -100,8 +100,8 @@ export class CurriculumEngine {
   }
 
   // --- LEARNING ITEMS & VERSIONS ---
-  async getItems(familyCode, lessonId = null, includeArchived = false) {
-    const items = await this.storage.getItems(familyCode, lessonId, includeArchived);
+  async getItems(familyCode, lessonId = null, includeArchived = false, statusFilter = null) {
+    const items = await this.storage.getItems(familyCode, lessonId, includeArchived, statusFilter);
     // Enrich with current version details
     const enriched = await Promise.all(items.map(async item => {
       const versions = await this.storage.getVersions(item.id);
@@ -146,7 +146,8 @@ export class CurriculumEngine {
     payload = null,
     orderKey = null,
     position = null,      // 'before' | 'after'
-    targetItemId = null
+    targetItemId = null,
+    publishingStatus = 'active'
   }) {
     if (!lessonId || !itemType || !displayLabel) {
       throw new Error('lessonId, itemType, and displayLabel are required for learning item');
@@ -159,7 +160,7 @@ export class CurriculumEngine {
     const lesson = await this.storage.getLessonById(familyCode, lessonId);
     if (!lesson) throw new Error(`Lesson not found: ${lessonId}`);
 
-    const existingItems = await this.storage.getItems(familyCode, lessonId, true);
+    const existingItems = await this.storage.getItems(familyCode, lessonId, true, 'all');
     
     // Determine order_key using puzzle/modular positioning if specified
     let calculatedOrderKey = orderKey;
@@ -174,6 +175,7 @@ export class CurriculumEngine {
     const effectiveStableKey = stableKey || itemId;
     const version1Id = `ver_${itemId}_v1`;
     const now = Date.now();
+    const effectivePubStatus = ['draft', 'active', 'archived'].includes(publishingStatus) ? publishingStatus : 'active';
 
     // Create Version 1
     const v1 = {
@@ -198,7 +200,8 @@ export class CurriculumEngine {
       stableKey: effectiveStableKey.trim(),
       orderKey: Number(calculatedOrderKey),
       currentVersionId: version1Id,
-      isArchived: false,
+      publishingStatus: effectivePubStatus,
+      isArchived: effectivePubStatus === 'archived',
       createdAt: now,
       updatedAt: now
     };
@@ -218,7 +221,7 @@ export class CurriculumEngine {
    * Update item content -> Creates NEW Version (e.g. v2, v3) without altering item_id.
    * Prior attempts continue referencing their original version_id!
    */
-  async updateItemContent(familyCode, itemId, { title, contentUrl, payload, changelog }) {
+  async updateItemContent(familyCode, itemId, { title, contentUrl, payload, changelog, publishingStatus }) {
     const item = await this.storage.getItemById(familyCode, itemId);
     if (!item) throw new Error(`Learning item not found: ${itemId}`);
 
@@ -243,6 +246,10 @@ export class CurriculumEngine {
 
     // Update item pointer to latest version
     item.currentVersionId = newVersionId;
+    if (publishingStatus && ['draft', 'active', 'archived'].includes(publishingStatus)) {
+      item.publishingStatus = publishingStatus;
+      item.isArchived = publishingStatus === 'archived';
+    }
     item.updatedAt = now;
     await this.storage.saveItem(item);
 
@@ -254,6 +261,24 @@ export class CurriculumEngine {
   }
 
   /**
+   * Update item publishing status without changing item ID or version
+   */
+  async updateItemStatus(familyCode, itemId, publishingStatus) {
+    const valid = ['draft', 'active', 'archived'];
+    if (!valid.includes(publishingStatus)) {
+      throw new Error(`Invalid publishing status: ${publishingStatus}. Must be one of: ${valid.join(', ')}`);
+    }
+    const item = await this.storage.getItemById(familyCode, itemId);
+    if (!item) throw new Error(`Item not found: ${itemId}`);
+
+    item.publishingStatus = publishingStatus;
+    item.isArchived = publishingStatus === 'archived';
+    item.updatedAt = Date.now();
+    await this.storage.saveItem(item);
+    return item;
+  }
+
+  /**
    * Reorder learning item (insert-before or insert-after target item).
    * Mutates ONLY order_key. IDs and attempt history remain untouched.
    */
@@ -261,7 +286,7 @@ export class CurriculumEngine {
     const item = await this.storage.getItemById(familyCode, itemId);
     if (!item) throw new Error(`Item not found: ${itemId}`);
 
-    const existingItems = await this.storage.getItems(familyCode, item.lessonId, true);
+    const existingItems = await this.storage.getItems(familyCode, item.lessonId, true, 'all');
     let newOrderKey = orderKey;
 
     if (position && targetItemId) {
@@ -285,6 +310,7 @@ export class CurriculumEngine {
     const item = await this.storage.getItemById(familyCode, itemId);
     if (!item) throw new Error(`Item not found: ${itemId}`);
     item.isArchived = true;
+    item.publishingStatus = 'archived';
     item.updatedAt = Date.now();
     return await this.storage.saveItem(item);
   }

@@ -291,6 +291,99 @@ async function runV2Tests() {
   assert(firstItem.currentVersion.versionNumber > 0, 'Version number must be positive');
   console.log('   ✅ Catalog tree and version payload verified for Android consumption.\n');
 
+  // Test 12: GET /api/v3/health endpoint
+  console.log('1️⃣2️⃣ Testing GET /api/v3/health (storage backend & schema version)...');
+  const healthRes = await mockFetch('GET', '/api/v3/health');
+  assert(healthRes.status === 200, 'Health endpoint must return 200');
+  assert(healthRes.data.success === true, 'Health must report success: true');
+  assert(healthRes.data.status === 'ok', 'Health status must be ok');
+  assert(healthRes.data.schemaVersion === 'v2', 'schemaVersion must be v2');
+  assert(['kv_fallback', 'kv', 'd1'].includes(healthRes.data.storageBackend), 'storageBackend must be reported');
+  console.log(`   ✅ Health check verified: storageBackend = ${healthRes.data.storageBackend}, schemaVersion = ${healthRes.data.schemaVersion}\n`);
+
+  // Test 13: Publishing semantics (draft/archived hidden from student catalog by default)
+  console.log('1️⃣3️⃣ Testing Publishing Semantics (Student catalog hides draft & archived)...');
+  const draftItemRes = await mockFetch('POST', '/api/v3/items', {
+    id: 'item_mat9_draft_test',
+    lessonId: 'lesson_gercek_sayilar',
+    itemType: 'VIDEO',
+    displayLabel: 'Draft Video',
+    stableKey: 'mat9_draft_test',
+    title: 'Draft Video Item',
+    contentUrl: 'https://youtube.com/watch?v=draft123',
+    publishingStatus: 'draft'
+  }, authHeaders);
+  assert(draftItemRes.status === 201, 'Draft item creation must succeed');
+  assert(draftItemRes.data.item.publishingStatus === 'draft', 'publishingStatus must be draft');
+
+  // Student fetch (default): should NOT include draft or archived
+  const studentCat = await mockFetch('GET', '/api/v3/catalog', null, studentHeaders);
+  const studentLessonItems = studentCat.data.curriculum[0].lessons[0].items;
+  const draftFoundInStudent = studentLessonItems.find(i => i.id === 'item_mat9_draft_test');
+  const archivedFoundInStudent = studentLessonItems.find(i => i.id === 'item_mat9_vid18');
+  assert(!draftFoundInStudent, 'Draft item must be HIDDEN from student catalog by default');
+  assert(!archivedFoundInStudent, 'Archived item must be HIDDEN from student catalog by default');
+
+  // Parent/Admin fetch with status=all: should include draft and archived
+  const adminCat = await mockFetch('GET', '/api/v3/catalog?status=all', null, authHeaders);
+  const adminLessonItems = adminCat.data.curriculum[0].lessons[0].items;
+  const draftFoundInAdmin = adminLessonItems.find(i => i.id === 'item_mat9_draft_test');
+  const archivedFoundInAdmin = adminLessonItems.find(i => i.id === 'item_mat9_vid18');
+  assert(draftFoundInAdmin, 'Draft item must be VISIBLE in admin catalog with status=all');
+  assert(archivedFoundInAdmin, 'Archived item must be VISIBLE in admin catalog with status=all');
+  console.log('   ✅ Student catalog strictly hides draft/archived; admin status=all exposes them.\n');
+
+  // Test 14: Review Workflow endpoint (APPROVE, REJECT, REPLACE_CONTENT)
+  console.log('1️⃣4️⃣ Testing Item Review Workflow (Approve, Reject, Replace Content)...');
+  
+  // 14A: APPROVE
+  const approveRes = await mockFetch('POST', '/api/v3/items/item_mat9_draft_test/review', {
+    action: 'APPROVE',
+    reviewer: 'teacher_fatma',
+    note: 'Content reviewed and verified against MEB curriculum'
+  }, authHeaders);
+  assert(approveRes.status === 200, 'Approve review must return 200');
+  assert(approveRes.data.item.id === 'item_mat9_draft_test', 'Item ID must remain immutable');
+  assert(approveRes.data.item.stableKey === 'mat9_draft_test', 'stableKey must remain immutable');
+  assert(approveRes.data.item.publishingStatus === 'active', 'Approved item must have publishingStatus: active');
+  const approvedProv = approveRes.data.item.currentVersion.payload.provenance;
+  assert(approvedProv.reviewStatus === 'verified', 'reviewStatus must be verified');
+  assert(approvedProv.reviewedOverride === true, 'reviewedOverride flag must be set');
+  assert(approvedProv.reviewHistory.length >= 1, 'reviewHistory must contain approval entry');
+
+  // 14B: REJECT
+  const rejectRes = await mockFetch('POST', '/api/v3/items/item_mat9_draft_test/review', {
+    action: 'REJECT',
+    reviewer: 'teacher_fatma',
+    reason: 'Incorrect audio quality, unpublishing until revised'
+  }, authHeaders);
+  assert(rejectRes.status === 200, 'Reject review must return 200');
+  assert(rejectRes.data.item.id === 'item_mat9_draft_test', 'Item ID must remain immutable');
+  assert(rejectRes.data.item.publishingStatus === 'draft', 'Rejected item must be unpopulated to draft');
+  const rejectedProv = rejectRes.data.item.currentVersion.payload.provenance;
+  assert(rejectedProv.reviewStatus === 'rejected', 'reviewStatus must be rejected');
+  assert(rejectedProv.reviewHistory.length >= 2, 'reviewHistory must accumulate actions');
+
+  // 14C: REPLACE_CONTENT
+  const replaceRes = await mockFetch('POST', '/api/v3/items/item_mat9_draft_test/review', {
+    action: 'REPLACE_CONTENT',
+    reviewer: 'teacher_fatma',
+    note: 'Replaced with high-definition remastered lecture video',
+    content: {
+      title: 'Gerçek Sayılar (Remastered HD)',
+      contentUrl: 'https://youtube.com/watch?v=hd_remaster_123',
+      publishingStatus: 'active'
+    }
+  }, authHeaders);
+  assert(replaceRes.status === 200, 'Replace content review must return 200');
+  assert(replaceRes.data.item.id === 'item_mat9_draft_test', 'Item ID must remain immutable');
+  assert(replaceRes.data.item.stableKey === 'mat9_draft_test', 'stableKey must remain immutable');
+  assert(replaceRes.data.item.currentVersion.title === 'Gerçek Sayılar (Remastered HD)', 'Title must update in new version');
+  assert(replaceRes.data.item.currentVersion.contentUrl === 'https://youtube.com/watch?v=hd_remaster_123', 'URL must update in new version');
+  assert(replaceRes.data.item.currentVersion.versionNumber >= 3, 'New version number must increment');
+  assert(replaceRes.data.item.publishingStatus === 'active', 'Replacement can set publishingStatus: active');
+  console.log('   ✅ Item Review Actions (Approve, Reject, Replace Content) verified with immutable IDs and full provenance.\n');
+
   console.log('🎉 ==========================================================');
   console.log('🎉 ALL V2 WORKER & DOMAIN MEASUREMENT TESTS PASSED 100%!');
   console.log('🎉 ==========================================================');
@@ -300,3 +393,4 @@ runV2Tests().catch(err => {
   console.error('Test Suite Failed:', err);
   process.exit(1);
 });
+

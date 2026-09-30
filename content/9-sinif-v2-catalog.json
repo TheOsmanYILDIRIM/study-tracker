@@ -42,7 +42,9 @@
                   "fingerprint": "53b0d2ea576fbd09"
                 }
               },
-              "lessonId": "lesson_mat9_uslu_sayilar"
+              "lessonId": "lesson_mat9_uslu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_mat9_vid_uslu_kurallar",
@@ -66,7 +68,9 @@
                   "fingerprint": "6ad350b6d1460777"
                 }
               },
-              "lessonId": "lesson_mat9_uslu_sayilar"
+              "lessonId": "lesson_mat9_uslu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_mat9_vid_uslu_bolme",
@@ -90,7 +94,9 @@
                   "fingerprint": "a5610c5b67ab8f46"
                 }
               },
-              "lessonId": "lesson_mat9_uslu_sayilar"
+              "lessonId": "lesson_mat9_uslu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_mat9_vid_uslu_negatif",
@@ -114,7 +120,9 @@
                   "fingerprint": "651bd6f1c898ab22"
                 }
               },
-              "lessonId": "lesson_mat9_uslu_sayilar"
+              "lessonId": "lesson_mat9_uslu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_mat_9"
@@ -147,7 +155,9 @@
                   "fingerprint": "22a5bbf935a63509"
                 }
               },
-              "lessonId": "lesson_mat9_koklu_sayilar"
+              "lessonId": "lesson_mat9_koklu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_mat9_vid_rasyonel_usler",
@@ -171,7 +181,9 @@
                   "fingerprint": "9f9a7cecea7983b5"
                 }
               },
-              "lessonId": "lesson_mat9_koklu_sayilar"
+              "lessonId": "lesson_mat9_koklu_sayilar",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_mat_9"
@@ -202,7 +214,9 @@
                   "fingerprint": "5dd225171327a852"
                 }
               },
-              "lessonId": "lesson_mat9_gercek_sayi_araliklari"
+              "lessonId": "lesson_mat9_gercek_sayi_araliklari",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_mat9_vid_aralik_farki",
@@ -224,7 +238,9 @@
                   "fingerprint": "fe8a09af222722ae"
                 }
               },
-              "lessonId": "lesson_mat9_gercek_sayi_araliklari"
+              "lessonId": "lesson_mat9_gercek_sayi_araliklari",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_mat_9"
@@ -267,7 +283,9 @@
                   "fingerprint": "f4c45d626dab0871"
                 }
               },
-              "lessonId": "lesson_fiz9_fizik_bilimine_giris"
+              "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_fiz9_vid_vektorler",
@@ -291,7 +309,9 @@
                   "fingerprint": "aca906bb96eeefe1"
                 }
               },
-              "lessonId": "lesson_fiz9_fizik_bilimine_giris"
+              "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_fiz_9"
@@ -336,7 +356,9 @@
                   "fingerprint": "7eba82583279a29e"
                 }
               },
-              "lessonId": "lesson_kim9_kimya_bilimi"
+              "lessonId": "lesson_kim9_kimya_bilimi",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_kim9_vid_guvenlik_sembolleri",
@@ -361,7 +383,9 @@
                   "fingerprint": "02feaaa0978807bb"
                 }
               },
-              "lessonId": "lesson_kim9_kimya_bilimi"
+              "lessonId": "lesson_kim9_kimya_bilimi",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_kim9_vid_atom_modelleri",
@@ -386,7 +410,9 @@
                   "fingerprint": "ce68350b50ecc36d"
                 }
               },
-              "lessonId": "lesson_kim9_kimya_bilimi"
+              "lessonId": "lesson_kim9_kimya_bilimi",
+              "publishingStatus": "draft",
+              "isArchived": false
             }
           ],
           "courseId": "course_kim_9"
@@ -429,7 +455,9 @@
                   "fingerprint": "38a93d2c455a802c"
                 }
               },
-              "lessonId": "lesson_biyo9_yasam"
+              "lessonId": "lesson_biyo9_yasam",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_biyo9_vid_bilim_nedir",
@@ -452,7 +480,9 @@
                   "fingerprint": "21cfa493eeec63d4"
                 }
               },
-              "lessonId": "lesson_biyo9_yasam"
+              "lessonId": "lesson_biyo9_yasam",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_biyo9_vid_kontrollu_deney",
@@ -475,7 +505,9 @@
                   "fingerprint": "5866ca76a6a0fef9"
                 }
               },
-              "lessonId": "lesson_biyo9_yasam"
+              "lessonId": "lesson_biyo9_yasam",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_biyo9_vid_teori_yasa",
@@ -498,7 +530,9 @@
                   "fingerprint": "faf97c1fd397354d"
                 }
               },
-              "lessonId": "lesson_biyo9_yasam"
+              "lessonId": "lesson_biyo9_yasam",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_biyo_9"
@@ -545,7 +579,9 @@
                   "fingerprint": "e84d7f796f3af4d8"
                 }
               },
-              "lessonId": "lesson_tar9_gecmisin_insasi"
+              "lessonId": "lesson_tar9_gecmisin_insasi",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_tar9_vid_olay_olgu",
@@ -572,7 +608,9 @@
                   "fingerprint": "4d61793e4e631362"
                 }
               },
-              "lessonId": "lesson_tar9_gecmisin_insasi"
+              "lessonId": "lesson_tar9_gecmisin_insasi",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_tar_9"
@@ -608,7 +646,9 @@
                   "fingerprint": "a748cc1157c43518"
                 }
               },
-              "lessonId": "lesson_tar9_kaynaklar_takvimler"
+              "lessonId": "lesson_tar9_kaynaklar_takvimler",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_tar9_vid_yardimci_bilimler",
@@ -635,7 +675,9 @@
                   "fingerprint": "6d257a30e34bb15f"
                 }
               },
-              "lessonId": "lesson_tar9_kaynaklar_takvimler"
+              "lessonId": "lesson_tar9_kaynaklar_takvimler",
+              "publishingStatus": "active",
+              "isArchived": false
             },
             {
               "id": "item_tar9_anki_temel",
@@ -658,7 +700,9 @@
                   "fingerprint": "ab2911db732e1d2e"
                 }
               },
-              "lessonId": "lesson_tar9_kaynaklar_takvimler"
+              "lessonId": "lesson_tar9_kaynaklar_takvimler",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_tar_9"
@@ -706,7 +750,9 @@
                   "fingerprint": "253d882295aff469"
                 }
               },
-              "lessonId": "lesson_cog9_dogal_sistemler"
+              "lessonId": "lesson_cog9_dogal_sistemler",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_cog9_vid_mekansal_dusunme",
@@ -734,7 +780,9 @@
                   "fingerprint": "7dba004c74189234"
                 }
               },
-              "lessonId": "lesson_cog9_dogal_sistemler"
+              "lessonId": "lesson_cog9_dogal_sistemler",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_cog9_vid_tarihsel_gelisim",
@@ -761,7 +809,9 @@
                   "fingerprint": "09e699b7bb5f1abf"
                 }
               },
-              "lessonId": "lesson_cog9_dogal_sistemler"
+              "lessonId": "lesson_cog9_dogal_sistemler",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_cog9_vid_harita_bilgisi",
@@ -788,7 +838,9 @@
                   "fingerprint": "c36333158d958f9b"
                 }
               },
-              "lessonId": "lesson_cog9_dogal_sistemler"
+              "lessonId": "lesson_cog9_dogal_sistemler",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_cog9_anki_1ay",
@@ -811,7 +863,9 @@
                   "fingerprint": "674113926dae634c"
                 }
               },
-              "lessonId": "lesson_cog9_dogal_sistemler"
+              "lessonId": "lesson_cog9_dogal_sistemler",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_cog_9"
@@ -855,7 +909,9 @@
                   "fingerprint": "3d98a1b65e57640f"
                 }
               },
-              "lessonId": "lesson_ing9_orientation_revision"
+              "lessonId": "lesson_ing9_orientation_revision",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_ing9_vid_simple_present",
@@ -879,7 +935,9 @@
                   "fingerprint": "a014d60361471a63"
                 }
               },
-              "lessonId": "lesson_ing9_orientation_revision"
+              "lessonId": "lesson_ing9_orientation_revision",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_ing9_vid_modals",
@@ -903,7 +961,9 @@
                   "fingerprint": "e5d50576dca9d3e6"
                 }
               },
-              "lessonId": "lesson_ing9_orientation_revision"
+              "lessonId": "lesson_ing9_orientation_revision",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_ing9_vid_used_to",
@@ -927,7 +987,9 @@
                   "fingerprint": "b82ba5fb9bb6bac3"
                 }
               },
-              "lessonId": "lesson_ing9_orientation_revision"
+              "lessonId": "lesson_ing9_orientation_revision",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_ing9_anki_1ay",
@@ -950,7 +1012,9 @@
                   "fingerprint": "57b1af571319b9ec"
                 }
               },
-              "lessonId": "lesson_ing9_orientation_revision"
+              "lessonId": "lesson_ing9_orientation_revision",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_ing_9"
@@ -994,7 +1058,9 @@
                   "fingerprint": "10d0f77cb54c3edd"
                 }
               },
-              "lessonId": "lesson_alm9_modul1_hallo"
+              "lessonId": "lesson_alm9_modul1_hallo",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_alm9_vid_kendini_tanitma",
@@ -1018,7 +1084,9 @@
                   "fingerprint": "7c6de36c4dc9e14b"
                 }
               },
-              "lessonId": "lesson_alm9_modul1_hallo"
+              "lessonId": "lesson_alm9_modul1_hallo",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_alm9_vid_sayilar",
@@ -1042,7 +1110,9 @@
                   "fingerprint": "940836d5d4d9caf3"
                 }
               },
-              "lessonId": "lesson_alm9_modul1_hallo"
+              "lessonId": "lesson_alm9_modul1_hallo",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_alm9_vid_ulkeler_diller",
@@ -1066,7 +1136,9 @@
                   "fingerprint": "8491cf610c6bd2b8"
                 }
               },
-              "lessonId": "lesson_alm9_modul1_hallo"
+              "lessonId": "lesson_alm9_modul1_hallo",
+              "publishingStatus": "draft",
+              "isArchived": false
             },
             {
               "id": "item_alm9_anki_1ay",
@@ -1089,7 +1161,9 @@
                   "fingerprint": "9e0ff7f38dd78cd2"
                 }
               },
-              "lessonId": "lesson_alm9_modul1_hallo"
+              "lessonId": "lesson_alm9_modul1_hallo",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_alm_9"
@@ -1132,7 +1206,9 @@
                   "fingerprint": "af1de06e2e3cd0c1"
                 }
               },
-              "lessonId": "lesson_tde9_metin_ve_anlam"
+              "lessonId": "lesson_tde9_metin_ve_anlam",
+              "publishingStatus": "active",
+              "isArchived": false
             }
           ],
           "courseId": "course_tde_9"

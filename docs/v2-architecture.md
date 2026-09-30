@@ -294,3 +294,24 @@ The V1->V2 migration engine enables seamless transitions from legacy weekly occu
 4. **Non-Destructive Guarantee**:
    - Zero V1 records are deleted or reset. Parent review approvals are preserved as legacy metadata and do not gate student completion.
 
+---
+
+## 12. Phase 4 Content Review, Publishing Visibility & Staging Readiness
+
+### 12.1 Publishing Status & Student Catalog Isolation
+- **States**: `draft`, `active`, `archived`.
+- **Student Isolation**: `GET /api/v3/catalog` filters strictly on `publishing_status = 'active'`. Incomplete, unreviewed, or rejected items remain hidden from student workflows.
+- **Admin & Parent Visibility**: Endpoints support `?status=all` to inspect the full curriculum graph.
+
+### 12.2 Review Workflows & Override Preservation
+- `studytracker-cli v2 review approve|reject|replace-content` operates with zero mutation on immutable `item.id` and `item.stable_key`.
+- Rejection unpublishes the item (`archived`/`draft`) while strictly preserving student attempts.
+- Replaced content creates a new version (`version_number: N+1`).
+- Seed synchronization (`diffSeed` / `applySeed`) detects `reviewedOverridesPreserved` and never overwrites manual curator approvals with raw seed defaults.
+
+### 12.3 Staging D1 Migration & Storage Health
+- Checked-in D1 migration: `worker/migrations/0001_v2_schema.sql`.
+- `/api/v3/health` endpoint exposes `storageBackend` (`d1` vs `kv_fallback`) and `schemaVersion` without disclosing secrets.
+- `studytracker-cli v2 doctor` executes comprehensive dry-run diagnostics across API health, backend storage, attempts accessibility, and catalog drift.
+
+

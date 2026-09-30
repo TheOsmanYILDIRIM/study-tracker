@@ -1,7 +1,7 @@
--- StudyTracker V2 D1 SQLite Schema
--- High-performance normalized tables for V2 Measurement & Curriculum Vertical Slice
+-- Migration: 0001_v2_schema.sql
+-- Description: Initial StudyTracker V2 SQLite / D1 Schema with publishing_status and normalized tables
 
--- 1. Courses (Dersler / Müfredat Kökü)
+-- 1. Courses
 CREATE TABLE IF NOT EXISTS courses (
     id TEXT NOT NULL PRIMARY KEY,
     family_code TEXT NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS courses (
 );
 CREATE INDEX IF NOT EXISTS idx_courses_family ON courses(family_code, is_archived, order_key);
 
--- 2. Lessons / Topics (Üniteler / Konular)
+-- 2. Lessons / Topics
 CREATE TABLE IF NOT EXISTS lessons (
     id TEXT NOT NULL PRIMARY KEY,
     course_id TEXT NOT NULL,
@@ -31,8 +31,7 @@ CREATE TABLE IF NOT EXISTS lessons (
 CREATE INDEX IF NOT EXISTS idx_lessons_course ON lessons(course_id, is_archived, order_key);
 CREATE INDEX IF NOT EXISTS idx_lessons_family ON lessons(family_code);
 
--- 3. Learning Items (Öğrenme Öğeleri - Video / Quiz / Anki)
--- ID and stable_key are immutable; display_label is presentation only (e.g. 17, 17.2, 18).
+-- 3. Learning Items
 CREATE TABLE IF NOT EXISTS learning_items (
     id TEXT NOT NULL PRIMARY KEY,
     lesson_id TEXT NOT NULL,
@@ -52,7 +51,7 @@ CREATE INDEX IF NOT EXISTS idx_learning_items_lesson ON learning_items(lesson_id
 CREATE INDEX IF NOT EXISTS idx_learning_items_family_stable ON learning_items(family_code, stable_key);
 CREATE INDEX IF NOT EXISTS idx_learning_items_status ON learning_items(family_code, publishing_status);
 
--- 4. Learning Item Versions (İçerik Sürümleri - Değişmez Sürüm Geçmişi)
+-- 4. Learning Item Versions
 CREATE TABLE IF NOT EXISTS learning_item_versions (
     id TEXT NOT NULL PRIMARY KEY,
     item_id TEXT NOT NULL,
@@ -66,7 +65,7 @@ CREATE TABLE IF NOT EXISTS learning_item_versions (
 );
 CREATE UNIQUE INDEX IF NOT EXISTS idx_item_versions_num ON learning_item_versions(item_id, version_number);
 
--- 5. Item Prerequisites (Ön Koşul / Bağımlılık Grafiği)
+-- 5. Item Prerequisites
 CREATE TABLE IF NOT EXISTS item_prerequisites (
     id TEXT NOT NULL PRIMARY KEY,
     item_id TEXT NOT NULL,
@@ -79,7 +78,7 @@ CREATE TABLE IF NOT EXISTS item_prerequisites (
 CREATE UNIQUE INDEX IF NOT EXISTS idx_prereq_unique ON item_prerequisites(item_id, required_item_id);
 CREATE INDEX IF NOT EXISTS idx_prereq_item ON item_prerequisites(item_id);
 
--- 6. Attempts (Append-only ve İdempotent Öğrenci Deneme Kayıtları)
+-- 6. Attempts
 CREATE TABLE IF NOT EXISTS attempts (
     id TEXT NOT NULL PRIMARY KEY,
     client_attempt_id TEXT NOT NULL,
@@ -100,7 +99,7 @@ CREATE TABLE IF NOT EXISTS attempts (
 CREATE UNIQUE INDEX IF NOT EXISTS idx_attempts_idempotency ON attempts(family_code, student_id, client_attempt_id);
 CREATE INDEX IF NOT EXISTS idx_attempts_student_item ON attempts(family_code, student_id, item_id, created_at);
 
--- 7. Quiz Answer Metrics (Soru Bazlı Ölçüm & Analitik)
+-- 7. Quiz Answer Metrics
 CREATE TABLE IF NOT EXISTS quiz_answers (
     id TEXT NOT NULL PRIMARY KEY,
     attempt_id TEXT NOT NULL,

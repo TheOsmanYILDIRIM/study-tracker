@@ -1,0 +1,27 @@
+{
+  "quizTitle": "9. Sınıf Matematik - Kümeler & Gerçek Sayılar Tarama Testi (TEST FIXTURE)",
+  "questions": [
+    {
+      "id": "q_mat9_kumeler_01",
+      "type": "MULTIPLE_CHOICE",
+      "prompt": "A = {1, 2, {3, 4}} kümesinin alt küme sayısı kaçtır?",
+      "choices": ["4", "8", "16", "32"],
+      "correctAnswer": "8",
+      "explanation": "A kümesinin eleman sayısı s(A) = 3'tür (1, 2 ve {3,4}). Alt küme sayısı 2^3 = 8 olur."
+    },
+    {
+      "id": "q_mat9_kumeler_02",
+      "type": "TRUE_FALSE",
+      "prompt": "Boş küme, her kümenin bir alt kümesidir.",
+      "correctAnswer": true,
+      "explanation": "Boş küme (∅) tanım gereği tüm kümelerin alt kümesidir."
+    },
+    {
+      "id": "q_mat9_kumeler_03",
+      "type": "TRUE_FALSE",
+      "prompt": "İrrasyonel sayılar kümesi (Q') ile rasyonel sayılar kümesi (Q) kesişimi boş kümedir.",
+      "correctAnswer": "TRUE",
+      "explanation": "Bir sayı hem rasyonel hem irrasyonel olamaz: Q ∩ Q' = ∅."
+    }
+  ]
+}

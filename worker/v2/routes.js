@@ -27,16 +27,34 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
   const isParent = ['PARENT', 'ADMIN', 'CLI', 'PARENTING_AI'].includes(role) || hasAdmin;
 
   try {
+    // 0. HEALTH CHECK
+    if (path === '/api/v3/health' && method === 'GET') {
+      return json({
+        success: true,
+        status: 'ok',
+        version: '2.0.0',
+        schemaVersion: 'v2',
+        storageBackend: storage.type,
+        timestamp: Date.now()
+      });
+    }
+
     // 1. GET /api/v3/catalog or /api/v3/curriculum - Full tree view
     if ((path === '/api/v3/catalog' || path === '/api/v3/curriculum') && method === 'GET') {
       const courseId = url.searchParams.get('courseId');
-      const courses = await engine.getCourses(familyCode);
+      const statusParam = url.searchParams.get('status'); // 'active' | 'draft' | 'archived' | 'all'
+      const includeArchived = url.searchParams.get('includeArchived') === 'true' || statusParam === 'all' || statusParam === 'archived';
+      const includeDrafts = url.searchParams.get('includeDrafts') === 'true' || statusParam === 'all' || statusParam === 'draft';
+      
+      const effectiveStatusFilter = statusParam ? statusParam : (includeArchived || includeDrafts ? 'all' : 'active');
+
+      const courses = await engine.getCourses(familyCode, includeArchived);
       const targetCourses = courseId ? courses.filter(c => c.id === courseId) : courses;
 
       const tree = await Promise.all(targetCourses.map(async course => {
-        const lessons = await engine.getLessons(familyCode, course.id);
+        const lessons = await engine.getLessons(familyCode, course.id, includeArchived);
         const enrichedLessons = await Promise.all(lessons.map(async lesson => {
-          const items = await engine.getItems(familyCode, lesson.id);
+          const items = await engine.getItems(familyCode, lesson.id, includeArchived, effectiveStatusFilter);
           return { ...lesson, items };
         }));
         return { ...course, lessons: enrichedLessons };
@@ -90,7 +108,9 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
     if (path === '/api/v3/items') {
       if (method === 'GET') {
         const lessonId = url.searchParams.get('lessonId');
-        const items = await engine.getItems(familyCode, lessonId, url.searchParams.get('includeArchived') === 'true');
+        const statusParam = url.searchParams.get('status');
+        const includeArchived = url.searchParams.get('includeArchived') === 'true' || statusParam === 'all' || statusParam === 'archived';
+        const items = await engine.getItems(familyCode, lessonId, includeArchived, statusParam || (includeArchived ? 'all' : 'active'));
         return json({ success: true, items });
       }
       if (method === 'POST') {
@@ -116,6 +136,120 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
       const body = await request.json().catch(() => ({}));
       const item = await engine.updateItemContent(familyCode, itemId, body);
       return json({ success: true, item });
+    }
+
+    // PATCH/PUT /api/v3/items/:itemId/status -> Updates publishing status without changing item_id
+    const statusMatch = path.match(/^\/api\/v3\/items\/([^/]+)\/status$/);
+    if (statusMatch && (method === 'PATCH' || method === 'PUT')) {
+      const itemId = statusMatch[1];
+      const body = await request.json().catch(() => ({}));
+      const pubStatus = body.status || body.publishingStatus;
+      if (!pubStatus) return error('status is required', 400);
+      const item = await engine.updateItemStatus(familyCode, itemId, pubStatus);
+      return json({ success: true, item });
+    }
+
+    // POST /api/v3/items/:itemId/review -> Review workflow (approve / reject / replace_content)
+    const reviewMatch = path.match(/^\/api\/v3\/items\/([^/]+)\/review$/);
+    if (reviewMatch && method === 'POST') {
+      const itemId = reviewMatch[1];
+      const body = await request.json().catch(() => ({}));
+      const item = await engine.getItem(familyCode, itemId);
+      if (!item) return error(`Item not found: ${itemId}`, 404);
+
+      const action = (body.action || '').toUpperCase();
+      const currentVer = item.currentVersion || {};
+      const currentPayload = currentVer.payload || {};
+      const currentProv = currentPayload.provenance || {};
+      const reviewHistory = Array.isArray(currentProv.reviewHistory) ? [...currentProv.reviewHistory] : [];
+      const timestamp = new Date().toISOString();
+
+      if (action === 'APPROVE') {
+        reviewHistory.push({
+          action: 'APPROVE',
+          reviewer: body.reviewer || role || 'reviewer',
+          note: body.note || 'Approved via review workflow',
+          timestamp
+        });
+        const updatedPayload = {
+          ...currentPayload,
+          provenance: {
+            ...currentProv,
+            reviewStatus: 'verified',
+            reviewedOverride: true,
+            reviewedBy: body.reviewer || role || 'reviewer',
+            reviewedAt: timestamp,
+            reviewNotes: body.note || null,
+            reviewHistory
+          }
+        };
+        const updatedItem = await engine.updateItemContent(familyCode, itemId, {
+          title: currentVer.title,
+          contentUrl: currentVer.contentUrl,
+          payload: updatedPayload,
+          changelog: `Approved: ${body.note || 'Verified content'}`,
+          publishingStatus: 'active'
+        });
+        return json({ success: true, item: updatedItem });
+      } else if (action === 'REJECT') {
+        if (!body.reason) return error('reason is required for reject', 400);
+        reviewHistory.push({
+          action: 'REJECT',
+          reviewer: body.reviewer || role || 'reviewer',
+          reason: body.reason,
+          timestamp
+        });
+        const updatedPayload = {
+          ...currentPayload,
+          provenance: {
+            ...currentProv,
+            reviewStatus: 'rejected',
+            reviewedOverride: true,
+            reviewedBy: body.reviewer || role || 'reviewer',
+            reviewedAt: timestamp,
+            rejectReason: body.reason,
+            reviewHistory
+          }
+        };
+        const updatedItem = await engine.updateItemContent(familyCode, itemId, {
+          title: currentVer.title,
+          contentUrl: currentVer.contentUrl,
+          payload: updatedPayload,
+          changelog: `Rejected: ${body.reason}`,
+          publishingStatus: 'draft' // unpublish active content without deleting attempts
+        });
+        return json({ success: true, item: updatedItem });
+      } else if (action === 'REPLACE_CONTENT') {
+        const replacement = body.content || body;
+        reviewHistory.push({
+          action: 'REPLACE_CONTENT',
+          reviewer: body.reviewer || role || 'reviewer',
+          note: body.note || 'Replaced content via review workflow',
+          timestamp
+        });
+        const updatedPayload = {
+          ...(replacement.payload || currentPayload),
+          provenance: {
+            ...(replacement.payload?.provenance || currentProv),
+            reviewStatus: 'verified',
+            reviewedOverride: true,
+            reviewedBy: body.reviewer || role || 'reviewer',
+            reviewedAt: timestamp,
+            reviewNotes: body.note || null,
+            reviewHistory
+          }
+        };
+        const updatedItem = await engine.updateItemContent(familyCode, itemId, {
+          title: replacement.title || currentVer.title,
+          contentUrl: replacement.contentUrl !== undefined ? replacement.contentUrl : currentVer.contentUrl,
+          payload: updatedPayload,
+          changelog: replacement.changelog || body.note || 'Replaced content version',
+          publishingStatus: replacement.publishingStatus || 'active'
+        });
+        return json({ success: true, item: updatedItem });
+      } else {
+        return error(`Invalid review action: ${action}. Must be APPROVE, REJECT, or REPLACE_CONTENT`, 400);
+      }
     }
 
     // POST /api/v3/items/:itemId/reorder -> Puzzle reordering

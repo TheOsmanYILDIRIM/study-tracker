@@ -1,6 +1,11 @@
+const fs = require('fs');
+const path = require('path');
 const v2Api = require('./v2-api');
 const { validateSeed, diffSeed, applySeed } = require('./v2-seed');
 const { analyzeMigration, planMigration, applyMigration } = require('./v2-migrate');
+const { listReviewItems, showReviewItem, approveReviewItem, rejectReviewItem, replaceContentReviewItem } = require('./v2-review');
+const { validateQuizSchema, attachQuizToItem, createQuizItem, loadQuizFile } = require('./v2-quiz');
+const { runV2Doctor } = require('./v2-doctor');
 const { colors } = require('./renderer');
 
 function renderV2Usage() {
@@ -24,6 +29,18 @@ ${colors.bold}Öğrenme Öğeleri (Video / Quiz / Anki):${colors.reset}
   ${colors.green}studytracker-cli v2 item reorder <itemId> --before <targetId> | --after <targetId>${colors.reset}
   ${colors.green}studytracker-cli v2 item archive <itemId>${colors.reset}                     Öğeyi arşivler (geçmiş silinmez)
 
+${colors.bold}İçerik İnceleme & Onay İş Akışı (Review Workflow):${colors.reset}
+  ${colors.green}studytracker-cli v2 review list [--status needs_review|draft|verified] [--course <id>] [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 review show <stable_key> [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 review approve <stable_key> [--note "..."] [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 review reject <stable_key> --reason "..." [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 review replace-content <stable_key> --file CONTENT.json [--note "..."] [--json]${colors.reset}
+
+${colors.bold}Quiz Yazarlık & İçe Aktarma (Deterministic Quiz Authoring):${colors.reset}
+  ${colors.green}studytracker-cli v2 quiz validate --file <quiz.json> [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 quiz attach --item <stable_key|id> --file <quiz.json> [--note "..."] [--json]${colors.reset}
+  ${colors.green}studytracker-cli v2 quiz create --lesson <id|key> --label <label> --stable-key <key> --file <quiz.json> [--before <target>] [--after <target>] [--json]${colors.reset}
+
 ${colors.bold}Tohum Kataloğu & İçerik Dağıtımı (Seed):${colors.reset}
   ${colors.green}studytracker-cli v2 seed validate [--file <path>] [--json]${colors.reset}  Tohum dosyasını ve denetim kurallarını doğrular
   ${colors.green}studytracker-cli v2 seed diff [--file <path>] [--json]${colors.reset}      Tohum ile aktif sunucu kataloğunu karşılaştırır
@@ -33,6 +50,9 @@ ${colors.bold}V1 -> V2 Güvenli Geçiş Eşleyicisi (Migration):${colors.reset}
   ${colors.green}studytracker-cli v2 migrate-v1 analyze [--json]${colors.reset}             V1 ve V2 eşleşme güven analizini çıkarır
   ${colors.green}studytracker-cli v2 migrate-v1 plan [--output FILE] [--json]${colors.reset}  Yalnızca exact/high kayıtlar için geçiş planı üretir
   ${colors.green}studytracker-cli v2 migrate-v1 apply --plan FILE [--dry-run] [--json]${colors.reset} Geçiş planını dtm. attempt olarak uygular
+
+${colors.bold}Staging Teşhisi & Sistem Durumu (Doctor):${colors.reset}
+  ${colors.green}studytracker-cli v2 doctor [--seed <path>] [--json]${colors.reset}          API v3, depolama backend, katalog ve seed drift kontrolü
 
 ${colors.bold}Ön Koşul & Bağımlılık Yönetimi:${colors.reset}
   ${colors.green}studytracker-cli v2 prereq add --item <id> --requires <id> [--min-score 70]${colors.reset}
@@ -457,6 +477,176 @@ async function handleV2Command(parsed, familyCode) {
         }
       } else {
         console.error(`${colors.red}Kullanım: studytracker-cli v2 migrate-v1 analyze | plan | apply [--plan <dosya>] [--dry-run] [--json]${colors.reset}`);
+      }
+      break;
+    }
+
+    // CONTENT REVIEW WORKFLOW
+    case 'review': {
+      if (action === 'list' || !action) {
+        const res = await listReviewItems(familyCode, {
+          status: parsed.options.status,
+          courseId: parsed.options.course
+        });
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== İÇERİK İNCELEME LİSTESİ (${familyCode}) ===${colors.reset}`);
+          console.log(`Filtre: ${colors.yellow}${res.filter.status}${colors.reset} | Toplam: ${res.total}\n`);
+          res.items.forEach(i => {
+            const statusColor = i.publishingStatus === 'active' ? colors.green : (i.publishingStatus === 'draft' ? colors.yellow : colors.dim);
+            const revColor = i.reviewStatus === 'verified' ? colors.green : (i.reviewStatus === 'rejected' ? colors.red : colors.yellow);
+            console.log(`• ${colors.bold}[${i.stableKey}]${colors.reset} (${i.displayLabel}) ${i.title}`);
+            console.log(`  Ders: ${i.courseTitle} | Durum: ${statusColor}${i.publishingStatus}${colors.reset} | İnceleme: ${revColor}${i.reviewStatus}${colors.reset} | Sürüm: v${i.versionCount}`);
+            if (i.contentUrl) console.log(`  URL: ${colors.cyan}${i.contentUrl}${colors.reset}`);
+            if (i.auditWarnings.length > 0) {
+              console.log(`  ${colors.red}⚠ Uyarılar: ${i.auditWarnings.join('; ')}${colors.reset}`);
+            }
+          });
+        }
+      } else if (action === 'show') {
+        const target = parsed.positionals[3] || parsed.options.item || parsed.options.key;
+        if (!target) throw new Error('İncelenecek stable_key veya item ID belirtilmelidir.');
+        const res = await showReviewItem(familyCode, target);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== İÇERİK DETAYI: ${res.item.stableKey} ===${colors.reset}`);
+          console.log(`ID (Değişmez): ${colors.green}${res.item.id}${colors.reset}`);
+          console.log(`Stable Key:    ${colors.green}${res.item.stableKey}${colors.reset}`);
+          console.log(`Ders & Ünite:  ${res.course.title} -> ${res.lesson.title}`);
+          console.log(`Tür & Etiket:  ${res.item.itemType} (${res.item.displayLabel})`);
+          console.log(`Yayın Durumu:  ${colors.bold}${res.item.publishingStatus}${colors.reset}`);
+          console.log(`İnceleme:      ${colors.yellow}${res.provenance.reviewStatus}${colors.reset} (Override: ${res.provenance.reviewedOverride})`);
+          console.log(`Aktif Sürüm:   ${res.currentVersion.id} (v${res.currentVersion.versionNumber})`);
+          console.log(`Başlık:        ${res.currentVersion.title}`);
+          console.log(`URL:           ${res.currentVersion.contentUrl || 'Yok'}`);
+          if (res.reviewHistory.length > 0) {
+            console.log(`\n${colors.bold}İnceleme Geçmişi:${colors.reset}`);
+            res.reviewHistory.forEach(h => {
+              console.log(`  [${h.timestamp}] ${h.action} by ${h.reviewer}: ${h.note || h.reason || ''}`);
+            });
+          }
+        }
+      } else if (action === 'approve') {
+        const target = parsed.positionals[3] || parsed.options.item || parsed.options.key;
+        if (!target) throw new Error('Onaylanacak stable_key veya item ID belirtilmelidir.');
+        const res = await approveReviewItem(familyCode, target, { note: parsed.options.note });
+        if (isJson) console.log(JSON.stringify(res, null, 2));
+        else console.log(`${colors.green}✔ ${res.message}${colors.reset}`);
+      } else if (action === 'reject') {
+        const target = parsed.positionals[3] || parsed.options.item || parsed.options.key;
+        const reason = parsed.options.reason;
+        if (!target || !reason) throw new Error('Reddedilecek stable_key ve --reason zorunludur.');
+        const res = await rejectReviewItem(familyCode, target, { reason });
+        if (isJson) console.log(JSON.stringify(res, null, 2));
+        else console.log(`${colors.yellow}✔ ${res.message}${colors.reset}`);
+      } else if (action === 'replace-content' || action === 'replace') {
+        const target = parsed.positionals[3] || parsed.options.item || parsed.options.key;
+        const file = parsed.options.file;
+        if (!target || !file) throw new Error('stable_key ve --file <CONTENT.json> zorunludur.');
+        const res = await replaceContentReviewItem(familyCode, target, { filePath: file, note: parsed.options.note });
+        if (isJson) console.log(JSON.stringify(res, null, 2));
+        else console.log(`${colors.green}✔ ${res.message}${colors.reset}`);
+      } else {
+        console.error(`${colors.red}Kullanım: studytracker-cli v2 review list | show <key> | approve <key> | reject <key> --reason ... | replace-content <key> --file CONTENT.json${colors.reset}`);
+      }
+      break;
+    }
+
+    // QUIZ AUTHORING & IMPORT WORKFLOW
+    case 'quiz': {
+      if (action === 'validate') {
+        const file = parsed.options.file || parsed.positionals[3];
+        if (!file) throw new Error('--file <quiz.json> belirtilmelidir.');
+        const res = validateQuizSchema(file);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          if (res.valid) {
+            console.log(`${colors.green}✔ Quiz şeması geçerli!${colors.reset}`);
+            console.log(`  • Başlık: ${res.normalizedQuiz.quizTitle}`);
+            console.log(`  • Toplam Soru: ${res.stats.questionCount} (Çoktan Seçmeli: ${res.stats.multipleChoiceCount}, D/Y: ${res.stats.trueFalseCount})`);
+            console.log(`  • Deterministik Fingerprint: ${colors.cyan}${res.fingerprint}${colors.reset}`);
+          } else {
+            console.error(`${colors.red}❌ Quiz şeması geçersiz:${colors.reset}`);
+            res.errors.forEach(e => console.error(`  - ${e}`));
+            process.exitCode = 1;
+          }
+        }
+      } else if (action === 'attach') {
+        const target = parsed.options.item || parsed.positionals[3];
+        const file = parsed.options.file;
+        if (!target || !file) throw new Error('--item <key|id> ve --file <quiz.json> zorunludur.');
+        const res = await attachQuizToItem(familyCode, target, file, { note: parsed.options.note });
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`${colors.green}✔ Quiz başarıyla öğeye eklendi!${colors.reset}`);
+          console.log(`  • Öğe ID (Değişmez): ${res.itemId} [${res.stableKey}]`);
+          console.log(`  • Yeni Sürüm: v${res.versionNumber}`);
+          console.log(`  • Fingerprint: ${res.fingerprint}`);
+        }
+      } else if (action === 'create') {
+        const lesson = parsed.options.lesson;
+        const label = parsed.options.label || parsed.options.displayLabel;
+        const stableKey = parsed.options['stable-key'] || parsed.options.stableKey;
+        const file = parsed.options.file;
+        const before = parsed.options.before;
+        const after = parsed.options.after;
+        const title = parsed.options.title;
+        if (!lesson || !label || !stableKey || !file) {
+          throw new Error('--lesson <id|key>, --label <label>, --stable-key <key>, --file <quiz.json> zorunludur.');
+        }
+        const res = await createQuizItem(familyCode, {
+          lessonIdOrKey: lesson,
+          displayLabel: label,
+          stableKey,
+          quizFilePathOrObject: file,
+          title,
+          beforeTarget: before,
+          afterTarget: after
+        });
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`${colors.green}✔ Quiz öğesi başarıyla oluşturuldu!${colors.reset}`);
+          console.log(`  • Öğe ID: ${res.item.id} [${res.item.stableKey}] (Etiket: ${res.item.displayLabel})`);
+          console.log(`  • Sıra Değeri (OrderKey): ${res.item.orderKey}`);
+          console.log(`  • Fingerprint: ${res.fingerprint}`);
+        }
+      } else {
+        console.error(`${colors.red}Kullanım: studytracker-cli v2 quiz validate --file <dosya> | attach --item <key> --file <dosya> | create --lesson <id> --label <label> --stable-key <key> --file <dosya> [--before/--after <target>]${colors.reset}`);
+      }
+      break;
+    }
+
+    // DOCTOR & STAGING DIAGNOSTICS
+    case 'doctor': {
+      const seedFile = parsed.options.seed || parsed.options.file;
+      const res = await runV2Doctor(familyCode, { seedFile });
+      if (isJson) {
+        console.log(JSON.stringify(res, null, 2));
+      } else {
+        console.log(`\n${colors.bold}${colors.brightCyan}=== STUDYTRACKER V2 DOKTOR & TEŞHİS RAPORU (${familyCode}) ===${colors.reset}\n`);
+        const hColor = res.checks.healthEndpoint?.status === 'PASS' ? colors.green : colors.red;
+        console.log(`1. Cloudflare Worker API v3: ${hColor}${res.checks.healthEndpoint?.status}${colors.reset} (Backend: ${colors.bold}${res.storageBackend || 'unknown'}${colors.reset}, v${res.checks.healthEndpoint?.version || '2.0.0'})`);
+        
+        const cColor = res.checks.catalog?.status === 'PASS' ? colors.green : colors.red;
+        console.log(`2. Katalog Durumu:           ${cColor}${res.checks.catalog?.status}${colors.reset} (${res.catalogSummary.courseCount} ders, ${res.catalogSummary.lessonCount} ünite, ${res.catalogSummary.itemCount} öğe: ${res.catalogSummary.activeItems} aktif / ${res.catalogSummary.draftItems} taslak)`);
+        
+        const aColor = res.checks.attempts?.status === 'PASS' ? colors.green : colors.red;
+        console.log(`3. Ölçme (Attempts) Servisi: ${aColor}${res.checks.attempts?.status}${colors.reset}`);
+
+        const dColor = res.seedDrift?.inSync ? colors.green : colors.yellow;
+        console.log(`4. Tohum Sapması (Drift):    ${dColor}${res.checks.seedDrift?.status || 'UNKNOWN'}${colors.reset} (Oluşturulacak: ${res.seedDrift?.itemsToCreate || 0}, Güncellenecek: ${res.seedDrift?.itemsToUpdate || 0}, Korunan Manuel İnceleme: ${res.seedDrift?.reviewedOverridesPreserved || 0})`);
+
+        if (res.recommendations.length > 0) {
+          console.log(`\n${colors.bold}Öneriler & Teşhis Notları:${colors.reset}`);
+          res.recommendations.forEach(r => console.log(`  💡 ${r}`));
+        } else {
+          console.log(`\n${colors.green}✔ Tüm V2 servisleri ve içerik mimarisi staging için hazır durumda!${colors.reset}`);
+        }
       }
       break;
     }

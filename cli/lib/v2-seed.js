@@ -127,34 +127,41 @@ function validateSeed(catalogInput) {
         if (reviewStatus === 'verified') verifiedCount++;
         else reviewCount++;
 
-        // Audit checks on URLs
+        const pubStatus = item.publishingStatus || 'active';
+        const isHistory = course.subject.toLowerCase().includes('tarih') || course.id.includes('tar');
+
+        // Audit & validation checks on URLs
         if (item.contentUrl) {
           const list = urlUsageMap.get(item.contentUrl) || [];
           list.push(item);
           urlUsageMap.set(item.contentUrl, list);
 
-          if (item.contentUrl.includes('youtube.com/@')) {
-            warnings.push({
-              stableKey: item.stableKey,
-              title: item.title,
-              warning: 'Channel homepage URL used instead of direct video ID',
-              reviewStatus
-            });
-          }
-          if (item.contentUrl.includes('youtube.com/results?search_query=')) {
-            warnings.push({
-              stableKey: item.stableKey,
-              title: item.title,
-              warning: 'Search query URL used instead of direct video ID',
-              reviewStatus
-            });
+          const isAmbiguous = item.contentUrl.includes('youtube.com/@') || item.contentUrl.includes('youtube.com/results?search_query=');
+          const isExplicitSafe = Boolean(item.payload?.current_source) && Boolean(item.payload?.safe);
+
+          if (isAmbiguous) {
+            if (pubStatus === 'active' && !isExplicitSafe) {
+              errors.push(`Item "${item.stableKey}" has ambiguous URL "${item.contentUrl}" and cannot be active without current_source & safe: true. Must be publishingStatus: "draft".`);
+            } else {
+              warnings.push({
+                stableKey: item.stableKey,
+                title: item.title,
+                warning: item.contentUrl.includes('youtube.com/@')
+                  ? 'Channel homepage URL used instead of direct video ID'
+                  : 'Search query URL used instead of direct video ID',
+                reviewStatus
+              });
+            }
           }
         }
 
-        // Canonical History teacher check
-        if (course.subject.toLowerCase().includes('tarih') || course.id.includes('tar')) {
+        // Canonical History teacher check (Active History items must be canonical Mehmet Celal ÖZYILDIZ)
+        if (isHistory && item.itemType === 'VIDEO') {
           const teacher = item.payload?.teacher || '';
-          if (item.contentUrl && !teacher.includes('Mehmet Celal') && !item.title.includes('Mehmet Celal')) {
+          const isCanonical = teacher.includes('Mehmet Celal') || (item.title || '').includes('Mehmet Celal');
+          if (pubStatus === 'active' && item.contentUrl && !isCanonical) {
+            errors.push(`Active History video "${item.stableKey}" must have canonical teacher Mehmet Celal ÖZYILDIZ (found: "${teacher || 'none'}")`);
+          } else if (!isCanonical) {
             warnings.push({
               stableKey: item.stableKey,
               title: item.title,
@@ -203,7 +210,7 @@ function validateSeed(catalogInput) {
  */
 async function diffSeed(familyCode, catalogInput) {
   const catalog = typeof catalogInput === 'string' || !catalogInput ? loadCatalogManifest(catalogInput) : catalogInput;
-  const remoteRes = await v2Api.fetchV2Catalog(familyCode);
+  const remoteRes = await v2Api.fetchV2Catalog(familyCode, null);
   const remoteCourses = remoteRes.curriculum || [];
 
   const remoteCourseMap = new Map(remoteCourses.map(c => [c.id, c]));
@@ -226,6 +233,7 @@ async function diffSeed(familyCode, catalogInput) {
   const itemsToCreate = [];
   const itemsToUpdateContent = [];
   const itemsIdentical = [];
+  const reviewedOverridesPreserved = [];
 
   const seedItemIds = new Set();
   const seedStableKeys = new Set();
@@ -248,8 +256,23 @@ async function diffSeed(familyCode, catalogInput) {
         if (!existing) {
           itemsToCreate.push({ ...item, lessonId: lesson.id, courseId: course.id });
         } else {
-          // Compare content
+          // Check if remote item has a reviewed override
           const curVer = existing.currentVersion || {};
+          const remoteProv = curVer.payload?.provenance || existing.payload?.provenance || {};
+          const isReviewedOverride = Boolean(remoteProv.reviewedOverride) || (remoteProv.reviewStatus === 'verified' && (existing.versionCount > 1 || curVer.versionNumber > 1));
+
+          if (isReviewedOverride) {
+            reviewedOverridesPreserved.push({
+              itemId: existing.id,
+              stableKey: item.stableKey,
+              title: curVer.title || existing.displayLabel,
+              reviewStatus: remoteProv.reviewStatus || 'verified',
+              reviewedBy: remoteProv.reviewedBy || 'reviewer'
+            });
+            continue;
+          }
+
+          // Compare content
           const currentTitle = curVer.title || existing.displayLabel;
           const currentUrl = curVer.contentUrl || null;
           const seedTitle = item.title || item.displayLabel;
@@ -313,6 +336,7 @@ async function diffSeed(familyCode, catalogInput) {
       itemsToCreate: itemsToCreate.length,
       itemsToUpdateContent: itemsToUpdateContent.length,
       itemsIdentical: itemsIdentical.length,
+      reviewedOverridesPreserved: reviewedOverridesPreserved.length,
       extraRemoteItems: extraRemoteItems.length
     },
     coursesToCreate,
@@ -320,6 +344,7 @@ async function diffSeed(familyCode, catalogInput) {
     itemsToCreate,
     itemsToUpdateContent,
     itemsIdentical,
+    reviewedOverridesPreserved,
     extraRemoteItems
   };
 }

@@ -189,6 +189,32 @@ async function exportV2Context(overrideCode, studentId = 'student_default', cour
   return await makeRequest(url, { method: 'GET', headers: getV2Headers(code) });
 }
 
+// 9. HEALTH CHECK & STATUS / REVIEW
+async function checkV2Health(overrideCode) {
+  const config = loadConfig();
+  const code = (overrideCode || config.familyCode || 'ST-DEMO').toUpperCase().trim();
+  const url = `${config.workerUrl}/api/v3/health?code=${encodeURIComponent(code)}`;
+  return await makeRequest(url, { method: 'GET', headers: getV2Headers(code) });
+}
+
+async function updateV2ItemStatus(overrideCode, itemId, status) {
+  const config = loadConfig();
+  const code = (overrideCode || config.familyCode || '').toUpperCase().trim();
+  if (!code) throw new Error('Aile kodu ayarlı değil.');
+  const url = `${config.workerUrl}/api/v3/items/${encodeURIComponent(itemId)}/status?code=${encodeURIComponent(code)}`;
+  return await makeRequest(url, { method: 'PATCH', headers: getV2Headers(code) }, { status });
+}
+
+async function reviewV2Item(overrideCode, itemId, reviewData) {
+  const config = loadConfig();
+  const code = (overrideCode || config.familyCode || '').toUpperCase().trim();
+  if (!code) throw new Error('Aile kodu ayarlı değil.');
+  const url = `${config.workerUrl}/api/v3/items/${encodeURIComponent(itemId)}/review?code=${encodeURIComponent(code)}`;
+  return await makeRequest(url, { method: 'POST', headers: getV2Headers(code) }, reviewData);
+}
+
+const fetchV2Attempts = listV2Attempts;
+
 module.exports = {
   fetchV2Catalog,
   listV2Courses,
@@ -201,6 +227,8 @@ module.exports = {
   getV2Item,
   createV2Item,
   updateV2ItemContent,
+  updateV2ItemStatus,
+  reviewV2Item,
   reorderV2Item,
   archiveV2Item,
   addV2Prerequisite,
@@ -208,6 +236,9 @@ module.exports = {
   listV2Prerequisites,
   recordV2Attempt,
   listV2Attempts,
+  fetchV2Attempts,
   getV2Progress,
-  exportV2Context
+  exportV2Context,
+  checkV2Health
 };
+

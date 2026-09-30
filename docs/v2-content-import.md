@@ -90,19 +90,32 @@ studytracker-cli v2 seed apply --dry-run --json
 studytracker-cli v2 seed apply --json
 ```
 
+### 4.4 Manuel İnceleme Koruması (Reviewed Overrides Preservation)
+`studytracker-cli v2 review approve` veya `replace-content` ile manuel olarak incelenmiş ve onaylanmış öğeler (`provenance.reviewedOverride === true` veya sürüm > 1), sonraki tohum uygulamalarında (`seed apply`) **sessizce ezilmez**. `seed diff` bu öğeleri `reviewedOverridesPreserved` olarak listeler ve yerel varsayılanlarla üzerine yazılmasını engeller.
+
 ---
 
-## 5. V1 -> V2 Güvenli Veri Geçişi (Migration Engine)
+## 5. İçerik İnceleme & Yayın Durumu Semantiği (Review & Publishing)
+
+Detaylı inceleme iş akışları ve komutlar için [v2-content-review.md](file:///data/data/com.termux/files/home/projects/study-tracker/docs/v2-content-review.md) belgesine bakınız.
+
+- **`active`**: Öğrenci kataloğunda görünür, MEB kazanımlarına uygun doğrulanmış içerik.
+- **`draft`**: İnceleme bekleyen, tamamlanmamış veya belirsiz bağlantılar; öğrenci arayüzünde gizlenir.
+- **`archived`**: Yayından kaldırılmış içerik; öğrencinin önceki tamamlama geçmişi (Attempts) korunur.
+
+---
+
+## 6. V1 -> V2 Güvenli Veri Geçişi (Migration Engine)
 
 Legacy V1 haftalık planlarındaki tamamlanmış çalışmalar, V2 sistemine append-only `Attempt` olarak aktarılır.
 
-### 5.1 Güven Seviyeleri & Eşleme Önceliği
+### 6.1 Güven Seviyeleri & Eşleme Önceliği
 1. **`exact`**: Birebir YouTube Video ID veya Stable Key eşleşmesi.
 2. **`high`**: Branş ve ders başlığı token örtüşmesi (> %75).
 3. **`medium`**: Kısmi başlık örtüşmesi (%50 - %75) -> **Otomatik uygulanmaz**.
 4. **`unmatched`**: Eşleşmeyen serbest veya kaldırılmış dersler -> **Otomatik uygulanmaz**.
 
-### 5.2 Geçiş İş Akışı
+### 6.2 Geçiş İş Akışı
 
 ```bash
 # 1. Analiz Çıkar:
@@ -118,7 +131,7 @@ studytracker-cli v2 migrate-v1 apply --plan /tmp/migration-plan.json --dry-run -
 studytracker-cli v2 migrate-v1 apply --plan /tmp/migration-plan.json --json
 ```
 
-### 5.3 Güvenlik Garantileri
+### 6.3 Güvenlik Garantileri
 - **Deterministik `clientAttemptId` (`mig_v1_${legacyId}`):** İkinci kez çalıştırıldığında sunucu yinelenen kaydı tanır ve mükerrer kayıt oluşturmaz.
 - **Kayıpsız Geçiş:** V1 veritabanından hiçbir kayıt silinmez.
 - **Veli İncelemesi Bağımsızlığı:** Veli onayları öğrencinin bitirme durumunu engellemez; metadata olarak korunur.

@@ -1,0 +1,17 @@
+{
+  "title": "Kimya Bilimi ve Alt Disiplinleri (Doğrulanmış Video Dersi - TEST FIXTURE)",
+  "contentUrl": "https://www.youtube.com/watch?v=TEST_DIRECT_KIMYA_01",
+  "publishingStatus": "active",
+  "changelog": "Replaced generic channel homepage with verified direct lecture video",
+  "payload": {
+    "teacher": "Görkem Şahin",
+    "channel": "Benim Hocam",
+    "topicDetails": "Kimyanın alt disiplinleri, simyadan kimyaya geçiş",
+    "provenance": {
+      "sourceRef": "test_fixture/review_replacement.json",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-09-30T19:00:00.000Z"
+    }
+  }
+}

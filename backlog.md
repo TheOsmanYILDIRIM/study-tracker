@@ -216,13 +216,20 @@
 - [x] **Öğrenci Masası Mesaj Banner'ı:** `ChildHomeScreen.kt` üzerinde veliden gelen yeni mesaj banner'ı ve "Anladım / Okundu 👍" onay butonu.
 - [x] **CLI Entegrasyonu:** `studytracker-cli notify -m "..."` komutu.
 
-## 51. Terminal Hub Güvenli Action Runner ve Canlı Çıktı (TAMAMLANDI)
-- [x] **Güvenli Action Çalıştırıcı:** Terminal Hub eylemleri allowlist ve kontrollü çalışma diziniyle doğrulanarak güvenli biçimde çalıştırıldı.
 ## 52. StudyTracker V2 Faz 3: Vault Tabanlı İçerik Tohumlama & Güvenli V1->V2 Geçişi (TAMAMLANDI)
 - [x] **Checked-in Tohum Kataloğu:** `content/9-sinif-v2-catalog.json` ve `content/9-sinif-v2-catalog.sources.md` (Tarih için Mehmet Celal ÖZYILDIZ kanonik, Anki paketleri kaynaklı, denetim uyarıları).
 - [x] **Tohum Araçları:** `studytracker-cli v2 seed validate|diff|apply` (İdempotent, sürüm korumalı, kayıpsız).
 - [x] **V1->V2 Geçiş Eşleyici:** `studytracker-cli v2 migrate-v1 analyze|plan|apply` (Öncelikli eşleme, güven skoru, deterministik clientAttemptId).
 - [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellemesi.
+
+## 53. StudyTracker V2 Faz 4: Operasyonel İçerik İnceleme, Quiz Yazarlığı, Yayınlama & Staging Hazırlığı (TAMAMLANDI)
+- [x] **İçerik İnceleme İş Akışı (Review Workflow):** `studytracker-cli v2 review list|show|approve|reject|replace-content` (Değişmez ID/stableKey, sürüm geçmişi, tohum üzerine yazma koruması).
+- [x] **Quiz Yazarlık & İçe Aktarma:** `studytracker-cli v2 quiz validate|attach|create` (MULTIPLE_CHOICE, TRUE_FALSE, deterministik şema doğrulaması, Quiz 17.2 puzzle konumlandırma).
+- [x] **İçerik Yayınlama Semantiği:** `draft`, `active`, `archived` görünürlük ayrımı; öğrenci kataloğundan taslak/arşiv gizleme; Tarih kanonik öğretmen kuralı zorunluluğu.
+- [x] **Staging & D1 Hazırlığı:** `GET /api/v3/health` (KV vs D1 backend), `studytracker-cli v2 doctor` teşhis motoru ve D1 migration komutları (`0001_v2_schema.sql`).
+- [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri, `docs/v2-content-review.md`, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellemeleri.
+
+
 
 
 

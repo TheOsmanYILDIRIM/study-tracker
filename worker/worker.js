@@ -293,6 +293,19 @@ export default {
       });
     }
 
+    // 1.5 V3 Health Check (Backend / Storage reporting)
+    if (path === '/api/v3/health') {
+      const storageType = (env && env.DB && typeof env.DB.prepare === 'function') ? 'd1' : (env?.STUDY_SYNC_KV ? 'kv' : 'kv_fallback');
+      return json({
+        success: true,
+        status: 'ok',
+        version: '2.0.0',
+        schemaVersion: 'v2',
+        storageBackend: storageType,
+        timestamp: Date.now()
+      });
+    }
+
     // 2. Family Pairing
     if (path === '/api/pair' && method === 'POST') {
       return await handlePair(request, env, familyCode);

@@ -4,6 +4,7 @@
  */
 
 const http = require('http');
+const path = require('path');
 const assert = require('assert');
 const v2Api = require('./lib/v2-api');
 const { handleV2Command } = require('./lib/v2-cli');
@@ -94,6 +95,8 @@ const mockCurriculum = [
   }
 ];
 
+let activeCurriculum = mockCurriculum;
+
 function startMockServer() {
   return new Promise((resolve) => {
     mockServer = http.createServer((req, res) => {
@@ -182,9 +185,19 @@ function startMockServer() {
               quizzes: []
             }
           }));
+        } else if (url.pathname === '/api/v3/health') {
+          res.writeHead(200);
+          res.end(JSON.stringify({
+            success: true,
+            status: 'ok',
+            version: '2.0.0',
+            schemaVersion: 'v2',
+            storageBackend: 'kv_fallback',
+            timestamp: Date.now()
+          }));
         } else if (url.pathname === '/api/v3/catalog') {
           res.writeHead(200);
-          res.end(JSON.stringify({ success: true, curriculum: mockCurriculum }));
+          res.end(JSON.stringify({ success: true, curriculum: activeCurriculum }));
         } else if (url.pathname === '/api/v3/courses' && req.method === 'POST') {
           res.writeHead(201);
           res.end(JSON.stringify({ success: true, course: { id: 'course_mat_9', ...lastReceivedRequest.body } }));
@@ -196,20 +209,88 @@ function startMockServer() {
           res.end(JSON.stringify({
             success: true,
             item: {
-              id: 'item_mat9_quiz17_2',
+              id: lastReceivedRequest.body.id || 'item_mat9_quiz17_2',
               ...lastReceivedRequest.body,
-              orderKey: 2500.0,
-              currentVersionId: 'ver_item_mat9_quiz17_2_v1'
+              orderKey: lastReceivedRequest.body.orderKey || 2500.0,
+              currentVersionId: 'ver_item_mat9_quiz17_2_v1',
+              publishingStatus: lastReceivedRequest.body.publishingStatus || 'active'
             }
           }));
-        } else if (url.pathname === '/api/v3/items/item_mat9_vid17/content' && req.method === 'PATCH') {
+        } else if (url.pathname.startsWith('/api/v3/items/') && url.pathname.endsWith('/review') && req.method === 'POST') {
+          const parts = url.pathname.split('/');
+          const itemId = parts[4];
+          const reviewAction = lastReceivedRequest.body.action;
+          const pubStatus = reviewAction === 'REJECT' ? 'draft' : 'active';
           res.writeHead(200);
           res.end(JSON.stringify({
             success: true,
             item: {
-              id: 'item_mat9_vid17',
-              currentVersionId: 'ver_item_mat9_vid17_v2',
+              id: itemId,
+              stableKey: itemId === 'item_mat9_vid17' ? 'mat9_vid17' : itemId,
+              publishingStatus: pubStatus,
+              currentVersion: {
+                id: `ver_${itemId}_v2`,
+                versionNumber: 2,
+                title: lastReceivedRequest.body.content?.title || 'Reviewed Item Title',
+                contentUrl: lastReceivedRequest.body.content?.contentUrl || 'https://youtube.com/watch?v=reviewed_vid',
+                payload: {
+                  provenance: {
+                    reviewStatus: reviewAction === 'REJECT' ? 'rejected' : 'verified',
+                    reviewedOverride: true,
+                    reviewedBy: lastReceivedRequest.body.reviewer || 'reviewer',
+                    reviewHistory: [
+                      { action: reviewAction, reviewer: lastReceivedRequest.body.reviewer, timestamp: new Date().toISOString() }
+                    ]
+                  }
+                }
+              }
+            }
+          }));
+        } else if (url.pathname.startsWith('/api/v3/items/') && url.pathname.endsWith('/content') && req.method === 'PATCH') {
+          const parts = url.pathname.split('/');
+          const itemId = parts[4];
+          res.writeHead(200);
+          res.end(JSON.stringify({
+            success: true,
+            item: {
+              id: itemId,
+              currentVersionId: `ver_${itemId}_v2`,
+              currentVersion: {
+                id: `ver_${itemId}_v2`,
+                versionNumber: 2,
+                title: lastReceivedRequest.body.title || 'Updated Title',
+                payload: lastReceivedRequest.body.payload || {}
+              },
               versionCount: 2
+            }
+          }));
+        } else if (url.pathname.startsWith('/api/v3/items/') && !url.pathname.includes('/content') && !url.pathname.includes('/review') && !url.pathname.includes('/status') && req.method === 'GET') {
+          const parts = url.pathname.split('/');
+          const itemId = parts[4];
+          res.writeHead(200);
+          res.end(JSON.stringify({
+            success: true,
+            item: {
+              id: itemId,
+              stableKey: itemId === 'item_mat9_vid17' ? 'mat9_vid17' : itemId,
+              displayLabel: 'Item Label',
+              itemType: 'VIDEO',
+              publishingStatus: 'active',
+              currentVersion: {
+                id: `ver_${itemId}_v1`,
+                versionNumber: 1,
+                title: 'Item Title',
+                contentUrl: 'https://youtube.com/watch?v=sample',
+                payload: {
+                  provenance: {
+                    reviewStatus: 'needs_review',
+                    reviewHistory: []
+                  }
+                }
+              },
+              versions: [
+                { id: `ver_${itemId}_v1`, versionNumber: 1, title: 'Item Title' }
+              ]
             }
           }));
         } else if (url.pathname === '/api/v3/prerequisites' && req.method === 'POST') {
@@ -367,7 +448,7 @@ async function runCliTests() {
     assert.strictEqual(validation.stats.quizCount, 0, 'Must have 0 fabricated quizzes');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings.`);
 
-    // Test 8: Canonical History Teacher & Stale Warning
+    // Test 8: Canonical History Teacher & Stale Warning / Active Error
     console.log('8️⃣ Testing History Canonical Teacher & Stale Warning...');
     const catalog = require('../content/9-sinif-v2-catalog.json');
     const historyCourse = catalog.courses.find(c => c.id === 'course_tar_9');
@@ -379,11 +460,17 @@ async function runCliTests() {
       });
     });
 
-    // Test invalid/stale teacher generates warning
+    // Test active non-canonical teacher fails validation
     const invalidTeacherCatalog = JSON.parse(JSON.stringify(catalog));
     invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].payload.teacher = 'Ramis Hoca Stale';
     const invalidVal = validateSeed(invalidTeacherCatalog);
-    assert(invalidVal.warnings.some(w => w.warning.includes('not canonical teacher Mehmet Celal ÖZYILDIZ')), 'Must flag non-canonical teacher');
+    assert.strictEqual(invalidVal.valid, false, 'Active non-canonical history video must fail validation');
+    assert(invalidVal.errors.some(e => e.includes('Mehmet Celal ÖZYILDIZ')), 'Must error on active non-canonical teacher');
+
+    // Test draft non-canonical teacher generates warning
+    invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].publishingStatus = 'draft';
+    const invalidDraftVal = validateSeed(invalidTeacherCatalog);
+    assert(invalidDraftVal.warnings.some(w => w.warning.includes('not canonical teacher Mehmet Celal ÖZYILDIZ')), 'Must flag draft non-canonical teacher with warning');
     console.log('   ✅ History canonical teacher rule and stale detection verified.');
 
     // Test 9: Ambiguous & Channel URL Warnings
@@ -478,7 +565,220 @@ async function runCliTests() {
     assert.strictEqual(applyLive.summary.recordedCount, plan.plannedAttempts.length);
     console.log('   ✅ Migration apply execution completed without data loss.');
 
-    console.log('\n🎉 ALL V2 CLI & PHASE 3 MIGRATION TESTS PASSED SUCCESSFULLY!');
+    // Test 16: Review Workflow (approve, reject, replace-content keep immutable IDs)
+    console.log('1️⃣6️⃣ Testing Review Workflow (approve, reject, replace-content)...');
+    const { approveReviewItem, rejectReviewItem, replaceContentReviewItem, listReviewItems, showReviewItem } = require('./lib/v2-review');
+    
+    // 16A: List review items
+    const reviewList = await listReviewItems('ST-V2TX-2026-CLI1-1111', { status: 'all' });
+    assert(reviewList.total >= 3, 'Must list items across curriculum');
+
+    // 16B: Approve item
+    const approveRes = await approveReviewItem('ST-V2TX-2026-CLI1-1111', 'mat9_vid17', { note: 'Verified by teacher' });
+    assert.strictEqual(approveRes.success, true);
+    assert.strictEqual(approveRes.itemId, 'item_mat9_vid17', 'Item ID must not change on approve');
+    assert.strictEqual(approveRes.stableKey, 'mat9_vid17', 'stableKey must not change on approve');
+    assert.strictEqual(approveRes.publishingStatus, 'active');
+
+    // 16C: Reject item
+    const rejectRes = await rejectReviewItem('ST-V2TX-2026-CLI1-1111', 'mat9_vid17', { reason: 'Outdated curriculum link' });
+    assert.strictEqual(rejectRes.success, true);
+    assert.strictEqual(rejectRes.itemId, 'item_mat9_vid17', 'Item ID must not change on reject');
+    assert.strictEqual(rejectRes.publishingStatus, 'draft', 'Rejected item must be unpopulated to draft');
+
+    // 16D: Replace content
+    const fixturePath = path.resolve(__dirname, 'test-fixtures/content-replacement-sample.json');
+    const replaceRes = await replaceContentReviewItem('ST-V2TX-2026-CLI1-1111', 'mat9_vid17', { filePath: fixturePath, note: 'Replaced with direct lecture' });
+    assert.strictEqual(replaceRes.success, true);
+    assert.strictEqual(replaceRes.itemId, 'item_mat9_vid17', 'Item ID must not change on replace');
+    assert.strictEqual(replaceRes.versionNumber, 2, 'New version number must be created');
+    console.log('   ✅ Review workflow (approve, reject, replace-content) preserves immutable IDs and stable keys.');
+
+    // Test 17: Reviewed override survives seed diff/apply (no silent overwrite)
+    console.log('1️⃣7️⃣ Testing Reviewed Overrides survive seed diff/apply...');
+    const mockRemoteWithOverride = {
+      curriculum: [
+        {
+          id: 'course_mat_9',
+          title: '9. Sınıf Matematik',
+          subject: 'Matematik',
+          gradeLevel: 9,
+          lessons: [
+            {
+              id: 'lesson_gercek_sayilar',
+              title: 'Gerçek Sayılar',
+              orderKey: 1000.0,
+              items: [
+                {
+                  id: 'item_mat9_vid17',
+                  stableKey: 'mat9_vid17',
+                  displayLabel: 'Video 17',
+                  orderKey: 1000.0,
+                  versionCount: 2,
+                  currentVersionId: 'ver_item_mat9_vid17_v2',
+                  currentVersion: {
+                    id: 'ver_item_mat9_vid17_v2',
+                    versionNumber: 2,
+                    title: 'Manually Reviewed Title',
+                    contentUrl: 'https://youtube.com/watch?v=manual_verified',
+                    payload: {
+                      provenance: {
+                        reviewStatus: 'verified',
+                        reviewedOverride: true,
+                        reviewedBy: 'teacher_ali'
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
+    // Diff against seed with reviewed override
+    const seedWithMat17 = {
+      schemaVersion: 'v2',
+      courses: [
+        {
+          id: 'course_mat_9',
+          title: '9. Sınıf Matematik',
+          subject: 'Matematik',
+          gradeLevel: 9,
+          lessons: [
+            {
+              id: 'lesson_gercek_sayilar',
+              title: 'Gerçek Sayılar',
+              orderKey: 1000.0,
+              items: [
+                {
+                  id: 'item_mat9_vid17',
+                  stableKey: 'mat9_vid17',
+                  itemType: 'VIDEO',
+                  displayLabel: 'Video 17',
+                  orderKey: 1000.0,
+                  title: 'Seed Default Title',
+                  contentUrl: 'https://youtube.com/watch?v=seed_default',
+                  payload: { provenance: { reviewStatus: 'needs_review' } }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
+    // Temporarily swap mock response for catalog fetch
+    activeCurriculum = mockRemoteWithOverride.curriculum;
+    const diffWithOverride = await diffSeed('ST-V2TX-2026-CLI1-1111', seedWithMat17);
+    activeCurriculum = mockCurriculum;
+    assert.strictEqual(diffWithOverride.summary.itemsToUpdateContent, 0, 'Reviewed item must not be overwritten by seed');
+    assert(diffWithOverride.summary.reviewedOverridesPreserved >= 1, 'Reviewed override must be marked as preserved');
+    console.log('   ✅ Reviewed override successfully preserved in seed diff without silent overwrite.');
+
+    // Test 18: Quiz Schema Validations
+    console.log('1️⃣8️⃣ Testing Quiz Schema Validations...');
+    const { validateQuizSchema, computeQuizFingerprint } = require('./lib/v2-quiz');
+    
+    // 18A: Valid quiz fixture
+    const quizFixturePath = path.resolve(__dirname, 'test-fixtures/quiz-mat-kumeler.json');
+    const validQuizRes = validateQuizSchema(quizFixturePath);
+    assert.strictEqual(validQuizRes.valid, true, 'Valid quiz fixture must pass validation');
+    assert.strictEqual(validQuizRes.stats.questionCount, 3);
+    assert.strictEqual(validQuizRes.stats.multipleChoiceCount, 1);
+    assert.strictEqual(validQuizRes.stats.trueFalseCount, 2);
+    assert(typeof validQuizRes.fingerprint === 'string' && validQuizRes.fingerprint.length === 16, 'Fingerprint must be 16-hex sha256');
+
+    // 18B: Invalid quiz (missing prompt, bad type, MC with <2 choices, bad correctAnswer)
+    const invalidQuiz = {
+      quizTitle: 'Invalid Quiz Test',
+      questions: [
+        { id: 'q1', type: 'INVALID_TYPE', prompt: 'Bad type' },
+        { id: 'q2', type: 'MULTIPLE_CHOICE', prompt: '', choices: ['A'] },
+        { id: 'q3', type: 'MULTIPLE_CHOICE', prompt: 'Question 3', choices: ['A', 'B'], correctAnswer: 'C' },
+        { id: 'q4', type: 'TRUE_FALSE', prompt: 'Question 4', correctAnswer: 'MAYBE' }
+      ]
+    };
+    const invalidRes = validateQuizSchema(invalidQuiz);
+    assert.strictEqual(invalidRes.valid, false, 'Invalid quiz must fail validation');
+    assert(invalidRes.errors.length >= 4, 'Must report all schema errors');
+    console.log('   ✅ Quiz schema validator catches type, choice, and boolean errors deterministically.');
+
+    // Test 19: Quiz 17.2 Insert-Between Behavior
+    console.log('1️⃣9️⃣ Testing Quiz 17.2 Insert-Between Behavior...');
+    const { createQuizItem } = require('./lib/v2-quiz');
+    const createQuizRes = await createQuizItem('ST-V2TX-2026-CLI1-1111', {
+      lessonIdOrKey: 'lesson_gercek_sayilar',
+      displayLabel: 'Quiz 17.2',
+      stableKey: 'mat9_quiz_17_2',
+      quizFilePathOrObject: quizFixturePath,
+      afterTarget: 'item_mat9_quiz17'
+    });
+    assert.strictEqual(createQuizRes.success, true);
+    assert.strictEqual(createQuizRes.item.displayLabel, 'Quiz 17.2');
+    assert.strictEqual(createQuizRes.item.stableKey, 'mat9_quiz_17_2');
+    assert.strictEqual(createQuizRes.item.orderKey, 2500.0, 'OrderKey must be between Quiz 17 and Video 18');
+    console.log('   ✅ Quiz 17.2 created with puzzle insert-between ordering.');
+
+    // Test 20: Quiz Attach creates new version with fingerprint
+    console.log('2️⃣0️⃣ Testing Quiz Attach to existing item...');
+    const { attachQuizToItem } = require('./lib/v2-quiz');
+    const attachRes = await attachQuizToItem('ST-V2TX-2026-CLI1-1111', 'mat9_vid17', quizFixturePath, { note: 'Attached practice quiz' });
+    assert.strictEqual(attachRes.success, true);
+    assert.strictEqual(attachRes.itemId, 'item_mat9_vid17', 'Item ID must remain immutable');
+    assert(attachRes.fingerprint, 'Quiz attachment must have deterministic fingerprint');
+    console.log('   ✅ Quiz attach successfully updated version content with deterministic fingerprint.');
+
+    // Test 21: V2 Doctor Diagnostic Check
+    console.log('2️⃣1️⃣ Testing V2 Doctor Diagnostic Check...');
+    const { runV2Doctor } = require('./lib/v2-doctor');
+    const doctorRes = await runV2Doctor('ST-V2TX-2026-CLI1-1111');
+    assert.strictEqual(doctorRes.checks.healthEndpoint.status, 'PASS');
+    assert.strictEqual(doctorRes.checks.catalog.status, 'PASS');
+    assert.strictEqual(doctorRes.checks.attempts.status, 'PASS');
+    assert.strictEqual(doctorRes.storageBackend, 'kv_fallback');
+    assert(doctorRes.catalogSummary.itemCount >= 3);
+    console.log('   ✅ V2 doctor diagnostic output verified deterministically.');
+
+    // Test 22: History Canonical Teacher Rule Enforced
+    console.log('2️⃣2️⃣ Testing History Canonical Teacher Rule Enforced...');
+    const nonCanonicalHistoryCatalog = {
+      schemaVersion: 'v2',
+      courses: [
+        {
+          id: 'course_tar_9',
+          title: '9. Sınıf Tarih',
+          subject: 'Tarih',
+          gradeLevel: 9,
+          lessons: [
+            {
+              id: 'lesson_tar9_test',
+              title: 'Tarih Bilimi',
+              items: [
+                {
+                  id: 'item_tar9_fake',
+                  stableKey: 'tar9_fake_video',
+                  itemType: 'VIDEO',
+                  displayLabel: '1.1',
+                  publishingStatus: 'active',
+                  contentUrl: 'https://youtube.com/watch?v=fake_history_123',
+                  payload: {
+                    teacher: 'Sahte Öğretmen'
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+    const invalidHistoryRes = validateSeed(nonCanonicalHistoryCatalog);
+    assert.strictEqual(invalidHistoryRes.valid, false, 'Active History video violating teacher rule must fail validation');
+    assert(invalidHistoryRes.errors.some(e => e.includes('Mehmet Celal ÖZYILDIZ')), 'Error must explicitly name canonical teacher');
+    console.log('   ✅ History canonical teacher rule strictly enforced.');
+
+    console.log('\n🎉 ALL V2 CLI & PHASE 4 TESTS PASSED SUCCESSFULLY!');
   } finally {
     mockServer.close();
   }

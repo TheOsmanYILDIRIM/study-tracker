@@ -99,14 +99,19 @@ function createD1Storage(db) {
     },
 
     // Learning Items
-    async getItems(familyCode, lessonId = null, includeArchived = false) {
+    async getItems(familyCode, lessonId = null, includeArchived = false, statusFilter = null) {
       let sql = 'SELECT * FROM learning_items WHERE family_code = ?';
       const params = [familyCode];
       if (lessonId) {
         sql += ' AND lesson_id = ?';
         params.push(lessonId);
       }
-      if (!includeArchived) sql += ' AND is_archived = 0';
+      if (statusFilter && statusFilter !== 'all') {
+        sql += ' AND publishing_status = ?';
+        params.push(statusFilter);
+      } else if (!includeArchived && (!statusFilter || statusFilter !== 'all')) {
+        sql += ' AND is_archived = 0 AND publishing_status = "active"';
+      }
       sql += ' ORDER BY order_key ASC';
       const result = await db.prepare(sql).bind(...params).all();
       return (result.results || []).map(mapDbItem);
@@ -118,13 +123,15 @@ function createD1Storage(db) {
     },
 
     async saveItem(item) {
-      const sql = `INSERT INTO learning_items (id, lesson_id, family_code, item_type, display_label, stable_key, order_key, current_version_id, is_archived, created_at, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      const pubStatus = item.publishingStatus || (item.isArchived ? 'archived' : 'active');
+      const sql = `INSERT INTO learning_items (id, lesson_id, family_code, item_type, display_label, stable_key, order_key, current_version_id, publishing_status, is_archived, created_at, updated_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(id) DO UPDATE SET
           item_type = excluded.item_type,
           display_label = excluded.display_label,
           order_key = excluded.order_key,
           current_version_id = excluded.current_version_id,
+          publishing_status = excluded.publishing_status,
           is_archived = excluded.is_archived,
           updated_at = excluded.updated_at`;
       await db.prepare(sql).bind(
@@ -136,11 +143,12 @@ function createD1Storage(db) {
         item.stableKey,
         item.orderKey || 1000.0,
         item.currentVersionId,
-        item.isArchived ? 1 : 0,
+        pubStatus,
+        (item.isArchived || pubStatus === 'archived') ? 1 : 0,
         item.createdAt,
         item.updatedAt
       ).run();
-      return item;
+      return { ...item, publishingStatus: pubStatus };
     },
 
     async updateItemOrderKey(familyCode, itemId, newOrderKey) {
@@ -355,10 +363,20 @@ function createKVFallbackStorage(env, inMemoryStore) {
     },
 
     // Learning Items
-    async getItems(familyCode, lessonId = null, includeArchived = false) {
+    async getItems(familyCode, lessonId = null, includeArchived = false, statusFilter = null) {
       const list = (await readKey(`v2:${familyCode}:items`)) || [];
       return list
-        .filter(i => (!lessonId || i.lessonId === lessonId) && (includeArchived || !i.isArchived))
+        .filter(i => {
+          if (lessonId && i.lessonId !== lessonId) return false;
+          const pubStatus = i.publishingStatus || (i.isArchived ? 'archived' : 'active');
+          if (statusFilter && statusFilter !== 'all') {
+            return pubStatus === statusFilter;
+          }
+          if (!includeArchived && (!statusFilter || statusFilter !== 'all')) {
+            return !i.isArchived && pubStatus === 'active';
+          }
+          return true;
+        })
         .sort((a, b) => (a.orderKey || 0) - (b.orderKey || 0));
     },
 
@@ -368,16 +386,22 @@ function createKVFallbackStorage(env, inMemoryStore) {
     },
 
     async saveItem(item) {
+      const pubStatus = item.publishingStatus || (item.isArchived ? 'archived' : 'active');
+      const itemWithStatus = {
+        ...item,
+        publishingStatus: pubStatus,
+        isArchived: Boolean(item.isArchived || pubStatus === 'archived')
+      };
       const key = `v2:${item.familyCode}:items`;
       const list = (await readKey(key)) || [];
       const idx = list.findIndex(i => i.id === item.id);
       if (idx >= 0) {
-        list[idx] = { ...list[idx], ...item, updatedAt: Date.now() };
+        list[idx] = { ...list[idx], ...itemWithStatus, updatedAt: Date.now() };
       } else {
-        list.push(item);
+        list.push(itemWithStatus);
       }
       await writeKey(key, list);
-      return item;
+      return itemWithStatus;
     },
 
     async updateItemOrderKey(familyCode, itemId, newOrderKey) {
@@ -518,6 +542,7 @@ function mapDbLesson(row) {
 }
 
 function mapDbItem(row) {
+  const isArch = Boolean(row.is_archived);
   return {
     id: row.id,
     lessonId: row.lesson_id,
@@ -527,7 +552,8 @@ function mapDbItem(row) {
     stableKey: row.stable_key,
     orderKey: row.order_key,
     currentVersionId: row.current_version_id,
-    isArchived: Boolean(row.is_archived),
+    publishingStatus: row.publishing_status || (isArch ? 'archived' : 'active'),
+    isArchived: isArch || row.publishing_status === 'archived',
     createdAt: row.created_at,
     updatedAt: row.updated_at
   };
