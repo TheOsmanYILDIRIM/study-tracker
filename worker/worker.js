@@ -508,13 +508,21 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
 
   // 1-3. RESTORE / WIPE / RESET use complete snapshots.
   if (action === 'RESTORE' || action === 'UNDO_RESET') {
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+    const expRev = parseExpectedRevision(incoming.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    const currentRevision = Number(currentMeta.revision || 0);
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(currentMeta.resetAt || 0));
+    }
     const snapshot = await getKV(env, `${prefix}snapshot_prev`);
     if (!snapshot) return error('Geri yüklenecek önceki durum yedeği bulunamadı.', 404);
-    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
     for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
 
-    const restoredMeta = { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now() };
+    const restoredMeta = { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now(), revision: currentRevision + 1 };
     await putKV(env, `${prefix}meta`, restoredMeta);
     await putKV(env, `${prefix}plan`, {
       templates: snapshot.tasks || [],
@@ -533,13 +541,21 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   }
 
   if (action === 'WIPE') {
+    const currentMeta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+    const expRev = parseExpectedRevision(incoming.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    const currentRevision = Number(currentMeta.revision || 0);
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(currentMeta.resetAt || 0));
+    }
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
-    const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
     for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
 
-    const meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: 1, adminToken: currentMeta.adminToken };
+    const meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: currentRevision + 1, adminToken: currentMeta.adminToken };
     await putKV(env, `${prefix}meta`, meta);
     await putKV(env, `${prefix}plan`, { templates: [], tasks: [], plan: null, updatedAt: Date.now() });
     await putKV(env, `${prefix}messages`, []);
@@ -547,12 +563,21 @@ async function handleLegacySyncPost(request, env, familyCode, headerRole) {
   }
 
   if (action === 'RESET' || action === 'RESET_ALL_PROGRESS') {
+    let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+    const expRev = parseExpectedRevision(incoming.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    const currentRevision = Number(meta.revision || 0);
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+    }
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
 
-    let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [] };
     meta.resetAt = Date.now();
     meta.updatedAt = Date.now();
+    meta.revision = currentRevision + 1;
     await putKV(env, `${prefix}meta`, meta);
 
     const list = await listKV(env, `${prefix}progress:`);
@@ -990,7 +1015,8 @@ async function handleCommands(request, env, familyCode, role, path) {
   if (!action && path.endsWith('/wipe')) action = 'WIPE';
 
   const prefix = `family:${familyCode}:`;
-  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0 };
+  let meta = (await getKV(env, `${prefix}meta`)) || { tombstones: [], resetAt: 0, revision: 0 };
+  const currentRevision = Number(meta.revision || 0);
 
   // 1. TEKİL GÖREV İADE / SIFIRLAMA (Parent Reject / Reset Task)
   if (action === 'REJECT_TASK' || action === 'RESET_TASK') {
@@ -1016,10 +1042,18 @@ async function handleCommands(request, env, familyCode, role, path) {
 
   // 2. TÜM İLERLEMEYİ SIFIRLAMA (Global Reset Progress)
   if (action === 'RESET_ALL_PROGRESS' || action === 'RESET') {
+    const expRev = parseExpectedRevision(body.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+    }
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
     meta.resetAt = Date.now();
     meta.updatedAt = Date.now();
+    meta.revision = currentRevision + 1;
     await putKV(env, `${prefix}meta`, meta);
     const list = await listKV(env, `${prefix}progress:`);
     for (const k of list.keys) await deleteKV(env, k.name);
@@ -1036,12 +1070,19 @@ async function handleCommands(request, env, familyCode, role, path) {
 
   // 3. TAMAMEN SIFIRLAMA (WIPE - 24 Saat Yedekli)
   if (action === 'WIPE') {
+    const expRev = parseExpectedRevision(body.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+    }
     const currentSync = await (await handleSync(env, familyCode)).json();
     await putKV(env, `${prefix}snapshot_prev`, currentSync.data || currentSync, 86400);
     const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
     for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
-    meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: 1, adminToken: currentMeta.adminToken };
+    meta = { createdAt: Date.now(), updatedAt: Date.now(), resetAt: Date.now(), wipedAt: Date.now(), tombstones: [], revision: currentRevision + 1, adminToken: currentMeta.adminToken };
     await putKV(env, `${prefix}meta`, meta);
     await putKV(env, `${prefix}plan`, { templates: [], tasks: [], plan: null, updatedAt: Date.now() });
     await putKV(env, `${prefix}messages`, []);
@@ -1050,12 +1091,19 @@ async function handleCommands(request, env, familyCode, role, path) {
 
   // 4. YEDEĞİ GERİ YÜKLEME (RESTORE)
   if (action === 'RESTORE' || action === 'UNDO_RESET') {
+    const expRev = parseExpectedRevision(body.expectedRevision);
+    if (expRev.hasValue && !expRev.isValid) {
+      return error('INVALID_EXPECTED_REVISION', 400);
+    }
+    if (expRev.hasValue && expRev.value !== currentRevision) {
+      return revisionConflictResponse(currentRevision, Number(meta.resetAt || 0));
+    }
     const snapshot = await getKV(env, `${prefix}snapshot_prev`);
     if (!snapshot) return error('Geri yüklenecek yedek bulunamadı.', 404);
     const currentMeta = (await getKV(env, `${prefix}meta`)) || {};
     const list = await listKV(env, prefix);
     for (const k of list.keys) if (!k.name.includes(':snapshot_prev')) await deleteKV(env, k.name);
-    await putKV(env, `${prefix}meta`, { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now() });
+    await putKV(env, `${prefix}meta`, { ...(snapshot.meta || {}), adminToken: currentMeta.adminToken, updatedAt: Date.now(), revision: currentRevision + 1 });
     await putKV(env, `${prefix}plan`, { templates: snapshot.tasks || [], tasks: snapshot.occurrences || [], plan: snapshot.plan || null, source: snapshot.planSource || 'RESTORE', updatedAt: Date.now() });
     for (const [taskId, prog] of Object.entries(snapshot.progress || {})) await putKV(env, `${prefix}progress:${taskId}`, prog);
     await putKV(env, `${prefix}sessions`, snapshot.sessions || []);

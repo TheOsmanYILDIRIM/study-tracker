@@ -910,6 +910,279 @@ async function runTest() {
   console.log('   ✅ legacy mutation without expectedRevision remains allowed during migration phase');
   console.log(`   ✅ Test I başarılı: Legacy mutation 200 ile uygulandı (revision=${revAfterI}).\n`);
 
+  // 16. Görev 5B2B: Destructive Command Revision Preconditions & Monotonic Semantics Testleri
+  console.log('1️⃣6️⃣ Görev 5B2B: Destructive Command Revision Preconditions & Monotonic Semantics Testleri...');
+  const cmdRevCode = 'ST-5B2B-2026-TEST-7701';
+  const cmdRevPair = await mockFetch('POST', '/api/pair', { familyCode: cmdRevCode });
+  const cmdRevAdminToken = cmdRevPair.data.adminToken;
+  if (!cmdRevAdminToken) throw new Error('cmdRevAdminToken oluşturulamadı!');
+
+  // Initial setup: parent uploads plan with 2 tasks and quiz
+  const initialCmdPlan = {
+    familyCode: cmdRevCode,
+    plan: { planId: 'plan_5b2b', weekId: '2026-W39', title: '5B2B Initial Plan' },
+    tasks: [
+      { taskId: 'task_5b2b_1', title: 'Task 1', plannedMinutes: 30 },
+      { taskId: 'task_5b2b_2', title: 'Task 2', plannedMinutes: 45 }
+    ],
+    occurrences: [
+      { id: 'occ_5b2b_1', planId: 'task_5b2b_1', subject: 'Math', targetDurationMin: 30 },
+      { id: 'occ_5b2b_2', planId: 'task_5b2b_2', subject: 'Physics', targetDurationMin: 45 }
+    ],
+    quizzes: [
+      { quizId: 'quiz_5b2b_1', title: 'Quiz 1', questions: [{ id: 'q1', text: '1+1=?' }], completed: false }
+    ]
+  };
+
+  const initCmdRes = await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, initialCmdPlan, {
+    'X-Sender-Role': 'PARENT',
+    'X-Admin-Token': cmdRevAdminToken
+  });
+  if (!initCmdRes.ok) throw new Error(`5B2B initial plan yükleme başarısız: ${JSON.stringify(initCmdRes.data)}`);
+
+  // Child completes task 1 and submits quiz
+  await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, {
+    senderRole: 'CHILD',
+    occurrences: [{ id: 'occ_5b2b_1', completedDurationMin: 30, completedQuestionCount: 15, status: 'WAITING_REVIEW' }],
+    sessions: [{ id: 'sess_5b2b_1', occurrenceId: 'occ_5b2b_1', durationMin: 30, isCompleted: true, updatedAt: 1000 }],
+    screenshots: [{ id: 'ss_5b2b_1', sessionId: 'sess_5b2b_1', imageUrl: 'data:image/webp;base64,cmd_test' }],
+    quizzes: [{ quizId: 'quiz_5b2b_1', completed: true, studentAnswers: { q1: '2' }, correctCount: 1 }]
+  }, { 'X-Sender-Role': 'CHILD' });
+
+  const syncInitCmd = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRev0 = Number(syncInitCmd.revision || syncInitCmd.meta?.revision || 0);
+  const cmdResetAt0 = Number(syncInitCmd.resetAt || syncInitCmd.meta?.resetAt || 0);
+  console.log(`   Initial 5B2B snapshot alındı (revision=${cmdRev0})`);
+
+  // Test H: Invalid expectedRevision on RESET -> 400 and no mutation
+  console.log('   H. Invalid expectedRevision -> 400 and no state mutation...');
+  const invalidResetRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESET_ALL_PROGRESS',
+    expectedRevision: -1
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (invalidResetRes.status !== 400 || invalidResetRes.data.error !== 'INVALID_EXPECTED_REVISION') {
+    throw new Error(`RESET invalid expectedRevision 400 dönmedi: ${JSON.stringify(invalidResetRes)}`);
+  }
+
+  const syncAfterInvalidReset = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  if (Number(syncAfterInvalidReset.revision || 0) !== cmdRev0 || syncAfterInvalidReset.sessions?.length !== 1) {
+    throw new Error('Test H: 400 invalid expectedRevision sunucu durumunu bozdu!');
+  }
+  console.log('   ✅ Test H başarılı: 400 INVALID_EXPECTED_REVISION no state mutation.');
+
+  // Test B: RESET stale expectedRevision=cmdRev0-1 -> 409 REVISION_CONFLICT, state unchanged
+  console.log('   B. RESET stale expectedRevision -> 409 (state/resetAt/revision unchanged)...');
+  const staleResetRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESET_ALL_PROGRESS',
+    expectedRevision: cmdRev0 > 0 ? cmdRev0 - 1 : 999
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (staleResetRes.status !== 409 || staleResetRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`RESET stale 409 dönmedi: ${JSON.stringify(staleResetRes)}`);
+  }
+  if (staleResetRes.data.currentRevision !== cmdRev0) {
+    throw new Error(`RESET stale currentRevision uyuşmuyor: ${staleResetRes.data.currentRevision}`);
+  }
+
+  const syncAfterStaleReset = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const revAfterStaleReset = Number(syncAfterStaleReset.revision || syncAfterStaleReset.meta?.revision || 0);
+  const resetAtAfterStaleReset = Number(syncAfterStaleReset.resetAt || syncAfterStaleReset.meta?.resetAt || 0);
+  const occ1AfterStaleReset = syncAfterStaleReset.occurrences?.find(o => o.id === 'occ_5b2b_1');
+  if (revAfterStaleReset !== cmdRev0 || resetAtAfterStaleReset !== cmdResetAt0 || occ1AfterStaleReset?.completedDurationMin !== 30 || syncAfterStaleReset.sessions?.length !== 1) {
+    throw new Error('Test B doğrulaması başarısız: stale RESET durumu veya revizyonu değiştirdi!');
+  }
+  console.log(`   ✅ Test B başarılı: RESET stale 409 döndü, progress/state/resetAt/revision değişmedi.`);
+
+  // Test A: RESET fresh expectedRevision=cmdRev0 -> success, revision=cmdRev0+1
+  console.log('   A. RESET fresh expectedRevision -> success, revision +1...');
+  const freshResetRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESET_ALL_PROGRESS',
+    expectedRevision: cmdRev0
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (!freshResetRes.ok) {
+    throw new Error(`RESET fresh başarısız: ${JSON.stringify(freshResetRes.data)}`);
+  }
+
+  const syncAfterFreshReset = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterA = Number(syncAfterFreshReset.revision || syncAfterFreshReset.meta?.revision || 0);
+  const cmdResetAtAfterA = Number(syncAfterFreshReset.resetAt || syncAfterFreshReset.meta?.resetAt || 0);
+  const cmdOcc1AfterA = syncAfterFreshReset.occurrences?.find(o => o.id === 'occ_5b2b_1');
+  if (cmdRevAfterA !== cmdRev0 + 1 || cmdResetAtAfterA <= cmdResetAt0 || cmdOcc1AfterA?.completedDurationMin !== 0 || syncAfterFreshReset.sessions?.length !== 0) {
+    throw new Error(`Test A doğrulaması başarısız: cmdRevAfterA=${cmdRevAfterA}, expected=${cmdRev0 + 1}, occ1=${JSON.stringify(cmdOcc1AfterA)}`);
+  }
+  console.log(`   ✅ Test A başarılı: RESET fresh tamamlandı, resetAt güncellendi, revision=${cmdRevAfterA}`);
+
+  // Test D: stale WIPE -> 409, no state deletion, revision unchanged
+  console.log('   D. WIPE stale expectedRevision -> 409 (no deletion/snapshot change/revision change)...');
+  const staleWipeRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'WIPE',
+    expectedRevision: cmdRev0 // stale (current is cmdRevAfterA)
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (staleWipeRes.status !== 409 || staleWipeRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`WIPE stale 409 dönmedi: ${JSON.stringify(staleWipeRes)}`);
+  }
+  if (staleWipeRes.data.currentRevision !== cmdRevAfterA) {
+    throw new Error(`WIPE stale currentRevision uyuşmuyor: ${staleWipeRes.data.currentRevision}`);
+  }
+
+  const cmdSyncAfterStaleWipe = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterStaleWipe = Number(cmdSyncAfterStaleWipe.revision || cmdSyncAfterStaleWipe.meta?.revision || 0);
+  if (cmdRevAfterStaleWipe !== cmdRevAfterA || cmdSyncAfterStaleWipe.tasks?.length !== 2) {
+    throw new Error('Test D doğrulaması başarısız: stale WIPE durumu veya revizyonu değiştirdi!');
+  }
+  console.log(`   ✅ Test D başarılı: stale WIPE 409 engellendi, plan/state/revision korundu.`);
+
+  // Test C: WIPE fresh expectedRevision=cmdRevAfterA -> success, revision=cmdRevAfterA+1 (NOT 1)
+  console.log('   C. WIPE fresh expectedRevision -> success, revision +1 (not reset to 1)...');
+  const cmdN = cmdRevAfterA;
+  const freshWipeRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'WIPE',
+    expectedRevision: cmdN
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (!freshWipeRes.ok) {
+    throw new Error(`WIPE fresh başarısız: ${JSON.stringify(freshWipeRes.data)}`);
+  }
+
+  const syncAfterFreshWipe = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterWipe = Number(syncAfterFreshWipe.revision || syncAfterFreshWipe.meta?.revision || 0);
+  if (cmdRevAfterWipe !== cmdN + 1 || cmdRevAfterWipe <= 1 || (syncAfterFreshWipe.tasks || []).length !== 0) {
+    throw new Error(`Test C doğrulaması başarısız: cmdRevAfterWipe=${cmdRevAfterWipe}, expected=${cmdN + 1}`);
+  }
+  console.log(`   ✅ Test C başarılı: WIPE fresh tamamlandı, tasks silindi, revision=${cmdRevAfterWipe} (N+1, 1'e sıfırlanmadı)`);
+
+  // Test F: stale RESTORE -> 409, wiped state and revision unchanged
+  console.log('   F. RESTORE stale expectedRevision -> 409 (wiped state and revision unchanged)...');
+  const staleRestoreRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESTORE',
+    expectedRevision: cmdN // stale (current is cmdRevAfterWipe = N+1)
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (staleRestoreRes.status !== 409 || staleRestoreRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`RESTORE stale 409 dönmedi: ${JSON.stringify(staleRestoreRes)}`);
+  }
+  if (staleRestoreRes.data.currentRevision !== cmdRevAfterWipe) {
+    throw new Error(`RESTORE stale currentRevision uyuşmuyor: ${staleRestoreRes.data.currentRevision}`);
+  }
+
+  const cmdSyncAfterStaleRestore = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterStaleRestore = Number(cmdSyncAfterStaleRestore.revision || cmdSyncAfterStaleRestore.meta?.revision || 0);
+  if (cmdRevAfterStaleRestore !== cmdRevAfterWipe || (cmdSyncAfterStaleRestore.tasks || []).length !== 0) {
+    throw new Error('Test F doğrulaması başarısız: stale RESTORE durumu veya revizyonu değiştirdi!');
+  }
+  console.log(`   ✅ Test F başarılı: stale RESTORE 409 engellendi, wiped durum ve revision korundu.`);
+
+  // Test E & G: RESTORE fresh -> success, content restored, monotonic chain pre-wipe N -> wipe N+1 -> restore N+2
+  console.log('   E & G. RESTORE fresh from wipe state & Monotonic Chain (N -> N+1 -> N+2)...');
+  const freshRestoreRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESTORE',
+    expectedRevision: cmdRevAfterWipe // N + 1
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (!freshRestoreRes.ok) {
+    throw new Error(`RESTORE fresh başarısız: ${JSON.stringify(freshRestoreRes.data)}`);
+  }
+
+  const syncAfterFreshRestore = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterRestore = Number(syncAfterFreshRestore.revision || syncAfterFreshRestore.meta?.revision || 0);
+  if (cmdRevAfterRestore !== cmdN + 2) {
+    throw new Error(`Monotonic Chain doğrulaması başarısız: pre-wipe=${cmdN}, wipe=${cmdN+1}, restore=${cmdRevAfterRestore} (beklenen: ${cmdN+2})`);
+  }
+  if ((syncAfterFreshRestore.tasks || []).length !== 2 || (syncAfterFreshRestore.occurrences || []).length !== 2) {
+    throw new Error(`Test E içerik doğrulaması başarısız: tasks=${syncAfterFreshRestore.tasks?.length}`);
+  }
+  console.log(`   ✅ Test E & G başarılı: Monotonic chain doğrulandı (pre-wipe=${cmdN} -> wipe=${cmdN+1} -> restore=${cmdRevAfterRestore}), içerik geri yüklendi.`);
+
+  // Missing snapshot 404 test does not bump revision
+  const noSnapPair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-5B2B-NOSN-AP01-0001' });
+  const pre404Sync = (await mockFetch('GET', `/api/sync?code=ST-5B2B-NOSN-AP01-0001`)).data;
+  const pre404Rev = Number(pre404Sync.revision || 0);
+  const noSnapRes = await mockFetch('POST', `/api/v2/commands?code=ST-5B2B-NOSN-AP01-0001`, {
+    action: 'RESTORE'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': noSnapPair.data.adminToken });
+  if (noSnapRes.status !== 404) {
+    throw new Error(`Missing snapshot 404 dönmedi: ${noSnapRes.status}`);
+  }
+  const post404Sync = (await mockFetch('GET', `/api/sync?code=ST-5B2B-NOSN-AP01-0001`)).data;
+  if (Number(post404Sync.revision || 0) !== pre404Rev) {
+    throw new Error('Missing snapshot 404 revizyonu değiştirdi!');
+  }
+  console.log('   ✅ Missing snapshot 404 döndü ve revizyonu değiştirmedi.');
+
+  // Test I: Legacy destructive command without expectedRevision succeeds during migration phase
+  console.log('   I. Legacy destructive command without expectedRevision -> 200 (migration compatibility)...');
+  const legacyResetRes = await mockFetch('POST', `/api/v2/commands?code=${cmdRevCode}`, {
+    action: 'RESET_ALL_PROGRESS'
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+
+  if (!legacyResetRes.ok) {
+    throw new Error(`Legacy RESET başarısız: ${JSON.stringify(legacyResetRes.data)}`);
+  }
+  const syncAfterLegacyReset = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const cmdRevAfterLegacyReset = Number(syncAfterLegacyReset.revision || syncAfterLegacyReset.meta?.revision || 0);
+  if (cmdRevAfterLegacyReset !== cmdRevAfterRestore + 1) {
+    throw new Error(`Legacy RESET revizyon doğrulaması başarısız: rev=${cmdRevAfterLegacyReset}, beklenen=${cmdRevAfterRestore + 1}`);
+  }
+  console.log('   ✅ legacy destructive command without expectedRevision remains allowed during migration phase');
+  console.log(`   ✅ Test I başarılı: Legacy destructive command 200 ile uygulandı (revision=${cmdRevAfterLegacyReset}).\n`);
+
+  // Unified POST /api/sync destructive command revision parity tests
+  console.log('   K. Unified POST /api/sync destructive actions revision parity tests...');
+  const uniStaleResetRes = await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, {
+    senderRole: 'PARENT',
+    action: 'RESET',
+    expectedRevision: cmdRevAfterLegacyReset - 1
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+  if (uniStaleResetRes.status !== 409 || uniStaleResetRes.data.error !== 'REVISION_CONFLICT') {
+    throw new Error(`Unified POST /api/sync RESET stale 409 dönmedi: ${JSON.stringify(uniStaleResetRes)}`);
+  }
+
+  const uniFreshResetRes = await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, {
+    senderRole: 'PARENT',
+    action: 'RESET',
+    expectedRevision: cmdRevAfterLegacyReset
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+  if (!uniFreshResetRes.ok) {
+    throw new Error(`Unified POST /api/sync RESET fresh başarısız: ${JSON.stringify(uniFreshResetRes.data)}`);
+  }
+  const syncAfterUniReset = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const revAfterUniReset = Number(syncAfterUniReset.revision || syncAfterUniReset.meta?.revision || 0);
+  if (revAfterUniReset !== cmdRevAfterLegacyReset + 1) {
+    throw new Error(`Unified RESET revizyon başarısız: rev=${revAfterUniReset}`);
+  }
+
+  const uniFreshWipeRes = await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, {
+    senderRole: 'PARENT',
+    action: 'WIPE',
+    expectedRevision: revAfterUniReset
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+  if (!uniFreshWipeRes.ok) {
+    throw new Error(`Unified POST /api/sync WIPE fresh başarısız: ${JSON.stringify(uniFreshWipeRes.data)}`);
+  }
+  const syncAfterUniWipe = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const revAfterUniWipe = Number(syncAfterUniWipe.revision || syncAfterUniWipe.meta?.revision || 0);
+  if (revAfterUniWipe !== revAfterUniReset + 1) {
+    throw new Error(`Unified WIPE revizyon başarısız: rev=${revAfterUniWipe}`);
+  }
+
+  const uniFreshRestoreRes = await mockFetch('POST', `/api/sync?code=${cmdRevCode}`, {
+    senderRole: 'PARENT',
+    action: 'RESTORE',
+    expectedRevision: revAfterUniWipe
+  }, { 'X-Sender-Role': 'PARENT', 'X-Admin-Token': cmdRevAdminToken });
+  if (!uniFreshRestoreRes.ok) {
+    throw new Error(`Unified POST /api/sync RESTORE fresh başarısız: ${JSON.stringify(uniFreshRestoreRes.data)}`);
+  }
+  const syncAfterUniRestore = (await mockFetch('GET', `/api/sync?code=${cmdRevCode}`)).data;
+  const revAfterUniRestore = Number(syncAfterUniRestore.revision || syncAfterUniRestore.meta?.revision || 0);
+  if (revAfterUniRestore !== revAfterUniWipe + 1) {
+    throw new Error(`Unified RESTORE monotonic revizyon başarısız: rev=${revAfterUniRestore}`);
+  }
+  console.log(`   ✅ Unified POST /api/sync destructive actions revision parity %100 başarılı (final revision=${revAfterUniRestore}).\n`);
+
   console.log('🎉 ========================================================');
   console.log('🎉 TÜM v2.0 SEGREGATED & COMMAND PATTERN TESTLERİ BAŞARIYLA GEÇTİ!');
   console.log('🎉 ========================================================');
