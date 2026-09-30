@@ -394,7 +394,8 @@ async function handlePair(request, env, providedCode) {
     if (providedToken && providedToken === meta.adminToken) issuedToken = meta.adminToken;
   }
 
-  return json({ success: true, familyCode: code, adminToken: issuedToken, created });
+  const currentRevision = Number(meta?.revision ?? 0);
+  return json({ success: true, familyCode: code, adminToken: issuedToken, created, revision: currentRevision });
 }
 /**
  * Parçalanmış (sharded) KV verilerini okur ve tek bir zenginleştirilmiş yanıtta birleştirir.

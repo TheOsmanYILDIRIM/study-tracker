@@ -30,7 +30,8 @@ data class PairFamilyResponse(
     val familyCode: String = "",
     val adminToken: String? = null,
     val created: Boolean = false,
-    val error: String? = null
+    val error: String? = null,
+    val revision: Long? = null
 )
 
 @Serializable
@@ -288,6 +289,11 @@ object CloudflareSyncManager {
         occurrence: Occurrence
     ): Result<String> = withContext(Dispatchers.IO) {
         try {
+            val revRes = ensureAuthoritativeRevision(context, "PARENT")
+            if (revRes.isFailure) {
+                return@withContext Result.failure(revRes.exceptionOrNull()!!)
+            }
+
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value
             val adminToken = prefs.familyAdminToken.value
@@ -383,6 +389,34 @@ object CloudflareSyncManager {
 
     internal fun isAuthoritativeRole(role: String): Boolean {
         return role.uppercase().trim() in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI")
+    }
+
+    internal suspend fun ensureAuthoritativeRevision(
+        context: Context,
+        role: String = com.studytracker.BuildConfig.APP_ROLE
+    ): Result<Long?> {
+        if (!isAuthoritativeRole(role)) {
+            return Result.success(null)
+        }
+        val prefs = AppPreferences.getInstance(context)
+        val current = prefs.lastKnownServerRevision
+        if (current != null && current >= 0L) {
+            return Result.success(current)
+        }
+        val fetchRes = fetchCloudData(context)
+        if (fetchRes.isFailure) {
+            val err = fetchRes.exceptionOrNull()
+            return Result.failure(
+                err ?: Exception("Revizyon temin edilemedi: Bulut verisi çekme başarısız.")
+            )
+        }
+        val acquired = prefs.lastKnownServerRevision
+        if (acquired == null || acquired < 0L) {
+            return Result.failure(
+                Exception("Revizyon temin edilemedi: Sunucudan geçerli bir revizyon dönmedi.")
+            )
+        }
+        return Result.success(acquired)
     }
 
     internal fun resolveExpectedRevisionForSync(
@@ -488,6 +522,13 @@ object CloudflareSyncManager {
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
             val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
+
+            if (isAuthoritativeRole(effectiveRole)) {
+                val revRes = ensureAuthoritativeRevision(context, effectiveRole)
+                if (revRes.isFailure) {
+                    return@withContext Result.failure(revRes.exceptionOrNull()!!)
+                }
+            }
 
             val plan = db.planDao().getActivePlanOnce()?.let {
                 LocalPlanSyncDto(
@@ -695,6 +736,11 @@ object CloudflareSyncManager {
      */
     suspend fun restoreFromSnapshot(context: Context): Result<String> = withContext(Dispatchers.IO) {
         try {
+            val revRes = ensureAuthoritativeRevision(context, "PARENT")
+            if (revRes.isFailure) {
+                return@withContext Result.failure(revRes.exceptionOrNull()!!)
+            }
+
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value
             val adminToken = prefs.familyAdminToken.value
@@ -798,6 +844,14 @@ object CloudflareSyncManager {
             prefs.setFamilyPairCode(response.familyCode)
             if (com.studytracker.BuildConfig.APP_ROLE == "PARENT" && !response.adminToken.isNullOrBlank()) {
                 prefs.setFamilyAdminToken(response.adminToken)
+            }
+            if (response.revision != null && response.revision >= 0L) {
+                prefs.lastKnownServerRevision = response.revision
+            } else {
+                val fetchRes = fetchCloudData(context)
+                if (fetchRes.isFailure) {
+                    Log.w(TAG, "Post-pairing initial revision fetch failed: ${fetchRes.exceptionOrNull()?.message}")
+                }
             }
             Result.success(response.familyCode)
         } catch (e: Exception) {

@@ -58,6 +58,15 @@ async function runTests() {
   config.setLastKnownServerRevision(null);
   assert.strictEqual(config.getLastKnownServerRevision(), null);
 
+  // 1.7 setFamilyCode invalidates lastKnownServerRevision on code change
+  config.setLastKnownServerRevision(25);
+  assert.strictEqual(config.getLastKnownServerRevision(), 25);
+  config.setFamilyCode('ST-FAM1-1111-2222-3333');
+  assert.strictEqual(config.getLastKnownServerRevision(), null, 'Changing family code must invalidate cached revision to null');
+  config.setLastKnownServerRevision(50);
+  config.setFamilyCode('ST-FAM1-1111-2222-3333');
+  assert.strictEqual(config.getLastKnownServerRevision(), 50, 'Setting same family code must preserve cached revision');
+
   console.log('✔ config.js tests passed');
 
   console.log('--- 2. Testing extractServerRevision pure helper in api.js ---');
@@ -89,17 +98,25 @@ async function runTests() {
 
   let mockResponseStatus = 200;
   let mockResponseBody = {};
-  let lastReceivedRequestBody = null;
-  let lastReceivedHeaders = null;
+  let recordedRequests = [];
 
   const server = http.createServer((req, res) => {
     let body = '';
     req.on('data', chunk => { body += chunk; });
     req.on('end', () => {
-      lastReceivedRequestBody = body ? JSON.parse(body) : null;
-      lastReceivedHeaders = req.headers;
-      res.writeHead(mockResponseStatus, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify(mockResponseBody));
+      const record = {
+        method: req.method,
+        url: req.url,
+        headers: req.headers,
+        body: body ? (function() { try { return JSON.parse(body); } catch(_) { return body; } })() : null
+      };
+      recordedRequests.push(record);
+
+      const status = typeof mockResponseStatus === 'function' ? mockResponseStatus(record) : mockResponseStatus;
+      const respBody = typeof mockResponseBody === 'function' ? mockResponseBody(record) : mockResponseBody;
+
+      res.writeHead(status, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(respBody));
     });
   });
 
@@ -116,6 +133,7 @@ async function runTests() {
 
   try {
     // 3.1 fetchFamilyData captures server revision and updates config
+    recordedRequests = [];
     mockResponseStatus = 200;
     mockResponseBody = {
       success: true,
@@ -131,94 +149,164 @@ async function runTests() {
     assert.strictEqual(fetched.revision, 5);
     assert.strictEqual(config.getLastKnownServerRevision(), 5, 'fetchFamilyData must persist revision');
 
-    // 3.2 pushFamilyData includes expectedRevision from config fallback
-    mockResponseStatus = 200;
-    mockResponseBody = {
-      success: true,
-      revision: 6,
-      data: { success: true, revision: 6 }
+    // 3.2 pushFamilyData on clean-config automatically acquires revision before mutating
+    config.setLastKnownServerRevision(null);
+    recordedRequests = [];
+    mockResponseStatus = (req) => 200;
+    mockResponseBody = (req) => {
+      if (req.method === 'GET') {
+        return {
+          success: true,
+          data: { familyCode: 'ST-TEST', revision: 8, tasks: [], occurrences: [] }
+        };
+      }
+      return {
+        success: true,
+        revision: 9,
+        data: { success: true, revision: 9 }
+      };
     };
 
     await api.pushFamilyData({ action: 'SYNC', tasks: [] }, 'ST-TEST');
-    assert.strictEqual(lastReceivedRequestBody.expectedRevision, 5, 'pushFamilyData should include persisted revision');
-    assert.strictEqual(config.getLastKnownServerRevision(), 6, 'pushFamilyData must persist newly returned revision 6');
+    assert.strictEqual(recordedRequests.length, 2, 'Must have sent GET fetch then POST write');
+    assert.strictEqual(recordedRequests[0].method, 'GET', 'First request must be GET fetchFamilyData');
+    assert.strictEqual(recordedRequests[1].method, 'POST', 'Second request must be POST mutation');
+    assert.strictEqual(recordedRequests[1].body.expectedRevision, 8, 'POST mutation must include acquired revision');
+    assert.strictEqual(config.getLastKnownServerRevision(), 9, 'Must update to newly returned revision 9');
 
-    // 3.3 pushFamilyData with explicit expectedRevision overrides config
-    mockResponseBody = { success: true, revision: 11, data: {} };
-    await api.pushFamilyData({ action: 'SYNC', expectedRevision: 10 }, 'ST-TEST');
-    assert.strictEqual(lastReceivedRequestBody.expectedRevision, 10, 'Explicit expectedRevision in payload takes precedence');
-    assert.strictEqual(config.getLastKnownServerRevision(), 11);
+    // 3.3 pushFamilyData on clean-config fails without write if pre-fetch fails
+    config.setLastKnownServerRevision(null);
+    recordedRequests = [];
+    mockResponseStatus = (req) => (req.method === 'GET' ? 500 : 200);
+    mockResponseBody = (req) => (req.method === 'GET' ? { success: false, error: 'Internal Server Error' } : { success: true });
 
-    // 3.4 pushFamilyData with expectedRevision: null omits expectedRevision
-    mockResponseBody = { success: true, revision: 15, data: {} };
-    await api.pushFamilyData({ action: 'SYNC', expectedRevision: null }, 'ST-TEST');
-    assert.strictEqual(lastReceivedRequestBody.expectedRevision, undefined, 'expectedRevision: null should omit expectedRevision');
+    let cleanPushError = null;
+    try {
+      await api.pushFamilyData({ action: 'SYNC', tasks: [] }, 'ST-TEST');
+    } catch (err) {
+      cleanPushError = err;
+    }
+    assert.ok(cleanPushError, 'pushFamilyData must fail when pre-fetch fails');
+    assert.strictEqual(recordedRequests.length, 1, 'Only GET request should have been made; NO write POST');
+    assert.strictEqual(recordedRequests[0].method, 'GET');
 
-    // 3.5 HTTP 409 REVISION_CONFLICT handling in pushFamilyData
+    // 3.4 restoreFamilyData on clean-config automatically acquires revision before restore write
+    config.setLastKnownServerRevision(null);
+    recordedRequests = [];
+    mockResponseStatus = (req) => 200;
+    mockResponseBody = (req) => {
+      if (req.method === 'GET') {
+        return {
+          success: true,
+          data: { familyCode: 'ST-TEST', revision: 12, tasks: [], occurrences: [] }
+        };
+      }
+      return {
+        success: true,
+        revision: 13,
+        data: { success: true, revision: 13 }
+      };
+    };
+
+    await api.restoreFamilyData('ST-TEST');
+    assert.strictEqual(recordedRequests.length, 2, 'Must have sent GET fetch then POST restore');
+    assert.strictEqual(recordedRequests[0].method, 'GET');
+    assert.strictEqual(recordedRequests[1].method, 'POST');
+    assert.strictEqual(recordedRequests[1].body.action, 'RESTORE');
+    assert.strictEqual(recordedRequests[1].body.expectedRevision, 12, 'Restore must use acquired revision 12');
+    assert.strictEqual(config.getLastKnownServerRevision(), 13);
+
+    // 3.5 restoreFamilyData on clean-config fails without write if pre-fetch fails
+    config.setLastKnownServerRevision(null);
+    recordedRequests = [];
+    mockResponseStatus = (req) => (req.method === 'GET' ? 500 : 200);
+    mockResponseBody = (req) => ({ success: false, error: 'Server error' });
+
+    let cleanRestoreError = null;
+    try {
+      await api.restoreFamilyData('ST-TEST');
+    } catch (err) {
+      cleanRestoreError = err;
+    }
+    assert.ok(cleanRestoreError, 'restoreFamilyData must fail when pre-fetch fails');
+    assert.strictEqual(recordedRequests.length, 1, 'Only GET request should have been made; NO write POST');
+
+    // 3.6 pushFamilyData with known persisted revision does not need extra fetch
+    config.setLastKnownServerRevision(15);
+    recordedRequests = [];
+    mockResponseStatus = 200;
+    mockResponseBody = { success: true, revision: 16, data: {} };
+
+    await api.pushFamilyData({ action: 'SYNC', tasks: [] }, 'ST-TEST');
+    assert.strictEqual(recordedRequests.length, 1, 'Single POST mutation expected when revision is already known');
+    assert.strictEqual(recordedRequests[0].method, 'POST');
+    assert.strictEqual(recordedRequests[0].body.expectedRevision, 15);
+    assert.strictEqual(config.getLastKnownServerRevision(), 16);
+
+    // 3.7 pushFamilyData with explicit expectedRevision overrides config
+    recordedRequests = [];
+    mockResponseBody = { success: true, revision: 22, data: {} };
+    await api.pushFamilyData({ action: 'SYNC', expectedRevision: 21 }, 'ST-TEST');
+    assert.strictEqual(recordedRequests.length, 1);
+    assert.strictEqual(recordedRequests[0].body.expectedRevision, 21);
+    assert.strictEqual(config.getLastKnownServerRevision(), 22);
+
+    // 3.8 HTTP 409 REVISION_CONFLICT in pushFamilyData persists currentRevision and surfaces failure with NO auto retry
+    config.setLastKnownServerRevision(25);
+    recordedRequests = [];
     mockResponseStatus = 409;
     mockResponseBody = {
       success: false,
       error: 'REVISION_CONFLICT',
       message: 'Server state has changed.',
-      currentRevision: 20
+      currentRevision: 30
     };
 
-    let pushError = null;
+    let push409Error = null;
     try {
       await api.pushFamilyData({ action: 'SYNC' }, 'ST-TEST');
     } catch (err) {
-      pushError = err;
+      push409Error = err;
     }
-    assert.ok(pushError, 'pushFamilyData must throw on 409 conflict');
-    assert.strictEqual(config.getLastKnownServerRevision(), 20, '409 conflict must update lastKnownServerRevision to currentRevision 20');
+    assert.ok(push409Error, 'pushFamilyData must throw on 409 conflict');
+    assert.strictEqual(recordedRequests.length, 1, 'No auto-retry on 409');
+    assert.strictEqual(config.getLastKnownServerRevision(), 30, '409 conflict must update lastKnownServerRevision to currentRevision 30');
 
-    // 3.6 restoreFamilyData sends expectedRevision and handles success & 409
-    mockResponseStatus = 200;
-    mockResponseBody = {
-      success: true,
-      revision: 21,
-      data: { familyCode: 'ST-TEST', plan: null }
-    };
-
-    await api.restoreFamilyData('ST-TEST');
-    assert.strictEqual(lastReceivedRequestBody.action, 'RESTORE');
-    assert.strictEqual(lastReceivedRequestBody.expectedRevision, 20, 'restoreFamilyData should include lastKnownServerRevision 20');
-    assert.strictEqual(config.getLastKnownServerRevision(), 21, 'restoreFamilyData must persist new revision 21');
-
-    // 3.7 restoreFamilyData 409 conflict
+    // 3.9 HTTP 409 REVISION_CONFLICT in restoreFamilyData persists currentRevision and surfaces failure with NO auto retry
+    recordedRequests = [];
     mockResponseStatus = 409;
     mockResponseBody = {
       success: false,
       error: 'REVISION_CONFLICT',
-      currentRevision: 30
+      currentRevision: 35
     };
 
-    let restoreError = null;
+    let restore409Error = null;
     try {
       await api.restoreFamilyData('ST-TEST');
     } catch (err) {
-      restoreError = err;
+      restore409Error = err;
     }
-    assert.ok(restoreError, 'restoreFamilyData must throw on 409');
-    assert.strictEqual(config.getLastKnownServerRevision(), 30, 'restoreFamilyData 409 must update lastKnownServerRevision to 30');
+    assert.ok(restore409Error, 'restoreFamilyData must throw on 409');
+    assert.strictEqual(recordedRequests.length, 1, 'No auto-retry on 409');
+    assert.strictEqual(config.getLastKnownServerRevision(), 35, 'restoreFamilyData 409 must update lastKnownServerRevision to 35');
 
-    // 3.8 Backward compatibility: Legacy server without revision in response
+    // 3.10 pairFamily parses revision and persists to config
     config.setLastKnownServerRevision(null);
+    recordedRequests = [];
     mockResponseStatus = 200;
     mockResponseBody = {
       success: true,
-      data: {
-        familyCode: 'ST-TEST',
-        tasks: []
-      }
+      familyCode: 'ST-NEWF-1234-5678-9012',
+      adminToken: 'admin_tok_123',
+      created: true,
+      revision: 1
     };
 
-    const legacyData = await api.fetchFamilyData('ST-TEST');
-    assert.strictEqual(config.getLastKnownServerRevision(), null, 'Legacy response without revision must not invent 0');
-    assert.strictEqual(legacyData.revision, undefined);
-
-    await api.pushFamilyData({ action: 'SYNC', tasks: [] }, 'ST-TEST');
-    assert.strictEqual(lastReceivedRequestBody.expectedRevision, undefined, 'Legacy push without revision must omit expectedRevision');
+    const pairRes = await api.pairFamily('ST-NEWF-1234-5678-9012');
+    assert.strictEqual(pairRes.success, true);
+    assert.strictEqual(pairRes.revision, 1);
+    assert.strictEqual(config.getLastKnownServerRevision(), 1, 'pairFamily must persist initial revision');
 
     console.log('✔ HTTP Client Revision Flow tests passed');
   } finally {

@@ -67,6 +67,7 @@ class AppPreferences internal constructor(private val prefs: SharedPreferences) 
         val clean = code.trim().uppercase().ifBlank { generateRandomFamilyCode() }
         if (clean != _familyPairCode.value) {
             clearFamilyAdminToken()
+            lastKnownServerRevision = null
         }
         prefs.edit().putString(KEY_FAMILY_PAIR_CODE, clean).apply()
         _familyPairCode.value = clean

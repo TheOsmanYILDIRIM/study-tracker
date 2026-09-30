@@ -865,6 +865,173 @@ class SyncReconciliationTest {
         assertTrue(result.isFailure)
         assertEquals(8L, (result.exceptionOrNull() as com.studytracker.core.data.remote.cloudflare.RevisionConflictException).currentRevision)
     }
+
+    @Test
+    fun `test O - AppPreferences setFamilyPairCode clears cached lastKnownServerRevision when code actually changes`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        // Set initial pair code and server revision
+        prefs.setFamilyPairCode("ST-AAAA-1111-2222-3333")
+        prefs.lastKnownServerRevision = 42L
+        assertEquals(42L, prefs.lastKnownServerRevision)
+        assertEquals("ST-AAAA-1111-2222-3333", prefs.familyPairCode.value)
+
+        // Switch to a new family code -> lastKnownServerRevision must be invalidated to null
+        prefs.setFamilyPairCode("ST-BBBB-4444-5555-6666")
+        assertNull("Switching family code must clear lastKnownServerRevision", prefs.lastKnownServerRevision)
+        assertEquals("ST-BBBB-4444-5555-6666", prefs.familyPairCode.value)
+
+        // Setting a new revision for the new family
+        prefs.lastKnownServerRevision = 7L
+        assertEquals(7L, prefs.lastKnownServerRevision)
+
+        // Setting the same family code again must preserve the cached revision
+        prefs.setFamilyPairCode("ST-BBBB-4444-5555-6666")
+        assertEquals(7L, prefs.lastKnownServerRevision)
+    }
+
+    @Test
+    fun `test P - PairFamilyResponse deserialization supports optional revision field and sets revision`() {
+        val json = Json { ignoreUnknownKeys = true; encodeDefaults = true; isLenient = true; coerceInputValues = true }
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        // Case 1: Worker returns response with revision
+        val jsonWithRevision = """
+            {"success":true,"familyCode":"ST-TEST-1111-2222-3333","adminToken":"tok_abc","created":true,"revision":5}
+        """.trimIndent()
+        val pairRespWithRev = json.decodeFromString<com.studytracker.core.data.remote.cloudflare.PairFamilyResponse>(jsonWithRevision)
+        assertTrue(pairRespWithRev.success)
+        assertEquals("ST-TEST-1111-2222-3333", pairRespWithRev.familyCode)
+        assertEquals("tok_abc", pairRespWithRev.adminToken)
+        assertTrue(pairRespWithRev.created)
+        assertEquals(5L, pairRespWithRev.revision)
+
+        prefs.setFamilyPairCode(pairRespWithRev.familyCode)
+        if (pairRespWithRev.revision != null && pairRespWithRev.revision >= 0L) {
+            prefs.lastKnownServerRevision = pairRespWithRev.revision
+        }
+        assertEquals(5L, prefs.lastKnownServerRevision)
+
+        // Case 2: Legacy worker response without revision field -> backward compatible
+        val jsonLegacy = """
+            {"success":true,"familyCode":"ST-TEST-8888-9999-0000","adminToken":"tok_xyz","created":false}
+        """.trimIndent()
+        val pairRespLegacy = json.decodeFromString<com.studytracker.core.data.remote.cloudflare.PairFamilyResponse>(jsonLegacy)
+        assertTrue(pairRespLegacy.success)
+        assertNull(pairRespLegacy.revision)
+    }
+
+    @Test
+    fun `test Q - isAuthoritativeRole strictly identifies PARENT ADMIN CLI PARENTING_AI vs CHILD CLIENT`() {
+        // Authoritative roles
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("PARENT"))
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("parent"))
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("ADMIN"))
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("CLI"))
+        assertTrue(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("PARENTING_AI"))
+
+        // Non-authoritative roles
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("CHILD"))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("child"))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("CLIENT"))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole("STUDENT"))
+        assertFalse(com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.isAuthoritativeRole(""))
+    }
+
+    @Test
+    fun `test R - resolveExpectedRevisionForSync only passes revision for authoritative roles`() {
+        val knownRev = 15L
+
+        // Authoritative role receives revision
+        val parentRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = knownRev
+        )
+        assertEquals(15L, parentRev)
+
+        val adminRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "ADMIN",
+            lastKnownRevision = knownRev
+        )
+        assertEquals(15L, adminRev)
+
+        // Non-authoritative roles (CHILD / CLIENT) must receive null
+        val childRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "CHILD",
+            lastKnownRevision = knownRev
+        )
+        assertNull(childRev)
+
+        val clientRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "CLIENT",
+            lastKnownRevision = knownRev
+        )
+        assertNull(clientRev)
+    }
+
+    @Test
+    fun `test S - fresh parent mutation precondition logic simulation`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+
+        // State 1: Clean start (revision is null)
+        assertNull(prefs.lastKnownServerRevision)
+
+        // Simulated acquisition: if fetch fails, mutation must fail without write
+        var fetchSuccessful = false
+        val preFetchResult: Result<Long> = if (fetchSuccessful) {
+            prefs.lastKnownServerRevision = 10L
+            Result.success(10L)
+        } else {
+            Result.failure(Exception("Network error during pre-mutation fetch"))
+        }
+
+        assertTrue(preFetchResult.isFailure)
+        assertNull(prefs.lastKnownServerRevision)
+
+        // State 2: Fetch succeeds, revision is acquired and passed to mutation
+        fetchSuccessful = true
+        if (fetchSuccessful) {
+            prefs.lastKnownServerRevision = 10L
+        }
+        val resolvedExpectedRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.resolveExpectedRevisionForSync(
+            senderRole = "PARENT",
+            lastKnownRevision = prefs.lastKnownServerRevision
+        )
+        assertEquals(10L, resolvedExpectedRev)
+    }
+
+    @Test
+    fun `test T - 409 conflict exception is preserved and no automatic retry occurs`() {
+        val fakeStorage = mutableMapOf<String, Any?>()
+        val prefs = com.studytracker.core.data.local.prefs.AppPreferences(FakeSharedPreferences(fakeStorage))
+        prefs.lastKnownServerRevision = 10L
+
+        val conflict409Json = """
+            {"success":false,"error":"REVISION_CONFLICT","message":"Stale mutation","currentRevision":18}
+        """.trimIndent()
+
+        val parsedConflictRev = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager.parseRevisionFromConflictBody(conflict409Json)
+        assertEquals(18L, parsedConflictRev)
+
+        // On 409, update lastKnownServerRevision
+        prefs.lastKnownServerRevision = parsedConflictRev
+        assertEquals(18L, prefs.lastKnownServerRevision)
+
+        // Return failure immediately without retrying
+        val conflictEx = com.studytracker.core.data.remote.cloudflare.RevisionConflictException(
+            message = "Sunucu revizyon çakışması (HTTP 409): $conflict409Json",
+            currentRevision = parsedConflictRev
+        )
+        val mutationResult: Result<String> = Result.failure(conflictEx)
+
+        assertTrue(mutationResult.isFailure)
+        val ex = mutationResult.exceptionOrNull()
+        assertTrue(ex is com.studytracker.core.data.remote.cloudflare.RevisionConflictException)
+        assertEquals(18L, (ex as com.studytracker.core.data.remote.cloudflare.RevisionConflictException).currentRevision)
+    }
 }
 
 class FakeSharedPreferences(

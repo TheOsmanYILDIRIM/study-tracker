@@ -153,15 +153,26 @@ async function fetchFamilyData(overrideCode = null) {
 async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT') {
   const config = loadConfig();
   const code = (overrideCode || payload.familyCode || config.familyCode || '').toUpperCase().trim();
+  if (!code) throw new Error('Aile kodu ayarlı değil. Önce config set-code kullanın.');
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
 
   let expRev;
-  if (payload.expectedRevision !== undefined) {
+  if (payload.expectedRevision !== undefined && payload.expectedRevision !== null) {
     expRev = parseRevision(payload.expectedRevision);
-  } else if (payload.revision !== undefined) {
+  } else if (payload.revision !== undefined && payload.revision !== null) {
     expRev = parseRevision(payload.revision);
   } else {
     expRev = getLastKnownServerRevision();
+  }
+
+  const isAuthoritative = ['PARENT', 'ADMIN', 'CLI', 'PARENTING_AI'].includes((senderRole || 'PARENT').toUpperCase());
+  if (isAuthoritative && (expRev === null || expRev === undefined)) {
+    // Cold-start / clean-config: acquire revision before mutation
+    const fetched = await fetchFamilyData(code);
+    expRev = parseRevision(fetched?.revision) ?? getLastKnownServerRevision();
+    if (expRev === null || expRev === undefined) {
+      throw new Error(`Revizyon temin edilemedi: Buluttan aile (${code}) için geçerli revizyon alınamadı.`);
+    }
   }
 
   const fullPayload = {
@@ -215,16 +226,26 @@ async function pushFamilyData(payload, overrideCode = null, senderRole = 'PARENT
 async function restoreFamilyData(overrideCode = null, options = {}) {
   const config = loadConfig();
   const code = (overrideCode || config.familyCode || '').toUpperCase().trim();
+  if (!code) throw new Error('Aile kodu ayarlı değil. Önce config set-code kullanın.');
   const endpoint = `${config.workerUrl}/api/sync?code=${encodeURIComponent(code)}`;
 
   let expRev;
-  if (typeof options === 'number' || (options && options.expectedRevision !== undefined)) {
+  if (typeof options === 'number' || (options && options.expectedRevision !== undefined && options.expectedRevision !== null)) {
     const rawRev = typeof options === 'number' ? options : options.expectedRevision;
     expRev = parseRevision(rawRev);
-  } else if (options && options.revision !== undefined) {
+  } else if (options && options.revision !== undefined && options.revision !== null) {
     expRev = parseRevision(options.revision);
   } else {
     expRev = getLastKnownServerRevision();
+  }
+
+  if (expRev === null || expRev === undefined) {
+    // Cold-start / clean-config: acquire revision before mutation
+    const fetched = await fetchFamilyData(code);
+    expRev = parseRevision(fetched?.revision) ?? getLastKnownServerRevision();
+    if (expRev === null || expRev === undefined) {
+      throw new Error(`Revizyon temin edilemedi: Buluttan aile (${code}) için geçerli revizyon alınamadı.`);
+    }
   }
 
   const restorePayload = {
@@ -294,9 +315,15 @@ async function sendNotification(overrideCode, messagePayload) {
 async function pairFamily(pairCode) {
   const config = loadConfig();
   const endpoint = `${config.workerUrl}/api/pair`;
-  return await makeRequest(endpoint, {
+  const res = await makeRequest(endpoint, {
     method: 'POST'
   }, { familyCode: pairCode });
+
+  const serverRev = extractServerRevision(res);
+  if (serverRev !== null) {
+    setLastKnownServerRevision(serverRev);
+  }
+  return res;
 }
 
 module.exports = {

@@ -91,7 +91,11 @@ function setAdminToken(token) {
 
 function setFamilyCode(code) {
   const cfg = loadConfig();
-  cfg.familyCode = code.toUpperCase().trim();
+  const clean = (code || '').toUpperCase().trim();
+  if (clean !== cfg.familyCode) {
+    cfg.lastKnownServerRevision = null;
+  }
+  cfg.familyCode = clean;
   saveConfig(cfg);
   return cfg.familyCode;
 }
