@@ -77,7 +77,8 @@ fun ChildHomeScreen(
     onNavigateBackToRole: () -> Unit,
     onOpenTutorial: () -> Unit,
     onNavigateToSettings: () -> Unit = {},
-    onNavigateToQuiz: (String) -> Unit = {}
+    onNavigateToQuiz: (String) -> Unit = {},
+    onNavigateToV2Courses: () -> Unit = {}
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -628,6 +629,80 @@ fun ChildHomeScreen(
                         .padding(horizontal = 16.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
+                    // 0. Öğrenme Akışı (V2) Giriş Kartı
+                    item(key = "v2_learning_flow_banner") {
+                        Surface(
+                            shape = RoundedCornerShape(18.dp),
+                            color = Color(0xFF131D31),
+                            border = BorderStroke(1.2.dp, ZenMoonGold.copy(alpha = 0.6f)),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { onNavigateToV2Courses() }
+                        ) {
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(16.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(12.dp)
+                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .size(44.dp)
+                                        .clip(CircleShape)
+                                        .background(ZenMoonGold.copy(alpha = 0.15f))
+                                        .border(1.dp, ZenMoonGold.copy(alpha = 0.4f), CircleShape),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.AutoStories,
+                                        contentDescription = null,
+                                        tint = ZenMoonGold,
+                                        modifier = Modifier.size(24.dp)
+                                    )
+                                }
+
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Row(
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    ) {
+                                        Text(
+                                            text = "Öğrenme Akışı (V2)",
+                                            fontWeight = FontWeight.Bold,
+                                            fontSize = 15.sp,
+                                            color = ZomoTextPrimary
+                                        )
+                                        Box(
+                                            modifier = Modifier
+                                                .clip(RoundedCornerShape(6.dp))
+                                                .background(ZenMoonGold.copy(alpha = 0.2f))
+                                                .padding(horizontal = 6.dp, vertical = 2.dp)
+                                        ) {
+                                            Text(
+                                                text = "DERSLER",
+                                                fontWeight = FontWeight.Bold,
+                                                fontSize = 9.sp,
+                                                color = ZenMoonGold
+                                            )
+                                        }
+                                    }
+                                    Text(
+                                        text = "Ölçme odaklı video, quiz ve Anki modülleri",
+                                        fontSize = 12.sp,
+                                        color = ZomoTextSecondary
+                                    )
+                                }
+
+                                Icon(
+                                    imageVector = Icons.Default.ChevronRight,
+                                    contentDescription = "Aç",
+                                    tint = ZenMoonGold
+                                )
+                            }
+                        }
+                    }
+
                     // -1. Veliden Gelen Yeni Mesaj / Bildirim Kartı
                     if (unreadMessage != null) {
                         item(key = "parent_nudge_banner") {

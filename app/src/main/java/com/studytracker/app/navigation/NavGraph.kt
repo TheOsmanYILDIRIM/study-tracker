@@ -19,6 +19,10 @@ import com.studytracker.feature.parent.ParentQuizReviewScreen
 import com.studytracker.feature.parent.RoleSelectionScreen
 import com.studytracker.feature.parent.SessionReviewScreen
 
+import com.studytracker.feature.v2.V2CoursesScreen
+import com.studytracker.feature.v2.V2LessonsScreen
+import com.studytracker.feature.v2.V2LearningFlowScreen
+
 @Composable
 fun AppNavGraph(
     navController: NavHostController
@@ -72,6 +76,49 @@ fun AppNavGraph(
                 },
                 onNavigateToQuiz = { quizId ->
                     navController.navigate(Screen.ChildQuiz.createRoute(quizId))
+                },
+                onNavigateToV2Courses = {
+                    navController.navigate(Screen.V2Courses.route)
+                }
+            )
+        }
+
+        composable(Screen.V2Courses.route) {
+            V2CoursesScreen(
+                onNavigateBack = {
+                    navController.popBackStack()
+                },
+                onNavigateToCourse = { courseId ->
+                    navController.navigate(Screen.V2Lessons.createRoute(courseId))
+                }
+            )
+        }
+
+        composable(
+            route = Screen.V2Lessons.route,
+            arguments = listOf(navArgument("courseId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val courseId = backStackEntry.arguments?.getString("courseId") ?: ""
+            V2LessonsScreen(
+                courseId = courseId,
+                onNavigateBack = {
+                    navController.popBackStack()
+                },
+                onNavigateToLearningFlow = { lessonId ->
+                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
+                }
+            )
+        }
+
+        composable(
+            route = Screen.V2LearningFlow.route,
+            arguments = listOf(navArgument("lessonId") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val lessonId = backStackEntry.arguments?.getString("lessonId") ?: ""
+            V2LearningFlowScreen(
+                lessonId = lessonId,
+                onNavigateBack = {
+                    navController.popBackStack()
                 }
             )
         }

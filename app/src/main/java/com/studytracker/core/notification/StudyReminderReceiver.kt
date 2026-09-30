@@ -31,6 +31,26 @@ class StudyReminderReceiver : BroadcastReceiver() {
                     return@launch
                 }
 
+                // 0. V2 Belirli Öğe / Ders Hatırlatıcısı
+                if (action == V2ReminderHelper.ACTION_V2_ITEM_REMINDER) {
+                    val itemId = intent.getStringExtra(V2ReminderHelper.EXTRA_ITEM_ID) ?: ""
+                    val itemTitle = intent.getStringExtra(V2ReminderHelper.EXTRA_ITEM_TITLE) ?: "Öğrenme Modülü"
+                    val lessonTitle = intent.getStringExtra(V2ReminderHelper.EXTRA_LESSON_TITLE) ?: ""
+                    val note = intent.getStringExtra(V2ReminderHelper.EXTRA_NOTE)
+                    if (itemId.isNotBlank()) {
+                        V2ReminderHelper.showItemReminderNotification(
+                            context = context,
+                            config = ItemReminderConfig(
+                                itemId = itemId,
+                                itemTitle = itemTitle,
+                                lessonTitle = lessonTitle,
+                                reminderNote = note
+                            )
+                        )
+                    }
+                    return@launch
+                }
+
                 // 1. Cloudflare KV üzerinden veliden gelen yeni mesajları kontrol et ve bildir
                 try {
                     CloudflareSyncManager.checkAndDeliverPendingNotifications(context)

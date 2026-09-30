@@ -465,16 +465,25 @@ export class CurriculumEngine {
     // Save quiz answers if provided
     let savedAnswers = [];
     if (Array.isArray(quizAnswers) && quizAnswers.length > 0) {
-      savedAnswers = quizAnswers.map((a, idx) => ({
-        id: `ans_${attemptId}_${idx}`,
-        attemptId,
-        questionId: a.questionId || `q_${idx}`,
-        questionIndex: a.questionIndex !== undefined ? a.questionIndex : idx,
-        selectedOption: a.selectedOption || null,
-        isCorrect: Boolean(a.isCorrect),
-        durationSeconds: Number(a.durationSeconds) || 0,
-        createdAt: now
-      }));
+      savedAnswers = quizAnswers.map((a, idx) => {
+        if (!a || typeof a !== 'object') {
+          throw new Error(`Invalid quizAnswer metric entry at index ${idx}`);
+        }
+        const qIdx = a.questionIndex !== undefined && a.questionIndex !== null ? parseInt(a.questionIndex, 10) : idx;
+        if (isNaN(qIdx) || qIdx < 0) {
+          throw new Error(`Invalid questionIndex at index ${idx}`);
+        }
+        return {
+          id: a.id || `ans_${attemptId}_${idx}`,
+          attemptId,
+          questionId: String(a.questionId || `q_${idx}`).trim(),
+          questionIndex: qIdx,
+          selectedOption: a.selectedOption !== undefined && a.selectedOption !== null ? String(a.selectedOption).trim() : null,
+          isCorrect: Boolean(a.isCorrect),
+          durationSeconds: Math.max(0, parseInt(a.durationSeconds, 10) || 0),
+          createdAt: now
+        };
+      });
       await this.storage.saveQuizAnswers(savedAnswers);
     }
 

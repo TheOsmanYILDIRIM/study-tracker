@@ -277,6 +277,20 @@ async function runV2Tests() {
   assert(attemptsAfterArchive.data.attempts.length >= 2, 'Attempts must remain completely preserved after archiving');
   console.log('   ✅ Archiving verified: attempts intact.\n');
 
+  // Test 11: GET /api/v3/catalog Verification for Android
+  console.log('1️⃣1️⃣ Testing GET /api/v3/catalog with full version content...');
+  const catalogRes = await mockFetch('GET', '/api/v3/catalog', null, studentHeaders);
+  assert(catalogRes.status === 200, 'Catalog fetch must succeed');
+  assert(catalogRes.data.curriculum.length > 0, 'Catalog must contain courses');
+  const catalogCourse = catalogRes.data.curriculum[0];
+  assert(catalogCourse.lessons.length > 0, 'Course must contain lessons');
+  const catalogLesson = catalogCourse.lessons[0];
+  assert(catalogLesson.items.length > 0, 'Lesson must contain items');
+  const firstItem = catalogLesson.items[0];
+  assert(firstItem.currentVersion !== null, 'Item must include currentVersion object');
+  assert(firstItem.currentVersion.versionNumber > 0, 'Version number must be positive');
+  console.log('   ✅ Catalog tree and version payload verified for Android consumption.\n');
+
   console.log('🎉 ==========================================================');
   console.log('🎉 ALL V2 WORKER & DOMAIN MEASUREMENT TESTS PASSED 100%!');
   console.log('🎉 ==========================================================');

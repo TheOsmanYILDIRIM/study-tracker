@@ -1,13 +1,20 @@
 package com.studytracker
 
+import com.studytracker.core.domain.engine.*
 import com.studytracker.core.domain.model.*
 import org.junit.Assert.*
 import org.junit.Test
 
 /**
  * Pure Kotlin/JVM unit tests for StudyTracker V2 Measurement & Curriculum Slice.
- * Validates immutable IDs, version history referential integrity, puzzle ordering,
- * prerequisites, attempt idempotency, and non-destructive archiving.
+ * Validates:
+ * 1. Progress derived deterministically from attempts
+ * 2. Explicit prerequisite locking
+ * 3. Item inserted between 17 and 18 appears in order with stable IDs
+ * 4. Content version changes do not invalidate old completion history
+ * 5. Offline attempt pending -> synced transition logic
+ * 6. Parent review state is irrelevant to V2 completion/progress
+ * 7. Quiz score/question metrics mapping
  */
 class V2DomainTest {
 
@@ -65,7 +72,7 @@ class V2DomainTest {
     }
 
     @Test
-    fun `attempt references old version after new version added`() {
+    fun `content version changes do not invalidate old completion history`() {
         val v1 = LearningItemVersion(
             id = "ver_item_mat9_quiz17_v1",
             itemId = "item_mat9_quiz17",
@@ -74,13 +81,25 @@ class V2DomainTest {
             payloadJson = """{"questions":[{"id":"q1","answer":"√2"}]}"""
         )
 
+        val quizItem = LearningItem(
+            id = "item_mat9_quiz17",
+            lessonId = "lesson_gercek_sayilar",
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.QUIZ,
+            displayLabel = "Quiz 17",
+            stableKey = "mat9_sayilar_quiz17",
+            orderKey = 2000.0,
+            currentVersionId = v1.id,
+            currentVersion = v1
+        )
+
         // Student completes Quiz 17 when Version 1 is active
         val studentAttempt = Attempt(
             id = "att_20260930_001",
             clientAttemptId = "cli_att_student_001",
             familyCode = sampleFamilyCode,
             studentId = studentId,
-            itemId = "item_mat9_quiz17",
+            itemId = quizItem.id,
             versionId = v1.id,
             status = AttemptStatus.COMPLETED,
             score = 100.0,
@@ -90,20 +109,36 @@ class V2DomainTest {
         // Parent / Teacher later updates Quiz 17 to Version 2
         val v2 = LearningItemVersion(
             id = "ver_item_mat9_quiz17_v2",
-            itemId = "item_mat9_quiz17",
+            itemId = quizItem.id,
             versionNumber = 2,
             title = "Gerçek Sayılar Tarama Testi 1 (Yenilenmiş Sorular)",
             payloadJson = """{"questions":[{"id":"q1_v2","answer":"π"}]}"""
+        )
+
+        val updatedQuizItem = quizItem.copy(
+            currentVersionId = v2.id,
+            currentVersion = v2,
+            versionCount = 2
         )
 
         // Verify attempt maintains historical referential integrity to v1
         assertEquals("ver_item_mat9_quiz17_v1", studentAttempt.versionId)
         assertNotEquals(v2.id, studentAttempt.versionId)
         assertEquals(100.0, studentAttempt.score ?: 0.0, 0.01)
+
+        // Progress engine evaluates updated item as COMPLETED because completion binds to stable itemId
+        val progress = V2ProgressEngine.evaluateItemProgress(
+            item = updatedQuizItem,
+            itemPrerequisites = emptyList(),
+            attemptsByItemId = mapOf(updatedQuizItem.id to listOf(studentAttempt))
+        )
+        assertTrue("Item should remain COMPLETED even after content version upgrade", progress.isCompleted)
+        assertEquals(V2ItemState.COMPLETED, progress.state)
+        assertEquals(100.0, progress.bestScore ?: 0.0, 0.01)
     }
 
     @Test
-    fun `insert intermediate item does not alter prior IDs or progress`() {
+    fun `item inserted between 17 and 18 appears in order with stable IDs`() {
         // Initial 9th Grade Curriculum Sequence: Video 17, Quiz 17, Video 18
         val vid17 = LearningItem(
             id = "item_mat9_vid17",
@@ -234,7 +269,7 @@ class V2DomainTest {
     }
 
     @Test
-    fun `explicit prerequisite unlocks item only when score threshold met`() {
+    fun `explicit prerequisite locking`() {
         val prereq = ItemPrerequisite(
             id = "prereq_quiz17_2_requires_quiz17",
             itemId = "item_mat9_quiz17_2",
@@ -272,5 +307,217 @@ class V2DomainTest {
         val highScorePassed = highScoreAttempt.status == AttemptStatus.COMPLETED &&
                 (minScore == null || (highScoreAttempt.score ?: 0.0) >= minScore)
         assertTrue("Prerequisite should be satisfied when score 85 >= 70", highScorePassed)
+
+        // Evaluate via V2ProgressEngine
+        val targetItem = LearningItem(
+            id = "item_mat9_quiz17_2",
+            lessonId = "lesson_1",
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.QUIZ,
+            displayLabel = "Quiz 17.2",
+            stableKey = "mat9_quiz17_2",
+            currentVersionId = "ver_1"
+        )
+
+        val progressLocked = V2ProgressEngine.evaluateItemProgress(
+            item = targetItem,
+            itemPrerequisites = listOf(prereq),
+            attemptsByItemId = mapOf("item_mat9_quiz17" to listOf(lowScoreAttempt))
+        )
+        assertEquals(V2ItemState.LOCKED_BY_PREREQUISITE, progressLocked.state)
+        assertFalse(progressLocked.isUnlocked)
+
+        val progressUnlocked = V2ProgressEngine.evaluateItemProgress(
+            item = targetItem,
+            itemPrerequisites = listOf(prereq),
+            attemptsByItemId = mapOf("item_mat9_quiz17" to listOf(highScoreAttempt))
+        )
+        assertEquals(V2ItemState.AVAILABLE, progressUnlocked.state)
+        assertTrue(progressUnlocked.isUnlocked)
+    }
+
+    @Test
+    fun `progress derived from attempts`() {
+        val lesson = Lesson(
+            id = "lesson_gercek_sayilar",
+            courseId = "course_mat_9",
+            familyCode = sampleFamilyCode,
+            title = "Gerçek Sayılar"
+        )
+
+        val item1 = LearningItem(
+            id = "item_1",
+            lessonId = lesson.id,
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.VIDEO,
+            displayLabel = "Video 17",
+            stableKey = "k1",
+            orderKey = 1000.0,
+            currentVersionId = "v1"
+        )
+        val item2 = LearningItem(
+            id = "item_2",
+            lessonId = lesson.id,
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.QUIZ,
+            displayLabel = "Quiz 17",
+            stableKey = "k2",
+            orderKey = 2000.0,
+            currentVersionId = "v2"
+        )
+        val item3 = LearningItem(
+            id = "item_3",
+            lessonId = lesson.id,
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.ANKI,
+            displayLabel = "Anki 17",
+            stableKey = "k3",
+            orderKey = 3000.0,
+            currentVersionId = "v3"
+        )
+
+        val attempts = listOf(
+            Attempt(
+                id = "att_1",
+                clientAttemptId = "cli_1",
+                familyCode = sampleFamilyCode,
+                studentId = studentId,
+                itemId = "item_1",
+                versionId = "v1",
+                status = AttemptStatus.COMPLETED
+            ),
+            Attempt(
+                id = "att_2",
+                clientAttemptId = "cli_2",
+                familyCode = sampleFamilyCode,
+                studentId = studentId,
+                itemId = "item_2",
+                versionId = "v2",
+                status = AttemptStatus.COMPLETED,
+                score = 90.0
+            )
+        )
+
+        val lessonProgress = V2ProgressEngine.evaluateLessonProgress(
+            lesson = lesson,
+            items = listOf(item1, item2, item3),
+            prerequisites = emptyList(),
+            attempts = attempts
+        )
+
+        assertEquals(3, lessonProgress.totalItems)
+        assertEquals(2, lessonProgress.completedItems)
+        assertEquals(67, lessonProgress.completionPercentage) // 2/3 = 66.6% -> 67%
+        assertEquals("item_3", lessonProgress.nextUnfinishedItem?.id)
+    }
+
+    @Test
+    fun `parent review state is irrelevant to V2 completion and progress`() {
+        // V2 measurement is trusted student self-completion without parent approval gating
+        val item = LearningItem(
+            id = "item_video_self_reported",
+            lessonId = "lesson_1",
+            familyCode = sampleFamilyCode,
+            itemType = ItemType.VIDEO,
+            displayLabel = "Video 1",
+            stableKey = "k_vid1",
+            currentVersionId = "ver_1"
+        )
+
+        // Attempt is marked COMPLETED by student with selfCompleted=true
+        val attempt = Attempt(
+            id = "att_self",
+            clientAttemptId = "cli_self_01",
+            familyCode = sampleFamilyCode,
+            studentId = studentId,
+            itemId = item.id,
+            versionId = "ver_1",
+            status = AttemptStatus.COMPLETED,
+            metadataJson = """{"selfCompleted":true,"syncStatus":"PENDING"}"""
+        )
+
+        val progress = V2ProgressEngine.evaluateItemProgress(
+            item = item,
+            itemPrerequisites = emptyList(),
+            attemptsByItemId = mapOf(item.id to listOf(attempt))
+        )
+
+        assertTrue("V2 progress must mark item as COMPLETED immediately upon student attempt", progress.isCompleted)
+        assertEquals(V2ItemState.COMPLETED, progress.state)
+    }
+
+    @Test
+    fun `offline attempt pending to synced transition logic`() {
+        val initialAttempt = Attempt(
+            id = "att_offline_1",
+            clientAttemptId = "cli_uuid_12345",
+            familyCode = sampleFamilyCode,
+            studentId = studentId,
+            itemId = "item_mat9_vid17",
+            versionId = "ver_1",
+            status = AttemptStatus.COMPLETED,
+            metadataJson = """{"syncStatus":"PENDING","selfCompleted":true}"""
+        )
+
+        assertTrue(initialAttempt.metadataJson?.contains(""""syncStatus":"PENDING"""") == true)
+
+        // Simulating sync transition
+        val syncedAttempt = initialAttempt.copy(
+            metadataJson = """{"syncStatus":"SYNCED","selfCompleted":true}"""
+        )
+
+        // ClientAttemptId is preserved for idempotency
+        assertEquals(initialAttempt.clientAttemptId, syncedAttempt.clientAttemptId)
+        assertEquals(initialAttempt.id, syncedAttempt.id)
+        assertTrue(syncedAttempt.metadataJson?.contains(""""syncStatus":"SYNCED"""") == true)
+    }
+
+    @Test
+    fun `quiz score and question metrics mapping`() {
+        val questions = listOf(
+            QuizQuestionPayload(
+                id = "q1",
+                prompt = "$\\\\sqrt{4}$ değeri kaçtır?",
+                type = "MULTIPLE_CHOICE",
+                choices = listOf("1", "2", "3", "4"),
+                correctAnswer = "2"
+            ),
+            QuizQuestionPayload(
+                id = "q2",
+                prompt = "$\\\\pi$ sayısı rasyonel bir sayıdır.",
+                type = "TRUE_FALSE",
+                choices = listOf("Doğru", "Yanlış"),
+                correctAnswer = "Yanlış"
+            )
+        )
+
+        val studentAnswers = mapOf(
+            0 to "2",        // Correct
+            1 to "Yanlış"    // Correct
+        )
+
+        var correctCount = 0
+        val answerMetrics = questions.mapIndexed { idx, q ->
+            val sel = studentAnswers[idx]
+            val isCorrect = (sel == q.correctAnswer)
+            if (isCorrect) correctCount++
+            QuizAnswerMetric(
+                id = "ans_$idx",
+                attemptId = "att_quiz_test",
+                questionId = q.id,
+                questionIndex = idx,
+                selectedOption = sel,
+                isCorrect = isCorrect,
+                durationSeconds = 15
+            )
+        }
+
+        val calculatedScore = (correctCount.toDouble() / questions.size.toDouble()) * 100.0
+
+        assertEquals(2, answerMetrics.size)
+        assertTrue(answerMetrics[0].isCorrect)
+        assertTrue(answerMetrics[1].isCorrect)
+        assertEquals("2", answerMetrics[0].selectedOption)
+        assertEquals(100.0, calculatedScore, 0.01)
     }
 }
