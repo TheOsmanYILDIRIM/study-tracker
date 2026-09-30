@@ -218,7 +218,11 @@
 
 ## 51. Terminal Hub Güvenli Action Runner ve Canlı Çıktı (TAMAMLANDI)
 - [x] **Güvenli Action Çalıştırıcı:** Terminal Hub eylemleri allowlist ve kontrollü çalışma diziniyle doğrulanarak güvenli biçimde çalıştırıldı.
-- [x] **Canlı Çıktı Akışı:** Action stdout/stderr akışı Terminal Hub'a canlı aktarılıp başarı/başarısızlık durumu görünür şekilde mühürlendi.
+## 52. StudyTracker V2 Faz 3: Vault Tabanlı İçerik Tohumlama & Güvenli V1->V2 Geçişi (TAMAMLANDI)
+- [x] **Checked-in Tohum Kataloğu:** `content/9-sinif-v2-catalog.json` ve `content/9-sinif-v2-catalog.sources.md` (Tarih için Mehmet Celal ÖZYILDIZ kanonik, Anki paketleri kaynaklı, denetim uyarıları).
+- [x] **Tohum Araçları:** `studytracker-cli v2 seed validate|diff|apply` (İdempotent, sürüm korumalı, kayıpsız).
+- [x] **V1->V2 Geçiş Eşleyici:** `studytracker-cli v2 migrate-v1 analyze|plan|apply` (Öncelikli eşleme, güven skoru, deterministik clientAttemptId).
+- [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellemesi.
 
 
 

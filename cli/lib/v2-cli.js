@@ -1,9 +1,11 @@
 const v2Api = require('./v2-api');
+const { validateSeed, diffSeed, applySeed } = require('./v2-seed');
+const { analyzeMigration, planMigration, applyMigration } = require('./v2-migrate');
 const { colors } = require('./renderer');
 
 function renderV2Usage() {
   console.log(`
-${colors.bold}${colors.brightCyan}StudyTracker CLI - V2 Ölçme & Müfredat Komutları (Phase 1)${colors.reset}
+${colors.bold}${colors.brightCyan}StudyTracker CLI - V2 Ölçme, Müfredat & İçerik Yönetimi${colors.reset}
 
 ${colors.bold}Müfredat & Katalog Görünümü:${colors.reset}
   ${colors.green}studytracker-cli v2 catalog [--course <id>] [--json]${colors.reset}       Tüm müfredat ağacını görüntüler
@@ -21,6 +23,16 @@ ${colors.bold}Öğrenme Öğeleri (Video / Quiz / Anki):${colors.reset}
   ${colors.green}studytracker-cli v2 item insert-after <targetId> --lesson <id> --type ... --label "..." --title "..."${colors.reset}
   ${colors.green}studytracker-cli v2 item reorder <itemId> --before <targetId> | --after <targetId>${colors.reset}
   ${colors.green}studytracker-cli v2 item archive <itemId>${colors.reset}                     Öğeyi arşivler (geçmiş silinmez)
+
+${colors.bold}Tohum Kataloğu & İçerik Dağıtımı (Seed):${colors.reset}
+  ${colors.green}studytracker-cli v2 seed validate [--file <path>] [--json]${colors.reset}  Tohum dosyasını ve denetim kurallarını doğrular
+  ${colors.green}studytracker-cli v2 seed diff [--file <path>] [--json]${colors.reset}      Tohum ile aktif sunucu kataloğunu karşılaştırır
+  ${colors.green}studytracker-cli v2 seed apply [--file <path>] [--dry-run] [--json]${colors.reset} Tohumu sunucuya kayıpsız uygular
+
+${colors.bold}V1 -> V2 Güvenli Geçiş Eşleyicisi (Migration):${colors.reset}
+  ${colors.green}studytracker-cli v2 migrate-v1 analyze [--json]${colors.reset}             V1 ve V2 eşleşme güven analizini çıkarır
+  ${colors.green}studytracker-cli v2 migrate-v1 plan [--output FILE] [--json]${colors.reset}  Yalnızca exact/high kayıtlar için geçiş planı üretir
+  ${colors.green}studytracker-cli v2 migrate-v1 apply --plan FILE [--dry-run] [--json]${colors.reset} Geçiş planını dtm. attempt olarak uygular
 
 ${colors.bold}Ön Koşul & Bağımlılık Yönetimi:${colors.reset}
   ${colors.green}studytracker-cli v2 prereq add --item <id> --requires <id> [--min-score 70]${colors.reset}
@@ -329,6 +341,123 @@ async function handleV2Command(parsed, familyCode) {
       const res = await v2Api.exportV2Context(familyCode, studentId, courseId);
       // Export context always outputs deterministic JSON
       console.log(JSON.stringify(res.context, null, 2));
+      break;
+    }
+
+    // SEED CATALOG MANAGEMENT
+    case 'seed': {
+      const seedFile = parsed.options.file || null;
+      if (action === 'validate') {
+        const res = validateSeed(seedFile);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== TOHUM KATALOĞU DOĞRULAMA RAPORU ===${colors.reset}\n`);
+          if (res.valid) {
+            console.log(`${colors.green}✔ Tohum dosyası geçerli (${res.stats.courseCount} ders, ${res.stats.lessonCount} ünite, ${res.stats.itemCount} öge)${colors.reset}`);
+          } else {
+            console.log(`${colors.red}❌ Doğrulama başarısız (${res.errors.length} hata):${colors.reset}`);
+            res.errors.forEach(e => console.log(`  - ${colors.red}${e}${colors.reset}`));
+          }
+          if (res.warnings.length > 0) {
+            console.log(`\n${colors.yellow}⚠️ Tespit Edilen Denetim Uyarıları (${res.warnings.length}):${colors.reset}`);
+            res.warnings.forEach(w => console.log(`  - [${w.stableKey || w.url}] ${w.warning}`));
+          }
+        }
+      } else if (action === 'diff') {
+        const res = await diffSeed(familyCode, seedFile);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== TOHUM KATALOĞU FARK RAPORU (${familyCode}) ===${colors.reset}\n`);
+          console.log(`- Oluşturulacak Dersler: ${colors.green}${res.summary.coursesToCreate}${colors.reset}`);
+          console.log(`- Oluşturulacak Üniteler: ${colors.green}${res.summary.lessonsToCreate}${colors.reset}`);
+          console.log(`- Oluşturulacak Öğeler: ${colors.green}${res.summary.itemsToCreate}${colors.reset}`);
+          console.log(`- Güncellenecek İçerikler (Yeni Versiyon): ${colors.yellow}${res.summary.itemsToUpdateContent}${colors.reset}`);
+          console.log(`- Değişmeyen Öğeler (No-op): ${colors.dim}${res.summary.itemsIdentical}${colors.reset}`);
+          console.log(`- Sunucudaki Ekstra Öğeler (Kayıpsız Korunur): ${colors.cyan}${res.summary.extraRemoteItems}${colors.reset}`);
+        }
+      } else if (action === 'apply') {
+        const dryRun = Boolean(parsed.options['dry-run'] || parsed.options.dryRun);
+        const res = await applySeed(familyCode, seedFile, { dryRun });
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          if (dryRun) {
+            console.log(`${colors.yellow}ℹ️ Seed Apply DRY-RUN modunda tamamlandı.${colors.reset}`);
+            console.log(`  Oluşturulacak: ${res.diff.summary.itemsToCreate} öge | Güncellenecek: ${res.diff.summary.itemsToUpdateContent} öge`);
+          } else {
+            console.log(`${colors.green}✔ Tohum kataloğu başarıyla uygulandı (${familyCode})!${colors.reset}`);
+            console.log(`  • Dersler: ${res.summary.coursesCreated} oluşturuldu`);
+            console.log(`  • Üniteler: ${res.summary.lessonsCreated} oluşturuldu`);
+            console.log(`  • Öğeler: ${res.summary.itemsCreated} oluşturuldu`);
+            console.log(`  • Sürüm Güncellemeleri: ${res.summary.itemsUpdated} yeni versiyon üretildi`);
+            console.log(`  • Korunan Ekstra Öğeler: ${res.summary.extraRemotePreserved}`);
+          }
+        }
+      } else {
+        console.error(`${colors.red}Kullanım: studytracker-cli v2 seed validate | diff | apply [--file <path>] [--dry-run] [--json]${colors.reset}`);
+      }
+      break;
+    }
+
+    // V1 -> V2 MIGRATION MAPPER
+    case 'migrate-v1':
+    case 'migrate': {
+      if (action === 'analyze') {
+        const res = await analyzeMigration(familyCode);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== V1 -> V2 GEÇİŞ ANALİZ RAPORU (${familyCode}) ===${colors.reset}\n`);
+          console.log(`Toplam V1 Kaydı: ${res.totalV1Records}`);
+          console.log(`- Tam Eşleşen (Exact): ${colors.green}${res.counts.exact}${colors.reset}`);
+          console.log(`- Yüksek Güven (High): ${colors.green}${res.counts.high}${colors.reset}`);
+          console.log(`- İnceleme Gerekli (Medium - Otomatik Uygulanmaz): ${colors.yellow}${res.counts.medium}${colors.reset}`);
+          console.log(`- Eşleşmeyen (Unmatched - Otomatik Uygulanmaz): ${colors.red}${res.counts.unmatched}${colors.reset}`);
+        }
+      } else if (action === 'plan') {
+        const res = await planMigration(familyCode);
+        if (parsed.options.output || parsed.options.out) {
+          const outPath = path.resolve(process.cwd(), parsed.options.output || parsed.options.out);
+          fs.writeFileSync(outPath, JSON.stringify(res, null, 2), 'utf8');
+          console.log(`${colors.green}✔ Geçiş planı kaydedildi:${colors.reset} ${outPath}`);
+        }
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else if (!parsed.options.output && !parsed.options.out) {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== V1 -> V2 GEÇİŞ PLANI (${familyCode}) ===${colors.reset}\n`);
+          console.log(`- Planlanan Girişim Sayısı (Attempts): ${colors.green}${res.stats.totalPlanned}${colors.reset}`);
+          console.log(`- Atlanan / İnceleme Bekleyen: ${colors.yellow}${res.stats.totalSkipped}${colors.reset}`);
+          console.log(`\n${colors.dim}Uygulamak için: studytracker-cli v2 migrate-v1 apply --plan <dosya> [--dry-run]${colors.reset}`);
+        }
+      } else if (action === 'apply') {
+        const planFile = parsed.options.plan || parsed.options.file;
+        const dryRun = Boolean(parsed.options['dry-run'] || parsed.options.dryRun);
+        let planObj;
+        if (planFile) {
+          const planPath = path.resolve(process.cwd(), planFile);
+          planObj = JSON.parse(fs.readFileSync(planPath, 'utf8'));
+        } else {
+          // Direct plan generation in memory
+          planObj = await planMigration(familyCode);
+        }
+        const res = await applyMigration(familyCode, planObj, { dryRun });
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          if (dryRun) {
+            console.log(`${colors.yellow}ℹ️ V1 -> V2 Geçiş DRY-RUN modunda tamamlandı (${res.plannedAttemptsCount} girişim planlandı).${colors.reset}`);
+          } else {
+            console.log(`${colors.green}✔ V1 -> V2 Geçişi başarıyla tamamlandı!${colors.reset}`);
+            console.log(`  • Kaydedilen Girişimler: ${res.summary.recordedCount}`);
+            console.log(`  • Yinelenen / Zaten Kayıtlı: ${res.summary.duplicateCount}`);
+            console.log(`  • Hatalar: ${res.summary.errorCount}`);
+          }
+        }
+      } else {
+        console.error(`${colors.red}Kullanım: studytracker-cli v2 migrate-v1 analyze | plan | apply [--plan <dosya>] [--dry-run] [--json]${colors.reset}`);
+      }
       break;
     }
 

@@ -237,3 +237,60 @@ Room Database version 8 (`MIGRATION_7_8`):
 - `quiz_answers`
 
 All legacy V1 tables (`task_templates`, `occurrences`, `active_plan`, `sessions`, `screenshots`, `reviews`, `quizzes`) remain 100% operational and unaffected.
+
+---
+
+## 10. Vault-Backed Seed Catalog & Content Ingestion Pipeline (Phase 3)
+
+StudyTracker V2 Phase 3 introduces a deterministic content ingestion pipeline rooted in authoritative Obsidian Vault records:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                 Authoritative Vault Sources                 │
+│  (10-Projects/ 9th Grade Video Guides & Study Plans)        │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│               Deterministic Catalog Manifest                │
+│             content/9-sinif-v2-catalog.json                 │
+│       content/9-sinif-v2-catalog.sources.md (Audit)         │
+├─────────────────────────────────────────────────────────────┤
+│ • 9 Real Courses (Mat, Fiz, Kim, Biyo, Tar, Cog, Ing, Alm) │
+│ • 12 Concept-Based Lessons (no rigid date IDs)              │
+│ • 38 Learning Items (VIDEO, ANKI, QUIZ) with Provenance     │
+│ • History Canonical Source: Mehmet Celal ÖZYILDIZ           │
+│ • Exact Video IDs Preferred Over Generic Repeated URLs      │
+│ • No Fabricated Questions (Draft/Unpublished Only)          │
+│ • SHA-256 Content Fingerprints                              │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   CLI Seed Tooling Engine                   │
+│  • validate: structural & audit rules check                 │
+│  • diff    : detects missing, updated, and extra items      │
+│  • apply   : idempotent apply; creates new version for      │
+│              modified URLs; preserves attempts & extra items│
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 11. Safe V1 -> V2 Migration Architecture (Phase 3)
+
+The V1->V2 migration engine enables seamless transitions from legacy weekly occurrences/sessions to V2 append-only attempts:
+
+1. **Mapping Priorities & Confidence Tiers**:
+   - `exact`: Exact YouTube video ID match or explicit legacy mapping.
+   - `high`: Normalized subject and title token overlap (>75%).
+   - `medium`: Ambiguous or partial match (50-75%).
+   - `unmatched`: No matching V2 learning item found.
+2. **Safety Gating**:
+   - Only `exact` and `high` confidence completed records are converted into attempts.
+   - `medium` and `unmatched` records are strictly excluded from automated execution and saved to `skippedRecords` with clear evidence.
+3. **Idempotency**:
+   - Each attempt uses a deterministic `clientAttemptId` (`mig_v1_${legacyId}`). Duplicate runs return `duplicate: true` without creating redundant attempts.
+4. **Non-Destructive Guarantee**:
+   - Zero V1 records are deleted or reset. Parent review approvals are preserved as legacy metadata and do not gate student completion.
+

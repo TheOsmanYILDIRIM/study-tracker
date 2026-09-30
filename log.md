@@ -1,6 +1,23 @@
 # StudyTracker - Proje Günlüğü (Log)
 
-### [2026-09-27] Tamamlandı: Tarih Dersi Mehmet Celal Özyıldız Güncellemesi & Zombie Görev / Tombstone Onarımı
+### [2026-09-30] Tamamlandı: StudyTracker V2 Faz 3 - Vault Tabanlı İçerik Tohumlama & Güvenli V1->V2 Geçişi
+- **Checked-in Tohum Kataloğu & Denetim Raporu:**
+  - `content/9-sinif-v2-catalog.json`: 9 ders (Matematik, Fizik, Kimya, Biyoloji, Tarih, Coğrafya, İngilizce, Almanca, TDE), 12 ünite, 38 öğrenme öğesi (34 Video, 4 Anki, 0 uydurma soru).
+  - `content/9-sinif-v2-catalog.sources.md`: Vault kaynaklı tam denetim raporu; değişmez stable key'ler, SHA-256 parmak izleri ve net kaynak dökümleri.
+  - **Tarih Kanonik Kuralı:** Mehmet Celal ÖZYILDIZ (*Benim Hocam*) kanonik kaynak olarak mühürlendi, çakışan eski/bayat şablonlar elendi.
+  - **Sıfır Uydurma Veri:** Test sorusu bulunmayan dersler için öğrenciye sahte soru uydurulmadı; kanal/arama URL'leri `needs_review` olarak işaretlendi.
+- **CLI Tohum Yönetim Araçları (`v2 seed`):**
+  - `studytracker-cli v2 seed validate`: Şema, ID tekilliği ve denetim kurallarını doğrular.
+  - `studytracker-cli v2 seed diff`: Yerel tohum ile sunucu kataloğunu karşılaştırır (eksik, güncellenecek ve ekstra korunan öğeler).
+  - `studytracker-cli v2 seed apply`: Tohumu sunucuya idempotent uygular; URL değiştiğinde yeni versiyon üretir, girişimleri ve sunucudaki ekstra öğeleri kayıpsız korur.
+- **V1 -> V2 Güvenli Geçiş Eşleyicisi (`v2 migrate-v1`):**
+  - `studytracker-cli v2 migrate-v1 analyze`: V1 kayıtlarını exact, high, medium, unmatched güven seviyelerine ayırır.
+  - `studytracker-cli v2 migrate-v1 plan`: Yalnızca `exact` ve `high` tamamlanmış kayıtları deterministik `clientAttemptId` (`mig_v1_${legacyId}`) ile planlar; `medium` ve `unmatched` kayıtları güvenle atlar.
+  - `studytracker-cli v2 migrate-v1 apply`: Planlanan girişimleri sunucuya idempotent kaydeder; sıfırlama veya silme yapmaz.
+- **Kapsamlı Test Paketi & Dokümantasyon:**
+  - `cli/test-v2.js` içine 9 yeni Phase 3 testi eklendi (tüm 15 test %100 başarılı).
+  - `docs/v2-content-import.md` oluşturuldu ve `docs/v2-architecture.md` güncellendi.
+
 - **Tarih Dersi Video Dersi Güncellendi:** 9. Sınıf Maarif Modeli 1. Hafta Tarih dersi (`tar_1` / `2026-W38_MON_tar_1`) için video kaynağı **Mehmet Celal ÖZYILDIZ** (`https://www.youtube.com/watch?v=5QxOpTALmEE`, 00:00 - 28:45) olarak güncellendi ve tüm plan dosyaları ile buluta yansıtıldı.
 - **Tombstone & Silinen Görevlerin Dirilmesini Önleme:** `worker/worker.js` içine `DELETE_TASK` işleyicisi eklendi; `handleSync` sorgusu `meta.tombstones` ile filtrelenerek silinen görevlerin yeniden listeye girmesi engellendi.
 - **Android Yetim Görev Temizliği:** `StudyPackageExchangeManager.kt` içinde bulut senkronizasyonu (`CLOUD` rolü) sırasında artık var olmayan eski anahtar formatındaki yetim görevlerin Room veritabanından güvenle budanması sağlandı.

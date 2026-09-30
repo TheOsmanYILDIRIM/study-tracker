@@ -50,6 +50,8 @@ ${colors.bold}V2 Müfredat, Ölçme & Dış AI Entegrasyonu:${colors.reset}
   ${colors.green}studytracker-cli v2 course list|create|archive ...${colors.reset}          Ders yönetimi
   ${colors.green}studytracker-cli v2 lesson list|create|archive ...${colors.reset}          Ünite/konu yönetimi
   ${colors.green}studytracker-cli v2 item list|get|create|update-content ...${colors.reset} Öğrenme öğeleri ve sürümleme
+  ${colors.green}studytracker-cli v2 seed validate|diff|apply [--file <p>]${colors.reset}  Tohum kataloğu yönetimi
+  ${colors.green}studytracker-cli v2 migrate-v1 analyze|plan|apply ...${colors.reset}      V1 -> V2 güvenli veri geçişi
   ${colors.green}studytracker-cli v2 item insert-before|insert-after ...${colors.reset}     Modüler/Puzzle sıralama
   ${colors.green}studytracker-cli v2 prereq add|remove|list ...${colors.reset}              Ön koşul / bağımlılık grafiği
   ${colors.green}studytracker-cli v2 attempts list|record ...${colors.reset}                İdempotent çalışma ve denemeler
