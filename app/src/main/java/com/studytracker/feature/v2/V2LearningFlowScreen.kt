@@ -87,12 +87,12 @@ fun V2LearningFlowScreen(
                             Text(
                                 text = "Öğrenme Akışı",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                                color = TextPrimary
+                                color = ZomoTextPrimary
                             )
                             Text(
                                 text = "${lessonProgress.completedItems}/${lessonProgress.totalItems} Tamamlandı (%${lessonProgress.completionPercentage})",
                                 style = MaterialTheme.typography.bodySmall,
-                                color = if (lessonProgress.completionPercentage == 100) ZenSuccess else ZenGold
+                                color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
                             )
                         }
                     },
@@ -101,7 +101,7 @@ fun V2LearningFlowScreen(
                             Icon(
                                 imageVector = Icons.Default.ArrowBack,
                                 contentDescription = "Geri",
-                                tint = TextPrimary
+                                tint = ZomoTextPrimary
                             )
                         }
                     },
@@ -121,7 +121,7 @@ fun V2LearningFlowScreen(
                     Text(
                         text = "Bu ünitede henüz öğrenme adımı bulunmuyor.",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = TextSecondary
+                        color = ZomoTextSecondary
                     )
                 }
             } else {
@@ -169,17 +169,17 @@ fun V2LearningFlowScreen(
             AlertDialog(
                 onDismissRequest = { lockedPrereqNotice = null },
                 shape = RoundedCornerShape(18.dp),
-                containerColor = DarkSurfaceCard,
+                containerColor = ZenNightSurface,
                 title = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Icon(Icons.Default.Lock, contentDescription = null, tint = ZenCoral)
+                        Icon(Icons.Default.Lock, contentDescription = null, tint = ZenRoseCoral)
                         Text(
                             text = "Ön Koşul Gerekli",
                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = TextPrimary
+                            color = ZomoTextPrimary
                         )
                     }
                 },
@@ -188,7 +188,7 @@ fun V2LearningFlowScreen(
                         Text(
                             text = "${prog.item.displayLabel} adımını açmak için aşağıdaki gereksinimleri tamamlamalısın:",
                             style = MaterialTheme.typography.bodyMedium,
-                            color = TextSecondary
+                            color = ZomoTextSecondary
                         )
                         prog.prerequisites.forEach { req ->
                             val reqItem = items.find { it.id == req.requiredItemId }
@@ -201,13 +201,13 @@ fun V2LearningFlowScreen(
                                 Icon(
                                     imageVector = if (req.isSatisfied) Icons.Default.CheckCircle else Icons.Default.Cancel,
                                     contentDescription = null,
-                                    tint = if (req.isSatisfied) ZenSuccess else ZenCoral,
+                                    tint = if (req.isSatisfied) ZenForestGreen else ZenRoseCoral,
                                     modifier = Modifier.size(16.dp)
                                 )
                                 Text(
                                     text = "$label$minScoreText",
                                     style = MaterialTheme.typography.bodySmall,
-                                    color = TextPrimary
+                                    color = ZomoTextPrimary
                                 )
                             }
                         }
@@ -215,7 +215,7 @@ fun V2LearningFlowScreen(
                 },
                 confirmButton = {
                     TextButton(onClick = { lockedPrereqNotice = null }) {
-                        Text("Anladım", color = ZenGold, fontWeight = FontWeight.Bold)
+                        Text("Anladım", color = ZenMoonGold, fontWeight = FontWeight.Bold)
                     }
                 }
             )
@@ -344,16 +344,16 @@ private fun LearningItemPuzzleCard(
 ) {
     val item = itemProgress.item
     val (typeIcon, typeColor, typeName) = when (item.itemType) {
-        ItemType.VIDEO -> Triple(Icons.Default.PlayCircle, ZenCyan, "Video")
-        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenGold, "Quiz")
-        ItemType.ANKI -> Triple(Icons.Default.Layers, ZenPurple, "Anki Kartları")
+        ItemType.VIDEO -> Triple(Icons.Default.PlayCircle, ZenSkyCyan, "Video")
+        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenMoonGold, "Quiz")
+        ItemType.ANKI -> Triple(Icons.Default.Layers, ZenLavender, "Anki Kartları")
     }
 
     val (cardBorderColor, cardAlpha) = when (itemProgress.state) {
-        V2ItemState.COMPLETED -> Pair(ZenSuccess.copy(alpha = 0.5f), 0.95f)
-        V2ItemState.AVAILABLE -> if (isNextItem) Pair(ZenGold, 0.95f) else Pair(CardBorder, 0.85f)
-        V2ItemState.LOCKED_BY_PREREQUISITE -> Pair(CardBorder.copy(alpha = 0.3f), 0.6f)
-        V2ItemState.ARCHIVED -> Pair(CardBorder.copy(alpha = 0.2f), 0.4f)
+        V2ItemState.COMPLETED -> Pair(ZenForestGreen.copy(alpha = 0.5f), 0.95f)
+        V2ItemState.AVAILABLE -> if (isNextItem) Pair(ZenMoonGold, 0.95f) else Pair(ZenNightBorder, 0.85f)
+        V2ItemState.LOCKED_BY_PREREQUISITE -> Pair(ZenNightBorder.copy(alpha = 0.3f), 0.6f)
+        V2ItemState.ARCHIVED -> Pair(ZenNightBorder.copy(alpha = 0.2f), 0.4f)
     }
 
     Card(
@@ -362,7 +362,7 @@ private fun LearningItemPuzzleCard(
             .clip(RoundedCornerShape(16.dp))
             .clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = DarkSurfaceCard.copy(alpha = cardAlpha)),
+        colors = CardDefaults.cardColors(containerColor = ZenNightSurface.copy(alpha = cardAlpha)),
         border = BorderStroke(if (isNextItem) 1.5.dp else 1.dp, cardBorderColor)
     ) {
         Row(
@@ -387,7 +387,7 @@ private fun LearningItemPuzzleCard(
                     },
                     contentDescription = null,
                     tint = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> ZenSuccess
+                        V2ItemState.COMPLETED -> ZenForestGreen
                         V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
                         else -> typeColor
                     },
@@ -404,7 +404,7 @@ private fun LearningItemPuzzleCard(
                     Text(
                         text = item.displayLabel,
                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                        color = TextPrimary
+                        color = ZomoTextPrimary
                     )
 
                     // Type tag
@@ -425,13 +425,13 @@ private fun LearningItemPuzzleCard(
                         Box(
                             modifier = Modifier
                                 .clip(RoundedCornerShape(6.dp))
-                                .background(ZenGold.copy(alpha = 0.2f))
+                                .background(ZenMoonGold.copy(alpha = 0.2f))
                                 .padding(horizontal = 6.dp, vertical = 2.dp)
                         ) {
                             Text(
                                 text = "Sıradaki Adım",
                                 style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.Bold),
-                                color = ZenGold
+                                color = ZenMoonGold
                             )
                         }
                     }
@@ -440,7 +440,7 @@ private fun LearningItemPuzzleCard(
                 Text(
                     text = item.currentVersion?.title ?: item.displayLabel,
                     style = MaterialTheme.typography.bodySmall,
-                    color = TextSecondary,
+                    color = ZomoTextSecondary,
                     maxLines = 1
                 )
 
@@ -449,13 +449,13 @@ private fun LearningItemPuzzleCard(
                     Text(
                         text = "Tamamlandı$scoreText",
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                        color = ZenSuccess
+                        color = ZenForestGreen
                     )
                 } else if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
                     Text(
                         text = "🔒 Ön koşul kilitli (Detay için dokun)",
                         style = MaterialTheme.typography.labelSmall,
-                        color = ZenCoral
+                        color = ZenRoseCoral
                     )
                 }
             }
@@ -463,7 +463,7 @@ private fun LearningItemPuzzleCard(
             Icon(
                 imageVector = Icons.Default.ChevronRight,
                 contentDescription = null,
-                tint = TextSecondary.copy(alpha = 0.7f)
+                tint = ZomoTextSecondary.copy(alpha = 0.7f)
             )
         }
     }
@@ -483,8 +483,8 @@ private fun VideoItemActionDialog(
     Dialog(onDismissRequest = onDismiss) {
         Card(
             shape = RoundedCornerShape(20.dp),
-            colors = CardDefaults.cardColors(containerColor = DarkSurfaceCard),
-            border = BorderStroke(1.dp, CardBorder)
+            colors = CardDefaults.cardColors(containerColor = ZenNightSurface),
+            border = BorderStroke(1.dp, ZenNightBorder)
         ) {
             Column(
                 modifier = Modifier.padding(22.dp),
@@ -497,21 +497,21 @@ private fun VideoItemActionDialog(
                     Box(
                         modifier = Modifier
                             .size(40.dp)
-                            .background(ZenCyan.copy(alpha = 0.15f), CircleShape),
+                            .background(ZenSkyCyan.copy(alpha = 0.15f), CircleShape),
                         contentAlignment = Alignment.Center
                     ) {
-                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = ZenCyan)
+                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = ZenSkyCyan)
                     }
                     Column {
                         Text(
                             text = item.displayLabel,
                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = TextPrimary
+                            color = ZomoTextPrimary
                         )
                         Text(
                             text = item.currentVersion?.title ?: "Ders Videosu",
                             style = MaterialTheme.typography.bodySmall,
-                            color = TextSecondary
+                            color = ZomoTextSecondary
                         )
                     }
                 }
@@ -528,7 +528,7 @@ private fun VideoItemActionDialog(
                                 Toast.makeText(context, "Video bağlantısı açılamadı: $videoUrl", Toast.LENGTH_SHORT).show()
                             }
                         },
-                        colors = ButtonDefaults.buttonColors(containerColor = ZenCyan),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan),
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.fillMaxWidth()
                     ) {
@@ -541,7 +541,7 @@ private fun VideoItemActionDialog(
                 Text(
                     text = "Videoyu izledikten sonra 'Tamamladım' butonuna dokunarak ilerlemeni kaydedebilirsin.",
                     style = MaterialTheme.typography.bodySmall,
-                    color = TextSecondary
+                    color = ZomoTextSecondary
                 )
 
                 Row(
@@ -553,7 +553,7 @@ private fun VideoItemActionDialog(
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Kapat", color = TextSecondary)
+                        Text("Kapat", color = ZomoTextSecondary)
                     }
 
                     Button(
@@ -561,7 +561,7 @@ private fun VideoItemActionDialog(
                             val elapsedSec = ((System.currentTimeMillis() - startTime) / 1000L).toInt().coerceAtLeast(30)
                             onComplete(elapsedSec)
                         },
-                        colors = ButtonDefaults.buttonColors(containerColor = ZenSuccess),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1.5f)
                     ) {
@@ -602,8 +602,8 @@ private fun QuizItemActionDialog(
     Dialog(onDismissRequest = onDismiss) {
         Card(
             shape = RoundedCornerShape(20.dp),
-            colors = CardDefaults.cardColors(containerColor = DarkSurfaceCard),
-            border = BorderStroke(1.dp, CardBorder),
+            colors = CardDefaults.cardColors(containerColor = ZenNightSurface),
+            border = BorderStroke(1.dp, ZenNightBorder),
             modifier = Modifier.fillMaxWidth().heightIn(max = 560.dp)
         ) {
             Column(
@@ -619,26 +619,26 @@ private fun QuizItemActionDialog(
                     Box(
                         modifier = Modifier
                             .size(36.dp)
-                            .background(ZenGold.copy(alpha = 0.15f), CircleShape),
+                            .background(ZenMoonGold.copy(alpha = 0.15f), CircleShape),
                         contentAlignment = Alignment.Center
                     ) {
-                        Icon(Icons.Default.Quiz, contentDescription = null, tint = ZenGold)
+                        Icon(Icons.Default.Quiz, contentDescription = null, tint = ZenMoonGold)
                     }
                     Column {
                         Text(
                             text = item.displayLabel,
                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = TextPrimary
+                            color = ZomoTextPrimary
                         )
                         Text(
                             text = "${questions.size} Soru",
                             style = MaterialTheme.typography.bodySmall,
-                            color = TextSecondary
+                            color = ZomoTextSecondary
                         )
                     }
                 }
 
-                Divider(color = CardBorder.copy(alpha = 0.5f))
+                HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f))
 
                 LazyColumn(
                     modifier = Modifier.weight(1f),
@@ -657,7 +657,7 @@ private fun QuizItemActionDialog(
                             Text(
                                 text = "${index + 1}. ${q.prompt}",
                                 style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                color = TextPrimary
+                                color = ZomoTextPrimary
                             )
 
                             val choices = if (q.choices.isNotEmpty()) q.choices else listOf("A) Doğru", "B) Yanlış")
@@ -667,7 +667,7 @@ private fun QuizItemActionDialog(
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .clip(RoundedCornerShape(8.dp))
-                                        .background(if (isSelected) ZenGold.copy(alpha = 0.2f) else Color.Transparent)
+                                        .background(if (isSelected) ZenMoonGold.copy(alpha = 0.2f) else Color.Transparent)
                                         .clickable {
                                             selectedAnswers = selectedAnswers + (index to choice)
                                         }
@@ -678,12 +678,12 @@ private fun QuizItemActionDialog(
                                     RadioButton(
                                         selected = isSelected,
                                         onClick = { selectedAnswers = selectedAnswers + (index to choice) },
-                                        colors = RadioButtonDefaults.colors(selectedColor = ZenGold)
+                                        colors = RadioButtonDefaults.colors(selectedColor = ZenMoonGold)
                                     )
                                     Text(
                                         text = choice,
                                         style = MaterialTheme.typography.bodySmall,
-                                        color = if (isSelected) TextPrimary else TextSecondary
+                                        color = if (isSelected) ZomoTextPrimary else ZomoTextSecondary
                                     )
                                 }
                             }
@@ -700,7 +700,7 @@ private fun QuizItemActionDialog(
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("İptal", color = TextSecondary)
+                        Text("İptal", color = ZomoTextSecondary)
                     }
 
                     Button(
@@ -724,7 +724,7 @@ private fun QuizItemActionDialog(
                             val score = if (questions.isNotEmpty()) (correctCount.toDouble() / questions.size.toDouble()) * 100.0 else 100.0
                             onSubmit(score, durationSec, metrics)
                         },
-                        colors = ButtonDefaults.buttonColors(containerColor = ZenGold),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold),
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1.5f)
                     ) {
@@ -751,8 +751,8 @@ private fun AnkiItemActionDialog(
     Dialog(onDismissRequest = onDismiss) {
         Card(
             shape = RoundedCornerShape(20.dp),
-            colors = CardDefaults.cardColors(containerColor = DarkSurfaceCard),
-            border = BorderStroke(1.dp, CardBorder)
+            colors = CardDefaults.cardColors(containerColor = ZenNightSurface),
+            border = BorderStroke(1.dp, ZenNightBorder)
         ) {
             Column(
                 modifier = Modifier.padding(22.dp),
@@ -765,21 +765,21 @@ private fun AnkiItemActionDialog(
                     Box(
                         modifier = Modifier
                             .size(40.dp)
-                            .background(ZenPurple.copy(alpha = 0.15f), CircleShape),
+                            .background(ZenLavender.copy(alpha = 0.15f), CircleShape),
                         contentAlignment = Alignment.Center
                     ) {
-                        Icon(Icons.Default.Layers, contentDescription = null, tint = ZenPurple)
+                        Icon(Icons.Default.Layers, contentDescription = null, tint = ZenLavender)
                     }
                     Column {
                         Text(
                             text = item.displayLabel,
                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = TextPrimary
+                            color = ZomoTextPrimary
                         )
                         Text(
                             text = payload.deckName.ifBlank { item.currentVersion?.title ?: "Anki Deste Tekrarı" },
                             style = MaterialTheme.typography.bodySmall,
-                            color = TextSecondary
+                            color = ZomoTextSecondary
                         )
                     }
                 }
@@ -788,7 +788,7 @@ private fun AnkiItemActionDialog(
                     Text(
                         text = payload.instructions,
                         style = MaterialTheme.typography.bodySmall,
-                        color = TextSecondary
+                        color = ZomoTextSecondary
                     )
                 }
 
@@ -820,7 +820,7 @@ private fun AnkiItemActionDialog(
                             Toast.makeText(context, "AnkiDroid cihazınızda bulunamadı.", Toast.LENGTH_SHORT).show()
                         }
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = ZenPurple),
+                    colors = ButtonDefaults.buttonColors(containerColor = ZenLavender),
                     shape = RoundedCornerShape(12.dp),
                     modifier = Modifier.fillMaxWidth()
                 ) {
@@ -847,7 +847,7 @@ private fun AnkiItemActionDialog(
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Kapat", color = TextSecondary)
+                        Text("Kapat", color = ZomoTextSecondary)
                     }
 
                     Button(
@@ -856,7 +856,7 @@ private fun AnkiItemActionDialog(
                             val elapsedSec = ((System.currentTimeMillis() - startTime) / 1000L).toInt().coerceAtLeast(30)
                             onComplete(count, elapsedSec)
                         },
-                        colors = ButtonDefaults.buttonColors(containerColor = ZenSuccess),
+                        colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1.5f)
                     ) {

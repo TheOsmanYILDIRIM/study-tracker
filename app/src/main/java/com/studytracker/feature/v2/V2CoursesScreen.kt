@@ -16,7 +16,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -26,9 +25,6 @@ import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
-import com.studytracker.core.domain.engine.V2CourseProgress
-import com.studytracker.core.domain.engine.V2ProgressEngine
-import com.studytracker.core.domain.model.Course
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -49,7 +45,6 @@ fun V2CoursesScreen(
     val attemptRepo = remember(db) { LocalV2AttemptRepositoryImpl(db) }
 
     val courses by curriculumRepo.getCourses(familyCode).collectAsState(initial = emptyList())
-    val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
     val attempts by attemptRepo.getAttempts(familyCode, "student_default").collectAsState(initial = emptyList())
 
     var isSyncing by remember { mutableStateOf(false) }
@@ -80,12 +75,12 @@ fun V2CoursesScreen(
                             Text(
                                 text = "Öğrenme Akışı (V2)",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                                color = TextPrimary
+                                color = ZomoTextPrimary
                             )
                             Text(
                                 text = "Dersler & Ölçme Tabanlı İlerleme",
                                 style = MaterialTheme.typography.bodySmall,
-                                color = TextSecondary
+                                color = ZomoTextSecondary
                             )
                         }
                     },
@@ -94,7 +89,7 @@ fun V2CoursesScreen(
                             Icon(
                                 imageVector = Icons.Default.ArrowBack,
                                 contentDescription = "Geri",
-                                tint = TextPrimary
+                                tint = ZomoTextPrimary
                             )
                         }
                     },
@@ -107,13 +102,13 @@ fun V2CoursesScreen(
                                 CircularProgressIndicator(
                                     modifier = Modifier.size(20.dp),
                                     strokeWidth = 2.dp,
-                                    color = ZenGold
+                                    color = ZenMoonGold
                                 )
                             } else {
                                 Icon(
                                     imageVector = Icons.Default.Sync,
                                     contentDescription = "Yenile",
-                                    tint = ZenGold
+                                    tint = ZenMoonGold
                                 )
                             }
                         }
@@ -134,8 +129,8 @@ fun V2CoursesScreen(
                 ) {
                     Card(
                         shape = RoundedCornerShape(20.dp),
-                        colors = CardDefaults.cardColors(containerColor = DarkSurfaceCard.copy(alpha = 0.9f)),
-                        border = BorderStroke(1.dp, CardBorder)
+                        colors = CardDefaults.cardColors(containerColor = ZenNightSurface.copy(alpha = 0.9f)),
+                        border = BorderStroke(1.dp, ZenNightBorder)
                     ) {
                         Column(
                             modifier = Modifier.padding(24.dp),
@@ -145,27 +140,27 @@ fun V2CoursesScreen(
                             Icon(
                                 imageVector = Icons.Default.School,
                                 contentDescription = null,
-                                tint = ZenGold,
+                                tint = ZenMoonGold,
                                 modifier = Modifier.size(56.dp)
                             )
                             Text(
                                 text = "Henüz V2 Dersi Bulunmuyor",
                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                color = TextPrimary
+                                color = ZomoTextPrimary
                             )
                             Text(
                                 text = "Buluttaki güncel ders ve modülleri çekmek için aşağıdaki butona dokunabilirsin.",
                                 style = MaterialTheme.typography.bodyMedium,
-                                color = TextSecondary,
+                                color = ZomoTextSecondary,
                                 modifier = Modifier.padding(horizontal = 8.dp)
                             )
                             Button(
                                 onClick = { refreshCatalog() },
-                                colors = ButtonDefaults.buttonColors(containerColor = ZenGold),
+                                colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold),
                                 shape = RoundedCornerShape(12.dp),
                                 modifier = Modifier.fillMaxWidth()
                             ) {
-                                Icon(Icons.Default.CloudDownload, contentDescription = null)
+                                Icon(Icons.Default.CloudDownload, contentDescription = null, tint = Color.Black)
                                 Spacer(modifier = Modifier.width(8.dp))
                                 Text("Buluttan Dersleri İndir", color = Color.Black, fontWeight = FontWeight.Bold)
                             }
@@ -182,18 +177,6 @@ fun V2CoursesScreen(
                 ) {
                     items(courses, key = { it.id }) { course ->
                         val lessons by curriculumRepo.getLessonsForCourse(course.id).collectAsState(initial = emptyList())
-                        
-                        // Map items for all lessons in this course
-                        val itemsByLesson = remember(lessons) {
-                            lessons.associate { l ->
-                                l.id to db.learningItemDao().getActiveItemsForFamily(familyCode)
-                            }
-                        }
-
-                        // Calculate deterministic course progress
-                        val courseCompletedAttempts = remember(attempts) {
-                            attempts.filter { it.status == com.studytracker.core.domain.model.AttemptStatus.COMPLETED }
-                        }
 
                         Card(
                             modifier = Modifier
@@ -202,9 +185,9 @@ fun V2CoursesScreen(
                                 .clickable { onNavigateToCourse(course.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = DarkSurfaceCard.copy(alpha = 0.92f)
+                                containerColor = ZenNightSurface.copy(alpha = 0.92f)
                             ),
-                            border = BorderStroke(1.dp, CardBorder)
+                            border = BorderStroke(1.dp, ZenNightBorder)
                         ) {
                             Column(
                                 modifier = Modifier.padding(18.dp),
@@ -222,13 +205,13 @@ fun V2CoursesScreen(
                                         Box(
                                             modifier = Modifier
                                                 .size(36.dp)
-                                                .background(ZenGold.copy(alpha = 0.15f), CircleShape),
+                                                .background(ZenMoonGold.copy(alpha = 0.15f), CircleShape),
                                             contentAlignment = Alignment.Center
                                         ) {
                                             Icon(
                                                 imageVector = Icons.Default.MenuBook,
                                                 contentDescription = null,
-                                                tint = ZenGold,
+                                                tint = ZenMoonGold,
                                                 modifier = Modifier.size(20.dp)
                                             )
                                         }
@@ -236,12 +219,12 @@ fun V2CoursesScreen(
                                             Text(
                                                 text = course.title,
                                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                                color = TextPrimary
+                                                color = ZomoTextPrimary
                                             )
                                             Text(
                                                 text = "${course.gradeLevel}. Sınıf • ${course.subject}",
                                                 style = MaterialTheme.typography.bodySmall,
-                                                color = TextSecondary
+                                                color = ZomoTextSecondary
                                             )
                                         }
                                     }
@@ -249,7 +232,7 @@ fun V2CoursesScreen(
                                     Icon(
                                         imageVector = Icons.Default.ChevronRight,
                                         contentDescription = null,
-                                        tint = TextSecondary
+                                        tint = ZomoTextSecondary
                                     )
                                 }
 
@@ -257,12 +240,12 @@ fun V2CoursesScreen(
                                     Text(
                                         text = course.description,
                                         style = MaterialTheme.typography.bodySmall,
-                                        color = TextSecondary,
+                                        color = ZomoTextSecondary,
                                         maxLines = 2
                                     )
                                 }
 
-                                Divider(color = CardBorder.copy(alpha = 0.5f), thickness = 0.8.dp)
+                                HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f), thickness = 0.8.dp)
 
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
@@ -272,12 +255,12 @@ fun V2CoursesScreen(
                                     Text(
                                         text = "${lessons.size} Ünite / Konu",
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                        color = ZenGold
+                                        color = ZenMoonGold
                                     )
                                     Text(
                                         text = "Öğrenmeye Başla →",
                                         style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                        color = TextPrimary
+                                        color = ZomoTextPrimary
                                     )
                                 }
                             }

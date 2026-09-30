@@ -60,12 +60,12 @@ fun V2LessonsScreen(
                             Text(
                                 text = "Üniteler & Konular",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                                color = TextPrimary
+                                color = ZomoTextPrimary
                             )
                             Text(
                                 text = "Öğrenme Akışını Seçin",
                                 style = MaterialTheme.typography.bodySmall,
-                                color = TextSecondary
+                                color = ZomoTextSecondary
                             )
                         }
                     },
@@ -74,7 +74,7 @@ fun V2LessonsScreen(
                             Icon(
                                 imageVector = Icons.Default.ArrowBack,
                                 contentDescription = "Geri",
-                                tint = TextPrimary
+                                tint = ZomoTextPrimary
                             )
                         }
                     },
@@ -94,7 +94,7 @@ fun V2LessonsScreen(
                     Text(
                         text = "Bu derste henüz ünite bulunmuyor.",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = TextSecondary
+                        color = ZomoTextSecondary
                     )
                 }
             } else {
@@ -123,9 +123,9 @@ fun V2LessonsScreen(
                                 .clickable { onNavigateToLearningFlow(lesson.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = DarkSurfaceCard.copy(alpha = 0.92f)
+                                containerColor = ZenNightSurface.copy(alpha = 0.92f)
                             ),
-                            border = BorderStroke(1.dp, CardBorder)
+                            border = BorderStroke(1.dp, ZenNightBorder)
                         ) {
                             Column(
                                 modifier = Modifier.padding(18.dp),
@@ -140,12 +140,12 @@ fun V2LessonsScreen(
                                         Text(
                                             text = lesson.title,
                                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                            color = TextPrimary
+                                            color = ZomoTextPrimary
                                         )
                                         Text(
                                             text = "${lessonProgress.completedItems}/${lessonProgress.totalItems} Modül Tamamlandı",
                                             style = MaterialTheme.typography.bodySmall,
-                                            color = if (lessonProgress.completionPercentage == 100) ZenSuccess else ZenGold
+                                            color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
                                         )
                                     }
 
@@ -153,25 +153,26 @@ fun V2LessonsScreen(
                                     Box(
                                         modifier = Modifier
                                             .clip(RoundedCornerShape(12.dp))
-                                            .background(if (lessonProgress.completionPercentage == 100) ZenSuccess.copy(alpha = 0.2f) else ZenGold.copy(alpha = 0.15f))
+                                            .background(if (lessonProgress.completionPercentage == 100) ZenForestGreen.copy(alpha = 0.2f) else ZenMoonGold.copy(alpha = 0.15f))
                                             .padding(horizontal = 10.dp, vertical = 5.dp)
                                     ) {
                                         Text(
                                             text = "%${lessonProgress.completionPercentage}",
                                             style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                            color = if (lessonProgress.completionPercentage == 100) ZenSuccess else ZenGold
+                                            color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
                                         )
                                     }
                                 }
 
                                 // Linear Progress Indicator
+                                val progressFraction = if (lessonProgress.totalItems > 0) lessonProgress.completedItems.toFloat() / lessonProgress.totalItems.toFloat() else 0f
                                 LinearProgressIndicator(
-                                    progress = { if (lessonProgress.totalItems > 0) lessonProgress.completedItems.toFloat() / lessonProgress.totalItems.toFloat() else 0f },
+                                    progress = { progressFraction },
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .height(8.dp)
                                         .clip(CircleShape),
-                                    color = if (lessonProgress.completionPercentage == 100) ZenSuccess else ZenGold,
+                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold,
                                     trackColor = Color.White.copy(alpha = 0.1f)
                                 )
 
@@ -189,13 +190,13 @@ fun V2LessonsScreen(
                                         Icon(
                                             imageVector = Icons.Default.PlayCircleOutline,
                                             contentDescription = null,
-                                            tint = ZenCyan,
+                                            tint = ZenSkyCyan,
                                             modifier = Modifier.size(16.dp)
                                         )
                                         Text(
                                             text = "Sıradaki: ${lessonProgress.nextUnfinishedItem.displayLabel} - ${lessonProgress.nextUnfinishedItem.currentVersion?.title ?: lessonProgress.nextUnfinishedItem.displayLabel}",
                                             style = MaterialTheme.typography.bodySmall,
-                                            color = TextPrimary,
+                                            color = ZomoTextPrimary,
                                             maxLines = 1
                                         )
                                     }
@@ -207,13 +208,13 @@ fun V2LessonsScreen(
                                         Icon(
                                             imageVector = Icons.Default.CheckCircle,
                                             contentDescription = null,
-                                            tint = ZenSuccess,
+                                            tint = ZenForestGreen,
                                             modifier = Modifier.size(16.dp)
                                         )
                                         Text(
                                             text = "Tüm modüller başarıyla tamamlandı!",
                                             style = MaterialTheme.typography.bodySmall,
-                                            color = ZenSuccess
+                                            color = ZenForestGreen
                                         )
                                     }
                                 }
