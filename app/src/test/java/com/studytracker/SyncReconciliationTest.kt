@@ -7,6 +7,7 @@ import com.studytracker.core.data.local.repository.toEntity
 import com.studytracker.core.domain.model.OccurrenceStatus
 import com.studytracker.core.domain.model.Session
 import com.studytracker.core.domain.model.TaskKind
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.junit.Assert.*
 import org.junit.Test
