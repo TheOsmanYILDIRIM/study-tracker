@@ -241,6 +241,7 @@ class V2DomainTest {
             requiredItemId = "item_mat9_quiz17",
             minScore = 70.0
         )
+        val minScore = prereq.minScore
 
         // Case A: Quiz 17 scored 60.0 (< 70.0) -> Not unlocked
         val lowScoreAttempt = Attempt(
@@ -254,7 +255,7 @@ class V2DomainTest {
             score = 60.0
         )
         val lowScorePassed = lowScoreAttempt.status == AttemptStatus.COMPLETED &&
-                (prereq.minScore == null || (lowScoreAttempt.score ?: 0.0) >= prereq.minScore)
+                (minScore == null || (lowScoreAttempt.score ?: 0.0) >= minScore)
         assertFalse("Prerequisite should not be satisfied when score 60 < 70", lowScorePassed)
 
         // Case B: Quiz 17 scored 85.0 (>= 70.0) -> Unlocked
@@ -269,7 +270,7 @@ class V2DomainTest {
             score = 85.0
         )
         val highScorePassed = highScoreAttempt.status == AttemptStatus.COMPLETED &&
-                (prereq.minScore == null || (highScoreAttempt.score ?: 0.0) >= prereq.minScore)
+                (minScore == null || (highScoreAttempt.score ?: 0.0) >= minScore)
         assertTrue("Prerequisite should be satisfied when score 85 >= 70", highScorePassed)
     }
 }
