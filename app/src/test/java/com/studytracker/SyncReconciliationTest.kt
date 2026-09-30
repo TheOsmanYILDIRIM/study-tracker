@@ -1032,6 +1032,43 @@ class SyncReconciliationTest {
         assertTrue(ex is com.studytracker.core.data.remote.cloudflare.RevisionConflictException)
         assertEquals(18L, (ex as com.studytracker.core.data.remote.cloudflare.RevisionConflictException).currentRevision)
     }
+
+    @Test
+    fun `test U - resolveEffectiveRoleForSync preserves PARENT role for privileged actions even when local DB is empty`() {
+        val manager = com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
+
+        // 1. Privileged / Destructive actions on EMPTY local DB must NEVER downgrade to CLIENT
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "RESET"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "WIPE"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "RESTORE"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "UNDO_RESET"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "RESET_ALL_PROGRESS"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "PATCH_TASK"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "DELETE_TASK"))
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "SYNC", deleteTaskId = "task_math_01"))
+
+        // 2. Non-mutating default SYNC on empty DB uses CLIENT bootstrap role
+        assertEquals("CLIENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = true, action = "SYNC", deleteTaskId = null))
+
+        // 3. Normal SYNC with populated DB retains PARENT role
+        assertEquals("PARENT", manager.resolveEffectiveRoleForSync("PARENT", isLocalDbEmpty = false, action = "SYNC", deleteTaskId = null))
+
+        // 4. CHILD progress semantics preserved
+        assertEquals("CLIENT", manager.resolveEffectiveRoleForSync("CHILD", isLocalDbEmpty = true, action = "SYNC"))
+        assertEquals("CHILD", manager.resolveEffectiveRoleForSync("CHILD", isLocalDbEmpty = false, action = "SYNC"))
+
+        // 5. Verify isMutatingOrPrivilegedAction helper
+        assertTrue(manager.isMutatingOrPrivilegedAction("RESET"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("WIPE"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("RESTORE"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("UNDO_RESET"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("RESET_ALL_PROGRESS"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("PATCH_TASK"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("DELETE_TASK"))
+        assertTrue(manager.isMutatingOrPrivilegedAction("SYNC", deleteTaskId = "task_01"))
+        assertFalse(manager.isMutatingOrPrivilegedAction("SYNC", deleteTaskId = null))
+        assertFalse(manager.isMutatingOrPrivilegedAction("UNKNOWN", deleteTaskId = null))
+    }
 }
 
 class FakeSharedPreferences(

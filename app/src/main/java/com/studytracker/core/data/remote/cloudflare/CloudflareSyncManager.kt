@@ -391,6 +391,34 @@ object CloudflareSyncManager {
         return role.uppercase().trim() in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI")
     }
 
+    internal fun isMutatingOrPrivilegedAction(action: String, deleteTaskId: String? = null): Boolean {
+        if (!deleteTaskId.isNullOrBlank()) return true
+        val act = action.uppercase().trim()
+        return act in setOf(
+            "DELETE_TASK",
+            "RESET",
+            "RESET_ALL_PROGRESS",
+            "WIPE",
+            "RESTORE",
+            "UNDO_RESET",
+            "PATCH_TASK",
+            "ADD_MESSAGE"
+        )
+    }
+
+    internal fun resolveEffectiveRoleForSync(
+        appRole: String = com.studytracker.BuildConfig.APP_ROLE,
+        isLocalDbEmpty: Boolean,
+        action: String = "SYNC",
+        deleteTaskId: String? = null
+    ): String {
+        val cleanRole = appRole.uppercase().trim().ifBlank { "CLIENT" }
+        if (isLocalDbEmpty && !isMutatingOrPrivilegedAction(action, deleteTaskId)) {
+            return "CLIENT"
+        }
+        return cleanRole
+    }
+
     internal suspend fun ensureAuthoritativeRevision(
         context: Context,
         role: String = com.studytracker.BuildConfig.APP_ROLE
@@ -521,7 +549,12 @@ object CloudflareSyncManager {
             val adminToken = prefs.familyAdminToken.value
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
-            val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
+            val effectiveRole = resolveEffectiveRoleForSync(
+                appRole = com.studytracker.BuildConfig.APP_ROLE,
+                isLocalDbEmpty = isLocalDbEmpty,
+                action = action,
+                deleteTaskId = deleteTaskId
+            )
 
             if (isAuthoritativeRole(effectiveRole)) {
                 val revRes = ensureAuthoritativeRevision(context, effectiveRole)
