@@ -7,6 +7,9 @@
     "studytracker-cli": "./bin/studytracker-cli.js",
     "study-cli": "./bin/studytracker-cli.js"
   },
+  "scripts": {
+    "test": "node test-revision.js"
+  },
   "keywords": [
     "studytracker",
     "parenting",

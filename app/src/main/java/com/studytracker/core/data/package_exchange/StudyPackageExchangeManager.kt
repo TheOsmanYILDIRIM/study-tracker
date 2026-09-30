@@ -229,7 +229,8 @@ object StudyPackageExchangeManager {
                 activeDurationSeconds = it.activeDurationSeconds,
                 reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
-                notes = it.studentNote ?: ""
+                notes = it.studentNote ?: "",
+                updatedAt = it.updatedAt
             )
         }
 
@@ -587,6 +588,25 @@ object StudyPackageExchangeManager {
                 // eventually-consistent cloud list must never delete a newer local session.
                 for (rs in pkg.sessions) {
                     val existing = localSessions[rs.id]
+                    val incomingTimestamp = SessionReconciliationHelper.resolveIncomingSessionTimestamp(
+                        updatedAt = rs.updatedAt,
+                        endTime = rs.endTime,
+                        startTime = rs.startTime
+                    )
+
+                    if (existing != null) {
+                        val existingCompleted = SessionReconciliationHelper.isSessionStatusCompleted(existing.status)
+                        val shouldApply = SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                            existingUpdatedAt = existing.updatedAt,
+                            incomingUpdatedAt = incomingTimestamp,
+                            existingCompleted = existingCompleted,
+                            incomingCompleted = rs.isCompleted
+                        )
+                        if (!shouldApply) {
+                            continue
+                        }
+                    }
+
                     val hasApprovedReview = pkg.reviews.any { it.sessionId == rs.id && it.isApproved }
                     val hasRejectedReview = pkg.reviews.any { it.sessionId == rs.id && !it.isApproved }
                     val resolvedStatus = when {
@@ -608,7 +628,8 @@ object StudyPackageExchangeManager {
                             activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: (rs.durationMin * 60L)),
                             reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                             finalScreenshotUrl = existing?.finalScreenshotUrl,
-                            studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
+                            studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote,
+                            updatedAt = incomingTimestamp
                         )
                     )
                 }

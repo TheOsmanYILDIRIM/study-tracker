@@ -80,7 +80,8 @@ data class SessionEntity(
     @ColumnInfo(defaultValue = "0") val activeDurationSeconds: Long = 0L,
     @ColumnInfo(defaultValue = "0") val reportedQuestionCount: Int = 0,
     val finalScreenshotUrl: String?,
-    val studentNote: String? = null
+    val studentNote: String? = null,
+    @ColumnInfo(defaultValue = "0") val updatedAt: Long = startTime
 )
 
 @Entity(

@@ -150,7 +150,8 @@ data class Session(
     val activeDurationSeconds: Long = 0L,
     val reportedQuestionCount: Int = 0,
     val finalScreenshotUrl: String? = null,
-    val studentNote: String? = null
+    val studentNote: String? = null,
+    val updatedAt: Long = startTime
 )
 
 @Immutable

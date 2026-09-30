@@ -289,6 +289,25 @@ class StudySyncProvider : ContentProvider() {
             val localSessions = db.sessionDao().getAllSessionsOnce().associateBy { it.sessionId }
             for (rs in payload.sessions) {
                 val existing = localSessions[rs.id]
+                val incomingTimestamp = SessionReconciliationHelper.resolveIncomingSessionTimestamp(
+                    updatedAt = rs.updatedAt,
+                    endTime = rs.endTime,
+                    startTime = rs.startTime
+                )
+
+                if (existing != null) {
+                    val existingCompleted = SessionReconciliationHelper.isSessionStatusCompleted(existing.status)
+                    val shouldApply = SessionReconciliationHelper.shouldApplyIncomingSessionVersion(
+                        existingUpdatedAt = existing.updatedAt,
+                        incomingUpdatedAt = incomingTimestamp,
+                        existingCompleted = existingCompleted,
+                        incomingCompleted = rs.isCompleted
+                    )
+                    if (!shouldApply) {
+                        continue
+                    }
+                }
+
                 val resolvedStatus = when {
                     existing?.status == SessionStatus.APPROVED -> SessionStatus.APPROVED
                     existing?.status == SessionStatus.REJECTED -> SessionStatus.REJECTED
@@ -305,10 +324,11 @@ class StudySyncProvider : ContentProvider() {
                         endTime = rs.endTime ?: existing?.endTime,
                         status = resolvedStatus,
                         screenshotCount = existing?.screenshotCount ?: 1,
-                        activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: rs.durationMin * 60L),
+                        activeDurationSeconds = maxOf(existing?.activeDurationSeconds ?: 0L, rs.activeDurationSeconds.takeIf { it > 0 } ?: (rs.durationMin * 60L)),
                         reportedQuestionCount = maxOf(existing?.reportedQuestionCount ?: 0, rs.reportedQuestionCount),
                         finalScreenshotUrl = existing?.finalScreenshotUrl,
-                        studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote
+                        studentNote = rs.notes.ifBlank { null } ?: existing?.studentNote,
+                        updatedAt = incomingTimestamp
                     )
                 )
             }
@@ -486,7 +506,8 @@ class StudySyncProvider : ContentProvider() {
                 activeDurationSeconds = it.activeDurationSeconds,
                 reportedQuestionCount = it.reportedQuestionCount,
                 isCompleted = it.status != SessionStatus.ACTIVE,
-                notes = it.studentNote ?: ""
+                notes = it.studentNote ?: "",
+                updatedAt = it.updatedAt
             )
         }
 

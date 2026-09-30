@@ -125,8 +125,8 @@ interface SessionDao {
     @Query("SELECT * FROM sessions WHERE sessionId = :sessionId LIMIT 1")
     suspend fun getSessionById(sessionId: String): SessionEntity?
 
-    @Query("UPDATE sessions SET studentNote = :studentNote WHERE sessionId = :sessionId")
-    suspend fun updateStudentNote(sessionId: String, studentNote: String?)
+    @Query("UPDATE sessions SET studentNote = :studentNote, updatedAt = CASE WHEN updatedAt > :updatedAt THEN updatedAt ELSE :updatedAt END WHERE sessionId = :sessionId")
+    suspend fun updateStudentNote(sessionId: String, studentNote: String?, updatedAt: Long = System.currentTimeMillis())
 
     @Query("SELECT * FROM sessions")
     suspend fun getAllSessionsOnce(): List<SessionEntity>
@@ -137,7 +137,7 @@ interface SessionDao {
     @Query("DELETE FROM sessions WHERE sessionId = :sessionId")
     suspend fun deleteSession(sessionId: String)
 
-    @Query("UPDATE sessions SET status = 'INVALID', endTime = :endedAt WHERE sessionId = :sessionId")
+    @Query("UPDATE sessions SET status = 'INVALID', endTime = :endedAt, updatedAt = CASE WHEN updatedAt > :endedAt THEN updatedAt ELSE :endedAt END WHERE sessionId = :sessionId")
     suspend fun invalidateSession(sessionId: String, endedAt: Long)
 
     @Query("DELETE FROM sessions")

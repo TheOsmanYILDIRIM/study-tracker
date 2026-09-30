@@ -30,7 +30,8 @@ data class PairFamilyResponse(
     val familyCode: String = "",
     val adminToken: String? = null,
     val created: Boolean = false,
-    val error: String? = null
+    val error: String? = null,
+    val revision: Long? = null
 )
 
 @Serializable
@@ -38,8 +39,25 @@ data class CloudSyncResponse(
     val success: Boolean = false,
     val familyCode: String? = null,
     val data: CloudSyncPayloadWrapper? = null,
-    val error: String? = null
+    val error: String? = null,
+    val revision: Long? = null,
+    val message: String? = null
 )
+
+@Serializable
+data class SyncErrorResponse(
+    val success: Boolean = false,
+    val error: String? = null,
+    val message: String? = null,
+    val currentRevision: Long? = null,
+    val serverResetAt: Long? = null
+)
+
+class RevisionConflictException(
+    override val message: String,
+    val currentRevision: Long? = null
+) : Exception(message)
+
 
 @Serializable
 data class CloudSyncPayloadWrapper(
@@ -53,7 +71,9 @@ data class CloudSyncPayloadWrapper(
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<com.studytracker.core.domain.model.Quiz> = emptyList(),
-    val messages: List<RemoteMessageSyncDto> = emptyList()
+    val messages: List<RemoteMessageSyncDto> = emptyList(),
+    val resetAt: Long = 0L,
+    val revision: Long = 0L
 )
 
 sealed class SyncCheckResult {
@@ -109,6 +129,10 @@ object CloudflareSyncManager {
                 return@withContext Result.failure(Exception(syncRes.error ?: "Buluttan veri alınamadı"))
             }
 
+            if (syncRes.data.revision >= 0L) {
+                prefs.lastKnownServerRevision = syncRes.data.revision
+            }
+
             Result.success(syncRes.data)
         } catch (e: Exception) {
             Log.e(TAG, "fetchCloudData failed: ${e.message}", e)
@@ -135,7 +159,7 @@ object CloudflareSyncManager {
             // 1. Yerel veritabanı tamamen boşsa doğrudan buluttan indir
             if (localPlan == null && localOccs.isEmpty()) {
                 if (cloudData.plan != null || cloudData.occurrences.isNotEmpty()) {
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     return@withContext SyncCheckResult.Success("Buluttaki plan başarıyla yüklendi (${cloudData.occurrences.size} Ders)")
                 } else {
                     return@withContext SyncCheckResult.Success("Bulutta ve cihazda aktif plan bulunmuyor.")
@@ -231,12 +255,12 @@ object CloudflareSyncManager {
         try {
             when (strategy) {
                 ConflictResolutionStrategy.DOWNLOAD_CLOUD -> {
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     Result.success("☁️ Buluttaki taze plan bu cihaza indirildi ve eşitlendi.")
                 }
                 ConflictResolutionStrategy.SMART_MERGE -> {
                     // Bulut tanımlarını al, yerel öğrenci onaylarını ve oturumlarını koru
-                    applyCloudDataToLocal(context, cloudData)
+                    applyCloudDataRespectingResetEpoch(context, cloudData)
                     // Ardından yerel öğrenci oturumlarını buluta aktar
                     syncWithCloud(context, action = "SYNC")
                     Result.success("🔀 Ders tanımları buluttan güncellendi, onay ve oturumlar korundu.")
@@ -265,6 +289,11 @@ object CloudflareSyncManager {
         occurrence: Occurrence
     ): Result<String> = withContext(Dispatchers.IO) {
         try {
+            val revRes = ensureAuthoritativeRevision(context, "PARENT")
+            if (revRes.isFailure) {
+                return@withContext Result.failure(revRes.exceptionOrNull()!!)
+            }
+
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value
             val adminToken = prefs.familyAdminToken.value
@@ -295,11 +324,14 @@ object CloudflareSyncManager {
                 youtubeUrl = occurrence.youtubeUrl
             )
 
+            val expectedRevision = resolveExpectedRevisionForSync("PARENT", prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = "PARENT",
                 action = "PATCH_TASK",
-                occurrences = listOf(patchDto)
+                occurrences = listOf(patchDto),
+                expectedRevision = expectedRevision
             )
 
             // Ayrıca JSON içine patchTask nesnesi koyarak worker ile çift güvence sağlayalım
@@ -321,14 +353,157 @@ object CloudflareSyncManager {
                 writer.flush()
             }
 
-            if (conn.responseCode in 200..299) {
-                Result.success("Ders bulutta güncellendi: ${occurrence.title}")
-            } else {
-                Result.failure(Exception("HTTP ${conn.responseCode}"))
+            val responseCode = conn.responseCode
+            if (responseCode !in 200..299) {
+                val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
+                return@withContext Result.failure(Exception("HTTP $responseCode: $errorStream"))
             }
+
+            val responseText = conn.inputStream?.let { BufferedReader(InputStreamReader(it, "UTF-8")).readText() }.orEmpty()
+            val parsedRevision = parseRevisionFromSuccessBody(responseText)
+            if (parsedRevision != null && parsedRevision >= 0L) {
+                prefs.lastKnownServerRevision = parsedRevision
+            }
+            Result.success("Ders bulutta güncellendi: ${occurrence.title}")
         } catch (e: Exception) {
             Log.e(TAG, "patchSingleTask failed: ${e.message}", e)
             Result.failure(e)
+        }
+    }
+
+    internal fun shouldApplyRemoteReset(serverResetAt: Long, lastKnownResetAt: Long): Boolean {
+        return serverResetAt > 0L && serverResetAt > lastKnownResetAt.coerceAtLeast(0L)
+    }
+
+    internal fun isAuthoritativeRole(role: String): Boolean {
+        return role.uppercase().trim() in setOf("PARENT", "ADMIN", "CLI", "PARENTING_AI")
+    }
+
+    internal fun isMutatingOrPrivilegedAction(action: String, deleteTaskId: String? = null): Boolean {
+        if (!deleteTaskId.isNullOrBlank()) return true
+        val act = action.uppercase().trim()
+        return act in setOf(
+            "DELETE_TASK",
+            "RESET",
+            "RESET_ALL_PROGRESS",
+            "WIPE",
+            "RESTORE",
+            "UNDO_RESET",
+            "PATCH_TASK",
+            "ADD_MESSAGE"
+        )
+    }
+
+    internal fun resolveEffectiveRoleForSync(
+        appRole: String = com.studytracker.BuildConfig.APP_ROLE,
+        isLocalDbEmpty: Boolean,
+        action: String = "SYNC",
+        deleteTaskId: String? = null
+    ): String {
+        val cleanRole = appRole.uppercase().trim().ifBlank { "CLIENT" }
+        if (isLocalDbEmpty && !isMutatingOrPrivilegedAction(action, deleteTaskId)) {
+            return "CLIENT"
+        }
+        return cleanRole
+    }
+
+    internal suspend fun ensureAuthoritativeRevision(
+        context: Context,
+        role: String = com.studytracker.BuildConfig.APP_ROLE
+    ): Result<Long?> {
+        if (!isAuthoritativeRole(role)) {
+            return Result.success(null)
+        }
+        val prefs = AppPreferences.getInstance(context)
+        val current = prefs.lastKnownServerRevision
+        if (current != null && current >= 0L) {
+            return Result.success(current)
+        }
+        val fetchRes = fetchCloudData(context)
+        if (fetchRes.isFailure) {
+            val err = fetchRes.exceptionOrNull()
+            return Result.failure(
+                err ?: Exception("Revizyon temin edilemedi: Bulut verisi çekme başarısız.")
+            )
+        }
+        val acquired = prefs.lastKnownServerRevision
+        if (acquired == null || acquired < 0L) {
+            return Result.failure(
+                Exception("Revizyon temin edilemedi: Sunucudan geçerli bir revizyon dönmedi.")
+            )
+        }
+        return Result.success(acquired)
+    }
+
+    internal fun resolveExpectedRevisionForSync(
+        senderRole: String,
+        lastKnownRevision: Long?
+    ): Long? {
+        if (!isAuthoritativeRole(senderRole)) return null
+        return if (lastKnownRevision != null && lastKnownRevision >= 0L) lastKnownRevision else null
+    }
+
+    internal fun parseRevisionFromConflictBody(errorBody: String?): Long? {
+        if (errorBody.isNullOrBlank()) return null
+        return try {
+            val parsed = json.decodeFromString<SyncErrorResponse>(errorBody)
+            if (parsed.currentRevision != null && parsed.currentRevision >= 0L) {
+                parsed.currentRevision
+            } else {
+                null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    internal fun parseRevisionFromSuccessBody(responseBody: String?): Long? {
+        if (responseBody.isNullOrBlank()) return null
+        return try {
+            val parsed = json.decodeFromString<CloudSyncResponse>(responseBody)
+            when {
+                parsed.revision != null && parsed.revision >= 0L -> parsed.revision
+                parsed.data?.revision != null && parsed.data.revision >= 0L -> parsed.data.revision
+                else -> null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    internal suspend fun applyCloudDataRespectingResetEpoch(
+        context: Context,
+        cloudData: CloudSyncPayloadWrapper
+    ) {
+        val prefs = AppPreferences.getInstance(context)
+        val serverResetAt = cloudData.resetAt
+        val localResetAt = prefs.lastKnownResetAt
+
+        if (shouldApplyRemoteReset(serverResetAt, localResetAt)) {
+            Log.i(TAG, "Yeni reset epoch algılandı: server=$serverResetAt > local=$localResetAt. Yerel ilerleme temizleniyor.")
+            val resetResult = StudyPackageExchangeManager.resetAllProgress(context)
+            resetResult.getOrThrow()
+        }
+
+        applyCloudDataToLocal(context, cloudData)
+
+        if (serverResetAt > localResetAt) {
+            prefs.lastKnownResetAt = serverResetAt
+        }
+        if (cloudData.revision >= 0L) {
+            prefs.lastKnownServerRevision = cloudData.revision
         }
     }
 
@@ -374,7 +549,19 @@ object CloudflareSyncManager {
             val adminToken = prefs.familyAdminToken.value
 
             val isLocalDbEmpty = (db.planDao().getActivePlanOnce() == null && db.occurrenceDao().getAllOccurrencesOnce().isEmpty())
-            val effectiveRole = if (isLocalDbEmpty) "CLIENT" else com.studytracker.BuildConfig.APP_ROLE
+            val effectiveRole = resolveEffectiveRoleForSync(
+                appRole = com.studytracker.BuildConfig.APP_ROLE,
+                isLocalDbEmpty = isLocalDbEmpty,
+                action = action,
+                deleteTaskId = deleteTaskId
+            )
+
+            if (isAuthoritativeRole(effectiveRole)) {
+                val revRes = ensureAuthoritativeRevision(context, effectiveRole)
+                if (revRes.isFailure) {
+                    return@withContext Result.failure(revRes.exceptionOrNull()!!)
+                }
+            }
 
             val plan = db.planDao().getActivePlanOnce()?.let {
                 LocalPlanSyncDto(
@@ -444,7 +631,8 @@ object CloudflareSyncManager {
                     activeDurationSeconds = it.activeDurationSeconds,
                     reportedQuestionCount = it.reportedQuestionCount,
                     isCompleted = it.status != com.studytracker.core.domain.model.SessionStatus.ACTIVE,
-                    notes = it.studentNote ?: ""
+                    notes = it.studentNote ?: "",
+                    updatedAt = it.updatedAt
                 )
             }
 
@@ -493,6 +681,8 @@ object CloudflareSyncManager {
                 it.toDomain(json)
             }
 
+            val expectedRevision = resolveExpectedRevisionForSync(effectiveRole, prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = effectiveRole,
@@ -504,7 +694,9 @@ object CloudflareSyncManager {
                 sessions = sessions,
                 screenshots = screenshots,
                 reviews = reviews,
-                quizzes = quizzes
+                quizzes = quizzes,
+                clientLastResetAt = prefs.lastKnownResetAt,
+                expectedRevision = expectedRevision
             )
 
             val payloadJson = json.encodeToString(payload)
@@ -531,6 +723,18 @@ object CloudflareSyncManager {
             val responseCode = conn.responseCode
             if (responseCode !in 200..299) {
                 val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
                 return@withContext Result.failure(Exception("Cloudflare Hatası ($responseCode): $errorStream"))
             }
 
@@ -542,7 +746,7 @@ object CloudflareSyncManager {
             }
 
             val cloudData = syncRes.data
-            applyCloudDataToLocal(context, cloudData)
+            applyCloudDataRespectingResetEpoch(context, cloudData)
 
             val occCount = cloudData.occurrences.size
             val taskCount = cloudData.tasks.size
@@ -565,6 +769,11 @@ object CloudflareSyncManager {
      */
     suspend fun restoreFromSnapshot(context: Context): Result<String> = withContext(Dispatchers.IO) {
         try {
+            val revRes = ensureAuthoritativeRevision(context, "PARENT")
+            if (revRes.isFailure) {
+                return@withContext Result.failure(revRes.exceptionOrNull()!!)
+            }
+
             val prefs = AppPreferences.getInstance(context)
             val familyCode = prefs.familyPairCode.value
             val adminToken = prefs.familyAdminToken.value
@@ -580,10 +789,13 @@ object CloudflareSyncManager {
                 if (adminToken.isNotBlank()) setRequestProperty("X-Admin-Token", adminToken)
             }
 
+            val expectedRevision = resolveExpectedRevisionForSync("PARENT", prefs.lastKnownServerRevision)
+
             val payload = SharedFamilySyncPayload(
                 familyCode = familyCode,
                 senderRole = "PARENT",
-                action = "RESTORE"
+                action = "RESTORE",
+                expectedRevision = expectedRevision
             )
             val payloadJson = json.encodeToString(payload)
             OutputStreamWriter(conn.outputStream, "UTF-8").use { writer ->
@@ -594,6 +806,18 @@ object CloudflareSyncManager {
             val responseCode = conn.responseCode
             if (responseCode !in 200..299) {
                 val errorStream = conn.errorStream?.let { BufferedReader(InputStreamReader(it)).readText() } ?: "HTTP $responseCode"
+                if (responseCode == 409) {
+                    val conflictRevision = parseRevisionFromConflictBody(errorStream)
+                    if (conflictRevision != null && conflictRevision >= 0L) {
+                        prefs.lastKnownServerRevision = conflictRevision
+                    }
+                    return@withContext Result.failure(
+                        RevisionConflictException(
+                            message = "Sunucu revizyon çakışması (HTTP 409): $errorStream",
+                            currentRevision = conflictRevision
+                        )
+                    )
+                }
                 return@withContext Result.failure(Exception("Geri alma hatası ($responseCode): $errorStream"))
             }
 
@@ -604,7 +828,7 @@ object CloudflareSyncManager {
             }
 
             val cloudData = syncRes.data
-            applyCloudDataToLocal(context, cloudData)
+            applyCloudDataRespectingResetEpoch(context, cloudData)
             Result.success("Önceki durum yedeği başarıyla geri yüklendi! (${cloudData.occurrences.size} ders)")
         } catch (e: Exception) {
             Log.e(TAG, "restoreFromSnapshot failed: ${e.message}", e)
@@ -653,6 +877,14 @@ object CloudflareSyncManager {
             prefs.setFamilyPairCode(response.familyCode)
             if (com.studytracker.BuildConfig.APP_ROLE == "PARENT" && !response.adminToken.isNullOrBlank()) {
                 prefs.setFamilyAdminToken(response.adminToken)
+            }
+            if (response.revision != null && response.revision >= 0L) {
+                prefs.lastKnownServerRevision = response.revision
+            } else {
+                val fetchRes = fetchCloudData(context)
+                if (fetchRes.isFailure) {
+                    Log.w(TAG, "Post-pairing initial revision fetch failed: ${fetchRes.exceptionOrNull()?.message}")
+                }
             }
             Result.success(response.familyCode)
         } catch (e: Exception) {
