@@ -180,7 +180,8 @@ async function main() {
             sessions: data.sessions || [],
             screenshots: data.screenshots || [],
             reviews: data.reviews || [],
-            quizzes: data.quizzes || []
+            quizzes: data.quizzes || [],
+            expectedRevision: data.revision
           };
 
           await pushFamilyData(payload, familyCode, 'PARENT');
