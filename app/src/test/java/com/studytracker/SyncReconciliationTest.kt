@@ -909,8 +909,9 @@ class SyncReconciliationTest {
         assertEquals(5L, pairRespWithRev.revision)
 
         prefs.setFamilyPairCode(pairRespWithRev.familyCode)
-        if (pairRespWithRev.revision != null && pairRespWithRev.revision >= 0L) {
-            prefs.lastKnownServerRevision = pairRespWithRev.revision
+        val respRevision = pairRespWithRev.revision
+        if (respRevision != null && respRevision >= 0L) {
+            prefs.lastKnownServerRevision = respRevision
         }
         assertEquals(5L, prefs.lastKnownServerRevision)
 
