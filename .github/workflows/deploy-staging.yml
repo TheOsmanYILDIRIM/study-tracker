@@ -1,4 +1,4 @@
-name: Deploy StudyTracker V2 Staging Worker & D1
+name: Deploy StudyTracker V2 Staging Worker & KV
 
 on:
   workflow_dispatch:
@@ -29,14 +29,14 @@ jobs:
           node cli/test-v2.js
           node cli/test-revision.js
 
-      - name: Staging Cloudflare Token & D1 Safe Diagnostic
+      - name: Staging Cloudflare Token & KV Safe Diagnostic
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           node worker/staging-diagnostic.js
 
-      - name: Deploy Staging Worker & D1 if credentials configured
+      - name: Deploy Staging Worker & KV if credentials configured
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
