@@ -5,13 +5,8 @@ compatibility_date = "2026-09-18"
 [vars]
 ENVIRONMENT = "staging"
 STAGING = "true"
-DB_NAME = "studytracker-v2-staging"
+STORAGE_BACKEND = "kv"
 
-# Dedicated Staging D1 Database Binding
-# To create D1: npx wrangler d1 create studytracker-v2-staging
-# To apply schema: npx wrangler d1 execute studytracker-v2-staging --file=migrations/0001_v2_schema.sql
-[[d1_databases]]
-binding = "DB"
-database_name = "studytracker-v2-staging"
-database_id = "studytracker-v2-staging-d1"
-migrations_dir = "migrations"
+# Canonical V2 backend is Cloudflare KV.
+# The deployment script resolves/creates the dedicated STUDY_SYNC_KV_STAGING
+# namespace and binds it to STUDY_SYNC_KV at deploy time.
