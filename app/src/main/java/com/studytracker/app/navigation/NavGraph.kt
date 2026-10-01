@@ -6,10 +6,6 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import androidx.compose.runtime.remember
-import androidx.compose.ui.platform.LocalContext
-import com.studytracker.BuildConfig
-import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.feature.child.ChildHomeScreen
 import com.studytracker.feature.child.ChildQuizScreen
 import com.studytracker.feature.child.ChildTutorialScreen
@@ -27,16 +23,10 @@ import com.studytracker.feature.v2.V2LearningFlowScreen
 fun AppNavGraph(
     navController: NavHostController
 ) {
-    val context = LocalContext.current
-    val prefs = remember { AppPreferences.getInstance(context) }
-
-    val startDestination = remember {
-        when (BuildConfig.APP_ROLE) {
-            "CHILD" -> if (prefs.hasCompletedTutorial.value) Screen.ChildHome.route else Screen.ChildTutorial.route
-            "PARENT" -> Screen.RoleSelection.route
-            else -> Screen.RoleSelection.route
-        }
-    }
+    // V2 measurement curriculum is the canonical product surface.
+    // Legacy child/parent routes remain reachable for migration compatibility,
+    // but they no longer define the default app experience.
+    val startDestination = Screen.V2Courses.route
 
     NavHost(
         navController = navController,
