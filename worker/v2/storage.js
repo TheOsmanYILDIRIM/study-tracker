@@ -61,7 +61,7 @@ function createKVStorage(env, inMemoryStore) {
   const quizAnswersKey = attemptId => `v2:measurement:quiz-answers:${attemptId}`;
 
   return {
-    type: kv ? 'kv' : 'memory',
+    type: 'kv',
 
     async getCourses(familyCode, includeArchived = false) {
       return (await readList(courseKey(familyCode)))
