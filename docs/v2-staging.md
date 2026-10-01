@@ -1,5 +1,9 @@
 # StudyTracker V2 Staging Environment & D1 Rollout Guide
 
+> **CANONICAL V2 OVERRIDE — 2026-10-02**
+> StudyTracker V2 is a measurement/learning-optimization product, not a parental-control/evidence-capture product. Cloudflare KV is the active backend; earlier D1 rollout text in this historical document is superseded. VIDEO completion is self-reported; learning evidence comes from QUIZ, delayed recall and ANKI metrics. V1 screenshot/overlay/accessibility/parent-approval semantics must not gate V2 progress.
+
+
 ## 1. Overview & Isolation Guarantee
 
 StudyTracker V2 Phase 5 establishes an isolated, production-grade staging environment on Cloudflare Workers and Cloudflare D1. The staging infrastructure is completely decoupled from the V1 production Cloudflare KV and legacy sync pipeline.
