@@ -59,15 +59,15 @@ jobs:
           SIGNING_KEY_ALIAS: ${{ secrets.STUDYTRACKER_KEY_ALIAS }}
           SIGNING_KEY_PASSWORD: ${{ secrets.STUDYTRACKER_KEY_PASSWORD }}
         run: |
-          if [ -n "$STUDYTRACKER_KEYSTORE_B64" ]; then
-            echo "$STUDYTRACKER_KEYSTORE_B64" | base64 --decode > "$GITHUB_WORKSPACE/app/release.keystore"
-            echo "STUDYTRACKER_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/release.keystore" >> "$GITHUB_ENV"
-            echo "STUDYTRACKER_KEYSTORE_PASSWORD=$SIGNING_STORE_PASSWORD" >> "$GITHUB_ENV"
-            echo "STUDYTRACKER_KEY_ALIAS=$SIGNING_KEY_ALIAS" >> "$GITHUB_ENV"
-            echo "STUDYTRACKER_KEY_PASSWORD=$SIGNING_KEY_PASSWORD" >> "$GITHUB_ENV"
-          else
-            echo "::warning::Release signing secrets are not configured; APKs will be unsigned."
+          if [ -z "$STUDYTRACKER_KEYSTORE_B64" ] || [ -z "$SIGNING_STORE_PASSWORD" ] || [ -z "$SIGNING_KEY_ALIAS" ] || [ -z "$SIGNING_KEY_PASSWORD" ]; then
+            echo "::error::Release signing is mandatory. One or more StudyTracker signing secrets are missing."
+            exit 1
           fi
+          echo "$STUDYTRACKER_KEYSTORE_B64" | base64 --decode > "$GITHUB_WORKSPACE/app/release.keystore"
+          echo "STUDYTRACKER_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/release.keystore" >> "$GITHUB_ENV"
+          echo "STUDYTRACKER_KEYSTORE_PASSWORD=$SIGNING_STORE_PASSWORD" >> "$GITHUB_ENV"
+          echo "STUDYTRACKER_KEY_ALIAS=$SIGNING_KEY_ALIAS" >> "$GITHUB_ENV"
+          echo "STUDYTRACKER_KEY_PASSWORD=$SIGNING_KEY_PASSWORD" >> "$GITHUB_ENV"
 
       - name: Build Release APKs
         run: ./gradlew assembleRelease --stacktrace --info
