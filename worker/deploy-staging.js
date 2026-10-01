@@ -175,6 +175,20 @@ export async function deployStaging() {
   formData.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }), 'metadata.json');
   formData.append('worker.js', new Blob([scriptContent], { type: 'application/javascript+module' }), 'worker.js');
 
+  // Add V2 ES modules (routes.js, storage.js, curriculum.js)
+  const v2Dir = path.join(workerDir, 'v2');
+  if (fs.existsSync(v2Dir)) {
+    const v2Files = fs.readdirSync(v2Dir);
+    for (const file of v2Files) {
+      if (file.endsWith('.js')) {
+        const filePath = path.join(v2Dir, file);
+        const content = fs.readFileSync(filePath, 'utf8');
+        const moduleName = `v2/${file}`;
+        formData.append(moduleName, new Blob([content], { type: 'application/javascript+module' }), moduleName);
+      }
+    }
+  }
+
   const uploadRes = await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/workers/scripts/${SCRIPT_NAME}`, {
     method: 'PUT',
     headers: {
