@@ -1,5 +1,17 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Cloudflare Token & D1 Güvenli CI Teşhisi ve Yetki Kanıtı
+- **Güvenli CI Teşhis Modülü Entegrasyonu (`worker/staging-diagnostic.js` & `deploy-staging.yml`):**
+  - Sırları (token / auth header) sızdırmadan çalışan güvenli teşhis mekanizması CI iş akışına bağlandı.
+  - Push sonrası tetiklenen GitHub Actions Staging koşusunda (`deploy-staging.yml` #36904443036, commit `b8cd40e`) kesin kanıtlar elde edildi.
+- **Teşhis Kanıt Çıktıları (Exact Evidence):**
+  1. `GET /user/tokens/verify` -> HTTP `200`, `success: true`, `status: "active"`, mesaj: `"This API Token is valid and active"`.
+  2. `GET /accounts/:id/workers/subdomain` -> HTTP `200`, `success: true`, subdomain: `"osman13241429"`. (Account ID ile Token eşleşmesi ve Workers kapsamı %100 doğrulandı).
+  3. `GET /accounts/:id/d1/database` -> HTTP `401`, `success: false`, `errors: [{"code": 10000, "message": "Authentication error"}]`.
+- **Kök Neden & Sonuç:**
+  - Hatanın kod veya API parametresi biçimiyle (shape) ilgili olmadığı, tamamen Cloudflare API Token yetki politikası (`Account -> D1 -> Edit` izninin token'a tanımlanmamış olması) kaynaklı olduğu kesinleşti.
+  - Spekülatif kod yaması yapılmadan teşhis mühürlendi; Cloudflare Dashboard üzerinden API Token'a `Account -> D1 -> Edit` yetkisi verilmesi gerekmektedir.
+
 ### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Cloudflare D1 Dağıtım Teşhisi & Güçlendirmesi
 - **Cloudflare Authentication (Code 10000) Kök Neden Analizi:**
   - GitHub Actions staging koşusu (`deploy-staging.yml` #36897547975) incelendi.

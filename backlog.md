@@ -243,7 +243,7 @@
 - [x] **Staging Deploy Script Güçlendirmesi:** `worker/deploy-staging.js` içine D1 yetki hatası yakalama, açık hata teşhisi ve yönlendirici çözüm mesajları entegre edildi.
 - [x] **Test & Dokümantasyon:** Tüm yerel testler %100 doğrulandı, teşhis planı ve walkthrough dokümanı hazırlandı.
 
-## 56. StudyTracker V2 Staging Cloudflare Token & D1 Güvenli Teşhis Workflow [WIP / Yapılıyor: CI Güvenli Teşhis & Raporlama]
-- [ ] **Güvenli Teşhis Modülü (`worker/staging-diagnostic.js`):** Token verify (`/user/tokens/verify`) ve D1 listeleme (`/d1/database`) uç noktalarını çağıran, sırları sızdırmadan sadece HTTP durum, boolean ve hata kodlarını basan güvenli teşhis eklendi.
-- [ ] **CI Entegrasyonu (`deploy-staging.yml`):** Dağıtım adımı öncesinde güvenli teşhis adımı bağlandı.
-- [ ] **Uzak CI Çalıştırma ve Teşhis Analizi:** `gh workflow run` ile staging CI tetikleme, log çıktılarını inceleme ve kanıt raporlama.
+## 56. StudyTracker V2 Staging Cloudflare Token & D1 Güvenli Teşhis Workflow (TAMAMLANDI)
+- [x] **Güvenli Teşhis Modülü (`worker/staging-diagnostic.js`):** Token verify (`/user/tokens/verify`) ve D1 listeleme (`/d1/database`) uç noktalarını çağıran, sırları sızdırmadan sadece HTTP durum, boolean ve hata kodlarını basan güvenli teşhis eklendi.
+- [x] **CI Entegrasyonu (`deploy-staging.yml`):** Dağıtım adımı öncesinde güvenli teşhis adımı bağlandı.
+- [x] **Uzak CI Çalıştırma ve Teşhis Analizi:** `gh run view 36904443036` ile staging CI çalıştırılıp log çıktıları incelendi; token'ın geçerli (HTTP 200, active) olduğu, Account ID'nin eşleştiği (`osman13241429`), fakat D1 listelemenin HTTP 401 `code: 10000 Authentication error` verdiği kanıtlandı (Cloudflare Dashboard API Token `Account -> D1 -> Edit` izin politikası eksikliği).
