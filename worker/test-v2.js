@@ -1,7 +1,7 @@
 /**
  * StudyTracker V2 Worker Integration & Domain Tests
- * Tests KV fallback, D1 SQL schema structure, versioning, puzzle reordering,
- * prerequisites, append-only idempotent attempts, analytics, and 9th grade sample fixtures.
+ * Tests canonical KV storage, versioning, puzzle reordering, prerequisites,
+ * append-only idempotent measurements, analytics, and 9th grade sample fixtures.
  */
 
 import fs from 'fs';
@@ -37,20 +37,15 @@ function assert(condition, message) {
 async function runV2Tests() {
   console.log('🧪 === StudyTracker V2 Measurement & Curriculum Test Suite ===\n');
 
-  // Test 0: Schema File Verification (Structural check)
-  console.log('0️⃣ Verifying worker/schema-v2.sql structure...');
-  const schemaPath = path.resolve('worker/schema-v2.sql');
-  assert(fs.existsSync(schemaPath), 'schema-v2.sql must exist');
-  const schemaContent = fs.readFileSync(schemaPath, 'utf8');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS courses'), 'schema must contain courses table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS lessons'), 'schema must contain lessons table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS learning_items'), 'schema must contain learning_items table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS learning_item_versions'), 'schema must contain learning_item_versions table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS item_prerequisites'), 'schema must contain item_prerequisites table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS attempts'), 'schema must contain attempts table');
-  assert(schemaContent.includes('CREATE TABLE IF NOT EXISTS quiz_answers'), 'schema must contain quiz_answers table');
-  assert(schemaContent.includes('idx_attempts_idempotency'), 'schema must contain attempts idempotency index');
-  console.log('   ✅ schema-v2.sql structural check passed.\n');
+  // Test 0: Canonical KV storage contract
+  console.log('0️⃣ Verifying canonical KV storage contract...');
+  const storagePath = path.resolve('worker/v2/storage.js');
+  assert(fs.existsSync(storagePath), 'worker/v2/storage.js must exist');
+  const storageContent = fs.readFileSync(storagePath, 'utf8');
+  assert(storageContent.includes("type: 'kv'"), 'V2 storage must report KV as canonical backend');
+  assert(!storageContent.includes('createD1Storage'), 'V2 runtime must not contain a D1 storage fallback');
+  assert(storageContent.includes('measurement:attempt:'), 'attempts must use dedicated append-only measurement keys');
+  console.log('   ✅ canonical KV storage contract verified.\n');
 
   // Setup Test Family
   const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-V2TX-2026-TEST-9901' });
