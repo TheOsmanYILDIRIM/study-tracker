@@ -375,7 +375,13 @@ interface AttemptDao {
     suspend fun insertAttempt(attempt: AttemptEntity): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertAttempt(attempt: AttemptEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertAttempts(attempts: List<AttemptEntity>)
+
+    @Query("SELECT * FROM attempts WHERE familyCode = :familyCode AND studentId = :studentId ORDER BY createdAt DESC")
+    suspend fun getAttemptsForStudentOnce(familyCode: String, studentId: String): List<AttemptEntity>
 
     @Query("DELETE FROM attempts")
     suspend fun clearAttempts()
