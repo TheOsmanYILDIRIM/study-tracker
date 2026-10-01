@@ -37,19 +37,31 @@ export async function deployStaging() {
     };
   }
 
-  // 1. Get workers.dev subdomain
-  console.log('1️⃣ Workers.dev alt alan adı alınıyor...');
+  // 1. Get workers.dev subdomain & verify token
+  console.log('1️⃣ Workers.dev alt alan adı alınıyor ve Cloudflare API yetkisi kontrol ediliyor...');
   const subRes = await cfRequest('/workers/subdomain');
   let subdomain = subRes.result?.subdomain;
   if (!subdomain) {
-    console.log('   Mevcut subdomain bulunamadı, yanıt:', subRes);
+    console.error('❌ Mevcut subdomain alınamadı, Cloudflare API yanıtı:', JSON.stringify(subRes.errors || subRes, null, 2));
     throw new Error('Cloudflare workers.dev subdomain alınamadı: ' + JSON.stringify(subRes.errors || subRes));
   }
   console.log(`   ✅ Alt alan adı bulundu: ${subdomain}`);
 
-  // 2. Create or Get Staging D1 Database
+  // 2. Create or Get Staging D1 Database with explicit scope diagnostics
   console.log(`\n2️⃣ Staging D1 Veritabanı (${D1_DATABASE_NAME}) kontrol ediliyor...`);
   let d1List = await cfRequest('/d1/database');
+  if (!d1List.success) {
+    const isAuthError = d1List.errors?.some(e => e.code === 10000);
+    if (isAuthError) {
+      console.error('❌ [YETKİ EKSİKLİĞİ] Cloudflare D1 Authentication Error (Code 10000):');
+      console.error('   Kullanılan API Token "Account -> D1 -> Edit" iznine sahip değil.');
+      console.error('   Çözüm: Cloudflare Dashboard > My Profile > API Tokens > Edit Token bölümünden "Account -> D1 -> Edit" iznini ekleyin.');
+    } else {
+      console.error('❌ D1 veritabanı listelenemedi:', JSON.stringify(d1List.errors, null, 2));
+    }
+    throw new Error('Staging D1 listeleme hatası: ' + JSON.stringify(d1List.errors));
+  }
+
   let d1Db = d1List.result?.find(db => db.name === D1_DATABASE_NAME);
   let d1Id = d1Db?.uuid;
 
@@ -63,7 +75,14 @@ export async function deployStaging() {
       d1Id = createD1.result.uuid;
       console.log(`   ✅ Staging D1 Veritabanı Oluşturuldu! UUID: ${d1Id}`);
     } else {
-      console.error('   ❌ D1 veritabanı oluşturulamadı:', createD1.errors);
+      const isAuthError = createD1.errors?.some(e => e.code === 10000);
+      if (isAuthError) {
+        console.error('❌ [YETKİ EKSİKLİĞİ] Cloudflare D1 Authentication Error (Code 10000):');
+        console.error('   Mevcut API Token "Account -> D1 -> Edit" iznine sahip değil.');
+        console.error('   Çözüm: Cloudflare Dashboard > My Profile > API Tokens > Edit Token bölümünden "Account -> D1 -> Edit" iznini ekleyin.');
+      } else {
+        console.error('❌ D1 veritabanı oluşturulamadı:', createD1.errors);
+      }
       throw new Error('Staging D1 oluşturma hatası: ' + JSON.stringify(createD1.errors));
     }
   } else {

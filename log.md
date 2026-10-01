@@ -1,5 +1,16 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Cloudflare D1 Dağıtım Teşhisi & Güçlendirmesi
+- **Cloudflare Authentication (Code 10000) Kök Neden Analizi:**
+  - GitHub Actions staging koşusu (`deploy-staging.yml` #36897547975) incelendi.
+  - Step 1 (`/workers/subdomain`) 200 OK ile `osman13241429` alt alan adını başarıyla döndürdüğü; `CLOUDFLARE_ACCOUNT_ID` ve `Authorization: Bearer` başlığının hatasız olduğu kanıtlandı.
+  - Step 2'de `GET/POST /d1/database` çağrısının `code: 10000 Authentication error` dönmesinin sebebinin, API Token'da D1 izin kapsamının (`Account -> D1 -> Edit`) eksik olması olduğu tespit edildi.
+- **Staging Deploy Script Güçlendirmesi (`worker/deploy-staging.js`):**
+  - D1 sorgu ve oluşturma bloklarına `code === 10000` yakalama ve doğrudan yönlendirici teşhis mesajları entegre edildi.
+  - Olası sessiz fallback ve API hata yutma boşlukları kapatıldı.
+- **Doğrulama & Test:**
+  - `worker/test-v2.js`, `worker/test-v2-staging.js`, `cli/test-v2.js`, `cli/test-revision.js` test paketleri %100 yeşil olarak doğrulandı.
+
 ### [2026-09-30] Tamamlandı: StudyTracker V2 Faz 4 - Operasyonel İçerik İnceleme, Quiz Yazarlığı, Yayınlama & Staging Hazırlığı
 - **İçerik İnceleme İş Akışı (Review Workflow):**
   - `studytracker-cli v2 review list|show|approve|reject|replace-content` komutları eklendi.

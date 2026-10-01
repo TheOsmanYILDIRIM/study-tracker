@@ -238,9 +238,12 @@
 - [x] **Android Staging Konfigürasyonu:** `app/build.gradle.kts` içinde `V2_BASE_URL` ve `V2_STAGING_URL` BuildConfig alanları, `debug` buildType staging varsayılanı, `V2CloudClient.kt` runtime URL değiştirme desteği (yerel Gradle çalıştırmadan).
 - [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri (`worker/test-v2-staging.js`), `docs/v2-staging.md` ve `docs/v2-architecture.md` güncellemeleri.
 
+## 55. StudyTracker V2 Staging Cloudflare D1 Dağıtım Teşhisi & Güçlendirmesi (TAMAMLANDI)
+- [x] **Cloudflare Kimlik Doğrulama & Yetki Teşhisi:** Cloudflare API Token kapsamı (`Account -> D1 -> Edit`) ve `code 10000` hatası analiz edildi; Account ID, header formatı ve endpoint şekli doğrulandı.
+- [x] **Staging Deploy Script Güçlendirmesi:** `worker/deploy-staging.js` içine D1 yetki hatası yakalama, açık hata teşhisi ve yönlendirici çözüm mesajları entegre edildi.
+- [x] **Test & Dokümantasyon:** Tüm yerel testler %100 doğrulandı, teşhis planı ve walkthrough dokümanı hazırlandı.
 
-
-
-
-
-
+## 56. StudyTracker V2 Staging Cloudflare Token & D1 Güvenli Teşhis Workflow [WIP / Yapılıyor: CI Güvenli Teşhis & Raporlama]
+- [ ] **Güvenli Teşhis Modülü (`worker/staging-diagnostic.js`):** Token verify (`/user/tokens/verify`) ve D1 listeleme (`/d1/database`) uç noktalarını çağıran, sırları sızdırmadan sadece HTTP durum, boolean ve hata kodlarını basan güvenli teşhis eklendi.
+- [ ] **CI Entegrasyonu (`deploy-staging.yml`):** Dağıtım adımı öncesinde güvenli teşhis adımı bağlandı.
+- [ ] **Uzak CI Çalıştırma ve Teşhis Analizi:** `gh workflow run` ile staging CI tetikleme, log çıktılarını inceleme ve kanıt raporlama.
