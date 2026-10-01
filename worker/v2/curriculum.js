@@ -473,6 +473,17 @@ export class CurriculumEngine {
     const now = Date.now();
     const attemptId = `att_${now}_${Math.random().toString(36).slice(2, 6)}`;
 
+    const normalizedStatus = ['STARTED', 'COMPLETED', 'ABANDONED'].includes((status || '').toUpperCase())
+      ? status.toUpperCase()
+      : 'COMPLETED';
+    const normalizedMetadata = {
+      ...(metadata || {}),
+      measurementKind: metadata?.measurementKind || item.itemType,
+      selfCompleted: item.itemType === 'VIDEO'
+        ? (metadata?.selfCompleted ?? normalizedStatus === 'COMPLETED')
+        : metadata?.selfCompleted
+    };
+
     const attempt = {
       id: attemptId,
       clientAttemptId,
@@ -480,12 +491,12 @@ export class CurriculumEngine {
       studentId,
       itemId,
       versionId: effectiveVersionId,
-      status: ['STARTED', 'COMPLETED', 'ABANDONED'].includes((status || '').toUpperCase()) ? status.toUpperCase() : 'COMPLETED',
+      status: normalizedStatus,
       score: score !== null && score !== undefined ? Number(score) : null,
       durationSeconds: Number(durationSeconds) || 0,
       startedAt: startedAt ? Number(startedAt) : now,
-      completedAt: completedAt ? Number(completedAt) : (status === 'COMPLETED' ? now : null),
-      metadata: metadata || {},
+      completedAt: completedAt ? Number(completedAt) : (normalizedStatus === 'COMPLETED' ? now : null),
+      metadata: normalizedMetadata,
       createdAt: now
     };
 
@@ -527,10 +538,9 @@ export class CurriculumEngine {
   async getProgressAnalytics(familyCode, studentId = 'student_default', courseId = null) {
     const courses = await this.storage.getCourses(familyCode, false);
     const targetCourses = courseId ? courses.filter(c => c.id === courseId) : courses;
-    const allAttempts = await this.storage.getAttempts(familyCode, { studentId });
+    const allAttempts = await this.storage.getAttempts(familyCode, { studentId, limit: 5000 });
     const allPrereqs = await this.storage.getPrerequisites(familyCode);
 
-    // Build item attempt map
     const attemptsByItem = {};
     allAttempts.forEach(att => {
       if (!attemptsByItem[att.itemId]) attemptsByItem[att.itemId] = [];
@@ -541,8 +551,9 @@ export class CurriculumEngine {
       const lessons = await this.storage.getLessons(familyCode, course.id, false);
       let courseTotalItems = 0;
       let courseCompletedItems = 0;
-      let courseTotalScoreSum = 0;
-      let courseScoreCount = 0;
+      const courseLearningScores = [];
+      let courseDelayedRecallAttempts = 0;
+      let courseAnkiReviews = 0;
 
       const lessonsAnalytics = await Promise.all(lessons.map(async lesson => {
         const items = await this.storage.getItems(familyCode, lesson.id, false);
@@ -554,29 +565,50 @@ export class CurriculumEngine {
           const isCompleted = completedAttempts.length > 0;
           if (isCompleted) lessonCompletedCount++;
 
-          const bestScore = completedAttempts.reduce((max, a) => (a.score !== null ? Math.max(max, a.score) : max), null);
+          const scoredAttempts = completedAttempts.filter(a => a.score !== null && a.score !== undefined);
+          const bestScore = scoredAttempts.length
+            ? Math.max(...scoredAttempts.map(a => Number(a.score)))
+            : null;
           const latestAttempt = itemAttempts[0] || null;
 
-          // Check prerequisites
+          const delayedRecallAttempts = completedAttempts.filter(a =>
+            a.metadata?.measurementKind === 'DELAYED_RECALL' ||
+            Number(a.metadata?.recallDelayHours || 0) > 0
+          ).length;
+
+          const anki = completedAttempts.reduce((acc, a) => {
+            const m = a.metadata || {};
+            acc.reviewedCount += Number(m.reviewedCount || 0);
+            acc.again += Number(m.again || 0);
+            acc.hard += Number(m.hard || 0);
+            acc.good += Number(m.good || 0);
+            acc.easy += Number(m.easy || 0);
+            return acc;
+          }, { reviewedCount: 0, again: 0, hard: 0, good: 0, easy: 0 });
+
+          const selfCompleted = item.itemType === 'VIDEO' &&
+            completedAttempts.some(a => a.metadata?.selfCompleted !== false);
+
+          if (item.itemType === 'QUIZ') {
+            scoredAttempts.forEach(a => courseLearningScores.push(Number(a.score)));
+            courseDelayedRecallAttempts += delayedRecallAttempts;
+          }
+          if (item.itemType === 'ANKI') courseAnkiReviews += anki.reviewedCount;
+
           const itemPrereqs = allPrereqs.filter(p => p.itemId === item.id);
           const prereqsStatus = itemPrereqs.map(p => {
             const reqAttempts = (attemptsByItem[p.requiredItemId] || []).filter(a => a.status === 'COMPLETED');
-            const reqCompleted = reqAttempts.length > 0;
-            const reqBestScore = reqAttempts.reduce((max, a) => (a.score !== null ? Math.max(max, a.score) : max), null);
+            const reqScores = reqAttempts
+              .filter(a => a.score !== null && a.score !== undefined)
+              .map(a => Number(a.score));
+            const reqBestScore = reqScores.length ? Math.max(...reqScores) : null;
             const scoreSatisfied = p.minScore === null || (reqBestScore !== null && reqBestScore >= p.minScore);
             return {
               requiredItemId: p.requiredItemId,
               minScore: p.minScore,
-              satisfied: reqCompleted && scoreSatisfied
+              satisfied: reqAttempts.length > 0 && scoreSatisfied
             };
           });
-
-          const isUnlocked = prereqsStatus.every(p => p.satisfied);
-
-          if (bestScore !== null) {
-            courseTotalScoreSum += bestScore;
-            courseScoreCount++;
-          }
 
           return {
             id: item.id,
@@ -586,9 +618,13 @@ export class CurriculumEngine {
             rawItemType: item.itemType,
             orderKey: item.orderKey,
             isCompleted,
-            isUnlocked,
+            selfCompleted,
+            isUnlocked: prereqsStatus.every(p => p.satisfied),
             attemptCount: itemAttempts.length,
+            completedAttemptCount: completedAttempts.length,
             bestScore,
+            delayedRecallAttempts,
+            anki,
             latestAttemptAt: latestAttempt ? latestAttempt.createdAt : null,
             prerequisites: prereqsStatus
           };
@@ -608,8 +644,9 @@ export class CurriculumEngine {
         };
       }));
 
-      const coursePercentage = courseTotalItems > 0 ? Math.round((courseCompletedItems / courseTotalItems) * 100) : 0;
-      const averageMasteryScore = courseScoreCount > 0 ? Math.round((courseTotalScoreSum / courseScoreCount) * 10) / 10 : null;
+      const averageLearningScore = courseLearningScores.length
+        ? Math.round((courseLearningScores.reduce((a, b) => a + b, 0) / courseLearningScores.length) * 10) / 10
+        : null;
 
       return {
         id: course.id,
@@ -618,8 +655,13 @@ export class CurriculumEngine {
         gradeLevel: course.gradeLevel,
         totalItems: courseTotalItems,
         completedItems: courseCompletedItems,
-        completionPercentage: coursePercentage,
-        averageMasteryScore,
+        completionPercentage: courseTotalItems > 0 ? Math.round((courseCompletedItems / courseTotalItems) * 100) : 0,
+        measurement: {
+          averageLearningScore,
+          scoredQuizAttempts: courseLearningScores.length,
+          delayedRecallAttempts: courseDelayedRecallAttempts,
+          ankiReviews: courseAnkiReviews
+        },
         lessons: lessonsAnalytics
       };
     }));
@@ -628,6 +670,7 @@ export class CurriculumEngine {
       familyCode,
       studentId,
       generatedAt: Date.now(),
+      model: 'measurement-not-control',
       courses: coursesAnalytics
     };
   }
@@ -641,7 +684,7 @@ export class CurriculumEngine {
       studentId,
       familyCode,
       curriculumTopology: analytics.courses,
-      coexistenceNote: 'V2 measurement/curriculum is fully backward-compatible with V1 task/session plans.'
+      coexistenceNote: 'V2 is measurement-first: VIDEO completion is self-reported; learning evidence comes from QUIZ, delayed recall and ANKI metrics. V1 control/review semantics are not canonical V2 progress.'
     };
   }
 }
