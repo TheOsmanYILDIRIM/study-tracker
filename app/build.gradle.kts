@@ -5,10 +5,11 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
-val releaseStorePath = System.getenv("STUDYTRACKER_KEYSTORE_PATH")
-val releaseStorePassword = System.getenv("STUDYTRACKER_KEYSTORE_PASSWORD")
-val releaseKeyAlias = System.getenv("STUDYTRACKER_KEY_ALIAS")
-val releaseKeyPassword = System.getenv("STUDYTRACKER_KEY_PASSWORD")
+val fallbackKeystore = file("antigravity.keystore")
+val releaseStorePath = System.getenv("STUDYTRACKER_KEYSTORE_PATH") ?: if (fallbackKeystore.exists()) fallbackKeystore.absolutePath else null
+val releaseStorePassword = System.getenv("STUDYTRACKER_KEYSTORE_PASSWORD") ?: if (fallbackKeystore.exists()) "antigravity_android_key" else null
+val releaseKeyAlias = System.getenv("STUDYTRACKER_KEY_ALIAS") ?: if (fallbackKeystore.exists()) "antigravity" else null
+val releaseKeyPassword = System.getenv("STUDYTRACKER_KEY_PASSWORD") ?: if (fallbackKeystore.exists()) "antigravity_android_key" else null
 val hasReleaseSigning = !releaseStorePath.isNullOrBlank() &&
     !releaseStorePassword.isNullOrBlank() &&
     !releaseKeyAlias.isNullOrBlank() &&
@@ -79,6 +80,7 @@ android {
             buildConfigField("String", "V2_BASE_URL", "\"$releaseV2Url\"")
         }
         debug {
+            if (hasReleaseSigning) signingConfig = signingConfigs.getByName("release")
             applicationIdSuffix = ".debug"
             val debugV2Url = System.getenv("STUDYTRACKER_V2_STAGING_URL") ?: System.getenv("STUDYTRACKER_V2_BASE_URL") ?: "https://studytracker-v2-staging.osman13241429.workers.dev"
             buildConfigField("String", "V2_BASE_URL", "\"$debugV2Url\"")

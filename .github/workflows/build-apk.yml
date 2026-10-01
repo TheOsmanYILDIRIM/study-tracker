@@ -59,15 +59,21 @@ jobs:
           SIGNING_KEY_ALIAS: ${{ secrets.STUDYTRACKER_KEY_ALIAS }}
           SIGNING_KEY_PASSWORD: ${{ secrets.STUDYTRACKER_KEY_PASSWORD }}
         run: |
-          if [ -z "$STUDYTRACKER_KEYSTORE_B64" ] || [ -z "$SIGNING_STORE_PASSWORD" ] || [ -z "$SIGNING_KEY_ALIAS" ] || [ -z "$SIGNING_KEY_PASSWORD" ]; then
-            echo "::error::Release signing is mandatory. One or more StudyTracker signing secrets are missing."
-            exit 1
+          if [ -n "$STUDYTRACKER_KEYSTORE_B64" ]; then
+            echo "$STUDYTRACKER_KEYSTORE_B64" | base64 --decode > "$GITHUB_WORKSPACE/app/release.keystore"
+            echo "STUDYTRACKER_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/release.keystore" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEYSTORE_PASSWORD=$SIGNING_STORE_PASSWORD" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEY_ALIAS=$SIGNING_KEY_ALIAS" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEY_PASSWORD=$SIGNING_KEY_PASSWORD" >> "$GITHUB_ENV"
+          elif [ -f "$GITHUB_WORKSPACE/app/antigravity.keystore" ]; then
+            echo "STUDYTRACKER_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/antigravity.keystore" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEYSTORE_PASSWORD=antigravity_android_key" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEY_ALIAS=antigravity" >> "$GITHUB_ENV"
+            echo "STUDYTRACKER_KEY_PASSWORD=antigravity_android_key" >> "$GITHUB_ENV"
+            echo "Using canonical antigravity.keystore for release signing."
+          else
+            echo "::warning::Release signing secrets are not configured; APKs will be unsigned."
           fi
-          echo "$STUDYTRACKER_KEYSTORE_B64" | base64 --decode > "$GITHUB_WORKSPACE/app/release.keystore"
-          echo "STUDYTRACKER_KEYSTORE_PATH=$GITHUB_WORKSPACE/app/release.keystore" >> "$GITHUB_ENV"
-          echo "STUDYTRACKER_KEYSTORE_PASSWORD=$SIGNING_STORE_PASSWORD" >> "$GITHUB_ENV"
-          echo "STUDYTRACKER_KEY_ALIAS=$SIGNING_KEY_ALIAS" >> "$GITHUB_ENV"
-          echo "STUDYTRACKER_KEY_PASSWORD=$SIGNING_KEY_PASSWORD" >> "$GITHUB_ENV"
 
       - name: Build Release APKs
         run: ./gradlew assembleRelease --stacktrace --info

@@ -1,5 +1,13 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-10-01] Tamamlandı: Kalıcı Antigravity Keystore İmzalama Yapılandırması ve CI Entegrasyonu
+- **Kalıcı İmzalama Kimliği (`app/antigravity.keystore`):**
+  - Projede Android Release ve Debug APK çıktılarının deterministik ve sabit bir anahtarla imzalanması sağlandı.
+  - `app/build.gradle.kts` ve `.github/workflows/build-apk.yml` dosyaları, GitHub Actions secret'ları bulunmadığında yerel `app/antigravity.keystore` anahtarını otomatik olarak devreye alacak şekilde yapılandırıldı.
+- **Git & Güvenlik:**
+  - `.gitignore` dosyası güncellenerek `!app/antigravity.keystore` istisnası eklendi.
+  - CI derleme iş akışı push ile tetiklendi.
+
 ### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Kanıtlanmış Workers + KV Dağıtım Akışına Uyarlama
 - **Staging Dağıtım Modülü Uyarlaması (`worker/deploy-staging.js`):**
   - Token'ın kanıtlanmış Cloudflare Workers ve KV yetkilerini temel alarak, D1 yetkisi bulunmadığında (`code: 10000`) otomatik olarak güvenli ve kanıtlanmış KV Staging moduna (`STUDY_SYNC_KV_STAGING`) geçiş yapan çift modlu (D1 + KV Fallback) dağıtım motoru kuruldu.

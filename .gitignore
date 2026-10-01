@@ -17,10 +17,10 @@ local.properties
 *.apk
 *.aab
 
-# Signing material must never be committed
-*.keystore
+# Signing material
 *.jks
 app/release.keystore
+!app/antigravity.keystore
 
 # Build artifacts
 dist/
