@@ -278,7 +278,7 @@ export default {
     const method = request.method;
 
     // Header ve URL parametrelerinden aile kodu ve rolü çek
-    const familyCode = (url.searchParams.get('code') || request.headers.get('X-Family-Code') || '').toUpperCase().trim();
+    const familyCode = (url.searchParams.get('familyCode') || url.searchParams.get('code') || request.headers.get('X-Family-Code') || '').toUpperCase().trim();
     const role = (request.headers.get('X-Sender-Role') || 'CLIENT').toUpperCase().trim();
 
     // 1. Health / Ping Check
