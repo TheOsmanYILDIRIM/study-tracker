@@ -88,29 +88,27 @@ async function runDiagnostic() {
     console.log(`   - Request Error: ${err.message}`);
   }
 
-  // 3. Cloudflare D1 Database List Endpoint
-  console.log('\n4️⃣ Cloudflare D1 Database List (GET /accounts/:id/d1/database):');
+  // 3. Cloudflare KV Namespace List Endpoint
+  console.log('\n4️⃣ Cloudflare KV Namespace List (GET /accounts/:id/storage/kv/namespaces):');
   try {
-    const d1Res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/d1/database`, {
+    const kvRes = await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/storage/kv/namespaces`, {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${API_TOKEN}`,
         'Content-Type': 'application/json'
       }
     });
-    const d1Status = d1Res.status;
-    const d1Json = await d1Res.json().catch(() => ({}));
-    console.log(`   - HTTP Status: ${d1Status}`);
-    console.log(`   - Cloudflare Success: ${Boolean(d1Json.success)}`);
-    if (d1Json.errors && d1Json.errors.length > 0) {
-      console.log(`   - Errors: ${JSON.stringify(d1Json.errors)}`);
+    const kvStatus = kvRes.status;
+    const kvJson = await kvRes.json().catch(() => ({}));
+    console.log(`   - HTTP Status: ${kvStatus}`);
+    console.log(`   - Cloudflare Success: ${Boolean(kvJson.success)}`);
+    if (kvJson.errors && kvJson.errors.length > 0) {
+      console.log(`   - Errors: ${JSON.stringify(kvJson.errors)}`);
     }
-    if (d1Json.messages && d1Json.messages.length > 0) {
-      console.log(`   - Messages: ${JSON.stringify(d1Json.messages)}`);
-    }
-    if (d1Json.success && Array.isArray(d1Json.result)) {
-      console.log(`   - Databases Count: ${d1Json.result.length}`);
-      console.log(`   - Databases Found: ${JSON.stringify(d1Json.result.map(d => ({ name: d.name, uuid: d.uuid })))}`);
+    if (kvJson.success && Array.isArray(kvJson.result)) {
+      const names = kvJson.result.map(kv => kv.title);
+      console.log(`   - Namespaces Count: ${names.length}`);
+      console.log(`   - Dedicated Staging KV Present: ${names.includes('STUDY_SYNC_KV_STAGING')}`);
     }
   } catch (err) {
     console.log(`   - Request Error: ${err.message}`);
