@@ -406,69 +406,109 @@ class LocalV2AttemptRepositoryImpl(
             .flowOn(Dispatchers.IO)
     }
 
+    private fun parseMetadata(raw: String?): JsonObject {
+        if (raw.isNullOrBlank()) return JsonObject(emptyMap())
+        return runCatching { json.parseToJsonElement(raw) as? JsonObject }
+            .getOrNull() ?: JsonObject(emptyMap())
+    }
+
+    private fun withSyncStatus(raw: String?, status: String): String {
+        val base = parseMetadata(raw)
+        return buildJsonObject {
+            base.forEach { (key, value) -> put(key, value) }
+            put("syncStatus", status)
+        }.toString()
+    }
+
+    private fun toAttemptRequest(
+        attempt: Attempt,
+        quizAnswers: List<QuizAnswerMetric>
+    ): V2AttemptRequestDto {
+        return V2AttemptRequestDto(
+            clientAttemptId = attempt.clientAttemptId,
+            studentId = attempt.studentId,
+            itemId = attempt.itemId,
+            versionId = attempt.versionId,
+            status = attempt.status.name,
+            score = attempt.score,
+            durationSeconds = attempt.durationSeconds,
+            startedAt = attempt.startedAt,
+            completedAt = attempt.completedAt,
+            metadata = parseMetadata(attempt.metadataJson),
+            quizAnswers = quizAnswers.map {
+                V2QuizAnswerDto(
+                    id = it.id,
+                    questionId = it.questionId,
+                    questionIndex = it.questionIndex,
+                    selectedOption = it.selectedOption,
+                    isCorrect = it.isCorrect,
+                    durationSeconds = it.durationSeconds
+                )
+            }
+        )
+    }
+
+    private suspend fun pushAttempt(
+        attempt: Attempt,
+        quizAnswers: List<QuizAnswerMetric>,
+        adminToken: String? = null
+    ): Result<Attempt> {
+        val netRes = V2CloudClient.recordAttempt(
+            familyCode = attempt.familyCode,
+            attemptRequest = toAttemptRequest(attempt, quizAnswers),
+            adminToken = adminToken
+        )
+
+        if (netRes.isFailure) {
+            return Result.failure(netRes.exceptionOrNull() ?: IllegalStateException("Attempt sync failed"))
+        }
+
+        val syncedAttempt = attempt.copy(
+            metadataJson = withSyncStatus(attempt.metadataJson, "SYNCED")
+        )
+        db.attemptDao().upsertAttempt(syncedAttempt.toEntity())
+        return Result.success(syncedAttempt)
+    }
+
     override suspend fun recordAttempt(
         attempt: Attempt,
         quizAnswers: List<QuizAnswerMetric>
     ): Result<Attempt> = withContext(Dispatchers.IO) {
         try {
-            // 1. Write append-only attempt locally first
-            val localAttempt = if (attempt.metadataJson.isNullOrBlank()) {
-                val meta = buildJsonObject {
-                    put("syncStatus", "PENDING")
-                    put("selfCompleted", true)
-                }
-                attempt.copy(metadataJson = meta.toString())
-            } else {
-                attempt
-            }
+            // Durable-first: measurement is committed locally before any network work.
+            val localAttempt = attempt.copy(
+                metadataJson = withSyncStatus(attempt.metadataJson, "PENDING")
+            )
 
             db.withTransaction {
-                db.attemptDao().insertAttempt(localAttempt.toEntity())
-                if (quizAnswers.isNotEmpty()) {
-                    db.quizAnswerMetricDao().insertAnswerMetrics(quizAnswers.map { it.toEntity() })
-                }
-            }
-
-            // 2. Attempt immediate network push (idempotent)
-            try {
-                val quizAnswerDtos = quizAnswers.map {
-                    V2QuizAnswerDto(
-                        id = it.id,
-                        questionId = it.questionId,
-                        questionIndex = it.questionIndex,
-                        selectedOption = it.selectedOption,
-                        isCorrect = it.isCorrect,
-                        durationSeconds = it.durationSeconds
-                    )
-                }
-
-                val attemptReq = V2AttemptRequestDto(
-                    clientAttemptId = localAttempt.clientAttemptId,
-                    studentId = localAttempt.studentId,
-                    itemId = localAttempt.itemId,
-                    versionId = localAttempt.versionId,
-                    status = localAttempt.status.name,
-                    score = localAttempt.score,
-                    durationSeconds = localAttempt.durationSeconds,
-                    startedAt = localAttempt.startedAt,
-                    completedAt = localAttempt.completedAt,
-                    quizAnswers = quizAnswerDtos
+                val existing = db.attemptDao().getAttemptByClientId(
+                    localAttempt.familyCode,
+                    localAttempt.studentId,
+                    localAttempt.clientAttemptId
                 )
 
-                val netRes = V2CloudClient.recordAttempt(localAttempt.familyCode, attemptReq)
-                if (netRes.isSuccess) {
-                    val syncedMeta = buildJsonObject {
-                        put("syncStatus", "SYNCED")
-                        put("selfCompleted", true)
+                if (existing == null) {
+                    db.attemptDao().insertAttempt(localAttempt.toEntity())
+                    if (quizAnswers.isNotEmpty()) {
+                        db.quizAnswerMetricDao().insertAnswerMetrics(quizAnswers.map { it.toEntity() })
                     }
-                    val syncedAttempt = localAttempt.copy(metadataJson = syncedMeta.toString())
-                    db.attemptDao().insertAttempt(syncedAttempt.toEntity())
                 }
-            } catch (netEx: Exception) {
-                Log.w(TAG, "Offline/Network error during attempt push, stays PENDING: ${netEx.message}")
             }
 
-            Result.success(localAttempt)
+            val canonicalLocal = db.attemptDao().getAttemptByClientId(
+                localAttempt.familyCode,
+                localAttempt.studentId,
+                localAttempt.clientAttemptId
+            )?.toDomain() ?: localAttempt
+
+            // Network is best-effort. Failure never rolls back the local measurement.
+            val synced = pushAttempt(canonicalLocal, quizAnswers)
+            if (synced.isSuccess) {
+                Result.success(synced.getOrThrow())
+            } else {
+                Log.w(TAG, "Attempt saved locally and queued for retry: ${synced.exceptionOrNull()?.message}")
+                Result.success(canonicalLocal)
+            }
         } catch (e: Exception) {
             Log.e(TAG, "recordAttempt error: ${e.message}", e)
             Result.failure(e)
@@ -481,9 +521,32 @@ class LocalV2AttemptRepositoryImpl(
         adminToken: String?
     ): Result<Int> = withContext(Dispatchers.IO) {
         try {
+            val attempts = db.attemptDao()
+                .getAttemptsForStudentOnce(familyCode, studentId)
+                .map { it.toDomain() }
+                .filter {
+                    parseMetadata(it.metadataJson)["syncStatus"]
+                        ?.toString()
+                        ?.trim('"') != "SYNCED"
+                }
+
             var syncedCount = 0
-            val allAttempts = db.attemptDao().getAttemptsForStudent(familyCode, studentId)
-            // Sync locally pending attempts
+            for (attempt in attempts) {
+                val answers = db.quizAnswerMetricDao()
+                    .getAnswersForAttemptOnce(attempt.id)
+                    .map { it.toDomain() }
+
+                val result = pushAttempt(attempt, answers, adminToken)
+                if (result.isSuccess) {
+                    syncedCount++
+                } else {
+                    Log.w(
+                        TAG,
+                        "Pending attempt ${attempt.id} remains queued: ${result.exceptionOrNull()?.message}"
+                    )
+                }
+            }
+
             Result.success(syncedCount)
         } catch (e: Exception) {
             Log.e(TAG, "syncPendingAttempts error: ${e.message}", e)
