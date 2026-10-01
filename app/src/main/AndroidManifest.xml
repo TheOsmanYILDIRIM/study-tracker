@@ -9,11 +9,7 @@
     <!-- Network Permissions for Supabase Cloud Sync -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <!-- Floating Overlay & Service Permissions -->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- V2: measurement app permissions only. No overlay/accessibility capture permissions. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -113,29 +109,6 @@
                 <data android:mimeType="*/*" />
             </intent-filter>
         </activity>
-
-        <service
-            android:name=".core.ui.overlay.FloatingButtonService"
-            android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="specialUse">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="study_session_overlay_and_evidence_capture" />
-        </service>
-
-        <!-- Silent Accessibility Screenshot Service -->
-        <service
-            android:name=".core.service.StudyAccessibilityService"
-            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.accessibilityservice.AccessibilityService" />
-            </intent-filter>
-            <meta-data
-                android:name="android.accessibilityservice"
-                android:resource="@xml/accessibility_service_config" />
-        </service>
 
         <!-- Cross-APK ContentProvider IPC for Direct Synchronization -->
         <provider
