@@ -248,6 +248,7 @@ fun V2LearningFlowScreen(
                                 put("syncStatus", "PENDING")
                                 put("selfCompleted", true)
                                 put("itemType", "VIDEO")
+                                put("measurementKind", "VIDEO")
                             }.toString()
                         )
                         attemptRepo.recordAttempt(attempt)
@@ -284,8 +285,8 @@ fun V2LearningFlowScreen(
                             completedAt = System.currentTimeMillis(),
                             metadataJson = buildJsonObject {
                                 put("syncStatus", "PENDING")
-                                put("selfCompleted", true)
                                 put("itemType", "QUIZ")
+                                put("measurementKind", "QUIZ")
                                 put("score", score)
                             }.toString()
                         )
@@ -321,8 +322,9 @@ fun V2LearningFlowScreen(
                             completedAt = System.currentTimeMillis(),
                             metadataJson = buildJsonObject {
                                 put("syncStatus", "PENDING")
-                                put("selfCompleted", true)
                                 put("itemType", "ANKI")
+                                put("measurementKind", "ANKI")
+                                put("reviewedCount", reviewedCards)
                                 put("reviewedCardCount", reviewedCards)
                             }.toString()
                         )
