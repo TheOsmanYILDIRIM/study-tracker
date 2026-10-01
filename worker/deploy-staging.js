@@ -107,7 +107,7 @@ export async function deployStaging() {
 
     let kvNamespaces = await cfRequest('/storage/kv/namespaces');
     const stagingKvTitle = 'STUDY_SYNC_KV_STAGING';
-    kvId = kvNamespaces.result?.find(kv => kv.title === stagingKvTitle || kv.title === 'STUDY_SYNC_KV')?.id;
+    kvId = kvNamespaces.result?.find(kv => kv.title === stagingKvTitle)?.id;
 
     if (!kvId) {
       console.log(`   ${stagingKvTitle} KV isim alanı oluşturuluyor...`);
@@ -123,7 +123,7 @@ export async function deployStaging() {
         kvId = kvNamespaces.result?.find(kv => kv.title === 'STUDY_SYNC_KV')?.id;
       }
     } else {
-      console.log(`   ✅ Mevcut KV ID: ${kvId}`);
+      console.log(`   ✅ Mevcut Staging KV ID: ${kvId}`);
     }
   }
 
