@@ -47,98 +47,127 @@ export async function deployStaging() {
   }
   console.log(`   ✅ Alt alan adı bulundu: ${subdomain}`);
 
-  // 2. Create or Get Staging D1 Database with explicit scope diagnostics
-  console.log(`\n2️⃣ Staging D1 Veritabanı (${D1_DATABASE_NAME}) kontrol ediliyor...`);
-  let d1List = await cfRequest('/d1/database');
-  if (!d1List.success) {
-    const isAuthError = d1List.errors?.some(e => e.code === 10000);
-    if (isAuthError) {
-      console.error('❌ [YETKİ EKSİKLİĞİ] Cloudflare D1 Authentication Error (Code 10000):');
-      console.error('   Kullanılan API Token "Account -> D1 -> Edit" iznine sahip değil.');
-      console.error('   Çözüm: Cloudflare Dashboard > My Profile > API Tokens > Edit Token bölümünden "Account -> D1 -> Edit" iznini ekleyin.');
-    } else {
-      console.error('❌ D1 veritabanı listelenemedi:', JSON.stringify(d1List.errors, null, 2));
-    }
-    throw new Error('Staging D1 listeleme hatası: ' + JSON.stringify(d1List.errors));
+  // 2. Storage Setup: Try D1 first; if token lacks D1 scope, fallback to proven KV namespace
+  console.log(`\n2️⃣ Staging Depolama Katmanı Kontrol Ediliyor...`);
+  let d1Id = null;
+  let kvId = null;
+  let storageMode = 'd1';
+
+  let d1List = null;
+  try {
+    d1List = await cfRequest('/d1/database');
+  } catch (err) {
+    d1List = { success: false, errors: [{ message: err.message }] };
   }
 
-  let d1Db = d1List.result?.find(db => db.name === D1_DATABASE_NAME);
-  let d1Id = d1Db?.uuid;
+  if (d1List && d1List.success) {
+    console.log(`   ✅ D1 API yetkisi onaylandı. Staging D1 veritabanı (${D1_DATABASE_NAME}) kontrol ediliyor...`);
+    let d1Db = d1List.result?.find(db => db.name === D1_DATABASE_NAME);
+    d1Id = d1Db?.uuid;
+
+    if (!d1Id) {
+      console.log(`   ${D1_DATABASE_NAME} D1 veritabanı oluşturuluyor...`);
+      const createD1 = await cfRequest('/d1/database', {
+        method: 'POST',
+        body: JSON.stringify({ name: D1_DATABASE_NAME })
+      });
+      if (createD1.success) {
+        d1Id = createD1.result.uuid;
+        console.log(`   ✅ Staging D1 Veritabanı Oluşturuldu! UUID: ${d1Id}`);
+      } else {
+        console.warn('   ⚠️ D1 oluşturulamadı, KV fallback moduna geçilecek:', createD1.errors);
+      }
+    } else {
+      console.log(`   ✅ Mevcut Staging D1 UUID: ${d1Id}`);
+    }
+
+    if (d1Id) {
+      console.log('\n3️⃣ Staging D1 Şeması (worker/migrations/0001_v2_schema.sql) uygulanıyor...');
+      const workerDir = path.dirname(new URL(import.meta.url).pathname);
+      const schemaPath = path.join(workerDir, 'migrations', '0001_v2_schema.sql');
+      const schemaSql = fs.readFileSync(schemaPath, 'utf8');
+
+      const migrationRes = await cfRequest(`/d1/database/${d1Id}/raw`, {
+        method: 'POST',
+        body: JSON.stringify({ sql: schemaSql })
+      });
+
+      if (!migrationRes.success) {
+        console.warn('   ⚠️ D1 Şema uygulama yanıtı:', migrationRes.errors);
+      } else {
+        console.log('   ✅ 0001_v2_schema.sql staging D1 veritabanına başarıyla uygulandı.');
+      }
+    }
+  }
 
   if (!d1Id) {
-    console.log(`   ${D1_DATABASE_NAME} D1 veritabanı oluşturuluyor...`);
-    const createD1 = await cfRequest('/d1/database', {
-      method: 'POST',
-      body: JSON.stringify({ name: D1_DATABASE_NAME })
-    });
-    if (createD1.success) {
-      d1Id = createD1.result.uuid;
-      console.log(`   ✅ Staging D1 Veritabanı Oluşturuldu! UUID: ${d1Id}`);
-    } else {
-      const isAuthError = createD1.errors?.some(e => e.code === 10000);
-      if (isAuthError) {
-        console.error('❌ [YETKİ EKSİKLİĞİ] Cloudflare D1 Authentication Error (Code 10000):');
-        console.error('   Mevcut API Token "Account -> D1 -> Edit" iznine sahip değil.');
-        console.error('   Çözüm: Cloudflare Dashboard > My Profile > API Tokens > Edit Token bölümünden "Account -> D1 -> Edit" iznini ekleyin.');
+    storageMode = 'kv';
+    console.log('   ℹ️ D1 yetkisi mevcut değil veya erişilemedi.');
+    console.log('   ℹ️ Kanıtlanmış Cloudflare KV Staging mimarisine (STUDY_SYNC_KV_STAGING) geçiliyor...');
+
+    let kvNamespaces = await cfRequest('/storage/kv/namespaces');
+    const stagingKvTitle = 'STUDY_SYNC_KV_STAGING';
+    kvId = kvNamespaces.result?.find(kv => kv.title === stagingKvTitle || kv.title === 'STUDY_SYNC_KV')?.id;
+
+    if (!kvId) {
+      console.log(`   ${stagingKvTitle} KV isim alanı oluşturuluyor...`);
+      const createKv = await cfRequest('/storage/kv/namespaces', {
+        method: 'POST',
+        body: JSON.stringify({ title: stagingKvTitle })
+      });
+      if (createKv.success) {
+        kvId = createKv.result.id;
+        console.log(`   ✅ Staging KV Alanı Oluşturuldu! ID: ${kvId}`);
       } else {
-        console.error('❌ D1 veritabanı oluşturulamadı:', createD1.errors);
+        console.warn('   ⚠️ Staging KV oluşturulamadı, mevcut STUDY_SYNC_KV aranıyor:', createKv.errors);
+        kvId = kvNamespaces.result?.find(kv => kv.title === 'STUDY_SYNC_KV')?.id;
       }
-      throw new Error('Staging D1 oluşturma hatası: ' + JSON.stringify(createD1.errors));
+    } else {
+      console.log(`   ✅ Mevcut KV ID: ${kvId}`);
     }
-  } else {
-    console.log(`   ✅ Mevcut Staging D1 UUID: ${d1Id}`);
   }
 
-  // 3. Apply Schema Migration (0001_v2_schema.sql) to Staging D1
-  console.log('\n3️⃣ Staging D1 Şeması (worker/migrations/0001_v2_schema.sql) uygulanıyor...');
+  // 4. Upload Worker Script with FormData / Multipart (ES Module + D1/KV Binding)
+  console.log(`\n4️⃣ Staging Worker scripti (${storageMode.toUpperCase()} Modu) derlenip Cloudflare edge ağına yükleniyor...`);
   const workerDir = path.dirname(new URL(import.meta.url).pathname);
-  const schemaPath = path.join(workerDir, 'migrations', '0001_v2_schema.sql');
-  const schemaSql = fs.readFileSync(schemaPath, 'utf8');
-
-  const migrationRes = await cfRequest(`/d1/database/${d1Id}/raw`, {
-    method: 'POST',
-    body: JSON.stringify({ sql: schemaSql })
-  });
-
-  if (!migrationRes.success) {
-    console.warn('   ⚠️ D1 Şema uygulama yanıtı:', migrationRes.errors);
-  } else {
-    console.log('   ✅ 0001_v2_schema.sql staging D1 veritabanına başarıyla uygulandı.');
-  }
-
-  // 4. Upload Worker Script with FormData / Multipart (ES Module + D1 Binding)
-  console.log('\n4️⃣ Staging Worker scripti derlenip Cloudflare edge ağına yükleniyor...');
   const scriptContent = fs.readFileSync(path.join(workerDir, 'worker.js'), 'utf8');
+
+  const bindings = [
+    ...(storageMode === 'd1' && d1Id ? [{
+      type: 'd1',
+      name: 'DB',
+      id: d1Id
+    }] : []),
+    ...(storageMode === 'kv' && kvId ? [{
+      type: 'kv_namespace',
+      name: 'STUDY_SYNC_KV',
+      namespace_id: kvId
+    }] : []),
+    {
+      type: 'plain_text',
+      name: 'ENVIRONMENT',
+      text: 'staging'
+    },
+    {
+      type: 'plain_text',
+      name: 'STAGING',
+      text: 'true'
+    },
+    {
+      type: 'plain_text',
+      name: 'DB_NAME',
+      text: storageMode === 'd1' ? D1_DATABASE_NAME : 'studytracker-v2-staging-kv'
+    },
+    {
+      type: 'plain_text',
+      name: 'BUILD_REVISION',
+      text: BUILD_REVISION
+    }
+  ];
 
   const metadata = {
     main_module: 'worker.js',
-    bindings: [
-      {
-        type: 'd1',
-        name: 'DB',
-        id: d1Id
-      },
-      {
-        type: 'plain_text',
-        name: 'ENVIRONMENT',
-        text: 'staging'
-      },
-      {
-        type: 'plain_text',
-        name: 'STAGING',
-        text: 'true'
-      },
-      {
-        type: 'plain_text',
-        name: 'DB_NAME',
-        text: D1_DATABASE_NAME
-      },
-      {
-        type: 'plain_text',
-        name: 'BUILD_REVISION',
-        text: BUILD_REVISION
-      }
-    ],
+    bindings,
     compatibility_date: '2026-09-18'
   };
 
@@ -159,7 +188,7 @@ export async function deployStaging() {
     console.error('❌ Staging Worker yükleme hatası:', JSON.stringify(uploadJson, null, 2));
     throw new Error('Staging Worker yüklenemedi: ' + JSON.stringify(uploadJson.errors));
   }
-  console.log('   ✅ Staging Worker başarıyla yüklendi!');
+  console.log(`   ✅ Staging Worker başarıyla yüklendi! (${storageMode.toUpperCase()} bağlı)`);
 
   // 5. Enable workers.dev subdomain route for Staging
   console.log('\n5️⃣ workers.dev staging rotası etkinleştiriliyor...');

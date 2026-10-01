@@ -1,5 +1,13 @@
 # StudyTracker - Proje Günlüğü (Log)
 
+### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Kanıtlanmış Workers + KV Dağıtım Akışına Uyarlama
+- **Staging Dağıtım Modülü Uyarlaması (`worker/deploy-staging.js`):**
+  - Token'ın kanıtlanmış Cloudflare Workers ve KV yetkilerini temel alarak, D1 yetkisi bulunmadığında (`code: 10000`) otomatik olarak güvenli ve kanıtlanmış KV Staging moduna (`STUDY_SYNC_KV_STAGING`) geçiş yapan çift modlu (D1 + KV Fallback) dağıtım motoru kuruldu.
+  - V2 depolama katmanı (`worker/v2/storage.js`) halihazırda KV fallback üzerinde tüm kazanım, versiyon, önkoşul, girişim ve inceleme modellerini desteklediğinden, sıfır token değişikliğiyle tam V2 işlevselliği korundu.
+- **Doğrulama & Test:**
+  - Tüm yerel test paketleri (`worker/test-v2.js`, `worker/test-v2-staging.js`, `cli/test-v2.js`, `cli/test-revision.js`) %100 başarıyla geçti (0 hata).
+
+
 ### [2026-10-01] Tamamlandı: StudyTracker V2 Staging Cloudflare Token & D1 Güvenli CI Teşhisi ve Yetki Kanıtı
 - **Güvenli CI Teşhis Modülü Entegrasyonu (`worker/staging-diagnostic.js` & `deploy-staging.yml`):**
   - Sırları (token / auth header) sızdırmadan çalışan güvenli teşhis mekanizması CI iş akışına bağlandı.

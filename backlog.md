@@ -247,3 +247,10 @@
 - [x] **Güvenli Teşhis Modülü (`worker/staging-diagnostic.js`):** Token verify (`/user/tokens/verify`) ve D1 listeleme (`/d1/database`) uç noktalarını çağıran, sırları sızdırmadan sadece HTTP durum, boolean ve hata kodlarını basan güvenli teşhis eklendi.
 - [x] **CI Entegrasyonu (`deploy-staging.yml`):** Dağıtım adımı öncesinde güvenli teşhis adımı bağlandı.
 - [x] **Uzak CI Çalıştırma ve Teşhis Analizi:** `gh run view 36904443036` ile staging CI çalıştırılıp log çıktıları incelendi; token'ın geçerli (HTTP 200, active) olduğu, Account ID'nin eşleştiği (`osman13241429`), fakat D1 listelemenin HTTP 401 `code: 10000 Authentication error` verdiği kanıtlandı (Cloudflare Dashboard API Token `Account -> D1 -> Edit` izin politikası eksikliği).
+
+## 57. StudyTracker V2 Staging Kanıtlanmış Workers + KV Dağıtım Akışına Uyarlama (TAMAMLANDI)
+- [x] **Staging Dağıtım Modülü Uyarlaması (`worker/deploy-staging.js`):** Token'ın kanıtlanmış Workers & KV yetkilerini temel alarak, D1 yetkisi olmadığında otomatik olarak KV Staging moduna geçiş yapan dayanıklı dağıtım akışı.
+- [x] **Yerel Entegrasyon & Test Doğrulaması:** Tüm V2 ve Staging testlerinin çalıştırılması ve yeşil yandığının teyidi.
+- [x] **CI & Dokümantasyon:** Dağıtım akışının ve kanıtların mühürlenmesi.
+
+
