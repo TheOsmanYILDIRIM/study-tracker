@@ -14,6 +14,8 @@ const DEFAULT_CONFIG = {
   lastKnownServerRevision: null
 };
 
+const DEFAULT_STAGING_WORKER_URL = 'https://studytracker-v2-staging.osman13241429.workers.dev';
+
 function ensureConfigDir() {
   if (!fs.existsSync(CONFIG_DIR)) {
     fs.mkdirSync(CONFIG_DIR, { recursive: true });
@@ -31,7 +33,7 @@ function parseRevision(val) {
   return num;
 }
 
-function loadConfig() {
+function loadConfig(options = {}) {
   ensureConfigDir();
   let cfg = { ...DEFAULT_CONFIG };
   if (fs.existsSync(CONFIG_FILE)) {
@@ -45,11 +47,27 @@ function loadConfig() {
   } else {
     saveConfig(DEFAULT_CONFIG);
   }
-  if (process.env.STUDYTRACKER_ADMIN_TOKEN) cfg.adminToken = process.env.STUDYTRACKER_ADMIN_TOKEN.trim();
-  if (process.env.STUDYTRACKER_FAMILY_CODE) {
-    cfg.familyCode = process.env.STUDYTRACKER_FAMILY_CODE.toUpperCase().trim();
-  } else if (process.env.STUDY_FAMILY_CODE) {
-    cfg.familyCode = process.env.STUDY_FAMILY_CODE.toUpperCase().trim();
+  if (options.staging || process.env.STUDYTRACKER_STAGING === 'true' || process.env.STUDY_STAGING === 'true') {
+    cfg.workerUrl = process.env.STUDYTRACKER_STAGING_WORKER_URL || DEFAULT_STAGING_WORKER_URL;
+    if (process.env.STUDYTRACKER_STAGING_FAMILY_CODE) {
+      cfg.familyCode = process.env.STUDYTRACKER_STAGING_FAMILY_CODE.toUpperCase().trim();
+    }
+    if (process.env.STUDYTRACKER_STAGING_ADMIN_TOKEN) {
+      cfg.adminToken = process.env.STUDYTRACKER_STAGING_ADMIN_TOKEN.trim();
+    }
+    cfg.isStaging = true;
+  } else {
+    if (process.env.STUDYTRACKER_WORKER_URL) {
+      cfg.workerUrl = process.env.STUDYTRACKER_WORKER_URL.trim();
+    } else if (process.env.STUDYTRACKER_API_URL) {
+      cfg.workerUrl = process.env.STUDYTRACKER_API_URL.trim();
+    }
+    if (process.env.STUDYTRACKER_ADMIN_TOKEN) cfg.adminToken = process.env.STUDYTRACKER_ADMIN_TOKEN.trim();
+    if (process.env.STUDYTRACKER_FAMILY_CODE) {
+      cfg.familyCode = process.env.STUDYTRACKER_FAMILY_CODE.toUpperCase().trim();
+    } else if (process.env.STUDY_FAMILY_CODE) {
+      cfg.familyCode = process.env.STUDY_FAMILY_CODE.toUpperCase().trim();
+    }
   }
   cfg.lastKnownServerRevision = parseRevision(cfg.lastKnownServerRevision);
   return cfg;

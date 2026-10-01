@@ -45,12 +45,12 @@ function revisionConflictResponse(currentRevision, serverResetAt = 0) {
 }
 
 function isLocalTest(env) {
-  return env && env.__LOCAL_TEST__ === true;
+  return Boolean(env && (env.__LOCAL_TEST__ === true || env.STAGING === 'true' || env.STAGING === true || env.ENVIRONMENT === 'staging' || (env.DB && typeof env.DB.prepare === 'function')));
 }
 
 function requireStorage(env) {
-  if (!env?.STUDY_SYNC_KV && !isLocalTest(env)) {
-    throw new Error('STUDY_SYNC_KV binding is required');
+  if (!env?.STUDY_SYNC_KV && !isLocalTest(env) && !env?.DB) {
+    throw new Error('STUDY_SYNC_KV or DB binding is required');
   }
 }
 
@@ -296,12 +296,18 @@ export default {
     // 1.5 V3 Health Check (Backend / Storage reporting)
     if (path === '/api/v3/health') {
       const storageType = (env && env.DB && typeof env.DB.prepare === 'function') ? 'd1' : (env?.STUDY_SYNC_KV ? 'kv' : 'kv_fallback');
+      const isStaging = Boolean(env?.STAGING === 'true' || env?.STAGING === true || env?.ENVIRONMENT === 'staging');
+      const environment = env?.ENVIRONMENT || (isStaging ? 'staging' : 'production');
       return json({
         success: true,
         status: 'ok',
         version: '2.0.0',
         schemaVersion: 'v2',
         storageBackend: storageType,
+        environment,
+        staging: isStaging,
+        database: env?.DB_NAME || (storageType === 'd1' ? 'studytracker-v2-staging' : null),
+        revision: env?.BUILD_REVISION || 'unknown',
         timestamp: Date.now()
       });
     }

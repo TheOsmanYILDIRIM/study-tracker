@@ -177,19 +177,6 @@ export class CurriculumEngine {
     const now = Date.now();
     const effectivePubStatus = ['draft', 'active', 'archived'].includes(publishingStatus) ? publishingStatus : 'active';
 
-    // Create Version 1
-    const v1 = {
-      id: version1Id,
-      itemId,
-      versionNumber: 1,
-      title: (title || displayLabel).trim(),
-      contentUrl: contentUrl ? contentUrl.trim() : null,
-      payload: payload || {},
-      changelog: 'Initial version',
-      createdAt: now
-    };
-    await this.storage.saveVersion(v1);
-
     // Create Learning Item
     const item = {
       id: itemId,
@@ -206,6 +193,19 @@ export class CurriculumEngine {
       updatedAt: now
     };
     await this.storage.saveItem(item);
+
+    // Create Version 1
+    const v1 = {
+      id: version1Id,
+      itemId,
+      versionNumber: 1,
+      title: (title || displayLabel).trim(),
+      contentUrl: contentUrl ? contentUrl.trim() : null,
+      payload: payload || {},
+      changelog: 'Initial version',
+      createdAt: now
+    };
+    await this.storage.saveVersion(v1);
 
     // Check if rebalance is needed
     await this.checkAndRebalanceLessonItems(familyCode, lessonId);
@@ -449,17 +449,20 @@ export class CurriculumEngine {
     startedAt = null,
     completedAt = null,
     metadata = {},
-    quizAnswers = []
+    quizAnswers = [],
+    answers = []
   }) {
     if (!clientAttemptId || !itemId) {
       throw new Error('clientAttemptId and itemId are required for recording attempt');
     }
 
+    const effectiveAnswers = Array.isArray(quizAnswers) && quizAnswers.length > 0 ? quizAnswers : (Array.isArray(answers) ? answers : []);
+
     // Idempotency check
     const existing = await this.storage.getAttemptByClientId(familyCode, studentId, clientAttemptId);
     if (existing) {
-      const answers = await this.storage.getQuizAnswers(existing.id);
-      return { attempt: existing, quizAnswers: answers, duplicate: true };
+      const dbAnswers = await this.storage.getQuizAnswers(existing.id);
+      return { attempt: existing, quizAnswers: dbAnswers, duplicate: true };
     }
 
     const item = await this.storage.getItemById(familyCode, itemId);
@@ -490,8 +493,8 @@ export class CurriculumEngine {
 
     // Save quiz answers if provided
     let savedAnswers = [];
-    if (Array.isArray(quizAnswers) && quizAnswers.length > 0) {
-      savedAnswers = quizAnswers.map((a, idx) => {
+    if (Array.isArray(effectiveAnswers) && effectiveAnswers.length > 0) {
+      savedAnswers = effectiveAnswers.map((a, idx) => {
         if (!a || typeof a !== 'object') {
           throw new Error(`Invalid quizAnswer metric entry at index ${idx}`);
         }

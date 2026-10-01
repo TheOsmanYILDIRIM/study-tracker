@@ -1,0 +1,20 @@
+{
+  "quizTitle": "9. Sınıf Matematik - Gerçek Sayılar Quiz 17.2 (TEST FIXTURE)",
+  "questions": [
+    {
+      "id": "q_mat9_17_2_01",
+      "type": "MULTIPLE_CHOICE",
+      "prompt": "√2 sayısı hangi sayı kümesine aittir?",
+      "choices": ["Doğal Sayılar (N)", "Tam Sayılar (Z)", "Rasyonel Sayılar (Q)", "İrrasyonel Sayılar (Q')"],
+      "correctAnswer": "İrrasyonel Sayılar (Q')",
+      "explanation": "√2 rasyonel olarak a/b şeklinde yazılamadığı için irrasyoneldir."
+    },
+    {
+      "id": "q_mat9_17_2_02",
+      "type": "TRUE_FALSE",
+      "prompt": "Her tam sayı aynı zamanda bir rasyonel sayıdır.",
+      "correctAnswer": true,
+      "explanation": "Her a tam sayısı a/1 olarak yazılabildiği için rasyonel sayıdır."
+    }
+  ]
+}

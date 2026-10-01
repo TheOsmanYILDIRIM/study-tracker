@@ -113,9 +113,12 @@ function findOccurrence(occurrences, target) {
 
 async function main() {
   const parsed = parseArgs(process.argv.slice(2));
+  if (parsed.options.staging) {
+    process.env.STUDYTRACKER_STAGING = 'true';
+  }
   const cmd = parsed.positionals[0];
   const sub = parsed.positionals[1];
-  const config = loadConfig();
+  const config = loadConfig({ staging: Boolean(parsed.options.staging) });
   const familyCode = parsed.options.code || config.familyCode || 'ST-2026';
 
   if (!cmd || cmd === 'help' || parsed.options.help || parsed.options.h) {

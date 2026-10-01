@@ -29,12 +29,18 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
   try {
     // 0. HEALTH CHECK
     if (path === '/api/v3/health' && method === 'GET') {
+      const isStaging = Boolean(env?.STAGING === 'true' || env?.STAGING === true || env?.ENVIRONMENT === 'staging');
+      const environment = env?.ENVIRONMENT || (isStaging ? 'staging' : 'production');
       return json({
         success: true,
         status: 'ok',
         version: '2.0.0',
         schemaVersion: 'v2',
         storageBackend: storage.type,
+        environment,
+        staging: isStaging,
+        database: env?.DB_NAME || (storage.type === 'd1' ? 'studytracker-v2-staging' : null),
+        revision: env?.BUILD_REVISION || 'unknown',
         timestamp: Date.now()
       });
     }
@@ -135,7 +141,7 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
       const itemId = contentMatch[1];
       const body = await request.json().catch(() => ({}));
       const item = await engine.updateItemContent(familyCode, itemId, body);
-      return json({ success: true, item });
+      return json({ success: true, item, newVersion: item.currentVersion });
     }
 
     // PATCH/PUT /api/v3/items/:itemId/status -> Updates publishing status without changing item_id

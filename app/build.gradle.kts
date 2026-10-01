@@ -31,6 +31,11 @@ android {
             useSupportLibrary = true
         }
         manifestPlaceholders["appName"] = "StudyTracker"
+
+        val defaultV2Url = System.getenv("STUDYTRACKER_V2_BASE_URL") ?: "https://studytracker-sync.osman13241429.workers.dev"
+        val stagingV2Url = System.getenv("STUDYTRACKER_V2_STAGING_URL") ?: "https://studytracker-v2-staging.osman13241429.workers.dev"
+        buildConfigField("String", "V2_BASE_URL", "\"$defaultV2Url\"")
+        buildConfigField("String", "V2_STAGING_URL", "\"$stagingV2Url\"")
     }
 
     flavorDimensions += "role"
@@ -70,9 +75,13 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            val releaseV2Url = System.getenv("STUDYTRACKER_V2_BASE_URL") ?: "https://studytracker-sync.osman13241429.workers.dev"
+            buildConfigField("String", "V2_BASE_URL", "\"$releaseV2Url\"")
         }
         debug {
             applicationIdSuffix = ".debug"
+            val debugV2Url = System.getenv("STUDYTRACKER_V2_STAGING_URL") ?: System.getenv("STUDYTRACKER_V2_BASE_URL") ?: "https://studytracker-v2-staging.osman13241429.workers.dev"
+            buildConfigField("String", "V2_BASE_URL", "\"$debugV2Url\"")
         }
     }
 

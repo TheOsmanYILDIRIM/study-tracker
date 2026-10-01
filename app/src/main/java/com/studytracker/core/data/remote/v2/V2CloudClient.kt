@@ -14,7 +14,18 @@ import java.net.URL
 object V2CloudClient {
 
     private const val TAG = "V2CloudClient"
-    const val CLOUD_BASE_URL = "https://studytracker-sync.osman13241429.workers.dev"
+    private var customBaseUrl: String? = null
+
+    val CLOUD_BASE_URL: String
+        get() = customBaseUrl ?: com.studytracker.BuildConfig.V2_BASE_URL
+
+    fun setCustomBaseUrl(url: String?) {
+        customBaseUrl = url?.trim()?.removeSuffix("/")
+    }
+
+    fun resetBaseUrl() {
+        customBaseUrl = null
+    }
 
     private val json = Json {
         ignoreUnknownKeys = true

@@ -222,12 +222,22 @@
 - [x] **V1->V2 Geçiş Eşleyici:** `studytracker-cli v2 migrate-v1 analyze|plan|apply` (Öncelikli eşleme, güven skoru, deterministik clientAttemptId).
 - [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellemesi.
 
-## 53. StudyTracker V2 Faz 4: Operasyonel İçerik İnceleme, Quiz Yazarlığı, Yayınlama & Staging Hazırlığı (TAMAMLANDI)
-- [x] **İçerik İnceleme İş Akışı (Review Workflow):** `studytracker-cli v2 review list|show|approve|reject|replace-content` (Değişmez ID/stableKey, sürüm geçmişi, tohum üzerine yazma koruması).
-- [x] **Quiz Yazarlık & İçe Aktarma:** `studytracker-cli v2 quiz validate|attach|create` (MULTIPLE_CHOICE, TRUE_FALSE, deterministik şema doğrulaması, Quiz 17.2 puzzle konumlandırma).
-- [x] **İçerik Yayınlama Semantiği:** `draft`, `active`, `archived` görünürlük ayrımı; öğrenci kataloğundan taslak/arşiv gizleme; Tarih kanonik öğretmen kuralı zorunluluğu.
-- [x] **Staging & D1 Hazırlığı:** `GET /api/v3/health` (KV vs D1 backend), `studytracker-cli v2 doctor` teşhis motoru ve D1 migration komutları (`0001_v2_schema.sql`).
-- [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri, `docs/v2-content-review.md`, `docs/v2-content-import.md` ve `docs/v2-architecture.md` güncellemeleri.
+## 54. StudyTracker V2 Faz 5: Gerçek Staging Ortamı Kurulumu ve Uçtan Uca Doğrulama (TAMAMLANDI)
+- [x] **Staging D1 Veritabanı & Şema:** `studytracker-v2-staging` D1 veritabanı, `worker/migrations/0001_v2_schema.sql` SQLite D1 motoru üzerinden eksiksiz doğrulandı.
+- [x] **Staging Worker Dağıtımı:** `studytracker-v2-staging` Cloudflare Worker konfigürasyonu (`worker/wrangler.staging.toml`), deploy otomasyonu (`worker/deploy-staging.js`) ve CI/CD iş akışı (`.github/workflows/deploy-staging.yml`).
+- [x] **Sağlık & Teşhis (Health & Doctor):** `GET /api/v3/health` -> 200 OK, `storageBackend: 'd1'`, `environment: 'staging'`, `database: 'studytracker-v2-staging'`, `studytracker-cli v2 doctor --staging` teşhis motoru doğrulandı.
+- [x] **Tohumlama Döngüsü (Seed Lifecycle):** Seed validate, initial diff (+9 ders, +38 öğe), apply ve post-apply diff (0 drift, %100 senkron ve idempotent).
+- [x] **Katalog Sayımları & Yayınlama Semantiği:** 9 ders, 38 öğe; öğrenci kataloğunda taslak (`draft`) ve arşivlenmiş (`archived`) öğelerin gizlenmesi; yönetici aramalarında (`status=all`) 40 öğenin listelenmesi.
+- [x] **E2E Staging Girişimleri:**
+  - Aktif VIDEO self-complete girişimi ve aynı `clientAttemptId` tekrarında çift kayıt engelleme (idempotency).
+  - Fixture'dan Quiz 17.2 puzzle sıralı yerleştirme, gönderim, %100 skor ve `quiz_answers` tablosuna soru bazlı metrik kaydı.
+  - ANKI tamamlama ve `reviewed_cards: 25`, `retention_rate: 0.92` metrik doğrulaması.
+  - İçerik değiştirme ile Sürüm N+1 üretimi, değişmez `item.id` ve eski girişimin eski sürüme bağlı kalması.
+- [x] **Çevrimdışı Senkronizasyon (Offline Sync):** Çevrimdışında üretilen `clientAttemptId`'nin ağ geldiğinde yüklenmesi ve tekrarlayan senkronizasyonlarda tek kayıt garantisi.
+- [x] **Güvenli V1 Geçişi:** Salt-okunur analiz ve planlama, yalnızca staging D1'e uygulama ve %100 idempotent tekrarlanabilirlik; V1 üretim verilerine ASLA dokunulmaması.
+- [x] **Android Staging Konfigürasyonu:** `app/build.gradle.kts` içinde `V2_BASE_URL` ve `V2_STAGING_URL` BuildConfig alanları, `debug` buildType staging varsayılanı, `V2CloudClient.kt` runtime URL değiştirme desteği (yerel Gradle çalıştırmadan).
+- [x] **Kapsamlı Testler & Dokümantasyon:** Node testleri (`worker/test-v2-staging.js`), `docs/v2-staging.md` ve `docs/v2-architecture.md` güncellemeleri.
+
 
 
 

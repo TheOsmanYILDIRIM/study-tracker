@@ -435,8 +435,22 @@
   - `studytracker-cli.js` içindeki `plan apply`, `approve` ve `reject` komutları ekran görüntülerini ve onaylanmış derslerin durumlarını eksiksiz koruyacak şekilde güncellendi.
   - `renderer.js` üzerinde onaylanmış oturumların "Onay Bekleyenler" listesinde mükerrer görünmesi engellendi.
 
-## [2026-09-18] 44. CI/CD Derleme Süresi Optimizasyonu & Sadece Release APK Üretimi
-- **GitHub Actions CI/CD Hattı Sadeleştirmesi:**
-  - `.github/workflows/build-apk.yml` dosyasından gereksiz `assembleDebug` derleme adımı ve debug artifact yükleme eylemleri kaldırıldı.
-  - Sadece kalıcı imzalı Release APK'ları (`assembleRelease`) derlenerek CI/CD işlem süresi ve kaynak tüketimi yaklaşık yarı yarıya optimize edildi.
+## [2026-10-01] 54. StudyTracker V2 Faz 5: Gerçek Staging Ortamı Kurulumu ve Uçtan Uca Doğrulama
+- **Staging D1 Veritabanı ve Şema Göçü:**
+  - `studytracker-v2-staging` Cloudflare D1 veritabanı bağlamı ve `worker/migrations/0001_v2_schema.sql` SQLite D1 motoru üzerinden eksiksiz doğrulandı.
+  - `GET /api/v3/health` -> 200 OK yanıtı ile `storageBackend: 'd1'`, `environment: 'staging'`, `database: 'studytracker-v2-staging'` durumu doğrulandı.
+- **Tohumlama, Yayınlama ve Teşhis:**
+  - `studytracker-cli v2 doctor --staging` ve tohumlama döngüsü (validate -> diff -> apply -> post-apply diff) ile 9 ders, 38 öğe için 0 drift ve %100 idempotency sağlandı.
+  - Öğrenci kataloğunda taslak (`draft`) ve arşiv (`archived`) öğelerin gizlenmesi; yönetici sorgularında (`status=all`) 40 öğenin tam erişimi doğrulandı.
+- **E2E Staging & Çevrimdışı Senkronizasyon:**
+  - VIDEO self-complete girişimi ve aynı `clientAttemptId` tekrarında çift kayıt engelleme (idempotency).
+  - Quiz 17.2 puzzle sıralı yerleştirme, gönderim, %100 skor ve `quiz_answers` tablosuna soru bazlı metrik kaydı.
+  - ANKI tamamlama ve `reviewed_cards: 25`, `retention_rate: 0.92` metrik doğrulaması.
+  - İçerik değiştirme ile Sürüm N+1 üretimi, değişmez `item.id` ve eski girişimin eski sürüme bağlı kalması.
+  - Çevrimdışında yakalanan girişimlerin ağ gelince sunucuya yüklenmesi ve tekrarlayan senkronizasyonlarda tekil kayıt garantisi.
+- **Salt-Okunur V1 Göçü ve Android Staging Yapılandırması:**
+  - V1 üretim verilerine ASLA dokunulmadan salt-okunur analiz ve planlama; yalnızca staging D1'e uygulama ve %100 idempotent tekrar.
+  - Android `app/build.gradle.kts` içinde `V2_BASE_URL` (üretim varsayılanı) ve `V2_STAGING_URL` BuildConfig alanları, `debug` buildType staging varsayılanı, `V2CloudClient.kt` runtime URL değiştirme desteği (yerel Gradle çalıştırmadan).
+  - Kapsamlı Node testleri (`worker/test-v2-staging.js`), `docs/v2-staging.md` ve `docs/v2-architecture.md` güncellemeleri tamamlandı.
+
 

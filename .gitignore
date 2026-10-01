@@ -21,3 +21,8 @@ local.properties
 *.keystore
 *.jks
 app/release.keystore
+
+# Build artifacts
+dist/
+worker/dist/
+

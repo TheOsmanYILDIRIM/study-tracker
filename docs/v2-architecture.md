@@ -311,7 +311,38 @@ The V1->V2 migration engine enables seamless transitions from legacy weekly occu
 
 ### 12.3 Staging D1 Migration & Storage Health
 - Checked-in D1 migration: `worker/migrations/0001_v2_schema.sql`.
-- `/api/v3/health` endpoint exposes `storageBackend` (`d1` vs `kv_fallback`) and `schemaVersion` without disclosing secrets.
+- `/api/v3/health` endpoint exposes `storageBackend` (`d1` vs `kv_fallback`), `environment` (`staging` vs `production`), `staging` flag, and `schemaVersion` without disclosing secrets.
 - `studytracker-cli v2 doctor` executes comprehensive dry-run diagnostics across API health, backend storage, attempts accessibility, and catalog drift.
+
+---
+
+## 13. Phase 5 Real Staging Rollout & Cloudflare D1 Architecture
+
+### 13.1 Dedicated Staging Infrastructure
+- **Cloudflare D1 Database**: `studytracker-v2-staging` bound exclusively as `env.DB`.
+- **Cloudflare Worker**: `studytracker-v2-staging` configured via `worker/wrangler.staging.toml`.
+- **Environment Isolation**:
+  - `ENVIRONMENT = "staging"`
+  - `STAGING = "true"`
+  - `DB_NAME = "studytracker-v2-staging"`
+- **Zero Production Touch Rule**: Production Cloudflare KV and Worker (`studytracker-sync`) remain completely untouched.
+
+### 13.2 High-Fidelity D1 Storage Engine
+The D1 storage engine (`worker/v2/storage.js`) translates curriculum operations into SQLite SQL statements:
+- All tables adhere strictly to `worker/migrations/0001_v2_schema.sql`.
+- Parent foreign keys (`learning_items`) are inserted before child rows (`learning_item_versions`).
+- Idempotent attempt deduplication is enforced at the database level via unique composite index `idx_attempts_idempotency(family_code, student_id, client_attempt_id)`.
+- Per-question analytics are persisted in normalized `quiz_answers` table with foreign key cascading to `attempts`.
+
+### 13.3 End-to-End Staging Verification Matrix
+1. **Health & Diagnostics**: `/api/v3/health` confirms `storageBackend: 'd1'`, `environment: 'staging'`. `v2 doctor` reports `overallHealthy: true`.
+2. **Seed Lifecycle**: Seed validation, diff calculation, apply execution, and post-apply diff (0 drift, 100% idempotent).
+3. **Publishing Semantics**: Student catalog hides draft & archived items; admin queries with `status=all` return all items.
+4. **Student Attempts**: VIDEO self-complete, Quiz 17.2 puzzle scoring, and ANKI card metric completions.
+5. **Content Versioning**: Modifying item content increments version number while preserving immutable item ID and historical attempt linkages.
+6. **Offline Sync**: Pending offline attempts upload once with deduplication on retry.
+7. **Safe V1 Migration**: Read-only extraction from V1, planned with high-confidence gating, and applied idempotently to Staging D1 only.
+8. **Android Staging Configuration**: Dual BuildConfig URLs (`V2_BASE_URL` and `V2_STAGING_URL`) with runtime switching in `V2CloudClient.kt`.
+
 
 
