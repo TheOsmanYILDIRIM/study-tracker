@@ -926,22 +926,31 @@ object StudyPackageExchangeManager {
 
             if (com.studytracker.BuildConfig.APP_ROLE == "PARENT") {
                 val adminToken = prefs.familyAdminToken.value
-                if (familyCode.isNotBlank() && adminToken.isNotBlank()) {
-                    val cloudResult = V2CloudClient.importCatalog(
-                        familyCode = familyCode,
-                        catalogJson = packageContent,
-                        adminToken = adminToken
-                    )
-                    if (cloudResult.isSuccess) {
-                        return@runCatching "$localSummary • Buluta da aktarıldı."
-                    }
+                if (familyCode.isBlank()) {
                     throw IllegalStateException(
-                        "Yerel import tamamlandı ancak bulut aktarımı başarısız: ${cloudResult.exceptionOrNull()?.message}"
+                        "Yerel import tamamlandı ancak buluta aktarmak için aile kodu gerekli."
                     )
                 }
+                if (adminToken.isBlank()) {
+                    throw IllegalStateException(
+                        "Yerel import tamamlandı ancak buluta aktarmak için yönetici anahtarı gerekli. Aile Bulut ayarlarından anahtarı kaydedin."
+                    )
+                }
+
+                val cloudResult = V2CloudClient.importCatalog(
+                    familyCode = familyCode,
+                    catalogJson = packageContent,
+                    adminToken = adminToken
+                )
+                if (cloudResult.isSuccess) {
+                    return@runCatching "$localSummary • Buluta da aktarıldı."
+                }
+                throw IllegalStateException(
+                    "Yerel import tamamlandı ancak bulut aktarımı başarısız: ${cloudResult.exceptionOrNull()?.message}"
+                )
             }
 
-            "$localSummary • Bulut aktarımı yapılmadı (yönetici yetkisi yok)."
+            "$localSummary • Öğrenci cihazında yerel katalog yüklendi."
         }
     }
 
