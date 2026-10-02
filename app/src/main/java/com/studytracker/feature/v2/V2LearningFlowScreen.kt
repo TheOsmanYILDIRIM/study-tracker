@@ -56,6 +56,7 @@ fun V2LearningFlowScreen(
     val prefs = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
     val familyCode by prefs.familyPairCode.collectAsState()
+    val isParent = com.studytracker.BuildConfig.APP_ROLE == "PARENT"
 
     val curriculumRepo = remember(db) { LocalV2CurriculumRepositoryImpl(db) }
     val attemptRepo = remember(db) { LocalV2AttemptRepositoryImpl(db) }
@@ -69,6 +70,106 @@ fun V2LearningFlowScreen(
     var selectedQuizItem by remember { mutableStateOf<LearningItem?>(null) }
     var selectedAnkiItem by remember { mutableStateOf<LearningItem?>(null) }
     var lockedPrereqNotice by remember { mutableStateOf<V2ItemProgress?>(null) }
+    var showCreateItemDialog by remember { mutableStateOf(false) }
+    var editingItem by remember { mutableStateOf<LearningItem?>(null) }
+
+    suspend fun saveNewItem(
+        itemType: ItemType,
+        displayLabel: String,
+        title: String,
+        contentUrl: String?,
+        payloadJson: String
+    ): Result<String> = runCatching {
+        val payload = payloadJson.trim().ifBlank { "{}" }
+        Json.parseToJsonElement(payload)
+
+        val now = System.currentTimeMillis()
+        val itemId = "item_${lessonId}_${UUID.randomUUID().toString().replace("-", "").take(10)}"
+        val versionId = "ver_${itemId}_v1"
+        val orderKey = (items.maxOfOrNull { it.orderKey } ?: 0.0) + 1000.0
+
+        db.withTransaction {
+            db.learningItemVersionDao().insertVersion(
+                LearningItemVersionEntity(
+                    id = versionId,
+                    itemId = itemId,
+                    versionNumber = 1,
+                    title = title.trim().ifBlank { displayLabel.trim() },
+                    contentUrl = contentUrl?.trim()?.ifBlank { null },
+                    payloadJson = payload,
+                    changelog = "Created in parent app",
+                    createdAt = now
+                )
+            )
+            db.learningItemDao().upsertItem(
+                LearningItemEntity(
+                    id = itemId,
+                    lessonId = lessonId,
+                    familyCode = familyCode,
+                    itemType = itemType,
+                    displayLabel = displayLabel.trim().ifBlank { "Yeni" },
+                    stableKey = itemId,
+                    orderKey = orderKey,
+                    currentVersionId = versionId,
+                    isArchived = false,
+                    createdAt = now,
+                    updatedAt = now
+                )
+            )
+        }
+
+        StudyPackageExchangeManager.uploadLocalV2CatalogToCloud(context).getOrThrow()
+        "Item eklendi ve buluta aktarıldı."
+    }
+
+    suspend fun saveItemEdit(
+        item: LearningItem,
+        displayLabel: String,
+        title: String,
+        contentUrl: String?,
+        payloadJson: String
+    ): Result<String> = runCatching {
+        val payload = payloadJson.trim().ifBlank { "{}" }
+        Json.parseToJsonElement(payload)
+
+        val versions = db.learningItemVersionDao().getVersionsForItemOnce(item.id)
+        val nextVersionNumber = (versions.maxOfOrNull { it.versionNumber } ?: 0) + 1
+        val now = System.currentTimeMillis()
+        val newVersionId = "ver_${item.id}_v$nextVersionNumber"
+
+        db.withTransaction {
+            db.learningItemVersionDao().insertVersion(
+                LearningItemVersionEntity(
+                    id = newVersionId,
+                    itemId = item.id,
+                    versionNumber = nextVersionNumber,
+                    title = title.trim().ifBlank { displayLabel.trim() },
+                    contentUrl = contentUrl?.trim()?.ifBlank { null },
+                    payloadJson = payload,
+                    changelog = "Edited in parent app",
+                    createdAt = now
+                )
+            )
+            db.learningItemDao().upsertItem(
+                LearningItemEntity(
+                    id = item.id,
+                    lessonId = item.lessonId,
+                    familyCode = item.familyCode,
+                    itemType = item.itemType,
+                    displayLabel = displayLabel.trim().ifBlank { item.displayLabel },
+                    stableKey = item.stableKey,
+                    orderKey = item.orderKey,
+                    currentVersionId = newVersionId,
+                    isArchived = item.isArchived,
+                    createdAt = item.createdAt,
+                    updatedAt = now
+                )
+            )
+        }
+
+        StudyPackageExchangeManager.uploadLocalV2CatalogToCloud(context).getOrThrow()
+        "Item güncellendi; eski ilerleme ve version geçmişi korundu."
+    }
 
     val lessonProgress = remember(items, allPrereqs, attempts) {
         val dummyLesson = Lesson(id = lessonId, courseId = "", familyCode = familyCode, title = "Öğrenme Akışı")
