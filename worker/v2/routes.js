@@ -71,7 +71,7 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
 
     // 1b. POST /api/v3/catalog/import - Parent/admin bulk catalog upsert
     if (path === '/api/v3/catalog/import' && method === 'POST') {
-      if (!isParent) return error('Parent/admin authorization required', 403);
+      if (!hasAdmin) return error('Admin authorization required', 403);
 
       const body = await request.json().catch(() => ({}));
       if (body.schemaVersion !== 'v2' || !Array.isArray(body.courses)) {
