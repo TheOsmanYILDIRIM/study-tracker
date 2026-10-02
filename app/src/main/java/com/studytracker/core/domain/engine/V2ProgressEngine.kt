@@ -52,6 +52,8 @@ data class V2CourseProgress(
     val completedItems: Int,
     val completionPercentage: Int,
     val averageScore: Double?,
+    val resumeLesson: Lesson?,
+    val resumeItem: LearningItem?,
     val lessonsProgress: List<V2LessonProgress>
 )
 
@@ -247,12 +249,16 @@ object V2ProgressEngine {
             Math.round((scores.average()) * 10.0) / 10.0
         } else null
 
+        val resumeLessonProgress = lessonsProgress.firstOrNull { it.nextUnfinishedItem != null }
+
         return V2CourseProgress(
             course = course,
             totalItems = totalItems,
             completedItems = completedItems,
             completionPercentage = percentage,
             averageScore = averageScore,
+            resumeLesson = resumeLessonProgress?.lesson,
+            resumeItem = resumeLessonProgress?.nextUnfinishedItem,
             lessonsProgress = lessonsProgress
         )
     }
