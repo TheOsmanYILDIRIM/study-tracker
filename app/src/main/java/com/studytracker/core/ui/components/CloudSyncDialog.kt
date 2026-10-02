@@ -32,6 +32,7 @@ import androidx.compose.ui.window.Dialog
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.data.remote.cloudflare.CloudflareSyncManager
+import com.studytracker.core.data.remote.v2.V2CloudClient
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 
@@ -368,6 +369,19 @@ fun CloudSyncDialog(
                             }
                             codeInput = pairResult.getOrThrow()
 
+                            val v2CloudStatus = V2CloudClient.fetchCatalog(
+                                familyCode = codeInput,
+                                adminToken = if (isParent) prefs.familyAdminToken.value.ifBlank { null } else null,
+                                role = if (isParent) "PARENT" else "CLIENT"
+                            ).fold(
+                                onSuccess = { courses ->
+                                    val lessonCount = courses.sumOf { it.lessons.size }
+                                    val itemCount = courses.sumOf { course -> course.lessons.sumOf { it.items.size } }
+                                    "V2 bulut: ${courses.size} ders, $lessonCount konu, $itemCount öğe"
+                                },
+                                onFailure = { err -> "V2 bulut okunamadı: ${err.message}" }
+                            )
+
                             if (isParent && onConflictDetected != null) {
                                 when (val checkRes = CloudflareSyncManager.syncWithConflictCheck(context)) {
                                     is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Conflict -> {
@@ -378,13 +392,13 @@ fun CloudSyncDialog(
                                     is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Success -> {
                                         isSyncing = false
                                         syncResultSuccess = true
-                                        syncResultText = checkRes.message
-                                        Toast.makeText(context, "✅ ${checkRes.message}", Toast.LENGTH_SHORT).show()
+                                        syncResultText = "${checkRes.message}\n$v2CloudStatus"
+                                        Toast.makeText(context, "✅ $v2CloudStatus", Toast.LENGTH_LONG).show()
                                     }
                                     is com.studytracker.core.data.remote.cloudflare.SyncCheckResult.Error -> {
                                         isSyncing = false
                                         syncResultSuccess = false
-                                        syncResultText = "Hata: ${checkRes.message}"
+                                        syncResultText = "V1: ${checkRes.message}\n$v2CloudStatus"
                                     }
                                 }
                             } else {
@@ -392,11 +406,11 @@ fun CloudSyncDialog(
                                 isSyncing = false
                                 if (res.isSuccess) {
                                     syncResultSuccess = true
-                                    syncResultText = res.getOrNull() ?: "Senkronizasyon Başarılı"
-                                    Toast.makeText(context, "✅ Senkronizasyon Başarılı!", Toast.LENGTH_SHORT).show()
+                                    syncResultText = "${res.getOrNull() ?: "V1 senkronizasyon başarılı"}\n$v2CloudStatus"
+                                    Toast.makeText(context, "✅ $v2CloudStatus", Toast.LENGTH_LONG).show()
                                 } else {
                                     syncResultSuccess = false
-                                    syncResultText = "Hata: ${res.exceptionOrNull()?.message}"
+                                    syncResultText = "V1 hata: ${res.exceptionOrNull()?.message}\n$v2CloudStatus"
                                 }
                             }
                         }
