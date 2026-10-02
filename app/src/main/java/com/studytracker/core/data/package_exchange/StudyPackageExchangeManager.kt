@@ -9,6 +9,7 @@ import android.os.Build
 import android.util.Base64
 import android.util.Log
 import androidx.core.content.FileProvider
+import androidx.room.withTransaction
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.db.entity.*
 import com.studytracker.core.data.local.prefs.AppPreferences
@@ -21,6 +22,10 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.contentOrNull
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.text.SimpleDateFormat
@@ -52,6 +57,45 @@ data class StudyTrackerPackage(
     val screenshots: List<RemoteScreenshotSyncDto> = emptyList(),
     val reviews: List<RemoteReviewSyncDto> = emptyList(),
     val quizzes: List<Quiz> = emptyList()
+)
+
+@Serializable
+private data class V2CatalogImportManifest(
+    val schemaVersion: String = "",
+    val courses: List<V2CatalogImportCourse> = emptyList()
+)
+
+@Serializable
+private data class V2CatalogImportCourse(
+    val id: String,
+    val title: String,
+    val subject: String,
+    val gradeLevel: Int = 9,
+    val description: String? = null,
+    val orderKey: Double = 1000.0,
+    val lessons: List<V2CatalogImportLesson> = emptyList()
+)
+
+@Serializable
+private data class V2CatalogImportLesson(
+    val id: String,
+    val stableKey: String = "",
+    val title: String,
+    val orderKey: Double = 1000.0,
+    val items: List<V2CatalogImportItem> = emptyList()
+)
+
+@Serializable
+private data class V2CatalogImportItem(
+    val id: String,
+    val stableKey: String,
+    val itemType: String,
+    val displayLabel: String,
+    val orderKey: Double = 1000.0,
+    val title: String = "",
+    val contentUrl: String? = null,
+    val publishingStatus: String = "active",
+    val payload: JsonElement? = null
 )
 
 object StudyPackageExchangeManager {
