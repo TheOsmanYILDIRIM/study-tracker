@@ -16,6 +16,7 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.plan_engine.PlanMergeEngine
 import com.studytracker.core.data.plan_engine.SimplePlanParser
 import com.studytracker.core.data.remote.sync.*
+import com.studytracker.core.data.remote.v2.V2CloudClient
 import com.studytracker.core.domain.model.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -921,7 +922,26 @@ object StudyPackageExchangeManager {
                 }
             }
 
-            "V2 katalog başarıyla yüklendi! (${manifest.courses.size} ders, $lessonCount konu, $itemCount öğe; $hiddenDraftCount taslak gizlendi)"
+            val localSummary = "V2 katalog başarıyla yüklendi! (${manifest.courses.size} ders, $lessonCount konu, $itemCount öğe; $hiddenDraftCount taslak gizlendi)"
+
+            if (com.studytracker.BuildConfig.APP_ROLE == "PARENT") {
+                val adminToken = prefs.familyAdminToken.value
+                if (familyCode.isNotBlank() && adminToken.isNotBlank()) {
+                    val cloudResult = V2CloudClient.importCatalog(
+                        familyCode = familyCode,
+                        catalogJson = packageContent,
+                        adminToken = adminToken
+                    )
+                    if (cloudResult.isSuccess) {
+                        return@runCatching "$localSummary • Buluta da aktarıldı."
+                    }
+                    throw IllegalStateException(
+                        "Yerel import tamamlandı ancak bulut aktarımı başarısız: ${cloudResult.exceptionOrNull()?.message}"
+                    )
+                }
+            }
+
+            "$localSummary • Bulut aktarımı yapılmadı (yönetici yetkisi yok)."
         }
     }
 
