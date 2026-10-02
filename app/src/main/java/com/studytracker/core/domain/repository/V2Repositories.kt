@@ -8,6 +8,7 @@ interface V2CurriculumRepository {
     fun getLessonsForCourse(courseId: String): Flow<List<Lesson>>
     fun getLessonById(lessonId: String): Flow<Lesson?>
     fun getLearningItemsForLesson(lessonId: String): Flow<List<LearningItem>>
+    fun getLearningItemsForFamily(familyCode: String): Flow<List<LearningItem>>
     fun getLearningItem(itemId: String): Flow<LearningItem?>
     fun getPrerequisites(): Flow<List<ItemPrerequisite>>
     suspend fun syncCatalog(familyCode: String, adminToken: String? = null): Result<Int>
