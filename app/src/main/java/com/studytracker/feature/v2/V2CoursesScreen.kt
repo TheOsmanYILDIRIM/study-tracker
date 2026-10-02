@@ -25,6 +25,7 @@ import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
+import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -48,6 +49,7 @@ fun V2CoursesScreen(
     val attempts by attemptRepo.getAttempts(familyCode, "student_default").collectAsState(initial = emptyList())
 
     var isSyncing by remember { mutableStateOf(false) }
+    var showSettingsDialog by remember { mutableStateOf(false) }
 
     fun refreshCatalog() {
         scope.launch {
@@ -61,6 +63,13 @@ fun V2CoursesScreen(
                 Toast.makeText(context, "Eşitleme hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
             }
         }
+    }
+
+    if (showSettingsDialog) {
+        CloudSyncDialog(
+            isParent = true,
+            onDismissRequest = { showSettingsDialog = false }
+        )
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
@@ -94,6 +103,16 @@ fun V2CoursesScreen(
                         }
                     },
                     actions = {
+                        IconButton(
+                            onClick = { showSettingsDialog = true }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Settings,
+                                contentDescription = "Ayarlar ve eşleştirme",
+                                tint = ZomoTextPrimary
+                            )
+                        }
+
                         IconButton(
                             onClick = { refreshCatalog() },
                             enabled = !isSyncing
