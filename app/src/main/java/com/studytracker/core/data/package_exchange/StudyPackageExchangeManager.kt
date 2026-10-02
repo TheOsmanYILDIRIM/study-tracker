@@ -434,6 +434,13 @@ object StudyPackageExchangeManager {
             if (packageContent.length > MAX_PACKAGE_CHARS) {
                 return@withContext Result.failure(Exception("Paket güvenli boyut sınırını aşıyor"))
             }
+
+            val root = runCatching { json.parseToJsonElement(packageContent).jsonObject }.getOrNull()
+            val schemaVersion = root?.get("schemaVersion")?.jsonPrimitive?.contentOrNull
+            if (schemaVersion == "v2" && root["courses"] != null) {
+                return@withContext importV2CatalogString(context, packageContent)
+            }
+
             val db = AppDatabase.getInstance(context)
             val prefs = AppPreferences.getInstance(context)
             val pkg = json.decodeFromString<StudyTrackerPackage>(packageContent)
@@ -802,6 +809,119 @@ object StudyPackageExchangeManager {
         } catch (e: Exception) {
             Log.e("PackageExchange", "Import error: ${e.message}", e)
             Result.failure(e)
+        }
+    }
+
+
+    private suspend fun importV2CatalogString(
+        context: Context,
+        packageContent: String
+    ): Result<String> = withContext(Dispatchers.IO) {
+        runCatching {
+            val manifest = json.decodeFromString<V2CatalogImportManifest>(packageContent)
+            require(manifest.schemaVersion == "v2") { "Desteklenmeyen V2 katalog sürümü" }
+            require(manifest.courses.isNotEmpty()) { "V2 katalog içinde ders bulunamadı" }
+
+            val db = AppDatabase.getInstance(context)
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value
+            val now = System.currentTimeMillis()
+
+            var lessonCount = 0
+            var itemCount = 0
+            var hiddenDraftCount = 0
+
+            db.withTransaction {
+                for (course in manifest.courses) {
+                    db.courseDao().upsertCourse(
+                        CourseEntity(
+                            id = course.id,
+                            familyCode = familyCode,
+                            title = course.title,
+                            subject = course.subject,
+                            gradeLevel = course.gradeLevel,
+                            description = course.description,
+                            orderKey = course.orderKey,
+                            isArchived = false,
+                            createdAt = now,
+                            updatedAt = now
+                        )
+                    )
+
+                    for (lesson in course.lessons) {
+                        lessonCount++
+                        db.lessonDao().upsertLesson(
+                            LessonEntity(
+                                id = lesson.id,
+                                courseId = course.id,
+                                familyCode = familyCode,
+                                title = lesson.title,
+                                orderKey = lesson.orderKey,
+                                isArchived = false,
+                                createdAt = now,
+                                updatedAt = now
+                            )
+                        )
+
+                        for (item in lesson.items) {
+                            itemCount++
+                            val isDraft = item.publishingStatus.equals("draft", ignoreCase = true)
+                            val isArchived = item.publishingStatus.equals("archived", ignoreCase = true)
+                            if (isDraft) hiddenDraftCount++
+
+                            val itemType = runCatching { ItemType.valueOf(item.itemType.uppercase()) }
+                                .getOrElse { throw IllegalArgumentException("Geçersiz V2 öğe tipi: ${item.itemType}") }
+
+                            val fingerprint = runCatching {
+                                item.payload
+                                    ?.jsonObject
+                                    ?.get("provenance")
+                                    ?.jsonObject
+                                    ?.get("fingerprint")
+                                    ?.jsonPrimitive
+                                    ?.contentOrNull
+                            }.getOrNull()?.take(16) ?: "import"
+
+                            val versionId = "ver_${item.id}_$fingerprint"
+                            val existingVersions = db.learningItemVersionDao().getVersionsForItemOnce(item.id)
+                            val existingVersion = existingVersions.firstOrNull { it.id == versionId }
+                            val versionNumber = existingVersion?.versionNumber
+                                ?: ((existingVersions.maxOfOrNull { it.versionNumber } ?: 0) + 1)
+
+                            db.learningItemVersionDao().insertVersion(
+                                LearningItemVersionEntity(
+                                    id = versionId,
+                                    itemId = item.id,
+                                    versionNumber = versionNumber,
+                                    title = item.title.ifBlank { item.displayLabel },
+                                    contentUrl = item.contentUrl,
+                                    payloadJson = item.payload?.toString(),
+                                    changelog = "V2 catalog file import",
+                                    createdAt = now
+                                )
+                            )
+
+                            db.learningItemDao().upsertItem(
+                                LearningItemEntity(
+                                    id = item.id,
+                                    lessonId = lesson.id,
+                                    familyCode = familyCode,
+                                    itemType = itemType,
+                                    displayLabel = item.displayLabel,
+                                    stableKey = item.stableKey,
+                                    orderKey = item.orderKey,
+                                    currentVersionId = versionId,
+                                    isArchived = isDraft || isArchived,
+                                    createdAt = now,
+                                    updatedAt = now
+                                )
+                            )
+                        }
+                    }
+                }
+            }
+
+            "V2 katalog başarıyla yüklendi! (${manifest.courses.size} ders, $lessonCount konu, $itemCount öğe; $hiddenDraftCount taslak gizlendi)"
         }
     }
 
