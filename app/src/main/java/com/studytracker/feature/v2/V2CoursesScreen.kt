@@ -67,7 +67,7 @@ fun V2CoursesScreen(
 
     if (showSettingsDialog) {
         CloudSyncDialog(
-            isParent = true,
+            isParent = com.studytracker.BuildConfig.APP_ROLE == "PARENT",
             onDismissRequest = { showSettingsDialog = false }
         )
     }
