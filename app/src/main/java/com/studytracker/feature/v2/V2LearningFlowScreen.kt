@@ -494,6 +494,134 @@ fun V2LearningFlowScreen(
 }
 
 @Composable
+private fun ParentV2ItemEditorDialog(
+    existingItem: LearningItem?,
+    onDismiss: () -> Unit,
+    onSave: (ItemType, String, String, String?, String) -> Unit
+) {
+    var itemType by remember(existingItem) { mutableStateOf(existingItem?.itemType ?: ItemType.VIDEO) }
+    var displayLabel by remember(existingItem) { mutableStateOf(existingItem?.displayLabel ?: "") }
+    var title by remember(existingItem) { mutableStateOf(existingItem?.currentVersion?.title ?: "") }
+    var contentUrl by remember(existingItem) { mutableStateOf(existingItem?.currentVersion?.contentUrl ?: "") }
+    var payloadJson by remember(existingItem) { mutableStateOf(existingItem?.currentVersion?.payloadJson ?: "{}") }
+    var validationError by remember { mutableStateOf<String?>(null) }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = ZenNightSurface,
+        shape = RoundedCornerShape(18.dp),
+        title = {
+            Text(
+                if (existingItem == null) "Yeni Öğrenme Itemı" else "Item Düzenle",
+                color = ZomoTextPrimary,
+                fontWeight = FontWeight.Bold
+            )
+        },
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 560.dp)
+                    .verticalScroll(androidx.compose.foundation.rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+                Text(
+                    if (existingItem == null) "Tip" else "Tip: ${itemType.name} (ilerleme güvenliği için değiştirilemez)",
+                    color = ZomoTextSecondary,
+                    style = MaterialTheme.typography.bodySmall
+                )
+
+                if (existingItem == null) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        ItemType.values().forEach { type ->
+                            FilterChip(
+                                selected = itemType == type,
+                                onClick = { itemType = type },
+                                label = { Text(type.name) }
+                            )
+                        }
+                    }
+                }
+
+                OutlinedTextField(
+                    value = displayLabel,
+                    onValueChange = { displayLabel = it },
+                    label = { Text("Etiket (örn. 2.3 / Q1)") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = title,
+                    onValueChange = { title = it },
+                    label = { Text("Başlık") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = contentUrl,
+                    onValueChange = { contentUrl = it },
+                    label = { Text("İçerik / video URL (opsiyonel)") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = payloadJson,
+                    onValueChange = { payloadJson = it },
+                    label = { Text("Payload JSON") },
+                    minLines = 5,
+                    maxLines = 12,
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                validationError?.let {
+                    Text(it, color = ZenRoseCoral, style = MaterialTheme.typography.bodySmall)
+                }
+
+                if (existingItem != null) {
+                    Text(
+                        "ID korunacak: ${existingItem.id}\nKaydetmek yeni bir content version oluşturur; eski attempt geçmişi silinmez.",
+                        color = ZomoTextMuted,
+                        style = MaterialTheme.typography.labelSmall
+                    )
+                }
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = {
+                    validationError = when {
+                        displayLabel.isBlank() -> "Etiket boş olamaz."
+                        title.isBlank() -> "Başlık boş olamaz."
+                        runCatching { Json.parseToJsonElement(payloadJson.ifBlank { "{}" }) }.isFailure -> "Payload geçerli JSON değil."
+                        else -> null
+                    }
+                    if (validationError == null) {
+                        onSave(
+                            itemType,
+                            displayLabel.trim(),
+                            title.trim(),
+                            contentUrl.trim().ifBlank { null },
+                            payloadJson.trim().ifBlank { "{}" }
+                        )
+                    }
+                },
+                colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold)
+            ) {
+                Text(
+                    if (existingItem == null) "Ekle ve Buluta Aktar" else "Kaydet ve Buluta Aktar",
+                    color = Color.Black,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text("İptal", color = ZomoTextSecondary)
+            }
+        }
+    )
+}
+@Composable
 private fun LearningItemPuzzleCard(
     itemProgress: V2ItemProgress,
     isNextItem: Boolean,
