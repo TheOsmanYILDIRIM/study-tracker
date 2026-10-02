@@ -2,5 +2,10 @@
   "name": "study-tracker",
   "version": "1.0.0",
   "type": "module",
-  "private": true
+  "private": true,
+  "scripts": {
+    "content:validate": "node cli/bin/studytracker-cli.js v2 modular validate",
+    "content:compile": "node scripts/compile-v2-catalog.cjs",
+    "content:bundle": "node scripts/export-v2-bundle.cjs"
+  }
 }
