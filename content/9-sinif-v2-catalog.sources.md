@@ -458,8 +458,8 @@ Tüm ders planları, kazanım haritaları ve soru içerikleri doğrudan yerel pr
     - [Q1] (QUIZ) **Tarih Bilimi ve Metodolojisi Testi**
       - Stable Key: `tar9_quiz_gecmisin_insasi`
       - Durum: 🟢 **verified** (Yayın: `active`)
-      - Soru Sayısı: 3
-      - Parmak İzi: `61008abf0a494c90`
+      - Soru Sayısı: 4
+      - Parmak İzi: `64b24a48c58f2211`
 
   - **Kaynak Türleri, Tarih Yazıcılığı ve Takvimler (TAR.9.1.2)** (`lesson_tar9_kaynaklar_takvimler`)
     - [2.1] (VIDEO) **Tarihin Doğası, Kaynak Türleri ve Tarih Yazıcılığı**
@@ -480,8 +480,8 @@ Tüm ders planları, kazanım haritaları ve soru içerikleri doğrudan yerel pr
     - [Q1] (QUIZ) **Tarihi Kaynaklar ve Takvim Sistemleri Testi**
       - Stable Key: `tar9_quiz_kaynaklar_takvimler`
       - Durum: 🟢 **verified** (Yayın: `active`)
-      - Soru Sayısı: 3
-      - Parmak İzi: `c723303814c83b8e`
+      - Soru Sayısı: 4
+      - Parmak İzi: `58ac0db7d11cb133`
 
   - **Eski Çağ Medeniyetleri ve Konargöçer Yaşam (TAR.9.2.1 - TAR.9.2.4)** (`lesson_tar9_eski_cag_medeniyetleri`)
     - [3.1] (VIDEO) **Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri**

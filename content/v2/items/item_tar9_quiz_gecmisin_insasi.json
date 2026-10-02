@@ -17,50 +17,64 @@
           "id": "q_tar1_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Aşağıdakilerden hangisi bir 'Tarihî Olgu'ya örnektir?",
+          "prompt": "Yeni arkeolojik buluntuların (örneğin Göbeklitepe tapınak kompleksinin keşfi gibi) ortaya çıkmasıyla mevcut tarihsel kabullerin değişebilmesi tarih biliminin hangi özelliğini kanıtlar?",
           "choices": [
-            "Malazgirt Savaşı",
-            "Anadolu'nun Türkleşmesi",
-            "İstanbul'un Fethi",
-            "Kurtuluş Savaşı"
+            "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
+            "Tarih biliminde belgelere güvenilemeyeceğini",
+            "Eski kaynakların tamamının değersizleştiğini",
+            "Tarih araştırmalarında arkeolojinin tek kaynak olduğunu"
           ],
-          "correctAnswer": "Anadolu'nun Türkleşmesi",
-          "explanation": "Olay belirli bir zamanda ve mekanda gerçekleşen anlık durumlardır; olgu ise uzun süreçte meydana gelen genel gelişmelerdir."
+          "correctAnswer": "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
+          "explanation": "Tarihsel bilgi mutlak ve değişmez değildir; yeni arkeolojik ve yazılı belgelerin bulunmasıyla mevcut bilgiler yeniden değerlendirilebilir ve değişebilir."
         },
         {
           "id": "q_tar1_2",
           "questionIndex": 1,
-          "type": "TRUE_FALSE",
-          "prompt": "Tarih bilimi geçmişte yaşanmış olayları incelediği için deney ve gözlem yöntemi uygulanamaz.",
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih araştırmalarında incelenen olayın geçtiği \"yer ve zaman\"ın belirtilmesi neden temel bir zorunluluktur?",
           "choices": [
-            "TRUE",
-            "FALSE"
+            "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
+            "Olayın kahramanlarını övmek veya yermek amacıyla",
+            "Deney ve gözlem yapılmasına imkan sağlamak için",
+            "Gelecekte yaşanacak olayların kesin tarihini hesaplamak için"
           ],
-          "correctAnswer": "TRUE",
-          "explanation": "Tarih tekrarlanamaz ve laboratuvar ortamında deneyi yapılamaz."
+          "correctAnswer": "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
+          "explanation": "Tarihi olaylar gerçekleştikleri dönemin fiziki, coğrafi ve toplumsal koşulları içinde anlam kazanır; bu nedenle yer ve zaman belirtilmeden doğru tarihsel tahlil yapılamaz."
         },
         {
           "id": "q_tar1_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih araştırmalarında olayların geçtiği dönemin koşullarını dikkate almadan günümüz değerleriyle yargılamaya ne denir?",
+          "prompt": "Tarih araştırmalarında geçmişte yaşanmış bir olayı o günün şartlarına göre değil, günümüzün değer yargıları ve bakış açısıyla değerlendirme yanılgısına ne ad verilir?",
           "choices": [
-            "Anakronizm",
-            "Objektiflik",
-            "Paleografi",
-            "Diplomatik"
+            "Anakronizm (Tarih Yanılgısı)",
+            "Objektiflik (Nesnellik)",
+            "Tasnif (Sınıflandırma)",
+            "Epigrafi (Yazıt Bilimi)"
           ],
-          "correctAnswer": "Anakronizm",
-          "explanation": "Anakronizm (tarih yanılgısı), olayları ve kavramları çağının dışına taşıma hatasıdır."
+          "correctAnswer": "Anakronizm (Tarih Yanılgısı)",
+          "explanation": "Anakronizm, geçmişteki şahsiyet ve olayları yaşadıkları çağın şartlarından soyutlayarak günümüzün ahlak, teknoloji ve mantığıyla değerlendirme hatasıdır."
+        },
+        {
+          "id": "q_tar1_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarih öğrenimi bireye eleştirel düşünme, kanıtlara dayalı akıl yürütme becerisi ve milli/kültürel kimlik bilinci kazandırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Tarih eğitimi hem toplumsal aidiyet ve kültür aktarımı sağlar hem de olaylara çok yönlü, kanıta dayalı ve eleştirel yaklaşma yetisi geliştirir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 4,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L25",
       "sourceSection": "Tarih Bilimi ve Metodolojisi",
-      "fingerprint": "61008abf0a494c90",
+      "fingerprint": "64b24a48c58f2211",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

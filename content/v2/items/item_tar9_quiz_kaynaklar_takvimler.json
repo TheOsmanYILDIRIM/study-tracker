@@ -17,50 +17,64 @@
           "id": "q_tar2_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Eski paraları inceleyerek tarihe yardımcı olan bilim dalı hangisidir?",
+          "prompt": "Eski yazı türlerini, alfabeleri ve tarihi el yazması belgeleri okuyup çözümleyerek tarihe yardımcı olan bilim dalı hangisidir?",
           "choices": [
-            "Epigrafi",
-            "Nümizmatik (Meskukat)",
-            "Paleografi",
-            "Heraldik"
+            "Paleografya (Eski Yazı Bilimi)",
+            "Nümizmatik (Para Bilimi)",
+            "Heraldik (Arma Bilimi)",
+            "Antropoloji (Irk Bilimi)"
           ],
-          "correctAnswer": "Nümizmatik (Meskukat)",
-          "explanation": "Nümizmatik madeni paraları inceler."
+          "correctAnswer": "Paleografya (Eski Yazı Bilimi)",
+          "explanation": "Paleografya eski çağlardan kalan yazıları, alfabeleri ve el yazmalarını okuyup inceleyen bilim dalıdır."
         },
         {
           "id": "q_tar2_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Türklerin kullandığı takvimlerden hangisi Ay yılı esasına dayanır?",
+          "prompt": "Türklerin İslamiyet öncesinde kullandığı, her yıla bir hayvan adının verildiği ve güneş yılı esasına dayanan takvim hangisidir?",
           "choices": [
             "12 Hayvanlı Türk Takvimi",
             "Hicri Takvim",
-            "Celali Takvimi",
-            "Rumi Takvim"
+            "Rumi Takvim",
+            "Celali Takvimi"
           ],
-          "correctAnswer": "Hicri Takvim",
-          "explanation": "Hicri takvim Ay'ın Dünya çevresindeki hareketine (354 gün) dayanır; diğerleri Güneş yılı esaslıdır."
+          "correctAnswer": "12 Hayvanlı Türk Takvimi",
+          "explanation": "12 Hayvanlı Türk Takvimi, Türklerin astronomi bilgisini gösteren, güneş yılı esaslı ve 12 yıllık döngüye sahip en eski milli takvimidir."
         },
         {
           "id": "q_tar2_3",
           "questionIndex": 2,
           "type": "TRUE_FALSE",
-          "prompt": "Kitabeleri ve anıtlar üzerindeki yazıtları inceleyen bilim dalı Epigrafi'dir.",
+          "prompt": "Olayın geçtiği döneme ait birinci elden kaynaklardan yararlanılarak daha sonra yazılan tarih kitapları ve makaleler \"İkinci Elden Kaynak\" olarak adlandırılır.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Epigrafi anıt ve kitabe bilimidir (örn. Orhun Abideleri)."
+          "explanation": "Birinci elden kaynaklara dayanılarak hazırlanan araştırma eserleri, ders kitapları ve ansiklopediler ikinci elden kaynaktır."
+        },
+        {
+          "id": "q_tar2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih yazıcılığının ilk şekli olan, olayları efsanelerle karışık ve neden-sonuç ilişkisine dayanmadan aktaran; en önemli temsilcisi Herodotos olan tarih türü hangisidir?",
+          "choices": [
+            "Hikâyeci (Rivayetçi) Tarih",
+            "Öğretici (Pragmatik) Tarih",
+            "Kronik Tarih",
+            "Sosyal Tarih"
+          ],
+          "correctAnswer": "Hikâyeci (Rivayetçi) Tarih",
+          "explanation": "Herodotosun Historia adlı eseriyle bilinen hikâyeci tarih, olayları kulaktan kulağa aktarılan rivayetlerle ve neden-sonuç aramaksızın anlatan ilk tarih yazıcılığı türüdür."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 4,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L45",
       "sourceSection": "Kaynak Türleri ve Takvimler",
-      "fingerprint": "c723303814c83b8e",
+      "fingerprint": "58ac0db7d11cb133",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",
