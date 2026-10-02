@@ -468,7 +468,8 @@ fun CloudSyncDialog(
 
                 Divider(color = ZenPaperBorder.copy(alpha = 0.3f), thickness = 0.8.dp)
 
-                // 2. WhatsApp & File Share Section                Text(
+                // 2. WhatsApp & File Share Section
+                Text(
                     text = "2. Alternatif: WhatsApp & Dosya Köprüsü (.studyplan)",
                     fontSize = 13.sp,
                     fontWeight = FontWeight.SemiBold,
