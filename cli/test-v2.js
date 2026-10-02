@@ -441,11 +441,11 @@ async function runCliTests() {
     const validation = validateSeed();
     assert.strictEqual(validation.valid, true, 'Seed manifest must be structurally valid');
     assert.strictEqual(validation.stats.courseCount, 9, 'Must have 9 courses');
-    assert.strictEqual(validation.stats.lessonCount, 12, 'Must have 12 lessons');
-    assert.strictEqual(validation.stats.itemCount, 38, 'Must have 38 items');
-    assert.strictEqual(validation.stats.videoCount, 34, 'Must have 34 video items');
-    assert.strictEqual(validation.stats.ankiCount, 4, 'Must have 4 ANKI items');
-    assert.strictEqual(validation.stats.quizCount, 0, 'Must have 0 fabricated quizzes');
+    assert.strictEqual(validation.stats.lessonCount, 35, 'Must have 35 lessons');
+    assert.strictEqual(validation.stats.itemCount, 114, 'Must have 114 items');
+    assert.strictEqual(validation.stats.videoCount, 74, 'Must have 74 video items');
+    assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
+    assert.strictEqual(validation.stats.quizCount, 35, 'Must have 35 deterministic quiz items');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings.`);
 
     // Test 8: Canonical History Teacher & Stale Warning / Active Error
@@ -454,7 +454,7 @@ async function runCliTests() {
     const historyCourse = catalog.courses.find(c => c.id === 'course_tar_9');
     assert(historyCourse, 'History course must exist');
     historyCourse.lessons.forEach(l => {
-      l.items.filter(i => i.itemType === 'VIDEO').forEach(item => {
+      l.items.filter(i => i.itemType === 'VIDEO' && (i.publishingStatus || 'active') === 'active').forEach(item => {
         assert.strictEqual(item.payload.teacher, 'Mehmet Celal ÖZYILDIZ', 'Active history video must be Mehmet Celal ÖZYILDIZ');
         assert.strictEqual(item.payload.provenance.reviewStatus, 'verified', 'Mehmet Celal ÖZYILDIZ items must be verified');
       });
@@ -475,7 +475,11 @@ async function runCliTests() {
 
     // Test 9: Ambiguous & Channel URL Warnings
     console.log('9️⃣ Testing Ambiguous/Channel URL audit warnings...');
-    const channelWarning = validation.warnings.find(w => w.warning.includes('Channel homepage URL'));
+    const testCatalogWithChannel = JSON.parse(JSON.stringify(catalog));
+    testCatalogWithChannel.courses[0].lessons[0].items[0].contentUrl = 'https://www.youtube.com/@cografyaninkodlari';
+    testCatalogWithChannel.courses[0].lessons[0].items[0].publishingStatus = 'draft';
+    const channelVal = validateSeed(testCatalogWithChannel);
+    const channelWarning = channelVal.warnings.find(w => w.warning.includes('Channel homepage URL'));
     assert(channelWarning, 'Must flag channel homepage URLs');
     console.log('   ✅ Channel homepage and ambiguous URLs successfully flagged in audit.');
 
