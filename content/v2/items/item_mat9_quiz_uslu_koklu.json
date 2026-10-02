@@ -66,15 +66,29 @@
           ],
           "correctAnswer": "4√2",
           "explanation": "32 = 16 · 2 olduğundan √32 = √(16·2) = 4√2."
+        },
+        {
+          "id": "q_mat1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "5⁻² ifadesinin rasyonel sayı değeri kaçtır?",
+          "choices": [
+            "1/25",
+            "-25",
+            "-10",
+            "1/10"
+          ],
+          "correctAnswer": "1/25",
+          "explanation": "a⁻ⁿ = 1 / aⁿ kuralı gereğince 5⁻² = 1 / 5² = 1/25."
         }
       ],
-      "questionCount": 4,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L15",
       "sourceSection": "1-2. Hafta: Üslü ve Köklü Gösterimler",
-      "fingerprint": "9676190cdd7bf378",
+      "fingerprint": "2c69102bd3cd5373",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

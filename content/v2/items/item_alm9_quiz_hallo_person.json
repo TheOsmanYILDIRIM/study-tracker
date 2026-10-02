@@ -52,15 +52,43 @@
           ],
           "correctAnswer": "TRUE",
           "explanation": "'Tschüss' Almanca samimi bir vedalaşma ifadesidir."
+        },
+        {
+          "id": "q_alm1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'Woher kommst du?' sorusuna verilebilecek en uygun yanıt hangisidir?",
+          "choices": [
+            "Ich komme aus der Türkei.",
+            "Ich wohne in Ankara.",
+            "Ich spreche Türkisch.",
+            "Ich bin 15 Jahre alt."
+          ],
+          "correctAnswer": "Ich komme aus der Türkei.",
+          "explanation": "'Woher kommst du?' (Nerelisin / Nereden geliyorsun?) sorusu memleketi ve kökeni sorar; 'Ich komme aus...' kalıbıyla cevaplanır."
+        },
+        {
+          "id": "q_alm1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada sabahları kullanılan 'Günaydın' selamlama ifadesi hangisidir?",
+          "choices": [
+            "Guten Morgen",
+            "Guten Abend",
+            "Gute Nacht",
+            "Auf Wiedersehen"
+          ],
+          "correctAnswer": "Guten Morgen",
+          "explanation": "Almancada sabah vakti selamlama için 'Guten Morgen' (Günaydın) kullanılır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L20",
       "sourceSection": "Modul 1: Hallo!",
-      "fingerprint": "71b0641c032b5b4a",
+      "fingerprint": "1e92347421e9e914",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

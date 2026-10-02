@@ -52,15 +52,43 @@
           ],
           "correctAnswer": "Glikojen",
           "explanation": "Glikojen hayvan, mantar ve bakterilerde glikozun depo formudur."
+        },
+        {
+          "id": "q_bio2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bitkilerde hücre çeperinin (duvarının) temel yapısal bileşeni olan polisakkarit hangisidir?",
+          "choices": [
+            "Selüloz",
+            "Nişasta",
+            "Glikojen",
+            "Kitin"
+          ],
+          "correctAnswer": "Selüloz",
+          "explanation": "Selüloz bitki hücre çeperinin yapısal polisakkaritidir ve suda çözünmez."
+        },
+        {
+          "id": "q_bio2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "DNA molekülünde adenin (A) bazı ile timin (T) bazı arasında kaç adet hidrojen bağı kurulur?",
+          "choices": [
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "correctAnswer": "2",
+          "explanation": "DNA çift sarmalında A ile T arasında ikili (2), G ile C arasında üçlü (3) zayıf hidrojen bağı bulunur."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L65",
       "sourceSection": "Canlıların Temel Bileşenleri",
-      "fingerprint": "779d7faa5f53aee7",
+      "fingerprint": "ee04678141c17e19",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

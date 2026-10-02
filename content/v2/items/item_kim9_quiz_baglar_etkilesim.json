@@ -17,7 +17,7 @@
           "id": "q_kim3_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Metal ve ametal atomları arasında elektron alışverişi ile oluşan güçlü bağ hangisidir?",
+          "prompt": "Metal ve ametal atomları arasında elektron alışverişi ile oluşan güçlü etkileşim hangisidir?",
           "choices": [
             "Kovalent Bağ",
             "İyonik Bağ",
@@ -25,7 +25,7 @@
             "Hidrojen Bağı"
           ],
           "correctAnswer": "İyonik Bağ",
-          "explanation": "Elektron alışverişi ile zıt yüklü iyonlar arasındaki elektrostatik çekim kuvveti iyonik bağı oluşturur."
+          "explanation": "Katyon ve anyonlar arasındaki elektrostatik çekim kuvvetine iyonik bağ denir."
         },
         {
           "id": "q_kim3_2",
@@ -37,30 +37,58 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Kalıcı dipolü olmayan apolar moleküllerde anlık dipollerle oluşan London kuvvetleri tek zayıf etkileşimdir."
+          "explanation": "Apolar moleküllerde ve soy gazlarda anlık (geçici) dipollerle oluşan tek zayıf etkileşim London kuvvetidir."
         },
         {
           "id": "q_kim3_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "H₂O molekülünün yüksek kaynama noktasına sahip olmasını sağlayan en baskın moleküller arası etkileşim hangisidir?",
+          "prompt": "H₂O molekülünün yüksek kaynama noktasına sahip olmasını sağlayan en baskın zayıf etkileşim türü hangisidir?",
           "choices": [
-            "İyon-Dipol",
             "Hidrojen Bağı",
-            "Dipol-Dipol",
-            "London Kuvvetleri"
+            "Dipol-Dipol Etkileşimi",
+            "London Kuvvetleri",
+            "İyon-Dipol Etkileşimi"
           ],
           "correctAnswer": "Hidrojen Bağı",
-          "explanation": "F, O, N atomlarına bağlı hidrojen atomunun yaptığı hidrojen bağı zayıf etkileşimlerin en güçlüsüdür."
+          "explanation": "F, O, N atomlarına bağlı hidrojen atomunun oluşturduğu hidrojen bağı, en kuvvetli zayıf etkileşimdir."
+        },
+        {
+          "id": "q_kim3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Ametal atomları arasında elektronların ortaklaşa kullanılmasıyla oluşan güçlü etkileşime ne ad verilir?",
+          "choices": [
+            "Kovalent Bağ",
+            "İyonik Bağ",
+            "Metalik Bağ",
+            "Dipol-Dipol Etkileşimi"
+          ],
+          "correctAnswer": "Kovalent Bağ",
+          "explanation": "İki veya daha fazla ametal atomunun değerlik elektronlarını ortaklaşa kullanması kovalent bağı oluşturur."
+        },
+        {
+          "id": "q_kim3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi zayıf etkileşimler (fiziksel bağlar) sınıfına girer?",
+          "choices": [
+            "Dipol-dipol etkileşimleri",
+            "İyonik bağ",
+            "Kovalent bağ",
+            "Metalik bağ"
+          ],
+          "correctAnswer": "Dipol-dipol etkileşimleri",
+          "explanation": "Van der Waals etkileşimleri (dipol-dipol, London, iyon-dipol) ve hidrojen bağları zayıf etkileşimlerdir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L105",
       "sourceSection": "Kimyasal Türler Arası Etkileşimler",
-      "fingerprint": "5f11263ed19e23de",
+      "fingerprint": "657fc277d469842e",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

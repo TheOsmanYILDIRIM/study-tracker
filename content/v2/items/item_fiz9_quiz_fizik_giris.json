@@ -22,16 +22,16 @@
             "Mekanik",
             "Optik",
             "Termodinamik",
-            "Elektromanyetizma"
+            "Nükleer Fizik"
           ],
           "correctAnswer": "Optik",
-          "explanation": "Işık ve ışık olaylarını inceleyen fizik dalı Optik'tir."
+          "explanation": "Işığın doğasını, yayılmasını ve maddeyle etkileşimini inceleyen dal optiktir."
         },
         {
           "id": "q_fiz1_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Aşağıdakilerden hangisi Türkiye'deki ulusal bilim araştırma merkezlerinden biridir?",
+          "prompt": "Aşağıdakilerden hangisi Türkiye'deki ulusal bilim araştırma merkezlerindendir?",
           "choices": [
             "CERN",
             "NASA",
@@ -39,7 +39,7 @@
             "ESA"
           ],
           "correctAnswer": "TÜBİTAK",
-          "explanation": "TÜBİTAK (Türkiye Bilimsel ve Teknolojik Araştırma Kurumu) Türkiye'nin ulusal araştırma merkezidir."
+          "explanation": "TÜBİTAK ve TENMAK Türkiye Cumhuriyeti ulusal bilim ve araştırma kurumlarıdır."
         },
         {
           "id": "q_fiz1_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Fiziğin temel tanımı madde-enerji etkileşimi ve doğa yasalarıdır."
+          "explanation": "Fizik evrendeki madde ve enerjinin doğasını ve birbirleriyle ilişkilerini temel alır."
+        },
+        {
+          "id": "q_fiz1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kristal yapılı katı maddelerin elektriksel, manyetik, optik ve termal özelliklerini (yarı iletkenler, süper iletkenler, mikroçipler) inceleyen fizik alt dalı hangisidir?",
+          "choices": [
+            "Katıhâl Fiziği",
+            "Nükleer Fizik",
+            "Termodinamik",
+            "Mekanik"
+          ],
+          "correctAnswer": "Katıhâl Fiziği",
+          "explanation": "Katıhâl fiziği kristal örgü yapılarını, mikroçipleri ve modern nanoteknolojiyi inceler."
+        },
+        {
+          "id": "q_fiz1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi SI sisteminde 'temel' (türetilmemiş) büyüklüklerden biridir?",
+          "choices": [
+            "Kütle (kg)",
+            "Kuvvet (N)",
+            "Hız (m/s)",
+            "Enerji (J)"
+          ],
+          "correctAnswer": "Kütle (kg)",
+          "explanation": "KISAMUZ kısaltmasıyla bilinen temel büyüklükler: Kütle, Işık şiddeti, Sıcaklık, Akım şiddeti, Madde miktarı, Uzunluk, Zaman."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L30",
       "sourceSection": "Fizik Bilimine Giriş",
-      "fingerprint": "46692a3e70359c73",
+      "fingerprint": "3ff6bb4165cae40e",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

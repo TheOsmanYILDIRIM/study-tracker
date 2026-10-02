@@ -20,12 +20,12 @@
           "prompt": "You _______ stop when the traffic lights turn red. It is a strict rule.",
           "choices": [
             "must",
-            "can",
             "might",
-            "could"
+            "could",
+            "would"
           ],
           "correctAnswer": "must",
-          "explanation": "'Must' expresses strong obligation and legal rules."
+          "explanation": "'Must' expresses strong obligation or official rules and laws."
         },
         {
           "id": "q_ing3_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "'Will' is used for predictions without prior evidence and instant decisions."
+          "explanation": "'Will' expresses on-the-spot decisions, promises, and predictions without present evidence."
         },
         {
           "id": "q_ing3_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "He _______ play the piano when he was only five years old.",
           "choices": [
+            "can",
             "could",
-            "must",
-            "should",
-            "will"
+            "will",
+            "must"
           ],
           "correctAnswer": "could",
-          "explanation": "'Could' expresses past general ability."
+          "explanation": "'Could' expresses general ability in the past."
+        },
+        {
+          "id": "q_ing3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Complete the sentence expressing polite advice: 'You have an important exam tomorrow; you _______ study tonight.'",
+          "choices": [
+            "should",
+            "mustn't",
+            "can't",
+            "used to"
+          ],
+          "correctAnswer": "should",
+          "explanation": "'Should' is used to give recommendations and constructive advice."
+        },
+        {
+          "id": "q_ing3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Which structure is used to express past habits and routines that are no longer true today?",
+          "choices": [
+            "used to",
+            "is going to",
+            "will",
+            "must"
+          ],
+          "correctAnswer": "used to",
+          "explanation": "'Used to + base verb' describes repeated actions or states in the past that are no longer true today."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L100",
       "sourceSection": "Themes 4-8: Modals and Future",
-      "fingerprint": "09ddc308f4888158",
+      "fingerprint": "9476a2f3f289e979",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

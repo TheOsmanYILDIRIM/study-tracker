@@ -17,64 +17,78 @@
           "id": "q_tar1_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Yeni arkeolojik buluntuların (örneğin Göbeklitepe tapınak kompleksinin keşfi gibi) ortaya çıkmasıyla mevcut tarihsel kabullerin değişebilmesi tarih biliminin hangi özelliğini kanıtlar?",
+          "prompt": "Yeni arkeolojik buluntuların (örneğin Göbeklitepe tapınak kompleksinin keşfi gibi) mevcut tarih tezlerini değiştirmesi neyi kanıtlar?",
           "choices": [
+            "Tarih biliminde deney ve gözlem yapılamayacağını",
             "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
-            "Tarih biliminde belgelere güvenilemeyeceğini",
-            "Eski kaynakların tamamının değersizleştiğini",
-            "Tarih araştırmalarında arkeolojinin tek kaynak olduğunu"
+            "Yazılı kaynakların arkeolojik buluntulardan daha değersiz olduğunu",
+            "Geçmişin tamamen bilinemez olduğunu"
           ],
           "correctAnswer": "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
-          "explanation": "Tarihsel bilgi mutlak ve değişmez değildir; yeni arkeolojik ve yazılı belgelerin bulunmasıyla mevcut bilgiler yeniden değerlendirilebilir ve değişebilir."
+          "explanation": "Tarihsel bilgi mutlak ve değişmez değildir; yeni bulunan birinci elden kanıtlar, arkeolojik keşifler ve belgeler ışığında yeniden yorumlanır ve güncellenir."
         },
         {
           "id": "q_tar1_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih araştırmalarında incelenen olayın geçtiği \"yer ve zaman\"ın belirtilmesi neden temel bir zorunluluktur?",
+          "prompt": "Tarih araştırmalarında incelenen olayın geçtiği \"yer ve zaman\"ın belirlenmesi neden zorunludur?",
           "choices": [
             "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
-            "Olayın kahramanlarını övmek veya yermek amacıyla",
-            "Deney ve gözlem yapılmasına imkan sağlamak için",
-            "Gelecekte yaşanacak olayların kesin tarihini hesaplamak için"
+            "Olayları günümüzün ahlak ve hukuk kurallarıyla yargılayabilmek için",
+            "Tarih yazımında kronolojik sıralamayı tek amaç haline getirmek için",
+            "Yalnızca devlet yöneticilerinin biyografilerini yazabilmek için"
           ],
           "correctAnswer": "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
-          "explanation": "Tarihi olaylar gerçekleştikleri dönemin fiziki, coğrafi ve toplumsal koşulları içinde anlam kazanır; bu nedenle yer ve zaman belirtilmeden doğru tarihsel tahlil yapılamaz."
+          "explanation": "Bir olayın doğru anlaşılabilmesi ancak o dönemin mekan koşulları ve zamanın zihniyet dünyası dikkate alınarak mümkündür."
         },
         {
           "id": "q_tar1_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih araştırmalarında geçmişte yaşanmış bir olayı o günün şartlarına göre değil, günümüzün değer yargıları ve bakış açısıyla değerlendirme yanılgısına ne ad verilir?",
+          "prompt": "Tarih araştırmalarında geçmişte yaşanmış bir olayı o günün şartlarına göre değil, günümüzün değer yargıları, kavramları ve bakış açısıyla değerlendirme hatasına ne ad verilir?",
           "choices": [
+            "Tasnif",
             "Anakronizm (Tarih Yanılgısı)",
-            "Objektiflik (Nesnellik)",
-            "Tasnif (Sınıflandırma)",
-            "Epigrafi (Yazıt Bilimi)"
+            "Tahlil",
+            "Terkip"
           ],
           "correctAnswer": "Anakronizm (Tarih Yanılgısı)",
-          "explanation": "Anakronizm, geçmişteki şahsiyet ve olayları yaşadıkları çağın şartlarından soyutlayarak günümüzün ahlak, teknoloji ve mantığıyla değerlendirme hatasıdır."
+          "explanation": "Anakronizm, geçmişteki olay veya kişileri kendi çağlarının koşullarından koparıp günümüz algısıyla yorumlama hatasıdır."
         },
         {
           "id": "q_tar1_4",
           "questionIndex": 3,
           "type": "TRUE_FALSE",
-          "prompt": "Tarih öğrenimi bireye eleştirel düşünme, kanıtlara dayalı akıl yürütme becerisi ve milli/kültürel kimlik bilinci kazandırır.",
+          "prompt": "Tarih öğrenimi bireye eleştirel düşünme, kanıtlara dayalı akıl yürütme ve milli kimlik bilinci kazandırır.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Tarih eğitimi hem toplumsal aidiyet ve kültür aktarımı sağlar hem de olaylara çok yönlü, kanıta dayalı ve eleştirel yaklaşma yetisi geliştirir."
+          "explanation": "Tarih eğitimi bireyin sorgulama, çok boyutlu düşünme ve toplumsal hafızayı anlama becerisini geliştirir."
+        },
+        {
+          "id": "q_tar1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih biliminin konusu aşağıdakilerden hangisidir?",
+          "choices": [
+            "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+            "Doğa olaylarının fiziksel ve kimyasal kanunları",
+            "Gelecekte yaşanacak olayların kesin tahmin edilmesi",
+            "Yalnızca devletlerin askeri savaşları"
+          ],
+          "correctAnswer": "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+          "explanation": "Tarih; geçmişteki insan topluluklarının siyasi, sosyal, ekonomik ve kültürel faaliyetlerini sebep-sonuç ilişkisi içinde inceler."
         }
       ],
-      "questionCount": 4,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L25",
       "sourceSection": "Tarih Bilimi ve Metodolojisi",
-      "fingerprint": "64b24a48c58f2211",
+      "fingerprint": "359262862d218538",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

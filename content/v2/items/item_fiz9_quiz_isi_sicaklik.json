@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Sıcaklık birimi SI sisteminde aşağıdakilerden hangisidir?",
           "choices": [
-            "Celcius (°C)",
+            "Celsius (°C)",
             "Fahrenheit (°F)",
             "Kelvin (K)",
             "Kalori (cal)"
           ],
           "correctAnswer": "Kelvin (K)",
-          "explanation": "SI birim sisteminde temel sıcaklık birimi Kelvin'dir."
+          "explanation": "SI sisteminde mutlak sıcaklık birimi Kelvindir."
         },
         {
           "id": "q_fiz4_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Saf maddelerin erime, kaynama gibi faz dönüşümleri sırasında aldıkları ısı sıcaklığı artırmaz, bağları koparmaya harcanır."
+          "explanation": "Saf maddeler erime ve kaynama gibi hâl değişimleri sırasında aldıkları ısıyı bağları kırmak için kullanır; sıcaklık sabit kalır."
         },
         {
           "id": "q_fiz4_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Güneş'ten Dünya'ya ısının ulaşması hangi ısı aktarım yoluyla gerçekleşir?",
           "choices": [
-            "İletim (Kondüksiyon)",
+            "İletim",
             "Konveksiyon (Taşıma)",
             "Işıma (Radyasyon)",
-            "Sürtünme"
+            "Buharlaşma"
           ],
           "correctAnswer": "Işıma (Radyasyon)",
-          "explanation": "Uzay boşluğunda madde olmadığından Güneş enerjisi Dünya'ya elektromanyetik dalgalar (ışıma) yoluyla ulaşır."
+          "explanation": "Uzay boşluğunda madde bulunmadığından ısı elektromanyetik dalgalarla (ışıma yoluyla) yayılır."
+        },
+        {
+          "id": "q_fiz4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "1 gram saf maddenin sıcaklığını 1 °C artırmak için verilmesi gereken ısı enerjisine ne ad verilir?",
+          "choices": [
+            "Öz ısı (Özgül Isı)",
+            "Isı sığası",
+            "Gizli erime ısısı",
+            "İç enerji"
+          ],
+          "correctAnswer": "Öz ısı (Özgül Isı)",
+          "explanation": "Öz ısı (c) maddeler için ayırt edici bir özelliktir ve 1 gram maddenin sıcaklığını 1 °C değiştirmek için gereken enerjidir."
+        },
+        {
+          "id": "q_fiz4_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıvı ve gaz gibi akışkanlarda ısınan maddenin genleşerek yükselmesi ve soğuk maddenin alta inmesiyle gerçekleşen ısı iletim yolu hangisidir?",
+          "choices": [
+            "Konveksiyon (Taşıma)",
+            "İletim",
+            "Işıma",
+            "Genleşme"
+          ],
+          "correctAnswer": "Konveksiyon (Taşıma)",
+          "explanation": "Akışkanlarda moleküllerin yer değiştirmesiyle ısının yayılmasına konveksiyon (taşıma) denir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L170",
       "sourceSection": "Enerji ve Isı Ünitesi",
-      "fingerprint": "29239d124da9f020",
+      "fingerprint": "f53a95afed67303d",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

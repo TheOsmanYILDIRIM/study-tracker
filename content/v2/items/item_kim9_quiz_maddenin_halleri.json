@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Sıvıların akmaya karşı gösterdiği dirence ne ad verilir?",
           "choices": [
-            "Yüzey Gerilimi",
+            "Akışkanlık",
             "Viskozite",
-            "Adezyon",
+            "Yüzey Gerilimi",
             "Buhar Basıncı"
           ],
           "correctAnswer": "Viskozite",
-          "explanation": "Sıvıların akmaya karşı direnci viskozite olarak adlandırılır (örn. balın viskozitesi sudan büyüktür)."
+          "explanation": "Viskozite sıvının akmaya karşı gösterdiği iç dirençtir (örneğin balın viskozitesi sudan büyüktür)."
         },
         {
           "id": "q_kim4_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Amorf katılar belirli bir geometrik kristal yapısı ve net erime noktası olmayan katılardır."
+          "explanation": "Belirli bir kristal geometrisi olmayan ve camsı geçiş sıcaklığı olan katılara amorf katı denir."
         },
         {
           "id": "q_kim4_3",
@@ -46,21 +46,49 @@
           "prompt": "Yeşil kimyanın (Green Chemistry) temel amacı nedir?",
           "choices": [
             "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
-            "Yalnızca bitkilerden kimyasal madde üretmek",
-            "Tüm laboratuvar deneylerini dijital ortama taşımak",
-            "Kimyasal reaksiyon hızlarını sınırsız artırmak"
+            "Tüm kimyasalların üretimini durdurmak",
+            "Sadece organik bileşikler üretmek",
+            "Fosil yakıt tüketimini artırmak"
           ],
           "correctAnswer": "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
-          "explanation": "Yeşil kimya çevre kirliliğini engelleme, atık azaltımı ve enerji tasarrufunu amaçlar."
+          "explanation": "Yeşil kimya sürdürülebilirlik ilkeleri doğrultusunda zararlı madde kullanımını ve atık oluşumunu en aza indirmeyi hedefler."
+        },
+        {
+          "id": "q_kim4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıcaklığı artırılan bir sıvının viskozitesi ve akıcılığı nasıl değişir?",
+          "choices": [
+            "Viskozitesi azalır, akıcılığı artar.",
+            "Viskozitesi artar, akıcılığı azalır.",
+            "İkisi de artar.",
+            "İkisi de değişmez."
+          ],
+          "correctAnswer": "Viskozitesi azalır, akıcılığı artar.",
+          "explanation": "Sıcaklık arttıkça moleküller arası çekim kuvvetlerinin etkisi zayıflar, viskozite düşer ve sıvı daha akıcı hale gelir."
+        },
+        {
+          "id": "q_kim4_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir katının sıvı hâle geçmeden doğrudan gaz hâline geçmesi olayına ne ad verilir?",
+          "choices": [
+            "Süblimleşme",
+            "Kırağılaşma",
+            "Buharlaşma",
+            "Yoğuşma"
+          ],
+          "correctAnswer": "Süblimleşme",
+          "explanation": "Katı halden doğrudan gaz haline geçişe süblimleşme (örneğin kuru buz veya naftalin) denir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L145",
       "sourceSection": "Maddenin Halleri ve Yeşil Kimya",
-      "fingerprint": "94f081c22bc3f7de",
+      "fingerprint": "8aae725be1b3455e",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

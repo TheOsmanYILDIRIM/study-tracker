@@ -17,50 +17,78 @@
           "id": "q_tde1_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Aralarında benzerlik ilişkisi kurulan iki varlıktan zayıf olanın güçlü olana benzetilmesine ne denir?",
+          "prompt": "Aralarında benzerlik ilişkisi kurulan iki varlıktan zayıf olanın güçlü olana benzetilmesi sanatına ne ad verilir?",
           "choices": [
+            "Teşhis (Kişileştirme)",
             "Teşbih (Benzetme)",
             "İstiare (Eğretileme)",
-            "Teşhis (Kişileştirme)",
             "Tezat (Karşıtlık)"
           ],
           "correctAnswer": "Teşbih (Benzetme)",
-          "explanation": "Teşbih benzetme sanatıdır; 4 temel ögesi vardır (benzeyen, kendisine benzetilen, benzetme yönü, benzetme edatı)."
+          "explanation": "Dört ögesi (benzeyen, kendisine benzetilen, benzetme yönü, benzetme edatı) olan edebi sanattır."
         },
         {
           "id": "q_tde1_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Dize sonlarındaki yazılışları ve anlamları aynı olan ek veya sözcük tekrarlarına Redif denir.",
+          "prompt": "Dize sonlarındaki yazılışları ve anlamları aynı olan ek veya sözcük tekrarlarına 'Redif' denir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Aynı görevdeki ek veya aynen tekrarlanan sözcükler rediftir; kökteki ses benzerlikleri ise kafiyedir."
+          "explanation": "Kafiyeden sonra gelen aynı görev ve anlamdaki ses benzerlikleri rediftir."
         },
         {
           "id": "q_tde1_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve düşüncelerini kanıtlama amacı gütmeden samimi bir dille anlattığı türe ne ad verilir?",
+          "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve düşüncelerini kanıtlama amacı gütmeden samimi bir dille aktardığı metin türü hangisidir?",
           "choices": [
-            "Deneme",
             "Makale",
-            "Fıkra",
-            "Eleştiri"
+            "Fıkra (Köşe Yazısı)",
+            "Deneme",
+            "Biyografi"
           ],
           "correctAnswer": "Deneme",
-          "explanation": "Montaigne ile özdeşleşen 'deneme' türünde kanıtlama zorunluluğu yoktur, öznel bir türdür."
+          "explanation": "Deneme, yazarın kendi kendisiyle konuşur gibi içten bir üslupla yazdığı düşünce yazısıdır."
+        },
+        {
+          "id": "q_tde1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şiirde dize sonlarında tek ses benzerliğine dayanan uyak (kafiye) türü hangisidir?",
+          "choices": [
+            "Yarım Uyak",
+            "Tam Uyak",
+            "Zengin Uyak",
+            "Cinaslı Uyak"
+          ],
+          "correctAnswer": "Yarım Uyak",
+          "explanation": "Dize sonlarındaki tek ses benzerliğine yarım uyak denir (iki ses tam uyak, üç ve üzeri ses zengin uyaktır)."
+        },
+        {
+          "id": "q_tde1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Edebiyatın güzel sanatlar içerisindeki yeri hangi sınıflandırma grubundadır?",
+          "choices": [
+            "İşitsel (Fonetik) Sanatlar",
+            "Görsel (Plastik) Sanatlar",
+            "Dramatik (Ritmik) Sanatlar",
+            "Uygulamalı Sanatlar"
+          ],
+          "correctAnswer": "İşitsel (Fonetik) Sanatlar",
+          "explanation": "Malzemesi dil ve ses olan edebiyat ve müzik, fonetik (işitsel) sanatlar grubunda yer alır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L25",
       "sourceSection": "Sözün İnceliği Teması",
-      "fingerprint": "295cb2593369ac6e",
+      "fingerprint": "072ff0ea0b1f61c1",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

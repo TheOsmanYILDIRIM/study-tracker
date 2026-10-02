@@ -17,7 +17,7 @@
           "id": "q_tar4_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Çin'den başlayıp Orta Asya üzerinden Akdeniz ve Karadeniz limanlarına ulaşan tarihi ticaret yolu hangisidir?",
+          "prompt": "Çin'den başlayıp Orta Asya üzerinden Akdeniz ve Karadeniz limanlarına uzanan tarihi kervan yolu hangisidir?",
           "choices": [
             "Baharat Yolu",
             "İpek Yolu",
@@ -25,19 +25,19 @@
             "Kürk Yolu"
           ],
           "correctAnswer": "İpek Yolu",
-          "explanation": "İpek Yolu Çin'den Avrupa'ya uzanan ana ticaret aksıdır."
+          "explanation": "İpek Yolu doğu ile batı arasındaki en önemli kara ticaret ve kültür köprüsüdür."
         },
         {
           "id": "q_tar4_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Orta Çağ Avrupası'nda siyasi gücün derebeyleri (senyörler) arasında bölündüğü yönetim sistemine Feodalizm denir.",
+          "prompt": "Orta Çağ Avrupası'nda siyasi gücün derebeyleri (senyörler) arasında bölündüğü kapalı tarım ekonomisine dayalı sistem Feodalizm (Derebeylik) olarak adlandırılır.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Feodalizm merkezi otoritenin zayıf olduğu, toprak sahibi soyluların egemen olduğu düzendir."
+          "explanation": "Feodalizmde merkezi krallıklar zayıf, soylular ve şatolar egemendir."
         },
         {
           "id": "q_tar4_3",
@@ -47,20 +47,48 @@
           "choices": [
             "Beytülhikme",
             "Nizamiye Medresesi",
-            "Darülfünun",
-            "Enderun"
+            "Dârülfünûn",
+            "Rasathane"
           ],
           "correctAnswer": "Beytülhikme",
-          "explanation": "Beytülhikme (Bilgelik Evi) İslam'ın Altın Çağı'nda kurulan tercüme ve bilim akademisidir."
+          "explanation": "Beytülhikme (Bilgelik Evi) antik Yunan, Fars ve Hint eserlerinin Arapçaya çevrildiği büyük bilim akademisidir."
+        },
+        {
+          "id": "q_tar4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "375 yılında Hunların batıya doğru ilerlemesiyle başlayan ve Roma İmparatorluğu'nun parçalanmasına yol açan büyük tarihi olay hangisidir?",
+          "choices": [
+            "Kavimler Göçü",
+            "Haçlı Seferleri",
+            "Yüzyıl Savaşları",
+            "Moğol İstilası"
+          ],
+          "correctAnswer": "Kavimler Göçü",
+          "explanation": "375'te başlayan Kavimler Göçü ile İlk Çağ sona ermiş, Roma ikiye bölünmüş ve Orta Çağ başlamıştır."
+        },
+        {
+          "id": "q_tar4_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "1215 yılında İngiltere Kralı Yurtsuz John ile soylular arasında imzalanan, kralın yetkilerini tarihte ilk kez kısıtlayan belge hangisidir?",
+          "choices": [
+            "Magna Carta Libertatum (Büyük Şart)",
+            "Habeas Corpus",
+            "İnsan Hakları Bildirisi",
+            "Vestfalya Barışı"
+          ],
+          "correctAnswer": "Magna Carta Libertatum (Büyük Şart)",
+          "explanation": "1215 Magna Carta ile kralın keyfi vergi koyması yasaklanmış ve anayasal monarşi yolunda ilk adım atılmıştır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L155",
       "sourceSection": "Orta Çağ Medeniyetleri",
-      "fingerprint": "b1e6b1df1b2c6b14",
+      "fingerprint": "395047f45aa1d778",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

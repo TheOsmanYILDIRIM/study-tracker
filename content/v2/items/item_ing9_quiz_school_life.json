@@ -21,23 +21,23 @@
           "choices": [
             "go",
             "goes",
-            "is going",
-            "went"
+            "going",
+            "is go"
           ],
           "correctAnswer": "goes",
-          "explanation": "In Simple Present Tense, third-person singular subjects (He/She/It) take -s/-es suffix: 'goes'."
+          "explanation": "In Simple Present Tense, third-person singular (he/she/it) takes '-es' for 'go' -> 'goes'."
         },
         {
           "id": "q_ing1_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "'Look! The students are playing football right now.' uses the Present Continuous Tense correctly.",
+          "prompt": "'Look! The students are playing football right now.' uses the Present Continuous Tense.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "'Look!' and 'right now' indicate an action happening at the moment of speaking (Present Continuous)."
+          "explanation": "'are playing ... right now' is the standard Present Continuous form for actions happening at the moment."
         },
         {
           "id": "q_ing1_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Which question word is used to ask about nationalities/origins: '_______ are you from?'",
           "choices": [
-            "Where",
-            "When",
             "What",
+            "When",
+            "Where",
             "Who"
           ],
           "correctAnswer": "Where",
-          "explanation": "'Where are you from?' asks for country or origin."
+          "explanation": "'Where are you from?' is used to ask someone's place of origin or nationality."
+        },
+        {
+          "id": "q_ing1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Choose the grammatically correct sentence in Simple Present Tense for third-person singular:",
+          "choices": [
+            "He watches documentary films on weekends.",
+            "He watch documentary films on weekends.",
+            "He is watch documentary films on weekends.",
+            "He watching documentary films on weekends."
+          ],
+          "correctAnswer": "He watches documentary films on weekends.",
+          "explanation": "In Simple Present Tense, verbs ending in '-ch' take '-es' with third-person singular subjects (He watches)."
+        },
+        {
+          "id": "q_ing1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Which preposition of time is used with exact clock times (e.g., 'The lesson starts ___ 08:30 AM')?",
+          "choices": [
+            "at",
+            "on",
+            "in",
+            "for"
+          ],
+          "correctAnswer": "at",
+          "explanation": "We use the preposition 'at' for precise clock times (e.g. at 08:30 AM, at noon)."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L25",
       "sourceSection": "Theme 1: School Life",
-      "fingerprint": "ddea3d89003cd433",
+      "fingerprint": "90f7f968dd62e03a",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

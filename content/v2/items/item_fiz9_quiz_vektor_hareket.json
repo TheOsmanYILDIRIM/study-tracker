@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Aşağıdaki niceliklerden hangisi vektörel bir büyüklüktür?",
           "choices": [
-            "Kütle",
             "Zaman",
+            "Kütle",
             "Hız",
             "Sıcaklık"
           ],
           "correctAnswer": "Hız",
-          "explanation": "Hız (velocity) hem büyüklüğe hem de yöne sahip vektörel bir büyüklüktür; sürat, kütle, zaman ise skalerdir."
+          "explanation": "Hız yönlü bir büyüklüktür (vektörel); sürat, kütle ve sıcaklık skalerdir."
         },
         {
           "id": "q_fiz2_2",
@@ -34,12 +34,12 @@
           "prompt": "Doğadaki en güçlü fakat menzili en kısa olan temel kuvvet hangisidir?",
           "choices": [
             "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
-            "Kütle Çekim Kuvveti",
+            "Zayıf Nükleer Kuvvet",
             "Elektromanyetik Kuvvet",
-            "Zayıf Nükleer Kuvvet"
+            "Kütle Çekim Kuvveti"
           ],
           "correctAnswer": "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
-          "explanation": "Güçlü nükleer kuvvet atom çekirdeğinde proton ve nötronları bir arada tutan en şiddetli kuvvettir."
+          "explanation": "Güçlü nükleer kuvvet atom çekirdeğinde kuark ve nükleonları bir arada tutar."
         },
         {
           "id": "q_fiz2_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "SI temel birimlerinde uzunluk 'metre' (m) olarak tanımlanır."
+          "explanation": "SI metrik sisteminde uzunluk metre (m) ile tanımlanır."
+        },
+        {
+          "id": "q_fiz2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğrusal bir yolda sabit 20 m/s hızla hareket eden bir araç, 15 saniyede kaç metre yol alır (x = v · t)?",
+          "choices": [
+            "300 m",
+            "150 m",
+            "200 m",
+            "450 m"
+          ],
+          "correctAnswer": "300 m",
+          "explanation": "Sabit hızlı harekette alınan yol x = v · t = 20 m/s · 15 s = 300 m."
+        },
+        {
+          "id": "q_fiz2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir cisme etki eden net kuvvet sıfır ise cismin hareket durumu hakkında ne söylenebilir (Newton'ın 1. Hareket Yasası - Eylemsizlik)?",
+          "choices": [
+            "Duruyorsa durmaya devam eder, hareket halindeyse sabit hızla doğrusal hareketini sürdürür.",
+            "Daima durur.",
+            "Sürekli hızlanan hareket yapar.",
+            "Dairesel hareket yapar."
+          ],
+          "correctAnswer": "Duruyorsa durmaya devam eder, hareket halindeyse sabit hızla doğrusal hareketini sürdürür.",
+          "explanation": "Net kuvvet sıfır olduğunda (F_net = 0), cisim mevcut hareket durumunu korur (eylemsizlik ilkesi)."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L65",
       "sourceSection": "Kuvvet ve Hareket Ünitesi",
-      "fingerprint": "4e5e91453b736f1b",
+      "fingerprint": "c203e41ecf64626d",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

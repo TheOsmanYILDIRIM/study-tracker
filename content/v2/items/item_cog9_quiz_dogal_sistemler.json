@@ -25,7 +25,7 @@
             "Biyosfer"
           ],
           "correctAnswer": "Litosfer",
-          "explanation": "Litosfer yer kabuğu ve taş küredir."
+          "explanation": "Taş küre litosfer, hava küre atmosfer, su küre hidrosfer, canlılar küresi biyosferdir."
         },
         {
           "id": "q_cog1_2",
@@ -37,13 +37,13 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Olayların yeryüzündeki yayılış ve dağılışını haritalarla incelemek coğrafyaya özgüdür."
+          "explanation": "Dağılış ilkesi olayların yeryüzündeki yayılışını harita ile gösteren ve coğrafyaya özgü olan ilkedir."
         },
         {
           "id": "q_cog1_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Ekvator ve çevresinin harita çizimlerinde bozulmayı en aza indiren projeksiyon türü hangisidir?",
+          "prompt": "Ekvator ve çevresinin harita çizimlerinde bozulmayı en aza indiren projeksiyon yöntemi hangisidir?",
           "choices": [
             "Silindirik Projeksiyon",
             "Konik Projeksiyon",
@@ -51,16 +51,44 @@
             "Parçalı Projeksiyon"
           ],
           "correctAnswer": "Silindirik Projeksiyon",
-          "explanation": "Silindirik projeksiyonda temas Ekvator çevresindedir ve bozulma en azdır."
+          "explanation": "Silindirik projeksiyonda Ekvator çevresinde hata oranı minimumdur; kutuplara gidildikçe bozulma artar."
+        },
+        {
+          "id": "q_cog1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Haritalarda yer şekillerini göstermek için kullanılan, deniz seviyesinden itibaren aynı yükseltiye sahip noktaların birleştirilmesiyle elde edilen kapalı eğrilere ne ad verilir?",
+          "choices": [
+            "İzohips (Eş Yükselti Eğrisi)",
+            "İzobar (Eş Basınç Eğrisi)",
+            "İzoterm (Eş Sıcaklık Eğrisi)",
+            "Meridyen"
+          ],
+          "correctAnswer": "İzohips (Eş Yükselti Eğrisi)",
+          "explanation": "İzohipsler deniz seviyesine (0 m) göre aynı yükseklikteki noktaları birleştiren iç içe kapalı eğrilerdir."
+        },
+        {
+          "id": "q_cog1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dünya'nın kendi ekseni etrafındaki günlük hareketi sonucunda aşağıdakilerden hangisi gerçekleşmez?",
+          "choices": [
+            "Mevsimlerin oluşması",
+            "Gece ve gündüzün birbirini takip etmesi",
+            "Yerel saat farklarının ortaya çıkması",
+            "Coriolis (sapma) kuvvetinin oluşması"
+          ],
+          "correctAnswer": "Mevsimlerin oluşması",
+          "explanation": "Mevsimler Dünya'nın Güneş etrafındaki yıllık hareketi ve 23° 27'lik eksen eğikliği sonucu oluşur; günlük hareket sonucu değil."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L20",
       "sourceSection": "Doğal Sistemler ve Coğrafya",
-      "fingerprint": "f69ac1cf3729e33e",
+      "fingerprint": "f150a52ea7e45ffe",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

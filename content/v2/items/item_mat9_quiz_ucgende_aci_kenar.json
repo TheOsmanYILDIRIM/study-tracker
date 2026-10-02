@@ -25,7 +25,7 @@
             "360°"
           ],
           "correctAnswer": "180°",
-          "explanation": "Öklid geometrisinde bir düzlem üçgenin iç açıları toplamı 180 derecedir."
+          "explanation": "Öklid geometrisinde herhangi bir üçgenin iç açıları toplamı 180 derecedir."
         },
         {
           "id": "q_mat4_2",
@@ -39,7 +39,7 @@
             "3 ≤ x ≤ 11"
           ],
           "correctAnswer": "3 < x < 11",
-          "explanation": "Üçgen eşitsizliğine göre |7 - 4| < x < 7 + 4 yani 3 < x < 11 olmalıdır."
+          "explanation": "Üçgen eşitsizliği kuralına göre: |7 - 4| < x < 7 + 4 => 3 < x < 11."
         },
         {
           "id": "q_mat4_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Açı-kenar bağıntılarına göre açının ölçüsü büyüdükçe gördüğü kenarın uzunluğu artar."
+          "explanation": "Üçgende kenar uzunlukları karşılarındaki açıların ölçüleriyle doğru orantılıdır."
+        },
+        {
+          "id": "q_mat4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir ABC üçgeninde m(A) = 50° ve m(B) = 70° ise C açısının ölçüsü kaç derecedir?",
+          "choices": [
+            "60°",
+            "50°",
+            "70°",
+            "80°"
+          ],
+          "correctAnswer": "60°",
+          "explanation": "Üçgenin iç açıları toplamı 180° olduğundan m(C) = 180° - (50° + 70°) = 60°."
+        },
+        {
+          "id": "q_mat4_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir üçgende herhangi bir dış açının ölçüsü neye eşittir?",
+          "choices": [
+            "Kendisine komşu olmayan iki iç açının ölçüleri toplamına",
+            "İç açılar toplamının yarısına",
+            "Komşu iç açının ölçüsüne",
+            "Daima 90 dereceye"
+          ],
+          "correctAnswer": "Kendisine komşu olmayan iki iç açının ölçüleri toplamına",
+          "explanation": "Bir üçgende bir dış açı, kendisine komşu olmayan iki iç açının toplamına eşittir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L130",
       "sourceSection": "Geometrik Şekiller Ünitesi",
-      "fingerprint": "e50cef5317d0d91c",
+      "fingerprint": "7ca077199a4485fd",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

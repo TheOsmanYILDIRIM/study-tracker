@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Aşağıdaki sayılardan hangisi bir irrasyonel (ℚ') sayıdır?",
           "choices": [
-            "-5",
-            "2/7",
+            "3/4",
             "√7",
-            "0,333..."
+            "-5",
+            "0,6"
           ],
           "correctAnswer": "√7",
-          "explanation": "√7 sayısı rasyonel bir kesir a/b olarak yazılamayan irrasyonel bir sayıdır."
+          "explanation": "Tam kare olmayan sayıların karekökü virgülden sonra devretmeksizin sonsuza gittiği için irrasyoneldir."
         },
         {
           "id": "q_mat3_2",
@@ -37,30 +37,58 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "(2n+1) + (2k+1) = 2(n+k+1) olup daima 2'nin tam katıdır (çift)."
+          "explanation": "(2k+1) + (2m+1) = 2(k+m+1) daima çift sayıdır."
         },
         {
           "id": "q_mat3_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Gerçek sayılarda çarpma işleminin toplama işlemi üzerine dağılma özelliği hangisidir?",
+          "prompt": "Gerçek sayılarda çarpma işleminin toplama işlemi üzerine dağılma özelliği hangi eşitlikte doğru verilmiştir?",
           "choices": [
             "a · (b + c) = a · b + a · c",
-            "a · b = b · a",
-            "(a · b) · c = a · (b · c)",
-            "a + 0 = a"
+            "a + (b · c) = (a + b) · (a + c)",
+            "a · (b · c) = (a · b) · c",
+            "a + b = b + a"
           ],
           "correctAnswer": "a · (b + c) = a · b + a · c",
-          "explanation": "Çarpmanın toplama üzerine sol dağılma özelliğidir."
+          "explanation": "Çarpmanın toplama üzerine soldan dağılma özelliği a · (b + c) = a·b + a·c şeklindedir."
+        },
+        {
+          "id": "q_mat3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sayı kümeleri arasındaki kapsama ilişkisi hangisinde doğru verilmiştir?",
+          "choices": [
+            "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ",
+            "ℤ ⊂ ℕ ⊂ ℚ ⊂ ℝ",
+            "ℚ ⊂ ℤ ⊂ ℕ ⊂ ℝ",
+            "ℕ ⊂ ℚ ⊂ ℤ ⊂ ℝ"
+          ],
+          "correctAnswer": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ",
+          "explanation": "Doğal sayılar (ℕ) ⊂ Tam sayılar (ℤ) ⊂ Rasyonel sayılar (ℚ) ⊂ Gerçek sayılar (ℝ)."
+        },
+        {
+          "id": "q_mat3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Toplama işleminin gerçek sayılardaki etkisiz (birim) elemanı ile çarpma işlemindeki yutan elemanının toplamı kaçtır?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "-1"
+          ],
+          "correctAnswer": "0",
+          "explanation": "Toplama işleminin birim elemanı 0, çarpma işleminin yutan elemanı 0'dır; toplamları 0 + 0 = 0."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L70",
       "sourceSection": "5-6. Hafta: Sayı Kümeleri",
-      "fingerprint": "18de800d4d591dc3",
+      "fingerprint": "01b593c81376ffcc",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

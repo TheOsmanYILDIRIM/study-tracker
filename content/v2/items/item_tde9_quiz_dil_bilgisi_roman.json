@@ -25,7 +25,7 @@
             "Zarf"
           ],
           "correctAnswer": "Niteleme Sıfatı",
-          "explanation": "İsmin rengini, durumunu veya biçimini bildiren sözcükler niteleme sıfatıdır."
+          "explanation": "İsme sorulan 'Nasıl?' sorusuna yanıt veren ve renk/şekil/durum bildiren sözcükler niteleme sıfatıdır."
         },
         {
           "id": "q_tde3_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Don Kişot ilk modern roman kabul edilir."
+          "explanation": "17. yüzyıl başında yayımlanan Don Kişot dünya edebiyatındaki ilk modern roman sayılır."
         },
         {
           "id": "q_tde3_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "İsmin yerini tutan sözcüklere ne ad verilir?",
           "choices": [
+            "Sıfat (Önad)",
             "Zamir (Adıl)",
             "Zarf (Belirteç)",
-            "Edat (İlgeç)",
-            "Bağlaç"
+            "Edat (İlgeç)"
           ],
           "correctAnswer": "Zamir (Adıl)",
-          "explanation": "İsmin yerini tutan sözcükler zamirdir (ben, sen, o, bu, şu vb.)."
+          "explanation": "İsimlerin yerine kişi, işaret, belgisizlik veya soru yoluyla geçen sözcükler zamirdir."
+        },
+        {
+          "id": "q_tde3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türk edebiyatında ilk yerli roman kabul edilen eser ve yazarı hangisidir?",
+          "choices": [
+            "Taaşşuk-ı Talat ve Fitnat - Şemsettin Sami",
+            "İntibah - Namık Kemal",
+            "Araba Sevdası - Recaizade Mahmut Ekrem",
+            "Karabibik - Nabizade Nazım"
+          ],
+          "correctAnswer": "Taaşşuk-ı Talat ve Fitnat - Şemsettin Sami",
+          "explanation": "Şemsettin Sami'nin 1872 yılında yayımlanan Taaşşuk-ı Talat ve Fitnat adlı eseri ilk yerli romanımızdır."
+        },
+        {
+          "id": "q_tde3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'Bu öğrenci, ödevlerini her zaman düzenli yapar.' cümlesindeki 'Bu' sözcüğünün türü nedir?",
+          "choices": [
+            "İşaret Sıfatı",
+            "İşaret Zamiri",
+            "Belgisiz Sıfat",
+            "Kişi Zamiri"
+          ],
+          "correctAnswer": "İşaret Sıfatı",
+          "explanation": "'Bu' sözcüğü bir ismi ('öğrenci') işaret yoluyla belirttiği için işaret sıfatıdır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L110",
       "sourceSection": "Roman ve Dil Bilgisi",
-      "fingerprint": "dde2950b5693c3c5",
+      "fingerprint": "6896c989a60e4f2d",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

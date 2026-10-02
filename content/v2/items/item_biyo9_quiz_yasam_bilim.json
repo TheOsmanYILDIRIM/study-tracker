@@ -17,27 +17,27 @@
           "id": "q_bio1_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Bilimsel yöntemde gözlemler ve verilere dayalı olarak kurulan geçici çözüm yoluna ne denir?",
+          "prompt": "Bilimsel yöntemde gözlemler ve verilere dayalı olarak kurulan geçici çözüm yoluna ne ad verilir?",
           "choices": [
+            "Teori (Kuram)",
             "Hipotez",
-            "Teori",
             "Kanun (Yasa)",
-            "Teorem"
+            "Deney"
           ],
           "correctAnswer": "Hipotez",
-          "explanation": "Hipotez probleme sunulan test edilebilir geçici açıklama ve çözüm yoludur."
+          "explanation": "Hipotez, probleme getirilen sınanabilir ve geçici bir açıklamadır."
         },
         {
           "id": "q_bio1_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Canlıların iç ortamlarını değişen çevre koşullarına rağmen dengede tutmasına Homeostazi denir.",
+          "prompt": "Canlıların iç ortamlarını değişen çevre koşullarına rağmen dengede tutmasına 'Homeostazi' denir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Homeostazi vücut sıcaklığı, pH ve su dengesi gibi iç dengelerin korunmasıdır."
+          "explanation": "Homeostazi, canlıların kararlı bir iç çevre dengesi sürdürme yeteneğidir."
         },
         {
           "id": "q_bio1_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Kontrollü bir deneyde araştırmacının bizzat değiştirdiği değişkene ne ad verilir?",
           "choices": [
-            "Bağımsız Değişken",
             "Bağımlı Değişken",
-            "Sabit Değişken",
-            "Kontrol Grubu"
+            "Bağımsız Değişken",
+            "Kontrol Grubu",
+            "Sabit Tutulan Değişken"
           ],
           "correctAnswer": "Bağımsız Değişken",
-          "explanation": "Araştırmacının değiştirdiği etken bağımsız değişkendir; buna bağlı değişen sonuç ise bağımlı değişkendir."
+          "explanation": "Araştırmacının deneyde bilinçli olarak farklı uyguladığı etken bağımsız değişkendir."
+        },
+        {
+          "id": "q_bio1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi tüm canlı organizmaların ortak özelliklerinden biridir?",
+          "choices": [
+            "Hücresel yapıya sahip olma",
+            "Fotosentez yapma",
+            "Oksijenli solunum yapma",
+            "Çok hücreli olma"
+          ],
+          "correctAnswer": "Hücresel yapıya sahip olma",
+          "explanation": "Bütün canlılar en az bir hücreden (prokaryot veya ökaryot) oluşur. Fotosentez veya çok hücrelilik tüm canlılarda ortak değildir."
+        },
+        {
+          "id": "q_bio1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücrede gerçekleşen yapım (özümleme / anabolizma) ve yıkım (yadımlama / katabolizma) tepkimelerinin tamamına ne ad verilir?",
+          "choices": [
+            "Metabolizma",
+            "Homeostazi",
+            "Adaptasyon",
+            "Kataliz"
+          ],
+          "correctAnswer": "Metabolizma",
+          "explanation": "Canlı hücrelerde meydana gelen tüm biyokimyasal yapım ve yıkım olaylarının toplamı metabolizmadır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L20",
       "sourceSection": "Yaşam Teması ve Bilimsel Yöntem",
-      "fingerprint": "461aabc187053e1a",
+      "fingerprint": "c9ac5ede19a2031f",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

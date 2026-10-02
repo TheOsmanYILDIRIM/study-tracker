@@ -25,7 +25,7 @@
             "14"
           ],
           "correctAnswer": "10",
-          "explanation": "Pisagor teoremine göre a² + b² = c² => 6² + 8² = 36 + 64 = 100 = 10²."
+          "explanation": "Pisagor bağıntısı: 6² + 8² = 36 + 64 = 100 = 10²."
         },
         {
           "id": "q_mat5_2",
@@ -36,10 +36,10 @@
             "2/3",
             "4/9",
             "8/27",
-            "√2/√3"
+            "1/3"
           ],
           "correctAnswer": "4/9",
-          "explanation": "Benzer üçgenlerin alanları oranı benzerlik oranının karesine eşittir: (2/3)² = 4/9."
+          "explanation": "Benzer iki şeklin alanları oranı, benzerlik oranının karesine eşittir: k² = (2/3)² = 4/9."
         },
         {
           "id": "q_mat5_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Eşlik, benzerlik oranının k = 1 olduğu özel durumdur."
+          "explanation": "Eş şekiller tüm açı ve kenarları birebir eşit olan özel benzer şekillerdir."
+        },
+        {
+          "id": "q_mat5_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Benzerlik oranı k = 3/4 olan iki üçgenin çevreleri oranı kaçtır?",
+          "choices": [
+            "3/4",
+            "9/16",
+            "4/3",
+            "16/9"
+          ],
+          "correctAnswer": "3/4",
+          "explanation": "Benzer iki geometrik şeklin çevreleri oranı, doğrudan benzerlik oranına (k) eşittir (3/4)."
+        },
+        {
+          "id": "q_mat5_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir dik üçgende hipotenüse ait yüksekliğin karesi, hipotenüste ayırdığı parçaların çarpımına eşittir (h² = p · k). Bu bağıntı hangi teoremle adlandırılır?",
+          "choices": [
+            "Öklid Teoremi",
+            "Pisagor Teoremi",
+            "Thales Teoremi",
+            "Kosinüs Teoremi"
+          ],
+          "correctAnswer": "Öklid Teoremi",
+          "explanation": "Dik üçgende dik açıdan hipotenüse inilen yükseklik bağıntıları Öklid Teoremi olarak bilinir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L185",
       "sourceSection": "Eşlik ve Benzerlik Ünitesi",
-      "fingerprint": "d363f3ef65cd65fc",
+      "fingerprint": "2b04aece764affde",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

@@ -21,23 +21,23 @@
           "choices": [
             "Sıvının derinliğine (h)",
             "Sıvının özkütlesine (d)",
-            "Kabın taban alanına (S)",
-            "Yer çekimi ivmesine (g)"
+            "Yer çekimi ivmesine (g)",
+            "Kabın taban alanına (S)"
           ],
           "correctAnswer": "Kabın taban alanına (S)",
-          "explanation": "Durgun sıvı basıncı yalnızca derinlik, özkütle ve yerçekimi ivmesine bağlıdır; kabın şekline veya taban alanına bağlı değildir."
+          "explanation": "Sıvı basıncı derinlik, özkütle ve yerçekimine bağlıdır; kabın şekline ve taban alanına bağlı değildir."
         },
         {
           "id": "q_fiz3_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Bernoulli ilkesine göre akışkanın hızının arttığı yerde akışkan basıncı azalır.",
+          "prompt": "Bernoulli ilkesine göre akışkanın hızının arttığı yerde akışkan basıncı düşer.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Akışkanlar dinamiğinde hız artışı dinamik basıncı artırırken statik basıncı düşürür."
+          "explanation": "Akışkanlar dar kesitlerde hızlanır ve hız arttıkça iç basınç düşer (Bernoulli ilkesi)."
         },
         {
           "id": "q_fiz3_3",
@@ -51,16 +51,44 @@
             "dc · ds = 1"
           ],
           "correctAnswer": "dc < ds",
-          "explanation": "Özkütlesi sıvınınkinden küçük olan cisimler sıvıda yüzer."
+          "explanation": "Cismin özkütlesi sıvınınkinden küçükse cisim yüzer, eşitse askıda kalır, büyükse batar."
+        },
+        {
+          "id": "q_fiz3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kapalı kaplardaki sıvılara uygulanan dış basıncın sıvının temas ettiği her noktaya ve her doğrultuda aynen iletilmesi ilkesine ne ad verilir?",
+          "choices": [
+            "Pascal Prensibi",
+            "Arşimet Prensibi",
+            "Bernoulli İlkesi",
+            "Torricelli Prensibi"
+          ],
+          "correctAnswer": "Pascal Prensibi",
+          "explanation": "Sıvıların sıkıştırılamazlık özelliğinden kaynaklanan bu basınca Pascal Prensibi denir (hidrolik fren ve krikoların çalışma esası)."
+        },
+        {
+          "id": "q_fiz3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Katı basıncı (P = F / S) ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+          "choices": [
+            "Temas yüzeyi azaldıkça katı basıncı artar.",
+            "Temas yüzeyi arttıkça katı basıncı artar.",
+            "Katı basıncı cismin ağırlığından bağımsızdır.",
+            "Katı basıncı sadece yer çekimi ivmesine bağlıdır."
+          ],
+          "correctAnswer": "Temas yüzeyi azaldıkça katı basıncı artar.",
+          "explanation": "Katı basıncı temas yüzeyi ile ters orantılıdır; bu nedenle bıçağın ağzı bilendiğinde yüzey küçülür ve basınç artar."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L115",
       "sourceSection": "Akışkanlar Ünitesi",
-      "fingerprint": "b5e4615ad22b2695",
+      "fingerprint": "5a80a66b5692331f",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

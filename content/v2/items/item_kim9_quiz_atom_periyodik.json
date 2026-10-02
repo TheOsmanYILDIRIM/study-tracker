@@ -20,7 +20,7 @@
           "prompt": "Atom çekirdeğini ve çekirdekli atom modelini ilk ortaya koyan bilim insanı kimdir?",
           "choices": [
             "John Dalton",
-            "J.J. Thomson",
+            "J. J. Thomson",
             "Ernest Rutherford",
             "Niels Bohr"
           ],
@@ -31,7 +31,7 @@
           "id": "q_kim2_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı nasıl değişir?",
+          "prompt": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı genellikle nasıl değişir?",
           "choices": [
             "Artar",
             "Azalır",
@@ -39,7 +39,7 @@
             "Önce artar sonra azalır"
           ],
           "correctAnswer": "Azalır",
-          "explanation": "Aynı periyotta sağa gidildikçe çekirdek yükü (proton sayısı) arttığı için elektronlar daha güçlü çekilir ve yarıçap küçülür."
+          "explanation": "Çekirdek yükü (proton sayısı) arttıkça elektronlar çekirdek tarafından daha güçlü çekilir ve yarıçap küçülür."
         },
         {
           "id": "q_kim2_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Pauling ölçeğinde elektronegatifliği 4.0 ile en yüksek element Flor'dur."
+          "explanation": "Flor (F) periyodik sistemin en elektronegatif elementidir (Pauling ölçeğine göre 4.0)."
+        },
+        {
+          "id": "q_kim2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir atomun proton sayısı 11 ve nötron sayısı 12 olduğuna göre bu atomun kütle numarası (nükleon sayısı) kaçtır?",
+          "choices": [
+            "23",
+            "11",
+            "12",
+            "1"
+          ],
+          "correctAnswer": "23",
+          "explanation": "Kütle numarası = Proton Sayısı + Nötron Sayısı = 11 + 12 = 23."
+        },
+        {
+          "id": "q_kim2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Periyodik tablonun 7A grubunda yer alan elementler hangi adla anılır?",
+          "choices": [
+            "Halojenler",
+            "Alkali Metaller",
+            "Toprak Alkali Metaller",
+            "Soygazlar"
+          ],
+          "correctAnswer": "Halojenler",
+          "explanation": "7A grubu elementlerine (F, Cl, Br, I, At) tuz oluşturan anlamına gelen 'Halojenler' adı verilir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L60",
       "sourceSection": "Atom ve Periyodik Tablo",
-      "fingerprint": "f4ee54056b15ce28",
+      "fingerprint": "c8f26a0fd9029fae",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

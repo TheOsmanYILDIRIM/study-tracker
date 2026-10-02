@@ -22,10 +22,10 @@
             "Hammurabi",
             "Urgakina",
             "Sargon",
-            "Nabukadnezar"
+            "Kiros"
           ],
           "correctAnswer": "Urgakina",
-          "explanation": "Tarihte bilinen ilk yazılı kanunlar MÖ 2375 civarında Sümer kralı Urgakina tarafından yapılmıştır."
+          "explanation": "MÖ 2375 civarında Lagaş Kralı Urgakina tarihin bilinen ilk yazılı kanunlarını yapmıştır."
         },
         {
           "id": "q_tar3_2",
@@ -37,30 +37,58 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Lidyalılar MÖ 7. yüzyılda madeni parayı basmıştır."
+          "explanation": "Lidyalılar MÖ 7. yüzyılda madeni parayı (elektron sikke) icat etmiştir."
         },
         {
           "id": "q_tar3_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "İlk Çağ Türk topluluklarında ordu yapısını 'Onlu Sistem'e göre ilk kez teşkilatlandıran Türk hükümdarı kimdir?",
+          "prompt": "İlk Çağ Türk topluluklarında ordu yapısını 'Onlu Sistem'e göre ilk kez teşkilatlandıran Asya Hun hükümdarı kimdir?",
           "choices": [
             "Teoman",
             "Mete Han",
             "Bumin Kağan",
-            "İstemi Yabgu"
+            "Bilge Kağan"
           ],
           "correctAnswer": "Mete Han",
-          "explanation": "Büyük Hun Hükümdarı Mete Han MÖ 209'da Onlu Sistemi kurmuştur."
+          "explanation": "MÖ 209'da tahta çıkan Mete Han onlu ordu sistemini kurmuş ve bu tarih TSK'nın kuruluş yılı kabul edilmiştir."
+        },
+        {
+          "id": "q_tar3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "MÖ 1280 civarında Hititler ile Mısırlılar arasında imzalanan tarihin ilk yazılı barış antlaşması hangisidir?",
+          "choices": [
+            "Kadeş Antlaşması",
+            "Margos Antlaşması",
+            "Kallias Barışı",
+            "Kasr-ı Şirin Antlaşması"
+          ],
+          "correctAnswer": "Kadeş Antlaşması",
+          "explanation": "Kuzey Suriye egemenliği için savaşan Hitit ve Mısır devletleri arasında MÖ 1280'de Kadeş Antlaşması imzalanmıştır."
+        },
+        {
+          "id": "q_tar3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Anadolu medeniyetlerinden Friglerin tarımı ve hayvancılığı korumak amacıyla öküz kesene veya saban kırana ölüm cezası vermesi neyi kanıtlar?",
+          "choices": [
+            "Hukuk kurallarının temel geçim kaynağı olan tarıma göre şekillendirildiğini",
+            "Friglerin deniz ticaretine önem verdiğini",
+            "Yazılı kanunların ilk kez Frigler tarafından yapıldığını",
+            "Friglerde çok tanrılı dinin olmadığını"
+          ],
+          "correctAnswer": "Hukuk kurallarının temel geçim kaynağı olan tarıma göre şekillendirildiğini",
+          "explanation": "Frig kanunlarının sert cezalar içermesi, geçim kaynaklarının korunmasına yönelik yasal düzenlemelerin yapıldığını gösterir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L105",
       "sourceSection": "Eski Çağ Medeniyetleri",
-      "fingerprint": "4ca293dc42b2c524",
+      "fingerprint": "9d32609c14f013e4",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

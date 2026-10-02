@@ -19,48 +19,76 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Türk edebiyatında Durum (Kesit) hikâyeciliğinin en önemli temsilcisi kimdir?",
           "choices": [
-            "Sait Faik Abasıyanık",
             "Ömer Seyfettin",
+            "Sait Faik Abasıyanık",
             "Refik Halit Karay",
-            "Ahmet Mithat Efendi"
+            "Halide Edib Adıvar"
           ],
           "correctAnswer": "Sait Faik Abasıyanık",
-          "explanation": "Sait Faik ve Memduh Şevket Esendal Çehov tarzı (durum) hikâyeciliğinin öncüleridir; Ömer Seyfettin ise olay hikâyecisidir."
+          "explanation": "Çehov tarzı durum hikâyesinin Türk edebiyatındaki öncüleri Sait Faik Abasıyanık ve Memduh Şevket Esendal'dır."
         },
         {
           "id": "q_tde2_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "İlahi (Hâkim) bakış açısında anlatıcı kahramanların iç dünyasını ve geçmişini bilir.",
+          "prompt": "İlahi (Hâkim) bakış açısında anlatıcı kahramanların iç dünyasını ve geçmiş/geleceğini bilir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Hâkim bakış açısı her şeye hâkim olan üçüncü tekil şahıs anlatımıdır."
+          "explanation": "İlahi bakış açısında anlatıcı her şeyi gören, bilen ve kahramanların zihninden geçenleri okuyan üçüncü tekil kişidir."
         },
         {
           "id": "q_tde2_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Dilin alıcıda bir tepki veya davranış oluşturmak amacıyla kullanıldığı işlevi hangisidir?",
+          "prompt": "Dilin alıcıda bir tepki veya davranış oluşturmak amacıyla kullanıldığı işlev hangisidir?",
           "choices": [
-            "Alıcıyı Harekete Geçirme İşlevi",
             "Göndergesel İşlev",
             "Heyecana Bağlı İşlev",
+            "Alıcıyı Harekete Geçirme İşlevi",
             "Kanalı Kontrol İşlevi"
           ],
           "correctAnswer": "Alıcıyı Harekete Geçirme İşlevi",
-          "explanation": "Emir, rica ve propaganda cümlelerinde alıcıyı harekete geçirme işlevi kullanılır."
+          "explanation": "Emir, çağrı, propaganda veya yönlendirme amaçlı iletilerde alıcıyı harekete geçirme işlevi kullanılır."
+        },
+        {
+          "id": "q_tde2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Olay hikâyesinin (klasik hikâye / Maupassant tarzı) Türk edebiyatındaki en önemli temsilcisi kimdir?",
+          "choices": [
+            "Ömer Seyfettin",
+            "Sait Faik Abasıyanık",
+            "Memduh Şevket Esendal",
+            "Ahmet Hamdi Tanpınar"
+          ],
+          "correctAnswer": "Ömer Seyfettin",
+          "explanation": "Serim, düğüm, çözüm planına sıkı sıkıya bağlı klasik olay hikâyesinin kurucusu Ömer Seyfettin'dir."
+        },
+        {
+          "id": "q_tde2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hikâyede olayları bizzat yaşayan, birinci tekil şahıs ('ben' veya 'biz') ağzıyla aktaran anlatıcı bakış açısı hangisidir?",
+          "choices": [
+            "Kahraman Anlatıcı Bakış Açısı",
+            "İlahi (Hâkim) Bakış Açısı",
+            "Gözlemci (Müşahit) Bakış Açısı",
+            "Çoğul Anlatıcı"
+          ],
+          "correctAnswer": "Kahraman Anlatıcı Bakış Açısı",
+          "explanation": "Olay örgüsünün içinde bizzat yer alan anlatıcının kendi deneyimlerini aktarması kahraman bakış açısıdır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L65",
       "sourceSection": "Hikâye ve Dilin İşlevleri",
-      "fingerprint": "4599998cc177eb73",
+      "fingerprint": "c97b0162060a9a35",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

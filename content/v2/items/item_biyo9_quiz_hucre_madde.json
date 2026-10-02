@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Hücrede oksijenli solunum ile ATP üreten çift zarlı organel hangisidir?",
           "choices": [
-            "Ribozom",
+            "Kloroplast",
             "Mitokondri",
-            "Golgi Aygıtı",
+            "Golgi Cisimciği",
             "Lizozom"
           ],
           "correctAnswer": "Mitokondri",
-          "explanation": "Mitokondri ökaryotik hücrelerin enerji santralidir ve ATP üretir."
+          "explanation": "Mitokondri hücresel solunumla enerji (ATP) üreten çift zarlı organeldir."
         },
         {
           "id": "q_bio3_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Aktif taşıma konsantrasyon farkına karşı enerji (ATP) harcanarak yapılır."
+          "explanation": "Aktif taşımada yoğunluk farkına karşı taşıma yapılır ve hücresel enerji (ATP) tüketilir."
         },
         {
           "id": "q_bio3_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Hücrenin çok yoğun (hipertonik) ortama konulduğunda su kaybederek büzülmesine ne ad verilir?",
           "choices": [
-            "Plazmoliz",
             "Deplazmoliz",
-            "Hemoliz",
-            "Turgor"
+            "Plazmoliz",
+            "Turgor",
+            "Hemoliz"
           ],
           "correctAnswer": "Plazmoliz",
-          "explanation": "Hipertonik çözeltide su kaybeden hücrenin büzülmesine plazmoliz denir."
+          "explanation": "Hipertonik ortamda hücre su vererek büzülür; bu olaya plazmoliz denir."
+        },
+        {
+          "id": "q_bio3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücrede protein sentezinin gerçekleştiği, zarsız ve tüm canlı hücrelerde bulunan organel hangisidir?",
+          "choices": [
+            "Ribozom",
+            "Lizozom",
+            "Golgi Aygıtı",
+            "Endoplazmik Retikulum"
+          ],
+          "correctAnswer": "Ribozom",
+          "explanation": "Ribozom protein sentezinden sorumludur, zarsızdır ve hem prokaryot hem ökaryotlarda bulunur."
+        },
+        {
+          "id": "q_bio3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücre zarından büyük katı moleküllerin yalancı ayaklarla hücre içine alınması olayına ne ad verilir?",
+          "choices": [
+            "Fagositoz",
+            "Pinositoz",
+            "Ekzositoz",
+            "Kolaylaştırılmış Difüzyon"
+          ],
+          "correctAnswer": "Fagositoz",
+          "explanation": "Endositozun bir çeşidi olan fagositozda büyük katı parçacıklar yalancı ayak yardımıyla hücre içine alınır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L115",
       "sourceSection": "Hücre ve Madde Geçişleri",
-      "fingerprint": "bb4d7218aca7013b",
+      "fingerprint": "f31c1b694a28e18a",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

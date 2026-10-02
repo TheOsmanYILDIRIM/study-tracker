@@ -19,48 +19,76 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Karbon temelli bileşiklerin yapı ve özelliklerini inceleyen kimya alt disiplini hangisidir?",
           "choices": [
-            "Organik Kimya",
+            "Biyokimya",
             "Anorganik Kimya",
-            "Analitik Kimya",
+            "Organik Kimya",
             "Fizikokimya"
           ],
           "correctAnswer": "Organik Kimya",
-          "explanation": "Organik kimya karbon bileşiklerini inceler."
+          "explanation": "Karbon (C) elementi ve hidrokarbon türevlerini inceleyen dal organik kimyadır."
         },
         {
           "id": "q_kim1_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Alev sembolü içeren kimyasal güvenlik piktogramı maddenin 'Yanıcı' olduğunu belirtir.",
+          "prompt": "Alev sembolü içeren kimyasal güvenlik piktogramı maddenin 'Yanıcı' olduğunu gösterir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Alev sembolü kolay tutuşabilen ve alev alabilen yanıcı maddeleri temsil eder."
+          "explanation": "Alev piktogramı yanıcı (flammable) maddeleri gösterir."
         },
         {
           "id": "q_kim1_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Bir numunenin içindeki maddelerin cinsini ve miktarını belirleyen kimya alt dalı hangisidir?",
+          "prompt": "Bir numunenin içindeki maddelerin cinsini ve miktarını belirleyen kimya disiplini hangisidir?",
           "choices": [
-            "Biyokimya",
             "Analitik Kimya",
             "Polimer Kimyası",
-            "Endüstriyel Kimya"
+            "Endüstriyel Kimya",
+            "Fizikokimya"
           ],
           "correctAnswer": "Analitik Kimya",
-          "explanation": "Nitel (kalitatif) ve nicel (kantitatif) analiz Analitik Kimyanın alanıdır."
+          "explanation": "Nitel (cins) ve nicel (miktar) analizleri analitik kimya gerçekleştirir."
+        },
+        {
+          "id": "q_kim1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Simyayı (alşimi) modern kimya biliminden ayıran en temel fark hangisidir?",
+          "choices": [
+            "Kimyanın deneysel, ölçüme dayalı ve sistematik bilgi birikimi içermesi",
+            "Simyacıların hiçbir laboratuvar aleti kullanmamış olması",
+            "Simyacıların sadece gazları incelemesi",
+            "Kimyada maddelerin sınıflandırılmaması"
+          ],
+          "correctAnswer": "Kimyanın deneysel, ölçüme dayalı ve sistematik bilgi birikimi içermesi",
+          "explanation": "Simya deneme-yanılmaya dayanırken kimya bilimsel yöntem, hassas terazi/ölçüm ve teorik temellere dayanır."
+        },
+        {
+          "id": "q_kim1_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yaygın adı 'Tuz Ruhu' olan bileşiğin kimyasal formülü hangisidir?",
+          "choices": [
+            "HCl",
+            "H₂SO₄",
+            "HNO₃",
+            "NaOH"
+          ],
+          "correctAnswer": "HCl",
+          "explanation": "HCl (hidroklorik asit) yaygın olarak tuz ruhu adıyla bilinir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L20",
       "sourceSection": "Kimya Bilimi ve Güvenlik",
-      "fingerprint": "907fa86dc6b6d8c8",
+      "fingerprint": "7d30caf519d7f93f",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

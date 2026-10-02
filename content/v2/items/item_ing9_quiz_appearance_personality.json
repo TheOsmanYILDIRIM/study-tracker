@@ -20,12 +20,12 @@
           "prompt": "Someone who always tells the truth and never cheats is _______.",
           "choices": [
             "honest",
-            "selfish",
             "stubborn",
-            "lazy"
+            "clumsy",
+            "selfish"
           ],
           "correctAnswer": "honest",
-          "explanation": "Honest means truthful and sincere."
+          "explanation": "'Honest' means truthful and sincere."
         },
         {
           "id": "q_ing2_2",
@@ -33,13 +33,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Comparative form: 'Mount Everest is _______ than Mont Blanc.'",
           "choices": [
+            "high",
             "higher",
-            "more high",
             "highest",
-            "the higher"
+            "more high"
           ],
           "correctAnswer": "higher",
-          "explanation": "Short one-syllable adjectives take -er in comparative form: 'higher'."
+          "explanation": "Short one-syllable adjectives take '-er' in comparative form: high -> higher."
         },
         {
           "id": "q_ing2_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Generous means willing to give money, help, or time freely."
+          "explanation": "A generous person is willing to give money, help, or time freely."
+        },
+        {
+          "id": "q_ing2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Which adjective describes physical appearance rather than personality?",
+          "choices": [
+            "wavy hair",
+            "stubborn",
+            "outgoing",
+            "punctual"
+          ],
+          "correctAnswer": "wavy hair",
+          "explanation": "'Wavy hair' (dalgalı saç) describes physical appearance, whereas stubborn, outgoing, and punctual describe character."
+        },
+        {
+          "id": "q_ing2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Complete the comparative sentence: 'This book is _______ than that one.'",
+          "choices": [
+            "more interesting",
+            "interesting",
+            "most interesting",
+            "interestinger"
+          ],
+          "correctAnswer": "more interesting",
+          "explanation": "For multi-syllable adjectives like 'interesting', we use 'more + adjective + than' for comparisons."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L65",
       "sourceSection": "Theme 3: Personal Life",
-      "fingerprint": "3693cba83e5f07b0",
+      "fingerprint": "3ccbac034306ce45",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

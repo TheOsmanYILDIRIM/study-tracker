@@ -25,7 +25,7 @@
             "Tanımlayıcı adı"
           ],
           "correctAnswer": "Cins adını",
-          "explanation": "İkili adlandırmada ilk kelime büyük harfle başlar ve Cins (Genus) adıdır."
+          "explanation": "Binominal adlandırmada ilk kelime cins adı, ikinci kelime tanımlayıcı ad, ikisi birlikte tür adıdır."
         },
         {
           "id": "q_bio4_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Virüsler hücresel yapıya sahip değildir, nükleoprotein kompleksleridir."
+          "explanation": "Virüsler nükleik asit (DNA veya RNA) ve protein kılıftan oluşan hücresel olmayan zorunlu hücre içi parazitlerdir."
         },
         {
           "id": "q_bio4_3",
@@ -45,22 +45,50 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "Sınıflandırma basamaklarında Âlemden Türe doğru gidildikçe canlılar arasındaki benzerlik nasıl değişir?",
           "choices": [
-            "Artar",
             "Azalır",
+            "Artar",
             "Değişmez",
-            "Önce azalır sonra artar"
+            "Önce artar sonra azalır"
           ],
           "correctAnswer": "Artar",
-          "explanation": "Türe yaklaştıkça ortak genler, protein benzerliği ve akrabalık derecesi artar."
+          "explanation": "Âlemden türe gidildikçe ortak özellikler, protein benzerliği ve akrabalık derecesi artar."
+        },
+        {
+          "id": "q_bio4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğal (filogenetik) sınıflandırmada kökenleri (orijinleri) aynı, görevleri benzer veya farklı olabilen organlara ne ad verilir?",
+          "choices": [
+            "Homolog Organ",
+            "Analog Organ",
+            "Körelmiş Organ",
+            "Adaptif Organ"
+          ],
+          "correctAnswer": "Homolog Organ",
+          "explanation": "Kökenleri aynı olan organlara homolog organ (örneğin insan kolu ile balina yüzgeci) denir ve filogenetik sınıflandırmada temel alınır."
+        },
+        {
+          "id": "q_bio4_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sınıflandırmada temel ve en küçük taksonomik birim hangisidir?",
+          "choices": [
+            "Tür",
+            "Cins",
+            "Familya (Aile)",
+            "Takım"
+          ],
+          "correctAnswer": "Tür",
+          "explanation": "Ortak bir atadan gelen, çiftleştiklerinde verimli döller verebilen bireyler topluluğu olan 'Tür', temel sınıflandırma birimidir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L140",
       "sourceSection": "Sınıflandırma ve Biyoçeşitlilik",
-      "fingerprint": "4b5466a755d2af70",
+      "fingerprint": "71752000f2b77319",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

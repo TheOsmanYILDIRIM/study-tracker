@@ -17,15 +17,15 @@
           "id": "q_cog3_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tabanı dar, üst yaş grubu geniş olan bir nüfus piramidi hangi ülke türünü ifade eder?",
+          "prompt": "Tabanı dar, üst yaş grubu geniş olan bir nüfus piramidi hangi ülke türünü yansıtır?",
           "choices": [
             "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
-            "Gelişmekte olan ülke",
-            "Az gelişmiş ülke (yüksek doğum oranı)",
-            "Nüfusu hızla artan genç ülke"
+            "Gelişmekte olan ülke (yüksek doğum)",
+            "Az gelişmiş tarım ülkesi",
+            "Hızlı nüfus artışı olan ülke"
           ],
           "correctAnswer": "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
-          "explanation": "Gelişmiş ülkelerde doğum oranları düşük olduğundan piramit tabanı dardır."
+          "explanation": "Tabanın dar olması doğum oranının azaldığını, üst kısmın geniş olması ise ortalama yaşam süresinin uzun olduğunu gösterir."
         },
         {
           "id": "q_cog3_2",
@@ -37,30 +37,58 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Yer kabuğu hareketleri kaynaklı afetler jeolojik kökenlidir."
+          "explanation": "Yer kabuğu hareketleri ve magmatik süreçlere bağlı afetler jeolojik afetler sınıfındadır."
         },
         {
           "id": "q_cog3_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Eğimli yamaçlarda toprak ve ana kayanın kütle halinde aşağı kaymasına ne denir?",
+          "prompt": "Eğimli yamaçlarda toprak ve ana kayanın kütle halinde aşağı kaymasına ne ad verilir?",
           "choices": [
             "Heyelan (Kütle Hareketi)",
             "Erozyon",
             "Çığ",
-            "Kuraklık"
+            "Taşkın"
           ],
           "correctAnswer": "Heyelan (Kütle Hareketi)",
-          "explanation": "Heyelan, eğimli ve suya doygun tabakaların kayması olayıdır."
+          "explanation": "Aşırı yağış ve eğim etkisiyle toprak örtüsünün ana kaya ile birlikte kayması heyelandır."
+        },
+        {
+          "id": "q_cog3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir ülkede nüfus yoğunluğu hesaplanırken 'Toplam Nüfus / Yüz Ölçümü' formülüyle elde edilen yoğunluk türü hangisidir?",
+          "choices": [
+            "Aritmetik Nüfus Yoğunluğu",
+            "Fizyolojik Nüfus Yoğunluğu",
+            "Tarımsal Nüfus Yoğunluğu",
+            "Doğal Nüfus Yoğunluğu"
+          ],
+          "correctAnswer": "Aritmetik Nüfus Yoğunluğu",
+          "explanation": "Toplam nüfusun toplam yüz ölçümüne bölünmesiyle aritmetik nüfus yoğunluğu elde edilir."
+        },
+        {
+          "id": "q_cog3_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi klimatolojik / hidro-meteorolojik kökenli bir doğal afettir?",
+          "choices": [
+            "Kuraklık ve Fırtına",
+            "Deprem",
+            "Volkanik Patlama",
+            "Tsunami"
+          ],
+          "correctAnswer": "Kuraklık ve Fırtına",
+          "explanation": "Kuraklık, aşırı sıcaklar, fırtına, sel ve taşkın atmosfer ve hava koşullarına bağlı hidro-meteorolojik afetlerdir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L135",
       "sourceSection": "Beşerî Sistemler ve Afetler",
-      "fingerprint": "5cb5c76f9267a5f7",
+      "fingerprint": "8d92474331be8d3f",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

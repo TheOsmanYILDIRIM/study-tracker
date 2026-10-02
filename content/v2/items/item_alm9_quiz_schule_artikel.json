@@ -52,15 +52,43 @@
           ],
           "correctAnswer": "Saatin kaç olduğunu",
           "explanation": "'Wie spät ist es?' = Saat kaç?"
+        },
+        {
+          "id": "q_alm2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada 'Bleistift' (Kurşun kalem) sözcüğünün belirli artikeli hangisidir?",
+          "choices": [
+            "der",
+            "die",
+            "das",
+            "den"
+          ],
+          "correctAnswer": "der",
+          "explanation": "'Bleistift' eril (maskulin) bir isimdir ve artikeli 'der'dir (der Bleistift)."
+        },
+        {
+          "id": "q_alm2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada '-chen' küçültme eki almış isimlerin (örneğin: Mäppchen - Kalem kutusu) artikeli kural olarak nedir?",
+          "choices": [
+            "das",
+            "der",
+            "die",
+            "den"
+          ],
+          "correctAnswer": "das",
+          "explanation": "Almancada '-chen' ve '-lein' küçültme eklerini alan isimler daima nötr (das) artikelini alır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L70",
       "sourceSection": "Modul 2 & 3: Schulsachen",
-      "fingerprint": "044fe75d3cedcf98",
+      "fingerprint": "425bba415ce1dcf9",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

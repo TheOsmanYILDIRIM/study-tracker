@@ -21,23 +21,23 @@
           "choices": [
             "[-2, 8]",
             "(1, 5)",
-            "[1, 5]",
-            "(-2, 8)"
+            "[-2, 1)",
+            "[5, 8]"
           ],
           "correctAnswer": "(1, 5)",
-          "explanation": "Kesişim kümesinde sol sınır max(-2, 1) = 1 (açık), sağ sınır min(5, 8) = 5 (açık) olur: (1, 5)."
+          "explanation": "Kesişim her iki kümede ortak olan x değerleridir: 1 < x < 5 -> (1, 5)."
         },
         {
           "id": "q_mat2_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Kapalı aralık [a, b] gösteriminde sınır değerleri olan a ve b elemanları kümeye dahildir.",
+          "prompt": "Kapalı aralık [a, b] gösteriminde sınır değerleri olan a ve b elemanları aralığa dahildir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Köşeli parantez sınır noktasının aralığa dahil olduğunu ifade eder."
+          "explanation": "Köşeli parantez sınır değerlerinin kümeye dahil olduğunu belirtir."
         },
         {
           "id": "q_mat2_3",
@@ -45,13 +45,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "{x | x ∈ ℝ, -3 < x ≤ 4} kümesinin aralık gösterimi hangisidir?",
           "choices": [
-            "[-3, 4)",
-            "(-3, 4]",
             "[-3, 4]",
+            "(-3, 4]",
+            "[-3, 4)",
             "(-3, 4)"
           ],
           "correctAnswer": "(-3, 4]",
-          "explanation": "-3 dahil değil (açık parantez), 4 dahil (köşeli parantez): (-3, 4]."
+          "explanation": "-3 dahil değil yay ayraç (, 4 dahil köşeli ayraç ] kullanılır -> (-3, 4]."
         },
         {
           "id": "q_mat2_4",
@@ -59,22 +59,36 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "ℝ fark [2, ∞) kümesinin eşiti nedir?",
           "choices": [
-            "(-∞, 2]",
             "(-∞, 2)",
+            "(-∞, 2]",
             "(2, ∞)",
-            "[-∞, 2)"
+            "[2, ∞)"
           ],
           "correctAnswer": "(-∞, 2)",
-          "explanation": "Tüm reel sayılardan [2, ∞) çıkarıldığında 2'den küçük açık aralık (-∞, 2) kalır."
+          "explanation": "Tüm gerçek sayılardan 2 ve 2'den büyük sayılar çıkarılırsa geriye 2'den küçük sayılar kalır: (-∞, 2)."
+        },
+        {
+          "id": "q_mat2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "A = [-4, 3] ve B = [0, 6) olduğuna göre A ∪ B (birleşim) aralığı hangisidir?",
+          "choices": [
+            "[-4, 6)",
+            "[-4, 3]",
+            "[0, 3]",
+            "(-4, 6]"
+          ],
+          "correctAnswer": "[-4, 6)",
+          "explanation": "Birleşim kümesi her iki aralığın tüm elemanlarını kapsar: en küçük sınır -4 (dahil) ve en büyük sınır 6 (hariç) -> [-4, 6)."
         }
       ],
-      "questionCount": 4,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L45",
       "sourceSection": "3-4. Hafta: Sayı Aralıkları ve Kümeler",
-      "fingerprint": "2fefb39da31b382b",
+      "fingerprint": "401111ac34239d66",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

@@ -17,64 +17,78 @@
           "id": "q_tar2_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Eski yazı türlerini, alfabeleri ve tarihi el yazması belgeleri okuyup çözümleyerek tarihe yardımcı olan bilim dalı hangisidir?",
+          "prompt": "Eski yazı türlerini, alfabeleri ve tarihi el yazması belgeleri okuyup çözümleyen tarihe yardımcı bilim dalı hangisidir?",
           "choices": [
+            "Arkeoloji",
             "Paleografya (Eski Yazı Bilimi)",
-            "Nümizmatik (Para Bilimi)",
-            "Heraldik (Arma Bilimi)",
-            "Antropoloji (Irk Bilimi)"
+            "Nümizmatik",
+            "Heraldik"
           ],
           "correctAnswer": "Paleografya (Eski Yazı Bilimi)",
-          "explanation": "Paleografya eski çağlardan kalan yazıları, alfabeleri ve el yazmalarını okuyup inceleyen bilim dalıdır."
+          "explanation": "Paleografya eski yazı türlerini ve alfabeleri incelerken; epigrafi anıtlar üzerindeki kitabeleri inceler."
         },
         {
           "id": "q_tar2_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Türklerin İslamiyet öncesinde kullandığı, her yıla bir hayvan adının verildiği ve güneş yılı esasına dayanan takvim hangisidir?",
+          "prompt": "Türklerin İslamiyet öncesinde kullandığı, her yıla bir hayvan adının verildiği ve Güneş yılı esasına dayanan milli takvim hangisidir?",
           "choices": [
-            "12 Hayvanlı Türk Takvimi",
             "Hicri Takvim",
-            "Rumi Takvim",
-            "Celali Takvimi"
+            "Celali Takvimi",
+            "12 Hayvanlı Türk Takvimi",
+            "Rumi Takvim"
           ],
           "correctAnswer": "12 Hayvanlı Türk Takvimi",
-          "explanation": "12 Hayvanlı Türk Takvimi, Türklerin astronomi bilgisini gösteren, güneş yılı esaslı ve 12 yıllık döngüye sahip en eski milli takvimidir."
+          "explanation": "12 Hayvanlı Türk Takvimi, Güneş yılı esasına dayanan ve her yıla bir hayvan ismi (Sıçan, Ud, Pars vb.) verilen ilk Türk takvimidir."
         },
         {
           "id": "q_tar2_3",
           "questionIndex": 2,
           "type": "TRUE_FALSE",
-          "prompt": "Olayın geçtiği döneme ait birinci elden kaynaklardan yararlanılarak daha sonra yazılan tarih kitapları ve makaleler \"İkinci Elden Kaynak\" olarak adlandırılır.",
+          "prompt": "Olayın geçtiği döneme ait birinci elden kaynaklardan yararlanılarak daha sonra yazılan eserlere 'İkinci Elden Kaynak' denir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Birinci elden kaynaklara dayanılarak hazırlanan araştırma eserleri, ders kitapları ve ansiklopediler ikinci elden kaynaktır."
+          "explanation": "Olayın geçtiği döneme ait olmayan fakat o dönemin ana kaynaklarından faydalanılarak üretilen eserler ikinci elden kaynaktır."
         },
         {
           "id": "q_tar2_4",
           "questionIndex": 3,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih yazıcılığının ilk şekli olan, olayları efsanelerle karışık ve neden-sonuç ilişkisine dayanmadan aktaran; en önemli temsilcisi Herodotos olan tarih türü hangisidir?",
+          "prompt": "Tarih yazıcılığının ilk şekli olan, olayları efsanelerle karışık ve neden-sonuç ilişkisi kurmadan anlatan, öncülüğünü Heredot'un yaptığı tarih çeşidi hangisidir?",
           "choices": [
-            "Hikâyeci (Rivayetçi) Tarih",
             "Öğretici (Pragmatik) Tarih",
-            "Kronik Tarih",
-            "Sosyal Tarih"
+            "Hikâyeci (Rivayetçi) Tarih",
+            "Sosyal Tarih",
+            "Bilimsel (Araştırmacı) Tarih"
           ],
           "correctAnswer": "Hikâyeci (Rivayetçi) Tarih",
-          "explanation": "Herodotosun Historia adlı eseriyle bilinen hikâyeci tarih, olayları kulaktan kulağa aktarılan rivayetlerle ve neden-sonuç aramaksızın anlatan ilk tarih yazıcılığı türüdür."
+          "explanation": "Heredot'un 'Historia' adlı eseriyle başlattığı rivayetçi tarih, efsanelere ve anlatılara dayalı ilk tarih yazımı türüdür."
+        },
+        {
+          "id": "q_tar2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Geçmiş dönemlerde basılmış madenî paraları (sikkeleri) inceleyerek dönemin ekonomik gücü ve hükümdarları hakkında bilgi veren tarihe yardımcı bilim dalı hangisidir?",
+          "choices": [
+            "Nümizmatik (Meskûkât)",
+            "Epigrafi",
+            "Kronoloji",
+            "Heraldik"
+          ],
+          "correctAnswer": "Nümizmatik (Meskûkât)",
+          "explanation": "Nümizmatik (para bilimi), eski paraları inceleyerek devletlerin mali ve siyasi yapısı hakkında bilgi sunar."
         }
       ],
-      "questionCount": 4,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L45",
       "sourceSection": "Kaynak Türleri ve Takvimler",
-      "fingerprint": "58ac0db7d11cb133",
+      "fingerprint": "fb68c541799ecebb",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

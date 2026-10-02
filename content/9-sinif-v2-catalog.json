@@ -217,15 +217,29 @@
                       ],
                       "correctAnswer": "4√2",
                       "explanation": "32 = 16 · 2 olduğundan √32 = √(16·2) = 4√2."
+                    },
+                    {
+                      "id": "q_mat1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "5⁻² ifadesinin rasyonel sayı değeri kaçtır?",
+                      "choices": [
+                        "1/25",
+                        "-25",
+                        "-10",
+                        "1/10"
+                      ],
+                      "correctAnswer": "1/25",
+                      "explanation": "a⁻ⁿ = 1 / aⁿ kuralı gereğince 5⁻² = 1 / 5² = 1/25."
                     }
                   ],
-                  "questionCount": 4,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L15",
                   "sourceSection": "1-2. Hafta: Üslü ve Köklü Gösterimler",
-                  "fingerprint": "9676190cdd7bf378",
+                  "fingerprint": "2c69102bd3cd5373",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -472,23 +486,23 @@
                       "choices": [
                         "[-2, 8]",
                         "(1, 5)",
-                        "[1, 5]",
-                        "(-2, 8)"
+                        "[-2, 1)",
+                        "[5, 8]"
                       ],
                       "correctAnswer": "(1, 5)",
-                      "explanation": "Kesişim kümesinde sol sınır max(-2, 1) = 1 (açık), sağ sınır min(5, 8) = 5 (açık) olur: (1, 5)."
+                      "explanation": "Kesişim her iki kümede ortak olan x değerleridir: 1 < x < 5 -> (1, 5)."
                     },
                     {
                       "id": "q_mat2_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Kapalı aralık [a, b] gösteriminde sınır değerleri olan a ve b elemanları kümeye dahildir.",
+                      "prompt": "Kapalı aralık [a, b] gösteriminde sınır değerleri olan a ve b elemanları aralığa dahildir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Köşeli parantez sınır noktasının aralığa dahil olduğunu ifade eder."
+                      "explanation": "Köşeli parantez sınır değerlerinin kümeye dahil olduğunu belirtir."
                     },
                     {
                       "id": "q_mat2_3",
@@ -496,13 +510,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "{x | x ∈ ℝ, -3 < x ≤ 4} kümesinin aralık gösterimi hangisidir?",
                       "choices": [
-                        "[-3, 4)",
-                        "(-3, 4]",
                         "[-3, 4]",
+                        "(-3, 4]",
+                        "[-3, 4)",
                         "(-3, 4)"
                       ],
                       "correctAnswer": "(-3, 4]",
-                      "explanation": "-3 dahil değil (açık parantez), 4 dahil (köşeli parantez): (-3, 4]."
+                      "explanation": "-3 dahil değil yay ayraç (, 4 dahil köşeli ayraç ] kullanılır -> (-3, 4]."
                     },
                     {
                       "id": "q_mat2_4",
@@ -510,22 +524,36 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "ℝ fark [2, ∞) kümesinin eşiti nedir?",
                       "choices": [
-                        "(-∞, 2]",
                         "(-∞, 2)",
+                        "(-∞, 2]",
                         "(2, ∞)",
-                        "[-∞, 2)"
+                        "[2, ∞)"
                       ],
                       "correctAnswer": "(-∞, 2)",
-                      "explanation": "Tüm reel sayılardan [2, ∞) çıkarıldığında 2'den küçük açık aralık (-∞, 2) kalır."
+                      "explanation": "Tüm gerçek sayılardan 2 ve 2'den büyük sayılar çıkarılırsa geriye 2'den küçük sayılar kalır: (-∞, 2)."
+                    },
+                    {
+                      "id": "q_mat2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "A = [-4, 3] ve B = [0, 6) olduğuna göre A ∪ B (birleşim) aralığı hangisidir?",
+                      "choices": [
+                        "[-4, 6)",
+                        "[-4, 3]",
+                        "[0, 3]",
+                        "(-4, 6]"
+                      ],
+                      "correctAnswer": "[-4, 6)",
+                      "explanation": "Birleşim kümesi her iki aralığın tüm elemanlarını kapsar: en küçük sınır -4 (dahil) ve en büyük sınır 6 (hariç) -> [-4, 6)."
                     }
                   ],
-                  "questionCount": 4,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L45",
                   "sourceSection": "3-4. Hafta: Sayı Aralıkları ve Kümeler",
-                  "fingerprint": "2fefb39da31b382b",
+                  "fingerprint": "401111ac34239d66",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -600,13 +628,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Aşağıdaki sayılardan hangisi bir irrasyonel (ℚ') sayıdır?",
                       "choices": [
-                        "-5",
-                        "2/7",
+                        "3/4",
                         "√7",
-                        "0,333..."
+                        "-5",
+                        "0,6"
                       ],
                       "correctAnswer": "√7",
-                      "explanation": "√7 sayısı rasyonel bir kesir a/b olarak yazılamayan irrasyonel bir sayıdır."
+                      "explanation": "Tam kare olmayan sayıların karekökü virgülden sonra devretmeksizin sonsuza gittiği için irrasyoneldir."
                     },
                     {
                       "id": "q_mat3_2",
@@ -618,30 +646,58 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "(2n+1) + (2k+1) = 2(n+k+1) olup daima 2'nin tam katıdır (çift)."
+                      "explanation": "(2k+1) + (2m+1) = 2(k+m+1) daima çift sayıdır."
                     },
                     {
                       "id": "q_mat3_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Gerçek sayılarda çarpma işleminin toplama işlemi üzerine dağılma özelliği hangisidir?",
+                      "prompt": "Gerçek sayılarda çarpma işleminin toplama işlemi üzerine dağılma özelliği hangi eşitlikte doğru verilmiştir?",
                       "choices": [
                         "a · (b + c) = a · b + a · c",
-                        "a · b = b · a",
-                        "(a · b) · c = a · (b · c)",
-                        "a + 0 = a"
+                        "a + (b · c) = (a + b) · (a + c)",
+                        "a · (b · c) = (a · b) · c",
+                        "a + b = b + a"
                       ],
                       "correctAnswer": "a · (b + c) = a · b + a · c",
-                      "explanation": "Çarpmanın toplama üzerine sol dağılma özelliğidir."
+                      "explanation": "Çarpmanın toplama üzerine soldan dağılma özelliği a · (b + c) = a·b + a·c şeklindedir."
+                    },
+                    {
+                      "id": "q_mat3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Sayı kümeleri arasındaki kapsama ilişkisi hangisinde doğru verilmiştir?",
+                      "choices": [
+                        "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ",
+                        "ℤ ⊂ ℕ ⊂ ℚ ⊂ ℝ",
+                        "ℚ ⊂ ℤ ⊂ ℕ ⊂ ℝ",
+                        "ℕ ⊂ ℚ ⊂ ℤ ⊂ ℝ"
+                      ],
+                      "correctAnswer": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ",
+                      "explanation": "Doğal sayılar (ℕ) ⊂ Tam sayılar (ℤ) ⊂ Rasyonel sayılar (ℚ) ⊂ Gerçek sayılar (ℝ)."
+                    },
+                    {
+                      "id": "q_mat3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Toplama işleminin gerçek sayılardaki etkisiz (birim) elemanı ile çarpma işlemindeki yutan elemanının toplamı kaçtır?",
+                      "choices": [
+                        "0",
+                        "1",
+                        "2",
+                        "-1"
+                      ],
+                      "correctAnswer": "0",
+                      "explanation": "Toplama işleminin birim elemanı 0, çarpma işleminin yutan elemanı 0'dır; toplamları 0 + 0 = 0."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L70",
                   "sourceSection": "5-6. Hafta: Sayı Kümeleri",
-                  "fingerprint": "18de800d4d591dc3",
+                  "fingerprint": "01b593c81376ffcc",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -722,7 +778,7 @@
                         "360°"
                       ],
                       "correctAnswer": "180°",
-                      "explanation": "Öklid geometrisinde bir düzlem üçgenin iç açıları toplamı 180 derecedir."
+                      "explanation": "Öklid geometrisinde herhangi bir üçgenin iç açıları toplamı 180 derecedir."
                     },
                     {
                       "id": "q_mat4_2",
@@ -736,7 +792,7 @@
                         "3 ≤ x ≤ 11"
                       ],
                       "correctAnswer": "3 < x < 11",
-                      "explanation": "Üçgen eşitsizliğine göre |7 - 4| < x < 7 + 4 yani 3 < x < 11 olmalıdır."
+                      "explanation": "Üçgen eşitsizliği kuralına göre: |7 - 4| < x < 7 + 4 => 3 < x < 11."
                     },
                     {
                       "id": "q_mat4_3",
@@ -748,16 +804,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Açı-kenar bağıntılarına göre açının ölçüsü büyüdükçe gördüğü kenarın uzunluğu artar."
+                      "explanation": "Üçgende kenar uzunlukları karşılarındaki açıların ölçüleriyle doğru orantılıdır."
+                    },
+                    {
+                      "id": "q_mat4_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir ABC üçgeninde m(A) = 50° ve m(B) = 70° ise C açısının ölçüsü kaç derecedir?",
+                      "choices": [
+                        "60°",
+                        "50°",
+                        "70°",
+                        "80°"
+                      ],
+                      "correctAnswer": "60°",
+                      "explanation": "Üçgenin iç açıları toplamı 180° olduğundan m(C) = 180° - (50° + 70°) = 60°."
+                    },
+                    {
+                      "id": "q_mat4_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir üçgende herhangi bir dış açının ölçüsü neye eşittir?",
+                      "choices": [
+                        "Kendisine komşu olmayan iki iç açının ölçüleri toplamına",
+                        "İç açılar toplamının yarısına",
+                        "Komşu iç açının ölçüsüne",
+                        "Daima 90 dereceye"
+                      ],
+                      "correctAnswer": "Kendisine komşu olmayan iki iç açının ölçüleri toplamına",
+                      "explanation": "Bir üçgende bir dış açı, kendisine komşu olmayan iki iç açının toplamına eşittir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L130",
                   "sourceSection": "Geometrik Şekiller Ünitesi",
-                  "fingerprint": "e50cef5317d0d91c",
+                  "fingerprint": "7ca077199a4485fd",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -858,7 +942,7 @@
                         "14"
                       ],
                       "correctAnswer": "10",
-                      "explanation": "Pisagor teoremine göre a² + b² = c² => 6² + 8² = 36 + 64 = 100 = 10²."
+                      "explanation": "Pisagor bağıntısı: 6² + 8² = 36 + 64 = 100 = 10²."
                     },
                     {
                       "id": "q_mat5_2",
@@ -869,10 +953,10 @@
                         "2/3",
                         "4/9",
                         "8/27",
-                        "√2/√3"
+                        "1/3"
                       ],
                       "correctAnswer": "4/9",
-                      "explanation": "Benzer üçgenlerin alanları oranı benzerlik oranının karesine eşittir: (2/3)² = 4/9."
+                      "explanation": "Benzer iki şeklin alanları oranı, benzerlik oranının karesine eşittir: k² = (2/3)² = 4/9."
                     },
                     {
                       "id": "q_mat5_3",
@@ -884,16 +968,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Eşlik, benzerlik oranının k = 1 olduğu özel durumdur."
+                      "explanation": "Eş şekiller tüm açı ve kenarları birebir eşit olan özel benzer şekillerdir."
+                    },
+                    {
+                      "id": "q_mat5_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Benzerlik oranı k = 3/4 olan iki üçgenin çevreleri oranı kaçtır?",
+                      "choices": [
+                        "3/4",
+                        "9/16",
+                        "4/3",
+                        "16/9"
+                      ],
+                      "correctAnswer": "3/4",
+                      "explanation": "Benzer iki geometrik şeklin çevreleri oranı, doğrudan benzerlik oranına (k) eşittir (3/4)."
+                    },
+                    {
+                      "id": "q_mat5_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir dik üçgende hipotenüse ait yüksekliğin karesi, hipotenüste ayırdığı parçaların çarpımına eşittir (h² = p · k). Bu bağıntı hangi teoremle adlandırılır?",
+                      "choices": [
+                        "Öklid Teoremi",
+                        "Pisagor Teoremi",
+                        "Thales Teoremi",
+                        "Kosinüs Teoremi"
+                      ],
+                      "correctAnswer": "Öklid Teoremi",
+                      "explanation": "Dik üçgende dik açıdan hipotenüse inilen yükseklik bağıntıları Öklid Teoremi olarak bilinir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L185",
                   "sourceSection": "Eşlik ve Benzerlik Ünitesi",
-                  "fingerprint": "d363f3ef65cd65fc",
+                  "fingerprint": "2b04aece764affde",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -968,13 +1080,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "p ≡ 1 ve q ≡ 0 iken 'p ∧ q' önermesinin doğruluk değeri nedir?",
                       "choices": [
-                        "1",
                         "0",
+                        "1",
                         "Belirsiz",
                         "p"
                       ],
                       "correctAnswer": "0",
-                      "explanation": "Ve (∧) bağlacında sonucun 1 olması için her iki önermenin de 1 olması gerekir. 1 ∧ 0 ≡ 0."
+                      "explanation": "'Ve' (∧) bağlacında sonucun 1 olması için tüm bileşenlerin 1 olması gerekir; 1 ∧ 0 ≡ 0."
                     },
                     {
                       "id": "q_mat6_2",
@@ -988,7 +1100,7 @@
                         "p ≡ 1, q ≡ 1"
                       ],
                       "correctAnswer": "p ≡ 1, q ≡ 0",
-                      "explanation": "1 ⇒ 0 ≡ 0 (100 kuralı); diğer tüm durumlarda ise bağlacı 1'e eşittir."
+                      "explanation": "Koşullu önerme yalnızca hipotez doğru (1) ve hüküm yanlış (0) olduğunda (100 kuralı) 0'dır."
                     },
                     {
                       "id": "q_mat6_3",
@@ -1000,16 +1112,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "∀ sembolü matematikte 'evrensel niceleyici' (her / all) anlamındadır."
+                      "explanation": "∀ (Her) evrensel, ∃ (Bazı/En az bir) varlıksal niceleyicidir."
+                    },
+                    {
+                      "id": "q_mat6_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "'(p ∨ q)' ifadesinin De Morgan kurallarına göre dengi (eşiti) aşağıdakilerden hangisidir?",
+                      "choices": [
+                        "p' ∧ q'",
+                        "p' ∨ q'",
+                        "p ∧ q",
+                        "p' ⇒ q'"
+                      ],
+                      "correctAnswer": "p' ∧ q'",
+                      "explanation": "De Morgan kuralına göre veya (∨) bağlacının değili, değillerin ve (∧) bağlacı ile birleşimidir: (p ∨ q)' ≡ p' ∧ q'."
+                    },
+                    {
+                      "id": "q_mat6_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "'p ⇔ q' (iki yönlü koşullu önerme) hangi durumda 1 (doğru) değerini alır?",
+                      "choices": [
+                        "p ve q önermelerinin doğruluk değerleri aynı olduğunda (1-1 veya 0-0)",
+                        "Sadece p ≡ 1 ve q ≡ 0 olduğunda",
+                        "Sadece p ≡ 0 ve q ≡ 1 olduğunda",
+                        "Her durumda"
+                      ],
+                      "correctAnswer": "p ve q önermelerinin doğruluk değerleri aynı olduğunda (1-1 veya 0-0)",
+                      "explanation": "İki yönlü koşullu önerme (ancak ve ancak), bileşenleri aynı doğruluk değerine sahipken 1, farklıyken 0 sonucunu verir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L230",
                   "sourceSection": "Algoritma ve Bilişim Ünitesi",
-                  "fingerprint": "3a4b463df07e4788",
+                  "fingerprint": "b6ae407f67408393",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1070,7 +1210,7 @@
                         "9"
                       ],
                       "correctAnswer": "7",
-                      "explanation": "Veri grubunda en çok tekrar eden eleman 7'dir (2 kez)."
+                      "explanation": "Veri grubunda en çok tekrar eden değer (frekansı en yüksek olan) 7'dir."
                     },
                     {
                       "id": "q_mat7_2",
@@ -1096,16 +1236,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Medyan verinin ortasındaki değer olduğundan verilerin sıralı olması şarttır."
+                      "explanation": "Medyan hesaplanmadan önce veri grubu mutlaka sıralı olmalıdır."
+                    },
+                    {
+                      "id": "q_mat7_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "4, 8, 12, 16, 20 veri grubunun açıklığı (aralığı / ranj) kaçtır?",
+                      "choices": [
+                        "16",
+                        "20",
+                        "12",
+                        "8"
+                      ],
+                      "correctAnswer": "16",
+                      "explanation": "Açıklık = En Büyük Değer - En Küçük Değer = 20 - 4 = 16."
+                    },
+                    {
+                      "id": "q_mat7_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir veri grubundaki değerlerin aritmetik ortalamadan sapmalarının karelerinin ortalamasının kareköküyle hesaplanan yayılma ölçüsü hangisidir?",
+                      "choices": [
+                        "Standart Sapma",
+                        "Medyan",
+                        "Mod",
+                        "Aritmetik Ortalama"
+                      ],
+                      "correctAnswer": "Standart Sapma",
+                      "explanation": "Verilerin aritmetik ortalama etrafındaki homojenlik/dağılımını ölçen temel yayılma ölçüsü standart sapmadır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L260",
                   "sourceSection": "İstatistiksel Araştırma Süreci",
-                  "fingerprint": "908cfc851079225e",
+                  "fingerprint": "7cc14a4aa4ad27da",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1166,7 +1334,7 @@
                         "2/3"
                       ],
                       "correctAnswer": "1/2",
-                      "explanation": "Zardaki asal sayılar {2, 3, 5} yani 3 tanedir. Olasılık 3/6 = 1/2."
+                      "explanation": "Zardaki asal sayılar {2, 3, 5} (3 eleman), toplam yüz sayısı 6 -> Olasılık = 3/6 = 1/2."
                     },
                     {
                       "id": "q_mat8_2",
@@ -1178,7 +1346,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "İmkansız olay 0, kesin olay 1 olup diğer tüm olasılıklar [0, 1] aralığındadır."
+                      "explanation": "Olasılık fonksiyonu [0, 1] aralığında değer alır; imkansız olay 0, kesin olay 1'dir."
                     },
                     {
                       "id": "q_mat8_3",
@@ -1186,22 +1354,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Bir torbada 3 kırmızı, 4 mavi, 5 sarı bilye vardır. Rastgele çekilen bir bilyenin sarı olma olasılığı nedir?",
                       "choices": [
-                        "5/12",
                         "1/4",
+                        "5/12",
                         "1/3",
-                        "5/7"
+                        "7/12"
                       ],
                       "correctAnswer": "5/12",
-                      "explanation": "Toplam bilye sayısı: 3+4+5=12. Sarı bilye sayısı: 5. Olasılık = 5/12."
+                      "explanation": "Toplam bilye sayısı = 3 + 4 + 5 = 12. Sarı sayısı = 5. Olasılık = 5/12."
+                    },
+                    {
+                      "id": "q_mat8_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "İki hilesiz madeni para aynı anda atıldığında ikisinin de 'Yazı' gelme olasılığı kaçtır?",
+                      "choices": [
+                        "1/4",
+                        "1/2",
+                        "3/4",
+                        "1/8"
+                      ],
+                      "correctAnswer": "1/4",
+                      "explanation": "Örnek uzay = {(Y,Y), (Y,T), (T,Y), (T,T)}, istenen durum sayısı 1, toplam durum 4 -> Olasılık = 1/4."
+                    },
+                    {
+                      "id": "q_mat8_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Gerçekleşmesi imkânsız olan bir olayın olasılık değeri kaçtır?",
+                      "choices": [
+                        "0",
+                        "1",
+                        "-1",
+                        "1/2"
+                      ],
+                      "correctAnswer": "0",
+                      "explanation": "İmkânsız olayın olasılığı 0, kesin olayın olasılığı 1'dir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L290",
                   "sourceSection": "Veriden Olasılığa Ünitesi",
-                  "fingerprint": "fb82e0d04bd66b4e",
+                  "fingerprint": "f79261630af4239a",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1290,16 +1486,16 @@
                         "Mekanik",
                         "Optik",
                         "Termodinamik",
-                        "Elektromanyetizma"
+                        "Nükleer Fizik"
                       ],
                       "correctAnswer": "Optik",
-                      "explanation": "Işık ve ışık olaylarını inceleyen fizik dalı Optik'tir."
+                      "explanation": "Işığın doğasını, yayılmasını ve maddeyle etkileşimini inceleyen dal optiktir."
                     },
                     {
                       "id": "q_fiz1_2",
                       "questionIndex": 1,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Aşağıdakilerden hangisi Türkiye'deki ulusal bilim araştırma merkezlerinden biridir?",
+                      "prompt": "Aşağıdakilerden hangisi Türkiye'deki ulusal bilim araştırma merkezlerindendir?",
                       "choices": [
                         "CERN",
                         "NASA",
@@ -1307,7 +1503,7 @@
                         "ESA"
                       ],
                       "correctAnswer": "TÜBİTAK",
-                      "explanation": "TÜBİTAK (Türkiye Bilimsel ve Teknolojik Araştırma Kurumu) Türkiye'nin ulusal araştırma merkezidir."
+                      "explanation": "TÜBİTAK ve TENMAK Türkiye Cumhuriyeti ulusal bilim ve araştırma kurumlarıdır."
                     },
                     {
                       "id": "q_fiz1_3",
@@ -1319,16 +1515,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Fiziğin temel tanımı madde-enerji etkileşimi ve doğa yasalarıdır."
+                      "explanation": "Fizik evrendeki madde ve enerjinin doğasını ve birbirleriyle ilişkilerini temel alır."
+                    },
+                    {
+                      "id": "q_fiz1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Kristal yapılı katı maddelerin elektriksel, manyetik, optik ve termal özelliklerini (yarı iletkenler, süper iletkenler, mikroçipler) inceleyen fizik alt dalı hangisidir?",
+                      "choices": [
+                        "Katıhâl Fiziği",
+                        "Nükleer Fizik",
+                        "Termodinamik",
+                        "Mekanik"
+                      ],
+                      "correctAnswer": "Katıhâl Fiziği",
+                      "explanation": "Katıhâl fiziği kristal örgü yapılarını, mikroçipleri ve modern nanoteknolojiyi inceler."
+                    },
+                    {
+                      "id": "q_fiz1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Aşağıdakilerden hangisi SI sisteminde 'temel' (türetilmemiş) büyüklüklerden biridir?",
+                      "choices": [
+                        "Kütle (kg)",
+                        "Kuvvet (N)",
+                        "Hız (m/s)",
+                        "Enerji (J)"
+                      ],
+                      "correctAnswer": "Kütle (kg)",
+                      "explanation": "KISAMUZ kısaltmasıyla bilinen temel büyüklükler: Kütle, Işık şiddeti, Sıcaklık, Akım şiddeti, Madde miktarı, Uzunluk, Zaman."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L30",
                   "sourceSection": "Fizik Bilimine Giriş",
-                  "fingerprint": "46692a3e70359c73",
+                  "fingerprint": "3ff6bb4165cae40e",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1404,13 +1628,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Aşağıdaki niceliklerden hangisi vektörel bir büyüklüktür?",
                       "choices": [
-                        "Kütle",
                         "Zaman",
+                        "Kütle",
                         "Hız",
                         "Sıcaklık"
                       ],
                       "correctAnswer": "Hız",
-                      "explanation": "Hız (velocity) hem büyüklüğe hem de yöne sahip vektörel bir büyüklüktür; sürat, kütle, zaman ise skalerdir."
+                      "explanation": "Hız yönlü bir büyüklüktür (vektörel); sürat, kütle ve sıcaklık skalerdir."
                     },
                     {
                       "id": "q_fiz2_2",
@@ -1419,12 +1643,12 @@
                       "prompt": "Doğadaki en güçlü fakat menzili en kısa olan temel kuvvet hangisidir?",
                       "choices": [
                         "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
-                        "Kütle Çekim Kuvveti",
+                        "Zayıf Nükleer Kuvvet",
                         "Elektromanyetik Kuvvet",
-                        "Zayıf Nükleer Kuvvet"
+                        "Kütle Çekim Kuvveti"
                       ],
                       "correctAnswer": "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
-                      "explanation": "Güçlü nükleer kuvvet atom çekirdeğinde proton ve nötronları bir arada tutan en şiddetli kuvvettir."
+                      "explanation": "Güçlü nükleer kuvvet atom çekirdeğinde kuark ve nükleonları bir arada tutar."
                     },
                     {
                       "id": "q_fiz2_3",
@@ -1436,16 +1660,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "SI temel birimlerinde uzunluk 'metre' (m) olarak tanımlanır."
+                      "explanation": "SI metrik sisteminde uzunluk metre (m) ile tanımlanır."
+                    },
+                    {
+                      "id": "q_fiz2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Doğrusal bir yolda sabit 20 m/s hızla hareket eden bir araç, 15 saniyede kaç metre yol alır (x = v · t)?",
+                      "choices": [
+                        "300 m",
+                        "150 m",
+                        "200 m",
+                        "450 m"
+                      ],
+                      "correctAnswer": "300 m",
+                      "explanation": "Sabit hızlı harekette alınan yol x = v · t = 20 m/s · 15 s = 300 m."
+                    },
+                    {
+                      "id": "q_fiz2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir cisme etki eden net kuvvet sıfır ise cismin hareket durumu hakkında ne söylenebilir (Newton'ın 1. Hareket Yasası - Eylemsizlik)?",
+                      "choices": [
+                        "Duruyorsa durmaya devam eder, hareket halindeyse sabit hızla doğrusal hareketini sürdürür.",
+                        "Daima durur.",
+                        "Sürekli hızlanan hareket yapar.",
+                        "Dairesel hareket yapar."
+                      ],
+                      "correctAnswer": "Duruyorsa durmaya devam eder, hareket halindeyse sabit hızla doğrusal hareketini sürdürür.",
+                      "explanation": "Net kuvvet sıfır olduğunda (F_net = 0), cisim mevcut hareket durumunu korur (eylemsizlik ilkesi)."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L65",
                   "sourceSection": "Kuvvet ve Hareket Ünitesi",
-                  "fingerprint": "4e5e91453b736f1b",
+                  "fingerprint": "c203e41ecf64626d",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1522,23 +1774,23 @@
                       "choices": [
                         "Sıvının derinliğine (h)",
                         "Sıvının özkütlesine (d)",
-                        "Kabın taban alanına (S)",
-                        "Yer çekimi ivmesine (g)"
+                        "Yer çekimi ivmesine (g)",
+                        "Kabın taban alanına (S)"
                       ],
                       "correctAnswer": "Kabın taban alanına (S)",
-                      "explanation": "Durgun sıvı basıncı yalnızca derinlik, özkütle ve yerçekimi ivmesine bağlıdır; kabın şekline veya taban alanına bağlı değildir."
+                      "explanation": "Sıvı basıncı derinlik, özkütle ve yerçekimine bağlıdır; kabın şekline ve taban alanına bağlı değildir."
                     },
                     {
                       "id": "q_fiz3_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Bernoulli ilkesine göre akışkanın hızının arttığı yerde akışkan basıncı azalır.",
+                      "prompt": "Bernoulli ilkesine göre akışkanın hızının arttığı yerde akışkan basıncı düşer.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Akışkanlar dinamiğinde hız artışı dinamik basıncı artırırken statik basıncı düşürür."
+                      "explanation": "Akışkanlar dar kesitlerde hızlanır ve hız arttıkça iç basınç düşer (Bernoulli ilkesi)."
                     },
                     {
                       "id": "q_fiz3_3",
@@ -1552,16 +1804,44 @@
                         "dc · ds = 1"
                       ],
                       "correctAnswer": "dc < ds",
-                      "explanation": "Özkütlesi sıvınınkinden küçük olan cisimler sıvıda yüzer."
+                      "explanation": "Cismin özkütlesi sıvınınkinden küçükse cisim yüzer, eşitse askıda kalır, büyükse batar."
+                    },
+                    {
+                      "id": "q_fiz3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Kapalı kaplardaki sıvılara uygulanan dış basıncın sıvının temas ettiği her noktaya ve her doğrultuda aynen iletilmesi ilkesine ne ad verilir?",
+                      "choices": [
+                        "Pascal Prensibi",
+                        "Arşimet Prensibi",
+                        "Bernoulli İlkesi",
+                        "Torricelli Prensibi"
+                      ],
+                      "correctAnswer": "Pascal Prensibi",
+                      "explanation": "Sıvıların sıkıştırılamazlık özelliğinden kaynaklanan bu basınca Pascal Prensibi denir (hidrolik fren ve krikoların çalışma esası)."
+                    },
+                    {
+                      "id": "q_fiz3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Katı basıncı (P = F / S) ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+                      "choices": [
+                        "Temas yüzeyi azaldıkça katı basıncı artar.",
+                        "Temas yüzeyi arttıkça katı basıncı artar.",
+                        "Katı basıncı cismin ağırlığından bağımsızdır.",
+                        "Katı basıncı sadece yer çekimi ivmesine bağlıdır."
+                      ],
+                      "correctAnswer": "Temas yüzeyi azaldıkça katı basıncı artar.",
+                      "explanation": "Katı basıncı temas yüzeyi ile ters orantılıdır; bu nedenle bıçağın ağzı bilendiğinde yüzey küçülür ve basınç artar."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L115",
                   "sourceSection": "Akışkanlar Ünitesi",
-                  "fingerprint": "b5e4615ad22b2695",
+                  "fingerprint": "5a80a66b5692331f",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1636,13 +1916,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Sıcaklık birimi SI sisteminde aşağıdakilerden hangisidir?",
                       "choices": [
-                        "Celcius (°C)",
+                        "Celsius (°C)",
                         "Fahrenheit (°F)",
                         "Kelvin (K)",
                         "Kalori (cal)"
                       ],
                       "correctAnswer": "Kelvin (K)",
-                      "explanation": "SI birim sisteminde temel sıcaklık birimi Kelvin'dir."
+                      "explanation": "SI sisteminde mutlak sıcaklık birimi Kelvindir."
                     },
                     {
                       "id": "q_fiz4_2",
@@ -1654,7 +1934,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Saf maddelerin erime, kaynama gibi faz dönüşümleri sırasında aldıkları ısı sıcaklığı artırmaz, bağları koparmaya harcanır."
+                      "explanation": "Saf maddeler erime ve kaynama gibi hâl değişimleri sırasında aldıkları ısıyı bağları kırmak için kullanır; sıcaklık sabit kalır."
                     },
                     {
                       "id": "q_fiz4_3",
@@ -1662,22 +1942,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Güneş'ten Dünya'ya ısının ulaşması hangi ısı aktarım yoluyla gerçekleşir?",
                       "choices": [
-                        "İletim (Kondüksiyon)",
+                        "İletim",
                         "Konveksiyon (Taşıma)",
                         "Işıma (Radyasyon)",
-                        "Sürtünme"
+                        "Buharlaşma"
                       ],
                       "correctAnswer": "Işıma (Radyasyon)",
-                      "explanation": "Uzay boşluğunda madde olmadığından Güneş enerjisi Dünya'ya elektromanyetik dalgalar (ışıma) yoluyla ulaşır."
+                      "explanation": "Uzay boşluğunda madde bulunmadığından ısı elektromanyetik dalgalarla (ışıma yoluyla) yayılır."
+                    },
+                    {
+                      "id": "q_fiz4_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "1 gram saf maddenin sıcaklığını 1 °C artırmak için verilmesi gereken ısı enerjisine ne ad verilir?",
+                      "choices": [
+                        "Öz ısı (Özgül Isı)",
+                        "Isı sığası",
+                        "Gizli erime ısısı",
+                        "İç enerji"
+                      ],
+                      "correctAnswer": "Öz ısı (Özgül Isı)",
+                      "explanation": "Öz ısı (c) maddeler için ayırt edici bir özelliktir ve 1 gram maddenin sıcaklığını 1 °C değiştirmek için gereken enerjidir."
+                    },
+                    {
+                      "id": "q_fiz4_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Sıvı ve gaz gibi akışkanlarda ısınan maddenin genleşerek yükselmesi ve soğuk maddenin alta inmesiyle gerçekleşen ısı iletim yolu hangisidir?",
+                      "choices": [
+                        "Konveksiyon (Taşıma)",
+                        "İletim",
+                        "Işıma",
+                        "Genleşme"
+                      ],
+                      "correctAnswer": "Konveksiyon (Taşıma)",
+                      "explanation": "Akışkanlarda moleküllerin yer değiştirmesiyle ısının yayılmasına konveksiyon (taşıma) denir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L170",
                   "sourceSection": "Enerji ve Isı Ünitesi",
-                  "fingerprint": "29239d124da9f020",
+                  "fingerprint": "f53a95afed67303d",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1762,48 +2070,76 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Karbon temelli bileşiklerin yapı ve özelliklerini inceleyen kimya alt disiplini hangisidir?",
                       "choices": [
-                        "Organik Kimya",
+                        "Biyokimya",
                         "Anorganik Kimya",
-                        "Analitik Kimya",
+                        "Organik Kimya",
                         "Fizikokimya"
                       ],
                       "correctAnswer": "Organik Kimya",
-                      "explanation": "Organik kimya karbon bileşiklerini inceler."
+                      "explanation": "Karbon (C) elementi ve hidrokarbon türevlerini inceleyen dal organik kimyadır."
                     },
                     {
                       "id": "q_kim1_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Alev sembolü içeren kimyasal güvenlik piktogramı maddenin 'Yanıcı' olduğunu belirtir.",
+                      "prompt": "Alev sembolü içeren kimyasal güvenlik piktogramı maddenin 'Yanıcı' olduğunu gösterir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Alev sembolü kolay tutuşabilen ve alev alabilen yanıcı maddeleri temsil eder."
+                      "explanation": "Alev piktogramı yanıcı (flammable) maddeleri gösterir."
                     },
                     {
                       "id": "q_kim1_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Bir numunenin içindeki maddelerin cinsini ve miktarını belirleyen kimya alt dalı hangisidir?",
+                      "prompt": "Bir numunenin içindeki maddelerin cinsini ve miktarını belirleyen kimya disiplini hangisidir?",
                       "choices": [
-                        "Biyokimya",
                         "Analitik Kimya",
                         "Polimer Kimyası",
-                        "Endüstriyel Kimya"
+                        "Endüstriyel Kimya",
+                        "Fizikokimya"
                       ],
                       "correctAnswer": "Analitik Kimya",
-                      "explanation": "Nitel (kalitatif) ve nicel (kantitatif) analiz Analitik Kimyanın alanıdır."
+                      "explanation": "Nitel (cins) ve nicel (miktar) analizleri analitik kimya gerçekleştirir."
+                    },
+                    {
+                      "id": "q_kim1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Simyayı (alşimi) modern kimya biliminden ayıran en temel fark hangisidir?",
+                      "choices": [
+                        "Kimyanın deneysel, ölçüme dayalı ve sistematik bilgi birikimi içermesi",
+                        "Simyacıların hiçbir laboratuvar aleti kullanmamış olması",
+                        "Simyacıların sadece gazları incelemesi",
+                        "Kimyada maddelerin sınıflandırılmaması"
+                      ],
+                      "correctAnswer": "Kimyanın deneysel, ölçüme dayalı ve sistematik bilgi birikimi içermesi",
+                      "explanation": "Simya deneme-yanılmaya dayanırken kimya bilimsel yöntem, hassas terazi/ölçüm ve teorik temellere dayanır."
+                    },
+                    {
+                      "id": "q_kim1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Yaygın adı 'Tuz Ruhu' olan bileşiğin kimyasal formülü hangisidir?",
+                      "choices": [
+                        "HCl",
+                        "H₂SO₄",
+                        "HNO₃",
+                        "NaOH"
+                      ],
+                      "correctAnswer": "HCl",
+                      "explanation": "HCl (hidroklorik asit) yaygın olarak tuz ruhu adıyla bilinir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L20",
                   "sourceSection": "Kimya Bilimi ve Güvenlik",
-                  "fingerprint": "907fa86dc6b6d8c8",
+                  "fingerprint": "7d30caf519d7f93f",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1879,7 +2215,7 @@
                       "prompt": "Atom çekirdeğini ve çekirdekli atom modelini ilk ortaya koyan bilim insanı kimdir?",
                       "choices": [
                         "John Dalton",
-                        "J.J. Thomson",
+                        "J. J. Thomson",
                         "Ernest Rutherford",
                         "Niels Bohr"
                       ],
@@ -1890,7 +2226,7 @@
                       "id": "q_kim2_2",
                       "questionIndex": 1,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı nasıl değişir?",
+                      "prompt": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı genellikle nasıl değişir?",
                       "choices": [
                         "Artar",
                         "Azalır",
@@ -1898,7 +2234,7 @@
                         "Önce artar sonra azalır"
                       ],
                       "correctAnswer": "Azalır",
-                      "explanation": "Aynı periyotta sağa gidildikçe çekirdek yükü (proton sayısı) arttığı için elektronlar daha güçlü çekilir ve yarıçap küçülür."
+                      "explanation": "Çekirdek yükü (proton sayısı) arttıkça elektronlar çekirdek tarafından daha güçlü çekilir ve yarıçap küçülür."
                     },
                     {
                       "id": "q_kim2_3",
@@ -1910,16 +2246,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Pauling ölçeğinde elektronegatifliği 4.0 ile en yüksek element Flor'dur."
+                      "explanation": "Flor (F) periyodik sistemin en elektronegatif elementidir (Pauling ölçeğine göre 4.0)."
+                    },
+                    {
+                      "id": "q_kim2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir atomun proton sayısı 11 ve nötron sayısı 12 olduğuna göre bu atomun kütle numarası (nükleon sayısı) kaçtır?",
+                      "choices": [
+                        "23",
+                        "11",
+                        "12",
+                        "1"
+                      ],
+                      "correctAnswer": "23",
+                      "explanation": "Kütle numarası = Proton Sayısı + Nötron Sayısı = 11 + 12 = 23."
+                    },
+                    {
+                      "id": "q_kim2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Periyodik tablonun 7A grubunda yer alan elementler hangi adla anılır?",
+                      "choices": [
+                        "Halojenler",
+                        "Alkali Metaller",
+                        "Toprak Alkali Metaller",
+                        "Soygazlar"
+                      ],
+                      "correctAnswer": "Halojenler",
+                      "explanation": "7A grubu elementlerine (F, Cl, Br, I, At) tuz oluşturan anlamına gelen 'Halojenler' adı verilir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L60",
                   "sourceSection": "Atom ve Periyodik Tablo",
-                  "fingerprint": "f4ee54056b15ce28",
+                  "fingerprint": "c8f26a0fd9029fae",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -1992,7 +2356,7 @@
                       "id": "q_kim3_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Metal ve ametal atomları arasında elektron alışverişi ile oluşan güçlü bağ hangisidir?",
+                      "prompt": "Metal ve ametal atomları arasında elektron alışverişi ile oluşan güçlü etkileşim hangisidir?",
                       "choices": [
                         "Kovalent Bağ",
                         "İyonik Bağ",
@@ -2000,7 +2364,7 @@
                         "Hidrojen Bağı"
                       ],
                       "correctAnswer": "İyonik Bağ",
-                      "explanation": "Elektron alışverişi ile zıt yüklü iyonlar arasındaki elektrostatik çekim kuvveti iyonik bağı oluşturur."
+                      "explanation": "Katyon ve anyonlar arasındaki elektrostatik çekim kuvvetine iyonik bağ denir."
                     },
                     {
                       "id": "q_kim3_2",
@@ -2012,30 +2376,58 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Kalıcı dipolü olmayan apolar moleküllerde anlık dipollerle oluşan London kuvvetleri tek zayıf etkileşimdir."
+                      "explanation": "Apolar moleküllerde ve soy gazlarda anlık (geçici) dipollerle oluşan tek zayıf etkileşim London kuvvetidir."
                     },
                     {
                       "id": "q_kim3_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "H₂O molekülünün yüksek kaynama noktasına sahip olmasını sağlayan en baskın moleküller arası etkileşim hangisidir?",
+                      "prompt": "H₂O molekülünün yüksek kaynama noktasına sahip olmasını sağlayan en baskın zayıf etkileşim türü hangisidir?",
                       "choices": [
-                        "İyon-Dipol",
                         "Hidrojen Bağı",
-                        "Dipol-Dipol",
-                        "London Kuvvetleri"
+                        "Dipol-Dipol Etkileşimi",
+                        "London Kuvvetleri",
+                        "İyon-Dipol Etkileşimi"
                       ],
                       "correctAnswer": "Hidrojen Bağı",
-                      "explanation": "F, O, N atomlarına bağlı hidrojen atomunun yaptığı hidrojen bağı zayıf etkileşimlerin en güçlüsüdür."
+                      "explanation": "F, O, N atomlarına bağlı hidrojen atomunun oluşturduğu hidrojen bağı, en kuvvetli zayıf etkileşimdir."
+                    },
+                    {
+                      "id": "q_kim3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Ametal atomları arasında elektronların ortaklaşa kullanılmasıyla oluşan güçlü etkileşime ne ad verilir?",
+                      "choices": [
+                        "Kovalent Bağ",
+                        "İyonik Bağ",
+                        "Metalik Bağ",
+                        "Dipol-Dipol Etkileşimi"
+                      ],
+                      "correctAnswer": "Kovalent Bağ",
+                      "explanation": "İki veya daha fazla ametal atomunun değerlik elektronlarını ortaklaşa kullanması kovalent bağı oluşturur."
+                    },
+                    {
+                      "id": "q_kim3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Aşağıdakilerden hangisi zayıf etkileşimler (fiziksel bağlar) sınıfına girer?",
+                      "choices": [
+                        "Dipol-dipol etkileşimleri",
+                        "İyonik bağ",
+                        "Kovalent bağ",
+                        "Metalik bağ"
+                      ],
+                      "correctAnswer": "Dipol-dipol etkileşimleri",
+                      "explanation": "Van der Waals etkileşimleri (dipol-dipol, London, iyon-dipol) ve hidrojen bağları zayıf etkileşimlerdir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L105",
                   "sourceSection": "Kimyasal Türler Arası Etkileşimler",
-                  "fingerprint": "5f11263ed19e23de",
+                  "fingerprint": "657fc277d469842e",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2110,13 +2502,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Sıvıların akmaya karşı gösterdiği dirence ne ad verilir?",
                       "choices": [
-                        "Yüzey Gerilimi",
+                        "Akışkanlık",
                         "Viskozite",
-                        "Adezyon",
+                        "Yüzey Gerilimi",
                         "Buhar Basıncı"
                       ],
                       "correctAnswer": "Viskozite",
-                      "explanation": "Sıvıların akmaya karşı direnci viskozite olarak adlandırılır (örn. balın viskozitesi sudan büyüktür)."
+                      "explanation": "Viskozite sıvının akmaya karşı gösterdiği iç dirençtir (örneğin balın viskozitesi sudan büyüktür)."
                     },
                     {
                       "id": "q_kim4_2",
@@ -2128,7 +2520,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Amorf katılar belirli bir geometrik kristal yapısı ve net erime noktası olmayan katılardır."
+                      "explanation": "Belirli bir kristal geometrisi olmayan ve camsı geçiş sıcaklığı olan katılara amorf katı denir."
                     },
                     {
                       "id": "q_kim4_3",
@@ -2137,21 +2529,49 @@
                       "prompt": "Yeşil kimyanın (Green Chemistry) temel amacı nedir?",
                       "choices": [
                         "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
-                        "Yalnızca bitkilerden kimyasal madde üretmek",
-                        "Tüm laboratuvar deneylerini dijital ortama taşımak",
-                        "Kimyasal reaksiyon hızlarını sınırsız artırmak"
+                        "Tüm kimyasalların üretimini durdurmak",
+                        "Sadece organik bileşikler üretmek",
+                        "Fosil yakıt tüketimini artırmak"
                       ],
                       "correctAnswer": "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
-                      "explanation": "Yeşil kimya çevre kirliliğini engelleme, atık azaltımı ve enerji tasarrufunu amaçlar."
+                      "explanation": "Yeşil kimya sürdürülebilirlik ilkeleri doğrultusunda zararlı madde kullanımını ve atık oluşumunu en aza indirmeyi hedefler."
+                    },
+                    {
+                      "id": "q_kim4_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Sıcaklığı artırılan bir sıvının viskozitesi ve akıcılığı nasıl değişir?",
+                      "choices": [
+                        "Viskozitesi azalır, akıcılığı artar.",
+                        "Viskozitesi artar, akıcılığı azalır.",
+                        "İkisi de artar.",
+                        "İkisi de değişmez."
+                      ],
+                      "correctAnswer": "Viskozitesi azalır, akıcılığı artar.",
+                      "explanation": "Sıcaklık arttıkça moleküller arası çekim kuvvetlerinin etkisi zayıflar, viskozite düşer ve sıvı daha akıcı hale gelir."
+                    },
+                    {
+                      "id": "q_kim4_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir katının sıvı hâle geçmeden doğrudan gaz hâline geçmesi olayına ne ad verilir?",
+                      "choices": [
+                        "Süblimleşme",
+                        "Kırağılaşma",
+                        "Buharlaşma",
+                        "Yoğuşma"
+                      ],
+                      "correctAnswer": "Süblimleşme",
+                      "explanation": "Katı halden doğrudan gaz haline geçişe süblimleşme (örneğin kuru buz veya naftalin) denir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L145",
                   "sourceSection": "Maddenin Halleri ve Yeşil Kimya",
-                  "fingerprint": "94f081c22bc3f7de",
+                  "fingerprint": "8aae725be1b3455e",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2278,27 +2698,27 @@
                       "id": "q_bio1_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Bilimsel yöntemde gözlemler ve verilere dayalı olarak kurulan geçici çözüm yoluna ne denir?",
+                      "prompt": "Bilimsel yöntemde gözlemler ve verilere dayalı olarak kurulan geçici çözüm yoluna ne ad verilir?",
                       "choices": [
+                        "Teori (Kuram)",
                         "Hipotez",
-                        "Teori",
                         "Kanun (Yasa)",
-                        "Teorem"
+                        "Deney"
                       ],
                       "correctAnswer": "Hipotez",
-                      "explanation": "Hipotez probleme sunulan test edilebilir geçici açıklama ve çözüm yoludur."
+                      "explanation": "Hipotez, probleme getirilen sınanabilir ve geçici bir açıklamadır."
                     },
                     {
                       "id": "q_bio1_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Canlıların iç ortamlarını değişen çevre koşullarına rağmen dengede tutmasına Homeostazi denir.",
+                      "prompt": "Canlıların iç ortamlarını değişen çevre koşullarına rağmen dengede tutmasına 'Homeostazi' denir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Homeostazi vücut sıcaklığı, pH ve su dengesi gibi iç dengelerin korunmasıdır."
+                      "explanation": "Homeostazi, canlıların kararlı bir iç çevre dengesi sürdürme yeteneğidir."
                     },
                     {
                       "id": "q_bio1_3",
@@ -2306,22 +2726,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Kontrollü bir deneyde araştırmacının bizzat değiştirdiği değişkene ne ad verilir?",
                       "choices": [
-                        "Bağımsız Değişken",
                         "Bağımlı Değişken",
-                        "Sabit Değişken",
-                        "Kontrol Grubu"
+                        "Bağımsız Değişken",
+                        "Kontrol Grubu",
+                        "Sabit Tutulan Değişken"
                       ],
                       "correctAnswer": "Bağımsız Değişken",
-                      "explanation": "Araştırmacının değiştirdiği etken bağımsız değişkendir; buna bağlı değişen sonuç ise bağımlı değişkendir."
+                      "explanation": "Araştırmacının deneyde bilinçli olarak farklı uyguladığı etken bağımsız değişkendir."
+                    },
+                    {
+                      "id": "q_bio1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Aşağıdakilerden hangisi tüm canlı organizmaların ortak özelliklerinden biridir?",
+                      "choices": [
+                        "Hücresel yapıya sahip olma",
+                        "Fotosentez yapma",
+                        "Oksijenli solunum yapma",
+                        "Çok hücreli olma"
+                      ],
+                      "correctAnswer": "Hücresel yapıya sahip olma",
+                      "explanation": "Bütün canlılar en az bir hücreden (prokaryot veya ökaryot) oluşur. Fotosentez veya çok hücrelilik tüm canlılarda ortak değildir."
+                    },
+                    {
+                      "id": "q_bio1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Hücrede gerçekleşen yapım (özümleme / anabolizma) ve yıkım (yadımlama / katabolizma) tepkimelerinin tamamına ne ad verilir?",
+                      "choices": [
+                        "Metabolizma",
+                        "Homeostazi",
+                        "Adaptasyon",
+                        "Kataliz"
+                      ],
+                      "correctAnswer": "Metabolizma",
+                      "explanation": "Canlı hücrelerde meydana gelen tüm biyokimyasal yapım ve yıkım olaylarının toplamı metabolizmadır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L20",
                   "sourceSection": "Yaşam Teması ve Bilimsel Yöntem",
-                  "fingerprint": "461aabc187053e1a",
+                  "fingerprint": "c9ac5ede19a2031f",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2451,15 +2899,43 @@
                       ],
                       "correctAnswer": "Glikojen",
                       "explanation": "Glikojen hayvan, mantar ve bakterilerde glikozun depo formudur."
+                    },
+                    {
+                      "id": "q_bio2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bitkilerde hücre çeperinin (duvarının) temel yapısal bileşeni olan polisakkarit hangisidir?",
+                      "choices": [
+                        "Selüloz",
+                        "Nişasta",
+                        "Glikojen",
+                        "Kitin"
+                      ],
+                      "correctAnswer": "Selüloz",
+                      "explanation": "Selüloz bitki hücre çeperinin yapısal polisakkaritidir ve suda çözünmez."
+                    },
+                    {
+                      "id": "q_bio2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "DNA molekülünde adenin (A) bazı ile timin (T) bazı arasında kaç adet hidrojen bağı kurulur?",
+                      "choices": [
+                        "2",
+                        "3",
+                        "1",
+                        "4"
+                      ],
+                      "correctAnswer": "2",
+                      "explanation": "DNA çift sarmalında A ile T arasında ikili (2), G ile C arasında üçlü (3) zayıf hidrojen bağı bulunur."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L65",
                   "sourceSection": "Canlıların Temel Bileşenleri",
-                  "fingerprint": "779d7faa5f53aee7",
+                  "fingerprint": "ee04678141c17e19",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2534,13 +3010,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Hücrede oksijenli solunum ile ATP üreten çift zarlı organel hangisidir?",
                       "choices": [
-                        "Ribozom",
+                        "Kloroplast",
                         "Mitokondri",
-                        "Golgi Aygıtı",
+                        "Golgi Cisimciği",
                         "Lizozom"
                       ],
                       "correctAnswer": "Mitokondri",
-                      "explanation": "Mitokondri ökaryotik hücrelerin enerji santralidir ve ATP üretir."
+                      "explanation": "Mitokondri hücresel solunumla enerji (ATP) üreten çift zarlı organeldir."
                     },
                     {
                       "id": "q_bio3_2",
@@ -2552,7 +3028,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Aktif taşıma konsantrasyon farkına karşı enerji (ATP) harcanarak yapılır."
+                      "explanation": "Aktif taşımada yoğunluk farkına karşı taşıma yapılır ve hücresel enerji (ATP) tüketilir."
                     },
                     {
                       "id": "q_bio3_3",
@@ -2560,22 +3036,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Hücrenin çok yoğun (hipertonik) ortama konulduğunda su kaybederek büzülmesine ne ad verilir?",
                       "choices": [
-                        "Plazmoliz",
                         "Deplazmoliz",
-                        "Hemoliz",
-                        "Turgor"
+                        "Plazmoliz",
+                        "Turgor",
+                        "Hemoliz"
                       ],
                       "correctAnswer": "Plazmoliz",
-                      "explanation": "Hipertonik çözeltide su kaybeden hücrenin büzülmesine plazmoliz denir."
+                      "explanation": "Hipertonik ortamda hücre su vererek büzülür; bu olaya plazmoliz denir."
+                    },
+                    {
+                      "id": "q_bio3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Hücrede protein sentezinin gerçekleştiği, zarsız ve tüm canlı hücrelerde bulunan organel hangisidir?",
+                      "choices": [
+                        "Ribozom",
+                        "Lizozom",
+                        "Golgi Aygıtı",
+                        "Endoplazmik Retikulum"
+                      ],
+                      "correctAnswer": "Ribozom",
+                      "explanation": "Ribozom protein sentezinden sorumludur, zarsızdır ve hem prokaryot hem ökaryotlarda bulunur."
+                    },
+                    {
+                      "id": "q_bio3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Hücre zarından büyük katı moleküllerin yalancı ayaklarla hücre içine alınması olayına ne ad verilir?",
+                      "choices": [
+                        "Fagositoz",
+                        "Pinositoz",
+                        "Ekzositoz",
+                        "Kolaylaştırılmış Difüzyon"
+                      ],
+                      "correctAnswer": "Fagositoz",
+                      "explanation": "Endositozun bir çeşidi olan fagositozda büyük katı parçacıklar yalancı ayak yardımıyla hücre içine alınır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L115",
                   "sourceSection": "Hücre ve Madde Geçişleri",
-                  "fingerprint": "bb4d7218aca7013b",
+                  "fingerprint": "f31c1b694a28e18a",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2636,7 +3140,7 @@
                         "Tanımlayıcı adı"
                       ],
                       "correctAnswer": "Cins adını",
-                      "explanation": "İkili adlandırmada ilk kelime büyük harfle başlar ve Cins (Genus) adıdır."
+                      "explanation": "Binominal adlandırmada ilk kelime cins adı, ikinci kelime tanımlayıcı ad, ikisi birlikte tür adıdır."
                     },
                     {
                       "id": "q_bio4_2",
@@ -2648,7 +3152,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Virüsler hücresel yapıya sahip değildir, nükleoprotein kompleksleridir."
+                      "explanation": "Virüsler nükleik asit (DNA veya RNA) ve protein kılıftan oluşan hücresel olmayan zorunlu hücre içi parazitlerdir."
                     },
                     {
                       "id": "q_bio4_3",
@@ -2656,22 +3160,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Sınıflandırma basamaklarında Âlemden Türe doğru gidildikçe canlılar arasındaki benzerlik nasıl değişir?",
                       "choices": [
-                        "Artar",
                         "Azalır",
+                        "Artar",
                         "Değişmez",
-                        "Önce azalır sonra artar"
+                        "Önce artar sonra azalır"
                       ],
                       "correctAnswer": "Artar",
-                      "explanation": "Türe yaklaştıkça ortak genler, protein benzerliği ve akrabalık derecesi artar."
+                      "explanation": "Âlemden türe gidildikçe ortak özellikler, protein benzerliği ve akrabalık derecesi artar."
+                    },
+                    {
+                      "id": "q_bio4_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Doğal (filogenetik) sınıflandırmada kökenleri (orijinleri) aynı, görevleri benzer veya farklı olabilen organlara ne ad verilir?",
+                      "choices": [
+                        "Homolog Organ",
+                        "Analog Organ",
+                        "Körelmiş Organ",
+                        "Adaptif Organ"
+                      ],
+                      "correctAnswer": "Homolog Organ",
+                      "explanation": "Kökenleri aynı olan organlara homolog organ (örneğin insan kolu ile balina yüzgeci) denir ve filogenetik sınıflandırmada temel alınır."
+                    },
+                    {
+                      "id": "q_bio4_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Sınıflandırmada temel ve en küçük taksonomik birim hangisidir?",
+                      "choices": [
+                        "Tür",
+                        "Cins",
+                        "Familya (Aile)",
+                        "Takım"
+                      ],
+                      "correctAnswer": "Tür",
+                      "explanation": "Ortak bir atadan gelen, çiftleştiklerinde verimli döller verebilen bireyler topluluğu olan 'Tür', temel sınıflandırma birimidir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L140",
                   "sourceSection": "Sınıflandırma ve Biyoçeşitlilik",
-                  "fingerprint": "4b5466a755d2af70",
+                  "fingerprint": "71752000f2b77319",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -2934,64 +3466,78 @@
                       "id": "q_tar1_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Yeni arkeolojik buluntuların (örneğin Göbeklitepe tapınak kompleksinin keşfi gibi) ortaya çıkmasıyla mevcut tarihsel kabullerin değişebilmesi tarih biliminin hangi özelliğini kanıtlar?",
+                      "prompt": "Yeni arkeolojik buluntuların (örneğin Göbeklitepe tapınak kompleksinin keşfi gibi) mevcut tarih tezlerini değiştirmesi neyi kanıtlar?",
                       "choices": [
+                        "Tarih biliminde deney ve gözlem yapılamayacağını",
                         "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
-                        "Tarih biliminde belgelere güvenilemeyeceğini",
-                        "Eski kaynakların tamamının değersizleştiğini",
-                        "Tarih araştırmalarında arkeolojinin tek kaynak olduğunu"
+                        "Yazılı kaynakların arkeolojik buluntulardan daha değersiz olduğunu",
+                        "Geçmişin tamamen bilinemez olduğunu"
                       ],
                       "correctAnswer": "Tarihsel bilginin dinamik ve yeni belgelere göre güncellenebilir olduğunu",
-                      "explanation": "Tarihsel bilgi mutlak ve değişmez değildir; yeni arkeolojik ve yazılı belgelerin bulunmasıyla mevcut bilgiler yeniden değerlendirilebilir ve değişebilir."
+                      "explanation": "Tarihsel bilgi mutlak ve değişmez değildir; yeni bulunan birinci elden kanıtlar, arkeolojik keşifler ve belgeler ışığında yeniden yorumlanır ve güncellenir."
                     },
                     {
                       "id": "q_tar1_2",
                       "questionIndex": 1,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Tarih araştırmalarında incelenen olayın geçtiği \"yer ve zaman\"ın belirtilmesi neden temel bir zorunluluktur?",
+                      "prompt": "Tarih araştırmalarında incelenen olayın geçtiği \"yer ve zaman\"ın belirlenmesi neden zorunludur?",
                       "choices": [
                         "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
-                        "Olayın kahramanlarını övmek veya yermek amacıyla",
-                        "Deney ve gözlem yapılmasına imkan sağlamak için",
-                        "Gelecekte yaşanacak olayların kesin tarihini hesaplamak için"
+                        "Olayları günümüzün ahlak ve hukuk kurallarıyla yargılayabilmek için",
+                        "Tarih yazımında kronolojik sıralamayı tek amaç haline getirmek için",
+                        "Yalnızca devlet yöneticilerinin biyografilerini yazabilmek için"
                       ],
                       "correctAnswer": "Olayın geçtiği dönemin coğrafi, siyasi ve kültürel şartlarını doğru tahlil edebilmek için",
-                      "explanation": "Tarihi olaylar gerçekleştikleri dönemin fiziki, coğrafi ve toplumsal koşulları içinde anlam kazanır; bu nedenle yer ve zaman belirtilmeden doğru tarihsel tahlil yapılamaz."
+                      "explanation": "Bir olayın doğru anlaşılabilmesi ancak o dönemin mekan koşulları ve zamanın zihniyet dünyası dikkate alınarak mümkündür."
                     },
                     {
                       "id": "q_tar1_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Tarih araştırmalarında geçmişte yaşanmış bir olayı o günün şartlarına göre değil, günümüzün değer yargıları ve bakış açısıyla değerlendirme yanılgısına ne ad verilir?",
+                      "prompt": "Tarih araştırmalarında geçmişte yaşanmış bir olayı o günün şartlarına göre değil, günümüzün değer yargıları, kavramları ve bakış açısıyla değerlendirme hatasına ne ad verilir?",
                       "choices": [
+                        "Tasnif",
                         "Anakronizm (Tarih Yanılgısı)",
-                        "Objektiflik (Nesnellik)",
-                        "Tasnif (Sınıflandırma)",
-                        "Epigrafi (Yazıt Bilimi)"
+                        "Tahlil",
+                        "Terkip"
                       ],
                       "correctAnswer": "Anakronizm (Tarih Yanılgısı)",
-                      "explanation": "Anakronizm, geçmişteki şahsiyet ve olayları yaşadıkları çağın şartlarından soyutlayarak günümüzün ahlak, teknoloji ve mantığıyla değerlendirme hatasıdır."
+                      "explanation": "Anakronizm, geçmişteki olay veya kişileri kendi çağlarının koşullarından koparıp günümüz algısıyla yorumlama hatasıdır."
                     },
                     {
                       "id": "q_tar1_4",
                       "questionIndex": 3,
                       "type": "TRUE_FALSE",
-                      "prompt": "Tarih öğrenimi bireye eleştirel düşünme, kanıtlara dayalı akıl yürütme becerisi ve milli/kültürel kimlik bilinci kazandırır.",
+                      "prompt": "Tarih öğrenimi bireye eleştirel düşünme, kanıtlara dayalı akıl yürütme ve milli kimlik bilinci kazandırır.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Tarih eğitimi hem toplumsal aidiyet ve kültür aktarımı sağlar hem de olaylara çok yönlü, kanıta dayalı ve eleştirel yaklaşma yetisi geliştirir."
+                      "explanation": "Tarih eğitimi bireyin sorgulama, çok boyutlu düşünme ve toplumsal hafızayı anlama becerisini geliştirir."
+                    },
+                    {
+                      "id": "q_tar1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Tarih biliminin konusu aşağıdakilerden hangisidir?",
+                      "choices": [
+                        "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+                        "Doğa olaylarının fiziksel ve kimyasal kanunları",
+                        "Gelecekte yaşanacak olayların kesin tahmin edilmesi",
+                        "Yalnızca devletlerin askeri savaşları"
+                      ],
+                      "correctAnswer": "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+                      "explanation": "Tarih; geçmişteki insan topluluklarının siyasi, sosyal, ekonomik ve kültürel faaliyetlerini sebep-sonuç ilişkisi içinde inceler."
                     }
                   ],
-                  "questionCount": 4,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L25",
                   "sourceSection": "Tarih Bilimi ve Metodolojisi",
-                  "fingerprint": "64b24a48c58f2211",
+                  "fingerprint": "359262862d218538",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3266,64 +3812,78 @@
                       "id": "q_tar2_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Eski yazı türlerini, alfabeleri ve tarihi el yazması belgeleri okuyup çözümleyerek tarihe yardımcı olan bilim dalı hangisidir?",
+                      "prompt": "Eski yazı türlerini, alfabeleri ve tarihi el yazması belgeleri okuyup çözümleyen tarihe yardımcı bilim dalı hangisidir?",
                       "choices": [
+                        "Arkeoloji",
                         "Paleografya (Eski Yazı Bilimi)",
-                        "Nümizmatik (Para Bilimi)",
-                        "Heraldik (Arma Bilimi)",
-                        "Antropoloji (Irk Bilimi)"
+                        "Nümizmatik",
+                        "Heraldik"
                       ],
                       "correctAnswer": "Paleografya (Eski Yazı Bilimi)",
-                      "explanation": "Paleografya eski çağlardan kalan yazıları, alfabeleri ve el yazmalarını okuyup inceleyen bilim dalıdır."
+                      "explanation": "Paleografya eski yazı türlerini ve alfabeleri incelerken; epigrafi anıtlar üzerindeki kitabeleri inceler."
                     },
                     {
                       "id": "q_tar2_2",
                       "questionIndex": 1,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Türklerin İslamiyet öncesinde kullandığı, her yıla bir hayvan adının verildiği ve güneş yılı esasına dayanan takvim hangisidir?",
+                      "prompt": "Türklerin İslamiyet öncesinde kullandığı, her yıla bir hayvan adının verildiği ve Güneş yılı esasına dayanan milli takvim hangisidir?",
                       "choices": [
-                        "12 Hayvanlı Türk Takvimi",
                         "Hicri Takvim",
-                        "Rumi Takvim",
-                        "Celali Takvimi"
+                        "Celali Takvimi",
+                        "12 Hayvanlı Türk Takvimi",
+                        "Rumi Takvim"
                       ],
                       "correctAnswer": "12 Hayvanlı Türk Takvimi",
-                      "explanation": "12 Hayvanlı Türk Takvimi, Türklerin astronomi bilgisini gösteren, güneş yılı esaslı ve 12 yıllık döngüye sahip en eski milli takvimidir."
+                      "explanation": "12 Hayvanlı Türk Takvimi, Güneş yılı esasına dayanan ve her yıla bir hayvan ismi (Sıçan, Ud, Pars vb.) verilen ilk Türk takvimidir."
                     },
                     {
                       "id": "q_tar2_3",
                       "questionIndex": 2,
                       "type": "TRUE_FALSE",
-                      "prompt": "Olayın geçtiği döneme ait birinci elden kaynaklardan yararlanılarak daha sonra yazılan tarih kitapları ve makaleler \"İkinci Elden Kaynak\" olarak adlandırılır.",
+                      "prompt": "Olayın geçtiği döneme ait birinci elden kaynaklardan yararlanılarak daha sonra yazılan eserlere 'İkinci Elden Kaynak' denir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Birinci elden kaynaklara dayanılarak hazırlanan araştırma eserleri, ders kitapları ve ansiklopediler ikinci elden kaynaktır."
+                      "explanation": "Olayın geçtiği döneme ait olmayan fakat o dönemin ana kaynaklarından faydalanılarak üretilen eserler ikinci elden kaynaktır."
                     },
                     {
                       "id": "q_tar2_4",
                       "questionIndex": 3,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Tarih yazıcılığının ilk şekli olan, olayları efsanelerle karışık ve neden-sonuç ilişkisine dayanmadan aktaran; en önemli temsilcisi Herodotos olan tarih türü hangisidir?",
+                      "prompt": "Tarih yazıcılığının ilk şekli olan, olayları efsanelerle karışık ve neden-sonuç ilişkisi kurmadan anlatan, öncülüğünü Heredot'un yaptığı tarih çeşidi hangisidir?",
                       "choices": [
-                        "Hikâyeci (Rivayetçi) Tarih",
                         "Öğretici (Pragmatik) Tarih",
-                        "Kronik Tarih",
-                        "Sosyal Tarih"
+                        "Hikâyeci (Rivayetçi) Tarih",
+                        "Sosyal Tarih",
+                        "Bilimsel (Araştırmacı) Tarih"
                       ],
                       "correctAnswer": "Hikâyeci (Rivayetçi) Tarih",
-                      "explanation": "Herodotosun Historia adlı eseriyle bilinen hikâyeci tarih, olayları kulaktan kulağa aktarılan rivayetlerle ve neden-sonuç aramaksızın anlatan ilk tarih yazıcılığı türüdür."
+                      "explanation": "Heredot'un 'Historia' adlı eseriyle başlattığı rivayetçi tarih, efsanelere ve anlatılara dayalı ilk tarih yazımı türüdür."
+                    },
+                    {
+                      "id": "q_tar2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Geçmiş dönemlerde basılmış madenî paraları (sikkeleri) inceleyerek dönemin ekonomik gücü ve hükümdarları hakkında bilgi veren tarihe yardımcı bilim dalı hangisidir?",
+                      "choices": [
+                        "Nümizmatik (Meskûkât)",
+                        "Epigrafi",
+                        "Kronoloji",
+                        "Heraldik"
+                      ],
+                      "correctAnswer": "Nümizmatik (Meskûkât)",
+                      "explanation": "Nümizmatik (para bilimi), eski paraları inceleyerek devletlerin mali ve siyasi yapısı hakkında bilgi sunar."
                     }
                   ],
-                  "questionCount": 4,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L45",
                   "sourceSection": "Kaynak Türleri ve Takvimler",
-                  "fingerprint": "58ac0db7d11cb133",
+                  "fingerprint": "fb68c541799ecebb",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3403,10 +3963,10 @@
                         "Hammurabi",
                         "Urgakina",
                         "Sargon",
-                        "Nabukadnezar"
+                        "Kiros"
                       ],
                       "correctAnswer": "Urgakina",
-                      "explanation": "Tarihte bilinen ilk yazılı kanunlar MÖ 2375 civarında Sümer kralı Urgakina tarafından yapılmıştır."
+                      "explanation": "MÖ 2375 civarında Lagaş Kralı Urgakina tarihin bilinen ilk yazılı kanunlarını yapmıştır."
                     },
                     {
                       "id": "q_tar3_2",
@@ -3418,30 +3978,58 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Lidyalılar MÖ 7. yüzyılda madeni parayı basmıştır."
+                      "explanation": "Lidyalılar MÖ 7. yüzyılda madeni parayı (elektron sikke) icat etmiştir."
                     },
                     {
                       "id": "q_tar3_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "İlk Çağ Türk topluluklarında ordu yapısını 'Onlu Sistem'e göre ilk kez teşkilatlandıran Türk hükümdarı kimdir?",
+                      "prompt": "İlk Çağ Türk topluluklarında ordu yapısını 'Onlu Sistem'e göre ilk kez teşkilatlandıran Asya Hun hükümdarı kimdir?",
                       "choices": [
                         "Teoman",
                         "Mete Han",
                         "Bumin Kağan",
-                        "İstemi Yabgu"
+                        "Bilge Kağan"
                       ],
                       "correctAnswer": "Mete Han",
-                      "explanation": "Büyük Hun Hükümdarı Mete Han MÖ 209'da Onlu Sistemi kurmuştur."
+                      "explanation": "MÖ 209'da tahta çıkan Mete Han onlu ordu sistemini kurmuş ve bu tarih TSK'nın kuruluş yılı kabul edilmiştir."
+                    },
+                    {
+                      "id": "q_tar3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "MÖ 1280 civarında Hititler ile Mısırlılar arasında imzalanan tarihin ilk yazılı barış antlaşması hangisidir?",
+                      "choices": [
+                        "Kadeş Antlaşması",
+                        "Margos Antlaşması",
+                        "Kallias Barışı",
+                        "Kasr-ı Şirin Antlaşması"
+                      ],
+                      "correctAnswer": "Kadeş Antlaşması",
+                      "explanation": "Kuzey Suriye egemenliği için savaşan Hitit ve Mısır devletleri arasında MÖ 1280'de Kadeş Antlaşması imzalanmıştır."
+                    },
+                    {
+                      "id": "q_tar3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Anadolu medeniyetlerinden Friglerin tarımı ve hayvancılığı korumak amacıyla öküz kesene veya saban kırana ölüm cezası vermesi neyi kanıtlar?",
+                      "choices": [
+                        "Hukuk kurallarının temel geçim kaynağı olan tarıma göre şekillendirildiğini",
+                        "Friglerin deniz ticaretine önem verdiğini",
+                        "Yazılı kanunların ilk kez Frigler tarafından yapıldığını",
+                        "Friglerde çok tanrılı dinin olmadığını"
+                      ],
+                      "correctAnswer": "Hukuk kurallarının temel geçim kaynağı olan tarıma göre şekillendirildiğini",
+                      "explanation": "Frig kanunlarının sert cezalar içermesi, geçim kaynaklarının korunmasına yönelik yasal düzenlemelerin yapıldığını gösterir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L105",
                   "sourceSection": "Eski Çağ Medeniyetleri",
-                  "fingerprint": "4ca293dc42b2c524",
+                  "fingerprint": "9d32609c14f013e4",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3516,7 +4104,7 @@
                       "id": "q_tar4_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Çin'den başlayıp Orta Asya üzerinden Akdeniz ve Karadeniz limanlarına ulaşan tarihi ticaret yolu hangisidir?",
+                      "prompt": "Çin'den başlayıp Orta Asya üzerinden Akdeniz ve Karadeniz limanlarına uzanan tarihi kervan yolu hangisidir?",
                       "choices": [
                         "Baharat Yolu",
                         "İpek Yolu",
@@ -3524,19 +4112,19 @@
                         "Kürk Yolu"
                       ],
                       "correctAnswer": "İpek Yolu",
-                      "explanation": "İpek Yolu Çin'den Avrupa'ya uzanan ana ticaret aksıdır."
+                      "explanation": "İpek Yolu doğu ile batı arasındaki en önemli kara ticaret ve kültür köprüsüdür."
                     },
                     {
                       "id": "q_tar4_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Orta Çağ Avrupası'nda siyasi gücün derebeyleri (senyörler) arasında bölündüğü yönetim sistemine Feodalizm denir.",
+                      "prompt": "Orta Çağ Avrupası'nda siyasi gücün derebeyleri (senyörler) arasında bölündüğü kapalı tarım ekonomisine dayalı sistem Feodalizm (Derebeylik) olarak adlandırılır.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Feodalizm merkezi otoritenin zayıf olduğu, toprak sahibi soyluların egemen olduğu düzendir."
+                      "explanation": "Feodalizmde merkezi krallıklar zayıf, soylular ve şatolar egemendir."
                     },
                     {
                       "id": "q_tar4_3",
@@ -3546,20 +4134,48 @@
                       "choices": [
                         "Beytülhikme",
                         "Nizamiye Medresesi",
-                        "Darülfünun",
-                        "Enderun"
+                        "Dârülfünûn",
+                        "Rasathane"
                       ],
                       "correctAnswer": "Beytülhikme",
-                      "explanation": "Beytülhikme (Bilgelik Evi) İslam'ın Altın Çağı'nda kurulan tercüme ve bilim akademisidir."
+                      "explanation": "Beytülhikme (Bilgelik Evi) antik Yunan, Fars ve Hint eserlerinin Arapçaya çevrildiği büyük bilim akademisidir."
+                    },
+                    {
+                      "id": "q_tar4_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "375 yılında Hunların batıya doğru ilerlemesiyle başlayan ve Roma İmparatorluğu'nun parçalanmasına yol açan büyük tarihi olay hangisidir?",
+                      "choices": [
+                        "Kavimler Göçü",
+                        "Haçlı Seferleri",
+                        "Yüzyıl Savaşları",
+                        "Moğol İstilası"
+                      ],
+                      "correctAnswer": "Kavimler Göçü",
+                      "explanation": "375'te başlayan Kavimler Göçü ile İlk Çağ sona ermiş, Roma ikiye bölünmüş ve Orta Çağ başlamıştır."
+                    },
+                    {
+                      "id": "q_tar4_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "1215 yılında İngiltere Kralı Yurtsuz John ile soylular arasında imzalanan, kralın yetkilerini tarihte ilk kez kısıtlayan belge hangisidir?",
+                      "choices": [
+                        "Magna Carta Libertatum (Büyük Şart)",
+                        "Habeas Corpus",
+                        "İnsan Hakları Bildirisi",
+                        "Vestfalya Barışı"
+                      ],
+                      "correctAnswer": "Magna Carta Libertatum (Büyük Şart)",
+                      "explanation": "1215 Magna Carta ile kralın keyfi vergi koyması yasaklanmış ve anayasal monarşi yolunda ilk adım atılmıştır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L155",
                   "sourceSection": "Orta Çağ Medeniyetleri",
-                  "fingerprint": "b1e6b1df1b2c6b14",
+                  "fingerprint": "395047f45aa1d778",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3716,7 +4332,7 @@
                         "Biyosfer"
                       ],
                       "correctAnswer": "Litosfer",
-                      "explanation": "Litosfer yer kabuğu ve taş küredir."
+                      "explanation": "Taş küre litosfer, hava küre atmosfer, su küre hidrosfer, canlılar küresi biyosferdir."
                     },
                     {
                       "id": "q_cog1_2",
@@ -3728,13 +4344,13 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Olayların yeryüzündeki yayılış ve dağılışını haritalarla incelemek coğrafyaya özgüdür."
+                      "explanation": "Dağılış ilkesi olayların yeryüzündeki yayılışını harita ile gösteren ve coğrafyaya özgü olan ilkedir."
                     },
                     {
                       "id": "q_cog1_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Ekvator ve çevresinin harita çizimlerinde bozulmayı en aza indiren projeksiyon türü hangisidir?",
+                      "prompt": "Ekvator ve çevresinin harita çizimlerinde bozulmayı en aza indiren projeksiyon yöntemi hangisidir?",
                       "choices": [
                         "Silindirik Projeksiyon",
                         "Konik Projeksiyon",
@@ -3742,16 +4358,44 @@
                         "Parçalı Projeksiyon"
                       ],
                       "correctAnswer": "Silindirik Projeksiyon",
-                      "explanation": "Silindirik projeksiyonda temas Ekvator çevresindedir ve bozulma en azdır."
+                      "explanation": "Silindirik projeksiyonda Ekvator çevresinde hata oranı minimumdur; kutuplara gidildikçe bozulma artar."
+                    },
+                    {
+                      "id": "q_cog1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Haritalarda yer şekillerini göstermek için kullanılan, deniz seviyesinden itibaren aynı yükseltiye sahip noktaların birleştirilmesiyle elde edilen kapalı eğrilere ne ad verilir?",
+                      "choices": [
+                        "İzohips (Eş Yükselti Eğrisi)",
+                        "İzobar (Eş Basınç Eğrisi)",
+                        "İzoterm (Eş Sıcaklık Eğrisi)",
+                        "Meridyen"
+                      ],
+                      "correctAnswer": "İzohips (Eş Yükselti Eğrisi)",
+                      "explanation": "İzohipsler deniz seviyesine (0 m) göre aynı yükseklikteki noktaları birleştiren iç içe kapalı eğrilerdir."
+                    },
+                    {
+                      "id": "q_cog1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Dünya'nın kendi ekseni etrafındaki günlük hareketi sonucunda aşağıdakilerden hangisi gerçekleşmez?",
+                      "choices": [
+                        "Mevsimlerin oluşması",
+                        "Gece ve gündüzün birbirini takip etmesi",
+                        "Yerel saat farklarının ortaya çıkması",
+                        "Coriolis (sapma) kuvvetinin oluşması"
+                      ],
+                      "correctAnswer": "Mevsimlerin oluşması",
+                      "explanation": "Mevsimler Dünya'nın Güneş etrafındaki yıllık hareketi ve 23° 27'lik eksen eğikliği sonucu oluşur; günlük hareket sonucu değil."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L20",
                   "sourceSection": "Doğal Sistemler ve Coğrafya",
-                  "fingerprint": "f69ac1cf3729e33e",
+                  "fingerprint": "f150a52ea7e45ffe",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3834,7 +4478,7 @@
                         "Termosfer"
                       ],
                       "correctAnswer": "Troposfer",
-                      "explanation": "Su buharının tamamına yakını Troposfer katmanında bulunduğu için hava olayları sadece burada yaşanır."
+                      "explanation": "Su buharının tamamına yakını (%99) troposferde bulunduğu için hava olayları sadece bu katmanda görülür."
                     },
                     {
                       "id": "q_cog2_2",
@@ -3846,7 +4490,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Rüzgar basınç farkından doğan yatay hava hareketidir (Yüksek Basınç -> Alçak Basınç)."
+                      "explanation": "Rüzgâr yüksek basınç merkezinden alçak basınç merkezine doğru gerçekleşen yatay hava hareketidir."
                     },
                     {
                       "id": "q_cog2_3",
@@ -3856,20 +4500,48 @@
                       "choices": [
                         "Konveksiyonel (Yükselim) Yağış",
                         "Orografik (Yamaç) Yağış",
-                        "Cephesel Yağış",
-                        "Siklonik Yağış"
+                        "Cephesel (Frontal) Yağış",
+                        "Muson Yağışı"
                       ],
                       "correctAnswer": "Konveksiyonel (Yükselim) Yağış",
-                      "explanation": "Ekvator ve İç Anadolu'da (kırkikindi) görülen ısınan havanın yükselmesiyle oluşan yağışlardır."
+                      "explanation": "Güneş ışınlarıyla ısınan havanın genleşip yükselerek soğumasıyla oluşan yağışlara konveksiyonel yağış (İç Anadolu kırkikindi yağışları) denir."
+                    },
+                    {
+                      "id": "q_cog2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Denizden gelen nemli hava kütlesinin bir dağ yamacı boyunca yükselip soğumasıyla oluşan yağış türü (örneğin Karadeniz kıyılarında) hangisidir?",
+                      "choices": [
+                        "Orografik (Yamaç) Yağış",
+                        "Konveksiyonel Yağış",
+                        "Cephesel (Frontal) Yağış",
+                        "Konvektif Yağış"
+                      ],
+                      "correctAnswer": "Orografik (Yamaç) Yağış",
+                      "explanation": "Dağ yamaçlarına çarparak yükselen nemli hava kütlelerinin bıraktığı yağışlara orografik (yamaç) yağış denir."
+                    },
+                    {
+                      "id": "q_cog2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Troposfer katmanında yerden yükseldikçe sıcaklığın her 200 metrede yaklaşık 1 °C azalmasının temel nedeni nedir?",
+                      "choices": [
+                        "Atmosferin daha çok yerden yansıyan ışınlarla ısınması",
+                        "Güneş ışınlarının atmosferin üst katmanlarına ulaşamaması",
+                        "Yükseklerde nem oranının artması",
+                        "Basıncın artması"
+                      ],
+                      "correctAnswer": "Atmosferin daha çok yerden yansıyan ışınlarla ısınması",
+                      "explanation": "Atmosfer doğrudan Güneş ışınlarından ziyade yeryüzünün emip geri yaydığı uzun dalga boylu ışınlarla alttan ısınır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L85",
                   "sourceSection": "İklim ve Hava Olayları",
-                  "fingerprint": "08ae59ae76adea4f",
+                  "fingerprint": "5b3e09e49a031161",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -3944,15 +4616,15 @@
                       "id": "q_cog3_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Tabanı dar, üst yaş grubu geniş olan bir nüfus piramidi hangi ülke türünü ifade eder?",
+                      "prompt": "Tabanı dar, üst yaş grubu geniş olan bir nüfus piramidi hangi ülke türünü yansıtır?",
                       "choices": [
                         "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
-                        "Gelişmekte olan ülke",
-                        "Az gelişmiş ülke (yüksek doğum oranı)",
-                        "Nüfusu hızla artan genç ülke"
+                        "Gelişmekte olan ülke (yüksek doğum)",
+                        "Az gelişmiş tarım ülkesi",
+                        "Hızlı nüfus artışı olan ülke"
                       ],
                       "correctAnswer": "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
-                      "explanation": "Gelişmiş ülkelerde doğum oranları düşük olduğundan piramit tabanı dardır."
+                      "explanation": "Tabanın dar olması doğum oranının azaldığını, üst kısmın geniş olması ise ortalama yaşam süresinin uzun olduğunu gösterir."
                     },
                     {
                       "id": "q_cog3_2",
@@ -3964,30 +4636,58 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Yer kabuğu hareketleri kaynaklı afetler jeolojik kökenlidir."
+                      "explanation": "Yer kabuğu hareketleri ve magmatik süreçlere bağlı afetler jeolojik afetler sınıfındadır."
                     },
                     {
                       "id": "q_cog3_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Eğimli yamaçlarda toprak ve ana kayanın kütle halinde aşağı kaymasına ne denir?",
+                      "prompt": "Eğimli yamaçlarda toprak ve ana kayanın kütle halinde aşağı kaymasına ne ad verilir?",
                       "choices": [
                         "Heyelan (Kütle Hareketi)",
                         "Erozyon",
                         "Çığ",
-                        "Kuraklık"
+                        "Taşkın"
                       ],
                       "correctAnswer": "Heyelan (Kütle Hareketi)",
-                      "explanation": "Heyelan, eğimli ve suya doygun tabakaların kayması olayıdır."
+                      "explanation": "Aşırı yağış ve eğim etkisiyle toprak örtüsünün ana kaya ile birlikte kayması heyelandır."
+                    },
+                    {
+                      "id": "q_cog3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Bir ülkede nüfus yoğunluğu hesaplanırken 'Toplam Nüfus / Yüz Ölçümü' formülüyle elde edilen yoğunluk türü hangisidir?",
+                      "choices": [
+                        "Aritmetik Nüfus Yoğunluğu",
+                        "Fizyolojik Nüfus Yoğunluğu",
+                        "Tarımsal Nüfus Yoğunluğu",
+                        "Doğal Nüfus Yoğunluğu"
+                      ],
+                      "correctAnswer": "Aritmetik Nüfus Yoğunluğu",
+                      "explanation": "Toplam nüfusun toplam yüz ölçümüne bölünmesiyle aritmetik nüfus yoğunluğu elde edilir."
+                    },
+                    {
+                      "id": "q_cog3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Aşağıdakilerden hangisi klimatolojik / hidro-meteorolojik kökenli bir doğal afettir?",
+                      "choices": [
+                        "Kuraklık ve Fırtına",
+                        "Deprem",
+                        "Volkanik Patlama",
+                        "Tsunami"
+                      ],
+                      "correctAnswer": "Kuraklık ve Fırtına",
+                      "explanation": "Kuraklık, aşırı sıcaklar, fırtına, sel ve taşkın atmosfer ve hava koşullarına bağlı hidro-meteorolojik afetlerdir."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L135",
                   "sourceSection": "Beşerî Sistemler ve Afetler",
-                  "fingerprint": "5cb5c76f9267a5f7",
+                  "fingerprint": "8d92474331be8d3f",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4098,23 +4798,23 @@
                       "choices": [
                         "go",
                         "goes",
-                        "is going",
-                        "went"
+                        "going",
+                        "is go"
                       ],
                       "correctAnswer": "goes",
-                      "explanation": "In Simple Present Tense, third-person singular subjects (He/She/It) take -s/-es suffix: 'goes'."
+                      "explanation": "In Simple Present Tense, third-person singular (he/she/it) takes '-es' for 'go' -> 'goes'."
                     },
                     {
                       "id": "q_ing1_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "'Look! The students are playing football right now.' uses the Present Continuous Tense correctly.",
+                      "prompt": "'Look! The students are playing football right now.' uses the Present Continuous Tense.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "'Look!' and 'right now' indicate an action happening at the moment of speaking (Present Continuous)."
+                      "explanation": "'are playing ... right now' is the standard Present Continuous form for actions happening at the moment."
                     },
                     {
                       "id": "q_ing1_3",
@@ -4122,22 +4822,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Which question word is used to ask about nationalities/origins: '_______ are you from?'",
                       "choices": [
-                        "Where",
-                        "When",
                         "What",
+                        "When",
+                        "Where",
                         "Who"
                       ],
                       "correctAnswer": "Where",
-                      "explanation": "'Where are you from?' asks for country or origin."
+                      "explanation": "'Where are you from?' is used to ask someone's place of origin or nationality."
+                    },
+                    {
+                      "id": "q_ing1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Choose the grammatically correct sentence in Simple Present Tense for third-person singular:",
+                      "choices": [
+                        "He watches documentary films on weekends.",
+                        "He watch documentary films on weekends.",
+                        "He is watch documentary films on weekends.",
+                        "He watching documentary films on weekends."
+                      ],
+                      "correctAnswer": "He watches documentary films on weekends.",
+                      "explanation": "In Simple Present Tense, verbs ending in '-ch' take '-es' with third-person singular subjects (He watches)."
+                    },
+                    {
+                      "id": "q_ing1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Which preposition of time is used with exact clock times (e.g., 'The lesson starts ___ 08:30 AM')?",
+                      "choices": [
+                        "at",
+                        "on",
+                        "in",
+                        "for"
+                      ],
+                      "correctAnswer": "at",
+                      "explanation": "We use the preposition 'at' for precise clock times (e.g. at 08:30 AM, at noon)."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L25",
                   "sourceSection": "Theme 1: School Life",
-                  "fingerprint": "ddea3d89003cd433",
+                  "fingerprint": "90f7f968dd62e03a",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4194,12 +4922,12 @@
                       "prompt": "Someone who always tells the truth and never cheats is _______.",
                       "choices": [
                         "honest",
-                        "selfish",
                         "stubborn",
-                        "lazy"
+                        "clumsy",
+                        "selfish"
                       ],
                       "correctAnswer": "honest",
-                      "explanation": "Honest means truthful and sincere."
+                      "explanation": "'Honest' means truthful and sincere."
                     },
                     {
                       "id": "q_ing2_2",
@@ -4207,13 +4935,13 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Comparative form: 'Mount Everest is _______ than Mont Blanc.'",
                       "choices": [
+                        "high",
                         "higher",
-                        "more high",
                         "highest",
-                        "the higher"
+                        "more high"
                       ],
                       "correctAnswer": "higher",
-                      "explanation": "Short one-syllable adjectives take -er in comparative form: 'higher'."
+                      "explanation": "Short one-syllable adjectives take '-er' in comparative form: high -> higher."
                     },
                     {
                       "id": "q_ing2_3",
@@ -4225,16 +4953,44 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Generous means willing to give money, help, or time freely."
+                      "explanation": "A generous person is willing to give money, help, or time freely."
+                    },
+                    {
+                      "id": "q_ing2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Which adjective describes physical appearance rather than personality?",
+                      "choices": [
+                        "wavy hair",
+                        "stubborn",
+                        "outgoing",
+                        "punctual"
+                      ],
+                      "correctAnswer": "wavy hair",
+                      "explanation": "'Wavy hair' (dalgalı saç) describes physical appearance, whereas stubborn, outgoing, and punctual describe character."
+                    },
+                    {
+                      "id": "q_ing2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Complete the comparative sentence: 'This book is _______ than that one.'",
+                      "choices": [
+                        "more interesting",
+                        "interesting",
+                        "most interesting",
+                        "interestinger"
+                      ],
+                      "correctAnswer": "more interesting",
+                      "explanation": "For multi-syllable adjectives like 'interesting', we use 'more + adjective + than' for comparisons."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L65",
                   "sourceSection": "Theme 3: Personal Life",
-                  "fingerprint": "3693cba83e5f07b0",
+                  "fingerprint": "3ccbac034306ce45",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4312,12 +5068,12 @@
                       "prompt": "You _______ stop when the traffic lights turn red. It is a strict rule.",
                       "choices": [
                         "must",
-                        "can",
                         "might",
-                        "could"
+                        "could",
+                        "would"
                       ],
                       "correctAnswer": "must",
-                      "explanation": "'Must' expresses strong obligation and legal rules."
+                      "explanation": "'Must' expresses strong obligation or official rules and laws."
                     },
                     {
                       "id": "q_ing3_2",
@@ -4329,7 +5085,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "'Will' is used for predictions without prior evidence and instant decisions."
+                      "explanation": "'Will' expresses on-the-spot decisions, promises, and predictions without present evidence."
                     },
                     {
                       "id": "q_ing3_3",
@@ -4337,22 +5093,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "He _______ play the piano when he was only five years old.",
                       "choices": [
+                        "can",
                         "could",
-                        "must",
-                        "should",
-                        "will"
+                        "will",
+                        "must"
                       ],
                       "correctAnswer": "could",
-                      "explanation": "'Could' expresses past general ability."
+                      "explanation": "'Could' expresses general ability in the past."
+                    },
+                    {
+                      "id": "q_ing3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Complete the sentence expressing polite advice: 'You have an important exam tomorrow; you _______ study tonight.'",
+                      "choices": [
+                        "should",
+                        "mustn't",
+                        "can't",
+                        "used to"
+                      ],
+                      "correctAnswer": "should",
+                      "explanation": "'Should' is used to give recommendations and constructive advice."
+                    },
+                    {
+                      "id": "q_ing3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Which structure is used to express past habits and routines that are no longer true today?",
+                      "choices": [
+                        "used to",
+                        "is going to",
+                        "will",
+                        "must"
+                      ],
+                      "correctAnswer": "used to",
+                      "explanation": "'Used to + base verb' describes repeated actions or states in the past that are no longer true today."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L100",
                   "sourceSection": "Themes 4-8: Modals and Future",
-                  "fingerprint": "09ddc308f4888158",
+                  "fingerprint": "9476a2f3f289e979",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4536,15 +5320,43 @@
                       ],
                       "correctAnswer": "TRUE",
                       "explanation": "'Tschüss' Almanca samimi bir vedalaşma ifadesidir."
+                    },
+                    {
+                      "id": "q_alm1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "'Woher kommst du?' sorusuna verilebilecek en uygun yanıt hangisidir?",
+                      "choices": [
+                        "Ich komme aus der Türkei.",
+                        "Ich wohne in Ankara.",
+                        "Ich spreche Türkisch.",
+                        "Ich bin 15 Jahre alt."
+                      ],
+                      "correctAnswer": "Ich komme aus der Türkei.",
+                      "explanation": "'Woher kommst du?' (Nerelisin / Nereden geliyorsun?) sorusu memleketi ve kökeni sorar; 'Ich komme aus...' kalıbıyla cevaplanır."
+                    },
+                    {
+                      "id": "q_alm1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Almancada sabahları kullanılan 'Günaydın' selamlama ifadesi hangisidir?",
+                      "choices": [
+                        "Guten Morgen",
+                        "Guten Abend",
+                        "Gute Nacht",
+                        "Auf Wiedersehen"
+                      ],
+                      "correctAnswer": "Guten Morgen",
+                      "explanation": "Almancada sabah vakti selamlama için 'Guten Morgen' (Günaydın) kullanılır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L20",
                   "sourceSection": "Modul 1: Hallo!",
-                  "fingerprint": "71b0641c032b5b4a",
+                  "fingerprint": "1e92347421e9e914",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4633,15 +5445,43 @@
                       ],
                       "correctAnswer": "Saatin kaç olduğunu",
                       "explanation": "'Wie spät ist es?' = Saat kaç?"
+                    },
+                    {
+                      "id": "q_alm2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Almancada 'Bleistift' (Kurşun kalem) sözcüğünün belirli artikeli hangisidir?",
+                      "choices": [
+                        "der",
+                        "die",
+                        "das",
+                        "den"
+                      ],
+                      "correctAnswer": "der",
+                      "explanation": "'Bleistift' eril (maskulin) bir isimdir ve artikeli 'der'dir (der Bleistift)."
+                    },
+                    {
+                      "id": "q_alm2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Almancada '-chen' küçültme eki almış isimlerin (örneğin: Mäppchen - Kalem kutusu) artikeli kural olarak nedir?",
+                      "choices": [
+                        "das",
+                        "der",
+                        "die",
+                        "den"
+                      ],
+                      "correctAnswer": "das",
+                      "explanation": "Almancada '-chen' ve '-lein' küçültme eklerini alan isimler daima nötr (das) artikelini alır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L70",
                   "sourceSection": "Modul 2 & 3: Schulsachen",
-                  "fingerprint": "044fe75d3cedcf98",
+                  "fingerprint": "425bba415ce1dcf9",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4809,50 +5649,78 @@
                       "id": "q_tde1_1",
                       "questionIndex": 0,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Aralarında benzerlik ilişkisi kurulan iki varlıktan zayıf olanın güçlü olana benzetilmesine ne denir?",
+                      "prompt": "Aralarında benzerlik ilişkisi kurulan iki varlıktan zayıf olanın güçlü olana benzetilmesi sanatına ne ad verilir?",
                       "choices": [
+                        "Teşhis (Kişileştirme)",
                         "Teşbih (Benzetme)",
                         "İstiare (Eğretileme)",
-                        "Teşhis (Kişileştirme)",
                         "Tezat (Karşıtlık)"
                       ],
                       "correctAnswer": "Teşbih (Benzetme)",
-                      "explanation": "Teşbih benzetme sanatıdır; 4 temel ögesi vardır (benzeyen, kendisine benzetilen, benzetme yönü, benzetme edatı)."
+                      "explanation": "Dört ögesi (benzeyen, kendisine benzetilen, benzetme yönü, benzetme edatı) olan edebi sanattır."
                     },
                     {
                       "id": "q_tde1_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "Dize sonlarındaki yazılışları ve anlamları aynı olan ek veya sözcük tekrarlarına Redif denir.",
+                      "prompt": "Dize sonlarındaki yazılışları ve anlamları aynı olan ek veya sözcük tekrarlarına 'Redif' denir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Aynı görevdeki ek veya aynen tekrarlanan sözcükler rediftir; kökteki ses benzerlikleri ise kafiyedir."
+                      "explanation": "Kafiyeden sonra gelen aynı görev ve anlamdaki ses benzerlikleri rediftir."
                     },
                     {
                       "id": "q_tde1_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve düşüncelerini kanıtlama amacı gütmeden samimi bir dille anlattığı türe ne ad verilir?",
+                      "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve düşüncelerini kanıtlama amacı gütmeden samimi bir dille aktardığı metin türü hangisidir?",
                       "choices": [
-                        "Deneme",
                         "Makale",
-                        "Fıkra",
-                        "Eleştiri"
+                        "Fıkra (Köşe Yazısı)",
+                        "Deneme",
+                        "Biyografi"
                       ],
                       "correctAnswer": "Deneme",
-                      "explanation": "Montaigne ile özdeşleşen 'deneme' türünde kanıtlama zorunluluğu yoktur, öznel bir türdür."
+                      "explanation": "Deneme, yazarın kendi kendisiyle konuşur gibi içten bir üslupla yazdığı düşünce yazısıdır."
+                    },
+                    {
+                      "id": "q_tde1_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Şiirde dize sonlarında tek ses benzerliğine dayanan uyak (kafiye) türü hangisidir?",
+                      "choices": [
+                        "Yarım Uyak",
+                        "Tam Uyak",
+                        "Zengin Uyak",
+                        "Cinaslı Uyak"
+                      ],
+                      "correctAnswer": "Yarım Uyak",
+                      "explanation": "Dize sonlarındaki tek ses benzerliğine yarım uyak denir (iki ses tam uyak, üç ve üzeri ses zengin uyaktır)."
+                    },
+                    {
+                      "id": "q_tde1_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Edebiyatın güzel sanatlar içerisindeki yeri hangi sınıflandırma grubundadır?",
+                      "choices": [
+                        "İşitsel (Fonetik) Sanatlar",
+                        "Görsel (Plastik) Sanatlar",
+                        "Dramatik (Ritmik) Sanatlar",
+                        "Uygulamalı Sanatlar"
+                      ],
+                      "correctAnswer": "İşitsel (Fonetik) Sanatlar",
+                      "explanation": "Malzemesi dil ve ses olan edebiyat ve müzik, fonetik (işitsel) sanatlar grubunda yer alır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L25",
                   "sourceSection": "Sözün İnceliği Teması",
-                  "fingerprint": "295cb2593369ac6e",
+                  "fingerprint": "072ff0ea0b1f61c1",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -4907,48 +5775,76 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "Türk edebiyatında Durum (Kesit) hikâyeciliğinin en önemli temsilcisi kimdir?",
                       "choices": [
-                        "Sait Faik Abasıyanık",
                         "Ömer Seyfettin",
+                        "Sait Faik Abasıyanık",
                         "Refik Halit Karay",
-                        "Ahmet Mithat Efendi"
+                        "Halide Edib Adıvar"
                       ],
                       "correctAnswer": "Sait Faik Abasıyanık",
-                      "explanation": "Sait Faik ve Memduh Şevket Esendal Çehov tarzı (durum) hikâyeciliğinin öncüleridir; Ömer Seyfettin ise olay hikâyecisidir."
+                      "explanation": "Çehov tarzı durum hikâyesinin Türk edebiyatındaki öncüleri Sait Faik Abasıyanık ve Memduh Şevket Esendal'dır."
                     },
                     {
                       "id": "q_tde2_2",
                       "questionIndex": 1,
                       "type": "TRUE_FALSE",
-                      "prompt": "İlahi (Hâkim) bakış açısında anlatıcı kahramanların iç dünyasını ve geçmişini bilir.",
+                      "prompt": "İlahi (Hâkim) bakış açısında anlatıcı kahramanların iç dünyasını ve geçmiş/geleceğini bilir.",
                       "choices": [
                         "TRUE",
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Hâkim bakış açısı her şeye hâkim olan üçüncü tekil şahıs anlatımıdır."
+                      "explanation": "İlahi bakış açısında anlatıcı her şeyi gören, bilen ve kahramanların zihninden geçenleri okuyan üçüncü tekil kişidir."
                     },
                     {
                       "id": "q_tde2_3",
                       "questionIndex": 2,
                       "type": "MULTIPLE_CHOICE",
-                      "prompt": "Dilin alıcıda bir tepki veya davranış oluşturmak amacıyla kullanıldığı işlevi hangisidir?",
+                      "prompt": "Dilin alıcıda bir tepki veya davranış oluşturmak amacıyla kullanıldığı işlev hangisidir?",
                       "choices": [
-                        "Alıcıyı Harekete Geçirme İşlevi",
                         "Göndergesel İşlev",
                         "Heyecana Bağlı İşlev",
+                        "Alıcıyı Harekete Geçirme İşlevi",
                         "Kanalı Kontrol İşlevi"
                       ],
                       "correctAnswer": "Alıcıyı Harekete Geçirme İşlevi",
-                      "explanation": "Emir, rica ve propaganda cümlelerinde alıcıyı harekete geçirme işlevi kullanılır."
+                      "explanation": "Emir, çağrı, propaganda veya yönlendirme amaçlı iletilerde alıcıyı harekete geçirme işlevi kullanılır."
+                    },
+                    {
+                      "id": "q_tde2_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Olay hikâyesinin (klasik hikâye / Maupassant tarzı) Türk edebiyatındaki en önemli temsilcisi kimdir?",
+                      "choices": [
+                        "Ömer Seyfettin",
+                        "Sait Faik Abasıyanık",
+                        "Memduh Şevket Esendal",
+                        "Ahmet Hamdi Tanpınar"
+                      ],
+                      "correctAnswer": "Ömer Seyfettin",
+                      "explanation": "Serim, düğüm, çözüm planına sıkı sıkıya bağlı klasik olay hikâyesinin kurucusu Ömer Seyfettin'dir."
+                    },
+                    {
+                      "id": "q_tde2_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Hikâyede olayları bizzat yaşayan, birinci tekil şahıs ('ben' veya 'biz') ağzıyla aktaran anlatıcı bakış açısı hangisidir?",
+                      "choices": [
+                        "Kahraman Anlatıcı Bakış Açısı",
+                        "İlahi (Hâkim) Bakış Açısı",
+                        "Gözlemci (Müşahit) Bakış Açısı",
+                        "Çoğul Anlatıcı"
+                      ],
+                      "correctAnswer": "Kahraman Anlatıcı Bakış Açısı",
+                      "explanation": "Olay örgüsünün içinde bizzat yer alan anlatıcının kendi deneyimlerini aktarması kahraman bakış açısıdır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L65",
                   "sourceSection": "Hikâye ve Dilin İşlevleri",
-                  "fingerprint": "4599998cc177eb73",
+                  "fingerprint": "c97b0162060a9a35",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",
@@ -5009,7 +5905,7 @@
                         "Zarf"
                       ],
                       "correctAnswer": "Niteleme Sıfatı",
-                      "explanation": "İsmin rengini, durumunu veya biçimini bildiren sözcükler niteleme sıfatıdır."
+                      "explanation": "İsme sorulan 'Nasıl?' sorusuna yanıt veren ve renk/şekil/durum bildiren sözcükler niteleme sıfatıdır."
                     },
                     {
                       "id": "q_tde3_2",
@@ -5021,7 +5917,7 @@
                         "FALSE"
                       ],
                       "correctAnswer": "TRUE",
-                      "explanation": "Don Kişot ilk modern roman kabul edilir."
+                      "explanation": "17. yüzyıl başında yayımlanan Don Kişot dünya edebiyatındaki ilk modern roman sayılır."
                     },
                     {
                       "id": "q_tde3_3",
@@ -5029,22 +5925,50 @@
                       "type": "MULTIPLE_CHOICE",
                       "prompt": "İsmin yerini tutan sözcüklere ne ad verilir?",
                       "choices": [
+                        "Sıfat (Önad)",
                         "Zamir (Adıl)",
                         "Zarf (Belirteç)",
-                        "Edat (İlgeç)",
-                        "Bağlaç"
+                        "Edat (İlgeç)"
                       ],
                       "correctAnswer": "Zamir (Adıl)",
-                      "explanation": "İsmin yerini tutan sözcükler zamirdir (ben, sen, o, bu, şu vb.)."
+                      "explanation": "İsimlerin yerine kişi, işaret, belgisizlik veya soru yoluyla geçen sözcükler zamirdir."
+                    },
+                    {
+                      "id": "q_tde3_4",
+                      "questionIndex": 3,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "Türk edebiyatında ilk yerli roman kabul edilen eser ve yazarı hangisidir?",
+                      "choices": [
+                        "Taaşşuk-ı Talat ve Fitnat - Şemsettin Sami",
+                        "İntibah - Namık Kemal",
+                        "Araba Sevdası - Recaizade Mahmut Ekrem",
+                        "Karabibik - Nabizade Nazım"
+                      ],
+                      "correctAnswer": "Taaşşuk-ı Talat ve Fitnat - Şemsettin Sami",
+                      "explanation": "Şemsettin Sami'nin 1872 yılında yayımlanan Taaşşuk-ı Talat ve Fitnat adlı eseri ilk yerli romanımızdır."
+                    },
+                    {
+                      "id": "q_tde3_5",
+                      "questionIndex": 4,
+                      "type": "MULTIPLE_CHOICE",
+                      "prompt": "'Bu öğrenci, ödevlerini her zaman düzenli yapar.' cümlesindeki 'Bu' sözcüğünün türü nedir?",
+                      "choices": [
+                        "İşaret Sıfatı",
+                        "İşaret Zamiri",
+                        "Belgisiz Sıfat",
+                        "Kişi Zamiri"
+                      ],
+                      "correctAnswer": "İşaret Sıfatı",
+                      "explanation": "'Bu' sözcüğü bir ismi ('öğrenci') işaret yoluyla belirttiği için işaret sıfatıdır."
                     }
                   ],
-                  "questionCount": 3,
+                  "questionCount": 5,
                   "schemaVersion": "v2-quiz"
                 },
                 "provenance": {
                   "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L110",
                   "sourceSection": "Roman ve Dil Bilgisi",
-                  "fingerprint": "dde2950b5693c3c5",
+                  "fingerprint": "6896c989a60e4f2d",
                   "reviewStatus": "verified",
                   "reviewedOverride": true,
                   "importedAt": "2026-10-02T09:00:00.000Z",

@@ -25,7 +25,7 @@
             "9"
           ],
           "correctAnswer": "7",
-          "explanation": "Veri grubunda en çok tekrar eden eleman 7'dir (2 kez)."
+          "explanation": "Veri grubunda en çok tekrar eden değer (frekansı en yüksek olan) 7'dir."
         },
         {
           "id": "q_mat7_2",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Medyan verinin ortasındaki değer olduğundan verilerin sıralı olması şarttır."
+          "explanation": "Medyan hesaplanmadan önce veri grubu mutlaka sıralı olmalıdır."
+        },
+        {
+          "id": "q_mat7_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "4, 8, 12, 16, 20 veri grubunun açıklığı (aralığı / ranj) kaçtır?",
+          "choices": [
+            "16",
+            "20",
+            "12",
+            "8"
+          ],
+          "correctAnswer": "16",
+          "explanation": "Açıklık = En Büyük Değer - En Küçük Değer = 20 - 4 = 16."
+        },
+        {
+          "id": "q_mat7_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir veri grubundaki değerlerin aritmetik ortalamadan sapmalarının karelerinin ortalamasının kareköküyle hesaplanan yayılma ölçüsü hangisidir?",
+          "choices": [
+            "Standart Sapma",
+            "Medyan",
+            "Mod",
+            "Aritmetik Ortalama"
+          ],
+          "correctAnswer": "Standart Sapma",
+          "explanation": "Verilerin aritmetik ortalama etrafındaki homojenlik/dağılımını ölçen temel yayılma ölçüsü standart sapmadır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L260",
       "sourceSection": "İstatistiksel Araştırma Süreci",
-      "fingerprint": "908cfc851079225e",
+      "fingerprint": "7cc14a4aa4ad27da",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

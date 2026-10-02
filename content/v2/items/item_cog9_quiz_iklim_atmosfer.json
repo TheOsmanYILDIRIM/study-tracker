@@ -25,7 +25,7 @@
             "Termosfer"
           ],
           "correctAnswer": "Troposfer",
-          "explanation": "Su buharının tamamına yakını Troposfer katmanında bulunduğu için hava olayları sadece burada yaşanır."
+          "explanation": "Su buharının tamamına yakını (%99) troposferde bulunduğu için hava olayları sadece bu katmanda görülür."
         },
         {
           "id": "q_cog2_2",
@@ -37,7 +37,7 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Rüzgar basınç farkından doğan yatay hava hareketidir (Yüksek Basınç -> Alçak Basınç)."
+          "explanation": "Rüzgâr yüksek basınç merkezinden alçak basınç merkezine doğru gerçekleşen yatay hava hareketidir."
         },
         {
           "id": "q_cog2_3",
@@ -47,20 +47,48 @@
           "choices": [
             "Konveksiyonel (Yükselim) Yağış",
             "Orografik (Yamaç) Yağış",
-            "Cephesel Yağış",
-            "Siklonik Yağış"
+            "Cephesel (Frontal) Yağış",
+            "Muson Yağışı"
           ],
           "correctAnswer": "Konveksiyonel (Yükselim) Yağış",
-          "explanation": "Ekvator ve İç Anadolu'da (kırkikindi) görülen ısınan havanın yükselmesiyle oluşan yağışlardır."
+          "explanation": "Güneş ışınlarıyla ısınan havanın genleşip yükselerek soğumasıyla oluşan yağışlara konveksiyonel yağış (İç Anadolu kırkikindi yağışları) denir."
+        },
+        {
+          "id": "q_cog2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Denizden gelen nemli hava kütlesinin bir dağ yamacı boyunca yükselip soğumasıyla oluşan yağış türü (örneğin Karadeniz kıyılarında) hangisidir?",
+          "choices": [
+            "Orografik (Yamaç) Yağış",
+            "Konveksiyonel Yağış",
+            "Cephesel (Frontal) Yağış",
+            "Konvektif Yağış"
+          ],
+          "correctAnswer": "Orografik (Yamaç) Yağış",
+          "explanation": "Dağ yamaçlarına çarparak yükselen nemli hava kütlelerinin bıraktığı yağışlara orografik (yamaç) yağış denir."
+        },
+        {
+          "id": "q_cog2_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Troposfer katmanında yerden yükseldikçe sıcaklığın her 200 metrede yaklaşık 1 °C azalmasının temel nedeni nedir?",
+          "choices": [
+            "Atmosferin daha çok yerden yansıyan ışınlarla ısınması",
+            "Güneş ışınlarının atmosferin üst katmanlarına ulaşamaması",
+            "Yükseklerde nem oranının artması",
+            "Basıncın artması"
+          ],
+          "correctAnswer": "Atmosferin daha çok yerden yansıyan ışınlarla ısınması",
+          "explanation": "Atmosfer doğrudan Güneş ışınlarından ziyade yeryüzünün emip geri yaydığı uzun dalga boylu ışınlarla alttan ısınır."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L85",
       "sourceSection": "İklim ve Hava Olayları",
-      "fingerprint": "08ae59ae76adea4f",
+      "fingerprint": "5b3e09e49a031161",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",

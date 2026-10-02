@@ -19,13 +19,13 @@
           "type": "MULTIPLE_CHOICE",
           "prompt": "p ≡ 1 ve q ≡ 0 iken 'p ∧ q' önermesinin doğruluk değeri nedir?",
           "choices": [
-            "1",
             "0",
+            "1",
             "Belirsiz",
             "p"
           ],
           "correctAnswer": "0",
-          "explanation": "Ve (∧) bağlacında sonucun 1 olması için her iki önermenin de 1 olması gerekir. 1 ∧ 0 ≡ 0."
+          "explanation": "'Ve' (∧) bağlacında sonucun 1 olması için tüm bileşenlerin 1 olması gerekir; 1 ∧ 0 ≡ 0."
         },
         {
           "id": "q_mat6_2",
@@ -39,7 +39,7 @@
             "p ≡ 1, q ≡ 1"
           ],
           "correctAnswer": "p ≡ 1, q ≡ 0",
-          "explanation": "1 ⇒ 0 ≡ 0 (100 kuralı); diğer tüm durumlarda ise bağlacı 1'e eşittir."
+          "explanation": "Koşullu önerme yalnızca hipotez doğru (1) ve hüküm yanlış (0) olduğunda (100 kuralı) 0'dır."
         },
         {
           "id": "q_mat6_3",
@@ -51,16 +51,44 @@
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "∀ sembolü matematikte 'evrensel niceleyici' (her / all) anlamındadır."
+          "explanation": "∀ (Her) evrensel, ∃ (Bazı/En az bir) varlıksal niceleyicidir."
+        },
+        {
+          "id": "q_mat6_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'(p ∨ q)' ifadesinin De Morgan kurallarına göre dengi (eşiti) aşağıdakilerden hangisidir?",
+          "choices": [
+            "p' ∧ q'",
+            "p' ∨ q'",
+            "p ∧ q",
+            "p' ⇒ q'"
+          ],
+          "correctAnswer": "p' ∧ q'",
+          "explanation": "De Morgan kuralına göre veya (∨) bağlacının değili, değillerin ve (∧) bağlacı ile birleşimidir: (p ∨ q)' ≡ p' ∧ q'."
+        },
+        {
+          "id": "q_mat6_5",
+          "questionIndex": 4,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'p ⇔ q' (iki yönlü koşullu önerme) hangi durumda 1 (doğru) değerini alır?",
+          "choices": [
+            "p ve q önermelerinin doğruluk değerleri aynı olduğunda (1-1 veya 0-0)",
+            "Sadece p ≡ 1 ve q ≡ 0 olduğunda",
+            "Sadece p ≡ 0 ve q ≡ 1 olduğunda",
+            "Her durumda"
+          ],
+          "correctAnswer": "p ve q önermelerinin doğruluk değerleri aynı olduğunda (1-1 veya 0-0)",
+          "explanation": "İki yönlü koşullu önerme (ancak ve ancak), bileşenleri aynı doğruluk değerine sahipken 1, farklıyken 0 sonucunu verir."
         }
       ],
-      "questionCount": 3,
+      "questionCount": 5,
       "schemaVersion": "v2-quiz"
     },
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L230",
       "sourceSection": "Algoritma ve Bilişim Ünitesi",
-      "fingerprint": "3a4b463df07e4788",
+      "fingerprint": "b6ae407f67408393",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T09:00:00.000Z",
