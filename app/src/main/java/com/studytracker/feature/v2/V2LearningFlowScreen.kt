@@ -211,6 +211,17 @@ fun V2LearningFlowScreen(
                             )
                         }
                     },
+                    actions = {
+                        if (isParent) {
+                            IconButton(onClick = { showCreateItemDialog = true }) {
+                                Icon(
+                                    imageVector = Icons.Default.AddCircle,
+                                    contentDescription = "Yeni item ekle",
+                                    tint = ZenMoonGold
+                                )
+                            }
+                        }
+                    },
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color.Transparent
                     )
@@ -245,6 +256,8 @@ fun V2LearningFlowScreen(
                         LearningItemPuzzleCard(
                             itemProgress = itemProgress,
                             isNextItem = isNextItem,
+                            isParent = isParent,
+                            onEdit = { editingItem = item },
                             onClick = {
                                 when (itemProgress.state) {
                                     V2ItemState.LOCKED_BY_PREREQUISITE -> {
@@ -269,6 +282,42 @@ fun V2LearningFlowScreen(
         }
 
         // --- Dialogs ---
+
+        if (showCreateItemDialog) {
+            ParentV2ItemEditorDialog(
+                existingItem = null,
+                onDismiss = { showCreateItemDialog = false },
+                onSave = { type, label, title, url, payload ->
+                    scope.launch {
+                        val result = saveNewItem(type, label, title, url, payload)
+                        result.onSuccess { msg ->
+                            showCreateItemDialog = false
+                            Toast.makeText(context, "✅ $msg", Toast.LENGTH_LONG).show()
+                        }.onFailure { err ->
+                            Toast.makeText(context, "❌ ${err.message}", Toast.LENGTH_LONG).show()
+                        }
+                    }
+                }
+            )
+        }
+
+        editingItem?.let { item ->
+            ParentV2ItemEditorDialog(
+                existingItem = item,
+                onDismiss = { editingItem = null },
+                onSave = { _, label, title, url, payload ->
+                    scope.launch {
+                        val result = saveItemEdit(item, label, title, url, payload)
+                        result.onSuccess { msg ->
+                            editingItem = null
+                            Toast.makeText(context, "✅ $msg", Toast.LENGTH_LONG).show()
+                        }.onFailure { err ->
+                            Toast.makeText(context, "❌ ${err.message}", Toast.LENGTH_LONG).show()
+                        }
+                    }
+                }
+            )
+        }
 
         // 1. Locked Prerequisite Notice Dialog
         lockedPrereqNotice?.let { prog ->
@@ -448,6 +497,8 @@ fun V2LearningFlowScreen(
 private fun LearningItemPuzzleCard(
     itemProgress: V2ItemProgress,
     isNextItem: Boolean,
+    isParent: Boolean,
+    onEdit: () -> Unit,
     onClick: () -> Unit
 ) {
     val item = itemProgress.item
@@ -568,11 +619,21 @@ private fun LearningItemPuzzleCard(
                 }
             }
 
-            Icon(
-                imageVector = Icons.Default.ChevronRight,
-                contentDescription = null,
-                tint = ZomoTextSecondary.copy(alpha = 0.7f)
-            )
+            if (isParent) {
+                IconButton(onClick = onEdit) {
+                    Icon(
+                        imageVector = Icons.Default.Edit,
+                        contentDescription = "Item düzenle",
+                        tint = ZenMoonGold
+                    )
+                }
+            } else {
+                Icon(
+                    imageVector = Icons.Default.ChevronRight,
+                    contentDescription = null,
+                    tint = ZomoTextSecondary.copy(alpha = 0.7f)
+                )
+            }
         }
     }
 }
