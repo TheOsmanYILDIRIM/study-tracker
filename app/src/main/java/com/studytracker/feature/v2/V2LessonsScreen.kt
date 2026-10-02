@@ -31,7 +31,7 @@ import com.studytracker.core.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun V2LessonsScreen(
+// Course-first self-paced flow: resume is derived from attempts.\nfun V2LessonsScreen(
     courseId: String,
     onNavigateBack: () -> Unit,
     onNavigateToLearningFlow: (String) -> Unit
