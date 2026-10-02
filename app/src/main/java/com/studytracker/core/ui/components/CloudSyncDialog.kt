@@ -204,32 +204,113 @@ fun CloudSyncDialog(
                     }
                 }
 
-                if (isParent && adminToken.isNotBlank()) {
-                    Surface(
-                        shape = RoundedCornerShape(10.dp),
-                        color = Color(0xFF101D32),
-                        border = BorderStroke(1.dp, ZenPaperBorder),
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Row(
-                            modifier = Modifier.fillMaxWidth().padding(10.dp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.SpaceBetween
+                if (isParent) {
+                    if (adminToken.isNotBlank()) {
+                        Surface(
+                            shape = RoundedCornerShape(10.dp),
+                            color = Color(0xFF101D32),
+                            border = BorderStroke(1.dp, ZenPaperBorder),
+                            modifier = Modifier.fillMaxWidth()
                         ) {
-                            Column(modifier = Modifier.weight(1f)) {
-                                Text("CLI Yönetici Anahtarı", color = Color.White, fontSize = 11.5.sp, fontWeight = FontWeight.SemiBold)
-                                Text("••••••••" + adminToken.takeLast(6), color = ZomoTextSecondary, fontSize = 10.5.sp)
+                            Row(
+                                modifier = Modifier.fillMaxWidth().padding(10.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text("CLI Yönetici Anahtarı", color = Color.White, fontSize = 11.5.sp, fontWeight = FontWeight.SemiBold)
+                                    Text("••••••••" + adminToken.takeLast(6), color = ZomoTextSecondary, fontSize = 10.5.sp)
+                                }
+                                IconButton(onClick = {
+                                    clipboardManager.setText(AnnotatedString(adminToken))
+                                    Toast.makeText(context, "🔐 Yönetici anahtarı panoya kopyalandı", Toast.LENGTH_SHORT).show()
+                                }) {
+                                    Icon(Icons.Default.ContentCopy, contentDescription = "Yönetici anahtarını kopyala", tint = ZenSkyCyan)
+                                }
                             }
-                            IconButton(onClick = {
-                                clipboardManager.setText(AnnotatedString(adminToken))
-                                Toast.makeText(context, "🔐 Yönetici anahtarı panoya kopyalandı", Toast.LENGTH_SHORT).show()
-                            }) {
-                                Icon(Icons.Default.ContentCopy, contentDescription = "Yönetici anahtarını kopyala", tint = ZenSkyCyan)
+                        }
+                        Text(
+                            "Bu anahtarı yalnız kendi CLI cihazınızda kullanın; öğrenci cihazıyla paylaşmayın.",
+                            fontSize = 10.5.sp,
+                            color = ZomoTextMuted
+                        )
+                    } else {
+                        Surface(
+                            shape = RoundedCornerShape(10.dp),
+                            color = ZenMoonGold.copy(alpha = 0.10f),
+                            border = BorderStroke(1.dp, ZenMoonGold.copy(alpha = 0.65f)),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Column(
+                                modifier = Modifier.fillMaxWidth().padding(12.dp),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Text(
+                                    "CLI Yönetici Anahtarı henüz bu cihazda yok",
+                                    color = Color.White,
+                                    fontSize = 11.5.sp,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+                                Text(
+                                    "Önce mevcut aile kodunu güvenli eşleştirmeyi deneyebilirsin. Sunucuda bu aile zaten bir yönetici anahtarına sahipse anahtar güvenlik nedeniyle yalnız aile koduyla geri alınamaz; bu durumda yeni bir aile kodu ve yeni yönetici anahtarı oluşturman gerekir.",
+                                    color = ZomoTextSecondary,
+                                    fontSize = 10.5.sp
+                                )
+                                Button(
+                                    onClick = {
+                                        scope.launch {
+                                            isSyncing = true
+                                            val pair = CloudflareSyncManager.pairFamilyCode(context, codeInput)
+                                            isSyncing = false
+                                            pair.onSuccess { pairedCode ->
+                                                codeInput = pairedCode
+                                                if (prefs.familyAdminToken.value.isNotBlank()) {
+                                                    Toast.makeText(context, "🔐 CLI yönetici anahtarı oluşturuldu ve kaydedildi", Toast.LENGTH_LONG).show()
+                                                } else {
+                                                    Toast.makeText(context, "Bu aile kodunun anahtarı geri alınamıyor. Yeni güvenli aile oluşturabilirsin.", Toast.LENGTH_LONG).show()
+                                                }
+                                            }.onFailure { err ->
+                                                Toast.makeText(context, "Eşleştirme başarısız: ${err.message}", Toast.LENGTH_LONG).show()
+                                            }
+                                        }
+                                    },
+                                    enabled = !isSyncing,
+                                    modifier = Modifier.fillMaxWidth(),
+                                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF182642))
+                                ) {
+                                    Text("Mevcut aile kodunu güvenli eşleştir")
+                                }
+                                OutlinedButton(
+                                    onClick = {
+                                        scope.launch {
+                                            isSyncing = true
+                                            val created = CloudflareSyncManager.createFamily(context)
+                                            isSyncing = false
+                                            created.onSuccess { newCode ->
+                                                codeInput = newCode
+                                                if (prefs.familyAdminToken.value.isNotBlank()) {
+                                                    Toast.makeText(context, "🔐 Yeni aile kodu ve CLI yönetici anahtarı oluşturuldu", Toast.LENGTH_LONG).show()
+                                                } else {
+                                                    Toast.makeText(context, "Yeni aile oluşturuldu ancak yönetici anahtarı kaydedilemedi", Toast.LENGTH_LONG).show()
+                                                }
+                                            }.onFailure { err ->
+                                                Toast.makeText(context, "Yeni güvenli aile oluşturulamadı: ${err.message}", Toast.LENGTH_LONG).show()
+                                            }
+                                        }
+                                    },
+                                    enabled = !isSyncing,
+                                    modifier = Modifier.fillMaxWidth(),
+                                    border = BorderStroke(1.dp, ZenMoonGold),
+                                    colors = ButtonDefaults.outlinedButtonColors(contentColor = ZenMoonGold)
+                                ) {
+                                    Text("Yeni aile kodu + yönetici anahtarı oluştur")
+                                }
                             }
                         }
                     }
+                } else {
                     Text(
-                        "Bu anahtarı yalnız kendi CLI cihazınızda kullanın; öğrenci cihazıyla paylaşmayın.",
+                        "CLI yönetici anahtarı yalnız StudyTracker Veli uygulamasında gösterilir.",
                         fontSize = 10.5.sp,
                         color = ZomoTextMuted
                     )
