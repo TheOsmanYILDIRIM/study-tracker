@@ -17,6 +17,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.room.withTransaction
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -28,14 +29,18 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.studytracker.core.data.local.db.AppDatabase
+import com.studytracker.core.data.local.db.entity.LearningItemEntity
+import com.studytracker.core.data.local.db.entity.LearningItemVersionEntity
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.*
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
+import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
 import java.util.UUID
