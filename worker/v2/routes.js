@@ -69,6 +69,105 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
       return json({ success: true, storageType: storage.type, familyCode, curriculum: tree });
     }
 
+    // 1b. POST /api/v3/catalog/import - Parent/admin bulk catalog upsert
+    if (path === '/api/v3/catalog/import' && method === 'POST') {
+      if (!isParent) return error('Parent/admin authorization required', 403);
+
+      const body = await request.json().catch(() => ({}));
+      if (body.schemaVersion !== 'v2' || !Array.isArray(body.courses)) {
+        return error('Invalid V2 catalog manifest', 400);
+      }
+
+      let courseCount = 0;
+      let lessonCount = 0;
+      let itemCount = 0;
+      let createdItems = 0;
+      let updatedItems = 0;
+      let identicalItems = 0;
+
+      for (const courseInput of body.courses) {
+        await engine.createCourse(familyCode, {
+          id: courseInput.id,
+          title: courseInput.title,
+          subject: courseInput.subject,
+          gradeLevel: courseInput.gradeLevel || 9,
+          description: courseInput.description || '',
+          orderKey: courseInput.orderKey
+        });
+        courseCount++;
+
+        for (const lessonInput of (courseInput.lessons || [])) {
+          await engine.createLesson(familyCode, {
+            id: lessonInput.id,
+            courseId: courseInput.id,
+            title: lessonInput.title,
+            orderKey: lessonInput.orderKey
+          });
+          lessonCount++;
+
+          for (const itemInput of (lessonInput.items || [])) {
+            const existing = await engine.getItem(familyCode, itemInput.id);
+            const desiredTitle = itemInput.title || itemInput.displayLabel;
+            const desiredUrl = itemInput.contentUrl ?? null;
+            const desiredPayload = itemInput.payload || {};
+            const desiredStatus = itemInput.publishingStatus || 'active';
+
+            if (!existing) {
+              await engine.createItem(familyCode, {
+                id: itemInput.id,
+                lessonId: lessonInput.id,
+                itemType: itemInput.itemType,
+                displayLabel: itemInput.displayLabel,
+                stableKey: itemInput.stableKey || itemInput.id,
+                title: desiredTitle,
+                contentUrl: desiredUrl,
+                payload: desiredPayload,
+                orderKey: itemInput.orderKey,
+                publishingStatus: desiredStatus
+              });
+              createdItems++;
+            } else {
+              const current = existing.currentVersion || {};
+              const contentChanged =
+                (current.title || existing.displayLabel) !== desiredTitle ||
+                (current.contentUrl ?? null) !== desiredUrl ||
+                JSON.stringify(current.payload || {}) !== JSON.stringify(desiredPayload);
+
+              if (contentChanged) {
+                await engine.updateItemContent(familyCode, itemInput.id, {
+                  title: desiredTitle,
+                  contentUrl: desiredUrl,
+                  payload: desiredPayload,
+                  changelog: 'Catalog file import',
+                  publishingStatus: desiredStatus
+                });
+                updatedItems++;
+              } else {
+                if ((existing.publishingStatus || 'active') !== desiredStatus) {
+                  await engine.updateItemStatus(familyCode, itemInput.id, desiredStatus);
+                }
+                identicalItems++;
+              }
+            }
+            itemCount++;
+          }
+        }
+      }
+
+      return json({
+        success: true,
+        familyCode,
+        imported: {
+          courses: courseCount,
+          lessons: lessonCount,
+          items: itemCount,
+          createdItems,
+          updatedItems,
+          identicalItems
+        }
+      });
+    }
+
     // 2. COURSES
     if (path === '/api/v3/courses') {
       if (method === 'GET') {
