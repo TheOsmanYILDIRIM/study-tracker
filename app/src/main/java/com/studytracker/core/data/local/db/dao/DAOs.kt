@@ -242,6 +242,9 @@ interface CourseDao {
     @Query("SELECT * FROM courses WHERE familyCode = :familyCode ORDER BY orderKey ASC")
     fun getAllCourses(familyCode: String): Flow<List<CourseEntity>>
 
+    @Query("SELECT * FROM courses WHERE familyCode = :familyCode ORDER BY orderKey ASC")
+    suspend fun getAllCoursesOnce(familyCode: String): List<CourseEntity>
+
     @Query("SELECT * FROM courses WHERE id = :id LIMIT 1")
     suspend fun getCourseById(id: String): CourseEntity?
 
@@ -266,6 +269,9 @@ interface LessonDao {
     @Query("SELECT * FROM lessons WHERE familyCode = :familyCode AND isArchived = 0 ORDER BY orderKey ASC")
     fun getActiveLessonsForFamily(familyCode: String): Flow<List<LessonEntity>>
 
+    @Query("SELECT * FROM lessons WHERE familyCode = :familyCode ORDER BY orderKey ASC")
+    suspend fun getAllLessonsForFamilyOnce(familyCode: String): List<LessonEntity>
+
     @Query("SELECT * FROM lessons WHERE id = :id LIMIT 1")
     suspend fun getLessonById(id: String): LessonEntity?
 
@@ -289,6 +295,9 @@ interface LearningItemDao {
 
     @Query("SELECT * FROM learning_items WHERE familyCode = :familyCode AND isArchived = 0 ORDER BY orderKey ASC")
     fun getActiveItemsForFamily(familyCode: String): Flow<List<LearningItemEntity>>
+
+    @Query("SELECT * FROM learning_items WHERE familyCode = :familyCode ORDER BY orderKey ASC")
+    suspend fun getAllItemsForFamilyOnce(familyCode: String): List<LearningItemEntity>
 
     @Query("SELECT * FROM learning_items WHERE id = :id LIMIT 1")
     suspend fun getItemById(id: String): LearningItemEntity?
