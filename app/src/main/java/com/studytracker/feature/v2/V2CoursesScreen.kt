@@ -25,6 +25,7 @@ import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
+import com.studytracker.core.domain.engine.V2ProgressEngine
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
@@ -34,7 +35,8 @@ import kotlinx.coroutines.launch
 @Composable
 fun V2CoursesScreen(
     onNavigateBack: () -> Unit,
-    onNavigateToCourse: (String) -> Unit
+    onNavigateToCourse: (String) -> Unit,
+    onResumeLesson: (String) -> Unit
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -47,6 +49,8 @@ fun V2CoursesScreen(
 
     val courses by curriculumRepo.getCourses(familyCode).collectAsState(initial = emptyList())
     val attempts by attemptRepo.getAttempts(familyCode, "student_default").collectAsState(initial = emptyList())
+    val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
+    val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
 
     var isSyncing by remember { mutableStateOf(false) }
     var showSettingsDialog by remember { mutableStateOf(false) }
@@ -196,6 +200,15 @@ fun V2CoursesScreen(
                 ) {
                     items(courses, key = { it.id }) { course ->
                         val lessons by curriculumRepo.getLessonsForCourse(course.id).collectAsState(initial = emptyList())
+                        val courseProgress = remember(course, lessons, allItems, allPrereqs, attempts) {
+                            V2ProgressEngine.evaluateCourseProgress(
+                                course = course,
+                                lessons = lessons,
+                                itemsByLessonId = allItems.groupBy { it.lessonId },
+                                prerequisites = allPrereqs,
+                                attempts = attempts
+                            )
+                        }
 
                         Card(
                             modifier = Modifier
@@ -266,18 +279,54 @@ fun V2CoursesScreen(
 
                                 HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f), thickness = 0.8.dp)
 
+                                if (courseProgress.resumeLesson != null && courseProgress.resumeItem != null) {
+                                    Surface(
+                                        shape = RoundedCornerShape(12.dp),
+                                        color = ZenSkyCyan.copy(alpha = 0.10f),
+                                        border = BorderStroke(1.dp, ZenSkyCyan.copy(alpha = 0.35f))
+                                    ) {
+                                        Column(
+                                            modifier = Modifier.fillMaxWidth().padding(10.dp),
+                                            verticalArrangement = Arrangement.spacedBy(4.dp)
+                                        ) {
+                                            Text(
+                                                text = "Kaldığın yer: ${courseProgress.resumeLesson.title}",
+                                                style = MaterialTheme.typography.bodySmall.copy(fontWeight = FontWeight.Bold),
+                                                color = ZomoTextPrimary
+                                            )
+                                            Text(
+                                                text = courseProgress.resumeItem.currentVersion?.title ?: courseProgress.resumeItem.displayLabel,
+                                                style = MaterialTheme.typography.bodySmall,
+                                                color = ZomoTextSecondary,
+                                                maxLines = 1
+                                            )
+                                        }
+                                    }
+
+                                    Button(
+                                        onClick = { onResumeLesson(courseProgress.resumeLesson.id) },
+                                        modifier = Modifier.fillMaxWidth(),
+                                        shape = RoundedCornerShape(12.dp),
+                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
+                                    ) {
+                                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = Color.Black)
+                                        Spacer(modifier = Modifier.width(6.dp))
+                                        Text("Devam Et", color = Color.Black, fontWeight = FontWeight.Bold)
+                                    }
+                                }
+
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
                                     horizontalArrangement = Arrangement.SpaceBetween,
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Text(
-                                        text = "${lessons.size} Ünite / Konu",
+                                        text = "${lessons.size} konu • %${courseProgress.completionPercentage}",
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
                                         color = ZenMoonGold
                                     )
                                     Text(
-                                        text = "Öğrenmeye Başla →",
+                                        text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Tamamlandı ✓" else "Tüm konular →",
                                         style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
                                         color = ZomoTextPrimary
                                     )
