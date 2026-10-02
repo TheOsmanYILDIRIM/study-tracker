@@ -55,17 +55,25 @@ fun V2CoursesScreen(
     var isSyncing by remember { mutableStateOf(false) }
     var showSettingsDialog by remember { mutableStateOf(false) }
 
-    fun refreshCatalog() {
+    fun refreshCatalog(showToast: Boolean = true) {
         scope.launch {
             isSyncing = true
             val adminToken = prefs.familyAdminToken.value.ifBlank { null }
             val res = curriculumRepo.syncCatalog(familyCode, adminToken)
             isSyncing = false
-            if (res.isSuccess) {
-                Toast.makeText(context, "Müfredat güncellendi (${res.getOrNull()} modül)", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(context, "Eşitleme hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+            if (showToast) {
+                if (res.isSuccess) {
+                    Toast.makeText(context, "V2 müfredat buluttan güncellendi (${res.getOrNull()} öğe)", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(context, "V2 eşitleme hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                }
             }
+        }
+    }
+
+    LaunchedEffect(familyCode) {
+        if (familyCode.isNotBlank()) {
+            refreshCatalog(showToast = false)
         }
     }
 
@@ -118,7 +126,7 @@ fun V2CoursesScreen(
                         }
 
                         IconButton(
-                            onClick = { refreshCatalog() },
+                            onClick = { refreshCatalog(showToast = true) },
                             enabled = !isSyncing
                         ) {
                             if (isSyncing) {
@@ -178,7 +186,7 @@ fun V2CoursesScreen(
                                 modifier = Modifier.padding(horizontal = 8.dp)
                             )
                             Button(
-                                onClick = { refreshCatalog() },
+                                onClick = { refreshCatalog(showToast = true) },
                                 colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold),
                                 shape = RoundedCornerShape(12.dp),
                                 modifier = Modifier.fillMaxWidth()
