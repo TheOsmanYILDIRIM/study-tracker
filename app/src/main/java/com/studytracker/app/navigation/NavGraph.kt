@@ -80,6 +80,9 @@ fun AppNavGraph(
                 },
                 onNavigateToCourse = { courseId ->
                     navController.navigate(Screen.V2Lessons.createRoute(courseId))
+                },
+                onResumeLesson = { lessonId ->
+                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
                 }
             )
         }
