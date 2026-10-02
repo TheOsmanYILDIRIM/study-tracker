@@ -954,6 +954,82 @@ object StudyPackageExchangeManager {
         }
     }
 
+    suspend fun uploadLocalV2CatalogToCloud(context: Context): Result<String> = withContext(Dispatchers.IO) {
+        runCatching {
+            val db = AppDatabase.getInstance(context)
+            val prefs = AppPreferences.getInstance(context)
+            val familyCode = prefs.familyPairCode.value.trim().uppercase()
+            val adminToken = prefs.familyAdminToken.value.trim()
+
+            require(familyCode.isNotBlank()) { "Aile kodu boş." }
+            require(adminToken.isNotBlank()) { "Yönetici anahtarı kayıtlı değil." }
+
+            val courses = db.courseDao().getAllCoursesOnce(familyCode)
+            val lessons = db.lessonDao().getAllLessonsForFamilyOnce(familyCode)
+            val items = db.learningItemDao().getAllItemsForFamilyOnce(familyCode)
+
+            require(courses.isNotEmpty()) { "Yerelde V2 ders bulunamadı." }
+
+            val lessonByCourse = lessons.groupBy { it.courseId }
+            val itemByLesson = items.groupBy { it.lessonId }
+
+            val manifest = V2CatalogImportManifest(
+                schemaVersion = "v2",
+                courses = courses.map { course ->
+                    V2CatalogImportCourse(
+                        id = course.id,
+                        title = course.title,
+                        subject = course.subject,
+                        gradeLevel = course.gradeLevel,
+                        description = course.description,
+                        orderKey = course.orderKey,
+                        lessons = (lessonByCourse[course.id] ?: emptyList()).map { lesson ->
+                            V2CatalogImportLesson(
+                                id = lesson.id,
+                                stableKey = lesson.id,
+                                title = lesson.title,
+                                orderKey = lesson.orderKey,
+                                items = (itemByLesson[lesson.id] ?: emptyList()).map { item ->
+                                    val version = db.learningItemVersionDao().getVersionById(item.currentVersionId)
+                                    val payload = version?.payloadJson?.let { raw ->
+                                        runCatching { json.parseToJsonElement(raw) }.getOrNull()
+                                    }
+                                    V2CatalogImportItem(
+                                        id = item.id,
+                                        stableKey = item.stableKey,
+                                        itemType = item.itemType.name,
+                                        displayLabel = item.displayLabel,
+                                        orderKey = item.orderKey,
+                                        title = version?.title ?: item.displayLabel,
+                                        contentUrl = version?.contentUrl,
+                                        publishingStatus = if (item.isArchived) "draft" else "active",
+                                        payload = payload
+                                    )
+                                }
+                            )
+                        }
+                    )
+                }
+            )
+
+            val manifestJson = json.encodeToString(manifest)
+            val cloudResult = V2CloudClient.importCatalog(
+                familyCode = familyCode,
+                catalogJson = manifestJson,
+                adminToken = adminToken
+            ).getOrThrow()
+
+            val remote = V2CloudClient.fetchCatalog(
+                familyCode = familyCode,
+                adminToken = adminToken,
+                role = "PARENT"
+            ).getOrThrow()
+            val remoteLessons = remote.sumOf { it.lessons.size }
+            val remoteItems = remote.sumOf { course -> course.lessons.sumOf { it.items.size } }
+
+            "Buluta aktarıldı ve doğrulandı: ${remote.size} ders, $remoteLessons konu, $remoteItems öğe."
+        }
+    }
     /**
      * Reset all student progress, sessions, and screenshots (İlerleme Sıfırlama).
      */
