@@ -50,7 +50,7 @@ async function run() {
     BUILD_REVISION: 'kv-staging-test'
   };
 
-  const familyCode = 'ST-KV-2026-TEST-0001';
+  const familyCode = 'ST-KV01-2026-TEST-0001';
   const pair = await request(env, 'POST', '/api/pair', { familyCode });
   assert.strictEqual(pair.data.success, true);
 
