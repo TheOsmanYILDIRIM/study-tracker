@@ -52,6 +52,18 @@ jobs:
           node cli/test-revision.js
           node cli/test-v2.js
 
+      - name: Build portable V2 catalog bundle
+        run: |
+          npm run content:validate
+          npm run content:bundle
+
+      - name: Upload V2 catalog bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: StudyTracker-v2-catalog
+          path: dist/studytracker-v2-catalog.json
+          retention-days: 14
+
       - name: Configure release signing
         env:
           STUDYTRACKER_KEYSTORE_B64: ${{ secrets.STUDYTRACKER_KEYSTORE_B64 }}
