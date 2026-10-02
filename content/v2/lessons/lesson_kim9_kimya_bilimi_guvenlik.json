@@ -1,0 +1,12 @@
+{
+  "id": "lesson_kim9_kimya_bilimi_guvenlik",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_kimya_bilimi_guvenlik",
+  "title": "Kimya Bilimi, Alt Disiplinler ve Laboratuvar Güvenliği (KİM.9.1.1 - KİM.9.1.2)",
+  "orderKey": 1000,
+  "items": [
+    "item_kim9_vid_kimya_bilimi",
+    "item_kim9_vid_guvenlik_sembolleri",
+    "item_kim9_quiz_kimya_guvenlik"
+  ]
+}

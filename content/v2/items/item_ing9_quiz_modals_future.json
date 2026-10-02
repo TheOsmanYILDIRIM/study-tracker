@@ -1,0 +1,70 @@
+{
+  "id": "item_ing9_quiz_modals_future",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_family_and_world",
+  "stableKey": "ing9_quiz_modals_future",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Modals and Future Predictions Test",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Modals and Future Predictions Test",
+      "questions": [
+        {
+          "id": "q_ing3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "You _______ stop when the traffic lights turn red. It is a strict rule.",
+          "choices": [
+            "must",
+            "can",
+            "might",
+            "could"
+          ],
+          "correctAnswer": "must",
+          "explanation": "'Must' expresses strong obligation and legal rules."
+        },
+        {
+          "id": "q_ing3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "'Will' is used for spontaneous decisions and future predictions.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "'Will' is used for predictions without prior evidence and instant decisions."
+        },
+        {
+          "id": "q_ing3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "He _______ play the piano when he was only five years old.",
+          "choices": [
+            "could",
+            "must",
+            "should",
+            "will"
+          ],
+          "correctAnswer": "could",
+          "explanation": "'Could' expresses past general ability."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L100",
+      "sourceSection": "Themes 4-8: Modals and Future",
+      "fingerprint": "09ddc308f4888158",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

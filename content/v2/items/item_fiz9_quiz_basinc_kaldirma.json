@@ -1,0 +1,70 @@
+{
+  "id": "item_fiz9_quiz_basinc_kaldirma",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+  "stableKey": "fiz9_quiz_basinc_kaldirma",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Basınç ve Kaldırma Kuvveti Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Basınç ve Kaldırma Kuvveti Testi",
+      "questions": [
+        {
+          "id": "q_fiz3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Durgun sıvı basıncı formülü (P = h · d · g) uyarınca basınç hangisine bağlı DEĞİLDİR?",
+          "choices": [
+            "Sıvının derinliğine (h)",
+            "Sıvının özkütlesine (d)",
+            "Kabın taban alanına (S)",
+            "Yer çekimi ivmesine (g)"
+          ],
+          "correctAnswer": "Kabın taban alanına (S)",
+          "explanation": "Durgun sıvı basıncı yalnızca derinlik, özkütle ve yerçekimi ivmesine bağlıdır; kabın şekline veya taban alanına bağlı değildir."
+        },
+        {
+          "id": "q_fiz3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bernoulli ilkesine göre akışkanın hızının arttığı yerde akışkan basıncı azalır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Akışkanlar dinamiğinde hız artışı dinamik basıncı artırırken statik basıncı düşürür."
+        },
+        {
+          "id": "q_fiz3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir cismin sıvıda yüzmesi için cismin özkütlesi (dc) ile sıvının özkütlesi (ds) arasındaki ilişki ne olmalıdır?",
+          "choices": [
+            "dc > ds",
+            "dc = ds",
+            "dc < ds",
+            "dc · ds = 1"
+          ],
+          "correctAnswer": "dc < ds",
+          "explanation": "Özkütlesi sıvınınkinden küçük olan cisimler sıvıda yüzer."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L115",
+      "sourceSection": "Akışkanlar Ünitesi",
+      "fingerprint": "b5e4615ad22b2695",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

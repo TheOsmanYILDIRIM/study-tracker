@@ -1,0 +1,13 @@
+{
+  "id": "lesson_ing9_orientation_revision",
+  "courseId": "course_ing_9",
+  "stableKey": "lesson_ing9_orientation_revision",
+  "title": "Theme 1: School Life & Orientation",
+  "orderKey": 1000,
+  "items": [
+    "item_ing9_vid_cumle_kurma",
+    "item_ing9_vid_simple_present",
+    "item_ing9_anki_1ay",
+    "item_ing9_quiz_school_life"
+  ]
+}

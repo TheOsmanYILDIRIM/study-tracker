@@ -1,0 +1,24 @@
+{
+  "id": "item_mat9_vid_uslu_bolme",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_vid_uslu_bolme",
+  "itemType": "VIDEO",
+  "displayLabel": "1.3",
+  "orderKey": 3000,
+  "title": "Üslü Sayılarda Bölme İşlemi ve Özellikleri",
+  "contentUrl": "https://www.youtube.com/watch?v=Z8mH2nLqE9I",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "topic": "Bölme Kuralı",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L14",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "ed3787346eb0861d"
+    }
+  }
+}

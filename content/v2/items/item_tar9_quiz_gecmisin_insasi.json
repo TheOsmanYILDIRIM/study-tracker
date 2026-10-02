@@ -1,0 +1,70 @@
+{
+  "id": "item_tar9_quiz_gecmisin_insasi",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_gecmisin_insasi",
+  "stableKey": "tar9_quiz_gecmisin_insasi",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Tarih Bilimi ve Metodolojisi Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarih Bilimi ve Metodolojisi Testi",
+      "questions": [
+        {
+          "id": "q_tar1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi bir 'Tarihî Olgu'ya örnektir?",
+          "choices": [
+            "Malazgirt Savaşı",
+            "Anadolu'nun Türkleşmesi",
+            "İstanbul'un Fethi",
+            "Kurtuluş Savaşı"
+          ],
+          "correctAnswer": "Anadolu'nun Türkleşmesi",
+          "explanation": "Olay belirli bir zamanda ve mekanda gerçekleşen anlık durumlardır; olgu ise uzun süreçte meydana gelen genel gelişmelerdir."
+        },
+        {
+          "id": "q_tar1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarih bilimi geçmişte yaşanmış olayları incelediği için deney ve gözlem yöntemi uygulanamaz.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Tarih tekrarlanamaz ve laboratuvar ortamında deneyi yapılamaz."
+        },
+        {
+          "id": "q_tar1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih araştırmalarında olayların geçtiği dönemin koşullarını dikkate almadan günümüz değerleriyle yargılamaya ne denir?",
+          "choices": [
+            "Anakronizm",
+            "Objektiflik",
+            "Paleografi",
+            "Diplomatik"
+          ],
+          "correctAnswer": "Anakronizm",
+          "explanation": "Anakronizm (tarih yanılgısı), olayları ve kavramları çağının dışına taşıma hatasıdır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L25",
+      "sourceSection": "Tarih Bilimi ve Metodolojisi",
+      "fingerprint": "61008abf0a494c90",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

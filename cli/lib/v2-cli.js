@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const v2Api = require('./v2-api');
 const { validateSeed, diffSeed, applySeed } = require('./v2-seed');
+const { validateModularTree, compileModularCatalog, saveCompiledCatalog } = require('./v2-modular');
 const { analyzeMigration, planMigration, applyMigration } = require('./v2-migrate');
 const { listReviewItems, showReviewItem, approveReviewItem, rejectReviewItem, replaceContentReviewItem } = require('./v2-review');
 const { validateQuizSchema, attachQuizToItem, createQuizItem, loadQuizFile } = require('./v2-quiz');
@@ -41,10 +42,12 @@ ${colors.bold}Quiz Yazarlık & İçe Aktarma (Deterministic Quiz Authoring):${co
   ${colors.green}studytracker-cli v2 quiz attach --item <stable_key|id> --file <quiz.json> [--note "..."] [--json]${colors.reset}
   ${colors.green}studytracker-cli v2 quiz create --lesson <id|key> --label <label> --stable-key <key> --file <quiz.json> [--before <target>] [--after <target>] [--json]${colors.reset}
 
-${colors.bold}Tohum Kataloğu & İçerik Dağıtımı (Seed):${colors.reset}
-  ${colors.green}studytracker-cli v2 seed validate [--file <path>] [--json]${colors.reset}  Tohum dosyasını ve denetim kurallarını doğrular
-  ${colors.green}studytracker-cli v2 seed diff [--file <path>] [--json]${colors.reset}      Tohum ile aktif sunucu kataloğunu karşılaştırır
-  ${colors.green}studytracker-cli v2 seed apply [--file <path>] [--dry-run] [--json]${colors.reset} Tohumu sunucuya kayıpsız uygular
+${colors.bold}Tohum Kataloğu & İçerik Dağıtımı (Seed & Modular):${colors.reset}
+  ${colors.green}studytracker-cli v2 modular compile [--dir <path>] [--output <path>] [--json]${colors.reset} Modüler içerik ağacını derler
+  ${colors.green}studytracker-cli v2 modular validate [--dir <path>] [--json]${colors.reset}         Modüler içerik referanslarını doğrular
+  ${colors.green}studytracker-cli v2 seed validate [--file <path>] [--json]${colors.reset}           Tohum dosyasını ve denetim kurallarını doğrular
+  ${colors.green}studytracker-cli v2 seed diff [--file <path>] [--json]${colors.reset}               Tohum ile aktif sunucu kataloğunu karşılaştırır
+  ${colors.green}studytracker-cli v2 seed apply [--file <path>] [--dry-run] [--json]${colors.reset}  Tohumu sunucuya kayıpsız uygular
 
 ${colors.bold}V1 -> V2 Güvenli Geçiş Eşleyicisi (Migration):${colors.reset}
   ${colors.green}studytracker-cli v2 migrate-v1 analyze [--json]${colors.reset}             V1 ve V2 eşleşme güven analizini çıkarır
@@ -617,6 +620,59 @@ async function handleV2Command(parsed, familyCode) {
         }
       } else {
         console.error(`${colors.red}Kullanım: studytracker-cli v2 quiz validate --file <dosya> | attach --item <key> --file <dosya> | create --lesson <id> --label <label> --stable-key <key> --file <dosya> [--before/--after <target>]${colors.reset}`);
+      }
+      break;
+    }
+
+    // MODULAR CONTENT SOURCE & COMPILER
+    case 'modular':
+    case 'compile': {
+      const v2Dir = parsed.options.dir ? path.resolve(process.cwd(), parsed.options.dir) : path.resolve(__dirname, '../../content/v2');
+      const outputPath = parsed.options.output ? path.resolve(process.cwd(), parsed.options.output) : path.resolve(__dirname, '../../content/9-sinif-v2-catalog.json');
+
+      if (action === 'validate') {
+        const res = validateModularTree(v2Dir);
+        if (isJson) {
+          console.log(JSON.stringify(res, null, 2));
+        } else {
+          console.log(`\n${colors.bold}${colors.brightCyan}=== MODÜLER İÇERİK AĞACI DOĞRULAMA ===${colors.reset}`);
+          console.log(`Kaynak: ${v2Dir}`);
+          if (res.valid) {
+            console.log(`${colors.green}✔ Modüler içerik ağacı %100 geçerli!${colors.reset}`);
+            console.log(`  • Dersler: ${res.stats.courseCount}`);
+            console.log(`  • Üniteler: ${res.stats.lessonCount}`);
+            console.log(`  • Toplam Öğe: ${res.stats.itemCount} (Video: ${res.stats.videoCount}, Quiz: ${res.stats.quizCount} [Mikro: ${res.stats.microQuizCount}], Anki: ${res.stats.ankiCount})`);
+          } else {
+            console.log(`${colors.red}✖ Doğrulama Hataları (${res.errors.length}):${colors.reset}`);
+            res.errors.forEach(e => console.log(`  - ${e}`));
+          }
+          if (res.warnings.length > 0) {
+            console.log(`\n${colors.yellow}⚠ Uyarılar (${res.warnings.length}):${colors.reset}`);
+            res.warnings.forEach(w => console.log(`  - ${w.warning || JSON.stringify(w)}`));
+          }
+        }
+      } else {
+        // default compile
+        const validation = validateModularTree(v2Dir);
+        if (!validation.valid) {
+          if (isJson) console.log(JSON.stringify({ success: false, errors: validation.errors }, null, 2));
+          else {
+            console.error(`${colors.red}✖ Doğrulama başarısız oldu, derleme durduruldu:${colors.reset}`);
+            validation.errors.forEach(e => console.error(`  - ${e}`));
+          }
+          process.exit(1);
+        }
+
+        const compiled = compileModularCatalog(v2Dir);
+        const result = saveCompiledCatalog(compiled, outputPath);
+        if (isJson) {
+          console.log(JSON.stringify({ success: true, ...result, stats: validation.stats }, null, 2));
+        } else {
+          console.log(`\n${colors.green}✔ Modüler katalog başarıyla derlendi!${colors.reset}`);
+          console.log(`  • Hedef: ${result.path}`);
+          console.log(`  • Ders: ${result.courseCount} | Ünite: ${result.totalLessons} | Öğe: ${result.totalItems}`);
+          console.log(`  • Boyut: ${(result.bytes / 1024).toFixed(1)} KB`);
+        }
       }
       break;
     }

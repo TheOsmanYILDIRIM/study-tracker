@@ -1,0 +1,23 @@
+{
+  "id": "item_cog9_vid_basinc_ruzgar_yagis",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+  "stableKey": "item_cog9_vid_basinc_ruzgar_yagis",
+  "itemType": "VIDEO",
+  "displayLabel": "2.2",
+  "orderKey": 2000,
+  "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Coğrafyanın Kodları",
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L80",
+      "sourceSection": "Basınç ve Rüzgârlar",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "c40e0c518894cbcd"
+    }
+  }
+}

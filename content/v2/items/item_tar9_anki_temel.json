@@ -1,0 +1,24 @@
+{
+  "id": "item_tar9_anki_temel",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_kaynaklar_takvimler",
+  "stableKey": "tar9_anki_temel",
+  "itemType": "ANKI",
+  "displayLabel": "A1",
+  "orderKey": 3000,
+  "title": "9. Sınıf Tarih Temel Kavramlar Anki Kartları",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "ankiSource": "9_sinif_tarih_anki.txt",
+    "cardCount": 10,
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_tarih_video_rehberi.md#L50",
+      "sourceSection": "4. Hafta",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "cf86ee58f58af1d4"
+    }
+  }
+}

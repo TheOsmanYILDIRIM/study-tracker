@@ -8,6 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const v2Api = require('./v2-api');
+const { compileModularCatalog, validateModularTree } = require('./v2-modular');
 
 function sha256(text) {
   return crypto.createHash('sha256').update(text).digest('hex').slice(0, 16);
@@ -28,11 +29,29 @@ function loadCatalogManifest(catalogPathOrObject) {
   if (typeof catalogPathOrObject === 'object' && catalogPathOrObject !== null) {
     return catalogPathOrObject;
   }
-  const defaultPath = path.resolve(__dirname, '../../content/9-sinif-v2-catalog.json');
-  const targetPath = catalogPathOrObject ? path.resolve(process.cwd(), catalogPathOrObject) : defaultPath;
-  if (!fs.existsSync(targetPath)) {
-    throw new Error(`Catalog manifest file not found: ${targetPath}`);
+  const defaultModularDir = path.resolve(__dirname, '../../content/v2');
+  const defaultJsonPath = path.resolve(__dirname, '../../content/9-sinif-v2-catalog.json');
+
+  let targetPath;
+  if (catalogPathOrObject) {
+    targetPath = path.resolve(process.cwd(), catalogPathOrObject);
+  } else if (fs.existsSync(defaultModularDir) && fs.existsSync(path.join(defaultModularDir, 'catalog.json'))) {
+    targetPath = defaultModularDir;
+  } else if (fs.existsSync(defaultJsonPath)) {
+    targetPath = defaultJsonPath;
+  } else {
+    throw new Error(`Catalog manifest not found at default locations (${defaultModularDir} or ${defaultJsonPath})`);
   }
+
+  if (!fs.existsSync(targetPath)) {
+    throw new Error(`Catalog manifest file or directory not found: ${targetPath}`);
+  }
+
+  const stat = fs.statSync(targetPath);
+  if (stat.isDirectory()) {
+    return compileModularCatalog(targetPath);
+  }
+
   const raw = fs.readFileSync(targetPath, 'utf8');
   return JSON.parse(raw);
 }

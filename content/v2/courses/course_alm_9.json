@@ -1,0 +1,12 @@
+{
+  "id": "course_alm_9",
+  "title": "9. Sınıf Almanca",
+  "subject": "Almanca",
+  "gradeLevel": 9,
+  "orderKey": 8000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Almanca Müfredatı (A1.1 Seviyesi)",
+  "lessons": [
+    "lesson_alm9_modul1_hallo",
+    "lesson_alm9_schule_und_alltag"
+  ]
+}

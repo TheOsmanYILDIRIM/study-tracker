@@ -1,0 +1,24 @@
+{
+  "id": "item_biyo9_anki_temel_bilesenler",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "stableKey": "biyo9_anki_temel_bilesenler",
+  "itemType": "ANKI",
+  "displayLabel": "A1",
+  "orderKey": 3000,
+  "title": "Biyoloji: Organik Moleküller ve Enzimler Anki Destesi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "ankiSource": "9_sinif_biyoloji_anki.txt",
+    "cardCount": 14,
+    "provenance": {
+      "sourceRef": "projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_biyoloji_anki.txt#L1",
+      "sourceSection": "Biyoloji Kavram Kartları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "4c0113e8f306f05a"
+    }
+  }
+}

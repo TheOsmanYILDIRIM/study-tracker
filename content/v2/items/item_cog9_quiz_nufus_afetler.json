@@ -1,0 +1,70 @@
+{
+  "id": "item_cog9_quiz_nufus_afetler",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+  "stableKey": "cog9_quiz_nufus_afetler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Nüfus ve Afet Yönetimi Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nüfus ve Afet Yönetimi Testi",
+      "questions": [
+        {
+          "id": "q_cog3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tabanı dar, üst yaş grubu geniş olan bir nüfus piramidi hangi ülke türünü ifade eder?",
+          "choices": [
+            "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
+            "Gelişmekte olan ülke",
+            "Az gelişmiş ülke (yüksek doğum oranı)",
+            "Nüfusu hızla artan genç ülke"
+          ],
+          "correctAnswer": "Gelişmiş ülke (düşük doğum, yaşlı nüfus oranı yüksek)",
+          "explanation": "Gelişmiş ülkelerde doğum oranları düşük olduğundan piramit tabanı dardır."
+        },
+        {
+          "id": "q_cog3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Deprem, volkanizma ve tsunami jeolojik kökenli doğal afetlerdendir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Yer kabuğu hareketleri kaynaklı afetler jeolojik kökenlidir."
+        },
+        {
+          "id": "q_cog3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eğimli yamaçlarda toprak ve ana kayanın kütle halinde aşağı kaymasına ne denir?",
+          "choices": [
+            "Heyelan (Kütle Hareketi)",
+            "Erozyon",
+            "Çığ",
+            "Kuraklık"
+          ],
+          "correctAnswer": "Heyelan (Kütle Hareketi)",
+          "explanation": "Heyelan, eğimli ve suya doygun tabakaların kayması olayıdır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L135",
+      "sourceSection": "Beşerî Sistemler ve Afetler",
+      "fingerprint": "5cb5c76f9267a5f7",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

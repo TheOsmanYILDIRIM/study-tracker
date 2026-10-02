@@ -1,0 +1,27 @@
+{
+  "id": "item_tar9_vid_birey_toplum",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_gecmisin_insasi",
+  "stableKey": "tar9_vid_birey_toplum",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Tarih Öğrenmenin Bireye ve Topluma Faydaları",
+  "contentUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+  "publishingStatus": "active",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "channel": "Benim Hocam",
+    "startTimestamp": "00:00",
+    "endTimestamp": "28:45",
+    "topicDetails": "Tarihin Tanımı, Konusu, Bireye ve Topluma Faydaları",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_tarih_video_rehberi.md#L14",
+      "sourceSection": "1. Hafta: Tarih Öğrenmenin Bireye ve Topluma Faydaları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "125e2f913b1573d6"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "item_ing9_vid_appearance_personality",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_personal_life_appearance",
+  "stableKey": "item_ing9_vid_appearance_personality",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Describing Physical Appearance and Personality Traits",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Özer Kiraz",
+    "provenance": {
+      "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L60",
+      "sourceSection": "Theme 3: Personal Life",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "5d544133f66ebdeb"
+    }
+  }
+}

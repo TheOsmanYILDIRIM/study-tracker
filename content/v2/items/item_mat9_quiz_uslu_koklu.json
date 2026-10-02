@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_quiz_uslu_koklu",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_uslu_koklu",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 7000,
+  "title": "Üslü ve Köklü Sayılar Muhakeme Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üslü ve Köklü Sayılar Muhakeme Testi",
+      "questions": [
+        {
+          "id": "q_mat1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "2³ · 2⁵ ifadesinin en sade eşiti aşağıdakilerden hangisidir?",
+          "choices": [
+            "2⁸",
+            "2¹⁵",
+            "4⁸",
+            "4¹⁵"
+          ],
+          "correctAnswer": "2⁸",
+          "explanation": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır: 3 + 5 = 8."
+        },
+        {
+          "id": "q_mat1_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(3⁴)² ifadesinin eşiti nedir?",
+          "choices": [
+            "3⁶",
+            "3⁸",
+            "9⁴",
+            "6⁴"
+          ],
+          "correctAnswer": "3⁸",
+          "explanation": "Üssün üssü alınırken üsler çarpılır: 4 · 2 = 8."
+        },
+        {
+          "id": "q_mat1_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Sıfır hariç herhangi bir gerçek sayının sıfırıncı kuvveti daima 1'e eşittir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "x ≠ 0 için x⁰ = 1 kuralı geçerlidir."
+        },
+        {
+          "id": "q_mat1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "√32 ifadesinin a√b biçimindeki en sade hali hangisidir?",
+          "choices": [
+            "2√8",
+            "4√2",
+            "8√2",
+            "16√2"
+          ],
+          "correctAnswer": "4√2",
+          "explanation": "32 = 16 · 2 olduğundan √32 = √(16·2) = 4√2."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L15",
+      "sourceSection": "1-2. Hafta: Üslü ve Köklü Gösterimler",
+      "fingerprint": "9676190cdd7bf378",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

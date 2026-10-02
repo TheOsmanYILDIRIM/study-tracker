@@ -1,0 +1,23 @@
+{
+  "id": "item_cog9_vid_atmosfer_ve_sicaklik",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+  "stableKey": "item_cog9_vid_atmosfer_ve_sicaklik",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Coğrafyanın Kodları",
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L60",
+      "sourceSection": "Atmosfer ve Sıcaklık",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "db6d6a33b24d6013"
+    }
+  }
+}

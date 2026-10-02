@@ -1,0 +1,70 @@
+{
+  "id": "item_fiz9_quiz_isi_sicaklik",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+  "stableKey": "fiz9_quiz_isi_sicaklik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Isı, Sıcaklık ve Hâl Değişimi Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Isı, Sıcaklık ve Hâl Değişimi Testi",
+      "questions": [
+        {
+          "id": "q_fiz4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıcaklık birimi SI sisteminde aşağıdakilerden hangisidir?",
+          "choices": [
+            "Celcius (°C)",
+            "Fahrenheit (°F)",
+            "Kelvin (K)",
+            "Kalori (cal)"
+          ],
+          "correctAnswer": "Kelvin (K)",
+          "explanation": "SI birim sisteminde temel sıcaklık birimi Kelvin'dir."
+        },
+        {
+          "id": "q_fiz4_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Saf maddeler hâl değiştirirken sıcaklıkları sabit kalır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Saf maddelerin erime, kaynama gibi faz dönüşümleri sırasında aldıkları ısı sıcaklığı artırmaz, bağları koparmaya harcanır."
+        },
+        {
+          "id": "q_fiz4_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Güneş'ten Dünya'ya ısının ulaşması hangi ısı aktarım yoluyla gerçekleşir?",
+          "choices": [
+            "İletim (Kondüksiyon)",
+            "Konveksiyon (Taşıma)",
+            "Işıma (Radyasyon)",
+            "Sürtünme"
+          ],
+          "correctAnswer": "Işıma (Radyasyon)",
+          "explanation": "Uzay boşluğunda madde olmadığından Güneş enerjisi Dünya'ya elektromanyetik dalgalar (ışıma) yoluyla ulaşır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L170",
+      "sourceSection": "Enerji ve Isı Ünitesi",
+      "fingerprint": "29239d124da9f020",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

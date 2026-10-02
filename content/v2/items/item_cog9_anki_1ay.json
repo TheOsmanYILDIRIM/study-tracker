@@ -1,0 +1,24 @@
+{
+  "id": "item_cog9_anki_1ay",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_anki_1ay",
+  "itemType": "ANKI",
+  "displayLabel": "A1",
+  "orderKey": 5000,
+  "title": "9. Sınıf Coğrafya 1. Ay Anki Destesi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "ankiPackage": "9_sinif_cografya_1_ay.apkg",
+    "cardCount": 24,
+    "provenance": {
+      "sourceRef": "10-Projects/9_sinif_cografya_1_ay_plani.md#L76",
+      "sourceSection": "3. Anki Tekrar ve Pekiştirme Stratejisi",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "0cad6592eadf6031"
+    }
+  }
+}

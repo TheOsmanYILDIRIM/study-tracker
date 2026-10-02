@@ -1,0 +1,70 @@
+{
+  "id": "item_tde9_quiz_sozun_inceligi",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_metin_ve_anlam",
+  "stableKey": "tde9_quiz_sozun_inceligi",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Şiir Bilgisi ve Söz Sanatları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Şiir Bilgisi ve Söz Sanatları Testi",
+      "questions": [
+        {
+          "id": "q_tde1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aralarında benzerlik ilişkisi kurulan iki varlıktan zayıf olanın güçlü olana benzetilmesine ne denir?",
+          "choices": [
+            "Teşbih (Benzetme)",
+            "İstiare (Eğretileme)",
+            "Teşhis (Kişileştirme)",
+            "Tezat (Karşıtlık)"
+          ],
+          "correctAnswer": "Teşbih (Benzetme)",
+          "explanation": "Teşbih benzetme sanatıdır; 4 temel ögesi vardır (benzeyen, kendisine benzetilen, benzetme yönü, benzetme edatı)."
+        },
+        {
+          "id": "q_tde1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Dize sonlarındaki yazılışları ve anlamları aynı olan ek veya sözcük tekrarlarına Redif denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Aynı görevdeki ek veya aynen tekrarlanan sözcükler rediftir; kökteki ses benzerlikleri ise kafiyedir."
+        },
+        {
+          "id": "q_tde1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve düşüncelerini kanıtlama amacı gütmeden samimi bir dille anlattığı türe ne ad verilir?",
+          "choices": [
+            "Deneme",
+            "Makale",
+            "Fıkra",
+            "Eleştiri"
+          ],
+          "correctAnswer": "Deneme",
+          "explanation": "Montaigne ile özdeşleşen 'deneme' türünde kanıtlama zorunluluğu yoktur, öznel bir türdür."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L25",
+      "sourceSection": "Sözün İnceliği Teması",
+      "fingerprint": "295cb2593369ac6e",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

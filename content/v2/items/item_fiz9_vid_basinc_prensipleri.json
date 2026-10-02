@@ -1,0 +1,22 @@
+{
+  "id": "item_fiz9_vid_basinc_prensipleri",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+  "stableKey": "fiz9_vid_basinc_prensipleri",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Katı, Sıvı ve Gaz Basıncı (Pascal ve Torricelli)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L90",
+      "sourceSection": "Akışkanlar ve Basınç",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "8dc3509e9793b3d3"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "item_kim9_quiz_maddenin_halleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "stableKey": "kim9_quiz_maddenin_halleri",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Maddenin Halleri ve Sürdürülebilirlik Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Maddenin Halleri ve Sürdürülebilirlik Testi",
+      "questions": [
+        {
+          "id": "q_kim4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıvıların akmaya karşı gösterdiği dirence ne ad verilir?",
+          "choices": [
+            "Yüzey Gerilimi",
+            "Viskozite",
+            "Adezyon",
+            "Buhar Basıncı"
+          ],
+          "correctAnswer": "Viskozite",
+          "explanation": "Sıvıların akmaya karşı direnci viskozite olarak adlandırılır (örn. balın viskozitesi sudan büyüktür)."
+        },
+        {
+          "id": "q_kim4_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Cam, plastik ve tereyağı amorf katılara örnektir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Amorf katılar belirli bir geometrik kristal yapısı ve net erime noktası olmayan katılardır."
+        },
+        {
+          "id": "q_kim4_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yeşil kimyanın (Green Chemistry) temel amacı nedir?",
+          "choices": [
+            "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
+            "Yalnızca bitkilerden kimyasal madde üretmek",
+            "Tüm laboratuvar deneylerini dijital ortama taşımak",
+            "Kimyasal reaksiyon hızlarını sınırsız artırmak"
+          ],
+          "correctAnswer": "Kimyasal atıkları kaynağında önlemek ve çevre dostu süreçler geliştirmek",
+          "explanation": "Yeşil kimya çevre kirliliğini engelleme, atık azaltımı ve enerji tasarrufunu amaçlar."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L145",
+      "sourceSection": "Maddenin Halleri ve Yeşil Kimya",
+      "fingerprint": "94f081c22bc3f7de",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

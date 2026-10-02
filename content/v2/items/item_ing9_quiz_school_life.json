@@ -1,0 +1,70 @@
+{
+  "id": "item_ing9_quiz_school_life",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_quiz_school_life",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 4000,
+  "title": "School Life & Present Simple Test",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "School Life & Present Simple Test",
+      "questions": [
+        {
+          "id": "q_ing1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Complete the sentence: 'She _______ to school by bus every weekday morning.'",
+          "choices": [
+            "go",
+            "goes",
+            "is going",
+            "went"
+          ],
+          "correctAnswer": "goes",
+          "explanation": "In Simple Present Tense, third-person singular subjects (He/She/It) take -s/-es suffix: 'goes'."
+        },
+        {
+          "id": "q_ing1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "'Look! The students are playing football right now.' uses the Present Continuous Tense correctly.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "'Look!' and 'right now' indicate an action happening at the moment of speaking (Present Continuous)."
+        },
+        {
+          "id": "q_ing1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Which question word is used to ask about nationalities/origins: '_______ are you from?'",
+          "choices": [
+            "Where",
+            "When",
+            "What",
+            "Who"
+          ],
+          "correctAnswer": "Where",
+          "explanation": "'Where are you from?' asks for country or origin."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L25",
+      "sourceSection": "Theme 1: School Life",
+      "fingerprint": "ddea3d89003cd433",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

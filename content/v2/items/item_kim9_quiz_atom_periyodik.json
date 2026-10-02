@@ -1,0 +1,70 @@
+{
+  "id": "item_kim9_quiz_atom_periyodik",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+  "stableKey": "kim9_quiz_atom_periyodik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Atomun Yapısı ve Periyodik Sistem Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Atomun Yapısı ve Periyodik Sistem Testi",
+      "questions": [
+        {
+          "id": "q_kim2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Atom çekirdeğini ve çekirdekli atom modelini ilk ortaya koyan bilim insanı kimdir?",
+          "choices": [
+            "John Dalton",
+            "J.J. Thomson",
+            "Ernest Rutherford",
+            "Niels Bohr"
+          ],
+          "correctAnswer": "Ernest Rutherford",
+          "explanation": "Rutherford altın levha alfa saçılması deneyiyle atom çekirdeğini keşfetmiştir."
+        },
+        {
+          "id": "q_kim2_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Periyodik tabloda aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı nasıl değişir?",
+          "choices": [
+            "Artar",
+            "Azalır",
+            "Değişmez",
+            "Önce artar sonra azalır"
+          ],
+          "correctAnswer": "Azalır",
+          "explanation": "Aynı periyotta sağa gidildikçe çekirdek yükü (proton sayısı) arttığı için elektronlar daha güçlü çekilir ve yarıçap küçülür."
+        },
+        {
+          "id": "q_kim2_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Elektron ilgisi ve elektronegatifliği en yüksek olan element Flor'dur (F).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Pauling ölçeğinde elektronegatifliği 4.0 ile en yüksek element Flor'dur."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L60",
+      "sourceSection": "Atom ve Periyodik Tablo",
+      "fingerprint": "f4ee54056b15ce28",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

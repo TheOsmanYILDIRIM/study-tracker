@@ -1,0 +1,70 @@
+{
+  "id": "item_tar9_quiz_kaynaklar_takvimler",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_kaynaklar_takvimler",
+  "stableKey": "tar9_quiz_kaynaklar_takvimler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 4000,
+  "title": "Tarihi Kaynaklar ve Takvim Sistemleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarihi Kaynaklar ve Takvim Sistemleri Testi",
+      "questions": [
+        {
+          "id": "q_tar2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eski paraları inceleyerek tarihe yardımcı olan bilim dalı hangisidir?",
+          "choices": [
+            "Epigrafi",
+            "Nümizmatik (Meskukat)",
+            "Paleografi",
+            "Heraldik"
+          ],
+          "correctAnswer": "Nümizmatik (Meskukat)",
+          "explanation": "Nümizmatik madeni paraları inceler."
+        },
+        {
+          "id": "q_tar2_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türklerin kullandığı takvimlerden hangisi Ay yılı esasına dayanır?",
+          "choices": [
+            "12 Hayvanlı Türk Takvimi",
+            "Hicri Takvim",
+            "Celali Takvimi",
+            "Rumi Takvim"
+          ],
+          "correctAnswer": "Hicri Takvim",
+          "explanation": "Hicri takvim Ay'ın Dünya çevresindeki hareketine (354 gün) dayanır; diğerleri Güneş yılı esaslıdır."
+        },
+        {
+          "id": "q_tar2_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kitabeleri ve anıtlar üzerindeki yazıtları inceleyen bilim dalı Epigrafi'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Epigrafi anıt ve kitabe bilimidir (örn. Orhun Abideleri)."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L45",
+      "sourceSection": "Kaynak Türleri ve Takvimler",
+      "fingerprint": "c723303814c83b8e",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

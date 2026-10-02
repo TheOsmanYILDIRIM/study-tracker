@@ -1,0 +1,14 @@
+{
+  "id": "course_tar_9",
+  "title": "9. Sınıf Tarih",
+  "subject": "Tarih",
+  "gradeLevel": 9,
+  "orderKey": 5000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Tarih Müfredatı (Mehmet Celal ÖZYILDIZ Kanonik)",
+  "lessons": [
+    "lesson_tar9_gecmisin_insasi",
+    "lesson_tar9_kaynaklar_takvimler",
+    "lesson_tar9_eski_cag_medeniyetleri",
+    "lesson_tar9_orta_cag_medeniyetleri"
+  ]
+}

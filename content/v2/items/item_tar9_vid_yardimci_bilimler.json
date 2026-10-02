@@ -1,0 +1,27 @@
+{
+  "id": "item_tar9_vid_yardimci_bilimler",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_kaynaklar_takvimler",
+  "stableKey": "tar9_vid_yardimci_bilimler",
+  "itemType": "VIDEO",
+  "displayLabel": "2.2",
+  "orderKey": 2000,
+  "title": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
+  "contentUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+  "publishingStatus": "active",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "channel": "Benim Hocam",
+    "startTimestamp": "24:30",
+    "endTimestamp": "46:15",
+    "topicDetails": "Kronoloji, Arkeoloji, Epigrafi, Nümizmatik, Diplomatik & 5 Takvim",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_tarih_video_rehberi.md#L47",
+      "sourceSection": "4. Hafta: Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "36da09cd4e03a26f"
+    }
+  }
+}

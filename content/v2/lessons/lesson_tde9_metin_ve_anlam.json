@@ -1,0 +1,13 @@
+{
+  "id": "lesson_tde9_metin_ve_anlam",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_metin_ve_anlam",
+  "title": "1. Tema: Sözün İnceliği (Şiir, Deneme ve Söz Sanatları)",
+  "orderKey": 1000,
+  "items": [
+    "item_tde9_vid_soz_sanatlari",
+    "item_tde9_vid_soz_sanatlari__quiz",
+    "item_tde9_vid_edebiyat_guzel_sanatlar",
+    "item_tde9_quiz_sozun_inceligi"
+  ]
+}

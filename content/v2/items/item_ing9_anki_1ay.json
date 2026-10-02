@@ -1,0 +1,24 @@
+{
+  "id": "item_ing9_anki_1ay",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_anki_1ay",
+  "itemType": "ANKI",
+  "displayLabel": "A1",
+  "orderKey": 3000,
+  "title": "9. Sınıf İngilizce 1. Ay Kelime Destesi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "ankiPackage": "9_sinif_ingilizce_1_ay.apkg",
+    "cardCount": 30,
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_ingilizce_kelime_listesi.md#L1",
+      "sourceSection": "9. Sınıf İngilizce 1. Ay Kapsamlı Kelime Listesi",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "3d872d09fd586a4f"
+    }
+  }
+}

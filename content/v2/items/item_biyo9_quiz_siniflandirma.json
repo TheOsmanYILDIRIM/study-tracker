@@ -1,0 +1,70 @@
+{
+  "id": "item_biyo9_quiz_siniflandirma",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_siniflandirma_ve_biyocesitlilik",
+  "stableKey": "biyo9_quiz_siniflandirma",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "Sınıflandırma ve Biyoçeşitlilik Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sınıflandırma ve Biyoçeşitlilik Testi",
+      "questions": [
+        {
+          "id": "q_bio4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Pinus nigra (Karaçam) ikili adlandırmasında 'Pinus' neyi ifade eder?",
+          "choices": [
+            "Tür adını",
+            "Cins adını",
+            "Familya adını",
+            "Tanımlayıcı adı"
+          ],
+          "correctAnswer": "Cins adını",
+          "explanation": "İkili adlandırmada ilk kelime büyük harfle başlar ve Cins (Genus) adıdır."
+        },
+        {
+          "id": "q_bio4_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Virüslerin hücresel yapısı, organeli ve sitoplazması bulunmaz.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Virüsler hücresel yapıya sahip değildir, nükleoprotein kompleksleridir."
+        },
+        {
+          "id": "q_bio4_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sınıflandırma basamaklarında Âlemden Türe doğru gidildikçe canlılar arasındaki benzerlik nasıl değişir?",
+          "choices": [
+            "Artar",
+            "Azalır",
+            "Değişmez",
+            "Önce azalır sonra artar"
+          ],
+          "correctAnswer": "Artar",
+          "explanation": "Türe yaklaştıkça ortak genler, protein benzerliği ve akrabalık derecesi artar."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L140",
+      "sourceSection": "Sınıflandırma ve Biyoçeşitlilik",
+      "fingerprint": "4b5466a755d2af70",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

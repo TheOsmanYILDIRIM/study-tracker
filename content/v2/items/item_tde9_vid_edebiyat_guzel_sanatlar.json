@@ -1,0 +1,22 @@
+{
+  "id": "item_tde9_vid_edebiyat_guzel_sanatlar",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_metin_ve_anlam",
+  "stableKey": "item_tde9_vid_edebiyat_guzel_sanatlar",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L20",
+      "sourceSection": "1. Tema: Sözün İnceliği",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "b52a5298377cff88"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "item_alm9_anki_1ay",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_anki_1ay",
+  "itemType": "ANKI",
+  "displayLabel": "A1",
+  "orderKey": 5000,
+  "title": "9. Sınıf Almanca 1. Ay Kelime ve Cümle Destesi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "ankiPackage": "9_sinif_almanca_1_ay.apkg",
+    "cardCount": 20,
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_almanca_kelime_listesi.md#L1",
+      "sourceSection": "9. Sınıf Almanca (A1.1) 1. Ay Kelime Rehberi",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "5d6286621c26cf2d"
+    }
+  }
+}

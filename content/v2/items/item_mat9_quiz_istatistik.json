@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_istatistik",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_istatistik_veri_dagilimi",
+  "stableKey": "mat9_quiz_istatistik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "İstatistik ve Merkezi Eğilim Ölçüleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İstatistik ve Merkezi Eğilim Ölçüleri Testi",
+      "questions": [
+        {
+          "id": "q_mat7_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "3, 5, 7, 7, 9, 11 veri grubunun modu (tepe değeri) kaçtır?",
+          "choices": [
+            "5",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": "7",
+          "explanation": "Veri grubunda en çok tekrar eden eleman 7'dir (2 kez)."
+        },
+        {
+          "id": "q_mat7_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "2, 4, 6, 8, 10 sayılarının aritmetik ortalaması nedir?",
+          "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": "6",
+          "explanation": "(2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6."
+        },
+        {
+          "id": "q_mat7_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Medyan (ortanca) bulunurken veriler önce küçükten büyüğe sıralanmalıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Medyan verinin ortasındaki değer olduğundan verilerin sıralı olması şarttır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L260",
+      "sourceSection": "İstatistiksel Araştırma Süreci",
+      "fingerprint": "908cfc851079225e",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

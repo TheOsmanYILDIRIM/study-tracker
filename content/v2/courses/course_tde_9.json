@@ -1,0 +1,13 @@
+{
+  "id": "course_tde_9",
+  "title": "9. Sınıf Türk Dili ve Edebiyatı",
+  "subject": "Türk Dili ve Edebiyatı",
+  "gradeLevel": 9,
+  "orderKey": 9000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf TDE Müfredatı (Sözün İnceliği, Anlam Arayışı, Yapı Taşları, Roman)",
+  "lessons": [
+    "lesson_tde9_metin_ve_anlam",
+    "lesson_tde9_anlam_arayisi_hikaye",
+    "lesson_tde9_dilin_yapisi_ve_roman"
+  ]
+}

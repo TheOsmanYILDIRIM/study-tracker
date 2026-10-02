@@ -1,0 +1,16 @@
+{
+  "id": "lesson_mat9_sayilar_uslu_koklu",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_sayilar_uslu_koklu",
+  "title": "Sayılar: Üslü ve Köklü Gösterimler (MAT.9.1.1)",
+  "orderKey": 1000,
+  "items": [
+    "item_mat9_vid_uslu_giris",
+    "item_mat9_vid_uslu_kurallar",
+    "item_mat9_vid_uslu_bolme",
+    "item_mat9_vid_uslu_negatif",
+    "item_mat9_vid_koklu_mantik",
+    "item_mat9_vid_rasyonel_usler",
+    "item_mat9_quiz_uslu_koklu"
+  ]
+}

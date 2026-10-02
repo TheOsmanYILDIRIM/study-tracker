@@ -1,0 +1,11 @@
+{
+  "id": "lesson_ing9_personal_life_appearance",
+  "courseId": "course_ing_9",
+  "stableKey": "lesson_ing9_personal_life_appearance",
+  "title": "Theme 2 & 3: Personal Life, Appearance & Personality",
+  "orderKey": 2000,
+  "items": [
+    "item_ing9_vid_appearance_personality",
+    "item_ing9_quiz_appearance_personality"
+  ]
+}

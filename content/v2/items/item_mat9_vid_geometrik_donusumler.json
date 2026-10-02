@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_geometrik_donusumler",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+  "stableKey": "mat9_vid_geometrik_donusumler",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L150",
+      "sourceSection": "Geometrik Dönüşümler",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "e880c5ae62554989"
+    }
+  }
+}

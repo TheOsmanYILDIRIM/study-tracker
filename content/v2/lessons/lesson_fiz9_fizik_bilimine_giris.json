@@ -1,0 +1,12 @@
+{
+  "id": "lesson_fiz9_fizik_bilimine_giris",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_fizik_bilimine_giris",
+  "title": "Fizik Bilimi ve Kariyer Keşfi (FİZ.9.1.1)",
+  "orderKey": 1000,
+  "items": [
+    "item_fiz9_vid_fizik_giris",
+    "item_fiz9_vid_alt_dallar",
+    "item_fiz9_quiz_fizik_giris"
+  ]
+}

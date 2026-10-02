@@ -1,0 +1,70 @@
+{
+  "id": "item_ing9_quiz_appearance_personality",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_personal_life_appearance",
+  "stableKey": "ing9_quiz_appearance_personality",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "Appearance & Personality Traits Test",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Appearance & Personality Traits Test",
+      "questions": [
+        {
+          "id": "q_ing2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Someone who always tells the truth and never cheats is _______.",
+          "choices": [
+            "honest",
+            "selfish",
+            "stubborn",
+            "lazy"
+          ],
+          "correctAnswer": "honest",
+          "explanation": "Honest means truthful and sincere."
+        },
+        {
+          "id": "q_ing2_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Comparative form: 'Mount Everest is _______ than Mont Blanc.'",
+          "choices": [
+            "higher",
+            "more high",
+            "highest",
+            "the higher"
+          ],
+          "correctAnswer": "higher",
+          "explanation": "Short one-syllable adjectives take -er in comparative form: 'higher'."
+        },
+        {
+          "id": "q_ing2_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "'Generous' describes someone who likes giving and sharing with others.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Generous means willing to give money, help, or time freely."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L65",
+      "sourceSection": "Theme 3: Personal Life",
+      "fingerprint": "3693cba83e5f07b0",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

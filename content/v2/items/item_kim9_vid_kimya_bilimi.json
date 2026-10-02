@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_kimya_bilimi",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+  "stableKey": "kim9_vid_kimya_bilimi",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Kimya Bilimi, Günlük Hayat ve Alt Disiplinleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L24",
+      "sourceSection": "1. Hafta (Kitap: Kimya Hayattır)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "fdea372d4ca8b20e"
+    }
+  }
+}

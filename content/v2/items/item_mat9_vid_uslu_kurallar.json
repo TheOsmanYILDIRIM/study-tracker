@@ -1,0 +1,24 @@
+{
+  "id": "item_mat9_vid_uslu_kurallar",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_vid_uslu_kurallar",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Üslü İfadelerin Sadeleştirilmesi ve Çarpma",
+  "contentUrl": "https://www.youtube.com/watch?v=s5Rz-1i0n18",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "topic": "Üs Kuralları ve Sadeleştirme",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L13",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "09e4ff23f901f518"
+    }
+  }
+}

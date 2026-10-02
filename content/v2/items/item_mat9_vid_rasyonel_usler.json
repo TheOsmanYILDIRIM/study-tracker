@@ -1,0 +1,24 @@
+{
+  "id": "item_mat9_vid_rasyonel_usler",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_vid_rasyonel_usler",
+  "itemType": "VIDEO",
+  "displayLabel": "1.6",
+  "orderKey": 6000,
+  "title": "Kesirli Üslü ve Köklü İfadeler",
+  "contentUrl": "https://www.youtube.com/watch?v=1xNq8o3l4wM",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "topic": "Rasyonel Üsler",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L21",
+      "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "f2b5f73128476d91"
+    }
+  }
+}

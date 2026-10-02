@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_bag_turleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+  "stableKey": "kim9_vid_bag_turleri",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L80",
+      "sourceSection": "Kimyasal Bağlar",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "b3ac44607a0489ab"
+    }
+  }
+}

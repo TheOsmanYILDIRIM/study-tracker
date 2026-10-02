@@ -1,0 +1,27 @@
+{
+  "id": "item_tar9_vid_kaynak_turleri",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_kaynaklar_takvimler",
+  "stableKey": "tar9_vid_kaynak_turleri",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Tarihin Doğası, Kaynak Türleri ve Tarih Yazıcılığı",
+  "contentUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+  "publishingStatus": "active",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "channel": "Benim Hocam",
+    "startTimestamp": "00:00",
+    "endTimestamp": "24:30",
+    "topicDetails": "Birinci/İkinci Elden Kaynaklar, Tarih Yazıcılığı Türleri: Hikâyeci, Öğretici, Araştırmacı",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_tarih_video_rehberi.md#L36",
+      "sourceSection": "3. Hafta: Tarihin Doğası, Kaynak Türleri ve Tarih Yazıcılığı",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "a3311f9cb2414371"
+    }
+  }
+}

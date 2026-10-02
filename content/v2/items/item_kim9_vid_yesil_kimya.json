@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_yesil_kimya",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "stableKey": "kim9_vid_yesil_kimya",
+  "itemType": "VIDEO",
+  "displayLabel": "4.2",
+  "orderKey": 2000,
+  "title": "Nanoparçacıklar, Ekolojik Sürdürülebilirlik ve Yeşil Kimya",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L140",
+      "sourceSection": "Nanoparçacıklar ve Sürdürülebilirlik",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "ee46e61d9bd98733"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "item_tar9_vid_olay_olgu",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_gecmisin_insasi",
+  "stableKey": "tar9_vid_olay_olgu",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Tarihin Doğası & Olay-Olgu Ayrımı",
+  "contentUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+  "publishingStatus": "active",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "channel": "Benim Hocam",
+    "startTimestamp": "28:45",
+    "endTimestamp": "45:20",
+    "topicDetails": "Tarihî Olay ve Olgu Ayrımı, Deney/Gözlem Yapılamaması, Objektiflik",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_tarih_video_rehberi.md#L25",
+      "sourceSection": "2. Hafta: Tarihin Doğası & Olay-Olgu Ayrımı",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "8175e021fb9dcb69"
+    }
+  }
+}

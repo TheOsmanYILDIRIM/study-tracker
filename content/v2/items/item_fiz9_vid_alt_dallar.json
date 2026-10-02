@@ -1,0 +1,22 @@
+{
+  "id": "item_fiz9_vid_alt_dallar",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+  "stableKey": "fiz9_vid_alt_dallar",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L25",
+      "sourceSection": "Fizik Biliminin Alt Dalları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "f643ca89c63459fd"
+    }
+  }
+}

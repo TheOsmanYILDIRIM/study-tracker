@@ -1,0 +1,23 @@
+{
+  "id": "item_ing9_vid_cumle_kurma",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_vid_cumle_kurma",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Özer Kiraz",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L18",
+      "sourceSection": "1. Hafta: Orientation & Okul Yaşamına Giriş",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "595d65faa853e4c2"
+    }
+  }
+}

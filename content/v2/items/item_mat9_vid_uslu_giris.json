@@ -1,0 +1,24 @@
+{
+  "id": "item_mat9_vid_uslu_giris",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_vid_uslu_giris",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Üslü Sayılara Giriş (1. Seviye)",
+  "contentUrl": "https://www.youtube.com/watch?v=kYqP9K0Y0pU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "topic": "Cebir Öncesi Temeller",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L12",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "893ed24a871bd143"
+    }
+  }
+}

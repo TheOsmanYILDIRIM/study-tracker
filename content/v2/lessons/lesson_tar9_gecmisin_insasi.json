@@ -1,0 +1,14 @@
+{
+  "id": "lesson_tar9_gecmisin_insasi",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_gecmisin_insasi",
+  "title": "Geçmişin İnşa Sürecinde Tarih (TAR.9.1.1)",
+  "orderKey": 1000,
+  "items": [
+    "item_tar9_vid_birey_toplum",
+    "item_tar9_vid_birey_toplum__quiz",
+    "item_tar9_vid_olay_olgu",
+    "item_tar9_vid_olay_olgu__quiz",
+    "item_tar9_quiz_gecmisin_insasi"
+  ]
+}

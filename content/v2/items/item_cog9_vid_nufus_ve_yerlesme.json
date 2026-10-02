@@ -1,0 +1,23 @@
+{
+  "id": "item_cog9_vid_nufus_ve_yerlesme",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+  "stableKey": "item_cog9_vid_nufus_ve_yerlesme",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Nüfus Piramitleri, Göçler ve Yerleşme Dokuları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Coğrafyanın Kodları",
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L110",
+      "sourceSection": "Nüfus ve Yerleşme",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "b4823e5693786d7e"
+    }
+  }
+}

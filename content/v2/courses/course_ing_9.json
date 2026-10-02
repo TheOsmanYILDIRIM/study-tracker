@@ -1,0 +1,13 @@
+{
+  "id": "course_ing_9",
+  "title": "9. Sınıf İngilizce",
+  "subject": "İngilizce",
+  "gradeLevel": 9,
+  "orderKey": 7000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf İngilizce Müfredatı (Themes 1 - 8)",
+  "lessons": [
+    "lesson_ing9_orientation_revision",
+    "lesson_ing9_personal_life_appearance",
+    "lesson_ing9_family_and_world"
+  ]
+}

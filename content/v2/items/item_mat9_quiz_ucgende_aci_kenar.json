@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_ucgende_aci_kenar",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_ucgende_acilar_kenarlar",
+  "stableKey": "mat9_quiz_ucgende_aci_kenar",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Üçgende Açı ve Kenar Bağıntıları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üçgende Açı ve Kenar Bağıntıları Testi",
+      "questions": [
+        {
+          "id": "q_mat4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "correctAnswer": "180°",
+          "explanation": "Öklid geometrisinde bir düzlem üçgenin iç açıları toplamı 180 derecedir."
+        },
+        {
+          "id": "q_mat4_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kenarları 4 cm, 7 cm ve x cm olan bir üçgende x hangi aralıkta değer alabilir?",
+          "choices": [
+            "3 < x < 11",
+            "4 < x < 7",
+            "0 < x < 11",
+            "3 ≤ x ≤ 11"
+          ],
+          "correctAnswer": "3 < x < 11",
+          "explanation": "Üçgen eşitsizliğine göre |7 - 4| < x < 7 + 4 yani 3 < x < 11 olmalıdır."
+        },
+        {
+          "id": "q_mat4_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir üçgende büyük açı karşısında daima daha büyük kenar bulunur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Açı-kenar bağıntılarına göre açının ölçüsü büyüdükçe gördüğü kenarın uzunluğu artar."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L130",
+      "sourceSection": "Geometrik Şekiller Ünitesi",
+      "fingerprint": "e50cef5317d0d91c",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

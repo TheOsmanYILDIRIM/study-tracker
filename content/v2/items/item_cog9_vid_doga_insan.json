@@ -1,0 +1,23 @@
+{
+  "id": "item_cog9_vid_doga_insan",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_vid_doga_insan",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Coğrafyanın Kodları",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L14",
+      "sourceSection": "1. Hafta: Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "475b76ac042a0e59"
+    }
+  }
+}

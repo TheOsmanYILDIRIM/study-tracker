@@ -1,0 +1,70 @@
+{
+  "id": "item_alm9_quiz_schule_artikel",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_schule_und_alltag",
+  "stableKey": "alm9_quiz_schule_artikel",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "Schulsachen & Artikel Test",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Schulsachen & Artikel Test",
+      "questions": [
+        {
+          "id": "q_alm2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Welcher Artikel gehört zu 'Buch' (Kitap)?",
+          "choices": [
+            "der",
+            "die",
+            "das",
+            "den"
+          ],
+          "correctAnswer": "das",
+          "explanation": "Almancada kitap sözcüğünün artikeli 'das Buch'tur."
+        },
+        {
+          "id": "q_alm2_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "'Die Schere' bedeutet 'Makas'.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Die Schere = Makas."
+        },
+        {
+          "id": "q_alm2_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'Wie spät ist es?' sorusu neyi öğrenmek için sorulur?",
+          "choices": [
+            "Saatin kaç olduğunu",
+            "Havanın nasıl olduğunu",
+            "Kişinin yaşını",
+            "Fiyatı"
+          ],
+          "correctAnswer": "Saatin kaç olduğunu",
+          "explanation": "'Wie spät ist es?' = Saat kaç?"
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L70",
+      "sourceSection": "Modul 2 & 3: Schulsachen",
+      "fingerprint": "044fe75d3cedcf98",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "lesson_biyo9_siniflandirma_ve_biyocesitlilik",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_siniflandirma_ve_biyocesitlilik",
+  "title": "Canlılar Dünyası ve Biyoçeşitlilik (BİY.9.2.3 - BİY.9.2.5)",
+  "orderKey": 4000,
+  "items": [
+    "item_biyo9_vid_siniflandirma",
+    "item_biyo9_quiz_siniflandirma"
+  ]
+}

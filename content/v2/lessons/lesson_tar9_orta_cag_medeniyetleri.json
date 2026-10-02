@@ -1,0 +1,12 @@
+{
+  "id": "lesson_tar9_orta_cag_medeniyetleri",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_orta_cag_medeniyetleri",
+  "title": "Orta Çağ Medeniyetleri ve Ticaret Yolları (TAR.9.3.1 - TAR.9.3.4)",
+  "orderKey": 4000,
+  "items": [
+    "item_tar9_vid_orta_cag_gocler_devletler",
+    "item_tar9_vid_orta_cag_ticaret_yollari",
+    "item_tar9_quiz_orta_cag"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "item_fiz9_vid_fizik_giris",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+  "stableKey": "fiz9_vid_fizik_giris",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Fizik Bilimine Giriş (Temel Prensipler)",
+  "contentUrl": "https://www.youtube.com/watch?v=sO7N-V4T_YI",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_fizik_video_rehberi.md#L18",
+      "sourceSection": "1. Hafta: Fizik Bilimi ve Alt Dalları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "209e14527f3f8255"
+    }
+  }
+}

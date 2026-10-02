@@ -1,0 +1,22 @@
+{
+  "id": "item_fiz9_vid_kaldirma_kuvveti",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+  "stableKey": "fiz9_vid_kaldirma_kuvveti",
+  "itemType": "VIDEO",
+  "displayLabel": "3.2",
+  "orderKey": 2000,
+  "title": "Sıvıların Kaldırma Kuvveti ve Bernoulli İlkesi",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L110",
+      "sourceSection": "Kaldırma Kuvveti ve Bernoulli",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "f597e4070d0f7987"
+    }
+  }
+}

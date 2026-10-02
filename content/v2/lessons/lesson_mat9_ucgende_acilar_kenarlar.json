@@ -1,0 +1,12 @@
+{
+  "id": "lesson_mat9_ucgende_acilar_kenarlar",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_ucgende_acilar_kenarlar",
+  "title": "Geometrik Şekiller: Üçgende Açı ve Kenar Özellikleri (MAT.9.2.1)",
+  "orderKey": 4000,
+  "items": [
+    "item_mat9_vid_ucgende_aci",
+    "item_mat9_vid_ucgen_esitsizligi",
+    "item_mat9_quiz_ucgende_aci_kenar"
+  ]
+}

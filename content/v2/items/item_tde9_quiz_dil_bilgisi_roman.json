@@ -1,0 +1,70 @@
+{
+  "id": "item_tde9_quiz_dil_bilgisi_roman",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_dilin_yapisi_ve_roman",
+  "stableKey": "tde9_quiz_dil_bilgisi_roman",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "Roman ve Sözcük Türleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Roman ve Sözcük Türleri Testi",
+      "questions": [
+        {
+          "id": "q_tde3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'Kırmızı elmalar sepette duruyordu.' cümlesinde 'kırmızı' sözcüğünün türü nedir?",
+          "choices": [
+            "Niteleme Sıfatı",
+            "Belirtme Sıfatı",
+            "İsim",
+            "Zarf"
+          ],
+          "correctAnswer": "Niteleme Sıfatı",
+          "explanation": "İsmin rengini, durumunu veya biçimini bildiren sözcükler niteleme sıfatıdır."
+        },
+        {
+          "id": "q_tde3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Dünya edebiyatında ilk modern roman Cervantes'in 'Don Kişot' adlı eseridir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Don Kişot ilk modern roman kabul edilir."
+        },
+        {
+          "id": "q_tde3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İsmin yerini tutan sözcüklere ne ad verilir?",
+          "choices": [
+            "Zamir (Adıl)",
+            "Zarf (Belirteç)",
+            "Edat (İlgeç)",
+            "Bağlaç"
+          ],
+          "correctAnswer": "Zamir (Adıl)",
+          "explanation": "İsmin yerini tutan sözcükler zamirdir (ben, sen, o, bu, şu vb.)."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L110",
+      "sourceSection": "Roman ve Dil Bilgisi",
+      "fingerprint": "dde2950b5693c3c5",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

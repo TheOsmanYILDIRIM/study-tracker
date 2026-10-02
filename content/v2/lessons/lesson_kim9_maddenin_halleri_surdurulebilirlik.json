@@ -1,0 +1,12 @@
+{
+  "id": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "title": "Maddenin Halleri ve Yeşil Kimya (KİM.9.2.4 - KİM.9.3.1)",
+  "orderKey": 4000,
+  "items": [
+    "item_kim9_vid_katilar_ve_sivilar",
+    "item_kim9_vid_yesil_kimya",
+    "item_kim9_quiz_maddenin_halleri"
+  ]
+}

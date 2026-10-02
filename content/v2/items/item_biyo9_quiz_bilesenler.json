@@ -1,0 +1,70 @@
+{
+  "id": "item_biyo9_quiz_bilesenler",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "stableKey": "biyo9_quiz_bilesenler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 4000,
+  "title": "Canlıların Temel Bileşenleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Canlıların Temel Bileşenleri Testi",
+      "questions": [
+        {
+          "id": "q_bio2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Proteinlerin yapıtaşları olan amino asitler arasındaki bağ türü hangisidir?",
+          "choices": [
+            "Glikozit Bağı",
+            "Ester Bağı",
+            "Peptit Bağı",
+            "Fosfodiester Bağı"
+          ],
+          "correctAnswer": "Peptit Bağı",
+          "explanation": "Amino asitlerin karboksil ve amino grupları arasında peptit bağı kurulur."
+        },
+        {
+          "id": "q_bio2_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Enzimler kimyasal reaksiyonların aktivasyon enerjisini düşürerek tepkimeyi hızlandırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Enzimler biyolojik katalizörlerdir ve aktivasyon enerjisini düşürür."
+        },
+        {
+          "id": "q_bio2_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hayvansal hücrelerde depo edilen polisakkarit türü hangisidir?",
+          "choices": [
+            "Nişasta",
+            "Selüloz",
+            "Glikojen",
+            "Kitin"
+          ],
+          "correctAnswer": "Glikojen",
+          "explanation": "Glikojen hayvan, mantar ve bakterilerde glikozun depo formudur."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L65",
+      "sourceSection": "Canlıların Temel Bileşenleri",
+      "fingerprint": "779d7faa5f53aee7",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

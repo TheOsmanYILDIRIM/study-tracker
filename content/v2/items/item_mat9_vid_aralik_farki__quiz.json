@@ -1,0 +1,87 @@
+{
+  "id": "item_mat9_vid_aralik_farki__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+  "stableKey": "mat9_quiz_aralik_farki_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Aralık Farkı ve Eşitsizlik Problemleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Aralık Farkı ve Eşitsizlik Problemleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_fark_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "A = [-3, 5] ve B = [1, 8) aralıkları verildiğinde A \\ B (A fark B) aralığı aşağıdakilerden hangisidir?",
+          "choices": [
+            "[-3, 1)",
+            "[-3, 1]",
+            "(1, 5]",
+            "[-3, 8)"
+          ],
+          "correctAnswer": "[-3, 1)",
+          "explanation": "1 elemanı B kümesinde bulunduğu için A fark B kümesinden çıkarılır ve 1 noktasında açık parantez oluşur: [-3, 1)."
+        },
+        {
+          "id": "q_mat9_fark_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "A = (2, 6) ve B = [4, 7] ise A ∩ B (A kesişim B) kümesi [4, 6) yarı açık aralığıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Her iki kümede de bulunan ortak bölge 4 (dahil) ile 6 (dahil değil) arasıdır, yani [4, 6)."
+        },
+        {
+          "id": "q_mat9_fark_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "A = [-2, 7] ve B = (3, 10] aralıkları için A ∪ B (A birleşim B) kümesi hangisidir?",
+          "choices": [
+            "[-2, 10]",
+            "[-2, 3]",
+            "(3, 7]",
+            "(-2, 10)"
+          ],
+          "correctAnswer": "[-2, 10]",
+          "explanation": "Birleşim kümesi her iki aralığın kapladığı en geniş aralık olup [-2, 10] kapalı aralığıdır."
+        },
+        {
+          "id": "q_mat9_fark_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "A = [0, 4] ve B = (2, 5] verildiğinde B \\ A (B fark A) aralığı nedir?",
+          "choices": [
+            "(4, 5]",
+            "[4, 5]",
+            "(2, 4)",
+            "[0, 2]"
+          ],
+          "correctAnswer": "(4, 5]",
+          "explanation": "4 elemanı A kümesinde olduğu için B'den 4 ve öncesi atılır, geriye (4, 5] kalır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_aralik_farki",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "86848e26a7a2a378",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "v2",
+  "generatedAt": "2026-10-02T09:00:00.000Z",
+  "gradeLevel": 9,
+  "academicYear": "2026-2027",
+  "targetCurriculum": "Türkiye Yüzyılı Maarif Modeli (9. Sınıf / Lise 1)",
+  "courses": [
+    "course_mat_9",
+    "course_fiz_9",
+    "course_kim_9",
+    "course_biyo_9",
+    "course_tar_9",
+    "course_cog_9",
+    "course_ing_9",
+    "course_alm_9",
+    "course_tde_9"
+  ]
+}

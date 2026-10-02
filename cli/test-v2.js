@@ -5,6 +5,7 @@
 
 const http = require('http');
 const path = require('path');
+const fs = require('fs');
 const assert = require('assert');
 const v2Api = require('./lib/v2-api');
 const { handleV2Command } = require('./lib/v2-cli');
@@ -442,10 +443,10 @@ async function runCliTests() {
     assert.strictEqual(validation.valid, true, 'Seed manifest must be structurally valid');
     assert.strictEqual(validation.stats.courseCount, 9, 'Must have 9 courses');
     assert.strictEqual(validation.stats.lessonCount, 35, 'Must have 35 lessons');
-    assert.strictEqual(validation.stats.itemCount, 114, 'Must have 114 items');
+    assert.strictEqual(validation.stats.itemCount, 121, 'Must have 121 items');
     assert.strictEqual(validation.stats.videoCount, 74, 'Must have 74 video items');
     assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
-    assert.strictEqual(validation.stats.quizCount, 35, 'Must have 35 deterministic quiz items');
+    assert.strictEqual(validation.stats.quizCount, 42, 'Must have 42 deterministic quiz items (35 lesson quizzes + 7 micro-quizzes)');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings.`);
 
     // Test 8: Canonical History Teacher & Stale Warning / Active Error
@@ -782,7 +783,102 @@ async function runCliTests() {
     assert(invalidHistoryRes.errors.some(e => e.includes('Mehmet Celal ÖZYILDIZ')), 'Error must explicitly name canonical teacher');
     console.log('   ✅ History canonical teacher rule strictly enforced.');
 
-    console.log('\n🎉 ALL V2 CLI & PHASE 4 TESTS PASSED SUCCESSFULLY!');
+    // === MODULAR ARCHITECTURE & MICRO-QUIZ TESTS ===
+    const { validateModularTree, compileModularCatalog, saveCompiledCatalog, decomposeCatalog } = require('./lib/v2-modular');
+
+    // Test 23: Modular Source Tree Validation
+    console.log('2️⃣3️⃣ Testing Modular Content Source Tree Validation (content/v2)...');
+    const modularVal = validateModularTree(path.resolve(__dirname, '../content/v2'));
+    assert.strictEqual(modularVal.valid, true, 'Modular content tree must be valid');
+    assert.strictEqual(modularVal.stats.courseCount, 9, 'Must have 9 modular courses');
+    assert.strictEqual(modularVal.stats.lessonCount, 35, 'Must have 35 modular lessons');
+    assert.strictEqual(modularVal.stats.itemCount, 121, 'Must have 121 modular items');
+    assert.strictEqual(modularVal.stats.microQuizCount, 7, 'Must have 7 transcript-grounded micro-quizzes');
+    console.log('   ✅ Modular content source tree validation verified (9 courses, 35 lessons, 121 items, 7 micro-quizzes).');
+
+    // Test 24: Modular Compilation & Deterministic Round-Trip
+    console.log('2️⃣4️⃣ Testing Modular Compiler & Deterministic Artifact Consistency...');
+    const compiledModular = compileModularCatalog(path.resolve(__dirname, '../content/v2'));
+    const diskCatalog = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../content/9-sinif-v2-catalog.json'), 'utf8'));
+    assert.strictEqual(JSON.stringify(compiledModular), JSON.stringify(diskCatalog), 'Compiled catalog from content/v2 must match 9-sinif-v2-catalog.json exactly');
+    console.log('   ✅ Modular compiler produces 100% deterministic, byte-stable catalog artifact.');
+
+    // Test 25: Modular Validation Safety Guards (Dangling refs, wrong parents, duplicate IDs)
+    console.log('2️⃣5️⃣ Testing Modular Validation Safety Guards...');
+    const tempTestV2Dir = path.resolve(__dirname, '../.cache/test_v2_tree');
+    if (fs.existsSync(tempTestV2Dir)) fs.rmSync(tempTestV2Dir, { recursive: true, force: true });
+    decomposeCatalog(diskCatalog, tempTestV2Dir);
+
+    // Test 25a: Dangling item ref
+    const sampleLessonPath = path.join(tempTestV2Dir, 'lessons/lesson_mat9_sayilar_uslu_koklu.json');
+    const sampleLesson = JSON.parse(fs.readFileSync(sampleLessonPath, 'utf8'));
+    sampleLesson.items.push('item_non_existent_dangling_123');
+    fs.writeFileSync(sampleLessonPath, JSON.stringify(sampleLesson, null, 2), 'utf8');
+    const danglingVal = validateModularTree(tempTestV2Dir);
+    assert.strictEqual(danglingVal.valid, false, 'Dangling item ref must fail validation');
+    assert(danglingVal.errors.some(e => e.includes('Dangling item ref')), 'Error message must specify dangling item ref');
+
+    // Test 25b: Wrong parent ref
+    sampleLesson.items = sampleLesson.items.filter(i => i !== 'item_non_existent_dangling_123');
+    fs.writeFileSync(sampleLessonPath, JSON.stringify(sampleLesson, null, 2), 'utf8');
+    const sampleItemPath = path.join(tempTestV2Dir, 'items/item_mat9_vid_uslu_giris.json');
+    const sampleItem = JSON.parse(fs.readFileSync(sampleItemPath, 'utf8'));
+    sampleItem.lessonId = 'wrong_lesson_parent_id';
+    fs.writeFileSync(sampleItemPath, JSON.stringify(sampleItem, null, 2), 'utf8');
+    const wrongParentVal = validateModularTree(tempTestV2Dir);
+    assert.strictEqual(wrongParentVal.valid, false, 'Wrong parent ref must fail validation');
+    assert(wrongParentVal.errors.some(e => e.includes('Wrong parent ref')), 'Error message must specify wrong parent ref');
+
+    // Clean up temporary tree
+    fs.rmSync(tempTestV2Dir, { recursive: true, force: true });
+    console.log('   ✅ Modular safety guards (dangling refs, wrong parent refs) verified.');
+
+    // Test 26: Micro-Quiz Metadata & Provenance Verification
+    console.log('2️⃣6️⃣ Testing Transcript-Grounded Micro-Quiz Provenance & Schema...');
+    const microQuizIds = [
+      'item_mat9_vid_araliklar_gosterim__quiz',
+      'item_mat9_vid_aralik_farki__quiz',
+      'item_tar9_vid_birey_toplum__quiz',
+      'item_tar9_vid_olay_olgu__quiz',
+      'item_tar9_vid_kaynak_turleri__quiz',
+      'item_tar9_vid_yardimci_bilimler__quiz',
+      'item_tde9_vid_soz_sanatlari__quiz'
+    ];
+
+    let totalMicroQuestions = 0;
+    for (const qId of microQuizIds) {
+      const qItemFile = path.resolve(__dirname, `../content/v2/items/${qId}.json`);
+      assert(fs.existsSync(qItemFile), `Micro-quiz file must exist: ${qId}.json`);
+      const qItem = JSON.parse(fs.readFileSync(qItemFile, 'utf8'));
+
+      assert.strictEqual(qItem.itemType, 'QUIZ', 'Micro-quiz must have itemType QUIZ');
+      assert.strictEqual(qItem.publishingStatus, 'active', 'Micro-quiz must be active');
+      assert(qItem.payload?.quiz?.questions?.length >= 3, 'Micro-quiz must have at least 3 questions');
+      totalMicroQuestions += qItem.payload.quiz.questions.length;
+
+      const prov = qItem.payload?.provenance;
+      assert(prov, 'Micro-quiz must have provenance');
+      assert(prov.derivedFromItemId, 'Must have derivedFromItemId');
+      assert(prov.sourceVideoUrl, 'Must have sourceVideoUrl');
+      assert.strictEqual(prov.transcriptLanguage, 'tr', 'Transcript language must be tr');
+      assert(prov.transcriptFingerprint, 'Must have transcriptFingerprint');
+      assert.strictEqual(prov.generatedBy, 'gemini', 'Generated by must be gemini');
+      assert.strictEqual(prov.reviewStatus, 'verified', 'Review status must be verified');
+
+      // Check each question structure
+      qItem.payload.quiz.questions.forEach(q => {
+        assert(q.id, 'Question must have id');
+        assert(q.prompt && q.prompt.trim().length > 0, 'Question must have non-empty prompt');
+        assert(['MULTIPLE_CHOICE', 'TRUE_FALSE'].includes(q.type), 'Question type must be MULTIPLE_CHOICE or TRUE_FALSE');
+        assert(Array.isArray(q.choices) && q.choices.length >= 2, 'Choices must be array with >= 2 options');
+        assert(q.choices.includes(q.correctAnswer), 'correctAnswer must exist in choices');
+        assert(q.explanation && q.explanation.trim().length > 0, 'Explanation must be present');
+      });
+    }
+    assert.strictEqual(totalMicroQuestions, 28, 'Must have exactly 28 transcript-grounded questions across 7 micro-quizzes');
+    console.log(`   ✅ Micro-quiz provenance & schema verified (7 quizzes, ${totalMicroQuestions} questions total).`);
+
+    console.log('\n🎉 ALL V2 CLI & PHASE 4/5 MODULAR TESTS PASSED SUCCESSFULLY!');
   } finally {
     mockServer.close();
   }

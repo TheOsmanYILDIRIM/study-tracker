@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_aralik_farki",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+  "stableKey": "mat9_vid_aralik_farki",
+  "itemType": "VIDEO",
+  "displayLabel": "2.2",
+  "orderKey": 2000,
+  "title": "Aralık Farkı ve Eşitsizlik Problemleri",
+  "contentUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+  "publishingStatus": "active",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/9_sinif_4_haftalik_studytracker_calisma_plani.md#L182",
+      "sourceSection": "4. Hafta: Bilim İnsanları, Periyodik Sistem ve 1. Ay Kapanışı",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "38986b05f958b3b9"
+    }
+  }
+}

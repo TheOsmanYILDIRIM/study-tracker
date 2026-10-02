@@ -26,3 +26,8 @@ app/release.keystore
 dist/
 worker/dist/
 
+# Cache and Transcripts
+.cache/
+content/v2/transcripts/*
+!content/v2/transcripts/.gitkeep
+

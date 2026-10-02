@@ -1,0 +1,14 @@
+{
+  "id": "course_biyo_9",
+  "title": "9. Sınıf Biyoloji",
+  "subject": "Biyoloji",
+  "gradeLevel": 9,
+  "orderKey": 4000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Biyoloji Müfredatı (Yaşam, Temel Bileşenler, Hücre ve Biyoçeşitlilik)",
+  "lessons": [
+    "lesson_biyo9_yasam",
+    "lesson_biyo9_canlilarin_temel_bilesenleri",
+    "lesson_biyo9_hucre_ve_madde_gecisleri",
+    "lesson_biyo9_siniflandirma_ve_biyocesitlilik"
+  ]
+}

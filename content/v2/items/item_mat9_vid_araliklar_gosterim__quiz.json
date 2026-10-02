@@ -1,0 +1,87 @@
+{
+  "id": "item_mat9_vid_araliklar_gosterim__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+  "stableKey": "mat9_quiz_araliklar_gosterim_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Gerçek Sayı Aralıkları & Gösterim Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Gerçek Sayı Aralıkları & Gösterim Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_araliklar_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sayı doğrusunda 3 ile 7 arasındaki gerçek sayılardan 3 dahil, 7 dahil değilse bu aralık küme ve parantez sembolleriyle nasıl gösterilir?",
+          "choices": [
+            "[3, 7)",
+            "(3, 7]",
+            "(3, 7)",
+            "[3, 7]"
+          ],
+          "correctAnswer": "[3, 7)",
+          "explanation": "Sayı doğrusunda dahil olan sınır köşeli parantez \"[\" ile, dahil olmayan sınır normal parantez \")\" ile gösterilir."
+        },
+        {
+          "id": "q_mat9_araliklar_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Gerçek sayılar kümesinde (-∞, 5] aralığı 5 ve 5'ten küçük tüm gerçek sayıları ifade eder.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Sonsuz eksi yönü (-∞ ve 5 dahil 5] gösterimi, 5 ve 5'ten küçük tüm gerçek sayıları kapsar."
+        },
+        {
+          "id": "q_mat9_araliklar_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(-2, 4] yarı açık aralığında bulunan TAM SAYILARIN toplamı kaçtır?",
+          "choices": [
+            "9",
+            "7",
+            "10",
+            "4"
+          ],
+          "correctAnswer": "9",
+          "explanation": "-2 açık olduğu için dahil edilmez, 4 kapalı olduğu için dahil edilir; tam sayılar {-1, 0, 1, 2, 3, 4} olup toplamları 9'dur."
+        },
+        {
+          "id": "q_mat9_araliklar_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sayı doğrusunda bir noktanın içinin boş bırakılması o noktanın aralığa dahil olduğunu mu yoksa olmadığını mı gösterir?",
+          "choices": [
+            "Aralığa dahil olmadığını (açık aralık)",
+            "Aralığa dahil olduğunu (kapalı aralık)",
+            "Yalnızca pozitif olduğunu",
+            "Sıfır noktası olduğunu"
+          ],
+          "correctAnswer": "Aralığa dahil olmadığını (açık aralık)",
+          "explanation": "Sayı doğrusunda içi boş çember noktanın aralığa dahil olmadığını, içi dolu çember ise dahil olduğunu belirtir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_araliklar_gosterim",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "d43ff753c7d5a6e2",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

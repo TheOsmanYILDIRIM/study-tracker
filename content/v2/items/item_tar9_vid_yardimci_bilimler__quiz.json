@@ -1,0 +1,87 @@
+{
+  "id": "item_tar9_vid_yardimci_bilimler__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_kaynaklar_takvimler",
+  "stableKey": "tar9_quiz_yardimci_bilimler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Tarihe Yardımcı Bilimler ve Takvimler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarihe Yardımcı Bilimler ve Takvimler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_yardimci_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eski paraları, sikkeleri ve madalyonları inceleyerek devletlerin ekonomik durumu ve hükümdarları hakkında bilgi veren yardımcı bilim dalı hangisidir?",
+          "choices": [
+            "Nümizmatik (Meskukat)",
+            "Paleografya",
+            "Epigrafi",
+            "Heraldik"
+          ],
+          "correctAnswer": "Nümizmatik (Meskukat)",
+          "explanation": "Nümizmatik para ve sikkeleri inceler; hükümdar ismi, devletin gücü ve ekonomik refahı hakkında doğrudan bilgi sunar."
+        },
+        {
+          "id": "q_tar9_yardimci_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türklerin tarih boyunca kullandığı takvimlerden hangisi \"Ay Yılı\" (354 gün) esasına dayanır?",
+          "choices": [
+            "Hicri Takvim",
+            "12 Hayvanlı Türk Takvimi",
+            "Celali Takvim",
+            "Miladi Takvim"
+          ],
+          "correctAnswer": "Hicri Takvim",
+          "explanation": "Türklerin İslamiyet'i kabulüyle kullanmaya başladığı Hicri takvim, ayın dünya etrafındaki dönüşünü (354 gün) esas alır."
+        },
+        {
+          "id": "q_tar9_yardimci_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kitabeleri, anıtlar üzerindeki yazıtları ve mezar taşlarını inceleyen bilim dalı Epigrafi'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Epigrafi (Yazıt Bilimi), taş ve metal kitabeler üzerindeki yazıları inceler; Orhun Abideleri bunun en somut örneğidir."
+        },
+        {
+          "id": "q_tar9_yardimci_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Büyük Selçuklu Sultanı Melikşah adına Ömer Hayyam başkanlığındaki heyet tarafından hazırlanan güneş yılı esaslı takvim hangisidir?",
+          "choices": [
+            "Celali Takvimi",
+            "Rumi Takvim",
+            "12 Hayvanlı Türk Takvimi",
+            "Hicri Takvim"
+          ],
+          "correctAnswer": "Celali Takvimi",
+          "explanation": "Celali Takvimi, Büyük Selçuklu Devleti'nde tarım ve mali işleri düzenlemek için Sultan Celaleddin Melikşah adına hazırlanmıştır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_yardimci_bilimler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "53825f72d2e3bf29",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_sayi_kumeleri",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+  "stableKey": "mat9_quiz_sayi_kumeleri",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Sayı Kümeleri ve İspat Yöntemleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sayı Kümeleri ve İspat Yöntemleri Testi",
+      "questions": [
+        {
+          "id": "q_mat3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki sayılardan hangisi bir irrasyonel (ℚ') sayıdır?",
+          "choices": [
+            "-5",
+            "2/7",
+            "√7",
+            "0,333..."
+          ],
+          "correctAnswer": "√7",
+          "explanation": "√7 sayısı rasyonel bir kesir a/b olarak yazılamayan irrasyonel bir sayıdır."
+        },
+        {
+          "id": "q_mat3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "İki tek sayının toplamı daima çift sayıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "(2n+1) + (2k+1) = 2(n+k+1) olup daima 2'nin tam katıdır (çift)."
+        },
+        {
+          "id": "q_mat3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Gerçek sayılarda çarpma işleminin toplama işlemi üzerine dağılma özelliği hangisidir?",
+          "choices": [
+            "a · (b + c) = a · b + a · c",
+            "a · b = b · a",
+            "(a · b) · c = a · (b · c)",
+            "a + 0 = a"
+          ],
+          "correctAnswer": "a · (b + c) = a · b + a · c",
+          "explanation": "Çarpmanın toplama üzerine sol dağılma özelliğidir."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L70",
+      "sourceSection": "5-6. Hafta: Sayı Kümeleri",
+      "fingerprint": "18de800d4d591dc3",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

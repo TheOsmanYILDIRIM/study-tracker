@@ -1,0 +1,23 @@
+{
+  "id": "item_alm9_vid_kendini_tanitma",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_vid_kendini_tanitma",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "AlmancaKolay",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L30",
+      "sourceSection": "2. Hafta: Kendini Tanıtma ve Hal-Hatır",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "ff41a131eaf524d1"
+    }
+  }
+}

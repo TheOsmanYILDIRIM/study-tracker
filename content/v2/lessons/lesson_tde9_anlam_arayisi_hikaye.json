@@ -1,0 +1,11 @@
+{
+  "id": "lesson_tde9_anlam_arayisi_hikaye",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_anlam_arayisi_hikaye",
+  "title": "2. Tema: Anlam Arayışı (Hikâye, Anı ve İletişim)",
+  "orderKey": 2000,
+  "items": [
+    "item_tde9_vid_hikaye_turleri",
+    "item_tde9_quiz_hikaye_ve_anlam"
+  ]
+}

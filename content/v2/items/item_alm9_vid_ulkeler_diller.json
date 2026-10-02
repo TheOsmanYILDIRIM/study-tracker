@@ -1,0 +1,23 @@
+{
+  "id": "item_alm9_vid_ulkeler_diller",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_vid_ulkeler_diller",
+  "itemType": "VIDEO",
+  "displayLabel": "1.4",
+  "orderKey": 4000,
+  "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "AlmancaKolay",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L50",
+      "sourceSection": "4. Hafta: Ülkeler, Diller ve İkamet",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "c3f21f3eed9df052"
+    }
+  }
+}

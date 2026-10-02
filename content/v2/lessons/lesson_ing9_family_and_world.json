@@ -1,0 +1,12 @@
+{
+  "id": "lesson_ing9_family_and_world",
+  "courseId": "course_ing_9",
+  "stableKey": "lesson_ing9_family_and_world",
+  "title": "Theme 4 - 8: Family, Jobs, Nature & Future Predictions",
+  "orderKey": 3000,
+  "items": [
+    "item_ing9_vid_modals",
+    "item_ing9_vid_used_to",
+    "item_ing9_quiz_modals_future"
+  ]
+}

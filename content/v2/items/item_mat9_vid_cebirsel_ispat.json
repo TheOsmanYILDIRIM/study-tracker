@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_cebirsel_ispat",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+  "stableKey": "mat9_vid_cebirsel_ispat",
+  "itemType": "VIDEO",
+  "displayLabel": "3.2",
+  "orderKey": 2000,
+  "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L80",
+      "sourceSection": "6. Hafta: Cebirsel İfadeler ve İspat",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "5a4a81bbfad7b8d8"
+    }
+  }
+}

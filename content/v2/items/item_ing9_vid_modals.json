@@ -1,0 +1,23 @@
+{
+  "id": "item_ing9_vid_modals",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_family_and_world",
+  "stableKey": "ing9_vid_modals",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Modals: Can, Must, Have to Farkı ve Kullanımı",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Özer Kiraz",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L40",
+      "sourceSection": "3. Hafta: Yetenek ve Zorunluluk Kipleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "08dae6fa8fdeda08"
+    }
+  }
+}

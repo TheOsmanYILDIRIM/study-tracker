@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_sayi_kumeleri",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+  "stableKey": "mat9_vid_sayi_kumeleri",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Doğal, Tam, Rasyonel ve Gerçek Sayı Kümeleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L65",
+      "sourceSection": "5. Hafta: Sayı Kümeleri ve İşlem Özellikleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "cf54a6722d62f41c"
+    }
+  }
+}

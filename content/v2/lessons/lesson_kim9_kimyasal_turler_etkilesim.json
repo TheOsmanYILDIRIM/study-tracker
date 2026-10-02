@@ -1,0 +1,12 @@
+{
+  "id": "lesson_kim9_kimyasal_turler_etkilesim",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_kimyasal_turler_etkilesim",
+  "title": "Kimyasal Türler Arası Etkileşimler (KİM.9.2.1 - KİM.9.2.3)",
+  "orderKey": 3000,
+  "items": [
+    "item_kim9_vid_bag_turleri",
+    "item_kim9_vid_zayif_etkilesimler",
+    "item_kim9_quiz_baglar_etkilesim"
+  ]
+}

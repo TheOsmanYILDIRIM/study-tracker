@@ -1,0 +1,11 @@
+{
+  "id": "lesson_mat9_istatistik_veri_dagilimi",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_istatistik_veri_dagilimi",
+  "title": "İstatistiksel Araştırma Süreci ve Veri Dağılımları (MAT.9.4.1)",
+  "orderKey": 7000,
+  "items": [
+    "item_mat9_vid_veri_dagilimlari",
+    "item_mat9_quiz_istatistik"
+  ]
+}

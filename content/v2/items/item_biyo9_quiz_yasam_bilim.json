@@ -1,0 +1,70 @@
+{
+  "id": "item_biyo9_quiz_yasam_bilim",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_yasam",
+  "stableKey": "biyo9_quiz_yasam_bilim",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 5000,
+  "title": "Bilimsel Yöntem ve Yaşamın Doğası Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bilimsel Yöntem ve Yaşamın Doğası Testi",
+      "questions": [
+        {
+          "id": "q_bio1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bilimsel yöntemde gözlemler ve verilere dayalı olarak kurulan geçici çözüm yoluna ne denir?",
+          "choices": [
+            "Hipotez",
+            "Teori",
+            "Kanun (Yasa)",
+            "Teorem"
+          ],
+          "correctAnswer": "Hipotez",
+          "explanation": "Hipotez probleme sunulan test edilebilir geçici açıklama ve çözüm yoludur."
+        },
+        {
+          "id": "q_bio1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Canlıların iç ortamlarını değişen çevre koşullarına rağmen dengede tutmasına Homeostazi denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Homeostazi vücut sıcaklığı, pH ve su dengesi gibi iç dengelerin korunmasıdır."
+        },
+        {
+          "id": "q_bio1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kontrollü bir deneyde araştırmacının bizzat değiştirdiği değişkene ne ad verilir?",
+          "choices": [
+            "Bağımsız Değişken",
+            "Bağımlı Değişken",
+            "Sabit Değişken",
+            "Kontrol Grubu"
+          ],
+          "correctAnswer": "Bağımsız Değişken",
+          "explanation": "Araştırmacının değiştirdiği etken bağımsız değişkendir; buna bağlı değişen sonuç ise bağımlı değişkendir."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L20",
+      "sourceSection": "Yaşam Teması ve Bilimsel Yöntem",
+      "fingerprint": "461aabc187053e1a",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

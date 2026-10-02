@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_ucgende_aci",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_ucgende_acilar_kenarlar",
+  "stableKey": "mat9_vid_ucgende_aci",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Üçgende İç ve Dış Açı Bağıntıları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L110",
+      "sourceSection": "Üçgende Açı ve Kenar Özellikleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "d08333380962e2da"
+    }
+  }
+}

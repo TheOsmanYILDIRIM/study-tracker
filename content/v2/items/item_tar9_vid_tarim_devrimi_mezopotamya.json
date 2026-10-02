@@ -1,0 +1,23 @@
+{
+  "id": "item_tar9_vid_tarim_devrimi_mezopotamya",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+  "stableKey": "tar9_vid_tarim_devrimi_mezopotamya",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L80",
+      "sourceSection": "Eski Çağ Medeniyetleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "aeab39970dddc1bb"
+    }
+  }
+}

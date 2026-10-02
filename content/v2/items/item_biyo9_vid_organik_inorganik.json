@@ -1,0 +1,22 @@
+{
+  "id": "item_biyo9_vid_organik_inorganik",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "stableKey": "biyo9_vid_organik_inorganik",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "İnorganik ve Organik Bileşikler: Karbonhidratlar, Yağlar ve Proteinler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L45",
+      "sourceSection": "Organik ve İnorganik Moleküller",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "98f11f3895cb8b34"
+    }
+  }
+}

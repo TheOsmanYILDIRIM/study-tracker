@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_guvenlik_sembolleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+  "stableKey": "kim9_vid_guvenlik_sembolleri",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L25",
+      "sourceSection": "2. Hafta (Kitap: Güvenlik)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "9083b0011b7c547a"
+    }
+  }
+}

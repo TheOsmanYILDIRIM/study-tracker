@@ -1,0 +1,14 @@
+{
+  "id": "lesson_biyo9_yasam",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_yasam",
+  "title": "Yaşam Teması ve Bilimin Doğası (BİY.9.1.1 - BİY.9.1.2)",
+  "orderKey": 1000,
+  "items": [
+    "item_biyo9_vid_yasam_nedir",
+    "item_biyo9_vid_bilim_nedir",
+    "item_biyo9_vid_kontrollu_deney",
+    "item_biyo9_vid_teori_yasa",
+    "item_biyo9_quiz_yasam_bilim"
+  ]
+}

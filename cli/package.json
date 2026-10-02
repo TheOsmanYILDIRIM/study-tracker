@@ -8,7 +8,10 @@
     "study-cli": "./bin/studytracker-cli.js"
   },
   "scripts": {
-    "test": "node test-revision.js"
+    "test": "node test-revision.js && node test-v2.js",
+    "test:revision": "node test-revision.js",
+    "test:v2": "node test-v2.js",
+    "compile:v2": "node ../scripts/compile-v2-catalog.cjs"
   },
   "keywords": [
     "studytracker",

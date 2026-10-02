@@ -1,0 +1,70 @@
+{
+  "id": "item_alm9_quiz_hallo_person",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_quiz_hallo_person",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 6000,
+  "title": "Hallo & Persönliche Angaben Test",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hallo & Persönliche Angaben Test",
+      "questions": [
+        {
+          "id": "q_alm1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Wie antwortet man auf die Frage: 'Wie heißt du?'",
+          "choices": [
+            "Ich heiße Ali.",
+            "Ich komme aus Deutschland.",
+            "Ich bin 15 Jahre alt.",
+            "Mir geht es gut."
+          ],
+          "correctAnswer": "Ich heiße Ali.",
+          "explanation": "'Wie heißt du?' sorusuna 'Ich heiße...' ile yanıt verilir."
+        },
+        {
+          "id": "q_alm1_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Welche Zahl ist 'fünfzehn'?",
+          "choices": [
+            "5",
+            "15",
+            "50",
+            "12"
+          ],
+          "correctAnswer": "15",
+          "explanation": "fünf (5) + zehn (10) = fünfzehn (15)."
+        },
+        {
+          "id": "q_alm1_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "'Tschüss!' bedeutet auf Türkisch 'Görüşmek üzere / Hoşça kal!'.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "'Tschüss' Almanca samimi bir vedalaşma ifadesidir."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L20",
+      "sourceSection": "Modul 1: Hallo!",
+      "fingerprint": "71b0641c032b5b4a",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

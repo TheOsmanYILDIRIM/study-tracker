@@ -1,0 +1,70 @@
+{
+  "id": "item_kim9_quiz_kimya_guvenlik",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+  "stableKey": "kim9_quiz_kimya_guvenlik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Kimya Bilimi ve Laboratuvar Güvenliği Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kimya Bilimi ve Laboratuvar Güvenliği Testi",
+      "questions": [
+        {
+          "id": "q_kim1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Karbon temelli bileşiklerin yapı ve özelliklerini inceleyen kimya alt disiplini hangisidir?",
+          "choices": [
+            "Organik Kimya",
+            "Anorganik Kimya",
+            "Analitik Kimya",
+            "Fizikokimya"
+          ],
+          "correctAnswer": "Organik Kimya",
+          "explanation": "Organik kimya karbon bileşiklerini inceler."
+        },
+        {
+          "id": "q_kim1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Alev sembolü içeren kimyasal güvenlik piktogramı maddenin 'Yanıcı' olduğunu belirtir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Alev sembolü kolay tutuşabilen ve alev alabilen yanıcı maddeleri temsil eder."
+        },
+        {
+          "id": "q_kim1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir numunenin içindeki maddelerin cinsini ve miktarını belirleyen kimya alt dalı hangisidir?",
+          "choices": [
+            "Biyokimya",
+            "Analitik Kimya",
+            "Polimer Kimyası",
+            "Endüstriyel Kimya"
+          ],
+          "correctAnswer": "Analitik Kimya",
+          "explanation": "Nitel (kalitatif) ve nicel (kantitatif) analiz Analitik Kimyanın alanıdır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L20",
+      "sourceSection": "Kimya Bilimi ve Güvenlik",
+      "fingerprint": "907fa86dc6b6d8c8",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

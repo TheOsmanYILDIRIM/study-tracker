@@ -1,0 +1,23 @@
+{
+  "id": "item_alm9_vid_schulsachen_artikel",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_schule_und_alltag",
+  "stableKey": "item_alm9_vid_schulsachen_artikel",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "AlmancaKolay",
+    "provenance": {
+      "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L60",
+      "sourceSection": "Meine Schulsachen",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "4cca94e386ebe6bd"
+    }
+  }
+}

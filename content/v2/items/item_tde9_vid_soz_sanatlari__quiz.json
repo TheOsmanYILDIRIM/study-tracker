@@ -1,0 +1,87 @@
+{
+  "id": "item_tde9_vid_soz_sanatlari__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_metin_ve_anlam",
+  "stableKey": "tde9_quiz_soz_sanatlari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Malzemesi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Edebiyatın Güzel Sanatlarla İlişkisi ve Malzemesi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_malzeme_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Edebiyatı müzik, resim ve heykel gibi diğer güzel sanat dallarından ayıran en temel fark nedir?",
+          "choices": [
+            "Kullandığı malzemenin dil (sözcükler) olması",
+            "İnsanda estetik zevk uyandırmayı amaçlaması",
+            "Duygu ve düşüncelerden beslenmesi",
+            "Kendi içinde içsel bir uyum taşıması"
+          ],
+          "correctAnswer": "Kullandığı malzemenin dil (sözcükler) olması",
+          "explanation": "Tüm güzel sanatlar estetik amaç taşır; ancak edebiyatın ana malzemesi dildir (sözcükler), resmin boya, heykelin mermer/taş, müziğin sestir."
+        },
+        {
+          "id": "q_tde9_malzeme_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Edebiyat; insanın duygu, düşünce ve hayallerini sözün büyüsü veya yazının kalıcılığıyla estetik bir zevk uyandıracak şekilde ifade etme sanatıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Edebiyat, duygu ve düşüncelerin dille estetik biçimde aktarıldığı sözlü ve yazılı sanat dalıdır."
+        },
+        {
+          "id": "q_tde9_malzeme_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Güzel sanatlar ve edebiyatın ortak amacı aşağıdakilerden hangisidir?",
+          "choices": [
+            "İnsanda güzellik duygusu, estetik haz ve coşku uyandırmak",
+            "Bilimsel formülleri deneyle kanıtlamak",
+            "Topluma sadece somut maddi kazanç sağlamak",
+            "Tarihi belgeleri arşivlemek"
+          ],
+          "correctAnswer": "İnsanda güzellik duygusu, estetik haz ve coşku uyandırmak",
+          "explanation": "Tüm sanat dallarının temel gayesi insanda estetik bir algı, güzellik duygusu ve içsel bir heyecan yaratmaktır."
+        },
+        {
+          "id": "q_tde9_malzeme_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Müzik sanatında notaların uyumu, edebiyat sanatında neyin uyumuna karşılık gelir?",
+          "choices": [
+            "Sözcüklerin ve ahengin uyumuna",
+            "Fırça darbelerinin renk tonuna",
+            "Mermere verilen kütlesel şekle",
+            "Sahne ışıklarının parlaklığına"
+          ],
+          "correctAnswer": "Sözcüklerin ve ahengin uyumuna",
+          "explanation": "Müzikteki nota dizilimi gibi, edebiyatta da sözcüklerin ve seslerin ritmik/ahenkli dizilimi edebi değeri ortaya çıkarır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_soz_sanatlari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "26358ad4bf4d3465",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

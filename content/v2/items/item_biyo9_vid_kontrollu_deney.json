@@ -1,0 +1,23 @@
+{
+  "id": "item_biyo9_vid_kontrollu_deney",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_yasam",
+  "stableKey": "biyo9_vid_kontrollu_deney",
+  "itemType": "VIDEO",
+  "displayLabel": "1.3",
+  "orderKey": 3000,
+  "title": "Kontrollü Deney Örnekleri",
+  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/controlled-experiments",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L16",
+      "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "f2d122a451808fa3"
+    }
+  }
+}

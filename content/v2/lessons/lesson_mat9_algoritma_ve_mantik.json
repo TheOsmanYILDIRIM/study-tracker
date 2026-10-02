@@ -1,0 +1,12 @@
+{
+  "id": "lesson_mat9_algoritma_ve_mantik",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_algoritma_ve_mantik",
+  "title": "Algoritma ve Mantık Bağlaçları (MAT.9.3.1 - MAT.9.3.2)",
+  "orderKey": 6000,
+  "items": [
+    "item_mat9_vid_algoritma_temelleri",
+    "item_mat9_vid_mantik_baglaclari",
+    "item_mat9_quiz_algoritma_mantik"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_benzerlik_teoremler",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+  "stableKey": "mat9_quiz_benzerlik_teoremler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 4000,
+  "title": "Eşlik, Benzerlik ve Teoremler Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eşlik, Benzerlik ve Teoremler Testi",
+      "questions": [
+        {
+          "id": "q_mat5_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir dik üçgende dik kenarlar 6 cm ve 8 cm ise hipotenüs uzunluğu kaç cm'dir?",
+          "choices": [
+            "9",
+            "10",
+            "12",
+            "14"
+          ],
+          "correctAnswer": "10",
+          "explanation": "Pisagor teoremine göre a² + b² = c² => 6² + 8² = 36 + 64 = 100 = 10²."
+        },
+        {
+          "id": "q_mat5_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Benzerlik oranı k = 2/3 olan iki üçgenin alanları oranı kaçtır?",
+          "choices": [
+            "2/3",
+            "4/9",
+            "8/27",
+            "√2/√3"
+          ],
+          "correctAnswer": "4/9",
+          "explanation": "Benzer üçgenlerin alanları oranı benzerlik oranının karesine eşittir: (2/3)² = 4/9."
+        },
+        {
+          "id": "q_mat5_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Eş iki üçgen aynı zamanda daima benzerdir ve benzerlik oranı 1'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Eşlik, benzerlik oranının k = 1 olduğu özel durumdur."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L185",
+      "sourceSection": "Eşlik ve Benzerlik Ünitesi",
+      "fingerprint": "d363f3ef65cd65fc",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

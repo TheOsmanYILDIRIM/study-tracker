@@ -1,0 +1,11 @@
+{
+  "id": "lesson_mat9_veriden_olasiliga",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_veriden_olasiliga",
+  "title": "Veriden Olasılığa: Deneysel ve Teorik Olasılık (MAT.9.5.1)",
+  "orderKey": 8000,
+  "items": [
+    "item_mat9_vid_olasilik_turleri",
+    "item_mat9_quiz_olasilik"
+  ]
+}

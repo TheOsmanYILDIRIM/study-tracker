@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_periyodik_ozellikler",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+  "stableKey": "kim9_vid_periyodik_ozellikler",
+  "itemType": "VIDEO",
+  "displayLabel": "2.2",
+  "orderKey": 2000,
+  "title": "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L55",
+      "sourceSection": "Periyodik Özellikler",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "6930cb3832e890be"
+    }
+  }
+}

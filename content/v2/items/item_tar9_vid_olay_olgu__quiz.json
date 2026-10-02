@@ -1,0 +1,87 @@
+{
+  "id": "item_tar9_vid_olay_olgu__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_gecmisin_insasi",
+  "stableKey": "tar9_quiz_olay_olgu_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.2-Q",
+  "orderKey": 2500,
+  "title": "Tarihin Doğası & Olay-Olgu Ayrımı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarihin Doğası & Olay-Olgu Ayrımı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_olay_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihte \"Olay\" (Vak'a) ile \"Olgu\" (Vakıa) arasındaki temel fark nedir?",
+          "choices": [
+            "Olay kısa süreli ve somuttur; olgu ise uzun süreli, süreçsel ve soyuttur",
+            "Olay sadece savaşları, olgu ise sadece barış antlaşmalarını kapsar",
+            "Olaylar belgesiz incelenir, olgular ise sadece arkeolojiye dayanır",
+            "Olaylar gelecekte gerçekleşir, olgular geçmişte kalmıştır"
+          ],
+          "correctAnswer": "Olay kısa süreli ve somuttur; olgu ise uzun süreli, süreçsel ve soyuttur",
+          "explanation": "Tarihi olay (örn. Malazgirt Savaşı) kısa sürede başlayıp biten somut gelişmedir; olgu (örn. Anadolu'nun Türkleşmesi) uzun bir süreçtir."
+        },
+        {
+          "id": "q_tar9_olay_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"1453 yılında İstanbul'un Fethi\" bir tarihi olay iken, \"İslamiyet'in yayılması\" bir tarihi olgudur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İstanbul'un Fethi belirli bir tarihte gerçekleşen olaydır; İslamiyet'in yayılması ise yüzyıllara yayılan bir olgudur."
+        },
+        {
+          "id": "q_tar9_olay_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi bir \"Tarihi Olgu\" örneğidir?",
+          "choices": [
+            "Anadolu'nun Türkleşmesi süreci",
+            "Malazgirt Meydan Muharebesi (1071)",
+            "Lozan Barış Antlaşması'nın imzalanması",
+            "Cumhuriyet'in İlanı (29 Ekim 1923)"
+          ],
+          "correctAnswer": "Anadolu'nun Türkleşmesi süreci",
+          "explanation": "Anadolu'nun Türkleşmesi uzun zamana yayılan, çok boyutlu ve genel bir süreç (olgu) niteliği taşır."
+        },
+        {
+          "id": "q_tar9_olay_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihi olaylar incelenirken neden-sonuç zincirinde dikkat edilmesi gereken en önemli kural nedir?",
+          "choices": [
+            "Bir olayın sonucunun, kendisinden sonraki olayın nedeni olabilmesi",
+            "Tüm olayların tek bir dini nedene bağlanması",
+            "Sonuçların nedenlerden önce gerçekleştiğinin varsayılması",
+            "Olayların sadece kazanan devletin gözüyle değerlendirilmesi"
+          ],
+          "correctAnswer": "Bir olayın sonucunun, kendisinden sonraki olayın nedeni olabilmesi",
+          "explanation": "Tarihsel determinizm ve süreklilik gereği, bir olayın sonucu sonraki gelişmelerin tetikleyicisi ve nedeni olur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_olay_olgu",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "a6c06e699d659fd4",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

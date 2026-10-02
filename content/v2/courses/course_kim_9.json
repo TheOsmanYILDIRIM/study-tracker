@@ -1,0 +1,14 @@
+{
+  "id": "course_kim_9",
+  "title": "9. Sınıf Kimya",
+  "subject": "Kimya",
+  "gradeLevel": 9,
+  "orderKey": 3000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Kimya Müfredatı (Kimya Bilimi, Atom, Etkileşimler ve Maddenin Halleri)",
+  "lessons": [
+    "lesson_kim9_kimya_bilimi_guvenlik",
+    "lesson_kim9_atom_ve_periyodik_sistem",
+    "lesson_kim9_kimyasal_turler_etkilesim",
+    "lesson_kim9_maddenin_halleri_surdurulebilirlik"
+  ]
+}

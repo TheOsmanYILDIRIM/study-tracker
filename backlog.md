@@ -251,6 +251,10 @@
 ## 57. StudyTracker V2 Staging Kanıtlanmış Workers + KV Dağıtım Akışına Uyarlama (TAMAMLANDI)
 - [x] **Staging Dağıtım Modülü Uyarlaması (`worker/deploy-staging.js`):** Token'ın kanıtlanmış Workers & KV yetkilerini temel alarak, D1 yetkisi olmadığında otomatik olarak KV Staging moduna geçiş yapan dayanıklı dağıtım akışı.
 - [x] **Yerel Entegrasyon & Test Doğrulaması:** Tüm V2 ve Staging testlerinin çalıştırılması ve yeşil yandığının teyidi.
-- [x] **CI & Dokümantasyon:** Dağıtım akışının ve kanıtların mühürlenmesi.
+## 58. StudyTracker V2 Modüler İçerik Mimarisi & Transkript Tabanlı Mikro Testler (TAMAMLANDI)
+- [x] **Modüler İçerik Mimarisi:** `content/v2/` dizini (catalog, courses, lessons, items) ve deterministik derleyici / doğrulayıcı (`cli/lib/v2-modular.js`, `scripts/compile-v2-catalog.cjs`).
+- [x] **Transkript Tabanlı Mikro Testler:** Aktif YouTube videolarının Türkçe altyazılarından `yt-dlp` ile çekilen metinlerden türetilmiş 7 mikro test (28 soru) ve tam kanıt/provenance meta verisi (`derivedFromItemId`, `transcriptFingerprint`, `transcriptLanguage`, `transcriptKind`, `reviewStatus`).
+- [x] **CLI & Doğrulama Entegrasyonu:** `v2-seed.js`, `v2-cli.js` (`studytracker-cli v2 modular validate|compile`) ve CLI testlerinin (Tests 1-26) %100 yeşil geçmesi.
+- [x] **AI Güvenli Düzenleme Dokümantasyonu:** `docs/v2-modular-content.md` dokümanı oluşturuldu.
 
 

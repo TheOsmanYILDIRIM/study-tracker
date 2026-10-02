@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_quiz_araliklar_kumeler",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+  "stableKey": "mat9_quiz_araliklar_kumeler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Gerçek Sayı Aralıkları ve Kümeler Tarama Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Gerçek Sayı Aralıkları ve Kümeler Tarama Testi",
+      "questions": [
+        {
+          "id": "q_mat2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "A = [-2, 5) ve B = (1, 8] aralıkları için A ∩ B kesişim kümesi nedir?",
+          "choices": [
+            "[-2, 8]",
+            "(1, 5)",
+            "[1, 5]",
+            "(-2, 8)"
+          ],
+          "correctAnswer": "(1, 5)",
+          "explanation": "Kesişim kümesinde sol sınır max(-2, 1) = 1 (açık), sağ sınır min(5, 8) = 5 (açık) olur: (1, 5)."
+        },
+        {
+          "id": "q_mat2_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Kapalı aralık [a, b] gösteriminde sınır değerleri olan a ve b elemanları kümeye dahildir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Köşeli parantez sınır noktasının aralığa dahil olduğunu ifade eder."
+        },
+        {
+          "id": "q_mat2_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "{x | x ∈ ℝ, -3 < x ≤ 4} kümesinin aralık gösterimi hangisidir?",
+          "choices": [
+            "[-3, 4)",
+            "(-3, 4]",
+            "[-3, 4]",
+            "(-3, 4)"
+          ],
+          "correctAnswer": "(-3, 4]",
+          "explanation": "-3 dahil değil (açık parantez), 4 dahil (köşeli parantez): (-3, 4]."
+        },
+        {
+          "id": "q_mat2_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "ℝ fark [2, ∞) kümesinin eşiti nedir?",
+          "choices": [
+            "(-∞, 2]",
+            "(-∞, 2)",
+            "(2, ∞)",
+            "[-∞, 2)"
+          ],
+          "correctAnswer": "(-∞, 2)",
+          "explanation": "Tüm reel sayılardan [2, ∞) çıkarıldığında 2'den küçük açık aralık (-∞, 2) kalır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L45",
+      "sourceSection": "3-4. Hafta: Sayı Aralıkları ve Kümeler",
+      "fingerprint": "2fefb39da31b382b",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

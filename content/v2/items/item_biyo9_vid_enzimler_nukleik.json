@@ -1,0 +1,22 @@
+{
+  "id": "item_biyo9_vid_enzimler_nukleik",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "stableKey": "biyo9_vid_enzimler_nukleik",
+  "itemType": "VIDEO",
+  "displayLabel": "2.2",
+  "orderKey": 2000,
+  "title": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L60",
+      "sourceSection": "Enzimler ve Nükleik Asitler",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "90fcf5e5109d9a94"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "course_mat_9",
+  "title": "9. Sınıf Matematik",
+  "subject": "Matematik",
+  "gradeLevel": 9,
+  "orderKey": 1000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Matematik Müfredatı (Sayılar, Geometri, Algoritma, İstatistik ve Olasılık)",
+  "lessons": [
+    "lesson_mat9_sayilar_uslu_koklu",
+    "lesson_mat9_sayilar_araliklar_kumeler",
+    "lesson_mat9_sayilar_islem_ozellikleri",
+    "lesson_mat9_ucgende_acilar_kenarlar",
+    "lesson_mat9_eslik_ve_benzerlik",
+    "lesson_mat9_algoritma_ve_mantik",
+    "lesson_mat9_istatistik_veri_dagilimi",
+    "lesson_mat9_veriden_olasiliga"
+  ]
+}

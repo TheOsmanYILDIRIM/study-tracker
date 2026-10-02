@@ -1,0 +1,23 @@
+{
+  "id": "item_ing9_vid_simple_present",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_vid_simple_present",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Simple Present vs Present Continuous (Geniş Zaman - Şimdiki Zaman Farkı)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Özer Kiraz",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L29",
+      "sourceSection": "2. Hafta: Geniş Zaman vs Şimdiki Zaman",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "b1ca43fc855c2981"
+    }
+  }
+}

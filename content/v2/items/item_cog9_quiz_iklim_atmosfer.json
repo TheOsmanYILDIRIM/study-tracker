@@ -1,0 +1,70 @@
+{
+  "id": "item_cog9_quiz_iklim_atmosfer",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+  "stableKey": "cog9_quiz_iklim_atmosfer",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Atmosfer ve İklim Elemanları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Atmosfer ve İklim Elemanları Testi",
+      "questions": [
+        {
+          "id": "q_cog2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tüm hava olaylarının (yağış, bulut, rüzgar) gerçekleştiği atmosfer katmanı hangisidir?",
+          "choices": [
+            "Troposfer",
+            "Stratosfer",
+            "Mezosfer",
+            "Termosfer"
+          ],
+          "correctAnswer": "Troposfer",
+          "explanation": "Su buharının tamamına yakını Troposfer katmanında bulunduğu için hava olayları sadece burada yaşanır."
+        },
+        {
+          "id": "q_cog2_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Rüzgârlar daima yüksek basınç alanından alçak basınç alanına doğru eser.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Rüzgar basınç farkından doğan yatay hava hareketidir (Yüksek Basınç -> Alçak Basınç)."
+        },
+        {
+          "id": "q_cog2_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Isınan havanın yükselerek soğuması sonucu oluşan yağış türüne ne ad verilir?",
+          "choices": [
+            "Konveksiyonel (Yükselim) Yağış",
+            "Orografik (Yamaç) Yağış",
+            "Cephesel Yağış",
+            "Siklonik Yağış"
+          ],
+          "correctAnswer": "Konveksiyonel (Yükselim) Yağış",
+          "explanation": "Ekvator ve İç Anadolu'da (kırkikindi) görülen ısınan havanın yükselmesiyle oluşan yağışlardır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L85",
+      "sourceSection": "İklim ve Hava Olayları",
+      "fingerprint": "08ae59ae76adea4f",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

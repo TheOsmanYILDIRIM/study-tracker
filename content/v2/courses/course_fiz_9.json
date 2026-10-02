@@ -1,0 +1,14 @@
+{
+  "id": "course_fiz_9",
+  "title": "9. Sınıf Fizik",
+  "subject": "Fizik",
+  "gradeLevel": 9,
+  "orderKey": 2000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Fizik Müfredatı (Fizik Bilimi, Kuvvet-Hareket, Akışkanlar ve Enerji)",
+  "lessons": [
+    "lesson_fiz9_fizik_bilimine_giris",
+    "lesson_fiz9_kuvvet_ve_hareket",
+    "lesson_fiz9_akiskanlar_ve_basinc",
+    "lesson_fiz9_enerji_isi_sicaklik"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "item_fiz9_quiz_vektor_hareket",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+  "stableKey": "fiz9_quiz_vektor_hareket",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Büyüklükler, Vektörler ve Hareket Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Büyüklükler, Vektörler ve Hareket Testi",
+      "questions": [
+        {
+          "id": "q_fiz2_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki niceliklerden hangisi vektörel bir büyüklüktür?",
+          "choices": [
+            "Kütle",
+            "Zaman",
+            "Hız",
+            "Sıcaklık"
+          ],
+          "correctAnswer": "Hız",
+          "explanation": "Hız (velocity) hem büyüklüğe hem de yöne sahip vektörel bir büyüklüktür; sürat, kütle, zaman ise skalerdir."
+        },
+        {
+          "id": "q_fiz2_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğadaki en güçlü fakat menzili en kısa olan temel kuvvet hangisidir?",
+          "choices": [
+            "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
+            "Kütle Çekim Kuvveti",
+            "Elektromanyetik Kuvvet",
+            "Zayıf Nükleer Kuvvet"
+          ],
+          "correctAnswer": "Güçlü Nükleer Kuvvet (Yeğin Kuvvet)",
+          "explanation": "Güçlü nükleer kuvvet atom çekirdeğinde proton ve nötronları bir arada tutan en şiddetli kuvvettir."
+        },
+        {
+          "id": "q_fiz2_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "SI birim sisteminde temel uzunluk birimi metredir (m).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "SI temel birimlerinde uzunluk 'metre' (m) olarak tanımlanır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L65",
+      "sourceSection": "Kuvvet ve Hareket Ünitesi",
+      "fingerprint": "4e5e91453b736f1b",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

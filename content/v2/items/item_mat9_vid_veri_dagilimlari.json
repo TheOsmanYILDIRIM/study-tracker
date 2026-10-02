@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_veri_dagilimlari",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_istatistik_veri_dagilimi",
+  "stableKey": "mat9_vid_veri_dagilimlari",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L250",
+      "sourceSection": "Tek Nicel Değişkenli Veri Dağılımları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "6e6b584afe394da8"
+    }
+  }
+}

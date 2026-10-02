@@ -1,0 +1,87 @@
+{
+  "id": "item_tar9_vid_birey_toplum__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_gecmisin_insasi",
+  "stableKey": "tar9_quiz_birey_toplum_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Tarih Öğrenmenin Bireye ve Topluma Faydaları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarih Öğrenmenin Bireye ve Topluma Faydaları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_birey_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih öğrenmenin bireye kazandırdığı en temel becerilerden biri olan \"tarihsel empati\" ne anlama gelir?",
+          "choices": [
+            "Geçmişteki olayları o dönemin şartlarını ve zihniyetini dikkate alarak değerlendirmek",
+            "Geçmişteki tüm savaşları günümüz ahlak kurallarıyla yargılamak",
+            "Tarihi olayları günümüzün teknolojik imkanlarıyla canlandırmak",
+            "Geçmişte yaşanan acıları unutarak geleceğe bakmak"
+          ],
+          "correctAnswer": "Geçmişteki olayları o dönemin şartlarını ve zihniyetini dikkate alarak değerlendirmek",
+          "explanation": "Tarihsel empati, geçmişte yaşamış insanların kararlarını dönemin koşulları, inançları ve imkanları çerçevesinde anlama becerisidir."
+        },
+        {
+          "id": "q_tar9_birey_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarih bilimi, toplumların ortak hafızasını ve milli kimlik bilincini güçlendirerek birlik ve beraberliğe katkı sağlar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Tarih bilimi toplumsal belleği oluşturur, ortak değer ve bilinç kazandırarak sosyal dayanışmayı artırır."
+        },
+        {
+          "id": "q_tar9_birey_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi tarihin araştırma alanına giren konulardan biri DEĞİLDİR?",
+          "choices": [
+            "Doğa olaylarının fiziksel ve kimyasal kanunlarını laboratuvarda ispatlamak",
+            "İnsan topluluklarının geçmişteki siyasi, kültürel ve ekonomik faaliyetleri",
+            "Geçmişte yaşanan antlaşmalar ve savaşların neden-sonuç ilişkisi",
+            "Uygarlıkların bıraktığı somut ve yazılı kültürel miras"
+          ],
+          "correctAnswer": "Doğa olaylarının fiziksel ve kimyasal kanunlarını laboratuvarda ispatlamak",
+          "explanation": "Tarih insan faaliyetlerini inceler; doğa kanunlarını laboratuvarda denemek pozitif doğa bilimlerinin (fizik, kimya) alanıdır."
+        },
+        {
+          "id": "q_tar9_birey_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih biliminin araştırma yönteminde pozitif bilimlerden (fizik, kimya) en temel farkı nedir?",
+          "choices": [
+            "Deney ve gözlem yapılamaması, olayların birebir tekrarlanamaz olması",
+            "Hiçbir kanıt ve belgeye ihtiyaç duymaması",
+            "Yalnızca geleceğe dair tahminlerde bulunması",
+            "Matematiksel formüllerle kesin hesaplar yapılması"
+          ],
+          "correctAnswer": "Deney ve gözlem yapılamaması, olayların birebir tekrarlanamaz olması",
+          "explanation": "Tarihi olaylar geçmişte yaşanıp bitmiştir; tekrarlanamaz ve laboratuvar ortamında deneyi yapılamaz."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_birey_toplum",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "auto",
+      "transcriptFingerprint": "a6c06e699d659fd4",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "item_fiz9_vid_hal_degisimi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+  "stableKey": "fiz9_vid_hal_degisimi",
+  "itemType": "VIDEO",
+  "displayLabel": "4.2",
+  "orderKey": 2000,
+  "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L160",
+      "sourceSection": "Hâl Değişimi ve Isıl Denge",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "026003d46f482694"
+    }
+  }
+}

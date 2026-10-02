@@ -1,0 +1,12 @@
+{
+  "id": "lesson_biyo9_hucre_ve_madde_gecisleri",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_hucre_ve_madde_gecisleri",
+  "title": "Hücre Yapısı, Organeller ve Madde Geçişleri (BİY.9.2.1 - BİY.9.2.2)",
+  "orderKey": 3000,
+  "items": [
+    "item_biyo9_vid_hucre_organeller",
+    "item_biyo9_vid_madde_gecisleri",
+    "item_biyo9_quiz_hucre_madde"
+  ]
+}

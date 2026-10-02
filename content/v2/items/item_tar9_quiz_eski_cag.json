@@ -1,0 +1,70 @@
+{
+  "id": "item_tar9_quiz_eski_cag",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_eski_cag",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Eski Çağ Medeniyetleri ve Hukuk Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eski Çağ Medeniyetleri ve Hukuk Testi",
+      "questions": [
+        {
+          "id": "q_tar3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihte ilk yazılı kanunları hazırlayan Sümer kralı kimdir?",
+          "choices": [
+            "Hammurabi",
+            "Urgakina",
+            "Sargon",
+            "Nabukadnezar"
+          ],
+          "correctAnswer": "Urgakina",
+          "explanation": "Tarihte bilinen ilk yazılı kanunlar MÖ 2375 civarında Sümer kralı Urgakina tarafından yapılmıştır."
+        },
+        {
+          "id": "q_tar3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarihte parayı ilk icat ederek ticarette takas usulüne son veren medeniyet Lidyalılar'dır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Lidyalılar MÖ 7. yüzyılda madeni parayı basmıştır."
+        },
+        {
+          "id": "q_tar3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İlk Çağ Türk topluluklarında ordu yapısını 'Onlu Sistem'e göre ilk kez teşkilatlandıran Türk hükümdarı kimdir?",
+          "choices": [
+            "Teoman",
+            "Mete Han",
+            "Bumin Kağan",
+            "İstemi Yabgu"
+          ],
+          "correctAnswer": "Mete Han",
+          "explanation": "Büyük Hun Hükümdarı Mete Han MÖ 209'da Onlu Sistemi kurmuştur."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L105",
+      "sourceSection": "Eski Çağ Medeniyetleri",
+      "fingerprint": "4ca293dc42b2c524",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

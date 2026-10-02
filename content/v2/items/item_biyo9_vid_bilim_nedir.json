@@ -1,0 +1,23 @@
+{
+  "id": "item_biyo9_vid_bilim_nedir",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_yasam",
+  "stableKey": "biyo9_vid_bilim_nedir",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Bilim Nedir ve Nasıl Çalışır? (Bilimsel Yöntem)",
+  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/the-scientific-method",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L15",
+      "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "a7fe85134f094b5e"
+    }
+  }
+}

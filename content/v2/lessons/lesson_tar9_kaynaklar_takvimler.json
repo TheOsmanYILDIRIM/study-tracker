@@ -1,0 +1,15 @@
+{
+  "id": "lesson_tar9_kaynaklar_takvimler",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_kaynaklar_takvimler",
+  "title": "Kaynak Türleri, Tarih Yazıcılığı ve Takvimler (TAR.9.1.2)",
+  "orderKey": 2000,
+  "items": [
+    "item_tar9_vid_kaynak_turleri",
+    "item_tar9_vid_kaynak_turleri__quiz",
+    "item_tar9_vid_yardimci_bilimler",
+    "item_tar9_vid_yardimci_bilimler__quiz",
+    "item_tar9_anki_temel",
+    "item_tar9_quiz_kaynaklar_takvimler"
+  ]
+}

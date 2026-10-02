@@ -1,0 +1,23 @@
+{
+  "id": "item_cog9_vid_mekansal_dusunme",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_vid_mekansal_dusunme",
+  "itemType": "VIDEO",
+  "displayLabel": "1.2",
+  "orderKey": 2000,
+  "title": "Doğa-İnsan Etkileşimi & Mekânsal Düşünme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Coğrafyanın Kodları",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L26",
+      "sourceSection": "2. Hafta: Doğa-İnsan Etkileşimi & Mekânsal Düşünme",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "8b460fc3d1c4e78e"
+    }
+  }
+}

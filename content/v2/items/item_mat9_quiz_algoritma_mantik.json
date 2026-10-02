@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_algoritma_mantik",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_algoritma_ve_mantik",
+  "stableKey": "mat9_quiz_algoritma_mantik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Algoritma ve Sembolik Mantık Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Algoritma ve Sembolik Mantık Testi",
+      "questions": [
+        {
+          "id": "q_mat6_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "p ≡ 1 ve q ≡ 0 iken 'p ∧ q' önermesinin doğruluk değeri nedir?",
+          "choices": [
+            "1",
+            "0",
+            "Belirsiz",
+            "p"
+          ],
+          "correctAnswer": "0",
+          "explanation": "Ve (∧) bağlacında sonucun 1 olması için her iki önermenin de 1 olması gerekir. 1 ∧ 0 ≡ 0."
+        },
+        {
+          "id": "q_mat6_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "'p ⇒ q' koşullu önermesi sadece hangi durumda 0 (yanlış) değerini alır?",
+          "choices": [
+            "p ≡ 1, q ≡ 0",
+            "p ≡ 0, q ≡ 1",
+            "p ≡ 0, q ≡ 0",
+            "p ≡ 1, q ≡ 1"
+          ],
+          "correctAnswer": "p ≡ 1, q ≡ 0",
+          "explanation": "1 ⇒ 0 ≡ 0 (100 kuralı); diğer tüm durumlarda ise bağlacı 1'e eşittir."
+        },
+        {
+          "id": "q_mat6_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "'∀' sembolü 'Her / Bütün' evrensel niceleyicisini temsil eder.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "∀ sembolü matematikte 'evrensel niceleyici' (her / all) anlamındadır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L230",
+      "sourceSection": "Algoritma ve Bilişim Ünitesi",
+      "fingerprint": "3a4b463df07e4788",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

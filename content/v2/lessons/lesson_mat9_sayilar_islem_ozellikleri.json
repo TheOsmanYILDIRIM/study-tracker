@@ -1,0 +1,12 @@
+{
+  "id": "lesson_mat9_sayilar_islem_ozellikleri",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_sayilar_islem_ozellikleri",
+  "title": "Sayı Kümeleri ve İşlem Özellikleri (MAT.9.1.3)",
+  "orderKey": 3000,
+  "items": [
+    "item_mat9_vid_sayi_kumeleri",
+    "item_mat9_vid_cebirsel_ispat",
+    "item_mat9_quiz_sayi_kumeleri"
+  ]
+}

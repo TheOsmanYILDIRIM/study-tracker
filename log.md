@@ -492,4 +492,21 @@
   - Android `app/build.gradle.kts` içinde `V2_BASE_URL` (üretim varsayılanı) ve `V2_STAGING_URL` BuildConfig alanları, `debug` buildType staging varsayılanı, `V2CloudClient.kt` runtime URL değiştirme desteği (yerel Gradle çalıştırmadan).
   - Kapsamlı Node testleri (`worker/test-v2-staging.js`), `docs/v2-staging.md` ve `docs/v2-architecture.md` güncellemeleri tamamlandı.
 
+## [2026-10-02] 58. StudyTracker V2 Modüler İçerik Mimarisi & Transkript Tabanlı Mikro Testler
+- **Modüler İçerik Kaynak Mimarisi (Modular Content Source of Truth):**
+  - Monolitik `content/9-sinif-v2-catalog.json` dosyası derlenen bir çıktıya (generated artifact) dönüştürüldü; birincil düzenlenebilir kaynak `content/v2/` dizini (`catalog.json`, `courses/`, `lessons/`, `items/`) altına taşındı.
+  - 9 ders, 35 ünite, 121 öğe (74 video, 42 quiz, 5 anki) atomik JSON dosyaları olarak yapılandırıldı.
+  - Deterministik derleyici (`cli/lib/v2-modular.js`, `scripts/compile-v2-catalog.cjs`, `studytracker-cli v2 modular compile`) ile byte-stabil ve kayıpsız derleme garantilendi.
+  - Asılı referans (dangling ref), yanlış ebeveyn referansı (wrong parent ref), mükerrer ID/stableKey ve şema kontrollerini yapan `validateModularTree` motoru eklendi.
+- **Transkript Tabanlı Mikro Test Zenginleştirmesi (Transcript-Grounded Micro-Quizzes):**
+  - Aktif YouTube videolarının Türkçe altyazıları `yt-dlp` (`--skip-download --write-subs --write-auto-subs --sub-langs "tr,tr-*"`) ile geçici önbelleğe indirildi, temizlendi ve normalize edildi.
+  - Altyazısı bulunan 7 aktif video öğesi için videoda gerçekten anlatılan kavramlara dayalı 4'er soruluk (toplam 28 soru) deterministik mikro testler üretildi (`item_...__quiz`).
+  - Her mikro quiz öğesine `derivedFromItemId`, `sourceVideoUrl`, `transcriptLanguage`, `transcriptKind`, `transcriptFingerprint`, `generatedBy: "gemini"` ve `reviewStatus: "verified"` meta verileri eklendi.
+  - Altyazısı bulunmayan / YouTube dışı 12 video için sahte soru uydurulmayıp durumları belgelendi.
+  - Her mikro test, kaynak videosunun hemen ardına (`orderKey + 500`) sıralı olarak yerleştirildi; mevcut ünite tarama testleri eksiksiz korundu.
+- **CLI & Testler:**
+  - `cli/lib/v2-seed.js` ve CLI komutları (`studytracker-cli v2 modular validate|compile`) modüler ağacı doğrudan işleyecek şekilde güncellendi.
+  - CLI test suitine modüler doğrulama, derleme round-trip, güvenlik gardları ve mikro test şema kontrollerini kapsayan 4 yeni test (Tests 23-26) eklendi; tüm testler (CLI, worker, sync, staging) %100 yeşil tamamlandı.
+  - AI ajanları için atomik düzenleme rehberi `docs/v2-modular-content.md` dosyasına yazıldı.
+
 

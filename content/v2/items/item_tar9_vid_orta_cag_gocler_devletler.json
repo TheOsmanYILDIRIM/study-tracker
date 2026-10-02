@@ -1,0 +1,23 @@
+{
+  "id": "item_tar9_vid_orta_cag_gocler_devletler",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+  "stableKey": "tar9_vid_orta_cag_gocler_devletler",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L130",
+      "sourceSection": "Orta Çağ'da Devletler",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "65523afb0a6483eb"
+    }
+  }
+}

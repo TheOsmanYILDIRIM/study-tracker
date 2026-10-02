@@ -1,0 +1,14 @@
+{
+  "id": "lesson_mat9_sayilar_araliklar_kumeler",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_sayilar_araliklar_kumeler",
+  "title": "Gerçek Sayı Aralıkları ve Küme Sembolleri (MAT.9.1.2)",
+  "orderKey": 2000,
+  "items": [
+    "item_mat9_vid_araliklar_gosterim",
+    "item_mat9_vid_araliklar_gosterim__quiz",
+    "item_mat9_vid_aralik_farki",
+    "item_mat9_vid_aralik_farki__quiz",
+    "item_mat9_quiz_araliklar_kumeler"
+  ]
+}

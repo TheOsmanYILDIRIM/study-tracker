@@ -1,0 +1,13 @@
+{
+  "id": "course_cog_9",
+  "title": "9. Sınıf Coğrafya",
+  "subject": "Coğrafya",
+  "gradeLevel": 9,
+  "orderKey": 6000,
+  "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Coğrafya Müfredatı (Doğal Sistemler, Harita, İklim, Nüfus ve Afetler)",
+  "lessons": [
+    "lesson_cog9_dogal_sistemler",
+    "lesson_cog9_iklim_ve_hava_olaylari",
+    "lesson_cog9_beseri_sistemler_ve_afetler"
+  ]
+}

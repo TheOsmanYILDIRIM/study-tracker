@@ -1,0 +1,70 @@
+{
+  "id": "item_fiz9_quiz_fizik_giris",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+  "stableKey": "fiz9_quiz_fizik_giris",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Fizik Bilimi ve Alt Dalları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Fizik Bilimi ve Alt Dalları Testi",
+      "questions": [
+        {
+          "id": "q_fiz1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Işığın yansıması, kırılması ve aynalar fiziğin hangi alt dalının inceleme alanıdır?",
+          "choices": [
+            "Mekanik",
+            "Optik",
+            "Termodinamik",
+            "Elektromanyetizma"
+          ],
+          "correctAnswer": "Optik",
+          "explanation": "Işık ve ışık olaylarını inceleyen fizik dalı Optik'tir."
+        },
+        {
+          "id": "q_fiz1_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi Türkiye'deki ulusal bilim araştırma merkezlerinden biridir?",
+          "choices": [
+            "CERN",
+            "NASA",
+            "TÜBİTAK",
+            "ESA"
+          ],
+          "correctAnswer": "TÜBİTAK",
+          "explanation": "TÜBİTAK (Türkiye Bilimsel ve Teknolojik Araştırma Kurumu) Türkiye'nin ulusal araştırma merkezidir."
+        },
+        {
+          "id": "q_fiz1_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Fizik, madde ve enerji arasındaki etkileşimi inceleyen doğa bilimidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Fiziğin temel tanımı madde-enerji etkileşimi ve doğa yasalarıdır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L30",
+      "sourceSection": "Fizik Bilimine Giriş",
+      "fingerprint": "46692a3e70359c73",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

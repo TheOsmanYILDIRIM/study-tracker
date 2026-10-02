@@ -1,0 +1,22 @@
+{
+  "id": "item_fiz9_vid_isi_sicaklik_kavram",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+  "stableKey": "fiz9_vid_isi_sicaklik_kavram",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "İç Enerji, Isı ve Sıcaklık Kavramları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L140",
+      "sourceSection": "Isı ve Sıcaklık",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "e546c866395ea3a9"
+    }
+  }
+}

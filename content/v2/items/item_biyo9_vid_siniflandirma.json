@@ -1,0 +1,22 @@
+{
+  "id": "item_biyo9_vid_siniflandirma",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_siniflandirma_ve_biyocesitlilik",
+  "stableKey": "biyo9_vid_siniflandirma",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L130",
+      "sourceSection": "Canlılar Dünyası",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "6442c0e6c046456f"
+    }
+  }
+}

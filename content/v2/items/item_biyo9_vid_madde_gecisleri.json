@@ -1,0 +1,22 @@
+{
+  "id": "item_biyo9_vid_madde_gecisleri",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_hucre_ve_madde_gecisleri",
+  "stableKey": "biyo9_vid_madde_gecisleri",
+  "itemType": "VIDEO",
+  "displayLabel": "3.2",
+  "orderKey": 2000,
+  "title": "Hücre Zarından Madde Taşınımı: Pasif, Aktif Taşıma ve Endositoz/Ekzositoz",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L110",
+      "sourceSection": "Madde Geçişleri",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "6c69ae5cb5b229d7"
+    }
+  }
+}

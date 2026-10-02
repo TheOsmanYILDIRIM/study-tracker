@@ -1,0 +1,15 @@
+{
+  "id": "lesson_alm9_modul1_hallo",
+  "courseId": "course_alm_9",
+  "stableKey": "lesson_alm9_modul1_hallo",
+  "title": "Modul 1: HALLO! & Informationen zur Person (A1.1)",
+  "orderKey": 1000,
+  "items": [
+    "item_alm9_vid_selamlasma_alfabe",
+    "item_alm9_vid_kendini_tanitma",
+    "item_alm9_vid_sayilar",
+    "item_alm9_vid_ulkeler_diller",
+    "item_alm9_anki_1ay",
+    "item_alm9_quiz_hallo_person"
+  ]
+}

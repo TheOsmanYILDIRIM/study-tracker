@@ -1,0 +1,13 @@
+{
+  "id": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_canlilarin_temel_bilesenleri",
+  "title": "Canlıların Temel Bileşenleri (BİY.9.1.3 - BİY.9.1.4)",
+  "orderKey": 2000,
+  "items": [
+    "item_biyo9_vid_organik_inorganik",
+    "item_biyo9_vid_enzimler_nukleik",
+    "item_biyo9_anki_temel_bilesenler",
+    "item_biyo9_quiz_bilesenler"
+  ]
+}

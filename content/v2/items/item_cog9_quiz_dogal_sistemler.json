@@ -1,0 +1,70 @@
+{
+  "id": "item_cog9_quiz_dogal_sistemler",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_quiz_dogal_sistemler",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 6000,
+  "title": "Coğrafyanın Doğası ve İlkeleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Coğrafyanın Doğası ve İlkeleri Testi",
+      "questions": [
+        {
+          "id": "q_cog1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi coğrafyanın 4 temel ortamından biri olan 'Taş Küre'yi ifade eder?",
+          "choices": [
+            "Litosfer",
+            "Atmosfer",
+            "Hidrosfer",
+            "Biyosfer"
+          ],
+          "correctAnswer": "Litosfer",
+          "explanation": "Litosfer yer kabuğu ve taş küredir."
+        },
+        {
+          "id": "q_cog1_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Coğrafyayı diğer bilimlerden ayıran en temel ilke 'Dağılış İlkesi'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Olayların yeryüzündeki yayılış ve dağılışını haritalarla incelemek coğrafyaya özgüdür."
+        },
+        {
+          "id": "q_cog1_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Ekvator ve çevresinin harita çizimlerinde bozulmayı en aza indiren projeksiyon türü hangisidir?",
+          "choices": [
+            "Silindirik Projeksiyon",
+            "Konik Projeksiyon",
+            "Düzlem Projeksiyon",
+            "Parçalı Projeksiyon"
+          ],
+          "correctAnswer": "Silindirik Projeksiyon",
+          "explanation": "Silindirik projeksiyonda temas Ekvator çevresindedir ve bozulma en azdır."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L20",
+      "sourceSection": "Doğal Sistemler ve Coğrafya",
+      "fingerprint": "f69ac1cf3729e33e",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

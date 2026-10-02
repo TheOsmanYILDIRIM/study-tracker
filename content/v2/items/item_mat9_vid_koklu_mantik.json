@@ -1,0 +1,24 @@
+{
+  "id": "item_mat9_vid_koklu_mantik",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_vid_koklu_mantik",
+  "itemType": "VIDEO",
+  "displayLabel": "1.5",
+  "orderKey": 5000,
+  "title": "Köklü Sayılar ve Üslü Sayılar Arasındaki İlişki",
+  "contentUrl": "https://www.youtube.com/watch?v=vVj4x9p0m1s",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Khan Academy Türkçe",
+    "topic": "Köklü Sayı Mantığı",
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L20",
+      "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "156d7b115046cade"
+    }
+  }
+}

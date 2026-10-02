@@ -1,0 +1,11 @@
+{
+  "id": "lesson_tde9_dilin_yapisi_ve_roman",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_dilin_yapisi_ve_roman",
+  "title": "3. ve 4. Tema: Anlamın Yapı Taşları, Roman ve Dil Bilgisi",
+  "orderKey": 3000,
+  "items": [
+    "item_tde9_vid_sozcukte_anlam_isim_sifat",
+    "item_tde9_quiz_dil_bilgisi_roman"
+  ]
+}

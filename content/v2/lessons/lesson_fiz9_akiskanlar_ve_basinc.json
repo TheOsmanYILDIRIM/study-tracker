@@ -1,0 +1,12 @@
+{
+  "id": "lesson_fiz9_akiskanlar_ve_basinc",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_akiskanlar_ve_basinc",
+  "title": "Akışkanlar: Basınç ve Kaldırma Kuvveti (FİZ.9.3.1 - FİZ.9.3.3)",
+  "orderKey": 3000,
+  "items": [
+    "item_fiz9_vid_basinc_prensipleri",
+    "item_fiz9_vid_kaldirma_kuvveti",
+    "item_fiz9_quiz_basinc_kaldirma"
+  ]
+}

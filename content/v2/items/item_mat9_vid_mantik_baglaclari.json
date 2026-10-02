@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_mantik_baglaclari",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_algoritma_ve_mantik",
+  "stableKey": "mat9_vid_mantik_baglaclari",
+  "itemType": "VIDEO",
+  "displayLabel": "6.2",
+  "orderKey": 2000,
+  "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L225",
+      "sourceSection": "Mantık Bağlaçları",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "3c037fb942c0c06a"
+    }
+  }
+}

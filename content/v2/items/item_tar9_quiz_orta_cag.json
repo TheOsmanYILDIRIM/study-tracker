@@ -1,0 +1,70 @@
+{
+  "id": "item_tar9_quiz_orta_cag",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_orta_cag",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Orta Çağ Dünyası ve Ticaret Ağları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Orta Çağ Dünyası ve Ticaret Ağları Testi",
+      "questions": [
+        {
+          "id": "q_tar4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Çin'den başlayıp Orta Asya üzerinden Akdeniz ve Karadeniz limanlarına ulaşan tarihi ticaret yolu hangisidir?",
+          "choices": [
+            "Baharat Yolu",
+            "İpek Yolu",
+            "Kral Yolu",
+            "Kürk Yolu"
+          ],
+          "correctAnswer": "İpek Yolu",
+          "explanation": "İpek Yolu Çin'den Avrupa'ya uzanan ana ticaret aksıdır."
+        },
+        {
+          "id": "q_tar4_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Orta Çağ Avrupası'nda siyasi gücün derebeyleri (senyörler) arasında bölündüğü yönetim sistemine Feodalizm denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Feodalizm merkezi otoritenin zayıf olduğu, toprak sahibi soyluların egemen olduğu düzendir."
+        },
+        {
+          "id": "q_tar4_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İslam dünyasında Abbasiler döneminde Bağdat'ta kurulan büyük bilim ve tercüme merkezinin adı nedir?",
+          "choices": [
+            "Beytülhikme",
+            "Nizamiye Medresesi",
+            "Darülfünun",
+            "Enderun"
+          ],
+          "correctAnswer": "Beytülhikme",
+          "explanation": "Beytülhikme (Bilgelik Evi) İslam'ın Altın Çağı'nda kurulan tercüme ve bilim akademisidir."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L155",
+      "sourceSection": "Orta Çağ Medeniyetleri",
+      "fingerprint": "b1e6b1df1b2c6b14",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

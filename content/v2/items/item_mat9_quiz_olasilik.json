@@ -1,0 +1,70 @@
+{
+  "id": "item_mat9_quiz_olasilik",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_veriden_olasiliga",
+  "stableKey": "mat9_quiz_olasilik",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 2000,
+  "title": "Olasılık Hesaplamaları Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Olasılık Hesaplamaları Testi",
+      "questions": [
+        {
+          "id": "q_mat8_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hilesiz bir zar atıldığında üst yüze asal sayı gelme olasılığı kaçtır?",
+          "choices": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "correctAnswer": "1/2",
+          "explanation": "Zardaki asal sayılar {2, 3, 5} yani 3 tanedir. Olasılık 3/6 = 1/2."
+        },
+        {
+          "id": "q_mat8_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir olayın olasılık değeri daima 0 ile 1 aralığındadır (0 ve 1 dahil).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İmkansız olay 0, kesin olay 1 olup diğer tüm olasılıklar [0, 1] aralığındadır."
+        },
+        {
+          "id": "q_mat8_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir torbada 3 kırmızı, 4 mavi, 5 sarı bilye vardır. Rastgele çekilen bir bilyenin sarı olma olasılığı nedir?",
+          "choices": [
+            "5/12",
+            "1/4",
+            "1/3",
+            "5/7"
+          ],
+          "correctAnswer": "5/12",
+          "explanation": "Toplam bilye sayısı: 3+4+5=12. Sarı bilye sayısı: 5. Olasılık = 5/12."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L290",
+      "sourceSection": "Veriden Olasılığa Ünitesi",
+      "fingerprint": "fb82e0d04bd66b4e",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

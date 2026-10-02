@@ -1,0 +1,22 @@
+{
+  "id": "item_mat9_vid_araliklar_gosterim",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+  "stableKey": "mat9_vid_araliklar_gosterim",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Gerçek Sayı Aralıkları & Gösterim",
+  "contentUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+  "publishingStatus": "active",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/9_sinif_4_haftalik_studytracker_calisma_plani.md#L143",
+      "sourceSection": "3. Hafta: Aralıklar, Haritalar ve Atomun Dünyası",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "verified",
+      "fingerprint": "61349661ecacb396"
+    }
+  }
+}

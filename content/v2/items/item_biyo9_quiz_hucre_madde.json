@@ -1,0 +1,70 @@
+{
+  "id": "item_biyo9_quiz_hucre_madde",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_hucre_ve_madde_gecisleri",
+  "stableKey": "biyo9_quiz_hucre_madde",
+  "itemType": "QUIZ",
+  "displayLabel": "Q1",
+  "orderKey": 3000,
+  "title": "Hücre ve Madde Geçişleri Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hücre ve Madde Geçişleri Testi",
+      "questions": [
+        {
+          "id": "q_bio3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücrede oksijenli solunum ile ATP üreten çift zarlı organel hangisidir?",
+          "choices": [
+            "Ribozom",
+            "Mitokondri",
+            "Golgi Aygıtı",
+            "Lizozom"
+          ],
+          "correctAnswer": "Mitokondri",
+          "explanation": "Mitokondri ökaryotik hücrelerin enerji santralidir ve ATP üretir."
+        },
+        {
+          "id": "q_bio3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Aktif taşıma sırasında ATP harcanır ve maddeler az yoğundan çok yoğuna taşınır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Aktif taşıma konsantrasyon farkına karşı enerji (ATP) harcanarak yapılır."
+        },
+        {
+          "id": "q_bio3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücrenin çok yoğun (hipertonik) ortama konulduğunda su kaybederek büzülmesine ne ad verilir?",
+          "choices": [
+            "Plazmoliz",
+            "Deplazmoliz",
+            "Hemoliz",
+            "Turgor"
+          ],
+          "correctAnswer": "Plazmoliz",
+          "explanation": "Hipertonik çözeltide su kaybeden hücrenin büzülmesine plazmoliz denir."
+        }
+      ],
+      "questionCount": 3,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L115",
+      "sourceSection": "Hücre ve Madde Geçişleri",
+      "fingerprint": "bb4d7218aca7013b",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

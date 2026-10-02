@@ -1,0 +1,22 @@
+{
+  "id": "item_kim9_vid_atom_modelleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+  "stableKey": "kim9_vid_atom_modelleri",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Atom Modelleri: Dalton, Thomson, Rutherford ve Bohr",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provenance": {
+      "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L26",
+      "sourceSection": "3. Hafta (Kitap: Atom Teorileri)",
+      "importedAt": "2026-10-02T09:00:00.000Z",
+      "schemaVersion": "v2",
+      "reviewStatus": "needs_review",
+      "fingerprint": "9d10f16edbd4f757"
+    }
+  }
+}
