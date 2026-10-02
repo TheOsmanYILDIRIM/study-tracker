@@ -25,6 +25,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
@@ -51,6 +52,7 @@ fun CloudSyncDialog(
     var isSyncing by remember { mutableStateOf(false) }
     var syncResultText by remember { mutableStateOf<String?>(null) }
     var syncResultSuccess by remember { mutableStateOf<Boolean?>(null) }
+    var adminTokenInput by remember(adminToken) { mutableStateOf(adminToken) }
 
     val filePickerLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.GetContent()
@@ -246,16 +248,45 @@ fun CloudSyncDialog(
                                 verticalArrangement = Arrangement.spacedBy(8.dp)
                             ) {
                                 Text(
-                                    "CLI Yönetici Anahtarı henüz bu cihazda yok",
+                                    "Yönetici anahtarı bu cihazda kayıtlı değil",
                                     color = Color.White,
                                     fontSize = 11.5.sp,
                                     fontWeight = FontWeight.SemiBold
                                 )
                                 Text(
-                                    "Önce mevcut aile kodunu güvenli eşleştirmeyi deneyebilirsin. Sunucuda bu aile zaten bir yönetici anahtarına sahipse anahtar güvenlik nedeniyle yalnız aile koduyla geri alınamaz; bu durumda yeni bir aile kodu ve yeni yönetici anahtarı oluşturman gerekir.",
+                                    "Mevcut aileye ait yönetici anahtarını biliyorsan aşağıya girip kaydedebilirsin. Bu anahtar yalnız cihazdaki özel uygulama ayarlarında tutulur.",
                                     color = ZomoTextSecondary,
                                     fontSize = 10.5.sp
                                 )
+                                OutlinedTextField(
+                                    value = adminTokenInput,
+                                    onValueChange = { adminTokenInput = it.trim() },
+                                    modifier = Modifier.fillMaxWidth(),
+                                    singleLine = true,
+                                    visualTransformation = PasswordVisualTransformation(),
+                                    label = { Text("Yönetici anahtarı") },
+                                    colors = OutlinedTextFieldDefaults.colors(
+                                        focusedBorderColor = ZenSkyCyan,
+                                        unfocusedBorderColor = ZenPaperBorder,
+                                        focusedTextColor = Color.White,
+                                        unfocusedTextColor = Color.White
+                                    )
+                                )
+                                Button(
+                                    onClick = {
+                                        val clean = adminTokenInput.trim()
+                                        if (clean.isBlank()) {
+                                            Toast.makeText(context, "Yönetici anahtarı boş olamaz", Toast.LENGTH_SHORT).show()
+                                        } else {
+                                            prefs.setFamilyAdminToken(clean)
+                                            Toast.makeText(context, "🔐 Yönetici anahtarı kaydedildi", Toast.LENGTH_SHORT).show()
+                                        }
+                                    },
+                                    modifier = Modifier.fillMaxWidth(),
+                                    colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
+                                ) {
+                                    Text("Anahtarı kaydet", color = Color.Black, fontWeight = FontWeight.Bold)
+                                }
                                 Button(
                                     onClick = {
                                         scope.launch {
