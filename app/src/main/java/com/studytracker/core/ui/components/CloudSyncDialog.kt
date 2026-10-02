@@ -434,10 +434,41 @@ fun CloudSyncDialog(
                     }
                 }
 
+                if (isParent) {
+                    OutlinedButton(
+                        onClick = {
+                            scope.launch {
+                                isSyncing = true
+                                syncResultText = null
+                                syncResultSuccess = null
+                                val result = StudyPackageExchangeManager.uploadLocalV2CatalogToCloud(context)
+                                isSyncing = false
+                                result.onSuccess { msg ->
+                                    syncResultSuccess = true
+                                    syncResultText = msg
+                                    Toast.makeText(context, "✅ $msg", Toast.LENGTH_LONG).show()
+                                }.onFailure { err ->
+                                    syncResultSuccess = false
+                                    syncResultText = "Yerelden buluta aktarım hatası: ${err.message}"
+                                    Toast.makeText(context, "❌ ${err.message}", Toast.LENGTH_LONG).show()
+                                }
+                            }
+                        },
+                        enabled = !isSyncing,
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(12.dp),
+                        border = BorderStroke(1.dp, ZenMoonGold),
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = ZenMoonGold)
+                    ) {
+                        Icon(Icons.Default.CloudUpload, contentDescription = null, modifier = Modifier.size(18.dp))
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text("Yereldeki V2’yi Buluta Aktar", fontSize = 13.sp, fontWeight = FontWeight.Bold)
+                    }
+                }
+
                 Divider(color = ZenPaperBorder.copy(alpha = 0.3f), thickness = 0.8.dp)
 
-                // 2. WhatsApp & File Share Section
-                Text(
+                // 2. WhatsApp & File Share Section                Text(
                     text = "2. Alternatif: WhatsApp & Dosya Köprüsü (.studyplan)",
                     fontSize = 13.sp,
                     fontWeight = FontWeight.SemiBold,
