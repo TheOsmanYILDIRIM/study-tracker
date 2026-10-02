@@ -406,7 +406,8 @@ fun CloudSyncDialog(
                                 isSyncing = false
                                 if (res.isSuccess) {
                                     syncResultSuccess = true
-                                    syncResultText = "${res.getOrNull() ?: "V1 senkronizasyon başarılı"}\n$v2CloudStatus"
+                                    val v1Status = res.getOrNull() ?: "V1 senkronizasyon başarılı"
+                                    syncResultText = "$v1Status\n$v2CloudStatus"
                                     Toast.makeText(context, "✅ $v2CloudStatus", Toast.LENGTH_LONG).show()
                                 } else {
                                     syncResultSuccess = false
