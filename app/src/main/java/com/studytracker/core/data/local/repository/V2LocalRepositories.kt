@@ -252,6 +252,23 @@ class LocalV2CurriculumRepositoryImpl(
             .flowOn(Dispatchers.IO)
     }
 
+    override fun getLearningItemsForFamily(familyCode: String): Flow<List<LearningItem>> {
+        return db.learningItemDao().getActiveItemsForFamily(familyCode)
+            .map { entities ->
+                entities.map { itemEntity ->
+                    val versionEntity = db.learningItemVersionDao().getVersionById(itemEntity.currentVersionId)
+                    val versions = db.learningItemVersionDao().getVersionsForItemOnce(itemEntity.id)
+                    val prereqs = db.itemPrerequisiteDao().getPrerequisitesForItemOnce(itemEntity.id)
+                    itemEntity.toDomain(
+                        currentVersion = versionEntity?.toDomain(),
+                        versionCount = versions.size.coerceAtLeast(1),
+                        prerequisites = prereqs.map { it.toDomain() }
+                    )
+                }
+            }
+            .distinctUntilChanged()
+            .flowOn(Dispatchers.IO)
+    }
     override fun getLearningItem(itemId: String): Flow<LearningItem?> {
         return db.learningItemDao().observeItemById(itemId)
             .map { itemEntity ->
