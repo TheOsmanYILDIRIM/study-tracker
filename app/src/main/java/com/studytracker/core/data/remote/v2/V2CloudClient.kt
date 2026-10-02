@@ -74,6 +74,45 @@ object V2CloudClient {
         }
     }
 
+    suspend fun importCatalog(
+        familyCode: String,
+        catalogJson: String,
+        adminToken: String
+    ): Result<String> = withContext(Dispatchers.IO) {
+        try {
+            val cleanCode = familyCode.trim().uppercase()
+            val targetUrl = URL("$CLOUD_BASE_URL/api/v3/catalog/import?code=$cleanCode")
+            val conn = (targetUrl.openConnection() as HttpURLConnection).apply {
+                requestMethod = "POST"
+                connectTimeout = 15000
+                readTimeout = 30000
+                doOutput = true
+                setRequestProperty("Content-Type", "application/json; charset=utf-8")
+                setRequestProperty("X-Family-Code", cleanCode)
+                setRequestProperty("X-Sender-Role", "PARENT")
+                setRequestProperty("X-Admin-Token", adminToken)
+            }
+
+            OutputStreamWriter(conn.outputStream, Charsets.UTF_8).use { it.write(catalogJson) }
+
+            val responseCode = conn.responseCode
+            val responseText = if (responseCode in 200..299) {
+                BufferedReader(InputStreamReader(conn.inputStream, "UTF-8")).readText()
+            } else {
+                conn.errorStream?.let { BufferedReader(InputStreamReader(it, "UTF-8")).readText() }
+                    ?: "HTTP $responseCode"
+            }
+
+            if (responseCode !in 200..299) {
+                return@withContext Result.failure(Exception("V2 katalog yükleme hatası ($responseCode): $responseText"))
+            }
+
+            Result.success(responseText)
+        } catch (e: Exception) {
+            Log.e(TAG, "importCatalog failed: ${e.message}", e)
+            Result.failure(e)
+        }
+    }
     suspend fun recordAttempt(
         familyCode: String,
         attemptRequest: V2AttemptRequestDto,
