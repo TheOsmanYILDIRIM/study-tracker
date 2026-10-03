@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "stableKey": "tde9_quiz_topic_06_karakter_sunumu_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Hikâye Karakteri ve Tip Analizi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hikâye Karakteri ve Tip Analizi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top06_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Edebî metinlerde belli bir zümreyi, toplumsal sınıfı veya genel bir insan özelliğini (örneğin cimrilik, kıskançlık) abartılı şekilde temsil eden kahramanlara ne ad verilir?",
+          "choices": [
+            "Tip",
+            "Karakter",
+            "Anlatıcı",
+            "Gözlemci"
+          ],
+          "correctAnswer": "Tip",
+          "explanation": "Tip; kendine has bireysel özelliklerden ziyade belirli bir zümrenin, mesleğin veya insanlık zaafının ortak temsilcisi olan şablon kahramandır."
+        },
+        {
+          "id": "q_tde9_top06_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kendine özgü derinliği olan, olaylar karşısında değişebilen, çelişkileri ve karmaşık psikolojisiyle ele alınan kahraman türü hangisidir?",
+          "choices": [
+            "Karakter",
+            "Tip",
+            "Arketip",
+            "Statik figür"
+          ],
+          "correctAnswer": "Karakter",
+          "explanation": "Karakter; çok boyutlu, kendine has iç dünyası olan ve olaylar sürecinde gelişim/değişim gösterebilen özgün kahramandır."
+        },
+        {
+          "id": "q_tde9_top06_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir hikâye karakteri sunulurken karakterin yalnızca boyu, giyimi gibi fiziksel özellikleri anlatılmalı; iç çatışmaları ve psikolojik yönü göz ardı edilmelidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Karakter analizi hem fiziksel portreyi (dış görünüş) hem de ruhsal portreyi (psikolojik durum, duygu, çatışma ve motivasyonlar) bütüncül olarak içermelidir."
+        },
+        {
+          "id": "q_tde9_top06_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hikâye kahramanının aklından geçenleri doğrudan kendi cümleleriyle ve mantıksal bir sıra gözeterek okuyucuya aktarma tekniğine ne ad verilir?",
+          "choices": [
+            "İç konuşma (Monolog)",
+            "Bilinç akışı",
+            "Gösterme",
+            "Özetleme"
+          ],
+          "correctAnswer": "İç konuşma (Monolog)",
+          "explanation": "İç konuşma; kahramanın iç dünyasını, dil bilgisi kurallarına ve mantık bağına uygun şekilde kendi ağzından aktarmasıdır (bilinç akışında ise mantık bağı kopuk ve serbesttir)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "3a6767cc214f9122"
+    }
+  }
+}

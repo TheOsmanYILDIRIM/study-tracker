@@ -7,10 +7,10 @@
   "displayLabel": "14.1",
   "orderKey": 1000,
   "title": "Üç Üst Âlem Sistemi ve Canlı Grupları",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Biosem Biyoloji",
     "topic": "Üç Üst Âlem Sistemi ve Canlı Grupları",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,11 +23,13 @@
       "sourceTopic": [
         "Üç Üst Âlem (Domain) Sisteminde Yer Alan Canlılar ve Genel • Özellikleri [Bakteriler, Arkeler, Ökaryotlar (Protistler, Bitkiler, Mantarlar, Hayvanlar)]"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7b54e005ca676c94",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+      "reviewedOverride": true
     }
   }
 }

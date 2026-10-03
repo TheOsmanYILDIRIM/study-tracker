@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_orta_cag_ticaret_yollari__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_orta_cag_ticaret_yollari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.2-Q",
+  "orderKey": 2500,
+  "title": "Orta Çağ Ticaret Yolları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Orta Çağ Ticaret Yolları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_oty_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Çin'in Şian kentinden başlayıp Orta Asya, İran ve Anadolu üzerinden Akdeniz ve Karadeniz limanlarına uzanan en önemli kara ticaret yolu hangisidir?",
+          "choices": [
+            "İpek Yolu",
+            "Baharat Yolu",
+            "Kral Yolu",
+            "Amber Yolu"
+          ],
+          "correctAnswer": "İpek Yolu",
+          "explanation": "İpek Yolu, Doğu ile Batı arasında ipek, porselen, kâğıt gibi malların yanı sıra kültür, din ve teknolojinin de taşındığı ana ticaret arteriydi."
+        },
+        {
+          "id": "q_tar9_oty_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hindistan'dan başlayıp deniz yoluyla Basra Körfezi ve Kızıldeniz üzerinden Akdeniz limanlarına zencefil, karabiber ve tarçın taşıyan ticaret yolu hangisidir?",
+          "choices": [
+            "Baharat Yolu",
+            "Kürk Yolu",
+            "İpek Yolu",
+            "Kral Yolu"
+          ],
+          "correctAnswer": "Baharat Yolu",
+          "explanation": "Baharat Yolu deniz ağırlıklı bir yol olup Doğu'nun baharat ve şifalı bitkilerini İskenderiye ve Antakya gibi limanlara ulaştırırdı."
+        },
+        {
+          "id": "q_tar9_oty_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Karadeniz'in kuzeyinden başlayarak Sibirya ve İç Asya boyunca uzanan \"Kürk Yolu\", tilki, samur, kunduz gibi değerli kürklerin ticaretinde özellikle Hazar ve Bulgar Türkleri tarafından denetlenmiştir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Kürk Yolu kuzey bozkırlarında kurulmuş olup Hazar Devleti ve İtil Bulgarları bu ticaret sayesinde büyük zenginlik elde etmiştir."
+        },
+        {
+          "id": "q_tar9_oty_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İslam coğrafyasında ve Selçuklularda ticaret yolları üzerinde kervanların güvenliğini, konaklamasını ve ücretsiz bakımını sağlamak amacıyla inşa edilen yapılara ne ad verilir?",
+          "choices": [
+            "Kervansaray ve Ribat",
+            "Medrese ve Külliye",
+            "İmaret ve Bedesten",
+            "Kümbet ve Türbe"
+          ],
+          "correctAnswer": "Kervansaray ve Ribat",
+          "explanation": "Ribatlar başlangıçta sınır karakolu iken sonraları ticaret güzergâhlarında kervansaraylara dönüşmüş; tüccarlara 3 gün ücretsiz barınma ve sigorta sistemi sunmuştur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_orta_cag_ticaret_yollari",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "e31b14a5b69eadc4"
+    }
+  }
+}

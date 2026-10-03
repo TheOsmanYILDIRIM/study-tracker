@@ -7,8 +7,8 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,14 @@
       "sourceSection": "Atmosfer ve Sıcaklık",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "db6d6a33b24d6013"
+      "reviewStatus": "verified",
+      "fingerprint": "db6d6a33b24d6013",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

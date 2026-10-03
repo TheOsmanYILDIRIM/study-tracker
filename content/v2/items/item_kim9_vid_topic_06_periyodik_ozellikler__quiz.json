@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_06_periyodik_ozellikler__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_06_periyodik_ozellikler",
+  "stableKey": "kim9_quiz_top06_periyodik_ozellikler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "İyon Yarıçapı ve İyonlaşma Enerjisi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İyon Yarıçapı ve İyonlaşma Enerjisi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_top06_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Nötr bir atom elektron vererek pozitif yüklü bir katyona dönüştüğünde tanecik çapı nasıl değişir?",
+          "choices": [
+            "Küçülür; çünkü elektron başına düşen çekirdek çekim kuvveti artar.",
+            "Büyür; çünkü elektron verilmiştir.",
+            "Değişmez; çünkü proton sayısı sabittir.",
+            "Önce büyür sonra küçülür."
+          ],
+          "correctAnswer": "Küçülür; çünkü elektron başına düşen çekirdek çekim kuvveti artar.",
+          "explanation": "Katyon oluşurken elektron sayısı azalır, proton başına düşen çekim artar ve elektron bulutu büzülür: r(anyon) > r(nötr) > r(katyon)."
+        },
+        {
+          "id": "q_kim9_top06_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "İzole gaz fazındaki nötr bir atomun bir elektron alarak negatif yüklü anyon oluşturması sırasındaki enerji değişimine \"Elektron İlgisi\" denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "X(g) + e⁻ → X⁻(g) + Enerji süreci elektron ilgisini (Electron Affinity) tanımlar."
+        },
+        {
+          "id": "q_kim9_top06_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Periyodik tabloda elektron ilgisi en yüksek olan element hangisidir?",
+          "choices": [
+            "Klor (Cl)",
+            "Flor (F)",
+            "Oksijen (O)",
+            "Sodyum (Na)"
+          ],
+          "correctAnswer": "Klor (Cl)",
+          "explanation": "Florun atom çapı çok küçük olup elektron itmesi fazla olduğundan elektron ilgisi Klor'dan (Cl) biraz daha düşüktür; periyodik sistemde elektron ilgisi en büyük element Klor'dur."
+        },
+        {
+          "id": "q_kim9_top06_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir atomdan art arda elektron koparılırken her zaman bir sonraki iyonlaşma enerjisi bir öncekinden daha büyüktür (IE₁ < IE₂ < IE₃...).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Koparılan her elektrondan sonra tanecik çapı küçülür ve kalan elektronlara uygulanan çekim arttığından koparmak için daha çok enerji gerekir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_06_periyodik_ozellikler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ff8006e188743370"
+    }
+  }
+}

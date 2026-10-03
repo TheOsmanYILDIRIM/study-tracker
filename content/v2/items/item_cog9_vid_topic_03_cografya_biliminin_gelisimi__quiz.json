@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+  "stableKey": "cog9_quiz_top03_gelisim_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Coğrafya Biliminin Evrimi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Coğrafya Biliminin Evrimi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_top03_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İlk Çağ'da Amasya doğumlu olan ve 17 ciltlik \"Geographika\" adlı eseriyle Akdeniz havzası ve Anadolu coğrafyasını ayrıntılı anlatan bilgin kimdir?",
+          "choices": [
+            "Strabon",
+            "Batlamyus",
+            "Heredot",
+            "Aristoteles"
+          ],
+          "correctAnswer": "Strabon",
+          "explanation": "Strabon (MÖ 64 - MS 24), Amasya'da yaşamış antik dönemin en büyük bölgesel coğrafyacısı ve Geographika'nın yazarıdır."
+        },
+        {
+          "id": "q_cog9_top03_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "17. yüzyılda Osmanlı bilgini Kâtip Çelebi tarafından kaleme alınan, Doğu ve Batı coğrafya kaynaklarını birleştiren ilk sistematik Türkçe coğrafya eseri hangisidir?",
+          "choices": [
+            "Cihannümâ (Dünyayı Gösteren)",
+            "Seyahatnâme",
+            "Kitâb-ı Bahriye",
+            "Tarih-i Cevdet"
+          ],
+          "correctAnswer": "Cihannümâ (Dünyayı Gösteren)",
+          "explanation": "Kâtip Çelebi'nin \"Cihannümâ\" eseri Osmanlı coğrafya tarihinde modern haritacılık ve dünya coğrafyası açısından çığır açmıştır."
+        },
+        {
+          "id": "q_cog9_top03_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "14. yüzyılda Kuzey Afrika, Orta Doğu, Anadolu ve Çin'e kadar 120.000 km yol kat ederek dönemin en kapsamlı Seyahatnâme'sini yazan İslam seyyahı İbn Batuta'dır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İbn Batuta, Orta Çağ'ın en büyük seyyahı olup gezdiği toprakların beşerî, kültürel ve coğrafi özelliklerini Rıhle (Seyahatname) eserinde toplamıştır."
+        },
+        {
+          "id": "q_cog9_top03_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Coğrafya kaderdir\" sözüyle anılan ve \"Mukaddime\" adlı eserinde iklim ve çevre koşullarının toplumların karakteri ve devletlerin ömrü üzerindeki etkisini inceleyen düşünür kimdir?",
+          "choices": [
+            "İbn Haldun",
+            "Farabi",
+            "İbn Sina",
+            "Gazali"
+          ],
+          "correctAnswer": "İbn Haldun",
+          "explanation": "İbn Haldun (1332-1406), Mukaddime eserinde çevre determinizmi ve beşerî coğrafya alanında çığır açıcı sosyolojik-coğrafi tespitler yapmıştır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -5,7 +5,8 @@
   "title": "Theme 1: School Life",
   "orderKey": 1000,
   "items": [
-    "item_ing9_vid_topic_01_theme_1_school_life"
+    "item_ing9_vid_topic_01_theme_1_school_life",
+    "item_ing9_vid_topic_01_theme_1_school_life__quiz"
   ],
   "sourceMeta": {
     "weeks": [

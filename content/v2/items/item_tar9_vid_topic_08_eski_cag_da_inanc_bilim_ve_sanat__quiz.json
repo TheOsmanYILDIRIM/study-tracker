@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "stableKey": "tar9_quiz_topic_08_eski_cag_da_inanc_bilim_ve_sanat_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "Eski Çağ'da İnanç, Bilim ve Sanat Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eski Çağ'da İnanç, Bilim ve Sanat Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top08_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eski Mısır'da ölümden sonra yaşam (ahiret) inancının bir sonucu olarak cesetlerin mumyalanması, hangi bilim dallarının doğrudan gelişmesini sağlamıştır?",
+          "choices": [
+            "Tıp, anatomi ve eczacılık (farmakoloji)",
+            "Sosyoloji ve felsefe",
+            "Nümizmatik ve epigrafi",
+            "Jeoloji ve sismoloji"
+          ],
+          "correctAnswer": "Tıp, anatomi ve eczacılık (farmakoloji)",
+          "explanation": "Mumyalama sırasında iç organların ve bedenin kimyasal maddelerle korunması, insan anatomisi, tıp ve eczacılıkta ileri düzey bilgi birikimi sağlamıştır."
+        },
+        {
+          "id": "q_tar9_top08_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sümerlerin Ziggurat adı verilen çok katlı tapınaklarının en üst katını rasathane (gözlemevi) olarak kullanmaları hangi bilimsel keşfe zemin hazırlamıştır?",
+          "choices": [
+            "Ay yılı esaslı takvimin ve burçların belirlenmesi",
+            "Güneş saatlerinin ve pusulanın icadı",
+            "Atom teorisinin ortaya atılması",
+            "Dünyanın çevresinin tam olarak hesaplanması"
+          ],
+          "correctAnswer": "Ay yılı esaslı takvimin ve burçların belirlenmesi",
+          "explanation": "Sümer rahipleri ziggurat tepesinden gök cisimlerini gözlemleyerek Ay takvimini, gezegenlerin hareketlerini ve burçları keşfetmişlerdir."
+        },
+        {
+          "id": "q_tar9_top08_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Fenikeliler deniz aşırı ticaret faaliyetlerini kolaylaştırmak amacıyla hiyeroglif ve çivi yazısı yerine tarihin ilk harf yazısı olan 22 harfli Fenike Alfabesini geliştirmişlerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Fenike alfabesi sırasıyla İyon, Yunan ve Latin alfabelerinin temelini oluşturarak evrensel yazı kültürünü dönüştürmüştür."
+        },
+        {
+          "id": "q_tar9_top08_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İyonya medeniyetinde (Efes, Milet, Foça) Thales, Pisagor ve Hipokrat gibi öncü bilim insanlarının yetişmesinde etkili olan en temel faktör hangisidir?",
+          "choices": [
+            "Deniz ticaretiyle zenginleşen şehirlerde özgür düşünce ve sorgulama ortamının bulunması",
+            "Merkezi baskıcı ve teokratik bir imparatorluk yönetimi altında yaşamaları",
+            "Sadece tek tanrılı dinleri benimsemiş olmaları",
+            "Tüm dünyadaki kütüphaneleri yasaklamış olmaları"
+          ],
+          "correctAnswer": "Deniz ticaretiyle zenginleşen şehirlerde özgür düşünce ve sorgulama ortamının bulunması",
+          "explanation": "İyonya şehirlerinde oligarşik/demokratik yapı, yüksek refah seviyesi ve doğu-batı kültür sentezi özgür felsefi ve bilimsel düşünceyi doğurmuştur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9b93dbabe249f575"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_edebiyat_guzel_sanatlar__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_metin_ve_anlam",
+  "stableKey": "tde9_quiz_edebiyat_guzel_sanatlar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.2-Q",
+  "orderKey": 3500,
+  "title": "Edebiyatın Güzel Sanatlarla İlişkisi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Edebiyatın Güzel Sanatlarla İlişkisi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_edeb_sanat_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Güzel sanatlar sınıflandırılırken edebiyat ve müzik, kullandıkları malzeme (ses ve dil) bakımından hangi sanat grubunda yer alır?",
+          "choices": [
+            "İşitsel (Fonetik) Sanatlar",
+            "Görsel (Plastik) Sanatlar",
+            "Dramatik (Ritmik) Sanatlar",
+            "Uygulamalı (Pratik) Sanatlar"
+          ],
+          "correctAnswer": "İşitsel (Fonetik) Sanatlar",
+          "explanation": "Edebiyat ve müzik malzemesi ses ve söz olan işitsel (fonetik) sanatlar grubunda yer alır. Resim ve heykel görsel, tiyatro ve dans ise dramatik sanatlardandır."
+        },
+        {
+          "id": "q_tde9_edeb_sanat_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Edebiyat; tarihi olayları, insan psikolojisini ve toplumsal olguları incelerken tarih, psikoloji ve sosyoloji gibi bilim dallarıyla doğrudan ilişki içindedir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Edebiyat insanı ve toplumu konu edindiği için psikoloji, sosyoloji, tarih ve felsefe gibi beşerî bilimlerden faydalanır ve onlara kaynaklık eder."
+        },
+        {
+          "id": "q_tde9_edeb_sanat_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki metin türü eşleştirmelerinden hangisinde sanat metni (edebî metin) ile öğretici metin bir arada doğru verilmiştir?",
+          "choices": [
+            "Şiir - Makale",
+            "Roman - Hikâye",
+            "Fıkra - Deneme",
+            "Mektup - Biyografi"
+          ],
+          "correctAnswer": "Şiir - Makale",
+          "explanation": "Şiir estetik zevk uyandırmayı amaçlayan kurmaca bir sanat metnidir; makale ise bilgi verme ve kanıtlama amacı güden öğretici bir metindir."
+        },
+        {
+          "id": "q_tde9_edeb_sanat_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Edebiyatın güzel sanatlar arasındaki en belirleyici temel malzemesi aşağıdakilerden hangisidir?",
+          "choices": [
+            "Dil (Sözcükler)",
+            "Boya ve Renk",
+            "Hareket ve Beden",
+            "Taş ve Mermer"
+          ],
+          "correctAnswer": "Dil (Sözcükler)",
+          "explanation": "Edebiyatın ana malzemesi dildir. Duygu, düşünce ve hayaller dil aracılığıyla estetik biçimde ifade edilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_edebiyat_guzel_sanatlar",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d955a58bbc158409"
+    }
+  }
+}

@@ -6,7 +6,9 @@
   "orderKey": 12000,
   "items": [
     "item_tar9_vid_orta_cag_gocler_devletler",
+    "item_tar9_vid_orta_cag_gocler_devletler__quiz",
     "item_tar9_vid_orta_cag_ticaret_yollari",
+    "item_tar9_vid_orta_cag_ticaret_yollari__quiz",
     "item_tar9_quiz_orta_cag"
   ],
   "sourceMeta": {

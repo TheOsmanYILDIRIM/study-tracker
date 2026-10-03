@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Tales, Öklid ve Pisagor Teoremleri",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Rehber Matematik",
     "topic": "Tales, Öklid ve Pisagor Teoremleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",

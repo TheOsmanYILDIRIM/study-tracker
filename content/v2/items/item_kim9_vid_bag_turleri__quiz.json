@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_bag_turleri__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+  "stableKey": "kim9_quiz_bag_turleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Güçlü Etkileşimler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Güçlü Etkileşimler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_bagtur_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kimyasal türleri bir arada tutan güçlü etkileşimler (kimyasal bağlar) hangi seçenekte eksiksiz verilmiştir?",
+          "choices": [
+            "İyonik Bağ, Kovalent Bağ, Metalik Bağ",
+            "Hidrojen Bağı, Dipol-Dipol, London Kuvvetleri",
+            "İyonik Bağ, Hidrojen Bağı, Kovalent Bağ",
+            "Metalik Bağ, Van der Waals Bağları"
+          ],
+          "correctAnswer": "İyonik Bağ, Kovalent Bağ, Metalik Bağ",
+          "explanation": "Güçlü etkileşimler 3 tanedir: İyonik bağ, kovalent bağ ve metalik bağ."
+        },
+        {
+          "id": "q_kim9_bagtur_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Kimyasal bağların (güçlü etkileşimlerin) kopması veya oluşması sırasında meydana gelen enerji değişimi genellikle 40 kJ/mol'den büyüktür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Güçlü etkileşimlerdeki enerji değişimi ≥ 40 kJ/mol olup kimyasal değişimi temsil eder; zayıf etkileşimlerdeki enerji değişimi ise genellikle < 40 kJ/mol'dür."
+        },
+        {
+          "id": "q_kim9_bagtur_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki ametal atomu arasındaki kovalent bağ sayısı (tekli, ikili, üçlü) arttıkça bağ sağlamlığı ve bağ uzunluğu nasıl değişir?",
+          "choices": [
+            "Bağ sağlamlığı artar, bağ uzunluğu kısalır.",
+            "Bağ sağlamlığı azalır, bağ uzunluğu uzar.",
+            "İkisi de artar.",
+            "İkisi de değişmez."
+          ],
+          "correctAnswer": "Bağ sağlamlığı artar, bağ uzunluğu kısalır.",
+          "explanation": "Üçlü bağ tekli bağdan çok daha sağlamdır ve atomları birbirine daha yakın çeker (bağ boyu en kısadır)."
+        },
+        {
+          "id": "q_kim9_bagtur_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "İyonik bağlı bileşikler oda sıcaklığında katı, sıvı veya gaz hâlde bulunabilirler.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "İyonik bağlar çok güçlü elektrostatik çekim oluşturduğundan iyonik bileşiklerin tamamı oda koşullarında katı kristal haldedir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_bag_turleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9a28fc5cf450e49f"
+    }
+  }
+}

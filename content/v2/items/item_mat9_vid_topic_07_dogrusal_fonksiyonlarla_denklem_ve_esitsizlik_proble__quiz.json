@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "stableKey": "mat9_quiz_topic_07_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top07_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir takside taksimetre açılış ücreti 25 TL olup gidilen her kilometre için 10 TL ücret alınmaktadır. x km yolculuk yapan bir müşterinin ödeyeceği ücreti veren f(x) fonksiyonu hangisidir?",
+          "choices": [
+            "f(x) = 10x + 25",
+            "f(x) = 25x + 10",
+            "f(x) = 35x",
+            "f(x) = 10x - 25"
+          ],
+          "correctAnswer": "f(x) = 10x + 25",
+          "explanation": "Sabit açılış bedeli 25 TL ve değişken km bedeli 10x olduğundan toplam maliyet f(x) = 10x + 25 tir."
+        },
+        {
+          "id": "q_mat9_top07_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "3x - 5 ≤ x + 7 eşitsizliğini sağlayan en büyük x tam sayı değeri kaçtır?",
+          "choices": [
+            "6",
+            "5",
+            "7",
+            "12"
+          ],
+          "correctAnswer": "6",
+          "explanation": "3x - x ≤ 7 + 5 ⇒ 2x ≤ 12 ⇒ x ≤ 6. Bu koşulu sağlayan en büyük tam sayı 6 dır."
+        },
+        {
+          "id": "q_mat9_top07_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir eşitsizliğin her iki tarafı negatif bir sayı ile çarpılır veya bölünürse eşitsizlik yön değiştirir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Örneğin 2 < 5 iken -1 ile çarptığımızda -2 > -5 olur; eşitsizlik yön değiştirir."
+        },
+        {
+          "id": "q_mat9_top07_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "f(x) = 100 - 5x fonksiyonu bir depodaki 100 litre suyun saatte 5 litre boşalmasını modellemektedir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Başlangıçta 100 litre olup geçen her x saatte 5x litre azalmaktadır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

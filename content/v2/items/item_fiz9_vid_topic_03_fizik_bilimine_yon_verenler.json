@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "3.1",
   "orderKey": 1000,
-  "title": "Fizik Bilimine Yön Verenler",
+  "title": "Fizik Bilimine Yön Verenler ve Bilim İnsanları",
   "contentUrl": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
   "publishingStatus": "draft",
   "payload": {
-    "provider": "Fizikfinito",
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Fizik Bilimine Yön Verenler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -31,7 +31,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.tr.vtt",
-      "transcriptFingerprint": "dbd42f4bde0e667a"
+      "transcriptFingerprint": "dbd42f4bde0e667a",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

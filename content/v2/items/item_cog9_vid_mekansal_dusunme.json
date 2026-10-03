@@ -7,8 +7,8 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Doğa-İnsan Etkileşimi & Mekânsal Düşünme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,14 @@
       "sourceSection": "2. Hafta: Doğa-İnsan Etkileşimi & Mekânsal Düşünme",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "8b460fc3d1c4e78e"
+      "reviewStatus": "verified",
+      "fingerprint": "8b460fc3d1c4e78e",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

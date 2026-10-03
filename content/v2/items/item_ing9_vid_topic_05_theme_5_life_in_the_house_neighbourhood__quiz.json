@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_topic_05_theme_5_life_in_the_house_neighbourhood",
+  "stableKey": "ing9_quiz_theme5_house_neighbourhood_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Theme 5: Life in the House & Neighbourhood Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Theme 5: Life in the House & Neighbourhood Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_top05_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir evin bölümleri ve eşyaları ile ilgili olarak aşağıdakilerden hangisi DOĞRUDUR?",
+          "choices": [
+            "We usually sleep in the bedroom and keep our clothes in a wardrobe.",
+            "We cook dinner in the bathroom and take a shower in the kitchen.",
+            "We park our cars in the balcony and store books in the oven.",
+            "We watch TV in the garage and plant trees in the living room."
+          ],
+          "correctAnswer": "We usually sleep in the bedroom and keep our clothes in a wardrobe.",
+          "explanation": "İngilizce ev terminolojisinde yatak odasında uyunur (\"sleep in the bedroom\") ve giysiler gardıropta saklanır (\"wardrobe\")."
+        },
+        {
+          "id": "q_ing9_top05_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Tekil bir nesnenin varlığını belirtirken \"There is\", çoğul nesnelerin varlığını belirtirken \"There are\" kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Örnek: \"There is a sofa in the living room\" (tekil) / \"There are two armchairs\" (çoğul)."
+        },
+        {
+          "id": "q_ing9_top05_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"The pharmacy is _______ the bakery and the supermarket.\" (Eczane, fırın ile süpermarketin arasındadır) cümlesinde boşluğa hangi yer edatı gelmelidir?",
+          "choices": [
+            "between",
+            "under",
+            "behind",
+            "on"
+          ],
+          "correctAnswer": "between",
+          "explanation": "İki şeyin arasında olma durumunu ifade etmek için \"between ... and ...\" edatı kullanılır."
+        },
+        {
+          "id": "q_ing9_top05_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Mahallede veya şehirde yol tarifi verirken \"Düz git ve sağa dön\" ifadesinin İngilizce karşılığı hangisidir?",
+          "choices": [
+            "Go straight ahead and turn right.",
+            "Turn left and stop immediately.",
+            "Cross the bridge and go backward.",
+            "Walk under the road and turn back."
+          ],
+          "correctAnswer": "Go straight ahead and turn right.",
+          "explanation": "Yol tarifinde \"Go straight ahead\" (Düz git), \"Turn right\" (Sağa dön), \"Turn left\" (Sola dön) standart kalıplardır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mZ6Yf4vK8mU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "21443c37545038f8"
+    }
+  }
+}

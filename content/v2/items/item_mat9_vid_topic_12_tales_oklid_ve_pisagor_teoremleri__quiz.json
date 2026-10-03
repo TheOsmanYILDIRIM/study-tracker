@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "stableKey": "mat9_quiz_topic_12_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1500,
+  "title": "Tales, Öklid ve Pisagor Teoremleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tales, Öklid ve Pisagor Teoremleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top12_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir dik üçgende dik kenarların uzunlukları 6 cm ve 8 cm olduğuna göre hipotenüsün uzunluğu kaç cm dir?",
+          "choices": [
+            "10 cm",
+            "12 cm",
+            "14 cm",
+            "100 cm"
+          ],
+          "correctAnswer": "10 cm",
+          "explanation": "Pisagor bağıntısına göre c² = 6² + 8² = 36 + 64 = 100 ⇒ c = 10 cm."
+        },
+        {
+          "id": "q_mat9_top12_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir dik üçgende dik köşeden hipotenüse indirilen yükseklik h, hipotenüsü p = 4 cm ve k = 9 cm olmak üzere iki parçaya ayırıyor. h yüksekliği kaç cm dir?",
+          "choices": [
+            "6 cm",
+            "13 cm",
+            "36 cm",
+            "5 cm"
+          ],
+          "correctAnswer": "6 cm",
+          "explanation": "Öklid yükseklik bağıntısı: h² = p · k ⇒ h² = 4 · 9 = 36 ⇒ h = 6 cm dir."
+        },
+        {
+          "id": "q_mat9_top12_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Birbirine paralel doğruların kendilerini kesen doğrular üzerinde ayırdığı karşılıklı parçaların orantılı olduğunu ifade eden teorem hangisidir?",
+          "choices": [
+            "Tales Teoremi",
+            "Pisagor Teoremi",
+            "Kosinüs Teoremi",
+            "Öklid Teoremi"
+          ],
+          "correctAnswer": "Tales Teoremi",
+          "explanation": "Paralel doğru demetlerinin orantılı doğru parçaları oluşturması Tales teoremidir."
+        },
+        {
+          "id": "q_mat9_top12_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Pisagor teoremi (a² + b² = c²) yalnızca dik üçgenlerde geçerlidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Pisagor bağıntısı dik açılı üçgenlere özgü temel bağıntıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

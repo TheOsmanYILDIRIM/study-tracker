@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
+  "stableKey": "cog9_quiz_nufus_dagilisi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1500,
+  "title": "Nüfusun Dağılışı ve Göçler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nüfusun Dağılışı ve Göçler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_nufdag_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dünyada nüfusun seyrek olduğu alanlar ve bunların temel sınırlandırıcı doğal sebepleri eşleştirmelerinden hangisi YANLIŞTIR?",
+          "choices": [
+            "Batı Avrupa - Aşırı kuraklık ve su yetersizliği",
+            "Büyük Sahra - Kuraklık ve çöl koşulları",
+            "Grönland ve Antarktika - Aşırı soğuk ve buzullar",
+            "Amazon ve Kongo Havzası - Aşırı nem, yüksek sıcaklık ve balta girmemiş gür ormanlar"
+          ],
+          "correctAnswer": "Batı Avrupa - Aşırı kuraklık ve su yetersizliği",
+          "explanation": "Batı Avrupa kurak değil; aksine ılıman okyanusal iklimi, verimli toprakları ve sanayisiyle dünyanın en yoğun nüfuslu alanlarındandır."
+        },
+        {
+          "id": "q_cog9_nufdag_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Göç hareketlerinde; savaşlar, siyasi baskılar, doğal afetler veya tarımda makineleşmeyle işsiz kalmak hangi faktör grubu içinde yer alır?",
+          "choices": [
+            "İtici Faktörler",
+            "Çekici Faktörler",
+            "Mevsimlik Faktörler",
+            "Kültürel Faktörler"
+          ],
+          "correctAnswer": "İtici Faktörler",
+          "explanation": "Bireyi yaşadığı yeri terk etmeye zorlayan olumsuzluklar \"itici faktörler\", gidilen yerdeki cazip imkânlar ise \"çekici faktörler\"dir."
+        },
+        {
+          "id": "q_cog9_nufdag_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Yüksek eğitimli bilim insanı, mühendis ve doktorların daha iyi çalışma ve yaşam standartları için gelişmiş ülkelere göç etmesine \"Beyin Göçü\" denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Beyin göçü göç veren ülkenin kalkınma hızını ve inovasyon potansiyelini olumsuz etkileyen nitelikli iş gücü kaybıdır."
+        },
+        {
+          "id": "q_cog9_nufdag_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Toplam nüfusun toplam yüz ölçümüne bölünmesiyle hesaplanan yoğunluk türü hangisidir?",
+          "choices": [
+            "Aritmetik Nüfus Yoğunluğu",
+            "Tarımsal Nüfus Yoğunluğu",
+            "Fizyolojik Nüfus Yoğunluğu",
+            "Ekonomik Nüfus Yoğunluğu"
+          ],
+          "correctAnswer": "Aritmetik Nüfus Yoğunluğu",
+          "explanation": "Aritmetik nüfus yoğunluğu = Toplam Nüfus / Toplam Alan (km²) formülüyle hesaplanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

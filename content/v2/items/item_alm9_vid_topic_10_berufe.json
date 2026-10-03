@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Berufe",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay (Erhan Özdemir)",
     "topic": "Berufe",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,6 +28,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "a5e031267e28ad85",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

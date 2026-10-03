@@ -1,0 +1,87 @@
+{
+  "id": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_05_periyodik_tabloda_yer_bulma",
+  "stableKey": "kim9_quiz_yer_bulma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Periyodik Tabloda Yer Bulma Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Periyodik Tabloda Yer Bulma Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_yer_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Temel hâl elektron diziliminde en yüksek baş kuantum sayısı (n) elementin periyodik cetveldeki hangi özelliğini verir?",
+          "choices": [
+            "Periyot numarasını",
+            "Grup numarasını",
+            "Nötron sayısını",
+            "İyon yükünü"
+          ],
+          "correctAnswer": "Periyot numarasını",
+          "explanation": "Elektron dizilimindeki en büyük baş kuantum sayısı (en yüksek enerji katmanı) periyot numarasını gösterir."
+        },
+        {
+          "id": "q_kim9_yer_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Atom numarası 15 olan Fosfor (₁₅P) elementinin periyodik tablodaki yeri nedir? (Elektron dizilimi: 1s² 2s² 2p⁶ 3s² 3p³)",
+          "choices": [
+            "3. Periyot, 5A Grubu (15. Grup)",
+            "2. Periyot, 5A Grubu",
+            "3. Periyot, 3A Grubu",
+            "4. Periyot, 5A Grubu"
+          ],
+          "correctAnswer": "3. Periyot, 5A Grubu (15. Grup)",
+          "explanation": "En yüksek baş kuantum sayısı 3 (3. Periyot), değerlik elektronları 3s² ve 3p³ toplamı 2+3=5 (5A Grubu)."
+        },
+        {
+          "id": "q_kim9_yer_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Helyum (₂He) elementinin elektron dizilimi 1s² olup değerlik elektron sayısı 2 olmasına rağmen kimyasal benzerliği nedeniyle 8A (18. grup) asal gazlar grubunda yer alır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "He tek katmanını 2 elektronla doldurarak dubletini tamamlamış kararlı bir asal gazdır, bu yüzden 2A'da değil 8A grubunda bulunur."
+        },
+        {
+          "id": "q_kim9_yer_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Son katman elektron dizilimi ...ns² np⁵ şeklinde biten elementler periyodik cetvelde hangi özel isimle adlandırılan grupta bulunur?",
+          "choices": [
+            "Halojenler (7A Grubu)",
+            "Alkali Metaller (1A Grubu)",
+            "Toprak Alkali Metaller (2A Grubu)",
+            "Kalkojenler (6A Grubu)"
+          ],
+          "correctAnswer": "Halojenler (7A Grubu)",
+          "explanation": "Değerlik elektron sayısı 2 + 5 = 7 olan 7A grubu elementlerine Halojenler (tuz oluşturanlar: F, Cl, Br, I) denir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "824b461629b0644f"
+    }
+  }
+}

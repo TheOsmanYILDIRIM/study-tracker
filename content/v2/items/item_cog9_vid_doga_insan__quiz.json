@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_doga_insan__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_quiz_doga_insan_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Doğal Ortamlar ve Coğrafyanın Bölümleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Doğal Ortamlar ve Coğrafyanın Bölümleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_doga_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yeryüzünü oluşturan 4 temel doğal ortam (Muhteşem Dörtlü) hangi seçenekte eksiksiz verilmiştir?",
+          "choices": [
+            "Litosfer (Taş küre), Atmosfer (Hava küre), Hidrosfer (Su küre), Biyosfer (Canlılar küresi)",
+            "Barisfer, Pirosfer, Hidrosfer, Stratosfer",
+            "Klimatoloji, Jeomorfoloji, Hidrografya, Kartografya",
+            "Troposfer, Termosfer, Mezosfer, İyonosfer"
+          ],
+          "correctAnswer": "Litosfer (Taş küre), Atmosfer (Hava küre), Hidrosfer (Su küre), Biyosfer (Canlılar küresi)",
+          "explanation": "Coğrafyanın incelediği doğal ortam dört ana bileşenden oluşur: Litosfer (Taş), Atmosfer (Hava), Hidrosfer (Su) ve bunların kesişiminde yer alan Biyosfer (Canlılar)."
+        },
+        {
+          "id": "q_cog9_doga_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yer şekillerinin (dağ, plato, ova, vadi vb.) oluşumunu, gelişimini ve yeryüzündeki dağılışını inceleyen fiziki coğrafya alt dalı hangisidir?",
+          "choices": [
+            "Jeomorfoloji (Yüzey Şekilleri Bilimi)",
+            "Klimatoloji (İklim Bilimi)",
+            "Hidrografya (Sular Coğrafyası)",
+            "Biyocoğrafya (Canlılar Coğrafyası)"
+          ],
+          "correctAnswer": "Jeomorfoloji (Yüzey Şekilleri Bilimi)",
+          "explanation": "Jeomorfoloji; jeoloji, jeofizik ve pedolojiden yararlanarak yer şekillerinin iç ve dış kuvvetlerle şekillenmesini inceler."
+        },
+        {
+          "id": "q_cog9_doga_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kartografya; harita ve harita benzeri mekânsal modellerin hazırlanması, çizimi ve yorumlanmasını konu edinen fiziki coğrafya alt dalıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Kartografya, haritacılık bilimidir ve coğrafi verilerin düzleme aktarılması ve modellenmesiyle ilgilenir."
+        },
+        {
+          "id": "q_cog9_doga_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi Beşerî Coğrafya'nın inceleme alanları arasında YER ALMAZ?",
+          "choices": [
+            "Volkanik patlamalar ve deprem dalgalarının yayılımı",
+            "Nüfusun yaş ve cinsiyet yapısı",
+            "Kırsal ve kentsel yerleşme dokuları",
+            "Tarım ve sanayi faaliyetlerinin mekânsal dağılışı"
+          ],
+          "correctAnswer": "Volkanik patlamalar ve deprem dalgalarının yayılımı",
+          "explanation": "Volkanizma ve depremler doğa olayları olup Fiziki Coğrafya'nın (Jeomorfoloji / Jeoloji) konusudur; insan faaliyetleri ise beşerî coğrafyaya aittir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_doga_insan",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

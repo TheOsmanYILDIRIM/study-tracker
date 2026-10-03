@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+  "stableKey": "mat9_quiz_topic_06_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top06_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "x < 0 olmak üzere |x| + |-2x| - |3x| işleminin sonucu kaçtır?",
+          "choices": [
+            "0",
+            "-6x",
+            "6x",
+            "-2x"
+          ],
+          "correctAnswer": "0",
+          "explanation": "x < 0 iken |x| = -x, |-2x| = -2x ve |3x| = -3x olur. -x + (-2x) - (-3x) = -3x + 3x = 0 dır."
+        },
+        {
+          "id": "q_mat9_top06_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "|2x - 4| = 6 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+          "choices": [
+            "4",
+            "5",
+            "-1",
+            "6"
+          ],
+          "correctAnswer": "4",
+          "explanation": "2x - 4 = 6 ⇒ 2x = 10 ⇒ x = 5 ya da 2x - 4 = -6 ⇒ 2x = -2 ⇒ x = -1 olur. Toplamları 5 + (-1) = 4 tür."
+        },
+        {
+          "id": "q_mat9_top06_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Her x ∈ R için |x| ≥ 0 dır ve |-x| = |x| eşitliği geçerlidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Mutlak değer geometrik olarak başlangıç noktasına uzaklık olduğundan daima negatif değildir ve simetriktir."
+        },
+        {
+          "id": "q_mat9_top06_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "|x - a| ifadesi sayı doğrusu üzerinde x noktasının a noktasına olan uzaklığını gösterir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İki gerçek sayı arasındaki uzaklık farklarının mutlak değeri |x - a| ile tanımlanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

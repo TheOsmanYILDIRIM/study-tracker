@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Im Klassenzimmer",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & MEB EBA",
     "topic": "Im Klassenzimmer",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,6 +26,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "08658ac468fd853c",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

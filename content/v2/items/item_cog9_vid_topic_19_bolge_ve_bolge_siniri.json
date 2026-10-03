@@ -32,7 +32,12 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.tr.vtt",
-      "transcriptFingerprint": "eb386b00a00bd43e"
+      "transcriptFingerprint": "eb386b00a00bd43e",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

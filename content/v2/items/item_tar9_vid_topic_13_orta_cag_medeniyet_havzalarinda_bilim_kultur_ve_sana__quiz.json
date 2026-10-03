@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "stableKey": "tar9_quiz_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top13_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Abbasi Halifesi el-Memun döneminde Bağdat'ta kurulan, Antik Yunan, Hint ve Fars eserlerinin Arapçaya çevrildiği ve bilimsel akademinin merkezi olan kurum hangisidir?",
+          "choices": [
+            "Beytülhikme (Bilgelik Evi)",
+            "Nizamiye Medresesi",
+            "Darüşşifa",
+            "Enderun Mektebi"
+          ],
+          "correctAnswer": "Beytülhikme (Bilgelik Evi)",
+          "explanation": "Beytülhikme, 9. yüzyılda İslam dünyasında felsefe, astronomi, tıp ve matematiğin altın çağını başlatan devasa tercüme ve araştırma merkezidir."
+        },
+        {
+          "id": "q_tar9_top13_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"El-Kânûn fi't-Tıbb\" adlı başyapıtı Avrupa üniversitelerinde asırlarca temel tıp kitabı olarak okutulan ve Batı'da \"Avicenna\" olarak tanınan tıp bilgini kimdir?",
+          "choices": [
+            "İbn-i Sînâ",
+            "Fârâbî",
+            "El-Bîrûnî",
+            "İbn Rüşd"
+          ],
+          "correctAnswer": "İbn-i Sînâ",
+          "explanation": "İbn-i Sina (Avicenna), tıp ve felsefe alanında yazdığı eserlerle hem Doğu hem de Batı bilim dünyasını derinden etkilemiş hekimlerin piridir."
+        },
+        {
+          "id": "q_tar9_top13_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Sıfır (0) rakamını ilk kez matematikte bağımsız bir sayı olarak kullanan ve \"Cebir\" biliminin kurucusu olan Müslüman matematikçi Hârizmî'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hârizmî (Al-Khwarizmi), El-Cebr ve'l-Mukâbele adlı eseriyle cebir bilimini kurmuş ve algoritma terimine ismini vermiştir."
+        },
+        {
+          "id": "q_tar9_top13_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Orta Çağ'da kâğıt, matbaa, barut ve pusulayı icat ederek insanlık tarihinin seyrini değiştiren Uzak Doğu medeniyeti hangisidir?",
+          "choices": [
+            "Çin Medeniyeti",
+            "Hint Medeniyeti",
+            "Japon Medeniyeti",
+            "Sasani Medeniyeti"
+          ],
+          "correctAnswer": "Çin Medeniyeti",
+          "explanation": "Çin'de icat edilen kâğıt, matbaa, pusula ve barut; Talas Savaşı ve Haçlı Seferleri yoluyla İslam dünyasına ve oradan Avrupa'ya taşınarak Rönesans, Reform ve Coğrafi Keşiflere zemin hazırlamıştır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9aabec52612a61c8"
+    }
+  }
+}

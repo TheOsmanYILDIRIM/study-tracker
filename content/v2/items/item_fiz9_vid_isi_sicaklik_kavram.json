@@ -6,8 +6,8 @@
   "itemType": "VIDEO",
   "displayLabel": "4.1",
   "orderKey": 1000,
-  "title": "İç Enerji, Isı ve Sıcaklık Kavramları",
-  "contentUrl": null,
+  "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
+  "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "e546c866395ea3a9"
-    }
+      "fingerprint": "e546c866395ea3a9",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

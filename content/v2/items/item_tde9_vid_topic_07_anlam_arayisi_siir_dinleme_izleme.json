@@ -7,8 +7,8 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Anlam Arayışı: Şiir Dinleme/İzleme",
@@ -23,11 +23,12 @@
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir)",
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir) • YAZMA • • Temaya uygun bir şiir yazabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "6757286a6ebe308c",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
     }
   }
 }

@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_schulsachen_artikel__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_schule_und_alltag",
+  "stableKey": "alm9_quiz_schulsachen_artikel_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Schulsachen und Artikel Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Schulsachen und Artikel Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_art_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada \"der\" (eril) ve \"das\" (nötr) artikelindeki kelimelerin belirsiz artikeli (unbestimmter Artikel) nedir?",
+          "choices": [
+            "ein",
+            "eine",
+            "kein",
+            "keine"
+          ],
+          "correctAnswer": "ein",
+          "explanation": "der Bleistift -> ein Bleistift, das Buch -> ein Buch. Eril ve nötr isimlerin belirsiz hali \"ein\"dır."
+        },
+        {
+          "id": "q_alm9_art_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"die Schere\" (dişil - makas) kelimesinin olumsuz belirsiz artikeli (kein/keine) hangisidir?",
+          "choices": [
+            "keine Schere",
+            "kein Schere",
+            "nicht Schere",
+            "keinen Schere"
+          ],
+          "correctAnswer": "keine Schere",
+          "explanation": "Dişil (die) isimlerin belirsiz olumsuzu \"keine\" ekini alır (keine Schere, keine Schultasche)."
+        },
+        {
+          "id": "q_alm9_art_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Das ist kein Buch, das ist ein Heft.\" cümlesi \"Bu bir kitap değil, bu bir defterdir.\" anlamına gelir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"kein Buch\" (kitap değil), \"ein Heft\" (bir defter)."
+        },
+        {
+          "id": "q_alm9_art_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"die Tasche\" kelimesini \"bir çanta\" olarak belirsiz artikelle kullanmak istersek hangisi doğrudur?",
+          "choices": [
+            "eine Tasche",
+            "ein Tasche",
+            "einen Tasche",
+            "kein Tasche"
+          ],
+          "correctAnswer": "eine Tasche",
+          "explanation": "Dişil (die) isimlerin belirsiz artikeli \"eine\"dir (eine Tasche)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_schulsachen_artikel",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "22b22784577aa0f1",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "073952b3b3e719ae"
+    }
+  }
+}

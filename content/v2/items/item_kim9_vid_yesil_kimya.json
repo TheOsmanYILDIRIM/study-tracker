@@ -7,8 +7,8 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Nanoparçacıklar, Ekolojik Sürdürülebilirlik ve Yeşil Kimya",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L140",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "ee46e61d9bd98733"
-    }
+      "fingerprint": "ee46e61d9bd98733",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg"
+    },
+    "provider": "Meschemy Kimya"
   }
 }

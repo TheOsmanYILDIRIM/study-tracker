@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
+  "stableKey": "kim9_quiz_sivilar_ozellikler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "15.1-Q",
+  "orderKey": 1500,
+  "title": "Sıvılar ve Özellikleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sıvılar ve Özellikleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_siv_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıvıların akmaya karşı gösterdiği iç dirence ne ad verilir ve sıcaklık arttıkça bu değer nasıl değişir?",
+          "choices": [
+            "Viskozite denir; sıcaklık arttıkça azalır (akıcılık artar).",
+            "Viskozite denir; sıcaklık arttıkça artar.",
+            "Yüzey gerilimi denir; sıcaklık arttıkça artar.",
+            "Buhar basıncı denir; sıcaklık arttıkça azalır."
+          ],
+          "correctAnswer": "Viskozite denir; sıcaklık arttıkça azalır (akıcılık artar).",
+          "explanation": "Viskozite akmaya karşı dirençtir. Sıcaklık arttığında moleküller arası bağlar gevşer, viskozite düşer ve sıvı daha kolay akar (örneğin sıcak bal veya ısıtılan motor yağı)."
+        },
+        {
+          "id": "q_kim9_siv_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kapalı bir kaptaki saf sıvının denge buhar basıncını aşağıdakilerden hangisi ETKİLEMEZ?",
+          "choices": [
+            "Sıvının miktarı ve kabın şekli/hacmi",
+            "Sıvının sıcaklığı",
+            "Sıvının cinsi (moleküller arası çekim)",
+            "Sıvının saflığı (içinde uçucu olmayan katı çözünmesi)"
+          ],
+          "correctAnswer": "Sıvının miktarı ve kabın şekli/hacmi",
+          "explanation": "Buhar basıncı sadece 3S kuralına bağlıdır: Sıcaklık, Sıvının cinsi, Saflık. Sıvı miktarı, kap hacmi ve açık hava basıncı buhar basıncını etkilemez."
+        },
+        {
+          "id": "q_kim9_siv_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kaynama olayı, bir sıvının iç buhar basıncının bulunduğu ortamdaki açık hava (dış) basıncına eşitlendiği sıcaklıkta gerçekleşir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "P(buhar) = P(dış) olduğunda kaynama başlar; dış basınç düşerse (dağın tepesinde) kaynama noktası da düşer."
+        },
+        {
+          "id": "q_kim9_siv_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Aynı sıvı molekülleri arasındaki çekim kuvvetine Adezyon, sıvı molekülleri ile kap çeperi arasındaki çekim kuvvetine ise Kohezyon denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Tam tersidir! Aynı cins moleküller arası çekim KOHEZYON (yüzey gerilimini oluşturan), farklı maddeler arası yapışma kuvveti ise ADEZYON'dur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "a13f92cb593fecb6"
+    }
+  }
+}

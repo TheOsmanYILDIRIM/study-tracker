@@ -6,6 +6,7 @@
   "orderKey": 7000,
   "items": [
     "item_alm9_vid_schulsachen_artikel",
+    "item_alm9_vid_schulsachen_artikel__quiz",
     "item_alm9_quiz_schule_artikel"
   ],
   "sourceMeta": {

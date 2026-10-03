@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_tarim_devrimi_mezopotamya__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_tarim_devrimi_mezopotamya_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Tarım Devrimi ve Mezopotamya Medeniyetleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarım Devrimi ve Mezopotamya Medeniyetleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_mezop_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Mezopotamya'da MÖ 3200 civarında çivi yazısını icat ederek Tarih Çağları'nı başlatan ve tarihteki ilk tekerleği kullanan medeniyet hangisidir?",
+          "choices": [
+            "Sümerler",
+            "Akadlar",
+            "Elamlar",
+            "Hititler"
+          ],
+          "correctAnswer": "Sümerler",
+          "explanation": "Sümerler; çivi yazısı, tekerlek, ziggurat, ilk yazılı kanunlar ve 60 tabanlı matematik sistemiyle Mezopotamya uygarlığının kurucusudur."
+        },
+        {
+          "id": "q_tar9_mezop_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sargon liderliğinde tarihin ilk merkezi imparatorluğunu ve ilk düzenli daimi ordusunu kuran Mezopotamya devleti hangisidir?",
+          "choices": [
+            "Akadlar",
+            "Babiller",
+            "Asurlar",
+            "Urartular"
+          ],
+          "correctAnswer": "Akadlar",
+          "explanation": "Kral Sargon komutasındaki Akadlar, tüm Mezopotamya sitelerini tek çatı altında toplayarak ilk imparatorluk ve ilk daimi ordu yapısını inşa etmiştir."
+        },
+        {
+          "id": "q_tar9_mezop_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Mezopotamya coğrafyasında taş ocaklarının az olması sebebiyle binaların kerpiç ve balçık tuğladan inşa edilmesi, yapıların günümüze kadar sağlam ulaşamamasına neden olmuştur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Mısır'daki gibi taş mimari yerine kerpiç kullanılması, Mezopotamya eserlerinin istilalar ve doğal koşullarla çabuk yok olmasına yol açmıştır."
+        },
+        {
+          "id": "q_tar9_mezop_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kayseri Kültepe'de (Kaniş) \"Karum\" adı verilen ticaret kolonileri kurarak Anadolu'ya çivi yazısını getiren ve Anadolu'da Tarih Çağlarını başlatan Mezopotamya uygarlığı hangisidir?",
+          "choices": [
+            "Asurlar",
+            "Sümerler",
+            "Babiller",
+            "Fenikeliler"
+          ],
+          "correctAnswer": "Asurlar",
+          "explanation": "Asurlu tüccarlar Kültepe Karumu üzerinden Anadolu ile yoğun ticaret yapmış ve çivi yazılı tabletleri Anadolu'ya taşıyarak bölgeyi tarih çağına sokmuştur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_tarim_devrimi_mezopotamya",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "7e970a85590f9b83"
+    }
+  }
+}

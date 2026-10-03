@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
+  "stableKey": "biyo9_quiz_uc_ust_alem_sistemi_ve_canli_gruplari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Üç Üst Âlem Sistemi ve Canlı Grupları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üç Üst Âlem Sistemi ve Canlı Grupları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_alem_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Modern biyolojik sınıflandırmada canlıların hücresel ve moleküler özelliklerine göre ayrıldığı 'Üç Üst Âlem' (Domain) hangileridir?",
+          "choices": [
+            "Bakteriler (Bacteria), Arkeler (Archaea) ve Ökaryotlar (Eukarya)",
+            "Bitkiler, Hayvanlar ve Mantarlar",
+            "Monera, Protista ve Fungi",
+            "Virüsler, Bakteriler ve Ökaryotlar"
+          ],
+          "correctAnswer": "Bakteriler (Bacteria), Arkeler (Archaea) ve Ökaryotlar (Eukarya)",
+          "explanation": "Modern taksonomide tüm canlılar Bacteria, Archaea ve Eukarya olmak üzere 3 üst âlem (domain) altında incelenir."
+        },
+        {
+          "id": "q_biyo9_alem_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşırı sıcak su kaynakları, yüksek tuz konsantrasyonu veya asidik ortamlarda yaşayabilen ekstrem koşullara uyum sağlamış prokaryotlar hangi gruptadır?",
+          "choices": [
+            "Arkeler (Archaea)",
+            "Bakteriler",
+            "Protistler",
+            "Mantarlar"
+          ],
+          "correctAnswer": "Arkeler (Archaea)",
+          "explanation": "Arkeler termofil, halofil, metanojen gibi zorlu ve ekstrem çevre koşullarında hayatta kalabilen özel hücre zarı ve çeperine sahip prokaryotlardır."
+        },
+        {
+          "id": "q_biyo9_alem_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Ökaryotlar (Eukarya) üst âlemi; Protistler, Bitkiler, Mantarlar ve Hayvanlar olmak üzere dört temel âleme ayrılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Eukarya üst âleminde zarlı organellere ve çekirdeğe sahip Protista, Plantae, Fungi ve Animalia âlemleri bulunur."
+        },
+        {
+          "id": "q_biyo9_alem_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bakteriler âlemindeki canlıların tamamı çok hücreli olup hücre çeperlerinde kitin bulunur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Bakteriler tek hücreli prokaryot canlılardır ve hücre çeperleri peptidoglikan yapılıdır (kitin mantarlarda bulunur)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "1b2c3d4e5f6a7b8c",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "bc940718542a3767"
+    }
+  }
+}

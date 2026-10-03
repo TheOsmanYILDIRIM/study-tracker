@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_anadolu_ve_turkler__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_anadolu_ve_turkler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.2-Q",
+  "orderKey": 2500,
+  "title": "Anadolu Medeniyetleri ve Bozkır Yaşamı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Anadolu Medeniyetleri ve Bozkır Yaşamı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_anad_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Lidyalıların parayı icat ederek takas usulüne son vermesi ve Sardes'ten Ninova'ya uzanan Kral Yolu'nu canlandırması en çok hangi alanı geliştirmiştir?",
+          "choices": [
+            "Uluslararası ticaret ve piyasa ekonomisini",
+            "Deniz sömürgeciliğini",
+            "Piramit mimarisini",
+            "Feodal toprak köleliğini"
+          ],
+          "correctAnswer": "Uluslararası ticaret ve piyasa ekonomisini",
+          "explanation": "Madenî paranın basılması alışverişi kolaylaştırmış, sermaye birikimini ve Kral Yolu üzerindeki ticareti büyük ölçüde hızlandırmıştır."
+        },
+        {
+          "id": "q_tar9_anad_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İlk Çağ Türk bozkır kültüründe konargöçer yaşam tarzının gereği olarak ortaya çıkan, her an savaşa hazır olma durumuna ne ad verilir?",
+          "choices": [
+            "Ordu-Millet Anlayışı",
+            "Ücretli Lejyonerlik",
+            "Şövalyelik Sistemi",
+            "Kast Teşkilatı"
+          ],
+          "correctAnswer": "Ordu-Millet Anlayışı",
+          "explanation": "Türklerde ayrı bir asker sınıfı bulunmaz; konargöçer yaşamın zor şartları gereği tüm halk her an savaşa hazır birer asker (ordu-millet) olarak yetişir."
+        },
+        {
+          "id": "q_tar9_anad_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Frigler, temel geçim kaynakları olan tarım ve hayvancılığı korumak amacıyla öküz kesene veya saban kırana ölüm cezası veren son derece sert yasalar koymuşlardır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Frig hukukunun en belirgin özelliği tarım ve hayvancılığı koruyucu katı hükümler içermesidir; bereketi simgeleyen tanrıçaları da Kibele'dir."
+        },
+        {
+          "id": "q_tar9_anad_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eski Türklerde ölen hükümdar ve kahramanların atları ve değerli eşyalarıyla birlikte gömüldüğü tümülüs tipi tepe mezarlara ne ad verilir?",
+          "choices": [
+            "Kurgan",
+            "Balbal",
+            "Ziggurat",
+            "Menhir"
+          ],
+          "correctAnswer": "Kurgan",
+          "explanation": "Kurganlar, Eski Türklerde ahiret inancını gösteren mezar odalarıdır (Pazırık ve Esik kurganları en ünlü örnekleridir)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_anadolu_ve_turkler",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "866b38cdc7b6595a"
+    }
+  }
+}

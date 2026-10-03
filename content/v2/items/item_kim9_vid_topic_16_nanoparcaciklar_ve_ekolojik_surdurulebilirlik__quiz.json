@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "stableKey": "kim9_quiz_nanoparcaciklar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "16.1-Q",
+  "orderKey": 1500,
+  "title": "Nanoparçacıklar ve Yeşil Sentez Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nanoparçacıklar ve Yeşil Sentez Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_nano_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Nanoparçacıklar metrenin milyarda biri (1 - 100 nm) boyutundaki taneciklerdir. Maddeler nano boyuta indiğinde kimyasal reaktivitelerinin muazzam artmasının temel nedeni nedir?",
+          "choices": [
+            "Yüzey alanı / hacim oranının aşırı derecede artması",
+            "Kütle çekim kuvvetinin artması",
+            "Atom numaralarının değişmesi",
+            "Proton sayılarının azalması"
+          ],
+          "correctAnswer": "Yüzey alanı / hacim oranının aşırı derecede artması",
+          "explanation": "Maddeler ufalandıkça toplam yüzey alanı katbekat artar ve yüzeydeki aktif atom sayısı arttığı için reaktiflik olağanüstü yükselir."
+        },
+        {
+          "id": "q_kim9_nano_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yeşil kimya kapsamında evsel atıklardan (nar kabuğu, çay atığı, meyve özütleri) gümüş nanoparçacık (AgNP) eldesinde bu bitkisel atıklar hangi rolde görev yapar?",
+          "choices": [
+            "Doğal indirgeyici ve stabilize edici ajan olarak",
+            "Yüksek sıcaklık fırını olarak",
+            "Radyoaktif kaynak olarak",
+            "Ağır metal kirleticisi olarak"
+          ],
+          "correctAnswer": "Doğal indirgeyici ve stabilize edici ajan olarak",
+          "explanation": "Bitki ekstraktlarındaki polifenoller ve antioksidanlar, toksik kimyasal kullanmadan Ag⁺ iyonlarını Ag⁰ nano taneciklerine indirger."
+        },
+        {
+          "id": "q_kim9_nano_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Gümüş nanoparçacıklar güçlü antimikrobiyal ve antibakteriyel özellikleri sayesinde medikal pansuman örtülerinde ve spor giyim kumaşlarında yaygın kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "AgNP bakterilerin hücre duvarını ve DNA sentezini bozarak bakteri üremesini engeller."
+        },
+        {
+          "id": "q_kim9_nano_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Metal nanoparçacıkların su arıtma tesislerinde tutulamayarak sucul ekosistemlere ve nehirlere karışması su canlılarında biyolojik birikime ve ekotoksikolojik risklere yol açabilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Nano boyuttaki tanecikler hücre zarlarından kolayca geçebilir ve besin zincirinde birikerek ekolojik tehdit oluşturabilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "78949c31549d0d65"
+    }
+  }
+}

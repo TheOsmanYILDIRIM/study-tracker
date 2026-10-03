@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_16_tehlike_risk_ve_afet__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+  "stableKey": "cog9_quiz_tehlike_risk_afet_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "16.1-Q",
+  "orderKey": 1500,
+  "title": "Tehlike, Risk ve Afet Kavramları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tehlike, Risk ve Afet Kavramları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_tehrisk_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğal veya teknolojik bir olayın can, mal ve çevre üzerinde kayıplara yol açabilme potansiyeline ne ad verilir?",
+          "choices": [
+            "Tehlike (Hazard)",
+            "Afet (Disaster)",
+            "Müdahale (Response)",
+            "İyileştirme (Recovery)"
+          ],
+          "correctAnswer": "Tehlike (Hazard)",
+          "explanation": "Tehlike potansiyel zarar kaynağıdır (ör. fay hattının varlığı); bu tehlike insan yerleşimine zarar verdiğinde afete dönüşür."
+        },
+        {
+          "id": "q_cog9_tehrisk_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Afet yönetiminde \"Risk\" büyüklüğü hangi temel bileşenlerin etkileşimiyle belirlenir?",
+          "choices": [
+            "Tehlike × Zarar Görebilirlik (Hassasiyet) / Baş Edebilme Kapasitesi",
+            "Yalnızca arazinin eğimi ve deniz seviyesine yüksekliği",
+            "Yalnızca havadaki oksijen oranı",
+            "Sadece bölgedeki maden rezervi miktarı"
+          ],
+          "correctAnswer": "Tehlike × Zarar Görebilirlik (Hassasiyet) / Baş Edebilme Kapasitesi",
+          "explanation": "Risk formülü; mevcut tehlikenin büyüklüğü ile toplumun dayanıksızlığının (zarar görebilirlik) çarpımı ve hazırlık kapasitesine oranıdır."
+        },
+        {
+          "id": "q_cog9_tehrisk_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir doğa olayının \"Afet\" olarak tanımlanabilmesi için toplumun normal yaşam düzenini ve sosyoekonomik faaliyetlerini kesintiye uğratması ve yerel imkânlarla baş edilemeyecek kayıplara yol açması gerekir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Kimsenin yaşamadığı çölde olan şiddetli deprem bir doğa olayıdır; can ve mal kaybına yol açtığında afet niteliği kazanır."
+        },
+        {
+          "id": "q_cog9_tehrisk_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Afetler yalnızca deprem ve sel gibi doğa olaylarıyla sınırlı olmayıp nükleer sızıntılar, kimyasal patlamalar ve baraj yıkılmaları gibi teknolojik/beşerî kökenli de olabilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Afetler kökenine göre Doğal Afetler ve Teknolojik/İnsan Kaynaklı Afetler olmak üzere iki ana gruba ayrılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

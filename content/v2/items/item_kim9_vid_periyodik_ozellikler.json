@@ -7,8 +7,8 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L55",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "6930cb3832e890be"
-    }
+      "fingerprint": "6930cb3832e890be",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM"
+    },
+    "provider": "Kimya Adası"
   }
 }

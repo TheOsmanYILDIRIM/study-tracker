@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+  "stableKey": "cog9_quiz_nicin_cografya_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Niçin Coğrafya Öğrenmeliyiz Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Niçin Coğrafya Öğrenmeliyiz Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_top02_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Coğrafya eğitiminin bireye kazandırdığı temel yetkinliklerden biri aşağıdakilerden hangisidir?",
+          "choices": [
+            "Doğal kaynakların sürdürülebilir kullanımını kavrama ve çevre bilinci geliştirme",
+            "Tüm dünya ülkelerinin sadece başkent isimlerini ezberleme",
+            "Hava durumu tahminlerini laboratuvarda kimyasal deneyle üretme",
+            "Sadece geçmişte yaşamış tarihi şahsiyetleri inceleme"
+          ],
+          "correctAnswer": "Doğal kaynakların sürdürülebilir kullanımını kavrama ve çevre bilinci geliştirme",
+          "explanation": "Coğrafya bilimi, insan-doğa dengesini gözeterek doğal varlıkların bilinçli ve sürdürülebilir yönetilmesini sağlar."
+        },
+        {
+          "id": "q_cog9_top02_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Coğrafya öğrenmek; deprem, sel, heyelan ve kuraklık gibi doğal tehlikelerin risklerini önceden belirleyerek afetlere karşı dirençli toplumlar oluşturmaya yardımcı olur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Mekânsal analizler ve risk haritaları sayesinde afet öncesi tedbirler planlanır ve kayıplar en aza indirilir."
+        },
+        {
+          "id": "q_cog9_top02_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Küresel ölçekte yaşanan iklim krizi, su kıtlığı ve kitlesel göç hareketlerinin kök nedenlerini ve çözümlerini araştırırken hangi bilimsel bakış açısı zorunludur?",
+          "choices": [
+            "Mekânsal ve bütüncül coğrafi bakış açısı",
+            "Yalnızca mikrobiyolojik bakış açısı",
+            "Yalnızca soyut matematiksel aksiyomlar",
+            "Yalnızca nümizmatik bakış açısı"
+          ],
+          "correctAnswer": "Mekânsal ve bütüncül coğrafi bakış açısı",
+          "explanation": "Küresel sorunlar yerel ve bölgesel dinamiklerle doğrudan bağlantılı olduğundan coğrafyanın mekânsal sentez yeteneğine ihtiyaç duyar."
+        },
+        {
+          "id": "q_cog9_top02_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Vatan sevgisi, millî şuur ve kendi ülkesinin jeopolitik/doğal potansiyelini tanımak coğrafya öğretiminin temel amaçları arasındadır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "MEB Maarif Modeli coğrafya öğretim programı, bireylerin kendi ülkesinin mekânsal zenginliklerini ve stratejik konumunu tanımasını hedefler."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

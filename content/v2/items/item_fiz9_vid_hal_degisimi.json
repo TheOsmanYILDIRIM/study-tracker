@@ -7,7 +7,7 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "026003d46f482694"
-    }
+      "fingerprint": "026003d46f482694",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

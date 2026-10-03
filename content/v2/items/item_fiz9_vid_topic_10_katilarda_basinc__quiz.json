@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_10_katilarda_basinc__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_10_katilarda_basinc",
+  "stableKey": "fiz9_quiz_katilarda_basinc_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Katılarda Basınç Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Katılarda Basınç Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_katbas_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Birim yüzeye dik olarak etki eden kuvvete basınç (P = F / S) denir. SI sisteminde basınç birimi nedir?",
+          "choices": [
+            "Pascal (Pa = N/m²)",
+            "Joule (J)",
+            "Watt (W)",
+            "Newton (N)"
+          ],
+          "correctAnswer": "Pascal (Pa = N/m²)",
+          "explanation": "Basınç birimi N/m² olup bu özel birime Blaise Pascal'ın anısına Pascal (Pa) denir."
+        },
+        {
+          "id": "q_fiz9_katbas_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Katılar üzerlerine uygulanan dik kuvveti doğrultusunu ve büyüklüğünü değiştirmeden aynen iletirler, ancak basıncı temas yüzeyine bağlı olarak değiştirirler.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Katılar kuvveti aynen iletir (çivinin başına uygulanan kuvvet sivri ucuna aynen iletilir). Sivri uçta alan küçük olduğu için basınç katbekat artar."
+        },
+        {
+          "id": "q_fiz9_katbas_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki uygulamalardan hangisinde basıncı AZALTMAK amaçlanmıştır?",
+          "choices": [
+            "Ağır iş makinelerine ve tanklara geniş palet takılması",
+            "Bıçakların bilenerek ağzının inceltilmesi",
+            "Futbol kramponlarının altına diş konulması",
+            "İğne ve çivilerin uçlarının sivri yapılması"
+          ],
+          "correctAnswer": "Ağır iş makinelerine ve tanklara geniş palet takılması",
+          "explanation": "Palet takılarak yüzey alanı (S) büyütülür, böylece zemine yapılan basınç (P = G/S) azaltılarak batma engellenir."
+        },
+        {
+          "id": "q_fiz9_katbas_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bazı kristal katılara (kuvars gibi) basınç uygulandığında kristalin iki ucu arasında elektrik potansiyel farkı oluşması olayına ne ad verilir?",
+          "choices": [
+            "Piezoelektrik Olayı",
+            "Fotoelektrik Olayı",
+            "Termoelektrik Olayı",
+            "Süperiletkenlik"
+          ],
+          "correctAnswer": "Piezoelektrik Olayı",
+          "explanation": "Basınç etkisiyle elektriksel voltaj üretilmesine piezoelektrik olay denir (çakmak manyetoları, dijital teraziler)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_10_katilarda_basinc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "903dbc164a3d967c"
+    }
+  }
+}

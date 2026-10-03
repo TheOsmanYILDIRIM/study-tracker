@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_05_schulsachen__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_05_schulsachen",
+  "stableKey": "alm9_quiz_topic_05_schulsachen_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Schulsachen Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Schulsachen Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top5_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada kurşun kalem anlamına gelen \"Bleistift\" sözcüğünün belirli artikeli (bestimmter Artikel) hangisidir?",
+          "choices": [
+            "der Bleistift",
+            "die Bleistift",
+            "das Bleistift",
+            "den Bleistift"
+          ],
+          "correctAnswer": "der Bleistift",
+          "explanation": "Bleistift eril (maskulin) bir isimdir ve belirli artikeli \"der\"dir."
+        },
+        {
+          "id": "q_alm9_top5_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"das Buch\" ve \"das Heft\" sözcüklerinin Türkçe anlamları sırasıyla hangisinde doğru verilmiştir?",
+          "choices": [
+            "Kitap - Defter",
+            "Defter - Kitap",
+            "Kalem - Silgi",
+            "Çanta - Cetvel"
+          ],
+          "correctAnswer": "Kitap - Defter",
+          "explanation": "das Buch = kitap, das Heft = defter anlamına gelir."
+        },
+        {
+          "id": "q_alm9_top5_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"die Schultasche\" (okul çantası) ve \"die Schere\" (makas) sözcükleri dişil (feminin) olup \"die\" artikelini alır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Her iki nesne de Almancada feminin (dişil) cinste olup \"die\" artikeliyle kullanılır."
+        },
+        {
+          "id": "q_alm9_top5_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada silgi anlamına gelen ve artikeli \"der\" olan okul eşyası hangisidir?",
+          "choices": [
+            "der Radiergummi",
+            "der Spitzer",
+            "der Kuli",
+            "der Rucksack"
+          ],
+          "correctAnswer": "der Radiergummi",
+          "explanation": "der Radiergummi = silgi demektir. (der Spitzer = kalemtıraş, der Kuli = tükenmez kalem)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_05_schulsachen",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "59a01be2cab8df84",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "b15181819e68ce1b"
+    }
+  }
+}

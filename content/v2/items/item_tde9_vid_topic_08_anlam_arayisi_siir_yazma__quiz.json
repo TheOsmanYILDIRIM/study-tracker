@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+  "stableKey": "tde9_quiz_topic_08_siir_yazma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "Şiir Yazma ve İmge Kurgusu Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Şiir Yazma ve İmge Kurgusu Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top08_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şairin dış dünyadan edindiği izlenimleri kendi hayal gücüyle yoğurarak oluşturduğu yeni, özgün ve soyut zihinsel tasarımlara ne ad verilir?",
+          "choices": [
+            "İmge",
+            "Ölçü",
+            "Nazım birimi",
+            "Matla"
+          ],
+          "correctAnswer": "İmge",
+          "explanation": "İmge (hayal); şairin gerçekliği dönüştürerek dille oluşturduğu özgün çağrışımlar ve zihinsel tablolardır."
+        },
+        {
+          "id": "q_tde9_top08_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Çağdaş serbest şiir yazarken ölçü ve kafiye zorunluluğu bulunmasa da dizelerin iç ahengi, ritmi ve sözcük seçimi şiiriyet açısından kritik önem taşır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Serbest şiir hece veya aruz kalıplarına bağlı kalmaz ancak iç ritim, ses uyumu ve imge zenginliği ile şiir niteliğini korur."
+        },
+        {
+          "id": "q_tde9_top08_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dörtlüklerden oluşan bir şiirde 'abab' veya 'abcb' şeklinde örülen kafiye düzenine ne ad verilir?",
+          "choices": [
+            "Çapraz kafiye",
+            "Düz kafiye",
+            "Sarma kafiye",
+            "Mani tipi kafiye"
+          ],
+          "correctAnswer": "Çapraz kafiye",
+          "explanation": "1. ile 3. dizenin (a-a), 2. ile 4. dizenin (b-b) kendi arasında uyaklanması 'çapraz kafiye' düzenidir."
+        },
+        {
+          "id": "q_tde9_top08_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şiir yazma sürecinde duygunun veya temanın etkileyici aktarılması için şairin kaçınması gereken durum hangisidir?",
+          "choices": [
+            "Basmakalıp (klişe) ifadeleri aşırı kullanmak",
+            "Özgün çağrışımlar üretmek",
+            "Sözcüklerin yan ve mecaz anlamlarından faydalanmak",
+            "Ses ve ahenk uyumunu gözetmek"
+          ],
+          "correctAnswer": "Basmakalıp (klişe) ifadeleri aşırı kullanmak",
+          "explanation": "Şiirde özgünlük temel esastır; herkesçe bilinen sıradan ve klişe kalıpları tekrarlamak şiirin sanatsal gücünü zayıflatır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d56f06ea796bf255"
+    }
+  }
+}

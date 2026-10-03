@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_ucgende_aci__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_ucgende_acilar_kenarlar",
+  "stableKey": "mat9_quiz_ucgende_aci_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Üçgende İç ve Dış Açı Bağıntıları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üçgende İç ve Dış Açı Bağıntıları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_ucgaci_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Öklid geometrisinde herhangi bir düzlemsel üçgenin iç açıları ölçüleri toplamı kaç derecedir?",
+          "choices": [
+            "180°",
+            "360°",
+            "90°",
+            "270°"
+          ],
+          "correctAnswer": "180°",
+          "explanation": "Düzlemde bir üçgenin iç açılarının ölçüleri toplamı daima 180 derecedir."
+        },
+        {
+          "id": "q_mat9_ucgaci_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir üçgende bir dış açının ölçüsü, kendisine komşu olmayan hangi açılara bağlıdır?",
+          "choices": [
+            "Kendisine komşu olmayan iki iç açının ölçüleri toplamına eşittir.",
+            "İç açılar toplamının yarısına eşittir.",
+            "En büyük iç açıya eşittir.",
+            "Komşu iç açının iki katına eşittir."
+          ],
+          "correctAnswer": "Kendisine komşu olmayan iki iç açının ölçüleri toplamına eşittir.",
+          "explanation": "Dış açı teoremi: Bir üçgende bir dış açının ölçüsü kendisine komşu olmayan iki iç açının ölçüleri toplamına eşittir."
+        },
+        {
+          "id": "q_mat9_ucgaci_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Tüm dışbükey çokgenlerde olduğu gibi üçgenin de dış açılarının ölçüleri toplamı 360 derecedir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Üçgenin 3 köşesindeki dış açıların ölçüleri toplamı her zaman 360° dir."
+        },
+        {
+          "id": "q_mat9_ucgaci_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir dik üçgende iki dar açının toplamı 90 derecedir (tümler açılardır).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İç açılar toplamı 180° olup bir dik açı 90° olduğundan kalan iki açının toplamı 90° dir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_ucgende_aci",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

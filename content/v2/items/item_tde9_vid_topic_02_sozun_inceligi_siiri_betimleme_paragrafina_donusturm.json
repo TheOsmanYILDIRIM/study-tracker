@@ -7,8 +7,8 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
@@ -22,11 +22,12 @@
       "sourceTopic": [
         "YAZMA • • Okuduğu şiiri bir betimleme paragrafı olarak yazabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "89f32a59f4939423",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
     }
   }
 }

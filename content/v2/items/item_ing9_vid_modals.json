@@ -4,11 +4,11 @@
   "lessonId": "lesson_ing9_family_and_world",
   "stableKey": "ing9_vid_modals",
   "itemType": "VIDEO",
-  "displayLabel": "3.1",
+  "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Modals: Can, Must, Have to Farkı ve Kullanımı",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Özer Kiraz",
     "provenance": {
@@ -16,8 +16,11 @@
       "sourceSection": "3. Hafta: Yetenek ve Zorunluluk Kipleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "08dae6fa8fdeda08"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "08dae6fa8fdeda08",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+      "reviewedOverride": true
+    },
+    "provider": "Özer Kiraz"
   }
 }

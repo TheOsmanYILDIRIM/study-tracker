@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_03_fizik_bilimine_yon_verenler",
+  "stableKey": "fiz9_quiz_yon_verenler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Fizik Bilimine Yön Verenler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Fizik Bilimine Yön Verenler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_yon_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Optik alanında yazdığı \"Kitâb'ül-Menâzır\" (Optik Kitabı) ile ışığın doğrusal yayılımı ve yansımasını deneysel olarak açıklayan İslam dünyasının ünlü fizikçisi kimdir?",
+          "choices": [
+            "İbn-i Heysem",
+            "El-Cezeri",
+            "Biruni",
+            "Harezmi"
+          ],
+          "correctAnswer": "İbn-i Heysem",
+          "explanation": "İbn-i Heysem (Alhazen), modern optiğin kurucusu sayılır ve deneysel bilimsel yöntemi ilk uygulayan bilginlerdendir."
+        },
+        {
+          "id": "q_fiz9_yon_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kütle çekim kanununu formüle eden ve klasik mekaniğin üç temel hareket yasasını ortaya koyan İngiliz bilim insanı kimdir?",
+          "choices": [
+            "Sir Isaac Newton",
+            "Galileo Galilei",
+            "James Clerk Maxwell",
+            "Nikola Tesla"
+          ],
+          "correctAnswer": "Sir Isaac Newton",
+          "explanation": "Isaac Newton, Philosophiae Naturalis Principia Mathematica eserinde evrensel kütle çekimi ve hareketin 3 temel yasasını yayınlamıştır."
+        },
+        {
+          "id": "q_fiz9_yon_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "El-Cezeri, sibernetik ve robotik biliminin öncüsü kabul edilir; su saatleri ve otomatik mekanik sistemler tasarlamıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Artuklular döneminde yaşayan El-Cezeri, mekanik mühendisliğin ve otomatik kontrol sistemlerinin kurucu dehasıdır."
+        },
+        {
+          "id": "q_fiz9_yon_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Grup teorisi ve temel parçacık fiziği alanındaki çalışmalarıyla dünya çapında tanınan ünlü Türk teorik fizikçi kimdir?",
+          "choices": [
+            "Feza Gürsey",
+            "Cahit Arf",
+            "Aziz Sancar",
+            "Gazi Yaşargil"
+          ],
+          "correctAnswer": "Feza Gürsey",
+          "explanation": "Prof. Dr. Feza Gürsey, kuantum mekaniği ve simetri prensipleri üzerine çalışmalarıyla Oppenheimer ve Wigner ödüllerini kazanmış teorik fizikçimizdir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "f588044dfc42d46a"
+    }
+  }
+}

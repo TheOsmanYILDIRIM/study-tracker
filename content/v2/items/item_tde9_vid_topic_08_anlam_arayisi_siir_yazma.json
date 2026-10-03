@@ -7,8 +7,8 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Yazma",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Anlam Arayışı: Şiir Yazma",
@@ -25,11 +25,12 @@
         "YAZMA • • Temaya uygun bir şiir yazabilme",
         "YAZMA • • Temaya uygun bir şiir yazabilme • OKUL TEMELLİ PLANLAMA*"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "b6ee6c916a64e857",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
     }
   }
 }

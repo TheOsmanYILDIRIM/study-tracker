@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_11_freizeit_und_aktivitaten__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_11_freizeit_und_aktivitaten",
+  "stableKey": "alm9_quiz_topic_11_freizeit_und_aktivitaten_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Freizeit und Aktivitäten Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Freizeit und Aktivitäten Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top11_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Was machst du in deiner Freizeit?\" sorusu ne anlama gelir?",
+          "choices": [
+            "Boş zamanlarında ne yaparsın?",
+            "Hangi sporu sevmezsin?",
+            "Okuldan sonra nereye gidiyorsun?",
+            "Hafta sonu ders çalışır mısın?"
+          ],
+          "correctAnswer": "Boş zamanlarında ne yaparsın?",
+          "explanation": "die Freizeit = boş zaman. Bu soru serbest zaman aktivitelerini ve hobileri sormak için kullanılır."
+        },
+        {
+          "id": "q_alm9_top11_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"lesen\" (kitap okumak) fiilinin \"du\" (sen) ve \"er\" (o) zamirlerine göre çekimi hangisidir?",
+          "choices": [
+            "du liest / er liest",
+            "du lesest / er leset",
+            "du liest / er lest",
+            "du lesest / er liest"
+          ],
+          "correctAnswer": "du liest / er liest",
+          "explanation": "lesen düzensiz bir fiildir: ich lese, du liest, er/sie/es liest, wir lesen, ihr lest, sie/Sie lesen."
+        },
+        {
+          "id": "q_alm9_top11_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Gitarre spielen\" gitar çalmak, \"Rad fahren\" ise bisiklet sürmek anlamına gelen boş zaman aktiviteleridir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Gitarre spielen = gitar çalmak; Rad fahren (Fahrrad fahren) = bisiklete binmek/sürmek demektir."
+        },
+        {
+          "id": "q_alm9_top11_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Mein Hobby ist Schwimmen und ich höre gern Musik.\" cümlesinin anlamı nedir?",
+          "choices": [
+            "Hobim yüzmektir ve müzik dinlemeyi severim.",
+            "Yüzmeyi hiç sevmem ama müzik dinlerim.",
+            "Boş zamanlarımda spor yapar ve film izlerim.",
+            "Arkadaşlarımla havuza giderim."
+          ],
+          "correctAnswer": "Hobim yüzmektir ve müzik dinlemeyi severim.",
+          "explanation": "das Schwimmen = yüzme, gern Musik hören = severek/hoşlanarak müzik dinlemek."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "1b84c30149523ec1",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "b3602b8814057f92"
+    }
+  }
+}

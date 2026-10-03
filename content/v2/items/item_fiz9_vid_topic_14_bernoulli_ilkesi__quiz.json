@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_14_bernoulli_ilkesi__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_14_bernoulli_ilkesi",
+  "stableKey": "fiz9_quiz_bernoulli_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Bernoulli İlkesi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bernoulli İlkesi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_bern_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bernoulli İlkesine göre, bir akışkanın (sıvı veya gaz) akış hızının arttığı yerde akışkanın çeperlere uyguladığı statik basınç nasıl değişir?",
+          "choices": [
+            "Azalır",
+            "Artar",
+            "Değişmez",
+            "Sıfır olur"
+          ],
+          "correctAnswer": "Azalır",
+          "explanation": "Bernoulli ilkesine göre akışkanın hızı ile statik basıncı ters orantılıdır; hızın arttığı kesitlerde akışkan basıncı düşer."
+        },
+        {
+          "id": "q_fiz9_bern_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Uçak kanatlarının üst yüzeyinin kavisli tasarlanması sayesinde üstten geçen havanın hızı artar, basıncı düşer ve kanadın altında oluşan yüksek basınç uçağı havaya kaldırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bernoulli ilkesine göre kanadın üstündeki düşük basınç ile altındaki yüksek basınç arasındaki fark kaldırma kuvvetini (aerodinamik lift) oluşturur."
+        },
+        {
+          "id": "q_fiz9_bern_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kesit alanı daralan bir borudan geçen akışkanın süreklilik denklemine (A1·v1 = A2·v2) göre borunun daralan kısmındaki hızı ve basıncı nasıl değişir?",
+          "choices": [
+            "Hızı artar, basıncı azalır",
+            "Hızı azalır, basıncı artar",
+            "Hem hızı hem basıncı artar",
+            "Hem hızı hem basıncı azalır"
+          ],
+          "correctAnswer": "Hızı artar, basıncı azalır",
+          "explanation": "Süreklilik denklemine göre kesit daraldıkça hız artar (A↓ v↑). Bernoulli ilkesine göre hız arttıkça basınç azalır (v↑ P↓)."
+        },
+        {
+          "id": "q_fiz9_bern_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki günlük hayat olaylarından hangisi Bernoulli İlkesi ile AÇIKLANAMAZ?",
+          "choices": [
+            "Gemilerin suyun üzerinde yüzmesi",
+            "Fırtınalı havalarda çatıların uçması",
+            "Parfüm veya sprey şişelerinden sıvının püskürmesi",
+            "Yan yana hızla geçen iki trenin birbirine doğru çekilmesi"
+          ],
+          "correctAnswer": "Gemilerin suyun üzerinde yüzmesi",
+          "explanation": "Gemilerin yüzmesi Arşimet kaldırma kuvveti ilkesiyle açıklanır. Çatıların uçması, spreyler ve yaklaşan trenler ise Bernoulli ilkesi (akışkan hız-basınç ilişkisi) ile açıklanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_14_bernoulli_ilkesi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FR0u-IglzGd",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "43abd2ae90baa9b9"
+    }
+  }
+}

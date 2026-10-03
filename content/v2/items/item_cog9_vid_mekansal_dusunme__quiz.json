@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_mekansal_dusunme__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_quiz_mekansal_dusunme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.2-Q",
+  "orderKey": 2500,
+  "title": "Doğa-İnsan Etkileşimi ve Mekânsal Düşünme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Doğa-İnsan Etkileşimi ve Mekânsal Düşünme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_mek_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki durumlardan hangisinde \"insanın doğaya doğrudan etkisi ve müdahalesi\" söz konusudur?",
+          "choices": [
+            "Deniz doldurularak havalimanı ve otoyol inşa edilmesi",
+            "Kutup bölgelerinde yaşayan insanların kalın kürk giymesi",
+            "Çöl bölgelerinde kerpiç evlerin tercih edilmesi",
+            "Ekvatoral kuşakta tarımın yüksek plato ve yamaçlarda yapılması"
+          ],
+          "correctAnswer": "Deniz doldurularak havalimanı ve otoyol inşa edilmesi",
+          "explanation": "Deniz dolgusu (ör. Ordu-Giresun veya Rize-Artvin Havalimanları) insanın doğal ortamı kendi ihtiyaçları doğrultusunda dönüştürmesine doğrudan örnektir."
+        },
+        {
+          "id": "q_cog9_mek_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Coğrafya bilimini diğer doğa ve toplum bilimlerinden ayıran en temel ilke aşağıdakilerden hangisidir?",
+          "choices": [
+            "Dağılış İlkesi",
+            "Nedensellik (Sebep-Sonuç) İlkesi",
+            "Karşılıklı İlgi (Bağlantı) İlkesi",
+            "Gözlem İlkesi"
+          ],
+          "correctAnswer": "Dağılış İlkesi",
+          "explanation": "Olay ve varlıkların yeryüzündeki mekânsal yayılışını haritalarla ifade eden \"Dağılış İlkesi\", yalnızca coğrafyaya özgü temel ilkedir."
+        },
+        {
+          "id": "q_cog9_mek_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Mekânsal düşünme; olayların nerede gerçekleştiğini, mekânlar arasındaki mesafeyi, yönü, etkileşimi ve dağılış örüntülerini kavrama yeteneğidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Mekânsal düşünme becerisi, coğrafi olguların konum, ölçek ve mekânsal bağlantılar bağlamında bütüncül olarak analiz edilmesidir."
+        },
+        {
+          "id": "q_cog9_mek_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Doğu Karadeniz'de dağların kıyıya paralel uzanması sebebiyle kıyı ile iç kesimler arasında ulaşım geçitlerle sağlanır.\" cümlesi coğrafyanın hangi ilkesini vurgulamaktadır?",
+          "choices": [
+            "Karşılıklı İlgi (Bağlantı) ve Nedensellik İlkesi",
+            "Yalnızca Dağılış İlkesi",
+            "Tarihsel Süreklilik İlkesi",
+            "Kartografik Ölçek İlkesi"
+          ],
+          "correctAnswer": "Karşılıklı İlgi (Bağlantı) ve Nedensellik İlkesi",
+          "explanation": "Yer şekilleri (dağların uzanışı) ile beşerî faaliyet (ulaşım ve geçitler) arasındaki sebep-sonuç ve karşılıklı ilişki ifade edilmiştir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_mekansal_dusunme",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

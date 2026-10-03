@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+  "stableKey": "cog9_quiz_hava_olaylari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Hava Durumu ve Günlük Hayat Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hava Durumu ve Günlük Hayat Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_hava_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Hava Durumu\" ile \"İklim\" arasındaki en temel fark aşağıdakilerden hangisidir?",
+          "choices": [
+            "Hava durumu dar bir alanda kısa süreli atmosfer olaylarını, iklim ise geniş alanda uzun yılların ortalamasını inceler.",
+            "Hava durumu sadece yazın, iklim ise kışın gerçekleşir.",
+            "Hava durumu jeomorfolojiyle, iklim ise astronomiyle ilgilidir.",
+            "Hava durumu asla değişmezken iklim her saat başı değişir."
+          ],
+          "correctAnswer": "Hava durumu dar bir alanda kısa süreli atmosfer olaylarını, iklim ise geniş alanda uzun yılların ortalamasını inceler.",
+          "explanation": "Hava durumu anlık/günlük atmosfer koşullarıdır (Meteoroloji inceler); iklim ise en az 30-35 yıllık ortalama durumdur (Klimatoloji inceler)."
+        },
+        {
+          "id": "q_cog9_hava_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki ifadelerden hangisi bir \"İklim\" özelliğini belirtir?",
+          "choices": [
+            "Erzurum'da kış mevsimi uzun, karlı ve son derece soğuk geçer.",
+            "Bugün İstanbul'da öğleden sonra şiddetli sağanak yağış bekleniyor.",
+            "Antalya'da yarın sabah yoğun sis nedeniyle uçuşlar iptal edildi.",
+            "Ankara'da bu akşam fırtına ve dolu yağışı görülecektir."
+          ],
+          "correctAnswer": "Erzurum'da kış mevsimi uzun, karlı ve son derece soğuk geçer.",
+          "explanation": "Erzurum'un kış mevsimi karakteri uzun yılların genel ortalamasını (karasal iklim) yansıttığı için iklim ifadesidir; diğerleri günlük hava durumudur."
+        },
+        {
+          "id": "q_cog9_hava_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Ekstrem hava olayları (aşırı don, fırtına, şiddetli dolu, aşırı sıcak hava dalgası) tarımsal rekolteyi, hava-deniz ulaşımını ve enerji tüketimini doğrudan etkiler.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hava olayları; don sebebiyle meyve bahçelerinin zarar görmesi, sis sebebiyle uçuş iptalleri veya sıcakta klima kullanımı gibi geniş etkilere sahiptir."
+        },
+        {
+          "id": "q_cog9_hava_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Sinoptik hava tahmin haritaları, atmosferdeki sıcaklık, basınç ve rüzgâr akımlarını anlık göstererek erken uyarı sistemlerinin kurulmasını sağlar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Meteoroloji uzmanları sinoptik haritalarla fırtına, kasırga ve aşırı yağış risklerini önceden tahmin ederek toplumu uyarır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

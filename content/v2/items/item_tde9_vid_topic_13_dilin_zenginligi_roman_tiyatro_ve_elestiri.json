@@ -7,8 +7,8 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
@@ -23,11 +23,12 @@
       "sourceTopic": [
         "OKUMA • • Tema içeriğine uygun bir roman • • Ara Metin: Tema içeriğine uygun bir tiyatro • • Tema içeriğine uygun bir eleştiri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "b06056bc42d0242b",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

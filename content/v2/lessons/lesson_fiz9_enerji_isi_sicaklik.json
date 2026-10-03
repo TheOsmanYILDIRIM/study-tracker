@@ -6,7 +6,9 @@
   "orderKey": 15000,
   "items": [
     "item_fiz9_vid_isi_sicaklik_kavram",
+    "item_fiz9_vid_isi_sicaklik_kavram__quiz",
     "item_fiz9_vid_hal_degisimi",
+    "item_fiz9_vid_hal_degisimi__quiz",
     "item_fiz9_quiz_isi_sicaklik"
   ],
   "sourceMeta": {

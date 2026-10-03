@@ -7,8 +7,8 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "İklim Sisteminde Yaşanan Değişiklikler",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "İklim Sisteminde Yaşanan Değişiklikler",
@@ -22,11 +22,17 @@
       "sourceTopic": [
         "İklim Sisteminde Yaşanan Değişiklikler"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "2bbe1719c7c6b7d4",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

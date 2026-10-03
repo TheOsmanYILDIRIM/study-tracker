@@ -5,7 +5,8 @@
   "title": "Tageszeiten und Tagesablauf",
   "orderKey": 13000,
   "items": [
-    "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf"
+    "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+    "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf__quiz"
   ],
   "sourceMeta": {
     "weeks": [

@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_topic_06_theme_6_life_in_the_city_country",
+  "stableKey": "ing9_quiz_theme6_city_country_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Theme 6: Life in the City & Country Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Theme 6: Life in the City & Country Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_top06_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Köy ve şehir yaşamını karşılaştırırken (Comparative) tek heceli sıfatlara \"-er\", çok heceli sıfatlara ise \"more\" getirilir. Buna göre hangi cümle dil bilgisi açısından DOĞRUDUR?",
+          "choices": [
+            "Living in the countryside is quieter and more peaceful than living in a big city.",
+            "Living in the countryside is more quiet and peacefuler than living in a big city.",
+            "Living in the city is peacefuler than the country.",
+            "The countryside is more cheap than the city."
+          ],
+          "correctAnswer": "Living in the countryside is quieter and more peaceful than living in a big city.",
+          "explanation": "\"Quiet\" tek/iki heceli sıfat olarak \"quieter\" olurken, çok heceli \"peaceful\" sıfatı \"more peaceful\" şeklinde karşılaştırma alır."
+        },
+        {
+          "id": "q_ing9_top06_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Traffic jam\" (trafik sıkışıklığı) ve \"air pollution\" (hava kirliliği) kırsal yaşamın değil, genellikle büyük şehir yaşamının (urban life) yaygın problemleridir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Trafik yoğunluğu ve hava kirliliği metropol ve şehir hayatına özgü olumsuzluklardandır."
+        },
+        {
+          "id": "q_ing9_top06_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Reçeteli ilaç almak için gidilen sağlık kuruluşuna/kamusal mekâna İngilizcede ne ad verilir?",
+          "choices": [
+            "Pharmacy (Chemist's)",
+            "Library",
+            "Fire station",
+            "Bakery"
+          ],
+          "correctAnswer": "Pharmacy (Chemist's)",
+          "explanation": "İlaç ve medikal ürünlerin temin edildiği yere \"Pharmacy\" (veya İngiliz İngilizcesinde \"Chemist's\") denir."
+        },
+        {
+          "id": "q_ing9_top06_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Superlative (en üstünlük) yapısı kullanılarak oluşturulan \"Tokyo is _______ city in the world\" cümlesini \"crowded\" sıfatıyla en doğru şekilde nasıl tamamlarız?",
+          "choices": [
+            "the most crowded",
+            "more crowded",
+            "the crowdedest",
+            "most crowded than"
+          ],
+          "correctAnswer": "the most crowded",
+          "explanation": "Çok heceli sıfatların üstünlük derecesinde (superlative) \"the most + adjective\" yapısı kullanılır (\"the most crowded\")."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=N9y7e8kZ1jU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "87ba973cddeb2c36"
+    }
+  }
+}

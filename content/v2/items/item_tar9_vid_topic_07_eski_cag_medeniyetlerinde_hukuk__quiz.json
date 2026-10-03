@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+  "stableKey": "tar9_quiz_topic_07_eski_cag_medeniyetlerinde_hukuk_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Eski Çağ Medeniyetlerinde Hukuk Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eski Çağ Medeniyetlerinde Hukuk Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top07_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihte bilinen İLK YAZILI KANUNLAR hangi medeniyet ve hükümdar tarafından yürürlüğe konulmuştur?",
+          "choices": [
+            "Sümerler - Urukagina Kanunları",
+            "Babiller - Hammurabi Kanunları",
+            "Hititler - Telepinu Kanunları",
+            "Romalılar - 12 Levha Kanunları"
+          ],
+          "correctAnswer": "Sümerler - Urukagina Kanunları",
+          "explanation": "MÖ 2375 civarında Lagaş Kralı Urukagina tarafından yapılan kanunlar, tarihin bilinen ilk yazılı kanunlarıdır ve halkı rahiplerin baskısından korumayı hedeflemiştir."
+        },
+        {
+          "id": "q_tar9_top07_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Göze göz, dişe diş\" ilkesine dayanan son derece katı kısas cezaları içeren ve gücünü Tanrı Şamaş'tan aldığını belirten kanunlar hangisidir?",
+          "choices": [
+            "Hammurabi Kanunları",
+            "Urukagina Kanunları",
+            "Hitit Kanunları",
+            "Justinianus Kanunları"
+          ],
+          "correctAnswer": "Hammurabi Kanunları",
+          "explanation": "Babil Kralı Hammurabi tarafından hazırlanan 282 maddelik kanunlar sert kısas hükümleriyle meşhurdur."
+        },
+        {
+          "id": "q_tar9_top07_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Hitit Kanunları, Hammurabi Kanunları'nın aksine kısas yerine büyük ölçüde \"maddi tazminat\" ve bedel ilkesine dayanmış; evlilik sözleşmesi gibi medeni hukuk unsurları barındırmıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hitit hukuku insancıl niteliktedir; ölüm cezaları sınırlandırılmış, tazminat esası getirilmiş ve kadınlara mülkiyet ve boşanma hakları tanınmıştır."
+        },
+        {
+          "id": "q_tar9_top07_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Roma Cumhuriyeti'nde Patriciler (soylular) ile Plepler (halk) arasındaki çatışmaları sona erdirmek ve hukuk birliğini sağlamak amacıyla hazırlanan hukuk metni hangisidir?",
+          "choices": [
+            "12 Levha Kanunları",
+            "Magna Carta",
+            "Hammurabi Kanunları",
+            "Cengiz Han Yasaları"
+          ],
+          "correctAnswer": "12 Levha Kanunları",
+          "explanation": "Roma'da MÖ 451-449 yıllarında hazırlanan 12 Levha Kanunları (Leges Duodecim Tabularum), modern Avrupa/Roma hukukunun temel taşıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "db80cca71752b486"
+    }
+  }
+}

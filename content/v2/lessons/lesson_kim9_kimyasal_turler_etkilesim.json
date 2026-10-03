@@ -6,7 +6,9 @@
   "orderKey": 13000,
   "items": [
     "item_kim9_vid_bag_turleri",
+    "item_kim9_vid_bag_turleri__quiz",
     "item_kim9_vid_zayif_etkilesimler",
+    "item_kim9_vid_zayif_etkilesimler__quiz",
     "item_kim9_quiz_baglar_etkilesim"
   ],
   "sourceMeta": {

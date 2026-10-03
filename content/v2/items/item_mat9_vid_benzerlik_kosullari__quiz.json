@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_benzerlik_kosullari__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+  "stableKey": "mat9_quiz_benzerlik_kosullari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.2-Q",
+  "orderKey": 2500,
+  "title": "Eşlik ve Benzerlik Koşulları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eşlik ve Benzerlik Koşulları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_benzkos_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki üçgen arasında karşılıklı ikişer kenar uzunluğu orantılı ve bu kenarlar arasındaki açılar eşit ise bu durum hangi benzerlik teoremidir?",
+          "choices": [
+            "Kenar-Açı-Kenar (K.A.K.) Benzerliği",
+            "Açı-Açı (A.A.) Benzerliği",
+            "Kenar-Kenar-Kenar (K.K.K.) Benzerliği",
+            "Hipotenüs-Kenar Eşliği"
+          ],
+          "correctAnswer": "Kenar-Açı-Kenar (K.A.K.) Benzerliği",
+          "explanation": "İki kenarın orantılı ve aradaki açının eş olması K.A.K. benzerlik teoremidir."
+        },
+        {
+          "id": "q_mat9_benzkos_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Benzerlik oranı k = 1 olan iki geometrik şekil için aşağıdakilerden hangisi söylenebilir?",
+          "choices": [
+            "Bu iki şekil eştir (Eş şekillerdir).",
+            "Bu şekiller benzer değildir.",
+            "Birinin alanı diğerinin 2 katıdır.",
+            "Açıları farklıdır."
+          ],
+          "correctAnswer": "Bu iki şekil eştir (Eş şekillerdir).",
+          "explanation": "Benzerlik oranı 1 olan benzer şekillerin karşılıklı tüm kenar ve açıları eşittir, yani eştirler."
+        },
+        {
+          "id": "q_mat9_benzkos_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "İki üçgenin karşılıklı en az iki iç açısının ölçüsü eşit ise bu üçgenler Açı-Açı (A.A.) kuralına göre benzerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İki iç açısı eşit olan üçgenlerin üçüncü iç açıları da eşit olmak zorundadır ve üçgenler benzer olur."
+        },
+        {
+          "id": "q_mat9_benzkos_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Benzer iki üçgenin alanları oranı, benzerlik oranının karesine (k²) eşittir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Çevreler oranı k iken iki boyutlu büyüklük olan alanların oranı k² dir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_benzerlik_kosullari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

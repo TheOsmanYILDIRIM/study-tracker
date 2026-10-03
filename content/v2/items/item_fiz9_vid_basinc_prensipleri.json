@@ -6,8 +6,8 @@
   "itemType": "VIDEO",
   "displayLabel": "3.1",
   "orderKey": 1000,
-  "title": "Katı, Sıvı ve Gaz Basıncı (Pascal ve Torricelli)",
-  "contentUrl": null,
+  "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
+  "contentUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "8dc3509e9793b3d3"
-    }
+      "fingerprint": "8dc3509e9793b3d3",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

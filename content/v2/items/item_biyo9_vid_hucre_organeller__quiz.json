@@ -1,0 +1,88 @@
+{
+  "id": "item_biyo9_vid_hucre_organeller__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_11_prokaryot_ve_okaryot_hucre_organeller_ve_cekirdek",
+  "stableKey": "biyo9_quiz_hucre_organeller_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Prokaryot ve Ökaryot Hücre, Organeller Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Prokaryot ve Ökaryot Hücre, Organeller Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_huc_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Prokaryotik ve ökaryotik hücreler arasındaki en belirleyici temel fark hangisidir?",
+          "choices": [
+            "Ökaryotlarda zarla çevrili çekirdek ve zarlı organeller bulunurken, prokaryotlarda bulunmaz.",
+            "Prokaryotlarda protein sentezi ribozomda gerçekleşirken ökaryotlarda gerçekleşmez.",
+            "Prokaryotlarda genetik bilgi taşıyan DNA bulunmaz.",
+            "Ökaryot hücrelerin tamamı tek hücreli canlılardır."
+          ],
+          "correctAnswer": "Ökaryotlarda zarla çevrili çekirdek ve zarlı organeller bulunurken, prokaryotlarda bulunmaz.",
+          "explanation": "Prokaryot canlılarda (bakteri ve arkeler) zarla çevrili çekirdek ve organeller yoktur; kalıtım maddesi sitoplazmada dağınık bulunur."
+        },
+        {
+          "id": "q_biyo9_huc_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücre içi oksijenli solunum ile besin monomerlerini parçalayıp hücresel ATP enerjisini üreten çift zarlı organel hangisidir?",
+          "choices": [
+            "Mitokondri",
+            "Ribozom",
+            "Lizozom",
+            "Golgi Aygıtı"
+          ],
+          "correctAnswer": "Mitokondri",
+          "explanation": "Mitokondri çift katlı zara sahip, kendi DNA, RNA ve ribozomu bulunan ve ATP üreten enerji santralidir."
+        },
+        {
+          "id": "q_biyo9_huc_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Endoplazmik retikulumun üzerinde ribozom taşıyan formuna Granüllü ER denir ve proteinlerin taşınmasında görev alır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Granüllü ER yüzeyinde ribozom bulundurur; hücre dışına salgılanacak proteinlerin işlenmesi ve taşınmasında rol alır."
+        },
+        {
+          "id": "q_biyo9_huc_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İçerdiği hidrolitik sindirim enzimleri sayesinde yaşlanmış organelleri ve hücre içine alınan büyük molekülleri parçalayan tek zarlı organel hangisidir?",
+          "choices": [
+            "Lizozom",
+            "Sentrozom",
+            "Kloroplast",
+            "Ribozom"
+          ],
+          "correctAnswer": "Lizozom",
+          "explanation": "Lizozom asidik enzimler içerir ve hücre içi sindirimi (otofaji, fagositoz ürünlerinin yıkımı) gerçekleştirir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_hucre_organeller",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "2b3c4d5e6f7a8b9c",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ab8396f743192656"
+    }
+  }
+}

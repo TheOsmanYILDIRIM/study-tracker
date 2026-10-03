@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+  "stableKey": "kim9_quiz_molekul_polarligi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Molekül Polarlığı ve Apolarlığı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Molekül Polarlığı ve Apolarlığı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_pol_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Karbondioksit (CO₂) molekülünde C=O bağları polar kovalent olmasına rağmen CO₂ molekülünün apolar (kutupsuz) olmasının nedeni nedir?",
+          "choices": [
+            "Molekülün doğrusal (lineer) ve simetrik yapıda olması, dipol momentlerin birbirini sıfırlaması (μ = 0)",
+            "Karbon ve oksijenin aynı ametal olması",
+            "Molekülde tekli bağ bulunması",
+            "Oksijenin elektronegatifliğinin çok düşük olması"
+          ],
+          "correctAnswer": "Molekülün doğrusal (lineer) ve simetrik yapıda olması, dipol momentlerin birbirini sıfırlaması (μ = 0)",
+          "explanation": "Doğrusal O=C=O molekülünde iki zıt yönlü dipol vektörü birbirini yok eder ve net dipol moment sıfır (apolar) olur."
+        },
+        {
+          "id": "q_kim9_pol_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki moleküllerden hangisi kalıcı dipol momentine sahip POLAR bir moleküldür?",
+          "choices": [
+            "H₂O (Su)",
+            "CH₄ (Metan)",
+            "CCl₄ (Karbon tetraklorür)",
+            "N₂ (Azot gazı)"
+          ],
+          "correctAnswer": "H₂O (Su)",
+          "explanation": "Su molekülü kırık doğru geometrisine ve merkez atomda ortaklanmamış elektron çiftlerine sahip olduğundan asimetriktir ve polardır."
+        },
+        {
+          "id": "q_kim9_pol_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Benzer benzeri çözer\" ilkesine göre polar maddeler polar çözücülerde (su gibi), apolar maddeler ise apolar çözücülerde (benzen, CCl₄ gibi) iyi çözünür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Maddelerin birbiri içinde çözünmesi moleküller arası benzer çekim kuvvetlerine dayanır."
+        },
+        {
+          "id": "q_kim9_pol_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Merkez atomunda ortaklanmamış değerlik elektron çifti bulunan moleküller (NH₃, H₂O gibi) daima apolar moleküllerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Merkez atomda ortaklanmamış elektron çifti bulunması yük simetrisini bozar ve molekülü POLAR yapar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "bb5071a414158e16"
+    }
+  }
+}

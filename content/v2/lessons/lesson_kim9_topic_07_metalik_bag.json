@@ -5,7 +5,8 @@
   "title": "Metalik Bağ",
   "orderKey": 7000,
   "items": [
-    "item_kim9_vid_topic_07_metalik_bag"
+    "item_kim9_vid_topic_07_metalik_bag",
+    "item_kim9_vid_topic_07_metalik_bag__quiz"
   ],
   "sourceMeta": {
     "weeks": [

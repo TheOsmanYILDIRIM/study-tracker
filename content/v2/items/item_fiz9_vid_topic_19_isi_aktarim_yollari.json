@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "19.1",
   "orderKey": 1000,
-  "title": "Isı Aktarım Yolları",
-  "contentUrl": null,
+  "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
+  "contentUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Isı Aktarım Yolları",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,7 +26,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "a356dd6da629eec6",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

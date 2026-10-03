@@ -6,7 +6,9 @@
   "orderKey": 17000,
   "items": [
     "item_cog9_vid_nufus_ve_yerlesme",
+    "item_cog9_vid_nufus_ve_yerlesme__quiz",
     "item_cog9_vid_afet_yonetimi",
+    "item_cog9_vid_afet_yonetimi__quiz",
     "item_cog9_quiz_nufus_afetler"
   ],
   "sourceMeta": {

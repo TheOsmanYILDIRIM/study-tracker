@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "stableKey": "tde9_quiz_topic_10_mekan_karsilastirma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Gezi Yazısı ve Mekân Karşılaştırma Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Gezi Yazısı ve Mekân Karşılaştırma Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top10_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir yazarın gezip gördüğü yerlerin tarihî, coğrafi, kültürel ve sosyal özelliklerini gözlemlerine dayanarak anlattığı edebî türe ne ad verilir?",
+          "choices": [
+            "Gezi Yazısı (Seyahatname)",
+            "Hatıra (Anı)",
+            "Biyografi",
+            "Günlük"
+          ],
+          "correctAnswer": "Gezi Yazısı (Seyahatname)",
+          "explanation": "Gezi yazısı (seyahatname); gezilen görülen yerlerin kendine özgü yönlerinin canlı ve gözleme dayalı bir üslupla aktarıldığı türdür."
+        },
+        {
+          "id": "q_tde9_top10_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türk edebiyatında 17. yüzyılda yazılmış ve 10 ciltten oluşan en ünlü anıtsal gezi eseri (Seyahatname) kime aittir?",
+          "choices": [
+            "Evliya Çelebi",
+            "Kâtip Çelebi",
+            "Piri Reis",
+            "Ahmet Mithat Efendi"
+          ],
+          "correctAnswer": "Evliya Çelebi",
+          "explanation": "Evliya Çelebi'nin 'Seyahatnâme'si Osmanlı coğrafyasını ve komşu ülkeleri anlatan dünya çapında bir başyapıttır."
+        },
+        {
+          "id": "q_tde9_top10_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Mekânları karşılaştırmalı olarak anlatırken sadece mimari yapıları sıralamak yeterlidir; insanların yaşam tarzı ve mekânın ruhu önemsizdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Mekân anlatımı ve karşılaştırmasında o mekânda yaşayan insanların kültürü, sosyal hayatı, gelenekleri ve mekânın insan üzerindeki psikolojik etkileri de ele alınmalıdır."
+        },
+        {
+          "id": "q_tde9_top10_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Gezi yazılarında yazarın anlatımını güçlendirmek için en sık başvurduğu anlatım biçimleri hangileridir?",
+          "choices": [
+            "Betimleyici ve Öyküleyici Anlatım",
+            "Yalnızca Tartışmacı Anlatım",
+            "Didaktik Emredici Anlatım",
+            "Dramatik Sahneleme"
+          ],
+          "correctAnswer": "Betimleyici ve Öyküleyici Anlatım",
+          "explanation": "Gezi yazılarında mekânın görünümünü göz önünde canlandırmak için betimleme, gezilen anları ve yolculuğu aktarmak için öyküleme bir arada kullanılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "efb909ffd2d39d7a"
+    }
+  }
+}

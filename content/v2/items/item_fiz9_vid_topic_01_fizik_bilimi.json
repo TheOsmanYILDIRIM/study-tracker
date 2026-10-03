@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "1.1",
   "orderKey": 1000,
-  "title": "Fizik Bilimi",
-  "contentUrl": null,
+  "title": "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
+  "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Fizik Bilimi",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -31,7 +31,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "518744d6a9ffdaa1",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

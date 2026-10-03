@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_09_nukleik_asitler__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_09_nukleik_asitler",
+  "stableKey": "biyo9_quiz_nukleik_asitler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Nükleik Asitler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nükleik Asitler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_nuk_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir nükleotit molekülünü oluşturan 3 temel yapısal birim hangisinde doğru sıralanmıştır?",
+          "choices": [
+            "Azotlu Organik Baz - 5 Karbonlu Şeker (Pentoz) - Fosfat Grubu",
+            "Glikoz - Amino Asit - Yağ Asidi",
+            "Azotlu Baz - Amino Asit - Peptit Bağı",
+            "Pentoz Şekeri - Gliserol - Fosfat Grubu"
+          ],
+          "correctAnswer": "Azotlu Organik Baz - 5 Karbonlu Şeker (Pentoz) - Fosfat Grubu",
+          "explanation": "Nükleotitler bir azotlu baz, bir pentoz şekeri (riboz veya deoksiriboz) ve bir fosfat grubundan meydana gelir."
+        },
+        {
+          "id": "q_biyo9_nuk_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "DNA molekülünde bulunan ancak RNA molekülünde KESİNLİKLE bulunmayan organik baz ve pentoz şekeri çifti hangisidir?",
+          "choices": [
+            "Timin bazı ve Deoksiriboz şekeri",
+            "Urasil bazı ve Riboz şekeri",
+            "Guanin bazı ve Riboz şekeri",
+            "Adenin bazı ve Deoksiriboz şekeri"
+          ],
+          "correctAnswer": "Timin bazı ve Deoksiriboz şekeri",
+          "explanation": "DNA molekülüne özgü azotlu baz Timin (T) ve pentoz şekeri Deoksiribozdur. RNA'da ise Timin yerine Urasil (U), şeker olarak da Riboz bulunur."
+        },
+        {
+          "id": "q_biyo9_nuk_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Çift iplikli bir DNA molekülünde toplam Pürin bazı sayısı (A + G), toplam Pirimidin bazı sayısına (T + C) daima eşittir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "DNA sarmalında Adenin karşısına Timin (A=T), Guanin karşısına Sitozin (G=C) geldiğinden (A+G)/(T+C) = 1 eşitliği geçerlidir."
+        },
+        {
+          "id": "q_biyo9_nuk_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Hücrede protein sentezi sırasında ribozom organelinin yapısına katılan RNA çeşidi Ribozomal RNA'dır (rRNA).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "rRNA proteinlerle birlikte ribozomun yapısını oluşturur ve hücredeki en bol bulunan RNA çeşididir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_09_nukleik_asitler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "4b5c6d7e8f9a0b1c",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ef6174d521f70434"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "stableKey": "alm9_quiz_topic_01_begru_ung_verabschiedung_und_landeskunde_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Begrüßung, Verabschiedung und Landeskunde Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Begrüßung, Verabschiedung und Landeskunde Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top1_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada resmi bir ortamda ya da büyüklere vedalaşırken kullanılan \"Görüşmek üzere / Hoşça kalın\" ifadesi hangisidir?",
+          "choices": [
+            "Auf Wiedersehen",
+            "Tschüss",
+            "Guten Morgen",
+            "Hallo"
+          ],
+          "correctAnswer": "Auf Wiedersehen",
+          "explanation": "Almancada resmi vedalaşmalarda \"Auf Wiedersehen\" (Yeniden görüşmek üzere) kullanılır. \"Tschüss\" ise samimi ve arkadaş ortamlarında tercih edilir."
+        },
+        {
+          "id": "q_alm9_top1_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almanca konuşulan ülkeleri ifade eden \"D-A-CH\" kısaltması hangi ülkeleri temsil eder?",
+          "choices": [
+            "Deutschland, Österreich, Schweiz",
+            "Deutschland, Amerika, China",
+            "Dänemark, Australien, Chile",
+            "Deutschland, Arabien, Tschechien"
+          ],
+          "correctAnswer": "Deutschland, Österreich, Schweiz",
+          "explanation": "D-A-CH kısaltması: D = Deutschland (Almanya), A = Österreich (Avusturya - Latince Austria), CH = Schweiz (İsviçre - Latince Confoederatio Helvetica)."
+        },
+        {
+          "id": "q_alm9_top1_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Gute Nacht\" ifadesi gün içinde karşılaşıldığında söylenen bir selamlama değil, gece yatarken söylenen bir iyi geceler dileğidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Gute Nacht\" yalnızca gece yatmadan önce veya gece geç saatte ayrılırken söylenir; akşam karşılaşmalarında ise \"Guten Abend\" (İyi akşamlar) kullanılır."
+        },
+        {
+          "id": "q_alm9_top1_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Günün saatlerine göre selamlama ifadelerinden hangisi YANLIŞ eşleştirilmiştir?",
+          "choices": [
+            "Guten Morgen - Akşam selamlama",
+            "Guten Morgen - Sabah selamlama",
+            "Guten Tag - Öğlen ve gün içi selamlama",
+            "Guten Abend - Akşam selamlama"
+          ],
+          "correctAnswer": "Guten Morgen - Akşam selamlama",
+          "explanation": "\"Guten Morgen\" sabah saatlerinde \"Günaydın\" anlamına gelir; akşam selamlama için \"Guten Abend\" kullanılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "5345de3392fa2020",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "2efde138411a36d9"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_tarihsel_gelisim__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_dogal_sistemler",
+  "stableKey": "cog9_quiz_tarihsel_gelisim_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.3-Q",
+  "orderKey": 3500,
+  "title": "Coğrafya Biliminin Tarihsel Gelişimi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Coğrafya Biliminin Tarihsel Gelişimi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_targel_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihte \"Geographika\" (Yer Tasviri) sözcüğünü ilk kez kullanan ve Dünya'nın çevresini İskenderiye ile Syene arasındaki gölge boyu farkından gerçeğe çok yakın hesaplayan İlk Çağ bilgini kimdir?",
+          "choices": [
+            "Eratosthenes",
+            "Strabon",
+            "Batlamyus (Ptolemaios)",
+            "Heredot"
+          ],
+          "correctAnswer": "Eratosthenes",
+          "explanation": "Eratosthenes (MÖ 276-194), coğrafya terimini ilk kullanan ve Güneş açılarından Dünya'nın meridyen çevresini ~40.000 km olarak hesaplayan bilgindir."
+        },
+        {
+          "id": "q_cog9_targel_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Orta Çağ İslam coğrafyacılarından olup Dünya'nın yarıçapını ve eksen eğikliğini (23° 27') büyük bir hassasiyetle hesaplayan ünlü Türk-İslam bilgini kimdir?",
+          "choices": [
+            "Birûnî",
+            "İdrisi",
+            "İbn Batuta",
+            "Harezmi"
+          ],
+          "correctAnswer": "Birûnî",
+          "explanation": "Birûnî (973-1048), trigonometri ve matematiksel yöntemlerle Dünya'nın yarıçapını 6339 km olarak hesaplayıp çağının asırlarca ötesine geçmiştir."
+        },
+        {
+          "id": "q_cog9_targel_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Pîrî Reis'in 1513 tarihli Dünya Haritası ve 1526 yılında tamamladığı denizcilik kitabı \"Kitâb-ı Bahriye\", Osmanlı coğrafyacılığının en önemli başyapıtlarındandır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Pîrî Reis, Akdeniz kıyılarını ve Atlantik/Amerika kıyılarını detaylı haritalarla çizmiş ve Kitâb-ı Bahriye ile denizcilik kılavuzu oluşturmuştur."
+        },
+        {
+          "id": "q_cog9_targel_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "19. yüzyılda coğrafyayı modern bir bilim haline getiren, fiziki coğrafyanın kurucusu sayılan Alman doğa bilimci kimdir?",
+          "choices": [
+            "Alexander von Humboldt",
+            "Karl Ritter",
+            "İbn Haldun",
+            "Katip Çelebi"
+          ],
+          "correctAnswer": "Alexander von Humboldt",
+          "explanation": "Humboldt \"Kosmos\" eseriyle fiziki coğrafyanın, Karl Ritter ise beşerî coğrafyanın modern kurucusu olarak kabul edilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_tarihsel_gelisim",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

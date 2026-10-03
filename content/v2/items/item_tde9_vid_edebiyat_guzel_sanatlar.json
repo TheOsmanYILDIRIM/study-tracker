@@ -7,16 +7,17 @@
   "displayLabel": "1.2",
   "orderKey": 3000,
   "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L20",
       "sourceSection": "1. Tema: Sözün İnceliği",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "b52a5298377cff88"
+      "reviewStatus": "verified",
+      "fingerprint": "b52a5298377cff88",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
     }
   }
 }

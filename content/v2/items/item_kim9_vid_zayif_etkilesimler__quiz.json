@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_zayif_etkilesimler__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+  "stableKey": "kim9_quiz_zayif_etkilesimler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.2-Q",
+  "orderKey": 2500,
+  "title": "Zayıf Etkileşimler ve Hidrojen Bağı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Zayıf Etkileşimler ve Hidrojen Bağı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_zayif_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hidrojen atomunun elektronegatifliği çok yüksek olan Flor (F), Oksijen (O) veya Azot (N) atomlarına bağlı olduğu moleküller arasında oluşan en güçlü zayıf etkileşim hangisidir?",
+          "choices": [
+            "Hidrojen Bağı",
+            "Dipol-Dipol Etkileşimi",
+            "London Dispersiyon Kuvveti",
+            "İyon-Dipol Etkileşimi"
+          ],
+          "correctAnswer": "Hidrojen Bağı",
+          "explanation": "F, O, N atomlarına bağlı hidrojen içeren moleküller (H₂O, HF, NH₃) kendi aralarında hidrojen bağı oluşturur."
+        },
+        {
+          "id": "q_kim9_zayif_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Apolar moleküller ve soygaz atomları arasında anlık kutuplanmalar (geçici indüklenmiş dipoller) sonucu oluşan zayıf çekim kuvvetine ne ad verilir?",
+          "choices": [
+            "London Dispersiyon Kuvvetleri",
+            "Kovalent Bağ",
+            "Dipol-Dipol Etkileşimi",
+            "İyonik Etkileşim"
+          ],
+          "correctAnswer": "London Dispersiyon Kuvvetleri",
+          "explanation": "Fritz London tarafından açıklanan bu kuvvetler tüm taneciklerde bulunur; apolar moleküllerdeki yegâne çekim türüdür."
+        },
+        {
+          "id": "q_kim9_zayif_3",
+          "type": "TRUE_FALSE",
+          "questionIndex": 2,
+          "prompt": "Bir moleküldeki toplam elektron sayısı arttıkça elektron bulutunun kutuplanabilirliği (polarize olabilirliği) artar ve London kuvvetleri güçlenir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Halojenlerde yukarıdan aşağıya inildikçe (F₂ gaz, Cl₂ gaz, Br₂ sıvı, I₂ katı) elektron sayısı ve London kuvvetleri artar, bu yüzden kaynama noktası yükselir."
+        },
+        {
+          "id": "q_kim9_zayif_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Suyun (H₂O) beklenenden çok daha yüksek bir kaynama noktasına (100 °C) sahip olmasının temel nedeni molekülleri arasında kurduğu güçlü hidrojen bağlarıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hidrojen bağları dipol-dipol ve London kuvvetlerinden çok daha güçlü olduğundan sıvının buharlaşması için yüksek enerji gerekir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_zayif_etkilesimler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "0d2663c31e98c6ff"
+    }
+  }
+}

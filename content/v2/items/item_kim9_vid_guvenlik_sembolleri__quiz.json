@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_guvenlik_sembolleri__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+  "stableKey": "kim9_quiz_guvenlik_sembolleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.2-Q",
+  "orderKey": 2500,
+  "title": "Güvenlik Piktogramları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Güvenlik Piktogramları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_guvsem_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Üzerinde alev simgesi bulunan kimyasal güvenlik piktogramı ile alevin ortasında 'O' (oksijen) harfi bulunan piktogram sırasıyla ne anlama gelir?",
+          "choices": [
+            "Yanıcı Madde - Yakıcı (Oksitleyici) Madde",
+            "Yakıcı Madde - Yanıcı Madde",
+            "Patlayıcı Madde - Aşındırıcı Madde",
+            "Zehirli Madde - Tahriş Edici Madde"
+          ],
+          "correctAnswer": "Yanıcı Madde - Yakıcı (Oksitleyici) Madde",
+          "explanation": "Düz alev sembolü 'Yanıcı' (flammable), ortasında daire/O harfi bulunan alev ise oksijen kaynağı olan 'Yakıcı/Oksitleyici' (oxidizing) maddeleri gösterir."
+        },
+        {
+          "id": "q_kim9_guvsem_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tüpten dökülen sıvının bir metal yüzeyi ve bir eli aşındırdığını gösteren güvenlik piktogramının adı nedir?",
+          "choices": [
+            "Aşındırıcı (Korozif) Madde",
+            "Radyoaktif Madde",
+            "Biyolojik Tehlike",
+            "Patlayıcı Madde"
+          ],
+          "correctAnswer": "Aşındırıcı (Korozif) Madde",
+          "explanation": "Korozif (aşındırıcı) piktogramı asit ve baz gibi cildi ve temas ettiği metalleri tahrip eden kimyasallarda bulunur."
+        },
+        {
+          "id": "q_kim9_guvsem_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Laboratuvarda derişik bir asit çözeltisi seyreltilirken, aşırı ısı açığa çıkıp sıçrama yapmaması için asidin üzerine doğrudan su dökülmelidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Asit üzerine asla su eklenmez! Ekzotermik tepkime sonucu sıçrama olmaması için her zaman suyun içine yavaşça ve karıştırılarak asit eklenir."
+        },
+        {
+          "id": "q_kim9_guvsem_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kurumuş ağaç ve ölü balık görseli içeren piktogram, maddenin çevreye ve sucul ekosisteme zararlı olduğunu belirtir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Çevreye zararlı piktogramı, atıkların doğrudan doğaya veya kanalizasyona bırakılmaması gerektiğini simgeler."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_guvenlik_sembolleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "39997150af41c60e"
+    }
+  }
+}

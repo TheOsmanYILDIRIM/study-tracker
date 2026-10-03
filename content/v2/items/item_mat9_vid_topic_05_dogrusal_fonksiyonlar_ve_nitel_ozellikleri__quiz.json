@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "stableKey": "mat9_quiz_topic_05_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Doğrusal Fonksiyonlar ve Nitel Özellikleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top05_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "f(x) = ax + b (a ≠ 0) doğrusal fonksiyonunun grafiğinin eğimi aşağıdakilerden hangisidir?",
+          "choices": [
+            "a",
+            "b",
+            "-b/a",
+            "a/b"
+          ],
+          "correctAnswer": "a",
+          "explanation": "y = ax + b doğrusunda x in katsayısı olan a, doğrunun eğimini (değişim oranını) temsil eder."
+        },
+        {
+          "id": "q_mat9_top05_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "f(x) = 2x - 6 fonksiyonunun x eksenini kestiği noktanın apsisi kaçtır?",
+          "choices": [
+            "3",
+            "-6",
+            "6",
+            "-3"
+          ],
+          "correctAnswer": "3",
+          "explanation": "x eksenini kestiği noktada y = f(x) = 0 olur. 2x - 6 = 0 ⇒ 2x = 6 ⇒ x = 3 bulunur."
+        },
+        {
+          "id": "q_mat9_top05_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "f(x) = mx + n doğrusal fonksiyonunda m > 0 ise fonksiyonun nitel davranışı için ne söylenebilir?",
+          "choices": [
+            "Fonksiyon daima artandır.",
+            "Fonksiyon daima azalandır.",
+            "Fonksiyon sabittir.",
+            "Fonksiyon periyodiktir."
+          ],
+          "correctAnswer": "Fonksiyon daima artandır.",
+          "explanation": "Eğimi pozitif (m > 0) olan doğrusal fonksiyonlar x arttıkça f(x) değeri de büyüdüğünden daima artandır."
+        },
+        {
+          "id": "q_mat9_top05_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "f(x) = c sabit fonksiyonunun eğimi 0 dır ve grafiği x eksenine paralel bir doğrudur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Sabit fonksiyonlarda x in değişimi y değerini değiştirmez (değişim hızı 0 dır) ve yatay doğru oluşturur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

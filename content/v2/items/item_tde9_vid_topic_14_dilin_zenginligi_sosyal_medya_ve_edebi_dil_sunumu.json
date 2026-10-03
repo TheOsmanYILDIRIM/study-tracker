@@ -7,8 +7,8 @@
   "displayLabel": "14.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
@@ -22,11 +22,12 @@
       "sourceTopic": [
         "KONUŞMA • • Sosyal medya dilini edebî dilin özellikleri açısından eleştirdiği bir sunum hazırlayabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7bca883f24e6e1cf",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

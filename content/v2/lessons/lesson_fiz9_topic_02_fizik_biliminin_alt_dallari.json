@@ -5,7 +5,8 @@
   "title": "Fizik Biliminin Alt Dalları",
   "orderKey": 2000,
   "items": [
-    "item_fiz9_vid_alt_dallar"
+    "item_fiz9_vid_alt_dallar",
+    "item_fiz9_vid_alt_dallar__quiz"
   ],
   "sourceMeta": {
     "weeks": [

@@ -7,10 +7,10 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Stundenplan und Schule",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & Meltem Hoca",
     "topic": "Stundenplan und Schule",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,6 +30,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "b75859fc218c963e",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

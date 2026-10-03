@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_hikaye_turleri__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
+  "stableKey": "tde9_quiz_hikaye_turleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Olay ve Durum Hikâyesi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Olay ve Durum Hikâyesi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_hikayetur_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Maupassant tarzı (klasik olay) hikâyesinin en belirgin yapısal özelliği aşağıdakilerden hangisidir?",
+          "choices": [
+            "Serim, düğüm ve çözüm planına sıkı sıkıya bağlı olması ve merak unsurunun ön planda tutulması",
+            "Günlük hayattan bir kesiti durağan biçimde yansıtması",
+            "Olay örgüsünün bulunmaması ve yalnızca psikolojik tahliller yapılması",
+            "Şiirsel bir üslupla kafiyeli cümleler kurulması"
+          ],
+          "correctAnswer": "Serim, düğüm ve çözüm planına sıkı sıkıya bağlı olması ve merak unsurunun ön planda tutulması",
+          "explanation": "Olay (Maupassant) hikâyelerinde belirgin bir olay zinciri, merak unsuru, serim-düğüm-çözüm bölümleri ve beklenmedik bir son yer alır."
+        },
+        {
+          "id": "q_tde9_hikayetur_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türk edebiyatında durum (kesit / Çehov tarzı) hikâyeciliğinin en önemli iki öncüsü kimlerdir?",
+          "choices": [
+            "Memduh Şevket Esendal - Sait Faik Abasıyanık",
+            "Ömer Seyfettin - Refik Halid Karay",
+            "Namık Kemal - Şinasi",
+            "Halit Ziya Uşaklıgil - Mehmet Rauf"
+          ],
+          "correctAnswer": "Memduh Şevket Esendal - Sait Faik Abasıyanık",
+          "explanation": "Memduh Şevket Esendal durum hikâyesinin ilk örneklerini vermiş, Sait Faik Abasıyanık ise bu türün en güçlü ve özgün temsilcisi olmuştur."
+        },
+        {
+          "id": "q_tde9_hikayetur_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Durum hikâyelerinde merak unsuru ve heyecan en yüksek seviyededir; hikâye mutlaka şaşırtıcı bir olayla son bulur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Durum hikâyelerinde amaç merak uyandırmak veya şaşırtmak değil; hayatın içinden bir anı, bir ruh halini ve insanlık durumunu hissettirmektir."
+        },
+        {
+          "id": "q_tde9_hikayetur_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Olay hikâyelerinde olayların gelişiminde gerilimin tırmandığı ve çatışmaların düğümlendiği bölüm hangisidir?",
+          "choices": [
+            "Düğüm bölümü",
+            "Serim bölümü",
+            "Çözüm bölümü",
+            "Ön deyiş"
+          ],
+          "correctAnswer": "Düğüm bölümü",
+          "explanation": "Serim bölümünde kişiler ve mekân tanıtılır, düğüm bölümünde olaylar gelişir ve merak/çatışma doruğa ulaşır, çözümde ise sonuçlanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_hikaye_turleri",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "e9bf373c1a07a523"
+    }
+  }
+}

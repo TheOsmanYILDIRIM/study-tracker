@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_18_butuncul_afet_yonetimi__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+  "stableKey": "cog9_quiz_butuncul_afet_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "18.1-Q",
+  "orderKey": 1500,
+  "title": "Bütüncül Afet Yönetimi ve Aşamaları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bütüncül Afet Yönetimi ve Aşamaları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_butaf_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bütüncül Afet Yönetimi Döngüsü sırasıyla hangi 4 temel aşamadan meydana gelir?",
+          "choices": [
+            "Zarar Azaltma (Önleme) → Hazırlık → Müdahale (Kriz Anı) → İyileştirme (Yeniden İnşa)",
+            "Kaçış → Kurtarma → Sigorta → Unutma",
+            "Sadece Arama Kurtarma → Çadır Kurma → Yemek Dağıtımı",
+            "Tahliye → Barınma → Enkaz Kaldırma → Temizlik"
+          ],
+          "correctAnswer": "Zarar Azaltma (Önleme) → Hazırlık → Müdahale (Kriz Anı) → İyileştirme (Yeniden İnşa)",
+          "explanation": "Çağdaş afet yönetimi; afet öncesi (zarar azaltma ve hazırlık) ile afet sırası ve sonrası (müdahale ve iyileştirme) süreçlerini bütüncül ele alır."
+        },
+        {
+          "id": "q_cog9_butaf_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi afet öncesi \"Risk ve Zarar Azaltma\" evresinde yapılması gereken faaliyetlerden biridir?",
+          "choices": [
+            "Fay hatları ve dere yataklarına yapılaşma yasağı getirilmesi ve bina deprem yönetmeliklerinin sıkı denetlenmesi",
+            "Enkaz altındaki yaralıların sahra hastanesine taşınması",
+            "Afetzedelere çadır ve sıcak çorba dağıtılması",
+            "Yıkılan yolların temizlenmesi"
+          ],
+          "correctAnswer": "Fay hatları ve dere yataklarına yapılaşma yasağı getirilmesi ve bina deprem yönetmeliklerinin sıkı denetlenmesi",
+          "explanation": "Sağlam zemin seçimi, kentsel dönüşüm ve kat sınırlamaları afetten önce zararı önlemek için yapılan risk azaltma çalışmalarıdır."
+        },
+        {
+          "id": "q_cog9_butaf_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Afet yönetiminde afet öncesi yapılan 1 birimlik risk azaltma ve önleme harcaması, afet sonrasında ortaya çıkacak en az 7 birimlik onarım ve müdahale masrafını engeller.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Uluslararası afet istatistiklerine göre önleme ve hazırlık yatırımları, kriz sonrası harcamalara kıyasla katbekat ekonomik ve hayat kurtarıcıdır."
+        },
+        {
+          "id": "q_cog9_butaf_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bireysel afet bilincinde; evde devrilebilecek mobilyaların duvara sabitlenmesi, afet toplanma alanının öğrenilmesi ve acil durum çantasının hazır bulundurulması temel hazırlık adımlarıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bireysel hazırlıklar afet sırasındaki panik ve yaralanmaları büyük oranda engeller."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

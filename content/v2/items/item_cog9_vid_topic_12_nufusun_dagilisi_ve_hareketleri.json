@@ -7,8 +7,8 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Nüfusun Dağılışı ve Hareketleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Nüfusun Dağılışı ve Hareketleri",
@@ -22,11 +22,17 @@
       "sourceTopic": [
         "Nüfusun Dağılışı ve Hareketleri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "cd63658988c81780",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

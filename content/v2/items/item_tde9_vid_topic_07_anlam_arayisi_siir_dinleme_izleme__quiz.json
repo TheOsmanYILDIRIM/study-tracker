@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+  "stableKey": "tde9_quiz_topic_07_siir_dinleme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Şiir Dinleme ve Ahenk Unsurları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Şiir Dinleme ve Ahenk Unsurları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top07_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şiirde dize sonlarında yazılışları, okunuşları, görevleri ve anlamları AYNI olan eklerin veya kelimelerin tekrarlanmasına ne ad verilir?",
+          "choices": [
+            "Redif",
+            "Kafiye (Uyak)",
+            "Aliterasyon",
+            "Asonans"
+          ],
+          "correctAnswer": "Redif",
+          "explanation": "Dize sonlarında anlamı ve görevi aynı olan eklerin veya sözcüklerin tekrarlanmasına redif denir. Görevleri farklı fakat ses benzerliği olan kısımlar ise kafiyedir."
+        },
+        {
+          "id": "q_tde9_top07_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şiir dizelerinde aynı ünsüz (sessiz) harflerin ahenk oluşturacak şekilde sıkça tekrarlanması sanatına ne ad verilir?",
+          "choices": [
+            "Aliterasyon",
+            "Asonans",
+            "Seci",
+            "Cinas"
+          ],
+          "correctAnswer": "Aliterasyon",
+          "explanation": "Aynı ünsüz seslerin yinelenmesine aliterasyon; aynı ünlü seslerin yinelenmesine ise asonans adı verilir."
+        },
+        {
+          "id": "q_tde9_top07_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Şiir dinleme ve seslendirme sürecinde vurgu, tonlama ve duraklara dikkat etmek şiirin duygu ve anlam derinliğini iletmede belirleyici rol oynar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Etkili bir şiir icrasında dizelerdeki duygunun dinleyiciye geçmesi için doğru nefes, tonlama, vurgu ve durak kullanımı esastır."
+        },
+        {
+          "id": "q_tde9_top07_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dize sonlarında tek ses benzerliğine dayanan kafiye türü aşağıdakilerden hangisidir?",
+          "choices": [
+            "Yarım kafiye",
+            "Tam kafiye",
+            "Zengin kafiye",
+            "Cinaslı kafiye"
+          ],
+          "correctAnswer": "Yarım kafiye",
+          "explanation": "Tek ses benzerliği yarım kafiye, iki ses benzerliği tam kafiye, üç veya daha fazla ses benzerliği zengin kafiye oluşturur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "00362f754592c90c"
+    }
+  }
+}

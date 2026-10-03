@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Molekül Polarlığı ve Apolarlığı",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Meschemy Kimya",
     "topic": "Molekül Polarlığı ve Apolarlığı",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,7 +25,8 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "bd63b99923a6aa21",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik"
     }
   }
 }

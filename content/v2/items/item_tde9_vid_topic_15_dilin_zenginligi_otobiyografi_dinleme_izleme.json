@@ -7,8 +7,8 @@
   "displayLabel": "15.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
@@ -23,11 +23,12 @@
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi)",
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi) • YAZMA • • Otobiyografisini yazabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "e915a2c7cafa2e4b",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

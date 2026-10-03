@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
+  "stableKey": "mat9_quiz_topic_11_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Benzer Üçgenler Oluşturma Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Benzer Üçgenler Oluşturma Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top11_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "ABC ~ DEF benzerliğinde benzerlik oranı k = 2/3 tür. ABC üçgeninin çevresi 24 cm olduğuna göre DEF üçgeninin çevresi kaç cm dir?",
+          "choices": [
+            "36 cm",
+            "16 cm",
+            "32 cm",
+            "48 cm"
+          ],
+          "correctAnswer": "36 cm",
+          "explanation": "Çevreler oranı benzerlik oranına eşittir: Ç(ABC) / Ç(DEF) = 2/3 ⇒ 24 / Ç(DEF) = 2/3 ⇒ Ç(DEF) = 36 cm."
+        },
+        {
+          "id": "q_mat9_top11_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir üçgende bir kenara çizilen paralel doğru parçası, üçgenin diğer kenarlarını kestiğinde ne oluşturur?",
+          "choices": [
+            "Ana üçgene benzer yeni bir üçgen oluşturur (Temel Orantı Teoremi).",
+            "Eşkenar bir üçgen oluşturur.",
+            "Ana üçgenin alanının iki katı bir alan oluşturur.",
+            "Dik açılı bir üçgen oluşturur."
+          ],
+          "correctAnswer": "Ana üçgene benzer yeni bir üçgen oluşturur (Temel Orantı Teoremi).",
+          "explanation": "Yöndeş açılar eşit olduğundan tepe açısı ortak olan yeni üçgen ana üçgene A.A. kuralıyla benzer olur."
+        },
+        {
+          "id": "q_mat9_top11_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bütün eş üçgenler aynı zamanda benzerdir, ancak her benzer üçgen eş olmak zorunda değildir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Eşlik benzerliğin k = 1 olduğu özel durumudur."
+        },
+        {
+          "id": "q_mat9_top11_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bütün dik üçgenler birbirine benzerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Dik açı dışında diğer dar açıların da karşılıklı olarak eşit olması gerekir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

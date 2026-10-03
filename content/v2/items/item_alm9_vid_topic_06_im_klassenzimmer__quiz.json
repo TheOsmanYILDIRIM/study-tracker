@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_06_im_klassenzimmer__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
+  "stableKey": "alm9_quiz_topic_06_im_klassenzimmer_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Im Klassenzimmer Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Im Klassenzimmer Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top6_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sınıfta öğretmenin üzerine yazı yazdığı tahta için kullanılan \"die Tafel\" sözcüğünün artikeli ve cinsi nedir?",
+          "choices": [
+            "die (Feminin - Dişil)",
+            "der (Maskulin - Eril)",
+            "das (Neutral - Nötr)",
+            "die (Çoğul)"
+          ],
+          "correctAnswer": "die (Feminin - Dişil)",
+          "explanation": "Yazı tahtası \"die Tafel\" dişil (feminin) bir kelimedir."
+        },
+        {
+          "id": "q_alm9_top6_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Öğretmenin sınıfa \"Mach bitte das Fenster auf!\" demesi ne anlama gelir?",
+          "choices": [
+            "Lütfen pencereyi aç!",
+            "Lütfen kapıyı kapat!",
+            "Lütfen tahtayı sil!",
+            "Lütfen yerine otur!"
+          ],
+          "correctAnswer": "Lütfen pencereyi aç!",
+          "explanation": "aufmachen = açmak, das Fenster = pencere. \"Mach das Fenster auf!\" pencereyi aç demektir."
+        },
+        {
+          "id": "q_alm9_top6_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"der Tisch\" masa, \"der Stuhl\" ise sandalye anlamına gelir ve her ikisinin de artikeli \"der\"dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Evet, der Tisch (masa) ve der Stuhl (sandalye) her ikisi de eril (maskulin) kelimelerdir."
+        },
+        {
+          "id": "q_alm9_top6_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Steht bitte auf!\" sınıf içi emir / rica cümlesinin Türkçe karşılığı nedir?",
+          "choices": [
+            "Lütfen ayağa kalkın!",
+            "Lütfen oturun!",
+            "Lütfen sessiz olun!",
+            "Lütfen kitaplarınızı açın!"
+          ],
+          "correctAnswer": "Lütfen ayağa kalkın!",
+          "explanation": "aufstehen = ayağa kalkmak. Çoğul öğrencilere hitaben \"Steht bitte auf!\" (Lütfen ayağa kalkın) denir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_06_im_klassenzimmer",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "ba1b7f86ab507e77",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "f0e72b767fd8d70b"
+    }
+  }
+}

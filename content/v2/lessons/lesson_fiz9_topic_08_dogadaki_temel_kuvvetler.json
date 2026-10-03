@@ -5,7 +5,8 @@
   "title": "Doğadaki Temel Kuvvetler",
   "orderKey": 8000,
   "items": [
-    "item_fiz9_vid_dogadaki_kuvvetler"
+    "item_fiz9_vid_dogadaki_kuvvetler",
+    "item_fiz9_vid_dogadaki_kuvvetler__quiz"
   ],
   "sourceMeta": {
     "weeks": [

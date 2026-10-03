@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_hal_degisimi__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+  "stableKey": "fiz9_quiz_vid_haldeg_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "15.2-Q",
+  "orderKey": 2500,
+  "title": "Hâl Değişimi ve Isıl Denge Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hâl Değişimi ve Isıl Denge Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_vhal_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Erime sıcaklığında bulunan 50 gram buzu tamamen eritmek için gerekli ısı kaç kaloridir? (Le = 80 cal/g)",
+          "choices": [
+            "4000 cal",
+            "400 cal",
+            "2000 cal",
+            "800 cal"
+          ],
+          "correctAnswer": "4000 cal",
+          "explanation": "Hâl değiştirme formülü: Q = m · Le = 50 g · 80 cal/g = 4000 cal."
+        },
+        {
+          "id": "q_fiz9_vhal_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Farklı sıcaklıktaki iki cisim birbirine temas ettirildiğinde ısı akışı daima sıcaklığı yüksek olan cisimden sıcaklığı düşük olan cisme doğrudur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Termodinamiğin temel ilkesi gereği ısı geçişi kendiliğinden daima yüksek sıcaklıktan alçak sıcaklığa doğru gerçekleşir."
+        },
+        {
+          "id": "q_fiz9_vhal_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Saf bir sıvının kaynama noktası dış basınç arttıkça nasıl değişir?",
+          "choices": [
+            "Artar (Düdüklü tencere prensibi)",
+            "Azalır",
+            "Değişmez",
+            "Sıfır olur"
+          ],
+          "correctAnswer": "Artar (Düdüklü tencere prensibi)",
+          "explanation": "Dış basınç arttıkça sıvının buharlaşması zorlaşır ve kaynama noktası yükselir. Düdüklü tencerede su yaklaşık 120 °C'de kaynar."
+        },
+        {
+          "id": "q_fiz9_vhal_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Isıca yalıtılmış bir kapta karıştırılan farklı sıcaklıktaki iki sıvının ısıl dengeye ulaştığında son sıcaklıkları (Tdenge) için hangisi KESİNLİKLE doğrudur?",
+          "choices": [
+            "Denge sıcaklığı iki sıvının ilk sıcaklıkları arasında bir değer alır (T1 < Tdenge < T2).",
+            "Denge sıcaklığı daima ilk sıcaklıkların aritmetik ortalamasıdır.",
+            "Isı sığası küçük olanın sıcaklığına daha yakındır.",
+            "Kütlesi büyük olanın ilk sıcaklığına eşit olur."
+          ],
+          "correctAnswer": "Denge sıcaklığı iki sıvının ilk sıcaklıkları arasında bir değer alır (T1 < Tdenge < T2).",
+          "explanation": "Isıl dengede denge sıcaklığı mutlaka küçük sıcaklıktan büyük, büyük sıcaklıktan küçük bir değer alır ve ısı sığası büyük olan tarafa daha yakın olur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_hal_degisimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "2d7a053d4edfd176"
+    }
+  }
+}

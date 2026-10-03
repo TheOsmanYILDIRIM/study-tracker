@@ -5,7 +5,8 @@
   "title": "Stundenplan und Schule",
   "orderKey": 8000,
   "items": [
-    "item_alm9_vid_topic_08_stundenplan_und_schule"
+    "item_alm9_vid_topic_08_stundenplan_und_schule",
+    "item_alm9_vid_topic_08_stundenplan_und_schule__quiz"
   ],
   "sourceMeta": {
     "weeks": [

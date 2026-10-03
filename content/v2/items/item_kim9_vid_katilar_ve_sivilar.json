@@ -7,8 +7,8 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Katı Türleri (Amorf, Kristal) ve Sıvılarda Viskozite",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L120",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "d149100b0d230265"
-    }
+      "fingerprint": "d149100b0d230265",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA"
+    },
+    "provider": "Meschemy Kimya"
   }
 }

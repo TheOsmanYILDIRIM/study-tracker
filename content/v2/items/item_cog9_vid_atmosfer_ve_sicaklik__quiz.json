@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_atmosfer_ve_sicaklik__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+  "stableKey": "cog9_quiz_atmosfer_sicaklik_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Atmosferin Katmanları ve Sıcaklık Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Atmosferin Katmanları ve Sıcaklık Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_atm_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Atmosferdeki su buharının (nemin) tamamının bulunduğu ve tüm hava olaylarının (bulut, yağmur, rüzgâr vb.) gerçekleştiği en alt katman hangisidir?",
+          "choices": [
+            "Troposfer",
+            "Stratosfer",
+            "Mezosfer",
+            "Termosfer"
+          ],
+          "correctAnswer": "Troposfer",
+          "explanation": "Troposfer yeryüzüne temas eden katmandır; su buharının %100'ü burada yer aldığı için meteorolojik olaylar sadece troposferde yaşanır."
+        },
+        {
+          "id": "q_cog9_atm_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Troposferde yerden yükseldikçe sıcaklığın ortalama her 200 metrede 1°C azalmasının temel sebebi nedir?",
+          "choices": [
+            "Atmosferin Güneş'ten gelen doğrudan ışınlardan ziyade yerden yansıyan ışınlarla (yer ışıması) ısınması",
+            "Yukarıda Güneş ışınlarının tamamen sönümlenmesi",
+            "Ozon tabakasının troposferin dibinde yer alması",
+            "Yer çekiminin yukarıda artması"
+          ],
+          "correctAnswer": "Atmosferin Güneş'ten gelen doğrudan ışınlardan ziyade yerden yansıyan ışınlarla (yer ışıması) ısınması",
+          "explanation": "Güneş ışınları önce yeryüzünü ısıtır; atmosfer alttan ısındığı ve yukarılarda gaz yoğunluğu ile sera etkisi azaldığı için her 200 m'de sıcaklık 1°C düşer."
+        },
+        {
+          "id": "q_cog9_atm_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Stratosfer katmanında yer alan Ozonosfer (Ozon tabakası), Güneş'ten gelen zararlı ultraviyole (UV) ışınlarını soğurarak canlı yaşamını korur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Ozon molekülleri (O₃), biyolojik dokulara ve DNA'ya zarar veren yüksek enerjili UV ışınlarını filtreler."
+        },
+        {
+          "id": "q_cog9_atm_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kuzey Yarım Küre'de dağların güneye bakan yamaçlarının kuzeye bakan yamaçlara göre daha fazla güneş alması ve daha sıcak olmasına ne ad verilir?",
+          "choices": [
+            "Bakı Etkisi",
+            "Karasallık Etkisi",
+            "İnversiyon Etkisi",
+            "Koryolis Etkisi"
+          ],
+          "correctAnswer": "Bakı Etkisi",
+          "explanation": "Bakı; bir yamacın Güneş ışınlarına bakma durumudur. KYK'de dönence dışındaki alanlarda güney yamaçlar daima daha fazla ısınır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_atmosfer_ve_sicaklik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

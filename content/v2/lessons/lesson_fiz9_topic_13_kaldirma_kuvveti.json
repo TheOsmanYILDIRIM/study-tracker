@@ -5,7 +5,8 @@
   "title": "Kaldırma Kuvveti",
   "orderKey": 13000,
   "items": [
-    "item_fiz9_vid_topic_13_kaldirma_kuvveti"
+    "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+    "item_fiz9_vid_topic_13_kaldirma_kuvveti__quiz"
   ],
   "sourceMeta": {
     "weeks": [

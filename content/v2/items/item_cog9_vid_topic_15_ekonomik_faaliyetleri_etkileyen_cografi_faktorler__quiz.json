@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "stableKey": "cog9_quiz_ekonomik_faaliyetler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "15.1-Q",
+  "orderKey": 1500,
+  "title": "Ekonomik Faaliyet Sektörleri ve Coğrafi Faktörler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Ekonomik Faaliyet Sektörleri ve Coğrafi Faktörler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_ekofa_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğrudan doğadan hammadde elde edilmesine dayanan (Tarım, Hayvancılık, Ormancılık, Madencilik ve Balıkçılık) ekonomik faaliyet grubu hangisidir?",
+          "choices": [
+            "Birincil (Primer) Ekonomik Faaliyetler",
+            "İkincil (Sekonder) Ekonomik Faaliyetler",
+            "Üçüncül (Tersiyer) Ekonomik Faaliyetler",
+            "Dördüncül (Kuaterner) Ekonomik Faaliyetler"
+          ],
+          "correctAnswer": "Birincil (Primer) Ekonomik Faaliyetler",
+          "explanation": "Birincil sektör hammadde üretimidir. İkincil sektör sanayi/imalat, üçüncül sektör hizmet, dördüncül sektör ise bilişim/yazılımdır."
+        },
+        {
+          "id": "q_cog9_ekofa_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi Üçüncül (Hizmet) ekonomik faaliyet grubu içerisinde YER ALMAZ?",
+          "choices": [
+            "Demir-çelik fabrikasında ham demirin işlenip ray haline getirilmesi",
+            "Bankacılık ve finansal danışmanlık hizmetleri",
+            "Turizm ve otel işletmeciliği",
+            "Hastanelerde sağlık hizmeti verilmesi"
+          ],
+          "correctAnswer": "Demir-çelik fabrikasında ham demirin işlenip ray haline getirilmesi",
+          "explanation": "Fabrika imalatı İkincil (Sanayi) sektörüdür; bankacılık, turizm ve sağlık ise üçüncül (hizmet) sektörüdür."
+        },
+        {
+          "id": "q_cog9_ekofa_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Gelişmiş ülkelerde çalışan nüfusun çok büyük bir oranı (%70+) üçüncül (hizmet) ve dördüncül (bilişim) sektörlerde istihdam edilirken, birincil (tarım) sektörün payı %2-5 arasındadır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Gelişmiş ekonomilerde sanayi ve tarımda yüksek otomasyon kullanıldığından istihdam ağırlıklı olarak hizmet ve bilgi sektörlerine kayar."
+        },
+        {
+          "id": "q_cog9_ekofa_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir sanayi tesisinin kuruluş yeri seçiminde etkili olan temel coğrafi faktörler arasında aşağıdakilerden hangisi yer alır?",
+          "choices": [
+            "Hammaddeye yakınlık, Enerji kaynağı, Ulaşım kolaylığı, Pazar ve İş gücü",
+            "Yalnızca arazinin rakımının 3000 metreden yüksek olması",
+            "Yalnızca çevresinde hiçbir yerleşimin bulunmaması",
+            "Sadece kutup dairesi sınırları içinde yer alması"
+          ],
+          "correctAnswer": "Hammaddeye yakınlık, Enerji kaynağı, Ulaşım kolaylığı, Pazar ve İş gücü",
+          "explanation": "Sanayi kuruluş yerinde maliyetleri düşürmek için hammadde, enerji, lojistik/ulaşım ve tüketici pazarına yakınlık kritik rol oynar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

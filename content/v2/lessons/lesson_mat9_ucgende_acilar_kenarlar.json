@@ -6,7 +6,9 @@
   "orderKey": 8000,
   "items": [
     "item_mat9_vid_ucgende_aci",
+    "item_mat9_vid_ucgende_aci__quiz",
     "item_mat9_vid_ucgen_esitsizligi",
+    "item_mat9_vid_ucgen_esitsizligi__quiz",
     "item_mat9_quiz_ucgende_aci_kenar"
   ],
   "sourceMeta": {

@@ -7,10 +7,10 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Schulsachen",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & Tonguç Akademi",
     "topic": "Schulsachen",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,6 +30,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "164ed0dfd692a990",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_mantik_baglaclari__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_algoritma_ve_mantik",
+  "stableKey": "mat9_quiz_mantik_baglaclari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.2-Q",
+  "orderKey": 1500,
+  "title": "Mantık Bağlaçları ve Niceleyiciler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Mantık Bağlaçları ve Niceleyiciler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_manbag_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "p ≡ 1 ve q ≡ 0 olduğuna göre (p ∧ q') önermesinin doğruluk değeri kaçtır?",
+          "choices": [
+            "1",
+            "0",
+            "Belirsiz",
+            "2"
+          ],
+          "correctAnswer": "1",
+          "explanation": "q ≡ 0 ise q' ≡ 1 olur. p ∧ q' ≡ 1 ∧ 1 ≡ 1 dir."
+        },
+        {
+          "id": "q_mat9_manbag_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"p ⇒ q\" koşullu önermesi sadece hangi durumda Yanlış (0) doğruluk değerini alır?",
+          "choices": [
+            "p doğru (1) ve q yanlış (0) olduğunda",
+            "p yanlış (0) ve q doğru (1) olduğunda",
+            "p ve q her ikisi de doğru (1) olduğunda",
+            "p ve q her ikisi de yanlış (0) olduğunda"
+          ],
+          "correctAnswer": "p doğru (1) ve q yanlış (0) olduğunda",
+          "explanation": "Koşullu önermede 1 ⇒ 0 ≡ 0 dır; diğer tüm kombinasyonlarda sonuç 1 dir."
+        },
+        {
+          "id": "q_mat9_manbag_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"∀\" sembolü \"Her / Bütün\" (evrensel niceleyici), \"∃\" sembolü ise \"En az bir / Bazı\" (varlıksal niceleyici) anlamına gelir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Sembolik mantıkta ∀ evrensel niceleyiciyi, ∃ varlıksal niceleyiciyi ifade eder."
+        },
+        {
+          "id": "q_mat9_manbag_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "De Morgan kuralına göre (p ∨ q)' önermesinin dengi p' ∧ q' önermesidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Veya bağlacının değili, önermelerin değillerinin Ve bağlacı ile bağlanmasıdır: (p ∨ q)' ≡ p' ∧ q'."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_mantik_baglaclari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

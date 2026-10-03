@@ -7,8 +7,8 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,14 @@
       "sourceSection": "Basınç ve Rüzgârlar",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "c40e0c518894cbcd"
+      "reviewStatus": "verified",
+      "fingerprint": "c40e0c518894cbcd",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

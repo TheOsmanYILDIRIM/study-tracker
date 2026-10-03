@@ -6,7 +6,9 @@
   "orderKey": 17000,
   "items": [
     "item_kim9_vid_katilar_ve_sivilar",
+    "item_kim9_vid_katilar_ve_sivilar__quiz",
     "item_kim9_vid_yesil_kimya",
+    "item_kim9_vid_yesil_kimya__quiz",
     "item_kim9_quiz_maddenin_halleri"
   ],
   "sourceMeta": {

@@ -4,11 +4,11 @@
   "lessonId": "lesson_ing9_family_and_world",
   "stableKey": "ing9_vid_used_to",
   "itemType": "VIDEO",
-  "displayLabel": "3.2",
+  "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Used to ve Could Kullanımı (Geçmiş Alışkanlıklar & Yetenek)",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Özer Kiraz",
     "provenance": {
@@ -16,8 +16,11 @@
       "sourceSection": "4. Hafta: Geçmiş Alışkanlıklar & Kibar İstekler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "346b706e304348ab"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "346b706e304348ab",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+      "reviewedOverride": true
+    },
+    "provider": "Özer Kiraz"
   }
 }

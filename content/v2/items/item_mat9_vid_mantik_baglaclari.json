@@ -7,7 +7,7 @@
   "displayLabel": "6.2",
   "orderKey": 1000,
   "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -17,6 +17,7 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "3c037fb942c0c06a"
-    }
+    },
+    "provider": "Rehber Matematik"
   }
 }

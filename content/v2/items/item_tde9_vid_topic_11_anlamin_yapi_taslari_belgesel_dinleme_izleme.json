@@ -7,8 +7,8 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
@@ -23,11 +23,12 @@
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Belgesel)",
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Belgesel) • YAZMA • • Belgeseli infografik metne dönüştürebilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "5bc617370a699705",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

@@ -7,8 +7,8 @@
   "displayLabel": "16.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Otobiyografi Yazma",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Dilin Zenginliği: Otobiyografi Yazma",
@@ -25,11 +25,12 @@
         "YAZMA • • Otobiyografisini yazabilme",
         "YAZMA • • Otobiyografisini yazabilme • OKUL TEMELLİ PLANLAMA*"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "1196ee5c0603a2b1",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

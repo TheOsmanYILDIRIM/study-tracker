@@ -7,8 +7,8 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
@@ -22,11 +22,12 @@
       "sourceTopic": [
         "KONUŞMA • • Okuduğu metinlerdeki mekânları kendi çevresindeki mekânlarla karşılaştırdığı bir konuşma yapabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "b8921c881a371c12",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

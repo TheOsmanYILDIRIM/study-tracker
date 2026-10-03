@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "stableKey": "mat9_quiz_topic_17_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "17.1-Q",
+  "orderKey": 1500,
+  "title": "Tek Nicel Değişkenli Veri Dağılımları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tek Nicel Değişkenli Veri Dağılımları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top17_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir veri grubundaki tüm değerlerin toplamının veri sayısına bölünmesiyle elde edilen merkezi eğilim ölçüsü hangisidir?",
+          "choices": [
+            "Aritmetik Ortalama",
+            "Medyan (Ortanca)",
+            "Mod (Tepe Değer)",
+            "Standart Sapma"
+          ],
+          "correctAnswer": "Aritmetik Ortalama",
+          "explanation": "Tüm değerlerin toplamının eleman sayısına bölümü aritmetik ortalamadır."
+        },
+        {
+          "id": "q_mat9_top17_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Küçükten büyüğe sıralanmış 3, 5, 7, 9, 11 veri grubunun medyanı (ortancası) kaçtır?",
+          "choices": [
+            "7",
+            "5",
+            "9",
+            "35"
+          ],
+          "correctAnswer": "7",
+          "explanation": "5 elemanlı tek sayılı veri grubunda tam ortadaki 3. eleman olan 7 medyandır."
+        },
+        {
+          "id": "q_mat9_top17_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir veri grubunda frekansı en yüksek olan (en çok tekrar eden) değere ne ad verilir?",
+          "choices": [
+            "Mod (Tepe Değer)",
+            "Açıklık (Ranj)",
+            "Varyans",
+            "Aritmetik Ortalama"
+          ],
+          "correctAnswer": "Mod (Tepe Değer)",
+          "explanation": "En sık tekrarlanan değer tepe değer (mod) olarak tanımlanır."
+        },
+        {
+          "id": "q_mat9_top17_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Açıklık (Ranj), bir veri grubundaki en büyük değer ile en küçük değer arasındaki farktır ve merkezi yayılım ölçüsüdür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Açıklık = Maksimum Değer - Minimum Değer olup verilerin ne kadar yayıldığını gösterir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

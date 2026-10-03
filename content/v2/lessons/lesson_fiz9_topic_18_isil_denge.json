@@ -5,7 +5,8 @@
   "title": "Isıl Denge",
   "orderKey": 18000,
   "items": [
-    "item_fiz9_vid_topic_18_isil_denge"
+    "item_fiz9_vid_topic_18_isil_denge",
+    "item_fiz9_vid_topic_18_isil_denge__quiz"
   ],
   "sourceMeta": {
     "weeks": [

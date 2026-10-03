@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_19_bolge_ve_bolge_siniri",
+  "stableKey": "cog9_quiz_bolge_turleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "19.1-Q",
+  "orderKey": 1500,
+  "title": "Bölge Türleri ve Bölge Sınırları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bölge Türleri ve Bölge Sınırları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_bolge_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Benzer doğal, beşerî veya ekonomik özelliklere sahip alanların sınırlandırılmasıyla oluşturulan bölgelere \"Şekilsel (Formal) Bölge\" denir. Aşağıdakilerden hangisi bir Doğal Şekilsel Bölge örneğidir?",
+          "choices": [
+            "Himalaya Dağlık Bölgesi",
+            "Marmara Sanayi Bölgesi",
+            "Çukurova Tarım Bölgesi",
+            "Avrupa Birliği Siyasi Bölgesi"
+          ],
+          "correctAnswer": "Himalaya Dağlık Bölgesi",
+          "explanation": "Dağlık, ovalık, çöl veya Akdeniz iklim bölgesi fiziki/doğal şekilsel bölgedir; sanayi, tarım ve siyasi birlikler ise beşerî bölgelerdir."
+        },
+        {
+          "id": "q_cog9_bolge_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Merkezi bir odak nokta ile çevresi arasındaki yönetim, ticaret, haberleşme veya kalkınma ilişkilerini organize eden bölgelere ne ad verilir?",
+          "choices": [
+            "İşlevsel (Fonksiyonel) Bölge",
+            "Doğal Şekilsel Bölge",
+            "İklimsel Homojen Bölge",
+            "Karasal Jeolojik Bölge"
+          ],
+          "correctAnswer": "İşlevsel (Fonksiyonel) Bölge",
+          "explanation": "Bölgesel kalkınma projeleri (GAP, DOKAP, ZBK), valilik/belediye idari etki alanları ve karayolları bölge müdürlükleri işlevsel bölgedir."
+        },
+        {
+          "id": "q_cog9_bolge_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Beşerî, siyasi ve askeri bölge sınırları (ör. NATO, AB veya ülke sınırları) kısa sürede ve kolaylıkla değişebilirken; fiziki/doğal bölge sınırları (ör. dağlık alan, iklim sınırı) çok uzun zamanda değişir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Siyasi sınırlar bir antlaşmayla bir günde değişebilirken iklim ve jeomorfolojik sınırlar asırlar boyunca büyük ölçüde sabit kalır."
+        },
+        {
+          "id": "q_cog9_bolge_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Doğal bölge sınırları (örneğin Akdeniz iklimi ile Karasal iklim arasındaki sınır) bir çizgi gibi bıçak sırtı keskin olmayıp kademeli geçiş alanları (kuşakları) oluşturur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Doğada iklim ve bitki örtüsü sınırları aniden değil, kademeli bir geçiş kuşağı (ekoton) şeklinde değişir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "stableKey": "tde9_quiz_topic_14_sosyal_medya_dil_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Sosyal Medya ve Edebî Dil Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sosyal Medya ve Edebî Dil Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top14_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sosyal medya dilinin edebî dilden en belirgin olumsuz farkı ve yarattığı kültürel risk nedir?",
+          "choices": [
+            "Sözcüklerin kısaltılması, imla ve noktalama kurallarının hiçe sayılarak dilin zenginliğinin daraltılması",
+            "Edebî eserlerin daha geniş kitlelerce okunmasını sağlaması",
+            "Kelime hazinesini sürekli zenginleştirmesi",
+            "Duygu ve düşünceleri en derin ve kusursuz biçimde ifade etmesi"
+          ],
+          "correctAnswer": "Sözcüklerin kısaltılması, imla ve noktalama kurallarının hiçe sayılarak dilin zenginliğinin daraltılması",
+          "explanation": "Sosyal medyada yaygınlaşan aşırı kısaltmalar, yabancı özentisi kelimeler ve yazım kurallarının ihmali Türkçenin zengin ifade gücünü tehdit eder."
+        },
+        {
+          "id": "q_tde9_top14_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Edebî dil; yan anlamlar, mecazlar, deyimler ve ses uyumlarıyla dile derinlik ve estetik güç kazandırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Edebî dil, günlük konuşma dilinin olanaklarını sanatsal düzeyde zenginleştirerek kelimelere yeni anlam katmanları yükler."
+        },
+        {
+          "id": "q_tde9_top14_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sosyal medya dilini edebî dil açısından eleştiren bir sunum yapan öğrencinin vermesi gereken en doğru mesaj hangisidir?",
+          "choices": [
+            "Dijital mecralarda iletişim kurarken de Türkçenin doğru kullanımına, zengin kelime dağarcığına ve imla kurallarına özen gösterilmelidir",
+            "Sosyal medyada edebiyat tamamen yasaklanmalıdır",
+            "Yalnızca tek heceli kelimelerle mesajlaşılmalıdır",
+            "İmla kuralları yalnızca basılı kitaplar için geçerlidir"
+          ],
+          "correctAnswer": "Dijital mecralarda iletişim kurarken de Türkçenin doğru kullanımına, zengin kelime dağarcığına ve imla kurallarına özen gösterilmelidir",
+          "explanation": "İletişimin kalitesi dil bilincine bağlıdır; dijital ortamda da dilimizi doğru, kurallı ve zengin kullanmak dilimizin geleceği için gereklidir."
+        },
+        {
+          "id": "q_tde9_top14_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi dilin zenginliğini ve anlatım gücünü artıran temel ögelerden biri DEĞİLDİR?",
+          "choices": [
+            "Yabancı dillerden rastgele türetilen ve dilin yapısını bozan kelimeler kullanmak",
+            "Deyimler ve atasözlerinden yerinde faydalanmak",
+            "Kelimelerin çağrışım ve yan anlamlarını bilmek",
+            "Eş anlamlı ve zıt anlamlı sözcükleri yerli yerinde kullanmak"
+          ],
+          "correctAnswer": "Yabancı dillerden rastgele türetilen ve dilin yapısını bozan kelimeler kullanmak",
+          "explanation": "Dile yabancı ve uyumsuz kelimelerin bilinçsizce sokulması dili zenginleştirmez, aksine dil kirliliğine ve yozlaşmaya yol açar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "20ad0acfc5e888e5"
+    }
+  }
+}

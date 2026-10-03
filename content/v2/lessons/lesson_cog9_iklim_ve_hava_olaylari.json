@@ -6,7 +6,9 @@
   "orderKey": 8000,
   "items": [
     "item_cog9_vid_atmosfer_ve_sicaklik",
+    "item_cog9_vid_atmosfer_ve_sicaklik__quiz",
     "item_cog9_vid_basinc_ruzgar_yagis",
+    "item_cog9_vid_basinc_ruzgar_yagis__quiz",
     "item_cog9_quiz_iklim_atmosfer"
   ],
   "sourceMeta": {

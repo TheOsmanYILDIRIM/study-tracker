@@ -7,8 +7,8 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L25",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "9083b0011b7c547a"
-    }
+      "fingerprint": "9083b0011b7c547a",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
+    },
+    "provider": "Meschemy Kimya"
   }
 }

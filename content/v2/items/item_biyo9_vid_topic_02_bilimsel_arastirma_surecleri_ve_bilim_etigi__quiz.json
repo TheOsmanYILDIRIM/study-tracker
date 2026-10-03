@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+  "stableKey": "biyo9_quiz_bilimsel_arastirma_surecleri_ve_bilim_etigi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Bilimsel Araştırma Süreçleri ve Bilim Etiği Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bilimsel Araştırma Süreçleri ve Bilim Etiği Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_bilim_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bilimsel bir araştırmada belirli verilere ve gözlemlere dayanarak test edilmek üzere ortaya atılan geçici çözüm yoluna ne ad verilir?",
+          "choices": [
+            "Hipotez",
+            "Teori",
+            "Kanun",
+            "Kontrollü Deney"
+          ],
+          "correctAnswer": "Hipotez",
+          "explanation": "Hipotez, bir probleme yönelik gözlem ve verilere dayalı olarak kurulan, test edilebilir ve geçici bir çözüm önerisidir."
+        },
+        {
+          "id": "q_biyo9_bilim_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir kontrollü deneyde araştırmacı tarafından kasıtlı olarak değiştirilen ve etkisi incelenen değişkene ne ad verilir?",
+          "choices": [
+            "Bağımsız Değişken",
+            "Bağımlı Değişken",
+            "Kontrol Grubu",
+            "Sabit Değişken"
+          ],
+          "correctAnswer": "Bağımsız Değişken",
+          "explanation": "Deneyde araştırmacının bizzat değiştirdiği etken bağımsız değişken; bu değişkenden etkilenerek değişen faktör ise bağımlı değişkendir."
+        },
+        {
+          "id": "q_biyo9_bilim_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bilimsel teoriler yeterince kanıtlandığında zamanla kanunlara (yasalara) dönüşür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Teoriler ve kanunlar farklı bilimsel bilgi türleridir. Teoriler doğadaki olayların nasıl ve neden gerçekleştiğini açıklarken, kanunlar ne olduğunu belirtir. Biri diğerine dönüşmez."
+        },
+        {
+          "id": "q_biyo9_bilim_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bilimsel araştırmalarda başkalarının verilerini izinsiz kullanmamak, uydurma veri üretmemek ve dürüst olmak Bilim Etiği kurallarının temelidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bilim etiği; tarafsızlık, akademik dürüstlük, intihalden (aşırma) kaçınma ve uydurma veri üretmeme ilkelerini zorunlu kılar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "7a8b9c1d2e3f4a5b",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "bf3841a298c47101"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+  "stableKey": "tar9_quiz_topic_03_tarihsel_bilginin_uretim_sureci_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Tarihsel Bilginin Üretim Süreci Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarihsel Bilginin Üretim Süreci Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top03_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarih araştırmalarında ilk aşama olan ve araştırılan konuya ilişkin her türlü kaynak ve belgenin tespit edilip toplanması sürecine ne ad verilir?",
+          "choices": [
+            "Tarama (Kaynak Arama)",
+            "Tasnif (Sınıflandırma)",
+            "Tahlil (Çözümleme)",
+            "Terkip (Sentez)"
+          ],
+          "correctAnswer": "Tarama (Kaynak Arama)",
+          "explanation": "Tarih araştırmasının ilk basamağı tarama aşamasıdır. Konuyla ilgili birinci ve ikinci elden yazılı, sözlü veya görsel kaynaklar bu evrede bir araya getirilir."
+        },
+        {
+          "id": "q_tar9_top03_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihçinin elde ettiği belgelerin orijinalliğini, yazıldığı dönemi, yazarının kimliğini ve fiziksel özelliklerini belirlemek amacıyla yaptığı eleştiri türü aşağıdakilerden hangisidir?",
+          "choices": [
+            "Dış Tenkit (Dış Eleştiri)",
+            "İç Tenkit (İç Eleştiri)",
+            "Mekânsal Tasnif",
+            "Sentezleme"
+          ],
+          "correctAnswer": "Dış Tenkit (Dış Eleştiri)",
+          "explanation": "Dış tenkit; eserin adı, yazarı, basıldığı yer ve zaman, kâğıt ve mürekkep cinsi gibi dış unsurların orijinalliğini inceler. İçeriğin güvenilirliği ve tarafsızlığı ise iç tenkitle incelenir."
+        },
+        {
+          "id": "q_tar9_top03_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarih metodolojisinde \"Terkip (Sentez)\" aşaması; taranan, sınıflandırılan, çözümlenen ve eleştiriden geçen bilgilerin bir araya getirilerek anlamlı ve tutarlı bir tarihî eser haline dönüştürülmesidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Terkip, tarih metodolojisinin son aşamasıdır. Tüm veriler neden-sonuç bağıyla birleştirilerek nihai tarihî bilgi ve metin oluşturulur."
+        },
+        {
+          "id": "q_tar9_top03_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Toplanan tarihsel kaynakların araştırma kolaylığı sağlamak amacıyla zamana, mekâna ve konuya göre gruplandırılmasına ne ad verilir?",
+          "choices": [
+            "Tasnif (Sınıflandırma)",
+            "Tahlil (Çözümleme)",
+            "Tenkit (Eleştiri)",
+            "Tarama (Arama)"
+          ],
+          "correctAnswer": "Tasnif (Sınıflandırma)",
+          "explanation": "Tasnif; elde edilen verilerin zamana göre (ör. Orta Çağ Tarihi), mekâna göre (ör. Anadolu Tarihi) veya konuya göre (ör. Hukuk Tarihi) sınıflandırılmasıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "4d11963997a64187"
+    }
+  }
+}

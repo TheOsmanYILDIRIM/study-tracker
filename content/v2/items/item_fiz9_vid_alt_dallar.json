@@ -7,7 +7,7 @@
   "displayLabel": "1.2",
   "orderKey": 1000,
   "title": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "f643ca89c63459fd"
-    }
+      "fingerprint": "f643ca89c63459fd",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_08_stundenplan_und_schule__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_08_stundenplan_und_schule",
+  "stableKey": "alm9_quiz_topic_08_stundenplan_und_schule_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "Stundenplan und Schule Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Stundenplan und Schule Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top8_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Was ist dein Lieblingsfach?\" sorusunun Türkçe karşılığı nedir?",
+          "choices": [
+            "En sevdiğin ders hangisidir?",
+            "Hangi okula gidiyorsun?",
+            "Ders programın nasıl?",
+            "Hangi sınıftasın?"
+          ],
+          "correctAnswer": "En sevdiğin ders hangisidir?",
+          "explanation": "das Lieblingsfach = en sevilen/favori ders. Soru en sevilen dersi öğrenmeyi amaçlar."
+        },
+        {
+          "id": "q_alm9_top8_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada haftanın günlerinden (Montag, Dienstag, vb.) önce hangi edat (preposition) kullanılır?",
+          "choices": [
+            "am (am Montag, am Freitag)",
+            "im (im Montag)",
+            "um (um Montag)",
+            "an (an Montag)"
+          ],
+          "correctAnswer": "am (am Montag, am Freitag)",
+          "explanation": "Günlerde ve günün bölümlerinde \"am\" edatı kullanılır (am Montag = pazartesi günü)."
+        },
+        {
+          "id": "q_alm9_top8_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada \"Mittwoch\" çarşamba gününü, \"Donnerstag\" ise perşembe gününü ifade eder.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Haftanın günleri: Montag (Pzt), Dienstag (Salı), Mittwoch (Çarş), Donnerstag (Perş), Freitag (Cuma), Samstag (Cmt), Sonntag (Paz)."
+        },
+        {
+          "id": "q_alm9_top8_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Am Freitag habe ich zwei Stunden Deutsch und eine Stunde Musik.\" cümlesi ne anlama gelir?",
+          "choices": [
+            "Cuma günü iki saat Almanca ve bir saat müzik dersim var.",
+            "Pazartesi günü Almanca ve müzik sınavım var.",
+            "Cuma günü Almanca ve müzik derslerini sevmiyorum.",
+            "Perşembe günü iki saat Almanca çalışacağım."
+          ],
+          "correctAnswer": "Cuma günü iki saat Almanca ve bir saat müzik dersim var.",
+          "explanation": "am Freitag = Cuma günü, zwei Stunden Deutsch = iki saat Almanca, eine Stunde Musik = bir saat müzik."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_08_stundenplan_und_schule",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "1b3c384addd52fe3",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "a809fcf8456d5d78"
+    }
+  }
+}

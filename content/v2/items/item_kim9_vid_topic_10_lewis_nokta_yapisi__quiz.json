@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_10_lewis_nokta_yapisi__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_10_lewis_nokta_yapisi",
+  "stableKey": "kim9_quiz_lewis_yapisi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Lewis Nokta Yapısı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Lewis Nokta Yapısı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_lew_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir elementin Lewis sembolü yazılırken element sembolünün etrafına hangi elektronlar nokta şeklinde yerleştirilir?",
+          "choices": [
+            "Yalnızca değerlik (en dış katmandaki) elektronları",
+            "Atomdaki tüm elektronlar",
+            "Yalnızca çekirdekteki nötronlar",
+            "Yalnızca iç katmanlardaki elektronlar"
+          ],
+          "correctAnswer": "Yalnızca değerlik (en dış katmandaki) elektronları",
+          "explanation": "Lewis nokta yapısında yalnızca kimyasal bağ yapımına katılabilecek değerlik elektronları gösterilir."
+        },
+        {
+          "id": "q_kim9_lew_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Su (H₂O) molekülünün Lewis nokta yapısında toplam kaç tane bağlayıcı elektron çifti (bağ) ve kaç tane ortaklanmamış elektron çifti bulunur?",
+          "choices": [
+            "2 bağlayıcı çift, 2 ortaklanmamış çift",
+            "4 bağlayıcı çift, 0 ortaklanmamış çift",
+            "1 bağlayıcı çift, 3 ortaklanmamış çift",
+            "3 bağlayıcı çift, 1 ortaklanmamış çift"
+          ],
+          "correctAnswer": "2 bağlayıcı çift, 2 ortaklanmamış çift",
+          "explanation": "H₂O'da Oksijen iki hidrojenle 2 tekli kovalent bağ yapar (2 bağlayıcı çift = 4 elektron) ve üzerinde 2 çift ortaklanmamış elektron (4 elektron) barındırır."
+        },
+        {
+          "id": "q_kim9_lew_3",
+          "type": "TRUE_FALSE",
+          "questionIndex": 2,
+          "prompt": "Azot molekülünde (N₂) iki azot atomu oktetini tamamlamak için aralarında 3 çift elektronu ortaklaşa kullanarak üçlü kovalent bağ (:N≡N:) oluşturur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Azot (5A) 3 elektrona ihtiyaç duyar; iki azot atomu 3'er elektron ortaklaşarak güçlü bir üçlü kovalent bağ kurar."
+        },
+        {
+          "id": "q_kim9_lew_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Sodyum klorür (NaCl) bileşiğinin Lewis yapısında sodyum ve klor arasında elektron ortaklaşması gösteren çizgi (bağ) çizilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "NaCl iyonik bir bileşiktir! Elektron ortaklaşması değil transferi vardır; Na⁺ ve [:Cl̈:]⁻ şeklinde köşeli parantez ve iyon yükleriyle gösterilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "5b1a65bc9ad021b8"
+    }
+  }
+}

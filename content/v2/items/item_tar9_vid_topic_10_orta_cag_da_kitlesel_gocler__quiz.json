@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+  "stableKey": "tar9_quiz_topic_10_orta_cag_da_kitlesel_gocler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Orta Çağ'da Kitlesel Göçler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Orta Çağ'da Kitlesel Göçler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top10_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "375 yılında Hunların Balamir önderliğinde batıya ilerleyerek Vizigot, Ostrogot, Vandal ve Frank gibi kavimleri önlerine katıp Roma sınırlarına sürmesiyle başlayan tarihî olay hangisidir?",
+          "choices": [
+            "Kavimler Göçü",
+            "Haçlı Seferleri",
+            "Moğol İstilası",
+            "Ege Göçleri"
+          ],
+          "correctAnswer": "Kavimler Göçü",
+          "explanation": "375 Kavimler Göçü, İlk Çağ'ı kapatıp Orta Çağ'ı başlatan ve Avrupa'nın bugünkü etnik ve siyasi sınırlarını çizen devasa bir kitlesel göç dalgasıdır."
+        },
+        {
+          "id": "q_tar9_top10_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kavimler Göçü'nün ardından merkezi Roma otoritesinin çökmesiyle Batı Avrupa'da ortaya çıkan toprağa ve yerel beylere dayalı yönetim düzeni hangisidir?",
+          "choices": [
+            "Feodalite (Derebeylik)",
+            "Merkezi Mutlak Krallık",
+            "Meşruti Monarşi",
+            "Doğrudan Demokrasi"
+          ],
+          "correctAnswer": "Feodalite (Derebeylik)",
+          "explanation": "Merkezi krallıkların halkı koruyamaması üzerine halk yerel lordlara sığınmış ve şatolar etrafında şekillenen feodal düzen doğmuştur."
+        },
+        {
+          "id": "q_tar9_top10_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kavimler Göçü sonrasında Avrupa'da kilise ve papa siyasi güç kazanmış, bilimin yerini dogmatik \"Skolastik Düşünce\" almıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Güvensizlik ortamında Hristiyanlık kavimler arasında yayılmış, kilise tek eğitim ve bilgi otoritesi haline gelerek skolastik zihniyeti hâkim kılmıştır."
+        },
+        {
+          "id": "q_tar9_top10_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "13. yüzyılda Cengiz Han önderliğinde başlayıp Asya'dan Orta Doğu ve Doğu Avrupa'ya kadar uzanan ve Türk boylarının batıya (Anadolu'ya) göçünü hızlandıran büyük istila hareketi hangisidir?",
+          "choices": [
+            "Moğol İstilası",
+            "Yüzyıl Savaşları",
+            "Haçlı Seferleri",
+            "Sasani Göçleri"
+          ],
+          "correctAnswer": "Moğol İstilası",
+          "explanation": "Moğol İstilası, Harzemşahlar ve Selçuklular döneminde Türkmen kitlelerinin Orta Asya ve İran'dan Anadolu'ya yoğun göç etmesine ve Anadolu'nun Türkleşmesine yol açmıştır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d594dc493be8f07e"
+    }
+  }
+}

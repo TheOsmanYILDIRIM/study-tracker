@@ -7,7 +7,7 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -17,6 +17,7 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "5a4a81bbfad7b8d8"
-    }
+    },
+    "provider": "Rehber Matematik"
   }
 }

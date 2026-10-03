@@ -1,0 +1,87 @@
+{
+  "id": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
+  "stableKey": "kim9_quiz_bilesik_adlandirma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1500,
+  "title": "Bileşiklerin Adlandırılması Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Bileşiklerin Adlandırılması Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_adn_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kovalent bağlı N₂O₅ bileşiğinin IUPAC kurallarına göre doğru sistematik adı hangisidir?",
+          "choices": [
+            "Diazot pentaoksit",
+            "Azot oksit",
+            "Azot dioksit",
+            "Diazot monooksit"
+          ],
+          "correctAnswer": "Diazot pentaoksit",
+          "explanation": "Kovalent bileşiklerde Latince sayılar kullanılır: 2 Azot (Di-azot) + 5 Oksijen (penta-oksit) = Diazot pentaoksit."
+        },
+        {
+          "id": "q_kim9_adn_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Demir (Fe) farklı bileşiklerinde +2 ve +3 değerlik alabilen bir geçiş metalidir. Fe₂O₃ bileşiğinin doğru adı nedir?",
+          "choices": [
+            "Demir(III) oksit",
+            "Demir(II) oksit",
+            "Didemir trioksit",
+            "Demir oksit"
+          ],
+          "correctAnswer": "Demir(III) oksit",
+          "explanation": "İyonik bileşiklerde metal değişken değerlikli ise parantez içinde Romen rakamıyla aldığı değerlik yazılır: Fe³⁺ olduğu için Demir(III) oksit."
+        },
+        {
+          "id": "q_kim9_adn_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Sabit değerlikli metallerin oluşturduğu iyonik bileşiklerin (örneğin MgCl₂) adlandırılmasında \"Magnezyum diklorür\" şeklinde Latince sayı ön ekleri kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "İyonik bileşiklerde mono, di, tri gibi sayılar KULLANILMAZ; bileşiğin adı doğrudan \"Magnezyum klorür\"dür."
+        },
+        {
+          "id": "q_kim9_adn_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yaygın kök iyonlardan olan (SO₄)²⁻ ve (NO₃)⁻ iyonlarının adları sırasıyla nedir?",
+          "choices": [
+            "Sülfat - Nitrat",
+            "Sülfit - Nitrit",
+            "Sülfür - Nitrür",
+            "Karbonat - Fosfat"
+          ],
+          "correctAnswer": "Sülfat - Nitrat",
+          "explanation": "(SO₄)²⁻ Sülfat kökü, (NO₃)⁻ ise Nitrat köküdür."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "274eef158a12c7fa"
+    }
+  }
+}

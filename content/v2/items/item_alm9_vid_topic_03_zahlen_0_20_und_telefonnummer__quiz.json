@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
+  "stableKey": "alm9_quiz_topic_03_zahlen_0_20_und_telefonnummer_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Zahlen 0–20 und Telefonnummer Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Zahlen 0–20 und Telefonnummer Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top3_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"acht\" (8) ile \"neun\" (9) sayılarının toplamı olan \"17\" sayısı Almancada nasıl yazılır?",
+          "choices": [
+            "siebzehn",
+            "siebenzehn",
+            "achtzehn",
+            "sechzehn"
+          ],
+          "correctAnswer": "siebzehn",
+          "explanation": "8 + 9 = 17 olup Almancada doğru yazılışı \"siebzehn\"dir (sieben değil sieb- kökü kullanılır)."
+        },
+        {
+          "id": "q_alm9_top3_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada \"null\" sayısı \"0\" (sıfır) anlamına gelir ve telefon numaraları kodlanırken tek tek söylenir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"null\" 0 demektir. Telefon numaraları söylenirken rakamlar sırayla (null-fünf-drei-zwei...) tek tek telaffuz edilir."
+        },
+        {
+          "id": "q_alm9_top3_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Meine Telefonnummer ist null-fünf-vier-eins...\" diyen birinin numarasının ilk 4 hanesi nedir?",
+          "choices": [
+            "0541",
+            "0531",
+            "0451",
+            "0542"
+          ],
+          "correctAnswer": "0541",
+          "explanation": "null (0), fünf (5), vier (4), eins (1) = 0541."
+        },
+        {
+          "id": "q_alm9_top3_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "12, 14 ve 20 sayılarının Almanca karşılıkları hangi seçenekte sırasıyla doğru verilmiştir?",
+          "choices": [
+            "zwölf, vierzehn, zwanzig",
+            "elf, vierzehn, zwanzig",
+            "zwölf, fünfzehn, dreißig",
+            "zwölf, sechzehn, zwanzig"
+          ],
+          "correctAnswer": "zwölf, vierzehn, zwanzig",
+          "explanation": "12 = zwölf, 14 = vierzehn, 20 = zwanzig."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "6b38cf50f1d96090",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c37a7a908aa60797"
+    }
+  }
+}

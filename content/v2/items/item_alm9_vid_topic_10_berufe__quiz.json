@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_10_berufe__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_10_berufe",
+  "stableKey": "alm9_quiz_topic_10_berufe_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Berufe Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Berufe Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top10_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada mesleklerin kadın icracılarını belirtirken meslek adının sonuna genellikle hangi ek getirilir?",
+          "choices": [
+            "-in (die Lehrerin, die Ärztin)",
+            "-en (die Lehreren)",
+            "-er (die Lehrerer)",
+            "-chen (die Lehrerchen)"
+          ],
+          "correctAnswer": "-in (die Lehrerin, die Ärztin)",
+          "explanation": "Almancada eril meslek adına \"-in\" eki getirilerek dişil yapılır: der Lehrer -> die Lehrerin, der Arzt -> die Ärztin."
+        },
+        {
+          "id": "q_alm9_top10_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Was ist deine Mutter von Beruf?\" sorusuna verilebilecek dilbilgisel olarak en doğru yanıt hangisidir?",
+          "choices": [
+            "Sie ist Lehrerin.",
+            "Er ist Lehrer.",
+            "Sie ist ein Lehrer.",
+            "Meine Mutter hat Lehrerin."
+          ],
+          "correctAnswer": "Sie ist Lehrerin.",
+          "explanation": "Anne dişil (\"sie\") olduğu için dişil meslek formu kullanılır ve Almancada meslek söylerken artikel kullanılmaz: \"Sie ist Lehrerin.\""
+        },
+        {
+          "id": "q_alm9_top10_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada mesleğini söyleyen bir kişi \"Ich bin ein Arzt\" yerine kural olarak \"Ich bin Arzt\" ifadesini kullanır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Almancada \"sein\" ve \"werden\" fiilleriyle meslek söylenirken belirsiz artikel (ein/eine) kullanılmaz."
+        },
+        {
+          "id": "q_alm9_top10_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hastanede çalışan erkek doktor ve kadın doktor ikilisi hangisinde doğru verilmiştir?",
+          "choices": [
+            "der Arzt / die Ärztin",
+            "der Doktor / die Doktoren",
+            "der Krankenpfleger / die Schwester",
+            "der Lehrer / die Lehrerin"
+          ],
+          "correctAnswer": "der Arzt / die Ärztin",
+          "explanation": "Erkek doktor: der Arzt, Kadın doktor: die Ärztin (noktalı a ve -in eki)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_10_berufe",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "fcb769165b021b08",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "f44960e4fb617ffd"
+    }
+  }
+}

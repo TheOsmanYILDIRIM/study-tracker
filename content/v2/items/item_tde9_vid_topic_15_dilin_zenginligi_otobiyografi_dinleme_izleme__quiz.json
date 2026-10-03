@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "stableKey": "tde9_quiz_topic_15_otobiyografi_dinleme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "15.1-Q",
+  "orderKey": 1500,
+  "title": "Otobiyografi Dinleme ve İnceleme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Otobiyografi Dinleme ve İnceleme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top15_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir kişinin kendi hayatını, yaşadığı dönemi ve anılarını bizzat kendisinin kaleme aldığı türe ne ad verilir?",
+          "choices": [
+            "Otobiyografi (Öz Yaşam Öyküsü)",
+            "Biyografi (Yaşam Öyküsü)",
+            "Monografi",
+            "Tezkire"
+          ],
+          "correctAnswer": "Otobiyografi (Öz Yaşam Öyküsü)",
+          "explanation": "Kişinin kendi hayatını anlatması 'otobiyografi'dir; bir başkasının hayatını anlatması ise 'biyografi' olarak adlandırılır."
+        },
+        {
+          "id": "q_tde9_top15_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Otobiyografi metinlerinde anlatım genellikle hangi kişi ağzından yapılır?",
+          "choices": [
+            "1. Tekil Kişi (Ben)",
+            "3. Tekil Kişi (O)",
+            "2. Çoğul Kişi (Siz)",
+            "İlahi Anlatıcı (Hakim Bakış)"
+          ],
+          "correctAnswer": "1. Tekil Kişi (Ben)",
+          "explanation": "Otobiyografi yazarın kendi deneyimlerini anlattığı tür olduğu için 'ben' (1. tekil kişi) anlatımı esastır."
+        },
+        {
+          "id": "q_tde9_top15_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Biyografi yazarı nesnel belgelere ve tanıklara dayanmak zorundayken, otobiyografi yazarının anlatımı doğası gereği daha öznel ve içtendir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Biyografi dışarıdan nesnel bir araştırmayla yazılırken, otobiyografi kişinin kendi hafızası, hisleri ve iç dünyasıyla şekillendiğinden özneldir."
+        },
+        {
+          "id": "q_tde9_top15_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Divan edebiyatında şairlerin ve önemli kişilerin hayatlarını anlatan biyografik eserlere ne ad verilir?",
+          "choices": [
+            "Tezkire",
+            "Münşeat",
+            "Siyasetname",
+            "Hamse"
+          ],
+          "correctAnswer": "Tezkire",
+          "explanation": "Divan edebiyatındaki şair biyografilerine 'Tezkiretü'ş-Şuara' (Tezkire) adı verilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "5d35dbf43a608945"
+    }
+  }
+}

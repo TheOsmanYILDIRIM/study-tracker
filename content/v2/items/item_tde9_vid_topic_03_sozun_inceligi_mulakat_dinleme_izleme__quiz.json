@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "stableKey": "tde9_quiz_topic_03_mulakat_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Mülakat Dinleme ve İnceleme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Mülakat Dinleme ve İnceleme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top03_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Alanında tanınmış veya uzman bir kişiyle belirli bir konu etrafında önceden planlanmış soru-cevap şeklinde gerçekleşen türe ne ad verilir?",
+          "choices": [
+            "Mülakat (Görüşme)",
+            "Eleştiri",
+            "Otobiyografi",
+            "Günlük"
+          ],
+          "correctAnswer": "Mülakat (Görüşme)",
+          "explanation": "Mülakat; uzman, yetkili veya ünlü bir kimseyle belirli bir amaç ve plan dahilinde yapılan görüşmeyi ve bu görüşmenin metne dökülmüş halini ifade eder."
+        },
+        {
+          "id": "q_tde9_top03_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Mülakat türünde görüşmeyi yapan yazar, görüşülen kişinin sözlerini kendi şahsi yorumlarıyla değiştirerek aktarma hakkına sahiptir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Mülakatta en temel ilke tarafsızlıktır. Görüşülen kişinin sözleri tahrif edilmeden, olduğu gibi ve aslına sadık kalarak aktarılmalıdır."
+        },
+        {
+          "id": "q_tde9_top03_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Edebiyatımızda mülakat türünün ilk yetkin örneklerinden biri olan 'Diyorlar ki' adlı eserin yazarı aşağıdakilerden hangisidir?",
+          "choices": [
+            "Ruşen Eşref Ünaydın",
+            "Ahmet Rasim",
+            "Nurullah Ataç",
+            "Cenap Şahabettin"
+          ],
+          "correctAnswer": "Ruşen Eşref Ünaydın",
+          "explanation": "Ruşen Eşref Ünaydın'ın dönemin ünlü edipleriyle yaptığı mülakatları içeren 'Diyorlar ki' eseri, Türk edebiyatında mülakat türünün başyapıtlarındandır."
+        },
+        {
+          "id": "q_tde9_top03_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Başarılı ve nitelikli bir mülakat dinleme/izleme sürecinde dikkat edilmesi gereken en önemli özellik nedir?",
+          "choices": [
+            "Soruların konunun uzmanlık alanına uygunluğu ve verilen yanıtların tutarlılığı",
+            "Görüşmecinin sürekli kendi fikirlerini savunması",
+            "Mülakatın sadece eğlenceli ve mizahi olması",
+            "Görüşmenin önceden hazırlıksız ve plansız yapılması"
+          ],
+          "correctAnswer": "Soruların konunun uzmanlık alanına uygunluğu ve verilen yanıtların tutarlılığı",
+          "explanation": "Nitelikli bir mülakatta sorular hedefe yönelik, uzmanlık alanıyla ilgili olmalı ve cevaplar dikkatle dinlenip tutarlılık açısından analiz edilmelidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ae1c6cfd6a9d5163"
+    }
+  }
+}

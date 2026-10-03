@@ -4,11 +4,11 @@
   "lessonId": "lesson_alm9_schule_und_alltag",
   "stableKey": "item_alm9_vid_schulsachen_artikel",
   "itemType": "VIDEO",
-  "displayLabel": "2.1",
+  "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "AlmancaKolay",
     "provenance": {
@@ -18,6 +18,9 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "4cca94e386ebe6bd"
-    }
+    },
+    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

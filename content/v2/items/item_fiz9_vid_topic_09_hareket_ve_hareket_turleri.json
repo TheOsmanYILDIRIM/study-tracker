@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "9.1",
   "orderKey": 1000,
-  "title": "Hareket ve Hareket Türleri",
-  "contentUrl": null,
+  "title": "Hareket ve Hareket Türleri (Öteleme, Dönme, Titreşim & Konum-Zaman)",
+  "contentUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Hareket ve Hareket Türleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -29,7 +29,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "a8740b024faed0d6",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

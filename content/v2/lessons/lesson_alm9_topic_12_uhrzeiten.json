@@ -5,7 +5,8 @@
   "title": "Uhrzeiten",
   "orderKey": 12000,
   "items": [
-    "item_alm9_vid_topic_12_uhrzeiten"
+    "item_alm9_vid_topic_12_uhrzeiten",
+    "item_alm9_vid_topic_12_uhrzeiten__quiz"
   ],
   "sourceMeta": {
     "weeks": [

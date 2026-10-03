@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "stableKey": "tar9_quiz_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Tarih Araştırma ve Yazımında Dijitalleşme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarih Araştırma ve Yazımında Dijitalleşme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top04_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dijitalleşmenin modern tarih araştırmalarına ve yazımına sağladığı en belirgin katkı aşağıdakilerden hangisidir?",
+          "choices": [
+            "Dünya genelindeki arşiv, yazma eser ve müze koleksiyonlarına hızlı, uzaktan ve elektronik erişim imkânı sunması",
+            "Tarihçilerin geçmiş olayları laboratuvarda deneyle test etmesini sağlaması",
+            "Tarihî olayların gelecekte kesin olarak nasıl tekrarlanacağını hesaplaması",
+            "Tarihsel kaynak eleştirisi yapma zorunluluğunu tamamen ortadan kaldırması"
+          ],
+          "correctAnswer": "Dünya genelindeki arşiv, yazma eser ve müze koleksiyonlarına hızlı, uzaktan ve elektronik erişim imkânı sunması",
+          "explanation": "Dijitalleşme; e-devlet, dijital kütüphaneler (ör. Cumhurbaşkanlığı Devlet Arşivleri, TTK e-arşiv) ve veri tabanları sayesinde bilgiye anında ve küresel ölçekte ulaşımı mümkün kılmıştır."
+        },
+        {
+          "id": "q_tar9_top04_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "İnternet ve dijital platformlarda yayımlanan tarih içerikleri, geleneksel basılı belgelere kıyasla manipülasyona ve dezenformasyona daha açık olduğu için dijital kaynak tenkiti (eleştirisi) kritik önem taşır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Dijital ortamda bilgi kirliliği ve sahte belgeler hızla yayılabildiğinden, araştırmacıların verinin kaynağını, URL güvenilirliğini ve resmî akademik dayanağını doğrulaması (dijital tenkit) zorunludur."
+        },
+        {
+          "id": "q_tar9_top04_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Büyük veri setleri, coğrafi bilgi sistemleri (CBS) ve yapay zekâ algoritmaları kullanılarak tarihsel metinlerin taranması ve analiz edilmesini konu edinen disiplinlerarası alan hangisidir?",
+          "choices": [
+            "Dijital Beşerî Bilimler (Dijital Tarih)",
+            "Nümizmatik",
+            "Epigrafi",
+            "Paleografya"
+          ],
+          "correctAnswer": "Dijital Beşerî Bilimler (Dijital Tarih)",
+          "explanation": "Dijital Beşerî Bilimler (Digital Humanities), bilgisayar teknolojileri ve veri analiz yöntemlerinin tarih, edebiyat ve felsefe gibi beşerî bilimlere entegrasyonudur."
+        },
+        {
+          "id": "q_tar9_top04_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir tarih araştırmacısının internet üzerinden ulaştığı bir tarihî vesikayı değerlendirirken ilk yapması gereken bilimsel adım nedir?",
+          "choices": [
+            "Belgenin resmî bir arşiv veya güvenilir akademik bir veri tabanından alınıp alınmadığını teyit etmek",
+            "Sosyal medyada kaç kişi tarafından paylaşıldığına bakmak",
+            "Belgeyi hemen doğruluğunu sorgulamadan kendi tezinde kullanmak",
+            "Yalnızca günümüz değer yargılarına uygun olup olmadığını denetlemek"
+          ],
+          "correctAnswer": "Belgenin resmî bir arşiv veya güvenilir akademik bir veri tabanından alınıp alınmadığını teyit etmek",
+          "explanation": "Bilimsel araştırma etiğinde kaynağın doğrulanabilirliği esastır; resmî arşiv ve hakemli akademik kaynak kontrolü ilk adımdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "548d78a1882c2fa3"
+    }
+  }
+}

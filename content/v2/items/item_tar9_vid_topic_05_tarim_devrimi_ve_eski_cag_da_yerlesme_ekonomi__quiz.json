@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "stableKey": "tar9_quiz_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top05_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İnsanoğlunun avcı-toplayıcı göçebe yaşamdan yerleşik hayata geçmesini ve üretici ekonomiye başlamasını sağlayan tarihsel gelişme hangisidir?",
+          "choices": [
+            "Neolitik Dönem Tarım Devrimi",
+            "Yazının İcadı",
+            "Kavimler Göçü",
+            "Paranın İcadı"
+          ],
+          "correctAnswer": "Neolitik Dönem Tarım Devrimi",
+          "explanation": "Tarım Devrimi (Neolitik Devrim) ile insanlar toprağı ekmeye, hayvanları evcilleştirmeye ve kalıcı köyler kurarak üretici yaşama geçmeye başlamışlardır."
+        },
+        {
+          "id": "q_tar9_top05_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Tarımsal üretim fazlası olan \"artı ürün\", ürünlerin depolanması ihtiyacını doğurmuş; bu durum tapınak depolarının yönetimiyle birlikte yazının icadına ve takasa dayalı ticaretin başlamasına zemin hazırlamıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Artı ürün; depolama, kayıt tutma ihtiyacı (Sümerlerde piktografik yazı ve zigguratlar), iş bölümü, sınıflı toplum yapısı ve ticaretin doğmasına yol açmıştır."
+        },
+        {
+          "id": "q_tar9_top05_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Anadolu'da ilk tarımsal üretimin yapıldığı ve ilk köy yerleşmelerinden biri olarak kabul edilen Diyarbakır sınırlarındaki arkeolojik alan hangisidir?",
+          "choices": [
+            "Çayönü",
+            "Göbeklitepe",
+            "Çatalhöyük",
+            "Alacahöyük"
+          ],
+          "correctAnswer": "Çayönü",
+          "explanation": "Diyarbakır Ergani'deki Çayönü, Yakın Doğu'nun ilk köy yerleşimlerinden olup tarımsal faaliyetin ve evcilleştirilmiş hayvanların görüldüğü ilk merkezlerdendir."
+        },
+        {
+          "id": "q_tar9_top05_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eski Çağ'ın ilk büyük medeniyet havzalarının (Mezopotamya, Mısır, Hindistan, Çin) büyük nehir vadilerinde kurulmasının en temel sebebi nedir?",
+          "choices": [
+            "Verimli alüvyal tarım toprakları ve zengin tatlı su kaynaklarına sahip olunması",
+            "Etrafının tamamen aşılmaz sıradağlarla çevrili olması",
+            "Madenî paranın yalnızca bu nehir havzalarında geçerli olması",
+            "Sadece deniz aşırı sömürgecilik faaliyetlerine odaklanılması"
+          ],
+          "correctAnswer": "Verimli alüvyal tarım toprakları ve zengin tatlı su kaynaklarına sahip olunması",
+          "explanation": "Fırat, Dicle, Nil, İndus ve Sarıırmak vadileri taşkınlarla verimli topraklar sağladığı ve sulu tarıma elverişli olduğu için ilk uygarlıkların beşiği olmuştur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "1d9f432dc3b8e217"
+    }
+  }
+}

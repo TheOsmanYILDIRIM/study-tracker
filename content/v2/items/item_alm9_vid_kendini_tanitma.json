@@ -4,11 +4,11 @@
   "lessonId": "lesson_alm9_modul1_hallo",
   "stableKey": "alm9_vid_kendini_tanitma",
   "itemType": "VIDEO",
-  "displayLabel": "1.2",
+  "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "AlmancaKolay",
     "provenance": {
@@ -18,6 +18,9 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "ff41a131eaf524d1"
-    }
+    },
+    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

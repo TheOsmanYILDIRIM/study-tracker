@@ -6,7 +6,9 @@
   "orderKey": 2000,
   "items": [
     "item_ing9_vid_cumle_kurma",
+    "item_ing9_vid_cumle_kurma__quiz",
     "item_ing9_vid_simple_present",
+    "item_ing9_vid_simple_present__quiz",
     "item_ing9_anki_1ay",
     "item_ing9_quiz_school_life"
   ],

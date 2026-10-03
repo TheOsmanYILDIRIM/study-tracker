@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_kaldirma_kuvveti__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+  "stableKey": "fiz9_quiz_vid_kaldirma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.2-Q",
+  "orderKey": 2500,
+  "title": "Kaldırma Kuvveti Prensipleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kaldırma Kuvveti Prensipleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_vkal_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Durgun bir sıvıya tamamen ya da kısmen batırılan cisme etki eden kaldırma kuvveti (Fk) formülü hangisidir?",
+          "choices": [
+            "Fk = Vbatan · dsıvı · g",
+            "Fk = Vcisim · dcisim · g",
+            "Fk = h · dsıvı · g",
+            "Fk = m · g / S"
+          ],
+          "correctAnswer": "Fk = Vbatan · dsıvı · g",
+          "explanation": "Arşimet prensibine göre kaldırma kuvveti, cismin batan hacmi ile sıvının özkütlesi ve yer çekimi ivmesinin çarpımına eşittir."
+        },
+        {
+          "id": "q_fiz9_vkal_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir sıvıda yüzen veya askıda kalan dengedeki bir cisme etki eden kaldırma kuvveti cismin kendi ağırlığına (G) eşittir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Yüzen ve askıda kalan cisimlerde düşey kuvvet dengesi gereği Fk = G olur."
+        },
+        {
+          "id": "q_fiz9_vkal_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Özkütlesi dc olan bir cisim özkütlesi ds olan bir sıvıya bırakıldığında cismin kabın tabanına batması için şart nedir?",
+          "choices": [
+            "dc > ds",
+            "dc < ds",
+            "dc = ds",
+            "dc = 2·ds"
+          ],
+          "correctAnswer": "dc > ds",
+          "explanation": "Cismin özkütlesi sıvınınkinden büyükse cisim dibe batar (dc > ds)."
+        },
+        {
+          "id": "q_fiz9_vkal_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Ağzına kadar sıvı dolu bir taşma kabına, sıvıda yüzen bir tahta blok bırakıldığında kapta ağırlaşma olur mu?",
+          "choices": [
+            "Ağırlaşma olmaz, çünkü taşan sıvının ağırlığı cismin ağırlığına eşittir.",
+            "Cismin tüm ağırlığı kadar ağırlaşma olur.",
+            "Cismin batan hacmi kadar ağırlaşma olur.",
+            "Sıvı döküldüğü için kabın toplam ağırlığı azalır."
+          ],
+          "correctAnswer": "Ağırlaşma olmaz, çünkü taşan sıvının ağırlığı cismin ağırlığına eşittir.",
+          "explanation": "Yüzen cisimlerde taşan sıvının ağırlığı kaldırma kuvvetine, kaldırma kuvveti de cismin ağırlığına eşit olduğundan kaba giren ağırlık çıkan ağırlığa eşittir; ağırlaşma olmaz."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_kaldirma_kuvveti",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c139f9e9b9c710ea"
+    }
+  }
+}

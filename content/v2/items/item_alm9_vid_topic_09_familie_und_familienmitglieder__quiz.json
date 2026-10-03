@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+  "stableKey": "alm9_quiz_topic_09_familie_und_familienmitglieder_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Familie und Familienmitglieder Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Familie und Familienmitglieder Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top9_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada anne ve babayı birlikte (ebeveyn) ifade eden çoğul sözcük hangisidir?",
+          "choices": [
+            "die Eltern",
+            "die Geschwister",
+            "die Großeltern",
+            "die Familie"
+          ],
+          "correctAnswer": "die Eltern",
+          "explanation": "die Eltern = ebeveyn (anne-baba), die Geschwister = kardeşler, die Großeltern = büyükanne ve büyükbaba."
+        },
+        {
+          "id": "q_alm9_top9_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Bu benim kız kardeşimdir.\" cümlesinin Almanca doğru karşılığı hangisidir?",
+          "choices": [
+            "Das ist meine Schwester.",
+            "Das ist mein Bruder.",
+            "Das ist mein Schwester.",
+            "Das ist meine Mutter."
+          ],
+          "correctAnswer": "Das ist meine Schwester.",
+          "explanation": "die Schwester (kız kardeş) dişil olduğu için iyelik zamiri \"meine\" ekini alır: \"Das ist meine Schwester.\""
+        },
+        {
+          "id": "q_alm9_top9_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Eril aile üyelerinde (der Vater, der Bruder) \"mein/dein\", dişil aile üyelerinde (die Mutter, die Schwester) ise \"meine/deine\" kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İyelik sıfatları isimlerin cinsiyetine göre çekimlenir: der/das için mein, die (tekil ve çoğul) için meine."
+        },
+        {
+          "id": "q_alm9_top9_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"der Großvater (Opa)\" ve \"die Großmutter (Oma)\" sözcükleri sırasıyla hangi aile üyelerini temsil eder?",
+          "choices": [
+            "Dede (Büyükbaba) ve Büyükanne (Nine/Anneanne/Babaanne)",
+            "Amca ve Teyze",
+            "Baba ve Anne",
+            "Erkek kardeş ve Kız kardeş"
+          ],
+          "correctAnswer": "Dede (Büyükbaba) ve Büyükanne (Nine/Anneanne/Babaanne)",
+          "explanation": "der Großvater = büyükbaba (dede), die Großmutter = büyükanne (nine)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "5547b3a4088d36fd",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "63703df717ecd477"
+    }
+  }
+}

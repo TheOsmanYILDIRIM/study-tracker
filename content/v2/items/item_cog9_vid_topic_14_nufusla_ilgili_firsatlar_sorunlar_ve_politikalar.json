@@ -7,8 +7,8 @@
   "displayLabel": "14.1",
   "orderKey": 1000,
   "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
@@ -22,11 +22,17 @@
       "sourceTopic": [
         "Nüfusla İlgili Fırsat, Sorun ve Politikalar"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "8718a402403df86d",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

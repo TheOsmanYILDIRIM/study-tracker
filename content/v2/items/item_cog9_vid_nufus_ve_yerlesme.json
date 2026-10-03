@@ -29,9 +29,14 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.tr.vtt",
-      "transcriptFingerprint": "a9429fca5308feaa"
+      "transcriptFingerprint": "a9429fca5308feaa",
+      "reviewedOverride": true
     },
     "provider": "Coğrafyanın Kodları",
-    "topic": "Afet Türleri"
+    "topic": "Afet Türleri",
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "provider": "Coğrafyanın Kodları"
+    }
   }
 }

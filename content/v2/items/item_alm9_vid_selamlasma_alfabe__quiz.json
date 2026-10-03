@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_selamlasma_alfabe__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_quiz_selamlasma_alfabe_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Selamlaşma, Vedalaşma ve Alfabe Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Selamlaşma, Vedalaşma ve Alfabe Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_selam_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almanca alfabesinde yer alan özel harf \"ß\" (Eszett / scharfes S) Türkçede hangi ses değerine karşılık gelir?",
+          "choices": [
+            "Çift s / keskin s sesi",
+            "b ve s harflerinin birleşimi",
+            "Ş sesi",
+            "Z sesi"
+          ],
+          "correctAnswer": "Çift s / keskin s sesi",
+          "explanation": "\"ß\" harfi Almancada \"scharfes S\" (keskin s) veya \"Eszett\" olarak bilinir ve çift 's' (ss) şeklinde okunur (örn: heißen)."
+        },
+        {
+          "id": "q_alm9_selam_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada yan yana gelen \"ei\" harf grubu Türkçe \"ay\" gibi, \"ie\" harf grubu ise uzun bir \"i\" sesi gibi okunur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Örneğin \"mein\" (mayn) ve \"heißen\" (haysın) kelimelerinde \"ei\" = ay okunurken, \"sie\" (zii) kelimesinde \"ie\" = uzun i okunur."
+        },
+        {
+          "id": "q_alm9_selam_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Samimi arkadaş ortamında \"Merhaba!\" ve \"Hoşça kal!\" demek için kullanılan en yaygın ikili hangisidir?",
+          "choices": [
+            "Hallo! / Tschüss!",
+            "Guten Tag! / Auf Wiedersehen!",
+            "Guten Morgen! / Gute Nacht!",
+            "Grüß Gott! / Mahlzeit!"
+          ],
+          "correctAnswer": "Hallo! / Tschüss!",
+          "explanation": "Akranlar ve arkadaşlar arasında en yaygın ve samimi karşılama \"Hallo!\", vedalaşma ise \"Tschüss!\" ifadesidir."
+        },
+        {
+          "id": "q_alm9_selam_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada \"Bu nasıl yazılır / harf harf kodlanır?\" anlamına gelen soru kalıbı hangisidir?",
+          "choices": [
+            "Wie schreibt man das?",
+            "Wie heißt du?",
+            "Woher kommst du?",
+            "Wie geht es dir?"
+          ],
+          "correctAnswer": "Wie schreibt man das?",
+          "explanation": "\"Wie schreibt man das?\" (Bu nasıl yazılır?) sorusu bir kelimenin yazılışını veya harflendirilmesini istemek için kullanılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_selamlasma_alfabe",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "a79b24cf733bf17f",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "19359c9274202cab"
+    }
+  }
+}

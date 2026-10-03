@@ -6,7 +6,9 @@
   "orderKey": 4000,
   "items": [
     "item_ing9_vid_modals",
+    "item_ing9_vid_modals__quiz",
     "item_ing9_vid_used_to",
+    "item_ing9_vid_used_to__quiz",
     "item_ing9_quiz_modals_future"
   ],
   "sourceMeta": {

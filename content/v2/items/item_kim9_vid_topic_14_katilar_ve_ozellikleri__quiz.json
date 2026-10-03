@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_14_katilar_ve_ozellikleri__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+  "stableKey": "kim9_quiz_katilar_ozellikler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Katı Türleri ve Özellikleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Katı Türleri ve Özellikleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_kat_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tanecikleri belirli bir geometrik düzene göre dizilmeyen, sabit bir erime noktası bulunmayıp camsı geçiş sıcaklığına sahip olan katı türü hangisidir?",
+          "choices": [
+            "Amorf Katılar",
+            "Kristal Katılar",
+            "İyonik Katılar",
+            "Metalik Katılar"
+          ],
+          "correctAnswer": "Amorf Katılar",
+          "explanation": "Cam, plastik, lastik, tereyağı ve mum gibi maddeler amorf katıdır; belirli erime noktaları yoktur, yumuşayarak erirler."
+        },
+        {
+          "id": "q_kim9_kat_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Elmas, grafit ve kuvars (SiO₂) hangi kristal katı sınıfına aittir?",
+          "choices": [
+            "Kovalent Kristaller (Ağ Örgülü)",
+            "Moleküler Kristaller",
+            "İyonik Kristaller",
+            "Metalik Kristaller"
+          ],
+          "correctAnswer": "Kovalent Kristaller (Ağ Örgülü)",
+          "explanation": "Atomların üç boyutlu ağ örgüsü şeklinde kovalent bağlarla bağlandığı katılara kovalent kristal denir; erime noktaları olağanüstü yüksektir."
+        },
+        {
+          "id": "q_kim9_kat_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Buz (H₂O), kuru buz (CO₂) ve naftalin (C₁₀H₈) tanecikleri arasında zayıf etkileşimler bulunan moleküler kristallerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Moleküllerin London, dipol-dipol veya hidrojen bağlarıyla bir arada tutulduğu katılar moleküler kristal olup erime noktaları düşüktür."
+        },
+        {
+          "id": "q_kim9_kat_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Grafit, tabakalı yapısındaki serbest hareket edebilen pi elektronları sayesinde elektriği iletebilen istisnai bir ametal kovalent kristaldir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Elmas elektriği iletmezken grafit tabakalar arasındaki serbest elektronlar sayesinde elektriği iletir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c0f31bdc59156db6"
+    }
+  }
+}

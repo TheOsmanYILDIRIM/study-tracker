@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "20.1",
   "orderKey": 1000,
-  "title": "Isı İletim Hızı",
-  "contentUrl": null,
+  "title": "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık",
+  "contentUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Isı İletim Hızı",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,7 +25,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "721e3a4904c0d2e6",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

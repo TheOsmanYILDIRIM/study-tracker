@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_20_isi_iletim_hizi__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_20_isi_iletim_hizi",
+  "stableKey": "fiz9_quiz_top20_iletim_hizi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "20.1-Q",
+  "orderKey": 1500,
+  "title": "Isı İletim Hızı ve Yalıtım Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Isı İletim Hızı ve Yalıtım Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top20_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir duvarın birim zamandaki ısı iletim hızını (ΔQ/Δt = k·A·ΔT/d) ARTIRMAK için aşağıdakilerden hangisi yapılmalıdır?",
+          "choices": [
+            "Duvarın yüzey alanını (A) veya iki taraf arasındaki sıcaklık farkını (ΔT) artırmak",
+            "Duvarın kalınlığını (d) artırmak",
+            "Isı iletim katsayısı (k) daha küçük yalıtım malzemesi kullanmak",
+            "Duvarı çift camlı yalıtımlı yapmak"
+          ],
+          "correctAnswer": "Duvarın yüzey alanını (A) veya iki taraf arasındaki sıcaklık farkını (ΔT) artırmak",
+          "explanation": "Isı iletim hızı yüzey alanı (A), sıcaklık farkı (ΔT) ve iletim katsayısı (k) ile doğru orantılı; malzeme kalınlığı (d) ile ters orantılıdır."
+        },
+        {
+          "id": "q_fiz9_top20_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Kışın aynı odada bulunan tahta masa ile demir sandalyenin gerçek sıcaklıkları eşit olmasına rağmen, demirin ısı iletim katsayısı daha yüksek olduğu için demir sandalyeye dokunulduğunda daha soğuk hissedilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Isıl dengedeki iki nesnenin sıcaklığı aynıdır. Ancak demir ısıyı elimizden tahtaya göre çok daha hızlı çektiği için daha soğuk hissedilir."
+        },
+        {
+          "id": "q_fiz9_top20_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Binalarda ısı yalıtımında kullanılan köpük (strafor), cam yünü ve çift camların ortak özelliği nedir?",
+          "choices": [
+            "Isı iletim katsayılarının çok düşük olması ve hapsedilmiş durgun hava içermeleri",
+            "Özkütlelerinin çok yüksek olması",
+            "Elektrik akımını çok iyi iletmeleri",
+            "Güneş ışığını tamamen soğurmaları"
+          ],
+          "correctAnswer": "Isı iletim katsayılarının çok düşük olması ve hapsedilmiş durgun hava içermeleri",
+          "explanation": "Durgun hava mükemmel bir ısı yalıtkanıdır. Yalıtım malzemeleri havayı küçük gözeneklere hapsederek konveksiyon ve iletimi engeller."
+        },
+        {
+          "id": "q_fiz9_top20_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hissedilen sıcaklık kavramı ile ilgili olarak aşağıdakilerden hangisi DOĞRUDUR?",
+          "choices": [
+            "Termometrenin ölçtüğü gerçek hava sıcaklığı ile birlikte havadaki bağıl nem ve rüzgâr hızına bağlı olarak insan vücudunun algıladığı sıcaklıktır.",
+            "Termometre ile doğrudan ölçülen nesnel sıcaklıktır.",
+            "Yalnızca deniz seviyesindeki yerlerde geçerlidir.",
+            "Havadaki oksijen oranına bağlıdır."
+          ],
+          "correctAnswer": "Termometrenin ölçtüğü gerçek hava sıcaklığı ile birlikte havadaki bağıl nem ve rüzgâr hızına bağlı olarak insan vücudunun algıladığı sıcaklıktır.",
+          "explanation": "Hissedilen sıcaklık; gerçek sıcaklık, bağıl nem, rüzgâr ve radyasyon gibi faktörlerin birleşimiyle vücudun termal algısını ifade eder."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_20_isi_iletim_hizi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "72f966a8c36b4183"
+    }
+  }
+}

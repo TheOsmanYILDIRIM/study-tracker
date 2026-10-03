@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_topic_07_theme_7_life_in_the_world_nature__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_topic_07_theme_7_life_in_the_world_nature",
+  "stableKey": "ing9_quiz_theme7_world_nature_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Theme 7: Life in the World & Nature Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Theme 7: Life in the World & Nature Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_top07_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğal çevreyi ve biyolojik çeşitliliği korumak amacıyla insanlara öneride bulunurken hangi ifade kullanılmalıdır?",
+          "choices": [
+            "We should plant more trees and recycle our waste.",
+            "We must cut down all forests immediately.",
+            "We shouldn't save water and electricity.",
+            "We ought to pollute rivers and lakes."
+          ],
+          "correctAnswer": "We should plant more trees and recycle our waste.",
+          "explanation": "Çevreyi koruma tavsiyelerinde \"should\" (yapmalıyız) kullanılır: Daha çok ağaç dikmeli ve atıkları geri dönüştürmeliyiz (\"plant trees and recycle\")."
+        },
+        {
+          "id": "q_ing9_top07_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Global warming\" (küresel ısınma) ve \"deforestation\" (ormanların yok edilmesi), ekosistemi ve yabani hayvanların doğal yaşam alanlarını tehdit eden küresel sorunlardır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Küresel ısınma ve ormansızlaşma biyoçeşitliliği ve canlıların yaşam alanlarını (habitats) doğrudan yok eden en kritik çevre sorunlarıdır."
+        },
+        {
+          "id": "q_ing9_top07_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki coğrafi yeryüzü şekillerinden hangisi \"tatlı suların yüksek bir kayalıktan döküldüğü doğal çağlayan\" anlamındaki sözcüktür?",
+          "choices": [
+            "Waterfall",
+            "Desert",
+            "Glacier",
+            "Volcano"
+          ],
+          "correctAnswer": "Waterfall",
+          "explanation": "\"Waterfall\" şelale / çağlayan demektir. \"Desert\" çöl, \"Glacier\" buzul, \"Volcano\" yanardağdır."
+        },
+        {
+          "id": "q_ing9_top07_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Enerji tasarrufu yapmak ve karbon ayak izini azaltmak için kullanılan \"Turn off the lights when leaving a room\" cümlesinin Türkçe anlamı nedir?",
+          "choices": [
+            "Odadan çıkarken ışıkları kapatınız.",
+            "Odaya girerken ışıkları açınız.",
+            "Odadaki pencereleri kapatınız.",
+            "Odayı her gün havalandırınız."
+          ],
+          "correctAnswer": "Odadan çıkarken ışıkları kapatınız.",
+          "explanation": "\"Turn off\" cihaz/ışık kapatmak, \"leave a room\" odadan ayrılmak demektir: \"Odadan çıkarken ışıkları kapatınız.\""
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_topic_07_theme_7_life_in_the_world_nature",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=b4Y7e8kZ2kU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c9d9c8f547d51d8c"
+    }
+  }
+}

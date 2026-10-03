@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_simple_present__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_quiz_simple_present_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Simple Present vs Present Continuous Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Simple Present vs Present Continuous Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_sp_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Right now\" ve \"at the moment\" zaman zarfları hangi tense ile birlikte kullanılır ve neyi ifade eder?",
+          "choices": [
+            "Present Continuous Tense - Konuşma anında gerçekleşen eylemleri",
+            "Simple Present Tense - Genel doğruları ve alışkanlıkları",
+            "Simple Past Tense - Geçmişte tamamlanmış olayları",
+            "Future Tense - Gelecek planlarını"
+          ],
+          "correctAnswer": "Present Continuous Tense - Konuşma anında gerçekleşen eylemleri",
+          "explanation": "\"Right now\", \"at the moment\", \"currently\" gibi zaman ifadeleri şu anda yapılmakta olan eylemleri bildirdiğinden Present Continuous (am/is/are + V_ing) ile kullanılır."
+        },
+        {
+          "id": "q_ing9_sp_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Understand, know, want, like\" gibi durum bildiren (stative) fiiller genellikle Present Continuous (-ing) ekiyle kullanılmaz; geniş zaman ile ifade edilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Stative verbs (durum fiilleri) anlık fiziksel bir eylem değil bilişsel/duygusal bir durum ifade ettiği için \"I am understanding\" yerine \"I understand\" denir."
+        },
+        {
+          "id": "q_ing9_sp_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Boşluğu en uygun şekilde tamamlayınız: \"Be quiet! The baby _______ in the bedroom right now.\"",
+          "choices": [
+            "is sleeping",
+            "sleeps",
+            "sleep",
+            "are sleeping"
+          ],
+          "correctAnswer": "is sleeping",
+          "explanation": "\"The baby\" tekil öznesi ve \"right now\" zaman zarfı nedeniyle eylem konuşma anında sürmektedir: \"is sleeping\"."
+        },
+        {
+          "id": "q_ing9_sp_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki cümlelerin hangisinde sıklık zarfının (frequency adverb) yeri DOĞRU kullanılmıştır?",
+          "choices": [
+            "He always arrives at school on time.",
+            "He arrives always at school on time.",
+            "Always he arrives at school on time.",
+            "He arrives at school on time always."
+          ],
+          "correctAnswer": "He always arrives at school on time.",
+          "explanation": "Sıklık zarfları (always, usually, often, sometimes, never) kural olarak asıl fiilden hemen önce, özne ile fiil arasına gelir (He always arrives)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_simple_present",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=A8vN6o44m2Y",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "f2f566ebcefcfb9c"
+    }
+  }
+}

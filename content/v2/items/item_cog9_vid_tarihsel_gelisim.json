@@ -7,8 +7,8 @@
   "displayLabel": "1.3",
   "orderKey": 3000,
   "title": "Coğrafya Biliminin Tarihsel Gelişimi",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,14 @@
       "sourceSection": "3. Hafta: Coğrafya Biliminin Tarihsel Gelişimi",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "1f3480b9f4892e43"
+      "reviewStatus": "verified",
+      "fingerprint": "1f3480b9f4892e43",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

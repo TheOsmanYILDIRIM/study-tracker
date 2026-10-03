@@ -7,8 +7,8 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "İklim Türleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "İklim Türleri",
@@ -22,11 +22,17 @@
       "sourceTopic": [
         "İklim Türleri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "0992da6f9c2eb1ae",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

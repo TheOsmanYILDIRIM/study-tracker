@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_katilar_ve_sivilar__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "stableKey": "kim9_quiz_katilar_ve_sivilar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "17.1-Q",
+  "orderKey": 1500,
+  "title": "Katı ve Sıvı Halleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Katı ve Sıvı Halleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_katsiv_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Karayollarına sıcak asfalt dökülürken ziftin yüksek sıcaklıkta ısıtılmasının temel kimyasal gerekçesi nedir?",
+          "choices": [
+            "Viskozitesini düşürerek akışkanlığını artırmak ve zemine kolay yayılmasını sağlamak",
+            "Buhar basıncını sıfıra indirmek",
+            "Kristal katı örgüsü oluşturmak",
+            "Adezyon kuvvetini yok etmek"
+          ],
+          "correctAnswer": "Viskozitesini düşürerek akışkanlığını artırmak ve zemine kolay yayılmasını sağlamak",
+          "explanation": "Sıcaklık arttıkça viskozite azalır, sıvı akıcı hale gelir ve yolu kolayca kaplar."
+        },
+        {
+          "id": "q_kim9_katsiv_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir kılcal boruda suyun içbükey (menisküs çukuru) oluşturarak boruda yükselmesi hangi kuvvet ilişkisini kanıtlar?",
+          "choices": [
+            "Adezyon kuvveti > Kohezyon kuvveti",
+            "Kohezyon kuvveti > Adezyon kuvveti",
+            "Yalnızca yer çekimi kuvveti",
+            "Viskozitenin sıfır olduğunu"
+          ],
+          "correctAnswer": "Adezyon kuvveti > Kohezyon kuvveti",
+          "explanation": "Cam ile su arasındaki yapışma (adezyon), su moleküllerinin kendi arasındaki tutunmasından (kohezyon) büyük olduğunda sıvı camı ıslatır ve boruda yükselir."
+        },
+        {
+          "id": "q_kim9_katsiv_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Sabun ve deterjan gibi yüzey aktif maddeler suyun yüzey gerilimini düşürerek kirlerin içine suyun nüfuz etmesini ve temizliği kolaylaştırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Yüzey aktif maddeler su molekülleri arasındaki hidrojen bağlarını zayıflatarak yüzey gerilimini düşürür."
+        },
+        {
+          "id": "q_kim9_katsiv_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kristal katıların düzenli üç boyutlu bir geometrik örgü yapısı ve net bir erime noktası vardır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Kristal katılar (iyonik, kovalent, moleküler, metalik) düzenli birim hücrelerden oluşur ve belirli erime sıcaklığında erir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_katilar_ve_sivilar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "cb1c6cdf222acb7b"
+    }
+  }
+}

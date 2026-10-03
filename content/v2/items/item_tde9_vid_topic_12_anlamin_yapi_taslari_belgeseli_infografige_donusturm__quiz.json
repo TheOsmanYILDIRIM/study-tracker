@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+  "stableKey": "tde9_quiz_topic_12_infografik_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1500,
+  "title": "İnfografik ve Görsel Metin Dönüştürme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İnfografik ve Görsel Metin Dönüştürme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top12_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Karmaşık bilgilerin, istatistiki verilerin ve süreçlerin grafikler, simgeler ve kısa metinlerle görselleştirildiği tasarımlara ne ad verilir?",
+          "choices": [
+            "İnfografik (Bilgi Grafiği)",
+            "Bibliyografya",
+            "Dizin",
+            "Monografi"
+          ],
+          "correctAnswer": "İnfografik (Bilgi Grafiği)",
+          "explanation": "İnfografik; verilerin, akışların ve önemli bilgilerin görsel unsurlar, simgeler ve kısa açıklamalarla anlaşılır kılındığı görsel metin türüdür."
+        },
+        {
+          "id": "q_tde9_top12_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir metni veya belgeseli infografiğe dönüştürürken uzun paragraflar aynen korunmalı, görsel ve şema kullanılmamalıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "İnfografiklerin temel amacı bilgiyi sadeleştirmek, anahtar noktaları öne çıkarmak ve görsel hiyerarşiyle hızlı kavranmasını sağlamaktır."
+        },
+        {
+          "id": "q_tde9_top12_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İnfografik hazırlarken tasarımda bilginin önem sırasına göre renk ve boyut kullanımı hangi kavramla ifade edilir?",
+          "choices": [
+            "Görsel Hiyerarşi",
+            "Yazınsal Kurgu",
+            "Tipografik Monotonluk",
+            "Serim Düzeni"
+          ],
+          "correctAnswer": "Görsel Hiyerarşi",
+          "explanation": "Görsel hiyerarşi; okuyucunun gözünün en önemli bilgiden ayrıntıya doğru yönlendirilmesini sağlayan boyutlandırma ve renk düzenidir."
+        },
+        {
+          "id": "q_tde9_top12_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Belgeselden infografik üretirken ilk yapılması gereken adım hangisidir?",
+          "choices": [
+            "Temel verileri, ana fikirleri ve sayısal göstergeleri süzüp özetlemek",
+            "Rastgele resimler seçmek",
+            "Yalnızca arka plan rengine karar vermek",
+            "Belgeselin tamamını metne döküp sayfayı doldurmak"
+          ],
+          "correctAnswer": "Temel verileri, ana fikirleri ve sayısal göstergeleri süzüp özetlemek",
+          "explanation": "İnfografik oluşturmanın ilk adımı veri analizi ve içerik özetlemedir; sunulacak kilit noktalar ve veriler önceden belirlenmelidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "bc2fa20f35204c71"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_cebirsel_ispat__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+  "stableKey": "mat9_quiz_cebirsel_ispat_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.2-Q",
+  "orderKey": 2500,
+  "title": "İşlem Özelliklerini Cebirsel İfade Etme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İşlem Özelliklerini Cebirsel İfade Etme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_cebispat_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Her a, b, c ∈ R için a · (b + c) = a · b + a · c eşitliği gerçek sayılarda hangi özelliği ifade eder?",
+          "choices": [
+            "Çarpmanın toplama üzerine soldan dağılma özelliği",
+            "Toplamanın değişme özelliği",
+            "Çarpmanın birleşme özelliği",
+            "Toplamanın etkisiz eleman özelliği"
+          ],
+          "correctAnswer": "Çarpmanın toplama üzerine soldan dağılma özelliği",
+          "explanation": "Parantez dışındaki çarpanın parantez içindeki her bir terimle ayrı ayrı çarpılarak toplanması dağılma özelliğidir."
+        },
+        {
+          "id": "q_mat9_cebispat_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Gerçek sayılar kümesinde toplama işleminin birim (etkisiz) elemanı ile çarpma işleminin yutan elemanı sırasıyla hangileridir?",
+          "choices": [
+            "0 ve 0",
+            "1 ve 0",
+            "0 ve 1",
+            "1 ve -1"
+          ],
+          "correctAnswer": "0 ve 0",
+          "explanation": "Toplama işleminin etkisiz elemanı 0 (a + 0 = a), çarpma işleminin yutan elemanı ise 0 dır (a · 0 = 0)."
+        },
+        {
+          "id": "q_mat9_cebispat_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Sıfır hariç her gerçek a sayısı için a · (1/a) = 1 olduğundan 1/a sayısı a nın çarpmaya göre tersidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Sıfırdan farklı her gerçek sayının çarpımsal tersi vardır ve çarpımları birim eleman olan 1 i verir."
+        },
+        {
+          "id": "q_mat9_cebispat_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Doğal sayılar kümesi (N) çıkarma işlemine göre kapalıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Örneğin 3 - 5 = -2 olup -2 doğal sayı değildir. Dolayısıyla doğal sayılar kümesi çıkarma işlemine göre kapalı değildir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_cebirsel_ispat",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

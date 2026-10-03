@@ -1,0 +1,84 @@
+{
+  "id": "item_mat9_vid_topic_09_geometrik_donusumler__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+  "stableKey": "mat9_quiz_topic_09_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Geometrik Dönüşümler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Geometrik Dönüşümler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top09_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Analitik düzlemde A(3, -2) noktası x ekseni boyunca 4 birim sağa ve y ekseni boyunca 3 birim yukarı ötelenirse görüntüsü hangi nokta olur?",
+          "choices": [
+            "(7, 1)",
+            "(-1, -5)",
+            "(7, -5)",
+            "(-1, 1)"
+          ],
+          "correctAnswer": "(7, 1)",
+          "explanation": "Sağa öteleme apsise eklenir (3 + 4 = 7), yukarı öteleme ordinata eklenir (-2 + 3 = 1) ⇒ (7, 1)."
+        },
+        {
+          "id": "q_mat9_top09_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "P(x, y) noktasının x eksenine göre yansıması (simetriği) aşağıdakilerden hangisidir?",
+          "choices": [
+            "(x, -y)",
+            "(-x, y)",
+            "(-x, -y)",
+            "(y, x)"
+          ],
+          "correctAnswer": "(x, -y)",
+          "explanation": "x eksenine göre yansımada apsis değişmez, ordinat işaret değiştirir: (x, -y)."
+        },
+        {
+          "id": "q_mat9_top09_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "P(x, y) noktasının orijine göre yansıması aşağıdakilerden hangisidir?",
+          "choices": [
+            "(-x, -y)",
+            "(x, -y)",
+            "(-x, y)",
+            "(y, -x)"
+          ],
+          "correctAnswer": "(-x, -y)",
+          "explanation": "Orijine göre simetride her iki bileşen de işaret değiştirir: (-x, -y)."
+        },
+        {
+          "id": "q_mat9_top09_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Öteleme, yansıma ve dönme dönüşümleri şeklin uzunluk ve açı ölçülerini koruyan izometri (eşlik) dönüşümleridir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bu dönüşümlerde şeklin boyutu ve açıları değişmez, yalnızca konumu veya yönelimi değişir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_09_geometrik_donusumler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

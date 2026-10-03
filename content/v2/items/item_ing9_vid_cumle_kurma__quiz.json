@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_cumle_kurma__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_orientation_revision",
+  "stableKey": "ing9_quiz_cumle_kurma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Cümle Kurma ve Günlük Rutinler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Cümle Kurma ve Günlük Rutinler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_ck_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İngilizcede kurallı ve düz bir olumlu cümlenin temel öge dizilişi (S-V-O) aşağıdakilerden hangisidir?",
+          "choices": [
+            "Özne (Subject) + Yüklem (Verb) + Nesne (Object)",
+            "Yüklem (Verb) + Özne (Subject) + Nesne (Object)",
+            "Nesne (Object) + Özne (Subject) + Yüklem (Verb)",
+            "Özne (Subject) + Nesne (Object) + Yüklem (Verb)"
+          ],
+          "correctAnswer": "Özne (Subject) + Yüklem (Verb) + Nesne (Object)",
+          "explanation": "İngilizce cümle yapısı SVO (Subject + Verb + Object) esasına dayanır. Türkçe gibi yüklem sonda değil, özneden hemen sonra gelir."
+        },
+        {
+          "id": "q_ing9_ck_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Günlük sabah rutinlerini anlatırken \"I brush my teeth\" (Dişlerimi fırçalarım) ve \"I have breakfast\" (Kahvaltı yaparım) ifadeleri kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Brush one's teeth\" (diş fırçalamak) ve \"have/eat breakfast\" (kahvaltı yapmak) günlük rutinleri ifade eden temel kalıplardır."
+        },
+        {
+          "id": "q_ing9_ck_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki cümlelerden hangisinde sözcük dizilişi kurallara UYGUNDUR?",
+          "choices": [
+            "She drinks a cup of tea every morning.",
+            "Drinks she every morning a cup of tea.",
+            "She every morning drinks a cup of tea.",
+            "A cup of tea she drinks every morning."
+          ],
+          "correctAnswer": "She drinks a cup of tea every morning.",
+          "explanation": "Kurallı İngilizce cümlede: Özne (She) + Fiil (drinks) + Nesne (a cup of tea) + Zaman zarfı (every morning) şeklinde sıralanır."
+        },
+        {
+          "id": "q_ing9_ck_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Her gün okula otobüsle giderim\" cümlesinin İngilizce doğru karşılığı hangisidir?",
+          "choices": [
+            "I go to school by bus every day.",
+            "I goes to school with bus every day.",
+            "Every day I am go to school on bus.",
+            "I go school by the bus everyday."
+          ],
+          "correctAnswer": "I go to school by bus every day.",
+          "explanation": "\"I\" öznesiyle geniş zamanda fiil yalın kalır (\"go\") ve ulaşım araçları için \"by bus\" edatı kullanılır: \"I go to school by bus every day.\""
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_cumle_kurma",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "7778a80ff0cab5e5"
+    }
+  }
+}

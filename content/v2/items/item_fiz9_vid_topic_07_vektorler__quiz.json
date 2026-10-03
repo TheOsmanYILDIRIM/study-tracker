@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_07_vektorler__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_07_vektorler",
+  "stableKey": "fiz9_quiz_top07_vektorler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Vektörler ve Bileşke Vektör Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Vektörler ve Bileşke Vektör Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top07_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir fiziksel büyüklüğün vektörel olarak tanımlanabilmesi için aşağıdakilerden hangisine sahip olması ŞART DEĞİLDİR?",
+          "choices": [
+            "Renk veya sıcaklık değeri",
+            "Büyüklük (şiddet) ve birim",
+            "Uygulama doğrultusu",
+            "Yön ve başlangıç noktası"
+          ],
+          "correctAnswer": "Renk veya sıcaklık değeri",
+          "explanation": "Vektörel bir niceliğin 4 temel elemanı vardır: Başlangıç noktası, doğrultu, yön ve büyüklük (şiddet)."
+        },
+        {
+          "id": "q_fiz9_top07_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aynı doğrultulu ve aynı yönlü 6 N ve 8 N büyüklüğündeki iki kuvvetin bileşkesinin büyüklüğü kaç Newton'dur?",
+          "choices": [
+            "14 N",
+            "2 N",
+            "10 N",
+            "48 N"
+          ],
+          "correctAnswer": "14 N",
+          "explanation": "Aynı yönlü vektörler doğrudan toplanır: R = F1 + F2 = 6 + 8 = 14 N."
+        },
+        {
+          "id": "q_fiz9_top07_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Büyüklükleri ve doğrultuları aynı fakat yönleri birbirine zıt olan iki vektöre \"zıt (ters) vektörler\" denir ve aralarındaki açı 180° dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Zıt vektörlerin şiddetleri ve doğrultuları eşit, yönleri ise tam terstir. Biri A⃗ ise diğeri -A⃗ dir."
+        },
+        {
+          "id": "q_fiz9_top07_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aralarında 90° açı bulunan 3 N ve 4 N büyüklüğündeki iki dik vektörün bileşkesi (R) Pisagor bağıntısıyla kaç N bulunur?",
+          "choices": [
+            "5 N",
+            "7 N",
+            "1 N",
+            "12 N"
+          ],
+          "correctAnswer": "5 N",
+          "explanation": "Dik iki vektörde R² = 3² + 4² = 9 + 16 = 25 => R = 5 N."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_07_vektorler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "89a15f886980cd2a"
+    }
+  }
+}

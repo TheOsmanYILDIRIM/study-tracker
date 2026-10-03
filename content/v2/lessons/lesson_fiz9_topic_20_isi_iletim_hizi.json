@@ -5,7 +5,8 @@
   "title": "Isı İletim Hızı",
   "orderKey": 20000,
   "items": [
-    "item_fiz9_vid_topic_20_isi_iletim_hizi"
+    "item_fiz9_vid_topic_20_isi_iletim_hizi",
+    "item_fiz9_vid_topic_20_isi_iletim_hizi__quiz"
   ],
   "sourceMeta": {
     "weeks": [

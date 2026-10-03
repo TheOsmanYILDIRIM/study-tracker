@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "stableKey": "tar9_quiz_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Orta Çağ Devletlerinde Yönetim ve Ordu Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Orta Çağ Devletlerinde Yönetim ve Ordu Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top11_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bizans İmparatorluğu'nda hem sivil yönetimi hem de askerî garnizonları birleştiren ve sınır güvenliğini sağlayan idari eyalet sistemine ne ad verilirdi?",
+          "choices": [
+            "Thema Sistemi",
+            "Satraplık",
+            "Tımar Sistemi",
+            "Derebeylik"
+          ],
+          "correctAnswer": "Thema Sistemi",
+          "explanation": "Thema sistemi, Bizans'ın asker-çiftçilere toprak tahsis ederek ordu masraflarını düşürdüğü ve savunmayı güçlendirdiği eyalet düzenidir."
+        },
+        {
+          "id": "q_tar9_top11_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Orta Çağ Batı Avrupa feodalizminde bir lorda sadakat yemini ederek askerî koruma sağlayan zırhlı süvari sınıfına ne ad verilir?",
+          "choices": [
+            "Şövalye (Vassal)",
+            "Serf",
+            "Lejyoner",
+            "Yeniçeri"
+          ],
+          "correctAnswer": "Şövalye (Vassal)",
+          "explanation": "Feodal piramitte şövalyeler soylu lordlara bağlı profesyonel zırhlı süvarilerdir."
+        },
+        {
+          "id": "q_tar9_top11_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Cengiz Han'ın kurduğu Moğol İmparatorluğu ordusunda onluk, yüzlük, binlik ve tümen (on binlik) şeklinde teşkilatlanmış hareketli süvari birlikleri kullanılmıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Moğol ordusu bozkır askeri geleneğine ve Türklerdeki onluk sisteme dayanarak oluşturulmuş yüksek manevra kabiliyetine sahip süvarilerden kuruludur."
+        },
+        {
+          "id": "q_tar9_top11_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sasani İmparatorluğu'nda kralların başında yer alan ve mutlak yetkilere sahip \"Kralların Kralı\" anlamındaki hükümdar unvanı hangisidir?",
+          "choices": [
+            "Şehinşah",
+            "Basileus",
+            "Kağan",
+            "Dük"
+          ],
+          "correctAnswer": "Şehinşah",
+          "explanation": "Sasanilerde imparator Şehinşah unvanı taşır ve Zerdüştlük dinine dayalı kutsal hükümdarlık anlayışıyla yönetirdi."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "220021dc359d8149"
+    }
+  }
+}

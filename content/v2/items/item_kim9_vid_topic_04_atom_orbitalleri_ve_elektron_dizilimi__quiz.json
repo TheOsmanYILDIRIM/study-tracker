@@ -1,0 +1,87 @@
+{
+  "id": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "stableKey": "kim9_quiz_orbitaller_elektron_dizilimi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Atom Orbitalleri ve Elektron Dizilimi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Atom Orbitalleri ve Elektron Dizilimi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_orb_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Elektronların orbitallere en düşük enerjili orbitalden başlanarak sırayla yerleşmesini ifade eden ilke hangisidir?",
+          "choices": [
+            "Aufbau Kuralı",
+            "Hund Kuralı",
+            "Pauli Dışlama İlkesi",
+            "Heisenberg Belirsizlik İlkesi"
+          ],
+          "correctAnswer": "Aufbau Kuralı",
+          "explanation": "Aufbau (inşa etme) ilkesine göre elektronlar önce en düşük enerjili orbitallere (1s, 2s, 2p, 3s...) dolar."
+        },
+        {
+          "id": "q_kim9_orb_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir orbitalde zıt spinli (↑↓) en fazla iki elektron bulunabileceğini ve bir atomda hiçbir iki elektronun 4 kuantum sayısının aynı olamayacağını belirten ilke hangisidir?",
+          "choices": [
+            "Pauli Dışlama İlkesi",
+            "Hund Kuralı",
+            "Moseley Yasası",
+            "Bohr Postülatı"
+          ],
+          "correctAnswer": "Pauli Dışlama İlkesi",
+          "explanation": "Wolfgang Pauli tarafından ortaya konan dışlama ilkesine göre bir orbital en fazla 2 elektron barındırabilir ve spinleri zıt olmalıdır."
+        },
+        {
+          "id": "q_kim9_orb_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Hund Kuralı'na göre, eş enerjili p, d veya f orbitallerine elektronlar yerleşirken önce aynı spinle birer birer yerleşir, sonra ikinci elektronlar zıt spinle eşleşir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hund kuralı, elektronların itme kuvvetini en aza indirmek için eş enerjili alt kabuklara önce paralel spinle tek tek yerleşmesini şart koşar."
+        },
+        {
+          "id": "q_kim9_orb_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Madelung-Klechkowski kuralına göre orbitallerin enerji sıralaması hangi toplam değere göre belirlenir?",
+          "choices": [
+            "(n + ℓ) toplamı",
+            "(n - ℓ) farkı",
+            "Yalnızca baş kuantum sayısı (n)",
+            "Yalnızca spin kuantum sayısı (ms)"
+          ],
+          "correctAnswer": "(n + ℓ) toplamı",
+          "explanation": "(n + ℓ) değeri büyük olan orbitalin enerjisi daha yüksektir. Eşitlik durumunda n sayısı büyük olanın enerjisi fazladır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "28a2200b4b8455da"
+    }
+  }
+}

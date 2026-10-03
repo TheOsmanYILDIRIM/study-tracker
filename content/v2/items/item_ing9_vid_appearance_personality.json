@@ -4,11 +4,11 @@
   "lessonId": "lesson_ing9_personal_life_appearance",
   "stableKey": "item_ing9_vid_appearance_personality",
   "itemType": "VIDEO",
-  "displayLabel": "2.1",
+  "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Describing Physical Appearance and Personality Traits",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Özer Kiraz",
     "provenance": {
@@ -16,8 +16,11 @@
       "sourceSection": "Theme 3: Personal Life",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "5d544133f66ebdeb"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "5d544133f66ebdeb",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+      "reviewedOverride": true
+    },
+    "provider": "Özer Kiraz"
   }
 }

@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "18.1",
   "orderKey": 1000,
-  "title": "Isıl Denge",
-  "contentUrl": null,
+  "title": "Isıl Denge ve Denge Sıcaklığı",
+  "contentUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Isıl Denge",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,7 +25,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "19d67d9d3a2db21c",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

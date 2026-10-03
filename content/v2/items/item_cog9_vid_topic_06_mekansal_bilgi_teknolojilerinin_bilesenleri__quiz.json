@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "stableKey": "cog9_quiz_cbs_teknoloji_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Mekânsal Bilgi Teknolojileri ve CBS Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Mekânsal Bilgi Teknolojileri ve CBS Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_cbs_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Coğrafi Bilgi Sistemleri'nin (CBS / GIS) temel çalışma prensibi aşağıdakilerden hangisidir?",
+          "choices": [
+            "Mekânsal (konumsal) ve öznitelik verilerini toplayıp katmanlar halinde depolamak, analiz etmek ve haritalandırmak",
+            "Yalnızca el ile kâğıt üzerine renkli kroki çizmek",
+            "Hava sıcaklığını anlık olarak termometreyle ölçmek",
+            "Sadece tarihi metinleri tarayıp tercüme etmek"
+          ],
+          "correctAnswer": "Mekânsal (konumsal) ve öznitelik verilerini toplayıp katmanlar halinde depolamak, analiz etmek ve haritalandırmak",
+          "explanation": "CBS, konumsal verilerle (koordinat) öznitelik bilgilerini (nüfus, arazi kullanımı vb.) birleştirip katmanlı analiz yapan bilgisayar tabanlı sistemdir."
+        },
+        {
+          "id": "q_cog9_cbs_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yeryüzündeki nesnelerle doğrudan temas kurmadan uçak veya uydu platformlarındaki algılayıcılarla bilgi toplama tekniğine ne ad verilir?",
+          "choices": [
+            "Uzaktan Algılama (Remote Sensing)",
+            "Nivelman Ölçümü",
+            "Anket Yöntemi",
+            "Sismograf Kaydı"
+          ],
+          "correctAnswer": "Uzaktan Algılama (Remote Sensing)",
+          "explanation": "Uzaktan algılama; uydu görüntüleri ve hava fotoğrafları aracılığıyla orman yangınları, tarım rekoltesi, kentleşme ve afetleri izlemeyi sağlar."
+        },
+        {
+          "id": "q_cog9_cbs_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Küresel Konumlama Sistemi (GPS), yörüngedeki uydulardan sinyaller alarak Dünya üzerindeki herhangi bir noktanın enlem, boylam ve yükseklik koordinatlarını yüksek doğrulukla belirler.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "GPS (Global Positioning System), uydular ile alıcı arasındaki mesafe ve zaman farkından yararlanarak hassas konum tespiti yapar."
+        },
+        {
+          "id": "q_cog9_cbs_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "CBS'de veriler \"Vektör\" ve \"Raster\" olmak üzere iki temel modelde tutulur. Aşağıdakilerden hangisi Vektör veri modelinin 3 temel geometrik unsurudur?",
+          "choices": [
+            "Nokta, Çizgi, Poligon (Alan)",
+            "Piksel, Hücre, Matris",
+            "Enlem, Boylam, Meridyen",
+            "Lejant, Ölçek, Yön oku"
+          ],
+          "correctAnswer": "Nokta, Çizgi, Poligon (Alan)",
+          "explanation": "Vektör veri yapısında yangın musluğu/ağaç (nokta), yol/akarsu (çizgi), göl/orman/parsel (poligon/alan) olarak modellenir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

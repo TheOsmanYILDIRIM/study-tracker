@@ -7,8 +7,8 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Moleküller Arası Zayıf Etkileşimler ve Hidrojen Bağı",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L100",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "09566b06fd2755f6"
-    }
+      "fingerprint": "09566b06fd2755f6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA"
+    },
+    "provider": "Meschemy Kimya"
   }
 }

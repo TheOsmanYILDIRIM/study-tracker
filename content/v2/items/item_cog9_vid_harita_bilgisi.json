@@ -31,9 +31,14 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.tr.vtt",
-      "transcriptFingerprint": "92ed5bed2a0c5a22"
+      "transcriptFingerprint": "92ed5bed2a0c5a22",
+      "reviewedOverride": true
     },
     "provider": "Coğrafyanın Kodları",
-    "topic": "Mekânın Aynası Haritalar"
+    "topic": "Mekânın Aynası Haritalar",
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+      "provider": "Coğrafyanın Kodları"
+    }
   }
 }

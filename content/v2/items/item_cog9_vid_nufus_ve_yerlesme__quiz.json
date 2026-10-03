@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_nufus_ve_yerlesme__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+  "stableKey": "cog9_quiz_yerlesme_dokulari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Yerleşme Tipleri ve Mesken Dokuları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Yerleşme Tipleri ve Mesken Dokuları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_yerles_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Su kaynaklarının bol, arazinin oldukça engebeli ve tarım alanlarının parçalı olduğu Doğu Karadeniz kırsalında hangi yerleşme dokusu yaygındır?",
+          "choices": [
+            "Dağınık Kırsal Yerleşme",
+            "Toplu Kırsal Yerleşme",
+            "Çizgisel Yerleşme",
+            "Dairesel Yerleşme"
+          ],
+          "correctAnswer": "Dağınık Kırsal Yerleşme",
+          "explanation": "Karadeniz'de su her yerde bulunduğu ve arazi eğimli olduğu için evler birbirinden uzak yamaçlara (dağınık) kurulmuştur."
+        },
+        {
+          "id": "q_cog9_yerles_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İç Anadolu ve Güneydoğu Anadolu'nun kurak/yarı kurak kırsalında mesken yapımında en yaygın kullanılan geleneksel yapı malzemesi hangisidir?",
+          "choices": [
+            "Kerpiç (Toprak ve Saman)",
+            "Ahşap (Ağaç kütükleri)",
+            "Kalkerli Kesme Taş",
+            "Betonarme Çelik"
+          ],
+          "correctAnswer": "Kerpiç (Toprak ve Saman)",
+          "explanation": "Kurak bölgelerde orman örtüsü az olduğundan ve kerpiç yazın serin kışın sıcak tuttuğundan geleneksel meskenlerde toprak/kerpiç kullanılır."
+        },
+        {
+          "id": "q_cog9_yerles_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Köy altı yerleşmelerinden olan Çiftlik, Mahalle, Mezra ve Divan sürekli (kalıcı) yerleşmeler iken; Yayla, Kom, Oba ve Ağıl geçici yerleşmelerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Ekonomik faaliyetin sürekliliğine göre köy altı yerleşmeleri kalıcı ve geçici olarak ikiye ayrılır."
+        },
+        {
+          "id": "q_cog9_yerles_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Su kaynaklarının kısıtlı olduğu düz ovalarda (ör. İç Anadolu köyleri) evlerin su kuyusu veya çeşme etrafında birbirine bitişik kurulmasına ne ad verilir?",
+          "choices": [
+            "Toplu Kırsal Yerleşme",
+            "Dağınık Kırsal Yerleşme",
+            "Kıyı Boyu Yerleşmesi",
+            "Yayla Yerleşmesi"
+          ],
+          "correctAnswer": "Toplu Kırsal Yerleşme",
+          "explanation": "Kurak alanlarda su temini zorunluluğu evlerin tek bir su kaynağı etrafında toplu halde kümelenmesine yol açar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_nufus_ve_yerlesme",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

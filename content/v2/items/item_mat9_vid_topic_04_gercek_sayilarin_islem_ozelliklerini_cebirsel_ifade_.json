@@ -7,10 +7,10 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Rehber Matematik",
     "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",

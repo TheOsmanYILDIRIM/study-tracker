@@ -1,0 +1,88 @@
+{
+  "id": "item_biyo9_vid_topic_04_inorganik_molekuller__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_04_inorganik_molekuller",
+  "stableKey": "biyo9_quiz_inorganik_molekuller_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "İnorganik Moleküller Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İnorganik Moleküller Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_inorg_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Canlıların yapısına katılan, sindirilmeden hücre zarından geçebilen ve enerji verici olarak KULLANILMAYAN bileşik grubu hangisidir?",
+          "choices": [
+            "İnorganik Bileşikler",
+            "Karbonhidratlar",
+            "Lipitler",
+            "Proteinler"
+          ],
+          "correctAnswer": "İnorganik Bileşikler",
+          "explanation": "Su, mineraller, asitler ve bazlar gibi inorganik bileşikler canlılar tarafından sentezlenemez, dışarıdan hazır alınır ve hücresel solunumda enerji verici olarak kullanılmazlar."
+        },
+        {
+          "id": "q_biyo9_inorg_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Su moleküllerinin hidrojen bağları sayesinde birbirini çekmesi ve bu sayede su yüzeyinde bir gerilim (yüzey gerilimi) oluşturması özelliği hangisidir?",
+          "choices": [
+            "Kohezyon",
+            "Adezyon",
+            "Özgül Isı",
+            "Çözücülük"
+          ],
+          "correctAnswer": "Kohezyon",
+          "explanation": "Aynı cins su moleküllerinin hidrojen bağlarıyla birbirini çekmesine kohezyon denir. Yüzey gerilimi kohezyon kuvveti sayesinde oluşur."
+        },
+        {
+          "id": "q_biyo9_inorg_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Suyun özgül ısısının yüksek olması, sucul ekosistemlerde sıcaklık dalgalanmalarını yumuşatarak canlı yaşamını korur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Suyun özgül ısısı yüksek olduğu için geç ısınır ve geç soğur. Bu durum göl ve denizlerde sıcaklığın kararlı kalmasını sağlar."
+        },
+        {
+          "id": "q_biyo9_inorg_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hemoglobin pigmentinin yapısına katılan ve kanda oksijen taşınmasını sağlayan, eksikliğinde kansızlık (anemi) oluşan mineral hangisidir?",
+          "choices": [
+            "Demir (Fe)",
+            "Kalsiyum (Ca)",
+            "İyot (I)",
+            "Fosfor (P)"
+          ],
+          "correctAnswer": "Demir (Fe)",
+          "explanation": "Demir (Fe) minerali alyuvarlardaki hemoglobinin yapısında yer alır. Eksikliği anemiye neden olur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "6b7c8d9e0f1a2b3c",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "cf4952b309d58212"
+    }
+  }
+}

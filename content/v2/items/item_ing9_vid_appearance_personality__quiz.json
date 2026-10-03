@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_appearance_personality__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_personal_life_appearance",
+  "stableKey": "ing9_quiz_appearance_personality_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Physical Appearance and Personality Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Physical Appearance and Personality Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_ap_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"What is she like?\" sorusu kişinin hangi özelliğini öğrenmek için sorulur?",
+          "choices": [
+            "Kişilik ve karakter özelliklerini (Personality)",
+            "Fiziksel dış görünüşünü (Physical appearance)",
+            "Nerede yaşadığını (Location)",
+            "Mesleğini ve işini (Job)"
+          ],
+          "correctAnswer": "Kişilik ve karakter özelliklerini (Personality)",
+          "explanation": "\"What is she like?\" kişilik/karakteri (helpful, friendly, honest), \"What does she look like?\" ise dış görünüşü (tall, blond, slim) sorar."
+        },
+        {
+          "id": "q_ing9_ap_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Generous\" (cömert), \"punctual\" (dakik) ve \"honest\" (dürüst) sözcükleri fiziksel özellikleri değil, kişilik özelliklerini (personality traits) ifade eder.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bu sıfatlar insanın karakter ve ahlaki tutumunu tanımlayan \"personality\" sıfatlarıdır."
+        },
+        {
+          "id": "q_ing9_ap_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi bir kişinin fiziksel görünüşünü (physical appearance) tanımlayan bir ifadedir?",
+          "choices": [
+            "He has short curly dark hair and blue eyes.",
+            "He is very easygoing and generous.",
+            "He is stubborn and never changes his mind.",
+            "He always tells the truth to his friends."
+          ],
+          "correctAnswer": "He has short curly dark hair and blue eyes.",
+          "explanation": "Saç tipi (short, curly), saç rengi ve göz rengi dış görünüşe ait unsurlardır. Diğer seçenekler karakter özelliklerini anlatır."
+        },
+        {
+          "id": "q_ing9_ap_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Randevularına ve derslerine asla geç kalmayan, her zaman tam vaktinde gelen\" bir kişiyi tanımlamak için hangi sıfat kullanılır?",
+          "choices": [
+            "Punctual (Dakik)",
+            "Clumsy (Sakar)",
+            "Selfish (Bencil)",
+            "Stubborn (İnatçı)"
+          ],
+          "correctAnswer": "Punctual (Dakik)",
+          "explanation": "Zamanında hareket eden ve randevularına sadık kişilere \"punctual\" (dakik) denir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_appearance_personality",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "61eec1502e0c4ca3"
+    }
+  }
+}

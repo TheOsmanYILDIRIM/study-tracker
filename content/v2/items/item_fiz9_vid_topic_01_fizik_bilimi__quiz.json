@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_01_fizik_bilimi__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_01_fizik_bilimi",
+  "stableKey": "fiz9_quiz_topic_01_fizik_bilimi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Fizik Bilimi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Fizik Bilimi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top01_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Fizik bilimi ile ilgili aşağıdaki ifadelerden hangisi DOĞRUDUR?",
+          "choices": [
+            "Madde ve enerji arasındaki etkileşimi inceleyen uygulamalı bir doğa bilimidir.",
+            "Yalnızca mikroskobik boyuttaki atom altı parçacıkları inceler.",
+            "Metafiziksel ve teolojik olguları deneysel yöntemlerle kanıtlamaya çalışır.",
+            "Mutlak ve değişmez kesin dogmalar ortaya koyar."
+          ],
+          "correctAnswer": "Madde ve enerji arasındaki etkileşimi inceleyen uygulamalı bir doğa bilimidir.",
+          "explanation": "Fizik; madde, enerji ve bunlar arasındaki etkileşimi inceleyen, gözlem ve deneye dayalı bir doğa bilimidir. Bilimsel bilgiler değişime açıktır ve fizik metafizikle ilgilenmez."
+        },
+        {
+          "id": "q_fiz9_top01_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Fizik biliminde elde edilen bilimsel bilgiler mutlak ve değişmez değildir; yeni deneysel bulgularla güncellenebilir veya geliştirilebilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bilimsel bilgi dinamiktir; teknolojik gelişmeler ve yeni deneyler sayesinde teoriler ve modeller revize edilebilir veya genişletilebilir."
+        },
+        {
+          "id": "q_fiz9_top01_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Fiziksel bir olay araştırılırken ölçüm aletleri kullanılarak yapılan ve sayısal veriler içeren gözlem türü hangisidir?",
+          "choices": [
+            "Nicel Gözlem",
+            "Nitel Gözlem",
+            "Subjektif Gözlem",
+            "Tahmini Gözlem"
+          ],
+          "correctAnswer": "Nicel Gözlem",
+          "explanation": "Ölçme aletleri kullanılarak yapılan, objektif ve sayısal sonuçlar veren gözlemlere \"nicel gözlem\" denir. Duyulara dayanan gözlemler ise nitel gözlemdir."
+        },
+        {
+          "id": "q_fiz9_top01_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi fizik biliminin doğrudan ilgilendiği konulardan biri DEĞİLDİR?",
+          "choices": [
+            "Canlıların kalıtsal özelliklerinin nesilden nesile aktarılma mekanizması",
+            "Gezegenlerin Güneş etrafındaki yörünge hareketleri",
+            "Işığın prizmada kırılarak renklere ayrılması",
+            "Elektrik akımının iletken tellerde oluşturduğu manyetik alan"
+          ],
+          "correctAnswer": "Canlıların kalıtsal özelliklerinin nesilden nesile aktarılma mekanizması",
+          "explanation": "Kalıtım mekanizmaları biyolojinin (genetik) alanıdır. Gezegen hareketleri, optik kırılma ve elektromanyetizma ise fiziğin doğrudan inceleme alanlarıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_01_fizik_bilimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "25c3ba6d60fe69d9"
+    }
+  }
+}

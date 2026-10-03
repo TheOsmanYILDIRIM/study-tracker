@@ -7,16 +7,17 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L60",
       "sourceSection": "2. Tema: Anlam Arayışı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "97ad2f7839dbed29"
+      "reviewStatus": "verified",
+      "fingerprint": "97ad2f7839dbed29",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

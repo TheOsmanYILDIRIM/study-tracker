@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "stableKey": "cog9_quiz_piramitler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Demografik Dönüşüm ve Nüfus Piramitleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Demografik Dönüşüm ve Nüfus Piramitleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_pir_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tabanı çok geniş, tavanı (üst kısmı) çok dar olan üçgen şeklindeki nüfus piramidi bir ülke hakkında hangi temel bilgiyi verir?",
+          "choices": [
+            "Doğum ve çocuk ölüm oranları yüksek, ortalama yaşam süresi kısa, az gelişmiş bir ülkedir.",
+            "Doğum oranları çok düşük, yaşlı nüfus oranı çok yüksek gelişmiş bir ülkedir.",
+            "Nüfusu hızla azalan durağan bir ülkedir.",
+            "Cinsiyet dengesi tamamen bozulmuş bir ülkedir."
+          ],
+          "correctAnswer": "Doğum ve çocuk ölüm oranları yüksek, ortalama yaşam süresi kısa, az gelişmiş bir ülkedir.",
+          "explanation": "Geniş taban yüksek doğum oranını (0-14 yaş), dar tepe ise sağlık koşullarının yetersizliği sebebiyle yaşlı nüfusun azlığını simgeler."
+        },
+        {
+          "id": "q_cog9_pir_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğum ve ölüm oranlarının uzun süredir düşük olduğu, yaşlı nüfus oranının (%15+) yüksek olduğu gelişmiş ülkelere (ör. İsveç, Almanya) ait piramit tipi hangisidir?",
+          "choices": [
+            "Arı Kovanı Piramidi",
+            "Kenarları İçe Çökük Üçgen Piramit",
+            "Düz Kenarlı Üçgen Piramit",
+            "Asimetrik Tabanlı Piramit"
+          ],
+          "correctAnswer": "Arı Kovanı Piramidi",
+          "explanation": "Arı kovanı piramidinde taban ile orta yaş grubu dengelidir; doğum ve ölüm oranları düşüktür."
+        },
+        {
+          "id": "q_cog9_pir_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir ülkenin nüfus piramidinde tabanın daralmaya başlaması, o ülkede son yıllarda doğum oranlarının ve doğurganlık hızının azaldığını gösterir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "0-4 ve 5-9 yaş basamaklarının içeri doğru daralması doğum oranlarının düştüğünün kesin kanıtıdır."
+        },
+        {
+          "id": "q_cog9_pir_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Demografik Dönüşüm Modeli'nin 4. aşamasına (Düşük Durağan Aşama) ulaşmış bir toplumda hangi durum gözlemlenir?",
+          "choices": [
+            "Hem doğum hem de ölüm oranları düşük seviyede dengelenir ve nüfus artışı oldukça yavaşlar.",
+            "Doğum oranları patlama yapar, ölümler sıfıra iner.",
+            "Nüfusun %90'ı tarım sektöründe çalışır.",
+            "Ortalama yaşam süresi 40 yıla düşer."
+          ],
+          "correctAnswer": "Hem doğum hem de ölüm oranları düşük seviyede dengelenir ve nüfus artışı oldukça yavaşlar.",
+          "explanation": "Son evrede kentleşme, kadının iş hayatına katılımı ve eğitim düzeyiyle doğumlar ve ölümler en düşük seviyede dengelenir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

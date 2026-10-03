@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_13_kaldirma_kuvveti__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+  "stableKey": "fiz9_quiz_top13_kaldirma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Kaldırma Kuvveti Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kaldırma Kuvveti Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top13_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kaldırma kuvvetinin oluşmasının temel fiziksel nedeni aşağıdakilerden hangisidir?",
+          "choices": [
+            "Sıvının cisme uyguladığı alt ve üst yüzey basınç kuvvetleri arasındaki fark",
+            "Kabın yüzey gerilimi",
+            "Yer çekimi ivmesinin derinlikle artması",
+            "Sıvının viskozite katsayısı"
+          ],
+          "correctAnswer": "Sıvının cisme uyguladığı alt ve üst yüzey basınç kuvvetleri arasındaki fark",
+          "explanation": "Cismin alt yüzeyi daha derinde olduğu için alt yüzeydeki sıvı basınç kuvveti üst yüzeydekinden büyüktür. Bu kuvvet farkı yukarı yönlü net kaldırma kuvvetini oluşturur (Fk = Falt - Füst)."
+        },
+        {
+          "id": "q_fiz9_top13_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir geminin deniz suyunda tatlı suya (nehre) girdiğinde biraz daha fazla batmasının nedeni tatlı suyun özkütlesinin tuzlu deniz suyundan daha küçük olmasıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Gemi iki ortamda da yüzer ve Fk = G dir. Sıvı yoğunluğu (ds) azalınca aynı kaldırma kuvvetini sağlamak için batan hacim (Vb) artar."
+        },
+        {
+          "id": "q_fiz9_top13_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Havadaki ağırlığı 50 N olan bir cisim dinamometre ucunda suya tamamen daldırıldığında dinamometre 35 N gösteriyor. Bu cisme etki eden kaldırma kuvveti kaç N'dur?",
+          "choices": [
+            "15 N",
+            "85 N",
+            "35 N",
+            "50 N"
+          ],
+          "correctAnswer": "15 N",
+          "explanation": "Fk = G - T = 50 N - 35 N = 15 N."
+        },
+        {
+          "id": "q_fiz9_top13_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eşit hacimli K, L, M cisimlerinden K yüzmekte, L askıda kalmakta, M ise dibe batmaktadır. Cisimlere etki eden kaldırma kuvvetleri FK, FL, FM arasındaki ilişki nedir?",
+          "choices": [
+            "FL = FM > FK",
+            "FK = FL = FM",
+            "FM > FL > FK",
+            "FK > FL > FM"
+          ],
+          "correctAnswer": "FL = FM > FK",
+          "explanation": "L ve M tamamen battığı için batan hacimleri eşittir ve cismin tüm hacmidir (Vb = V). K ise yüzdüğü için batan hacmi daha küçüktür (Vb < V). Fk = Vb·d·g olduğundan FL = FM > FK olur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c12bbfbdabea7466"
+    }
+  }
+}

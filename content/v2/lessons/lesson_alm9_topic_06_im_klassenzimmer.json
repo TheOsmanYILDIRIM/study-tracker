@@ -5,7 +5,8 @@
   "title": "Im Klassenzimmer",
   "orderKey": 6000,
   "items": [
-    "item_alm9_vid_topic_06_im_klassenzimmer"
+    "item_alm9_vid_topic_06_im_klassenzimmer",
+    "item_alm9_vid_topic_06_im_klassenzimmer__quiz"
   ],
   "sourceMeta": {
     "weeks": [

@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+  "stableKey": "tde9_quiz_topic_16_otobiyografi_yazma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "16.1-Q",
+  "orderKey": 1500,
+  "title": "Otobiyografi Yazma Becerisi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Otobiyografi Yazma Becerisi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top16_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Öz yaşam öyküsü (otobiyografi) yazarken olayların ve dönemlerin aktarımında en çok tercih edilen sıralama yöntemi hangisidir?",
+          "choices": [
+            "Kronolojik (Zaman Dizinsel) Sıra",
+            "Rastgele ve karmaşık sıralama",
+            "Yalnızca geleceğe dair planlar sıralaması",
+            "Kelimelerin alfabetik sıralaması"
+          ],
+          "correctAnswer": "Kronolojik (Zaman Dizinsel) Sıra",
+          "explanation": "Otobiyografide genellikle doğumdan başlanarak çocukluk, okul dönemi ve olgunluk aşamaları zaman sırasına (kronolojiye) göre anlatılır."
+        },
+        {
+          "id": "q_tde9_top16_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Otobiyografi yazarken yazarın sadece başarılarını övmesi, hiçbir zorluk ve hatadan bahsetmemesi anlatımın samimiyet ve inandırıcılığını artırır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Otobiyografide dürüstlük ve içtenlik esastır; yazar sadece başarılarını değil, karşılaştığı zorlukları ve insani yönlerini de samimiyetle aktarmalıdır."
+        },
+        {
+          "id": "q_tde9_top16_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Otobiyografi yazımında yazarın kendini tanıtırken iç dünyasını, karakter özelliklerini, sevinç ve hüzünlerini aktardığı betimleme türü hangisidir?",
+          "choices": [
+            "Ruhsal (Psikolojik / İç) Portre",
+            "Fiziksel Portre",
+            "Mekânsal Tasnif",
+            "Gözlemci Kayıt"
+          ],
+          "correctAnswer": "Ruhsal (Psikolojik / İç) Portre",
+          "explanation": "İç dünya, ahlaki özellikler, duygular ve zihniyet ruhsal (psikolojik) portre ile betimlenir."
+        },
+        {
+          "id": "q_tde9_top16_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir otobiyografi metninin yazım sürecinde son aşama olan 'Gözden Geçirme ve Düzeltme' evresinde aşağıdakilerden hangisi yapılır?",
+          "choices": [
+            "İmla, noktalama, anlatım bozuklukları ve mantık akışının denetlenip metnin son haline getirilmesi",
+            "Metnin konusunun tamamen değiştirilmesi",
+            "Konuyla alakasız başka bir yazarın biyografisinin kopyalanması",
+            "Yazının tamamen silinip yeniden başlanması"
+          ],
+          "correctAnswer": "İmla, noktalama, anlatım bozuklukları ve mantık akışının denetlenip metnin son haline getirilmesi",
+          "explanation": "Yazma sürecinin son basamağı metni dil, anlatım, imla ve tutarlılık açısından gözden geçirip tashih etmektir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "99b06130dd167352"
+    }
+  }
+}

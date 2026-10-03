@@ -7,10 +7,10 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Alter, Alphabet und Buchstabieren",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & MEB Maarif Modeli",
     "topic": "Alter, Alphabet und Buchstabieren",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,6 +28,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "477f80bad92a1e8c",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

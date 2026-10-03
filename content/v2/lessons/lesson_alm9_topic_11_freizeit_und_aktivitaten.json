@@ -5,7 +5,8 @@
   "title": "Freizeit und Aktivitäten",
   "orderKey": 11000,
   "items": [
-    "item_alm9_vid_topic_11_freizeit_und_aktivitaten"
+    "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
+    "item_alm9_vid_topic_11_freizeit_und_aktivitaten__quiz"
   ],
   "sourceMeta": {
     "weeks": [

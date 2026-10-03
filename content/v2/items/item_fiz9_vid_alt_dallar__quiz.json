@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_alt_dallar__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+  "stableKey": "fiz9_quiz_alt_dallar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Fiziğin Alt Dalları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Fiziğin Alt Dalları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_alt_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Fiber optik kablolar, teleskoplar, mikroskoplar ve gökkuşağı oluşumu fiziğin hangi alt dalının inceleme alanına girer?",
+          "choices": [
+            "Optik",
+            "Termodinamik",
+            "Mekanik",
+            "Atom Fiziği"
+          ],
+          "correctAnswer": "Optik",
+          "explanation": "Optik; ışığın doğasını, yayılmasını, yansımasını, kırılmasını ve optik aletlerin çalışma prensiplerini inceler."
+        },
+        {
+          "id": "q_fiz9_alt_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Güneşteki nükleer füzyon tepkimeleri, roket yakıtları ve maddenin 4. hâli olan plazmanın özelliklerini inceleyen fiziğin alt dalı hangisidir?",
+          "choices": [
+            "Yüksek Enerji ve Plazma Fiziği",
+            "Katıhal Fiziği",
+            "Termodinamik",
+            "Optik"
+          ],
+          "correctAnswer": "Yüksek Enerji ve Plazma Fiziği",
+          "explanation": "Yüksek enerji ve plazma fiziği; atom altı parçacıkları, yüksek enerjili parçacık etkileşimlerini ve plazma ortamlarını inceler."
+        },
+        {
+          "id": "q_fiz9_alt_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Türkiye'de nükleer teknoloji, radyasyon güvenliği ve atom enerjisi alanlarında faaliyet yürüten başlıca kurum TENMAK (eski adıyla TAEK)'tır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu (TENMAK), nükleer ve radyasyon araştırmalarından sorumlu ulusal kurumdur."
+        },
+        {
+          "id": "q_fiz9_alt_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "CERN (Avrupa Nükleer Araştırma Merkezi) dünyanın en büyük parçacık fiziği laboratuvarı olup temel olarak hangi alt dal ile doğrudan ilişkilidir?",
+          "choices": [
+            "Yüksek Enerji ve Parçacık Fiziği",
+            "Termodinamik",
+            "Klasik Mekanik",
+            "Akustik"
+          ],
+          "correctAnswer": "Yüksek Enerji ve Parçacık Fiziği",
+          "explanation": "CERN'deki Büyük Hadron Çarpıştırıcısı (LHC), atom altı parçacıkları ışık hızına yakın hızlarda çarpıştırarak evrenin temel yapı taşlarını araştırır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_alt_dallar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "b916c46013661cb2"
+    }
+  }
+}

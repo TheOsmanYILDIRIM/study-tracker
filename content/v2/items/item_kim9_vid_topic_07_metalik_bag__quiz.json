@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_07_metalik_bag__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_07_metalik_bag",
+  "stableKey": "kim9_quiz_metalik_bag_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Metalik Bağ ve Elektron Denizi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Metalik Bağ ve Elektron Denizi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_metbag_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Metalik bağın oluşumu günümüzde hangi model ile açıklanır?",
+          "choices": [
+            "Pozitif metal katyonları ile serbest hareket eden değerlik elektronlarının oluşturduğu \"Elektron Denizi\" modeli",
+            "Metal atomları arasında kovalent bağ ortaklaşması",
+            "Elektron alışverişi ile anyon-katyon kristali",
+            "Van der Waals dipol çekimleri"
+          ],
+          "correctAnswer": "Pozitif metal katyonları ile serbest hareket eden değerlik elektronlarının oluşturduğu \"Elektron Denizi\" modeli",
+          "explanation": "Metallerin değerlik elektronları serbestçe dolaşarak bir elektron denizi oluşturur ve pozitif katyonlar ile bu deniz arasındaki elektrostatik çekim metalik bağı kurar."
+        },
+        {
+          "id": "q_kim9_metbag_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki özelliklerden hangisi metallerdeki serbest elektron denizinin varlığı ile AÇIKLANAMAZ?",
+          "choices": [
+            "Sulu çözeltilerinde asidik özellik göstermeleri",
+            "Isı ve elektrik akımını çok iyi iletmeleri",
+            "Yüzeylerinin parlak olması",
+            "Darbe aldığında kırılmayıp tel ve levha hâline gelebilmeleri (haddeleme)"
+          ],
+          "correctAnswer": "Sulu çözeltilerinde asidik özellik göstermeleri",
+          "explanation": "Isı-elektrik iletkenliği, parlaklık ve tel/levha olabilme elektron denizinin hareketliliği sayesindedir; asitlik ise kimyasal bir tepkime özelliğidir."
+        },
+        {
+          "id": "q_kim9_metbag_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Metalik bağ güçlü bir kimyasal etkileşim türüdür ve metallerin erime noktalarının genellikle yüksek olmasını sağlar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İyonik, kovalent ve metalik bağlar kimyasal (güçlü) etkileşimler sınıfındadır."
+        },
+        {
+          "id": "q_kim9_metbag_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Periyodik cetvelde aynı grupta yukarıdan aşağıya doğru inildikçe katyon yarıçapı büyüdüğü için metalik bağ kuvveti ve metallerin erime noktası genellikle azalır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Katyon yarıçapı küçüldükçe ve değerlik elektron sayısı arttıkça metalik bağ sağlamlığı artar; bu yüzden grupta aşağı doğru bağ zayıflar ve erime noktası düşer."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_07_metalik_bag",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "22603c5f85f551fa"
+    }
+  }
+}

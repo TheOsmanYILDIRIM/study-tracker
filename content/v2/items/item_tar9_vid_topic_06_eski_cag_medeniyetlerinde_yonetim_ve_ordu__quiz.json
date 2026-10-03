@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "stableKey": "tar9_quiz_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_top06_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sümer şehir devletlerinde (site) hem dinî, hem askerî hem de idari yetkileri elinde bulunduran rahip-kral yöneticilere ne ad verilirdi?",
+          "choices": [
+            "Patesi (Ensi)",
+            "Firavun",
+            "Satrap",
+            "Konsül"
+          ],
+          "correctAnswer": "Patesi (Ensi)",
+          "explanation": "Sümerlerde site devletlerini Patesi veya Ensi adı verilen rahip-krallar yönetirdi; bu durum teokratik monarşik yapının göstergesidir."
+        },
+        {
+          "id": "q_tar9_top06_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hititlerde kralın eşi olan ve devlet işlerinde, antlaşmalarda ve dinî törenlerde kral kadar yetkili kılınan kraliçeye ne unvan verilirdi?",
+          "choices": [
+            "Tavananna",
+            "Pankuş",
+            "Kibele",
+            "Mani"
+          ],
+          "correctAnswer": "Tavananna",
+          "explanation": "Hititlerde Tavananna adı verilen başkraliçe geniş yetkilere sahipti; Kadeş Antlaşması'nda kraliçenin de mührü yer almıştır."
+        },
+        {
+          "id": "q_tar9_top06_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Pers İmparatorluğu, fethettiği geniş toprakları merkezi otorite altında tutabilmek amacıyla ülkeyi \"Satraplık\" adı verilen eyaletlere bölmüş ve tarihin ilk düzenli posta teşkilatını kurmuştur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Persler satraplık sistemiyle valiler atamış, şah kulağı müfettişleriyle denetlemiş ve haberleşmeyi posta örgütü (çapar) ile sağlamışlardır."
+        },
+        {
+          "id": "q_tar9_top06_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hitit Devleti'nde soylulardan oluşan, kralın yetkilerini denetleyebilen ve gerektiğinde kralı yargılayabilen danışma meclisi hangisidir?",
+          "choices": [
+            "Pankuş Meclisi",
+            "Senato",
+            "Kurultay",
+            "Divan-ı Hümayun"
+          ],
+          "correctAnswer": "Pankuş Meclisi",
+          "explanation": "Hititlerde Pankuş Meclisi, kralın yetkilerini sınırlayan ve devlet idaresinde söz sahibi olan soylular meclisidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c252980214953a44"
+    }
+  }
+}

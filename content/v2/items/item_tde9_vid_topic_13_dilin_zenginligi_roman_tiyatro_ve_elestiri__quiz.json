@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "stableKey": "tde9_quiz_topic_13_roman_tiyatro_elestiri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Roman, Tiyatro ve Eleştiri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Roman, Tiyatro ve Eleştiri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top13_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir sanat ya da edebiyat eserinin güçlü ve zayıf yönlerini, değerini belirli ölçütlere dayanarak ortaya koyan yazı türüne ne ad verilir?",
+          "choices": [
+            "Eleştiri (Tenkit)",
+            "Röportaj",
+            "Anı",
+            "Makale"
+          ],
+          "correctAnswer": "Eleştiri (Tenkit)",
+          "explanation": "Eleştiri (tenkit); bir eserin sanatsal, biçimsel ve içeriksel özelliklerini tarafsız ölçütlerle değerlendiren ve okura rehberlik eden edebî türdür."
+        },
+        {
+          "id": "q_tde9_top13_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tiyatro türünde oyuncuların sahnede birbirlerine söyledikleri karşılıklı sözlere ne ad verilir?",
+          "choices": [
+            "Replik",
+            "Monolog",
+            "Tirat",
+            "Jest"
+          ],
+          "correctAnswer": "Replik",
+          "explanation": "Tiyatroda karşılıklı konuşmadaki her bir söze replik denir. Bir oyuncunun sahnede tek başına uzun konuşmasına tirat, kendi kendine konuşmasına monolog denir."
+        },
+        {
+          "id": "q_tde9_top13_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Roman türü, hikâyeye göre kişi kadrosunun genişliği, mekân ve zaman çeşitliliği ve olay örgüsünün karmaşıklığı bakımından daha kapsamlıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Romanlar hikâyelere kıyasla daha uzun solukludur; yan olaylar, detaylı betimlemeler ve geniş karakter kadrosu barındırır."
+        },
+        {
+          "id": "q_tde9_top13_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Geleneksel tiyatro türlerinden olan 'Trajedi'nin temel özelliklerinden biri aşağıdakilerden hangisidir?",
+          "choices": [
+            "Seyircide acıma ve korku duyguları uyandırarak ruhu arındırma (katarsis) amacı gütmesi",
+            "Sıradan sokak kişilerinin kaba şakalarına dayanması",
+            "Yalnızca dans ve müzikle sözsüz oynanması",
+            "Acıklı olaylara kesinlikle yer verilmemesi"
+          ],
+          "correctAnswer": "Seyircide acıma ve korku duyguları uyandırarak ruhu arındırma (katarsis) amacı gütmesi",
+          "explanation": "Trajedi; seyircide acıma ve korku duyguları uyandırarak ahlaki bir arınma (katarsis) sağlamayı hedefler; soylu kahramanlar ve kusursuz bir üslup kullanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "70562718bd902b7d"
+    }
+  }
+}

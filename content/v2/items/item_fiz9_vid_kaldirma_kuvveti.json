@@ -6,8 +6,8 @@
   "itemType": "VIDEO",
   "displayLabel": "3.2",
   "orderKey": 2000,
-  "title": "Sıvıların Kaldırma Kuvveti ve Bernoulli İlkesi",
-  "contentUrl": null,
+  "title": "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
+  "contentUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "f597e4070d0f7987"
-    }
+      "fingerprint": "f597e4070d0f7987",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

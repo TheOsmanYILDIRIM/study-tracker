@@ -7,7 +7,7 @@
   "displayLabel": "5.2",
   "orderKey": 2000,
   "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -17,6 +17,7 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "37b5d36c1eebc4ba"
-    }
+    },
+    "provider": "Rehber Matematik"
   }
 }

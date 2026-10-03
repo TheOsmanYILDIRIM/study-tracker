@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_teoremler__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_13_eslik_ve_benzerlik_problemleri",
+  "stableKey": "mat9_quiz_teoremler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.3-Q",
+  "orderKey": 1500,
+  "title": "Eşlik, Benzerlik ve Teorem Uygulamaları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Eşlik, Benzerlik ve Teorem Uygulamaları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_teor_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Boyu 1.8 m olan bir kişinin gölgesi 2.4 m iken aynı anda yanındaki bir elektrik direğinin gölgesi 12 m dir. Elektrik direğinin boyu kaç metredir?",
+          "choices": [
+            "9 m",
+            "8 m",
+            "10 m",
+            "15 m"
+          ],
+          "correctAnswer": "9 m",
+          "explanation": "Güneş ışınlarının açısı aynı olduğundan benzerlik kurulur: 1.8 / 2.4 = h / 12 ⇒ h = (1.8 · 12) / 2.4 = 9 m."
+        },
+        {
+          "id": "q_mat9_teor_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kenar uzunlukları 5 cm, 12 cm ve 13 cm olan üçgende en büyük açının ölçüsü kaç derecedir?",
+          "choices": [
+            "90°",
+            "60°",
+            "120°",
+            "45°"
+          ],
+          "correctAnswer": "90°",
+          "explanation": "5² + 12² = 25 + 144 = 169 = 13² olduğundan üçgen dik üçgendir ve en büyük açı 90° dir."
+        },
+        {
+          "id": "q_mat9_teor_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Öklid bağıntılarının uygulanabilmesi için dik açıya sahip bir köşeden hipotenüse dikme indirilmiş olması (dikten dik inmesi) gerekir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Öklid teoremi dik üçgende hipotenüse ait yükseklik çizildiğinde oluşan benzer üçgenlerden türer."
+        },
+        {
+          "id": "q_mat9_teor_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kenar uzunlukları 7 cm, 24 cm ve 25 cm olan üçgen bir dik üçgendir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "7² + 24² = 49 + 576 = 625 = 25² Pisagor şartını sağladığından dik üçgendir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_teoremler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

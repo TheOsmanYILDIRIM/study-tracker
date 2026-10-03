@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_sayilar__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_quiz_sayilar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.3-Q",
+  "orderKey": 3500,
+  "title": "0-20 Arası Sayılar ve Telefon Numarası Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "0-20 Arası Sayılar ve Telefon Numarası Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_sayi_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada \"11\" (elf) ve \"12\" (zwölf) özel sayılarından sonra gelen \"13\" sayısı nasıl türetilir?",
+          "choices": [
+            "dreizehn (3 + 10)",
+            "einsdrei (1 + 3)",
+            "dreizwanzig (3 + 20)",
+            "zehndrei (10 + 3)"
+          ],
+          "correctAnswer": "dreizehn (3 + 10)",
+          "explanation": "13-19 arası sayılar birler basamağı + zehn mantığıyla kurulur: drei (3) + zehn (10) = dreizehn (13)."
+        },
+        {
+          "id": "q_alm9_sayi_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada 16 sayısı \"sechszehn\" şeklinde değil, sondaki \"s\" düşerek \"sechzehn\" şeklinde yazılır ve okunur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "16 (sechzehn) ve 17 (siebzehn) sayılarında kökteki \"s\" ve \"en\" düşerek ses uyumu sağlanır."
+        },
+        {
+          "id": "q_alm9_sayi_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Wie ist deine Telefonnummer?\" sorusunun Türkçe anlamı nedir?",
+          "choices": [
+            "Telefon numaran nedir?",
+            "Kaç yaşındasın?",
+            "Nerede oturuyorsun?",
+            "Adın nedir?"
+          ],
+          "correctAnswer": "Telefon numaran nedir?",
+          "explanation": "\"Wie ist deine Telefonnummer?\" sorusu doğrudan telefon numarasını öğrenmek için sorulur."
+        },
+        {
+          "id": "q_alm9_sayi_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada \"17\" ve \"20\" sayılarının doğru yazılışları hangisidir?",
+          "choices": [
+            "siebzehn - zwanzig",
+            "siebenzehn - zwanzig",
+            "siebzehn - zweizehn",
+            "siebzehn - dreißig"
+          ],
+          "correctAnswer": "siebzehn - zwanzig",
+          "explanation": "17 sayısı \"siebzehn\", 20 sayısı ise \"zwanzig\" olarak yazılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_sayilar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "555fb05960c0fe82",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "1608730a8eba11f9"
+    }
+  }
+}

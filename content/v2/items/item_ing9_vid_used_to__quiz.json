@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_used_to__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_family_and_world",
+  "stableKey": "ing9_quiz_used_to_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.2-Q",
+  "orderKey": 2500,
+  "title": "Used to and Past Abilities Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Used to and Past Abilities Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_ut_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Used to + fiilin yalın hâli\" (base verb) yapısı hangi durumları anlatmak için kullanılır?",
+          "choices": [
+            "Geçmişte düzenli yapılıp günümüzde artık terk edilmiş alışkanlık ve durumları",
+            "Gelecekte kesin olarak gerçekleşmesi planlanan eylemleri",
+            "Şu anda konuşma anında devam eden faaliyetleri",
+            "Her gün düzenli olarak tekrarlanan bugünkü rutinleri"
+          ],
+          "correctAnswer": "Geçmişte düzenli yapılıp günümüzde artık terk edilmiş alışkanlık ve durumları",
+          "explanation": "\"Used to\" geçmişte doğru olan fakat günümüzde artık geçerli olmayan alışkanlıkları ve durumları (past habits/states) anlatır."
+        },
+        {
+          "id": "q_ing9_ut_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Used to\" yapısının olumsuz hâli \"didn't used to\" değil, \"didn't use to\" şeklinde yazılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Did/didn't\" yardımcı fiili geçmiş zaman anlamını taşıdığı için asıl yapıdaki \"d\" harfi düşer ve \"didn't use to\" olur."
+        },
+        {
+          "id": "q_ing9_ut_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Geçmişteki genel yetenekleri anlatırken \"can\" fiilinin geçmiş zaman hâli olarak hangisi kullanılır?",
+          "choices": [
+            "Could",
+            "Must",
+            "Will",
+            "Should"
+          ],
+          "correctAnswer": "Could",
+          "explanation": "Geçmişte sahip olunan yetenek ve kapasiteyi anlatmak için \"can\" yerine \"could\" (olumsuzu \"couldn't\") kullanılır (\"He could swim when he was 5\")."
+        },
+        {
+          "id": "q_ing9_ut_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Cümleyi tamamlayınız: \"When my grandfather was young, he _______ walk five miles to school every day.\"",
+          "choices": [
+            "used to",
+            "is going to",
+            "will",
+            "must"
+          ],
+          "correctAnswer": "used to",
+          "explanation": "Büyükbabanın gençliğindeki geçmiş alışkanlığını ifade ettiği için \"used to\" yapısı uygundur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_used_to",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "6d2fcfda1e33f69f"
+    }
+  }
+}

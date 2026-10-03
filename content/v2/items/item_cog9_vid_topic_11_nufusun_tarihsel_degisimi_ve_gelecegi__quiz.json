@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "stableKey": "cog9_quiz_nufus_tarihsel_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Nüfusun Tarihsel Sıçrama Dönemleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nüfusun Tarihsel Sıçrama Dönemleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_nuftar_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dünya nüfusunun insanlık tarihi boyunca yaşadığı 3 büyük sıçrama (hızlı artış) dönemi sırasıyla hangileridir?",
+          "choices": [
+            "Alet Yapımı - Tarım Devrimi (Yerleşik Hayat) - Sanayi Devrimi",
+            "Ateşin Bulunuşu - Yazının İcadı - Matbaanın İcadı",
+            "Kavimler Göçü - Coğrafi Keşifler - Fransız İhtilali",
+            "Tekerleğin İcadı - Paranın İcadı - İnternetin İcadı"
+          ],
+          "correctAnswer": "Alet Yapımı - Tarım Devrimi (Yerleşik Hayat) - Sanayi Devrimi",
+          "explanation": "İlk sıçrama alet kullanımıyla avlanma veriminin artması, ikinci sıçrama Neolitik tarım ile besin güvencesi, üçüncü sıçrama Sanayi Devrimi ile tıp/sağlık şartlarının gelişmesidir."
+        },
+        {
+          "id": "q_cog9_nuftar_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sanayi Devrimi sonrasında dünya nüfusunun hızla artmasındaki en belirleyici demografik etken nedir?",
+          "choices": [
+            "Tıp, aşı ve hijyendeki gelişmeler sayesinde bebek ve yetişkin ölüm oranlarının hızla düşmesi",
+            "Tüm dünyada ortalama doğum oranlarının 10 katına çıkması",
+            "Dünya genelinde savaşların tamamen sona ermesi",
+            "Tarımsal üretimin tamamen durması"
+          ],
+          "correctAnswer": "Tıp, aşı ve hijyendeki gelişmeler sayesinde bebek ve yetişkin ölüm oranlarının hızla düşmesi",
+          "explanation": "Ölüm oranları düşüp insan ömrü uzarken doğum oranları bir süre yüksek kalmış ve nüfus geometrik olarak katlanmıştır."
+        },
+        {
+          "id": "q_cog9_nuftar_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Gelişmiş ülkelerde son yıllarda doğum oranlarının yenilenme düzeyinin (kadın başına 2.1 çocuk) altına düşmesi nüfusun yaşlanmasına ve iş gücü açığına yol açmaktadır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Avrupa ve Doğu Asya'da yaşlı bağımlı nüfus artarken genç nüfus azalmakta ve demografik daralma yaşanmaktadır."
+        },
+        {
+          "id": "q_cog9_nuftar_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir ülkede doğum ve ölüm oranları arasındaki farka ne ad verilir?",
+          "choices": [
+            "Doğal Nüfus Artışı",
+            "Gerçek Nüfus Artışı",
+            "Net Göç Hızı",
+            "Fizyolojik Nüfus Yoğunluğu"
+          ],
+          "correctAnswer": "Doğal Nüfus Artışı",
+          "explanation": "Doğumlar eksi ölümler \"Doğal Nüfus Artışı\"nı verir; bu hesaba göçler de eklenirse \"Gerçek Nüfus Artışı\" elde edilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

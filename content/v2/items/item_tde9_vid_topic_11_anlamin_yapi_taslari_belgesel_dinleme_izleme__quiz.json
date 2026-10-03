@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+  "stableKey": "tde9_quiz_topic_11_belgesel_dinleme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Belgesel Dinleme/İzleme ve Çözümleme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Belgesel Dinleme/İzleme ve Çözümleme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top11_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Belgesel türü metin ve videoların kurmaca edebî eserlerden en temel farkı aşağıdakilerden hangisidir?",
+          "choices": [
+            "Gerçek kişi, olay, belge ve somut verilere dayanması",
+            "Yalnızca hayal ürünü karakterlere yer vermesi",
+            "Kafiyeli ve ölçülü bir dille sunulması",
+            "Sonucunun gizli tutulup izleyiciye bırakılması"
+          ],
+          "correctAnswer": "Gerçek kişi, olay, belge ve somut verilere dayanması",
+          "explanation": "Belgeseller kurgusal değil, gerçeğe ve belgelere dayalıdır; araştırma, tanıklık ve somut kanıtlarla toplumu bilgilendirmeyi amaçlar."
+        },
+        {
+          "id": "q_tde9_top11_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Belgesel izlerken sunulan bilgilerin güvenirliğini sorgulamak ve kullanılan görsel-işitsel kanıtların tutarlılığını değerlendirmek eleştirel izlemenin gereğidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Eleştirel izleme becerisi, kaynakların doğruluğunu, tarafsızlığını ve tez-kanıt ilişkisini sorgulamayı gerektirir."
+        },
+        {
+          "id": "q_tde9_top11_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir belgeselde konunun uzmanlarının görüşlerine yer verilmesi, metnin hangi boyutunu güçlendirir?",
+          "choices": [
+            "İnandırıcılık ve Güvenilirlik",
+            "Kurmaca gücünü",
+            "Mizahi yönünü",
+            "Gizem unsurunu"
+          ],
+          "correctAnswer": "İnandırıcılık ve Güvenilirlik",
+          "explanation": "Alanında uzman kişilerin tanıklığı ve görüşleri (tanık gösterme), belgeselin aktardığı tezin güvenilirliğini ve kanıt değerini artırır."
+        },
+        {
+          "id": "q_tde9_top11_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Belgesellerde kullanılan dış ses (anlatıcı) ve görsel unsurların bir araya gelmesiyle oluşan anlatım yapısına ne ad verilir?",
+          "choices": [
+            "Çok modlu (Multimodal) metin yapısı",
+            "Salt monolog yapısı",
+            "Geleneksel manzum yapı",
+            "Tiyatro diyalog yapısı"
+          ],
+          "correctAnswer": "Çok modlu (Multimodal) metin yapısı",
+          "explanation": "Görsel, işitsel, metinsel ve grafik unsurların bir arada anlam ürettiği metin ve medyalara çok modlu (multimodal) metin denir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "b74f486189cb6fb7"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_09_hareket_ve_hareket_turleri",
+  "stableKey": "fiz9_quiz_top09_hareket_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Hareket ve Hareket Türleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hareket ve Hareket Türleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_har_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir lunapark dönme dolabının kabinlerinin yaptığı hareket türü ile saatin yelkovanının yaptığı hareket türü aşağıdakilerden hangisidir?",
+          "choices": [
+            "Dönme Hareketi",
+            "Öteleme Hareketi",
+            "Titreşim Hareketi",
+            "Çarpışma Hareketi"
+          ],
+          "correctAnswer": "Dönme Hareketi",
+          "explanation": "Sabit bir eksen etrafında dairesel yörüngede yapılan hareket dönme hareketidir."
+        },
+        {
+          "id": "q_fiz9_har_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Gitar telinin çekilip bırakılması veya bir sarkacın salınım hareketi hangi hareket türüne örnektir?",
+          "choices": [
+            "Titreşim Hareketi",
+            "Öteleme Hareketi",
+            "Doğrusal İlerleme",
+            "Sabit İvmeli Hızlanma"
+          ],
+          "correctAnswer": "Titreşim Hareketi",
+          "explanation": "Sabit iki nokta arasında periyodik olarak gidip gelme hareketine titreşim (salınım) hareketi denir."
+        },
+        {
+          "id": "q_fiz9_har_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Alınan yol skaler bir büyüklük iken, başlangıç noktasından bitiş noktasına çizilen en kısa yönlü doğru parçası olan yer değiştirme (Δx⃗) vektörel bir büyüklüktür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Alınan yol kat edilen toplam mesafedir (skaler); yer değiştirme ise son konum ile ilk konum arasındaki yönlü farktır (vektörel)."
+        },
+        {
+          "id": "q_fiz9_har_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yarıçapı r = 10 m olan dairesel bir pistin etrafında tam bir tur atan bir koşucunun aldığı yol ve yer değiştirmesi sırasıyla nedir? (π = 3 alınız)",
+          "choices": [
+            "Yol: 60 m, Yer Değiştirme: 0 m",
+            "Yol: 60 m, Yer Değiştirme: 60 m",
+            "Yol: 0 m, Yer Değiştirme: 60 m",
+            "Yol: 30 m, Yer Değiştirme: 20 m"
+          ],
+          "correctAnswer": "Yol: 60 m, Yer Değiştirme: 0 m",
+          "explanation": "Çevre = 2·π·r = 2·3·10 = 60 m (alınan yol). Başladığı noktaya geri döndüğü için son konum - ilk konum = 0 m (yer değiştirme)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "e6a4b4ec48319e34"
+    }
+  }
+}

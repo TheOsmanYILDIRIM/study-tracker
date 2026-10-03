@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Uhrzeiten",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay (Erhan Özdemir)",
     "topic": "Uhrzeiten",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,6 +28,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "3fe88a8ce7466ee2",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

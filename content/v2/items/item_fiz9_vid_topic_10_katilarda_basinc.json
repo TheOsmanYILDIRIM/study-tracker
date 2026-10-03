@@ -6,11 +6,11 @@
   "itemType": "VIDEO",
   "displayLabel": "10.1",
   "orderKey": 1000,
-  "title": "Katılarda Basınç",
-  "contentUrl": null,
+  "title": "Katılarda Basınç ve Basınç Kuvveti",
+  "contentUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Katılarda Basınç",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -31,7 +31,9 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "2b71d12fcf09403a",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
+      "provider": "Özcan Aykın FİZİK"
     }
   }
 }

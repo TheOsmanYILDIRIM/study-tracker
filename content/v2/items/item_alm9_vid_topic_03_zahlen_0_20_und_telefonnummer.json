@@ -7,10 +7,10 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Zahlen 0–20 und Telefonnummer",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & Meltem Hoca",
     "topic": "Zahlen 0–20 und Telefonnummer",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,6 +26,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "38f5c12a31439337",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

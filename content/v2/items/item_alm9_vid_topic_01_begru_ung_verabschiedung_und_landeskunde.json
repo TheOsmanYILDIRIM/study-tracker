@@ -7,10 +7,10 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Begrüßung, Verabschiedung und Landeskunde",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & MEB Maarif Modeli",
     "topic": "Begrüßung, Verabschiedung und Landeskunde",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,6 +30,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "841d70169514c38b",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

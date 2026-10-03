@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_topic_08_theme_8_life_in_the_universe_future__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_topic_08_theme_8_life_in_the_universe_future",
+  "stableKey": "ing9_quiz_theme8_universe_future_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "Theme 8: Life in the Universe & Future Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Theme 8: Life in the Universe & Future Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_top08_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Geleceğe yönelik kişisel tahmin, inanç ve umutları ifade ederken (Predictions) en sık kullanılan kalıp hangisidir?",
+          "choices": [
+            "I think / I believe + subject + will + V1",
+            "I used to + V1",
+            "I am going to + V2",
+            "Subject + was/were + V_ing"
+          ],
+          "correctAnswer": "I think / I believe + subject + will + V1",
+          "explanation": "Geleceğe dair tahmin ve beklentileri ifade ederken \"I think / I believe ... will ...\" (Bence ... olacak) kalıbı kullanılır."
+        },
+        {
+          "id": "q_ing9_top08_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Güneş Sistemi'ndeki gezegenlerin Güneş etrafındaki yörüngesini ve yerçekimi kuvvetini ifade etmek için \"orbit\" ve \"gravity\" terimleri kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Orbit\" (yörünge) ve \"gravity\" (yerçekimi / kütleçekim kuvveti) uzay bilimleri ve evren temasının temel fen/İngilizce terimleridir."
+        },
+        {
+          "id": "q_ing9_top08_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Scientists believe that humans _______ colonize Mars in the next fifty years.\" cümlesinde geleceğe yönelik tahmin için boşluğa ne gelmelidir?",
+          "choices": [
+            "will",
+            "did",
+            "used to",
+            "would have"
+          ],
+          "correctAnswer": "will",
+          "explanation": "Geleceğe ait bilimsel tahmin ve öngörülerde Future Tense \"will\" yardımcı fiili kullanılır."
+        },
+        {
+          "id": "q_ing9_top08_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Uzay araştırmalarında insanları ve yükleri uzaya taşımak için kullanılan uzay aracına İngilizcede ne ad verilir?",
+          "choices": [
+            "Space shuttle (or Spacecraft)",
+            "Submarine",
+            "Helicopter",
+            "Hoverboard"
+          ],
+          "correctAnswer": "Space shuttle (or Spacecraft)",
+          "explanation": "Uzaya fırlatılan araçlara \"space shuttle\" (uzay mekiği) veya \"spacecraft\" (uzay aracı) adı verilir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_topic_08_theme_8_life_in_the_universe_future",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=g5Y7e8kZ3mU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9cf8cace7a91677a"
+    }
+  }
+}

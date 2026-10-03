@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_veri_dagilimlari__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_istatistik_veri_dagilimi",
+  "stableKey": "mat9_quiz_veri_dagilimlari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Veri Dağılımları ve Grafik Yorumlama Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Veri Dağılımları ve Grafik Yorumlama Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_verdag_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir sınıftaki öğrencilerin sınav notları: 40, 50, 50, 60, 70, 80, 100 olarak kaydedilmiştir. Bu veri grubunun modu (tepe değeri) kaçtır?",
+          "choices": [
+            "50",
+            "60",
+            "64.3",
+            "40"
+          ],
+          "correctAnswer": "50",
+          "explanation": "En çok tekrar eden (2 kez görülen) 50 değeri moddur."
+        },
+        {
+          "id": "q_mat9_verdag_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Çeyrekler açıklığı (IQR) hangi formül ile hesaplanır?",
+          "choices": [
+            "Q3 - Q1 (Üst Çeyrek - Alt Çeyrek)",
+            "Maksimum - Minimum",
+            "(Q1 + Q3) / 2",
+            "Medyan - Ortalama"
+          ],
+          "correctAnswer": "Q3 - Q1 (Üst Çeyrek - Alt Çeyrek)",
+          "explanation": "Çeyrekler açıklığı üçüncü çeyrek ile birinci çeyrek arasındaki farktır: IQR = Q3 - Q1."
+        },
+        {
+          "id": "q_mat9_verdag_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Aritmetik ortalama uç (aşırı) değerlerden çok etkilenirken, medyan aşırı değerlere karşı dirençlidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Uç değerler toplamı ve dolayısıyla aritmetik ortalamayı saptırırken sıralı ortadaki medyanı etkilemez."
+        },
+        {
+          "id": "q_mat9_verdag_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Standart sapma merkezi eğilim ölçüsü değil, merkezi yayılım (dağılım) ölçüsüdür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Mod, medyan, ortalama merkezi eğilim; ranj, çeyrekler açıklığı ve standart sapma merkezi yayılım ölçüleridir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_veri_dagilimlari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

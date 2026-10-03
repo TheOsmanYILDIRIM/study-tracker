@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_13_tageszeiten_und_tagesablauf",
+  "stableKey": "alm9_quiz_topic_13_tageszeiten_und_tagesablauf_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "13.1-Q",
+  "orderKey": 1500,
+  "title": "Tageszeiten und Tagesablauf Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Tageszeiten und Tagesablauf Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top13_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Günün bölümlerinde \"am Morgen, am Mittag, am Abend\" denilirken, istisna olarak \"gece\" için hangi ifade kullanılır?",
+          "choices": [
+            "in der Nacht",
+            "am Nacht",
+            "im Nacht",
+            "um Nacht"
+          ],
+          "correctAnswer": "in der Nacht",
+          "explanation": "die Nacht dişil olduğu için \"in der Nacht\" (geceleyin) şeklinde kullanılır; diğer gün bölümleri eril olduğundan \"am\" (an dem) alır."
+        },
+        {
+          "id": "q_alm9_top13_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"aufstehen\" (yataktan kalkmak) ayrılabilen fiili ile \"Saat 7'de kalkarım.\" cümlesi nasıl kurulur?",
+          "choices": [
+            "Ich stehe um 07:00 Uhr auf.",
+            "Ich aufstehe um 07:00 Uhr.",
+            "Ich stehe auf um 07:00 Uhr nicht.",
+            "Ich habe um 07:00 Uhr aufgestanden."
+          ],
+          "correctAnswer": "Ich stehe um 07:00 Uhr auf.",
+          "explanation": "Ayrılabilen fiillerde (trennbare Verben) ön ek cümlenin en sonuna gider: \"Ich stehe ... auf.\""
+        },
+        {
+          "id": "q_alm9_top13_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Ich frühstücke um 07:30 Uhr und gehe um 08:00 Uhr zur Schule.\" cümlesi sabah rutinindeki kahvaltı ve okula gidiş zamanlarını anlatır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "frühstücken = kahvaltı yapmak, zur Schule gehen = okula gitmek."
+        },
+        {
+          "id": "q_alm9_top13_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"fernsehen\" (televizyon izlemek) ayrılabilen ve düzensiz fiilinin \"er\" (o) öznesine göre doğru çekimi hangisidir?",
+          "choices": [
+            "Er sieht fern.",
+            "Er siehtfern.",
+            "Er fernsieht.",
+            "Er ferngesehen."
+          ],
+          "correctAnswer": "Er sieht fern.",
+          "explanation": "sehen fiili düzensizdir (er sieht) ve \"fern-\" ön eki cümlenin sonuna gider: \"Er sieht fern.\""
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "f1f441fa5578f8ad",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9a81eb4ed1648ff3"
+    }
+  }
+}

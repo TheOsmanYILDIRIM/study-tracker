@@ -31,7 +31,12 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.tr.vtt",
-      "transcriptFingerprint": "a9429fca5308feaa"
+      "transcriptFingerprint": "a9429fca5308feaa",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

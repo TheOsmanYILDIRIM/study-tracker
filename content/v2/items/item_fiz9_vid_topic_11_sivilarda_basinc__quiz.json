@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_11_sivilarda_basinc__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
+  "stableKey": "fiz9_quiz_sivilarda_basinc_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "11.1-Q",
+  "orderKey": 1500,
+  "title": "Sıvılarda Basınç Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sıvılarda Basınç Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_sivbas_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Durgun bir sıvının tabanındaki sıvı basıncı formülü (P = h·d·g) dikkate alındığında basınç aşağıdakilerden hangisine BAĞLI DEĞİLDİR?",
+          "choices": [
+            "Kabın şekline ve toplam sıvı hacmine",
+            "Noktanın açık sıvı yüzeyine olan derinliğine (h)",
+            "Sıvının özkütlesine (d)",
+            "Yer çekimi ivmesine (g)"
+          ],
+          "correctAnswer": "Kabın şekline ve toplam sıvı hacmine",
+          "explanation": "Durgun sıvı basıncı yalnızca derinliğe (h), sıvının yoğunluğuna (d) ve yer çekimi ivmesine (g) bağlıdır; kabın şekline veya sıvı kütlesine bağlı değildir."
+        },
+        {
+          "id": "q_fiz9_sivbas_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Pascal Prensibine göre kapalı bir kaptaki sıvıya uygulanan basınç, sıvının temas ettiği her noktaya ve her yöne aynı büyüklükte iletilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Sıvılar sıkıştırılamaz kabul edilir ve üzerlerine uygulanan basınç değişimini kabın her yönüne aynen iletirler (Pascal İlkesi)."
+        },
+        {
+          "id": "q_fiz9_sivbas_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki araç ve sistemlerden hangisi Pascal Prensibi temel alınarak geliştirilmiştir?",
+          "choices": [
+            "Hidrolik fren sistemleri ve su cendereleri",
+            "Termometreler",
+            "Cıvalı barometre",
+            "Uçak kanadı aerodinamiği"
+          ],
+          "correctAnswer": "Hidrolik fren sistemleri ve su cendereleri",
+          "explanation": "Hidrolik frenler, oto kaldırma liftleri ve su cendereleri sıvıların basıncı aynen iletmesi (Pascal prensibi) prensibiyle çalışır."
+        },
+        {
+          "id": "q_fiz9_sivbas_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Özkütlesi 2 g/cm³ olan bir sıvının 30 cm derinliğindeki bir noktaya uyguladığı sıvı basıncının, özkütlesi 1 g/cm³ olan sıvının 30 cm derinliğindeki basıncına oranı kaçtır?",
+          "choices": [
+            "2",
+            "1/2",
+            "4",
+            "1"
+          ],
+          "correctAnswer": "2",
+          "explanation": "P1 = h·d1·g = 30·2·g = 60g; P2 = h·d2·g = 30·1·g = 30g. Oran P1/P2 = 60/30 = 2."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_11_sivilarda_basinc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=q6M0P-RzZkY",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "80dc2cf46868c5ed"
+    }
+  }
+}

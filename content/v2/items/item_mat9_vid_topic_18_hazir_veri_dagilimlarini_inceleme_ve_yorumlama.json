@@ -7,10 +7,10 @@
   "displayLabel": "18.1",
   "orderKey": 1000,
   "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Rehber Matematik",
     "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",

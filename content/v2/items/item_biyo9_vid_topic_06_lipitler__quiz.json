@@ -1,0 +1,88 @@
+{
+  "id": "item_biyo9_vid_topic_06_lipitler__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_06_lipitler",
+  "stableKey": "biyo9_quiz_lipitler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "6.1-Q",
+  "orderKey": 1500,
+  "title": "Lipitler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Lipitler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_lip_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücre zarının temel çift tabakalı iskeletini oluşturan, hidrofilik baş ve hidrofobik yağ asidi kuyruklarından meydana gelen lipit çeşidi hangisidir?",
+          "choices": [
+            "Fosfolipitler",
+            "Trigliseritler (Nötral Yağlar)",
+            "Steroitler",
+            "Doymuş Yağ Asitleri"
+          ],
+          "correctAnswer": "Fosfolipitler",
+          "explanation": "Fosfolipitler hücre zarının ana yapısal elemanıdır; fosfat içeren baş kısmı suyu sever (hidrofilik), yağ asidi kuyrukları ise suyu sevmez (hidrofobik)."
+        },
+        {
+          "id": "q_biyo9_lip_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir molekül trigliserit (nötral yağ) sentezi sırasında 1 molekül gliserol ile 3 molekül yağ asidi arasında kaç adet ester bağı kurulur?",
+          "choices": [
+            "3",
+            "1",
+            "2",
+            "4"
+          ],
+          "correctAnswer": "3",
+          "explanation": "Trigliserit sentezinde gliserol ve 3 yağ asidi birleşirken 3 adet ester bağı kurulur ve ortama 3 molekül su verilir."
+        },
+        {
+          "id": "q_biyo9_lip_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Lipitler, benzer monomerlerin art arda dizilmesiyle oluşan birer polimerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Lipitler polimer değildir; gliserol ve yağ asitleri gibi farklı yapıtaşlarının birleşmesiyle oluşan büyük organik moleküllerdir (makromoleküldür)."
+        },
+        {
+          "id": "q_biyo9_lip_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eşeysel hormonların (östrojen, testosteron) yapısına katılan ve hayvan hücre zarlarının akışkanlığını düzenleyen kolesterol hangi lipit grubundadır?",
+          "choices": [
+            "Steroitler",
+            "Nötral Yağlar",
+            "Fosfolipitler",
+            "Mumlar"
+          ],
+          "correctAnswer": "Steroitler",
+          "explanation": "Kolesterol ve steroit hormonlar halkasal yapılı düzenleyici lipitler olan steroitler grubuna girer."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_06_lipitler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "5a6b7c8d9e0f1a2b",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "de5063c410e69323"
+    }
+  }
+}

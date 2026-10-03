@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "stableKey": "cog9_quiz_iklim_degisimi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Küresel İklim Değişimi ve Sera Etkisi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Küresel İklim Değişimi ve Sera Etkisi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_ikldeg_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sanayi Devrimi'nden bu yana insan faaliyetleri sonucu atmosferde birikerek küresel ısınmaya en fazla katkı yapan sera gazı hangisidir?",
+          "choices": [
+            "Karbondioksit (CO₂)",
+            "Oksijen (O₂)",
+            "Azot (N₂)",
+            "Argon (Ar)"
+          ],
+          "correctAnswer": "Karbondioksit (CO₂)",
+          "explanation": "Fosil yakıt kullanımı, çimento üretimi ve ormansızlaşma atmosferdeki CO₂ yoğunluğunu rekor seviyelere ulaştırarak sera etkisini yapay biçimde güçlendirmiştir."
+        },
+        {
+          "id": "q_cog9_ikldeg_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi küresel iklim değişikliğinin yeryüzünde meydana getirdiği doğrudan çevresel sonuçlardan biri DEĞİLDİR?",
+          "choices": [
+            "Yer kabuğunda deprem üreten fay hatlarının tamamen kapanması",
+            "Kutup ve dağ buzullarının hızla erimesi",
+            "Okyanus su seviyelerinin yükselerek kıyı yerleşimlerini tehdit etmesi",
+            "Şiddetli kuraklık, çölleşme ve orman yangınlarının sıklığının artması"
+          ],
+          "correctAnswer": "Yer kabuğunda deprem üreten fay hatlarının tamamen kapanması",
+          "explanation": "Depremler iç kuvvet (tektonizma) kökenlidir; iklim değişikliği atmosfer ve hidrosfer dinamiklerini etkiler, tektonik fayları kapatmaz."
+        },
+        {
+          "id": "q_cog9_ikldeg_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Paris İklim Anlaşması, küresel ortalama sıcaklık artışını sanayi öncesi döneme kıyasla 2°C'nin oldukça altında tutmayı ve 1.5°C ile sınırlandırmayı hedefleyen küresel bir mutabakattır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "2015 Paris Anlaşması, karbon salınımını azaltarak net sıfır emisyon hedefine ulaşmayı amaçlar."
+        },
+        {
+          "id": "q_cog9_ikldeg_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kişi ve kurumların doğrudan veya dolaylı olarak atmosfere saldığı sera gazı miktarına \"Karbon Ayak İzi\" denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Karbon ayak izi, enerji tüketimi, ulaşım ve üretim faaliyetlerinin iklim üzerindeki yükünü ölçen standart bir göstergedir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

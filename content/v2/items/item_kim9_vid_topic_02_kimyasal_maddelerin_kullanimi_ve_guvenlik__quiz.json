@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "stableKey": "kim9_quiz_kimyasal_kullanim_guvenlik_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Kimyasal Maddelerin Güvenli Kullanımı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kimyasal Maddelerin Güvenli Kullanımı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_kullanim_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kimyasal maddelerin tehlikeleri, saklama koşulları, ilk yardım tedbirleri ve bertaraf yöntemlerini ayrıntılı açıklayan 16 maddelik belgeye ne ad verilir?",
+          "choices": [
+            "Güvenlik Bilgi Formu (GBF / SDS)",
+            "Periyodik Tablo Çizelgesi",
+            "Laboratuvar Raporu",
+            "Kimyasal Reçete Belgesi"
+          ],
+          "correctAnswer": "Güvenlik Bilgi Formu (GBF / SDS)",
+          "explanation": "Güvenlik Bilgi Formu (SDS/GBF), kimyasal maddelerin taşınması, depolanması ve acil müdahale bilgilerini içeren resmi güvenlik belgesidir."
+        },
+        {
+          "id": "q_kim9_kullanim_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Ev temizliğinde çamaşır suyu (NaOCl) ile tuz ruhu (HCl) kesinlikle birbirine karıştırılmamalıdır. Bu iki kimyasal karıştığında açığa çıkan ölümcül zehirli gaz hangisidir?",
+          "choices": [
+            "Klor gazı (Cl₂)",
+            "Oksijen gazı (O₂)",
+            "Azot gazı (N₂)",
+            "Helyum gazı (He)"
+          ],
+          "correctAnswer": "Klor gazı (Cl₂)",
+          "explanation": "NaOCl + 2HCl → NaCl + H₂O + Cl₂ tepkimesi sonucu son derece toksik ve boğucu olan Klor (Cl₂) gazı açığa çıkar."
+        },
+        {
+          "id": "q_kim9_kullanim_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kurşun (Pb), Cıva (Hg) ve Kadmiyum (Cd) gibi ağır metaller insan vücudunda ve besin zincirinde birikerek nörolojik ve organ hasarlarına yol açar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Ağır metaller biyolojik olarak parçalanamaz ve vücuttan kolay atılamaz; biyo-birikim yaparak toksik etkiler üretir."
+        },
+        {
+          "id": "q_kim9_kullanim_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Laboratuvarda kullanılan tüm organik ve inorganik kimyasal atıklar çevreye zarar vermemesi için doğrudan lavaboya bol suyla dökülerek uzaklaştırılmalıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Kimyasal atıklar asla lavaboya dökülmez! Türlerine göre (organik, asidik, ağır metal vb.) ayrılmış özel atık toplama bidonlarında biriktirilmelidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c7bf0a4466575520"
+    }
+  }
+}

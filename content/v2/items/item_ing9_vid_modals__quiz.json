@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_modals__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_family_and_world",
+  "stableKey": "ing9_quiz_modals_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Modal Verbs (Can, Must, Have to) Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Modal Verbs (Can, Must, Have to) Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_md_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Trafik kuralları, kanunlar ve güçlü resmî zorunluluklar için hangi modal yardımcı fiili kullanılır?",
+          "choices": [
+            "Must",
+            "Might",
+            "Could",
+            "Would"
+          ],
+          "correctAnswer": "Must",
+          "explanation": "\"Must\", yapılması kesinlikle zorunlu olan kural, kanun veya kuvvetli içsel yükümlülükleri belirtir (\"Drivers must stop at red lights\")."
+        },
+        {
+          "id": "q_ing9_md_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"You mustn't park here\" (Buraya park etmemelisin/yasak) cümlesi ile \"You don't have to park here\" (Buraya park etmek zorunda değilsin) cümleleri aynı anlama gelir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "\"Mustn't\" kesin bir yasaklama bildirir (prohibition). \"Don't have to\" ise zorunluluk olmadığını (lack of necessity - istersen park edebilirsin) belirtir, aynı anlama gelmez."
+        },
+        {
+          "id": "q_ing9_md_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dışsal kaynaklı kurallar ve gereklilikler (okul üniforması giyme zorunluluğu gibi) için genellikle hangi yapı tercih edilir?",
+          "choices": [
+            "Have to",
+            "Might",
+            "Could",
+            "May"
+          ],
+          "correctAnswer": "Have to",
+          "explanation": "Kişinin kendi isteği dışındaki resmî veya kurumsal zorunluluklar için \"have to\" kullanılır (\"Students have to wear school uniforms\")."
+        },
+        {
+          "id": "q_ing9_md_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Boşluğu doğru şekilde tamamlayınız: \"I _______ speak English fluently, but I cannot speak Chinese at all.\"",
+          "choices": [
+            "can",
+            "must",
+            "should",
+            "used to"
+          ],
+          "correctAnswer": "can",
+          "explanation": "Yetenek ve becerileri (ability) ifade etmek için \"can\" yardımcı fiili kullanılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_modals",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "6aeb6f68fd378db2"
+    }
+  }
+}

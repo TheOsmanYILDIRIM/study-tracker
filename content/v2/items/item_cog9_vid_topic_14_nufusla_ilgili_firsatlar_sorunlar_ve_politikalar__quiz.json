@@ -1,0 +1,84 @@
+{
+  "id": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "stableKey": "cog9_quiz_nufus_politikalari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Nüfus Politikaları ve Demografik Fırsat Penceresi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Nüfus Politikaları ve Demografik Fırsat Penceresi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_nufpol_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yaşlı nüfus oranı hızla artan, çalışma çağındaki nüfusu azalan ve gelecekte ekonomik durgunluk tehlikesiyle karşılaşan gelişmiş ülkelerin uyguladığı nüfus politikası hangisidir?",
+          "choices": [
+            "Nüfus artış hızını artırmaya yönelik teşvik edici politikalar (çocuk yardımı, doğum izni vb.)",
+            "Nüfus artış hızını azaltmaya yönelik kısıtlayıcı politikalar",
+            "Sadece kırsal nüfusu artırma politikası",
+            "Tüm doğumları yasaklama politikası"
+          ],
+          "correctAnswer": "Nüfus artış hızını artırmaya yönelik teşvik edici politikalar (çocuk yardımı, doğum izni vb.)",
+          "explanation": "Gelişmiş ülkeler (ör. Fransa, Japonya) demografik dinamizmi korumak için çocuk teşvikleri, vergi indirimleri ve kreş yardımları uygular."
+        },
+        {
+          "id": "q_cog9_nufpol_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Demografik Fırsat Penceresi\" kavramı neyi ifade eder?",
+          "choices": [
+            "Toplam nüfus içinde 15-64 yaş grubu çalışma çağındaki üretken nüfus payının en yüksek seviyeye ulaştığı altın dönemi",
+            "Sadece 65 yaş üstü emekli nüfusun çoğunlukta olduğu dönemi",
+            "0-4 yaş arası bebek nüfusun sıfırlandığı dönemi",
+            "Yalnızca dış göçlerin serbest bırakıldığı dönemi"
+          ],
+          "correctAnswer": "Toplam nüfus içinde 15-64 yaş grubu çalışma çağındaki üretken nüfus payının en yüksek seviyeye ulaştığı altın dönemi",
+          "explanation": "Çalışma çağındaki aktif nüfusun yüksek, bağımlı çocuk ve yaşlı nüfusun görece düşük olduğu dönem ekonomik sıçrama için büyük bir fırsat penceresidir."
+        },
+        {
+          "id": "q_cog9_nufpol_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Türkiye gibi gelişmekte olan ülkelerde uygulanan nüfus politikalarının temel odağı, nüfusun yalnızca sayısal artışı değil; eğitim, sağlık ve istihdam gibi niteliklerinin iyileştirilmesidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Nitelik ve nicelik dengesi gözetilerek beşerî sermayenin ve iş gücü verimliliğinin artırılması hedeflenir."
+        },
+        {
+          "id": "q_cog9_nufpol_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Aşırı hızlı nüfus artışı yaşayan az gelişmiş ülkelerde demografik yatırımların (okul, hastane) bütçedeki payının artması kalkınma hızını yavaşlatır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Tasarruf ve sanayi yatırımı yerine temel tüketim ve demografik harcamalar arttığı için kişi başına düşen millî gelir artışı sınırlanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

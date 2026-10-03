@@ -7,8 +7,8 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
@@ -25,11 +25,12 @@
         "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme",
         "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme • OKUL TEMELLİ PLANLAMA*"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7f3b56f0dc074870",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
     }
   }
 }

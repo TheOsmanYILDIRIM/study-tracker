@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_09_iklim_turleri__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_09_iklim_turleri",
+  "stableKey": "cog9_quiz_iklim_turleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Büyük İklim Tipleri (Makroklima) Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Büyük İklim Tipleri (Makroklima) Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_iktur_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yıl boyunca sıcaklık ortalaması 25°C'nin üzerinde olan, yıllık sıcaklık farkı en az (2-3°C) ve her mevsimi düzenli konveksiyonel yağış alan iklim tipi hangisidir?",
+          "choices": [
+            "Ekvatoral İklim",
+            "Akdeniz İklimi",
+            "Çöl İklimi",
+            "Tundra İklimi"
+          ],
+          "correctAnswer": "Ekvatoral İklim",
+          "explanation": "Ekvatoral iklimde Güneş ışınları yıl boyu dik ve dike yakın gelir; yıllık sıcaklık farkı en azdır, doğal bitki örtüsü tropikal yağmur ormanlarıdır."
+        },
+        {
+          "id": "q_cog9_iktur_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen; karakteristik bitki örtüsü zeytin, defne, mersin gibi kısa boylu bodur çalılardan (maki) oluşan iklim tipi hangisidir?",
+          "choices": [
+            "Akdeniz İklimi",
+            "Step (Bozkır) İklimi",
+            "Okyanusal İklim",
+            "Muson İklimi"
+          ],
+          "correctAnswer": "Akdeniz İklimi",
+          "explanation": "Akdeniz iklimi 30°-40° enlemleri arasında görülür; yazın dinamik yüksek basınçla kurak, kışın cephesel yağışlıdır; toprağı terra-rossadır."
+        },
+        {
+          "id": "q_cog9_iktur_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Ilıman Okyanusal İklim; Batı rüzgârları ve sıcak su akıntıları etkisiyle her mevsim yağışlıdır ve doğal bitki örtüsü karışık yapraklı ormanlardır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Batı Avrupa ve Türkiye'de Karadeniz kıyılarında görülen okyanusal iklim düzenli yağış rejimi ve ılıman yapısıyla bilinir."
+        },
+        {
+          "id": "q_cog9_iktur_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Toprağın yılın 9-10 ayı donmuş halde (permafrost) kaldığı, kısa yaz aylarında bataklığa dönüşerek liken ve yosunlardan oluşan bitki örtüsünün görüldüğü kutup altı iklimi hangisidir?",
+          "choices": [
+            "Tundra İklimi",
+            "Tayga İklimi",
+            "Savan İklimi",
+            "Kutup İklimi"
+          ],
+          "correctAnswer": "Tundra İklimi",
+          "explanation": "Tundra iklimi 60°-70° kuzey enlemlerinde görülür; sıcaklık yılın büyük bölümünde sıfırın altındadır, ağaç yetişmez."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_09_iklim_turleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

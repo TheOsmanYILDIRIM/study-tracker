@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_18_isil_denge__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_18_isil_denge",
+  "stableKey": "fiz9_quiz_top18_isil_denge_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "18.1-Q",
+  "orderKey": 1500,
+  "title": "Isıl Denge Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Isıl Denge Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top18_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Isıca yalıtılmış bir ortamda yalnızca birbirleriyle ısı alışverişi yapan iki cisim için temel ısıl denge eşitliği nedir?",
+          "choices": [
+            "Qalınan = Qverilen",
+            "T1 + T2 = Sabit",
+            "m1 = m2",
+            "c1 = c2"
+          ],
+          "correctAnswer": "Qalınan = Qverilen",
+          "explanation": "Enerjinin korunumu gereği yalıtılmış ortamda soğuyan cismin verdiği ısı enerjisi, ısınan cismin aldığı ısı enerjisine eşittir."
+        },
+        {
+          "id": "q_fiz9_top18_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Termodinamiğin sıfırıncı yasasına göre, A sistemi B ile ve B sistemi C ile ısıl dengede ise, A sistemi de C sistemi ile ısıl dengededir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Termodinamiğin 0. yasası sıcaklık kavramının ve termometrelerin çalışma temelini oluşturur."
+        },
+        {
+          "id": "q_fiz9_top18_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Isı sığaları (C = m·c) eşit olan 20 °C ve 80 °C sıcaklıktaki iki aynı tür sıvı karıştırıldığında denge sıcaklığı kaç °C olur?",
+          "choices": [
+            "50 °C",
+            "60 °C",
+            "40 °C",
+            "30 °C"
+          ],
+          "correctAnswer": "50 °C",
+          "explanation": "Isı sığaları eşit olduğunda denge sıcaklığı doğrudan aritmetik ortalamadır: Tdenge = (20 + 80) / 2 = 50 °C."
+        },
+        {
+          "id": "q_fiz9_top18_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki cisim arasında net ısı transferinin durması hangi fiziksel durumun gerçekleştiğini gösterir?",
+          "choices": [
+            "İki cismin sıcaklıklarının eşitlendiğini (Isıl Denge)",
+            "İki cismin iç enerjilerinin sıfır olduğunu",
+            "İki cismin kütlelerinin eşitlendiğini",
+            "İki cismin hâl değiştirdiğini"
+          ],
+          "correctAnswer": "İki cismin sıcaklıklarının eşitlendiğini (Isıl Denge)",
+          "explanation": "Isı transferi sıcaklık farkı olduğu sürece devam eder; sıcaklıklar eşitlendiğinde (ısıl dengeye ulaşıldığında) net ısı aktarımı sıfır olur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_18_isil_denge",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ea9c84aa2105e929"
+    }
+  }
+}

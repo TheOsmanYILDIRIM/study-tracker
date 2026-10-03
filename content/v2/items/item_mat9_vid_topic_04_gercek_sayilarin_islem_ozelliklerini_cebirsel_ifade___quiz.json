@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade___quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+  "stableKey": "mat9_quiz_topic_04_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top04_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "a ve b gerçek sayıları için (a + b)² tam kare ifadesinin özdeşlik açılımı aşağıdakilerden hangisidir?",
+          "choices": [
+            "a² + 2ab + b²",
+            "a² + b²",
+            "a² - 2ab + b²",
+            "2a + 2b"
+          ],
+          "correctAnswer": "a² + 2ab + b²",
+          "explanation": "(a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b² dir."
+        },
+        {
+          "id": "q_mat9_top04_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir x sayısının 3 katının 5 eksiğinin karesini belirten cebirsel ifade hangisidir?",
+          "choices": [
+            "(3x - 5)²",
+            "3x² - 5",
+            "(3x)² - 5",
+            "3(x - 5)²"
+          ],
+          "correctAnswer": "(3x - 5)²",
+          "explanation": "Önce sayının 3 katının 5 eksiği (3x - 5) oluşturulur, ardından tüm ifadenin karesi alınarak (3x - 5)² elde edilir."
+        },
+        {
+          "id": "q_mat9_top04_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "İki kare farkı özdeşliği her a, b ∈ R için a² - b² = (a - b)(a + b) şeklindedir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "(a - b)(a + b) = a² + ab - ba - b² = a² - b² olduğundan ifade doğrudur."
+        },
+        {
+          "id": "q_mat9_top04_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "(a - b)² ifadesi a² - b² ifadesine her zaman eşittir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "(a - b)² = a² - 2ab + b² olup a² - b² ifadesine eşit değildir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -7,8 +7,8 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Kimya_Yillik_Plan_AL9.md#L80",
@@ -16,7 +16,9 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "b3ac44607a0489ab"
-    }
+      "fingerprint": "b3ac44607a0489ab",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo"
+    },
+    "provider": "Meschemy Kimya"
   }
 }

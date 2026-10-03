@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_periyodik_ozellikler__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+  "stableKey": "kim9_quiz_periyodik_ozellikler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Periyodik Özelliklerin Değişimi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Periyodik Özelliklerin Değişimi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_peroz_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Periyodik sistemde aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı nasıl değişir ve bunun temel sebebi nedir?",
+          "choices": [
+            "Azalır; çünkü çekirdekteki proton sayısı ve çekim gücü artar.",
+            "Artar; çünkü elektron sayısı artar.",
+            "Değişmez; çünkü katman sayısı aynıdır.",
+            "Önce artar, sonra azalır."
+          ],
+          "correctAnswer": "Azalır; çünkü çekirdekteki proton sayısı ve çekim gücü artar.",
+          "explanation": "Aynı periyotta katman sayısı sabitken proton sayısı arttığı için elektron başına düşen çekim kuvveti artar ve atom büzülerek çapı küçülür."
+        },
+        {
+          "id": "q_kim9_peroz_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aynı periyottaki A grubu elementlerinin 1. iyonlaşma enerjileri sıralamasında görülen \"küresel simetri sapması\" hangi gruplar arasında gerçekleşir?",
+          "choices": [
+            "2A > 3A ve 5A > 6A (Üç aşağı beş yukarı)",
+            "1A > 2A ve 3A > 4A",
+            "7A > 8A ve 4A > 5A",
+            "3A > 4A ve 6A > 7A"
+          ],
+          "correctAnswer": "2A > 3A ve 5A > 6A (Üç aşağı beş yukarı)",
+          "explanation": "2A (s²) ve 5A (p³) grupları küresel simetriye sahip olduklarından daha kararlıdır; bu nedenle 1. iyonlaşma enerjileri 3A ve 6A'dan büyüktür (1A < 3A < 2A < 4A < 6A < 5A < 7A < 8A)."
+        },
+        {
+          "id": "q_kim9_peroz_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Elektronegatiflik, bağ elektronlarını çekme yeteneğidir ve periyodik sistemde elektronegatifliği en yüksek olan element Flor (F)'dur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Florun elektronegatiflik değeri Pauling ölçeğinde 4.0 olarak kabul edilmiş en yüksek değerdir. Soygazlar ise genellikle bağ yapmadığı için elektronegatiflikleri ihmal edilir."
+        },
+        {
+          "id": "q_kim9_peroz_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Periyodik sistemde bir grupta yukarıdan aşağıya inildikçe metalik aktiflik (elektron verme kolaylığı) azalır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Aşağı inildikçe çap büyür, en dıştaki elektronu koparmak kolaylaşır; bu nedenle metallerde aktiflik aşağı doğru ARTAR."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_periyodik_ozellikler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "15e3c2e0f956a095"
+    }
+  }
+}

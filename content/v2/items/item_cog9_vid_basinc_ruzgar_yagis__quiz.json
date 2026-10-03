@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_basinc_ruzgar_yagis__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+  "stableKey": "cog9_quiz_basinc_ruzgar_yagis_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Basınç, Rüzgârlar ve Yoğuşma Tipleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Basınç, Rüzgârlar ve Yoğuşma Tipleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_bry_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Alçak Basınç (Siklon) merkezlerinin genel özellikleri hakkında aşağıdakilerden hangisi DOĞRUDUR?",
+          "choices": [
+            "Yükselici hava hareketleri görülür, hava genellikle bulutlu ve yağış ihtimali yüksektir.",
+            "Alçalıcı hava hareketi vardır, hava daima açık ve kuraktır.",
+            "Rüzgâr merkezden çevreye doğru eser.",
+            "Yalnızca kutup noktalarında oluşur."
+          ],
+          "correctAnswer": "Yükselici hava hareketleri görülür, hava genellikle bulutlu ve yağış ihtimali yüksektir.",
+          "explanation": "Alçak basınçta ısınan veya dinamik olarak yükselen hava soğur, yoğuşur ve bulut/yağış oluşturur; rüzgâr çevreden merkeze doğrudur."
+        },
+        {
+          "id": "q_cog9_bry_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "30° Dinamik Yüksek Basınç alanlarından Ekvator'daki Termik Alçak Basınç alanına doğru yıl boyunca düzenli esen ve okyanus akıntılarını yönlendiren sürekli rüzgâr hangisidir?",
+          "choices": [
+            "Alizeler (Ticaret Rüzgârları)",
+            "Batı Rüzgârları",
+            "Kutup Rüzgârları",
+            "Muson Rüzgârları"
+          ],
+          "correctAnswer": "Alizeler (Ticaret Rüzgârları)",
+          "explanation": "Alizeler tropikal kuşakta 30° enlemlerinden Ekvator'a esen, sıcak kuşak karalarının doğu kıyılarına bol yağış bırakan sürekli rüzgârlardır."
+        },
+        {
+          "id": "q_cog9_bry_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir dağ yamacını aşarak diğer taraftan aşağıya doğru inen ve sürtünmenin etkisiyle her 100 metrede 1°C ısınan kuru ve sıcak rüzgâra \"Föhn Rüzgârı\" denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Föhn rüzgârı indiği yamaçta sıcaklığı hızla artırır, karları eritir, bağıl nemi düşürür ve tarım ürünlerini erken olgunlaştırır/kurutur."
+        },
+        {
+          "id": "q_cog9_bry_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Farklı sıcaklık ve nem özelliğine sahip sıcak ve soğuk hava kütlelerinin karşılaşma alanlarında sıcak havanın yükselmesiyle oluşan yağış tipi hangisidir?",
+          "choices": [
+            "Cephesel (Frontal) Yağış",
+            "Konveksiyonel (Yükselim) Yağış",
+            "Orografik (Yamaç) Yağış",
+            "Muson Yağışı"
+          ],
+          "correctAnswer": "Cephesel (Frontal) Yağış",
+          "explanation": "Cephe yağışları sıcak ve soğuk havanın karşılaştığı orta kuşakta (özellikle Akdeniz iklim havzasında kışın) en yaygın yağış türüdür."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_basinc_ruzgar_yagis",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

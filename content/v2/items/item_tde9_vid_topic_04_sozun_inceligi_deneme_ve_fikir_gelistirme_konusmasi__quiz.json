@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+  "stableKey": "tde9_quiz_topic_04_deneme_fikir_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Deneme ve Fikir Geliştirme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Deneme ve Fikir Geliştirme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top04_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yazarın herhangi bir konudaki kişisel görüş ve duygularını, kesin kurallara ve kanıtlama zorunluluğuna bağlı kalmadan samimi bir üslupla dile getirdiği tür hangisidir?",
+          "choices": [
+            "Deneme",
+            "Makale",
+            "Fıkra",
+            "Biyografi"
+          ],
+          "correctAnswer": "Deneme",
+          "explanation": "Deneme; yazarın kendi kendisiyle konuşur gibi yazdığı, iddialarını bilimsel olarak ispatlama zorunluluğu bulunmayan öznel ve serbest düşünce yazısıdır."
+        },
+        {
+          "id": "q_tde9_top04_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dünya edebiyatında deneme türünün kurucusu ve öncüsü sayılan yazar kimdir?",
+          "choices": [
+            "Montaigne",
+            "Bacon",
+            "Rousseau",
+            "Voltaire"
+          ],
+          "correctAnswer": "Montaigne",
+          "explanation": "16. yüzyıl Fransız yazarı Michel de Montaigne 'Denemeler' (Essais) adlı eseriyle bu türün dünya edebiyatındaki kurucusu kabul edilir."
+        },
+        {
+          "id": "q_tde9_top04_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Türk edebiyatında Nurullah Ataç, 'Deneme benin ülkesidir.' sözüyle denemenin son derece öznel bir tür olduğunu vurgulamıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Nurullah Ataç, denemenin yazarına özgü kişiselliğini ve öznel bakış açısını vurgulamak için 'Deneme benin ülkesidir.' ifadesini kullanmıştır."
+        },
+        {
+          "id": "q_tde9_top04_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Fikir geliştirme konuşması hazırlayan bir öğrencinin konuşmasını inandırıcı kılmak için aşağıdakilerden hangisinden yararlanması beklenir?",
+          "choices": [
+            "Örnekleme, karşılaştırma ve mantıksal gerekçelendirme",
+            "Konudan bağımsız rastgele iddialar sıralama",
+            "Dinleyicilerin sorularını cevapsız bırakma",
+            "Yalnızca süslü ve anlaşılmaz sözcükler seçme"
+          ],
+          "correctAnswer": "Örnekleme, karşılaştırma ve mantıksal gerekçelendirme",
+          "explanation": "Bir düşünceyi aktarırken ve savunurken mantıklı gerekçeler, karşılaştırmalar ve somut örnekler sunmak konuşmanın ikna gücünü artırır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d133089b619f1c14"
+    }
+  }
+}

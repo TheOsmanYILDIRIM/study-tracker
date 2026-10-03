@@ -6,7 +6,9 @@
   "orderKey": 12000,
   "items": [
     "item_fiz9_vid_basinc_prensipleri",
+    "item_fiz9_vid_basinc_prensipleri__quiz",
     "item_fiz9_vid_kaldirma_kuvveti",
+    "item_fiz9_vid_kaldirma_kuvveti__quiz",
     "item_fiz9_quiz_basinc_kaldirma"
   ],
   "sourceMeta": {

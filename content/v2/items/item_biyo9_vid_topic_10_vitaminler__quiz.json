@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_10_vitaminler__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_10_vitaminler",
+  "stableKey": "biyo9_quiz_vitaminler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "10.1-Q",
+  "orderKey": 1500,
+  "title": "Vitaminler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Vitaminler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_vit_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi yağda eriyen vitaminler grubundadır ve vücuda fazla alındığında karaciğerde depolanır?",
+          "choices": [
+            "A, D, E, K Vitaminleri",
+            "B ve C Vitaminleri",
+            "Yalnızca B12 Vitamini",
+            "B Grubu Vitaminleri"
+          ],
+          "correctAnswer": "A, D, E, K Vitaminleri",
+          "explanation": "A, D, E ve K vitaminleri yağda çözünür, fazlası vücutta depolanır. B ve C vitaminleri ise suda erir ve fazlası idrarla atılır."
+        },
+        {
+          "id": "q_biyo9_vit_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Vitaminlerin insan vücudundaki biyolojik görevleri ve özellikleri ile ilgili hangisi DOĞRUDUR?",
+          "choices": [
+            "Enzimlerin yapısına kofaktör (koenzim) olarak katılarak düzenleyici rol oynarlar.",
+            "Hücresel solunumda parçalanarak doğrudan ATP üretilmesini sağlarlar.",
+            "Hücre zarındaki porlardan geçemeyecek büyüklükte polimerlerdir.",
+            "İnsan vücudunda tüm vitaminler inorganik maddelerden doğrudan sentezlenebilir."
+          ],
+          "correctAnswer": "Enzimlerin yapısına kofaktör (koenzim) olarak katılarak düzenleyici rol oynarlar.",
+          "explanation": "Vitaminler enerji vermez ve sindirilmezler. Enzimlerin yardımcı kısmı (koenzim) olarak düzenleyici görev yaparlar."
+        },
+        {
+          "id": "q_biyo9_vit_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "C vitamini eksikliğinde bağ doku hasarı ve diş eti kanamalarıyla karakterize Skorbit (skorbüt) hastalığı görülür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "C vitamini eksikliğinde kolajen yapımı bozulur ve diş eti kanaması olan skorbüt hastalığı gelişir."
+        },
+        {
+          "id": "q_biyo9_vit_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Vücutta bir vitaminin eksikliği tespit edildiğinde, bu eksiklik başka bir vitamin çeşidi tarafından kolaylıkla telafi edilebilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Her vitamin belirli bir enzime veya reaksiyona özgü olduğundan, hiçbir vitamin bir diğerinin yerini dolduramaz."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_10_vitaminler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "3b4c5d6e7f8a9b0c",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "fa7285e632081545"
+    }
+  }
+}

@@ -7,10 +7,10 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Tageszeiten und Tagesablauf",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & MEB Maarif Modeli",
     "topic": "Tageszeiten und Tagesablauf",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -32,6 +32,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "78a4929264d79e17",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

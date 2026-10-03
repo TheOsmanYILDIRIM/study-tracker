@@ -7,10 +7,10 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
   "publishingStatus": "draft",
   "payload": {
-    "provider": null,
+    "provider": "Rehber Matematik",
     "topic": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",

@@ -5,7 +5,8 @@
   "title": "Vitaminler",
   "orderKey": 10000,
   "items": [
-    "item_biyo9_vid_topic_10_vitaminler"
+    "item_biyo9_vid_topic_10_vitaminler",
+    "item_biyo9_vid_topic_10_vitaminler__quiz"
   ],
   "sourceMeta": {
     "weeks": [

@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Periyodik Özellikler",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Kimya Adası",
     "topic": "Periyodik Özellikler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,7 +27,8 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f042d1294a03fda1",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM"
     }
   }
 }

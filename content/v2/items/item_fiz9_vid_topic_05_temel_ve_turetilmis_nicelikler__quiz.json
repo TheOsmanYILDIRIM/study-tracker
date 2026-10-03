@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+  "stableKey": "fiz9_quiz_temel_turetilmis_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Temel ve Türetilmiş Nicelikler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Temel ve Türetilmiş Nicelikler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_tt_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "SI birim sisteminde temel büyüklükler \"KISA MUZ\" kısaltmasıyla hatırlanır. Aşağıdakilerden hangisi bu 7 temel büyüklükten biri DEĞİLDİR?",
+          "choices": [
+            "Kuvvet",
+            "Kütle",
+            "Sıcaklık",
+            "Madde Miktarı"
+          ],
+          "correctAnswer": "Kuvvet",
+          "explanation": "KISA MUZ: Kütle (kg), Işık şiddeti (cd), Sıcaklık (K), Akım şiddeti (A), Madde miktarı (mol), Uzunluk (m), Zaman (s). Kuvvet ise türetilmiş bir büyüklüktür (N = kg·m/s²)."
+        },
+        {
+          "id": "q_fiz9_tt_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "SI birim sisteminde sıcaklığın temel birimi Celcius (°C) değil, Kelvin (K)'dir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Uluslararası Birim Sistemi'nde (SI) sıcaklık birimi Kelvin (K)'dir."
+        },
+        {
+          "id": "q_fiz9_tt_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Birden fazla temel büyüklüğün matematiksel olarak birleştirilmesiyle tanımlanan büyüklüklere \"türetilmiş büyüklük\" denir. Aşağıdakilerden hangisi türetilmiş bir büyüklüktür?",
+          "choices": [
+            "Hız",
+            "Zaman",
+            "Uzunluk",
+            "Işık Şiddeti"
+          ],
+          "correctAnswer": "Hız",
+          "explanation": "Hız = Yer Değiştirme / Zaman (m/s) olup uzunluk ve zaman temel büyüklüklerinden türetilmiştir."
+        },
+        {
+          "id": "q_fiz9_tt_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kütle ölçümü için eşit kollu terazi kullanılırken, ağırlık (kuvvet) ölçümü için hangi ölçü aleti kullanılır?",
+          "choices": [
+            "Dinamometre",
+            "Kronometre",
+            "Termometre",
+            "Ampermetre"
+          ],
+          "correctAnswer": "Dinamometre",
+          "explanation": "Ağırlık bir kuvvettir ve yayların esneklik özelliğinden yararlanılarak yapılan dinamometre ile ölçülür. Birimi Newton'dur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "2ae5cb8b6bdc2de1"
+    }
+  }
+}

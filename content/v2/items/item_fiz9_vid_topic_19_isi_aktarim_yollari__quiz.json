@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_topic_19_isi_aktarim_yollari__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_19_isi_aktarim_yollari",
+  "stableKey": "fiz9_quiz_top19_aktarim_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "19.1-Q",
+  "orderKey": 1500,
+  "title": "Isı Aktarım Yolları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Isı Aktarım Yolları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_top19_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Çay bardağına konulan metal çay kaşığının sapının bir süre sonra ısınması ısının hangi yolla iletildiğini gösterir?",
+          "choices": [
+            "İletim (Kondüksiyon)",
+            "Konveksiyon (Taşıma)",
+            "Işıma (Radyasyon)",
+            "Buharlaşma"
+          ],
+          "correctAnswer": "İletim (Kondüksiyon)",
+          "explanation": "Katı maddelerde taneciklerin titreşerek enerjiyi komşu taneciklere aktarmasıyla gerçekleşen ısı iletim yoluna \"iletim\" denir."
+        },
+        {
+          "id": "q_fiz9_top19_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıvı ve gazlarda ısınan maddenin genleşerek özkütlesinin azalması ve yükselmesiyle oluşan ısı yayılma yolu hangisidir?",
+          "choices": [
+            "Konveksiyon (Taşıma)",
+            "İletim",
+            "Işıma",
+            "Yansıma"
+          ],
+          "correctAnswer": "Konveksiyon (Taşıma)",
+          "explanation": "Akışkanlarda (sıvı ve gaz) ısınan taneciklerin yer değiştirmesiyle ısının yayılmasına konveksiyon (taşıma) denir (kalorifer peteğinin odayı ısıtması)."
+        },
+        {
+          "id": "q_fiz9_top19_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Işıma (radyasyon) yoluyla ısı yayılması için maddesel bir ortama ihtiyaç yoktur; elektromanyetik dalgalar aracılığıyla boşlukta da yayılabilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Güneş'in Dünya'yı uzay boşluğundan geçerek ısıtması ışıma yoluyla gerçekleşir; maddesel ortama ihtiyaç duymaz."
+        },
+        {
+          "id": "q_fiz9_top19_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Termosların iç yüzeyinin parlak ve aynalı yapılması, ısının hangi yolla kaybını en aza indirmek içindir?",
+          "choices": [
+            "Işıma (Radyasyon)",
+            "İletim",
+            "Konveksiyon",
+            "Sürtünme"
+          ],
+          "correctAnswer": "Işıma (Radyasyon)",
+          "explanation": "Parlak ve yansıtıcı yüzeyler termal ışıma dalgalarını geri yansıtarak ışıma ile olan ısı kaybını engeller; çift duvar arasındaki vakum ise iletim ve konveksiyonu engeller."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "8c6da4c1ddd2885a"
+    }
+  }
+}

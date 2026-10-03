@@ -6,8 +6,8 @@
   "itemType": "VIDEO",
   "displayLabel": "2.2",
   "orderKey": 1000,
-  "title": "Doğadaki 4 Temel Kuvvet ve Hareket Türleri",
-  "contentUrl": null,
+  "title": "Doğadaki 4 Temel Kuvvet ve Temas Gerektiren/Gerektirmeyen Kuvvetler",
+  "contentUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -16,7 +16,10 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "09cb02d72bd03694"
-    }
+      "fingerprint": "09cb02d72bd03694",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "provider": "Özcan Aykın FİZİK"
+    },
+    "provider": "Özcan Aykın FİZİK"
   }
 }

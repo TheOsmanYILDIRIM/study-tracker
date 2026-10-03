@@ -7,16 +7,19 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L130",
       "sourceSection": "Canlılar Dünyası",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "6442c0e6c046456f"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "6442c0e6c046456f",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
+      "reviewedOverride": true
+    },
+    "provider": "Tonguç Akademi"
   }
 }

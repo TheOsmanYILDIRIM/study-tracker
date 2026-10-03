@@ -1,0 +1,84 @@
+{
+  "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "stableKey": "tde9_quiz_topic_02_siiri_betimleme_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Şiiri Betimleme Paragrafına Dönüştürme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Şiiri Betimleme Paragrafına Dönüştürme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_top02_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir şiirdeki imge ve duyguları düz yazıya aktarırken yazarın kişisel izlenimlerini ve duygu dünyasını kattığı betimleme türü hangisidir?",
+          "choices": [
+            "İzlenimsel (Sanatsal) Betimleme",
+            "Açıklayıcı (Nesnel) Betimleme",
+            "Tartışmacı Betimleme",
+            "Öyküleyici Çözümleme"
+          ],
+          "correctAnswer": "İzlenimsel (Sanatsal) Betimleme",
+          "explanation": "İzlenimsel betimlemede amaç nesneleri olduğu gibi değil, yazarın ruhunda bıraktığı izlenimlerle ve mecazlı dille aktarmaktır."
+        },
+        {
+          "id": "q_tde9_top02_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Şiiri betimleme paragrafına dönüştürürken şiirdeki ahenk ve ölçü kuralları birebir korunmak zorundadır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Şiir düz yazıya (betimleme paragrafına) aktarılırken vezin ve kafiye gibi şiire özgü şekil unsurları terkedilir; anlam, atmosfer ve imgeler düz yazı cümleleriyle ifade edilir."
+        },
+        {
+          "id": "q_tde9_top02_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Şiirden nesir (betimleme) paragrafı oluşturma sürecinde ilk yapılması gereken aşama aşağıdakilerden hangisidir?",
+          "choices": [
+            "Şiirin ana temasını, duygusunu ve imge dünyasını doğru kavramak",
+            "Hemen son cümleyi yazarak sonucu belirlemek",
+            "Şiirdeki her dizeyi kelime kelime alt alta dizmek",
+            "Şiirin kafiye şemasını ezberlemek"
+          ],
+          "correctAnswer": "Şiirin ana temasını, duygusunu ve imge dünyasını doğru kavramak",
+          "explanation": "Dönüştürme sürecinin ilk adımı metni derinlemesine okuyup tema, ana fikir, duygu ve kullanılan imgeleri doğru anlamlandırmaktır."
+        },
+        {
+          "id": "q_tde9_top02_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Duyuların birbiriyle kaynaştırılmasıyla (örneğin 'tatlı bir tebessüm', 'acı bir çığlık') yapılan anlatım zenginliğine ne ad verilir?",
+          "choices": [
+            "Duyu aktarımı",
+            "Benzetme edatı",
+            "Abartma (Mübalağa)",
+            "Tekrir"
+          ],
+          "correctAnswer": "Duyu aktarımı",
+          "explanation": "Bir duyuya ait kavramın başka bir duyu alanına aktarılmasına (tatma duyusunun işitmeye aktarılması vb.) duyu aktarımı denir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "1244f8e62d53736f"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "stableKey": "mat9_quiz_topic_18_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "18.1-Q",
+  "orderKey": 1500,
+  "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top18_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sürekli nicel verilerin belirli aralıklara bölünerek bitişik sütunlar halinde gösterildiği grafik türü hangisidir?",
+          "choices": [
+            "Histogram",
+            "Daire Grafiği",
+            "Çizgi Grafiği",
+            "Serpilme Grafiği"
+          ],
+          "correctAnswer": "Histogram",
+          "explanation": "Sürekli verilerin sınıf aralıklarına göre frekans dağılımı histogram grafiği ile gösterilir."
+        },
+        {
+          "id": "q_mat9_top18_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir veri grubunun standart sapmasının küçük olması neyi gösterir?",
+          "choices": [
+            "Verilerin ortalamaya yakın, tutarlı ve homojen olduğunu",
+            "Verilerin birbirinden çok farklı olduğunu",
+            "Veri sayısının çok az olduğunu",
+            "Aritmetik ortalamanın sıfır olduğunu"
+          ],
+          "correctAnswer": "Verilerin ortalamaya yakın, tutarlı ve homojen olduğunu",
+          "explanation": "Düşük standart sapma verilerin ortalama etrafında toplandığını ve homojen bir dağılım olduğunu gösterir."
+        },
+        {
+          "id": "q_mat9_top18_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kutu grafiği (Box plot); en küçük değer, alt çeyrek (Q1), medyan (Q2), üst çeyrek (Q3) ve en büyük değer olmak üzere 5 değerli özet sunar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Kutu grafiği verilerin dağılımını, çeyreklerini ve olası aykırı değerlerini bu 5 değerle özetler."
+        },
+        {
+          "id": "q_mat9_top18_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir bütünün parçalarını ve oransal dağılımını görselleştirmek için en uygun grafik daire grafiğidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Daire grafiği yüzdelik ve açısal oranları (bütünün dilimlerini) göstermede etkilidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

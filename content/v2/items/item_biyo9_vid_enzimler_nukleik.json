@@ -7,16 +7,19 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L60",
       "sourceSection": "Enzimler ve Nükleik Asitler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "90fcf5e5109d9a94"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "90fcf5e5109d9a94",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "reviewedOverride": true
+    },
+    "provider": "Dr. Biyoloji"
   }
 }

@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_12_uhrzeiten__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_12_uhrzeiten",
+  "stableKey": "alm9_quiz_topic_12_uhrzeiten_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1500,
+  "title": "Uhrzeiten Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Uhrzeiten Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top12_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Almancada \"Saat kaç?\" diye sormak için hangi iki kalıp kullanılır?",
+          "choices": [
+            "\"Wie spät ist es?\" ve \"Wie viel Uhr ist es?\"",
+            "\"Wie alt bist du?\" ve \"Wie geht es dir?\"",
+            "\"Wann kommst du?\" ve \"Wo bist du?\"",
+            "\"Wie viel kostet das?\" ve \"Wie lange dauert es?\""
+          ],
+          "correctAnswer": "\"Wie spät ist es?\" ve \"Wie viel Uhr ist es?\"",
+          "explanation": "Saat sormak için standart olarak \"Wie spät ist es?\" veya \"Wie viel Uhr ist es?\" kullanılır."
+        },
+        {
+          "id": "q_alm9_top12_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Günlük konuşma dilinde \"Es ist halb vier.\" saat kaçı belirtir?",
+          "choices": [
+            "03:30 (Saat 3 buçuk / Dörde yarım var)",
+            "04:30 (Saat 4 buçuk)",
+            "03:15 (Üçü çeyrek geçiyor)",
+            "04:15 (Dördü çeyrek geçiyor)"
+          ],
+          "correctAnswer": "03:30 (Saat 3 buçuk / Dörde yarım var)",
+          "explanation": "Almancada \"halb [sayı]\" bir sonraki saate yarım saat kaldığını gösterir: \"halb vier\" = 03:30 (üç buçuk)."
+        },
+        {
+          "id": "q_alm9_top12_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada \"nach\" (geçe) ve \"vor\" (kala) kelimeleridir; dolayısıyla \"Viertel nach acht\" saat 08:15 demektir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "das Viertel = çeyrek, nach = geçe. \"Viertel nach acht\" = 8'i çeyrek geçe (08:15)."
+        },
+        {
+          "id": "q_alm9_top12_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Saat \"10'a 10 var\" (09:50) demek için hangi Almanca ifade söylenmelidir?",
+          "choices": [
+            "Es ist zehn vor zehn.",
+            "Es ist zehn nach zehn.",
+            "Es ist halb zehn.",
+            "Es ist zehn Uhr zehn."
+          ],
+          "correctAnswer": "Es ist zehn vor zehn.",
+          "explanation": "zehn (10) vor (kala) zehn (10) = Ona 10 var (09:50)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_12_uhrzeiten",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "837c4e0a0bd574c9",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "12d7fb4b1eae299d"
+    }
+  }
+}

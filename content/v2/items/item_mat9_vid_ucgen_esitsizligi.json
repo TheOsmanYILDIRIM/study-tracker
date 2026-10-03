@@ -7,7 +7,7 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
-  "contentUrl": null,
+  "contentUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
   "publishingStatus": "draft",
   "payload": {
     "provenance": {
@@ -17,6 +17,7 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "8d096350f5994c96"
-    }
+    },
+    "provider": "Rehber Matematik"
   }
 }

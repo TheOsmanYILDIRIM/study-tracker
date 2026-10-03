@@ -5,7 +5,8 @@
   "title": "İklim Türleri",
   "orderKey": 9000,
   "items": [
-    "item_cog9_vid_topic_09_iklim_turleri"
+    "item_cog9_vid_topic_09_iklim_turleri",
+    "item_cog9_vid_topic_09_iklim_turleri__quiz"
   ],
   "sourceMeta": {
     "weeks": [

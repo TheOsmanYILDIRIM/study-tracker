@@ -7,10 +7,10 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Meschemy Kimya",
     "topic": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,7 +25,8 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "50d646c2d6e8f6e7",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
     }
   }
 }

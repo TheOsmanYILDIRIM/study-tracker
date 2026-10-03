@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_ucgen_esitsizligi__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_ucgende_acilar_kenarlar",
+  "stableKey": "mat9_quiz_ucgen_esitsizligi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.2-Q",
+  "orderKey": 2500,
+  "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_ucgesit_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki kenar uzunluğu 5 cm ve 8 cm olan bir üçgenin üçüncü kenarı x in alabileceği tam sayı değer aralığı nedir?",
+          "choices": [
+            "3 < x < 13",
+            "5 < x < 8",
+            "3 ≤ x ≤ 13",
+            "8 < x < 13"
+          ],
+          "correctAnswer": "3 < x < 13",
+          "explanation": "Üçgen eşitsizliğine göre |8 - 5| < x < 8 + 5 ⇒ 3 < x < 13 olur."
+        },
+        {
+          "id": "q_mat9_ucgesit_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir ABC üçgeninde m(A) > m(B) > m(C) olduğuna göre kenar uzunlukları (a, b, c) arasındaki ilişki nasıldır?",
+          "choices": [
+            "a > b > c",
+            "c > b > a",
+            "b > a > c",
+            "a = b = c"
+          ],
+          "correctAnswer": "a > b > c",
+          "explanation": "Bir üçgende büyük açı karşısında büyük kenar, küçük açı karşısında küçük kenar bulunur."
+        },
+        {
+          "id": "q_mat9_ucgesit_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Kenar uzunlukları 3 cm, 4 cm ve 7 cm olan bir üçgen çizilebilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "3 + 4 = 7 olup üçüncü kenardan büyük değildir (üçgen eşitsizliği sağlanmaz)."
+        },
+        {
+          "id": "q_mat9_ucgesit_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir dik üçgende hipotenüsün uzunluğu daima dik kenarların her birinden daha büyüktür.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "En büyük açı 90° olduğundan karşısındaki hipotenüs en uzun kenardır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_ucgen_esitsizligi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

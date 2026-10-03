@@ -1,0 +1,84 @@
+{
+  "id": "item_tar9_vid_orta_cag_gocler_devletler__quiz",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+  "stableKey": "tar9_quiz_orta_cag_gocler_devletler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Kavimler Göçü ve Orta Çağ Devletleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kavimler Göçü ve Orta Çağ Devletleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tar9_ogd_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kavimler Göçü sonrasında Batı Avrupa'da kurulan Germen krallıkları arasında en kalıcı yapıyı kuran ve Şarlman döneminde imparatorluk haline gelen devlet hangisidir?",
+          "choices": [
+            "Frank Krallığı",
+            "Vizigot Krallığı",
+            "Vandal Krallığı",
+            "Burgond Krallığı"
+          ],
+          "correctAnswer": "Frank Krallığı",
+          "explanation": "Franklar, Hristiyanlığı kabul edip Papalık ile ittifak kurarak Batı Avrupa'da Kutsal Roma-Cermen İmparatorluğu'nun temellerini atmıştır."
+        },
+        {
+          "id": "q_tar9_ogd_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bizans İmparatoru I. Justinianus tarafından Roma hukuk kurallarının derlenip sistemleştirilmesiyle hazırlanan ve modern medeni hukuka temel olan kanun külliyatı hangisidir?",
+          "choices": [
+            "Justinianus Kanunları (Corpus Iuris Civilis)",
+            "12 Levha Kanunları",
+            "Hammurabi Kanunları",
+            "Cengiz Han Yasaları"
+          ],
+          "correctAnswer": "Justinianus Kanunları (Corpus Iuris Civilis)",
+          "explanation": "Justinianus Kanunları, Roma hukukunu Hristiyanlık esaslarıyla harmanlayıp kamu ve özel hukuk alanında çağının en kapsamlı kanunnamesi haline getirmiştir."
+        },
+        {
+          "id": "q_tar9_ogd_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Feodal düzende toprağın mülkiyetine ve hiçbir kişisel hürriyete sahip olmayan, toprakla birlikte alınıp satılan köylülere \"Serf\" denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Serfler feodalitenin en ezilen sınıfıdır; toprağı terk edemez ve lordun izni olmadan evlenemezlerdi."
+        },
+        {
+          "id": "q_tar9_ogd_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Dört Halife Dönemi'nde halifelerin belirlenmesinde istişare ve biat yönteminin kullanılması nedeniyle bu döneme tarihçiler tarafından ne ad verilmiştir?",
+          "choices": [
+            "Cumhuriyet Dönemi",
+            "Saltanat Dönemi",
+            "Meşrutiyet Dönemi",
+            "Feodal Dönem"
+          ],
+          "correctAnswer": "Cumhuriyet Dönemi",
+          "explanation": "Dört Halife döneminde devlet başkanları veraset/babadan oğula usulüyle değil, ileri gelenlerin seçimi ve halkın biatıyla başa geçtiği için Cumhuriyet Dönemi olarak anılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tar9_vid_orta_cag_gocler_devletler",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "1b85ce56f62371b5"
+    }
+  }
+}

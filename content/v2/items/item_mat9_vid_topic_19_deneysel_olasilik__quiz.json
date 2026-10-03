@@ -1,0 +1,82 @@
+{
+  "id": "item_mat9_vid_topic_19_deneysel_olasilik__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_19_deneysel_olasilik",
+  "stableKey": "mat9_quiz_topic_19_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "19.1-Q",
+  "orderKey": 1500,
+  "title": "Deneysel Olasılık Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Deneysel Olasılık Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_top19_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir madeni para 100 kez havaya atılmış ve 58 kez tura gelmiştir. Bu deneyde tura gelme olayının deneysel olasılığı kaçtır?",
+          "choices": [
+            "%58 (0,58)",
+            "%50 (0,50)",
+            "%42 (0,42)",
+            "1/2"
+          ],
+          "correctAnswer": "%58 (0,58)",
+          "explanation": "Deneysel olasılık = (İstenen sonucun gerçekleşme sayısı) / (Toplam deneme sayısı) = 58 / 100 = 0,58 dir."
+        },
+        {
+          "id": "q_mat9_top19_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Deney sayısı sonsuza yaklaştıkça veya çok büyük değerlere ulaştıkça deneysel olasılık hangi değere yaklaşır?",
+          "choices": [
+            "Teorik Olasılık değerine (Büyük Sayılar Yasası)",
+            "Daima 1 değerine",
+            "Daima 0 değerine",
+            "Sonsuza"
+          ],
+          "correctAnswer": "Teorik Olasılık değerine (Büyük Sayılar Yasası)",
+          "explanation": "Büyük Sayılar Yasası gereği deneme sayısı arttıkça deneysel frekans teorik olasılık değerine yakınsar."
+        },
+        {
+          "id": "q_mat9_top19_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Deneysel olasılık yapılan gerçek deneme ve gözlemlere dayanırken, teorik olasılık tüm olası durumların sayısına dayalı matematiksel hesaplamadır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Deneysel olasılık gözlemle, teorik olasılık ise matematiksel eşit olasılık modeliyle bulunur."
+        },
+        {
+          "id": "q_mat9_top19_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Herhangi bir E olayının olasılığı P(E) her zaman 0 ile 1 aralığındadır (0 ≤ P(E) ≤ 1).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Olasılık değeri negatif olamaz ve 1 den (yüzde yüzden) büyük olamaz."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_topic_19_deneysel_olasilik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+      "transcriptLanguage": "tr",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "schemaVersion": "v2"
+    }
+  }
+}

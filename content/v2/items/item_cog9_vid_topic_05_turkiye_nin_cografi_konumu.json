@@ -31,7 +31,12 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.tr.vtt",
-      "transcriptFingerprint": "b0e60d4115d77a24"
+      "transcriptFingerprint": "b0e60d4115d77a24",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

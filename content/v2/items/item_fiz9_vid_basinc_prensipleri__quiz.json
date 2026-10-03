@@ -1,0 +1,87 @@
+{
+  "id": "item_fiz9_vid_basinc_prensipleri__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+  "stableKey": "fiz9_quiz_basinc_prensipleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "12.1-Q",
+  "orderKey": 1200,
+  "title": "Açık Hava ve Gaz Basıncı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Açık Hava ve Gaz Basıncı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_gazbas_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Deniz seviyesinde ve 0 °C sıcaklıkta açık hava basıncını ilk kez cıvalı barometre ile ölçen ve P0 = 76 cm-Hg değerini bulan bilim insanı kimdir?",
+          "choices": [
+            "Evangelista Torricelli",
+            "Blaise Pascal",
+            "Daniel Bernoulli",
+            "Archimedes (Arşimet)"
+          ],
+          "correctAnswer": "Evangelista Torricelli",
+          "explanation": "Torricelli, 1 metre boyundaki cıva dolu boruyla açık hava basıncının 76 cm cıva sütununun basıncına eşit olduğunu kanıtlamıştır."
+        },
+        {
+          "id": "q_fiz9_gazbas_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Deniz seviyesinden yukarılara (dağlara) doğru çıkıldıkça atmosferin yoğunluğu ve üzerimizdeki hava tabakasının kalınlığı azaldığı için açık hava basıncı azalır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Yükseklere çıkıldıkça hava moleküllerinin yoğunluğu ve ağırlığı azaldığından açık hava basıncı düşer (her 10,5 metrede yaklaşık 1 mmHg)."
+        },
+        {
+          "id": "q_fiz9_gazbas_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Açık hava basıncını ölçen alete \"Barometre\" denirken, kapalı kaplardaki gaz basıncını ölçen alete ne ad verilir?",
+          "choices": [
+            "Manometre",
+            "Altimetre",
+            "Batimetre",
+            "Dinamometre"
+          ],
+          "correctAnswer": "Manometre",
+          "explanation": "Kapalı kaplardaki gazların basıncını ölçmek için manometreler kullanılır."
+        },
+        {
+          "id": "q_fiz9_gazbas_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İdeal bir gazın sıcaklığı sabit tutulurken hacmi yarıya indirilirse gaz basıncı nasıl değişir? (P·V = sabit)",
+          "choices": [
+            "2 katına çıkar",
+            "Yarıya iner",
+            "Değişmez",
+            "4 katına çıkar"
+          ],
+          "correctAnswer": "2 katına çıkar",
+          "explanation": "Boyle-Mariotte yasasına göre sıcaklık sabitken basınç ile hacim ters orantılıdır: P1·V1 = P2·V2 => Hacim yarıya inerse basınç 2 katına çıkar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_basinc_prensipleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T20:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "51f864878ab87ddf"
+    }
+  }
+}

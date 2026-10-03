@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_kendini_tanitma__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_quiz_kendini_tanitma_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.2-Q",
+  "orderKey": 2500,
+  "title": "Kendini Tanıtma ve Hal-Hatır Sorma Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kendini Tanıtma ve Hal-Hatır Sorma Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_tanit_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Wie geht es dir?\" (Nasılsın?) sorusuna \"İyiyim, teşekkürler.\" şeklinde yanıt veren bir kişi hangisini söyler?",
+          "choices": [
+            "Danke, mir geht es gut.",
+            "Ich heiße Murat.",
+            "Ich komme aus Izmir.",
+            "Ich bin 15 Jahre alt."
+          ],
+          "correctAnswer": "Danke, mir geht es gut.",
+          "explanation": "Hal-hatır sorulduğunda \"Danke, mir geht es gut.\" (Teşekkürler, iyiyim) veya kısaca \"Danke, gut.\" denir."
+        },
+        {
+          "id": "q_alm9_tanit_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"heißen\" (adı olmak) fiilinin \"ich\" (ben) ve \"du\" (sen) zamirlerine göre şimdiki zaman çekimi hangisinde doğru verilmiştir?",
+          "choices": [
+            "ich heiße / du heißt",
+            "ich heiße / du heißest",
+            "ich heißt / du heiße",
+            "ich heisse / du heisstet"
+          ],
+          "correctAnswer": "ich heiße / du heißt",
+          "explanation": "heißen fiili: ich heiße, du heißt (kök -ß ile bittiği için sadece -t eki alır), er/sie/es heißt."
+        },
+        {
+          "id": "q_alm9_tanit_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "\"Wer bist du?\" sorusuna verilecek doğal ve doğru bir yanıt \"Ich bin Can.\" cümlesidir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Wer bist du?\" (Sen kimsin?) sorusuna \"sein\" (olmak) fiiliyle \"Ich bin [İsim]\" şeklinde yanıt verilir."
+        },
+        {
+          "id": "q_alm9_tanit_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Resmi bir konuşmada tanımadığımız bir büyüğe \"Nasılsınız?\" diye sormak için hangi kalıp kullanılır?",
+          "choices": [
+            "Wie geht es Ihnen?",
+            "Wie geht es dir?",
+            "Wie geht's?",
+            "Wer sind Sie?"
+          ],
+          "correctAnswer": "Wie geht es Ihnen?",
+          "explanation": "Resmi nezaket zamiri \"Sie\" için hal-hatır kalıbı \"Wie geht es Ihnen?\" (Nasılsınız?) şeklindedir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_kendini_tanitma",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "9fcabfdd7bf13584",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "e477067137f66f91"
+    }
+  }
+}

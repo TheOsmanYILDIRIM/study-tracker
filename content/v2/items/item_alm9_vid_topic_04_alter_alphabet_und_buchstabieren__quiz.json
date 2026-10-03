@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_04_alter_alphabet_und_buchstabieren",
+  "stableKey": "alm9_quiz_topic_04_alter_alphabet_und_buchstabieren_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Alter, Alphabet und Buchstabieren Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Alter, Alphabet und Buchstabieren Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_top4_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Wie alt bist du?\" (Kaç yaşındasın?) sorusuna 15 yaşında olduğunu söylemek isteyen bir öğrenci hangi cümleyi kurmalıdır?",
+          "choices": [
+            "Ich bin fünfzehn Jahre alt.",
+            "Ich habe fünfzehn Jahre alt.",
+            "Ich heiße fünfzehn.",
+            "Ich komme aus fünfzehn."
+          ],
+          "correctAnswer": "Ich bin fünfzehn Jahre alt.",
+          "explanation": "Almancada yaş bildirmek için \"sein\" fiili kullanılır: \"Ich bin ... Jahre alt.\""
+        },
+        {
+          "id": "q_alm9_top4_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir ismin veya kelimenin harflerini tek tek hecelemek/kodlamak anlamına gelen Almanca fiil hangisidir?",
+          "choices": [
+            "buchstabieren",
+            "schreiben",
+            "lesen",
+            "sprechen"
+          ],
+          "correctAnswer": "buchstabieren",
+          "explanation": "\"buchstabieren\" harf harf kodlamak (hecelemek) demektir."
+        },
+        {
+          "id": "q_alm9_top4_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Almancada \"ä\", \"ö\", \"ü\" harflerine nokta işaretleri sebebiyle \"Umlaut\" (ünlü değişimi / incelmesi) adı verilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Alman alfabesinde noktalı sesli harfler (ä, ö, ü) \"die Umlaute\" olarak adlandırılır."
+        },
+        {
+          "id": "q_alm9_top4_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Buchstabiere bitte deinen Vornamen!\" yönergesi öğrenciden ne yapmasını istemektedir?",
+          "choices": [
+            "Lütfen adını harf harf kodla / hecele!",
+            "Lütfen soyadını yaz!",
+            "Lütfen yaşını söyle!",
+            "Lütfen telefon numaranı ver!"
+          ],
+          "correctAnswer": "Lütfen adını harf harf kodla / hecele!",
+          "explanation": "Der Vorname (ad) ve buchstabieren (harf harf söylemek) birleştiğinde adın hecelenmesi istenir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "00e90e134969d61b",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "14d69339b3568c38"
+    }
+  }
+}

@@ -5,7 +5,8 @@
   "title": "Schulsachen",
   "orderKey": 5000,
   "items": [
-    "item_alm9_vid_topic_05_schulsachen"
+    "item_alm9_vid_topic_05_schulsachen",
+    "item_alm9_vid_topic_05_schulsachen__quiz"
   ],
   "sourceMeta": {
     "weeks": [

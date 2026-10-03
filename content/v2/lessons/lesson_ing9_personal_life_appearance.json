@@ -6,6 +6,7 @@
   "orderKey": 3000,
   "items": [
     "item_ing9_vid_appearance_personality",
+    "item_ing9_vid_appearance_personality__quiz",
     "item_ing9_quiz_appearance_personality"
   ],
   "sourceMeta": {

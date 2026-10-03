@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Freizeit und Aktivitäten",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Almanca Kolay & MEB Maarif Modeli",
     "topic": "Freizeit und Aktivitäten",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,6 +30,8 @@
       "videoCandidateTitle": null,
       "fingerprint": "213d0fa320eab97e",
       "schemaVersion": "v2"
-    }
+    },
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

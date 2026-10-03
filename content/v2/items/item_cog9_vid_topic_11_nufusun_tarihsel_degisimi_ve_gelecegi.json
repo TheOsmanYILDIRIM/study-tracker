@@ -7,8 +7,8 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Nüfusun Tarihsel Değişimi ve Geleceği",
@@ -22,11 +22,17 @@
       "sourceTopic": [
         "Nüfusun Tarihsel Değişimi ve Geleceği"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "c1d387e435963950",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

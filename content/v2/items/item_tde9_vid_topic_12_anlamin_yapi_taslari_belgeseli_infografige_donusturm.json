@@ -7,8 +7,8 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provider": null,
     "topic": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
@@ -25,11 +25,12 @@
         "YAZMA • • Belgeseli infografik metne dönüştürebilme",
         "YAZMA • • Belgeseli infografik metne dönüştürebilme • OKUL TEMELLİ PLANLAMA*"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "d002cc935d09c7d4",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
     }
   }
 }

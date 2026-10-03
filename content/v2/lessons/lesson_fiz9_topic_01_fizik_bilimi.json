@@ -5,7 +5,8 @@
   "title": "Fizik Bilimi",
   "orderKey": 1000,
   "items": [
-    "item_fiz9_vid_topic_01_fizik_bilimi"
+    "item_fiz9_vid_topic_01_fizik_bilimi",
+    "item_fiz9_vid_topic_01_fizik_bilimi__quiz"
   ],
   "sourceMeta": {
     "weeks": [

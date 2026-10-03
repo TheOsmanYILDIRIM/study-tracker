@@ -7,10 +7,10 @@
   "displayLabel": "15.1",
   "orderKey": 1000,
   "title": "Sıvılar ve Özellikleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Kimyanın Kimyası",
     "topic": "Sıvılar ve Özellikleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -32,7 +32,8 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f313b0e4edef204d",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo"
     }
   }
 }

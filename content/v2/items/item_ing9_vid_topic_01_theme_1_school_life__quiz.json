@@ -1,0 +1,87 @@
+{
+  "id": "item_ing9_vid_topic_01_theme_1_school_life__quiz",
+  "courseId": "course_ing_9",
+  "lessonId": "lesson_ing9_topic_01_theme_1_school_life",
+  "stableKey": "ing9_quiz_topic_01_theme_1_school_life_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Theme 1: School Life Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Theme 1: School Life Mikro Testi",
+      "questions": [
+        {
+          "id": "q_ing9_top01_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdaki ülke - milliyet (Country - Nationality) eşleştirmelerinden hangisi DOĞRUDUR?",
+          "choices": [
+            "Germany - German",
+            "Japan - Japanish",
+            "France - Francese",
+            "Spain - Spainese"
+          ],
+          "correctAnswer": "Germany - German",
+          "explanation": "İngilizcede ülke-milliyet eşleştirmelerinde Germany (Almanya) için milliyet \"German\" (Alman) şeklindedir. Japan için \"Japanese\", France için \"French\", Spain için \"Spanish\" kullanılır."
+        },
+        {
+          "id": "q_ing9_top01_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "Bir kişinin hangi dilleri konuşabildiğini sormak için \"Which languages can you speak?\" soru kalıbı kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "\"Which languages can you speak?\" (Hangi dilleri konuşabiliyorsun?) kalıbı, yetenek ve dil bilgisini sorgulayan doğru ve standart bir ifadedir."
+        },
+        {
+          "id": "q_ing9_top01_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Where are you from?\" sorusuna verilebilecek en uygun ve dil bilgisi açısından doğru yanıt hangisidir?",
+          "choices": [
+            "I am from Türkiye.",
+            "I am from Turkish.",
+            "I live from Ankara.",
+            "I from Turkey am."
+          ],
+          "correctAnswer": "I am from Türkiye.",
+          "explanation": "\"Where are you from?\" (Nerelisin?) sorusuna \"I am from + [Ülke Adı]\" yapısıyla yanıt verilir. \"Turkish\" milliyet olduğundan \"I am from Turkey/Türkiye\" doğru kullanımdır."
+        },
+        {
+          "id": "q_ing9_top01_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Haftalık okul ders programını belirten ve derslerin gün ile saatlerini gösteren çizelgeye İngilizcede ne ad verilir?",
+          "choices": [
+            "Timetable",
+            "Scoreboard",
+            "Receipt",
+            "Ticket"
+          ],
+          "correctAnswer": "Timetable",
+          "explanation": "Okullarda haftalık ders programı veya zaman çizelgesi için \"timetable\" (veya schedule) sözcüğü kullanılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_ing9_vid_topic_01_theme_1_school_life",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "generatedBy": "maarif_author",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-02T12:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "39ba575b8dc72e1b"
+    }
+  }
+}

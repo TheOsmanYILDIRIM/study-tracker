@@ -1,0 +1,88 @@
+{
+  "id": "item_alm9_vid_ulkeler_diller__quiz",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_modul1_hallo",
+  "stableKey": "alm9_quiz_ulkeler_diller_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.4-Q",
+  "orderKey": 4500,
+  "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Ülkeler, Diller ve Nereli Olduğunu Söyleme Mikro Testi",
+      "questions": [
+        {
+          "id": "q_alm9_ulk_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Woher kommst du?\" sorusuna Türkiye'den geldiğini belirten doğru cümle hangisidir?",
+          "choices": [
+            "Ich komme aus der Türkei.",
+            "Ich komme Türkei.",
+            "Ich wohne in der Türkei.",
+            "Ich spreche Türkei."
+          ],
+          "correctAnswer": "Ich komme aus der Türkei.",
+          "explanation": "Türkiye artikelli bir ülke olduğu için (die Türkei), \"aus\" edatıyla \"aus der Türkei\" şeklinde kullanılır."
+        },
+        {
+          "id": "q_alm9_ulk_2",
+          "questionIndex": 1,
+          "type": "TRUE_FALSE",
+          "prompt": "\"sprechen\" (konuşmak) fiili düzensizdir ve \"du\" çekiminde kökteki \"e\" harfi \"i\"ye dönüşerek \"du sprichst\" olur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "sprechen çekimi: ich spreche, du sprichst, er/sie/es spricht, wir sprechen, ihr sprecht, sie/Sie sprechen."
+        },
+        {
+          "id": "q_alm9_ulk_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "\"Ich spreche Deutsch und Türkisch.\" cümlesi Türkçeye nasıl çevrilir?",
+          "choices": [
+            "Almanca ve Türkçe konuşuyorum.",
+            "Almanya ve Türkiye'ye gidiyorum.",
+            "Almanya'da ve Türkiye'de yaşıyorum.",
+            "Almanca ve Türkçe öğrenmek istemiyorum."
+          ],
+          "correctAnswer": "Almanca ve Türkçe konuşuyorum.",
+          "explanation": "\"Ich spreche...\" (Konuşuyorum), Deutsch (Almanca) und (ve) Türkisch (Türkçe)."
+        },
+        {
+          "id": "q_alm9_ulk_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir kişinin nerede ikamet ettiğini / yaşadığı şehri sormak için hangi soru kalıbı kullanılır?",
+          "choices": [
+            "Wo wohnst du?",
+            "Woher kommst du?",
+            "Wohin gehst du?",
+            "Wer bist du?"
+          ],
+          "correctAnswer": "Wo wohnst du?",
+          "explanation": "\"Wo wohnst du?\" nerede yaşadığını sorar ve \"Ich wohne in...\" (örn: Ich wohne in Istanbul) kalıbıyla cevaplanır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_alm9_vid_ulkeler_diller",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "curriculum_grounded",
+      "transcriptFingerprint": "a225c2b5fb7b717e",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "5a3a147241f7589b"
+    }
+  }
+}

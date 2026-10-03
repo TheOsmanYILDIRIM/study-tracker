@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_afet_yonetimi__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+  "stableKey": "cog9_quiz_afet_turleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.2-Q",
+  "orderKey": 2500,
+  "title": "Doğal Afet Türleri ve Korunma Yolları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Doğal Afet Türleri ve Korunma Yolları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_aftur_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kökeni doğrudan yer kabuğundaki tektonik hareketlere, levha sınırlarına ve volkanizmaya dayanan \"Jeolojik Afetler\" hangi seçenekte bir arada verilmiştir?",
+          "choices": [
+            "Deprem, Tsunami, Volkanik Patlama",
+            "Kasırga, Hortum, Kuraklık",
+            "Çığ, Sel, Aşırı Kar Yağışı",
+            "Orman Yangını, Salgın Hastalık, Asit Yağmuru"
+          ],
+          "correctAnswer": "Deprem, Tsunami, Volkanik Patlama",
+          "explanation": "Deprem, tsunami ve volkanizma enerjisini yerin derinliklerinden (manto/iç kuvvetler) alan jeolojik afetlerdir."
+        },
+        {
+          "id": "q_cog9_aftur_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Eğimli yamaçlarda killi toprak tabakasının aşırı yağış veya kar erimesiyle suya doygun hale gelerek ana kaya üzerinden aşağı doğru kütlece kaymasına ne ad verilir?",
+          "choices": [
+            "Heyelan (Kütle Hareketi)",
+            "Erozyon",
+            "Çığ",
+            "Alüvyon birikmesi"
+          ],
+          "correctAnswer": "Heyelan (Kütle Hareketi)",
+          "explanation": "Heyelanda kil tabakası kayganlaşır ve kütle halinde kayar; en çok ilkbaharda bol yağış alan eğimli Karadeniz yamaçlarında görülür."
+        },
+        {
+          "id": "q_cog9_aftur_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Erozyon ile Heyelan aynı kavramlar değildir; erozyon toprağın üst verimli kısmının rüzgâr ve akarsularla yavaş yavaş süpürülmesiyken, heyelan anlık büyük kütle kaymasıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Erozyon sinsi ve uzun süreli bir çölleşme sürecidir; heyelan ise saniyeler içinde gerçekleşen yıkıcı bir kütle hareketidir."
+        },
+        {
+          "id": "q_cog9_aftur_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tropikal kuşakta okyanuslar üzerinde su sıcaklığının 27°C'yi aştığı alanlarda oluşan ve saatteki hızı 120 km'yi aşan dönen dev fırtınalara ne ad verilir?",
+          "choices": [
+            "Tropikal Siklon (Kasırga / Tayfun / Hurrikan)",
+            "Meltem Rüzgârı",
+            "Föhn Rüzgârı",
+            "Sirokko Rüzgârı"
+          ],
+          "correctAnswer": "Tropikal Siklon (Kasırga / Tayfun / Hurrikan)",
+          "explanation": "Tropikal siklonlar Atlas Okyanusu'nda Hurrikan, Pasifik'te Tayfun, Hint Okyanusu'nda Siklon olarak adlandırılır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_afet_yonetimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -7,8 +7,8 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,14 @@
       "sourceSection": "Doğal Afetler ve Çevre",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "53a3486c1bec7ce8"
+      "reviewStatus": "verified",
+      "fingerprint": "53a3486c1bec7ce8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "reviewedOverride": true
+    },
+    "video": {
+      "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "provider": "Coğrafyanın Kodları"
     }
   }
 }

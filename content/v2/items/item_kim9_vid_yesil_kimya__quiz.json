@@ -1,0 +1,85 @@
+{
+  "id": "item_kim9_vid_yesil_kimya__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+  "stableKey": "kim9_quiz_yesil_kimya_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "17.2-Q",
+  "orderKey": 2500,
+  "title": "Yeşil Kimya ve Sürdürülebilirlik Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Yeşil Kimya ve Sürdürülebilirlik Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_yesil_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yeşil Kimyanın (Green Chemistry) 12 temel ilkesinden ilki ve en önemlisi olan prensip hangisidir?",
+          "choices": [
+            "Atıkların Oluşumunu Önleme (Prevention)",
+            "Tüm kimyasalların üretimini durdurma",
+            "Fosil yakıt tüketimini iki katına çıkarma",
+            "Atıkları denizlere deşarj etme"
+          ],
+          "correctAnswer": "Atıkların Oluşumunu Önleme (Prevention)",
+          "explanation": "Yeşil kimyanın bir numaralı kuralı \"Atığı oluştuktan sonra temizlemek yerine en baştan oluşmasını engellemek\"tir."
+        },
+        {
+          "id": "q_kim9_yesil_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kimyasal tepkimelerde reaksiyona giren tüm başlangıç atomlarının hedeflenen nihai üründe bulunma oranına ne ad verilir?",
+          "choices": [
+            "Atom Ekonomisi",
+            "Yüzde Verim",
+            "Viskozite İndeksi",
+            "Reaksiyon Entalpisi"
+          ],
+          "correctAnswer": "Atom Ekonomisi",
+          "explanation": "Yüksek atom ekonomisi, yan ürün veya atık oluşturmadan başlangıç maddelerinin tamamının hedeflenen ürüne dönüşmesini hedefler."
+        },
+        {
+          "id": "q_kim9_yesil_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Yeşil kimya, zehirli organik çözücüler yerine su, süperkritik CO₂ gibi çevre dostu çözücülerin ve yenilenebilir hammaddelerin kullanılmasını teşvik eder.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Toksik uçucu organik çözücülerin ikame edilmesi yeşil kimyanın temel amaçlarındandır."
+        },
+        {
+          "id": "q_kim9_yesil_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kimyasal süreçlerde enerji tüketimini azaltmak için oda sıcaklığı ve basıncında çalışan enzim/katalizörlerin kullanılması yeşil kimya ilkeleriyle uyumludur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Katalitik süreçler enerji tüketimini düşürerek ekolojik ayak izini azaltır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_yesil_kimya",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T21:00:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "58176f3862b2b64f"
+    }
+  }
+}
