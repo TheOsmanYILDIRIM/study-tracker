@@ -1,0 +1,621 @@
+{
+  "schemaVersion": "topic-overrides-v1",
+  "courses": {
+    "Kimya": [
+      {
+        "title": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer",
+        "matches": [
+          {
+            "konu": "Kimya Hayattır"
+          },
+          {
+            "konu": "Günlük Hayatta Kimya"
+          }
+        ]
+      },
+      {
+        "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+        "matches": [
+          {
+            "konu": "Kimyasal Maddelerin Kullanımı ve Güvenlik"
+          }
+        ]
+      },
+      {
+        "title": "Atom Teorileri ve Atomun Yapısı",
+        "matches": [
+          {
+            "konu": "Atom Teorileri"
+          },
+          {
+            "konu": "Atomdan Periyodik Tabloya"
+          }
+        ]
+      },
+      {
+        "title": "Atom Orbitalleri ve Elektron Dizilimi",
+        "matches": [
+          {
+            "konu": "Atom Orbitalleri"
+          },
+          {
+            "konu": "Elektron Dizilimi"
+          }
+        ]
+      },
+      {
+        "title": "Periyodik Tabloda Yer Bulma",
+        "matches": [
+          {
+            "konu": "Periyodik Tabloda Yer Bulma"
+          }
+        ]
+      },
+      {
+        "title": "Periyodik Özellikler",
+        "matches": [
+          {
+            "konu": "Periyodik Özellikler"
+          }
+        ]
+      },
+      {
+        "title": "Metalik Bağ",
+        "matches": [
+          {
+            "konu": "Metalik Bağ"
+          }
+        ]
+      },
+      {
+        "title": "İyonik Bağ",
+        "matches": [
+          {
+            "konu": "İyonik Bağ"
+          }
+        ]
+      },
+      {
+        "title": "Kovalent Bağ",
+        "matches": [
+          {
+            "konu": "Kovalent Bağ"
+          }
+        ]
+      },
+      {
+        "title": "Lewis Nokta Yapısı",
+        "matches": [
+          {
+            "konu": "Lewis Nokta Yapısı"
+          }
+        ]
+      },
+      {
+        "title": "Molekül Polarlığı ve Apolarlığı",
+        "matches": [
+          {
+            "konu": "Molekül Polarlığı"
+          },
+          {
+            "konu": "Apolarlığı"
+          }
+        ]
+      },
+      {
+        "title": "Bileşiklerin Adlandırılması",
+        "matches": [
+          {
+            "konu": "Bileşiklerin Adlandırılması"
+          }
+        ]
+      },
+      {
+        "title": "Moleküller Arası Etkileşimler",
+        "matches": [
+          {
+            "konu": "Moleküller Arası Etkileşimler"
+          },
+          {
+            "konu": "Etkileşimden Maddeye"
+          }
+        ]
+      },
+      {
+        "title": "Katılar ve Özellikleri",
+        "matches": [
+          {
+            "konu": "Katılar ve Özellikleri"
+          }
+        ]
+      },
+      {
+        "title": "Sıvılar ve Özellikleri",
+        "matches": [
+          {
+            "konu": "Sıvılar ve Özellikleri"
+          }
+        ]
+      },
+      {
+        "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+        "matches": [
+          {
+            "konu": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik"
+          },
+          {
+            "konu": "Metal Nanoparçacıklar"
+          }
+        ]
+      },
+      {
+        "title": "Metal Nanoparçacıkların Çevresel Etkileri ve Yeşil Kimya",
+        "matches": [
+          {
+            "konu": "Metal Nanoparçacıkların Çevresel Etkileri"
+          },
+          {
+            "konu": "Yeşil Kimyanın Atık Önleme"
+          }
+        ]
+      }
+    ],
+    "Biyoloji": [
+      {
+        "title": "Biyolojinin Önemi, Dönüm Noktaları ve Bilimin Doğası",
+        "matches": [
+          {
+            "konu": "Biyolojinin Önemi"
+          }
+        ]
+      },
+      {
+        "title": "Bilimsel Araştırma Süreçleri ve Bilim Etiği",
+        "matches": [
+          {
+            "konu": "Bilimsel Araştırma Süreçleri"
+          }
+        ]
+      },
+      {
+        "title": "Canlıların Ortak Özellikleri",
+        "matches": [
+          {
+            "konu": "Canlıların Ortak Özellikleri"
+          }
+        ]
+      },
+      {
+        "title": "İnorganik Moleküller",
+        "matches": [
+          {
+            "konu": "İnorganik Moleküller"
+          }
+        ]
+      },
+      {
+        "title": "Karbonhidratlar",
+        "matches": [
+          {
+            "konu": "Karbohidratlar"
+          }
+        ]
+      },
+      {
+        "title": "Lipitler",
+        "matches": [
+          {
+            "konu": "Lipitler"
+          }
+        ]
+      },
+      {
+        "title": "Proteinler",
+        "matches": [
+          {
+            "konu": "Proteinler"
+          }
+        ]
+      },
+      {
+        "title": "Enzimler",
+        "matches": [
+          {
+            "konu": "Enzimler"
+          }
+        ]
+      },
+      {
+        "title": "Nükleik Asitler",
+        "matches": [
+          {
+            "konu": "Nükleik Asitler"
+          }
+        ]
+      },
+      {
+        "title": "Vitaminler",
+        "matches": [
+          {
+            "konu": "Vitaminler"
+          }
+        ]
+      },
+      {
+        "title": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek",
+        "matches": [
+          {
+            "konu": "Prokaryot ve Ökaryot Hücre"
+          }
+        ]
+      },
+      {
+        "title": "Hücre Zarından Madde Geçişleri",
+        "matches": [
+          {
+            "konu": "Hücre Zarından Madde Geçişleri"
+          }
+        ]
+      },
+      {
+        "title": "Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma",
+        "matches": [
+          {
+            "konu": "Sınıflandırmada Temel Yaklaşımlar"
+          }
+        ]
+      },
+      {
+        "title": "Üç Üst Âlem Sistemi ve Canlı Grupları",
+        "matches": [
+          {
+            "konu": "Üç Üst Âlem"
+          }
+        ]
+      },
+      {
+        "title": "Biyoçeşitlilik",
+        "matches": [
+          {
+            "konu": "Biyoçeşitlilik"
+          }
+        ]
+      }
+    ],
+    "TDE": [
+      {
+        "title": "Sözün İnceliği: Şiir ve Deneme Okuma-İnceleme",
+        "matches": [
+          {
+            "tema": "1.TEMA SÖZÜN İNCELİĞİ",
+            "konu": "OKUMA"
+          }
+        ]
+      },
+      {
+        "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+        "matches": [
+          {
+            "tema": "1.TEMA SÖZÜN İNCELİĞİ",
+            "konu": "YAZMA"
+          }
+        ]
+      },
+      {
+        "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+        "matches": [
+          {
+            "tema": "1.TEMA SÖZÜN İNCELİĞİ",
+            "konu": "DİNLEME"
+          }
+        ]
+      },
+      {
+        "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
+        "matches": [
+          {
+            "tema": "1.TEMA SÖZÜN İNCELİĞİ",
+            "konu": "KONUŞMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlam Arayışı: Hikâye ve Anı Okuma-İnceleme",
+        "matches": [
+          {
+            "tema": "2.TEMA ANLAM ARAYIŞI",
+            "konu": "OKUMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+        "matches": [
+          {
+            "tema": "2.TEMA ANLAM ARAYIŞI",
+            "konu": "KONUŞMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
+        "matches": [
+          {
+            "tema": "2.TEMA ANLAM ARAYIŞI",
+            "konu": "DİNLEME"
+          }
+        ]
+      },
+      {
+        "title": "Anlam Arayışı: Şiir Yazma",
+        "matches": [
+          {
+            "tema": "2.TEMA ANLAM ARAYIŞI",
+            "konu": "YAZMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı",
+        "matches": [
+          {
+            "tema": "3.TEMA ANLAMIN YAPI TAŞLARI",
+            "konu": "OKUMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
+        "matches": [
+          {
+            "tema": "3.TEMA ANLAMIN YAPI TAŞLARI",
+            "konu": "KONUŞMA"
+          }
+        ]
+      },
+      {
+        "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+        "matches": [
+          {
+            "tema": "3.TEMA ANLAMIN YAPI TAŞLARI",
+            "konu": "DİNLEME"
+          }
+        ]
+      },
+      {
+        "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+        "matches": [
+          {
+            "tema": "3.TEMA ANLAMIN YAPI TAŞLARI",
+            "konu": "YAZMA"
+          }
+        ]
+      },
+      {
+        "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
+        "matches": [
+          {
+            "tema": "4.TEMA DİLİN ZENGİNLİĞİ",
+            "konu": "OKUMA"
+          }
+        ]
+      },
+      {
+        "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
+        "matches": [
+          {
+            "tema": "4.TEMA DİLİN ZENGİNLİĞİ",
+            "konu": "KONUŞMA"
+          }
+        ]
+      },
+      {
+        "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+        "matches": [
+          {
+            "tema": "4.TEMA DİLİN ZENGİNLİĞİ",
+            "konu": "DİNLEME"
+          }
+        ]
+      },
+      {
+        "title": "Dilin Zenginliği: Otobiyografi Yazma",
+        "matches": [
+          {
+            "tema": "4.TEMA DİLİN ZENGİNLİĞİ",
+            "konu": "YAZMA"
+          }
+        ]
+      }
+    ],
+    "Almanca": [
+      {
+        "title": "Begrüßung, Verabschiedung und Landeskunde",
+        "matches": [
+          {
+            "tema": "Hallo",
+            "konu": "Landeskunde"
+          },
+          {
+            "tema": "Hallo",
+            "konu": "Wie heißt du"
+          },
+          {
+            "tema": "Hallo",
+            "konu": "wie geht"
+          }
+        ]
+      },
+      {
+        "title": "Sich vorstellen und persönliche Angaben",
+        "matches": [
+          {
+            "konu": "Wie ist dein Name"
+          },
+          {
+            "konu": "Neu hier"
+          },
+          {
+            "konu": "Wer ist das"
+          }
+        ]
+      },
+      {
+        "title": "Zahlen 0–20 und Telefonnummer",
+        "matches": [
+          {
+            "konu": "Zahlen: 0"
+          },
+          {
+            "konu": "Telefonnummer"
+          }
+        ]
+      },
+      {
+        "title": "Alter, Alphabet und Buchstabieren",
+        "matches": [
+          {
+            "konu": "Wie alt"
+          },
+          {
+            "konu": "ABC"
+          },
+          {
+            "konu": "Buchstabieren"
+          }
+        ]
+      },
+      {
+        "title": "Schulsachen",
+        "matches": [
+          {
+            "konu": "Schulsachen"
+          },
+          {
+            "konu": "Rucksäcke"
+          },
+          {
+            "konu": "ein/e, kein/e"
+          }
+        ]
+      },
+      {
+        "title": "Im Klassenzimmer",
+        "matches": [
+          {
+            "konu": "Klassenzimmer"
+          },
+          {
+            "konu": "Anweisungen in der Klasse"
+          }
+        ]
+      },
+      {
+        "title": "Schulfächer",
+        "matches": [
+          {
+            "konu": "Schulfächer"
+          }
+        ]
+      },
+      {
+        "title": "Stundenplan und Schule",
+        "matches": [
+          {
+            "konu": "Stundenplan"
+          },
+          {
+            "konu": "Wie findest du"
+          },
+          {
+            "konu": "Wie sind die Schulen"
+          }
+        ]
+      },
+      {
+        "title": "Familie und Familienmitglieder",
+        "matches": [
+          {
+            "konu": "Familie Weiß"
+          },
+          {
+            "konu": "Familienalbum"
+          },
+          {
+            "konu": "Familie Schulze"
+          },
+          {
+            "konu": "Berkes Familie"
+          },
+          {
+            "konu": "Zeynep und Ayşe"
+          }
+        ]
+      },
+      {
+        "title": "Berufe",
+        "matches": [
+          {
+            "konu": "Beruf"
+          },
+          {
+            "konu": "Traumberufe"
+          }
+        ]
+      },
+      {
+        "title": "Freizeit und Aktivitäten",
+        "matches": [
+          {
+            "konu": "Was machen die Personen"
+          },
+          {
+            "konu": "Café"
+          },
+          {
+            "konu": "Wer sagt was"
+          }
+        ]
+      },
+      {
+        "title": "Uhrzeiten",
+        "matches": [
+          {
+            "konu": "Uhrzeit"
+          },
+          {
+            "konu": "Wie spät"
+          }
+        ]
+      },
+      {
+        "title": "Tageszeiten und Tagesablauf",
+        "matches": [
+          {
+            "konu": "Tageszeiten"
+          },
+          {
+            "konu": "Tagesabläufe"
+          },
+          {
+            "konu": "Traumtag"
+          }
+        ]
+      },
+      {
+        "title": "Wochentage, Mahlzeiten und Alltag",
+        "matches": [
+          {
+            "konu": "Wochentage"
+          },
+          {
+            "konu": "Mahlzeiten"
+          },
+          {
+            "konu": "frühstück"
+          }
+        ]
+      }
+    ]
+  }
+}
