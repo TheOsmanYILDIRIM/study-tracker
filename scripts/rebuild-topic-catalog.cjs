@@ -46,7 +46,8 @@ const COURSE_CONFIG = {
   "Almanca": { id: "course_alm_9", slug: "alm9", search: "9. sınıf Almanca MEB A1", channelHints: [] }
 };
 
-const SKIP_RE = /(sınav|tatil|genel tekrar|dönem sonu|okul temelli|sosyal aktivite|sosyal etkinlik|revision|orientation)/i;
+const ADMIN_RE = /(?:sınav|tatil|genel tekrar|dönem sonu|okul temelli planlama|sosyal aktivite|sosyal etkinlik|revision|orientation)/i;
+const ADMIN_ONLY_RE = /^\s*(?:\d+\.?\s*dönem\s*)?(?:\d+\.?\s*)?(?:sınav(?:ı| haftası)?|ara tatili|yarıyıl tatili|tatil|genel tekrar|dönem sonu(?: değerlendirme)?|okul temelli planlama\*?|sosyal aktivite|sosyal etkinlik|revision\s*\d*|orientation)\s*$/i;
 const ACTIVE_STATES = new Set(["active"]);
 
 function readJson(p) { return JSON.parse(fs.readFileSync(p, "utf8")); }
@@ -71,32 +72,45 @@ function similarity(a,b) {
 }
 function sha16(s){return crypto.createHash("sha256").update(s).digest("hex").slice(0,16);}
 
+function stripAdminSegments(raw) {
+  return String(raw || "")
+    .split(/\s*[•·]\s*/)
+    .map(x => x.trim())
+    .filter(Boolean)
+    .filter(x => !ADMIN_ONLY_RE.test(x))
+    .join(" • ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function isInstructional(row) {
-  const t = [row?.tema,row?.konu,row?.tarih].filter(Boolean).join(" ");
-  if (!String(row?.konu||"").trim()) return false;
-  if (SKIP_RE.test(t)) return false;
+  const konu = stripAdminSegments(row?.konu);
+  const tema = stripAdminSegments(row?.tema);
+  if (ADMIN_ONLY_RE.test(String(row?.konu || "").trim())) return false;
+  if (ADMIN_ONLY_RE.test(String(row?.tema || "").trim()) && !konu) return false;
+  // English source legitimately carries some lesson identity primarily in tema.
+  if (!konu && !tema) return false;
   return true;
 }
 
 function cleanTopic(course,row) {
-  let k = String(row.konu||"").replace(/\s+/g," ").trim();
+  let konu = stripAdminSegments(row?.konu);
+  let tema = stripAdminSegments(row?.tema);
 
-  // Annual-plan exports occasionally concatenate the real topic with
-  // administrative rows using a bullet. Remove only the administrative
-  // segments; never discard the instructional part beside them.
-  if (course !== "TDE") {
-    const parts = k.split(/\s*[•·]\s*/).map(x => x.trim()).filter(Boolean);
-    if (parts.length > 1) {
-      const instructional = parts.filter(x => !SKIP_RE.test(x));
-      if (instructional.length) k = instructional.join(" • ");
-    }
+  if (course === "İngilizce") {
+    // Annual English rows can have an empty/administrative konu while the real
+    // instructional identity is the THEME title. Keep one lesson per real theme.
+    const themeIsReal = tema && !ADMIN_ONLY_RE.test(tema) && !ADMIN_RE.test(tema);
+    if (themeIsReal) return tema.replace(/^THEME\s*\d+\s*:\s*/i, "").trim();
   }
 
-  if (SKIP_RE.test(k) && !k.split(/\s*[•·]\s*/).some(x => x && !SKIP_RE.test(x))) return "";
+  let k = konu;
+  if (!k) return "";
 
   if (course === "Almanca") {
     k = k.replace(/(^|:)\s*Jetzt seid ihr dran!?\s*(?=:|$)/gi," ").replace(/\s*:\s*:/g,":").trim();
     k = k.replace(/^[:\s]+|[:\s]+$/g,"");
+    k = k.replace(/\bEtkinlik Haftası\b/gi,"").replace(/^[:\s]+|[:\s]+$/g,"");
   }
   return k;
 }
@@ -104,16 +118,16 @@ function cleanTopic(course,row) {
 function splitTopics(course,row) {
   const raw = cleanTopic(course,row);
   if (!raw) return [];
-  let parts = raw.split(/\s*[•·]\s*/).map(x=>x.trim()).filter(Boolean);
-  // Keep genuinely composite labels together where the source is describing one pedagogical object.
-  if (course === "TDE") {
-    parts = [raw];
-  }
-  // German book rows often use ':' as a sequence of tiny exercise prompts; keep those under one lesson.
-  if (course === "Almanca") {
-    parts = [raw];
-  }
-  return parts.filter(p => !SKIP_RE.test(p));
+
+  // Course-specific source syntax differs. Split only where bullets separate
+  // true instructional concepts; never split prose/activity lists blindly.
+  if (course === "TDE" || course === "Almanca" || course === "İngilizce") return [raw];
+
+  return raw
+    .split(/\s*[•·]\s*/)
+    .map(x => x.trim())
+    .filter(Boolean)
+    .filter(x => !ADMIN_ONLY_RE.test(x));
 }
 
 function deriveBlueprint(source) {
