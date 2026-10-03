@@ -46,7 +46,7 @@ const COURSE_CONFIG = {
   "Almanca": { id: "course_alm_9", slug: "alm9", search: "9. sınıf Almanca MEB A1", channelHints: [] }
 };
 
-const SKIP_RE = /(sınav|tatil|genel tekrar|dönem sonu|okul temelli|sosyal aktivite|revision|orientation)/i;
+const SKIP_RE = /(sınav|tatil|genel tekrar|dönem sonu|okul temelli|sosyal aktivite|sosyal etkinlik|revision|orientation)/i;
 const ACTIVE_STATES = new Set(["active"]);
 
 function readJson(p) { return JSON.parse(fs.readFileSync(p, "utf8")); }
@@ -87,6 +87,21 @@ function cleanTopic(course,row) {
   return k;
 }
 
+function splitTopics(course,row) {
+  const raw = cleanTopic(course,row);
+  if (!raw) return [];
+  let parts = raw.split(/\s*[•·]\s*/).map(x=>x.trim()).filter(Boolean);
+  // Keep genuinely composite labels together where the source is describing one pedagogical object.
+  if (course === "TDE") {
+    parts = [raw];
+  }
+  // German book rows often use ':' as a sequence of tiny exercise prompts; keep those under one lesson.
+  if (course === "Almanca") {
+    parts = [raw];
+  }
+  return parts.filter(p => !SKIP_RE.test(p));
+}
+
 function deriveBlueprint(source) {
   const out = { schemaVersion:"topic-blueprint-v1", generatedAt:new Date().toISOString(), sourcePath:source, courses:[] };
   const raw = readJson(source);
@@ -95,28 +110,28 @@ function deriveBlueprint(source) {
     const topics=[]; const byKey=new Map();
     for (const row of rows) {
       if (!isInstructional(row)) continue;
-      const title=cleanTopic(courseName,row);
-      if (!title) continue;
       const theme=String(row.tema||"").trim();
-      const key=norm(theme+"|"+title);
-      let t=byKey.get(key);
-      if(!t){
-        t={
-          courseName,
-          courseId:cfg.id,
-          courseSlug:cfg.slug,
-          ordinal:topics.length+1,
-          title,
-          theme,
-          weeks:[],
-          kazanims:[],
-          sourceTopics:[]
-        };
-        byKey.set(key,t); topics.push(t);
+      for (const title of splitTopics(courseName,row)) {
+        const key=norm(theme+"|"+title);
+        let t=byKey.get(key);
+        if(!t){
+          t={
+            courseName,
+            courseId:cfg.id,
+            courseSlug:cfg.slug,
+            ordinal:topics.length+1,
+            title,
+            theme,
+            weeks:[],
+            kazanims:[],
+            sourceTopics:[]
+          };
+          byKey.set(key,t); topics.push(t);
+        }
+        if(Number.isFinite(Number(row.hafta_no))) t.weeks.push(Number(row.hafta_no));
+        if(row.kazanim && !t.kazanims.includes(row.kazanim)) t.kazanims.push(row.kazanim);
+        if(row.konu && !t.sourceTopics.includes(row.konu)) t.sourceTopics.push(row.konu);
       }
-      if(Number.isFinite(Number(row.hafta_no))) t.weeks.push(Number(row.hafta_no));
-      if(row.kazanim && !t.kazanims.includes(row.kazanim)) t.kazanims.push(row.kazanim);
-      if(row.konu && !t.sourceTopics.includes(row.konu)) t.sourceTopics.push(row.konu);
     }
     // Merge exercise-only German fragments into the preceding same-theme lesson.
     const compact=[];
@@ -220,7 +235,7 @@ function generateCandidates(bp){
       }
       const hint=(cfg.channelHints||[])[0]||"";
       const query=[cfg.search,t.title,hint].filter(Boolean).join(" ");
-      const candidates=ytCandidates(query,5).map(x=>({...x,score:candidateScore(t,x,cfg)})).sort((a,b)=>b.score-a.score);
+      const candidates=ytCandidates(query,3).map(x=>({...x,score:candidateScore(t,x,cfg)})).sort((a,b)=>b.score-a.score);
       const top=candidates[0]||null;
       out.topics.push({courseName:c.courseName,ordinal:t.ordinal,title:t.title,query,selected:top && top.score>=3.0 ? {...top,source:"yt-dlp"} : null,candidates});
     }
