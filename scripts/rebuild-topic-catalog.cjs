@@ -80,6 +80,20 @@ function isInstructional(row) {
 
 function cleanTopic(course,row) {
   let k = String(row.konu||"").replace(/\s+/g," ").trim();
+
+  // Annual-plan exports occasionally concatenate the real topic with
+  // administrative rows using a bullet. Remove only the administrative
+  // segments; never discard the instructional part beside them.
+  if (course !== "TDE") {
+    const parts = k.split(/\s*[•·]\s*/).map(x => x.trim()).filter(Boolean);
+    if (parts.length > 1) {
+      const instructional = parts.filter(x => !SKIP_RE.test(x));
+      if (instructional.length) k = instructional.join(" • ");
+    }
+  }
+
+  if (SKIP_RE.test(k) && !k.split(/\s*[•·]\s*/).some(x => x && !SKIP_RE.test(x))) return "";
+
   if (course === "Almanca") {
     k = k.replace(/(^|:)\s*Jetzt seid ihr dran!?\s*(?=:|$)/gi," ").replace(/\s*:\s*:/g,":").trim();
     k = k.replace(/^[:\s]+|[:\s]+$/g,"");
@@ -222,11 +236,19 @@ function candidateScore(topic,c,cfg){
 }
 
 function generateCandidates(bp){
+  let cached = {topics:[]};
+  try { if (fs.existsSync(CANDIDATES)) cached = readJson(CANDIDATES); } catch {}
+  const cacheMap = new Map((cached.topics||[]).map(x => [String(x.courseName)+"#"+norm(x.title), x]));
   const out={schemaVersion:"video-candidates-v1",generatedAt:new Date().toISOString(),topics:[]};
   for(const c of bp.courses){
     const cfg=COURSE_CONFIG[c.courseName];
     const current=listCurrentCourseData(c.courseId);
     for(const t of c.topics){
+      const cachedTopic = cacheMap.get(String(c.courseName)+"#"+norm(t.title));
+      if (cachedTopic && (cachedTopic.selected || (cachedTopic.candidates||[]).length)) {
+        out.topics.push({...cachedTopic, ordinal:t.ordinal, title:t.title, courseName:c.courseName, reusedFromCache:true});
+        continue;
+      }
       const existing=(current?.items||[]).filter(i=>i.itemType==="VIDEO" && i.contentUrl);
       const bestExisting=existing.map(i=>({i,score:similarity(i.title||"",t.title)})).sort((a,b)=>b.score-a.score)[0];
       if(bestExisting && bestExisting.score>=0.45){
