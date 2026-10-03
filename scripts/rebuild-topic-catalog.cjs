@@ -29,6 +29,7 @@ const LESSONS = path.join(V2, "lessons");
 const ITEMS = path.join(V2, "items");
 const BLUEPRINT = path.join(V2, "topic-blueprint.json");
 const CANDIDATES = path.join(V2, "video-candidates.json");
+const OVERRIDES = path.join(V2, "topic-overrides.json");
 const DEFAULT_SOURCE = path.join(
   process.env.HOME || "/data/data/com.termux/files/home",
   "projects/lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json"
@@ -314,7 +315,44 @@ function deriveBlueprint(source) {
     topics.forEach((t,i)=>t.ordinal=i+1);
     out.courses.push({courseName,courseId:cfg.id,courseSlug:cfg.slug,topics});
   }
-  return out;
+  return applyTopicOverrides(out, raw);
+}
+
+function matchesOverride(row, spec) {
+  const tema = norm(stripAdminSegments(row?.tema));
+  const konu = norm(stripAdminSegments(row?.konu));
+  return (spec.matches || []).some(m => {
+    const mt = m.tema ? norm(m.tema) : "";
+    const mk = m.konu ? norm(m.konu) : "";
+    return (!mt || tema.includes(mt)) && (!mk || konu.includes(mk));
+  });
+}
+
+function applyTopicOverrides(bp, sourceRaw) {
+  if (!fs.existsSync(OVERRIDES)) return bp;
+  const ov = readJson(OVERRIDES);
+  const map = ov?.courses || {};
+  for (const course of bp.courses) {
+    const specs = map[course.courseName];
+    if (!Array.isArray(specs) || specs.length === 0) continue;
+    const rows = Array.isArray(sourceRaw[course.courseName]) ? sourceRaw[course.courseName] : [];
+    course.topics = specs.map((spec, idx) => {
+      const matched = rows.filter(r => isInstructional(course.courseName, r) && matchesOverride(r, spec));
+      return {
+        courseName: course.courseName,
+        courseId: course.courseId,
+        courseSlug: course.courseSlug,
+        ordinal: idx + 1,
+        title: spec.title,
+        theme: [...new Set(matched.map(r => stripAdminSegments(r.tema)).filter(Boolean))].join(" / "),
+        weeks: [...new Set(matched.map(r => Number(r.hafta_no)).filter(Number.isFinite))].sort((a,b)=>a-b),
+        kazanims: [...new Set(matched.map(r => String(r.kazanim||"")).filter(Boolean))],
+        sourceTopics: [...new Set(matched.map(r => String(r.konu||"")).filter(Boolean))],
+        curriculumCodes: [...new Set(matched.flatMap(r => extractCurriculumCodes(r.kazanim)))]
+      };
+    });
+  }
+  return bp;
 }
 
 function listCurrentCourseData(courseId){
