@@ -22,6 +22,7 @@ const ITEMS=path.join(ROOT,"content","v2","items");
 const TRANSCRIPTS=path.join(ROOT,"content","v2","transcripts");
 fs.mkdirSync(TRANSCRIPTS,{recursive:true});
 const ONLY_MISSING=process.argv.includes("--only-missing");
+const CONCURRENCY=Math.max(1,Math.min(12,Number(process.env.TRANSCRIPT_CONCURRENCY||6)));
 
 function readJson(p){return JSON.parse(fs.readFileSync(p,"utf8"));}
 function writeJson(p,o){fs.writeFileSync(p,JSON.stringify(o,null,2)+"\n");}
@@ -62,6 +63,7 @@ function chooseSubtitle(files){
 }
 
 const files=fs.readdirSync(ITEMS).filter(f=>f.endsWith(".json"));
+const videoJobs=[];
 const summary={totalVideos:0,youtubeVideos:0,fetched:0,reused:0,missing:0,failed:0,details:[]};
 
 for(const f of files){
@@ -72,7 +74,11 @@ for(const f of files){
   const url=String(item.contentUrl||"");
   if(!isYoutube(url))continue;
   summary.youtubeVideos++;
+  videoJobs.push({p,item,url});
+}
 
+function runOne(job){
+  const {p,item,url}=job;
   item.payload ||= {};
   item.payload.provenance ||= {};
   const prov=item.payload.provenance;
@@ -81,12 +87,11 @@ for(const f of files){
   if(ONLY_MISSING && existingPath && fs.existsSync(existingPath) && prov.transcriptFingerprint){
     summary.reused++;
     summary.details.push({itemId:item.id,status:"reused",path:prov.transcriptPath});
-    continue;
+    return;
   }
 
   const outPrefix=item.id;
   const tmpl=path.join(TRANSCRIPTS,outPrefix+".%(language)s.%(ext)s");
-  // Remove stale subtitles for this item to avoid hashing the wrong version.
   for(const old of listSubtitleFiles(outPrefix)){
     try{fs.unlinkSync(old);}catch{}
   }
@@ -98,6 +103,8 @@ for(const f of files){
     "--sub-langs","tr,tr-*",
     "--sub-format","vtt",
     "--no-playlist",
+    "--quiet",
+    "--no-warnings",
     "-o",tmpl,
     url
   ];
@@ -115,7 +122,7 @@ for(const f of files){
       writeJson(p,item);
       summary.missing++;
       summary.details.push({itemId:item.id,status:"missing"});
-      continue;
+      return;
     }
 
     const raw=fs.readFileSync(subtitle,"utf8");
@@ -130,7 +137,7 @@ for(const f of files){
       writeJson(p,item);
       summary.missing++;
       summary.details.push({itemId:item.id,status:"empty",path:prov.transcriptPath});
-      continue;
+      return;
     }
 
     const txtPath=path.join(TRANSCRIPTS,outPrefix+".tr.txt");
@@ -161,6 +168,19 @@ for(const f of files){
   }
 }
 
+async function worker(queue){
+  while(true){
+    const job=queue.shift();
+    if(!job)return;
+    runOne(job);
+  }
+}
+
+(async()=>{
+const queue=[...videoJobs];
+await Promise.all(Array.from({length:Math.min(CONCURRENCY,queue.length||1)},()=>worker(queue)));
+
 const manifest=path.join(TRANSCRIPTS,"manifest.json");
 fs.writeFileSync(manifest,JSON.stringify({...summary,generatedAt:new Date().toISOString()},null,2)+"\n");
-console.log(JSON.stringify({...summary,manifest:path.relative(ROOT,manifest)},null,2));
+console.log(JSON.stringify({...summary,concurrency:CONCURRENCY,manifest:path.relative(ROOT,manifest)},null,2));
+})().catch(err=>{console.error(err);process.exit(1);});
