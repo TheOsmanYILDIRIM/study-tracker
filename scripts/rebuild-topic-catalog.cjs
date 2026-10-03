@@ -167,48 +167,152 @@ function splitTopics(course,row) {
     .filter(x => !ADMIN_ONLY_RE.test(x));
 }
 
+function extractCurriculumCodes(text) {
+  const s = String(text || "");
+  const re = /(?:[A-ZÇĞİÖŞÜ]{2,10}\.)?9\.\d+(?:\.\d+)+|TDE\d+\.\d+(?:\.\d+)*/g;
+  return [...new Set((s.match(re) || []).map(x => x.replace(/\.$/, "")))];
+}
+
+function isAdministrativeTitle(title) {
+  const n = norm(title);
+  if (!n) return true;
+  return [
+    "1 donem", "2 donem", "1 donem 1 sinav", "1 donem 2 sinav",
+    "2 donem 1 sinav", "2 donem 2 sinav", "yariyil tatili",
+    "1 donem ara tatili", "2 donem ara tatili", "okul temelli planlama",
+    "sosyal etkinlik", "sosyal aktivite", "genel tekrar", "donem sonu degerlendirme"
+  ].includes(n);
+}
+
+function topicSegments(course,row) {
+  const raw = cleanTopic(course,row);
+  if (!raw || isAdministrativeTitle(raw)) return [];
+  if (course === "İngilizce" || course === "Almanca" || course === "TDE") return [raw];
+  return raw.split(/\s*[•·]\s*/).map(x => stripAdminSegments(x)).map(x => x.trim()).filter(x => x && !isAdministrativeTitle(x));
+}
+
 function deriveBlueprint(source) {
-  const out = { schemaVersion:"topic-blueprint-v1", generatedAt:new Date().toISOString(), sourcePath:source, courses:[] };
+  const out = { schemaVersion:"topic-blueprint-v2", generatedAt:new Date().toISOString(), sourcePath:source, courses:[] };
   const raw = readJson(source);
+
   for (const [courseName,cfg] of Object.entries(COURSE_CONFIG)) {
     const rows = Array.isArray(raw[courseName]) ? raw[courseName] : [];
-    const topics=[]; const byKey=new Map();
+    const records = new Map();
+    const fallback = new Map();
+
     for (const row of rows) {
       if (!isInstructional(courseName,row)) continue;
-      const theme=String(row.tema||"").trim();
-      for (const title of splitTopics(courseName,row)) {
-        const key=norm(title);
-        let t=byKey.get(key);
-        if(!t){
-          t={
-            courseName,
-            courseId:cfg.id,
-            courseSlug:cfg.slug,
-            ordinal:topics.length+1,
-            title,
-            theme,
-            weeks:[],
-            kazanims:[],
-            sourceTopics:[]
-          };
-          byKey.set(key,t); topics.push(t);
+
+      const theme = stripAdminSegments(row.tema);
+      const codes = extractCurriculumCodes(row.kazanim);
+      const segments = topicSegments(courseName,row).filter(x => !isAdministrativeTitle(x));
+      if (!segments.length) continue;
+
+      if (courseName === "İngilizce") {
+        const title = segments[0];
+        const key = "eng:" + norm(title);
+        let rec = records.get(key);
+        if (!rec) {
+          rec = { courseName, courseId:cfg.id, courseSlug:cfg.slug, title, theme, weeks:[], kazanims:[], sourceTopics:[], curriculumCodes:[] };
+          records.set(key,rec);
         }
-        if(Number.isFinite(Number(row.hafta_no))) t.weeks.push(Number(row.hafta_no));
-        if(row.kazanim && !t.kazanims.includes(row.kazanim)) t.kazanims.push(row.kazanim);
-        if(row.konu && !t.sourceTopics.includes(row.konu)) t.sourceTopics.push(row.konu);
+        if (Number.isFinite(Number(row.hafta_no))) rec.weeks.push(Number(row.hafta_no));
+        rec.kazanims.push(String(row.kazanim||""));
+        rec.sourceTopics.push(String(row.konu||""));
+        rec.curriculumCodes.push(...codes);
+        continue;
+      }
+
+      if (courseName === "Almanca") {
+        for (const title of segments) {
+          if (isAdministrativeTitle(title) || /Etkinlik Haftası/i.test(title)) continue;
+          const key = "de:" + norm(theme) + ":" + norm(title);
+          let rec = records.get(key);
+          if (!rec) {
+            rec = { courseName, courseId:cfg.id, courseSlug:cfg.slug, title, theme, weeks:[], kazanims:[], sourceTopics:[], curriculumCodes:[] };
+            records.set(key,rec);
+          }
+          if (Number.isFinite(Number(row.hafta_no))) rec.weeks.push(Number(row.hafta_no));
+          if (row.kazanim) rec.kazanims.push(String(row.kazanim));
+          if (row.konu) rec.sourceTopics.push(String(row.konu));
+        }
+        continue;
+      }
+
+      if (codes.length) {
+        // Transition rows usually align topic segments and curriculum codes 1:1.
+        // When they do not, use the complete cleaned title for the single code
+        // rather than fragmenting parenthetical/list content.
+        const pairs = [];
+        if (codes.length === segments.length) {
+          codes.forEach((code,i)=>pairs.push([code,segments[i]]));
+        } else if (codes.length === 1) {
+          pairs.push([codes[0], cleanTopic(courseName,row)]);
+        } else {
+          codes.forEach((code,i)=>pairs.push([code,segments[Math.min(i,segments.length-1)] || cleanTopic(courseName,row)]));
+        }
+
+        for (const [code,titleRaw] of pairs) {
+          const title = stripAdminSegments(titleRaw).trim();
+          if (!title || isAdministrativeTitle(title)) continue;
+          const key = "code:" + code;
+          let rec = records.get(key);
+          if (!rec) {
+            rec = { courseName, courseId:cfg.id, courseSlug:cfg.slug, title, theme, weeks:[], kazanims:[], sourceTopics:[], curriculumCodes:[code] };
+            records.set(key,rec);
+          } else if (title.length < rec.title.length && !isAdministrativeTitle(title)) {
+            rec.title = title;
+          }
+          if (Number.isFinite(Number(row.hafta_no))) rec.weeks.push(Number(row.hafta_no));
+          if (row.kazanim) rec.kazanims.push(String(row.kazanim));
+          if (row.konu) rec.sourceTopics.push(String(row.konu));
+        }
+      } else {
+        // Keep a fallback only for genuinely instructional uncoded rows.
+        for (const title of segments) {
+          if (!title || isAdministrativeTitle(title)) continue;
+          const key = norm(title);
+          let rec = fallback.get(key);
+          if (!rec) {
+            rec = { courseName, courseId:cfg.id, courseSlug:cfg.slug, title, theme, weeks:[], kazanims:[], sourceTopics:[], curriculumCodes:[] };
+            fallback.set(key,rec);
+          }
+          if (Number.isFinite(Number(row.hafta_no))) rec.weeks.push(Number(row.hafta_no));
+          if (row.kazanim) rec.kazanims.push(String(row.kazanim));
+          if (row.konu) rec.sourceTopics.push(String(row.konu));
+        }
       }
     }
-    // Merge exercise-only German fragments into the preceding same-theme lesson.
-    const compact=[];
-    for(const t of topics){
-      const exerciseOnly = courseName==="Almanca" && /^(jetzt seid ihr dran|rund um den tag)$/i.test(norm(t.title));
-      if(exerciseOnly && compact.length && norm(compact[compact.length-1].theme)===norm(t.theme)){
-        compact[compact.length-1].weeks.push(...t.weeks);
-        compact[compact.length-1].kazanims.push(...t.kazanims.filter(x=>!compact[compact.length-1].kazanims.includes(x)));
-      } else compact.push(t);
+
+    // Merge records that resolve to the same human topic title (important for TDE).
+    const merged = new Map();
+    for (const rec of [...records.values(), ...fallback.values()]) {
+      if (!rec.title || isAdministrativeTitle(rec.title)) continue;
+      const key = norm(rec.title);
+      let m = merged.get(key);
+      if (!m) {
+        m = {...rec, weeks:[], kazanims:[], sourceTopics:[], curriculumCodes:[]};
+        merged.set(key,m);
+      }
+      m.weeks.push(...rec.weeks);
+      m.kazanims.push(...rec.kazanims);
+      m.sourceTopics.push(...rec.sourceTopics);
+      m.curriculumCodes.push(...rec.curriculumCodes);
+      if (rec.title.length < m.title.length) m.title = rec.title;
     }
-    compact.forEach((t,i)=>{ t.ordinal=i+1; t.weeks=[...new Set(t.weeks)].sort((a,b)=>a-b); });
-    out.courses.push({courseName,courseId:cfg.id,courseSlug:cfg.slug,topics:compact});
+
+    const topics = [...merged.values()]
+      .map(t => ({
+        ...t,
+        weeks:[...new Set(t.weeks)].sort((a,b)=>a-b),
+        kazanims:[...new Set(t.kazanims.filter(Boolean))],
+        sourceTopics:[...new Set(t.sourceTopics.filter(Boolean))],
+        curriculumCodes:[...new Set(t.curriculumCodes.filter(Boolean))]
+      }))
+      .sort((a,b)=>(a.weeks[0]??999)-(b.weeks[0]??999) || a.title.localeCompare(b.title,"tr"));
+
+    topics.forEach((t,i)=>t.ordinal=i+1);
+    out.courses.push({courseName,courseId:cfg.id,courseSlug:cfg.slug,topics});
   }
   return out;
 }
