@@ -601,20 +601,6 @@
             "konu": "Traumtag"
           }
         ]
-      },
-      {
-        "title": "Wochentage, Mahlzeiten und Alltag",
-        "matches": [
-          {
-            "konu": "Wochentage"
-          },
-          {
-            "konu": "Mahlzeiten"
-          },
-          {
-            "konu": "frühstück"
-          }
-        ]
       }
     ]
   }
