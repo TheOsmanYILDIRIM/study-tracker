@@ -14,42 +14,15 @@ const CANDIDATES=path.join(ROOT,"content","v2","video-candidates.json");
 const OUT=path.join(ROOT,"content","v2","video-candidates.curated.json");
 
 const POLICY={
-  "Matematik":{
-    primary:["mert hoca"],
-    secondary:["rehber matematik","tonguc 9 sinif","tonguç 9 sınıf"]
-  },
-  "Fizik":{
-    primary:["ozcan aykin fizik","özcan aykın fizik"],
-    secondary:["vip fizik","fizikfinito","altug gunes fizik","altuğ güneş fizik"]
-  },
-  "Kimya":{
-    primary:["kimya adasi","kimya adası"],
-    secondary:["meschemy kimya","tonguc 9 sinif","tonguç 9 sınıf"]
-  },
-  "Biyoloji":{
-    primary:["dr biyoloji"],
-    secondary:["biosem","tonguc 9 sinif","tonguç 9 sınıf"]
-  },
-  "Cografya":{
-    primary:["cografyanin kodlari","coğrafyanın kodları"],
-    secondary:["tonguc 9 sinif","tonguç 9 sınıf"]
-  },
-  "Tarih":{
-    primary:["mehmet celal ozyildiz","mehmet celal özyıldız"],
-    secondary:[]
-  },
-  "TDE":{
-    primary:["rustu hoca","rüştü hoca"],
-    secondary:["tonguc 9 sinif","tonguç 9 sınıf"]
-  },
-  "İngilizce":{
-    primary:["teacher efe"],
-    secondary:[]
-  },
-  "Almanca":{
-    primary:[],
-    secondary:[]
-  }
+  "Matematik":{lockedChannel:["rehber matematik"]},
+  "Fizik":{lockedChannel:["fizikfinito"]},
+  "Kimya":{lockedChannel:["meschemy kimya"]},
+  "Biyoloji":{lockedChannel:["dr biyoloji"]},
+  "Cografya":{lockedChannel:["cografyanin kodlari","coğrafyanın kodları"]},
+  "Tarih":{lockedChannel:["mehmet celal ozyildiz","mehmet celal özyıldız"]},
+  "TDE":{lockedChannel:["rustu hoca ile turkce","rüştü hoca ile türkçe"]},
+  "İngilizce":{lockedChannel:["teacher efe"]},
+  "Almanca":{lockedChannel:[]}
 };
 
 function norm(s=""){
@@ -91,7 +64,7 @@ const topics=Array.isArray(data.topics)?data.topics:[];
 // channel from strong existing candidates so continuity still wins.
 const inferred={};
 for(const course of Object.keys(POLICY)){
-  if(POLICY[course].primary.length)continue;
+  if(POLICY[course].lockedChannel.length)continue;
   const counts=new Map();
   for(const t of topics.filter(x=>x.courseName===course)){
     const pool=[...(t.candidates||[])];
@@ -108,7 +81,7 @@ for(const course of Object.keys(POLICY)){
 const curated=[];
 const summary={};
 for(const t of topics){
-  const p=POLICY[t.courseName]||{primary:[],secondary:[]};
+  const p=POLICY[t.courseName]||{lockedChannel:[]};
   const pool=[];
   const seen=new Set();
   for(const c of [t.selected,...(t.candidates||[])].filter(Boolean)){
@@ -117,13 +90,9 @@ for(const t of topics){
   }
   let tier="none";
   let allowed=[];
-  if(p.primary.length){
-    allowed=pool.filter(c=>matchChannel(c.channel,p.primary));
-    if(allowed.length)tier="primary";
-    else{
-      allowed=pool.filter(c=>matchChannel(c.channel,p.secondary));
-      if(allowed.length)tier="secondary";
-    }
+  if(p.lockedChannel.length){
+    allowed=pool.filter(c=>matchChannel(c.channel,p.lockedChannel));
+    if(allowed.length)tier="locked";
   }else if(inferred[t.courseName]){
     allowed=pool.filter(c=>norm(c.channel)===norm(inferred[t.courseName]));
     if(allowed.length)tier="inferred-primary";
@@ -138,8 +107,7 @@ for(const t of topics){
   if(selected)delete selected._q;
 
   curated.push({...t,selected,curation:{
-    policyPrimary:p.primary,
-    policySecondary:p.secondary,
+    lockedChannel:p.lockedChannel,
     inferredPrimary:inferred[t.courseName]||null,
     channelTier:tier,
     status:selected?"selected":"needs_review"
