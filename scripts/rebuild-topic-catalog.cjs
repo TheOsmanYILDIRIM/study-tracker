@@ -74,43 +74,74 @@ function sha16(s){return crypto.createHash("sha256").update(s).digest("hex").sli
 
 function stripAdminSegments(raw) {
   return String(raw || "")
-    .split(/\s*[•·]\s*/)
-    .map(x => x.trim())
-    .filter(Boolean)
-    .filter(x => !ADMIN_ONLY_RE.test(x))
-    .join(" • ")
+    .replace(/OKUL TEMELL[İI] PLANLAMA\*?/gi, " ")
+    .replace(/SOSYAL ETK[İI]NL[İI]K/gi, " ")
+    .replace(/SOSYAL AKT[İI]V[İI]TE/gi, " ")
+    .replace(/\b(?:YARIYIL|ARA) TAT[İI]L[İI]\b/gi, " ")
+    .replace(/\b\d+\.? DÖNEM \d+\.? SINAV(?:I| HAFTASI)?\b/gi, " ")
+    .replace(/\bDÖNEM SONU(?: DEĞERLEND[İI]RME)?\b/gi, " ")
+    .replace(/\s*[•·]\s*$/g, "")
+    .replace(/^\s*[•·]\s*/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function isInstructional(row) {
-  const konu = stripAdminSegments(row?.konu);
-  const tema = stripAdminSegments(row?.tema);
-  if (ADMIN_ONLY_RE.test(String(row?.konu || "").trim())) return false;
-  if (ADMIN_ONLY_RE.test(String(row?.tema || "").trim()) && !konu) return false;
-  // English source legitimately carries some lesson identity primarily in tema.
-  if (!konu && !tema) return false;
+function isInstructional(course,row) {
+  const temaRaw = String(row?.tema || "").trim();
+  const konuRaw = String(row?.konu || "").trim();
+  const kazanimRaw = String(row?.kazanim || "").trim();
+
+  if (course === "İngilizce") {
+    // The local source begins with 8th-grade revision/orientation rows.
+    // Keep only actual 9th-grade curriculum rows.
+    if (!/ENG\.9\.\d+/i.test(kazanimRaw) && !/THEME\s*[1-8]\s*:/i.test(temaRaw)) return false;
+  }
+
+  if (course === "Almanca" && /Etkinlik Haftası/i.test(konuRaw + " " + temaRaw)) return false;
+
+  const tema = stripAdminSegments(temaRaw);
+  const konu = stripAdminSegments(konuRaw);
+  if (!tema && !konu) return false;
+
+  // Rows whose only semantic content is administrative are never lessons.
+  if (ADMIN_ONLY_RE.test(temaRaw) && ADMIN_ONLY_RE.test(konuRaw || temaRaw)) return false;
   return true;
 }
 
+const ENGLISH_THEME_TITLES = {
+  1: "School Life",
+  2: "Classroom Life",
+  3: "Personal Life: Physical Appearance & Personality",
+  4: "Family Life",
+  5: "Life in the House & Neighbourhood",
+  6: "Life in the City & Country",
+  7: "Life in the World & Nature",
+  8: "Life in the Universe & Future"
+};
+
 function cleanTopic(course,row) {
-  let konu = stripAdminSegments(row?.konu);
-  let tema = stripAdminSegments(row?.tema);
+  const temaRaw = String(row?.tema || "").replace(/&amp;/gi, "&");
+  const konuRaw = String(row?.konu || "").replace(/&amp;/gi, "&");
+  const kazanimRaw = String(row?.kazanim || "");
 
   if (course === "İngilizce") {
-    // Annual English rows can have an empty/administrative konu while the real
-    // instructional identity is the THEME title. Keep one lesson per real theme.
-    const themeIsReal = tema && !ADMIN_ONLY_RE.test(tema) && !ADMIN_RE.test(tema);
-    if (themeIsReal) return tema.replace(/^THEME\s*\d+\s*:\s*/i, "").trim();
+    const m = kazanimRaw.match(/ENG\.9\.(\d+)/i) || temaRaw.match(/THEME\s*([1-8])\s*:/i);
+    if (!m) return "";
+    const n = Number(m[1]);
+    return ENGLISH_THEME_TITLES[n] || "";
   }
 
-  let k = konu;
+  let k = stripAdminSegments(konuRaw);
   if (!k) return "";
 
   if (course === "Almanca") {
     k = k.replace(/(^|:)\s*Jetzt seid ihr dran!?\s*(?=:|$)/gi," ").replace(/\s*:\s*:/g,":").trim();
     k = k.replace(/^[:\s]+|[:\s]+$/g,"");
     k = k.replace(/\bEtkinlik Haftası\b/gi,"").replace(/^[:\s]+|[:\s]+$/g,"");
+  }
+
+  if (course === "TDE") {
+    k = k.replace(/\s*[•·]\s*/g, " • ").replace(/(?:\s*•\s*)+$/g, "").trim();
   }
   return k;
 }
@@ -119,12 +150,11 @@ function splitTopics(course,row) {
   const raw = cleanTopic(course,row);
   if (!raw) return [];
 
-  // Course-specific source syntax differs. Split only where bullets separate
-  // true instructional concepts; never split prose/activity lists blindly.
   if (course === "TDE" || course === "Almanca" || course === "İngilizce") return [raw];
 
   return raw
     .split(/\s*[•·]\s*/)
+    .map(x => stripAdminSegments(x))
     .map(x => x.trim())
     .filter(Boolean)
     .filter(x => !ADMIN_ONLY_RE.test(x));
@@ -137,10 +167,10 @@ function deriveBlueprint(source) {
     const rows = Array.isArray(raw[courseName]) ? raw[courseName] : [];
     const topics=[]; const byKey=new Map();
     for (const row of rows) {
-      if (!isInstructional(row)) continue;
+      if (!isInstructional(courseName,row)) continue;
       const theme=String(row.tema||"").trim();
       for (const title of splitTopics(courseName,row)) {
-        const key=norm(theme+"|"+title);
+        const key=courseName === "İngilizce" ? norm(title) : norm(title);
         let t=byKey.get(key);
         if(!t){
           t={
