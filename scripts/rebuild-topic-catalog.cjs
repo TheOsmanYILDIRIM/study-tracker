@@ -29,6 +29,7 @@ const LESSONS = path.join(V2, "lessons");
 const ITEMS = path.join(V2, "items");
 const BLUEPRINT = path.join(V2, "topic-blueprint.json");
 const CANDIDATES = path.join(V2, "video-candidates.json");
+const CURATED_CANDIDATES = path.join(V2, "video-candidates.curated.json");
 const OVERRIDES = path.join(V2, "topic-overrides.json");
 const DEFAULT_SOURCE = path.join(
   process.env.HOME || "/data/data/com.termux/files/home",
@@ -594,8 +595,9 @@ function main(){
     return;
   }
   if(mode==="apply"){
-    if(!fs.existsSync(CANDIDATES)) throw new Error("Run candidates first");
-    const result=apply(bp,readJson(CANDIDATES));
+    const candidateFile = fs.existsSync(CURATED_CANDIDATES) ? CURATED_CANDIDATES : CANDIDATES;
+    if(!fs.existsSync(candidateFile)) throw new Error("Run candidates/curation first");
+    const result=apply(bp,readJson(candidateFile));
     const stats=compile();
     console.log(JSON.stringify({ok:true,mode,...result,stats},null,2));
     return;
