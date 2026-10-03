@@ -861,8 +861,7 @@ private fun VideoItemActionDialog(
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                         shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.weight(1.5f),
-                        enabled = questions.isNotEmpty() && selectedAnswers.size == questions.size
+                        modifier = Modifier.weight(1.5f)
                     ) {
                         Icon(Icons.Default.Check, contentDescription = null, tint = Color.Black)
                         Spacer(modifier = Modifier.width(6.dp))
@@ -1027,7 +1026,8 @@ private fun QuizItemActionDialog(
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold),
                         shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.weight(1.5f)
+                        modifier = Modifier.weight(1.5f),
+                        enabled = questions.isNotEmpty() && selectedAnswers.size == questions.size
                     ) {
                         Text("Sınavı Gönder", color = Color.Black, fontWeight = FontWeight.Bold)
                     }
