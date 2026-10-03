@@ -4,6 +4,9 @@ import androidx.compose.runtime.Immutable
 import com.studytracker.core.domain.model.*
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.contentOrNull
 
 @Serializable
 enum class V2ItemState {
@@ -112,7 +115,13 @@ object V2ProgressEngine {
     fun parseQuizPayload(rawJson: String?): QuizPayload {
         if (rawJson.isNullOrBlank()) return QuizPayload()
         return try {
-            json.decodeFromString(QuizPayload.serializer(), rawJson)
+            val root = json.parseToJsonElement(rawJson).jsonObject
+            val quizElement = root["quiz"]
+            if (quizElement != null) {
+                json.decodeFromJsonElement(QuizPayload.serializer(), quizElement)
+            } else {
+                json.decodeFromJsonElement(QuizPayload.serializer(), root)
+            }
         } catch (_: Exception) {
             QuizPayload()
         }
