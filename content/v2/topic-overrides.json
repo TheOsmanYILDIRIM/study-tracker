@@ -602,6 +602,656 @@
           }
         ]
       }
+    ],
+    "Matematik": [
+      {
+        "title": "Gerçek Sayıların Üslü ve Köklü Gösterimleri",
+        "matches": [
+          {
+            "konu": "Gerçek Sayıların Üslü ve Köklü Gösterimleri"
+          }
+        ]
+      },
+      {
+        "title": "Gerçek Sayı Aralıkları ve Küme Sembolleri",
+        "matches": [
+          {
+            "konu": "Gerçek Sayı Aralıklarının Gösterimi"
+          }
+        ]
+      },
+      {
+        "title": "Sayı Kümeleri ve İşlem Özellikleri",
+        "matches": [
+          {
+            "konu": "Sayı Kümeleri ve İşlem Özellikleri"
+          }
+        ]
+      },
+      {
+        "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+        "matches": [
+          {
+            "konu": "Gerçek Sayıların İşlem Özelliklerini Cebirsel"
+          }
+        ]
+      },
+      {
+        "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+        "matches": [
+          {
+            "konu": "Doğrusal Fonksiyonlar ve Nitel Özellikleri"
+          }
+        ]
+      },
+      {
+        "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+        "matches": [
+          {
+            "konu": "Mutlak Değer Fonksiyonu"
+          }
+        ]
+      },
+      {
+        "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+        "matches": [
+          {
+            "konu": "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler"
+          }
+        ]
+      },
+      {
+        "title": "Üçgende Açı ve Kenar İlişkileri",
+        "matches": [
+          {
+            "konu": "Üçgende Açı ve Kenarla İlgili Özellikler"
+          }
+        ]
+      },
+      {
+        "title": "Geometrik Dönüşümler",
+        "matches": [
+          {
+            "konu": "Geometrik Dönüşümler"
+          }
+        ]
+      },
+      {
+        "title": "Eşlik ve Benzerlik Koşulları",
+        "matches": [
+          {
+            "konu": "Eşlik ve Benzerlik Koşulları"
+          }
+        ]
+      },
+      {
+        "title": "Benzer Üçgenler Oluşturma",
+        "matches": [
+          {
+            "konu": "Benzer üçgenler Oluşturma"
+          }
+        ]
+      },
+      {
+        "title": "Tales, Öklid ve Pisagor Teoremleri",
+        "matches": [
+          {
+            "konu": "Tales, Öklid ve Pisagor"
+          }
+        ]
+      },
+      {
+        "title": "Eşlik ve Benzerlik Problemleri",
+        "matches": [
+          {
+            "konu": "Eşlik ve Benzerlik Problemleri"
+          }
+        ]
+      },
+      {
+        "title": "Algoritma Temelli Problemler",
+        "matches": [
+          {
+            "konu": "Algoritma Temelli Problemler"
+          }
+        ]
+      },
+      {
+        "title": "Mantık Bağlaçları ve Niceleyiciler",
+        "matches": [
+          {
+            "konu": "Mantık Bağlaçları ve Niceleyiciler"
+          }
+        ]
+      },
+      {
+        "title": "Mantık Bağlaçları ve Niceleyicilerin Algoritmalarda Kullanımı",
+        "matches": [
+          {
+            "konu": "Mantık Bağlaçları ve Niceleyicilerin Algoritmik"
+          }
+        ]
+      },
+      {
+        "title": "Tek Nicel Değişkenli Veri Dağılımları",
+        "matches": [
+          {
+            "konu": "Tek Nicel Değişkenli Veri Dağılımları"
+          }
+        ]
+      },
+      {
+        "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+        "matches": [
+          {
+            "konu": "Başkaları Tarafından Oluşturulan Tek Nicel"
+          }
+        ]
+      },
+      {
+        "title": "Deneysel Olasılık",
+        "matches": [
+          {
+            "konu": "Deneysel Olasılık"
+          }
+        ]
+      },
+      {
+        "title": "Teorik Olasılık",
+        "matches": [
+          {
+            "konu": "Teorik Olasılık"
+          }
+        ]
+      }
+    ],
+    "Fizik": [
+      {
+        "title": "Fizik Bilimi",
+        "matches": [
+          {
+            "konu": "Fizik Bilimi"
+          }
+        ]
+      },
+      {
+        "title": "Fizik Biliminin Alt Dalları",
+        "matches": [
+          {
+            "konu": "Fizik Biliminin Alt Dalları"
+          }
+        ]
+      },
+      {
+        "title": "Fizik Bilimine Yön Verenler",
+        "matches": [
+          {
+            "konu": "Fizik Bilimine Yön Verenler"
+          }
+        ]
+      },
+      {
+        "title": "Fizikte Kariyer Keşfi",
+        "matches": [
+          {
+            "konu": "Kariyer Keşfi"
+          }
+        ]
+      },
+      {
+        "title": "Temel ve Türetilmiş Nicelikler",
+        "matches": [
+          {
+            "konu": "Temel ve Türetilmiş Nicelikler"
+          }
+        ]
+      },
+      {
+        "title": "Skaler ve Vektörel Nicelikler",
+        "matches": [
+          {
+            "konu": "Skaler ve Vektörel Nicelikler"
+          }
+        ]
+      },
+      {
+        "title": "Vektörler",
+        "matches": [
+          {
+            "konu": "Vektörler"
+          }
+        ]
+      },
+      {
+        "title": "Doğadaki Temel Kuvvetler",
+        "matches": [
+          {
+            "konu": "Doğadaki Temel Kuvvetler"
+          }
+        ]
+      },
+      {
+        "title": "Hareket ve Hareket Türleri",
+        "matches": [
+          {
+            "konu": "Hareket ve Hareket Türleri"
+          }
+        ]
+      },
+      {
+        "title": "Katılarda Basınç",
+        "matches": [
+          {
+            "konu": "Basınç"
+          }
+        ]
+      },
+      {
+        "title": "Sıvılarda Basınç",
+        "matches": [
+          {
+            "konu": "Sıvılarda Basınç"
+          }
+        ]
+      },
+      {
+        "title": "Açık Hava Basıncı",
+        "matches": [
+          {
+            "konu": "Açık Hava Basıncı"
+          }
+        ]
+      },
+      {
+        "title": "Kaldırma Kuvveti",
+        "matches": [
+          {
+            "konu": "Kaldırma Kuvveti"
+          }
+        ]
+      },
+      {
+        "title": "Bernoulli İlkesi",
+        "matches": [
+          {
+            "konu": "Bernoulli İlkesi"
+          }
+        ]
+      },
+      {
+        "title": "İç Enerji, Isı ve Sıcaklık",
+        "matches": [
+          {
+            "konu": "İç Enerji, Isı ve Sıcaklık"
+          }
+        ]
+      },
+      {
+        "title": "Isı, Öz Isı ve Isı Sığası",
+        "matches": [
+          {
+            "konu": "Isı, Öz Isı, Isı Sığası"
+          }
+        ]
+      },
+      {
+        "title": "Hâl Değişimi",
+        "matches": [
+          {
+            "konu": "Hâl Değişimi"
+          }
+        ]
+      },
+      {
+        "title": "Isıl Denge",
+        "matches": [
+          {
+            "konu": "Isıl Denge"
+          }
+        ]
+      },
+      {
+        "title": "Isı Aktarım Yolları",
+        "matches": [
+          {
+            "konu": "Isı Aktarım Yolları"
+          }
+        ]
+      },
+      {
+        "title": "Isı İletim Hızı",
+        "matches": [
+          {
+            "konu": "Isı İletim Hızı"
+          }
+        ]
+      }
+    ],
+    "Cografya": [
+      {
+        "title": "Coğrafya Biliminin Konusu ve Bölümleri",
+        "matches": [
+          {
+            "konu": "Coğrafya Biliminin Konusu ve Bölümleri"
+          }
+        ]
+      },
+      {
+        "title": "Niçin Coğrafya Öğrenmeliyiz?",
+        "matches": [
+          {
+            "konu": "Niçin Coğrafya Öğrenmeliyiz"
+          }
+        ]
+      },
+      {
+        "title": "Coğrafya Biliminin Gelişimi",
+        "matches": [
+          {
+            "konu": "Coğrafya Biliminin Gelişimi"
+          }
+        ]
+      },
+      {
+        "title": "Mekânın Aynası Haritalar",
+        "matches": [
+          {
+            "konu": "Mekânın Aynası Haritalar"
+          }
+        ]
+      },
+      {
+        "title": "Türkiye'nin Coğrafi Konumu",
+        "matches": [
+          {
+            "konu": "Türkiye’nin Coğrafi Konumu"
+          }
+        ]
+      },
+      {
+        "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
+        "matches": [
+          {
+            "konu": "Mekânsal Bilgi Teknolojilerinin Bileşenleri"
+          }
+        ]
+      },
+      {
+        "title": "Hava Olayları ve Günlük Hayata Etkileri",
+        "matches": [
+          {
+            "konu": "Hava Olayları ve Günlük Hayata Etkileri"
+          }
+        ]
+      },
+      {
+        "title": "İklim Sisteminin Bileşen ve Değişkenleri",
+        "matches": [
+          {
+            "konu": "İklim Sisteminin Bileşen ve Değişkenleri"
+          }
+        ]
+      },
+      {
+        "title": "İklim Türleri",
+        "matches": [
+          {
+            "konu": "İklim Türleri"
+          }
+        ]
+      },
+      {
+        "title": "İklim Sisteminde Yaşanan Değişiklikler",
+        "matches": [
+          {
+            "konu": "İklim Sisteminde Yaşanan Değişiklikler"
+          }
+        ]
+      },
+      {
+        "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
+        "matches": [
+          {
+            "konu": "Nüfusun Tarihsel Değişimi"
+          }
+        ]
+      },
+      {
+        "title": "Nüfusun Dağılışı ve Hareketleri",
+        "matches": [
+          {
+            "konu": "Nüfusun Dağılışı ve Hareketleri"
+          }
+        ]
+      },
+      {
+        "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
+        "matches": [
+          {
+            "konu": "Demografik Dönüşüm ve Nüfus Piramitleri"
+          }
+        ]
+      },
+      {
+        "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
+        "matches": [
+          {
+            "konu": "Nüfusla İlgili Fırsat"
+          }
+        ]
+      },
+      {
+        "title": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
+        "matches": [
+          {
+            "konu": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler"
+          }
+        ]
+      },
+      {
+        "title": "Tehlike, Risk ve Afet",
+        "matches": [
+          {
+            "konu": "Tehlike, Risk ve Afet"
+          }
+        ]
+      },
+      {
+        "title": "Afet Türleri",
+        "matches": [
+          {
+            "konu": "Afet Türleri"
+          }
+        ]
+      },
+      {
+        "title": "Bütüncül Afet Yönetimi",
+        "matches": [
+          {
+            "konu": "Bütüncül Afet Yönetimi"
+          }
+        ]
+      },
+      {
+        "title": "Bölge ve Bölge Sınırı",
+        "matches": [
+          {
+            "konu": "Bölge ve Bölge Sınırı"
+          }
+        ]
+      }
+    ],
+    "Tarih": [
+      {
+        "title": "Tarih Öğrenmenin Faydaları",
+        "matches": [
+          {
+            "konu": "Tarih Öğrenmenin Faydaları"
+          }
+        ]
+      },
+      {
+        "title": "Tarihin Doğası",
+        "matches": [
+          {
+            "konu": "Tarihin Doğası"
+          }
+        ]
+      },
+      {
+        "title": "Tarihsel Bilginin Üretim Süreci",
+        "matches": [
+          {
+            "konu": "Tarihsel Bilginin Üretim"
+          }
+        ]
+      },
+      {
+        "title": "Tarih Araştırma ve Yazımında Dijitalleşme",
+        "matches": [
+          {
+            "konu": "Tarih Araştırma ve Yazımında Dijitalleşme"
+          }
+        ]
+      },
+      {
+        "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+        "matches": [
+          {
+            "konu": "Tarım Devrimi"
+          }
+        ]
+      },
+      {
+        "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+        "matches": [
+          {
+            "konu": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu"
+          }
+        ]
+      },
+      {
+        "title": "Eski Çağ Medeniyetlerinde Hukuk",
+        "matches": [
+          {
+            "konu": "Eski Çağ Medeniyetlerinde Hukuk"
+          }
+        ]
+      },
+      {
+        "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+        "matches": [
+          {
+            "konu": "Eski Çağ’da İnançlar"
+          }
+        ]
+      },
+      {
+        "title": "Türklerde Konargöçer Yaşam",
+        "matches": [
+          {
+            "konu": "Konargöçer Yaşam"
+          }
+        ]
+      },
+      {
+        "title": "Orta Çağ'da Kitlesel Göçler",
+        "matches": [
+          {
+            "konu": "Orta Çağ’da Yaşanan Kitlesel Göçler"
+          }
+        ]
+      },
+      {
+        "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+        "matches": [
+          {
+            "konu": "Orta Çağ’daki Başlıca Devletlerin Yönetim"
+          }
+        ]
+      },
+      {
+        "title": "Orta Çağ'daki Ticaret Yolları",
+        "matches": [
+          {
+            "konu": "Orta Çağ’daki Ticaret Yolları"
+          }
+        ]
+      },
+      {
+        "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+        "matches": [
+          {
+            "konu": "Orta Çağ’daki Başlıca Medeniyet Havzalarında"
+          }
+        ]
+      }
+    ],
+    "İngilizce": [
+      {
+        "title": "Theme 1: School Life",
+        "matches": [
+          {
+            "tema": "THEME 1"
+          }
+        ]
+      },
+      {
+        "title": "Theme 2: Classroom Life",
+        "matches": [
+          {
+            "tema": "THEME 2"
+          }
+        ]
+      },
+      {
+        "title": "Theme 3: Personal Life — Physical Appearance & Personality",
+        "matches": [
+          {
+            "tema": "THEME 3"
+          }
+        ]
+      },
+      {
+        "title": "Theme 4: Family Life",
+        "matches": [
+          {
+            "tema": "THEME 4"
+          }
+        ]
+      },
+      {
+        "title": "Theme 5: Life in the House & Neighbourhood",
+        "matches": [
+          {
+            "tema": "THEME 5"
+          }
+        ]
+      },
+      {
+        "title": "Theme 6: Life in the City & Country",
+        "matches": [
+          {
+            "tema": "THEME 6"
+          }
+        ]
+      },
+      {
+        "title": "Theme 7: Life in the World & Nature",
+        "matches": [
+          {
+            "tema": "THEME 7"
+          }
+        ]
+      },
+      {
+        "title": "Theme 8: Life in the Universe & Future",
+        "matches": [
+          {
+            "tema": "THEME 8"
+          }
+        ]
+      }
     ]
   }
 }
