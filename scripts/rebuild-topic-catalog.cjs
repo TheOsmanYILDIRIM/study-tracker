@@ -47,7 +47,7 @@ const COURSE_CONFIG = {
 };
 
 const ADMIN_RE = /(?:sınav|tatil|genel tekrar|dönem sonu|okul temelli planlama|sosyal aktivite|sosyal etkinlik|revision|orientation)/i;
-const ADMIN_ONLY_RE = /^\s*(?:\d+\.?\s*dönem\s*)?(?:\d+\.?\s*)?(?:sınav(?:ı| haftası)?|ara tatili|yarıyıl tatili|tatil|genel tekrar|dönem sonu(?: değerlendirme)?|okul temelli planlama\*?|sosyal aktivite|sosyal etkinlik|revision\s*\d*|orientation)\s*$/i;
+const ADMIN_ONLY_RE = /^\s*(?:(?:1|2)\.?\s*dönem|(?:\d+\.?\s*dönem\s*)?(?:\d+\.?\s*)?(?:sınav(?:ı| haftası)?|ara tatili|yarıyıl tatili|tatil|genel tekrar|dönem sonu(?: değerlendirme)?|okul temelli planlama\*?|sosyal aktivite|sosyal etkinlik|revision\s*\d*|orientation))\s*$/i;
 const ACTIVE_STATES = new Set(["active"]);
 
 function readJson(p) { return JSON.parse(fs.readFileSync(p, "utf8")); }
@@ -150,7 +150,14 @@ function splitTopics(course,row) {
   const raw = cleanTopic(course,row);
   if (!raw) return [];
 
-  if (course === "TDE" || course === "Almanca" || course === "İngilizce") return [raw];
+  if (course === "İngilizce" || course === "Almanca") return [raw];
+
+  if (course === "TDE") {
+    // Split only when a transition row concatenates two skill blocks.
+    const markers = /(?=(?:OKUMA|YAZMA|KONUŞMA|DİNLEME\/İZLEME)\s*[•·])/g;
+    const parts = raw.split(markers).map(x => x.trim()).filter(Boolean);
+    return parts.length > 1 ? parts.map(x => stripAdminSegments(x)).filter(Boolean) : [raw];
+  }
 
   return raw
     .split(/\s*[•·]\s*/)
@@ -170,7 +177,7 @@ function deriveBlueprint(source) {
       if (!isInstructional(courseName,row)) continue;
       const theme=String(row.tema||"").trim();
       for (const title of splitTopics(courseName,row)) {
-        const key=courseName === "İngilizce" ? norm(title) : norm(title);
+        const key=norm(title);
         let t=byKey.get(key);
         if(!t){
           t={
