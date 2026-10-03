@@ -16,7 +16,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "38986b05f958b3b9"
+      "fingerprint": "38986b05f958b3b9",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.tr.vtt",
+      "transcriptFingerprint": "fa715604932cb476"
     }
   }
 }

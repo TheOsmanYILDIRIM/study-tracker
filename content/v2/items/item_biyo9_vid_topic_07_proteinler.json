@@ -29,11 +29,17 @@
       "sourceTopic": [
         "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
       "fingerprint": "d1f521ced150fa0f",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
+      "transcriptFingerprint": "b5ebaf2a8faa15c2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt"
     }
   }
 }

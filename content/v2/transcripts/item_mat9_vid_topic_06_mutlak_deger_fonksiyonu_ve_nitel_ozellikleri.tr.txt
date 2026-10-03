@@ -1,0 +1,675 @@
+Ve geldik mutlak değerli fonksiyonlara.
+Güzel arkadaşım, bir tarafta mutlak
+değer bilgimiz, diğer tarafta doğrusal
+fonksiyon bilgimiz. Bunları bir
+birleştireceğiz. Bir de muhteşem
+taktiklerle, bunlarla ilgili bütün nitel
+özellikleri, grafik özelliklerini
+hepsini birlikte halledeceğiz. Ve bu
+derste bittiğinde şunu diyeceksin. Hocam
+ben mutlak değer fonksiyonunu çok iyi
+öğrendim. Hedefimiz bu. Eğer sen o
+tarafta hazırsan hemen modül 2'yi
+alıyorsun eline. Sayfa kaçlara geldik
+hocam? Şöyle bir bakıyorum. Hay maşallah
+diyorum. 40'lara kadar gelmişiz. Sayfa
+42'yi açıyorsun. Bugün ders biraz uzun
+olacak. 42'yi beraber bitireceğiz. 43'ü
+beraber bitireceğiz. 44'ü beraber
+bitireceğiz. Sonraki ders için de artık
+hazırlıklarımı yapsam. Şimdi ben bu
+tarafta hazırım. Sen o tarafta eğer
+hazırsan elimizde kalemler, önümüzde
+kitaplar, bir tarafta sen, bir tarafta
+ben. RM olarak gönder, gönder gelsin
+hocam dedeyim. Fonksiyonlarda normalde
+11. dersimizdeyiz ama bu mutlak değerli
+fonksiyonların ilk dersi. Güzel
+arkadaşım. Şimdi ben sana mutlak değerin
+tanımını anlatacağım. Hocam biz tanımını
+biliyoruz. Mutlak değerin ne anlama
+geldiğini biliyoruz deme. O
+bildiklerinin hepsini bir kenara bırak.
+O ön yargıların hepsini bir kenara
+bırak. Çünkü mutlak değerin tanımını
+doğru bir şekilde bilmez. Uygulayamazsan
+mutlak değerli fonksiyonu da
+anlamlandıramazsın. Hazır mıyız? Gerçek
+sayılarda. Şimdi gerçek sayılarda neye
+bakacağız biz artık? g(x) fonksiyonuna.
+Nedir bu g(x) fonksiyonu? İster mutlak
+içerisinde x olsun ister önünde eksi
+mutlak içerisinde x olsun. Bu biçimdeki
+mutlak değer fonksiyonların bütün nitel
+özelliklerini öğrenmeye çalışacağız. Ama
+ne dedim? Önce mutlak değerin tanımını
+bilmen lazım. Ya hocam işte mutlak değer
+her şeyi dışarıya pozitif çıkaran işte
+bu cümle en büyük hatalardan biridir.
+Senin en büyük hata yapma sebeplerinden
+biridir. Belki de mutlak değeri
+öğrenemem sebebendir. Mutlak değer sayı
+doğrusundaki bir sayının 0a olan
+uzaklığı demektir. Yani sen bir daha
+mutlak değer dediğimde aklına tek bir
+şey getireceksin. Uzaklık abi. 0 olan
+uzaklıktan bahsediyoruz. Tamam mı?
+uzaklık olduğundan mutlak değer sayının
+negatif ya da pozitif olmasına
+bakılmaksızın
+her zaman pozitif veya 0 değeri alır
+diyeceksin. Neden? Çünkü sen benim
+evimin bizim eve pardon yani bizim evin
+okula olan uzaklığı 500 metre der misin?
+Dersin ama -300 met demezsin. O yüzden
+hiçbir şekilde bakmıyorsun pozitif ya da
+negatif olmasına. Diyorsun ki bizim evin
+okula olan uzaklığı ya 300'dür ya 0'dır
+ya da bizim ev okuldur gibi bir şey
+oluyor gerçi o ama yani en azından her
+zaman 0 veya pozitif değerler alır
+diyoruz şimdi. Ama hocam biz de zaten
+öyle diyorduk tanımı diyeceksin ama
+orada bir düzeltme yapacağız. Şimdi
+mutlak değer fonksiyonu nedir? Bak şimdi
+mutlak içerisinde x'i vereceğim ben
+sana. Mutlak içerisinde x'in anlamı
+nedir? Eğer ki x değeri 0'dan eşit ya da
+büyükse dışarıya aynen çıkar. Lütfen bu
+cümleleri beraber öğrenelim. Beraber
+kullanalım bunu. Dışarı nasıl çıkarmış?
+İçerisi pozitif ya da 0sa aynen çıkar.
+Hocam eğer ki mutlak değer içerisindeki
+ifade negatifse yani bak bilmiyorum
+içeride bir şeyler var böyle a + b - c
+terimli bir şeyler var fark etmez.
+İçerisi negatifse işlemi yaptım, baktım
+içerisi negatif çıkıyor. Dışarı nasıl
+çıkar? Önüne eksi alarak çıkar. Ya da
+biz onu daha güzel bir tabirle
+söyleyelim. İşaret değiştirir. İşaret
+değiştir. Bütün olay, bütün mevzu bu.
+Şimdi mutlak değerli fonksiyonu bu
+şekilde görünce hocam bu da doğru değil
+mi anlamında bazen kavramlar çıkıyor. X
+&gt; 0 o zaman dışarı aynen çıkar. x 0'a
+eşit ya da 0'dan küçük olunca önüne eksi
+alarak çıkar. Burada 0'ı nereye dahil
+ettiğinin bir önemi yok. Çünkü 0 önüne
+eksi de yazsan, artı da yazsan nötrdür.
+O fark etmez. O yüzden ister eksi tarafa
+ekle ister 0'ı pozitif tarafa ekle.
+Burada yaptığımız gibi. Ama biz kendi
+aramızda yapmışız bunu. Bir anlaşma
+yapalım. Diyelim ki arkadaş bundan sonra
+biz 0'ı pozitif tarafa ekleyelim. Hani
+bir daha acaba negatife mi ekleyeyim,
+0'a mı ekleyeyim diye karmaşaya
+düşmeyelim. Bu kendimizce bir kabul
+olsun. Tamam mı? işleri kolaylaştırmak
+için. Güzel. Şimdi mutlak değerini
+anlama gel. Hatta şunu bile söyleyenler
+olacaktır. Hocam mutlak değerli
+fonksiyonu bazen böyle de çıkartıyoruz
+ama x &gt; 0 isa dışarı aynen çıkar. X eğer
+0'a eşitse dışarı 0 diye çıkar. Eğer ki
+x 0'dan küçükse dışarı nasıl çıkar?
+İşaret değiştiri çıkar. Ama ben ne
+diyorum ısrarla? Benim kullanacağım
+mutlak değer tanımı bu. Bak, girizgah
+biraz uzun olmuş olabilir ama konuyu
+öğretici girizgah budur. Şimdi bir tane
+mutlak değer sorusu çözeceğim. Hemen
+fonksiyonuna geçmiyorum direkt. Bir
+kargo şirketi merkez deposundaki uzaklık
+esas alınarak farklı dağıtım noktalarına
+malzeme taşıyormuş. Bu şirket merkez
+depoyu M noktası. Şimdi merkemiz merkez
+neresi? M noktası. Farklı şubeleri de şu
+harfler olarak belirlemiş. Her şube
+merkezin bulunduğu noktaya olan uzaklığı
+ölçülmüştür. Zaten şu uzaklık kavramını
+gördüm. Konu olarak aklıma direkt ne
+gelmeli? Mutlak değer gelmeli. Güzel.
+Hedef belli. Merkez depoluyla bıdıb bıdı
+şubelerinin doğrusal bir hat üzerinde
+olduğu biliniyor. Süper. Doğrusal
+olduğunu da biliyoruz. Bak bu
+doğrusallıkta örneğin merkez şube
+burası. Tamam mı? Herkesin buna göre
+uzaklığına bakacağız. M noktası merkez
+depo olarak 0 noktasıdır. Aa sayı
+doğrusu gibi oldu. Tam da benim
+istediğim mutlak değer tanımına uyuyor.
+0a olan uzaklık kısaca bak A ve B
+noktaları sırasıyla 4 birim ve 2 birim
+merkezin solunda sırasıyla 4 birim ve 2
+birim. Şimdi 4 birim uzaklıkta bulunan
+kim? A. O zaman A burada şuradan şurası
+4 birim. 2 birim uzaklıkta bulunan kim?
+B. O zaman B burada arkadaş. Devam
+ettim. CD, E noktaları ise sırasıyla 3
+1, 5 birim merkezin sağında. 5 birim
+merkezin sağında bulunan kim? E noktası
+şurası arkadaş. Buradan burası 5
+birimmiş. Yazdım. Sırasıyla dediği için
+D noktası 1 birim uzaklıkta. D noktası
+şuradaymış. Buradan burası 1 birim
+uzaklıkta. C noktası 3 birim uzaklıkta.
+Hadi burası da C noktası olsun. Şurası
+da 3 birim uzaklıktaymış. Tüm bu
+verilenlere göre şubelerin merkeze olan
+uzaklıkları sayısal olarak belirleyiniz.
+Şubelerin konumlarını gösteren tabloyu
+doldurunuz. Arkadaş şimdi şubenin
+merkeze olan uzaklığı artık negatif
+ifade edilebilir mi? Mümkün değil.
+Negatif ifade edemezsin. Bunu ne yapmak
+zorundasın? Ya pozitif ya 0 olarak ifade
+edeceğiz. Örneğin A noktası. A noktası
+normalde sayı doğrusunda aslında kaça
+tekabül ediyor? -4'e tekabül ediyor.
+Yani sayı doğrusundaki konumu a'nın
+nedir? -4'tür. Ama merkeze olan uzaklığı
+nedir? + 4'tür. Aslında özünde yaptığın
+şey sen uzaklık kavramı dediğin an
+Türkçe karşılığı şudur. Yaptığın işlemin
+-4'ün 0a olan uzaklığı kaç birimdir
+diyorsun? 4 birimdir. Ben az önce ulan
+uzaklığı mı dedim ya? Olan uzaklığı
+olacak o. Yeni kalktık. Sesim de daha
+yeni yeni açılıyor. Geldim B'ye. B
+noktası aslında sayı doğrusunda nerede
+çizdim? -2'de çizdim. E benden aslında
+B'nin -2'de olduğunu söylüyor ama mutlak
+değerce -2'nin anlamı neydi? + 2'ydi.
+Hocam geldim C noktasına. C noktasının
+merkeze olan uzaklığı ya da sayı
+doğrusunda nerede? + 3'te. Aslında
+benden istediği merkeze olan uzaklığı da
+yine + 3'tür. Zaten sayım pozitifti.
+Onda değişen bir şey olmadı. D noktasına
+geldim. Merkeze olan uzaklığı 1di.
+Aslında bunun da anlamı sayı doğrusunda
++ 1'e tekabül ediyor. Mutlak değerce
+1'in anlamı da yine nedir? 1'dir. Aynı
+şekilde geldim. E noktası aslında sayı
+doğrusunda x = 5'e tekabül ediyor. E
+mutlak değerce 5 demek merkeze olan
+uzaklığı 0 olan uzaklığı demek o da 5
+demektir. Olay mevzu galiba anlaşıldı
+arkadaşım. Şimdi yola devam ediyoruz.
+Bak burada B seçeneğimiz var. Şuradan
+bir okuyalım. Bir şubenin konumu
+bağımsız değişken yani x merkeze olan
+uzaklığı ise bağımlı değişken olsun.
+Tablodaki değerlerden yararlanarak
+bağımlı değişkenin x cinsinden cebirsel
+gösterimini yapınız. Şimdi benden şunu
+istiyor. Diyor ki kardeşim diyor ben
+sana diyor bağımsız değişkeni verdim. X
+uzaklıklar olsun. Sen bunu bir fonksiyon
+şeklinde bana göstermeye çalış. Mesela
+buradaki değerleri alalım. Ne var
+elimizde? -4 var. -2 var. Ondan
+sonracıma 1 3 5 var. 1 3 5 var. Her
+birinde ayrı ayrı sonucu az önce buldum.
+Şimdi bu bağımsız değişken -4 olduğunda
+cevap ne oldu? +4. -2 olduğunda + 2.
+Kısaca aslında ben buradan buraya
+geçerken hep neyi aldım? X'in mutlını
+aldım. Soruda benden özellikle şunu
+vurguluyor. Ben diyor bunu bir fonksiyon
+olarak yazmak istiyorum. Uzaklığını
+bağımlı değişken olsun. Tablodaki
+değerlerden de yararlanarak bağımlı
+değişkenin x cinsinden cebirsel ifadesi.
+X cinsinden cebirsel ifadesi ne
+olacaktır? mutlak içerisindeki
+x olacaktır. Burası tamam mı? Bak daha
+tam olarak fonksiyon yok aslında. Hatta
+buradaki fx'i de silebilirim. Mlak x'i
+yazarsam çok daha şık olacak. Güzel.
+Cebirsel olarak böyle gösterilir hocam.
+Şimdi geldim bağımlı ve bağımsız
+değişkenler arasındaki bu değişkiyi
+gerçek sayılarda tanımlı bir fonksiyon
+olarak ifade edip grafiğini çiziniz.
+İşte geldik bombanın patladığı noktaya.
+Arkadaş bağımlı ve bağımsız değişken
+bana bir de neresini veriyor? tanım
+kümesini veriyor. Sen bir fonksiyonun
+tanım kümesini verdiğin andan itibaren
+olay bitmiştir. Ben diyelim ki bu
+fonksiyonun adına fonksiyonu diyeyim.
+Gerçek sayılarda tanımlı demek ne demek?
+R'den R'ye tanımlı demekti. Biz bunu
+doğrusal fonksiyonların başında
+anlatmıştık. Şimdi geldim. f(x)'in
+kuralı ne olacak? Bağımlı değişkenim
+artık mlak x ile gösterilmesi gerekiyor.
+Süper. Artık bu şekilde gösterilecek.
+Ben yine tablodan yararlanayım. Tablodan
+faydalanıp grafiğini beraber çizelim.
+İlk defa mutlak x'in grafiğini
+çizeceğiz. Hazırlan. Şimdi ne
+yapıyordum? Ben buradan değerler
+veriyordum. Mesela -2, -1, 0, 1, 2
+şeklinde değerler veriyordum. Şurası +
+2, burası + 1, burası 0, burası +1,
+burası + 2 olacak. Doğru mudur? Hemen
+geldim. Koordinat düzlemini çizdim. Bu
+koordinat düzleminde tek yapmam gereken
+noktaları yerine yazmak. Doğru mudur?
+Yazalım bakalım. Hocam, x'i diyor sen -2
+alacaksın, -1 alacaksın, +1 alacaksın, +
+2 alacaksın. -2 aldığında cevap nereye
+gidecek? + 2'ye gidecek. O zaman şöyle
+mi çizmemiz doğru olur? Bak şuradan bir
+nokta aldım. Bunu çizdim. -1'e 1'i çiz
+diyor. -1'e + 1'i çizdim. Tamamdır. 0a
+0'ı işaretle diyor. İşaretledim. + 1'e
++1'i işaretle diyor. +1'e +1 noktasını
+işaretledim. + 2'ye + 2 noktasını
+işaretliyor. Onu da işaretledim. Şimdi
+bu noktaları birleştirme vakti. Hocam
+noktalarım buradan buraya geliyor. Evet
+geldi. Ardından bu tarafa doğru kırılıp
+bu tarafa doğru gitti. Elde ettiğim
+fonksiyonun grafiği kimdir? f(x)
+fonksiyonunun grafiğidir. Bu da mutlak
+içerisinde x'in grafiğidir. Mükemmel
+hocam. Zaten zor değildi. Çizerdik biz
+bunu diyorsun ama burada önemli olan
+nokta ne biliyor musun? Hemen doğrusal
+referans fonksiyonuyla bunu
+karşılaştırmak. Hocam normal şartlarda
+yeşille çizdiğim fonksiyon nedir?
+doğrusal referans fonksiyonudur. Bak, y
+= x'in grafiğidir. Anlaştık mı?
+Anlaştık. Peki, y = x ile sadece mutlak
+koyduğumda fonksiyonun neye uğradığını
+bir tespit edelim mi hocam? Fonksiyon
+geliyor. Geliyor buraya kadar. Yani x'in
+pozitif olan taraflarında değişen bir
+şey var mı? Yok. Zaten burada bir
+sıkıntı olmadı. Aşikar. Ne zaman ki x'in
+sol tarafına geçtiğimde yani y ekseninin
+soluna geçtiğimde yani x'e negatif
+değerler vermeye başladığımda aşağıdan
+değil de artık fonksiyonum x eksenine
+göre sanki simetriye uğruyor. Normalde
+-1'e nereden geçmem lazımdı? -1'den.
+Normalde -2'ye nereden geçmem lazımdı?
+-2'den. Ama tam tersine nereye
+gidiyorum? Yukarıya gidiyorum. Bak bu
+noktaları da şöyle göstermekte fayda
+var. Bu nokta buraya taşınıyor. Bu nokta
+buraya taşınıyor. Her bir noktayı
+aslında x eksenine göre yukarı
+kaplıyorum. Bunu şöyle hayal
+edebilirsin. Hocam bak şimdi ne
+yapıyoruz? Şurada x ekseni geçtiğini
+Allah ben tam ekran yaptım sanıyorum. x
+ekseni tam şuradan geçtiğini düşün.
+Buradaki doğru parçasını ne yapıyorum
+aslında? Tam ters yukarıya doğru
+katlıyorum. O katlama işlemi sonucunda
+yukarıya geçtiğini hayal et. Güzel.
+Buraya kadar galiba oturuyor mevzu
+aslında. Özünde benim yaptığım şey ne
+biliyor musun? Biz f(x) = mlak x'i sanki
+parçalı fonksiyon grafiği gibi çizmedik
+mi? X0'dan büyükse y = x'in grafiğini
+çizdik. x 0'dan küçükse -x'in grafiğini
+çizdik. İnanmıyorum aslında. Benim
+yaptığım bak grafiğimi bir daha
+çiziyorum. Baştan sona bir daha
+çiziyorum. İzle beni. Hocam ilk gelen
+grafik aslında kimin grafiğidir? y =
+x'in grafiğidir. Nereye kadar hocam? Bak
+0 da dahil olmak üzere buraya kadar y =
+x'i getiriyorsun. Sonra devam eden
+grafik kimin grafiğidir? Bunların
+hepsini detaylı da öğrenmiştik zaten.
+Hatırla. y = -x'in grafiğidir. Burada en
+net cümle ve asla unutmaman gereken
+cümle. Benimle birlikte yazar mısın bir
+noktaya? Şuraya bir yere yazıyoruz
+arkadaş.
+Her mutlak değerli fonksiyon her mutlak
+değerli fonksiyon mutlak değerli
+fonksiyon fonksiyon aynı zamanda aynı
+zamanda nasıl fonksiyondur? Parçalı
+fonksiyondur. Parçalı fonksiyondur.
+Fonksiyondur.
+Süper. Yani biz mutlak değerli
+fonksiyonları nasıl yazabiliriz hocam?
+Parçalı fonksiyon şeklinde yazabiliriz.
+E parçalı fonksiyon şeklinde yazdığımda
+da oluşan grafik kimin grafiğini
+verecek? mutlak değerli fonksiyonun
+grafiğini verecek. Ama biz uzun uzun ya
+hocam bunu parçalıya ayıralım bir parça
+böyle bir parça böyle çizmeye gerek var
+mı? Gerek yok. Neden? Mutlak değerli
+fonksiyon asla yani bir uzaklık kavramı
+asla negatif değerler alamıyordu, değil
+mi? Alamadığı için bizim negatif değer
+alan bölgemiz burası. Buranın altında
+kalan parçayı nereye taşıyorsun?
+Yukarıya taşıyorsun. Olayı bitiriyorsun.
+Şimdi gel hocam. hx = ek - mlak
+içerisinde x fonksiyonun grafiğini aynı
+koordinat düzleminde çizerek
+karşılaştırın diyor. Biz ama yine ne
+yapmak zorundayız? Nereden nereye
+tanımla hocam? Tanım kümesi olmazsa
+çizemezsin. Reel sayılardan reel
+sayılara. Aynı şekilde hx'in kuralı ne
+olacak bu sefer? Eksi mutlak içerisinde
+x olacak. E ben işleri kolaylaştırmak
+istiyorum sana. Ne yapmaya çalışacağım?
+Tabii ki önce şunu yapacağım. Bak mutlak
+içerisinde x'i bulacağım. Ardından eksi
+mutlak içerisinde x'i bulacağım. Yine
+değerler verelim. -2, -1, 0, 1, 2
+değerlerini verdik. Tamam mı? Peki -2
+verdiğimde + 2, -1 verdiğimde +1 0 1
+2'yi elde ederim. Fakat geldiğimde önüne
+eksi koy diyor. -2, -1, 0, -1, -2. Elde
+edilir mi? Elde edilir. Şimdi ne
+yapacağız hocam? Yine gel. Allah,
+kaydırdım aşağı doğru. Yine geldim.
+Grafiğimi çizeceğim. Normalde grafiğimi
+çizmek için ne yapıyorduk? Noktaları
+birleştiriyorduk. Hızlıca noktaları
+birleştiriyorum. Bak -2'de neredeyim
+hocam? -2'deyim. Şurası -1 olsun. Şurası
+-2 olsun. -1. Şurası -2 olsun. Şurası
++1. Şurası + 2 olsun. -2'de neredeyiz
+hocam? -2'deyiz. Geldim işaretledim.
+-1'de neredeyiz hocam? -1'deyiz. Geldim
+işaretledim. 0da 0dayız. + 1'de
+neredeyiz hocam? Bak +1'de neredeyim?
+-1'e geldim. 2'ye neredeyim hocam?
+-2'deyim. 2 verdiğimde de cevap beni
+nereye götürdü? -2'ye gösterd götürdü.
+Şimdi tek yapmam gereken artık bu
+noktaları birleştirmek. Noktaları
+birleştirdiğimde kimin grafiğine ulaşmış
+olacağız? H = HX = - mlak içerisinde
+x'in grafiğine ulaşacağız. Aynı yere
+şunun grafiğini de çizelim mi hocam? Az
+önce çizdiğimiz grafik kimin grafiğiydi?
+Şu mutlak içerisinde x'in grafiğiydi.
+Buna da hadi g(x) fonksiyonu adı
+verelim. Ya da biz f demişiz. f diyelim.
+Yine f(x) fonksiyonu adını verelim.
+Mutlak içerisinde x. Bunlar arasındaki
+tek fark nedir? Bunlar arasındaki tek
+fark sen eğer bu mutlak içerisinde x'in
+grafiğini çizdiysen eğer ki ulaşmak
+istediğin o x'in mutlak içerisinde x'in
+önüne eksi koymuşum. Bütün değerleri
+negatif yapmışım. Eskiden herkes
+pozitifti. değer demek y tarafında
+pozitif şeyler almak demektir. E artık
+hepsi negatif olacağı için burayı
+katlanma çizgisi olarak düşün kağıtta.
+Çat aşağı doğru bunları ne yaptım?
+Katladım. Demek ki ben mlak x'in
+grafiğini bulduğumda bana o önüne eksi
+koyduklarında o ifadenin grafiğini
+çizmemi istediklerinde tek yapmam
+gereken x eksenine göre simetri almak.
+Anlaştık mı? Bak buradan buraya geçerken
+ne yaptık? X eksenine göre simetri
+aldık. Simetri aldık. Anlaştık. Hocam
+peki mutlakın grafiğini çizerken ne
+yapıyorduk? Çok özür hocam. Normalde
+mutlak değer yokmuş gibi çiziyorum. Bu
+kimin grafiğiydi? y = x'in. X ekseninin
+altında kalan parçasını x eksenine göre
+simetri alarak yukarı taşıyorduk. Niye
+böyle yapmıştık? Çünkü asla negatif
+değerler almıyorduk. Bak buradaki
+değerler negatif. Bunları birebir yukarı
+taşıyorduk. Müthiş ya. İnanılmaz kolay.
+Sadece mantığını oturtman lazım. Şimdi
+her zaman yaptığımız gibi bu nitel
+özellikleri de birlikte dolduralım.
+Nedir bu nitel özellikler? Önce doğrusal
+referans fonksiyonunun en geniş tanım
+kümesine bütün reel sayılar. g(x) mutlak
+içerisinde x tanım kümesi diyor. Tanım
+kümesi demek x'lerde alabildiğin
+değerler demek. Bak hadi yeşil için
+konuşuyorum aslında. Bütün x değerlerini
+verebiliyor muyum? Verebiliyorum. O
+zaman bunun da tanım kümesi ne olur?
+Reel sayılar. Eksi de koysan önüne reel
+sayılar. Biz zaten tanım kümesini ne
+aldığımızı buradan bilebiliyoruz. Burada
+buna g fonksiyonu demiş. Ben kafalar
+karışmasın diye aşağıda gel biz de ona g
+fonksiyonu diyelim. Biz buna f diyerek
+başlamıştık mevzuya ama her yerde ona g
+yazalım da kafaları karıştırmayalım.
+Hani hangi fonksiyonu aldığımızda belli
+olsun. Anlaştık mı? Bu arada illa onun g
+olması gerekiyor diye bir tabir bir
+kural yok. Bil. Görüntü kümesi. Görüntü
+kümesi. Biz y ekseninde karşılık ne
+yapabiliriz? Y = x'te bütün değerleri
+alabiliriz. Bütün reel sayıları
+alabiliriz. İşte zurnanın zart dediği,
+zurt dediği yere geldik. Mutlak
+içerisinde x. Gördün hocam. Y eksenine
+karşılık gelen değerler. Bak grafiğim
+geliyor geri dönüyor. 0'a kadar geliyor
+en aşağıda y ekseninde ama artı sonsuza
+kadar gidiyor. İşte bombanın patladığı
+yer. 0dan artı sonsuza kadar değerler
+alabilir. 0ı alabilir. Peki mutlak
+içerisinde - x'in alabildiği değerleri
+söyler misin? Dikkat et. O da 0'dan
+başlıyor. Y ekseninde karşılık gelen
+değerler neresi? Eksi sonsuza kadar
+gidiyor. Tabii eksi sonsuz daha küçük
+sayı olduğu için eksi sonsuzdan nereye
+kadar geldik? 0'a kadar. Görüntü kümesi
+dediğinde y eksenine bakıyordun hatırla.
+Tanım kümesi dediğinde grafiğin x
+ekseninde taradığı bölgeye bakıyordun.
+Fonksiyonun 0ı x eksenini kestiği
+noktaydı. Bu tanımları bilmezsen
+yapamazsın. Ben hep ne diyorum?
+Matematik zeka işi değil. İstediğin
+kadar zeki ol. Fonksiyonun 0ı. Abi
+tanımını bilmiyorsan nasıl yapacaksın?
+İşte o yüzden fonksiyonun 0ı dediğimde
+tanımına bakacağız. Tanım ne diyor? X
+eksenini kestiği yer. y = x doğrusu.
+Yani doğrusal referans fonksiyonu. X'i
+nerede keser? 0da keser. Mutlak
+içerisinde x 0da keser. Önüne eksi de
+koysan 0da keser. Dikkat ettiysen her
+seferinde ne yapıyorum? X eksenini 0da
+kesip devam ediyorum. Bütün
+fonksiyonlarımda maksimum noktası. Hocam
+ne diyorduk? Doğrusal referans
+fonksiyonunun maksimum noktası yoktur.
+Neden? Doğrusal referans fonksiyonu
+negatif değerlerden başlar. Artı sonsuza
+kadar gider. Geldim. Mutlak içerisinde
+x. Bak kritik yerlerdeyiz. Mutlak
+içerisinde x. Bu maksimum noktası var
+mı? Yani y'de durduğu bir yer var mı?
+Yok. Artı sonsuza kadar gidiyor. Yani
+bununla bir maksimum noktası yoktur. E
+hocam bunu sen söyle. Mutlak içerisinde
+x ama önünde eksi var. Bak geliyor
+geliyor geliyor. Y ekseninde çarpıyor
+geri dönüyor. Y'de geldiği maksimum yer
+neresi? 0dır. Mükemmel bir bilgi.
+Ezberlemeyeceksin bunları. Bunlar
+ezberlenmez. Bunlar ezberlensin diye
+sana verilmiyor. Grafiği çizdiğinde
+yorumlayabilesin diye. Şimdi seninle
+birlikte yorumluyoruz. Minimum noktası.
+Doğrusal referans fonksiyonunun y
+ekseninde en dip noktası var mı? Yoktur.
+O zaman minimum noktası da yoktur.
+Geldim ama mutlak içerisinde x'in
+minimum noktası var mı? Y'de geldiğimiz
+en dip nokta burası. Bak en aşağı
+burası. 0'dan başlıyorum yukarı doğru
+çıkıyorum. Demek ki daha aşağı
+inmiyorum. Demek ki minimum noktam var.
+0a 0 nokta dediği için tabii bunu
+koordinat olarak yazmak zorundayım.
+Maksimum değer deseydi 0, nokta dediği
+için 0'a 0. Minimum noktası 0a 0. Peki
+mutlak içerisinde - x'in minimum noktası
+var mı? Aşağı iniyorum. İniyorum
+iniyorum. İniyorum iniyorum. Sonsuza
+kadar inebiliyorum. Hayır. Bir minimum
+değeri, bir minimum noktası bunun da
+nedir? Yoktur. Birebirlik. İşte kritik
+yerlerden biri daha. Hocam sadece yeşil
+grafiğe bakar mısın? Birebirlik neydi?
+Yatay doğru kesiyorsun. Bir noktada
+kesiyorsa ne diyorduk? Hop fonksiyon
+bire birdir. Geldim. Mutlak içerisinde
+x'e yani yeşil grafiğe. Ben yatay doğru
+çektiğim andan itibaren hatta gel bunu
+sarıyla çekelim. Çektiğim andan itibaren
+ne yaptım? İki farklı noktada kestim.
+İki farklı noktada, 3 farklı noktada, 4
+farklı noktada birden fazla noktada
+kesiyorsan kısaca birebir değildir. Bak
+bu fonksiyon birebir değil. Aynı şekilde
+çok kolay oldu hocam. Mutlak içerisinde
+-x yatay doğru mu çektim? Farklı iki
+noktada kestim ama hocam buradan
+çekseydin tek noktada keserdin. Evet
+orada tek noktada keserim ama bütün
+yatay doğruları kontrol etmek
+zorundayım. Bir tanesi bile iki farklı
+noktada kesiyorsa şunu söyleyeceksin.
+Hocam bu fonksiyon bire bir değildir.
+Bir tane bile farklı nokta yani birden
+fazla noktada kesiyorsan bire bir değil.
+Artan veya azalan olduğu aralıkları
+yazınız diyor. İşte burada da yine
+kritik yerlerdeyiz. Bu fonksiyon yani
+şey doğrusal referans fonksiyonu sürekli
+yukarı doğru gitmiyor mu? y= x
+fonksiyonu sürekli nasıl bir
+fonksiyondur? artan bir fonksiyondur.
+Peki bunun artan veya azalan olduğu
+aralığı yazarken sürekli artan fonksiyon
+yazacağız değil mi? Sürekli artan
+fonksiyon. Peki hangi aralıkta artan?
+Eksi sonsuzdan artı sonsuza kadar artan
+bir fonksiyondur. Geldim. Mutlak
+içerisinde x'e bak. Kritik yer. Yeşil
+grafiğe bakıyorsun. Nereden? X'in
+hizasından başlıyorum. Eksi sonsuzdan
+geldim. Geldim. Geldim. Geldim. Geldim.
+Geldim. 0'a kadar. 0'a kadar. Bu
+fonksiyonun değeri hep ne oldu?
+azaldı. Demek ki bu fonksiyonun azalan
+olduğu bir aralık var. Bir de ne olduğu
+bir aralık var. Muhtemelen artan olduğu
+bir aralık var. Ayrı ayrı yazıyorum.
+Nereden gelmiştim az önce gelirken? Eksi
+sonsuzun hizasından geldim. Nereye
+kadar? 0'a kadar. Yazalım. Eksi
+sonsuzdan 0a kadar azalan bir grafik
+çizdim. Hocam niye sen burayı kapalı
+grafik yaptın? Artanlık, azalanlık bir
+aralık kavramıdır. Noktasal bir kavram
+değildir. Yani ister açık yap ister
+kapalı yap. Aslında ikisi de doğru ama
+en geniş olduğu azalan aralık diye
+sorulduğunda ki yıllarca MEB'in
+kitabında bu hatalı olarak basıldı
+arkadaşlar. Hatalı olarak verildi bu
+bilgi. Öğretmenler birbir aralasında,
+matematikte böyle şeyler çok olur.
+İnternette işte Facebook gruplarında
+olsun, WhatsApp gruplarında olsun işte
+burası açık olacaktı, kapalı olacaktı.
+En son noktayı koydular arkadaşlar.
+Burası kesinlikle kapalı aralık olmak
+zorunda. Çünkü tanım bize çok net
+söylüyor. Artanlık, azalanlık bir aralık
+kavramıdır. Tek başına 0 noktası
+artandır ya da azalandır diyemezsin. Bu
+sebeple biz burayı nasıl alıyoruz?
+Kapalı aralık arıyoruz. Açık alırsan
+hatalama ama değil. Ama şu sorunun
+cevabı da değil. En geniş olduğu, azalan
+aralığı söyler misin? En geniş olduğu,
+azalan olduğu aralık eksonsuzla 0
+aralığıdır. O da kapalı aralıdır.
+Anlaştık mı? Burası çok ince detay bir
+bilgidir ama bilirsen senin için iyi
+olur. Derece tayfayı zaten böyle böyle
+yetiştirirsin. Şimdi geldim artan olduğu
+aralığa. Yine yeşil grafiğime bakıyorum.
+0ın hizasından başlıyor. Nereye kadar
+gidiyor hocam? Artı sonsuza kadar. Artan
+olarak gidiyor. O halde yine 0'ı kapalı
+aldım. Artı sonsuza kadar gittim. Neden
+0ın kapalı olduğunu söyle sormuyorsun
+artık bana değil mi? Ama şu kafana
+takılıyor. Hocam 0 artan aralıkta mı
+azalan aralıkta mı? Ben de sana yine
+aynı şeyle cevap veriyorum. Tanım.
+Artanlık, azalanlık noktasal bir kavram
+değildir. Aralıkla ifade edilir. O
+yüzden tek başına 0'ın artan ya da
+azalanlığı diye bir mevzu söz konusu
+olamaz. O yüzden iki tarafa da
+ekleyebilirim.
+Anlaştık mı? Şimdi mutlak içerisinde x
+ama önünde eksi vardı. Dikkat et. Bu
+bölgede sürekli ne yapıyor bu fonksiyon?
+Artıyor. Eksi sonsuzun hizasından
+geliyorum. 0'a kadar. Önce azalan yazdım
+gerçi ama altına da şurada artan olduğu
+aralığı yazalım. Artan olduğu aralık
+neresidir? Eksi sonsuz 0 aralığında
+artandır. Bak öbür fonksiyonun tam tersi
+gibi davranıyor zaten. Geldim 0ın
+hizasından artı sonsuzun hizasına kadar
+x'e göre cevap verilir. Artanlık
+azalanlık. Çünkü tanım bölgesine
+bakılır. Ne yapıyoruz? Sürekli azalıyor.
+O zaman azalan olduğu azalan olduğu
+aralığı ha şimdi yazıyorum. Nereden
+başladım? Kapalı 0dan başladım. artı
+sonsuz aralığına kadar azalarak devam
+ettim. Bu sayfa belki de bütün mutlak
+değer fonksiyonunu öğrenmek için yeterli
+bir sayfadır. Ama ben boş duracak mıyım?
+Hayır. Sana ekstra bilgiler anlatacağım.
+Burada önemli bazı mevzulardan
+bahsedeceğim. Ya da bu dersi hiç şey
+yapmayalım, bölmeyelim. Şöyle bölelim mi
+arkadaşlar? Ben size bir ders daha
+göndereyim. Mutlak değer fonksiyonuyile
+ilgili. Tam buradan bitirelim. Tam
+tadında tuzunda yorulmadan ama seri
+halde her gün 9. sınıf videoları gelmeye
+devam edecek. Dilersen şöyle yapalım.
+Bir ders burayı beraber işliyor
+olacağız. Şimdilik benden bu kadar. Bir
+sonraki derste görüşene kadar kendine
+iyi bak. Hoş kal. Hoşça kal. Yalnız
+videolara yorum atmayı, beğeni atmayı
+unutmayalım. [müzik]
+Pho Yeah.

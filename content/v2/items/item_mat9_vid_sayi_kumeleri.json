@@ -22,7 +22,13 @@
       ],
       "sourceTheme": "SAYILAR",
       "videoSearchScore": 10.4,
-      "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025"
+      "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.tr.vtt",
+      "transcriptFingerprint": "426e959c263c3dbc"
     },
     "provider": "Rehber Matematik",
     "topic": "Sayı Kümeleri ve İşlem Özellikleri"

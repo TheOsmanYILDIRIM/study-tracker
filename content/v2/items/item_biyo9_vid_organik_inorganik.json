@@ -15,7 +15,7 @@
       "sourceSection": "Organik ve İnorganik Moleküller",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "d580c479ded4cda2",
       "sourceWeeks": [
         34,
@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "ORGANİZASYON",
       "videoSearchScore": 4.4,
-      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş"
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_organik_inorganik.tr.txt",
+      "transcriptFingerprint": "1731a5bd1f88a777",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_organik_inorganik.tr.tr.vtt"
     },
     "provider": "Dr. Biyoloji",
     "topic": "Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma"

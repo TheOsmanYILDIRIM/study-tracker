@@ -21,7 +21,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "125e2f913b1573d6"
+      "fingerprint": "125e2f913b1573d6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.tr.vtt",
+      "transcriptFingerprint": "79f3890b713032ec"
     }
   }
 }

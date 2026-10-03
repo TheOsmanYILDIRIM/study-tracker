@@ -30,7 +30,13 @@
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
       "fingerprint": "bbb2b75eab91a579",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.tr.vtt",
+      "transcriptFingerprint": "23d6e07723c92c83"
     }
   }
 }

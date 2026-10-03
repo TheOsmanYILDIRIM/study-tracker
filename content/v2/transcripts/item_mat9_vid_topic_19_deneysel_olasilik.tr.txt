@@ -1,0 +1,712 @@
+9. sınıf tayfa. Selamlar. Daha 9. sınıf
+tayfa demeyelim de artık yavaş yavaş 10.
+sınıf tayfa diyeceğiz. Ey güzel
+arkadaşım 9. sınıf matematiğin artık
+geldik son teması olan 7. temaya verden
+olasılığa deyip son temayı da işleyip
+artık 9. sınıf matematiğine son noktayı
+beraber koyacağız ve önünde bir yaz
+tatili var. O yaz tatilinin sonucunda da
+10. sınıfa doğru koşar adımlarla
+gideceksin. Yalnız bu yaz tatilinde de
+9'dan 10'a geçenler için de marif model
+kamplarımız olacak. Takipte kalırsam
+bunların her birinin duyurusunu
+yapacağız. Beraber bu yaz döneminde hem
+tatilimizi yapalım hem de önümüzdeki
+yıla 10. sınıfa da sağlam bir şekilde
+beraber hazırlanalım diyoruz. Artık son
+bir tema için 7. Tema elimize kalemi,
+önümüze notumuzu aldıysak hiç korkma.
+Biliyorum olasılık lafı duydum. Biraz
+can sıkar ama basit mantıklarla en temel
+mantıkla başlayacağız. Bu derste biraz
+şöyle bir sözel kısımlarını
+inceleyeceğiz. Sonra adım adım
+olasılığın derinliklerine ineceğiz. O
+halde diyelim mi beraber gönder gelsin
+be hocam. Şimdi ey güzel arkadaşım
+olasılığa giriş yapmadan önce olasılığı
+tanımlamak için önce bazı durumlardan,
+bazı kavramlardan bahsedeceğim. Önce
+olaydan beyler bayanlar bir olay mı var?
+Gelelim mi? Takılalım mı şurada ne var?
+Durum nedir? Dediğimizde hani olay
+lafını kullanıyorsun ya cümle
+içerisinde. Olay dediğim şey matematikte
+bir deney sonucunda gerçekleşmesini
+istediğimiz veya beklediğimiz durumların
+kümesidir. Bu tanımı daha iyi anlamak
+için bilmemiz gereken temel kavramlar
+var. İşte olay kavramını daha iyi idrak
+etmek için önce bir deneyden
+bahsedeceğim sana. Deney nedir hocam?
+deney. Deney sonuçları önceden
+belirlenemeyen ancak gerçekleşebilecek
+tüm sonuçları bilinen eylemlere deney
+denir. Örneğin bir sayı kübünün
+atılması, bir havanın havaya atılması.
+Bunların her biri bir deneydir. Bir eee
+sayı daha doğrusu bir parayı havaya
+attığın zaman bunun sonucunda neler
+çıkabilir? Ne çıktılar olabilir? Hocam
+bir yazı gelme ihtimali vardır. Bir de
+tura gelme ihtimali vardır. Bu
+yaptığımız işlem parayı hava havaya atma
+işlemine biz ne diyormuşuz? Deney
+diyormuşuz. Ya da torbadan top çekmek,
+torbadan bilyeler çekmek. Bunların her
+birini deney olarak adlandıracağız.
+Çıktıysa bu deneylerin sonucuna
+diyeceğiz. Bir deneyin gerçekleşebilecek
+her bir olası sonucuna denir. Mesela sen
+demin o parayı havaya attın. havaya
+attığında oluşabilecek durumlar,
+sonuçlar nelerdir? Parayı havaya atıp
+baktığımızda yani elimize alıp
+baktığımızda düştüğünde yazı gelecektir
+ya da tura gelecektir. İşte biz buna
+deneyin sonucunda gerçekleşebilecek
+çıktılara diyoruz. Yani çıktı demek
+sonuç demektir. Bir sayı küpü atma
+deneğinde ya da bir zar atma deneyi de
+olabilir. Zarı attığın zaman hangi
+ihtimaller var zarın yüzeyinde ön
+yüzeyine gelebilecek? 1 gelir, 2 gelir,
+3 gelir, 4 gelir, 5 gelir, 6 gelebilir.
+İşte bunların her birini ne olarak
+adlandıracakmışız? Çıktı olarak
+adlandıracakmışız. Evet, sıkıcıdır
+bunlar ama bu kavramları bilmeden de
+soru çözmek olmaz. Hemen devam ettim.
+Örnek uzaya geldim. Örnek uzay ne? Bir
+deneyde elde edebilecek tüm çıktıların,
+olası tüm durumların oluşturduğu küme
+kümeye eee örnek uzay. Yani aslında buna
+hani evrensel küme olarak tanımladığımız
+küme bütün kümeleri içeren küme ya bu
+ona benzer. Yani sen bir zar atıyorsun.
+Olabilecek tüm çıktılar nelerdir? 1'den
+6'ya kadar olan tüm zar numaralarıdır.
+İşte tüm çıktıların toplam hepsine biz
+örnek uzay olarak adlandıracağız. Ve onu
+da ne ile gösterecekmişiz? E sembolü ile
+gösterecekmişiz. Mesela bu örnek uzayda
+bir zarı ya da bir sayı küpüne
+attığımızda gelebilecek olan örnek uzay
+elemanları 1 2 3 4 5 6dır. Ya bunların
+her biri birer örnek uzaydır. Bunun
+eleman sayısını se ile gösteririz. O
+halde eleman sayısı kaça eşittir dersin
+bu örnek için 6'ya eşittir dersin. Olay
+nedir hocam? Artık olayı
+tanımlayabiliriz sanki. Şimdi şimdi
+geldik olaya. Örnek uzayın herhangi bir
+alt kümesine Bir dakika. Örnek uzayın.
+Yani bütün ihtimallerin herhangi bir
+tane alt kümesine biz ne diyecekmişiz?
+Olay diyecekmişiz. Mesela eee örneğin
+bir sayı küpü atma deneyinde. Bir sayı
+attığımız zaman sayı küpü yani bir zar
+atmaktan bahsediyorum. Bir zar attığım
+zaman 1'den 6'ya kadar ihtimaller
+gelebilir. A olayı olarak tanımladığım
+olay sayı küpünün tek sayı gelmesi
+attığımda. Tek sayı gelebilecek olaylar
+nelerdir? Bak olasılığı nedir demiyorum.
+Olayları soruyorum. Biz sayı küpünü
+attığım zaman tek sayı gelebilecek olan
+olaylar 1 gelebilir, 3 gelebilir, 5
+gelebilir. O zaman bu olay A olayı
+olarak tanımladıysam 1 3 5'tir
+elemanları. B olayını sayı küpünün asal
+sayı gelmesi olarak tanımladıysam 1'den
+6'ya kadar olan numaralandırılan
+sayılardan hangileri asaldır? 2, 3 ve 5
+asaldır. O halde B olayının elemanları
+nelerdir? 2'dir, 3'tür, 5'tir dersim. C
+olayının sayı küpünün 6 gelmesi olarak
+tanımladıysam 1'den 6'ya kadar bir tane
+6 olduğu için bu kümenin elemanı 6'dır
+ve C olayının
+eleman sayısı bir tanedir ve o elemanın
+6 elemanı olarak adlandırsın. Yani
+kısacası biz olayı örnek uzayın alt
+kümesi olarak tanımlayacağız. Tamam mı?
+Peki mesela bir zar daha doğrusu bir
+parayı havaya attığın zaman tüm örnek
+uzay nedir deseydim? yazı ve turadır
+derdin. Peki bunun alt kümeleri nelerdir
+dersem yazı olabilir, tura olabilir
+değil mi? Bunlar birer her biri birer
+alt uzay olarak yani kısacası bizim için
+bir olay olarak tanımlayacağız. Peki
+olay çeşitleri ile devam edelim. Hocam
+basit olay, bileşik olay ve kesin eee ve
+bir de imkansız olayımız var. Basit
+olayı tanımladığımızda sadece tek bir
+sonuçtan oluşan olaydır. Eğer sayı
+küpünün 6 gelmesi eleman sayısı bir
+tanedir. Tek bir olaydan oluşuyorsa biz
+buna basit olay diyoruz. Bileşik olayı
+ise birden fazla sonuçtan oluşan
+olaydır. Sayı küpünün tek sayı gelmesi.
+1 tek sayıdır. 3 tek sayıdır. 5 tek
+sayıdır. Bak birden fazla sonuçtan
+oluşuyorsa biz bunu bileşik olay olarak
+tanımlayacağız. Kesin olay ise
+gerçekleşme olasılığı %100 olan olaya
+biz kesin olay olarak adlandırırız.
+Mesela bir sayı küpünde sayıları
+attığımızda 7'den küçük gelme olayını
+sorsaydım bir dakika ya bir zar
+attığında ya da bir sayı küpü attığında
+zaten 1'den 6'ya kadardır. 7'den küçük
+gelme olayı kesin olaydır. Ne atarsam
+atayım oyun yüzüne 7'den küçük bir sayı
+düşecektir. O zaman biz bu olayı nasıl
+olay olarak adlandırırsın? Kesin olay
+olarak adlandırsın. Bir de imkansız olay
+var. Gerçekleşme olasılığı 0 olan
+olaydır. Boş kümeye aittir. Yani boş
+kümeye eşittir. Boş küme sembolüyü ya bu
+şekilde gösterirsin ya da böyle bir 0
+koyar üstüne bir çizgik atarsam bu boş
+küme anlamı taşıyacaktır. Mesela sayı
+küpünün 7 gelmesi. E bir zarın ya da bir
+sayı küpünün 7 gelmesi olayı olabilir
+mi? Hayır. 1'den 6'ya kadar numaralardan
+oluşur. 7 hiçbir zaman gelemez. O zaman
+biz bu olaya nasıl olay deriz? İmkansız
+olay zaten. Kelime anlamlarından da bunu
+çıkartabiliyorsun. Peki adım adım
+örneklere şöyle bir yavaştan başlayalım.
+Bize bir örnek uzay verilmiş. Örneğin
+burada aile bireylerinin akşam yemeğinde
+sırasıyla hamburger, köfte, pizza, kuru
+fasulye arasından birini seçmesi. Bu bir
+olay mıdır? Evet bu bir olaydır. Yemekte
+etli bir yemeğin tercih edilmesi bir
+olay olarak verilmiş bize. Burada örnek
+uzay. Bunların her biri örnek uzay.
+Hamburger, köfte, pizza, kuru fasulye.
+Bunlar her biri örnek uzay. Tüm yani
+benim elemanlarım. Peki ben bunların
+içerisinden bir alt küme seçiyorum. Etli
+bir yemeğin tercih edilmesi bunun için
+bir nedir? Olaydır. Olay mıdır? Evet. Bu
+bir olay olarak tarif edilir. Açıklamada
+da şöyle diyebiliriz. Etli yiyecekler
+kümesi, hamburger, köfte. Bunlar örnek
+uzayın birer alt kümesidir olarak
+açıklarsın. Mesela sıradaki örneğe
+baktığımızda 4 haneli bir şifrenin her
+hanesine 1'den 4'e kadar rakamların
+gelmesi. 4 haneli bir şifrenin her bir
+hanesine 1'den 4'e kadar rakamların
+gelmesi. Bir örnek uzay olarak verilmiş
+bize. Peki olay olarak tanımlanan şey
+şifrenin sadece çift rakamlardan
+oluşması. Buranın çift rakam olması,
+buranın çift rakam olması, buranın çift
+rakam olması, buranın çift rakam olması.
+1'den 4'e kadar 2 ya da 4 gelecek.
+Buraya 2 ya da 4. Buraya 2 ya da 4.
+Buraya 2 ya da 4. Buraya 2 ya da 4. Bu
+bir artık bizim için olay belirtir mi?
+Evet. Çünkü örnek uzayın bir alt
+kümesidir. Olay belirtecek midir? Evet
+hocam. Olay belirtecektir. Şifrenin
+sadece çift rakamlardan 0 ya da 0 değil
+hocam 1'den 4'e kadar çift rakamlarımız
+ne? 2 ve 4. 2 ya da 4'ten oluşması. 2 ya
+da 4 bizim için nedir? Örnek uzayın
+örnek uzayın örnek uzayın bir alt
+kümesidir diyebiliriz. açıklamaya da.
+Peki sıradaki örneğimize baktığımızda
+bir çalma listesindeki 100 şarkının
+sırayla çalınması bize örnek uzayı
+olarak verilmiş. İçinden olay şu
+seçilmiş. Çalan şarkının pop türünden ve
+3 dakikadan kısa olması. Bu bir olay
+mıdır? Evet. Bu 100 şarkının içinde
+bazısı pop müziktüktür, bazısı rock,
+bazısı cızdır, bazısı metaldir, bazısı
+arabstir. Bilmiyorum sen hangisini
+seversin. Ben tam böyle böyle rock
+seveceğim bir adamımdır ama bilmiyorum.
+Pop da dinleriz yani. Bizim olay olarak
+tanımlanan bu türlerin içerisinden pop
+türünden ve 3 dakikadan kısa olması.
+Evet bu saydığım örnek uzay kümesinin
+içerisinden bir eleman olduğunu fark
+ediyorum. O zaman bu bir alt uzay
+olduğundan dolayı buna biz ne diyeceğiz?
+olay olarak tanımlayacağız. Peki bu bir
+olay açıklamasını nasıl diyebiliriz?
+Çalan şarkının pop dakikadan kısa
+olması, kısa olması elimizdeki örnek
+uzayın bir alt kümesidir. Örnek uzayın
+örnek uzayın bir alt kümesidir. Bir alt
+kümesidir. O halde biz bunu ne olarak
+tanımlarız? Olay olarak tanımlarız.
+Sanki işin mantığını anladın gibi. Şu
+örneğe de bakalım ve geçelim. Bir
+şehirde gelecek 7 günün hava
+durumlarının neler olabilir? Güneşli,
+yağmurlu, karlı gibi tahmin edilmesi.
+Havanın en az 5 günün yağmurlu olması.
+Havanın 5 gününün en az 5 gününün
+yağmurlu olması bir dakika bir olay
+mıdır? Yağmurlu olabilir, güneşli
+olabilir, karlı olabilir, dolu olabilir.
+Bunların içerisinden bir alt olay mı
+saydım sana? Bir alt uzay mı saydım?
+Evet. Bunların içerisinden bir alt küme
+söylemiş oldum aslında. O zaman biz bunu
+ne olarak tarif edeceğiz? Olay olarak
+tarif edeceğiz. Evet, olaydır. Neden?
+Ben nelerin içerisinden saydım? Alt
+uzaylar içerisinden saydım. Çünkü
+yağmurlu olması yağmurlu olması bir alt
+kümedir. Kimin? Benim örnek uzayımın bir
+alt kümesidir. Örnek uzayımın alt
+kümesinden bahsediyorsam biz buna olay
+olarak bahsediyoruz. Tamam mıdır? Geldim
+ikinci örneğime. Aşağıdaki tabloda boş
+bırakılan yerleri bu doldurunuz demiş.
+Olay olup olmadığından bahsetmiş bize.
+Metrobüs durağında sıranı bekle.
+Metrobüs durağında sıranı bekle. Ya bu
+bir olay değil ki. Bu bir cümle. Hem de
+nasıl bir cümle biliyor musun? Emir
+cümlesi. Emir. Şuraya açıklamaya emir
+cümlesi diyelim. Emir cümlesi. Olay
+mıdır türü? Türü nedir? Türü olay
+değildir diyelim. Olay değildir. O halde
+ne derim ben? Emir cümlelerinden olay
+çıkmaz. Bu yaz tatile çıkacak mısın? Ne
+yapıyorum? soru soruyorum. Bu da bir
+olay değildir. Olay değildir hocam. Alt
+kümelerini sayamam. Burada bir örnek
+uzay yoktur. E burada örnek uzay yoksa
+olay oluşturamam. O halde deriz ki soru
+cümlelerinden soru cümlelerinden ne
+olmaz? Olay olmaz de sanki yavaş yavaş
+bu örnek uzay nedir? Örnek uzayın
+içerisinden alt kümeler seçebiliyorsam
+buna olay dendiğini herhalde kavradım.
+Geldim şimdi sıradaki durumları
+incelemeye. Gel önce bir okuyalım
+beraber. Aşağıda 1 ve 1den çok olay
+içeren durumlar verilmiştir. İnceleyiniz
+şimdi bir olay içeren durumlara bakalım.
+Bir sayı küpünün 6 gelmesi. Evet tek bir
+olay içeriyor. Sepetten rastgele bir
+meyve seçip elma çıkması. Elma çıkması
+tek bir olaydır. Bir madeni para atılıp
+tura gelmesi, yazı ya da turadan tura
+gelmesi tek bir olaydır. Bir kartı seçip
+kırmızı renk kart seçiyorsun tek bir
+renk geliyor. Bu da bir olaydır. 1den
+çok olay ise 1den çok durum demektir.
+İki sayı küpü birlikte atılıp toplamının
+7 gelmesi, bak toplamının 7 gelmesi 1den
+çok olay içerir. 4e 3 gelebilir, 5'e 2
+gelebilir. Birden çok ihtimalden
+bahsediyorsam birden çok olay içermesi
+demektir. Hafta haftadan rastgele gün
+seçip hafta sonu olması. Hafta sonu
+günleri neler? Pazar ve cumartesi. Bak
+birden çok olaydır. Bir madeni para iki
+kez atılıp her ikisinde de tura gelmesi.
+Tura tura olarak gelmesi birden çok
+olaydır. Biz buna birden çok olay içeren
+durumlar olarak bahsedeceğiz. Eğer tek
+bir olay içeriyorsa biz bu olaya basit
+olay, birden çok olay içeriyorsa ise
+bileşik olay olarak adlandıracağız. Bak
+bu örnekleri okuduğumuzda kafanda daha
+çok canlanacaktır. Sabah erkenden uyanıp
+kahvaltı yapmak tek bir olay.
+Uyanıyorsun, kahvaltı yapıyorsun. Ancak
+sabah erkenden uyanıp spor yaparak güne
+başl. Bak şimdi spor yaparak güne
+başlıyorsun. Sabah erkenden uyanıyorsun.
+Üstüne de spor yaparak güne başlıyorsun.
+birden çok olay içeriyor. Kitap okuyarak
+vakit geçirmek. Bak vakit geçirmek.
+Kitap okuyarak vakit geçiriyorsun. Tek
+bir olay var. Kütüphaneye gidiyorum. Hem
+araştırma yapıyorsun hem de kitap
+okuyorsun. Hem kitap okuma var hem de
+araştırma yapmak var. O zaman birden çok
+olay o var. Bahçede dinlenmek tek bir
+olay. Bahçeyi sulayıp çiçekleri budalmak
+birden çok fazla olay içerdiği için biz
+buna bileşik olay diyoruz. Tek bir durum
+varsa basit olay. Birden çok durum varsa
+bileşik olay. Müzik dinlemek nasıl bir
+olaydır? Basit olaydır. Markete gidip
+alışveriş yapıp eve dönmek. Markete
+gidiyorsun, alışveriş yapıyorsun, eve
+dönüyorsun. Bunların her biri birden çok
+olay içerdiğinden dolayı bileşik olay
+olarak örneklendirebiliriz. Hadi gel
+buradaki 3üncü örneğimizde hangilerin
+bileşik yani bir olay, hangilerin basit
+olay, birden fazla olay içerenlere biz
+bileşik, tek bir olay içerenlere de
+basit olay diyorduk. Hangileri basit,
+hangileri bileşik? Bunları bulmaya
+çalışacağız. Bir olay içerenlere tik
+işareti koyuyorum. E diğerlerine de
+koymayalım o zaman. Akşam yemeği
+pişirmek. Akşam yemeği pişirmek hocam
+tek bir olaydır. O zaman tek bir olaya
+tiket koydum. Arkadaşlarla buluşuyorsun
+sonra da sinemaya gidiyorsun. Aa bir
+dakika birden çok olay içeren o zaman
+biz buna tik işareti koyalım. Bu
+birileşik olaydır. Ne diyorduk? Birden
+çok olay içeriyorsa bileşik olay olarak
+adlandırıyoruz. Bir olay varsa basit
+olay olarak adlandırıyoruz. Televizyon
+izlemek tek bir başını tek bir eylem
+var. O zaman bir olaydır. Ödev yapmak
+tek bir eylem durumu söz konusuysa basit
+olay. Doğal olarak bir olay içeriyor.
+Basit olaydır. Müzik dinleyerek resim
+yapmak. E birden fazla eylem var.
+Bileşik olaydır. Parka yürüyüşe çıkmak.
+Tek parka yürüyüşe çıkıyorsun. Bir
+olaydır. Mutfağı temizleyip akşam yemeği
+programı izlemek. İki işi birden
+yapıyorsun. Bileşik olaydır. Ödevini
+bitirip ödevini bitiriyorsun.
+Televizyonu izliyorsun. Yine nasıl bir
+olay içerecektir bizim için? bileşik
+olay içerecektir. Birden çok eylem varsa
+bileşik olay, tek bir eylemin
+içerisindeysen basit olay olarak
+adlandıracağız.
+4. sorumuza baktığımızda aşağıdaki
+tabloda verilen olaylara ait çıktılarla
+ilgili alanlara yazınız. Olayın alt
+çıktılarını eee doğru ve tam şekilde
+doldurunuz demiş. Yani olayın şimdi
+çıktı neydi? Bir verilen bize örnek
+uzaydaki tüm olası durumlar bizim için
+çıktıydı. Olayın çıktıları ise istenen
+olaydaki tüm durumları yazacağız. Olay
+şu. Bir sayı kübünün atılması deneğinde
+çift sayı gelmesi. Şimdi çift sayı
+gelmesi neler çift sayıdır? 1'den 6'ya
+kadardaki çift sayıların benim için bu
+olaya ait çıktılardır. O zaman bu
+çıktılar 2 olur, 4 olur. Bir de kim
+olur? 6 olur. Bir madeni paranın
+atılması deneyinde yazı gelmesi çıktısı
+nedir? E y'dir. Bir tek yazı gelme
+kısmıdır. Sadece kırmızı ve mavi
+bilyelerin olduğu bir torbadan çekilen
+bilyenin kırmızı gelmesi. K'yi ben ne
+olarak gösterebilirim burada? Bu olayın
+çıktısı olarak gösterebilirim. Bir sayı
+küpünün birlikte atılması deneyinde
+toplamlarının 7 gelmesi. Şimdi
+toplamların 7 gelmesi için 1'e 6 atarım
+7 yapar. 2'ye 5 atarım 7 yapar. 3'e 4
+atarım 7 yapar. Bunların her biri bizim
+için birer çıktıdır. 4e 3 atarım 7
+yapar. 5'e 2 atarım 7 yapar. Bir de
+tekrardan 4e 3 atarım ne yapar? 7 yapar.
+Bunların her biri benim için birer
+çıktıdır. Hocam sanki bir tane de eksik
+yazdık. Kimi yazmayı unuttuk? 6'ya 1 mi
+var? 1i 6'yı yazdıysak 6'ya 1'i de
+almamız lazım. Eksik bırakmadık değil
+mi? 4'ü 3'ü iki kez yazdık. O zaman şunu
+silelim artık şuradan. Şimdi oldu mu
+çıktılarım? Şimdi oldu. Haftanın
+günlerinden birinin rastgele seçimi
+deneyinde seçilen günün C harfi ile
+başlaması. Şimdi o zaman C harfiyile
+başlıyorsa benim çıktılarım neler
+olabilir? Cuma, e, C ile başlıyor.
+Cumartesi, e, başka var mı C ile
+başlayan? Başka yok. O zaman benim
+çıktım burada iki tanedir dersin,
+çıkarsın selamı. Gelirsin 5. soruya.
+Şimdi 5. soruda ne sormuş? Şöyle
+baktığımızda aşağıdaki soruları bize
+cevaplayınız demiş. Tabloda verilen dört
+deneyin bir veya birden çok olaydan
+oluşup oluşmadığını belirtiniz demiş.
+Baktım deneydeki olay sayısı 1 mi birden
+çok mu? Yani basit olay mı bileşik olay
+mı? Tespitinizi, durumunun neden basit
+veya bileşik olduğunu açıklayarak
+yazınız demiş. Hadi bakalım. Bir
+öğrencinin sınav notunun 85 veya daha
+yüksek olması. Şimdi deneydeki olay
+sayısı 85 veya daha yüksek olması ne
+demek? 85 olabilir, 86 olabilir, 87
+olabilir. Birden fazla eylem mi
+içeriyor? Evet hocam. Birden fazla durum
+söz konusu. O zaman buradaki olay sayısı
+85'ten kaça kadardır? 100'e kadardır.
+Peki buradaki olay basit olay mıdır?
+Bileşik olay mıdır? Biz bunu ne olarak
+tarif edeceğiz artık? Bileşik olay
+olarak tarif etmiş olarak tarif
+edeceğiz. Neden? Birden fazla durum söz
+konusu. Çünkü geldim ikinci örneğe. Bir
+süpermarkette alınan iki ürünün de son
+kullanma tarihinin geçmemiş olması.
+Şimdi burada bir süpermarkette alınan
+iki ürünle son kullanma tarihinin
+geçmemiş olmasında kaç tane elimizde
+olay var? Aslında iki tane olay var.
+Birden fazla olduğu için deney sayısı
+2'dir. İki tane ürün var. Açıklamaya ne
+derim o zaman? Biz ne diyebiliriz biz
+burada? Bileşik olay olarak
+adlandırabiliriz.
+Bir kişinin sosyal medya paylaşımı
+yapması. E tek bir kişi sosyal medya
+paylaşımı yapıyorsa tek bir olay vardır.
+Tek bir durum vardır. Açıklama tek durum
+olduğundan dolayı ben bunu nasıl olarak
+olay olarak tanımlarım? Basit olay
+olarak tanımlarım. Bir torbada mavi veya
+yeşil bilye çekmesi. Mavi çekebilirim,
+yeşil bilye çekebilirim. İki tane durum
+vardır. O zaman birden fazla durum varsa
+biz buna bileşik olay olarak
+adlandırılırız. Ve bunların da hangi
+olay türleri olduğunu da belirlemiş
+olduk dedim. Ve geldim hemen bir sonraki
+sayfadaki 6. soruma. Şimdi 6. soruda da
+aşağıdaki tabloda verilen her bir
+olasılık deneyi için o deneyde
+gerçekleşebilecek tüm olası durumlarının
+oluşturduğu örnek uzayın eleman sayısını
+açıklayarak yazınız demiş. Bir
+öğrencinin sınav notunun 1 ile 100
+dahili arasında bir tam sayı gelme
+deneyine bakacağız. Şimdi bir öğrencinin
+1'den 100'e kadar alabileceği puanlar 1
+2 nokta nokta kaça kadardır? 100'e
+kadardır. O zaman 1'den 100'e kadar 100
+tane tam sayı vardır. Örnek uzay dediğim
+tüm elemanlar toplamıydı. 1'den 100'e
+kadar 100 tane tam sayı olduğuna göre o
+zaman buradaki örnek uzayımın eleman
+sayısı 100 tanedir dersin. Olay basit.
+Bir madeni paranın üç kez arka arkaya
+atılma deneyim. Şimdi 1 2 3 3 kez
+atacağım. Birincisini attın yazı gelecek
+ya tura. İki ihtimal var. İkincisini
+atacağım yazı gelecek ya tura. İki
+ihtimal var. Üçüncüsünü atacağım yazı
+gelecek ya tura. E iki ihtimal var. E
+bunlar hepsi art arda üç kez atıyorsam
+aynı anda istiyorum demektir. Bağlı
+olayları çarpıyorduk. Çarptığımızda 8
+farklı durum olduğunu görürsün. O halde
+buradaki örnek uzayın eleman sayısına ne
+dersin bu sefer? 8 tanedir dersin. Kolay
+anlaşıldı mı? Bir şehrin hava durumunun
+güneşli, yağmurlu ya da karlı olması iki
+gün üst üste tahmin edilmediğini iki gün
+üst üste tahmin edeceğim. Ya güneşli
+yağmurlu ya da karlı gelecek. Kaç
+ihtimali var? 3 ihtimal var. 1inci gün 3
+ihtimal. İkinci gün yine 3 ihtimal
+vardı. E 3 k 3'ten 9. O halde burada
+oluşabilecek tüm ihtimaller benim için
+örnek uzayı oluşturuyor. O halde örnek
+uzayının eleman sayısına 9 tanedir
+dersin. Tamam mı? Bir markette 10 farklı
+meyve suyu arasından iki farklı meyve
+suyunun sırasına dikkat etmeden
+seçilmesi deneyinde örnek uzay nedir? 10
+taneden iki tane mi meyve suyu
+seçecektiniz? seçim varsa kombinasyon
+vardır. Onun o ikili kombinasyonunu
+inceliyorum hemen. 10 x 9/ 2 x 1 diye
+çözüyorduk. 10'la 2'yi sadeleştirdim. 5
+9 kere 5'ten 45. Demek ki burada
+oluşacak tüm olaylar 45 adettir. Bütün
+olayların tamamına da örnek uzay
+diyorduk biz burada. O halde örnek
+uzayımın eleman sayısı benim burada 45
+tanedir. Daha doğrusu tüm çıktıların
+tamamına biz ne diyorduk? Örnek uzay.
+Türkiye'nin 7 coğrafi bölgesinden
+rastgele birinin seçilmesi. 7 taneden
+bir tane seçiyor. Yli birlik
+kombinasyonu. O halde buradaki örnek
+uzayımın eleman sayısı kaç adet
+olacaktır? 7 adet olacaktır. Olay inan
+bu kadar basit. Sen sen şimdi örnek
+uzayı anlıyorsun. Olayı anlayacaksın ki
+bu durumlardan sonraki derste neye bir
+bağlama çekeceğiz? Artık olasılığa doğru
+bir bağlama çekeceğiz. Şimdi 7. soruda
+aşağıda verilen olayları dikkatlice
+inceleyiniz. Her bir olayın gerçekleşme
+koşulunu sağlayan eleman sayısını SA
+olarak gösterdik ve bunların eleman
+sayılarını kutucuklara yazınız demiş.
+İki basamaklı [homurdanır] doğal
+sayılarda rastgele birinin seçilme
+deneyinde 10'dan 99'a kadar hepsi değil
+mi? 10 ve 99 dahil olmak üzere bunlar
+benim aslında örnek uzayım. Bunlar
+içinden bir tane olay seçiyorum. Demiş
+ki seçilen sayının 90'dan büyük ve tek
+sayı olması. Hem 90'dan büyük olması hem
+de tek sayı olmasını istiyorsun. Neler
+olabilir? 91 93 95 97 bir de 99. Kaç
+tane eleman var? 5 tane. O halde ben bu
+olaya A olayı dediysem bu A olayının
+eleman sayısı kaç adettir? 5 adettir
+dersin. Olay bundan ibaret. 1'den 10'a
+kadar sayılardan birinin seçiminde asal
+sayı gelmesi. Şimdi asal sayı gelmesi
+bir olay. 1'den 10'a kadar sayım var. Bu
+örnek uzayı. Bunların içindeki asal
+sayılar artık bu olayı gerçekleştiriyor.
+A olayı demişim. A olayının elemanları 1
+ile 10 arasındaki asal sayılar 2, 5 ve
+7'dir. O halde A olayının eleman sayısı
+kaç tanedir? 4 tanedir dersin. 8 erkek
+ve 7 kız öğrenciden oluşan bir gruptan
+bir erkek ve bir kız olacak şekilde iki
+kişilik bir komite seçilecek. İki
+kişilik komite seçiyor. Kombinasyon
+devreye girecek. 8 erkekten bir tane
+erkek istiyorsun. 7 tane kızdan bir tane
+kız istiyorsun. Bunlar o zaman kaç
+ihtimal oluşur? 8 kere 8'in birlik
+kombinasyonu 8. 7'nin birli kombinasyonu
+7. 7 kere 8 56. O zaman buradaki oluşan
+a olayı olarak tanımlarsam bu a olayını
+56 adet şekilde gerçekleşir dersin. A
+olayının eleman sayısı da 56'dır deriz.
+Tamam mı?
+2 adet hilesiz sayı küpünün atılması
+deneyinde üst yüze gelen sayıların
+çarpımının 12 olması. Şimdi 2 adet zar
+atacağım. Üst yüze gelen sayıların
+çarpımı 12 olacak. 1 atsam 1 en fazla 6
+gelir. Diğeri 12 yapmaz. 2 atarsam ne
+gelmesi lazım diğerinin? 6 12 yaptı.
+Başka 3 atarsam 4 gelir 12 yapar. 4
+atarsam 3 gelir yine 12 yapar çarpımları
+başka 5ile gelmez zaten. 6 atarsam 2'yi
+atarım diğerinden yine çarpımları 12. O
+halde bu olaya A olayı dersem A olayının
+elemanları bunlardır. Eleman sayısı kaç
+tanedir dersem o halde eleman sayısı 4
+tanedirdi. Tamam mıdır? Geldim 8.
+soruya. Bir torbada 1'den 15'e kadar
+numaralandırılmış 15 özdeş top
+bulunmaktadır. Bu topların renkleri
+aşağıdaki gibi gruplandırılmış. Maviler
+1'den 5'e kadar, kırmızılar 6'dan 10'a
+kadar, sarılar 11'den 15'e kadarmış. Bu
+torbadan aynı anda 3 tane top çekiyoruz.
+Çekilen üç topun hepsinin farklı renkte
+olması biçiminde bir A olayı
+gerçekleşiyor. Buna göre bu A olayının
+hangisi bir alt kümesidir? Topların
+numaraları. Bakalım neler olabilir. 1 6
+11. Önemli olan bunların her birinin
+farklı rengi temsil etmesi. 1. Maviyi
+temsil ediyor. 6 kırmızıyı temsil
+ediyor. 11 sarıyı. Bak 3 tane top. Üçü
+de farklı bir renk. O zaman A olayının
+bir alt kümesidir bu. Topların renkleri
+mavi, kırmızı, sarı. Evet. Üç top. 3 de
+farklı renk olacak. O zaman bu A
+olayının bir alt kümesi olacaktır.
+Topların numaraları demiş burada 5 10 15
+olabilir demiş. 5 olursa mavi olur. 10
+olursa kırmızı olur. 15 olursa dikkat et
+sarı olur. Üçün rengi yine farklı oldu.
+O zaman 3üncü durum da A olayının bir
+alt kümesidir. Hangileri bu durumu
+tanımlar? 1, 2 ve 3 bu durumu tanımlamış
+olur. A olayının bir alt kümesi örneği
+olarak gösteririz ve geliriz bu
+dersimizin son sorusu olan 9. soruya. Bu
+arada olasılık konusunu toplamda
+yaklaşık 4 derste bitireceğim. İlk kısım
+biraz sıkıcı, sözel kısımların olduğu
+yerdir. Bir sonraki derslerde işte
+sıklıktan, görelik, sıklıktan, deneysel
+olasılıktan yavaş yavaş artık olasılığa
+girdiğim yer olacak. Ama 3üncü ve 4 ders
+artık gerçek anlamda o olasılık soruları
+çözdüğümüz kısım olacak. Geldim dersimin
+sonusuna. İki basamaklı doğal sayıların
+her bir özdeş bir karta yazılıp bir
+torbaya atılıyor. Bu torbadan aynı anda
+3 tane kart çekiliyor. A olayı bak
+neymiş. A olayı çekilen üç karttan en az
+ikisinin numarasının tek sayı olması.
+Şimdi 3 tane kart çekiyorsun. En az
+ikisinin tek sayı olması. İkisi tek o
+zaman biri çift olabilir. En az ikisi
+tek demek üçünün de tek olabileceği
+ihtimali vardır. O zaman bu a olayı ya
+bu şekilde gerçekleşecek ya bu şekilde
+gerçekleşecek. Şimdi bakalım öncülere. A
+olayının alt kümelerinden biri tam
+olarak iki tek ve bir çift kart
+seçilmelidir. Evet, gerçekten iki tane
+tek, bir tane çift seçilince A olayının
+bir alt kümesi oluşuyor mu? Oluşuyor. A
+olayının gerçekleştiği durumlardan bir
+tanesinde 11 15 59 olabilir. Hayır ya 11
+15 59. Bir dakika, bir dakika. 11 tek
+sayı. 15 tek sayı. 59 tek sayı. Hocam 3ü
+de tek sayı oldu. Olamaz deme sakın.
+Neden? Her üçünün de her üçünün de her
+üçünün de tek sayı olması en az ikisinin
+tek sayı olduğu anlamına gelmez mi? O
+zaman bu A olayının bir alt kümesi
+olarak tanımlanır. Ya bu şekilde
+gerçekleşecek ya da bu şekilde
+gerçekleşecek. O zaman ikinci öncül de
+doğru oldu. 3üncü öncüle geldiğimde
+çekilen üç kartın üçünde çift sayı olma
+durumu ya 3'ün çift sayı olma durumu
+benim istediğim o a olayı değil. A olayı
+en az ikisi çift şey en az ikisi tekti.
+En az ikisi tek demek. İki tek bir çift
+ya da 3'ün de tek olması demektir. O
+zaman 3. durum A olayının bir alt kümesi
+değildir. Doğru cevabım 1 ve 2'dir
+deriz. Çakarsın bu soruya selamı. Artık
+geliriz bir sonraki kısımda sıklık,
+göreli sıklık, deneysel olasılık, klasik
+olasılık diyeceğimiz yer yani olasılığın
+artık tanımını vereceğimiz kısımlara
+adım adım geçiş yapacağız. Bu dersi
+burada bitirelim. 3 ders daha yapıp
+bununla bunun dışına 3 ders daha yapıp
+olasılığa da noktayı koyup 9un
+matematiğinde bitirmiş olacağız. Benden
+şimdilik bu kadar. Videoyu beğenip yorum
+yapmayı unutmayalım. Sonraki videolarda
+görüşmek üzere. Her zaman söylüyorum
+sizleri çok seviyorum. Hoşça kalın.
+Hoşça kalın.
+[müzik]
+&gt;&gt; [müzik]
+&gt;&gt; H
+[müzik]

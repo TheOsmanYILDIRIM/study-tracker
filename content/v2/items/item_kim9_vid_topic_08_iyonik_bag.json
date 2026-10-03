@@ -26,7 +26,13 @@
       "videoSearchScore": 6,
       "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
       "fingerprint": "671459f1d63c868d",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt",
+      "transcriptFingerprint": "e0e330ee30a12087"
     }
   }
 }

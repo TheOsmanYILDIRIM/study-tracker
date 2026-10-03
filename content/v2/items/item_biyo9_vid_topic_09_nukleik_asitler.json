@@ -33,7 +33,13 @@
       "videoSearchScore": 16.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
       "fingerprint": "2b6a942450399aef",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.tr.vtt",
+      "transcriptFingerprint": "22d93c8cd6749c93"
     }
   }
 }

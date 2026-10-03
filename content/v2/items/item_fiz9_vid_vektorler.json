@@ -16,8 +16,13 @@
       "sourceSection": "3. Hafta: Vektörler ve Dik Kartezyen Koordinat Sistemi",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
-      "fingerprint": "6486243db87369b1"
+      "reviewStatus": "needs_review",
+      "fingerprint": "6486243db87369b1",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

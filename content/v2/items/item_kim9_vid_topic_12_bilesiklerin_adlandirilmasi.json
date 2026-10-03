@@ -25,7 +25,13 @@
       "videoSearchScore": 6.4,
       "videoCandidateTitle": "İyonik Bileşiklerin Adlandırılması + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 17",
       "fingerprint": "01045b488212f26b",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.tr.vtt",
+      "transcriptFingerprint": "e17c90c0e4a30a86"
     }
   }
 }

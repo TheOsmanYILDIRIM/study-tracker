@@ -27,7 +27,13 @@
       "videoSearchScore": 8.4,
       "videoCandidateTitle": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
       "fingerprint": "17430c9eb80bece0",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.tr.vtt",
+      "transcriptFingerprint": "b41eea550f92d1fb"
     }
   }
 }

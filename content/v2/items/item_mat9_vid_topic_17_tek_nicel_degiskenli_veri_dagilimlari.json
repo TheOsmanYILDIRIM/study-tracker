@@ -33,7 +33,13 @@
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
       "fingerprint": "45909eb3b6e78221",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.tr.vtt",
+      "transcriptFingerprint": "b7ba271a128afd1b"
     }
   }
 }

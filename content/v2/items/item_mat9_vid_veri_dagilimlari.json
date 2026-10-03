@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
       "videoSearchScore": 6.79,
-      "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik"
+      "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.tr.vtt",
+      "transcriptFingerprint": "887270a366a91271"
     },
     "provider": "Rehber Matematik",
     "topic": "Mantık Bağlaçları ve Niceleyiciler"

@@ -21,7 +21,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "a3311f9cb2414371"
+      "fingerprint": "a3311f9cb2414371",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.tr.vtt",
+      "transcriptFingerprint": "32ccc8dd260d8ebe"
     }
   }
 }

@@ -21,7 +21,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "8175e021fb9dcb69"
+      "fingerprint": "8175e021fb9dcb69",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.tr.vtt",
+      "transcriptFingerprint": "79f3890b713032ec"
     }
   }
 }

@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
       "videoSearchScore": 6.4,
-      "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025"
+      "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.tr.vtt",
+      "transcriptFingerprint": "a9429fca5308feaa"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Afet Türleri"

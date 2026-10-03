@@ -1,0 +1,462 @@
+{
+  "totalVideos": 174,
+  "youtubeVideos": 67,
+  "fetched": 58,
+  "reused": 1,
+  "missing": 0,
+  "failed": 8,
+  "details": [
+    {
+      "itemId": "item_biyo9_vid_hucre_organeller",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt",
+      "fingerprint": "d7768ba742236519"
+    },
+    {
+      "itemId": "item_biyo9_vid_madde_gecisleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_madde_gecisleri.tr.txt",
+      "fingerprint": "c98e403564f34747"
+    },
+    {
+      "itemId": "item_biyo9_vid_organik_inorganik",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_organik_inorganik.tr.txt",
+      "fingerprint": "1731a5bd1f88a777"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
+      "fingerprint": "768ae0dbf1fd24f0"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+      "fingerprint": "0243614dcf9148b2"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
+      "status": "reused",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_05_karbonhidratlar",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt",
+      "fingerprint": "aa74139f85af8015"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_06_lipitler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
+      "fingerprint": "a30bd103306267d1"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_07_proteinler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
+      "fingerprint": "b5ebaf2a8faa15c2"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_08_enzimler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
+      "fingerprint": "a7e85c308adb2be2"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_09_nukleik_asitler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
+      "fingerprint": "22d93c8cd6749c93"
+    },
+    {
+      "itemId": "item_biyo9_vid_topic_10_vitaminler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
+      "fingerprint": "17ad44db420bf034"
+    },
+    {
+      "itemId": "item_cog9_vid_doga_insan",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
+      "fingerprint": "9c4e775068919daa"
+    },
+    {
+      "itemId": "item_cog9_vid_harita_bilgisi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
+      "fingerprint": "92ed5bed2a0c5a22"
+    },
+    {
+      "itemId": "item_cog9_vid_nufus_ve_yerlesme",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
+      "fingerprint": "a9429fca5308feaa"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
+      "fingerprint": "514291f0451e6158"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_03_cografya_biliminin_gelisimi.tr.txt",
+      "fingerprint": "514291f0451e6158"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
+      "fingerprint": "b0e60d4115d77a24"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.txt",
+      "fingerprint": "e4c41fbce21b506c"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.txt",
+      "fingerprint": "685ca31f6189386c"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.txt",
+      "fingerprint": "4cec61ccf59f829c"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
+      "fingerprint": "a9429fca5308feaa"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.txt",
+      "fingerprint": "a9429fca5308feaa"
+    },
+    {
+      "itemId": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
+      "fingerprint": "34d7daa0f04f7cdc"
+    },
+    {
+      "itemId": "item_fiz9_vid_fizik_giris",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.txt",
+      "fingerprint": "dbd42f4bde0e667a"
+    },
+    {
+      "itemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
+      "fingerprint": "55aad1981b5f804a"
+    },
+    {
+      "itemId": "item_fiz9_vid_topic_17_hal_degisimi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
+      "fingerprint": "751b67c63da7e410"
+    },
+    {
+      "itemId": "item_fiz9_vid_vektorler",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_kim9_vid_atom_modelleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
+      "fingerprint": "7cd92b2c6669ff39"
+    },
+    {
+      "itemId": "item_kim9_vid_kimya_bilimi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
+      "fingerprint": "e17c0606ddfc4fc4"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
+      "fingerprint": "ea98a3ebca4304a2"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
+      "fingerprint": "9013d1eb8739b56a"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_08_iyonik_bag",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
+      "fingerprint": "e0e330ee30a12087"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_09_kovalent_bag",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
+      "fingerprint": "895c0a3f6faf371f"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
+      "fingerprint": "1aac0c26e1ac566f"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.txt",
+      "fingerprint": "e17c90c0e4a30a86"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_14_katilar_ve_ozellikleri.tr.txt",
+      "fingerprint": "384dfc22c8b7c3e0"
+    },
+    {
+      "itemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik.tr.txt",
+      "fingerprint": "91bb8e2321977640"
+    },
+    {
+      "itemId": "item_mat9_vid_algoritma_temelleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.txt",
+      "fingerprint": "9b90a8e7ecbc81a2"
+    },
+    {
+      "itemId": "item_mat9_vid_aralik_farki",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt",
+      "fingerprint": "fa715604932cb476"
+    },
+    {
+      "itemId": "item_mat9_vid_araliklar_gosterim",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt",
+      "fingerprint": "8b626f71936a91a8"
+    },
+    {
+      "itemId": "item_mat9_vid_geometrik_donusumler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.txt",
+      "fingerprint": "5faa10ff494c65cb"
+    },
+    {
+      "itemId": "item_mat9_vid_koklu_mantik",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_olasilik_turleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.txt",
+      "fingerprint": "16557446b5eb8f90"
+    },
+    {
+      "itemId": "item_mat9_vid_rasyonel_usler",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_sayi_kumeleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
+      "fingerprint": "426e959c263c3dbc"
+    },
+    {
+      "itemId": "item_mat9_vid_teoremler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
+      "fingerprint": "20f59b1eff4fffee"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
+      "fingerprint": "23d6e07723c92c83"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.txt",
+      "fingerprint": "7dc77c5e46819a43"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
+      "fingerprint": "2ad01955011f72cc"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
+      "fingerprint": "5faa10ff494c65cb"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
+      "fingerprint": "b7ba271a128afd1b"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_19_deneysel_olasilik",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.txt",
+      "fingerprint": "b41eea550f92d1fb"
+    },
+    {
+      "itemId": "item_mat9_vid_ucgende_aci",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
+      "fingerprint": "c24a297ec4ace9fd"
+    },
+    {
+      "itemId": "item_mat9_vid_uslu_bolme",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_uslu_giris",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_uslu_kurallar",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_uslu_negatif",
+      "status": "error",
+      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+    },
+    {
+      "itemId": "item_mat9_vid_veri_dagilimlari",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
+      "fingerprint": "887270a366a91271"
+    },
+    {
+      "itemId": "item_tar9_vid_birey_toplum",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.txt",
+      "fingerprint": "79f3890b713032ec"
+    },
+    {
+      "itemId": "item_tar9_vid_kaynak_turleri",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
+      "fingerprint": "32ccc8dd260d8ebe"
+    },
+    {
+      "itemId": "item_tar9_vid_olay_olgu",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
+      "fingerprint": "79f3890b713032ec"
+    },
+    {
+      "itemId": "item_tar9_vid_yardimci_bilimler",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.txt",
+      "fingerprint": "32ccc8dd260d8ebe"
+    },
+    {
+      "itemId": "item_tde9_vid_soz_sanatlari",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
+      "fingerprint": "ce3abaffa6c6dffb"
+    },
+    {
+      "itemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt",
+      "fingerprint": "b942c35900634519"
+    },
+    {
+      "itemId": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
+      "fingerprint": "b942c35900634519"
+    }
+  ],
+  "generatedAt": "2026-10-03T17:39:42.792Z"
+}

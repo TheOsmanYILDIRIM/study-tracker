@@ -27,7 +27,13 @@
       "videoSearchScore": 8.95,
       "videoCandidateTitle": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
       "fingerprint": "95595f44444eaaf9",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.tr.vtt",
+      "transcriptFingerprint": "ea98a3ebca4304a2"
     }
   }
 }

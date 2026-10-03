@@ -27,7 +27,13 @@
       "videoSearchScore": 10.12,
       "videoCandidateTitle": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
       "fingerprint": "83e0b0f1e09e1a19",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.tr.vtt",
+      "transcriptFingerprint": "7dc77c5e46819a43"
     }
   }
 }

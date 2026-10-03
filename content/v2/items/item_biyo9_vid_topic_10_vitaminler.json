@@ -33,7 +33,13 @@
       "videoSearchScore": 7.4,
       "videoCandidateTitle": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
       "fingerprint": "8b13c3e9e5c6d261",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.tr.vtt",
+      "transcriptFingerprint": "17ad44db420bf034"
     }
   }
 }

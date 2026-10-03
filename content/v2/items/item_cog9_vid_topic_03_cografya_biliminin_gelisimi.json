@@ -25,7 +25,13 @@
       "videoSearchScore": 8.4,
       "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
       "fingerprint": "b0a0f02fe19caf3e",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_03_cografya_biliminin_gelisimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_03_cografya_biliminin_gelisimi.tr.tr.vtt",
+      "transcriptFingerprint": "514291f0451e6158"
     }
   }
 }

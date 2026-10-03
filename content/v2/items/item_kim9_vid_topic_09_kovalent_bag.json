@@ -26,7 +26,13 @@
       "videoSearchScore": 6,
       "videoCandidateTitle": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
       "fingerprint": "48b1354f19def983",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.tr.vtt",
+      "transcriptFingerprint": "895c0a3f6faf371f"
     }
   }
 }

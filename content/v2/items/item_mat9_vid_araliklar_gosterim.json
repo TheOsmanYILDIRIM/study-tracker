@@ -16,7 +16,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "61349661ecacb396"
+      "fingerprint": "61349661ecacb396",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.tr.vtt",
+      "transcriptFingerprint": "8b626f71936a91a8"
     }
   }
 }

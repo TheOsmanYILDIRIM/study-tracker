@@ -17,8 +17,13 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
-      "fingerprint": "6cb73c7f5932687a"
+      "reviewStatus": "needs_review",
+      "fingerprint": "6cb73c7f5932687a",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

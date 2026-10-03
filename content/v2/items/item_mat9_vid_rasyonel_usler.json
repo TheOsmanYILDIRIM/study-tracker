@@ -17,8 +17,13 @@
       "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
-      "fingerprint": "f2b5f73128476d91"
+      "reviewStatus": "needs_review",
+      "fingerprint": "f2b5f73128476d91",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

@@ -26,7 +26,13 @@
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
       "fingerprint": "7902a9df4e886d4d",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.tr.vtt",
+      "transcriptFingerprint": "95b1175967d50ac1"
     }
   }
 }

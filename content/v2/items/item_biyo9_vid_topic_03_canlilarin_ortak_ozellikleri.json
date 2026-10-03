@@ -23,11 +23,17 @@
       "sourceTopic": [
         "Canlıların Ortak Özellikleri (Hücresel Yapı, Organizasyon • Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma • Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon)"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "videoSearchScore": 15.2,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
       "fingerprint": "a1dd1ac7352aab25",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+      "transcriptFingerprint": "0243614dcf9148b2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt"
     }
   }
 }

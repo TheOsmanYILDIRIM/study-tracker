@@ -1,0 +1,825 @@
+Herkeslere selamlar. Ben Deniz Mehmet
+hocanız. Arkadaşlar 9. sınıf tayfam.
+Yepyeni bir konu, yepyeni bir başlık,
+yepyeni bir sayfa açıyoruz. Yepyeni bir
+temaya başlıyoruz. 5. tema algoritma
+bileşim. Efendim tertemiz ettik.
+Anlatılması gereken her şey ayrıntısıyla
+çözülmesi gereken her soru tipini
+göstererek, çözerek bitirdik. Şimdi
+istatistiksel araştırma süreci
+diyeceğiz. 6. tema diyeceğiz. 6. temayı
+da seri halde birlikte götüreceğiz.
+Burada ilk dersimiz biraz sözel olarak
+başlıyor. Önce o nicel verilerden
+bahsedeceğiz. Bunların temel
+kavramlarından bahsedeceğiz. Burada
+bilmemiz gereken bazı kavramlar var ki
+sonrasındaki derslerde rahat edelim. Ama
+ben sana hemen bunları göstereyim.
+Elimizde kalemler, önümüzde tabii ki
+matbook ders notları 9. sınıf ve diyoruz
+ki hocam rehber matematik hocam
+Instagram'dan takip ediyorsun değil mi?
+Takip eden tayfa gerçekten kemik
+tayfadır. Bunu unutma. Gönder gönder
+gelsin dedim. Şimdi buradaki mevzuyu bir
+göstermek istiyorum. Önce sana burada
+temel kavramlardan bahsedeceğim. Dikkat
+edersen istatiksel veri toplama süreci
+ile ilgili, nicel veri toplama süreci
+ile ilgili temel kavramlar. Bunlarla
+ilgili sorular çözeceğiz. Bu dersi
+bitireceğiz. Ama diyeceksin ki hocam
+bizim okulda şunlar işleniyor. Merkezi
+eğilim ölçüleri efendime söyleyeyim
+aritmetik ortalama anlatılıyor. Bunlarla
+ilgili efsane sorular hazırladım bu
+arada sizler için. Ortanca medyan
+değerleri anlatılıyor. Bunlarla ilgili
+şeyler yapacağız mı? Yapacağız. Ama ne
+zaman? İkinci dersi yapacağız. Şimdi bu
+ders biraz böyle sözel havasına
+geçeceğiz. Biraz böyle konuşacağız,
+sohbet edeceğiz seninle. Temel
+kavramları beraber öğrenmeye
+çalışacağız. Ama elbette sorularım da
+var tabii ki. Bu soruları da yine ne
+yapacağız? Beraber çözeceğiz. Güzel
+arkadaşım hazırsan başlayalım istersen.
+Şimdi öncelikle temel kavramımız ne?
+Neyi bilmemiz gerekiyor? Nicel veri ne
+demek? Bunu çok iyi bilmen gerekiyor.
+Çünkü sık sık sorularda karşımıza nicel
+veri şeklinde gelecektir. Sayılarla
+ifade elde edilebilen, ifade edilebilen,
+ölçülebilen verilerdir. Örneğin
+sınıftaki boyların uzunluğu, sınıftaki
+matematik not değerleri, efendime
+söyleyeyim kardeş sayısı herkesin.
+Mesela yaşlar, çocukların yaşları,
+ağırlıkları bunlar neler olabilir? Hop,
+silgiyle yanlışlıkla sildik. Orayı
+düzeltelim. Ağırlık, yaş, boy uzunluğu
+bunlar nicel verilerdir. Bize burada
+sayısal bazı değerler verecek. Geldim.
+Bağlam ne demektir? Araştırmanın
+yapıldığı, gerçek yaşam durumu yani
+verilerin hangi ortamda neden
+toplandığı, örneğin lise öğrencilerin
+boy uzunlukları okul ortamında
+topluyorsun. Doğru mu? Bunların boy
+uzunluğuyla ilgili bazı verilerle ilgili
+bazı sonuçlara varmak istiyorsun. İşte
+buna bağlam deniyor. Geldim. Evren
+araştırmanın sonuçlarını genellemek
+istediği tüm topluluk anlamına geliyor.
+Mesela mesela 9A'da, 9B'de ben bazı
+veriler topladım. Boy uzunluğu olmasın
+mesela, matematik notları olsun. Bunu
+genelliyorum. Lise 9. sınıflarda bir
+evren olarak kabul ediyorum. 9A'yı,
+9B'yi ikisini birleştirdikten sonra.
+Tamam mı? Evren dediğimde en geniş tanım
+kümesi gibi düşünebilirsin. Oradaki en
+geniş küme olarak düşünebilirsin. İşlem
+yapılan en geniş küme gibi
+düşünebilirsin. Değişken nedir? Gözlenen
+özelliklerin bireyden bireye farklılık
+göstermesi. Mesela buna neyi örnek
+verebilirim? Her öğrencinin sınav notu
+birbirinden farklı olabilir. Her
+öğrencinin boy uzunluğu birbirinden
+farklı olabilir. Bunlar değişkenliktir.
+Değişkenlikle ilgili yeni bir başlık da
+atacağım. Sonrasında burada bir
+ayrıntıya gireceğiz. Geldim sorularda
+sıkça karşıma gelecek olan en azından
+sözel sorularda karşımıza gelecek olan
+tek nicel değişken ne demektir? Bunun
+tanımı önemli. Bir veri grubunda sadece
+bir tane sayısal değişkenin olması
+durumuna biz tek nicel değişken diyoruz.
+Zaten nicel neydi? ölçülebilen
+değişkendi. Tek deyince bir tane
+anlamına geldi. Sadece boya uzunlukları
+inceleniyorsa, sadece matematik notları
+inceleniyorsa, sadece ellerindeki kalem
+sayıları inceleniyorsa gibi ifadeler tek
+nicel değişken anlamına gelecek. Az önce
+de söyledim bak değişebilirlik önemli
+bir şey. Yine bunu ayrı bir alt başlıkta
+açacağım birazdan. Aynı gruptaki
+değerlerin farklılık göstermesi durumu
+değişebilirliktir. Örneğin herkesin notu
+aynı olsaydı değişebilirlik olmazdı ama
+her öğrencinin notu birbirinden farklı
+olabilir. İşte biz bu duruma
+değişebilirlik adını vereceğiz. Buraya
+kadar galiba sıkıntı yoktur.
+İstatistikler, istatiksel araştırma soru
+türleri nelerdir? Hemen buna bakalım.
+Hatta bununla ilgili bir tane örneğim
+var. Şimdi betimleyici sorular.
+Betimleyici soru ne demek? Bir gruba
+tanımak, özelliklerini ortaya çıkarmak
+veya analiz etmek amacıyla sorulan
+sorulardır. Mesela bunu örnek ver hocam
+dersen, sınıftaki öğrencilerin ortalama
+boyu kaç santimdir diye sorduğumda
+betimleyici bir soru sormuş olurum. O
+gruba özel bir soru sormuş olurum. Ama
+bir de ne var? Karşılaştıran soru
+tipleri var. Bu da en az iki grup veya
+değişken arasında fark olup olmadığını
+öğreten, bize gösteren soru
+modelleridir. Mesela erkek ve kız
+öğrencilerin bu oy ortalamaları
+arasındaki fark. Erkek ve kız
+öğrencilerin efendime söyleyeyim not
+ortalamaları arasındaki fark. Lise 9A 9B
+sınıfındaki matematik ortalamaları ile
+ilgili fark. Bak burada ne yapıyorum?
+Karşılaştırmalı bir soru soruyorum. O
+zaman iki tip sorumuz var. Biri
+betimleyici soru. Bu genel gruba
+yöneltilen soru. Teker teker cevaplar
+alıyorsun. bir karşılaştırma söz konusu
+değil. Bir de karşılaştıran soru
+modelleri var. Kızlarla erkekler
+olabilir. 9A ile 9B'nin bazı verileri
+olabilir. Buna da karşılaştırma
+tipindeki sorular diyorsun. Şimdi bak
+hemen bir tane soru geliyor. Aşağıdaki
+istatistiksel araştırma
+sorularından betimleyici istatistiksel
+araştırma sorusu olanların karşısına b
+karşılaştıran istatiksel araştırma
+sorusu olanların karşısına k yazın.
+Betimleyici neydi? Sadece bir gruba özel
+her birine aynı soruyu soruyorsun.
+Diğerini de karşılaştırmaya
+çalışıyorsun. Lise öğrencilerinin günlük
+ortalama kitap okuma süresi kaç
+dakikadır sorusu betimleyici bir
+sorudur. Değil mi? Herkese özel olarak
+bu soruyu soruyorsun. Sadece verileri
+kendi arasında karşılaştırıyorsun. İki
+grubu değil ya da daha fazla grubu
+değil. Bak buradaki soru ne? Erkek ve
+kız öğrencileri arasında günlük spor
+yapma süreleri arasında fark var mıdır?
+Burada karşılaştırmaya çalışıyorsun.
+karşılaştıran istatiksel soru modelidir.
+Bu farklı şehirlerde yaşayan bireylerin
+aylık internet harcamaları. Farklı
+şehirler. Birden fazla şehri
+karşılaştırıyorsun. Vay bu aradaki fark
+güzel. Bir okuldaki öğrencilerin
+ortalama sınav puanından bahsettiğimde
+betimleyici tarzda bir soru sormuş
+oluyorum. Güzel. Bunu hallettik. Şimdi
+gel burada da yine betimleyici ve
+karşılaştırmacı soru tipine örnek bir
+örneğimiz var. 5 kişilik bir öğrenci
+grubundaki her öğrenciden kendilerine
+verilen farklı durumlardan birer tane
+tek nicel değişkenli veri toplamayı
+gerektiren tek nicel değişken ne
+demekti? Nicel sayısal veriler
+ölçülebilir değerlerdi. Tek dediğinde
+bir tane anlamına geliyordu. Toplamayı
+gerektiren bir bağlam oluşturmaları
+isteniyor. Aşağıdaki tabloda birinci
+sütunda öğrencilere verilen gerçek yaşam
+durumları, ikinci sütunda ise her
+öğrencinin oluşturduğu bağlamlar karışık
+şekilde verilmiştir. Buna göre tabloda
+verilen yaşam durumlarına karşılık gelen
+tek nicel değişkenli veri toplamayı
+gerektiren bağlamları eşleştiriniz.
+Şimdi bak sorudaki zorluğu malığı falan
+bırakmayın kenara. Böyle bir dinlesem
+bakayım arkadaş. Hocam birinci sayfada
+sen bir sürü tanım verdin. Ben bunları
+nasıl ezberleyeceğim falan diye. Onları
+ezberlemiyorsun bize. Onlar soruların
+içerisinde çıkıyor geliyor. Şimdi bak
+teknel değişken bağlam kelimesi geçiyor.
+Sen bunları bilirsen soruyu daha rahat
+anlarsın. O yüzden o tanımları veriyoruz
+en başta sınavda. Hayda getir bakalım
+soru soralım. Genelde yapmaz hocalarımız
+bunu. Seninki yapar onu. Ben bilmem.
+Şimdi bu gerçekten kolay bir soru tarzı.
+Gerçek yaşam durumu. Burada da tek nicel
+değişkenli veri toplamayı gerektiren
+bağlamlar. Mesela ulaşımla ilgili olan
+biz burada ölçüm arıyoruz. Son 10 yılda
+üniversite mezun sayısı ulaşımla mı
+ilgili? Bir bölgede kişi başına düşen
+yıllık elektrik tüketimi alakası yok.
+Bir ülkede satılan bisiklet sayısı bak
+ulaşımla ilgili. Bir platformda bir
+yılda izlenen film sayısı geç. Bir
+şehirde ortalama. Tamam bunu da geç. O
+zaman sen 1i aslında kimle
+eşleştiriyorsun? Eee ulaşımı buradaki
+bisiklet sayısıyla eşleştirdim. Geçtim.
+1i C ile eşleştirdim. Devam ettim.
+Sağlıkla ilgili olana bakıyorum.
+Üniversite sayısını geç. Kişi başı düşen
+yıllık elektriği geç. İzlenen filmi geç.
+Tabii ki su tüketimi sağlıkla ilgili
+olabilir diyorum. 2'yi kimle
+eşleştiriyorum? E ile eşleştirdim.
+Geldim eğitimle ilgili olan tabii ki son
+10 yılda üniversite mezun sayısı
+olacaktır. 3'ü kimle eşleştirdim? A ile
+eşleştirdim. Şuna da onayımı attım.
+Enerji ile ilgili olan zaten bir tane
+kaldı. Hop bu değil. İki tane kalmış.
+Bir bölgede kişi başına düşen yıllık
+elektrik tüketimi enerji ile alakalıdır.
+4'ü B'ye götürdüm. Otomatikman eğlence
+ile ilgili olan da filmle ilgili olan
+cümleydi. Bunu da D'eile eşleştirdim.
+Olay mevzu bu kadar. Bak buradaki
+kavramlara, tanımlara benince rahat
+ettim. Şimdi yine burayı açacağım. Sonra
+deme hocam bir sayfayı yemin ediyorum
+ezberletiyorsun bize ya. Vallahi bak bir
+ezber falan vermeye çalıştım. Yok
+buradaki mantığı sana göstermeye
+çalışıyorum. Buradaki kavramları
+öğretmeye çalışıyorum kolay kolay.
+Matematikte bu tarz soru ben de yazmam,
+sormam açıkçası ama okuldaki hocana da
+bağlı onu da söyleyeyim. Ha bazı
+okullarda buraları işlenmemiş bile.
+Yazık gün ya bunlar anlatılmaz mı abi?
+Map kitabında var. İyi bir araştırma
+konusunda bulunması gereken sekiz tane
+özellik olmalıdır. Ezberleme bunları.
+Sadece böyle kulak doygunluğu olsun. Bir
+amaç net olmalıdır. Ne demek bu? Soru
+betimleyici mi? Soru net anlaşılıyor mu
+yoksa karşılaştırıcı mı? Bunu bilmemiz
+gerekiyor. Ne tarz bir soru geliyor?
+araştırmaya değer olmalıdır. Anlamlı
+sonuçlar ve işe yarar sonuçlar
+gelmelidir. Evet, boy uzunluğuna
+baktığımızda anlamlı sonuçlardır ama göz
+rengi onun sonucunda nereye varmak
+istiyorsun? Hani çok anlamlı bir şey
+çıkmıyorsa anlamlı sonuçlar vermeli.
+Araştırmaya değer olmalı. İlgilenilen
+grup evren. Ki ilgilenen gruba biz ne
+demiştik? İşlem yapılan en büyük
+topluluğa evren adını vermiştik.
+İlgilenilen grup açık olmalı. kimin
+hakkında sorusuna net cevap vermeli.
+Hatta bununla ilgili birazdan soru da
+var. Sona doğru dersin. Dersin. Değişken
+açıkça görülmeli. Ne hakkında veri
+toplanıyor? Hani boy uzunluğu mu, ders
+notu mu? Değişken net gözükmeli.
+Değişebilirliği veri toplanarak
+cevaplanabilmeli. Özür dilerim burada 5.
+maddeyi atlıyorduk. Veri toplanarak
+cevaplanabilmeli. Soru birincil ya da
+ikincil verilerle ölçülebilir olmalı.
+Değişebilirliği olmalı. Şimdi
+değişebilirliği biliyorsun. Boy uzunluğu
+kişiden kişiye değişebiliyordu. Cevaplar
+kişiden kişiye farklılık göstermeli.
+Değişebilirlik şu durumlardan
+kaynaklanabilir. Şimdi bununla ilgili
+güzel bir sorum var. O yüzden bunu
+özellikle üstüne basarak söylüyorum.
+Hatta önemli olanları istersen senin
+için şöyle bak burayı işaretleyeyim.
+değişebilirlik şu durumlardan kaynaklı
+olabilir. Doğal ortam durumundan
+kaynaklı değişebilirlik olabilir.
+Örneğin bir deney yapılıyordur. Oradaki
+bakteri sayısına bakılıyordur. Ama
+oradaki doğal ortam işte oksijen ortamı,
+güneş ışığını alma durumu. Bu neyi
+etkiler? O deneyin sonucunda elde
+edilecek verileri etkiler. Biz buna
+doğal ortamdan kaynaklı değişebilirlik
+diyoruz. Örneğin A şehrinde ya da yan
+yana iki tane bile denesen veri ölçmeye
+çalışsan ikisinin aldığı güneş enerjisi
+bir değildir bir şey değildir. Doğal
+ortamdan kaynaklı değişebilirlik olur.
+Ölçüm kaynıyla da değişebilirlik
+olabilir. Örneğin eskiden hani böyle
+metra yoktu ya eee böyle arşın dediğimiz
+mevzuyla şöyle ölçüm yapardık işte bir
+arşın, iki arşın, 3 arşın ama herkesin
+arşını farklı olduğu için ne olur? Ölçüm
+kaynaklı değişebilirlik elde edilebilir.
+Müdahale kaynaklı değişebilirlik
+olabilir. Örneğin bir iki öğrenci
+grubundaki performansı değerlendirmek
+istiyorsun ama birine ekstra özel ders
+veriyorsun. Haliyle ne oluyor? Müdahale
+kaynaklı diğerinin daha yüksek çıkması
+olabilir. Örneklem kaynaklı
+değişebilirlik olabilir. Örnekler
+birbirinden farklıysa haliyle onların da
+verecebildiği değişebilirlik de
+birbirinden farklı olabilir. Çok
+takılma. Sadece bu cümleleri, bu
+örnekleri görmende fayda var.
+odaklanılan grup analiz yapılmasına
+uygun olmalıdır. Tek tek bireyleri değil
+grubun eğilimini ölçmelidir. Örnek en
+uzun kim değil, boy ortalaması nedir
+gibi ölçümler yapmalıdır. Nicel veri
+toplamaya uygun olmalıdır. Veriler
+sayılabilir veya ölçülebilir olmalıdır.
+Örneğin boy uzunluğu ölçülebilir veri
+oluyor ya. Demek ki bu 8 madde ne
+yapılmalı? tek nicel değişkenli veri
+toplamayı gerektiren araştırma sorusu
+olabilmesi için bu 8 özelliği sağlamalı.
+Şimdi geldim burada tekrar şuraya
+değinmekte fayda var. Betimleyici
+sorular bir grubun özelliğini inceler.
+Büyükşehirlerde yaşayan bireylerin toplu
+taşıma kullanma sıklıkları nelerdir? Bu
+betimleyici bir sorudur. Ama
+karşılaştırıcı soru neydi? İki veya daha
+fazla grubun verilerini farklı olup
+olmadığını inceliyordu. Kadınlar ve
+erkekler arasında stres yönetimi
+becerileri nasıl farklılık gösterilir?
+Bu karşılaştırıcı soru. Bu betimleyici
+soru oluyordu. Anlaştık mı? Şimdi az
+önce anlattığım o süreçle ilgili ne
+yapacağız? Örnek bir soru çözeceğim ama
+çözümü de veriyorum ki maksat buradaki
+mantığı görmen. Şimdi Milli Eğitim
+Bakanlığı öğrenci barışı arısını
+etkileyen faktörleri belirlemek amacıyla
+ülke genelinde bir araştırma başlatıyor.
+Bu araştırma kapsamında okullarda
+öğrencilerin günlük ders çalışma
+süreleri, öğretmen beklentileri, okul
+imkanları gibi çeşitli konularda veri
+toplanıyor. Bu araştırma doğrultusunda
+yapılan uygulamalarda birinde de bir
+ilçedeki ortaokul öğrencilerine günlük
+ne kadar süre ders çalıştıklarının
+sorulması.
+Araştırma sorusu aşağıdaki gibiymiş.
+Günde ortalama kaç saat ders
+çalışıyorsunuz? Tamam mı? Buna göre
+oluşturulan soruyu istatiksel araştırma
+sorusunda bulunması gereken ölçütlere
+göre inceleyiniz. He şimdi o ölçütler
+nelerdi? Bir amaç açık mı? Şimdi amaç
+açık neden? Öğrencinin günlük ders
+çalışma süresini betimlemeye yönelik bir
+amaç var burada. yukarısıyla
+karşılaştırıyor. Aslında bu cevapları
+vermesem de beraber yorumlayabiliriz ama
+bunlar tek başına kolay kolay bir soru
+olarak gelmez. Maksat buradaki mantığı
+yakalan. Araştırmaya değer mi? Tabii ki
+değer. Öğrencilerin ders çalışma
+süresiyle başarının ilişkisini ölçmeye
+çalışıyor. Onu anlamlandırmaya
+çalışıyor. İlgilenilen grup yani evren
+açıkça belirtilmiş mi? Kısmen
+belirtilmiş. Yani ortaokul öğrencileri
+demiş ama sınıf grubu ya da okul adı
+verilmemiş. Ama daha açık belirtilse
+daha güzel olurdu tabii. Değişken açıkça
+görülüyor mu? Evet, değişken ders
+çalışma süresi açıkça belirtilmiş. Veri
+toplanarak cevaplanabilir mi? Evet.
+Öğrencilere sorularak birincil ne
+yapılabilir? Veriye çevrilebilir. Dersin
+ki öğrenciye sen kaç saat çalışıyorsun?
+Sen kaç saat çalışıyorsun? Sen kaç saat
+çalışıyorsun? Veriler toplanarak
+cevaplanabilir. Değişebilirlik var mı?
+Elbette var. Öğrenciden öğrenciye
+bunların çalıştığı ortamlara göre ne
+olacaktır? Sürelerde değişebilirlik
+gözlenecektir. Her öğrenci aynı saat
+çalışıyor demezsin sonuçta. Odaklanılan
+grup analiz yapılmasına uygun mu? Evet.
+Birey birey değil grup genelinde çalışma
+sürelerinin dağılımı analiz edilebilir.
+Nicel veriyi toplamaya uygun mu? Tabii
+ki saat cinsinden ölçülebilir bir
+veriden bahsediyoruz. Çalışma süresinden
+bahsediyoruz. Şimdi demek ki böyle bir
+soru gelirse bu şekilde basitçe ne
+yapılabilir?
+cevaplanabilir. Şimdi çok üzerinde
+durmaya başladık. Burayla ilgili biraz
+daha üzerinde duracağız. Hatta bunun
+üstüne ben dör tane de örnek çözeceğim
+sana. Değişebilirlik mevzusu dedik ya.
+Veri grubundaki elemanların her birinden
+farklı veriler alınabilir. Bu da
+değişebilirliği sağlar. Değişebilirlik
+istatiksel araştırmada verilerin kişiden
+kişiye veya durumdan duruma farklılık
+göstermesi. Bu farklılıklar araştırma
+sonuçlarının yorumlanmasını ve anlam
+kazanmasını sağlar. Değişebilirlik
+araştırma sürecinin doğal bir
+parçasıdır. Şimdi değişebilirlik dört
+tür de olabilir. Birincisi bunlar
+önemli. Doğal ortamdan kaynaklı
+değişebilirlik olabilir. Farklı veriler
+elde edilebilirsin ortamdan kaynaklı.
+Bireylerin içinde bulunduğu çevresel
+koşullardan dolayı veriler değişebilir.
+İklim, yaşanılan bölge, beslenme
+alışkanlığı. Bunlar farklı veriler elde
+etmene sebep olur. İkincisi ölçümden
+kaynaklı değişebilirlik olabilir. Farklı
+bir araç kullanılabilir. Farklı bir
+ölçme aracı kullanılabilir. Ya da
+kişilere yapılan ölçümler birbirinden
+farklı sonuçlar verebilir. Güzel. Farklı
+terazilerle yapılan ölçümler haliyle
+farklı sonuçlar verebilir. Bu kimden
+kaynaklı değişebilirliktir? Ölçümden
+kaynaklı. Örneğin ben 1 kilo pamuk
+tartacağım. Pamuk tartıyoruz. Yalnız 5
+tane farklı tartı çeşidim var ama farklı
+çeşitleri farklı sonuçlar verebilirler
+değil mi? Orta tartının güvenilirliği
+ile de alakalı bir durum var gerçi. 3.
+Müdahaleden kaynaklı değişebilirlik
+olabilir. Deneysel araştırma grubunda
+örneğin bazı grup iki öğrenci grubu
+aldığımızı düşün. A ve B öğrenci grubu.
+A grubu normal çalışarak sınava giriyor.
+B grubu özel ders alarak ya da
+YouTube'da rehber matematik dinleyerek
+giriyor. Şimdi müdahale var burada.
+YouTube rehber matematik müdahalesi var.
+büyükçe bir oranla sınavdan yüksek
+alması lazım o adamın. Şimdi öyle değil
+mi? Bir gruba verilen eğitim sonrası
+başarı durumu ne olabilir? Müdahaleden
+kaynaklı değişebilir diğer gruba göre.
+Şimdi geldim 4te örneklemden kaynaklı
+değişebilirlik. Farklı bireylerden
+oluşan gruplarda ne yapılabilir? farklı
+değişkenlikler, değişiklikler alınması
+normaldir. Farklı sınıflarda sınav
+ortalamalarının farklı olması
+örneklemden kaynaklıdır. Farklı sınıflar
+üzerinde çalışıyoruz çünkü aynı sınıfta
+1. matematik sınavı, 2. sını matematik
+sınavından bahsetmiyoruz. Şimdi sorusu
+nasıl olabilir? Bir biyoloji öğretmeni
+okulun laboratuvarında yer alan bir suda
+bulunan oksijen miktarını ha 6 hafta
+boyunca ölçümlendiriyor. Öğretmen bu
+süre zarfında suya hiçbir dış müdahalede
+bulunmuyor. Elde edilen veriler tabloda
+veriliyor. Ölçümler bunlar da haftalar.
+7,2, 6,8, 7,5 6,9, 7,1, 7,4. Bu durumda
+diş müdahale olmamasına rağmen ölçüm
+sonuçlarında farklılık gözmesinin sebebi
+ne tür bir değişebilirliği ortaya
+çıkarır? Ortaya koyar. Bunu açıklayın
+diyor. Şimdi şimdi değişebilirlik
+türleri kaç taneydi? 4 taneydi. Bir
+doğal ortamdan kaynaklı, iki ölçümden
+kaynaklı, müdahaleden kaynaklı,
+örneklemden kaynaklı hiçbir diş
+müdahalede olmadığından bahsediyor. Aynı
+ölçü grubunu kullanıyorsun. Aynı
+elemanları kullanıyorsun. O zaman bu
+verilerin farklı çıkmasının sebebi ne
+olabilir? İşte güneş ışığını aldığı
+pozisyondan olabilir. Ortamdaki nemden
+farklı olabilir. O zaman bu
+değişebilirliğin tek sebebi ne olabilir
+arkadaş? Doğal ortamdan kaynaklı
+olabilir. Doğal ortamdan kaynaklı
+değişebilirlik. Kaynaklı
+kaynaklı değişebilirlik.
+[Müzik]
+Değişebilirlik. Güzel. Sebebi ne
+olabilir dedik. Güneş ışının yansıması
+olabilir, gelmesi olabilir. Ortamdaki
+nemin değişmesi olabilir. Bu ortamdan
+kaynaklı bir değişebilirlik sonucunda
+farklı veriler elde edildi diyebilirim.
+Hemen geldim diğerine. Bir okulda
+öğrencilerin sınav başarısını arttırmak
+amacıyla 2 hafta boyunca belirli bir
+sınav sınafa her gün 20 dakikalık ekstra
+matematik etütü çalışması uygulanıyor.
+Aynı sınıftaki öğrencilerin etüt öncesi
+ve sonrası yapılan sınavlarda aldıkları
+ortalama puanlar aşağıda veriliyor.
+Şimdi etüt öncesinde 58 alıyormuş
+öğrenciler. Etüt sonrası 51 alıyor.
+Demek ki dışarıdan bir müdahale
+yaptığımda yani etüt verdiğimde ne
+yapıyorum? Sınav sonucuna etki
+edebiliyorum. değişebilirlik sağlıyorum.
+Ortalamada okul yönetimi bu sonuçları
+incelediğinde öğrencilerin başarı
+düzeyinin arttığını gözlemliyor. Bu
+farkın nedenini nasıl açıklarsın? Bu
+farkın nedeni nedir? Dikkat edersen
+müdahale yapılıyor, değil mi? Bir
+müdahale var. O zaman buradaki
+farklılığın sebebi kesinlikle nedir?
+Müdaha
+haleden kaynaklı kaynaklı değişebilirlik
+değişebilirlik gözlemleniyor. Ne
+yapılıyor? Dışarıdan bir müdahale
+yapılıyor. Ekstra etüt dersi veriliyor
+gibi. Bu kadar çok kolay. Bak düşündüğün
+kadar zor değil ha. Bir sonraki dersten
+itibaren affetmem yalnız ha. Aritmetik
+ortalama bakacağız, medyan bakacağız.
+Öyle herkesin çözdüğü standart örnekleri
+çözmeyeceğiz. ÖSYM tipi sorular
+çözeceğiz. Derece tayfa soruları
+çözeceğiz. RM, rehber matematiğe yakışan
+soruları orada çözeceğiz. Anlaştık mı?
+Gel bakayım. Şimdi 6. sorudayız. Bir
+öğretmen aynı sınıf düzeyinde iki farklı
+şubede yer alan öğrencilerin günlük
+kitap okuma sürelerini karşılaştırmak
+istiyor. Her iki şubede de 10 öğrenciye
+bir günde ortalama kaç dakika kitap
+okuyorsunuz diye sorusu yöneltiyor.
+Cevaplar kaydediliyor. Aşağıdaki tabloda
+iki şubeye ait öğrencilerin ortalama
+okuma süreleri veriliyor. A şubesi 38
+dakika, B şubesi 52 dakika ortalama
+kitap okuyor. Öğrenciler aynı okulda,
+aynı sınıf düzeyinde eğitim alıyor
+olmalarına rağmen kitap okuma
+sürelerinin neden farklı olduğu
+soruluyor. Şimdi bu kitap okuma süresi
+neyden farklı olabilir? Bir kere bu
+öğrenci gruplarının aile grupları
+birbirinden farklıdır. A'daki ile B'deki
+aile grupları birbirinden farklı
+olabilir. Öğrencilerin alışkanlıkları
+farklı olabilir. Sınıflar aynı, okul
+düzeyi aynı, her şey aynı olabilir ama
+gelen öğretmenler farklı olabilir.
+Öğretmenlerin kazandırdığı alışkanlıklar
+farklı olabilir. Sonuçta biz iki tane
+farklı örneklem grubu üzerinde
+çalışıyoruz. O zaman örneklemden
+kaynaklı bir farklılık yaşayabilirim ben
+burada, değil mi? O halde yazıyorum. Ne
+yazıyorum? Örneklemden kaynaklı.
+Örneklemden kaynaklı. Kaynaklı.
+Değişiklik değil mi? Değişiklik. Güzel.
+Bunun da mantığını gördük. Bak dör tane
+vardı. Doğal ortamdan kaynaklı, ölçümden
+kaynaklı, müdahaleden kaynaklı,
+örneklemden kaynaklı. Şimdi doğal
+ortamla ilgili sorumuzu çözdük zaten.
+Müdahale ile ilgili olanı çözdük.
+Örneklemden kaynaklı olanı çözdük. acaba
+ölçmden ölçümden kaynaklı
+değişebilirlikle ilgili örneğin var mı
+dersen aslında bu ona örnek ama sebebini
+görelim. Ben hepsine birer örnek yapıp
+sana en azından buradaki mantığı
+gösteriyorum. Bir ya tane örnek yapar
+geçelim ama abi gönlüm el vermez benim
+öğrencim benim. RM her şeyi görmüş
+olsun. Biz o örnekten de çözdük. Biz bu
+örnekten de çöz hocam biz hepsinden
+çözdük ya. Bir öğretmen evinden okula
+yürüyerek geliyor. Yerel bir okul ile
+şehir arasındaki okul arasındaki
+mesafeyi ölçmek için öğrencilerin 6 gün
+boyunca yaptığı ölçümlere kendi
+adımlarıyla 4 gün boyunca
+karşılaştırılmak isteniyor. Aşağıdaki
+tabloda Zeynep'in yaptığı ölçümler
+veriliyor. 1ci 6 güne kadar ölçtüğü
+ölçümler bunlar. Yol aynı. Ya bir dakika
+eee Zeynep her ölçümde evi ile okulu
+arasındaki mesafeyi neden farklı buluyor
+ya? Adım uzunlukları birbirinden farklı
+olduğu için. E bu hangi değişebilirliğe
+örnek? Ölçümden kaynaklı değişebilirliğe
+örnektir. Ölçüm aracının boyu değişiyor
+sürekli. Adım boyu değişiyor. Ölçümden
+kaynaklı.
+Ölçümden kaynaklı değişebilirlik.
+Kaynaklı değişebilirlik
+[Müzik]
+değişebilirlik. Güzel. Bunu da
+öğrendiğimize göre. Hadi gel bakalım.
+Şimdi nicel veri toplama planı ile
+ilgili sana anlatacaklarım var. Burada 7
+tane madde var. Ondan sonra 5 tane de
+test sorum var. Bu dersi bitireceğiz
+hızlıca. Ben sana aritmetik ortalama
+medyanla ilgili derse göndereceğim.
+Orayla da ilgili. Şimdi bazı arkadaşlar
+yazıyor hocam okulda biz bayağı
+ilerledik. Hiç panik yok abi. Top bizde.
+Biz o işi halledeceğiz beraber.
+Araştırmacılar istatistiksel araştırma
+sorularını cevaplandırabilmek için veri
+toplama planı yapmalıdır. Bu plan
+aşağıdaki adımları içerir. Bir uygun
+veri toplama aracı belirlenmelidir.
+Soruya cevap verecek. Veri birincil yani
+doğrudan toplanan ya da ikincil yani
+hazır kaynaklardan alınabilir. İki
+şekilde alınabilir. Araç soruya uygun
+seçilmelidir. Şimdi boy uzunluğunu
+hesaplayacaksın. Adama metre vermezsen
+nasıl hesaplayacaksın? Uygun veri
+toplama aracı belirlenmeli. Santim
+cinsinden mesela değil mi? Evren ve
+örneklem örneklem tanımlanmalıdır. Evren
+dediğimiz neydi? İşlem yapılacak en
+büyük küme tanımlanmalı. Lise
+öğrencilerinde mi? Ortaokul
+öğrencilerinde mi yoksa mezun gruplarda
+mı ya da anne babalarda mı, kızlarda mı,
+erkeklerde mi değil mi? Bu evren
+belirlenmeli. Tüm bireyler yani evren
+belirlenmeli. Bu evreni temsil edecek
+grup mantıklı ve ölçülebilir şekilde
+seçilmeli. Rastgelel sağlanmalı.
+örneklem seçilirken her bireyin eşit
+şansa sahip olması gerekebilir. Bu
+güvenilirliği arttırır. Şimdi sen bir
+veri grubunda efendime söyleyeyim neyi
+ölçeceksin? Matematik notlarını
+ölçeceksin. Bir grup hiç rehber
+matematik izlememiş. Bu grup her gün
+izliyor. Haliyle rastgelelik sağlanmaz.
+Bir güvenilirlik sağlanmaz. O grubun
+rehber RMA'nın oradaki matematik
+noktada bir torpil var gibi olur. İşte o
+yüzden rastgele olmalı. Rastgele
+seçilmeli grup. Değişkenler
+belirlenmeli. Araştırmada ölçülecek veya
+etki edecek faktörler net şekilde
+ayarlanmalı. Veri toplama süreci
+belirlenmeli. Veriler nereden, ne zaman,
+nasıl, kimin tarafından toplanacak, yüz
+yüze mi, çevrim içi mi alınacak? Bu
+detaylar planlanmalı. Verilerin kaydı
+nasıl olacak? Bu önceden ayarlanmalı.
+Hangi araçlarla nasıl kayıt altına
+alınacağı net olmalı. Örneğin dijital
+platformda mı, kağıtta mı, ses kaydında
+mı, video kaydında mı bunlar önemli.
+Gizlilik ve dürüstlük esas alınmalı.
+Kişisel veriler korunmalı. Etik dışı
+davranışlardan kaçınılmalı. Araştırmacı
+sonuçlar değiştirmemeli. Beklentisine
+göre, araştırmacının beklentisine göre
+de bir yönlendirme
+yapılmamalıdır. Şimdi gel oradaki
+verileri de böyle güzelce hallettikten
+sonra burayla ilgili gelebilecek test
+soruları nelerdir hocam? Bir gösterir
+misin dersen hızlıca bakalım. Bir veri
+grubunun özelliklerinin. Hatta burası
+artık bizim ne? Yeşil sayfamız. Yeşil
+sayfaların mantığını biliyorsun. Soru
+avcısı. Bir kitaptan belki daha fazla
+soru bankasından daha fazla soruyu
+çözüyoruz. Bir grubun özelliklerinin
+sayılması veya ölçülmesi ile elde edilen
+verilere nokta nokta veriler denir. Buna
+göre yukarıdaki cümlede boş bırakılan
+yerlere gelmesi gereken uygun ifade
+aşağıdakilerden hangisidir? Bir veri
+grubunun özelliklerinin sayılması,
+ölçülmesi, ölçülme ile ilgili olan
+başlığımız neydi? Nicel verilerdi, değil
+mi? Nicel veri denir buna. Doğru cevap E
+seçeneği. Hemen geldim ikincisine.
+Yukarıda anket çalışmasından toplanan
+verilerden hangileri nicel ölçülebilir
+bir veridir? Son 10 yılda Türkiye'de eee
+metrekareye düşen ağaç sayısının
+değişimine ilişkin toplanan veriler.
+Ölçülebilen bir veridir. Nicel veridir.
+Onayladım. Bireylerin harcadıkları
+günlük kalori miktarlarına ilişkin
+toplanan veriler. Tabii ki ölçülebilir.
+Kalori değil mi? Ölçülebilir bir
+veridir. Devam ettim. Kişilerin
+kullandığı diş fırçasını ilk olarak
+nerede gördüklerine ilişkin toplanan
+veriler. Tabii ki bu da yine ölçülebilen
+değildir. Oğlum ne alaka? Gördüğün yerle
+benim ölçülebilecek bir şeyim var mı?
+Markette mi gördün? Arkadaşında mı
+gördün? Reklamda mı gördün? Infiloer'da
+mı gördün? Nerede? Ya bu ölçülebilir bir
+şey değil. O yüzden 1 ve 2 ölçülebilir
+değerlerdir. Geldim 3. soruma.
+Yukarıdaki durumlardan hangileri nicel
+veri olarak değerlendirilebilir? Yine
+benzer tipte bir soru. Öğrencilerin boy
+uzunluklarının ölçülmesi. Tabii ki boy
+uzunluğu diyorsan ölçülebiliyor zaten.
+Bir fabrikanın günlük elektrik
+tüketiminin kaydedilmesi. Tabii ki bu da
+nicel bir veri. Elektrik tüketimi nicel
+veridir. İnsanların kitap oluma, okuma
+alışkanlık. Alışkanlık bir ölçülebilir
+bir şey değildir. Bunu ölçemezsin, değil
+mi? Doğru cevap burada ne olacaktır? B
+seçeneği
+olacaktır. Aşağıdakilerden hangisi nicel
+veriye
+dayalı istatistiksel araştırma
+ölçütlerine uygun değildir? Neye uygun
+değilmiş? Nicel veriye dayalı. Bakalım.
+İstatistiksel araştırma sorularında amaç
+net olarak görülmelidir. Evet, net
+olmalıdır amaç araştırmaya değer bir şey
+olmalıdır. Soru kimin hakkında sorusunun
+cevabı araştırma sorusunda görülmelidir.
+Neyin hakkında? Kimin hakkında biz
+araştırma yapıyoruz? Değil mi? Bu
+görülmeli. Sorular hangi veriler
+hakkında sorusunun cevabı araştırma
+sorusunda görülmelidir. Hangi veriler
+hakkında biz bilgi toplamaya
+çalışıyoruz? Bu da önemli.
+Değişebilirliği yansıtmamalıdır. Olur mu
+lan? Asıl değişebilirliği yansıtmadı.
+Değişebilir olsun ki verileri
+değerlendirebileyim. Yoksa herkesin boyu
+1.60. Abi ben nesini değerlendireyim
+bunun değil mi? Değişebilir olmalı. Gel.
+Mantıklı şeyi işaretliyorsun zaten.
+Aşağıdaki tanımlardan hangisi yanlıştır?
+Gözlenen elemanların bir özelliğine ait
+yalnızca bir nicel veri toplanıyorsa bu
+veri türüne tek nicel değişkenli denir.
+Bingo zaten tek nicel değişkenlinin
+tanımıdır bu aynı zamanda. Gel.
+Araştırmanın kapsamına alınan bireylerin
+tümüne evren denir. En geniş çalıştığım
+kitleye evren deniyordu. Doğru.
+Araştırma sorularına cevap bulmak
+amacıyla doğrudan toplanan verilere
+ikincil veri denir. Bir dakika. İkincil
+veri nerelerden alınan verilerdi?
+Kaynaklardan toplanandı. Biz direkt
+araştırma grubundan alıyorsak bu veriyi
+birincil veriydi bu. Bir beklesin
+bakayım. Hatalı değil mi? Veriler farklı
+kişilerden farklı şekillerde toplanır.
+Bu durum değişebilirliği açıklar. Bravo.
+Farklı kişilerden alıyorsun. Farklı
+durumlardan alıyorsun. Bir grubun
+özelliklerinin ölçülmesiyle elde edilen
+veriler nicel veri olarak adlandırılır.
+Ölçme varsa nicel veri vardır. O zaman
+yanlış olan hangisidir? İkincil veri
+diyen C seçeneğidir. Doğru cevabımız C
+dedik. Misler gibi istatistiksel
+araştırma sürecinin yani 6. temanın
+temel kavramlarını baz aldığımız
+dersimiz sona ermiştir. Ama hemen ben
+hazırlıyorum ikinci ders için. Hemen
+şöyle biraz dinleneceğim. Ardından hemen
+ikinci videoyu patlatacağım. Burada neyi
+anlatacağım sana? merkezi eğilim
+ölçülerinden olan aritmetik ortalamadan
+ve ortancadan yani medyandan
+bahsedeceğim. Bunlarla ilgili inanılmaz
+lezzetli kaliteli sorularım var. Bunları
+beraber çözeceğiz. Olayı bitireceğiz.
+Haydi bakalım RM tayfa. Beğenmeyi
+unutmuyorsun. Yorum atmayı asla
+unutmuyorsun. Instagram'dan takip
+etmeyen tayfaya da vallahi kırılırım
+burada. Instagram'da takip et. Güçlü
+olalım. Beraber olalım. Gerçekten 9'dan
+12'ye kadar beraber gidelim. Hadi
+bakalım. Kendine iyi bak. Hoş kal. Hoşça
+kal.
+H

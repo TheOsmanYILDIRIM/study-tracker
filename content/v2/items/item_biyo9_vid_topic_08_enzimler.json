@@ -33,7 +33,13 @@
       "videoSearchScore": 13.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
       "fingerprint": "b81fd384694d74b2",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.tr.vtt",
+      "transcriptFingerprint": "a7e85c308adb2be2"
     }
   }
 }

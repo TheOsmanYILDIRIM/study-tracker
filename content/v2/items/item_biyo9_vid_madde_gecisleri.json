@@ -15,7 +15,7 @@
       "sourceSection": "Madde Geçişleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "ca2d5b60d2fc4dde",
       "sourceWeeks": [
         30,
@@ -25,7 +25,13 @@
       ],
       "sourceTheme": "ORGANİZASYON",
       "videoSearchScore": 8.9,
-      "videoCandidateTitle": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+      "videoCandidateTitle": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_madde_gecisleri.tr.txt",
+      "transcriptFingerprint": "c98e403564f34747",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qRIoHv3K-cE",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_madde_gecisleri.tr.tr.vtt"
     },
     "provider": "Dr. Biyoloji",
     "topic": "Hücre Zarından Madde Geçişleri"

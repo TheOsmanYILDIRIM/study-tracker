@@ -15,7 +15,7 @@
       "sourceSection": "Hücre ve Organeller",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "6658bb39628f117a",
       "sourceWeeks": [
         27,
@@ -24,7 +24,13 @@
       ],
       "sourceTheme": "ORGANİZASYON",
       "videoSearchScore": 6.97,
-      "videoCandidateTitle": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+      "videoCandidateTitle": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt",
+      "transcriptFingerprint": "d7768ba742236519",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.tr.vtt"
     },
     "provider": "Dr. Biyoloji",
     "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek"

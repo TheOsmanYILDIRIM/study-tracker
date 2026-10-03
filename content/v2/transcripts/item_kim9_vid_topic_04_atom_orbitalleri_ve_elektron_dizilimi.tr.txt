@@ -1,0 +1,905 @@
+atom modellerini anlattık sonra Orbital
+dedik yörünge dedik Peki Orbital neydi
+Orbital çeşitleri nasıldı Bu ders
+bunlardan bahsedeceğim mes kemi kimya
+kanalına Hoş geldin dostum konunun pdf'i
+Açıklama kısmında var zeda comom a
+girerek oradan ne yapabilirsin
+indirebilirsin dostum o zaman vakit
+kaybetmiyoruz hazırsan başlayalım atom
+modelleri ve elektron dizilimi
+dediğimizde şöyle bir şey vardı Bor atom
+modelinde bahsettik yörünge kavramı
+vardı ama daha sonradan gelen modern
+atom modelinde yani kuantum atom
+modelinde Orbital kavramından
+bahsediyorlardı
+Vital dediğimiz şey nasıl ortaya çıktı
+şöyle söyleyeyim Öncelikle Schrödinger
+kuantum sayılarından bahsetti bu kuantum
+sayılarını şöyle ifade etti Baş kuantum
+sayısı açısal Momentum kuantum sayısı
+manyetik kuantum sayısı ve Spin kuantum
+sayısı şeklinde ifade etti burada açısal
+Momentum kuantum sayısı ile Baş kuantum
+sayısını söyleyeceğim dostum çünkü
+bunlar neyi ifade ediyor Onu açıklamam
+gerekiyor Mesela Baş kuantum sayısı
+enerji seviyesini yani hangi katmanda
+olduğunu belirtiyor katman yok da işte
+hangi elektron bulutunda olduğunu
+belirtiyor açısal Momentum kuantum
+sayısı ise orbitalin türünü belirtiyor
+Normalde müfredat içerisinde çok detaylı
+bir şekilde görmeyeceksin ama
+orbitallerin enerjilerini kıyaslarken
+çok faydası oluyor o yüzden kısaca
+bahsedeceğim dostum İşte bu atomun
+enerji seviyelerinin Bir de alt enerji
+seviyeleri vardı işte açısal Momentum
+kuantum sayısı dediğimiz şey buydu Bu da
+orbitallerin türünü ifade ediyor dör
+tane Orbital imiz var şöyle yakından
+göstereyim s orbitali p orbitali d
+orbitali ve F orbitalinden bahsediyoruz
+Bu dört tane orbitalin şöyle ifade
+ediyoruz bak katman sayıları bu mesela
+birinci katman ikinci katman 3üncü
+katman veya işte enerji seviyesi Bunlar
+da bak her bölüm is böyle farklı
+bölümler var ya bunlar da işte o
+katmandaki neyler orbitaller şeklinde
+düşünebilirsin dostum ve elektron
+çekirdeğe ne kadar yakınsa enerjisi o
+kadar düşük ne kadar dışarıdayız yani
+enerji seviyesi ne kadar büyükse haliyle
+oradaki orbitalin ve elektronun da
+enerjisi o kadar büyük olacak Dostum
+şimdi sana şöyle bir pratik not
+vereceğim şöyle bir ifade kullanmak
+istiyorum boş bir sayfa açayım şimdi
+Normalde n dediğimiz şey işte Baş
+kuantum sayısı 1 2 3 4 5 6 ve 7 7 katman
+var ya o mantıkla düşünebilirsin Baş
+kuantum sayısı bu Bir de açısal Momentum
+kuantum sayısı dediğimiz bir şey var l
+harfiyle gösteriliyor Biz 0 1 2 ve 3'ü
+bileceğiz 0 olduğunda s orbitalin 1
+olduğunda p orbitalin 2 olduğunda D
+orbitalin ve 3 olduğunda F orbitalin
+ifade ediyor dediğim Bak bu Normalde
+müfredat içerisinde detaylı bir şekilde
+gösterilmiyor sadece Enerjileri bulurken
+kullanacağım dolayı bunu veriyorum sana
+ve şöyle bir şey var mesela birinci
+katmanda sadece s orbitali var diyoruz
+ikinci katmanda s ve p orbitali var ya
+Bunu nasıl söyleyebiliyoruz onu
+açıklamak için bunu yapıyorum Dostum
+şimdi şöyle bir şey vardır bir
+katmandaki en büyük Orbital türü Aslında
+en büyük L değeri diye ifade etmek
+istiyorum n - 1 ile bulunur şimdi o
+zaman n = 1 ise burada L en fazla 0
+Olabilir bak En fazla 0 olabilir 0
+olduğunda s Orbital Demek ki 1ci
+katmanda sadece 1 S orbitali bulunabilir
+2ci katmana geldiğimizde ise n = 2 ya L
+en fazla n - 1'den 2 - 1'den 1 olabilir
+1 varsa 0 da vardır daha küçük sayılar
+olabilir dostum o zaman 2ci katmanda 2s
+orbitali ve 2p orbitali olacaktır 3
+katmana bakarsak n = 3 L en fazla 2
+olacaktır Demek ki 1 ve 0 da
+bulunabilecek 3 katmanda 3S 3p 3D
+orbitalleri bulunabilir ve 4 katmana
+bakarsak şöyle yazalım ha n = 4 şeklinde
+belirtelim Bu da L en fazla 3 demektir
+Demek ki 2 1 ve 0 da bulunabilir e 0
+olduğunda s orbitali yani 4 S orbitali
+vardır 4p orbitali 4D orbitali ve 4F
+orbitali varmış o zaman s orbitalleri
+dediğimizde s orbitali nereden başlıyor
+1 2 3 diye gidiyor p orbitali
+dediğimizde 2 katmandan başlıyor 2 3 4
+diye gidiyor D orbitali 3 katmandan
+başlıyor 3 4 5 diye gidiyor ve F
+orbitali 4 katmandan başlıyor 5 6 7 diye
+gidiyor Dostum şimdi artık S
+orbitalinden bahsedebilirim şöyle bir
+şey vardır s orbitali her katmanda
+bulunur ve şekli böyle daireseldir yani
+açısal koordinatlara bağlı değildir yani
+x düzlemi y düzlemi Z düzlemi böyle bir
+düzlemde yoktur dostum toparlak böyle
+top şek şeklinde düşünebilirsin S
+orbitali böyle nedir küre şeklindedir ve
+katman sayısı arttıkça bu kürre de
+büyümektedir o zaman bunların
+enerjilerini kıyasla Dersem ne olacaktır
+1 s'nin en küçük sonra 2s en büyük
+bunların arasında 3S olacaktır Tabii 7s
+en büyük onu söyleyebiliriz s
+orbitalleri içerisinde ve çok önemli bir
+bilgi vardır en fazla iki elektron
+alabilir Çünkü s orbitali bir tanedir
+bak çok önemli bir şey s orbitali bir
+tanedir Bundan dolayı da ne yapacaktır
+en fazla ik elektron alabilecektir yani
+s'nin üzer yerine en fazla kaç
+yazabiliyoruz 2 yazabiliyoruz ya da s
+üzeri 1 de yazabilirsin 1 ya da 2
+alabilmektedir şimdi şöyle bir şey düşün
+işte neden sebebi şu S orbitalinin bir
+tane olmasından kaynaklanıyor böyle
+gösterebilirsin veya böyle
+gösterebilirsin bunları Mesela şöyle bir
+yukarı bir aşağı Böyle yazılır onların
+hepsini açıklayacağım veya işte şöyle
+yazılabilir veya şöyle yazılabilir bu
+şekilde gösterilecek s orbitali bir
+tanedir onu da söylemiş olalım p
+orbitaline geldiğimizde ise p orbitali
+açısal koordinatlar bağlıdır yani x y z
+düzlemler doğru gidecektir düzlemde
+böyle iki ayrı labut şeklinde
+gözükmektedir He Burada da yazıyor işte
+çekirdeğin iki tarafında zıt yönelmiş
+iki loptan oluşmaktadır Böyle gördüğün
+gibi işte sonsuzluk işaretine benziyor
+bu x düzlemi üzerinde olursa px orbitali
+y düzlemi üzerinde olursa işte py
+orbitali Z düzleminde olursa da pz
+orbitali ifadesini kullanıyoruz o zaman
+p orbitali kaç taney demiş şöyle
+bakarsak p orbitali 3 taney demiş dostum
+böyle de yazabilirsin şu şekilde de
+gösterebilirsin dostum ve şu vardır bir
+Orbital türünün alt orbitalleri yani p
+orbitali dediğimizde 3 tane var ya
+buradaki px p y pz aynı enerjiye
+sahiptir tamam mı Bir orbitalin
+içerisindekiler hepsi aynı enerjiye
+sahiptir tekrar söylüyorum Bir Orbital
+türünün içerisindeki orbitaller aynı
+enerjiye sahiptir o zaman bir Orbital 2
+elektron alabildiğine göre p en fazla
+kaç alabilir 6 elektron alabilir yani
+P'nin üzerine en fazla kaç
+yazabiliyormuyuz
+D orbitaline geldiğimizde ise D orb al 5
+tanedir bunların İşte bu isimlerini
+vermiş DX y dyz dxz DX k y k x k - y k
+ve dz K Bunlar ne demek şöyle bu x y
+demek görüyor musun şöyle göstereyim x
+düzlemi ve y düzleminin arasında kalıyor
+bak X ve Y düzlemleri Bunlar aralarında
+kalmış görüyor musun böyle nedir Kelebek
+gibi düşünebilirsin bunların basit
+gösterimi de var önemlidir basit
+gösterimi daha çok çıkar karşına şöyle
+yazar mesela şuna y düzlemi Şuna da x
+düzlemi yazar şu şekilde gösterir Bak
+şöyle düzlemsel olarak gösterirsek böyle
+gösterebiliriz ikincisi neymiş D yz yani
+y ve z düzlemleri arasında kalıyor bunun
+da şekli şöyle olacaktır dostum şurası Z
+düzlemi Burası y düzlemi dersen bunların
+arasında olacaktır yani şekil 4 yapraklı
+yonca sadece x y z yönleri değişmekte
+Gördüğün gibi E bu da aynı X ve z
+düzlemi arasında şu x k - y k de şu
+demektir tam X ve Y koordinatları
+üzerinde Bak görüyor musun tam koordin
+ordinat üzerinde olduğu için böyle
+gösteriliyor ve dz kare O da böyle bir
+emzik şeklinde Gördüğün gibi önemlidir
+özellikle dz kare üniversite sınavında
+da sorulmuştur bu şekil bilmende fayda
+var dostum İşte diyor ki D orbitalleri
+karmaşık şekillere sahiptir nedir 3üncü
+enerji seviyesinden itibaren her enerji
+seviyesinde bulunur s her enerji
+seviyesinde bulunur p 2'den itibaren
+başlıyordu D 3'ten itibaren başlıyordu
+f'den bahsedeceğim O da 4'ten itibaren
+başlayacak 5 tane
+orbitaldeki D orbitali ne dedim 5 tane
+dedim yan yana çizdim E bir Orbital en
+fazla kaç elektron alabiliyordu 2
+elektron alabiliyordu o zaman D'nin
+üzerine yazabileceğim en büyük sayı
+kaçmış 10m Dostum bunlar önemli şeyler
+devam edersek işte ne diyor açısal
+olarak koordinatlara bağlıdır yani Ne
+oldu X ve z düzlemi X ve Y düzlemi
+üzerinde falan yani açısal olarak neye
+bağlıymış neymiş bulunma olasılığı
+açısal koordinatlara bağlıdır bu ifadeyi
+aklında tut sorularda gelecek çünkü
+neymiş D orbitalinin elektronun bulunma
+olasılığı aç açısal koordinatlara
+bağlıdır yani belirli şekilleri vardır
+böyle açısal olarak x düzlemi y düzlemi
+Z düzleminde bulunabilmektedir bir tek
+Kimde yok bu s orbitalinde yok tamam mı
+s Çünkü nedir küre şeklindedir gelelim f
+orbitaline f orbitalinin şekilleri çok
+karışıktır böyle 8 parçalı falandır
+burada Görüyorsun bak şöyle yakından
+göstereyim sana burada Bak görüyor musun
+1 2 3 ne 6ı parçaymış özür 6ı
+karışık He Bunu bilmek zorunda mıyız o
+zaman değiliz bak şekillerden sorumlu
+değilsin Sadece çok karışık şekil
+gelirse anla ki F orbitalinden
+bahsediyor görüyor musun şekilleri
+bunların hiçbirini bilmek zorunda
+değilsin tamam mı Yani şunları
+ezberlemek zorunda değilsin ha ama s p d
+bunlardaki bilmende fayda var sadece FD
+kini bilmeyebilir bu isimlerini ne
+demiştim 4ün enerji düzeyinden itibaren
+her enerji düzeyinde bulunur bunların da
+haliyle elektronun bulunma olasılığı
+açısal koordinatlara bağlıdır ifadesi ne
+olacaktır doğru olacaktır 7 tane Orbital
+var O zaman şöyle çizersem Eğer 7 taney
+demiş 1 2 3 4 5 6 ve 7 E 7 Orbital varsa
+ve bir Orbital en fazla 2 elektron
+alabiliyorsa F orbitali toplamda ne
+yapacaktır en fazla 14 alabilecektir
+yani üzerine yazabileceğimiz en büyük
+sayı kaçmış 14' müş dostum Ve tabii ki
+bu 7 orbitalin enerjisi de nedir
+birbirine eşittir zaten bir Orbital
+grubunun hepsinin enerjisi eşit oluyor
+Ama şöyle bir şey söylesem mesela 4 f'
+nin enerjisiyle 5fn enerjisi eşit mi
+Hayır değil ama 4 f' nin içerisindeki şu
+7 tane var ya bu 7 tanenin enerjisi
+birbirine eşit mi Evet bunlar birbirine
+eşit ama 5fn ki tabii ki 4 f'den daha
+büyük olacaktır şimdi gel bakalım
+sorularımız da ne diyor Diyor ki modern
+atom teorisine göre H yargılarından
+hangileri doğrudur elektronlar hem
+tanecik hem dalga özelliğine sahiptir
+Evet zaten Bor atom modelinden ayıran
+şey buydu elektronun dalga ve tanecik
+ikiliği dediğimiz iki özelliğinin de
+olduğunu söyledikleri için zaten bu yeni
+Orbital kavramı ve yeni atom modeli
+ortaya çıkmıştır bu doğru bir ifade
+herhangi bir elektronun aynı anda hızı
+ve konumu tespit edilebilir Hayır
+Heisenberg Belirsizlik İlkesi vardı
+neydi elektronun hızı konumu aynı anda
+belirlenemiyorsa
+da geçerlidir e hangileri doğrudur
+dediği için cevap Ne oldu 1 ve 3 D
+seçeneği oldu bu soruya bakalım Diyor ki
+aynı atoma ait X ve Y orbitallerinin
+sınır yüzey diyagramın yukarıda
+verilmiştir yani orbitallerin şekilleri
+verilmiştir Bu daha küçük bir s orbitali
+bu daha büyük bir s orbitali örnek
+veriyorum Mesela bu 1 s ise bu 2s veya
+bu 2s ise 3S 4S Neyse Art diğeri daha
+büyük ha X ve y'nin İkisi de s Orbital
+bir doğru toparlak gördüğün anda s
+orbitali ydi diyor ki X'in enerjisi
+y'nin kinden düşüktür Evet daha küçük
+oldu mu daha küçük enerjiye sahiptir
+Doğrudur diyor ki y'nin alabileceği
+elektron sayısı x' ininden fazladır ya s
+orbitali bir taneydi E bir tane olduğu
+için bu da en fazla 2 elektron al
+olabilir bu da en fazla 2 elektron
+alabilir alabilecekleri maksimum
+elektron sayıları eşittir O yüzden
+üçüncüsü yanlış oldu Cevap da ne
+olacaktır a seçeneği yalnız 3 olacaktır
+Burada ne diyor Bakalım P orbitalleri
+ile ilgili ikinci enerji seviyesinden
+itibaren her enerji seviyesinde bulunur
+Evet p orbitali 2'den başlıyordu O
+yüzden doğru bir ifade 3p orbitallerinin
+Özdeş durumda Enerjileri birbirine
+eşittir diyor He bakalım şimdi p
+orbitali 3 tane değil miydi Evet
+sığdırdık mı sığdırdık biraz aşağı
+alayım 3p orbitali E bu p px bu py bu da
+pz orbitali bunların enerjisi eşit miydi
+eşitti Bunu da söylemiştik Doğrudur
+elektronların bulunma olasılıkları
+açısal koordinatlara bağlı olup
+şekilleri aşağıdaki gibidir diyor Evet
+px p y pz doğru bir ifadedir o zaman
+hepsi doğru Burada da D seçeneğine
+koyulmuş dostum bakalım Bu soruda ne
+diyor Yukarıdaki orbitalin bulunduğu
+enerji seviyesinde Bak bu 4t yapraklı
+yoncayı gördüğümüzde D Orbital didir He
+bu en az 3D orbitali Olabilir değil mi D
+orbitalleri 3'ten başlıyordu 3D 4D 5D
+herhangi birisi ama Sonuçta en az 3
+olabilir diyor ki bu enerji seviyesinde
+yani 3üncü enerji seviyesinden
+bahsedebiliriz şekli küresel olan
+Orbital bulunabilir mi yani 3S orbitali
+bulunabilir mi Evet bulunabilir eş
+enerjili 7 Orbital yani F orbitalinden
+bahsediyor atıyorum bu 3D değil de 4D
+olamaz mıydı olabilirdi E bundan dolayı
+4F orbitali de burada olabilir mi 4
+periyotta olsa F orbitali de olabilir
+Demek ki bu da bulunabilir diyor ki
+elektron bulunma olasılığı açısal
+koordinatlara bağlı olmayan Orbital
+bağlı olmayan Orbital s orbitali demekti
+zaten bulunabileceğini söylemiştik her
+neydi her enerji seviyesinde bulunu
+biliyordu Doğrudur E o zaman Ne oldu
+hepsi doğru oldu Cevap da e seçeneği
+burada diyor ki orbitaller ile ilgili
+yargılarından hangileri doğrudur
+elektronun bulunma ihtimalinin yüksek
+olduğu sınır yüzey diyagramları dır Evet
+bu ifadeyi kullanmıştık elektronun
+bulunma olasılığının yüksek olduğu yere
+Orbital diyorduk değil mi farklı
+şekilleri olan elektron yoğunluklu
+bölgelerdir elektronun yoğun olarak
+bulunabileceği şekilleri birbirinden
+farklı şeylerde değil mi Bunlar
+orbitaller böyleydi şekilleri
+birbirinden farklıydı Bu da doğrudur
+diyor ki elektronun üç boyutlu
+hareketini temsil eder katmanda neydi
+iki boyutlu temsil ediyordu orbitalde üç
+boyutlu temsil ediyordu söylemiştik Bu
+da doğru bir ifadedir o zaman hepsi
+doğru cevabımız D seçeneğidir şimdi şu
+sorumuza bakalım Diyor ki atomdaki 3üncü
+enerji seviyesinden itibaren her enerji
+seviyesinde bulunan bir Orbital ile
+ilgili hım çok güzel bir Orbital 3üncü
+enerji seviyesinden itibaren bulunan
+Orbital D Orbital didir bundan
+bahsediyor diyor ki aynı enerji
+seviyesinde kendisiyle eş enerjili bir
+Orbital bulunabilir ya D orbitali 5
+taneydi neydi DX y dxz d yz DX k - y k d
+z k Bunların hepsi vardı E o zaman Evet
+Bunlardan herhangi birini seçtiysen eş
+enerjili başka orbitaller var mıymış
+varmış Bunu söyleyebiliriz diyor ki
+sınır yüzey diyagramı bu şekilde yani dz
+karenin şekliydi bu olabilir mi Evet
+olabilir En fazla 2 elektron alabilir
+diyor E bir Orbital en fazla 2 elektron
+alıyor diyor Yani bu ifade de nedir
+Doğrudur cevabımız ne olacaktır e
+seçeneği olacaktır şimdi şu soruya
+bakalım Diyor ki n = 2 olan herhangi bir
+Orbital için n = 2 dediği Baş kuantum
+sayısı 2 olan neler vardı 2s vardı ya da
+2p orbitali vardı küreseldir e s
+orbitali olursa evet küreseldir bu
+doğrudur yani Olabilir mi Olabilir p
+Orbital E bu da olabilir bu da bir
+ihtimaldir doğrudur çekirdek etrafında
+zıt yönelmiş iki lobdan oluşur diyor iki
+lobdan oluşan neydi şöyle çiki loptu
+değil mi yani p orbitalinden bahset
+ediyoruz bu ifade nedir Doğrudur yani
+hepsi Olabilir mi Olabilir cevap da E
+seçeneğidir şimdi elektron dizilimi
+elektron dağılımı ya da elektronik
+konfigürasyon dediğimiz şeyden
+bahsedelim İstersen şimdi çok
+elektronları açıklayamamıştır ya Bor E
+ne oluyor işte modern atom modeli çıktı
+burada da bu elektronların orbitallere
+yerleşmesinde şimdi çekirdek etrafında
+yerleşmeye başladı Tamam birinci katmana
+yerleşti sonra ikinci katmana geldik
+elektron sayısı artacak daha fazla
+elektron yerleşecek ama işte bu
+yerleşirken Enerjileri farklı olduğu
+için için ne yapacak farklı şekillerde
+yönelmeye başlayacak O yüzden 2s 2p gibi
+atom orbitalleri ortaya çıkacak bunların
+erisinde de enerji farkları artmaya
+başlayacak yani 2 S'ye yerleşen
+elektronla 2pe yerleşen elektronun
+Enerjileri aynı olmayacak dış katmanlara
+çıktıkça bu daha da değişmeye başlayacak
+elektronlar buralara yerleşecek dostum e
+haliyle bu elektronlar yerleştik çe bir
+itme meydana getirecek yani elektron
+yerleşti ikinci katmana elektron
+yerleştiğinde Tamam çekirdek onu çekmeye
+çalışıyor ama birinci katmandaki
+elektronlar da onu itme çalışıyor e
+haliyle ne yapacak kaçmamak için
+dışarıya gitmemek için orada durabilmek
+için enerjisini arttırması gerekiyor
+Bundan dolayı işte O ne oluyor dışarı
+doğru çıktıkça enerji artıyor ifadesini
+kullanıyoruz ya dış katmanların enerjisi
+fazladır diyoruz ya sebebi ne bunun İşte
+bu itme kuvvetini yenebilmek dostum ve
+şöyle bir şey vardır bir katmanda
+olabilecek maksimum elektron sayısını
+bulmamız gerekiyor Onu da işte 2n kare
+formülüyle buluyoruz dostum Bak burada
+gösteriyor 2n K Peki n burada neydi
+katman sayısı mesela birinci katman yani
+k katmanı klmn Opr diye gidiyordu ya da
+işte klmn neyse artık e 1ci katman 2 x
+1in karesi Demek ki 1ci katmana en fazla
+2 elektron gelebiliyor 2 elektron
+gelebiliyor bu s orbitali demekti değil
+mi s orbitali 2 elektron oluyor demek ki
+birinci katmanda sadece s orbitali var
+buradan bunu anlayabiliyoruz sonra 2ci
+katmana geldiğimizde 2 x 2in karesi 8
+elektron ediyor Ee 2'si s orbitaline
+yerleşecek Geriye kalıyor 6 O da p'ye
+yerleşecek değil mi 2ci katmanda da s ve
+p orbitalleri olacak 3üncü katmana
+geldiğimizde 2 x 3'ün karesi 18 elektron
+bak 2 s orbitaline 6 p orbitaline geriye
+kaldı 10 O da nereye D orbitaline
+yerleşecek etti sana 18 e 4 katmana
+geldiğimizde 2 x 4'ün karesinden 32 2 s
+orbitali 6 p orbitali 10 da D orbitali
+kaç etti Burası 18 e geriye kaldı kaç 14
+O da F orbitaline yerleşecek değil mi
+İşte onu da şöyle buluyoruz bir
+katmandaki Orbital sayılarını da şöyle
+buluyoruz n kare formülüyle buluyoruz
+şimdi 1ci katmanda 1in karesinden 1 S
+orbitali var çok güzel 2ci katmana
+geldiğimizde 2nin karesinden 4 et e s
+orbitali bir taneydi p orbitali 3
+taneydi kaç etti toplam 4 Orbit E buraya
+geldik 3C katman 3'ün karesi 9 Orbital
+olması lazım bu 1 E bu 3 Bu da 5 kaç
+etti 9 etti değil mi E 4C katman 4'ün
+karesinden 16 e bunda 1 var bunda 3 var
+bunda 5 var bunda da 7 var Kaç etti 16
+etti Dostum orbitali nasıl gösteriyoruz
+ya yuvarlak ya kare şeklinde
+gösteriyoruz elektronları da işte bunun
+içerisine yerleştiriyoruz tam dolu
+dediğimizde elektronları zıt yönde
+göstermemiz lazım bir biri yukarı yönlü
+isse biri aşağı yönlü ya da şöyle biri
+bu yönde isse biri bu yönde gösteriyoruz
+buna tam dolu diyoruz yarı doluay İsa
+elektron ne olacaktır ya böyle ya böyle
+ya da işte böyle ya da böyle ya da şöyle
+ya da şöyle yerleşecek Dostum şimdi çok
+elektronlarda bu elektronları
+orbitallere Yazacağım da bunun kuralı
+var enerjiye göre yazılmakta Peki bu
+enerji nasıl değişiyor onu sana İşte o n
+ve L değerleri var ya ona göre
+anlatacağım şimdi bak Birinci katmanda
+en fazla 1 S vardı ikinci katmanda 2 S
+varı Bir de 2p vardı 3 katmanda 3S
+olabiliyordu 3p olabiliyordu 3D
+olabiliyordu 4 katman 4S 4p 4D 4F
+olabiliyordu 5 katmanda 5S 5p 5D 5f 6
+katman 6s 6p 6D 6f yazıyorum 7 katman 7s
+yazdım yeterli şimdi bir orbitalin
+enerjisi n + l değeriyle bulunur n + l
+değeriyle bu büyükse enerjisi büyüktür
+ha Peki n + l'si eşit olanlarda ne
+yapacağız n değeri büyük olan şöyle eşit
+değil büyük olanın enerjisi daha
+büyüktür şimdi bak s orbitalinin şöyle s
+p d f vardı L değerleri s'nin 0'dı P'nin
+1'di D'nin 2'ydi fninternbasvuru
+n sayısı büyük olan E bu gördüğün gibi
+Demek ki 3 s'nin enerjisi daha büyükmüş
+şuraya geldik 3 + 1 değil mi 4 bu 3 + 2
+kaç etti 5 şöyle yazamadık He şu 4 + 0
+Ne oldu 4 4 + 1 5 Bu da ev gibi oldu lan
+4 + 2 kaç etti 6 4 + 3 kaç etti 7 E bu 5
++ 0 değil mi 5 bu 5 + 1 kaç etti 6
+Burası 5 + 2'den 7 5 + 3'ten 8 Ya
+bunları kullanmayacağım da bir kıyaslama
+yapmak için gösteriyorum bu 6 6 0'dan 6
++ 0'dan söyleyemedim bu 6 + 1'den 7 E bu
+6 + 2 8 Buna gerek yok Bu da 7 + 0'dan 7
+şimdi dedik ya elektronlar enerjiye göre
+yerleşiyor şöyle bir şey vardır albağ
+kuralından bahsedeceğim birazdan albağ
+kuralı enerjisi düşükten başlayarak
+elektronları yerleştirir o zaman Buraya
+bakarsak şöyle enerjisi en düşük olan 1s
+oldu değil mi Sonra Sırada ne var Bak bu
+1 olduğu için sonra 2 s var o da gitti
+sonra bak 3 olan ik tane var E ne
+yapacağız enerjisi Düşük olana önce
+yerleşi oldu 2p Sonra 3S geldi sonra bak
+Dikkat et renk değiştiriyorum şuradan 4
+olan şu var Ve şu var Gördün mü o zaman
+3p Sonra da 4S Aha bak bak çok önemli
+bir şey var burada görüyor musun Hemen
+bir daha renk değiştiriyorum 5 olan
+hangisi var bu var başka şu var Başka
+var mı Evet bu da var düşükten
+başlıyordu 3D sonra 4p sonra da 5 sonra
+6lar başlıyor bak 6 olanlar hangisi
+şurada var başka şurada var şurada var
+onları yazalım Ne oldu 4E 5p 6s He bir
+de ne var 7'ler var bak 7 olanlar burada
+burada ve şurada onu da siyahla
+Göstereceğim ne olacak o zaman 4F 5D 6p
+ve 7s şeklinde olacak işte sıralama bu
+şekilde ortaya çıkmakta bunun bir kuralı
+var basit bir kuralı var s' den 2 tane p
+s'en 2 tane DP s'en 2 tane fdp s'en bir
+tane yazarak aynı sıralamaya
+ulaşabilirsin nasıl hemen yazıyorum Bak
+şimdi s' den iki tane yazdım s s ik tane
+PS yazdım PS PS sonra 2 tane dps d p s d
+p s sonra bir tane f d p s yazdım şimdi
+ne demiştik S'ler birden başlıyordu 1 2
+3 4 5 6 7 p' 2'den başlıyordu 2 3 sonra
+4 5 6 sonra d'ler 3'ten başlıyordu 3 4 5
+ve f' 4'ten başlıyordu bak aynı
+sıralamaya ulaştık dostum İşte geldim
+bak nereye aufbau ilkesine kurallarımız
+şu aufbau kuralında şöyle söyler temel
+haldeki atomlarda elektronlar en düşük
+enerjiye sahip orbitalden başlayarak
+sırasıyla yüksek enerjiye doğru
+dolmaktadır Burada da gösteriyor işte 1
+S 2 S bak s'leri p' hepsini yazmış sonra
+bak ne yapmış gelmiş 1 S 2 s 2p 3S sonra
+3p 4S gelmiş 3D 4p 5S bu şekilde gidiyor
+dostum benim say say para say para say
+daha para say daha para say Fatma daha
+para say şeklindeki kodlamam daha da
+güzel olacaktır hemen aşağıya da
+göstereyim istersen Bak burada da
+yazmışız neydi s' den 2 tane psen 2 tane
+DP s'en 2 tane fdp s'en bir tane
+yazarsan aynı sıralama çıkıyor bak say
+say para say para say daha para say daha
+para say Fatma daha para say diye
+gidiyor işte en düşük
+enerjilenme gerekiyor öyle söyleyeyim
+sana en fazla genel olarak çıkan şudur
+1s 2s 2p 3S 3p 4S 3D 4p 5S genellikle
+buraya kadar çıkıyor Hadi bir de
+devamına 4D yi ekleyelim Ama genellikle
+buraya kadar çıkıyor ikinci kuralımız da
+şunu söyler Hun kuralı eş enerjili
+orbitalleri mesela p orbitali var ya 3
+tane orbitalden oluşuyordu İşte bu eş
+enerjili orbitallere elektronlar
+yerleşirken önce boş orbitale yerleşiyor
+boşlar dolduktan sonra yanlarına
+diğerleri yerleşiyor Ben bunu şuna
+benzetiyorum dostum otobüse metrobüs
+diyelim ya Metrobüs daha iyi bir örnek
+metrobüse bindiğinde Ne oluyor dostum
+metrobüste o kapı açılacak diyelim ilk
+duraktı diyelim oturabileceğin yani çok
+zor da diyelim hadi metrobüse
+oturabildiği düşünelim şanslı
+insanlardan birisin Kapılar Bir açılıyor
+hurra millet bir dalıyor ne oluyor
+dikkat et hepsinin ikili koltuk olduğunu
+düşünürsek önce cam kenarları tık tık
+tık tık tık tık hepsi doluyor cam
+kenarları dolduktan sonra yanlarına tık
+tık tık tık diğerleri gelmeye başlıyor
+işte aynı onun gibi dostum ne oluyor
+biliyor musun Şöyle mesela p
+orbitalinden bahsedelim şöyle ü tane
+Orbital var önce bir tanesi geldi Buraya
+yerleşti diğeri buraya yerleşmek zorunda
+değil sonuçta aynı enerjiye sahip buraya
+da yerleşebilir sıkıntı yok ama üçüncü
+kişi yani 3üncü elektron nereye
+yerleşmek zorunda buraya gelmek zorunda
+dördüncü elektron hangisine yerleşir ya
+istediğini tercih eder isterse bundan
+başlar Çünkü eş enerjili sonraki gelecek
+diyelim buraya yerleşti He sonuncu
+mecburen buraya yerleşmek zorunda Peki
+diyelim p4 var p4u şöyle yazdım diyelim
+şu şekilde şöyle olur mu Olur p4 Mesela
+şöyle olur mu tık tık tık tık olur mu bu
+da olur Mesela p4 şöyle olur mu olmaz
+Ben bunu şuna benzetiyorum diyelim
+fatura yatıracaksın fatura yatırırken L
+ekrana sığdıramam şım iyi mi Heh biraz
+küçülte şöyle biraz biraz şöyle içeri
+alayım da siz de görmüş olun He şöyle
+söylüyordum fatura yatıracaksın diyelim
+3 tane ane vezne var bu ü tane vezneye
+gittin üçü de boş ne yaparsın istediğin
+vezneye seçersin değil mi diyelim Sen
+sıraya girdin peşine birisi daha geldi
+gelen kişi senin arkanda mı bekler Gider
+yan taraftaki
+boşlu gider değil mi üçüncü kişi ne
+yapar gider diğer boşa değil mi E gidip
+de senin arkanda bekler mi salak değil
+herhalde beklemez e Düşünsene ü tane
+vezne var dör kişi gelmiş ikişer ikişer
+bekliyorsunuz ya vezne kapalıysa ancak
+girmemiş olursunuz veya başka bir işle
+uğraşıyordu ama hani şey şartlar Türkiye
+şartlarından bahsetmiyorum ben hani
+genel olarak ifade ediyorum yani ne olur
+orada önce birer tane dolar 4C kişi de
+istediğini tercih eder değil mi dostum
+işte Bak burada azot 7'den bahsetmiş
+neydi 1s Tamam 2s 2p böyle gidiyor Hatta
+yazayım Bak 1s 2s 2p bu elektronlar
+nasıl yerleşiyor şöyle göstereyim 7
+değil mi nötral de 7 protonu varsa 7 de
+elektronu var s en fazla kaç
+alabiliyordu 2 alabiliyordu yazdık
+geriye kaç kaldı 5 bu s en fazla 2
+alabiliyordu bunu da yazdık geriye ne
+kaldı 3 o zaman 3 de buna kaldı ha bu
+3'e elektronlar nasıl yerleşecek şöyle
+gelip de önce birer tane böyle
+yerleşecek Hocam niye yukarı yönlü
+çizdin şöyle olmaz mı biri yukarı biri
+aşağı böyle olmaz önce aynı yönde sonra
+zıt yönde tamam mı dostum İşte böyle
+yerleşir mi yerleşemez önce birer tane
+de olacak sonra he böyle yerleşebilir mi
+yerleşemez peki bu Evet olur doğrusu bu
+zaten bu bu da olur sonuçta aynı yönde
+yerleşmesi gerekiyor tamam mı dostum
+hauli dışlama ilkesi var Bu da aslında
+gerçekte şunu söyler bir atomdaki iki
+elektronun kuantum sayılarının hepsi
+aynı olamaz en az birisi farklı olmak
+zorunda ki bu da zaten Spin kuantum
+sayısı yani elektronun yönü demektir
+dostum burada ne oluyor Bir orbitalde
+bulunan iki elektron aynı spinli olamaz
+aynı yönde olamaz demek istiyor Peki
+Spin dediğimiz şey ne elektronun dönüş
+yönü biri saat yönünde döner Diğeri de
+saat yönünün zıttına döner bir
+orbitaldeki elektron O yüzden zaten
+birini yukarı birini aşağı çiziyoruz
+yukarı çizdiğimiz saat yönü aşağı
+çizdiğimiz saat yönünün tersi olarak if
+ifade edilmektedir bunu şöyle söyleyeyim
+sana dostum Bak iki tane elektron tamam
+mı birisi işte bu yönde dönüyor Diğeri
+ise bu yönde dönüyor Yani iki elektron
+bu şekilde zıt yönlerde dönebilmektedir
+dostum Tamam bunu yapabilen varsa görmek
+isterim açıkçası He o zaman helyumun
+mesela iki tane elektronu var değil mi
+bu iki elektronu nasıl
+yerleştirirseniz
+yapamazsın dostum tamam mı Çünkü bir
+orbitale iki elektron zıt yönde
+yerleşmek zorunda tamam mı dostum Mesela
+bak diyor ki Yukarıdaki elektronların
+orbitallere yerleşimlerinden hangileri
+hund kuralına uymaz diyor Hunt kuralı He
+ne oluyordu Hunt kuralında önce birer
+tane dolacak sonra diğerleri dolmaya
+başlayacak bu olur mu olabilir sıkıntı
+yok p4 Böyle olur mu Olmaz önce birer
+tane sonra diğeri değil mi D2 diyor olur
+sonuçta aynı enerjiye sahip bununla buna
+yerleşmiş ya isterse bununla Buna da
+yerleşebilir de sıkıntı yok yani bu da
+olabilir uymaz sorduğu için cevap Ne
+oldu B seçeneği y yız 2 oldu burada Ne
+diyor bakalım Yukarıdaki ifadelerden
+hangileri doğrudur Alba kuralına göre
+elektronlar yüksek enerjili orbitalden
+başlayarak Hayır afba ne diyordu düşük
+enerjilenme yani zıt yönde olmak zorunda
+hund kuralına göre eş enerjili
+orbitallere elektronlar Önce tek tek
+yerleşir sonra diğer yönde yerleşir
+doğru bir ifade cevap ne olacaktır 2 ve
+3 doğruları sorduğu için D seçeneği
+buraya bakalım Diyor ki elektron Orbital
+şeması yukarıda verilen x element atomu
+ile ilgili ifadelerinden hangileri
+doğrudur diye soruyor şimdi Buraya
+bakarsak ilki neydi s orbitali ydi 1s Bu
+ne 2s Buraya bakarsak 3 tane Orbital var
+bu nedir 2p orbitali e Sırada ne var 3S
+orbitali var E bir dakika şimdi birini
+doldurmadan diğerine nasıl geçiyorsun
+sen arkadaş burada toplamda bak sayarsak
+2 4 6 8 10 tane elektron var bu x'i
+yazıyorum bak 10 elektronu şöyle
+yazıyorum 1s 2s 2p 3S diye kalsın da
+kullanacak mıyım kullanmayacak mıyım
+öğreneceğim şimdi s en fazla 2
+alabiliyordu yazdık şöyle zoomlayan
+Hatta E diğer s en fazla 2 alabiliyordu
+kaç etti 4 e 10 vardı geriye ne kaldı 6
+kaldı E bunu dolduracak sonra diğerine
+geçecek yani Buraya elektron gelmemesi
+lazımdı dizilim böyle olması gerekiyordu
+He bakalım şimdi diyor ki albağ kuralına
+Uygundur diyor Hayır alt enerji
+seviyesini doldurmadan üst enerji
+seviyesine geçmiş o yüzden bu yanlıştır
+elektron içeren orbitalleri tam doludur
+e verdikleri bu hali Evet hepsi tam dolu
+Gördüğün gibi bir yukarı bir aşağı
+şekilde Doğrudur çekirdek yükü 10'dur
+diyor e toplam 10 elektronu varsa temel
+halde E ne olacaktır 10 da protonu
+olacaktır yani proton sayısı çekirdek
+yükü 10 demektir Doğrudur cevap 1 ve 3
+olmalı C seçeneği şim şu soruya bakalım
+zaten kuralı verdiğim için kafam rahat
+neydi s p d f orbitali ydi L değerlerini
+vermiştim 0 1 2 3 şimdi Bu ne 2 + 1
+değil mi 2 + 1'den bunun enerjisi 3
+birim Bu da 3 + 0'dan bunun enerjisi de
+3 birim e Bunlar eşit olduğunda n sayısı
+büyük olanın enerjisi daha büyük oluu
+yani sıralama böyle olmalı Buraya
+bakarsak 4 + 3'ten 7 e burası 5 + 0'dan
+kaç etti 5 Evet bu doğrudur enerjisi
+büyük olan 4F imiş şuraya geldiğimizde
+ise 3 + 2'den 5 4 + 0dan 4 evet bu daha
+büyüktür Bu da doğrudur cevap ne
+olacaktır D seçeneği olacaktır işte sana
+o yüzden öğrettim bu kuralı bir daha
+ezberleme o sıralamada hangisi şöyleydi
+hangisi böyleydi diye ezberleme diye
+sana bunu öğrettim yani L değerlerini ve
+n değerlerini bindiğinde n değerleri
+işte O baştaki sayılar 3 4 5 diye
+gidiyor L değerleri ise s orbitali için
+0 p orbitali için 1 D orbitali için 2 ve
+F orbitali için 3 değeridir bu şekilde
+kafanda tutarsan bu soruları yanlış
+yapmazsın dostum bu sorumuza Bakalım 3
+S1 ve 4 S1 orbitalleri ile ilgili
+yargılarından hangileri doğrudur s
+orbitalinin şekli böyle yuvarlak değil
+miydi yani şekilleri aynıdır doğru 4
+s'nin enerjisi 3 c'den büyüktür Evet
+S'ler olduğunda 4 olduğunda Tabii ki
+enerjisi daha büyük olacaktır Doğrudur 4
+s'nin çekirdeğe uzaklığı 3 s'nin kinden
+büyüktür şimdi 3S buysa 4S budur e
+haliyle 4S çekirdeğe daha uzaktır doğru
+bir ifadedir cevap 1 2 3 burada a
+seçeneğinde dostum burada diyor ki
+toplam 32 elektron alabilen enerji
+seviyesi ile ilgili Yukarıdaki
+ifadelerden hangis hangileri doğrudur
+Hım toplam 32 elektron alabilen 2n kare
+formülüne göre buranın 32 olması demek n
+k = 16 n = 4 demektir 4 katmandan
+bahsediyor 4 enerji seviyesi olabilir mi
+olabilir Bunu söyleyebiliriz diyor ki s
+p d f orbitallerin içerir n = 4'te s
+vardı p vardı D vardı F vardı o yüzden
+Doğrudur diyor ki içerdiği tüm
+elektronların temel enerji seviyesi
+aynıdır e haliyle hepsi aynı aynı
+katmanda temel enerji seviyesi olarak
+yani 4 katmanda doğru bir ifadedir
+Enerjileri aynıdır demiyor bak temel
+enerji seviyeleri yani katman sayıları
+aynıdır demek istiyor o yüzden cevap 1 2
+3 e seçeneği olacak Dostum şimdi burada
+Ne diyor bakalım bir enerji sıralaması
+vermiş kesinlikle yanlıştır soruyor Hım
+şimdi 5p yani 5 + 1 bunun enerjisi 6 bu
+neymiş en büyükmüş Bu ne 3D 3D olduğuna
+göre 3 + 2'den Aha bu da ne bu 5 He
+şeymiş 6 zannettim He 5'mi o zaman
+Şuradaki 6 da olabilir 5 de olabilir bak
+6 da olabilir 5 de olabilir buraya
+gelecekleri yazıyorum Burası 5p ise
+şuraya gelebilecekler 5S olabilir başka
+toplamları 6 olan bir şey düşünelim
+şöyle ne olabilir 4D olabilir mi 4D
+olabilir Sonuçta 5p den daha düşük
+enerjiye sahip toplamı 6 ama baştaki
+sayı küçük olduğu için Başka ne olabilir
+Düşünüyorum Düşünüyorum Burası 6s olamaz
+çünkü 6 + 0 xi de 6 ama baştaki sayı
+büyük olduğu için bunu yazamayız 6 s
+olamayacaktır başka başka düşünelim
+Başka ne olabilir buranın toplamı 6
+olacak başka bir örnek var mıdır 4F
+olmaz o 7 olmadı başka başka 5'ler
+düşünelim mesela 5S yazılabilir mi
+yazılabilir olur Başka ne olabilir 4p
+Olabilir mi E bu da olabilir 4 + 1'den
+dolayı bu da olabilir başka düşünüyorum
+düşünüyorum Başka Şu an aklıma gel 5S
+zaten iki kere yazmışım Gördüğün gibi
+şöyle onu kaldıralım şimdi o zaman
+bakalım Diyor ki N = 5 olabilir mi
+olabilir diyor ki x F orbitali olabilir
+diyor ya bak F orbitali olsa bak F
+orbitali olsa burası 3F olmaz En az 4
+olmak zorunda e 4 + 3'ten dolayı 7 olur
+yani buranın F orbitali olma ihtimali 0
+hiç yok diyor ki A = 2 olabilir diyor
+Hım bakalım şimdi yani üzerindeki
+elektron sayısı örnek veriyorum işte 5
+S2 Olamaz mı olabilir bunda sıkıntı yok
+diyor ki A = 10 10 olabilir diyor bak 4D
+orbitali olsa burası 10 Olamaz mı
+olabilir bunda da sıkıntı yok n = 4 yani
+4D 4p Bunlar olabileceği için n = 4 de
+olabilir ama kesinlikle olmayacak şey
+buradaki orbitalin F orbitali olmasıdır
+cevap o yüzden B seçeneğidir Şimdi
+burada Ne diyor bakalım NS üzeri a ile
+np üzeri B orbitalleri için
+yargılarından hangileri doğrudur diyor A
+= B olabilir ya sonuçta şöyle NS 2 np2
+Olamaz mı olabilir Sonuçta p 6'ya kadar
+alabiliyor 6'nın altındaki her sayıyı
+alabilir O yüzden bu olabilir n eş 1
+olamaz Doğru söylüyor Çünkü 1 S orbitali
+vardır ama 1 p orbitali yoktur yani
+şunun 1 olma ihtimali yok p 2'den
+başlıyordu O yüzden bu da doğru bir
+ifadedir burada ne demiş np üzeri B'nin
+enerjisi NS üzeri A'nın enerjisinden
+yüksektir örnek veriyorum 4p üzeri 6 Bu
+da 4S üzeri 2 ya Bun buların önemi yok 4
++ 1'den 5 4 + 0'dan 4 ya da şöyle düşün
+n + 1 Burası Aslında bu da n + 0 e
+haliyle 4 P'nin enerjisi Daha doğrusu
+şöyle söyleyeyim n P'nin enerjisi daha
+yüksektir Doğrudur cevap Ne oldu 1 2 3
+burada a seçeneğine koyulmuş Dostum Evet
+Bence ara verme vakti geldi Bir sonraki
+derste bu elektron dizilimlerini devam
+edeceğim daha detaylı örnekler vereceğim
+sen bu ders yaptıklarımızı bir sindir
+Nelerden bahsettik bak çok önemli
+şeylerden bahsettik Orbital şekilleri
+önemli D'ye kadar tabii ki başka neyden
+bahsettik Bu enerji sıralaması vardı 1 S
+2 S falan var ya işte o sıralama ona bir
+bak Mümkünse şeye kadar bu 5 p'ye kadar
+kısma baksan iyi olur ezberlemeye
+çalışsan iyi olur diye düşünüyorum Hun
+kuralı auf B kuralı pauli dışlama ilkesi
+Bunların ne olduğuna bir daha bak çok
+önemlidir Çünkü buradan çok patates
+ederler adamı O yüzden oraya dikkat
+etmeni istiyorum Bir de tabii ki Ne
+yapıyorsun Soru çözüyorsun OGM materyal
+kullanabilirsin Milli Eğitim
+Bakanlığı'nın kitapları size verdiği
+kitapların sorularını çözebilirsin
+bunlardan faydalanmanın istiyorum Ayrıca
+IQ 9 sınıf kimya soru bankası da
+alabilirsin orada da çok kıyak sorular
+var çok güzel sorular var bazılarını
+çözeceğim ben onlara da bakabilirsin
+dostum o zaman ara verme vakti iki
+fosfor bir asit kimya Bu kadar basit bir
+sonraki derste görüşmek üzere hoşça kal

@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
       "videoSearchScore": 8,
-      "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli"
+      "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt",
+      "transcriptFingerprint": "20f59b1eff4fffee"
     },
     "provider": "Rehber Matematik",
     "topic": "Eşlik ve Benzerlik Problemleri"

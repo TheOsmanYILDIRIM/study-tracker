@@ -26,7 +26,13 @@
       "videoSearchScore": 6.07,
       "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
       "fingerprint": "c6a801b3b8500cff",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.tr.vtt",
+      "transcriptFingerprint": "a9429fca5308feaa"
     }
   }
 }

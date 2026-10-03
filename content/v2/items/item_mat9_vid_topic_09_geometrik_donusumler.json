@@ -29,7 +29,13 @@
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
       "fingerprint": "82fde7766e2f47dd",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.tr.vtt",
+      "transcriptFingerprint": "2ad01955011f72cc"
     }
   }
 }

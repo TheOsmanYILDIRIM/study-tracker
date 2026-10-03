@@ -25,7 +25,13 @@
       "videoSearchScore": 2.9,
       "videoCandidateTitle": "Those Leading the Science of Physics - Science Centers | 9th grade physics new curriculum (maarif...",
       "fingerprint": "d16568f2f820ce4f",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.tr.vtt",
+      "transcriptFingerprint": "dbd42f4bde0e667a"
     }
   }
 }

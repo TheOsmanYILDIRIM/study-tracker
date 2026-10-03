@@ -25,7 +25,13 @@
       ],
       "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
       "videoSearchScore": 4.4,
-      "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+      "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.tr.vtt",
+      "transcriptFingerprint": "92ed5bed2a0c5a22"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Mekânın Aynası Haritalar"

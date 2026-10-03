@@ -25,7 +25,13 @@
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
       "fingerprint": "0f4384a467ce5593",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.tr.vtt",
+      "transcriptFingerprint": "5faa10ff494c65cb"
     }
   }
 }

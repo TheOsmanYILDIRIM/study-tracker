@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "EŞLİK VE BENZERLİK",
       "videoSearchScore": 9.55,
-      "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli"
+      "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.tr.vtt",
+      "transcriptFingerprint": "5faa10ff494c65cb"
     },
     "provider": "Rehber Matematik",
     "topic": "Eşlik ve Benzerlik Koşulları"

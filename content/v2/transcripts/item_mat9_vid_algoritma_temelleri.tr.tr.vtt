@@ -1,0 +1,2109 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:04.240
+Hatun bir dakika gelsene yeni Marif
+modelde ben sana bir bardak su ikram
+
+00:00:04.240 --> 00:00:07.439
+etmek istiyorum bunu her zaman yapmam
+bana bunu tarif eder misin algoritmik
+
+00:00:07.439 --> 00:00:15.000
+bir dille sürahiyi al bardağa
+koy öyle değil sürahiyi al suyu
+
+00:00:15.000 --> 00:00:22.800
+boşalt ya
+o sürahiyi al bardağın içine
+
+00:00:23.000 --> 00:00:31.679
+boşalt ya K Bırakır mısın Bırakır mısın
+Bırakır mısın Bırakır çok doldur boşalt
+
+00:00:31.679 --> 00:00:39.600
+dedin sürahiyi al kapağını aç sürahiden
+biraz bardağın içine su
+
+00:00:42.719 --> 00:00:49.480
+koy ya biraz
+Serken o kadar biraz değil sürahiyi al
+
+00:00:49.480 --> 00:00:56.079
+kapağını aç sürahinin içinden bardağın
+içine bardağın yarısını Dolduracak kadar
+
+00:00:56.079 --> 00:01:00.800
+su boşalt sürahi yerine koy
+
+00:01:03.519 --> 00:01:09.920
+Teşekkür ederim bardağı ver demedim
+abi kendisi kendime alırım Algoritma da
+
+00:01:09.920 --> 00:01:14.720
+suyuna da
+alam Selamlar rm Tayfa Ben Mehmet hocan
+
+00:01:14.720 --> 00:01:19.840
+güncel müfredatta öğretmeninden
+öğrencisine en çok zorlanılan ve hatta
+
+00:01:19.840 --> 00:01:25.119
+en çok merak edilen temaya gelmiş
+bulunmaktayız 5 tema Algoritma ve
+
+00:01:25.119 --> 00:01:30.960
+bilişim diyeceğiz ve emin ol burayı en
+detaylı şekilde benden dinleyeceksin en
+
+00:01:30.960 --> 00:01:34.960
+güzel püf noktalarıyla benden
+dinleyeceksin sorularına geçtiğimizde en
+
+00:01:34.960 --> 00:01:40.119
+rahat şekilde işte orada O soruları Sen
+çözeceksin hiç merak etme Diğer
+
+00:01:40.119 --> 00:01:44.360
+konularda yaptığımız gibi bu konuda da
+algoritmada da tamamen ne yapacağız
+
+00:01:44.360 --> 00:01:48.880
+detaylı bir şekilde analiz edeceğiz
+sorularını beraber çözeceğiz ÖSYM gerek
+
+00:01:48.880 --> 00:01:53.000
+map hangi sınavda sorarsa sorsun fark
+etmez algoritmayla gelen soruları
+
+00:01:53.000 --> 00:01:56.399
+birlikte devireceğiz amacımız o
+ayrıntılı bir doküman hazırladım seninle
+
+00:01:56.399 --> 00:02:01.560
+birlikte şimdi onu beraber ne yapacağız
+dolduracağız Ama senden ricam Ders
+
+00:02:01.560 --> 00:02:04.759
+notlarını alıyorsun önüne koyuyorsun
+benimle birlikte yazıyor benimle
+
+00:02:04.759 --> 00:02:10.160
+birlikte çözüyorsun Hazır mısın o zaman
+elimizde kalemler önümüzde Algoritma
+
+00:02:10.160 --> 00:02:15.879
+ders notları o taraf sende bu taraf
+bende matematik de bende o zaman gönder
+
+00:02:15.879 --> 00:02:20.760
+Gönder gelsin Hocam diyorum Evet o çok
+merak edilen 5 TEMAD dayız algoritmanın
+
+00:02:20.760 --> 00:02:24.840
+işlem adımları 1 diyeceğiz birinci
+derste mevzuya başlayacağız Tabii ki her
+
+00:02:24.840 --> 00:02:28.760
+zaman olduğu gibi tanımla başlayacağım
+Hani Aslında algoritmada genel anlamda
+
+00:02:28.760 --> 00:02:32.480
+şunu yapacağız bir bilgisayar programı
+yazmaya çalışacağız Bazıları için çok
+
+00:02:32.480 --> 00:02:36.080
+eğlenceli olacak Hatta hayatını
+değiştirecek bazı konulardan biri
+
+00:02:36.080 --> 00:02:39.120
+diyebilirim Ben buna ilgisi artacak
+hemen gidip bir evde bilgisayarda
+
+00:02:39.120 --> 00:02:42.760
+denecek bazılarımız İsa Belki de hiç
+sevmeyecek Çünkü herkesin bu tarafa
+
+00:02:42.760 --> 00:02:46.680
+ilgisi olmayabilir bu doğal bir şey ama
+İlgin olursa ileride İyi para
+
+00:02:46.680 --> 00:02:49.959
+kazanabilirsin gerçi bilmiyorum yani
+yazılım işi artık ileride para etmeyecek
+
+00:02:49.959 --> 00:02:54.159
+diyorlar Yapay Zeka sebebiyle ama
+göreceğiz Şimdi Algoritma nedirle
+
+00:02:54.159 --> 00:02:58.760
+başlıyoruz Algoritma nedir arkadaş
+belirli bir problemi çözmek veya bir
+
+00:02:58.760 --> 00:03:02.840
+amaca ulaşmak için için adım adım
+uygulanan kuralların tüm bütününe
+
+00:03:02.840 --> 00:03:06.840
+verilen isim
+algoritmadan temel felsefesinde şu
+
+00:03:06.840 --> 00:03:11.200
+vardır açıklık anlaşılırlık ve
+sistematik bir yapı olması gerekir
+
+00:03:11.200 --> 00:03:14.959
+algoritmanın genel mantığında bu var
+şimdi buradan soru gelmez tabii ki
+
+00:03:14.959 --> 00:03:18.599
+sınavda ama benim derdim sadece soru
+değil sana bu işin felsefesini anlatmak
+
+00:03:18.599 --> 00:03:23.799
+geldim ikinci Başlığa algoritmaların
+işleyiş biçimi ki bizim asıl üstünde
+
+00:03:23.799 --> 00:03:28.640
+duracağımız nokta bu Algoritma bir
+süreci başlangıç noktasından bir bitiş
+
+00:03:28.640 --> 00:03:33.239
+noktasına doğru adım adım yönlendirir
+bir başlangıç yapacağız bir bitiş
+
+00:03:33.239 --> 00:03:37.239
+noktası belirleyeceğiz O noktaya doğru
+adım adım adım ilerleyeceğiz
+
+00:03:37.239 --> 00:03:42.400
+algoritmanın amacı gereken işlemleri
+sıralı ve net bir şekilde açıklamaktır
+
+00:03:42.400 --> 00:03:46.879
+ve Biz bu işlemleri yaparken algoritmada
+ü farklı yöntem kullanacağız işte
+
+00:03:46.879 --> 00:03:52.159
+kullanacağımız yöntemlerden birincisi ve
+bu derste anlatacağım yöntem algoritmik
+
+00:03:52.159 --> 00:03:58.159
+doğal dil ikincisi akış şeması üçüncüsü
+de sözde kotu olacak Her bir derste ayrı
+
+00:03:58.159 --> 00:04:01.599
+ayrı sana Ben bunları Zaten aktar Maya
+devam edeceğim Ama ilk olarak Dediğim
+
+00:04:01.599 --> 00:04:06.200
+gibi az önce ne dedim algoritmik doğal
+dil Hocam bu algoritmik doğal dil nedir
+
+00:04:06.200 --> 00:04:10.560
+burayı anladıktan sonra emin ol akış
+şeması ve Sözde kod çok daha kolay
+
+00:04:10.560 --> 00:04:15.879
+olacak ama önce Neyi anlaman gerekiyor
+algoritmik doğal dille ifade etmeyi
+
+00:04:15.879 --> 00:04:20.840
+öğren gerisi hemen çok kolay yani çok
+zorlamayacak seni ama önemli olan burayı
+
+00:04:20.840 --> 00:04:25.040
+halletmemiz burayı Hallettik mi gerisi
+kolay algoritmik doğal dil nedir Nasıl
+
+00:04:25.040 --> 00:04:28.960
+kullanılır Nasıl işlem yapılır burada
+bir kere problemin çözüm adımlarını
+
+00:04:28.960 --> 00:04:33.080
+günlük dil dil kullanarak anlatacaksın
+çok basit Çok temel bir dil kullanarak
+
+00:04:33.080 --> 00:04:38.160
+anlatman gerekiyor basit ve sıralı bir
+yapıda sahip olman gerekiyor tıpkı o Su
+
+00:04:38.160 --> 00:04:43.320
+doldurma algoritmasının yazılışı gibi
+tek tek tane tane basit Hani bizim bir
+
+00:04:43.320 --> 00:04:48.360
+lafa hocam mala anlatır gibi anlatır
+mısın var ya maldan da öte abi hani öyle
+
+00:04:48.360 --> 00:04:54.039
+bir anlatalım ki herkes anlasın her şey
+anlasın yani taş toprak bile anlasın
+
+00:04:54.039 --> 00:04:58.199
+yani öyle anlatmamız lazım Hani bazen
+yazıyorsunuz anlat hocam Mallı anlat
+
+00:04:58.199 --> 00:05:03.440
+gibi abi tamam edisi bir yanana Harbiden
+öyle anlatacaksın ama algoritmik doğal
+
+00:05:03.440 --> 00:05:07.440
+dil adımlarını yaparken şuna dikkat
+edeceksin önce en başta sana bir problem
+
+00:05:07.440 --> 00:05:11.639
+verilecek bu problemi önce kafanda
+adımlara böl tamam mı O adımları sonra
+
+00:05:11.639 --> 00:05:16.520
+yazılı hale getir 1ci adım ve 5 adım 5ci
+adım dediğime bakma son adım diyelim biz
+
+00:05:16.520 --> 00:05:21.080
+buna giriş ve çıkış adımlarımız
+kesinlikle şunlar olmak zorunda başla ve
+
+00:05:21.080 --> 00:05:26.000
+bitir Bunu tıpkı bir bilgisayarın başına
+geldin eline mouse'unu aldın programı Ne
+
+00:05:26.000 --> 00:05:30.199
+yapman lazım önce başlatmanın çift
+tıklaman lazım program çalışacak Öyle
+
+00:05:30.199 --> 00:05:34.360
+değil mi he İşte buradaki mantık da odur
+algoritmada birinci adımımız neyle
+
+00:05:34.360 --> 00:05:37.960
+başlamak zorunda başta adımıyla
+başlayacak en sona da artık bitir
+
+00:05:37.960 --> 00:05:42.039
+adımıyla programı kapatacak çıkacaksın
+gibi hayal edebilirsin aradakiler Ne
+
+00:05:42.039 --> 00:05:45.280
+olacak çözüm adımları olacak şimdi bu
+çözüm adımlarını nasıl yazacağımız
+
+00:05:45.280 --> 00:05:49.120
+beraber konuşacağız ama yazarken
+öncelikle neye dikkat etmelisin işte
+
+00:05:49.120 --> 00:05:53.400
+şuna bir başta komutuyla başlayacaksın
+bitir komutuyla bitireceksin dedik K
+
+00:05:53.400 --> 00:05:58.160
+bilgiser programı Aslında bu başlay la
+başlanır bitir le bitirilir yani o adımı
+
+00:05:58.160 --> 00:06:02.600
+bile yazacak mıyım hocam e Yazacaksın
+tabii problemi küçük parçalara bölerek
+
+00:06:02.600 --> 00:06:07.319
+adım adım ilerleyeceğiz o ara adımların
+her biri küçük adımlar olacak çözüm
+
+00:06:07.319 --> 00:06:12.360
+adımlarını günlük Anlaşılır bir dil
+kullanarak sırasıyla ve sade biçimde
+
+00:06:12.360 --> 00:06:16.960
+anlatacağız çok sade olacaksın ayrıntıya
+girmeyeceksin çok misal şimdi bu temel
+
+00:06:16.960 --> 00:06:20.639
+örneği beraber burada hazır çözüm
+üzerinden ilerleyelim sonra Kendimiz de
+
+00:06:20.639 --> 00:06:25.280
+yazacağız bunları ki çok bol örneğim var
+hiç merak etme bir karenin alanını bulan
+
+00:06:25.280 --> 00:06:30.319
+algoritmanın işleyişini doğal dille
+ifade ediniz doğal dille ası ne şu
+
+00:06:30.319 --> 00:06:34.639
+algoritmik doğal dille bunu ifade etmeni
+istiyor Ne dedim birinci adımda
+
+00:06:34.639 --> 00:06:38.599
+öncelikle şunu yapmak zorundasın bir
+başta komutunu vermek zorundasın bunu
+
+00:06:38.599 --> 00:06:42.240
+yazacağız Evet birazdan yazacağız zaten
+buradakiler birebir yazılacak olanlar
+
+00:06:42.240 --> 00:06:47.400
+ikinci adım şu ifade yazacağın şey değil
+senin bir girdi alman lazım şimdi
+
+00:06:47.400 --> 00:06:51.000
+karenin alanını bulmak istiyorum normal
+şartta karenin alanı nasıl bulunur bir
+
+00:06:51.000 --> 00:06:55.319
+tane Kenar uzunluğu alınır O Karen kenar
+uzunluğunun karesi bulunur alanı bulunur
+
+00:06:55.319 --> 00:07:00.440
+bu kadar basit hocam ama bunu karşıya
+adeta bir mala anlatır gibi anlatm lazım
+
+00:07:00.440 --> 00:07:04.319
+Burada girdiye ihtiyacım var şimdi orada
+Hayal etmeye çalış bir bilgisayar
+
+00:07:04.319 --> 00:07:08.120
+programı başlat dedin açıldı önce senden
+ne isteyecek O Karenin bir kenarının
+
+00:07:08.120 --> 00:07:12.879
+uzunluğunu isteyecek O yüzden Karenin
+bir kenarının uzunluğunu al çok temel O
+
+00:07:12.879 --> 00:07:17.240
+zaman artık bunu aldın mı hocam ikinci
+adıma geçebilir miyiz Evet geçebilirsin
+
+00:07:17.240 --> 00:07:20.759
+Pardon bir sonraki adıma geçebilir miyim
+ki O benim 3üncü adımım oldu Şimdi artık
+
+00:07:20.759 --> 00:07:24.639
+ne yapacağım girdiyi aldığıma göre alanı
+hesaplayabilirim karenin alanı nasıl
+
+00:07:24.639 --> 00:07:29.720
+hesaplanıyordu bir kenarın kendisiyle
+çarpımı ya da karesini al Orası sana
+
+00:07:29.720 --> 00:07:33.919
+kalmış karenin alanı kenar uzunluğunun
+kendisiyle çarpımına eşittir kenar
+
+00:07:33.919 --> 00:07:37.520
+uzunluğunun karesine eşittir abiciğim
+Sen orada nasıl ifade etmek istiyorsan
+
+00:07:37.520 --> 00:07:42.520
+et burada tek bir doğru yok farklı
+yollardan da aynı yola aynı doğruya
+
+00:07:42.520 --> 00:07:47.960
+ulaşabiliriz bu işlemi gerçekleştir Evet
+bildiğim bana anlatır bir gerçekleştir
+
+00:07:47.960 --> 00:07:51.879
+buldum gerçekleştirdim Şimdi artık bunu
+bana bir çıktı olarak göstermesi lazım
+
+00:07:51.879 --> 00:07:56.639
+tamam hesapladı ama bunu bana henüz
+göstermedi bu komutu da yazmak zorunda
+
+00:07:56.639 --> 00:08:00.919
+mıyım Evet sonucun yazdırılması adımında
+Bunu bana bir iletmek zorunda bir
+
+00:08:00.919 --> 00:08:05.840
+şekilde hesaplanan alanı ekrana ya da
+bir dosyaya yazdır artık orada nereye
+
+00:08:05.840 --> 00:08:10.120
+istiyorsa onu yazdıracağız ve artık
+tekrar ne yapmam lazım programı bitirme
+
+00:08:10.120 --> 00:08:14.879
+vakti geldi programı bitir diyeceğiz bu
+kadar ben burada 5 adımda dik Pardon
+
+00:08:14.879 --> 00:08:20.000
+karenin alanının oluşmasını sana adım
+adım göstermeye çalıştım şimdi adım adım
+
+00:08:20.000 --> 00:08:23.639
+seninle birlikte bu soruları beraber
+çözeceğiz ve bu soruları çözdükçe
+
+00:08:23.639 --> 00:08:28.520
+çözdükçe anlaşılır hale gelecek farklı
+kaynaklarda farklı çözüm metotları var
+
+00:08:28.520 --> 00:08:33.880
+ama hepsini derleyip baktığımızda en net
+en güzel çözüm yolunun emin ol aklına en
+
+00:08:33.880 --> 00:08:37.240
+yatar çözüm yolunun şimdi yapacağım
+çözüm yolu olduğunu sen de anlayacaksın
+
+00:08:37.240 --> 00:08:42.719
+Şimdi Amacımız ne hocam Neyi bulmak
+istiyoruz dikdörtgenin alanını bulan
+
+00:08:42.719 --> 00:08:49.240
+işleyişi algoritmik doğal dil ile ifade
+ediniz bir kere soruyu algoritmik doğal
+
+00:08:49.240 --> 00:08:52.920
+dil ile Yani benim Az önce öğrendiğim
+dille çözmem istiyor bu dil nasıl
+
+00:08:52.920 --> 00:08:57.480
+işliyordu hocam adım adım işliyordu
+birinci adımımız nedir birinci adımımız
+
+00:08:57.480 --> 00:09:02.120
+şudur arkadaş neye ihtiyacımız var başla
+komutuna ihtiyacımız var o yüzden başla
+
+00:09:02.120 --> 00:09:06.800
+komutunu beraber yazıyoruz ikinci adım
+dikdörtgenin alanını bulmak için
+
+00:09:06.800 --> 00:09:12.839
+öncelikle bana iki Kenar uzunluğu
+gerekiyor o yüzden ne olacak 1 kenar
+
+00:09:12.839 --> 00:09:19.240
+uzunluğunu gir kenar uzunluğunu gir bak
+Bunları tek tek yazmak zorundasın gir ki
+
+00:09:19.240 --> 00:09:24.600
+Birazdan bir açıklama daha yapacağım
+sonra 2 kenar uzunluğunu gir uzunluğunu
+
+00:09:24.600 --> 00:09:29.360
+gir Bunu da tek tek böyle yazıyorum ama
+anlaşılır bir dilde olmasına dikkat
+
+00:09:29.360 --> 00:09:34.079
+ediyorum burada mavi ile yazdıklarım
+bizim asıl sınavda yazmamız gereken
+
+00:09:34.079 --> 00:09:40.560
+şeyler Şimdi içerisine siyahla a ve b
+değerleri yazıyorum aslında gireceğim
+
+00:09:40.560 --> 00:09:45.040
+değerler Bunlar olsun Örneğin a değeri
+Örneğin B değeri ikinci Kenar uzunluğu
+
+00:09:45.040 --> 00:09:50.000
+olarak düşündüğüm şey de B değeri artık
+3üncü adıma geçebilirim 3üncü adımım ne
+
+00:09:50.000 --> 00:09:56.040
+olacak dikdörtgenin alanı dikdörtgenin
+alanını hesapla dik
+
+00:09:56.040 --> 00:10:01.720
+dörtgenin alanını hesapla alanını
+hesapla komut komut tane tane
+
+00:10:01.720 --> 00:10:05.519
+anlatıyoruz Tamam iyi güzel de
+dikdörtgenin alanı nı hesaplanıyor benim
+
+00:10:05.519 --> 00:10:11.480
+onu da anlatmam lazım onu nasıl
+anlatacağım dikdörtgenin alanı eşittir
+
+00:10:11.480 --> 00:10:18.839
+diyorum 1 kenar Evet çarpı 2 kenar doğru
+mudur şu kenarı biraz daha yakın yazalım
+
+00:10:18.839 --> 00:10:26.240
+2 kenar Aynen Komutları tek tek verdim
+Şimdi yanına yazacağım siyahla Yazacağım
+
+00:10:26.240 --> 00:10:31.040
+ifade dikdörtgenin alanını ifade etsin x
+biliyorsun ki birinci kenarı a olarak
+
+00:10:31.040 --> 00:10:35.560
+aldık ikinci kenarı B olarak aldık
+Normal şartlarda MB kitabında da
+
+00:10:35.560 --> 00:10:40.639
+görürsün Normalde algoritmik doğal dille
+yaz dediğinde bu Mavileri yazıyor yanına
+
+00:10:40.639 --> 00:10:45.000
+işlem adımlarını göstermek için de bu
+siyahlarla ayrı yazıyor Ama ben bunların
+
+00:10:45.000 --> 00:10:49.000
+hepsini tek bir adımda tek bir seferde
+gösteriyorum çok daha anlaşılır çok daha
+
+00:10:49.000 --> 00:10:53.320
+net olduğunu düşünüyorum Bu şekilde
+geldim 4 adıma Artık bunun çıktısını
+
+00:10:53.320 --> 00:10:58.720
+almam lazım Doğru mu alan sonucunu
+ekranda göster alan sonucunu ya da alan
+
+00:10:58.720 --> 00:11:04.160
+neyin hocam olmaz dikdörtgenin alanına
+dik dör çok temel felsefeyle çocuğa
+
+00:11:04.160 --> 00:11:08.399
+anlatır gibi bebeğe anlatır gibi
+hayattan hiçbir bilgisi olmayan sı
+
+00:11:08.399 --> 00:11:12.760
+sadece senin dediklerini anlayabilen
+yetisi olan birini anlatıyormuş gibi
+
+00:11:12.760 --> 00:11:21.959
+dikdörtgenin alanını alanını ekrana yaz
+ekrana yaz ki ekrana yazacağı cümleyi de
+
+00:11:21.959 --> 00:11:28.240
+bak buraya yazıyoruz dikdörtgenin alanı
+dikdörtgenin alanı genin
+
+00:11:28.240 --> 00:11:36.120
+alanı alanı x birim karedir bak ekranda
+da yazmasını istediğim cümle bu bitti mi
+
+00:11:36.120 --> 00:11:42.320
+Hayır bitmedi artık 5 adımdasın 5 adımda
+ne yapıyorsun diyorsun ki hocam bitir
+
+00:11:42.320 --> 00:11:47.000
+bitir kunda ne yapmak zorundasın vermek
+zorundasın olay mevzu Gerçekten bu kadar
+
+00:11:47.000 --> 00:11:50.560
+şimdi Adım Adım Adım Adım farklı
+sorularla bu yeteneğimizi Biz de
+
+00:11:50.560 --> 00:11:56.880
+geliştirelim şimdi önümdeki soruya bak
+uzun kenarın uzunluğu 12 birim kısa
+
+00:11:56.880 --> 00:12:01.440
+kenar uzunluğu 7 birim olan bir
+dikdörtgenin alanını bulan algoritmanın
+
+00:12:01.440 --> 00:12:05.839
+işleyişini algoritmik doğal dille
+yazınız Aslında Yukarıdaki adımların
+
+00:12:05.839 --> 00:12:10.240
+aynısı dikkat et Yukarıdaki adımlar
+herhangi bir birim uzunluğu vermeden
+
+00:12:10.240 --> 00:12:15.399
+yapılan işlemlerle şimdi aynı adımları
+Aslında baştan sona tekrar yazacağım ama
+
+00:12:15.399 --> 00:12:19.839
+yazarken tek farkım ne bu sefer artık
+benden veriler belli mi birinci kenar
+
+00:12:19.839 --> 00:12:25.000
+uzunluğunu gir ki birinci Kenar uzunluğu
+nedir 12 birim a kenarını bak ne aldım
+
+00:12:25.000 --> 00:12:29.760
+12 birim aldım ikinci Kenar uzunluğu ya
+da kısa kenar uzunluğu artık bir kenar
+
+00:12:29.760 --> 00:12:33.800
+ikinci kenar yazmama gerek yok Örneğin
+algoritmanın yazılışında şunu
+
+00:12:33.800 --> 00:12:40.839
+yapabilirim uzun kenar uzunluğunu gir
+girdi A eşittir Hatta uzun kenara yine a
+
+00:12:40.839 --> 00:12:44.680
+kalsın fark etmez u diyebilirsin
+kısaltmak için buraya da kısa kenar
+
+00:12:44.680 --> 00:12:48.639
+uzunluğunu gir hani neyi nereye
+gireceğimiz kafamıza hiç karışmaması
+
+00:12:48.639 --> 00:12:53.959
+adına adeta 0dan bilgi verdiğim için 7
+birim bunu da yazabilir miyim yazarım
+
+00:12:53.959 --> 00:12:58.760
+şimdi ne yapacağım dikdörtgenin alanını
+hesapla dikdörtgenin alanı neye eşittir
+
+00:12:58.760 --> 00:13:03.079
+uzun kenar çarp kısa kenar Hadi gel
+Buradaki verileri de değiştirelim şimdi
+
+00:13:03.079 --> 00:13:08.839
+uzun kenar yazıyorum bunlar benim asıl
+yazmam gerekenler işlemsel adımlar ise
+
+00:13:08.839 --> 00:13:13.760
+nedir aşağıda siyahla gösterdiğim
+adımlar oluyor uzun kenar çarpı kısa
+
+00:13:13.760 --> 00:13:19.399
+kenar dikdörtgenin alanını neyle
+Gösterdim xile Gösterdim ne yapacağım 12
+
+00:13:19.399 --> 00:13:24.760
+Bu arada normal noktayla değil Eski usul
+çarpma işlemiyle biz şeyde
+
+00:13:24.760 --> 00:13:28.160
+bilgisayarlarda çarpma işlemlerini
+yaparız Excel kullanan arkadaşlar
+
+00:13:28.160 --> 00:13:32.680
+bilirler noktayla değil oradaki küçük x
+tuşuna Basarız çarpma işlemini
+
+00:13:32.680 --> 00:13:36.320
+yapabilmek için ya da Yıldız tuşu
+diyeyim daha doğrusu o Hatta bilgisayar
+
+00:13:36.320 --> 00:13:40.880
+kodlamalar şu şekilde Yıldız atılır ama
+ben şimdilik burada doğal Logar
+
+00:13:40.880 --> 00:13:44.959
+logaritma diyorum algoritmik deil de
+normal çarpı işlemi koyacağım buraya
+
+00:13:44.959 --> 00:13:49.240
+Şimdi artık x'i hesaplayabilir mi
+hesaplar ne gelir 2 kere 7 14'ün 4ü
+
+00:13:49.240 --> 00:13:53.639
+elimde var bir 84 birimkare elde eder
+artık yazacağı Değer ne olur
+
+00:13:53.639 --> 00:14:00.040
+dikdörtgenin alanını ekrana yaz Bak
+dikdörtgenin alanı 84 birim
+
+00:14:00.040 --> 00:14:05.440
+şeklinde ne yapacak yazacak ha buraya 84
+yazmasam bile x birim kedir yazsam bile
+
+00:14:05.440 --> 00:14:10.600
+aslında bu bilgiyi alacak bilgisayar
+kodlama zaten o x yerine ne yazacak 84
+
+00:14:10.600 --> 00:14:15.399
+yazacak buradaki değerler değişse bile
+Sonuçta ekrana yazdıracağız şey bilgiler
+
+00:14:15.399 --> 00:14:19.160
+ışığında x ne çıkarsa onu yazmış olacak
+Yine ne yapacaksın burada bitir
+
+00:14:19.160 --> 00:14:23.160
+diyeceksin Hocam ben buraya işte 84
+yazdım yanlış olur abiciğim yanlış olmaz
+
+00:14:23.160 --> 00:14:27.560
+onu da yazabilirsin buna özel yazmış
+olursun sadece 12 ve 7'ye özel yazmış
+
+00:14:27.560 --> 00:14:33.240
+olursun Çünkü ekranda yazacak sayıyı
+sabitlemiş oldun Anlaştık mı Ama hayır
+
+00:14:33.240 --> 00:14:37.199
+hocam arka planda algoritmik dilde
+oluşan bütün adımları görmek istiyorum
+
+00:14:37.199 --> 00:14:41.199
+dediğinde de Ha o zaman buraya 84 de
+yazabilirsin bir şey fark etmeyecek
+
+00:14:41.199 --> 00:14:45.320
+tamam mı aynı doğrulukta olacak Onu bir
+söyleyeyim ben sana şimdi geldim artık
+
+00:14:45.320 --> 00:14:48.720
+yeni model bir soruya geçiyoruz ama ilk
+iki sorumda özellikle burada
+
+00:14:48.720 --> 00:14:53.519
+dikdörtgenin alanın mantığını Anladın
+şimdi MEB'in örneğinde de yalan yer alan
+
+00:14:53.519 --> 00:14:57.240
+benzer bir örneği yapacağım Aslında
+bölme işleminin örneğini yapacağım 16
+
+00:14:57.240 --> 00:15:01.600
+sayısının 5 ile bölümünden kal alanı
+tekrarlı çıkarma yöntemiyle bulan
+
+00:15:01.600 --> 00:15:06.120
+algoritmanın işleyişini algoritmik doğal
+dil ile yazınız Bak aslında Özünde
+
+00:15:06.120 --> 00:15:11.440
+benden istediği şey ne biliyor musun 16
+sayısını 5'e böleceğim 3 kere 5 15 kalan
+
+00:15:11.440 --> 00:15:17.120
+kaç 1 kalanın 1 olduğunu bana şununla
+göster diyor tekrarlı çıkarma yöntemiyle
+
+00:15:17.120 --> 00:15:21.880
+Allah Allah bu nedir hocam diyeceksin
+Aslında zor bir yanı yok tekrar tekrar
+
+00:15:21.880 --> 00:15:27.240
+16'dan 5'i çıkaracağım bölme işlemi ne
+zaman biter Bak dur biz ya da yavaş
+
+00:15:27.240 --> 00:15:30.839
+yavaş adım adım başlayalım Tabii burada
+temel matematik bilginin olması
+
+00:15:30.839 --> 00:15:34.680
+gerekiyor Bu adımları yazabilmenin
+Öncelikle birinci adımımız neydi her
+
+00:15:34.680 --> 00:15:39.600
+zaman olduğu gibi önce başlatma komutunu
+vereceksin 2ci adıma artık geçebilirsin
+
+00:15:39.600 --> 00:15:45.360
+ikinci adım Sana ne lazım veriler lazım
+O halde bölen sayıyı bölünen sayıyı gir
+
+00:15:45.360 --> 00:15:53.440
+çünkü 16 sayısının 5 ile bölümünden
+bölünen bölünen sayıyı gir sayıyı sayıyı
+
+00:15:53.440 --> 00:16:00.399
+gir sayıyı gir ardından bölen sayıyı gir
+benim verilere ihtiyacım var bölen
+
+00:16:00.399 --> 00:16:05.399
+sayıyı gir Öncelikle verileri topluyorum
+Peki topladım bu verilerin her birine
+
+00:16:05.399 --> 00:16:11.959
+isim verebilirim bölen bölünen sayıya a
+diyeyim ki benim a Sayım kaç 16 bölünen
+
+00:16:11.959 --> 00:16:17.160
+sayıya bölen sayıya özür dilerim B
+diyeyim oradaki Sayım kaç 5 ki bu
+
+00:16:17.160 --> 00:16:22.120
+verileri de işlemsel adımlar için
+göstermiş oluyorum geldim 3 adıma 3
+
+00:16:22.120 --> 00:16:27.199
+adımda ne yapmak istiyorum Benim derdim
+ne tekrarlı çıkarma yöntemini kullan
+
+00:16:27.199 --> 00:16:34.040
+tekrarlı yazıyorum tekrar
+çıkarma yöntemini çıkarma yöntemini
+
+00:16:34.040 --> 00:16:38.040
+kullan
+yöntemini uygula diyelim yöntemini
+
+00:16:38.040 --> 00:16:43.000
+uygula Peki ben şimdi işlemsel olarak
+buraya tekrarla çıkarma yöntemini
+
+00:16:43.000 --> 00:16:47.279
+uygulamak istiyorum nedir çıkarma
+yöntemi tekrarlı çıkarma yöntemi A'dan
+
+00:16:47.279 --> 00:16:54.759
+B'yi çıkartıyorum
+16'dan 5'i çıkart çıkartım kalan kaç
+
+00:16:54.759 --> 00:16:59.360
+yazıyorum 16'dan 5 çıktı yazabilirsin
+bunu işlemsel olarak da yazsan yanlış
+
+00:16:59.360 --> 00:17:05.079
+olmaz 16'dan 5 çıktı kalan kaçtır 11
+şöyle de yazsan yanlış olmaz 16'dan 5
+
+00:17:05.079 --> 00:17:10.000
+çıktı eşittir cevap nedir 11'dir bu
+şekilde de yazabilirsin ya da uzun uzun
+
+00:17:10.000 --> 00:17:15.039
+böyle yazabilirsin Peki bitti mi
+Normalde bölme işlemi nereye kadar gider
+
+00:17:15.039 --> 00:17:20.480
+kalan değer bölen değerden tabii bak
+dedim ya sana temel matematik bilgisini
+
+00:17:20.480 --> 00:17:24.839
+bilmek zorundasın Örneğin A sayısını
+B'ye bölüyorsun buradaki ifade nedir
+
+00:17:24.839 --> 00:17:29.919
+kalan ama bölmenin tanımlı olabilmesi
+için kalan değerin kimde küçük Hatta
+
+00:17:29.919 --> 00:17:34.880
+eşit olmaması gerekiyor bölenden küçük
+olması gerekiyor bizim temel felsefemiz
+
+00:17:34.880 --> 00:17:39.320
+bu şimdi 11 sayısı hala daha 5'ten büyük
+olmaz diyorum O zaman devam edeceğim
+
+00:17:39.320 --> 00:17:45.000
+işleme 11'den artık arka planda kaçı
+çıkartacak yine bizim programımız 5'i
+
+00:17:45.000 --> 00:17:50.039
+çıkartacak 11'den 5 çıktığında kalan kaç
+olacaktır 6 olacaktır Hatta burada
+
+00:17:50.039 --> 00:17:55.280
+gösterebilirsin 11'den kaçı çıkarttım
+5'i Çıkarttım kalan kaç oldu hop 6 oldu
+
+00:17:55.280 --> 00:18:01.480
+yola devam ettim şimdi 6'dan kaçı
+çıkartıyorum 5 çıkartacaksın 5'i
+
+00:18:01.480 --> 00:18:06.360
+çıkarttığımda artık kalan kaç olacaktır
+1 olacaktır E bu ne anlama gelir Hocam
+
+00:18:06.360 --> 00:18:13.120
+şöyle 10 pardon 6 - 5 = kalan kaç oldu 1
+oldu aslında adımlarım Bitti Demek ki
+
+00:18:13.120 --> 00:18:17.280
+kalan kaçmış birmiş ama benim Bunu
+programa anlatmam lazım artık Burada
+
+00:18:17.280 --> 00:18:22.200
+durması gerektiğini anlatmam lazım O
+yüzden şöyle yazıyorum 4 adım ne zaman
+
+00:18:22.200 --> 00:18:27.200
+duracağını tarif etmem lazım ne zaman
+duruyor bir tarif edelim kalan değer
+
+00:18:27.200 --> 00:18:33.120
+çıkartılan değerden
+küçük olduğu anda bir sonraki adıma geç
+
+00:18:33.120 --> 00:18:39.960
+Eğer kalan değer çıkan değerden büyükse
+3 adımı tekrarla bak yazmam gereken
+
+00:18:39.960 --> 00:18:46.559
+ifade buymuş
+Eğer kalan değer kalan değer kalan değer
+
+00:18:46.559 --> 00:18:54.240
+çıkartılan değerden çıkartılan değerden
+değerden çıkartılan değerden küçükse
+
+00:18:54.240 --> 00:19:03.120
+küçük İse sonraki adıma geç sonraki
+adıma geç adıma geç Şimdi tekrar tarif
+
+00:19:03.120 --> 00:19:09.840
+ediyorum Peki ya büyükse
+Eğer kalan
+
+00:19:09.840 --> 00:19:17.559
+değer kalan değer çıkartılan değerden
+çıkartılan çıkartılan değerden değere
+
+00:19:17.559 --> 00:19:25.120
+diyelim ya da eşit veya büyükse eşit
+veya büyükse büyük ise
+
+00:19:25.120 --> 00:19:34.000
+e 3 adıma geri dön adıma Geri Dön Geri
+Dön artık iki tane eğerle başlayan
+
+00:19:34.000 --> 00:19:38.720
+cümlemi kurdum dedim ki eğer benim kalan
+değerim ki kalan değerimi Biz burada kaç
+
+00:19:38.720 --> 00:19:42.799
+bulduk Mesela şurada işaretleyelim 1
+bulduk Eğer kalan
+
+00:19:42.799 --> 00:19:48.360
+değerim çıkarttığım değerden küçük İse
+sonraki adıma geçeceğim yani 4 adım
+
+00:19:48.360 --> 00:19:52.320
+daydım bir sonraki adım olan 5'e
+geçeceğim Eğer kalan değer çıkartılan
+
+00:19:52.320 --> 00:19:57.600
+değere eşitse veya büyük ise Aa Hocam
+mesela 6 adım dayım 3 adımı tekrar
+
+00:19:57.600 --> 00:20:01.960
+uyguladım gördün mü 6 buldum kalanı o
+zaman tekrar çıkartma işlemine devam
+
+00:20:01.960 --> 00:20:05.760
+ediyor tekrar çıkartma işlemine devam
+ediyor şimdi burayı Aslında daha doğru
+
+00:20:05.760 --> 00:20:11.200
+yazabilmek adına şöyle de yapabilirim
+şöyle tekrarlı çıkarma yöntemini kullan
+
+00:20:11.200 --> 00:20:15.520
+dedim ya orada şöyle bir şey yapacağım
+daha net olmak adına hani daha güzel
+
+00:20:15.520 --> 00:20:19.840
+anlatabilmek adına Hatta burada artık
+bölünen sayı bölen sayı şeklinde
+
+00:20:19.840 --> 00:20:27.559
+tanımlamadır dikkat et çıkartılan sayı
+İlk sayı diyelim İlk sayı ilk sayıyı gir
+
+00:20:27.559 --> 00:20:33.520
+çıkartılan sayıyı gir çıkartılan sayıyı
+gir bak biz buna İlk sayı diyelim 16
+
+00:20:33.520 --> 00:20:37.960
+sayısına çıkartılan sayıyı yani böldüğüm
+sayıya da 5 B'yi gireceğim ardından
+
+00:20:37.960 --> 00:20:45.880
+dedim ki Amacım ne A'dan B'yi çıkartmak
+Neyi bulmak kalan değer yani kyi bulmak
+
+00:20:45.880 --> 00:20:51.320
+diyelim bizim kalan değerimiz de burada
+bu olsun K ne olsun kalan değer olsun
+
+00:20:51.320 --> 00:20:56.919
+bunu tanımlıyorum programa bunu programa
+anlatmaya çalışıyorum şimdi ne zamanki
+
+00:20:56.919 --> 00:21:01.320
+bu kalan değer Eğer kalan değer
+çıkartılan değerden küçük İse sonraki
+
+00:21:01.320 --> 00:21:04.960
+adıma geç dedi Hatta bunu matematiksel
+olarak hocam Burada da tarif edebilir
+
+00:21:04.960 --> 00:21:08.760
+misin Bak yine biraz matematiği
+kullanacağım noktalarda Şurayı Sadece
+
+00:21:08.760 --> 00:21:12.640
+doğru bir şekilde kopart çalışıyorum
+Oradan ha kopardım bak burayı şimdi
+
+00:21:12.640 --> 00:21:17.240
+tarif etmeye çalışacağım nasıl tarif
+edeceğim kalan değer yani k değeri
+
+00:21:17.240 --> 00:21:24.120
+küçükse B'den ne yapıyorum sonraki adıma
+geçiyorum kalan değer büyük eşitse B'den
+
+00:21:24.120 --> 00:21:28.679
+ne yapıyorum 3 adıma geri dönüyorum
+buradaki adımların mantığı bu geldim 5
+
+00:21:28.679 --> 00:21:36.559
+adım artık 5 adım artık ekrana yazdırma
+durumu geldi Eğer sonuç Eğer sonuç ya da
+
+00:21:36.559 --> 00:21:42.159
+kalan değer diyelim sonuç diye bir şey
+bilmiyoruz Çünkü kalan değer
+
+00:21:42.279 --> 00:21:50.520
+Eee kalan değer çıkartılan değerden
+küçükse çıkartılan değerden değerden
+
+00:21:50.520 --> 00:21:58.919
+küçük ise küçük ise
+sonucu ekrana yaz ekrana
+
+00:21:58.919 --> 00:22:06.080
+yaz Bak bu kadar Şimdi burada yapacağı
+işlem ne kalan değerimiz kaçtır 1'dir
+
+00:22:06.080 --> 00:22:10.159
+işte kalan değeri buldu ya en son
+yazıyor Artık Neyi bulmaya Çalışıyorduk
+
+00:22:10.159 --> 00:22:17.799
+biz 16 sayısının 5 ile bölümünden kalan
+16 16 sayısının
+
+00:22:17.799 --> 00:22:24.600
+sayısının 5 ile bölümünden 5 ile
+bölümünden
+
+00:22:24.600 --> 00:22:30.159
+bölümünden
+kalan 1ir ekranda yazacak yazısına kadar
+
+00:22:30.159 --> 00:22:34.400
+her şeyine kadar ne yaptım ayarladım
+artık 6 adım dayım programı bitirdik
+
+00:22:34.400 --> 00:22:38.919
+Çünkü neye yapmam lazım bitirmem
+gerekiyor son cümle olarak ne yazdım
+
+00:22:38.919 --> 00:22:44.760
+programı bitire tıkladım ya da artık
+arka planda oluşan işlemi sana aktardım
+
+00:22:44.760 --> 00:22:48.880
+olay mevzu bu ama farklı sorularla ben
+devam edeceğim hiç merak etme kaçıncı
+
+00:22:48.880 --> 00:22:54.200
+sorud dayım bu 4 soruydu galiba Şimdi
+geldik 5 sorumuza hız hız saatte 50 km
+
+00:22:54.200 --> 00:22:58.559
+olan bir bisikletlinin 150 kilometrelik
+bir parkuru tamamlamak için kaç saate
+
+00:22:58.559 --> 00:23:02.480
+ihtiyaç duyacağını bulan algoritmanın iş
+değişiğini algoritmik doğal dille yazın
+
+00:23:02.480 --> 00:23:07.120
+bak önce problemi kafanda bir çözmeye
+çalış karalamaya çöz hocam yol ne kadar
+
+00:23:07.120 --> 00:23:13.520
+150 km benim hızım ne kadar 50 km saat
+50 km saat ne yapılır bu değerler
+
+00:23:13.520 --> 00:23:18.679
+birbirine bölünür sonuç ne çıkacak 3
+saat ha benim yapmam gereken işlem Bu
+
+00:23:18.679 --> 00:23:22.480
+sayıları birbirine bölmek o halde
+diyorum ki sil bunu şimdi kafamda
+
+00:23:22.480 --> 00:23:28.480
+tasarladım planladım ilk şey neydi
+Birinci Adım Öncelikle başla komutunu sö
+
+00:23:28.480 --> 00:23:35.559
+em gerekiyor başla geldim ikinci adıma
+ikinci adımım neydi hız verisini gir
+
+00:23:35.559 --> 00:23:42.440
+hızını gir ya da kimin hızı bu daha net
+konuşalım bisikletlinin hızını gir
+
+00:23:42.440 --> 00:23:48.200
+bisikletlinin
+hızını gir hızını gir Peki
+
+00:23:48.200 --> 00:23:53.600
+bisikletlerinin hızını Biz B harfi ile
+gösterirsek onun hızına Ne yazması
+
+00:23:53.600 --> 00:24:00.159
+gerekiyor 50 km / saat yazması gerekiyor
+Ne gerekiyorsa yazıyorum Aynı adımı
+
+00:24:00.159 --> 00:24:03.720
+devam edebilirsin ya da Bak şunu yapman
+hata olmaz Hocam ben başka adıma
+
+00:24:03.720 --> 00:24:07.880
+geçeceğim abiciğim Vallahi hata değil
+tek bir adımda bütün verileri
+
+00:24:07.880 --> 00:24:10.960
+isteyebilirsin ya da adım adım
+isteyebilirsin Hani bunu şey gibi düşün
+
+00:24:10.960 --> 00:24:15.200
+önüne bir pencere açılıyor sayfa
+açılıyor veri girebileceğin iki tane
+
+00:24:15.200 --> 00:24:19.320
+boşluk var Birinin yanında diyor ki
+Bikinin verisini gir İkinci veride ne
+
+00:24:19.320 --> 00:24:24.840
+yazıyor işte toplam yolu gir ha Mevzuyu
+anladım şimdi başka bir şekilde
+
+00:24:24.840 --> 00:24:28.880
+Anlatıyorum bunları ben sana tek bir
+adımda verdim ekran açıldı Bikinin
+
+00:24:28.880 --> 00:24:33.480
+verisini gir çıktı bastın veriyi girdin
+hop yeni ekran açıldı şimdi diyor ki
+
+00:24:33.480 --> 00:24:37.760
+toplam yolu gir toplam mesafeyi gir abi
+bunu tek adımda da verebilirim 3 adımda
+
+00:24:37.760 --> 00:24:41.919
+da verebilirim ben tek adımda verme
+taraftarıyım bunları şimdi toplam
+
+00:24:41.919 --> 00:24:46.440
+parkuru tamamlamak için parkurun
+parkurun uzunluğunu gir diyelim parkurun
+
+00:24:46.440 --> 00:24:54.200
+uzunluğunu gir parkurun uzunluğunu gir
+uzunluğunu gir peki Buraya Ne yazacaksın
+
+00:24:54.200 --> 00:25:00.159
+Sen parkurun uzunluğuna Eğer ben p
+dersem buraya yazman gereken mesafe 50
+
+00:25:00.159 --> 00:25:04.360
+km Tabii ki bu veriler değişse de bu
+program mavi kısma baktığımızda hep ne
+
+00:25:04.360 --> 00:25:09.320
+yapacak aslında çalışacak siyah kısım Bu
+soru özelinde benim bu programda
+
+00:25:09.320 --> 00:25:14.360
+verileri yazacağım ifadeler geldim 3ün
+adıma artık değeri hesaplamam gerekiyor
+
+00:25:14.360 --> 00:25:19.200
+neye hesaplamak istiyorum parkurun
+tamamlamak için kaç saate ihtiyacı
+
+00:25:19.200 --> 00:25:24.720
+olduğunu gerekli olan saate hesapla
+parkuru tamamlamak için parkuru
+
+00:25:24.720 --> 00:25:32.200
+tamamlamak için tamamlamak için gerek
+saat gerekli olan saati hesapla gerekli
+
+00:25:32.200 --> 00:25:38.760
+olan saati hesapla Peki bunu nasıl
+hesaplayacak adam hesaplamak için benim
+
+00:25:38.760 --> 00:25:47.120
+ona veriyi vermem lazım Gerekli saat
+gerekli saat gerekli saat eşittir ne
+
+00:25:47.120 --> 00:25:50.480
+yaptıracağım Matematiksel işlem
+yaptıracağım Kimi kime böldü ceğim
+
+00:25:50.480 --> 00:25:57.679
+parkur uzunluğunu parkur uzunluğunu bölü
+işareti de tıpkı o hesap makinelerindeki
+
+00:25:57.679 --> 00:26:02.120
+işlem gibi yapıyoruz kime bölüyorum
+bisikletin hızına
+
+00:26:02.120 --> 00:26:06.760
+bisikletin hızına yukarıda yazdığım
+veriyle aynı şeyi yazmam lazım Peki
+
+00:26:06.760 --> 00:26:11.159
+matematiksel olarak bulacağımız değer
+gerekli olan saatimiz şu olsun tamamını
+
+00:26:11.159 --> 00:26:15.760
+[&nbsp;__&nbsp;] için gerekli olan saatimiz T
+olsun parkurun uzunluğuna p demiştik p
+
+00:26:15.760 --> 00:26:19.679
+değerini neye böleceğim bisikletlinin
+hızına da B demiştik şimdi verilerle
+
+00:26:19.679 --> 00:26:26.200
+yazıyorum T değeri eş 150 bölü ne olacak
+arka planda işlem olarak ne yapacak
+
+00:26:26.200 --> 00:26:32.039
+bilgisayar 150'yi 50'ye bölecek
+otomatikman buradan 150/50 ne bulacak 3
+
+00:26:32.039 --> 00:26:36.559
+saat Bulacak şimdi o veriyi bana
+aktarması lazım değil mi 4 adıma artık
+
+00:26:36.559 --> 00:26:42.360
+geldim 4 adımda ne yapacağım veriyi
+bulduğum sonucu ekrana yazdıracağım Yani
+
+00:26:42.360 --> 00:26:49.240
+artık şunu yapacağım gerekli saati
+gerekli olan saati saati ekrana yaz
+
+00:26:49.240 --> 00:26:56.760
+saati ekrana yaz ekrana yaz Peki ekrana
+Aslında ne yazacak bu adam şöyle şuradan
+
+00:26:56.760 --> 00:27:05.640
+bakalım parkuru tamamlamak için gerekli
+saat parkuru parkuru tamamlamak için
+
+00:27:05.640 --> 00:27:11.440
+tamamlamak için x saate ihtiyacı vardır
+Tabii x demeyeceğim neyle belirtmiştim t
+
+00:27:11.440 --> 00:27:18.799
+ile belirtmiştim T saate ihtiyaç vardır
+ihtiyaç vardır Burası tamamen Senin
+
+00:27:18.799 --> 00:27:24.080
+hayal gücüne kalmış Hani gerekli olan
+saatdir yaz bitir Abim bu sana kalmış
+
+00:27:24.080 --> 00:27:28.799
+benim programımın ana ekranında ben şunu
+yazsın istiyorum parkurun tamamlanması
+
+00:27:28.799 --> 00:27:33.240
+için gerekli olan saat T saattir ya da
+parkuru tamamlamak için T saate ihtiyaç
+
+00:27:33.240 --> 00:27:38.720
+vardır bitti bu kadar ha Benim Ekranımda
+gerçekte ne yazacak Peki parkuru
+
+00:27:38.720 --> 00:27:45.039
+tamamlamak için tamamlamak için bu bütün
+sayılar ne olursa olsun yazacağı ifade
+
+00:27:45.039 --> 00:27:52.159
+benim Ekranımda bitişinde artık ne
+yazacak 3 saate ihtiyaç vardır ihtiyaç
+
+00:27:52.159 --> 00:27:58.600
+vardır Al sana benim Ekranımda yazması
+gereken ifade olay bu bitti mi Medi
+
+00:27:58.600 --> 00:28:02.960
+artık programı Kapatmam lazım 5 adıma
+geldim bunu asla unutmuyorsun buradan
+
+00:28:02.960 --> 00:28:07.960
+kesin puan kırılır arkadaşım bitir
+diyorsun bu kadar Anlaştık mı Biliyorum
+
+00:28:07.960 --> 00:28:11.960
+çok kolay değil ama ilk seferde zorlana
+da zorlana da olsa bu işi öğreteceğim
+
+00:28:11.960 --> 00:28:16.480
+ben sana Mesela daha chet refi bir soru
+6 sorumuz biraz daha böyle chet revelli
+
+00:28:16.480 --> 00:28:19.720
+bir soru bir bakalım Ona Emre
+mahalledeki hayvanları beslemek için bir
+
+00:28:19.720 --> 00:28:24.080
+torb mamı almak istiyor Babası ona 150 T
+para veriyor pet shop'a git diyor Eğer
+
+00:28:24.080 --> 00:28:32.279
+bir torba mamanın fiyatı 150 veya daha
+azsa al paranın üstüyle eve dön Eğer
+
+00:28:32.279 --> 00:28:38.080
+fiyatı 150'den fazlaysa Almadan geri gel
+mama Almadan geri gel demiştir Buna göre
+
+00:28:38.080 --> 00:28:42.000
+emrenin görevi yerine getirirken
+izleyeceği adımları belirten algoritmayı
+
+00:28:42.000 --> 00:28:48.159
+yaz adeta Hayatta başka hiçbir bilgisi
+olmayan sadece seni dinleyip dediklerini
+
+00:28:48.159 --> 00:28:52.600
+harfiyen uygulayan birine adım adım bu
+süreci anlatmalıyım Yani ben bu süreci
+
+00:28:52.600 --> 00:28:57.600
+şöyle de anlatabilirim iki yumurta al
+tavada kır bana omlet
+
+00:28:58.120 --> 00:29:02.960
+aktar tane tane anlatman lazım işte
+burada da bunu yapıyoruz aslında tane
+
+00:29:02.960 --> 00:29:07.480
+tane bu işlemleri anlatıyoruz Birinci
+Adım Birinci Adım ne Tabii ki başta
+
+00:29:07.480 --> 00:29:12.519
+komutuyla başlıyorsun ikinci adım ikinci
+Adım orada bir başlay yazmış mıyız diye
+
+00:29:12.519 --> 00:29:15.720
+merak ettim birinci adımını yazmışım
+tamam Bir an unuttum öyle yazmamış
+
+00:29:15.720 --> 00:29:19.760
+olabilir miyim dedim geldim ikinci adıma
+ikinci adımda ne yapacağım önce veriyi
+
+00:29:19.760 --> 00:29:24.760
+almam lazım Emre'nin parasını yaz
+Emre'nin Emre'nin
+
+00:29:24.760 --> 00:29:31.399
+parasını gir parasını gir
+şimdi bize bir ne lazım Emre'nin
+
+00:29:31.399 --> 00:29:35.600
+elindeki paranın miktarı lazım değil mi
+Emre'nin parasını gir buraya nokta
+
+00:29:35.600 --> 00:29:40.279
+diyelim Emre'nin parasını ne ile
+gösterelim Emre'nin parası Emre'nin
+
+00:29:40.279 --> 00:29:46.480
+parası e olsun Mesela e değil belliymiş
+ya Emre'nin parasına e diyelim Hatta o
+
+00:29:46.480 --> 00:29:53.519
+para kaç tlm miş 150l babasının verdiği
+ücret Ona neymiş 150 şimdi Emre ne
+
+00:29:53.519 --> 00:29:59.919
+yapacak adım adım yazıyoruz pet shop'a
+git 3 adım 3 adım pet shop'a gidilir
+
+00:29:59.919 --> 00:30:05.440
+Eğer bir torba mamanın fiyatı mamanın
+Fiyatı belli mi belli değil pet shop'a
+
+00:30:05.440 --> 00:30:12.279
+gidilir pet shop'a gidilir mamanın
+fiyatı öğrenilir bak önce bunu yapması
+
+00:30:12.279 --> 00:30:18.840
+gerekiyor gidilir
+mamanın fiyatı öğrenilir fiyatı
+
+00:30:18.840 --> 00:30:23.640
+öğrenilir
+öğrenilir mamanın fiyatını gir yazalım
+
+00:30:23.640 --> 00:30:30.760
+şimdi öğrendik ya mamanın fiyatını gir
+öğrendin artık fiyatını gir diyelim ki
+
+00:30:30.760 --> 00:30:34.840
+öğrendin geldin buraya mamanın fiyatını
+Biz şöyle gösterelim x ile gösterelim
+
+00:30:34.840 --> 00:30:39.640
+mamayı mamanın fiyatı x T olsun Hatta
+şöyle yazalım henüz mamay la ilgili
+
+00:30:39.640 --> 00:30:44.559
+başka bir bilgimiz yok artık ne
+yapabilirim 4ü adıma geçebilirim 4 adım
+
+00:30:44.559 --> 00:30:49.039
+şimdi mamanın fiyatı var elimde Emre'nin
+parası var elimde bunları ne yapacağım
+
+00:30:49.039 --> 00:30:55.480
+Eğer bir torba mamanın fiyatı 150 veya
+daha azsa Al şimdi aldırmaya çalışacağım
+
+00:30:55.480 --> 00:30:59.279
+diyorum ki Eğer şimdi buradaki eğeri
+şuradan başlatacağım Çünkü bir de
+
+00:30:59.279 --> 00:31:05.519
+alamayacağı durumu yazacağım sonrasında
+adım adım Eğer mamanın fiyatı mamanın
+
+00:31:05.519 --> 00:31:12.120
+fiyatı Emre'nin parasından Emre'nin
+parasına eşit veya Emre yazamadım
+
+00:31:12.120 --> 00:31:19.440
+yazmıyor He Emre'nin Emre'nin
+parasına parasına
+
+00:31:19.440 --> 00:31:27.240
+eşit
+veya daha az ise daha az ise mamayı al
+
+00:31:27.240 --> 00:31:34.440
+mama yı al şimdi mamayı alacağı durumu
+tarif ettin mi ettim mamayı alacağı
+
+00:31:34.440 --> 00:31:38.760
+durumu tarif etmeme rağmen işlemim
+Aslında daha bitmedi dikkat et mamayı
+
+00:31:38.760 --> 00:31:43.919
+alacak Ama bir de Para üstü olacak Para
+üstünü al eve dön şimdi bir alt kademe
+
+00:31:43.919 --> 00:31:48.639
+olduğu için ben biraz daha içeri doğru
+yaklaşıyorum burada ama dikkat et bir de
+
+00:31:48.639 --> 00:31:52.080
+şöyle bir ihtimal var bunların ikisini
+birden aynı anda yazmak istiyorum ki
+
+00:31:52.080 --> 00:31:56.639
+sana daha net göstereyim şimdi Birinci
+durumun gerçekleşmesi mamanın fiyatının
+
+00:31:56.639 --> 00:32:00.200
+Emre'nin parayla olan İliş isini
+gösteriyor Eğer ki Emre'nin parasına
+
+00:32:00.200 --> 00:32:04.600
+eşitse mamanın fiyatı veya daha ie
+mamayı alacak ama alt basamağı var onu
+
+00:32:04.600 --> 00:32:09.039
+yazacağım şimdi yazacağım ama eğer başka
+bir durum varsa Yani şöyle bir durum
+
+00:32:09.039 --> 00:32:14.840
+Eğer mamanın fiyatı Emre'nin parasından
+büyük ise Emre'nin
+
+00:32:14.840 --> 00:32:26.919
+parasın dan parasından büyük ise büyük
+ise mamayı alma mamayı alma eve gel eve
+
+00:32:26.919 --> 00:32:32.639
+gel öyle de demiyor mu bak bakalım ne
+diyor Eğer fiyatı 150 TL'den fazlaysa
+
+00:32:32.639 --> 00:32:38.720
+Almadan geri gel Süpersin Şimdi şöyle
+bir şey yapalım burayı işletebilmek için
+
+00:32:38.720 --> 00:32:42.639
+mamayı almadan eve gelmesini
+işletebilmek için x değerinin ne
+
+00:32:42.639 --> 00:32:47.000
+olmasını istiyorsun 150'den büyük
+olmasını istiyorsun işlemsel olarak
+
+00:32:47.000 --> 00:32:50.919
+böyle bir şey var peki diğer durumda
+Eğer mamanın fiyatı Emre'nin parasına
+
+00:32:50.919 --> 00:32:55.919
+eşit veya daha azsa mamayı al işlemsel
+olarak nasıl bir şey işleyecek arka
+
+00:32:55.919 --> 00:33:02.159
+planda x lira Eğer 150 t'ye eşit veya
+daha küçükse ne yapacaksın mamayı
+
+00:33:02.159 --> 00:33:06.039
+alacaksın Şimdi mamayı aldığımı kabul
+ediyorum artık ne yaptım mamayı aldım Ne
+
+00:33:06.039 --> 00:33:10.840
+yapacağım Para üstünü hesaplayacağız ne
+diyor bak paranın üstüyle eve dön Para
+
+00:33:10.840 --> 00:33:18.000
+üstünü hesapla Para üstünü üstünü
+hesapla Ben makineye diyorum ki mamayı
+
+00:33:18.000 --> 00:33:22.840
+aldık ama bize Para üstü lazım Daha bu
+adımı uygularken Benim ne yapmam
+
+00:33:22.840 --> 00:33:29.240
+gerekiyor Para üstünü hesaplatmak Para
+üstü nasıl hesaplanır para üstü Para
+
+00:33:29.240 --> 00:33:36.279
+üstü eşittir nasıl bulunur Para üstü
+Emre'nin parası Emre'nin
+
+00:33:36.279 --> 00:33:44.000
+parası eksi parası eksi mama fiyatı
+yazılınca neye ulaşmış olacağım Para
+
+00:33:44.000 --> 00:33:48.480
+üstü fiyatına ulaşmış olacağım peki bunu
+yine nasıl yazmak zorundayım Arkadaş
+
+00:33:48.480 --> 00:33:52.320
+Yukarıdaki gibi matematiksel sembollerle
+de yazmak zorundayım para üstüne bundan
+
+00:33:52.320 --> 00:33:58.080
+sonra p diyelim eşittir Bu p değeri
+Emre'nin parasına e demiştik aldığımız
+
+00:33:58.080 --> 00:34:03.320
+şey parasına da mama parasına da x
+demiştik e - xile ifade edilecek ha
+
+00:34:03.320 --> 00:34:11.399
+Tabii ki buradaki e değeri belli yani
+şöyle de yazmamda hata yok p = 150 - x
+
+00:34:11.399 --> 00:34:16.280
+şeklinde de ne yapabilirim yazabilirim
+şimdi eğer mama fiyatı Emre'nin parasına
+
+00:34:16.280 --> 00:34:21.000
+eşit veya dahae mamayı aldık işlemleri
+gösterdik bir ihtimal daha var dedik O
+
+00:34:21.000 --> 00:34:25.119
+ihtimal neydi Eğer mamanın fiyatı
+Emre'nin parasından büyük ise mamayı
+
+00:34:25.119 --> 00:34:29.119
+alma eve gel dedik onu da gösterdik
+artık BT bütün durumları gösterdiğim
+
+00:34:29.119 --> 00:34:33.919
+göre sonuca gidebilirim yani kaçıncı
+adıma gidiyorum artık 5 adıma gidiyorum
+
+00:34:33.919 --> 00:34:38.359
+yani Bu bulduğum değerleri ekrana
+yazdırıp göstermem lazım yalnız ekranda
+
+00:34:38.359 --> 00:34:42.919
+da iki farklı durum var Nasıl olacak iki
+farklı durumu da izah etmem gerekiyor
+
+00:34:42.919 --> 00:34:53.639
+birinci durum Eğer mama alındı ise
+alındı ise ekrana ekrana Ne yazsın mama
+
+00:34:53.639 --> 00:35:01.839
+alındı Para üstü işte XP TL öyle yazsın
+mama alındı mama
+
+00:35:01.839 --> 00:35:11.720
+alındı Para üstü Para üstü Ay yazamadım
+Para üstü p TL'dir ne yapacağız bunu
+
+00:35:11.720 --> 00:35:16.400
+yazdıracağız Peki bizim gerçek ekranımı
+da ne yazacak istersen onu da yazalım
+
+00:35:16.400 --> 00:35:22.720
+biliyorsun ki ben onları siyahla
+yazıyorum mama alındı mama alındı alındı
+
+00:35:22.720 --> 00:35:27.760
+Para üstü Para üstü A burada Gerçi değer
+olarak yazamayacağı Çünkü mama değeri
+
+00:35:27.760 --> 00:35:33.079
+belli değil p TL'dir bizim Ekranımda
+gözükecek olan ifade bu ha bir ihtimal
+
+00:35:33.079 --> 00:35:39.400
+daha var ekranda yazacak olan ifade onu
+da belirtmem lazım Eğer mama alınamaz
+
+00:35:39.400 --> 00:35:45.200
+ise
+alınamaz ise ekrana Ne yazsın burada
+
+00:35:45.200 --> 00:35:50.200
+Paşa Gönlüm biliyor gerçekten mama
+alınamadı yazsın mama alınamadı yazsın
+
+00:35:50.200 --> 00:35:56.040
+mama alınamadı
+alınamadı yaz şimdi onu da bizim
+
+00:35:56.040 --> 00:36:00.319
+ekranlarda gözükecek şekilde belirtelim
+nasıl gözüksün bizim ekranda da mama
+
+00:36:00.319 --> 00:36:04.880
+alınamadı mama
+[Müzik]
+
+00:36:04.880 --> 00:36:10.520
+alınamadı güzel artık sonuca geldim
+ekranda da yazdırdığım göre 6 bir adımı
+
+00:36:10.520 --> 00:36:15.240
+yazıyorum programı kapatıp bitirmem
+gerekiyor 6 adım nedir bitir komutuyla
+
+00:36:15.240 --> 00:36:21.000
+ne yaptım programı da burada bitirdim
+Efsane bir soru dahayi Ey güzel
+
+00:36:21.000 --> 00:36:25.680
+arkadaşım efsane sorular biter mi bizde
+bitmez gelsin 7 sorumuz Biliyorum çok
+
+00:36:25.680 --> 00:36:28.920
+yeni bir konu öğretmenlerimizin de
+anlatırken zorlanabilir bir konu Çünkü
+
+00:36:28.920 --> 00:36:32.000
+ben de öğretmenlik Hayatımda ilk defa bu
+konuyu anlatıyorum ama bilgisayarla
+
+00:36:32.000 --> 00:36:35.800
+Allah'tan aram çok iyi o yüzden bunları
+aktarması biraz daha kolay oluyor diye
+
+00:36:35.800 --> 00:36:40.200
+düşünüyorum şimdi geldim 7 soruya bir
+robotun tamir için gerekli malzeme
+
+00:36:40.200 --> 00:36:44.440
+listesi şu şekildir Ben olsam mesela
+bunu sınavda kesin sorardım abi 2 adet
+
+00:36:44.440 --> 00:36:50.359
+vida her biri 5 t 3 adet somun Her biri
+3 TL bir adet motor 50 robotun bu
+
+00:36:50.359 --> 00:36:54.800
+malzemeler için toplam maliyeti bulan
+algoritmanın işleyişini algoritmik doğal
+
+00:36:54.800 --> 00:36:58.599
+dil ile yazınız bak sınav sorumuz Bu
+nasıl yazacağım hocam birinci adımla
+
+00:36:58.599 --> 00:37:03.160
+başlayacağım Tabii ki Birinci Adım neydi
+başlayacağım diyorum başta komutunu
+
+00:37:03.160 --> 00:37:07.280
+veriyorum yani geldim ikinci adıma
+ikinci adım verileri toplayacağız
+
+00:37:07.280 --> 00:37:10.880
+toplayacağım verileri tek bir seferde
+toplamak istiyorum toplamak istediğim
+
+00:37:10.880 --> 00:37:16.520
+veriler olayı şu bana vidanın tane
+fiyatı gerekli bak yazıyorum
+
+00:37:16.520 --> 00:37:21.240
+vidanın birleşik yazabiliriz değil mi
+buraya ayrca gerek yok vidanın tane
+
+00:37:21.240 --> 00:37:26.560
+birim fiyatı diyelim ya aynı anlama
+geliyor biliyorsun birim fiyatı Peki
+
+00:37:26.560 --> 00:37:33.920
+birim fiyatını gir yazdım Peki bu fiyatı
+neyle girsin Örneğin bana V = 5L olarak
+
+00:37:33.920 --> 00:37:40.200
+girsin ne dersin aynı anlama gelsin
+bunlar ardından neye girecek somun birim
+
+00:37:40.200 --> 00:37:47.160
+fiyatını gir birim fiyatını gir fiyatın
+bu somun ekmek değil ha fiyatı gir somun
+
+00:37:47.160 --> 00:37:51.480
+hani şu şey var ya yuvarlak geldim
+somunun fiyatını giriyorum somunun
+
+00:37:51.480 --> 00:37:57.839
+fiyatı neymiş S = 3 onu da girdim her
+birine harf vermen işleri kolay ştı
+
+00:37:57.839 --> 00:38:05.040
+biliyor motor birim fiyatını gir motor
+birim fiyatı gir fiyatı gir Mesela ben
+
+00:38:05.040 --> 00:38:10.000
+istiyorum ki Benim programım Evet
+bunların her birini burada topladı güzel
+
+00:38:10.000 --> 00:38:13.839
+ama bir de bana ne lazım Normal
+şartlarda bir kere şunu söylemeyi
+
+00:38:13.839 --> 00:38:18.720
+unuttum herhalde problemi çözebilmek
+için genel mantığım ne hocam 2 ile 5'i
+
+00:38:18.720 --> 00:38:24.000
+Çarpacağım 10 3 ile 3'ü Çarpacağım 9 TL
+bir adet bundan aldığıma göre 50 TL
+
+00:38:24.000 --> 00:38:27.920
+bunları toplayacağız cevaba gideceğiz
+değil mi 69 Hocam cevap bitti Ama öyle
+
+00:38:27.920 --> 00:38:33.119
+olmuyor işte ne yapacağım Bun adım adım
+giriyorum ikinci adımda birim fiyatları
+
+00:38:33.119 --> 00:38:38.200
+aldım karşı taraftan ama bunu ayrı bir
+adımda almak istedi Canım istersen yine
+
+00:38:38.200 --> 00:38:42.160
+sen ikinci adımın içerisinde de
+alabilirsin yanlış olmaz bunun yanlışı
+
+00:38:42.160 --> 00:38:46.000
+doğrusu yok Sen programın nasıl
+çalışmasını istiyorsan öyle gir 3üncü
+
+00:38:46.000 --> 00:38:50.880
+adımda Ben şunu istiyorum adet
+fiyatlarını istiyorum vida adet fiyatını
+
+00:38:50.880 --> 00:38:58.240
+gir adet Pardon adet fiyatını girdik
+vida adedini gir adet
+
+00:38:58.240 --> 00:39:03.440
+gir kaç adet alacak onu girmesini
+istiyorum adet fiyatını girerken ne
+
+00:39:03.440 --> 00:39:10.760
+kullansın mesela a kullansın adet fiyatı
+ne 2 bunu girecek küçü a kullandım somun
+
+00:39:10.760 --> 00:39:15.520
+adet fiyatını gir adet adetini fiyat
+değil tane hesabı yapıyoruz artık
+
+00:39:15.520 --> 00:39:21.680
+adetini gir Bunu B olarak kullanacağım B
+olarak ne kullanacağım 3 mü 3 adet somun
+
+00:39:21.680 --> 00:39:29.400
+alıyor güzel geldim somun değil somun
+sonrasında motor adetini gir motor adeti
+
+00:39:29.400 --> 00:39:34.119
+gir motordan kaç tane alıyor bir tane
+alıyor Bunu da C olarak gireceğim bundan
+
+00:39:34.119 --> 00:39:39.280
+da bir tane alıyor artık işlemleri
+yaptıracağım 4 adım toplam maliyeti
+
+00:39:39.280 --> 00:39:46.520
+hesaplamak istiyorum e adımın ismi o
+olsun o zaman toplam maliyeti maliyeti
+
+00:39:46.520 --> 00:39:50.520
+hesapla Peki toplam maliyet nasıl
+hesaplanır bunu bir formülle onu
+
+00:39:50.520 --> 00:39:56.160
+anlatmam gerekiyor toplam maliyet toplam
+mali ya da toplam maliyeti şöyle
+
+00:39:56.160 --> 00:39:59.720
+hesaplayalım
+vida maliyeti önce vida maliyetini
+
+00:39:59.720 --> 00:40:07.079
+hesaplasın vida maliyeti vida maliyeti
+nedir eşittir vida birim fiyatı birim
+
+00:40:07.079 --> 00:40:14.880
+fiyatı artık sen anla çarpı vida adet
+Anladık mı peki geldim diğerine biraz
+
+00:40:14.880 --> 00:40:19.240
+daha sola doğru çekeceğim matematiksel
+işlemlerini yanına yazabilmek adına
+
+00:40:19.240 --> 00:40:25.240
+hocam vidanın maliyeti vidanın maliyeti
+VM olsun vida birin fiyatına ne dedik V
+
+00:40:25.240 --> 00:40:30.720
+dedik çarpı vida ad ne dedik a dedik Bak
+bu kadar işlem ne yapacağını tarif
+
+00:40:30.720 --> 00:40:37.720
+ediyorum şimdi somon somon maliyeti bunu
+hesaplatılır
+
+00:40:38.430 --> 00:40:41.570
+[Müzik]
+
+00:40:50.430 --> 00:40:53.489
+[Müzik]
+
+00:40:57.640 --> 00:41:01.280
+biliyorum uzuyor gibi olabilir ama bence
+çok net oluyor böyle ve tam puanı
+
+00:41:01.280 --> 00:41:08.839
+getirecektir bize motor birim fiyatı
+çarpı motor nesini girecek adetini
+
+00:41:08.839 --> 00:41:13.960
+girecek Peki bunu nasıl hesaplayacak
+motor maliyeti eşittir ne demiştik
+
+00:41:13.960 --> 00:41:19.440
+motorun maliyeti için m x c demiştik
+şimdi bu işlemleri de benim arka planda
+
+00:41:19.440 --> 00:41:23.520
+yaptırmam lazım O yüzden ben bu tarafta
+yapıyorum
+
+00:41:23.520 --> 00:41:30.160
+Eee şöyle yapalım vida maliyeti eş ne
+ile Neyi çarpıyorum 2 ile 5'i çarptım ne
+
+00:41:30.160 --> 00:41:35.520
+elde ettim 10 elde ettim devam ettim
+somon maliyetini hesaplıyorum somon
+
+00:41:35.520 --> 00:41:40.640
+maliyeti için 3 ile 3'ü çarptım ne elde
+ettim 9 TL elde ettim artık motor
+
+00:41:40.640 --> 00:41:46.640
+maliyetini hesaplıyorum 1 ile 50'yi
+çarpıyorum cevap ne geldi 50 geldi artık
+
+00:41:46.640 --> 00:41:51.240
+matematiksel işlemlere gösterdim ya 5
+adıma geçiyorum ha 5 adıma geçmeyelim
+
+00:41:51.240 --> 00:41:55.359
+Biz zaten burada ne demişiz dikkat et
+toplam maliyeti hesapla şimdi aynı
+
+00:41:55.359 --> 00:42:03.040
+adımın içerisinde toplam mal hesapla
+toplam maliyet eşittir toplam maliyet ne
+
+00:42:03.040 --> 00:42:12.119
+şekilde bulunabilir vida maliyeti vida
+maliyeti Art somon maliyeti Art motor
+
+00:42:12.119 --> 00:42:17.079
+maliyeti motor maliyeti Şimdi bunu
+formülle anlatmaya çalışıyorum toplam
+
+00:42:17.079 --> 00:42:24.280
+maliyet TM olsun vida maliyeti Art somon
+maliyeti Art motor maliyeti güzel şimdi
+
+00:42:24.280 --> 00:42:31.760
+bu işlemleri yapıp cevabı bulmak
+istiyorum 10 + 9 TL + 50l sonuç toplam
+
+00:42:31.760 --> 00:42:37.720
+maliyet eşittir ne geldi 69 TL Aman
+Allah'ım Sadece bu kadar kolay bir
+
+00:42:37.720 --> 00:42:41.680
+işlemi adeta Affedersin bir geri
+zekalıya anlatır gibi anlatmazsan
+
+00:42:41.680 --> 00:42:46.280
+olmuyor işlemiyor bu adımlar şimdi bunu
+ekrana yazdırmam gerekiyor geldim 5
+
+00:42:46.280 --> 00:42:54.119
+adıma 5 adımı yazmaya çalışıyorum ha 5
+adım toplam maliyeti ekrana yaz toplam
+
+00:42:54.119 --> 00:43:01.480
+maliyeti maliyeti ekrana
+ekrana yazdır ya da yaz Fark etmez O
+
+00:43:01.480 --> 00:43:06.359
+halde toplam maliyet Bak tam ekrana
+yazmasını istediğim şey şu toplam
+
+00:43:06.359 --> 00:43:12.440
+maliyet maliyet ne olacak benimkinde
+Hatta Önce şöyle bir maviyle yazayım
+
+00:43:12.440 --> 00:43:17.040
+maviyle görmüş ol Ne yazacağımız genel
+yazı şu olacak aslında ben sayı girdiğim
+
+00:43:17.040 --> 00:43:24.880
+için direkt sayıyı görebileceğim toplam
+maliyet TM TL'dir Şimdi bak benim
+
+00:43:24.880 --> 00:43:33.160
+buradaki TM ben girdikten sonra bende şu
+şekilde gözükecek toplam maliyet
+
+00:43:33.160 --> 00:43:39.599
+maliyet 60 TL'dir hop hop hop güzel
+arkadaşım toplam maliyet Ya bak o kadar
+
+00:43:39.599 --> 00:43:46.040
+şey yazıyorsun şurada ha
+69 olur diyelim ardından 6 adımla bitir
+
+00:43:46.040 --> 00:43:50.160
+dedik Anlaştık mı arkadaş benim sana
+burada anlatmak istediğim Özellikle bu
+
+00:43:50.160 --> 00:43:57.440
+Maviler Bu programın hangi sayıları
+girersen gir sana vereceği çıktı Eğer bu
+
+00:43:57.440 --> 00:44:03.240
+girersen siyahlarla yapılan işlemler de
+siyahla yazdıklarımda siyahla bana O
+
+00:44:03.240 --> 00:44:07.559
+bilgisayar programın bana çıktısı dır
+Nedir o toplam maliyet 60 TL'dir benim
+
+00:44:07.559 --> 00:44:12.359
+Ekranımda gözükecek olan şey artık 6
+adıma geldim 6 adımda ne diyorum
+
+00:44:12.359 --> 00:44:17.839
+bitirebilirim olay bitmiştir dedim bitir
+dedim mükemmel bir soruyu daha geride
+
+00:44:17.839 --> 00:44:21.960
+bıraktım Ama çözümü anlamam benim için
+çok kıymetli Ben daha fazlasını senin
+
+00:44:21.960 --> 00:44:25.880
+için burada yapmak için hazırım senden
+isteğim var yalnız videonun yorumlar
+
+00:44:25.880 --> 00:44:30.960
+kısmına iniyorsun ve yorumlara bu
+sorunun cevabını adım adım yazıyorsun
+
+00:44:30.960 --> 00:44:35.800
+hediyeli bir soru olsun ne hediye
+vereceğiz bilemedim şimdilik ama yani bu
+
+00:44:35.800 --> 00:44:41.520
+hediyeyi düşünürüz Ya sen yeter ki yaz
+en çok beğenilen çözüme hediyeyi
+
+00:44:41.520 --> 00:44:47.040
+gönderiyorum Arkadaş ne zaman ara
+tatilden bir gün önce bakacağım Hediye
+
+00:44:47.040 --> 00:44:50.720
+göndereceğim arkadaşlar o arkadaşa bir
+bayram hediyesi bayramda Gerçi bayramdan
+
+00:44:50.720 --> 00:44:55.119
+önce göndermem lazım dur tarih bakalım
+ya öyle Karam böle sınavlardan önce Evet
+
+00:44:55.119 --> 00:44:59.319
+evet sınavdan bir gün önce sınavdan
+sınav günü göndereceğim hediyeyi sınav
+
+00:44:59.319 --> 00:45:03.160
+günü göndereceğim sınavımız 25 Mart Salı
+günü müydü öyle hatırlıyorum Bir dakika
+
+00:45:03.160 --> 00:45:08.040
+takvimimi açayım yanlışlık olmasın Evet
+25 Mart salı günüydü 25 Mart Salı günü
+
+00:45:08.040 --> 00:45:13.280
+Sizler sınavdayken bu videonun
+yorumlarına inip en çok beğeni alan Bu
+
+00:45:13.280 --> 00:45:18.720
+sorunun çözümünü adım adım tane tane
+anlatan arkadaşa benden Gönlümden bir
+
+00:45:18.720 --> 00:45:23.040
+hediye vallahi böyle bir güzellik de
+yapmış olalım diyelim Ey güzel arkadaşım
+
+00:45:23.040 --> 00:45:27.160
+elimden geldiğince dilim döndüğünce
+herkesin zorlandığı öğretmenin
+
+00:45:27.160 --> 00:45:32.880
+öğrencisine 5 tema Algoritma Bilişim hiç
+merak etme o iş bizde beraber Bu dersi
+
+00:45:32.880 --> 00:45:37.319
+de bu konuyu da halledeceğiz matematik
+bizde Güvener Sen diğerlerini hallet ki
+
+00:45:37.319 --> 00:45:41.720
+ekstra soru çözümleri derece tayfası
+çözümleri elbet gelecek o iş dedik ya
+
+00:45:41.720 --> 00:45:45.680
+biz de re Tayfa Yolun açık olsun Bir
+sonraki derste görüşelim Kendine iyi bak
+
+00:45:45.680 --> 00:45:58.359
+hoş kal Hoşça kal
+[Müzik]
+
+00:45:58.359 --> 00:46:08.769
+h
+[Müzik]
+

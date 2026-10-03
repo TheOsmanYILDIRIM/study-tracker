@@ -1,0 +1,1049 @@
+Hatun bir dakika gelsene yeni Marif
+modelde ben sana bir bardak su ikram
+etmek istiyorum bunu her zaman yapmam
+bana bunu tarif eder misin algoritmik
+bir dille sürahiyi al bardağa
+koy öyle değil sürahiyi al suyu
+boşalt ya
+o sürahiyi al bardağın içine
+boşalt ya K Bırakır mısın Bırakır mısın
+Bırakır mısın Bırakır çok doldur boşalt
+dedin sürahiyi al kapağını aç sürahiden
+biraz bardağın içine su
+koy ya biraz
+Serken o kadar biraz değil sürahiyi al
+kapağını aç sürahinin içinden bardağın
+içine bardağın yarısını Dolduracak kadar
+su boşalt sürahi yerine koy
+Teşekkür ederim bardağı ver demedim
+abi kendisi kendime alırım Algoritma da
+suyuna da
+alam Selamlar rm Tayfa Ben Mehmet hocan
+güncel müfredatta öğretmeninden
+öğrencisine en çok zorlanılan ve hatta
+en çok merak edilen temaya gelmiş
+bulunmaktayız 5 tema Algoritma ve
+bilişim diyeceğiz ve emin ol burayı en
+detaylı şekilde benden dinleyeceksin en
+güzel püf noktalarıyla benden
+dinleyeceksin sorularına geçtiğimizde en
+rahat şekilde işte orada O soruları Sen
+çözeceksin hiç merak etme Diğer
+konularda yaptığımız gibi bu konuda da
+algoritmada da tamamen ne yapacağız
+detaylı bir şekilde analiz edeceğiz
+sorularını beraber çözeceğiz ÖSYM gerek
+map hangi sınavda sorarsa sorsun fark
+etmez algoritmayla gelen soruları
+birlikte devireceğiz amacımız o
+ayrıntılı bir doküman hazırladım seninle
+birlikte şimdi onu beraber ne yapacağız
+dolduracağız Ama senden ricam Ders
+notlarını alıyorsun önüne koyuyorsun
+benimle birlikte yazıyor benimle
+birlikte çözüyorsun Hazır mısın o zaman
+elimizde kalemler önümüzde Algoritma
+ders notları o taraf sende bu taraf
+bende matematik de bende o zaman gönder
+Gönder gelsin Hocam diyorum Evet o çok
+merak edilen 5 TEMAD dayız algoritmanın
+işlem adımları 1 diyeceğiz birinci
+derste mevzuya başlayacağız Tabii ki her
+zaman olduğu gibi tanımla başlayacağım
+Hani Aslında algoritmada genel anlamda
+şunu yapacağız bir bilgisayar programı
+yazmaya çalışacağız Bazıları için çok
+eğlenceli olacak Hatta hayatını
+değiştirecek bazı konulardan biri
+diyebilirim Ben buna ilgisi artacak
+hemen gidip bir evde bilgisayarda
+denecek bazılarımız İsa Belki de hiç
+sevmeyecek Çünkü herkesin bu tarafa
+ilgisi olmayabilir bu doğal bir şey ama
+İlgin olursa ileride İyi para
+kazanabilirsin gerçi bilmiyorum yani
+yazılım işi artık ileride para etmeyecek
+diyorlar Yapay Zeka sebebiyle ama
+göreceğiz Şimdi Algoritma nedirle
+başlıyoruz Algoritma nedir arkadaş
+belirli bir problemi çözmek veya bir
+amaca ulaşmak için için adım adım
+uygulanan kuralların tüm bütününe
+verilen isim
+algoritmadan temel felsefesinde şu
+vardır açıklık anlaşılırlık ve
+sistematik bir yapı olması gerekir
+algoritmanın genel mantığında bu var
+şimdi buradan soru gelmez tabii ki
+sınavda ama benim derdim sadece soru
+değil sana bu işin felsefesini anlatmak
+geldim ikinci Başlığa algoritmaların
+işleyiş biçimi ki bizim asıl üstünde
+duracağımız nokta bu Algoritma bir
+süreci başlangıç noktasından bir bitiş
+noktasına doğru adım adım yönlendirir
+bir başlangıç yapacağız bir bitiş
+noktası belirleyeceğiz O noktaya doğru
+adım adım adım ilerleyeceğiz
+algoritmanın amacı gereken işlemleri
+sıralı ve net bir şekilde açıklamaktır
+ve Biz bu işlemleri yaparken algoritmada
+ü farklı yöntem kullanacağız işte
+kullanacağımız yöntemlerden birincisi ve
+bu derste anlatacağım yöntem algoritmik
+doğal dil ikincisi akış şeması üçüncüsü
+de sözde kotu olacak Her bir derste ayrı
+ayrı sana Ben bunları Zaten aktar Maya
+devam edeceğim Ama ilk olarak Dediğim
+gibi az önce ne dedim algoritmik doğal
+dil Hocam bu algoritmik doğal dil nedir
+burayı anladıktan sonra emin ol akış
+şeması ve Sözde kod çok daha kolay
+olacak ama önce Neyi anlaman gerekiyor
+algoritmik doğal dille ifade etmeyi
+öğren gerisi hemen çok kolay yani çok
+zorlamayacak seni ama önemli olan burayı
+halletmemiz burayı Hallettik mi gerisi
+kolay algoritmik doğal dil nedir Nasıl
+kullanılır Nasıl işlem yapılır burada
+bir kere problemin çözüm adımlarını
+günlük dil dil kullanarak anlatacaksın
+çok basit Çok temel bir dil kullanarak
+anlatman gerekiyor basit ve sıralı bir
+yapıda sahip olman gerekiyor tıpkı o Su
+doldurma algoritmasının yazılışı gibi
+tek tek tane tane basit Hani bizim bir
+lafa hocam mala anlatır gibi anlatır
+mısın var ya maldan da öte abi hani öyle
+bir anlatalım ki herkes anlasın her şey
+anlasın yani taş toprak bile anlasın
+yani öyle anlatmamız lazım Hani bazen
+yazıyorsunuz anlat hocam Mallı anlat
+gibi abi tamam edisi bir yanana Harbiden
+öyle anlatacaksın ama algoritmik doğal
+dil adımlarını yaparken şuna dikkat
+edeceksin önce en başta sana bir problem
+verilecek bu problemi önce kafanda
+adımlara böl tamam mı O adımları sonra
+yazılı hale getir 1ci adım ve 5 adım 5ci
+adım dediğime bakma son adım diyelim biz
+buna giriş ve çıkış adımlarımız
+kesinlikle şunlar olmak zorunda başla ve
+bitir Bunu tıpkı bir bilgisayarın başına
+geldin eline mouse'unu aldın programı Ne
+yapman lazım önce başlatmanın çift
+tıklaman lazım program çalışacak Öyle
+değil mi he İşte buradaki mantık da odur
+algoritmada birinci adımımız neyle
+başlamak zorunda başta adımıyla
+başlayacak en sona da artık bitir
+adımıyla programı kapatacak çıkacaksın
+gibi hayal edebilirsin aradakiler Ne
+olacak çözüm adımları olacak şimdi bu
+çözüm adımlarını nasıl yazacağımız
+beraber konuşacağız ama yazarken
+öncelikle neye dikkat etmelisin işte
+şuna bir başta komutuyla başlayacaksın
+bitir komutuyla bitireceksin dedik K
+bilgiser programı Aslında bu başlay la
+başlanır bitir le bitirilir yani o adımı
+bile yazacak mıyım hocam e Yazacaksın
+tabii problemi küçük parçalara bölerek
+adım adım ilerleyeceğiz o ara adımların
+her biri küçük adımlar olacak çözüm
+adımlarını günlük Anlaşılır bir dil
+kullanarak sırasıyla ve sade biçimde
+anlatacağız çok sade olacaksın ayrıntıya
+girmeyeceksin çok misal şimdi bu temel
+örneği beraber burada hazır çözüm
+üzerinden ilerleyelim sonra Kendimiz de
+yazacağız bunları ki çok bol örneğim var
+hiç merak etme bir karenin alanını bulan
+algoritmanın işleyişini doğal dille
+ifade ediniz doğal dille ası ne şu
+algoritmik doğal dille bunu ifade etmeni
+istiyor Ne dedim birinci adımda
+öncelikle şunu yapmak zorundasın bir
+başta komutunu vermek zorundasın bunu
+yazacağız Evet birazdan yazacağız zaten
+buradakiler birebir yazılacak olanlar
+ikinci adım şu ifade yazacağın şey değil
+senin bir girdi alman lazım şimdi
+karenin alanını bulmak istiyorum normal
+şartta karenin alanı nasıl bulunur bir
+tane Kenar uzunluğu alınır O Karen kenar
+uzunluğunun karesi bulunur alanı bulunur
+bu kadar basit hocam ama bunu karşıya
+adeta bir mala anlatır gibi anlatm lazım
+Burada girdiye ihtiyacım var şimdi orada
+Hayal etmeye çalış bir bilgisayar
+programı başlat dedin açıldı önce senden
+ne isteyecek O Karenin bir kenarının
+uzunluğunu isteyecek O yüzden Karenin
+bir kenarının uzunluğunu al çok temel O
+zaman artık bunu aldın mı hocam ikinci
+adıma geçebilir miyiz Evet geçebilirsin
+Pardon bir sonraki adıma geçebilir miyim
+ki O benim 3üncü adımım oldu Şimdi artık
+ne yapacağım girdiyi aldığıma göre alanı
+hesaplayabilirim karenin alanı nasıl
+hesaplanıyordu bir kenarın kendisiyle
+çarpımı ya da karesini al Orası sana
+kalmış karenin alanı kenar uzunluğunun
+kendisiyle çarpımına eşittir kenar
+uzunluğunun karesine eşittir abiciğim
+Sen orada nasıl ifade etmek istiyorsan
+et burada tek bir doğru yok farklı
+yollardan da aynı yola aynı doğruya
+ulaşabiliriz bu işlemi gerçekleştir Evet
+bildiğim bana anlatır bir gerçekleştir
+buldum gerçekleştirdim Şimdi artık bunu
+bana bir çıktı olarak göstermesi lazım
+tamam hesapladı ama bunu bana henüz
+göstermedi bu komutu da yazmak zorunda
+mıyım Evet sonucun yazdırılması adımında
+Bunu bana bir iletmek zorunda bir
+şekilde hesaplanan alanı ekrana ya da
+bir dosyaya yazdır artık orada nereye
+istiyorsa onu yazdıracağız ve artık
+tekrar ne yapmam lazım programı bitirme
+vakti geldi programı bitir diyeceğiz bu
+kadar ben burada 5 adımda dik Pardon
+karenin alanının oluşmasını sana adım
+adım göstermeye çalıştım şimdi adım adım
+seninle birlikte bu soruları beraber
+çözeceğiz ve bu soruları çözdükçe
+çözdükçe anlaşılır hale gelecek farklı
+kaynaklarda farklı çözüm metotları var
+ama hepsini derleyip baktığımızda en net
+en güzel çözüm yolunun emin ol aklına en
+yatar çözüm yolunun şimdi yapacağım
+çözüm yolu olduğunu sen de anlayacaksın
+Şimdi Amacımız ne hocam Neyi bulmak
+istiyoruz dikdörtgenin alanını bulan
+işleyişi algoritmik doğal dil ile ifade
+ediniz bir kere soruyu algoritmik doğal
+dil ile Yani benim Az önce öğrendiğim
+dille çözmem istiyor bu dil nasıl
+işliyordu hocam adım adım işliyordu
+birinci adımımız nedir birinci adımımız
+şudur arkadaş neye ihtiyacımız var başla
+komutuna ihtiyacımız var o yüzden başla
+komutunu beraber yazıyoruz ikinci adım
+dikdörtgenin alanını bulmak için
+öncelikle bana iki Kenar uzunluğu
+gerekiyor o yüzden ne olacak 1 kenar
+uzunluğunu gir kenar uzunluğunu gir bak
+Bunları tek tek yazmak zorundasın gir ki
+Birazdan bir açıklama daha yapacağım
+sonra 2 kenar uzunluğunu gir uzunluğunu
+gir Bunu da tek tek böyle yazıyorum ama
+anlaşılır bir dilde olmasına dikkat
+ediyorum burada mavi ile yazdıklarım
+bizim asıl sınavda yazmamız gereken
+şeyler Şimdi içerisine siyahla a ve b
+değerleri yazıyorum aslında gireceğim
+değerler Bunlar olsun Örneğin a değeri
+Örneğin B değeri ikinci Kenar uzunluğu
+olarak düşündüğüm şey de B değeri artık
+3üncü adıma geçebilirim 3üncü adımım ne
+olacak dikdörtgenin alanı dikdörtgenin
+alanını hesapla dik
+dörtgenin alanını hesapla alanını
+hesapla komut komut tane tane
+anlatıyoruz Tamam iyi güzel de
+dikdörtgenin alanı nı hesaplanıyor benim
+onu da anlatmam lazım onu nasıl
+anlatacağım dikdörtgenin alanı eşittir
+diyorum 1 kenar Evet çarpı 2 kenar doğru
+mudur şu kenarı biraz daha yakın yazalım
+2 kenar Aynen Komutları tek tek verdim
+Şimdi yanına yazacağım siyahla Yazacağım
+ifade dikdörtgenin alanını ifade etsin x
+biliyorsun ki birinci kenarı a olarak
+aldık ikinci kenarı B olarak aldık
+Normal şartlarda MB kitabında da
+görürsün Normalde algoritmik doğal dille
+yaz dediğinde bu Mavileri yazıyor yanına
+işlem adımlarını göstermek için de bu
+siyahlarla ayrı yazıyor Ama ben bunların
+hepsini tek bir adımda tek bir seferde
+gösteriyorum çok daha anlaşılır çok daha
+net olduğunu düşünüyorum Bu şekilde
+geldim 4 adıma Artık bunun çıktısını
+almam lazım Doğru mu alan sonucunu
+ekranda göster alan sonucunu ya da alan
+neyin hocam olmaz dikdörtgenin alanına
+dik dör çok temel felsefeyle çocuğa
+anlatır gibi bebeğe anlatır gibi
+hayattan hiçbir bilgisi olmayan sı
+sadece senin dediklerini anlayabilen
+yetisi olan birini anlatıyormuş gibi
+dikdörtgenin alanını alanını ekrana yaz
+ekrana yaz ki ekrana yazacağı cümleyi de
+bak buraya yazıyoruz dikdörtgenin alanı
+dikdörtgenin alanı genin
+alanı alanı x birim karedir bak ekranda
+da yazmasını istediğim cümle bu bitti mi
+Hayır bitmedi artık 5 adımdasın 5 adımda
+ne yapıyorsun diyorsun ki hocam bitir
+bitir kunda ne yapmak zorundasın vermek
+zorundasın olay mevzu Gerçekten bu kadar
+şimdi Adım Adım Adım Adım farklı
+sorularla bu yeteneğimizi Biz de
+geliştirelim şimdi önümdeki soruya bak
+uzun kenarın uzunluğu 12 birim kısa
+kenar uzunluğu 7 birim olan bir
+dikdörtgenin alanını bulan algoritmanın
+işleyişini algoritmik doğal dille
+yazınız Aslında Yukarıdaki adımların
+aynısı dikkat et Yukarıdaki adımlar
+herhangi bir birim uzunluğu vermeden
+yapılan işlemlerle şimdi aynı adımları
+Aslında baştan sona tekrar yazacağım ama
+yazarken tek farkım ne bu sefer artık
+benden veriler belli mi birinci kenar
+uzunluğunu gir ki birinci Kenar uzunluğu
+nedir 12 birim a kenarını bak ne aldım
+12 birim aldım ikinci Kenar uzunluğu ya
+da kısa kenar uzunluğu artık bir kenar
+ikinci kenar yazmama gerek yok Örneğin
+algoritmanın yazılışında şunu
+yapabilirim uzun kenar uzunluğunu gir
+girdi A eşittir Hatta uzun kenara yine a
+kalsın fark etmez u diyebilirsin
+kısaltmak için buraya da kısa kenar
+uzunluğunu gir hani neyi nereye
+gireceğimiz kafamıza hiç karışmaması
+adına adeta 0dan bilgi verdiğim için 7
+birim bunu da yazabilir miyim yazarım
+şimdi ne yapacağım dikdörtgenin alanını
+hesapla dikdörtgenin alanı neye eşittir
+uzun kenar çarp kısa kenar Hadi gel
+Buradaki verileri de değiştirelim şimdi
+uzun kenar yazıyorum bunlar benim asıl
+yazmam gerekenler işlemsel adımlar ise
+nedir aşağıda siyahla gösterdiğim
+adımlar oluyor uzun kenar çarpı kısa
+kenar dikdörtgenin alanını neyle
+Gösterdim xile Gösterdim ne yapacağım 12
+Bu arada normal noktayla değil Eski usul
+çarpma işlemiyle biz şeyde
+bilgisayarlarda çarpma işlemlerini
+yaparız Excel kullanan arkadaşlar
+bilirler noktayla değil oradaki küçük x
+tuşuna Basarız çarpma işlemini
+yapabilmek için ya da Yıldız tuşu
+diyeyim daha doğrusu o Hatta bilgisayar
+kodlamalar şu şekilde Yıldız atılır ama
+ben şimdilik burada doğal Logar
+logaritma diyorum algoritmik deil de
+normal çarpı işlemi koyacağım buraya
+Şimdi artık x'i hesaplayabilir mi
+hesaplar ne gelir 2 kere 7 14'ün 4ü
+elimde var bir 84 birimkare elde eder
+artık yazacağı Değer ne olur
+dikdörtgenin alanını ekrana yaz Bak
+dikdörtgenin alanı 84 birim
+şeklinde ne yapacak yazacak ha buraya 84
+yazmasam bile x birim kedir yazsam bile
+aslında bu bilgiyi alacak bilgisayar
+kodlama zaten o x yerine ne yazacak 84
+yazacak buradaki değerler değişse bile
+Sonuçta ekrana yazdıracağız şey bilgiler
+ışığında x ne çıkarsa onu yazmış olacak
+Yine ne yapacaksın burada bitir
+diyeceksin Hocam ben buraya işte 84
+yazdım yanlış olur abiciğim yanlış olmaz
+onu da yazabilirsin buna özel yazmış
+olursun sadece 12 ve 7'ye özel yazmış
+olursun Çünkü ekranda yazacak sayıyı
+sabitlemiş oldun Anlaştık mı Ama hayır
+hocam arka planda algoritmik dilde
+oluşan bütün adımları görmek istiyorum
+dediğinde de Ha o zaman buraya 84 de
+yazabilirsin bir şey fark etmeyecek
+tamam mı aynı doğrulukta olacak Onu bir
+söyleyeyim ben sana şimdi geldim artık
+yeni model bir soruya geçiyoruz ama ilk
+iki sorumda özellikle burada
+dikdörtgenin alanın mantığını Anladın
+şimdi MEB'in örneğinde de yalan yer alan
+benzer bir örneği yapacağım Aslında
+bölme işleminin örneğini yapacağım 16
+sayısının 5 ile bölümünden kal alanı
+tekrarlı çıkarma yöntemiyle bulan
+algoritmanın işleyişini algoritmik doğal
+dil ile yazınız Bak aslında Özünde
+benden istediği şey ne biliyor musun 16
+sayısını 5'e böleceğim 3 kere 5 15 kalan
+kaç 1 kalanın 1 olduğunu bana şununla
+göster diyor tekrarlı çıkarma yöntemiyle
+Allah Allah bu nedir hocam diyeceksin
+Aslında zor bir yanı yok tekrar tekrar
+16'dan 5'i çıkaracağım bölme işlemi ne
+zaman biter Bak dur biz ya da yavaş
+yavaş adım adım başlayalım Tabii burada
+temel matematik bilginin olması
+gerekiyor Bu adımları yazabilmenin
+Öncelikle birinci adımımız neydi her
+zaman olduğu gibi önce başlatma komutunu
+vereceksin 2ci adıma artık geçebilirsin
+ikinci adım Sana ne lazım veriler lazım
+O halde bölen sayıyı bölünen sayıyı gir
+çünkü 16 sayısının 5 ile bölümünden
+bölünen bölünen sayıyı gir sayıyı sayıyı
+gir sayıyı gir ardından bölen sayıyı gir
+benim verilere ihtiyacım var bölen
+sayıyı gir Öncelikle verileri topluyorum
+Peki topladım bu verilerin her birine
+isim verebilirim bölen bölünen sayıya a
+diyeyim ki benim a Sayım kaç 16 bölünen
+sayıya bölen sayıya özür dilerim B
+diyeyim oradaki Sayım kaç 5 ki bu
+verileri de işlemsel adımlar için
+göstermiş oluyorum geldim 3 adıma 3
+adımda ne yapmak istiyorum Benim derdim
+ne tekrarlı çıkarma yöntemini kullan
+tekrarlı yazıyorum tekrar
+çıkarma yöntemini çıkarma yöntemini
+kullan
+yöntemini uygula diyelim yöntemini
+uygula Peki ben şimdi işlemsel olarak
+buraya tekrarla çıkarma yöntemini
+uygulamak istiyorum nedir çıkarma
+yöntemi tekrarlı çıkarma yöntemi A'dan
+B'yi çıkartıyorum
+16'dan 5'i çıkart çıkartım kalan kaç
+yazıyorum 16'dan 5 çıktı yazabilirsin
+bunu işlemsel olarak da yazsan yanlış
+olmaz 16'dan 5 çıktı kalan kaçtır 11
+şöyle de yazsan yanlış olmaz 16'dan 5
+çıktı eşittir cevap nedir 11'dir bu
+şekilde de yazabilirsin ya da uzun uzun
+böyle yazabilirsin Peki bitti mi
+Normalde bölme işlemi nereye kadar gider
+kalan değer bölen değerden tabii bak
+dedim ya sana temel matematik bilgisini
+bilmek zorundasın Örneğin A sayısını
+B'ye bölüyorsun buradaki ifade nedir
+kalan ama bölmenin tanımlı olabilmesi
+için kalan değerin kimde küçük Hatta
+eşit olmaması gerekiyor bölenden küçük
+olması gerekiyor bizim temel felsefemiz
+bu şimdi 11 sayısı hala daha 5'ten büyük
+olmaz diyorum O zaman devam edeceğim
+işleme 11'den artık arka planda kaçı
+çıkartacak yine bizim programımız 5'i
+çıkartacak 11'den 5 çıktığında kalan kaç
+olacaktır 6 olacaktır Hatta burada
+gösterebilirsin 11'den kaçı çıkarttım
+5'i Çıkarttım kalan kaç oldu hop 6 oldu
+yola devam ettim şimdi 6'dan kaçı
+çıkartıyorum 5 çıkartacaksın 5'i
+çıkarttığımda artık kalan kaç olacaktır
+1 olacaktır E bu ne anlama gelir Hocam
+şöyle 10 pardon 6 - 5 = kalan kaç oldu 1
+oldu aslında adımlarım Bitti Demek ki
+kalan kaçmış birmiş ama benim Bunu
+programa anlatmam lazım artık Burada
+durması gerektiğini anlatmam lazım O
+yüzden şöyle yazıyorum 4 adım ne zaman
+duracağını tarif etmem lazım ne zaman
+duruyor bir tarif edelim kalan değer
+çıkartılan değerden
+küçük olduğu anda bir sonraki adıma geç
+Eğer kalan değer çıkan değerden büyükse
+3 adımı tekrarla bak yazmam gereken
+ifade buymuş
+Eğer kalan değer kalan değer kalan değer
+çıkartılan değerden çıkartılan değerden
+değerden çıkartılan değerden küçükse
+küçük İse sonraki adıma geç sonraki
+adıma geç adıma geç Şimdi tekrar tarif
+ediyorum Peki ya büyükse
+Eğer kalan
+değer kalan değer çıkartılan değerden
+çıkartılan çıkartılan değerden değere
+diyelim ya da eşit veya büyükse eşit
+veya büyükse büyük ise
+e 3 adıma geri dön adıma Geri Dön Geri
+Dön artık iki tane eğerle başlayan
+cümlemi kurdum dedim ki eğer benim kalan
+değerim ki kalan değerimi Biz burada kaç
+bulduk Mesela şurada işaretleyelim 1
+bulduk Eğer kalan
+değerim çıkarttığım değerden küçük İse
+sonraki adıma geçeceğim yani 4 adım
+daydım bir sonraki adım olan 5'e
+geçeceğim Eğer kalan değer çıkartılan
+değere eşitse veya büyük ise Aa Hocam
+mesela 6 adım dayım 3 adımı tekrar
+uyguladım gördün mü 6 buldum kalanı o
+zaman tekrar çıkartma işlemine devam
+ediyor tekrar çıkartma işlemine devam
+ediyor şimdi burayı Aslında daha doğru
+yazabilmek adına şöyle de yapabilirim
+şöyle tekrarlı çıkarma yöntemini kullan
+dedim ya orada şöyle bir şey yapacağım
+daha net olmak adına hani daha güzel
+anlatabilmek adına Hatta burada artık
+bölünen sayı bölen sayı şeklinde
+tanımlamadır dikkat et çıkartılan sayı
+İlk sayı diyelim İlk sayı ilk sayıyı gir
+çıkartılan sayıyı gir çıkartılan sayıyı
+gir bak biz buna İlk sayı diyelim 16
+sayısına çıkartılan sayıyı yani böldüğüm
+sayıya da 5 B'yi gireceğim ardından
+dedim ki Amacım ne A'dan B'yi çıkartmak
+Neyi bulmak kalan değer yani kyi bulmak
+diyelim bizim kalan değerimiz de burada
+bu olsun K ne olsun kalan değer olsun
+bunu tanımlıyorum programa bunu programa
+anlatmaya çalışıyorum şimdi ne zamanki
+bu kalan değer Eğer kalan değer
+çıkartılan değerden küçük İse sonraki
+adıma geç dedi Hatta bunu matematiksel
+olarak hocam Burada da tarif edebilir
+misin Bak yine biraz matematiği
+kullanacağım noktalarda Şurayı Sadece
+doğru bir şekilde kopart çalışıyorum
+Oradan ha kopardım bak burayı şimdi
+tarif etmeye çalışacağım nasıl tarif
+edeceğim kalan değer yani k değeri
+küçükse B'den ne yapıyorum sonraki adıma
+geçiyorum kalan değer büyük eşitse B'den
+ne yapıyorum 3 adıma geri dönüyorum
+buradaki adımların mantığı bu geldim 5
+adım artık 5 adım artık ekrana yazdırma
+durumu geldi Eğer sonuç Eğer sonuç ya da
+kalan değer diyelim sonuç diye bir şey
+bilmiyoruz Çünkü kalan değer
+Eee kalan değer çıkartılan değerden
+küçükse çıkartılan değerden değerden
+küçük ise küçük ise
+sonucu ekrana yaz ekrana
+yaz Bak bu kadar Şimdi burada yapacağı
+işlem ne kalan değerimiz kaçtır 1'dir
+işte kalan değeri buldu ya en son
+yazıyor Artık Neyi bulmaya Çalışıyorduk
+biz 16 sayısının 5 ile bölümünden kalan
+16 16 sayısının
+sayısının 5 ile bölümünden 5 ile
+bölümünden
+kalan 1ir ekranda yazacak yazısına kadar
+her şeyine kadar ne yaptım ayarladım
+artık 6 adım dayım programı bitirdik
+Çünkü neye yapmam lazım bitirmem
+gerekiyor son cümle olarak ne yazdım
+programı bitire tıkladım ya da artık
+arka planda oluşan işlemi sana aktardım
+olay mevzu bu ama farklı sorularla ben
+devam edeceğim hiç merak etme kaçıncı
+sorud dayım bu 4 soruydu galiba Şimdi
+geldik 5 sorumuza hız hız saatte 50 km
+olan bir bisikletlinin 150 kilometrelik
+bir parkuru tamamlamak için kaç saate
+ihtiyaç duyacağını bulan algoritmanın iş
+değişiğini algoritmik doğal dille yazın
+bak önce problemi kafanda bir çözmeye
+çalış karalamaya çöz hocam yol ne kadar
+150 km benim hızım ne kadar 50 km saat
+50 km saat ne yapılır bu değerler
+birbirine bölünür sonuç ne çıkacak 3
+saat ha benim yapmam gereken işlem Bu
+sayıları birbirine bölmek o halde
+diyorum ki sil bunu şimdi kafamda
+tasarladım planladım ilk şey neydi
+Birinci Adım Öncelikle başla komutunu sö
+em gerekiyor başla geldim ikinci adıma
+ikinci adımım neydi hız verisini gir
+hızını gir ya da kimin hızı bu daha net
+konuşalım bisikletlinin hızını gir
+bisikletlinin
+hızını gir hızını gir Peki
+bisikletlerinin hızını Biz B harfi ile
+gösterirsek onun hızına Ne yazması
+gerekiyor 50 km / saat yazması gerekiyor
+Ne gerekiyorsa yazıyorum Aynı adımı
+devam edebilirsin ya da Bak şunu yapman
+hata olmaz Hocam ben başka adıma
+geçeceğim abiciğim Vallahi hata değil
+tek bir adımda bütün verileri
+isteyebilirsin ya da adım adım
+isteyebilirsin Hani bunu şey gibi düşün
+önüne bir pencere açılıyor sayfa
+açılıyor veri girebileceğin iki tane
+boşluk var Birinin yanında diyor ki
+Bikinin verisini gir İkinci veride ne
+yazıyor işte toplam yolu gir ha Mevzuyu
+anladım şimdi başka bir şekilde
+Anlatıyorum bunları ben sana tek bir
+adımda verdim ekran açıldı Bikinin
+verisini gir çıktı bastın veriyi girdin
+hop yeni ekran açıldı şimdi diyor ki
+toplam yolu gir toplam mesafeyi gir abi
+bunu tek adımda da verebilirim 3 adımda
+da verebilirim ben tek adımda verme
+taraftarıyım bunları şimdi toplam
+parkuru tamamlamak için parkurun
+parkurun uzunluğunu gir diyelim parkurun
+uzunluğunu gir parkurun uzunluğunu gir
+uzunluğunu gir peki Buraya Ne yazacaksın
+Sen parkurun uzunluğuna Eğer ben p
+dersem buraya yazman gereken mesafe 50
+km Tabii ki bu veriler değişse de bu
+program mavi kısma baktığımızda hep ne
+yapacak aslında çalışacak siyah kısım Bu
+soru özelinde benim bu programda
+verileri yazacağım ifadeler geldim 3ün
+adıma artık değeri hesaplamam gerekiyor
+neye hesaplamak istiyorum parkurun
+tamamlamak için kaç saate ihtiyacı
+olduğunu gerekli olan saate hesapla
+parkuru tamamlamak için parkuru
+tamamlamak için tamamlamak için gerek
+saat gerekli olan saati hesapla gerekli
+olan saati hesapla Peki bunu nasıl
+hesaplayacak adam hesaplamak için benim
+ona veriyi vermem lazım Gerekli saat
+gerekli saat gerekli saat eşittir ne
+yaptıracağım Matematiksel işlem
+yaptıracağım Kimi kime böldü ceğim
+parkur uzunluğunu parkur uzunluğunu bölü
+işareti de tıpkı o hesap makinelerindeki
+işlem gibi yapıyoruz kime bölüyorum
+bisikletin hızına
+bisikletin hızına yukarıda yazdığım
+veriyle aynı şeyi yazmam lazım Peki
+matematiksel olarak bulacağımız değer
+gerekli olan saatimiz şu olsun tamamını
+[ __ ] için gerekli olan saatimiz T
+olsun parkurun uzunluğuna p demiştik p
+değerini neye böleceğim bisikletlinin
+hızına da B demiştik şimdi verilerle
+yazıyorum T değeri eş 150 bölü ne olacak
+arka planda işlem olarak ne yapacak
+bilgisayar 150'yi 50'ye bölecek
+otomatikman buradan 150/50 ne bulacak 3
+saat Bulacak şimdi o veriyi bana
+aktarması lazım değil mi 4 adıma artık
+geldim 4 adımda ne yapacağım veriyi
+bulduğum sonucu ekrana yazdıracağım Yani
+artık şunu yapacağım gerekli saati
+gerekli olan saati saati ekrana yaz
+saati ekrana yaz ekrana yaz Peki ekrana
+Aslında ne yazacak bu adam şöyle şuradan
+bakalım parkuru tamamlamak için gerekli
+saat parkuru parkuru tamamlamak için
+tamamlamak için x saate ihtiyacı vardır
+Tabii x demeyeceğim neyle belirtmiştim t
+ile belirtmiştim T saate ihtiyaç vardır
+ihtiyaç vardır Burası tamamen Senin
+hayal gücüne kalmış Hani gerekli olan
+saatdir yaz bitir Abim bu sana kalmış
+benim programımın ana ekranında ben şunu
+yazsın istiyorum parkurun tamamlanması
+için gerekli olan saat T saattir ya da
+parkuru tamamlamak için T saate ihtiyaç
+vardır bitti bu kadar ha Benim Ekranımda
+gerçekte ne yazacak Peki parkuru
+tamamlamak için tamamlamak için bu bütün
+sayılar ne olursa olsun yazacağı ifade
+benim Ekranımda bitişinde artık ne
+yazacak 3 saate ihtiyaç vardır ihtiyaç
+vardır Al sana benim Ekranımda yazması
+gereken ifade olay bu bitti mi Medi
+artık programı Kapatmam lazım 5 adıma
+geldim bunu asla unutmuyorsun buradan
+kesin puan kırılır arkadaşım bitir
+diyorsun bu kadar Anlaştık mı Biliyorum
+çok kolay değil ama ilk seferde zorlana
+da zorlana da olsa bu işi öğreteceğim
+ben sana Mesela daha chet refi bir soru
+6 sorumuz biraz daha böyle chet revelli
+bir soru bir bakalım Ona Emre
+mahalledeki hayvanları beslemek için bir
+torb mamı almak istiyor Babası ona 150 T
+para veriyor pet shop'a git diyor Eğer
+bir torba mamanın fiyatı 150 veya daha
+azsa al paranın üstüyle eve dön Eğer
+fiyatı 150'den fazlaysa Almadan geri gel
+mama Almadan geri gel demiştir Buna göre
+emrenin görevi yerine getirirken
+izleyeceği adımları belirten algoritmayı
+yaz adeta Hayatta başka hiçbir bilgisi
+olmayan sadece seni dinleyip dediklerini
+harfiyen uygulayan birine adım adım bu
+süreci anlatmalıyım Yani ben bu süreci
+şöyle de anlatabilirim iki yumurta al
+tavada kır bana omlet
+aktar tane tane anlatman lazım işte
+burada da bunu yapıyoruz aslında tane
+tane bu işlemleri anlatıyoruz Birinci
+Adım Birinci Adım ne Tabii ki başta
+komutuyla başlıyorsun ikinci adım ikinci
+Adım orada bir başlay yazmış mıyız diye
+merak ettim birinci adımını yazmışım
+tamam Bir an unuttum öyle yazmamış
+olabilir miyim dedim geldim ikinci adıma
+ikinci adımda ne yapacağım önce veriyi
+almam lazım Emre'nin parasını yaz
+Emre'nin Emre'nin
+parasını gir parasını gir
+şimdi bize bir ne lazım Emre'nin
+elindeki paranın miktarı lazım değil mi
+Emre'nin parasını gir buraya nokta
+diyelim Emre'nin parasını ne ile
+gösterelim Emre'nin parası Emre'nin
+parası e olsun Mesela e değil belliymiş
+ya Emre'nin parasına e diyelim Hatta o
+para kaç tlm miş 150l babasının verdiği
+ücret Ona neymiş 150 şimdi Emre ne
+yapacak adım adım yazıyoruz pet shop'a
+git 3 adım 3 adım pet shop'a gidilir
+Eğer bir torba mamanın fiyatı mamanın
+Fiyatı belli mi belli değil pet shop'a
+gidilir pet shop'a gidilir mamanın
+fiyatı öğrenilir bak önce bunu yapması
+gerekiyor gidilir
+mamanın fiyatı öğrenilir fiyatı
+öğrenilir
+öğrenilir mamanın fiyatını gir yazalım
+şimdi öğrendik ya mamanın fiyatını gir
+öğrendin artık fiyatını gir diyelim ki
+öğrendin geldin buraya mamanın fiyatını
+Biz şöyle gösterelim x ile gösterelim
+mamayı mamanın fiyatı x T olsun Hatta
+şöyle yazalım henüz mamay la ilgili
+başka bir bilgimiz yok artık ne
+yapabilirim 4ü adıma geçebilirim 4 adım
+şimdi mamanın fiyatı var elimde Emre'nin
+parası var elimde bunları ne yapacağım
+Eğer bir torba mamanın fiyatı 150 veya
+daha azsa Al şimdi aldırmaya çalışacağım
+diyorum ki Eğer şimdi buradaki eğeri
+şuradan başlatacağım Çünkü bir de
+alamayacağı durumu yazacağım sonrasında
+adım adım Eğer mamanın fiyatı mamanın
+fiyatı Emre'nin parasından Emre'nin
+parasına eşit veya Emre yazamadım
+yazmıyor He Emre'nin Emre'nin
+parasına parasına
+eşit
+veya daha az ise daha az ise mamayı al
+mama yı al şimdi mamayı alacağı durumu
+tarif ettin mi ettim mamayı alacağı
+durumu tarif etmeme rağmen işlemim
+Aslında daha bitmedi dikkat et mamayı
+alacak Ama bir de Para üstü olacak Para
+üstünü al eve dön şimdi bir alt kademe
+olduğu için ben biraz daha içeri doğru
+yaklaşıyorum burada ama dikkat et bir de
+şöyle bir ihtimal var bunların ikisini
+birden aynı anda yazmak istiyorum ki
+sana daha net göstereyim şimdi Birinci
+durumun gerçekleşmesi mamanın fiyatının
+Emre'nin parayla olan İliş isini
+gösteriyor Eğer ki Emre'nin parasına
+eşitse mamanın fiyatı veya daha ie
+mamayı alacak ama alt basamağı var onu
+yazacağım şimdi yazacağım ama eğer başka
+bir durum varsa Yani şöyle bir durum
+Eğer mamanın fiyatı Emre'nin parasından
+büyük ise Emre'nin
+parasın dan parasından büyük ise büyük
+ise mamayı alma mamayı alma eve gel eve
+gel öyle de demiyor mu bak bakalım ne
+diyor Eğer fiyatı 150 TL'den fazlaysa
+Almadan geri gel Süpersin Şimdi şöyle
+bir şey yapalım burayı işletebilmek için
+mamayı almadan eve gelmesini
+işletebilmek için x değerinin ne
+olmasını istiyorsun 150'den büyük
+olmasını istiyorsun işlemsel olarak
+böyle bir şey var peki diğer durumda
+Eğer mamanın fiyatı Emre'nin parasına
+eşit veya daha azsa mamayı al işlemsel
+olarak nasıl bir şey işleyecek arka
+planda x lira Eğer 150 t'ye eşit veya
+daha küçükse ne yapacaksın mamayı
+alacaksın Şimdi mamayı aldığımı kabul
+ediyorum artık ne yaptım mamayı aldım Ne
+yapacağım Para üstünü hesaplayacağız ne
+diyor bak paranın üstüyle eve dön Para
+üstünü hesapla Para üstünü üstünü
+hesapla Ben makineye diyorum ki mamayı
+aldık ama bize Para üstü lazım Daha bu
+adımı uygularken Benim ne yapmam
+gerekiyor Para üstünü hesaplatmak Para
+üstü nasıl hesaplanır para üstü Para
+üstü eşittir nasıl bulunur Para üstü
+Emre'nin parası Emre'nin
+parası eksi parası eksi mama fiyatı
+yazılınca neye ulaşmış olacağım Para
+üstü fiyatına ulaşmış olacağım peki bunu
+yine nasıl yazmak zorundayım Arkadaş
+Yukarıdaki gibi matematiksel sembollerle
+de yazmak zorundayım para üstüne bundan
+sonra p diyelim eşittir Bu p değeri
+Emre'nin parasına e demiştik aldığımız
+şey parasına da mama parasına da x
+demiştik e - xile ifade edilecek ha
+Tabii ki buradaki e değeri belli yani
+şöyle de yazmamda hata yok p = 150 - x
+şeklinde de ne yapabilirim yazabilirim
+şimdi eğer mama fiyatı Emre'nin parasına
+eşit veya dahae mamayı aldık işlemleri
+gösterdik bir ihtimal daha var dedik O
+ihtimal neydi Eğer mamanın fiyatı
+Emre'nin parasından büyük ise mamayı
+alma eve gel dedik onu da gösterdik
+artık BT bütün durumları gösterdiğim
+göre sonuca gidebilirim yani kaçıncı
+adıma gidiyorum artık 5 adıma gidiyorum
+yani Bu bulduğum değerleri ekrana
+yazdırıp göstermem lazım yalnız ekranda
+da iki farklı durum var Nasıl olacak iki
+farklı durumu da izah etmem gerekiyor
+birinci durum Eğer mama alındı ise
+alındı ise ekrana ekrana Ne yazsın mama
+alındı Para üstü işte XP TL öyle yazsın
+mama alındı mama
+alındı Para üstü Para üstü Ay yazamadım
+Para üstü p TL'dir ne yapacağız bunu
+yazdıracağız Peki bizim gerçek ekranımı
+da ne yazacak istersen onu da yazalım
+biliyorsun ki ben onları siyahla
+yazıyorum mama alındı mama alındı alındı
+Para üstü Para üstü A burada Gerçi değer
+olarak yazamayacağı Çünkü mama değeri
+belli değil p TL'dir bizim Ekranımda
+gözükecek olan ifade bu ha bir ihtimal
+daha var ekranda yazacak olan ifade onu
+da belirtmem lazım Eğer mama alınamaz
+ise
+alınamaz ise ekrana Ne yazsın burada
+Paşa Gönlüm biliyor gerçekten mama
+alınamadı yazsın mama alınamadı yazsın
+mama alınamadı
+alınamadı yaz şimdi onu da bizim
+ekranlarda gözükecek şekilde belirtelim
+nasıl gözüksün bizim ekranda da mama
+alınamadı mama
+[Müzik]
+alınamadı güzel artık sonuca geldim
+ekranda da yazdırdığım göre 6 bir adımı
+yazıyorum programı kapatıp bitirmem
+gerekiyor 6 adım nedir bitir komutuyla
+ne yaptım programı da burada bitirdim
+Efsane bir soru dahayi Ey güzel
+arkadaşım efsane sorular biter mi bizde
+bitmez gelsin 7 sorumuz Biliyorum çok
+yeni bir konu öğretmenlerimizin de
+anlatırken zorlanabilir bir konu Çünkü
+ben de öğretmenlik Hayatımda ilk defa bu
+konuyu anlatıyorum ama bilgisayarla
+Allah'tan aram çok iyi o yüzden bunları
+aktarması biraz daha kolay oluyor diye
+düşünüyorum şimdi geldim 7 soruya bir
+robotun tamir için gerekli malzeme
+listesi şu şekildir Ben olsam mesela
+bunu sınavda kesin sorardım abi 2 adet
+vida her biri 5 t 3 adet somun Her biri
+3 TL bir adet motor 50 robotun bu
+malzemeler için toplam maliyeti bulan
+algoritmanın işleyişini algoritmik doğal
+dil ile yazınız bak sınav sorumuz Bu
+nasıl yazacağım hocam birinci adımla
+başlayacağım Tabii ki Birinci Adım neydi
+başlayacağım diyorum başta komutunu
+veriyorum yani geldim ikinci adıma
+ikinci adım verileri toplayacağız
+toplayacağım verileri tek bir seferde
+toplamak istiyorum toplamak istediğim
+veriler olayı şu bana vidanın tane
+fiyatı gerekli bak yazıyorum
+vidanın birleşik yazabiliriz değil mi
+buraya ayrca gerek yok vidanın tane
+birim fiyatı diyelim ya aynı anlama
+geliyor biliyorsun birim fiyatı Peki
+birim fiyatını gir yazdım Peki bu fiyatı
+neyle girsin Örneğin bana V = 5L olarak
+girsin ne dersin aynı anlama gelsin
+bunlar ardından neye girecek somun birim
+fiyatını gir birim fiyatını gir fiyatın
+bu somun ekmek değil ha fiyatı gir somun
+hani şu şey var ya yuvarlak geldim
+somunun fiyatını giriyorum somunun
+fiyatı neymiş S = 3 onu da girdim her
+birine harf vermen işleri kolay ştı
+biliyor motor birim fiyatını gir motor
+birim fiyatı gir fiyatı gir Mesela ben
+istiyorum ki Benim programım Evet
+bunların her birini burada topladı güzel
+ama bir de bana ne lazım Normal
+şartlarda bir kere şunu söylemeyi
+unuttum herhalde problemi çözebilmek
+için genel mantığım ne hocam 2 ile 5'i
+Çarpacağım 10 3 ile 3'ü Çarpacağım 9 TL
+bir adet bundan aldığıma göre 50 TL
+bunları toplayacağız cevaba gideceğiz
+değil mi 69 Hocam cevap bitti Ama öyle
+olmuyor işte ne yapacağım Bun adım adım
+giriyorum ikinci adımda birim fiyatları
+aldım karşı taraftan ama bunu ayrı bir
+adımda almak istedi Canım istersen yine
+sen ikinci adımın içerisinde de
+alabilirsin yanlış olmaz bunun yanlışı
+doğrusu yok Sen programın nasıl
+çalışmasını istiyorsan öyle gir 3üncü
+adımda Ben şunu istiyorum adet
+fiyatlarını istiyorum vida adet fiyatını
+gir adet Pardon adet fiyatını girdik
+vida adedini gir adet
+gir kaç adet alacak onu girmesini
+istiyorum adet fiyatını girerken ne
+kullansın mesela a kullansın adet fiyatı
+ne 2 bunu girecek küçü a kullandım somun
+adet fiyatını gir adet adetini fiyat
+değil tane hesabı yapıyoruz artık
+adetini gir Bunu B olarak kullanacağım B
+olarak ne kullanacağım 3 mü 3 adet somun
+alıyor güzel geldim somun değil somun
+sonrasında motor adetini gir motor adeti
+gir motordan kaç tane alıyor bir tane
+alıyor Bunu da C olarak gireceğim bundan
+da bir tane alıyor artık işlemleri
+yaptıracağım 4 adım toplam maliyeti
+hesaplamak istiyorum e adımın ismi o
+olsun o zaman toplam maliyeti maliyeti
+hesapla Peki toplam maliyet nasıl
+hesaplanır bunu bir formülle onu
+anlatmam gerekiyor toplam maliyet toplam
+mali ya da toplam maliyeti şöyle
+hesaplayalım
+vida maliyeti önce vida maliyetini
+hesaplasın vida maliyeti vida maliyeti
+nedir eşittir vida birim fiyatı birim
+fiyatı artık sen anla çarpı vida adet
+Anladık mı peki geldim diğerine biraz
+daha sola doğru çekeceğim matematiksel
+işlemlerini yanına yazabilmek adına
+hocam vidanın maliyeti vidanın maliyeti
+VM olsun vida birin fiyatına ne dedik V
+dedik çarpı vida ad ne dedik a dedik Bak
+bu kadar işlem ne yapacağını tarif
+ediyorum şimdi somon somon maliyeti bunu
+hesaplatılır
+[Müzik]
+biliyorum uzuyor gibi olabilir ama bence
+çok net oluyor böyle ve tam puanı
+getirecektir bize motor birim fiyatı
+çarpı motor nesini girecek adetini
+girecek Peki bunu nasıl hesaplayacak
+motor maliyeti eşittir ne demiştik
+motorun maliyeti için m x c demiştik
+şimdi bu işlemleri de benim arka planda
+yaptırmam lazım O yüzden ben bu tarafta
+yapıyorum
+Eee şöyle yapalım vida maliyeti eş ne
+ile Neyi çarpıyorum 2 ile 5'i çarptım ne
+elde ettim 10 elde ettim devam ettim
+somon maliyetini hesaplıyorum somon
+maliyeti için 3 ile 3'ü çarptım ne elde
+ettim 9 TL elde ettim artık motor
+maliyetini hesaplıyorum 1 ile 50'yi
+çarpıyorum cevap ne geldi 50 geldi artık
+matematiksel işlemlere gösterdim ya 5
+adıma geçiyorum ha 5 adıma geçmeyelim
+Biz zaten burada ne demişiz dikkat et
+toplam maliyeti hesapla şimdi aynı
+adımın içerisinde toplam mal hesapla
+toplam maliyet eşittir toplam maliyet ne
+şekilde bulunabilir vida maliyeti vida
+maliyeti Art somon maliyeti Art motor
+maliyeti motor maliyeti Şimdi bunu
+formülle anlatmaya çalışıyorum toplam
+maliyet TM olsun vida maliyeti Art somon
+maliyeti Art motor maliyeti güzel şimdi
+bu işlemleri yapıp cevabı bulmak
+istiyorum 10 + 9 TL + 50l sonuç toplam
+maliyet eşittir ne geldi 69 TL Aman
+Allah'ım Sadece bu kadar kolay bir
+işlemi adeta Affedersin bir geri
+zekalıya anlatır gibi anlatmazsan
+olmuyor işlemiyor bu adımlar şimdi bunu
+ekrana yazdırmam gerekiyor geldim 5
+adıma 5 adımı yazmaya çalışıyorum ha 5
+adım toplam maliyeti ekrana yaz toplam
+maliyeti maliyeti ekrana
+ekrana yazdır ya da yaz Fark etmez O
+halde toplam maliyet Bak tam ekrana
+yazmasını istediğim şey şu toplam
+maliyet maliyet ne olacak benimkinde
+Hatta Önce şöyle bir maviyle yazayım
+maviyle görmüş ol Ne yazacağımız genel
+yazı şu olacak aslında ben sayı girdiğim
+için direkt sayıyı görebileceğim toplam
+maliyet TM TL'dir Şimdi bak benim
+buradaki TM ben girdikten sonra bende şu
+şekilde gözükecek toplam maliyet
+maliyet 60 TL'dir hop hop hop güzel
+arkadaşım toplam maliyet Ya bak o kadar
+şey yazıyorsun şurada ha
+69 olur diyelim ardından 6 adımla bitir
+dedik Anlaştık mı arkadaş benim sana
+burada anlatmak istediğim Özellikle bu
+Maviler Bu programın hangi sayıları
+girersen gir sana vereceği çıktı Eğer bu
+girersen siyahlarla yapılan işlemler de
+siyahla yazdıklarımda siyahla bana O
+bilgisayar programın bana çıktısı dır
+Nedir o toplam maliyet 60 TL'dir benim
+Ekranımda gözükecek olan şey artık 6
+adıma geldim 6 adımda ne diyorum
+bitirebilirim olay bitmiştir dedim bitir
+dedim mükemmel bir soruyu daha geride
+bıraktım Ama çözümü anlamam benim için
+çok kıymetli Ben daha fazlasını senin
+için burada yapmak için hazırım senden
+isteğim var yalnız videonun yorumlar
+kısmına iniyorsun ve yorumlara bu
+sorunun cevabını adım adım yazıyorsun
+hediyeli bir soru olsun ne hediye
+vereceğiz bilemedim şimdilik ama yani bu
+hediyeyi düşünürüz Ya sen yeter ki yaz
+en çok beğenilen çözüme hediyeyi
+gönderiyorum Arkadaş ne zaman ara
+tatilden bir gün önce bakacağım Hediye
+göndereceğim arkadaşlar o arkadaşa bir
+bayram hediyesi bayramda Gerçi bayramdan
+önce göndermem lazım dur tarih bakalım
+ya öyle Karam böle sınavlardan önce Evet
+evet sınavdan bir gün önce sınavdan
+sınav günü göndereceğim hediyeyi sınav
+günü göndereceğim sınavımız 25 Mart Salı
+günü müydü öyle hatırlıyorum Bir dakika
+takvimimi açayım yanlışlık olmasın Evet
+25 Mart salı günüydü 25 Mart Salı günü
+Sizler sınavdayken bu videonun
+yorumlarına inip en çok beğeni alan Bu
+sorunun çözümünü adım adım tane tane
+anlatan arkadaşa benden Gönlümden bir
+hediye vallahi böyle bir güzellik de
+yapmış olalım diyelim Ey güzel arkadaşım
+elimden geldiğince dilim döndüğünce
+herkesin zorlandığı öğretmenin
+öğrencisine 5 tema Algoritma Bilişim hiç
+merak etme o iş bizde beraber Bu dersi
+de bu konuyu da halledeceğiz matematik
+bizde Güvener Sen diğerlerini hallet ki
+ekstra soru çözümleri derece tayfası
+çözümleri elbet gelecek o iş dedik ya
+biz de re Tayfa Yolun açık olsun Bir
+sonraki derste görüşelim Kendine iyi bak
+hoş kal Hoşça kal
+[Müzik]
+h
+[Müzik]

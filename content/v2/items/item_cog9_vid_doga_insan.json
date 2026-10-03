@@ -23,7 +23,13 @@
       ],
       "sourceTheme": "COĞRAFYANIN DOĞASI",
       "videoSearchScore": 10.4,
-      "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+      "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt",
+      "transcriptFingerprint": "9c4e775068919daa"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Coğrafya Biliminin Konusu ve Bölümleri"

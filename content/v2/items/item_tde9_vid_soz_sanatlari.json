@@ -16,7 +16,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "9482d8d5961e7046"
+      "fingerprint": "9482d8d5961e7046",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb"
     }
   }
 }

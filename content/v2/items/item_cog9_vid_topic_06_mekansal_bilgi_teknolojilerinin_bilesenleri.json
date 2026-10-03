@@ -25,7 +25,13 @@
       "videoSearchScore": 7.67,
       "videoCandidateTitle": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
       "fingerprint": "73a72eb43fb126d1",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.tr.vtt",
+      "transcriptFingerprint": "e4c41fbce21b506c"
     }
   }
 }

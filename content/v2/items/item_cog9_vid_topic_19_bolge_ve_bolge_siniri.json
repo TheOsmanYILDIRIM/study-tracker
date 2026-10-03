@@ -26,7 +26,13 @@
       "videoSearchScore": 6.97,
       "videoCandidateTitle": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
       "fingerprint": "029f782d0a0fef1b",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.tr.vtt",
+      "transcriptFingerprint": "34d7daa0f04f7cdc"
     }
   }
 }

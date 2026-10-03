@@ -36,8 +36,13 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "893ed24a871bd143"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "893ed24a871bd143",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -58,8 +63,13 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "09e4ff23f901f518"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "09e4ff23f901f518",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -80,8 +90,13 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "ed3787346eb0861d"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "ed3787346eb0861d",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -102,8 +117,13 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "6cb73c7f5932687a"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "6cb73c7f5932687a",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -124,8 +144,13 @@
                   "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "156d7b115046cade"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "156d7b115046cade",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -146,8 +171,13 @@
                   "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "f2b5f73128476d91"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "f2b5f73128476d91",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -271,7 +301,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "61349661ecacb396"
+                  "fingerprint": "61349661ecacb396",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.tr.vtt",
+                  "transcriptFingerprint": "8b626f71936a91a8"
                 }
               }
             },
@@ -376,7 +412,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "38986b05f958b3b9"
+                  "fingerprint": "38986b05f958b3b9",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.tr.vtt",
+                  "transcriptFingerprint": "fa715604932cb476"
                 }
               }
             },
@@ -591,7 +633,13 @@
                   ],
                   "sourceTheme": "SAYILAR",
                   "videoSearchScore": 10.4,
-                  "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025"
+                  "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.tr.vtt",
+                  "transcriptFingerprint": "426e959c263c3dbc"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Sayı Kümeleri ve İşlem Özellikleri"
@@ -790,7 +838,13 @@
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
                   "fingerprint": "bbb2b75eab91a579",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.tr.vtt",
+                  "transcriptFingerprint": "23d6e07723c92c83"
                 }
               }
             }
@@ -829,7 +883,13 @@
                   "videoSearchScore": 10.12,
                   "videoCandidateTitle": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
                   "fingerprint": "83e0b0f1e09e1a19",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.tr.vtt",
+                  "transcriptFingerprint": "7dc77c5e46819a43"
                 }
               }
             }
@@ -906,7 +966,13 @@
                   ],
                   "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK",
                   "videoSearchScore": 6.4,
-                  "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli"
+                  "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.tr.vtt",
+                  "transcriptFingerprint": "c24a297ec4ace9fd"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Üçgende Açı ve Kenar İlişkileri"
@@ -1065,7 +1131,13 @@
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
                   "fingerprint": "82fde7766e2f47dd",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.tr.vtt",
+                  "transcriptFingerprint": "2ad01955011f72cc"
                 }
               }
             }
@@ -1100,7 +1172,13 @@
                   ],
                   "sourceTheme": "EŞLİK VE BENZERLİK",
                   "videoSearchScore": 9.55,
-                  "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli"
+                  "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.tr.vtt",
+                  "transcriptFingerprint": "5faa10ff494c65cb"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Eşlik ve Benzerlik Koşulları"
@@ -1255,7 +1333,13 @@
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
                   "fingerprint": "0f4384a467ce5593",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.tr.vtt",
+                  "transcriptFingerprint": "5faa10ff494c65cb"
                 }
               }
             }
@@ -1329,7 +1413,13 @@
                   ],
                   "sourceTheme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
                   "videoSearchScore": 8,
-                  "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli"
+                  "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt",
+                  "transcriptFingerprint": "20f59b1eff4fffee"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Eşlik ve Benzerlik Problemleri"
@@ -1368,7 +1458,13 @@
                   ],
                   "sourceTheme": "EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM",
                   "videoSearchScore": 7.43,
-                  "videoCandidateTitle": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025"
+                  "videoCandidateTitle": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.tr.vtt",
+                  "transcriptFingerprint": "9b90a8e7ecbc81a2"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Algoritma Temelli Problemler"
@@ -1405,7 +1501,13 @@
                   ],
                   "sourceTheme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
                   "videoSearchScore": 6.79,
-                  "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik"
+                  "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.tr.vtt",
+                  "transcriptFingerprint": "887270a366a91271"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Mantık Bağlaçları ve Niceleyiciler"
@@ -1672,7 +1774,13 @@
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
                   "fingerprint": "45909eb3b6e78221",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.tr.vtt",
+                  "transcriptFingerprint": "b7ba271a128afd1b"
                 }
               }
             }
@@ -1748,7 +1856,13 @@
                   "videoSearchScore": 8.4,
                   "videoCandidateTitle": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
                   "fingerprint": "17430c9eb80bece0",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.tr.vtt",
+                  "transcriptFingerprint": "b41eea550f92d1fb"
                 }
               }
             }
@@ -1784,7 +1898,13 @@
                   ],
                   "sourceTheme": "VERİDEN OLASILIĞA",
                   "videoSearchScore": 8.9,
-                  "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025"
+                  "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.tr.vtt",
+                  "transcriptFingerprint": "16557446b5eb8f90"
                 },
                 "provider": "Rehber Matematik",
                 "topic": "Teorik Olasılık"
@@ -2000,7 +2120,13 @@
                   "videoSearchScore": 2.9,
                   "videoCandidateTitle": "Those Leading the Science of Physics - Science Centers | 9th grade physics new curriculum (maarif...",
                   "fingerprint": "d16568f2f820ce4f",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.tr.vtt",
+                  "transcriptFingerprint": "dbd42f4bde0e667a"
                 }
               }
             }
@@ -2028,8 +2154,13 @@
                   "sourceSection": "1. Hafta: Fizik Bilimi ve Alt Dalları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "209e14527f3f8255"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "209e14527f3f8255",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -2190,8 +2321,13 @@
                   "sourceSection": "3. Hafta: Vektörler ve Dik Kartezyen Koordinat Sistemi",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
-                  "fingerprint": "6486243db87369b1"
+                  "reviewStatus": "needs_review",
+                  "fingerprint": "6486243db87369b1",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -2877,7 +3013,13 @@
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
                   "fingerprint": "f7e19b86593dad2b",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.tr.vtt",
+                  "transcriptFingerprint": "55aad1981b5f804a"
                 }
               }
             }
@@ -2915,7 +3057,13 @@
                   "videoSearchScore": 8.05,
                   "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
                   "fingerprint": "bf529ca0f714752e",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.tr.vtt",
+                  "transcriptFingerprint": "751b67c63da7e410"
                 }
               }
             }
@@ -3071,7 +3219,13 @@
                   ],
                   "sourceTheme": "ETKİLEŞİM",
                   "videoSearchScore": 7.8,
-                  "videoCandidateTitle": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1"
+                  "videoCandidateTitle": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.tr.vtt",
+                  "transcriptFingerprint": "e17c0606ddfc4fc4"
                 },
                 "provider": "Meschemy Kimya",
                 "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer"
@@ -3261,7 +3415,13 @@
                   ],
                   "sourceTheme": "ETKİLEŞİM",
                   "videoSearchScore": 7.31,
-                  "videoCandidateTitle": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4"
+                  "videoCandidateTitle": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.tr.vtt",
+                  "transcriptFingerprint": "7cd92b2c6669ff39"
                 },
                 "provider": "Meschemy Kimya",
                 "topic": "Atom Teorileri ve Atomun Yapısı"
@@ -3418,7 +3578,13 @@
                   "videoSearchScore": 8.95,
                   "videoCandidateTitle": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
                   "fingerprint": "95595f44444eaaf9",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.tr.vtt",
+                  "transcriptFingerprint": "ea98a3ebca4304a2"
                 }
               }
             }
@@ -3455,7 +3621,13 @@
                   "videoSearchScore": 8.95,
                   "videoCandidateTitle": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
                   "fingerprint": "db25c4aef3dc9ef6",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.tr.vtt",
+                  "transcriptFingerprint": "9013d1eb8739b56a"
                 }
               }
             }
@@ -3569,7 +3741,13 @@
                   "videoSearchScore": 6,
                   "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
                   "fingerprint": "671459f1d63c868d",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt",
+                  "transcriptFingerprint": "e0e330ee30a12087"
                 }
               }
             }
@@ -3607,7 +3785,13 @@
                   "videoSearchScore": 6,
                   "videoCandidateTitle": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
                   "fingerprint": "48b1354f19def983",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.tr.vtt",
+                  "transcriptFingerprint": "895c0a3f6faf371f"
                 }
               }
             }
@@ -3644,7 +3828,13 @@
                   "videoSearchScore": 6,
                   "videoCandidateTitle": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
                   "fingerprint": "7d9108520d029e77",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.tr.vtt",
+                  "transcriptFingerprint": "1aac0c26e1ac566f"
                 }
               }
             }
@@ -3718,7 +3908,13 @@
                   "videoSearchScore": 6.4,
                   "videoCandidateTitle": "İyonik Bileşiklerin Adlandırılması + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 17",
                   "fingerprint": "01045b488212f26b",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.tr.vtt",
+                  "transcriptFingerprint": "e17c90c0e4a30a86"
                 }
               }
             }
@@ -3899,7 +4095,13 @@
                   "videoSearchScore": 6.9,
                   "videoCandidateTitle": "Katılar ve özellikleri + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 21",
                   "fingerprint": "84f62ad4ac8e0821",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_14_katilar_ve_ozellikleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_14_katilar_ve_ozellikleri.tr.tr.vtt",
+                  "transcriptFingerprint": "384dfc22c8b7c3e0"
                 }
               }
             }
@@ -3985,7 +4187,13 @@
                   "videoSearchScore": 4.97,
                   "videoCandidateTitle": "Sürdürülebilirlik + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 27",
                   "fingerprint": "6a7ba1d36d3582d7",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik.tr.tr.vtt",
+                  "transcriptFingerprint": "91bb8e2321977640"
                 }
               }
             }
@@ -4362,11 +4570,17 @@
                   "sourceTopic": [
                     "Bilimsel Araştırma Süreçleri, Bilim Etiği"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": 10.4,
                   "videoCandidateTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
                   "fingerprint": "8fd84a825fd772f3",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
+                  "transcriptFingerprint": "768ae0dbf1fd24f0",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt"
                 }
               }
             }
@@ -4401,11 +4615,17 @@
                   "sourceTopic": [
                     "Canlıların Ortak Özellikleri (Hücresel Yapı, Organizasyon • Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma • Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": 15.2,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
                   "fingerprint": "a1dd1ac7352aab25",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+                  "transcriptFingerprint": "0243614dcf9148b2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt"
                 }
               }
             }
@@ -4443,7 +4663,13 @@
                   "videoSearchScore": 10.4,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
                   "fingerprint": "7902a9df4e886d4d",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.tr.vtt",
+                  "transcriptFingerprint": "95b1175967d50ac1"
                 }
               }
             }
@@ -4484,11 +4710,17 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 12. Ders: Organik Bileşikler - Karbohidratlar - 1",
                   "fingerprint": "8963e341905f3f05",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt",
+                  "transcriptFingerprint": "aa74139f85af8015",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.tr.vtt"
                 }
               }
             }
@@ -4529,11 +4761,17 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
                   "fingerprint": "898f8f9ae6d9a165",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
+                  "transcriptFingerprint": "a30bd103306267d1",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.tr.vtt"
                 }
               }
             }
@@ -4574,11 +4812,17 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
                   "fingerprint": "d1f521ced150fa0f",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
+                  "transcriptFingerprint": "b5ebaf2a8faa15c2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt"
                 }
               }
             }
@@ -4623,7 +4867,13 @@
                   "videoSearchScore": 13.4,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
                   "fingerprint": "b81fd384694d74b2",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.tr.vtt",
+                  "transcriptFingerprint": "a7e85c308adb2be2"
                 }
               }
             }
@@ -4668,7 +4918,13 @@
                   "videoSearchScore": 16.4,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
                   "fingerprint": "2b6a942450399aef",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.tr.vtt",
+                  "transcriptFingerprint": "22d93c8cd6749c93"
                 }
               }
             }
@@ -4713,7 +4969,13 @@
                   "videoSearchScore": 7.4,
                   "videoCandidateTitle": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
                   "fingerprint": "8b13c3e9e5c6d261",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.tr.vtt",
+                  "transcriptFingerprint": "17ad44db420bf034"
                 }
               }
             }
@@ -4740,7 +5002,7 @@
                   "sourceSection": "Hücre ve Organeller",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "6658bb39628f117a",
                   "sourceWeeks": [
                     27,
@@ -4749,7 +5011,13 @@
                   ],
                   "sourceTheme": "ORGANİZASYON",
                   "videoSearchScore": 6.97,
-                  "videoCandidateTitle": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+                  "videoCandidateTitle": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt",
+                  "transcriptFingerprint": "d7768ba742236519",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.tr.vtt"
                 },
                 "provider": "Dr. Biyoloji",
                 "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek"
@@ -4778,7 +5046,7 @@
                   "sourceSection": "Madde Geçişleri",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "ca2d5b60d2fc4dde",
                   "sourceWeeks": [
                     30,
@@ -4788,7 +5056,13 @@
                   ],
                   "sourceTheme": "ORGANİZASYON",
                   "videoSearchScore": 8.9,
-                  "videoCandidateTitle": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+                  "videoCandidateTitle": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_madde_gecisleri.tr.txt",
+                  "transcriptFingerprint": "c98e403564f34747",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=qRIoHv3K-cE",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_madde_gecisleri.tr.tr.vtt"
                 },
                 "provider": "Dr. Biyoloji",
                 "topic": "Hücre Zarından Madde Geçişleri"
@@ -4913,7 +5187,7 @@
                   "sourceSection": "Organik ve İnorganik Moleküller",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "d580c479ded4cda2",
                   "sourceWeeks": [
                     34,
@@ -4921,7 +5195,13 @@
                   ],
                   "sourceTheme": "ORGANİZASYON",
                   "videoSearchScore": 4.4,
-                  "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş"
+                  "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_organik_inorganik.tr.txt",
+                  "transcriptFingerprint": "1731a5bd1f88a777",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_organik_inorganik.tr.tr.vtt"
                 },
                 "provider": "Dr. Biyoloji",
                 "topic": "Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma"
@@ -5267,7 +5547,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "125e2f913b1573d6"
+                  "fingerprint": "125e2f913b1573d6",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.tr.vtt",
+                  "transcriptFingerprint": "79f3890b713032ec"
                 }
               }
             },
@@ -5377,7 +5663,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "8175e021fb9dcb69"
+                  "fingerprint": "8175e021fb9dcb69",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.tr.vtt",
+                  "transcriptFingerprint": "79f3890b713032ec"
                 }
               }
             },
@@ -5591,7 +5883,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "a3311f9cb2414371"
+                  "fingerprint": "a3311f9cb2414371",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.tr.vtt",
+                  "transcriptFingerprint": "32ccc8dd260d8ebe"
                 }
               }
             },
@@ -5701,7 +5999,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "36da09cd4e03a26f"
+                  "fingerprint": "36da09cd4e03a26f",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.tr.vtt",
+                  "transcriptFingerprint": "32ccc8dd260d8ebe"
                 }
               }
             },
@@ -6591,7 +6895,13 @@
                   ],
                   "sourceTheme": "COĞRAFYANIN DOĞASI",
                   "videoSearchScore": 10.4,
-                  "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+                  "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt",
+                  "transcriptFingerprint": "9c4e775068919daa"
                 },
                 "provider": "Coğrafyanın Kodları",
                 "topic": "Coğrafya Biliminin Konusu ve Bölümleri"
@@ -6790,7 +7100,13 @@
                   "videoSearchScore": 8.4,
                   "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
                   "fingerprint": "0dd5e53a8665206f",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.tr.vtt",
+                  "transcriptFingerprint": "514291f0451e6158"
                 }
               }
             }
@@ -6827,7 +7143,13 @@
                   "videoSearchScore": 8.4,
                   "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
                   "fingerprint": "b0a0f02fe19caf3e",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_03_cografya_biliminin_gelisimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_03_cografya_biliminin_gelisimi.tr.tr.vtt",
+                  "transcriptFingerprint": "514291f0451e6158"
                 }
               }
             }
@@ -6864,7 +7186,13 @@
                   ],
                   "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
                   "videoSearchScore": 4.4,
-                  "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+                  "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.tr.vtt",
+                  "transcriptFingerprint": "92ed5bed2a0c5a22"
                 },
                 "provider": "Coğrafyanın Kodları",
                 "topic": "Mekânın Aynası Haritalar"
@@ -6903,7 +7231,13 @@
                   "videoSearchScore": 9.6,
                   "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
                   "fingerprint": "eb36fc978686bf81",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.tr.vtt",
+                  "transcriptFingerprint": "b0e60d4115d77a24"
                 }
               }
             }
@@ -6940,7 +7274,13 @@
                   "videoSearchScore": 7.67,
                   "videoCandidateTitle": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
                   "fingerprint": "73a72eb43fb126d1",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.tr.vtt",
+                  "transcriptFingerprint": "e4c41fbce21b506c"
                 }
               }
             }
@@ -7314,7 +7654,13 @@
                   "videoSearchScore": 11.4,
                   "videoCandidateTitle": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "7c89d118619e73c1",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.tr.vtt",
+                  "transcriptFingerprint": "685ca31f6189386c"
                 }
               }
             }
@@ -7390,7 +7736,13 @@
                   "videoSearchScore": 4.79,
                   "videoCandidateTitle": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "15bdfeaccab4d735",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.tr.vtt",
+                  "transcriptFingerprint": "4cec61ccf59f829c"
                 }
               }
             }
@@ -7427,7 +7779,13 @@
                   "videoSearchScore": 6.07,
                   "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "22d4ef6a3284441f",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.tr.vtt",
+                  "transcriptFingerprint": "a9429fca5308feaa"
                 }
               }
             }
@@ -7462,7 +7820,13 @@
                   ],
                   "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
                   "videoSearchScore": 6.4,
-                  "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025"
+                  "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.tr.vtt",
+                  "transcriptFingerprint": "a9429fca5308feaa"
                 },
                 "provider": "Coğrafyanın Kodları",
                 "topic": "Afet Türleri"
@@ -7619,7 +7983,13 @@
                   "videoSearchScore": 6.07,
                   "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "c6a801b3b8500cff",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.tr.vtt",
+                  "transcriptFingerprint": "a9429fca5308feaa"
                 }
               }
             }
@@ -7657,7 +8027,13 @@
                   "videoSearchScore": 6.97,
                   "videoCandidateTitle": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "029f782d0a0fef1b",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.tr.vtt",
+                  "transcriptFingerprint": "34d7daa0f04f7cdc"
                 }
               }
             }
@@ -9136,7 +9512,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "9482d8d5961e7046"
+                  "fingerprint": "9482d8d5961e7046",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt",
+                  "transcriptFingerprint": "ce3abaffa6c6dffb"
                 }
               }
             },
@@ -9617,7 +9999,13 @@
                   "videoSearchScore": 5.4,
                   "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
                   "fingerprint": "aac4c29540832943",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             }
@@ -9733,7 +10121,13 @@
                   ],
                   "sourceTheme": "3.TEMA ANLAMIN YAPI TAŞLARI",
                   "videoSearchScore": 4.97,
-                  "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi"
+                  "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 },
                 "provider": "Rüştü Hoca ile Türkçe",
                 "topic": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı"

@@ -25,7 +25,13 @@
       "videoSearchScore": 9.6,
       "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
       "fingerprint": "eb36fc978686bf81",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.tr.vtt",
+      "transcriptFingerprint": "b0e60d4115d77a24"
     }
   }
 }

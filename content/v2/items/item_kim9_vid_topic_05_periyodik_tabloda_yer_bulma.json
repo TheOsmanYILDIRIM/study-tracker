@@ -25,7 +25,13 @@
       "videoSearchScore": 8.95,
       "videoCandidateTitle": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
       "fingerprint": "db25c4aef3dc9ef6",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.tr.vtt",
+      "transcriptFingerprint": "9013d1eb8739b56a"
     }
   }
 }

@@ -24,7 +24,13 @@
       ],
       "sourceTheme": "VERİDEN OLASILIĞA",
       "videoSearchScore": 8.9,
-      "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025"
+      "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.tr.vtt",
+      "transcriptFingerprint": "16557446b5eb8f90"
     },
     "provider": "Rehber Matematik",
     "topic": "Teorik Olasılık"

@@ -1,0 +1,1452 @@
+Yine yeni yeniden diyoruz. Yepyeni bir
+başlıkla yeniden karşındayım. Güzel
+arkadaşım 9. sınıf tayfa yeni marif
+modele en uygun şekilde konuları
+birlikte temizlemeye devam ediyoruz.
+Modül 1'i yani birinci temamızı
+bitirdik. Geldik ikinci temamıza. Belki
+de sizin yeni marif modeldeki en önemli
+konularınızdan birine geçiyoruz. Hatta
+belki falan değil ya çok net söylüyorum.
+Lise hayatınızın yeni muhalif modeldeki
+en önemli konusu nicelikler ve
+değişimlerdir. Yani diğer adıyla sizin
+daha böyle rahat alışabileceğiniz bir
+isimle fonksiyonlar, fonksiyonlar
+konusuna giriyoruz. Bu dersle birlikte
+artık fonksiyonların temelini atacağız
+ve fonksiyonları önümüzdeki 10, 11, 12
+sınıflarda da görmeye devam edeceğiz. Bu
+yüzden inanılmaz önemli olan bu konuda
+eğer burayı, bu temayı doğru bir
+şekilde, iyi bir şekilde anlarsan
+ilerleyen yıllarda da rahat edersin.
+Bunu sana çok net bir şekilde
+söyleyeyim. Şimdi modül bir bitirmiştik.
+Geldik artık modül 2'ye. Modül 2'miz
+çıktı. Kondisyon yayınlarından. Bu sene
+yine bu kitaptan ilerlemeye, modül 2'den
+ilerlemeye devam edeceğiz. Aşağıya
+linkini bırakıyorum. 130'lik bir fiyat
+etiketi var. Şu an itibariyle benim
+gördüğüm kadarıyla en ucuz ya da sen
+nerede bulabilirsen artık. İkinci modülü
+de tamamen birlikte baştan sona konu
+anlatımıyla, soru çözümüyle,
+ispatlarıyla, her şeyiyle beraber
+bitireceğiz. Anlaştık mı? Ne yapıyoruz?
+O zaman lafı daha fazla uzatmıyorum.
+Elimizde kalemler, önümüzde kitaplar,
+açtık ilk sayfayı dedik ki hocam gönder,
+gönder gelsin. Evet, ikinci temaya
+geçtik. Şimdi ikinci temada bizi neler
+bekliyor? Önce bir şöyle kısaca bir
+görelim konu başlıklarımızı, öğrenme
+çıktılarımızı. Öğrenme çıktılarının
+ardından da konumuza geçişi yapalım.
+Başlığın aslında genel adı nicelikler ve
+değişimlerdir. Ama eski müfredatta bu
+fonksiyonlar olarak adlandırıldığı için
+genel tabiriyle de hep fonksiyonlar
+kelimesini kullanacağımız için biz bu
+konuyu fonksiyonlar olarak da
+adlandırabiliriz. İlk olarak sana f(x) =
+x doğrusal referans fonksiyonunu
+anlatacağım. Referans almak diye bir şey
+vardır ya. Her şeyi ondan referans
+alarak türeteceğiz, üreteceğiz. 10.
+sınıfta da aslında yine f(x) = x, f(x) =
+x² referans fonksiyonları veriliyor ve
+onlardan 2. dereceden fonksiyonlar
+üretiliyor. Bizim şu anki tek derdimiz
+1. dereceden yani kısaca g(x) = a + ya
+da - f(x) + - - r + - k şeklindeki
+fonksiyonları beraber burada üreteceğiz.
+Doğrusal fonksiyondur özünde sadece
+bunlar. Buradaki harfler seni
+korkutmasın. Bununla ilgili bütün
+özellikleri, nitel özellikleri sana
+anlatacağım. öğrenme çıktımız bundan
+ibaret. He sonrasında neye geçeceğiz?
+Mutlak değerli doğrusal fonksiyonlara
+geçeceğiz. Orada da onları anlatacağım.
+Onların hepsiyle ilgili bilgileri
+vereceğim. En sonunda da doğrusal
+fonksiyonlarla ifade edilebilen denklem
+ve eşitsizliklerle içeren problemleri
+birlikte çözüp bu temaya da tıpkı
+birinci temada olduğu gibi noktayı
+koyacağız. Anlaştık mı? O zaman lafı
+daha fazla uzatmayalım. PDF çözüm için
+kare kodu okutabilirsin. Video çözümler
+için yine kare kodu okutabilirsin.
+İçindekiler kısmını gördün. O zaman
+hazır mıyız? Elimizde kalemler.
+Heyecanlı bir an. Gerçekten matematik
+adına 10. sınıf, 11. sınıf, 12. sınıf
+bütün lise hayatını etkileyecek
+matematik adına en önemli dönüm
+noktalarından birincisin. Anlaştık mı? O
+zaman başlığımız neydi hocam? Doğrusal
+fonksiyonlar demiştik. Doğrusal
+fonksiyonlarda ilk olarak doğrusal
+fonksiyonun tanımını görelim.
+Değişkenleri arasındaki ilişki doğrusal
+olan denklemlere doğrusal denklem adı
+verilir. Biz bunu aslında 8. sınıfta
+şöyle gördük. Evet, 8. sınıfta olan bir
+şeydi bu. Doğrusal denklemler başlığı
+adı altında 8. sınıfta şu anlatıldı.
+Nasıl anlatıldı hocam? A, B, C birer
+gerçek sayı olmak üzere elimize böyle
+bir denklem verildi. ax + by + c = 0
+aslında nedir? Bir doğrusal denklemdir.
+Ama 10. sınıfa geldiğinde biz buna bir
+tanım kümesi bulacağız. Bir görüntü
+kümesi bulacağız. Yani belli bir tanım
+ve görüntü kümesi adı altında bunu artık
+bir fonksiyon olarak nitelendireceğiz.
+Hocam fonksiyonlara geçiş buradan zor
+mu? Orada yaptığımız çizimlerin,
+grafiklerin aynılarını yapacağız. Tek
+fark gösterim şöyle değişecek. A ve B
+birer gerçek sayı. A0'dan farklı olmak
+üzere f(x) = ax + bçimindeki
+fonksiyonlara doğrusal fonksiyon adını
+vereceğiz. Hocam çok değişti aslında.
+Çok bir şey değişmedi. Burada y diye
+gördüğümüz ifade aşağıda kayboldu değil
+mi? Aslında kaybolmadı. Bizim gözümüzde
+y e= aslında f(x). f(x)'i de bundan
+sonra nasıl tanımladık? ax + b. Bu nasıl
+bir fonksiyonmuş? Doğrusal fonksiyonmuş.
+Bak henüz ağzımdan referans fonksiyonu
+tabiri çıkmadı. Çünkü daha onu vermedim.
+Önce doğrusal fonksiyonun tanımını
+yapıyorum. Doğrusal fonksiyon nereden
+geliyor? Doğrusal denklemlerden geliyor.
+Oradaki y ediliyor. Y daha doğrusu
+karşıya atılıyor falan. Denklem
+düzenleniyor. y = fx'tir özünde. O da
+eşittir ax + b. Peki hocam buradaki y =
+fx biçimindeki fonksiyonda tanımlanan
+fonksiyonda x'ler ne anlama geliyor? X
+ve Y aslında birer değişken ama burada
+bağımlı ve bağımsız değişkenler var. X
+değerleri bağımsız değişkendir. Yani
+kafasına göre değerler vereceğiz. Tabii
+kafasına göre değerler diyorum ama biz
+bunu tanım kümesi içerisinden seçeceğiz.
+X'e bağlıdır bizim Y değerlerimiz.
+Neden? X burada 1 ise Y'nin değeri başka
+çıkacak. X burada 2 ise Y'nin değeri
+başka çıkacak. Evet, Y değişiyor ama
+kime bağlı olarak değişiyor hocam? X'e
+bağlı olarak değişiyor. O halde X bizim
+için ne oldu? Bağımlı değişken oldu.
+Anlaştık mı buraya kadar? Güzel. Şimdi
+artık doğrusal referans fonksiyonunun
+denklemini, kuralını sana verebilirim
+arkadaş. Yine gerçek sayılar kümesi
+üzerinde tanımlı. Bu cümle önemlidir.
+Çünkü bu cümlenin değişmesi sorularda
+sorunun çözümünü de değiştirecek. Gerçek
+sayılar kümesi üzerinde tanımlı demek şu
+anlama geliyor. Biz bir fonksiyonda
+birazdan açıklayacağım sana ama şimdiden
+yazmakta fayda var. X'leri tanım
+kümesinden seçeceğiz. Bulduğumuz X'ler
+de görüntü kümesindeki Y'leri bize
+verecek. Eşleştirme mantığıyla bulacağız
+aslında. Şurada da y'ler var. X'leri
+alıp y'lerle eşleştiriyormuşuz gibi
+düşünebilirsin. Nasıl yani hocam? Az
+önce bak doğrusal fonksiyonun kuralını
+vermiştim. Mesela 2x + 1 olsun. Ben
+burada x yerine 1 yazarsam hocam f1
+dediğim değer ne gelecek? X yerine 1
+yazdın cevap 3 geldi. Aslında f'ler de
+neye eşitti? Y'lere. Demek ki y değeri
+ne geldi? 3. X yerine 1 yazınca Y'miz ne
+geldi? 3. Aslında ben 1 ile 3'ü
+eşleştirmiş oldum. Bu şekilde
+tanımladım. bana gerçek sayılar kümesi
+üzerinde tanımlıdır dediğinde aslında
+şunu söylemeye çalışıyor. X'leri diyor
+gerçek sayılar kümesinden seç. Reel
+sayılar kümesinden seç. Bunun üzerinde
+tanımlıdır demek daha başka ekstra cümle
+kurmuyorsa demek ki görüntü kümesinin
+elemanları da yine reel sayılardan
+çıkacaktır anlamına geliyor. Ama şimdi
+geldim doğrusal referans fonksiyonuna.
+Normalde doğrusal fonksiyon nasıl
+yazılıyordu? f(x) = ax + b şeklinde
+yazılıyordu. Sadece f(x) = x yazarsam
+sana bu doğrusal referans fonksiyonudur.
+Bütün doğrusal fonksiyonlar f(x) = x'ten
+faydalanılarak üretilir." Bak ne diyor
+burada. "Diğer tüm fonksiyonların f(x) =
+x referans fonksiyonu yardımıyla
+cevirsel gösterimleri, nitelikleri ve
+nitel özellikleri belirlenir." Şimdi ilk
+defa burada geçen ne var? Nitel
+özellikler var. Bir fonksiyonun nitel
+özellikleri dediğimizde neler geliyor
+aklımıza? Hemen onları görelim. Bunları
+da tek başlıklar altında ben sana
+işleyeceğim. Hiç kafanda soru işareti
+olmasın. Neleri öğreneceğimizin aslında
+bir nevi başlıklarını sıralıyorum sana
+burada. Bir tanım kümesi. Az önce biraz
+bahsetmiştim. Daha detaylı bahsedeceğiz.
+Görüntü kümesi. Az önce bahsetmiştim.
+İşareti. Bir fonksiyonun işareti vardır.
+Pozitif olduğu, negatif olduğu, 0 olduğu
+yerler vardır. Artan ya da azalan olduğu
+yerler vardır. Bir fonksiyonun maksimum
+minimum noktaları olabilir. İlla vardır
+diye bir kural yok. Sıfırları vardır.
+Evet. bir fonksiyonun 0'ı olabilir. X
+eksenini kestiği noktalar diyeceğiz.
+Onları da anlatacağım sebebini. Ve bir
+fonksiyonun birebirliğinden
+bahsettiğimizde aslında o referans
+fonksiyonun nitel özelliklerinden
+bahsetmiş olacağız ve bunların hepsini
+bu ders içinde öğrenmeye devam edeceğiz.
+Şimdi öğrendiğimiz kadarıyla acaba biz
+soru çözebilir miyiz hocam dediğinde çok
+temel haliyle bir tane soruya bakalım.
+Birim zamanda eşit işlem kapasitesine
+sahip bir bilgisayarın zamana bağlı
+bilgi yükleme işlemini gösteren
+fonksiyonun değer tablosunun bazı
+yerleri boş kalmıştır. X dakikayı
+veriyor. f(x) de gab'ları veriyor bana.
+Tamam mı? Yani x'leri alacağım. Bir f(x)
+değeri elde edeceğim. Elde ettiğim f(x)
+değeri nasıl işliyormuş? Aslında kural
+zaman geçiyor. Bu zamanda da eşit işlem
+kapasitesini gösteriyor bize. Örneğin 0
+dakikada kaç gigab işlem yapıyor? 0 GB
+geldim. 2 dakikanın sonunda birim
+zamanda eşit kapasitede işlem yapıyorsa
+demek ki 2ci dakikanın sonunda 2 GB'lık
+işlem yapar. Bu arada bu gigab diye
+okunuyor ha. Teknoloji kanallarını iyi
+takip ederim. Orada doğru okunuşunu
+orada söylemişlerdi. Örneğin 4 dakikada
+kaç gigab'lık işlem yaparsın hocam? Bire
+bir ilerliyorlar. Yani 4E 4. Misal 6'ya
+6 8e 8. O halde 10 dakikada kaç
+gigab'lık işlem yapıyorum? 10 GB'lık.
+Hiç kafanda zorlaştırma. İnanılmaz
+kolaydır aslında doğrusal referans
+fonksiyonu. Burayı anladıktan sonra
+geçiş önemli. Diğerlerini tabloda boş
+bırakılan yerleri doldurunuz. Doldurduk.
+Fonksiyonun cebirsel gösterimini
+yazınız. Bir fonksiyonun doğrusal
+fonksiyonun cebirsel gösterimi nedir?
+f(x) = ax + b şeklindedir. Bu neydi?
+Doğrusal fonksiyonun cebirsel gösterimi.
+Ama bana verilen fonksiyonda x'e ne
+yazarsam cevap y'de de aynı mı çıkıyor?
+ya da f(x)'in cevabı da aynı mı çıkıyor?
+Aynı çıkıyor. O zaman bu fonksiyon
+aslında nasıl bir fonksiyon? Doğrusal
+referans fonksiyonudur. O zaman nasıl
+ifade edilebilir hocam? f(x) = x
+şeklinde ifade edilmelidir. Niye?
+Örneğin ben x yerine 0 yazdığımda f(0)
+cevabı ne çıktı? 0. X yerine 1
+yazdığımda F1'in cevabı ne çıktı? 1. X
+yerine mesela ne yazmış? 6 yazmış. 6
+yazdığımda cevap ne çıktı hocam? 6.
+Dikkat edersen x değeri neyse elde
+ettiğim karşılığındaki cevap da o değeri
+oldu. Güzel. Şimdi başlangıçta hafıza
+tamamen boş olan 12 GB hafızalı bu
+bilgisayarın bilgi yükleme işlemini
+temsil eden fonksiyonun grafiğini
+çiziniz. Hocam dur ne yapıyorsun? Ne ara
+grafiğe geldik falan deme. Aslında
+doğrusal fonksiyonların grafiklerini
+doğrusal denklem adı altında nerede
+görmüştük? Dedim ya 8. sınıfta
+görmüştük. Yine benzer şeyi yapacağım. O
+zaman ne yapıyorum? Koordinat düzlemini
+çiziyorum. Y eksenini çizdim. Geldim x
+eksenini çizdim. Benim için önemli olan
+şey önce noktaları belirlemek. Mesela
+bak 0a 0 f(x)'i neye eşitlemiştik? Y'ye.
+Aslında burası bir koordinat düzleminde
+nokta belirtir. 0a 0 noktası. Burası
+koordinat düzleminde bir nokta belirtir.
+2'ye 2, 4e 4 6'ya 6 8'e 8 gibi. 10'a 10
+gibi. Doğru mudur? Peki biz 12 GB
+hafızalı yani maksimum 12'ye kadar
+gitmemi istiyor. O zaman geldim dedim ki
+hocam bak 1in karşılığında cevap ne
+olacak? 1 noktayı koydum. Geldim. 2'nin
+karşılığında cevap ne olacak hocam? 2
+noktayı koydum. Nokta nokta nokta
+diyelim ki 12'ye kadar geldiğimizi
+varsayalım. 12'ye geldiğimizde 12'nin
+karşısındaki nokta hadi tam şuraya denk
+getireyim de daha şık gözüksün görüntü.
+Şurası da 12 olsun arkadaşım. 12'ye
+karşılık gelen noktalar burası mı
+olacak? E hocam aradaki yerleri
+işaretlemeyecek misin? Aslında birim
+zamanda eşit işlem kapasite yapılıyorsa
+örneğin 0la 2 arasındaki tüm gerçek
+sayılarda da tam karşılığındaki
+değerleri almayacak mı bu fonksiyon?
+Alacak. O halde grafiği çizerken
+doğrusal bir şekilde bak bu şekilde
+gittim ama nerede durmasını bilmeliyim?
+12'de durmasını bilmeliyim. Nereden
+başladım? 0'dan başladım. Olay bu kadar.
+Bak çizdiğimiz bu grafik kime aittir?
+Yukarıda yazdığımız f(x) = x'e aittir.
+Ama sınırları olan bir fonksiyon bu.
+0'dan başladım 12'nin hizasında
+bıraktım. Birazdan bu sınırların tanım
+ve görüntü kümesi ile ilişkili olduğunu
+da anlayacağız ama sorular üzerinden
+öğreneceğiz bazı şeyleri. Şimdi bakalım
+gerçekten bir şeyler öğrendik mi? Bir
+ayakkabı firmasının dakikada bir çift
+ayakkabı ürettiği biliniyor. Çalışma
+süresine dakika x'ler. Üretilen ayakkabı
+çiftlerine f(x) diyelim. Hatta
+f(x)'lerin neye eşit olduğunu asla
+kafandan çıkarmıyorsun. Y'lere yani
+koordinat düzleminde gösterirken F diye
+bulduğum bütün o değerler aslında senin
+için Y değerlidir. Bu firmanın üretimi
+ile ilgili elde edilen doğrusal
+fonksiyonun grafiği aşağıdaymış. Gel
+kontrol edelim. Üretilen ayakkabı çifti
+yani y değerleri. Bak doğru yere
+yazmışım. Aslında burası y ekseniydi
+zaten. Çalışılan süre aslında burası
+neydi? X ekseniydi. Örneğin sen 20
+dakikanın sonunda grafiğe baktığımda ona
+karşılık gelen noktayı tespit ettiğinde
+cevap ne olmalı? Hocam nereden bileyim?
+Elimde denklem falan yok deme. Aslında
+başta yazıyor. Bir ayakkabı firmasının
+bir dakikada bir çift ayakkabı ürettiği
+biliniyor ve doğrusal olarak bu şekilde
+devam ediyor. Bunun Türkçe karşılığı
+şudur arkadaş. 1 dakikada bir çift
+ayakkabı üretiyor. Devam ediyorum. 2
+dakikada 2 çift ayakkabı üretiyor. Nokta
+nokta 10 dakikada kaç çift ayakkabı
+üretir? Mantıken 10 tane çift ayakkabı
+üretir. Devam ettim hocam. 20 dakikaya
+geldim. 20 dakikada 20 çift ayakkabı
+üretmez mi? Süpersin. O zaman ne
+diyorum? A'nın cevabı kesinlikle 20.
+Hocam inanılmaz kolay. Mantığı anladın
+değil mi? 70 dakikada kaç çift ayakkabı
+üretirsin? E mantıken 70 çift ayakkabı
+üretirsin. Geldim 100 dakikada kaç çift
+ayakkabı üretirsin? 100 çift ayakkabı
+üretirsin. Biz aslında grafiği
+yorumladık ama aşağıdaki soruya bakalım.
+Fonksiyonun cebirsel gösterimi yazar
+mısınız? doğrusal fonksiyon olarak
+ilerliyor. 1e 1, 2'ye 2, 10a 10, 20'ye
+20 şeklinde gidiyorsa bu fonksiyon bizim
+bildiğimiz doğrusal referans fonksiyonu
+şeklinde gösterilir. Bu neydi? Bir daha
+yaz. Doğrusal referans fonksiyonu.
+Referans
+fonksiyonudur bu. Anlaştık mı? O
+fonksiyonun kuralını verdim ben sana.
+Şimdi soru benden a + b + c'nin
+toplamında istiyor. Onu da buluruz. 100
++ 70 + 20'yi de aldığımda şuranın
+toplamı ne yaptı? 90. 100ile
+topladığımda cevabımız ne yaptı? 190
+yaptı. O halde doğru cevabım A + B + C
+ne olacaktır? 190 olacaktır. Vurdum
+cevabı. Bu sayfada kafama takılan bazı
+noktalar olabilir. Çok normal. Konuya
+daha yeni başladık. Bazı kavramları
+henüz tam olarak vermedik. Hepsini
+ilerleyen süreçte veriyorum. Adım adım
+bu dersin içinde bitireceğim. Rahat ol
+tabii. Ama önce konuya seni bir
+ısındıracak sorularla bir başlamam
+lazım. Bir spor salonundaki koşu bandı
+sporcunun koştuğu süreye göre harcadığı
+kalori miktarını doğrusal olarak
+ölçmüştür. Ha normal durumda bu cihazın
+yazılımında kullanılan fonksiyon f(x) =
+x doğrusal referans fonksiyonudur. Doğru
+mu? Yani şunu söylemeye çalışıyor.
+Sporcunun koştuğu süreyi kaloriyle
+oranlıyor. Yani 1 dakika koştuysa bu
+arkadaş bir kalori yakacaktır. Kalori
+yakacaktır. 2 dakika koştuysa 2 kalori
+yakması lazım. Mantıken böyle ilerlemesi
+lazım. Doğru mudur? Ama soruda bize bunu
+sormuyor. Bu fonksiyonda x koşulu süreyi
+f(x) ise ekranda gösterilen yakılan
+kaloriyi gösteriliyor. Yani benim burada
+dakika diye yazdıklarım x'tir. Kaloriler
+nelerdir? f(x)'lerdir. Süper. FX'lerin
+hepsi de y'ye eşitti. Biliyorum
+cihazdaki hatadan kaynaklı cihaz
+hatalıymış. 15 dakika koşan bir
+sporcunun yaktığı kalori 5 olarak
+hesaplanmış. Bir dakika bunu yazalım. 15
+dakikanın sonunda kaç kalori yakmış? 5
+kalori yakmış. Tamam mıyız? Devam ettim.
+21 dakika koşunun sonunda kaç kalori
+yakmış hocam? 7 kalori yakmış. Süper.
+Bunu da anladık. Devam ediyor soru. Buna
+göre yakılan gerçek kaloriyi ekranda
+göstermek için fonksiyon nasıl
+güncellenmelidir? Normalde böyle
+ilerleseydi benim fonksiyonumun
+gösterimi ne olmalıydı? f(x) = x
+olmalıydı. Ama ne oluyor? Ben x yerine
+hocam 15 yazdığımda f(x)'in cevabı ne
+çıkmış?
+5 çıkmış. Peki bir düşün bakalım kaçta
+kaçıdır hocam? 3'e bölmüşüz aslında
+değil mi? Peki bu durum bütün durumlar
+için devam ediyor mu? Kontrol ediyorum.
+21 dakikanın sonunda kaça çıkmış kalori
+yakımı? 7'ye çıkmış. Aslında yine
+harcanan sürenin kaçta kaçı yakmışım?
+1/çte bir yakmışım. Peki gel. Gerçekten
+anlayıp anlamadığımızı şu an ölçeceğimiz
+noktadayız. Yeni bir fonksiyon
+tanımlıyorum. Bu fonksiyon çünkü
+bozulmuş diyor bu makine ve farklı
+biçimde yakmaya başlamış. Normalde fx =
+x şeklinde yakmasını bekliyorduk. Yani
+1e 1, 2'ye 2, 10'a 10, 15'e 15 gibi ama
+1/te bir yakmış. Yani her bir x'in
+1/3te'i kadar yakabiliyor. Misal ben
+buraya gelsem 30 dakikanın sonunda ne
+kadar kalori yaktı diye sana sorsam
+artık güncel fonksiyonda yerine yazmak
+zorundasın. Gx yerine 10 yazdım. Cevap
+Eş 30/3'ten pardon 30 için kontrol
+ediyorduk. 30 dakikanın sonunda 30/3'ten
+kaç kalori yaktığını anlıyorum. He hocam
+10 kalori yakmış bu arkadaş. Çünkü bu
+fonksiyon bozulmuş ya da makine
+bozulmuş. Fonksiyon bozulur mu? Kuralı
+bu şekilde güncellenmelidir.
+Bak ne yaptım? Referans fonksiyonundan
+yeni bir fonksiyon elde ettim. Onu
+referans alarak 1/çte birine götürdü
+hep. O zaman f(x) = x değil de g(x) =
+x/3 şeklinde bir fonksiyon tanımlanmış
+burada. Devam. Şimdi artık yavaş yavaş
+referans fonksiyonunu ayrıntılarına
+girmeye başlıyoruz. İlk olarak
+fonksiyonlarda bağımlı değişken bağımsız
+değişkenin aldığı değerlere göre
+değişir. Bunu söylemiştik. Burada
+x'lerimiz neydi? Bağımsız değişkenlerdi.
+Y'lerimiz ya da diğer adıyla
+f(x)'lerimiz neydi? Bağımlı
+değişkenlerimizdi. Kime bağlıydı? X'e
+bağlı değerler alıyordu. Ki bizim
+referans fonksiyonumuz kimdi? y = f(x) o
+da eş x. Referans fonksiyonunda bağımsız
+değişkenler x, bağımlı değişkenler y =
+f(x)'lerdi. 1 yazdığımda 1'i, 2
+yazdığımda 2, 3 yazdığımda beni nereye
+götürüyor? 3'e götürüyor. O halde ben bu
+referans fonksiyonunun grafiğini
+çizebilir miyim? Gel burada ben grafiği
+çözeyim. Yine hani bazı acele eden
+arkadaşlar olacaktır. Hocam grafiği daha
+böyle ayrıntı çizeceğim. Hepsini
+çizeceğim ama adım adım ilerliyoruz.
+Hocam 1de nereye gidiyorsun? 1'e
+gidiyorsun. 2'de nereye gidiyorsun?
+Dikkat et. 2'ye gidiyorsun. Bak tek tek
+noktaları gösteriyorum. 3'te nereye
+gidiyorsun? 3'e gidiyorsun. Doğru mudur?
+Eğer ki ben bütün reel sayılarda
+çalışıyorsam yani x yerine istediğim
+değeri verebiliyorsam evet bu noktalar
+üzerindeki her şeyi alabilirim ama bu
+noktalardan daha küçük hatta negatif
+değerler de alabilirim. Aslında referans
+fonksiyonunun grafiği f(x) = x'in
+grafiği bu şekildedir. Birazdan bunun
+ayrıntısını göreceğiz ama referans
+fonksiyonunun nasıl gözüktüğü ile ilgili
+burada fikir sahibi olduk. Şimdi altta
+sorumuz yoktu değil mi? Yoktu. Geldim 4.
+soruya. Sen doğrusal referans
+fonksiyonunun kuralı nedir dediğimde
+direkt bana şunu yazabiliyorsan buradaki
+soruları çok rahat çözeceğiz. Şimdi
+doğrusal referans fonksiyonu dediğimizde
+referans ama doğrusal bu önemli. Çünkü
+başka fonksiyonların da referansı var.
+Doğrusal referans
+fonksiyonu yazdığımda senin bana sadece
+şunu yazabilmen yeterli. f(x) = x'e
+benzemek zorunda. Hocam şimdi bak
+soruya. Gerçek sayılar kümesi üzerinde
+tanımla. Mehmet hoca söylemişti. Her
+fonksiyonun bir tanım kümesi olması
+lazımdı. Bir de görüntü kümesi olması
+lazımdı. Tanım kümesine x'leri, görüntü
+kümesine y'leri yazıyorduk. reel
+sayılarda, gerçek sayılarda tanımlı
+dediği andan itibaren aslında reel
+sayıları reel sayılarla eşleştiriyorum
+demektir. f(x) = a + 3 x x fonksiyonu
+nasıl bir fonksiyonmuş? Doğrusal
+referans fonksiyonuymuş. Buna göre a
+değeri kaçtır? Arkadaş doğrusal referans
+fonksiyonu kime benzemek zorundaydı?
+f(x) = x'e benzemek zorundaydı. X'in
+önündeki buradaki katsayı kaç? Biz
+görmesek bile her daim 1. Madem bu
+fonksiyon bununla aynı fonksiyon o zaman
+ben şunu söylerim. Hocam benim
+fonksiyonum ki bana verilen burada a + 3
+x x aslında orada ne yazıyor? 1 x x
+yazıyor. Yani x'in önündeki katsayı
+kesinlikle kaç olabilmek zorunda? Olmak
+zorunda. 1 olmak zorunda. A + 3'ü 1'e
+eşitlersem demek ki a yerine kaç
+yazmalıyım? 1 - 3'ten cevabım ne geldi?
+-2 geldi. Eğer referans fonksiyonun
+tanımı ile ilgili bir soru gelirse o
+soru buna benzeyebilir. A kolay bir soru
+ama gel biraz zorlaştıralım o soruyu.
+Öyle kolay sorularla olmaz. Yine gerçel
+sayılar kümesi üzerinde tanımla.
+Mantığını anlattım. Gerçel sayıların
+birazdan o tanım görüntü kümeleri
+anlatacağım kızı. Sakin sakin
+anlatacağım. Şimdi soruda şu cümle
+kesinlikle geçmek zorunda bizim
+çözebilmemiz için. y = f(x) doğrusal
+referans fonksiyonu biçiminde
+tanımlanıyor. Eğer doğrusal referans
+fonksiyonu diyorsa o fonksiyon
+kesinlikle ama kesinlikle buna benzemek
+zorunda. Buna göre FA, FB - FC
+değerlerini bul. Mesela ben hep
+söylüyorum ya matematik tanımla yapılır.
+Eğer tanımı bilmiyorsa bir öğrenci
+istediğin kadar iyi matematik bilir.
+Dört işlem bilamazsın bu soruyu. Ama ben
+tanımı biliyorum. Şimdi bakıyorum. Bu
+fonksiyon buna benziyor mu? Allah aşkına
+benzemiyor değil mi? Neden benzemiyor
+hocam? Senin fonksiyonunun içerisinde
+x²are var. O tarafta yok. O zaman
+buradaki x²eden kurtul. Matematikte
+buradaki x²eden kurtulmak istiyorsan
+eğer ki önüde değişken değerler
+alabiliyorsa demek ki aslında 0'la
+çarpıyorum. Neden? fx = 0 x x² ne
+demektir? gitti demektir. Burası 0 oldu
+demektir. Kurtuldun ondan demektir. O
+halde aslında soru bana a - 2'nin 0'a
+eşit olduğunu yazmamı istiyor. Buradan
+a'yı 2 olarak bulmamı istiyor. Bunu
+anladık mı? Devam. Hocam benim elimde b
++ 1 x x var. X terimi oluyor muydu?
+Oluyordu. Ama önündeki katsayı kaç olmak
+zorundaydı? 1. O halde benim burada x'in
+önündeki katsayıyı kaça eşitlemem
+gerekiyor? 1'e. b + 1 neye eşit olmalı?
+Hop! 0'a değil 1'e eşit olmalı. 1'i at
+karşıya. Demek ki B'nin cevabı neymiş
+hocam? 0mış. Anladık mı B'yi de?
+Anladık. Geldim hocam. Bu ne böyle? Bu
+sabit değerdir. Yanında x'li mixli terim
+var mı? Yok. Misal ben bu fonksiyonun
+sonuna + 0 yazsam fonksiyonun işlemin
+sonucu kuralı değişir mi? Değişmez.
+Demek ki ben bu 0ı eşitlersem burayı
+buradaki c -3'ten kurtulurum. Benim tek
+derdim. Eğer ki bu doğrusal referans
+fonksiyonuysa buna benzetmek. Benzetmek
+için elimden geleni yaptım. Dedim ki
+hocam demek ki buradaki C -3 değeri de
+0'a eşit. C'nin de değeri 3 gelmek
+zorunda. Mesela bak bu değerleri yerine
+yazayım mı sana göstereyim? Biraz
+uzatıyorum ama olsun. 2 - 2 a yerine 2
+yazdım. X x² + b yerine ne yazdık? 0
+yazdık. 0 + 1 x x + c yerine 3 yazdık.
+Yanında x3 var. Gerçekten kontrol
+ediyorum hocam. Bak burası 0 geldi. 0'la
+çarptığım için burası 0 oldu. Yani
+burası komple gitti. Buradan sadece 1x
+geldi. 3'ten 3 çıktı 0 kaldı. Son halini
+yazıyorum. f(x) = x. Benzedi mi? Benzedi
+ama soru benden bunu istemiyor. F2'yi
+bul diyor. A yerine 2 yazıyorum. Şurada
+FA'yı bulacağım. F2 oldu. Referans
+fonksiyonu herkesi kime götürüyor?
+Aslında kendine götürüyor. F2'nin cevabı
+2ymiş. Geldim. B yerine 0 yazıyorum. B
+yerine 0 yazarsam F0'ın cevabı ne gelir?
+0. Referans fonksiyonunda 0 0'a gider.
+Güzel. Geldim. C yerine 3 yazıyorum. O
+da beni nereye götürecek? F3'e. F3'ün
+cevabı nedir? 3'tür. Soru tüm bunların
+bizden toplamını işte farkını falan
+istiyor. Onları bir yazalım bakalım. 2 +
+0. Bak 2'yi buldum. 0'ı buldum. 3'ü
+buldum. İşlemi yaptığımda cevap tamam.
+Ekki ver1 geldi. Bence olay bu soruyla
+tam olarak anlaşıldı. Anlaşıldı. Ama ya
+farklı soru gelirse arkadaş her soru
+tipine hazırlıklı olmalıyız. İşte burada
+da tam da o var. 6. örnekteyim. Analitik
+düzlemde f(x) doğrusal bir fonksiyon ama
+doğrusal olması yetmez. Eksik kalır.
+Doğrusal referans fonksiyonunun grafiği
+üzerinde verilen iki noktaymış. Şimdi
+aşağıda bir nokta verilmiş. Doğrusal
+referans fonksiyonunun üzerinde dediği
+an kimin üzerinde aslında bu hocam? f(x)
+= x'in üzerinde. Bunu anladın mı?
+Aslında f(x) dediğinde her ifadede ne
+vardır? Y vardır. Aslında bak buranın
+Türkçe karşılığı ne oldu biliyor musun?
+X e= ne çıktı? Y çıktı. Güzel.
+Ben bu doğrusal referans fonksiyonunun
+üzerinde bir nokta alıyorum. Doğrusal
+referans fonksiyonunun tahmini grafiğini
+çiziyoruz. Hatırla şöyle çizmiştim. Ahan
+da böyle. f(x) = x. Bunun üzerinde
+aldığın bütün noktalar için örneğin
+hocam bu noktada m yazıyorsa M
+yazmayayım hadi kafalar karışmasın
+yukarıdakiyle K yazıyorsa buna karşılık
+gelen Y değeri de kesinlikle ne olmalı?
+K olmalı. Bak bu fonksiyonun grafiği
+üzerinde A noktası aldım. A noktasının
+x'i de y'si de birbirine ne çıkmak
+zorunda? Eşit çıkmak zorunda. Ben bu
+mantığı öğrenirsem bu soruyu çözerim.
+Hocam bu doğrusal referans fonksiyonun
+üzerinde bir noktaysa verilen şu değer x
+değeridir. Şu değer y değeridir. Aslında
+x ile y'nin ne olması gerekir? Eşit
+olması gerekir ki bu doğrusal referans
+fonksiyonunun üzerinde bir nokta olsun.
+M + 3 = 7 - m. M'yi bu tarafa aldım. 2m
+3'ü karşıya attım. Her tarafı 2'ye
+böldüm. M'nin cevabı 2. Geldim tekrardan
+B noktası da grafik üzerindeymiş. O
+halde bunlar x değeri, bunlar y değeri.
+Çok net biliyorum ki 3m - n değeri m +
+3n'ye eşit olacak. Ben bir önce m'leri
+bir tarafa taşıyayım. N'leri bir tarafa
+taşıyayım. Burada ne elde ettim? 4 tane
+n elde ettim. Burada ne elde ettim? 2
+tane m elde ettim. Biz m'yi ne
+bulmuştuk? 2. 2 x 2 = 4 x n'yile
+karşının tamamı sadeleşti. O zaman n'nin
+cevabına ne kaldı? 1 kaldı. Fakat soru
+benden FM + N'yi soruyor. Bak, FM + N.
+M'yi ne buldun? 2 buldun. N'yi ne
+buldun? 1 buldun. Soru aslında hepsini
+geçtim kenara. Soru sana F3'ü soruyor.
+Fonksiyonu doğrusal referans
+fonksiyonuysa x yerine ne yazarsan yaz
+cevap ne çıkacak? Oradaki değerin ta
+kendisi çıkmak zorunda. O halde F3'ün
+cevabı da F3'e eşit olmak zorundadır.
+Bence konu net şekilde anlaşılıyor. Sen
+de şimdi modül fasikülünde 4. sayfa
+bitti. Tek ne yapıyorduk? Bütün
+sayfalara tik atıyorduk seninle
+birlikte. O tikleri atmaya devam
+ediyoruz. Geldim 7. soruya. Bakalım
+öğreniyor muyuz? Bir lise robotik
+kulübün Allah ekranım karardı benim. Bir
+saniye. Bir lise robotik kulübünün
+tasarladığı robotla ilgili aşağıdakiler
+bilinmektedir. Robot sabit hızla hareket
+ediyor. Hızı sürekli değişken değil.
+Sabit bir hızla gidiyor. Dakikada 1
+metre yol alıyor. Bu cümle bence önemli.
+Sabit hızla gidiyor ve dakikada 1 metre
+yol alıyorsa örneğin 1 dakikada kaç
+metre yol alır? 1 metre yol alır. 2
+dakikaya geldiğimizde kaç metre yol
+almış olur? 2 metre. Nokta nokta. Hocam
+10 dakikaya geldik. Kaç metre yol alır?
+10 metre yol alır. Tamam bunları yazdım.
+Tam dolu batarya ile robot 20 dakika
+hareket edebiliyormuş. Bu da önemli bir
+nokta. Geldiği son yer neresi? 20
+dakika. 20 dakikanın sonunda aslında kaç
+metre yol alacak? 20 metre yol alacak.
+Buna göre soruları gel beraber
+cevaplayalım. Şimdi robotun hareketi
+fonksiyon olarak modelleyip C1 ile
+yazınız. Robotun hareketine baktığımda
+1'e 1, 2'ye 2, 10'a 10 20'ye 20 şeklinde
+gidiyor ya. Her seferinde x'e ne
+verirsem ki bunlar benim x'lerimdi.
+Bunlar benim fx'lerimdi. Aslında
+f(x)'ler de y'ye eşitti. X'ler y'lere
+eşit çıkıyor. Aslında bu da nedir?
+Doğrusal referans fonksiyonunun ta
+kendisidir. Demek ki f(x) kime eşit
+olacak? X'e eşit olacak. Burayı anladık
+mı? Doğrusal referans fonksiyonunu
+anlatmaya çalışmış. Yukarıdaki
+problemde. Bana ben modelledim onu.
+Kuralını oluşturdum. Şimdi bu kuraldan
+yola çıkarak diyor ki bana aşağıda
+tabloda boş bırakılan yerleri bağımsız
+değişken x süre olmak üzere bağımlı
+değişken f(x)'ler yol olmak üzere bu
+değerleri doldurunuz" diyor. Biz de keza
+zaten öyle kabul etmiştik. Dikkat et.
+Burada x'leri dakika süre kabul
+etmiştik. Burada da metre olarak yani
+yol olarak kabul etmiştik. Şimdi sen
+fonksiyonun ne olduğunu biliyorsun.
+Kuralını biliyorsun. X yerine 0 yazarsan
+f(x)'in cevabı ne çıkar? 0. X yerine 2
+yazarsan cevap ne çıkar? 2. 7/2 yazarsan
+ne çıkar? 7/2. Hocam böyle yarımlı
+buçuklu bütün reel sayıları
+verebilirsin. Özel olarak söylemediyse.
+Tamam mı? Bütün reel sayıları vereceğiz.
+Doğrusal referans fonksiyonunda geldim.
+9. Eğer bak burası kritik hocam aslında
+f(x)'in cevabı ne gelmiş? 9. Cevabı 9sa
+yani 9 metre yol alıyorsa bunu kaç
+dakikada alır hocam? 9 dakikada alır.
+X'ini bulmamı istemiş. Terse gittik.
+Peki 12 dakikada kaç metre yol alır? 12
+met. 20 metre yol aldığına göre kaç
+dakika yol almıştır? 20 dakika. Tüm bu
+tabloyu böylelikle doldurdum. Yola
+devam. Fonksiyonun cebirsel gösterimi ve
+doldurduğunuz tablo yardımıyla
+fonksiyonun grafiğini analitik düzlemde
+çiziniz. Şimdi burada doğrusal referans
+fonksiyonunu çizeceğim ama doğrusal
+referans fonksiyonu nerede tanımlıydı?
+Normal şartlarda hocam bütün gerçek
+sayılarda tanımlıydı. Yani x yerine ne
+istersen yazabiliyordun. Ona da karşılık
+yerleri bu grafik üzerinde buluyorduk.
+Bak, fonksiyonun grafiği üzeri
+noktalardan oluşur. Sonsuz tane noktalar
+kümesinden oluşuyor. O noktaların her
+birini temsilen f(x) e= x'i
+kullanıyorum. Doğrusal referans
+fonksiyonunda. Anlaştık mı? Şimdi benim
+doğrusal referans fonksiyonum nereden
+başlayacak? -3 dakika diye bir tabiri
+var mı? Yok. 0'dan başladı. 1ci dakikaya
+geldiğimde 1 metre yol aldığımda nereye
+geldim? F1'e geldim. 20 metre yol
+aldığımda aslında nereye gelmiştim? 20
+dakikaya gelmiştim. Doğru mu? Demek ki
+en son varacağım nokta da burası olacak.
+Bak siyahla göstereyim bu sefer grafiğim
+aslında bu kadarcık. Siyahla gösterdiğim
+grafik benim grafiğimdir. Geçtiği
+noktalar göstersen de göstermesen de
+önemli değil ama bitiş noktalarını
+göstermek zorundayım. Bu da benim f(x) =
+x kuralıyla gösterdiğim fonksiyonumdur.
+Anlaştık mı? Şimdi birazdan tanımlarını
+vereceğim şeye ufaktan soruyla giriş
+yapıyoruz. Tam da yeni marif modelin
+bizden istediği gibi. Nasıl bir soru
+hocam? Fonksiyonun hangi bağımsız
+değişkeni için? Bağımsız değişken demek
+unutmuyorsun. X'ler demekti. Hangi
+bağımsız değişkeni için 0a eşit olduğunu
+bulunuz. Bak hangi bağımsız değişken
+bilmiyorum ama cevabın ne gelmesini
+istiyorum? 0. Peki bunun anlamı neydi?
+Metreydi değil mi? Şu taraf metreydi. Şu
+taraf yani x'ler süreydi yani
+dakikalarımızdı. 0 metreyi kaç dakikada
+alır bu arkadaş? 0 dakikada. Demek ki x
+= 0 için bu fonksiyonun f0'ın cevabı
+neydir? 0'dır. Aslında bana şunu
+soruyor. Bak hangi bağımsız değişken
+için x = 0 için fonksiyonun değeri
+0'dır. Birazdan bunu şöyle
+tanımlayacağız. Fonksiyonun 0ırları yani
+cevabının 0 çıktığı x değerlerini
+soruyor demek.
+Donmadı. Sindirmeni bekliyorum. Hatta
+bir yudumda su alayım burada. Susadım
+vallahi. Var.
+Şükür. Devam. Bak şimdi geldim E'ye.
+Fonksiyonun değerlerinin en küçük yani
+minimum ve en büyük değerlerini yazınız.
+Şunu istiyor benden. Bu fonksiyonun
+değerleri dediğimizde nelerini
+kastediyoruz? f(x) = x yazıyorduk. Doğru
+mu? Ya da f(x)'ler aslında neye eşitti?
+Y'ye eşitti. Buradaki x'ler bağımsız
+değişkenlerdi. Bunlar bağımlı
+değişkenlerdi. Ama aynı zamanda
+fonksiyonun değerlerini bulmuş
+oluyorsun. Burada fonksiyonun değeri
+dediğimde burada çıkan sonuç aslında
+yine x'e eşit. Hepsinde onu biliyoruz
+zaten. Ama bu fonksiyonun ilk başlangıç
+noktası neresiydi? 0'dı. f0'da 0'a mı
+gitti? Örneğin f1'de nereye gitti? 1'e
+gitti. F2'de nereye gitti? 2'ye gitti.
+Nokta nokta. En son kaça kadar gelmiştim
+ben süre olarak? 20'ye. Çünkü 20
+dakikanın sonunda fonksiyonumuz ya da
+robotumuzun bataryası bitmiş. Bu arkadaş
+20 metre yol almıştı. O halde net olarak
+şunu söyleyebilirim. Bu fonksiyonun en
+küçük değeri dediği için 0'ı
+işaretliyorum. Bu en küçük değeridir.
+Yani minimum değeridir. En büyük değeri
+dediği için daha büyük bir değer var mı
+yolda giderken? Yok. Doğrusal olarak
+artıyor çünkü. O zaman en büyük değerini
+de burada aldı. Yani bu fonksiyonun
+maksimum ve minimum noktalarını bulunuz
+dediğinde, değerlerini bulunuz dediğinde
+yapacağın işlemi anlamış olduk burada.
+Şimdi bu anlattıklarım evet sorular
+üzerinden bir yere kadar. Hocam sen bana
+bu işin mantığını artık anlatır mısın?
+Fonksiyon dediğimizde aklımızda
+canlanması gereken her şeyi tam olarak
+bu noktada anlatacağım. Lütfen elinden
+kalemi, kağıdı bir dakika bırakır mısın?
+Kitabın önünde açık beklesin. Beklesin.
+Gözünle takip et. Yeri geldiğinde bir
+tur ben anlatayım doldurayım. Tamam mı?
+Bak senden bunu istiyorum. Sonrasında
+sen yap işlemleri. Sen doldur. Videoyu
+durdurup sen doldur. Oldu mu? Bunu
+gerçekten yapmanı istiyorum. Lütfen
+burada uymaya çalış. Mesela hep diyorum
+ya özel ders konsepti gibi ilerliyoruz
+biz bu kitapta. Sen açtın kitabını
+koydun önüne. Hocam evet. Ben derim ki
+gel bak ben bir tur üstünde şöyle
+yazayım. Sildim abi. Şimdi sen. Tamam
+mı? Şimdi senin doldurmanı bekliyorum.
+Tam o noktadayız.
+Tanım kümesi, görüntü kümesi,
+fonksiyonun 0'ı, fonksiyonun işareti
+hepsini burada öğreniyoruz. Bir
+fonksiyonun, bağımsız değişkenlerin, bir
+dakika bağımsız değişkenler kimlerdi
+hocam? X'lerdi. Bağımsız değişkenlerinin
+alabileceği tüm değişkenlerin
+oluşturduğu kümeye tanım kümesi adı
+verilir. Tanım kümesi
+olarak adlandırılır. Demek ki hani biz
+x'leri alıyorduk, y'lere götürüyorduk
+ya. Buradaki x'lerimiz aslında artık
+isim olarak adlandırılırsa adı ne
+olacakmış? tanım kümesi olacakmış. Bunu
+da anlaştık mı? Güzel. Geldim
+ikincisine. Bak artık tanımları
+veriyorum. Yani bağımsız değişkenlerde
+seçebileceğim bütün elemanların kümesine
+tanım kümesi deniyormuş. Tanım
+kümesindeki her bir bağımsız değişkene
+karşılık gelen bağımlı değişkenlerin bak
+bağımlı değişkenlerin oluşturduğu kümeye
+ise değer kümesi adı verilir. Değer
+kümesi ya da görüntü kümesi adı verilir.
+Değer kümesi ya da biz görüntü kümesi
+diyelim. Hiç değer kümesini
+karıştırmayalım. Burada görüntü kümesi
+adı verilir. Görüntü kümesi. Yani
+görüntülerini bulmuş oluyoruz biz
+burada. Oldu mu? Ne yaptın hocam? Bir
+daha göster. X'leri alıp Y'lerle
+eşleştiriyorduk. Buradaki bizdeki
+bağımlı değişkenler dediğimiz kimlerdi?
+Y'lerdi. Buradaki Y'ler artık ne olarak
+adlandırılacak? Görüntü kümesinin
+elemanları olarak adlandırılacak. Peki
+ben görüntü kümesinin elemanlarını nasıl
+bulacağım hocam? X değişkenlerini
+fonksiyonun kuralında yerine yazacağım.
+Elde ettiğim bütün elemanlar görüntü
+kümesi elemanı olacak. Süper. Peki
+geldim başka bir şey daha. Hatta biraz
+önce soru üzerinde de kullandık bunu.
+Bağımlı değişkeni yani y değeri 0 yapan
+yani fonksiyonun değerini 0 yapan
+anlamında şöyle yazmıştık hatırla.
+Fonksiyonun değeri. Bak şurası
+fonksiyonun değeridir. Değeri. Benimle
+birlikte bu notları sonrasında
+alacaksın. Fonksiyonun değerini 0 yapan
+x değerine ne denir hocam dediğimde
+bağımlı değişkeni 0 yapan bağımsız
+değişkene ki kendisi x'ti. Fonksiyonun
+0ı denir. 0ı denir. Hadi onları da büyük
+harfle yazayım. Fonksiyonun 0ı denir.
+Bana fonksiyonun 0'ını bul dediğimde
+fonksiyonun kuralını 0'a eşitliyorsun.
+Ne demek hocam? Şimdi f(x) = x doğru
+referans fonksiyonu. Bu fonksiyonun
+0'ını bul dediğimde bunu alıp 0'a
+eşitliyorsun. ax = 0. Bitti oğlum. Çok
+kolay la hocam bu diyeceksin. Ama şimdi
+ilerleyen derste şunu anlatacağım ben
+sana. Diyeceğim ki f(x) = 3x + 6 bizim
+doğrusal fonksiyonumuz. Bak doğrusal
+referans demiyorum. Buradan türettiğimiz
+bir fonksiyon. Ama bu fonksiyonun 0'ını
+bul dediğimde demek ki kuralı neye
+eşitliyorum? 0'a eşitliyorum. Aslında
+kimi 0'a eşitliyorum? Y değerini 0'a
+eşitliyorum. Burası aslında y değeri.
+Y'yi 0'a eşitleyince x'i bulmam
+gerekiyor. Aa denklem çözeceğim hocam. E
+denklem çözmeyi biliyorsun. 6'yı karşıya
+attım. -6. Her tarafı 2'ye böldüm.
+-2'ymiş. Demek ki bu fonksiyonun 0ı x =
+-2. Fonksiyonun 0ı demek x yerine -2
+yazarsan cevap 0 geliyor demek. O 0a
+sebep olan x değeri kim? -2. Artık
+fonksiyonun 0ının ne demek olduğunu da
+öğrendik. Oh. Tane tane adım adım bütün
+tanımları öğrenerek tanım bilirsen
+matematik yaparsın. Çok zeki olmanı
+istemiyorum abi. Bana çok zeki öğrenci
+gerekmiyor. Bana tanımı öğrenen
+öğrenciyi ver. Ben ona matematikteki
+bütün konuları rahat rahat anlatırım.
+f(x) = 0 eşitliğini sağlayan x değerleri
+fonksiyonun 0'ıdır. Bitti.
+Peki bir fonksiyonun işareti demek ne
+demektir? Fonksiyonun değerlerinin
+pozitif ya da negatif olduğu yerler ya
+da 0 olduğu yerler incelenirken
+fonksiyonun 0ı referans alınır. Neden
+hocam? Çünkü örneğin bizim elimizde
+doğrusal referans fonksiyonu olsun. O
+doğrusal referans fonksiyonunun
+grafiğini çizdik hatırlarsan burada.
+Hatırlıyorsun değil mi? Kaça kaç
+geliyordu mesela? Bak 1'e 1 gelen nokta,
+2'ye 2 gelen nokta. Tabii ki ben bunları
+hep tam sayı seçiyorum ama aradaki
+değeri de alabilirim. Örneğin √2
+değerini aldım. Buna karşılık gelen
+değerde ne olmak zorunda? √2 gelmek
+zorunda. Eğer ki reel sayılar pardon
+gerçek sayılarda tanımlıysa referans
+fonksiyonu ki orada tanımlı olmak
+zorunda. √2 alabilirim. Ama biz kolaylık
+olması adına hep bu tam sayıları
+seçiyoruz. Onu da söylemiş olayım
+burada. Şimdi bu doğrusal referans
+fonksiyonunda şurası fonksiyonun
+nesiydi? 0ıydı değil mi? Burada çünkü
+fonksiyonuma x yerine 0 verdiğimde cevap
+ne geldi? 0 geldi. Peki bana şunu söyle.
+Fonksiyon burada değeri ne geldi? 1 yani
+pozitif. Burada ne geldi? 2. Pozitif.
+Pozitif. Demek ki fonksiyon bu bölgede
+artık nasıl değerler alıyor? 0dan büyük
+değerler alıyor. Hocam hangi bölge
+orası? Onun tamamını ben yeşille
+çizeyim. Bak 0'dan büyük değerler aldığı
+yer x ekseninin üstünde kalan yerler.
+Hayır.
+Fonksiyonun 0ını bulduk ya. 0ının
+referans fonksiyonunda sağ tarafında
+kalan grafik. Her zaman sağında kalmışız
+ama referans fonksiyonumuz da sağında
+kalan. Peki geldim hocam 0ın solunda
+kalan bu bölgede fonksiyonun değerlerini
+söyler misiniz? Fonksiyonun değerleri
+kimlerdi? Y'lerdi. Bak fonksiyonun
+değeri burada göstereyim. -1 verdiğimde
+x yerine y değeri ne geldi? -1. X yerine
+-2 verdiğimde cevap değer ne geldi? -2.
+Hep burada nasıl değerler almaya
+başladım? Negatif değerler almaya
+başladım. He hocam şimdi olay anlaşıldı.
+O zaman bu fonksiyonun 0dan küçük olduğu
+değerler neresidir? X ekseninin altında
+kaldığı kısımlardır. Fonksiyonun bütün
+değerleri ki fonksiyonun değerlerini
+f(x) ile gösteriyorum.
+0'dan küçük değerler alır. Anlaştık mı?
+Bak bir tek grafik üzerinden ne kadar
+çok muhabbet dönebiliyor. Peki o zaman
+biraz bunu netleştirelim. Bizim doğrusal
+referans fonksiyonumuzun 0ı bilindiği
+için şunu net söyleyebilirim. 1 bu
+fonksiyonun hocam x değeri 0'dan
+küçükken f(x) değerleri de pardon x
+değeri 0'dan büyükken ki bak x değerleri
+buradan 0'dan büyük gelen y değerlerinin
+hepsi yani f(x)'lerin hepsi ne oldu?
+0'dan büyük oldu. X değerleri 0'dan
+küçükken f(x)'lerin de değerlere her
+daim nasıl değerler geldi? 0'dan küçük
+geldi. Gerçekten ben x'lerimi buradan
+seçtim. Negatif değerler. Ona karşılık
+gelen değerler hep nasıl geldi?
+negatif olarak geldi. Biz bunu tabloya
+dökmeyi öğrenmeliyiz. Tablo aşağıda var
+ama ben yine de bir daha çizeceğim.
+Aslında bu tablo ne biliyor musun? Sayı
+doğrusu abiciğim. Sayı doğrusunu çiz.
+Kim için çiziyorum? X için çiziyorum.
+Sola doğru gidersem ne olur? Eksi
+sonsuz. Sağa doğru gidersem ne olur?
+Artı sonsuz. Bu fonksiyonun 0ı
+neresidir? Bu fonksiyon x yerine 0
+yazdığımda değeri de ne geliyor? 0
+geliyor. Peki fonksiyonun değeri yani
+şurada f(x)'leri
+x değer ya da onu şöyle gösterelim
+artık. Şurada x'lerimi ayırıyorum.
+Şurası da f(x)'lerin değeri olsun. Şu
+üst kat x'lerin değeri. Bak x burada 0,
+x burada 0'dan küçük değerler alıyor.
+Dikkat edersen x'in değeri burada nedir?
+0'dan küçük. X'in değeri bu tarafta
+nedir? 0'ın sağı ve solu olmak üzere
+0'dan büyüktür. Fonksiyonum 0dan küçük
+değerlerde 0ın solunda nasıl değerler
+aldı? Negatif değerler aldı. İşaret
+tablosu yapıyorum. A negatif değerler
+aldı diyorsun hocam. Artı yapıyorsun.
+Eksi yaptım. 0'ın sağında nasıl değerler
+aldı fonksiyonum? Pozitif değerler aldı.
+Bu tablo inanılmaz önemli bir tablo. Bu
+tablo fonksiyonun işaret tablosudur.
+Fonksiyonun
+işaret tablosu. Ben sana bir fonksiyonun
+işaret tablosunu yap dediğimde bunu
+yapman gerekecek. Ve bizim 1. dönem 2.
+yazılarda fonksiyonların, doğrusal
+fonksiyonların işaret tabloları var
+müfredatımızda ve bu tabloları bizden
+çizmemizi isteyecek. Ha doğrusal
+referans fonksiyonu için sabit. Sadece
+bunu çizmem yeterli. Fonksiyon
+değiştikçe işaret tablosu değişecek.
+Hepsini öğreneceğiz adım adım. Ama bence
+buraya kadar her şey güzel anlaşıldı.
+Ama öğrendiğimizi artık kullanma vakti.
+8. soru. Matematik dersinde yeni bir
+fonksiyon öğrenen Duru ve Bella arasında
+aşağıdaki konuşma geçiyor. Duru diyor
+ki, "Süper anladım ya ben bu olayı
+diyor. Tıpkı senin gibi. Bu fonksiyona
+ben dürüst fonksiyon adını vereceğim
+dedi. Öbürü de şaşırıyor Bella. Oğlum
+diyor bunun adı diyor doğrusal referans
+kızım diyor bunun adı diyor doğrusal
+referans fonksiyonu kanka sen ne
+diyorsun diyor. Öbürü de diyor ki ya
+arkadaş baksana diyor bu fonksiyonun içi
+dışı 1 diyor. İçinde ne varsa dışında da
+oluyor diyor. Şimdi Bella olayı anlamaya
+çalışıyor. f(x) = x'ti ya ya arkadaş
+içinde ne varsa cevap ne çıktı? Dışı da
+aynı çıktı. Hatta diyor duru gel ben
+sana birkaç örnek daha vereyim. Doğrusal
+referans fonksiyonda F1'in cevabı ne
+çıktı? 1 çıktı. F23'ün cevabı ne çıkar
+diyor? Doğrusal referansta 23 çıkar
+diyor. İçine ne yazdıysam değeri de
+karşılığı da o çıktı. Ben diyor o yüzden
+buna dürüst fonksiyon dedim diyor. Tamam
+mı? Haklısın diyor. Tanım kümesindeki
+her elemanın görüntü kümesinde cevabı da
+hep ne oluyor? Kendisi oluyor. A süper.
+Bir daha yazıyorum. Bak şimdi. Şurası
+neydi? Tanım kümesiydi. Burası neydi?
+Görüntü kümesiydi. Görüntü kümesiydi.
+Biz tanım kümesindeki elemanları görüntü
+kümesindeki elemanlarla eşleştiriyorduk.
+X'lerdi, Y'lerdi. 1 verince cevap ne
+geldi? 1. 2 verince cevap ne geldi? 2.
+Nokta nokta 23 verince cevap ne geldi?
+23. Herkesi aslında kime götürdü? Yine
+kendisine götürdü. He, güzel. O zaman
+diyor bu diyaloğa bakarak bizden şunu
+istiyorlar. Fonksiyonun cebirsel
+gösterimini yapar mısınız? E hocam bu
+fonksiyonun cebirsel gösterimi tanıdık.
+Kimdir bu? Doğrusal referans
+fonksiyonunun aslında ta kendisidir. İçi
+dışı bir fonksiyon gibi. Devam ettim.
+Yukarıdaki diyalogda bahsedilen
+fonksiyon ki kendisi doğrusal referans
+fonksiyonu gerçek sayılarda tanımlı
+olsun. Gerçek sayılarda tanımlı demek
+tanım kümesini nereden seçtim? Reel
+sayılardan. Görüntü kümesi artık nereden
+çıkacak? O da reel sayılardan çıkacak. M
+ve N de birer gerçek sayı olmak üzere
+bunu sağlayan n değerini bulunuz diyor.
+Şimdi hocam bu soruyu nasıl çözeceğiz?
+Lütfen bu soruya zor deme. Bak ben
+yukarıda misal şöyle yazsaydım eğer F23
+yazsaydım eğer cevaba ne diyecektin? F23
+diyecektin. Doğru mu? 2 x FM + FM + N
+bilmem neler falan. Geç onu abi. Tek
+başına şunu bir inceleyelim önce. Bu ne
+demek hocam? FM + N. Hocam bu doğrusal
+fonksiyonda x yerine ne yazmışlar? M + N
+yazmışlar. O halde cevap da ne çıkmak
+zorunda? M + N. İçi dışı 1di ya. O halde
+bunun cevabı nedir? M + N. Misal
+yanındaki fonksiyona bak hemen. FM.
+FM'nin cevabı ne çıkmak zorunda? M. İçi
+dışı 1 hocam. Karşı tarafta FM + 4 var.
+FM deyince de oyun aklıma geliyor ya.
+Yenisi de çıktı bu arada da. Neyse
+günlerimizi veriyoruz yoksa onu.
+Oynayanlar var mı bilmiyorum ama
+bataklık gibi ab bu oyun var ya.
+Çıkamıyorsun. Şimdi bu da m + 4'e eşit.
+Yerlerine yazalım. 2 x m + n - m e= m +
+4'e. Tamam mıyız? Dağıt 2'yi içeriye.
+Hocam buradan 2m geldi. Buradan 2n
+geldi. -m = karşı tarafta m + 4. M'lerin
+hepsini bu tarafa atalım biz. 2m + 2n -m
+vardı. -m daha geldi. -2m = + 4. a + 2m
+- 2m birbirini götürdü. 2n = 4. Her
+tarafı 2'ye böldüğümde n'nin cevabı ne
+olarak bulundu? 2 olarak bulundu ki soru
+da benden sadece buradaki n değerinin
+değerini istiyordu. Cevabını istiyordu.
+Güzel. İlerlemeye devam. Hani dedim ya
+doğrusal referans fonksiyonunda ki
+kendisi böyle çiziliyor. İstediğimiz
+aralıkta çizebiliyorduk bu doğrusal
+referans fonksiyonunu. Bu adam özellikle
+doğrusal referans fonksiyonunun
+grafiğini çizdim diyor ama bak x'leri
+nerede başlatmış? -5'te. Nerede
+bitirmiş? + 2'de bitirmiş. Buna göre bu
+fonksiyonun tanım ve görüntü kümelerini
+bulunuz. Şimdi benim sana burada ekstra
+açıklayacağım noktalar var. Lütfen
+benimle birlikte bu grafiği çizer misin
+güzel arkadaşım? Hemen doğrusal referans
+fonksiyonunun grafiğini çizeceğim. Öyle
+ekstra özel bir şey çizmeyeceğim
+aslında. Hemen doğrusal referans
+fonksiyonunun grafiğini çizelim buraya.
+Şurası biliyorsun ki y ekseni.
+Biliyorsun ki burası x ekseni. Doğrusal
+referans fonksiyonu tam ortadan ikiye
+bölüyor aslında şurayı. Hatta açısal
+olarak söyleyebilirim ki 45'e 45 ayırır.
+Matematiksel olarak da bu yorumu
+yapabiliriz. Bu arkadaş kimdi? f(x) = x
+doğrusal referans fonksiyonuydu. Hocam
+bu doğrusal referans fonksiyonunda şuna
+karşılık gelen noktalar bak şurada
+x'lerin karşılık gelen noktaları
+yeşillerin tamamına bakma. X eksenine
+değdiği noktalara bak. X ekseninde
+taradığı bölge diyelim ki son nokta
+burası olsun. Şurası A nok. Hop! A'yı
+yazamadık. Şurası A noktası olsun.
+Şurası da B noktası olsun. X ekseninde
+grafiğin taradığı bölgeyi söyle bana.
+Bak gerçekten bu grafik en sonda B'yi
+tarayabiliyor. Aradaki bütün değerleri
+tanıyor. İşte X ekseni benim için neydi?
+Tanım kümesiydi. Ama X ekseninin tamamı
+değil. Grafiğimde taradığım bölge. Bana
+eğer bu soruda ben genel olarak
+söylüyorum tabii. Tanım kümesini bulun
+derse ne yapacağım hocam? B'de
+başlamışım, A'da bitirmişim. Demek ki
+kapalı mı? Kapalı. B kapalı. A kapalı
+aralığı bizim tanım kümemizdir. Bunu
+anladık mı? Şimdi geldim. Her zaman
+tanım kümesi sorulmuyor. Görüntü kümesi
+kimdi? Y'ydi. Y'de taranan Y'yde ne ya?
+G Y ekseninde taranan bölgeye bakıyorum.
+Y ekseninde taranan bölgeye bakalım mı?
+Tam bu nokta en dip bölgem. En dipten
+bak grafikte tarayarak ilerliyorum.
+Grafikte y eksenine karşılık gelen
+noktaları göstererek gidiyorum. Y
+eksenine karşılık gelen noktaları
+göstererek gidiyorum. Gidiyorum,
+gidiyorum. En son nokta burası mı? Ben
+de diyorum ki bak şu noktaya karşılık
+gelen yer D olsun. Şu noktaya karşılık
+gelen yer C olsun. Y ekseninde en dipte
+C'nin hizasında başlıyorum. Nerede
+bitiriyorum? D''nin hizasında
+bitiriyorum. Hiç boşluk da atmıyorum. O
+halde benim bu fonksiyonumun görüntü
+kümesini gel beraber yazalım. Görüntü
+kümesi nedir hocam? Görüntü kümesi C'de
+başladı, D'de bitti. Bunu anladın mı?
+Bunu anladıysan bu olay bitmiştir
+abiciğim. Bu olay bitmiştir. Aşağıdaki
+grafik g = f(x) doğrusal referans
+fonksiyonuna aittir. Verilen grafiğe
+göre f(x) fonksiyonunun tanım ve görüntü
+kümelerini yazınız. Şimdi az önce
+anlattığım mevzuyu gel beraber çözmeye
+çalışalım. Grafik üzerinde bir şey
+diyeceğim ya. Anlıyorsun değil mi?
+İlgiyle de takip ediyorsun. Hadi
+inşallah bakalım. Gel. X ekseninde en
+sonda geldiğim yer neresi? -5. Bak,
+-5'ten itibaren hiç boşluk bırakıyor mu
+grafik bana? X'in karşısında x'ten dik
+doğrular çiz ya da x'ten doğrular çiz
+grafiğe. Çizdim, çizdim, çizdim. Boşluk
+yok. Devam ettim. 0ın hizasından da
+geçtim. Çizdim, çizdim, çizdim, çizdim.
+X'in hizasını da kimde bitirdim? + 2'de
+bitirdim. X ekseninde taranan bölge
+bizim için tanım kümesiydi. O halde bu
+soruda tanım kümesi dediğimde başladığım
+nokta -5'i açık aralık + 2 pardon kapalı
+aralık -5 kapalı ve 2 kapalı aralık.
+Nereden anlıyorduk kapalı aralık
+olduğunu? Ucu kapalı noktaydı. Şimdi
+geldim görüntü kümesine. Bence olayı
+benden önce çözeceksin. Burada -5'in
+hizasına geldim yine. A denk gelmiş
+hocam. -5'in hizasından başladım.
+Başladım. Başladım. Başladım. Başladım.
+Geldim. denk gelmemiş aslında. -5'e
+karşılık gelen nokta -5'tir. Referans
+fonksiyonunda y ekseninde taradığım
+bölge nerede bitti hocam? + 2'de bitti.
+O halde artık biz buraya ne diyeceğiz? Y
+ekseninde taranan bölge bizim için
+görüntü kümesidir. Görüntü kümesinin de
+taradığı sınırlar neresidir? -5'e + 2
+kapalı aralıdır. Mük oldu mu abiciğim?
+Vallahi mük oldu. Gerçekten mük oldu
+diyorum buraya. Bence anlaşıldı. Burası
+taranan bölgelere bakıyoruz hocam. Olay
+bu. Peki soruyu zorlaştırayım ben sana.
+Aşağıda verilen analitik düzlemde -3 4
+tanım kümesine sahip f(x) = x referans
+fonksiyonunun grafiğini çiziniz. Şimdi
+herhangi bir sınırlama yapmazsa yani
+soru şöyle gelseydi eğer gerçek
+sayılarda tanımlı. Gerçek sayılarda
+tanımlı. Bak,
+f(x) = x referans fonksiyonunun
+grafiğini çizin deseydi nasıl
+çiziyordun? Tam böyle 2'ye bölecek
+şekilde çiziyorduk. Bak + 1'e 1den +
+2'ye 2'den geçecek şekilde çiziyorduk.
+Ama bu soru özellikle -3'ün hizasından
+başla diyor. Tanım kümesi x'ler demekti.
+-1, -2, -3. Kapalı aralık mı hocam?
+Kapalı aralık. -3'ün hizasından başla
+diyor. Grafiği çizmeye nerede bitir
+diyor? +4'te. +1 + 2 + 3 + 4 + 4'ün
+hizası da burası mı grafikte? Burası.
+Şimdi grafik üzerinde sadece bu bölgeyi
+çizeceksin. Çizdim ama kırmızıyla mavi
+karışmasın diye kırmızıyı siliyorum.
+Müthiş oldu. Al sana verilen tanım
+aralığında çizilmesi gereken doğrusal
+referans fonksiyonumuz bu. He ne anladık
+abim? Doğrusal referans fonksiyonunun
+grafiği verilen tanımın kümesine göre
+değişir. Çizerken bütün gerçek sayılarda
+dersem çaprazlama bütün her yeri
+çizerim. Belli bir aralık sorarsa tıpkı
+bu sorudaki gibi bu aralığı göstererek
+çizmek zorundayım. Ve aralığımı da
+gösterdim. Bu aralıkta çizdim grafiğimi.
+Peki sormuyor soruda ama bana sen söyler
+misin? Görüntü kümesi neresidir hocam?
+Görüntü kümesi Y ekseninde taradığımız
+bölgeydi. Y ekseninde en dipte nereye
+geldim? -3. En tepede nereye geldim? +4.
+O halde görüntü kümesinin aralığını yaz
+deseydi sorumuz bize ne diyecektik? -3'e
++4 kap aralığı da bunun görüntü
+kümesidir diyecektik. Hatta hatta
+fonksiyonlar şöyle gösterilir.
+Fonksiyonu a'dan b'ye doğru tanımlanır.
+Burada ekstra bilgimiz olsun. A'dan B'ye
+doğru tanımlanan bu kümede burası tanım
+kümesi. Burası nedir? Görüntü kümesidir.
+Ben bunu tıpkı burada yazdığım gibi
+fonksiyonumu yazmak isteseydim şöyle
+yazacaktım. F fonksiyonu -3'e 4 kapalı
+aralığından hangi aralığa doğru
+çizilmiş? -3 4 kapalı aralığına doğru.
+Hani kalkar başka bir soruda. Bunu
+sağlayan doğru sağlı fonksiyonunun
+grafiğini çizin dediğinde şuna bak.
+Tanım kümesi burası. Sonra grafiği çiz.
+Bitti. Geldim. Peki hocam yeni marif
+model bizden böyle sorular istemiyor.
+Onlar klasik. Tamam gelebilir öyle soru
+da onlar klasik sorular. Yeni nesil
+dediğimiz sorularda bizden ne istiyor?
+Tarih ve matematik işbirliğinde bir
+proje ödevi hazırlayan Seda doğrusal
+referans fonksiyonunu kullanarak f(x) =
+x'i kullanacak. Tarihsel olayları
+modellemek istiyor. Bunun için x = 0
+olarak kabul edilmektedir milat. Tamam
+biz de öyle kabul ediyoruz. Genelde
+ödevini hazırlarken yazının icadı olan
+milattan önce 3200 yılını başlangıç alıp
+İstanbul'un fethini yani milattan sonra
+1453'ü de bitiş olarak kabul ediyor.
+Şimdi mesela burası bir eee tarih
+çizgisi olsaydı. Bak tarih çizgisi
+olsaydı tarih çizgisinde başlangıcı
+neresi kabul ettim diyor? Milattan önce.
+Milattan önce 3200 kabul ettim diyor.
+Arada diyor 0 milat var. Bir de milattan
+sonra 1453'ü de bitiş kabul ettim diyor.
+Bu aralıkta ben fonksiyonumu çizeceğim.
+Demek ki bu fonksiyonun öncelikle tanım
+kümesi neresi olur? Tanım kümesi bizim
+x'lerimiz bu aralıktır. Tabii ben bunu
+yazarken milattan önceyi -3.200
+alacağım. Milattan sonrayı + 1453. Reel
+sayılarda göstermek zorundayım ya gerçek
+sayılarda. O yüzden -3200'den
++ 1453'e
+kadar bu kapalı aralığı çizeceğim. Soru
+benden görüntü kümesini de istiyor ama
+gel ben bu görüntü kümesini önce burada
+düzlemde zaten soruda ekstra bizden şeyi
+de istiyor. Grafiğini de istiyor ya.
+Grafikte gösterelim biz bunu. Grafiğe
+göre yorumlarız zaten. Doğrusal referans
+fonksiyonu normalde böyle çiziyordum
+değil mi? Tam böyle açıortay yapacak
+şekilde aramızda kalsın. Hava atarsın
+arkadaş ortamında. Buna birinci açıortay
+doğrusu da denir. Ha ben ilk öğretmen
+olduğumda beni öğretmenlik sınavına
+aldılar. Bunu sordular. Bu doğrunun adı
+nedir? Doğrusal pardon birinci açıortay
+doğrusu da denir. Ekstra ekstra
+bilgiler. Matematik öğrenmek istiyorum
+diyenlerin bilgisi. Ama diyor bu grafiği
+diyor sınırlarda çiz diyor. Nerede
+başlayacak bu sınır? Ekside 3200'de
+artıda nerede bitecek bu sınır hocam?
+1453'te
+bitecek. Peki bu doğrusal referans
+fonksiyonu Allah yanlışlıkla sildim.
+doğrusal referans fonksiyonu olduğuna
+göre buna karşılık gelen y değeri ne
+olur? X yerine X yerine 1453 yazarsan
+herkesi kendine götürüyordu. Y değeri de
+kaç olacak? 1453.
+Aynı şekilde -3200
+yazarsan y değeri de ne olacak? -3200
+olacak. -3200'de de bu grafik bitiyor. O
+halde geri döndüm. Tanım kümesini zaten
+yazmıştım. Görüntü kümesi. Görüntü
+kümesi eşittir hocam. -3200'de
+başladık. 1453'te
+kapattık. Tanım kümesi, görüntü kümesi
+çizildi. Grafik çizildi. O da bitti.
+Fonksiyonun 0ı. Fonksiyonun 0ı y'sinin 0
+olduğu yerdir. Adı üstünde bu fonksiyon
+nasıl bir fonksiyondu? Doğrusal referans
+fonksiyonu. Doğrusal referans fonksiyonu
+ne zaman 0 olur? x = 0 olduğunda
+fonksiyonun 0ı x = 0'dır. Peki hocam
+bana bu nokta olarak yazar mısın desem
+mesela a koordinat olarak yazsam 0a 0
+noktası bu fonksiyonun 0ı aldığı değerin
+olduğu yerdir. Ama fonksiyonun 0'ını bul
+dediğinde x e= bana bir sayı söylemen
+lazım. x = 0 bu fonksiyonun 0'ıdır.
+Anlaştık mı? Güzel. İşaret tablosunu
+çizin. İşaret tablosu aslında neydi?
+Sayı doğrusu demekti hocam. Bak buraya
+x'lerin değerini yazacağım. eksi sonsuz
+artı sonsuz. Aşağıya da fx'lerin
+işaretini yazarız. Karışmasın diye
+aslında buraya tabloya. O tablo
+dediğimiz şey sayı doğrusundan oluşuyor.
+Kim ne derse desin. Belki bunu da ilk
+defa duyuyorlardır. Buradan çizgi
+çekilir karışmasın diye. Önce
+fonksiyonun 0'ı gösterilir. Nerede 0
+oluyor? X = 0'da. Fonksiyonun değeri de
+burada 0 çıktığı için biz onun hizasına
+buraya da 0 yazarız. O 0ın anlamı o.
+Hani oram buraya galiba sembol
+koyuyorsunuz. Evet. Buraya 0 koymamızın
+sebebi bu fonksiyonun değeri 0 çıktığı
+için koyuluyor. Bak fonksiyon diyor
+burada 0 oldu diyor. Peki bu fonksiyon
+gerçekten şu bölgede f(x)'lerin değeri
+hep nasıl değerler aldı? Pozitif. Şu
+bölgede f(x)'ler nasıl değerler aldı?
+Negatif. 0'ın büyük değerlerinde bu
+fonksiyon pozitif değerler aldı. 0'dan
+küçük değerlerde negatif değerler aldı.
+Al sana. Bu da işaret tablosu. Ey güzel
+arkadaşım aslında normalde artanlık,
+azalananlık, maksimum, minimumlukla
+devam edip ardından da beraber efsane
+sorular çözeceğiz. Ama onu bir sonraki
+derse saklıyorum. Buraya kadar
+fonksiyonlara efsane bir giriş
+yaptığımızı düşünüyorum. Fonksiyonlarda
+hiçbir şeyi kaçırmak istemiyorsan, her
+şeyi tas tamam ve mantığıyla öğrenmek
+istiyorsan biz yolumuza devam edeceğiz.
+Modül 2'deyiz. Modül 2'den yolumuza bir
+sonraki derslere devam. Bu dersi de
+kesinlikle kaçırma ki lise hayatının en
+önemli matematik dersi olan nicelikler
+ve değişimler konusunda çok iyi kendine
+çok iyi bak. Videoyu beğendiysen beğen
+tuşuna basmayı aynı zamanda bunu
+söylüyorum ama yorum atarsanız gerçekten
+çok mutlu olurum 9. sınıf tayfam
+gücünüzü bir gösterin bakalım bu
+videoda. Kendinize iyi bakın. Hoşça
+kalın. Hoşça kalın. Gerçekten
+seviliyorsunuz. [müzik]
+H
+[müzik]
