@@ -2,11 +2,24 @@
   "id": "lesson_kim9_kimyasal_turler_etkilesim",
   "courseId": "course_kim_9",
   "stableKey": "lesson_kim9_kimyasal_turler_etkilesim",
-  "title": "Kimyasal Türler Arası Etkileşimler (KİM.9.2.1 - KİM.9.2.3)",
-  "orderKey": 3000,
+  "title": "Moleküller Arası Etkileşimler",
+  "orderKey": 13000,
   "items": [
     "item_kim9_vid_bag_turleri",
     "item_kim9_vid_zayif_etkilesimler",
     "item_kim9_quiz_baglar_etkilesim"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      24,
+      25
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Etkileşimden Maddeye • Moleküller Arası Etkileşimler"
+    ],
+    "kazanims": [
+      "9.2.7. Moleküller arası etkileşimleri sınıflandırabilme"
+    ]
+  }
 }

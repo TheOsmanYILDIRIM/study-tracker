@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "stableKey": "cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "itemType": "VIDEO",
+  "displayLabel": "10.1",
+  "orderKey": 1000,
+  "title": "İklim Sisteminde Yaşanan Değişiklikler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "İklim Sisteminde Yaşanan Değişiklikler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        18,
+        22
+      ],
+      "sourceTheme": "DOĞAL SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "İklim Sisteminde Yaşanan Değişiklikler"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "2bbe1719c7c6b7d4",
+      "schemaVersion": "v2"
+    }
+  }
+}

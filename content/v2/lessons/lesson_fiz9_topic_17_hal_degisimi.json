@@ -1,0 +1,23 @@
+{
+  "id": "lesson_fiz9_topic_17_hal_degisimi",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_17_hal_degisimi",
+  "title": "Hâl Değişimi",
+  "orderKey": 17000,
+  "items": [
+    "item_fiz9_vid_topic_17_hal_degisimi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      32,
+      33
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "Hâl Değişimi"
+    ],
+    "kazanims": [
+      "FİZ.9.4.3. Hâl değiştirme sıcaklığında bulunan saf bir maddenin hâl değiştirmesi için alınan veya verilen ısı miktarının bağlı olduğu değişkenler hakkında bilimsel çıkarım yapabilme"
+    ]
+  }
+}

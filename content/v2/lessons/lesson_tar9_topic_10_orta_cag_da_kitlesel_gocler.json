@@ -1,0 +1,23 @@
+{
+  "id": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+  "title": "Orta Çağ'da Kitlesel Göçler",
+  "orderKey": 10000,
+  "items": [
+    "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      28,
+      29
+    ],
+    "theme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Orta Çağ’da Yaşanan Kitlesel Göçler"
+    ],
+    "kazanims": [
+      "TAR.9.3.1. Orta Çağ’da yaşanan kitlesel göçlerin Avrupa ve Asya’da oluşturduğu değişimi neden ve sonuçlarıyla birlikte yorumlayabilme"
+    ]
+  }
+}

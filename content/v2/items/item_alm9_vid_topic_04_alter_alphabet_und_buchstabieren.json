@@ -1,0 +1,33 @@
+{
+  "id": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_04_alter_alphabet_und_buchstabieren",
+  "stableKey": "alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Alter, Alphabet und Buchstabieren",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Alter, Alphabet und Buchstabieren",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        5,
+        6
+      ],
+      "sourceTheme": "Buchstaben und Zahlen",
+      "sourceTopic": [
+        "Wie alt bist du?: Jetzt seid ihr dran!: In der Jugendherberge",
+        "Das • ABC • Buchstabieren: Adresse"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "477f80bad92a1e8c",
+      "schemaVersion": "v2"
+    }
+  }
+}

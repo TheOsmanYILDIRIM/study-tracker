@@ -1,0 +1,39 @@
+{
+  "id": "item_biyo9_vid_topic_06_lipitler",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_06_lipitler",
+  "stableKey": "biyo9_vid_topic_06_lipitler",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Lipitler",
+  "contentUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Dr. Biyoloji",
+    "topic": "Lipitler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceTheme": "YAŞAM",
+      "sourceTopic": [
+        "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.9,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
+      "fingerprint": "898f8f9ae6d9a165",
+      "schemaVersion": "v2"
+    }
+  }
+}

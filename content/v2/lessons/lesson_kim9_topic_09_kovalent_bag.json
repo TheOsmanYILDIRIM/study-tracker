@@ -1,0 +1,24 @@
+{
+  "id": "lesson_kim9_topic_09_kovalent_bag",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_09_kovalent_bag",
+  "title": "Kovalent Bağ",
+  "orderKey": 9000,
+  "items": [
+    "item_kim9_vid_topic_09_kovalent_bag"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      16,
+      17
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Kovalent Bağ"
+    ],
+    "kazanims": [
+      "9.2.3. Kovalent bağ oluşumunu bilimsel gözleme dayalı tahmin edebilme",
+      "1. Dönem 2. Sınav"
+    ]
+  }
+}

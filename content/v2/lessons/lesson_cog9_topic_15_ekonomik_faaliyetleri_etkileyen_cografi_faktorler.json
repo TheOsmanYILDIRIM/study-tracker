@@ -1,0 +1,23 @@
+{
+  "id": "lesson_cog9_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "title": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
+  "orderKey": 15000,
+  "items": [
+    "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      32,
+      33
+    ],
+    "theme": "EKONOMİK FAALİYETLER VE ETKİLERİ",
+    "sourceTopics": [
+      "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler"
+    ],
+    "kazanims": [
+      "COĞ.9.5.1. Doğal ve beşerî faktörlerin ekonomik faaliyetlere etkilerini sorgulayabilme"
+    ]
+  }
+}

@@ -2,12 +2,27 @@
   "id": "lesson_tde9_metin_ve_anlam",
   "courseId": "course_tde_9",
   "stableKey": "lesson_tde9_metin_ve_anlam",
-  "title": "1. Tema: Sözün İnceliği (Şiir, Deneme ve Söz Sanatları)",
+  "title": "Sözün İnceliği: Şiir ve Deneme Okuma-İnceleme",
   "orderKey": 1000,
   "items": [
     "item_tde9_vid_soz_sanatlari",
     "item_tde9_vid_soz_sanatlari__quiz",
     "item_tde9_vid_edebiyat_guzel_sanatlar",
     "item_tde9_quiz_sozun_inceligi"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1,
+      2,
+      3
+    ],
+    "theme": "1.TEMA SÖZÜN İNCELİĞİ",
+    "sourceTopics": [
+      "OKUMA • • Tema içeriğine uygun bir şiir • • Tema içeriğine uygun bir deneme"
+    ],
+    "kazanims": [
+      "TDE2.1. “Sözün İnceliği” temasında ele alınan metinlerde okumayı yönetebilme",
+      "TDE2.2. “Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme"
+    ]
+  }
 }

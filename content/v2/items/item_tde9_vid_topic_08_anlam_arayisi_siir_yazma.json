@@ -1,0 +1,35 @@
+{
+  "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+  "stableKey": "tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+  "itemType": "VIDEO",
+  "displayLabel": "8.1",
+  "orderKey": 1000,
+  "title": "Anlam Arayışı: Şiir Yazma",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Anlam Arayışı: Şiir Yazma",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        17,
+        18,
+        19
+      ],
+      "sourceTheme": "2.TEMA ANLAM ARAYIŞI",
+      "sourceTopic": [
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir) • YAZMA • • Temaya uygun bir şiir yazabilme",
+        "YAZMA • • Temaya uygun bir şiir yazabilme",
+        "YAZMA • • Temaya uygun bir şiir yazabilme • OKUL TEMELLİ PLANLAMA*"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "b6ee6c916a64e857",
+      "schemaVersion": "v2"
+    }
+  }
+}

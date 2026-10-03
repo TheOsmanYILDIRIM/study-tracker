@@ -1,0 +1,32 @@
+{
+  "id": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "stableKey": "tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "itemType": "VIDEO",
+  "displayLabel": "14.1",
+  "orderKey": 1000,
+  "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        35,
+        36
+      ],
+      "sourceTheme": "4.TEMA DİLİN ZENGİNLİĞİ",
+      "sourceTopic": [
+        "KONUŞMA • • Sosyal medya dilini edebî dilin özellikleri açısından eleştirdiği bir sunum hazırlayabilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "7bca883f24e6e1cf",
+      "schemaVersion": "v2"
+    }
+  }
+}

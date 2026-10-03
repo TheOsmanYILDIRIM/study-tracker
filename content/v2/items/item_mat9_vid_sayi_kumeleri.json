@@ -7,16 +7,24 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Doğal, Tam, Rasyonel ve Gerçek Sayı Kümeleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L65",
       "sourceSection": "5. Hafta: Sayı Kümeleri ve İşlem Özellikleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "cf54a6722d62f41c"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "2556b7bfa19188aa",
+      "sourceWeeks": [
+        5
+      ],
+      "sourceTheme": "SAYILAR",
+      "videoSearchScore": 10.4,
+      "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Sayı Kümeleri ve İşlem Özellikleri"
   }
 }

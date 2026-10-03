@@ -1,0 +1,23 @@
+{
+  "id": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+  "orderKey": 5000,
+  "items": [
+    "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      12,
+      13
+    ],
+    "theme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Tarım Devrimi’nin Eski Çağ Medeniyetlerindeki Yerleşmeye ve Ekonomiye Etkisi"
+    ],
+    "kazanims": [
+      "TAR.9.2.1. Tarım Devrimi’nin Eski Çağ medeniyetlerindeki yerleşmeye ve ekonomik faaliyetlere etkisini değerlendirebilme"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "stableKey": "kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        2
+      ],
+      "sourceTheme": "ETKİLEŞİM",
+      "sourceTopic": [
+        "Kimyasal Maddelerin Kullanımı ve Güvenlik"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "50d646c2d6e8f6e7",
+      "schemaVersion": "v2"
+    }
+  }
+}

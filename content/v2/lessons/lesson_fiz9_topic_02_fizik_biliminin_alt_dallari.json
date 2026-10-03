@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+  "title": "Fizik Biliminin Alt Dalları",
+  "orderKey": 2000,
+  "items": [
+    "item_fiz9_vid_alt_dallar"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      2
+    ],
+    "theme": "FİZİK BİLİMİ VE KARİYER KEŞFİ",
+    "sourceTopics": [
+      "Fizik Biliminin Alt Dalları"
+    ],
+    "kazanims": [
+      "FİZ.9.1.2. Fizik biliminin alt dallarını sınıflandırabilme"
+    ]
+  }
+}

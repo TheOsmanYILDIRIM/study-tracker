@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+  "title": "Temel ve Türetilmiş Nicelikler",
+  "orderKey": 5000,
+  "items": [
+    "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      5
+    ],
+    "theme": "KUVVET VE HAREKET",
+    "sourceTopics": [
+      "Temel ve Türetilmiş Nicelikler"
+    ],
+    "kazanims": [
+      "FİZ.9.2.1. Birimleri SI birim sisteminde verilen temel ve türetilmiş nicelikleri sınıflandırabilme"
+    ]
+  }
+}

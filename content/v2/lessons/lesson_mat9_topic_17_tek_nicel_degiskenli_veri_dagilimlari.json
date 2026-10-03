@@ -1,0 +1,32 @@
+{
+  "id": "lesson_mat9_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "title": "Tek Nicel Değişkenli Veri Dağılımları",
+  "orderKey": 17000,
+  "items": [
+    "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "theme": "ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ / İSTATİSTİKSEL ARAŞTIRMA SÜRECİ / İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA",
+    "sourceTopics": [
+      "Mantık Bağlaçları ve Niceleyicilerin Algoritmik Problemlerde Kullanımı • Tek Nicel Değişkenli Veri Dağılımları",
+      "Tek Nicel Değişkenli Veri Dağılımları",
+      "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
+    ],
+    "kazanims": [
+      "9.5.3. Mantık bağlaçları ve niceleyicilerin algoritmalarda kullanımına yönelik edindiği deneyimi farklı matematiksel görev ve problemlere yansıtabilme • 9.6.1. Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+      "9.6.1. Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme",
+      "9.6.2. Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumları tartışabilme • 9.7.1. Olayların olasılığını gözleme dayalı tahmin edebilme"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+  "title": "Kaldırma Kuvveti",
+  "orderKey": 13000,
+  "items": [
+    "item_fiz9_vid_topic_13_kaldirma_kuvveti"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      25,
+      26
+    ],
+    "theme": "AKIŞKANLAR",
+    "sourceTopics": [
+      "Kaldırma Kuvveti"
+    ],
+    "kazanims": [
+      "FİZ.9.3.5. Kaldırma kuvvetini etkileyen değişkenleri belirlemeye yönelik deney yapabilme",
+      "FİZ.9.3.6. Kaldırma kuvveti ile sıvılardaki basınca neden olan kuvvet arasındaki ilişkiye yönelik çıkarım yapabilme"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_17_hal_degisimi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_17_hal_degisimi",
+  "stableKey": "fiz9_vid_topic_17_hal_degisimi",
+  "itemType": "VIDEO",
+  "displayLabel": "17.1",
+  "orderKey": 1000,
+  "title": "Hâl Değişimi",
+  "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Fizikfinito",
+    "topic": "Hâl Değişimi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        32,
+        33
+      ],
+      "sourceTheme": "ENERJİ",
+      "sourceTopic": [
+        "Hâl Değişimi"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.05,
+      "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
+      "fingerprint": "bf529ca0f714752e",
+      "schemaVersion": "v2"
+    }
+  }
+}

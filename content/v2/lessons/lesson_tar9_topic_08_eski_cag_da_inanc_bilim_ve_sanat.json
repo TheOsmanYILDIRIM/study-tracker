@@ -1,0 +1,23 @@
+{
+  "id": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+  "orderKey": 8000,
+  "items": [
+    "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      23,
+      24
+    ],
+    "theme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Eski Çağ’da İnançlar ile Bilim ve Sanat Anlayışları"
+    ],
+    "kazanims": [
+      "TAR.9.2.4. Eski Çağ toplumlarındaki inançlar ile bilim ve sanat anlayışları arasındaki ilişkiyi yorumlayabilme"
+    ]
+  }
+}

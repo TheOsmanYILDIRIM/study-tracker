@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_20_isi_iletim_hizi",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_20_isi_iletim_hizi",
+  "title": "Isı İletim Hızı",
+  "orderKey": 20000,
+  "items": [
+    "item_fiz9_vid_topic_20_isi_iletim_hizi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      37
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "Isı İletim Hızı"
+    ],
+    "kazanims": [
+      "2. Dönem 2. Sınav"
+    ]
+  }
+}

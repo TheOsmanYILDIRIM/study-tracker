@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+  "stableKey": "fiz9_vid_topic_13_kaldirma_kuvveti",
+  "itemType": "VIDEO",
+  "displayLabel": "13.1",
+  "orderKey": 1000,
+  "title": "Kaldırma Kuvveti",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Kaldırma Kuvveti",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        25,
+        26
+      ],
+      "sourceTheme": "AKIŞKANLAR",
+      "sourceTopic": [
+        "Kaldırma Kuvveti"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "39daf54d66b918d2",
+      "schemaVersion": "v2"
+    }
+  }
+}

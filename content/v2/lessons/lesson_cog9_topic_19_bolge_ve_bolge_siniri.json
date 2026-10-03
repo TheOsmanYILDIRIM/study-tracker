@@ -1,0 +1,24 @@
+{
+  "id": "lesson_cog9_topic_19_bolge_ve_bolge_siniri",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_19_bolge_ve_bolge_siniri",
+  "title": "Bölge ve Bölge Sınırı",
+  "orderKey": 19000,
+  "items": [
+    "item_cog9_vid_topic_19_bolge_ve_bolge_siniri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      38,
+      39
+    ],
+    "theme": "BÖLGELER, ÜLKELER VE KÜRESEL BAĞLANTILAR",
+    "sourceTopics": [
+      "Bölge ve Bölge Sınırı"
+    ],
+    "kazanims": [
+      "COĞ.9.7.1. Bölgelerin belirlenmesinde kullanılan kriterlere göre bölge hakkında çıkarım yapabilme",
+      "2. Dönem 2. Sınav"
+    ]
+  }
+}

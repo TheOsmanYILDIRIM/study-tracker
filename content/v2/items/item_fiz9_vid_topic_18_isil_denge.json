@@ -1,0 +1,31 @@
+{
+  "id": "item_fiz9_vid_topic_18_isil_denge",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_18_isil_denge",
+  "stableKey": "fiz9_vid_topic_18_isil_denge",
+  "itemType": "VIDEO",
+  "displayLabel": "18.1",
+  "orderKey": 1000,
+  "title": "Isıl Denge",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Isıl Denge",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        34
+      ],
+      "sourceTheme": "ENERJİ",
+      "sourceTopic": [
+        "Isıl Denge"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "19d67d9d3a2db21c",
+      "schemaVersion": "v2"
+    }
+  }
+}

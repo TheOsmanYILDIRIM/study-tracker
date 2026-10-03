@@ -1,0 +1,23 @@
+{
+  "id": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
+  "orderKey": 13000,
+  "items": [
+    "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      28,
+      29
+    ],
+    "theme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+    "sourceTopics": [
+      "Demografik Dönüşüm ve Nüfus Piramitleri"
+    ],
+    "kazanims": [
+      "COĞ.9.4.3. Türkiye ve farklı ülkelerin nüfus piramitlerinden yararlanarak demografik dönüşüm sürecini yorumlayabilme"
+    ]
+  }
+}

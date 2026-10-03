@@ -1,0 +1,33 @@
+{
+  "id": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "stableKey": "tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "itemType": "VIDEO",
+  "displayLabel": "13.1",
+  "orderKey": 1000,
+  "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        32,
+        33,
+        34
+      ],
+      "sourceTheme": "4.TEMA DİLİN ZENGİNLİĞİ",
+      "sourceTopic": [
+        "OKUMA • • Tema içeriğine uygun bir roman • • Ara Metin: Tema içeriğine uygun bir tiyatro • • Tema içeriğine uygun bir eleştiri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "b06056bc42d0242b",
+      "schemaVersion": "v2"
+    }
+  }
+}

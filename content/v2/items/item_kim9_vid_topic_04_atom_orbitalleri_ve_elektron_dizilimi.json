@@ -1,0 +1,33 @@
+{
+  "id": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "stableKey": "kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Atom Orbitalleri ve Elektron Dizilimi",
+  "contentUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Atom Orbitalleri ve Elektron Dizilimi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        5,
+        6,
+        7
+      ],
+      "sourceTheme": "ETKİLEŞİM",
+      "sourceTopic": [
+        "Atom Orbitalleri ve Elektron Dizilimi"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.95,
+      "videoCandidateTitle": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
+      "fingerprint": "95595f44444eaaf9",
+      "schemaVersion": "v2"
+    }
+  }
+}

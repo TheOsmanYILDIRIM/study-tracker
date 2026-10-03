@@ -1,0 +1,31 @@
+{
+  "id": "item_alm9_vid_topic_06_im_klassenzimmer",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
+  "stableKey": "alm9_vid_topic_06_im_klassenzimmer",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Im Klassenzimmer",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Im Klassenzimmer",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        18
+      ],
+      "sourceTheme": "Meine Schule",
+      "sourceTopic": [
+        "Anweisungen in der Klasse: Fertigkeitstraining"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "08658ac468fd853c",
+      "schemaVersion": "v2"
+    }
+  }
+}

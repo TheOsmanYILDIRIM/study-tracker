@@ -1,0 +1,33 @@
+{
+  "id": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+  "stableKey": "mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        6,
+        7
+      ],
+      "sourceTheme": "SAYILAR / SAYILAR NİCELİKLER VE DEĞİŞİMLER",
+      "sourceTopic": [
+        "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme",
+        "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme • Doğrusal Fonksiyonlar ve Nitel Özellikleri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "c278a711cea31ad8",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+  "stableKey": "cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Hava Olayları ve Günlük Hayata Etkileri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Hava Olayları ve Günlük Hayata Etkileri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        9,
+        11
+      ],
+      "sourceTheme": "DOĞAL SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "Hava Olayları ve Günlük Hayata Etkileri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "a1236e99cf9b3210",
+      "schemaVersion": "v2"
+    }
+  }
+}

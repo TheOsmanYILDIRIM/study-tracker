@@ -1,0 +1,33 @@
+{
+  "id": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "stableKey": "mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "itemType": "VIDEO",
+  "displayLabel": "12.1",
+  "orderKey": 1000,
+  "title": "Tales, Öklid ve Pisagor Teoremleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Tales, Öklid ve Pisagor Teoremleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        23,
+        24
+      ],
+      "sourceTheme": "EŞLİK VE BENZERLİK",
+      "sourceTopic": [
+        "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
+        "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "f3a0d0748ab34b21",
+      "schemaVersion": "v2"
+    }
+  }
+}

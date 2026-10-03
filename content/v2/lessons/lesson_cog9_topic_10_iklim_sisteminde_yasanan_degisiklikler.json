@@ -1,0 +1,23 @@
+{
+  "id": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+  "title": "İklim Sisteminde Yaşanan Değişiklikler",
+  "orderKey": 10000,
+  "items": [
+    "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      18,
+      22
+    ],
+    "theme": "DOĞAL SİSTEMLER VE SÜREÇLER",
+    "sourceTopics": [
+      "İklim Sisteminde Yaşanan Değişiklikler"
+    ],
+    "kazanims": [
+      "COĞ.9.3.4. İklim sistemi ve sürecinde meydana gelen değişiklikleri algılayabilme"
+    ]
+  }
+}

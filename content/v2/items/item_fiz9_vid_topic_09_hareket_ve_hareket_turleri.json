@@ -1,0 +1,35 @@
+{
+  "id": "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_09_hareket_ve_hareket_turleri",
+  "stableKey": "fiz9_vid_topic_09_hareket_ve_hareket_turleri",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "Hareket ve Hareket Türleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Hareket ve Hareket Türleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceTheme": "KUVVET VE HAREKET",
+      "sourceTopic": [
+        "Hareket ve Hareket Türleri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "a8740b024faed0d6",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_08_dogadaki_temel_kuvvetler",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_08_dogadaki_temel_kuvvetler",
+  "title": "Doğadaki Temel Kuvvetler",
+  "orderKey": 8000,
+  "items": [
+    "item_fiz9_vid_dogadaki_kuvvetler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      10
+    ],
+    "theme": "KUVVET VE HAREKET",
+    "sourceTopics": [
+      "Doğadaki Temel Kuvvetler"
+    ],
+    "kazanims": [
+      "FİZ.9.2.5. Doğadaki temel kuvvetleri karşılaştırabilme"
+    ]
+  }
+}

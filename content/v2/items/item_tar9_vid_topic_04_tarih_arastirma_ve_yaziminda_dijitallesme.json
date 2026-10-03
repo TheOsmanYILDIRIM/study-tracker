@@ -1,0 +1,33 @@
+{
+  "id": "item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "stableKey": "tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "Tarih Araştırma ve Yazımında Dijitalleşme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Tarih Araştırma ve Yazımında Dijitalleşme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        8,
+        9,
+        11
+      ],
+      "sourceTheme": "ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH",
+      "sourceTopic": [
+        "Tarih Araştırma ve Yazımında Dijitalleşme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "4405ca5e1fe3423b",
+      "schemaVersion": "v2"
+    }
+  }
+}

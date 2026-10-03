@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_09_iklim_turleri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_09_iklim_turleri",
+  "stableKey": "cog9_vid_topic_09_iklim_turleri",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "İklim Türleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "İklim Türleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        16,
+        17
+      ],
+      "sourceTheme": "DOĞAL SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "İklim Türleri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "0992da6f9c2eb1ae",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -2,10 +2,25 @@
   "id": "lesson_mat9_istatistik_veri_dagilimi",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_istatistik_veri_dagilimi",
-  "title": "İstatistiksel Araştırma Süreci ve Veri Dağılımları (MAT.9.4.1)",
-  "orderKey": 7000,
+  "title": "Mantık Bağlaçları ve Niceleyiciler",
+  "orderKey": 15000,
   "items": [
     "item_mat9_vid_veri_dagilimlari",
     "item_mat9_quiz_istatistik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      30,
+      31
+    ],
+    "theme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+    "sourceTopics": [
+      "Mantık Bağlaçları ve Niceleyiciler",
+      "Mantık Bağlaçları ve Niceleyicilerin Algoritmik Problemlerde Kullanımı • Tek Nicel Değişkenli Veri Dağılımları"
+    ],
+    "kazanims": [
+      "2. Dönem 1. Sınav",
+      "9.5.3. Mantık bağlaçları ve niceleyicilerin algoritmalarda kullanımına yönelik edindiği deneyimi farklı matematiksel görev ve problemlere yansıtabilme • 9.6.1. Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme"
+    ]
+  }
 }

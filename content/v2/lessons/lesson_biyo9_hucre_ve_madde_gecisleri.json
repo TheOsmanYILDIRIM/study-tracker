@@ -2,11 +2,27 @@
   "id": "lesson_biyo9_hucre_ve_madde_gecisleri",
   "courseId": "course_biyo_9",
   "stableKey": "lesson_biyo9_hucre_ve_madde_gecisleri",
-  "title": "Hücre Yapısı, Organeller ve Madde Geçişleri (BİY.9.2.1 - BİY.9.2.2)",
-  "orderKey": 3000,
+  "title": "Hücre Zarından Madde Geçişleri",
+  "orderKey": 12000,
   "items": [
-    "item_biyo9_vid_hucre_organeller",
     "item_biyo9_vid_madde_gecisleri",
     "item_biyo9_quiz_hucre_madde"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "theme": "ORGANİZASYON",
+    "sourceTopics": [
+      "Hücre Zarından Madde Geçişleri (Pasif Taşıma, Basit Difüzyon, Kolaylaştırılmış • Difüzyon, Ozmoz, Aktif Taşıma, Endositoz, Ekzositoz)"
+    ],
+    "kazanims": [
+      "2. Dönem 1. Sınav",
+      "BİY.9.2.2. Hücre zarından madde geçişlerini sınıflandırabilme",
+      "BİY.9.2.3. Küçük moleküllerin hücre zarından pasif geçişi ile ilgili deney yapabilme"
+    ]
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "lesson_mat9_topic_09_geometrik_donusumler",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_09_geometrik_donusumler",
+  "title": "Geometrik Dönüşümler",
+  "orderKey": 9000,
+  "items": [
+    "item_mat9_vid_topic_09_geometrik_donusumler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      16,
+      17,
+      18
+    ],
+    "theme": "GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK",
+    "sourceTopics": [
+      "Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler • Geometrik Dönüşümler",
+      "Geometrik Dönüşümler",
+      "Geometrik Dönüşümler • Eşlik ve Benzerlik Koşulları"
+    ],
+    "kazanims": [
+      "9.3.1. Üçgende açı ve kenarla ilgili özellikleri, üçgenin açıları ve kenarları arasındaki ilişkileri doğrulayabilme veya ispatlayabilme • 9.4.1. Geometrik dönüşümlerle ilgili çıkarım yapabilme",
+      "1. Dönem 2. Sınav",
+      "9.4.1. Geometrik dönüşümlerle ilgili çıkarım yapabilme • 9.4.2. İki üçgenin eş veya benzer olması için gerekli olan asgari koşullarla ilgili çıkarım yapabilme"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "stableKey": "cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Nüfusun Tarihsel Değişimi ve Geleceği",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        23,
+        24
+      ],
+      "sourceTheme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "Nüfusun Tarihsel Değişimi ve Geleceği"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "c1d387e435963950",
+      "schemaVersion": "v2"
+    }
+  }
+}

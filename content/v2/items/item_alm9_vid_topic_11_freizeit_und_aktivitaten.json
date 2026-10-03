@@ -1,0 +1,35 @@
+{
+  "id": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_11_freizeit_und_aktivitaten",
+  "stableKey": "alm9_vid_topic_11_freizeit_und_aktivitaten",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Freizeit und Aktivitäten",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Freizeit und Aktivitäten",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        31,
+        32,
+        33
+      ],
+      "sourceTheme": "Spiel und Spaß",
+      "sourceTopic": [
+        "Was machen die Personen wann?: Blick an das Schwarze Brett!",
+        "Rasender Reporter: Im Café",
+        "Wer sagt was?"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "213d0fa320eab97e",
+      "schemaVersion": "v2"
+    }
+  }
+}

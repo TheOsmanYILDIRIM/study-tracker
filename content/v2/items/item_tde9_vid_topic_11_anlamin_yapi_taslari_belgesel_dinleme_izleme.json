@@ -1,0 +1,33 @@
+{
+  "id": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+  "stableKey": "tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        28,
+        29
+      ],
+      "sourceTheme": "3.TEMA ANLAMIN YAPI TAŞLARI",
+      "sourceTopic": [
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Belgesel)",
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Belgesel) • YAZMA • • Belgeseli infografik metne dönüştürebilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "5bc617370a699705",
+      "schemaVersion": "v2"
+    }
+  }
+}

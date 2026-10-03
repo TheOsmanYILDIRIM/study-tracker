@@ -1,0 +1,32 @@
+{
+  "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "stableKey": "tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rüştü Hoca ile Türkçe",
+    "topic": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15
+      ],
+      "sourceTheme": "2.TEMA ANLAM ARAYIŞI",
+      "sourceTopic": [
+        "KONUŞMA • • Hikâyedeki bir karakteri tanıtan sunum hazırlayabilme"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 5.4,
+      "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+      "fingerprint": "aac4c29540832943",
+      "schemaVersion": "v2"
+    }
+  }
+}

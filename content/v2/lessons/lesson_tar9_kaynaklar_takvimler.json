@@ -2,7 +2,7 @@
   "id": "lesson_tar9_kaynaklar_takvimler",
   "courseId": "course_tar_9",
   "stableKey": "lesson_tar9_kaynaklar_takvimler",
-  "title": "Kaynak Türleri, Tarih Yazıcılığı ve Takvimler (TAR.9.1.2)",
+  "title": "Tarihin Doğası",
   "orderKey": 2000,
   "items": [
     "item_tar9_vid_kaynak_turleri",
@@ -11,5 +11,18 @@
     "item_tar9_vid_yardimci_bilimler__quiz",
     "item_tar9_anki_temel",
     "item_tar9_quiz_kaynaklar_takvimler"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3,
+      4
+    ],
+    "theme": "ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH",
+    "sourceTopics": [
+      "Tarihin Doğası"
+    ],
+    "kazanims": [
+      "TAR.9.1.2. Tarihin doğasını farklı kaynaklar üzerinden inceleyebilme"
+    ]
+  }
 }

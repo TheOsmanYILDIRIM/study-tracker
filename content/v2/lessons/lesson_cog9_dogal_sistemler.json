@@ -2,14 +2,25 @@
   "id": "lesson_cog9_dogal_sistemler",
   "courseId": "course_cog_9",
   "stableKey": "lesson_cog9_dogal_sistemler",
-  "title": "Doğal Sistemler ve Coğrafyanın İlkeleri (COĞ.9.1.1)",
+  "title": "Coğrafya Biliminin Konusu ve Bölümleri",
   "orderKey": 1000,
   "items": [
     "item_cog9_vid_doga_insan",
     "item_cog9_vid_mekansal_dusunme",
     "item_cog9_vid_tarihsel_gelisim",
-    "item_cog9_vid_harita_bilgisi",
     "item_cog9_anki_1ay",
     "item_cog9_quiz_dogal_sistemler"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1
+    ],
+    "theme": "COĞRAFYANIN DOĞASI",
+    "sourceTopics": [
+      "Coğrafya Biliminin Konusu ve Bölümleri"
+    ],
+    "kazanims": [
+      "COĞ.9.1.1. Coğrafya biliminin konusu ve bölümlerini çözümleyebilme"
+    ]
+  }
 }

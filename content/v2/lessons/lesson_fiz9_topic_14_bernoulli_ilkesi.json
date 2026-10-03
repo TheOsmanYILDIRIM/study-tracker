@@ -1,0 +1,24 @@
+{
+  "id": "lesson_fiz9_topic_14_bernoulli_ilkesi",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_14_bernoulli_ilkesi",
+  "title": "Bernoulli İlkesi",
+  "orderKey": 14000,
+  "items": [
+    "item_fiz9_vid_topic_14_bernoulli_ilkesi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      27,
+      28
+    ],
+    "theme": "AKIŞKANLAR",
+    "sourceTopics": [
+      "Bernoulli İlkesi"
+    ],
+    "kazanims": [
+      "FİZ.9.3.7. Akışkanın geçtiği borunun kesit alanı ile akışkanın sürati ve boru çeperlerine yaptığı basınç arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme",
+      "2. Dönem 1. Sınav"
+    ]
+  }
+}

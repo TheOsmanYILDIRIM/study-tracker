@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tar9_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+  "orderKey": 6000,
+  "items": [
+    "item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      14,
+      15,
+      16
+    ],
+    "theme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Eski Çağ Medeniyetlerinde Yönetim ve Ordu"
+    ],
+    "kazanims": [
+      "TAR.9.2.2. Eski Çağ’daki farklı medeniyetlerin yönetim ve ordu sistemlerini özetleyebilme"
+    ]
+  }
+}

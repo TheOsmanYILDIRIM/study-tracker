@@ -1,0 +1,26 @@
+{
+  "id": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+  "orderKey": 11000,
+  "items": [
+    "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "theme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Orta Çağ’daki Başlıca Devletlerin Yönetim ve Ordu Yapıları"
+    ],
+    "kazanims": [
+      "2. Dönem 1. Sınav",
+      "TAR.9.3.2. Orta Çağ’daki başlıca devletlerin yönetim ve ordu yapılarını karşılaştırabilme"
+    ]
+  }
+}

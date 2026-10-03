@@ -1,0 +1,25 @@
+{
+  "id": "lesson_tde9_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+  "orderKey": 3000,
+  "items": [
+    "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      6,
+      7
+    ],
+    "theme": "1.TEMA SÖZÜN İNCELİĞİ",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat)",
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme"
+    ],
+    "kazanims": [
+      "TDE1.1. “Sözün İnceliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "TDE1.2. “Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme • TDE3.1. Söyleyişin inceliğini kullanarak akıcı bir konuşma süreci yönetebilme"
+    ]
+  }
+}

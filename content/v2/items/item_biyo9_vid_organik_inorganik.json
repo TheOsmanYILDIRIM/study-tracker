@@ -7,16 +7,25 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "İnorganik ve Organik Bileşikler: Karbonhidratlar, Yağlar ve Proteinler",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L45",
       "sourceSection": "Organik ve İnorganik Moleküller",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "98f11f3895cb8b34"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "d580c479ded4cda2",
+      "sourceWeeks": [
+        34,
+        35
+      ],
+      "sourceTheme": "ORGANİZASYON",
+      "videoSearchScore": 4.4,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş"
+    },
+    "provider": "Dr. Biyoloji",
+    "topic": "Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma"
   }
 }

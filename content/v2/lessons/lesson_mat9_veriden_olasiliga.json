@@ -2,10 +2,28 @@
   "id": "lesson_mat9_veriden_olasiliga",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_veriden_olasiliga",
-  "title": "Veriden Olasılığa: Deneysel ve Teorik Olasılık (MAT.9.5.1)",
-  "orderKey": 8000,
+  "title": "Teorik Olasılık",
+  "orderKey": 20000,
   "items": [
     "item_mat9_vid_olasilik_turleri",
     "item_mat9_quiz_olasilik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      38,
+      39,
+      40
+    ],
+    "theme": "VERİDEN OLASILIĞA",
+    "sourceTopics": [
+      "Deneysel Olasılık • Teorik Olasılık",
+      "Teorik Olasılık",
+      "Teorik Olasılık • OKUL TEMELLİ PLANLAMA*"
+    ],
+    "kazanims": [
+      "9.7.1. Olayların olasılığını gözleme dayalı tahmin edebilme • 9.7.2. Olayların olasılığına ilişkin tümevarımsal akıl yürütebilme",
+      "2. Dönem 2. Sınav",
+      "9.7.2. Olayların olasılığına ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
+  "orderKey": 14000,
+  "items": [
+    "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      30,
+      31
+    ],
+    "theme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+    "sourceTopics": [
+      "Nüfusla İlgili Fırsat, Sorun ve Politikalar"
+    ],
+    "kazanims": [
+      "2. Dönem 1. Sınav",
+      "COĞ.9.4.4. Türkiye ve farklı ülkelerdeki nüfusla ilgili fırsat ve sorunların nüfus politikalarının belirlenmesindeki etkisini sorgulayabilme"
+    ]
+  }
+}

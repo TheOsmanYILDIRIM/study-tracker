@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_07_metalik_bag",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_07_metalik_bag",
+  "title": "Metalik Bağ",
+  "orderKey": 7000,
+  "items": [
+    "item_kim9_vid_topic_07_metalik_bag"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      13
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Etkileşimler • Metalik Bağ"
+    ],
+    "kazanims": [
+      "9.2.1. Metalik bağın oluşumuna yönelik tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

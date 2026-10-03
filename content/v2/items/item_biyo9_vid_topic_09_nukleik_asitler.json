@@ -1,0 +1,39 @@
+{
+  "id": "item_biyo9_vid_topic_09_nukleik_asitler",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_09_nukleik_asitler",
+  "stableKey": "biyo9_vid_topic_09_nukleik_asitler",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "Nükleik Asitler",
+  "contentUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Dr. Biyoloji",
+    "topic": "Nükleik Asitler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceTheme": "YAŞAM",
+      "sourceTopic": [
+        "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 16.4,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
+      "fingerprint": "2b6a942450399aef",
+      "schemaVersion": "v2"
+    }
+  }
+}

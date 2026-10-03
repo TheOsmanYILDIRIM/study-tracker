@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "stableKey": "cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+  "itemType": "VIDEO",
+  "displayLabel": "13.1",
+  "orderKey": 1000,
+  "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
+  "contentUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Demografik Dönüşüm ve Nüfus Piramitleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        28,
+        29
+      ],
+      "sourceTheme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "Demografik Dönüşüm ve Nüfus Piramitleri"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 11.4,
+      "videoCandidateTitle": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
+      "fingerprint": "7c89d118619e73c1",
+      "schemaVersion": "v2"
+    }
+  }
+}

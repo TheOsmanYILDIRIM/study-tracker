@@ -5,7 +5,7 @@
   "stableKey": "cog9_quiz_dogal_sistemler",
   "itemType": "QUIZ",
   "displayLabel": "Q1",
-  "orderKey": 6000,
+  "orderKey": 5000,
   "title": "Coğrafyanın Doğası ve İlkeleri Testi",
   "contentUrl": null,
   "publishingStatus": "active",

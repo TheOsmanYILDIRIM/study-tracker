@@ -1,0 +1,39 @@
+{
+  "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+  "stableKey": "alm9_vid_topic_09_familie_und_familienmitglieder",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "Familie und Familienmitglieder",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Familie und Familienmitglieder",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        19,
+        24,
+        25,
+        27,
+        28
+      ],
+      "sourceTheme": "Meine Familie und ich / Wer ist wer? / Die Berufe",
+      "sourceTopic": [
+        "Familie Weiß: Mein Album im Netz",
+        "Zeynep und Ayşe: Jetzt seid ihr dran!",
+        "Familienalbum: Wer ist wer?",
+        "Jetzt seid ihr dran!: Ratespiel: Familie Schulze",
+        "Berkes Familie: Tims Familie"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "e7a396de87e57ffa",
+      "schemaVersion": "v2"
+    }
+  }
+}

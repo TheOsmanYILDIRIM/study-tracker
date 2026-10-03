@@ -1,0 +1,32 @@
+{
+  "id": "item_kim9_vid_topic_08_iyonik_bag",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_08_iyonik_bag",
+  "stableKey": "kim9_vid_topic_08_iyonik_bag",
+  "itemType": "VIDEO",
+  "displayLabel": "8.1",
+  "orderKey": 1000,
+  "title": "İyonik Bağ",
+  "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "İyonik Bağ",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "İyonik Bağ"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6,
+      "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
+      "fingerprint": "671459f1d63c868d",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "item_fiz9_vid_topic_10_katilarda_basinc",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_10_katilarda_basinc",
+  "stableKey": "fiz9_vid_topic_10_katilarda_basinc",
+  "itemType": "VIDEO",
+  "displayLabel": "10.1",
+  "orderKey": 1000,
+  "title": "Katılarda Basınç",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Katılarda Basınç",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        16,
+        20,
+        21,
+        22,
+        23
+      ],
+      "sourceTheme": "AKIŞKANLAR",
+      "sourceTopic": [
+        "Basınç",
+        "Sıvılarda Basınç",
+        "Açık Hava Basıncı"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "2b71d12fcf09403a",
+      "schemaVersion": "v2"
+    }
+  }
+}

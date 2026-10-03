@@ -1,0 +1,34 @@
+{
+  "id": "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
+  "title": "Sıvılar ve Özellikleri",
+  "orderKey": 15000,
+  "items": [
+    "item_kim9_vid_topic_15_sivilar_ve_ozellikleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Sıvılar ve Özellikleri (Kaynama Sıcaklığı ve Buhar Basıncı, Viskozite, Adezyon ve Kohezyon Kuvvetleri, Yüzey Gerilimi)"
+    ],
+    "kazanims": [
+      "9.2.9. Sıvıların buhar basıncını etkileyen faktörlere ilişkin hipotez oluşturabilme",
+      "2. Dönem 1. Sınav",
+      "9.2.10. Sıvıların kaynama sıcaklığını etkileyen faktörleri belirlemeye yönelik kanıt kullanabilme",
+      "9.2.11. Sıvıların viskozitesini etkileyen faktörlere ilişkin bilimsel gözlem yapabilme",
+      "9.2.12. Adezyon ve kohezyon kuvvetlerinin sıvıların özellikleri üzerindeki etkilerine ilişkin bilimsel çıkarım yapabilme",
+      "9.2.13. Sıvıların yüzey gerilimini etkileyen faktörlere ilişkin bilimsel sorgulama yapabilme"
+    ]
+  }
+}

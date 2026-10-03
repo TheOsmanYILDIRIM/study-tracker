@@ -1,0 +1,24 @@
+{
+  "id": "lesson_alm9_topic_12_uhrzeiten",
+  "courseId": "course_alm_9",
+  "stableKey": "lesson_alm9_topic_12_uhrzeiten",
+  "title": "Uhrzeiten",
+  "orderKey": 12000,
+  "items": [
+    "item_alm9_vid_topic_12_uhrzeiten"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      34,
+      35
+    ],
+    "theme": "Rund um die Uhr!",
+    "sourceTopics": [
+      "Die Zeit tickt!: Die Uhrzeit!",
+      "Wie spät ist es?: Hast du Zeit?"
+    ],
+    "kazanims": [
+      "HÖREN • 8. Kann vertraute Wörter und ganz einfache Sätze verstehen, die sich auf konkrete Dinge um ihn/ sie herum beziehen, vorausgesetzt, es wird langsam und deutlich gesprochen. • 9. Kann Zeitangaben verstehen. • SPRECHEN • 16. Kann Zeitangaben mit Hilfe von Wendungen machen, wie nächste Woche, um drei Uhr. • 17. Kann alltägliche Ausdrücke verstehen, die auf die Befriedigung einfacher, konkreter Bedürfnisse zielen, wenn sich verständnisvolle Gesprächspartner direkt an ihn / sie richten und langsam, deutlich und mit Wiederholungen sprechen. • 18. Kann einfache Fragen stellen und beantworten, einfache Feststellungen treffen oder auf solche reagieren, sofern es sich um unmittelbare Bedürfnisse oder um sehr vertraute Themen handelt. • LESEN • 10. Kann vertraute, alltägliche Ausdrücke und ganz einfache Sätze verstehen und verwenden, die auf die Befriedigung konkreter Bedürfnisse zielen. • 11. Kann Zeitangaben verstehen. • SCHREIBEN • 11. Kann in kurzen Mitteilungen (SMS, E-Mail) Informationen aus dem alttäglichen Leben erfragen oder weitergeben. • 12. Kann Zeitangaben schreiben."
+    ]
+  }
+}

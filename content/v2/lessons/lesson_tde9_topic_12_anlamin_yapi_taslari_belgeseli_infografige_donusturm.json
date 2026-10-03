@@ -1,0 +1,28 @@
+{
+  "id": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+  "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+  "orderKey": 12000,
+  "items": [
+    "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      29,
+      30,
+      31
+    ],
+    "theme": "3.TEMA ANLAMIN YAPI TAŞLARI",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Belgesel) • YAZMA • • Belgeseli infografik metne dönüştürebilme",
+      "YAZMA • • Belgeseli infografik metne dönüştürebilme",
+      "YAZMA • • Belgeseli infografik metne dönüştürebilme • OKUL TEMELLİ PLANLAMA*"
+    ],
+    "kazanims": [
+      "TDE1.3. “Anlamın Yapı Taşları” temasında ele alınan metinleri çözümleyebilme • TDE4.1. Yapısını incelikle ördüğü bir yazılı anlatım sürecini yönetebilme",
+      "2. Dönem 1. Sınav",
+      "TDE4.4. Yapısını incelikle ördüğü yazısına yönelik yazma sürecini değerlendirebilme"
+    ]
+  }
+}

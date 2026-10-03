@@ -1,0 +1,35 @@
+{
+  "id": "item_mat9_vid_topic_09_geometrik_donusumler",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+  "stableKey": "mat9_vid_topic_09_geometrik_donusumler",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "Geometrik Dönüşümler",
+  "contentUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Geometrik Dönüşümler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        16,
+        17,
+        18
+      ],
+      "sourceTheme": "GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK",
+      "sourceTopic": [
+        "Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler • Geometrik Dönüşümler",
+        "Geometrik Dönüşümler",
+        "Geometrik Dönüşümler • Eşlik ve Benzerlik Koşulları"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.9,
+      "videoCandidateTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+      "fingerprint": "82fde7766e2f47dd",
+      "schemaVersion": "v2"
+    }
+  }
+}

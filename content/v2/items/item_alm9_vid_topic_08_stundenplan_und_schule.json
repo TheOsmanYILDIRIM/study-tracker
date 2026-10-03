@@ -1,0 +1,35 @@
+{
+  "id": "item_alm9_vid_topic_08_stundenplan_und_schule",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_08_stundenplan_und_schule",
+  "stableKey": "alm9_vid_topic_08_stundenplan_und_schule",
+  "itemType": "VIDEO",
+  "displayLabel": "8.1",
+  "orderKey": 1000,
+  "title": "Stundenplan und Schule",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Stundenplan und Schule",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        11,
+        12,
+        17
+      ],
+      "sourceTheme": "Schulfächer und Tätigkeiten / Meine Schule",
+      "sourceTopic": [
+        "Anna: Mein Stundenplan: Jetzt seid ihr dran!",
+        "Wie findest du ...?: So viele Fragen?",
+        "Interviews: Wie sind die Schulen?"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "b75859fc218c963e",
+      "schemaVersion": "v2"
+    }
+  }
+}

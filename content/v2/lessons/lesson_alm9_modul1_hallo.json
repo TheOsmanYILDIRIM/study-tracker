@@ -2,8 +2,8 @@
   "id": "lesson_alm9_modul1_hallo",
   "courseId": "course_alm_9",
   "stableKey": "lesson_alm9_modul1_hallo",
-  "title": "Modul 1: HALLO! & Informationen zur Person (A1.1)",
-  "orderKey": 1000,
+  "title": "Sich vorstellen und persönliche Angaben",
+  "orderKey": 2000,
   "items": [
     "item_alm9_vid_selamlasma_alfabe",
     "item_alm9_vid_kendini_tanitma",
@@ -11,5 +11,21 @@
     "item_alm9_vid_ulkeler_diller",
     "item_alm9_anki_1ay",
     "item_alm9_quiz_hallo_person"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3,
+      7,
+      8
+    ],
+    "theme": "Hallo! / Lander und Sprachen",
+    "sourceTopics": [
+      "Wie ist dein Name?: Hallo, wie geht es dir?: Jetzt seid ihr dran!",
+      "Neu hier?: Jetzt seid ihr dran!",
+      "Wer ist das?: Wie heißen die Personen? • Wie ist dein Profil?: Personenraten: Wer ist das?: Fragen: Fertigkeitstraining"
+    ],
+    "kazanims": [
+      "HÖREN • 1. Kann vertraute alltägliche Ausdrücke und ganz einfache Sätze verstehen. • 2. Kann Angaben und Fragen zur Person verstehen. • 3. Kommt mit Zahlen bis 20 zurecht. • SPRECHEN • 1. Kann jemanden nach dem Befinden fragen und auf Neuigkeiten reagieren. • 2. Kann Gruß- und Abschiedsformeln gebrauchen. • 3. Kann sich und andere vorstellen und anderen Leuten Fragen zu ihrer Person stellen. • 4. Kann Angaben und Fragen zur Person verstehen und angemessen beantworten. • 5. Kann sagen, wo er/sie wohnt. • 6. Kann nach dem Herkunftsland fragen und das Herkunftsland nennen. • 7. Kann Zustimmung oder Ablehnung ausdrücken. • 8. Kommt mit Zahlen bis 20 zurecht. • LESEN • 1. Kann ganz kurze und einfache Texte lesen. • 2. Kann Bezeichnungen zu Personen und einfache Wörter und kurze Sätze verstehen. • 3. Kommt mit Zahlen bis 20 zurecht. • SCHREIBEN • 1. Kann Fragen zur Person schriftlich beantworten. • 2. Kann seine Adresse und andere Angaben zur Person schreiben. • 3. Kann einen vorgegebenen Textrahmen vervollständigen. • 4. Kommt mit Zahlen bis 20 zurecht. • 5. Kann Wörter oder Wortgruppen durch sehr einfache Konnektoren wie „und“ verbinden."
+    ]
+  }
 }

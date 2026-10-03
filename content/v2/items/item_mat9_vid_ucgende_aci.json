@@ -7,16 +7,26 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Üçgende İç ve Dış Açı Bağıntıları",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L110",
       "sourceSection": "Üçgende Açı ve Kenar Özellikleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "d08333380962e2da"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "01d381673776cd57",
+      "sourceWeeks": [
+        14,
+        15,
+        16
+      ],
+      "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK",
+      "videoSearchScore": 6.4,
+      "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Üçgende Açı ve Kenar İlişkileri"
   }
 }

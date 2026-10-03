@@ -2,10 +2,22 @@
   "id": "lesson_alm9_schule_und_alltag",
   "courseId": "course_alm_9",
   "stableKey": "lesson_alm9_schule_und_alltag",
-  "title": "Modul 2 & 3: Meine Schule, Schulsachen & Der Alltag (A1.1)",
-  "orderKey": 2000,
+  "title": "Schulfächer",
+  "orderKey": 7000,
   "items": [
     "item_alm9_vid_schulsachen_artikel",
     "item_alm9_quiz_schule_artikel"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      9
+    ],
+    "theme": "Schulfächer und Tätigkeiten",
+    "sourceTopics": [
+      "Schulfächer international: Schulaktivitäten: Die Schulfächer"
+    ],
+    "kazanims": [
+      "1. Dönem 1. Sınav"
+    ]
+  }
 }

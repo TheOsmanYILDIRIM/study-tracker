@@ -1,0 +1,25 @@
+{
+  "id": "lesson_mat9_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_12_tales_oklid_ve_pisagor_teoremleri",
+  "title": "Tales, Öklid ve Pisagor Teoremleri",
+  "orderKey": 12000,
+  "items": [
+    "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      23,
+      24
+    ],
+    "theme": "EŞLİK VE BENZERLİK",
+    "sourceTopics": [
+      "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
+      "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
+    ],
+    "kazanims": [
+      "9.4.3. Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili yansıtma yapabilme • 9.4.4. Tales, Öklid ve Pisagor teoremlerini ispatlayabilme",
+      "9.4.4. Tales, Öklid ve Pisagor teoremlerini ispatlayabilme • 9.4.5. Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme"
+    ]
+  }
+}

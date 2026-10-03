@@ -7,8 +7,8 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Nüfus Piramitleri, Göçler ve Yerleşme Dokuları",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,16 @@
       "sourceSection": "Nüfus ve Yerleşme",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "b4823e5693786d7e"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "296defe5b8573bf0",
+      "sourceWeeks": [
+        35
+      ],
+      "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+      "videoSearchScore": 6.4,
+      "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025"
+    },
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Afet Türleri"
   }
 }

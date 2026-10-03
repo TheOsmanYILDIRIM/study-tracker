@@ -1,0 +1,31 @@
+{
+  "id": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+  "stableKey": "cog9_vid_topic_03_cografya_biliminin_gelisimi",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Coğrafya Biliminin Gelişimi",
+  "contentUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Coğrafya Biliminin Gelişimi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        3
+      ],
+      "sourceTheme": "COĞRAFYANIN DOĞASI",
+      "sourceTopic": [
+        "Coğrafya Biliminin Gelişimi"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.4,
+      "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+      "fingerprint": "b0a0f02fe19caf3e",
+      "schemaVersion": "v2"
+    }
+  }
+}

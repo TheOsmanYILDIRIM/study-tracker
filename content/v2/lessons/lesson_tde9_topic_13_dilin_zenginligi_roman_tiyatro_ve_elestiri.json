@@ -1,0 +1,26 @@
+{
+  "id": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+  "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
+  "orderKey": 13000,
+  "items": [
+    "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      32,
+      33,
+      34
+    ],
+    "theme": "4.TEMA DİLİN ZENGİNLİĞİ",
+    "sourceTopics": [
+      "OKUMA • • Tema içeriğine uygun bir roman • • Ara Metin: Tema içeriğine uygun bir tiyatro • • Tema içeriğine uygun bir eleştiri"
+    ],
+    "kazanims": [
+      "TDE2.1. “Dilin Zenginliği” temasında ele alınan metinlerde okumayı yönetebilme • TDE2.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme",
+      "TDE2.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+      "TDE2.4. “Dilin Zenginliği” temasında ele alınan metinlere yönelik süreci değerlendirebilme"
+    ]
+  }
+}

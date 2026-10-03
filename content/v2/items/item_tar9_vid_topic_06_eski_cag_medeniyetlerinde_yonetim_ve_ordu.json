@@ -1,0 +1,33 @@
+{
+  "id": "item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "stableKey": "tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15,
+        16
+      ],
+      "sourceTheme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Eski Çağ Medeniyetlerinde Yönetim ve Ordu"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "30ab39c08f7c0249",
+      "schemaVersion": "v2"
+    }
+  }
+}

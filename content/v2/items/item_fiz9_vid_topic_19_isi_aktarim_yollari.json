@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_19_isi_aktarim_yollari",
+  "stableKey": "fiz9_vid_topic_19_isi_aktarim_yollari",
+  "itemType": "VIDEO",
+  "displayLabel": "19.1",
+  "orderKey": 1000,
+  "title": "Isı Aktarım Yolları",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Isı Aktarım Yolları",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        35,
+        36
+      ],
+      "sourceTheme": "ENERJİ",
+      "sourceTopic": [
+        "Isı Aktarım Yolları"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "a356dd6da629eec6",
+      "schemaVersion": "v2"
+    }
+  }
+}

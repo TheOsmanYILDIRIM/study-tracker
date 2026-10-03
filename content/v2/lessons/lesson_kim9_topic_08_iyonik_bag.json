@@ -1,0 +1,23 @@
+{
+  "id": "lesson_kim9_topic_08_iyonik_bag",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_08_iyonik_bag",
+  "title": "İyonik Bağ",
+  "orderKey": 8000,
+  "items": [
+    "item_kim9_vid_topic_08_iyonik_bag"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      14,
+      15
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "İyonik Bağ"
+    ],
+    "kazanims": [
+      "9.2.2. İyonik bağın oluşumunu bilimsel gözleme dayalı tahmin edebilme"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "item_fiz9_vid_topic_20_isi_iletim_hizi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_20_isi_iletim_hizi",
+  "stableKey": "fiz9_vid_topic_20_isi_iletim_hizi",
+  "itemType": "VIDEO",
+  "displayLabel": "20.1",
+  "orderKey": 1000,
+  "title": "Isı İletim Hızı",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Isı İletim Hızı",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        37
+      ],
+      "sourceTheme": "ENERJİ",
+      "sourceTopic": [
+        "Isı İletim Hızı"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "721e3a4904c0d2e6",
+      "schemaVersion": "v2"
+    }
+  }
+}

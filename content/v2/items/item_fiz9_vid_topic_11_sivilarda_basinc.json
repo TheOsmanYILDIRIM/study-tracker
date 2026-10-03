@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_11_sivilarda_basinc",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
+  "stableKey": "fiz9_vid_topic_11_sivilarda_basinc",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Sıvılarda Basınç",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Sıvılarda Basınç",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        20,
+        21
+      ],
+      "sourceTheme": "AKIŞKANLAR",
+      "sourceTopic": [
+        "Sıvılarda Basınç"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "46a64780b021df7d",
+      "schemaVersion": "v2"
+    }
+  }
+}

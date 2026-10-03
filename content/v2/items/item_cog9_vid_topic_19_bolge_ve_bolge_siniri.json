@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_19_bolge_ve_bolge_siniri",
+  "stableKey": "cog9_vid_topic_19_bolge_ve_bolge_siniri",
+  "itemType": "VIDEO",
+  "displayLabel": "19.1",
+  "orderKey": 1000,
+  "title": "Bölge ve Bölge Sınırı",
+  "contentUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Bölge ve Bölge Sınırı",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        38,
+        39
+      ],
+      "sourceTheme": "BÖLGELER, ÜLKELER VE KÜRESEL BAĞLANTILAR",
+      "sourceTopic": [
+        "Bölge ve Bölge Sınırı"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6.97,
+      "videoCandidateTitle": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+      "fingerprint": "029f782d0a0fef1b",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+  "title": "Molekül Polarlığı ve Apolarlığı",
+  "orderKey": 11000,
+  "items": [
+    "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      22
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Molekül Polarlığı ve Apolarlığı"
+    ],
+    "kazanims": [
+      "9.2.5. Molekülleri polar ya da apolar olarak sınıflandırabilme"
+    ]
+  }
+}

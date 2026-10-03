@@ -1,0 +1,35 @@
+{
+  "id": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+  "stableKey": "tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+  "itemType": "VIDEO",
+  "displayLabel": "16.1",
+  "orderKey": 1000,
+  "title": "Dilin Zenginliği: Otobiyografi Yazma",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Dilin Zenginliği: Otobiyografi Yazma",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        38,
+        39,
+        40
+      ],
+      "sourceTheme": "4.TEMA DİLİN ZENGİNLİĞİ",
+      "sourceTopic": [
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi) • YAZMA • • Otobiyografisini yazabilme",
+        "YAZMA • • Otobiyografisini yazabilme",
+        "YAZMA • • Otobiyografisini yazabilme • OKUL TEMELLİ PLANLAMA*"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "1196ee5c0603a2b1",
+      "schemaVersion": "v2"
+    }
+  }
+}

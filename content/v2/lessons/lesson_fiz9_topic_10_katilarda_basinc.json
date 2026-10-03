@@ -1,0 +1,31 @@
+{
+  "id": "lesson_fiz9_topic_10_katilarda_basinc",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_10_katilarda_basinc",
+  "title": "Katılarda Basınç",
+  "orderKey": 10000,
+  "items": [
+    "item_fiz9_vid_topic_10_katilarda_basinc"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      16,
+      20,
+      21,
+      22,
+      23
+    ],
+    "theme": "AKIŞKANLAR",
+    "sourceTopics": [
+      "Basınç",
+      "Sıvılarda Basınç",
+      "Açık Hava Basıncı"
+    ],
+    "kazanims": [
+      "FİZ.9.3.1. Basınca yönelik bilimsel çıkarımlarda bulunabilme",
+      "FİZ.9.3.2. Durgun sıvılarda basınca yönelik bilimsel çıkarımlarda bulunabilme",
+      "FİZ.9.3.3. Sıvılarda basıncın kullanıldığı günlük hayat örneklerine ilişkin sorgulama yapabilme",
+      "FİZ.9.3.4. Açık hava basıncına ilişkin çıkarım yapabilme"
+    ]
+  }
+}

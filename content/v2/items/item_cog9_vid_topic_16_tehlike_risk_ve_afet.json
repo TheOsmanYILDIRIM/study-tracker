@@ -1,0 +1,31 @@
+{
+  "id": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+  "stableKey": "cog9_vid_topic_16_tehlike_risk_ve_afet",
+  "itemType": "VIDEO",
+  "displayLabel": "16.1",
+  "orderKey": 1000,
+  "title": "Tehlike, Risk ve Afet",
+  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Tehlike, Risk ve Afet",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        34
+      ],
+      "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+      "sourceTopic": [
+        "Tehlike, Risk ve Afet"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6.07,
+      "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+      "fingerprint": "22d4ef6a3284441f",
+      "schemaVersion": "v2"
+    }
+  }
+}

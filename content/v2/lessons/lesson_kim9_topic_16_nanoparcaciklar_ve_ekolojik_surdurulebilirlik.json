@@ -1,0 +1,29 @@
+{
+  "id": "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+  "orderKey": 16000,
+  "items": [
+    "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "theme": "SÜRDÜRÜLEBİLİRLİK",
+    "sourceTopics": [
+      "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik • Metal Nanoparçacıklar",
+      "Metal Nanoparçacıklar",
+      "Yeşil Kimyanın Atık Önleme İlkesi, Metal, Alaşım ve • Metal Nanoparçacıkların Çevresel Etkileri"
+    ],
+    "kazanims": [
+      "9.3.1. Evsel atıklardan metal nanoparçacık elde etmek üzere deney yapabilme",
+      "9.3.2. Metal, alaşım ve metal nanoparçacıkların ekosistemdeki etkilerine ilişkin problem çözebilme",
+      "2. Dönem 2. Sınav"
+    ]
+  }
+}

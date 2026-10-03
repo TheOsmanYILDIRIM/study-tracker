@@ -1,0 +1,25 @@
+{
+  "id": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+  "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
+  "orderKey": 7000,
+  "items": [
+    "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      16,
+      17
+    ],
+    "theme": "2.TEMA ANLAM ARAYIŞI",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir)",
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir) • YAZMA • • Temaya uygun bir şiir yazabilme"
+    ],
+    "kazanims": [
+      "TDE1.1. “Anlam Arayışı” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme",
+      "1. Dönem 2. Sınav"
+    ]
+  }
+}

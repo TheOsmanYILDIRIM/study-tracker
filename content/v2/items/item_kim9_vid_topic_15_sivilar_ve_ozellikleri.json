@@ -1,0 +1,38 @@
+{
+  "id": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
+  "stableKey": "kim9_vid_topic_15_sivilar_ve_ozellikleri",
+  "itemType": "VIDEO",
+  "displayLabel": "15.1",
+  "orderKey": 1000,
+  "title": "Sıvılar ve Özellikleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Sıvılar ve Özellikleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Sıvılar ve Özellikleri (Kaynama Sıcaklığı ve Buhar Basıncı, Viskozite, Adezyon ve Kohezyon Kuvvetleri, Yüzey Gerilimi)"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "f313b0e4edef204d",
+      "schemaVersion": "v2"
+    }
+  }
+}

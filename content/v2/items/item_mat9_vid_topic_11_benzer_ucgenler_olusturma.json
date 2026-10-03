@@ -1,0 +1,31 @@
+{
+  "id": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
+  "stableKey": "mat9_vid_topic_11_benzer_ucgenler_olusturma",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Benzer Üçgenler Oluşturma",
+  "contentUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Benzer Üçgenler Oluşturma",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        23
+      ],
+      "sourceTheme": "EŞLİK VE BENZERLİK",
+      "sourceTopic": [
+        "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 4.4,
+      "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+      "fingerprint": "0f4384a467ce5593",
+      "schemaVersion": "v2"
+    }
+  }
+}

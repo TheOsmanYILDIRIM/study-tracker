@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "stableKey": "cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+  "itemType": "VIDEO",
+  "displayLabel": "14.1",
+  "orderKey": 1000,
+  "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        30,
+        31
+      ],
+      "sourceTheme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "Nüfusla İlgili Fırsat, Sorun ve Politikalar"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "8718a402403df86d",
+      "schemaVersion": "v2"
+    }
+  }
+}

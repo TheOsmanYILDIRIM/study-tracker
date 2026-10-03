@@ -1,0 +1,32 @@
+{
+  "id": "item_kim9_vid_topic_09_kovalent_bag",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_09_kovalent_bag",
+  "stableKey": "kim9_vid_topic_09_kovalent_bag",
+  "itemType": "VIDEO",
+  "displayLabel": "9.1",
+  "orderKey": 1000,
+  "title": "Kovalent Bağ",
+  "contentUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Kovalent Bağ",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        16,
+        17
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Kovalent Bağ"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6,
+      "videoCandidateTitle": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
+      "fingerprint": "48b1354f19def983",
+      "schemaVersion": "v2"
+    }
+  }
+}

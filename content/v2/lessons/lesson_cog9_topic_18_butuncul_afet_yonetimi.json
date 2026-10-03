@@ -1,0 +1,23 @@
+{
+  "id": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+  "title": "Bütüncül Afet Yönetimi",
+  "orderKey": 18000,
+  "items": [
+    "item_cog9_vid_topic_18_butuncul_afet_yonetimi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      36,
+      37
+    ],
+    "theme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+    "sourceTopics": [
+      "Bütüncül Afet Yönetimi"
+    ],
+    "kazanims": [
+      "COĞ.9.6.3. Bütüncül afet yönetimi uygulamalarını tablo, grafik, şekil ve/veya diyagramlar aracılığıyla yorumlayabilme"
+    ]
+  }
+}

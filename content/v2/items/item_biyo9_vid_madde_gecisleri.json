@@ -5,18 +5,29 @@
   "stableKey": "biyo9_vid_madde_gecisleri",
   "itemType": "VIDEO",
   "displayLabel": "3.2",
-  "orderKey": 2000,
+  "orderKey": 1000,
   "title": "Hücre Zarından Madde Taşınımı: Pasif, Aktif Taşıma ve Endositoz/Ekzositoz",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=qRIoHv3K-cE",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L110",
       "sourceSection": "Madde Geçişleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "6c69ae5cb5b229d7"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "ca2d5b60d2fc4dde",
+      "sourceWeeks": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceTheme": "ORGANİZASYON",
+      "videoSearchScore": 8.9,
+      "videoCandidateTitle": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+    },
+    "provider": "Dr. Biyoloji",
+    "topic": "Hücre Zarından Madde Geçişleri"
   }
 }

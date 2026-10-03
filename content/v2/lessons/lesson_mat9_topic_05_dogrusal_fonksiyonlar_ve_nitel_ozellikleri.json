@@ -1,0 +1,30 @@
+{
+  "id": "lesson_mat9_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+  "orderKey": 5000,
+  "items": [
+    "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      7,
+      8,
+      9,
+      11
+    ],
+    "theme": "SAYILAR NİCELİKLER VE DEĞİŞİMLER / NİCELİKLER VE DEĞİŞİMLER",
+    "sourceTopics": [
+      "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme • Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri"
+    ],
+    "kazanims": [
+      "9.1.4. Gerçek sayıların işlem özelliklerini cebirsel olarak ifade etmede analojik akıl yürütebilme • 9.2.1. Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a ∙ f(x ± r) ± k, (a, r, k ∈ ℝ, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+      "9.2.1. Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a ∙ f(x ± r) ± k, (a, r, k ∈ ℝ, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+      "1. Dönem 1. Sınav",
+      "9.2.1. Gerçek sayılarda f(x) = x şeklinde tanımlı doğrusal referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen g(x) = a ∙ f(x ± r) ± k, (a, r, k ∈ ℝ, a≠0) doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme • 9.2.2. Gerçek sayılarda m(x) = ± |ax ± b| ± c (a, b, c ∈ℝ, a ≠ 0) şeklinde tanımlı mutlak değer fonksiyonlarının nitel özelliklerini incelemek için doğrusal fonksiyonlara bağlı analojik akıl yürütebilme"
+    ]
+  }
+}

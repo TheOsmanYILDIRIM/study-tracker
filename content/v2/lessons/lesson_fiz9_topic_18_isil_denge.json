@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_18_isil_denge",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_18_isil_denge",
+  "title": "Isıl Denge",
+  "orderKey": 18000,
+  "items": [
+    "item_fiz9_vid_topic_18_isil_denge"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      34
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "Isıl Denge"
+    ],
+    "kazanims": [
+      "FİZ.9.4.4. Isıl denge durumu hakkında bilimsel gözlem yapabilme"
+    ]
+  }
+}

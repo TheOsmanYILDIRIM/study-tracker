@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+  "stableKey": "fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+  "itemType": "VIDEO",
+  "displayLabel": "16.1",
+  "orderKey": 1000,
+  "title": "Isı, Öz Isı ve Isı Sığası",
+  "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Fizikfinito",
+    "topic": "Isı, Öz Isı ve Isı Sığası",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        30,
+        31
+      ],
+      "sourceTheme": "ENERJİ",
+      "sourceTopic": [
+        "Isı, Öz Isı, Isı Sığası ve Sıcaklık Farkı Arasındaki İlişki"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.9,
+      "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
+      "fingerprint": "f7e19b86593dad2b",
+      "schemaVersion": "v2"
+    }
+  }
+}

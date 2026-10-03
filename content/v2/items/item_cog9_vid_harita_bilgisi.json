@@ -1,14 +1,14 @@
 {
   "id": "item_cog9_vid_harita_bilgisi",
   "courseId": "course_cog_9",
-  "lessonId": "lesson_cog9_dogal_sistemler",
+  "lessonId": "lesson_cog9_topic_04_mekanin_aynasi_haritalar",
   "stableKey": "cog9_vid_harita_bilgisi",
   "itemType": "VIDEO",
   "displayLabel": "1.4",
-  "orderKey": 4000,
+  "orderKey": 1000,
   "title": "Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,18 @@
       "sourceSection": "4. Hafta: Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "a3023d913ad0037c"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "1974496951ff6ec6",
+      "sourceWeeks": [
+        4,
+        5,
+        6
+      ],
+      "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
+      "videoSearchScore": 4.4,
+      "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+    },
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Mekânın Aynası Haritalar"
   }
 }

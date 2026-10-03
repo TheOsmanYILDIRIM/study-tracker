@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+  "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
+  "orderKey": 14000,
+  "items": [
+    "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      35,
+      36
+    ],
+    "theme": "4.TEMA DİLİN ZENGİNLİĞİ",
+    "sourceTopics": [
+      "KONUŞMA • • Sosyal medya dilini edebî dilin özellikleri açısından eleştirdiği bir sunum hazırlayabilme"
+    ],
+    "kazanims": [
+      "TDE3.1. Dilin zenginliğini kullandığı akıcı bir konuşma sürecini yönetebilme • TDE3.2. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşma içeriğini oluşturabilme",
+      "TDE3.3. Konusunu dilin zenginliğinden yararlanarak oluşturduğu konuşmasında kural uygulayabilme • TDE3.4. Kullandığı dil özelliklerinin konuşmasına etkisine yönelik süreci değerlendirebilme"
+    ]
+  }
+}

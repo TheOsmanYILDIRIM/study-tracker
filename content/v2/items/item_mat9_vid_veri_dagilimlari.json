@@ -7,16 +7,25 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L250",
       "sourceSection": "Tek Nicel Değişkenli Veri Dağılımları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "6e6b584afe394da8"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "c3eafe06022cf0c4",
+      "sourceWeeks": [
+        30,
+        31
+      ],
+      "sourceTheme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+      "videoSearchScore": 6.79,
+      "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Mantık Bağlaçları ve Niceleyiciler"
   }
 }

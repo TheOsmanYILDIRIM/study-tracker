@@ -1,0 +1,22 @@
+{
+  "id": "lesson_cog9_topic_05_turkiye_nin_cografi_konumu",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_05_turkiye_nin_cografi_konumu",
+  "title": "Türkiye'nin Coğrafi Konumu",
+  "orderKey": 5000,
+  "items": [
+    "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      7
+    ],
+    "theme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
+    "sourceTopics": [
+      "Türkiye’nin Coğrafi Konumu"
+    ],
+    "kazanims": [
+      "COĞ.9.2.2. Türkiye’nin konum özelliklerini algılayabilme"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_05_periyodik_tabloda_yer_bulma",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_05_periyodik_tabloda_yer_bulma",
+  "title": "Periyodik Tabloda Yer Bulma",
+  "orderKey": 5000,
+  "items": [
+    "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      8
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Periyodik Tabloda Yer Bulma"
+    ],
+    "kazanims": [
+      "9.1.6. Elementlerin periyodik tablodaki yerlerine ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

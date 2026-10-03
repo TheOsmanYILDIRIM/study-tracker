@@ -5,7 +5,7 @@
   "stableKey": "fiz9_quiz_fizik_giris",
   "itemType": "QUIZ",
   "displayLabel": "Q1",
-  "orderKey": 3000,
+  "orderKey": 2000,
   "title": "Fizik Bilimi ve Alt Dalları Testi",
   "contentUrl": null,
   "publishingStatus": "active",

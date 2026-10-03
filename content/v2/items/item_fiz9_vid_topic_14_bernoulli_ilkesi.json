@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_14_bernoulli_ilkesi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_14_bernoulli_ilkesi",
+  "stableKey": "fiz9_vid_topic_14_bernoulli_ilkesi",
+  "itemType": "VIDEO",
+  "displayLabel": "14.1",
+  "orderKey": 1000,
+  "title": "Bernoulli İlkesi",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Bernoulli İlkesi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        27,
+        28
+      ],
+      "sourceTheme": "AKIŞKANLAR",
+      "sourceTopic": [
+        "Bernoulli İlkesi"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "bfd47c34771ad993",
+      "schemaVersion": "v2"
+    }
+  }
+}

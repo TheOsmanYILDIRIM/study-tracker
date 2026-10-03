@@ -1,0 +1,31 @@
+{
+  "id": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+  "stableKey": "cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Niçin Coğrafya Öğrenmeliyiz?",
+  "contentUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Niçin Coğrafya Öğrenmeliyiz?",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        2
+      ],
+      "sourceTheme": "COĞRAFYANIN DOĞASI",
+      "sourceTopic": [
+        "Niçin Coğrafya Öğrenmeliyiz?"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.4,
+      "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+      "fingerprint": "0dd5e53a8665206f",
+      "schemaVersion": "v2"
+    }
+  }
+}

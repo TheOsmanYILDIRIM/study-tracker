@@ -1,0 +1,33 @@
+{
+  "id": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "stableKey": "tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "itemType": "VIDEO",
+  "displayLabel": "15.1",
+  "orderKey": 1000,
+  "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        37,
+        38
+      ],
+      "sourceTheme": "4.TEMA DİLİN ZENGİNLİĞİ",
+      "sourceTopic": [
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi)",
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi) • YAZMA • • Otobiyografisini yazabilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "e915a2c7cafa2e4b",
+      "schemaVersion": "v2"
+    }
+  }
+}

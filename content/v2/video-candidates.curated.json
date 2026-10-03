@@ -1,0 +1,5127 @@
+{
+  "schemaVersion": "video-candidates-v1",
+  "generatedAt": "2026-10-03T13:52:47.877Z",
+  "topics": [
+    {
+      "courseName": "Matematik",
+      "ordinal": 1,
+      "title": "Gerçek Sayıların Üslü ve Köklü Gösterimleri",
+      "query": "9. sınıf matematik yeni müfredat Gerçek Sayıların Üslü ve Köklü Gösterimleri Mert Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "TNw7eEas9Oo",
+          "title": "Exponents | Lesson 1 | 9th Grade Math Lecture | Theme 1 | Maarif Model | TAF-9",
+          "channel": "Mert Hoca",
+          "duration": 2913,
+          "url": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+          "score": 3.2
+        },
+        {
+          "id": "ZCmDAAnWESw",
+          "title": "Exponential Representation of Real Numbers | THEME 1, COURSE 1 | 9th Grade Subject Description | ...",
+          "channel": "Mert Hoca",
+          "duration": 1812,
+          "url": "https://www.youtube.com/watch?v=ZCmDAAnWESw",
+          "score": 2
+        },
+        {
+          "id": "R-hCkEHyQPU",
+          "title": "Exponential Representation of Real Numbers | 1st THEME 2nd LESSON | 9th Grade Subject Description...",
+          "channel": "Mert Hoca",
+          "duration": 1744,
+          "url": "https://www.youtube.com/watch?v=R-hCkEHyQPU",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 2,
+      "title": "Gerçek Sayı Aralıkları ve Küme Sembolleri",
+      "existingItemId": "item_mat9_vid_araliklar_gosterim",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 3,
+      "title": "Sayı Kümeleri ve İşlem Özellikleri",
+      "query": "9. sınıf matematik yeni müfredat Sayı Kümeleri ve İşlem Özellikleri Mert Hoca",
+      "selected": {
+        "id": "1GHVanjXGpU",
+        "title": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
+        "channel": "Rehber Matematik",
+        "duration": 2253,
+        "url": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+        "score": 10.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "rMaZ3sxMNc4",
+          "title": "Sayı Kümelerinin Özellikleri 1 | Sayılar | 9.Sınıf Matematik | 12.Ders | Yeni Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 3846,
+          "url": "https://www.youtube.com/watch?v=rMaZ3sxMNc4",
+          "score": 6.95
+        },
+        {
+          "id": "1GHVanjXGpU",
+          "title": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
+          "channel": "Rehber Matematik",
+          "duration": 2253,
+          "url": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+          "score": 6.53
+        },
+        {
+          "id": "TBA4BcTZhJI",
+          "title": "Küme Sembolü ve İşlemler | 1.TEMA 1.DERS | 9.Sınıf Konu Anlatımı | Yeni Maarif Modeli | 2026",
+          "channel": "Mert Hoca",
+          "duration": 3553,
+          "url": "https://www.youtube.com/watch?v=TBA4BcTZhJI",
+          "score": 3.2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 4,
+      "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+      "query": "9. sınıf matematik yeni müfredat Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme Mert Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "t3MFxbdUS34",
+          "title": "9.Sınıf Matematik | Gerçek Sayıların İşlem Özellikleri | Maarif Model | 8.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 1931,
+          "url": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+          "score": 4.7
+        },
+        {
+          "id": "TNw7eEas9Oo",
+          "title": "Exponents | Lesson 1 | 9th Grade Math Lecture | Theme 1 | Maarif Model | TAF-9",
+          "channel": "Mert Hoca",
+          "duration": 2913,
+          "url": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+          "score": 3.2
+        },
+        {
+          "id": "ZCmDAAnWESw",
+          "title": "Exponential Representation of Real Numbers | THEME 1, COURSE 1 | 9th Grade Subject Description | ...",
+          "channel": "Mert Hoca",
+          "duration": 1812,
+          "url": "https://www.youtube.com/watch?v=ZCmDAAnWESw",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 5,
+      "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "query": "9. sınıf matematik yeni müfredat Doğrusal Fonksiyonlar ve Nitel Özellikleri Mert Hoca",
+      "selected": {
+        "id": "yXcmoW3Fsxs",
+        "title": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 3473,
+        "url": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "yXcmoW3Fsxs",
+          "title": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 3473,
+          "url": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+          "score": 5.7
+        },
+        {
+          "id": "bAisadeAerA",
+          "title": "Fonksiyonlar-1 | 59.Gün - 1.Video | 70 Günde TYT Matematik Kampı | 2026",
+          "channel": "Mert Hoca",
+          "duration": 5345,
+          "url": "https://www.youtube.com/watch?v=bAisadeAerA",
+          "score": 3.25
+        },
+        {
+          "id": "4XSK6OQclOw",
+          "title": "9th Grade Mathematics | Linear Functions Defined on Real Numbers - 1 | Maarif Model | Lesson 10",
+          "channel": "Partikül Matematik",
+          "duration": 2190,
+          "url": "https://www.youtube.com/watch?v=4XSK6OQclOw",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 6,
+      "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+      "query": "9. sınıf matematik yeni müfredat Mutlak Değer Fonksiyonu ve Nitel Özellikleri Mert Hoca",
+      "selected": {
+        "id": "Y2kflhXCLgU",
+        "title": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
+        "channel": "Rehber Matematik",
+        "duration": 1620,
+        "url": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+        "score": 10.12,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "Y2kflhXCLgU",
+          "title": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
+          "channel": "Rehber Matematik",
+          "duration": 1620,
+          "url": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+          "score": 6.29
+        },
+        {
+          "id": "41HbGTj5DoM",
+          "title": "Mutlak Değer Fonksiyonu 2 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 12.Ders",
+          "channel": "Rehber Matematik",
+          "duration": 2463,
+          "url": "https://www.youtube.com/watch?v=41HbGTj5DoM",
+          "score": 6.29
+        },
+        {
+          "id": "u-JgCG5yYDc",
+          "title": "9th Grade Mathematics | Absolute Value Functions and Their Qualitative Properties - 1 | Maarif Mo...",
+          "channel": "Partikül Matematik",
+          "duration": 2681,
+          "url": "https://www.youtube.com/watch?v=u-JgCG5yYDc",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 7,
+      "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+      "query": "9. sınıf matematik yeni müfredat Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri Mert Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "goTo5CGult0",
+          "title": "9.Sınıf Matematik | Fonksiyonlar | Denklem ve Eşitsizlik İçeren Problemler | Maarif Model | 14.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 2298,
+          "url": "https://www.youtube.com/watch?v=goTo5CGult0",
+          "score": 3.92
+        },
+        {
+          "id": "QQy0XluFh8g",
+          "title": "Mantık-1 | Önermeler | 9.Sınıf Konu Anlatımı | Akademi Serisi",
+          "channel": "Mert Hoca",
+          "duration": 1753,
+          "url": "https://www.youtube.com/watch?v=QQy0XluFh8g",
+          "score": 2
+        },
+        {
+          "id": "4XSK6OQclOw",
+          "title": "9th Grade Mathematics | Linear Functions Defined on Real Numbers - 1 | Maarif Model | Lesson 10",
+          "channel": "Partikül Matematik",
+          "duration": 2190,
+          "url": "https://www.youtube.com/watch?v=4XSK6OQclOw",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 8,
+      "title": "Üçgende Açı ve Kenar İlişkileri",
+      "query": "9. sınıf matematik yeni müfredat Üçgende Açı ve Kenar İlişkileri Mert Hoca",
+      "selected": {
+        "id": "pQZroodk5no",
+        "title": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 1207,
+        "url": "https://www.youtube.com/watch?v=pQZroodk5no",
+        "score": 6.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "pQZroodk5no",
+          "title": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1207,
+          "url": "https://www.youtube.com/watch?v=pQZroodk5no",
+          "score": 4.2
+        },
+        {
+          "id": "1ocklRxzZ4U",
+          "title": "9th Grade Math, Theme 3 - Part 1 | Angles in a Triangle | Maarif Model | Lesson 16",
+          "channel": "Partikül Matematik",
+          "duration": 2046,
+          "url": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+          "score": 1.7
+        },
+        {
+          "id": "_tmO-LDI0JQ",
+          "title": "Üçgenler Tamamı Konu Anlatımı | Pdf #öğrenmegarantili",
+          "channel": "Matematiğin Güler Yüzü",
+          "duration": 10686,
+          "url": "https://www.youtube.com/watch?v=_tmO-LDI0JQ",
+          "score": 0
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 9,
+      "title": "Geometrik Dönüşümler",
+      "query": "9. sınıf matematik yeni müfredat Geometrik Dönüşümler Mert Hoca",
+      "selected": {
+        "id": "k0yL5iVZiAQ",
+        "title": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 2483,
+        "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "k0yL5iVZiAQ",
+          "title": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 2483,
+          "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+          "score": 5.7
+        },
+        {
+          "id": "xwQ7_Dx2sHs",
+          "title": "9th Grade Math, Theme 4 | Geometric Transformations | Lesson 18",
+          "channel": "Partikül Matematik",
+          "duration": 1711,
+          "url": "https://www.youtube.com/watch?v=xwQ7_Dx2sHs",
+          "score": 0.5
+        },
+        {
+          "id": "ylt640trIq8",
+          "title": "Eyüp b. is stabbing Lucifer Michaelson.",
+          "channel": "Kayra Yeşil",
+          "duration": 45,
+          "url": "https://www.youtube.com/watch?v=ylt640trIq8",
+          "score": 0
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 10,
+      "title": "Eşlik ve Benzerlik Koşulları",
+      "query": "9. sınıf matematik yeni müfredat Eşlik ve Benzerlik Koşulları Mert Hoca",
+      "selected": {
+        "id": "A6dpY6LgHyw",
+        "title": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 1504,
+        "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+        "score": 9.55,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "A6dpY6LgHyw",
+          "title": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1504,
+          "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+          "score": 6.06
+        },
+        {
+          "id": "NK_JR0CLrWA",
+          "title": "9.Sınıf Matematik 4. Tema | Eşlik ve Benzerlik - 1 | 19.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 1905,
+          "url": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+          "score": 4.5
+        },
+        {
+          "id": "p-XuAnuVanA",
+          "title": "9.Sınıf Eşlik benzerlik| 9 matematik eşlik benzerlik konu anlatımı | 🚩PDF 🚩",
+          "channel": "Bıyıklı Matematik",
+          "duration": 2254,
+          "url": "https://www.youtube.com/watch?v=p-XuAnuVanA",
+          "score": 3.83
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 11,
+      "title": "Benzer Üçgenler Oluşturma",
+      "query": "9. sınıf matematik yeni müfredat Benzer Üçgenler Oluşturma Mert Hoca",
+      "selected": {
+        "id": "A6dpY6LgHyw",
+        "title": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 1504,
+        "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+        "score": 4.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "A6dpY6LgHyw",
+          "title": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1504,
+          "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+          "score": 3.2
+        },
+        {
+          "id": "NhsfahcWSRE",
+          "title": "Üçgende Benzerlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 4.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1393,
+          "url": "https://www.youtube.com/watch?v=NhsfahcWSRE",
+          "score": 3.2
+        },
+        {
+          "id": "NK_JR0CLrWA",
+          "title": "9.Sınıf Matematik 4. Tema | Eşlik ve Benzerlik - 1 | 19.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 1905,
+          "url": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 12,
+      "title": "Tales, Öklid ve Pisagor Teoremleri",
+      "query": "9. sınıf matematik yeni müfredat Tales, Öklid ve Pisagor Teoremleri Mert Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "kTyAvIto0Uw",
+          "title": "Tales, Öklid ve Pisagor Teoremleri  | 9. Sınıf Matematik #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 2221,
+          "url": "https://www.youtube.com/watch?v=kTyAvIto0Uw",
+          "score": 7.71
+        },
+        {
+          "id": "Rc98hAnao3U",
+          "title": "Tales-Öklid-Pisagor Teoremleri | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 8.Ders| Maarif Modeli",
+          "channel": "Tunç Kurt Matematik",
+          "duration": 3513,
+          "url": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+          "score": 5.7
+        },
+        {
+          "id": "GSOR2hqRc9c",
+          "title": "9th Grade Mathematics | Thales - Pythagoras - Euclid Lesson 1 | Thales' Theorem | New Curriculum",
+          "channel": "Partikül Matematik",
+          "duration": 1675,
+          "url": "https://www.youtube.com/watch?v=GSOR2hqRc9c",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 13,
+      "title": "Eşlik ve Benzerlik Problemleri",
+      "query": "9. sınıf matematik yeni müfredat Eşlik ve Benzerlik Problemleri Mert Hoca",
+      "selected": {
+        "id": "PqRG_EBnECU",
+        "title": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 2168,
+        "url": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+        "score": 8,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "PqRG_EBnECU",
+          "title": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 2168,
+          "url": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+          "score": 5.2
+        },
+        {
+          "id": "TblbOFciF8A",
+          "title": "Üçgende Benzerlik-1 | 60 Günde Geometri | 10.Gün 2.Ders | 2026",
+          "channel": "Mert Hoca",
+          "duration": 2692,
+          "url": "https://www.youtube.com/watch?v=TblbOFciF8A",
+          "score": 3.43
+        },
+        {
+          "id": "p-XuAnuVanA",
+          "title": "9.Sınıf Eşlik benzerlik| 9 matematik eşlik benzerlik konu anlatımı | 🚩PDF 🚩",
+          "channel": "Bıyıklı Matematik",
+          "duration": 2254,
+          "url": "https://www.youtube.com/watch?v=p-XuAnuVanA",
+          "score": 3.36
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 14,
+      "title": "Algoritma Temelli Problemler",
+      "query": "9. sınıf matematik yeni müfredat Algoritma Temelli Problemler Mert Hoca",
+      "selected": {
+        "id": "WJXe0YVy8X0",
+        "title": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+        "channel": "Rehber Matematik",
+        "duration": 2767,
+        "url": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+        "score": 7.43,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "WJXe0YVy8X0",
+          "title": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+          "channel": "Rehber Matematik",
+          "duration": 2767,
+          "url": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+          "score": 4.63
+        },
+        {
+          "id": "SpqEW6DRQ4s",
+          "title": "9th Grade Mathematics | Algorithms and Informatics | New Curriculum",
+          "channel": "Partikül Matematik",
+          "duration": 1629,
+          "url": "https://www.youtube.com/watch?v=SpqEW6DRQ4s",
+          "score": 0.5
+        },
+        {
+          "id": "tNjzUz_yIYA",
+          "title": "9th Grade Mathematics | Algorithm-Based Problem Solving and Graph Theory | New Curriculum",
+          "channel": "Partikül Matematik",
+          "duration": 1856,
+          "url": "https://www.youtube.com/watch?v=tNjzUz_yIYA",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 15,
+      "title": "Mantık Bağlaçları ve Niceleyiciler",
+      "query": "9. sınıf matematik yeni müfredat Mantık Bağlaçları ve Niceleyiciler Mert Hoca",
+      "selected": {
+        "id": "x0Ad7dDKdMs",
+        "title": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
+        "channel": "Rehber Matematik",
+        "duration": 1941,
+        "url": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+        "score": 6.79,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "x0Ad7dDKdMs",
+          "title": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
+          "channel": "Rehber Matematik",
+          "duration": 1941,
+          "url": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+          "score": 4.45
+        },
+        {
+          "id": "HaARiloYX7g",
+          "title": "Mantık 1 | Önerme ve Doğruluk Değeri | 9.SINIF MATEMATİK MatBook | 2024",
+          "channel": "Rehber Matematik",
+          "duration": 1557,
+          "url": "https://www.youtube.com/watch?v=HaARiloYX7g",
+          "score": 3.25
+        },
+        {
+          "id": "k7lBGbgX4zU",
+          "title": "9th Grade Math | Logical Connectives and Quantifiers | Lesson 27",
+          "channel": "Partikül Matematik",
+          "duration": 2690,
+          "url": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 16,
+      "title": "Mantık Bağlaçları ve Niceleyicilerin Algoritmalarda Kullanımı",
+      "query": "9. sınıf matematik yeni müfredat Mantık Bağlaçları ve Niceleyicilerin Algoritmalarda Kullanımı Mert Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 17,
+      "title": "Tek Nicel Değişkenli Veri Dağılımları",
+      "query": "9. sınıf matematik yeni müfredat Tek Nicel Değişkenli Veri Dağılımları Mert Hoca",
+      "selected": {
+        "id": "IBjCKTtZ0ME",
+        "title": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+        "channel": "Rehber Matematik",
+        "duration": 1810,
+        "url": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+        "score": 4.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "IBjCKTtZ0ME",
+          "title": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+          "channel": "Rehber Matematik",
+          "duration": 1810,
+          "url": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+          "score": 3.2
+        },
+        {
+          "id": "7lBahwoY7xI",
+          "title": "9.Sınıf Matematik | İstatistiksel Araştırma Süreci | 6.Tema | Yeni Müfredat",
+          "channel": "Partikül Matematik",
+          "duration": 1456,
+          "url": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+          "score": 2.53
+        },
+        {
+          "id": "0wB3yRPD0wo",
+          "title": "Statistical Research Process | 9th Grade Math #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 3161,
+          "url": "https://www.youtube.com/watch?v=0wB3yRPD0wo",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 18,
+      "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+      "query": "9. sınıf matematik yeni müfredat Hazır Veri Dağılımlarını İnceleme ve Yorumlama Mert Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "7lBahwoY7xI",
+          "title": "9.Sınıf Matematik | İstatistiksel Araştırma Süreci | 6.Tema | Yeni Müfredat",
+          "channel": "Partikül Matematik",
+          "duration": 1456,
+          "url": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+          "score": 2.7
+        },
+        {
+          "id": "0wB3yRPD0wo",
+          "title": "Statistical Research Process | 9th Grade Math #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 3161,
+          "url": "https://www.youtube.com/watch?v=0wB3yRPD0wo",
+          "score": 2
+        },
+        {
+          "id": "Q08cnkKfPhY",
+          "title": "İstatistik | 9.sınıf matematik konu anlatımı | 6. Tema 🚩PDF 🚩",
+          "channel": "Bıyıklı Matematik",
+          "duration": 3202,
+          "url": "https://www.youtube.com/watch?v=Q08cnkKfPhY",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 19,
+      "title": "Deneysel Olasılık",
+      "query": "9. sınıf matematik yeni müfredat Deneysel Olasılık Mert Hoca",
+      "selected": {
+        "id": "nI6Ry-iocEU",
+        "title": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
+        "channel": "Rehber Matematik",
+        "duration": 1741,
+        "url": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+        "score": 8.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "nI6Ry-iocEU",
+          "title": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1741,
+          "url": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+          "score": 6.06
+        },
+        {
+          "id": "VpzqYMexyeI",
+          "title": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+          "channel": "Rehber Matematik",
+          "duration": 2121,
+          "url": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+          "score": 4.63
+        },
+        {
+          "id": "Bl0hYbEavtY",
+          "title": "9.Sınıf Matematik 7.TEMA | Olasılık 1 | 32.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 1712,
+          "url": "https://www.youtube.com/watch?v=Bl0hYbEavtY",
+          "score": 1.93
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Matematik",
+      "ordinal": 20,
+      "title": "Teorik Olasılık",
+      "query": "9. sınıf matematik yeni müfredat Teorik Olasılık Mert Hoca",
+      "selected": {
+        "id": "VpzqYMexyeI",
+        "title": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+        "channel": "Rehber Matematik",
+        "duration": 2121,
+        "url": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "nI6Ry-iocEU",
+          "title": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
+          "channel": "Rehber Matematik",
+          "duration": 1741,
+          "url": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+          "score": 6.06
+        },
+        {
+          "id": "VpzqYMexyeI",
+          "title": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+          "channel": "Rehber Matematik",
+          "duration": 2121,
+          "url": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+          "score": 5.7
+        },
+        {
+          "id": "Bl0hYbEavtY",
+          "title": "9.Sınıf Matematik 7.TEMA | Olasılık 1 | 32.Ders",
+          "channel": "Partikül Matematik",
+          "duration": 1712,
+          "url": "https://www.youtube.com/watch?v=Bl0hYbEavtY",
+          "score": 3
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rehber matematik"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 1,
+      "title": "Fizik Bilimi",
+      "query": "9. sınıf fizik yeni müfredat Fizik Bilimi Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "MYbTl1BBy_4",
+          "title": "Fiziğin Alt Dalları | Fizik Bilimine Giriş | PDF",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=MYbTl1BBy_4",
+          "score": 3.43
+        },
+        {
+          "id": "XQHH2VV1Bbk",
+          "title": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 2057,
+          "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+          "score": 3.25
+        },
+        {
+          "id": "TYIGkmYMpVw",
+          "title": "Fizik Bilime Giriş ve Kariyer Keşfi | Ders-1 | 9.Sınıf Konu Anlatımı | VIP Fizik",
+          "channel": "VIP FİZİK",
+          "duration": 2085,
+          "url": "https://www.youtube.com/watch?v=TYIGkmYMpVw",
+          "score": 1.75
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 2,
+      "title": "Fizik Biliminin Alt Dalları",
+      "query": "9. sınıf fizik yeni müfredat Fizik Biliminin Alt Dalları Özcan Aykın",
+      "selected": {
+        "id": "xt_Ptx3idM8",
+        "title": "Sub-branches of Physics | 9th grade physics new curriculum (maarif model)",
+        "channel": "Fizikfinito",
+        "duration": 2301,
+        "url": "https://www.youtube.com/watch?v=xt_Ptx3idM8",
+        "score": 2.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "1Hg2eF907YA",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+          "score": 4.73
+        },
+        {
+          "id": "xt_Ptx3idM8",
+          "title": "Sub-branches of Physics | 9th grade physics new curriculum (maarif model)",
+          "channel": "Fizikfinito",
+          "duration": 2301,
+          "url": "https://www.youtube.com/watch?v=xt_Ptx3idM8",
+          "score": 1.7
+        },
+        {
+          "id": "5lFhOLD0V6c",
+          "title": "9th Grade New Maarif Model Physics - Physics Science and Career Exploration / Sub-branches of Phy...",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 977,
+          "url": "https://www.youtube.com/watch?v=5lFhOLD0V6c",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 3,
+      "title": "Fizik Bilimine Yön Verenler",
+      "query": "9. sınıf fizik yeni müfredat Fizik Bilimine Yön Verenler Özcan Aykın",
+      "selected": {
+        "id": "DiYbLCxiVMo",
+        "title": "Those Leading the Science of Physics - Science Centers | 9th grade physics new curriculum (maarif...",
+        "channel": "Fizikfinito",
+        "duration": 2580,
+        "url": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+        "score": 2.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "1Hg2eF907YA",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+          "score": 3.82
+        },
+        {
+          "id": "5pmUa7MZLuo",
+          "title": "Fizik Bilimi ve Kariyer Keşfi | 9FIZ1 #2027",
+          "channel": "tonguç 9. SINIF",
+          "duration": 2411,
+          "url": "https://www.youtube.com/watch?v=5pmUa7MZLuo",
+          "score": 3.25
+        },
+        {
+          "id": "DiYbLCxiVMo",
+          "title": "Those Leading the Science of Physics - Science Centers | 9th grade physics new curriculum (maarif...",
+          "channel": "Fizikfinito",
+          "duration": 2580,
+          "url": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 4,
+      "title": "Fizikte Kariyer Keşfi",
+      "query": "9. sınıf fizik yeni müfredat Fizikte Kariyer Keşfi Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "DCzhnfckaFo",
+          "title": "2026/2027 9. SINIF FİZİK DERSİ ! FİZİK BİLİMİ VE KARİYER KEŞFİ PART 1",
+          "channel": "Fizik Minibüsü",
+          "duration": 1058,
+          "url": "https://www.youtube.com/watch?v=DCzhnfckaFo",
+          "score": 4.94
+        },
+        {
+          "id": "5pmUa7MZLuo",
+          "title": "Fizik Bilimi ve Kariyer Keşfi | 9FIZ1 #2027",
+          "channel": "tonguç 9. SINIF",
+          "duration": 2411,
+          "url": "https://www.youtube.com/watch?v=5pmUa7MZLuo",
+          "score": 4.86
+        },
+        {
+          "id": "TYIGkmYMpVw",
+          "title": "Fizik Bilime Giriş ve Kariyer Keşfi | Ders-1 | 9.Sınıf Konu Anlatımı | VIP Fizik",
+          "channel": "VIP FİZİK",
+          "duration": 2085,
+          "url": "https://www.youtube.com/watch?v=TYIGkmYMpVw",
+          "score": 3
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 5,
+      "title": "Temel ve Türetilmiş Nicelikler",
+      "query": "9. sınıf fizik yeni müfredat Temel ve Türetilmiş Nicelikler Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "4q6a5_hOJ34",
+          "title": "9. Sınıf Yeni Maarif Model Fizik - Kuvvet ve Hareket / Temel ve Türetilmiş Büyüklükler",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1224,
+          "url": "https://www.youtube.com/watch?v=4q6a5_hOJ34",
+          "score": 6.14
+        },
+        {
+          "id": "7aVrdQ7uSQ4",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 2 | Fiziksel Büyüklükler | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+          "score": 2
+        },
+        {
+          "id": "2qy0jkD1Q6Q",
+          "title": "TEMEL TÜRETİLMİŞ SKALER VEKTÖREL BÜYÜKLÜKLER📌 9.SINIF FİZİK 2.ÜNİTE 📌 7. Ders ✅ YENİ MÜFREDAT 2025",
+          "channel": "Fizikfinito",
+          "duration": 3014,
+          "url": "https://www.youtube.com/watch?v=2qy0jkD1Q6Q",
+          "score": 1.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 6,
+      "title": "Skaler ve Vektörel Nicelikler",
+      "query": "9. sınıf fizik yeni müfredat Skaler ve Vektörel Nicelikler Özcan Aykın",
+      "selected": {
+        "id": "2qy0jkD1Q6Q",
+        "title": "TEMEL TÜRETİLMİŞ SKALER VEKTÖREL BÜYÜKLÜKLER📌 9.SINIF FİZİK 2.ÜNİTE 📌 7. Ders ✅ YENİ MÜFREDAT 2025",
+        "channel": "Fizikfinito",
+        "duration": 3014,
+        "url": "https://www.youtube.com/watch?v=2qy0jkD1Q6Q",
+        "score": 4.5,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "2qy0jkD1Q6Q",
+          "title": "TEMEL TÜRETİLMİŞ SKALER VEKTÖREL BÜYÜKLÜKLER📌 9.SINIF FİZİK 2.ÜNİTE 📌 7. Ders ✅ YENİ MÜFREDAT 2025",
+          "channel": "Fizikfinito",
+          "duration": 3014,
+          "url": "https://www.youtube.com/watch?v=2qy0jkD1Q6Q",
+          "score": 2.5
+        },
+        {
+          "id": "1Hg2eF907YA",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+          "score": 2
+        },
+        {
+          "id": "7aVrdQ7uSQ4",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 2 | Fiziksel Büyüklükler | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 7,
+      "title": "Vektörler",
+      "query": "9. sınıf fizik yeni müfredat Vektörler Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "R971-SGkfmI",
+          "title": "9. Sınıf Yeni Maarif Model Fizik - Kuvvet ve Hareket / Vektör ve Vektörün Özellikleri",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 747,
+          "url": "https://www.youtube.com/watch?v=R971-SGkfmI",
+          "score": 3.92
+        },
+        {
+          "id": "85ypXUKzn6U",
+          "title": "Vektörler | 9. Sınıf Fizik Konu Anlatımı | 2025- 2026",
+          "channel": "Hocalara Geldik 9. Sınıf",
+          "duration": 650,
+          "url": "https://www.youtube.com/watch?v=85ypXUKzn6U",
+          "score": 2.17
+        },
+        {
+          "id": "1Hg2eF907YA",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 8,
+      "title": "Doğadaki Temel Kuvvetler",
+      "query": "9. sınıf fizik yeni müfredat Doğadaki Temel Kuvvetler Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "1Hg2eF907YA",
+          "title": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1655,
+          "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+          "score": 2
+        },
+        {
+          "id": "gIiMKtPBVuI",
+          "title": "9th Grade New Education Model Physics - Force and Motion / Fundamental Forces in Nature",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1263,
+          "url": "https://www.youtube.com/watch?v=gIiMKtPBVuI",
+          "score": 0.5
+        },
+        {
+          "id": "ZMW1kXpKBjQ",
+          "title": "FUNDAMENTAL FORCES IN NATURE LESSON EXPLANATION📌 9TH GRADE PHYSICS UNIT 2 📌Lesson 14 ✅ 2025 NEW C...",
+          "channel": "Fizikfinito",
+          "duration": 1776,
+          "url": "https://www.youtube.com/watch?v=ZMW1kXpKBjQ",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 9,
+      "title": "Hareket ve Hareket Türleri",
+      "query": "9. sınıf fizik yeni müfredat Hareket ve Hareket Türleri Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "keLN2Q8JAKY",
+          "title": "Hareket ve Hareket Türleri | 9. Sınıf Fizik Konu Anlatımı | 2025- 2026",
+          "channel": "Hocalara Geldik 9. Sınıf",
+          "duration": 1150,
+          "url": "https://www.youtube.com/watch?v=keLN2Q8JAKY",
+          "score": 3.36
+        },
+        {
+          "id": "Qp211SqOGJ4",
+          "title": "55 Günde TYT Fizik Kampı | 6. Gün | Hareket - 1 | Temel Kavramlar | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 2214,
+          "url": "https://www.youtube.com/watch?v=Qp211SqOGJ4",
+          "score": 3.11
+        },
+        {
+          "id": "YxJaVYG5m1w",
+          "title": "9th Grade New Maarif Model Physics - Force and Motion / Types of Motion and Position",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 601,
+          "url": "https://www.youtube.com/watch?v=YxJaVYG5m1w",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 10,
+      "title": "Katılarda Basınç",
+      "query": "9. sınıf fizik yeni müfredat Katılarda Basınç Özcan Aykın",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 11,
+      "title": "Sıvılarda Basınç",
+      "query": "9. sınıf fizik yeni müfredat Sıvılarda Basınç Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "4odGl0pjpmA",
+          "title": "9. Sınıf Yeni Müfredat Fizik - Basınç / Sıvı Basıncı ve Faktörler",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1541,
+          "url": "https://www.youtube.com/watch?v=4odGl0pjpmA",
+          "score": 3.37
+        },
+        {
+          "id": "DnQNBoR_Dsw",
+          "title": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1768,
+          "url": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
+          "score": 3.11
+        },
+        {
+          "id": "1Q3CtzfV1lQ",
+          "title": "55 Günde TYT Fizik Kampı | 33. Gün | Basınç - 8 | Akışkanların Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1540,
+          "url": "https://www.youtube.com/watch?v=1Q3CtzfV1lQ",
+          "score": 3.11
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 12,
+      "title": "Açık Hava Basıncı",
+      "query": "9. sınıf fizik yeni müfredat Açık Hava Basıncı Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "C0D3Qbfbn9M",
+          "title": "9. Sınıf Yeni Müfredat Fizik - Basınç / Açık Hava Basıncı ve Etkileyen Faktörler",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1293,
+          "url": "https://www.youtube.com/watch?v=C0D3Qbfbn9M",
+          "score": 5.45
+        },
+        {
+          "id": "DnQNBoR_Dsw",
+          "title": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1768,
+          "url": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
+          "score": 3.11
+        },
+        {
+          "id": "XQHH2VV1Bbk",
+          "title": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 2057,
+          "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 13,
+      "title": "Kaldırma Kuvveti",
+      "query": "9. sınıf fizik yeni müfredat Kaldırma Kuvveti Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "XQHH2VV1Bbk",
+          "title": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 2057,
+          "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+          "score": 4.5
+        },
+        {
+          "id": "DnQNBoR_Dsw",
+          "title": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1768,
+          "url": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
+          "score": 2
+        },
+        {
+          "id": "uVxDjIHvADs",
+          "title": "9th Grade New Curriculum Physics - Buoyancy / How is it Formed? Factors Affecting It",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 787,
+          "url": "https://www.youtube.com/watch?v=uVxDjIHvADs",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 14,
+      "title": "Bernoulli İlkesi",
+      "query": "9. sınıf fizik yeni müfredat Bernoulli İlkesi Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "1Q3CtzfV1lQ",
+          "title": "55 Günde TYT Fizik Kampı | 33. Gün | Basınç - 8 | Akışkanların Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1540,
+          "url": "https://www.youtube.com/watch?v=1Q3CtzfV1lQ",
+          "score": 2
+        },
+        {
+          "id": "XQHH2VV1Bbk",
+          "title": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 2057,
+          "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+          "score": 2
+        },
+        {
+          "id": "6uu44c5614E",
+          "title": "9th Grade New Curriculum Physics - Pressure / Bernoulli's Principle, Pressure of Fluids",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1107,
+          "url": "https://www.youtube.com/watch?v=6uu44c5614E",
+          "score": 1.61
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 15,
+      "title": "İç Enerji, Isı ve Sıcaklık",
+      "query": "9. sınıf fizik yeni müfredat İç Enerji, Isı ve Sıcaklık Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "Xn9WBohkkkk",
+          "title": "9th Grade New Physics - Energy Step 1 / Concepts of Heat and Temperature",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1236,
+          "url": "https://www.youtube.com/watch?v=Xn9WBohkkkk",
+          "score": 0.5
+        },
+        {
+          "id": "951K68f-kZ4",
+          "title": "36) TYT Physics Style Camp in 45 Days | Heat, Temperature and Expansion | Concept of Heat, Temper...",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 990,
+          "url": "https://www.youtube.com/watch?v=951K68f-kZ4",
+          "score": 0.5
+        },
+        {
+          "id": "j7qt8Jw7KIc",
+          "title": "Energy - Heat, Temperature and Internal Energy Concepts Lesson Explanation - 9th Grade Physics (M...",
+          "channel": "Fizikfinito",
+          "duration": 1716,
+          "url": "https://www.youtube.com/watch?v=j7qt8Jw7KIc",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 16,
+      "title": "Isı, Öz Isı ve Isı Sığası",
+      "query": "9. sınıf fizik yeni müfredat Isı, Öz Isı ve Isı Sığası Özcan Aykın",
+      "selected": {
+        "id": "Lj_tsZ3QKWM",
+        "title": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
+        "channel": "Fizikfinito",
+        "duration": 2379,
+        "url": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "Lj_tsZ3QKWM",
+          "title": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
+          "channel": "Fizikfinito",
+          "duration": 2379,
+          "url": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+          "score": 5.03
+        },
+        {
+          "id": "Hc9Bx2Cd3Tg",
+          "title": "9. Sınıf Yeni Fizik - Enerji 2. Adım / Öz Isı ve Sığası Kavramı",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1542,
+          "url": "https://www.youtube.com/watch?v=Hc9Bx2Cd3Tg",
+          "score": 3.36
+        },
+        {
+          "id": "XRHERBB3kI0",
+          "title": "55 Günde TYT Fizik Kampı | 17. Gün | Isı ve Sıcaklık Soru Çözümü - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1508,
+          "url": "https://www.youtube.com/watch?v=XRHERBB3kI0",
+          "score": 3
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 17,
+      "title": "Hâl Değişimi",
+      "query": "9. sınıf fizik yeni müfredat Hâl Değişimi Özcan Aykın",
+      "selected": {
+        "id": "BZ4muY8Bc1Y",
+        "title": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
+        "channel": "Fizikfinito",
+        "duration": 2055,
+        "url": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+        "score": 8.05,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "BZ4muY8Bc1Y",
+          "title": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
+          "channel": "Fizikfinito",
+          "duration": 2055,
+          "url": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+          "score": 4.56
+        },
+        {
+          "id": "1Q3CtzfV1lQ",
+          "title": "55 Günde TYT Fizik Kampı | 33. Gün | Basınç - 8 | Akışkanların Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1540,
+          "url": "https://www.youtube.com/watch?v=1Q3CtzfV1lQ",
+          "score": 2
+        },
+        {
+          "id": "DnQNBoR_Dsw",
+          "title": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1768,
+          "url": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 18,
+      "title": "Isıl Denge",
+      "query": "9. sınıf fizik yeni müfredat Isıl Denge Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "XRHERBB3kI0",
+          "title": "55 Günde TYT Fizik Kampı | 17. Gün | Isı ve Sıcaklık Soru Çözümü - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1508,
+          "url": "https://www.youtube.com/watch?v=XRHERBB3kI0",
+          "score": 2
+        },
+        {
+          "id": "QCm-YTUR7ek",
+          "title": "9th Grade New Physics - Energy Step 5 / The Concept of Thermal Equilibrium",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 969,
+          "url": "https://www.youtube.com/watch?v=QCm-YTUR7ek",
+          "score": 0.5
+        },
+        {
+          "id": "cMi-cuzNTWc",
+          "title": "42) TYT Physics Style Camp in 45 Days | Heat, Temperature and Expansion | Heat Conduction Methods",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 898,
+          "url": "https://www.youtube.com/watch?v=cMi-cuzNTWc",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 19,
+      "title": "Isı Aktarım Yolları",
+      "query": "9. sınıf fizik yeni müfredat Isı Aktarım Yolları Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "SpqXLtgnHLk",
+          "title": "9th Grade New Physics - Energy Step 6 / Ways of Heat Transfer",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 868,
+          "url": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+          "score": 0.5
+        },
+        {
+          "id": "Xn9WBohkkkk",
+          "title": "9th Grade New Physics - Energy Step 1 / Concepts of Heat and Temperature",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 1236,
+          "url": "https://www.youtube.com/watch?v=Xn9WBohkkkk",
+          "score": 0.5
+        },
+        {
+          "id": "cMi-cuzNTWc",
+          "title": "42) TYT Physics Style Camp in 45 Days | Heat, Temperature and Expansion | Heat Conduction Methods",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 898,
+          "url": "https://www.youtube.com/watch?v=cMi-cuzNTWc",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Fizik",
+      "ordinal": 20,
+      "title": "Isı İletim Hızı",
+      "query": "9. sınıf fizik yeni müfredat Isı İletim Hızı Özcan Aykın",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "kGrdvkxHxjA",
+          "title": "55 Günde TYT Fizik Kampı | 14. Gün | Isı ve Sıcaklık - 1 | İç Enerji, Sıcaklık, Isı | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1848,
+          "url": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
+          "score": 3.11
+        },
+        {
+          "id": "XRHERBB3kI0",
+          "title": "55 Günde TYT Fizik Kampı | 17. Gün | Isı ve Sıcaklık Soru Çözümü - 1 | 2026",
+          "channel": "Özcan Aykın FİZİK",
+          "duration": 1508,
+          "url": "https://www.youtube.com/watch?v=XRHERBB3kI0",
+          "score": 3
+        },
+        {
+          "id": "SpqXLtgnHLk",
+          "title": "9th Grade New Physics - Energy Step 6 / Ways of Heat Transfer",
+          "channel": "Altuğ Güneş FİZİK",
+          "duration": 868,
+          "url": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "fizikfinito"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 1,
+      "title": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer",
+      "query": "9. sınıf kimya yeni müfredat Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer Kimya Adası",
+      "selected": {
+        "id": "2MItYrH-QPc",
+        "title": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
+        "channel": "Meschemy Kimya",
+        "duration": 2518,
+        "url": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+        "score": 7.8,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "2MItYrH-QPc",
+          "title": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
+          "channel": "Meschemy Kimya",
+          "duration": 2518,
+          "url": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+          "score": 5
+        },
+        {
+          "id": "uju2vga1yEg",
+          "title": "Kimya Hayattır I Konu Anlatımı I 9. SINIF I Maarif Modeli Kimya Kampı",
+          "channel": "KİMYA ADASI",
+          "duration": 2259,
+          "url": "https://www.youtube.com/watch?v=uju2vga1yEg",
+          "score": 4.2
+        },
+        {
+          "id": "hXXEgaZVeMM",
+          "title": "I 9. SINIF I KİMYA HAYATTIR - 1. BÖLÜM I 1. TEMA : ETKİLEŞİM I",
+          "channel": "KİMYA ADASI",
+          "duration": 1329,
+          "url": "https://www.youtube.com/watch?v=hXXEgaZVeMM",
+          "score": 3
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 2,
+      "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+      "query": "9. sınıf kimya yeni müfredat Kimyasal Maddelerin Kullanımı ve Güvenlik Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "vM33JUDUUUM",
+          "title": "Kimya Bilimi 3 - Kimya ve İş Güvenliği Konu Anlatımı | 39 GÜNDE AYRINTILI TYT KİMYA KAMPI 2026 | 3",
+          "channel": "Meschemy Kimya",
+          "duration": 2637,
+          "url": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+          "score": 2
+        },
+        {
+          "id": "2MItYrH-QPc",
+          "title": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
+          "channel": "Meschemy Kimya",
+          "duration": 2518,
+          "url": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+          "score": 2
+        },
+        {
+          "id": "e6lb3SZukmM",
+          "title": "🧪 9th Grade Chemistry | Lesson 1 | Chemistry is Life | 2026-2027 Maarif Curriculum",
+          "channel": "Celal Hoca ile Kimya",
+          "duration": 2314,
+          "url": "https://www.youtube.com/watch?v=e6lb3SZukmM",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 3,
+      "title": "Atom Teorileri ve Atomun Yapısı",
+      "query": "9. sınıf kimya yeni müfredat Atom Teorileri ve Atomun Yapısı Kimya Adası",
+      "selected": {
+        "id": "vi02jMBOkgg",
+        "title": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4",
+        "channel": "Meschemy Kimya",
+        "duration": 3172,
+        "url": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+        "score": 7.31,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "vi02jMBOkgg",
+          "title": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4",
+          "channel": "Meschemy Kimya",
+          "duration": 3172,
+          "url": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+          "score": 4.73
+        },
+        {
+          "id": "vhrUAPxyHHM",
+          "title": "I 9. SINIF KİMYA I ATOM TEORİLERİ I  1. TEMA : ETKİLEŞİM I",
+          "channel": "KİMYA ADASI",
+          "duration": 1282,
+          "url": "https://www.youtube.com/watch?v=vhrUAPxyHHM",
+          "score": 4.5
+        },
+        {
+          "id": "FObQuCr3j2w",
+          "title": "I 9. SINIF KİMYA I ATOM ALTI PARÇACIKLAR I  1. TEMA : ETKİLEŞİM I",
+          "channel": "KİMYA ADASI",
+          "duration": 1043,
+          "url": "https://www.youtube.com/watch?v=FObQuCr3j2w",
+          "score": 3.83
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 4,
+      "title": "Atom Orbitalleri ve Elektron Dizilimi",
+      "query": "9. sınıf kimya yeni müfredat Atom Orbitalleri ve Elektron Dizilimi Kimya Adası",
+      "selected": {
+        "id": "IZPnDJ13BWM",
+        "title": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
+        "channel": "Meschemy Kimya",
+        "duration": 2182,
+        "url": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+        "score": 8.95,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "pGOxxUCGt2k",
+          "title": "Atom Orbitalleri ve Elektron Dizilimi | 9.Sınıf Kimya #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 2091,
+          "url": "https://www.youtube.com/watch?v=pGOxxUCGt2k",
+          "score": 7.71
+        },
+        {
+          "id": "IZPnDJ13BWM",
+          "title": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
+          "channel": "Meschemy Kimya",
+          "duration": 2182,
+          "url": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+          "score": 5.64
+        },
+        {
+          "id": "PCI9Beli6pM",
+          "title": "I 9. SINIF KİMYA I ATOMLARDA ELEKTRON DAĞILIMI - 1 I  1. TEMA : ETKİLEŞİM I",
+          "channel": "KİMYA ADASI",
+          "duration": 2113,
+          "url": "https://www.youtube.com/watch?v=PCI9Beli6pM",
+          "score": 3.83
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 5,
+      "title": "Periyodik Tabloda Yer Bulma",
+      "query": "9. sınıf kimya yeni müfredat Periyodik Tabloda Yer Bulma Kimya Adası",
+      "selected": {
+        "id": "GpeYdemF6yI",
+        "title": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
+        "channel": "Meschemy Kimya",
+        "duration": 3013,
+        "url": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+        "score": 8.95,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "ETEyIjNir6U",
+          "title": "Periyodik Tabloda Yer Bulma | 9. Sınıf Kimya",
+          "channel": "e-Kimya | Bilge Adımlar",
+          "duration": 330,
+          "url": "https://www.youtube.com/watch?v=ETEyIjNir6U",
+          "score": 7.17
+        },
+        {
+          "id": "fY_iDEraBfQ",
+          "title": "K4 - Periyodik Cetvelde Yer Bulma ve Bloklar",
+          "channel": "KİMYA ADASI",
+          "duration": 1014,
+          "url": "https://www.youtube.com/watch?v=fY_iDEraBfQ",
+          "score": 6.5
+        },
+        {
+          "id": "GpeYdemF6yI",
+          "title": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
+          "channel": "Meschemy Kimya",
+          "duration": 3013,
+          "url": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+          "score": 5.64
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 6,
+      "title": "Periyodik Özellikler",
+      "query": "9. sınıf kimya yeni müfredat Periyodik Özellikler Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "8mG-PM8ngTA",
+          "title": "Atomdan Periyodik Cetvele I Konu Anlatımı I 9. SINIF I Maarif Modeli Kimya Kampı",
+          "channel": "KİMYA ADASI",
+          "duration": 3219,
+          "url": "https://www.youtube.com/watch?v=8mG-PM8ngTA",
+          "score": 2.81
+        },
+        {
+          "id": "5wTqs5bYmIM",
+          "title": "I 9. SINIF KİMYA I ATOM ÇAPI  - YARIÇAPI - HACMİ I  1. TEMA : ETKİLEŞİM I",
+          "channel": "KİMYA ADASI",
+          "duration": 1253,
+          "url": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+          "score": 1.93
+        },
+        {
+          "id": "uju2vga1yEg",
+          "title": "Kimya Hayattır I Konu Anlatımı I 9. SINIF I Maarif Modeli Kimya Kampı",
+          "channel": "KİMYA ADASI",
+          "duration": 2259,
+          "url": "https://www.youtube.com/watch?v=uju2vga1yEg",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 7,
+      "title": "Metalik Bağ",
+      "query": "9. sınıf kimya yeni müfredat Metalik Bağ Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "r80DLJNK-Tg",
+          "title": "C4 - METALİK BAĞ",
+          "channel": "KİMYA ADASI",
+          "duration": 1233,
+          "url": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+          "score": 3.83
+        },
+        {
+          "id": "rDDAs8jUKA8",
+          "title": "Metallic and Ionic Bonds | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1561,
+          "url": "https://www.youtube.com/watch?v=rDDAs8jUKA8",
+          "score": 2
+        },
+        {
+          "id": "K91digoNS6w",
+          "title": "Metallic Bonding | 9th Grade Chemistry #discover #education #tytkimya",
+          "channel": "e-Kimya | Bilge Adımlar",
+          "duration": 292,
+          "url": "https://www.youtube.com/watch?v=K91digoNS6w",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 8,
+      "title": "İyonik Bağ",
+      "query": "9. sınıf kimya yeni müfredat İyonik Bağ Kimya Adası",
+      "selected": {
+        "id": "aHEdCmKnCPo",
+        "title": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
+        "channel": "Meschemy Kimya",
+        "duration": 2015,
+        "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+        "score": 6,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "aHEdCmKnCPo",
+          "title": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
+          "channel": "Meschemy Kimya",
+          "duration": 2015,
+          "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+          "score": 4
+        },
+        {
+          "id": "rDDAs8jUKA8",
+          "title": "Metallic and Ionic Bonds | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1561,
+          "url": "https://www.youtube.com/watch?v=rDDAs8jUKA8",
+          "score": 2
+        },
+        {
+          "id": "wDiaEQN3TFE",
+          "title": "I 9. SINIF KİMYA I ZAYIF ETKİLEŞİMLER I WAN DER VALLS VE HİDROJEN BAĞLARI  I  2. TEMA : ÇEŞİTLİLİK I",
+          "channel": "KİMYA ADASI",
+          "duration": 1773,
+          "url": "https://www.youtube.com/watch?v=wDiaEQN3TFE",
+          "score": 1.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 9,
+      "title": "Kovalent Bağ",
+      "query": "9. sınıf kimya yeni müfredat Kovalent Bağ Kimya Adası",
+      "selected": {
+        "id": "aJzqsKeB2Zs",
+        "title": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
+        "channel": "Meschemy Kimya",
+        "duration": 2451,
+        "url": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+        "score": 6,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "aJzqsKeB2Zs",
+          "title": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
+          "channel": "Meschemy Kimya",
+          "duration": 2451,
+          "url": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+          "score": 4
+        },
+        {
+          "id": "CewxhLL_5Is",
+          "title": "Covalent Bonding | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1414,
+          "url": "https://www.youtube.com/watch?v=CewxhLL_5Is",
+          "score": 2
+        },
+        {
+          "id": "wDiaEQN3TFE",
+          "title": "I 9. SINIF KİMYA I ZAYIF ETKİLEŞİMLER I WAN DER VALLS VE HİDROJEN BAĞLARI  I  2. TEMA : ÇEŞİTLİLİK I",
+          "channel": "KİMYA ADASI",
+          "duration": 1773,
+          "url": "https://www.youtube.com/watch?v=wDiaEQN3TFE",
+          "score": 1.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 10,
+      "title": "Lewis Nokta Yapısı",
+      "query": "9. sınıf kimya yeni müfredat Lewis Nokta Yapısı Kimya Adası",
+      "selected": {
+        "id": "JlB31tyAEgU",
+        "title": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
+        "channel": "Meschemy Kimya",
+        "duration": 1543,
+        "url": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+        "score": 6,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "7GyLGTfMKxg",
+          "title": "9.Sınıf KİMYA | 2.TEMA - 4.Ders | Lewis Nokta Yapısı | 2024-2025 Yeni Müfredat",
+          "channel": "Kimya Dersleri - Sinan İHTİYAROĞLU",
+          "duration": 1953,
+          "url": "https://www.youtube.com/watch?v=7GyLGTfMKxg",
+          "score": 5.99
+        },
+        {
+          "id": "JlB31tyAEgU",
+          "title": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
+          "channel": "Meschemy Kimya",
+          "duration": 1543,
+          "url": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+          "score": 4
+        },
+        {
+          "id": "ZgHekQhyDVY",
+          "title": "🧪 9th Grade Chemistry | Lesson 17 | Theme 2, Part 1 | Writing Lewis Structures | 2026",
+          "channel": "Celal Hoca ile Kimya",
+          "duration": 1523,
+          "url": "https://www.youtube.com/watch?v=ZgHekQhyDVY",
+          "score": 1.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 11,
+      "title": "Molekül Polarlığı ve Apolarlığı",
+      "query": "9. sınıf kimya yeni müfredat Molekül Polarlığı ve Apolarlığı Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "7DmnzxY73Ik",
+          "title": "Polar ve Apolar Moleküller + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 16",
+          "channel": "Meschemy Kimya",
+          "duration": 1920,
+          "url": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+          "score": 2
+        },
+        {
+          "id": "YFbJqGz-13I",
+          "title": "CHEMISTRY IN BRIEF | POLARITY AND NON-POLARITY IN MOLECULES",
+          "channel": "Üniversite Kimyası",
+          "duration": 240,
+          "url": "https://www.youtube.com/watch?v=YFbJqGz-13I",
+          "score": 0.5
+        },
+        {
+          "id": "4cSyICRP6AM",
+          "title": "Moleküllerde Polar & Apolarlık | En Net Anlatım",
+          "channel": "Tuğba Hoca Kimya",
+          "duration": 788,
+          "url": "https://www.youtube.com/watch?v=4cSyICRP6AM",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 12,
+      "title": "Bileşiklerin Adlandırılması",
+      "query": "9. sınıf kimya yeni müfredat Bileşiklerin Adlandırılması Kimya Adası",
+      "selected": {
+        "id": "1LcHGeLKs5A",
+        "title": "İyonik Bileşiklerin Adlandırılması + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 17",
+        "channel": "Meschemy Kimya",
+        "duration": 1596,
+        "url": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+        "score": 6.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "1LcHGeLKs5A",
+          "title": "İyonik Bileşiklerin Adlandırılması + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 17",
+          "channel": "Meschemy Kimya",
+          "duration": 1596,
+          "url": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+          "score": 4.22
+        },
+        {
+          "id": "6DApHjO9m_0",
+          "title": "Naming Compounds | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1977,
+          "url": "https://www.youtube.com/watch?v=6DApHjO9m_0",
+          "score": 2
+        },
+        {
+          "id": "Xh6xi33l9Vs",
+          "title": "🧪 9th Grade Chemistry | Lesson 22 | Theme 2, Part 1 | Naming Compounds | 2026",
+          "channel": "Celal Hoca ile Kimya",
+          "duration": 1498,
+          "url": "https://www.youtube.com/watch?v=Xh6xi33l9Vs",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 13,
+      "title": "Moleküller Arası Etkileşimler",
+      "query": "9. sınıf kimya yeni müfredat Moleküller Arası Etkileşimler Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "d1_esDqj9KA",
+          "title": "Dipol-Dipol ve İyon Dipol Etkileşimi + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 19",
+          "channel": "Meschemy Kimya",
+          "duration": 1242,
+          "url": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+          "score": 2
+        },
+        {
+          "id": "ABT1HBh9puU",
+          "title": "Intermolecular Interactions | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1751,
+          "url": "https://www.youtube.com/watch?v=ABT1HBh9puU",
+          "score": 2
+        },
+        {
+          "id": "wDiaEQN3TFE",
+          "title": "I 9. SINIF KİMYA I ZAYIF ETKİLEŞİMLER I WAN DER VALLS VE HİDROJEN BAĞLARI  I  2. TEMA : ÇEŞİTLİLİK I",
+          "channel": "KİMYA ADASI",
+          "duration": 1773,
+          "url": "https://www.youtube.com/watch?v=wDiaEQN3TFE",
+          "score": 1.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 14,
+      "title": "Katılar ve Özellikleri",
+      "query": "9. sınıf kimya yeni müfredat Katılar ve Özellikleri Kimya Adası",
+      "selected": {
+        "id": "0a4EwSXfhjA",
+        "title": "Katılar ve özellikleri + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 21",
+        "channel": "Meschemy Kimya",
+        "duration": 1728,
+        "url": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+        "score": 6.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "0a4EwSXfhjA",
+          "title": "Katılar ve özellikleri + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 21",
+          "channel": "Meschemy Kimya",
+          "duration": 1728,
+          "url": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+          "score": 4.5
+        },
+        {
+          "id": "GdNlNAcE_gk",
+          "title": "20) TYT Kimya - Katılar - Görkem ŞAHİN - 2026",
+          "channel": "Benim Hocam",
+          "duration": 2142,
+          "url": "https://www.youtube.com/watch?v=GdNlNAcE_gk",
+          "score": 2.17
+        },
+        {
+          "id": "bNuyuvmuQ5s",
+          "title": "9th Grade CHEMISTRY | THEME 2 - Lesson 10 | Solids | 2024-2025 New Curriculum",
+          "channel": "Kimya Dersleri - Sinan İHTİYAROĞLU",
+          "duration": 1964,
+          "url": "https://www.youtube.com/watch?v=bNuyuvmuQ5s",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 15,
+      "title": "Sıvılar ve Özellikleri",
+      "query": "9. sınıf kimya yeni müfredat Sıvılar ve Özellikleri Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "DcZMky8KD0k",
+          "title": "Liquids and Their Properties | 9th Grade Chemistry #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1580,
+          "url": "https://www.youtube.com/watch?v=DcZMky8KD0k",
+          "score": 2
+        },
+        {
+          "id": "b5LwwztWU-o",
+          "title": "9th Grade Chemistry – Liquids and Their Properties: Boiling Point #2026",
+          "channel": "Konuyu Kap",
+          "duration": 369,
+          "url": "https://www.youtube.com/watch?v=b5LwwztWU-o",
+          "score": 0.5
+        },
+        {
+          "id": "m0SkOXAPJTo",
+          "title": "9. SINIF SIVILARIN GENEL ÖZELLİKLERİ, BUHARLAŞMA, YOĞUŞMA, BUHARLAŞMA HIZI KONU ANLATIMI + PDF📌",
+          "channel": "Kimyanın Kimyası",
+          "duration": 1630,
+          "url": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 16,
+      "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+      "query": "9. sınıf kimya yeni müfredat Nanoparçacıklar ve Ekolojik Sürdürülebilirlik Kimya Adası",
+      "selected": {
+        "id": "JXZTb8lRnFU",
+        "title": "Sürdürülebilirlik + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 27",
+        "channel": "Meschemy Kimya",
+        "duration": 2449,
+        "url": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+        "score": 4.97,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "JXZTb8lRnFU",
+          "title": "Sürdürülebilirlik + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 27",
+          "channel": "Meschemy Kimya",
+          "duration": 2449,
+          "url": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+          "score": 3.43
+        },
+        {
+          "id": "xgb_cd16Bfg",
+          "title": "Nanoteknoloji + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 26",
+          "channel": "Meschemy Kimya",
+          "duration": 1595,
+          "url": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+          "score": 2
+        },
+        {
+          "id": "3nUywVsdEJo",
+          "title": "2028 Maarif TYT Chemistry Camp - Nanoparticles and Ecological Sustainability",
+          "channel": "Kimya Dersleri - Sinan İHTİYAROĞLU",
+          "duration": 1508,
+          "url": "https://www.youtube.com/watch?v=3nUywVsdEJo",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Kimya",
+      "ordinal": 17,
+      "title": "Metal Nanoparçacıkların Çevresel Etkileri ve Yeşil Kimya",
+      "query": "9. sınıf kimya yeni müfredat Metal Nanoparçacıkların Çevresel Etkileri ve Yeşil Kimya Kimya Adası",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "xgb_cd16Bfg",
+          "title": "Nanoteknoloji + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 26",
+          "channel": "Meschemy Kimya",
+          "duration": 1595,
+          "url": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+          "score": 2
+        },
+        {
+          "id": "JXZTb8lRnFU",
+          "title": "Sürdürülebilirlik + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 27",
+          "channel": "Meschemy Kimya",
+          "duration": 2449,
+          "url": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "meschemy kimya"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 1,
+      "title": "Biyolojinin Önemi, Dönüm Noktaları ve Bilimin Doğası",
+      "query": "9. sınıf biyoloji yeni müfredat Biyolojinin Önemi, Dönüm Noktaları ve Bilimin Doğası Dr. Biyoloji",
+      "selected": {
+        "id": "6ObFP2ZRIws",
+        "title": "Biyolojinin Önemi ve Geleceği | 9. Sınıf Maarif Model | Dr. Biyoloji",
+        "channel": "Dr. Biyoloji",
+        "duration": 1296,
+        "url": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
+        "score": 9.55,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "6ObFP2ZRIws",
+          "title": "Biyolojinin Önemi ve Geleceği | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1296,
+          "url": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
+          "score": 6.06
+        },
+        {
+          "id": "84J7RbQH-fU",
+          "title": "9TH GRADE BIOLOGY NEW CURRICULUM | IMPORTANCE OF BIOLOGY AND TURNING POINTS | MAARIF MODEL LESSON 1",
+          "channel": "Biosem Biyoloji",
+          "duration": 1355,
+          "url": "https://www.youtube.com/watch?v=84J7RbQH-fU",
+          "score": 2
+        },
+        {
+          "id": "4GnEUuJZNFw",
+          "title": "1) The Importance and Milestones of Biology | 9th Grade Biology (Maarif Model, New Curriculum)",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 1391,
+          "url": "https://www.youtube.com/watch?v=4GnEUuJZNFw",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 2,
+      "title": "Bilimsel Araştırma Süreçleri ve Bilim Etiği",
+      "query": "9. sınıf biyoloji yeni müfredat Bilimsel Araştırma Süreçleri ve Bilim Etiği Dr. Biyoloji",
+      "selected": {
+        "id": "V0SzzIeniHc",
+        "title": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
+        "channel": "Dr. Biyoloji",
+        "duration": 1366,
+        "url": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+        "score": 10.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "V0SzzIeniHc",
+          "title": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1366,
+          "url": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+          "score": 6.53
+        },
+        {
+          "id": "jvggrxeN8is",
+          "title": "9. SINIF BİYOLOJİ YENİ MÜFREDAT | BİLİMSEL YÖNTEM | MAARİF MODELİ | 2. DERS",
+          "channel": "Biosem Biyoloji",
+          "duration": 1693,
+          "url": "https://www.youtube.com/watch?v=jvggrxeN8is",
+          "score": 2
+        },
+        {
+          "id": "v4Hhj6TjNvU",
+          "title": "2) The Nature of Science and Scientific Research Processes | 9th Grade Biology (Maarif, New Curri...",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 3069,
+          "url": "https://www.youtube.com/watch?v=v4Hhj6TjNvU",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 3,
+      "title": "Canlıların Ortak Özellikleri",
+      "query": "9. sınıf biyoloji yeni müfredat Canlıların Ortak Özellikleri Dr. Biyoloji",
+      "selected": {
+        "id": "BpTQTWQYdnA",
+        "title": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
+        "channel": "Dr. Biyoloji",
+        "duration": 1915,
+        "url": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+        "score": 15.2,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "BpTQTWQYdnA",
+          "title": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
+          "channel": "Dr. Biyoloji",
+          "duration": 1915,
+          "url": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+          "score": 9.2
+        },
+        {
+          "id": "LQdfUG7e9SY",
+          "title": "Canlıların Karakteristik Özellikleri - 1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1041,
+          "url": "https://www.youtube.com/watch?v=LQdfUG7e9SY",
+          "score": 6.06
+        },
+        {
+          "id": "JqVImq7hFjk",
+          "title": "Canlıların Karakteristik Özellikleri | Dr. Biyoloji | Dönem 2026 - 2027",
+          "channel": "Dr. Biyoloji",
+          "duration": 2002,
+          "url": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+          "score": 4.86
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 4,
+      "title": "İnorganik Moleküller",
+      "query": "9. sınıf biyoloji yeni müfredat İnorganik Moleküller Dr. Biyoloji",
+      "selected": {
+        "id": "ywcTnm7b4eo",
+        "title": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
+        "channel": "Dr. Biyoloji",
+        "duration": 1397,
+        "url": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+        "score": 10.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "ywcTnm7b4eo",
+          "title": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
+          "channel": "Dr. Biyoloji",
+          "duration": 1397,
+          "url": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+          "score": 6.53
+        },
+        {
+          "id": "JovmwpUd3DA",
+          "title": "9. Sınıf Biyoloji Yeni Müfredat | İnorganik Bileşikler | Maarif Modeli | 16. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 2591,
+          "url": "https://www.youtube.com/watch?v=JovmwpUd3DA",
+          "score": 4.87
+        },
+        {
+          "id": "g9cOw5bTgQQ",
+          "title": "6) Inorganic Molecules | 9th Grade Biology (Maarif Model, New Curriculum)",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 1533,
+          "url": "https://www.youtube.com/watch?v=g9cOw5bTgQQ",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 5,
+      "title": "Karbonhidratlar",
+      "query": "9. sınıf biyoloji yeni müfredat Karbonhidratlar Dr. Biyoloji",
+      "selected": {
+        "id": "PqxN0m0Fcno",
+        "title": "9. Sınıf Yeni Müfredat | 12. Ders: Organik Bileşikler - Karbohidratlar - 1",
+        "channel": "Dr. Biyoloji",
+        "duration": 1305,
+        "url": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+        "score": 4.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "PqxN0m0Fcno",
+          "title": "9. Sınıf Yeni Müfredat | 12. Ders: Organik Bileşikler - Karbohidratlar - 1",
+          "channel": "Dr. Biyoloji",
+          "duration": 1305,
+          "url": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+          "score": 3.2
+        },
+        {
+          "id": "7VIyzVt4bWA",
+          "title": "9. Sınıf Yeni Müfredat | 13. Ders: Organik Bileşikler - Karbohidratlar - 2",
+          "channel": "Dr. Biyoloji",
+          "duration": 870,
+          "url": "https://www.youtube.com/watch?v=7VIyzVt4bWA",
+          "score": 3.2
+        },
+        {
+          "id": "6gP6KBXLWK0",
+          "title": "9. Sınıf Biyoloji Yeni Müfredat | Karbohidratlar | Maarif Modeli | 18. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 3202,
+          "url": "https://www.youtube.com/watch?v=6gP6KBXLWK0",
+          "score": 3.2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 6,
+      "title": "Lipitler",
+      "query": "9. sınıf biyoloji yeni müfredat Lipitler Dr. Biyoloji",
+      "selected": {
+        "id": "NIAOyodMiEk",
+        "title": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
+        "channel": "Dr. Biyoloji",
+        "duration": 588,
+        "url": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "NIAOyodMiEk",
+          "title": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
+          "channel": "Dr. Biyoloji",
+          "duration": 588,
+          "url": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+          "score": 5.7
+        },
+        {
+          "id": "J5oAV0UlE7s",
+          "title": "Lipitler | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 988,
+          "url": "https://www.youtube.com/watch?v=J5oAV0UlE7s",
+          "score": 5.2
+        },
+        {
+          "id": "rG9mG0f9K_w",
+          "title": "9. Sınıf Biyoloji Yeni Müfredat | Lipitler (Yağlar) | Maarif Modeli | 20. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 1916,
+          "url": "https://www.youtube.com/watch?v=rG9mG0f9K_w",
+          "score": 4.87
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 7,
+      "title": "Proteinler",
+      "query": "9. sınıf biyoloji yeni müfredat Proteinler Dr. Biyoloji",
+      "selected": {
+        "id": "EEsy1O9IqMg",
+        "title": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
+        "channel": "Dr. Biyoloji",
+        "duration": 860,
+        "url": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "EEsy1O9IqMg",
+          "title": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
+          "channel": "Dr. Biyoloji",
+          "duration": 860,
+          "url": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+          "score": 5.7
+        },
+        {
+          "id": "wf0U5cutgEA",
+          "title": "Proteinler | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 999,
+          "url": "https://www.youtube.com/watch?v=wf0U5cutgEA",
+          "score": 5.2
+        },
+        {
+          "id": "Hkv9T2wvyWk",
+          "title": "9. Sınıf Biyoloji Yeni Müfredat | Proteinler | Maarif Modeli | 22. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 1869,
+          "url": "https://www.youtube.com/watch?v=Hkv9T2wvyWk",
+          "score": 5.2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 8,
+      "title": "Enzimler",
+      "query": "9. sınıf biyoloji yeni müfredat Enzimler Dr. Biyoloji",
+      "selected": {
+        "id": "oxACuNnGM6w",
+        "title": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
+        "channel": "Dr. Biyoloji",
+        "duration": 790,
+        "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+        "score": 13.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "oxACuNnGM6w",
+          "title": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
+          "channel": "Dr. Biyoloji",
+          "duration": 790,
+          "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+          "score": 8.2
+        },
+        {
+          "id": "m8Jf_BORcAI",
+          "title": "Enzimler-1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1131,
+          "url": "https://www.youtube.com/watch?v=m8Jf_BORcAI",
+          "score": 5.2
+        },
+        {
+          "id": "V0FYK8agCo0",
+          "title": "9. Sınıf Biyoloji Yeni Müfredat | Enzimler | Maarif Modeli | 25. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 1639,
+          "url": "https://www.youtube.com/watch?v=V0FYK8agCo0",
+          "score": 5.2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 9,
+      "title": "Nükleik Asitler",
+      "query": "9. sınıf biyoloji yeni müfredat Nükleik Asitler Dr. Biyoloji",
+      "selected": {
+        "id": "gRpSp2Kg6y4",
+        "title": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
+        "channel": "Dr. Biyoloji",
+        "duration": 1362,
+        "url": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+        "score": 16.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "gRpSp2Kg6y4",
+          "title": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
+          "channel": "Dr. Biyoloji",
+          "duration": 1362,
+          "url": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+          "score": 9.87
+        },
+        {
+          "id": "8sHan9z39aw",
+          "title": "Nükleik Asitler DNA ve RNA | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1061,
+          "url": "https://www.youtube.com/watch?v=8sHan9z39aw",
+          "score": 5.7
+        },
+        {
+          "id": "QNGI3Awtg18",
+          "title": "12) Nükleik Asitler | 9. Sınıf Biyoloji (Maarif Modeli, Yeni Müfredat)",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 1345,
+          "url": "https://www.youtube.com/watch?v=QNGI3Awtg18",
+          "score": 5.03
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 10,
+      "title": "Vitaminler",
+      "query": "9. sınıf biyoloji yeni müfredat Vitaminler Dr. Biyoloji",
+      "selected": {
+        "id": "mmSJHwyfPMs",
+        "title": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
+        "channel": "Dr. Biyoloji",
+        "duration": 862,
+        "url": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+        "score": 7.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "mmSJHwyfPMs",
+          "title": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 862,
+          "url": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+          "score": 4.87
+        },
+        {
+          "id": "9ONeiMJL6VY",
+          "title": "Vitaminler | Dr. Biyoloji | Dönem 2026 - 2027",
+          "channel": "Dr. Biyoloji",
+          "duration": 473,
+          "url": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
+          "score": 4
+        },
+        {
+          "id": "8KQ9jdLUjqo",
+          "title": "13) Vitaminler | 9. Sınıf Biyoloji (Maarif Modeli, Yeni Müfredat)",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 1481,
+          "url": "https://www.youtube.com/watch?v=8KQ9jdLUjqo",
+          "score": 3.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 11,
+      "title": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek",
+      "query": "9. sınıf biyoloji yeni müfredat Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek Dr. Biyoloji",
+      "selected": {
+        "id": "FKGwJ7crMm0",
+        "title": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+        "channel": "Dr. Biyoloji",
+        "duration": 888,
+        "url": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+        "score": 6.97,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "5EmVMw4B-Sk",
+          "title": "Prokaryot Ökaryot Hücre Zarı Hücre Duvarı 9. Sınıf Yeni Müfredat | Maarif Modeli | 29. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 1333,
+          "url": "https://www.youtube.com/watch?v=5EmVMw4B-Sk",
+          "score": 6.95
+        },
+        {
+          "id": "FKGwJ7crMm0",
+          "title": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 888,
+          "url": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+          "score": 4.63
+        },
+        {
+          "id": "4wHBI6iwHno",
+          "title": "Hücre Organelleri 1.Kısım | Dr. Biyoloji | Dönem 2026 - 2027",
+          "channel": "Dr. Biyoloji",
+          "duration": 1635,
+          "url": "https://www.youtube.com/watch?v=4wHBI6iwHno",
+          "score": 3.43
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 12,
+      "title": "Hücre Zarından Madde Geçişleri",
+      "query": "9. sınıf biyoloji yeni müfredat Hücre Zarından Madde Geçişleri Dr. Biyoloji",
+      "selected": {
+        "id": "qRIoHv3K-cE",
+        "title": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+        "channel": "Dr. Biyoloji",
+        "duration": 1007,
+        "url": "https://www.youtube.com/watch?v=qRIoHv3K-cE",
+        "score": 8.9,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "xxjDvGtEKOg",
+          "title": "Hücre zarından madde geçişleri | 9. Sınıf Yeni Müfredat | Maarif Modeli | 32. Ders",
+          "channel": "Biosem Biyoloji",
+          "duration": 2376,
+          "url": "https://www.youtube.com/watch?v=xxjDvGtEKOg",
+          "score": 8.91
+        },
+        {
+          "id": "qRIoHv3K-cE",
+          "title": "Hücre Zarında Madde Alışverişleri -1 | 9. Sınıf Maarif Model | Dr. Biyoloji",
+          "channel": "Dr. Biyoloji",
+          "duration": 1007,
+          "url": "https://www.youtube.com/watch?v=qRIoHv3K-cE",
+          "score": 5.7
+        },
+        {
+          "id": "Zm5tFcs-HfI",
+          "title": "9. Sınıf Yeni Müfredat | 21. Ders: Madde Alışverişleri-1",
+          "channel": "Dr. Biyoloji",
+          "duration": 1006,
+          "url": "https://www.youtube.com/watch?v=Zm5tFcs-HfI",
+          "score": 5.2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 13,
+      "title": "Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma",
+      "query": "9. sınıf biyoloji yeni müfredat Sınıflandırmada Temel Yaklaşımlar ve Modern Sınıflandırma Dr. Biyoloji",
+      "selected": {
+        "id": "65jjS7xU-Qg",
+        "title": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş",
+        "channel": "Dr. Biyoloji",
+        "duration": 1399,
+        "url": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+        "score": 4.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "65jjS7xU-Qg",
+          "title": "9. Sınıf Yeni Müfredat | 4. Ders: Sınıflandırmaya Giriş",
+          "channel": "Dr. Biyoloji",
+          "duration": 1399,
+          "url": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+          "score": 3.2
+        },
+        {
+          "id": "pVluTudcxls",
+          "title": "9TH GRADE BIOLOGY NEW CURRICULUM | CLASSIFICATION OF LIVING THINGS | EDUCATION MODEL | 8TH COURSE",
+          "channel": "Biosem Biyoloji",
+          "duration": 2114,
+          "url": "https://www.youtube.com/watch?v=pVluTudcxls",
+          "score": 2
+        },
+        {
+          "id": "VC2zViEvoAo",
+          "title": "20) Classification | 9th Grade Biology (Education Model, New Curriculum)",
+          "channel": "BETÜL BİYOLOJİ",
+          "duration": 1927,
+          "url": "https://www.youtube.com/watch?v=VC2zViEvoAo",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 14,
+      "title": "Üç Üst Âlem Sistemi ve Canlı Grupları",
+      "query": "9. sınıf biyoloji yeni müfredat Üç Üst Âlem Sistemi ve Canlı Grupları Dr. Biyoloji",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Biyoloji",
+      "ordinal": 15,
+      "title": "Biyoçeşitlilik",
+      "query": "9. sınıf biyoloji yeni müfredat Biyoçeşitlilik Dr. Biyoloji",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "dr biyoloji"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 1,
+      "title": "Coğrafya Biliminin Konusu ve Bölümleri",
+      "query": "9. sınıf coğrafya yeni müfredat Coğrafya Biliminin Konusu ve Bölümleri Coğrafyanın Kodları",
+      "selected": {
+        "id": "DzoqD30tomo",
+        "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 1834,
+        "url": "https://www.youtube.com/watch?v=DzoqD30tomo",
+        "score": 10.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "DzoqD30tomo",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1834,
+          "url": "https://www.youtube.com/watch?v=DzoqD30tomo",
+          "score": 6.44
+        },
+        {
+          "id": "PeNG9gQvsj0",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-2 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1766,
+          "url": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+          "score": 6.44
+        },
+        {
+          "id": "1-AJn6S0syU",
+          "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2299,
+          "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+          "score": 4.22
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 2,
+      "title": "Niçin Coğrafya Öğrenmeliyiz?",
+      "query": "9. sınıf coğrafya yeni müfredat Niçin Coğrafya Öğrenmeliyiz? Coğrafyanın Kodları",
+      "selected": {
+        "id": "1-AJn6S0syU",
+        "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2299,
+        "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+        "score": 8.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "1-AJn6S0syU",
+          "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2299,
+          "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+          "score": 5.33
+        },
+        {
+          "id": "DzoqD30tomo",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1834,
+          "url": "https://www.youtube.com/watch?v=DzoqD30tomo",
+          "score": 3.11
+        },
+        {
+          "id": "PeNG9gQvsj0",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-2 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1766,
+          "url": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+          "score": 3.11
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 3,
+      "title": "Coğrafya Biliminin Gelişimi",
+      "query": "9. sınıf coğrafya yeni müfredat Coğrafya Biliminin Gelişimi Coğrafyanın Kodları",
+      "selected": {
+        "id": "1-AJn6S0syU",
+        "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2299,
+        "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+        "score": 8.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "1-AJn6S0syU",
+          "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2299,
+          "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+          "score": 5.33
+        },
+        {
+          "id": "DzoqD30tomo",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1834,
+          "url": "https://www.youtube.com/watch?v=DzoqD30tomo",
+          "score": 4.22
+        },
+        {
+          "id": "PeNG9gQvsj0",
+          "title": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-2 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1766,
+          "url": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+          "score": 4.22
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 4,
+      "title": "Mekânın Aynası Haritalar",
+      "query": "9. sınıf coğrafya yeni müfredat Mekânın Aynası Haritalar Coğrafyanın Kodları",
+      "selected": {
+        "id": "lmFGwdkEURc",
+        "title": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 3586,
+        "url": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+        "score": 4.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "lmFGwdkEURc",
+          "title": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 3586,
+          "url": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+          "score": 3.11
+        },
+        {
+          "id": "XpPOAkW7zVc",
+          "title": "2.ünite 📕 Projeksiyonlar ve ölçekler konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2357,
+          "url": "https://www.youtube.com/watch?v=XpPOAkW7zVc",
+          "score": 2
+        },
+        {
+          "id": "1xOMZR2-naA",
+          "title": "2.ünite 📕İzohipsler | Haritalarda yükselti ve yer şekillerinin gösterilmesi 🔴 9.SINIF YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 3081,
+          "url": "https://www.youtube.com/watch?v=1xOMZR2-naA",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 5,
+      "title": "Türkiye'nin Coğrafi Konumu",
+      "query": "9. sınıf coğrafya yeni müfredat Türkiye'nin Coğrafi Konumu Coğrafyanın Kodları",
+      "selected": {
+        "id": "izcd86rxRDw",
+        "title": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2531,
+        "url": "https://www.youtube.com/watch?v=izcd86rxRDw",
+        "score": 9.6,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "izcd86rxRDw",
+          "title": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2531,
+          "url": "https://www.youtube.com/watch?v=izcd86rxRDw",
+          "score": 6
+        },
+        {
+          "id": "1-AJn6S0syU",
+          "title": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2299,
+          "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+          "score": 2
+        },
+        {
+          "id": "lmFGwdkEURc",
+          "title": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 3586,
+          "url": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 6,
+      "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
+      "query": "9. sınıf coğrafya yeni müfredat Mekânsal Bilgi Teknolojilerinin Bileşenleri Coğrafyanın Kodları",
+      "selected": {
+        "id": "AgRlAZjaPE4",
+        "title": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 1180,
+        "url": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+        "score": 7.67,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "jG2-ab1daFA",
+          "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri | 9.Sınıf Coğrafya #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 789,
+          "url": "https://www.youtube.com/watch?v=jG2-ab1daFA",
+          "score": 7.71
+        },
+        {
+          "id": "AgRlAZjaPE4",
+          "title": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1180,
+          "url": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+          "score": 5.02
+        },
+        {
+          "id": "lmFGwdkEURc",
+          "title": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 3586,
+          "url": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 7,
+      "title": "Hava Olayları ve Günlük Hayata Etkileri",
+      "query": "9. sınıf coğrafya yeni müfredat Hava Olayları ve Günlük Hayata Etkileri Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 8,
+      "title": "İklim Sisteminin Bileşen ve Değişkenleri",
+      "query": "9. sınıf coğrafya yeni müfredat İklim Sisteminin Bileşen ve Değişkenleri Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 9,
+      "title": "İklim Türleri",
+      "query": "9. sınıf coğrafya yeni müfredat İklim Türleri Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 10,
+      "title": "İklim Sisteminde Yaşanan Değişiklikler",
+      "query": "9. sınıf coğrafya yeni müfredat İklim Sisteminde Yaşanan Değişiklikler Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 11,
+      "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
+      "query": "9. sınıf coğrafya yeni müfredat Nüfusun Tarihsel Değişimi ve Geleceği Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 12,
+      "title": "Nüfusun Dağılışı ve Hareketleri",
+      "query": "9. sınıf coğrafya yeni müfredat Nüfusun Dağılışı ve Hareketleri Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 13,
+      "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
+      "query": "9. sınıf coğrafya yeni müfredat Demografik Dönüşüm ve Nüfus Piramitleri Coğrafyanın Kodları",
+      "selected": {
+        "id": "SP1MlcvQiAs",
+        "title": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2447,
+        "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+        "score": 11.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "SP1MlcvQiAs",
+          "title": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2447,
+          "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+          "score": 7
+        },
+        {
+          "id": "h4zrcOLXlZM",
+          "title": "Demographic Transition Process and Population Pyramids | 9th Grade Geography #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 826,
+          "url": "https://www.youtube.com/watch?v=h4zrcOLXlZM",
+          "score": 2
+        },
+        {
+          "id": "Safi5lCXNaU",
+          "title": "9.sınıf coğrafya 2.dönem 1.yazılı konu anlatımı 🔴 Full Tekrar / Genel Tekrar 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 3638,
+          "url": "https://www.youtube.com/watch?v=Safi5lCXNaU",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 14,
+      "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
+      "query": "9. sınıf coğrafya yeni müfredat Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar Coğrafyanın Kodları",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "PUu7cEjrBng",
+          "title": "Nüfus politikaları konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1154,
+          "url": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+          "score": 2
+        },
+        {
+          "id": "Zy_6Fgs84N4",
+          "title": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1461,
+          "url": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+          "score": 2
+        },
+        {
+          "id": "SP1MlcvQiAs",
+          "title": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2447,
+          "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 15,
+      "title": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
+      "query": "9. sınıf coğrafya yeni müfredat Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler Coğrafyanın Kodları",
+      "selected": {
+        "id": "Zy_6Fgs84N4",
+        "title": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 1461,
+        "url": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+        "score": 4.79,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "Zy_6Fgs84N4",
+          "title": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1461,
+          "url": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+          "score": 3.25
+        },
+        {
+          "id": "UYlpTrZfgA8",
+          "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2482,
+          "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+          "score": 3.2
+        },
+        {
+          "id": "3iBvwoKVMJM",
+          "title": "Geographical Factors Affecting Economic Activities | 9th Grade Geography #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 1077,
+          "url": "https://www.youtube.com/watch?v=3iBvwoKVMJM",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 16,
+      "title": "Tehlike, Risk ve Afet",
+      "query": "9. sınıf coğrafya yeni müfredat Tehlike, Risk ve Afet Coğrafyanın Kodları",
+      "selected": {
+        "id": "UYlpTrZfgA8",
+        "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2482,
+        "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+        "score": 6.07,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "UYlpTrZfgA8",
+          "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2482,
+          "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+          "score": 4.87
+        },
+        {
+          "id": "UGsM0-wcvLU",
+          "title": "Afetler konu anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 36",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 4246,
+          "url": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+          "score": 3.25
+        },
+        {
+          "id": "g6MvXCVIHwI",
+          "title": "9th Grade | Geography | Hazards, Risks, Disasters and Types of Disasters | Maarif Model",
+          "channel": "Enes Hoca Coğrafya ",
+          "duration": 1143,
+          "url": "https://www.youtube.com/watch?v=g6MvXCVIHwI",
+          "score": 1.7
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 17,
+      "title": "Afet Türleri",
+      "query": "9. sınıf coğrafya yeni müfredat Afet Türleri Coğrafyanın Kodları",
+      "selected": {
+        "id": "UYlpTrZfgA8",
+        "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2482,
+        "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+        "score": 6.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "UYlpTrZfgA8",
+          "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2482,
+          "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+          "score": 5.2
+        },
+        {
+          "id": "UGsM0-wcvLU",
+          "title": "Afetler konu anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 36",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 4246,
+          "url": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+          "score": 3.25
+        },
+        {
+          "id": "kAeQTw96EMc",
+          "title": "2.ünite 📕 Haritalarda dağılışları gösterme yöntemleri 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1993,
+          "url": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 18,
+      "title": "Bütüncül Afet Yönetimi",
+      "query": "9. sınıf coğrafya yeni müfredat Bütüncül Afet Yönetimi Coğrafyanın Kodları",
+      "selected": {
+        "id": "UYlpTrZfgA8",
+        "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 2482,
+        "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+        "score": 6.07,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "UYlpTrZfgA8",
+          "title": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 2482,
+          "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+          "score": 4.87
+        },
+        {
+          "id": "UGsM0-wcvLU",
+          "title": "Afetler konu anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 36",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 4246,
+          "url": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+          "score": 3.25
+        },
+        {
+          "id": "Zy_6Fgs84N4",
+          "title": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1461,
+          "url": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+          "score": 2
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Cografya",
+      "ordinal": 19,
+      "title": "Bölge ve Bölge Sınırı",
+      "query": "9. sınıf coğrafya yeni müfredat Bölge ve Bölge Sınırı Coğrafyanın Kodları",
+      "selected": {
+        "id": "KaImNrWaZEo",
+        "title": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+        "channel": "Coğrafyanın Kodları",
+        "duration": 1166,
+        "url": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+        "score": 6.97,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "KaImNrWaZEo",
+          "title": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1166,
+          "url": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+          "score": 4.63
+        },
+        {
+          "id": "AgRlAZjaPE4",
+          "title": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 1180,
+          "url": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+          "score": 3.2
+        },
+        {
+          "id": "o1Zwg569nMk",
+          "title": "9.sınıf coğrafya 2.dönem 2.yazılı konu anlatımı 🔴 2.dönem full tekrar (nüfus, ekonomi, afet, bölge)",
+          "channel": "Coğrafyanın Kodları",
+          "duration": 7087,
+          "url": "https://www.youtube.com/watch?v=o1Zwg569nMk",
+          "score": 2.41
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "cografyanin kodlari",
+          "coğrafyanın kodları"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 1,
+      "title": "Tarih Öğrenmenin Faydaları",
+      "existingItemId": "item_tar9_vid_birey_toplum",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 2,
+      "title": "Tarihin Doğası",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Tarihin Doğası Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 3,
+      "title": "Tarihsel Bilginin Üretim Süreci",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Tarihsel Bilginin Üretim Süreci Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 4,
+      "title": "Tarih Araştırma ve Yazımında Dijitalleşme",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Tarih Araştırma ve Yazımında Dijitalleşme Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 5,
+      "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "GmBrSdlmuqE",
+          "title": "4) Geçmişin İnşa Sürecinde Tarih | Tarih Öncesi Devirler | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1985,
+          "url": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+          "score": -999
+        },
+        {
+          "id": "vIpp-_ALM9M",
+          "title": "9th grade history Unit 2 Part 1 The Effects of the Agricultural Revolution on Ancient Times / Zed...",
+          "channel": "Ardıç Tarih",
+          "duration": 2780,
+          "url": "https://www.youtube.com/watch?v=vIpp-_ALM9M",
+          "score": -999
+        },
+        {
+          "id": "FEYVixWTlSA",
+          "title": "9. SINIF TARİH 2. ÜNİTE FULL TEKRAR - İNSANLIĞIN İLK DÖNEMLERİ - TYT AYT",
+          "channel": "Sosyal Kale",
+          "duration": 4398,
+          "url": "https://www.youtube.com/watch?v=FEYVixWTlSA",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 6,
+      "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Eski Çağ Medeniyetlerinde Yönetim ve Ordu Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "ptTEW1Ys6Ok",
+          "title": "5) Ancient Civilizations - 1 | YKS-History | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1652,
+          "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+          "score": -999
+        },
+        {
+          "id": "GmBrSdlmuqE",
+          "title": "4) Geçmişin İnşa Sürecinde Tarih | Tarih Öncesi Devirler | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1985,
+          "url": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+          "score": -999
+        },
+        {
+          "id": "eb3YmMgNqZw",
+          "title": "48) Osmanlı Yükselme Dönemi | Fatih Sultan Mehmed | Mehmet Celal ÖZYILDIZ - 2026",
+          "channel": "Retro Yayıncılık",
+          "duration": 2776,
+          "url": "https://www.youtube.com/watch?v=eb3YmMgNqZw",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 7,
+      "title": "Eski Çağ Medeniyetlerinde Hukuk",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Eski Çağ Medeniyetlerinde Hukuk Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "GmBrSdlmuqE",
+          "title": "4) Geçmişin İnşa Sürecinde Tarih | Tarih Öncesi Devirler | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1985,
+          "url": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+          "score": -999
+        },
+        {
+          "id": "ptTEW1Ys6Ok",
+          "title": "5) Ancient Civilizations - 1 | YKS-History | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1652,
+          "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+          "score": -999
+        },
+        {
+          "id": "T7YaD8EPM8o",
+          "title": "1) Pre-Islamic Turkish History - 1 | Mehmet Celal ÖZYILDIZ - 2026",
+          "channel": "Retro Yayıncılık",
+          "duration": 1180,
+          "url": "https://www.youtube.com/watch?v=T7YaD8EPM8o",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 8,
+      "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Eski Çağ'da İnanç, Bilim ve Sanat Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 9,
+      "title": "Türklerde Konargöçer Yaşam",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Türklerde Konargöçer Yaşam Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "Vfe3PEt3nmU",
+          "title": "9.Sınıf Tarih Yeni Müfredat - Türklerde Konargöçer Yaşam - TEK PART",
+          "channel": "#TARİHÇİ",
+          "duration": 966,
+          "url": "https://www.youtube.com/watch?v=Vfe3PEt3nmU",
+          "score": -999
+        },
+        {
+          "id": "GmBrSdlmuqE",
+          "title": "4) Geçmişin İnşa Sürecinde Tarih | Tarih Öncesi Devirler | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1985,
+          "url": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+          "score": -999
+        },
+        {
+          "id": "P74ls2mK4tQ",
+          "title": "9TH GRADE | 2nd Semester - 2nd Written Exam Prep | Mehmet Celal ÖZYILDIZ - History",
+          "channel": "Retro Yayıncılık",
+          "duration": 1686,
+          "url": "https://www.youtube.com/watch?v=P74ls2mK4tQ",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 10,
+      "title": "Orta Çağ'da Kitlesel Göçler",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Orta Çağ'da Kitlesel Göçler Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "xgZZGhZ7QkU",
+          "title": "9th Grade History, Unit 3, Chapter 1, Part I: Mass Migrations in the Middle Ages / Zeduva Educati...",
+          "channel": "Ardıç Tarih",
+          "duration": 1415,
+          "url": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+          "score": -999
+        },
+        {
+          "id": "Bj2Sqzj4bys",
+          "title": "Mass Migration in the Middle Ages📌9th Grade History 📌 Unit 3 New Curriculum",
+          "channel": "Ardıç Tarih",
+          "duration": 1238,
+          "url": "https://www.youtube.com/watch?v=Bj2Sqzj4bys",
+          "score": -999
+        },
+        {
+          "id": "VH1MclAp8CA",
+          "title": "9. Sınıf Tarih | 3.1 Orta Çağ'da Kitlesel Göçler  (Maarif Modeli 2026)",
+          "channel": "Tarihin Kodları",
+          "duration": 2068,
+          "url": "https://www.youtube.com/watch?v=VH1MclAp8CA",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 11,
+      "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Orta Çağ Devletlerinde Yönetim ve Ordu Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "xgZZGhZ7QkU",
+          "title": "9th Grade History, Unit 3, Chapter 1, Part I: Mass Migrations in the Middle Ages / Zeduva Educati...",
+          "channel": "Ardıç Tarih",
+          "duration": 1415,
+          "url": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+          "score": -999
+        },
+        {
+          "id": "ptTEW1Ys6Ok",
+          "title": "5) Ancient Civilizations - 1 | YKS-History | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1652,
+          "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+          "score": -999
+        },
+        {
+          "id": "K25zGospEm8",
+          "title": "44) Beylikten Devlete Osmanlı (Kuruluş) | Osman Gazi - Orhan Gazi | Mehmet Celal ÖZYILDIZ - 2026",
+          "channel": "Retro Yayıncılık",
+          "duration": 1406,
+          "url": "https://www.youtube.com/watch?v=K25zGospEm8",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 12,
+      "title": "Orta Çağ'daki Ticaret Yolları",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Orta Çağ'daki Ticaret Yolları Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "s7VPaPvveVc",
+          "title": "9th Grade History, Unit 3 - Trade Routes in the Middle Ages / Zeduva Education Model",
+          "channel": "Ardıç Tarih",
+          "duration": 1159,
+          "url": "https://www.youtube.com/watch?v=s7VPaPvveVc",
+          "score": -999
+        },
+        {
+          "id": "GmBrSdlmuqE",
+          "title": "4) Geçmişin İnşa Sürecinde Tarih | Tarih Öncesi Devirler | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+          "channel": "Retro Yayıncılık",
+          "duration": 1985,
+          "url": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+          "score": -999
+        },
+        {
+          "id": "qJcA1vcDfqc",
+          "title": "9th Grade History, Unit 3, Section 2, Part I: Political and Military Developments in the Middle A...",
+          "channel": "Ardıç Tarih",
+          "duration": 1338,
+          "url": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+          "score": -999
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Tarih",
+      "ordinal": 13,
+      "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+      "query": "9. sınıf tarih yeni müfredat Mehmet Celal ÖZYILDIZ Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat Mehmet Celal ÖZYILDIZ",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "mehmet celal ozyildiz",
+          "mehmet celal özyıldız"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 1,
+      "title": "Sözün İnceliği: Şiir ve Deneme Okuma-İnceleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Sözün İnceliği: Şiir ve Deneme Okuma-İnceleme Rüştü Hoca",
+      "selected": {
+        "id": "e35E93fV4cg",
+        "title": "9.SINIF | Şiir | Sözün İnceliği | 1.TEMA | Açık, Örtük İleti, Sembol, Çağrışım, Edebi Dil vs.",
+        "channel": "Rüştü Hoca ile Türkçe",
+        "duration": 1012,
+        "url": "https://www.youtube.com/watch?v=e35E93fV4cg",
+        "score": 7.31,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "e35E93fV4cg",
+          "title": "9.SINIF | Şiir | Sözün İnceliği | 1.TEMA | Açık, Örtük İleti, Sembol, Çağrışım, Edebi Dil vs.",
+          "channel": "Rüştü Hoca ile Türkçe",
+          "duration": 1012,
+          "url": "https://www.youtube.com/watch?v=e35E93fV4cg",
+          "score": 4.73
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 2,
+      "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 3,
+      "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Sözün İnceliği: Mülakat Dinleme/İzleme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 4,
+      "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması Rüştü Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "pezx7uaNLDQ",
+          "title": "5dk'da DÜŞÜNCEYİ GELİŞTİRME YOLLARI",
+          "channel": "tonguç AKADEMİ",
+          "duration": 353,
+          "url": "https://www.youtube.com/watch?v=pezx7uaNLDQ",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 5,
+      "title": "Anlam Arayışı: Hikâye ve Anı Okuma-İnceleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlam Arayışı: Hikâye ve Anı Okuma-İnceleme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 6,
+      "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlam Arayışı: Hikâye Karakteri Sunumu Rüştü Hoca",
+      "selected": {
+        "id": "mM4ZCvBetDg",
+        "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+        "channel": "Rüştü Hoca ile Türkçe",
+        "duration": 838,
+        "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+        "score": 5.4,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "mM4ZCvBetDg",
+          "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+          "channel": "Rüştü Hoca ile Türkçe",
+          "duration": 838,
+          "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+          "score": 3.67
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 7,
+      "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlam Arayışı: Şiir Dinleme/İzleme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 8,
+      "title": "Anlam Arayışı: Şiir Yazma",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlam Arayışı: Şiir Yazma Rüştü Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "mM4ZCvBetDg",
+          "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+          "channel": "Rüştü Hoca ile Türkçe",
+          "duration": 838,
+          "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+          "score": 2
+        },
+        {
+          "id": "dos2n5Tk0gw",
+          "title": "9. Sınıf Edebiyat 2. Dönem 2. Yazılıya Hazırlık 📑 #2026",
+          "channel": "tonguç 9. SINIF",
+          "duration": 2539,
+          "url": "https://www.youtube.com/watch?v=dos2n5Tk0gw",
+          "score": 2
+        },
+        {
+          "id": "G689x2NQQHk",
+          "title": "3) Poetry Knowledge | AYT - Turkish Language and Literature | Aker KARTAL - 2026",
+          "channel": "Retro Yayıncılık",
+          "duration": 1253,
+          "url": "https://www.youtube.com/watch?v=G689x2NQQHk",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 9,
+      "title": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı Rüştü Hoca",
+      "selected": {
+        "id": "mM4ZCvBetDg",
+        "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+        "channel": "Rüştü Hoca ile Türkçe",
+        "duration": 838,
+        "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+        "score": 4.97,
+        "source": "curated-existing-candidates",
+        "channelTier": "locked"
+      },
+      "candidates": [
+        {
+          "id": "G8Z8o-1JaVk",
+          "title": "GEZİ YAZISI KONU ANLATIMI / 9.Sınıf 3.Tema Anlamın Yapı Taşları / Deniz Hoca",
+          "channel": "Deniz Hoca",
+          "duration": 1195,
+          "url": "https://www.youtube.com/watch?v=G8Z8o-1JaVk",
+          "score": 4.94
+        },
+        {
+          "id": "mM4ZCvBetDg",
+          "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+          "channel": "Rüştü Hoca ile Türkçe",
+          "duration": 838,
+          "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+          "score": 3.43
+        },
+        {
+          "id": "kgN7I_2-uAY",
+          "title": "ŞİİR BİLGİSİ: Nazım Birimi, Ölçü, Kafiye Şeması / 9.Sınıf 3.Tema Anlamın Yapı Taşları / Deniz Hoca",
+          "channel": "Deniz Hoca",
+          "duration": 1470,
+          "url": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
+          "score": 2.81
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "selected"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 10,
+      "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 11,
+      "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlamın Yapı Taşları: Belgesel Dinleme/İzleme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 12,
+      "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 13,
+      "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Dilin Zenginliği: Roman, Tiyatro ve Eleştiri Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 14,
+      "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 15,
+      "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Dilin Zenginliği: Otobiyografi Dinleme/İzleme Rüştü Hoca",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "TDE",
+      "ordinal": 16,
+      "title": "Dilin Zenginliği: Otobiyografi Yazma",
+      "query": "9. sınıf Türk dili ve edebiyatı yeni müfredat Dilin Zenginliği: Otobiyografi Yazma Rüştü Hoca",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "mM4ZCvBetDg",
+          "title": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+          "channel": "Rüştü Hoca ile Türkçe",
+          "duration": 838,
+          "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+          "score": 2
+        },
+        {
+          "id": "CVjgSy2kE-I",
+          "title": "Eleştiri📌Türk dili ve edebiyat📌9. sınıf 2. dönem 4. tema yeni müfredat",
+          "channel": "Türkçe Saati",
+          "duration": 1308,
+          "url": "https://www.youtube.com/watch?v=CVjgSy2kE-I",
+          "score": 1.7
+        },
+        {
+          "id": "hzkJNg-50Ko",
+          "title": "Eleştiri Nedir? Eleştiri Özellikleri / 9.Sınıf 4.Tema / Deniz Hoca +PDF📝",
+          "channel": "Deniz Hoca",
+          "duration": 487,
+          "url": "https://www.youtube.com/watch?v=hzkJNg-50Ko",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "rustu hoca ile turkce",
+          "rüştü hoca ile türkçe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "locked",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 1,
+      "title": "Theme 1: School Life",
+      "query": "9. sınıf İngilizce MEB Theme 1: School Life Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 2,
+      "title": "Theme 2: Classroom Life",
+      "query": "9. sınıf İngilizce MEB Theme 2: Classroom Life Teacher Efe",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "KfIb0gFvGhA",
+          "title": "9. SINIF İNGİLİZCE 1. ÜNİTE KONU ANLATIMI 2026 | MAARİF MODELİ",
+          "channel": "Sercanİgrek - English Teacher",
+          "duration": 2126,
+          "url": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+          "score": 0.5
+        },
+        {
+          "id": "XOtYzxS5XE0",
+          "title": "5. Sınıf İngilizce (İNGİLİZCE SİL BAŞTAN - Dilek Demirel ile) Canlı Yayını",
+          "channel": "İNGİLİZCE SİL BAŞTAN - Dilek Demirel ile",
+          "duration": 3634,
+          "url": "https://www.youtube.com/watch?v=XOtYzxS5XE0",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 3,
+      "title": "Theme 3: Personal Life — Physical Appearance & Personality",
+      "query": "9. sınıf İngilizce MEB Theme 3: Personal Life — Physical Appearance & Personality Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 4,
+      "title": "Theme 4: Family Life",
+      "query": "9. sınıf İngilizce MEB Theme 4: Family Life Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 5,
+      "title": "Theme 5: Life in the House & Neighbourhood",
+      "query": "9. sınıf İngilizce MEB Theme 5: Life in the House & Neighbourhood Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 6,
+      "title": "Theme 6: Life in the City & Country",
+      "query": "9. sınıf İngilizce MEB Theme 6: Life in the City & Country Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 7,
+      "title": "Theme 7: Life in the World & Nature",
+      "query": "9. sınıf İngilizce MEB Theme 7: Life in the World & Nature Teacher Efe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "İngilizce",
+      "ordinal": 8,
+      "title": "Theme 8: Life in the Universe & Future",
+      "query": "9. sınıf İngilizce MEB Theme 8: Life in the Universe & Future Teacher Efe",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "qXhKi2v5EGM",
+          "title": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI | LIFE IN THE WORLD & NATURE",
+          "channel": "Ms. Jasmin ELT",
+          "duration": 1312,
+          "url": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
+          "score": 2.72
+        }
+      ],
+      "curation": {
+        "lockedChannel": [
+          "teacher efe"
+        ],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 1,
+      "title": "Begrüßung, Verabschiedung und Landeskunde",
+      "query": "9. sınıf Almanca MEB A1 Begrüßung, Verabschiedung und Landeskunde",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 2,
+      "title": "Sich vorstellen und persönliche Angaben",
+      "query": "9. sınıf Almanca MEB A1 Sich vorstellen und persönliche Angaben",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "IXCebgXZSTU",
+          "title": "9th Grade German | Unit 1 - Hallo (Part 1)",
+          "channel": "Frau Genç ile Almanca",
+          "duration": 820,
+          "url": "https://www.youtube.com/watch?v=IXCebgXZSTU",
+          "score": 1.75
+        },
+        {
+          "id": "s45xAmWro98",
+          "title": "9.SINIF / Almanca / Informationen zur Person Etkinlik",
+          "channel": "KADİM TV 9 SINIF UZAKTAN EĞİTİM",
+          "duration": 1406,
+          "url": "https://www.youtube.com/watch?v=s45xAmWro98",
+          "score": 0.5
+        },
+        {
+          "id": "SkZeszajQBA",
+          "title": "Almanca Kursu 12. ve 13. Ders Uzaktan Eğitim",
+          "channel": "Videolar ile Almanca Deutsch mit Videos",
+          "duration": 3375,
+          "url": "https://www.youtube.com/watch?v=SkZeszajQBA",
+          "score": 0.5
+        }
+      ],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 3,
+      "title": "Zahlen 0–20 und Telefonnummer",
+      "query": "9. sınıf Almanca MEB A1 Zahlen 0–20 und Telefonnummer",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "HSLDhlZpcR4",
+          "title": "German Address, Phone Number / German through daily dialogues",
+          "channel": "diyaloglarla almanca",
+          "duration": 129,
+          "url": "https://www.youtube.com/watch?v=HSLDhlZpcR4",
+          "score": 0
+        }
+      ],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 4,
+      "title": "Alter, Alphabet und Buchstabieren",
+      "query": "9. sınıf Almanca MEB A1 Alter, Alphabet und Buchstabieren",
+      "selected": null,
+      "candidates": [
+        {
+          "id": "1ylAhlRoJyg",
+          "title": "The Riddle of the Sands 🌊⛵️ | A Gripping Tale of Adventure and Mystery! 🔍🌅",
+          "channel": "Storytime Haven",
+          "duration": 36256,
+          "url": "https://www.youtube.com/watch?v=1ylAhlRoJyg",
+          "score": 0
+        }
+      ],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 5,
+      "title": "Schulsachen",
+      "query": "9. sınıf Almanca MEB A1 Schulsachen",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 6,
+      "title": "Im Klassenzimmer",
+      "query": "9. sınıf Almanca MEB A1 Im Klassenzimmer",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 7,
+      "title": "Schulfächer",
+      "query": "9. sınıf Almanca MEB A1 Schulfächer",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 8,
+      "title": "Stundenplan und Schule",
+      "query": "9. sınıf Almanca MEB A1 Stundenplan und Schule",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 9,
+      "title": "Familie und Familienmitglieder",
+      "query": "9. sınıf Almanca MEB A1 Familie und Familienmitglieder",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 10,
+      "title": "Berufe",
+      "query": "9. sınıf Almanca MEB A1 Berufe",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 11,
+      "title": "Freizeit und Aktivitäten",
+      "query": "9. sınıf Almanca MEB A1 Freizeit und Aktivitäten",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 12,
+      "title": "Uhrzeiten",
+      "query": "9. sınıf Almanca MEB A1 Uhrzeiten",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    },
+    {
+      "courseName": "Almanca",
+      "ordinal": 13,
+      "title": "Tageszeiten und Tagesablauf",
+      "query": "9. sınıf Almanca MEB A1 Tageszeiten und Tagesablauf",
+      "selected": null,
+      "candidates": [],
+      "curation": {
+        "lockedChannel": [],
+        "inferredPrimary": null,
+        "channelTier": "none",
+        "status": "needs_review"
+      }
+    }
+  ],
+  "curationVersion": "continuity-v1"
+}

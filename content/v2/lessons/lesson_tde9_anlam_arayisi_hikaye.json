@@ -2,10 +2,25 @@
   "id": "lesson_tde9_anlam_arayisi_hikaye",
   "courseId": "course_tde_9",
   "stableKey": "lesson_tde9_anlam_arayisi_hikaye",
-  "title": "2. Tema: Anlam Arayışı (Hikâye, Anı ve İletişim)",
-  "orderKey": 2000,
+  "title": "Anlam Arayışı: Hikâye ve Anı Okuma-İnceleme",
+  "orderKey": 5000,
   "items": [
     "item_tde9_vid_hikaye_turleri",
     "item_tde9_quiz_hikaye_ve_anlam"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      11,
+      12,
+      13
+    ],
+    "theme": "2.TEMA ANLAM ARAYIŞI",
+    "sourceTopics": [
+      "OKUMA • • Tema içeriğine uygun bir hikâye • • Tema içeriğine uygun bir anı"
+    ],
+    "kazanims": [
+      "TDE2.1. “Anlam Arayışı” temasında ele alınan metinlerde okumayı yönetebilme",
+      "TDE2.2. “Anlam Arayışı” temasında ele alınan metinlerde anlam oluşturabilme"
+    ]
+  }
 }

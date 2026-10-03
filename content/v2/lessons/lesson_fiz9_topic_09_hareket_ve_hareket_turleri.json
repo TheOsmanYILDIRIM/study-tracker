@@ -1,0 +1,28 @@
+{
+  "id": "lesson_fiz9_topic_09_hareket_ve_hareket_turleri",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_09_hareket_ve_hareket_turleri",
+  "title": "Hareket ve Hareket Türleri",
+  "orderKey": 9000,
+  "items": [
+    "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "theme": "KUVVET VE HAREKET",
+    "sourceTopics": [
+      "Hareket ve Hareket Türleri"
+    ],
+    "kazanims": [
+      "FİZ.9.2.6. Hareketin temel kavramlarının tanımlarına yönelik tümevarımsal akıl yürütebilme",
+      "FİZ.9.2.7. Hareket türlerini sınıflandırabilme",
+      "1. Dönem 2. Sınav"
+    ]
+  }
+}

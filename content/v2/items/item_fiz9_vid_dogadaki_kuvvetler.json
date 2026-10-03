@@ -1,11 +1,11 @@
 {
   "id": "item_fiz9_vid_dogadaki_kuvvetler",
   "courseId": "course_fiz_9",
-  "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+  "lessonId": "lesson_fiz9_topic_08_dogadaki_temel_kuvvetler",
   "stableKey": "fiz9_vid_dogadaki_kuvvetler",
   "itemType": "VIDEO",
   "displayLabel": "2.2",
-  "orderKey": 2000,
+  "orderKey": 1000,
   "title": "Doğadaki 4 Temel Kuvvet ve Hareket Türleri",
   "contentUrl": null,
   "publishingStatus": "draft",

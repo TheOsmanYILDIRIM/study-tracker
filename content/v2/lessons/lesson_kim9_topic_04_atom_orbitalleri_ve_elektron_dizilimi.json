@@ -1,0 +1,25 @@
+{
+  "id": "lesson_kim9_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+  "title": "Atom Orbitalleri ve Elektron Dizilimi",
+  "orderKey": 4000,
+  "items": [
+    "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      5,
+      6,
+      7
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Atom Orbitalleri ve Elektron Dizilimi"
+    ],
+    "kazanims": [
+      "9.1.4. Atom orbitallerinin bağıl enerjilerine ilişkin bilimsel veriye dayalı tahminde bulunabilme",
+      "9.1.5. Elektronların atom orbitallerine yerleşimine ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

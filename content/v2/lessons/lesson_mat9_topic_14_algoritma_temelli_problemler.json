@@ -1,0 +1,27 @@
+{
+  "id": "lesson_mat9_topic_14_algoritma_temelli_problemler",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_14_algoritma_temelli_problemler",
+  "title": "Algoritma Temelli Problemler",
+  "orderKey": 14000,
+  "items": [
+    "item_mat9_vid_algoritma_temelleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      25,
+      27,
+      28,
+      29
+    ],
+    "theme": "EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM",
+    "sourceTopics": [
+      "Eşlik ve Benzerlik Problemleri • Algoritma Temelli Problemler",
+      "Algoritma Temelli Problemler"
+    ],
+    "kazanims": [
+      "9.4.5. Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme • 9.5.1. Algoritma temelli yaklaşımlarla problem çözebilme",
+      "9.5.1. Algoritma temelli yaklaşımlarla problem çözebilme"
+    ]
+  }
+}

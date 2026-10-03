@@ -1,0 +1,34 @@
+{
+  "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "stableKey": "tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "itemType": "VIDEO",
+  "displayLabel": "13.1",
+  "orderKey": 1000,
+  "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceTheme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Orta Çağ’daki Başlıca Medeniyet Havzalarında Bilim, Kültür ve Sanat"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "938683d6cd434189",
+      "schemaVersion": "v2"
+    }
+  }
+}

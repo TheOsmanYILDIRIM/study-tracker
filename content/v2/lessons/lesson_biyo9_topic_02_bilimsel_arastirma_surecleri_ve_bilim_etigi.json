@@ -1,0 +1,24 @@
+{
+  "id": "lesson_biyo9_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+  "title": "Bilimsel Araştırma Süreçleri ve Bilim Etiği",
+  "orderKey": 2000,
+  "items": [
+    "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      5,
+      6,
+      7
+    ],
+    "theme": "YAŞAM",
+    "sourceTopics": [
+      "Bilimsel Araştırma Süreçleri, Bilim Etiği"
+    ],
+    "kazanims": [
+      "BİY.9.1.3. Bilimsel araştırmaların bilim etiğine uygunluğu ile ilgili bilgi toplayabilme"
+    ]
+  }
+}

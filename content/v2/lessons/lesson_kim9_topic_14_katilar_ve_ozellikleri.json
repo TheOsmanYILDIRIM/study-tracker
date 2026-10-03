@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+  "title": "Katılar ve Özellikleri",
+  "orderKey": 14000,
+  "items": [
+    "item_kim9_vid_topic_14_katilar_ve_ozellikleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      27
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Katılar ve Özellikleri (Amorf ve Kristal Katılar)"
+    ],
+    "kazanims": [
+      "9.2.8.Etkileşimlerin katıların özellikleri üzerindeki etkilerine ilişkin bilimsel çıkarım yapabilme"
+    ]
+  }
+}

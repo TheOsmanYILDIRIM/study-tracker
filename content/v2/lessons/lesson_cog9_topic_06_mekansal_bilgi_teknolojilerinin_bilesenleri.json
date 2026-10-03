@@ -1,0 +1,22 @@
+{
+  "id": "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
+  "orderKey": 6000,
+  "items": [
+    "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      8
+    ],
+    "theme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
+    "sourceTopics": [
+      "Mekânsal Bilgi Teknolojilerinin Bileşenleri"
+    ],
+    "kazanims": [
+      "COĞ.9.2.3. Mekânsal bilgi teknolojilerini oluşturan bileşenleri çözümleyebilme"
+    ]
+  }
+}

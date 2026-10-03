@@ -5,7 +5,7 @@
   "stableKey": "mat9_quiz_algoritma_mantik",
   "itemType": "QUIZ",
   "displayLabel": "Q1",
-  "orderKey": 3000,
+  "orderKey": 2000,
   "title": "Algoritma ve Sembolik Mantık Testi",
   "contentUrl": null,
   "publishingStatus": "active",

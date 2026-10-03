@@ -1,0 +1,35 @@
+{
+  "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "stableKey": "alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Begrüßung, Verabschiedung und Landeskunde",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Begrüßung, Verabschiedung und Landeskunde",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        1,
+        2,
+        3
+      ],
+      "sourceTheme": "Hallo!",
+      "sourceTopic": [
+        "Landeskunde: 16 Bundesländer: Länder und Sprachen: Kontakte",
+        "Wie heißt du?: Jetzt seid ihr dran!: Rund um den Tag!",
+        "Wie ist dein Name?: Hallo, wie geht es dir?: Jetzt seid ihr dran!"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "841d70169514c38b",
+      "schemaVersion": "v2"
+    }
+  }
+}

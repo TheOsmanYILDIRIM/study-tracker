@@ -1,0 +1,32 @@
+{
+  "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "stableKey": "tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "itemType": "VIDEO",
+  "displayLabel": "2.1",
+  "orderKey": 1000,
+  "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        4,
+        5
+      ],
+      "sourceTheme": "1.TEMA SÖZÜN İNCELİĞİ",
+      "sourceTopic": [
+        "YAZMA • • Okuduğu şiiri bir betimleme paragrafı olarak yazabilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "89f32a59f4939423",
+      "schemaVersion": "v2"
+    }
+  }
+}

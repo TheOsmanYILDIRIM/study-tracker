@@ -1,0 +1,33 @@
+{
+  "id": "item_kim9_vid_topic_06_periyodik_ozellikler",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_06_periyodik_ozellikler",
+  "stableKey": "kim9_vid_topic_06_periyodik_ozellikler",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Periyodik Özellikler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Periyodik Özellikler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        9,
+        11,
+        12
+      ],
+      "sourceTheme": "ETKİLEŞİM",
+      "sourceTopic": [
+        "Periyodik Özellikler (Atom Yarıçapı, İyonlaşma Enerjisi ve Elektronegatiflik)"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "f042d1294a03fda1",
+      "schemaVersion": "v2"
+    }
+  }
+}

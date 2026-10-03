@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+  "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+  "orderKey": 2000,
+  "items": [
+    "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      4,
+      5
+    ],
+    "theme": "1.TEMA SÖZÜN İNCELİĞİ",
+    "sourceTopics": [
+      "YAZMA • • Okuduğu şiiri bir betimleme paragrafı olarak yazabilme"
+    ],
+    "kazanims": [
+      "TDE4.1. Edebî söyleyişin inceliğini yansıtmak için paragraf düzeyindeki bir yazısında süreci yönetebilme • TDE4.2. Edebî söyleyişin inceliğini yansıtan metinlerden edindiği söz varlığını kullanarak yazısına içerik oluşturabilme",
+      "TDE4.3. Edebî söyleyişin inceliğini yansıttığı yazısında kural uygulayabilme • TDE4.4. Edebî söyleyişin inceliğini yansıttığı yazısında yazma sürecini değerlendirebilme"
+    ]
+  }
+}

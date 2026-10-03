@@ -1,0 +1,28 @@
+{
+  "id": "lesson_mat9_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+  "orderKey": 7000,
+  "items": [
+    "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      12,
+      13,
+      14
+    ],
+    "theme": "NİCELİKLER VE DEĞİŞİMLER / NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER",
+    "sourceTopics": [
+      "Mutlak Değer Fonksiyonu ve Nitel Özellikleri • Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+      "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+      "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler • Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler"
+    ],
+    "kazanims": [
+      "9.2.2. Gerçek sayılarda m(x) = ± |ax ± b| ± c (a, b, c ∈ℝ, a ≠ 0) şeklinde tanımlı mutlak değer fonksiyonlarının nitel özelliklerini incelemek için doğrusal fonksiyonlara bağlı analojik akıl yürütebilme • 9.2.3. Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problem çözebilme",
+      "9.2.3. Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problem çözebilme",
+      "9.2.3. Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problem çözebilme • 9.3.1. Üçgende açı ve kenarla ilgili özellikleri, üçgenin açıları ve kenarları arasındaki ilişkileri doğrulayabilme veya ispatlayabilme"
+    ]
+  }
+}

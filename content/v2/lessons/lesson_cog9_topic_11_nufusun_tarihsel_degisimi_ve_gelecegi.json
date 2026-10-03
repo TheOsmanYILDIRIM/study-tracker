@@ -1,0 +1,23 @@
+{
+  "id": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+  "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
+  "orderKey": 11000,
+  "items": [
+    "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      23,
+      24
+    ],
+    "theme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+    "sourceTopics": [
+      "Nüfusun Tarihsel Değişimi ve Geleceği"
+    ],
+    "kazanims": [
+      "COĞ.9.4.1. Nüfusun zaman içerisindeki değişimini tablo ve grafikler aracılığı ile yorumlayabilme"
+    ]
+  }
+}

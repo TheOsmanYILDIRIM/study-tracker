@@ -1,0 +1,30 @@
+{
+  "id": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+  "courseId": "course_alm_9",
+  "stableKey": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+  "title": "Familie und Familienmitglieder",
+  "orderKey": 9000,
+  "items": [
+    "item_alm9_vid_topic_09_familie_und_familienmitglieder"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      19,
+      24,
+      25,
+      27,
+      28
+    ],
+    "theme": "Meine Familie und ich / Wer ist wer? / Die Berufe",
+    "sourceTopics": [
+      "Familie Weiß: Mein Album im Netz",
+      "Zeynep und Ayşe: Jetzt seid ihr dran!",
+      "Familienalbum: Wer ist wer?",
+      "Jetzt seid ihr dran!: Ratespiel: Familie Schulze",
+      "Berkes Familie: Tims Familie"
+    ],
+    "kazanims": [
+      "HÖREN • 6. Kann verstehen, wenn sehr langsam und sorgfältig gesprochen wird und wenn lange Pausen Zeit lassen, den Sinn zu erfassen. • 7. Kommt mit Zahlen ab 20 zurecht. • SPRECHEN • 12. Kann sich und andere vorstellen und anderen Leuten Fragen zu ihrer Person stellen und kann auf Fragen dieser Art Antwort geben. • 13. Kann sich mit einfachen, überwiegend isolierten Wendungen über Menschen und Orte äußern. • 14. Kommt mit Zahlen ab 20 zurecht. • 15. Kann sich selbst beschreiben. • LESEN • 7. Kann kurze, einfache Texte Satz für Satz lesen und verstehen. • 8. Kann vertraute Namen, Wörter und ganze elementare Wendungen in einfachen Mitteilungen in Zusammenhang mit den üblichsten Alltagssituationen erkennen. • 9. Kommt mit Zahlen ab 20 zurecht. • SCHREIBEN • 8. Kann einfache, isolierte Wendungen und kurze Sätze schreiben. • 9. Kann einen vorgegebenen Textrahmen vervollständigen. • 10. Kommt mit Zahlen ab 20 zurecht."
+    ]
+  }
+}

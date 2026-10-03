@@ -1,0 +1,33 @@
+{
+  "id": "lesson_biyo9_topic_06_lipitler",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_topic_06_lipitler",
+  "title": "Lipitler",
+  "orderKey": 6000,
+  "items": [
+    "item_biyo9_vid_topic_06_lipitler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      25
+    ],
+    "theme": "YAŞAM",
+    "sourceTopics": [
+      "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
+    ],
+    "kazanims": [
+      "BİY.9.1.6. Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme • .",
+      "1. Dönem 2. Sınav",
+      "BİY.9.1.7. Besinlerin yapısında karbohidrat, lipit ve protein varlığının belirlenmesiyle ilgili deney yapabilme",
+      "BİY.9.1.8. pH ve sıcaklığın enzim aktivitesini etkilediğini gösteren deney yapabilme"
+    ]
+  }
+}

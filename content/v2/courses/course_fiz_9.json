@@ -6,9 +6,25 @@
   "orderKey": 2000,
   "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Fizik Müfredatı (Fizik Bilimi, Kuvvet-Hareket, Akışkanlar ve Enerji)",
   "lessons": [
+    "lesson_fiz9_topic_01_fizik_bilimi",
+    "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+    "lesson_fiz9_topic_03_fizik_bilimine_yon_verenler",
     "lesson_fiz9_fizik_bilimine_giris",
+    "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
     "lesson_fiz9_kuvvet_ve_hareket",
+    "lesson_fiz9_topic_07_vektorler",
+    "lesson_fiz9_topic_08_dogadaki_temel_kuvvetler",
+    "lesson_fiz9_topic_09_hareket_ve_hareket_turleri",
+    "lesson_fiz9_topic_10_katilarda_basinc",
+    "lesson_fiz9_topic_11_sivilarda_basinc",
     "lesson_fiz9_akiskanlar_ve_basinc",
-    "lesson_fiz9_enerji_isi_sicaklik"
+    "lesson_fiz9_topic_13_kaldirma_kuvveti",
+    "lesson_fiz9_topic_14_bernoulli_ilkesi",
+    "lesson_fiz9_enerji_isi_sicaklik",
+    "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+    "lesson_fiz9_topic_17_hal_degisimi",
+    "lesson_fiz9_topic_18_isil_denge",
+    "lesson_fiz9_topic_19_isi_aktarim_yollari",
+    "lesson_fiz9_topic_20_isi_iletim_hizi"
   ]
 }

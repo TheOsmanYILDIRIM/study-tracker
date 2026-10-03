@@ -1,0 +1,32 @@
+{
+  "id": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "stableKey": "tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "itemType": "VIDEO",
+  "displayLabel": "10.1",
+  "orderKey": 1000,
+  "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        25,
+        27
+      ],
+      "sourceTheme": "3.TEMA ANLAMIN YAPI TAŞLARI",
+      "sourceTopic": [
+        "KONUŞMA • • Okuduğu metinlerdeki mekânları kendi çevresindeki mekânlarla karşılaştırdığı bir konuşma yapabilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "b8921c881a371c12",
+      "schemaVersion": "v2"
+    }
+  }
+}

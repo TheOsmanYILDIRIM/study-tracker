@@ -7,16 +7,24 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Kimya Bilimi, Günlük Hayat ve Alt Disiplinleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L24",
       "sourceSection": "1. Hafta (Kitap: Kimya Hayattır)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "fdea372d4ca8b20e"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "b65afee766252e02",
+      "sourceWeeks": [
+        1
+      ],
+      "sourceTheme": "ETKİLEŞİM",
+      "videoSearchScore": 7.8,
+      "videoCandidateTitle": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1"
+    },
+    "provider": "Meschemy Kimya",
+    "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer"
   }
 }

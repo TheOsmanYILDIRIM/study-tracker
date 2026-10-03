@@ -7,8 +7,8 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
     "provenance": {
@@ -16,8 +16,16 @@
       "sourceSection": "1. Hafta: Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "475b76ac042a0e59"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "af2dc2a8b44b10e3",
+      "sourceWeeks": [
+        1
+      ],
+      "sourceTheme": "COĞRAFYANIN DOĞASI",
+      "videoSearchScore": 10.4,
+      "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT"
+    },
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Coğrafya Biliminin Konusu ve Bölümleri"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+  "stableKey": "fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Temel ve Türetilmiş Nicelikler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Temel ve Türetilmiş Nicelikler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        5
+      ],
+      "sourceTheme": "KUVVET VE HAREKET",
+      "sourceTopic": [
+        "Temel ve Türetilmiş Nicelikler"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "f5a27920afa1cdff",
+      "schemaVersion": "v2"
+    }
+  }
+}

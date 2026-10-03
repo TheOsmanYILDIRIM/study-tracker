@@ -1,0 +1,25 @@
+{
+  "id": "lesson_tar9_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+  "title": "Tarih Araştırma ve Yazımında Dijitalleşme",
+  "orderKey": 4000,
+  "items": [
+    "item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      8,
+      9,
+      11
+    ],
+    "theme": "ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH",
+    "sourceTopics": [
+      "Tarih Araştırma ve Yazımında Dijitalleşme"
+    ],
+    "kazanims": [
+      "TAR.9.1.4. Dijitalleşmenin tarih araştırma ve yazımının dönüşümüne etkisini değerlendirebilme",
+      "1. Dönem 1. Sınav"
+    ]
+  }
+}

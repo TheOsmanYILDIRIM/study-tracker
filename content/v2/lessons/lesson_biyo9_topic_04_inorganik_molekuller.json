@@ -1,0 +1,23 @@
+{
+  "id": "lesson_biyo9_topic_04_inorganik_molekuller",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_topic_04_inorganik_molekuller",
+  "title": "İnorganik Moleküller",
+  "orderKey": 4000,
+  "items": [
+    "item_biyo9_vid_topic_04_inorganik_molekuller"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      12,
+      13
+    ],
+    "theme": "YAŞAM",
+    "sourceTopics": [
+      "İnorganik Moleküller (Su, Mineraller)"
+    ],
+    "kazanims": [
+      "BİY.9.1.5. İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme"
+    ]
+  }
+}

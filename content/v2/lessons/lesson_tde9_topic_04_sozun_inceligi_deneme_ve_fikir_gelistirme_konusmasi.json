@@ -1,0 +1,28 @@
+{
+  "id": "lesson_tde9_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+  "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
+  "orderKey": 4000,
+  "items": [
+    "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      7,
+      8,
+      9
+    ],
+    "theme": "1.TEMA SÖZÜN İNCELİĞİ",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme",
+      "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme",
+      "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme • OKUL TEMELLİ PLANLAMA*"
+    ],
+    "kazanims": [
+      "TDE1.2. “Sözün İnceliği” temasında ele alınan metinlerde anlam oluşturabilme • TDE3.1. Söyleyişin inceliğini kullanarak akıcı bir konuşma süreci yönetebilme",
+      "TDE3.2. Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşma içeriği oluşturabilme • TDE3.3. Muhatabını ikna etmek için söyleyiş inceliklerine yer veren bir konuşmada kural uygulayabilme",
+      "1. Dönem 1. Sınav"
+    ]
+  }
+}

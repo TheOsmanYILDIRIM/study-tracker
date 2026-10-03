@@ -1,0 +1,39 @@
+{
+  "id": "item_biyo9_vid_topic_08_enzimler",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_08_enzimler",
+  "stableKey": "biyo9_vid_topic_08_enzimler",
+  "itemType": "VIDEO",
+  "displayLabel": "8.1",
+  "orderKey": 1000,
+  "title": "Enzimler",
+  "contentUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Dr. Biyoloji",
+    "topic": "Enzimler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceTheme": "YAŞAM",
+      "sourceTopic": [
+        "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 13.4,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
+      "fingerprint": "b81fd384694d74b2",
+      "schemaVersion": "v2"
+    }
+  }
+}

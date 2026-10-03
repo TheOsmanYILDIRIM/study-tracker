@@ -1,0 +1,31 @@
+{
+  "id": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "stableKey": "mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "itemType": "VIDEO",
+  "displayLabel": "18.1",
+  "orderKey": 1000,
+  "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        37
+      ],
+      "sourceTheme": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA",
+      "sourceTopic": [
+        "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "225e5725c7008897",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+  "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+  "orderKey": 13000,
+  "items": [
+    "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "theme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Orta Çağ’daki Başlıca Medeniyet Havzalarında Bilim, Kültür ve Sanat"
+    ],
+    "kazanims": [
+      "TAR.9.3.4. Orta Çağ’daki başlıca medeniyet havzalarının bilim, kültür ve sanata etkilerine ilişkin oluşturduğu ürünleri paylaşabilme",
+      "2. Dönem 2. Sınav"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
+  "title": "Bileşiklerin Adlandırılması",
+  "orderKey": 12000,
+  "items": [
+    "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      23
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Bileşiklerin Adlandırılması"
+    ],
+    "kazanims": [
+      "9.2.6. Bileşikleri adlandırma kurallarına ilişkin tümdengelimsel akıl yürütebilme"
+    ]
+  }
+}

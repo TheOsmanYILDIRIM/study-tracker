@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+  "stableKey": "kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Molekül Polarlığı ve Apolarlığı",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Molekül Polarlığı ve Apolarlığı",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        22
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Molekül Polarlığı ve Apolarlığı"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "bd63b99923a6aa21",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lesson_mat9_topic_19_deneysel_olasilik",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_19_deneysel_olasilik",
+  "title": "Deneysel Olasılık",
+  "orderKey": 19000,
+  "items": [
+    "item_mat9_vid_topic_19_deneysel_olasilik"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      37,
+      38
+    ],
+    "theme": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA / VERİDEN OLASILIĞA",
+    "sourceTopics": [
+      "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık",
+      "Deneysel Olasılık • Teorik Olasılık"
+    ],
+    "kazanims": [
+      "9.6.2. Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumları tartışabilme • 9.7.1. Olayların olasılığını gözleme dayalı tahmin edebilme",
+      "9.7.1. Olayların olasılığını gözleme dayalı tahmin edebilme • 9.7.2. Olayların olasılığına ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

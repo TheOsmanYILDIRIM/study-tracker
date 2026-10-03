@@ -1,0 +1,25 @@
+{
+  "id": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+  "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+  "orderKey": 15000,
+  "items": [
+    "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      37,
+      38
+    ],
+    "theme": "4.TEMA DİLİN ZENGİNLİĞİ",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi)",
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Otobiyografi) • YAZMA • • Otobiyografisini yazabilme"
+    ],
+    "kazanims": [
+      "TDE1.1. “Dilin Zenginliği” temasında ele alınan metinlerde dinlemeyi/izlemeyi yönetebilme • TDE1.2. “Dilin Zenginliği” temasında ele alınan metinlerde anlam oluşturabilme • TDE1.3. “Dilin Zenginliği” temasında ele alınan metinleri çözümleyebilme",
+      "TDE1.4. “Dilin Zenginliği” temasında ele alınan metinlerde dinleme/izleme sürecini değerlendirebilme • TDE4.1. Öz yaşam öyküsünü oluşturabilmek için bir yazılı anlatım sürecini yönetebilme"
+    ]
+  }
+}

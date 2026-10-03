@@ -1,0 +1,32 @@
+{
+  "id": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "stableKey": "tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+  "itemType": "VIDEO",
+  "displayLabel": "8.1",
+  "orderKey": 1000,
+  "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Eski Çağ'da İnanç, Bilim ve Sanat",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        23,
+        24
+      ],
+      "sourceTheme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Eski Çağ’da İnançlar ile Bilim ve Sanat Anlayışları"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "d89acdc401b5f4d7",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "stableKey": "kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+  "itemType": "VIDEO",
+  "displayLabel": "16.1",
+  "orderKey": 1000,
+  "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+  "contentUrl": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "sourceTheme": "SÜRDÜRÜLEBİLİRLİK",
+      "sourceTopic": [
+        "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik • Metal Nanoparçacıklar",
+        "Metal Nanoparçacıklar",
+        "Yeşil Kimyanın Atık Önleme İlkesi, Metal, Alaşım ve • Metal Nanoparçacıkların Çevresel Etkileri"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 4.97,
+      "videoCandidateTitle": "Sürdürülebilirlik + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌3. TEMA GÜN 27",
+      "fingerprint": "6a7ba1d36d3582d7",
+      "schemaVersion": "v2"
+    }
+  }
+}

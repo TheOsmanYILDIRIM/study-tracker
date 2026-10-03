@@ -1,22 +1,33 @@
 {
   "id": "item_mat9_vid_algoritma_temelleri",
   "courseId": "course_mat_9",
-  "lessonId": "lesson_mat9_algoritma_ve_mantik",
+  "lessonId": "lesson_mat9_topic_14_algoritma_temelli_problemler",
   "stableKey": "mat9_vid_algoritma_temelleri",
   "itemType": "VIDEO",
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Algoritma Temelli Problem Çözme ve Adım Mantığı",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L210",
       "sourceSection": "Algoritma Temelli Problemler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "354887cf36962799"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "14cd5176628b0ead",
+      "sourceWeeks": [
+        25,
+        27,
+        28,
+        29
+      ],
+      "sourceTheme": "EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM",
+      "videoSearchScore": 7.43,
+      "videoCandidateTitle": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Algoritma Temelli Problemler"
   }
 }

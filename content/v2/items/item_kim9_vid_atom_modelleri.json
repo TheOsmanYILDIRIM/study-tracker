@@ -7,16 +7,25 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Atom Modelleri: Dalton, Thomson, Rutherford ve Bohr",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/1_ay_kimya_video_rehberi.md#L26",
       "sourceSection": "3. Hafta (Kitap: Atom Teorileri)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "9d10f16edbd4f757"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "de8ccade97bf35d6",
+      "sourceWeeks": [
+        3,
+        4
+      ],
+      "sourceTheme": "ETKİLEŞİM",
+      "videoSearchScore": 7.31,
+      "videoCandidateTitle": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4"
+    },
+    "provider": "Meschemy Kimya",
+    "topic": "Atom Teorileri ve Atomun Yapısı"
   }
 }

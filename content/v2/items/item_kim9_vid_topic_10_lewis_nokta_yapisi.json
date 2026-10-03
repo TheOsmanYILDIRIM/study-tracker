@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_10_lewis_nokta_yapisi",
+  "stableKey": "kim9_vid_topic_10_lewis_nokta_yapisi",
+  "itemType": "VIDEO",
+  "displayLabel": "10.1",
+  "orderKey": 1000,
+  "title": "Lewis Nokta Yapısı",
+  "contentUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Lewis Nokta Yapısı",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        18
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Lewis Nokta Yapısı"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6,
+      "videoCandidateTitle": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
+      "fingerprint": "7d9108520d029e77",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -2,11 +2,23 @@
   "id": "lesson_cog9_beseri_sistemler_ve_afetler",
   "courseId": "course_cog_9",
   "stableKey": "lesson_cog9_beseri_sistemler_ve_afetler",
-  "title": "Beşerî Sistemler, Nüfus ve Doğal Afetler (COĞ.9.3.1 - COĞ.9.4.3)",
-  "orderKey": 3000,
+  "title": "Afet Türleri",
+  "orderKey": 17000,
   "items": [
     "item_cog9_vid_nufus_ve_yerlesme",
     "item_cog9_vid_afet_yonetimi",
     "item_cog9_quiz_nufus_afetler"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      35
+    ],
+    "theme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+    "sourceTopics": [
+      "Afet Türleri"
+    ],
+    "kazanims": [
+      "COĞ.9.6.2. Afetleri sınıflandırabilme"
+    ]
+  }
 }

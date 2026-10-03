@@ -1,0 +1,22 @@
+{
+  "id": "lesson_mat9_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+  "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+  "orderKey": 18000,
+  "items": [
+    "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      37
+    ],
+    "theme": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA",
+    "sourceTopics": [
+      "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
+    ],
+    "kazanims": [
+      "9.6.2. Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin istatistiksel sonuç veya yorumları tartışabilme • 9.7.1. Olayların olasılığını gözleme dayalı tahmin edebilme"
+    ]
+  }
+}

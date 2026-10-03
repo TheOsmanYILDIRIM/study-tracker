@@ -1,0 +1,24 @@
+{
+  "id": "lesson_biyo9_topic_11_prokaryot_ve_okaryot_hucre_organeller_ve_cekirdek",
+  "courseId": "course_biyo_9",
+  "stableKey": "lesson_biyo9_topic_11_prokaryot_ve_okaryot_hucre_organeller_ve_cekirdek",
+  "title": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek",
+  "orderKey": 11000,
+  "items": [
+    "item_biyo9_vid_hucre_organeller"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      27,
+      28,
+      29
+    ],
+    "theme": "ORGANİZASYON",
+    "sourceTopics": [
+      "Prokaryot ve Ökaryot Hücre, Hücre Zarı, Sitoplazma, Sitoplazmik Yapılar, Organeller ve • Çekirdek"
+    ],
+    "kazanims": [
+      "BİY.9.2.1. Hücre alt birimlerini ve bu birimlerin işlevleri arasındaki ilişkileri çözümleyebilme"
+    ]
+  }
+}

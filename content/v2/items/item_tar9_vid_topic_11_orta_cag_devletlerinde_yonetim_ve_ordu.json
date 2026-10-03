@@ -1,0 +1,34 @@
+{
+  "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "stableKey": "tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+  "itemType": "VIDEO",
+  "displayLabel": "11.1",
+  "orderKey": 1000,
+  "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "sourceTheme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Orta Çağ’daki Başlıca Devletlerin Yönetim ve Ordu Yapıları"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "62f8726e32ec4f1b",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lesson_kim9_topic_06_periyodik_ozellikler",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_06_periyodik_ozellikler",
+  "title": "Periyodik Özellikler",
+  "orderKey": 6000,
+  "items": [
+    "item_kim9_vid_topic_06_periyodik_ozellikler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      9,
+      11,
+      12
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Periyodik Özellikler (Atom Yarıçapı, İyonlaşma Enerjisi ve Elektronegatiflik)"
+    ],
+    "kazanims": [
+      "1. Dönem 1. Sınav",
+      "9.1.8. Elementlerin periyodik özelliklerinin periyodik tablodaki değişimini çözümleyebilme"
+    ]
+  }
+}

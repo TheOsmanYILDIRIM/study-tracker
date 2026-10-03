@@ -2,11 +2,24 @@
   "id": "lesson_tar9_eski_cag_medeniyetleri",
   "courseId": "course_tar_9",
   "stableKey": "lesson_tar9_eski_cag_medeniyetleri",
-  "title": "Eski Çağ Medeniyetleri ve Konargöçer Yaşam (TAR.9.2.1 - TAR.9.2.4)",
-  "orderKey": 3000,
+  "title": "Türklerde Konargöçer Yaşam",
+  "orderKey": 9000,
   "items": [
     "item_tar9_vid_tarim_devrimi_mezopotamya",
     "item_tar9_vid_anadolu_ve_turkler",
     "item_tar9_quiz_eski_cag"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      25,
+      27
+    ],
+    "theme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+    "sourceTopics": [
+      "Türklerde Konargöçer Yaşam"
+    ],
+    "kazanims": [
+      "TAR.9.2.5. Türklerde konargöçer yaşama ilişkin bakış açısı geliştirebilme"
+    ]
+  }
 }

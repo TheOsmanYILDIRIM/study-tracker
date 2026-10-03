@@ -1,0 +1,22 @@
+{
+  "id": "lesson_fiz9_topic_03_fizik_bilimine_yon_verenler",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_03_fizik_bilimine_yon_verenler",
+  "title": "Fizik Bilimine Yön Verenler",
+  "orderKey": 3000,
+  "items": [
+    "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3
+    ],
+    "theme": "FİZİK BİLİMİ VE KARİYER KEŞFİ",
+    "sourceTopics": [
+      "Fizik Bilimine Yön Verenler"
+    ],
+    "kazanims": [
+      "FİZ.9.1.3. Fizik bilimine katkıda bulunmuş bilim insanlarının deneyimlerini yansıtabilme"
+    ]
+  }
+}

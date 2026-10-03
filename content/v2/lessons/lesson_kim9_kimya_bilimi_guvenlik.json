@@ -2,11 +2,23 @@
   "id": "lesson_kim9_kimya_bilimi_guvenlik",
   "courseId": "course_kim_9",
   "stableKey": "lesson_kim9_kimya_bilimi_guvenlik",
-  "title": "Kimya Bilimi, Alt Disiplinler ve Laboratuvar Güvenliği (KİM.9.1.1 - KİM.9.1.2)",
+  "title": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer",
   "orderKey": 1000,
   "items": [
     "item_kim9_vid_kimya_bilimi",
     "item_kim9_vid_guvenlik_sembolleri",
     "item_kim9_quiz_kimya_guvenlik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Kimya Hayattır • Günlük Hayatta Kimya, Kimyanın Alt Disiplinleri, Kimya Alanında Kariyer Olanakları"
+    ],
+    "kazanims": [
+      "9.1.1. Kimya biliminin günlük hayata katkısına ilişkin bilimsel çıkarım yapabilme"
+    ]
+  }
 }

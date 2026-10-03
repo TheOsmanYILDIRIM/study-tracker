@@ -1,0 +1,32 @@
+{
+  "id": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "stableKey": "tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        12,
+        13
+      ],
+      "sourceTheme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Tarım Devrimi’nin Eski Çağ Medeniyetlerindeki Yerleşmeye ve Ekonomiye Etkisi"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "52fa9ef277c91305",
+      "schemaVersion": "v2"
+    }
+  }
+}

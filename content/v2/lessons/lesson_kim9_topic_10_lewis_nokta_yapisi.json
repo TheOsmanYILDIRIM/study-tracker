@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_10_lewis_nokta_yapisi",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_10_lewis_nokta_yapisi",
+  "title": "Lewis Nokta Yapısı",
+  "orderKey": 10000,
+  "items": [
+    "item_kim9_vid_topic_10_lewis_nokta_yapisi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      18
+    ],
+    "theme": "ÇEŞİTLİLİK",
+    "sourceTopics": [
+      "Lewis Nokta Yapısı"
+    ],
+    "kazanims": [
+      "9.2.4. Moleküllerin Lewis nokta yapısına ilişkin çıkarımda bulunabilme"
+    ]
+  }
+}

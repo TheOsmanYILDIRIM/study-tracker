@@ -1,0 +1,24 @@
+{
+  "id": "lesson_fiz9_topic_07_vektorler",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_07_vektorler",
+  "title": "Vektörler",
+  "orderKey": 7000,
+  "items": [
+    "item_fiz9_vid_topic_07_vektorler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      7,
+      9
+    ],
+    "theme": "KUVVET VE HAREKET",
+    "sourceTopics": [
+      "Vektörler"
+    ],
+    "kazanims": [
+      "FİZ.9.2.3. Aynı doğrultu üzerinde yer alan farklı vektörlerin yön ve büyüklüklerine yönelik bilimsel çıkarım yapabilme",
+      "FİZ.9.2.4. Vektörlerin toplanmasında kullanılan uç uca ekleme ve paralelkenar yöntemi ile bileşenlerine ayırma işlemine ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

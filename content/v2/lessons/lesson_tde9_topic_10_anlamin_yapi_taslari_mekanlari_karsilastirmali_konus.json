@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+  "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
+  "orderKey": 10000,
+  "items": [
+    "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      25,
+      27
+    ],
+    "theme": "3.TEMA ANLAMIN YAPI TAŞLARI",
+    "sourceTopics": [
+      "KONUŞMA • • Okuduğu metinlerdeki mekânları kendi çevresindeki mekânlarla karşılaştırdığı bir konuşma yapabilme"
+    ],
+    "kazanims": [
+      "TDE3.1. Edebî metinlerde yapısal inceliklere odaklanan akıcı bir konuşma sürecini yönetebilme • TDE3.2. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşma içeriği oluşturabilme",
+      "TDE3.3. Benzetme, karşılaştırma yaparak yapısal özellikleri ortaya koyduğu bir konuşmada kural uygulayabilme • TDE3.4. Edebî metinlerdeki yapısal inceliklerin konuşmaya etkisine yönelik süreci değerlendirebilme"
+    ]
+  }
+}

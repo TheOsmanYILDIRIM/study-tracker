@@ -1,0 +1,32 @@
+{
+  "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+  "stableKey": "tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+  "itemType": "VIDEO",
+  "displayLabel": "10.1",
+  "orderKey": 1000,
+  "title": "Orta Çağ'da Kitlesel Göçler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Orta Çağ'da Kitlesel Göçler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        28,
+        29
+      ],
+      "sourceTheme": "ÜNİTE: ORTA ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Orta Çağ’da Yaşanan Kitlesel Göçler"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "1c579ba988d26132",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "item_fiz9_vid_topic_01_fizik_bilimi",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_01_fizik_bilimi",
+  "stableKey": "fiz9_vid_topic_01_fizik_bilimi",
+  "itemType": "VIDEO",
+  "displayLabel": "1.1",
+  "orderKey": 1000,
+  "title": "Fizik Bilimi",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Fizik Bilimi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceTheme": "FİZİK BİLİMİ VE KARİYER KEŞFİ",
+      "sourceTopic": [
+        "Fizik Bilimi",
+        "Fizik Biliminin Alt Dalları",
+        "Fizik Bilimine Yön Verenler",
+        "Fizik Bilimi İle İlgili Kariyer Keşfi"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "518744d6a9ffdaa1",
+      "schemaVersion": "v2"
+    }
+  }
+}

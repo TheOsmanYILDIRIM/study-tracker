@@ -1,0 +1,33 @@
+{
+  "id": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+  "stableKey": "tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Tarihsel Bilginin Üretim Süreci",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Tarihsel Bilginin Üretim Süreci",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        5,
+        6,
+        7
+      ],
+      "sourceTheme": "ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH",
+      "sourceTopic": [
+        "Tarihsel Bilginin Üretim Süreci"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "def5ab848821d2d6",
+      "schemaVersion": "v2"
+    }
+  }
+}

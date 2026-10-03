@@ -1,22 +1,31 @@
 {
   "id": "item_mat9_vid_teoremler",
   "courseId": "course_mat_9",
-  "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+  "lessonId": "lesson_mat9_topic_13_eslik_ve_benzerlik_problemleri",
   "stableKey": "mat9_vid_teoremler",
   "itemType": "VIDEO",
   "displayLabel": "5.3",
-  "orderKey": 3000,
+  "orderKey": 1000,
   "title": "Tales, Öklid ve Pisagor Teoremleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L180",
       "sourceSection": "Tales, Öklid ve Pisagor",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "8d4dc29f678d6d44"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "5cc14f6d3d70445e",
+      "sourceWeeks": [
+        24,
+        25
+      ],
+      "sourceTheme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
+      "videoSearchScore": 8,
+      "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Eşlik ve Benzerlik Problemleri"
   }
 }

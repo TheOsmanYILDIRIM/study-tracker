@@ -1,0 +1,22 @@
+{
+  "id": "lesson_alm9_topic_06_im_klassenzimmer",
+  "courseId": "course_alm_9",
+  "stableKey": "lesson_alm9_topic_06_im_klassenzimmer",
+  "title": "Im Klassenzimmer",
+  "orderKey": 6000,
+  "items": [
+    "item_alm9_vid_topic_06_im_klassenzimmer"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      18
+    ],
+    "theme": "Meine Schule",
+    "sourceTopics": [
+      "Anweisungen in der Klasse: Fertigkeitstraining"
+    ],
+    "kazanims": [
+      "HÖREN • 4. Kann verstehen, wenn sehr langsam und sorgfältig gesprochen wird und wenn lange Pausen Zeit lassen, den Sinn zu erfassen. • 5. Kann Anweisungen, die langsam und deutlich an ihn/sie gerichtet werden, verstehen. • SPRECHEN • 9. Kann sehr kurze, isolierte und meist vorgefertigte Äußerungen benutzen, macht aber dabei viele Pausen, um nach Ausdrücken zu suchen, weniger vertraute Wörter zu artikulieren und Abbrüche in der Kommunikation zu reparieren. • 10. Kann mit elementaren sprachlichen Mitteln den schulischen Alltag beschreiben. • 11. Kann Vorlieben und Meinungen ausdrücken. • LESEN • 4. Kann sehr kurze, einfache Texte Satz für Satz lesen und verstehen, indem er/sie bekannte Namen und Wörter heraussucht. • 5. Kann kurze Texte verständlich und laut lesen. • 6. Kann Fragen und Anweisungen verstehen, sofern diese klar und deutlich an ihn/sie gerichtet werden. • SCHREIBEN • 6. Kann einfache, isolierte Wendungen und kurze Sätze schreiben. • 7. Kann einen vorgegebenen Textrahmen vervollständigen."
+    ]
+  }
+}

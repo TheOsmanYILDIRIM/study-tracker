@@ -6,8 +6,13 @@
   "orderKey": 7000,
   "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf İngilizce Müfredatı (Themes 1 - 8)",
   "lessons": [
+    "lesson_ing9_topic_01_theme_1_school_life",
     "lesson_ing9_orientation_revision",
     "lesson_ing9_personal_life_appearance",
-    "lesson_ing9_family_and_world"
+    "lesson_ing9_family_and_world",
+    "lesson_ing9_topic_05_theme_5_life_in_the_house_neighbourhood",
+    "lesson_ing9_topic_06_theme_6_life_in_the_city_country",
+    "lesson_ing9_topic_07_theme_7_life_in_the_world_nature",
+    "lesson_ing9_topic_08_theme_8_life_in_the_universe_future"
   ]
 }

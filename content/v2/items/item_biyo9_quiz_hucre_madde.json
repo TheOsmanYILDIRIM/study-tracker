@@ -5,7 +5,7 @@
   "stableKey": "biyo9_quiz_hucre_madde",
   "itemType": "QUIZ",
   "displayLabel": "Q1",
-  "orderKey": 3000,
+  "orderKey": 2000,
   "title": "Hücre ve Madde Geçişleri Testi",
   "contentUrl": null,
   "publishingStatus": "active",

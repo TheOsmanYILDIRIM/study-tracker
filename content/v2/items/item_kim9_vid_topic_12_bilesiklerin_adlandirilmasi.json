@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
+  "stableKey": "kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+  "itemType": "VIDEO",
+  "displayLabel": "12.1",
+  "orderKey": 1000,
+  "title": "Bileşiklerin Adlandırılması",
+  "contentUrl": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Bileşiklerin Adlandırılması",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        23
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Bileşiklerin Adlandırılması"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6.4,
+      "videoCandidateTitle": "İyonik Bileşiklerin Adlandırılması + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 17",
+      "fingerprint": "01045b488212f26b",
+      "schemaVersion": "v2"
+    }
+  }
+}

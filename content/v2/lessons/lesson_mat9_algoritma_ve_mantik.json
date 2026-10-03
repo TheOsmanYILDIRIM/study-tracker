@@ -2,11 +2,22 @@
   "id": "lesson_mat9_algoritma_ve_mantik",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_algoritma_ve_mantik",
-  "title": "Algoritma ve Mantık Bağlaçları (MAT.9.3.1 - MAT.9.3.2)",
-  "orderKey": 6000,
+  "title": "Mantık Bağlaçları ve Niceleyicilerin Algoritmalarda Kullanımı",
+  "orderKey": 16000,
   "items": [
-    "item_mat9_vid_algoritma_temelleri",
     "item_mat9_vid_mantik_baglaclari",
     "item_mat9_quiz_algoritma_mantik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      31
+    ],
+    "theme": "ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+    "sourceTopics": [
+      "Mantık Bağlaçları ve Niceleyicilerin Algoritmik Problemlerde Kullanımı • Tek Nicel Değişkenli Veri Dağılımları"
+    ],
+    "kazanims": [
+      "9.5.3. Mantık bağlaçları ve niceleyicilerin algoritmalarda kullanımına yönelik edindiği deneyimi farklı matematiksel görev ve problemlere yansıtabilme • 9.6.1. Tek nicel değişkenli veri dağılımları ile çalışabilme ve tek nicel değişken içeren veriye dayalı karar verebilme"
+    ]
+  }
 }

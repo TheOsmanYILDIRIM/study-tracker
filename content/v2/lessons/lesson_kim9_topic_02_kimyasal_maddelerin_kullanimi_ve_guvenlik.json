@@ -1,0 +1,22 @@
+{
+  "id": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "courseId": "course_kim_9",
+  "stableKey": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+  "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+  "orderKey": 2000,
+  "items": [
+    "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      2
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Kimyasal Maddelerin Kullanımı ve Güvenlik"
+    ],
+    "kazanims": [
+      "9.1.2. Farklı ortamlarda kimyasal maddelerin kullanımından kaynaklanan problemleri çözebilme"
+    ]
+  }
+}

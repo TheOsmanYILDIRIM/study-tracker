@@ -1,0 +1,39 @@
+{
+  "id": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "stableKey": "mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+  "itemType": "VIDEO",
+  "displayLabel": "17.1",
+  "orderKey": 1000,
+  "title": "Tek Nicel Değişkenli Veri Dağılımları",
+  "contentUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Tek Nicel Değişkenli Veri Dağılımları",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "sourceTheme": "ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ / İSTATİSTİKSEL ARAŞTIRMA SÜRECİ / İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA",
+      "sourceTopic": [
+        "Mantık Bağlaçları ve Niceleyicilerin Algoritmik Problemlerde Kullanımı • Tek Nicel Değişkenli Veri Dağılımları",
+        "Tek Nicel Değişkenli Veri Dağılımları",
+        "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 4.4,
+      "videoCandidateTitle": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
+      "fingerprint": "45909eb3b6e78221",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lesson_fiz9_topic_11_sivilarda_basinc",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_11_sivilarda_basinc",
+  "title": "Sıvılarda Basınç",
+  "orderKey": 11000,
+  "items": [
+    "item_fiz9_vid_topic_11_sivilarda_basinc"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      20,
+      21
+    ],
+    "theme": "AKIŞKANLAR",
+    "sourceTopics": [
+      "Sıvılarda Basınç"
+    ],
+    "kazanims": [
+      "FİZ.9.3.2. Durgun sıvılarda basınca yönelik bilimsel çıkarımlarda bulunabilme",
+      "FİZ.9.3.3. Sıvılarda basıncın kullanıldığı günlük hayat örneklerine ilişkin sorgulama yapabilme"
+    ]
+  }
+}

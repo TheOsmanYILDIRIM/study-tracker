@@ -1,0 +1,24 @@
+{
+  "id": "lesson_cog9_topic_09_iklim_turleri",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_09_iklim_turleri",
+  "title": "İklim Türleri",
+  "orderKey": 9000,
+  "items": [
+    "item_cog9_vid_topic_09_iklim_turleri"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      16,
+      17
+    ],
+    "theme": "DOĞAL SİSTEMLER VE SÜREÇLER",
+    "sourceTopics": [
+      "İklim Türleri"
+    ],
+    "kazanims": [
+      "COĞ.9.3.3. Türkiye ve dünyadaki farklı iklim türlerine sahip yerlerin iklim verilerini kullanarak tablo, grafik, şekil ve/veya diyagram hazırlayabilme",
+      "1. Dönem 2. Sınav"
+    ]
+  }
+}

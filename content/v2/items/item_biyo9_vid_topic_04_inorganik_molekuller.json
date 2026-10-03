@@ -1,0 +1,32 @@
+{
+  "id": "item_biyo9_vid_topic_04_inorganik_molekuller",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_04_inorganik_molekuller",
+  "stableKey": "biyo9_vid_topic_04_inorganik_molekuller",
+  "itemType": "VIDEO",
+  "displayLabel": "4.1",
+  "orderKey": 1000,
+  "title": "İnorganik Moleküller",
+  "contentUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Dr. Biyoloji",
+    "topic": "İnorganik Moleküller",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        12,
+        13
+      ],
+      "sourceTheme": "YAŞAM",
+      "sourceTopic": [
+        "İnorganik Moleküller (Su, Mineraller)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 10.4,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
+      "fingerprint": "7902a9df4e886d4d",
+      "schemaVersion": "v2"
+    }
+  }
+}

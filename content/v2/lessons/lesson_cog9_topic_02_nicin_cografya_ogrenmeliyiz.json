@@ -1,0 +1,22 @@
+{
+  "id": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+  "title": "Niçin Coğrafya Öğrenmeliyiz?",
+  "orderKey": 2000,
+  "items": [
+    "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      2
+    ],
+    "theme": "COĞRAFYANIN DOĞASI",
+    "sourceTopics": [
+      "Niçin Coğrafya Öğrenmeliyiz?"
+    ],
+    "kazanims": [
+      "COĞ.9.1.2. Örnek olay, olgu veya konu üzerinden mekânsal düşünme ile coğrafya öğrenmenin önemini çözümleyebilme"
+    ]
+  }
+}

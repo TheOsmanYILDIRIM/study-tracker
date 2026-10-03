@@ -1,0 +1,31 @@
+{
+  "id": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_05_turkiye_nin_cografi_konumu",
+  "stableKey": "cog9_vid_topic_05_turkiye_nin_cografi_konumu",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Türkiye'nin Coğrafi Konumu",
+  "contentUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Türkiye'nin Coğrafi Konumu",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        7
+      ],
+      "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
+      "sourceTopic": [
+        "Türkiye’nin Coğrafi Konumu"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 9.6,
+      "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+      "fingerprint": "eb36fc978686bf81",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -2,11 +2,25 @@
   "id": "lesson_kim9_atom_ve_periyodik_sistem",
   "courseId": "course_kim_9",
   "stableKey": "lesson_kim9_atom_ve_periyodik_sistem",
-  "title": "Atom Teorileri ve Periyodik Tablo (KİM.9.1.3 - KİM.9.1.4)",
-  "orderKey": 2000,
+  "title": "Atom Teorileri ve Atomun Yapısı",
+  "orderKey": 3000,
   "items": [
     "item_kim9_vid_atom_modelleri",
     "item_kim9_vid_periyodik_ozellikler",
     "item_kim9_quiz_atom_periyodik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3,
+      4
+    ],
+    "theme": "ETKİLEŞİM",
+    "sourceTopics": [
+      "Atomdan Periyodik Tabloya • Atom Teorileri (Bohr Atom Teorisi, Modern Atom Teorisi) ve Atomun Yapısı",
+      "Atom Teorileri (Bohr Atom Teorisi, Modern Atom Teorisi) ve Atomun Yapısı"
+    ],
+    "kazanims": [
+      "9.1.3. Atom teorilerindeki varsayımları kullanarak bilimsel bilginin değişebilirliğine ilişkin bilimsel çıkarım yapabilme"
+    ]
+  }
 }

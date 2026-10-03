@@ -1,0 +1,28 @@
+{
+  "id": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+  "title": "Anlam Arayışı: Şiir Yazma",
+  "orderKey": 8000,
+  "items": [
+    "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      17,
+      18,
+      19
+    ],
+    "theme": "2.TEMA ANLAM ARAYIŞI",
+    "sourceTopics": [
+      "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin (Şiir) • YAZMA • • Temaya uygun bir şiir yazabilme",
+      "YAZMA • • Temaya uygun bir şiir yazabilme",
+      "YAZMA • • Temaya uygun bir şiir yazabilme • OKUL TEMELLİ PLANLAMA*"
+    ],
+    "kazanims": [
+      "1. Dönem 2. Sınav",
+      "TDE4.2. Yazısını zenginleştirecek içerik oluşturabilme • TDE4.3. Konu zenginliği ve çeşitliliğini sağlayan yazısında kural uygulayabilme",
+      "TDE4.4. Beğeni ve eleştirilerini dile getirdiği yazısına yönelik yazma sürecini değerlendirebilme"
+    ]
+  }
+}

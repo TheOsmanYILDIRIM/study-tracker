@@ -7,7 +7,23 @@
   "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Coğrafya Müfredatı (Doğal Sistemler, Harita, İklim, Nüfus ve Afetler)",
   "lessons": [
     "lesson_cog9_dogal_sistemler",
+    "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+    "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+    "lesson_cog9_topic_04_mekanin_aynasi_haritalar",
+    "lesson_cog9_topic_05_turkiye_nin_cografi_konumu",
+    "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+    "lesson_cog9_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
     "lesson_cog9_iklim_ve_hava_olaylari",
-    "lesson_cog9_beseri_sistemler_ve_afetler"
+    "lesson_cog9_topic_09_iklim_turleri",
+    "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+    "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+    "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
+    "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+    "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+    "lesson_cog9_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+    "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+    "lesson_cog9_beseri_sistemler_ve_afetler",
+    "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+    "lesson_cog9_topic_19_bolge_ve_bolge_siniri"
   ]
 }

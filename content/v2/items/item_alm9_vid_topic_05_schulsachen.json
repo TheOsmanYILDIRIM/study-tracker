@@ -1,0 +1,35 @@
+{
+  "id": "item_alm9_vid_topic_05_schulsachen",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_05_schulsachen",
+  "stableKey": "alm9_vid_topic_05_schulsachen",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Schulsachen",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Schulsachen",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        13,
+        14,
+        15
+      ],
+      "sourceTheme": "Meine Schulsachen",
+      "sourceTopic": [
+        "Die Schulsachen: Wie heißt das auf Deutsch?",
+        "Was ist das?: Die Rucksäcke",
+        "Singular und Plural: Ratet: Ist das ein/e, kein/e?"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "164ed0dfd692a990",
+      "schemaVersion": "v2"
+    }
+  }
+}

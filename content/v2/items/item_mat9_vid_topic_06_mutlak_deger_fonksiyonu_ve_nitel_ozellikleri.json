@@ -1,0 +1,33 @@
+{
+  "id": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+  "stableKey": "mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+  "contentUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        11,
+        12
+      ],
+      "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER",
+      "sourceTopic": [
+        "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+        "Mutlak Değer Fonksiyonu ve Nitel Özellikleri • Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 10.12,
+      "videoCandidateTitle": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
+      "fingerprint": "83e0b0f1e09e1a19",
+      "schemaVersion": "v2"
+    }
+  }
+}

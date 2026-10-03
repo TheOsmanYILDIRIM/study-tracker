@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_07_metalik_bag",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_07_metalik_bag",
+  "stableKey": "kim9_vid_topic_07_metalik_bag",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Metalik Bağ",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Metalik Bağ",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        13
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Etkileşimler • Metalik Bağ"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "93a0fad38719f363",
+      "schemaVersion": "v2"
+    }
+  }
+}

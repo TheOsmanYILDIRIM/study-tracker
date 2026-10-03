@@ -1,0 +1,33 @@
+{
+  "id": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_03_canlilarin_ortak_ozellikleri",
+  "stableKey": "biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Canlıların Ortak Özellikleri",
+  "contentUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Dr. Biyoloji",
+    "topic": "Canlıların Ortak Özellikleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        8,
+        9,
+        11
+      ],
+      "sourceTheme": "YAŞAM",
+      "sourceTopic": [
+        "Canlıların Ortak Özellikleri (Hücresel Yapı, Organizasyon • Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma • Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 15.2,
+      "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
+      "fingerprint": "a1dd1ac7352aab25",
+      "schemaVersion": "v2"
+    }
+  }
+}

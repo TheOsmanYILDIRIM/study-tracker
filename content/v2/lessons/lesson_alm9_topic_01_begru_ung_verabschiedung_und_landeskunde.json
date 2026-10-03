@@ -1,0 +1,26 @@
+{
+  "id": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "courseId": "course_alm_9",
+  "stableKey": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+  "title": "Begrüßung, Verabschiedung und Landeskunde",
+  "orderKey": 1000,
+  "items": [
+    "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1,
+      2,
+      3
+    ],
+    "theme": "Hallo!",
+    "sourceTopics": [
+      "Landeskunde: 16 Bundesländer: Länder und Sprachen: Kontakte",
+      "Wie heißt du?: Jetzt seid ihr dran!: Rund um den Tag!",
+      "Wie ist dein Name?: Hallo, wie geht es dir?: Jetzt seid ihr dran!"
+    ],
+    "kazanims": [
+      "HÖREN • 1. Kann vertraute alltägliche Ausdrücke und ganz einfache Sätze verstehen. • 2. Kann Angaben und Fragen zur Person verstehen. • 3. Kommt mit Zahlen bis 20 zurecht. • SPRECHEN • 1. Kann jemanden nach dem Befinden fragen und auf Neuigkeiten reagieren. • 2. Kann Gruß- und Abschiedsformeln gebrauchen. • 3. Kann sich und andere vorstellen und anderen Leuten Fragen zu ihrer Person stellen. • 4. Kann Angaben und Fragen zur Person verstehen und angemessen beantworten. • 5. Kann sagen, wo er/sie wohnt. • 6. Kann nach dem Herkunftsland fragen und das Herkunftsland nennen. • 7. Kann Zustimmung oder Ablehnung ausdrücken. • 8. Kommt mit Zahlen bis 20 zurecht. • LESEN • 1. Kann ganz kurze und einfache Texte lesen. • 2. Kann Bezeichnungen zu Personen und einfache Wörter und kurze Sätze verstehen. • 3. Kommt mit Zahlen bis 20 zurecht. • SCHREIBEN • 1. Kann Fragen zur Person schriftlich beantworten. • 2. Kann seine Adresse und andere Angaben zur Person schreiben. • 3. Kann einen vorgegebenen Textrahmen vervollständigen. • 4. Kommt mit Zahlen bis 20 zurecht. • 5. Kann Wörter oder Wortgruppen durch sehr einfache Konnektoren wie „und“ verbinden."
+    ]
+  }
+}

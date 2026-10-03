@@ -1,0 +1,22 @@
+{
+  "id": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
+  "title": "Benzer Üçgenler Oluşturma",
+  "orderKey": 11000,
+  "items": [
+    "item_mat9_vid_topic_11_benzer_ucgenler_olusturma"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      23
+    ],
+    "theme": "EŞLİK VE BENZERLİK",
+    "sourceTopics": [
+      "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri"
+    ],
+    "kazanims": [
+      "9.4.3. Bir üçgenden hareketle ona benzer üçgenler oluşturma ile ilgili yansıtma yapabilme • 9.4.4. Tales, Öklid ve Pisagor teoremlerini ispatlayabilme"
+    ]
+  }
+}

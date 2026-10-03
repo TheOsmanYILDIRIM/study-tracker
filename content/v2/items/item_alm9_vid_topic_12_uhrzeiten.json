@@ -1,0 +1,33 @@
+{
+  "id": "item_alm9_vid_topic_12_uhrzeiten",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_12_uhrzeiten",
+  "stableKey": "alm9_vid_topic_12_uhrzeiten",
+  "itemType": "VIDEO",
+  "displayLabel": "12.1",
+  "orderKey": 1000,
+  "title": "Uhrzeiten",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Uhrzeiten",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        34,
+        35
+      ],
+      "sourceTheme": "Rund um die Uhr!",
+      "sourceTopic": [
+        "Die Zeit tickt!: Die Uhrzeit!",
+        "Wie spät ist es?: Hast du Zeit?"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "3fe88a8ce7466ee2",
+      "schemaVersion": "v2"
+    }
+  }
+}

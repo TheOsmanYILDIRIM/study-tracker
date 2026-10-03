@@ -1,0 +1,33 @@
+{
+  "id": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "stableKey": "tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        6,
+        7
+      ],
+      "sourceTheme": "1.TEMA SÖZÜN İNCELİĞİ",
+      "sourceTopic": [
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat)",
+        "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "6bf5b624cc60ee4b",
+      "schemaVersion": "v2"
+    }
+  }
+}

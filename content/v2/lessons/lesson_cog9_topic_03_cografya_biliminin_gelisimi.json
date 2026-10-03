@@ -1,0 +1,22 @@
+{
+  "id": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+  "title": "Coğrafya Biliminin Gelişimi",
+  "orderKey": 3000,
+  "items": [
+    "item_cog9_vid_topic_03_cografya_biliminin_gelisimi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3
+    ],
+    "theme": "COĞRAFYANIN DOĞASI",
+    "sourceTopics": [
+      "Coğrafya Biliminin Gelişimi"
+    ],
+    "kazanims": [
+      "COĞ.9.1.3. Coğrafya biliminin gelişimi hakkında bilgi toplayabilme"
+    ]
+  }
+}

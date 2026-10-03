@@ -2,12 +2,26 @@
   "id": "lesson_mat9_eslik_ve_benzerlik",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_eslik_ve_benzerlik",
-  "title": "Eşlik ve Benzerlik: Teoremler ve Dönüşümler (MAT.9.2.2 - MAT.9.2.3)",
-  "orderKey": 5000,
+  "title": "Eşlik ve Benzerlik Koşulları",
+  "orderKey": 10000,
   "items": [
     "item_mat9_vid_geometrik_donusumler",
     "item_mat9_vid_benzerlik_kosullari",
-    "item_mat9_vid_teoremler",
     "item_mat9_quiz_benzerlik_teoremler"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      18,
+      22
+    ],
+    "theme": "EŞLİK VE BENZERLİK",
+    "sourceTopics": [
+      "Geometrik Dönüşümler • Eşlik ve Benzerlik Koşulları",
+      "Eşlik ve Benzerlik Koşulları"
+    ],
+    "kazanims": [
+      "9.4.1. Geometrik dönüşümlerle ilgili çıkarım yapabilme • 9.4.2. İki üçgenin eş veya benzer olması için gerekli olan asgari koşullarla ilgili çıkarım yapabilme",
+      "9.4.2. İki üçgenin eş veya benzer olması için gerekli olan asgari koşullarla ilgili çıkarım yapabilme"
+    ]
+  }
 }

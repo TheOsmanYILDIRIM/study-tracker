@@ -8,7 +8,16 @@
   "lessons": [
     "lesson_tar9_gecmisin_insasi",
     "lesson_tar9_kaynaklar_takvimler",
+    "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+    "lesson_tar9_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
+    "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+    "lesson_tar9_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
+    "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+    "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
     "lesson_tar9_eski_cag_medeniyetleri",
-    "lesson_tar9_orta_cag_medeniyetleri"
+    "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+    "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+    "lesson_tar9_orta_cag_medeniyetleri",
+    "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana"
   ]
 }

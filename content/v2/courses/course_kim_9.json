@@ -7,8 +7,21 @@
   "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Kimya Müfredatı (Kimya Bilimi, Atom, Etkileşimler ve Maddenin Halleri)",
   "lessons": [
     "lesson_kim9_kimya_bilimi_guvenlik",
+    "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
     "lesson_kim9_atom_ve_periyodik_sistem",
+    "lesson_kim9_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+    "lesson_kim9_topic_05_periyodik_tabloda_yer_bulma",
+    "lesson_kim9_topic_06_periyodik_ozellikler",
+    "lesson_kim9_topic_07_metalik_bag",
+    "lesson_kim9_topic_08_iyonik_bag",
+    "lesson_kim9_topic_09_kovalent_bag",
+    "lesson_kim9_topic_10_lewis_nokta_yapisi",
+    "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+    "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
     "lesson_kim9_kimyasal_turler_etkilesim",
+    "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+    "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
+    "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
     "lesson_kim9_maddenin_halleri_surdurulebilirlik"
   ]
 }

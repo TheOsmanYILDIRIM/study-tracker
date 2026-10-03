@@ -1,0 +1,31 @@
+{
+  "id": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
+  "stableKey": "alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+  "itemType": "VIDEO",
+  "displayLabel": "3.1",
+  "orderKey": 1000,
+  "title": "Zahlen 0–20 und Telefonnummer",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Zahlen 0–20 und Telefonnummer",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        4
+      ],
+      "sourceTheme": "Buchstaben und Zahlen",
+      "sourceTopic": [
+        "Zahlen: 0 bis 12: Zahlen: 13 bis 20: Telefonnummer"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "38f5c12a31439337",
+      "schemaVersion": "v2"
+    }
+  }
+}

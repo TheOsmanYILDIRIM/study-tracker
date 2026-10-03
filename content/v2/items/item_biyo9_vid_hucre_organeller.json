@@ -1,22 +1,32 @@
 {
   "id": "item_biyo9_vid_hucre_organeller",
   "courseId": "course_biyo_9",
-  "lessonId": "lesson_biyo9_hucre_ve_madde_gecisleri",
+  "lessonId": "lesson_biyo9_topic_11_prokaryot_ve_okaryot_hucre_organeller_ve_cekirdek",
   "stableKey": "biyo9_vid_hucre_organeller",
   "itemType": "VIDEO",
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Prokaryot ve Ökaryot Hücre, Sitoplazma ve Organeller",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Biyoloji_Yillik_Plan_AL9.md#L90",
       "sourceSection": "Hücre ve Organeller",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "3e1ccb51c5c6cadc"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "6658bb39628f117a",
+      "sourceWeeks": [
+        27,
+        28,
+        29
+      ],
+      "sourceTheme": "ORGANİZASYON",
+      "videoSearchScore": 6.97,
+      "videoCandidateTitle": "Hücresel Yapılar ve Organeller-1 | 9. Sınıf Maarif Model | Dr. Biyoloji"
+    },
+    "provider": "Dr. Biyoloji",
+    "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek"
   }
 }

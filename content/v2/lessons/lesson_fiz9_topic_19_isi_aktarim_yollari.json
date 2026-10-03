@@ -1,0 +1,23 @@
+{
+  "id": "lesson_fiz9_topic_19_isi_aktarim_yollari",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_19_isi_aktarim_yollari",
+  "title": "Isı Aktarım Yolları",
+  "orderKey": 19000,
+  "items": [
+    "item_fiz9_vid_topic_19_isi_aktarim_yollari"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      35,
+      36
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "Isı Aktarım Yolları"
+    ],
+    "kazanims": [
+      "FİZ.9.4.5. Isı aktarım yollarını sınıflayabilme"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lesson_mat9_topic_13_eslik_ve_benzerlik_problemleri",
+  "courseId": "course_mat_9",
+  "stableKey": "lesson_mat9_topic_13_eslik_ve_benzerlik_problemleri",
+  "title": "Eşlik ve Benzerlik Problemleri",
+  "orderKey": 13000,
+  "items": [
+    "item_mat9_vid_teoremler"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      24,
+      25
+    ],
+    "theme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
+    "sourceTopics": [
+      "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri",
+      "Eşlik ve Benzerlik Problemleri • Algoritma Temelli Problemler"
+    ],
+    "kazanims": [
+      "9.4.4. Tales, Öklid ve Pisagor teoremlerini ispatlayabilme • 9.4.5. Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme",
+      "9.4.5. Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme • 9.5.1. Algoritma temelli yaklaşımlarla problem çözebilme"
+    ]
+  }
+}

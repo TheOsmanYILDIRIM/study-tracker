@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+  "stableKey": "cog9_vid_topic_18_butuncul_afet_yonetimi",
+  "itemType": "VIDEO",
+  "displayLabel": "18.1",
+  "orderKey": 1000,
+  "title": "Bütüncül Afet Yönetimi",
+  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Bütüncül Afet Yönetimi",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        36,
+        37
+      ],
+      "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+      "sourceTopic": [
+        "Bütüncül Afet Yönetimi"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6.07,
+      "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+      "fingerprint": "c6a801b3b8500cff",
+      "schemaVersion": "v2"
+    }
+  }
+}

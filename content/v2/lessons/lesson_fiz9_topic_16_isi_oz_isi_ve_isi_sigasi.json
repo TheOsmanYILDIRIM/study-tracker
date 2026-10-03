@@ -1,0 +1,23 @@
+{
+  "id": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+  "courseId": "course_fiz_9",
+  "stableKey": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+  "title": "Isı, Öz Isı ve Isı Sığası",
+  "orderKey": 16000,
+  "items": [
+    "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      30,
+      31
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "Isı, Öz Isı, Isı Sığası ve Sıcaklık Farkı Arasındaki İlişki"
+    ],
+    "kazanims": [
+      "FİZ.9.4.2. Isı, öz ısı, ısı sığası ve sıcaklık farkı arasındaki matematiksel modele ilişkin tümevarımsal akıl yürütebilme"
+    ]
+  }
+}

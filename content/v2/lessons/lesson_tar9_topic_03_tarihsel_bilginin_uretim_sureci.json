@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+  "courseId": "course_tar_9",
+  "stableKey": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+  "title": "Tarihsel Bilginin Üretim Süreci",
+  "orderKey": 3000,
+  "items": [
+    "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      5,
+      6,
+      7
+    ],
+    "theme": "ÜNİTE: GEÇMİŞİN İNŞA SÜRECİNDE TARİH",
+    "sourceTopics": [
+      "Tarihsel Bilginin Üretim Süreci"
+    ],
+    "kazanims": [
+      "TAR.9.1.3. Tarihsel bilginin üretim sürecini çözümleyebilme"
+    ]
+  }
+}

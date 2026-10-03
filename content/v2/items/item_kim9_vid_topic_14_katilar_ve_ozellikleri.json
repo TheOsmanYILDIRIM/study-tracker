@@ -1,0 +1,31 @@
+{
+  "id": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+  "stableKey": "kim9_vid_topic_14_katilar_ve_ozellikleri",
+  "itemType": "VIDEO",
+  "displayLabel": "14.1",
+  "orderKey": 1000,
+  "title": "Katılar ve Özellikleri",
+  "contentUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Meschemy Kimya",
+    "topic": "Katılar ve Özellikleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        27
+      ],
+      "sourceTheme": "ÇEŞİTLİLİK",
+      "sourceTopic": [
+        "Katılar ve Özellikleri (Amorf ve Kristal Katılar)"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 6.9,
+      "videoCandidateTitle": "Katılar ve özellikleri + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 21",
+      "fingerprint": "84f62ad4ac8e0821",
+      "schemaVersion": "v2"
+    }
+  }
+}

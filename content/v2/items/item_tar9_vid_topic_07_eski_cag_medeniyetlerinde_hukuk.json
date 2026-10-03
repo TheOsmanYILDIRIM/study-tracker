@@ -1,0 +1,33 @@
+{
+  "id": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+  "courseId": "course_tar_9",
+  "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+  "stableKey": "tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Eski Çağ Medeniyetlerinde Hukuk",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Eski Çağ Medeniyetlerinde Hukuk",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        17,
+        18,
+        22
+      ],
+      "sourceTheme": "ÜNİTE: ESKİ ÇAĞ MEDENİYETLERİ",
+      "sourceTopic": [
+        "Eski Çağ Medeniyetlerinde Hukuk"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "b9f7243cb348f0f5",
+      "schemaVersion": "v2"
+    }
+  }
+}

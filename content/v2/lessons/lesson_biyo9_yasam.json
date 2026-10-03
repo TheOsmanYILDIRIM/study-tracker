@@ -2,7 +2,7 @@
   "id": "lesson_biyo9_yasam",
   "courseId": "course_biyo_9",
   "stableKey": "lesson_biyo9_yasam",
-  "title": "Yaşam Teması ve Bilimin Doğası (BİY.9.1.1 - BİY.9.1.2)",
+  "title": "Biyolojinin Önemi, Dönüm Noktaları ve Bilimin Doğası",
   "orderKey": 1000,
   "items": [
     "item_biyo9_vid_yasam_nedir",
@@ -10,5 +10,21 @@
     "item_biyo9_vid_kontrollu_deney",
     "item_biyo9_vid_teori_yasa",
     "item_biyo9_quiz_yasam_bilim"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "theme": "YAŞAM",
+    "sourceTopics": [
+      "Biyolojinin Önemi, Biyoloji Biliminin Gelişimindeki Dönüm Noktaları, Bilimin Doğası"
+    ],
+    "kazanims": [
+      "BİY.9.1.1. Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme",
+      "BİY.9.1.2. Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme"
+    ]
+  }
 }

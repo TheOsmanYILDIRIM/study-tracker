@@ -1,0 +1,31 @@
+{
+  "id": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "stableKey": "cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+  "itemType": "VIDEO",
+  "displayLabel": "6.1",
+  "orderKey": 1000,
+  "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
+  "contentUrl": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        8
+      ],
+      "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
+      "sourceTopic": [
+        "Mekânsal Bilgi Teknolojilerinin Bileşenleri"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 7.67,
+      "videoCandidateTitle": "CBS ve Uzaktan Algılama | Mekansal Bilgi Teknolojileri 2.Ünite | 10.sınıf coğrafya maarif model",
+      "fingerprint": "73a72eb43fb126d1",
+      "schemaVersion": "v2"
+    }
+  }
+}

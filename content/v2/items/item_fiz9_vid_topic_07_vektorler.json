@@ -1,0 +1,32 @@
+{
+  "id": "item_fiz9_vid_topic_07_vektorler",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_topic_07_vektorler",
+  "stableKey": "fiz9_vid_topic_07_vektorler",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Vektörler",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Vektörler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        7,
+        9
+      ],
+      "sourceTheme": "KUVVET VE HAREKET",
+      "sourceTopic": [
+        "Vektörler"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "3d4fff85c5c56723",
+      "schemaVersion": "v2"
+    }
+  }
+}

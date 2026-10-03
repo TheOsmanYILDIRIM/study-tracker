@@ -2,7 +2,7 @@
   "id": "lesson_mat9_sayilar_uslu_koklu",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_sayilar_uslu_koklu",
-  "title": "Sayılar: Üslü ve Köklü Gösterimler (MAT.9.1.1)",
+  "title": "Gerçek Sayıların Üslü ve Köklü Gösterimleri",
   "orderKey": 1000,
   "items": [
     "item_mat9_vid_uslu_giris",
@@ -12,5 +12,21 @@
     "item_mat9_vid_koklu_mantik",
     "item_mat9_vid_rasyonel_usler",
     "item_mat9_quiz_uslu_koklu"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      1,
+      2,
+      3
+    ],
+    "theme": "SAYILAR",
+    "sourceTopics": [
+      "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler",
+      "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler • Gerçek Sayı Aralıklarının Gösterimi ve Aralıklarla İlgili İşlemlerde Küme Sembollerinin Kullanımı"
+    ],
+    "kazanims": [
+      "9.1.1. Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme",
+      "9.1.1. Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme • 9.1.2. Gerçek sayı aralıklarının gösteriminde ve aralıklarla ilgili işlemlerde küme sembol ve işlemlerinden yararlanabilme"
+    ]
+  }
 }

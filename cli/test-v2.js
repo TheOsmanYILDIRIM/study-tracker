@@ -442,9 +442,9 @@ async function runCliTests() {
     const validation = validateSeed();
     assert.strictEqual(validation.valid, true, 'Seed manifest must be structurally valid');
     assert.strictEqual(validation.stats.courseCount, 9, 'Must have 9 courses');
-    assert.strictEqual(validation.stats.lessonCount, 35, 'Must have 35 lessons');
-    assert.strictEqual(validation.stats.itemCount, 121, 'Must have 121 items');
-    assert.strictEqual(validation.stats.videoCount, 74, 'Must have 74 video items');
+    assert.strictEqual(validation.stats.lessonCount, 141, 'Must have 141 lessons');
+    assert.strictEqual(validation.stats.itemCount, 221, 'Must have 221 items');
+    assert.strictEqual(validation.stats.videoCount, 174, 'Must have 174 video items');
     assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
     assert.strictEqual(validation.stats.quizCount, 42, 'Must have 42 deterministic quiz items (35 lesson quizzes + 7 micro-quizzes)');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings.`);
@@ -791,10 +791,10 @@ async function runCliTests() {
     const modularVal = validateModularTree(path.resolve(__dirname, '../content/v2'));
     assert.strictEqual(modularVal.valid, true, 'Modular content tree must be valid');
     assert.strictEqual(modularVal.stats.courseCount, 9, 'Must have 9 modular courses');
-    assert.strictEqual(modularVal.stats.lessonCount, 35, 'Must have 35 modular lessons');
-    assert.strictEqual(modularVal.stats.itemCount, 121, 'Must have 121 modular items');
+    assert.strictEqual(modularVal.stats.lessonCount, 141, 'Must have 141 modular lessons');
+    assert.strictEqual(modularVal.stats.itemCount, 221, 'Must have 221 modular items');
     assert.strictEqual(modularVal.stats.microQuizCount, 7, 'Must have 7 transcript-grounded micro-quizzes');
-    console.log('   ✅ Modular content source tree validation verified (9 courses, 35 lessons, 121 items, 7 micro-quizzes).');
+    console.log('   ✅ Modular content source tree validation verified (9 courses, 141 lessons, 221 items, 7 micro-quizzes).');
 
     // Test 24: Modular Compilation & Deterministic Round-Trip
     console.log('2️⃣4️⃣ Testing Modular Compiler & Deterministic Artifact Consistency...');

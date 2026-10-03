@@ -1,0 +1,33 @@
+{
+  "id": "item_mat9_vid_topic_19_deneysel_olasilik",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_19_deneysel_olasilik",
+  "stableKey": "mat9_vid_topic_19_deneysel_olasilik",
+  "itemType": "VIDEO",
+  "displayLabel": "19.1",
+  "orderKey": 1000,
+  "title": "Deneysel Olasılık",
+  "contentUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Deneysel Olasılık",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        37,
+        38
+      ],
+      "sourceTheme": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ VERİDEN OLASILIĞA / VERİDEN OLASILIĞA",
+      "sourceTopic": [
+        "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık",
+        "Deneysel Olasılık • Teorik Olasılık"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.4,
+      "videoCandidateTitle": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
+      "fingerprint": "17430c9eb80bece0",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+  "courseId": "course_cog_9",
+  "stableKey": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+  "title": "Tehlike, Risk ve Afet",
+  "orderKey": 16000,
+  "items": [
+    "item_cog9_vid_topic_16_tehlike_risk_ve_afet"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      34
+    ],
+    "theme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
+    "sourceTopics": [
+      "Tehlike, Risk ve Afet"
+    ],
+    "kazanims": [
+      "COĞ.9.6.1. Tehlike, risk ve afet kavramlarını çözümleyebilme"
+    ]
+  }
+}

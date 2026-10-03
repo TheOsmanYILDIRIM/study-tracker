@@ -7,16 +7,25 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L150",
       "sourceSection": "Geometrik Dönüşümler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "e880c5ae62554989"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "b939a3b9811162b0",
+      "sourceWeeks": [
+        18,
+        22
+      ],
+      "sourceTheme": "EŞLİK VE BENZERLİK",
+      "videoSearchScore": 9.55,
+      "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli"
+    },
+    "provider": "Rehber Matematik",
+    "topic": "Eşlik ve Benzerlik Koşulları"
   }
 }

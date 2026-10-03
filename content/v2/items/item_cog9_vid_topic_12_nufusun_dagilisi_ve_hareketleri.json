@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
+  "stableKey": "cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+  "itemType": "VIDEO",
+  "displayLabel": "12.1",
+  "orderKey": 1000,
+  "title": "Nüfusun Dağılışı ve Hareketleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Nüfusun Dağılışı ve Hareketleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        25,
+        27
+      ],
+      "sourceTheme": "BEŞERÎ SİSTEMLER VE SÜREÇLER",
+      "sourceTopic": [
+        "Nüfusun Dağılışı ve Hareketleri"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "cd63658988c81780",
+      "schemaVersion": "v2"
+    }
+  }
+}

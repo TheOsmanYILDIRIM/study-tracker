@@ -2,7 +2,7 @@
   "id": "lesson_mat9_sayilar_araliklar_kumeler",
   "courseId": "course_mat_9",
   "stableKey": "lesson_mat9_sayilar_araliklar_kumeler",
-  "title": "Gerçek Sayı Aralıkları ve Küme Sembolleri (MAT.9.1.2)",
+  "title": "Gerçek Sayı Aralıkları ve Küme Sembolleri",
   "orderKey": 2000,
   "items": [
     "item_mat9_vid_araliklar_gosterim",
@@ -10,5 +10,20 @@
     "item_mat9_vid_aralik_farki",
     "item_mat9_vid_aralik_farki__quiz",
     "item_mat9_quiz_araliklar_kumeler"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      3,
+      4
+    ],
+    "theme": "SAYILAR",
+    "sourceTopics": [
+      "Gerçek Sayıların Üslü ve Köklü Gösterimleri ile Yapılan İşlemler • Gerçek Sayı Aralıklarının Gösterimi ve Aralıklarla İlgili İşlemlerde Küme Sembollerinin Kullanımı",
+      "Gerçek Sayı Aralıklarının Gösterimi ve Aralıklarla İlgili İşlemlerde Küme Sembollerinin Kullanımı"
+    ],
+    "kazanims": [
+      "9.1.1. Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair muhakeme yapabilme • 9.1.2. Gerçek sayı aralıklarının gösteriminde ve aralıklarla ilgili işlemlerde küme sembol ve işlemlerinden yararlanabilme",
+      "9.1.2. Gerçek sayı aralıklarının gösteriminde ve aralıklarla ilgili işlemlerde küme sembol ve işlemlerinden yararlanabilme"
+    ]
+  }
 }

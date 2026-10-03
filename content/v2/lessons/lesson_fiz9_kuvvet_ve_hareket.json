@@ -2,11 +2,22 @@
   "id": "lesson_fiz9_kuvvet_ve_hareket",
   "courseId": "course_fiz_9",
   "stableKey": "lesson_fiz9_kuvvet_ve_hareket",
-  "title": "Kuvvet ve Hareket: Büyüklükler ve Vektörler (FİZ.9.2.1 - FİZ.9.2.4)",
-  "orderKey": 2000,
+  "title": "Skaler ve Vektörel Nicelikler",
+  "orderKey": 6000,
   "items": [
     "item_fiz9_vid_vektorler",
-    "item_fiz9_vid_dogadaki_kuvvetler",
     "item_fiz9_quiz_vektor_hareket"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      6
+    ],
+    "theme": "KUVVET VE HAREKET",
+    "sourceTopics": [
+      "Skaler ve Vektörel Nicelikler"
+    ],
+    "kazanims": [
+      "FİZ.9.2.2. Skaler ve vektörel nicelikleri karşılaştırabilme"
+    ]
+  }
 }

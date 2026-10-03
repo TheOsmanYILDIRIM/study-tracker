@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+  "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+  "orderKey": 6000,
+  "items": [
+    "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu"
+  ],
+  "sourceMeta": {
+    "weeks": [
+      14,
+      15
+    ],
+    "theme": "2.TEMA ANLAM ARAYIŞI",
+    "sourceTopics": [
+      "KONUŞMA • • Hikâyedeki bir karakteri tanıtan sunum hazırlayabilme"
+    ],
+    "kazanims": [
+      "TDE3.1. Konusunu ana düşünce etrafında detaylandırdığı akıcı bir konuşma sürecini yönetebilme • TDE3.2. Konusunu ana düşünce etrafında detaylandırdığı konuşma içeriğini oluşturabilme",
+      "TDE3.3. Konusunu ana fikir etrafında detaylandırdığı konuşmasında kural uygulayabilme • TDE3.4. Konuşmasının içeriğinde kullandığı unsurların konuşmasına olan etkisine yönelik süreci değerlendirebilme"
+    ]
+  }
+}

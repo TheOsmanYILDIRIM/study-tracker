@@ -5,7 +5,7 @@
   "stableKey": "mat9_quiz_araliklar_kumeler",
   "itemType": "QUIZ",
   "displayLabel": "Q1",
-  "orderKey": 3000,
+  "orderKey": 5000,
   "title": "Gerçek Sayı Aralıkları ve Kümeler Tarama Testi",
   "contentUrl": null,
   "publishingStatus": "active",

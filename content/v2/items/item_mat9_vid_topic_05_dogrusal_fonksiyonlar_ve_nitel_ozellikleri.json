@@ -1,0 +1,36 @@
+{
+  "id": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "stableKey": "mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+  "itemType": "VIDEO",
+  "displayLabel": "5.1",
+  "orderKey": 1000,
+  "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+  "contentUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Rehber Matematik",
+    "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "sourceTheme": "SAYILAR NİCELİKLER VE DEĞİŞİMLER / NİCELİKLER VE DEĞİŞİMLER",
+      "sourceTopic": [
+        "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme • Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+        "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+        "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 8.9,
+      "videoCandidateTitle": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
+      "fingerprint": "bbb2b75eab91a579",
+      "schemaVersion": "v2"
+    }
+  }
+}

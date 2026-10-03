@@ -1,0 +1,32 @@
+{
+  "id": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "stableKey": "cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+  "itemType": "VIDEO",
+  "displayLabel": "15.1",
+  "orderKey": 1000,
+  "title": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
+  "contentUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Coğrafyanın Kodları",
+    "topic": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        32,
+        33
+      ],
+      "sourceTheme": "EKONOMİK FAALİYETLER VE ETKİLERİ",
+      "sourceTopic": [
+        "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler"
+      ],
+      "reviewStatus": "verified",
+      "videoSearchScore": 4.79,
+      "videoCandidateTitle": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
+      "fingerprint": "15bdfeaccab4d735",
+      "schemaVersion": "v2"
+    }
+  }
+}

@@ -2,11 +2,23 @@
   "id": "lesson_fiz9_enerji_isi_sicaklik",
   "courseId": "course_fiz_9",
   "stableKey": "lesson_fiz9_enerji_isi_sicaklik",
-  "title": "Enerji, Isı ve Sıcaklık (FİZ.9.4.1 - FİZ.9.4.4)",
-  "orderKey": 4000,
+  "title": "İç Enerji, Isı ve Sıcaklık",
+  "orderKey": 15000,
   "items": [
     "item_fiz9_vid_isi_sicaklik_kavram",
     "item_fiz9_vid_hal_degisimi",
     "item_fiz9_quiz_isi_sicaklik"
-  ]
+  ],
+  "sourceMeta": {
+    "weeks": [
+      29
+    ],
+    "theme": "ENERJİ",
+    "sourceTopics": [
+      "İç Enerji, Isı ve Sıcaklık Arasındaki İlişki"
+    ],
+    "kazanims": [
+      "FİZ.9.4.1. İç enerjinin ısı ve sıcaklık ile arasındaki ilişki hakkında tümevarımsal akıl yürütebilme"
+    ]
+  }
 }

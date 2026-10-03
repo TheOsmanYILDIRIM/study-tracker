@@ -1,0 +1,35 @@
+{
+  "id": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "stableKey": "mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        12,
+        13,
+        14
+      ],
+      "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER / NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER",
+      "sourceTopic": [
+        "Mutlak Değer Fonksiyonu ve Nitel Özellikleri • Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+        "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
+        "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler • Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "fd97e61063237a3b",
+      "schemaVersion": "v2"
+    }
+  }
+}

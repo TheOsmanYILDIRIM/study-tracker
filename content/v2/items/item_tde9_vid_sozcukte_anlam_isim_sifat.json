@@ -7,16 +7,26 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Sözcük Türleri: İsimler, Sıfatlar, Zamirler ve Zarflar",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/TDE_Yillik_Plan_AL9.md#L100",
       "sourceSection": "3. ve 4. Tema: Dil Bilgisi",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "b313104e47766801"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "51ef7c8a911b47a1",
+      "sourceWeeks": [
+        22,
+        23,
+        24
+      ],
+      "sourceTheme": "3.TEMA ANLAMIN YAPI TAŞLARI",
+      "videoSearchScore": 4.97,
+      "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi"
+    },
+    "provider": "Rüştü Hoca ile Türkçe",
+    "topic": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı"
   }
 }

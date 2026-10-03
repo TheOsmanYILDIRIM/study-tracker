@@ -1,0 +1,37 @@
+{
+  "id": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+  "courseId": "course_alm_9",
+  "lessonId": "lesson_alm9_topic_13_tageszeiten_und_tagesablauf",
+  "stableKey": "alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+  "itemType": "VIDEO",
+  "displayLabel": "13.1",
+  "orderKey": 1000,
+  "title": "Tageszeiten und Tagesablauf",
+  "contentUrl": null,
+  "publishingStatus": "draft",
+  "payload": {
+    "provider": null,
+    "topic": "Tageszeiten und Tagesablauf",
+    "provenance": {
+      "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
+      "sourceWeeks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceTheme": "Rund um die Uhr! / Von früh bis spät!",
+      "sourceTopic": [
+        "Die Tageszeiten",
+        "Tagesabläufe: Was machen Defne und Laura wann?",
+        "Jetzt seid ihr dran!: Evas Traumtag!"
+      ],
+      "reviewStatus": "needs_review",
+      "videoSearchScore": null,
+      "videoCandidateTitle": null,
+      "fingerprint": "78a4929264d79e17",
+      "schemaVersion": "v2"
+    }
+  }
+}
