@@ -7,23 +7,24 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Üslü İfadelerin Sadeleştirilmesi ve Çarpma",
-  "contentUrl": "https://www.youtube.com/watch?v=s5Rz-1i0n18",
+  "contentUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
-    "topic": "Üs Kuralları ve Sadeleştirme",
+    "provider": "Rehber Matematik",
+    "topic": "Üslü İfadeler 2",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L13",
-      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "09e4ff23f901f518",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
+      "transcriptFingerprint": "b7b70dc9fcea4c1f",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt"
     }
   }
 }

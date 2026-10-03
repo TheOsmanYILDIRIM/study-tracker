@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_05_turkiye_nin_cografi_konumu",
+  "stableKey": "cog9_quiz_turkiyenin_cografi_konumu_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Türkiye'nin Coğrafi Konumu Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Türkiye'nin Coğrafi Konumu Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_trkonum_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türkiye'nin mutlak (matematik) konumu hangi paralel ve meridyen dereceleri arasındadır?",
+          "choices": [
+            "36°-42° Kuzey Paralelleri, 26°-45° Doğu Meridyenleri",
+            "26°-45° Kuzey Paralelleri, 36°-42° Doğu Meridyenleri",
+            "36°-42° Güney Paralelleri, 26°-45° Batı Meridyenleri",
+            "30°-40° Kuzey Paralelleri, 20°-40° Doğu Meridyenleri"
+          ],
+          "correctAnswer": "36°-42° Kuzey Paralelleri, 26°-45° Doğu Meridyenleri",
+          "explanation": "Türkiye 36°-42° Kuzey enlemleri ile 26°-45° Doğu boylamları arasında yer alır."
+        },
+        {
+          "id": "q_cog9_trkonum_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Türkiye'de dört mevsimin belirgin olarak yaşanması ve Akdeniz iklim kuşağında yer alması Türkiye'nin hangi özelliğinin sonucudur?",
+          "choices": [
+            "Orta Kuşak'ta (Ilıman Kuşak) yer almasının",
+            "Üç tarafının denizlerle çevrili olmasının",
+            "Asya ve Avrupa arasında köprü olmasının",
+            "Ortalama yükseltisinin fazla olmasının"
+          ],
+          "correctAnswer": "Orta Kuşak'ta (Ilıman Kuşak) yer almasının",
+          "explanation": "Dört mevsimin belirgin yaşanması Orta Kuşak'ta bulunmanın mutlak konum sonucudur."
+        },
+        {
+          "id": "q_cog9_trkonum_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Türkiye'nin en doğusu (Iğdır - 45° D) ile en batısı (Gökçeada - 26° D) arasındaki yerel saat farkı 76 dakikadır (19 meridyen x 4 dk).",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "45 - 26 = 19 meridyen farkı vardır. 19 x 4 = 76 dakika yerel saat farkı oluşur."
+        },
+        {
+          "id": "q_cog9_trkonum_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Türkiye'de batıdan doğuya doğru gidildikçe sıcaklıkların genel olarak azalması göreceli konum (yükselti) ile açıklanır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Aynı enlemde batıdan doğuya sıcaklığın düşmesi yükseltinin artmasından kaynaklanan göreceli konum özelliğidir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "b0e60d4115d77a24",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "8867c088917f0d07"
+    }
+  }
+}

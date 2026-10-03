@@ -5,67 +5,67 @@
   "stableKey": "tar9_quiz_yardimci_bilimler_micro",
   "itemType": "QUIZ",
   "displayLabel": "2.2-Q",
-  "orderKey": 4000,
-  "title": "Tarihe Yardımcı Bilimler ve Takvimler Mikro Testi",
+  "orderKey": 3500,
+  "title": "Tarihe Yardımcı Bilim Dalları Mikro Testi",
   "contentUrl": null,
   "publishingStatus": "active",
   "payload": {
     "quiz": {
-      "quizTitle": "Tarihe Yardımcı Bilimler ve Takvimler Mikro Testi",
+      "quizTitle": "Tarihe Yardımcı Bilim Dalları Mikro Testi",
       "questions": [
         {
-          "id": "q_tar9_yardimci_1",
+          "id": "q_tar9_yardim_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Eski paraları, sikkeleri ve madalyonları inceleyerek devletlerin ekonomik durumu ve hükümdarları hakkında bilgi veren yardımcı bilim dalı hangisidir?",
+          "prompt": "Eski yazı çeşitlerini, alfabeleri ve bunların zaman içindeki değişimini inceleyen tarihe yardımcı bilim dalı hangisidir?",
           "choices": [
-            "Nümizmatik (Meskukat)",
             "Paleografya",
-            "Epigrafi",
-            "Heraldik"
+            "Nümizmatik",
+            "Heraldik",
+            "Epigrafi"
           ],
-          "correctAnswer": "Nümizmatik (Meskukat)",
-          "explanation": "Nümizmatik para ve sikkeleri inceler; hükümdar ismi, devletin gücü ve ekonomik refahı hakkında doğrudan bilgi sunar."
+          "correctAnswer": "Paleografya",
+          "explanation": "Paleografya eski yazı bilimidir. Epigrafi kitabeleri, Nümizmatik paraları inceler."
         },
         {
-          "id": "q_tar9_yardimci_2",
+          "id": "q_tar9_yardim_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Türklerin tarih boyunca kullandığı takvimlerden hangisi \"Ay Yılı\" (354 gün) esasına dayanır?",
+          "prompt": "Geçmişte basılmış madenî paraları (sikkeleri) inceleyerek dönemin ekonomik ve siyasi gücü hakkında bilgi veren bilim dalı hangisidir?",
           "choices": [
-            "Hicri Takvim",
-            "12 Hayvanlı Türk Takvimi",
-            "Celali Takvim",
-            "Miladi Takvim"
+            "Nümizmatik (Meskûkat)",
+            "Kronoloji",
+            "Etnografya",
+            "Fitoloji"
           ],
-          "correctAnswer": "Hicri Takvim",
-          "explanation": "Türklerin İslamiyet'i kabulüyle kullanmaya başladığı Hicri takvim, ayın dünya etrafındaki dönüşünü (354 gün) esas alır."
+          "correctAnswer": "Nümizmatik (Meskûkat)",
+          "explanation": "Nümizmatik eski madenî paraları inceleyen bilim dalıdır."
         },
         {
-          "id": "q_tar9_yardimci_3",
+          "id": "q_tar9_yardim_3",
           "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Anıtlar ve taş yazıtlar (Orhun Abideleri gibi) üzerindeki yazıları inceleyen bilim dalı hangisidir?",
+          "choices": [
+            "Epigrafi (Kitabe Bilimi)",
+            "Heraldik",
+            "Antropoloji",
+            "Filoloji"
+          ],
+          "correctAnswer": "Epigrafi (Kitabe Bilimi)",
+          "explanation": "Epigrafi taş, mermer veya metal kitabeler üzerindeki yazıları inceleyen kitabe bilimidir."
+        },
+        {
+          "id": "q_tar9_yardim_4",
+          "questionIndex": 3,
           "type": "TRUE_FALSE",
-          "prompt": "Kitabeleri, anıtlar üzerindeki yazıtları ve mezar taşlarını inceleyen bilim dalı Epigrafi'dir.",
+          "prompt": "Devletlerin ve hanedanların armalarını, sembollerini inceleyen bilim dalı Heraldik'tir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Epigrafi (Yazıt Bilimi), taş ve metal kitabeler üzerindeki yazıları inceler; Orhun Abideleri bunun en somut örneğidir."
-        },
-        {
-          "id": "q_tar9_yardimci_4",
-          "questionIndex": 3,
-          "type": "MULTIPLE_CHOICE",
-          "prompt": "Büyük Selçuklu Sultanı Melikşah adına Ömer Hayyam başkanlığındaki heyet tarafından hazırlanan güneş yılı esaslı takvim hangisidir?",
-          "choices": [
-            "Celali Takvimi",
-            "Rumi Takvim",
-            "12 Hayvanlı Türk Takvimi",
-            "Hicri Takvim"
-          ],
-          "correctAnswer": "Celali Takvimi",
-          "explanation": "Celali Takvimi, Büyük Selçuklu Devleti'nde tarım ve mali işleri düzenlemek için Sultan Celaleddin Melikşah adına hazırlanmıştır."
+          "explanation": "Heraldik arma bilimidir; devlet ve soylu aile armalarını inceler."
         }
       ],
       "questionCount": 4,
@@ -73,15 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tar9_vid_yardimci_bilimler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=N8Z2h_r9qK0",
       "transcriptLanguage": "tr",
-      "transcriptKind": "auto",
-      "transcriptFingerprint": "53825f72d2e3bf29",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "32ccc8dd260d8ebe",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "fingerprint": "c727e44328c82a3f"
     }
   }
 }

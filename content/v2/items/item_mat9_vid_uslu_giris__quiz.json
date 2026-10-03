@@ -1,0 +1,88 @@
+{
+  "id": "item_mat9_vid_uslu_giris__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_uslu_giris_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Üslü Sayılara Giriş ve Temel Mantık Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üslü Sayılara Giriş ve Temel Mantık Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_usgir_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(-3)^4 ile -3^4 işlemlerinin sonuçları sırasıyla kaçtır?",
+          "choices": [
+            "81 ve -81",
+            "-81 ve 81",
+            "81 ve 81",
+            "-81 ve -81"
+          ],
+          "correctAnswer": "81 ve -81",
+          "explanation": "Parantezli çift kuvvet tabanın işaretini artı yapar (-3)^4 = +81; parantezsiz ifadede üs sadece 3'e aittir -3^4 = -81'dir."
+        },
+        {
+          "id": "q_mat9_usgir_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(-1) sayısının 101. kuvveti ile 100. kuvvetinin toplamı [(-1)^101 + (-1)^100] kaçtır?",
+          "choices": [
+            "0",
+            "-2",
+            "2",
+            "1"
+          ],
+          "correctAnswer": "0",
+          "explanation": "(-1)'in tek kuvveti -1, çift kuvveti +1'dir: (-1) + (+1) = 0."
+        },
+        {
+          "id": "q_mat9_usgir_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "5^3 ifadesinin açılımı ve değeri aşağıdakilerden hangisidir?",
+          "choices": [
+            "5 · 5 · 5 = 125",
+            "5 + 5 + 5 = 15",
+            "3 · 3 · 3 · 3 · 3 = 243",
+            "5 · 3 = 15"
+          ],
+          "correctAnswer": "5 · 5 · 5 = 125",
+          "explanation": "a^n ifadesi n tane a'nın yan yana çarpımıdır. 5^3 = 5 · 5 · 5 = 125'tir."
+        },
+        {
+          "id": "q_mat9_usgir_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Negatif bir gerçek sayının tek kuvvetleri daima negatiftir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Negatif tabanın tek sayıda çarpımı daima negatif sonuç verir (Örn: (-2)^3 = -8)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_uslu_giris",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "ec31c704e8e95f10",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "cbe036026bfc4d77"
+    }
+  }
+}

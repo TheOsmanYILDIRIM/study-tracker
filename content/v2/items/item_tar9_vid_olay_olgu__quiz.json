@@ -5,67 +5,67 @@
   "stableKey": "tar9_quiz_olay_olgu_micro",
   "itemType": "QUIZ",
   "displayLabel": "1.2-Q",
-  "orderKey": 4000,
-  "title": "Tarihin Doğası & Olay-Olgu Ayrımı Mikro Testi",
+  "orderKey": 3500,
+  "title": "Tarihî Olay ve Olgu Karşılaştırması Mikro Testi",
   "contentUrl": null,
   "publishingStatus": "active",
   "payload": {
     "quiz": {
-      "quizTitle": "Tarihin Doğası & Olay-Olgu Ayrımı Mikro Testi",
+      "quizTitle": "Tarihî Olay ve Olgu Karşılaştırması Mikro Testi",
       "questions": [
         {
-          "id": "q_tar9_olay_1",
+          "id": "q_tar9_olayolgu_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarihte \"Olay\" (Vak'a) ile \"Olgu\" (Vakıa) arasındaki temel fark nedir?",
+          "prompt": "Aşağıdakilerden hangisi \"Tarihî Olay\" (Vaka) kavramına bir örnektir?",
           "choices": [
-            "Olay kısa süreli ve somuttur; olgu ise uzun süreli, süreçsel ve soyuttur",
-            "Olay sadece savaşları, olgu ise sadece barış antlaşmalarını kapsar",
-            "Olaylar belgesiz incelenir, olgular ise sadece arkeolojiye dayanır",
-            "Olaylar gelecekte gerçekleşir, olgular geçmişte kalmıştır"
+            "Malazgirt Meydan Muharebesi (1071)",
+            "Anadolu'nun Türkleşmesi süreci",
+            "İslamiyet'in yayılması",
+            "Sanayileşme hareketleri"
           ],
-          "correctAnswer": "Olay kısa süreli ve somuttur; olgu ise uzun süreli, süreçsel ve soyuttur",
-          "explanation": "Tarihi olay (örn. Malazgirt Savaşı) kısa sürede başlayıp biten somut gelişmedir; olgu (örn. Anadolu'nun Türkleşmesi) uzun bir süreçtir."
+          "correctAnswer": "Malazgirt Meydan Muharebesi (1071)",
+          "explanation": "Olay; başlangıcı ve bitişi belli, kısa sürede gerçekleşen somut gelişmelerdir. Malazgirt Savaşı belirli bir tarihte gerçekleşmiş bir olaydır."
         },
         {
-          "id": "q_tar9_olay_2",
+          "id": "q_tar9_olayolgu_2",
           "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tarihî olguların en belirgin özelliği aşağıdakilerden hangisidir?",
+          "choices": [
+            "Uzun bir süreçte meydana gelen, genel ve soyut değişimlerdir",
+            "Günü ve saati tam olarak bilinen anlık patlamalardır",
+            "Sadece tek bir kişinin kararıyla bir günde gerçekleşir",
+            "Hiçbir zaman bir olayın sonucu olarak ortaya çıkmaz"
+          ],
+          "correctAnswer": "Uzun bir süreçte meydana gelen, genel ve soyut değişimlerdir",
+          "explanation": "Olgu (vakıa); olayların sonucunda uzun vadede gerçekleşen, süreklilik gösteren genel tarihsel süreçlerdir."
+        },
+        {
+          "id": "q_tar9_olayolgu_3",
+          "questionIndex": 2,
           "type": "TRUE_FALSE",
-          "prompt": "\"1453 yılında İstanbul'un Fethi\" bir tarihi olay iken, \"İslamiyet'in yayılması\" bir tarihi olgudur.",
+          "prompt": "İstanbul'un Fethi bir \"olay\", bu fethin ardından Balkanlar'ın fethi ve Osmanlı'nın imparatorluk haline gelmesi ise bir \"olgu\"dur.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "İstanbul'un Fethi belirli bir tarihte gerçekleşen olaydır; İslamiyet'in yayılması ise yüzyıllara yayılan bir olgudur."
+          "explanation": "1453 İstanbul Fethi somut bir olay; ardından gelişen imparatorluklaşma ve kültürel dönüşüm süreci bir olgudur."
         },
         {
-          "id": "q_tar9_olay_3",
-          "questionIndex": 2,
-          "type": "MULTIPLE_CHOICE",
-          "prompt": "Aşağıdakilerden hangisi bir \"Tarihi Olgu\" örneğidir?",
-          "choices": [
-            "Anadolu'nun Türkleşmesi süreci",
-            "Malazgirt Meydan Muharebesi (1071)",
-            "Lozan Barış Antlaşması'nın imzalanması",
-            "Cumhuriyet'in İlanı (29 Ekim 1923)"
-          ],
-          "correctAnswer": "Anadolu'nun Türkleşmesi süreci",
-          "explanation": "Anadolu'nun Türkleşmesi uzun zamana yayılan, çok boyutlu ve genel bir süreç (olgu) niteliği taşır."
-        },
-        {
-          "id": "q_tar9_olay_4",
+          "id": "q_tar9_olayolgu_4",
           "questionIndex": 3,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarihi olaylar incelenirken neden-sonuç zincirinde dikkat edilmesi gereken en önemli kural nedir?",
+          "prompt": "\"Olaylar biriciktir, tekrarlanamaz; olgular ise benzer şartlarda farklı coğrafyalarda tekrar yaşanabilir.\" ifadesi için ne söylenebilir?",
           "choices": [
-            "Bir olayın sonucunun, kendisinden sonraki olayın nedeni olabilmesi",
-            "Tüm olayların tek bir dini nedene bağlanması",
-            "Sonuçların nedenlerden önce gerçekleştiğinin varsayılması",
-            "Olayların sadece kazanan devletin gözüyle değerlendirilmesi"
+            "Kesinlikle doğrudur",
+            "Tamamen yanlıştır, olaylar tekrarlanır",
+            "Yalnızca ilkçağ tarihi için geçerlidir",
+            "Tarihte olgu kavramı bulunmamaktadır"
           ],
-          "correctAnswer": "Bir olayın sonucunun, kendisinden sonraki olayın nedeni olabilmesi",
-          "explanation": "Tarihsel determinizm ve süreklilik gereği, bir olayın sonucu sonraki gelişmelerin tetikleyicisi ve nedeni olur."
+          "correctAnswer": "Kesinlikle doğrudur",
+          "explanation": "Tarihî olaylar kendine özgüdür ve tekrarlanamaz (örneğin Kurtuluş Savaşı); ancak milliyetçilik, kentleşme gibi olgular farklı yer ve zamanlarda tekrar edebilir."
         }
       ],
       "questionCount": 4,
@@ -73,15 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tar9_vid_olay_olgu",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm214v0e1qI",
       "transcriptLanguage": "tr",
-      "transcriptKind": "auto",
-      "transcriptFingerprint": "a6c06e699d659fd4",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "79f3890b713032ec",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "fingerprint": "0cbd4475f09ee315"
     }
   }
 }

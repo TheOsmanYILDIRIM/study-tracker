@@ -1,0 +1,88 @@
+{
+  "id": "item_biyo9_vid_topic_05_karbonhidratlar__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_05_karbonhidratlar",
+  "stableKey": "biyo9_quiz_karbonhidratlar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "5.1-Q",
+  "orderKey": 1500,
+  "title": "Karbonhidratlar Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Karbonhidratlar Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_karb_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Hücrede birinci dereceden öncelikli enerji kaynağı olarak kullanılan organik molekül grubu hangisidir?",
+          "choices": [
+            "Karbonhidratlar",
+            "Proteinler",
+            "Yağlar (Lipitler)",
+            "Nükleik Asitler"
+          ],
+          "correctAnswer": "Karbonhidratlar",
+          "explanation": "Karbonhidratlar parçalanması kolay olduğu için hücrenin ilk başvurduğu enerji kaynağıdır."
+        },
+        {
+          "id": "q_biyo9_karb_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki glikoz molekülünün birleşmesiyle oluşan disakkarit hangisidir ve arasındaki bağın adı nedir?",
+          "choices": [
+            "Maltoz - Glikozit bağı",
+            "Sükroz - Peptit bağı",
+            "Laktoz - Ester bağı",
+            "Nişasta - Fosfodiester bağı"
+          ],
+          "correctAnswer": "Maltoz - Glikozit bağı",
+          "explanation": "Glikoz + Glikoz -> Maltoz + H2O (Arpa şekeri), kurulan bağ glikozit bağıdır."
+        },
+        {
+          "id": "q_biyo9_karb_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bitkilerde fotosentez sonucu üretilen fazla glikoz lökoplastlarda Nişasta olarak depolanır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bitkisel depo polisakkariti nişastadır; hayvanlarda ve mantarlarda ise glikojendir."
+        },
+        {
+          "id": "q_biyo9_karb_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Mantarların hücre çeperinde ve böceklerin dış iskeletinde bulunan, yapısında azot (N) elementi barındıran polisakkarit hangisidir?",
+          "choices": [
+            "Kitin",
+            "Selüloz",
+            "Glikojen",
+            "Nişasta"
+          ],
+          "correctAnswer": "Kitin",
+          "explanation": "Kitin azot içeren yapısal bir polisakkarittir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_05_karbonhidratlar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY0p71h3aL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "aa74139f85af8015",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "7d16397f9cd214f0"
+    }
+  }
+}

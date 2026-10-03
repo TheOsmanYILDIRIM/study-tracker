@@ -1,0 +1,88 @@
+{
+  "id": "item_mat9_vid_uslu_kurallar__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_uslu_kurallar_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.2-Q",
+  "orderKey": 2500,
+  "title": "Üslü İfadelerde Çarpma ve Taban Kuralları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Üslü İfadelerde Çarpma ve Taban Kuralları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_uskur_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Tabanları aynı olan üslü sayılar çarpılırken (a^x · a^y) sonuç nasıl bulunur?",
+          "choices": [
+            "Taban aynı kalır, üsler toplanır (a^(x+y))",
+            "Tabanlar çarpılır, üsler toplanır",
+            "Taban aynı kalır, üsler çarpılır (a^(x·y))",
+            "Tabanlar toplanır, üs aynı kalır"
+          ],
+          "correctAnswer": "Taban aynı kalır, üsler toplanır (a^(x+y))",
+          "explanation": "Tabanları aynı olan üslü ifadeler çarpılırken üsler cebirsel olarak toplanır."
+        },
+        {
+          "id": "q_mat9_uskur_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "2^5 · 3^5 çarpımının eşiti aşağıdakilerden hangisidir?",
+          "choices": [
+            "6^5",
+            "6^10",
+            "5^5",
+            "6^25"
+          ],
+          "correctAnswer": "6^5",
+          "explanation": "Üsleri eşit olan üslü ifadeler çarpılırken tabanlar çarpılır ve ortak üs yazılır: (2 · 3)^5 = 6^5."
+        },
+        {
+          "id": "q_mat9_uskur_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(2^3)^4 üssün üssü ifadesinin değeri 2'nin kaçıncı kuvvetidir?",
+          "choices": [
+            "2^12",
+            "2^7",
+            "2^81",
+            "2^64"
+          ],
+          "correctAnswer": "2^12",
+          "explanation": "Üssün üssü alınırken üsler birbiriyle çarpılır: (a^x)^y = a^(x·y) olduğundan 3 · 4 = 12, yani 2^12'dir."
+        },
+        {
+          "id": "q_mat9_uskur_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "(3^4)^2 ile 3^(4^2) ifadeleri aynı matematiksel değere sahiptir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "(3^4)^2 = 3^8 iken 3^(4^2) = 3^16'dır; kuvvet parantezsiz kule şeklinde yazıldığında yukarıdan aşağıya üs alınır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_uslu_kurallar",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "b7b70dc9fcea4c1f",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "da78d859892e45a7"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "totalVideos": 174,
   "youtubeVideos": 67,
-  "fetched": 58,
-  "reused": 1,
+  "fetched": 67,
+  "reused": 0,
   "missing": 0,
-  "failed": 8,
+  "failed": 0,
   "details": [
     {
       "itemId": "item_biyo9_vid_hucre_organeller",
@@ -43,8 +43,10 @@
     },
     {
       "itemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
-      "status": "reused",
-      "path": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
+      "fingerprint": "95b1175967d50ac1"
     },
     {
       "itemId": "item_biyo9_vid_topic_05_karbonhidratlar",
@@ -170,12 +172,14 @@
       "status": "fetched",
       "kind": "subtitle",
       "path": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
-      "fingerprint": "34d7daa0f04f7cdc"
+      "fingerprint": "eb386b00a00bd43e"
     },
     {
       "itemId": "item_fiz9_vid_fizik_giris",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
+      "fingerprint": "950a6c9a5591fd65"
     },
     {
       "itemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
@@ -200,8 +204,10 @@
     },
     {
       "itemId": "item_fiz9_vid_vektorler",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt",
+      "fingerprint": "532569ac8750adbf"
     },
     {
       "itemId": "item_kim9_vid_atom_modelleri",
@@ -303,8 +309,10 @@
     },
     {
       "itemId": "item_mat9_vid_koklu_mantik",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
+      "fingerprint": "c81aea17231c58a8"
     },
     {
       "itemId": "item_mat9_vid_olasilik_turleri",
@@ -315,8 +323,10 @@
     },
     {
       "itemId": "item_mat9_vid_rasyonel_usler",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
+      "fingerprint": "701580fd7642654a"
     },
     {
       "itemId": "item_mat9_vid_sayi_kumeleri",
@@ -383,23 +393,31 @@
     },
     {
       "itemId": "item_mat9_vid_uslu_bolme",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
+      "fingerprint": "72a42480cb471e64"
     },
     {
       "itemId": "item_mat9_vid_uslu_giris",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
+      "fingerprint": "ec31c704e8e95f10"
     },
     {
       "itemId": "item_mat9_vid_uslu_kurallar",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
+      "fingerprint": "b7b70dc9fcea4c1f"
     },
     {
       "itemId": "item_mat9_vid_uslu_negatif",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "fetched",
+      "kind": "subtitle",
+      "path": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
+      "fingerprint": "71eb5b21eb0dd86f"
     },
     {
       "itemId": "item_mat9_vid_veri_dagilimlari",
@@ -458,5 +476,5 @@
       "fingerprint": "b942c35900634519"
     }
   ],
-  "generatedAt": "2026-10-03T17:39:42.792Z"
+  "generatedAt": "2026-10-03T18:43:12.189Z"
 }

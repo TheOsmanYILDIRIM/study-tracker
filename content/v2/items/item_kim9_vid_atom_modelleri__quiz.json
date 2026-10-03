@@ -1,0 +1,86 @@
+{
+  "id": "item_kim9_vid_atom_modelleri__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+  "stableKey": "kim9_quiz_atom_modelleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Atom Modelleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Atom Modelleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_atmod_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Atomu pozitif yüklü bir küre içinde homojen dağılmış elektronlardan oluşan \"Üzümlü Kek\"e benzeten bilim insanı kimdir?",
+          "choices": [
+            "J. J. Thomson",
+            "John Dalton",
+            "Ernest Rutherford",
+            "Niels Bohr"
+          ],
+          "correctAnswer": "J. J. Thomson",
+          "explanation": "Thomson modeli üzümlü kek olarak bilinir; kek pozitif yükü, üzümler elektronları temsil eder."
+        },
+        {
+          "id": "q_kim9_atmod_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İnce altın levhaya alfa tanecikleri göndererek atomun büyük kısmının boşluk olduğunu ve pozitif yükün merkezdeki çekirdekte toplandığını keşfeden kimdir?",
+          "choices": [
+            "Ernest Rutherford",
+            "John Dalton",
+            "Niels Bohr",
+            "James Chadwick"
+          ],
+          "correctAnswer": "Ernest Rutherford",
+          "explanation": "Rutherford alfa saçılması deneyiyle atom çekirdeğini keşfetmiş ve gezegen modelini önermiştir."
+        },
+        {
+          "id": "q_kim9_atmod_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Bohr atom modeline göre elektronlar çekirdek etrafında rastgele değil, belirli enerji düzeylerine (katman/yörünge) sahip dairesel yörüngelerde dolanır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Bohr modeli dairesel yörünge ve kuantize enerji seviyeleri kavramını getirmiştir."
+        },
+        {
+          "id": "q_kim9_atmod_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Dalton atom modelinde izotop atomların varlığı doğru bir şekilde açıklanmıştır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Dalton \"bir elementin tüm atomları kütlece ve hacimce özdeştir\" diyerek yanılmıştır; izotop kavramı o dönem bilinmiyordu."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_atom_modelleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Fj22h84a9qL",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "7cd92b2c6669ff39",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "259d1109bbe7ea86"
+    }
+  }
+}

@@ -5,7 +5,8 @@
   "title": "Mekânın Aynası Haritalar",
   "orderKey": 4000,
   "items": [
-    "item_cog9_vid_harita_bilgisi"
+    "item_cog9_vid_harita_bilgisi",
+    "item_cog9_vid_harita_bilgisi__quiz"
   ],
   "sourceMeta": {
     "weeks": [

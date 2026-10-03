@@ -1,0 +1,88 @@
+{
+  "id": "item_mat9_vid_algoritma_temelleri__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_topic_14_algoritma_temelli_problemler",
+  "stableKey": "mat9_quiz_algoritma_temelleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "14.1-Q",
+  "orderKey": 1500,
+  "title": "Algoritma ve Akış Şeması Temelleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Algoritma ve Akış Şeması Temelleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_algo_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir problemin çözümü için tasarlanan, başlangıcı ve bitişi net olan adım adım işlem basamaklarına ne ad verilir?",
+          "choices": [
+            "Algoritma",
+            "Aksiyom",
+            "Teorem",
+            "Hipotez"
+          ],
+          "correctAnswer": "Algoritma",
+          "explanation": "Algoritma belirli bir görevi yerine getirmek veya bir problemi çözmek için tanımlanan sonlu işlem basamakları dizisidir."
+        },
+        {
+          "id": "q_mat9_algo_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Akış şemalarında (Flowchart) \"Karar / Koşul / Karşılaştırma\" (Örn: Sayı > 0 mı?) işlemlerini göstermek için hangi geometrik şekil kullanılır?",
+          "choices": [
+            "Eşkenar Dörtgen (Baklava Dilimi)",
+            "Dikdörtgen",
+            "Oval (Elips)",
+            "Paralelkenar"
+          ],
+          "correctAnswer": "Eşkenar Dörtgen (Baklava Dilimi)",
+          "explanation": "Akış şemalarında eşkenar dörtgen şart ve karar kutusudur; dikdörtgen işlem, oval ise başla/bitir için kullanılır."
+        },
+        {
+          "id": "q_mat9_algo_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Akış şemasında \"Başla\" ve \"Bitir\" adımlarını temsil etmek için elips / oval şekli kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Algoritmanın başlangıç ve bitiş noktaları oval (elips) sembolü ile gösterilir."
+        },
+        {
+          "id": "q_mat9_algo_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Algoritmada bir işlemin belirli bir şart sağlanana kadar tekrar tekrar yürütülmesini sağlayan yapıya ne ad verilir?",
+          "choices": [
+            "Döngü (Loop)",
+            "Atama",
+            "Değişken",
+            "Fonksiyon"
+          ],
+          "correctAnswer": "Döngü (Loop)",
+          "explanation": "Döngü yapısı koşula bağlı tekrarlı işlemleri yöneten temel algoritma yapısıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_algoritma_temelleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "9b90a8e7ecbc81a2",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "bd2613f5d8f16f2d"
+    }
+  }
+}

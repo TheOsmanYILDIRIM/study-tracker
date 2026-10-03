@@ -1,0 +1,90 @@
+{
+  "id": "item_mat9_vid_rasyonel_usler__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_rasyonel_usler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.6-Q",
+  "orderKey": 6500,
+  "title": "Rasyonel Üsler ve Kökten Çıkarma Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Rasyonel Üsler ve Kökten Çıkarma Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_rasus_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "x^(a/b) rasyonel üslü ifadesi köklü biçimde nasıl yazılır?",
+          "choices": [
+            "b. dereceden kök (x^a)",
+            "a. dereceden kök (x^b)",
+            "x^(a·b)",
+            "b · √x^a"
+          ],
+          "correctAnswer": "b. dereceden kök (x^a)",
+          "explanation": "Rasyonel üste pay içerideki üssü, payda ise kök derecesini belirtir: x^(a/b) = ᵇ√(x^a)."
+        },
+        {
+          "id": "q_mat9_rasus_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "√50 sayısı a√b biçiminde kök dışına çıkarıldığında eşiti nedir?",
+          "choices": [
+            "5√2",
+            "2√5",
+            "25√2",
+            "10√5"
+          ],
+          "correctAnswer": "5√2",
+          "explanation": "50 = 25 · 2 = 5^2 · 2 olduğundan √50 = 5√2 olarak kök dışına çıkar."
+        },
+        {
+          "id": "q_mat9_rasus_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "√72 ifadesinin a√b biçimindeki en sade yazılışı hangisidir?",
+          "choices": [
+            "6√2",
+            "3√8",
+            "2√18",
+            "8√3"
+          ],
+          "correctAnswer": "6√2",
+          "explanation": "72 = 36 · 2 = 6^2 · 2 olduğundan √72 = 6√2'dir."
+        },
+        {
+          "id": "q_mat9_rasus_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "∛54 (3. dereceden kök 54) ifadesinin kök dışına çıkarılmış biçimi hangisidir?",
+          "choices": [
+            "3 ∛2",
+            "2 ∛3",
+            "9 ∛6",
+            "6 ∛3"
+          ],
+          "correctAnswer": "3 ∛2",
+          "explanation": "54 = 27 · 2 = 3^3 · 2 olduğundan ∛54 = 3 ∛2'dir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_rasyonel_usler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "701580fd7642654a",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "9851e46eca78b27d"
+    }
+  }
+}

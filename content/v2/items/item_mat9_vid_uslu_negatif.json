@@ -7,23 +7,24 @@
   "displayLabel": "1.4",
   "orderKey": 4000,
   "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
-  "contentUrl": "https://www.youtube.com/watch?v=9_d8mQJzL4w",
+  "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
-    "topic": "Sıfır ve Negatif Üs",
+    "provider": "Rehber Matematik",
+    "topic": "Üslü İfadeler 4",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L15",
-      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "6cb73c7f5932687a",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
+      "transcriptFingerprint": "71eb5b21eb0dd86f",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt"
     }
   }
 }

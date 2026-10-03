@@ -7,23 +7,24 @@
   "displayLabel": "1.6",
   "orderKey": 6000,
   "title": "Kesirli Üslü ve Köklü İfadeler",
-  "contentUrl": "https://www.youtube.com/watch?v=1xNq8o3l4wM",
+  "contentUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
-    "topic": "Rasyonel Üsler",
+    "provider": "Rehber Matematik",
+    "topic": "Köklü İfadeler 2",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L21",
-      "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L28",
+      "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "f2b5f73128476d91",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
+      "transcriptFingerprint": "701580fd7642654a",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
     }
   }
 }

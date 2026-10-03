@@ -1,0 +1,86 @@
+{
+  "id": "item_kim9_vid_topic_09_kovalent_bag__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_09_kovalent_bag",
+  "stableKey": "kim9_quiz_kovalent_bag_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "9.1-Q",
+  "orderKey": 1500,
+  "title": "Kovalent Bağ Türleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kovalent Bağ Türleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_kov_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Kovalent bağın oluşum mekanizması aşağıdakilerden hangisidir?",
+          "choices": [
+            "Ametal atomlarının değerlik elektronlarını ortaklaşa kullanması",
+            "Metal ve ametal arasında elektron alışverişi",
+            "Soygazların elektron alması",
+            "Proton transferi"
+          ],
+          "correctAnswer": "Ametal atomlarının değerlik elektronlarını ortaklaşa kullanması",
+          "explanation": "Kovalent bağ ametallerin dublet veya oktete ulaşmak için elektronlarını ortak kullanmasıyla oluşur."
+        },
+        {
+          "id": "q_kim9_kov_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aynı iki ametal atomu arasında (örneğin O2, N2, Cl2) oluşan kovalent bağ türü hangisidir?",
+          "choices": [
+            "Apolar Kovalent Bağ",
+            "Polar Kovalent Bağ",
+            "İyonik Bağ",
+            "Hidrojen Bağı"
+          ],
+          "correctAnswer": "Apolar Kovalent Bağ",
+          "explanation": "Aynı atomlar arasında elektronegatiflik farkı sıfır olduğundan kutupsuz (apolar) kovalent bağ oluşur."
+        },
+        {
+          "id": "q_kim9_kov_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Farklı ametal atomları arasında elektronların eşit olmayan çekimiyle oluşan bağa Polar Kovalent Bağ denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "H2O, HCl, NH3 gibi farklı ametal atomları içeren moleküllerdeki bağlar polar kovalenttir."
+        },
+        {
+          "id": "q_kim9_kov_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Kovalent bağlı bileşikler bağımsız moleküler yapılara sahiptirler ve katı halde iyonik örgü oluşturmazlar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Su (H2O), karbondioksit (CO2) gibi kovalent bileşikler moleküler yapılıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_09_kovalent_bag",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm3KkQ1p4jM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "895c0a3f6faf371f",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "ace38b2c09957f1c"
+    }
+  }
+}

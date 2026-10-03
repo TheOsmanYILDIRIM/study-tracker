@@ -6,6 +6,7 @@
   "orderKey": 4000,
   "items": [
     "item_fiz9_vid_fizik_giris",
+    "item_fiz9_vid_fizik_giris__quiz",
     "item_fiz9_quiz_fizik_giris"
   ],
   "sourceMeta": {

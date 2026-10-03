@@ -1,0 +1,86 @@
+{
+  "id": "item_cog9_vid_harita_bilgisi__quiz",
+  "courseId": "course_cog_9",
+  "lessonId": "lesson_cog9_topic_04_mekanin_aynasi_haritalar",
+  "stableKey": "cog9_quiz_harita_bilgisi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "4.1-Q",
+  "orderKey": 1500,
+  "title": "Harita Bilgisi ve Projeksiyonlar Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Harita Bilgisi ve Projeksiyonlar Mikro Testi",
+      "questions": [
+        {
+          "id": "q_cog9_harita_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir çizimin harita özelliği taşıyabilmesi için gereken 3 temel unsur nedir?",
+          "choices": [
+            "Kuşbakışı görünüş, belirli bir ölçek, düzleme aktarılmış olma",
+            "Renkli çizim, büyük boyut, pusula",
+            "Kabartma tekniği, koordinat çizgileri, lejant",
+            "Sadece yer isimleri, ölçek, fotoğraf"
+          ],
+          "correctAnswer": "Kuşbakışı görünüş, belirli bir ölçek, düzleme aktarılmış olma",
+          "explanation": "Harita tanımı: Kuşbakışı olarak, belli bir ölçek dahilinde düzleme aktarılan çizimlerdir."
+        },
+        {
+          "id": "q_cog9_harita_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Ekvator ve çevresini en az hata ve bozulma ile haritaya aktarmak için hangi projeksiyon yöntemi tercih edilir?",
+          "choices": [
+            "Silindirik Projeksiyon",
+            "Konik Projeksiyon",
+            "Düzlem Projeksiyon",
+            "Parçalı Projeksiyon"
+          ],
+          "correctAnswer": "Silindirik Projeksiyon",
+          "explanation": "Silindirik projeksiyon Ekvator çevresinde en az bozulmayı verir; kutuplara gidildikçe bozulma artar."
+        },
+        {
+          "id": "q_cog9_harita_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Orta kuşak ülkelerinin (örneğin Türkiye) harita çizimlerinde bozulmayı en aza indirmek için Konik Projeksiyon yöntemi kullanılır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Konik projeksiyon 30°-60° enlemleri arasındaki Orta Kuşak bölgelerini en az hata ile çizer."
+        },
+        {
+          "id": "q_cog9_harita_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Büyük ölçekli haritalar, küçük ölçekli haritalara göre daha dar bir alanı gösterir ve ayrıntıyı gösterme gücü daha fazladır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Büyük ölçekte payda küçüktür, küçültme azdır, ayrıntı fazladır, bozulma azdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_cog9_vid_harita_bilgisi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "92ed5bed2a0c5a22",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "3568e9b1c8681887"
+    }
+  }
+}

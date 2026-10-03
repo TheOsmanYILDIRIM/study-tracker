@@ -1,0 +1,88 @@
+{
+  "id": "item_mat9_vid_uslu_negatif__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_uslu_negatif_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.4-Q",
+  "orderKey": 4500,
+  "title": "Sıfır ve Negatif Üs Kuralları Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sıfır ve Negatif Üs Kuralları Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_usneg_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Sıfırdan farklı bir gerçek sayının sıfırıncı kuvveti (a^0) kaça eşittir?",
+          "choices": [
+            "1",
+            "0",
+            "a",
+            "-1"
+          ],
+          "correctAnswer": "1",
+          "explanation": "Sıfır hariç tüm gerçek sayıların sıfırıncı kuvveti 1'dir (a^0 = 1, a ≠ 0)."
+        },
+        {
+          "id": "q_mat9_usneg_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "2^(-3) ifadesinin değeri kaçtır?",
+          "choices": [
+            "1/8",
+            "-8",
+            "-6",
+            "1/6"
+          ],
+          "correctAnswer": "1/8",
+          "explanation": "a^(-n) = 1 / (a^n) kuralından 2^(-3) = 1 / (2^3) = 1/8'dir."
+        },
+        {
+          "id": "q_mat9_usneg_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "(2/3)^(-2) kesirli üslü ifadesinin eşiti nedir?",
+          "choices": [
+            "9/4",
+            "4/9",
+            "-4/9",
+            "-9/4"
+          ],
+          "correctAnswer": "9/4",
+          "explanation": "Negatif üs kesri çarpmaya göre ters çevirir: (2/3)^(-2) = (3/2)^2 = 9/4."
+        },
+        {
+          "id": "q_mat9_usneg_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Negatif bir üs (a^(-n)), tabandaki sayının işaretini her zaman negatife çevirir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Negatif üs sayının işaretini eksi yapmaz; sadece sayıyı çarpmaya göre tersine çevirir (takla attırır)."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_uslu_negatif",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "71eb5b21eb0dd86f",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "4eff4213c774e67f"
+    }
+  }
+}

@@ -7,23 +7,24 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Üslü Sayılara Giriş (1. Seviye)",
-  "contentUrl": "https://www.youtube.com/watch?v=kYqP9K0Y0pU",
+  "contentUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
-    "topic": "Cebir Öncesi Temeller",
+    "provider": "Rehber Matematik",
+    "topic": "Üslü İfadeler 1",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L12",
-      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (MAT.9.1.1)",
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
+      "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "893ed24a871bd143",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
+      "transcriptFingerprint": "ec31c704e8e95f10",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt"
     }
   }
 }

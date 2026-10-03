@@ -6,23 +6,24 @@
   "itemType": "VIDEO",
   "displayLabel": "1.1",
   "orderKey": 1000,
-  "title": "Fizik Bilimine Giriş (Temel Prensipler)",
-  "contentUrl": "https://www.youtube.com/watch?v=sO7N-V4T_YI",
+  "title": "Fizik Bilimine Giriş (Temel Prensipler ve Alt Dallar)",
+  "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
+    "provider": "Özcan Aykın FİZİK",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_fizik_video_rehberi.md#L18",
-      "sourceSection": "1. Hafta: Fizik Bilimi ve Alt Dalları",
+      "sourceRef": "10-Projects/1_ay_fizik_video_rehberi.md#L15",
+      "sourceSection": "1. Hafta: Fizik Bilimi ve Alt Dalları (Özcan Aykın)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "209e14527f3f8255",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
+      "transcriptFingerprint": "950a6c9a5591fd65",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt"
     }
   }
 }

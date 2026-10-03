@@ -1,0 +1,86 @@
+{
+  "id": "item_mat9_vid_sayi_kumeleri__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+  "stableKey": "mat9_quiz_sayi_kumeleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Sayı Kümeleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Sayı Kümeleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_saykum_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Doğal sayılar kümesi (N) ile Sayma sayıları kümesi (N+) arasındaki tek fark hangi elemandır?",
+          "choices": [
+            "0 (Sıfır)",
+            "1",
+            "-1",
+            "Sonsuz"
+          ],
+          "correctAnswer": "0 (Sıfır)",
+          "explanation": "Doğal sayılar 0'dan başlar (N = {0, 1, 2, ...}), sayma sayıları ise 1'den başlar."
+        },
+        {
+          "id": "q_mat9_saykum_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İki tam sayının oranı şeklinde (a/b, b ≠ 0) yazılamayan, virgülden sonra devretmeksizin sonsuza giden sayılara ne ad verilir?",
+          "choices": [
+            "İrrasyonel Sayılar (Q' / I)",
+            "Rasyonel Sayılar (Q)",
+            "Tam Sayılar (Z)",
+            "Doğal Sayılar (N)"
+          ],
+          "correctAnswer": "İrrasyonel Sayılar (Q' / I)",
+          "explanation": "π sayısı, e sayısı ve tam kare olmayan köklü sayılar (√2, √3) irrasyonel sayılardır."
+        },
+        {
+          "id": "q_mat9_saykum_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Gerçek (Reel) sayılar kümesi (R), rasyonel sayılar (Q) ile irrasyonel sayıların (Q') birleşiminden oluşur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "R = Q ∪ Q' olup sayı doğrusundaki tüm noktaları eksiksiz doldurur."
+        },
+        {
+          "id": "q_mat9_saykum_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "√4 sayısı irrasyonel bir sayıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "√4 = 2 olduğundan doğal, tam ve rasyonel bir sayıdır; irrasyonel değildir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_sayi_kumeleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "426e959c263c3dbc",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "29d46fd5d4e85862"
+    }
+  }
+}

@@ -6,23 +6,24 @@
   "itemType": "VIDEO",
   "displayLabel": "2.1",
   "orderKey": 1000,
-  "title": "Vektörel ve Skaler Büyüklükler (Görsel Koordinat Anlatımı)",
-  "contentUrl": "https://www.youtube.com/watch?v=sO7N-V4T_YI",
+  "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
+  "contentUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
+    "provider": "Özcan Aykın FİZİK",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_fizik_video_rehberi.md#L40",
-      "sourceSection": "3. Hafta: Vektörler ve Dik Kartezyen Koordinat Sistemi",
+      "sourceRef": "10-Projects/1_ay_fizik_video_rehberi.md#L28",
+      "sourceSection": "2. Hafta: Bilim Merkezleri ve Fiziksel Nicelikler (Özcan Aykın)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "6486243db87369b1",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt",
+      "transcriptFingerprint": "532569ac8750adbf",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.tr.vtt"
     }
   }
 }

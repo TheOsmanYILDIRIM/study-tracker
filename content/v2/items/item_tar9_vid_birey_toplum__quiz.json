@@ -5,67 +5,67 @@
   "stableKey": "tar9_quiz_birey_toplum_micro",
   "itemType": "QUIZ",
   "displayLabel": "1.1-Q",
-  "orderKey": 2000,
-  "title": "Tarih Öğrenmenin Bireye ve Topluma Faydaları Mikro Testi",
+  "orderKey": 1500,
+  "title": "Tarih, Birey ve Toplum Mikro Testi",
   "contentUrl": null,
   "publishingStatus": "active",
   "payload": {
     "quiz": {
-      "quizTitle": "Tarih Öğrenmenin Bireye ve Topluma Faydaları Mikro Testi",
+      "quizTitle": "Tarih, Birey ve Toplum Mikro Testi",
       "questions": [
         {
           "id": "q_tar9_birey_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih öğrenmenin bireye kazandırdığı en temel becerilerden biri olan \"tarihsel empati\" ne anlama gelir?",
+          "prompt": "Tarih biliminin konusu aşağıdakilerden hangisidir?",
           "choices": [
-            "Geçmişteki olayları o dönemin şartlarını ve zihniyetini dikkate alarak değerlendirmek",
-            "Geçmişteki tüm savaşları günümüz ahlak kurallarıyla yargılamak",
-            "Tarihi olayları günümüzün teknolojik imkanlarıyla canlandırmak",
-            "Geçmişte yaşanan acıları unutarak geleceğe bakmak"
+            "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+            "Yalnızca doğa olaylarının yeryüzündeki fiziksel sonuçları",
+            "Gelecekte gerçekleşecek siyasi olayların kesin tahminleri",
+            "Mitolojik efsanelerin ve kurgusal hikâyelerin edebi tahlili"
           ],
-          "correctAnswer": "Geçmişteki olayları o dönemin şartlarını ve zihniyetini dikkate alarak değerlendirmek",
-          "explanation": "Tarihsel empati, geçmişte yaşamış insanların kararlarını dönemin koşulları, inançları ve imkanları çerçevesinde anlama becerisidir."
+          "correctAnswer": "Geçmişte yaşamış insan topluluklarının faaliyetleri, kültürleri ve birbirleriyle ilişkileri",
+          "explanation": "Tarih; geçmişteki insan faaliyetlerini yer ve zaman göstererek, belgelere dayanarak neden-sonuç ilişkisi içinde inceleyen sosyal bir bilimdir."
         },
         {
           "id": "q_tar9_birey_2",
           "questionIndex": 1,
           "type": "TRUE_FALSE",
-          "prompt": "Tarih bilimi, toplumların ortak hafızasını ve milli kimlik bilincini güçlendirerek birlik ve beraberliğe katkı sağlar.",
+          "prompt": "Tarihsel olaylar tekrarlanamaz ve laboratuvar ortamında deney-gözlem yöntemiyle incelenemez.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Tarih bilimi toplumsal belleği oluşturur, ortak değer ve bilinç kazandırarak sosyal dayanışmayı artırır."
+          "explanation": "Tarih geçmişe ait olayları incelediği için fen bilimlerindeki gibi kontrollü deney veya gözlem yapılamaz; kaynak ve belgelere dayanılır."
         },
         {
           "id": "q_tar9_birey_3",
           "questionIndex": 2,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Aşağıdakilerden hangisi tarihin araştırma alanına giren konulardan biri DEĞİLDİR?",
+          "prompt": "Tarih bilincinin bireye ve topluma kazandırdığı en temel fayda aşağıdakilerden hangisidir?",
           "choices": [
-            "Doğa olaylarının fiziksel ve kimyasal kanunlarını laboratuvarda ispatlamak",
-            "İnsan topluluklarının geçmişteki siyasi, kültürel ve ekonomik faaliyetleri",
-            "Geçmişte yaşanan antlaşmalar ve savaşların neden-sonuç ilişkisi",
-            "Uygarlıkların bıraktığı somut ve yazılı kültürel miras"
+            "Milli kimlik ve toplumsal hafıza oluşturarak geçmişten ders çıkarıp geleceği inşa etmek",
+            "Tüm dünyada tek bir dil ve kültür oluşturmak",
+            "Geçmişteki savaşları aynı şekilde yeniden yaşatmak",
+            "Yalnızca kralların hayat hikâyelerini ezberlemek"
           ],
-          "correctAnswer": "Doğa olaylarının fiziksel ve kimyasal kanunlarını laboratuvarda ispatlamak",
-          "explanation": "Tarih insan faaliyetlerini inceler; doğa kanunlarını laboratuvarda denemek pozitif doğa bilimlerinin (fizik, kimya) alanıdır."
+          "correctAnswer": "Milli kimlik ve toplumsal hafıza oluşturarak geçmişten ders çıkarıp geleceği inşa etmek",
+          "explanation": "Tarih bilinci, bireyde aidiyet duygusu ve ortak hafıza oluşturarak toplumların bilinçli hareket etmesini sağlar."
         },
         {
           "id": "q_tar9_birey_4",
           "questionIndex": 3,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih biliminin araştırma yönteminde pozitif bilimlerden (fizik, kimya) en temel farkı nedir?",
+          "prompt": "Tarih araştırmalarında olayların geçtiği dönemin koşullarını dikkate alarak günümüz yargılarıyla önyargılı yaklaşmama tutumuna ne ad verilir?",
           "choices": [
-            "Deney ve gözlem yapılamaması, olayların birebir tekrarlanamaz olması",
-            "Hiçbir kanıt ve belgeye ihtiyaç duymaması",
-            "Yalnızca geleceğe dair tahminlerde bulunması",
-            "Matematiksel formüllerle kesin hesaplar yapılması"
+            "Tarihsel empati ve anakronizmden kaçınma",
+            "Determinizm",
+            "Monarşik yaklaşım",
+            "Pozitivist dogmatizm"
           ],
-          "correctAnswer": "Deney ve gözlem yapılamaması, olayların birebir tekrarlanamaz olması",
-          "explanation": "Tarihi olaylar geçmişte yaşanıp bitmiştir; tekrarlanamaz ve laboratuvar ortamında deneyi yapılamaz."
+          "correctAnswer": "Tarihsel empati ve anakronizmden kaçınma",
+          "explanation": "Tarihçi olayları değerlendirirken o dönemin şartlarını, zihniyetini ve değer yargılarını göz önüne almalıdır (anakronizm hatasından kaçınmalıdır)."
         }
       ],
       "questionCount": 4,
@@ -73,15 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tar9_vid_birey_toplum",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm214v0e1qI",
       "transcriptLanguage": "tr",
-      "transcriptKind": "auto",
-      "transcriptFingerprint": "a6c06e699d659fd4",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "79f3890b713032ec",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "fingerprint": "39ee13bb43db04a6"
     }
   }
 }

@@ -1,0 +1,86 @@
+{
+  "id": "item_kim9_vid_topic_08_iyonik_bag__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_topic_08_iyonik_bag",
+  "stableKey": "kim9_quiz_iyonik_bag_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "İyonik Bağ Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "İyonik Bağ Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_iyonik_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İyonik bağ temel olarak hangi tür element atomları arasında ve hangi yolla oluşur?",
+          "choices": [
+            "Metal ve ametal atomları arasında elektron alışverişiyle",
+            "Ametal atomları arasında elektron ortaklaşmasıyla",
+            "İki metal atomu arasında serbest elektron deniziyle",
+            "Soygaz atomları arasında"
+          ],
+          "correctAnswer": "Metal ve ametal atomları arasında elektron alışverişiyle",
+          "explanation": "Metal elektron vererek katyon, ametal elektron alarak anyon olur; oluşan elektrostatik çekim iyonik bağı kurar."
+        },
+        {
+          "id": "q_kim9_iyonik_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İyonik bileşiklerin fiziksel özellikleri hakkında hangisi DOĞRUDUR?",
+          "choices": [
+            "Katı hâlde elektriği iletmezler, sıvı hâlde ve sulu çözeltilerinde iletirler",
+            "Oda koşullarında daima sıvı hâldedirler",
+            "Bağımsız moleküllerden oluşurlar",
+            "Erime noktaları son derece düşüktür"
+          ],
+          "correctAnswer": "Katı hâlde elektriği iletmezler, sıvı hâlde ve sulu çözeltilerinde iletirler",
+          "explanation": "İyonik katılarda iyonlar sabit örgüdedir; eriyik veya sulu çözeltide serbest hareket edebildiklerinden elektriği iletirler."
+        },
+        {
+          "id": "q_kim9_iyonik_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "İyonik bileşikler bağımsız moleküller hâlinde değil, düzenli kristal örgü yapısında bulunurlar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "NaCl gibi iyonik katılar moleküler yapılı olmayıp birim hücrelerden oluşan kristal örgüye sahiptir."
+        },
+        {
+          "id": "q_kim9_iyonik_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "İyonik katılar sert fakat kırılgan bir yapıya sahiptir; darbe aldığında aynı yüklü iyonlar karşı karşıya gelerek kristali kırar.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "İyonik kristaller tel ve levha haline getirilemez, darbe aldığında kırılırlar."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_topic_08_iyonik_bag",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm3KkQ1p4jM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "e0e330ee30a12087",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "8e2a97a4d99988f4"
+    }
+  }
+}

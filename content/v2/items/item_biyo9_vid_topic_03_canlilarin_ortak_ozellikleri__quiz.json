@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_03_canlilarin_ortak_ozellikleri",
+  "stableKey": "biyo9_quiz_canlilarin_ortak_ozellikleri_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Canlıların Ortak Özellikleri Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Canlıların Ortak Özellikleri Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_ortak_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Canlıların değişen çevre koşullarına rağmen iç ortamlarını dengede ve kararlı tutma yeteneğine ne ad verilir?",
+          "choices": [
+            "Homeostazi",
+            "Anabolizma",
+            "Adaptasyon",
+            "Katabolizma"
+          ],
+          "correctAnswer": "Homeostazi",
+          "explanation": "Homeostazi canlının iç dengesini kararlı tutmasıdır (vücut ısısı, kan şekeri, su dengesi vb.)."
+        },
+        {
+          "id": "q_biyo9_ortak_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi istisnasız TÜM canlı hücrelerde bulunan ortak bir hücresel yapıdır?",
+          "choices": [
+            "Ribozom",
+            "Çekirdek",
+            "Mitokondri",
+            "Kloroplast"
+          ],
+          "correctAnswer": "Ribozom",
+          "explanation": "Ribozom zarsız bir organel olup tüm prokaryot ve ökaryot hücrelerde protein sentezini gerçekleştirir."
+        },
+        {
+          "id": "q_biyo9_ortak_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Canlılarda gerçekleşen yapım (özümleme/anabolizma) ve yıkım (yadımlama/katabolizma) olaylarının tamamına Metabolizma denir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Metabolizma canlıdaki tüm biyokimyasal reaksiyonların toplamıdır."
+        },
+        {
+          "id": "q_biyo9_ortak_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Üreme olayı bir bireyin yaşamını sürdürebilmesi için zorunlu bir olaydır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "FALSE",
+          "explanation": "Üreme bireyin yaşaması için değil, türün neslinin devamı için zorunludur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "0243614dcf9148b2",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "c8e647a78c164d52"
+    }
+  }
+}

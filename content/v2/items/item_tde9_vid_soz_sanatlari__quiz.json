@@ -5,67 +5,67 @@
   "stableKey": "tde9_quiz_soz_sanatlari_micro",
   "itemType": "QUIZ",
   "displayLabel": "1.1-Q",
-  "orderKey": 2000,
-  "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Malzemesi Mikro Testi",
+  "orderKey": 1500,
+  "title": "Edebî Sanatlar (Teşbih, İstiare, Teşhis) Mikro Testi",
   "contentUrl": null,
   "publishingStatus": "active",
   "payload": {
     "quiz": {
-      "quizTitle": "Edebiyatın Güzel Sanatlarla İlişkisi ve Malzemesi Mikro Testi",
+      "quizTitle": "Edebî Sanatlar (Teşbih, İstiare, Teşhis) Mikro Testi",
       "questions": [
         {
-          "id": "q_tde9_malzeme_1",
+          "id": "q_tde9_sozsanat_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Edebiyatı müzik, resim ve heykel gibi diğer güzel sanat dallarından ayıran en temel fark nedir?",
+          "prompt": "\"Ali aslan gibi cesurdur.\" cümlesindeki teşbih (benzetme) sanatında \"aslan\" hangi temel unsurdur?",
           "choices": [
-            "Kullandığı malzemenin dil (sözcükler) olması",
-            "İnsanda estetik zevk uyandırmayı amaçlaması",
-            "Duygu ve düşüncelerden beslenmesi",
-            "Kendi içinde içsel bir uyum taşıması"
+            "Kendisine benzetilen (güçlü unsur)",
+            "Benzeyen (zayıf unsur)",
+            "Benzetme yönü",
+            "Benzetme edatı"
           ],
-          "correctAnswer": "Kullandığı malzemenin dil (sözcükler) olması",
-          "explanation": "Tüm güzel sanatlar estetik amaç taşır; ancak edebiyatın ana malzemesi dildir (sözcükler), resmin boya, heykelin mermer/taş, müziğin sestir."
+          "correctAnswer": "Kendisine benzetilen (güçlü unsur)",
+          "explanation": "Teşbihte nitelikçe üstün ve güçlü olan varlığa kendisine benzetilen denir (aslan); benzeyen Ali'dir."
         },
         {
-          "id": "q_tde9_malzeme_2",
+          "id": "q_tde9_sozsanat_2",
           "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "İnsan dışındaki canlı veya cansız varlıklara insani özellikler yükleme sanatına ne ad verilir?",
+          "choices": [
+            "Teşhis (Kişileştirme)",
+            "Tezat (Karşıtlık)",
+            "Kinaye",
+            "Tevriye"
+          ],
+          "correctAnswer": "Teşhis (Kişileştirme)",
+          "explanation": "Teşhis (şahıslaştırma / kişileştirme) insan dışı varlıklara insana özgü nitelikler verme sanatıdır."
+        },
+        {
+          "id": "q_tde9_sozsanat_3",
+          "questionIndex": 2,
           "type": "TRUE_FALSE",
-          "prompt": "Edebiyat; insanın duygu, düşünce ve hayallerini sözün büyüsü veya yazının kalıcılığıyla estetik bir zevk uyandıracak şekilde ifade etme sanatıdır.",
+          "prompt": "Kişileştirme (teşhis) sanatının bulunduğu her yerde aynı zamanda kapalı istiare sanatı da vardır.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Edebiyat, duygu ve düşüncelerin dille estetik biçimde aktarıldığı sözlü ve yazılı sanat dalıdır."
+          "explanation": "Teşhis yapılan varlık insana benzetilip insan açıkça söylenmediği için her teşhis bir kapalı istiaredir."
         },
         {
-          "id": "q_tde9_malzeme_3",
-          "questionIndex": 2,
-          "type": "MULTIPLE_CHOICE",
-          "prompt": "Güzel sanatlar ve edebiyatın ortak amacı aşağıdakilerden hangisidir?",
-          "choices": [
-            "İnsanda güzellik duygusu, estetik haz ve coşku uyandırmak",
-            "Bilimsel formülleri deneyle kanıtlamak",
-            "Topluma sadece somut maddi kazanç sağlamak",
-            "Tarihi belgeleri arşivlemek"
-          ],
-          "correctAnswer": "İnsanda güzellik duygusu, estetik haz ve coşku uyandırmak",
-          "explanation": "Tüm sanat dallarının temel gayesi insanda estetik bir algı, güzellik duygusu ve içsel bir heyecan yaratmaktır."
-        },
-        {
-          "id": "q_tde9_malzeme_4",
+          "id": "q_tde9_sozsanat_4",
           "questionIndex": 3,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Müzik sanatında notaların uyumu, edebiyat sanatında neyin uyumuna karşılık gelir?",
+          "prompt": "Birbirine zıt anlamlı kavram veya duyguların bir arada kullanılmasıyla oluşturulan edebî sanat hangisidir?",
           "choices": [
-            "Sözcüklerin ve ahengin uyumuna",
-            "Fırça darbelerinin renk tonuna",
-            "Mermere verilen kütlesel şekle",
-            "Sahne ışıklarının parlaklığına"
+            "Tezat (Zıtlık)",
+            "Mecazımürsel",
+            "Telmih",
+            "Hüsnütalil"
           ],
-          "correctAnswer": "Sözcüklerin ve ahengin uyumuna",
-          "explanation": "Müzikteki nota dizilimi gibi, edebiyatta da sözcüklerin ve seslerin ritmik/ahenkli dizilimi edebi değeri ortaya çıkarır."
+          "correctAnswer": "Tezat (Zıtlık)",
+          "explanation": "Tezat; aralarında zıtlık bulunan kavram ve durumların etkileyici bir anlatım için bir arada kullanılmasıdır (Örn: Ağlarım hatıra geldikçe gülüştüklerimiz)."
         }
       ],
       "questionCount": 4,
@@ -73,15 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tde9_vid_soz_sanatlari",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FqGgZz2-a-k",
       "transcriptLanguage": "tr",
-      "transcriptKind": "auto",
-      "transcriptFingerprint": "26358ad4bf4d3465",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "ce3abaffa6c6dffb",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "fingerprint": "f196dc4fb7af0ee9"
     }
   }
 }

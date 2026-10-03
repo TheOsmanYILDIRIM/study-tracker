@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_08_enzimler__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_08_enzimler",
+  "stableKey": "biyo9_quiz_enzimler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "8.1-Q",
+  "orderKey": 1500,
+  "title": "Enzimler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Enzimler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_enz_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Enzimlerin biyokimyasal tepkimelerdeki temel fonksiyonu nedir?",
+          "choices": [
+            "Aktivasyon enerjisini düşürerek tepkimeyi hızlandırmak",
+            "Tepkimeyi başlatmak",
+            "Tepkime sonunda tükenmek",
+            "Tepkime ürününün miktarını artırmak"
+          ],
+          "correctAnswer": "Aktivasyon enerjisini düşürerek tepkimeyi hızlandırmak",
+          "explanation": "Enzimler biyolojik katalizörlerdir; aktivasyon enerjisini düşürerek tepkimeyi hızlandırırlar."
+        },
+        {
+          "id": "q_biyo9_enz_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Enzimin etki ettiği maddeye ne ad verilir ve enzim ile bu madde arasındaki ilişki neye benzetilir?",
+          "choices": [
+            "Substrat - Anahtar-Kilit Uyumu",
+            "Apoenzim - Mıknatıs Çekimi",
+            "Kofaktör - Yapboz Parçası",
+            "Koenzim - Kimyasal Bağ"
+          ],
+          "correctAnswer": "Substrat - Anahtar-Kilit Uyumu",
+          "explanation": "Enzimin aktif bölgesine bağlanan maddeye substrat denir ve anahtar-kilit uyumu vardır."
+        },
+        {
+          "id": "q_biyo9_enz_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Enzimler kimyasal tepkimelerden hiçbir değişikliğe uğramadan çıkarlar ve tekrar tekrar kullanılabilirler.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Enzimler tepkimede harcanmaz, değişmeden çıkar ve tekrar kullanılır."
+        },
+        {
+          "id": "q_biyo9_enz_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Sıcaklık optimum değerin çok üzerine (örneğin 60 °C) çıkarıldığında enzim yapısındaki protein kalıcı olarak denatüre olur.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Yüksek sıcaklık protein yapıyı bozar ve enzim aktivitesini geri dönüşsüz olarak durdurur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_08_enzimler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "a7e85c308adb2be2",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "7295c1a96daa26f5"
+    }
+  }
+}

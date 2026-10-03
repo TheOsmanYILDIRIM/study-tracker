@@ -1,0 +1,88 @@
+{
+  "id": "item_fiz9_vid_vektorler__quiz",
+  "courseId": "course_fiz_9",
+  "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+  "stableKey": "fiz9_quiz_vektorler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "2.1-Q",
+  "orderKey": 1500,
+  "title": "Fiziksel Büyüklükler ve Vektörler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Fiziksel Büyüklükler ve Vektörler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_fiz9_vek_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Temel büyüklükleri kodlamak için kullanılan \"KISAMUZ\" kısaltmasında \"S\" harfi hangi büyüklüğü ifade eder ve SI birimi nedir?",
+          "choices": [
+            "Sıcaklık - Kelvin",
+            "Sıcaklık - Celcius",
+            "Sürat - m/s",
+            "Süre - Saniye"
+          ],
+          "correctAnswer": "Sıcaklık - Kelvin",
+          "explanation": "KISAMUZ: Kütle(kg), Işık şiddeti(cd), Sıcaklık(Kelvin), Akım(Amper), Madde miktarı(mol), Uzunluk(m), Zaman(s). Sıcaklığın SI birimi Kelvin'dir."
+        },
+        {
+          "id": "q_fiz9_vek_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir fiziksel büyüklüğün tanımlanabilmesi için sayı ve birimin yanında MUTLAKA yön ve doğrultunun da belirtilmesi gerekiyorsa bu büyüklük türü hangisidir?",
+          "choices": [
+            "Vektörel Büyüklük",
+            "Skaler Büyüklük",
+            "Temel Büyüklük",
+            "Türetilmiş Skaler Büyüklük"
+          ],
+          "correctAnswer": "Vektörel Büyüklük",
+          "explanation": "Vektörel büyüklükler sayı, birim, doğrultu ve yön ile ifade edilen büyüklüklerdir (Örn: Kuvvet, hız, yer değiştirme, ağırlık)."
+        },
+        {
+          "id": "q_fiz9_vek_3",
+          "questionIndex": 2,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Aşağıdakilerden hangisi SKALER bir büyüklüktür?",
+          "choices": [
+            "Kütle",
+            "Hız",
+            "Kuvvet",
+            "Yer değiştirme"
+          ],
+          "correctAnswer": "Kütle",
+          "explanation": "Kütle yönü olmayan, yalnızca sayı ve birimle tam olarak tanımlanabilen skaler bir büyüklüktür."
+        },
+        {
+          "id": "q_fiz9_vek_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "İki vektörün eşit olabilmesi için doğrultularının, yönlerinin ve şiddetlerinin (büyüklüklerinin) tamamen aynı olması gerekir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Eşit vektörler yönü, doğrultusu ve büyüklüğü aynı olan vektörlerdir; başlangıç noktalarının farklı olması eşitliği bozmaz."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_fiz9_vid_vektorler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "532569ac8750adbf",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d4cebe5e27b02e81"
+    }
+  }
+}

@@ -5,67 +5,67 @@
   "stableKey": "tar9_quiz_kaynak_turleri_micro",
   "itemType": "QUIZ",
   "displayLabel": "2.1-Q",
-  "orderKey": 2000,
-  "title": "Tarihin Metodu ve Kaynak Türleri Mikro Testi",
+  "orderKey": 1500,
+  "title": "Tarihî Kaynak Türleri ve Sınıflandırma Mikro Testi",
   "contentUrl": null,
   "publishingStatus": "active",
   "payload": {
     "quiz": {
-      "quizTitle": "Tarihin Metodu ve Kaynak Türleri Mikro Testi",
+      "quizTitle": "Tarihî Kaynak Türleri ve Sınıflandırma Mikro Testi",
       "questions": [
         {
           "id": "q_tar9_kaynak_1",
           "questionIndex": 0,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih araştırmalarında \"Birinci Elden (Ana) Kaynak\" ne demektir?",
+          "prompt": "Olayın geçtiği döneme ait olan veya olayı bizzat yaşayan kişilerin bıraktığı belgelere ne ad verilir?",
           "choices": [
-            "Olayın geçtiği döneme ait olan veya olaya bizzat tanıklık etmiş kaynaklar",
-            "Olaydan yüzyıllar sonra yazılmış ders kitapları",
-            "Tarihi roman ve sinema filmleri",
-            "İnternet forumlarında paylaşılan yorumlar"
+            "Birinci elden (ana) kaynaklar",
+            "İkinci elden kaynaklar",
+            "Tarihsel romanlar",
+            "Sözlü efsaneler"
           ],
-          "correctAnswer": "Olayın geçtiği döneme ait olan veya olaya bizzat tanıklık etmiş kaynaklar",
-          "explanation": "Birinci elden kaynaklar olayın yaşandığı çağda oluşturulmuş kitabe, para, ferman, antlaşma metni ve hatırat gibi doğrudan belgelerdir."
+          "correctAnswer": "Birinci elden (ana) kaynaklar",
+          "explanation": "Olayın yaşandığı döneme ait ferman, kitabe, para, antlaşma metni gibi belgeler birinci elden kaynaktır."
         },
         {
           "id": "q_tar9_kaynak_2",
           "questionIndex": 1,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarih metodolojisinde \"5T\" yönteminin doğru sıralaması hangisidir?",
+          "prompt": "Aşağıdakilerden hangisi \"Yazılı Kaynaklar\" grubuna girer?",
           "choices": [
-            "Tarama (Kaynak arama) -> Tasnif (Sınıflandırma) -> Tahlil (Çözümleme) -> Tenkit (Eleştiri) -> Terkip (Sentez)",
-            "Tenkit -> Terkip -> Tasnif -> Tarama -> Tahlil",
-            "Tasnif -> Tarama -> Terkip -> Tahlil -> Tenkit",
-            "Tahlil -> Tenkit -> Tarama -> Tasnif -> Terkip"
+            "Kadeş Barış Antlaşması tableti",
+            "Tarih öncesi döneme ait cilalı taş balta",
+            "Çömlek ve seramik kaplar",
+            "Dede Korkut sözlü anlatıları"
           ],
-          "correctAnswer": "Tarama (Kaynak arama) -> Tasnif (Sınıflandırma) -> Tahlil (Çözümleme) -> Tenkit (Eleştiri) -> Terkip (Sentez)",
-          "explanation": "Tarih araştırması sırasıyla Tarama, Tasnif, Tahlil, Tenkit (iç/dış eleştiri) ve Terkip (birleştirme/yazım) aşamalarından oluşur."
+          "correctAnswer": "Kadeş Barış Antlaşması tableti",
+          "explanation": "Tablet üzerindeki çivi yazısı Kadeş Antlaşması'nı yazılı bir tarihî kaynak yapar."
         },
         {
           "id": "q_tar9_kaynak_3",
           "questionIndex": 2,
           "type": "TRUE_FALSE",
-          "prompt": "Tarihi bir belgenin yazarının güvenirliği, yazılış yeri ve tarihinin doğrulanması \"Dış Tenkit\" aşamasında yapılır.",
+          "prompt": "İkinci elden kaynaklar, birinci elden kaynaklardan yararlanılarak olayın geçtiği dönemden sonra yazılan eserlerdir.",
           "choices": [
             "TRUE",
             "FALSE"
           ],
           "correctAnswer": "TRUE",
-          "explanation": "Dış tenkitte eserin adı, yazarı, basım yeri ve orijinalliği incelenir; iç tenkitte ise metnin içeriğinin doğruluğu test edilir."
+          "explanation": "Birinci el kaynakları inceleyerek yazılan modern tarih kitapları ve ansiklopediler ikinci elden kaynak niteliğindedir."
         },
         {
           "id": "q_tar9_kaynak_4",
           "questionIndex": 3,
           "type": "MULTIPLE_CHOICE",
-          "prompt": "Tarihi olayları ders verme, ahlak ve vatan sevgisi aşılama amacıyla kahramanlıkları öne çıkararak anlatan tarih yazıcılığı türü hangisidir?",
+          "prompt": "Tarih öncesi (Prehistorik) devirlerin aydınlatılmasında en çok hangi kaynak türünden yararlanılır?",
           "choices": [
-            "Öğretici (Pragmatik) Tarih",
-            "Rivayetçi (Hikâyeci) Tarih",
-            "Kronik Tarih",
-            "Sosyal Tarih"
+            "Maddi (Arkeolojik / Kalıntı) kaynaklar",
+            "Yazılı fermanlar ve kitabeler",
+            "Resmî antlaşma metinleri",
+            "Gazete ve dergi arşivleri"
           ],
-          "correctAnswer": "Öğretici (Pragmatik) Tarih",
-          "explanation": "Thukydides ile başlayan Öğretici/Pragmatik tarih, topluma fayda sağlama ve milli/ahlaki değerleri güçlendirme amacı güder."
+          "correctAnswer": "Maddi (Arkeolojik / Kalıntı) kaynaklar",
+          "explanation": "Tarih öncesi dönemde henüz yazı icat edilmediği için arkeolojik kazılarla çıkarılan maddi buluntular kullanılır."
         }
       ],
       "questionCount": 4,
@@ -73,15 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tar9_vid_kaynak_turleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=N8Z2h_r9qK0",
       "transcriptLanguage": "tr",
-      "transcriptKind": "auto",
-      "transcriptFingerprint": "53825f72d2e3bf29",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "32ccc8dd260d8ebe",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "fingerprint": "ecec6068677f14af"
     }
   }
 }

@@ -1,0 +1,86 @@
+{
+  "id": "item_tde9_vid_sozcukte_anlam_isim_sifat__quiz",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_dilin_yapisi_ve_roman",
+  "stableKey": "tde9_quiz_hikaye_unsurlari_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "3.1-Q",
+  "orderKey": 1500,
+  "title": "Hikâyenin Unsurları ve Planı Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Hikâyenin Unsurları ve Planı Mikro Testi",
+      "questions": [
+        {
+          "id": "q_tde9_hikplan_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Klasik olay hikâyesinin (Maupassant tarzı) bölümleri hangi sıra ile gerçekleşir?",
+          "choices": [
+            "Serim - Düğüm - Çözüm",
+            "Düğüm - Serim - Çözüm",
+            "Giriş - Çözüm - Düğüm",
+            "Serim - Çözüm - Düğüm"
+          ],
+          "correctAnswer": "Serim - Düğüm - Çözüm",
+          "explanation": "Hikâyenin planı; kişilerin ve yerin tanıtıldığı serim, merakın doruğa çıktığı düğüm ve sonucun açıklandığı çözüm bölümüdür."
+        },
+        {
+          "id": "q_tde9_hikplan_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Anlatıcının olayları bir kamera sessizliğiyle, yalnızca gördüklerini tarafsızca aktardığı bakış açısı hangisidir?",
+          "choices": [
+            "Gözlemci (Müşahit) Bakış Açısı",
+            "İlahi (Hâkim / Tanrısal) Bakış Açısı",
+            "Kahraman (Ben) Bakış Açısı",
+            "Çoğulcu Bakış Açısı"
+          ],
+          "correctAnswer": "Gözlemci (Müşahit) Bakış Açısı",
+          "explanation": "Gözlemci bakış açısında anlatıcı kahramanların aklından geçenleri bilmez; sadece dışarıdan gördüklerini 3. kişi ağzıyla aktarır."
+        },
+        {
+          "id": "q_tde9_hikplan_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "İlahi (Hâkim) bakış açısında anlatıcı, kahramanların iç dünyasını, zihninden geçenleri ve geçmiş/gelecekteki tüm detayları bilir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Hâkim anlatıcı her şeye vakıftır ve kahramanların duygularını, düşüncelerini bilir."
+        },
+        {
+          "id": "q_tde9_hikplan_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Hikâyenin 4 temel yapı unsuru; Olay, Kişi (Şahıs Kadrosu), Mekân (Yer) ve Zaman'dır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Olay örgüsü, şahıs kadrosu, mekân ve zaman hikâyenin vazgeçilmez 4 yapı unsurudur."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "b942c35900634519",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d26e671110a521b2"
+    }
+  }
+}

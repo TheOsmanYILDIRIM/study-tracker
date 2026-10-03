@@ -1,0 +1,88 @@
+{
+  "id": "item_mat9_vid_koklu_mantik__quiz",
+  "courseId": "course_mat_9",
+  "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+  "stableKey": "mat9_quiz_koklu_mantik_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.5-Q",
+  "orderKey": 5500,
+  "title": "Köklü Sayı Mantığı ve Tanım Kümesi Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Köklü Sayı Mantığı ve Tanım Kümesi Mikro Testi",
+      "questions": [
+        {
+          "id": "q_mat9_kokman_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Derecesi yazılmayan bir köklü ifadede (√x) kök derecesi varsayılan olarak kaçtır?",
+          "choices": [
+            "2 (Karekök)",
+            "1",
+            "0",
+            "10"
+          ],
+          "correctAnswer": "2 (Karekök)",
+          "explanation": "Kök derecesi belirtilmediğinde kök derecesi 2 kabul edilir (karekök)."
+        },
+        {
+          "id": "q_mat9_kokman_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Çift dereceli bir kökün (örneğin ⁴√x) gerçek sayılar kümesinde tanımlı olabilmesi için kök içindeki ifade x ne olmalıdır?",
+          "choices": [
+            "Sıfır veya sıfırdan büyük (x ≥ 0)",
+            "Kesinlikle negatif olmalıdır (x < 0)",
+            "Yalnızca tek sayılar olmalıdır",
+            "Yalnızca irrasyonel olmalıdır"
+          ],
+          "correctAnswer": "Sıfır veya sıfırdan büyük (x ≥ 0)",
+          "explanation": "Gerçek sayılarda çift dereceli köklerin içi negatif olamaz; x ≥ 0 olmalıdır."
+        },
+        {
+          "id": "q_mat9_kokman_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Tek dereceli köklerin (örneğin ∛(-8)) içi negatif gerçek sayı olabilir ve sonuç bir gerçek sayıdır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Tek dereceli köklerin içi negatif olabilir; (-2)^3 = -8 olduğundan ∛(-8) = -2'dir."
+        },
+        {
+          "id": "q_mat9_kokman_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "√(x^2) ifadesinin gerçek sayılardaki tam karşılığı aşağıdakilerden hangisidir?",
+          "choices": [
+            "|x| (Mutlak Değer x)",
+            "x",
+            "-x",
+            "x^2"
+          ],
+          "correctAnswer": "|x| (Mutlak Değer x)",
+          "explanation": "Çift dereceli kök dışına çıkan ifadeler pozitifliği garanti altına almak için mutlak değer içinde çıkar: √(x^2) = |x|."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_mat9_vid_koklu_mantik",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "c81aea17231c58a8",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "16a83e193d801d7d"
+    }
+  }
+}

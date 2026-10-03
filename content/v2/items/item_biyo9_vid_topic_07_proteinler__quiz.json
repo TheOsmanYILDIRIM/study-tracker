@@ -1,0 +1,86 @@
+{
+  "id": "item_biyo9_vid_topic_07_proteinler__quiz",
+  "courseId": "course_biyo_9",
+  "lessonId": "lesson_biyo9_topic_07_proteinler",
+  "stableKey": "biyo9_quiz_proteinler_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "7.1-Q",
+  "orderKey": 1500,
+  "title": "Proteinler Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Proteinler Mikro Testi",
+      "questions": [
+        {
+          "id": "q_biyo9_prot_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Proteinlerin yapı birimi (monomeri) nedir ve bu monomerler hangi bağ ile birbirine bağlanır?",
+          "choices": [
+            "Amino asit - Peptit bağı",
+            "Glikoz - Glikozit bağı",
+            "Yağ asidi - Ester bağı",
+            "Nükleotit - Hidrojen bağı"
+          ],
+          "correctAnswer": "Amino asit - Peptit bağı",
+          "explanation": "Proteinler amino asitlerin peptit bağlarıyla birleşmesinden oluşur."
+        },
+        {
+          "id": "q_biyo9_prot_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Yüksek sıcaklık, pH değişimi veya basınç etkisiyle proteinlerin 3 boyutlu yapısının bozulup işlevsizleşmesine ne ad verilir?",
+          "choices": [
+            "Denatürasyon",
+            "Renatürasyon",
+            "Hidroliz",
+            "Dehidrasyon"
+          ],
+          "correctAnswer": "Denatürasyon",
+          "explanation": "Proteinlerin doğal katlanma yapısının bozulmasına denatürasyon denir."
+        },
+        {
+          "id": "q_biyo9_prot_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Protein sentezi tüm canlı hücrelerde DNA şifresine uygun olarak ribozom organelinde gerçekleşir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Proteinler genetik şifreye (DNA/mRNA) göre ribozomda sentezlenir."
+        },
+        {
+          "id": "q_biyo9_prot_4",
+          "questionIndex": 3,
+          "type": "TRUE_FALSE",
+          "prompt": "Antikorlar, hemoglobin, saç ve tırnaktaki keratin molekülleri protein yapılı bileşiklerdir.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Savunmada antikor, gaz taşımada hemoglobin, yapıda keratin protein yapılıdır."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_biyo9_vid_topic_07_proteinler",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "b5ebaf2a8faa15c2",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "d0fc312247472b2a"
+    }
+  }
+}

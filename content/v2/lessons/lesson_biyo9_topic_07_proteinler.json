@@ -5,7 +5,8 @@
   "title": "Proteinler",
   "orderKey": 7000,
   "items": [
-    "item_biyo9_vid_topic_07_proteinler"
+    "item_biyo9_vid_topic_07_proteinler",
+    "item_biyo9_vid_topic_07_proteinler__quiz"
   ],
   "sourceMeta": {
     "weeks": [

@@ -1,0 +1,88 @@
+{
+  "id": "item_kim9_vid_kimya_bilimi__quiz",
+  "courseId": "course_kim_9",
+  "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+  "stableKey": "kim9_quiz_kimya_bilimi_micro",
+  "itemType": "QUIZ",
+  "displayLabel": "1.1-Q",
+  "orderKey": 1500,
+  "title": "Kimya Disiplinleri ve Güvenlik Mikro Testi",
+  "contentUrl": null,
+  "publishingStatus": "active",
+  "payload": {
+    "quiz": {
+      "quizTitle": "Kimya Disiplinleri ve Güvenlik Mikro Testi",
+      "questions": [
+        {
+          "id": "q_kim9_giris_1",
+          "questionIndex": 0,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Simyanın (Alşimi) bir bilim dalı kabul edilmemesinin en temel nedeni aşağıdakilerden hangisidir?",
+          "choices": [
+            "Teorik temellerinin olmaması ve sınama-yanılmaya dayanması",
+            "Hiçbir araç gereç geliştirmemiş olması",
+            "Yalnızca metallerle uğraşması",
+            "Deneylerinde ateş kullanması"
+          ],
+          "correctAnswer": "Teorik temellerinin olmaması ve sınama-yanılmaya dayanması",
+          "explanation": "Simya sistematik bilgi birikimi içermeyen ve teorik temellere dayanmayan bir uğraştır."
+        },
+        {
+          "id": "q_kim9_giris_2",
+          "questionIndex": 1,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Bir su numunesindeki minerallerin türünü (nitel) ve miktarını (nicel) analiz eden kimya disiplini hangisidir?",
+          "choices": [
+            "Analitik Kimya",
+            "Organik Kimya",
+            "Fizikokimya",
+            "Biyokimya"
+          ],
+          "correctAnswer": "Analitik Kimya",
+          "explanation": "Analitik kimya maddelerin kimyasal bileşenlerini nitel ve nicel olarak belirler."
+        },
+        {
+          "id": "q_kim9_giris_3",
+          "questionIndex": 2,
+          "type": "TRUE_FALSE",
+          "prompt": "Canlı organizmaların yapısındaki kimyasal maddeleri ve kimyasal süreçleri inceleyen disiplin Biyokimya'dır.",
+          "choices": [
+            "TRUE",
+            "FALSE"
+          ],
+          "correctAnswer": "TRUE",
+          "explanation": "Canlı kimyasını, enzim ve protein etkileşimlerini inceleyen alan biyokimyadır."
+        },
+        {
+          "id": "q_kim9_giris_4",
+          "questionIndex": 3,
+          "type": "MULTIPLE_CHOICE",
+          "prompt": "Laboratuvarda üzerinde alev ve ortasında daire (O harfi) bulunan güvenlik uyarı işareti ne anlama gelir?",
+          "choices": [
+            "Yakıcı / Oksitleyici Madde",
+            "Yanıcı Madde",
+            "Radyoaktif Madde",
+            "Zehirli / Toksik Madde"
+          ],
+          "correctAnswer": "Yakıcı / Oksitleyici Madde",
+          "explanation": "Üzerinde 'O' harfi bulunan alev sembolü oksitleyici (yakıcı) maddeleri belirtir."
+        }
+      ],
+      "questionCount": 4,
+      "schemaVersion": "v2-quiz"
+    },
+    "provenance": {
+      "derivedFromItemId": "item_kim9_vid_kimya_bilimi",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Fj22h84a9qL",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "e17c0606ddfc4fc4",
+      "generatedBy": "gemini",
+      "reviewStatus": "verified",
+      "reviewedOverride": true,
+      "importedAt": "2026-10-03T18:30:00.000Z",
+      "schemaVersion": "v2",
+      "fingerprint": "aed4463d5bcd6994"
+    }
+  }
+}

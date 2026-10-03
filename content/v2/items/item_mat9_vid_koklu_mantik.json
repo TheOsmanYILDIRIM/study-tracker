@@ -7,23 +7,24 @@
   "displayLabel": "1.5",
   "orderKey": 5000,
   "title": "Köklü Sayılar ve Üslü Sayılar Arasındaki İlişki",
-  "contentUrl": "https://www.youtube.com/watch?v=vVj4x9p0m1s",
+  "contentUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy Türkçe",
-    "topic": "Köklü Sayı Mantığı",
+    "provider": "Rehber Matematik",
+    "topic": "Köklü İfadeler 1",
     "provenance": {
-      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L20",
-      "sourceSection": "2. Hafta: Bilimsel Gösterim ve Köklü Sayılara Giriş (MAT.9.1.1)",
+      "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L28",
+      "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "curated",
       "fingerprint": "156d7b115046cade",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
+      "transcriptFingerprint": "c81aea17231c58a8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt"
     }
   }
 }
