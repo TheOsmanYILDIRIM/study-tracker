@@ -861,7 +861,8 @@ private fun VideoItemActionDialog(
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = ZenForestGreen),
                         shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.weight(1.5f)
+                        modifier = Modifier.weight(1.5f),
+                        enabled = questions.isNotEmpty() && selectedAnswers.size == questions.size
                     ) {
                         Icon(Icons.Default.Check, contentDescription = null, tint = Color.Black)
                         Spacer(modifier = Modifier.width(6.dp))
@@ -881,18 +882,7 @@ private fun QuizItemActionDialog(
     onDismiss: () -> Unit,
     onSubmit: (score: Double, durationSeconds: Int, answerMetrics: List<QuizAnswerMetric>) -> Unit
 ) {
-    val questions = remember(payload) {
-        if (payload.questions.isNotEmpty()) payload.questions
-        else listOf(
-            QuizQuestionPayload(
-                id = "q1",
-                prompt = "${item.displayLabel} kapsamındaki temel kavramları anladınız mı?",
-                type = "TRUE_FALSE",
-                choices = listOf("Evet, anladım", "Hayır, tekrar etmeliyim"),
-                correctAnswer = "Evet, anladım"
-            )
-        )
-    }
+    val questions = remember(payload) { payload.questions }
 
     var selectedAnswers by remember { mutableStateOf(mapOf<Int, String>()) }
     var startTime by remember { mutableStateOf(System.currentTimeMillis()) }
@@ -938,7 +928,20 @@ private fun QuizItemActionDialog(
 
                 HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f))
 
-                LazyColumn(
+                if (questions.isEmpty()) {
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxWidth(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(
+                            text = "Quiz soruları yüklenemedi. İçeriği yeniden senkronize edin veya katalog sürümünü kontrol edin.",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = ZenRoseCoral
+                        )
+                    }
+                } else LazyColumn(
                     modifier = Modifier.weight(1f),
                     verticalArrangement = Arrangement.spacedBy(14.dp)
                 ) {
@@ -1019,7 +1022,7 @@ private fun QuizItemActionDialog(
                                     durationSeconds = durationSec / questions.size
                                 )
                             }
-                            val score = if (questions.isNotEmpty()) (correctCount.toDouble() / questions.size.toDouble()) * 100.0 else 100.0
+                            val score = (correctCount.toDouble() / questions.size.toDouble()) * 100.0
                             onSubmit(score, durationSec, metrics)
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = ZenMoonGold),
