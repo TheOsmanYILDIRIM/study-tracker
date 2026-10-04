@@ -35,8 +35,6 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.txt",
       "transcriptFingerprint": "f84f31b764e1a206",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı",
       "teacher": "Özcan Aykın",
       "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026",
       "evidence": "Direct first liquid-pressure lesson; later Pascal applications are separate."

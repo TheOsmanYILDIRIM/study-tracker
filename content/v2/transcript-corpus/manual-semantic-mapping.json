@@ -297,10 +297,10 @@
     {
       "course": "fiz9",
       "itemId": "item_fiz9_vid_basinc_prensipleri",
-      "decision": "MIXED_NEEDS_SPLIT",
-      "verdict": "MULTI_VIDEO_SCOPE",
-      "videoId": null,
-      "note": "Card is broader than one source video: solid pressure, liquid pressure/Pascal, gas pressure and Bernoulli are separate lessons."
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "pduzOUiY1uM",
+      "note": "Basınç Ölçen Aletler: Barometre, Torricelli ve Manometreler transcript matches 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026."
     },
     {
       "course": "fiz9",

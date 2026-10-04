@@ -6,8 +6,8 @@
   "itemType": "VIDEO",
   "displayLabel": "3.1",
   "orderKey": 1000,
-  "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
-  "contentUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+  "title": "Basınç Ölçen Aletler: Barometre, Torricelli ve Manometreler",
+  "contentUrl": "https://www.youtube.com/watch?v=pduzOUiY1uM",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -17,19 +17,22 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "8dc3509e9793b3d3",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pduzOUiY1uM",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
-      "transcriptFingerprint": "f84f31b764e1a206",
+      "transcriptFingerprint": "2231daeb6dce17c6",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı"
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026",
+      "evidence": "Basınç Ölçen Aletler: Barometre, Torricelli ve Manometreler transcript matches 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026."
     },
     "provider": "Özcan Aykın FİZİK",
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

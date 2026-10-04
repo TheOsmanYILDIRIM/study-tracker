@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-04T17:36:53.164Z",
-  "totalRawWarnings": 28,
+  "generatedAt": "2026-10-04T18:11:09.866Z",
+  "totalRawWarnings": 27,
   "classificationSummary": {
-    "false_positive": 28,
+    "false_positive": 27,
     "obsolete_metadata": 0,
     "real_content_issue": 0,
     "intentional_policy_warning": 0
@@ -211,52 +211,6 @@
     },
     {
       "warningIndex": 5,
-      "url": "https://www.youtube.com/watch?v=dkwbOGhBedc",
-      "itemCount": 2,
-      "itemIds": [
-        "item_fiz9_vid_topic_11_sivilarda_basinc",
-        "item_fiz9_vid_basinc_prensipleri"
-      ],
-      "titles": [
-        "Sıvılarda Basınç ve Pascal Prensibi",
-        "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)"
-      ],
-      "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı",
-      "items": [
-        {
-          "id": "item_fiz9_vid_topic_11_sivilarda_basinc",
-          "stableKey": "fiz9_vid_topic_11_sivilarda_basinc",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
-          "title": "Sıvılarda Basınç ve Pascal Prensibi",
-          "provider": "Özcan Aykın FİZİK",
-          "teacher": "Özcan Aykın",
-          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026",
-          "sharedSource": true,
-          "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı",
-          "transcriptFingerprint": "f84f31b764e1a206",
-          "reviewStatus": "verified"
-        },
-        {
-          "id": "item_fiz9_vid_basinc_prensipleri",
-          "stableKey": "fiz9_vid_basinc_prensipleri",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
-          "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
-          "provider": "Özcan Aykın FİZİK",
-          "teacher": "Özcan Aykın FİZİK",
-          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026",
-          "sharedSource": true,
-          "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı",
-          "transcriptFingerprint": "f84f31b764e1a206",
-          "reviewStatus": "verified"
-        }
-      ]
-    },
-    {
-      "warningIndex": 6,
       "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "itemCount": 2,
       "itemIds": [
@@ -302,7 +256,7 @@
       ]
     },
     {
-      "warningIndex": 7,
+      "warningIndex": 6,
       "url": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "itemCount": 2,
       "itemIds": [
@@ -348,7 +302,7 @@
       ]
     },
     {
-      "warningIndex": 8,
+      "warningIndex": 7,
       "url": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "itemCount": 2,
       "itemIds": [
@@ -394,7 +348,7 @@
       ]
     },
     {
-      "warningIndex": 9,
+      "warningIndex": 8,
       "url": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "itemCount": 2,
       "itemIds": [
@@ -440,7 +394,7 @@
       ]
     },
     {
-      "warningIndex": 10,
+      "warningIndex": 9,
       "url": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
       "itemCount": 2,
       "itemIds": [
@@ -486,7 +440,7 @@
       ]
     },
     {
-      "warningIndex": 11,
+      "warningIndex": 10,
       "url": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
       "itemCount": 3,
       "itemIds": [
@@ -548,7 +502,7 @@
       ]
     },
     {
-      "warningIndex": 12,
+      "warningIndex": 11,
       "url": "https://www.youtube.com/watch?v=glDg6lFPsag",
       "itemCount": 2,
       "itemIds": [
@@ -594,7 +548,7 @@
       ]
     },
     {
-      "warningIndex": 13,
+      "warningIndex": 12,
       "url": "https://www.youtube.com/watch?v=JqVImq7hFjk",
       "itemCount": 2,
       "itemIds": [
@@ -640,7 +594,7 @@
       ]
     },
     {
-      "warningIndex": 14,
+      "warningIndex": 13,
       "url": "https://www.youtube.com/watch?v=V0SzzIeniHc",
       "itemCount": 3,
       "itemIds": [
@@ -702,7 +656,7 @@
       ]
     },
     {
-      "warningIndex": 15,
+      "warningIndex": 14,
       "url": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "itemCount": 2,
       "itemIds": [
@@ -748,7 +702,7 @@
       ]
     },
     {
-      "warningIndex": 16,
+      "warningIndex": 15,
       "url": "https://www.youtube.com/watch?v=5QxOpTALmEE",
       "itemCount": 2,
       "itemIds": [
@@ -794,7 +748,7 @@
       ]
     },
     {
-      "warningIndex": 17,
+      "warningIndex": 16,
       "url": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
       "itemCount": 2,
       "itemIds": [
@@ -840,7 +794,7 @@
       ]
     },
     {
-      "warningIndex": 18,
+      "warningIndex": 17,
       "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
       "itemCount": 2,
       "itemIds": [
@@ -886,7 +840,7 @@
       ]
     },
     {
-      "warningIndex": 19,
+      "warningIndex": 18,
       "url": "https://www.youtube.com/watch?v=XJASq7FFjOA",
       "itemCount": 2,
       "itemIds": [
@@ -932,7 +886,7 @@
       ]
     },
     {
-      "warningIndex": 20,
+      "warningIndex": 19,
       "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
       "itemCount": 4,
       "itemIds": [
@@ -1010,7 +964,7 @@
       ]
     },
     {
-      "warningIndex": 21,
+      "warningIndex": 20,
       "url": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "itemCount": 2,
       "itemIds": [
@@ -1056,7 +1010,7 @@
       ]
     },
     {
-      "warningIndex": 22,
+      "warningIndex": 21,
       "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
       "itemCount": 2,
       "itemIds": [
@@ -1102,7 +1056,7 @@
       ]
     },
     {
-      "warningIndex": 23,
+      "warningIndex": 22,
       "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
       "itemCount": 2,
       "itemIds": [
@@ -1148,7 +1102,7 @@
       ]
     },
     {
-      "warningIndex": 24,
+      "warningIndex": 23,
       "url": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "itemCount": 3,
       "itemIds": [
@@ -1210,7 +1164,7 @@
       ]
     },
     {
-      "warningIndex": 25,
+      "warningIndex": 24,
       "url": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "itemCount": 2,
       "itemIds": [
@@ -1256,7 +1210,7 @@
       ]
     },
     {
-      "warningIndex": 26,
+      "warningIndex": 25,
       "url": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "itemCount": 2,
       "itemIds": [
@@ -1302,7 +1256,7 @@
       ]
     },
     {
-      "warningIndex": 27,
+      "warningIndex": 26,
       "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
       "itemCount": 2,
       "itemIds": [
@@ -1348,7 +1302,7 @@
       ]
     },
     {
-      "warningIndex": 28,
+      "warningIndex": 27,
       "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
       "itemCount": 2,
       "itemIds": [

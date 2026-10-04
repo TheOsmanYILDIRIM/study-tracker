@@ -46,7 +46,6 @@ const SHARED_SOURCE_REASONS = {
   'XQHH2VV1Bbk': 'Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı',
   'CRg4b_g1IXc': 'Isı iletim yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızı ortak video kapsamı',
   '7aVrdQ7uSQ4': 'Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı',
-  'dkwbOGhBedc': 'Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı',
   '3uhN8JlukLg': 'Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı',
   '5wTqs5bYmIM': 'Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı',
   'xJ6i_sC7Mcc': 'Kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı ortak video kapsamı',
@@ -270,11 +269,11 @@ function main() {
     item.payload.provenance.transcriptPath = destCleanRel;
     item.payload.provenance.transcriptRawPath = destRawRel;
     item.payload.provenance.transcriptFingerprint = transcriptFingerprint;
-    item.payload.provenance.sharedSource = isShared;
-
     if (isShared) {
+      item.payload.provenance.sharedSource = true;
       item.payload.provenance.sharedSourceReason = sharedReason;
     } else {
+      delete item.payload.provenance.sharedSource;
       delete item.payload.provenance.sharedSourceReason;
     }
 
@@ -301,11 +300,12 @@ function main() {
       qItem.payload.provenance.verifiedLectureTitle = vMeta.title;
       qItem.payload.provenance.reviewStatus = 'verified';
       qItem.payload.provenance.reviewedOverride = true;
-      qItem.payload.provenance.sharedSource = isShared;
 
       if (isShared) {
+        qItem.payload.provenance.sharedSource = true;
         qItem.payload.provenance.sharedSourceReason = sharedReason;
       } else {
+        delete qItem.payload.provenance.sharedSource;
         delete qItem.payload.provenance.sharedSourceReason;
       }
 

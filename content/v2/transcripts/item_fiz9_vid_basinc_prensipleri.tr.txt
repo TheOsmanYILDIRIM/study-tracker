@@ -1,725 +1,804 @@
-gençler Merhaba bugünkü dersimizin
-konusu sıvı basıncı olacak katı basıncı
-dersini iyi öğrenip buraya geçmenizi
-tavsiye ederim çünkü orayla bağlantı
-kuracağız benzer şeyler konuşacağız
-hemen yine sorularla Deneylerle
-başlayalım burada bir su dolu şişemiz
-var üzerinde çeşitli derinliklerde
-delikler açtık ve o delikleri bir bantla
-kapattık o bantlı çektiğimiz anda
-deliklerden su fışkırmaya başlayacak ama
-enteresan bir görüntü elde edeceğiz
-deliklerden farklı hızlarda suyun
-fışkırdığını göreceğiz en üstteki
-delikte daha yavaş çıkıp hemen düşerken
-alta doğru indikçe daha hızlı çıkıp daha
-ileriye düştüğünü görüyoruz suyun yani
-aşağıya doğru indikçe Derine doğru
-indikçe suyun çıkış hızının arttığını
-gözlemliyoruz bunun sebebi ne olabilir
-veya bir su şişesi ile Havuzun dibine
-doğru dağıldıkça ki normal bir havuz
-değil bu 20-30 metre derinliğinde bir
-Havuzdan bahsediyoruz şişenin böyle
-ezildiğini büzüldüğünü küçüldüğünü
-görüyoruz sanki ayağımızla ezip
-yassılaştırıyormuşuz gibi Hiçbir şey
-yapmadığım halde Tek yaptığım şey Derine
-dalmak olduğu halde şişenin ayağımla
-ezmişim gibi incecik kaldığını görüyorum
-Bunun sebebi ne bakın şişe küçücük kaldı
-ilk Halinden Eser Yok Bunların sebebi
-sıvıların basıncıdır gençler Biz bugün
-durgun sıvıların basıncına bakacağız bir
-de hareketli sıvıların basıncı olacak o
-ileride akışkan basıncı olarak
-öğrenilecek bizim buradaki sıvılarımız
-olduğu yerde duruyorlar bir kabın
-içerisindeler ve o kabın içerisinde bir
-basınç uyguluyorlar sıvılarda aynı
-katılar gibi ağırlıklarından dolayı
-basınç uygularlar gençler O yüzden
-Havuzun dibine dağıldıkça Üzerimizdeki
-su miktarı arttığı için daha fazla
-ağırlığa maruz kalıyoruz daha fazla
-ağırlık o plastik şişenin küçülmesi
-ezilmesi demek o yüzden üstteki delikten
-az su fışkırdı alttaki delikten daha çok
-su fışkırdı daha hızlı fışkırdı çünkü
-alttaki deliğin üstünde çok fazla su var
-çok fazla ağırlık var bu ağırlık bir
-basınç oluşturuyor o basınç da suyu
-hızlı fırlatıyor üstteki deliğin
-üzerinde az su var onun ağırlığı az
-olduğu için basınca basınca az olduğu
-için su daha yavaş çıkıyor delikten Peki
-bu sıvıların basıncı nelere bağlı
-çoğunuzun belki kulağına çalınmıştır
-değil miydi kenarları yerle 90 derece
-yapan yani tabanındaki alan Neyse
-yukarılara çıktıkça o alan değişmeyen
-cisimlerde mesela Küpte mesela
-dikdörtgen prizmada mesela Silindirde
-katı basıncını bulmuyor muyduk bu
-ifadeyle Evet buluyorduk sıvılarda da
-bunu aynen kullanıyoruz sıvı basıncını
-da HD hesaplıyoruz neden bir kere katıda
-mevzu neydi onu tekrar bir hatırlayalım
-şöyle bir silindirim olsun katı bir
-silindir H yüksekliği olsun R yarıçapı
-olsun En kütleli bir silindir olsun bu
-arkadaş tabanda yatay zeminde bir basınç
-oluşturuyor şimdi basıncın genel ifadesi
-nedir birim yüzey alanındaki kuvvet
-miktarıdır buradaki kuvvet basıncın
-oluşmasına sebep olan kuvvet ki bu
-katıdaki ağırlığın ta kendisidir Çünkü
-katılarda basıncın sebebi ağırlıktır
-ağırlığın var diye zeminde bir basınç
-oluşturuyorum Yani ben bu ifadeyi g/a
-olarak yazabilirim HD'ye benzetmiştim
-Yani işin içerisine özkütleyerek atmam
-gerekiyor özkütleye Nasıl dahil edeceğim
-ben buraya Özkütle dediğim şey kütle
-böyle hacimdir kütleye yalnız bırakırsam
-hacim çarpı özkütledir bana ağırlık
-lazım yani bu kütleyi ağırlığa
-çevireceğim yani Yerçekimi ivmesi
-çarpmalıyım ben burayı yer çekimi ivmesi
-ile çarparsam eşitliğin sağını da yer
-çekimi ivmesi ile çarpmam gerekir Çünkü
-orada bir eşitlik var Dolayısıyla
-ağırlık dediğim şey vdg geldim Burada
-ağırlık yerine hacim çarpı Özkütle çarpı
-Yerçekimi ivmesi yazdım bölü alan şimdi
-şeklimin kenarları zeminle 90 derece
-yapıyorsa yani tabandaki dairenin alanı
-yukarıya çıktığımda değişmiyorsa böyle
-şekillerin hacimleri nasıl bulunur
-geometri dersinden hatırlayın taban
-alanı çarpı yükseklikle Bulunur o yüzden
-ben buradaki hacim yerine yani V yerine
-taban alanı ki o a olsun çarpı yükseklik
-başla bulabilirim çarpı cismin özkütlesi
-çarpı yer çekimi bölü taban alanı e
-burada alanlar birbirini götürdüğü için
-basınç dediğim şey neye eşit olmuştu Bu
-katıda aştag'ye eşit olmuştu Bu katı
-silindirin tabandaki basıncını Ben böyle
-bulabilir hocam bunun sıvıyla Ne ilgisi
-var çünkü sıvıda da mantık aynı değilim
-ki ben şurada bir x noktasının
-üzerindeki sıvı basıncını merak ediyorum
-e burada yazdığı üzere sıvılarda
-ağırlıklarından dolayı basınç
-uyguluyorlar Yani bu x noktasında bir
-basınç mı var Evet Niye Çünkü üzerinde
-bir ağırlığı var ben burada sadece x
-noktasını baz aldığım için şöyle hayal
-ediyorum bu X'in üzerinde böyle incecik
-küçücük bir sıvı sütunu hayal ediyorum
-bir silindir hayal ediyorum Aynı
-buradaki katı gibi işte x noktasındaki
-basıncın sebebi üzerindeki bu sıvı
-sütunun ağırlığıdır bu sıvı sütunu H
-yüksekliğinde Şuradaki alana da a
-diyebilirim burada katı için Yazdığım
-her şey buradaki sıvı sütun içinde
-geçerli olacaktır katı için bu tabandaki
-basınç HG ise o zaman bu sıvının
-tabanındaki bu x noktasındaki basınç da
-aç DG ile bulunacaktır ne farkı var ki
-ister katı olsun ister sıvı olsun Aynı
-şey çünkü İkisinde de basıncın sebebi
-ağırlık Bu yüzden Gençler biz sıvılarda
-da basıncı bulurken yüksekliğe özkütleye
-ve yer çekim ivmesine bakarız Ne kadar
-derindeysen basınç o kadar fazla
-üzerindeki sıvının öz kütlesi ne kadar
-fazlaysa O noktada basınç o kadar fazla
-yer çekimi ivmesine kadar fazlaysa yani
-dünya seni ne kadar güçlü çekiyorsa
-basınç o kadar fazla diyebiliriz dikkat
-ederseniz burada yazan her şey
-üzerindeki sıvının ağırlığını etkileyen
-şeyler Derine indikçe üzerindeki su
-karartıyor O yüzden basınç artıyor
-sıvının öz kütlesi fazlaysa zaten sıvı
-daha ağır bir sıvıdır aynı hacimdeki
-suyla cıvayı düşünürseniz cıvanın
-kütlesi daha fazladır Dolayısıyla
-üzerindeki ağırlık miktarı da artacaktır
-basınç artacaktır Yerçekimi fazlaysa
-dünya senin güçlü çekiyorsa üzerindeki
-sıvının sana uygulayacağı kuvvet ağırlık
-daha fazla olacaktır Tabii ki Yani
-bunların hepsi üzerindeki sıvının
-ağırlığı ile ilgili şeyler bakın benim
-elimde bir basınç ölçer var tabanda
-Hatta şöyle
-ızgaralar koyalım tam seviyeler belli
-olsun tavanda 131 kilo Pascal basınç var
-diyor yukarıya çıktıkça 122'ye düşüyor
-biraz daha çıkarsam 112'ye düşüyor yani
-H azaldıkça derinlik azaldıkça basınç
-azalıyor derinlik arttıkça gördüğünüz
-gibi basınç artıyor Üzerimizdeki sıvıyı
-Şimdi biz tabanda 131 kilo Pascal var
-gibi düşünürsek öz kütlesi bir olan su
-değil de bir nokta 4 olan bal yaparsak
-basınç da 144'e çıktı arttı özkütlesi
-daha küçük bir şey olan benzin yaparsak
-122'ye düştü azaldı Çünkü Özkütle
-basınçla doğru orantılı artarsa artar
-azalırsa azalır Yerçekimini
-değiştirirsem de sıvı basıncı
-arttığı için H arttığı için derinlik
-arttığı için su basıncı artıyor sıvı
-basıncı artıyor basınç arttığı için de
-şişe iyice küçülüyor Çünkü Üzerimizdeki
-su miktarı artıyor en dibe indikten
-sonra şişeye dikkat edin gençler
-yukarıya doğru çıktıkça haş azaldıkça
-Üzerimizdeki su miktarı azalacak su
-miktarı azaldıkça bu şişeye etki eden
-sıvı basıncı azalacak sıvı basıncı
-azalırsa tekrar eski haline dönme
-eğilimi gösterecektir gördüğünüz gibi
-yukarıya doğru çıkıyoruz ve şişe böyle
-yavaş yavaş tekrar şişime eski haline
-gelmeye başlıyor bakın iyice yukarı
-çıktık O neredeyse iki boyuta inmiş olan
-şişe orijinal boyutlarına geri geldi
-Bunu zaten günlük hayatınızda da
-hissetmiş olabilirsiniz denize
-gittiğinizde derinlere daldıkça
-kulaklarınızda bir baskı hissedersiniz
-ve bu sizi rahatsız eder şişenin başına
-gelen şey sizin oradaki kulak zarınızın
-başına geliyor Çünkü E hocam bu
-katılarla aynıymış diye düşünebilirsiniz
-çok benziyorlar ama aynı değiller
-katılarla sıvıların bir farkı var
-katılar sadece üzerinde durduğu yüzeye
-basınç uygularken sıvılar içinde
-bulunduğu kabın temas ettiği tüm
-yüzeylerine basınç uygular çok mantıklı
-bir soru hocam Tamam burada sıvı var
-görüyorum burada sıvı olduğunu basıncın
-sebebi de sıvının ağırlığı E bu aşağıya
-doğru o zaman basınç hep bu yüzeyde
-Olmalı tabanda Olmalı yan duvarda niye
-basınç olsun ki su Buradan böyle
-fışkırıyor yan duvarda da basınç var
-Çünkü bu katı basıncı değil sıvı basıncı
-Burada da basınç var burada da basınç
-var burada da basınç var sadece tabanda
-Yok katılardan bu yönüyle ayrılıyor
-sıvılar Çünkü sıvılar katılardan farklı
-olarak yayılma eğilimi gösterirler
-akışkandırlar onları bir hacimde zorla
-tutarsın Bir şişenin içine koyarsın o
-şişenin şeklini alır Ama o şişeden delik
-açarsan hemen çıkmaya çalışır oradan
-mesela burada sıvıyla dolu bir kap var
-silindir şeklinde de bir sıvımız vardı
-Dolayısıyla ben şimdi size desem ki
-gençler şu yan duvarları Ben bir anda
-yok ettim bu sıvı bu silindir durumunu
-koruyabilir mi Hayır koruyamaz ne olur
-hemen dağılır hemen bu yüze yayılır
-şöyle bütün yüzeye yayılacaktır Bu ne
-anlama geliyor Aslında bu sıvının
-ağırlığı sadece aşağı iyi değil yanları
-da zorluyor anlamına geliyor yanlardan
-zorlanıyordu ama kap onu tutuyordu o
-kabın yan yüzeyleri ortadan varsa bu
-yanlardaki basınçlar yüzünden sıvı
-dağılıp bütün yüzeye yayılacaktır
-katılarda ise böyle bir şey yok bu
-kırmızı silindir bir katı olsaydı kabın
-içinde de olsa kendi başına da olsa
-Aynen böyle durur Çünkü katılardan
-farklı olarak sıvılar üzerlerine
-uygulanan basıncı Aynen her yöne iletir
-Özellikle bu her yöne ifadesi çok önemli
-bakın katılar basıncı Aynen iletmek
-zorunda değillerdi bunu çokça konuştuk
-çivi örneğinde konuştuk yüzey alanı
-değişirse basınç da değişir yani kuvveti
-Aynen iletmiştir ama daha dar bir
-alandan o kuvvetiyle etmiştir basınç
-artmış olur kuvvet sabit alan küçülürse
-basınç artar ve aynı kuvveti daha geniş
-bir alandan ilettiyse basınç azalır
-Çünkü alan büyüdüyse basınç azalmıştır
-kuvvet sabitken ama sıvılar öyle
-değiller sıvılar üzerlerine uygulanan
-basıncı her yöne Aynen iletirler diyelim
-ki böyle pistonlu bir sistemimiz var
-şurada bir küre var üzerinde delikler
-var ve buradaki şu silindir kısmında su
-var Ben bu pistonla suyu itersem suyun
-sıkışma miktarını ihmal ettiğim için
-suyu komple ilerletmiş olurum pistona
-uyguladığım basınç bu sıvıyı ilerletir
-ve ne olur bütün deliklerden
-fışkıracaktır böyle bir görüntü elde
-edelim Bu ne anlama geliyor benim
-pistona uyguladığım basınç o
-silindirdeki sıvı tarafından Aynen
-aktarılıyor demek buradaki bütün
-delikleri Aynen aktarılıyor ve bütün
-deliklerden dik olarak fışkırıyor Çünkü
-sıvılar üzerlerine uygulanan bu basıncı
-her yöne bütün deliklere Aynen
-iletiyorlar elinize bir sünger alın suya
-batırılmış bir sünger olsun sıktığınız
-zaman sadece Belli bir yerden mi çıkıyor
-Hayır her yerinden su fışkırıyor Çünkü
-sıktığınızda uyguladığınız basınç o
-süngerin içerisindeki sıvıda her yöne
-Aynen iletiliyor ve böylece süngerin her
-yerinden su çıkmış oluyor sıvıların bu
-basınca Aynen her yöne iletmesine Biz
-Pascal prensibi diyoruz bizim için çok
-önemli bir prensiptir ileride zaten
-önemini anlayacağız şimdi bu yan yüzeyde
-basınç olma mevzusunu bir de Pascal
-üzerinden düşünelim diyelim ki Şuradaki
-x noktasında bir basınç var haç
-derinlikte olduğu için bu basınca ben
-Hast DG diyebilirim Bir de tam şurada
-bir yerde y noktası belirliyorum y
-noktası da h/2 derinlikte olsun o zaman
-diyorum ki bunun basıncı h/2 dg'dir
-Çünkü sıvı aynı sıvı sadece derinlik
-yarıya indi Peki neden noktasında bir
-basınç var çünkü y noktasının üzerinde
-de sıvı var bu sıvının da ağırlığı var
-işte bu sıvının oluşturduğu basınç
-sadece aşağıya doğru değil her yöne
-etkiliyor aşağıya aktarılıyor yanlara da
-aktarılıyor bu yana da aktarılıyor o
-yüzden ben bu y noktasına bir delik
-açsam buradan su fışkırıyor Çünkü
-üzerindeki bu mavi ile taradığım
-bölgenin ağırlığından dolayı olan basınç
-sayesinde su fışkırıyor Peki neden bunun
-yarısı hocam Çünkü yarı derinlikte
-formül öyle diyor mantık nereden geliyor
-olabilir çünkü haç derinlikte g kadarlık
-sıvının ağırlığı yüzünden basınç varsa
-h/2 derinlikte yarısı kadar su miktarı
-yani g/2 ağırlıklı sıvının oluşturduğu
-basınç vardır O yüzden y'nin basıncı
-X'in yarısı kadar oluyor olarak da
-düşünebilirsiniz katılar sadece
-uyguladığınız kuvvet doğrultusunda
-basınca aktarırken sıvılar her yönde
-yaparlar bu işi bu çok önemli B
-noktasına etki eden sıvı basıncı ile
-ilgili ne söylenebilir şimdi söylediğim
-zaten ama burada Pascal prensibi'nin bir
-sonucu olarak aynı seviyede aynı cin
-sıvı içerisindeki noktaların basınçları
-birbirine eşittir diye bir not var bu
-çok çok çok önemli bir not ilerde bir
-sürü soru çözdürecek bize bu Not aynı
-sıvıda aynı seviyede basınçlar birbirine
-eşittir Bu Pascal prensibi'nin sonucu
-Pascal prensibi ile sıvıların Üzerine
-uygulanan basıncı her yere iletmesi ne
-alaka şöyle bakın B noktasından bir
-seviye çektim şöyle bir seviye bu
-seviyedeki Herhangi bir nokta ister
-Burası ister Burası ister Burası
-istersek de B noktası hepsinin
-basıncının sebebi üzerindeki bu sıvının
-ağırlığı şimdi bu yeşil noktada bu
-ağırlıktan kaynaklı bir basınç var ama
-az önce söylediğim gibi Bu basınç Her
-yere aynı anahtar olduğu için buraya
-aktarıldığı gibi B'ye de aktarılıyor
-buraya da aktarılıyor buraya da
-aktarılıyor aynı basınç Her yer aynı
-anahtar olduğu için bu seviyedeki bütün
-basınçlar birbirine eşittir ya da
-diyebilirsin ki hocam Bunların hepsi aşk
-böyle iki derinlikte olduğu için Zaten
-hepsinin basıncını aşk böyle 2 DG
-yazarım Çünkü bunların hepsi aşk böyle
-iki derinlikte Evet ama daha kafa
-karıştırıcı yerler var Mesela buraya
-inceleyelim iki tane nokta seçiyorum
-şurada bir a noktası seçtim şurada bir B
-noktası seçtim Az önceki Pascal'ın
-sonucuna göre a noktasının basıncı ile b
-noktasının basıncı birbirine eşit olmalı
-Neden Çünkü seviye çektiğim zaman bunlar
-aynı yatay seviyedeler ikisi de aynı
-sıvı içerisindeler o zaman basınçlar
-eşit hocam bunlar nasıl eşit olsun Şimdi
-A'ya baktığım zaman H kadar derinlikte
-üzerindeki suya bakıyorum H yükseklikte
-su var o zaman ağdaki basınç h'dir ama
-B'ye baktığım zaman üzerindeki su
-miktarı bu kadar yok şu kadar var bu B
-noktasındaki basıncı şu derinlik
-üzerinden hesaplamayacak mıyım Hayır
-yine bunun üzerinden hesaplayacaksın O
-yüzden öğretmenler der ki üzerindeki
-sıvıya bakmayın en üstteki seviyeye
-bakın oraya göre hesaplayın derler yani
-by hesaplarken de şu sıvı seviyesinden
-alman lazım derler B noktasının basıncı
-da htg'dir Derler ki Gayet doğru
-söylerler niye gençler Bunlar eşit olmak
-zorunda eşit olmasalardı ne olur diye
-konuşalım şurada bir sıvı kütlesi hayal
-edin katı bir madde varmış gibi bir
-cisim varmış gibi bir sıvı kütlesi hayal
-ediyorum burada bu sistem dengede durgun
-sıvılardan bahsediyoruz duruyor her şey
-ve durmaya devam ediyor Net kuvvet sıfır
-diyebiliriz şimdi a noktasında bir
-basınç var B noktasında bir basınç var
-Ben a noktasındaki basıncın B'den büyük
-olduğunu söylesem ne olmasını
-beklersiniz cisim duruyor yani o sıvı
-kütlesi duruyor sol taraftan fazla
-basınç var sağ taraftan az Basınç var
-soldan bu zorlanmaz mı sağ tarafa doğru
-Evet o zaman bu su kütlesi sağa doğru
-akmaz mı Evet akıyor mu Hayır akmıyor
-Demek ki soldan olan zorlama ile sağdan
-olan zorlama eşitmiş ki duruyor ve
-durmaya devam ediyor O yüzden a
-noktasında ne kadar basınç varsa B
-noktasına da o kadar basınç olmak
-zorunda işin mantığı bu ya da Pascal
-prensibi aynı seviyede aynı sıvıda
-basınçlar birbirine eşittir a ile b aynı
-seviyedeler aynı sıvıdalar basınçları
-eşittir ya da başka bir mantık Şurayı
-düşünelim bu noktadaki Basınç nedir
-hocam tabii ki Şuradaki sıvı sütunun
-ağırlığıdır güzel diyelim ki bu
-yükseklik 10 santimetre Şuradaki
-yükseklik 5 santimetre yani derinlik 10
-santimetreden dolayı burada 10 Pascal
-basınç var şimdi bu 10 pascallık basınç
-Pascal prensibi gereğince Sıvının her
-yerini Aynen iletilmek zorunda değil mi
-Evet yani bu noktada 10 Pascal var ve bu
-10 Pascal bu sıvı sütunundan dolayı var
-bu 10 Pascal buraya da aktarılmalı
-buraya da aktarıl alakalı a noktasına da
-aktarılmalı B noktasına da aktarılmalı
-bu yüzden bizim a noktamızda bir 10
-Pascal var zaten B noktamızda da bir 10
-Pascal var Çünkü bu sarı sütun basınç
-oluşturduğu ve Aynen aktarıldı A'ya
-bebeğe iyi de A'nın üzerinde sadece bu
-sarı sütun yok ki şöyle bir sıvı da var
-bunun üzerinde 5 santimetre üzerinden
-düşünürsen Bu da 5 Pascal demek olsun bu
-sütunun ağırlığından dolayı bir 5
-pascal'da oradan gelecek o zaman a
-noktasında 15 Pascal basınç var aynı
-miktarda sıvıdan B'nin üzerinde yok mu
-var o da 5 santim değil mi Evet o zaman
-bir 5 de ona Gelecek B noktasında da 15
-Pascal var basınçlar Ne oldu birbirine
-eşit oldu çünkü sıvılar üzerlerine
-uygulanan basınca her yöne iletirler ya
-da biz bunun sonucu ile ilgileniyoruz
-aynı seviyede aynı sıvıda basınçlar
-birbirine eşittir Bakın bu bilgiyi
-ezbere Herkes bilir ama ben size neyin
-nereden geldiğini açıklamasını yaptım
-Lütfen burada anlatmaya çalıştığım
-şeyleri anlamlandırmaya çalışın üzerine
-düşünün Pascal mevzusunu hallettiğimize
-göre kabın şekli ve kaptaki sıvının
-toplam miktarına basıncın bağlı
-olmadığını konuşalım zaten sondaki
-şeklin suyunu çıkardık bu mevzu
-anlaşıldı 3 kaba bakalım 3 kapta farklı
-şekiller var farklı miktarda sıvılar var
-Ben bunların tabanlarında noktalar
-seçiyorum x noktası y noktası ve z
-noktası Bu noktalardaki basınçları
-kıyaslamanızı istiyorum hocam burada çok
-su var çok su çok ağırlık demek o zaman
-Z'de çok basınç vardır hocam burada az
-su var az su az ağırlık demektir O zaman
-x de az Basınç vardır Hayır sıvı basıncı
-H dg'dir Bunların hepsi aynı
-derinlikdeler hepsi aynı haç
-derinliğindeler Bu bir değişken değil
-Hepsi aynı sıvı içerisindeler Bu bir
-değişken değil yer çekimi aynı o zaman
-bunların hepsi X'in de y'nin de Z'nin de
-basınçları birbirine eşittir Çünkü
-önemli olan madde miktarı değil önemli
-olan derinlik yükseklik Örneğin katı
-basıncında da bir saç DG yapıyordu
-kesitten şöyle dikdörtgenler çizersem
-bir böyle dikdörtgen katı olsun Bir de
-böyle bir dikdörtgen katı Olsun ikisi de
-aynı yükseklikteler ikisi de aynı
-malzemeden yapılmışlar D özkütleri
-olsunlar aynı ortamdalar bunların
-zeminde oluşturdukları basıncı bulun
-desem ne dersiniz İkisi de birbirine
-eşittir dersiniz Niye hdg Çünkü ama
-basıncın genel formülünden düşündüğümde
-ne kuvvet bölü alan derim bu küçük bunun
-ağırlığına g dersem bu daha büyük
-atıyorum 2G kuvvet daha fazla basınç
-daha fazla olmalı ama aynı oranda
-buradaki alan a ise buradaki alanın 2A
-olması lazım Çünkü özkütleler aynı
-hacimler de aynı oranda artmalı
-Dolayısıyla alanda iki kat olduğu için
-basınçlar eşit çıkıyor ve benzer şey
-burada da var Evet burada az miktarda su
-var ama bu kabın tabanı da küçük Evet
-burada çok miktarda su var ama bu kabın
-tavanı da büyük İşin özü bir sıvı
-sütununa bakıyoruz x'teki basıncın
-sebebi üzerindeki sıvı sütunun ağırlığı
-y'deki basıncın sebebi de üzerindeki
-sıvı sütunun ağırlığı z'deki basıncın
-sebebi de üzerindeki sıvı sütunun
-ağırlığı bu üç sütun da Özdeş değil mi
-hepsi haş yükseklikli silindirler değil
-mi Evet hepsinin taban alanları x yz
-noktaları kadar değil mi Evet E o zaman
-geri kalan sıvıdan bana ne Üzerimizdeki
-sıvı miktarı aynı Bununla ilgili meşhur
-bir deneyimimizi izleyelim Pascal
-fırçası deneyi Pascal 1700 yıllarda Bu
-deneyi yapıyor sıvı basıncının nasıl bir
-şey olduğunu derinliğe nasıl bağlı
-olduğunu anlatmak için kullandığı bir
-deney ağzına kadar dolu damacanamız var
-üzerinde de şöyle mavi renkli bir
-sıvımız var 1 litre kadar bu mavi 1
-litrelik sıvıyı Bu arkadaşın içine
-boşaltacağız ve bu patlayacak Normalde
-şurada ağzından döksek herhalde bunun
-patlamayacağına hepimiz eminiz
-sezgilerimize çok aykırı bir durum
-olurdu eğer öyle olsaydı ama fiziği
-kullanırsak o azıcık suyla bu kocaman
-damacanayı patlatabiliriz Bakın bu
-damacananın ucuna İncecik bir hortum
-bağlanmış bu hortum yukarıya doğru
-gidiyor Yukarısı dediğim şey bir
-apartmanın artık 10 katımı 15 katımı
-bilmiyorum ta en yukarılarda bir
-yerlerde bu 1 litrelik sıvıyı o hortumun
-içerisine yukarıdan basacağız
-Dolayısıyla bu incecik hortumdan
-damacanaya bu suyu aktarmış olacağız bu
-işleri değiştirir yukarıdan şırıngayla
-suyu basmaya başladı hortumu tamamen bu
-mavi sıvıyla dolduruyor burada bir
-basınç ölçer var basınç ölçerin
-yukarıdan o mavi sıvı geldikçe arttığını
-görüyoruz ve en nihayetinde bizim
-buradaki damacanamız patlıyor o küçücük
-suyla kocaman patlattık Hatta renkten
-belli gelir gelmez patlatmış sebebi ne
-olabilir Çünkü biz Hacı inanılmaz
-arttırdık bu mavi sıvının Şu an şu
-tabandaki basıncı şu derinlik üzerinden
-düşünüldüğünde çok azdır o yüzden en
-başta sezgisel olarak koca damacanayı Bu
-nasıl Patlatsın diye düşündük Ama ben bu
-mavi sıvıyı bu hortumu aktarırsam miktar
-aynı miktar sadece ben bunu İncecik bir
-tüpe hapsediyorum bunun içerisine
-hapsettiğimde aynı sıvıyı bu sefer bu
-tabandaki basın çok artacaktır Çünkü
-hdg'den düşündüğümde H çok artacaktır O
-çok artmış sıvı basıncı da o damacanayı
-patlatmaya Yetecektir Hocam yine de bana
-mantıklı gelmiyor sıvı aynı sıvı değil
-mi miktar aynı miktar kuvvet aynı kuvvet
-mevzu kuvvet değil mevzu basınç basınç
-dediğimiz şey kuvvet böyle alan bunu
-katı içine düşünebilir mi sıvı içinde
-düşünebilirim Evet bu 1 litrelik sıvının
-ağırlığı Aynı bu değişmedi Ama sen ne
-yaptın alanı çok küçülttün İncecik bir
-boruya Hapsettin normalde şu kadar olan
-alan bu noktaya düştü alan çok küçüldü
-basınç çok arttı Damacana patlattı
-günlük hayattan bir örnek olarak bir şey
-söylemek gerekirse baraj duvarlarını
-söyleyebiliriz baraj duvarları aşağıya
-doğru indikçe yani tuttuğu suyun Derine
-indikçe kalınlaşmak zorundalar
-dayanıklılığı arttırmak yani kesit alanı
-büyütmek zorundalar dikkat ederseniz
-daha aşağılarda daha kalın bir duvardan
-bahsediyoruz Çünkü buradaki sıvı basıncı
-hdg'den düşünülür H arttıkça basınç
-artar ona dayanacak duvarı daha
-dayanıklı yapmalısın yani kesit alanı
-daha büyük tutmalısın Şuradaki duvarın o
-kadar da kalın olmasına gerek yok Çünkü
-buradaki husus yani derinlik az Basınç
-ve burada dikkat etmemiz gereken önemli
-şeylerden bir tanesi de buradaki sıvının
-bir önemi yok ne kadar suyu tuttuğunun
-bir önemi yok sıvının miktarından
-bağımsız burada İncecik bir sıvı sütunu
-olsaydı dahi aynı Haçlı bu tabanda
-derinde olurdu çünkü biz sadece
-basıncını bulmak istediğimiz noktanın
-üzerindeki sıvı sütununa bakıyoruz geri
-kalan toplam sıvı miktarı Beni
-ilgilendirmiyor o yüzden kabın şeklinin
-ve toplam sıvı miktarının bir önemi yok
-şu kadarlık sıvı için bile bu duvara
-gerek vardı çünkü derinlik aynı derinlik
-yatay düzlemde durmakta olan sıvı dolu
-kabın düşey kesti şekildeki gibidir x
-noktasındaki sıvı basıncı p olduğuna
-göre y ve z noktalarındaki sıvı
-basınçlarını bulunuz tanımlanmış olan
-şey x noktasındaki basıncın p olması x
-noktası ne kadar derinde H değerinde
-buna p denmiş o zaman p dediğim şey ne
-demekmiş d g demekmiş y noktası ne kadar
-derinde h+h'tan 2h derinlikte o zaman
-burası 2h DG sıvı basıncıdır Bu da 2p
-demektir Z noktası 1 2 3h derinlikte o
-zaman buradaki basınç 3 hdg yani 3p'dir
-hocam Şu an saçmalıyorsunuz y'nin
-üzerinde sıvı bile yok Nasıl burada sıvı
-basıncı olsun Evet bazı fizik
-öğretmenleri der ki y'nin üzerindeki
-sıvı basıncısı sıfırdır çünkü üzerinde
-bunun bir sıvı sütun yok ama Milli
-Eğitim buradaki toplam basıncı soruyor
-sıvı diye ayırt etmiyor ve ben Pascal
-prensibi ile buranın iki ağaç DG
-olduğunu size ispatlayabilir bizi
-ilgilendiren kısımda burası burada hdg
-basınç var çünkü üzerinde bu kadar sıvı
-sütunun ağırlığı var Bu da HD basınç
-demek Şuradaki kalınlığı ihmal edersek
-bu noktada da HD kadarlık basınç vardır
-çünkü şu sıvı sütunu hiçbir yere
-gitmiyor burada durmaya devam ediyor O
-zaman sağında ne kadar basınç varsa
-solunda da o kadar basınç olmalı eşit
-olmasalar da zaten bu sıvı bir yere
-doğru Akardı ya da bir başka deyişle
-buradaki h buraya aynen aktarılmış bu HD
-Aslında buraya da aynen aktarılıyor yani
-burada da şu an HD var bu HD şunun ta
-kendisidir Artı bu kadarlık sıvının
-ağırlığı da var burada ve o da H
-yüksekliğinde Yani buraya bir HD daha
-geliyor e toplam Ne oldu toplam iki aştı
-oldu yani Bu sütunun ağırlığı artı Bu
-sütunun ağırlığı Ama hocam Bunlar alt
-alta değiller Pascal prensibi bu basınç
-buraya Aynen aktarıldı şimdi burada iki
-haçlıg var mı var buraya aktarıldı bu
-hikaye buraya aktarıldı buraya aktarıldı
-Z'ye aktarıldı Y'ye de aktarıldı ye de
-şu an 2 HD var Çünkü buradaki adam
-buraya geldi Pascal Prensi yerin
-üzerinde sıvı var mı Yok o zaman iki
-ağaçta yenge ama Z'nin üzerinde Bak
-şöyle bir sıvı sütunu var o da H
-yükseklikte yani zaten buradan buraya
-bir iki HD aktarılmıştı kendi üzerindeki
-sıvının da bir ağırlığı var o da HD
-kadar toplam ne yapar Toplam 3 ayda
-yapar Dolayısıyla cevabımız 2p'ye 3p
-olur Bakın bu soru çok önemli buradaki
-hd'leri taşıma işlemim çok önemliydi
-bunu Birçok yerde ha bu haç derinlikte
-bu iki haç derinlikte deyip geçiyorlar
-asıl mantık budur Lütfen bunları iyi
-anlayın Birbirine karışmayan iki sıvının
-basıncını kap tabanındaki K noktasında
-ve H2 yüksekliğin tam ortasındaki L
-noktasında inceleyelim Şimdi iki tane
-sıvım var Pascal prensibi kullanarak
-sıvıların üzerlerine uygulanan basıncı
-Aynen her yönde iletmesini kullanarak
-kanun ve l'nin basınçlarını yazalım şu
-turuncu renkli artık bu hangi renkte
-bilmiyorum sıvının ağırlığından kaynaklı
-Mesela bu noktada bir basıncı var ne
-kadar derinlikte bu H1 üzerindeki bu
-sıvı sütunu burada H1 d1g kadarlık bir
-basınç oluşturuyor güzel bu basınç mavi
-sıvıyı etki ediyor mavi sıvı bunu her
-yöne Aynen aktaracak mı Evet mesela
-şuraya aktardı mı burada h1d1 g var l'ye
-Aynen aktardı mı aktardı o zaman l'de de
-H1 d1g var k'ya Aynen aktardım Evet o
-zaman k'da da H1 D1 D var fakat kanun
-üzerinde bu mavi sıvının da bir ağırlığı
-var şöyle bir sütun da var burada bu
-silindir ne kadar yüksekliğe sahip H2
-Sıvı ne D2 O zaman burada artı h d2g var
-işte K noktasının toplam basıncı budur
-gençler Peki l'ye bakarsam H1 d1g var
-pascal'dan geldi o l'nin de üzerinde
-mavi sıvı sütunu var şu kadar da olsa ki
-bu tam ortadaymış yani şurası
-h2/2'dir O zaman bu sıvı sütunun
-basıncını da yazmam lazım l'ye artı h2/2
-çarpı D2 çarpı g İşte bu da L
-noktasındaki toplam sıvı basıncıdır olay
-bu kadar Birbirine karışmayan D ve 3D
-özkütlesi sıvılar düşey kesiti verilen
-düzgün kaba şekildeki gibi konulmuşlar x
-noktasındaki basınç p olduğuna göre y
-noktasındaki basınç kaç b'dir hemen
-öğrendiğimiz şeyin uygulamasını
-yapıyoruz x noktasındaki Basınç nedir
-üzerindeki sıvı sütunun ağırlığıdır Hac
-derinlikte bu arkadaş o zaman h d g var
-çünkü sıvımızın özkütlesi de D kadar
-kitap buna p demiş y noktasındaki
-basıncı soruyor şimdi önce şu noktayı
-hesaplayalım farklı renk olsun bu
-noktadaki Basınç nedir bu kadarlık
-sıvının ağırlığından kaynaklı bir basınç
-var İki haçtan bahsediyoruz O zaman bu
-mavi noktada iki haç çarpı D bir basınç
-var bu basınç Aynen buraya aktarıldı iki
-HD var ama yetmez Neden Çünkü adamın
-içinde bulunduğu mavi sıvının da
-ağırlığı var Şu kadarlık bir sütun hayal
-edin H yüksekliğine sahip o zaman onun
-da ağırlığından kaynaklı basıncını
-yazarsam H çarpı Bu 3d'lik bir sıvı 3D
-çarpı g olur iki aştg 3hg daha Burası
-5hd'lik bir basınç demek HDP dediysem o
-zaman 5h dy 5p demem gerekir aşağılara
-indikçe basınç artıyor aynı dersin
-başında izlediğimiz videodaki şişenin
-deliklerinden farklı hızlarda çıkan
-suların bize söylediği gibi Şimdilik
-burada bırakalım video çok uzamasın
-plandakinden bir fazla Video daha
-çekebilirim yoksa Dersler 1 saatlik
-falan olacak makul sürelerde tutmak için
-artı bir video yapmamız gerekecek aynı
-konuya devam edeceğiz takıldıklarımızı
-alta yazın Kendinize iyi bakın görüşürüz
+diyelim ki arabanızın lastiğinde bir
+tuhaflık hissettiniz bunun basıncı düştü
+mü çıktı mı bunda bir tuhaflık var
+dediniz o lastiğin basıncını nasıl
+ölçersiniz veya evinizde bir koku
+duydunuz doğalgaz kaçağından
+şüpheleniyorsanız yetkilileri aradınız
+geldiler tesisatınızda doğalgaz kaçağı
+olup olmadığını nasıl kontrol ederler ne
+kullanmaları gerekir veya uçakla
+giderken pilotlar belli aralıklarla kaç
+metre yükseklikte olduklarını söylerler
+uçak yeryüzünden ne kadar yüksekte
+olduğunu nasıl anlıyor bunların hepsinin
+cevabı bu dersimizde bu dersimizde
+basıncı ölçen aletleri öğreneceğiz ve
+ilk olarak manometre ile başlayacağız
+gençler Biz aslında basınç ölçen bir
+alet öğrendik şimdiye kadar
+derslerimizde o barometreyi atmosfer
+basıncını açık hava basıncını ölçüyü
+torelli deneyinde kullandığımız aletin
+Ta kendisiydi şimdi kapalı bir kaptaki
+basıncı ölçüyoruz açık hava basıncını
+ölçmeye çalışmıyoruz ve biz buna
+manometre ismini veriyoruz gördüğünüz
+gibi arabalarımızın lastiğindeki basıncı
+ölçmek istediğinizde bu subap kısmına
+şöyle bir alet takıyorsunuz buradaki
+göstergede Bu iç basıncın ne olduğunu
+anlamaya çalışıyorsunuz bu alet bir
+benzerini benzincilerde de görürsünüz
+kablo gibi bir şeyi vardır getirirsiniz
+lastiğe takarsınız oradaki ekranda
+lastik basıncını görürsünüz ona göre
+hava basarsınız veya yeteri kadar hava
+varmış dersiniz arabanın lastiği kapalı
+bir sistemdir kapalı bir kaptır
+Dolayısıyla kapalı kap basıncını ölçtüğü
+bu aletin ismi
+manometrede de aynı şey var yangın
+tüpleri kapalı sistemlerdir O iç basıncı
+ölçmek için buradaki göstergeye
+bakarsınız Çünkü burada da manometre
+vardır manometre kullanırken Biz genelde
+civa kullanıyoruz kapalı kap dediğim şey
+şu cam tüp olarak düşünülürse burada gaz
+var ve bu gazın basıncını ölçmek
+istiyoruz bunun ucuna şöyle ince bir cam
+tüp takıyoruz ve onu cıvayla
+dolduruyoruz burası kapalı olabilir ya
+da Burası açık olabilir Açık olursa P0
+etkili olacak bunu biliyoruz kapalı
+olursa açık hava basıncının bu sisteme
+etki etmeyeceğini söyleyebiliriz ve şu
+anki İşlediğim durumda Burası da tamamen
+boşluk yani burada herhangi bir gaz yok
+buraya bu gazı doldurduğunuz anda
+Normalde eşit olacak olan CIA seviyeleri
+arasında fark oluşur sebep E çünkü bu
+gazın basıncı buradan civaya etki eder
+Pascal prensibi yaparsak şuradan bir
+seviye çekersek bu noktadaki basınçla bu
+noktadaki basınç aynıdır Çünkü aynı
+seviyede ve aynı cıvaya temas ediyorlar
+E bu kırmızı noktada Gaz basıncı var
+yukarıdan bu kırmızı noktada şu CIA
+sütununun ağırlığından kaynaklanan bir
+basınç var buradaki Gaz basıncı civa
+tarafından Pascal prensibi gereği Aynen
+buraya aktarılmıştır ve yukarıdan gelen
+civanın H dgsi ile p gaz birbirini
+dengelemiş O yüzden ben burada Nasıl bir
+eşitlik yazarım Gaz basıncı eşittir h
+derinlikli d Öz kütleli civanın basıncı
+buradaki H dediğim şey mesela 20 cm
+olarak oluştu civa seviyesi farkı buysa
+sen buradaki H yerine 20 cm yazarsın dgi
+temsilen de civa kullandığımız için
+kimyadaki civa sembolünü kullanırız 20
+cm civa basıncı vardır Bu p gazın deriz
+bu gazın basıncı daha fazla olsaydı
+Buradan daha şiddetli bastırsın o zaman
+buradaki civayı daha çok yükseltecek
+yani H artacaktı bu 20 dediğim sayı
+belki 30 olacaktı o zaman da diyecektin
+ki ha bu yeni gazın basıncı 30 cm cvad
+diyecektin bu gazın basıncı ile ilgili
+bana Fikri seviyeler arasındaki mesafe
+veriyor burası kapalı olmak zorunda
+değil açık uçlu manometreler imiz de var
+var açık hava basıncı da dışarıdan etki
+edebilir yine bir cıva seviyesi farkı
+oluşmuş aynı şekilde şuradan seviyemi
+çekersem bu noktadaki basınçla bu
+noktadaki basınç eşittir soldaki kırmızı
+noktaya Tabii ki yukarıdan p gaz etki
+ediyor Sağdaki kırmızı noktaya civa
+sütununun basıncı etki ediyor Bir de
+yukarıdan açık hava basıncı etki ediyor
+Dolayısıyla denklemde ufak bir
+değişiklik olacak p gaz eş hdg lik cıva
+sütunu artı yukarıdan etki eden P0 açık
+hava basıncı şimdi bu deniz seviyesinde
+ise 0 celsa ise açık hava basıncını 76
+cm civa olarak kabul edebiliriz P0
+yerine gelirsin Burada 76 cm cıva
+yazarsın buradaki Mesafeyi de tamamen
+sallıyorum 10 cm olarak ölçtün o zaman
+hdgd H yerine 10 cm yazarsın DG zaten
+civayı temsil ediyor Dolayısıyla buraya
+bir de 10 cm CIA yazarsın ikisinin
+toplamı gaz basıncıdır yani gazın
+basıncı 86 cm cadır dersin Eğer
+manometrenin işin içerisine açık hava
+basıncın da dahil edip p gazı öyle
+düşünmen gerekir hocam açık hava basıncı
+atmosfer basıncı buradaki gazdan daha
+büyük basınca sahip olamaz mı Tabii ki
+ol olabilir Ama o zaman kim Galip
+gelecektir Tabii ki atmosfer basıncı
+açık hava basıncı Galip gelecektir cıva
+seviyeleri değişecektir bu sefer sağdan
+bastırırsın solu yükseltirsin ama oturup
+Böyle olunca da şöyle oluyormuş diye
+ezber yapmayacağız Tabii ki yani bu
+durumu da kendiniz ben anlatmasam bile
+çıkarabilmesi şöyle bir seviye
+çekersiniz bu noktadaki basınçla bu
+noktadaki basınç eşittir dersiniz
+soldaki sarı noktada ne vardır
+dediğimizde buradan p gaz etki ediyor
+dersiniz artı bakın şurada bir CIA
+sütunu var diyelim ki 10 cm olsun o
+zaman bu sarı noktada şu an p gaz + 10 C
+civalı bir basınç var eşittir Sağdaki
+sarı nokta Çünkü aynı seviyeden aynı
+civadra basıncı zaten ona da 76 cm civa
+derseniz p gazın buradan 66 cm cıva
+olması gerektiğini anlarsınız yani
+yaptığımız bir şey yok seviye çekiyoruz
+noktaların basınçlarını birbirine
+eşitliyor bazen de manometrenin ucu
+kapalı olduğu halde bu boşluk Dediğim
+yerde başka bir Gaz olabilir açık hava
+basıncının olmasıyla aynı durumdur
+hiçbir fark yok yine Seviyeni çekersin
+bu noktadaki basınçla bu noktadaki
+basınç eşittir dersin soldaki kırmızı
+noktada x gazının basıncı var Sağdaki
+kırmızı noktada bu kadarlık civa sütunu
+artı şuradan gelen y gazının basıncı var
+yani hdg + py yazarsın gayet Basit
+şekilde gördüğünüz u şeklindeki boru bir
+manometrede olması şart değil sağ
+taraftaki kısım kapalı ucuna Bir hortum
+bağlanmış ve bir şırıngaya bağlanmış
+şırınganın içerisinde ortamdaki hava var
+şu an sol taraftaki Borunun ucu ise açık
+Yani buradan açık hava basıncı etki
+ediyor Şimdi biz bu şırıngayı takmadan
+önce buradaki Borunun ucu da açık olduğu
+için Aslında sol taraftaki boruda da sağ
+taraftaki boruda da açık hava basıncı
+kadar hava basıncı var diyebiliriz
+Burada da boyalı bir sıvımız var civa
+olup olmadığından emin değilim şahsen
+Ama fark etmez D yerine başka bir sayı
+yazarsın civanın öz kütlesi değil de
+başka bir şey üzerinden hesap yaparsın
+şimdi bakın buradaki şırıngayla
+oynayarak hacmi küçülterek Ya da
+büyüterek ben basıncı değiştiririm
+basınç değiştiğinde de bu sıvının
+seviyeleri arasındaki farkın değiştiğini
+görürüm dikkat edin şırıngayı itiyor
+Dolayısıyla buradaki hacmi küçültüyor
+basıncı arttırıyor basınç arttığı için
+civalar seviyeleri arasında bir fark
+oluşuyor Mesela şu an durdurduk Biz
+şırıngayı iterek şu cam tüpün
+içerisindeki basıncı arttırmış olduk
+buradan bir seviye çektiğimde bu
+noktanın basıncıyla bu noktanın basıncı
+birbirine eşit Sağdaki sütunda p gaz var
+p gaz yazdım soldaki sütunda şu kadarlık
+sıvının yüksekliğinden kaynaklanan bir
+basınç var hdg var Artı Burası açık
+olduğu için buradan da bir P0 etki
+ediyor Art P0 var diyebiliriz İşte bu
+bizim basınç denklem imiz p 0'ın
+değerini biliyoruz arada bir cetvel var
+gördüğünüz gibi buradan H mesafesini
+seviyeler arasındaki farkı ölçebilir e
+sıvının öz kütlesi ve Yer çekimini de
+biliyorum yerine yazdığımda gazın
+basıncının ne olduğunu anlayabilirim
+şimdi bakın boruyu buradan çıkartıyor
+Dolayısıyla sağ tarafta da açık hava
+basıncı var sol tarafta da açık hava
+basıncı var seviyeler Hemen eşitlendi
+Çünkü buradan da açık hava etki ediyor
+Buradan da açık hava etki ediyor İkisi
+birbirini götürürse O zaman kimse Galip
+gelmiyor eşit seviyede kalıyoruz
+diyebiliriz buradaki Borunun ucu da açık
+buradaki Borunun ucu da açık tekrar
+şırıngayı taktı Az önce sıkıştırmış tım
+Dolayısıyla basıncı arttırıp buradan
+bastırabilmek şimdi tam tersini
+yapacağız şırıngayı geri çekiyoruz
+buradaki hacmi arttırıyoruz hacmi
+arttırdığımız için sağ taraftan gelen
+gaz basıncını şırınganın içindeki gaz
+basıncını azaltmış oldum Dolayısıyla
+buradan etki eden açık hava basıncı daha
+baskın hale geldi ve bu sefer sütun sağ
+tarafta yükseldi yine nasıl hesap kitap
+yapacağız yani şu şırınganın içerisinde
+ne kadar basınç var dediğimde seviyeyi
+çekersin bu pembe noktayla bu pembe
+noktayı eşitlensin P0 = p gaz ı şu
+kadarlık sıvının basıncı diyebiliriz
+benzer şekilde yine
+manometrenin zaman seviye farkı oluşuyor
+Çünkü basıncı arttırıyor ortama yeni gaz
+moleküllere aktarıyor bıraktığı anda
+Sağdaki Borunun ucu da açık soldaki
+Borunun da açık İki taraftan aynı açık
+hava basıncı etki ettiği için seviye
+farkı oluşmuyor şimdi bakın ucuna bir
+balon takıyor balonun içerisindeki
+basınçtan dolayı yine sol taraftan
+baskın olduğunu söyleyebiliriz balonu
+çıkarttı İki taraftan açık hava etki
+ediyor tekrar aynı seviyeye geldiler cam
+bir tüpe bağladı bizim borumuz ve sıcak
+bir suya koydu Sıcak suya koyarsa cam
+tüpün içerisindeki havayı ısıtmış
+olursun basıncını arttırırsın bakın
+nasıl seviye farkı oluşuyor şimdi onu
+alıyor tekrar soğuk suya koyuyor soğuk
+suya koyduğunda tekrar basıncı azalttığı
+için tekrar seviyeler Eski yerine
+geliyorlar diyebiliriz manometre tam
+olarak böyle çalışır açık hava
+basıncının P0 olduğu ortamda düşey
+kesiti verilen manometre içindeki gaz ve
+cıva ile şekildeki gibi dengededir Buna
+göre sistemde sadece gazın sıcaklığının
+artması sağlanırsa yargılarından
+hangileri doğru olur diye sormuş şimdi
+şu anki denge durumunu bir incelememiz
+lazım kapalı bir kabımız var içerisinde
+gaz var civam var bu bir manometre açık
+uçlu bir manometre yukarıdan açık hava
+basıncı etki ediyor buradan seviyemi
+çektim buradaki basınçla buradaki basınç
+eşit buradan Gaz basıncı etki ediyor p
+gaz eşittir Bu kırmızı noktanın üstünde
+ne var hdg var Artı Bir de P0 var
+denklem Bu sadece gazın sıcaklığını
+arttırıyoruz niye sadece gaz diye
+özellikle belirtiyoruz civada ısınıyor
+genleşiyor falan o toplara girmemek için
+ya da ne bileyim kapta genleşebilir
+bulunduğu kabın hacmi bu bizim için
+sabit kap büyümüyor küçülmüyor o zaman
+sıcaklığı arttırdığımız basıncı artar
+diyebiliriz buradaki p gaz arttı P0
+zaten sabit bunu değiştirme gücümüz Eğer
+deney ortamını değiştirmiyorsa yok
+civanın öz kütlesi değişmiyor yerçekim
+ivmesi değişmiyor mecburen civanın
+seviyeleri arasındaki fark artacaktır
+yani gaz soldan bastıracak burayı itecek
+civayı sıkıştıramazsın
+yeni hımı bu iki seviye arasındaki şu
+mesafe olacaktır H üssü diyelim buna H
+üssü haan daha büyüktür bu birinci
+öncülü en sona bırakıyorum Çünkü burada
+bazı kafalara takılan şeyler oluyor
+Onları gidermek için en son biri
+konuşacağım ve o Soru işaretlerini de
+gidereceğiz H mesafesi artar Evet şimdi
+söyledim K noktasındaki toplam basınç
+artar K noktası en dipte bir nokta
+toplam basınçtan kastımız Allah ne
+verdiyse işte açık hava basıncı civanın
+basıncı falan filan Şimdi ben bu K
+noktasındaki basıncı iki yerden
+düşünebilirim sağındaki cam borudan
+düşünebilirim solundaki cam borudan
+Dolayısıyla gazdan düşünebilirim biz bu
+arkadaşı sağ taraftan düşünsek şu
+kısımdan ne vardı Bunun üzerinde sağ
+tarafta p P0 vardı artı bir de orada CIA
+yüksekliği var k'ya kadar baktığım için
+komple şu sütunu almam lazım yükseklik
+olarak p CIA var biz bu sistemde gazı
+ısıttığımızda Sağdaki sütun Yukarı çıktı
+P0 değişmedi ama civanın yüksekliği
+arttığı için H dgn hı arttığı için K
+noktasındaki toplam basınç arttı O
+yüzden 3'e de doğru demeliyim Şimdi
+hemen bazılarınızın Aklındaki Soru
+işaretlerini hissedebiliyorum O yüzden
+birinci Öncül geliyorum gazın hacmi
+büyüdüğünden basıncı azalır Hocam siz
+dediniz ki biz burada sıcaklığı
+arttırıyoruz sıcaklığı arttırdığımız
+için basınç artar dediniz ama burada CIA
+seviyesinin aşağı indiğini biliyoruz
+Dolayısıyla buradaki gazın kapladığı
+hacim artıyor aslında v'de bir artış var
+yani pvn RT de tamam bu sabit bu sabit
+sıcaklık arttı ama belki hacim de arttı
+buradaki civanın alçalmasına dolayı
+oluşan hacim artışını niye dikkate
+almıyorsunuz direkt basınç artar diye
+yapıştırdın Şimdi öncelikle zaten
+Şuradaki kabın hacmi ile Şuradaki cam
+Borunun hacmi kıyaslandığında cam
+borular çok ince yapıldığı için bu ihmal
+edilir Dolayısıyla Biz burada gazın
+hacmi dediğimizde şu kabı baz alırız
+kendimize bunda herhangi bir değişiklik
+olmadığı için hacim sabit bittir diye
+düşünebilirim ama öyle olmasa bile az
+önceki deneyi izledik sıcak bir suya
+soktuğumuzda civa seviyeleri arasında
+fark oluştu Yani basıncı arttırmış
+buradaki civa seviyesi aşağı indi hacim
+de artıyor o zaman basıncı artıram
+biliriz demedik ki zaten ben az önce ne
+dedim K noktasındaki toplam basınç
+artacak dedim K noktasındaki toplam
+basınç civa seviyesi azalıp civanın
+basıncı azalmasına rağmen artıyorsa
+Demek ki Gaz basıncı daha çok artmalı
+gazın basıncın arttığından hiçbir
+şüphemiz yok o yüzden birinci öncülü
+doğru kabul edemem Sorumun cevabı 2 ve
+3'tür gençler açık hava basıncının P0
+olduğu bir ortamda Kapalı uçlu
+manometrenin ucuna esneklik direnci
+önemsiz esnek çocuk balonu takılmış ve
+civa şekildeki gibi dengede kalmıştır
+Buna göre açık hava basıncı Gaz basıncı
+ve x gazının basıncı arasındaki ilişkiyi
+yazınız esneklik direnci ihmal edilmiş
+bir balonumu var balon burada böyle
+dengede kalıyorsa O zaman ne yazabiliriz
+önceki dersimizde konuşmuştuk biz bunu
+dışarıdan etki eden açık hava basıncıyla
+içerideki balonun içerisindeki Gaz
+basıncı birbirine eşittir Çünkü eşitlik
+olmasaydı Bu balon ya küçülür dü ya da
+büyür dü böyle kalıyorsa P0 = p gazdır
+peki Peki manometre incelendiğinde x
+gazıyla Bu balon içerisindeki gaz
+arasında nasıl bir ilişki kurabilirim
+Pascal yaparım şuradan seviyemi çekerim
+bu noktadaki basınçla bu noktadaki
+basınç eşittir sağ taraftan x gazı
+bastırıyor sol tarafta şuradan balonun
+içerisindeki gaz bastırıyor E bir de bu
+kadarlık civanın basıncı var yani
+denklemin p gaz + civanın basıncı hdg =
+px p gazı bir şeyle topluyorum pxi elde
+ediyorum demek ki x gazının basıncı
+balonun içerisindeki gazın basıncından
+daha büyükmüş o zaman Sorumun cevabı ne
+olur x büyk balon O da eşittir P0 Şimdi
+size başka bir şey sorayım soruyu
+Hallettik Ama aklıma geldi konuşalım ben
+buradaki balonu Buradan çıkarsam civa
+seviyesinde bir değişiklik olur mu ha
+hocam bu balonu çıkartırsanız civalar
+hemen eşitlenir Hayır eşitlenme atmosfer
+basıncı Neyse Gaz basıncı da o değil mi
+Evet o E o zaman bu burada olmasa ne
+değişir ki yine buradan p gaz yerine bu
+sefer atmosfer basıncı açık hava basıncı
+etki edecek Burada p gaz yerine P0
+yazsam bu denklemde bir şey değişecek mi
+Hayır Bunlar eşit hiçbir şey
+değişmeyecek Dolayısıyla civa seviyesi o
+balon Olmasaydı da korunur Şimdi gelelim
+dersin başında konuşt tuğumuz başka bir
+soruya uçaklar ne kadar yüksekte
+olduğunu nasıl anlıyor bunun için
+Uçaklarda basıncı ölçen bir alet bulunur
+Altimetre deriz buna altimetrenin altisi
+İngilizcedeki yükseklikten geliyor metre
+zaten bir ölçü aleti olduğunu bana
+anlatıyor yükseklik ölçen alet bunun
+basınçla ne ilgisi olabilir ya da hangi
+tür basınçla ilişkisi olabilir e uçak
+havada olduğuna göre etrafında nasıl bir
+basınçla muhatap oluyor Tabii ki açık
+hava basıncıyla atmosfer basıncıyla
+muhatap oluyor ve biz daha önce öğrendik
+ki yeryüzünden uzaklaştıkça Dağlara
+Tepelere çıktıkça yükseldikçe açık hava
+basıncı azalır Çünkü üstümüzdeki
+atmosfer miktarı azalır kütle çekim
+etkisinden dolayı yeryüzünde atmosfer
+daha sıktır yukarı çıktıkça seyrekleşir
+Dolayısıyla uçak yeryüzündeyken pistte
+yken üzerinde yüksek basınç var yüksek
+açık hava basıncı var yukarıya çıktıkça
+alçak hava basıncı var işte içindeki
+sensörler bunu ölçüyorlar Altimetre
+dediğimiz bu Sağdaki arkadaş basınca
+göre değişip o basıncı yüksekliğe
+çevirir Peki bunu nasıl yapar uçağın
+dışında şurada bir sensör var bir giriş
+var açık hava basıncını algılıyor O
+basıncın çokluğuna azlığına göre
+nanometre benzeri bir civa hareketi
+gözlemliyoruz içerideki Bu açık hava
+basıncı miktarı artınca burayı sol
+tarafı sıkıştırıyor bu çarklar ona göre
+hareket edip göstergedeki ibreleri
+hareket ettiriyor basınç azaldığında bu
+tekrar böyle genişliyor basınç etkisi
+azaldığı için çarklar ona göre
+dönüyorlar bu göstergeler de ona göre
+hareket ediyorlar tamamen basıncın
+mekaniğe dönüştürülmüş hali yani
+Altimetre açık hava basıncından Mekanik
+bir hesaplama yapıyor aslında kendince
+ve sana yüksekliği söylüyor tamamen
+sallıyorum deniz seviyesinde açık hava
+basıncı 76 cm civa yukarılara çıktıkça
+bu azalıyor doğrusal bir Azal değil
+tabii ki ama tamamen sallıyorum diyelim
+ki her 1 kilometrede 1 cmlik bir azalma
+var bizim
+barometrenin ölçersin ne yorum yaparsın
+ha Bizim
+barometreli ola o zaman 10 cm 10 kreye
+karşılık gelir Yani biz yeryüzünden
+10.000 metre yukarıdaydı bu bunu uçaklar
+kullanabildiği gibi Dağcılar da
+kullanabiliyorlar kaç metreye
+tırmandığını ölçüyorlar diğer ölçü
+aletimiz basınç ölçen aletimiz batimetre
+Bu da denizin altında kullanılan alet
+batmaktan aklınıza gelsin denizaltılar
+kullanır Dalgıçlar kullanır bunun
+basınçla ne ilgisi var E tabii ki hdg
+ile ilgisi var bu arkadaş da üzerindeki
+sıvı basıncından H hakkında yorum
+yapabiliyor yani derinlik hakkında
+sıvının öz kütlesi belli yer çekim
+ivmesi belliyse basıncı sensörün de
+ölçtüğünde H hakkında yorum yapmış
+oluruz yine günlük hayata bağlayacağım
+bir soru Dalgıçlar Neden belli
+derinliklerde zaman geçirmeden Su
+yüzeyine çıkmazlar Örneğin bu dalış
+rekorları videolarını izlerseniz Hadi
+hoşça kalın Ben gidiyorum deyip böyle
+komple dalmıyor işte 10 metre iniyor
+orada biraz bekliyor bir 10 metre daha
+iniyor orada biraz daha bekliyor çünkü
+vücudunun o dış basınca dış sıvı
+basıncına uyum sağlaması gerekiyor Bu
+yukarı çıkarken daha da uyumlu hale
+geliyor yukarı birden çıkarsak Vurgun
+dediğimiz olay yaşayabiliyoruz 100
+metreye indin 90'a çıkıyorsun orada
+bekliyorsun 80'e çıkıyorsun orada
+bekliyorsun 70'e çıkıyorsun orada
+bekliyorsun vücudunu uyumlu hale
+getiriyorsun dış basınca Çünkü bizim
+kanımızda yanlış hatırlamıyorsam azot
+gazı olması lazım basınç etkisiyle
+çözünmüş durumda sen şimdi 100 metreden
+yukarıya hiç beklemeden çıkarsan
+dışarıdaki sıvı basıncı Çok şiddetli bir
+şekilde azalacağı için bu Kandaki
+çözünmüş azot hızlı bir şekilde gaza
+dönüşür kan damarlarında azot gazı
+dolaşmaya başlar Bu da Vurgun dediğimiz
+dalgıçların ölmesine bile sebebiyet
+verebilecek olaya sebep olur Böylece
+basınç ölçen ölçü aletlerini bitirmiş
+olduk şimdi başka sorularla
+karşınızdayım o sorular için önce bir
+şeyler izleyelim bakın burada bir buz
+kütlemiz var bu buz kütlemizi bir bakır
+tel geçirip İki taraftan tuğlalar asmış
+Dolayısıyla bu buz kütlesine şu an
+tuğlaların ağırlığın dolayı bakır tel
+vasıtasıyla bir basınç uyguluyoruz Hem
+de bayağı bir basınç uyguluyoruz çünkü
+hem tuğlalar ağır hem de bakır tel
+incecik yani kuvvet büyük alan küçük
+basınç devasa yeterince beklerseniz ki
+video % 18800 hızlandırılmış durumda
+buradaki bakır telin yavaş yavaş buz
+kütlesinin içine girdiğini yani o
+basıncın olduğu yerde buzu erittiğini ve
+en sonunda da erite erite düşeceğini
+göreceksiniz bakın git gide tuğlalar
+alçalıyor Çünkü o bakır tel şu an buzun
+içerisine girdi bu tuhaf bir şey değil
+hocam eriyor işte o da aşağıya iniyor
+tuhaf ol olan şey şu tuğlalar bir yere
+düşsün ve Buz kütlesini tekrar
+inceleyelim gördüğünüz gibi iyice
+aşağıya indi ve en sonunda aşağıya düştü
+Buz kütlesi tek parça Buz kütlesi ikiye
+yarılmadı o bakır telin geçtiği yerler
+tekrar donmuş Bu nasıl mümkün burada ne
+yaşandı veya karlı yollarda arabaların
+geçtiği yerlerde neden daha az Kar
+vardır Çünkü basınç hal değişimini
+etkiler basınç buzun erimesini
+kolaylaştırır arabaların geçtiği yerde
+sürekli bir basınç etkisi olduğu için
+oradaki kar buz eriyor ama arabaların
+geçmediği yol kenarlarında o kar duruyor
+kitaplarda daha akademik cümleler
+görürsünüz onu da söylememiz lazım
+basınç buzun erime noktasını düşürür
+gençler Yani normalde sizin buz
+dediğiniz şey 0 celciusa geldiğinde
+eriyorsa -5 celsus da erir sırf üzerine
+bir basınç uygulanıyor diye erime
+noktasını düşürür E hocam bu erimeyi
+kolaylaştırmak ki bu zorlaştırır
+diyebilirsiniz Aslında çelişkili gibi
+dursa da hiçbir çelişki yok mesela şu an
+ortamda kar var ortamda buz var erimiyor
+neden erimiyor Çünkü erimesi için ortam
+sıcaklığının 0 celsus olması lazım ki
+erime noktasına ulaşsın buz Şimdi senin
+havan -5 celsus bu hava sıcaklığı
+ortamdaki buzun Sıcaklığı da Dolayısıyla
+bu o buz erir mi erimez Hava çok soğuk
+Çünkü E ben buzu ısıtamıyorum basınç
+sayesinde 0 celciusa erimesi gereken
+erime noktasını -5 celciusa getiririm
+yani Havayı oraya çıkartamıyorum buzu
+buraya getiririm Hava -5 celus buz -5 de
+eriyebilir hale geldi e buz Eridi basınç
+buzun erimesini kolaylaştırır Çünkü
+basınç buzun erime noktasını düşürür
+çocukken kart topu Oynamışsın ZD kart
+topunu sıktığınızda eliniz ıslanır Yani
+sıktığınız yerler eriyor Aslında
+ıslaklık oradan geliyor Peki bizim
+deneyimiz de ne oldu şimdi kolay
+düşünmek adına bu ortamdaki hava
+sıcaklığını Ben -5 celsus hayal etmek
+istiyorum buradaki Buz kütlesi de 0
+celciusa gelmesi lazım erimesi için
+şimdi hava -5 Dolayısıyla burada
+yeterince beklemiş olan buz da -5
+celciusa bu buz erimez Çünkü sıfıra
+ulaşması lazım ya hava ısınacak ya da
+basınç uygulayacağız İşte buradaki bakır
+tel bulunduğu yere basınç uyguluyor
+bulunduğu yerde erime noktasını
+düşürüyor atıyorum -5 yapıyor hava -5 mi
+Evet buz -5 mi Evet bakır telin
+bulunduğu yerde erime noktası -5 düştü
+mü Evet E o zaman buz erimeye başladı O
+yüzden bu bakır tel erite erite erite
+geliyor ve en sonunda bu tuğlalar yere
+düşüyor şekilde gördüğünüz gibi asıl
+problem E tamam orayı erittik orayı
+kestik neden elimde iki tane buz Parçası
+yok Nasıl yine bu arkadaş tek parça oldu
+orası yine niye dondu Çünkü basınç
+olmazsa o bakır tel orada olmazsa -5
+düşmüş olan erime noktası tekrar s0a
+gelir hava Hala -5 buz hala -5 celsa ve
+buz artık sıfırda eriyebilir sda
+eriyebilen adam - 5'te isse donması
+lazım O yüzden o bakır telin geçtiği her
+yer tekrar donuyor tuğlalar bağımsız
+hale geldiğinde buzdan O yüzden buz hala
+tek parça basınç buzun erime noktasını
+düşürür Şimdi burada hemen bir uyarı
+yapmam gerekiyor buz özel bir duruma
+sahip silisyum gibi germanyum gibi
+bizmut gibi antimon gibi yani Bu
+saydığım maddeler ve buz basınca maruz
+kaldıklarında erime noktalarını
+düşürüyorlar basınç buzun erimesini
+kolaylaştırıyor ama bir demir bir bakır
+bir Kalay böyle maddelerin erime noktası
+basınç sayesi
+yükseliyor gençler günlük hayatta Zaten
+bizmut antimon germanyum falan
+görmediğiniz için basınç buz ilişkisi
+kendine Hastır olarak öğrenebilirsiniz
+geri kalan her şeyde basınç artarsa
+erime noktası yükselir yani atıyorum
+demirin erimesi basınçla zorlaşır Neden
+böyle Çünkü su ve buz ilişkisi kendine
+az Yani bir katının sıvısında yüzdüğü
+çok gördüğümüz bir şey değil buzu suya
+attığımızda katı yüzüyor ama siz sıvı
+demirin içine katı Demir attığınızda
+katı Demir batar buzun öz kütlesi 0.9 gr
+B cm küken suyun öz kütlesi 1'dir katı
+demirin öz kütlesi 7,8 Ken sıvı demiri
+bilmiyorum tamamen sallıyorum ama
+battığı için sıvı Demir daha küçük
+olmalı 7'dir d = n / v'den düşünürsem
+erisek de donsak da madde miktarımız
+aynı kütle değişmez Eğer benim öz kütlem
+arttıysa hacmimi demektir yani ben bu
+buzu erittiğim de hacmi küçülüyor çünkü
+başka türlü 0.9 olan öz kütlesi sıvı
+hale geçtiğinde 1'e çıkamaz hacminin
+küçülmesi lazım E basınç da zaten hacmi
+küçültmeye yönelik bir işlem değil midir
+dışarıdan basınç etki ediyor küçül diye
+zorluyor seni e zaten bu adam erirken
+küçülmeye çalışıyor yardımcı oluyor yani
+basınç O yüzden basınç buzun erimesini
+kolaylaştırıyor ama diğer maddeler Bunun
+tam tersi katı demirin öz kütlesi 7.8
+sıvı demiri 7 sıvı demiri salladım ama
+daha küçük yani katı Demir erirken sıvı
+hale geçerken Öz kütlesinin azalması
+lazım kütle sabit olduğuna göre hacminin
+artması lazım yani katı Demir
+erittiğiniz de hacmi büyüyor E sen ona
+basınç uyguluyorsun adam büyümeye
+çalışıyor Sen diyorsun ki hayır
+büyümeyecek basınç demirin erimesini
+zorlaştırır ya da akademik olarak
+söylersek basınç demirin Er noktasını
+yükseltir bu farkları bilmeniz lazım
+tekrar buza geri dönersek yaz ayı
+olmasına rağmen erges dağının
+tepelerinde neden kar var niye tepelerde
+oluyor bu Everest niye sürekli Karlı
+Yazın da çıkıyorlar kışın da çıkıyorlar
+hep kar var everest'te Çünkü burası çok
+yüksek çok yüksek olduğu için açık hava
+basıncı az Basınç azsa erime zorlaşır O
+yüzden buradaki kar erimiyor O yüzden
+dağlar tepeler Everest sürekli karlılar
+Şimdi gelelim kaynamaya düdüklü
+tencereler normal tencerelere göre
+yemekleri çok daha kısa sürede
+pişiriyorlar bunun sebebi ne düdüklü
+tencerenin normal bir tencereden farkı
+ne Tabii ki basınç tamamen kapalı bir
+sistem şurada bir valfi var bir düdük
+kısmı var oradan kontrollü bir şekilde
+gaz çıkışı yapabilir ama Orayı da
+kapatırsan içeride kaynattığını hep
+İçeride kalır Bu da dışarıdan etki eden
+basıncın sürekli artması demek yani su
+ısındıkça buharlaşma devam ettikçe buhar
+içeride kaldığı için sıvının üzerindeki
+basınç sürekli artıyor Ee hocam Ne olmuş
+basınç artıyorsa basınç artarsa kaynama
+zorlaşır Bu da çok soru
+çözdürebilirim zorlaştırır peki bunun
+yemeği daha kısa sürede pişirme le Ne
+ilgisi var bakın sizinle ısı ve sıcaklık
+işledik Eğer bir madde hal
+değiştiriyorsa sıcaklığını
+değiştiremezsiniz Normal bir su Hayal
+edelim düdüklü tencereyi unutun
+ısıtırsın ısıtırsın ısıtırsın 100
+celciusa geldiğinde kaynamaya başlar
+deniz seviyesinde siniz Bundan sonra ne
+kadar Isı enerjisi verirsen ver buradaki
+su tamamen bitene kadar o su hep 100
+celsus Adır sıcaklığı değişmez Çünkü hal
+değiştiriyor Çünkü kaynıyor E bu suyun
+içerisinde senin bir yemeğin varsa bu
+bir yemekse şu an Senin yemeğin 100 cusa
+pişiyor demektir daha fazla
+arttıramıyorum
+düdüklü tencereye koyduğun zaman düdüklü
+tenceredeki dış basınç sürekli artacağı
+için içerideki buhar bir yere kaçamadı
+için kaynama zorlaşır Yani sen bunu
+alttan yaktın tencereyi ısıtıyorsun 90
+celsus oldu kaynama yok 95 oldu kaynama
+yok 100 oldu kaynama yine yok çünkü
+kaynamayı zorlaştırdı basınç 105 oldu
+kaynama yok işte atıyorum 120 oldu
+kaynama başlıyor ha buradan sonra
+değişmese bile artık Bizim yemeğimiz 120
+celsus da pişiyor bu basınç olayları
+olmasaydı yani düdüklü tencere olmasaydı
+yemeğim 100 celsus da pişiyo şimdi 120
+celsius da pişiyor daha yüksek
+sıcaklıkta pişiyorsa Tabii ki daha çabuk
+pişer basınç suyun kaynamasını
+zorlaştırır akademik dille ifade edersek
+basınç suyun kaynama noktasını yükseltir
+100'lük adamı 120 yapar Peki niye
+zorlaştırıyor hocam anladık basınç var
+ama niye zorlaştırıyor kaynama dediğiniz
+şey şurada oluşan gaz kabarcıklarının
+yükselip burada patlaması olayı değil mi
+böyle fokur fokur kaynama dediğimiz şey
+budur içeride gaz kabarcıkları oluşuyor
+ve suyun dışına çıkıyor bu gaz
+kabarcığının oluşabilmesi lazım sen
+Alttan Bunu ısıttığın da bunu bir balon
+gibi düşün sıcaklığını arttırıyordu
+git gide büyüyor hacmi artıyor Ama sen
+dışarıdan etki eden basıncı arttırırsan
+bu sıvı bu basıncı Pascal yüzünden aynen
+bu baloncuğa aktarırsak bu balonun
+dışındaki basınç artmış olur dıştan
+gelen basıncı yenmek için içteki gazın
+basıncını daha da arttırmanız daha da
+çok sıcaklığını
+arttırmanın yeteri kadar büyüyebilmesi
+için artık 100 derecelik sıcaklık yetmez
+Çünkü şunu da yenmel isin artık yeterli
+hacme ulaşmak için 120'ye çıkarman
+gerekir Yani aslında kaynama dediğimiz
+olayda buradaki baloncuğun iç basıncı
+sıvının dışındaki o buharda dış basıncı
+da yenmeye çalışıyor bu arkadaş arttıkça
+mecburen bunun iç basıncını da
+arttırmalıyız mecburen sıcaklığını da
+arttırmalıyız basınç kaynamayı
+zorlaştırıyorsa basıncın azlığı da
+kaynamayı kolaylaştırır deniz
+seviyesinde belli bir açık hava basıncı
+var 100 celsa kaynıyor O zaman ben
+Dağlara Tepelere çıksam açık hava
+basıncı azalsa sıvıyı daha küçük
+sıcaklıklarda yüzden küçük sıcaklıklarda
+kaynat yabilir miyim Aynen öyle hatta
+uzaya çıksanız atmosfer basıncı
+kalmayacağı için su anında Kaynar ve
+buharlaşır Çünkü dışarıdan etki eden bu
+dış basınç Yoksa bu baloncuğun
+içerisindeki basınç kimle mücadele
+edecek kimseyle Şuradaki sıvının kendi
+basıncını ihmal edersem çok düşük
+sıcaklıklarda bile kaynama olayını
+görürsünüz everest'te gençler ki kendisi
+yaklaşık 8 km 9 km yukarıdadır suyu 70
+celsa
+seviyesinde 100 olduğunu biliyoruz deniz
+seviyesinden aşağıya inersek mesela Lut
+Gölü dediğimiz İsrail taraflarında bir
+göl olması lazım Ölü Deniz diye de
+bilinir deniz seviyesinden 400 metre
+daha aşağıda suyun kaynama sıcaklığı
+101.4 cur Deniz seviyesin aşağı inersen
+açık hava basıncı artar Bunun da bir
+videosunu izleyelim açık hava basıncında
+da benzer bir deney ortamı konuşmuştuk
+burada bir vakum makinesi var buradaki
+motor Şuradaki açık hava basıncını
+alabiliyor bir fanus koyduğumuzda Şu an
+bir çay bardağında suyumuz var ve
+yaklaşık 18 celsus derece sıcaklığa
+sahip termometre bunu gösteriyor veriyor
+bu 18 celsius luk suyu kaynatabiliriz
+Normalde 100'e çıkartmamız lazım ama
+etrafındaki basıncı değiştirirsek bu
+mümkündür bakın motoru çalıştırdık bu
+fanusun içerisindeki havayı vakumluyor
+yani burada açık hava basıncından çok
+daha küçük bir basınç ortamı
+oluşturuyoruz ve suyu ısıtmadığı halde
+ona bir enerji vermediğimiz halde sırf
+etrafındaki bu kaynamayı zorlaştıran
+basıncı azalttığımızda
+Çünkü etrafındaki basınç çok azaldı ve
+şu an fokur fokur kaynadı görüyorsunuz
+şu an bu suyun sıcaklığı hala 18 derece
+yani kaynayan suyla yüzünüzü yıkasan
+kendinize gelirsiniz o kadar soğuk su şu
+an bu su şu an kaynıyor motoru durdurup
+tekrar vanayı açarsak açık hava basıncı
+içeriye girerse anında kaynama durur
+Çünkü o devasa açık hava basıncı tekrar
+geldi artık tekrar 100 Derece
+çıkartmamız gerekecek mecburen kaynama
+durdu suyu ölçüyoruz acaba 100 müymüş
+Çünkü o kadar da kaynadı bakıyoruz
+kaçmış hala 18 civarlarında Hatta daha
+da azalmış neden azaldığını suyu
+kaynatarak dondurabilir miyiz diye bir
+şort çekmiştim on onu da orada
+anlatmıştım oradan dinleyebilirsiniz bu
+dersimiz bu kadardı takıldıkları alta
+yazın Kendinize iyi bakın
 [Müzik]
+görüşürüz

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T17:36:48.633Z",
+  "generatedAt": "2026-10-04T18:11:09.301Z",
   "totalVideos": 174,
-  "uniqueUrls": 140,
+  "uniqueUrls": 141,
   "noUrlCount": 0,
   "statusDistribution": {
     "active": 174
@@ -291,7 +291,7 @@
   "missingProvenance": [],
   "changedUrlVsTranscriptMismatchesCount": 0,
   "changedUrlVsTranscriptMismatches": [],
-  "duplicateUrlGroupsCount": 28,
+  "duplicateUrlGroupsCount": 27,
   "duplicateUrlGroups": [
     {
       "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
@@ -584,29 +584,6 @@
           "courseId": "course_cog_9",
           "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
           "title": "Coğrafya Biliminin Gelişimi",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=dkwbOGhBedc",
-      "count": 2,
-      "courses": [
-        "course_fiz_9"
-      ],
-      "items": [
-        {
-          "id": "item_fiz9_vid_basinc_prensipleri",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
-          "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
-          "status": "active"
-        },
-        {
-          "id": "item_fiz9_vid_topic_11_sivilarda_basinc",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
-          "title": "Sıvılarda Basınç ve Pascal Prensibi",
           "status": "active"
         }
       ]
