@@ -73,18 +73,17 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_topic_01_theme_1_school_life",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "39ba575b8dc72e1b",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-      "transcriptFingerprint": "1489500cad43bc6a",
+      "transcriptFingerprint": "d09c15e7d5bb7440",
       "sharedSource": false
     }
   }

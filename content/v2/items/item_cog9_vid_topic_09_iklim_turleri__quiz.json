@@ -73,17 +73,16 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_09_iklim_turleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
-      "transcriptFingerprint": "ad176ff63339b48f",
+      "transcriptFingerprint": "10c6cbc6a0858d4c",
       "sharedSource": false
     }
   }

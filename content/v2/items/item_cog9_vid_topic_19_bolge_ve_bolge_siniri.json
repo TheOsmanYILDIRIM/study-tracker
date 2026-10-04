@@ -7,7 +7,7 @@
   "displayLabel": "19.1",
   "orderKey": 1000,
   "title": "Bölge ve Bölge Sınırı",
-  "contentUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+  "contentUrl": "https://www.youtube.com/watch?v=BM78gvglAmY",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -27,17 +27,19 @@
       "videoCandidateTitle": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
       "fingerprint": "029f782d0a0fef1b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BM78gvglAmY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.tr.vtt",
-      "transcriptFingerprint": "eb386b00a00bd43e",
-      "reviewedOverride": true
+      "transcriptFingerprint": "f777b352479c908d",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍BÖLGELER VE BÖLGE SINIRLARI 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-17 📌2025",
+    "teacher": "Yunus Hoca"
   }
 }

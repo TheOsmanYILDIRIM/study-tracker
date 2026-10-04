@@ -7,7 +7,7 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Enzimler",
-  "contentUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+  "contentUrl": "https://www.youtube.com/watch?v=ajDCR1wpbd8",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -34,14 +34,15 @@
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
       "fingerprint": "b81fd384694d74b2",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ajDCR1wpbd8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.tr.vtt",
-      "transcriptFingerprint": "a7e85c308adb2be2",
-      "sharedSource": true,
-      "sharedSourceReason": "Enzimlerin yapısı, özellikleri, apoenzim/kofaktör ve çalışma mekanizması ortak video kapsamı"
-    }
+      "transcriptFingerprint": "9f62d9b85fd9dc23",
+      "sharedSource": false
+    },
+    "verifiedLectureTitle": "Enzimler ve Vitaminler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+    "teacher": "Dr. Biyoloji"
   }
 }

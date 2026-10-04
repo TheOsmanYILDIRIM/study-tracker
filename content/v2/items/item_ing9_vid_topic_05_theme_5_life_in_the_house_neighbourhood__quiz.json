@@ -78,13 +78,13 @@
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "21443c37545038f8",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.txt",
-      "transcriptFingerprint": "4516bfc1905be33c"
+      "transcriptFingerprint": "4516bfc1905be33c",
+      "sharedSource": false
     }
   }
 }

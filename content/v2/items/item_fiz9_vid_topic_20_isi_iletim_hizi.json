@@ -28,14 +28,15 @@
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "provider": "Özcan Aykın FİZİK",
-      "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
       "transcriptFingerprint": "7e71f18b7d18be73",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 6 | Enerji İletim Yolları ve Hızı | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026"
   }
 }

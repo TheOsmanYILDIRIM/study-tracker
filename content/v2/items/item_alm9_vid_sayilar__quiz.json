@@ -73,20 +73,19 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_sayilar",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e10726e05dc42bb1",
+      "transcriptFingerprint": "77476562da3de3f0",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "1608730a8eba11f9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+      "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen), iyelik ekleri ve telefon numarası sorma ortak video kapsamı"
     }
   }
 }

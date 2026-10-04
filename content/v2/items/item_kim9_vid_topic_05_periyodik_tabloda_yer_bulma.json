@@ -7,7 +7,7 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Periyodik Tabloda Yer Bulma",
-  "contentUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+  "contentUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -26,12 +26,15 @@
       "videoCandidateTitle": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
       "fingerprint": "db25c4aef3dc9ef6",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.tr.vtt",
-      "transcriptFingerprint": "9013d1eb8739b56a"
-    }
+      "transcriptFingerprint": "b23349d26eab573c",
+      "sharedSource": false
+    },
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

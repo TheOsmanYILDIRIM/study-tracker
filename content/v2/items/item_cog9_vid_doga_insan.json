@@ -7,10 +7,10 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
-  "contentUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+  "contentUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L14",
       "sourceSection": "1. Hafta: Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
@@ -24,19 +24,21 @@
       "sourceTheme": "COĞRAFYANIN DOĞASI",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt",
-      "transcriptFingerprint": "9c4e775068919daa",
-      "reviewedOverride": true
+      "transcriptFingerprint": "0c6e85086a92e44e",
+      "sharedSource": true,
+      "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Coğrafya Biliminin Konusu ve Bölümleri",
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025"
   }
 }

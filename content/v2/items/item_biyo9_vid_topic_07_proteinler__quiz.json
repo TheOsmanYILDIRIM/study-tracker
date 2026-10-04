@@ -71,18 +71,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_07_proteinler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "b5ebaf2a8faa15c2",
+      "transcriptFingerprint": "675d081c0dd994e4",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "d0fc312247472b2a",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
+      "sharedSource": false
     }
   }
 }

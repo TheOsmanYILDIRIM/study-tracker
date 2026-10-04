@@ -7,7 +7,7 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Atom Modelleri: Dalton, Thomson, Rutherford ve Bohr",
-  "contentUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+  "contentUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -24,14 +24,17 @@
       "sourceTheme": "ETKİLEŞİM",
       "videoSearchScore": 7.31,
       "videoCandidateTitle": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.tr.vtt",
-      "transcriptFingerprint": "7cd92b2c6669ff39"
+      "transcriptFingerprint": "b659947d11299cce",
+      "sharedSource": false
     },
     "provider": "Meschemy Kimya",
-    "topic": "Atom Teorileri ve Atomun Yapısı"
+    "topic": "Atom Teorileri ve Atomun Yapısı",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (4.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-1 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

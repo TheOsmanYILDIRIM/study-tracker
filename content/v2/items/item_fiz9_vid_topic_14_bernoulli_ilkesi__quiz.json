@@ -78,13 +78,13 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "43abd2ae90baa9b9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
-      "transcriptFingerprint": "dfc3976b956014b2"
+      "transcriptFingerprint": "dfc3976b956014b2",
+      "sharedSource": false
     }
   }
 }

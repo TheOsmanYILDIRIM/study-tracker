@@ -71,19 +71,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
-      "transcriptFingerprint": "514291f0451e6158",
+      "transcriptFingerprint": "0c6e85086a92e44e",
       "sharedSource": true,
-      "sharedSourceReason": "Coğrafya biliminin konusu, bölümleri, tarihsel gelişimi ve niçin coğrafya öğrenmeliyiz ünitesi ortak video kapsamı"
+      "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
     }
   }
 }

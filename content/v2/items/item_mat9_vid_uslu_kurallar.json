@@ -7,7 +7,7 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Üslü İfadelerin Sadeleştirilmesi ve Çarpma",
-  "contentUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+  "contentUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
   "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
@@ -17,14 +17,17 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "09e4ff23f901f518",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
-      "transcriptFingerprint": "b7b70dc9fcea4c1f",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "7ad1bdf53900ef9e",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt",
+      "sharedSource": false
+    },
+    "verifiedLectureTitle": "Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026",
+    "teacher": "Deniz Mehmet Hoca"
   }
 }

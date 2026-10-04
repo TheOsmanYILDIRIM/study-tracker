@@ -78,13 +78,13 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "f5fefbd91d9090a4",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
-      "transcriptFingerprint": "cc010a06705ebd53"
+      "transcriptFingerprint": "cc010a06705ebd53",
+      "sharedSource": false
     }
   }
 }

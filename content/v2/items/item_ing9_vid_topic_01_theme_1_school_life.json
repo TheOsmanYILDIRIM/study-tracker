@@ -7,10 +7,10 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Theme 1: School Life",
-  "contentUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+  "contentUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Sercanİgrek - English Teacher",
+    "provider": "Ms. Jasmin ELT",
     "topic": "Theme 1: School Life",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,16 +30,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "e551f0c91aaeacf3",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
-      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-      "transcriptFingerprint": "1489500cad43bc6a",
+      "transcriptFingerprint": "d09c15e7d5bb7440",
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.tr.vtt",
       "sharedSource": false
     },
-    "teacher": "Sercan İgrek",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 1. ÜNİTE KONU ANLATIMI 2026 | MAARİF MODELİ"
+    "teacher": "Ms. Jasmin ELT",
+    "verifiedLectureTitle": "9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ"
   }
 }

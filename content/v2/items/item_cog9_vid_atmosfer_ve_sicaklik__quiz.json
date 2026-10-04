@@ -73,17 +73,17 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_atmosfer_ve_sicaklik",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
-      "transcriptFingerprint": "be1bf7a149551eba"
+      "transcriptFingerprint": "17a16739d25baf01",
+      "sharedSource": false
     }
   }
 }

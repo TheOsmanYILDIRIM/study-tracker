@@ -23,7 +23,7 @@
       "sourceTopic": [
         "Bilimsel Araştırma Süreçleri, Bilim Etiği"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
       "fingerprint": "8fd84a825fd772f3",
@@ -33,7 +33,11 @@
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
       "transcriptFingerprint": "768ae0dbf1fd24f0",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt"
-    }
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Bilimsel yöntem basamakları, bilimsel bilgi ve bilim etiği ortak video kapsamı"
+    },
+    "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+    "teacher": "Dr. Biyoloji"
   }
 }

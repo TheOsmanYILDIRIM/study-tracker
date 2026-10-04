@@ -78,13 +78,14 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "72f966a8c36b4183",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
-      "transcriptFingerprint": "7e71f18b7d18be73"
+      "transcriptFingerprint": "7e71f18b7d18be73",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
     }
   }
 }

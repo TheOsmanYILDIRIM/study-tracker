@@ -73,18 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "824b461629b0644f",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
-      "transcriptFingerprint": "9013d1eb8739b56a"
+      "transcriptFingerprint": "b23349d26eab573c",
+      "sharedSource": false
     }
   }
 }

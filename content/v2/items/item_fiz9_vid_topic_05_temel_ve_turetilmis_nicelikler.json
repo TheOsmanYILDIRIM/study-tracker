@@ -28,14 +28,14 @@
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
       "provider": "Özcan Aykın FİZİK",
-      "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
       "transcriptFingerprint": "532569ac8750adbf",
-      "sharedSource": true,
-      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
-    }
+      "sharedSource": false
+    },
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027",
+    "teacher": "Özcan Aykın"
   }
 }

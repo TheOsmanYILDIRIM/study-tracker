@@ -78,7 +78,6 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "c139f9e9b9c710ea",
@@ -86,7 +85,7 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
       "transcriptFingerprint": "c16d306cf7d143df",
       "sharedSource": true,
-      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve taşma kapları ortak video kapsamı"
     }
   }
 }

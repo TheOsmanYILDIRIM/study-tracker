@@ -73,20 +73,19 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_05_schulsachen",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "3639e1470a7f8837",
+      "transcriptFingerprint": "4873f0b68870247c",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "b15181819e68ce1b",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+      "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (belirli/belirsiz) ortak video kapsamı"
     }
   }
 }

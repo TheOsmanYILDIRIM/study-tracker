@@ -71,18 +71,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_atom_modelleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "7cd92b2c6669ff39",
+      "transcriptFingerprint": "b659947d11299cce",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "259d1109bbe7ea86",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
+      "sharedSource": false
     }
   }
 }

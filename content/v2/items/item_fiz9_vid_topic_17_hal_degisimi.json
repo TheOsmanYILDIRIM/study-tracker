@@ -7,10 +7,10 @@
   "displayLabel": "17.1",
   "orderKey": 1000,
   "title": "Hâl Değişimi",
-  "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+  "contentUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Fizikfinito",
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Hâl Değişimi",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,14 +27,16 @@
       "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
       "fingerprint": "bf529ca0f714752e",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.tr.vtt",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "7b5efa17e7707b0f",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
-    }
+      "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
+    },
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
+    "teacher": "Özcan Aykın"
   }
 }

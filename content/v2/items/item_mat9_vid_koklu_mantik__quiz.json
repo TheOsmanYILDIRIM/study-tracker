@@ -73,18 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_koklu_mantik",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "c81aea17231c58a8",
+      "transcriptFingerprint": "2e72a0053c8c617a",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "16a83e193d801d7d",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
+      "sharedSource": false
     }
   }
 }

@@ -78,13 +78,13 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "ea9c84aa2105e929",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
-      "transcriptFingerprint": "cc0fc06a47315a01"
+      "transcriptFingerprint": "8bf4d425deea8561",
+      "sharedSource": false
     }
   }
 }

@@ -34,14 +34,14 @@
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
       "provider": "Özcan Aykın FİZİK",
-      "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
       "transcriptFingerprint": "c183fc7df5a93569",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt",
+      "sharedSource": false
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026"
   }
 }

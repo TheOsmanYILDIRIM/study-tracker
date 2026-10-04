@@ -73,20 +73,19 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_hal_degisimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "2d7a053d4edfd176",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "7b5efa17e7707b0f",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+      "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
     }
   }
 }

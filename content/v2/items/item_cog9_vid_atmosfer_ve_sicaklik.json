@@ -7,10 +7,10 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
-  "contentUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
+  "contentUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L60",
       "sourceSection": "Atmosfer ve Sıcaklık",
@@ -18,19 +18,19 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "db6d6a33b24d6013",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
-      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
-      "transcriptFingerprint": "be1bf7a149551eba"
+      "transcriptFingerprint": "17a16739d25baf01",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
       "provider": "Coğrafyanın Kodları"
     },
     "provider": "Coğrafyanın Kodları",
-    "verifiedLectureTitle": "Atmosferin Katmanları ve Özellikleri Konu Anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 3"
+    "verifiedLectureTitle": "🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025"
   }
 }

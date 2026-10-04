@@ -7,7 +7,7 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
-  "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+  "contentUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -26,14 +26,16 @@
       "videoCandidateTitle": null,
       "fingerprint": "50d646c2d6e8f6e7",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
-      "transcriptFingerprint": "ed0db4f712979546",
+      "transcriptFingerprint": "778b7580546d5c3d",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
-    }
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
+    },
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

@@ -73,18 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_uslu_kurallar",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "b7b70dc9fcea4c1f",
+      "transcriptFingerprint": "7ad1bdf53900ef9e",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "da78d859892e45a7",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
+      "sharedSource": false
     }
   }
 }

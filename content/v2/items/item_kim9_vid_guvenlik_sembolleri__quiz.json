@@ -71,20 +71,19 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_guvenlik_sembolleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "39997150af41c60e",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
-      "transcriptFingerprint": "ed0db4f712979546",
+      "transcriptFingerprint": "778b7580546d5c3d",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
     }
   }
 }

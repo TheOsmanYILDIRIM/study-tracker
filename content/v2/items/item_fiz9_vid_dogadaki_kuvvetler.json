@@ -19,15 +19,15 @@
       "fingerprint": "09cb02d72bd03694",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=VwxSW7Rmr2U",
       "provider": "Özcan Aykın FİZİK",
-      "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.tr.vtt",
-      "transcriptFingerprint": "cc010a06705ebd53"
+      "transcriptFingerprint": "cc010a06705ebd53",
+      "sharedSource": false
     },
     "provider": "Özcan Aykın FİZİK",
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 8. Gün | Kuvvet - 1 | Temel Kuvvetler ve Bileşke Kuvvet | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026"
   }
 }

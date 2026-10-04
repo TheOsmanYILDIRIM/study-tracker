@@ -78,13 +78,13 @@
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "903dbc164a3d967c",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
-      "transcriptFingerprint": "c183fc7df5a93569"
+      "transcriptFingerprint": "c183fc7df5a93569",
+      "sharedSource": false
     }
   }
 }

@@ -7,10 +7,10 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "AlmancaKolay",
+    "teacher": "Tonguç Akademi",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L30",
       "sourceSection": "2. Hafta: Kendini Tanıtma ve Hal-Hatır",
@@ -18,16 +18,16 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "ff41a131eaf524d1",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
+      "transcriptFingerprint": "291af06c74478754",
       "sharedSource": false
     },
-    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "verifiedLectureTitle": "9. Sınıf Almanca ： Begrüben Und Verabschieden ｜ Selamlaşma ve Vedalaşma"
   }
 }

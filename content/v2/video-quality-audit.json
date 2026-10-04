@@ -1,34 +1,31 @@
 {
-  "generatedAt": "2026-10-04T09:51:16.398Z",
+  "generatedAt": "2026-10-04T19:22:58.154Z",
   "totalVideos": 174,
-  "uniqueUrls": 147,
+  "uniqueUrls": 146,
   "noUrlCount": 0,
   "statusDistribution": {
     "active": 174
   },
   "providerDistribution": {
-    "Almanca Kolay (Erhan Özdemir)": 1,
-    "Meltem Hoca ile Almanca": 12,
+    "tonguç 9. SINIF": 10,
+    "Meltem Hoca ile Almanca": 5,
     "tonguch ACADEMY": 1,
-    "Easy German": 1,
-    "tonguç 9. SINIF": 1,
-    "Khan Academy": 4,
-    "Dr. Biyoloji": 13,
-    "Dr.Biyoloji": 2,
-    "unassigned": 7,
+    "Dr. Biyoloji": 17,
+    "Khan Academy": 1,
+    "Dr.Biyoloji": 1,
+    "unassigned": 6,
     "Coğrafyanın Kodları": 19,
-    "Özcan Aykın FİZİK": 20,
-    "Fizikfinito": 2,
-    "Özer Kiraz": 5,
-    "Sercanİgrek - English Teacher": 1,
-    "MEB / İngilizce TV": 4,
-    "Meschemy Kimya": 17,
-    "Kimya Adası": 3,
+    "Özcan Aykın FİZİK": 22,
+    "Ms. Jasmin ELT": 5,
+    "Özer Kiraz": 4,
+    "MEB / İngilizce TV": 1,
+    "Meschemy Kimya": 18,
+    "Kimya Adası": 2,
     "Kimyanın Kimyası": 1,
     "Rehber Matematik": 27,
     "Benim Hocam": 13,
     "Ardıç Tarih": 4,
-    "Deniz Hoca": 10,
+    "Deniz Hoca": 11,
     "Rüştü Hoca ile Türkçe": 2,
     "MEB / Edebiyat TV": 1,
     "MEB Maarif Modeli": 3
@@ -282,9 +279,9 @@
     }
   },
   "transcriptCoverage": {
-    "hasTranscriptPathCount": 170,
-    "hasTranscriptFingerprintCount": 170,
-    "missingTranscriptCount": 4,
+    "hasTranscriptPathCount": 173,
+    "hasTranscriptFingerprintCount": 173,
+    "missingTranscriptCount": 1,
     "manifestSummary": {
       "fetched": 0,
       "reused": 170,
@@ -297,68 +294,8 @@
   "missingProvenance": [],
   "changedUrlVsTranscriptMismatchesCount": 0,
   "changedUrlVsTranscriptMismatches": [],
-  "duplicateUrlGroupsCount": 24,
+  "duplicateUrlGroupsCount": 26,
   "duplicateUrlGroups": [
-    {
-      "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
-      "count": 3,
-      "courses": [
-        "course_cog_9"
-      ],
-      "items": [
-        {
-          "id": "item_cog9_vid_afet_yonetimi",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
-          "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
-          "title": "Tehlike, Risk ve Afet",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
-          "title": "Bütüncül Afet Yönetimi",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
-      "count": 3,
-      "courses": [
-        "course_cog_9"
-      ],
-      "items": [
-        {
-          "id": "item_cog9_vid_tarihsel_gelisim",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_dogal_sistemler",
-          "title": "Coğrafya Biliminin Tarihsel Gelişimi",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
-          "title": "Niçin Coğrafya Öğrenmeliyiz?",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
-          "title": "Coğrafya Biliminin Gelişimi",
-          "status": "active"
-        }
-      ]
-    },
     {
       "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
       "count": 3,
@@ -390,7 +327,37 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "url": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
+      "count": 3,
+      "courses": [
+        "course_kim_9"
+      ],
+      "items": [
+        {
+          "id": "item_kim9_vid_topic_09_kovalent_bag",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_09_kovalent_bag",
+          "title": "Kovalent Bağ",
+          "status": "active"
+        },
+        {
+          "id": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_10_lewis_nokta_yapisi",
+          "title": "Lewis Nokta Yapısı",
+          "status": "active"
+        },
+        {
+          "id": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_11_molekul_polarligi_ve_apolarligi",
+          "title": "Molekül Polarlığı ve Apolarlığı",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "count": 2,
       "courses": [
         "course_alm_9"
@@ -413,7 +380,7 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "url": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "count": 2,
       "courses": [
         "course_alm_9"
@@ -436,24 +403,139 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "url": "https://www.youtube.com/watch?v=V0SzzIeniHc",
       "count": 2,
       "courses": [
         "course_biyo_9"
       ],
       "items": [
         {
-          "id": "item_biyo9_vid_enzimler_nukleik",
+          "id": "item_biyo9_vid_bilim_nedir",
           "courseId": "course_biyo_9",
-          "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
-          "title": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
+          "lessonId": "lesson_biyo9_yasam",
+          "title": "Bilim Nedir ve Nasıl Çalışır? (Bilimsel Yöntem)",
           "status": "active"
         },
         {
-          "id": "item_biyo9_vid_topic_08_enzimler",
+          "id": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
           "courseId": "course_biyo_9",
-          "lessonId": "lesson_biyo9_topic_08_enzimler",
-          "title": "Enzimler",
+          "lessonId": "lesson_biyo9_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+          "title": "Bilimsel Araştırma Süreçleri ve Bilim Etiği",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
+      "count": 2,
+      "courses": [
+        "course_biyo_9"
+      ],
+      "items": [
+        {
+          "id": "item_biyo9_vid_siniflandirma",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_siniflandirma_ve_biyocesitlilik",
+          "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
+          "status": "active"
+        },
+        {
+          "id": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
+          "title": "Üç Üst Âlem Sistemi ve Canlı Grupları",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+      "count": 2,
+      "courses": [
+        "course_biyo_9"
+      ],
+      "items": [
+        {
+          "id": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_topic_03_canlilarin_ortak_ozellikleri",
+          "title": "Canlıların Ortak Özellikleri",
+          "status": "active"
+        },
+        {
+          "id": "item_biyo9_vid_yasam_nedir",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_yasam",
+          "title": "Biyolojiye Giriş: Yaşam Nedir?",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "count": 2,
+      "courses": [
+        "course_cog_9"
+      ],
+      "items": [
+        {
+          "id": "item_cog9_vid_afet_yonetimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+          "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
+          "status": "active"
+        },
+        {
+          "id": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+          "title": "Bütüncül Afet Yönetimi",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
+      "count": 2,
+      "courses": [
+        "course_cog_9"
+      ],
+      "items": [
+        {
+          "id": "item_cog9_vid_doga_insan",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_dogal_sistemler",
+          "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
+          "status": "active"
+        },
+        {
+          "id": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+          "title": "Niçin Coğrafya Öğrenmeliyiz?",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "count": 2,
+      "courses": [
+        "course_cog_9"
+      ],
+      "items": [
+        {
+          "id": "item_cog9_vid_tarihsel_gelisim",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_dogal_sistemler",
+          "title": "Coğrafya Biliminin Tarihsel Gelişimi",
+          "status": "active"
+        },
+        {
+          "id": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+          "title": "Coğrafya Biliminin Gelişimi",
           "status": "active"
         }
       ]
@@ -482,7 +564,7 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "url": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "count": 2,
       "courses": [
         "course_fiz_9"
@@ -500,29 +582,6 @@
           "courseId": "course_fiz_9",
           "lessonId": "lesson_fiz9_topic_17_hal_degisimi",
           "title": "Hâl Değişimi",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
-      "count": 2,
-      "courses": [
-        "course_fiz_9"
-      ],
-      "items": [
-        {
-          "id": "item_fiz9_vid_isi_sicaklik_kavram",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
-          "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
-          "status": "active"
-        },
-        {
-          "id": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
-          "title": "Isı, Öz Isı ve Isı Sığası",
           "status": "active"
         }
       ]
@@ -574,30 +633,30 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "url": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "count": 2,
       "courses": [
-        "course_kim_9"
+        "course_fiz_9"
       ],
       "items": [
         {
-          "id": "item_kim9_vid_bag_turleri",
-          "courseId": "course_kim_9",
-          "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
-          "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+          "id": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_19_isi_aktarim_yollari",
+          "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
           "status": "active"
         },
         {
-          "id": "item_kim9_vid_topic_08_iyonik_bag",
-          "courseId": "course_kim_9",
-          "lessonId": "lesson_kim9_topic_08_iyonik_bag",
-          "title": "İyonik Bağ",
+          "id": "item_fiz9_vid_topic_20_isi_iletim_hizi",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_20_isi_iletim_hizi",
+          "title": "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık",
           "status": "active"
         }
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "url": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "count": 2,
       "courses": [
         "course_kim_9"
@@ -799,29 +858,6 @@
           "courseId": "course_tar_9",
           "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
           "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
-      "count": 2,
-      "courses": [
-        "course_tde_9"
-      ],
-      "items": [
-        {
-          "id": "item_tde9_vid_hikaye_turleri",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
-          "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
-          "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
           "status": "active"
         }
       ]

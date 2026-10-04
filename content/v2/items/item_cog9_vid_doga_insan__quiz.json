@@ -73,17 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_doga_insan",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
-      "transcriptFingerprint": "9c4e775068919daa"
+      "transcriptFingerprint": "0c6e85086a92e44e",
+      "sharedSource": true,
+      "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
     }
   }
 }

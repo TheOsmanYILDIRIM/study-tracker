@@ -73,20 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_isi_sicaklik_kavram",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "4c983e045c0c9690",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
-      "transcriptFingerprint": "55aad1981b5f804a",
-      "sharedSource": true,
-      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+      "transcriptFingerprint": "08114d47d9da0317",
+      "sharedSource": false
     }
   }
 }

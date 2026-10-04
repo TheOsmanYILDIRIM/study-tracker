@@ -26,7 +26,7 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Üslü Sayılara Giriş (1. Seviye)",
-              "contentUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+              "contentUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
@@ -36,15 +36,18 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "verified",
                   "fingerprint": "893ed24a871bd143",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
-                  "transcriptFingerprint": "ec31c704e8e95f10",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "9c84b59e9e92006a",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -120,18 +123,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_uslu_giris",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "ec31c704e8e95f10",
+                  "transcriptFingerprint": "9c84b59e9e92006a",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "cbe036026bfc4d77",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -142,7 +145,7 @@
               "displayLabel": "1.2",
               "orderKey": 2000,
               "title": "Üslü İfadelerin Sadeleştirilmesi ve Çarpma",
-              "contentUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+              "contentUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
@@ -152,15 +155,18 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "verified",
                   "fingerprint": "09e4ff23f901f518",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
-                  "transcriptFingerprint": "b7b70dc9fcea4c1f",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "7ad1bdf53900ef9e",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -236,18 +242,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_uslu_kurallar",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "b7b70dc9fcea4c1f",
+                  "transcriptFingerprint": "7ad1bdf53900ef9e",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "da78d859892e45a7",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -258,7 +264,7 @@
               "displayLabel": "1.3",
               "orderKey": 3000,
               "title": "Üslü Sayılarda Bölme İşlemi ve Özellikleri",
-              "contentUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
+              "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
@@ -268,15 +274,18 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "verified",
                   "fingerprint": "ed3787346eb0861d",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
-                  "transcriptFingerprint": "72a42480cb471e64",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "71eb5b21eb0dd86f",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -354,18 +363,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_uslu_bolme",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "72a42480cb471e64",
+                  "transcriptFingerprint": "71eb5b21eb0dd86f",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "a8378a6503065942",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -376,7 +385,7 @@
               "displayLabel": "1.4",
               "orderKey": 4000,
               "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
-              "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+              "contentUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
@@ -386,15 +395,18 @@
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "verified",
                   "fingerprint": "6cb73c7f5932687a",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
-                  "transcriptFingerprint": "71eb5b21eb0dd86f",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "0b107726bc4d9e40",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -470,18 +482,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_uslu_negatif",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "71eb5b21eb0dd86f",
+                  "transcriptFingerprint": "0b107726bc4d9e40",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "4eff4213c774e67f",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -492,7 +504,7 @@
               "displayLabel": "1.5",
               "orderKey": 5000,
               "title": "Köklü Sayılar ve Üslü Sayılar Arasındaki İlişki",
-              "contentUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+              "contentUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
@@ -502,15 +514,18 @@
                   "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "verified",
                   "fingerprint": "156d7b115046cade",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
-                  "transcriptFingerprint": "c81aea17231c58a8",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "2e72a0053c8c617a",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -586,18 +601,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_koklu_mantik",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "c81aea17231c58a8",
+                  "transcriptFingerprint": "2e72a0053c8c617a",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "16a83e193d801d7d",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -1162,7 +1177,7 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Doğal, Tam, Rasyonel ve Gerçek Sayı Kümeleri",
-              "contentUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+              "contentUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -1178,15 +1193,18 @@
                   "sourceTheme": "SAYILAR",
                   "videoSearchScore": 10.4,
                   "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.tr.vtt",
-                  "transcriptFingerprint": "426e959c263c3dbc"
+                  "transcriptFingerprint": "48147c27b7e23e05",
+                  "sharedSource": false
                 },
                 "provider": "Rehber Matematik",
-                "topic": "Sayı Kümeleri ve İşlem Özellikleri"
+                "topic": "Sayı Kümeleri ve İşlem Özellikleri",
+                "verifiedLectureTitle": "Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026",
+                "teacher": "Deniz Mehmet Hoca"
               }
             },
             {
@@ -1260,18 +1278,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_mat9_vid_sayi_kumeleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "426e959c263c3dbc",
+                  "transcriptFingerprint": "48147c27b7e23e05",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "29d46fd5d4e85862",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -4380,7 +4398,6 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
@@ -4388,7 +4405,9 @@
                   "transcriptFingerprint": "950a6c9a5591fd65",
                   "sharedSource": true,
                   "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
-                }
+                },
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -4469,7 +4488,6 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "25c3ba6d60fe69d9",
@@ -4508,7 +4526,6 @@
                   "fingerprint": "f643ca89c63459fd",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt",
@@ -4517,7 +4534,9 @@
                   "sharedSource": true,
                   "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
                 },
-                "provider": "Özcan Aykın FİZİK"
+                "provider": "Özcan Aykın FİZİK",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -4598,7 +4617,6 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "b916c46013661cb2",
@@ -4777,7 +4795,9 @@
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt",
                   "sharedSource": true,
                   "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
-                }
+                },
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -4859,7 +4879,6 @@
                   "transcriptFingerprint": "950a6c9a5591fd65",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "8250ab955eea87c1",
@@ -5002,15 +5021,15 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
                   "transcriptFingerprint": "532569ac8750adbf",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
-                }
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -5091,15 +5110,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "2ae5cb8b6bdc2de1",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
                   "transcriptFingerprint": "532569ac8750adbf",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
+                  "sharedSource": false
                 }
               }
             }
@@ -5487,16 +5504,16 @@
                   "fingerprint": "09cb02d72bd03694",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=VwxSW7Rmr2U",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.tr.vtt",
-                  "transcriptFingerprint": "cc010a06705ebd53"
+                  "transcriptFingerprint": "cc010a06705ebd53",
+                  "sharedSource": false
                 },
                 "provider": "Özcan Aykın FİZİK",
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 8. Gün | Kuvvet - 1 | Temel Kuvvetler ve Bileşke Kuvvet | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026"
               }
             },
             {
@@ -5577,13 +5594,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "f5fefbd91d9090a4",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
-                  "transcriptFingerprint": "cc010a06705ebd53"
+                  "transcriptFingerprint": "cc010a06705ebd53",
+                  "sharedSource": false
                 }
               }
             }
@@ -5768,15 +5785,15 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
                   "transcriptFingerprint": "c183fc7df5a93569",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt",
+                  "sharedSource": false
                 },
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026"
               }
             },
             {
@@ -5857,13 +5874,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "903dbc164a3d967c",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
-                  "transcriptFingerprint": "c183fc7df5a93569"
+                  "transcriptFingerprint": "c183fc7df5a93569",
+                  "sharedSource": false
                 }
               }
             }
@@ -6157,18 +6174,17 @@
                   "fingerprint": "f597e4070d0f7987",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
                   "transcriptFingerprint": "c16d306cf7d143df",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.tr.vtt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve taşma kapları ortak video kapsamı"
                 },
                 "provider": "Özcan Aykın FİZİK",
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026"
               }
             },
             {
@@ -6249,7 +6265,6 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c139f9e9b9c710ea",
@@ -6257,7 +6272,7 @@
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
                   "transcriptFingerprint": "c16d306cf7d143df",
                   "sharedSource": true,
-                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve taşma kapları ortak video kapsamı"
                 }
               }
             },
@@ -6394,17 +6409,16 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt",
                   "transcriptFingerprint": "c16d306cf7d143df",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.tr.vtt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve taşma kapları ortak video kapsamı"
                 },
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026"
               }
             },
             {
@@ -6485,7 +6499,6 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c12bbfbdabea7466",
@@ -6493,7 +6506,7 @@
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt",
                   "transcriptFingerprint": "c16d306cf7d143df",
                   "sharedSource": true,
-                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+                  "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve taşma kapları ortak video kapsamı"
                 }
               }
             }
@@ -6534,15 +6547,15 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1Q3CtzfV1lQ",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
                   "transcriptFingerprint": "dfc3976b956014b2",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt",
+                  "sharedSource": false
                 },
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 33. Gün | Basınç - 8 | Akışkanların Basıncı | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026"
               }
             },
             {
@@ -6623,13 +6636,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "43abd2ae90baa9b9",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
-                  "transcriptFingerprint": "dfc3976b956014b2"
+                  "transcriptFingerprint": "dfc3976b956014b2",
+                  "sharedSource": false
                 }
               }
             }
@@ -6648,7 +6661,7 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
-              "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+              "contentUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -6658,18 +6671,18 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "e546c866395ea3a9",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
-                  "transcriptFingerprint": "55aad1981b5f804a",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+                  "transcriptFingerprint": "08114d47d9da0317",
+                  "sharedSource": false
                 },
-                "provider": "Özcan Aykın FİZİK"
+                "provider": "Özcan Aykın FİZİK",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -6745,20 +6758,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_fiz9_vid_isi_sicaklik_kavram",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "4c983e045c0c9690",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
-                  "transcriptFingerprint": "55aad1981b5f804a",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+                  "transcriptFingerprint": "08114d47d9da0317",
+                  "sharedSource": false
                 }
               }
             },
@@ -6769,7 +6780,7 @@
               "displayLabel": "4.2",
               "orderKey": 2000,
               "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
-              "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+              "contentUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -6779,18 +6790,19 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "026003d46f482694",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
-                  "transcriptFingerprint": "751b67c63da7e410",
+                  "transcriptFingerprint": "7b5efa17e7707b0f",
                   "sharedSource": true,
-                  "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+                  "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
                 },
-                "provider": "Özcan Aykın FİZİK"
+                "provider": "Özcan Aykın FİZİK",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -6866,20 +6878,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_fiz9_vid_hal_degisimi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "2d7a053d4edfd176",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
-                  "transcriptFingerprint": "751b67c63da7e410",
+                  "transcriptFingerprint": "7b5efa17e7707b0f",
                   "sharedSource": true,
-                  "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+                  "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
                 }
               }
             },
@@ -6994,10 +7005,10 @@
               "displayLabel": "16.1",
               "orderKey": 1000,
               "title": "Isı, Öz Isı ve Isı Sığası",
-              "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+              "contentUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Fizikfinito",
+                "provider": "Özcan Aykın FİZİK",
                 "topic": "Isı, Öz Isı ve Isı Sığası",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -7014,15 +7025,16 @@
                   "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
                   "fingerprint": "f7e19b86593dad2b",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.tr.vtt",
-                  "transcriptFingerprint": "55aad1981b5f804a",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
-                }
+                  "transcriptFingerprint": "d0c4d5929312bf50",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -7096,20 +7108,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "55aad1981b5f804a",
+                  "transcriptFingerprint": "d0c4d5929312bf50",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "fca64f24445587a5",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+                  "sharedSource": false
                 }
               }
             }
@@ -7128,10 +7138,10 @@
               "displayLabel": "17.1",
               "orderKey": 1000,
               "title": "Hâl Değişimi",
-              "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+              "contentUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Fizikfinito",
+                "provider": "Özcan Aykın FİZİK",
                 "topic": "Hâl Değişimi",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -7148,15 +7158,17 @@
                   "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
                   "fingerprint": "bf529ca0f714752e",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.tr.vtt",
-                  "transcriptFingerprint": "751b67c63da7e410",
+                  "transcriptFingerprint": "7b5efa17e7707b0f",
                   "sharedSource": true,
-                  "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
-                }
+                  "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
+                "teacher": "Özcan Aykın"
               }
             },
             {
@@ -7232,20 +7244,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_fiz9_vid_topic_17_hal_degisimi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "751b67c63da7e410",
+                  "transcriptFingerprint": "7b5efa17e7707b0f",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "847eb54a0a7a7eaf",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+                  "sharedSourceReason": "Hâl değişimi ve ısı-sıcaklık ilişkileri ortak video kapsamı"
                 }
               }
             }
@@ -7285,15 +7296,15 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=2-aHeYUXvCI",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
-                  "transcriptFingerprint": "cc0fc06a47315a01",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt"
+                  "transcriptFingerprint": "8bf4d425deea8561",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt",
+                  "sharedSource": false
                 },
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 5 | Isıl Denge | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026"
               }
             },
             {
@@ -7374,13 +7385,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "ea9c84aa2105e929",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
-                  "transcriptFingerprint": "cc0fc06a47315a01"
+                  "transcriptFingerprint": "8bf4d425deea8561",
+                  "sharedSource": false
                 }
               }
             }
@@ -7399,7 +7410,7 @@
               "displayLabel": "19.1",
               "orderKey": 1000,
               "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
-              "contentUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+              "contentUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
@@ -7419,17 +7430,18 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "a356dd6da629eec6",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
-                  "transcriptFingerprint": "8306abb2ef86d11e",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.tr.vtt"
+                  "transcriptFingerprint": "7e71f18b7d18be73",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
                 },
-                "teacher": "Altuğ Güneş FİZİK",
-                "verifiedLectureTitle": "9. Sınıf Yeni Fizik - Enerji 6. Adım /  Isı İletim Yolları"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026"
               }
             },
             {
@@ -7505,18 +7517,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "8c6da4c1ddd2885a",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
-                  "transcriptFingerprint": "8306abb2ef86d11e"
+                  "transcriptFingerprint": "7e71f18b7d18be73",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
                 }
               }
             }
@@ -7556,15 +7569,16 @@
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
                   "provider": "Özcan Aykın FİZİK",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
                   "transcriptFingerprint": "7e71f18b7d18be73",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
                 },
-                "teacher": "Özcan Aykın FİZİK",
-                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 6 | Enerji İletim Yolları ve Hızı | 2026"
+                "teacher": "Özcan Aykın",
+                "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026"
               }
             },
             {
@@ -7645,13 +7659,14 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T20:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "72f966a8c36b4183",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
-                  "transcriptFingerprint": "7e71f18b7d18be73"
+                  "transcriptFingerprint": "7e71f18b7d18be73",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve enerji iletim hızı/yalıtım ortak video kapsamı"
                 }
               }
             }
@@ -7680,7 +7695,7 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Kimya Bilimi, Günlük Hayat ve Alt Disiplinleri",
-              "contentUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+              "contentUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -7696,15 +7711,18 @@
                   "sourceTheme": "ETKİLEŞİM",
                   "videoSearchScore": 7.8,
                   "videoCandidateTitle": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.tr.vtt",
-                  "transcriptFingerprint": "e17c0606ddfc4fc4"
+                  "transcriptFingerprint": "77f90b471fd6a210",
+                  "sharedSource": false
                 },
                 "provider": "Meschemy Kimya",
-                "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer"
+                "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer",
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -7780,18 +7798,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_kimya_bilimi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "e17c0606ddfc4fc4",
+                  "transcriptFingerprint": "77f90b471fd6a210",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "aed4463d5bcd6994",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -7802,7 +7820,7 @@
               "displayLabel": "1.2",
               "orderKey": 2000,
               "title": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
-              "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+              "contentUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -7812,16 +7830,18 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "9083b0011b7c547a",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
-                  "transcriptFingerprint": "ed0db4f712979546",
+                  "transcriptFingerprint": "778b7580546d5c3d",
                   "sharedSource": true,
-                  "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+                  "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
                 },
-                "provider": "Meschemy Kimya"
+                "provider": "Meschemy Kimya",
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -7895,20 +7915,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_guvenlik_sembolleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "39997150af41c60e",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
-                  "transcriptFingerprint": "ed0db4f712979546",
+                  "transcriptFingerprint": "778b7580546d5c3d",
                   "sharedSource": true,
-                  "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+                  "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
                 }
               }
             },
@@ -8023,7 +8042,7 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
-              "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+              "contentUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -8042,15 +8061,17 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "50d646c2d6e8f6e7",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
-                  "transcriptFingerprint": "ed0db4f712979546",
+                  "transcriptFingerprint": "778b7580546d5c3d",
                   "sharedSource": true,
-                  "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
-                }
+                  "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -8124,20 +8145,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c7bf0a4466575520",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
-                  "transcriptFingerprint": "ed0db4f712979546",
+                  "transcriptFingerprint": "778b7580546d5c3d",
                   "sharedSource": true,
-                  "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+                  "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları, uyarı piktogramları ve kimyasal madde kullanımı ortak video kapsamı"
                 }
               }
             }
@@ -8156,7 +8176,7 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Atom Modelleri: Dalton, Thomson, Rutherford ve Bohr",
-              "contentUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+              "contentUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -8173,15 +8193,18 @@
                   "sourceTheme": "ETKİLEŞİM",
                   "videoSearchScore": 7.31,
                   "videoCandidateTitle": "Atom Modelleri ve Atomun Yapısı + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-4",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.tr.vtt",
-                  "transcriptFingerprint": "7cd92b2c6669ff39"
+                  "transcriptFingerprint": "b659947d11299cce",
+                  "sharedSource": false
                 },
                 "provider": "Meschemy Kimya",
-                "topic": "Atom Teorileri ve Atomun Yapısı"
+                "topic": "Atom Teorileri ve Atomun Yapısı",
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (4.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-1 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -8255,18 +8278,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_atom_modelleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vi02jMBOkgg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=w4hn63SL3y4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "7cd92b2c6669ff39",
+                  "transcriptFingerprint": "b659947d11299cce",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "259d1109bbe7ea86",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_atom_modelleri.tr.txt",
+                  "sharedSource": false
                 }
               }
             },
@@ -8631,7 +8654,7 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Periyodik Tabloda Yer Bulma",
-              "contentUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+              "contentUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -8650,13 +8673,16 @@
                   "videoCandidateTitle": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
                   "fingerprint": "db25c4aef3dc9ef6",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.tr.vtt",
-                  "transcriptFingerprint": "9013d1eb8739b56a"
-                }
+                  "transcriptFingerprint": "b23349d26eab573c",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -8732,18 +8758,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GpeYdemF6yI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "824b461629b0644f",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
-                  "transcriptFingerprint": "9013d1eb8739b56a"
+                  "transcriptFingerprint": "b23349d26eab573c",
+                  "sharedSource": false
                 }
               }
             }
@@ -8897,10 +8923,10 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Metalik Bağ",
-              "contentUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+              "contentUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Kimya Adası",
+                "provider": "Meschemy Kimya",
                 "topic": "Metalik Bağ",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -8911,18 +8937,21 @@
                   "sourceTopic": [
                     "Etkileşimler • Metalik Bağ"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "93a0fad38719f363",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.tr.vtt",
-                  "transcriptFingerprint": "bef8bd6ebb81bf54"
-                }
+                  "transcriptFingerprint": "0c98e80add399a03",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -8996,18 +9025,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_07_metalik_bag",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "22603c5f85f551fa",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
-                  "transcriptFingerprint": "bef8bd6ebb81bf54"
+                  "transcriptFingerprint": "0c98e80add399a03",
+                  "sharedSource": false
                 }
               }
             }
@@ -9026,7 +9055,7 @@
               "displayLabel": "8.1",
               "orderKey": 1000,
               "title": "İyonik Bağ",
-              "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+              "contentUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -9046,15 +9075,16 @@
                   "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
                   "fingerprint": "671459f1d63c868d",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt",
-                  "transcriptFingerprint": "e0e330ee30a12087",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
-                }
+                  "transcriptFingerprint": "400d99b7f84618d4",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -9128,20 +9158,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_08_iyonik_bag",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "e0e330ee30a12087",
+                  "transcriptFingerprint": "400d99b7f84618d4",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "8e2a97a4d99988f4",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+                  "sharedSource": false
                 }
               }
             }
@@ -9160,7 +9188,7 @@
               "displayLabel": "9.1",
               "orderKey": 1000,
               "title": "Kovalent Bağ",
-              "contentUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+              "contentUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -9180,13 +9208,17 @@
                   "videoCandidateTitle": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
                   "fingerprint": "48b1354f19def983",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.tr.vtt",
-                  "transcriptFingerprint": "895c0a3f6faf371f"
-                }
+                  "transcriptFingerprint": "56e3469e4cdbd423",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -9260,18 +9292,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_09_kovalent_bag",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "895c0a3f6faf371f",
+                  "transcriptFingerprint": "56e3469e4cdbd423",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "ace38b2c09957f1c",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
                 }
               }
             }
@@ -9290,7 +9323,7 @@
               "displayLabel": "10.1",
               "orderKey": 1000,
               "title": "Lewis Nokta Yapısı",
-              "contentUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+              "contentUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -9309,13 +9342,17 @@
                   "videoCandidateTitle": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
                   "fingerprint": "7d9108520d029e77",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.tr.vtt",
-                  "transcriptFingerprint": "1aac0c26e1ac566f"
-                }
+                  "transcriptFingerprint": "56e3469e4cdbd423",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -9389,18 +9426,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "5b1a65bc9ad021b8",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
-                  "transcriptFingerprint": "1aac0c26e1ac566f"
+                  "transcriptFingerprint": "56e3469e4cdbd423",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
                 }
               }
             }
@@ -9419,7 +9457,7 @@
               "displayLabel": "11.1",
               "orderKey": 1000,
               "title": "Molekül Polarlığı ve Apolarlığı",
-              "contentUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+              "contentUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Meschemy Kimya",
@@ -9433,18 +9471,22 @@
                   "sourceTopic": [
                     "Molekül Polarlığı ve Apolarlığı"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "bd63b99923a6aa21",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.tr.vtt",
-                  "transcriptFingerprint": "744af4c1e15053fc"
-                }
+                  "transcriptFingerprint": "56e3469e4cdbd423",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -9518,18 +9560,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "bb5071a414158e16",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
-                  "transcriptFingerprint": "744af4c1e15053fc"
+                  "transcriptFingerprint": "56e3469e4cdbd423",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kovalent bağ, Lewis nokta yapısı ve molekül polarlığı/apolarlığı konu anlatımı ortak video kapsamı"
                 }
               }
             }
@@ -9679,7 +9722,7 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
-              "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+              "contentUrl": "https://www.youtube.com/watch?v=t9ejokTLCpg",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -9689,16 +9732,17 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "b3ac44607a0489ab",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=t9ejokTLCpg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "e0e330ee30a12087",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+                  "transcriptFingerprint": "b9507ec0fb2844fc",
+                  "sharedSource": false
                 },
-                "provider": "Meschemy Kimya"
+                "provider": "Meschemy Kimya",
+                "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️",
+                "teacher": "Meschemy Kimya"
               }
             },
             {
@@ -9772,20 +9816,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_kim9_vid_bag_turleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=t9ejokTLCpg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "9a28fc5cf450e49f",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
-                  "transcriptFingerprint": "e0e330ee30a12087",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+                  "transcriptFingerprint": "b9507ec0fb2844fc",
+                  "sharedSource": false
                 }
               }
             },
@@ -10760,18 +10802,28 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Biyolojiye Giriş: Yaşam Nedir?",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/introduction-to-biology",
+              "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L14",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "d2c241ae0e658169"
-                }
+                  "fingerprint": "d2c241ae0e658169",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.tr.vtt",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptFingerprint": "9bd99c4d1169ae77",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Canlıların karakteristik ortak özellikleri ve yaşam kavramı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -10781,18 +10833,28 @@
               "displayLabel": "1.2",
               "orderKey": 2000,
               "title": "Bilim Nedir ve Nasıl Çalışır? (Bilimsel Yöntem)",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/the-scientific-method",
+              "contentUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L15",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "a7fe85134f094b5e"
-                }
+                  "fingerprint": "a7fe85134f094b5e",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.tr.vtt",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptFingerprint": "768ae0dbf1fd24f0",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Bilimsel yöntem basamakları, bilimsel bilgi ve bilim etiği ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -10802,18 +10864,27 @@
               "displayLabel": "1.3",
               "orderKey": 3000,
               "title": "Kontrollü Deney Örnekleri",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/controlled-experiments",
+              "contentUrl": "https://www.youtube.com/watch?v=TS-O93Ztv20",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L16",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "f2d122a451808fa3"
-                }
+                  "fingerprint": "f2d122a451808fa3",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=TS-O93Ztv20",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.tr.vtt",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptFingerprint": "023b046d2d4e28b1",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -10964,7 +11035,7 @@
                   "sourceTopic": [
                     "Bilimsel Araştırma Süreçleri, Bilim Etiği"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 10.4,
                   "videoCandidateTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
                   "fingerprint": "8fd84a825fd772f3",
@@ -10974,8 +11045,12 @@
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
                   "transcriptFingerprint": "768ae0dbf1fd24f0",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt"
-                }
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Bilimsel yöntem basamakları, bilimsel bilgi ve bilim etiği ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11055,12 +11130,13 @@
                   "transcriptFingerprint": "768ae0dbf1fd24f0",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "bf3841a298c47101",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Bilimsel yöntem basamakları, bilimsel bilgi ve bilim etiği ortak video kapsamı"
                 }
               }
             }
@@ -11079,7 +11155,7 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Canlıların Ortak Özellikleri",
-              "contentUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+              "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11095,7 +11171,7 @@
                   "sourceTopic": [
                     "Canlıların Ortak Özellikleri (Hücresel Yapı, Organizasyon • Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma • Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon)"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 15.2,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
                   "fingerprint": "a1dd1ac7352aab25",
@@ -11103,10 +11179,14 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
-                  "transcriptFingerprint": "0243614dcf9148b2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "9bd99c4d1169ae77",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Canlıların karakteristik ortak özellikleri ve yaşam kavramı ortak video kapsamı"
+                },
+                "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11180,18 +11260,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "0243614dcf9148b2",
+                  "transcriptFingerprint": "9bd99c4d1169ae77",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c8e647a78c164d52",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Canlıların karakteristik ortak özellikleri ve yaşam kavramı ortak video kapsamı"
                 }
               }
             }
@@ -11210,7 +11291,7 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "İnorganik Moleküller",
-              "contentUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+              "contentUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11230,13 +11311,16 @@
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
                   "fingerprint": "7902a9df4e886d4d",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.tr.vtt",
-                  "transcriptFingerprint": "95b1175967d50ac1"
-                }
+                  "transcriptFingerprint": "5f6e01288bbcc893",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11312,18 +11396,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "95b1175967d50ac1",
+                  "transcriptFingerprint": "5f6e01288bbcc893",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "cf4952b309d58212",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -11342,7 +11426,7 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Karbonhidratlar",
-              "contentUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+              "contentUrl": "https://www.youtube.com/watch?v=MgsF9_Yi6es",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11364,7 +11448,7 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 12. Ders: Organik Bileşikler - Karbohidratlar - 1",
                   "fingerprint": "8963e341905f3f05",
@@ -11372,10 +11456,13 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt",
-                  "transcriptFingerprint": "aa74139f85af8015",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "dcac0fe33a583987",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MgsF9_Yi6es",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11451,18 +11538,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_05_karbonhidratlar",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MgsF9_Yi6es",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "aa74139f85af8015",
+                  "transcriptFingerprint": "dcac0fe33a583987",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "7d16397f9cd214f0",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -11481,7 +11568,7 @@
               "displayLabel": "6.1",
               "orderKey": 1000,
               "title": "Lipitler",
-              "contentUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+              "contentUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11503,7 +11590,7 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
                   "fingerprint": "898f8f9ae6d9a165",
@@ -11511,10 +11598,13 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
-                  "transcriptFingerprint": "a30bd103306267d1",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "fd7f37c2762d3caa",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11590,18 +11680,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_06_lipitler",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "a30bd103306267d1",
+                  "transcriptFingerprint": "fd7f37c2762d3caa",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "de5063c410e69323",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -11620,7 +11710,7 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Proteinler",
-              "contentUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+              "contentUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11642,7 +11732,7 @@
                   "sourceTopic": [
                     "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
                   "fingerprint": "d1f521ced150fa0f",
@@ -11650,10 +11740,13 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
-                  "transcriptFingerprint": "b5ebaf2a8faa15c2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt"
-                }
+                  "transcriptFingerprint": "675d081c0dd994e4",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11727,18 +11820,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_07_proteinler",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "b5ebaf2a8faa15c2",
+                  "transcriptFingerprint": "675d081c0dd994e4",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "d0fc312247472b2a",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -11757,7 +11850,7 @@
               "displayLabel": "8.1",
               "orderKey": 1000,
               "title": "Enzimler",
-              "contentUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+              "contentUrl": "https://www.youtube.com/watch?v=ajDCR1wpbd8",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11784,15 +11877,16 @@
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
                   "fingerprint": "b81fd384694d74b2",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ajDCR1wpbd8",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.tr.vtt",
-                  "transcriptFingerprint": "a7e85c308adb2be2",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Enzimlerin yapısı, özellikleri, apoenzim/kofaktör ve çalışma mekanizması ortak video kapsamı"
-                }
+                  "transcriptFingerprint": "9f62d9b85fd9dc23",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Enzimler ve Vitaminler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -11866,20 +11960,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_08_enzimler",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ajDCR1wpbd8",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "a7e85c308adb2be2",
+                  "transcriptFingerprint": "9f62d9b85fd9dc23",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "7295c1a96daa26f5",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Enzimlerin yapısı, özellikleri, apoenzim/kofaktör ve çalışma mekanizması ortak video kapsamı"
+                  "sharedSource": false
                 }
               }
             }
@@ -11898,7 +11990,7 @@
               "displayLabel": "9.1",
               "orderKey": 1000,
               "title": "Nükleik Asitler",
-              "contentUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+              "contentUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -11925,13 +12017,16 @@
                   "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
                   "fingerprint": "2b6a942450399aef",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.tr.vtt",
-                  "transcriptFingerprint": "22d93c8cd6749c93"
-                }
+                  "transcriptFingerprint": "5f8d25eb48c666f2",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Nükleik Asitler DNA ve RNA ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -12005,18 +12100,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_09_nukleik_asitler",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "22d93c8cd6749c93",
+                  "transcriptFingerprint": "5f8d25eb48c666f2",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "ef6174d521f70434",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -12035,7 +12130,7 @@
               "displayLabel": "10.1",
               "orderKey": 1000,
               "title": "Vitaminler",
-              "contentUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+              "contentUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Dr. Biyoloji",
@@ -12062,13 +12157,16 @@
                   "videoCandidateTitle": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
                   "fingerprint": "8b13c3e9e5c6d261",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.tr.vtt",
-                  "transcriptFingerprint": "17ad44db420bf034"
-                }
+                  "transcriptFingerprint": "227878e3a67df0d9",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+                "teacher": "Dr. Biyoloji"
               }
             },
             {
@@ -12142,18 +12240,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_biyo9_vid_topic_10_vitaminler",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "17ad44db420bf034",
+                  "transcriptFingerprint": "227878e3a67df0d9",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "fa7285e632081545",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -12770,7 +12868,7 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
-              "contentUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
+              "contentUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -12780,17 +12878,17 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "6442c0e6c046456f",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
-                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.txt",
-                  "transcriptFingerprint": "199ea93e924fce60",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt"
+                  "transcriptFingerprint": "6873891d0cfca012",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt",
+                  "sharedSource": false
                 },
-                "provider": "Dr.Biyoloji",
-                "teacher": "Dr.Biyoloji",
-                "verifiedLectureTitle": "Sınıflandırmaya Giriş | 9. Sınıf Maarif Model | Dr. Biyoloji"
+                "provider": "Dr. Biyoloji",
+                "teacher": "Dr. Biyoloji",
+                "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
               }
             },
             {
@@ -15612,10 +15710,10 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
-              "contentUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+              "contentUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "Coğrafyanın Kodları",
+                "teacher": "Yunus Hoca",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L14",
                   "sourceSection": "1. Hafta: Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
@@ -15629,20 +15727,22 @@
                   "sourceTheme": "COĞRAFYANIN DOĞASI",
                   "videoSearchScore": 10.4,
                   "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt",
-                  "transcriptFingerprint": "9c4e775068919daa",
-                  "reviewedOverride": true
+                  "transcriptFingerprint": "0c6e85086a92e44e",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
                 },
                 "provider": "Coğrafyanın Kodları",
                 "topic": "Coğrafya Biliminin Konusu ve Bölümleri",
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
                   "provider": "Coğrafyanın Kodları"
-                }
+                },
+                "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025"
               }
             },
             {
@@ -15718,17 +15818,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_doga_insan",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
-                  "transcriptFingerprint": "9c4e775068919daa"
+                  "transcriptFingerprint": "0c6e85086a92e44e",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
                 }
               }
             },
@@ -16107,7 +16208,7 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Niçin Coğrafya Öğrenmeliyiz?",
-              "contentUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+              "contentUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Coğrafyanın Kodları",
@@ -16126,20 +16227,21 @@
                   "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
                   "fingerprint": "0dd5e53a8665206f",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.tr.vtt",
-                  "transcriptFingerprint": "514291f0451e6158",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "0c6e85086a92e44e",
                   "sharedSource": true,
-                  "sharedSourceReason": "Coğrafya biliminin konusu, bölümleri, tarihsel gelişimi ve niçin coğrafya öğrenmeliyiz ünitesi ortak video kapsamı"
+                  "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
                   "provider": "Coğrafyanın Kodları"
-                }
+                },
+                "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
+                "teacher": "Yunus Hoca"
               }
             },
             {
@@ -16213,19 +16315,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
-                  "transcriptFingerprint": "514291f0451e6158",
+                  "transcriptFingerprint": "0c6e85086a92e44e",
                   "sharedSource": true,
-                  "sharedSourceReason": "Coğrafya biliminin konusu, bölümleri, tarihsel gelişimi ve niçin coğrafya öğrenmeliyiz ünitesi ortak video kapsamı"
+                  "sharedSourceReason": "Doğa ve insan etkileşimi, doğal ortamlar ve coğrafya öğreniminin gerekçeleri ortak video kapsamı"
                 }
               }
             }
@@ -16519,7 +16620,7 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Türkiye'nin Coğrafi Konumu",
-              "contentUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+              "contentUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Coğrafyanın Kodları",
@@ -16538,18 +16639,20 @@
                   "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
                   "fingerprint": "eb36fc978686bf81",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.tr.vtt",
-                  "transcriptFingerprint": "b0e60d4115d77a24",
-                  "reviewedOverride": true
+                  "transcriptFingerprint": "d7b559546eedccae",
+                  "sharedSource": false
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
                   "provider": "Coğrafyanın Kodları"
-                }
+                },
+                "verifiedLectureTitle": "🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025",
+                "teacher": "Yunus Hoca"
               }
             },
             {
@@ -16623,18 +16726,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "b0e60d4115d77a24",
+                  "transcriptFingerprint": "d7b559546eedccae",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T18:30:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "8867c088917f0d07",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -16924,10 +17027,10 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
-              "contentUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
+              "contentUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "Coğrafyanın Kodları",
+                "teacher": "Yunus Hoca",
                 "provenance": {
                   "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L60",
                   "sourceSection": "Atmosfer ve Sıcaklık",
@@ -16935,20 +17038,20 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "db6d6a33b24d6013",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
-                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
-                  "transcriptFingerprint": "be1bf7a149551eba"
+                  "transcriptFingerprint": "17a16739d25baf01",
+                  "sharedSource": false
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
                   "provider": "Coğrafyanın Kodları"
                 },
                 "provider": "Coğrafyanın Kodları",
-                "verifiedLectureTitle": "Atmosferin Katmanları ve Özellikleri Konu Anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 3"
+                "verifiedLectureTitle": "🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025"
               }
             },
             {
@@ -17024,17 +17127,17 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_atmosfer_ve_sicaklik",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
-                  "transcriptFingerprint": "be1bf7a149551eba"
+                  "transcriptFingerprint": "17a16739d25baf01",
+                  "sharedSource": false
                 }
               }
             },
@@ -17272,7 +17375,7 @@
               "displayLabel": "9.1",
               "orderKey": 1000,
               "title": "İklim Türleri",
-              "contentUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+              "contentUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Coğrafyanın Kodları",
@@ -17292,13 +17395,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "0992da6f9c2eb1ae",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
-                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "ad176ff63339b48f",
+                  "transcriptFingerprint": "10c6cbc6a0858d4c",
                   "sharedSource": false
                 },
                 "video": {
@@ -17306,7 +17408,7 @@
                   "provider": "Coğrafyanın Kodları"
                 },
                 "teacher": "Yunus Hoca",
-                "verifiedLectureTitle": "İklim tipleri konu anlatımı 📕 3.ünite 🔴 9.sınıf coğrafya | 2025"
+                "verifiedLectureTitle": "🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025"
               }
             },
             {
@@ -17382,17 +17484,16 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_topic_09_iklim_turleri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
-                  "transcriptFingerprint": "ad176ff63339b48f",
+                  "transcriptFingerprint": "10c6cbc6a0858d4c",
                   "sharedSource": false
                 }
               }
@@ -18238,7 +18339,7 @@
               "displayLabel": "16.1",
               "orderKey": 1000,
               "title": "Tehlike, Risk ve Afet",
-              "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+              "contentUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Coğrafyanın Kodları",
@@ -18257,20 +18358,20 @@
                   "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "22d4ef6a3284441f",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.tr.vtt",
-                  "transcriptFingerprint": "a9429fca5308feaa",
-                  "reviewedOverride": true,
-                  "sharedSource": true,
-                  "sharedSourceReason": "Doğal afet türleri, tehlike ve risk analizi ile bütüncül afet yönetimi evreleri ortak video kapsamı"
+                  "transcriptFingerprint": "c52219a5e3c7b007",
+                  "sharedSource": false
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
                   "provider": "Coğrafyanın Kodları"
-                }
+                },
+                "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
+                "teacher": "Yunus Hoca"
               }
             },
             {
@@ -18344,19 +18445,17 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
-                  "transcriptFingerprint": "a9429fca5308feaa",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Doğal afet türleri, tehlike ve risk analizi ile bütüncül afet yönetimi evreleri ortak video kapsamı"
+                  "transcriptFingerprint": "c52219a5e3c7b007",
+                  "sharedSource": false
                 }
               }
             }
@@ -18868,7 +18967,7 @@
               "displayLabel": "19.1",
               "orderKey": 1000,
               "title": "Bölge ve Bölge Sınırı",
-              "contentUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+              "contentUrl": "https://www.youtube.com/watch?v=BM78gvglAmY",
               "publishingStatus": "active",
               "payload": {
                 "provider": "Coğrafyanın Kodları",
@@ -18888,18 +18987,20 @@
                   "videoCandidateTitle": "Bölge türleri ve bölge sınırları  konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
                   "fingerprint": "029f782d0a0fef1b",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BM78gvglAmY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.tr.vtt",
-                  "transcriptFingerprint": "eb386b00a00bd43e",
-                  "reviewedOverride": true
+                  "transcriptFingerprint": "f777b352479c908d",
+                  "sharedSource": false
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
                   "provider": "Coğrafyanın Kodları"
-                }
+                },
+                "verifiedLectureTitle": "🌍BÖLGELER VE BÖLGE SINIRLARI 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-17 📌2025",
+                "teacher": "Yunus Hoca"
               }
             },
             {
@@ -18973,17 +19074,17 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KaImNrWaZEo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BM78gvglAmY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_19_bolge_ve_bolge_siniri.tr.txt",
-                  "transcriptFingerprint": "eb386b00a00bd43e"
+                  "transcriptFingerprint": "f777b352479c908d",
+                  "sharedSource": false
                 }
               }
             }
@@ -19012,10 +19113,10 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Theme 1: School Life",
-              "contentUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+              "contentUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Sercanİgrek - English Teacher",
+                "provider": "Ms. Jasmin ELT",
                 "topic": "Theme 1: School Life",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -19035,17 +19136,16 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "e551f0c91aaeacf3",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
-                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-                  "transcriptFingerprint": "1489500cad43bc6a",
+                  "transcriptFingerprint": "d09c15e7d5bb7440",
                   "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.tr.vtt",
                   "sharedSource": false
                 },
-                "teacher": "Sercan İgrek",
-                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 1. ÜNİTE KONU ANLATIMI 2026 | MAARİF MODELİ"
+                "teacher": "Ms. Jasmin ELT",
+                "verifiedLectureTitle": "9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ"
               }
             },
             {
@@ -19121,18 +19221,17 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_ing9_vid_topic_01_theme_1_school_life",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "maarif_author",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "39ba575b8dc72e1b",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-                  "transcriptFingerprint": "1489500cad43bc6a",
+                  "transcriptFingerprint": "d09c15e7d5bb7440",
                   "sharedSource": false
                 }
               }
@@ -19516,10 +19615,10 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Describing Physical Appearance and Personality Traits",
-              "contentUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+              "contentUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "Özer Kiraz",
+                "teacher": "Ms. Jasmin ELT",
                 "provenance": {
                   "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L60",
                   "sourceSection": "Theme 3: Personal Life",
@@ -19527,16 +19626,16 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "5d544133f66ebdeb",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
-                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
-                  "transcriptFingerprint": "edd896d72a92bd9c",
-                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt"
+                  "transcriptFingerprint": "1735d4cf0d71d0e6",
+                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt",
+                  "sharedSource": false
                 },
-                "provider": "Özer Kiraz",
-                "verifiedLectureTitle": "İngilizce Sıfatlar Konu Anlatımı #15"
+                "provider": "Ms. Jasmin ELT",
+                "verifiedLectureTitle": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)"
               }
             },
             {
@@ -19612,18 +19711,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_ing9_vid_appearance_personality",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "generatedBy": "maarif_author",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "61eec1502e0c4ca3",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
-                  "transcriptFingerprint": "edd896d72a92bd9c"
+                  "transcriptFingerprint": "1735d4cf0d71d0e6",
+                  "sharedSource": false
                 }
               }
             },
@@ -20081,7 +20180,7 @@
               "contentUrl": "https://www.youtube.com/watch?v=GUM8bs1kRwc",
               "publishingStatus": "active",
               "payload": {
-                "provider": "MEB / İngilizce TV",
+                "provider": "Ms. Jasmin ELT",
                 "topic": "Theme 5: Life in the House & Neighbourhood",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -20102,15 +20201,15 @@
                   "fingerprint": "bbb07afc20222551",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=GUM8bs1kRwc",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.txt",
                   "transcriptFingerprint": "4516bfc1905be33c",
-                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.tr.vtt",
+                  "sharedSource": false
                 },
                 "teacher": "Ms. Jasmin ELT",
-                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI | LIFE IN THE HOUSE NEIGHBOORHOD"
+                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD"
               }
             },
             {
@@ -20191,13 +20290,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "maarif_author",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "21443c37545038f8",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.txt",
-                  "transcriptFingerprint": "4516bfc1905be33c"
+                  "transcriptFingerprint": "4516bfc1905be33c",
+                  "sharedSource": false
                 }
               }
             }
@@ -20357,7 +20456,7 @@
               "contentUrl": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
               "publishingStatus": "active",
               "payload": {
-                "provider": "MEB / İngilizce TV",
+                "provider": "Ms. Jasmin ELT",
                 "topic": "Theme 7: Life in the World & Nature",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -20378,15 +20477,15 @@
                   "fingerprint": "c7059fbdd366f27c",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.txt",
                   "transcriptFingerprint": "d19b4dc3a37361cb",
-                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.tr.vtt",
+                  "sharedSource": false
                 },
                 "teacher": "Ms. Jasmin ELT",
-                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI | LIFE IN THE WORLD & NATURE"
+                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE"
               }
             },
             {
@@ -20467,13 +20566,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "maarif_author",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c9d9c8f547d51d8c",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.txt",
-                  "transcriptFingerprint": "d19b4dc3a37361cb"
+                  "transcriptFingerprint": "d19b4dc3a37361cb",
+                  "sharedSource": false
                 }
               }
             }
@@ -20495,7 +20594,7 @@
               "contentUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
               "publishingStatus": "active",
               "payload": {
-                "provider": "MEB / İngilizce TV",
+                "provider": "Ms. Jasmin ELT",
                 "topic": "Theme 8: Life in the Universe & Future",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -20515,15 +20614,15 @@
                   "fingerprint": "146e6b2991f5220f",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
-                  "reviewedOverride": true,
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt",
                   "transcriptFingerprint": "9d0133ea1496c227",
-                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.tr.vtt",
+                  "sharedSource": false
                 },
                 "teacher": "Ms. Jasmin ELT",
-                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI | LIFE IN THE UNIVERSE & FUTURE"
+                "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE"
               }
             },
             {
@@ -20604,13 +20703,13 @@
                   "transcriptKind": "subtitle",
                   "generatedBy": "maarif_author",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "9cf8cace7a91677a",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt",
-                  "transcriptFingerprint": "9d0133ea1496c227"
+                  "transcriptFingerprint": "9d0133ea1496c227",
+                  "sharedSource": false
                 }
               }
             }
@@ -20903,10 +21002,10 @@
               "displayLabel": "2.2",
               "orderKey": 2000,
               "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
-              "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+              "contentUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "AlmancaKolay",
+                "teacher": "Tonguç Akademi",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L30",
                   "sourceSection": "2. Hafta: Kendini Tanıtma ve Hal-Hatır",
@@ -20914,17 +21013,17 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "ff41a131eaf524d1",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.tr.vtt",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "transcriptFingerprint": "291af06c74478754",
                   "sharedSource": false
                 },
-                "provider": "Almanca Kolay (Erhan Özdemir)",
+                "provider": "tonguç 9. SINIF",
                 "reviewStatus": "verified",
-                "reviewedOverride": true
+                "verifiedLectureTitle": "9. Sınıf Almanca ： Begrüben Und Verabschieden ｜ Selamlaşma ve Vedalaşma"
               }
             },
             {
@@ -21000,13 +21099,12 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_kendini_tanitma",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "transcriptFingerprint": "291af06c74478754",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "e477067137f66f91",
@@ -21023,10 +21121,10 @@
               "displayLabel": "2.3",
               "orderKey": 3000,
               "title": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
-              "contentUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+              "contentUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "Meltem Hoca ile Almanca",
+                "teacher": "Tonguç Akademi",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L40",
                   "sourceSection": "3. Hafta: Sayılar ve Telefon Numarası",
@@ -21034,20 +21132,18 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "15fb458cf92cbc54",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.tr.vtt",
-                  "transcriptFingerprint": "e10726e05dc42bb1",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "77476562da3de3f0",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen), iyelik ekleri ve telefon numarası sorma ortak video kapsamı"
                 },
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
+                "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma"
               }
             },
             {
@@ -21123,20 +21219,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_sayilar",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "e10726e05dc42bb1",
+                  "transcriptFingerprint": "77476562da3de3f0",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "1608730a8eba11f9",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen), iyelik ekleri ve telefon numarası sorma ortak video kapsamı"
                 }
               }
             },
@@ -21168,8 +21263,7 @@
                 },
                 "provider": "tonguç 9. SINIF",
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "verifiedLectureTitle": "9. Sınıf Almanca : Lander Und Sprachen  | Ülkeler ve Diller"
+                "verifiedLectureTitle": "9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller"
               }
             },
             {
@@ -21251,7 +21345,6 @@
                   "transcriptFingerprint": "58c6f09ced835962",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "5a3a147241f7589b",
@@ -21394,10 +21487,10 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Zahlen 0–20 und Telefonnummer",
-              "contentUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+              "contentUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Zahlen 0–20 und Telefonnummer",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21413,20 +21506,18 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "38f5c12a31439337",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.tr.vtt",
-                  "transcriptFingerprint": "e10726e05dc42bb1",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "77476562da3de3f0",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen), iyelik ekleri ve telefon numarası sorma ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Meltem Hoca ile Almanca",
-                "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma"
               }
             },
             {
@@ -21502,20 +21593,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "e10726e05dc42bb1",
+                  "transcriptFingerprint": "77476562da3de3f0",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "c37a7a908aa60797",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+                  "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen), iyelik ekleri ve telefon numarası sorma ortak video kapsamı"
                 }
               }
             }
@@ -21672,10 +21762,10 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Schulsachen",
-              "contentUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+              "contentUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Schulsachen",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21695,20 +21785,18 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "164ed0dfd692a990",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.tr.vtt",
-                  "transcriptFingerprint": "3639e1470a7f8837",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "4873f0b68870247c",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (belirli/belirsiz) ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Meltem Hoca ile Almanca",
-                "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben"
               }
             },
             {
@@ -21784,20 +21872,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_05_schulsachen",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "3639e1470a7f8837",
+                  "transcriptFingerprint": "4873f0b68870247c",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "b15181819e68ce1b",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (belirli/belirsiz) ortak video kapsamı"
                 }
               }
             }
@@ -21953,10 +22040,10 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
-              "contentUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+              "contentUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
               "publishingStatus": "active",
               "payload": {
-                "teacher": "Meltem Hoca ile Almanca",
+                "teacher": "Tonguç Akademi",
                 "provenance": {
                   "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L60",
                   "sourceSection": "Meine Schulsachen",
@@ -21964,20 +22051,18 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "4cca94e386ebe6bd",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.tr.vtt",
-                  "transcriptFingerprint": "3639e1470a7f8837",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "4873f0b68870247c",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (belirli/belirsiz) ortak video kapsamı"
                 },
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE"
+                "verifiedLectureTitle": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben"
               }
             },
             {
@@ -22053,20 +22138,19 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_schulsachen_artikel",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "3639e1470a7f8837",
+                  "transcriptFingerprint": "4873f0b68870247c",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "073952b3b3e719ae",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
                   "sharedSource": true,
-                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+                  "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (belirli/belirsiz) ortak video kapsamı"
                 }
               }
             },
@@ -22321,10 +22405,10 @@
               "displayLabel": "9.1",
               "orderKey": 1000,
               "title": "Familie und Familienmitglieder",
-              "contentUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+              "contentUrl": "https://www.youtube.com/watch?v=4mfOLK3RVT4",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Familie und Familienmitglieder",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22348,19 +22432,17 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "e7a396de87e57ffa",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=4mfOLK3RVT4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
-                  "transcriptFingerprint": "ca9fa7525984ad57",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "17fcd456660008e6",
                   "sharedSource": false
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Meltem Hoca ile Almanca",
-                "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9. Sınıf Almanca： Die Familie ｜ Aile Üyelerini Tanıyalım"
               }
             },
             {
@@ -22436,13 +22518,12 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=4mfOLK3RVT4",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "ca9fa7525984ad57",
+                  "transcriptFingerprint": "17fcd456660008e6",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "63703df717ecd477",
@@ -22467,10 +22548,10 @@
               "displayLabel": "10.1",
               "orderKey": 1000,
               "title": "Berufe",
-              "contentUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+              "contentUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Easy German",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Berufe",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22488,19 +22569,17 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "a5e031267e28ad85",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
-                  "transcriptFingerprint": "90658fd49668e2cd",
-                  "reviewedOverride": true,
+                  "transcriptFingerprint": "e2c95574798e31d8",
                   "sharedSource": false
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Erhan Özdemir",
-                "verifiedLectureTitle": "Almanca Temel A1/A2 Ders - 14 Almanca Meslekler - Die Berufe - Yeni Almanca Kelimeler, Cümleler"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9. Sınıf Almanca： Die Berufe ｜ Meslekler"
               }
             },
             {
@@ -22576,13 +22655,12 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_10_berufe",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "90658fd49668e2cd",
+                  "transcriptFingerprint": "e2c95574798e31d8",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "f44960e4fb617ffd",
@@ -22747,10 +22825,10 @@
               "displayLabel": "12.1",
               "orderKey": 1000,
               "title": "Uhrzeiten",
-              "contentUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
+              "contentUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Uhrzeiten",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22768,18 +22846,17 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "3fe88a8ce7466ee2",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.tr.vtt",
-                  "transcriptFingerprint": "40208cbbff2a8ea7",
-                  "reviewedOverride": true
+                  "transcriptFingerprint": "f7ebd506071e6523",
+                  "sharedSource": false
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Meltem Hoca ile Almanca",
-                "verifiedLectureTitle": "Saatler -24.DERS ALMANCA|9.sınıf 4.ÜNİTE"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9. Sınıf Almanca： Die Uhrzeiten und Die Wochentage ｜ Saatler, 100'e Kadar Sayılar ve Günler"
               }
             },
             {
@@ -22855,18 +22932,18 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_12_uhrzeiten",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "40208cbbff2a8ea7",
+                  "transcriptFingerprint": "f7ebd506071e6523",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "12d7fb4b1eae299d",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
+                  "sharedSource": false
                 }
               }
             }
@@ -22885,10 +22962,10 @@
               "displayLabel": "13.1",
               "orderKey": 1000,
               "title": "Tageszeiten und Tagesablauf",
-              "contentUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+              "contentUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Meltem Hoca ile Almanca",
+                "provider": "tonguç 9. SINIF",
                 "topic": "Tageszeiten und Tagesablauf",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22910,18 +22987,17 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "78a4929264d79e17",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
-                  "transcriptFingerprint": "85c8f13c7e0ce76b",
+                  "transcriptFingerprint": "8d010d85d27ce0c6",
                   "sharedSource": false
                 },
                 "reviewStatus": "verified",
-                "reviewedOverride": true,
-                "teacher": "Meltem Hoca",
-                "verifiedLectureTitle": "Günün Vakitleri | die Tageszeiten-25.DERS ALMANCA|9.sınıf 4.ÜNİTE"
+                "teacher": "Tonguç Akademi",
+                "verifiedLectureTitle": "9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler"
               }
             },
             {
@@ -22997,13 +23073,12 @@
                 },
                 "provenance": {
                   "derivedFromItemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptFingerprint": "85c8f13c7e0ce76b",
+                  "transcriptFingerprint": "8d010d85d27ce0c6",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "9a81eb4ed1648ff3",
@@ -23058,7 +23133,7 @@
                 },
                 "provider": "Deniz Hoca",
                 "teacher": "Deniz Hoca",
-                "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
+                "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝"
               }
             },
             {
@@ -23140,7 +23215,6 @@
                   "transcriptFingerprint": "29d50a7fc53c9a99",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-02T12:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "f196dc4fb7af0ee9",
@@ -23544,10 +23618,10 @@
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.txt",
                   "transcriptFingerprint": "bd1ce85232163199",
                   "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.tr.vtt",
-                  "reviewedOverride": true
+                  "sharedSource": false
                 },
                 "teacher": "Deniz Hoca",
-                "verifiedLectureTitle": "MÜLAKAT NEDİR? / 9.Sınıf Sözün İnceliğİ / Deniz Hoca 2026"
+                "verifiedLectureTitle": "MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026"
               }
             },
             {
@@ -23625,7 +23699,6 @@
                   "derivedFromItemId": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "ae1c6cfd6a9d5163",
@@ -23634,7 +23707,8 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.txt",
-                  "transcriptFingerprint": "bd1ce85232163199"
+                  "transcriptFingerprint": "bd1ce85232163199",
+                  "sharedSource": false
                 }
               }
             }
@@ -23791,7 +23865,7 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
-              "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+              "contentUrl": "https://www.youtube.com/watch?v=xGTH9SQLhrE",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -23801,15 +23875,17 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "97ad2f7839dbed29",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xGTH9SQLhrE",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "b942c35900634519",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Hikâye unsurları, olay ve durum hikâyesi (Maupassant ve Çehov tarzı) ile karakter analizi ortak video kapsamı"
-                }
+                  "transcriptFingerprint": "4c22b019c3dfbc42",
+                  "sharedSource": false
+                },
+                "verifiedLectureTitle": "OLAY VE DURUM HİKAYESİ %100 ÖĞREN! ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+                "teacher": "Deniz Hoca",
+                "provider": "Deniz Hoca"
               }
             },
             {
@@ -23887,18 +23963,16 @@
                   "derivedFromItemId": "item_tde9_vid_hikaye_turleri",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
                   "fingerprint": "e9bf373c1a07a523",
                   "groundingType": "transcript_grounded",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xGTH9SQLhrE",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
-                  "transcriptFingerprint": "b942c35900634519",
-                  "sharedSource": true,
-                  "sharedSourceReason": "Hikâye unsurları, olay ve durum hikâyesi (Maupassant ve Çehov tarzı) ile karakter analizi ortak video kapsamı"
+                  "transcriptFingerprint": "4c22b019c3dfbc42",
+                  "sharedSource": false
                 }
               }
             },
