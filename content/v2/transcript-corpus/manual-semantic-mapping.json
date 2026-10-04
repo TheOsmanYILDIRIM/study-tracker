@@ -1,0 +1,1314 @@
+{
+  "version": "1.0.0",
+  "methodology": "Manual semantic decisions by ChatGPT over the committed clean transcript corpus. Exact-title matching was not required. Only transcript-supported replacements are mapped; broad/multi-video or uncovered cards are explicitly retained or marked for split.",
+  "corpusRef": "data/transcript-corpus-20261004@88849bc1b2461cbab6675acf73564e357786e6e7",
+  "totalItems": 157,
+  "counts": {
+    "mat9": {
+      "total": 29,
+      "MAP": 7,
+      "KEEP_CURRENT": 22,
+      "MIXED_NEEDS_SPLIT": 0
+    },
+    "fiz9": {
+      "total": 22,
+      "MAP": 18,
+      "KEEP_CURRENT": 3,
+      "MIXED_NEEDS_SPLIT": 1
+    },
+    "kim9": {
+      "total": 21,
+      "MAP": 13,
+      "KEEP_CURRENT": 3,
+      "MIXED_NEEDS_SPLIT": 5
+    },
+    "biyo9": {
+      "total": 19,
+      "MAP": 14,
+      "KEEP_CURRENT": 0,
+      "MIXED_NEEDS_SPLIT": 5
+    },
+    "cog9": {
+      "total": 23,
+      "MAP": 11,
+      "KEEP_CURRENT": 8,
+      "MIXED_NEEDS_SPLIT": 4
+    },
+    "ing9": {
+      "total": 10,
+      "MAP": 5,
+      "KEEP_CURRENT": 4,
+      "MIXED_NEEDS_SPLIT": 1
+    },
+    "alm9": {
+      "total": 16,
+      "MAP": 11,
+      "KEEP_CURRENT": 3,
+      "MIXED_NEEDS_SPLIT": 2
+    },
+    "tde9": {
+      "total": 17,
+      "MAP": 8,
+      "KEEP_CURRENT": 7,
+      "MIXED_NEEDS_SPLIT": 2
+    }
+  },
+  "decisions": [
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_algoritma_temelleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_aralik_farki",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_araliklar_gosterim",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_benzerlik_kosullari",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_cebirsel_ispat",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_geometrik_donusumler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_koklu_mantik",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "b6Vl-rqqrOg",
+      "note": "Direct first lesson on radicals."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_mantik_baglaclari",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_olasilik_turleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_rasyonel_usler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Downloaded mathematics corpus does not clearly contain a dedicated rational-exponents lesson."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_sayi_kumeleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "OLV5wBFLVsU",
+      "note": "Direct 9th-grade number sets lesson."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_teoremler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_topic_19_deneysel_olasilik",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_ucgen_esitsizligi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_ucgende_aci",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "sZrQZ7YU5gs",
+      "note": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_uslu_bolme",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "uwl25uvO1sQ",
+      "note": "Transcript explicitly starts from division in exponential expressions."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_uslu_giris",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "FtJE835vtoM",
+      "note": "Transcript directly introduces 9th-grade exponents."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_uslu_kurallar",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "IzK0DWVlTg8",
+      "note": "Third exponent lesson is the strongest corpus match for continued exponent rules."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_uslu_negatif",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "Vp13AV26s58",
+      "note": "Second exponent lesson continues exponent rules including negative exponents."
+    },
+    {
+      "course": "mat9",
+      "itemId": "item_mat9_vid_veri_dagilimlari",
+      "decision": "KEEP_CURRENT",
+      "verdict": "CORPUS_INSUFFICIENT_OR_CURRENT_SOURCE_STRONGER",
+      "videoId": null,
+      "note": "Mathematics corpus contains only exponent/root/number-set and one line-angle lesson; keep existing source until the rest of the primary playlist is downloaded."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_alt_dallar",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "1Hg2eF907YA",
+      "note": "Transcript explicitly teaches what physics is and its subfields."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_basinc_prensipleri",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Card is broader than one source video: solid pressure, liquid pressure/Pascal, gas pressure and Bernoulli are separate lessons."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_dogadaki_kuvvetler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "VwxSW7Rmr2U",
+      "note": "Transcript directly teaches fundamental forces."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_fizik_giris",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "1Hg2eF907YA",
+      "note": "Direct physics-introduction lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_hal_degisimi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "3pRu3T0Q03U",
+      "note": "Direct phase-change lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_isi_sicaklik_kavram",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "kGrdvkxHxjA",
+      "note": "Direct internal energy, temperature and heat lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_kaldirma_kuvveti",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "XQHH2VV1Bbk",
+      "note": "Direct buoyant-force lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_01_fizik_bilimi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "1Hg2eF907YA",
+      "note": "Direct physics-science introduction."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "TYT corpus has scientist references inside lessons but no dedicated 'people who shaped physics' lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "7aVrdQ7uSQ4",
+      "note": "Transcript directly classifies fundamental/derived physical quantities."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_07_vektorler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus mentions vectors across physical-quantity and later lessons but has no dedicated 9th-grade vectors lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "Qp211SqOGJ4",
+      "note": "Movement fundamentals lesson is the closest direct corpus source."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_10_katilarda_basinc",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "DnQNBoR_Dsw",
+      "note": "Direct solid-pressure lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_11_sivilarda_basinc",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "dkwbOGhBedc",
+      "note": "Direct first liquid-pressure lesson; later Pascal applications are separate."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "XQHH2VV1Bbk",
+      "note": "Direct buoyant-force lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_14_bernoulli_ilkesi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "1Q3CtzfV1lQ",
+      "note": "Transcript explicitly explains Bernoulli principle via flowing-fluid pressure."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "VhqHkBN6xMQ",
+      "note": "Direct specific-heat and heat-capacity lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_17_hal_degisimi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "3pRu3T0Q03U",
+      "note": "Direct phase-change lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_18_isil_denge",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "2-aHeYUXvCI",
+      "note": "Direct thermal-equilibrium lesson."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "CRg4b_g1IXc",
+      "note": "Transcript directly teaches conduction/convection/radiation."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_topic_20_isi_iletim_hizi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "CRg4b_g1IXc",
+      "note": "Same lesson explicitly teaches energy-transfer rate; legitimate shared source."
+    },
+    {
+      "course": "fiz9",
+      "itemId": "item_fiz9_vid_vektorler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated vectors lesson in selected TYT corpus; do not replace a stronger existing vector source."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_atom_modelleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "w4hn63SL3y4",
+      "note": "Direct atom-models/atomic-structure lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_bag_turleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "t9ejokTLCpg",
+      "note": "Overview transcript explicitly distinguishes ionic, covalent and metallic strong interactions."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_guvenlik_sembolleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "3uhN8JlukLg",
+      "note": "Direct laboratory safety and chemical-safety lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_katilar_ve_sivilar",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Matter states are distributed across the three 'Maddenin Halleri' lessons; one video does not cover the full broad card."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_kimya_bilimi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "VfexRwrzEDA",
+      "note": "Direct introductory chemistry-science lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_periyodik_ozellikler",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Periodic properties span days 6 part 1 and part 2; keep a comprehensive existing source rather than pretending one part is complete."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "3uhN8JlukLg",
+      "note": "Direct chemical use/lab safety transcript."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus teaches shell electron configuration but not the new-curriculum orbital treatment as a dedicated lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "aVTZGka6GvM",
+      "note": "Transcript explicitly teaches electron configuration and locating elements in the periodic table."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_06_periyodik_ozellikler",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Periodic trends are split across hDUv4CkJDCM and _2Lb0ybajvE."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_07_metalik_bag",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "fX3ojMBUxOg",
+      "note": "Transcript opens with and directly teaches metallic bonding."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_08_iyonik_bag",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "F4eYD8UdDXI",
+      "note": "Transcript explicitly states this lesson completes ionic bonding."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_09_kovalent_bag",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "xJ6i_sC7Mcc",
+      "note": "Direct covalent-bond lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "xJ6i_sC7Mcc",
+      "note": "Transcript explicitly teaches Lewis structures for covalent molecules."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "xJ6i_sC7Mcc",
+      "note": "Transcript explicitly teaches molecular polarity/apolarity."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Ionic naming is in F4eYD8UdDXI and covalent naming in xJ6i_sC7Mcc."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "glDg6lFPsag",
+      "note": "First matter-states lesson covers solids and their properties."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "glDg6lFPsag",
+      "note": "Same matter-states lesson directly covers liquids and their properties."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Selected TYT corpus has no dedicated nanoparticles/new-curriculum sustainability lesson."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_yesil_kimya",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Nature-and-chemistry content is related but does not directly teach the Green Chemistry topic as titled."
+    },
+    {
+      "course": "kim9",
+      "itemId": "item_kim9_vid_zayif_etkilesimler",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Weak interactions are split across Van der Waals and hydrogen-bond lessons (days 10 part 1/2)."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_bilim_nedir",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "V0SzzIeniHc",
+      "note": "Transcript directly discusses science, nature of science and scientific method."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_enzimler_nukleik",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Enzymes and nucleic acids are separate units/videos in the primary corpus."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_hucre_organeller",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Organelles are intentionally taught in two parts."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_kontrollu_deney",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "TS-O93Ztv20",
+      "note": "Transcript explicitly explains controlled experiments and variables."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_madde_gecisleri",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Cell-membrane transport is taught in two parts; one video is incomplete."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_organik_inorganik",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Organic and inorganic compounds are separate lesson groups."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_siniflandirma",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "rit0LlD2Fnw",
+      "note": "Direct classification lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_teori_yasa",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "V0SzzIeniHc",
+      "note": "Scientific-method/nature-of-science transcript is the strongest corpus source for hypothesis/theory/law."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "V0SzzIeniHc",
+      "note": "Direct scientific-method and ethics lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "JqVImq7hFjk",
+      "note": "Direct characteristics-of-living-things lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "aV3n4v0t2HI",
+      "note": "Inorganic-compounds checkpoint summarizes minerals, water, acids/bases and salts."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_05_karbonhidratlar",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "MgsF9_Yi6es",
+      "note": "Direct carbohydrates lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_06_lipitler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "fG5tAZFYTTM",
+      "note": "Direct lipids lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_07_proteinler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "H_I4wF3hBOg",
+      "note": "Direct proteins lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_08_enzimler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "ajDCR1wpbd8",
+      "note": "Checkpoint summarizes both enzyme parts and provides whole-topic enzyme coverage."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_09_nukleik_asitler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "gqDpv-_j-m4",
+      "note": "Direct DNA/RNA nucleic-acids lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_10_vitaminler",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "9ONeiMJL6VY",
+      "note": "Direct vitamins lesson."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Classification plus bacteria/archaea/protist/plant/fungi/animal groups span multiple videos."
+    },
+    {
+      "course": "biyo9",
+      "itemId": "item_biyo9_vid_yasam_nedir",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "JqVImq7hFjk",
+      "note": "Characteristics-of-living-things lesson directly addresses the card scope."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_afet_yonetimi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Natural-disaster lesson covers hazards/risks, but the card specifically asks disaster management."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_atmosfer_ve_sicaklik",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "lZDwJNl8OuA",
+      "note": "Direct atmosphere and temperature lesson."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_basinc_ruzgar_yagis",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Pressure/wind is aweDcCk0fJ0; humidity/precipitation is mBKVfw0ZFTU."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_doga_insan",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "NlHi5ndIjpA",
+      "note": "Direct nature-human lesson."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_harita_bilgisi",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "pPeiiLXr-aU",
+      "note": "Projection and scale lesson is the strongest direct map-information source."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_mekansal_dusunme",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Selected TYT corpus does not directly teach the new-curriculum spatial-thinking construct."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_nufus_ve_yerlesme",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Population and settlement are taught in separate lessons."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_tarihsel_gelisim",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Haritacılığın tarihsel gelişimi is not the same as Coğrafya biliminin tarihsel gelişimi."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "NlHi5ndIjpA",
+      "note": "Intro transcript explicitly motivates why geography matters in daily life."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated history-of-geography-science lesson in selected corpus."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "ymLvyLld3cs",
+      "note": "Direct Turkey geographical-location lesson."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated GIS/spatial-information-technologies lesson in selected TYT corpus."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Weather mechanisms are distributed across atmosphere/temperature, pressure/wind and humidity/precipitation."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_09_iklim_turleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "9WB1e2c80gA",
+      "note": "Direct major-climate-types lesson."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus has environment content but no dedicated climate-system-change lesson matching the new curriculum."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "4cbRTAG8M4U",
+      "note": "Population lesson covers demographic development/census patterns."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Distribution is XwwB4_c182w while migration/movement is dDXeN9Oll4I."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "iZ2F-uPaDr8",
+      "note": "Direct population-pyramids lesson; strongest corpus source for demographic structure."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Population lesson only touches policies/problems; not sufficient as the primary video."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "dDXeN9Oll4I",
+      "note": "Economic-activities lesson directly covers geographic/economic factors."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "paXdOyeI8zo",
+      "note": "Natural-disasters transcript explicitly covers hazard/risk/disaster concepts."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Natural-disaster TYT lesson is not a sufficiently direct whole-disaster-management source."
+    },
+    {
+      "course": "cog9",
+      "itemId": "item_cog9_vid_topic_19_bolge_ve_bolge_siniri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "BM78gvglAmY",
+      "note": "Direct regions and region-boundaries lesson."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_appearance_personality",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "GjocuWHrXyM",
+      "note": "Personal Life transcript explicitly teaches physical appearance and personality."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_cumle_kurma",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Theme corpus contains sentence structures inside units but no dedicated general sentence-building lesson; keep stronger legacy source."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_modals",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus contains modal usage inside themes but no single direct Can/Must/Have-to comparison lesson."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_simple_present",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Simple Present is taught in Classroom Life while Present Progressive is taught in Life in the House; comparison spans two videos."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_topic_01_theme_1_school_life",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "AhpYrUKeHNE",
+      "note": "Direct School Life unit."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "GUM8bs1kRwc",
+      "note": "Direct Life in the House/Neighbourhood unit."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Downloaded unit 6 is Bridging Cultures, not the card's Life in the City/Country scope."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_topic_07_theme_7_life_in_the_world_nature",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "qXhKi2v5EGM",
+      "note": "Direct Life in the World/Nature unit."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_topic_08_theme_8_life_in_the_universe_future",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "yksFI9sPggY",
+      "note": "Direct Universe/Future unit."
+    },
+    {
+      "course": "ing9",
+      "itemId": "item_ing9_vid_used_to",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No direct Used to + Could lesson in selected theme corpus."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_kendini_tanitma",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "hRYyziD_8XU",
+      "note": "Transcript explicitly teaches introductions, greetings and asking how someone is."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_sayilar",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "MTYC1fG5Z7Q",
+      "note": "Transcript explicitly teaches 0–20 numbers and telephone/address expressions."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_schulsachen_artikel",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "8ktg5DqzffM",
+      "note": "Direct school-supplies and definite/indefinite article lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_selamlasma_alfabe",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Greetings are in hRYyziD_8XU while alphabet/spelling is in MTYC1fG5Z7Q."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Greeting/farewell is hRYyziD_8XU; Landeskunde is better supported by countries/languages R6O9NcPPB2s."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "MTYC1fG5Z7Q",
+      "note": "Direct 0–20 numbers and telephone-number lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "MTYC1fG5Z7Q",
+      "note": "Transcript includes alphabet/spelling and number/age language."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_05_schulsachen",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "8ktg5DqzffM",
+      "note": "Direct Schulsachen lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_06_im_klassenzimmer",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "School supplies are present, but no dedicated classroom-language lesson in selected corpus."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_08_stundenplan_und_schule",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated timetable/school-routine lesson in selected corpus."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "4mfOLK3RVT4",
+      "note": "Direct family-members lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_10_berufe",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "Vgt876VAW78",
+      "note": "Direct professions lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Daily-routine lesson overlaps but does not directly cover the full Freizeit/activities card."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_12_uhrzeiten",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "mvhqOxWEmBc",
+      "note": "Direct time lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "JPV8sHLi9tY",
+      "note": "Direct daily-routine lesson."
+    },
+    {
+      "course": "alm9",
+      "itemId": "item_alm9_vid_ulkeler_diller",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "R6O9NcPPB2s",
+      "note": "Direct countries/languages and origin expressions lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_edebiyat_guzel_sanatlar",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "NBhw_SkvV8E",
+      "note": "Direct fine arts and literature lesson; card's metin-türleri tail is broader."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_hikaye_turleri",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "xGTH9SQLhrE",
+      "note": "Direct event-vs-situation story lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_soz_sanatlari",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "3bW8GrvE-fs",
+      "note": "Direct literary/speech arts lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Word meaning, nouns/adjectives/adverbs are split across separate Deniz Hoca lessons."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "ij26b-lboNY",
+      "note": "Transcript directly teaches descriptive narration; transformation task itself is broader."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
+      "decision": "MAP",
+      "verdict": "FULLY_COVERED",
+      "videoId": "BMaVTFcOC2c",
+      "note": "Direct interview lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus has thought-development methods but no direct combined essay + speaking task lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "3sxZJrvAYIM",
+      "note": "Story lesson supplies character/story foundations; presentation task itself is activity-specific."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "jBQ6PMMdPDk",
+      "note": "Direct poetry-features lesson; listening activity itself is not a separate source."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+      "decision": "MAP",
+      "verdict": "PARTIALLY_COVERED",
+      "videoId": "jBQ6PMMdPDk",
+      "note": "Poetry-features lesson supports writing activity but is not a writing workshop."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No direct comparative-speaking-on-settings lesson in selected corpus."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated documentary listening/viewing lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated documentary-to-infographic lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+      "decision": "MIXED_NEEDS_SPLIT",
+      "verdict": "MULTI_VIDEO_SCOPE",
+      "videoId": null,
+      "note": "Roman, theatre/metin classification and criticism are separate lessons; one video cannot cover all."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "Corpus discusses literary language but not this full social-media presentation task."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated autobiography listening/viewing lesson."
+    },
+    {
+      "course": "tde9",
+      "itemId": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+      "decision": "KEEP_CURRENT",
+      "verdict": "NOT_COVERED_BY_PRIMARY_CORPUS",
+      "videoId": null,
+      "note": "No dedicated autobiography-writing lesson."
+    }
+  ]
+}
