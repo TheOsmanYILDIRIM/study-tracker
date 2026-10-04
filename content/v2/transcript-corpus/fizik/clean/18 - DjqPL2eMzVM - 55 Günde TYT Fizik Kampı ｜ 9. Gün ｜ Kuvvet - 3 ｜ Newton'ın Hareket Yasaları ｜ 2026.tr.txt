@@ -1,0 +1,701 @@
+gençler Merhaba bugünkü dersimizin
+konusu Newton'un 3 hareket yasası yani
+etki tepki prensibi önceki dersimizde 1
+yasa eylemsizlik yasasını ikinci yasa
+temel prensibi yani f5r emaye
+öğrenmiştik Bu ikisi zaten birbirleriyle
+çok bağlantılıydı Net kuvvetin sıfır
+olma durumunu ve Net kuvvetin sıfır
+olmama durumunu inceleyen iki tane
+yasaydı bugün işleyeceğimiz etki tepki
+prensibi biraz daha kendi halinde
+diğerlerinden biraz daha bağımsız bir
+yasa Newton bu yasasında der ki Herhangi
+bir ağ cismi bir b cismine kuvvet
+uygularsa Bismi de a cismine kuvvet
+uygular bu iki kuvvet Aynı büyüklükte ve
+zıt yönlüdür Burada iki tane çizim
+görüyorsunuz yürüyen bir adam var kürek
+çeken Sporcular var bu iki insanda
+hareket ediyorlar Bu hareketler acaba
+nasıl oluyor tamamen newtonun etki tepki
+prensibi ile çalışan sistemler Bunlar
+Örneğin buradaki kürekçiler suyun
+üzerindeler kanoya binmişler ellerine
+kürekleri almışlar bu küreği bu tarafa
+doğru çekti bu arkadaş şimdi şu Küreğin
+ucu suyu itiyor sağ tarafa doğru F
+kuvveti uyguluyor etki tepki yasasına
+göre sen suyu sağ tarafa doğru ev
+kuvvetiyle itersen suda seni sol tarafa
+doğru F kuvveti ile yeter Dolayısıyla su
+bu küreyi Dolayısıyla kano'yu
+Dolayısıyla sporcuları sol tarafa doğru
+Aynı büyüklükteki F büyüklüğündeki
+kuvvetle itiyor Böylece bu Sporcular sol
+tarafa doğru belli bir hız kazanıyorlar
+ve ilerlemiş oluyorlar Bu iki kuvvet
+tamamen Aynı büyüklükteler ve zıt
+yönlüler ve etki tepkiyle ilgili
+bilinmesi gereken en önemli şey Bu iki
+kuvvetin kimlere etki ettiği kürekle Biz
+suyu ittik Dolayısıyla bu ev kuvveti
+suya etki eden bir kuvvet iken suda
+küreklere bunun tepkisini uyguladı yani
+buradaki F kuvveti küreye etki eden
+kuvvet Dolayısıyla kanoya etki eden
+sporculara etki eden kuvvet İşte bu
+sporcuların sol tarafa doğru
+ilerlemesini sağlayan kuvvet bu
+arkadaştır yürüme olayına bakarsak biz
+neden buz pistinde yürüyemiyoruz da
+normal asfalt yolda rahatlıkla Yürüyoruz
+Çünkü biz Aslında bastığımız zemini
+geriye itmeye çalışıyoruz Yani ben şu
+ayağımla zemini sola doğru itiyorum
+Tabii buradaki itme sürtme sayesinde
+oluyor ayağımla zemin arasındaki
+sürtünme kuvveti Aslında bu Ben ayağımla
+yeri sola doğru ittim ev kuvvetiyle bu
+riski ise yerde benim ayağımı sağ tarafa
+doğru itiyor İşte bu da tepkidir ben
+durgun halden bir anda sağ tarafa doğru
+hız kazandıysam o yönde yürümeye
+başladıysam Bu arkadaşın sayesindedir
+eştiremada bolca konuştuk şöyle duran
+bir cisim Hayal etsek ve Bense desem ki
+Gençler bu adam sağ tarafa doğru
+hızlanmaya başladı bu nasıl olmuştur
+dersiniz ki bana e hocam buna sağ tarafa
+doğru bir kuvvet etki etmiş bu kuvvet Bu
+cismi hızlandırmış dersiniz işte Aynı
+şey Burada da var kırmızıyla gösterdiğim
+bu F kuvveti ayağıma etki ediyor sağ
+tarafa doğru aynı şu arkadaş gibi ve
+beni sağ tarafa doğru hızlandırıyor
+yürümeye başlıyor E hocam Burada iki
+tane kuvvet var Bunlar zıt yönlü aynı
+büyüklükteler Bunlar birbirini götürmez
+mi Net kuvvet sıfır olur duruyorsa
+durmaya devam eder Az önce özellikle
+belirttim Hatta bunu bir köşeye not
+olarak yazın etki ve tepki kuvvetleri
+aynı cisme değil farklı cisimlere etki
+eder bir cismin üzerindeki Net kuvvet
+sıfır diyorsak o cismin üzerindeki
+toplam kuvvetler sıfırdır anlamına
+geliyor ama etki tepki farklı cisimlere
+etki ediyor burada siyahla gösterdiğim
+ev yere etki ediyor Bunun çocukla bir
+ilgisi yok
+karşı tarafa doğru itti aynı F
+kuvvetiyle Bu da tepki kuvvetidir
+Dolayısıyla beyazlının sağ tarafa
+gitmesinin sebebi bu arkadaştır
+siyahlının üzerinde bir Net kuvvet var
+sola doğru O yüzden sola gidiyor sadece
+bu etki ediyor siyahlıya beyazlığın
+üzerinde de bir Net kuvvet var sağ
+tarafa doğru O yüzden de beyazı sağ
+tarafa doğru hareketleniyor Sadece bu F
+kuvveti ile etkili ile tepki farklı
+cisimler üzerine etki ediyor bir yerde
+etki varsa orada tepki de var bakın
+beyazdı burada eline bir kütle almış
+Uluslararası Uzay istasyonda kullanılan
+pillerden biri o bunu hareket ettiriyor
+sola sağ hareket ettiriyor kendi
+vücuduna dikkat edin beyazlığını sola
+ittiğinde kendi sağa gidiyor sağa
+çektiğinde kendisi sola gidiyor çünkü
+sürekli etki tepki mevzusu var burada
+Örneğin çekme mevzusunu konuşalım
+kendime doğru çektiğimde Niye ben ona
+doğru gidiyorum aynı zamanda çünkü
+beyazlı kendine doğru çekmek için bu
+pile sağ tarafa doğru bir kuvvet
+uygulamış oluyor o yüzden pil sağ tarafa
+gidiyor anladık bu etkiyi ise o zaman
+pil de bu astronotu sol tarafa doğru
+çekiyor İşte bu da tepkidir bitki ve
+tepki farklı cisimlere etki etti biri
+pile etki etti bir astronotu etki etti
+ve ikisini de hareket ettirdi birini
+sağa götürdü öbürünü sola götürdü hocam
+buradaki adamın kasları var kendisi bir
+kuvvet uygulayabiliyor falan ama ben
+anlamadım yani pilin kası yok canlı
+değil Nasıl bir kuvvet oluşturabilir
+şunu nasıl oluşturabilir Bu bir Doğa
+yasası duvara vurdunuz eliniz acıyor
+neden duvarın kasları mı var duvar canlı
+mı eliniz neden acıdı Üstelik kuvveti
+Siz uyguluyorsunuz Sizin canınız niye
+yanıyor Siz duvara vurduğunuzda duvara
+bir etki kuvveti uygulamış oldunuz sol
+tarafa doğru bu duvara etki eden bir
+kuvvet Bu sizin elinizi temsil etsin
+duvarda Sizin elinize tepki kuvvetini
+uyguluyor ve elinizi İşte bu tepki
+kuvveti acıtıyor Hatta elinizi kırabilir
+bile o yüzden boksörler eldiven
+giyiyorlar Çünkü her yumruk atışları
+kendi ellerinin de acıması demek Bir
+zemin düşünelim Bir basketbol topu
+bırakalım bu basketbol topu düştü Düştü
+düştü vurdu yukarıya doğru sekti neden
+yukarıya çıkıyor bu tekrar Onu yukarıya
+doğru götüren kuvvet nedir bir cismi
+aşağıya doğru giderken birden yukarı
+gitmeye karar verdiyse kesinlikle zıt
+yönde bir kuvvete maruz kalmıştır o
+kuvvet onu yavaşlatmıştır durdurmuştur
+geri göndermiştir Bu top zemine
+çarptığında zemine bir kuvvet uyguladı
+bu etki bu zemini etki eden etki
+kuvvetinin tepkisi topa etki etti İşte
+topu yavaşlatan durduran ve ters yönde
+tekrar yukarı çıkmasını sağlayan
+zeminden gelen bu tepki kuvveti oldu
+sürtünmesiz yatay zeminde Duran
+cisimlerin serbest cisim diyagramlarını
+çiziniz son dersimizin en son kısmında
+serbestsin diyagramlarına değinmiştik
+fizik için çok önemli bir şeydir
+fotoğraf çekme mantığını iyi anlayın
+demiştim burada çok işimize yarayacak o
+fotoğraf çekme mantığı zeminde sürtünme
+yok buz pisti gibi düşünebilirsiniz
+böyle yan yana Duran iki tane cismi bir
+soldan itiyoruz bunlar böyle beraberce
+gidecekler Bunu Herhangi bir problem yok
+Şimdi ben B cismini incelemek istiyorum
+B cisminin fotoğrafını çeksem şöyle bir
+fotoğraf çektim onu oradan kestim şuraya
+yapıştırdım bu arkadaş sağ tarafa doğru
+hızlanacak Niye bir cisim durup dururken
+sağ tarafa doğru hızlanmaya başladıysa
+kesinlikle sağ tarafa doğru bir kuvvete
+maruz kalması lazım Hocam işte şu F
+kuvveti var ya o hızlandırıyor İyi de bu
+fotoğrafta O ev kuvveti yok O ev kuvveti
+doğrudan değil Dolaylı yoldan B'yi
+hızlandırıyor B'yi direkt hızlandıran
+bir kuvvete ihtiyacım var Bu çerçevenin
+fotoğrafın içerisinde beğeni serbest
+cisim diyagramında Şu Arkadaş yok
+gençler ve Niye gidiyor ve a itiyor Onu
+demek ki A cismi ona bir kuvvet
+uyguluyor İşte bu normal kuvvet olarak
+isimlendirdiğim önceki dersimizde temas
+kuvvetidir iki cisim birbirine temas
+ediyorsa aralarında bir normal kuvvet
+temas kuvveti oluşur o yüzeye dik bir
+kuvvet olduğu için normal kuvvet olarak
+isimlendiriliyor A'nın B'ye uyguladığı
+bu kuvvet B cismini hızlandırıyor
+diyebiliriz her kuvvetin bir tepkisi
+vardır etki tepki her yerde geçerlidir
+bir yerde bir kuvvet oluşmuşsa
+kesinlikle onun tepkisi de oluşmuştur
+Dolayısıyla ben ağacı ismini serbestçe
+diyagramını çizsem ananın fotoğrafını
+çekiyorum bunu buradan kestim şuraya
+yapıştırdım Bu çerçevede hangi kuvvetler
+var bir kere şu ev kuvveti direkt A'ya
+etki ediyor bunu artık direkt
+yazabilirim bu arada Şuradaki F
+kuvvetine diyelim A'dan gelen kuvvet
+olsun buradaki efimine karışmasın O
+başka bir kuvvet var mı ayette düşeyde
+de kuvvetler var tabii ki B'de de
+aşağıya doğru ağırlığı vardı falan ama
+elinden gelen normal kuvvet onları
+dengeliyordu onlarla işim yok şu an ben
+sadece yataydaki kuvvetlerle
+ilgileniyorum şu an Az önce ne dedim A
+cismi B'yi itiyorsa bu etkiyse o zaman
+B'de a'yı iter yani B'den A'ya şu
+arkadaşın tepkisi gelecek Dolayısıyla a
+cisminin serbest cisim diyagramında
+yataydaki kuvvetler bu ikisidir buradaki
+f a ile FV etki tepki kuvvetleridir Her
+zamanki gibi farklı cisimlere etki
+etmişlerdir f a b cismine etki etmişken
+FB a cismin etki etmiştir a cismine şu
+kuvvetin etki etmesi aslında gayet
+mantıklı Örneğin ben size deseydim ki bu
+B cismi hiç olmasaydı ağacı ismini daha
+rahat mı iterdik yoksa bir şey değişmez
+miydi Tabii ki daha rahat ederdik yani a
+cismi 3 kilogramlık bir cisim olsa ve
+cismi 2 kilogramlık bir cisim olsa
+buradaki ev kuvveti 50 newtonluk bir
+kuvvet olsa şu an bu sistemde Bu ikisi
+birbirine değdiği için yapışık tek bir
+cisim gibi düşünsem F5 yaparım F kuvveti
+50 Newton Bunları tek bir cisim gibi
+düşünebilirim beraber gidiyorlar kütle 5
+ivme buradan 10 metre bölü kare
+gelecektir yani şu an bu sistem sağ
+tarafa doğru 10 metre bölü saniye kare
+ile hızlanıyor diyebilirim bu B cismi
+hiç olmasaydı Sadece a olsaydı ne olurdu
+o zaman yeni bir efeştirme yaparız
+burada 50 Newton var kütlemiz 3 kilogram
+çarpı ivme buradan a Yaklaşık 16 metre
+bölü saniye kare yapar yani çok daha iyi
+hızlanırdık B cismini sisteme eklemek
+a'yı yavaşlatmış Çünkü B yokken Şu
+Arkadaş da yok B varken bu arkadaş var
+Dolayısıyla Sen a'yı f'le itmeye
+çalışıyorsun B'den gelen tepki kuvveti
+Seni yavaşlatıyor normalde 16'lık ivme
+kazanacaktın be hiç olmasaydı ama b var
+diye bu ivme ona düşüyor B'den gelen
+tepki kuvveti a'yı yavaşlatıyor
+diyebiliriz ayaklarındaki patenlerle
+yatay zeminde durmakta olan 50 kilogram
+kütleli abi ile 25 kilogramlık kütleli
+kardeşi birbirlerini zıt yönlerde
+iterlerse kime etki eden kuvvetin
+şiddeti daha büyük olur Bakın bunların
+birbirini itmesine gerek yok Az önce
+videoda izlediğimiz Astronotlar gibi
+biri Dursun öbürü gelsin onu içsin aynı
+şey ki kardeşini F kuvveti ile iterse bu
+etki ise kardeşi de abisini itmiş olur
+Bu da F kuvvetidir ve tepki kuvvetidir
+ikisine de aynı şiddette kuvvet etki
+eder bir tanesine daha büyük olmaz Hocam
+işte abi 50 kilogram kütleye sahipmiş
+kardeş 25 kilogram kütleye sahipmiş
+kardeşi daha çok kuvvet etki etmez mi
+Hayır etkiyle tepki kuvvetleri birbirine
+eşit olmak zorunda Hatta size daha saçma
+bir şey söyleyeyim saçma değil ama
+düşündüğünüzde bir tuhaf bu dünya Olsun
+bu da dünyanın yüzeyindeki biz olalım
+diyelim ki 50 kilogramlık bir insan bu
+dünya bu insanı kendine doğru çekiyor
+değil mi Biz ona ağırlık diyoruz
+Dolayısıyla dünya bu insanı kendine
+doğru g dediğimiz ağırlıkla çekiyor onu
+da emgle hesaplıyoruz 50 kilogramlık bu
+arkadaş Yerçekimi ivmesinde 10 kabul
+edersem dünya bu insanı Kendisine doğru
+500 newtonla çekiyor burada bir kuvvet
+var bunun tepkisi de olmak zorunda bunun
+tepkisi nerededir ve kaç newtondur
+cümleye başlarsanız sonunu getirmenizde
+kolaylaşır cümle şöyle başlamalı Dünya
+bu çocuğu 500 newtonla kendine doğru
+çekiyorsa bu etkiyi ise o zaman çocuk da
+dünyayı kendine doğru 500 newtonluk
+kuvvetle çekiyordur Bu da tepkidir yani
+Çocuk dünyayı dünyanın merkezinden
+gösteriyorum kendine doğru 500 newtonla
+çekiyor Şu Arkadaş etki ise bu arkadaş
+tepkidir Nasıl yani hocam Biz dünyayı
+Kendimize Doğru mu çekiyoruz Aynen öyle
+bir kuvvet varsa bir etki kuvveti varsa
+o da tepki de vardır e hocam o zaman bir
+yerden atladığımızda Biz niye dünyaya
+doğru düşüyoruz aynı kuvvette Dünya bize
+doğru gelsin mantıklı gibi dursa da çok
+mantıklı değil Neden Çünkü efeştirme
+çocuğa etki eden kuvvet 500 Newton Tamam
+çocuk 50 kilogram Tamam çocuğun ivmesi
+10 metre bölü saniye kare çıkıyor
+buradan ki zaten bu yer çekimi emmesi
+güzel bu çocuk için yazdığım bir
+eleştirema dünya için bir eşleştirme
+yazarsam dünyaya da 500 Newton etki
+ediyor dünyanın kütlesi çok çok çok çok
+çok çok çok büyük 6 çarpı 10 üzeri 24
+kilogram İnternetten baktım geldim
+biliyormuşum gibi hava atıyorum şu an
+çarpı evime şu sayı o kadar büyük ki bu
+ivme çok çok çok küçük Sıfıra yakın
+Hatta 0 bile kabul O yüzden dünya
+yerinden kıpırdamıyor kütlen büyükse
+seni harekete geçirmekte zordur Aslında
+B şıkkında cevabını vermiş oldu Kim daha
+büyük ivmeyle hareket eder demiş ikisine
+de aynı kuvvet etki ediyor Aynı hesabı
+buradaki sorumuz için de yapalım f=ma
+İkisinde de aynı F kuvveti var 50
+kilogramlık abi a ivmesi ile hızlanırsa
+sol tarafa doğru 25 kilogramlık kardeşi
+2A ivmesi ile sağ tarafa doğru hızlanır
+Çünkü ikisinin de çarpımı aynı Efe
+vermeli Çünkü ikisine de aynı F etki
+ediyor Dolayısıyla Kütlesi küçük olan
+kardeş daha büyük bir ivmeli hareket
+edecektir daha çok yer değiştirecektir
+aynı sürede bunu da izleyelim
+astronotlarımızı gene açtım birbirlerini
+ittikleri zaman İkisi de diğer taraflara
+doğru savruluyorlardı çünkü aynı etki
+tepkiye maruz kalıyorlardı şimdi
+astronotlardan bir tanesi sırtına o
+bateriyi pili geçirmiş yani kütleyi
+arttırmış az önce hemen hemen aynı
+hızlarla uzaklaşmışlardı şimdi yine
+birbirlerini ittiklerinde acaba aynı
+şekilde mi uzaklaşacaklar dikkat edelim
+beyazlı kütlesini arttırdı birbirlerini
+ittiler siyahlı uçtu çok fazla çok daha
+yavaş hareket etti Çünkü kütlen artarsa
+ivmen azalır kuvvet aynı kuvvet etkiyle
+tepki Aynı büyüklükte Ayaklarında
+patenler olan kızlar var aynı bizim
+Astronotlar gibi birbirlerini itiyorlar
+etki tepki İkisi de diğer taraflara
+doğru uzaklaşıyorlar şimdi sol taraf
+kütleyi arttırdı Onlar iki kişi oldular
+birbirlerini ittikleri zaman bakın Sağ
+taraf uçtu sol taraf daha az hareket
+etti Çünkü aynı F Kuvvetleri kütlesi
+büyük olanı daha az ivme kazandırır bir
+başka durumda top atıyorlar birbirlerine
+gördüğünüz gibi topu fırlatma durumuna
+dikkat edin yani şimdi şu Kızcağızın
+Elinde top var fırlattığında sol tarafa
+doğru gidiyor fırlatma anında neden
+fırlatma anında sol tarafa doğru gidiyor
+çünkü etki tepki ile alakası var yine
+aynı şekilde top elimde beraber
+duruyoruz Ben bu topu itmek için topa
+sağ tarafa doğru bir ev kuvveti
+uygulamalıyım bu etkiyi ise o zaman top
+da benim elime Dolayısıyla benim
+vücuduma sol tarafa doğru bir tepki
+kuvveti uygulamalı İşte bu kızın
+fotoğrafını çekersem top benim elimden
+çıktı top artık benden bağımsız bu kızın
+fotoğrafında sol tarafa doğru bir kuvvet
+var duran bir kızdı bu Dolayısıyla bu
+kız sıfır hız sahibiyken sola doğru bir
+kuvvete maruz kaldığında sola doğru
+hareket etmeye başlayacaktır O yüzden
+topu fırlattığında kendisi geriye
+gidiyor Aynı bizim beyazlı astronotun
+arkadaşını ittiğinde kendisinin de
+geriye gitmesi gibi bu roketlerin de
+çalışma mantığı bir roket durup dururken
+nasıl yukarıya doğru hızlanmaya başlıyor
+Yani bir cismi yukarıya doğru çıkması
+için ya onu arkadan birisi itecek ya
+yukarıdan ip bağlayacağım çekeceksin ne
+oluyor da durup dururken kendi başına
+yukarı gitmeye çalışıyor tekerlekleri
+falan da yok Tamamen etki tepki prensibi
+ile çalışan bir sistem roket yerde
+durgunken bir anda içindeki yakıtı
+yakmaya başlıyor ve dışarıya gaz çıkışı
+oluyor bu gazı dışarıya doğru fırlatıyor
+bu gazı dışarı doğru fırlatmak için
+roket gaza bir kuvvet uyguluyor gaza
+etki eden etki kuvveti bu Dolayısıyla
+Sen gaza bir kuvvet uyguluyorsan gazla
+sana ters yönde bunun tepkisini
+uyguluyor İşte bu da roketi etki eden
+kuvvettir bu arkadaşa etki dersem bu
+arkadaş tepki kuvvetidir Ben roketin
+fotoğrafını çektiğimde rokete etki eden
+tek kuvvet İşte bu tepki kuvvetidir gaz
+üzerinden bağımsız O benim fotoğrafımda
+yok artık bu kuvvet sayesinde yukarıya
+doğru etki eden bu kuvvet sayesinde Biz
+yukarıya doğru hızlanıyoruz bir balonu
+şişirdiniz ve bıraktınız bir anda uçup
+gitmeye başlıyor aynı roketler gibi
+bakın burada bir balonumuz var üstünden
+bir ipe geçirilmiş oraya bantlanmış
+rahatlıkla hareket edebiliyor yani balon
+sola sağa doğru balonun şişirdik
+elimizde böyle tutuyoruz bıraktığımız
+anda ne olur bıraktığımız anda sola
+doğru fırlar neden bıraktığımız anda
+sola doğru fırlıyor çünkü balon içindeki
+basınçtan dolayı havayı dışarı
+fırlatıyor aynı Kızcağızın topu
+fırlatması gibi o havayı fırlatmak için
+havaya bir kuvvet uyguluyor bu etkiyi
+ise havada balona bunun tepkisini
+uyguluyor işte balonu sol tarafa doğru
+götüren hızlandıran Bu tepki kuvvetidir
+roketlerin mantığı son olarak bir de
+çivi çakma olayını inceleyelim elimizle
+çekiçle bir çiviye vurduğumuzda çiviye
+bir kuvvet uygulamış oluyoruz ve çivi
+ilerlemeye başlıyor Peki savurduğumuz
+çekiç neden duruyor ben onu elimde
+durdurmuyorum ki durdurmak için bir çaba
+harcamıyorum ki vuruyor ve çekiç duruyor
+Tabii ki burada da etki tepki geçerlidir
+burada çiviye vurduğum anda çiviye bir
+kuvvet uygulamış oldum bu kırmızı kuvvet
+çekiçten çiviye etki eden kuvvettir bu
+kuvvet etki kuvveti ise eğer çivi de
+çekici bunun tepkisini uygular bu çiviye
+etki etti bu da çekici etki etti
+Dolayısıyla aşağıya doğru savrulmuş olan
+aşağıya doğru hızı olan çekiç yukarıya
+doğru olan bu kuvvet yüzünden yavaşlayıp
+duruyor diyebiliriz kuvvet varsa etki
+tepki de var çok önemli bir kavram
+yanılgısını sorgulayan güzel bir soru
+etki ve tepki kuvvetleri eşit büyüklükte
+ve zıt yönlü ise bir at arabası nasıl
+hareket edebilir bu kuvvetler birbirini
+götürmüyor mu aslında bunun deminden
+beri Cevabını veriyorum Etki tepki
+kuvvetleri farklı cisimlere etki ettiği
+için birbirini götürmez En azından cisim
+bazında sistem bazında bakarsak İşler
+değişir ona da geleceğiz şimdi bu atı
+arabasına nasıl hareket ediyor önce bunu
+konuşmamız lazım aynı insanın yürümesi
+gibi atın da yürümesi için yeri itmesi
+lazım yani at yeri sol tarafa doğru
+itiyor ayaklarıyla sürtünme kuvveti
+sayesinde bu zemini etki eden kuvvet
+zeminde atın ayaklarına bunun tepkisini
+sağ tarafa doğru uyguluyor Dolayısıyla
+at bu kuvvetin etkisiyle sağ tarafa
+doğru hız kazanmış oluyor peki bu araba
+kısmına nasıl hareket ediyor Ben bu
+araba kısmının fotoğrafını çeksem
+getirdim Arabayı buraya yapıştırdım
+arabayı sağ tarafa doğru götüren bir şey
+olmalı Çünkü arabada durgun halden bir V
+hızına ulaşıyor ve at çekiyor Tabii ki
+arabayı sağ tarafa doğru F üstü
+kuvvetiyle şu Efe karışmasın at çekiyor
+diyebiliriz at bu arabaya sağ tarafa
+doğru bir kuvvet uyguluyor bu etkiyse
+Bununla tepkisi olması lazım cümleyi
+kuralım beraber at arabayı sağ tarafa
+doğru çekiyorsa o zaman araba da atı sol
+tarafa doğru çekiyor tepki kuvveti yani
+atın üzerinde bu füsünün tepkisi var Şu
+Arkadaş etki bu arkadaş tepki at kendi
+başına koştuğunda daha az yorulur Bir
+arabayı çektiğinde daha çok yorulur
+Çünkü at koşmaya çalışırken Onu hareket
+yönünün tersine doğru geri çeken bir
+kuvvet var işte bu tepki kuvveti
+atıyoran kuvvettir sürekli sizi bir şey
+geriye doğru çekiyorsa ona karşı
+koyuyorsanız kaslarınız yorulur Şimdi
+gelelim sorunun sorduğu şeye bu arabası
+nasıl hareket edebilir bu etkili tepki
+birbirini götürmüyor mu cisim bazında
+Hayır bak buraya Ben arabayı çizdim
+arabaya etki eden kuvvet Sadece bu atın
+fotoğrafını çeksem bu at olsa Ata etki
+eden kuvvetler sağ tarafa doğru zeminden
+gelen bir kuvvet var sol tarafa doğru
+arabanın uyguladığı tepki kuvveti var ve
+burada belli ki F kuvveti F üstünden
+büyük ki Net kuvvet sağ tarafa doğru
+çıkıp atı hareketlendirmiş eşit de
+olabilirlerdi o zaman yerinden
+kıpırdamazdı zaten ama gittiklerini var
+sayıyorsak finfüsünden büyük olduğunu
+söylemiş oluruz Dolayısıyla sadece Ata
+baktığımız için sadece bir tane üssü var
+sadece arabaya baktığımız için sadece
+bir tane efüstü var Bunlar aynı cisme
+etki etmedikleri için bu iki kuvvet bir
+birini cisim bazında götürmez Şimdi
+gelelim en önemli yerlerden bir tanesini
+en çok kafa karıştıran en çok kavram
+yanılgısının olduğu Hatta ders kitabında
+bile yanlış olan bir yere bu sene
+düzelttiler mi bilmiyorum ama geçen
+seneye kadar bu kısım yanlış
+anlatılıyordu böyle de Klasik bir soru
+tipi var artık testlerde denemelerde
+görürsünüz bazı olaylar verir şıklarda
+der ki bu olaylarda et tepki çiftleri
+hangisine doğru gösterilmiştir der
+mesela Bir zemin üzerinde duran bir
+cisim var işte ağırlığı gösterilmiş
+zeminden gelen normal kuvvet gösterilmiş
+Bunlar etki tepki midir mesela ders
+kitabı diyor ki bu etki kuvvetidir
+zeminden gelen bu da tepki kuvvetidir
+buradaki g ağırlık kuvveti ile zeminden
+gelen normal kuvvet etki tepki çiftidir
+diyor yanlış Çünkü bazı şeyler burada
+karıştırılıyor temel mantığımız şudur
+etki ile tepki kuvveti farklı cisimlere
+etki eder ben bu cismin fotoğrafını
+çektiğimde ki zaten kendisini tekrar
+çizmiş oluyorum üzerine etki eden
+kuvvetler nelerdir desem aşağıya doğru
+ağırlığı var dünya bunu kendine doğru
+çekiyor neden düşmüyor düşsün aşağıya
+doğru çünkü boşlukta değil ki hocam bu
+bir zemine konulmuş bir masaya konulmuş
+masa Onu tutuyor İşte o tutma kuvvetine
+temas kuvvetine zemine dik normal kuvvet
+diyoruz Bu iki kuvvette birbirine eşit
+olduğu için cisim üzerindeki Net kuvvet
+sıfır oluyor Net kuvvet sıfırsa
+duruyorsa sonsuza kadar durmaya devam
+edersin newtonun birinci yasası
+eylemsizlik esası Şimdi ben size
+soruyorum ağırlık kime etki ediyor cisme
+etki ediyor Adı üzerinde cismin benim
+ağırlığım bana etki eden bir kuvvettir
+normal kuvvet kime etki ediyor cisme
+etki ediyor zemin tarafından cisme etki
+eden bir kuvvet Bu etkiyle tepki aynı
+cisme etki edemez ki bu ikisi aynı cisme
+etki ediyor O yüzden Net kuvvet sıfır
+Dolayısıyla Bunlar etki tepki çifti
+değil buradaki kafa karışıklığı şurada
+genelde ki şu an söylediklerimi anlam
+veremeyenler tam olarak bu cümleyi
+bekliyorlar hocam ağırlık zemine etki
+etmiyor mu yani cisim zemini
+ağırlığından dolayı itiyor bu zemine
+etki eden kuvvet zeminde cismi itiyor
+yani G ile ne etki tepki kuvvetidir
+tekrar söylüyorum ağırlık zemini etki
+etmez ağırlık cisimlere etki eder önceki
+derste söylemiştim bir daha söylüyorum
+Yani bu cisim havada olsa ben bunu
+havaya fırlatmış olsam bunun alt
+kısmında zemin yok diye ağırlık kuvveti
+çizmeyecek misiniz cismin ağırlık
+kuvveti cisme çizilir Çünkü o cismin
+ağırlığıdır ağırlık kuvvetinin tepkisi
+normal kuvvet olamaz Az önce çizdik
+Aslında bu kuvvetin sebebi kim dünya o
+zaman bak şuraya dünyayı yerleştiriyorum
+cümleyi kuruyorum dünya beni kendine
+doğru g ağırlığıyla çekiyor Ben de
+dünyayı kendime doğru g ağırlığıyla
+çekerim İşte bu etkiyse bunu tepkisi
+normal kuvvet değildir budur Çünkü bu
+cisimle dünya arasındaki bir muhabbettir
+ağırlık dünyadan dolayı olan bir
+kavramdır G'nin tepkisi dünyanın
+merkezindedir normal kuvvet değildir İyi
+de hocam yani şimdi bu cisim zemini
+itmiyor mu zemine bir kuvvet uygulamıyor
+mu bunu bir kuma koysak batmayacak mı
+ağırlığından dolayı doğru zaten
+karıştırılan yer burası ama o kuvveti
+ağırlık denmez basınç kuvveti denir Ben
+daha basınç anlatmadım ama mezun
+öğrenciler ne demek istediğimi
+anlamıştır veya şöyle diyebiliriz zemin
+cisim ilişkisini yorumlayalım zemin Bu
+cismi düşmesin diye normal kuvvetle
+tutuyor mu zemin cisme normal kuvvet
+uyguluyor mu uyguluyor bu etkiyi ise o
+zaman cisim de zemine Bu normal kuvvetin
+tepkisini uygular Yani normal kuvvet
+burada etki ise buradaki n üssü onun
+tepkisidir işte beni kuma batıran Bu
+normal kuvvetin tepkisidir ve sizin
+ağırlıkla karıştırdığınız şey aslında bu
+normal kuvvetin tepkisidir tam olarak
+niye karıştırdığınız sayısal değerler
+üzerinden söyleyeyim şimdi ben bu cismin
+ağırlığını 10 Newton desem yere
+düşmediğine göre Net kuvvetin sıfır
+olması lazım O zaman bu cisme etki eden
+diğer kuvvet normal kuvvette 10 Newton
+olmalı Böylece bu adam 10 Newton bu adam
+10 Newton benim üzerimdeki Net kuvvet
+sıfırdır ve düşmüyorum öyle duruyorum
+güzel normal kuvvet 10 newtonsa yani
+zeminin cisme uyguladığı kuvvet 10
+newtonsa o zaman cismin de zemine
+uyguladığı bu n üssü dediğim zemini etki
+eden kuvvet de on Newton olmalıdır çünkü
+bunlar etki ve tepki işte Bizim kafamız
+burada karışıyor e ağırlık dediğim şey
+de o Newton Bu normal kuvvetin tepkisi
+de onun Newton O yüzden aynı şey
+zannediliyor ama değil Kısacası gençler
+G ile n n etki tepki değildir Çünkü
+ikisi de aynı cisme etki eder etki tepki
+kuvvetlerinin farklı cisimlere etki
+etmesi lazım buradaki ge cisme etki eder
+buradaki g dünyayı etki eder etki tepki
+farklı cisimler buradaki ne cisme etki
+eder buradaki n üssü tepkisi zemine etki
+eder farklı cisimler etki eder Bunun
+üzerinde iyice düşünün aşağıdaki
+olayların doğru olup olmadığını
+belirleyerek açıklayınız dünyanın
+resimleri çekme kuvveti ile cisimlerin
+dünyaya çekme kuvvetinden büyük olduğu
+için cisimler dünyaya doğru düşer bunun
+cevabını Az önce verdim Aslında dünya
+Burası Ben de onun üzerindeyim 50
+kilogramlık bir insanım dünya beni
+Kendisine doğru 500 newtonla çekiyorsa
+Bu benim ağırlığımdır Şimdi konuştuk
+bunun tepkisi Ben de dünyayı çekiyorum
+Bu da tepkidir 500 Newton aynı
+büyüklüktür Niye ben dünyaya doğru
+düşüyorum Çünkü benim kütlem küçük
+dünyanın kütlesi büyük O yüzden benim
+ivmem büyük çıkıyor dünyanın inmesi
+küçük çıkıyor Hatta sıfır çıkıyor
+neredeyse o yüzden dünya hiçbir yere
+gitmiyor bu yanlış bir taş camı
+kırdığında taşın cama uyguladığı kuvvet
+camın taşa uyguladığı kuvvetten büyük
+olduğu için cam kırılmıştır Şahane
+kavram yanılgısı sorgusu Bunlar şu bir
+cam olsun cama bir taş fırlattık bu taş
+geldi cama vurdu F kuvveti ile cama
+temas etti taşın cama uyguladığı kuvvet
+bu diyelim ki 100 Newton olsun Şimdi taş
+cama 100 Newton kuvvet uyguluyorsa bu
+etkiyi ise o zaman camda taşa bunun
+tepkisini uygulayacak tepki kuvveti
+dediğime göre bu da
+güzel bir kavram yanılgısı bu Etki tepki
+kuvvetleri arasında bir Hiyerarşi var
+mıdır önce etki oluşur Sonra onun
+tepkisi oluşur diye bir şey var mı hayır
+yok bunlar aynı anda oluşan kuvvetlerdir
+Yani ben elimdeki topu fırlattığım anda
+topa uyguladığım kuvvetin aynısı bana da
+etki etmeye başlıyor ve Aslında etki
+tepki isimlendirmesi de bir kabulden
+ibaret Yani yine bizim buradaki cam
+örneğimize geri dönersek taş geldi cama
+vurdu Bu etkidir cam da taşa tepkisini
+uygulamıştır doğru bir cümle Ama şunu da
+söyleyebilirim taş geldi Can burada
+duruyor taş ona değdiğinde cam ona bir
+temas kuvveti olan Normal kuvveti
+uygulamıştır bu etkidir taş da cama
+bunun tepkisini uygulamıştır İşte o
+tepki kuvveti camı kırmıştır Bu da doğru
+yani Ben şu kuvvete etki de yazabilirim
+tepki de yazabilirim bu kuvvete etki de
+yazabilirim tepki de yazabilirim Bir
+sıralama yok Bir Hiyerarşi yok bunlar
+aynı anda oluşur ve öncelik yoktur şu
+etkidir bu tepkidir denemez Evet Böylece
+Newton yasalarını tamamen bitirmiş
+oluyoruz ama kuvvet konusu daha bitmedi
+Sürtünme kuvvetini işleyeceğiz bunu da
+bitirdikten sonra genel bir tarama testi
+çözeceğiz kuvvetle ilgili
+takıldıklarınızı alta yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,646 @@
+gençler Merhaba bugünkü dersimizde Gaz
+basıncı ile ilgili bütün soru tiplerini
+göreceğiz güzel yorum soruları var Hemen
+başlayalım açık hava basıncının P0
+olduğu bir ortamda manometre kabının
+kollarındaki cıva seviyeleri şekildeki
+gibidir Buna göre açık hava basıncı P0
+manometre kabındaki Gaz basıncı P1 sağ
+Koldaki Gaz basıncı da P2 olduğuna göre
+Bunlar arasındaki ilişkiyi sormuş
+buradan bir seviye çeksek Bu seviyenin
+üzerindeki bütün noktalarda bu kırmızı
+noktalarda mavi sıvı ile temas var
+Dolayısıyla aynı seviyedeler aynı
+sıvıdalar basınçlar eşit Pascal prensibi
+sol tarafı incelediğimde buraya
+hapsedilmiş olan P1 basınçlı gaz şuradan
+basıncını uyguladı bu basınç Aynen
+buraya aktarıldı bunun üstünde ne var bu
+kadarlık sıvı sütunundan kaynaklanan
+basınç var yani Hac DG var E bir de
+yukarıdan P0 etki ediyor artı P0 yazdım
+denklemin P1 eşittir HG + P0 olacaktır
+açık hava basıncını bir şeyle toplayınca
+p1'i verdiğine göre P1 açık hava
+basıncından Tabii ki daha büyük
+olacaktır geldim ikinci şekle burada P1
+var burada da P1 var yukarıya doğru
+zorlayan bu p1'i Kim tutuyor Kimden
+geliyor yukarıdan gelen yine yavaş
+derinlikli sıvı sütunu o zaman denklemi
+yazıyorum p1= HD Bir de şurada P2
+basıncına sahip bir gaz var Onu da
+ekledim p2'yi bir şeyle toplayınca P1
+oluyor o zaman P1 p2'den de daha büyük
+Peki ben buradaki P0 ile P2 nasıl
+kıyaslayacağım denklemlere bakmam
+gerekiyor F1 = yine p1=g+ P2 buradaki
+hd'ler ortak olduğuna göre bu P0 ile
+p2'nin de eşit olması gerekir
+Dolayısıyla sorunun cevabının B seçeneği
+olması gerekir öğretmen basınç konusunu
+anlatırken şekildeki gibi bir gösteri
+deneye hazırlar bir tabağa su koyarak
+içine küçük bir mum koyup Yakar daha
+sonra yanan mumun üzerine bir bardağı
+ters çevirip kapatır bir süre sonra
+mumun söndüğü ve tabağın içindeki suyun
+bardağın içine girerek yükseldiği
+gözlenir Buna göre hangilerine
+ulaşılabilir bunun deneyini zaten açık
+hava basıncını atmosfer basıncını
+anlattığım derste göstermiştim size onun
+soru versiyonu neden yükseliyordu
+oradaki sıvı şimdi bir bardağa içi
+boşken suya ters çevirip koyarsanız mum
+yok Ateş yok hiçbir şey olmaz yani
+buradaki su seviyesine herhangi bir
+değişiklik olmaz hocam olur mu buradan
+P0
+sıvı sütunun basıncı buradaki p0'ı
+dengeleyebilir yanmanın gerçekleşmesi
+için oksijene ihtiyaç vardır Evet
+buradaki oksijen belli bir seviyenin
+altına indiği anda Mum Söndü Dolayısıyla
+Doğrudur mum söndükten sonra bardağın
+içindeki hava basıncı açık hava
+basıncından küçüktür Evet şimdi söyledim
+şuradan seviye çektiğimde nasıl denklem
+yazarım P0 eşittir Bu noktadaki basınç
+HD artı buradan gelen artık ne kadar
+kaldıysa hava basıncı diyebiliriz yani
+havanın basıncı atmosferin basıncı daha
+küçük olacaktır bu denkleme göre
+Doğrudur akışkanlar yüksek basınçtan
+düşük basınca doğru hareket ederler bu
+sonuca da ulaşabiliriz Çünkü sonuçta bu
+kabın içerisindeki su hareket etti
+bardağın içerisinde yükseldi bunun Aklı
+Yok Fikri Yok niye öyle bir ihtiyaç
+hissetti Çünkü iki taraf arasında basınç
+farkı oluştu P 0 buradan bastırmıştı mum
+yanmadan önce burada da P0 kadarlık bir
+hava basıncı vardı bardağın içerisinde
+mum buradaki oksijeni azaltmaya
+başladığında bu artık ortadan kalkmaya
+başladığında bu azaldığında Burası
+yüksek basınç oldu burası Alçak basınç
+oldu dolayısıyla yüksek basınçtan alçak
+basınca doğru buradaki akışkan hareket
+edip yükselmeye başladı diyebiliriz O
+yüzden bunların üçüne de ulaşabiliriz
+Cevabı da e deriz burada bir şey de
+açıklamam gerekiyor eminim bazı
+öğrencilerin aklına takılmıştır hocam
+bardağı ters çevirdiniz koydunuz mumun
+da yanmadığını düşünelim dediniz ki
+bardağın içinde de P0 kadarlık basınç
+vardır dışarıda zaten p0'lık basınç var
+Bu nasıl Mümkün olabilir yani buradaki
+P0 Koskoca atmosferden kaynaklı bir
+basınç e bardağın içerisinde Tamam bir
+hava var bir oksijen var bir şey var O
+da bir basınç oluşturuyor Tamam ama
+nasıl koca atmosfer kadar olabilir şöyle
+atmosfer dediğin şey bütün dünyanın
+etrafına yayılmış durumda çok geniş bir
+hacimde Çok da fazla miktarda gaz
+taneciği yani p ve n rt'den düşünürsen
+sıcaklık bir değişken değil R bir
+değişken değil çok fazla miktarda gaz
+taneciği var çok fazla hacme yayılmış
+durumdalar Dolayısıyla belli bir p
+vardağın içerisinde ise az miktarda gaz
+taneciği var Evet ama onu da küçük bir
+hacme sıkıştırmış durumdayız Dolayısıyla
+aynı basıncı elde etmemizde herhangi bir
+sakınca yoktur bu durumu da giderdikten
+sonra cevabı e dedik ve geçtik Ayten gaz
+basıncını anlatmak için hazırladığı
+deneyde ağzı açık boş bir plastik şişede
+şekil 1'deki gibi bir delik buraya hava
+almayacak biçimde pipet yerleştiriyor
+içine su koyduğunda pipetten suyun
+akmadığını gözlemliyormuş önce bunu bir
+tartışalım neden burada Su akmıyor şimdi
+bunun ağzı açık Dolayısıyla buradan açık
+hava basıncı atmosfer basıncı etki
+ediyor diyebiliriz hocam Toriçelli deney
+işte buradan bastırınca bu pipetin
+içerisinde yükselmesi lazım yükselemez
+Çünkü buradaki pipetin Ağzı da açık Yani
+aynı P0 Buradan da etki ediyor bu p0'ın
+yükseltmeye çalıştığını bu arkadaş
+tekrar indiriyor diyebilirsiniz ya da bu
+iki etki birbirini götürüyor
+diyebilirsiniz Dolayısıyla herhangi bir
+yükselme görmüyorsunuz daha sonra
+şişenin ağzına esnek bir balonu şekil
+2'deki gibi yerleştirmiş ve havayı
+serbest bıraktığında pipetten su
+aktığını görmüş Buna göre hangileri
+doğrudur demiş Şimdi biz buradaki balonu
+taktığımız anda buradan su akmaya
+başladıysa buradaki P0 P0 dengesi
+bozulmuştur Çünkü aynı P 0 buradan etki
+etmeye devam ediyor Su bu p0'ı
+dinlemeyip akmaya başladıysa kesinlikle
+Artık buradan etki eden basınç p 0'dan
+daha büyüktür Demek ki bu balonun
+çevresinde sahip olduğumuz gazın basıncı
+pegas p 0'dan daha büyükmüş ki şunu
+yenmişiz ve suyu akıtmaya başlamışız
+şekil bir de suya etki eden açık hava
+basıncı ile için etki eden açık hava
+basıncı eşittir Evet bunu başlangıçta
+konuştuk şekil 2'deki şişenin
+içerisindeki basınç açık hava
+basıncından büyüktür bunu da şimdi
+söyledim buradaki basınç şu p0'ı yenmiş
+ki su akmaya başlamış yoksa mümkün
+olmazdı akması kapta biriken su miktarı
+pipetin su içindeki yüksekliğine
+bağlıdır Kaptan kastımız şu arkadaş
+Sonuçta burada bir su birikiyor pipetin
+su içindeki yüksekliğine bağlı mıdır
+yani şu mesafeye bağlı mıdır diye
+soruyor Burası daha az olsa ne olur Daha
+fazla olsa ne olur tabii ki bağlıdır
+Daha az olduğunu düşünelim mesela
+Örneğin bizim buradaki su seviyemiz
+şurada bir yerde olsaydı yine aynı
+basıncın etki ettiğini düşünsek bile bir
+kere hacim arttığı için bu balonun
+etkisi azalacak ama Onu ihmal etsen bile
+yani balonun içerisindeki basıncın aynı
+kaldığını düşünsen bile buradan etki
+eden p gaz balondan bahsediyorum ne ile
+mücadele ediyor O zaman p gaz dediğim
+şey büyüktür bir kere suyu pipetin
+içerisinde yükseltiyor Yani şöyle bir
+yükseklik buna haç desem haşh DG Artı
+Bir de Buradan etki eden P0 Yani hem
+sıvıyı yükseltiyor Bir de dışarıdan
+gelen açık hava basıncını yeniyor suyun
+seviyesi burada olsaydı daha yukarıda
+olsaydı o zaman pipet içerisinde
+yükseltici mesafe bu kadar olurdu yani
+buradaki H daha küçük olurdu Bu daha da
+baskın olurdu Daha da baskın olduğu için
+çok daha hızlı şekilde buradan suyu
+tahliye ederdi daha fazla miktarda su
+açığa çıkardı ve bu kaptaki su miktarı
+daha fazla olurdu yine uç nokta
+düşünelim yorum sorularında bu taktiği
+çok kullanırız yani suyun seviyesi o
+kadar aşağıda ki bu Gaz basıncı artık
+şunları karşılayamıyor bu HD devasa
+boyutlara çıktığı için bunun gücü
+yetmiyor O zaman hiç suyu çıkaramaz bu
+kapta toplanacak olan su miktarı çok az
+olur bir başka bakış açısı da Neticede
+bu Suyun bu pipetin de En altına denk
+gelmemesi gerekiyor su çıkması için yani
+suyun seviyesi şurada olsa buradan p gaz
+bastırsa bile bu adamın ucu Boşlukta
+kaldı suyu ne yapacağız yani havaya mı
+zıplatacağız onun içine sokmak için
+belli bir seviyeden sonra zaten pipetin
+içinde su girmeyecek Dolayısıyla suyun
+içerisindeki pipet mesafesi önemlidir
+üçüncü öncülüğünde Doğrudur sorunun
+cevabı e seçenektir su içine daldırılan
+iki ucu açık bir pipetin üst ucu hava
+sızmayacak bir şekilde kapatılmış ve
+pipet sudan tamamen çıkartılmış Buna
+göre hangileri doğrudur Bunu günlük
+hayatta denemiş olabilirsiniz suyun
+içerisine daldırın ama parmağınız kapalı
+olacak şekilde sonra bunu çıkartın
+pipetin içerisinde bir miktar suyun
+kaldığını görürsünüz bunu böyle
+taşıyabilirsiniz bir yerlere
+bırakabilirsiniz Nasıl oluyor bu olay
+Buraya daldıralım biz bu arkadaşı
+kılcallık etkisi ihmal hiçbir yükselme
+görmüyorsunuz Neden Çünkü buradan açık
+hava basıncı bastırıyor ucu açık olduğu
+için buradan da bastırıyor bu iki etki
+birbirini sıfırladığı için herhangi bir
+yükselme görmeyeceğim Şimdi ben burayı
+parmağımla kapattığım anda içeride hala
+açık hava basıncına denk bir hava
+bırakmış olursun Az önce konuşmuştuk
+atmosfere göre çok az miktarda gaz
+miktarı var ama hacim de çok küçük
+atmosfere göre Dolayısıyla ben bunu
+parmağımla tuttuğumda şu an bu boşlukta
+açık hava basıncına eş değer bir basınç
+var ve Hocam biz bunu çıkarttığımız anda
+o zaman bu Suyun tamamı dökülür Çünkü
+dışarı çıkarttığımızda buradan açık hava
+basınca etki edecek bu iki etki
+birbirini götüreceği için bu suyun
+burada kalması imkansız Hayır değil
+bunun Hepsi dökülmez Bir miktarı dökülür
+Çünkü buradan su döküldükçe şu üst
+seviye altlara doğru indikçe mesela
+şuraya gelse şu kadar su kaldığını
+düşünelim bizim bu boşluğumuzda
+hapsolmuş olan hava miktarı buradaydı
+suyun seviyesi aşağı indikçe artık şu
+hacme yayılmış oldu yani gazın bulunduğu
+hacim arttı Dolayısıyla oradaki gazın
+basıncı azaldı su döküldükçe artık
+içeride f0’dan daha az Basınç var mesela
+p0/2 oldu şimdi yeni durumu çiziyorum su
+kalır mı kalmaz mı siz karar verin
+burası kapalı parmağımla kapattım şurada
+bir miktar su var buradan P0 bölü 2
+itiyor Buradan da P0 etki etmeye devam
+ediyor böyle dengede kalamaz mı Gayette
+kalır nasıl bir denklem yazarsa mesela
+şu kırmızı noktada yukarıya doğru P0
+tutmaya çalışıyor kimi tutmaya çalışıyor
+p0/2 + şu mesafeye de H dersem hd'lik
+bir sıvı basıncını tutmaya çalışıyor Bu
+matematikte Herhangi bir sıkıntı yok P0
+/ 2'yi bir şeyle toplayınca P0 elde
+edebiliriz olayın fiziği budur pipet
+içerisindeki su miktarı değişmez Hayır
+biraz dökülmek zorunda çünkü başlangıçta
+bu kısımda P0 var burada da P0 var
+bunlara eşit Suyun tamamını tutamazsın
+biraz dökülecek ama döküldükçe
+Yukarıdaki basınç azalacağı için dengede
+kalabileceği bir su miktarı olacak
+içeride pipetten bir miktar su dökülür
+pipetin ucunu tutan parmak kaldırılırsa
+pipetteki su tamamen dökülür Aynen öyle
+Sen bu parmağı kaldırdığın anda artık
+burada p0/2 olmaz yeniden atmosfer
+tamamiyle etki etmeye başlar P0 olur bu
+P0 ile bu P0 birbirini götürür su
+tamamen dökülür Hocam yine aynı mantık
+birazı dökülse Şuradaki hacim artıyor
+Burası tekrar p0/2'ye eşit olur dengede
+kalamaz mı İyi de Burası hep açık Hep
+açık olduğu için p0'ın yarıya düşme gibi
+bir durumu olmayacaktır hep P0
+kalacaktır dışarıda da P0 var
+Dolayısıyla Suyun tamamı dökülecektir
+üçüncü öncülüm doğru Sorumun cevabı E
+seçenektir öğretmen basınç konusunda
+işlerken laboratuvarda aşağıda
+belirtilen deney yapıyormuş boş iki
+teneke kutusunun içine tabanını
+kaplayacak şekilde su koyduktan sonra
+şekil 1'deki gibi bir tavada ısıtıyormuş
+bunların içerisine tabanı kaplayacak
+kadar şu kadar su koymuş ve bunları
+ısıtmaya başlamış kutuların ağzından
+buhar çıkmaya başladıktan sonra
+kutulardan birini içinde buzlu su
+bulunan kaplara şekil ikideki gibi açık
+ağız üstü olacak biçimde diğerini ise
+şekil üçteki gibi açık ağzı suyun içinde
+olacak biçimde yerleştiriyormuş
+hangileri doğrudur diyor şimdi buradaki
+olay ne biz bunları ısıtıyoruz burada
+var bu su buharlaşmaya başlıyor
+Dolayısıyla içeride su buharı var ve bu
+sıcak aynı şekilde buradaki de sıcak
+ısıtılmış içinde sıcak hava sıcak su
+bulunan kaplardan bahsediyoruz bunların
+üst kısımlarının ağzı açık şekil ikide
+Bunu alıyorum Aynen buzlu suya koyuyorum
+yani Tabandan soğukla temas ettiriyorum
+açık ağız yukarıda bunu da soğukla temas
+ettiriyorum Ama bunun açık ağzı aşağıda
+şekil 2 de kutunun içindeki Gaz basıncı
+dışındaki açık hava basıncına eşit olur
+Bunun ağzı açık zaten atmosfer basıncı
+rahatlıkla buradan etki edebiliyor
+Dolayısıyla dışarıda nasıl basınç varsa
+İçeride de o basınç vardır diyebiliriz
+birinci öncülüğüm doğru şekil 3'te
+kutunun içindeki gaz basınca dışındaki
+açık hava basıncından küçüktür şekil 3
+2'den farklı çünkü şekil 3 hala kapalı
+bir sistem açık hava basıncının direkt
+etki etmediği bir sistem şimdi her ne
+kadar biz burada bunları ısıtsak da
+bunların ağzı açık olduğu için atmosfer
+basınçları açık hava basınçları buradan
+rahatlıkla etki edebiliyorlardı sen bunu
+ters çevirdiğinde Bunun içerisinde P0
+var diye Düşünsene buzlu suya koyduğun
+için sıcak olan havayı şu an içeride
+soğutuyorsun yani sıcaklığını
+azaltıyorsun sıcaklık azalırsa p ve en
+rt'den basınç azalmaya başlar Yani bunun
+içerisindeki basınç P0 dan atıyorum
+p0/2'ye p0/4'e düşmeye başlar O yüzden
+içerideki Gaz basıncı dışarıdaki açık
+hava basıncından daha küçük olur hatta
+bu meşhur bir deneydir koca koca
+varilleri Bu yöntemle küçücük yapıyorlar
+mantığı nedir atmosfer basıncı etkileri
+şimdi içeride p0/10 varsa dışarıda P0
+varsa dışarıdan içeriye büyük bir kuvvet
+etki eder Dolayısıyla bu kutu küçücük
+kalır bakın sorunun deney videosu Bir
+varil var içerisine bir miktar su
+konulmuş alttan ateşle ısıtılıyor o su
+buharlaştırılıyor şu an içeride sıcak
+bir su var ve ağzı açık atmosfer basıncı
+buraya etki edebiliyor Şimdi adam
+elindeki Neyse artık o kerpeten ne
+ağzını kapatıyor dışarıya kapalı hale
+getiriyor atmosfer basıncının direkt
+etki edemediği hale getiriyor içeride
+sıcak bir hava basıncı var ama
+atmosferin etki edebildiği bir hava
+basıncı yani P0 gibi hayal etseniz
+Herhangi bir problem olmaz şimdi bunu
+soğuk suyla soğutmaya başlıyor içerideki
+sıcaklığı azaltıyor sıcaklık azaldığı
+için içerideki basınç azalmaya
+başlayacak atmosfer basıncından daha
+küçük hale getirecek bunu yeteri kadar
+soğutabilirseniz dışarıdaki atmosfer
+basıncından çok daha küçük hale
+getirebilirsiniz
+şekilde gördüğünüz gibi küçücük
+kalacaktır atmosfer o kadar güçlüdür ki
+Kocaman bir varili bile bu hale
+getirebilir koca varilo hale geldi bizim
+kutumuz Hayda haydi haydi küçülecektir
+Dolayısıyla sorumuzun cevabı e seçeneği
+olacaktır öğretmen Gaz basıncı konusunu
+anlatmak için 5 adımlı bir gösteri
+deneye hazırlıyormuş Buna göre hangi
+adımlarda balonun şişkin durumda olması
+beklenir Şimdi ben bakıyorum ne var bu
+deneyde içi boş Şişeler var balonlar
+içeriye doğru daldırılmışlar bir
+tanesinin şurasında delik var Diğeri
+tamamen kapalı bir sistem dışarıdan
+atmosfer basıncının açık hava basıncının
+her iki balona Dolayısıyla şişeye etki
+ettiğini söyleyebiliriz şekildeki Özdeş
+ve içi boş iki plastik şişenin ağzına
+Özdeş iki esnek balonu şişenin içine
+doğru yerleştirip beşin tabanına yakın
+bir noktada delik açar Evet bunu şimdi
+zaten anlattım Bu birinci adımmış bunu
+yapmış hangi adımda balon şişer diye
+soruyor bize Birinci Adım başlangıç
+adını a şişesinde balonu ağzıyla
+şişirmeye çalışır şişiremezsiniz Bu
+balon yerinden kıpırdamaz Çünkü siz bu
+balonu takmadan önce bu Şişene ağzı
+açıktı içerideki gaz dışarıdaki açık
+hava basıncı kadarlık bir basınç
+uygulayabilir siz
+üflediğinizde bunun biraz büyüdüğünü
+Hayal etsem ne olmuş olur balonu biraz
+şişirebildiğinizi düşünsek içerideki
+hacmi küçültmüş olursunuz çünkü balon
+içeride büyüdü içerideki hacim küçüldüğü
+için içerideki P0 daha büyük hale geldi
+dışarıdan P0 etki ediyor içeride p0dan
+daha büyük bir şey var o balon şişkin
+kalabilir mi balonun şişmesi imkansız
+Birazdan buna deneyin izleteceğim
+şişmeyeceğini göreceksiniz 5 yaşındaki
+balonu ağzıyla şişirmeye çalışır bunda
+hiçbir problem yok balon şişer Çünkü
+burası delik buradan açık hava basıncı
+etki ediyor tamam Dışarıdan da etki
+ediyor Tamam sen bu balonu biraz
+şişirdiğinde burada bizim hacim
+problemimiz yok içerideki hacim
+küçülüyormuş gibi olsa da burası delik
+olduğu için hala aynı P0 etki edecektir
+ve küçüldü ama içerideki n miktarda
+küçüldü diyebiliriz Yani buradan bir
+miktar hava dışarı çıkacaktır balon
+içeride büyüdüğünde yani İçerisi hep P0
+olmaya devam edecektir O yüzden balon
+Normal şişirmekle bu şişenin içerisinde
+şişirmeye çalışmak arasında hiçbir farkı
+yok üçüncü adımda balon şişti 4'te diyor
+ki parmağıyla 5 yaşındaki deliyi
+kapatıyor ve ağzını şişeden
+uzaklaştırıyor Şimdi ben balonu şişirdim
+üçüncü adımda dışarıda 0 var içeride P0
+var burası delik olduğu için içeride P0
+kadarlık basınç olmaya devam etti
+Balonda şişirebildiğimi söylemiştim ve
+ben burayı parmağımla kapattığımda Tamam
+içeride p0'lık bir basınç devam ediyor
+dışarıdan şuradan da P0 devam ediyor
+balonun esnekliğini ihmal ettiğimiz için
+balon içerisinde P0 var dışarıda P0 var
+böyle güzel güzel yaşayabiliriz balon şu
+an şişkin durumdadır 4 Öncül de şişkin
+durumda olmasını beklediğimiz bir
+durumdur 5 adım ağzıyla b ş içerisindeki
+havayı emerken parmağını delikten çeker
+İşte en güzel yer burası ben bu delikten
+parmağımı çekiyorum ve içerideki havayı
+ağzımla dışarı çıkartıyorum İçerisi
+vakum ortamı olmaya çalışıyor pipetle
+bir şey içmeye çalışmak gibi o zaman sen
+içerideki Bu p 0'ı azaltmaya başlarsın
+balonun içerisindeki P 0 Bu bölümdeki p
+0'dan daha büyük olduğu için bu balon
+şişmeye başlar Daha da çok şişer konu
+anlatımında size bir deney izletmiştim
+etrafındaki açık hava basınca azalan
+kendi halindeki bir pet şişe şişmeye
+başlıyordu benzer bir mantık burada
+vakum ortamı oluşturmaya başlarsan Bu
+balon şişmeye başlayacak olacaktır Çünkü
+bu bölgedeki basıncı azalttın içerideki
+basınç daha fazla hale geldi O yüzden
+5'te de şişkin durumdadır bunun da
+deneyiniz değil bakın burada boş plastik
+şişemiz var içeride atmosfer basıncı
+kadar basınç var şişenin dışında da o
+kadar var balon Aynı bizim sorumuzda
+olduğu gibi içine yerleştiriyor ve
+ağzını takıyor üflediğinde
+şişiremediğini görüyorsunuz Aynı bizim
+soruda konuştuğumuz gibi Çünkü siz
+balonu şişirmeye çalıştığınızda
+içerideki hacmi azaltıyorsunuz içeride
+Normalde atmosfer basıncı kadar hava
+hapsetmiştiniz onu sıkıştırdığınızda
+içeride atmosferden daha şiddetli bir
+basınç olur dışarıda daha az atmosfer
+basınca içeride daha şiddetli atmosfer
+basıncı o zaman şişiremezsin tabii ki
+ama siz bunu bir yerden delerseniz yine
+bizim sorumuzda olduğu gibi O delik
+orada olduğu müddetçe dışarıda da aynı
+atmosfer basıncı var içeride de aynı
+atmosfer basıncı var rahatlıkla bu
+balonu şişirebilirsiniz şimdi o deliği
+parmağıyla kapattı bantla kapatıyor
+orayı balon bu şekilde şişkin kalabilir
+ya da balonu üfleyerek değil İçerdeki
+Havayı vakumlayarak da o delikten
+çekerek de gördüğünüz gibi
+şişirebilirsiniz Çünkü ben içerideki
+havayı vakumladığımda bu İçerdeki
+basınca azaltıyorum tekrardan atmosfer
+bastırıyor ve balonu şişiriyor şu an bu
+balonu şişiren şey atmosfer basıncıdır 3
+4 5'te balon şişkin kalır Sorumun cevabı
+D seçeneğidir geldik testimizin son
+sorusuna çok sağlam sorular çözdük
+tyt'de çıksa bir sürü adamı dökecek çok
+elleyici sorular çözdük ama Bizim
+amacımız yorum gücümüzü geliştirmek
+zaten Yani bu tip sorularda yorum
+yapabilmeyi öğrendikçe tyt'de çıkacak
+olan da zaten ayda aydı mevzuları
+halledersiniz düşey kesti şekildeki gibi
+olan kapta p ve R gazları sızdırmaz
+hareketli MV ve n pistonlarıyla
+dengededir Buna göre hangileri doğrudur
+denilmiş p gazının basıncı ile açık hava
+basıncı eşit ise M pistonun ağırlığı
+önemsizdir hemen o ikisinin iletişimde
+olduğu yeri inceleyelim burada bir
+piston var burada kaldığına göre dengede
+olduğuna göre üzerindeki Net kuvvet
+sıfırdır Dolayısıyla üzerindeki net
+basınç etkisi de sıfır olmalı Mesela ben
+şu kırmızı noktayı incelesem p gazı
+buradan yukarıya doğru bastırıyor niye
+çıkmıyor piston yukarıya çünkü onu tutan
+yukarıdan P0 var Dolayısıyla Bu ikisi
+eşit olduğu için piston hareketsiz
+kalıyor diyoruz genelde ama bunu
+diyebilmemiz için bu pistonun
+ağırlığının kontrol edilmesi gerekir
+Eğer bu piston ağırlığı ihmal
+edilmemişse Bu pistonda bir g ağırlık
+yazarsan o zaman pistonun alanında
+tanımlamam gerekir şöyle bir ağ alanına
+sahip bir dairesel piston Olduğunu hayal
+edersem denklemim artık şöyle olur
+piston yine dengede Tamam alttaki Gaz
+basıncı kimi tutuyor artık hem açık hava
+basıncını tutuyor hem de pistonun
+ağırlığından kaynaklanan kuvvet bölü
+alanını tutuyor bu da basınç ifadesi
+biliyorsunuz Dolayısıyla pistonun
+ağırlığı Önemliyse denklemin bundan buna
+dönüşür eğer diyor bu eşitlik varsa Yani
+bunu yazdıysan M pistonun ağırlığı
+önemsizdir Aynen öyle R basıncı p'den
+büyükse yani şu gazın basıncı
+üsttekinden büyükse n pistonu
+ağırlıklıdır Aynısının daha alttaki
+versiyonu şu noktayı incelediğimde bu
+pistonun fotoğrafını çektiğimde sadece o
+pistona odaklanıyorum başka hiçbir şeye
+bakmıyorum Yukarıdaki açık hava basıncı
+beni ilgilendirmiyor Mesela şu an burada
+hangi basınçlar var bu piston niye orada
+duruyor pistonun ağırlıklı olma durumunu
+dikkate aldığımızda aynı denklemi
+yazmayacak mıyız Yukarıdaki gibi Evet
+buradan R gazının uyguladığı bir basınç
+var buradan p gazının uyguladığı bir
+basınç var e pistonun da g kadarlık bir
+ağırlığı varsa bu pistonun da alanına a
+dediysem yukarıdan aşağıya doğru basınç
+nedir bu pistonda yukarıdan gelen p
+gazının basıncı artı pistonun
+ağırlığından kaynaklanan basınç kim
+tarafından tutuluyor yukarıya doğru R
+gazının basıncı tarafından tutuluyor E o
+zaman R basıncının p'den büyük olması
+lazım Çünkü onu bir şeyle toplayınca
+r'ye elde ediyoruz ikinci öncünün
+Doğrudur pistonlar ağırlıksız kabul
+edilirse R basıncı p gazının basıncı ile
+açık hava basıncının toplamına eşittir
+güzel bunu üçüncü defa konuşuyoruz
+Aslında ders anlatımında konuştuk sıvı
+basıncında da benzer bir soru çözdük
+Aslında şimdi de azıcık bahsetmiş olduk
+buradaki R gazının basıncı ağırlıksız
+pistonsa Eğer şu arkadaş direkt p'ye
+eşittir Çünkü ben bu pistonun
+fotoğrafını çektim Bu fotoğrafta açık
+hava basıncı yok yukarıdan p gazının
+basıncı var aşağıdan R gazının basıncı
+var piston ağırlıksızsa bu iki arkadaşın
+etkisi birbirini sıfırladığı için o
+piston orada kalıyordur ama Hocam bu
+P'nin üstünde de P0 var aslında denklemi
+şöyle yazmamız gerekmiyor mu işte p r
+kimi tutuyor yukarıdan P0 geliyor E bir
+de P'nin de kendi basıncı var Bunları
+topluyoruz bunların toplamını tutuyor
+Hayır bunların toplamını tutmuyor p'yi
+tutuyor çünkü p gazının ağırlığı yok
+Kendi ağırlığından kaynaklı bir basıncı
+olmadığı için tek yaptığı şey üstteki
+basıncı alıp alta aktarmaktır Mesela ben
+en üstte ne yazdım pistonlar
+ağırlıksızsa p gazının basınca açık hava
+basıncına Eşittir Ben bu eşitliği şöyle
+de yazabilirim o zaman p r = p yerine P0
+yazabilirim bu denklem de doğrudur H
+gazı Burada sadece aktarma görevi
+görmüştür Kendisinden bir şey
+katmamıştır çünkü ağırlığı yok ağırlık
+olursa onu da hesaba katman gerekir p
+gazı ne yapmış burada dengelediği p 0'ı
+almış buraya aktarmış yani Pr Neyi
+tutuyor p0'ı tutuyor da diyebilirim aynı
+Yorum bu denklem de doğrudur bu denklem
+de doğrudur son bir örnekle artık bu
+mevzunun anlaşılacağını düşünüyorum
+Çünkü bazı öğrenciler hakikaten sıkıntı
+yaşıyor bunlarda diyelim ki kavga
+ediyorsunuz bu adamla bu adam kavga
+ediyor birbirlerini ittirmeye
+çalışıyorlar araya da sizi ayırmaya
+çalışan başka bir adamı koyduk Bu
+Ortadaki siyah Hem bu maviyi tutuyor Hem
+bu mavi tutuyor yani ellerini böyle
+yapmış birbirlerine girmesinler diye
+tutuyor şimdi bu bir numara Olsun bu da
+iki numara olsun 1 ile 2 kavga ediyor Bu
+bir numara kimle mücadele ediyor Eğer
+buranın fotoğrafını çekersem siyahla
+mücadele ediyor Bu iki numara kimle
+mücadele ediyor Eğer buranın fotoğrafını
+çekersen siyahla mücadele ediyor ama Ben
+olaya bütüncül bakarsam toptan büyük
+resmi görmeye çalışırsam burada Kim
+kavga ediyor 1 ile 2 kavga ediyor Yani
+bu 1'in kavgası 2 ile bunun yaptığı
+ortadaki adamın yaptığı tek şey Şuradaki
+etkiyi buraya aktarmak Ya da buradaki
+etkiyi buraya aktarmak bu siyah
+kendinden bir şey katmıyor bir yumruk da
+ben vurayım demiyor p gazını yaptığı şey
+tam olarak budur Bu fotoğrafı incelersen
+R gazı P ile mücadele ediyor bütüncül
+bakarsan R gazı açık hava basıncı ile
+mücadele ediyor kavgayı ayıran arkadaş
+buradaki pagasıdır 3 öncülüm yanlış
+Sorumun cevabı 1 ve 2'dir ikinci
+testimize devam edeceğiz takılı kanalı
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

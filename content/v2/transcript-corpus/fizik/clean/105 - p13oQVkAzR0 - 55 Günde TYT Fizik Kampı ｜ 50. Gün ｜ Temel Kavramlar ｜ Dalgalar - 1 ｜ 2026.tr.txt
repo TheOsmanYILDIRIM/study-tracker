@@ -1,0 +1,1001 @@
+gençler Merhaba bugünkü dersimizde
+birlikte dalgalar ünitesine başlıyoruz
+oldukça kolay bir ünitedir hele optiği
+iyi öğrendiysen Sizin için çok daha
+kolay bir ünitedir Çünkü optikte
+kullandığımız mantıkların çok benzerleri
+burada da var Optik gibi uzun bir ünite
+sayılabilir ÖSYM de bu yüzden buradan
+soru sormayı alışkanlık haline
+getirmiştir her sene kesin çıkar demesek
+de soru çıkma ihtimali çok yüksek bir
+yerdir diyebiliriz dalga dediğimiz şeyin
+günlük hayatta birçok versiyonu var yay
+dalgası var su dalgası var ses dal
+dalgası var deprem dalgası var Bütün
+bunları ayrıntılı olarak öğreneceğiz Ama
+öncelikle bunları öğrenebilmek için İşin
+a b c'si alfabesini öğrenmemiz gerekiyor
+Yani bütün ünite boyunca bahsedeceğimiz
+kavramları öğrenmemiz gerekiyor titreşim
+dalga hareketi dalga boyu periyot
+frekans hız ve genlik gibi kavramlar bu
+işin harfleri sürekli sorular bunların
+üzerinden dönecek bunlar bize sorulacak
+ya da bunların üzerinden yorumlar
+yapacağız Önce şu titreşimi bir
+halledelim bir gitar teline parmağınızla
+vurduğunuzda o gitar telinin şu an
+bulunduğu denge konumunun iki tarafında
+simetrik bir bir titreşim hareketi
+yaptığını görürsünüz parmağınızla bunu
+itersin denge konumundan orijinal
+yerinden uzaklaştırmış olursunuz
+bıraktığınız anda o orijinal yerinin iki
+tarafında bir titreşim hareketi yapar bu
+titreşim hareketi içinde bulunduğu
+havayı titreştirir hava taneciklerinin
+titreşmesi Ses dalgalarını oluşturur
+yani titreşimler dalgaları
+oluşturuyorlar benzer mantıkta bir
+davulun yüzeyini düşünelim şu an
+orijinal konumunda denge konumunda Siz
+buna bagetle vurduğunuzda denge
+konumunun altına ve üstüne sürekli
+titreşim yapacak şekilde hareket etmeye
+Baş başlıyor bu da içinde bulunduğu hava
+taneciklerini titreştirici
+bunu denge konumundan uzaklaştırdığını
+da üstünde ve altında küçük ve hızlı bir
+salınım hareketi yapıyor yani titreşim
+hareketi yapıyor Peki dalga ne demektir
+titreşim hareketi sonucunda esnek bir
+ortama aktarılan enerjinin bir noktadan
+başka bir noktaya iletilirken ortamda
+oluşturduğu şekil değişikliğidir dalga
+deyince Muhtemelen hepinizin aklına
+şöyle bir şekil geliyor İşte biz böyle
+bir şekil oluşturuyoruz esnek bir
+ortamda esnek ortamdan kastımız Nedir
+mesela su esnek bir ortamdır tanecikleri
+rahatlıkla hareket edebilirler hava
+esnek bir ortamdır hava tanecikleri
+Gözümüz göremesek de rahatlıkla hareket
+edebilirler ama beton esnek bir ortam
+değildir Biz beton taneciklerinin
+hareket ettiğini durup dururken görmeyiz
+suya taş atarız suya bir enerji
+aktarırız su taneciklerinin hareket
+ettiğini görürüz zaten o olayın bütününe
+de dalga hareketi diyoruz su dalgası
+diyoruz veya konuştuğumuz zaman ses
+duyuyoruz Çünkü aslında konuştuğumuzda
+Biz ortamdaki hava taneciklerini
+hareketlendiriyor gözümüzle göremesek de
+ses dalgaları oluşturuyoruz ortam esnek
+olduğu için hava tanecikleri rahatlıkla
+hareket edebiliyorlar ama ben betona
+vurduğumda ya da betona taş attığımda
+suya Taş atmak gibi betonun
+dalgalandığını hareket ettiğini beton
+taneciklerinin kıpırdadığını görmüyor
+İşte o yüzden dalga hareketin olması
+için esnek bir ortam gerekiyor titreşim
+hareketi sonucunda diye belirtmiş bir
+dalga oluşturmak için kaynağa
+ihtiyacınız vardır Örneğin su esnek bir
+ortam pürüzsüz bir Su yüzeyine mesela
+gölün kenarına indim parmağımı suya
+sokup çıkartıyorum şu an benim parmağım
+bir dalga kaynağıdır dalga oluşturuyordu
+Parmağımın suya girip çıkması aslında
+bir titreşim hareketidir salınım
+hareketidir hayal edebileceğiniz gibi
+parmağımı suya sokup çıkartmam suyun
+üzerinde bir dalga anma oluşturur Çünkü
+ben parmağımla ortama bir enerji
+aktarmış mdır o enerji dalgalarla bütün
+ortama yayılmıştır bütün suya
+yayılmıştır Örneğin burada bir halatım
+var halat ip ya da bir yay Bunların
+hepsi benzer çalışan esnek ortamlar Biz
+bunu yay gibi düşünelim Çünkü yay
+dalgaları diye bir şey öğreneceğiz bu
+simülasyonda çokça kullanacağız buradaki
+kırmızı ve yeşil noktacıklar yayı
+oluşturan tanecikler Örneğin Şuradaki
+yeşil arkadaşa odaklanalım burada güzel
+güzel duruyor herhangi bir kinetik
+enerjisi yok potansiyel enerjisi yok şu
+anki konum denge konumudur burada bir
+cihazım var bu cihaz dalga kaynağı
+olacak bu cihaz ucuna bağlanmış olan
+yeşil noktayı titreştirici denge
+konumundan uzaklaştıracak sonra tekrar
+denge konumuna getirecek sonra denge
+konumunun altına indirecek ve sonra
+tekrar denge konumuna getirecek yani
+titreşim hareketi salınım hareketi
+yapacak işte bu da bu ortama bu esnek
+ortama bir enerji aktarmak demek burada
+Alışık olduğumuz dalga şeklini göreceğiz
+ve hiçbir enerjisi olmayan bu arkadaş
+enerji kazanacak Çünkü dalgalar bu
+kaynağın ortama verdiği enerjiyi
+taşırlar çalıştıralım kaynağımızı
+kaynağım ız titremeye başladı ve
+buradaki yeşil noktanın enerjisi yoktu
+artık kinetik enerjisi var potansiyel
+enerjisi var dalgalar enerji taşırlar ve
+şu anki görüntüye bütüncül olarak
+baktığınızda sanki sağ tarafa doğru
+dalgaların ilerlediğini görüyorsunuz
+Yani bir yere odaklanın mesela kaynak Şu
+an bir Tepe oluşturdu sağ tarafa doğru
+giden bir Tepe görüyorum halbuki bu yayı
+oluşturan tanecikler hiçbir yere
+gitmiyorlar En azından sağ tarafa sol
+tarafa gitmiyorlar dalgaların ilerlediği
+yönde gitmiyorlar yayı oluşturan
+taneciklere dikkat edin tek yaptıkları
+şey aynı kaynak gibi yukarıya aşağıya
+hareket etmek titreşim hareketi yapmak
+denge konumunun üstüne ve altına
+simetrik olarak gidip gelmek Meksika
+dalgası da buna benzer Dünya kupasına
+Avrupa şampiyonasını falan izliyorsanız
+oralarda çok yapılır bir gelenektir
+bütün olarak stada baktığınızda
+Tribünlerde bir şeyin dolaştığını
+görürsünüz bir dalga hareketi
+gözlemlersiniz Halbuki yapılan şey nedir
+o dalgayı oluşturan tanecikler yani
+seyirciler sıra kendilerine geldiğinde
+ayağa kalkıp ellerini kaldırırlar sonra
+ellerini indirip otururlar bu sırayla
+yapılır senkronize yapılır Siz tribünde
+bir şeyin hareket ettiğini görürsünüz
+türbünü dolaştığını görürsünüz halbuki
+hiçbir seyirci türbün boyunca koşmamak
+Adır sadece oldukları yerde titreşim
+yapmaktadırlar bu map için Dolayısıyla
+bizim için çok önemli yüzeyi pürüzsüz
+olan bir suya su damlası düştüğünde
+esnek ortam olan suda şekil değişikliği
+oluşturur Yani bir dalga oluşturur Bu
+dalga ortam boyunca iletilir ama su
+molekülleri bu dalgayla beraber öteleme
+hareketi yapmazlar dalgalar sağ tarafa
+doğru yayılıyor diye su tanecikleri de
+sağ tarafa doğru gitmezler sadece
+titreşim hareketi yaparlar bu titreşim
+farklı şekillerde olabilir İlla düz bir
+rotada denge noktasının üstüne ve altına
+gitmek zorunda olmayabilir Az önceki
+simülasyonda yay dalgasında öyle oldu
+ama su dalgasında başladığımız noktaya
+geliyoruz ama düz bir Rota üzerinde
+değil bir çember üzerinde buradaki mavi
+noktalar su taneciklerini temsil
+ediyorlar bir tane su taneciğini
+odaklanın ve yaptığı harekete dikkat
+edin Örneğin en üstteki su taneciği
+başladığı noktaya sürekli geri geliyor
+ama bunu düz bir rotada yapmıyor çember
+çizerek yapıyor bunu bütün tanecikler
+yapıyorlar senkronize bir şekilde
+yapıyorlar Meksika dalgasına
+seyircilerin senkronize oturup kalkması
+gibi Bu dışarıdan baktığında bir dalga
+hareketi demek bir yayılma demek bir
+öteleme demek ama onu oluşturan
+taneciklerin hiçbir yere gitmemesi demek
+Eğer onu oluşturan tanecikler bir yere
+gitseydi suyun üzerindeki bu oyuncak
+ördek de dalgayla beraber ilerler
+Halbuki tek yaptığı şey olduğu yerde bir
+çember çizmektir Yani bir salınım
+yapmaktır Böylece dalganın ne olduğunu
+öğrendik dalga dediğiniz şey ortamdaki
+titreşen taneciklerin bütüncül olarak
+bakıldığında oluşturdukları bir şekil
+ortamdaki tanecikler neden titreşiyordu
+bir halatı salladığınız daki eliniz ya
+da konuştuğunuz daki ses teriniz
+Bunların hepsi dalganın oluşması
+komutunu veren dalga kaynakları Şimdi
+gelelim diğer kavramlarımız da dalga
+Tepesi dalga çukuru dalga boyu periyot
+frekans kavramları Az önceki
+simülasyonlu şu an Dalgalara bakıyoruz
+bu suyun orijinal konumu kaynağın
+çalışmadan önceki konumu şöyle bir konum
+Aslında pürüzsüz su yüzeyi böyle
+düşünülebilir Burası denge konumu olarak
+düşünülebilir Sen şurada kenarda bir
+yerde parmağını suya sokup çıkartırsan
+parmağın bir dalga kaynağı olursa
+buradaki tanecik lere titremeleri emrini
+vermiş olursun onlar da birbirini
+etkileye etkileye dalga hareketini
+oluştururlar İşte bu şekil üzerinde
+denge konumunun üzerindeki şu şekle Biz
+dalga Tepesi ismini veriyoruz denge
+konumunun altındaki bu şekle de dalga
+çukuru ismini veriyoruz tepenin en üst
+noktası Tepe noktası çukurun en alt
+noktası da çukur noktası olarak
+isimlendirilir ardışık iki tane Tepe
+noktası yani şu iki tane sarı noktayı
+düşünelim bu iki sarı nokta arasındaki
+mesafeye gençler dalga boyu ismini
+veriyoruz Yunan alfabesinden lambda
+dediğimiz bir harfle gösteriyoruz
+uzunluk anlattığı için de biriminin
+metre olduğunu söyleyebiliriz şimdi
+buradaki geometriye dikkat ederseniz iki
+Tepe arasındaki mesafe dalga boyu e aynı
+şekilde ardışık iki çukur noktası
+arasındaki mesafe de dalga boyudur yani
+o sarıyla çizdiğim uzunlukla maviyle
+çizdiğim uzunluk arasında sizce bir fark
+var mı hayır paralel kenar gibi
+duruyorlar Dolayısıyla Burası da bir
+dalga boyudur Hatta bir dalga tepesinin
+başlangıcıyla hemen peşindeki dalga
+çukurunun bitişi arasındaki mesafe de
+bir dalga boyudur bunu şöyle
+ispatlayabiliriz mesela Dalga boyunu
+şuraya x desem şuraya x desem Burası da
+x Burası da x olacak şekilde
+tanımlayabilirim dalga boyuna Ben şu an
+4x dedim şekil simetrik buradaki x
+uzunlukları birbirine eşit E bu bölgenin
+aynısından burada da yok mu Evet o zaman
+tepenin başlangıcıyla çukurun bitişi
+arasında kaç x var 4x var E o yüzden bu
+da bir dalga boyudur veya çukurla çukur
+arasındaki mesafe neden bir dalga boyu
+Çünkü çukur noktasıyla ardışık diğer
+çukur Noktası arasında 4x var 1x 2x
+Burası da x 3x Burası da X 4X hangisi
+işinize geliyorsa oradan dalga boyunu
+düşünebilirsiniz bu çizim dalga boyunun
+küçük olduğu bir çizim iken bu çizim
+dalga boyunun büyük olduğu bir çizimdir
+Çünkü buradaki tepeler arasındaki mesafe
+bu kadarken buradaki tepeler arasındaki
+mesafe daha açıktır dalga boyu
+büyümüştür diyebiliriz dalga boyu büyük
+dalga boyu küçük Şimdi gelelim periyot
+ve frekans kavramlarına periyot ve
+frekans kavramları aslında Sadece
+Dalgalara özgü kavramlar değil bütün
+salınım hareketleri için
+tanımlanabilecek kavramlar frekans
+dediğimiz şey bir sayı anlatırken
+periyot dediğimiz şey bir zaman anlatır
+bir süre anlatır frekans birim zamandaki
+titreşim sayısıdır frekansı yüksek
+hareketler çok salınım yapıyordur çok
+titriyordu frekansı düşük hareketlerde
+titreşim azdır daha Aheste davranıyordu
+daha tembeldir şimdi burada salınım
+hareketi yapan iki tane cisim
+görüyorsunuz Tekrarlı bir hareket olduğu
+için bunların bir frekansı var yani
+Birim zamanda bir titreşim sayıları var
+Birim zamanı bir saniye olarak
+düşünürseniz bir saniyede yaptıkları
+titreşim sayısına frekans diyoruz
+kronometrenin Bir saniye tutun şu an bu
+adamlar tam bir titreşim bile
+yapmıyorlar yani şuradan hareketini
+başlatsın zaman tutsam tekrar oraya
+gelmesi 3 saniye 4 saniye sürüyor Demek
+ki bir saniyede çeyrek titreşim yapıyor
+falan diyebilirim Şimdi ben bunların bir
+saniyedeki titreşim sayılarını
+arttıracağı yani frekanslarını
+arttıracağı işte Şu an frekanslarının
+arttığı bir hareket gözlemliyorsunuz bir
+saniyede iki titreşim belki 3 titreşim
+yapıyorlar Az önce çeyrek titreşim
+yapıyorlar Ken bu 5-6 katına çıktı
+frekansları 56 katına çıktı frekansı F
+sembolüyle gösteriyoruz birimi Herz Herz
+dalgalarla ilgili özellikle
+elektromanyetik dalgalarla ilgili çokça
+çalışması olan bir bilim insanı bu
+çalışmalarından dolayı frekansın
+birimine ismi verilmiştir saniye üzeri
+-1 gibi bir gösterimi de var Neden
+saniye üzeri -1 olduğunu birazdan
+anlayacaksınız periyodu öğrenince
+anlayacaksınız periyotla frekans
+birbirinin tersi frekans birim zamandaki
+titreşim sayısı cümleyi tersten alıyorum
+bir titreşim için geçen süre periyot
+Yani frekansın tam tersi şimdi buradaki
+kaynağın titreşimine odaklanalım
+frekansı birmiş kaynak çalışıyor
+frekansın 1 olması demek ne demek tanım
+aklınıza gelsin birim zamandaki titreşim
+sayısı Birim zamanı bir saniye olarak
+düşünürsen bu adam bir saniyede bir
+titre titreşim yapıyor frekansını 2
+katına çıkarttım frekansını 2 yaptım şu
+an bir saniyede 2 titreşim yapıyor
+başladığı noktaya iki defa geliyor
+frekansı 3 yaptım bir saniyede başladığı
+noktaya 3 defa geliyor yani 3 tane
+titreşim yapıyor birim zamandaki
+titreşim sayısı frekans periyot Bunun
+tam tersi bir titreşim için geçen süre
+frekansı 1 yaptım daha Aheste davranıyor
+daha tembel davranıyor Kaynak bu adam en
+üst noktadayken zamanı başlatacağım
+aşağıya inecek tekrar en üst noktaya
+geldiğinde zamanı durduracağım tam bir
+titreşim oldu tam bir titreşim için
+geçen süre Per periyodu ölçmüş olacağım
+en üst noktaya geldi başlattım süreyi
+alta indi tekrar eski haline geldi
+durdurdum 0.96 saniye gibi bir şey
+yaklaşık 1 saniye Bu arkadaşın periyodu
+şimdi Ben bu arkadaşın periyodunu
+azaltacağı başladığı yere daha kısa
+sürede gelecek en üst noktada başlattım
+tekrar en üst noktaya geldi durdurdum
+0.48 Az önce kaçtı 0.96 ydı periyodu
+yarıya indi Çünkü frekansı iki katına
+çıktı çünkü frekansla periyot birbirinin
+tersi periyot eş 1 B frekans ya da
+frekans eşit e 1 B periyot ya da İçler
+dışlar çarpımı periyot çarpı frekans eş
+1 İşte bu yüzden frekansın birimi saniye
+üzeri -1 frekans eş 1/2 ise birim
+analizi yaparsam frekans eş 1/5 demektir
+E bu da saniye üzeri -1 demektir frekans
+artıyorsa periyot azalıyor demektir ya
+da periyot artıyorsa frekans azalıyor
+demektir frekansı arttırdım birim
+zamandaki titreşim sayım arttı titreşim
+sıklığı arttı periyot azaldı başladığım
+noktaya daha kısa sürede geliyorum
+frekansı azaltıyorum titreşim sayım
+azaldı frekans sayı demek Birim zamanda
+daha az
+titreşiyordu arttı başladığım noktaya Bu
+yüzden daha geç geliyorum artık şimdi
+ben size periyot ve frekansın genel
+tanımlarını anlattım fiziğin her yerinde
+kullanabileceğiniz tanımları bizim
+konumuz dalgalar tam bir dalganın
+oluşması için gereken süreye periyot
+diyoruz bunun tersi olan birim zamanda
+oluşturulan dalga sayısına da frekans
+diyoruz dalganın periyodu ne demek tam
+bir dalga oluşması için gereken süre
+Peki tam bir dalga nasıl oluşturulur tam
+bir dalga dediğim şey dalga boyu lambda
+olan dalga demektir lambda ne demektir
+iki ik Tepe arasındaki mesafe yani şu
+ikisinin arasındaki mesafe ya da bu
+çukurun başlangıcıyla hemen dibindeki
+tepenin bitişi arasındaki bu mesafe
+Burası lambda İsa Burası da lambda tam
+bir dalga oluşturalım tam bir dalgayı
+kaynağımız oluşturacak kaynağımız şu an
+denge noktasında denge konumunda Ben
+bunu çalıştırdığımda Önce yukarı çıkacak
+Sonra en alta inecek sonra tekrar aynı
+yere denge noktasına aynı şekilde gelmiş
+olacak Bunun devamında yukarı çıkmaya
+devam edecek başlangıçta da yukarı
+çıkıyordu Çünkü aynı şekilde gelmesi
+önemli E şu an bizim kaynağımız tam bir
+titreşim yaptı buradaki süreyi ölç
+seydim kaynağın periyodunu ölçmüş
+olurdum tam bir titreşim için gereken
+süre bakın ne oluyor şimdi kaynağı
+çalıştırıyorum Yukarı çıktı aşağı indi
+tekrar denge noktasına geldi durdurdum
+oluşan şekil ne tam bir dalga nereden
+Anladım tam bir dalga olduğunu çukur
+başladı hemen peşindeki Tepe bitti işte
+bu mesafe lambda aynı Bunun gibi tam bir
+lambda oluşturduk tam bir dalga
+oluşturduk kaynak Eski yerine geldiğinde
+ne kadar süre geçti yani periyodu neydi
+0.50 saniye tam bir dalga kaç saniyede
+oluşturulmuş oldu 0.50 saniyede tam bir
+dalganın oluşması için gereken süre
+periyottur ve gördüğünüz gibi burası çok
+önemli dalgaların periyodu kaynağın
+periyoduna eşittir kaynak nasıl
+titreşiyordu kaç saniye sürüyorsa bu
+titreşimler oluşturulan dalgaların
+oluşma süresi de o kadar saniye
+sürüyordu bir dalganın periyodu tamamen
+kaynağın periyoduna eşittir yani
+kaynağın başladığı noktaya geri gelme
+süresi Neyse bunu yaptığında oluşturduğu
+dalganın oluşma süresi de odur
+dalgaların periyodu kaynakların
+periyoduna eşittir bir dalganın
+periyodunu sadece kaynağın çalışma
+stilini değiştirerek değiştirebilirsiniz
+kaynak daha hızlı çalışmaya başlarsa o
+dalgalar daha kısa sürede oluşturulmuş
+olurlar yani periyotları azalmış olur
+kaynağın periyodu artarsa Yani daha
+tembel çalışırsa başladığı noktaya geri
+gelme süresi artarsa oluşturduğu
+dalgalar da daha uzun sürede
+oluşturulmuş olurlar yani dalgaların
+periyodu artmış olur periyotla frekans
+birbirinin tersi olduğu için bunlar
+kardeş gibi oldukları için periyodun
+başına ne geliyorsa frekansın da başına
+o geliyordur dalgaların frekansı
+kaynakların frekansına eşittir kaynaklar
+Birim zamanda ne kadar titreşir lers
+Birim zamanda o kadar dalga oluştururlar
+birim zamandaki dalgası sayısı dalganın
+frekansı dır kaynağın frekansı Neyse
+dalganın frekansı Odur başka hiçbir
+şekilde değiştirilemez der sadece
+kaynağı değiştirmeniz gerekir Şimdi
+gelelim hız kavramına Biz kaynağı
+çalıştırdığımız zaman dalgalar
+oluşturuyoruz tanecikler hiçbir yere
+gitmiyorlar sadece bulundukları yerde
+titreşim hareketi yapıyorlar ama bunun
+bütününe baktığımızda sağ tarafa doğru
+İlerleyen bir şeyler görüyoruz yani
+burada Pencereden dışarıya çıkan
+dalgalar görüyoruz öyle hissediyoruz
+Dolayısıyla burada dalgaların hızından
+bahsedebiliriz dalgalar daha hızlı
+yayılabilir ya da daha yavaş yayılabilir
+hız dediğimiz şey harekette neye eşit
+gençler Birim zamanda yaptığın yer
+değiştirmedi Delta x b Delta t'ye hız
+diyoruz İçler dışlar çarpım yaparsak
+hepimizin Alışık olduğu haliyle x = vtd
+bizim sabit hızlı hareket denklem
+dalgalarda bu formül lambda eşittir
+dalganın hızı çarpı periyoda dönüşüyor
+çokça kullanacağımız bir ifade periyot
+eşittir 1 B frekans olduğu için de
+burada t yerine 1/5 yazarsanız dalga
+boyu eşittir dalganın yayılma hızı bölü
+frekans gibi bir ifade elde edersiniz
+Neden şimdi ben burada kaynağı
+çalıştıracağım dalgalar oluşmaya Baş
+başlayacak hayali bir nokta dalganın
+ilerlemesini temsil eden bir nokta
+düşünmenizi istiyorum Buradan çıkıp
+ilerlediğini düşüneceksiniz kaynağımı
+çalıştırdım ve durdurdum tam bir dalga
+oluşturacak şekilde durdurdum o hayali
+noktamı şu olarak düşünün bu adam
+buradan çıktı ilerledi ilerledi ilerledi
+peşinde de dalgayı getirdi ve şu an
+burada bu böyle Gitmeye devam ediyor
+işte bunun hızı dalganın ilerleme hızını
+temsil ediyor kaynağın çalışmasından
+itibaren durdurmama kadar geçen sürede
+ne kadar yer değiştirdi bu hayali nokta
+bu kadar yer değiştirdi E az önce
+konuştuk Burası tam bir lambda değil
+miydi bir dalga boyu değil miydi Evet x
+= vt de yerine koyuyorum ne kadar yer
+değiştirdim lambda kadar eşittir o
+hayali noktanın yani dalganın ilerleme
+hızı çarpı ne kadar süre geçti acaba
+bunun için 0.50 saniye geçmiş şimdi bu
+süre özel bir süre tam bir dalga
+oluşması için geçen süre bu yani
+dalganın periyodu şuradan da
+anlayabilirsiniz simülasyonda frekans
+ayarımı 2'ye ayarlandı periyot eşit 1 B
+frekans olduğu için frekans yerine 2
+yazarsanız periyodun 0.5 olması
+gerektiğini anlarsınız buradaki 51
+aslında tam tam 50 olması gerekiyordu
+Ama takdir edersiniz ki elimle başlatıp
+durduruyorum buradaki simülasyonu
+Dolayısıyla burada geçen süreden kastım
+aslında tam bir periyot x = vt buna
+dönüşmüş oldu kesinlikle bilmeniz
+gereken çokça kullanacağımız bir ifade
+lambda eşittir hız çarpı periyot ya da
+lambda eş hız böl frekans bildiğimiz x =
+vt den hiçbir farkı yoktur şimdi ben bu
+simülasyonda oynasam mesela frekansı
+değiştirsem lambda eş hız böl frekans
+üzerinden düşünüyorum diyelim ki ben
+frekansımı arttırıyorum frekansı
+arttırdığımız da artar Dolayısıyla bu
+böl işleminin sonucu değişmez dalga boyu
+sabit kalır mı derim ya da hayır hocam
+bu tamamen yanlış hızınız sabittir payda
+büyüdüğü için sonuç küçülür dalga boyu
+azalır mı Derim hangisi doğrudur
+bilmeniz gereken Başka önemli bir şey
+bir dalganın ortamdaki esnek bir
+ortamdaki yayılma hızını belirleyen şey
+o ortamın özellikleridir Neyin içinde
+yayıldığı dır yay dalgası ise kalın bir
+yayda sert bir yayda mı yayılıyor ince
+bir yayda yumuşak bir yayda mı yayılıyor
+su dalgası İsa derin bir suda mı
+yayılıyor sığ bir suda mı yayılıyor ses
+dalgası ise ortamdaki havanın sıcaklığı
+ne havanın yoğunluğu ne Çünkü kaynak
+dalgayı oluşturur dalgalar o ortamda
+yayılmaya başlar artık kaynakla bir işi
+kalmaz kaynaktan bağımsız hale gelmiştir
+onun hızlı ilerleyip yavaş
+ilerleyeceğini belirleyen şey içinde
+yayıldığı ortamdır Mesela bir tabanca
+düşünelim tabanca sabit hızla bir mermi
+fırlatıyor olun mermiyi hava ortamında
+sıkarsan tabancadan çıktıktan sonraki
+ilerleme hızı havadaysa başka olur suyun
+içerisinde ilerliyorsa başka olur Ne
+bileyim bir tahta bloğun içerisinde
+ilerliyorsa başka olur Mesela bu bir
+yaysa kaynak dalgayı oluşturdu yayın
+içerisinde dalga ilerliyor ağır bir
+yaysa buradaki taneciklerin hareket
+etmesi zordur dalgaların ilerleme hızı
+yavaştır hafif bir yaysa Bu tanecikler
+daha kolay titreşim hareketi yaparlar
+ilerleme hızları daha fazladır şu an
+bilmek zorunda değiliz ileride
+öğreneceğiz ama yay dalgalarında
+dalgaların hızı ortama bağlı ortamı yani
+yayı geren kuvvet yaydaki gerginlik
+Kuvveti ve yayın birim uzunluğunun
+kütlesi yayın ağırlığı hafifliği olarak
+düşünebilirsiniz bir yay ne kadar
+gerginse orada oluşturulan dalgalar o
+kadar hızlı ilerliyorlar tamamen ortamla
+ilgili şeyler bunlar kaynakla ilgili
+değil kaynağın frekansı kaynağın
+periyodu değil ortam özellik yay
+gerginliği yay ağırlığı hafifliği
+Şuradaki kırmızı tanecik birim zaman
+sonra yukarı çıkacak niye E çünkü
+yanındaki tanecik le bir bağlantısı var
+bir gerginlik var orada o gerginlik bunu
+da yukarı çıkartacak İşte o gerginlik
+fazlaysa daha çabuk yukarı çıkartır bu
+şekil değişikliği daha çabuk gerçekleşir
+dalga daha hızlı ilerliyor demektir Ama
+bu gevşek bir yaysa bu aradaki bağlantı
+zayıfsa E bunu yukarı çıkartmanın sürer
+şekil değişikliği daha yavaş gerçekleşir
+ortamda E bu da daha yavaş ilerleme
+demektir dalgaların bir ortamdaki
+ilerleme hızı kes kle o ortamın
+özelliklerine bağlı bu simülasyon
+üzerinden konuşursam şu an gerginliğim
+maksimum daydı dalgalarım bu şekilde
+ilerliyorlardı gerginliği azaltırsam
+dalgaların ilerleme hızı azalır şu an
+çok daha yavaş ilerliyorlar gençler daha
+da azaltırsam dalgaların ilerleme hızı
+daha da azaldı gerginliği arttırdım yani
+ortam özelliklerini değiştirdim
+dalgalarım şu an çok daha hızlı
+ilerliyorlar diyebilirim dalga boyu
+eşittir hız çarpı periyot ya da dalga
+boyu eşittir hız bölü frekans ortam
+özelliklerini değiştirmiyor yay aynı yay
+o zaman hızım sabit kaynağın çal çalışma
+frekansını arttırırsan dalga boyunun
+azalması gerekir yani tepelerin
+çukurların birbirine yaklaşması gerekir
+diyebilirim çalıştırdım kaynağımı
+kaynağım 2 Hz frekansla çalışıyor
+Dolayısıyla Birim zamanda oluşturduğum
+dalga sayısı da 2 frekansı arttırırsan
+kaynağım Daha Hızlı Daha seri çalışır
+dalgaların da frekansı artar Birim
+zamanda daha çok dalga oluşturmuş olurum
+formül diyor ki dalga boyu azalacak
+tepeler çukurlar yaklaşacak bakalım öyle
+oluyor mu frekansı arttırdım oluşan yeni
+Dalgalara bakın tepelerle çukurlar
+birbirine yaklaştı tam tersi mantıkta
+frekansı azaltırsam o zaman dalga
+boyunun artması lazım tepelerle
+çukurların birbirinden uzaklaşması lazım
+frekansı azaltıyorum kaynağım daha
+tembel çalışıyor daha Ah heste ah heste
+çalışıyor gördüğünüz gibi burada bir
+dalga tepesi var diğer Tepe ekranda bile
+yok Kim bilir ta nerede dalga boyu
+inanılmaz arttı frekans artarsa dalga
+boyu azalır iki Tepe arası mesafe
+Kısacıktır frekans azalırsa dalga boyu
+artar mesela tam şu anda burada bir Tepe
+noktası var diğer Tepe noktası şurada
+aralarında devasa bir mesafe var frekans
+azaldı dalga boyu arttı ortam
+değişmediği için hızımız sabit kaldı
+kaynağa hareket hareket ettirdiğimizde
+ileride hiç Bu olaydan haberi olmayan
+bir yay taneciği bile sıra kendine
+geldiğinde seyirciler gibi yukarı aşağı
+hareket etmeye başladığını kinetik
+enerji potansiyel enerji kazandığını
+gördük Bu da bize dalgaların enerji
+taşıdığını gösteriyordu bunun günlük
+hayatta örnekleri var Örneğin su
+dalgaları çarptıkları kayaları zamanla
+aşındırır falezler böyle oluşur Çünkü
+dalga bir enerji taşır bir kinetiği
+potansiyeli vardır sana her çarpışı
+senin aşınmanın sebebiyet verir veya
+tıpta ses dalgalarıyla böbrek taşları
+kırılır çünkü ses dalgaları da enerji
+taşır o enerji taşlara etki ettikçe ufak
+ufak kuvvet uygulamak gibi taşların
+zamanla dağılmasına ufalanmasına
+sebebiyet veririr veya duymak da
+dalgaların enerji taşıdığının bir
+göstergesidir ses tellerim de ben havaya
+bir enerji aktarıyorum ses dalgalarıyla
+Bu enerji esnek olan hava ortamında
+yayılıyor diğer bir arkadaşımın kulağına
+geliyor O Ses dalgalarının taşıdığı
+enerji kulağımdaki bu çekiç örs üzengi
+Neyse unuttum Şimdi o enerjiyi bunlara
+aktarır ve onların titremesini sağlar
+beynimde bunu ses olarak algılar
+dalgalar enerji taşır Peki biz bir
+dalganın enerjisinin büyük ya da
+enerjisinin küçük olduğunu nasıl anlarız
+son kavramım olan genlik kavramıyla
+anlarız ekranda gördüğünüz dalgada Biz
+hep yatayı konuştuk işte bu Tepe ile bu
+tepe arasındaki mesafeye tam bir dalga
+boyu dedik düşeyde şu mesafe a harfiyle
+gösterdiğimiz genlik mesafesidir
+dalganın taşıdığı enerji ile ilgili bize
+bilgi verir genlik ne kadar çoksa o
+dalga o kadar çok enerji taşıyordu yazın
+deniz kenarında olduğunuzu düşünün Hava
+çok rüzgarlı İsa kocaman kocaman
+dalgalar görürsünüz işte o kocaman
+dalgadaki kocaman Aslında dalganın
+genliğini anlatır şu dalga genliği çok
+büyük bir dalga iken Bu dalga genliği
+çok küçük bir dalgadır dalganın denge
+konumuyla yani orijinal konumuyla
+düşeydeki bu mesafesi genlik olarak
+isimlendirilir burada bu çok fazlayken
+burada az olduğunu görüyoruz e denizin
+kenarında şu dalgaların olması size
+huzur verir ayağınızı ufak ufak çarpar
+az enerji taşır hissetmezsiniz bile ama
+denizde bu dalgaları gördüğünüzde ve bu
+dalgalar size çarptığında ayaklarınızı
+yerden Keser Tepe taklak devrilirsin
+Çünkü bu dalgalar çok enerji taşır Peki
+bu genliği kim belirliyor yine kaynak
+belirliyor Aslında kaynak çalışmaya
+başladığında Eğer sürtünme sönümleme
+etkilerini ihmal edersek kaynak ne kadar
+yukarı çıktıysa O titreşen tanecikler
+miz de o kadar yukarı çıkıyor kaynak ne
+kadar aşağıya indiyse O titreşen
+tanecikler imiz de o kadar aşağıya
+iniyor Örneğin şu an simülasyonunda
+genlik 0.75 cm Yani bu kesikli çizgi
+denge noktasıyla Yukarıdaki Tepe Noktası
+arasında 0.75 cm var şurası
+0.75 ya da burası 0.75 genliği
+arttıralım genliği 1.25 yapalım şimdi
+kay dikkat edin oluşturduğu Dalgalara
+dikkat edin kaynak çok daha yukarı
+çıkıyor çok daha aşağıya iniyor
+dalgaların düşeydeki bu mesafeleri arttı
+denge konumundan daha uzaklara
+gidiyorlar Çünkü genlik arttı bu
+dalgaların enerjisi arttı bu dalgaların
+enerjisinin arttığını şuradan da
+anlayabilirsiniz genlik enerji
+bağlantısın da Böylelikle daha kolay
+kurarsınız Ben frekansla oynadım mı
+hayır kaynağım frekansı Dolayısıyla
+dalgalarım frekansı hala 1,5 Ama eskiden
+kaynağın çalıştığı mesafe aralığı daha
+azken daha kısa mesafede gidip gelirken
+şimdi aynı sürede çok daha uzun
+mesafeleri gidip geliyor kat ediyor e
+kaynak için de x = vt yazabilirim
+kaynağın frekansını Dolayısıyla
+periyodunu değiştirmedim daha fazla
+mesafe kat ediyorsam o zaman daha hızlı
+hareket etmem gerekir kaynak burada aynı
+sürede daha fazla mesafe kat ederken
+şurada aynı sürede daha az mesafe K
+ediyor süreyi değiştirmedim Hatta ölçüm
+yapalım isterseniz en üstte başlattım
+alta indi tekrar En üste çıktı durdurdum
+0.62 periyot bu kaynağın başladığı
+noktaya geri gelme süresi şimdi genliği
+arttırıyorum acaba periyodu değişti mi
+kaynağın Baş alıyorum en üstte başlattım
+aşağıya indi en üstte bıraktım 0.59
+0.003 saniye için birbirimizi kırmayalım
+az önce söylediğim gibi elimle
+ayarlamaya çalışıyorum yani ikisini de
+0.60 da Buluştur abilir kaynak kinetik
+enerjisini arttırmak zorunda bunu
+yapabilmek için Dolayısıyla bu esnek yay
+ortamına daha fazla enerji aktarmak
+durumunda bu da dalgaların genliğini
+Dolayısıyla enerjisini arttırmak zorunda
+periyodik dalgalar üreten bir dalga
+kaynağının periyodu 4 saniyedir Buna
+göre yargılarından hangileri doğrudur
+hocam periyodik Dalgalar ne demek y
+sürekli aynı periyotta oluşturduğu peş
+peşe dalga tepeleri dalga çukurları
+demek tam bir dalga şu İsa bir Tepe bir
+çukursu hep aynı çalışan bir kaynak
+bunlardan bir sürü üretir yani periyodik
+dalgalar üretir kaynağın periyodu 4
+saniyeyi kaynağın periyodu dalgaların da
+periyodu olduğu için demek ki bu
+dalgaların periyodu da 4 saniyedir
+dalgaların frekansı 0.25 Hz diyor
+periyot eş 1 B frekans olduğu için
+şuraya 4 yazarsam frekans eş 1/4
+demektir yani 0.25 Hz demektir doğru
+kaynak 1 saniyede lambda B4 boyunda
+dalga üretir şimdi lambda eşittir
+dalganın yayılma hızı çarpı periyot ben
+buraya 4 saniye yazıyorum buraya 4
+yazdığımda tam bir lambda üretiliyordu
+buraya 1 yazdığımda katsayıyı 1 birine
+indirdiğimde eşitlik olduğu için
+buradaki katsayı da 1 birine inmeli yani
+lambda B4 kadar dalga üretmeliyim Bu da
+doğru ya da şuradan da anlayabilirsiniz
+frekans ne demek frekans Birim zamanda
+ürettiğin dalga sayısıdır frekans bir
+sayı anlatır E frekans 1/4 çıkmadı mı Bu
+ne demek tam bir dalganın 1'i kadarını
+üretebiliyor musun Demek bir dalganın
+çeyreğini ürete Biliyorsun demek bir
+saniyede Evet aynen öyle ikinci öncülü
+doğru üretilen dalgalar başka ortama
+geçip hızlanırsa dalgaların frekansları
+artar hız başka ortama geçilirse değişir
+hız ortama bağlıdır ortam değişirse hız
+değişebilir zaten soruda diyor ki başka
+ortama geçiyoruz lambda eşit hız bölü
+frekans hızımızı arttırdık Tamam o zaman
+frekans da artar dalga boyu sabit kalır
+Hayır frekans sabittir hızın arttıysa
+dalga boyun artmıştır Çünkü frekans
+kaynağa bağlıdır kaynak nasıl çalıştıysa
+ürettiği dalgaların frekansı da olur Bir
+dalgayı ürettikten Sonra onun frekansı
+artık bellidir o ona oluşma anında
+kodlanmıştır kimlik gibidir yolda başına
+ne gelirse gelsin artık o frekansı
+değiştiremez kaynağın çalışma anındaki
+frekansı oluşturduğu dalganın frekansını
+belirler ister başka ortama geçsin ister
+bir yerden yansısın ister bir yerde
+kırılsın frekans sabittir gençler 3üncü
+öncülü yanlış Sorumun cevabı 1 ve 2 aynı
+ve özellikleri değişmeyen ortamda
+oluşturulan K ve L dalgalarının bir
+anlık görünümleri şekildeki gibidir Buna
+göre K ve L dalgalarının dalga boylarını
+genlikleri periyot ve frekanslarını
+oranlayıcı
+boyu iki Tepe arası mesafe ya da iki
+çukur arası mesafe ya da tam bir Tepe
+tam bir çukur burada tam bir Tepe tam
+bir çukur yapacağım ikisi için de uygun
+bir şey yapacağım şimdi Tepe ile çukur
+simetrik olduğu için şurası Yani
+bunların tam ortası denge konumudur aynı
+şekilde bunların tam ortası denge
+konumudur Tepe buradan başlamış tam bir
+Tepe hemen peşinde tam bir çukur
+bitirdim işte bu mesafe K dalgasının
+dalga boyudur lambda KD kaç birim 1 2 3
+4 birim lambda K 4 birim lye bakıyorum
+Tepe başladı tam bir Tepe hemen peşinden
+tam bir Ç kur bitirdim ikisinin
+arasındaki bu mesafe dalga boyudur yani
+lambda l'dir 1 2 birimdir dalga
+boylarını oranlar 4 b2den 2 çıkar genlik
+genlik dediğim şey denge noktasıyla Tepe
+noktası arasındaki ya da denge
+noktasıyla çukur noktası arasındaki
+düşey mesafe şurası K'nın genliği Burası
+l'nin genliği bunların ikisi de 2 birim
+değil mi Evet Demek ki bunların
+genlikleri oranı 1'dir periyot ve
+frekanslarını oranlayıcı
+dalga boyları Hakkında bilgim var
+periyot ve frekans hakkında bilgi sahibi
+olmam için hız hakkında bilgi sahibi
+olmam lazım dalgaların hızı yayıldıkları
+ortama bağlı ortamla ilgili bilgi var mı
+aynı ve özellikleri değişmeyen ortam
+diyor yani İkisi de aynı cins yayda
+oluşturulmuş olarak düşünülebilir o
+zaman bunların hızları kesinlikle aynı
+dalga boyuna bakarak periyot hakkında
+Dolayısıyla frekans hakkında yorum
+yapabilirim bunun dalga boyu 4 birim is
+buraya 4 katsayı yazdıysam buradaki
+periyoda 4t yazabilir bunun dalga boyu 2
+birim olduğu için dalga boyu yerine 2
+yazarsam o zaman bunun periyodu da
+onunla orantılı olarak 2 TD
+periyotlarının oranı 4t / 2t den 2
+çıkarken frekanslarının oranı bunların
+tam tersi olduğu için 1/2 çıkar
+periyodun fazlaysa frekansın azdır
+periyot eşittir 1 B frekans olduğu için
+4t periyot frekans bö 4 demektir 2t
+periyot frekans bö 2 demektir frekans B4
+B frekans b 2 yani 1/4 / 1/2 1/2
+demektir türdeş bir yayda sabit frekansı
+bir kaynağın ürettiği dalgaların 3
+saniye sonraki görünümü şekildeki
+gibiymiş Buna göre hangileri doğrudur
+denilmiş dalgaların dalga boyu 10 cmir
+şimdi şurası denge konumu Tepe ile çukur
+buraya göre simetrik şu mesafe x kadarsa
+bu mesafe de x kadardır bu mesafe de x
+kadardır toplamda 3x var 3x 15 cm
+verilmiş soruda o zaman x dediğim şey 5
+cmir bana sorulan şey dalga boyu dalga
+boyu neresi tepenin başladığı nokta
+hemen peşindeki çukurun bittiği nokta
+yani şurası tam bir lambadır O da ne
+yapıyor lambda dediğim şey 2x yapıyor O
+zaman lambda dediğim şey 10 cm yapıyor
+çünkü x'e 5 cm dedik birinci öncülü
+Doğrudur dalgaların ilerleme hızı 2 cm B
+sedir hız soruyor bana dalga boyu
+eşittir hız çarpı periyottan bulabilirim
+dalga boyunu buldum buna 10 cm yazacağım
+Eğer burada periyodu da biliyorsam
+soruyu çözerim 3 saniye sonraki görünüm
+buymuş periyot ne demek periyot dediğim
+şey tam bir lambda Yani tam bir dalga
+oluşturmanın gereken süredir burada kaç
+tane lambda var burada 1,5 tane lambda
+var Nereden Anladım şurası 2x 2 x'e 1
+lda dedik e Burada bir tane x var Demek
+ki burası lambda B 2'lik Bir Mesafe 1,5
+lda yani 3/2 yi kaç saniyede üretmiş
+kaynak 3 saniyede üretmiş o zaman tam
+bir lambı kaç saniyede üretmiştir burada
+oran orantı yaparsanız şununla şunu
+bununla bunu çarparsanız 3 lda eş 3 lda
+B 2 çarpı buradaki süre yani soru
+işareti lambalar birbirini götürür 3'ler
+birbirini götürür 2 buraya gider soru
+işareti dediğim şey 2 saniyedir soru
+işareti dediğim şey zaten periyotu
+periyodum 2 saniyedir gençler dalgaların
+periyodu 3 saniyedir diyor bu y yanlış
+ikinci öncülün cevabında şuraya 2
+yazarsam hızım buradan 5 CMS çıkacaktır
+ikinci öncülü de yanlış sorumuzun cevabı
+Yalnız 1'dir şöyle de anlayabilirdiniz
+hızın 5 olduğunu hayali bir nokta
+dalgaların ilerlemesini temsil eden bir
+nokta kaynak burada çalışıyor buradan
+bir nokta çıktı ilerledi ilerledi
+ilerledi ilerledi peşinde de dalgalar
+oluştu o nokta buraya kadar geldi işte
+buradan çıktı bu adam dalga üretti onu
+kaç cimet gitmiş bu sarı nokta 15 cm
+gitmiş kaç saniyede oluşmuş Bu görüntü 3
+saniyede oluşmuş e 15 cmi 3 saniyede
+gittiysen saniyede 5 cm gitmişsin
+demektir E ben de onu buldum Aslında ve
+geldik dersimizin son sorusuna düzgün ve
+türdeş bir yayda üretilen dalgaların
+anlık görünümü şekildeki gibidir Buna
+göre dalgaların zamanla bu özellikleri
+nasıl değişmiştir diye sorulmuş Şimdi bu
+sorular tehlikeli sorular bir şeyi ayırt
+etmeniz lazım onu ayırt ettikten sonra
+soru çok basitleşir dalgaları ikiye
+bölüyorum başlardaki şekil sonlardaki
+şekil acaba Bunların hangisi önce
+üretilmiştir Hangisi öncedir Hangisi
+sonradır burada kafa karışabiliyor
+şunlar önce üretilenler gençler Bunlar
+ise daha yeni üretiliyor Bunlar sonra
+üretilenler değil mi bu adam üretilmiş
+ilerlemiş ilerlemiş buraya gelmiş
+peşinden bunlar daha yeni üretiliyor
+Bunu ayırt etmeniz çok önemli ilk son
+dalga boyu Ne olmuş O zaman bu önce
+sonra mevzusunu anlamadıysanız işte
+burada Kafanız karışır dalga boyu
+Örneğin iki Tepe arasındaki mesafe
+şurada Tepe noktası var burada Tepe
+noktası var buradaki dalga boyu şu kadar
+olarak düşünülebilir burada bir Tepe
+noktası var burada bir Tepe noktası var
+buradaki dalga boyu şudur Sağdaki daha
+büyük git gide artıyor mu dalga boyu
+gitgide de azalıyor mu Eğer zamanla
+diyorsa zamana bağlı olarak diyorsak
+önce sağdakiler üretilmişti Yani önce
+dalga boyu buydu yeni üretilen dalga
+boyu bu Bunlar sonra üretild iler dalga
+boyu zamanla azalmıştır gençler buna
+dikkat edin ilerleme hızı sabit hiçbir
+şey yapmama gerek yok çünkü hız ortama
+bağlı soru diyor ki düzgün türdeş bir
+yay var yayın her yerinde aynı özellik
+var o zaman Buradaki her yerde
+dalgaların yayılma hızı aynıdır ortam
+değişmedikçe dalganın ilerleme hızı
+değişmez periyot ve frekans lambda
+eşittir hız çarpı periyot ya da hız bölü
+frekans periyotla frekans kaynağa bağlı
+kaynağın hep aynı çalıştığını söylemiyor
+belki zamanla daha hızlı çalıştı ya da
+daha
+tembelleştiriyor Bunlar yeni üretilenler
+Yani zamanla bizim dalga boyumuz
+küçülüyor Demek ki kaynağımız daha hızlı
+çalışıyor frekans artmış kaynağın
+frekansı arttığı için dalgaların da
+frekansı artmış frekansla periyot ters
+dalga boyu azaldı periyot azaldı
+kaynağın periyodu azalmıştır dalgaların
+periyodu azalmıştır diyebiliriz Yani
+eskiden kaynağımız tembel çalışıyormuş
+böyle yavaş yavaş Çalışıyormuş bir
+dalgayı üretiyormu O Gidiyor peşinden
+yeni bir dalga üretiyor aralarındaki
+mesafeler çok açık dalga boyu büyük
+sonra hızlanmış hızlandığında bir dalga
+üretti sonra hemen peşinden yenisini
+üretti yani oluşturduğu ilerleyemedi
+hemen yenisi geldi yakınlar dalga
+boyları az işte bak bunlar yakınlar yeni
+üretilenler dalga boyu az Demek ki
+kaynak hızlı çalışıyor frekansı yüksek
+genlik için ne söyleyebiliriz simetriye
+bakacaksın tam orta noktadan çektiğimde
+önce üretilenler genliği şu ya da bu
+sonra üretilen genliği bu ya da bu
+genlik zamanla azalmıştır diyebiliriz
+Demek ki kaynak eskisi kadar yukarılara
+aşağılara çıkmıyor titreşimleri daha
+küçük bir salınım halinde yapılıyor
+Dolayısıyla genlik azalmıştır diyerek bu
+dersimizi noktalam oluyoruz Dalgalara
+giriş yaptık bu belki de en önemli
+dersti çünkü kavramlar burada
+öğreniliyor bundan sonra bunun hep
+uygulamaları var takıldıkları alta yazın
+Kendinize iyi bakın
+[Müzik]
+görüşürüz

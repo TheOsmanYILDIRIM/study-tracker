@@ -1,0 +1,859 @@
+arabanızın lastiği patladığında
+değiştirmek için kriko kullanmışsınızdır
+burada izlediğiniz sistemdeki gibi bir
+çubuğu elinizle ya da ayağınızla yukarı
+aşağı hareket ettirdiğinizde arabayı
+böyle küçük küçük yükselttiğinizi
+görürsünüz koca arabayı 5 kişi tutup
+kaldıramadığımız halde Elimizin ya da
+ayağımızın ufak bir hareketiyle nasıl
+böyle kaldırabiliyoruz bu sistem nasıl
+çalışıyor veya berber koltuklarında 80
+kilo 90 kilo adamlar oturuyorlar berber
+ayağının ufacık bir hareketiyle hiç
+zorlanmadan Siz böyle tık tık tık tık
+yukarı kaldırıyor Normalde sizi
+kucaklayıp kaldıramayacak olan adam
+ufacık bir ayak hareketiyle bunu nasıl
+yapıyor Bunların hepsi bizim bugün Su
+cenderesi olarak işleyeceğimiz hidrolik
+sistemlerle oluyor gençler temel prensip
+önceki derslerimizde öğrendiğimiz Pascal
+prensibi yani sıvılar üzerlerine
+uygulanan basıncı her yöne Aynen
+iletiyorlar bunu Gören fizikçiler de
+bundan teknolojik alet oluşturuyorlar
+günlük hayatta işe yarar bir şey
+oluşturuyorlar daha küçük kuvvetlerle
+daha büyük Kuvvetleri dengelemeyi
+öğreniyorlar hatırlarsanız dengedeki
+katılar üzerlerine uygulanan kuvveti
+Aynen iletiyorlardı ama basıncı iletmek
+zorunda değillerdi sıvılar ise kuvveti
+değil ama basıncı Aynen iletebiliyorlar
+işte Bu da bizim işimize çok yarıyor bu
+sistemi bir inceleyelim su dolu bir
+bileşik kap var şurada biraz daha dar
+versiyon şurada biraz daha geniş
+versiyon 2 tane rahatlıkla hareket
+edebilen Şimdilik ağırlığını ihmal
+edeceğim piston var X pistonu ve Y
+pistonu buradaki y pistonu üzerine g
+ağırlıklı bir yük koyuyorum Ve ben bunu
+buradaki F kuvvetiyle dengeliyor önceki
+derslerimizde öğrendik aynı sıvıda aynı
+seviyede basınçlar eşittir şöyle bir
+çizgi çeksem bu noktadaki basınçla Bu
+noktadaki basıncın eşit olduğunu
+biliyorum Hatta diyordum ki bunlar eşit
+olmasa şu iki nokta arasında var
+Olduğunu hayal ettiğim su kütlesi
+hareket ederdi etmediğine göre sağdan
+iten basınçla soldan iten basınç eşit
+Bunlar birbirine denk geliyor
+diyebiliriz Şimdi ben aynı seviyeyi daha
+işe yarar bir yerden çeksem şuradan bir
+yerden ka noktası var L noktası var
+İkisi de aynı seviyedeler aynı sıvıyla
+temas halindeler o zaman bunların
+basınca eşittir Bu kırmızı noktada yani
+K noktasındaki Basınç nedir yukarıdan
+gelen kuvvet bir basınç oluşturuyor
+şöyle bir alana etki ediyor x pistonunun
+alanı ve basıncın genel ifadesi kuvvet
+böyle alan olduğuna göre f/a x olabilir
+bu kırmızı noktada bu basınç var bu
+basınç bu sıvıya etki ediyor ve bu sıvı
+bunu aynen buraya da aktarıyor buraya da
+aktarıyor Şuraya da aktarıyor ve hatta
+benim işime yarayacak şekilde bunu aynen
+buraya da aktarıyor Peki neden yukarıya
+çıkmıyor bu piston Çünkü üstünde de bir
+yük var o da ağırlığından dolayı aşağıya
+doğru bir basınç uyguluyor sistem
+dengede olduğuna göre bu ikisi eşit O
+yüzden K noktasının basıncı ile l'nin
+basıncı eşittir L noktasındaki basınç
+kuvvet bölü alan kuvvet dediğim şey
+yükün ağırlığı g bölü buradaki y
+pistonunun alanı kuvvetin etki ettiği
+alan onu da a y olarak düşünelim İşte
+bunlar eşitler bu denklemde Şu an bir
+şey fark etmemiş olabilirsiniz ama biraz
+daha derin düşündüğümüzde günlük
+hayatımızı çok kolaylaştırabilecek bir
+şey olduğunu görürüz çok abartılı
+sayılar yazacağım mevzuyu daha iyi
+anlayalım daha kolay anlayalım diye
+Diyelim ki buraya böyle bir peynir
+kalıbı koydum 100 gramlık bir peynir
+kalıbı yer çekimi ile onunla çarparsam
+bir newtona karşılık gelir abartılı
+sayılar vereceğimi söylemiştim buradaki
+piston alanına da 1 metrekare ediyorum
+buradaki piston daha büyük buradaki
+piston daha büyük olduğu için bir
+metrekareden daha büyük bir şey
+vereceğim diyelim ki 1000 metrekare ve
+bu matematiğin sağlanması için burada
+1/1'den 1 gelecek eşitliğin sağının da 1
+olması için ağırlık dediğim şeyin 1000
+Newton olması gerekiyor Bunu da kütle
+cinsinden düşünürsem yani yer çekimine
+bölersem 100 kilogram gibi bir şey
+olacaktır Peki bu ne anlama geliyor 100
+gramlık peynir kalıbıyla yani şu
+arkadaşlar 100 kilogramlık bir yükü
+Mesela bir insanı taşıyabilirsin
+anlamına geliyor Arada 1000 kat fark var
+işte Az önce izlediğimiz videolarda tam
+olarak bununla çalışıyor küçük
+kuvvetlerle daha büyük Kuvvetleri
+dengeliyoruz elimin küçücük bir
+hareketiyle kocaman arabayı
+kaldırabiliyor hiç zorlanmıyorum sebebi
+Az önce anlattığım mantık berber
+Normalde kaldıramayacağı müşteriyi
+ayağının ufacık bir hareketiyle çok
+rahat bir şekilde gördüğünüz gibi ufak
+ufak yükseltiyor veya bir iş makinesi
+operatörü oturduğu yerde ufacık kollarla
+oynayarak İşte bu sistem sayesinde koca
+koca kayaları kaldırabiliyor ufak
+kuvvetlerle büyük Kuvvetleri kontrol
+ediyorsanız bir yerlerde oralarda
+kesinlikle günümüzde hidrolik sistem
+olarak adlandırılan bizim Az önce Su
+cenderesi olarak gördüğümüz sistemler
+vardır o sıvı dediğimiz şuralardaki
+boruların içerisinde hareket ediyorlar
+hidrolik sıvısı olarak isimlendiriyoruz
+o Üzerine uygulanan basıncı her yöne
+Aynen iletiyor basınçlar eşit olacağı
+için küçük alana uyguladığın kuvvet daha
+büyük bir alana denk geldiğinde basınç
+aynı basınç alan büyüdü o zaman kuvvetin
+de büyümesi gerekiyor Böylece daha büyük
+kuvveti dengelemiş oluyoruz işte kriko
+ile araba kaldırmanın hidrolik bir
+sistemle araba yükseltmenin mantığı
+tamamen bu simülasyonda var buradan
+kolla Biz aşağıya doğru hareketimizi
+yapıyoruz Şuradaki pistona bir kuvvet
+uyguluyoruz sıvıyı buradan itiyoruz bu
+basıncı sıvı Aynen buraya kadar
+aktarıyor ve böylece arabayı yükseltmiş
+oluyoruz Normalde Benim anlattığım
+sistemde bir kere itebilirsin sonra geri
+aldığında sıvı geri gelir Ama burada
+sürekli yeni bir sıvı iletebiliyorum
+Nereden geliyor bu sıvının kaynağı
+aslında gerçekte şurada bir depo var bu
+Depodaki su Sen yukarıya sıvı
+pompaladıkça tekrar senin pistonunun
+altına geliyor baştan başlatayım bakın
+Biz buradan suyu itiyoruz bu Depodan
+yeni su geliyor onu tekrar itiyoruz
+Depodan yeni su geliyor onu tekrar
+itiyoruz Biz burada küçücük bir alan
+üzerine kuvvet uyguluyoruz burada bir p
+yardımcı oluşturuyoruz aynı p basıncı
+burada kocaman bir alan üzerinde etkili
+olduğu için basınç eşittir kuvvet böyle
+alan basınç aynı kalacak alan arttığı
+için kuvvetin de artması gerekiyor daha
+büyük arabaları taşıyabiliyor Biz
+itiyoruz su geliyor Biz itiyoruz su
+geliyor diyelim ki burada durdurduk
+araba artık aşağı insin istiyoruz ne
+yaparız Şuradaki vanayı açarsak buradaki
+su tekrar aşağıya dökülür ve araba
+burada aşağıya iner her şey başa Sarar
+diyebiliriz Peki bu araba krikolarında
+ya da berber koltuklarında neden
+cisimler ayağımızla bastığımız kadar
+yükselmez yani biz itiyoruz 10
+santimetre diyoruz ama o küçük küçük
+yükseliyor tekrar simülasyona dönersek
+bakın buradaki pistonun ilerleme miktarı
+ile buradaki arabanın yükselme miktarı
+arasında fark var bu çok fazla itiliyor
+ama araba az az yükseliyor veya buradaki
+çubuğun katettiği mesafeye dikkat edin
+yukarı aşağı arabanın yükselme miktarına
+bakın Çubuk çok fazla hareket ediyor ama
+araba böyle bir santim bir santim
+yükseliyor gibi çok az yükseliyor bir
+yerden kazanıyorsak bir yerden
+kaybetmemiz lazım Bunu zaten ayt'de
+basit makinelerde görüyorsunuz şu an
+işlediğimiz şeyde teorik olarak bir
+basit makine aslında kuvvetten
+kazanıyorsam yoldan kaybetmeliyim
+ittiğimden daha az hareket
+ettirebilmeliyim mantığı çok basit AYT
+bilmeye gerek yok sıvıları
+sıkıştıramadığımızı kabul ediyoruz
+diyelim ki ben bu pistonla bu arkadaşı H
+kadar itmiş olayım buradaki alanım a
+kadar olsun buradaki alanımda 1000 a
+kadar olsun 1000 kat daha büyük bir alan
+olsun ve basınçların eşitliğinden
+buradaki kuvvet F kadarsa buradaki yüküm
+1000 F kadardır f/a basınç bir f/ 1000 a
+basınç aynı basınç Yani ben F kadarlık
+kuvvetimle 1000 f'lik 1000 kat daha
+büyük bir kuvveti dengeleyebiliyorum
+Şimdi ben buradaki suyu ittim şu
+kadarlık suyu ittim bu hacimde suyu
+ittim hacim taban alanı çarpı yükseklik
+taban alana a kadar yükseklik haçka
+kadar suyu sıkıştıramadığıma göre bu su
+ne yapacak Tabii ki bu pistonu yukarıya
+yetecek buradaki su seviyesi yukarıya
+çıkacak mesela şuraya geldi burada ağaç
+çarpı H kadarlık sıvı yükselmesi olmak
+zorunda Çünkü bu kadar ittim
+sıkıştıramadıysam O kadar yükselmeli
+şimdi bizim burada alan dediğimiz şey
+bina değil miydi Evet burası bina
+alanına sahip o zaman buradaki yükselme
+miktarı h/ kadar olmalı ki bu ifade ile
+bu ifadeyi çarptığımda şunu bulmuş
+olalım Yani ben H kadar itersem benim
+yüküm onun binde biri kadar yükselir
+h/1000 kadar yükselir kuvvetten 1000 kat
+kazandım yoldan da bin kat kaybediyorum
+adamı 1 metre itiyorum yükselsin diye
+0.1 santim yükseliyor gibi
+düşünebilirsiniz o yüzden bastığımız
+kadar yükselmeyecektir bir başka günlük
+hayat örneği de araba frenleri Normalde
+50 ile 60'la yani çok hızlı da gitmeyen
+bir arabanın karşısına geçseniz
+Ellerinize tutmaya çalışsanız
+tutamazsınız size Ezel geçer bütün
+vücudunuza karşı koymanıza rağmen ama
+ayağınızın ufacık bir hareketiyle
+kocaman arabayı yavaşlatıp
+durdurabiliyorsunuz hem de 50 60'la
+gitmesine gerek yok 150-200 de gitse de
+bunu yapabilirsiniz çok büyük kuvvetle
+basmam gerekiyor gibi bir şey yok normal
+basıyorsun Araba duruyor Çünkü burada da
+hidrolik sistem var burada da Pascal
+prensibi geçerli Burada da benzer bir
+bileşik kap var sanayiyle haşır neşir
+olanlar bilirler bakıma gidersiniz sizin
+arabanızın bütün hidrolik sıvılarını
+değiştirirler frendeki hidroliği
+değiştirirler mesela bakım zamanı
+geldiğinde bunu yapabilirler Neden Çünkü
+sen hidrolik sıvısı kullanıyorsun çünkü
+prensibi kullanıyoruz Bu normal su değil
+özel bir sıvı Ayağında fren pedalını
+ittiğinde Aslında Şuradaki pistona bir
+kuvvet uygulamış oluyorsun Burada bir
+basınç oluşturmuş oluyorsun bu basınç
+Aynen buradaki tekerlekteki kampana
+dediğimiz tekerleğe yapışan sistemleri
+aktarılıyor aynı basınç bu pistonu bu
+tarafa itiyor diğer pistonu da bu tarafa
+itiyor Böylece tekerleği değiyor bu
+kampanalar bisikletin tekerleğindeki o
+kauçuklar gibi ve tekerleği yavaşlatmış
+oluyorlar buradaki alan kuvvet
+oranlarına göre de senin uyguladığın
+kuvvet az olurken burada çok daha fazla
+kuvvet elde etmiş oluyoruz filmlerde
+fren patlama sahnelerini hatırlarsınız
+Arabanın altından böyle bir sıvı Akar
+İşte o sıvı buradaki hidrolik sıvısıdır
+şu boru bir yerden delinir buradaki sıvı
+böyle akar gider ortada sıvı olmazsa sen
+basıncı kime uygulayacaksın da o
+iletecek sıvı olması şart buna fren
+patlamış diyoruz boşa çalışıyor Bu pedal
+boşta kalmış oluyor basıyorsun hiçbir
+etkisi olmamış oluyor çünkü basıncı
+aktaracak bir sıvın olmuyor Şimdi
+gelelim basınç kuvvetine katılarda da
+bunu konuşmuştuk basınç dediğimiz şey
+kuvvet böyle alan buradaki kuvvet
+basıncın oluşmasına sebep olan basınç
+kuvveti ben bu arkadaşı yalnız
+bırakırsam o zaman basın çarpı alan
+basınç kuvvetini verecektir su dolu sıvı
+dolu bir kabımız var bunun tabanındaki
+yüzeye etki eden bir kuvvet var Buna
+basınç kuvveti diyoruz direkt şu an
+kuvvetten bahsediyorum basınçtan
+bahsetmiyorum Örneğin bu kapak patlayıp
+aşağıya doğru çökebilir Bunun sebebi
+basınç değildir Bunun sebebi basınç
+kuvvetidir Çünkü cisimleri hareket
+ettiren cisimleri hızlandıran cisimleri
+yavaşlatan cisimlerin şeklini değiştiren
+cisimleri kıran cisimleri parçalayan
+şeyler kuvvettir basınç kuvvetin özel
+bir tanımı basınç birim yüzey alanındaki
+kuvvet demek yani şu tabanda komple her
+yerde bir basınç kuvveti var basınç
+dediğim şey tek bir noktadaki basınç
+kuvveti Aslında bu noktalardan bir sürü
+var bu tabanın alanı kadar var yani a
+kadar var Ben buradaki bütün noktaları
+hoplarsam Aslında p çarpı a yapmış olur
+tek bir noktadaki şey basınç bütün
+noktaların toplamı basınç kuvveti olarak
+düşünülebilir p çarpı a tek bir
+noktadaki basınç ne derinlikle
+düşünülmeli sıvının seviyesini şöyle
+düşünürsem haç derinliğ burada sıvı
+varmış gibi hayal ediyorum o zaman tek
+bir noktada benim HD kadar sıvı basıncım
+var başka bir noktayı incelesem orada da
+HD var başka bir nokta incelesem Orada
+da hdg var işte bütün noktaların bütün
+HD g'lerin toplamı bütün alan boyunca
+toplamı hdg çarpı a demektir İşte biz
+buna basınç kuvveti diyoruz tek bir
+noktaya etki eden kuvvetten
+bahsetmiyorum bütün yüzeye etki eden
+kuvvetten bahsediyorum O yüzden genelde
+kitaplarda böyle tek bir okla
+gösterirler kuvveti sanki sadece
+Şuradaki bir noktaya etki ediyormuş gibi
+Hayır buradaki bütün yüzeye etki eden
+bir şeyden bahsediyoruz uçak ve
+denizaltı gibi araçların pencereleri
+neden küçük hemen günlük hayatla
+bağdaştıralım bunu Örneğin buradaki
+şekle bakıyorum kocaman uçak var
+yolcuların dışarıyı gördüğü pencereler
+uçakta Küçücük yer kaplıyorlar Hadi
+geçtim Yolcuları Kokpit kısmında
+pilotların olduğu yerde adamlar önünü
+görsün ki uçağa uçursun yine küçücük
+pencereler var bunun özel bir sebebi
+olabilir mi veya denizaltılarda
+denizaltılarda hiç pencere yok Genelde
+bazı Rus denizaltılarında ufacık
+pencereler var Güzel olmaz mıydı böyle
+küçük küçük pencereleri olsaydı denizin
+izleseydik veya İstanbul'da Avrasya
+Tüneli diye bir şey var arabalar
+geçiyorlar denizin altından geçiyorlar
+şöyle camekanlı olsaydı Ferah Ferah Her
+yeri görseydik denizin altında fena
+olmaz mıydı olurdu tabii bir sürü
+sakıncası var ama bizim konumuzla ilgili
+olana bakacağım ben sadece Yoksa tek
+sebep şimdi anlatacağım şey değil tabii
+ki bakın gençler basınç kuvveti
+dediğimiz şey basınçla alanın
+çarpılmasıyla bulunuyor denizaltı
+dediğiniz şey denizin bayağı bayağı
+altına iniyor Dolayısıyla üzerindeki
+sıvı basıncı hdg'den düşünüldüğünde
+buradaki ağaç o kadar inanılmaz sayılara
+çıkıyor ki devasa bir basınca maruz
+kalıyor dolayısıyla bir denizaltının
+üzerinde çok fazla basınç etkisi var Bu
+basıncın olduğu alanda çok büyük olursa
+kuvvet devasa boyutlara çıkıyor bu da
+denizaltı için büyük problem pencere
+gibi şeyler normal bir denizaltının
+diğer kısımlarına göre daha zayıf yine
+bizim camımız kadar dayanıksız değiller
+özel malzemelerle üretilebilirler ama
+yine de riske atmaya değecek şeyler
+değil ya hiç pencere koymuyorlar ya da
+koyarlarsa çok çok küçük koyuyorlar yani
+bari şu Ağayı çok küçük tutalım yani p
+zaten büyük bari şu a'yı küçük tutalım
+ki Neticede maruz kalacağımız kuvvet
+nispeten daha küçük kalsın Uçaklarda da
+aynı şey geçerli ama uçakta tam tersi
+var uçak yukarılara çıktıkça etrafındaki
+açık hava basıncı azalıyor yolcuların
+bulunduğu yerde yüksek basınç var
+dışarıda Alçak basınç var Dolayısıyla
+içeriden dışarıya doğru bir basınç
+kuvveti var bir zorlama var yüksek
+basınçtan alçak basınca doğru akmaya
+çalışıyor içerideki hava Aslında
+uçakların camları içeriden zorlanıyor
+yani o pencereleri küçük yapalım ki daha
+az kuvvete maruz kalalım hiçbir
+denizaltının içini gördüğünüz mü ya da
+bir belgesel izlediniz mi bilmiyorum ama
+çok küçük koridorları o kadar dar ki iki
+kişi yan yana geçemiyorlar o kadar
+ufacık yerlerde yatıyorlar ki ayağa
+kalksalar kafalarını tavana çarpıyorlar
+niye bu kadar küçük tasarlanıyor Bunlar
+Çünkü yüzey alanını küçültmek istiyorlar
+Yani iş sadece pencerede de bitmiyor
+denizaltı olabileceği minimum hacimde
+tasarlanıyor ki minimum yüzey alanına
+sahip olsun alan küçük olursa basınç
+kuvveti de daha küçük olur Çünkü denizin
+altına indikçe inanılmaz basınçlara
+maruz kalıyorsunuz Örneğin geçen aylarda
+ortamlara haber düştü Titanic enkazına
+dalmaya çalışan Ocean Gate diye bir
+firmanın ufacık denizal diyemeyeceğimiz
+bir aracıyla okyanusun dibine dalmaya
+çalıştılar araç küçücükte içinde 5 kişi
+vardı o 5 kişi böyle Resmen yan yana
+oturuyordu Neden Çünkü yüzey alanı ne
+kadar küçük olursa o kadar az basınca
+maruz kalırsın adamlar yaklaşık üç buçuk
+kilometre aşağıya indiler Titanic
+battına ulaşmak için hala inmeleri
+gerekiyordu ama yolda başlarına maalesef
+kötü bir olay geldi Çünkü o araçları
+yeteri kadar teste kontrole tabi
+tutulmamıştı gençler 3 buçuk kilometre
+Deniz derinliği demek santimetre kare
+başına yaklaşık 350 kg düşüyor demek
+yani parmağınızın ucu kadarlık bir alana
+bir motosiklet falan koyduğunuzu düşünün
+böyle bir şeyden bahsediyoruz ufacık bir
+hassas bir zayıf nokta olduğunda oradan
+içe patlama dediğimiz olayı yaşıyorsunuz
+Bu da bir patlama ama içe doğru patlama
+basınç kuvveti basınçla çok ilgili
+olduğu gibi alanla da çok ilgiyle Peki
+şimdi biz tabandaki basınç kuvvetini
+hesapladık ama basıncın yan yüzeylerde
+de olduğunu biliyoruz yan yüzeylerde
+basınç varsa o zaman orada da basınç
+kuvveti vardır Onu nasıl hesaplayacağız
+hocam aynı şey işte kuvvet dediğimiz şey
+o yüzeydeki bir noktadaki basınç çarpı o
+yüzeyin tamamını alanı bunları oradaki
+kuvveti buluyoruz İyi de şöyle bir
+problem var basınç yerine ne yazacaksın
+hangi noktayı alacaksın yani şu noktayı
+alırsan farklı bir derinlik var bu
+noktaya alırsam farklı bir derinlik var
+Şu noktayı alırsam farklı bir derinlik
+var Hangi basınç tabanı aldığımızda çok
+kolaydı tabanda hangi noktaya bakarsan
+bak ister buraya bak derinlik aynı
+buraya bak derinlik aynı buraya bak
+derinlik aynı basınç hep sabitti orada
+bir problem yaşamıyorduk ama yan
+yüzeylerde basınç aşağıya doğru indikçe
+artıyor Bu işin içinden nasıl çıkacağız
+çok basit bizim basınç dediğimiz şey HD
+en üst noktada sıvının en üst yüzeyinde
+sıvı basıncı yok sıfır en alt noktada 4h
+yükseklik tanımlanmış 4 taş derinlik
+tanımlanmış o zaman 4 HD basınç var
+aşağıya doğru indikçe düzgün artıyor O
+zaman ben bunun ortalamasını alabilirim
+en üstteki basınç sıfır en alttaki
+basınç 4A DG bu şekil için ben basınç
+yerine 0 +
+4hg/2 yazabilir ortalamasını aldık çarpı
+İşte bu yan yüzeyin alanı yan yüzeyimiz
+A1 kadarmış çarpı A1 diyebiliriz
+buradaki işlemi yaptığım zaman ne oluyor
+iki HD
+sanki bakın Altını çiziyorum sanki orta
+noktaya göre alıyormuşuz gibi
+düşüneceğiz orta noktadaki basıncı
+hesaplamamız gerekiyormuş gibi
+düşüneceğiz Dolayısıyla yan bir yüzey
+gördüğümde orta noktasından Bakıyorum bu
+şekilde İki aşk var iki ağaç derinlik
+üzerinden diyeceğim ki iki ağaç DG çarpı
+yüzeyin tamamı yani A1 kadarlık bir
+basınç kuvveti vardır Bütün bu yüzeyde
+diyeceğiz Niye sanki diye özellikle
+belirtiyorum Çünkü buradaki basınç
+kuvvetlerinin ortalaması tam ortası
+çıkmaz daha aşağıya yakın çıkar Çünkü
+aşağıdaki basınç Kuvvetleri sayıca büyük
+Yukarıdaki basınç Kuvvetleri sayıca
+küçük bu ikisinin bileşkesi alındığını
+aşağıda bir yerde çıkar kuvvetin
+uygulanma yeri ama ben onunla
+ilgilenmiyorum ben bu yüzeydeki toplam
+basınç kuvvetine bakmak istiyorum o
+yüzden basıncın ortalaması çarpı toplam
+alan diyorum ve basıncın ortalaması orta
+noktadan almak gibi bir şey olduğu için
+de Herhangi bir problem çıkmıyor mesela
+şu yüzeye etki eden F2 ile tarif edilen
+basınç kuvveti nedir Eğer sadece buraya
+odaklanacaksam yine yan yüzey nereden
+alacağım ben basıncı ortadan alacakmışım
+gibi düşüneceğim tamamını iki ağaç demiş
+ortanın derinliği haş kadar o zaman F2
+dediğim şey Flash DG çarpı buradaki
+yüzeyin alanıdır yani a2'dir diyebiliriz
+F3 için ne yapacağım şöyle çapraz bir
+yüzey çapraz olunca başka bir şey mi var
+Hayır aynı şey bu yüzeyin en üstüne ve
+en altına bakıyorum En üstündeki basınç
+nedir derinlik nedir iki ağaç derinlikte
+burada 2hg var En altta ne var 4h En
+altta 4h DG var aşağıya doğru indikçe bu
+basınç düzgün artıyor 2'den 4'e o zaman
+bunların ortalaması nedir 3 ay dg'dir
+çarpı alan ne kadar alan A3 kadar o
+zaman F3 dediğim şeyin değeri bu
+kadardır yine Aslında ne yaptım sanki 3h
+derinlikteki basınçtan hesaplamışım gibi
+oldu yani orta noktadan hesaplamışım
+gibi oldu ve Burası H Burası 2h toplam
+derinlik 3 ay diyebiliriz yan yüzey
+varsa ortalama basınca al yüzeyle çarpıp
+bir Mimar olsaydınız hidroelektrik
+santrallerin yani barajların suyu tutan
+duvarını nasıl tasarlardınız bunu önceki
+derslerde konuşmuştuk zaten Tekrar uzun
+uzun anlatmaya gerek yok baraj duvarları
+aşağıya doğru indikçe kalınlaşan
+duvarlardır suyunda şöyle Olduğunu hayal
+edersek burada olduğunu Hayal edersek
+aşağıya doğru
+şurada sol tarafa doğru basınç kuvveti
+etki ediyor sıvı yüzünden bu pistona sağ
+tarafa doğru bir basınç kuvveti etki
+ediyor Sıvının basıncı yüzünden bu
+basınç Kuvvetleri nasıl yazılıyor basınç
+çarpı o yüzeyin alanıyla bulunuyor
+Bunlar Şimdi bunlar yan yüzey az önce
+konuştuk yan yüzeyse basıncı yazarken
+nereden alacağım ve orta noktadan
+alacağım Şu noktayı düşünürsem ne kadar
+derinlikte iki haç derinlikte O zaman
+burada basıncımız iki hdg olarak
+düşünülebilir ortalama buradaki alanda
+iki Haçlı orantılı ki zaten 2A alana
+sahip demiş ben oraya direkt 2A diyorum
+4h DG a katsayı 4 olduğu için buradaki
+basınç kuvvetine 4F diyorum yani bu
+piston sıvı tarafından sola doğru 4 fle
+itiliyor diye düşünüyorum e gitmiyor
+çünkü onu fa tutuyor O zaman efka ne
+kadar olmalı 4F kadar olmalı geldim
+alttaki pistona alttaki piston yine bir
+yan yüze sıvı onu sağ tarafa doğru
+zorluyor Peki ne kadarlık bir kuvvetle
+zorluyor yine orta noktasından hesap
+yaparsam ne kadar derinlikte Burası 1 2
+3 4 4 HD basınç var burada alan ne kadar
+a kadar sonra 4h DG çarpı a o zaman bu
+da 4F demek yani su bu pistonu sağ
+tarafa doğru 4fre zorluyor gidiyor mu
+gitmiyor o zaman fp de 4F kadar yani
+Sorumun cevabı 1 ama bu daha derindeydi
+daha çok suyu tutuyordu yukarıdan daha
+çok basınca maruz kalıyordu Evet daha
+çok basınca maruz kaldı 4hg Yukarıdaki
+iki aç DG idi ama basınç kuvveti sadece
+basınçla ilgili değil basınç çarpı alan
+da önemli Evet uçağın dışında az Basınç
+var ama pencereyi küçük yaparsan biraz
+olsun işleri kolaylaştırmış olurum alanı
+küçük tutmalıyım Yukarıdaki alan iki a
+aşağıdaki alan bir a Yani bu arkadaş az
+basıncı tutuyor ama çok cephede
+savaşıyor 4 F Bu adam çok basıncı
+tutuyor ama daha az cephede savaşıyor O
+da 4'ü yüzeyinde önemli olduğunu
+unutmamalıyız düşey kesti verilen de
+özkütleli sıvıyla doldurulmuş şekildeki
+kabın taban ve eğimli yüzeyleri a kadar
+alana sahipmiş Buna göre bu alanları
+etki eden sıvı basınç kuvvetlerinin
+oranının bulunuz demiş iki tane alanı
+inceleyeceğim İkisi de a kadar eğimli
+olan ve taban basınç kuvveti p çarpı E
+zaten İkisinde de alan aynı olduğu için
+bakmama bile gerek yok basınçları
+hesaplasam bana yeter Burası taban hangi
+noktadan bakarsan bakayım aynı basınç
+var mı Evet ne kadar derinlik 5h O zaman
+burada 5h DG var E bunu alanla çarparsam
+o zaman bütün bu yüzeydeki basınç
+kuvveti ne kadarmış 5 f'miş diyebilirim
+şimdi geldim yan yüzeye ortasından
+alacağım ya da En üstün ve en altın
+ortalamasını alacağım en üstte ne var
+3hg var En altta ne var 5h DG var
+bunların ortalaması 4A dg'dir basıncı 4h
+DG aldım alan a kadar o zaman bu da
+4ftir yani bu yüzeye etki eden komple
+basınç kuvveti 4F kadarmış oranlayın
+diyor cevabımız 5/4'tür şimdi geçen
+dersimizde bir soru tipi çözmüştük buna
+çok benziyordu orada buralara girmemek
+için kendimi çok zor tuttum daha fazla
+kafanızı karıştırmak istemedim açıkçası
+ama burada artık bir açıklama getirelim
+çok mantıklı bir soru soruyorum burada
+diyorum ki sıvılarda ağırlıklarından
+dolayı basınç uyguluyorlarsa katılardaki
+gibi basınç Kuvvetleri ağırlıklarına
+eşit midir o soruyu da zaten
+hatırlayacaksınız bakın burada diyelim
+ki g ağırlıklı bir Sıvı al şu
+menteşelerden bu yan duvarları oynuyor
+ben bunu açtım hafif kenarlara çekersem
+suyun seviyesi azalacaktır aynı g sıvısı
+ağırlık aynı sıvı aynı Çünkü haçtan daha
+küçük bir derinliğe sahip olacaktır
+mesela
+0.5h diye Sallayalım bunu Bu yan
+duvarları daraltırsam o zaman sıvıyı
+yükseltmiş olurum o soruda biraz daha
+çizimle göstermiştim şu an anlamakta
+zorlanan varsa Orayı tekrar
+izleyebilirler daha yükseğe çıkar Burası
+hars ise sallıyorum tamamen iki Haşa
+çıkar şimdi bu sıvıların tabandaki
+basınçlarını yazsam 1 sıvıda Hah işte g
+yazarım ikinci sıvıda 0.5 derinlik
+olduğu için 0.5 HD g yazarım 3 sıvıda
+iki ağaç derinlik olduğu için iki haçta
+g yazar Yani basınçlar aynı değil Burada
+basınç çok bu ortanca Bu da en küçük
+basınç O soru da demiştim ki basınçları
+kıyaslayınız Aynı burada yaptığım gibi
+yazmıştık sonra B şıkkında demiştim ki
+bu kapların yere uyguladığı basınçları
+bulunuz şimdi kapların bu zemine
+uyguladığı basınç diyorsan artık katı
+basıncı düşünmelisin katı basıncını da
+şuradan düşünebilirim yani kuvvet böyle
+alandan düşünebilirim kapların ağır
+ihmal yalnız Gerçi ihmal etmesem de olur
+çünkü aynı kaplar sadece daralttım veya
+genişlettim yan yüzeylerle oynadım ama
+kafamız karışmasın ihmal edelim ve
+ağırlık dediğim şey zaten sıvı olmayacak
+mı o zaman yani birinci kapta ne
+yazacağım g yazacağım alan a kadar
+ikinci kapta yine aynı g var alan a
+kadar 3 kapta yine aynı sıvı Burada da g
+sıvısı var Bu da a kadar yani bu
+kapların yere uyguladıkları basınçlar
+eşit çıkıyor ve katıların basıncının
+sebebi ağırlıklar ve sıvıların
+basıncının sebebi de ağırlıklar Niye o
+zaman katı basıncı olarak düşündüğümde
+zemine yaptığım basınçlar eşit çıkarken
+sıvı basıncı olarak düşündüğümde kabın
+tabanındaki basınçlar eşit çıkmıyorlar
+çok mantıklı soru Çünkü gençler bunları
+katı olarak düşündüğümde dışarıdan
+sadece kap olarak düşündüğümde Bunlar
+kendi halinde takılıyorlar bunlara dış
+müdahale yok ama sıvı olarak
+düşündüğümde bunlara dış müdahale var ne
+demek istiyorum birinci şekilde sıkıntı
+yok kabımız düzgün bir şekil ama ikinci
+şeklimizde sıvı bu kabın yan
+yüzeyleriyle temas ettiği için temas
+kuvveti oluşuyor fizikte iki cisim temas
+ederse orada temas kuvveti olur yüzeye
+dik olan normal kuvvet oluşur Bu yüzeyin
+eğikliğinden dolayı yüzeye dik şöyle bir
+normal kuvvet oluşur Burada da böyle bir
+normal kuvvet oluşur 3 şekilde de yüzeye
+dik böyle bir normal kuvvet yüzey dik
+böyle bir normal kuvvet oluşur Bakın bu
+kuvvetler sıvıya etki ediyor ve böyle
+çapraz yukarıya doğru etki ediyorlar
+sıvıyı havaya kaldırıyormuş gibi o
+yüzden bu sıvının ağırlığının tamamı
+Tabana aktarılmıyor tabandaki basınç
+kuvvetine FF dersem tabandaki sıvı
+basınç kuvveti sıvının kendi
+ağırlığından daha küçüktür çünkü bütün
+ağırlık aktarılamaz Bu normal kuvvetler
+havaya kaldırıyormuş gibi olur aynı
+şekilde buradaki normal kuvvetler
+yukarıdan çapraz aşağıya bastırıyormuş
+gibi sıvının kendi ağırlığından çok daha
+fazlasını sıvı basınç kuvveti olarak
+Tabana aktarır tabandaki sıvı basınç
+kuvveti cismin ağırlığından daha
+büyüktür Burada ise yan yüzeyler tamamen
+yatayda çıkacağı için ağırlığa herhangi
+bir katkıları olmayacak bunlar zaten
+Birbirini götürür Dolayısıyla
+tabağındaki basınç kuvveti direkt
+sıvının ağırlığını ta kendisidir aynı
+katılar gibi şimdi ben size 3 tane katı
+çiziyorum şurası zeminimiz birinci
+katımız Bu ikinci katımız bu 3 katımız
+da bu g ağırlığı var g ağırlığı var g
+ağırlığı var bakın bunların üçü de katı
+sıvı falan yok katılarda tabandaki
+basınç kuvveti nedir ağırlığın ta
+kendisidir buradaki basınç kuvveti
+tabanda ağırlıktır Burada da ağırlıktır
+burada da ağırlıktır şekilden tamamen
+bağımsız O yüzden ben 3 şekilde de
+kapların basıncı hesaplarken basınç
+kuvvetlerine g yazdım üçünde de Çünkü
+basınç kuvveti katılarda ağırlığa eşit
+sıvılarda Niye öyle olmuyor niye daha
+büyük ya da daha küçük çıkabiliyor çünkü
+mesela Şuradaki katıya şöyle bir kuvvet
+uygulasam Bir de böyle bir kuvvet
+uygulasam bak aynı Bu arkadaşlar gibi
+yani bu katıyı böyle kenarlarından
+tuttum hafif kaldırmaya çalışıyorum
+yerle teması da kesilmiyor bu ağırlığın
+tamamı aktarılabilir mi kaldırdın değil
+mi zemini o kadar da basamaz artık ne
+yazarsın zemine basan basınç kuvveti
+ağırlıktan daha küçük olur dersin ben de
+sıvıyı aynı şeyi yazdım zaten veya ben
+bu adama şöyle kuvvetler çizsem soldan
+ve sağdan böyle kenarlardan bastırıyorum
+aynı Bunlar gibi daha çok bastırıyorum O
+zaman o zemine daha çok basmaz mı Evet
+kendi daha fazlası etki etmez mi
+buradaki zemine Evet tabandaki basınç
+kuvveti cismin ağırlığından Büyük Olur
+mu evet E ben de öyle yazdım ikinci ve
+üçüncü şekilde sıvılara dışarıdan
+müdahale var Dışarıdan müdahale olduğu
+için tabandaki basınç kuvveti
+ağırlıklarına eşit olmuyor ama müdahale
+olmadığında aynı katılar gibi düzgün bir
+kabın içerisindeki sıvının ağırlığı
+tabandaki basınç kuvvetine eşittir şöyle
+bir kapta yanlar kaldırıyormuş gibi
+olduğu için Tabana daha az kuvvet
+aktarırsın ağırlıktan küçük bir kuvvet
+aktarırsın böyle bir kapta kenarlardan
+bastırıyormuş gibi olduğu için tabanda
+ağırlıktan daha büyük bir kuvvet olur Bu
+katılarla yaptığım işlemi eşleştirmeyi
+zihninizde ihmal etmeyin Şuradaki
+mevzuyu kavradığınızda burada ne demek
+istediğimi anlayacaksınız hemen bunun Bu
+soruda uygulamasında yapalım ve
+dersimizi bitirelim düşerek kesti
+şekildeki gibi olan kabın içi bir miktar
+sıvıyla doludur bu durumdayken sıvının
+ağırlığı GAP tabanına uyguladığı basınç
+kuvveti F kadarmış hemen yazıyorum bakın
+burada sıvımız var bu sıvımızın g'ye
+kadarlık ağırlığı var kap tabanındaki
+basınç kuvveti bu F dediğim şey sıvının
+Tabana uyguladığı basınç kuvveti Hocam
+işte basınç kuvveti yorumlayacağız nasıl
+yapıyorduk bas çarpı alan yapıyorduk
+işte yükseklik falan vermesi gerekmiyor
+mu işte vermemiş O yüzden ben başka
+şeylerle yorumlamaya çalışıyorum
+ağırlıkla kıyaslıyorum ki zaten bana onu
+soruyor formül sormuyor bana bununla
+işim yok şu an basınç kuvveti dendiğinde
+her seferinde bu formülü yazmak zorunda
+değil Şu durumda ağırlıkla kuvvet
+arasında nasıl bir ilişki var sıvının
+bütün ağırlığı var mıdır bu kabın
+tabanında Hayır daha fazlası vardır
+sıvının tabanına sıvının kendi
+ağırlığından daha fazlası aktarılır
+Çünkü bu yan yüzeyler şekilleri yüzünden
+şurası 90 derece olmak zorunda temas
+kuvveti normal kuvvet uyguluyorlar
+kenarlardan bastırıyorlar kenarlardan
+bastırdıkları için tabanda ağırlıktan
+daha büyük bir kuvvet oluşuyor bunu
+şöyle Hayal edebilirsiniz düzgün bir
+kabınız var içinde su var tabanı da
+böyle çürük patladı patlayacak Ama şu an
+patlamış durumda değil Siz bunu
+kenarlardan böyle sıkıştırmaya
+başlarsanız o taban patlayabilir Çünkü
+kap düzgünken tabandaki basınç kuvveti
+ağırlığa eşittir Ama sen kenarlardan
+böyle daraltırsan şu Kuvvetleri
+oluşturmuş olursun bu kuvvet ağırlıktan
+daha büyük hale gelip o tabanı
+patlatabilir kap ters çevrilirse bu
+ağırlık tabandaki basınç kuvveti nasıl
+değişir kamu şöyle yapacağız burada
+geniş zemin oturmuştuk burada dar zemin
+oturduğumuz için sıvı seviyesi bir kere
+daha yukarıya çıkacak Ama fark etmez
+sıvı aynı sıvı aynı g var tabandaki
+basınç kuvvetimiz bu sefer F üssü olsun
+G ile F üssü arasındaki ilişki nedir bu
+kabın kenarları yüzeye dik bir şekilde
+şöyle normal kuvvetler uygulayacak
+kaldırıyormuş gibi olacak o yüzden bu
+ağırlığın tamamı aktarılmayacak daha az
+aktarılacak o yüzden tabandaki basınç
+kuvveti bu sıvının ağırlığından daha
+küçük olacak yani elinizdeki şişenin
+tabanı patlamasın istiyorsanız
+sıkıştırmak değil daha da böyle
+genişletmek lazım Bu yan yüzeylerin de
+sıvıyı kaldırmaya yardımcı olması lazım
+ki Tabana daha az yük binsin kabı ters
+çevirdiğimde sıvının ağırlığı Tabii ki
+değişmez sıvı aynı sıvı ama tabandaki
+basınç kuvveti azalır diyebiliriz Burada
+ağırlıktan daha büyüklük burada
+ağırlıktan daha küçüğüz kap ters
+çevrildiğinde kabın zemine uyguladığı
+basınç ve basınç kuvveti nasıl değişir
+Bak az önce vurguladığımız şey kabın
+diyor yani katı bir şeyden bahsediyor
+içindeki sıvıyı unut içinde ne olduğu
+beni ilgilendirmez Dışarıdan bakıyorum
+böyle katı bir kap ağırlığı sadece
+içindeki sıvı oluşturuyor düşünürsem
+basınç dediğim şey kuvvet böyle alan
+buradaki kabın ağırlığı basınç
+kuvvetidir O da zaten içerideki sıvının
+ağırlığı kadar g kadar bölü alan ters
+çevirince bu G'nin değişmediğini
+söylemiştim ama alan değişir Eskiden
+şöyle geniş bir alana oturmuş
+durumdaydık şimdi daha dar bir alan
+oturuyoruz yani şuna oturuyoruz alan
+küçüldü o zaman basınç büyüt Peki bu
+katının zemine uyguladığı basınç kuvveti
+o zaten ağırlık değil miydi burada geyse
+zemine uygulanan basınç kuvveti f g
+kadardır burada g ise zemine uygulanan
+basınç kuvveti F yine g kadardır Çünkü
+bu katıya dışarıdan müdahale yok bu sıvı
+gibi değil bu sıvıya kenarlar müdahale
+ediyor sıvıyı kaldırıyor Ama bu katıya
+dışarıdan böyle bir kuvvet etki etmiyor
+hocam yan yüzeyler var işte onlar zaten
+katının bir parçası kendi kendine mi
+yardım etsin Adam tek başına bir katı
+çevirdim sadece ağırlık aynı ağırlık
+katılarda ağırlık basınç kuvvetine
+eşittir kabı ters çevirdiğinde kabın
+zemine uyguladığı basınç artar ama
+basınç kuvveti değişmez buradaki sıvı
+için ve katı için tanımlanan basınç
+kuvvetlerini iyi ayırt etmeniz lazım
+farklı şeylerden bahsediyor Çünkü ikisi
+de biraz kafa yormanız lazım Evet sıvı
+basıncı bu kadar bütün konuyu soru
+tipleriyle beraber halletmiş olduk Ama
+zaten bir soru çözümümüz de olacak
+ekstra takıldıklarınıza yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

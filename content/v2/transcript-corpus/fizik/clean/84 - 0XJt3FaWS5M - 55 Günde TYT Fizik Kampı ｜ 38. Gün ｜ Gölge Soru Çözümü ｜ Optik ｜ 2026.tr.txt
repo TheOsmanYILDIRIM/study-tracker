@@ -1,0 +1,568 @@
+gençler Merhaba gölge konusunu konu
+anlatımını bitirmiştik soru çözümünde
+yapacağız tamamen pekiştireceğiz ve
+halletmiş olacağız Hemen başlayalım
+noktasal bir ışık kaynağı bir elma ve
+yeteri kadar uzun bir perde şekil 1'deki
+gibi yerleştirilmiş ve perdede elmanın
+tam gölgesi elde edilmiştir Daha sonra
+düzenekte bazı değişiklikler yaparak
+şekil 2'deki gibi farklı büyüklükte K ve
+L gölgeleri elde edilmiştir Buna göre
+hangileri yapılmış olabilir konu
+anlatımında sıkça vurguladığım testlerde
+karşınıza kesinlikle çıkar dediğim bir
+şeyden bahsediyoruz oluşturulan gölgenin
+boyutları nasıl arttırılır nasıl
+azaltılır mantığı çok basitti Aslında
+ufacık bir çizime dayanıyor kaynak ile
+engel birbirine yaklaşırsa kaynaktan
+çıkıp engelin sınırlarına çizdiğin
+ışınlar arasındaki açı büyüyeceği için
+birbirinden daha çok uzaklaşan ışınlar
+daha büyük gölge oluştururlar Örneğin
+noktasal kaynak burada elma burada
+elmanın sınırlarını ışınlar çiziyorsun
+bu kaynak perdede şuraya aydınlatıyor bu
+kaynak perdede buraya aydınlatıyor ama
+bazı yerlerde elmaya takılıp perdeye
+ulaşamadığı yerler oluyor işte oralar
+ışığın ulaşamadığı yerler karanlık
+kalıyor oraya gölge diyoruz o yüzden
+sınıra ve alt sınırı Işın çizip onun
+arasına Işın ulaşamaz diyoruz Eğer ben
+bu kaynağa Şuraya bir yere çizersem yani
+Engele yaklaştırırsam o zaman gölge daha
+büyük olur alt ışının Aynen çizilir ama
+üstteki Işın yine sınıra çizildiğinde
+buradaki açı şuraya göre çok büyüyeceği
+için buradaki gölge çok daha büyük
+olacaktır mesela L gölgesi böyle elde
+edilmiş olabilir kaynaklı engel
+birbirine yaklaşacak ya da diğer ihtimal
+neydi orijinal hale getirelim ya da
+perdeyle oynuyor olabiliriz perdenin
+bulunduğu yere göre buradaki gölgenin
+boyutları değişir Örneğin ben perdeyi
+yaklaştırırsam engelle bu ışınla bu Işın
+aynen devam Dolayısıyla buradaki elma
+gölgesi burada oluşacaktır şuna göre
+daha küçüktür perdeyi daha Uzaklara
+götürürsem bu ışınlar aynen devam
+birbirlerinden uzaklaşmaya devam
+ediyorlar Bu sefer gölge böyle olacaktır
+orijine göre daha büyük olacaktır K
+gölgesinin oluşması için ışık kaynağı
+elmadan uzaklaştırılmıştır K gölgesi İlk
+duruma göre daha küçük O zaman bu
+anlattıklarımın tam tersi olacak mesela
+ışık kaynağı ile elma birbirinden
+uzaklaştırılmalı Evet Işık kaynağını
+daha uzak koyarsan buradan göndereceğin
+ışınlar alttaki aynı kalacak ama üstteki
+daha uzaktan geldiği için Şuraya bir
+yere gelecek orijinalde gölge bu
+boyutlarda ise yeni durumda daha küçük
+boyutlarda olacaktır Çünkü bu iki Işın
+birbirine yaklaştı aradaki açı küçüldü
+birinci öncülüm doğru olabilir L
+gölgesinin oluşması için perde elmadan
+uzaklaştırılmıştır l'ye bakıyorum daha
+büyük Az önce ben bunu çizdim perdeyi
+uzaklaştırırsam bu ışınlar birbirinden
+daha da çok uzaklaşır daha da büyük bir
+gölge oluştururlar şuna göre ikinci
+öncülüğünde Doğrudur K gölgesinin
+oluşması için elma perdeye
+yaklaştırılmıştır K gölgesi daha küçüktü
+elmayı perdeye yaklaştıracağız Bu soruda
+konuşmadığımız bir şey bu Buna da
+bakalım elma şu iki çizgi arasında
+boyutlara sahip Ben bunu aynen buraya
+getiriyorum doğru çizim yapabilmek adına
+bu önemli Bunu da aynen buraya getirdim
+Dolayısıyla elmanın şu kesiti bu kadardı
+artık bu tarafa geldi ve burada alttaki
+Işın aynen devam ama üstteki ışığın
+Eskiden şöyle giderken şimdi yeni
+durumda buraya Bir yere gelecek orijinal
+gölge bu boyutlarda iken yeni gölge daha
+küçük boyutlarda olacak yani k gibi
+olabilir gölgem küçülebilir üçüncü
+öncülünde Doğrudur sorunun cevabı e
+seçeneğidir karanlık bir odada noktasal
+bir ışık kaynağı saydam olmayan Özdeş X
+ve Y küreleri ile yarıçapı daha küçük
+olan Z Küresi perde önüne
+yerleştirilerek perdede tam gölge elde
+ediliyormuş Buna göre düzeneklerinden
+hangilerinde perdede aynı tam gölge
+oluşmuş olabilir Zaten burada bir tane
+kaynak var o zaman bütün perdelerde tam
+gölge oluşacak yarı gölge oluşturacak
+ikinci bir kaynak yok şekil birebir aynı
+olabilir diye soruyor hangisinde konu
+anlatımında da bahsettiğim gibi çizmeden
+de Aslında akıl yürüterek az buçuk
+anlayabilirsiniz şekillerini neye
+benzeyeceğini daha önce dediğim gibi
+kaynakla engel yakınsa çizilen ışınlar
+arasındaki açı büyür gölge büyür mesela
+yls aynı hizadalar aynı konumdalar gibi
+düşünüyorum ama y'nin orijinal boyutu
+büyük Z2 Küçük Ben şimdi burada ışınlar
+çizsem yeğenin üst ucuna Işın çiziyorum
+y'nin alt ucuna Işın çiziyorum bu aynı
+zamanda Z'nin üst ucuna çizilen ışındır
+Bir de Z'nin alt ucuna çizdim bunları
+birleştirdiğimde küre şeklinde
+engellerim olduğu için bunların
+kesitlerinden daire kabul edebileceğim
+Tam gölgelerim oluşacaktır burada da
+daha küçük İşte bu y'nin gölgesidir Bu
+da Z'nin gölgesidir X ve Y Özdeş aynı
+boyuttalar soru öyle diyor ben hiç
+çizmeden birinci şeklin ikinci şekilde
+de oluşabileceğini tahmin edebilir nasıl
+yaptım o işi x Çünkü kaynağa yakın daha
+büyük gölge oluşturacak y kaynağı uzak
+daha küçük gölge oluşturacak engeller
+aynı boyutta olmasına rağmen gölge buna
+benzeyecek çizelim altı Işın çizdim X'in
+altı aynı zamanda y'nin üst dışını
+ikisinin üstüne çizdim Hatta bunu farklı
+renkle yapalım karışmasın y'nin altına
+çizdim bunları birleştirirsek yukarıda
+X'in gölgesi daha büyük aşağıda y'nin
+gölgesi daha küçük buna benzedi mi Evet
+benzedi hocam y çok küçük kaldı x
+kocaman kaldı bunlar aynı olmadı
+demiyoruz sonra onu kastetmiyor yani
+bahsedilen şey şekillerin aynı olması
+yani birebir aynı olmasını kastederken
+Biri büyük biri küçük aynı hizada gölge
+olsun istiyor buradaki boyutları da
+kıyaslayacaksak zaten sonra da bize
+sayılar verirdi oran orantı falan
+yapmamız gerekirdi ama sorunun o
+taraklarda bezi yok xl'ye aynı
+boyutlardalar kaynak konulmuş neye
+benzer engellerin boyutları aynı aynı
+uzaklıktalar kaynağı Dolayısıyla Burada
+iki tane aynı gölge oluşacak birinci
+ikinci ışının şu arkadaşa da aynısını
+çizdim üst ve alt simetrik burada
+çizilen tam gölge alanıyla burada
+çizilen tam gölge alanı aynıdır şu
+ikisine göre daha farklı bir şekildir
+buraya bakıyorum aynı konumdalar kaynağı
+uzaklıkları aynı ama Z daha küçük O
+yüzden onun gölgesi daha küçük çıkacak
+Tabii ki x'e göre Şurada daha küçük bir
+gölge olacak xd ise daha büyük bir gölge
+olacak yani küçük bir daire daha büyük
+bir daire tam gölge hangilerinde
+Aynıları oluşmuş olabilir Bir de ve 2'de
+aynı şekli oluşturdum Sorumun cevabı a
+seçeneği olacaktır noktasal ışık
+kaynakları k ile L küresel Işık kaynağı
+saydamı olmayan küresel bir engel ve
+perde şekil bir şekil iki ve şekil
+üçteki gibi yerleştirilmiştir Buna göre
+verilen şekillerin hangilerinde
+perdedeki gölge şekilleri doğru
+çizilmiştir güzel iki tane noktasal
+kaynak var burada bir engelimiz var bu
+noktasal kaynaktan üstte Işın çizilmiş
+alta Işın çizilmiş buradaki daire
+tamamlanmış buradaki noktasal kaynaktan
+üstte Işın çizilmiş 6 Işın çizilmiş
+buradaki daire tamamlanmış şuraya hiçbir
+şekilde Işın ulaşamadığı için orası tam
+gölgedir ister buradan çalış ister
+buradan gelmeye çalış hiçbir şekilde
+buraya ulaşamıyoruz Engele takılıyoruz O
+yüzden tam gölge Peki Burası niye yarı
+gölge Çünkü L oraya ulaşamıyor bir kere
+orada bir gölge var kaynaklardan biri
+oraya ulaşamıyor bu takıldı ama K oraya
+ulaşabiliyor lorayı gölge yaptı K orayı
+yarı gölge yaptı L tek başına olsaydı
+orası tam gölge olurdu o tam gölge K
+tarafından aydınlatıldığı için yarı
+gölge olacaktır aynı şekilde K buraya
+ulaşamıyor K tek başına olsaydı Burası
+tam gölge olurdu ama oraya l'ye
+ulaşabildiği için yarı gölge olmuştur
+birinci Şeklimiz doğru çizilmiştir
+geldim şekil ikiye konu anlatımımda
+vurguladığım bir şeyi soru haline
+getirdik küresel ışık kaynağı var engel
+var aynı Buradaki gibi bu gölge neye
+benziyorsa bu gölgede ona benzer diyor
+çünkü bazı öğrenciler nasıl düşünüyor
+Hoca demişti ki küresel kaynaksa eğer
+üstünde bir nokta sal kaynak varmış
+altında bir noktasal kaynak varmış gibi
+düşün üstten ışınları çiz alttan
+ışınları çiz bunları birleştirdiğinde
+işte bunun aynısı olur Hayır olmaz bu
+tamamen ezbere küresel kaynağı ne anlama
+geldiğini bilmeyen bir açıklama
+biliyorum küresel kaynak demek sadece
+üstünde ve altında noktasal kaynak var
+demek değil bunun gibi bir şey değil
+bunun her yerinde sonsuz sayıda binlerce
+milyonlarca noktasal kaynak varmış gibi
+düşünülmesi gerektiğini zaten
+konuşmuştuk Bunların hepsinden Işın
+çizmen gerekiyor Dolayısıyla Nasıl bir
+mantık yapmıştık demiştik ki mesela
+Şuradaki kaynaktan dümdüz Işın çizsem
+takıldı buradaki kaynaktan dümdüz Işın
+çizsem takıldı yani Bu kaynaklardan düz
+bir şekilde perdeye ulaşmaya
+çalıştığımda takılıyor hep en üstteki
+bir adamı seçsem bunun üstünden geçip
+şuraya geliyor En alttaki adamı seçsem
+engelin altından geçip buraya geliyor
+aradakilerin Hepsi takılıyor benim
+kaynağım küresel engelim küresel O zaman
+burada küresel hiçbir şekilde
+ulaşamadığım bir tam gölge alanı var şu
+an şimdi bu adamlar Sadece düz Işın
+göndermiyorlar her yöne gönderiyorlar
+aynı Buradaki gibi mesela buradaki bir
+arkadaş düz gönderdiği gibi bunun üst
+kenarına da gönderiyor bunun alt
+kenarına da gönderiyor tek başına burada
+dairesel bir gölge oluşturuyor veya
+başka bir nokta sal kaynak bunun üst
+kenarına da gönderiyor alt kenarına da
+gönderiyor Bu da kendi halinde burada
+dairesel bir gölge oluşturuyor bunların
+en üst sınırını ve en alt sınırı bulmak
+için ne yapıyorum bir kenardakileri
+Mesela en üstteki adamı alıyorum en
+üstteki adam bunun üstüne Işın
+gönderiyor bunun altına Işın gönderiyor
+ve burada kendi dairesini oluşturuyor en
+alttaki adam da bunu yapıyor en üstte
+gönderdi en alta gönderdi kendi
+dairesini oluşturur yani buradaki bütün
+nokta sallar kendi dairelerini
+oluşturuyorlar ve ortada böyle bir
+yuvarlak oluşturmuştuk en dıştaki bu
+sınırdaki adamlar da kendi dairelerin
+oluşturduklarında oluşan gölge şekli bu
+oluyor Burası yarı gölge Burası tam
+ortası tam gölge bunun gibi olmaz Bunun
+gibi iki tane noktasal kaynak yok
+binlercesi var ve 3 boyutlu düşünmemiz
+gerekiyor kaynağın buysa kenarlardan da
+geliyor İki tane noktasal kaynak
+olduğunda şuralar boş kalıyor tam bütün
+bir daire olmuyor ama küresel kaynakta
+kenarlardan da noktasal kaynaklar
+düşünüldüğü için o boşluklar yerine tam
+bir daire gibi gözükmemizi
+sağlayabiliyor Peki neden Buralar yarı
+gölge oluyordu Çünkü bazı kaynaklar
+ulaşabiliyordu bazıları ulaşamıyordu
+mesela şu nokta sal kaynak buraya
+ulaşamazken Engele takılırken orayı tam
+gölge yapacakken daha Yukarıdaki bir
+noktasal kaynak oraya rahatlıkla ulaşır
+ve oraya yarı gölge yapar daha
+Yukarıdaki nokta kaynak oraya ulaşır ve
+orayı yarı gölge yapar şekil 2 yanlış
+çizilmiştir böyle olması lazım şekil üçe
+bakıyorum iki tane nokta sal Kaynak bu
+işin çizilmiş K'dan alt sınırı Işın
+gönderilmiş bu gelmiş buraya üst sınıra
+Işın gönderilmiş bu gelmiş buraya ve
+şöyle bir daire oluşturulmuş L de 6
+aynısını göndermiş buraya geldi l'nin
+üstüne gönderdiği buraya geldi burayı
+birleştirdim Bu da l'nin oluşturduğu
+gölge alanı ne l'den ne de K'dan şuraya
+ulaşamıyorum l'den de ulaşamıyorum K'dan
+da ulaşamıyorum takılıyorum orası tam
+gölge l'den buraya ulaşamazken K'dan
+buraya ulaştığım için orası yarı gölge O
+yüzden üçüncü şeklinde doğru çizilmiştir
+Sorumun cevabı C seçeneğidir noktasal
+ışık kaynakları k ile L saydam olmayan
+küresel bir engel ve perde şekildeki
+gibi yerleştirilmiştir Buna göre
+hangileri doğrudur bu kaynakları hareket
+ettiriyoruz yarı gölge değişir mi tam
+gölge değişir mi gibi öncüller var önce
+Gölgeyi bir oluşturalım L Yakında daha
+büyük bir gölge oluşturacak ışınları
+çizdiğimizde bunu bariz bir şekilde
+göreceğiz bu l'nin oluşturduğu gölge
+alanı ka daha uzakta daha küçük bir
+gölge oluşturacak çizimden de zaten
+anlıyoruz Bu da kanunu oluşturduğu gölge
+alanı Burası tam gölge şurası yarı gölge
+şimdi bu tip sorularda taktik şudur
+hangi daireye kimin oluşturduğunu
+Zihnine kazı Onu unutma bu mavi daire
+yani küçük daireyi uzaktaki adam
+oluşturdu kırmızı daire yani büyüğü
+yakındaki oluşturdu diyor ki K ışık
+kaynağı eksi x yönünde hareket
+ettirilirse perdede oluşan yarı gölge
+artar eksi x sol taraf Kai
+uzaklaştırıyorum k'yı buraya getiriyorum
+çizmeme gerek yok burayı karıştırmaya
+gerek yok k'yı daha da uzaklaştırıyorum
+ka bu maviyi oluşturuyordu uzak olduğu
+için küçük oluşturuyordu E daha da uzağa
+götürürsen daha da küçük olur Yani
+normalde gölge şöyle bir şeydi kırmızıda
+hiçbir değişiklik olmadı Çünkü L yerinde
+duruyor ama ne oldu mavi daha da küçüldü
+mavi dediğim şey tam gölge değil miydi
+Evet tam gölge küçülüyor E hocam yarı
+Gölgeyi L oluşturuyordu Demek ki onda
+bir değişiklik yok hayır yarı gölge
+eskiden bu kadardı tam Gölge küçülünce
+yarı gölge daha büyük yer kaplar oldu
+Yarı gölge büyüdü Çünkü içerideki tam
+gölge küçüldü O yüzden birinci öncülüğün
+Doğrudur L ışık kaynağı artı x yönünde
+hareket ettirilirse perdede oluşan yarı
+gölge azalır şimdi düşüneceğiz L kırmızı
+oluşturuyor Bunu daha da yakına
+Getiriyorum o zaman buradaki kırmızı
+daha da büyür Kırmızı şu iken bu olur bu
+sefer mavi de bir değişiklik yok çünkü K
+yerinde engel yerinde perde yerinde mavi
+şu ise yine bu olacaktır Ama bak ne oldu
+yine yarı gölge büyüdü tam gölge aynı
+kaldı ama yarı gölgenin sınırları
+büyüdüğü için o kısım arttı Burada ne
+diyor azalır diyor yanlış diyor ikinci
+Öncül alamam L ışık kaynağı -x yönünde
+hareket ettirilirse perdede oluşan tam
+gölge artar l'yi sola götür diyor L
+zaten kırmızıydı sola gitmesi demek
+uzaklaşması demek Kırmızının küçülmesi
+demek yani Kırmızının orijinali buysa
+daha da küçülecek içindeki maviyi de
+aynen duracak Çünkü maviyi oluşturan
+kıpırdamadı Ee o zaman mavi aynen
+duruyor tam gölge aynen duruyor ama ne
+oldu Yarı gölge azaldı tam gölge artar
+diyor yanlış diyor burada şuna da dikkat
+etmek lazım bazı sorular onu da
+sorgulatır l'yi uzaklaştırıyoruz ya Ne
+kadar uzaklaştıracağız mesela k'ya kadar
+mı kanında ötesine geçirecek miyiz
+Kaan'ın da ötesine geçirirsek mesela L
+buraya gelirse artık işler ters döner L
+uzakta K yakında olur uzaktaki Adam tam
+gölge oluşturuyordu Yine öyle olacak
+uzaktaki L tam gölge oluşturacak yani şu
+mavi bizim tam gölgemizdi bu kırmızı
+yarı gölgenin sınırlarını belirliyordu L
+uzaklaştıkça kırmızı küçülecek küçülecek
+küçülecek tam Kaan'ın yanına geldiğinde
+kırmızımız da bu kadar olacak tek bir
+Gölgemiz olacak o da tam gölge olacak
+zaten L daha da uzaklaşırsa buraya
+gelirse o kırmızı daha da küçülüp
+maviden küçük hale gelecek işte o zaman
+burası tam gölge olur burası yarı gölge
+olur artık L tam Gölgeyi belirler
+dediğim gibi işler değiş tokuş olmuş
+olur ama her halükarda o ihtimali
+düşünsek bile tam gölge artar diyor
+Hayır tam gölge daha da küçülür lk'nın
+ötesine geçse bile bizim sorumuzda o
+yüzden üçüncü Öncül olmaz sorumuzun
+cevabı a seçeneğidir küresel ve noktasal
+ışık kaynakları ile saydam olmayan
+küresel engellerle şekil 1 2 ve 3'te
+yeteri kadar büyük olan perdelerde
+Gölgeler oluşturuluyormuş Buna göre k l
+ve M perdelerinden hangilerinde yarı
+gölge oluşur denilmiş bu şekli
+öğrendiğiniz artık küresel kaynak üstte
+bir nokta düşün altta bir nokta düşün Bu
+adamlar engeli böyle bodoslama dal bunu
+her yerden yapıyorlar sağdan ve soldan
+da yapıyorlar 3 boyutlu düşün
+dolayısıyla böyle far gibi komple
+ileriye aydınlatıp şurada hiçbir şekilde
+hiçbir noktasal kaynağın ulaşamayacağı
+bir tam gölge oluşturuyorlar ve bunlar
+her yöne Işın gönderdikleri için bir de
+alt sınıra ve üst sınıra Işın
+gönderdiğimde onları da birleştirdiğimde
+şöyle yarı gölge alan oluşturmuş
+oluyoruz kaynak küresel engel küresel
+gölge Tabii ki küreğe benzeyecektir
+Çünkü tek kaynak var yarı gölge
+oluşturduk mu Aynen öyle yarı gölge
+oluşturduk noktasal kaynak var tek
+kaynak burada yarı gölge oluşturamaz
+kaynaktan ışınlarını çizersin oluşan şey
+tam gölgedir Çünkü buraya yarı gölge
+yapacak ikinci bir kaynak yok küreselde
+binlerce vardı o yüzden yarı gölge
+yapabiliyoruz ama nokta salda bir tane
+çıkış var o yüzden sadece tam gölge olur
+buraya baktığımızda yine konu
+anlatımımda konuştuğumuz bir şey şu
+nokta sal kaynak burada bir gölge
+oluşturacak tam gölge olsun bu tam bunun
+önüne bir ışık kaynağı daha koyarsam
+Hocam bu adam buraya direkt aydınlatır
+Dolayısıyla burada gölge bile oluşmaz
+demiyoruz buraya ne diyoruz yarı gölge
+olur diyoruz niye tamamen aydınlatmıyor
+da yarı gölge Çünkü perdenin geri kalan
+kısmıyla ton farkı oluyor ne demek
+istiyorum mesela bu kaynak şuraya
+ulaşabiliyor mu Evet bu kaynak da oraya
+ulaşabiliyor mu Evet iki kaynaktan da
+buraya akı geldiği için burada e
+kadarlık bir aydınlanma şiddeti oluşuyor
+diye düşünebilirim bu kaynak buraya
+ulaşabiliyor mu Evet orada bir akı var o
+zaman aydınlanma da var ama bu kaynak
+oraya ulaşamıyor Engele takılıyor Demek
+ki bu tek başına buraya akı gönderdi O
+zaman buradaki aydınlanma şundan daha
+azdır e/2'dir şimdi etrafın parlak Ben
+ortada daha az parlı bu bir yarı
+gölgedir Dolayısıyla M perdesine de bu
+olay gerçekleşir sorumuzun cevabı B
+seçeneğidir noktasal ışık kaynağı Özdeş
+küreler bir çubuktan oluşmuş saydam
+olmayan engel ve yeteri kadar uzun perde
+şekildeki gibi yerleştirilmiştir engel K
+noktası etrafında ok yönüne
+döndürülürken perdede oluşan gölge
+şekillerinden hangileri gibi olabilir
+şimdi buradaki döndürmeyi iyi tarif
+etmek lazım Siz ışık kaynağı olun Bu da
+önümüzdeki Çubuk olsun bu Çubuk böyle
+size doğru dönüyor Yani iki tane küre
+var üstünde ve altında bu küre size
+yaklaşıyor alttaki küre uzaklaşıyor
+sonra bu küre size yaklaşıyor
+olabilir mi ikisi de aynı boyda olabilir
+mi Evet tam bu mevcut konumundan
+Geçerken iki kürede kaynağa eşit
+uzaklıktayken aynı boyda olurlar O zaman
+bu da olabilir 3 olabilir mi 3 olamaz
+çünkü burada Çubuk gözükmüyor Peki Çubuk
+gözükmek zorunda mı hayır Çubuk gözükmek
+zorunda değil aslında 4 Öncül olarak tek
+bir küre çizseydim de bunu da
+alabilirdim Bu da olabilirdi O nasıl bir
+konu onu nasıl hayal etmeliyiz tam
+yataydan geçerken yani şu arkadaş buraya
+geldi şu book bu arkadaş da buraya geldi
+Tam yataydayız Hocam yine iki tane küre
+Var Fark etmez ki bu yakında bu yakında
+olduğu için bunun sınırlarını çizeceğim
+Işın direkt burada kocaman dairesel bir
+gölge oluşturacak işte bunu oluşturacak
+Sen istediğin kadar bunun uçlarına da
+çiz o gözükmeyecek ki zaten zaten tam
+gölge var tek Kaynak bu gözükmeyeceği
+için o arkada kalacağı için böyle tek
+bir daire çizseydik de Çubuk gözükmeden
+doğru kabul ederdik ama Şu haliyle
+sorumuzun cevabı C seçeneğidir küresel
+bir cisim karanlık ortamda paralel Işık
+demetiyle şekildeki gibi aydınlatılıyor
+böyle çaprazdan bir köye Işık vuruyor bu
+o küreyse çaprazdan Işık vuruyor ama
+buradaki çaprazı İyi düşünmeliyiz gözün
+baktığı tarafa göre Hayal etmemiz
+gerekir Mesela sizin bakış açınızdan
+çözersek toplam Sizin karşınızda Siz bu
+gözsünüz topla karşıdan bakıyorsunuz
+topun bu yarısını görüyorsunuz şu an
+ışık nereden vuruyor bu topa gözün
+olduğu taraftan vuruyor yani gözün
+tepesinden doğru vuruyor buradaki adamın
+kafasının üzerinden Işık geliyor gibi
+düşünebiliriz Dolayısıyla Siz topa
+bakıyorsunuz topun bu yarısını
+görüyorsunuz ve sizin başınızın
+üzerinden Buraya doğru bunun üst kısmına
+doğru çapraz bir şekilde Işık geliyor
+konu anlatımda benzer bir şey
+konuşmuştuk bu göz ne görür şöyle
+ışınlar çizersem bu göz bu kürenin Tabii
+ki bu yarısını görür buraya göremez
+Burası arkada kaldı Peki bu Işık nereye
+aydınlatır ve bu da kürenin yarısını
+aydınlatıyor ama hangi yarısını
+aydınlatıyor bak En alttaki ışından en
+üstteki ışığına şöyle bir çizim
+yapabilirim bu çapraz yarısını
+aydınlatıyor Burası komple aydınlık hem
+de gözün Algıladığı aydınlık gözün bakış
+açısında göz bu mavi çizginin sol
+tarafını görebiliyor Aslında şurası da
+aydınlık ama göz orayı göremiyor mavinin
+sağında kalmış göz Burayı da görebiliyor
+ama oraya da Işık düşmüyor bu kırmızı
+çizginin alt kısmına düşmez o zaman
+orası ne olacak burası karanlık olacak
+Yani siz buna baktığınızda karşıdan Alt
+kısmını karanlık göreceksiniz büyük
+çoğunluğunu aydınlık göreceksiniz İşte
+bu sol yarının büyük çoğunluğu aydınlık
+şu alt kısmı karanlık hangi şekle benzer
+bu büyük çoğunluk aydınlık alt kısım
+karanlık sorumuzun cevabı a seçeneğidir
+hocam buradaki çizgiler dümdüz burada
+niye kavis var Ders anlatımında
+söylemiştim tekrar söylüyorum bu küresel
+bir engel Dolayısıyla 3 boyutlu
+hayaletmelisiniz buradan vuran Işık bu
+şekle uygun bir şekilde gölge oluşturur
+küre olduğu için böyle kavisli bir
+şeklin alınması gayet doğaldır geldik
+gölge konumuzun son sorusuna bir kaynağa
+baktığımızda onu nasıl görürüz bize
+nereden Işık gelir nereden gelmez güneş
+tutulmasının soru hali karanlık bir
+ortamda önüne küresel engel bulunan
+gözlemci küresel Işık kaynağını
+şekildeki gibi görmektedir Buna göre
+gözlemcinin konumu hangisi olabilir
+gözlemci bu kaynağı nereden bakıyordur
+biz bu sefer gölge oluşturmuyoruz
+Aslında direk kaynağa bakıyoruz kaynağın
+neslini görürüz de bakıyoruz Normalde
+kaynaktan ışınlar çizip buralardaki
+kısmından Işık gelmiyor alt kısmı
+karanlık üst kısmı aydınlık yani şurası
+aydınlık gayet mantıklı sorunun cevabını
+bulduk sorumuzun cevabı K oldu ama ben
+şu n'yi de konuşmak istiyorum n ile p
+aynı zaten mesela n ile P ne görür Allah
+ne verdiyse görür bunun engelleyişi yok
+ki bu adamların ne her türlü bu kaynağa
+ulaşabiliyor engelin üstüne bile Işın
+çizsek engelin altına bile Işın çizsek
+şöyle bir yerden Işık gelmez orada zaten
+kaynağımız yok ki kaynak yukarda
+kaynaktan çıkan bütün ışınlar neye her
+türlü ulaşırlar Dolayısıyla ne böyle
+kabak gibi güneşi görür bizim sorumuzun
+cevabı K7 yani A seçeneğiydi bu soruyla
+beraber gölge konusunu bitirmiş oluyoruz
+takıldıklarınızı alta yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

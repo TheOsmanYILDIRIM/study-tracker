@@ -1,0 +1,896 @@
+[Müzik]
+yaşa Merhaba tyt manyetizma ile ilgili
+bir soru çözümü yapacağız ve konuyu
+tamamen bitirmiş olacağız hazırladığım
+sorularda yine doğru bilinen yanlışlara
+odaklanmaya çalıştım kavram yanıldığını
+gidereceğiz bütün soru tiplerinde görmüş
+olacağız Hemen başlayalım mıknatıs ve
+manyetik alanla ilgili yargılarından
+hangileri doğrudur diye sorulmuş
+elektrik alanın artı yükte başlayıp eksi
+yükte sonlanması gibi manyetik alan da n
+kutbunda başlayıp s kutbunda sonlanır
+elektrik alan ve manyetik alan
+kıyaslamalarını bilseniz iyi olur
+gençler benzer mantıkla şeyler ama
+aralarında çok ciddi farklar var tabii
+ki aynı şey değiller çoğu öğrenci n
+kutbunu artı gibi düşünüyor s kutbunu
+eksi gibi düşünüyor Tabii ki böyle bir
+şey yok elektrik alan dediğiniz şey artı
+yükte başlar Bu doğrudur hatta bunun
+yanına bir de eksi yük koyarsanız
+artıdan eksiye doğru gittiğini artıda
+başlayıp ekside sonlandığını
+söyleyebilirsiniz manyetik alanda ise
+böyle değil manyetik alanda mıknatısınız
+var bunun n Kutbu var s Kutbu var n'den
+başlıyor s'de bitmiyor içerde de yol
+devam ediyor kapalı eğriler çiziyor
+elektrik alanın başlangıcı var bitişi
+var manyetik alanda bir döngü var
+başlangıç bitiş yok Dolayısıyla 1
+öncülüm yanlıştır mıknatıslar
+birbirlerine Klon kuvveti uygularlar
+Klon kuvveti elektriksel kuvvet için
+tanımlanmış bir kuvvettir Sizin burada
+bir artık q yükünüz varsa Hatta bir tane
+daha artık q yükünüz varsa bunların
+arasında oluşan elektriksel Kuvvet itme
+şeklinde söz konusu olacaktır Ve biz
+bunu K çarpı q çarpı q böyle aradaki
+mesafenin karesi olarak yazarız aradaki
+mesafeye de şöyle D olarak göstermiş
+olalım bu ifade klom kuvvetidir
+mıknatıslarda şeklen benzer şekilde bir
+formüle sahipler ama birbirlerine
+uyguladıkları şey Klon kuvveti değil
+Klon kuvveti yük varsa söz konusudur
+elektriksel bir olaydır tamamen iki tane
+mıknatısı yan yana koyduğunuzda neleri
+yan yana koyduğunuzda bu mıknatıslar da
+birbirlerini iteceklerdir bu kuvvet
+manyetik kuvvettir aynı klong gibi
+ortamla alakası vardır sabit bir sayı
+vardır Birinci mıknatısın Kutup şiddeti
+ikinci mıknatısın Kutup şiddeti böyle
+aralarındaki uzaklığın orantılıdır
+ifadeler çok benzer Ama buna Klon
+kuvveti denmez buna manyetik kuvvet
+denir bu başka bir şeydir manyetizma
+üzerinden Kutup şiddetleri üzerinden
+tanımlanır Klon kuvveti elektrik yükleri
+üzerinden tanımlanır ikinci öncülüm
+yanlış Pusula iğneleri konuldukları
+noktadaki manyetik alan vektörü yönünde
+konumlanırlar Doğrudur buradaki Çubuk
+mıknatısın etrafında manyetik alan
+çizgileri nasıl çizebilirsiniz bir
+pusula yardımıyla çizebilirsiniz Örneğin
+buraya Pusulayı koyduğunuzda böyle
+çapraz bir şekilde yöneldiğini
+görüyorsunuz Neden böyle çapraz bir
+şekilde bu iğne yönelmiş buraya n Kutbu
+buraya s Kutbu dersem n'den çıkıp S'ye
+Doğru giden bir manyetik alan çizgisi
+var ve Buradan tam bu şekilde geçiyor
+Bizim iğnemiz de buna teğet bir biçimde
+duruyor tam buradaki manyetik alan
+vektörü de zaten bu çizgiye teğet bir
+çizgi B vektörü böyle gösterilebilir
+yani diyebiliriz ki Pusula iğnesi o
+noktadaki manyetik alan vektörü nasıl
+duruyorsa onunla aynı yönlü
+yönlenecektir devamında çizgi burada
+olduğu devamında burada oldu bunların
+hepsini tamamlarsanız manyetik alan
+çizgisini elde etmiş Bunu zaten konu
+anlatımında konuşmuştuk sizinle şu
+noktada manyetik alan vektörü buna teğet
+böyledir bu noktada teğet böyledir bu
+noktada teğet böyledir mantığı anladınız
+buraya koyduğunuz Pusulada tam Bu
+doğrultuda sapacaktır buraya koyduğunuz
+Pusula tam Bu doğrultuda sapacaktır
+Dolayısıyla 3 öncülüm doğru Sorumun
+cevabı C şık olacak yerin manyetik
+etkisinin önemsenmediği ortamda Özdeş X
+ve Y mıknatısları şekildeki gibi yatay
+düzlemdedir bir pusula Merkezi o noktası
+olacak şekilde yerleştirilirse Pusula
+iğnesinin görünümünü soruyor Bakın bu
+tip sorularda belirtilmesi gereken
+Önemli bir detay var Yerin manyetik
+etkisi ihmal dünyanın da bir manyetik
+alanı olduğunu söylemiştim buradaki o
+noktasında hiçbir mıknatıs olmasa bile
+bir manyetik alan var zaten oraya bir
+pusula koyarsanız kuzeyi gösterir Çünkü
+dünyanın manyetik alanı yönünde sapar
+Çok yakına koyduğunuz iki tane
+mıknatısın tabii ki o noktasındaki
+etkisi çok fazla olacaktır dünyanın
+manyetik alanı zayıf olacaktır Ama hala
+bir etkisi vardır O yüzden sorularda
+ihmal ediliyor denmelidir ki biz sadece
+bu İki mıknatısın o nokt etkisine
+odaklanalım bu detayı konuştuktan sonra
+sorumuza geçebiliriz konu anlatımında
+özellikle önem verdiğim bir yerde burası
+o noktasındaki manyetik alan vektörünü
+çizgiler çizerek anlayabilirsiniz ama
+daha net anlamak için Kafamızda hiçbir
+problem kalmaması için şöyle bir akıl
+yürütme yapmıştık o noktasına birim
+Kutup dediğimiz tamamen bir kabul olan
+küçücük bir n Kutbu koyduğumuzu Hayal
+edelim demiştik buradaki birim Kutup
+nasıl etkilenirse manyetik alan vektörü
+o yöndedir ne demek istiyorum X'in o
+noktasındaki etkisini merak ediyorum ne
+buradaki n ne yapar buradaki n'yi iter s
+buradaki n'yi kendine doğru çeker bunu
+küçük bir vektör olarak çizdim Çünkü Sn
+zayıf çeker Niye Çünkü uzakta mesafe çok
+nn'yi güçlü iter O yüzden o vektörü
+büyük çizdim niye yakında etkisi daha
+fazla mıknatısa ne kadar yakınsanız
+etkisini o kadar fazla hissedersiniz
+Dolayısıyla bu kırmızıyla mavinin
+bileşkesi toplamı yani sol tarafa doğru
+bir vektör olacaktır Yani ben artık bu
+kırmızıyı bu maviyi silebilirim
+diyebilirim ki x mıknatısın o arasındaki
+manyetik alan vektörü sol tarafa doğru
+bir vektördür bunu bx'le gösterin
+Dolayısıyla tek tek yapmakla
+uğraşmayalım artık ne var s var y
+mıknatısına geçtim n daha yakın olduğu
+için Şuradaki mesafe gördüğünüz gibi
+küçük olduğu için bu mesafeye göre n'nin
+dediği olacak o yüzden sadece n'ye
+odaklanacağım n buraya koyduğum birim
+n'yi birim Kutbu iter nniter Dolayısıyla
+Bu arkadaşım buradaki etkisi de böyle
+bir vektör olarak çizilebilir Buna da by
+diyelim acaba buradaki bx vektörü ile by
+vektörünün büyüklük ilişkisinedir kim
+büyüktür kim küçüktür Bu nasıl anlaşılır
+mıknatısınızı ne kadar güçlü olduğu
+önemli ortam önemli ne kadar uzak
+olduğunuz önemli ikisi de aynı
+uzaklıktalar mı Evet o zaman bu bir
+değişken değil iki mıknatısınız da Özdeş
+mi soru öyle diyordu Evet o zaman o da
+bir değişken değil o noktasıyla
+mıknatıslar arasındaki şu ortam hava
+ortamı ikisi içindi Evet hava ortamı O
+da Özdeş Demek ki bu ikisinin arasında
+hiçbir fark yok demek ki bx vektörü ile
+by vektörü tamamen büyüklük olarak aynı
+vektörler ben buna B dersem Buna da B
+demeliyim Bu ikisini toplarsam bu iki
+vektörün toplamı şöyle arada bir vektör
+çıkacaktır bunu şöyle aklınızda tutun 10
+sınıfta daha vektörlerin toplanması
+öğretilmiyor Çünkü burada bir cisim var
+bir arkadaşınız kuzeye doğru çekiyor
+diğer arkadaşınız Batıya doğru çekiyor
+Bu cisim nereye gider hangisinin dediği
+olur ikisinin de dediği olmaz eşit
+şekilde çekiyorlarsa açıortay olacak
+şekilde böyle arada bir şekilde
+gidecektir bileşke öyle çıkacaktır diye
+düşünebilirsiniz Az önceki soruda bunu
+konuştuk aslına bakarsanız tam bu
+noktaya bir pusula koyarsanız iğnesi
+nasıl durur bu kırmızı vektör yönünde
+durur bu daire Pusulayı temsil ederse
+pusulanın iğnesi bu kırmızı vektör
+yönünde sapacaktır şöyle çapraz bir
+biçimde duracaktır gençler yine konu
+anlatımında öğrenmiştik Pusula iğnesi de
+bir mıknatıslı yani buradaki pembe ile
+çizdiğim iğne de bir mıknatıs n Kutbu
+var s Kutbu var ne Kutbu manyetik alan
+vektörü yönü temsil eder konu anlatımı
+da konuşmuştuk Burası ne Burası s
+olacaktır ya da şöyle de
+düşünebilirsiniz hangisine Hangisi sdrüt
+yaşıyorsanız burada ne var buradaki i n
+bu n'den kaçıyor sola doğru gitmek
+istiyor E n var pusulanın n'si bundan da
+kaçıyor e yukarı doğru gitmek istiyor
+Dolayısıyla bu ikisinin arasında bir
+yerde şöyle çapraz gidecek olan şey ne
+olmalıdır diğeri de s olmalıdır
+sorumuzun cevabı budur yerin manyetik
+alanını ihmal edildiği bir ortamda
+birbirlerine bağlanan kvl Çubuk
+mıknatısları tahta tavana bir iple
+asılmıştır neden tahta tavan diye
+belirtme ihtiyacı hissettik Çünkü tahta
+ferromanyetik bir madde değildir Hatta
+diamanyetik bir maddedir tahta
+mıknatıslardan güçlü bir şekilde
+etkilenen bir madde değildir yani
+buradaki tavan bu mıknatısları kendine
+doğru çekmiyor ya da itmiyor kabul
+edeceğim Aslında tahta diamanyetik bir
+malzemedir mıknatıslar tarafından İtilen
+bir malzemedir nasıl olduğunu konu
+anlatımlarında konuşmuştuk merak edenler
+açık izleyebilirler ama o diyamanyetizm
+o kadar Zayıftır ki biz bunun etkisini
+Bu soruda ihmal edeceğiz Dolayısıyla
+buradaki tavan kısmının mıknatıslarla
+hiçbir işi yok ipte bir te gerilmesi
+oluşmuş Buna göre tip gerilmesi ile
+ilgili hangileri yanlıştır diye sorulmuş
+bakın öncüllerde teğet gerilmesi şunu
+yaparsam azalır bunu yaparsam artar
+falan gibi şeyler var bu şekil hemen
+hemen bütün test kitaplarında
+görebileceğiniz klasik bir şekil Aslında
+denge konusuyla ilgili klasik bir
+şekilde Tepedeki T gerilmesi nelere
+bağlıdır bunu beraber konuşalım öncüleri
+Boş verin bakın gençler Öncelikle ben Şu
+alttaki mıknatısı inceliyorum bu
+arkadaşı kestim buraya yapıştırdım bunun
+üzerindeki Kuvvetleri düşüneceğim
+yukarıda n Kutbu var aşağıda s Kutbu var
+bunu etki eden kuvvetler nelerdir diye
+merak ediyorum Bir kere bu arkadaşın bir
+ağırlığı var aşağıya doğru GLA ağırlığı
+var dünya Onu kendine doğru çekiyor yer
+çekimi var düşmüyor Çünkü buradaki gibi
+bir iple bağlanmış Dolayısıyla bunu ip
+tutuyor ipin gerilmesine T üssü diyelim
+Şuradaki t ile karışmasın bu mıknatısın
+üzerinde başka bir kuvvet var mı var Ne
+Kutbu var n Kutbu var Bunlar yan yanalar
+birbirlerini iterler yani üstteki
+mıknatıs alttaki mıknatısı itiyor
+aşağıya doğru O zaman ben alttaki
+mıknatısın üzerinde bir tane daha kuvvet
+yazacağım aşağıya doğru üstteki
+mıknatıstan kaynaklanan manyetik bir
+kuvvet var başka bir kuvvet Var mı başka
+bir kuvvet yok o zaman o zaman bu L
+mıknatısı dengede durduğuna göre
+üzerinde net bir kuvvetin olmaması lazım
+Net kuvvetin sıfır olması lazım yani
+yukarıya doğru olan vektörlerle aşağıya
+doğru olan şu arkadaşların birbirine
+eşit olması lazım E yazıyorum o zaman
+onu l mıknatısında t üssü dediğim şey
+aşağıya doğru olan mıknatısın
+ağırlığıyla manyetik kuvvete eşittir Bu
+denklem kalsın Şimdi de ben üstteki
+mıknatısın fotoğrafını çektim Bunu
+inceliyorum bunu kestim buraya
+yapıştırdım bu arkadaş da burada üstte s
+Kutbu var altta n Kutbu var K mıknatısı
+buna etki eden Kuvvetleri konuşacağız
+aşağıya doğru bunun da ağırlığı var GK
+var bakın yine buradan ip bağlanmış
+ipler cisimleri itemezler her zaman
+çekerler burada bir ip gerilmesi var ki
+Soru ona T diyor Ben de T dedim Başka ne
+var ee aşağıda da bir ip var değil mi
+üstteki Kaan mıknatısın bir ip bağlanmış
+ve bu ip de biz yukarı doğru itemez O da
+çeker O zaman ben bunu aşağıya doğru
+göstereceğim ve ona T üssü diyeceğim
+Çünkü bu iple Bu ip aynı ip alttaki ipe
+T üssü gerilme dediysem o zaman şuna da
+T üssü demeliyim çünkü sistem dengedeyse
+Net kuvvet sıfırsa ipin her yerinde aynı
+gerilme vardır Şuradaki Şuradaki
+Şuradaki nereye alırsanız alın aynı ipte
+her yerde bir şey var o yüzden buna da T
+üssü dedim Başka bir kuvvet var mı Son
+bir kuvvet daha var unutmamak lazım
+üstteki mıknatıs alttakini itmiyor muydu
+bir manyetik kuvvet yok muydu vardı o
+zaman alttaki mıknatıslı üsttekini
+itecektir yani K mıknatısın üzerinde de
+yukarıya doğru bir manyetik kuvvet etki
+edecek ve Bu arkadaşlar eşit
+büyüklükteler Niye Çünkü bunlar etki
+tepki iki tane mıknatısı yan yana tutun
+soldaki sağdakini nasıl itiyorsa hangi
+kuvvetle itiyorsa Örneğin 5 newtonla
+yetiyorsa o zaman Sağdaki de soldakini
+ters yönde 5 newtonuna iter sebep etki
+tepki O yüzden bu ev manyetikler eşit
+Kaan mıknatısın üzerine etki eden bütün
+Kuvvetleri gösterdim O zaman Kaan'ın
+denklemini de şuraya yazayım kağıda
+dengede duruyor üzerindeki Net kuvvet
+sıfır yukarıya doğru olanların toplamı
+eşittir aşağıya doğru olan kuvvetlerin
+toplamını kim var yukarıya doğru T var
+Artı manyetik kuvvet var aşağıya doğru
+kim var ağırlık ve Tea üssü var GTA artı
+T3 Yazacağım işte bu da K mıknatısının
+denklemidir bakın Gençler ben bunları
+taraf tarafa toplasam ne olur eşitliğin
+solunda T üssü var eşitliğin sağında
+üssü var Bunları topladığımda
+birbirlerini götürecekler eşitliğin
+solunda manyetik kuvvet var eşitliğin
+sağında da manyetik kuvvet var bu iki
+denklemi taraf tarafa topladığımda
+Bunlar da birbirini götürecekler o zaman
+sol taraftan ne geldi t geldi başka bir
+şey var mı sol tarafta Hayır yok
+eşitliğin sağında ne var GK var GL var
+bunların toplamı gelecek Alın size Sonuç
+bu iki mıknatısı tepeye bağlayan ip
+gerilmesi mıknatısların ağırlıklarından
+başka hiçbir şeye eşit değil ne aradaki
+ip gerilmesine bağlı ne mıknatısların
+birbirini itmesine çekmesine bağlı
+sadece ağırlıkları taşıyor bu T bu t'nin
+ağırlık taşımaktan Başka işi yok hocam
+bu mıknatısların ne yanyana gelecek
+şekilde asmışsınız ters çevirseydiniz
+işler değişebilirdi Hayır hiçbir şey
+yine değişmezdi
+üşenmeyenler oturup o şekli çizsinler ve
+onun da denklemlerini benim yazdığım
+gibi yazsınlar yine bu arkadaşa
+ulaşacaklar Bu sorunun elektrikteki
+versiyonu da var artıyla yüklenmiş bir
+cisminiz olsun eksiyle yüklenmiş bir
+cisminiz olsun Bunları noktasal kabul
+edelim bunları birbirine bağlayın sonra
+da onları tavana bağlayın artı eksi çek
+ve tavana bağlanan da bir ip var tavana
+bağlı ip gerilmesi Nedir o artı ve eksi
+yüklerin ağırlıklarının toplamına
+eşittir onların birbirini itmesi çekmesi
+o tavana bağlı ipteki gerilmeyi
+etkilemez ispatı bu denklemlerde İşte
+buna günlük hayattan şöyle bir örnek
+verebilirim 2 tane yavru Kediniz olsun
+elinizde böyle kalınca bir halat olsun o
+yavru kediler o halata tırmanmış
+olsunlar yavru kediler halatın
+üzerindeler Ve siz de onları elinizde
+taşıyorsunuz Bu kediler oynuyor olsunlar
+o ona pati atıyor o öbürüne pati atıyor
+birbirinin üstüne atlıyorlar çekiyorlar
+itiyorlar Siz teorik olarak ne
+taşıyorsunuz iki tane kedi taşıyorsunuz
+onların birbirlerini itmeleri çekmeleri
+sizi ilgilendirmiyor Çünkü sistem
+bazında Bunlar birbirini götürüyor
+yukarı doğru manyetik kuvvet aşağıya
+doğru manyetik kuvveti sistem bazında
+iki mıknatısı beraber düşündüğünüzde
+götürüyor yukarı doğru aşağıya doğru
+olan T üssüyü sistem bazında götürüyor
+Dolayısıyla Bunlar ortada kalmadığında T
+dediğiniz arkadaş GK ile GLi taşımaktan
+başka bir iş yapmıyor mıknatısların
+Kutup şiddetleri arttırılırsa TP
+gerilmesi azalır tip gerilmesi
+mıknatısların ağırlıklarının toplamına
+eşit Kutup şiddetlerini arttır azalt
+mıknatısları ters çevir hiçbir şey fark
+etmeyecektir GK değişmiyorsa GL
+değişmiyorsa T değişmez 1 öncülüm
+yanlışlar L mıknatısı ters çevrilirse
+tip gerilmesi artar şimdi söyledim
+kutupların yerleri de önemli değil
+mıknatıslara bağlayan ip kesilirse te ip
+gerilmesi azalır İşte bu doğru
+mıknatısları birbirine bağlayan şu ipi
+keserseniz bu düşer gider bizim artık
+bununla işimiz kalmaz T dediğiniz
+arkadaş sadece Neyi taşıyordur artık K
+mıknatısını taşıyordur Onun ağırlığını
+taşıyordur artık manyetik kuvvet de
+ortada kalmaz yani buna yukarı doğru
+manyetik kuvvet çizemem artık çünkü
+aşağıda bir mıknatıs yok Dolayısıyla T
+sadece gk'ya eşit olacaktır önceden GK
+artıgl'ye eşitti Şimdi sadece gk'ya eşit
+yani azalacaktır bize yanlışı soruyordu
+1 ve 2 yanlış sorumuzun cevabı değişik
+Özdeş xez mıknatısları şekildeki beton
+tavana iplerle asılmıştır bu
+mıknatısların altına şekildeki gibi
+tahta ve Çelik parçalar konulduğunda ip
+gerilmeleri TX tyt oluyormuş
+mıknatısların birbirine etkisini ve yine
+aynı şekilde dünyanın manyetik alanını
+ihmal ediyormuşuz txt tytz arasındaki
+ilişki nasıl olabilir diye sormuş
+mıknatıslar Özdeş ağırlıkları aynı
+hacimleri aynı her şeyleri aynı
+altlarına Demir Demir ve tahta konulmuş
+yine şu uyarıyı yapayım tahtanın
+diamanyetik özelliğini ihmal ediyoruz
+tahta mıknatısı yukarı doğru itecektir
+aslında ama bu etki çok çok zayıf olduğu
+için ihmal edeceğiz Demir ferromanyetik
+maddedir güçlü şekilde mıknatıslardan
+etkilenir Bu sorunun güzel noktası şu
+demirin yanına farklı kutupları
+yaklaştırmak Acaba çekmede itmede bir
+farklılık oluşturur mu yani burada
+demire s Kutbu Yakın burada demire n
+Kutbu yakın acaba farklı bir etkileşim
+olur mu Hayır olmaz illaki
+uğraşmışsınızdır elinize bir mıknatısa
+aldığınızda ona bir demir
+yaklaştırdığınızda bir farklılık
+hissetmezsiniz bu mıknatısın bu tarafına
+da yaklaştırsanız tersine de
+yaklaştırırsanız hep çekildiğini
+hissedersiniz demiri Demir ferromanyetik
+maddedir kutuplara bakılmaksızın
+mıknatıslar tarafından çekilir yine niye
+olduğunu ferromanyetizmanın nasıl
+gerçekleştiğini anlattım konu
+anlatımından bakabilirsiniz Hatta şöyle
+bir akıl yapabiliriz burada ne varsa
+burada s varsa demirin yukarı doğru
+çekileceğini F kuvvetiyle çekileceğini
+söylüyorsak Demir de bir mıknatıs haline
+gelecektir manyetik alan içerisine
+konulan Demir de bir mıknatısdır o
+yüzden çekerler başka Demir parçalarını
+da çekebilirler yine deney videosunu
+izlemiştik çektiğine göre ben bu demiri
+de bir mıknatıs gibi düşünüp burasının
+ne burasını s düşünebilirim buradaki n
+bu s tarafından çekiliyor gibi aynı
+şekilde ortadaki Demir parçasını da
+bakın yukarıda n var O zaman bu da
+çekilecek Buna da eminiz o zaman burası
+s Burası n olacak şekilde Demir
+mıknatıslanacaktır şimdi ben bu
+demirlere bu F kuvvetini yazdıysam
+Newton'un üçüncü yasasını hiçbir zaman
+unutmamalıyım etki varsa tepki de vardır
+yani üstteki mıknatıs alttakini kendine
+doğru free çekiyorsa alttaki Demir de
+üstteki mıknatısı kendine doğru efle
+çeker etki tepki duvara vurursan Benim
+elim acır duvar hiçbir şey yapmamasına
+rağmen Çünkü duvara uyguladığım şey etki
+duvar bana tepkisini uygular tepki benim
+elimi acıtır hocam Demir mıknatısınız
+çeksin bütün olay mıknatısla değil mi et
+teorik olarak duvarda bir şey yapmıyor
+ama benim elim acıyor aynı şekilde
+ortadakinde de yukarı doğru F çizdiysem
+demire o zaman üstteki mıknatısa da
+aşağıya doğru bir F manyetik kuvveti
+çizmeliği tahtanın Bu mıknatısa bir
+kuvvet uygulamadığını düşünüyorum o
+zaman mıknatıs da tahtaya bir kuvvet
+uygulamıyor bunların arasındaki F
+etkileşimi 0 olacaktır bir etkileşim
+yoktur şu arkadaşı inceliyorum bunun
+fotoğrafını çekiyorum üzerinde hangi
+kuvvetler var aşağıya doğru kendi
+ağırlığı var aşağıya doğru F var başka
+bir şey var mı Yok düşsün o zaman
+aşağıya niye düşmüyor Çünkü bunları
+tutan burada bir ip var o zaman
+diyebiliriz ki TX ip gerilmesi aşağıya
+doğru olan g ağırlığıyla efin toplamına
+eşittir geldim ortadaki şekli Buna da
+baktığımda aşağıya doğru ağırlığı var
+aynı g yazıyorum mıknatıslar özleşti
+Aynı F var g + f var niye düşmüyor Çünkü
+burada da yukarıya doğru TY var ip
+bunları tutuyor o zaman eşitlik böyle
+olacaktır son mıknatıs incelediğimde
+aşağıya doğru Tabii ki ağırlığı var Bu
+da g Özdeş mıknatıs başka bir şey var mı
+aşağıya doğru yok manyetik bir etki yok
+g ağırlığıyla düşebilir düşmüyor Çünkü
+burada ip tutuyor tz ip gerilmesi
+eşittir mıknatısın ağırlığına O zaman
+ben buraya bakarak nasıl bir sonuç
+görüyorum x ile y gerilmelerinin eşit
+olduğunu söyleyebilirim ve bunların
+Z'den büyük olduğunu söyleyebilirim Z
+sadece g'ye eşit Sorumun Cevabı da eşlik
+olmalıdır 3 voltluk pil ile oluşturulmuş
+bir elektromıknatıs şekildeki gibi
+birkaç tane toplu iğneyi L ucunda
+toplamıştır güzel Buna göre hangileri
+doğrudur diye sorulmuş öncelikle bu
+olayın nasıl olduğunu bir hatırlayalım
+elektro mıknatıs dediğiniz şey iki
+kelimenin birleşmesi Aslında elektrik ve
+mıknatıs Elinizde bir çivi var bunun
+demirden yapıldığını düşünelim Ferro
+Manyetik bir madde kendi başına
+takıldığında normal bir demir çivi başka
+bir demir çivi ya da buradaki demirden
+yapılmış toplu iğneleri çekmez itmez Ama
+siz bu Demir çivinin etrafına bir
+iletken tel sararsanız o telin ucuna bir
+güç kaynağı bağlarsanız o güç kaynağının
+artısından eksisine doğru bir elektrik
+akımı dolaşmaya başlarsa Yani bu iletken
+tellerde sarım yapılmış tellerde
+elektrik akımı dolaşıyorsa bu çivi bir
+mıknatıs haline gelir sebep Çünkü biz
+olduğunu öğrendik konu anlatımında Eğer
+siz bir telden elektrik akımı
+geçirirseniz onun etrafında gençler
+manyetik alan oluşur Bu manyetik alan
+içerisine bir ferromanyetik malzeme
+koyarsanız buradaki çivi gibi Onu da
+mıknatıs haline getirirsiniz yani
+buradaki çivi üzerindeki tellerden
+elektrik akımı geçtiği için bir mıknatıs
+haline gelecek şu anda deneyde basit bir
+elektromıknatıs görüyorsunuz Bir
+plastiğin üzerine bakır telleri sarmış
+bu bakır Tellerin iki ucuna kablo
+bağlamış o kablolarda bir güç kaynağına
+bağlılar Dolayısıyla bu bakır tellerden
+elektrik akımı geçiyor ve Şuradaki
+boşlukta bir manyetik alan var ama o
+manyetik alan Şuradaki bakır Tellerin
+cinsine sarımına bağlı olarak şu an
+zayıf bir manyetik alan manyetik alan
+sıfır diyemeyiz deneyin devamını
+izlediğimizde Şuradaki demirden Ataç
+parçalarını çekmediğini görüyoruz Çünkü
+manyetik alan zayıf olduğu için onu
+karşılayamıyor ama ben oradaki boşluğa
+ferromanyetik bir malzeme olan şu vidayı
+sokarsam o boşlukta oluşan manyetik
+alanı güçlendiririm Ferro Manyetik
+maddeler etraflarındaki manyetik alın
+şiddetlendirirler Kendisi de mıknatıs
+olur Normalde bu vidanın bu ataçları
+çekmesi imkansız biliyorsunuz Evet şimdi
+vidayı içeriye koyduk gördüğünüz gibi
+vida bir mıknatıs haline geldi çünkü
+vida o boşluktaki manyetik alana sokuldu
+manyetik alandaki ferromanyetik malzeme
+yani bu vida bizim sorumuzdaki çivi bir
+mıknatıs oldu ve buradaki Atacı kendine
+doğru çekti gençler elektro mıknatıs
+dediğimiz şey bu buradaki akımı kesersek
+yani Şuradaki kabloyu kopartırsak oradan
+gördüğünüz gibi manyetik özelliğini
+kaybediyor ve Ataç düşüyor deneyin
+devamında da şunu da görelim elektron
+mıknatısların ki burada bu vida olmuş
+oluyor bir çubuk mıknatıs gibi
+düşünüleceğini söyleyebiliriz yanına bir
+pusula konulmuş bakın kırmızı ucuna n
+Kutbu dersem şu beyaz uca s Kutbu dersem
+ns'yi Arar Dolayısıyla buradaki vidamın
+şurası s kutbudur Burası n kutbudur şu
+an geçen akıma göre bunu belirliyorduk
+nasıl yapıyorduk sağ el kuralıyla
+yapıyorduk tellerden geçen akım o
+sarımdaki tellerden geçen akım 4
+parmakla gösterilirse Baş parmağımız
+manyetik alanı gösteriyordu mıknatısın
+iç kısmında manyetik alan s'den n'ye
+Doğrudur biliyorsunuz Dolayısıyla Bu
+vidanın iç kısmında şöyle bir manyetik
+alan var diyebiliriz baş parmağım sağ
+tarafı manyetik alanı gösterecekse 4
+parmağım gördüğünüz gibi yukarı çıkmalı
+oradaki Silindirde yani vidada Yani bu
+bakır tellerde elektrik akımları Benim
+baktığım yönde yukarıya doğru tırmanıyor
+diyebiliriz gençler Peki bunu devam
+ettirelim akımın yönünü değiştirirsek ne
+oluyordu bakın oradaki kabloların
+yerlerini değiştiriyor Dolayısıyla
+devrede dolaşan akımın yönü değişecek
+devrede dolaşan akımın yönü değiştiğinde
+pusulanın hemen döndüğünü göreceksiniz
+Pusula bu şekilde konumlandı Çünkü artık
+akımlarınız ters tarafa dönüyor akımlar
+bunlar değil Sizin baktığınız tarafta
+bunlar artık aşağıya doğru iniyor bu
+sarımlı tellerde Dolayısıyla manyetik
+alanınızın yönü de değişti akım yani 4
+parmağımı aşağıya doğru iniyorsa baş
+parmağım sağ tarafa doğru göstermeli bu
+mıknatısın içinde sağ tarafa doğru bir
+manyetik alan var sağ tarafa doğru
+manyetik alanı böyle gösteririm artık
+Demek ki kutuplar değişti Burası s Kutbu
+oldu burası n Kutbu oldu Böylece
+pusulamızda iğnenin beyaz kısmı bana
+yaklaştı Burası ne gayet uyumlu oldu sağ
+el kuralı Böylece hatırlamış olduk
+birinci Öncül bana diyor ki elektro
+mıknatısın K ucu ile toplu iğneler
+toplanamaz Az önceki soruda konuştuk
+aslına bakarsanız her romanyetik
+maddeler Kutup aramazlar Ferro Manyetik
+maddeler Çiviler vidalar demirden
+yapıldılarsa mıknatısın hangi kutbuna
+denk gelirlerse gelsinler çekilirler
+Burası n Kutbu Burası s Kutbu iken
+buradaki toplu iğneleri buraya
+değdirdiğim için burada topluyorum aynı
+toplu iğneleri Ben burayla yakalamaya
+çalışsaydım toplu iğneler Burada da
+çiviye yapışırlardı gençler hatta kendi
+uçlarına da yapışırlar çünkü bu toplu
+iğneler de manyetik alanda birer
+mıknatıs haline gelip başka toplu
+iğneleri toplayabilirler birinci öncülüm
+yanlıştır 3 voltluk pil yerine 9 voltluk
+pil kullanırsa daha fazla sayıda toplu
+iğne toplayabiliriz elektromıknatısın
+sarımları birbirine yaklaştırılırsa daha
+fazla sayıda topla Yine toplayabiliriz
+sorunun geri kalan kısmı elektron
+mıknatısın etrafında oluşturduğu
+manyetik alan nelere bağlıdır diye
+soruyor aslına bakarsanız elektro
+mıknatısı etrafındaki manyetik alan
+formülü direkt bilmek zorunda değilsiniz
+ama ortama bağlı çivi kullanıyorum çünkü
+ferromanyetik malzeme manyetik alanı
+güçlendiriyor Dolayısıyla ortamla ilgili
+bir sabit sayımız var diğer sabit
+sayıları kafanıza takmayın buradaki K
+Demir mi Hava mı plastik mi tahta mı
+neyin üzerine sardığını belirliyor bu k
+ne kadar büyükse manyetik alan o kadar
+şiddetli neden telden akım geçmesi
+gerekiyor çünkü telden akım geçince
+manyetik alan oluşuyor o zaman akım ne
+kadar güçlüyse manyetik alan o kadar
+şiddetli yani elektrik akımıyla da doğru
+orantılı çarpı bir de ne vardı gençler
+sarım yoğunluğu vardı sarım yoğunluğu ne
+demek sarımın başladığı yerle bittiği
+yer arasındaki mesafede L mesafe diyelim
+buna kaç tane sarım var 1 2 3 4 5 6 7 8
+9 9 tane sarım var 9 sarım sayısı yani
+n'yi temsil ediyordu L de sarım
+uzunluğunu temsil ediyordu birim
+uzunluktaki sarım sayısı uzunluk
+sabitken sardığımız mesafe sabitken
+sarım sayısı artarsa 9'u 15 yaparsanız
+manyetik alan şiddetlenir Çünkü sarımlar
+birbirine ulaşmış olur sarım yoğunluğu
+arttığı için veya sarım yoğunluğu
+sabitken sarı mesafesini kısaltırsanız
+yani 9 tane sarım var ama daha kısa
+mesafeye sarıyorum halkalar yine
+yaklaşır sarımlar yine yaklaşır sarım
+yoğunluğu artar manyetik alan
+şiddetlenir 3 voltluk pil yerine 9
+voltluk pil bağlarsanız üretecin
+Potansiyel fark arttığı için devrede
+dolaşan elektrik akımı artar manyetik
+alan artar daha fazla toplu iğne
+toplayabilirsiniz sarımlar birbirine
+yaklaştırılırsa sarım yoğunluğu olan n
+bölü L komple artar manyetik alan artar
+daha fazla toplu iğne toplayabilirsiniz
+Böylece sorumuzun cevabı D şık olmalıdır
+gençler bir çubuk mıknatıs dünyanın
+manyetik alanı ihmal edildiği ortamda
+şekildeki gibi beton zemine konulmuş bu
+durumdayken mıknatısın zemine uyguladığı
+basınç kuvveti F kadarmış Buna göre
+hangileri doğrudur diye sorulmuş
+Öncelikle basınç kuvveti kavramını
+hatırlamamız lazım Biz bunu basınç
+konusunda öğreniyoruz katı bir cismi
+düşünelim katı bir cismin zemine
+uyguladığı kuvvet basınç kuvveti olarak
+isimlendirilebilir buradaki zemindeki
+kuvveti F kuvveti Şu an buradaki F
+kuvveti bu mıknatısın ağırlığını eşittir
+gençler gn ise eğer f'te odur basınç
+kuvvetini bas Gülün üzerine tartın
+üzerine çıktığınızda gördüğünüz değer
+gibi düşünebilirsiniz baskül senin
+ağırlığın neyse onu gösteriyor sana
+Aslında basınç kuvveti ne ise onu
+gösteriyor Çünkü sen ayakların no bas
+güle bir basınç kuvveti uyguluyorsun o
+basınç kuvvetinin değerini gösteriyor
+Eğer birisi sizi baskülün üzerindeyken
+yukarıdan omuzlarınızdan iterse bir F
+üstü kuvvetiyle sizi bastırırsa aşağıya
+doğru buradaki basınç kuvveti dediğimiz
+şey ağırlığınız artı yukarıdan etki eden
+bastırma kuvveti olacaktır tam tersine
+Siz baskülün üzerindeyken Birisi sizi
+yukarıya doğru çekerse ayaklarınızı
+yerden kesmeyecek baskülle temasınız
+kesilmeyecek Eğer bu işleme maruz
+kalırsanız basınç kuvveti dediğimiz şey
+ağırlığınız eksi yukarıya doğru olan bu
+kaldırma kuvveti olacaktır yani basınç
+kuvveti azalmış olacaktır basküldeki
+değer küçülmüş olacaktır hiçbir etki
+Yoksa sadece kendi ağırlığıyla duruyorsa
+orada en başta da söylediğim gibi basınç
+kuvveti dediğim şey cism varlığına
+eşittir buradaki cisim bir mıknatıs
+mıknatısın şu an kendi bir manyetik
+alanı var ama dışarıda etkileştiği başka
+bir manyetik alan Şu an için yok
+Dolayısıyla mıknatıs olması bir şey
+değiştirmiyor herhangi bir cisim de
+olsaydı ağırlık basınç kuvvetine eşitti
+şimdi öncülleri okumaya başlarsam diyor
+ki birinci öncülde bu mıknatısa iki
+yönünde düzgün manyetik alan uygularsan
+bu basınç kuvveti azalır diyor önce bunu
+bir görselleştirelim iki yönünde düzgün
+manyetik alan modelliyorum bunu manyetik
+alan çizgileriyle yapıyoruz bu çizdiğim
+Oklar manyetik alanı modellesinler
+düzgün olması neyi değiştiriyor çizgiler
+sıklaşıyorsa manyetik alan
+şiddetleniyordur çizgiler
+seyrekleşiyorsa yani birbirlerinden
+uzaklaşıyorlarsa manyetik alan oralarda
+zayıflıyordur Ben bunların hepsini eşit
+aralıklı çizmeye çalıştım çünkü düzgün
+manyetik alan demek hangi noktayı
+düşünürseniz düşünün her yerde aynı
+manyetik alan var demektir Çünkü bu
+çizgiler sıklaşmıyorlar seyrelmiyorlar
+her yerde aynı manyetik alan var yağmur
+yağınca herkesin aynı şekilde ıslanması
+gibi Ben burada fazla ıslanıyorum Yolun
+karşısındaki Adam az ıslanıyor gibi bir
+şey yok Eğer bir şeyin altına gir Yağmur
+düzgün yağıyordur düzgün yağan yağmurdan
+herkes eşit ıslanır düzgün manyetik
+alanda bu mantıkta bir şey böyle bir
+düzgün manyetik alan Bu mıknatısı nasıl
+etkiler acaba iter mi çeker mi yukarı mı
+kaldırır aşağı mı bastırır ne yapar
+şöyle bir akıl yürütme yapalım gençler
+biliyorsunuz manyetik alan çizgileri
+mıknatısın dış kısımlarında neden çıkar
+S'ye gider o zaman ben burada sanki dev
+bir mıknatıs varmış gibi hayal etsem
+çizgiler bundan çıkıyormuş gibi düşünsem
+Bu dev mıknatısın burasına n Kutbu demiş
+olur bunlar Nereye gidiyorlar başka bir
+mıknatısla s kutbuna gidiyorlar O zaman
+burada da sanki bir dev mıknatıs varmış
+gibi düşünürüm ve Burası s Kutbu olur
+bizim bu arada kalan küçük mıknatısımız
+nasıl etkilenir ne var yakınında s var
+bunu kendine doğru çekecektir şöyle bir
+manyetik kuvvet oluşacaktır s var
+yakınında n var E bu da kendine doğru
+çekilecek yukarı doğru bir manyetik
+kuvvet oluşacak hocam buradaki ne şu
+n'yi etkilemiyor mu Onu itmiyor mu evet
+itiyor buradaki s'de Buse itiyor
+Dolayısıyla olay simetrik olay simetrik
+olduğu için bu mıknatısın üzerindeki şu
+iki yeşil vektör de birbirine götürür bu
+iki siyah vektör de birbirini götürür
+Yani düzgün manyetik alan içerisindeki
+mıknatısı herhangi bir manyetik kuvvet
+etki etmez Dolayısıyla bu mıknatısın
+zemindeki basınç kuvveti ağırlığa eşit
+olmaya devam eder bu önemli bir noktadır
+gençler bir manyetik alan var içine
+mıknatıs koydunuz ama o mıknatıs o
+manyetik alandan hiç etkilenmiyormuş
+gibi oluyor aslında Tabii ki etkileniyor
+ama toplam etkisi 0 oluyor birbirlerini
+götürüyorlar Bu sadece düzgün manyetik
+alan varsa olur Örneğin soruyu şöyle
+sorsaydık zeminde bir mıknatısımız var
+burası n Kutbu Burası s Kutbu buna böyle
+aşağıdan başka bir mıknatıs
+yaklaştırıyoruz şöyle n Kutbu var burada
+da s Kutbu var yani toprağın altından
+geliyormuş gibi oldu ama soruya
+uydurmaya çalışıyorum Çok takılmayın ona
+aşağıdan böyle başka bir mıknatıs geldi
+bu arkadaşın da manyetik alan
+çizgilerini çizersem n'den çıkartacağım
+bu çizgileri Hocam bakın aynısını buraya
+çizdim o zaman buradaki iki mıknatıs da
+birbirini itmez çekmez Hayır bu iki
+mıknatıs bir birini iter çeker s var n
+var Bunlar yakın birbirlerini
+çekeceklerdir bu siyah mıknatıs aşağıya
+doğru çekilir niye hocam Ne farkları var
+buradaki manyetik alan düzgün buradaki
+manyetik alan düzgün değil tek başına Şu
+mıknatısı hayal ederseniz manyetik alan
+çizgileri n'den çıkarlar mıknatıstan
+uzaklaştıkça bu etki zayıflar bu iki
+şekil aynı şey değil gençler buradaki
+manyetik alan düzgün olmayan bir
+manyetik alanken buradaki manyetik alan
+düzgün bir manyetik alandır Bu ikisini
+benzeşleştirmek için yine tam sağlamıyor
+ama bir akıl yürütme yapıyorum yukarıdan
+Aynı burada yaptığım gibi başka bir
+mıknatıs yaklaştırdığınızı hayal edin
+burası S olsun Burası n olsun bunların
+birbirini çekmesine ise bunların da
+birbirini çekmesi o olacaktır yine bu
+siyah üzerinde Net kuvvet sıfır
+olacaktır Ve yine benzer sonuçlar
+oluşmuş olacaktır bunları
+karıştırmayalım iki yönünde düzgün
+manyetik alan uygulanırsa F azalır Hayır
+sabit kalır dedik üçte birin devamı bir
+yönünde düzgün manyetik alan uygulanırsa
+ef mıknatısın ağırlığından küçük olur
+Hayır yine düzgün manyetik alan
+içerisinde olduğumuz için ev mıknatısın
+ağırlığına eşit olmaya devam eder bu da
+yanlış olacaktır yönünün bir önemi yok
+Önemli olan düzgün manyetik alanda
+olmamız mıknatıs beton zemin yerini
+zemine konulursa F artar ha bu başka bir
+şey bir bakalım beton zeminin de bir
+manyetik özelliği var tabii ki şu an tam
+bilmiyorum ama paramanyetik veya
+diamanyetik ferromanyetik olmadığını
+biliyoruz yani buradaki mıknatıslı
+aslında etkileşiyor ama dediğim gibi Per
+romanyetik etkiler dışındakileri Biz
+genelde ihmal ediyoruz çünkü çok zayıf
+kuvvetler izlediğimiz deney videolarında
+bile çok diplerine yaklaştırmamız
+gerekti ve güçlü mıknatıslarla çok
+diplerine yaklaştırmamız gerekti bu tarz
+malzemelerin ki o etkiyi itmeyi çekmeyi
+görebilelim beton zeminin buradaki
+mıknatısla etkileşmediğini düşünerek
+soruyu çözdün Ama siz buradaki zemini
+Demir yaparsanız ferromanyetik bir madde
+olduğu için ve ferromanyetik malzemeler
+mıknatıslar tarafından kutuptan bağımsız
+çekilecekleri için daha önce konuştuk
+zemin Mıknatıs tarafından yukarıya doğru
+bir manyetik kuvvetle çekilir bu etki
+kuvveti ise bunun tepkisi de vardır
+tepkisi ne demektir mıknatıs da zemin
+tarafından aşağıya doğru çekilir bu iki
+arkadaş etki tepkidir kırmızı olan
+demirin yukarı çekilmesidir mavi olan
+mıknatısın aşağı çekilmesidir etki tepki
+farklı isimleri etki ediyor Benim işim
+mıknatısla zemin beni ilgilendirmiyor
+şimdi mıknatısın üzerinde ne vardı
+aşağıya doğru ağırlık vardı şimdi
+mıknatısın üzerine bir de ne geldi
+aşağıya doğru manyetik kuvvet geldi Biz
+bu ikisinin toplamına basınç kuvveti
+dememiş miydik Evet o zaman artık basınç
+kuvvetim zemini etki eden basınç kuvveti
+bu ikisinin toplamı kadar olacaktır
+mıknatıs beton zemin yerine Demir zemine
+konulursa F artar Evet F başlangıçta
+sadece ağırlığa eşitken şimdi ağırlık
+artı manyetik kuvveti eşit olduğu
+Dolayısıyla ikinci öncülüm Doğrudur
+gençler
+[Müzik]

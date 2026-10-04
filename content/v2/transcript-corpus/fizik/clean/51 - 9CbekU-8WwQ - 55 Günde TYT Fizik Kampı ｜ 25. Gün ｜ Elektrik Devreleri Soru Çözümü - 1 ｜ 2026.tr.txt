@@ -1,0 +1,532 @@
+gençler Merhaba bugünkü dersimizde devre
+analizinde derinleşeceğimiz soru çözüm
+yapacağız Hemen başlayalım aynı maddeden
+yapılmış k l m n ve p iletken
+metallerinin kesit alanları şekil bir de
+uzunlukları şekil 2'de sütun grafiği
+olarak verilmiştir bölmeler eşit
+aralıklı olduğuna göre hangi metallerin
+elektrik dirençleri birbirine eşittir
+denilmiş iletken metallerin dirençlerini
+soruyor bunu bilmelisiniz kazanımlarda
+var R = metalin cinsi metalin uzunluğu
+akım geçen kesit alanı diyebiliriz sol
+tarafta kesit alanı grafiği görüyoruz
+sağ tarafta uzunluk grafiği görüyoruz
+Bunların hepsi aynı maddeden yapıldığı
+için buradaki roalar bir değişken değil
+sadece l/a'ya bakmam yeterlidir K
+cismini incelediğimde a kadar kesit
+alanı var L kadar uzunluğu var l/a'dan
+Ben K'nın direncine R diyorum r/a'yı R
+kabul etmiş oldu l'ye baktığımda l'nin
+uzunluğu 3 ile kesit alanı 2A 3
+l/2a'dan l'nin direncine 3r/2 diyorum
+m'ye baktığımda uzunluğu 4 ile kesit
+alanı 4A 4 l/ 4a'dan m'nin direncinin de
+bir R olduğunu söyleyebiliriz n'yi
+inceliyorum n'nin uzunluğu 2l'ye
+karşılık geliyor kesit alanı 3 aya
+karşılık geliyor
+2l/3a'dan 2r/3 olacaktır en sonuncu
+malzememiz p P'nin uzunluğu burada 3
+l'ye karşılık geliyor kesit alanı da
+A'ya karşılık gelmiş 3 l/a'dan 3r
+olacaktır direnci en fazla olan malzeme
+P çıktı çünkü hem çok uzun hem de çok
+ince bir malzeme bize hangileri eşittir
+diye sormuştu bilmemiz gereken bu
+ifadeyi sorgulatan bir soru oldu r'nin
+direnciyle m'nin direnciye eşit çıktı
+Başka eşit var mı diye bakıyorum başka
+yok k ile M olacaktır Sorumun cevabı a
+seçenektir öğretmen laboratuvarda Özdeş
+lambaları şekil 1 ve şekil 2'deki gibi
+pile bağladığında lambalar yanmaktadır
+Buna göre Öğretmenin yaptığı
+bağlamaların devre şemalarından
+hangileri doğrudur güzel bu genelde göz
+ardı ettiğimiz bir durum Bir sorularda
+hep böyle devre şemalarını görüyoruz
+güzel güzel çizimler görüyoruz ama
+gerçek hayatta bir laboratuvara
+girdiğinizde tellerle kablolarla
+uğraştığınızda böyle kargacık burgacık
+şeyler olduğunu görürsünüz Bu bağlantı
+ne olduğunu daha iyi anlayabilmeliyiz Bu
+soruda onu sorguluyor şekil biri
+incelediğinde ne var güç kaynağımız var
+3 tane de lamba var Bakın ben bunu böyle
+adım adım kendim çizeceğim güç
+kaynağının sol tarafı artı Kutup sağ
+tarafa eksi Kutup çiziyorum sol taraf
+Artı sağ taraf eksi buradan bir tel
+geliyor Bu tel nereye kadar gidiyor bir
+lambanın bir ucuna geliyor Ben O teli o
+zaman bir lambanın ucuna Bu şekilde
+yerleştirebilirim bir numara lamba Bu da
+1 numara lamba bu lambanın diğer ucundan
+öteki Lambaya gitmişiz bu lambanın diğer
+ucundan öteki Lambaya gidiyorum 2
+numarada lamba 2 numarada lamba o
+lambanın diğer ucundan 3 numaralı
+Lambaya gidiyorum bunun ucundan 3'e
+gittim bu arkadaşta 3 oldu Bunun diğer
+ucundan da pilin eksisine gittim bunun
+diğer ucundan pilin eksisine gitti çok
+da basit bir devreymiş 3 tane lambamız
+seri bağlıymış şimdi diğerini çizelim
+yine önce güç kaynağından başlayalım sol
+tarafa Artı sağ tarafa eksi bu şekilde
+güç kaynağımı koydum bunun artı ucundan
+tel kablo çıkmış bir Lambaya gitmiş
+Tamam artı ucundan çıktım bir Lambaya
+gittim Bir numarayla lamba Bu da 1
+numaralı lamba olsun şimdi az öncekinden
+farklı olarak aynı uçtan çıkmış başka
+bir Lambaya gitmiş Aynı uçtan çıkıp
+başka bir Lambaya gitmeliyim o lambanın
+da aynı ucundan çıkıp başka bir Lambaya
+gitmiş şu arkadaşı biraz kaydıralım o
+lambanın da ucundan çıktım Başka bir
+Lambaya gittim bu 2 numaralı lamba Bu da
+2 bu 3 Bu da 3 şu an buradayız Sonra o
+lambanın sağ ucundan çıkıp 2 numaralı
+lambanın sağ ucuna gidiyoruz 3'ün
+sağından çıktım 2'nin sağına gittim
+ikinin sağından çıktım 1'in sağına
+gittim 2'nin sağından birin sağından
+çıktım pilin eksisine gittim birin
+sağından çıktım pilin aksine gittim
+tuhaf durdu ama aslında bu mevzuyu
+anlamanız çok önemli Böylece seri ne
+demek Paralel ne demek daha iyi Oturuyor
+mesela şu mavi teli Ben aslında direkt
+şöyle 2 numaralı Lambaya götürebilirdim
+Yani bu mavi telin bu ucunun buraya
+bağlı olmasıyla buraya bağlı olması
+arasında hiçbir fark yok ki her yer
+iletken zaten istiyorsan ortaya bağla Ne
+fark edecek hiçbir şey fark etmez bunu
+silebilirim aynı şekilde Şu üstteki mavi
+tel sol taraftan iki Lambayı birbirine
+bağlıyor Ben bunu silerim bu şekilde iki
+Lambayı birbirine dediğim gibi tel
+iletken olduğu için yeter ki iki Lambayı
+bağla şekli bir önemi yok Bunları da
+aynı şekilde şöyle bağlayabilirim sonra
+bunları da böyle bağlayabilirim Bu da
+bizim klasik paralel bağlama devremizdir
+yani üstteki klasik seri alttaki klasik
+paralel bu doğru bir çizimdir hocam
+Burada da 3 tane seri var o zaman bir
+numarada Doğrudur Hayır 1 numara doğru
+değil bakın burada ekstra boş tel atmış
+buraya bu lambalar yanmaz Bir kere bu
+lambalar kısa devre olur buradan gelen
+akım boş teli tercih eder ya da nokta
+potansiyel yaparsam şuraya a harfi
+dersem Burası da a harfidir Burası da a
+harfidir Burası da a harfidir Burası da
+a harfidir yani şu komple 3 tane Lambayı
+bir arada düşünsem tek bir lamba gibi
+düşünsem solunda da a var sağında da var
+uçları arasında potansiyel farkı yok
+akım oraya Niye gitsin gitmeyecektir
+tabii ki Dolayısıyla bu devre yanmaz
+lambalar kısa devredir Şu üç numaralı
+devreyle iki karıştırılabilir Ama bu üç
+numaralı devrede bu iki lamba paralel
+bağlıyken Bu lamba pile seri bağlıdır
+bizim doğru şemamızda ise 3 lambada
+birbirine paralel bağlı Hatta bu üç
+lamba bile de paralel bağlı o yüzden
+üçüncü şeklinde yanlıştır sadece 2 doğru
+çizim sorumuzun cevabı B seçeneğidir
+Özdeş dirençler ile şekildeki devre
+parçası oluşturulmuştur Özdeş direnç
+dediği için bunların hepsine r'yi
+yapıştırıyorum her bir direncin değeri 6
+Ohm olduğuna göre X ve Y noktaları
+arasındaki eş değer Direnç nedir şimdi
+şekil biraz karmaşık duruyor olabilirim
+paralel anlayamıyor olabilirsin Halbuki
+şekil çok basit Eğer ben hala konuyu o
+kadar hakim değilim diyorsan
+harflendirme yani nokta potansiyel
+yapabilirsin Ama hakim sende mesela şu
+iki direncin seri olduğunu görüyorsundur
+herhalde Çünkü burası tek kat Yani
+buradan gelen akım bu dirençten de geçer
+bu dirençten de geçer aynı şekilde şu
+iki direnç testereyi buradan gelen Akın
+bundan da geçer Bundan da geçer ve bu
+sarı hatla mavi Hatta paralel bağlı ve
+onlar da bu dirence paralel bağlı Bu
+noktadan sonra harflendirelim mesela
+Burası x ise Burası da x'tir burası da
+x'tir burası da x'tir önümüze direnç
+çıkana kadar yani voltajın
+değişebileceği bir devre elemanı çıkana
+kadar voltajları yani buradaki
+harflerimizi taşıyabiliriz burada y var
+buradaki kesişim noktasına y'yi
+yazabilirim şuraya ve şuraya hiçbir
+harfi ulaştıramadım aslında yeni harfler
+vermem lazım ama gerek yok çok bariz
+Yani buradan gelen akım iki dirençten de
+geçiyor bunlar seri bağlı O zaman ben
+buraya tek direnç gibi düşünebilirim
+Burada kendi içinde bir eşdeğer direnç
+yazabilirim Bunların hepsi 6.10sa eğer
+soru öyle diyor x'i en başa koyarım y'yi
+en sona koyarım x ile y arasında
+6+6'dan bir 12 var bir kere 12 10'luk
+direnç Bu ikisini sildim aynı şekilde
+yine x ile y arasında bir 12 daha var bu
+6 Artı 6'dan o 12 omuda yazdım Bu
+ikisini de sildim aynı şekilde yine x
+ile y arasında Bu arada bu y'yi Şuraya
+da taşıyabiliyoruz tabii ki x ile y
+arasında bir 6 var o 6'yı da buraya
+yazdım bunu da sildim bütün dirençleri
+yazmış oldum bakın 12 12 6 şu an bu 3'ü
+Bunlar arasındaki eş değer direnci
+hesaplarken
+1/r=1/12 + 1/12 + 1/6 yapmalıyız şunu 2
+ile genişletirsek 2 bölü 12 3/12 4/12
+4/12 1/3 yapar 1/5 1/3'se R eş dediğim
+şey ters çevirirsek 3 10'dur diyebiliriz
+Hocam ben bu form yazmıyorum çark böyle
+topla yapıyorum derste anlatmıştınız
+diyorsanız Tabii ki yapabilirsiniz Ama
+dikkatli olun burada 3 tane direnç var
+hocam o zaman bunların üçünü de çarpalım
+12 x 12 x 6
+/ 3'ünü de toplayalım yapamazsın çarp
+bölü topla ikili dirençler için çalışır
+illa ben çark böyle topla yapacağım
+diyorsan 12 ile 12'yi kendi arasında yap
+sonra bulduğun sonuçla 6'yı yine çarp
+böyle toplayarak yani ikiliyi 2'li Seç 3
+ünü aynı anda çarp böyle topla sana
+yanlış sonuç verir Çünkü matematiği
+uymaz sorumuzun cevabı a seçeneğidir
+Özdeş dirençler ile şekildeki devre
+parçası oluşturulmuştur anahtarlar
+açıkken X ve Y noktalar arasındaki eş
+değer direnç 8 10'dur Buna göre
+anahtarlar kapatıldığında X ve Y
+noktaları arasındaki eş değer direnç kaç
+odur anahtar açıksa oradan akım geçmez
+oradan akım geçmezse Bizim orayla işimiz
+olmaz orayı silebilirsin devreyi daha
+basit daha sade görebiliriz burada
+anahtar açık olduğu için bu direnç
+üzerinden akım geçmeyecek O yüzden Ben
+yukarıyı direkt siliyorum Hiç
+uğraşmayacağım orayla şu an bu yok
+hükmünde benim için aynı şekilde bu
+anahtar açık bu telden akım geçmez
+direkt siliyorum Benim için yok hükmünde
+Bu tel kendi başına kaldı yine bir hükmü
+yok sildim bakın Ne kadar basit oldu
+Debra anahtarlar açıkken dirençler Özdeş
+Yani bu arkadaş R ise bu da R ve bu
+durumdayken eş değer direnç 8 olmuş
+bunlar seri bağlı Çünkü burada tek hat
+var tek akım geçer Buradan ikisini
+toplamam gerekir yani 2 r8'miş Demek ki
+bir tane direncin değeri 4 olmuş şimdi
+anahtarları kapatalım anahtarları
+kapatırsak oralardan akım geçebilir
+onları tekrar devreye geri döndürmemiz
+lazım bu anahtarı kapattım Bu anahtarı
+kapattım Hocam şu ikisi paralel oldu ama
+bunu nasıl düşüneceğimi anlayamadım
+buraya bir de boş tel atmış acaba kısa
+devre mi var Evet burada kısa devre var
+şüpheniz varsa hemen nokta potansiyel
+Yapın harflendirme yapın Burası y ise
+Burası da y olur burası da y olur bu
+y'yi buraya taşırım buraya da taşırım
+Burası da yer olur Yeğenim gidebileceği
+başka bir yer kalmadı şurası x şurası da
+x bütün kesişim noktalarına bir harf
+vermiş oldum O zaman mevzu halloldu bu
+direnç iptal bunun üzerinden akım geçmez
+Çünkü uçları arasında Potansiyel fark
+yok İkisinde de y potansiyel var bu
+direnç x ile y arasında bu dirençle x
+ile y Arasında İki aynı Potansiyel fark
+arasında ise bunlar kesinlikle paralel
+bağlı ki zaten şekilden de çok net bizim
+akım dediğimiz şey buradan gelse bir
+kısmı Buradan gider bir kısmı Buradan
+gider ki dirençler Özdeş olduğu için
+yarı yarıya tam bölünür Rakım Bunlar
+burada tekrar birleşirler Ama bu dirence
+gitmezler boş Tel üzerinden Y'ye
+ulaşırlar sonradan tamamen bağımsız Şu
+an aklıma geldi ve çok önemli bir şey
+bazılarınızın aklına takıldığına eminim
+Hocam siz diyorsunuz ki buradan akım
+geliyor böyle gider diyorsunuz İyi de
+böyle de gidemez ki Çünkü bunun geldiği
+yerde de y potansiyel var gittiği yerde
+de e-potansiyel var E bu telin uçları
+arasında Potansiyel fark yok akım nasıl
+gidiyor oraya Şahane soru cevabı şu biz
+bu teli adamdan saymıyoruz ki bunun
+direnci sıfır kabul ediliyor gerçek
+hayatta tellerinde direnci olur senin
+ekstra bağladığın dirence göre çok az
+olur ama olur biter de akım gidiyorsa
+kesinlikle yüksek potansiyelden alçak
+potansiyele gidiyordur Yani normalde
+gerçeğe uygun çözümler yapsa Sen y'yi
+böyle kafana göre her yere taşıyamazsın
+Çünkü her an o y değişir Çünkü her an
+direnç var terin her yerinde direnç var
+bizim burada adamdan saydığımız uçları
+arasında Potansiyel fark üzerinden akım
+geçsin dediğimiz şeyler devre
+elemanlarımız Yani asıl direnç telleri
+adamdan saymıyoruz Sadece onlar akımı
+taşıyorlar burada y var burada y var o
+zaman Akın bu telin üzerinde ilerlemez
+demiyoruz yine bir soru işaretini
+giderdiğimize göre sorumuza geri dönelim
+iki tane direnç var şu an ve bunlar
+paralel bağlı R var R var
+1/r+1/r2/r ters çevirirsen eş değer
+direncimiz yeni durumda r/2'dir biz r'ye
+4 demiştik o zaman 4/2'den Sorumun
+cevabı a seçeneği olacaktır iç direnci
+önemsiz üreteç ve değerleri verilen
+dirençlerle şekildeki elektrik devresi
+kurulmuştur Buna göre ampermetrede
+okunan değer kaç amperdir güzel sorular
+çözmeye başladık bakın bomboş bir tele
+ampermetre bağlamış o telin üzerinde
+teorik olarak bir direnç yok Ne bileyim
+ben oradan kaç amper geçer şekli
+anlayabiliyor muyuz kim seri kim paralel
+tereddütümüz var mı Varsa harflendirme
+nokta potansiyel buraya a dedim o zaman
+Burası da A olur burası da A olur buraya
+B dedim Burası da b'dir burası da b'dir
+hocam ampermetre takıldık B daha fazla
+gitmez gider Burası da b'dir Çünkü
+ampermetrenin iç dir 0 boş telden hiçbir
+farkı yok boş telde B'yi
+taşıyabiliyorsan Burada da b'yi
+taşıyabilir şuraya hiçbir şekilde
+ulaşamadığım için buraya başka bir harf
+vermem lazım Burası c'dir bizim
+üreticimiz asıl olan üretici buraya
+kondurdum artısında a var eksisinde b
+var yani A'dan çıkarttım B'den çıkarttım
+ortaya da C'yi kondurdum Şimdi tekrar
+çizelim dirençlerimizi a ile C arasında
+4 var bunu sildim a ile C arasına 4'ü
+yazdım a ile b Arasında 8 var sildim a
+ile b arasına 8 yazdım b ile C Arasında
+8 var b ile C Arasında 8 yazdım b ile C
+arasında bir 8 daha var o zaman buraya
+bir 8 daha yazdım bakın ampermetre
+yazabileceğim bir yer kalmadı çünkü
+ampermetre b ile b arasında ben burada
+Bunu nereye koyacağım zaten ampermetre
+ile işim bu yeni devrede yok yeni
+devrede bir şeyler bulacağım
+bulduklarımı orijinal devreye aktarınca
+ampermetrede Ne oluyor ne bitiyor
+anlayacağım bu devreyi anlamak çok kolay
+16 voltluk bir pilimiz var akım bulmam
+lazım ki ampermetre hakkında fikir
+yürüteyim o zaman vır yapacağız devreye
+yine sadeleştirmem lazım eşdeğer direnç
+lazım tek dirence düşüreyim bu 8 de bu 8
+paralel bağlı çarp 64 16 64/16'dan 4
+olur bu 4 ile Burası seri bağlı 4+4'ten
+Burası komple 8 olur bu 8 ile bu 8 ile
+paralel bağlı 64/16'dan Yine 4 olur o
+zaman devre şuna dönüştü bir tane
+direncimiz var 4 bir tane pilimiz var 16
+volt şimdi ben burada vursam Potansiyel
+fark 16 direnç 4 o zaman pilden geldiği
+düşünülen anakol akımı 4 amperdir tekrar
+yavaş yavaş orijinale dönüyorum
+bulduklarımı işaretleye işaretleye Ama
+şunları bir sileyim kafam karışmasın ne
+buldum pilden 4 amper geliyor diye buldu
+güzel bu 4 amperin önüne iki tane yol
+çıkıyor birazı buradan gidecek Birazı da
+buradan gidecek kaça kaç böleceğiz acaba
+Çok kolay şu 8'i ben biraz kurcalasam
+bir şeyler çıkartırım Burası a harfi
+iken Burası da a harfi değil mi Burası B
+harfi iken Burası da b harfi değil mi
+Evet pilde a ile b arasında 16 volt yok
+mu yani a ile b arasındaki potansiyel
+fark 16 volt o zaman buraya voltmetre
+bağlarsam Burası da 16 voltu gösteriyor
+yani bu 8 onluk direncin uçları arasında
+16 volt var bu 8 onluk direnç için özel
+bir vır yazarsam uçları arasında 16 volt
+var direnç değerimiz 8 o zaman akım
+değerimiz 2 amperdir buradan 2 amper
+gidiyordur diyebiliriz 4 gelmişti 2
+yukarıya gitmiş Demek ki buraya da 2
+amper geldi diyebiliriz 2 amper geldi
+yine önüne iki tane yol çıktı bir kısmı
+buradan gidecek bir kısmı buradan
+gidecek 8'e 8 değil mi Evet o zaman
+nasıl dağılacaklar eşit dağılacaklar
+Çünkü az dirençten çok akım çok
+dirençten az akım geçer dirençler eşitse
+o zaman eşi takım gider bir amper
+Buradan gider bir amper Buradan gider
+yukarıdan 2 gelir buradan 2 gelir
+toplanırlar yine 4 olarak pile geri
+dönerler hocam ampermetre sabırlı olun
+Şimdi de orijinal devremize geçiş
+yapıyoruz pilden 4 amper geliyor yazdım
+a ile C arasındaki 4 onluk dirençten 2
+amper geçiyor işte o adam bu aile C
+arasındaki 4 onluk direnç Demek ki 2
+amper böyle gitti 2 amperde yukarı gitti
+zaten bu 8 bizim a ile b arasındaki bu
+sekizimiz onun üzerinden iki gidiyordu
+Evet bulmuş olduk 2 amper buradan geldi
+2 amperde buradan geldi şimdi bunları
+nasıl dağıtacağız sekizler var burada
+Bunlar hangi sekizler b'yle C arasındaki
+8'ler bak şunlar yani üstteki 8'de c'den
+B'ye doğru 1 amper gidiyor alttaki 8'de
+de c'den B'ye doğru 1 amper gidiyor yani
+c'den B'ye doğru 1 amperi böyle
+göndereceğim c'den B'ye doğru 1 amperi
+böyle göndereceğim gördüğünüz gibi hiç
+ezbere iş yapmadım Yani buradan 2
+geliyor biri aşağıya biri sağa doğru
+gider demedim buradaki devremi
+inceleyerek yerine yerleştirdim Şimdi
+geldim ampermetreye buradan iki geldi
+Buradan 1 geldi bunlar birleşip mecburen
+buradan kaç amper geçirecek 3 amper
+ampermetreden 3 geçti o 3 buraya geldi
+Buradan da bir geliyordu Zaten bunlar
+tekrar birleşip 4 amper olarak devreyi
+tamamladılar ampermetremizden geçen akım
+3 amperdir Şahane soru tam bir devre
+analizi sorusu Lütfen bu soruyu oturun
+kendiniz çözmeye çalışın takıldığınız
+yerde tekrar bakın ama bunu çözdüğünüzde
+Şuradaki akımları tekrar orijinaline
+yerleştirmeyi kavradığınızda hiçbir
+elektrik devresi size dayanmaz hiç
+direnci önemsiz bir üret 10 ve 30 onluk
+dirençler ile ideal ölçüm cihazlarıyla
+şekildeki devre kurulmuş Buna göre
+yargılarından hangileri doğrudur diye
+sorulmuş bakın burada voltmetre var ve
+ucu sürgülü reosta gibi direncin
+üzerinde hareket edebiliyor sürgülü bir
+direnç olduğu için buradaki direnç
+değeri değişken olabilir o yüzden boylar
+vermiş Çünkü direnç değeri böyle
+orantılı tamamı düşünüldüğünde 30 odur
+bu sürgü yarısına getirirsin akım
+yarısından geçer o zaman o direnç 15
+odur kafa karıştırıcı olabilir Ben yine
+hemen devreyi basitleştirmeye
+çalışacağım basitleştirme dediğim şey şu
+voltmetre dediğin şey sonsuz direnç
+üzerinden akım geçer mi geçmez Yani
+buradan bir akım gelse voltmetrenin
+üzerine gidemez ya akımın gidemediği yer
+beni ilgilendirmiyor Ben bunu silerim ve
+devreyi basitleştiririm bak sildim bunu
+yok devre Bu kadar basit tek bir hat var
+burada buradan çıkan akım 10 onluk
+dirençten geçer ampermetreden geçer 30
+onluk dirençten geçer ve devreyi
+tamamlar o zaman hemen ben burada bir
+vır yapsam devredeki Potansiyel fark 40
+volt devredeki eş değer direnç 10 10 +
+30'dan Bunlar seri Çünkü tek hat var
+burada ikisinden de aynı akım geçer o
+zaman buradan akım değerimiz bir amper
+çıkacaktır Yani bu devreyi bir amper
+dolaşıyor Dolayısıyla ampermetreden de
+bir amper geçiyor Şimdi bunu bulduktan
+sonra voltmetreyi geri getirelim diyor
+ki voltmetrenin ucu y noktasındayken
+gösterdiği değer sıfırdır voltmetre
+bağlandığı iki noktayı ölçer ve onların
+farkını alır sana söyler bağlandığı iki
+nokta ne biri Burası biri de burası o
+iki noktadaki potansiyel değerlerini
+bulmalıyım o zaman nokta potansiyel
+yapmalıyım Şahane sorular koymuşuz Ha
+şimdi bu üreteç 40 voltluk Potansiyel
+fark oluşturuyor O zaman ben bunun
+burasına 0 volt desem şurasına 40 volt
+diyebilirim bu 40 voltu taşırım Burası
+da 40 volttur Burası da 40 volttur bu
+direncin dibi de 40 volttur bu direncin
+üzerinden bir amperlik akım geçiyor bu
+direnç özelinde bir vır yazarsam akım
+değeri bir direnç değeri 10 o zaman
+uçları arasında 10 voltluk bir
+Potansiyel fark olmalı solunda 40 varsa
+o zaman sağında yani şurada 30 voltluk
+bir potansiyel değeri vardır 50 demedim
+30 dedim Çünkü akım sağa akıyor yüksek
+potansiyelden al akmalı Burası 30 volt
+akım buradan yoluna devam ediyor
+ampermetre zaten boş tel direnci yok o
+zaman Burası 30 voltsa Burası da 30
+volttur ampermetrin direnci olmadığı
+için değiştiremiyor o zaman bu y noktası
+da 30 volttur voltmetrenin bir ucu 30'da
+öbür ucu da 30'da fark 0 1 öncülüm
+Doğrudur voltmetrenin ucu x noktasına
+getirilirse voltmetrede ölçülen değer 20
+volt olur bu ucu sildim Ve ben bunu
+şöyle x noktasına getirdim artık bir
+ucunda 30 volt var diğer ucunda şu sarı
+nokta var O sarı noktadaki potansiyeli
+bulmalıyım Hocam işte 30 volt O 30 volt
+buraya gelmeyecek mi gelmeyecek mi Çünkü
+burada direnç var Şu 10 onluk direncin
+üzerinde nasıl işlem yaptıysam Burada da
+benzer bir işlem yapmalıyım şimdi bu
+direncin tamamı L boyundaki direnç 30
+olmuş o zaman 2 l/3 Yani benim
+ilgilendiğim kısım Burası 20 10'dur geri
+kalan yer 10 10'dur bu 20 onluk
+direncinin üzerinden bu tarafa doğru
+bizim bir amperlik akımımız gidiyordu Bu
+20 onluk direncin özelinde bir vır
+yaparsan üzerinden bir amper geçiyor
+direnç değeri 20 o zaman uçlar
+Potansiyel fark 20 volt olmalı ve bunun
+sağında 30 varsa burasında 10 volt olmak
+zorunda ki uçları Arasında 20 olsun ve
+buraya 50 yazmadım 10 yazdım çünkü akım
+sola gidiyor yüksekten alçağa gitmeli
+ikinci Öncül ne diyordu 20 volt ölçer
+diyordu bir ucunda 30 var voltmetrenin
+diğer ucunda 10 var fark kaç 20 Aynen
+öyle her iki durumda da ampermetrenin
+gösterdiği değer değişmez Evet
+ampermetre bir amper gösteriyor Çünkü
+voltmetre üzerinden akım geçirmez Bunu
+nereye koyarsan koy nereye ölçerse ölsün
+akımı bozan bir sistem değil üçüncü
+öncülüğünde doğrusu Sorumun cevabı e
+seçeneği olacaktır
+[Müzik]

@@ -1,0 +1,866 @@
+açık hava basıncını yani atmosfer
+basıncını bitirdiğimiz göre ikinci
+türümüz geçebiliriz hala gaz basıncında
+bu sefer kapalı kaplardaki gaz basıncına
+bakacağız şu ana kadar anlattığım bütün
+basınç çeşitleri katı basıncı sıvı
+basıncı atmosfer basıncı Bunların hepsi
+malzemenin ağırlığı ile ilgiliydi
+katının ağırlığı var o yüzden bulunduğu
+Tabana basınç uygular sıvıların ağırlığı
+var o yüzden bulunduğu Tabana bir sıvı
+basıncı uygular ama katılardan farklı
+olarak sıkıştırılabilir bir malzeme
+olduğu için yanlara da basınç uygular
+bulunduğu kabın yan duvarlarında basıncı
+vardır atmosferde gaz dediğimiz şey öz
+kütlesi çok küçük çok hafif bir madde
+olmasına rağmen kilometrelerce
+kalınlıkta bir şey olduğu için o ağırlık
+ihmal edilemiyor Hatta önceki dersimizde
+Bunun hesabını yaptık bayağı dikkate
+alınması gereken bir kuvvet uyguluyor
+cisimlerin üzerine yine atmosferin
+ağırlığından dolayı bir açık hava
+basıncı var ama kapalı kap dediğimizde o
+kabın içerisindeki gazın ağırlığını
+ihmal edebiliriz Çünkü kap dediğin şey
+ne kadar büyük olabilir içindeki hava
+gaz ne kadar çok olabilir elinize bir
+bal balon aldığınızda çok hafif olduğunu
+bilirsiniz çok küçük bir ağırlığı vardır
+o ağırlık da zaten plastik kısmından
+gelir içindeki hava ne kadar olabilir ki
+ağırlığı ne olsun ama bu balonun
+çeperlerinde Bu plastik kısımlarında bir
+basınç olduğunu biliyoruz O yüzden
+şişkin duruyor basınç olmasaydı sönerdi
+Bu basıncın kaynağı ne Tabii ki içindeki
+gaz Peki onun kaynağı ne buradaki gaz
+taneciklerinin hareketi gaz tanecikleri
+en akışkan tanecikler birbirlerinden o
+kadar uzaklar ki taneciklerin arasında
+neredeyse bağ yok dolayısıyla çok rahat
+hareket edebiliyorlar çok rahat hareket
+ettikleri için bulundukları kapların
+çeperlerine duvarlarına sürekli
+çarpıyorlar Buradaki her çarpma hareketi
+O noktada bir basınç etkisi demek bu
+taneciklerden milyarlarca varsa saniye
+başına burada milyarlarca çarpışma var
+Dolayısıyla homojen bir gaz dağılımı
+Olduğunu hayal edersem istatistiksel
+olarak bu kabın her yerinde burasında
+burasında altında üstünde köşesinde her
+yerinde bir basınç var ve bunların
+büyüklüğü birbirine eşit her yerde aynı
+p basıncı var bu balonun içerisindeki
+bütün noktalarda aynı basınç var
+diyebiliriz ideal şartlar altında hocam
+tavandaki basınçla tabandaki basınç
+nasıl aynı olabilir aşağıya doğru
+indikçe basınç artmıyor muydu ağırlık
+Önemliyse Evet ağırlık önemsize Hayır
+ben buradaki gazın ağırlığını ihmal
+ettim Dolayısıyla aşağıya indikçe
+üzerindeki gaz miktarı artıyor O yüzden
+aşağılarda basınç fazladır yukarılarda
+basınç azdır yorumu kapalı kaplardaki
+gazlar için geçerli değil ağırlığın
+kabul edildiği atmosferde geçerli
+sıvılarda geçerli katılarda geçerli ama
+kapalı kaplarda her yerde aynı basınç
+vardır Peki biz bu basıncı n nasıl
+değiştirebiliriz hangi değişkenlerle
+oynarsak bu kapalı kabın içerisindeki
+basınç değişir Kimyadan bildiğiniz pvn
+RT ifadesi var buradaki T sıcaklık demek
+R sabit sayı bununla işimiz yok n madde
+miktarı kimyada mol sayısı dediğiniz şey
+içeride ne kadar gaz taneciği olduğuyla
+ilgili V dediğim şey hacim p dediğim şey
+de basınç direkt bir simülasyon
+üzerinden bu formülü bir konuşalım
+burada boş bir kabımız var yukarıda bir
+termometre var sıcaklık ölçüyor Kelvin
+cinsinden Biz bunu celsius yapalım
+Burada bir basınç ölçer var bu kabın
+içerisindeki gaz basıncını bana
+söyleyecek burada bir ocağım var Bu kabı
+ısıtabilir pompam var içeriye hava
+üfleyeceğim ve buradaki kollardan da bu
+kabı küçültüp büyütebilen kabın hacmini
+değiştirebiliyorum Dolayısıyla içerideki
+gazın hacmini değiştirebiliyorum Çünkü
+gazlar her yere yayıldıkları için hangi
+kabın içine konulursa direkt o kabın
+hacmini alırlar şimdi kullanacağım pv NR
+t'yi Buraya yazdım R sabit sayı dediğim
+gibi bununla işimiz yok Öncelikle
+içeriye gazı pomp alıyoruz Bu gazlar
+buradaki yüzeylere çarpmaya başlıyorlar
+her çarpış bir basınç etkisi demek
+toplam çarpışmaya istatistiksel olar
+baktığımızda içerideki basınç hakkında
+fikir yürütmüş oluyoruz Hatta buradaki
+çarpışmayı da sayabilen bir sayacımı var
+Örneğin şu an Say desem Ortalama bir
+hesap yapsa Birim zamanda 150 çarpışma
+var diyor kabın çeperi ile ve şu an
+basınç ölçerim 19,5 atmosfer gösteriyor
+bir atmosfer 76 cm civa yani atmosfer
+basıncının 20 katı basınç var diyor Şu
+an burada ve 27 celsus sıcaklığımız var
+şimdi bu formüle göre ben bütün
+değişkenleri sabit tutuyorum sadece
+sıcaklığı arttırıyorum sıcaklık artarsa
+içerideki gaz miktarında bir değişiklik
+yok kabın hacminde Dolayısıyla gazın
+hacminde bir değişiklik yok eşitliğin
+sağ tarafı büyür sıcaklığı arttırdım
+diye o zaman eşitliğin sol tarafı da
+büyür yani basınç da büyür diyebiliriz
+ısı sıcaklık ünitesinden hatırlayın
+sıcaklık demek taneciklerin ortalama
+kinetik enerjilerinin bir ölçüsü
+demektir Sen bu malzemenin sıcaklığını
+arttırırsan kaba Isı enerjisi vermiş
+olursun o Isı enerjisi yüzünden
+tanecikler daha hızlı hareket etmeye
+başlar kinetik Enerjileri artar daha
+hızlı hareket etmek demek daha şiddetli
+bir şekilde duvarlara çarpmak demek daha
+fazla basınç demek 19,5 atmosfer basınç
+olduğuna dikkat et 27 cels sıcaklık
+olduğuna dikkat et sıcaklı arttırıyorum
+alttan Ocağı yaktım taneciklerin hızını
+zaten gözle görülür şekilde arttığını
+göreceksin Bakın sıcaklığımız Şu an 643
+cela Çıktı tanecikler az önceki duruma
+göre çok daha hızlı hareket ediyorlar
+basınç 59,5 atmosfere çıktı çünkü
+sıcaklık artarsa basınç artar biz yine
+ortamı soğutalım sıcaklığımız azalsın
+tanecikler biraz sakinlesen biraz
+yavaşlasam andaki çarpışma sayıları
+azalsın 15 atmosfere kadar düşürdüm
+sıcaklık -40 cela düştü şu anki çarpışma
+sayısına Baksam ne çıkar acaba en başta
+150 vardı şimdi 120 çıktı Çünkü
+başlangıçta 19,5 atmosferde yanlış
+hatırlamıyorsam şimdi 15'e düştük O
+yüzden çarpışma sayısı Birim zamanda
+azaldı Peki bu durumdayken başka bir
+değişken değiştirelim sıcaklığı sabit
+tutalım bunu değiştirmeyin şu an madde
+miktarını arttıralım içeriye biraz daha
+fazla gaz
+pompalayan arttığını göreceğim Çünkü
+yine eşitliğin sağ tarafı büyüdü o zaman
+sol tarafta büyüyecek hacim sabit
+kaldığına göre buradaki büyüme basınç
+üzerinden olacak 120 çarpışma sayısı
+Birim zamanda 15 atmosfer basınç içeriye
+biraz daha gaz taneciği ekliyorum yani
+n'yi arttırdım bakın basınç 28.4
+atmosfere çıktı n artarsa p artar daha
+fazla tanecik olduğu için daha fazla
+çarpışma var Bu da daha fazla basınç
+demek sayalım birim zamandaki
+çarpışmalar mızı 120'yi gördüğünüz gibi
+237e çıktı basınç Bu yüzden arttı Peki
+yine başka bir değişken değiştirelim
+sıcaklık sabit olsun madde miktarı şu
+anki halinde Kalsın Bu da sabit olsun bu
+sefer de hacmi arttıralım şimdi
+eşitliğin sağ tarafı komple sabit
+matematik doğruysa eşitliğin solunun da
+sabit kalması lazım E ben hacmi
+arttırdım sabit kalması için o zaman
+eşitliğin solunun basıncın azalması
+gerekiyor hacmi arttıralım şurada
+buradan tuttuğum hacmi büyütüyorum daha
+büyük bir hacimde artık bu tanecikler
+yayılacak Dolayısıyla birim zamandaki
+duvarlara çarpma sayısı azalacak Çünkü
+daha büyük bir hacmi dolduruyorlar artık
+sayalım kaça düşmüş 237 ydi 195'e düştü
+basıncımı da zaten 18.9 atmosfere düşmüş
+hacim artarsa basınç azalır hacmi
+azaltırsak ne olur hacmi iyice
+azaltıyorum küçücük yaptım sıkıştırdım
+bunları şu an deli gibi çarpıyorlar her
+yere Çünkü gidecek yer yok Mecbur
+çarpacak basınç 56 atmosfere çıktı
+çarpışmaları sayarsak Birim zamanda tam
+500 44 çarpışma var eşitliğin sağ
+tarafında bir değişiklik yapmadık hacmi
+azalttık çaa basıncı arttırmış olduk
+bakın Burada bir tane basınç değeri var
+Çünkü dediğim gibi kabın her yerinde
+aynı basınç var Çünkü her yerde homojen
+bir çarpışma olduğunu her yerde aynı
+çarpışma sayısı olduğunu ideal
+sistemlerde hayal ediyorum güzel bir
+soruyla devam edelim kapalı bir kaptaki
+gazı ısıttığımız halde basıncı sabit
+kalabilir mi kalamaz Hocam ısıtıyoruz
+şimdi simülasyonda gördük pvn RT den
+düşünürsek içeriye gaz eklemiyorum
+çıkartmıyor bu sabit bu zaten sabit sayı
+e sıcaklığı arttırıyoruz diyorsunuz
+sıcaklık artarsa basınç artar eşitliğin
+sağ tarafı büyüdüğü için sol tarafı da
+büyür İyi de eşitliğin sol tarafında
+sadece basınç yok ki burada hacim de var
+Belki hacim değişiyor benim
+simülasyonunda kabın hacmi sabit
+kalıyordu dışarıdan Ben değiştirmediğim
+müddetçe ama burada bir piston var Eğer
+bu piston rahatlıkla hareket edebilen
+bir pistons sa sürtünmeler önemsize
+rahatlıkla yukarı çıkıp aşağıya
+inebiliyor ola işler farklılaşır bakın
+buradaki mevcut durumu inceleyelim bu
+piston neden burada duruyor Çünkü
+üzerindeki Net kuvvet sıfırda ondan
+yukarıdan atmosfer kaynaklı bir basınç
+kuvveti var düşmediği göre aşağıdan da
+bir basınç kuvveti olmalı ve bunlar aynı
+olmalı ki birbirini götürsün pistonun
+ağırlığını Şimdilik ihmal ediyorum
+basınç dediğimiz şey birim alandaki
+kuvvet olduğuna göre bu basınç kuvvetini
+yalnız bırakırsam basınç çarpı alan
+biliyorsunuz üstten baktığımdan Neyse
+alttan baktığımdan da o atmosfer
+kaynaklı basınç kuvveti ile aşağıdaki
+gaz kaynaklı basınç kuvveti eşit e
+alanlar da eşit Demek ki basınçlar da
+eşit yani şu noktadaki gaz basıncıyla bu
+noktadaki atmosfer basıncı birbirine
+eşit olduğu için o o piston orada
+kalabiliyor yukarıdan atmosfer ne kadar
+bastırıyordu aşağıdan gaz da o kadar
+basınçla o pistonu dengede tutabiliyor
+sen buradaki sıcaklığı arttırırsan
+taneciklere bir enerji vermiş olursun
+yani alttan Ocağı yaktın buraya Isı
+enerjisi aktarıyordu
+Yani aslında anlık olarak aşağıdaki
+gazın basıncını açık hava basıncından
+daha büyük hale getiriyorsun alanlar
+aynı olduğu için bas kuvvetini de daha
+büyük hale getiriyorsun bu yüzden bu
+piston yukarıya doğru harekete geçiyor
+yani bu kabın hacmi artmaya başlıyor
+kabın hacmi arttığı için basıncı tekrar
+azalıyor ve en nihayetinde bu piston
+yine Yukarıda bir yerde dengede kalıyor
+Çünkü piston bir yerde dengedeyim net
+durumun ıır olması lazım yani buradan
+etki eden atmosfer basıncıyla buradan
+etki eden Gaz basıncı yine eşitlendi
+demektir başlangıçta eşitler zaten en
+son durumda yine eşitler Demek ki benim
+buradaki sıcaklığı arttırmam buradaki
+hacmin artmasına seb sebebiyet vermiş
+diğer her şey sabit kalmış Çünkü bu
+gazın basıncı en son durumda yine
+atmosfer basıncının ta kendisine eşit
+olacak sıcaklığı arttırdığımız anda çok
+küçük bir zaman aralığı için şu durumu
+yakalarız Bu yüzden piston yukarı
+hareket eder ama en nihayetinde tekrar
+bu duruma kavuşuruz Çünkü piston yukarı
+hareket ettikçe hacim artar e basınç
+yine azalır ve bu durumda piston dengede
+kalır gazı ısıttığımız halde basınç
+sabit kalabilir Bu sadece sıcaklıkla da
+değil içeriye gaz eklesek diim de
+buradaki n'yi arttırsın da piston yukarı
+çıkardı içerideki Gaz basıncı yine en
+son durumda atmosfer basıncına eşit
+olurdu aşağıdaki şekillerde esnek balon
+ve iki farklı gaz ile dolu bir kap
+görülmektedir esnek balonun içinde
+bulunan gazın açık hava basıncı ile ince
+zarla ayrılan iki farklı gazın
+birbirleriyle olan basınç
+kıyaslamalarınızda
+bir çocuk balonu var esnek bir balon var
+İçerisi gazla dolu havayla dolu ve
+dengede duruyor Az önceki durumun
+benzeri hareketli piston gibi dengede
+isse şişmiyor sönmüyorsa dışarıdan etki
+eden basınçla içeriden etki eden basınç
+aynıdır dışarıdan etki eden şey açık
+hava basıncı her yönden etki ediyor
+alttan da üstten de soldan da Sağdan da
+buna Kim karşı koyuyor içerideki Gaz
+basıncı karşı koyuyor ve her noktada bu
+iki basınç birbirine eşittir p 0'la
+içerideki gazın basıncı birbirine eşit
+eşit olmasaydı P0 daha büyük olsaydı o
+zaman bu balon küçülür dü Çünkü iter
+içeriye doğru p gaz daha büyük olsaydı o
+zaman bu balon şişerdi P0 yenerdi çünkü
+ama balon büyümüyorsa küçülmüyor ö ile
+kalıyorsa dengede isse bu eşitlik var
+demektir hangi koşullar altında balonun
+esneklik direncini ihmal ettiğin
+koşullar altında neden yay gibi düşünün
+Bunu sen bir yayı gerersin geriye gitmek
+ister denge noktasına dönmek ister bir
+lastiği uzatırsan O da geri gitmek ister
+Sen bu balonu şişirdik çe Neticede Bu da
+bir lastik biz bu balonun lastiğini
+uzattığımız için Aslında bu balon geri
+dönmek istiyor şöyle bir etkisi var
+aslında balonun da açık hava basıncıyla
+bu balonun geri dönme isteği esneklik
+direnci Yani aynı çalışıyorlar bunlara
+kim karşı koyuyor içerideki Gaz basıncı
+karşı koyuyor işte eğer balonun esneklik
+direnci ihmal edilmediyse balon dengede
+bile dursa büyümese ya da küçülmesi bile
+Gaz basıncı büyüktür açık hava basıncı
+dersin Çünkü bu Gaz basıncı şu arkadaşla
+da başa çıkıyor bu önemli bir not ama
+biz bunu genelde ihmal ederiz bu durumu
+ihmal ettiğimiz için de deriz ki
+dışarıdan atmosfer basıncı içerideki gaz
+tarafından dengeleniyor o yüzden burada
+bir eşitlik vardır deriz şimdi geldim
+buraya kapalı bir kap var şurada İncecik
+bir zar var Sol taraftaki gaz P1 basıncı
+oluşturmuş sağ taraftaki gaz P2 basıncı
+oluşturmuş Hocam bu zar böyle sağ tarafa
+doğru bükülmüş Demek ki soldaki gazın
+basıncı P1 ü Sağdaki gazın basıncından
+P2 yanlış neden yanlış E çünkü bu da
+dengede yani şu zarda buradan etki eden
+P1 ile buradan etki eden P2 eşit olmasa
+zaten böyle kalamaz ki mesela P1 daha
+büyük olsa ne olur P1 daha büyük olsa bu
+zar daha da esner esnemeye devam eder e
+Hocam esnemiş işte sağa doğru esnemiş P1
+P2 den büyük hayır Ne olmuş Ben size
+söyleyeyim Bu zar Aslında böyle dümdüz
+müş ve bu zar dümdüz Ken Evet P1 P2 den
+büyükmüş buradan bastıran P1 daha büyük
+olduğu için için zarı itmiş zar bu hale
+gelmiş ve orada kalmış Durmuş artık
+durduysa ve durmaya devam ediyorsa Net
+kuvvet Dolayısıyla net basınç sıfırdır
+Yani bu hale geldiysem P1 ile P2
+eşitlenmiş ki zaten şöyle anlayabiliriz
+pvn RT yapalım R sabit gaz miktarları
+değişmiyor sıcaklık değişmiyor eşitliğin
+sağ tarafı sabit o zaman sol tarafta
+sabit kalacak P1 büyüktü başlangıçta
+zarı sağ tarafa doğru itmeye başladı O
+zaman bak bu kadarlık bir hacim artışı
+oldu P1 in bulunduğu tarafta hacim
+arttığı için P1 azaldı e sol taraf
+araftaki hacim artışı sağ taraftaki
+hacim azalışı demektir sağ tarafta hacim
+azaldığı için P2 arttı yani başlangıçta
+P1 buradaydı P2 buradaydı O yüzden zar
+itilme başlandı zar itildik çe biri
+azaldı biri arttı biri azaldı biri arttı
+ve dengeye geldiler zar Şu an burada
+dengede P1 ile P2 birbirine eşit yine bu
+zarın esneklik direncini düşünürsek
+başladığı o düz konuma gelmeye çalışıyor
+Dolayısıyla şöyle bir gitme isteği var
+bunun buradan P1 bastırıyor buradan P2
+bastırıyor P2 ile bu geri gitme isteği
+aynı çalıştığı için eğer zarın esneklik
+direnci ihmal edilmediyse P1 bu ikisine
+birden karşı koyduğu için büyüktür
+diyebiliriz P2 den Ama ben bunu ihmal
+ediyorsam bu yanlıştır Bu doğrudur
+Gökyüzüne doğru yükselen bir çocuk
+balonunu bekleyen Akıbet nedir uzaya
+kadar çıkıyor mu acaba ne oluyor Eğer
+özel bir balon değilse Maalesef o kadar
+yükselemiyor neden burası yeryüzü Burası
+da atmosferin üst katmanları falan
+yukarıya doğru çıktıkça açık hava
+basıncı atmosfer basıncı azalıyordu
+biliyorsunuz önceki dersten Çünkü
+Üzerimizdeki atmosfer miktarı azalıyor
+atmosferin ağırlığı azalıyor Benim
+üzerimde Şimdi ben yerdeyken balonum şu
+kadar vardı esneklik direnci ihmal
+balondaki havanın gazın basıncıyla
+atmosfer basıncı eşitti Çünkü böyleyim
+ve böyle kalmaya devam ediyorum
+büyümüyorum küçülmüyor fakat biz yukarı
+doğru çıktıkça bu balonun etrafındaki
+açık hava basıncı azalıyor ben yine
+şuraya pvn R t'yi yapıştırayım yukarıya
+doğru çıktıkça Normalde hava soğur ama o
+etkiyi ihmal edelim şimdilik bu sabit bu
+sabit gazın miktarında artma azalma yok
+bu sabit eşitliğin sağı sabit o zaman
+Sol da sabit kalacak Şimdi sen yukarıya
+çıkmaya çalıştıkça dışarıdan etki eden
+adam küçülmeye başladı E sen büyük
+kaldın içerideki hava daha büyük basınca
+sahip ne yapacak daha fazla basınç
+olduğu için balon büyüyecek balon
+büyüdüğü için hacmi artacak Dolayısıyla
+içerideki gazın basıncı azalacak yani
+balon büyür Şu hale gelir ve böyle
+dengede kalabilir Eğer daha fazla
+yükselmezse yine içeriden etki eden gaz
+basıncıyla dışarıdan etki eden açık hava
+basıncı eşitlenir ve balon büyümeyi
+durdurur böyle durur ama bu uçan balon
+yukarı çıkmaya devam ediyor yukarı
+çıkmaya devam ettikçe P0 azalmaya devam
+edecek Dolayısıyla balonumun hacmi
+büyümeye içerideki gaz basıncımı
+azalmaya devam edecek Çünkü bunların
+çarpımı sabit kal alıyor balon çıktıkça
+hacmi büyür balon çıktıkça hacmi büyür
+ve en nihayetinde dayanamaz patlar ama
+aslında biz hep şu eşitliği korumaya
+çalışıyoruz atmosfer basıncı sürekli
+azaldığı için balonumun içindeki basınç
+da azalıyor bunu da nasıl yapıyor hacmi
+arttırarak yapıyor ve patlıyor şimdi pvn
+rt'ye konuşacağımız kapalı kap Gaz
+basıncı konuşacağımız bir deney
+izleyeceğiz burada kapalı kaplarım Yani
+balonlarımı var hocanın elinde bir tüp
+var Bunun içerisinde sıvı nitrojen var
+Yaklaşık -200 celsus olması lazım yani
+nitrojen oda koşullarında normal hayatta
+gazdır soğutur Sak yoğunlaşıp sıvılaşır
+Ne kadar soğutmamış gerekiyor elimizde
+sıvı nitrojen varsa -200 celsius vara
+kadar soğutmamaya elimizde şu an Çok
+soğuk bir sıvı var bunu buradaki kaba
+döküyor kabı da böylece soğutmuş
+oluyoruz Hocam bu nasıl soğuk buharlar
+çıkıyor diyorsanız bunu daha önce de
+konuşmuştuk Sizinde bir dersimizde bu
+sıcaktan kaynaklı bir şey değil soğuktan
+kaynaklı bir şey buzdolabının kapağını
+açmak gibi Etraftaki hava birden soğukla
+karşılaşınca yoğunlaşıyor sıvı
+tanecikleri oluşuyor ona da Bulut
+diyoruz zaten şu an minyatür Bulut
+oluşturduk burada soğukla karşılaşan
+hava dikkat ederseniz zaten bu hava
+aşağıya doğru iniyor sıcak olsaydı
+yukarı doğru çıkardı Çünkü bu soğuk
+soğuk olan şeyin öz kütlesi büyüktür
+aşağıya iner bakın bir balon aldı balon
+içerisindeki gaz miktarını artırıyor
+yani n'yi arttırdığı Dolayısıyla basıncı
+artırıyor ve böylece şu an balonun
+içerisinde bir basınç var balon dengede
+esneklik direncini ihmal edersek açık
+hava basıncına eşit soğuk suyla temas
+ettirdiğim anda içerideki gazın
+sıcaklığını azaltıyorum Dolayısıyla
+basıncını da azaltıyorum acaba basıncını
+azaltabiliyor muyum işte burası önemli
+dikkat ederseniz balon git gide
+küçülüyor küçücük kalıyor balon niye
+küçülüyor çünkü sıcaklık azaldıkça hacim
+azalıyor bak balon bu kadar kaldı Çünkü
+balonun başlangıçta içerideki basıncı
+atmosfer basıncına eşitti tekrar
+söylüyorum lastiğin esnekliğini ihmal
+ediyorum e son durumda yine orada
+duruyorum yine buna eşi Yani aslında En
+nihayetinde yeterince beklendiğinden Ben
+balonun içerisindeki basıncı
+değiştiremedim atmosfere eşit
+sıcaklığını azalttım Böylece hacmini
+azalttım daha küçük bir balonumun
+olmasının sebebi budur içeride hala
+atmosfer basıncı var pistonlu kap gibi
+şimdi Şuradaki tüpün içerisine sıvı
+nitrojen koyuyor yani oldukça soğuk bir
+ortam oluşturuyor şu an içeride burada
+Enteresan bir durum göreceğiz içeride şu
+an Çok soğuk bir ortam var soğuk bir
+hava var bunun ağzına bir balon
+sıkıştırdı ve balonun Ben şişmeye
+başladığını gözlemliyorum videonun
+sonuna kadar bu devasa boyutlara
+ulaşacak Hatta patlayacak gördüğünüz
+gibi kocaman oldu bile bu neden şişiyor
+şu an Halbuki burada soğutulmuş bir
+şişeye takıldı Bu soğuk hacmi küçültüyor
+bakın sıvı nitrojeni çok soğuk sıvıyı
+buradaki balonların direkt üzerine
+döküyor ve bu balonların küçücük
+kaldığını görüyorsunuz Az önceki mevzu
+sıcaklık azaldı hacim azalıyor basınç
+açık hava basıncına eşit olmaya devam
+ediyor gördünüz mü patlamış gibi oldular
+küçücük bu niye bu kadar büyüdü işte
+buradan çok güzel yorum sorusu olur ki
+bu çıkmış sorudur hatta birazdan bir
+deney izletecek direkt çıkmış sorunun ta
+kendisi yani ÖSYM o deneyi izlemiş soru
+yazmış bakın gençler pvn RT balonun
+hacmi artıyor dışarıdan sürekli açık
+hava basıncıyla muhatap olduğumuz için
+balonun esnekliği de ihmal edilirse
+Aslında balonun içerisindeki basıncı
+yeterince beklediğinde en nihayetinde
+değiştiremiyorsan bu P0 kalmaya devam
+ediyor e içeriye gaz eklemiyor
+çıkartmıyor bunda bir değişiklik yok rde
+bir değişiklik yok eşitliğin solu
+büyüyor hacim büyüyor Çünkü Demek ki
+sıcaklık artıyor İyi de Hocam biz bunu
+Burada soğuk bir tüpe takmıştı sıcaklık
+niye artıyor ki E çünkü bu tüp şu an
+ısınıyor bu tüpün sıcaklığı artıyor Evet
+sen buraya -200 celsus da sıvı koydun o
+tüpün içerisindeki havayı soğuttun fakat
+sonra onu kendi haline bıraktın şu an bu
+odanın 25 celsus olduğunu düşünürsek bu
+-22 celciusa doğru artıyor Yani bu tüpün
+içerisindeki hava sıcaklığı artıyor
+sıcak arttığı için buradaki balonun
+hacmi büyüyor diyebiliriz bakın o soğuk
+ortamdaki balonları Dışarı çıkarttığında
+da değişik bir şey göreceksiniz Az önce
+konuştuğumuz aynisi bak balonlar şişmeye
+başladılar Çünkü şu an hızla ısınıyorlar
+soğuk ortamdan çıktılar aynı Sağdaki
+balon gibi bunlar şişmeye başladı hoca
+da dayanamayıp kendi patlattım Az önce
+bahsettiğim çıkmış sorunun deneyi burada
+bir ocak var Şu an buradaki sıvıyı
+kaynatıyoruz Dolayısıyla burada çok
+sıcak bir hava var buraya takılan
+Balonda O yüzden şişmiş hacmi büyümüş
+sıcaklık arttığı için şimdi ben onu
+oradan alıp buz dolu bir kaba koyuyorum
+çok hızlı gittiği için göremedik tekrar
+başa alayım buz dolu kaba koyduğumda
+balon küçüldü Hatta içine girdi ve
+içeride şişmeye başladı tekrar sıcak
+yere aldığımda tekrar buradaki hava
+ısındıkça buradaki basınç artıyor balonu
+küçültüp yukarı doğru itiyor ve yukarıda
+şişiriyor buz dolu kaba koyduğumda
+küçülüyor içeri girip içeride şişiyor
+balonun kendi kendine içine girme
+mevzusunu bir görelim başka bir deney
+üzerinden görelim kaynamış bir suyu
+sıcak bir suyu buradaki şişeye
+boşaltıyoruz ilk izlediğimiz deneyin
+tersini yapıyoruz orada soğuk su
+boşaltmıştır soğuk nitrojen boşaltmıştır
+Burada da kaynar su koyuyoruz
+Dolayısıyla şu an içeride sıcak hava var
+şişe de sıcak durumda bu sıcak şişenin
+ve sıcak havanın Üzerine kendi halinde
+bir balon takıyoruz Şu an ne oluyor
+biliyor musunuz bu şişenin içerisindeki
+hava ve şişe hızla soğuyor sıcaklık
+azalırsa basınç azalır içerideki basınç
+azaldıkça dışarıdan etki eden atmosfer
+basıncı daha baskın hale gelecektir
+Bakın bu balon yeterince beklerseniz
+daha da küçülür iyice kağıt gibi olur
+beklemeye devam ederseniz içeri girmeye
+başlar Çünkü içeride basınç azaldıkça
+atmosfer daha da baskın hale geliyor
+gördünüz mü içeriye doğru şişmeye
+başladı biraz da yardımcı olursanız
+içeriye doğru Bu balon şişiyor Çünkü
+içeride sıcaklık azaldıkça basınç
+azalıyor dışarıdan etki eden açık hava
+basıncı daha baskın olduğu için daha
+büyük olduğu için bu balonu içeriye
+doğru sıkıştırıp şişiriyor O yüzden buz
+dolu kovaya koyduğumuzda o balon şişkin
+balon küçüldü şişenin içine girdi ve
+orada şişmeye başladı yeterince
+beklerseniz elde edeceğiniz görüntü
+budur ve bu soru olarak çıktı sürtünmesi
+önemsiz ve ağırlığı önemsiz rahatlıkla
+hareket edebilen pistonun dengede olduğu
+kabın düşey kesti şekil deki gibidir
+Buna göre hangileri doğrudur Sabahtan
+beri bunu konuşuyoruz zaten bu piston
+rahatlıkla hareket edebiliyorsa ve şu an
+dengede isse yukarıdan etki eden açık
+hava basıncıyla aşağıdan etki eden Gaz
+basıncı birbirine eşit pistonun da
+ağırlığı ihmal zaten sen bir değişiklik
+yaptığında gazda sıcaklık madde miktarı
+veya başka şeyler bu eşitlik bozulur ve
+piston hareket eder ama en nihayetinde o
+piston bir yerde durduğunda yine bu
+eşitliği sağlamış olursun o yüzden biz
+bu ara formları geçersek Genelde ne
+deriz bu eşitlik bozulmaz deriz vana
+açılırsa piston aşağıya iner Evet hocam
+Van açılırsa buradan dışarıya gaz çıkar
+ama siz bu eşitlik en nihayetinde
+bozulmayacak dediniz pvn RT sıcaklıkta
+bir değişiklik yok içerideki gaz miktarı
+azalır bu gazın basıncında bir
+değişiklik olmayacağı için p0a eşit
+olacağı için hacmin küçülmesi lazım bu
+pistonun aşağı inmesi lazım dışarıya gaz
+çıkarsa Bu yorumların hepsi doğrudur ama
+dışarıya gaz çıkmaz Neden Çünkü p gazla
+P0 birbirine eşit buradaki gazın
+Dışarıya çıkması için içeride yüksek
+basınç dışarıda Alçak basınç olması
+lazım ki bu gaz dışarıya doğru zorlansa
+mesela içeriye gaz eklemek için de
+dışarıda yüksek basıncın içeride alçak
+basıncın olması lazım yani yüksek bir
+basınçla içeriye gaz
+pompalayarak atmosferin etkisi Neyse
+içerideki gazın da etkisi odur mesela
+odanızdan durup dururken bir hava akımı
+var mı etrafınızda net bir akış var mı
+yok Çünkü her yerde basınç aynı P0 la p
+gaz eşit olduğu için vanayı açsan bile
+net bir gaz çıkışı ya da içeriye gaz
+girişi olmaz Evet burada etkileşim olur
+bu gaz Uçucu bir kısmı dışarıya çıkar
+ama dışarıdan da içeriye bir kısım hava
+girer diyebiliriz dışarıdaki atmosfer
+neyse içerideki gazın etkisi de şu an
+budur pistonda ağırlıksız olduğu için
+Yerçekimsiz ortam gibi düşünürsen hiçbir
+yere hareket etmez birinci öncülü
+yanlıştır vana açılarak içeri gaz ilave
+edilirse gazın kap içerisindeki basıncı
+artar Tabii buraya son durumda diye
+ekleyelim içeriye gaz eklediğim anda
+buradaki n'yi
+arttırdığımız arttırmış olacaksın bu
+eşitlik bozulduğu için gaz Açık havadan
+büyük olduğu için bu piston yukarıya
+hareket edecek ama bu piston yukarıya
+hareket ettikçe de hacmi de arttırmış
+olacağın için tekrar şu durumu
+yakalayacaksın son durumu düşündüğümüzde
+başlangıçta da p 0'a eşitiz son durumda
+da p 0'a eşit olacağız Dolayısıyla
+basınç artar diyemeyiz kap rakımı daha
+yüksek bir yere götürülürse piston
+yukarıya doğru hareket eder Dağı tepeye
+çıkartırsam açık hava basıncının daha
+küçük olduğu bir yere gitmişim demektir
+E bu eşitlik korunacak İsa açık hava
+basıncı küçükse o zaman içerideki gazın
+basıncının da küçük olması lazım
+yukarılara doğru çıkan Uçan balonu hayal
+edin ben bunu Dağın tepesine
+götürdüğümde dışarıdaki açık hava
+basıncı azalacağı için bu piston
+yukarıya doğru çıkar içerideki hacim
+artar ve en nihayetinde Bu ikisi yine
+bir birbine eşit olur 3üncü öncülü doğru
+Sorumun cevabı yalnız 3 düşey kesti
+şekildeki gibi olan kabın içindeki Gaz
+basıncı PG kap tabanındaki sıvı basıncı
+psd kap ters çevrilirse p gaz ve p sıvı
+nasıl değişir diye sorulmuş şimdi
+buradaki sıvı geniş bir Tabana oturmuş
+ben bu kabı ters çevirdiğimde şöyle bir
+şey yaptığımda daha dar bir Tabana
+oturacağı için ve sıvının hacmi de kabı
+ters çevirdim diye değişmeyeceği için
+mecburen daha yükselecektir buradaki
+sıvı seviyesi artacaktır diyebilirim ama
+burada V hacim varsa burada da V hacim
+olduğunu unutmuyorum gaz da burayı
+doldursun üstte kal almış olsun Aa hocam
+buradaki suyun seviyesi arttığı için o
+zaman gaz sıkıştı gazın basıncı artar
+İyi de burası da dardı şimdi daha geniş
+bunu nasıl yorumlayacak acaba oradaki
+artışla buradaki azalış birbirini
+dengeliyor mu sanki bilemiyor muu şum
+gibi dursa da başka bir yolla çok kolay
+anlayabilirim diyelim ki bizim kabımız
+iç hacmi sallıyorum tamamen 10 cm K
+buradaki sıvının hacmi de 7 cm k olsun
+geri kalan 3 cm k nedir gazın doldurduğu
+hacimdir O zaman benim gazım hacmi 3 cm
+kür kabı ters çevirdim sıvının hacminde
+bir değiş yok seviyesi değişse bile yine
+7 cm K sıvımız var yine bizim iç
+kısmımız 10 cm k o zaman yine Burası 3
+cm K gazın bulunduğu hacim değişmedi
+sıcaklık değişmiyor gaz miktarı
+değişmiyor hacim değişmiyor hiçbir şey
+değişmediyse o zaman gazın basıncında
+herhangi bir değişiklik olmamıştır Peki
+sıvının basıncı ne oldu sıvı basıncı
+Tabii ki kap tabanındaki sıvı
+basıncından bahsediyoruz bu derinlikten
+hesaplanıyordu şimdi daha fazla
+derinlikten hesaplanacak hdgd H arttığı
+için sıvının basıncı artar diyebiliriz
+açık hava basıncının P0 olduğu ortamda
+şekildeki bileşik kapta gaz ve sıvı
+dengededir Buna göre P1 P2 P3 ve P0
+arasındaki ilişki nedir denilmiş Şimdi
+şurası sıvının üst yüzeyi orası kapalı
+gibi olmuş ama değil Burada sıvı var
+piston falan da yok buradan açık hava
+basıncı etki ediyor zaten göstermiş P0
+var buradaki noktada soru sağ olsun
+bizim seviyemiz de çekmiş Pascal
+yapacağım aynı seviyede aynı sıvıda
+basınçlar eşit yani Şuradaki yeşil
+noktayla buradaki yeşil nokta mavi
+sıvıyla temas halindeler buradaki basınç
+Aynen buraya aktarıldığı için bu iki
+basınç birbirine eşit Peki buradaki
+yeşil noktada ne var bir kere yukarıdan
+bir P0 var değil mi Çünkü buradaki P0
+sıvı tarafından Aynen buraya aktarılır E
+bir de buradaki H derinlikli şu sıvı
+sütununun ağırlığı var o zaman Ben
+buradaki p0a Bir de hdg eklemeliyim
+başka bir şey var mı burada yukarıdan
+yok o zaman bu P0 + hdg Aynen buraya
+aktarılmıştır peki bu sıvı neden daha
+fazla yukarıya çıkamıyor onun yukarı
+çıkmasını engelleyen bir şey mi var Var
+tabii ki burada Gaz basıncı var p gaz
+buna eşit olduğu için o noktada burada
+bir denge durumu oluşmuş hocam buradaki
+Aki P2 noktası da zaten bu yeşille aynı
+aynı seviyeden O zaman bu P2 dediğim şey
+de P0 + htg nin tak kendisidir P3 de
+zaten bu yeşil noktayla aynı yerde P3 de
+P0 + hdgd yani P2 ile P3 birbirine
+eşittir e P3 dediğim şey P0 + hdg
+olduğuna göre P3 P0 danan daha büyüktür
+Evet çünkü p 0'ı bu sıvı sütununun
+basıncıyla toplayınca P3 veriyor Tamam
+yorumlamadaki
+şu P0 + htg den daha küçüktür çünkü
+aşağılara indikçe basınç artıyordu
+yukarıya çıktıkça basınç azalıyordu
+kapalı kaplarda Bu geçerli değil burası
+kapalı bir kap bu kırmızı bölgede gaz
+var ve buradaki gazın basıncının sebebi
+ağırlığı değil taneciklerinin bütün
+yüzeylere çarpması Buraya nasıl
+çarpıyorsa buraya da öyle çarpıyor
+aşağıya da öyle çarpıyor yukarıya da
+öyle çarpıyor bu kısmın her yerinde aynı
+basınç var şu yeşil noktada P0 + hdg
+varsa burada da P0 + hdg var burada da
+P0 + hdg var hatta İnanır mısınız P1 de
+de P0 + HD DG var bu bölgenin her
+yerinde aynı basınç var çünkü kapalı
+kaplarda her yerde basınç aynıdır Bu da
+ne anlama geliyor P2 ile P1 aynı
+anlamına geliyor buraya p1i de eklersem
+bu üç arkadaşın basınçları birbirine
+eşit ve p 0'dan büyüktür geldik son
+sorumuza açık hava basıncının P0 olduğu
+ortamda ağırlığı önemsiz a alanına sahip
+pistonlu K yükü gaz ve D Öz kütleli sıvı
+şekildeki gibi dengededir Buna göre kap
+tabanındaki toplam basınç denklemi nasıl
+yazılır Şahane soru kesinlikle anlamanız
+gereken bir soru kap tabanında bir nokta
+seçtim kırmızı bir nokta seçtim buradaki
+basınç denklemi nedir bakın böyle
+denklem bilmem ne hocam ne biçim tyt
+demeyin şu an bu soru sınavda çıkacak
+diye çözmüyor kapalı kaplardaki Gaz
+basıncı ile ilgili birçok öğrencinin
+düştüğü oltaya düşmeyin diye konu
+anlatımına devam ediyorum Aslında
+buradaki pistonu inceleyelim o piston
+orada duruyor o pistonun ağırlığı
+önemsiz Ama üzerinde bir yük var
+yukarıdan bir P0 etki ettiğini de
+unutmayacağız niye düşmüyor bu piston
+Çünkü burada bir gaz var bu gaz bunları
+tutuyor O zaman ben burada bir denklem
+yazsam şu Mavi Nokta için denklem yazsam
+ne yazarım a aşağıdan p gaz var
+yukarıdan P0 var Artı bu yükün de
+basıncı var direkt basıncın genel
+ifadesini yazalım yükün ağırlığı bölü
+buradaki pistonun alanı kuvvet bölü alan
+O da a kadar verilmiş işte gaz dediğim
+şey yukarıdan açık hava basıncı artı
+yükün basıncını tutuyor güzel burası
+kapalı bir kap aynı p gaz burada da var
+aynı p gaz burada da var aynı p gaz
+burada da var şimdi newton'a yaptığım
+bir taktiği yapıyorum Şuradaki suyun
+fotoğrafını çekiyorum Sadece bu suyla
+ilgileniyorum üstteki piston üstteki Yük
+falan beni ilgilendirmiyor suya etki
+eden basınç ne yukarıdan p gaz var bu p
+gaz aynen bu kırmızı noktaya aktarıldı
+mı Evet E bir de buradaki bir sıvı
+sütununun ağırlığından kaynaklı basınç
+var o da hdg ile hesaplanacak
+Dolayısıyla bu kırmızı noktada yukarıdan
+gelen p gaz + hdg var Sorumun cevabı bu
+kadardır p gaz + htg hocam Öyle şey olur
+mu Yukarıdaki yükü açık hava basıncını
+hiç düşünmeden direkt p gaz + htg olur
+mu Ben olsam şöyle yazardım şu an birçok
+öğrenciyi seslendiriyorum Ben Allah ne
+verdiyse yukarıdan yazarım yukarıdan
+açık hava geliyor yukarıdan şu yükün
+basıncı var GK b a arada Gaz basıncı var
+p gaz e sıvının kendi basıncı var hdg
+hocam bence bu kırmızı noktanın basıncı
+budur Hayır değildir E hocam sizin
+denklemin açık hava basıncı yok yük yok
+var aslında p gaz var p gaza ben ne
+yazmıştım P0 + GK / a yazmıştım Yani ben
+bu denklemi şöyle güncelleyebilirim bu
+kırmızı noktadaki basınç P0 + yükün
+basıncı + HD g'dir sizin denklemin ie
+çok benzedi bir tek ne eksik p gaz eksik
+bu denklemle bu denklem aynı şey
+bütüncül bak bakmak istiyorsan her şeyi
+görmek istiyorsan Tamam P0 yazarsın yükü
+yazarsın hdg yi yazarsın ama gazı
+yazamazsın bütüncül bakacaksın Çünkü
+dikkat ettiysem buradaki basınçların
+hepsi ağırlıktan kaynaklanan basınçlar
+bunun ağırlığından kaynaklı basınç var
+atmosferin ağırlığından kaynaklı basınç
+var sıvının ağırlığından kaynaklı basınç
+var buradaki gaz kapalı kap basıncı bu
+gazın ağırlığı ihmal bu aslında ne
+yapıyor Şuradaki basıncı Aynen buraya
+aktarıyor kendinden bir şeyler katmıyor
+ki o yüzden bu denklemde yeri yok ama
+illa ben p gazı görmek istiyorum
+diyorsan p buradan bastırmıyor mu hocam
+diyorsan E tamam zaten işte şurası pegaz
+ya bu denklem ya bu denklem ikisi de
+aynı şey sadece görüntüleri farklı bu
+önemli bir soru tipiyi denklem imiz bu
+arkadaş değil bu arkadaştır bu dersimiz
+bu kadardı takıldıkları alta yazın
+Kendinize iyi bakın
+[Müzik]
+görüşürüz

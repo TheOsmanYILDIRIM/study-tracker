@@ -1,0 +1,491 @@
+iç direnci önemsiz üreteç ve değerleri
+verilen dirençlerle şekildeki elektrik
+devresi kurulmuştur devrede voltmetre 24
+volt gösterdiğine göre ampermetre kaç
+amper gösterir yine şahane bir soru bir
+tuhaflık fark ettiniz mi devrede
+voltmetre Bu dirence nasıl bağlanmış
+seri bağlanmış o zaman üst kısım komple
+gitti Çünkü üst kısımdan akım geçemez
+Çünkü bu arkadaşın sonsuz direnci var
+kabul edilir Bu telden akım geçişine
+izin vermez voltmetreler paralel
+bağlanmalıdır normal bir devre için o
+zaman ben devreyi yine basitleştiriyorum
+yukarıya hiç akım gitmeyeceği için
+bunları komple silebilir Burası yok
+bizim için hatta yine bir saçmalık
+yapılmış ampermetre bu İki onluk dirence
+paralel bağlanmış ampermetrede sıfır
+direnç kısa devre yapar bu İki onluk
+direncin üzerinden akım geçmez o zaman
+ben bunu da silebilirim akım geçmeyen
+adam benim ilgi alanımda değil Devre ne
+kadar basitmiş bir tane direnç var bir
+tane güç kaynağı var ve bu hat komple
+tek bir hat tek bir akım dolaşacak
+burada ben şu arkadaşım Potansiyel fark
+değerini bilseydim şu an vırdan direkt
+burada dolaşan akımı Dolayısıyla
+ampermetreden geçen akımı bulabilirdim
+ama bana onu vermemiş demiş ki voltmetre
+24 volt ölçüyormuş hocam onu yanlış
+bağlamıştık yine ölçüm mü yapmış Tabii
+ki yapabilir o üst kısmı tekrar geri
+getirelim bunun 24 volt ölçüm yapması
+demek ne demek şimdi buradan pilden Biz
+bir akım çıkarttık İki kola ayrıldı bir
+kısmı Buraya gidecek bir kısmı yukarı
+gidecek normalde ama yukarıya akım
+gidemez demiştim Çünkü voltmetre sonsuz
+direnç o zaman yukarıya akım gidemiyorsa
+voltmetrenin 24 volt ölçmesi demek şu
+nokta 0 ise bu nokta 24 volt demek bir
+ucu 24'te öbür ucu sıfırda farkını
+söylüyor ve ben bu sıfırı buraya da
+taşırım buraya da taşırım buraya da
+taşırım pilin dibine kadar getirmiş olur
+Bu 24'ü ne yapacağız pilden geldiği
+düşünülen akım Normalde iki kola
+ayrılacaktı bir kısmı buradan bir kısmı
+buradan gidecekti Ama yukarıya gidemez
+Çünkü voltmetre sonsuz direnç ya da bir
+başka bakış açısıyla bu direncinin
+üzerinden akım geçmez Çünkü iki ucu
+arasında Potansiyel fark yoktur şu an
+bunun sağ ucunda 24 volt var o zaman
+bunun sol ucunda da 24 volt vardır başka
+bir değer yazamazsın sen buraya 25
+yazsan direncin üzerinden sağ tarafa
+doğru akım gitmesi lazım 23 yazsan sol
+tarafa doğru akım gitmesi lazım
+gitmediğini biliyoruz O zaman 24'e 24 bu
+24'ü de buralara taşıyabilirim pilimizin
+sol ucunda da 24 varmış o zaman pilimiz
+24 voltmuş Çünkü bu farkı o oluşturuyor
+Yukarısı komple iptal oraya akım
+gitmediği için bizim akım dediğimiz şey
+şu Rotayı izliyordu Bunların hepsi seri
+bağlıydı Potansiyel fark 24 volt akım
+değerini bilmiyorum direnç değerimizde 4
+10 o zaman akımımız 6 amperdir Bu akım
+ampermetreden de geçeceği için Sorumun
+cevabı e seçeneğidir şekildeki devre
+parçasında R1 R2 ve r3 dirençlerini
+uçları arasındaki potansiyel farklar
+sırasıyla V1 V2 ve v3'tür buna göre
+hangileri kesinlikle doğrudur öncülere
+baktığımda potansiyel farkları
+kıyaslamamı istiyor kim büyüktür kim
+küçüktür diye Bakalım şimdi bu V1
+dediğim arkadaş ne ölçer R1 direncinin
+uçları arasındaki gerilimi ölçer onu da
+nasıl bulursun bu direnci özgü bir vır
+yazarsın Yani V1 dediğim şey bunun
+üzerinden geçtiği düşünülen ağı bir
+akımı çarpı r1'dir bu ı bir akımı gelir
+İki kola ayrılır Bir kısmı yukarıya
+gider bir kısmı aşağıya gider mesela
+yukarıya ı3 gitsin aşağıya da ı 2 gitsin
+V2 ne okur bu direncin uçları arasındaki
+potansiyel fark bu direnci özel bir vur
+yazarım V2 dediğim şey üzerinden geçen
+ı2 x r2'nin ta kendisidir V3 dediğim şey
+üzerinden geçen ı3 x bu direncin ta
+kendisidir şimdi kıyaslama yapacağım
+için bu V1 V2 v3'ü bu akımlar ve
+dirençler hakkında bilgi sahibi olmam
+lazım Soru bana dirençlerle ilgili
+hiçbir şey söylememiş eşittir şu
+büyüktür şu küçüktür bilmiyorum Bir de
+soru kesinlikle sorusu o zaman her
+ihtimale mümkün dirençten yana yüzüm
+gülmüyorsa o zaman akıma bakabilirim ne
+yazabilirim mesela bakın buradan gelen
+ı1 akımı İki kola ayrılıyor Yani bir
+akımı dediğim şey aslında ı2 ile 3'ün
+toplamı yani öbür akımı ikiden de büyük
+üçten de büyük Belki bunlar işime
+yarayabilir mesela birinci öncülde diyor
+ki V1 v2'den büyüktür yani dediği şey
+aslında ı bir çarpı R1 büyüktür ı2 x R2
+midir Evet hocam bakın ne yazık buraya
+bir akımı iki akımından büyük Yani bu
+büyük bu küçük Ee r'ler hakkında
+bilgimiz var mı hayır yok hakkında
+bilgimiz yoksa ben bu kıyaslama yapamam
+belki buradaki R2 devasa büyük o zaman
+buradaki voltaj ilişkisi tam tersi olur
+Ben bu 1'e Kesinlikle doğru diyemem Peki
+bir üçten büyük müdür yani ı1 çarpı R1
+büyüktür ı3 x r3 midir yine aynı şey
+Evet ı1 akımı 3'ten büyük Tamam bu büyük
+bu küçük ama r'ler Hakkında bilgim yok
+belki r3 devasa O zaman ben bunu da
+bilemem V2 büyüktür V3 müdür yani ı2 R2
+büyüktür bu 3r 3 müdür Biz buradaki 2 ve
+3 akımlarını kıyaslayamıyoruz dirençleri
+hiç kıyaslayamıyoruz bunu nasıl
+anlayacağız soru Olabilir değil
+kesinlikle doğrudur sorusu daha kolay
+başka yoldan anlayabiliriz Bu üçüncü
+öncülü bu kesin Doğrudur Neden Çünkü
+komple şu iki direncin toplamı ile bu
+direnç paralel bağlı Ben şuraya 0 volt
+desem sallıyorum şuraya 50 volt desem bu
+50 voltu buraya da taşırım buraya da
+taşırım Burası da 50 volttur bu sıfırı
+Burayı da taşırım buraya da taşırım
+şimdi o zaman R2 direncinin uçları
+arasında bir uçta 50 bir uçta sıfır
+olduğuna göre V2 ne okur 50 volt okur
+ama yukarı geldiğimde 53 50 okuyamaz
+Çünkü yanında bir direnç daha var
+değerini bilmesek bile değerini bilmesek
+bile bunun üzerinden sağ tarafa doğru
+bir akım Aktığını düşünüyorum çünkü
+yüksek potansiyelden alçağa doğru akım
+gidecek burada bir nokta Hayal etsem
+sıfırdan daha büyük bir volt değeri
+olmalı burada Hadi olsun bir volt ama
+Olmak zorunda yoksa akımak ama sağ
+tarafa doğru O bir voltu buraya taşırım
+bu 50 voltu buraya taşırım V3 ne okur 49
+volt okur v2'den küçük okur bunu 1
+vermeme rağmen elde ettim 20 verseydim
+daha da küçük okurdu Dolayısıyla 3
+öncülüm Kesinlikle doğru E hocam aynı
+mantığı şu R1 içinde yapamaz mıydık
+oralarda dirençleri bilemeyiz deyip
+Kestirip attınız 3'te hiç dirençlere
+bakmadınız 3 farklıydı 3 paralel bağlı
+bir sistemdi paralel bağlamada uçlar
+arasındaki potansiyel farklar eşit olmak
+zorunda olduğu için onu kullanabildim
+ama seriyi de Öyle bir zorunluluk yok
+potansiyel farkın üzerinden gidemiyorum
+seriye'de Bu yüzden Sorumun cevabı C
+seçeneği olacaktır iç direnci önemsiz
+üreteç ve ideal voltmetreler şekildeki
+gibi bağlanmıştır Buna göre
+voltmetrelerin gösterdiği V1 V2 V3
+değerleri arasındaki ilişki nasıldır
+daha basit bir soru bu az öncekine göre
+birden fazla direnç olduğu için
+sadeleştirmem gerekebilir O yüzden ben
+gözümü kanatmasın diye şu voltmetreleri
+başlangıçta bir siliyorum Çünkü bunların
+üzerinden akım geçmeyeceği için beni
+ilgilendirmiyorlar Şu aşamada O
+voltmetrelerin ne okuduğunu bulmam için
+bu dirençlerin üzerinden geçen akımları
+bulmam lazım Çünkü vır yapacağımı çarpı
+r yapmalıyım Hadi r'ler belli ama
+akımlar yok akım hakkında fikir sahibi
+olmam için de devreye sadeleştirmem
+lazım sadeleştirirken de ha hocam eş
+değer direnci mi bulacağız bu r ile bu
+iki r paralel bağlı çarp böyle topla
+yapalım sonra diğerleriyle seri bağlı
+falan hiç gerek yok ki zaten sayılarda
+çok kötü gelecek r ile 2 r'nin çarp
+böyle toplası 2 r/3 gibi bir şey gelir
+Sonra buradan kesili sayılar gelir bana
+akımlar lazım Hatta akımların oranı
+lazım sadece bu iki arkadaşım paralel
+olduğu belli mi belli paralel oldukları
+için uçlar arasındaki potansiyel farklar
+eşit mi Evet yani ı çarpı r'lere eşit O
+zaman ben bunun üzerinden ı takımı
+geçiyor gibi kabul etsem bunun üzerinden
+ne geçiyor Olmalı 2 ı Olmalı 2 ı rı
+çarpı 2r potansiyel farklar eşit o zaman
+pilden ne geliyormuş diye kabul ettim
+Ben şu an 3 II 2ı buradan geldi bir ı
+buradan geldi birleştiler yine 3 oldular
+bunun üzerinden 3 yıl geçti bunun
+üzerinden 3 yıl geçti Çünkü bunlar seri
+ve devreyi 3 ı ile tamamladık üçü çıktı
+üçü geri geldi bak bitti hiç devrede eş
+değer direnç falan bulmama gerek yok Bu
+da başka bir taktiktir bunu da öğrenin
+direkt dirençlerin üzerine oranlara baka
+baka akımlar yazıp pilden sanki bu
+geliyormuş gibi düşünebilirsiniz Şimdi
+voltmetrelerimizi geri getirelim V1
+voltmetresini okur bu nokta ile bu nokta
+arasını okur Hatta bu noktayla bu nokta
+arasında okur çünkü bunlar paralel
+olduğu için hepsi aynı olacak R
+direncini okuyor diyebiliriz Burada vır
+yaparsam iki ı çarpı r okuyacaktır bu
+arkadaş ya da buradan bakabilirim yine ı
+çarpı iki r aynı şey V2 ne okur bu
+noktayla bu nokta yok yani bu direncin
+uçları arasına okuyor bu dirençten ne
+kadar akım geçiyor 3 ne kadar direnç iki
+kere altı bir Potansiyel fark okur
+geldim v3'e bu nokta ile bu noktayı
+okuyor O da R direnci üzerinden 3 yıl
+geçiyor çarpı r3 3 ı r okur en büyük
+hangisi oldu V2 oldu sonraki V3 sonraki
+V1 Sorumun cevabı D seçeneğidir iç
+direnci önemsiz üreteçler Özdeş
+dirençler reosta ve anahtarlarla
+şekildeki devre kurulmuş ideal
+ampermetrede okunan değerin artması için
+işlemlerinden hangilerinin tek başına
+yapılması yeterlidir ampermetrede okunan
+akım değerinin artmasını istiyorum
+devreyi Şu haliyle bir kurcalamaya
+başlayalım bakın açık anahtarlar var
+açık anahtar demek oradan akım geçmiyor
+demek o zaman ben bu direnci sildim Emre
+yeterince karışık duruyor Hiç uğraşmak
+istemiyorum açık anahtar var burayı
+sildim Bu pil çalışmaz ampermetre sıfır
+dirençtir buradan gelen akım direkt
+ampermetrenin üzerinden gidecek
+Dolayısıyla bu telin de bir hükmü yok
+sürgünün üzerinden geçip direncin bir
+kısmı etkili olacak tamamını
+silmeyeceğim O zaman şu an tek bir hat
+belirledik buradan çıkan akımımız tek
+bir hat üzerinden Bu yolu takip eder ve
+devreyi tamamlamış olur bir tane Özdeş
+pilim var İki tane üreticim var bunlara
+V Potansiyel fark V Potansiyel fark
+dersem devreyi sadeleştiriyorum 2v'lik
+bir tane pilim varmış gibi düşünebilirim
+burada R direnci var Şu kadarlık
+dirençten geçecek akım Buna da R dersem
+seri bağlılar 2 r'lik bir direncimiz
+olur ve o zaman vır yaparsak 2 ve
+eşittir 2 r o zaman buraya ı yazmam
+lazım demek ki ana koldan gelen akım ı
+bu sarı Rotayı izleyen akımı
+ampermetreden geçen akım reosta
+sürgüsünü bir yönünde çekersem ne olur
+bu sürgüyü tutup da şuraya getirirsen
+yukarıdan gelen akım daha az dirençten
+geçer yani Burası artık R olmaz Mesela
+r/2 olur o zaman burası 2 R olmaz Mesela
+bir buçuk R olur o zaman burası ı olmaz
+ı'dan daha büyük bir değer olur şimdi
+matematiğiyle uğraşamayacağım Mesela bir
+nokta üç olur Bunu silerim bir nokta 3 ı
+yazarım ampermetreden okunan değeri
+arttırmış olur yalnızca K anahtarı
+kapatılmalıdır devreye orijinaline
+alıyoruz şuraya geri getirmedim Çünkü
+oradaki anahtar hala açık durumda yine
+yok hükmünde burayı kapattım sadece
+Normalde tek başına burada bu vardı K
+anahtarını kapatırsan buna paralel yeni
+bir direnç eklenmiş olur bu acaba Benim
+buradaki devre direncimi arttırır mı
+Normalde buna R demiştim şu kadarlık
+kısmı R demiştim Buna da R dedik Özdeş
+dirençler bu arkadaş yokken r+ r'den
+buraya iki r demiştik Tabii reosta ile
+oynamadık şu an bu ikisi paralel olduğu
+için Burası 1/r + 1/r'den 2/r ters çevir
+r/2 olur bu r/2 ile bu R seri olduğu
+için toplamam gerekir 3 r / 2 olur Bunu
+sildim Bunun yerine 3r/2 yaz yani bir
+buçuk R yazdım yani direnç azaldı direnç
+azalırsa akım artar Çünkü potansiyel
+farkta bir değişiklik yok çünkü
+üreteçlerde bir değişiklik yok E ben
+akımın artmasını istiyordum zaten o
+zaman bu da olur devreye yeni direnç
+eklememe rağmen eşdeğer direnç azaldı
+paralel bağlamanın özelliklerinden biri
+budur R direnç vardır bir tane daha rap
+paralel koyarsan r/2 olur bir tane daha
+R koyarsan r/3 olur gitgide azalır Çünkü
+aslında üst üste koyduğumuz o Demir çub
+kesit alanı artıyormuş gibi düşünün
+kesit alanını artarsa direnç azalır K ve
+L anahtarları birlikte kapatılmalıdır
+buraya geri getirmiştik o zaman Burayı
+da geri getireceğiz burayı kapattım yeni
+bir pil ekledim devreye hocam Yeni taze
+kan geldi ampermetre daha çok değer
+gösterir Niye acaba buna V demiştim buna
+V demiştim bu yokken toplam 2b'ydi çünkü
+bunlar seriydi paralel 1 ve daha geldi
+Bu ikisi beraber düşünüldüğünde teke
+düşürüldüğünde tek bir pilmiş gibi hayal
+edildiğinde yine V yazıyordu
+hatırlarsanız Çünkü uçlar arasındaki
+potansiyel farklar hep V burada kaç tane
+pil olursa olsun teke düşürdüğünde de V
+oluyor o yüzden bunu sildim bunu sildim
+yerine bunu yazdım bir şey değişti mi
+yine burada V var burada V var yine ben
+gideceğim buraya iki veya yazacağım
+Dolayısıyla L anahtarını kapatmak
+buradaki ampermetreden geçen akımı
+etkilemez Çünkü buraya yine iki V yazmış
+oluyoruz konu anlatımı da bunu konuştuk
+o zaman paralel bağlamanın amacı nedir
+Ömür uzatmak Şu Arkadaş tek başınaydı
+artık ikisi var bu üstteki arkadaşın
+ömrü uzadı daha az akım çekilecek bu
+pillerden K ve L anahtarını birlikte
+kapatıyor yani l'nin kapatılması bir şey
+değiştirmedi ama k'yı da kapattığı için
+ki biz Kaan'ın kapatılması olur demiştik
+akımı arttırır demiştik buradaki K işi
+kurtarıyor sorunun cevabı 1 2 ve 3
+olacaktır öğretmen bir cihazın uzaktan
+kumandasının 6 voltluk gerilimle
+çalıştığını ve bunun için bir buçuk
+voltluk 4 adet kalem pil
+kullanacaklarını söyledikten sonra
+öğrencilerinden bu kumandanın pil
+yatağını nasıl olması gerektiğini
+defterini çizmesini istiyormuş bu
+modellemelerden hangileri doğrudur 6
+volt lazım Elimde bir buçuk voltluk 4
+tane pil var demek ki bu bir buçukları
+toplamalıyız direkt toplayacağız seri
+bağlayacağız o zaman ve düz bağlayacağız
+ters bağlarsak çıkartmak zorunda kalırız
+yani bunları böyle Aslında arka arkaya
+dizmem lazım artı eksi artı eksi diye
+Her biri bir buçuksa Toplamda 6 olur
+Burası - burası + Burası - burası +
+Fakat konu anlatımında da bunu konuştuk
+kumandanın içerisinde de seri bağlılar
+ama böyle arka arkaya dizilmiyorlar
+böyle yan yana duruyorlar paralelmiş
+gibi Çünkü araya teller atıyorlar artı
+ile eks getirecek şekilde Burada da onu
+arayacağız Aslında bakın mesela ikiyi
+incelesek artıdan çıkmış yine artıya
+gitmiş artıdan çıkmış yine artıya gitmiş
+eksiden çıkmış yine eksiye gitmiş
+eksiden çıkmış yine eksiye gitmiş bu
+direkt paralel bağlama zaten bana seri
+lazım artıdan çıkıp eksiye gideceğim
+artıdan çıktım eksiye gittim Sonra bunun
+artısından çıkıp eksiye gittim Sonra
+bunun artısından çıkıp eksiye gittim
+Dolayısıyla eksiden yola çıkıp artı eksi
+artı eksi artı eksi böyle geldim Yani
+aslında benim en başta çizdiğim şeklin
+Z'ye dönüştürülmüş hali bu işte bu olur
+1 olur mu artıdan çıktım eksiye gittim
+güzel sonra bunun arasından çıktım yine
+bunun eksisine gidiyorum tamam Bu iki
+seri bağlı gibi duruyor ama diğer
+pillerle bunların bağlantısı yok şu
+arkadaşla Şu Arkadaş kendi içinde seri
+artıdan çıktım eksiye gittim bunun
+arasından çıktım Bunun eksik Bunlar da
+kendi içinde seri Ama bunlar bağlantılı
+değil Hepsi bağlantılı olmalı O yüzden
+bunu da kabul edemem Sorumun cevabı C
+seçeneğidir Aynı cins maddeden yapılmış
+boyları ve kesit alanları verilen
+iletken teller ile şekildeki devre
+kurulmuş Özdeş pillerin iç dirençleri
+önemsiz göre x yz p pillerinin tükenme
+sürelerinin arasındaki ilişki nedir diye
+sormuş piller Özdeş iç dirençleri yok
+tükenme süresi tükenme süresi pillerden
+geçen akımlarla ters orantılıdır çok
+akım çekiliyorsa ömrü kısadır akımı
+belirleyen şey de vırdan düşünürsem hem
+potansiyel farktır hem de devredeki
+dirençtir dirençler için de burada
+iletken teller verilmiş onların
+dirençleri için R = ro çarpı l/a'dan
+düşünmeliyim hepsi aynı maddeden
+yapıldığı için roaya bakmama gerek yok
+uzunluğuna ve kalınlığına bakmam
+yeterlidir Şimdi ben L bölü A'ya R desem
+bunda L var bunda a var R direnç L var a
+var R direnç 2 l var a var O zaman bu 2
+R direnç olur Bu da 2 r'dir Bunlar R
+direnç iki tane pil nasıl bağlanmışlar
+seri ve düz bağlanmışlar eksi artı eksi
+artı Bunlar Özdeş olduğu için buna V
+desen buna V desem burada tek bir Pil
+varmış gibi düşünüp 2 ve diyebilir R
+direnç var R direnç var Bunlar paralel
+bağlılar bunları da teke düşürürsem
+devreyi sadeleştirmeye çalışıyorum 1/r +
+1 ters çevirirsem Burası r/2'dir şimdi
+devreyi bir daha çiziyorum bir tane
+direnç var r/2 bir tane pil var 2v vır
+yazarsam bunun üzerinden 4 ı'lık akım
+gider çünkü 2 ve eşittir 4 ı çarpı
+r/2'dir iki katsayılar birebir olsun bu
+4 ile bu iki götürsün 2ksın O 2 ile de o
+iki götürürüz Bu 4ı benim eşdeğer
+pilimden geliyor biz bu ikisinin toplamı
+olarak bunu kabul etmiştik bunların
+yerine tek bir pil çizmiştik bu 4 komple
+buradan geliyor böyle gidiyor olarak
+düşünebilirim o zaman Çünkü bunları
+silip o tek pili de bunların yerine
+çiziyorum Ben iki ı yazmıyorduk Aman ha
+hala buna şaşıranlar varsa konu anlatımı
+bir daha izlesinler çokça açıkladım
+orada bunda V var bunda V var Paralel
+bağlılar bunları teke düşürsem yine V
+olur yukarıda da bir tane direncim var 2
+lira direnç buradan düşünürsem o zaman
+ve eşittir böyle 2 çarpı iki r olur ki
+bu İkiler götürsün Bir katsayıya bir
+katsayı kalsın şimdi bu ı / 2 nerede 2
+kere elektrik direncinin üzerine gidiyor
+yani şurada ı/'lik piller Özdeş olduğuna
+göre demek buradan ı/4 gelmiş Buradan da
+ı/4 gelmiş bu ikisinin toplamı bana bunu
+verecek geldim bu arkadaşa Burası ve
+Burası ve Burası da V Bu ikisi paralel
+direkt Ben bunu teke düşürdüğümde V olur
+bu v ile bu V seri teke düşürdüğümde 2v
+olur çiziyorum 2v'lik bir tane pilim var
+Geldim yukarıda dirençlere bu r ile bu R
+seri Burası ne olur 2 R olur bu iki r
+ile bu 2r paralel çarp 4² topla 4 R
+4r²'yi 4r'ye bölersen 1 R olur o zaman
+Burada bir tane direncim var değeri de
+bir r'dir vur yaparsak 2 ve eşittir
+şurası R olacaksa o zaman buradaki
+akımın iki ı olması lazım yani buradan 2
+ı geliyormuş gibi şimdi bu iki ı'yi
+orijinal devreye doğru yerleştirmek
+lazım nereden geliyor O adam bu iki ağı
+benim eşdeğer pilimden geliyormuş gibi
+değil mi Evet eş değer pilim komple
+burası değil mi Evet o zaman ben bu iki
+ıhıyı şuraya yazabilir burada tek bir
+pil hayalet ondan geliyor işte bu iki
+Demek ki buradan bir ı geliyor buradan
+da bir ı geliyor ki bu bir ı ile bir
+burada birleşmiş iki ı Olmuş demek ki
+buradan da iki ı geliyor bu iki ı gelmiş
+bir kısmı yukarı gitmiş bir kısmı
+aşağıya gitmiş Böylece her pilden ne
+kadar akım çekiliyor bunu anlamış olduk
+x pilinden 4ı akım geçiyor y pilinden
+ı/4 akım geçiyor Z pilinden de 2 ı akım
+geçiyor ömürler bunların tam tersleri
+X'in ömrü en kısa çünkü en çok akım
+sonra Z'nin ömrü en uzun ömürlü en az
+akımla y olacaktır Sorumun cevabı y
+büyüktür Z büyüktür x Yani b seçeneğidir
+Böylece devre analizi ile ilgili çok
+güzel sorular konuştuk lütfen soruları
+tekrar tekrar kendiniz çözmeye çalışın
+bu testi adam akıllı öğrenen bir öğrenci
+önüne gelen her devreyi çözebilir
+takıldıklarınızı alta yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

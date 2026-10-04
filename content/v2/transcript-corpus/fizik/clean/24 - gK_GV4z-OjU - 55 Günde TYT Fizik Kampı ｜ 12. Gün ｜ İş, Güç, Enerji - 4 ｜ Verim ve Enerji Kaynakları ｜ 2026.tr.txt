@@ -1,0 +1,675 @@
+geldik enerjide verim kavramına kitapta
+ufak bir değişiklik yaptım bundan önce
+canlılar ve enerji diye bir bölümümüz
+vardı fakat onu konu bütünlüğünün daha
+iyi olacağını düşündüğüm için verim
+kavramından daha sonra anlatacağım
+enerji kaynakları ile birlikte
+halledeceğiz onu biz en son dersimizde
+Mekanik enerjinin korunumunu ve güç
+kavramlarını öğrenmiştik Eğer sürtünme
+kuvveti varsa Mekanik enerjinin
+korunmayacağını enerjinin bir kısmının
+ısı enerjisine dönüşeceğini ve Aslında
+Bizim isteğimiz dışında bir olay
+gerçekleşeceğini söylemiştik İşte bu
+durum bizi verim kavramına götürüyor bir
+sistem üzerinde iş yapıyorsun o yaptığın
+iş sistemde enerji değişikliğini
+değiştirmeye yönelik arzun o yönde
+atıyorum bir cisimden bahsediyoruz Bu
+bir araba da olabilir 100 newtonluk bir
+kuvvet uyguluyorum 5 metre boyunca bunu
+ilerletiyorum Dolayısıyla bu uyguladığım
+kuvvet 500 günlük bir iş yapıyor F çarpı
+Delta x'ten iş enerjiyi değiştirdiğine
+göre duran arabayı hızlandırıyorsan bu
+şekilde istiyorum ki bu 500 Jung kinetik
+enerji kazanmış olsun sisteme yaptığım
+işin tamamı enerjiye dönüşsün Ama öyle
+olmuyor diyelim sürtünme var bu yolda
+ters tarafa doğru 3 newtonluk bir
+sürtünme kuvveti var yer değiştirme
+vektörüne ters olduğu için buradaki
+sürtünme kuvveti negatif iş yapacaktır
+sürtünmenin yaptığı işi hesaplarsam
+sürtünmenin yaptığı iş kuvvet çarpı yer
+değiştirmeden 15 jul negatif iş yaptığı
+için Eksi 15 ul diyebilirim ulaşacağım
+kinetik enerji 500 jul Bu yüzden
+olamayacak 485 rol olacak işte bu benim
+verimimi düşürücü bir faktördür 500 yıl
+iş yaptım 500 kazanmasını bekliyorum ama
+485 kazandı sebep sürtünme kuvveti Benim
+mekanik enerjimi bir kısmını ısıya
+dönüştürdü verimi azaldı gerçek hayatta
+her yerde sürtünme var ideal sistem
+gerçek hayatta yok sürtünmesi sistemi
+makinelerimizin üzerinde sağlayamıyoruz
+birbirine sürtünen aksamlar var bütün
+makinelerde Bu da ısı enerjisini açığa
+çıkması ses enerjisini açığa çıkması
+demek o makinenin amacından sapması
+demek verimi azaltması demek verim
+fiziğin birçok yerinde karşımıza çıkıyor
+Şu an ilk defa çıktı enerji konusunda
+Bunu daha fazla da dillendireceğiz diğer
+konularda alın bölü verilen demek genel
+anlamda ben sisteme ne veriyorum enerji
+olarak ya da iş olarak ve sistemden
+Karşılığında ne alıyor burada yapılan iş
+böyle harcanan enerji diye bir ifade var
+ama kafanızı karıştırmayın alınan bölüm
+verilen Bu kadar basit işte ne verdim
+Karşılığında ne aldık buradaki sayısal
+veriler üzerinden konuşursam ben bu
+sisteme ne verdim amacım kinetik enerji
+kazanması idi cismin bunun için ne
+verdim 500 juli iş yaptım amacım bu peki
+Karşılığında ne aldım 485 kinetik enerji
+aldım 500 veri 500 alsaydım verim bir
+çıkacaktı bunu yüzde cinsinden ifade
+etmek için 100 ile çarpmamız gerekirdi
+%100 verim derdi gerçek hayatta böyle
+bir olay yok %100 verimli hiçbir
+fiziksel sistem yok 485'i 500'e bölersek
+97/100 gibi bir ifade oluyor Bunu da
+yüzle çarparsam
+%97'lik bir verimden bahsediyorum şu an
+yani bu sürtünme kuvveti değeri %97'lik
+verime düşürdü benim sistemimi alınan
+bölüm verilen çok bilmek zorunda
+değilsiniz Ama örnek olarak veriyorum
+Örneğin bir araba motoru benzinli motor
+sallıyorum %40 verimle çalışıyor
+elektrikli motorlar %80 verimle
+çalışıyor Niye benzinli motor elektrik
+motora göre çok daha verimsiz Çünkü
+benzinli motorun sistemi pistonlardan
+oluşuyor pistonlar Aşağı iniyor yukarı
+çıkıyor içerideki benzinin ateşle
+yakılıp bir patlama oluşturulmasıyla
+yüksek basınç sayesinde piston yukarıya
+çıkıyor sonra o basın çok olunca tekrar
+Aşağı iniyor tekrar basınç yukarı
+çıkıyor yani burada bir piston hareketi
+var birbirine sürten metal aksamlar
+bunlar Bu da Isı enerjisi demek Bizim
+amacımız o pistona bağlı tekerleklerin
+piston hareket ettikçe tekerlek
+dönüyor ama o piston ısı enerjisinden
+dolayı sahip olması gereken enerjiden
+daha Azına sahip oluyor çünkü sürtünme
+ısı olarak bu enerjiyi bize
+kaybettiriyor dolayısıyla daha verimsiz
+bir sistem elektrikli arabalarda sistem
+biraz daha farklı olduğu için birbiriyle
+temas eden böyle piston sistemleri
+olmadığı için sürtünme daha sürtünme
+daha az olduğu için daha verimli
+sistemler diyebiliriz aynı şeyi
+lambaları için söyleyebiliriz sol
+tarafta filamanlı bir ampul var sağ
+tarafta bir led ampul var flamanlı
+ampuller %10 verimli aşağı yukarı
+çalışır Bu gerçek değerlere yakındır ne
+ampullerin verimi ise çok daha yüksektir
+%80-90 gibi değerler yazabiliriz niye bu
+kadar fark var Çünkü bunların çalışma
+prensibi farklı yani flamanlı ampul
+dediğin Şuradaki telden elektrik akımı
+geçiyor telden akımı geçtikçe direnç
+etkisiyle ısınma meydana geliyor O kadar
+çok ısınıyor ki artık Işık yaymaya
+başlıyor Yani bu zaten ısınma üzerine
+kurulmuş bir sistem O yüzden %10 verimli
+enerjinin büyük çoğunluğu ısı olarak
+kaybediliyor bu ampullere rastladıysanız
+dokunamazsınız Çalışırken o kadar ısınır
+ki eliniz yanar ampul patladığında
+soğumasını beklersin soğusun ki
+değiştireyim diye Bunlar ise bambaşka
+bir sistemle çalışıyorlar
+Isı enerjisi çok az açığa çıkıyor o
+yüzden verdiğim enerjinin çok büyük
+kısmını ışığa dönüştürebiliyorum Mesela
+bu filamanlı ampulü 100 jul elektrik
+enerjisi veriyorum ışık çıksın diye %10
+verim ne demek 10 jul ışık enerjisi
+alıyorum demek bu verilen bu alınan led
+ampule ise 100 yıl elektrik enerjisi
+veriyorum karşılığında atıyorum 80 ışık
+enerjisi alıyorum bu verilen bu alınan
+%80 verip %10 verip verim kavramını
+anladıysanız gerçek hayatta
+sürtünmelerden açığa ses çıkmasından
+Işık çıkmasından kaçamayacağımızı da
+düşünürsek sonsuz enerji kaynağı
+yapılabilir mi bunlara Devri daim
+makineleri denir kitaptan önceki
+tarihlerden beri Yüzyıllardır insanlar
+sonsuz enerji kaynağı bulmaya
+çalışıyorlar Mesela bu fotoğraftaki gibi
+buna bir ilk hareketi versek şöyle sağ
+tarafa doğru bunu döndürmeye Çalışsak
+işte Şuradaki bozuk paralar sağ tarafa
+kayar bunun ağırlığı tekerleği saat
+yönünde döndürmeye çalışır Dolayısıyla
+bu tekerlek bu tarafa doğru döndüğünde
+tekrar Şuradaki paralar sağ tarafa gider
+buraya para geldiğinde tekrar bastırır
+ve bu böyle sonsuza kadar devam eder mi
+acaba hatta bunun bir videosunda
+izleyelim Bu da bir devridaim makinesi
+bir hintlinin icadı diye biliyorum bizim
+bozuk paralarımız yerine şişelere böyle
+bir sıvı doldurulmuş ilk hareketi
+veriyoruz yani tekerleği döndürmeye
+başlıyoruz ve yukarıdaki aşağıdaki
+sıvıların hareketleriyle bir taraftan
+bastırıyor Diğer taraftan yukarıya
+çıkartıyor böyle sonsuz bir hareket
+acaba elde ediyor muyuz Hayır elde
+etmiyoruz Çünkü bu tekerleğin milinde
+sürtünme kuvveti var buradaki içerideki
+sıvının hareketini de şişeyle olan
+temasında bir sürtünme kuvveti var bu
+adam dönerken bir ses açığa çıkıyor
+Bunların hepsi bir enerji kaybı demek
+buradaki kinetik enerjiyi yani mekanik
+enerj koruyamayacaksın demek sürtünmenin
+olduğu her yerde mekanik enerji korunmaz
+zamanla azalır bu tekerlek döndükçe
+sürtünme negatif iş yapacak ve mekanik
+enerji zamanla azalacak Dolayısıyla bu
+arkadaş yeteri kadar beklerseniz en
+nihayetinde duracaktır sonsuza kadar
+devam etmesi mümkün değil veya benzer
+döngüler elektrikli arabalar içinde
+söylenir biliyorsunuz elektrikli
+arabaların pilleri var ve biz bir pili
+hareket enerjisi ile şarj edebiliriz
+ilerlerde öğreneceğiniz fizik konuları
+Bunlar çok iyi fizik bilmeyen kişiler
+der ki arabanın tekerlekleri döndükçe
+hareket enerjisi elde ediyoruz o hareket
+enerjisi pili şarj eder pil de
+tekerlekleri döndürür dolayısıyla böyle
+iç içe geçmiş birbirini tamamlayan
+sistem tekerlek döndükçe pil şarj oluyor
+pil şarjı oldukça tekerleği döndürüyor
+çok güzel bakış açısı Ama iyi niyetli
+bir yaklaşır o pil bitmeye mahkum
+sürekli şarj edemezsin sonsuza kadar
+termodinamik yasaları entropi yasası
+buna izin vermez ve her zaman pilin o
+tekerlekleri döndüreceği enerjiden daha
+fazlasına ihtiyacımız olacak kayıplardan
+dolayı maalesef dünyada sonsuz enerji
+kaynağı mümkün değil fizik yasaları buna
+izin vermiyor keşke öyle olsa Dünya çok
+daha güzel bir olabilirdi Araba
+motorlarına neden motor yağı koyuyoruz
+tam olarak verimle alakalı az önce
+konuştuk Sürtünme kuvvetini azaltmaya
+çalışıyoruz ki mekanik enerjimiz daha az
+ısıya dönüşsün daha az ısıya dönüştüğü
+için kayıp azalsın arabaya 100 birimlik
+benzin koyduğumda daha 100 birime yakın
+şeyler elde edeyim motor yağı koymazsan
+50 elde edersin motor yağı koyarsan 70
+elde edersin sayıları sallıyorum ve
+çağrışım yapsın diye söylüyorum motor
+yağı olmazsa o pistonlar zaten kırılır o
+bambaşka mevzu sadece verim konusunu
+daha iyi otursun diye söylüyorum bunu
+bir bina üzerine sabitlenmiş bir motor
+şekil 1'deki cismi çekerken motorun
+harcadığı gücün zamana bağlı değişimi
+şekil 2'deki gibi olmaktaymış cisim Bu
+süre sonunda 250 jul potansiyel ve 150
+jul kinetik enerji kazandığına göre
+motorun verimi yüzde kaçtır diye
+sorulmuş verim soruluyor verim
+soruluyorsa alınan bölü verilen yapmamız
+lazım motor bu cisme enerji veriyor ya
+da üzerinde iş yapıyor ki bu yükselsin
+mekanik enerjisi artsın motor ne vermiş
+bunu Nereden anlayacağım motorun güç
+zaman grafiğinden anlayacağım yani
+grafiğinden anlayacağım Biz grafikte ya
+alana Bakıyoruz ya eğime Bakıyoruz ya da
+grafiğin kendisini inceliyoruz burada
+alana baksam yani şu grafiğin x
+ekseniyle zaman ekseniyle arasındaki
+alana baksam p çarpı T yapmam
+gerektiğini artık öğrendiniz grafik
+okumayı biliyoruz alanlar çarparak
+bulunuyor düşey eksenle yatay ekseni
+çarparsan buradaki grafin alanları ile
+ilgili fikir sahibi olurum Dolayısıyla
+bu taralı alan p çarpı T ise bu da
+enerjiyi veriyor Neden Çünkü güç dediğim
+şey birim zamandaki enerji değişimiydi
+ya da Birim zamanda yaptığım işti bu
+grafiğin altındaki alan bana bu motorun
+bu yük üzerinde ne kadar enerji
+harcadığını ne kadar iş yaptığını
+söylüyor hesaplayalım Şuradaki küçük
+üçgenin alanından yaparsak şurası 3
+şurası 100 bu iki kenarı çarparsam 300
+olur 2'ye bölersem 150 olur yani şurası
+150 julidir buradaki dikdörtgene
+bakarsam Burası 3 düşe Eksen yine 100
+300 enerjidir Dolayısıyla bu motor bu
+sisteme toplamda 450 Jule enerji vermiş
+verilen şey 450 juli Peki Karşılığında
+ne aldık neye mal oldu bu cisim yükseldi
+hem potansiyel enerji kazanmış hem de
+kinetik enerji kazanmış ne kadar
+bunların toplamı 400 jul sistemden
+aldığım karşılık 400 cul alınan bölü
+verilen verimi verdiğine göre bunları
+sadeleştirirsek 40/45 8/9 gibi bir değer
+0.88 gibi bir şey 100 ile çarparsam
+%88'lik bir motor verimi olduğunu
+söyleyebilir %12 nerede 450 iş yapıyorum
+neden 400 elde ediyorum bunun
+karşılığında sürtünmeler aklınıza gelsin
+çıkan sesler aklınıza gelsin Yani bu yük
+yukarı doğru çıkarken belli ki hava
+sürtünmesi var verdiğim enerjinin
+yaptığım işin tamamı mekanik enerjiye
+dönüştürülemiyor veya ne bileyim
+buradaki mail dönerken Şuradaki bağlantı
+noktalarında aksamlar birbirine
+sürtünüyor Bunların hepsi enerji
+düşürücü verim kaybı noktalarıdır ve
+geldik enerjinin son kısmına tamamen
+sözel olan kısmına canlılar ve enerjiye
+bakacağız enerji kaynaklarına bakacağız
+ve enerji ünitesini konu anlatımı olarak
+bitireceğiz Biz hep böyle potansiyel
+kinetik mekanik enerji ısı enerjisi
+falan konuşuyoruz ama günlük hayatımız
+devam ettirebilmemiz için filmde günlük
+enerjiye ihtiyacımız var Yemek yememiz
+gerekiyor kimyasal enerji almamız
+gerekiyor Yani biz vücudumuza yemek
+yiyerek kimyasal enerji alıyoruz
+koştuğumuz zaman bu kinetik enerjiye
+dönüşüyor yazı yazdığımızda Elimizin
+hareketinden dolayı kinetik enerjiye
+dönüşüyor konuşurken çenemizin
+hareketinden dolayı kinetik enerjiye
+dönüşüyor bir şey yapmasak bile vücut
+fonksiyonlarımızı sürdürebilmemiz için
+bu kimyasal enerjiye besinlerden gelen
+kimyasal enerjiye ihtiyacımız var Bütün
+gün yatsak bile işte beynimizin
+çalışması için Kalbimizin çalışması için
+dokularımızın çalışması için minimum bir
+enerjiye ihtiyaç duyuyoruz Buna da Bazal
+metabolizma hızı diyoruz hani bazıları
+Derya ben yerim yerim kilo alamam çünkü
+benim metabolizmam hızlı hakikaten öyle
+bir şey var Veya ben su içsem yarar
+çünkü benim metabolizmam çok yavaş
+vücudu genel anlamda yeteri kadar enerji
+yakmıyorsa Normal bir insanın yediği
+yemekten çok daha azını yese bile daha
+fazla kilo alabilir bizim enerji
+kaynaklarımız Bu fotoğrafta
+gördükleriniz gibi ve Aslında Bazal
+metabolizmanın ne kadar büyük bir şey
+olduğunu biliyoruz Çünkü bu tabloyu
+incelediğimizde diyelim ki hamburger
+dediğimiz şey 600 60 kalori ki bu kalori
+bizim kalorimiz değil besinler için
+kullanılan kalori Aslında bizim kilo
+kalorimizin ta kendisidir bunu fiziksel
+olarak düşüneceksek 660 kalori dediyse
+size bir diyetisyen bunu fizikteki
+kalori olarak enerji birimi olan Kader
+olarak düşünmek istiyorsak
+660.000 kalori olarak düşünmeliyiz bu
+arkadaş fizikte bir enerji birimi aynı
+jul gibi bir tane hamburger yediğin
+zaman onu eritebilmek için Sanki hiç
+yememiş gibi olmak için 118 dakika
+yürümemiz gerekiyor Bir de onun yanında
+patates kızartması yedin menü aldın bir
+73 dakikada oradan yürümen lazım Bir de
+kola içtin 27 dakikada oradan yürümen
+gerekiyor Bu sadece bir öğün kahvaltı
+yaptığın Akşam yemeği yedin ya biz günde
+yediklerimizi eritmek için kilo almamak
+için 4 saat 5 saat 6 saat yürüyor muyuz
+Hayır yürümüyoruz bu enerjilerin çoğunu
+bizim Bazal metabolizma yakıyor ama ona
+güvenip de işte her gün hamburger Yersen
+tabii ki ihtiyacın olandan fazla
+enerjiyi aldığı için kilo alacaksın
+hocam Ne anlatıyorsunuz nasıl
+fizikçisiniz diyebilirsiniz ama onlar
+kazanımlarda geçiyorlardı şimdi biraz
+daha fiziğe yakın bir şey konuşalım
+enerji kaynakları günlük hayatta
+kullandığımız enerjiler yenilenemez
+enerjiler yenilenebilir yöneticiler
+yenilenebilir sürekli yenilenen
+enerjiler buradaki Enerjileri biz
+kullanıyoruz harcıyoruz yerine yenisi
+hemen geliyor mesela Güneş enerjisini
+Kullandıkça Güneş parlamaya devam ediyor
+yerine yenisi hemen geliyor ama Şuradaki
+arkadaşları kullandığımızda yenilenemez
+enerji oldukları için yerine yenisi
+gelmiyor demeyeyim ama çok uzun sürüyor
+Binlerce yıl milyonlarca yıl sürüyor bir
+kömürü elde etmek demek milyonlarca yıl
+önce yaşamış canlıların fosilleşmesi
+demek o yüzden bunlara yerini yenisi
+gelmiyormuş gibi düşünüp çok uzun
+sürdüğü için yenilenemez enerji
+kaynakları diyoruz rüzgar enerjisi
+yenilenebilir bir enerji kaynağıdır
+Neden Çünkü rüzgar estikçe ekranda
+gördüğünüz Rüzgar güllerine çarpar onu
+döndürür ve elektrik üretiriz Rüzgar
+biten bir enerji kaynağı değil dünya var
+olduğundan beri rüzgarlar var yerine
+yenisi hemen geliyor rüzgar gülüne
+çarpıyor onu döndürüyor Biz genelde bir
+şeyleri döndürdüğümüz zaman elektrik
+üretiyoruz ayt'de indüksiyon konusunu
+öğrendiğimizde niye böyle olduğunu
+anlıyorsunuz ama şu an tyt'deyiz detaya
+gerek yok bir şeyleri hareket ettirmemiz
+lazım kinetik enerjisinden elektrik
+enerjisi üretiyoruz Böylece Rüzgar bunu
+döndürüp elektrik üretmemizi sağlıyor
+veya güneş enerjisi Güneş panellerini
+görüyorsunuz Bu panellere güneş ışığı
+çarptıkça paneller sayesinde elektrik
+üretiyoruz güneş hiç bitmiyor yerine
+yenisi geliyor yenilenebilir enerji
+hidroelektrik santraller yani barajlar
+yenilenebilir enerji kaynakları olarak
+kabul edilebilir her ne kadar su
+kıtlığına doğru gidiyor olsak da suyu bu
+baraj duvarlarında bekletiyoruz
+biriktiriyoruz Aşağıda döndürülebilir
+Rüzgar türbinlerine değirmenlere
+benzeyen türbin dediğimiz şeyler var
+suyu oradan kontrollü olarak
+bıraktığımızda o değirmenimsi yapılara
+çarpıyor onu döndürüyor ve elektrik
+üretiyoruz su da yine nispeten yerine
+yenisi gelebilen bir şey olduğu için
+yenilenebilir enerji kaynağı olarak
+kabul ediyoruz jeotermal enerji
+yenilenebilir enerji kaynağıdır jeo
+Termal jeo coğrafya ile aynı geo'dan
+geliyor yerde demek Termal sıcaklık
+Yerin altındaki bu lavlara yakın
+yerlerden geçen yeraltı suları
+ısınıyorlar ve neredeyse kaynama
+noktasına ulaşıyorlar Burada gördüğünüz
+gibi resmen Toprak tütüyor yani İşte
+buradaki bu sıcak suyu buharlaştırıyoruz
+ve oradaki buharı o türbin dediğimiz
+yapılara arttırıyoruz ve onları
+döndürüyoruz elektrik için hareket
+enerjisine ihtiyacımız var o türbinlerin
+için de bu su buharlarını
+kullanıyoruz diyebiliriz jeotermal
+enerji kaynağı yeraltı sularıyla ilgili
+de bir sıkıntımız yok sayılır
+Dolayısıyla bunda yenilenebilir enerji
+kabul ediyoruz Güneş Hidroelektrik
+santral Rüzgar türbinleri jeotermal
+enerji bunların yanında yenilenebilir
+enerji kaynakları biyokütle hidrojen ve
+dalga enerjisi dalga enerjisi dediğimiz
+şey Baya bildiğin dalgaların yoğun
+olduğu denizlerde okyanuslarda oraya bir
+mekanizma kuruyorlar dalga geldikçe o
+mekanizma yukarı çıkıyor Aşağı iniyor
+Yani yine bir hareket elde ediyoruz
+hareketi elde ettiysek oradan elektrik
+üretebiliriz dalgalarda biten şeyler
+değil yerine yenisi gelen hemen şeyler
+Dolayısıyla yenilenebilir enerjiler
+hidrojen dediğimiz şey evrende en çok
+bulunan element suyun içerisindeki
+hidrojene ayrıştırırken açığa enerji
+çıkıyor bu enerjiyi kullanabiliyoruz
+hidrojen de bitmediğine göre
+yenilenebilir bir enerji kaynağı
+biyokütle adından da anlaşılabileceği
+gibi biyoloji ve kütle yani canlı
+yapıların kendilerini kullanarak
+elektrik üretiyoruz tabi Burada hemen
+aklınıza enteresan şeyler gelmesin
+Bunlar bitkiler özellikle çabuk yetişen
+her olarak da aşağı yukarı yetişebilen
+işte bir Söğüt türü okaliptüs gibi
+ağaçlara ekiyorlar ve onları alıp
+çeşitli işlemlere tabi tutarak enerji
+üretiyorlar bitki konusunda da bir
+sıkıntı yaşamadığımız için bunları
+sürekli yeniden yetiştirebildiğimiz için
+yenilenebilir enerji kaynakları sınıfına
+giriyorlar Şimdi gelelim fosil yakıtlara
+buradaki yenilenebiliri etrafınızda az
+görürsünüz yani her mahallede bir rüzgar
+gülü yok güneş enerjisi paneli pek
+göremiyorsunuz Çünkü biz daha çok
+yenilenemez enerji kaynaklarına
+başvuruyoruz bunların farklarını
+konuşacağız birazdan avantaj dezavantaj
+bunları da tanıyalım yerlerine yenileri
+çok uzun sürede gelen milyonlarca yıl
+belki işte fosil yakıtlar Kim onlar
+kömür petrol doğalgaz Bunlar milyonlarca
+yıl önce yaşamış ağaçların bitkilerin
+Hatta hayvanların canlıların
+kalıntılarının fosilleşmesi çok yüksek
+sıcaklık ve basınç altında yerin altında
+kömürleşmesi petrole dönüşmesi gibi
+olaylarla oluşuyorlar bunların oluşması
+çok uzun yıllar gerektirdiği için kömür
+Kullandıkça yerine yeni kömür gelmiyor
+Petrol Kullandıkça yerine yeni Petrol en
+azından bizim kullanım hızımızdan çok
+daha yavaş geliyor o yüzden bunlar
+yenilenemezler şu an ekranda bir termik
+santral görüyorsunuz termik santraller
+kömürü kullanarak suyu ısıtıyoruz o su
+buharıyla da aynı mantık türbinleri
+döndürüyoruz ve hareketten elektrik
+üretiyoruz gördüğünüz gibi bu termik
+santrale şu an Tonlarca kömürler
+taşınıyor bu kömürler kullanılarak suyu
+ısıtıyoruz kaynatıyoruz onu su buharını
+elde ediyoruz diyebiliriz İşte bu su
+buharı buradaki türbinleri döndürüyor
+şurada elektriği üretiyoruz hareketten
+elektrik üretiyoruz ve açığa çıkan diğer
+su buharında Şuradaki bacalardan
+gönderiyoruz termik santraller insan
+sağlığına inanılmaz zararlılar Çünkü
+kömür yakıyorsun açığa karbon monoksit
+gazı çıkıyor insan için fazla miktarına
+maruz kalmak zehirleyici bir gaz
+atmosferi kirletiyor Petrol de aynı
+şekilde yenilenemez bir enerji kaynağı
+yerin altından çıkartıyoruz her yerde
+kullanıyoruz en bilindik yerler işte
+arabalarımız sadece arabalarda değil
+fabrikalarda da çokça kullanılır Bu
+arkadaşlar da çevreye oldukça
+kirletirler Hatta arabalara böyle
+emisyon ölçümleri yapılır muayene
+zamanlarında belli değerlerin altında
+olması istenir filtreler takılır hepsi
+atmosferi korumak için ve son olarak
+Nükleer santraller Bunlar da yenilenemez
+enerji kaynakları atom çekirdeğindeki
+enerjiyi kullanıyoruz radyoaktif atom
+çekirdekleri ağır atom çekirdekleri
+mesela Uranyum onun çekirdeğindeki
+enerji ile ısı enerjisi üretiyoruz o ısı
+enerjiyle suyu ısıtıyoruz yine aynı
+mantık onu buharlaştırıp türbinleri
+döndürüp elektrik üretiyoruz yani
+elektrik üretmenin mantığı Genelde aynı
+bir şeyleri döndürmeye çalışmak bunlarda
+yine o Su buharının çıkış Bacaları Peki
+hangisini neden tercih ediyoruz zaten az
+buçuk Bununla ilgili genel kültür
+Bilginiz vardır yenilenebilir enerji
+kaynaklarını kullanalım hocam çünkü
+bunlar çevre dostu atmosferi kirletmiyor
+toprağa kirletmiyor tabloda görüyorsun
+Güneş çevrede dostu Rüzgar çevre dostu
+Jeotermal biyokütle hidrojen dalga Yani
+bunların hepsi çevre için gayet iyi Peki
+neden bunları sürekli kullanmıyoruz
+ülkeler elektriklerin Enerjileri niye
+böyle sağlamıyorlar Çünkü her yerde
+kullanamıyoruz Yani ben Rüzgar
+enerjisini Rüzgar olan yerlerde
+kullanabilirim O yüzden Türkiye'de
+genelde rüzgarın bol olduğu Kuzey Ege
+taraflarını kurulurlar her yere
+kurulmazlar bölgeye göre değişir bunun
+kurulma yerleri Jeotermal için yeraltı
+sularının bol olduğu yine iç Ege
+taraflarında bir yerde bir kaplıca var
+lafı duyuyorsanız oralarda jeot santral
+de olabilir kaplıca da yerin altından
+çıkan sıcak su Hidroelektrik santral
+bildiğiniz barajlar çevreye bir zararı
+yokmuş gibi gözüküyor az önce de öyle
+dedik ama Hatta tabloda da çevre dostu
+yazıyor Ama buna da su biriktirmek için
+Dere yataklarını değiştiriyoruz Nehir
+yataklarını değiştiriyoruz oradaki
+ekosistemi bozuyoruz bazı antik kentleri
+baraj yapacağız diye su altında
+bırakıyoruz bunların bazıları çok
+maliyetli Rüzgar türbün dediğiniz şey
+bir tanesi milyon dolarlık biyokütle çok
+maliyetli hidrojen çok maliyetli dalga
+enerjisi çok maliyetli ve karşılığında
+sana verdiği şey daha az verimsiz
+sistemler Evet çevre için çok iyi Bunlar
+yenilenebilir enerji kaynakları Ama bu
+arkadaşlar verimsiz çok pahalıya
+geliyorlar ekonomik değiller niye bütün
+dünyayı yenilenemezi kullanıyor Çünkü
+bunların maliyetleri çok az bunları Her
+yerde kullanabiliyorsun bütün dünya
+benzin kullanıyor bütün dünya Petrol
+kullanıyor taşıyabiliyorsun bunları ve
+verimliler ucuza mal ediyorsun çok
+yüksek verimlilikte enerji elde
+ediyorsun Bunların ne sıkıntısı var
+çevreye inanılmaz zararlılar atmosfere
+kirletir toprağa kirletir suyu kirletir
+ama İnsanoğlu her zaman ekonom düşündüğü
+için gidiyor fosil yakıtları tercih
+ediyor çevre kimsenin umurunda olmuyor
+gelelim çokça fırtına kopartan bir olaya
+yani nükleer enerjiye bakın nükleer
+enerji yenilenemez bir enerji kaynağı
+Çünkü atıyorum Uranyum kullanıyorsun
+uranyumda kömür gibi hatta çok daha
+Nadir kömür gibi dedenmez dünyada çok
+sınırlı yerine yenisi gelmiyor Çevre
+etkisi çok az Hatta buradaki
+yenilenebilir enerji kaynaklarının bir
+çoğundan daha az zararlıdır atmosfere
+sağladığı tek şey su buhar toprağa
+kirletmez suyu kirletmez onu kurmak için
+Dere yatağını değiştirmen gerekmez
+barajlardan çevreye daha faydalıdır
+diyebiliriz tek sıkıntısı var açığa
+çıkan bu radyoaktif atıkları depolamak
+sıkıntı çok büyük korumalık zırhlı tank
+gibi yapılarak koyup Toprağın altına
+gömüyorlar şu an diye biliyorum ama yok
+edemiyorsun orada kalıyor Nükleer
+enerjinin maliyeti çok kurulumu çok
+pahalı bir şey ama yüksek verimli enerji
+üretirsin Türkiye'de nükleer santral hiç
+yok 2 tane yapılıyor şu an inanılmaz
+dışarıya bağımlı bir ülke enerji
+açısından Fransa'da ise 200'e yakın
+yanlış bilmiyorsam nükleer santral var
+adamlar dışarıda enerji almıyorlar bütün
+enerjilerini kendileri üretiyorlar
+sadece nükleer enerjiyle E hocam o zaman
+her yere kuralım çok mantıklı çevreye
+zararı yok Çok da verimliymiş böylece
+dışa bağımlılığımız da azaltır Evet öyle
+duruyor çoğu fizikçiden nükleer enerjiyi
+savunur zaten Ama sıkıntı şu bu işin
+Piri Japonya bile nükleer santral
+patlattı 2011 fukuşima ve patlayınca
+geri dönüşü yok işte o zaman görürsün
+çevreye nasıl bir zararı var Bunlar çok
+sıkıntılı konular bu riski almaya değer
+mi İşte bu da tercih meselesi oluyor
+enerji kaynakları ile kaynaklardan
+enerjinin üretildiği Tesisler arasında
+yapılan eşleştirmelerden hangileri
+doğrudur kömürü Biz termik santralde
+kullanırız Aynen öyle termik deyince
+aklınıza termalden gelsin sıcaklık
+gelsin ama Jeotermal ile karıştırmayın
+sakın termik santral yenilenemez enerji
+olan kömürü kullandığımız bir santral
+kömürü yakıyoruz su ısıtıyoruz onun
+buharıyla elektrik üretiyoruz sıcak su
+kaynakları yerin altından çıkan sıcak su
+yenilenebilir Jeotermal santral doğru
+Petrol nükleer santral Nükleer
+santrallerde Petrol kullanmıyoruz
+Nükleer santrallerde radyoaktif atom
+çekirdeği kullanıyoruz Bu yanlış su
+Hidroelektrik santral Hidroelektrik
+santral bildiğin Has Dolayısıyla su
+biriktiriyoruz baraj duvar ve o suyu
+dökerek değirmenimsi yapılır
+döndürüyoruz ve elektrik üretiyoruz
+bitkisel atık biyokütle enerjisi aklına
+gelecek bunun Rüzgar türbülüyle herhangi
+bir alakası yok hangileri doğrudur diye
+bize sormuştu bir doğru iki doğru ve 4
+doğru geldik enerji ünitemizin konu
+anlatım kısmının son sorusuna Güneş
+paneline bağlı bir sokak lambasında
+hangi enerji dönüşümleri olduğunu
+yazınız toplam enerji her zaman korunur
+biz dönüştürürüz bu bir güneş paneli
+bunu bir Lambaya bağlamışız Güneş
+paneline dışarıdan güneşten güneş
+enerjisi geliyor güneş enerjisi ile
+ilgili size şöyle bir şey söyleyeyim
+dünyaya bir saatte gelen toplam Güneş
+enerjisini toplayabilsek bütün ülkelerin
+yaklaşık 1 yıllık enerji ihtiyacını
+karşılayabiliyoruz Yani aslında Güneş
+Bizim çıkış noktamız Bu güneş panelleri
+de ucuzladıkça belki de bütün
+evlerimizin çatıları güneş panelleri ile
+kaplanacak Akdeniz Ege'deki köy evlerini
+tepelerindeki yapılardan bahsetmiyorum
+onlar su ısıtıcısı Bunlar direkt
+elektrik üretiyorlar O da güneş enerjisi
+sınıfına girer ama biz burada güneş
+enerjisinden ne ürettik şu an elektrik
+[Müzik]

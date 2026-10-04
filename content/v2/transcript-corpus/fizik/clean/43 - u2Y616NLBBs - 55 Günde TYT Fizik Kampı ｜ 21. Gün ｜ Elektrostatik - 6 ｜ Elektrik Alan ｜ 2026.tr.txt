@@ -1,0 +1,645 @@
+Şimdi ise çok temel bir soru soracağım
+iki tane elektrikle yüklü cismin yan
+yana getirdiğinizde birbirlerini
+itiyorlar veya çekiyorlar Peki
+birbirlerinden nasıl haberdar
+oluyorlardı itiyorlar veya çekiyorlar
+Bunlar temas gerektirmeyen kuvvetler bir
+masayı tutarsın itersin temas edersin
+ama iki tane cismin birbiriyle ilgisi
+olmadan birbirlerine değmeden nasıl
+haberleşiyorlardı kuvvet uyguluyorlar
+İşte bu sorunun cevabı bizi bugün
+öğreneceğimiz elektrik alan kavramına
+götürüyor elektrik alan dediğimiz şey
+yüklü taneciklerin yüklü cisimlerin
+etrafında gözle göremediğimiz olduğunu
+düşündüğümüz bir alan sizin diyelim ki
+bir artık q yükünüz var başka bir artık
+q yükünü getirip buraya koyduğunuzda
+diyorsunuz ki Aa bunların ikisi de artı
+birbirini iter Yani bu siyah kırmızı
+yukarıya doğru itiyor Neden Çünkü sen bu
+kırmızıyı uzaklardan getirdin bizim
+siyahımızın etki alanına Soktun yani
+elektrik alanına soktu o alana giren
+yüklü her cisme bir elektriksel kuvvet
+etki eder aynı yer çekimi gibi Örneğin
+ben bu kalemi havaya fırlattığım zaman
+dünyanın yer çekimi alanında olduğu için
+yer çekimi kuvvetinden etkileniyor ve
+aşağıya düşmeye başlıyor yani Dünyanın
+etrafında bizim gözle göremediğimiz bir
+kuvvet alanı bölgesi var Eğer sen o
+alanda isen yer çekimi kuvvetine maruz
+kalırsın eğer o alanın dışındaysan yer
+çekimi kuvvetine maruz kalmaz bunun
+elektrik versiyonu bunu biraz daha
+somutlaştırmak için genelde Rüzgar
+örneği verilir yani açık denizde
+yelkenliler gidiyorlar onları iten yok
+çeken yok gözünde hiçbir şey görmüyorsun
+Ama Yelkenler şişmiş ve gidiyorlar ha
+diyebilirsin ki orada bir rüzgar alanı
+var ben gözümde görmüyorum o Rüzgar
+alanın içerisinde bir yelkenli varsa o
+alandan etkilenir ve bir kuvvete maruz
+kalır ve ilerler ama sen Rüzgar alanının
+dışına çıkarsan yelkenlerin söner ve
+kuvvete maruz kalmaz işte bunun
+elektriksel versiyonuna Biz elektrik
+alan diyoruz şu arkadaşın etrafında
+Bizim gözümüzle göremediğimiz bir etki
+alanı var bir kuvvet alanı var bu alana
+girenlere elektriksel kuvvet etki eder
+birazdan detaylarını Göreceğiz Ama
+mesela burada artık q değil de artı 2q
+olsa ne olur Bunun etrafındaki alan daha
+şiddetli olur Çünkü yük daha şiddetli
+adamın elektriksel özelliği de dahil
+altında Ben artık q'yu iken başka bir
+artıyor Bu alana girmiş olan artı q'ya F
+kuvvet etki ediyorsa elektriksel olarak
+bu adam +2q olduğunda alan daha şiddetli
+olduğu için aynı alana giren aynı artık
+q'ya bu sefer iki FF etki edecektir
+Çünkü alan şiddetlendi Çünkü o alanı
+oluşturan eleman şiddetlendi bunu insan
+aurasına da benzetebiliriz insanın
+aurası diye bir şey var günlük hayatta
+Aslında olmayan bir şey bizim
+uydurduğumuz bir şey ama biz bunu
+zihnimize şöyle somutlaştırabiliyoruz ya
+bu adamın etrafında bir Aura var o
+auraya girenler etkileniyorlar bu Aura
+çok güçlüyse çok etkileniyorlar bu Aura
+az güçlüyse az etkileniyorlar Hatta
+aurası yoksa hiç etkilenmiyorlar bu
+siyah cismin yükü sıfır olsa yani
+elektriksel olarak bir karşılığı olmasa
+bizde etrafındaki elektrik alanda sıfır
+olur Sen bunun yakınına bizim bu kırmızı
+artık yolumuzu getirsem herhangi bir
+çekme eğitimi oluşur mu Hayır hiçbir
+kuvvet oluşmaz Çünkü Nötr noktasal bir
+cisim başka bir cismi çekmeyecek
+gitmeyecek Çünkü bu nötrün etrafında
+elektrik alan yok aurası yok yani şimdi
+soyut olan bu kavramı somutlaştırmak
+adına yaptığım bütün çırpınışlardan
+sonra bilimsel mevzulara biraz geçelim
+elektrik alanın fizik kitaplarındaki tam
+tanım şudur birim yüke yani test yükünü
+etki eden elektriksel kuvvete elektrik
+alan denir cümleleri formüle dönüştürme
+huyumuz var biliyorsunuz bu taktiği de
+artık lütfen bilmiyorsanız öğrenin bu
+cümleyi Aynen formüle döküyorum test
+yüküne ki biz ona q0 diyoruz test yüküne
+düşen klong kuvvetine elektrik alan
+deniyor elektrik alanı E harfiyle
+gösteriyoruz Klon kuvveti bir vektör yük
+bir skaler vektörü skalere bölerseniz
+bir vektör elde edersiniz şuna benziyor
+diyelim ki sizin elinizde bir a vektörü
+var ben size diyorum ki bunu bir skalere
+bölün Yani bir sayıya bölün mesela ikiye
+bölün yani a/2 vektörünü çizin Sen bunun
+yarısı kadarlık yine bir vektör çizersin
+a/2 dediğinde bir skalere böldüğümde
+yine bir vektör elde ettim o yüzden
+kuvvet vektörünü yüke böldüğümde yine
+bir vektör elde ediyorum elektrik alan
+bir vektörel büyüklüktür kuvvetin birimi
+Newton yüküm birimi klompa olduğu için
+elektrik alanının birimini Newton bölü
+klong olarak yazabilir Niye bu q0'a test
+yükü diyoruz Çünkü biz
+çarpı milyon çarpı 10 tane elektron
+devasa büyük O yüzden bu yanlışı bir
+düzeltelim birim yüklemek 1 kg yüktür
+demek kesinlikle çok ciddi bir yanlış
+Çünkü bu kadar yük kendi elektrik
+alanını oluşturur ve bizim başrolümüzün
+elektrik alanını dediğim gibi Bozar
+burada tek bir elektrik alandan
+bahsetmek istiyoruz biz test yükümüzü
+buraya koyduk amacımız test etmek Neyi
+test etmek başrolümüzün etrafında nasıl
+bir elektrik alan var cümleyi okuyorum
+birim yükü etki eden elektriksel kuvvet
+birim yük kabul gereği artı işaretli
+bizim şu an başrolümüz de artı artı
+artıyı ne yaptı gitti işte bu Normalde
+Klon kuvvetidir biz buna artık test
+yükünü etki eden kuvvet olduğu için
+elektrik alan vektörü diyeceğiz elektrik
+alan cisimlerinizin etrafındaki kuvvet
+etkisidir oraya koyduğunuz cisimlere
+nasıl bir kuvvet etki edeceğini belirler
+veya sizin başrolünüz eksik çoğu ise
+buraya bir tespiti koydunuz test yükünüz
+kabul gereği artıyor işaretli eksi artı
+çeker Bu bir klom kuvvetidir ama tanım
+gereği test yüküne etki eden bilim
+ülkeye etki eden klom kuvvetine biz
+artık Ne diyeceğiz Elektrik falan
+diyeceğiz e harfi ile gösterdiğim bir
+vektör olarak düşünebilirim buradaki Efe
+burada bir formül daha var elektrik
+alanla ilgili onu türetelim şimdi
+elektrik Alan yukarıda da yazdığım gibi
+test yükü başına düşen klong kuvveti
+klong kuvvetini açalım önceki dersimizde
+öğrendik ortamın elektriksel
+geçirgenliği birinci yük ki bizim o baş
+rolümüz oluyor
+q çarpı 2 yük ki o test yükü oluyor q0 /
+aralarındaki uzaklığın karesi buraya D
+dersem D'nin karesi bölü q0 bu q0'la bu
+q0 birbirini götürürse bu başrolümüzün
+etrafında oluştuğunu Hayal ettiğimiz
+elektrik alan nelere bağlıdır ortama
+bağlıdır baş rolümüzün yüküne bağlıdır
+ve o başrolümüzün ne kadar uzağındaki
+elektrik alanı bulmak istiyorsun ona
+bağlıdır Bu da bilmeniz gereken ikinci
+formülünüzdür Az önce bunu auraya
+benzettim ya Bak burada bunu bir daha
+konuşalım Bir tane adam var bu adamın bu
+adamın karizmasına kadar fazlaysa o
+kadar çok etkilenirsin o karizmadan
+etkilenmek için de ona yakın olman lazım
+mesafe ne kadar atsa o kadar çok
+etkilenirsin o adamdan uzaklaştıkça
+eskisinden kurtuluruz bunu elektriksel
+olarak düşünürsek cismimizin yük miktarı
+ne kadar fazlaysa etrafında oluşturduğu
+elektrik alan o kadar fazladır oraya
+koyduğunuz yükler mesela test yükleri o
+kadar çok kuvvete maruz kalır veya sen o
+cisme ne kadar yakınlaşırsan test yükünü
+ne kadar yakınlara koyarsan mesafe ne
+kadar azalırsa o kadar çok kuvvete maruz
+kalırsın Çünkü yaklaştıkça elektrik alan
+şiddetleniyor 2 tane yüküm var bunların
+K noktasında oluşturduğu elektrik alan
+vektörlerini çizelim Aslında bunu
+anladığınızı düşünüyorum artık q yükü
+var K noktasında bir elektrik alan
+oluşturuyor elektrik alan bir vektör o
+vektörü nasıl çizeceğim yukarı mı aşağı
+mı sağa mı sola mı çapraz mı hemen oraya
+bir test yükü koy getirdin koydun
+küçücük artı q0'lık bir yük artı artı
+iter mi iter Dolayısıyla buraya bir Klon
+kuvveti çizdin ama test yüküne etki eden
+kuvvet olduğu için bu artık elektrik
+alan vektördür Peki ben bunu test yükünü
+şuraya koysaydım bu noktadaki bizim
+başrolümüzün elektrik alan vektörü nasıl
+çizilir ve artık q sıfırı buraya koydun
+artı artıyı böyle itecektir o zaman
+buradaki elektrik alan vektörü de bu
+yöndedir acaba bu artık q'nun şu
+noktadaki elektrik alan vektörü nasıl
+çizilir hemen getir test yükünü tam bu
+noktaya koy artık q0'ı buraya koy artı
+artı iter Dolayısıyla elektrik alan
+vektörü böyle çizilir eksi olduğunda ne
+olur K noktasını bulmak istiyorsak Eğer
+test yükünü K noktasına koyarım test
+yükü artı işaretli eksi artı çekeceği
+için oluşacak olan Klon kuvvetini çekme
+şeklinde çizersin ama birim yükü etki
+eden test yüküne etki eden kuvvet olduğu
+için bunu artık biz ne diyoruz elektrik
+alan diyoruz şöyle bir noktanın merak
+ediyorsam elektrik alanını test yükünü
+oraya koyarsam yine çekme şeklinde
+olduğu için vektörü böyle çizeriz
+mantığı anladınız Bir de simülasyonda
+görelim Burası bizim boş uzayımız hiçbir
+şey yok ben buraya artı bir Nano
+klontluk bir yük atıyorum yani klomb'un
+milyarda bir 10 üzeri -9 gördünüz mü
+etrafında böyle Oklar Çıktı işte bu
+Oklar elektrik alanı temsil ediyorlar
+Hatta okların parlaklığı sönüklüyü de o
+elektrik alanı şiddeti hakkında bilgi
+veriyor dikkat ederseniz bizim yükümüze
+yakın olan Oklar daha parlak uzaktakiler
+daha sönük Neden Çünkü elektrik alan
+dediğimiz şey ortama bağlı bizim baş
+rolümüze bağlı ki bunu artık şu diyelim
+q/10'a Ne kadar yakında olduğuna bağlı
+burada D artarsa elektrik alan azalır O
+yüzden yükümüzden uzaklaştıkça elektrik
+alan zayıflıyor bakın elektrik alanı
+konuşmak için bir tane yük yetiyor
+ikinci bir yüke gerek yok ikinci yük
+test etmek için mesela diyorsun ki acaba
+Şu noktada bu Kırmızının nasıl bir
+elektrik alanı var Hemen getiriyorsun
+oraya test yükünü koyuyorsun artık q0'ı
+koyuyorsun artı artı iter diyorsun ki şu
+yönde bir elektrik alan vardır orada
+diyorsun test yükünü buraya koyarsan bu
+yönde elektrik alan vardır diyoruz test
+yükünü şuraya koyarsan bu yönde vardır
+diyorsun test ediyorsun yani Peki artıyı
+sahneden alalım eksiye atalım eksiye
+attığımda bütün Oklar eksiyi gösteriyor
+Bunların hepsi elektrik alan
+vektörlerini temsil ediyorlar Niye Çünkü
+test yükü artı test yükünü koyduğumda -
++'yi çekeceği için bu adamın elektrik
+alan vektörleri hep eksiye doğru çizilir
+şu noktayı merak ediyorsun artık q0'ı
+buraya koyduysan eksi artıyı çekeceği
+için böyle bir elektrik alan vektörü
+olur eksiye doğru çizilir ve yine
+gördüğünüz gibi bizim baş rolümüze
+yaklaştıkça elektrik alan şiddetleniyor
+eksi artının burada bir önemi yok çünkü
+uzaktaki test yükünü az kuvvetle çekerim
+burada kuvvet etki az olur yakındaki
+test yükünü çok kuvvetle çekerim
+yaklaştıkça Klon kuvveti artar ve test
+yükünü etki eden klong kuvvetine de
+elektrik alan diyoruz işte o yüzden
+yaklaştıkça elektrik alan şiddetleniyor
+Peki eksinin yanına artıya atarsam ne
+olur Bakın Oklar biraz daha değiştiler
+vektörler biraz daha değişti sanki
+artıdan çıkıp eksiye gidiyorlarmış gibi
+oldular mesela buradaki elektrik alan
+vektörü Niye bu yönü gösteriyor Çünkü
+oraya test yükünü koyduğunda artık q 0
+koyduğunda artı artıyı şöyle itti burada
+böyle bir elektrik alan var Eksi artıyı
+şöyle çekti bu da mavinin yani eksinin
+elektrik alanı Aslında bizim buradaki bu
+beyaz okumuz bu yeşille mavinin
+bileşkesi ikisinin toplamı diyebiliriz
+ikisinin ortak etkisidir O noktadaki
+beyaz ok hepsi için bunu yapabilirsiniz
+mesela şu oku düşünelim niye böyle
+duruyor oraya test yükünü koydum artık
+q0'ı koydum artı artı'yı şöyle itti bu
+noktadaki kırmızı elektrik alanı bu eksi
++ şöyle çekti bu da buradaki Mavi'nin
+elektrik alanı ve ikisinin bileşkesi
+işte beyaz ok olacaktır şöyle bir yönden
+bahsedebiliriz niye yeşile çıktı Çünkü
+buradaki yeşil vektör yani Kırmızının
+elektrik alanı daha şiddetli Çünkü
+burası kırmızıya yakın maviye yani
+eksiye uzak elektrik alan K çarpı q/d
+karedir yükten Ne kadar uzaksan Orada
+elektrik alanın o kadar Zayıftır O
+yüzden büyük olana yakın çıkmıştır
+Şuradaki bileşke diyebiliriz yani
+Neticede yine artıdan çıkıyormuş gibi
+çiziliyorlar eksiye giriyormuş gibi
+çiziliyor bu vektörler artı q yükü
+şekildeki gibidir bu yükün kendisinden
+sırasıyla D ve 3D uzaklıktaki a ve b
+noktalarında oluşturduğu elektrik
+alanların yönü ve büyüklüğünü bulunuz
+denilmiş güzel hemen şuraya a noktasına
+önce yapalım Tabii ki artık q0 test
+yükümü koydum bu adam Artı bu adam artı
+itecektir biri yükü etki eden
+elektriksel kuvvet elektrik alanı olduğu
+için artık bu kuvvet değil elektrik alan
+vektör olarak düşünülebilir bu yöndedir
+büyüklüğünü hesaplarsam e eşittir K
+çarpı bizim başrolümüz yani şu
+q bölü ondan ne kadar uzakta elektrik
+alan bulmak istiyorum Eda kadar uzakta
+değerin karesidir ben buna e diyorum
+şimdi bakarsak test yükünü geldim B'ye
+koydum artık q0 burada artı artı itti
+şöyle bir elektrik alan vektörü bu
+elektrik alanın şiddeti Ortam aynı ortam
+baş rolümüz aynı başrol Ama bu sefer o
+baş rolümüzden 3D uzaktaki elektrik
+alanı konuşuyoruz karesi olduğu için bir
+de 9d'nin karesi olacaktır şurada bir
+kat sayıya e dediysek burada 1/9 katsayı
+olduğu için e/9 olacaktır yani Burası e
+büyüklükte bir elektrik alanken Burası
+e/9 büyüklükte bir elektrik alandır
+diyebiliriz uzaksak elektrik alan zayıf
+krom kuvveti dersimizde çözdüğümüz
+sorunun birebir aynısı Çünkü buradaki
+mantığı iyi oturtmanızı istiyorum
+elektrik alanın tam olarak ne anlama
+geldiğini anlayacaksınız bunu da
+dinlediğinizde yalıtkan bir düzlem
+üzerinde şekildeki gibi yerleştirilen X
+ve Y cisimlerini yükleri artı 5 ve -2 q
+yine 3 tane bölgem var K bölgesi L
+bölgesi M bölgesi artık q yüklü cisim
+neden M bölgesine dengede kalır
+açıklayınız biz neden M bölgesine
+konulması gerektiğini önceki dersimizde
+konuştuk demiştik ki burada artık q
+yüklü cisim var KL Hava Kuvveti dengede
+kalma durumunu açıklayan kuvvet Net
+kuvvet sıfır olmalı duruyor ve durmaya
+devam edecek birinci yük ikinci yük bölü
+bu iki yükün arasındaki uzaklığın karesi
+bu kilom kuvvetini formülü Şimdi x ve
+bizim buradaki kırmızı cismimiz
+arasındaki ilişkiye bakarsak bu Artı bu
+da artı itiyor demiştik y ve bizim
+buradaki kırmızı cismimiz arasındaki
+ilişkiye bakarsak bu eksi bu artı
+çekiyor demiştik zıt yönlüler O yüzden
+birbirlerini götürebilirler ve Y'ye daha
+yakın olduğum için birbirlerini
+götürebilirler Çünkü y'nin yükü az
+buradaki yük az olacağı için y'nin
+uygulayacağı elektriksel kuvvet de X'in
+uygulayacağına göre daha az oluyor işte
+bunu telafi etmek için uzaklığı da az
+tutuyorum o yüzden yeğenin yakınına
+koyuyorum O yüzden Kaya koymak olmadı bu
+adamın zayıflığını telafi etmemiz lazım
+güçlüden uzağa koydum zayıfın yakınına
+koydum ki dengede kalabilsin Şimdi işin
+elektrik alan boyutunu düşünelim size
+soru dünyanın bir yer çekim alanı var
+Yerçekimi alanından etkilendiği için bu
+kalem dünyaya doğru düşer Çünkü yer
+çekimi alanındaki cisimlere Yerçekimi
+kuvveti etki eder bir anda bir şey olsa
+ve Yerçekimi alanı yok Olsa kalemi
+bıraktı dünyaya düş Hayır bıraktığım
+yerde durur Çünkü artık bir alan yok
+dünyanın bir aurası kalmadı kimse Ondan
+etkilenmiyor o zaman buna hiçbir kuvvet
+etki etmez bunu elektrik versiyonu
+düşünürsek benim bir cismim var Artı 5q
+yüke sahip bunun etrafında elektrik alan
+var oraya bir şey koyduğumda çekiyor
+itiyor falan şimdi bu adam bir anda nötr
+hale gelse ne olur etrafında elektrik
+alan olmaz Dolayısıyla bunun yakında ne
+koyarsan koy hiçbir şey çekmez itmez
+noktaal bir cisim olduğunu düşünüyorum
+çünkü elektrik alan ka çarpı q/
+uzaklığın karesi nötr olduğunda
+gideceksin buraya 0 yazacaksın elektrik
+alanda sıfır olacak bu cisim burada
+kalıyorsa kıpırdamıyorsa yerinden bu
+noktada elektrik alan sıfırdır kalemi
+bıraktığımda dünyaya düşmüyorsa burada
+kalıyorsa bu noktada yer çekimi alanı
+sıfırdır Şimdi biz Kuvvetleri çizmiştik
+diyorum ki elektrik alanları çizelim
+elektrik alan vektörlerini çizelim
+elektrik alan o ortam yükün böyle o yükü
+Ne kadar uzakta oldun elektrik alan bu
+şimdi cismi falan unut Çünkü dediğim
+gibi elektrik alanda başrol vardır
+başrolde Senin buradaki X ve Y
+cisimlerin bu xsin m bölg içinde şu
+noktadaki elektrik alan vektörünü çiz
+desen dersin ki Aaa hocam buraya hemen
+bir test yükü koyalım artı artı artı
+iter şöyle sağ tarafa doğru bir elektrik
+alanı vardır Bunun ders e x diyelim
+Hatta buna K çarpı 5q bölü şu mesafe
+İşte buna da DX diyelim dx'in karesi
+ders y'nin aynı noktadaki elektrik alan
+vektörü buraya artı test yükünü
+koyduğunda eksi olduğu için kendine
+doğru çekecek bu yönde çekti Bunun
+değeri de ne olur e y diyelim buna Ortam
+aynı ortam Bu arkadaşın yükü eksi ye
+takılmıyoruz Çünkü vektörün yönünü
+çizdim zaten böyle şu uzaklığın Buna da
+dy diyelim karesidir iki elektrik alan
+zıt mı Zıt birbirini götürebilir mi
+Götürebilir ama şiddet olarak eşit
+olurlarsa götürebilirler bu mavi
+denklemle kırmızı denklem eşit olabilir
+mi Evet olabilir çünkü DX büyük dy küçük
+X'in uzaklığı y'den daha büyük X'in pay
+kısmı büyük ama şurası da büyük olduğu
+için elektrik alan yükün büyük olmasını
+telafi ediyor y'nin pay kısmı küçük ama
+şurası da küçük olduğu için elektrik
+alan payın küçük olmasını telafi ediyor
+Yani bu kırmızı e x ile mavi E'ye eşit
+olabilir bu noktada toplam elektrik alan
+sıfır olabilir elektrik alanın 0 olduğu
+bir noktaya ne koyarsan koy Hangi yükü
+koyarsan koy bizim artık q yüklü
+cismimiz dahil ne olursa olsun herhangi
+bir elektriksel kuvvete maruz kalmaz En
+azından toplam olarak net olarak
+Dolayısıyla burada dengede durabilir
+Aynı bu kalemin bıraktığımda dünyaya
+düşmeyip olduğu yerde kalabilmesine O
+noktada yer çekim alanı sıfırla
+açıklayabiliyorsam artı q yüklü cismi
+buraya koyduğumda hiçbir yere gitmeden
+şunlardan etkilenmiyormuş gibi
+durmasının sebebini buradaki toplam
+elektrik alanın sıfır olmasına
+bağlayabilir bir yerde elektrik alan
+sıfırsa orada elektriksel olarak
+üzerinde bir Net kuvvet oluşamaz Bu
+sorunun mantığını anlamanız çok
+önemliydi işin derinini anlattım altında
+yatan nedenini anlattım Yoksa bu soruyu
+şöyle sorabilirdim hangi bölgede
+elektrik alan sıfırdır ki bu sorular
+zaten böyle Sorulur ama ben bunu
+özellikle Bir önceki dersimizde
+bağdaştırarak sordum O bağlantıyı
+kurabilirseniz buradaki elektrik alanın
+0 olması ile cismin burada dengede
+durmasını birleştirebilirseniz büyük yol
+kat etmişsiniz demektir biz bu elektrik
+alan vektörlerin çizdik elektrik alan
+soyut gözümüze göremediğimiz bir şey
+diyoruz biz bunu nasıl somutlaştırırız
+elektrik alan çizgileriyle
+somutlaştırırız Bu bir modelleme Michael
+faraday'ın yaptığı bir modellemedir
+insan uydurmasıdır Yani bu çizgiler
+işimize yarar ama kusurları da vardır
+birazdan konuşacağız zaten bu çizgilere
+bakarak atıyorum Şuradaki mavi artık q
+yükünün elektrik alan hakkında yorum
+yaparsın bu çizgilere bakarak eksi yükün
+elektrik alan hakkında yorum yaparsın
+mesela ben size işaretini bilmediğiniz
+bir yük versem ve desem ki Gençler bu
+adamın elektrik alan çizgileri böyle
+yükten Dışarı çıkıyormuş gibi çiziliyor
+modelleme hemen sana der ki bu kesin
+artı yüklü bir cisim nasıl anladım Çünkü
+çizgiler çıkıyormuş gibi çizilmiş Çünkü
+artıda elektrik alan vektörleri Dışarı
+çıkıyormuş gibi çizilir sebebini
+konuştuk işte o vektörlerin toplamı gibi
+düşünün bu çizgileri vektör eksi olsaydı
+çizgiler giriyormuş gibi çizildi Çünkü
+vektörler öyle çiziliyor modelleme bu
+işe yarıyor artı ile eksi yan yana
+koyduğunda çizgiler artıdan çıkıp eksiye
+doğru çizilirler artıyla artı yan
+konulduğunda ikisinden de çıkıyormuş
+gibi çizildiği için bakın şurada böyle
+bir çatışma bölgesi oluşur Aslında bu
+modelleme artı ile eksinin yan yana
+konulduğunda birbirini niye çektiğini
+artı ile artı yan yana konulduğunda
+birbirini niye ittiğini de görsel olarak
+Açıklıyor burada sanki aralarında böyle
+bir bağ kurulmuş gibi çekme bağı Burada
+da birbirlerini itiyorlar istemiyorlar
+karşılıklı gelmişler gibi bu modellemede
+çizgilerin özellikleri neler bunları
+Bileceksiniz elektrik alan çizgileri
+pozitif yükten sonsuza Doğrudur
+sonsuzdan da negatif yüke doğru uzanır
+yani Senin buradaki elektrik alan
+çizginin nereye kadar gidiyor sonsuza
+kadar gidiyor sebep Çünkü elektrik alan
+K çarpı q bölü yükü olan uzaklığının
+karesi yükümüz bu artık q bu çizginin
+olduğu yerde elektrik alan var demektir
+yükten uzaklaştıkça elektrik alan
+zayıflar değil mi D artarsa elektrik
+alan zayıflıyor Peki elektrik alanın 0
+olması için uzaklığı ne kadar
+arttırmalıyız bunu sonsuz olarak
+düşünebiliriz uzaklığı arttırdıkça e
+küçülüyor arttırdıkça e küçülüyor
+arttırdıkça e küçülüyor uzaklığı o kadar
+arttırdım ki neredeyse sonsuz oldu işte
+elektrik alan sonsuzda sıfır olur O
+yüzden bu çizgiler elektrik alanın
+olduğunu sana söyleyen çizgiler sonsuza
+kadar gider aynı şeyin ters mantığı
+burada eksi içinde var tabii ki elektrik
+alan çizgilerinin sık olduğu yerlerde
+elektrik alan şiddetli seyrek olduğu
+yerlerde elektrik alan daha Zayıftır
+yine modellememize bakalım şimdi mesela
+buradaki artı yükün etrafında şöyle
+hayali bir çember çizsem Bir de şöyle
+hayali bir çember çizsem hangi çemberden
+geçen elektrik alan çizgileri daha yakın
+hangisi daha uzak bak şuralarda yakınlar
+değil mi Buralarda ise daha uzaklar yani
+buradakiler daha sık buradakiler Daha
+seyrek bu çizgiler elektrik alan
+hakkında bana fikir veriyordu
+sıkılaştığı yerlerde elektrik alan
+şiddetlidir yani burada 3E elektrik alan
+varsa seyrekleştiği yerlerde elektrik
+alan daha Zayıftır burada e kadar
+elektrik alan vardır mantıklı Çünkü biz
+uzaktaysak elektrik alan daha zayıf bu
+dıştaki çember Bizim yükümüze daha uzak
+formül üzerinden değil buradaki
+seyrekliğe bakarak elektrik alanın
+zayıfladığını yorumlayabilirim elektrik
+alan çizgileri birbirlerini asla
+kesmezler Neden acaba Bakın bu çizgiler
+insan uydurması dediğim gibi kurulan bu
+model çizdiğin çizgiler birbirini
+kesmemek Yani şöyle bir elektrik alan
+çizgisi çıkartıp şuradan geçiremezsin bu
+noktada kimse kesişemez Çünkü bu
+doğrudur dersen daha ciddi problemler
+ortaya çıkar ne dedim bu çizgiler
+Aslında elektrik alan vektörlerinin
+bütünü Şimdi sen burada bir yeşil nokta
+işaretledin yeşil noktadan iki tane
+elektrik alan çizgisi geçiyor Hem bu
+mavi geçiyor hem de bu siyah geçiyor bu
+mavi elektrik alan çizgisi diyor ki
+buradaki elektrik alan vektörü bu
+yöndedir siyah elektrik alan çizgisi
+diyor ki bu noktadaki elektrik alan
+vektörü bu yöndedir Hangisi doğru bir
+noktada bir tane elektrik alan vektörü
+olur tek cisimden sadece tek yükümüz var
+bunların ikisi birden olamaz bir tanesi
+olacak o yüzden kesme diye bir şey olmaz
+bu mavi çizginin hiç olmaması gerekir
+elektrik alan çizgileri simetrik bir
+şekilde 3 boyutta uzanır Bu da
+öğrencilerin genelde yanlış öğrendikleri
+bir şey Biz hep böyle kağıt üzerinde
+çalışıyoruz iki boyutta çalışıyoruz
+elektrik alan ya sağır ya soladır ya
+yukarıdadır ya aşağıdadır ya da
+çaprazlardır diye düşünüyoruz Halbuki
+gerçek hayat 3 boyutlu benim bir tane
+cismim Varsa bunun etrafındaki elektrik
+alanda 3 boyutludur yukarı olur aşağıya
+olur sağa olur sola olur size doğru olur
+bana doğru olur üçüncü boyutu da
+düşünmeliyim Ama tabi biz bunu iki
+boyutlu sayfada pek gösteremiyoruz
+gelelim dersimizin son sorusuna Aşağıda
+verilen elektrik alan modellemelerine
+bakarak cisimlerin yüklerini oranlayınız
+güzel Yeni bir şey daha öğreneceğiz a
+cismim var b cismim var elektrik alan
+çizgileri çizilmiş bir kere bunların
+işaretlerini de anlayalım Öncelikle
+A'dan çıkıyormuş gibi çizilmişler o
+zaman kesinlikle bu artı İşaretli bir
+cisimdir Çünkü elektrik alan çizgileri
+pozitiften çıkar B'ye giriyormuş gibi
+çizilmişler o zaman bu eksi İşaretli bir
+cisimdir az önce ne dedim elektrik alan
+çizgilerinin sıklaştığı yerlerde
+elektrik alan şiddetlidir bu yorumdan
+yola çıkarak şöyle diyebilirim A'dan kaç
+tane çizgi çıkartmışlar 1 2 3 4 5 6 6
+çizgi ile modellenmiş bundan çıkan
+elektrik alan B'ye kaç tane çizgi girmiş
+1 2 3 4 5 6 E buna da 6 tane girmiş O
+zaman bu adam artık q'ysa bu adam eksik
+qutur çizgi sayısına bakarak yük
+hakkında Yorum yapabilirsiniz gelelim
+buna ka'dan çıkıyor k artı işaretli l'ye
+giriyor L kesinlikle eksi işaretli l'ye
+kaç tane çizgi sokmuşlar 1 2 3 4 5 6 6
+ile orantılı buradaki yük k'da ise 1 2 3
+4 5 6 7 8 9 10 11 12 burada 12 ile
+orantılı o zaman l - q'ysa k + 2q'dur
+diyebiliriz elektrik alan K çarpı q/d
+karedir yük ne kadar fazlaysa elektrik
+alan o kadar şiddetlidir bu şiddeti
+sıklıkla Dolayısıyla sıklığı da çizgi
+sayısıyla belirleyebilirsin buradaki
+sıklıkla buradaki sıklık aynı mı Tabii
+ki değil Burada iki kat daha fazla Çünkü
+yük 2 kat fazla Kaan'ın elektrik alanını
+L tamamen karşılayamamış Çünkü oradan
+çıkanlar eksiye gidiyor Mesela k’dan bu
+çıkmış l'ye gitmiş Peki bu nereye
+gidiyor bu sonsuza gidiyor tyt için
+elektrik alan bu kadar yeterlidir bunun
+daha ötesi ayt'ye kaçar Şu an tam ideal
+yerde bırakıyoruz bu derste birlikte
+elektrostatik ünitesinin de konu
+anlatımını bitirmiş olduk ünite ile
+ilgili genel bütün soru tiplerine
+bakacağımız soru çözümlerimiz olacak
+tabii ki takıldıklarınızı alta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,471 @@
+gençler Merhaba bugünkü dersimizde
+Chrome kuvvetini öğreneceğiz şu ana
+kadar bütün elektrostatik ünitesi
+boyunca artı yükleri eksi yükleri
+öğrendik Bunlar birbirlerini iterler
+dedik çekerler dedik elektriksel bir
+kuvvetten bahsettik Fakat bu kuvvetin ne
+olduğuna ne ile değiştiğini nasıl
+arttığına nasıl azaldığını hiç bakmadık
+bugünkü dersimizde bunu öğreneceğiz
+klong dediğimiz arkadaş şu arkadaştır
+şarl agustin'de klong 1700'lü yıllarda
+yaşamıştır tipinden kılık kıyafetinden
+anlayabileceğiniz üzere ve elektrikle
+yüklenmiş iki cismin arasındaki
+elektriksel kuvveti tanımlamıştır
+elektriksel kuvveti bulan adam değildir
+ünitenin en başında söylediğim gibi
+elektrostatik Dolayısıyla elektriksel
+çekme kuvveti talesin gözlemleri
+sonucunda bulunuyor ta milattan önce 600
+yıllarda klong'un yaptığı şey şu
+arkadaşı bulmaktır iki tane elektrikle
+yüklü cisminiz var biri q1 yüklü öbürü
+q2 yüklü Bunlar D kadar uzaklıktalar
+birbirlerine aralarında oluşan kuvvetli
+bilimsel metotlarla ortaya koymuştur
+bunu ortaya koyarken kullandığı alet
+vurulma terazisi denilen buradaki
+fotoğrafta gördüğünüz şey burada iletken
+iki tane küre var bir tanesi şu gri
+renkli öbürü şöyle altın renkli olan
+diğer küre bir denge küresidir onunla
+bizim işimiz yok şu an çok gözükmeyen
+misina tarzı İncecik bir iple Bunlar
+asılmış durumdalar haltere benzeyen bu
+kısım rahatlıkla hareket edebiliyor ve
+şurada altın renginde olan şey de
+şuradan çıkabiliyor ve tekrar yerine
+takılabiliyor bu iki küre yüklendiği
+zaman haltere benzeyen yapı hareket
+etmeye başlıyor gördüğünüz gibi şurada
+sayılar var Bir ölçek var o silindirin
+üzerinde nerede durursa aralarındaki
+etkileşim kuvveti onunla orantılıdır
+diye bir mantık yapıyor biraz daha
+detaylandıralım karşınıza bir vurulma
+terazisi var halter dediğim yapının
+hareketini gördünüz silindirdeki ölçek
+ve çıkabilen diğer küremiz şimdi bu
+küreği Biz elektrikle yükleyeceğiz
+Normalde Bunlar nötrlerdi işte bir
+malzeme ile sürttüğümüz zaman elektrikle
+yüklemiş olacağız Diyelim ki biz bu
+arkadaşı eksik q ile yükledik eksik q
+ile yüklediğimiz bu küreği alıyoruz
+içeriye sokuyoruz altın renkli küremizi
+etkileştirdiğimizde açılma gözlemleniyor
+Neden Çünkü sen şu mavide -q yüklemiştin
+zaten diğer küre ile birbirlerine
+değdikleri anda bunlar yükü
+paylaşacaklar bunda başlangıçta yük
+yoktu bu nötrdü kapasitelerin eşit
+olduğunu düşünürsem diyebilirim ki eksi
+q/2 mavi de var -q / 2 bizim bu sarı
+mızda altın rengimiz de var İkisi de
+eksi oldukları için birbirlerini ittiler
+birbirlerini itince bu hal terimsi Yapı
+şurada bir açı Döndü Bu ölçekte bir
+sayıya karşılık geldi Klon bunu not
+ediyor Daha sonra o mavi küre'yi
+çıkartıyor eksi q/2 vardı aynı
+boyutlarda başka bir küreye daha
+dokunduruyor ve o küreden ötürü
+Dolayısıyla başlangıçta yeşilde bir şey
+yok bizim mavimizde Eksik q/2 vardı
+Bunlar dokunduklarında eksi q/2'yi
+paylaşacaklar kapasitlere yine aynı
+olsun Eksik q/4 -q/4 Olacak
+-q/4'lük mavi küremizi tekrar getirecek
+şu Sarı ile etkileştirecek tekrar
+getiriyor içeriye sokuyor tekrar
+etkileştiğinde yine bir açılma olacak
+Yine bir yük paylaşım olacak ama bu
+sefer öncekine göre daha az açılacak onu
+da not ediyor sonra tekrar o mavi
+çıkartıyor başka Nötr bir küreye
+dokunduruyor eksik q/8 yapıyor sonra
+tekrar dokunduruyor bunların hepsini
+ayrı ayrı not ediyor ve bütün bu
+sonuçlara Baktığı zaman bir örüntü
+görüyor bir formül çıkartıyor diyor ki 2
+tane cismin elektrikle yüklü cismin
+aralarındaki elektriksel kuvvet yüklerle
+doğru orantılı her iki cisim içinde
+aralarındaki uzaklığın karesiyle ters
+orantılı ve burada etkili olan bir şey
+daha var ortamın elektriksel
+geçirgenliği yükler ne kadar fazla ise
+aralarında oluşan elektriksel kuvvet o
+kadar fazla olur zıt İşaretliler ise
+eksi artıysa çekme kuvveti aynı
+işaretlilerse eksi eksi ya da artı artı
+itme kuvveti türü ne olursa olsun yük
+miktarı arttıkça arada oluşan Klon
+kuvveti artıyor Bu cisimler birbirlerine
+ne kadar Uzaksa kuvvet o kadar azalıyor
+etkileşim azalıyor yakınlaştıkça artıyor
+uzaklaştıkça azalıyor K dediğimiz şey de
+ortam bunun biraz daha detayına aytede
+giriyoruz burada Ona gerek yok yani biz
+bu deneyi havada mı yapıyoruz suda mı
+yapıyoruz iki cismin arasında bir
+plastik mi koyduk ya da bunları aldık
+bakım ortamında mı deneye tabi tutuyoruz
+Arada hiçbir madde yokken bakarsak ne
+olur Bunların hepsini belirleyen şey bu
+K dediğimiz cisimlerin bulunduğu ortamın
+elektriksel geçiriyor yani Klon
+kuvvetini ifadesi bundan ibarettir bu K
+sayısının yaklaşık 9 çarpı üzeri 9
+Newton metrekare bölü klom kare olarak
+söyleyebiliriz Tabii suya sokarsak bu
+cisimleri farklı bir katsayı elde ederiz
+araya yalıtkan bir malzeme koyarsak
+farklı bir katsayı elde ederiz buradaki
+birim neden Newton metrekare bölü Klon
+kare Biz burada kiyi çeksek kuvvet çarpı
+uzaklığın karesi yani Newton çarpı
+metrekare olur bölü şu yüklerde payda
+kısmına gider yükün birimi klong
+olduğuna göre iki tane yükü olduğu için
+Klon kare ifadesini elde ederiz
+hatırlarsanız doğada 4 tane temel kuvvet
+vardı 1 sırada güçlükler kuvvet vardı 2
+sırada elektromanyetik kuvvet vardı
+Mesela Klon kuvveti bayağı güçlü bir
+kuvvet Aslında bunu zaten Buradaki
+katsayıdan da anlayabiliyoruz 9 çarpı 10
+üzeri 9 muazzam bir sayı aslına
+bakarsanız onun üzeri 6 milyon demek 10
+üzeri 9 milyar demek Dolayısıyla
+elektriksel kuvvet evrendeki İkinci
+büyük kuvvettir Şimdi biz iki tane
+noktasal yük düşünüyoruz noktaal yükü ne
+demek aralarındaki de uzaklığı adamların
+kendi boyutlarına göre çok büyük demek
+Yani ben bunları küre olarak düşüneyim
+yarıçaplarına R diyeyim de çok büyüktür
+R olarak düşünebiliriz Dolayısıyla bu
+adamların boyutları aralarındaki
+uzaklığın yanında önemsiz O zaman
+bunları böyle küçük nokta gibi
+düşünebilir bunu böyle düşündüğümde Klon
+kuvveti ifadesinde aralarındaki uzaklığı
+yazmak daha kolay oluyor şimdi
+cisimlerin boyutları önemli olursa Yani
+şöyle iki tane kocaman küre aldığımı
+düşünsem İşte bu artıyla yüklü dış
+yüzeyinde böyle bir sürü artı var Öbürü
+de eksiyle yüklü dış yüzeyinde böyle bir
+sürü eksi var Bunlar birbirini
+çekiyorlar Tamam kilom kuvvetini yaz
+formülü yazacağım D'ye ne yazacağım
+buradaki hangi bir yükü alacağım burada
+kiminle eşleştireceğim şuradan Şurayı mı
+alacağım buradan burayı mı alacağım ya
+da ne bileyim buradan burayı mı alacağım
+milyon tane şey yazabiliyorum O yüzden
+krom kuvvetini lise müfredatında basit
+bir şekilde kullanmak istiyorsak artı
+derken hepsi aynı yere toplanmış artı
+gibi düşünüyorum eksi derken hepsi aynı
+yere toplanmış eksi gibi düşünürüm D
+dediğimde de bunları bir nokta gibi
+hayal ettiğim için tek bir D yazarım
+Herhangi bir problem yaşamam peki iki
+tane yüküm var biri q1 1 2 q2 bunların
+birbirini ittiğini görüyorsam kesinlikle
+bunlar aynı işaretlidir yük işaretleri
+aynıysa durum böyle olacaktır artı
+olabilir artı olabilir ya da eksi
+olabilir eksi olabilir diyelim ki bu
+arkadaş artı 5q yüke sahip bu arkadaşta
+artı q yüke sahip birincinin ikinciyi
+itme kuvveti F12 ikincinin de birinciyi
+itme kuvveti F2 bir bu iki kuvvet
+arasındaki ilişki yazarken şöyle bir şey
+yazar mıyız Hocam bu adam 5q bu adam 1q
+Yani 5q daha büyük O yüzden bu çok iter
+şuna 5f desem bu 1 q bu çok itemez hocam
+buna bir F demem gerekir Bu gösterim
+tamamen yanlıştır Neden Çünkü ben size
+desem ki ya şu f12'yi bulun yani
+birincinin ikinciyi itme kuvvetini bulun
+Ne yazacaksın diyeceksin ki ortamın
+katsayısı birinci yükümüz q1 x 2 yükümüz
+q2 / aralarındaki uzaklığın karesi bunu
+yazdık tamam diyelim ki bu 5'e olsun
+Şimdi ikincinin birinciye uyguladığı f21
+yazın desem yine Ne yazacaksın ortağım
+birincinin yükü bir ikincinin yükü q2 /
+yeni aralarındaki uzaklık bunun karesi
+Yukarıdaki 5'se Bu da 5 ev Yani bunların
+birinin büyük birinin küçük olmasının
+hiçbir önemi yok Bunlar birbirlerini
+hangi kuvvetle itiyorsa İkisi de eşit
+büyüklükte olmalı Evse ev 5 Evse Bu da
+beşe çünkü aynı zamanda Newton'un üçüncü
+yasasına giriyorlar Tabii ki etki tepki
+kuvvetine yani 1 cisim 2 cismi hangi
+kuvvete itiyorsa ikinci cisimde birinci
+cismi o kuvvet büyüklüğünde bir kuvvetle
+itmek zorunda biri etkiyse öbürü tepki
+Çünkü o yüzden şöyle bir gösterim var
+F12 ile F2 bir eşittir niye Bunun
+başında eksi işareti var çünkü burada
+vektörel gösterim var vektörlerden biri
+sağ gösteriyor öbürü solu gösteriyor zıt
+oldukları için başına eksik olmuş sadece
+büyüklüğünden bahsedeceksem işte böyle
+bir gösterim yapabilirim üzerine vektör
+işareti koymazsam bu ne anlama geliyordu
+fizik bilimine giriş sadece büyüklükten
+bahsediyoruz anlamına geliyordu İki
+kuvvetinde büyüklüğü birbirine eşittir
+iki cisim birbirini çekiyorsa Bunlar zıt
+işaretlidir biri artıdır öbürü eksidir
+ya da bu eksidir bu artıdır yine aynı
+şeyler geçerli q1 ne olursa olsun q2 ne
+olursa olsun bu iki kuvvet eşit
+büyüklükte kuvvetlerdir F12 F2 bire
+eşittir çünkü bunlar etki tepki ya da
+vektörel gösterim yapacaksak bir
+tanesinin başına zıt yönlü oldukları
+için eksi işareti koymalıyız aralarında
+değer kadar mesafe bulunan kardeş
+cisimlerin yük miktarları +4q ve -2q
+iken birbirlerine uyguladıkları
+elektriksel kuvvet F kadarmış bu
+cisimler birbirine dokundurulup
+ayrılıyorlar ve 2D mesafeye konuluyorlar
+Buna göre aralarındaki elektriksel
+kuvvet kaç F olur diye sorulmuş Şimdi
+önce birinci durumu bir yazalım iki tane
+yüküm var noktasal yük kabul ettik
+bunları D kadar mesafe var aralarında
+birincisi +4q yükle yüklenmiş ikincisi
+-2q yükle yüklenmiş zıt oldukları için
+birbirlerini çekecekler bu arkadaş sağ
+tarafa doğru bir elektriksel kuvvete
+maruz kalırken Bu da sol tarafa doğru
+bir elektriksel kuvvete maruz kalacak ve
+bunlar eşit büyüklükte bunların
+değerleri de FF kadarmış bu evi
+tanımlarsam ortama K dedik 1 yükümüz 4q
+2 yükümüz 2 q böyle aralarındaki uzaklık
+değer kadar yani burada 8 ile orantılı
+bir kuvvet geliyor 4x2'den tabii şurada
+kare olacağını unutmayacağız hocam
+Burada iki q değil -2 q yazmanız
+gerekmiyor muydu Ben şu an kuvvetin
+büyüklüğüyle ilgileniyorum yani sadece
+miktarı ile ilgileniyorum zaten burada
+vektör yönlerini göstereceğim için
+buranın sonucunun eksi ve artı çıkması
+beni ilgilendirmeyecek benim burada
+ilgilendiğim şey sadece şu 8 sayısı
+olacak peki bunları birbirine
+dokunduruyoruz Bunlar Özdeş cisimlermiş
+dokunmayla elektriklenme gerçekleşecek
+Özdeş cisimlerse yarıçapları eşit gibi
+düşünebilirim o zaman kapasiteleri aynı
+toplam yüke eşit paylaşacaklar +4 bunda
+var -2 bunda var toplam ne kadar yük var
+Artı 2q var kapasiteler eşitse Bunu
+nasıl paylaşırlar artık q + q diye
+paylaşırlar şimdi yeni durum yine iki
+tane yüküm var artık q Öbürü de artık q
+ve bunu Niye uzağa koydum Çünkü soru
+diyor ki bunları 2D mesafeye koy şimdi
+elektriksel kuvvet ne olur Ortam aynı
+ortam birinci yükümüz q oldu ikinci
+yükümüzde q oldu aralarındaki uzaklık 2D
+oldu karesini alırsam 4d'nin karesi
+olacaktır o zaman buradaki kuvvet bir
+bölü 4 sayısı ile orantılı şimdi kitap
+şuna f' demişti o zaman bu ev bölü 32
+olacaktır niye hep böyle 32 oldu hocam E
+çünkü şu 1 olsaydı 8'e F dediysem 1'e
+f/8 derdim ama bu bir değil bir de 1'in
+4'e bölünmüş
+şimdi bismilasyonda bu klom kuvvetimizi
+test edelim şöyle bir köşeye yazalım
+kuvvetimizi Klon kuvvetimiz nedir
+ortamın elektriksel geçirgenliği birinci
+yük çarpı 2 yük bölü aralarındaki
+uzaklığın karesi 2 tane yüküm var biri
+mavi biri kırmızı bir tanesi eksi 4
+mikro Klon yani klomb'un milyonda biri 4
+çarpı 10 üzeri -6 klong olarak
+düşünebilirsiniz diğeri de 8 mikro Klon
+biri -1 + olduğu için şu an Bunlar
+birbirlerini çekiyorlar aralarında da
+Şuradaki sayı ölçeğine bakarsam biri
+dörtte biri yedide 3 cm mesafe var ve
+aralarında oluşan kuvvet 319 Newton şu
+an formülüne göre yükler artarsa kuvvet
+artar İkisi birden de artabilir biri de
+artabilir örneğin -4'ü arttırıyorum eksi
+8 yapıyorum 319 kaça çıktı 639'a çıktı
+Yani yaklaşık 2 katı küsuratta olduğu
+için tam 638 değil 639 oldu formül de
+öyle diyor bunlardan bir tanesi iki
+katına çıkarsa kuvvetteki katına çıkar
+hocam ama burada eksi 4 dediniz sonra -8
+dediniz yükü arttırıyorum dediniz -8
+daha küçük bir sayı değil mi Her ne
+kadar yük skaler
+Buna dikkat Peki ikisini de aynı
+işaretli yapalım soldaki eksiydi
+sağdakinde eksiyi yapalım Bakın bu sefer
+birbirlerine itmeye başladılar İkisi de
+-8 olursa 639 n oldu Az önceki gibi ama
+bu sefer itiyorlar birbirlerini
+diyebiliriz uzaklığı da değiştirelim
+uzaklığın karesiyle ters orantılı Mesela
+şu an aralarında 3 birim var 6 birim
+yapsam kuvvet yarıya mı düşer yani
+uzaklığı iki katına çıkarsam deneyelim
+bu 7'de dursun bunu 1'e götürüyorum yani
+aralarındaki uzaklığı 6 yapacağım 639
+vardı 159'a indi yarıya düşmedi Çünkü
+karesiyle ters orantılı dörtte birine
+düşecek dörtte birine düştü 600 küsürün
+dörtte biri burada 159 Newton gördüğünüz
+gibi Peki son sorumuzda çözelim yalıtkan
+bir düzlem üzerine şekildeki gibi
+yerleştirilen X ve Y cisimlerinin
+yükleri artı 5q ve -2 qdur buna göre
+artık q -q ve -8q yüklü cisimlerin
+dengede kalabilmesi için hangi bölgelere
+yerleştirilmesi gerekir bir cismi bir
+yere koyacağım ve orada durmaya devam
+edecek duruyor ve durmaya devam edecek
+Newton ne diyor Bir cismin üzerindeki
+Net kuvvet sıfırsa duruyorsa durmaya
+devam eder hali hazırda bir hızı varsa o
+hızla yoluna devam eder Yani hareket
+durumunu korur kilit nokta üzerindeki
+Net kuvvetin sıfır olmaz tam ortaya
+koysam şuraya artık
+q yükünü koydum artı artı iter sağ
+tarafa doğru bir kuvvet olacak ve bu
+adam eksi bu adam Artı bu da çekecek x
+de y'de aynı yönde kuvvet oluşturdular
+Benim artık q yükümün üzerinde dengede
+kalabilir mi Hayır şu an bu adam sağ
+tarafa doğru hızlanmaya başlayacak Demek
+ki L bölgesine koymam olmaz Şimdi de K
+bölgesine koyalım artık q yükümüz x
+dediğim adam yine artı artı iteceği için
+sol tarafa doğru bir elektriksel kuvvet
+oluşturacak y dediğim adam - olduğu için
+benim artımı kendine doğru çekecek sağ
+tarafa doğru olacak kuvvetler zıttı oldu
+mu oldu Net kuvvet sıfır olabilir mi
+olabilir Aa hocam o zaman k bölgesi olur
+olmaz Neden olmaz çünkü şu an eksik
+düşünüyoruz kilom kuvveti dediğimiz şey
+kaç çarpı q1 q2 / uzaklığın karesi şimdi
+zaten ister X ve benim cismim düşünülsün
+ister y ve benim cismim düşünürsün her
+iki durumda da yüklerden bir tanesi
+benim cismim Yani ben şunu sildim bu
+ortak zaten define belirleyecek
+yükü ya da yeğenin yükü ve aralarındaki
+uzaklığın kares şimdi ilk zaten 5q Y'ye
+göre daha büyük bir yük miktarı var bir
+de gitmişsin adamın dibine koymuşsun
+yani Adamın hem yük miktarı fazla hem de
+aradaki mesafe az ya o zaman kilom
+kuvveti iyice büyük olacak yani x bu
+adamı 5f'le itiyorsa y bunu çok daha
+küçük bir kuvvetle Mesela bir fle
+çekebilir çünkü hem y'nin yük miktarı az
+hem de aralarındaki uzaklık fazla sonuç
+iyice küçük çıkacaktır K bölgesi de
+olmaz bizim bu adamı dışarıda bir yerde
+zayıf olanın yakınına koymamız lazım ki
+dengeleyebilelim işleri getirdim buraya
+koydum M bölgesine koydum x bunu itti
+Tamam y bunu çekti Tamam işte şimdi bu
+mavi vektörle kırmızı vektör birbirini
+götürebilir zaten zıtlar büyüklük olarak
+da eşit olabilirler Çünkü y'nin yük
+miktarı az Evet kuvvet az çıkacak ama
+mesafe de az şu kadarlık yakınlıkta
+duruyor benim cismi x büyük bir yüke
+sahip bu büyük kuvvet büyük çıkmaya
+meyilli ama mesafe de çok Dolayısıyla Bu
+da büyük bu iki durum birbirini telafi
+edebilir bu mavi ile bu kırmızı eşit
+büyüklükte olabilir bu cisim M
+bölgesinde dengede kalabilir B şıkkında
+-q diyor hocam bu sefer -q olduğu için
+herhalde ters olacak her şey M7 ile k'ya
+koyacağız Hayır yine m'ye koyacağız
+bununla cevabım m'dir Biz dengede
+durmasıyla ilgileniyoruz ne değişecek ki
+sadece kuvvet vektörlerini yönleri
+değişecek yani ben bunu l'ye koyduğum
+zaman -q olarak koyduğum zaman Normalde
+x itiyordu artıkuyu şimdi çekecek y
+çekiyordu Şimdi itecek yine l'de
+kalamayacak bak sol tarafa doğru gidecek
+artık q sağ tarafa doğru gidiyordu Bu da
+sol tarafa gidecek sadece bu değişti
+dengede kalanmayacak veya ben bu
+arkadaşı Kaya koyduğumda eksik q olarak
+x + q'yu itiyordu şimdi çekecek y + q'yu
+çekiyordu Şimdi itecek ve yine dengede
+kalamayacak Niye Çünkü sen gittin
+Güçlünün yanına koydun adam hem güçlü
+hem de mesafeyi çok az tuttum O zaman
+kuvvet devasa buradaki kırmızı vektör
+maviden büyük olacaktır dengede
+kalamayacaktır yine ben geleceğim bunu
+m'ye koyacağım eksik q yükü x bunu çekti
+1+1 eksi olduğu için y bunu İkisi de
+eksi olduğu için y'nin yük miktarı az
+ama mesafe de az Dolayısıyla bu mavi bu
+kırmızıyla başa çıkabilir dengede
+kalabilir
+-8q'luk cismi dengede tutabilmek için
+nereye koymalıyız bunun üzerine
+düşünmeye başladıysanız a ile B'de
+söylediğim şeyi hiç anlamamışsınız
+demektir Bunun cevabı da M senin oraya
+koyduğun yükün bir önemi yok o bir
+değişken değil Az önce bunu silmiştim ya
+Her Açıdan sildim hem yük miktarı olarak
+sildim hem işaret olarak sildim çünkü o
+ortak bizim buradaki başrollerimiz X ve
+Y cisimleri Senin cismin x içinde y
+içinde aynı olduğu için bir değişken
+olmuyor bizim için durumları belirleyen
+şeyler X ve y'nin ta kendileridir Yani
+ben buraya -q değil de -8 q yazsam
+farklı bir işlem mi yapacağım burada Ha
+şu kuvvetlerin büyüklükleri değişir bu
+mavi Biraz daha büyük çizmem lazım bu
+kırmızıyı da biraz daha büyük çizmem
+lazım ama yine K bölgesine koyduğunda bu
+kırmızıyı maviden daha büyük çizeceğim
+Çünkü Güçlünün yakınına koydum veya l'ye
+koyduğumda eksik q değil de -8q olarak
+bu kırmızı vektörlerin büyüklükleri
+artacak yine bizim cismimiz sola doğru
+hızlanacak niye büyüklükleri artıyor
+Çünkü 5q ile q'yu hesapladığında oluşan
+kuvvetle 5q ile 8q'yu hesapladığım
+kuvvet Tabii ki aynı olmayacaktır ama
+bizim sorumuz dengede kalma sorusu
+olduğu için Bütün şıklar aslında aynı
+şeyi soruyor diyebiliriz Evet bu
+dersimiz bu kadardı tyt Klon kuvvetine
+zaten çok bir şey yok formülü bilseniz
+Size yeter takıldıklarınızı alta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

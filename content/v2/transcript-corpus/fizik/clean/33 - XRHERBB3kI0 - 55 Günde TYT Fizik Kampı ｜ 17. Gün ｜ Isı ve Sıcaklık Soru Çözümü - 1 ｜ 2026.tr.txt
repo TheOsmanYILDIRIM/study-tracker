@@ -1,0 +1,693 @@
+gençler Merhaba
+ısı sıcaklık ünitesini iki tane soru
+çözüm testiyle bitiriyoruz yine her soru
+tipini tarayacağız ÖSYM tip soruları
+bakacağız ve bu işi halledeceğiz Hemen
+başlayalım sıcaklık ölçümlerinde
+kullanılmak üzere farklı termometre
+ölçekleri yapılmıştır Kelvin
+termometresini sıcaklıklar kselsius
+termometresini sıcaklıklar ise fahrenalt
+termometresini sıcaklıklar f ile
+gösterilmektedir bu durumda
+termometrelerde okunan sıcaklıklar
+arasında bilmem ne bağıntıları
+yazılabiliyormuş Buna göre Paris'te
+yaşayan Ela'nın cep telefonu ekranındaki
+hava sıcaklığı 50 fahrenayt dereceyi
+gösterdiği anda Amerika'da yaşayan
+Nazlı'nın aynı sıcaklıkta cep telefonu
+ekranında kaç Kelvin gösterir klasik bir
+dönüştürme sorusu ki Milli Eğitimin
+kazanımlarında zaten bu dönüştürmelerin
+yapılabilmesi isteniyor Bu bağıntılar da
+zaten bu dönüşümler üzerinde Normal
+şartlar altında bunların formülleri
+olduğunu biliyoruz O formüllerin
+matematikten kaynaklandığını oran
+orantıdan kaynaklandığını söylemiştim bu
+bağıntılarda o matematiğin biraz daha
+sadeleştirilmiş hali aslına bakarsanız
+Örneğin Kelvin neden t+273 bağlantısıyla
+veriliyor hem konuyu da hatırlamış
+olalım celsius bölü 100 eşittir Kelvin
+-273 100 olduğu için o bağıntılarda
+burada yüzler de birbirini götürdüğü
+için celsius eşittir Kelvin -273 oluyor
+-273 öbür tarafa atarsam selsius artı
+273 oluyor Biz burada celsius'u t
+harfiyle gösteriyoruz O yüzden Kafanız
+karışmasın fahrenayt ve celsius arasında
+da böyle bir bağıntı varmış O da aslında
+c/100'ün F eksi 32/180'e eşit olmasından
+kaynaklanıyor şu arkadaşların
+matematiğini kendi içlerinde yaparsanız
+böyle daha sade bir hale
+ulaşabiliyorsunuz Neyse çok önemli değil
+bizim için şimdi diyor ki Ela'nın cep
+telefonu 50 fahrenayeti gösteriyormuş
+Tamam bu bağlantıları kullanacağım Ben
+50 fahrenayt demek buradaki F yerine 50
+yazacağım demek bu 32'yi buraya atarsam
+50 - 32'den 18 çıkacak 18 eşittir bir
+nokta sekiz te de buradan on celsius
+olacaktır Yani ben şu an aslında 50
+fahrenaytı celsius'a çevirdim 10
+celcius'a eşitmiş bana Kelvin soruyor o
+zaman geleceğim Kelvin bağlantısında
+celcius yerine 10 yazacağım Böylece
+kelvin'in de 283 Kelvin olması
+gerektiğini bulacağım Dolaylı yoldan Ben
+50 fahrenayt'ın 283 Kelvin olduğunu
+bulmuş Ama hocam siz demiştiniz ki bu
+fahrenaytlar kelvinler celsius'lar hepsi
+aynı havayı ölçer sadece farklı ifade
+ederler farklı sayılarla ve birimlerle
+ifade ederler ve bunların biri
+Amerika'da biri Paris'te farklı hava
+sıcaklıklarını ölçmüyorlar mı 50
+fahrenayt nasıl 283 kelvine eşit olsun
+bunlar aynı hava değil ki zaten soru
+bulundukları havayı ölçüyor demiyor
+sonra diyor ki Paris'te yaşayan Ela'nın
+cep telefonu 50 fahrenayt gösteriyor
+Paris'in sıcaklığını nazlının aynı
+sıcaklıkta cep telefonu ekranında kaç
+Kelvin gözükür diyor Yani aslında
+Paris'in havasını Amerika'dan
+ölçüyormuşuz gibi düşünebilirsiniz ya da
+zaten aynı sıcaklık dediği için
+Amerika'da da Hava 50 fahrenayt olarak
+düşünülebilir nereden düşünürseniz
+düşünün sorumuzun cevabı 283 Kelvin Yani
+b seçeneğidir
+ısıca yaratılmış ortamda birbiri
+içerisinde homojen olarak karışabilen K
+ve L sıvılarının ilk sıcaklıkları
+sırasıyla 30 selsiyus ve 90 sel suyustur
+sıvılar karıştırıldığında denge
+sıcaklığı 50 celcius olduğuna göre
+yargılarından hangileri kesinlikle
+doğrudur şimdi ısıl denge diye bir şey
+öğrendik sıcakla soğuk yan yana
+getirildiğinde etraflarından izole bir
+şekilde sıcak olandan soğuk olanı Isı
+enerjisi transfer edildiğini biliyoruz
+90 ile 30'u yan yana getirmişim Bu
+arkadaşlar 50'de dengeye gelmişler bunun
+mantığı neydi sıcağın verdiği enerjiyi
+soğuk aldığı için
+q veren eşittir q alınandı q verilerini
+açtığımda hikayelere uygun olarak açalım
+soğuk olan K sıcak olan l o zaman sıcak
+olan enerji verici için buraya l'nin
+denklemini yazmalıyım l'nin kütlesi
+l'nin öz ısısı l'nin sıcaklığındaki
+değiş eşittir K'nın kütlesi K'nın öz
+ısısı çarpı K'nın sıcaklığındaki değişim
+Delta Çünkü sıcaklık değişimi var bu hem
+CD kullanmam gerekiyor Delta T içeriyor
+Çünkü bu Sıvıların kütlesi hakkında öz
+ısısı hakkında elimizde bilgi var mı Yok
+tek bilgi sıcaklık değişimleri K dediğim
+adam 30'dan 50'ye çıkmış yani Kaan'ın
+Deltası 20 celsius L dediğim adam da
+90'dan 50'ye düşmüş yani l'nin de
+Deltası 40 celsius hocam biri artmış
+biri azalmış birine eksi birini artı mı
+yazacağız demeyin konu anlatımında da
+bunu konuşmuştuk biz buraya Sadece
+değişim miktarını yazıyoruz eksi artı
+yazmıyoruz
+sadeleştirirsem şurası 2 olur yani iki
+tane mlcl eşittir mkck gibi bir denklem
+elde ettim işte bu benim bütün soruyu
+çözeceğim kullanacağım denklem K'nın öz
+ısısı l'den büyüktür yani ckcl'den büyük
+müdür bu denklemde Bir de kütle var
+kütle ile ilgili bilgim olmadığı için
+ckcl yorumlayamam yorumlayacağım tek bir
+şey var zaten burada kütle çarpı özısı
+neydi ısı sığasıydı Yani 2 tane büyük
+clısının Isı sahası eşittir hem KCK yani
+K sıvısının ısı sıvasını sadece bunu
+yazabilir öz ısı hakkında yorum yapamam
+kütle hakkında da yorum yapamam aynı
+mantıkta buradaki kütleri
+yorumlayabilmem için öz ısıları c'leri
+bilmem lazım denge sıcaklığının değeri
+sıvıların ilk sıcaklığına bağlıdır Evet
+bağlıdır Tabii ki Örneğin K'nın
+sıcaklığı 30 selsiyus Olmasaydı da 60
+celsius olsaydı biri 60 biri 90 yine
+Bunlar elidem buluşacaklardı Tabii ki
+hayır benim kesin olarak söyleyebildiğim
+şey bunların ısı Sahaları arasındaki
+ilişki kanun Isı sahası büyük leğenin
+Isı sahası daha küçük
+Isı sahası fazlaysa sıcaklığını
+değiştirmek zordur kanun sıcaklığını çok
+sahip olunabilen bir şey değildir ısı
+Aynen burada olduğu gibi transfer edilen
+bir şeydir konu anlatımlarında iç enerji
+ısı ve sıcaklık bu üçünün ne olduğunu ve
+aralarındaki farkı kavram yanılgılarıyla
+beraber iyi öğrenmeniz gerekiyordu Bu
+soruda bunu sorguluyor ki ÖSYM bunu
+defalarca sordu artacak olan şey iç
+enerjisidir sıcaklığı sabit kalır şimdi
+soru kökü gerçekleşebilir yani ihtimal
+soruyor Hocam bu adam Isı enerjisi
+alıyor Isı enerjisi alıyorsa sıcaklığı
+sabit kalmaz sıcaklığı artar Peki hal
+değiştiriyorsa bu madde hal
+değiştiriyorsa sıcaklığı sabit kalır ama
+hocam ona Isı enerjisi veriyoruz iç
+enerji artar dediniz iç enerji dediğiniz
+şey taneciklerin ortalama kinetik
+enerjisiyle taneciklerin biri biri
+arasındaki bağlardan dolayı oluşan
+potansiyel enerjinin toplamıydı Siz bu
+artıyor diyorsunuz Evet bu artıyor niye
+burada Kaan'ın yani kinetiğin artması
+gerektiğini düşüneyim ki potansiyel
+enerji de artıyor olabilir ki hal
+değiştirmede böyle olur hal değiştiren
+maddelerin sıcaklığı sabit Kalır Ona
+sürekli q vermenize rağmen iç enerji
+artar Dolayısıyla kinetik sabit kalır
+potansiyel arttığı için iç enerji artar
+diyebiliriz Isı enerjisi her maddenin
+sıcaklığı artar diye bir şey söz konusu
+değildir hacmi azalır sorunun yine
+olabilir köklü olduğunu vurguluyorum Her
+ihtimale düşünmelisiniz ilk akla gelenle
+hocam buna Isı enerjisi veriyoruz Isı
+enerjisi verdiğimiz için tanecikler
+birbirinden uzaklaşıyorlar yani genleşme
+dediğimiz olay oluyor yani hacmi artar
+böyle bir şey söz konusu olmaz azalma
+diye bir şey olmaz hayır olabilir Suyun
+Dolayısıyla buzun özel durumunu
+hatırlayın Buz ve su ilişkisinde bunları
+bir araya getirdiğimizde bir kapta
+bunları birleştirdiğimizde su dolu bir
+kap bunun içerisine Ben buz attığımda
+buz yüzüyordu bu da suyun özkütlesinin
+buzun Öz kütlesinden büyük olduğunu bana
+gösteriyordu ki zaten suyun özkütlesini
+yaklaşık bir kabul edersem buzun
+özkütlesi yaklaşık 0.9 kabul edilir
+Özkütle dediğim şey D = m/v yani buzu
+ısıtıyorum sıvı hale geçse öz kütlesi
+0.9'dan 1'e Çıkmış olacak maddenin
+kütlesine bir değişiklik yok ki ben
+ortama yeni molekül eklemiyorum ya da
+molekül çıkartmıyorum Özkütle nasıl
+artabilir hacmin küçülmesi ile artabilir
+yani buzu ısıttıkça hacmi küçülüyor
+Hatta bu tamamen Su haline gelse 0
+derecede Su haline gel bunu ısıtmaya
+devam etsek su iken Özkütle büyümeye
+devam ediyor hacim küçülmeye devam
+ediyor madde ve özelliklerinde
+konuştuğumuz artı 4 derece mevzusu bu 0
+dereceden artı 4 derece ısıtana kadar
+hacim küçülür Özkütle büyür zaten suyun
+özkütlesi birdir dediğimizde bu artı 4
+derecedeki suyun özkütlesidir maksimum
+Özkütle değeri +4 derecedir O yüzden
+maddeyi ısıtmamıza rağmen hacmi
+azalabilir kesinlikle genleşir diye bir
+ezberimiz yok sorumuzun cevabı D
+seçeneğidir öğretmen hal değişimi
+konusunu anlattıktan sonra tahtaya
+aşağıdaki örnekleri yazar Buna göre
+aşağıdaki ifadelerden hangisi doğrudur
+ne yazmış öğretmen bakalım tahtaya cismi
+sıcaklığı değişmeden katı halden sıvı
+hale geçmiştir yani hal değiştirmiş L
+cisminin sıcaklığı T selsiyus azalmış
+Yani bu adamı soğutuyormuşuz M gazı
+sıcaklığı değişmeden sıvı haline geçiyor
+bu da hal değiştiriyormuş gazdan sıvıya
+geçtiği için Isı enerjisi vererek hal
+değiştiriyor Yani bu adam yoğunlaşıyor
+Tamam klm cisimleri ısı almıştır Hayır
+şimdi söyledim buradaki Mac cismi gazdan
+sıvıya geçiyorsa
+ısı vermiştir çünkü soğumaya çalışıyor
+bu arkadaş sıvıdan gaz hale geçmek için
+ısı almam gerekiyor değil mi Aynen öyle
+o zaman bunun tersinde de aldığım ısıyı
+geri Vermeliyim a şıkkını m'den dolayı
+Eledim ama k ile l'yi de konuşalım K
+katıdan sıvıya geçiyor o zaman ısı
+alması lazım L sıcaklığını azaltıyor
+yani soğuyor bunun da ısı vermesi lazım
+yani l'den dolayı da aşık olmazmış
+diyebiliriz K ve m'nin ısısı değişmemiş
+cümlesinin devamını getirmiyorum K ve
+m'nin ısısı diye bir şey olmaz Tekrar
+vurguluyorum ısı sahip olunabilen bir
+şey değildir Bu cümlenin doğruluğunu
+yanlışlığını tartışmıyorum bile Çünkü
+cümlenin kendisi yanlış bu şıkkı da
+eledik kahve m'nin iç enerjisi
+değişmemiş l'nin iç enerjisi azalmıştır
+ne dedik K ısı alıyor L ısı veriyor n de
+ısı veriyor dedik Eğer ben Isı enerjisi
+alıyorsam iç enerji artıyordur fabrikaya
+mallar geliyordur Eğer ben
+Isı enerjisi veriyorsam hiç enerjim
+azalıyordur fabrikadan mallar tırlar
+tarafından götürülüyordur hal
+değiştirsem de bu böyle hal
+değiştirmesem de bu böyle kahve m'nin iç
+enerjisi değişmemiştir Diyemem çünkü
+ısı alma verme durumları var ka ısı
+aldığı için iç enerjisi artmıştır
+verdiği için iç enerjisi azalmıştır
+diyebiliriz K ısı almış L ve M ısı
+vermiştir Aynen öyle Doğru cevabımız Bu
+e'yi de okuyalım K ve L ısı vermiş M ısı
+almıştır Hayır yanlış sorumuzun cevabı D
+seçeneğidir eşit zaman aralıklarında
+eşit ısı veren bir ısı kaynağı ile
+Isıtılan sıfır celci sıcaklıktaki en
+gram kütleli katı bir cismin sıcaklık
+zaman grafiği verilmiş cismin kütlesi 2m
+yapılıp süreç tekrarlanırsa cisimle
+ilgili hangileri doğru olur bu bizim
+klasik sıcaklık ısı grafiğimiz Aslında
+hocam olur mu burada zaman yazıyor Konu
+anlatımlarında yine vurguladığım bir şey
+Eğer senin ısıtıcın eşit zaman
+aralıklarında eşit ısı veriyorsa Yani
+hep aynı ısıyı veriyorsa bir saniyede
+100 kalori 1 saniyede 100 kalori ısı
+verme gücünü arttırmıyorum azaltmıyorum
+hep aynı çalışıyor o zaman Ben buradaki
+zaman dediğim şey Isı enerjisi olarak da
+düşünebilir Çünkü sen o ısıtıcının
+saniyede 100 kalori verdiğini biliyorsan
+ve 5 saniye geçtiyse diyebilirsin ki o
+zaman 500 kalori ısı vermiştir 10 saniye
+geçtiyse 1000 kalori ısı vermiştir
+zamanla orantılı yani ısıyla zamanı
+birbiri yerine kullanabilirim değişiklik
+yapılmadan grafik Neye benziyor 0
+celsius'da M gram bir katımız var bunu
+120 saniye boyunca ısıtıyoruz yani Isı
+enerjisi veriyoruz ve sıcaklığı artıyor
+80 selsiyus'a ulaştıktan sonra
+ısıtmaya devam ediyorum 300 saniye kadar
+ama sıcaklığında bir değişim yok Bu ne
+anlama geliyor bu arkadaş burada hal
+değiştiriyor Hatta katı olduğu için
+erime olduğunu söyleyebiliriz bu hal
+değiştirmeni şu noktada 80 selsius'a
+katımız var Eridi Eridi Eridi Eridi
+artık bu noktada ne var 80 celsius'ta
+sıvımız var katı kalmadı ortada 300
+saniyeden sonra ısıtmaya devam ediyorum
+o sıvı ısınmaya başlıyor ve sıcaklığı
+artıyor diyebiliriz Şimdi ben buradaki
+kütleyi 2m yapıyorum ve süreci başa
+sarıyorum elime sıcaklığı 80 celsius'tan
+Büyük Olur mu Hayır olmaz çünkü erime
+sıcaklığı maddeler için ayırt edici bir
+özelliktir maddenin miktarından
+bağımsızdır Kocaman Bir buz dağı da
+sıfır celsius da erir elinize aldığınız
+bir gramlık buzla sıfır celsius'ta erir
+hepsi sıfır celsius'ta erir koşullar
+aynıysa O zaman en kütleli bu cisim 80
+celsius Er burada miktarı ne olursa
+olsun o 80 selsiyus'ta eriyecektir
+Diyebiliriz ama hocam yani şimdi 1
+gramlık buzla Kocaman Bir buz dağı İkisi
+de sıfır celsius'da eriyor diyorsunuz da
+hiç mi bir fark yok aralarında Tabii ki
+var bunların ikisini de aynı ısıtıcıyla
+ısıtıyorum diyelim ki başlangıç
+sıcaklıkları İkisi de eksi 50 selsiyus
+olsun -50'den bunları 0 ulaştırmaya
+çalışıyorum tabii ki şu arkadaş hemen o
+sıfır celcius'a ulaşacaktır Ama bu buz
+dağının sıfıra ulaşması uzun sürecektir
+daha fazla enerji isteyecektir Niye
+Çünkü sıcaklık değişimi varsa q MC Delta
+ister küçük buzu düşüneyim ister büyük
+buzu düşüneyim İkisi de -50'den 0'a
+gidecek yani Delta TL ortak İkisi de buz
+olduğu için c'ler ortak Öz ısılar ortak
+kütlen büyükse bu 50'lik sıcaklık
+değişimini yaşamak için daha çok
+enerjiye ihtiyaç duyarım ve enerjiyle
+Zamanla orantılıysa daha çok süreye
+ihtiyaç duyuyorum diyebilirim O yüzden
+bu sorumuzda da ka cismine sıcaklığına
+120 saniyeden daha uzun sürede ulaşıra
+doğru diyeceğiz normalde 120 saniyede
+sıfırdan 80 selsiyse yaşıyorsa erime
+sıcaklığına ulaşıyorsa Sen kütleyi
+arttırdığında bu süre uzayacak ama yine
+80 celsius de eriyecek grafiğimizin yeni
+hali sallıyorum şöyle bir şey olacak 240
+saniyede ulaşacak bu 80 celcius'a daha
+fazla zaman daha fazla enerji isteyecek
+hal değişim ısısı artar yine konu
+anlatımında vurguladığım bir şey hal
+değişim ısısıyla maddeye hal değiştirmek
+için vermem gereken enerjiyi
+karıştırmayın hal değişim ısısı
+dediğimiz şey l'den başka bir şey
+değildir l'nin tanımı da bir gram
+kütleli cismin hal değiştirmesi için ona
+verilmesi gereken ya da ondan alınması
+gereken enerjidir 100 gramsa o zaman
+bunu 100 ile çarpmalıyız yani kütle ile
+çarptığında toplam vermen gereken
+enerjiyi bulursun ki Bu da bizim zaten
+Q5 RAM ile formülümüz olur hal değişim
+ısısı ayırt edici özelliktir aynı öz ısı
+gibi aynı erime sıcaklığı gibi
+maddelerin kütlesine bağlı değildir buz
+dağının bir gramının erimesi için
+gereken enerjiyle kar topunun bir
+gramının erimesi için gereken enerji
+aynıdır Çünkü ikisi de aslında bir gram
+buzdur alındığını bir önemi yok hal
+değişim ısısı ile tam olarak bunu söyler
+ayırt edicidir sadece onun buz olması
+ile ilgilidir Dolayısıyla sen bunu 2m'de
+yapsan 100 hem de yapsan hal değişim
+ısısı sabittir değişmez şu an kafası
+karışan öğrenciler Neyi karıştırıyorlar
+hal değişim ısısını değil vermem gereken
+toplam enerjiyi düşünüyorlar L sabit
+senin kütle artarsa
+q değerini artar Yani onun hal
+değiştirmesi için gereken enerji miktarı
+artar Ama bu hal değişim ısısı demek
+değil hal değişim ısısı sadece 1 gram
+için tanımlanıyor senin madden 100
+gramsa o artık qulur iki hem kütleli
+cisim olduğunda kütlemizde iki katına
+çıkacağı için o zaman erimesi için
+tamamen erimesi için iki q'luk enerji
+gerekir Normalde tamamen erimesi 180
+saniye sürüyordu 120'den 300'e Şimdi iki
+kat daha fazla enerjiye ihtiyaç duyduğu
+için 360 saniye sürecek bu adam zaten
+240'ta erimeye başlamıştı başlangıçta
+buna bir de 360 eklersem 600 saniyeye
+kadar bunu uzatmam gerekir hal değişimi
+için şurası 600'e karşılık gelir tamamen
+sıvı hale geç sonra da gaz hali için
+şöyle bir şey çizebiliriz yani hal
+değiştirmesi için gereken enerji miktarı
+Evet arttı ama hal değişim ısısı
+sabittir sorumuzun cevabı yalnız 2B
+seçeneğidir günlük hayatta bazı olaylar
+verilmiştir Buna göre olaylardan
+hangileri maddenin ısı iletkenliği ile
+ilgilidir tam ösym'lik soru Bunlar tam
+çıkabilir sorular çığ altında kalan bir
+kişinin terlemesi konu anlatımını
+hatırlayın orada size kutuplarda
+kullanılan Eskimoların kullandığı
+iglolardan bahsetmiştim iglolar kardan
+yapılıyorlar ve ısı yalıtımı sağlıyorlar
+aslında Çünkü karların içerisinde
+boşluklar var hava boşlukları var Hava
+iyi bir yalıtkandır bizim ısı iletim
+hızımız nelere bağlıydı Delta eşittir
+iletim katsayısı malzemenin alanı
+sıcaklık değişimi bölü malzemenin
+kalınlığı çığ altında kaldığında bu
+arkadaş neden terliyor çünkü kendi vücut
+sıcaklığı var nefesinin sıcaklığı var
+bunu Çığ olarak düşünelim dışarısı -5
+derece olabilir ama içerisi vücut
+sıcaklığı ve nefesle atıyorum 35 derece
+şimdi Normalde deli bir şekilde 35'ten
+-5'e doğru Isı enerjisi kaybetmen lazım
+ortamında Böylece soğuması lazım ama
+işte buradaki kar tabakası şurası iyi
+bir yalıtkan kabul edilebileceği için
+kişi Gayette çığ altında terleyebilir bu
+35'te yaşamaya mahkum olabilir havadan
+çekilen telefon tellerindeki gerginliğin
+yaz ve kış aylarında farklı olması yaz
+aylarında teller şöyle kendilerini bir
+salarlar kış aylarında da böyle dümdüz
+olurlar sıcaklık Tellerin bu görünüşünü
+değiştirir bunun ısı iletkenlikle değil
+daha çok genleşme ile ilgisi var
+sıcaklığı artan maddelerin çoğu
+hacimlerini büyütür İşte bu hacmin
+büyümüş hali bu da hacmin küçülmüş hali
+iki nokta arasına teli gerdiğinizde ve
+otel sıcaktan dolayı uzadığında soldaki
+gibi bir görüntü olacaktır soğuktan
+dolayı büzüldüğünde de Sağdaki gibi bir
+görüntü olacaktır Dolayısıyla bu
+genleşme ile ilgilidir çok Soğuk
+havalarda Demir çubuğa değdirilen
+dilimizin yapışması bunun etkenliğiyle
+doğrudan bir bağlantısı şöyle var bir
+kere neden dilimiz yapışıyor onu
+anlamamız lazım şimdi bu Demir Çubuk
+olsun dışarısı çok soğuk -10 derece
+olsun Demir Çubuk da iyi bir ısı
+iletkeni olduğu için ortamdaki bu -10
+derece Demir çubukta iletim yoluyla her
+yere yayılacak Yani bu Demir Çubuk da
+direkt -10 derecededir diyebiliriz Sen
+şimdi buraya dilini yapıştırdığında
+güzel bir dil çizelim buraya dilinin
+üzerindeki ıslaklık yani su hızla Isı
+enerjisi kaybeder Çünkü buradaki Demir
+şahane bir iletkendir Senin dilin 37
+celsius'ta Demir Çubuk -10 selfi Usta
+dilindeki sudan bu demire doğru Isı
+enerjisi aktarılacak hızlı bir şekilde
+Dolayısıyla dilindeki su sıfırın altına
+indiği anda donmaya başlayacak İşte o
+donma olayı senin dilini O demire
+yapıştırıyor tahta bir çubuğa dilinizi
+yapıştıramazsınız Çünkü tahta Çubuk iyi
+bir iletken değil Şuradaki q aktarımı
+çok yavaş Olacak o kadar yavaş olacak ki
+sen dilini tahtaya yapıştırmaktan
+sıkılıp ayrılacaksın Gerçi bundan da
+niye keyif aldığımız bir Muamma ama
+olsun tahta çubuğa diliniz yapışmaz ama
+Demir çubuğa diliniz yapışır Çünkü Demir
+Çubuk çok iyi bir ısı iletkenidir
+dilinden hemen o enerjiyi hızlıca alır
+üçüncü öncülüm Doğrudur sorunun cevabı D
+seçeneğidir öğretmen ısı iletkenliği
+konusunda derken şekildeki gösteri
+deneyini hazırlıyormuş uzunlukları ve
+kesit alanları eşit olan bakır alüminyum
+ve Çelik çubukların sıcaklıkları eşitken
+tamamen bal mumuyla kaplandıktan sonra
+içinde kaynayan su olan kabın yan
+yüzeyini aynı hizada
+yerleştiriliyorlarmış Şimdi burada
+kaynayan bir su var Hemen bu bilgileri
+bir işleyelim diyelim ki 100 selsiyus'ta
+su var Çelik alüminyum bakırda bunlarla
+temas halinde Dolayısıyla bu 100
+selsiyus direkt bunlara temas ediyor
+gibi düşünebiliriz Ve bu çubukların her
+şeyi aynı Uzunlukları aynı kesit
+alanları aynı sadece cinsleri farklı
+bakır alüminyum ve Çelik bunları tamamen
+bal mumuyla kaplıyoruz ama bir süre
+sonra çubuklar üzerindeki bal mumlarının
+görüntüsü şekildeki gibi oluyor Ne olmuş
+bakırdaki mumun çoğu yok olmuş erimiş
+gitmiş çelikte ise çok az olmuş bu
+aslında şöyle düşünebiliriz bunu diyelim
+ki bu bakır Çelik alüminyum oda
+sıcaklığındalar 25 celsi Ustalar kaynar
+su 100 selfi Usta Dolayısıyla 100
+selsiyusten 25 celsius'a doğru
+kesinlikle bir ısı transferi olacak
+katılarda ısı transferi iletim yoluyla
+olur yani Şuradaki Isı enerjisi
+taneciklerin domino etkisiyle birbirini
+titreştire titreştire böyle sağ tarafa
+doğru ilerleyecek
+Isı enerjisi aktarıldıkça oradaki bal
+mumu da dökülüyor düşüyor eriyor gibi
+düşünebilirim O zaman bu mesafe
+bakırdaki ısı enerjisini ilerlediği
+yoldur aynı sürede alüminyumda bu kadar
+ilerleyebilmiştir Isı enerjisi
+demirdeyse en az şu kadar
+ilerleyebilmiştir bu bana sadece şunu
+söyler Bakırın ısıl iletkenliği ısı
+iletkenlik katsayısı yani kası
+alüminyumdan daha büyüktür çelikte en
+kötü iletkendir bunların arasında
+diyebilir öğretmen bu deneyde hangisini
+anlatmak istemiştir
+ısı iletkenliği maddenin cinsine bağlı
+mıdır Evet o yüzden 3 farklı cinsten
+madde kullanıyor maddenin cinsine bağlı
+olduğunu anlatmak istemiştir diyebiliriz
+maddenin uçları arasındaki sıcaklık
+farkı bunu anlatmak istemiş olabilir mi
+Hayır hepsinin bir ucu odada yeterince
+bekledilerse hepsi 25 celsius'ta diğer
+uçları Kaynar suda yüzsel süreçte Yani
+bunların uçları arasındaki sıcaklık
+farkları eşit bu deneyle bu farkı
+ölçemezsiniz maddenin kesit alanı ve
+soruda bize hepsi aynı kesit alana sahip
+demiyor muydu Evet kesit alanlara eşit
+olan diyordu Dolayısıyla bunu da test
+etmiyor sadece test ediyor diyebiliriz
+Bakın bu soruyu sakın şöyle yanlış
+düşünmeyin
+ısı iletkenliği nelere bağlıdır soru
+bunu sormuyor ısı iletkenliği Bunların
+hepsine bağlı K çarpı a çarpı Delta T
+bölü Delta x sıcaklık farkı da var kesit
+alanı da var maddenin cinsi de var ama
+bu deney Sadece biri ölçebilen bir
+deneydir sorunun cevabı bu yüzden yalnız
+birdir geldik bu testimizin son sorusuna
+ısaca yalıtılmış şekildeki k l ve M
+kaplarına aynı sıcaklıkta eşit kütleli
+su konuyormuş Tamam bunu bir Hemen
+yazalım Bunların hepsi eşit kütleli
+hepsinde M kütle var diyebilirim hepsi
+aynı sıcaklıkta Şuradaki t ile
+karışmasın diye bunların hepsinde T üssü
+sıcaklığı var diyebilirim sonra bu
+kaplara T selcius'ta eşit kütleli x y z
+metal küreler atılıyormuş Yani bunlar T
+sıcaklıktalar Bunlar da eşit kütleli
+Yani bunlara da en üstü diyelim bir süre
+sonra kabı'ndaki suyun kaynayıp bir
+kısmının buharlaştı L kabındaki suyun
+kaynadığı ancak buharlaşmadığı M
+kabındaki suyun ise kaynama noktasına
+ulaşamadığı gözleniyormuş Buna göre
+metal kürelerin CX cyz yani Öz ısıları
+arasındaki büyüklük nasıldır denilmiş bu
+sular kaynamaya falan çalıştığı için
+Belli ki bunlar ısınıyorlar yani Bu
+küreleri attığımda sıcaklıkları artıyor
+Bu t'lere T üssülere kolay düşünebilmek
+adına sayı verebilirim T üssüler 80
+selsiyus olsun kürelerin sıcaklıkları da
+daha fazla olmalı onları yüze
+çıkartabilmeli atıyorum bunlarda 110
+selsiyus olsun Şimdi bu soruyu en kolay
+o klasik grafiğimizi düşünerek
+çözebiliriz o grafiğimiz de çizelim ne
+grafiği bu sıcaklık Isı enerjisi grafiği
+buradaki sıvıların grafiğini çiziyoruz
+sıvıları ısıtıyoruz şurada kaynamaya
+başlıyor yani gaz haline geçmeye
+başlıyor yani hal değiştirmeye Başlıyor
+sonra gaz olup ısınmaya devam ediyor
+soruda tarif edilen yerleri bu grafikte
+işaretleyeceğim ka kabındaki su kaynamış
+ve bir kısmı buharlaşmış Tamamı değil
+bir kısmı yani K kabındaki su bu
+grafikte şuralarda bir yerlerde kaynama
+noktasına ulaşmış 100 dereceye ulaşmış
+enerji almaya devam etmiş gaz haline
+geçmiş geçmiş ama tamamen de geçememiş o
+kadar enerji almamış ancak bir kısmı gaz
+haline geçmiş şuraya kadar gelebilseydi
+sıvı tamamen bitmiş Her şey tamamen
+dönüşmüş olurdu ama o kadar olmamış L
+kabındaki suyun kaynadığı ancak
+buharlaşmadı keşke bunu daha iyi ifade
+etseydik Ama şunu kastediyor L kabındaki
+sıvı tam olarak şurada hal değiştirmeye
+hazır yüz selciouse geldi ama daha gaz
+haline geçmedi şu an benim elimde 100
+selsiyus'ta sıvı var Bir tık daha enerji
+verebilseydik Bu da gaz haline geçmeye
+başlayacaktı ama buharlaşma olmamış M
+kabındaki suyun kaynama noktasına
+ulaşamadığı gözlemleniyor Yani bu adam
+yüz selci olsa bile gelememiş M
+şuralarda bir yerlerdedir diyebiliriz bu
+adamlara bu Enerjileri kim verdi küreler
+Verdi kürelerin verdiği enerjiyi bu
+sular aldı q alınan eşittir q verilen
+küre enerji verdi O enerjiyi de sular
+aldı sıvılar aldı kürenin verdiği
+enerjiyi MC Delta TL düşünebilirim
+sıvıların Aldığını da Mc Delta T olarak
+düşünebilir şunlar sıvıları temsil
+ediyor Şimdi başlangıçta k'da l'de nd şu
+sıcaklıkta bir yerlerde olsunlar 80
+celsius demişim çok aşağıda oldu ama çok
+önemli değil buralara 80 diyelim mesela
+buraya gelmek için şu kadarlık bir ısı
+enerjisi almış sıcaklığını 8 üzerinden
+işte kaynayamadığı için diyelim ki 90'a
+çıkartmış kim verdi bu enerjiyi Tabii ki
+m'nin içine attığımız Z Küresi verdi l
+ne yaptı L buraya kadar çıktığına göre
+yine 80'den şu kadarlık Isı enerjisi
+almış Yani daha çok ısı enerjisi almış
+kim verdi y verdi k'ya bakarsak O ne
+yapmış K dediğim adam buralara gelmiş bu
+arkadaş şu kadarlık Isı enerjisi almış
+En fazla enerjiyi bu K almış kim verdi x
+püresi verdi 3 kürenin de kütlesi eşit O
+zaman burada verilen enerjiyi belirleyen
+şey öz ısı olabilir öz ısı büyükse daha
+fazla enerji vermiş olabilirsin en çok
+enerjiyi x Küresi verdiği için X'in öz
+ısısı en büyüktür sonra ye sonra Z
+diyebiliriz sorumuzun cevabı a
+seçeneğidir hocam Delta t'ye bakmadınız
+Delta T burada niye düşünülmedi onu da
+düşünmemiz gerekmiyor mu çok haklı bir
+soru ama işi çok sayısal Yapmak
+istemediğim için sayısala dökmek
+istemediğim için böyle daha mantıksal
+açıklamaya çalıştım ama bunu merak
+edenler için de Delta t'yi de konuşalım
+tabii ki ben ne dedim bu kürelerin
+sıcaklıkları 110 olsun dedim şimdi
+kahvele 100 derecede işi noktalamışlar
+yani Yüzde dengeye gelmişler K ve l'de X
+ve Y küreleri var 110'dan 100'e inmişler
+Yani onların Delta t'sine Ben 10
+yazacağım m'de ise 90'da dengeye gelme
+durumu var m'ye attığım Z Küresi
+110'daydı 90'a gelmiş yani onun Delta
+t'sini 20 yazacağım E ben buranın komple
+büyük olmasından bahsediyorsam ki m'ler
+eşit X küresinin ve Y küresinin Delta
+t'leri eşit İkisinde de 10 var x Küresi
+daha çok enerji verdiği için demek ki
+X'in c'si daha büyüktür diyebiliriz
+Çünkü onların Delta t'leri eşit Z
+küresine bakıyorum adamın hem toplam
+verdiği enerji küçük kalıyor Burası
+küçük çıkacak hem de Delta t'si büyük
+çıkıyor E o zaman C'nin iyice küçük
+olması lazım Çünkü toplamı küçük çıksın
+Delta t'yi de böyle düşünebiliriz
+sorusunun cevabı Aşık Böylece birinci
+testimizi bitirmiş oluyoruz video çok
+uzamasın diye İkinci testimizi diğer
+videoda halledeceğiz takıldıktan azaltta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

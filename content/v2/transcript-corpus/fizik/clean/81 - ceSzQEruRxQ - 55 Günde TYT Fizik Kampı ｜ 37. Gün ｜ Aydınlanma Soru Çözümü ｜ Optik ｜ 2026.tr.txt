@@ -1,0 +1,694 @@
+ışık akısı ışık şiddeti ve aydınlanma
+şiddeti kavramlarını detaylıca öğrendik
+zihnimize somutlaştırdık çoğu soru
+tipine de baktık aslında ama daha
+fazlasından zarar gelmez
+öğrendiklerimizi pekiştirelim Işık
+şiddeti ı olan noktasal ışık kaynağı
+şekildeki gibi eşit bölmeli düzlemde
+bulunan ortak merkezli K çeyrek Küresi
+ile L yarım küresinin merkezindedir K ve
+L kürelerindeki toplam Işık kakaları FK
+ve fiili arasındaki ilişkiyi soruyor
+bana şimdi konu anlatımında bir uyarı
+yapmıştım iki boyutlu Hayal etmeyin 3
+boyutlu hayal edin demiştim şöyle bir
+çember çizip ortasına kaynağı
+yerleştirip tamamına fiil akı var dersem
+60 derece gören kısmına Fi bölü altı var
+diyemem 120 derece gören kısmına şuraya
+60 derecenin iki katıdır diyemem
+bunların ayrı matematiği var ayrı
+hesaplaması var ve buradaki 120 dediğim
+gibi 60'ın 2 katı çıkmıyor akı olarak
+sadece belli başlı açıları yapabiliriz
+biz onlar bize sorulabilir Onlarda tam
+küre yarım küre çeyrek küre burada oran
+yapabilirsiniz tam kürede Fi varsa yarım
+kürede Fi / 2 vardır çeyrek kürede 4
+vardır Işık şiddeti iki küre içinde aynı
+bu etrafında bir akı var buradaki akı 20
+tane ışınla temsil ediliyoruz L yarım
+Küresi tam olsaydı bu 20'nin tamamını
+alırdı yarısı yoksa o zaman Yarısını
+alır L yarım küresinde Bundan 10 tane
+bulunur 20'nin tamamına Fi akı dediysem
+10 tane Fi bölü 2 olacaktır L küresinde
+bu var K Küresi tam bir küre olsaydı
+bundan çıkan 20 ışının tamamını toplamış
+olurdu ama bu arkadaş çeyrek bir küre bu
+yirminin dörtte birini toplayabilir bu
+20 ışından 5 tanesi bunun üzerine düşer
+20'ye Fi akadem 5 tanesi bunun dörtte
+biridir f/4 akıdır diyebiliriz Hocam bu
+adam daha büyük alana sahip buradaki
+l'ye göre nasıl daha az akı toplayabilir
+konu anlatımında bolca bunu vurguladık
+çizimle de gösterdim ama tekrar
+çizebiliriz bu 20'yi temsilen birkaç
+tane Işın çiziyorum şöyle ışınlar çizmiş
+olayım sol tarafta da simetri var
+bunların tabii külesine de ulaşan
+versiyonlarını çiziyorum şöyle bir tane
+arada çizmeliyim şöyle arada çizmeliyim
+şunu çizmeliyim bakın sağ tarafta ne
+çizdiysem sol tarafta da aynılarını
+devamını çizdim gibi oldu yani sağ
+tarafta fotoğraf simetrik k'ya düşenlere
+bakın l'ye düşenlere bakın hangisi çok
+l'ye düşen daha çok l'ye fi/2k'ya fiil/4
+dedik O yüzden ama Hocam ben Saydım
+burada 1 2 3 tane var burada 1 2 3 4 5
+tane var 6 tane olması gerekmiyor muydu
+bunu tekrar açıklamayacağım konu
+anlatımında yeterince açıkladım bu
+modellemenin kusurlarından biri o Işın
+saymayacaksınız zaten bu kusurdan
+kurtulmak için mümkün olduğu kadar çok
+Işın çizmeniz lazım ki o 1'e 2 oranı
+tutturun Işın saymak yerine hayal edin
+tam bir küre yüz topluyorsa çeyreği 25
+yarısı 50 gibi dolayısıyla
+k'da bir birim akı varsa lde iki birim
+akı var Sorumun cevabı C seçeneğidir
+şiddetleri şekil 1'deki gibi modellenen
+XZ noktası ışık kaynakları kapalı
+kabukların içine şekil 2'deki gibi
+yerleştiriliyorlar Buna göre kabukların
+İç yüzeyine düşen toplam Işık akıları
+arasındaki ilişki nasıldır denilmiş
+enteresan konu anlatımı hep küre
+üzerinden gittik küre olmak zorunda da
+değil gördünüz mü burada abidik gubidik
+şekillerde var bakın 3 tane ışınla
+modellenmiş 6 tane ışınla modellenmiş 4
+tane ışınla modellenmiş O zaman şunu
+diyebilir miyiz y'nin etrafındaki bir
+ışık akısı büyüktür Z'nin oluşturduğu
+Işık akısı O da büyüktür X'in
+oluşturduğu Işık akısı diyebiliriz Çünkü
+bu model etrafına yaydığı ışık enerjisi
+ile ilgili etrafına yaydığı ışık
+enerjisi de akıyla ilgili ya da Fi
+eşittir 4pı'dan düşünüp fiil ile ilgili
+dediğim her şeyin Işık şiddeti içinde
+geçerli olacağını söyleyebilirim Bu
+kaynakların Işık şiddetlerinin
+sıralaması da aynı böyle olacaktır Şimdi
+ben x'i buraya koydum kürenin merkezine
+de koymadım önemli değil bu ışınların
+aynısını çizersem 1 2 3 bu yüzeye kaç
+tane Işın düştü 3 tane düştü y'yi koydum
+yukarıdakilerin aynısını buraya
+yerleştiriyorum yukarı var Bunun tam
+altında bir tane var şöyle çapraz var
+İki tane şöyle çapraz var İki tane bu
+silindirin iç yüzeyine kaç tane düştü
+Yukarıdaki gibi 6 tane düştü Z'ye
+bakıyorum aynısını çiziyorum Işık
+akısını temsilen 4 tane Işın çiziyorum o
+zaman bu tuhaf şeklin içinde de 4
+ışından dolayı onun orantılı bir akı var
+şeklin kürü olması şart değil ki böyle
+olması hiçbir şey değiştirmez ki 4 tane
+Işın düştü küre olsaydı da 4 tane
+düşecekti küp olsaydı 4 tane düşecekti
+Böyle olunca da 4 tane düştü Dolayısıyla
+Bu kabukların iç yüzeyindeki Afrika
+kıtaları bu sayılarla orantılı olduğuna
+göre y büyüktür z o da büyüktür x
+Sorumun cevabı B seçeneğidir Çünkü Işık
+akısı Bu kaynaklardan çıkan enerji sen o
+kaynakları çepeçevre sararsan nasıl
+sardın önemli değil hiçbirini
+kaçırmayacak şekilde çevrelersen hepsini
+toplarsın üçün tamamı toplarsın altının
+tamamını toplarsın dördün tamamını
+toplarsın şeklin bir önemi yok
+kaynaklarda çok göremediğimiz ama günlük
+hayatta doğrudan bağlantılı konu
+anlatımını da özellikle vurguladığım bir
+şeyin soru versiyonu bir lambanın Işık
+verimi prizden aldığı elektrik gücünü ne
+kadar verimli ışığa dönüştürdüğü ile
+ilgilidir hatırlayın ışık akısı ışık
+şiddetinde bunları konuşmuştuk lümenin
+ne olduğunu anlatmaya çalışırken Yapı
+marketlerde ampul satın aldığınızda
+üzerinde lümen yazar lümen açığa çıkan
+ışık enerjisi ile alakalı parlaklıkta da
+bunu What olarak düşünmüştük
+lambanın gücü artarsa parlaklığı artar
+demiştik vata bakmıştık doğru What
+artarsa lambanın gücü artarsa daha çok
+elektrik enerjisi kullanıyordur daha çok
+ışığa dönüştürüyordur ama her lamba aynı
+miktarda dönüştürmek zorunda değil işte
+ışığa dönüşen enerji lümen çok ışığa
+dönüştürüyorsan Muhtemelen çok elektrik
+harcıyorsundur O yüzden watt'ın
+yüksektir bu Batı lümene dönüştürürken
+işin içine verim kavramı giriyor lümen
+bölü watt bir lambanın verimidir ne
+kadar az elektrikle ne kadar çok ışık
+üretiyorsan o kadar verimli bir ampulsün
+demektir O yüzden konu anlatımına da
+vurguladığım gibi ampul seçerken watt'ın
+mümkün olduğu kadar küçük lümeni mümkün
+olduğu kadar büyük olmasına dikkat
+edeceğiz bakın Akkor ampul var 1500
+lümen üretiyor 100 wattlık elektrik
+harcıyor led ampul var 1200 lümen
+üretiyor Yani aslında Akkor ampule göre
+daha az Işık veriyor etrafında Birim
+zamanda ama bunu 10 watt ile yapıyor
+buradaki verim 1500 bölü 100'den 15
+sayısı ile orantılıyken buradaki verim
+1.200/10'dan 120 sayısı ile orantılı
+gördüğünüz gibi led ampul çok daha
+verimli bir arkadaş Dilhan bir yapı
+marketten evindeki bazı odalar için
+lamba satın almak istiyormuş seçenekler
+arasından bir Akkor lamba ve bir LED
+lamba ambalajları incelediğinde
+şekildeki değerleri görüyormuş hangileri
+kesinlikle doğrudur Akkor Lambayı tercih
+ederse daha fazla ışık akısı elde eder
+evet 1500 lümen var ledte 1200 lümen var
+Kesinlikle daha fazla elde edecektir
+Akkor lambada odayı daha iyi
+aydınlatacaktır yani LED lambayı tercih
+ederse daha verimli olanı tercih etmiş
+olur Evet burada 120 sayısıyla
+orantılıyız burada 15 ile orantılıyız bu
+da doğrudur Akkor Lambayı tercih ederse
+daha fazla aydınlanma elde eder Evet
+hocam az önce Öyle dediniz tek oda
+içinse evet aydınlatacağı o da sabitse
+Evet dilhan'ın iki tane odası olsun iki
+tanesi küçük bir oda Olsun bir tanesi
+daha büyük bir oda olsun aydınlanmadan
+kastımız Tabii ki aydınlanma şiddeti
+aydınlanma şiddeti dediğimiz şey birim
+alanındaki akım miktarıdır alan olarak
+buradaki duvarların toplam alanını
+düşünelim buraya A2 diyorum buraya A1
+diyorum çok barizdir ki büyük olan
+odanın duvarlarının alanı küçükten büyük
+şimdi büyük odaya akkoru taktık Küçük
+odaya led'e taktık hocam akorda akı çok
+1500 lümen O yüzden burası daha
+aydınlıktır Diyemem çünkü aydınlanma
+şiddetinde sadece akı değil
+aydınlattığın bölgede önemli Evet akı
+çok ama alan da çok led az akı veriyor
+bu lambalardan ama alan da az bu oranı
+bilmiyorum led ampul bu küçük odayı daha
+iyi aydınlatıyor olabilir Dolayısıyla
+üçüncü öncüle Bu açıdan kesinlikle
+doğrudur diyemem aynı odayı aydınlatıyor
+olsalardı tek bir odası olsaydı
+kesinlikle Akkor ampul orayı daha
+aydınlatacaktı ama Bu koşullar altında
+sorumuzun cevabı 1 ve 2 olacaktır
+paralel Işın demeti şeklinde ışık yayan
+bir el feneri yeterince büyük bir
+perdeyi aydınlatacak biçimde şekildeki
+gibi çembersel yörünge izleyerek bir
+konumundan iki konumuna getiriliyormuş
+Buna göre yargılarından hangileri
+doğrudur denilmiş parantez içinde de bir
+bilgi vermiş demiş ki Fener eğildikçe
+aydınlık bölgenin alanı artar Güzel soru
+tipi ezberleyenlerin çözemeyeceği konuyu
+anlayanların çözebileceği bir soru
+kavramları Kafasında oturtanların
+çözebileceği bir sorun diyor ki perde
+üzerindeki Işık akısı önce artar sonra
+azalır Hocam ben bu soru tipini
+biliyorum güneşin bir şehri aydınlatması
+ile ilgili o noktasındaki aydınlanma
+şiddeti önce artıyor sonra azalıyor işte
+öyle vaktinde buradan gelen ışınlar dik
+geliyorlar burada aydınlanma maksimum
+oluyor böyle maksimum ise öğleye doğru
+giderken aydınlanma artıyordur öğleden
+ikindiye doğru giderken bu şehirdeki
+aydınlanma azalıyordur perde üzerindeki
+Işık akısı önce artar sonra azalır hocam
+Aydın şiddetini Ben ı/d kareden
+düşünebileceğim gibi tabi Burada açıyla
+ilgili de bir kosinüs ifadesi var birim
+alanındaki akıdan da düşünebilirim
+aydınlanma önce artacak sonra azalacaksa
+Demek ki akı önce artıyor sonra azalıyor
+diyebiliriz Bu yorumların hepsi ezbere
+yorumlardı perde üzerindeki Işık akısı
+diyor senin bu o noktası civarındaki
+şehrinden bahsetmiyor komple perdeden
+bahsediyor paralel Işın demeti yayan bir
+kaynaktan bahsediyoruz bu Arkadaşlar
+şöyle paralel ışınları çıkart kafama
+göre 3 tane çizdim şu an bu perdede kaç
+tane Işın var 3 tane Işın var dik
+geldiği zaman Işın çizdiğimde perdeye
+kaç tane düştü toplam yine 3 tane 2
+konumuna geldiğinde yine 3 tane Işın
+düşecek perde perdenin tamamından
+bahsediyoruz sadece o noktası
+etrafındaki küçük bir alandan
+bahsetmiyorum perde üzerindeki Işık
+akısı sabittir gençler Çünkü bir
+konumunda da dik olduğu yerde de iki
+konumunda da hep aynı paralel ışınlar
+düşüyor o perde dolayısıyla bir yanlış
+hocam akı sabit kalıyorsa O noktasındaki
+aydınlanmayı nasıl anlatacağız O şehrin
+aydınlanması öyle saati falan Nasıl
+olacak o iş perdedeki akıyı düşünmek
+başka şey kaplama noktası civarındaki
+küçücük bir alanı düşünmek başka şey
+çizimleri doğru yaparsanız zaten bunu
+fark edersiniz bakın o noktası
+civarındaki o mahalle o şehir bu kırmızı
+bölge ise eğer küçücük bir alan diye
+hayal ediyorum şu an bu 3 paralel Işın
+tamamen oraya girmiyor bazıları giriyor
+mesela sadece ortadaki girmiş gibi
+düşünebilirsin Sen bu Fenere dik konuma
+getirdiğinde bu ışınların aynısını
+çizsen bunların Belki de tamamı o
+bölgeye girmiş olacak yani şehrin
+kapladığı alan sabit ama o bölgedeki akı
+arttı Dolayısıyla o şehir daha çok
+aydınlandı dik konuma geldiğimizde
+tekrar iki konumuna geldiğimizde de tam
+tersi olacak bütün şehri aydınlatan
+Akın'ın bir kısmı dışarıya kayacak Şehir
+Aynı şehir alan aynı alan Aka
+azaldığında o bölgedeki Bu kırmızıyla
+sınırlandırdığım bölgedeki akı
+azaldığında aydınlanma şiddeti
+azalacaktır O yüzden üçüncü öncülüm
+Doğrudur o noktası civarındaki belli bir
+bölgedeki aydınlanma şiddeti önce artar
+sonra azalır bir bölgedeki akı değişiyor
+ama perdenin tamamı düşünüldüğünde perde
+üzerindeki akrep sabit Çünkü aynı
+ışınlar sadece farklı alanlara
+yayılıyorlar ya da bir bölgeye
+sıkışıyorlar perde üzer aydınlık
+bölgenin aydınlanma şiddeti önce artar
+sonra azalır bakın 2 ile 3 farklı Aynı
+şey gibi dursa da o noktası civarı
+dediğinde sınırları belli değişmeyen
+sabit bir alandan bahsetmiş oluyorsun
+mahallenden bahsetmiş oluyoruz ama
+komple perdeyi düşündüğünde bütün
+aydınlatılan bölgeleri düşünmeliyiz
+mesela başlangıçta mavi ışınların
+düştüğü bölge şurası dik geldiğinde
+geometri gereği bunlar bir bölgede
+sıkıştılar dedim alan küçüldü ki zaten
+bilgi de öyleydi Fener eğildikçe
+aydınlık bölgenin alanı artar
+dikleştikçe azalır işte eğikken sarı
+bölgeyi aydınlatıyor dikleştiğinde
+kırmızı bölgeye aydınlatıyor perdenin
+toplamında bizim akımız sabit
+dikleştikçe alan azaldığı için perdedeki
+toplam aydınlanma dikleştikçe arttı
+sonra tekrar azaldı Bu ikiyle 3 aynı
+gibi dursa da aynı değiller bu noktaya
+kavramanızı istiyorum 3 öncülde sabit
+bir alana aydınlatıyoruz orada akü önce
+artıyor sonra azalıyor sebep geometri
+eğik durumdaki ışınlarla dik durumdaki
+ışınların hepsi aynı alana girmiyor
+ikinci öncülde ise akı sabit bu sefer
+alan değişken eğikken büyük bir
+aydınlatıyoruz dikgen küçük bir alan
+aydınlatıyoruz İkisi de temelde benzer
+görüntü olmasına rağmen açıklamaları
+farklı ya da nasıl düşünebiliriz en
+basiti bu zaten kaynak aynı kaynak ı ile
+hiçbir değişiklik yok bir çember boyunca
+dönüyoruz yani uzaklığımız o noktasına
+hep R bunda bir değişiklik yok açı
+değişiyor O noktası civarındaki
+aydınlanmayı merak ediyorsan şehrindeki
+aydınlanmayı merak ediyorsan buradan bir
+Işın çizersin buradan bir normal
+çekersin yüzeye dik şu açıya bakarsın
+mesela 60 derece buraya Kosinüs 60
+Yazarsın o da 1/2'dir buraya 1/2 katsayı
+gelir Eğer dik konuma gelirsen
+gönderdiğin ışınlar normalin üzerinden
+gelir normalle arasında açık kalmaz
+buraya kosinüs 0 yazarsın kosinüs
+sıfırda Birdir bir katsayıdır 1 dediğim
+şey 1/2'den büyük olduğuna göre dik
+konumdayken o noktası civarındaki o
+şehrindeki aydınlanma daha fazladır o
+noktası civarındaki aydınlanma şiddeti
+önce artar sonra azalır sorumuzun cevabı
+D seçeneğidir şekil 1'deki sistemde ı
+şiddetindeki noktasal ışık kaynağının a
+noktası civarında oluşturduğu aydınlanma
+şiddeti e'dir kaynakla perde arasına
+şekil ikideki gibi buzlu cam
+konulduğunda o noktası civarındaki
+aydınlanma şiddetinin değişmemesi için
+hangilerini tek başına yapmalıyız buzlu
+cam koyduğumuzda buradaki aydınlanma
+şiddeti azalır Neden Çünkü buzlu cam
+araya girdiğinde perdeye ulaşması
+gereken ışınların bir kısmını engeller
+bir kısmını geçirir bir kısmını tutar ya
+da dağıtır başka yere gönderir gibi
+düşünebiliriz Bakın bu noktasal bir
+kaynak bir küre yüzeyi boyunca 3 boyutlu
+düşünürse her yönde Işın gönderiyor
+yukarıya gönderiyor aşağıya gönderiyor
+sola gönderiyor sağa Gönderiyor
+çaprazlar gönderiyor şimdi biz o noktası
+civarı ile ilgilendiğimiz için oraya
+şöyle ışınlar gönderdiğimizi düşünelim
+bunları mümkün olduğu kadar sık
+düşünelim ki soruyu düşünmemiz
+kolaylaşsın bakın 5 tane Işın çizdim
+buraya 5 tane Işın o noktası etrafındaki
+şöyle bir alanı aydınlatıyorlar ben
+buraya buzlu cam koyduğumda Bunlar Aynen
+oraya iletilmeyecek bazıları gelmeyecek
+oraya Mesela şunu sildim şunu sildim
+buzlu cam onları engelledi Dolayısıyla o
+noktası civarındaki akıyı azalt akı
+azaldığı için o bölgede aydınlanma
+şiddeti azalacaktır ya da şöyle
+düşünebiliriz
+araştırabildiğime göre buzlu cam oraya
+ulaşan enerjiyi azalttığına göre sanki
+Işık şiddeti azalmış daha sönük bir
+kaynak kullanıyormuşum gibi hayal
+edebilirim Bu yüzden aydınlanma şiddeti
+azalmıştır diyebilir noktasal kaynak
+yerine Aynı akıya sahip paralel Işın
+gönderen kaynak şimdi bak noktasalın
+Bütün ışınları o noktasına gitmiyor tam
+zıttı tarafa giden var soru diyor ki
+bunların hepsini toplayalım aynı akı
+olsun ama paralel gönderelim yani diyor
+ki bu adamı O noktasıyla hiç ilgisi
+olmayan şu dik olan arkadaşı da buraya
+gönderelim terse giden arkadaş da buraya
+gönderelim bu çapraza giden arkadaşı da
+buraya gönderelim O zaman ben Başlangıca
+göre daha fazla akı göndermiş oluyorum
+ve bunların bir kısmı buzlu cam
+tarafından elense bile aynı aydınlanmayı
+yakalayabilirim Çünkü kaynaklarımı
+verimli kullandım o noktasına gitmeyen
+adamlara da oraya yönlendirdi
+Dolayısıyla bu ı'yı tekrar eski haline
+gelmiş gibi düşünebilirim ı arttığı için
+buzlu cam yüzünden azalan aydınlanma
+şatı artar diyebilirim akıyı tekrar
+arttırdım Çünkü olabilir kaynakla perde
+arasındaki mesafenin azaltılması mesafe
+azaltılırsa aydınlanma şiddeti artar
+buzlu cam Sanki bizim kaynağımız
+zayıflamış gibi göstermişti ama ben
+mesafeyi azaltarak bunu telafi
+edebilirim gayet de olur perdenin ok
+yönünde biraz döndürülmesi bakın şurası
+90 derece olduğu için perde zaten
+buradan gelen ışınları direkt karşılıyor
+Yine Yağmur kova örneğini düşünün
+kovanız yağmuru tamamen karşılayabiliyor
+maksimum akı Eğer siz bunu çevirmeye
+başlarsanız bazı yağmur damlalarını
+toplayamamaya başlarsınız Hatta yağmura
+paralel tutarsanız kovanın ağzı böyle
+yağmurda böyle yağıyor hiçbir yağmuru
+toplayamazsınız akı 0 olur sen şu an tam
+karşılarken maksimum akıyor elde ederken
+diyorsun ki ben bunu döndüreceğim o
+kadar döndürürsün ki paralel hale
+getiririz şu ışınların hiçbirini
+yakalayamazsın yüzeyin böyledir ışınlar
+seni böyle yalar geçerler üzerine
+düşmezler Dolayısıyla bu işleri daha da
+kötüye götürür Biz zaten akının
+artmasını istiyoruz buzlu cam azaltmıştı
+Çünkü bu işlem daha da azaltır O yüzden
+sorumuzun cevabı C seçeneği olmalıdır
+Hakan Çalışma masasının üzerinde tavana
+asıl durumda ve ampullere ayrı ayrı
+yanabilen şekildeki ikili avizeden ilk
+duyduğuna 60 Watt duyuna 40 wattlık
+Akkor ampul takıyormuş masaya dik
+uzaklığı ye duyduğuna göre daha büyük
+olduğuna göre bu adam daha hangileri
+doğrudur şimdi bu arkadaşların Işık
+verimliliğinin aynı olduğunu düşünelim
+60 watt'lık ampul sallıyorum 60 lümen
+Işık akısına sahipse etrafına bunu
+yayıyorsa 40 wattlık ampulü de 40 lümen
+Işık akısı yayıyor gibi düşünebilir yani
+watı büyük olan daha fazla ışık enerjisi
+yayıyor x Ampulün ışık şiddeti y'den
+büyük müdür Işık akısı ile ışık şiddeti
+zaten çok benzer şeyler Işık akısı
+kaynaktan çıkan toplam enerji ile ilgili
+Işık şiddeti bu toplamın birim katı açı
+başına düşen versiyonu yani konu
+anlatımındaki örnek Işık akısı ordunun
+toplam gücüyse Işık şiddeti tek bir
+askerin gücüdür her bir askerin gücü
+fazlaysa toplamında ordunun da gücü
+fazladır ordunun gücü fazlaysa o zaman
+her bir askerin gücü de fazladır yani x
+lambasının Işık şiddeti y lambasının
+Işık şiddetinden büyüktür bir kesin
+doğru çünkü birinde 60 lümen var Birinde
+40 lümen var x ampulünün masa üzerindeki
+Işık akısı ye ampulüne göre daha küçük
+olabilir Işık akısı kaynaktan çıktı bize
+yüzeydeki Masadaki akıyı soruyor bunun
+ne kadarı masaya ulaştı İşte bu geometri
+mevzusu bu adam yakında olduğu için
+bunun bu 40 lümenlik akışını ışınlar
+Yüksek ihtimalle hepsi birden masaya
+düşüyor olabilir 40 lümenin tamamı
+masadadır diyebilirim 40 lümen çıkmıştır
+40 lümen masadadır bu adam uzakta 60
+lümen çıkıyor buraya göre daha fazla
+Işın çıkıyor ama Uzakta olduğu için
+bazıları boşa gidiyordur mesela y'den 5
+tane Işın çıkartmıştım X'in aküsü daha
+fazla olduğu için ondan bir iki üç dört
+beş altı tane çıkardım daha fazla kıyıya
+sahip daha fazla ışınla modelledim ama
+uzaktan geldiği için ışınların
+arasındaki mesafeler daha da çok
+artacağı için masaya ulaşana kadar kaç
+tanesine ulaştırmışım çizimimde bir iki
+üç tanesine ulaştırmış y5 tane
+ulaştırmıştı Dolayısıyla X'in Masadaki
+akısı daha küçük olabilir ne kadar
+uzaklığı olduğuna bağlı ikinci öncülüm
+Doğrudur ya da şöyle düşünün Boş verin
+geometreyi x lambası daha güçlü ama daha
+uzakta y lambası daha zayıf ama daha
+yakında hangisi masayı daha iyi
+aydınlatır aydınlanma şiddetinden de
+çıkartırsınız aydınlanma şiddeti
+dediğiniz şey birim alandaki akım
+miktarı alan her ikisi için de aynı
+masayı aydınlatıyorlar masanın alanı
+Yakında olan adam daha yay
+aydınlatabilir dibine tutmuş Demek ki
+Yakında olanın masaya düşürdüğü akı
+[Müzik]
+Sorumun cevabı 1 2 ve 3'tür noktasal
+ışık kaynağı üzerinde dairesel boşluk
+olan saydam olmayan yatay levha ve yatay
+perde şekil 1'deki konumdayken x noktası
+çevresindeki aydınlanma şiddeti ex
+perdedeki toplam dışı kakası F1
+oluyormuş başka bir kaynaktan paralel
+ışık demeti yatay perde şekil 2'deki
+gibi gönderilince y noktası civarındaki
+aydınlanma şiddeti E'ye ışık akısı da F2
+oluyormuş diyor ki perdeleri kaynağa
+yaklaştırırsam bu aydınlanma şiddetleri
+ve perdelerdeki ışık akıları için ne
+söylenebilir perdeleri yaklaştıracağım
+burada noktasal bir kaynak var bu
+noktasal kaynak her yere Işın gönderiyor
+Bir küreği saracak şekilde 3 boyutlu
+düşüneceğiz yukarıya aşağıya sağa sola
+sana doğru bana doğru 3 boyutlu her yöne
+Işın gönderiyor mesela şu Işın Engele
+takılıyor perdeye düşmüyor Ama bu ışın
+ve sonrası delikten geçiyor ve perdeye
+aydınlatıyor perdede bir akı oluşturuyor
+5 tane Işın çizdim buradaki akı bu 5
+sayısı ile orantılı ben buna fiil bir
+dedim şimdi ben bu perdeyi biraz daha
+yakına Getirirsem şuraya çizersem kaynak
+aynı yerde engel aynı yerde o zaman
+buradaki ışınlar da bir değişiklik yok
+engelde bir değişiklik yok Sadece perde
+yukarı kaydırdık Ne oldu bu işin aşağıda
+perdeye düşüyordu Şimdi burada düştü
+aynısı bu Işın Burada düştü bu Burada
+düştü bu Burada düştü bu Burada düştü Şu
+adam Engele takılıyordu Yine takılıyor
+bu adam Engele takılıyordu Yine
+takılıyor geçenler aynı takılanlar aynı
+o zaman perdedeki Işık miktarı
+değişmediği için Fi 1'in sabit
+kalacağını söyleyebilirim gelelim şekil
+ikiye paralel Işın demeti var burada bir
+el feneri olduğunu düşünün bu el feneri
+paralel Işın gönderiyor 11 tane ışınla
+bu bölgeye aydınlatıyor orada bir Aka
+oluşturuyor şimdi ben bu perdeyi daha
+yakına koysam şuraya koysam aynı 11 Işın
+buraya da düşmeyecek mi Hatta aynı alanı
+aydınlatmayacak mı Hiçbir şey değişmedi
+ki başlangıçtaki akı Fi 2 ise son
+durumda da bu oldu Hiçbir şey değişmedi
+iyi bir ve Fi 2'yi değiştiremedik Şimdi
+gelelim aydınlanma işletlerine Hocam bu
+noktasal kaynak noktasal kaynakta
+aydınlanma şiddeti Işık şiddeti bölü
+herdeye uzaklık çarpı açığının kosinüsü
+burada zaten döndürme olayı yok Ne
+kaynağı döndürüyoruz ne perdeye
+döndürüyoruz kosinüslük bir şey yok
+kaynağımızın şiddeti değişmiyor kaynak
+Ayna kaynak ama perde yaklaşıyor Eskiden
+şu mesafe varken aralarında şimdi daha
+az mesafe var d azaldıysa x noktası
+civarındaki aydınlanma şiddeti artmıştır
+orası daha parlak gözüküyordur artık ya
+da aydınlanma şiddeti dediğim şey birim
+alandaki akım miktarı x noktası
+civarında bir aydınlanma oluşmasından
+bahsediyorsak x noktası civarında şöyle
+bir bölge Hayal edelim Bu bölge Aynen
+buraya çıktı Hatta görmesi kolay olsun
+diye ben daha da yakına Getiriyorum o
+bölgeyi şurası olsun bakın bölge aynı
+bölge perde kaynağa doğru yaklaştığında
+o bölgedeki akıyı arttırdık nasıl oldu o
+iş perde uzaktayken sadece şu Işın
+düşüyordu o bölgeye yakına geldiğinde
+dikkat et bir iki üç hatta dört bunu da
+sayabiliriz Bu dördü birden o bölgeye
+düşüyor Dolayısıyla alan aynı alan ama
+Aka arttı Aka arttığı için x noktası
+civarındaki o küçük bölgede aydınlanma
+şiddetlendi diyebiliriz ikisinden de
+düşünebilirim Peki şekil 2 de aydınlanma
+şiddeti ne olmuştur hocam Burada da e =
+ı / d kare yaparım açılık bir şey yok
+kaynak aynı kaynak ama yaklaştığımız
+için bu mesafe azaldığı için aydınlanma
+şiddeti artmıştır Hayır tamamen yanlış
+bir yorum Çünkü bu formül noktasal için
+geçerlidir paralel Işın demeti için
+geçerli değildir Bu formül çıkartırken
+konu anlatımında kürenin merkezindeki
+noktasal kaynaktan çıkartmıştı burada
+başka bir olay var Bunu aydınlanmanın
+genel ifadesinden düşünmeliyiz birim
+alanındaki akım miktarı y noktasının
+etrafında şöyle bir bölge hayal ediyorum
+bu alandaki aydınlanma şiddetine
+Bakıyorum bu bizim kovamız gibi paralel
+Işın demeti var Yağmur Yağıyor Bu kovayı
+biraz daha yukarı kaldırdım diye daha
+fazla mı Yağmur toplayacağım hepsi düz
+geliyor zaten açlık bir şey yok ki Hatta
+şöyle yapalım 3 tane ışını kapsayacak
+şekilde bir bölge hayal ediyorum bu
+bölge biraz daha yukarı çıktı perde
+yaklaştı bana aynısını çizdiğimde yine 3
+tane Işın yakalıyorum alan aynı akı
+değişmedi o zaman aydınlanma şiddeti
+değişmez bir lazer düşünün lazer paralel
+Işın demeti yayar dümdüz gider lazeri
+duvara yaklaştırmakla uzaklaştırmak
+arasında bir farkı yok aynı parlaklığı
+görürsünüz duvarda işte onun fiziği bu
+Dolayısıyla akıllara değişmez dedik
+ikisi artar dedik Y'ye de değişmez dedik
+sorumuzun cevabı B seçeneğidir geldik
+son sorumuza şekildeki boş oda
+tavanından kordonla sarkıtılan 60
+wattlık ampulü aydınlat Buna göre odanın
+pembe duvarında bulunan K noktasındaki
+aydınlanma şiddetini niceliklerinden
+hangileri etkilemez diye sorulmuş şimdi
+bakın K noktasındaki aydınlanmayı
+soruyor bunu noktasal bir kaynak gibi
+kabul edersem şu mesafeye de D dersem
+aydınlanma şiddeti kaynağın Işık şiddeti
+böyle noktaya uzaklığın karesi çarpı
+açının kosinüsü mesela kordonun
+uzunluğuna bağlı mı bu Kordon daha uzun
+olsa bizim ampulümüz şurada bir yerde
+olsa Normalde ışınları buradan
+göndereceğiz dik çarpacak Kordon daha
+uzun olduğunda buradan göndereceğiz
+yüzeye dik olan şu normal çizgisiyle
+artık bir açı oluşacak kırmızı
+gönderdiğim Işın normalin üzerinden
+geliyordu buraya 0 yazıyordun kosinüs 0
+da kosinüsün alabileceği en yüksek değer
+olan 1 oluyordu aydınlanmada maksimum
+oluyordu şimdi sen burada açı
+oluşturduğunda ki kolay olsun diye yine
+buraya 60 derece diyelim Kosinüs 60
+yazacaksın Bu da 1/2 demek başlangıçta
+aydınlanmanın e ise e/2'ye düştü demek
+kordonun uzunluğu oradaki aydınlanmayı
+etkiler
+lambanın gücü lambanın gücü zaten akıyla
+ilgili akı dediğim şey direkt Işık
+şiddetini belirler yani 60 wattlık ampul
+yerine 120 wattlık ampul takarsan iki
+kat daha fazla ışık akısı elde edersin
+bu da 2 kat daha şiddetli bir lamba
+demektir bu arkadaş artarsa aydınlanma
+şiddeti artacaktır duvarlar Daha
+aydınlık olacaktır tabii ki ama duvarın
+rengi bunu etkilemez hocam olur mu duvar
+beyaz olursa Daha aydınlık Olur Siyah
+olursa daha soluk olur Bakın bu da çok
+karıştırılan bir şey her ne kadar ben
+aydınlanma şiddetini kafanızda
+somutlaştırabilmeniz için duvarın
+parlaklığı artar azalır gibi şeyler
+söylesem de aslında aydınlanma şiddeti
+gördüğümüz şey değil tam olarak bilim
+alanındaki Işık enerjisidir ben oraya o
+enerjiyi düşürdüm Onu görüp görmemen
+senin problemin gözünü kapattığında
+oradan gelen hiçbir şey göremediğinde
+oradaki aydınlanma şiddeti sıfırdır
+demiyorsun orada bir aydınlanma şiddeti
+var nasıl gördüğün Beni ilgilendirmez
+duvarı siyaha boyarsan farklı algılarsın
+beyaza boyarsan farklı algılarsın doğru
+ama aydınlanma şiddeti sabittir bizim
+algımızla ilgilenmez Dolayısıyla gençler
+sorumuzun cevabı yalnız birdir bu
+soruyla beraber aydınlanmayı bitirmiş
+oluyoruz takıldıktan azaltıya yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

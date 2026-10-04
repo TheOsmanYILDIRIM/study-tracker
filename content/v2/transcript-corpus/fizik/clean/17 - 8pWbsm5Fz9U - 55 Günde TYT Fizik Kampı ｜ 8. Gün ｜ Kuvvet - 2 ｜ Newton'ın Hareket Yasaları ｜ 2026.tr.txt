@@ -1,0 +1,946 @@
+geldik mekanik alt dalının kalbi olan
+Newton yasalarına etrafınızda gördüğünüz
+Makro boyuttaki tüm hareketi arabaların
+gitmesinden insanların koşmasına
+sandalyede oturan bir çocuktan Ayın
+Dünya etrafında dönmesine yani gözünüzde
+görebildiğiniz her türlü hareket Newton
+yasaları ile açıklanabiliyor bu yüzden
+Newton fizikte en önemli Bilim
+insanlarından biri kabul edilir
+etrafımıza Gördüğümüz her şeyin fiziğini
+açıklamıştır size çok basit gelebilir
+yani ne açıklamıştı bu kadar el üstünde
+tutuluyor bu adam diyebilirsiniz onun
+tarihinden önceki açıklamaları
+okuduğunuzda özellikle Aristo fiziğinde
+Koskoca Aristo bunlara mı demişlersiniz
+hareketi yorumlamak başlangıçta
+düşündüğünüz kadar hiç kolay olmamıştır
+newtonun 3 tane yasası var Bunlardan
+birincisi eylemsizlik yasası ikincisi
+f=a dediğimiz temel prensip üçüncüsü de
+etki tepki yasası Aslında birinci
+yasayla ikinci yasa aynı temel durumu
+inceliyor farklı açılardan inceliyor
+üçüncü yasa olan etki tepki 1 ile 2'den
+biraz daha farklı bir şeyden bahsediyor
+bir kere newtonuna eylemsizlik yasasına
+girmeden önce cisimlerin sahip olduğu
+eylemsizlik prensibinden bahset etmemiz
+lazım günlük hayatta Zaten bunu çokça
+tecrübe ediyorsunuz Durgun bir araba
+aniden hızlanmaya başladığında içindeki
+insanlar ve eşyalar geriye gidiyor
+Hareket halindeki bir araç aniden
+yavaşlamaya başladığında ise herkes öne
+doğru gidiyor bir cisim duruyorsa
+durmaya devam etmek istiyor gidiyorsa da
+Gitmeye devam etmek istiyor Yani
+kısacası cisimler hareket durumlarını
+korumak istiyorlar Bu hareket durumu
+durmak da olabilir gitmek de olabilir
+duruyorsa durmak istiyor gidiyorsa
+gitmek istiyor işte biz buna eylemsizlik
+prensibi diyoruz Newton bu prensibi
+temel alarak eylemsizlik yasasını ortaya
+koymuştur şimdi bu bahsettiğim
+örneklerle ilgili birkaç bir şey
+izleyelim bir tenis raketimiz var üzeri
+baya kumlanmış bir Tenis topu bunun
+üzerine düştüğü zaman tozlara dikkat
+edin gençler olduğu yerde kalıyorlar En
+azından belli bir süre diyebiliriz
+buradaki top rakete çarpıyor ve rakete
+aşağıya indiriyor tozlar ise hiç oralı
+değiller bulundukları yerde durmaya
+devam etmek istiyorlar Duran cisimler
+durmaya devam etmek istiyor işte bu
+eylemsizliğin ta kendisidir bu
+görselimizde Az önceki tenis rakete gibi
+oyuncak dinozoru Trambolin üzerine
+koymuşlar bu trombolin üzerine yük
+düştüğü zaman sanki dinozor düşmüyormuş
+gibi bir sürü orada kalıyormuş gibi
+Tabii bu yavaşlatılmış bir video
+gözünüzde bu kadar net seçemiyorsunuz
+ama işte eylemsizliğin ta kendisini
+görüyoruz kütle düşüyor Ve dinozor orada
+asılı kalmış gibi duruyor Duran cisim
+durmaya devam etmek istiyor otobüste
+minibüsle giderken aniden frene
+basıldığında hepimiz öne gidiyoruz işte
+buna eylemsizlik diyoruz benzer bir şey
+bu simülasyonda da görüyoruz şu an
+otobüs gidiyor belli bir hızla sabit
+hızla burada koltukta oturmakta olan bir
+kızcağız var aniden kırmızı ışık yanıp
+otobüs bir anda frene basıp durmak
+isterse ne oluyor bir anda durduğunda
+kızcağız öne doğru savruluyor bir de
+tekerlekli sandalyeye oturduğu için bu
+hareket çok daha kolay oluyor Çünkü
+otobüs hareket ederken sağ tarafa doğru
+giderken otobüsün sağa doğru bir V hızı
+var Dolayısıyla içindekiler de onunla
+uyum içindeler değil mi Otobüste beraber
+gidiyorlar o zaman Buradaki kızın da sağ
+tarafa doğru ve hızı var otobüs bir anda
+değerse ki ben duracağım durdurdum
+otobüs durdu kız öne gidiyor çünkü onun
+V hızı vardı kızın durabilmesi için
+cihaz bu sefer arkaya savruluyor Bizim
+de günlük hayatta yaşadığımız gibi Neden
+Çünkü bu kız duruyordu ilk hızı sıfırdı
+ve durmaya devam etmek istiyor dışarıdan
+bir etki yoksa sonsuza kadar duracak
+şimdi otobüs bir anda gitmeye karar
+veriyor kızın bundan haberi var mı kızı
+götürecek bir kuvvet var mı Yok o zaman
+kız durmaya devam ediyor Aslında otobüs
+gidiyor bu kızı sağ tarafa doğru
+otobüsle beraber hızlandıracak bir
+kuvvet olmadığı müddetçe kız olduğu
+yerde kalır kız Aslında geri gitmiyor
+kız olduğu yerde duruyor otobüs
+ilerliyor Dolayısıyla bu elimi kız gibi
+düşünün bunu otobüs gibi düşünün Ben
+ortadayım otobüsün tam ortasındayım Ben
+yerimden kıpırdamıyorum Çünkü beni
+götürecek bir kuvvet yok otobüs
+hızlandığında Bak elim kıpırdamamasına
+rağmen sanki kalemin arkasına kendi
+gitmiş gibi oldu Halbuki elim
+kıpırdamadı otobüs gitti biz o yüzden
+geriye savrulmuşuz gibi hissediyoruz
+kafası karışanlar bu örnekle daha iyi
+anlayacaklar Yerçekimi olmaz havada
+böyle duran bir poşet düşünün havada
+süzülen bir poşet böyle duruyor
+Dolayısıyla bu poşetin hızı sıfır
+sonsuza kadar böyle durur bir otobüs
+gelip buna çarparsa ön cam beraber bu
+poşeti hızlandırır Çünkü otobüs bu
+poşete bir kuvvet uygular o kuvvet
+poşeti hızlandırır Peki otobüsün camı
+kırık olsa cam yok Önü boş poşet duruyor
+hızı sıfır Otobüs geldi Tam poşete
+vuracak ama cam olmadığı için poşet
+otobüsün içine girdi poşet hala duruyor
+otobüs gidiyor Dolayısıyla en
+nihayetinde bu poşet otobüsün arka
+kısmına gelmeyecek mi gelecek poşet
+yerinden kıpırdamamasına rağmen otobüs
+hareket ettiği için sanki poşet geriye
+gidiyormuş gibi oldu o yüzden arabada
+durduğumuzda aniden gaza basıldığında
+Biz olduğumuz yerde kalmak istiyoruz bir
+yere tutunuyoruz ki geri savrulmayalım
+işte o tutunduğumuz şey bize bu kuvveti
+veriyor otobüsle beraber uyumlu bir
+şekilde hızlanabilmemiz için bir kuvvete
+ihtiyacımız var bir yere tutuyoruz o
+kuvvet bizi götürüyor bu kuvvet olmazsa
+hızlanamam hızlanamadığım için ben
+dururum otobüs gelir sanki otobüsün
+arkasına gitmişim gibi olur eylemsizlik
+cisimlerin kütlelerinden dolayı hareket
+durumunu koruma isteğidir kütlesi olan
+her şey eylemsizliğe tabidir kütle
+büyüdükçe eylemsizlik de artar Örneğin
+kocaman kocaman çok büyük tonajlı
+tankerler gemiler Bu arkadaşların
+kütlesi o kadar büyük ki çok büyük
+eylemsizliğe sahipler 20 metre bölü
+saniyelik hızla geliyorlar limana
+yanaşacaklar bunu durdurmak çok zor o
+yüzden limana gelmeden çok daha
+öncesinde metrelerce öncesinde bütün
+motorları her şeyi durdururlar Böylece
+tanker Sudaki sürtünmenin etkisiyle
+yavaşlar yavaşlar yavaşlar yavaşlar ve
+limana geldiğinde durabileceği hıza
+düşmüş olur bu gidiyor bir tarafa doğru
+ve gitmek istiyor kütlesi çok büyük
+olduğu için çok gitmek istiyor o yüzden
+bunun önlemini almamız lazım limandan
+çok çok daha önce bunun motorlarını
+durdurmamız lazım aynı şey kamyonlar
+içinde geçerli kütle büyükse eylemsizlik
+büyüktür bu adam duruyorsa bunu harekete
+geçirmek çok daha zordur gidiyorsa bunu
+durdurmak çok daha zordur Bir Sumo
+güreşçisi size doğru koşuyor onu
+durduramazsınız durdurmak isteseniz
+gücünüz yetmez gidiyorsa Gitmeye devam
+etmek ister Onun eylemsizliği çok
+güçlüdür Çünkü kütlesi büyüktür ama bir
+bebek size doğru koşuyor olsa tek
+elinizde durdurabilirsiniz Çünkü Kütlesi
+küçük o da Gitmeye devam etmek istiyorum
+eylemsizliği az Siz ona söz
+geçirebiliyorsunuz şimdi birazdan Aristo
+ve İbni Sina'nın bu hareketle ilgili
+fikirlerini söyleyeceğim ama Isaac
+Newton ne demiş Newton bu 1 yasası nedir
+bunu artık tam olarak bilimsel olarak
+oturtmuş olalım Newton ilk iki yasasında
+bir cismi incelemiştir demiştir ki bir
+cisim Hayal edelim Bu cisme etki eden
+Net kuvvet sıfırsa Yani bunun üzerinde
+hiç kuvvet de olmayabilir ya da bunun
+üzerine bir sürü kuvvet olabilir Ama
+onların hepsinin toplamı 0'sa hareket
+durumunu korur yani duruyorsa durmaya
+devam eder sonsuza kadar hareket
+halindeyse de sahip olduğu hızla Gitmeye
+devam eder Net kuvvet sıfırken E çok
+mantıklı diyelim ki bu cisim sağ tarafa
+doğru ev kuvveti ile itiliyor sol tarafa
+doğru da ev kuvvetiyle itiliyor işte
+düşeyde ağırlığı falan var Şimdi onları
+düşünmeyelim bu cisim başlangıçta
+duruyor Sizce bu yerinden kıpırdar mı
+Hayır hiçbir yere gitmez duruyordu
+sonsuza kadar durmaya devam eder çünkü
+Net kuvvet sıfır bu fle bu FF bir birini
+götürür Peki bu cisim hareket halinde
+olsaydı yani hali hazırda zaten gidiyor
+olsaydı bu hızlandırmışlar zamanında sağ
+tarafa doğru belli bir hızı var böyle
+güzel güzel gidiyor şu an bu giderken
+gittiği yönle aynı yönde bir kuvvete
+maruz kalırsa ne olur Daha çok hızlanır
+diyelim ki bu arkadaşın hızı 10 metre
+bölü saniyeydi Sen aynı yönde Bir de onu
+itmeye başladın bu hız artar 15 olur 20
+olur hızlanmaya başlar Peki tekrar başa
+dönelim bu F kuvveti uygulanmasın biz 10
+metre bölü saniye ile gidiyoruz kendi
+kendimize güzel güzel gidiyoruz böyle
+giderken ters yönde hareketimizin
+tersine bir kuvvete maruz kalırsak Ben
+koşmaya çalışıyorum arkadan birisi tuttu
+beni çekiyor tersi yavaşlarım hızım
+10'du işte 8'e düşer sonra 5'e düşer
+sonra ikiye düşer falan hızım azalır
+yavaşlatıcı bir etkidir O zaman az
+önceki kuvvetle beraber düşünürsen ben
+onunla güzel güzel gidiyorum
+hızlandırıcı etkisi olan kuvvetle
+yavaşlatıcı etkisi olan bu kuvvet aynı
+anda uygulanırsa hızlanamıyorum bu
+yavaşlatıyor yavaşlayamıyorum bu
+hızlandırıyor ikisinin etkisi birbirini
+götürüyor yani yine Net kuvvet nedir
+sıfırdır Dolayısıyla hızlanamıyorum
+yavaşlayamıyorum hızımı 10 metre bölü
+saniye 10 metre bölü saniyelik hızla
+yoluma devam eder Net kuvvet sıfırsa
+cisim duruyorsa sonsuza kadar durur
+gidiyorsa da sahip olduğu hızla sonsuza
+kadar gider Newton'un birinci yasası
+budur çok yapılan bir hatadan bahsedeyim
+hocam net kuvveti hesaplarken burada sağ
+tarafa ev çizdiniz sol tarafa ev
+çizdiniz Bunlar birbirini götürdü Tamam
+güzel ama bir de burada hız var onu niye
+dahil etmiyorsunuz Bir önceki derste de
+bunu söyledim ama bunu tekrar
+vurgulayayım bu çok yapılan bir hata
+Çünkü hız başka şeydir kuvvet başka
+şeydir kuvvet Somut bir şeydir seni
+değiştirir hızlandırır yavaşlatır yönünü
+değiştirir şeklini değiştirir ama hız
+soyut bir şeydir Birim zamanda yaptığın
+yer değiştirmedir fiziksel olarak senin
+üzerinde bir etkisi yoktur Somut bir şey
+değildir insanların uydurduğu türetilmiş
+Bir büyüklüktür hız başka şey kuvvet
+başka şey bunlar toplanamazlar
+çıkartılamazlar bu uyarıyı tekrar yapmış
+olayım Bu birinci yasayı Şuradaki
+simülasyonda bir incelemiş olalım burada
+bir yük var şu an duruyor çünkü üzerinde
+etki eden Net kuvvet sıfır duruyorsa
+sonsuza kadar durmaya devam eder üzerine
+hiçbir kuvvet uygulamıyoruz mesela aşağı
+bir ağırlığı var ama zemin Onu tutuyor
+onlar birbirini götürüyor yatayda
+hareket edebileceği doğrultuda hiçbir
+kuvvet yok Net kuvvet sıfır duruyorsa
+sonsuza kadar durur yasanın ikinci
+kısmında hareket halindeyse ve Net
+kuvvet sıfırsa hızı değişmeden sonsuza
+kadar gider demiştik Ben bunu bir
+hızlandırayım bir hız kazandırayım bakın
+kadran artıyor artıyor Artıyor
+hızlanıyor bu arkadaş bir yerde
+bırakacağım bıraktım 17.7 metre bölü
+saniyede bıraktım kuvvet uyguluyor muyum
+şu an yatayda Hayır şu an hiçbir kuvvet
+yok şu an Net kuvvet sıfır Ama bu
+arkadaş hızlanmıyor yavaşlamıyor
+Newton'un dediği gibi sahip olduğu bu
+17,7'lik hızla sonsuza kadar hareketine
+devam ediyor yavaşlaması için ters yönde
+kuvvete maruz kalması lazım Ben bu
+arkadaşın hareket yönüne ters yönde bir
+kuvvet uygularsam yavaşlar yavaşlar
+yavaşlar hızını mesela düşürdüm 7.3'e
+kadar düşürdüm ve bıraktım yine Net
+kuvvet sıfır Bak yine 7.3 de yoluna
+devam ediyor gittiği yönle aynı yönde
+kuvvet uygularsam hızlanır hızlanır
+hızlandırıyorum 13-14 bıraktım 15.9 Net
+kuvvet sıfır 15.9la sonsuza kadar yoluma
+devam eder simülasyon
+benzer şeyler söylüyor Aristo'dan daha
+mantıklı şeyler söylüyor herhangi bir
+cisim engelleyici bir etki ile
+karşılaşmıyorsa hareketini
+sürdürebilmesi için kuvvete ihtiyacı
+yoktur az önce söylediğim şey
+başlangıçta uygulanan kuvvetin ortadan
+kaldırılmasıyla cismin hareketini
+sürdürmesinin nesneye kazandırılan
+hareket etme İsteği kasr-ı mail olarak
+açıklanmıştır İşte biz buna eylemsizlik
+diyoruz eylemsizliğin eski dildeki
+versiyonu yani bayağı eylemsizliği
+çözmüş gibi ama bunu sayısallaştıran
+daha bilimsel metotlarla test eden ıcek
+Newton olmuştur Aşağıda verilen
+cisimlerin hangilerinin üzerindeki Net
+kuvvet sıfırdır Yani newtonun birinci
+yasasını eylemsizlik yasasına Uyar
+duruyorsa sonsuza kadar durur gidiyorsa
+sabit hızla gideri soruyor Aslında bize
+durgun halden harekete geçen motosiklet
+durgun haldesin yani hızın sıfır ama
+harekete geçtin yani hızlandın
+hızlandıysan üzerindeki Net kuvvetin
+sıfır olma ihtimali yok Net kuvvet sıfır
+olsaydı durgun haldesin sonsuza kadar
+dururdun Dolayısıyla bunu doğru kabul
+edemeyiz 60 km/saat hızla yönünü
+değiştirmeden giden otomobil hep atmışla
+mı gidiyor Evet hep 60 gidiyor yönde
+değişmiyor O zaman onu hızlandırıcı bir
+şey var mı Yok yavaşlatıcı bir şey var
+mı Yok ya da bunlar var ama birbirlerini
+götürüyorlar E bu ne demek Net kuvvet
+sıfır demek Dolayısıyla bu arkadaş
+sonsuza kadar 60 kilometre/saat hızla
+aynı yönde gidecektir sıkıştırılmış
+yayın ucunda tutulan cisim yayın ucuna
+bir cisim taktım Ve ben bunu böyle ittim
+ittim sıkıştırdım tutuyorum şimdi Elimde
+bir zorlama hissederim değil mi yay beni
+itiyor Çünkü Dolayısıyla cismin üzerine
+yay tarafından bir kuvvet etki ediyor
+niye gitmiyor Peki o taraftan Çünkü ben
+elimle tutuyorum Benim elimde bu cisme
+tam tersi tarafa bir kuvvet uyguluyor
+yayın uyguladığı kuvvetle elimin
+uyguladığı kuvvet eşit ki birbirini
+götürüyor ki orada tutabiliyoruz Demek
+ki Net kuvvet Burada da sıfır sonsuza
+kadar orada durabilir kırmızı ışıkta
+durmak için hızını sıfıra düşüren otobüs
+bu arkadaş yavaşlamış Yani sen sağ
+tarafa doğru gidiyorsun Belli bir hızın
+var Net kuvvet sıfır olsaydı sonsuza
+kadar giderdin Sen hızını sıfıra
+düşürmüşsün yavaşlamışsın Demek ki ters
+yönde seni yavaşlatan bir kuvvete Mar
+kalmışsın burada Net kuvvet sıfır
+değildir gençler geldik bu kitapta en
+sevdiğim kısımlara yani kavram
+yanılgılarını sorguladığımız yerlere
+lütfen buraları iyi dinleyin ve üzerinde
+düşünün Çünkü konular buralarda tam
+oturuyor Eğer kafanızda bir yanılgı
+kavram yanılgısı kalırsa üzerine inşa
+ettiğimiz şeylerde maalesef çürük
+oluyorlar Mesela şöyle bir soru sormuşum
+yarış yapan iki aracın İkisi de sabit
+hızla gidiyorsa öndeki aracın üzerine
+etki eden Net kuvvet daha büyük müdür
+bir yarış var arkada bir araba var sağ
+tarafa gidiyor önde bir araba var o da
+sağ tarafa gidiyor aynı yönde gidiyorlar
+Evet hocam bu önde Demek ki buna daha
+çok Net kuvvet etki ediyor sorunun kilit
+noktası şurası İkisi de sabit hızla
+gidiyorsa demiş sabit hız demek ne demek
+bunun üzerindeki Net kuvvet de sıfırdır
+böyle olmasaydı zaten ya hızlanırdı ya
+yavaşlardı Hatta yönü bile değişebilirdi
+onun Üzerinde hiç bir değişiklik
+yapılmıyor ki sabit hızla gidiyor E
+hocam o zaman bu nasıl önde zamanında
+daha iyi hızlanmış zamanında bir net
+kuvvete maruz kalmış ve şu arkadaştan
+daha çok kuvvete maruz kalmış ama şu
+durumda ben öndeyken ikimiz de sabit
+hızla gidiyorsak ikimizin de üzerindeki
+Net kuvvet sıfırdır bir başka kavram
+yanılgısı eylemsizlik durmak demek
+değildir duruyorsa sonsuza kadar
+duruyormuş hocam o adam eylemsiz Hayır
+giden cisimler de eylemsiz olabilir
+sabit hızla giden cisim de eylemsizdir
+Net kuvvet sıfırsa eylemsizlik yasasına
+uyuyorsun demektir duruyorsan sonsuza
+kadar durursun Gidiyorsan da sabit hızla
+gidersin eylemsizlik durmak demek
+değildir eylemsizlik sadece katı
+maddeler için değil tüm maddeler için
+geçerlidir zaten eylemsizlik madde olma
+şartlarından biridir katılar sıvılar
+gazlar plazmalar eylemsizlik yasalarına
+Uyar belki bazılarınızın dikkat ettiği
+ama açıklamasında bulunamadığı bir
+durumdan bahsedeyim size bir
+arkadaşınızla arabada gidiyorsunuz yan
+yanasınız arkadaşınız parfüm sıkmış ama
+yan yana çok durduğunuz için burnunuz
+ona Alışmış o kokuyu artık almıyorsunuz
+araba aniden bir viraja girdiğinde
+tekrar o kokuyu duymaya
+başlayabilirsiniz Çünkü gaz tanecikleri
+de eylemsizliğin etkisiyle araba yönünü
+değiştirdiğinde savrulabilirler ben buna
+şahit oluyorum gazlarda eylemsizlik
+yasasına Uyar katı ve sıvılarla birlikte
+Şimdi geldik ikinci yasaya Dinamiğin
+temel prensibini Aslında Aynı problem
+durumunun ikinci bölümü bu yine bizim
+bir cismimiz var Fakat bu sefer bu
+cismin üzerindeki Net kuvvet sıfır değil
+yani Newton ikinci yasasında Net
+kuvvetin sıfır olmadığı durumu
+incelemiştir 1 yasada Net kuvvetin sıfır
+olduğu durumu incelemişti bunda da
+olmazsa ne olur konuşuyor aslında az
+önce simülasyonlarla bu mevzuyu anladık
+bu cisim duruyor güzel hızı sıfır
+sürtünmeler falan ihmal ağırlığını
+zeminden gelen kuvvetten geliyor falan
+filan yatayda sadece bu ev kuvveti var
+ve sürtünme falan da yok bu pistinin
+üzerinde gibi düşünün Ne olur bu kuvvet
+bu adamı hızlandırır yani hız kazanır
+hızı değişir hız değişimine Biz ne
+diyoruz hız değişimine Biz ivme diyoruz
+Dolayısıyla kuvvet Net kuvvet bir ivme
+doğurur Peki aynı cismi Duran cisimden
+bahsediyorum iki evlilik bir net kuvvete
+maruz bırakırsak daha büyük bir kuvvet o
+zaman daha iyi hızlanır daha iyi
+hızlanmak demek kısa sürede daha çok hız
+değişimi demek daha çok ivme demek
+Newton bir cismi F kuvvetini
+uyguladığında Net kuvvet olarak cismin a
+ivmesi ile hızlandığını görüyor ikif
+kuvveti uyguladığında 2A ivmesi ile
+hızlandığını görüyor hızlanması daha iyi
+oluyor 3F uyguladığında 3A oluyor yani
+oran hep sabit çıkıyor ve Tuhaf olan bu
+oran cismin kütlesi kuvvet bölü ivme
+cismin kütlesini veriyor içler dışlar
+yaptığımızda meşhur Net kuvvet eşittir
+hem çarpı a'yı buluyoruz Bir cismin
+ivmesi varsa hızı değişiyorsa artma
+olabilir azalma olabilir hatta yön
+değiştirme olabilir yön Değişimi de hız
+değişimiydi ivmeli hareket etti
+unutmayın önceki derslerde konuştuk
+Dolayısıyla Net kuvvet varsa ivme vardır
+kuvvet bir vektör ivme de bir vektör
+burada bir eşitlik var kuvvet vektörü
+Net kuvvet vektörü nereye gösteriyorsa
+ivme vektörü de oraya gösteriyordur
+zaten hareketle ilgili ivme
+problemlerinde bu taktikten çok
+faydalanmıştık Örneğin bu soldaki cisim
+sağ tarafa doğru net kuvvete maruz
+kalıyorsa sağ tarafa doğru a ivmesi var
+ivme yönü sağır bu ikif ve sağ tarafa o
+zaman bu da sağ tarafa 2a'lık ivme
+vektörüne sahiptir Bu söylediklerimi
+grafiğe döktüğümüzde F kuvveti a ivmesi
+ikif kuvveti 2A ivmesi 3F kuvveti 3A
+ivmesi demek kuvvet ivme grafiğinde
+eğime bakarsak Şuraya bir açık kondurdum
+karşı bölü komşu yapacağım bir üçgene
+tamamlayayım grafiğimi şu benim
+grafiğimin kendisi üçgene tamamlıyorum
+karşı kenar Burası komşu kenar Burası
+karşı kenar bu düşeydeki mesafe şurası
+değil mi kuvvetin ta kendisi komşu kenar
+bu yataydaki mesafe O da ivme ekseni
+Dolayısıyla Burası da a eğim karşının
+komşuya bölünmesiyle bulunuyor
+Dolayısıyla bu grafiğin eğimi f/a'dır ve
+biz de ona kütle diyoruz Dolayısıyla
+kuvvet ivme grafiğinin eğimi kütleyi
+verir Mesela ben daha dik bir grafik
+çizseydim şöyle bir grafik çizdiğimi
+düşünün şurada bir nokta işaretledim 3F
+Net kuvvet a kadar ivme bu x cismi Olsun
+bu da y cismi olsun hocam dediğiniz ki
+bu grafiğin eğimi kütleye verir ve bu
+mavi ile çizdiğiniz daha dik Demek ki x
+isminin kütlesi y cisminin kütlesinden
+büyüktür Aynen öyle zaten şuradan da
+anlayabiliriz y cismine a ivmesini
+kazandırmak için F kuvveti yeterli olmuş
+aynı a ivmesini kazandırmak için x
+cismine 3F uygulamam gerekmiş Bu
+arkadaşın kütlesi çok daha fazlaymış
+bunu hızlandıramamışız 3 kat fazla
+kuvvet uygulamamız gerekmiş aynı
+hızlanmayı yakalamak için kütle
+eylemsizliğin bir ölçüsüdür kütleniz
+fazlaysa sizi hızlandırmak zordur aynı
+şekilde yavaşlatmak da zordur Sumo
+güreşçisi ve bebek örneğe aklınıza
+gelsin şimdi Bununla ilgili birkaç soru
+çözeceğim Sonra simülasyonda daha da
+pekiştireceğiz bunu sürtünmesiz yatay
+zeminde durmakta olan 5 kilogramlık
+cisme yatay yola paralel büyüklükleri
+şekilde verilen kuvvetler etki
+etmektedir Buna göre cismin hareket
+durumu için ne söylenebilir sağ tarafa
+doğru 30 newtonluk kuvvet uygulanıyor
+sol tarafa doğru 20 tonluk kuvvet
+uygulanıyor düşeydeki ağırlık zemin
+tarafından dengeleniyor orayla işimiz
+yok başlangıçta duruyoruz yani hızımız
+sıfır buradaki Net kuvvet bileşke kuvvet
+nedir sağ tarafa doğru 10 newtondur Ben
+bunu silebilirim bunu da silebilirim
+artık Sadece bu varmış gibi
+düşünebilirim Duran cisme sürtünme falan
+hiçbir şey yok Buz pistinin
+üstündeymişiz gibi düşünün sadece 10
+Newton var sağa doğru ne olur ve bu
+arkadaş sağ tarafa doğru hızlanacaktır
+Peki nasıl hızlanır biraz daha
+sayısallaştıralım o kadar eşleştirme
+öğrendik fnet eşittir F çarpı a Net
+kuvvetimiz 10 n cismimizin kütlesi 5
+kilogram çarpı ivme ivme buradan 2 metre
+bölü saniye kare çıkar yalnız ivme bir
+vektör yönünü de göstermem lazım Net
+kuvvet hangi yönde sağ tarafa doğru Net
+kuvvet nereye gösterirse ivme vektörü de
+orayı gösterir Çünkü burada bir eşitlik
+var Dolayısıyla sağ tarafa doğru 2 metre
+bölü saniye karelik bir ivme ile
+hızlanır Peki bu ne demek ivme dediğim
+şey birim zamandaki hız değişimi Sen
+ivme ikidir diyorsan zamana Bir saniye
+diyelim başlangıçta bu adamın hızı sıfır
+bir saniye sonra hızı 2 olur Bir saniye
+daha sonra hızı 4 olur Bir saniye daha
+sonra hızı 6 olur 8 olur yani gitgide
+hızlanır Net kuvvet varsa ivme vardır
+ivme varsa hızın bu durumda hızlanma
+oldu bu yavaşlama da olabilir hatta yön
+değiştirme de olabilir aşağıdaki
+Cisimlerin hareketlerini yorumlayınız
+sürtünmeler her şey ihmal hepsi buz
+pisti üzerinde başlangıçta duran bir
+cisim var sağ tarafa doğru F kuvveti ile
+çekiliyor Dolayısıyla sağ tarafa doğru
+hızlanacak zaten şimdi bunun problemini
+çözdük halihazırda sağ tarafa doğru
+giden bir arkadaş var Ben buna giderken
+sağ tarafa doğru bir kuvvet uyguluyorum
+Hatta sayısal bir örnek vereyim hızı 5
+metre/saniye olsun kuvvetimiz de 10 n
+olsun hareket yönünde aynı yönde kuvvete
+maruz kaldığım için hızlanacağım f=ma
+yaparken Net kuvvet yerine 10 + 5'ten 15
+mi yazacağım Hayır bu uyarıyı 3 defa
+yapıyorum 5 dediğim şey hız kuvvetle
+hiçbir ilgisi yok buradaki net
+kuvvetiniz 10'dur kuvvetle hız
+toplanamaz Dolayısıyla dersiniz ki Net
+kuvvet 10 Hatta kütlede 5 olsun yine Az
+önceki sorudaki gibi buraya 5 yazdım
+ivme buradan ne gelir ivme buradan 2
+metre bölü saniye kare gelir bu ne
+anlama gelir bu FF olmasaydı biz hep
+beşle yolumuza devam ediyorduk Newton'un
+birinci yasası bu f kullandığı andan
+itibaren ikilik ivme ile hızlanacağım
+yani bir saniye sonra hızın 5'ten 7'ye
+çıkacak Sonra 9'a çıkacak Sonra 11'e
+çıkacak böyle hızlanacağız sağ tarafa
+doğru beşli hızla gidiyoruz sol tarafa
+doğru 10 newtonluk kuvvete maruz
+kalıyoruz ne olur Yine F5 tema yine
+cismin 5 kilogram olsun Net kuvvetin 10
+sakın 10 - 5 yapmayın kütlen 5 ivmem
+yine 2 Fakat bu sefer ivme vektörüm Net
+kuvvet sola ivme vektörüm de sola hıza
+ters yönde bir ivme vektörün var Bir
+kere ben hıza ters yönde bir kuvvete
+maruz kaldığım için kesinlikle
+yavaşlayacağım Peki nasıl yavaşlayacağım
+saniye başına 2-2 yavaşlayacağım hızım
+3'e düşecek hızım 1'e düşecek Peki
+birden sonra ne olacak hocam -1 mi
+olacak Evet buradaki -1 ne demek
+yavaşlayacağım yavaşlayacağım
+yavaşlayacağım duracağım hala bu kuvvet
+var bu kuvvet bana etki etmeye devam
+ediyorsa Bu sefer de onun dediği yönde
+hızlanacağım yani sol tarafa doğru
+hızlanmaya devam edeceğim bu seferde
+işte Sağ taraf artı bunu artı 5 dediğime
+göre sol taraf eksi eksi bir hız
+kazanmış olacak
+[Müzik]
+-3 - 6 diye kuvvetin tarafına doğru
+hızlanmaya devam eder Tabii Bu soruda
+sol tarafa Artı sağ tarafa eksi demiş
+olduk Çünkü sola giden cismin hızını
+artı 6 diye tanımlamışız kuvvet ve hız
+farklı kavramlardır toplanamazlar
+çıkartılamazlar bunu popak olarak her
+yere yapıştıracağım şimdi bir
+simülasyonla bunların hepsini bir
+toparlamış olalım ivmeyi görelim hızlı
+görelim kütleleri de görelim net
+Kuvvetleri de görelim şu an Net kuvvet
+sıfır sonsa kadar burada durabiliriz
+hızımız 0 ivmemiz yok hiçbir şeyimiz yok
+50 kilogram kütleli bir cismimiz var buz
+pisti gibi düşündük sürtünme kuvvetinde
+yok kabul ediyoruz Dolayısıyla ben bu
+arkadaşı sağ tarafa doğru şöyle 100
+newtonla itiyorum hız kazandırıyorum bir
+ivme kazandırıyorum evime göstergesine
+dikkat edin sağ tarafa doğru bir ivme
+kazandık bıraktım
+15,6'lık hız kazandık Net kuvvet sıfır
+Çünkü artık ben kuvvet uygulamıyorum o
+zaman sabit hızla yoluna devam eder bak
+15,6 ile yoluna devam ediyor ivme sıfır
+Çünkü kuvvet yok f5'te ama kuvvet
+sıfırsa ivme de sıfırdır yani hızın
+değişmez Ama hocam gerçek hayatta böyle
+olmuyor çünkü gerçek hayatta sürtünme
+var şimdi bu arkadaşa sürtünme var
+dersem bak ters tarafa doğru hareketin
+tersine bir sürtünme başladı ve o da
+beni yavaşlattı yavaşlattı ve durdurdu
+çünkü sağ tarafa giden cisme ters yöne
+Uygulanan kuvvet onu yavaşlatır ve en
+nihayetinde durdurur durduğu anda
+sürtünme de etki etmediği için Net
+kuvvet sıfır sonsuza kadar durabilir
+sürtünmenin ivme etkisini de görmüş
+olalım tekrar Ben bunu hızlandırayım
+bakın sağ tarafa doğru ivme değeri
+görüyorsunuz göstergede şu an sürtünme
+yok 18-4'lük hızımız var sürtünmeyi
+aktif hale getirdiğinde sola doğru
+sürtünme oluşacak ivme vektörü de sola
+doğru çıkacak Çünkü Net kuvvet nereye
+gösteriyorsa ki burada sürtünme ivme de
+orayı gösterir gördüğünüz gibi sol
+tarafa ivme çıktı sürtünme sola doğru bu
+kuvvet beni yavaşlatıyor sürtünmeyi
+tekrar sıfırladım hızım sağa doğru
+4.9'du sürtünme beni tamamen
+durduramamıştır sürtünme olmazsa tekrar
+4.9la yoluma devam ediyorum çünkü Net
+kuvvet sıfır kütleyi arttırarak
+ulaşabilirsek Nasıl yaparız bakın bir
+sürü kütle ekledim buraya F5
+düşündüğümüzde kütle artarsa kuvvet aynı
+ise ivmenin yer alması lazım yani çok
+daha zor hızlandırmamız lazım ivme çok
+düşük çıkacak aynı 13,6 lık hızla çok
+daha uzun sürelerde ulaşacağız Çünkü hız
+değişimimiz küçük bak aynı kuvvet
+uygulamaya çalışıyorum 105 110 görüyor
+musunuz hız artmıyor çok yavaş artıyor
+13,6'ya geçene kadar çok fazla uzun
+süreler geçecek kütle artarsa ivme
+azalır Kuvvet sabitken kütle
+eylemsizliğin bir ölçüsüdür kütlem
+fazlaysa seni hareketlendirmek çok daha
+zorlaşır fizikte çok büyük yer kaplayan
+ağırlık kavramı ağırlık ve kütle çok
+karıştırılır kafadan söylüyorum ağırlık
+dediğiniz şey kütlenin Yerçekimi
+kuvvetine maruz kalmış halidir yani
+ağırlık aslında bir kuvvet tanımlıyor
+Biz ağırlığı g sembolü ile gösteriyoruz
+gravitasyondan geliyor üzerinde bir
+vektör işareti var Çünkü bu arkadaş bir
+kuvvet yer çekimi kuvveti Biz dünya
+üzerindeyiz dünyanın bizi Çekme
+kuvvetidir dünya bizi niye çekiyor temel
+kuvvetler hatırlayın kütle çekim kuvveti
+diye bir şey niye var Çünkü bizim
+kütlemiz var kütlesi olan şeyler
+birbirini çeker dünyanın bir kütlesi var
+benim bir kütlem var Dolayısıyla Dünya
+ile
+düşünebilirsiniz atıyorum jüpiter'de Bu
+32 metre bölü saniye kare yani
+jüpiter'de çok daha fazla bir çekim
+etkisine maruz kalıyorsunuz Biz bunu
+yaklaşık 10 kabul ediyoruz 10 metre bölü
+saniye kare kabul ediyoruz Dolayısıyla 5
+kilogramlık bir cismin ağırlığı kaç
+newtondur dediğimizde 5 x 10’dan 50
+newtonluk bir kuvvetle dünya onu çeker
+deriz Peki ben aynı 5 kilogramı
+jüpiter'e götürsem 32'ye maruz kalsa beş
+çarpı 32'den 160 newtonluk kuvvete maruz
+kalır Jüpiter seni çok daha fazla
+kuvvetle çeker veya aya gitsek ayda
+çekim ivmesi bir nokta altı civarında
+Dolayısıyla 5 çarpı 1,6'dan 8 newtonluk
+kuvvete maruz kalıyoruz O yüzden aydaki
+bu yürüyüş videolarında zıplaya zıplaya
+yürüyorlar neredeyse uçacak adam çünkü
+çekim kuvveti çok az ağırlığın çok az
+ağırlığın değişir ama kütlen hep 5
+kilogram ayda çekim kuvveti çok az
+olduğu için bu Astronotlar tuhaf tuhaf
+davranıyorlar mesela adam eğilemiyor
+yerden bir şey alamıyor çünkü onu çeken
+bir kuvvet yok Biz yere eğilirken
+problem yaşamıyoruz çünkü buna alışkınız
+Dünya bizi daha şiddetli çekiyor dünya
+Bizi çekmeseydi yerden bir şey almak çok
+büyük bir problem olurdu çünkü biz yere
+inerken dünyanın bizi çekmesinden
+faydalanıyoruz veya ayağa kalktığında
+ayakları yerden kesiliyor Ay onu
+çekmediği için zıplıyor bakın yerde bir
+şey var alacağım diye uğraşıp duruyor
+İşte koşması bile bir tuhaf çünkü onu
+yeteri kadar çekmiyor ay ve
+dünyadakinden daha farklı oluyor 1
+kilogramlık cisim ay yüzeyinde bir nokta
+altını Newton dünyada 9,81 Newton
+jüpiterde 274 Newton her gezegenin
+farklı bir çekim ivmesi var ve bu çekim
+ivmesi gezegenin kütlesine yarıçapına
+geometrisine bağlı ve gezegenin
+neresinde bulunduğunuza da bağlı burada
+değinmek istediğim başka bir şey daha
+var Biz buradaki çekim gücünün ay az
+çekiyor Dünya çok çekiyor Jüpiter daha
+da çok çekiyor niye ivme ile ifade
+ediyoruz niye yer çekimi ivmesi Çünkü
+dünyadaki bir cismi serbest
+bıraktığınızda Bir saniye sonra hızı 9,8
+metre bölü saniye oluyor ivme zaten hız
+değişimi 1 saniyede o kadar değişiyor
+diğer bir saniye sonra iki katına
+çıkıyor 19,6 oluyor ama siz aynı cismi
+jüpiter'de bıraksanız işte 27,4 ise
+oradaki çekim ivmesi Bir saniye sonra bu
+arkadaşın hızı
+27.4 metre bölü saniye oluyor çok daha
+fazla hızlanabiliyor Çünkü kuvvet fazla
+O yüzden buradaki ivmeyi çekim ivmesi
+olarak ifade ederiz Bir gezegenin seni
+ne kadar çektiği gezegenin kütlesine
+bağlı olmakla birlikte gezegenin
+neresinde olduğuna bağlı olarak da
+değişir Eğer gezegen mükemmel bir küre
+ise neresinde olursan ol aynı çekimi
+mesela maruz kalırsın ama dünya gibi
+geoitse yani kutuplardan basık
+Ekvatordan şişkin şöyle bir Tabi ben çok
+abartılı çizdim ama böyle bir şekle
+sahipse Burası kutuplar Burası Ekvator
+olsun kutuplarda çok daha fazla
+çekememesine maruz kalıyorsunuz 9,83
+gibi bir değer işte ekvatorda 9,78 gibi
+bir değer kutuplarda merkeze daha yakın
+olduğumuz için daha büyük bir çekim
+ivmesine maruz kalıyoruz ekvatorda daha
+uzak olduğumuz için daha az
+çekinmemesine maruz kalıyoruz New
+York'ta 9,8 Ankara'da 979 ekvatora 9 78
+Kuzey kutbunda 983 Everest tepesindeniye
+977 ekvatora yakın olduğu için mi şu ana
+kadar gezegenin yüzeyinde olduğunuzu
+varsaydık gezegenin yüzeyinden
+uzaklaştıkça da çekim ivmesi azalır ve
+mantıklı Biz zaten kütle çekim
+kuvvetinde g çarpı 1 kütle 2 kütle
+bölerdeki uzaklığın karesi yapmıştık
+gezegenden uzaklaşırsan sana uyguladığı
+kuvvet azalacaktır Dolayısıyla Everest
+Tepesi yüksek olduğu için nispeten daha
+az yer çekimi vardır diyebiliriz
+yeryüzünde 70 kilogram kütleli bir
+insanın ağırlığı kaç newtondur F eşittir
+emanın ağırlık versiyonunu yazarsam g
+eşittir mg olmuş olur kütlesi 70'miş
+Yerçekimini 10 kabul et diyor
+Dolayısıyla 700 newtonluk bir ağırlığı
+vardır diyebiliriz Ağırlığın birimi
+Newton kütle değil günlük hayattaki
+kullanımla karıştırmayın dünya yüzeyinde
+100 kilogram kütleli bir cisim aya
+götürülüyor cismin kütlesini ve
+ağırlığını hesaplayınız denilmiş Şimdi
+100 kilogram benim kütlem beni oluşturan
+atomların moleküllerin toplamı Ben Ay'a
+Gitsem de bu 100 kilogramdır Bu değişmez
+Çünkü moleküllerimi de beraberinde
+götürdüm g yapacağız dünya için mg
+yaparsam 100 x 10'dan 1000 newtonluk bir
+kuvvetten bahsetmiş olur ay için mg
+yaparsam 100 x 1,6’dan 160 n'luk bir
+kuvvetten bahsetmiş olur Astronotlar
+aklınıza gelsin geldik dersimizin son
+kısmına ve çok önemli bir kısmına
+serbest cisim diyagramı nasıl çizilir
+bir cisme etki eden Kuvvetleri doğru
+gösterebilmek lazım ki ivme hesaplarken
+doğru hesaplar yapalım fotoğraf çekme
+diye bir metot öğreteceğim size mesela
+burada bizim bir cismimiz var bu cismin
+bir iple tavana asılmış bunu etki eden
+Kuvvetleri göster dediğimde cismin
+fotoğrafını çekersin bunu buradan
+kesersin buraya yapıştırırsın cisim bu
+bu fotoğrafta Yani bu çerçevenin
+içerisinde hangi kuvvetler var cisme
+etki eden bir iple bağlanmış durumdayız
+ipler itemezler her zaman çekerler
+Dolayısıyla Bu ip beni yukarıya doğru
+çekiyor Bu kuvveti t ile gösteriyorum
+böyle bir vektör dünya beni çekiyor
+kendine doğru bir yer çekimi var
+dolayısıyla bir ağırlığım var cismin
+merkezinden ağırlığımı gösterebilirim
+başka bir kuvvet görüyor musunuz sağdan
+soldan başka bir kuvvet Yok hocam şurada
+tavan var tavana da bağlanmış ip bunu da
+buraya çizeceğiz mi bu tavan çizdiğim
+fotoğrafın içinde mi cismin fotoğrafına
+dahil mi değil o zaman bu cismin serbest
+cisim diyagramı budur Peki buradaki
+cisim sonsuza kadar burada durur mu evet
+durur iple astım öyle duruyor Demek ki
+burada Net kuvvet sıfır Peki bu ne
+anlama gelir yukarıya doğru olan t ile
+aşağıya doğru olan G'nin büyüklükleri
+eşit anlamına gelir bunlar birbirini
+götürüyormuş ki Net kuvvet sıfır
+çıkıyormuş Bakın ben büyüklük olarak
+eşitledim vektörel olarak eşitlerseniz
+dikkatli olmalısınız Çünkü bu vektörler
+zıt vektörler Dolayısıyla T vektörü
+eşittir eksig vektörü yazmalısınız zıt
+yönlü olduğuna dikkat edin masanın
+üzerinde duran kitabın serbestçe sim
+diyagramını çiziniz güzel Özellikle
+Üçüncü yasamız olan onu diğer derse
+bırakacağım etki tepki de çok kafa
+karıştıran bir yer var Orada kafamızın
+karışmaması için buradaki mevzuları iyi
+anlamalıyız masaya çizdim üzerine bir
+kitap yerleştirdim Bu kitap burada
+duruyor yani hızı sıfır ve durmaya da
+devam ediyor sonsuza kadar duracak Demek
+ki net saat 0 güzel Newton'un birinci
+yasası eylemsizlik yasası buna etki eden
+kuvvetler nelerdir desem aşağıya doğru
+ağırlık var g var dünya Onu kendine
+doğru çekiyor Tamam niye düşmüyor o
+zaman düşsün masa var hocam o yüzden
+düşmüyor bir kere kesinlikle masayı
+falan boş ver kitap orada duruyorsa
+aşağıya doğru olan bu ağırlığı
+sıfırlayan ters yönde o ağırlık kadar
+bir kuvvet olmalı İşte o kuvvete biz
+normal kuvvet diyoruz eğer orada masa
+varsa masanın seni tutma kuvveti temas
+kuvveti iki cisim birbirine değiyorsa
+orada bir kuvvet oluşur bir poşet var
+havada süzülüyor Otobüs geldi poşete
+çarptı beraber götürüyor poşeti otobüs
+poşete temas etti otobüs poşete bir
+normal kuvvet uyguluyor bu ağırlık
+kuvveti kime etki ediyor bir cisme etki
+eden ağırlık kuvveti kime etki eder
+cisme etki eder normal kuvvet kime etki
+ediyor masanın yine cisme uyguladığı
+kitaba uyguladığı bir kuvvet Yani ben
+burada fotoğraf çekersem cismin
+fotoğrafını çektim cisme etki eden
+kuvvetler nelerdir dedim dünya cismi
+kendine doğru çekiyor gasa cismi tutuyor
+düşmesin diye bu olmasa zaten düşerdi
+Dolayısıyla bu iki kuvvet de cisme etki
+ediyor bunları aklınıza kazıyın bu çok
+önemli Net kuvvet sıfırsa ben yine
+diyebilirim ki G'nin büyüklüğü ile n'nin
+büyüklüğü birbirine eşittir Yukarıdaki
+ipten ne farkı var orada t vardı Onun
+yerine Burada normal kuvvet var masanın
+tutma kuvveti var geldik dersimizin son
+sorusuna sürtünmesi ortamda yerde duran
+bir sandığı Ali ve Ahmet zıt yönlerde
+itiyorlar ancak sandık harekete geçmiyor
+Buna göre sandığın serbest cisim
+diyagramını çiziniz şu zemin olsun
+Şuraya bir cisim yerleştirdim sürtünme
+kuvveti yok Ali ve Ahmet itiyorlar
+Ali'nin şu yönde ittiğini düşünelim buna
+ev Ali diyelim Ahmet zıt yönde itiyormuş
+onu da böyle gösterelim Bu da f- Ahmet
+olsun Başka bir kuvvet var mı bu cisme
+etki eden var Şu ana kadar hep göz ardı
+ediyorduk Ama artık etmeyelim dünya bunu
+kendine doğru çekiyor aşağıya doğru
+ağırlık var niye düşmüyor ağırlık Bu
+cismi düşürsün Çünkü zemin Onu tutuyor
+yukarıya doğru tutma kuvveti var Normal
+kuvvet var bakın buradaki 4 kuvvette
+cisme etki eder hocam ağırlık zemini
+etki etmiyor mu Hayır cisme etki ediyor
+Ben bu kalemi havaya fırlattığımda
+değmesin havada olsa ağırlık kuvveti
+etki etmiyor mu havadaki kalemin
+ağırlığını çizdirsem cismin üzerinden
+çizmiyor musun Evet Elimde durunca Niye
+farklı düşüneyim ki elimde dururken de
+kaleme etki ediyor ağırlık kuvvet
+Dolayısıyla ağırlık Kuvvetleri kimin
+ağırlığından bahsediyorsak o cisme etki
+eder serbest cisim diyagramı bu 4
+kuvvetten oluşur Bu cisim harekete
+geçmiyorsa duruyorsa durmaya devam
+ediyorsa Demek ki burada Net kuvvet
+sıfır Demek ki bu adamla bu adam
+birbirini götürmüş bu adamda da bu adam
+birbirini götürmüş diyebiliriz ki
+Ahmet'in uyguladığı kuvvetin
+büyüklüğüyle Ali'nin uyguladığı kuvvetin
+büyüklüğü eşit normal kuvvetle cismin
+ağırlığı büyüklük olarak birbirine eşit
+Evet bu dersimiz bu kadardı çok önemli
+bir dersi takıldıktan azaltta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

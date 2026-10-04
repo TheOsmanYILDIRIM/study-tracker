@@ -1,0 +1,674 @@
+[Müzik]
+gençler Merhaba bugünkü dersimizde tyt
+manyetizmanın son konu anlatımını
+yapacağız bu derste elektro mıknatısları
+dünyanın manyetik alanını ve bunların
+günlük hayattaki etkilerini konuşacağız
+elektromıknatıslar günlük hayatta nerede
+karşımıza çıkar dünyanın manyetik
+alanıyla ilgili neler var kutup ışıkları
+nasıl oluşur bunların hepsini bu derste
+konuşacağız Hemen başlayalım ilk
+öğreneceğimiz şey elektron mıknatıslar
+olacak gençler mıknatıs kelimesi ile
+elektro kelimesinin birleşimi yani
+elektrikle manyetizmanın birleşimi
+Aslında bu Bu ikisi nasıl
+birleştireceğiz nasıl bir araya
+getireceğiz şöyle Biz önceki dersimizde
+ne konuşmuştuk düz bir telden akım
+geçerse ne olur konuşmuştuk düz bir tel
+bakır bir tel etrafında bizim
+hissedebileceğimiz bir manyetik alanı
+yok bu telden yukarı yönde bir elektrik
+akımı geçirdiğimi var sayarsam
+öğrendiğimize göre bunun etrafında
+çembersel bir manyetik alan oluşması
+gerekiyor işte sağ el kuralı
+yaptığımızda Baş parmağımız akım yönünde
+tutuyorduk 4 parmağımızda bu çembersel
+manyetik alanı çiziyordu bu elimi sayfa
+düzlemi gibi düşünürsek şu an telimizi
+sayfada çizdik yani telde bu kalem
+olursa sayfanın üzerinde böyle tel
+duruyor akım yukarıya doğru hareket
+ediyorsa baş parmağımı yukarıya doğru
+tutacağım baş parmağım yukarıya doğru
+elimi bunun etrafında çember çizecek
+şekilde döndürmeye çalıştığımda sağ
+tarafta elim sayfanın içine girmeye
+çalışıyor Dolayısıyla bizim sayfamızda
+sağ tarafta manyetik alan vektörü
+sayfadan içeriye doğru oluşur sağdan
+giren soldan da dışarı çıkacaktır sol
+tarafta da sayfadan dışarı çıkan bir
+manyetik alan vektörü çizilebilir üç
+boyutlu çizimi Ancak böyle yapabiliriz
+yani sizin sayfanızın içine giren ve
+sonra dolaşıp dışarıya çıkan bir çember
+Hayal edeceksiniz sayfanızda sağ tarafta
+bir manyetik alan vektörü çizdiğiniz o
+sayfanızın içine girerken sol taraftaki
+dışına çıkıyor demiş olduk Yani biz
+Aslında telin etrafında bir manyetik
+alan oluşturduk Bu da elektrikle
+manyetizma arasındaki ilişkiyi gösteren
+bir örnek elektrik akımı sayesinde bir
+manyetik alan oluşturduk bunu Örs set
+sayesinde keşfetmiştik bunu keşfettikten
+Sonra mühendisler bilim insanları
+kendilerine Şu soruyu sordular Biz bunu
+niye günlük hayatta işimize yarar bir
+hale getirmiyoruz bu çünkü gençler
+kontrol edilebilir bir manyetik alan
+demek Eğer ben bu telden elektrik akımı
+geçirirsem etrafında manyetikan oluşur
+Eğer ben bu telden elektrik akımı
+geçirmeyi bırakırsam etrafındaki
+manyetik alanda kaybolur Yani bu telin
+ne zaman mıknatıs görevi göreceğini
+belirlemiş oluyorum normal bir
+mıknatısla aynı mantığı yok bunun normal
+Çubuk bir mıknatıs aldınız dediniz ki
+burası n Kutbu Burası s Kutbu Tamam işte
+bunun etrafında manyetik alan var Tamam
+ama hep var istemediğim zaman da var ama
+telden akım geçirdiğinizde manyetik alan
+var telden akımı kestiğinizde manyetik
+alan yok kontrol edilebilir bu manyetik
+alanın daha da şiddetlenmesi için işin
+geometrisini biraz değiştiriyoruz bunu
+sarıyoruz Gençler bu teli şöyle bir
+cismin etrafına sarıyoruz bir demir
+parçasının etrafına sarıyoruz işte Bu
+gördüğünüz şey bir elektro mıknatısdır
+sağ tarafta bunu görselleştirelim bu
+bakır telin uçlarına bir güç kaynağı
+bağlayalım sol taraf Artı sağ taraf eksi
+olsun elektrik konusunda öğrendik
+artıdan eksiye doğru bir elektrik akımı
+dolaşmaya başlayacaktır Yani artıdan
+şöyle yukarıya doğru bir elektrik akımı
+dolaşacak telin serumuna dikkat edin
+bakın buradaki tel bu silindirin
+arkasından dolaşıyor yani arka tarafta
+benim göremediğim tarafta yukarı çıkıyor
+Yukarı çıktı benim bakış açıma
+girdiğinde ne yapacak aşağıya doğru
+inecek sonra tekrar benim göremediğim
+tarafta arka tarafta yukarı çıkıyor akım
+sonra tekrar benim bakış açıma
+girdiğinde aşağıya doğru inecek bu bütün
+sarımlar boyunca aşağıya doğru benim
+bakış açımdan bir elektrik akımı demek
+buradaki sarıma da dikkat ederseniz bu
+arkadaş aşağıya doğru iner ve Elektrik
+devresini tamamlamış oluruz buradaki
+elektromıknatısa şöyle karşıdan bakan
+bir göz Hayal etsek ne görür Bu bizim
+silindirimiz etrafında böyle bakır teli
+sarmış durumdayız Biz buradan bakıyoruz
+buradan bakarsak ne görürüz buradan
+bakarsanız sizin bakış açınızdan bir
+daire görürsünüz Bunun etrafında sarılan
+bakır tel bir daire çiziyor aslında bir
+çember çiziyor Dolayısıyla Bu bakış
+açısına göre şurada bir çember Olduğunu
+hayal ediyorum Tabii Aslında burada tek
+parça bir çember yok çünkü burada tel
+yoluna devam ediyor Yani ben bunu sardım
+sonra tekrar sarmaya devam ediyorum bu
+yoluna devam ediyor ama ben burada bir
+çember varmış gibi hayal edeceğim
+elektrik akımı da burada şurada Aşağı
+iniyor diyelim döndü dolaştı burada
+yukarı çıkıyor gibi düşünebilir bu
+çemberin iç kısmında bir manyetik alan
+oluşacaktır onun hangi yönde olduğunu
+nasıl anlayabiliriz çemberin şu kısmını
+düz bir tel gibi hayal etsem bu düz
+telde yukarıya doğru elektrik akımı
+geçiyor elektrik akımı sayfanın
+yukarısına doğru elim sayfa düzlemini
+temsil ediyor baş parmağım akım sayfanı
+yukarısını gösterecek elimi çevirdiğimde
+sağ tarafta bakın parmaklarım içeriye
+giriyor sayfadan içeri o zaman sol
+tarafta ne olacak dönecek dolaşacak
+dışarı çıkacak sol tarafta şurada
+sayfadan içeriye doğru manyetik alan var
+sol tarafta burada sayfadan dışarıya
+doğru manyetik alan var Ben zaten
+çemberin iç kısmını merak ediyorum
+sayfadan dışarı çıktı şimdi bu telin üst
+kısmına odaklanalım üst kısmında
+elektrik akımı sol tarafa doğru yoluna
+devam edecektir yine aynı mantıkta Ben
+Şurayı bir düz tel gibi düşünsem bu düz
+telde sol tarafa doğru giden bir
+elektrik akımı var Bu benim sayfam
+elektrik akımı sayfanın soluna doğru
+gidiyor bunun üst kısmında ve alt
+kısmında nasıl bir manyetik alan var
+diye bulmaya çalışıyorum Hatta benim
+için önemli olan alt kısım Çünkü ben
+aslında bu çemberin içindeki manyetik
+alanını merak ediyorum baş parmağımı sol
+tarafa doğru tuttum çember çizersem 4
+parmağım bakın üst tarafta sayfanın
+üstünde içeri doğru girerken döndü
+dolaştı alt tarafta dışarıya doğru
+çıkacak Yani burada da sayfadan dışarıya
+doğru bir manyetik alan var şuradan
+bakarsanız da sayfadan dışarıya doğru
+çıkar Elektrik akımını burada böyle sağa
+doğru gidiyor gibi düşünüp yine sağ el
+kuralı yaparsanız da sayfadan dışarıya
+doğru çıkar iç kısımda hocam böyle bir
+çemberin iç kısmındaki manyetik alanını
+bulurken hep böyle küçük küçük düz
+tercihler mi arayacağız onları mı
+yapacağız tek tek Hayır şimdi geldi sıra
+size kolay yöntemi öğretmeye halka
+şeklinde bir Telim var bunun iç
+kısmındaki manyetik alanını merak
+ediyorum elektrik akımı gördüğünüz gibi
+şu anki benim çizimime göre saat yönünün
+tersine doğru dönüyor yani sizin bakış
+açınızdan şöyle dönüyor diyebilirim Biz
+normalde baş parmağı akım 4 parmağı
+manyetik falan diyorduk kolay yöntemde
+böyle çembersel şekiller için bunları
+yer değiştirin dört parmağınız akım
+olsun Baş parmağınız manyetik alanı
+göstersin 4 parmağımı saat yönünün
+tersine doğru tuttuğumda bakın baş
+parmağım sayfadan dış ortaya çıkıyor bu
+tel sayfa düzleminde duruyordu burada
+sayfa Olduğunu hayal edin 4 parmağımı
+saat yönünün tersine akım yönünde tuttum
+baş parmağım manyetik alan sayfadan
+dışarı çıkıyor Dolayısıyla elektro
+mıknatıs dediğimiz bu sarımlı
+sistemlerin manyetik alanını hesaplarken
+hangi yönde manyetik alan oluşturuyor
+diye bakarken parmakları yer
+değiştireceğiz Şuradaki arkadaşa
+odaklanalım benim bakış açımdan burada
+bana yakın tarafta elektrik akımı
+aşağıya doğru iniyor bu benim silindirim
+ekranda gördüğünüz silindiriniz 4
+parmağınızı aşağıya doğru iniyormuş gibi
+tutacaksınız baş parmağınız manyetik
+alanı verecek yani ekranın sağ tarafını
+doğru gösteren bir manyetik alan
+oluşacak bu telde sağ tarafa doğru bir
+manyetik alan oluşur bu telde de
+elektrik akımı aynı yönde bunda da aynı
+şekilde oluşur buradaki bütün halkalarda
+aynı şekilde sağ tarafa doğru manyetik
+alan var Bunlar birbirine yaklaştıkça
+Bunlar birbirini şiddetlendirir
+Dolayısıyla buradaki çizgilerin temsil
+ettiği gibi bu elektron mıknatısın iç
+kısmında sağ tarafa doğru düzgün bir
+manyetik alan oluşur gençler bunu bir
+çubuk mıknatıs gibi hayal edersek
+mıknatısın iç kısmında manyetik alan
+çizgileri hangi kutuptan hangi kutba
+doğru gidiyordu iç kısmında s'den n'ye
+gidiyor Dolayısıyla Burası iç kısım ve
+sağa doğru gidiyorsak şuraya s Kutbu
+buraya n Kutbu diyebiliriz bakın
+Sonrasında da n'den çıkıp S'ye doğru
+gidiyor normal bir mıknatısmış gibi
+davranıyor işte elektro mıknatıs
+dediğimiz şey budur Ben buradaki
+sarımlardan elektrik akımı geçirdikçe bu
+arkadaş bir mıknatıs gibi davranır
+manyetik alan çizgileri Aynen bir
+mıknatısın manyetik alan çizgileri gibi
+iç kısmında düzgün manyetik alan oluşur
+s Kutbu n Kutbu olan bir çubuk mıknatıs
+gibi davranmaya başlar Bu akım ne kadar
+şiddetli ise burada oluşan manyetik
+alanda o kadar fazladır Çünkü düz telde
+gençler etrafında manyetik alan
+oluşuyordu 2K iyi bölü D ile buluyorduk
+bu manyetik alanı akım ne kadar fazla
+ise etrafındaki manyetik alanda o kadar
+şiddetli oluyordu aynı mantık burada da
+var sadece telini attım çember haline
+getirdim ve bir sürü Çemberi yan yana
+sardım Dolayısıyla elektro
+mıknatısındaki manyetik alan tellerden
+geçen akımla doğru orantılı olacaktır
+Neden böyle yan yana bir sürü sarım
+yapıyoruz tek bir halka yapsaydık dikkat
+ederseniz tek tek halkaları
+düşündüğünüzde hepsinin iç kısmında bir
+manyetik alan oluşuyor ve hepsi aynı
+yönde oluşuyor hepsi aynı yönde oluştuğu
+için bunlar birbirlerini
+şiddetlendiriyorlar bu mantıktan yola
+çıkarsak bu halkalar ne kadar yaklaşırsa
+ne kadar sık olursa bu halkalar manyetik
+alan o kadar şiddetlenir peki bu
+halkaların sık olması nedir İşte biz bu
+halkaların sık olmasını aralarındaki
+mesafenin kısa olmasına sarım yoğunluğu
+diyoruz sarım yoğunluğu ne kadar
+fazlaysa manyetik alan o kadar şiddetli
+olacaktır Peki sarım yoğunluğunu
+kafamıza nasıl kodlayabiliriz şöyle
+halkanın birincisi burada sonuncusu
+Burada şu aradaki mesafeye Ben L
+mesafesi diyorum kaç tane halka var
+burada bir iki üç dört beş altı tane Biz
+6 tane halkayı L uzunluğa sarmışız Şimdi
+ben buradaki L uzunluğunu azaltsam o 6
+tane halka daha dar bir alana sarılsa o
+zaman buradaki halkalar ne olacak
+mecburen birbirine yaklaşacak İşte bu da
+sarım yoğunluğunu arttırır sarım
+yoğunluğunun artması manyetik alanı
+şiddetlendirir halkalar yaklaştıkça
+birbirini güçlendirir yani sarım
+yoğunluğu dediğim şey l ile ters
+orantılı sarı mesafesiyle ters orantılı
+Peki tarım yoğunluğu sabit kalsın bu
+arkadaş sabit 6 tane sarım değil de 16
+tane sarım yaptım daha çok sarım yaptım
+aynı bölge aynı bölgeye daha çok sarım
+yaparsanız yine bunların arasındaki
+Mesafeler kısalır sarımlar yakınlaşır
+sıklaşır sarım yoğunluğu artar o zaman
+manyetik alanda artar sarım sayısına ne
+edersek Demek ki sarım yoğunluğu dediğim
+şey n bölü l'dir sarım sayısı bölü
+sarıldıkları mesafe ve son olarak
+gençler Niye bir demirin üzerine
+sarıyoruz Çünkü Demir ferromanyetik bir
+maddedir ferromanyetik maddeler dış
+manyetik alandan şiddetli şekilde
+etkilenirler ve kendileri de bir
+mıknatıs olurlar o manyetik alanı
+güçlendirirler şurada bir sabit sayımız
+var ortam sabitimiz var çok önemli değil
+buradaki sayıları bilmeniz Demir
+kullanmak bu bakır telleri demirin
+üzerine sarmak buradaki kaayı arttırıyor
+o da manyetik alanı arttırıyor İlla bir
+şeyin üzerine sarmak zorunda değiliz Bu
+arada normal havanın üzerinde de
+sarabilirdik ve yine manyetikten
+oluşturduk ama böyle bir demirin üzerine
+sararsanız oluşturduğunuz manyetik alan
+daha da şiddetlenir aslında mıknatıs
+olan şey sizin buradaki demiriniz olmuş
+olur ferromanyetik maddeler bir manyetik
+alana konulurlarsa kendileri bir
+mıknatıs haline gelir Dolayısıyla
+buradaki demirin s kutbunu n kutbunu
+oluşturmuş olursunuz böyle bir
+elektromıknatısı da bu iç kısımda
+oluşturulan manyetik alan ortamla
+alakalı Her zamanki gibi tellerden
+geçiren akımla doğru orantılı ve sarım
+yoğunluğuyla doğru orantılı Gençler bu
+formül ders kitabınızda yok bilmenize de
+gerek yok Ama yorum sorularında daha
+önce soru çıktı o yüzden yine görsel
+olsun diye ben bunu yazdım ama sınav
+esnasında unuttuğunuzda da kafanıza
+takmayın demirin Üzerine niye sardığımız
+aklınıza gelsin ortamla ilgili manyetik
+alanını şiddetlendiren bir durumdur
+Ferro Manyetik maddeler zaten Buradaki
+manyetik alanın sebebi tellerden akım
+geçmesi akımla doğru orantılı ve neden
+burada bir sürü halka var Niye bir sürü
+sarım var çünkü bunlar birbirlerini
+şiddetlendiriyorlar O yüzden ne kadar
+yakın olurlarsa o kadar şiddetli olur
+işte o yakınlıkta sarım yoğunluğu
+dediğimiz bu ifadeyle bulunuyor Hatta bu
+formülü şurada bir Pi sayısı var Ama
+dediğim gibi çok önemli değil
+simülasyonda bu değişkenleri konuşalım
+elektromıknatısımız var burada bir güç
+kaynağına bağlanmışlar dikkat ederseniz
+herhangi demirin üzerine sarılmamış
+bildiğiniz havaya sarılmış dediğim gibi
+bu da mümkündür Demir kullanmak sadece
+manyetikalı şiddetlendirir ama Demir
+olmazsa bu arada manyetik alan oluşmaz
+diye de bir şey söz konusu değil Şu an
+bir manyetik alan yok çünkü güç kaynağı
+0 voltu gösteriyor güç kaynağının sıfır
+volt değil de 3 volt 5 volt yaparsanız
+buradaki sarımlarda elektrik akımı
+dolaşır ve manyetikten oluşur Ben bunu
+arttırıyorum 3 volt yaptım 3 volt
+yaptığım anda manyetik alan çizgilerini
+gördünüz parlak oldukları yerlerde
+manyetik alan şiddetli soluk oldukları
+yerlerde manyetik alan zayıf Şimdi
+burada alan metre diye bir şey var yani
+manyetik alan şiddetini ölçüyor Bakın Şu
+an bulunduğumuz yerde 0.43 manyetik alan
+var Ben bunu elektro mıknatısa
+yaklaştırdığımda bunun arttığını
+görüyorum hatta bizim ilgilendiğimiz
+yere Yani iç kısma baktığımızda 90 gibi
+bir sayı görüyoruz Çok şiddetli bir
+manyetik alan var şu an Peki ben akım
+değerini arttırırsam film voltajını
+arttırarak yapacağım bunu 6 volt yaptım
+180'e çıktı manyetik alanımız pil 2
+katına çıktı Dolayısıyla akım iki katına
+çıktı Dolayısıyla manyetik alan iki
+katına çıktı sarım sayısına bakarsak şu
+an 4 sarım var burada Ben bunu 3
+yaptığımda manyetik alan 135'e düştü 2
+yaptığımda 90'a düştü 1 yaptığımda 45'e
+düştü sarım sayısı ile manyetik alanın
+orantılı olduğunu görüyor tabi Burada
+sarım yoğunluğuna dikkat etmemiş bu
+simülasyon l'yi pas geçmiş Yani sarımın
+sarıldığı aralığı pas geçmiş sadece ny
+sarım sayısına odaklanmış ama biz işin
+mantığını biliyoruz Çok takılmayalım
+oraya şimdi ben Şuraya bir pusula
+yaklaştırıyorum pusulanın burada böyle
+durduğunu görüyorum pusulanın Şu kırmızı
+kısmına ne Kutbu diyelim beyaz kısmına s
+Kutbu diyelim pusulanın n Kutbu Buraya
+yakın olduğuna göre bizim buradaki
+elektro mıknatısımızın sol tarafı s
+kutbudur sağ tarafı n kutbudur
+diyebiliriz yani buradaki manyetik alan
+çizgileri s'den n'ye Doğru sağ tarafa
+doğru içinde çizilebilir şimdi şuna
+dikkat etmenizi isteyeceğim Ben buradaki
+pilin kutuplarını değiştirirsem 6 voltu
+-6 volt yaparsam pili ters çevirmiş
+olurum Yani sol tarafa eksi sağ tarafa
+artıysa -6 yaptığımda tam tersi yapmış
+olurum sol tarafa Artı sağ tarafa eksi
+yapmış olurum Bu da akımın yönünü
+değiştirir akımın yönü değiştiğinde Ne
+oldu Dikkat edin Pusulam döndü Burası n
+oldu burası s oldu kırmızı artık solu
+gösteriyor yani n Burası s Burası Demek
+ki benim elektromıknatısım işaret
+değiştirdi burası n oldu burası s oldu
+artık manyetik alan çizgilerimiz sol
+tarafa doğru gençler Çünkü elektrik
+akımı yön değiştirirse sağ el kuralında
+4 parmağınızın yönü değişir baş
+parmağınızı gösterdiği yönde değişir
+Elektrik akımının yönü değiştikçe
+pusulanızın yönü de değişecektir
+manyetik alanınızın yönü de değişecektir
+burada gördüğümüz olay bundan ibarettir
+gelelim tyt için önemli yere bu
+elektromıknatıslar nerede kullanılırlar
+Dediğim gibi bunlar kontrol edilebilir
+mıknatıs akım geçirirsem mıknatıs
+oluyorlar geçirmezsem normal bir demir
+parçası oluyorlar en çok kullanıldığı
+yerler kapı otomatikleri 6 katta
+oturuyorsunuz aşağıdan birisi Zile bastı
+Siz yukarıdan bir düğmeye basıyorsunuz
+aşağıdaki Kapı açılıyor bu nasıl oluyor
+Aslında sizin aşağıdaki kapınızda bir
+elektro mıknatıs var yani bir demir var
+üzerinde bakır sarılmış yukarıdan
+düğmeye bastığınızda o bakırdan elektrik
+akımı geçiyor elektro mıknatısınız
+mıknatıs haline geliyor bu Demir artık
+bir mıknatıs oluyor ve Hatta kapının
+dilini kontrol eden başka bir demiri
+kendine doğru çekiyor kapına nasıl
+açılır kolu tutarsanız aşağı çekersiniz
+kolay aşağı çektiğinizde kapının dilini
+içeriye doğru sokmuş olursunuz kapıda
+kilitten kurtulmuş olur Ben bunu
+yukarıdan nasıl yapıyorum bir mıknatıs
+kullanarak yapıyorum şimdi ben kapıya
+bir mıknatıs koysaydım kalıcı bir
+mıknatıs normal bir çubuk mıknatıs
+koysaydım Tamam kapının dilini kendine
+doğru çekerdi Ve hep öyle kalırdı
+bırakamazdı Çünkü bu hep mıknatıs Ama
+kontrol edilebilir bir mıknatıs yani
+elektron mıknatıs kullanırsam yukarıdan
+düğmeye basarım buradan elektrik akımı
+geçer bu demir parçası mıknatıs olur
+kapının dilini kendine doğru çeker kapı
+açılır Yukarıdaki düğmeyi bırakırsam
+buradaki Elektrik akımını kesmiş olurum
+manyetik alan yok olur bu arkadaş yine
+sıradan bir demir parçası olur Demir
+demiri çekmez bu ne yapar bırakır bunu
+orada bir yay da koyarsanız tekrar
+geriye gider kapının dili Tekrar dışarı
+çıkmış olur kapı otomatiği dediğiniz şey
+elektromıknatısın en çok kullanıldığı
+yerdir eski tip kapı zillerinde de
+elektro mıknatıslar kullanılır gençler
+genel olarak devre şeması şudur şurada
+iki tane elektromıknatıs görüyorsunuz
+burada bir güç kaynağımız var burada bir
+anahtarımız var burada da zilimiz var
+şurada bir tokmak vari bir şey var bu
+arkadaş buraya çarptığında ses çıkıyor
+Siz Zile bastığınızda Aslında Şuradaki
+anahtarı kapatıyorsunuz gibi Böylece
+devrede elektrik akımı dolaşmaya
+başlıyor buradaki bakır tellerden
+elektrik akımı geçiyor ve Bunun
+içerisinde bir manyetik alan oluşuyor
+aynı şekilde Burada da bir manyetik alan
+oluşuyor Bu manyetik alanlar Şuradaki
+Demir parçalarını mıknatıs haline
+getiriyor Bunlar mıknatıs olunca şu
+demiri kendine çekiyor Bu demiri kendine
+çekiyor Dolayısıyla buna bağlı olan bu
+tokmağı kendine doğru çekiyor ve Zile
+vurmuş oluyor Bu akım kesildiği anda
+bunlar sıradan demir parçası oluyorlar
+manyetik alanlar yok oluyor bu arkadaş
+tekrar geri gidiyor demir parçası Eski
+yerine gidiyor bir daha akım geçerse
+tekrar manyetik alanlar oluşuyor tekrar
+Bunlar mıknatıs tekrar buraya yapışıyor
+tekrar bu arkadaş Zile çarpıyor ve ses
+çıkıyor hocam burada akım bir oluşuyor
+bir oluşmuyor Zile sürekli basacak mı
+yapmamız gerekiyor Hayır bu ayette de
+gördüğümüz alternatif akım değişken akım
+dediğimiz bir akımla çalıştığı için
+Aslında zaten Buradaki akımın sürekli
+oluştuğunu ve sıfırlandığını
+söyleyebiliriz oralara girmemize gerek
+yok Siz Şuradaki elektromıknatıs
+mantığını Anlasanız buradaki mekaniği
+Anlasanız bizim için yeterlidir elektro
+mıknatıslar bazı vinç çeşitlerinde de
+kullanılırlar şurada dev bir elektro
+mıknatıs var aslına bakarsanız özellikle
+hurdacılar Bunu kullanırlar Şuradaki
+operatör bir düğmeye basar buradaki
+Demir parçası bir mıknatıs haline gelir
+buradaki bakır tellerden akım geçtiği
+için manyetik alan oluşturdukları için
+Böylece buradaki hurdaları kendine doğru
+çeker alır götürür bırakacak kalıcı bir
+mıknatıs olsaydı bu bırakamazdı elimizde
+kalırdı ama ben buradan akımı kesersem
+operatör oradaki akımı keserse bu yine
+sıradan bir demir parçası haline gelir
+diğer hurda demirleri bırakır İstediğim
+zaman mıknatıs yapabiliyorum istemediğim
+zaman yapmıyorum elektro mıknatısların
+kullanıldığı yerlerden bir başkası artık
+bu eski bir teknoloji ama telgraflar da
+Bu mantıkla çalışıyorlardı telgraf
+dediğiniz şey aslında kocaman bir kapalı
+elektrik devresi Sizin burada bir
+cihazınız var buradan kablolar gidiyor
+Burada bir alıcı cihaz var alıcı cihaz
+bir Electro mıknat burada bir anahtar
+Aslında sizin cihazınız yani şu bir
+anahtar aslına bakarsanız Tabii burada
+bir güç kaynağı da var Elektrik akımının
+oluşturmasını sağlayacak Siz buradan
+basıyorsunuz Aslında Şuradaki anahtarı
+kapatıyorsunuz ve böylece devrede
+elektrik akımı dolaşıyor elektrik akımı
+dolaşınca Şuradaki elektro mıknatıs bir
+mıknatıs haline geliyor ve Orada bulunan
+bir kağıt üzerinde bir iz bırakıyor Ben
+buradaki anahtar açıp kapatarak yani şu
+arkadaşa bas çek yaparak belli
+periyotlarla elektrik akımı
+oluşturuyorum devrede Uzaktaki bir
+alıcının Demir parçasını elektro
+mıknatıslı haline getiriyorum bu alıcı
+taraftaki elektromıknatıs olsun burada
+kaleme benzer bir şey olduğunu düşünelim
+metalden yapılmış olsun burada bir kağıt
+olsun Şu Arkadaş akımı gönderdi Bu
+elektromıknatısı oldu buradaki kalemi
+kendine doğru çekti buradaki kağıtta bir
+iz bıraktı buradaki anahtarı tekrar
+açtık akım kesildi bu arkadaş geri gitti
+belli periyotlarla bunu hareket
+ettirebilip ona bir mesaj
+gönderebiliyorum O belli periyotlarda
+zaten bildiğiniz gibi mors alfabesidir
+çizgi nokta çizgi çizgi gibi bir
+alfabesi vardır Bu işin Siz de ona göre
+buradaki anahtarı açıp kapatırsınız ve
+buradaki uzaktaki elektromıknatısı
+kontrol edip haber göndermiş olursunuz
+ampermetre voltmetre dediğiniz ölçü
+aletleri aslında birer elektro
+mıknatısdır bakın burada Bir bobin var
+burada bir n Kutbu s Kutbu olan bir
+mıknatıs sistemi var Dolayısıyla burada
+bir manyetik alan var n'den S'ye doğru
+bir manyetik alan içerisine Siz ekstra
+bir elektro mıknatıs koyuyorsunuz Bir
+bobin koyuyorsunuz diyelim ki bu bir
+ampermetre olsun ampermetre üzerinden
+geçen akımı ölçer bir iğnesi vardır kaç
+amperi gösteriyorsa 3 amper 5 amper
+demek ki bu kadar akım geçiyormuş
+dersiniz ampermetrenin iç yapısı bu
+zaten diyelim ki Şuradan iki amper
+geçiyor 2 amper geçtiğinde bu teller bir
+manyetik alan oluşturuyorlar burada
+oluşan yeni manyetik alan şu dış
+manyetik alanla etkileşim bir manyetik
+kuvvet doğuruyor o manyetik kuvvet de
+Şuradaki iğnenin sapmasına sebebiyet
+veriyor bu iğne buradan buraya geliyor
+Ne tesadüfe bakın ki burada da iki
+yazıyor diyorsun ki A2 amper geçmiş
+buradan 4 amper geçirirseniz akım
+arttıkça elektromıknatısın manyetik alan
+şiddeti artar buradaki elektr daha
+şiddetli bir elektromıknatıs haline
+geliyor dış manyetik alanla daha çok
+etkileşiyor daha büyük bir manyetik
+kuvvet doğuyor Dolayısıyla sizin iğneniz
+daha da çok sapıyor buradan buraya
+geliyor Ne tesadüf ki burada da 4
+yazıyor diyorsunuz ki demek ki devrede 4
+amper dolaşıyor işte ampermetrenin
+çalışma mantığı da elektromıknatısı
+sayesindedir müzik dinlediğimiz hoparlör
+de gençler elektro mıknatıs barındır
+bakın net gözüküyor mu bilmiyorum ama
+şurada bir elektro mıknatıs var bir
+sarım var Bir bobin var Bir de şu
+dışarıda bir mıknatıs var hoparlör bir
+amfiye bağlı O da bir mikrofona bağlı
+mikrofondaki ses elektrik sinyallerine
+elektrik akımlarına dönüştürülüyor o
+elektrik sinyalleri hoparlöre geldiğinde
+Şuradaki bakır teller üzerinden geçip
+onu bir mıknatıs haline getiriyor
+elektromıknatıs oluyor ve burada bir
+manyetik alan oluşuyor Bu manyetik alan
+şu dışarıdaki mıknatısın manyetik
+alanıyla etkileşerek yine bir manyetik
+kuvvet oluşturuyorlar o manyetik
+kuvvette şurada diyafram dediğimiz bu
+yumuşak kumaşımsı malzemeyi
+titreştiriyor Bu da ses duymamıza
+sebebiyet veriyor sizin sesinizin
+frekans göre buradan farklı akımlar
+geliyor farklı akımlar buradaki elektro
+mıknatıs da farklı manyetik alanlar
+oluşturur farklı manyetik alanlar bu dış
+manyetik alanda farklı etkileşir farklı
+kuvvetler doğar o farklı kuvvetlerde
+buradaki bu kumaş parçasını farklı
+titreştirir ve farklı sesler duyarsınız
+son olarak maglev treni de
+elektromıknatısların kullanıldığı yerler
+maglev trenin açılımı gençler manyetik
+levitasyon levitasyon yükselme demek
+manyetik olaylar sayesinde tren
+yükseltiliyor raylarda gitmiyor bildiğin
+havada süzülüyor Bu da sürtünmenin
+minimum olması demek sürtünme minimumsa
+bu arkadaş baya yüksek hızlara
+ulaşabiliyor uçaklar gibi Uçaklarda
+saatte 70800 km hıza ulaşabilirler yarış
+arabalarımız bile o hızlara
+Ulaşamıyorlar çünkü adam havada
+süzülüyor minimum sürtünme var trenlerde
+de bu mantığı yapıyoruz Peki koca tren
+nasıl yükseltilir koca trenin alt
+kısımlarında elektro mıknatıslar var bu
+elektromıknatıslardan elektrik akımı
+geçirdiğinizde çok güçlü bir manyetik
+alan oluşuyor raylarda da mıknatıslar
+var İki kutbun itmesi mantığıyla nn'yi
+itince ne yapar tren yükselir raylarda
+mıknatıslar var trenin altında
+elektromıknatıslar var akım
+geçirdiğinizi o elektromıknatıslar
+mıknatıs haline geldiğinde tren havaya
+kalkıyor ve havada ilerliyor gençler
+elektro mıknatısların günlük hayattaki
+kullanım alanları oldukça fazladır
+yukarıda verilen araçların hangilerinde
+elektro mıknatıs kullanılır denilmiş
+kapı otomatikleri şimdi anlattım burada
+araç vinçleri şimdi anlattım buzdolabı
+kapakları bunu iki şekilde anlayabiliriz
+buzdolabı kapaklarına dikkat ederseniz
+tam kapatmayın yaklaştırın o kendi
+kendine kapanır çünkü onun iç kısmında
+da mıknatıslar var ama onlar kalıcı
+mıknatıs normal Çubuk mıknatıs gibi yani
+ben burada kapıyı yaklaştırayım sonra
+orada bir düğmeye basayım akım geçsin bu
+bir mıknatıs haline gelsin ve yapışsın
+demiyoruz hep çekiyor ikinci kastımız
+burada buzdolabına yapıştırdığımız
+manyetik süsler de olabilir mıknatıslar
+yapıştırırız süsler yapıştırırız
+buzdolabı kapağına onlar da kalıcı
+mıknatıs İstediğim zaman mıknatıs
+istemediğim zaman değil olmuyorlar
+Dolayısıyla Burada herhangi bir elektro
+mıknatıslık durum yok sorumuzun cevabı b
+şıkkıdır
+[Müzik]

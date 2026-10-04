@@ -1,0 +1,961 @@
+gençler Merhaba bugünkü dersimizde
+kırılma ile ilgili Genel bir soru çözümü
+yapacağız Hemen başlayalım aynı renkli
+ışınların kırıcılık indisi NX n ve nz
+olan ortamlarda izlediği yol şekildeki
+gibiymiş Buna göre ortamların kırıcılık
+indislerinin büyüklük sıralamasını
+sormuş bize az indis çok indis geçiyorsa
+normale yaklaşıyoruz çok indis az indis
+geçiyorsa normalden uzaklaşıyoruz x
+ortamından Z ortamına geçiyoruz ayırıcı
+yüzeyim şu gri çizgi O ayırıcı yüzeye
+dik normal çizgimi çektim Bu arkadaşın
+or orinal Rotası bu köşegen köşegen
+geliyor sol tarafta normal var normale
+doğru yaklaşmış Demek ki az indis çok
+indis geçiyor demek ki X'in indisi küçük
+Z'nin indisi aynı şeyi yz için de
+yapacağım ışınımı gelmiş ayırıcı yüzey
+Burası ayırıcı yüzeye dik normalim mi
+Çektim y ışınının orijinal Rotası bu 2ye
+Birlik Bir kutunun köşegeni olarak
+geliyor Normal sağ tarafta O da sağ
+tarafa yaklaşmış normale yaklaşmış Demek
+ki burada da az indis çok indis geçiş
+var Z ortamı Y'ye göre ışığın daha yavaş
+olduğu bir ortam O yüzden daha kestirme
+meden gidiyor gibi düşünebildiğim zi
+söylemiştim y'nin indisi küçüktür Z'nin
+indisi şimdi Z ikisinden de büyük x'ten
+de büyük y'den de büyük x ile y'yi nasıl
+kıyaslayacak konu anlatımlarında bolca
+vurguladığımız hayat kurtaran bir şeyle
+Eğer ortamlar arasındaki indis farkı
+yani Delta n büyükse kırılma artar
+Örneğin az inden çok indis geçiyorsunuz
+Işığın yavaşladığı bir yere geçiyorsunuz
+ışığınız geldi geçtiği tarafta çok çok
+çok yavaşlıyo Oranın indisi çok büyüktür
+çok fazla kestirmeden gider bu da
+orijinal rotadan çok sapma demektir
+indis farkı büyürse kırılma artar o
+zaman x'ten Z'ye ve y'den Z'ye geçişe
+bakarken hangisinin orijinal rotasından
+daha çok saptığını bakarak hangisine
+daha çok kırılmanın olduğunu
+anlayabilirim Böylece indisleri
+kıyaslayan Z'ye geçişi burada görüyoruz
+x'ten Z'ye geçişi de buraya taşırsam x
+köşegen köşegen geliyordu Yani bu
+arkadaş şöyle geliyor Z'ye geçtiğimizde
+3'e Birlik Bir kutunun köşegeni olarak
+gitmiş bu kutunun köşegeni E bu
+görüntünün aynısını sağ tarafta
+yakalarsam y'den Z'ye geçerken de aynı
+kutunun köşegeni olarak gidiyor Işın
+siyah mı orijinal rotasından daha çok
+sapmış kırmızı mı Siyahın orijinal
+Rotası köşegen Ken Kırmızının orijinal
+Rotası ikiye Birlik Bir kutunun köşegeni
+yani şu siyah çok sapmış kırmızı daha az
+sapmış diyebiliriz siyah dediğim şey x
+ortamındaki ışını temsil ediyor
+Dolayısıyla x'ten Z'ye geçişte kırılma
+çok fazla Demek ki burada indis farkı
+çok fazla y'den Z'ye geçişte kırılma
+daha az orijinal rotaya daha Yakınız o
+zaman indis farkı daha az Hatta indis
+farkı olmasa ne olur hiç kırılmazsın
+dümdüz gidersin İşte o yüzden diyoruz
+kırılma azsa
+Ben burada sayı versem x'e 1 desem Z'ye
+3 indis desem burada da Z'ye 3 diyeceğim
+buradaki fark daha az olacağı için Y'ye
+2 diyebiliriz buradaki fark 2 buradaki
+fark 1 o zaman Sorumun cevabı ne olur Z
+en büyük sonra y sonra x yani Sorumun
+cevabı B seçeneğidir aynı renkli ışının
+a b ve c ortamlarında izlediği Yollar
+şekil 1 ve şekil 2'deki gibidir Buna
+göre aynı renkli Işın B ortamından C
+ortamına gönderildiğinde şekil 3te
+verilen yollardan hangisini izleyebilir
+diye sorulmuş bir önceki soruya benzer
+bir mantığımız var Farklı ortam lar var
+Farklı kırılmalar var yine indisler
+hakkında yorum yapmam lazım o zaman
+benim çıkış noktam indis farkı büyükse
+kırılma büyüktür olacak ve burada tam
+Yansımalar sınırdan gitmeler Görüyorum
+yine şunu hatırlayalım çok indis az
+indice geçiyorsan normalden uzaklaşırsın
+indis farkı artarsa daha çok
+uzaklaşırsın daha da çok artarsa
+sınırdan gidersin daha da çok artarsa
+tam yansıma yaparsın tam yansıma
+kırılmanın son noktasıdır demiştik ama
+tekrar parantez içinde söylüyorum tam
+yansıma bir kırılma değildir adından da
+Anlaşılacağı üzere bir yansımadır ama o
+sürecin son aşaması Eğer bir yerde tam
+yansıma varsa iki ortam arasındaki indis
+Çok da yakın değildir birbirine uzaktır
+diyebiliriz ya da çok büyük bir açıyla
+normale gönderilmiş sindir sınır
+açısından daha büyük bir açıyla
+gelmiştir Işın başka bir ihtimal yok
+şimdi şurada bir teta açısı verilmiş
+ayırıcı yüzeye dik bu kesikli çizgi
+Bizim normal çizgimiz teta Gelme açısı
+değil Gelme açısı her zaman normalle
+ışının arasındaki açıdır buraya Alfa
+dersem Alfa + tanın 90 olduğunu söylemiş
+olurum alfaya da Gelme açısı demiş olur
+Alfa la gelmiş ve B ortamına geçememiş
+yansımış Burası da Alfa olacak Tam
+yansıma var tam y yansıma çok indis az
+indis geçerken oluyordu kesinlikle A'nın
+indisi B'den büyüktür hem de tam yansıma
+olduğuna göre Muhtemelen diğerlerine
+göre daha büyük bir indis farkı vardır
+burada diyebiliriz mesela aynı A'dan
+C'ye geçiyorum ve aynı Alfa ile
+geliyorum çünkü Burayı da teta vermiş bu
+iki şekil birebir aynı b yerine C'yi
+koyduğumuzda tam yansımanın bir aşama
+öncesi olmuş sınır açısı olmuş burada da
+çoktan aza geçiyoruz Burada da a indisi
+C'nin indis inden büyük ama şöyle
+diyebiliriz A'nın indisine ben 3 dersem
+B'nin indisine 1 derim A'nın indisine 3
+dersem C'nin indisine 2 derim burada
+indis farkı daha az olmalı Çünkü kırılma
+daha az orijinal rotaya yakınlık daha az
+A'dan C'ye geçerken hiç indis farkı
+olmasaydı Işın dümdüz giderdi A3 C3
+C'nin indisini 2,5 yaparsam çoktan aza
+geçme olur normalden uzaklaşırız şöyle
+falan gider C'nin indisini 2.2 yaparsam
+indis farkı biraz daha artar kırılma
+daha çok artar orijinal rotan daha çok
+uzaklaşırsın C'nin indisini 2 yaparsam
+orijinal rotan daha da çok uzaklaşırsın
+mesela sınırdan gidersin C'nin indisini
+mesela 1 yaparsam buradaki b gibi E o
+zaman orijinal rotam daha da çok
+uzaklaşırım E buradan daha fazla
+uzaklaşmak ne demek C ortamına
+geçemeyecek demek yani tam yansıma
+yapacaksın demek aynı burada olduğu gibi
+İşte o yüzden B'nin indisi daha küçük
+C'nin indisi daha büyük buradaki Delta n
+daha küçük burada Delta n daha büyük bu
+akıl yürütmeler kırılmanın kalbidir
+kesinlikle buraları İyi anlamalısınız
+peki B'den cye geçiş B'nin indisine 1
+dedim C'nin indisine 2 dedim Bu sayıları
+kafamdan salladım ama kesinlikle B'nin
+indisi in c'den küçük olduğunu ben bu
+iki şekilden çıkarttım E o zaman ne
+oluyor Az indis çok indis bir Işın
+göndermiş bu bizim normal çizgimiz Azdan
+çoka geçerken tek bir ihtimal var
+normale yaklaşırsın sınır açısı tam
+yansıma gibi şeyler olmaz sınır açısı ve
+tam yansıma ancak çoktan aza geçerken
+oluyordu hatırlarsanız Dolayısıyla Bu
+arkadaşın orijinal Rotası şu İsa Eğer
+indis farkı Olmasaydı böyle giderdi az
+indis çok indis geçiyoruz normale
+yaklaşacağız yavaşladığını bir ortama
+geçiyoruz Işık burada yavaşlıyor Demek
+ki kestirmeden gidecek Çünkü fermat
+prensibi Sorumun cevabı 5 numara
+olacaktır yani e seçeneği olacaktır
+geldik 3 soruya ama bu soruya bir ekleme
+yapacağız şuraya ayırıcı yüzeylerin
+birbirine paralel olduğu ifadesini
+ekleyeceğiz bir ışık ışınının ayrıcı
+yüzeylerin birbirine paralel olduğu x y
+ve z ortamlarında izlediği yol şekildeki
+gibiymiş Buna göre hangileri doğrudur
+diye sorulmuş Şimdi x ve y'yi ayıran bu
+ayırıcı yüzey ile y ve Z'yi ayıran bu
+ayırıcı yüzey birbirine paralel x'ten
+Y'ye 50 derecelik bir gelme açısıyla
+Işın geliyor kırılıyor Y'ye geçiyor
+y'den Z'ye giderken de sınır yapıyor Muş
+burayı nasıl yorumlayacak paralel yüzlü
+ortamlardan geçiş şimdi Bak burada bir
+normal çizgimiz var 50 derecelik açıyla
+geldik hangi açıyla kırıldığımız belli
+değil ama alta baktığımda y'den gelen
+ışın şu ayırıcı yüzeyle 50 yapıyor bu
+Gelme açısı değil Gelme açısı şurası dır
+Bu normal olduğuna göre komple Burası 90
+olduğuna göre Gelme açısı 40 derecedir
+buradaki normal çizgisi ile buradaki
+normal çizgisi birbirine paralel Çünkü
+bu yüzeyler birbirine paralel O zaman
+burada bir Z var şurası 40 dce ise Z'den
+dolayı Burası da 40 derece 50 ile geldik
+40' la kırıldık daha küçük açıyla
+kırılıyoruz yani normale yaklaşıyoruz Bu
+arkadaşın orijinal Rotası şöyle bir şey
+normal sol tarafta ışınımı sol tarafa
+gitmiş normale yaklaşmış Demek ki az
+indis çok indis geçiyoruz X'in indisi
+küçüktür y'nin indisi diyebiliriz y'den
+Z'ye geçerken 40 derece ile geçiyoruz 90
+derece ile kırılıyoruz yani sınır açısı
+yapıyoruz sınır açısı ancak çok inden az
+indis geçerken oluyordu Dolayısıyla
+y'nin indisi Z'den Büyük e y ikisinden
+de büyük x ile Z'yi nasıl kıyaslayacak x
+ile Z bir birbiriyle muhattap da olmuyor
+paralel yüzlü ortamlarda bir taktiğim
+var aslında kendiniz de tür tebil bunu
+şu noktada bir sinal yaz bu noktada bir
+sinal yaz Bu iki sineli kıyasla mesela
+x'ten Y'ye geçerken sinal bağıntısını
+yazıyorum x ortamının indisi NX çarpı
+oradaki gelme açısının sinüsü sinüs 50
+eş y ortamının kırıcılık indisi n çarpı
+o ortamdaki açının sinüsü sinüs 40 sinüs
+50 büyü sinüs 40 daha küçük burada bir
+eşitlik var büyüğün yanında küçük olmalı
+yani NX küçük küçüğün yanında büyük olm
+olmalı n y büyük E zaten biz bu
+bağıntıyı yazdık şimdi buradaki sineli
+yazıyorum y ortamının indisi çarpı
+oradaki açının sinüsü sinüs 40 = Z
+ortamın indisi çarpı oradaki açının
+kırılan ışının normalle yaptığı açının
+sinüsü sinüs 90 sinüs 90 büyük bir
+sayıdır sinüsün alabileceği maksimum
+Değerdir 1'dir sinüs 40 daha küçük bir
+sayıdır burada bir eşitlik var büyüğün
+yanında o yüzden küçük olmalı küçüğün
+yanında o yüzden büyük olmalı y'nin
+indisi Z'den büyüktür E bunu da
+yazmıştık şimdi bu iki denklemde bir şey
+fark ediyor musunuz bu iki denklemin bir
+ortak noktası var n x sin 40'lar ortak n
+y x sin 40 buna eşit n y x sin 40 buna
+eşit O zaman bu arkadaşla bu arkadaş da
+eşit yani NX x sin 50 = nz x sin90 sin90
+büyük bir sayıdır sinüs 50 küçük bir
+sayıdır eşitlik var büyüğün yanında
+küçük olur nz küçüktür küçüğün yanında
+büyük olur NX büyüktür yani NX > nz
+Hatta bu denklem bana bir şekil
+anlatıyor x ortamıyla z ortamını Biz yan
+yana getirsek Mesela bu y'yi aradan
+çıkartsın bu y hiç yokmuş gibi düşünsek
+x ile Z böyle alt alta olsa burası x
+ortamı Burası Z ortamı şu benim normalim
+Işın Aynı burada olduğu gibi 50 derece
+ile geliyor NX Ç sin 50 nz x sin90
+kırılma açısı 90° olacak yani sınırdan
+gidecek bu Işın böyle gelir böyle gider
+X ve z yan yana olduğunda da yani ben bu
+şekilde y'yi aradan çıkarsam x ortamında
+Işın Aynen böyle gelir Z ortamında Aynen
+böyle sınır yapar şekil böyle olur
+paralel yüzlü ortamların özelliği budur
+aradaki ortam çıkartırsan üstteki ile
+alttaki hiçbir şey olmamış gibi
+hayatlarına devam eder gelen ışınla
+Şuradaki Işın Aynen devamdan onu
+söylüyor kırıcılık indisi en büyük olan
+ortam yd Evet y x'ten büyük y Z'den de
+büyük doğru x ortamının indisi Z'den
+büyüktür x ortamının indisi Z'den
+büyüktür Aynen öyle ışığın ortamlardaki
+ortalama süratleri arasındaki ilişki z >
+x > y indis bir ışığın ne kadar
+yavaşlatıldı bir göstergesiydi kırıcılık
+indisi dediğin şey ışığın boşluktaki
+hızı bölü ışığın o ortamdaki hızı indis
+indin büyük olması demek Işık o ortamda
+çok yavaş demek payda küçülürse sonuç
+büyür O yüzden indis le ışığın oradaki
+hızı ters orantılı Biz indis
+sıralamasını nasıl yaptık y en büyük
+sonra x sonra z o zaman hız bunun tersi
+Z en büyük hız sonra x sonra y 3üncü
+öncülü de doğru Bütün öncüller doğru
+dedim Sorumun cevabı e seçeneğidir hava
+ortamında bulunan o merkezli camdan
+yapılmış saydam yarım küreye K ışını
+şekildeki gibi gönderiliyor Buna göre K
+ışını şekilde verilen numaralandırılmış
+yollardan hangilerini izleyebilir diye
+sorulmuş burası hava ortamı ışınımı
+eğrisel bir yüzeye gönderilmiş eğrisel
+yüzeylerin Hele bu bir küre isse normal
+çizgisi merkezden çizilir aynı küresel
+aynalardaki gibi bu yarım kürenin
+Merkezi o noktası o zaman ışık tam şu
+noktaya geliyorsa merkezden oraya normal
+çizgisi çekerim bu kesikli çizgi benim
+normalim e k ışını şu an normalin
+üzerinden geliyor o zaman Aynen geçecek
+Çünkü buradaki eğrisel yüzeye Şu an 90
+derece yapıyor diyebiliriz geldim o
+noktasına Hocam yine Merkez var o zaman
+Aynen geçer diyemiyoruz konu anlatımında
+buna benzer bir şey konuşmuştuk bir
+ezberimizi yok yine normal çekeceğiz
+Burası eğrisel bir yüzey değil burası
+düz bir yüzey o düz yüzeye normal
+çizgisini dik çekmen gerekiyor normal
+çizgisi her zaman yüzeye diktir Burada
+da dikti zaten şurası 90 dereceydi E
+benim ışınım şu an böyle geldi belli bir
+Gelme açısı var aynen devam edemez Gelme
+açısı varsa kırılma açısı da olmalı cam
+ortamından hava ortamına geçmeye
+çalışıyoruz Çok indis az indis geçiyoruz
+çok indis az indis geçiyorsa Işığın
+hızlandığı bir bölgeye geçiyoruz durur
+Işık o hızın avantajını kullanmak için
+yolu uzatır normalden uzak şır bizim
+orijinal rotamız bu kırılmasaydı böyle
+gidecekti Normal bu tarafta normalden
+uzaklaşacak mesela 3 gibi gidebilirim
+mesela 2 gibi gidebilirim Hatta 1 gibi
+bile gidebilirim bu 3 2 ve 1 normalden
+uzaklaşma demek aslında normalden
+uzaklaşıp 3 numara gibi gidebilirim
+sınırdan gidebilirim buradaki açı tam
+sınır açısı İsa Kritik açı İsa sınırdan
+giderim sınır açısından büyük bir
+değerse ki camdan havaya geçişte yanlış
+hatırlamıyorsam 41 dereceydi atıyorum 45
+derece ile geliyorsa o zaman tam yansıma
+yaparım hangileri olabilir diye sorulmuş
+Sorumun cevabı e seçeneğidir x
+noktasından o merkezli D yarıçaplı cam
+küreye gelen s ışını küre içinde şekil
+1'deki gibi x y doğrultusuna paralel bir
+yol izliyormuş Buna göre s ışını şekil
+2de gösterilen yollardan hangisini
+izleyerek çıkabilir diye sorulmuş güzel
+şimdi ışınım buradan geldi cam küreye
+giriyor eğrisel bir yüzeye geldi oraya
+normal çekmem lazım eğrisel yüzey de
+normal merkezden çekilir şurası Benim
+gelme açım havadan cama geçiyorum az
+indis çok indis geçiyorum orijinal rotam
+şöyle bir şey az indis çok indis
+geçtiğim için yavaşladığı bir yere
+geçtiğim için kestirmeden gideceğim
+normale yaklaşacağım normale yaklaşıp
+böyle gitmişiz Burada dışarı çıkacak
+mıyız normalim ii çektik camdan havaya
+çıkamayız Hocam çok Hindistan az hindis
+geçerken normalden uzaklaşabilir
+sınırdan gidebiliriz tam yansıma
+yapabiliriz bunu konu anlatımında
+anlatmıştım size Özellikle bu şekli
+anlatmıştım eğer ben burada Alfa
+açısıyla geldiysem buradan çıkarken de
+Alfa açısıyla çıkar giderim Neden Çünkü
+Alfa la geldim diyelim ki Şuradaki
+kırılma açısı Beta Burası da badır çünkü
+burada aslında bir ikizkenar üçgen var
+burası Yarıçap e burası da Yarıçap
+burada bir üçgen var dikkat ederseniz R
+var R var o zaman burası bet ise Burası
+da Beta Işık tersine bilil ben bu ışığı
+Alfa ile getirdim Beta ile kırdım aynı
+ışığı geri gönderseydin Beta ile
+gelseydi havaya nasıl çıkacaktı Alfa ile
+çıkacaktı Işık geldiği yolu geri
+izleyebilir e aynısını işte burada
+yapıyoruz Bak Beta ile geliyor nasıl
+çıkacak o zaman Alfa ile çıkacak kırılma
+açısı Alfa olacak burasıyla burası
+simetrik olduğu için küreye D kadar
+uzaklıktan Geliyorsam küreye D kadar
+uzaklıktan geçer giderim hangi yolu
+izleyebilir diye soruyordu sorumuzun
+cevabı 4 numara olmalıdır D seçeneği
+olmalıdır şekildeki s ışını K ve L
+ayırıcı yüzeylerinde x noktasından
+yansıyıp y noktasında iki ışına
+ayrılıyormuş Buna göre hangileri doğru
+olabilir diye sorulmuş Şimdi burada
+öncüller incelendiğinde renklerle ilgili
+şeyler var renklerle ilgili birkaç bir
+şeyi Küresel aynalarda konuşmuştuk bir
+çukur aynanın ya da tümsek aynanın Odak
+Uzaklığını ne belirler dediğimizde
+eğrilik yarıçapı demiştik orada acaba
+etkileyebilir mi diye düşündüğümüz
+şeylerden biri de ışığın rengiydi acaba
+farklı renkli ışınlar farklı
+yansıyabilir mi demiştik Biz optikte
+görünür ışığı inceliyoruz ve Görünür
+ışık dediğimiz şey kırmızı turuncu sarı
+yeşil mavi ve mor renklerinden oluşur
+yani bildiğimiz Gökkuşağı renkleridir bu
+renkler birleştiğinde beyaz rengi
+oluştururlar mercekler ve prizmada bu
+renklerin daha detayına gireceğim Ama
+burada da bu soruyu çözebilmek için
+birazcık bahsetmemiz gerekiyor
+bildiğimiz yansımada rengin hiçbir önemi
+yok çünkü ne demiştim Küresel aynalarda
+da Benzer şeyleri konuştuğumuzu söyledim
+böyle bir aynam olsun bu aynaya normalim
+mi Çektim atıyorum şöyle bir kırmızı
+Işın gönderdim Alfa açısıyla geliyor
+yansıma kuralları gelme açın Neyse
+yansıma açın da odur Alfa la yansır
+şimdi ben bu Kırmızının üzerinden aynı
+rotadan mavi göndersem Gelme açısı Alfa
+olsa yansıma kuralları açık gelme açın
+Neyse yansıma açında odur ne olacak 2
+Alfa ile mı yansıyacak Alfa B2 ile mi
+yansıyacak Hayır yine Alfa la yansıyacak
+o yüzden yansıma dediğimiz şeyde rengin
+bir önemi yok o yüzden çukur aynalarda
+tümsek aynalarda Odak Uzaklığını
+belirleyen şey renk değildi eğrilik
+yarıçapı diı aynanın fiziki özelliğiyle
+ya da ne kadar düz bir ayna olduğuyla
+ilgiliydi ama kırılmada rengin önemi var
+var her renk farklı kırılır kırmızıdan
+Mora doğru indikçe kırılma artar gençler
+kırmızı az kırılır mor çok kırılır Niye
+öyle olur niye kırmızı az kırılıyor Niye
+mor Çok kırılıyor bunu dediğim gibi
+merceklerde de prizmalarda da detaylı
+konuşacağız şu an soru çözüm videosunda
+olduğumuz için o kadarına gerek yok
+bakın burada cam prizm var üçgen prizma
+şeklinde kırmızı ışığı gönderdiğimde
+işte kırıldı şöyle gitti tek renkli Işın
+var Dolayısıyla tek kırılma var ama ben
+bunu beyaz ışık yaparsam buradan beyaz
+ışık gönderirsem Gökkuşağı renklerin
+oluştuğunu görürüz çünkü Çünkü beyaz
+ışık demek kırmızıyı turuncuyu sarıyı
+yeşili maviyi moru barındırıyordu
+var Sarı var Yeşil var mavi var mor var
+mavi mor en altta mavi mor orijinal
+rotadan kırmızıya göre daha çok sapmış
+Çünkü az önce söyledim kırmızıdan Mora
+doğru gittikçe kırılma miktarı artıyor
+kırmızı az kırılıyor mor En Çok
+kırılıyor Peki bu bilgi cebimizde Dursun
+biz sorumuza geri dönelim s ışını çok
+yoğun ortamdan az yoğun ortama
+gönderilmiştir şimdi burada bir ayırıcı
+yüzey var burada bir ayırıcı yüzey var
+Işığımı gönderdim alttaki ortamdan
+üstteki ortama geçememiş tam yansıma
+yapmış tam yansıma Sadece çok indis az
+indice geçerken olur çok indis demek
+optiksel olarak yoğun bir ortam demek
+Dolayısıyla s ışını çok yoğun ortamdan
+az yoğun ortama gönderilmiştir ifadesi
+doğru olur buradaki yoğun ifadesini
+sakın Öz kütleyle karıştırmayın optiksel
+yoğunluk başka bir şey öz kütle başka
+bir şey burada kastettiğimiz şey Tabii
+ki indis olacaktır ışığı ne kadar
+yavaşlattığını olacaktır ikinci öncülü
+sona bırakalım bir ışını kırmızı iki
+ışını yeşil olabilir Şimdi bizim
+buradaki ışığımız tam yansımış şuraya
+gelmiş iki farklı Işın elde etmişiz Bu
+nasıl Mümkün olabilir Demek ki buradan
+iki tane Işın geliyor bu iki Işın farklı
+açılarda kırılıyor bir tanesi normalden
+uzaklaşarak diğer ortama geçmiş Diğeri
+ise sınır yapmış her rengin farklı
+kırılmaya sahip olduğunu konuştuk
+kırmızıdan Mora doğru gittikçe
+kırılmanın arttığını konuştuk
+Dolayısıyla burada ne olmuş olabilir
+şimdi buradan ışınları geldiler 1 numara
+mı daha çok kırılmıştır 2 numara mı daha
+çok kırılmıştır kırılma demek orijinal
+rotadan sapmak demek bu iki arkadaşın da
+orijinal Rotası Aslında bu kesikli çizgi
+bir numara bu kadar sapmış 2 numara çok
+daha fazla sapmış yani 2 numara daha çok
+kırılmış o zaman Bunlar hangi renk
+olabilir Mesela bir kırmızı olabilir mi
+Evet kırmızı az kırılan bir renk bu
+arkadaş kırmızı olabilir 2 yeşil
+olabilir mi Evet yeşil kırmızıdan daha
+çok kırılıyor 2 numara yeşil olabilir
+3üncü öncülü Doğrudur Burada hemen şunu
+da bir konuşalım mesela ü tane renk
+gönderseydin yeşil gönderdim mavi
+gönderdim 3 renk burada üst üste
+geliyorlar kırmızı daha az kırıldı
+normalden uzaklaştı yeşil daha çok
+kırıldı Normalden daha çok uzaklaştı
+sınırdan gitti buradaki mavi ne yapacak
+mavi yeşilden de Çok kırılıyor süreci
+tekrar hatırlayın sınır açısından
+sonraki aşama nedir Normalden daha da
+uzaklaşmak nedir buraya gelip tam
+yansıma yapmaktır burayı anlamanız
+önemli kırmızı böyle gittiyse yeşil daha
+çok kırılır şöyle gidebilir mavi daha da
+çok kırılır sınırdan daha da çok kırılma
+tam yansıma olduğu için mavi sorulsaydı
+Kesinlikle böyle bir Rota yazardım Peki
+daha da önemli bir şey burada bir de mor
+olsaydı mor maviden de Çok kırılıyor mor
+da geldi aynı rotada maviden de çok
+kırılacak şöyle mi gidecek mesela hayır
+öyle gitmeyecek Çünkü bundan sonrası
+artık yansımadır tam yansımadır Ben
+şuraya normalim mi çekersem bu sarı
+çizgi benim normalim olsun Ben burada
+Alfa açısıyla geldiysem mavi tam yansıma
+yapıyor diye varsaydığı ile yansıyordu
+mor da bunun üzerine den geldiğinde mavi
+çok kırıldığı için tam yansıma yaptıysa
+mor ondan da Çok kırılıyor ama tam
+yansımanın ötesi yok artık bu yansıma
+yansıma olduğu için aynı burada
+konuştuğumuz gibi hangi açıyla
+geliyorsan o açıyla yansımak zorundasın
+Dolayısıyla morla mavi aynı rotada
+giderlerdi Çünkü artık orada kırılma yok
+yansıma var yani sen mor böyle gelip
+şöyle yansır diyemezsin Çünkü o zaman
+yansıma kurallarına uymamış olursun Alfa
+ile geliyorsun alfa'dan daha küçük
+açıyla yansıyorsa şey olmayacaktır O
+yüzden aynı rotada kalacaktır maviyle
+peki burada yapacağım son yorum her
+rengin farklı bir sınır açısı vardır
+diyebilir miyiz deriz Mesela şu an yeşil
+sadece sınırdan gitmiş o zaman buradaki
+Alfa yeşilin sınır açısıdır tamamen
+sallıyorum 50 derecelik bir açı olsun bu
+yeşil 50 derece ile gelince sınır
+yapıyor mavinin sınır açısı 50'den daha
+küçüktür tamamen sallıyorum 45 derecedir
+Normalde bu kadar fark olmaz çok küçük
+farklar vardır ama akılda kalıcı olsun
+diye söylüyorum mavi 45 ile gelseydi
+Daha dar açıyla gelseydi sınır yapardı
+nereden anladım ben bunu Eğer 50 ile
+Geliyorsam mavi kendi sınır açısından
+büyük bir açıyla gelmiş olur o yüzden
+tam yansıma yapar Kırmızının sınır açısı
+için ne diyebilirim mesela o da 50'den
+küçük müdür Hayır o da 50'den küçük
+olsaydı mavi gibi mesela 48 olsaydı 50
+ile geliyorsun sınırdan büyük o da tam
+yansıma yapardı bırak tam yansımayı adam
+sınırdan bile gidememiş daha sınıra
+gelecek o adam Yani Kırmızının sınır
+açısı 50'den daha büyük atıyorum 55
+derece kırmızıyı daha yataydan
+göndermeliyiz şöyle falan gönderseydin
+giderdi 55'ten daha da büyük açıyla
+gönderseydin kırmızı tam yansıma yapardı
+tam yansıma yapmak için büyük açılara
+ihtiyaç var ya da tersten düşünelim bunu
+akılda tutmak için atıyorum burası hava
+ortamı Burası su ortamı Kırmızının sınır
+açısı daha büyük olur dedim sallıyorum
+kırmızıyı şöyle gönderdim sudan havaya
+geçerken sınırdan gitti çoktan aza
+geçerken bu zaten mümkün oluyor işte
+Şurayı 55 derece gibi düşünün yeşil 50
+derece dedim yeşili Daha dar açıyla
+göndermeliyim 50 dereceyle gelip
+sınırdan gideceğini söyledim mavi 45
+daha da dar açı yani mavinin şöyle falan
+gelmesi lazım ki sınırdan gitsin Şimdi
+bu arkadaşları Ben böyle gönderdiğimi
+varsaydım tersten düşünelim bunlar böyle
+geliyorlar hangi renk daha çok kırılır
+mavi çok kırılır bunların orijinal
+Rotası bu değil mi Evet bak mavi çok
+kırılmış o yüzden sınır açısı daha küçük
+yeşil geliyor orijinal rotasından daha
+az sapıyor kırmızı geliyor orijinal
+rotasından en az sapan adam çünkü
+kırmızı en az kırılan adam o yüzden
+Kırmızının sınır açısı en büyük bakın
+beyaz ışığı göndermiş prizm mıza buradan
+kırılmış renklerine ayrılmış Çünkü her
+renk farklı kırılır üst üste olan o
+renkler ayrışmış olur ve biz onları
+görebilmeyi başlarız şimdi buradaki
+bütün renkler diğer ortama geçmiş
+orijinal rotanın şöyle falan olduğunu
+düşünürsek kırmızı en az kırılan mor en
+çok kırılan gelme açısını büyütüyorum şu
+an Dolayısıyla kırılma açısı da büyüyor
+buradaki normalle yaptıkları açı da
+büyüyor gelme açısını küçültüyor
+buradaki kırılma açısı da küçülüyor
+Şimdi ben bunların tam yansıma yapmaya
+başlamasını bekliyorum açıyı çok
+büyüttüm Bakın Şu an mor pembe gibi
+çizilmiş Ama bu mor tam yansıma yaptı
+Çünkü ilk yapacak olan bu çünkü en küçük
+sınır açısı morda Az önce konuştuğumuz
+gibi açıyı biraz daha büyüttüm buna mavi
+dahil oluyor açıyı biraz daha büyüttüm
+yeşil dahil oldu açığı büyüttükçe diğer
+renkler de tam yansıma yapmaya başlıyor
+az kırılan Kırmızının sınır açısı çok
+büyük oluyor tam yansıma yapması daha
+zor çok kırılan morun mavinin sınır
+açısı daha küçük tam yansıma yapması
+daha kolay tam yansıma yapmaya mordan
+başlarız kırmızıya doğru gideriz yansıma
+kuralları ışığın renginden bağımsız
+olduğu için s Işın ne renk olursa olsun
+x noktasında tam yansıma yapar çok güzel
+bir Öncül Evet hocam burada dediniz ki
+hangi renk olursa olsun gelme açısıyla
+yansıma açısı eşit olmalı mavi ışığı
+kırmızı ışığı turuncu ışığı hangi ışığı
+gönderirsek gönderelim Alfa ile
+geliyorlar saa Alfa la yansır l e burada
+tam yansıma var şuradan normal Çektiysem
+atıyorum Burası Beta açısı İsa Burası da
+badır bütün renkler Beta ile geldiyse
+Beta ile yansır Tamam da burada ayna yok
+burada bir ortamdan başka bir ortama
+geçmeye çalışıyoruz burada kırılma olayı
+var O kırılmanın son noktası olan tam
+yansımayı görüyoruz Burada bazı renkler
+tam yansıma yaparken bazıları diğer
+ortama geçmiş olabilir aynı burada
+konuştuğumuz mevzu gibi şimdi bu iki
+durumu bağımsız düşünüyorum Şurayı
+sileyim kafam karışmasın Şimdi ben ışığı
+gönderdim orijinal Rota bu kırmızı en az
+kırılan Dolayısıyla orijinal rotasından
+çoktan aza geçtiğimiz için normalden
+uzaklaştık işte kırmızı böyle sonra daha
+çok kırılan atıyorum sarı var Normalden
+daha çok uzaklaştı orijinal rotasından
+daha çok saptı sonra atıyorum yeşil var
+Bunu da sınırdan gönderelim az öncekine
+benzedi E şimdi burada yeşilden sonra
+artık tam yansıma yapacaksın yeşilden
+daha çok kırılan Mor Mavi buradan
+gelecek daha da çok kırılması demek
+Normalden daha da çok uzaklaşması demek
+tam yansıma yapması demek yani ne renk
+olursa olsun tam yansıma yapar diyemem
+buradaki açı önemli her rengin sınır
+açısı farklı O yüzden ikinci öncülü
+doğru kabul edemem Evet burada bir
+yansıma olayı var ama bildiğimiz bir
+ayna yok burada bu Bu kırılmanın bir
+parçası Dolayısıyla 1'e ve 3'e doğru
+dedim Sorumun cevabı C seçeneğidir bir
+havuzda su yüzeyini aydınlatmak için
+havuzun tabanına konulan mavi ışık yayan
+noktasal kaynak su yüzeyinde s alanlı
+aydınlık bir bölge oluşturmaktadır Buna
+göre bu s alanını arttırmak için ne
+yapmalıyız konu anlatımlarında bunu
+deneyle Fotoğrafla her şeyle anlattım
+Aslında dışarıdan bakan göz Sadece
+buradan mavi ışığı gözüne direk alıyor
+Niye öyle oluyordu E çünkü şuradan
+çıkarttığın Işın tam normalin üzerinden
+geliyor direkt göze gidiyor şu Işın
+sudan havaya geçiyor çoktan aza geçiyor
+normalden uzak aşıyor göze gidiyor daha
+büyük gelme açısına sahip Işın tam sınır
+açısıyla geliyorsa sınırdan gidiyor aynı
+şey sol tarafta simetrik şöyle bir açı
+normalden uzaklaşma göze ulaşma Ama
+şöyle bir açı tam sınır açısı İsa Eğer
+sınırdan buradan sonrası ne olur sınır
+açısından daha geniş bir açıyla
+Geliyorum şu an yani normal çektiğimde
+hem buraya hem buraya burada sınır açısı
+varsa burada sınır açısından daha büyük
+bir açı var o yüzden bu noktadan
+itibaren tam yansıma yapmaya başlarım
+aynı şekilde şu Işın tam yansıma yapar
+Artık bunlar göze ulaşmaz suyun
+içerisinde kalır bu alanı büyü büyütmek
+istiyorsam kırmızı ışık kullanmam işe
+yarar mı acaba Az önceki şekli
+hatırlayalım Şu bizim ayırıcı yüzeyim Şu
+bizim normalim tersten düşünüyorum mavi
+Işın böyle gelse orijinal Rotası şu bu
+şekilde kırıldığını düşünsem aynısını
+kırmızı olarak göndersem orijinal
+rotasından daha az sapacak şöyle
+gidecektir Bu da ne demek oluyor mavinin
+sınır açısı daha küçük Kırmızının sınır
+açısı daha büyük Az önce konuştuğumuz
+şeyler yani mavi Işın şu açıda sınır
+yapıyor kırmızı daha büyük açıya ihtiyaç
+duyar tam bunun üzerinden kırmızı
+göndersem sınır yapmaz Çünkü buradaki
+açı kırmızı için yeterli değil bu yine
+normalden uzaklaşarak gider Kırmızı için
+daha geniş bir açı olmalı Mesela şöyle
+bir Işın gönderirsen Ancak kırmızı sınır
+açısı yapar mavinin buradaki açısına
+göre daha büyük bir açıya ihtiyacımız
+var Aynı burada anlattığım gibi buraya
+kırmızı kaynak koysaydım mavinin sınır
+yaptığı Rota üzerinden kırmızı
+gönderseydin normalden uzaklaşarak
+kırılırdı kırmızı daha büyük açıya
+ihtiyaç duyar şöyle bir Işın ancak sınır
+yapardı Dolayısıyla kırmızı çok daha
+geniş bir aydınlık bölge oluştururdu
+mavi ışık yerine kırmızı kullanmak bu s
+alanını arttırır havuza su eklemek Yine
+mavi ışığa geri döneceğiz ama havuza su
+ekleyeceğiz aslında çok basit geometrik
+bir durum yani suyun seviyesi şurada
+bitmeseydi de şurada bitseydi su burada
+E o zaman ben bu mavi ışığı aynen devam
+ettirirdim bunu da aynen devam
+ettirirdim buraya çizdiğim normalle
+arasındaki açı sınır açısı aynısını
+buraya çizdiğimde bu açılar farklı
+açılar mı olacak Hayır Aynı Açılar
+olacak çünkü o normaller paralel Çünkü
+su yüzeyleri paralel Dolayısıyla burada
+Alfa açısı varsa burada da Alfa açısı
+var E buradaki Alfa mavi için sınırs
+buradaki Alfa da mavi için sınır yani
+mavi burada sınırdan gidecek bu mavi de
+burada sınırdan gidecek benim mavi bölge
+dediğim yer Artık burası olacak Şuradaki
+s alanına göre takdir edersiniz ki
+burada çok daha büyük bir s alanı var
+havuza su eklemek alanı büyütecek Işık
+kaynağını Su yüzeyine yaklaştırmak
+tekrar başa alalım hepsini bu mavi
+arkadaşı şuraya getirsek mesela sınır
+açısı değişmeyecek Dolayısıyla bu
+paralelliği korumalıyız tam buna paralel
+şöyle bir Işın çizerim burada sınır
+yapar tam buna paralel şöyle bir Işın
+çizerim burada sınır yapar Az önceki
+gibi buradaki normalle buradaki norm
+normal paralel şu açı Neyse bu açı da o
+burada sınır yaptıysak Burada da sınır
+yapacağız yeni durumda bu İki sınır
+arasındaki alan Burası oldu yani s
+küçüldü kaynakla yüzeyin yaklaşması
+alanı küçültüyor kaynakla yüzeyin
+uzaklaşması alanı büyütüyor O yüzden su
+eklediğimde kaynakla yüzey uzaklaşmış
+oldu alan büyüdü kaynağı yukarı
+çıkarttığımda ikisi arasındaki mesafe
+azaldı alan küçüldü 2'ye olur dedim 3'e
+olmaz dedim Sorumun cevabı D seçeneğidir
+Özdeş kaplar tabanlarına Özdeş madeni
+paralar konularak kırıcılık indikleri NX
+büyü n = nz ilişkisi olan sıvılarla
+şekildeki gibi doldurulmuştur sıvılara
+üstten normale yakın doğrultularda
+madeni paralara bakan gözlemciler
+paraları kendilerinden hx HY ve Hz kadar
+uzakta gördüklerine göre bu uzaklıklar
+arasındaki ilişki nedir denilmiş Şimdi
+hem farklı indisler de sıvılar var hem
+farklı seviyelerde sıvılar var buradaki
+indis ilişkisini Sayısal değer üzerinden
+düşünelim y ile Z eşitmiş mesela y'nin
+indisine Ben 2 diyorum Z'ye de 2 diyorum
+x'e 4 diyorum hava ortamında hava
+ortamlarının indislerini de 1 dedim Bunu
+konu anlatımında konuştuk simülasyonla
+da gördük az indis çok indis bakıyorsam
+böyle düz bir yüzeyden eğrisel yüzeyde
+biraz farklılık olabiliyordu
+hatırlarsanız cismi kendime daha yakın
+görüyordum Yani ben bu madeni paraları
+Yukarıda bir yerde göreceğim üç sıvıda
+da Çünkü az indis çok indis lere
+bakıyoruz Peki niye farklı yerde
+görüyoruz Çünkü Işın kırılıyor kırıldığı
+için Gözüme Başka doğrultuda geliyor Ben
+de o cismi başka bir yerde zannediyorum
+yani sebep kırılmak o zaman ışık ne
+kadar çok kırılıyorsa ben o kadar
+yanılırım ve yine çok işimize yarayan
+temel bilgimiz ortamlar arasındaki indis
+farkı artarsa kırılma Art artar ilüzyon
+artar bambaşka yerlerde Görürsün 1'e 2
+var 1E 2 var o zaman buradaki kırılma
+eşit derecede şöyle bir akıl yürütme
+yapsam bu 1'e 2'lik oran bu madeni
+parayı tam ortada görmeme sebebiyet
+veriyorsa Burada da 1E iklik oran var bu
+madeni parayı tam ortada görmeme
+sebebiyet verecek oranlar Aynı burada 1E
+4 oran var buradaki indis farkı çok
+fazla kırılma çok fazla o zaman ilüzyon
+daha fazla Bu da 1E 2 olsaydı burada da
+tam ortada görür diyecektim ama 1E 4
+olduğu için daha çok yanılacak yani daha
+da yakında göreceğim Mesela bu arka
+arkadaşla bu arkadaşı kıyasladığımızda
+olduğunu söyleyebilirim kendime daha da
+yakın görüyorum Daha da çok yanılıyorum
+bu yine orijinal daha yakın olmuş oluyor
+çünkü indis farkı nispeten birincisine
+göre daha az Eskiden bunları formüllerle
+çözüyordu konu anlatımında da
+söylemiştim Ama o formüller kaldırıldı
+Şu an ben size formülü yazmadan formülü
+uygulat diyorum Aslında ve çok basit bir
+mantıkla farklı yerde görmemin sebebi
+kırılma indis farkı ne kadar çok
+fazlaysa kırılma o kadar fazladır
+kırılma ne kadar fazlaysa ilüzyon o
+kadar fazladır orijinal yerinden o kadar
+uzakta Görürüm tabii bu or orijinal
+yerinden o kadar uzakta görmeyi
+belirleyen Bir de sıvı seviyesi var Ona
+da dikkat etmemiz gerekiyor yani hocam
+burada 1E 2 var burada da 1E 2 Var
+orijinal yerinden şu kadar uzakta
+görmüşüz burada daha fazla uzakta
+görmüşüz demeyin oran olarak bakıyoruz
+sıvının yarısında görüyorum e Burada da
+sıvının yarısında görüyorum Aynı şey
+Burada sıvının yarısından Daha yukarıda
+görüyorum işte ilüzyon burada daha fazla
+yani 1'e 2 var 1E 4 var bu bu kadar
+saptırdı İsa bu daha çok saptırır burada
+görürüz gibi bir şey olmaz değil mi
+boşlukta mı göreceksin yani sıvı bile
+yok orada burada kırılmadan da
+bahsedelim Dolayısıyla işimiz oranla
+Buna dikkat kendilerinden Ne kadar
+uzakta görür diyordu bu adamlar aynı
+seviyeden en yakın Kim gördü en yakın
+şurası en uzak kim en uzak burası bu da
+ortanca olacaktır o zaman Z'nin büyük x
+Onun da büyük y olduğunu söyleyebilirim
+Sorumun cevabı D seçeneğidir geldik
+testimiz son sorusuna kırıcılık indisi
+havanın Ken büyük olan aynı saydam
+malzemeden yapılmış o merkezli yarım
+küre kürey ve prizma hava ortamında olup
+K gözlemcisi yarım küreye L gözlemcisi
+küreye M gözlemcisi de prizmaya
+şekildeki konumlarından bakmaktadır Buna
+göre hangileri doğrudur diye sorulmuş
+öncüller baktığımda kendine daha yakın
+görür Kendinden daha uzakta görür gibi
+şeyler var bakalım kırılma varsa farklı
+yerde görme var buradaki K eğrisel
+yüzeyden o noktasına bakıyor o
+noktasında bir cisim varmış gibi hayal
+edeceğim o noktasından çıkartacağım bir
+Işın kırılmaya uğrar mı hayır uğramaz
+Çünkü kürenin merkezine yerleştirilmiş
+Çünkü eğrisel yüzeylerde normal kürenin
+merkezinden çizilir burada eğrisel bir
+yüzey var Ben tam şu ışının gittiği yere
+tam şu noktaya bir normal çeksem
+merkezden çekmeliyim E kırmızı Işın
+normalin üzerinden gittiği için kırılmaz
+Aynen yoluna devam eder tam şu noktaya
+normal çeksem merkezden çekerim O yüzden
+kırmızı Işın kırılmadı aynı şekilde
+buraya normal merkezden çekilir kırılmaz
+burasının düz olmasının bir önemi yok
+benim için Çünkü ben bu taraftan
+bakmıyorum bu taraftan baksaydım işler
+değişirdi ama ben eğrisel yüzeye
+bakıyorum o yüzeylerin normalleri
+merkezden çizilir oyu farklı bir yerde
+görmeyeceğim kırılma olmadı o zaman
+orijinal yerinde göreceğim hocam Burada
+da eğrisel yüzey var O zaman burada da
+kırılma olmayacak Bu da orijinal yerinde
+görecek Eğer x'e bakıyorsam hayır Oya
+bakıyorsam Evet şimdi öncüller
+baktığımda l gözlemcisi x noktasını
+diyor Demek ki x'i cisim gibi
+düşüneceğim konu anlatımında çizdiğimiz
+bir şekil şimdi ben x'ten şöyle bir Işın
+çıkartsın madan yoluna devam eder mi
+bilmiyorum ki normal çekmemiz lazım
+normal nereden çekilir eğrisel yüzeylere
+merkezden şuradan merkezden normal
+çektim bak normalin üzerinden gelmiyor
+burada daracık da olsa bir açı var hava
+ortamına geçiyoruz çok inden az indis
+geçiyoruz normalden uzaklaşacak orijinal
+rotamız şöyle bir şeyken normalden
+uzaklaşacak gözün yeterince büyük
+olduğunu düşünürsek şöyle falan gidecek
+Ne bileyim böyle bir Işın çizsem ışığın
+çarptığı yere merkezden normalim mi
+çekerim orijinal rotamız şöyle bir şey
+çoktan aza geçtiğimiz için normalden
+uzaklaşacak şöyle falan gideceğiz bu
+ikisinin uzantısı şurada bir yerde
+kesişirse Eğer olduğu yerden daha uzakta
+görmüş olur k gözlemcisi o noktasını
+kendine daha yakın görür Hayır orijinal
+yerinde görür l gözlemcisi x noktasını
+kendisinden daha uzakta görür adam
+burada Kendinden daha uzakta gördü Aynen
+öyle m gözlemcisi y noktasını kendine
+daha yak yakın görür y şöyle düz bir
+yüzeye bakıyor düz yüzeye çizdiğim
+Dikler normaldir Mesela şöyle bir normal
+çekiyorum şöyle bir normal çekiyorum Bir
+de tam gözün baktığı noktadan bir normal
+çekiyorum gözü yeterince büyük hayal
+ediyorum bir tane Işın çizdim tam
+normalin üzerinden geliyor Aynen geçti
+gitti bir başka Işın çizdim prizma
+ortamından hava ortamına geçiyor çok
+indis az indis geçiyor hava en küçük
+indis boşluktan sonra çoktan aza geçip
+böyle kırdım aynı şekilde belli bir
+açıyla geliyorum normale çoktan aza
+geçeceğim normalden uzaklaşacak böyle
+kırdım bu ışının uzantısı bu ışının
+uzantısı ve bu arkadaşın uzantısı Burada
+bir yerde kesiştiler O zaman sen y
+noktasını Daha yukarıda bir yerde gördün
+kendine daha yakın gördün Çünkü konu
+anlatımında da vurgulamıştı eğer sen az
+inden çok indice bakıyorsan ve düz bir
+yüzeye küresel değilse cismi kendine
+daha yakın görürüz 3üncü Öncül de tam
+olarak bunu söylüyor ikiye ve 3'e doğru
+dedik sorumuzun cevabı D seçeneğidir
+Gençler bu soruyla beraber kırılma ile
+ilgili bütün soru çözümlerimizi bitirmiş
+olduk kırılma bitmiyor kırılmanın
+uygulama alanlarına bakacağız merceklere
+bakacağız prizmalara bakacağız ve bu
+renklerin çok kırılması az kırılması
+niye çok kırıldığı niye az kırıldığı
+mevzuların o derslerde daha detaylı
+öğreneceğiz takıldıkları alta yazın
+Kendinize iyi bakın
+[Müzik]
+görüşürüz

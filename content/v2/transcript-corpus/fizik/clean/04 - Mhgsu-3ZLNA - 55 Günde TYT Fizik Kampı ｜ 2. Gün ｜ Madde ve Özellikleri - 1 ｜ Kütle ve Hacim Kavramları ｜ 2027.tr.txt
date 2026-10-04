@@ -1,0 +1,794 @@
+[Müzik]
+Merhaba bugünkü dersimizin konusu madde
+ve özellikleri olacak bu üniteye bir
+giriş yapıyoruz kütle kavramını
+öğreneceğiz hacim kavramını öğreneceğiz
+sonrasında özküte kavramına bakacağız
+özellikle hacim itibariyle matematikle
+de ilgisi var geometri derslerinde
+gördüğünüz hacim formüllerini Burada da
+göreceğiz ve bunlara maalesef hakim
+olmak zorundayız ileride çok işimize
+yarayacak kavramlar bunlar bu tarz
+konuların kendisinden soru gelmeyebilir
+kütle ile ilgili hacimle ilgili bir soru
+gelmez bunları ileride kullanacağımız
+için Başka konularda işimize yarayacağı
+için öğrenmeliyiz Hemen başlayalım şimdi
+günlük hayatta etrafımızda gördüğümüz
+her şeye bir cisim diyoruz cisim
+dediğimiz şey madde dediğimiz şeyin
+biçimlendirilmiş halidir Örneğin bir
+masanız var masanın maddesi tahtadır O
+tahtayı biçimlendirirseniz sandalye
+yaparsanız masa yaparsınız Demir diye
+bir maddeniz vardır Onu
+biçimlendirirseniz demirden sandalye
+yaparsınız çaydanlık yaparsınız başka
+bir şey yaparsınız Peki madde nedir
+Madde dediğimiz şey kütlesi olan
+eylemsizliği olan ve Uzayda yer yani
+hacmi olan şeylere Biz madde diyoruz
+bunların hepsine bakacağız ilk
+bakacağımız şey kütle olacak kütlenin
+fizikte farklı tanımları var burada
+yapacağımızdan daha doğru tanımları da
+var İşin içerisine modern fizik
+girdiğinde Ama şu seviyede kütle için
+madde miktarının ölçüsü deriz Ne demek
+oluyor bu Örneğin bu kalem bu kalemin
+bir kütlesi var bu kalemin Biz
+atomlardan oluştuğunu biliyoruz ne kadar
+çok atoma sahipse bu kalem kütlesi o
+kadar fazladır maddenin miktarı fazladır
+Çünkü Örneğin ben bu kalemi ortadan
+ikiye kırarsam parçalardan birinin
+kütlesi bütüne göre daha az olmuş olur
+Çünkü o parçalardan biri daha az madde
+miktarına daha az atoma sahiptir
+diyebiliriz kütleyi M sembolüyle
+gösteriyoruz İngilizcesinin baş harfi ve
+Eser birim sisteminde birimi kilogram
+gençler Günlük hayatta en çok duyduğumuz
+birimlerden biri kilogram olduğuna göre
+kütleyi aramızda bilmeyen yoktur
+herhalde Ben 80 kilogramım dediğimde
+kütleden bahsediyoruz beni oluşturan
+bütün atomların miktarından bahsediyoruz
+Aslında bir nevi kütle değişmeyen madde
+miktarı olarak da isimlendirilir dış
+faktörlerden pek etkilenmez En azından
+klasik fizikte inançtan sıcaklıktan hal
+değişiminden etkilenmez 10 gram buzunuzu
+erittiğinizde hal değiştirmesine sebep
+olduğunuzda elinizde 10 gram su olur
+Madde miktarı değişmemiş olur başka
+özellikleri değişebilir Örneğin hacim
+ama kütlesi sabit kalır Bir maddeyi
+ısıttığımızda sıcaklığını
+değiştirdiğimizde kütlesini sabit kabul
+ederiz tekrar uyarıyorum klasik fizikte
+modern fizikte işin içerisine başka
+şeyler geliyor çok küsürata takılmazsak
+çok hassas düşünmezsek 20 kilogramlık
+bir demir ısıttığımızda sıcaklığını
+arttırdığımızda elinizde biraz daha
+sıcak 20 kilogramlık Demir olur Madde
+miktarı değişmez Peki biz kütleye nasıl
+ölçüyoruz eşit kollu terazi dediğimiz
+ilkel versiyonu ile ölçüyoruz dijital
+terazi dediğimiz biraz daha modern
+versiyonuyla günlük hayatta
+kullandığımız versiyonuyla ölçüyoruz Şu
+Arkadaş eşit kollu terazi bu arkadaşta
+dijital terazi dijital terazi
+kuyumcularda marketlerde herhangi bir
+yerde görebilirsiniz karpuz aldınız kaç
+para ödeyeceğinizi şunun üzerine karpuzu
+koyarak anlıyorsunuz Çünkü burada
+kütlesini bana söylüyor ona göre para
+ödüyor Eskiden nasıl yapılıyordu eşit
+kollu Terazimiz vardı Burada gördüğünüz
+gibi karpuzunuzu buraya uyuyordunuz
+burası ağır basıyordu bunu
+dengeleyebilmek için Şuraya da bir kütle
+koyuyordunuz ve buraya koyduğunuz
+kütlenin değerini biliyordunuz
+diyordunuz ki ben buraya 10 kilogram
+koydum karpuzu Bu yatay dengeye
+getirebildi o zaman karpuzun da 10
+kilogramdır demiş oluyordu Peki asıl
+soru şu şu arkadaşın 10 kilogram
+olduğunu nasıl anladı Hocam onu da başka
+değerini bildiğim bir şeyle dengeye
+getirmişimdir Peki onu nasıl anladım bu
+bizi bir noktaya götürüyor Nereye varmak
+istediğimi anladınız asıl referans Kütle
+nedir asıl referans kütle bu sahada
+fotoğrafını gördüğünüz şeydir gençler
+Fransa'da bir yerde saklanan dünyanın en
+bir kilogramlık bir kilogramı böyle iki
+tane fanus içerisinde küçük bir metal
+görüyorsunuz burada bilim insanları
+oturmuşlar 1800 yılların sonlarında
+yanlış bilmiyorsam Platinum ve iridyum
+elementlerini birleştirip bir alaşım
+oluşturuyorlar ve diyorlar ki bizim
+kilogram dediğimiz şey budur Aslında biz
+her şeyin kütlesini bulurken şunu
+referans alarak söylüyoruz bu böyle
+büyük Korumalar altında Fransa'da ve
+bazı başka ülkelerde saklanıyor Yani
+aslında bunlardan bir tane de yok birden
+fazla hiçbir kimyasal reaksiyona
+girmemesi gerekiyor En azından
+oksitlenmemesi paslanmaması gerekiyor
+çünkü o zaman kütle değişebilir bu da
+tehlikeli bir durum olduğu için bu yok
+Olduğunda referansımız kaybolmuş olur 1
+kilogram dediğimiz şeyi artık neye göre
+ölçeceğiz bilemeyiz O yüzden fizikçiler
+birkaç yıl önce oturdular ve biraz daha
+modern fiziğe uygun bir kütle tanımı
+yaptılar ona Burada girmiyoruz Aslında
+artık şu arkadaşa ihtiyacımız yok
+diyebiliriz 1 kilogramı maddi olmayan
+biraz soyut bir şey üzerinden
+tanımlıyoruz artık Dolayısıyla bozulmak
+kaybolma riski yok şimdi kazanımlarda
+yer alan birim dönüşümleri mevzusu var
+Bunları kesinlikle bilmeniz gerekiyor
+gençler ki zaten fizikte ilerde çok
+kullanacağımız şeyler Biz günlük hayatta
+kütle birimi olarak tonda kullanabiliriz
+kilogramda kullanabiliriz gram da
+kullanabiliriz miligram da
+kullanabiliriz kullanım yerlerine göre
+farklı farklı çeşitleri var Örneğin bir
+yerden odun satın alıyorsanız kışı
+geçireceksiniz kömür satın alıyorsanız 2
+ton kömür alırsınız oradaki birimi ton
+üzerinden ifade ederiz Çünkü miktar
+büyük büyük miktarlar için ton
+kullanılır Genelde günlük hayattaki bir
+şeyden bahsediyorsanız vücut kütlenizden
+bahsediyorsanız işte 70 kilogramım
+dersiniz miktar biraz daha az atıyorum
+kuruyemiş alıyorsanız kilolarca
+almazsınız 250 gram 500 gram gram
+üzerinden daha küçük şeylerden
+bahsediyorsam bir laboratuvarda
+çalışıyorsam miligram üzerinden düşünür
+küçük miktarlar için kullanılır şimdi bu
+arkadaşların birbirlerine dönüşümlerini
+bilmeniz gerekiyor gençler Aslında
+başkaları da olduğunu ortaokuldan
+hatırlayın hektogram var Deka Gran var
+desigram var Milli Eğitim hepsini
+bilmenizi istemiyor günlük hayatta
+destek veren kullanmıyoruz Çünkü şimdi
+bir kilogram ne demek Bunu bir konuşalım
+nokta nokta nokta gram demiş olsam biraz
+etimoloji biliyorsanız Aslında bu işler
+çok kolay buradaki kilo ifadesi bin
+anlamına geliyor fizikte her yerde
+böyledir kilogram kilovatometre kilo
+1000 demek kilo gram 1000 gram o zaman 1
+kilogram 1000 gramdır demiş oluyorum ya
+da bunu 10 üzeri 3 olarak da yazabilirim
+veya başka bir şey bir miligram eşittir
+nokta nokta gram demiş olsam bu sefer de
+Milliye bili mili de binde bir demek
+kilo bin demek mili binde bir demek yani
+bir miligram demek Gramın binde biri
+demek o zaman Gramın binde birini ben
+burada nasıl yazarım
+olarak yazabilirim ya da 10 üzeri eksi 3
+olarak yazabilir 1 miligram eşittir 10
+üzeri -3 gramdır dedim ton en büyükleri
+1 ton 10 üzeri 3 kilogram yani 1000
+kilogram kilonun da 1000 katı 2 ton
+kömür aldım dediğinde Aslında 2000
+kilogram kömür almış oluyoruz
+Dolayısıyla bakın Gençler bu birimlerin
+arasında biner biner oran var 10 üzeri 3
+10 üzeri 3 10 üzeri 3 şeklinde gidiyor
+pekiştirmek için hemen bir soru çözelim
+Aşağıda verilen kütle birimleri
+arasındaki birim dönüşümlerini yapınız
+denmiş iki kilogram kaç gramdır kilogram
+zaten 1000 gram demek 2 tane 1000 gram
+kaç gram yapar 2000 gram yapar 3 ton kaç
+kilogramdır tonun ben 1000 kilogram
+olduğunu bileceğim 10 üzeri 3 kilogram
+olduğunu bileceğim ve bundan 3 tane var
+diyor O zaman 3000 kilogramdır
+diyebilirim 5000 gram kaç kilogramdır
+demiş oran orantı yapabilirsiniz şunu
+yazabilirsiniz hocam 1 kilogram eşittir
+1000 gramdır O zaman ne kadar kilogram
+5000 gramdır derseniz İçler dışlar
+yaparak bir oran orantı kurarsanız 1000x
+dediğimiz eşittir 5.000 olur x dediğim
+şey buradan 5 olur yani 5 kilogram
+bulursunuz ya da hiç bu kadar
+matematikle uğraşmadan şöyle bir mantık
+kurabilirsiniz ya burada kilo gram diyor
+burada gram diyor Ben bunlar arasında
+bin kat muhabbet olduğunu ben biliyorum
+ama buraya 5 mi yazacağım 5 milyon mu
+yazacağım hangisini yazacağım Gençler bu
+bir Eşitlik eşitlikse ne olur bir şey
+büyükse yanındakinin küçük olması lazım
+bir şey küçükse öbürünün büyük olması
+lazım ki eşitlik sağlansın 5.000 var bir
+de gram var burada ne yazacağımı
+bilmiyorum Bir de kilogram var gram
+küçük kilogram büyük 5.000 büyükse o
+zaman buraya küçük bir şey yazmanız
+lazım ki eşitlik sağlansın O yüzden
+buraya 5 milyon değil 5 yazacaksınız
+mesela 17 gram eşittir nokta nokta
+kilogram bak kilogram büyük olan gram
+küçük olan Demek ki buraya küçük bir
+sayı yazacağız kimden küçük bir sayı
+yazacağız Tabii ki 17'den küçük bir sayı
+yazacağız yine gram kilogram muhabbeti
+var aralarında 1000 oran vardı 17.000
+yazarsam büyük yazmış olurum küçük
+yazacağım 17'yi 1000'e bölerek yazmanız
+lazım
+0.017 olarak yazabilirsiniz ya da 17
+çarpı 10 üzeri -3 olarak yazabilirsiniz
+350 kilogram var Ton var Ton büyük
+kilogram küçük Burası büyük olduğu için
+benim şuraya küçük bir sayı yazmam lazım
+yine kilogramla ton arasında 1000 katlık
+bir muhabbet var 350 1000 ile mi
+Çarpacağım 1000'e mi böleceğim küçük bir
+sayı yazmam gerektiği için 350 bine
+bölmeniz lazım 350 çarpı 10 üzeri -3
+yazabilirsiniz ya da o da
+0.35 ton yapacaktır gençler 4 ton Bir de
+gram var Ton büyük gram küçük o zaman
+buraya büyük bir sayı yazmam lazım Çünkü
+gram küçük tonla gram arasında nasıl bir
+muhabbet var gram kilogram sonra ton
+gramla kilogram arasında 1000 kat
+kilogramla ton arasında 1000 kat oran
+var Dolayısıyla 1000 x 1000'den
+milyonluk bir orandan bahsediyoruz ya da
+10 üzeri 6 diyebilirsiniz dört çarpı 10
+üzeri 6 mı yazacağım 4 çarpı 10 üzeri -6
+mı yazacağım büyük olanı yazmanız
+gerektiğini söylemiştim 4 çarpı 10 üzeri
+6 yazmalısınız yani 4 ton eşittir 4
+milyon gramdır 50 gram kaç miligramdır
+miligram küçüktür gram büyüktür buraya
+büyük bir sayı yazmalısınız kimden
+50'den büyük bir sayı yazmalısınız gram
+miligram mili zaten binde bir demekti
+Gramın binde bir yani aralarında 1000
+katlık bir oran var büyük bir sayı
+yazacaksınız yanındaki miligram küçük
+olduğu için 50 çarpı 10 üzeri 3
+yazmalısınız yani 50 gram eşittir 50.000
+miligram son olarak 6 kilogram kaç
+miligramdır miligram küçük kilogram
+büyük buraya büyük bir sayı yazacağım
+6'dan büyük bir şey olacak kilogram
+Gramın bin katı miligram Gramın binde
+biri Kilogram gram miligram aralarında 1
+milyon kat oran var 10 üzeri 6 oran var
+büyük bir sayı yazmam gerekiyor 6 çarpı
+10 üzeri 6 küçük yazmam gerekseydi 10
+üzeri -6 yazmış olurdu 6 kilogram
+eşittir 6 Milyon miligramdır İster
+burada yaptığım gibi oran orantı kurarak
+yapabilirsiniz isterseniz de eşitlikte
+bu büyük bu küçük buraya şöyle bir sayı
+yazmam lazım gibi bir oran
+yapabilirsiniz gelelim diğer kavramımıza
+hacim kavramına bir şeye madde demek
+için kütlesinin olması lazım yani o
+maddeyi atomların olması lazım Bir de o
+maddenin yer kaplaması lazım yani
+etrafımızda Bir boşluğu doldurmalı
+maddenin uzayda kapladığı yere Biz hacim
+diyoruz Uzayda yer kaplamak demek ne
+demek uzay dediğimiz şey aslında bizim
+etrafımız İlla aklınıza dünyanın dışı
+olan o siyah ortam gelmesin şu an
+Bulunduğunuz mekan da uzay olarak geçer
+3 boyutlu her yer bir uzaydır burada
+kapladığı yer bunu şöyle somutlaştıralım
+bir oyun hamuru alın oyun hamuruna bu
+kalemi batırın ve o Oyun hamurunu
+bozmadan bu kalemi çıkart düzgün bir
+çıkartma işlemi yap o oyun hamurunun
+içerisinde bu kaleme benzeyen bir boşluk
+göreceksiniz İşte bu kalem o oyun
+hamurunda bir yer kapladı ve o boşluğu
+oluşturdu işte O boşluğa Biz hacim
+diyoruz o kapladığı yere hacim diyoruz
+Dolayısıyla hacim geometrik bir şey
+hacmi V sembolüyle gösteriyoruz birimi
+metre küp gençler hacim türetilmiş ve
+skaler Bir büyüklüktür hacmin yönü olmaz
+bu tarafa doğru yer kaplıyorum şu tarafa
+doğru yer kaplıyorum Doğu yönünde kuzey
+yönünde hacim tarifi olmaz Peki buna
+neden türetilmiş diyoruz Bu hacimin
+tanımı ile alakalı hacim dediğimiz şey 3
+boyutlu uzay şekilde kaplanılan yer
+olduğu için hacim kavramı üç boyutlu bir
+geometri tanımlar Örneğin burada 1 metre
+uzunluğunda bir boyuttan bahsediyoruz
+buna boy diyelim 1 metre uzunluğunda
+derinlikten bahsettim Bu ikinci boyut 1
+metre uzunluğunda da yükseklikten
+bahsettiğim anda Bu da üçüncü boyuttur 3
+boyutlu bir şey tanımlamış oldum
+Dolayısıyla hacim tanımlamış oldum işte
+bu küpü çizdim neden Hacmin birimi
+metreküp Çünkü aslında ben bu üç boyutlu
+bir biriyle çarptım metre ile şu metreyi
+çarptım sonra da şu metreyi çarptım
+sayının bir önemi yok birimlere
+odaklanın bu üçünün çarparsanız metre
+küp olur 3 boyutlu uzayı bu şekilde
+tanımlarsınız hacmi şöyle de
+düşünebilirsiniz diyelim ki böyle boş
+bir meydandasınız buraya böyle 5 tane
+askeri yan yana dizdiniz bunlar böyle 3
+sıra olursa yani derinlik boyutunda 3
+sıra olurlarsa aynı şekilde Bunlar da
+beşer tane Şu an bir alan tanımlamış
+oldunuz burada 5 asker vardı burada 3
+asker var 15 tane asker şu an bir alan
+tanımladı o boş meydanda bir alana
+sahipler işte bu iki boyut şu an zaten
+alanın birimi de o yüzden metrekare 5
+metre çarpı 3 metreden gelsin aklınıza
+Bu bir katman 15 askerden oluşan bir
+katman bir alan ve bunlardan 4 tanesini
+üst üste koyarsanız ne olur bu birinci
+katman 2 katman 3 katman 4 katman yani 4
+de böyle geldiniz 4 metre gibi düşünün
+kaç tane askeriniz oldu 15 bir katmandı
+bundan 4 tane varsa 15 x 4'ten 60 tane
+askerimiz var birim olarak da metre
+düşünün şu an 60 metre küplük bir hacim
+tanımladınız zaten bu şekli
+tamamlarsanız bir dikdörtgen prizma elde
+edersiniz hacim böyle tanımlanır hocam
+burada niye bu kadar detaya giriyorsunuz
+diye düşünebilirsiniz birazdan hacim
+formüllerini vermeye başladığımda size
+buraya hatırlatacağım Burası bize lazım
+olacak o yüzden burada da birim
+dönüşümler önemli gençler Eser birim
+sisteminde Hacmin birimi metre küp
+günlük hayatta biz metreküpü kullanırız
+desimetre küpü kullanırız santimetre
+küpü kullanırız Bunlar çok sık
+kullandığımız hacim birimleri başkaları
+var mı var ama Bu üçünü bilseniz yeter
+bunlar genelde katılar için ya da gazlar
+için kullanılabilirken sıvılar için
+başka birim var Bunlar da hacim
+birimleri litre mililitre bunların
+birbirlerine nasıl dönüştürülebildiğini
+bilmeniz gerekiyor şimdi bunları şöyle
+yazarsam metreküp desimetreküp Bir de
+santimetre küp var metreküp desimetre
+küpün 1000 katı desimetreküpte
+santimetre küpün 1000 katı yine 10 üzeri
+üçlük oranlar var yani sıvıları
+düşünürsem litre var mililitre var az
+önce öğrettim mili ne demekti binde bir
+demekti o zaman mililitre ne demek 1
+litrenin binde biri demek litre
+mililitre aralarında 1000'lik bir oran
+var bir mililitre 10 üzeri -3 litredir
+yani litrenin binde biridir 0.0 0 0 1
+katıdır diyebiliriz mililitre küçüktür
+litre 1000 kat daha büyüktür kesinlikle
+bilmeniz gereken sorularda karşınıza
+çıkabilecek şey de bu ikisinin birbirine
+dönüşümüdür Hocam siz metreküpte
+simetreküp cm³'ü Ayrı anlattınız litreyi
+mililitreyi ayrı anlattınız aralarında
+geçiş nasıl oluyor aralarındaki geçiş
+şu; bir desimetre küpe Biz 1 litre
+diyoruz Dolayısıyla aradaki buradan
+kurabilirsiniz bir desimetreküp 1
+litredir Siz 2 litrelik kola aldığınızda
+Aslında iki desimetre küplük kola almış
+oluyorsunuz Aşağıda verilen birim
+çevirme işlemlerini yapınız denmiş 5
+metreküp kaç desimetreküptür metreküp
+desimetreküp santimetre küp büyükten
+küçüğe yazdım bu geçişlerde de binlik
+oran olduğunu unutmuyorsun hocam burada
+bir basamak ineceğiz aralarında 1000'lik
+oran var acaba binle mi Çarpacağım
+1000'e mi böleceğim kim büyük kardeşim
+metreküp mü büyük desimetreküp mü büyük
+metre küp büyük desimetre küp küçük o
+zaman buraya büyük bir sayı yazmalısın
+ki eşitlik sağlansın beşten daha büyük
+bir sayı ve oran 1000 olacak E o zaman
+ne yazman gerekir 5000 yazman gerekir 5
+metreküp 5.000 desimetre küptür Hatta
+şimdi öğrendik Bu da 5.000 litredir
+diyebiliriz Çünkü 1 litre bir
+desimetreküp böyle matematik yapıp
+geçmeyelim bunu somutlaştıralım
+zihnimizde daha kolay canlansın 5
+metreküp nasıl hayal edilmeli bir
+dikdörtgen prizma hayal edin bu boyutu
+uzunluğu 2 metre olsun derinliği 2 metre
+olsun 2x 4 metrekare alan yapar 5
+metreküp olması için yüksekliğini de
+böyle bir nokta bir 1.2 gibi bir şey
+olması lazım yani çok 5'e takılmayın 2
+metreye 2 metre yükseklikte bir buçuk
+metrelik bir dikdörtgen prizma
+düşünürseniz orayı atıyorum suyla
+doldurursanız yaklaşık 5000 litrelik su
+harcamanız gerekir böyle bir hacmi
+doldurmak için su faturalarınızı
+incelerseniz Bir dahakine genelde
+metreküp cinsinden yazılır litreye
+çevirip ne kadar su harcadığınızı
+Aslında görürsünüz 300 cm³ kaç desimetre
+küptür demiş santimetre küpü desimetre
+küpe çevireceğiz buradan buraya
+çıkacağız yine arada 1000'lik bir oran
+var 300'ü binle mi Çarpacağım 300'ü
+1000'e mi böleceğim kim büyük
+desimetreküp büyük santimetre küp küçük
+Burası büyük olduğuna göre Buraya küçük
+bir sayı yazmam lazım yani bine
+böleceğiz 300 çarpı 10 üzeri -3
+yazabilirim ya da 0.3 yazabilirim
+0.3 çıkar 4 metreküp kaç litredir demiş
+metreküp litre eşitliği yok elimde ne
+eşitliği var bir desimetre küp eşittir
+Bir litre var O zaman şu arkadaşı ben
+daha önce desimetre küpe çevirmeliyim
+metreküpten desimetre küpe yine binlik
+oran var 4 metreküp 4 bin
+desimetreküptür O zaman o da 4000
+litredir Az önce bunun 5 li versiyonunu
+yapmıştık zaten 0.5 desimetreküp kaç
+mililitredir bir kere 0.5 desimetre küp
+0.5 litredir yine bu arkadaşı kullandım
+litre var mililitre var Hangisi büyük bu
+büyük mililitre küçük eşitliğin
+sağlanması için buraya büyük bir sayı
+yazmam lazım 0.5'ten büyük bir sayı
+mililitre zaten binde bir demektir
+litrenin binde biri 0.5'ten büyük binlik
+bir oran ve 1000 ile çarpacaksın
+bölmeyeceksin O yüzden 0.5 çarpı 10
+üzeri 3 yazmalısınız ya da 500
+yazmalısınız 500 mililitre 0.5 litredir
+Bu da günlük hayatta kullandığımız bir
+şey su alıyorsunuz üzerine 500 ml
+yazıyor pet şişelerden bahsediyorum
+küçük işte onlar yarım litrelik sular
+330 mililitre kaç litredir mililitre
+küçük litre büyük Buraya küçük bir sayı
+yazmalıyım kimden 330'dan mililitre ile
+litreler
+a ise derinliği de a yüksekliği de A üç
+boyutlu Böylece tanımlamış oldum bu üç
+arkadaşla hocam şurada kenarlarda var
+Onları niye yazmıyorsunuz Çünkü bu zaten
+şu arkadaşın aynısı bir daha niye
+sayayım şu Bunun aynısı bir daha saymama
+gerek yok 3 farklı boyut bunlar taban
+halının neresi taban alanı şurası A
+burada var A burada var taban alanı O
+zaman bu arkadaşın a karedir yükseklik e
+o da a kare çarpı A'dan ne verdi bana a
+küp verdi dikdörtgenler prizması boyu a
+kadar derinliği B kadar yüksekliği C
+kadar taban alanı ne yaptı gençler taban
+alanı a çarpı B yaptı yükseklikte de
+çarparsanız a x b çarpı C Aslında
+Yaptığımız her şey 3 boyutu çarpmak
+başka bir şey değil silindir taban alanı
+ne silindirin taban alanı bir daire
+dairenin alanı p kareyle bulunur bu Pi
+r²'lerden kaç tane var bunu bir katman
+gibi düşünün asker örneği aklınıza
+gelsin kaç tane var Dolayısıyla bu
+arkadaşı haçla çarparsanız kaç tane bu
+alandan var üst üste toplamda 3 boyutlu
+hacmi bulmuş olursunuz Pierre Care haş
+silindirin hacim formülüdür gelelim
+küreye kür bu mantığı yapamayız kürede
+taban alanı çarpı yükseklik yapamazsınız
+Çünkü burada farklı farklı alanlar var
+baktığınız her yer başka bir alan İşte
+biz kürenin hacmini hesaplarken hacim
+formülünü bulurken Aslında integralden
+yararlanıyoruz lise seviyesinde En
+azından fizikte kürenin hacmini
+hesaplama diye bir şey yok belki
+geometri dersinde öğretiyorlardır
+Bilmiyorum aslında biz Bunlarda da
+integral yapmış olduk Ama bu biraz daha
+zor bir integral O yüzden bunu direkt
+vermek zorundayım kürenin hacim formülü
+4/3 pi küptür R dediğim şey burada
+kürenin yarıçapı oluyor hepsinde şuna
+dikkat etmenizi istiyorum hacim
+deniliyorsa 3 boyut vardır alan
+deniliyorsa iki boyut Vardır Nerede
+Üçler mesela a Küpte zaten direkt Bu üçü
+görüyorsunuz dikdörtgen prizma da yok
+hocam bu uzunluk bu uzunluk bu uzunluk 3
+tane uzunluk metre küp yapar hacim
+birimi hocam Burada 2 var kare
+silindirin alanı mı bu Hayır bir de
+burada H var Bu da uzunluk Bu da metre
+Dolayısıyla metrekare çarpı metreden Bu
+da metreküp yaptı kürede zaten direkt
+kendisi var r13 yani rakip yine birim
+metreküp yine hacim bu formülleri bilmek
+zorundayız bunları hemen bir uygulama
+ile pekiştirelim misafirler için
+kurabiye yapmaya karar veren Merve hanım
+kenar uzunlukları 20 santimetre 30
+santimetre ve 10 santimetre olan
+dikdörtgenler prizması şeklindeki kabı
+hamurla tamamen dolduruyormuş şimdi bu
+bilgiyi sorunun Geri kalanını okumadan
+hemen kullanabiliriz 20 santimetrelik
+böyle bir boydan bahsediyoruz 30
+santimetrelik şöyle bir derinlikten
+bahsedebiliriz bir de 10 santimetrelik
+yükseklikten bahsedebiliriz buradaki
+kenarları tamamlarsanız bir dikdörtgen
+prizma elde etmiş olursunuz bu 3 sayıyı
+çarparsanız da bu dikdörtgen prizmanın
+hacmini bulmuş olursunuz çarparsanız ne
+olur 20 çarpı 30 600 çarpı 10 6.000
+santimetre küp hacminde bir kabımız var
+hepsi santimetre olduğu için biriminde
+santimetre küp çıktı Biz bunu hamurla
+doldurduk hamurun şekli de hacmi de o
+kap kadar olacaktır Dolayısıyla Şu
+arkadaş bizim hamur miktarımız hacim
+olarak bu hamurdan küre şeklinde 12 tane
+kurabiye çıkması için bir kurabiyenin
+yarıçapı kaç santimetre olmalıdır bir
+tane kurabiyeyi düşünelim küreye
+benzeyecek kürenin hacim formülü 4/3 pi
+re küp 3 almam gerektiğini söylüyor O
+zaman bu Pi sayısı ile bu 3 birbirini
+götürecek Yani benim bir tane
+kurabiyemin hacmi dört çarpı bundan 12
+tane çıkacaksa toplam Kurabiyeye gidecek
+olan hacim 48 çarpı rakip olacak peki bu
+kurabiyeleri yapmam için gereken hamur
+ne kadardı o zaman 6.000 dediğim hacim
+benim 48 rakibime eşit çünkü bütün
+kurabiyeler bu hacme sahip olacak
+nereden gelecek o da hamurdan gelecek
+hamurun Kendisi de 6.000 zaten Sorumun
+cevabı eşittir 6.000/48 bunun sonucu 125
+yapıyor rakip 125 ise R dediğim şey 5
+santimetredir gençler Yani bir tane
+kurabiyemin yarıçapı 5 santimetre olursa
+biz 6.000'lik hamurdan 12 tane kurabiye
+çıkartabiliyormuşuz bir başka soru bir
+kenara 30 cm olan küp şeklindeki bir kap
+yarısına kadar suyla doludur bu su
+yarıçapı 10 santimetre olan silindir
+şeklindeki kaba dökülürse Suyun
+yüksekliği kaç santimetre olur bizim
+elimizde Bir küp var ve bu küpün yarısı
+dolu bu kadar su var buradaki grafikte
+şu hatayı Düzel şurası 30 santimetre
+değil bu küp olduğu için her yer 30
+santimetre Dolayısıyla Burası 30
+santimetre yarısına kadar dolu olduğu
+için buradaki Suyun yüksekliği 15
+santimetredir Gençler ben bu suyu
+alacağım bu silindirin içine dökeceğim
+su burada belli bir yüksekliğe ulaşacak
+işte şuhaş ne kadardır diye sormuş
+aslında bana soru yine hacim formülü
+buradaki hacim kaplanılan yer şekil
+değişince silindir olunca değişecek mi
+Hayır şekil değişir ama hacim aynı
+hacimdir kaplanılan yer aynı yerdir
+buradaki suyun hacmini hesaplayalım 3
+boyutlu Çarpın 30 çarpı 30 çarpı
+yükseklik sakın 30 almayın 15
+almalısınız Bu benim suyumun hacmidir ve
+sudur bakın çarpıp sonucu bulmaya da
+çalışmayın tuhaf tuhaf sayılar gelecek
+Çünkü bunu silindirin içine koyduğumda
+da sonuç hacim sonucu bu çıkacak
+Dolayısıyla bu arkadaş Şuradaki hacmin
+ta kendisi bu silindir olduğu için
+silindirin hacmi nasıl hesaplanıyordu
+Gençler pi r² haşla hesaplanıyor
+bilmelisiniz
+oldu Haşin ne çıkacağını bilmiyorum ne
+kadar yükseleceğini bilmiyorum işte bu
+hacim bu hacim yani 30 x 30 x 15 bu 0
+gitti bu 0 gitti bu 0 gitti bu 0 gitti
+bu 3 gitti Hatta bu üçte gitti h o zaman
+ne geldi burada 3 çarpı 15'ten 45 geldi
+birime Ne yazacağız her yerde santimetre
+olduğuna göre herhangi bir dönüşüm
+yapmadım sonuç 45 santimetre çıkacaktır
+hocam burada 15 santimetre yükselmişti
+burada nasıl 45'e çıktı bu hacim aynı
+hacim de hani Evet hacim sadece
+yükseklik değil ki taban alanı çarpı
+yükseklik Belli ki taban alanı küçülmüş
+mecburen yükseklik artmış Ben şimdi
+yapmayacağım ama bu prizmanın taban
+alanıyla bu dairenin taban alanlarını
+kıyaslayın kesinlikle buradaki alan daha
+küçük çıkacaktır kenar uzunlukları 100
+santimetre 40 santimetre ve 60 cm olan
+dikdörtgenler prizması şekildeki gibidir
+Buna göre bu prizmanın içine yarıçapı 10
+santimetre olan kürelerden en fazla kaç
+tane yerleştirebiliriz parantez içinde
+de bu uyarıyı koydum ki hayal
+kırıklığına uğramayın Kendi başınıza
+çözerken Yani şöyle yapmayın Hocam tamam
+basit burada bir hacim var Hemen
+hesaplayın bu prizmanın hacmi bütün
+boyutları Çarpacağım 100 çarpı 40
+bir kitap varmış Bu Yarıçap kürenin çapı
+kaç olmuş olur o zaman şuradan şurası 20
+santimetre olmuş olur Dolayısıyla buraya
+kaç tane küre sığar gençler 20 40 60 80
+100 santimetreyi bulmuş olduğunuz 5 tane
+küre sığdır şimdi Bunların arkasına da
+dizeceğiz kaç Burası 40 şuradan yandan
+baktığınızı düşünün Ne görüyorsunuz
+şurada bir küre görüyorsunuz değil mi Şu
+an bu küreden bahsediyorum toplam kaç
+yerleştirebilirsin 40 santimetrelik
+mesafem var ve bu zaten 20'ydi bundan
+bir tane daha koyabiliriz Dolayısıyla
+bunun arkasına bir sıra daha
+dizebilirsiniz bu şekilde Şurayı
+kırklamış olursunuz sakın burada 40 var
+2 tane daha dizlerim demeyin zaten bir
+sırayı dizdiniz arkasına bir sıra daha
+sığar yandan bakan kişi iki sırayı
+görmüş olur bu önceden dizdiğiniz sıra
+kaç küre oldu şu an iki sıra Beşer küre
+Dolayısıyla şu an benim 10 tane kürem
+var bir de yukarı çıkacağız 60
+santimetreyi dolduracağız Yukarı
+çıkarken Şu an bir sırayı doldurduk yani
+20 santimetreyi Hallettik bir tane daha
+koyarım 40 olur bir tane daha koyarım 60
+olur toplam 60 santimetreyi tamamlamış
+oluruz bir katmanda 10 tane Küren vardı
+bir katman çıktım yani şu arkadaşı
+çıktım 20 kürem oldu bir katman daha
+çıktım bir 10 tane daha dizdim
+Dolayısıyla toplamda kaç tane kürem oldu
+30 tane kürem oldu ilk yaptığım yanlış
+hesaplamada kaçtı 60 tane çıkmıştı ama
+olması gereken cevap 30 küredir gençler
+içinde bir o kadar daha boşluk kalmış
+Aslında kürelerin arasında bunu
+söyleyebiliriz Hocam size mükemmel
+mükemmel şekiller anlattınız Küp
+dikdörtgen prizma küre gerçek hayatta
+öyle değil ki her şey yamuk yumuk taş
+parçası hiçbir şeye benzemiyor Ben onun
+hacmini nasıl hesaplayacağım a çarpı B
+çarpı C yapamam ki her yeri farklı İşte
+o zaman konumuz düzgün geometrik şekli
+olmayan katı hacminin bulunmasına
+geliyor çok basit bir mantığı var bir
+derecelik kap alıyorsunuz sıvıların
+hacminin ölçüldüğü dereceli kap Yani
+aslında bir kap düzgün şekilde Mesela bu
+bir silindir kenarına böyle sayılar
+yazılmış yani ölçeklendirilmiş Örneğin
+Burası 300 mililitre Şu an bunun
+içerisine şu pembe cisme attığım zaman
+400 mililitreye çıkmış 300 niye 400'e
+çıktı çünkü şu arkadaş 100 ml yer
+kaplıyor sıvıyı sıkıştıramadığımı
+varsayarsa Normalde 300'lük suyum var
+100'lük adam geldi dedi ki Açılın ben de
+geleceğim sıkışamıyor Sıvı ne oluyor
+mecburen kaçıyor yükseliyor Ne kadar
+yükseldiyse cisminizin hacmi de odur
+veya bunu taşırmalı bir kap da
+yapabilirsiniz sıvı yükselemez yükselen
+sıvı Taşar taşı attınız bunun içerisine
+bu kapta yükseldi Bu da bir derecelik
+hap şurada atıyorum 60 mililitre yazıyor
+sıvınız oraya kadar yükseldiyse
+taşınızın hacmi 60 mililitredir Az önce
+yükselebilen sıvı Şimdi başka bir kaba
+aktı aynı şey bir fark yok şekli düzgün
+olanları da böyle hesaplayabilirsiniz
+normal mükemmel bir küpü atarsınız içine
+içeriye giren hacim kadar dışarıya kendi
+hacminde sıvı Taşırır içeriye atmış
+girdiyse dışarıya 60 mililitre sıvı
+Taşar şeklinin düzgün olup olmamasında
+bir önemi yok aslında Bu yöntemle son
+olarak Bununla ilgili de bir uygulama
+yapıp dersi bitirmiş olacağız şekildeki
+taşırma kabı 20 mililitre seviyesine
+kadar suyla doludur buradaki grafiği
+düzeltelim 20 mililitre seviyesine kadar
+suyla dolu şurası da suyla dolu komple
+diyebiliriz gençler şimdi kabın
+içerisine yavaşça küp şeklinde bir cisim
+bırakıldığında küçük kapta 7 ml su
+birikiyormuş hocam o zaman bu küpün
+hacmi 7 mililitredir Çünkü burada 7
+mililitre su birikmiş Hayır değildir
+buraya Siz cisminizi attınız sıvı Ne
+oldu hacmi kadar yer değiştirdi hemen
+taşacak mı hayır hemen taşmayacak Çünkü
+taşma seviyesinde değiliz ki önce Burası
+yükselecek Ne kadar yükselmiş Olur Taş
+attık diye 20'den 40'a çıkmalı Demek ki
+burada bir 20 mililitrelik suyun yeri
+değişmiş yetmemiş daha da çıkmak istemiş
+ama çıkamamış taşmış ne kadar taşmış
+yedi Yani ben içeriye bir cisim attım
+diye 20 yer değiştirme var 7 yer
+değiştirme var toplam 27 ml'lik sıvının
+yeri değişmiş İşte bu benim küpümün
+hacmidir Gençler Küpün bir kenarının
+uzunluğu soruluyor küpün her kenarı
+aynıydı bütün boyutları çarparsanız a
+küptür küpün hacim formülü ve bu 27
+çıkıyorsa demiyorsunuz Neden Çünkü bu
+mililitre Gençler bana santimetre
+soruyor mililitreyi santimetre cinsinden
+Bir hacme çevireceksiniz litre
+santimetre nasıl dönüşüm yapılabilir
+şunu biliyorum Bir desimetre küp eşittir
+1 litre 1 litre 1000 ml demek bir
+desimetreküpte 1000 santimetre küp demek
+o zaman Bakın ben bir şey daha buldum
+desimetre küple litre aynıydı ya
+santimetre küple mililitre de aynı
+şeymiş Dolayısıyla ben aslında buraya 27
+yazabilirmişim 27 santimetre küp olarak
+yazabilirmiş a küp 27 ise o zaman A'nın
+Ne çıkması gerekir A'nın 3 cm çıkması
+gerekir a şıkkının cevabı budur su
+yerine başka bir sıvı kullanılsaydı
+sonuç nasıl değişirdi sıkışamayan bir
+sıvıdan bahsediyorsak akışkan bir
+sıvıdan bahsediyorsak viskozitesi çok
+yüksek olmayan bir sıvıdan bahsediyorsak
+hiçbir şey değişmezdi gençler su olmasın
+hiçbir önemi yok aynı deneyi alkolle de
+yapsanız Ne bileyim benzinle de yapsanız
+aynı sonuç çıkar Önemli olan sıkışamamak
+ve kolaylıkla yer değiştirebilmek
+Dolayısıyla sonuç değişmez Evet Böylece
+kütleyi hacmi birim dönüşümleri ile
+hacim formülü uygulamalarıyla bitirmiş
+oluyoruz bir sonraki dersimiz Özkütle
+olacak takıldıktan azaltta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

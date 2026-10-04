@@ -1,0 +1,705 @@
+diyelim ki Evinizde kullandığınız bir
+ampul patladı yerine yenisini
+alacaksınız bir yapı markete gittiniz
+seçmeye çalışıyorsunuz üzerinde bazı
+değerler yazıyor 3 watt 230 LM yazıyor
+LM lümen demek Bunu beğenmediniz
+başkasına bakıyorsunuz 1.2 watt 110
+lümen diyor diyorsunuz ki bu da
+yetersizdir 395 LM liğe 395 lümenli yee
+bakayım diyorsunuz hangisini
+seçeceksiniz Bunlar ne anlama geliyor
+hocam biz bunu lamba parlaklığında
+elektrikte öğrenmiştik güce bakmamız
+lazım lambanın parlaklığını belirleyen
+şey güçtü o yüzden işte wata bakacağız
+mesela bakın hocam bu 12 watt'lık bir
+ampul müş doğru yanlış değil elektrikte
+lamba parlaklığında size anlattığım her
+şey doğru ama tek bakmanız gereken şey
+watt değil asıl önemli olan bu derste
+öğreneceğimiz lümen ifadesidir Bu dersi
+öğrendiğinizde bir yapı markete
+gittiğinizde en verimli ampulü seçmeyi
+öğreneceksiniz az elektrik faturası
+ödeyerek çok parlaklık elde etmeyi
+öğreneceksiniz Anlayacağınız üzere Optik
+ünitesine başlıyoruz Optik ünitesi her
+sene sorusu çıkan bir ünitedir uzun bir
+ünitedir o yüzden bazı yıllar iki tane
+sorusu çıkar yani 7 tane tyt sorusunun
+ikisi sadece Buradan çıkabilir ve ilk
+başlayacağımız yer aydınlanma Yani
+bugünkü dersimizin konusu üç tane Temel
+kavram var bu üç tane Temel kavram
+nispeten soyut sayılır biraz Hayal
+edilmesi gereken kavramlardır nedir
+Onlar Işık şiddeti ışık akısı ve
+aydınlanma şiddeti bu üç kavram bu
+konunun özüdür Ben buradaki sırayı
+değiştirdim genelde kitaplarda
+başlıktaki sırayla anlatılır daha doğru
+olduğunu düşündüğüm sırada Öncelikle
+benim Işık akısını anlatmam gerekiyor Bu
+konuda tanımlar Çok önemli çünkü
+kavramların ne olduğunu tanımlardan
+öğreniyoruz mesela ışık akısı ne demek
+bir ışık kaynağından Birim zamanda çıkan
+gözle görülebilir ışık enerjisi
+miktarıdır Yani bir
+lambanızı ne kadar ışık enerjisi çıktığı
+la alakalıdır Eğer sizin Işık akını
+fazlaysa kaynağınız danan çok fazla
+enerji çıkıyor demektir Dolayısıyla
+Odanızı iyi aydınlatıyor demektir Çünkü
+çok fazla ışık enerjisi odanızın Daha
+aydınlık olması demektir Eğer sizin
+kaynağınız Işık akısı azsa o zaman
+lambanızı Daha az ışık enerjisi çıkıyor
+demektir odanız daha karanlık kalacak
+anlamına geliyor bu akı dediğim şey
+birim zaman zamandaki ışık enerjisi ile
+ilgili olduğu için biz bunu Işık gücü
+olarak da tanımlayabiliriz çünkü birim
+zamandaki enerjiyi önceki konularımız
+hatırlayın Biz güç diyoruz ama buraya
+kasıtlı olarak eşittir demedim bununla
+orantılıdır dedim Çünkü birimi jul olan
+bir şeyden bahsetmiyoruz onunla doğru
+orantılı olan bir kavramdan bahsediyoruz
+Birim zamanda kaynaktan çıkan ışık
+enerjisi miktarına Fi harfiyle
+gösterdiğimiz şöyle bir ıın üzerinde bir
+Yuvarlağın olduğu Yunan alfabesinden bir
+harf Bu arkadaşın birimi lummen Yani az
+önce lambaların etiketlerinin üzerinde
+Okuduğunuz birim Dolayısıyla buradaki
+110 lümen ifadesini okuduğunuzda o
+lambanın Birim zamanda yaydığı Işık
+enerjisini Hayal edeceksiniz veya burada
+395 lümen okuduğunuzda ha Az öncekine
+göre Bu çok daha parlak bir lamba Benim
+odamı daha iyi aydınlatır diye
+düşüneceksiniz Örneğin bu simülasyonda
+arkadaki Gökkuşağı renklerini ihmal edin
+Şuradaki 2700 Kelvin ifadesini ihmal
+edin şu an bunlarla bizim işimiz yok
+buradaki lümen ifadesine odaklanalım
+burada Bir ampulü müz var o da karanlık
+Çünkü şu an burada ışık akısı yok
+kaynaktan ışık enerjisi açığa çıkmıyor
+Lambayı açtığım zaman şu an kaynak Işık
+yaymaya başladı işte etrafına yaydığı
+şeyleri böyle Işık tanecikleri olarak
+düşünürseniz 1370 lümenlik bir ampulden
+bahsediyorsunuz demektir Bu ne anlama
+geliyor saniyede bu 1370 sayısıyla
+orantılı bir enerji yayıyor anlamına
+geliyor tanecikler de ona göre o
+yoğunlukta o sıklık alar İşte bu tam
+olarak lambanın yaydığı Işık miktarıdır
+Yani ışık akısı dır Örneğin başka bir
+ampul çalıştırdığımızda 1300 lümenlik
+bir ampul başka bir ampul
+çalıştırdığımızda 600 lümenlik bir ampul
+Az önceki 13'lük lere göre gördüğünüz
+gibi buradaki Işık taneciklerinin
+yoğunlukları azaldı Birim zamanda bir
+saniyede yayılan Işık miktarı azaldı
+Çünkü bunun Işık akısı daha az bu 1540
+lümenlik bir ampul en fazla ışık akısı
+en fazla ışık taneciği yoğunluğu bunda
+Şimdi biz simülasyonda bu Işık
+enerjisini Görselleştirmek istediğimizde
+modelleme yaptığımızda taneciklerle
+yaptık Ama kitaplarımızda bunu ışınlarla
+görürüz Örneğin buradaki bu lambanın
+Işık akısını tarif ederken onu
+Görselleştirmek somutlaştırmak
+istediğimizde oradan çıkan ışınlar
+çizeriz buradaki ışınların miktarına
+göre de akı yorumu yaparız Işık akısı Fi
+olan bir lamba
+modellendirme modellemeyi yaparsınız Bu
+dört tane Işın Birim zamanda çıkan
+enerjiyi tanımlar başka bir lambada 2 Fi
+akı var dersem tahmin edebileceğiniz
+gibi bu sefer Birim zamanda daha çok
+ışık enerjisi çıkması gerektiği için ve
+iki kat fazla olduğu için 8iz tane
+ışınla bunu modelleyelim Aynı bizim
+simülasyon umuz daki gibi oradaki o Işık
+tanecikleri yerine Işın kullanmış oldum
+sadece şimdi bu dersi başka yerlerden
+dinledi iseniz genelde Işık akısı hep
+yüzeyle ilişkilendirilir Yani yüzeydeki
+ışık miktarıdır denilir Siz şu ana kadar
+hiç yüzey lafını kullanmadınız hocam
+Çünkü Işık akısını direkt yüzeyle ilgili
+olmasına gerek yok tanımı açık ve net
+Birim zamanda kaynaktan çıkan Işık
+miktarı Ama tabii ki bir yüzey
+üzerindeki akıyı da tanımlayabilirim
+yani bir kaynağınız vardır Bundan
+ışınlar yayılıyordu bu akıyı böyle
+modellers siniz buraya da bir duvar
+çizersiniz dersiniz ki bu duvarın
+üzerindeki Işık akısını yorumlayınız O
+zaman bu ışınların Yani bu enerjinin bu
+duvara düşmüş versiyonuyla
+ilgilenirsiniz o enerjinin ne kadarı
+oradadır dediğinizde yüzeydeki akıyı
+konuşmuş olursunuz akıyı bitirmeden şunu
+da söylemem gerekiyor optikte Işık
+ifadesi geçtiği anda aklınıza sadece
+gözle görülebilen Işık gelecek dik hocam
+başka ışık mı var tabii ki var
+elektromanyetik dalgaları öğrendiğinizde
+Aslında birçok çeşit ışık olduğunu
+öğreneceksiniz mesela Radyo dalgaları da
+ışıktır mikrodalgalar da ışıktır X
+ışınları da ışıktır mor otesi ışık da
+bir ışıktır ama biz optikte gözümüzle
+görebildiğimiz ışığı konuşuyoruz bütün
+tanımlarım da bunun üzerinden yapılıyor
+şimdi gelelim diğer kavramım Işık
+şiddeti kavramına Işık akısını çok
+benzer Işık akısı kavramının biraz daha
+özel biraz daha daraltılmış halidir
+tanımlar önemli demiştim bakalım ne
+diyor bir ışık kaynağından Birim zamanda
+birim katı açı başına düşen Görünür ışık
+miktarıdır akı neydi kaynaktan Birim
+zamanda çıkan Görünür ışık miktarı
+Şiddet ne birim katı açı başına düşen
+Işık miktarı ışık enerjisi hocam birim
+katı açı ne gençler katı açı bildiğiniz
+açının üç boyutlu versiyonudur mesela 90
+derecelik bir açı çizelim dediğimde
+şöyle bir şey çiziyorsunuz diyorsunuz ki
+iki tane çizgi hocam aralarındaki açı
+şurası dikse 90 derecedir Bu iki boyutlu
+bir açı X ekseni var y ekseni var Z
+ekseni yok Bunu üç boyuta dönüştürür
+senen şuraya Z eksenini de eklerseniz
+odanızdaki duvarların kesişim noktası
+gibi işte burada tanımlayacağız açı üç
+boyutlu bir açıdır ona da katı açı denir
+mesela Elimde bir koni var üçgenin üç
+boyutlu versiyonu gibi düşünürseniz
+normal Bir üçgenin tepe açısı şurası iki
+boyutlu bir açıdır koninin tepe açısı
+yani şu gördüğünüz açı üç boyutlu bir
+kata açıdır burada bir lambamız var bu
+lambanın etrafına yaydığı ışık enerjisi
+akıyla ilgili bir şey o lambanın
+etrafına bir küre geçirirseniz o Lambayı
+bir kürenin merkezine koyarsanız bu
+küredeki bütün ışık enerjisinin toplamı
+bildiğimiz akıdır Işık akısı dır Bir
+kürenin içini aydınlatır İşte o lambadan
+çıkan küçücük bir katı açıyı hayal
+ettiğimde birim katı açıyı hayal
+ettiğimde oradaki koninin içerisindeki
+ışık akısını ışık şiddeti diyoruz birim
+katı açı başına düşen Işık miktarı
+diyoruz bu lambanın etrafındaki toplam
+enerjiye Işık akısı diyoruz buradan
+küçücük bir üç boyutlu açı hayal
+ettiğimde o koninin içerisinde kalan
+ışık akısını ışık şiddeti diyoruz Yani
+ışık akısı bir
+orduysem bir bütünün en küçük parçasıdır
+Işık şiddetini ı sembolüyle gösteriyoruz
+birimi kandela kandilden geliyor bayağı
+bildiğimiz Mumdan geliyor CD kısaltması
+ile kullanıyoruz şimdi bu iki arkadaş
+arasındaki bağlantıyı Bir formülle de
+ifade edebiliriz Işık akısı dediğimiz
+şey 4p x Işık şiddetidir yani Fi = 4 Pi
+x ıdır buradaki 4 pi Aslında küreyi
+temsil ediyor çepe çevre sarmayı temsil
+ediyor iki boyutu düşünürsek iki
+boyuttaki açıları düşünürsek şöyle bir
+birim çember aldığınızda Şuradaki
+arkadaşı tam bir çember çizecek şekilde
+olduğu yere getirirseniz kaç derece
+dönmüş diyorsunuz hocam tam bir tur
+attıysa 360 dce dönmüştür diyoruz buna
+kaç pi radyan diyoruz 2 pi radyan
+diyoruz Bu iki boyut sayfaya çizdim bu
+dairenin 3 boyutlu versiyonu bir küre
+daire dediğin şey 2 boyutlu İsa 2 pi
+radyan la ifade ediliyorsa oradaki 360
+dce bunun üç boyutlu versiyonu olan küre
+4 P radyan la temsil ediliyor
+Dolayısıyla bu formül daha anlamlı hale
+geliyor birim katı açıyı yani Şuradaki
+küçücük açıyı düşündüğümüzde o açının
+ifade ettiği enerji Işık şiddeti İşte o
+küçücük açıyı bütün bir küre boyunca
+çarptığım da Toplam enerjiyi Yani ışık
+akısını bulmuş oluyorum Çünkü bu birim
+katı açıdan bütün bu kürenin İçerisinde
+4 pi tane var gibi düşünebilirsiniz o
+yüzden 4 p'yi bir tane katı açıdaki
+enerjiyle çarparsanız bütün küreyi
+aydınlatan Işık akısını bulmuş olursunuz
+ki zaten sembollerden de
+çıkartabilirsiniz bu düşünülerek mi
+verilmiş emin değilim Ama çok güzel bir
+çağrışım yapabiliriz birim katı açı
+başına düşen Işık miktarı Işık şiddeti ı
+ile gösteriliyor bunu çepe çevre
+sardığınız da tüm küre için
+düşündüğünüzde bu arkadaş Işık akısı
+oluyor buradaki ışık kaynağının
+etrafındaki toplam enerji Yani bu sarı
+bö bölge Işık akısını temsil ederken
+buradaki küçücük üç boyutlu bir açı
+düşünüldüğünde koninin tepe açısı
+düşünüldüğünde birim katı açı
+düşünüldüğünde bu koninin içerisindeki
+ışık akısı da Işık şiddeti oluyor tanımı
+gereği 1 metre yarıçaplı bir kürede 1
+metrekarelik bir alanda oluşturulmuş
+ışık enerjisi bu formüle göre 4p zaten
+sabit sayı o zaman ışık şiddeti artarsa
+ışık akısı da artıyor demektir e
+mantıklı buradaki kiniz in içerisindeki
+enerji miktarı arttıysa E bundan her
+yerde var çepe çevre var üç boyutlu
+olarak bir küre boyunca var o zaman
+toplam da artmış demektir Her bir
+askeriniz teker teker güçlendirirsin
+ordunuzun toplam gücünü arttırmış
+olursunuz O yüzden buradaki Fi ile ı
+direkt doğru orantılıdır iki tane ampulü
+müz var biri 100 watt biri 50 watt güce
+bakarak parlaklık anlıyoruz Bu iki kat
+daha parlak O zaman bu arkadaşta 2 Fi
+akı varsa bu arkadaşta 1 Fi akı var
+diyebiliriz yani Birim zamanda bundan
+iki kat daha fazla ışık enerjisi açığa
+çıkıyor şuna göre akıyla Işık şiddeti
+doğru orantılı olduğu için o zaman bu 2
+ı bu 1 I Işık şiddetine sahiptir
+diyebiliriz bunu modeller Ken de ı
+şiddetli Adam 1 2 3 4 5 6 7 8 9 tane
+ışınla
+modellendirme
+gerektiğini anlayabiliriz akı ve şiddet
+kavramını öğrendiğimize göre ampul
+seçerken neye dikkat edeceğiz 3 watt'lık
+ampul 230 lümen üretiyormu 3 watt
+Aslında elektrikle ilgili bir bir kavram
+senin tesisatından 3 watt güç çekecek
+Birim zamanda onun karşılığında 230
+lümen görebildiğin ışık enerjisi elde
+edeceksin Bu lamba sana bunu veriyor
+başka bir Lambaya baktığında 1.2 watt
+110 Liman ifadesini görüyorsun 1.2 watt
+sana 110'luk ışık enerjisi veriyor bu
+daha az enerji veriyor ama daha az
+ışıkla veriyor sanki bu daha verimli bir
+ampul işte lummen böl watt aslında bir
+ampulün verimini bize verir mümkün olan
+az elektriği harcayarak mümkün olan çok
+Işık enerjisini elde etmeliyiz çok ışık
+akısını elde etmeliyiz Mesela bu arkadaş
+12 watt'lık enerjiyle Elektrik
+enerjisiyle 1500 lümen Işık veriyor En
+verimlisi bu 4 kat elektrik enerjisi
+kullanıyorsun Birim zamanda ama 6 kat
+ışık enerjisi ışık akısı alıyorsun Ama
+hocam biz lamba parlaklığında hep güce
+baktık hep wattları E zaten gördüğünüz
+gibi doğru orantılı watt arttıkça ışık
+enerjisi akı da arttı onların hepsi aynı
+verimli kabul edildi çünkü ama aslında
+parlaklığı belirleyen şey lümendir ışık
+gücüdür Şimdi gelelim soru tipimizi
+öğrenmeye testlerde denemelerde ne
+soracaklar şimdi anlatacağım şeylerin
+versiyonlarını soracaklar yü yüzeye
+düşen Işık akısını soracaklar kaynaktan
+Evet bir küre boyunca üç boyutlu her
+yönde akı çıkıyor bunun yüzeydeki
+versiyonunu soracaklar ı kadar ışık
+şiddetine sahip bir lamba tanımlanmış
+Bunun iki katı kadar ışık şiddetine
+sahip bir lamba tanımlanmış O yüzden
+burada 1 2 3 4 5 tane Işın çıkarttı İsa
+burada 10 tane çıkartmış daha sıkar
+diyebiliriz D kadar uzakta bir a yüzeyi
+var D kadar uzakta aynı alana sahip bir
+a yüzeyi var hangisinde hangi yüzeyde
+Işık akısı daha fazladır yani hangi
+yüzeyde daha fazla ışık enerjisi vardır
+diye soruyor Aslında E bu enerjiyi
+buradaki ışınlarla sembolize ettiğimize
+göre modelled diğimi kaç tanesi o yüzeye
+düşüyor diye bakmam lazım 1 2 3 4 5 tane
+düşmüş o zaman buradaki akı 5 Fi ile
+orantılı dersem aynı yüzeye Gördüğün
+gibi çok daha fazlası düşmüş Bunlar
+orantılı çizilmiş mi bilmiyorum ama 2 ı
+olduğu için burada 10 tane Işın
+çizilmeli Dolayısıyla buradaki akıy da
+10 Fi demeliyiz şu arkadaşın iki katı
+kadar olmalı E sizin kaynağınız daha
+güçlüyse eşit koşullarda Tabii ki
+yüzeyde daha fazla en enerji elde
+edersiniz ışınlarını Paralel ne demek o
+Muhtemelen kaynağınız çok uzakta güneş
+gibi oradan çıkan ışınlar paralel
+geliyor kabul edilirler bir noktadan
+çıkıyorlarmış gibi birbirinden
+uzaklaşıyor muu gibi çizilmez der bu
+ışınların birbirlerine olan uzaklıkları
+hep eşit kabul edilir yüzeyi çeviriyoruz
+gördüğünüz gibi Yani bu benim yüzeyim
+böyle paralel ışınlar geliyorlar elime
+ve ben bu elimi çevirmeye başlıyorum
+elimdeki ışık akısı nasıl değişir elime
+düşen ışık enerjisi nasıl değişir diye
+soruyor Biz o enerjiyi ışınlarla
+modelled diğimi için elime düşen Işın
+sayısına bakmam buradaki akıyı anlamam
+için yeterlidir mesela mesela bakın
+buradaki bütün ışınlar yüzeye düşüyorlar
+bu yüzeydeki ışınların miktarı sayısı
+oradaki akıyı verir sen bunu biraz
+çevirdiğinde Şu Arkadaş düşüyordu yüzeye
+bakın artık pas geçti bakın yüzey burada
+Oraya çarpmıyor bu arkadaş yüzeye
+düşüyordu artık pas geçmiş çarpmıyor e
+mantıklı şöyle gelen bir Işın Normalde
+elime düşüyorsa Ben bunu biraz
+çevirdiğimde pas geçecektir buradaki akı
+fi a dersem buradaki akı Fi B dersem
+A'nın B'den büyük olduğunu
+söyleyebilirim burada daha az enerji var
+diyebilirim tamamen döndürür em ışınlara
+paralel olursa benim yüzeyim o zaman
+buradaki akı sıfır diyebilirim Çünkü bu
+ışınların hiçbiri yüzeye düşmüyor buraya
+da f c dersek en küçük akı bu yüzeyde
+olacaktır burada akılda kalıcı olması
+için genelde Yağmur örneği veririm bir
+kovanı olsun paralel bir şekilde yağmur
+yağıyor olsun Yağmur paralel yağar
+kovanı tam böyle tutarsanız yatayda
+tutarsanız yağmura dik olursa
+toplayabileceğimiz kadar bütün yağmuru
+toplarsınız işte oradaki Yağmur
+miktarını Işık akısı olarak düşünün E
+ben kovamı biraz eğersen şöyle Ken düşen
+Yağmur damlasını eğdiğimde Pas geçerim O
+artık benim kovam içine düşmez Işık
+akısı daha küçük olur kovamı Yağmur
+damlalarına paralel yaparsam hiçbir
+yağmur damlası kovaya girmez Aynı burada
+olduğu gibi kovan böyle durursa içinde
+Yağmur toplayamazsın Işık akısı sıfır
+olur kaynaklarımız aynı İkisi de ı Işık
+şiddetine sahip bundan çıkan ışık
+enerjisi solda nasıl modellendirme
+hocam kaynaklar aynı uzaklıklar aynı o
+zaman yüzeylerdeki akılar da aynıdır
+Hayır değildir Bak bu eleman yüzeye
+düşmüyor pas geçmiş kaynaktan çıkmış ama
+o yüzeye düşmemiş bu eleman kaynaktan
+çıkmış yüzeye düşmemiş aynı şekilde
+Bunlar da düşmemiş ama sen alanı
+büyütürsen bu artık yüzeye düşer hale
+gelir bu artık yüzeye düşer hale gelir
+bunlar ekstra yüzeydeki enerjiyi
+arttırıcı faktörler sol taraftaki
+yüzeydeki akı ya F1 sağ taraftakini fi2
+dersem fi2 f1'den büyük olacaktır yağmur
+yağıyor yağmur yağarken kovanı tuttunuz
+topluyorsunuz belli bir akını var kovanı
+daha büyük olursa daha fazla akını olur
+ı şiddetinde kaynağımız var ı şiddetinde
+kaynağımız var D uzaklıkta A1 yüzeyim
+var D uzaklıkta daha büyük A2 yüzeyim
+var buradaki akıları kıyaslayalım fi1
+ile fi2 arasındaki ilişkiye bakalım
+Hocam az öncekinin aynısı alan büyüdüğü
+için demek ki sağ tarafta daha büyük akı
+vardır Hayır Bunlar eşittir kesinlikle
+ezber yapmıyorsunuz alan büyürse akı
+büyür diye bir şey yok Her durum için
+yeniden yorum yapman gerekiyor bakın
+buradaki ışınlar paralel modellenmiş ve
+bu şekilde modellenmiş miktarı bu alanla
+sınırlı bu kadar kaynaktan çıkan bütün
+ışınlar A1 yüzeyine düşüyor kaynak aynı
+kaynak aynı ışınlar çıkıyor ve bunların
+da hepsi a2'ye düşüyor A1 yüzeyine düşen
+Işık miktarıyla A2 yüzeyine düşen Işık
+miktarı aynı değil mi Evet o zaman akı
+aynı akı mesela kovan var musluğun
+altına koydun dolduruyor musluktan akan
+su incecik kovanın daha büyük olmasının
+bir mantığı var mı yine aynı suyu
+alacaksın boşa giden senin
+yakalayamadığı su yok ki zaten hepsini
+topluyordum yüzeyin daha büyük olsa da
+hepsini toplamaya devam ediyorsun Burada
+noktasal bir kaynağımız var ı kadar ışık
+şiddeti var buradan çıkan ışık enerjisi
+bu ışınlarla modellenmiş D1 kadar
+uzaklıkta a yüzeyim var bu yüzeyi
+uzaklaştırıyor Daha uzağa koyuyoruz d2e
+koyuyoruz yüzeydeki ışık akısı nasıl
+değişir mevzuyu anladınız benim
+anlatmama gerek yok buradaki Işık
+miktarına bakacaksın buradaki Işık
+miktarına bakacaksın mesela şu Işın
+bizim yüzeyim düştü yüzey Daha uzağa
+gittiğinde Yine düştü Dolayısıyla iki
+durumda da akı katkıda bulunuyor bu Işın
+başlangıçta yüzeye düşüyor sonra da
+düşüyor Bu Işın burada akı bir katkıda
+bulunuyor ama burada yüzey artık
+düşmüyor o zaman buradaki yüzeyde akı
+katkıda bulunmuyor aynı şekilde bu
+arkadaş akı katkıda bulunuyor burada
+bulunmuyor gördüğünüz gibi bazı ışınlar
+pas geçmişler Eskiden yüzeye
+düşüyorlardı artık düşmüyorlar bu da ne
+anlama gelir buradaki akı ya F1 buradaki
+akı fi2 dersem fi1 Fi 2'den büyük
+anlamına gelir ha hocam Demek ki
+kaynaktan uzaklaştıkça o yüzeydeki akı
+azalır Hayır öyle bir şey demedim her
+sefer için yeni yorum yapmanız gerekiyor
+dedim Bir de buraya bakalım paralel bir
+ışık demetin var el Fenerin böyle bir
+ışık yayıyor ışınlar git gide
+birbirinden uzaklaşmıyor paraleller
+diyelim ki buradaki a yüzeyine 10 tane
+ışık düşüyor Dolayısıyla buradaki akı Fi
+kadar bu 10 sayısına bakarak böyle bir
+yorum yapıyorum kaynak aynı kaynak
+şiddetler aynı şiddet Burada da 10 tane
+Işın var Sen yüzeyi D'den 2 D'ye
+çıkarttın D uzaklıktaki yüzeyin 2 D'ye
+gitti E buradaki geometriye bak bir
+değişiklik var mı yine bu yüzeye 10 tane
+Işın düşmüyor mu buradaki akı katkıda
+bulunan bütün ışınlar istisnasız Burada
+da akı katkıda bulunuyor birinci
+durumdaki akı F1 ise ikinci durumda Aki
+akı F2 ise yüzey uzaklaşmasına rağmen
+her iki yüzeydeki ışık enerjisi ışık
+akısı birbirine eşittir burada çokça
+önemli bir notumuz var Birçok öğrencinin
+kavram yanılgısı olduğu bir yer burası
+Işık akısı nelere bağlıdır diyorsun
+hocam uzaklığa bağlıdır diyor yüzeyin
+alanına bağlıdır diyor Işık şiddeti neye
+bağlıdır diyorsun hocam Işık şiddeti
+kaynakla ilgilidir diyor yüzeyle
+uzaklıkla falan ilgisi yoktur diyor
+gençler bunların ikisi de kaynakla
+ilgili dersin en başında söylediğim
+tanımları iyi öğrenin Bunların ne
+olduğuna O yüzden o kadar önem verdim
+hem simülasyonu hem çizerek anlatmaya
+çalıştım Işık akısı kaynaktan Birim
+zamanda çıkan ışık enerjisi ile ilgili
+Işık şiddeti de bunun sadece küçücük bir
+açı içerisindeki versiyonu ki zaten
+bunların arasındaki ilişki doğru orantı
+demiştim Fi = 4 Pi x ı küçücük bir
+açıdaki enerjiyi bütün Küre boyunca
+düşünürsen toplam enerjiyi yani akıyı
+bulursun Tabii Birim zamanda Işık
+şiddeti kaynakla ilgiliyse ışık akısı da
+kaynakla ilgilidir Sana ekstra yüzeydeki
+akı diyorsa o zaman işin içerisine
+yüzeye olan uzaklık da girer açı da
+girer İşte o zaman Işın sayarsın
+geometriye bakar bakarsın Az önce
+yaptığım durumları incelersen bu farkı
+anlamanız önemli yarıçapları sırasıyla R
+ve 2r olan X ve Y kürelerinin
+merkezlerine Işık şiddetleri ı ve 2 ı
+olan iki tane kaynak yerleştirilmiştir x
+küresinin yüzeyinde olan Işık akısı FX y
+yüzeyindeki Işık akısı Fi y olduğuna
+göre bunların oranı nedir ı şiddetli
+kaynak var diyelim ki sen bunu 4 tane
+ışınla modelli musun 2 ılık kaynağı
+gördüğünde o zaman bunun 2i katı 8 tane
+ışınla modellemenin iç yüzeyinde 4 tane
+Işın var y'nin iç yüzeyinde 8 tane Işın
+var o zaman X'in iç yüzeyindeki ışık
+enerjisine Ben Fi dersem y' Deek 2 F
+demeliyim Sorumun cevabı buradan 1/2
+gelir Ama hocam burada R Yarıçap var
+burada 2r Yarıçap var kürelerin
+boyutları önemli değil mi sizce önemli
+mi mesela 3r yarıçaplı küre olsaydı aynı
+ışınlar bu yüzeylere de düşüp bu
+yüzeylerde 8 tane Işın var akı 2 F
+olacak demeyecek miydim diyecektim
+kürenin boyutlarının hiçbir önemi yok ki
+şuradan da anlarsınız Işık akısı dediğim
+şey birim katı açıdaki ışık enerjisinin
+bütün Küre boyunca toplanmasıdır 4p
+zaten sabit sayı küreyi tarif ediyor O
+zaman ıya Fi varsa 2 ıya ne olmalı 2 Fi
+olmalı O yüzden bunu 4 tane ışınla bunu
+8 tane ışınla modelli zaten bir
+askerimin gücü ı İsa ordunun gücü fiir
+bir askerimin gücü 2 ı İsa bütün ordumun
+gücü de 2 fidir kürenin boyutlarından
+bağımsızdır R yarıçaplı içi boş kürenin
+merkezine şekildeki gibi yerleştirilen
+ışık kaynağının şiddeti ı kadardır Buna
+göre kürenin iç yüzeyindeki toplam Işık
+akısını arttırmak için hangilerini
+yapmamız gerekir gençler ı Işık
+şiddetini gördünüz kafanıza göre
+modelleyiniz ki bu 4 sayısına bakarak şu
+an Işık şiddetine Fi demiş oldunuz bu
+Işık akısı artsın istiyoruz diyor ki R
+yarıçapı azalt daha küçük bir kürenin
+merkezine koy bu kaynağı Tamam kürem
+şöyle olsaydı kaynak yine içeride bu
+kürenin iç yüzeyine kaç tane Işın
+düşecekti 1 2 3 4 yine 4 tane düştü o
+zaman buradaki ışık akısı da Fi Çünkü Fi
+demek kaynaktan çıkan toplam Işık
+miktarı ışık enerjisinin bir ölçüsü Yani
+sen bunu değiştirmeden etrafındaki
+yüzeyi değiştirsen ne olur benden çıkan
+şey belli küçük bir küreye de beni
+koysan büyük bir küreye de beni koysan o
+kürenin iç yüzeyinde benden ne çıkıyorsa
+o Düşecek o yüzden kaynağın kendisi
+değişmeden O kürenin iç kısmındaki Fi'yi
+değiştiremedim bu sabit bırakır
+arttırmaz ya da azaltmaz ıyı arttırmak
+bu olur işte bak her bir askerinin
+gücünü arttırırsan ordunun toplam gücünü
+arttırmış olursun şimdi önceden Sen ı
+iken 4 tane ışınla modelli oldun buradan
+çıkan enerjiyi diyelim ki sen bunu 2 ı
+yaptın o zaman 8 tane ışınla
+modelleyiniz 4 tane Işın düşüyordu
+yüzeyde Fi kadar akı vardı şimdi 8 tane
+düştüğü için 2 F akı var yüzeyde
+diyebiliriz ıın artması işe yarar ışık
+kaynağı herhangi bir yönde küre yüzeyine
+yaklaştırılmıyor mi yani küreye düşen
+toplam enerji değişir mi o enerjiyi
+modelleyen ışınlar değiştiyse değişir
+başlangıçta ı kadar şiddetin vardı yine
+ı kadar şiddetin var sadece yerini
+değiştirdim kaynağın yine bu enerjiyi D
+tane ışınla
+şu an küre yüzeyinde toplam kaç tane
+Işın var Aynı burada olduğu gibi 4 tane
+var o zaman aynı burada olduğu gibi küre
+yüzeyinde Fi kadar akı var diyebilirim
+kürenin içerisinde hareket ettirmek
+yüzeydeki toplam enerji miktarını
+etkilemez çepe çevre sarılmış bir
+sistemde yüzeydeki enerjiyi değiştirmek
+için kaynağı değiştirmeniz lazım O
+yüzden sadece 2'yi yapmamız gerekirdi
+noktasal bir ışık kaynağı eşit karelere
+bölünmüş düzlemde k noktasından yatay
+doğrultuda harekete başlayarak önce L
+sonra M noktasına götürülüyor kaynağın
+bu hareketi boyunca perde üzerindeki ış
+ışık akısı nasıl değişir Hocam az önceki
+soruda dediniz ki yüzeydeki akının
+değişmesi için kaynağın değişmesi lazım
+Burada kaynak hiç değişmiyor sadece yeri
+değiştiriliyor kürede de yapmıştık onu
+Dolayısıyla bütün noktalarda perde
+üzerindeki Işık akısı aynıdır Hayır
+değildir Az önceki soru çepe çevre
+sarılmış bir soruydu kaynağın etrafını
+sarmıştı Yani buradan çıkan bütün
+ışınlar illaki o sistemde kalıyordu O
+yüzden kaynağın nereye konulduğunu
+hiçbir önemi yoktu kürenin içerisinde
+ama burada öyle değil Mesela bu
+arkadaşın etrafında bir ışık akısı var
+Işık şiddetiyle orantılı Ben bunu 8 ik
+tane ışınla modelli şöyle Buraya
+geldiğinde de aynı ışınlara sahip
+olacağız Tabii ki Çünkü Işık şiddeti
+değişmiyor Işık akısı değişmiyor
+kaynaktan çıkan aynı şekilde mde de
+böyle olacak kaynaktaki akı aynı Bu
+değişmiyor Çünkü kaynak değişmiyor Işık
+şiddeti değişmiyor ama bize perde
+üzerindekini soruyor perdeye Bunların ne
+kadarının düştüğüne bakacağız bakın
+benim bu modelleme Şu Arkadaş perdeye
+düşer akı bir katkıda bulunur bu düşmez
+bu düşmez diğerleri zaten düşmez
+Dolayısıyla tek bir Işın düşürdüm şu an
+Kaynak bu perde üzerinde Fi kadarlık bir
+akı oluştursun tek bir Işın bunu
+oluşturmuş olsun lye geldiğinde bu
+perdeye düşer Bu da tam köşegen Eğer
+buraya düşer Bu da tam köşegen Eğer
+buraya düşer şu an 3 tane Işın düşürdüm
+diğerleri perdeye düşmeyecek ü Işın
+düştüğü için şu an akı perde üzerindeki
+Işık akısı 3 fiir m'ye geldiğimde zaten
+K'nın simetriği bu arkadaş düşecek
+Bunların hepsi pas geçecekler
+Dolayısıyla yine bir tane Düşecek o
+zaman Fi kadarlık akı vardır perdede
+diyebilirim Dolayısıyla K'dan m'ye
+giderken kaynak aynı olmasına rağmen
+etrafına yaydığı birim zamandaki Işık
+Ener enerjisi yani akı aynı olmasına
+rağmen perde üzerindeki akıyı
+konuşuyorsam önce fii sonra arttı 3 F
+oldu Sonra tekrar azaldı Fi oldu
+diyebilirim yani gençler o küre
+sorusuyla Bu Son Perde sorusunu
+birleştirirsek şu hatırlatmayı tekrar
+yapıyorum Çok önemli bazı öğrenciler
+formül ezberlemeye Çok meyilli oluyorlar
+ama formülün ne anlattığını bilmiyorlar
+diyorlar ki hocam Işık akısı dediğimiz
+şey 4 P x ıdır ı dediğimiz şey kaynakla
+ilgilidir kaynak değişmiyorsa ı sabittir
+4p zaten sabit sayı o zaman akı da
+sabittir perdenin neresinde olursam
+olayım Per dei akı aynıdır Hayır
+değildir Bu kaynakla ilgili bir formül
+bu birim katı açı bu kürenin tamamı o
+açıların toplamı o yüzden bu formülü bir
+kürede kullanabilirsin kürenin
+içerisinde ı şiddetli bir kaynağın varsa
+yüzeyde Fi vardır bunu 2 ı yaparsan
+buraya 2 ı yazarsın buraya da 2 Fi
+yapmış olursun Dolayısıyla yüzeyde 2 Fi
+olur ama düz yüzeylerde böyle formül
+düşünemezsin bu 4 pi ıın ne kadarının
+yüzeye düştüğüne bakmalı buradan çıkan
+toplam 4p ıydı bunun sadece şu yeşil
+versiyonu perdeye düştü burası da 4 P
+ıydı bunun sadece bu sarıları perdeye
+düştü Burası da 4p ıydı bunun sadece şu
+kırmızı kadarı perdeye düştü O yüzden
+akılar farklılaştı bu çok önemli bir
+sonraki kavramım aydınlanma şiddeti onu
+da diğer dersimize saklayalım
+takıldıkları alta yazın Kendinize iyi
+bakın
+[Müzik]
+görüşürüz

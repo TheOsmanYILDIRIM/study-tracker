@@ -1,0 +1,645 @@
+yarıçapları eşit iletken X ve Y
+kürelerinden x nötr y ise artı 10 birim
+yük taşımaktadır x küresini Nötr bir p
+cismine sürtülerek elektriklendikten
+sonra y küresine dokundurulup ayrılıyor
+y küresinin son yükü -1 birim olduğuna
+göre x küresiyle p cisminin son yükleri
+kaç birimdir dokunmayla elektriklenme
+sürtünme ile elektriklenme hepsi var bir
+kere bunların yarıçapları eşit
+kapasiteleri aynı toplam yükü eşit
+paylaşacaklar İkisi de başlangıçta
+hiçbir şey yok YDS artı 10q var gibi
+düşünebilir x küresel Nötr bir p cismine
+bambaşka bir cisme sürtülmüş ve
+elektriklenmiş şu an x için 2 ihtimal
+var bu arkadaş ya eksiyle yüklendi ya da
+artıyla yüklendi İkisi de mümkündür eksi
+yüklendi ise p'ye artı yüklemiş demektir
+artı yüklendi ise p'ye eksi yüklemiş
+demektir Çünkü sürtünen cisimler zıt
+yüklenirler sebep yük korunumu
+biliyorsunuz Tabii başlangıçta bu
+arkadaşlara nötr olduğunu kabul edersek
+şimdi y'nin son yükünü vermiş bana
+sorunun çıkış noktası buradan olacak XL
+y'yi dokunduruyoruz bu x Olsun bu da y
+olsun bunlar aynı yere çaba sahipler
+y'de başlangıçta artı 10q vardı x n ile
+yük bilmediğimiz bir şekilde yüklendi
+xl'ye dokundu y'de -10 oldu bunlar
+toplamı eşit paylaştıkları için y'nin
+payını -10 düştüyse kesinlikle X'in
+payına da -10 düşmüştür Demek ki bu
+adamlar -20'yi paylaşmışlar toplam yük -
+20'ymiş dokunduklarında ve başlangıçta
+y'de artı 10 vardı demek ki x'te eksi 30
+q vardı bir daha yapalım ikisi de -30
+var y'de artı 10 var dokundurdum toplam
+büyük -20 - 20 eşit paylaşacaklar
+yarıçapları eşit -10 sağladı x bu -30'u
+nereden kazanmıştı p cismiyle
+sürtülmüştü zıt yükleme olur demiştik p
+cismi -30'un tam tersini kazandı yani
+artı 30 q kazanmıştır O sürtünme
+sonucunda diyebiliriz son yükleri
+soruyordu bize X'in son yükü y ile temas
+ettikten sonraki hali -10 P'nin son yükü
+de x'e sürtüldükten sonraki haliydi
+sonra p'ye bir şey yapmadık O da +30 -
+10 + 30 Sorumun cevabı D seçeneğidir
+Özdeş ve nötr olan klm iletken
+kürelerinden L Küresi iletken bir telle
+topraklanmış negatif yüklü püresi
+şekildeki gibi mesafesine yaklaştırılıp
+yeterince beklendikten sonra anahtar
+kapatılıyormuş p Küresi
+uzaklaştırılmadan bu adam buradayken
+anahtarı açıp Kai gönderiyoruz Yine bir
+sürü hikaye anlatan bir soru adım adım
+gideceğiz Şimdi bunların hepsi aynı R
+Yarıçap Özdeş diyor çünkü kapasiteler
+aynı burada anahtar açık topraklama şu
+an aktif değil negatif yüklü p'yi
+yaklaştırırsam ne olur negatif yüklü p
+yaklaştırırsam artılar en yakında olur
+eksiler Mümkün olan en uzakta olur Bu da
+Kaan Toprak bağlantısı yok Toprak
+olsaydı eksiler mümkün olan en uzak
+olabilecek toprağa giderlerdi geri kalan
+her yer nötr olurdu ya da şöyle
+düşünürdük birbirine temas eden bütün
+iletkenler topraklanır ama burada bir
+dış etki var O zaman o dış etkinin
+müsaade ettiği yerler topraklanır Yani
+bu artıların haricindeki geri kalan
+kısmı Ama şu an Toprak yok Dolayısıyla
+eksiler en uzakta kaldalar bu
+sağlandıktan sonra anahtarı kapatıyoruz
+diyor işte o zaman şimdi söylediğim
+bütün senaryo gerçekleşir Toprak her
+yerin ötürler p yüzünden Burası artık
+almak zorunda geri kalan her yerden
+ötürlenecek ya da az önce dediğim gibi
+bu eksiler mümkün olan artık en uzak
+Toprak olduğu için toprağa gidecek yani
+her yer nötrlenecek en sağ artı geri
+kalan her yer nötr küre Hala burada soru
+diyor ki anahtarı açıyoruz Toprak
+bağlantısını kestim Hala bir değişiklik
+yok Şeklimiz de K Küresi
+uzaklaştırılıyor K Küresi zaten şu an
+nötr değil miydi bu eksileri göndermemiş
+miydik Evet o zaman sen şu an Nötr bir
+adamı gönderdin K Küresi uzakta ve
+nötralde elimizde Ne kaldı nötr ile
+kaldı sağ tarafı artı yüklenmiş M kaldı
+son durumda Kaan'ın yük miktarı m'ye
+eşittir Hayır m'de bir artı q var dersem
+k'da hiçbir şey yok nötr bu 0 yanlış
+l'nin yük işaretine negatiftir Hayır L
+nötraldedir yanlış P'nin yük miktarı
+m'den büyüktür yine konu anlatımında
+özellikle Faraday kafesinin öncesinde
+anlattığım etki ile elektriklenmede
+kendin kadar yük çekebilir misin mevzusu
+Yani ben buraya artık q topladığım iddia
+ediyorsam acaba p'de eksi q mudur Hayır
+değildir daha büyüktür mesela -2q'dur
+bunun eksi q olduğunu iddia etsem şöyle
+saçma bir şey ortaya çıkıyordu Çünkü bu
+arkadaşı biraz daha yaklaştırsam yükler
+birbirine yaklaşır kilom Kuvvetleri daha
+da etkin olur Daha çok çekerim buradaki
+artı miktarı artar Mesela bir buçuk q
+olur artık şimdi ben -q halimle bir
+buçuk q Kendinden daha fazla mı yük
+çektim saçma oluyor değil mi Demek ki
+ben her halükarda kendimden daha az
+çekmeliyim Yani -2q uyumdur ben artık q
+çekerim biraz daha yaklaşınca artı bir
+buçuk çekerim biraz daha yaklaşınca artı
+1,8 çekerim gibi kendim kadar çekme
+nasıl mümkün olabiliyordu sadece içi boş
+Bir iletkenin içerisine cisim
+sarkıttığında oluyordu ben buraya artık
+q sarkıtırsam içeriye eksi q'yu toplarım
+bunun nasıl olduğunu da konu anlatımını
+anlatmıştım tekrar anlatmayacağım P'nin
+yük miktarı m'den daha büyüktür Evet bu
+doğru sorunun cevabı B seçeneğidir
+iletken T cismi yüklüyse elektroskobuna
+şekildeki gibi dokundurulduğunda
+elektroskobun yapraklarında bir
+değişiklik olmuyor bunlar temas
+ediyorlar dokunmayla elektriklenme yük
+paylaşım olur kapasiteler oranında
+yapraklarda herhangi bir değişiklik
+yoksa elektroskobun yük miktarında bir
+değişiklik olmamıştır bu arkadaş artık
+q ise artık q olmaya devam etmiştir Buna
+göre s elektroskobu ile t cis için
+yükleri hangileri gibi olabilir birinci
+Öncül diyor ki elektroskobumuz +4q yüklü
+T cismimizde -2q yüklü olabilir mi
+hayırı olamaz Niye olamaz çünkü sen
+bunları dokundurduğunda toplam yükün ne
+olur artı iki q olur bu artı 2q'yu
+paylaşacaklar nasıl paylaşırlarsa
+paylaşsınlar artık q'ya artık q
+paylaşsınlar artı bir buçukq'ya artı 0.5
+q paylaşsınlar Ne bileyim
+0.1q'ya tabi yine artı 1,9q paylaşsınlar
+her halükarda s elektroskobunun yüküne
+tekrar ulaşamazsın Bu da Yaprakların
+açısının değişmesi demek hatta
+kesinlikle azalması diyebiliriz Çünkü
+dörtten daha küçük değerler elde
+ediyorsun Her türlü paylaşım sonucunda o
+zaman birin olması mümkün değil -3q'ya
+-2 q olabilir mi bu arkadaş -2 q bu
+arkadaş eksi 3q toplam yük -5 q -5 q'yu
+paylaşacaklar eksi ikiye -3 diye
+paylaşamazlar mı Hayır hocam
+paylaşamazlar eşit paylaşmaları lazım
+niye kapasitelerin aynı olduğu ile
+ilgili bir bilgi var mı soruda Hayır yok
+Bunları küre gibi hayal T dediğim cisim
+2r yarıçaplı bir küre gibi düşünülürse
+elektroskopta 3r yarıçaplı bir küre gibi
+düşünülebilir gayet de bu paylaşıma
+sebep olabilirler soruda bunların
+kapasiteleri aynıdır gibi bir bilgi yok
+Dolayısıyla bizim elektroskopumuz
+başlangıçta -3q son durumda da -3q yüke
+sahip olabilir bu da yapraklardaki açıda
+bir değişiklik olmayacak demektir O
+zaman gayet de mümkündür artı 3q'yu artı
+5q olabilir mi Bunu da artı 5q bunu da
+artı 3q E tabii ki olabilir toplam artı
+8q olacak ve bunları paylaşacağız +5 + 3
+diye yine paylaşabilirim niye
+paylaşamayayım yine aynı kapıya
+çıkıyoruz bunların kapasitelerini
+bilmiyoruz ki ben yine aynı yüke sahip
+olabilirim yapraklardaki açılar
+değişmeye bilir Yeter ki aynı işaretli
+olalım zaten dikkat ederseniz aynı
+işarette şıklara olabilir dedik zıt
+olduğunda aynı değeri elde edemiyoruz
+Çünkü zıt olduğunda Aslında çıkarma
+işlemi yaptığın için toplamı
+değiştiriyorsun değişen toplamı bir daha
+dağıttığında aynı sonuca
+ulaşamayabiliriz O yüzden verilen
+sayılar üzerinden Sorumun cevabı D
+seçeneği olacaktır nötr X ve Y küreleri
+yalıtkan saplarından tutularak
+birbirlerine sürtülüyorlarmış Buna göre
+sürtünme işleminden sonrası için
+hangileri kesinlikle doğrudur yine güzel
+kavram yanılgısı ölçen bir soru sürtünme
+elektriklenme varsa ve başlangıçtan
+ötürseniz Yani toplam yükünü sıfırsa son
+durumda da sıfır olacak bu da demektir
+ki -q'ya artı q yükleniriz artık q'ya
+eksik q yükleniriz Ne bileyim artı 5q
+eksi 5q yükleniriz yani son durumda da
+bunların toplamı 0 olmak zorunda çünkü
+yük korunumu Çünkü toplam değişmez içten
+y yerine geçtiyse bir cebimden aldım
+öbür cebime koyduğum gibi olur toplam
+param değişmez konu anlatımlarında bolca
+konuştuk X ve Y zıt yüklenir Aynen öyle
+ki toplam sıfır kalmaya devam etsin
+y'nin yük miktarı X'in 2 katıdır Evet
+hocam Çünkü bu iki r ayarı çaplı
+kapasitesi daha fazla dolayısıyla daha
+çok yüke sahip olur Hayır şahane bir
+sorgulama yine konu anlatımı da
+konuştuğumuz bir şey diyelim ki bu doğru
+dedik ki x de eksi q var y'de de iki kat
+daha fazla yarıçapı olduğu için
+kapasitesi fazla eksi 2q var hatta
+sürtünme ile yaptığımız için Buna da
+Artı diyelim iyice saçmalamış olalım
+Yani hem dokunmayla elektriklenme gibi
+düşünüyorum hem de işaretleri farklı
+veriyor ve toplam Ne oldu Şu an artı q
+oldu başlangıçta sıfırdık Ama son
+durumda nasıl artı üye olacağız Nereden
+geldi bu artı q bir cebimden bir cebime
+yük koydum ben başkasından para almadım
+ki toplam değişmemeli böyle bir şey
+mümkün değildir yarı çaplar sadece
+dokunmayla elektriklenmede paylaşım
+yaptığın yerde önemlidir bir arkadaşınla
+cebinizdeki paraları masaya koyarsınız
+sonra cebinizin büyüklüklerine göre pay
+alırsınız orada cebinizin büyüklükleri
+yani yarıçaplar önemlidir Ama sen tek
+başınasın sol cebinden sadece birine
+para koydun diye toplam büyük miktarın
+değişmez yarıçapın Bu soruda Hiçbir
+önemi yoktur X ve y'nin sadece birbirine
+sürtülen bölgelere yüklenir Şahane Hocam
+siz konu anlatımlarında hep
+yalıtkanlarla anlattınız dediniz ki camı
+İpek kumaşa sürtelim İkisi de yalıtkan
+kauçuğu ebonit çubuğu plastik çubuğu ne
+derseniz yün kumaşa sürttünüz İkisi de
+yalıtkan bu deneye yalıtkanlarla
+yapılıyor yalıtkanlarla yapıldığı için
+de yükler dağılamazlar nereyi
+sürtüyorsak oralar yüklenirler Hatta
+hatırlıyorum hocam konu oyununda balonu
+tişörtünüze sürttünüz sürttüğünüz
+tarafta kağıtları çekebildiğiniz
+arkasıyla çekemediniz Çünkü o da
+yalıtkandı Evet bunların hepsi doğru
+Fakat bu eksi q aldı bu artı q aldı ve
+şu bölgeleri sürttük o zaman -q ile
+artık q buralardadır dersem bu Ancak
+ikisi de yalıtkansa mümkün olur Fakat
+sürtünme ile elektriklenmede böyle bir
+şartımız yok ikisi de yalıtkan olacak
+diye bir şart yok x iletken olabilir
+yine -q kazanır ama bu eksi sadece
+sürtülen bölgede kalmaz her yere yayılır
+Çünkü iletken hocam O zaman niye bu
+deneyleri hep yalıtkanlarla yapıyorlar
+Çünkü iletkenler sıkıntılı yük her yere
+dağıldığı için senin vücuduna da
+geçebilir ve böylece deneyi yapamaz
+cisimde bulunması gereken yük kaybolur
+ortadan Biz kaybolmasını istiyoruz ki
+deneyi yapabilelim kağıtları çekebilelim
+balonla O yüzden Orada kalsın istiyoruz
+o yüzden yalıtkanlarla yapıyoruz
+iletkenler yüklenmez diye bir şey yok
+soruda bu cisimler iletken ya da
+yalıtkan demiyor sadece yalıtkan saplar
+var diyor Bunlar yalıtkan yani vücuduma
+geçmeyecek mantıklı Bunlardan ikisi de
+iletken olabilir biri de iletken
+olabilir Fark etmez soru bize kesinlikle
+diye soruyor 3 Öncü doğru kabul edemem
+Yalnız bir cevap A seçeneği yükü artı 4
+q olan x elektroskobu içi boş küreye
+içten yükü cinsi miktarı bilinmeyen yel
+elektroskobu ise kürenin dış yüzeyine
+iletken bir telle bağlanmıştır bu
+durumda önce S1 anahtarını kapatıyoruz
+sonra açıyoruz devamında da S2
+anahtarını kapatıp açıyoruz Buna göre
+hangileri gözlemlenebilir yine burada
+çok güzel noktaları vurgulayacağız
+dikkatle dinleyin şimdi bak önce S1
+anahtarını kapatıp açacağız burada yüklü
+bir elektroskop var burada da içi boş
+iletken bir küre var içi boş iletken
+kürenin olayı nedir içerde yük
+barındıramazsın İçerisi her zaman
+nötrdür tabii içeriye bir şey
+sarkıtmadıysan dışarıda yüklenme olur S1
+anahtarını kapattım Açtım Bu arkadaşla
+bu arkadaşı birbirine temas ettirdim
+ayırdım gibi dokunmayla elektriklenme
+toplam yükü paylaşacağız hocam dediniz
+ki İçeride yük barınmaz içerisine türdür
+O zaman biz bu elektroskobu sanki bunun
+içine dokundurmuşuz gibi olacak bütün
+yükünü Bu arkadaşın dışına verecek yani
+Bense desem ki şöyle İçerden bir a
+cismini artı 4q yüküyle buna
+dokundurursam ne olur bütün Ar
+[Müzik]
+olurlardı Ama hocam dışarıdan dokunmuyor
+ki içeriden dokunuyor hiçbir önemi yok
+işte asıl mevzu Burası Önemli olan
+dokundurduğun cismin nerede olduğu telle
+bağlamanın bir mantığı yok bizim
+cismimiz tel değil ki bizim cismimiz
+buradaki elektroskop ya da onun yerine
+kullandığım buradaki ağaç ismi
+elektroskop kürenin içinde mi değil
+dışarıda O zaman sen bunu telle ister
+içeriden bağla ister dışarıdan bağla
+istersen ne bileyim şöyle en alttan
+bağla Hiç fark etmez normal yük paylaşım
+yapacaklar teli içeriye bağladım o zaman
+elektroskop nötrlenir diye bir mantık
+yok çünkü bu ortadaki küre iletken yani
+teli Dışarıdan da Bağlasan içeriden de
+Bağlasan yük geçişi olur içerisine nötr
+olur doğru Ama bizim elektroskobumuz
+içeride değil ki Dışarıda cismin nerede
+olduğuna bakacaksınız sorumuza geri
+dönersek Evet bizim elektroskobumuz bu
+bağlama stilinde de nötr olacak içi boş
+küremiz de nötr olacak toplamda dış
+kısmında ama içeriden bağlama olduğu
+için değil Dışarıdan bağlansaydı da ben
+yine nötronotötür derdim Çünkü iki tane
+iletkeni birbirine temas ettiriyorum bir
+tel vasıtasıyla bunu da artı 4q var Bunu
+da eksi 4q var toplam yük 0
+paylaştırırsam sıfıra sıfır olur O
+yüzden İkisi de nötr olur yükler eşit
+olduğu için böyle çıktı içeriden
+bağladığım için olmadı tekrar aynı şeyi
+söylüyorum kafası karışanlar için bizim
+elektroskobumuz bu sefer başka sayı
+vereyim artı 4q olsun Tamam bu içi boş
+kürede -6 q olsun Ben bunu yine içeriden
+bağladığımda elektroskop içerden
+bağlanmış o zaman nötrlenir demezdim
+yine ne yapardım normal bir paylaşım
+yaptırırdım +4 var -6 var -2 paylaştır
+Eksi 2q'ya eksik q olurdu çünkü bizim
+elektroskobumuz dışarıda duruyor normal
+bir paylaşım olacaktır Bu arkadaşın
+içindeki her şeyin nötrlenir içeride
+sadece tel var cisim yok ki biz de telli
+adamdan saymıyoruz bizim asıl elemanımız
+buradaki elektroskop bu artı 4 bu -4
+toplam 0 olur 0 paylaştıklarında nötr
+nötr olabilirler o zaman x
+elektroskobunun yaprakları tamamen
+kapanır ifadesini Doğru demiş olacağız
+çünkü adam +4'ten nötrlendi şimdi bu
+anahtarı açtık artık gitti artık bizim
+nötr hale gelmiş küremizle ya
+elektroskobu muhattap olacak çünkü bu
+anahtarı kapatıyoruz ve açıyoruz yani Bu
+ikisi arasında bir alışveriş olacak
+Hocam bakın bunu dışarıdan bağlamış
+Normal paylaşım olacak Hayır Yine
+tekrarlıyorum bunu içeriden bağlasaydı
+da Normal paylaşım olacaktı Çünkü
+elektroskop içerde değil dışarıda şimdi
+bunun yükünü bilmiyoruz ama ne olursa
+olsun bir nötr ile temas ettirilirsen
+sende olan yükü paylaşırsın onunla yani
+-2q varsa bunu da sıfır varsa atıyorum
+-2o'ya -2 olur Yaprakların biraz
+kapanacaktır ya elektroskobunun
+yaprakları tamamen kapanıp sonra
+açılamaz Çünkü işaret değiştirmen lazım
+Halbuki olacak olan şey mevcut yükünün
+biraz azalması Onun nötr'e göndermendir
+benden biraz verdim diye ben niye
+eksilen artıya döneyim üçüncü öncülüğün
+mümkün değil Sorumun cevabı D
+seçeneğidir elektrostatik boyama
+işlemiyle iletken metaller topraklanma
+Değil orası topaklanma olmadan homojen
+bir şekilde boyanabilir Yani buradan
+spreyle bir metali boyuyorsun o spreyden
+çıkan boyalar topaklanıp bir araya
+gelmezler hep dağılırlar Böylece her
+yeri homojen bir şekilde boyayabiliriz
+şekildeki sistemde boya tabancasından
+çıkarken iyonlaştırılan toz partikülleri
+topraklanmış metal levhaya yapışarak
+boyanması sağlanıyor Buna göre hangileri
+bu olayı açıklamak için kullanılabilir
+şimdi bu günlük hayatta kullanılan
+elektrostatik ile ilgili karşınıza
+çıkabilecek güzel bir soru özellikle
+arabalar böyle elektrostatik
+kullanılarak boyanabiliyorlar spreylerle
+bu işin mantığını bir düşünmeye
+çalışalım soruyu rahatlıkla çözeceğiz Bu
+nasıl olabilir iyonlaştırılan toz
+partikülleri diyor yani boyayı
+iyonlaştırıyor iyonlaşmak demek ne demek
+nötr boyayı eksi ile yüklemek ya da
+artıyla yüklemek demek şimdi sen şuradan
+çıkan boya taneciklerini diyelim ki eksi
+ile yükledin bu levhanın arkasını
+toprağa bağladın Dolayısıyla buradaki
+eksi boyalar etkili elektriklenme yapıp
+artıları yakınına çekecekler eksileri de
+toprağa gönderecekler buradaki eksi
+buradaki artı tarafından çekileceği için
+boyaların metale daha iyi yapışacak
+birinci mantık bu ikinci mantık buradaki
+yoğunlaşmanın bir diğer avantajı Burada
+bir tane Boya taneciği yok ki burada
+eksiyle yüklenmiş bir tane daha boya
+tercihi var eksiyle yüklenmiş başka bir
+boya tanrıcı daha var Eksi eksiği iter
+yani senin o spreyinden çıkan boyalar
+aynı işaretle yüklendiği için
+birbirlerini itip daha iyi daha
+alacaklar buraya o yüzden homojen
+yayılacaklar O yüzden topaklanma dediğim
+şey olmayacak bir yer daha iyi boyanmış
+öbür taraf daha az boyanmış olmayacak
+işin mantığı bu topaklanma Aynı cins
+yükler birbirini ittiği için oluyor
+topraklama ile biz bu metali yüklemiş
+oluyoruz değil mi Normalde nötr levhayı
+arka tarafından toprağa bağlayarak ön
+yüzeyinin artıyla yüklenmesini
+sağlıyorsun ve böylece eksi yüklü
+boyaları daha rahat çekiyorsun bunu da
+kullanıyoruz Bu mantığı açıklarken
+sürtünme ile yüklenen cisimlerin yük
+işaretleri zıttır burada sürtünme ile
+ilgili şu an görebildiğimiz herhangi bir
+olay yok iyonlaştırmayı başka yollarla
+yapıyoruz Dolayısıyla Sorumun cevabı C
+seçeneğidir elektrik yüklü cisimlerin
+çevresindeki elektrik alan çizgilerinin
+yönü yük işaretini belirtir Evet konu
+anlatımında konuştuk yükünü artı
+işaretliyse çizgiler çıkıyormuş gibi
+çizilir eksi işareti ise giriyormuş gibi
+çizilir aynı şekilde çizgilerin sayısı
+da yük miktarı ile orantılıdır klm yüklü
+cisimlerin çevresindeki elektrik alan
+çizgileri şekildeki gibi modellenmiştir
+Buna göre aynı doğrultuda yerleştirilen
+klm'nin arasındaki elektrik alan
+çizgilerin gösterimi hangisinde yanlış
+gösterilmiştir şimdi k’dan çıkıyormuş
+gibi çizilmiş artı l'ye giriyormuş gibi
+çizilmiş eksi m'den çıkıyormuş gibi
+çizilmiş artı 3 tane çizgi çizmiş O
+zaman ben bunu artı 3q desem l'ye 1 2 3
+4 5 6 tane çizgi giriyormuş gibi
+çizilmiş O zaman bu eksi 6q'dur m'den 3
+tane çıkartmış O zaman bu da +3q'dir
+hocam başka sayı veremez miydik Tabii ki
+verebilirdiniz sadece tutarlı olun yeter
+yani ben şuna artık q deseydim buna -2q
+demeliydim buna da artık q demeliydim
+Çünkü 3 çizgiyi artı q dediysen 6
+çizgiye 2 q demelisin Bir de bu çizgiler
+giriyormuş gibi çizildiyse -2 ödemiziz
+hangi sayı verirsen ver Önemli olan oran
+Çünkü çizgi sayıların arasındaki oran
+belli ona uygun vermek zorundasın şimdi
+sayısal olarak bakalım k’dan iki tane
+çıkartmış m'den de iki tane çıkartmış
+doğru ly1 2 3 4 tane çizgi göndermiş
+yani L4 tane çizgi ile muhattap olurken
+kvm 2'şer tane uygun ve bütün şıkları
+incelediğimde hep aynı oranı görüyorum
+Mesela k’dan 1 2 3 4 5 tane çıkartmış
+burada m'den de 5'ten çıkartmış l'ye 5
+gelmiş Buradan da 5 gelmiş LD 10 var
+yine iki kat Bu da doğru hepsi doğru
+k’dan 1 çıkmış m'den de bir çıkmış doğru
+l'ye 1 bir buradan iki tane gelmiş yine
+iki kat O zaman burada sayıdan bir şey
+elde edemeyeceğim yöne bakalım K'dan
+çıkıyormuş gibi çizmiş doğru çünkü K
+artı l'den de çıkıyormuş gibi çizmiş
+Hatta daha da saçma l'ye buradan girmiş
+buradan çıkmış Şimdi L eksi mi artı mı
+bu yanlış bir çizimdir Ayrıca Burası da
+yanlıştır Çünkü çizgiler m'ye geliyorlar
+M eksi değil ki gelsinler M artı olduğu
+için her halükarda çıkıyormuş gibi
+çizilmesi lazımdı Sorumun cevabı B
+seçeneğidir geldik testimizin son
+sorusuna yüklü X ve Y iletken kürelerini
+elektrik alan çizgileri şekildeki gibi
+modellenmiştir Buna göre X ve Y ile aynı
+doğrultuda yerleştirilen artı q yüklü
+cisim durumlarından hangilerinde dengede
+kalabilir onu oraya koyacağız ve orada
+durmaya devam edecek Newton'un birinci
+yasası duruyorsan ve durmaya devam
+ediyorsan senin üzerindeki bütün
+kuvvetlerin toplamı 0 olmalı bunu
+bulursam soruyu bulurum yine çizgiler
+farklı miktarda verilmiş O zaman ben bu
+ikisini ve y'nin yük miktarını
+oranlayabilirim çizgilerin yönlerinden
+de işaretleri anlayabilir içten
+çıkıyormuş gibi çizilmiş x kesinlikle +
+bir yük yaya giriyormuş gibi çizilmiş
+yaya kesinlikle eksi İşaretli bir yük 1
+2 3 4 5 6 7 8 9 tane çizgi var 1 2 3 4 5
+6 tane çizgi var bu adam + 9 q ise bu
+adam - 6qdu denilebilir ya da hocam
+sayılar büyük oldu sadeleştirelim
+derseniz artı 3q'ya -2 q da
+diyebilirsiniz dediğim gibi sayıların
+önemi yok Önemli olan oran şunu
+anlıyoruz X'in yük miktarı y'den fazla
+yani x daha güçlü bir cisim elektriksel
+olarak yine şunu hatırlatayım buradaki
+miktar kıyaslamasında Bu eksinin bir
+önemi yok yani eksi dört
+q olsaydı y Bu sefer de y'nin yükü
+fazladır diyecektim burada 3 olduğu için
+yüksek skaler büyüklük O zaman bu eksi
+matematikte +3 - 4'ten büyüktür gibi bir
+yorum yapmıyorum çünkü fiziksel olarak
+buradaki eksi itmeyi çekmeyi belirliyor
+miktar dediğim şey bu 4 le orantılıdır
+ama her halükarda Burada 2 olduğu için
+y'nin yük miktarı daha az konu anlatımı
+da konuştuk benzer bir şey çözmüştük
+mevzu Klon kuvveti ile ilgili yani K
+çarpı q1 q2/ yüklerin arasındaki
+uzaklığın karesi ile ilgili ya x bizim
+artık q'luk cismimize bakacağız ya da y
+ile bizim artı q'luk cismimize bakacağız
+yani şu q2 bizim artık q'umuz olarak
+düşünürsek bu ortak zaten o zaman
+kuvvetini belirleyecek X'in yükü ya da
+y'nin yükü ve o x ve y'nin benim artı q
+cismimle aralarındaki uzaklık
+belirleyecek Ortam aynı ortam zaten
+şimdi Birinci şekli inceliyorum y eksi x
+artı cismim de artı y bu arkadaşı çeker
+x bu arkadaşı iter vektörler zıt çıktı
+mı Çıktı birbirini götürebilir mi
+Götürebilir Ama miktarı da önemli yani
+bu kırmızı vektörün büyüklüğüyle mavi
+vektörün büyüklüğünde aynı olması lazım
+ki sıfırlasın hocam y zayıftı -2 q vardı
+x kuvvetliydi artı 3q vardı x daha güçlü
+iter kırmızı daha büyüktür İyi de tek
+değişken yük değil ki uzaklıkta önemli x
+uzakta yani etkisi zayıflıyor ye yakında
+etkisi artıyor yakın olduğu için bu az
+yükü telafi edebiliriz kırmızıyla mavi
+Aynı büyüklükte olabilir şekil dengede
+kalabilir x + bunu iter y eksi bunu
+çeker burada büyüklüğe bile bakmamıza
+gerek yok ikisi de aynı yönde olduğu
+için kesinlikle bu sağ tarafa doğru
+hızlanacaktır dengede kalamaz x artı
+bunu itti y eksi bunu çekti hocam 1 ile
+aynı oldu o zaman 3 de dengede kalır
+Hayır kalamaz çünkü x güçlüydü y zayıftı
+x güçlü olmasına rağmen Bir de yakına
+konulmuş Yani hem yük fazla hem mesafe
+az kuvvet iyice fazla buradaki kırmızı
+vektör maviden daha büyük olacaktır Net
+kuvvet oluşacaktır sağ tarafa doğru bu
+cisim sağ tarafa doğru hızlanacaktır 3
+gibi de dengede kalamaz bu soruyu böyle
+çözebiliriz Bir de elektrik alan
+konusunda benzer bir şey yapmıştık
+elektrik alan üzerinden de düşünmenizi
+istemiştim mevzuyu anlamanız için
+Aslında bu sorunun bir başka soru şekli
+şudur soruda bu q cismi yoktur soru
+sadece x'i ve y'yi verir der ki X ve
+y'nin herhangi bir noktada oluşturduğu
+elektrik alan nerelerde sıfır olabilir
+elektrik alan dediğim şey ortam cisminin
+yükü bölü o yükü olan uzaklığının
+karesiyle bulunuyor bu ikisinin yükü ya
+da yeğenin yükü olacak senin yük
+miktarım fazla ise elektrik alanın
+fazladır yükten uzaklaştıkça elektrik
+alanını azdır Bu soruda bu artık q
+yükünü yok etsen Bunlar yok soru şu
+elektrik alan sıfır olabilir sadece 1'de
+Olabilir böyle bir noktada sıfır
+olabilir elektrik alan ikisin
+oluşturduğu elektrik alan şöyle bir
+vektörken y'nin oluşturduğu elektrik
+alan böyle bir vektördür az önce
+konuştuğum mantığın aynısı X'in yükü
+fazla olduğu için elektrik alanı Aslında
+fazla olacak ama aynı zamanda Burası x'e
+çok uzak mesafede fazla elektrik alan
+azalacak Bu ikisi birbirinin telafi
+ediyor y'nin yükü az elektrik alan zayıf
+olacak ama bu mesafe daha az mesafenin
+az olması elektrik alan şiddetini
+arttırıyor O yüzden bu iki vektör
+birbirine eşit olabilir o yüzden burada
+elektrik alan sıfır olabilir elektrik
+alanın asıl tanımı şudur yük başına
+düşen elektriksel kuvvet kuvveti yalnız
+bırakırsan yük çarpı elektrik alan olur
+Sen birq yükünü mesela burada sildiğim q
+yükünü sıfır elektrik alan noktasına
+koyarsan q çarpı sıfırdan sıfır kuvvete
+maruz kalırsın yani dengede kalırsın
+aslında bir başka bakış açısıyla biz bu
+arkadaşı elektrik alanın 0 olduğu yere
+koyduğumuz için orada kalmaya devam etti
+bu düşünce tarzı da konuyu daha bütün
+anlamamızı sağlıyor lütfen bunu da
+anlamaya çalışın biz sadece birinci
+şekli olur dedik sorumuzun cevabı A
+seçeneğidir bu soruyla birlikte
+elektrostatik ünitesini tamamlamış
+oluyoruz bir sonraki dersimiz elektrik
+akımıyla ilgili olacak takıldıktan
+azaltıya yazın Kendinize iyi bakın
+görüşürüz
+[Müzik]

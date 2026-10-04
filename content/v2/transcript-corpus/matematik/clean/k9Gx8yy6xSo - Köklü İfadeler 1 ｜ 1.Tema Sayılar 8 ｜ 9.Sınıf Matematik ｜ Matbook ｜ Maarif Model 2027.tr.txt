@@ -1,0 +1,661 @@
+sınıf tayfam yine yeni yeniden diyoruz.
+Yepyeni bir alt başlık atıyoruz. Üslü
+ifadeler tik attık o tarafta bitirdik.
+Şimdi geldi 9. sınıf matbook serimizde
+köklü ifadelere. Sayfa kaçları açıyoruz?
+21'di diye hatırlıyorum. Hemen bir
+açalım bakalım beraber. Sen de benimle
+birlikte elinde kalemin önünde kitabını
+açtın. Sayfa 21'e köklü ifadeyile
+başlayacağız. Tabii önce tanımıyla
+başlayacağız. Ne diyorum? Gönder. Gönder
+gelsin hocam. Şimdi köklü ifade dediğim
+olay nedir? Bunu anlatalım sana, değil
+mi? Matematikte önemli bir nokta var
+arkadaş. Tanım, tanım, tanım. Tanım
+bilirsen gerçekten sen rahat
+edebilirsin. Şimdi tanım ne diyor? Nde N
+1'den büyük bir pozitif tam sayı. Tamam.
+Ve A bir gerçek sayı olmak üzere A da
+bir gerçek sayı. N de 1den büyük bir
+pozitif tam sayı. eşitliğini sağlayan x
+üsü e= a ifadesinde bu eşitliği sağlayan
+x sayısına aslında a'nın neyinci
+dereceden kökü denir? Şimdi okuyunca en
+başta anlayamıyor olabilirsin. Neden
+biliyor musun? Çünkü biz bugüne kadar
+hep seninle şunu yaptık. Üstü ifadelerde
+2 üssü 5 dedik. Cevap kaça eşittir
+mesela? 32'ye eşittir dedik. Ama gelelim
+seninle şunu yapsaydık ne olurdu?
+Cevabı 32 olan hangi sayının 5.
+kuvvetidir? Hangi sayının 5. kuvveti
+32'dir? Ya da cümlesini kurduğumda sen
+düşünüp ne derdin bana? Bak az önce
+çözdüğüm o soruyu 2 üssü 5 ifadesi eş 32
+ifadesini tersten çözmeye çalışıyorum.
+Hangi sayının 5. dereceden kuvveti 32'ye
+eşittir? 2 hocam. Evet doğru ama
+matematikçi bunu anlatırken şöyle
+anlatıyor. Misal biz normalde bir
+denklem çözeceğimiz zaman şöyle çözmüyor
+muyuz seninle birlikte? Hocam x'i bulur
+musun bana dediğinde bu denklemi
+çözerken 1'i karşıya atıyorsun. Nasıl
+geçer? Çıkarma olarak geçer. 4'ü karşıya
+atıyorsun. Nasıl geçer? Bölme olarak
+geçer. Cevap diyorsun. Eşittir 2. Tamam.
+Çarpmayı bölme at. Toplamayı çıkarma at.
+E işte eee çıkarmayı toplama olarak at
+karşıya. Ama ya üslü ifadeyi karşıya
+atmak istiyorsun. Çünkü senin artık
+bilmediğin değer bu. Hangi sayının 5.
+dereceden kuvveti 32'dir? Hocam
+bilinmeyeni yalnız bırakırız ya.
+Matematikçiler de demiş ki üstlü ifade
+karşıya geçerken nasıl geçsin? Nasıl
+geçsin ya? Çarpmayı bölüme atıyordun
+işte. Hah. Bunla da demişler köklü ifade
+yapalım. Buradaki üst kökün derecesi
+olur. 5. dereceden kök 32 şeklinde
+okunur. İşte köklü ifadenin doğduğu an
+bu andır. Hani sen bugüne kadar üstlü
+ifade hesaplıyordun. Adam demiş ki bir
+gün ya acaba hangi üstlü ifadenin şu
+kuvveti şu yana eşittir? İşte o ifadeyi
+tabanı bulmaya çalışıyorsun. kök bir
+ifadede yani x dediğimiz ifade neyinci
+dereceden kök a şeklinde burada
+okunacak. Burada n dediğim yer kökün
+derecesi oluyor. Kaçıncı dereceden kök
+olduğunu almış anlamış oluruz. Ve 2ci
+dereceden kök yazılmıyor bildiğin gibi 3
+4 onlar yazılıyor. İçerisideki a
+ifadesine de kökün içine adını
+vereceğiz. Şimdi gel bakalım. Köklü
+ifadelerde gerçek sayı olma şartı. Her
+köklü ifade bir gerçek sayı olmayabilir
+arkadaş. Burada dikkat edeceğimiz bazı
+noktalar var. Bazı bir tanım aralıkları
+var. Her köklü ifade gerçek sayı
+belirtmeyebilir. Gerçek sayı olma durumu
+kökün derecesine göre belirlenir.
+Örneğin eğer ki n tek ise n dediğim
+ifade neydi? Kökün derecesiydi. Kökün
+içindeki sayı canı ne isterse olur. Canı
+ne isterseden kastım ne? Negatif olur,
+pozitif olur, eksi olur. Her şey
+olabilir. Ama kökün derecesi neyse
+tekse. A istediği bütün değerleri
+alabilir. A dediğim ifade de kökün
+içerisindeki o ifadeydi. Tamam. Geldim.
+Eğer neye çiftse. Yani kökün derecesi
+çiftse kök içindeki sayı a ya 0dır hocam
+ya da 0dan büyüktür. Asla içerisi
+negatif olamaz. Ne zaman negatif olamaz
+hocam? İşte kritik vaka. n çift
+olduğunda içerisi ya 0'dır ya da 0'dan
+büyüktür. Örneğin 16 kök içerisindeyse a
+pozitif hiçbir sıkıntı yok. Dışarı zaten
+4 diye de çıkıyor. Biliyorsun bunu
+hocam. Diyorsun ki böyle bir gerçek sayı
+var mıdır? Vardır ama kök içerisinde -16
+diye bir gerçek sayı yoktur. Sebep?
+Hocam bak burada aslında 2 yazıyor. 2ci
+dereceden kök var. E bu 2 denen kökün
+derecesi nasıl bir kök derecesidir? çift
+dereceden bir kök derecesi çift sayıdır.
+Haliyle çift olduğu için içerisi asla ne
+olamaz? Negatif olamaz. Ya bir dakika da
+hocam neden ya aslında nedeni yine üstlü
+sayıya dayanıyor. Sen kalkıp 2'nin 4.
+dereceden kuvvetini aldığında cevap 16
+çıkıyor ya. Ya hocam sen 4 tane ifadeyi
+yan yana çarpıyorsun. Çift dereceden
+bahsetmeye çalışıyorum. Yan yana
+çarptığında cevabın negatif çıkma şansı
+var mı? Yani sen bu sorunun cevabına -16
+diyebilir misin? Mesela bunu sildim.
+Burada bir kutucuk var. Hangi sayının 4.
+kuvveti 16'dır desem ne diyecektin
+hocam? Öyle bir sayı yoktur. -16
+diyemezsin 4. kuvvete. Çünkü eksiler
+elbet çarpıldığında çift adet varsa
+cevap kesinlikle ne çıkmak zorunda?
+Pozitif çıkmak zorunda. O zaman bunun
+bir çözümü olabilir mi bu halde? Olamaz.
+Hepsinin bir mantığı var. Ezbere değil
+bak hiçbir şey. Şimdi soru 46. Bak köklü
+ifadelerin cevaplarını bulmaya
+çalışmayacağız seninle birlikte. Burada
+yapacağımız tek şey bu bir gerçek sayı
+mıdır değil midir? Çok basit düşün.
+Aşağıda köklü ifadelerden gerçek sayı
+olanların yanına tik atacağız. Gerçek
+sayı olmayanların yanına da çarpı
+sembolü koyacağız. Bir kere şuna karar
+verelim. İçerisi pozitif mi negatif mi?
+Üstü sayıyı biliyorsun. Bak düzenleyerek
+yaz. Hocam bu 2in karesi daha doğrusu
+4'ün karesi sadece ona ait. Eksisine ait
+değil. Yani işleme yaptığında cevap ne
+gelir? -√16
+gelir haliyle. Aha bu bir köklü ifade
+olamaz. Gerçek sayı belirtemez. Niye?
+2inci dereceden çift dereceden kök var
+içerisi negatif. Olmaz arkadaş öyle bir
+durum yok. Hocam -3 üssü 4'ün 4.
+dereceden kuvveti alındığınd karekök
+alındığında ne yapacağız? Burada içerisi
+aslında pozitif mi negatif mi? Bana onu
+söyle. Bu 4 kime ait? Bunun tamamına
+ait. -3'ün 4. kuvveti kaça ait? Kaça
+eşittir? 81'e eşittir. İçerisi pozitif
+mi? Pozitif. O zaman bu bir gerçek
+sayıdır. Bak senden tek istediğim bu.
+Cevapları yazmaya çalışmıyoruz. √0 hocam
+kökün derecesi 2 ise içerisi 0 da olur.
+Birçok öğrenci bunu karıştırır. 0'a eşit
+de olabilir, 0'dan büyük de olabilir.
+Yani bu da bir gerçek sayıdır. Hatta
+hatta bunun cevabı direkt 0'a da
+eşittir. Hocam kökün derecesi tek. Hiç
+içine bakma bile. Bu bir gerçek sayıdır.
+Kökün derecesi tek. İçerisine ya beni
+ilgilendirmez. Bu kesinlikle bir gerçek
+sayıdır. Kökün derecesi çift. İçerisi
+negatif. Kusura bakma bu bir gerçek sayı
+olamaz diyeceksin. Geldim. 4 içerisi
+negatif. Hocam bu bir gerçek sayı
+olamaz. Geldim burası 3. Hiç bakmadım
+bile. Onayladım geçtim. Ne olursa olsun
+kabul diyoruz çünkü o tarafta kökün
+derecesi nedir? 2'dir. Çifttir. -1'in 3.
+dereceden kuvveti aldığımda cevap ne
+gelir? Bak şimdi yapalım bunu. İçerisi
+-1 kalır. E içerisi kök içerisinde -1
+negatiftir. E 2inci dereceden kök
+vardır. Kusura bakma böyle bir gerçek
+sayı tanımlayamazsın. Hocam bunun cevabı
+nedir yani dediğinizde olay şu. Bak
+böyle bir sayı yok. Olmayan şeyin
+cevabını nasıl bulayım de. Tamam. Kök
+içerisinde -6ın karesi. -6ın karesini
+aldığında cevap nereye götürür seni?
+36'ya götürür. Peki kök içerisinde
+36'nın cevabı neye eşittir? 6 diye çıkar
+falan da ya ben onunla ilgilenmiyorum.
+Kökün derecesi burada 2 önü pozitif. Ben
+bunu onaylarım geçerim hocam diyeceksin.
+Anlaştık mı? Geldim. Şimdi burası 4.
+dereceden. Burada 5. dereceden kuvvet
+var. -2. Sen bu kuvveti uyguladığında
+cevap içeride -32 gelir mi? 4. dereceden
+kuvvette gelir. Tamam da burası çiftken
+içerisi negatif olamaz. Böyle bir sayı
+tanımlanamaz diyeceksin. Yani bu bir
+gerçek sayı değildir. Aynı şekilde
+burada 2 yazıyor. Burada negatif var.
+Hiç düşünmedim. Dedim ki böyle bir
+gerçek sayı tanımlamak mümkün değildir.
+Şimdi iki tane soru tipi var. Özellikle
+hani böyle içerideki o kök tanımını, kök
+muhabbetini anlayıp anlamadığını
+sorgulatacak. Yani mevzu şuraya gitti.
+Burası çiftse buranın kesinlikle ü eş 0
+olması lazım. Burası tekse yani kökün
+derecesi tekse bu paşa gönlü ne isterse
+olur yani istediği bütün gerçek sayı
+değerlerini alabilir dedim. Değil mi?
+Şimdi bu yukarıda bir tane toplama
+işlemi var. köklü ifadelerle toplamını
+oluşturan her köklü ifade bir gerçek
+sayı olduğuna göre x'in alabileceği kaç
+tane doğal sayı değeri vardır diyor.
+Hocam buradaki ifadenin bir köklü ifade
+belirtebilebilmesi için kökün derecesi
+çift olduğu için içerisinin 0'dan büyük
+ya da eşit olması gerekir. Yani senin
+yazman gereken kural burada budur. Şimdi
+yan tarafa geçtim. Kökün derecesi ne
+hocam? Çift. O zaman içerisi ne olmak
+zorunda? 0a eşit veya 0'dan büyük olması
+gerekiyor. Aldım x'i karşıya attım.
+Aldım -2'yi karşıya attım. İkisini
+birleştirdim. X dedim ortaya yazılsa x
+denen değer 2'den büyük eşittir ama
+7'den küçük eşittir. Kaç tane x doğal
+sayı değeri vardır diyor. X'in
+alabileceği doğal sayı değerlerini
+yazalım mı? 2 3 4 5 6 ve 7 değerini
+alabilir. Yani 1 2 3 4 5 6 tane. Cevap 6
+tane değer alır dedim. Noktayı koydum.
+Geldim sıradakine.
+Bu soruda önce seninle uğraşmanı
+istiyorum. Hani hep dedim ya bu ders
+aslında bir özel ders konseptinde. Şimdi
+kalemi eline almanı, bu soruya gerçekten
+kendin düşünüp kendin çözmeni istiyorum.
+Denedik mi? ifadesi bir gerçek sayı
+olduğuna göre yani 3x - 12 ifadesi bir
+gerçek sayıysa kökün derecesine baktım 2
+çifttir. İçerisi büyük eşit 0'dır.
+Kısaca 3x >= 12'den x > her tarafı 3'e
+böldüm 4'ten. Aynı şekilde geldim. Kökün
+derecesi çift olduğu için 8 - x >= 0
+olmalıdır. Kısaca 8= x'ten. E aldım bu
+arkadaşları bir araya getirdin. X >
+eşitmiş 4'ten hocam ama küçük eşitmiş
+8'den dedin. X'in alabileceği tam sayı
+değerlerinin toplamını arıyorum. 4 var,
+5 var, 6 var, 7 var. Bir de 8 var
+alabileceğimiz değerlerde. Şimdi bak,
+eaus metodu en dıştakileri topla 12. En
+dıştakileri topla 12. Yaptı mı 24? 6
+daha toplam ne yapar? 30 yapar. Doğru
+cevap 30'dur. K ve X bir gerçek sayı
+olmak üzere K'nin değerini soruyor.
+Şimdi K dediğim değer burada. Tamam da
+hocam biz X'i bilmiyoruz. Tamam işte x'i
+bulacaksın, yerine yazacaksın.
+Böylelikle k değerini bulacaksın. Peki
+x'i nasıl bulacağım? İşte orada köklü
+ifadenin tanımından faydalanacaksın.
+Misal burası kaç hocam? 6. Burası kaç?
+8. Bunlar çift dereceden kökler. Çift
+dereceden köklerde kökün içerisi
+kesinlikle ne olmak zorundaydı hocam?
+0'dan büyük eşit olmak zorunda. Yani x -
+5 > 0'dır. Aynı şekilde 5 - x o da ü eş
+0'dır. Burada bir terslik var gibi değil
+mi? -5'i al at karşıya 5 x denen sayı
+5'ten büyük eşit. X'i al at karşıya 5
+denen sayı x'ten büyük eşit. E hocam ben
+bunları birleştiremiyorum. Yani x > 5 ve
+x < 5 ise mantıklı mı bu? Aslında
+mantıklı. Çünkü x'in alabileceği tek bir
+değer var. Seni kıstırıyor bak. Aralık
+bırakmıyor sana. Sana tek bir tane tam
+sayı hakkı veriyor. O da kaç? 5. Demek
+ki x değeri kesinlikle 5. O halde x
+yerine 5 koyarak geliyorum. 5 - 5 + 8
+dereceden √5 -5 + 3 x 5 -1 bir kere bu
+taraf 0landı değil mi? Kökün içi 0.
+Burası da sıfırlandı. Artık k değerine
+geldik. 3 x 5 15. 1i gitti kaç kaldı? 14
+geldi. Demek ki k'nin değeri 14
+olmalıymış dedim. Geldik 50. sorumuza.
+Üslü ifadelerden bu yana. Bir
+kırtasiyenin vitrininde ön yüzleri kare
+olan 3 not panosu kenarları şekildeki
+gibi çakışacak biçimde asılmış.
+Panoların alanlara birim kare cinsinden
+yazılmış. Buna göre şekilde gösterilen x
+uzunluğu kaç birimdir? Aradığım uzunluk
+şuradaki aralık yer. Şimdi hocam bu
+köklü ifadeyle ne alakası var? Aslında
+köklü ifadenin tanımıyla alakalı. Misal
+bu 144 sayısını sen elde edebilmek için
+aslında ne dedin? Dedin ki hocam diyelim
+ki bunun bir kenar uzunluğu a olsun.
+A'nın karesi ki karenin alanı böyle
+bulunur. 144'e eşitmiş. Hangi sayının
+karesi 144'tür? Aslında buradan a'nın
+değerinin kaç olduğunu anladım. Köklü
+ifadenin doğduğu yer. Hani bunu köklü
+biçimde yazsam nasıl yazarım? Kök
+içerisinde 144 yazarım. Anlamı nedir?
+Hangi sayının karesi 144'tür? Hocam
+12'nin bitti. Geldim bir kenarına
+diğerinin bu sefer B diyelim istersen.
+Şuradaki bir kenara B dedim. B'nin
+karesi kaça eşitmiş? 25'e eşitmiş. Hangi
+sayının karesi 25'e eşittir? + 5 de -5.
+İkisi de sağlar ama ya sen bir
+uzunluktan bahsediyorsun. Haliyle
+pozitif değeri almak zorundasın. B'nin
+cevabı 5'tir. Geldim şuraya. C² = 441'e
+eşitmiş. E o zaman C'nin değeri ne
+olacaktır? 20in karesi 400'dür. Haliyle
+21in karesi 441'dir. O halde C'nin
+değeri ne olmalıdır dedim. 21 olmalıdır
+dedim. Şimdi tüm bu değerleri yerlerine
+yazalım. Hocam şuradan şurası 21 birim.
+Şuradan şurası az önce bulduk 5 birim.
+Şuradan şurası onasıyalla gösterelim
+hadi. Şuradan şurası da 12 birim.
+Haliyle şuranın toplamı 12 5 daha ne
+yapar? 17 yapar. E sonuç 17 ile x'in
+toplamı 21 olmak zorunda. 17 + x = 21
+ise x'in alabileceği değer kaç birimdir?
+4 birimdir dedim. Vurdum cevaba. 21.
+sayfa biter. 21. sayfaya tikleri attık.
+Gönder gelsin sıradaki dersi. Pardon
+sayfa dedim. Şimdi dedim ya köklü
+ifadelerde adım adım yavaş yavaş yavaş
+yavaş küçük adımlarla ama bütün köklü
+ifadeleri eksiksiz öğrenecek şekilde
+ilerliyoruz.
+Üslü ve köklü ifadelerin birbirleri
+türünden yazılması. Aslında bizim köklü
+ifadede çıkış noktamız neydi? Üslü
+ifadeden geliyorduk değil mi? 2 üssü 5 =
+32. Aa buraya kutu yazmışlar. 2 üssü 5
+yok artık. Kutu üssü 5 = 32. E
+bilinmeyeni yalnız bırakıyorduk hocam.
+Bilinmeyeni yalnız bırakmak demek ne
+demek? Bu ifadeyi karşıya atmak demek. E
+hocam matematikçiler düşünmüş düşünmüş
+neye karar vermiş? üslü ifadeyi karşıya
+kökün derecesi olarak atalım demişler.
+Attıklarında da elde ettiği cevap bu
+oldu. Doğru mu? Böyle doğmuştu. E bir
+dakika hocam. Demek ki ben kökün
+derecesini üslü ifade olarak
+yazabiliyorum. Doğru mu? Yani bir sayıda
+üslü olarak yazılabiliyor gibi
+düşüneceğiz. O zaman gel. Köklü
+ifadeler. Rasyonel üs kullanılarak üslü
+ifade biçiminde yazılabilir. Şimdi bir
+şey söyleyeceğim. Orada köklü ifadede
+hata yapıyorsan, anlamadığın bir nokta
+varsa sorun köklü ifade değil. Çok net
+söyleyeyim sana. Sorun üstlü ifade.
+Üstlü ifade bilinmiyorsa köklü de
+zorlanır. Çünkü köklü ifadeyle
+çözemediğin bütün soruları
+üslü ifadeyle çözebilirsin. Çünkü her
+köklü ifade aynı zamanda bir üstlü
+ifadedir. Niye? Gel gösterelim. Köklü
+gösterim. Bana n dereceden ök x üssü m
+ifadesini verdiler. Ben bunu üstlü
+biçimde yazarken x'in üstündeki m aynen
+kalır. Ama bu kök içeriye girerken yani
+üst olarak yazılırken bölüm durumunda
+yazılır. X üssü m/ n. Benim köklü
+ifademin üstlü ifadeye dönüşmüş hali
+budur. Şimdi bun o zaman tersi de mümkün
+hocam. Her köklü her üstlü ifade olmasa
+da bazı üstlü ifadeler köklü ifade
+tanımını sağlaması gerekiyor. Birinci
+şart o. sağlayan ifadeler üstlü ifadeden
+köklü ifadeye dönüşebilir. Nasıl mı? Şu
+üstteki değer paydaki kısım x'in gerçek
+üssüdür. Yazdım. Paydadaki kısım kökün
+derecesidir. Onu da kökün derecesine
+yazdık. Anlaştık mı? Güzel. Köklü
+ifadede zorlandığımız her soruda eğer
+yardımcı olacaksa üstlü ifadeye çevirmek
+mantıklı. Misal verilen ifadeleri önce
+üstüyse köklü köklüyse üstlüye
+çevireceğiz. Hocam üstünde 1 var. Demek
+ki 3 üssü 1 yazacağım. Paydada 3 var.
+Demek ki kökün derecesi 3 olacak.
+Geldim. Kökün derecesi 3 ise demek ki bu
+yazılırken nasıl yazılacak? 7 üssü 1/ 3
+şeklinde yazılacak. Geldim kökün üstünde
+daha doğrusu üstlü ifadenin üstteki
+ifadesi ne olacaktır? Bu sayının üstüne
+yazılacaktır. Paydadaki kısım nereye
+yazılacak? Kökün derecesine yazılacak.
+Peki 2 üssü 3 dediğim sayı kaça eşit?
+8'e. Kökün derecesi kaça eşit? 5'e.
+Geldim buraya. Bak. 5 üssü 2/7. 5'in
+üstünde kaç var? 2 var. Kökün derecesi
+kaç hocam? 7. Harikasın. E kökün
+derecesi 7. 5in karesi 25. 7 dereceden
+√25. Aa bir yandakini unuttuk hocam. Bak
+burada kaç var? 4 var. Hayır 4 yazma.
+Gel 2in karesi yazalım. 4 dediğim sayı
+2in karesine eşitti. 5. dereceden de kök
+var. 2in karesindeki 2 dursun. Bu kökün
+derecesini yazarken nasıl yazıyordum
+hocam? Bölüm şeklinde yazıyordum.
+Harikasın. Geldim buna. 36 dediğim sayı
+aslında nedir? 6ın karesidir. Kökün
+derecesi kaç? 3. Yazarken nasıl
+yazacağım? 6 üssü 2/ 3. Her kökte ifade
+bir üstü ifadedir. Yaz bunu yorumlara.
+Unutmuyoruz bunu. Hocam 7 üssü 4/3 7
+üssü 4. aynen kalıyor ama kökün derecesi
+3 burada oluyor. Geldim 81. 81 dediğim
+sayı 3 üssü 4 değil midir? Önce onu
+yazıyorum. 3 üssü 4'ün kökün derecesine
+7 yazdım. 3 üssü 4'ü aynı yerde
+bırakıyorum. Buradaki kökün derecesini
+altına bölüm olarak ekliyorum. Bu da
+güzel. Devam ettim. 13 üzeri -2. Sıkıntı
+olur mu hocam? Hiçbir sıkıntı yok. O
+zaten bir kuvvettir. 13 ü -2 olarak
+kalsın. Paydadaki 5'i kökün derecesine
+yazdım. 5. Hatta bunu bir tur daha
+düzenlersem şöyle değil midir? 13'ün
+karesi 169'dur. Ama üzeri -2 dediği için
+takla attırdım. Şöyle bir köklü ifade
+elde ettim.
+125 5'in 3. kuvvetidir. Kökün derecesi
+orada 4. O halde yazarken 5 üssü 3 bö 4
+şeklinde yazmam gerekiyordu. Her köklü
+ifade üslü üslü ifadelerin bazıları da
+köklü ifade olabilir. Neden bazıları
+diyorsun Mehmet hocam? Çünkü neyleri
+tutması gerekiyordu? Köklü sayının
+tanımı tutması gerekiyordu. Tutmazsa o
+tanım yazamıyorsun her üstlü ifadeyi.
+Eylül hazır Eylül hazırladığı bir
+eşleştirme oyununda mor karttaki köklü
+ifadeyi iki farklı üslü gösterimle
+eşleştirmiş. A, B, C pozitif tam sayılar
+olup kesirler sade haldedir. Buna göre A
+x C + B işleminin sonucu nedir? Şimdi
+bak benden düzenleme istiyor. Kök 4
+dereceden √ 512. Bir kere 512'nin
+kaçıncı kuvvetiydi? Gel bir ona bakalım.
+2 üzeri 6 nedir? 64'tür. 2 üzeri 7
+nedir? 128'dir. 2 üzeri 8 nedir?
+256'dır. 2 üzeri 9 nedir? 512'dir.
+Aslında bu kök kartında yazan sayı kaç?
+5 üssü 9 böl kökün derecesini nasıl
+yazıyordum? Bölüm olarak yazıyordum. 5
+üssü 9/4. Peki geldim burada 2 üssü
+pardon 5 üssü diyorum ya. 2 üssü olacak.
+Bu 5 üssü nereden geldi? Onu düzeltelim.
+Şuradan. Ne de olsa 2'nin 9 kuvveti
+burası 2 üssü ab. E hocam bunlar
+birbirine eşmiş. Kısaca 2 üssü a/ b
+ifadesi 2 üssü 9/4 ifadesine eşit değil
+mi? Eşit. E tabanlar eşit. Üstler de
+birbirine eşit. Kısaca a/ b ifadesi
+9/4'e eşit ve en sade hallerindelerse
+demek ki a 9'a b de 4'e eşitmiş. Onları
+gittim kenarda yazdım. A'nın değeri
+9'dur. B'nin değeri 4'tür. Hocam şimdi
+geldim. sıkıntılı yere üstü kart 8 üssü
+a c/ b üssü c/ b ifadesinde 8 dediğim
+sayı 2 üssü 3 diye yazılır. Üssün
+üstünde c/ b ifadesi kalır mı? Kalır.
+Üssün üssü çarpıldığı için üstü
+ifadelerden geliyor 2 üssü 3c/
+b yazılır mı? Peki bu ifade aslında en
+başta yazdığımız 2 üsü 9/4'e eş miymiş?
+Eşmiş hocam. Onların birbirine eşit
+olduğunu biliyoruz. Yani tabanlar eşitse
+üstler de birbirine eşittir. Kısaca 3C/
+B = 9/4 en sade hallerinde dediği için
+herkes direkt karşısındakine eşit. B'nin
+zaten 4 olduğunu bulmuştum. 3C'nin
+cevabı 9'sa C'nin cevabı 3'tür. Tabii
+soru benden şunu istiyor. A x C. A'yı 9,
+C'yi 3 bulduk. B'yi de kaç bulduk? 4
+bulduk. 3 kere 9 27 daha doğru cevabım
+ne gelecektir? 31 gelecektir. Haydi
+bakalım. Sorun o. 52 biter. Geldik kök
+dışına çıkarmaya. Artık kök dışına
+çıkmaya başlıyoruz yavaştan. Ufak ufak
+kök dışına çıkmaya başlıyoruz.
+A bir gerçek sayı ve n de birden büyük
+bir tam sayı olmak üzere kök derecesi
+ile kök içerisindeki üssün eşit olduğu
+durumlarda biz kök dışına
+çıkartabiliyoruz. Aslında genel mantık
+nereden geliyor hocam? Şimdi diyorsun ki
+sen 2 üssü 5 şurada kökün derecesi 5
+bunlar gitti cevap dışarı 2 diye çıkar.
+Neden? Çünkü her üslü ifade ya da her
+köklü ifade çevrilebiliyordu, değil mi?
+2 üssü. Bunu üste yazıyorum. Bunu bölüm
+durumunda yazıyorum. Aslında yine üstlü
+ifadeden geliyor sonuç. A cevap 2ymiş
+diyoruz. Anlaştık mı? Demek ki üstte kök
+birbirine eşitse dışarı çıkabiliyorsun.
+Ama gelelim
+burada da sıkıntı var. Şöyle bir sıkıntı
+var. Eğer n tekse yani kökün derecesi
+tek bir sayıysa hiç sıkıntı yok. Direkt
+dışarı çıkar. Hocam cevap direkt A'dır.
+Bitti. Ama n çiftse yani kökün derecesi
+2 4 6 8 gibi değerlerse evet bunlar
+birbirini götürdü. Ama dışarı çıkarken
+nasıl çıkarmak zorundayım? Mutlak A ile
+çıkarmak zorundayız. Başka şansımız yok.
+Mutlak A ile çıkacak abi. Neden mutlak A
+ile çıkıyorum hocam? Mesela bak 4.
+dereceden √ -3 üssü 4. Aşağıdaki örneğin
+aynısı. Aslında bu sayı şöyle mi
+yazılır? -3 üssü 4/4 değil mi? Sıkıntı
+yok. A evet hocam böyle. Tamam da bunlar
+sadeleşti. -3 üssü 1 kaldı. Cevap -3
+diyemezsin. Neden diyemem hocam? E
+arkadaşım şuradaki sayı -3'ün 4. kuvveti
+aslında oradaki eksi kaybolmaz mı? 4.
+kuvvette pozitife dönmez mi? Döner. 81
+olur mu? Olur. 81 dediğim sayı aslında
+kaça eşittir? 3 üssü 4'e eşittir?
+Aslında burada -3 üssü 4 yazmıyor.
+Aslında orada 3 üssü 4 yazıyor mantıken.
+Haliyle orada 3 üssü 4 yazıyorsa e 3
+üssü 4 de dışarı şu 4'ler sadeleşer
+dışarı çıkar. Direkt 3 olarak çıkmaz mı?
+Çıkar. Çift olma şansı burada kalmadığı
+için bölüm durumunda çiftlik teknik
+durumu değişebildiği için biz en baştaki
+duruma göre düşünmek zorunda olduğumuz
+için bu cevap yanlış. Bu cevap doğrudur.
+Buraya dikkat edeceksin. Tamam mı? Kökün
+derecesi çift hocam hep sıkıntı var
+değil mi? Evet. Her ifadeyi yazamıyorduk
+içerisine. 0a eşit ya da 0dan büyük
+olması gerekiyordu. Kökün dışına da keza
+dışarı çıkarırken yine içerinin negatif
+olmaması gerekiyor. Pozitif olması
+gerekiyor. Ona dikkat ediyorsun. Yani
+mutlak değerini alıyorsun. Hocam bak bu
+ifade sadeleşti. Direkt -2 olarak çıktı.
+Hocam bu ifade sadeleşti ama dışarı
+mutlak eksiği 8 çıktı. Onun da cevabı 8.
+Veyahut bu soruyu şöyle çözersin. Dersin
+ki hocam bak bu köklü ifade aslında -8in
+karesi kaçtır? Kök içerisinde 64'tür.
+Eksi eksi gitti. √64 dediğim sayı
+kaçtır? 8in karesidir. 8in karesi.
+Şurada da 2 var. Bu 2'ler gitti. Cevap
+ne olarak gelir? 8. Hani mutlakla falan
+uğraşmadığında bu. Tabii ki mutlakla
+yapacağız. Çok daha kısa oluyor. Hocam
+çift dereceden kök var. O zaman -3
+dışarı mutlakla çıkacaktır. Cevabı ne
+olacaktır? + 3 olacaktır. 3 tek
+dereceden köktür. Hiç ellemem -6 olarak
+kalır. Tek dereceden köktür hiç ellemem.
+-5 olarak kalır. Zaten dışarı da çıkar.
+8 dışarı çıkarken mutlakla çıkacaktır.
+Cevabı ne olacaktır? + 2 olacaktır. 6
+çift dereceden dışarı çıkarken mutlakla
+çıkacaktır. Cevabı 4 olacaktır. 9 tek
+dereceden beni ilgilendirmez. Cevabım ne
+olmalıdır? -3 olmalıdır dedim. Noktarı
+koydum buradan. Aşağıdaki işlemlerin
+sonuçlarını bulacağız. Şimdi baktık
+burada da ne var? -2'nin 3. dereceden
+kuvveti bir de kökün derecesi 3. Hocam
+bunlar gider dışarı direkt -2 gelir.
+Neden? Tek dereceli kuvvetlerde buna
+dikkat etmiyorduk. Aradaki işlem artı.
+Çift dereceden kök sadeleşti dışarı
+nasıl çıkar? Mutlak değerce çıkar. Yani
+-2 + 3. Cevap neye eşit? 1'e eşit. 6
+sadeleşti. Dışarı nasıl çıkar? Mutlak
+değerce -4'ile çıkar. Aradaki işlem ne
+hocam? Eksi 5'ler birbirini götürdü.
+Dışarı nasıl çıkacak? Aynen çıkacak
+değil mi? Ama önünde eksi olduğu için
+ben parantezle çıkardım. Mutlakla değil
+bak parantezle çıkardım. O çünkü tek
+kuvvetti. -4 mutlağın dışına +4 çıktı.
+Eksiler birbirini götürdü + 5 oldu. 4 5
+daha doğru cevabım kaçtır dedim? 9'dur
+dedim. Karesi kökü götürdü. -7 dışarıya
+nasıl çıktı? Mutlak değerle çıktı. 7'yi
+götürdü. Dışarı nasıl çıktı? -1 olarak
+çıktı. O da parantez içinde çıkardım.
+Çünkü önünde toplama işlemi var. 8
+sadeleşti. Önünde eksi var. Dışarıya
+mutlak değerle çıktı. Dikkat geliyor
+soru. -7 mutlaka dışına +7 çıkar. Artı
+eksi dışarı nasıl çıkar? -1 çıkar. Hocam
+bak bu mutlaklı ya. Dışarı 2 diye çıktı.
+Önünde eksi var. -2 oldu. -1 -2 -3 oldu.
+7'den 3 çıktı 4 kaldı. Dikkat dikkat.
+Devam. 9'lar birbirini götürdü mü hocam?
+Götürdü. Dışarı nasıl çıktı? Aynen
+çıktı. -3 çünkü tek kuvvetti. Çift
+kuvvet gitti. Dışarı nasıl çıktı? Dur.
+Önünde eksiyi koydum. Şimdi mutlağı
+koydum. Mutlak içerisinde -1 yazdım.
+Hocam bu dışarı -3 diye çıktı. Önünde
+eksi vardı eksiyi koydum. Bu dışarı +1
+çıktı. Önünde -1. Eksi var zaten. O
+zaman -1 gibi okundu. -3 -1 daha cevabım
+ne yaptı? -4 çıktı. Aman aman aman
+dikkat. İşlem hatasına açık. 4'ler gitti
+mutlak içerisinde -6 olarak çıktık. 3ler
+gitti ama önünde eksi var. Eksiyi
+koydum. Dışarıya aynen çıktım. Hiç mutlu
+havalan ihtiyacım yok. Sadece önüne
+parantezimi ekledim. 5'ler gitti. Dışarı
+aynen çıkarım hocam. Hiç mutluğa falan
+ihtiyacım yok. Çünkü tek kuvvet. Geldim
+-6 mutlağın dışına 6 olarak geldi. Eksi
+eksi gitti + 4 oldu. + -2 oldu. 6 4 daha
+10 ikisi gitti. Cevap 8'dir dedik.
+Geldim 55. soruma. Hocam şunlar gider
+mi? Gider. Dışarıya nasıl çıkar? Mutlak
+içerisinde -8. 49 dediğim sayı 7nin
+karesi midir? 7in karesi ile bu
+sadeleşir. Dışarıya önündeki eksiden
+dolayı -7 diye geldi. -64 aslında -4
+üssü 3 müdür? Şu 3 şunu götürür. Bu
+dışarı artı ama önündeki eksiden dolayı
+böyle -4 gibi gelir mi? Gelir. Bu sayı 2
+üssü 4'tür. Hocam kuvvetler birbirine
+eşit. Sadeleşti. Önünde artı olduğu için
++ 2 diye çıktı. Mutlak içerisinde olduğu
+için 8 -7 şuradan -4 + 2 8 2 daha 10
+şuradan ne geldi? -11 geldi. Cevabımız
+sadece yalnız -1'dir dedim. Noktarı
+koydum. 22. sayfayı bitirdim. Şimdi bak
+burada bir ara verelim. Bundan sonra
+gider tekrardan kaldığımız yerden
+yolumuza devam edeceğiz. Çok da güzel
+soruları yine birlikte çözüyor olacağız.
+Evet, matbook serimizde kaldığımız
+yerden bir sonraki derste görüşmek üzere
+güzel arkadaşım. Yorumlarda görüşelim.
+Videoyu beğenmediysen beğenmeyi unutma.
+Rehbermatematik.com sitemize gelmediysen
+mutlaka gel. Kitabın tamamını hem oradan
+görebilirsin, henüz almadıysan. Aynı
+zamanda kütüphane bölümümüz, ders
+programı bölümümüz, kamplar bölümümüz
+hepsi orada.
+H

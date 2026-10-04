@@ -1,0 +1,652 @@
+geldik ikinci testimize şekildeki cıva
+dolu kabın içine daldırılan x borusuna
+cıva yüksekliği 75 santimetre olurken y
+barometresinde gaz bulunmaktaymış bu
+durumda y barometresindeki gazın tamamı
+pompa ile boşaltılırsa Aşağıdakilerden
+hangisi doğru olur şimdi buradaki 75
+bana ne anlatıyor Tabii ki atmosfer
+basıncının açık hava basıncının 75
+santimetre civa olduğunu anlatıyor çünkü
+şu kırmızı noktadaki bu cıva sütunun
+basıncı hdg'den düşünüldüğünde H yerine
+75 santimetre yazacaksın DG dediğim
+şeyde civanın Öz ağırlığı olduğu için
+bir basınç birimi türetmiş oluyorduk
+konu anlatımlarından hatırlayın 75
+santimetre civalık bir basınç var bu
+kırmızı noktada aynı seviyede Burada da
+aynısı var Dolayısıyla bu P0 olduğu için
+açık hava basıncımızın değeri buymuş
+buradaki seviye de şu arkadaşlarla aynı
+olduğuna göre bu pompayla oynamadığımda
+mecburen buradaki gazın basıncı da 75
+santimetre civa kadardır çünkü sistem
+dengede Ben buradaki gazı dışarıya
+aktarmaya başlıyorum yani pv yani rt'den
+düşündüğümde sıcaklığı değiştirmiyorum
+bu zaten sabit sayı içerideki gaz
+miktarını azaltıyor ve buradaki kabın
+hacmi sabit olduğuna göre o zaman
+basıncın azalacağını Tabii ki
+söyleyebilirim Yani buradan artık 75 ile
+bastıramayacağız Hatta tamamını
+boşalttığımız için burada hiç basınç
+olmayacak Burası boşluk olacak burası
+vakum ortamı olacak hiç madde yok n'yi
+sıfırladık o zaman basıncı da sıfırladık
+o zaman bu kabın Şuradaki barometreden
+hiçbir farkı kalmaz buradan Çünkü aynı
+atmosfer bastırıyor 75 santimetre
+civalık bir atmosfer basıncı varsa ve
+sistem en nihayetinde dengeye geliyorsa
+bu kırmızı noktada o basınç olacak Ama
+hocam gaz yok Kim oluşturacak onu cıva
+oluşturacak İşte buradaki civa sütunu
+yükselmeye başlayacak nereye kadar
+yükselecek bu arkadaş ne kadar
+yükseldiyse o kadar yükselecek yani
+burayı civata dolduracak 75'lik basınç
+oluşturması gerektiği için buradaki
+yüksekliğinde 75 santimetre olacağını
+söyleyebiliriz x borusunda cıva seviyesi
+değişmez y barometresindeki cıva
+seviyesi 75 santimetre olur evet bu niye
+değişsin ki Yani bizim sistemimiz sağ
+taraftan bağımsız buradan atmosfer
+bastırdığı için bu barometre 75
+gösteriyor y barometresinde cıva
+seviyesi 75 olur Evet şimdi açıkladım
+Doğru cevabı bulduk diğer şık size bir
+şey katmayacak sorunun tek bir yorumu
+var Farklı bir yorum göremiyoruz
+sorumuzun cevabı a seçeneği olacaktır
+bir ucu açık u borusundaki civa ve
+kapalı Koldaki gaz şekil 1'deki gibi
+dengedeymiş bu denge durumunu hemen
+inceleyelim Çünkü cıva seviyeleri eşit o
+zaman buradaki basınçla buradaki basınç
+eşit buradan açık hava basıncı etki
+ediyorsa aynı açık hava basıncı bu cıva
+tarafından buraya aynı aktarıldığı için
+buradaki gaz basıncının da kesinlikle
+açık hava basıncı kadar olması gerekiyor
+Yani P0 ile p gaz eşittir diyebiliriz
+şekil 2'deki gibi açık uçtan H1
+yüksekliğinde su konulduktan sonra
+kapalı uçtaki cıva yüksekliği H2
+oluyormuş He şuradan su dolduruyoruz O
+suyun da basıncının etkisiyle
+seviyelerde oynama oluyor H1 mesafesi
+h2'den büyük olduğuna göre hangileri
+doğrudur şimdi buradaki durumu bir
+yorumlayalım Öncül okumaya gerek yok
+yapacağımız işler belli Çünkü şimdi
+bakın gençler şuradan seviyemi çektim bu
+noktadaki basınçla bu noktadaki basınç
+eşit Çünkü cıvayla temas halindeyiz aynı
+seviyedeyiz şurada ne var üstümdeki su
+sütunu var bir de P0 var o zaman
+yazıyorum P 0 + H1 DG kadarlık bir
+basınç var bu kırmızı noktada buradaki
+D'nin suyun özkütlesi olduğunu
+unutmuyoruz aynı basınç buraya
+aktarılacağı için şu an Biz burayı
+yukarı doğru zorluyoruz gitmiyor çünkü
+sistemden gene Demek ki o kadarlık bir
+basınç bize karşı koyuyor Peki Kim onlar
+H2 dg'lik cıva artı Şuradaki Gaz basıncı
+Peki buradaki Gaz basıncı ile buradaki
+Gaz basıncı aynı Gaz basıncı mı hayır
+değil buradaki Gaz basıncı bu hacme
+dağılmışken civa daha yukarı çıktığı
+için buradaki hacim küçüldü O zaman bu
+gazın basıncı da arttı başlangıçta
+buradaki Gaz basıncı açık hava basıncı
+kadardı Şimdi buradaki Gaz basıncı açık
+hava basıncından daha büyük hale geldi
+yani Ben şuraya açık hava basıncı daha
+büyük mesela 2p 0 yazabilirim ve
+buradaki h2'den kaynaklı basınç da cıva
+olduğu için buradaki D'nin cıva ile
+ilgili olduğunu yazmam lazım şimdi o
+zaman şöyle diyebilir miyim bu P 0
+buraya atsam h1d sug eşittir h2d civa g
++ P0 gibi bir şey olur çünkü burada iki
+P0 yazdım buradaki P0 oraya atarsam
+çıkartmam gerekir Bu da ne anlama
+geliyor sol taraftaki sıvı sütunun
+basıncı Sağ
+12 D'ye olacak yani şuraya P0 eklemem
+gerekir Ama bu Öncül ondan bahsetmiyor
+şekil 2'deki gaz basıncını arttırmak
+için açık Koldaki suyun sıcaklığını
+arttırmamız gerekir sadece sudan
+bahsediyor yani sadece suyun sıcaklığını
+arttığını düşüneceğim buradaki cıvayı da
+ısıtıyoruz falan gibi düşünmeyeceğim Bu
+da daha önce konuştuğumuz bir şey düzgün
+bir kapta su var şöyle bir kapta su
+doldurduğunda bunu ısıttığında bu
+genleşir suyun özel durumundan dolayı
+küçülenebilir büyüyebilir +4 derece
+mevzusunu ısı sıcaklıktan ve madde ve
+özelliklerinden hatırlayın diyelim ki
+yükseldi hacmi büyüdü tabandaki su
+basıncı ne için değişiklik olmaz yani bu
+kırmızı noktadaki su basıncı Aynen Kalır
+çünkü basınç dediğimiz şey kuvvet böyle
+alan bu alan değişiyor mu yani şurası
+değişiyor mu Hayır değişmiyor Ben sıvıyı
+ısıttım diye kütlesi arttığımı azaldı mı
+hayır bu da sabit Dolayısıyla basın
+sabit ya da hdg'den düşüneceksek evet
+derinlik arttı belki ama Hacım arttığı
+için özkütledi deeştiren bölü ve
+yükselme hacim artış Demek bu da
+özkütleden azalması demek yani suyu
+ısıtmak onun uygulayacağı basıncı
+değiştirmez sorumuzun cevabı a
+seçeneğidir basıncın erime noktasını
+düşürmesi ile ilgili olarak hangileri
+doğrudur
+bir yolda arabaların geçtiği yerdeki
+Karlar erirken Diğer yerlerin erimemesi
+konu anlatımında basıncın erime
+noktasını nasıl etkilediği ile ilgili
+konuşurken basıncın buzun erimesini
+kolaylaştırdığını söylemiştim size bu da
+erime noktasının düşmesi anlamına
+geliyordu Nasıl bir şeydi o hava -5
+dereceydi elinizde buz var o da haliyle
+-5 derece havayla uyumlu halde yeterince
+beklemişler bu buzun erimesi mümkün
+değil Çünkü buzun erimesi için ortamın
+sıcaklığını 0 celsius olması lazım buzun
+sıcaklığını sıfıra celsius olması lazım
+ama Ortam -5 buz da eksi 5 havayı sıfıra
+getiremiyorsam o zaman buzun erime
+noktasını -5'e getirebilirim Ben bunun
+üzerine bir basınç uyguladığımda erime
+noktasını düşürürüm sıfır olan erime
+noktası -5'e düşerse yani Diyoruz ki
+artık kitaplarda buz -5 derecede erir
+Peki şu an bizim mevcut buzumuzun
+sıcaklığı kaç -5 E o zaman buz erir
+arabalar geçtiği yollarda sürekli basınç
+uyguladığı için erime noktasını düşürür
+ve oraları eritir yüksek dağların
+tepelerindeki karların erimemesi Az
+önceki mantığın tam tersi yüksek dağ
+demek açık hava basıncı daha az demek
+açık hava basıncı azsa buzun erimesi
+zorlaşır o yüzden everest'te hep kar
+vardır yaz kış mevsimden bağımsız basınç
+fazlalığı buzun erime noktasını düşürür
+basınç azlığı da yükseltir Dolayısıyla
+Bu da doğru bir örnektir kar topunu
+sıktığımızda Elimizin ıslanması aynı
+mantık basıncı arttırıyorum erime
+noktası düşüyor erimeyi kolaylaştırıyor
+donma sıcaklığındaki sıvı demirin
+üzerindeki basınç arttırılınca donması
+konu anlatımında demiştim ki basınç
+erimeyi kolaylaştırır Sadece belli
+maddelere özgü şeylerdir buz antimon
+bizmut germanyum silisyum gibi diğer
+maddelerde mesela Demirde basınç erimeyi
+zorlaştırıyor erime noktasını düşürmüyor
+yükseltiyor Çünkü katı demirin özkütlesi
+sıvı demirin Öz kütlesinden büyük buzda
+tam tersi mesela buz yüzüyor değil mi
+suyun içerisinde Çünkü buzun özkütlesi
+daha küçük katıyı sıvılaştırdığında Öz
+kütlesini küçültmüş oluyoruz bu Özkütle
+nasıl küçülür hacim artıyorsa küçülür
+yani Demir erimeye çalıştığında hacmini
+büyütmeye çalışıyor Esen basınç
+uyguladığında bunu engellemeye
+Çalışıyorsun o yüzden basınç demirin
+erimesini zorlaştırır demirin erime
+noktasını yükseltir diyelim ki demir
+1500 selsiyus'ta eriyor ortam
+kulaklığınızda 1600 selsiyus Bu deney
+gerçekleştirecek bir ortamı dünyada
+bulamazsınız ama teorik olarak böyle
+şimdi 1500 de eriyorsa Demir ve ortam
+1600 ise o zaman sizin elinizde şu an
+sıvı demir var Sen bu sıvı demirin
+üzerindeki basıncı arttırırsan erime
+noktasını ve dolayısıyla donma noktasını
+çünkü bunlar aynı şeyler bu 0 değerir su
+0'da donar arttırıyorsun 1500 de donması
+gereken sıvı 1600 de donar hale gelir
+ortamda 1600 O zaman o sıvı donmaya
+başlar buzun tam tersi yani bu 3 örnek
+Aynı kategoriteyken bu dördüncü örnek
+tam tersleri bu yüzden sorumuzun cevabı
+C seçeneğidir gençler yanlarında birer
+delik bulunan Özdeş kvl kaplarına eşit
+kütleli K ve L gazları konduktan sonra
+ağırlıkları ve sürtünmeleri önemsiz
+sızdırmayan pistonlar ile şekildeki gibi
+dengedeymiş bu durumda kabı ısıtılıp L
+kabı soğutulurken hangileri doğru olur
+şimdi pistonların ağırlıkları önemsiz
+sürtünmeler önemsiz rahatlıkla hareket
+edebiliyorlar buradan verdim Alevi
+buraya da buz koydu soldakini ısıtıyorum
+sağdakini soğutuyorum Bu pistonlar neden
+dengede Çünkü yukarıdan etki eden açık
+hava basıncı ile buradan etki eden ka
+gazının basıncı birbirini geliyor bu
+pistonda yukarıdan etki eden açık hava
+basıncı aşağıdan etki eden L gazının
+basıncı ile dengede ağırlıklar önemsiz
+Bunlar birbirine eşit Sen bu K gazının
+sıcaklığını arttırdığında t'den 2t'ye
+çıkardığında anlık olarak bu kanun
+basıncı artar p0dan daha büyük hale
+gelir piston yukarı çıkmaya başlar fakat
+piston yukarıya doğru çıktıkça da başka
+bir şey gerçekleşir hacim artmış olur Bu
+da ka gazının basıncını tekrar azaltır o
+piston bir yerde duracak İşte o tekrar
+durduğu yerde ne diyoruz p0'la yeni PK
+yine eşit başlangıçta eşitlerdi en son
+durumda yine eşitler o yüzden ne dedik
+konu anlatımlarında hareketli rahatlıkla
+hareket edebilen ağırlıksız bir piston
+varsa içerideki gazın basıncını
+değiştiremiyorsunuz Çünkü her seferinde
+tekrar p 0'a eşit olmaya devam ediyor L
+kabını soğutuyoruz sıcaklığını
+azaltıyoruz o zaman anlık olarak çok
+küçük bir zaman dilimi için bu L gazının
+basıncı azalacak açık hava daha baskın
+hale gelecek pistonu aşağıya doğru
+itecek bu piston aşağıya geldi ama bu
+sefer de burada hacim arttı L gazının
+basıncı yine arttı yine bir dengeye
+gelecekler Son durumda buradan etki eden
+P0 ile buradan etki eden basıncı aynı
+olacak yine değiştiremedik kazımın
+kütlesi azalır şimdi soruda buralara
+delik konmuş bu piston Yukarı çıktı diye
+bu delik yüzünden dışarı ile etkileşime
+girer bu kg gazı buna benzer bir şey
+daha önce de söylemiştim K gazı hemen
+buradan dışarı çıkar diye düşünmeyin
+dışarıdan içeriye havada girebilir bunu
+belirleyen şey nedir içerideki basınçla
+dışarıdaki basıncın büyüklük ilişkisidir
+Eğer içerideki basınç büyük dışarıdaki
+basınç küçükse dışarıya hava çıkar tam
+tersi ise içeriye hava girer bu piston
+niye yukarı hareket etmeye başlamıştı
+Çünkü anlık olarak biz onu ısıttığımız
+için Gaz basıncı Açık havadan büyük hale
+gelmişti yani içerde fazla basınç var
+dışarıda az Basınç var delik aktif
+olduğu anda dışarıya aynı zamanda gazı
+da çıkacaktır sonra yine bir dengeye
+gelecekler yine açık hava basıncına eşit
+olacak ama o ana kadar agazının basıncı
+daha büyük olduğu için dışarıya buradan
+gaz kaçacaktır kütle azalacaktır L
+gazının kütlesi değişmez Çünkü zaten
+burada piston aşağıya doğru iniyor L
+gazı buraya sıkışmış durumda delik de
+hiç muhatap olamadı ki bu adam Tabii ki
+değişmez gazının basıncı artarken L
+gazının basıncı azalır son durumu konuş
+Burada en son durumda her türlü en başta
+da söylediğim gibi açık hava basıncına
+eşit olacağız Dolayısıyla üçüncü öncülü
+doğru kabul edemem sorumuzun cevabı 1 ve
+2'dir içinde hava bulunan cam balon aynı
+ortamda bulunan K ve L sıvılarına
+tamamen batırıldığında balona bağlı u
+borusunun kollarındaki cıva düzeyleri
+şekildeki gibi dengede kalıyormuş
+hangileri kesinlikle doğrudur diye
+sorulmuş Şimdi aslında bir tane cam
+balon var Bunları ayrı ayrı K sıvısına
+ve L sıvısına sokuyoruz dolayısıyla bir
+tane cam balonumuz varsa içerideki
+basınç her iki durumda da başlangıçta En
+azından aynıdır diyebiliriz sonra
+sıvılara sokulduğunda başka şeyler
+yaşanmış olabilir ki yaşandığını
+buradaki manometrede görüyorum civa
+seviyeleri farklı olmuş ve Dikkat etmem
+gereken bir diğer şey bunlar esnek balon
+değil cam balon yani Neyin içine
+sokarsak sokalım hacminde küçülme ya da
+büyüme olmayacak çünkü bu cam basınçları
+yazarsak havanın buradan etki ettiği
+basınç şuradan etki eden açık hava
+basıncına eşit olmalı Çünkü aynı
+seviyede civalar Dolayısıyla ben direkt
+buradaki hava basıncının eşit olduğunu
+söyleyebilirim sağ tarafa baktığımda
+aynı hava bas buradaki açık hava
+basıncına galip gelmiş çünkü seviyeyi
+çektiğimde bu Mavi Nokta ile bu Mavi
+noktanın basınçlarına eşit olduğunu
+biliyorum aynı hava bu sefer şuraya H
+dersem HD artı P0 denk geliyor o zaman
+buradaki hava basıncı bu hava basıncı
+ile aynı kalmamış artık bu başka bir şey
+olmuş ve daha büyük bir şey olmuş çünkü
+başlangıçta sadece P0 dengelerken Şimdi
+bir de ekstra hdg'yi de dengeliyor bu
+hava basıncı neye maruz kalmıştı artmış
+ne olmuş olabilir Sonra Aslında bunu
+soruyor L sıvısının öz kütlesi K
+sıvısınınkinden daha büyüktür işte hocam
+L sıvısının öz kütlesi daha büyüktür
+özkütlesi daha büyük olduğu için hgg'den
+düşündüğümde bu L sıvısının Bu balon
+üzerindeki basıncı sıvı basıncı daha
+fazladır Özkütle büyük olduğu için o
+yüzden sağ taraftaki havanın basıncı
+daha fazla olmuştur Diyemem çünkü bu
+tekrar söylüyorum cam Bala dışarıdaki
+basınç içerideki havayı etkileyemez
+esnek değil En fazla camı kırabilir
+yüksek basınçtan dolayı ama öyle bir şey
+sorumuza gerçekleşmiyor Dolayısıyla K
+sıvısının ya da l sıvısının özkütlesinin
+bir önemi yok Çünkü buradan etki eden
+sıvı basınçlarının hava üzerinde bir
+etkisi yok cam balon K sıvısının
+içerisinde L sıvısına göre daha
+Derindedir aynı şey D etkilemediği gibi
+H de etkilemez K sıvısının ve L
+sıvısının buradaki havalar üzerinde
+basınç etkisi yok cam bunu engelliyor
+buna doğru kabul edemem L sıvısının
+sıcaklığı K sıvısına göre daha büyüktür
+İşte bu olabilir Sağdaki havanın
+basıncını fazla olduğunu anladık basınç
+neden fazla olmuş olabilir pv n rt'den
+düşünürsem İkisi de Özdeş zaten bunların
+gaz miktarları Aynı bu zaten sabit sayı
+hacim değişmiyor dedim tekrar şu uyarıyı
+yapayım Hocam bakın buraya göre Şurada
+daha az hacim var burada daha fazla
+hacim var sağ tarafta hacim daha büyük
+bir kere genelde bu boruların hacimleri
+ihmal edilir bizim Asıl hacimden
+kastımız bu kaptır fakat ihmal etmesek
+bile sağ taraftaki havanın basıncının
+büyük olduğunu biliyorum çünkü cıva
+seviyesi farkı oluşturmuş soldaki
+oluşturamamış Burada da açık hava var
+burada da açık hava var bu adam açık
+havayı yenmiş bu yenememiş sağ tarafta
+kesinlikle fazla basınç var Borunun
+hacmini dahil etsen bile bu böyle yani
+Adamın hacmi büyük olmasına rağmen daha
+fazla basınç var ve bu Neyle alakalı
+madde miktarı değil R zaten sabit sayı
+sıcaklığı fazla burada t sıcaklık varsa
+sallıyorum burada 2t sıcaklık var Başka
+türlü bu duruma açıklayamayız Çünkü Peki
+neden Sağdaki hava daha sıcak çünkü
+burada L sıvısıyla etkileşim halinde bu
+arkadaşta K sıvısı ile etkileşim halinde
+ısıl dengeye geldiklerinde Sağdaki hava
+daha çok ısınmış soldakine göre demek ki
+L sıvısı daha sıcak K sıvısına göre 3
+öncülüm doğru Sorumun cevabı C seçeneği
+olacaktır düdüklü tencereleri normal
+tencerelere göre yemekleri daha hızlı
+pişirmesiyle ilgili hangileri doğrudur
+konu anlatımında direkt anlattığımız bir
+şey çünkü kazanımlarda direkt bilinmesi
+gerektiği yazar yemek pişme süresi
+piştikleri sıcaklıkla ilgilidir Sen
+normal bir suyu kaynattığında deniz
+seviyesinde 100 selsiyusta kaynıyor onu
+bir yemek olarak düşünürsen Senin
+yemeğin şu an 100 selsiyus'ta pişiyor
+diyebiliriz Çünkü ocağın altını ne kadar
+açarsan aç kaynayan hal değiştiren
+sıvının sıcaklığını değiştiremez Ama
+düdüklü tencere ne yapıyor basınç
+uyguluyor dış basıncı arttırıyor artarsa
+kaynama noktası yükselir Çünkü kaynama
+dediğim şey sıvının içerisindeki hava
+kabarcığının yeterli hacmi büyüyüp
+yükselip patlaması demek dış basınç
+arttığında bu hava kabarcığına ekstra
+bir baskı geliyor büyüyemesin diye o
+zaman içerideki basıncın artıp bu dış
+basıncı yenmesi lazım Bu da sıcaklığını
+arttırarak oluyor Normalde deniz
+seviyesinde 100 selsiyus yeterli olurken
+daha büyük basınçlarda içerideki
+basıncında daha çok artması gerekiyor o
+zaman bu kabarcığın içerisindeki gazın
+sıcaklığını 150 selsiyse çıkması
+gerekiyor dış basınç arttıysa bunun da
+basıncı artmalı nasıl yenip yüzeye
+çıkacak yoksa o yüzden düdüklü
+tencerelerde yemekler daha yüksek
+sıcaklıklarda kaynamaya başlarlar ve o
+sıcaklıkta yemeyi pişirirler daha yüksek
+pişen yemek daha kısa sürede pişer
+düdüklü tencerelerin ısısı normal
+tencerelere göre daha fazladır Bunu ısı
+sıcaklıkta çokça konuşmuştuk herhangi
+bir malzemenin ısısı diye bir cümle
+olamaz çünkü ısı sahip olunabilen bir
+şey değildir sahip olunabilen enerjiye
+Biz iç enerji diyoruz birinci öncülümüz
+direkt bir kavram yanılgısı anlatıyor
+direkt Eledim düdüklü tencereler yüksek
+buhar basıncı sayesinde sıvıların
+kaynama noktasını düşürür Böylece kısa
+sürede kaynama noktasına gelen yemek
+daha kısa sürede pişer mantıklı gibi
+duruyor yani 10 derecedeki suyu ısıtmaya
+başlıyorsun atıyorum 50 dereceye
+geldiğinde kaynamaya başlıyor hemen
+gelirsin 50'ye yemekte çabuk pişer o
+açıdan Evet ama yemeğin 50 derecede
+pişmeye çalışması sürenin çok uzayacak
+anlamına gelir pişiremezsiniz yemeği
+yüksek sıcaklık lazım O yüzden buna
+doğru kabul edemem düdüklü tencereler
+yüksek buhar basıncı sayesinde sıvıların
+kaynama noktasını yükseltir Aynen öyle
+Böylece yemek daha yüksek sıcaklıkta
+Aynen öyle daha kısa sürede pişer 3
+öncülüm doğru Sorumun cevabı C
+seçeneğidir düşey kesti şekildeki gibi
+olan ve içinde gaz ile su bulunan kabın
+musluğu Kapalı durumdayken X ve Y
+noktalarındaki toplam basınçlar eşitmiş
+yazalım bunu şurada H derinlik varsa
+burada daha fazla var diyelim ki 2h bu
+da su Bu da su Yani özkütleler aynı o
+zaman bu x noktasında bu kadarlık sudan
+kaynaklı bir basınç var htg var y
+noktasında bu kadar sudan kaynaklı bir
+basınç var İki HD var başka ne var
+yukarıdan gazın basıncı var p gaz 1
+diyelim buna bu aslında suyu etki ediyor
+ama sıvılar üzerlerine uygulanan basıncı
+Aynen her yöne iletirler Dolayısıyla x
+noktasına da bu iletilecektir p gaz 1
+var burada p gaz 2 Olsun bu da aynen
+buraya aktarılsın burada da p gaz 2 var
+sonra diyor ki bunlar eşit iki ağaç DG
+var burada daha büyük eşitliğin
+sağlanabilmesi için p gaz 2'nin küçük p
+gaz 1'in daha büyük olması lazım bu
+sonuca varabiliriz Ama hocam bu nasıl
+Mümkün olabilir burada daha fazla hacme
+yayılmış gaz burada daha az hacme
+yayılmış sadece hacim belirlemez ki
+basıncı sağ taraftakinin hacmi daha
+büyük olabilir ama madde miktarda daha
+fazla olabilir burada daha çok gaz
+molekülü taneciği vardır Bunların hepsi
+mümkün x noktası Kolundaki Gaz basıncı y
+Kolundaki gaz basıncından büyük Evet
+bunu zaten şimdi yorumladım Birinci
+öncülüğüm doğru musluk açılırsa gazların
+basınçları eşitlenir sol tarafta yüksek
+basınç var sağ tarafta Alçak basınç var
+akışkanlar yüksek basınçtan alçak
+basınca doğru hareket ederler Çünkü
+yüksek basınç onu zorlar ve alçak basınç
+karşı koyamaz Dolayısıyla buradaki gaz
+sağ tarafa doğru hareket edecek ve
+homojen bir karışım olacak 2 gaz homojen
+karıştığında ikisi içinde hacimler ortak
+olmuş olacak tanecik sayısı ikisi içinde
+toplam ile ifade edilmiş olacak
+Dolayısıyla tek bir gaza dönüşmüş gibi
+düşünebiliriz kapalı kaplardaki Gaz
+basıncı düşünüldüğünde her noktada
+aynısı vardır deriz O yüzden bu homojen
+dağılım sağlandığında şu noktada hangi
+basınç varsa burada da o olur burada da
+o olur burada da o olur Çünkü artık
+aralarında Herhangi bir engel yok Bunlar
+direkt birbirleriyle bağlantılılar
+basınçlar eşitlenir Aynen öyle musluk
+açıldıktan sonra X ve Y noktalarındaki
+toplam basınçlar değişmez Hayır değişir
+Bir kere bu sıvı bir yere gidebilir mi
+buradan musluk açılınca gidemez buradaki
+su kendi kendine yukarı çıkıp sağ tarafa
+doğru gidemeyeceğine göre alttan da bir
+bağlantı falan yok bu su burada kalacak
+buradaki su Aynen burada kalacak
+Dolayısıyla denklemlerimizdeki şu
+hdg'lerde herhangi bir değişiklik söz
+konusu değil ama ne oldu gaz basınçları
+değişti mesela şu hacme sanki musluk
+kapalıymış gibi düşünelim öyle hayal
+edelim buradaki hacme musluk açıldığında
+sol taraftan yeni gaz tanecikleri geldi
+değil mi yüksek basınçtan alçak basınca
+doğru hareket eden gaz tanecikleri
+olduğunu söyledim yani buradaki madde
+miktarı arttı O zaman bu sağ taraftaki
+basınç arttı diyebiliriz aynı şekilde
+sol taraf düşünüldüğünde bu hacmi Hayal
+edelim sanki musluk kapalıymış gibi
+düşünelim burada yüksek basınç vardı
+buradaki gazlar yüksek basınçtan alçak
+basınca doğru gitti buradaki madde
+miktarı azaldı hacim aynı hacim
+boyadığım yer aynı yer oradaki madde
+miktarı azaldığı için basınca azaldı sağ
+tarafta az Basınç vardı bu arttı sol
+tarafta çok basınç vardı bu azaldı Zaten
+bunlar en sonunda ne oldular
+eşitlendiler öyle söyledik Yani biz şu
+an ne ile karşılaştık hastaya sabit
+kaldı sol tarafta ama p gaz bir gaz aldı
+bu ikisinin toplamı x noktasındaki
+toplam basınçtı Demek ki toplam basınç
+azaldı ye baktığımda bu sabit kaldı sıvı
+aynı sıvı ama p gaz eki arttı bu
+ikisinin toplamı y'deki toplam basınçtı
+o zaman buradaki toplam basınçta arttı
+diyebiliriz değişmez diyor yanlış diyor
+Sorumun cevabı 1 ve 2 C seçeneği
+olacaktır geldik gaz basıncının son
+sorusuna su dolu bir kabın ağzına
+şişirilmiş bir esnek balon şekil 1'deki
+gibi geçirilmiş kabın tabanındaki musluk
+açılıp su boşaldıkça balon şekil 2'deki
+gibi sönmüş bu anda musluk kapatılıp
+kabı ısıttığımda balon şekil üstteki
+gibi tekrar şişmiş Buna göre bu olay
+yargılarından hangileriyle ilgilidir
+denilmiş Şimdi burası tamamen suyla dolu
+esnek bir balonumuz var bu esnek balonu
+dışarıdan atmosfer basıncı açık hava
+basıncı etki ettiğini biliyoruz
+içerisindeki gaz atmosfer basıncını
+böyle dengeleyebiliyor ve böyle
+duruyorlar sen buradaki suyu boşaltmaya
+başladığında burada aslında bir vakum
+ortamı oluşturuyorsun Çünkü suyun açtığı
+boşlukta hiçbir şey yok Dolayısıyla bu
+balonun içerisindeki gaz Hemen buraya
+yayılmaya başlayacak daha büyük bir
+hacme yayıldığı için balonun
+içerisindeki basınç azalacak balonun
+içerisindeki basınç azaldığı için Bu
+arkadaşlar daha baskın hale gelecekler
+ve balonu söndürecekler küçültecekler Bu
+yüzden bu balon küçüldü Hatta konu
+anlatımlarında konuştuk bu balon İçeriye
+girip şişebilir bile atmosfer basıncı o
+kadar baskın olabilir Bunu söndürmekle
+kalmaz şişenin içerisine sokar ve orada
+şişirmeye başlar Ama bizim sorumuzda
+öyle bir olay olduğu söylenmiyor daha
+sonra biz bunu alttan ısıtmaya
+başlıyormuşuz Dolayısıyla buradaki
+mevcut hava ki o balonun içerisindeki
+gaz da aslında Çünkü o yayılmıştı suyun
+oluşturduğu vakuma ısınmaya başlıyor
+sıcaklığı arttırıyor sıcaklığı
+arttırdığımızda basınca arttırmış oluruz
+Tekrar buradan etki eden atmosfer
+basıncına kafa tutmaya başlarız Hatta
+ısıtma değerimize göre balonu şişirdikçe
+şişirebiliriz T sıcaklıktan atıyorum 5D
+sıcaklığa getirirsin sıcaklığı balon
+şişer şişer şişer en nihayetinde bu
+balonun içerisindeki gazla dışarıdan
+etki eden P0 yine eşit durumda Kalır
+çünkü balon büyümeyi durdurdu küçülmeyi
+durdurdu dengedeyiz ve yine balonun
+elastikiyetini esnekliğini ihmal
+ediyoruz şimdi bütün olayın analizini
+yaptık burada hangi bilgileri kullandık
+sonra bunu soruyor gazın hacmi arttıkça
+basıncı Azalır evet Biz bunu nerede
+kullandık şurası vakum ortamı olduğunda
+Aslında balonun hacmi artmış oldu
+içerisindeki gazın yayılabileceği yeni
+bir hacim kazandık Dolayısıyla basıncın
+azaldığını söyledik basınç azaldığı için
+atmosfer basıncı baskın hale geldi ve
+bizi söndürdü bu olayla ilgilidir gazın
+sıcaklığı arttıkça hacmi artar Eğer
+esnek bir balon varsa ya da sürtünmesiz
+Hareketli bir piston varsa Evet çünkü ne
+diyorum en nihayetinde Biz hep şu durumu
+korumaya çalışıyoruz Çünkü balonumuz
+küçülebiliyor büyüyebiliyor hacmini
+değiştirebiliyor sıcaklığı arttırıyorum
+hacmi de arttırıyorum sıcaklığı
+arttırıyorum hacmi de arttırıyorum balon
+gitgide büyüyor Dolayısıyla Bu da doğru
+Suyun yüksekliği azaldıkça tabandaki
+sıvı basıncı azalır ve bu doğru da bizim
+bu olayımızla ilgili bir şey mi yani biz
+tabandaki sıvı basıncını konuştuk mu
+evet Suyun yüksekliği şuradan şuraya
+indiğinde sıvı basıncı azaldı Çünkü
+HD'nin Haşa azaldı üzerimizde daha az
+miktarda su var daha az ağırlık var daha
+az Basınç var hatta bizim konumuzla
+ilgili değil bu Dolayısıyla Sorumun
+cevabı D seçeneği olacaktır bu sorumuzla
+beraber Gaz basıncı ile ilgili her şeyi
+konuşmuş olduk güzel yorum soruları
+vardı takıldıklarınızı alta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

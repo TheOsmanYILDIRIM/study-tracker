@@ -1,0 +1,947 @@
+[Müzik]
+gençler Merhaba madde ve özellikleri
+ünitesini bir soru çözüm videosuyla
+pekiştireceğiz bu soru çözüm videosunda
+dayanıklılık adezyon kohezyon yüzeye
+gerilimi kılcallık bunları halletmiş
+olacağız Özkütle konusunu zaten daha
+önce halletmiştik o konu için Ekstra bir
+soru çözümü yapmıştık Şimdi geri kalan
+kısmını hallediyoruz konu anlatımlarını
+yaparken de vurgulamıştım bazı yerler
+yanlış biliniyor yanlış anlatılıyor
+yanlış öğreniliyor Özellikle o durumları
+da vurguladığımız birkaç tane soru
+tipimiz de var Hemen başlayalım şekilde
+gösterilen içleri dolu dikdörtgen prizma
+biçimindeki cisimlerin kendi
+ağırlıklarına karşı dayanıklılıkları D1
+ve d2dir cisimler şekilde belirtilen
+düzlemlerden kesilere koyu renkli
+kısımlar atılıyormuş gençler Buna göre
+bu dayanıklılıklar D1 ve D2 nasıl
+değişir diye sormuş bakın lise
+müfredatındaki dayanıklılık kendi
+ağırlığına karşı dayanıklılıktır
+hatırlarsanız Aslında dayanıklılık
+dediğimiz şey bir kuvvete karşıdır bu
+kendi ağırlığı da olsa dışarıdan bir
+kuvvette olsa dayanıklılık dediğiniz şey
+dışarıdan uyguladığınız kuvvetle ters
+bağlantılıydı ne ile doğru orantılıydı
+cisminizin kesit alanıyla doğru
+orantılıydı Eğer bir cismin kendisini
+taşımasından bahsediyorsa kendi
+ağırlığına karşı dayanıklılığından
+bahsetmiş oluruz kendisini bir ağırlığı
+var dünya Onu kendine doğru çekiyor buna
+karşı dayanıklılıktan bahsetmiş oluruz
+Yani bizim burada kuvvet diye
+belirttiğimiz şey cismin kendi ağırlığı
+olan g olur şimdi maddenin özkütlesi
+değişmiyorsa madde aynı madde ise bu hep
+sabit olacaktır Özkütle değişmeyecektir
+o zaman kütle ile hacim orantılı
+olacaktır Bir cismin kütlesini emrinden
+iki eleme çıkartırsam hacmini de v'den 2
+veya çıkartmış olur üçeme çıkartsaydım
+kütleyi hacmi de 3 ve e çıkartmış
+olurdum oran Dediğim gibi hiç
+değişmeyecek O yüzden ben burada kuvvet
+yerine hacim düşünebilirim ikisini aynı
+şeymiş gibi düşünebilirim şu an soru
+çözümünde böyle anlatıyorum bunun daha
+detaylı anlatımını neden kuvvetin hacim
+gibi düşünüldüğünü formül üzerinden konu
+anlatımında yapmıştım merak edenler
+orayı açıp dayanıklılık konu videosunu
+izleyebilirler Kısacası dayanıklılığa
+bakarken kendi ağırlığına karşı
+dayanıklılığa bakarken odaklanacağımız
+şey alanı bölü hacim oluyordu
+biliyorsunuz şekil düzgün bir şekilde
+dikdörtgen prizma küp silindir bunun
+gibi zeminle 90 derece yapan şekillerse
+Bunlar yine kendi ağırlığına karşı
+dayanıklılığı 1 bölü yükseklikle
+hesaplayabiliyorduk hatırlarsanız
+Örneğin Şuradaki dikdörtgen Prizmayı
+düşünelim bu kenarı a olsun bu kenarı B
+olsun yüksekliği de C olsun kesit alanı
+dediğimiz şey Şuradaki dikdörtgen
+olacaktır Onun da alanı a çarpı b'dir
+bölü hacim dediğimiz şeyde a x b çarpı
+c'dir a b'ler birbirini götürür o zaman
+dayanıklılık dediğimiz şey bir bölü c
+ile orantılı olur C dediğim şey bu
+dikdörtgen prizmanın yüksekliği Yani az
+önce söylediğim şey kendi ağırlığına
+karşı dayanıklılık silindirq prizma gibi
+şekillerde 1/ yüksekliktir Bu soruda da
+buna bakacağım birinci şekilde şu koyu
+kısmı yani Şurayı atarsam benim elimde
+sadece şu alt yarı kısmı kalır yani
+Elinizde bir zar düşünün Onun üst
+yarısını atıyorsunuz o zaman
+yüksekliğini ne yapmış olursunuz
+yüksekliğini azaltmış olursunuz elinizde
+şu kadarlık bir yükseklik kalmış olur
+yüksekliğiniz azalırsa daha
+yanıklılığınız artmıştır gençler payda
+küçülürse sonuç büyür Dolayısıyla d1'in
+artacağını söyleyebilirim formül
+bilmenize de gerek yok bütün bu şekli
+kim taşıyor Şuradaki kesit alanı taşıyor
+bu kesit alanı Normal şartlar altında
+bütün Prizmayı taşırken Siz buradaki üst
+yarıyı atarsanız elinizde sadece şu alt
+yeri kalırsa aynı kesitle daha az
+Prizmayı taşıyorsunuz Tabii ki
+dayanıklılık artacaktır Tabii ki daha
+rahat taşıyacağım kendimi çünkü
+üzerindeki kuvvet azaldı ağırlık azaldı
+Peki Sağdaki şekle bakarsam şu açık renk
+kısmı yani sol tarafa atıyorum elimde bu
+koyu renk kısım kalıyor sadece Burası
+kalıyor yüksekliğine haş dersem bunda
+bir değişiklik oldu mu Hayır bu Haçlı
+bir değişiklik yok Sadece zarımın
+düşeydeki sol yarısını attı herhangi bir
+değişiklik olmadığı için D2 de herhangi
+bir değişiklik olmayacaktır yine formül
+bilmeden çözmeye çalışırsam ne yaparım
+formülümüz kesit alanı böyle hacim Hocam
+bakın Siz şu sol yarıya attığınızda
+kesit alanını küçültmüş oluyorsunuz
+Burası kesit alanı oluyor
+dayanıklılığını azalması gerekmiyor mu
+evet kesit alanı azalır Ama artık
+taşıdığı ağırlık şu sağ yarı olur sol
+taraftaki ağırlıktan kurtulduk bunlar
+aynı oranda azaldığı için
+dayanıklılığımızda herhangi bir
+değişiklik söz konusu olmayacaktır Bu
+yüzden sorumuzun cevabı D1 artar D2
+değişmez e şıkkı olacaktır cisimlerin
+kendi ağırlıklarına karşı
+dayanıklılıkları kesit alanı böyle
+hacimle orantılıdır Buna göre hangileri
+dayanıklılık ile ilgilidir denilmiş
+geyiklerin bacak kalınlığının fillerin
+bacak kalınlığına göre daha ince olması
+yine kendi ağırlığını taşımaktan
+bahsediyoruz konu anlatımında şunu
+vurgulamıştık bir cismi bütün
+boyutlarını aynı oranda olacak şekilde
+büyütürsek kendini taşıyabilir mi Hatta
+konu anlatımı videomuzun ismi King Kong
+diye bir karakter mümkün olabilir mi
+normal bir goril 2 metreyken 50 metre
+boyunda bir King Kong olabilir mi bütün
+boyutlarını 25 kat arttırmam söz konusu
+olabilirim Hayır olamaz Neden olamaz
+çünkü kendi ağırlığını taşımak kesit
+alanı böyle hacimle alakalı bütün her
+şey iki katına çıkartırsanız kesit alanı
+dediğiniz şey kare ile alakalı bir şey
+alan buluyorsunuz hacim dediğiniz şey
+küple alakalı hacim üç boyutlu alan iki
+boyut Çünkü Dolayısıyla bütün boyutları
+iki katına çıkartırsanız alan a çarpı
+A'dan a kare geliyordu iki katına çıkmış
+haliyle 2A çarpı 2a'dan ne gelecek 4 A
+kare gelecek hacim a çarpı a çarpı A'dan
+akıp geliyordu şimdi 2A çarpı 2A çarpı
+2a'dan 8 A küp gelecek bunları
+oranladığınızda başlangıçta dayanıklılık
+dediğiniz şey 1/a olurken şimdi
+dayanıklılık dediğimiz şey 1/2a
+olacaktır yani konu anlatımında da
+vurguladığımız gibi boyutlar iki katına
+çıkarsa dayanıklılık yarıya iner
+boyutlar 25 katına çıkarsa dayanıklılık
+25 kat azalır O yüzden King Kong artık
+25 kat Daha dayanıksız Dolayısıyla ayağa
+bile kalkması mucize Ama hocam büyük
+canlılar var fil diye bir canlı var
+belki yüzlerce kilo ağırlığı var Bu
+nasıl mümkün olabiliyor sizin
+söylediğiniz büyük canlıların olmamasını
+gerektiriyor Hayır onu gerektirmiyor
+büyük canlılar olabilir Ben aynı canlı
+büyütülürse Daha dayanıksız hale gelir
+diyorum büyük canlılar olabilir Ama
+onların da şekli şemaili o dayanıklılığı
+taşıyacak şekilde olmalıdır fil
+dediğiniz şeyin bacak kalınlığı
+geyiklere göre çok daha kalındır geyik
+çok daha incedir Çünkü filler daha büyük
+oldukları için o ağırlığı taşıyabilmek
+için daha büyük kesit alanına ihtiyaç
+var o yüzden bu arkadaşların bacakları
+çok kalın Geyikler daha hafif canlılar
+daha ince kesit alanlı bacaklarla
+kendilerini taşıyabilirler Dolayısıyla
+birinci Öncül dayanıklılıkla ilgili bir
+şey Bir ağaçtan düşen insan ile Fare
+düşünüldüğünde insanın zarar görme
+ihtimalinin daha fazla olması aynı şeyin
+ters mantığı canlılar küçüldükçe
+dayanıklılıkları daha fazla oluyor o
+yüzden ağaçtan bir insan düştüğünde
+kesin kolu bacağı kırılırken fare hiçbir
+şey olmamış gibi hayatına devam edebilir
+Bu da kendi ağırlığına karşı
+dayanıklılıkla ilgili balinaların
+akciğer solunumu yapmalarına rağmen
+kıyıya vurduklarında ölmeleri
+balinalarda çok büyük canlılar kendi
+ağırlıkları çok fazla ve balinalar suyun
+içinde yaşıyorlar suyun içinde yaşamak
+demek ne demek şöyle bir balina
+düşünürse Bu arkadaşın ağırlığı devasa
+boyutlarda ama bunu taşımaya yardımcı
+olan suyun kaldırma kuvveti var yani
+İskelet sisteminin yanında bir de bana
+yardımcı olan kaldırma kuvveti var
+yukarıya doğru O yüzden ben suyun içine
+rahatlıkla yaşayabilirim ama kıyıya
+vurduğumda artık su yok artık su Yoksa
+artık kaldırma kuvveti yok bu ağırlıkime
+kalacak iskelet sistemine kalacak ama o
+kadar büyük bir canlıyım ki o kadar
+büyük bir ağırlığım var ki bunu
+taşıyamıyorum O yüzden kıyıya vurduğumda
+O büyük ağırlık benim iç organlarımı
+zedelemeye bozmaya başlıyor kemiklerin
+beni taşımamaya başlıyor ve balinalar Bu
+yüzden kıyıya vurduklarında ölüyorlar
+sebep Kaldırma kuvvetinin ortadan
+kalkmaz fillere geyik bacağa takmışız
+gibi düşünün yani Sorumun cevabı e şıkkı
+1 2 ve 3 olacaktır gençler King Kong
+yaklaşık 25 metre boyunda bir goril olan
+bilim kurgu film karakteridir bu
+filmlerde gökdelenlere tırmanabilen çok
+hızlı koşabilen bir goril olarak
+yansıtılmasına rağmen fiziken bu durum
+pek mümkün değildir King Kong'un
+fiziksel olarak mümkün olmamasının
+nedeni hangileri olabilir Şimdi bizim
+küçük bir gorilimiz var bunu çok daha
+büyük bir goril haline getiriyoruz ve
+tüm boyutlarını aynı oranda arttırıyoruz
+atıyorum boyunu 20 katına çıkardım
+kolunu 20 katına çıkardım kafasına 20
+katına çıkardım bacağını yerime katına
+çıkardın bütün boyutlar Dolayısıyla az
+önce de açıkladığımız gibi akare kesit
+alanlı akü hacimli bir boyutlar iki
+katına çıkartıldığında 4A kare kesit
+alanlı 8 A küp hacimli bir cisim haline
+geliyor bu 8A küpü yani hacmi ağırlık
+olarak düşünüyoruz Çünkü madde aynı
+madde öz kütlesi değişmedi hacmi 8
+katına çıktıysa kütlesi de 8 katına
+çıkmıştır Dolayısıyla ağırlığı da 8
+katına çıkmıştır Çünkü bu arkadaş sabit
+alanı azaldığı için mi Daha dayanıksız
+oluyor King Kong Hayır bakın kesit alanı
+a kare idi 4A kare oldu kesit alanı
+azalmadı arttı 4 katına çıktı Eğer
+boyutlar iki kat arttırdıysanız
+Dolayısıyla Bu bir sebep değil hocam o
+zaman daha dayanıklı olması gerekmiyor
+mu evet kesit alanı bakımından daha
+dayanıklı ama taşıdığı ağırlık daha da
+çok arttı Bakın bu 8 katına çıktı artık
+dörtlük kesitle 8'i taşımaya çalışıyoruz
+önceden Birlik kesitle Birlik hacmi
+taşımaya çalışıyorduk kesit alanının
+hacmine göre daha az artması bir
+sebeptir kesit alanının kütlesine göre
+daha az artması aynı şeydir zaten Ne
+dedim ben buradaki hacimle kütleyi aynı
+şeymiş gibi düşünüyorum akü g ağırlık
+olarak düşünürsem 8 A küpü 8g ağırlık
+olarak düşünebilirim Dolayısıyla 2 ile 3
+arasında bir fark yok Sorumun cevabı bu
+açıdan D şık olacaktır aynı maddeden
+yapılmış aynı yükseklikteki x silindiri
+y ve z dik kesik oyunları şekildeki
+gibidir bu cisimlerin kendi
+ağırlıklarına karşı dayanıklılıkları DX
+dy dz olduğuna göre Bunlar arasındaki
+ilişki nedir diye sorulmuş yine kendi
+ağırlığına karşı dayanıklılık yine kesit
+alanı böyle Hacim ve biz öğrendik ki
+kesit alanı böyle hacim şekiller
+düzgünse bir bölü yükseklikle
+hesaplanabilir hocam hepsini aynı
+yükseklikte vermiş O zaman bunların
+hepsini yüksekliği aynı olduğu için
+dayanıklılığı da aynıdır yanlış gençler
+şekillerin düzgün olmasından kastımız
+taban alanlarıyla tavan alanlarının aynı
+olmasıdır şu arkadaşlar olmazlar Yani
+bunların kendi ağırlığını taşımaları
+1/3'le hesaplanamaz hocam o zaman nasıl
+kıyaslayacağız akıl yürütme yapacağız
+y'yi düşünelim gençler yediğim adam
+tabanı geniş gittikçe Daralan bir cisim
+bu arkadaş düzgün bir silindir olsaydı
+yani şuraları da dolu olsaydı bu arkadaş
+tavan alanı şöyle bir şey olsaydı X'in
+yüksekliği haş y'nin yüksekliği de H
+kadar olacaktı şekillerde düzgün olduğu
+için direkt 1/haşa bakıp Bunlar eşittir
+diyebilecektir dayanıklılığın genel
+ifadesinin kesit alanı/ kuvvetle
+orantılı olduğunu unutmayın Gençler bu
+y'nin ağırlığını Taşıyan kesit neresi
+şöyle şu daire kabul edilebilir bu
+kırmızı ile çizdiğim yer olsaydı ye
+cismi x'e eşit olacaktı ama kırmızıyla
+çizdiğim yer değil bakın şuralar boş
+Buralar yok Buralar yoksa olması
+gerekenden daha az ağırlık taşıyor
+demektir yani kesit alana aynı bunda bir
+değişiklik yok ama taşıması gereken
+kuvvet daha az Buralar boş olduğu için
+oraları taşımak zorunda değil dolu
+olsaydı x ile eşit olurdu boş olduğu
+için x'ten daha dayanıklıdır gençler
+y'nin dayanıklılığı x'ten büyüktür Z'ye
+gelelim aynı akıl yürütmeyi Burada da
+yapacağım bu arkadaşa da şöyle bir
+hayali çizgi çizsek bunun tavan alanı şu
+olsaydı bunun da haş yükseklikte
+olduğunu biliyoruz soru Çünkü öyle
+söylemiş yine bunu x ile kıyasladığında
+ne derdin bu kırmızı ile sınırladığım
+bölge olsaydı ze cismi derdi ki hocam
+X'in dayanıklılığıyla dayanıklılığı
+aynıdır Çünkü 1/h ikisi de aynı
+yüksekliktedir Z'yi kim taşıyor Z'yi de
+şu taban alanı taşıyor buradaki kesit
+alanına bakacağız Bakın bu sabit Eğer bu
+kırmızıyla taradığım alanı taşısaydı x'e
+eşit oluyordu ama onu taşımıyor ekstra
+buraları da taşıyor Dolayısıyla kuvvet
+olması gerekenden daha büyük Buralar
+olmasaydı x'le eşit dayanıklılığa
+sahipti ama buralar olduğu için taşıdığı
+yük daha fazla olduğu için dayanıklılığı
+daha az çünkü ne kadar çok kuvvet
+taşıyorsam dayanıklılığım o kadar azalır
+Bu yüzden Z'nin dayanıklılığı x'ten
+küçük yani Z'nin dayanıklılığı en küçük
+gençler sorunun cevabını Böyle bulduk
+ama şöyle Hayal edenler de kesin
+olmuştur diye şunu da çizmek istiyorum
+Hocam ben Z'yi öyle düşünmemiştim Ben
+Z'yi düz bir silindire tamamlarken
+kenarlarını böyle çizdim buralardan
+çizdim taban alanında dolayısıyla böyle
+bir şey oldu diye hayal ettim
+buralarında dolu olduğunu kabul etti
+bakın taban alanı buysa Siz bu çizimle
+hem taban alanını büyüttünüz yani kesit
+alanında büyüttünüz hem de ekstra
+yüklererek kuvveti büyüttünüz aynı or
+arttı biri daha mı az arttı biri daha
+çok Martta anlayamazsınız payda büyüdü
+paydada büyüdü dayanıklılık hakkında ne
+diyeceğiz değişmez mi diyeceğiz O yüzden
+bu çizim bizi zorluyor O yüzden bu
+çizimi yapmadım ne yaptım Bir tane
+değişken Sabit olsun dedim kimi
+sabitledim dedim ki kesit alanı
+değişmesin başlangıçta Neyse şimdi de
+olsun dedim ve çizgilerimi buradan
+çektim ve düzgün bir silindirmiş gibi
+böyle düşün bunu değiştirmemiş oldum
+kenarlara ek ağırlık eklemiş oldu Bu
+sıralamaya göre gençler gördüğünüz gibi
+ortadaki şeklin yani y'nin dayanıklılığı
+en fazla zaten y'yi düşündüğümüz zaman
+Hatta şunu da tamamladığımız zaman bu
+bizim bildiğimiz piramitlere çok benzer
+bir şekil geliyor piramitlerin tabanları
+daire değil biliyorum ama şekil
+piramit'e benziyor ve piramitler de
+binlerce yıldır ayakta olan yapılar Niye
+çünkü en dayanıklı şekillerden biri
+piramit şeklidir gençler Bu soruda da
+aslında bunu ispatlamış olduk
+dayanıklılıkla ilgili yargılarından
+hangileri doğrudur küçük cisimler Her
+zaman büyük cisimlerden daha
+dayanıklıdır şimdi bu soru çok güzel bir
+soru birçok kavram yanılgısını
+gidereceğimiz bir soru küçük Her zaman
+büyük cisimlerden daha dayanıklı falan
+değildir Biz hep geometriden düşünmeye
+alışıyoruz Çünkü lise müfredatı bize
+geometrik şekilleri soruyor ama biz
+biliyoruz ki dayanıklılık dediğimiz şeyi
+eşittir diyemiyoruz orantılıdır kesit
+alanı böyle hacim diyoruz niye eşittir
+diyemiyoruz Çünkü burada başka faktörler
+de var En önemlilerinden biri maddenin
+cinsi yani şimdi küçük diye bir oyun
+hamuru büyük diye bir Çelik parçasından
+daha dayanıklı olabilir mi Hayır olmaz
+Dolayısıyla maddenin cinsini göz ardı
+etmemeliyiz cisim küçük o zaman daha
+dayanıklıdır dememeliyiz bunu ne zaman
+diyoruz aynı cisim düşünüldüğünde gorili
+King Kong'a çevirirseniz dayanıklılık
+azalır King kong'u gorile çevirirsiniz
+dayanıklılık artar kendi ağırlığına
+karşı dayanıklılıktan bahsediyoruz ama
+farklı cisimler için böyle bir şey
+söyleyemeyiz koltukların ayaklarının
+sandalyelerden daha kısa olması
+koltukların daha dayanıklı olmasını
+sağlar Bu da çokça yanlış yapılan
+örneklerden bir tanesi eminim ikinci
+Öncü de çoğunuz doğru dediniz Fakat bu
+da yanlış hocam sandalyelere Bir kişi
+oturuyor koltuklara 3 kişi oturuyor 4
+kişi oturuyor o yüzden koltukların
+ayakları koltuğu Taş gereken şeyler kısa
+yapılırlar sandalyelerde ise Bunlar daha
+uzun yapılardır Bu da yine kendi
+ağırlığına karşı dayanıklılık ile bir
+dış kuvvete karşı dayanıklılığı
+karıştırdığımız noktalardan biri Şimdi
+biz burada bu ayakların kendilerini
+taşımalarından bahsetmiyoruz
+kastettiğimiz şey bu değil kastettiğimiz
+şey bu olsaydı sandalye koltuk örneği
+vermezdik Birine bir kişi oturuyor
+birine 4 kişi oturuyor demezdik bunların
+kesit alanları aynı olsun S kesit alanı
+Olsun bu da s kesit alanı olsun bu
+koltuk ayağı Bu da sandalye ayağa ne
+demiştim dayanıklılığın genel ifadesine
+dayanıklılık dediğimiz şey aslında kesit
+alanı ile orantılıdır uyguladığın
+kuvvetle ters orantılıdır Şimdi ben kısa
+olan bir ayağa ev kuvveti uyguladığımı
+varsayıyorum uzun olan ayağı da F
+kuvveti uyguladığımı varsayıyorum
+ikisinin de kesit alanı aynı mı Evet
+ikisine de Uygulanan kuvvet aynı mı Evet
+o zaman bunların bu kuvvete karşı
+dayanıklılıkları eşittir boyunun kısa
+olmasının Hiçbir önemi yoktur yani bunu
+1/h'dan düşünemezsiniz Herkes oradan
+düşünüp yanlış düşünüyor Çünkü 1/hne 1/h
+kendini taşıyabilme İkisi de tahtadan
+yapılan ayaklar Evet kısa olan kendini
+daha kolay taşıyabilir uzun olan kendini
+daha zor taşır bu doğru kendi ağırlığına
+karşı sandalye ayağı Daha dayanıksız
+olabilir bu doğru ama bunu sormuyor ki
+bize üstünde oturan insanları
+düşünmemizi istiyor Eğer bu sandalye
+ayaklarının kesit alanları aynıysa
+gençler dış kuvvetlere karşı
+dayanıklılıkları da aynıdır kısa olması
+ile hiçbir ilgisi yoktur 1/h'tan
+düşünemezsiniz Buna dikkat edin Bununla
+ilgili çok yanlış var bir binayı daha
+dayanıklı hale getirmek için kolon
+sayısını arttırmak gerekir binanın
+ağırlığı belli Evet kesit alanını
+arttırırsanız Tabii ki daha dayanıklı
+olacaktır ya kolonları daha kalın hale
+getireceksiniz ya da kolon sayısını
+artırarak kesit alanı arttırmış
+olacaksınız toplam kesit alanından
+bahsediyorum O yüzden üçüncü öncüle
+doğru derim Sorumun cevabına da C şık
+denir farklı tür moleküller arası çekim
+kuvvetine adezyon Aynı tür moleküller
+arası çekim kuvvetine de kohezyon denir
+Buna göre adezyon ve kohezyon Kuvvetleri
+ile ilgili hangileri yanlıştır denilmiş
+kohezyon kuvveti yalnızca sıvı
+molekülleri arasında gerçekleşir genelde
+nasıl anlatıyoruz işte bir su damlası
+şöyle küresel kalabiliyorsa bu kohezyon
+sayesindedir diyoruz İçerdeki sıvı
+molekülleri sürekli birbirlerini
+çekerler Herkes birbirini çekerse
+küresel bir şekil Alırız yani minimum
+yüzey alanını geometrik şekli almış
+oluruz yani şeklin oluşumu ve korunması
+ile ilgili bir şey iyi de sadece sıvılar
+şeklini korumuyor ki konu anlatımında ne
+demiştim bu katının da bir şekli var bu
+kalemin de bir şekli var bu kalemi böyle
+tuttuğumda akmıyor dökülmüyor düşmüyor
+Niye Çünkü kohezyon Kuvvetleri o kadar
+güçlü ki katılarda Birbirlerini çok daha
+sıkı tutuyorlar sıvılar akabilir Örneğin
+sıvıların kohezyonu katılara göre daha
+az gazlarda ise yok denecek kadar az
+çünkü gazların belli bir şekli yok bu
+yüzden zaten o yüzden birinci Öncül
+yanlış gençler sadece sıvılar arasında
+değil katılarda da vardır küçük boyutta
+olsa gazlarda da vardır adezyon kuvveti
+yalnızca katı ve sıvı molekülleri
+arasında gerçekleşir Bu da doğru
+zannedilen yanlışlardan Çünkü biz nasıl
+anlatıyoruz Diyoruz ki şöyle bir musluk
+olsun bunun ucuna şöyle bir su damlası
+çizdiğimde Diyorum ki bu musluktaki
+metal atomlarıyla molekülleriyle
+buradaki su damlası molekülleri arasında
+Yani farklı cin moleküller arasında
+çekme kuvveti olur İşte biz buna adezyon
+diyoruz adezyon sayesinde duruyor Bu
+örnekte Evet katı ve sıvı var ama
+tozlanma diye bir şey var gençler
+arabanın üzerine beni yıka yazıyorsunuz
+o toz o cama nasıl yapışıyor bu daha
+tezyon sayılabilir toz katı cam katı
+farklı cins moleküler yapışmış
+Dolayısıyla katı ve katı arasında da
+gözlemleyebiliriz kohezyon kuvveti
+cisimlerin şekillerini belirlemede
+etkilidir bunu konuşmuş olduk zaten bu
+küresel yapıyı korumak kohezyon
+Kuvvetleri sayesinde kalemin bu şekilde
+durması kohezyon Kuvvetleri sayesinde
+kalem molekülleri birbirini güçlü bir
+şekilde çekiyorlar ve şekli koruyoruz
+gazlarda kohezyon zayıf gazların belli
+bir şekli bu yüzden yok hangi kaba
+koyarsan onun şeklini alır Sorumun
+cevabı yanlışı sorduğu için denizde bir
+ve iki olmalıdır kablele sıvıları
+kapların içerisine konulduklarında
+şekildeki gibi dengede kalıyorlar Buna
+göre yargılarından hangileri Doğru
+olabilir Gençler bu soruyu daha güzel
+bir soru yapmak için doğru olabiliri
+sileceğim kesinlikle doğrudura
+çevireceğim soruda aslında bir problem
+yoktu ama böyle daha öğretici L
+sıvısının kohezyon kuvveti kapla
+arasındaki adezyon kuvvetinden büyüktür
+şimdi bu Klasik bir soru ilk bakışta
+k'ya baktığımda ne olmuş kenarlardan
+yapışma var kabına yapışmış o zaman
+deriz ki buradaki adezyon Kaan'ın kendi
+içindeki kohezyondan büyüktür burada ne
+görüyoruz kaçma görüyoruz Bakın
+yapışmamış şu kenarlar boş küresel bir
+yapı var üstte civanın yüzeyde böyle top
+gibi kalmasına benziyor bu bana ne
+anlatıyordu kohezyonun adezyondan büyük
+olduğunu anlatıyordu şimdi L sıvısı için
+birinci Öncül kohezyon adezyondan
+büyüktür Evet koenzon adezyondan
+büyüktür kesin doğru L sıvısının
+kohezyon kuvveti K sıvısının kohezyon
+kuvvetinden büyüktür Evet hocam Bakın
+l'nin kohezyonu büyük K'nın küçük
+adezyonu daha büyük O yüzden ben ikinci
+öncüle de kesin doğru derim hayır
+diyemem Çünkü ben bu adezyon ve kohezyon
+değerlerini bilmiyorum saçma sapan
+kafamdan sayılar vereyim Buradaki
+koalisyona Ben 10 desem adezyona 8 desem
+Şuradaki şekli gayet sağlayabilir
+buradaki 20 desem bu adezyona da 25 dese
+buradaki şekli de sağlayabilir ve
+gördüğünüz gibi Verdiğim sayıları
+düşündüğünüzde kanun
+büyük l'ninkohezyonu küçük çıkıyor o
+yüzden ikinci Öncül kesin Doğrudur
+diyemeyiz Çünkü adezyonlar hakkında
+fikrimiz yok kiminle savaştığımız
+hakkında fikrimiz yok bu soru piyasadaki
+yaygın soru tipleri gibi olsaydı Genelde
+ne veriyorlar o sorularda İkisi de diyor
+cam kap diyor İkisi de cam kapı
+olduğunda bir ortak nokta oluyor iki
+şekil arasında fakat bizim sorumuzda
+böyle bir bilgi yok Ne kapların cinsi
+biliniyor ne sıvıların cinsi biliniyor
+ben size burada bir şey söyleyeyim Bu
+iki sıvı da su olabilir mesela İkisi de
+su ise kohezyonları eşit çıkar Çünkü
+kohezyonu belirleyen en büyük
+etmenlerden biri maddenin cinsi İkisi de
+su olabilir buradaki suyu bir cam tüpün
+içine koymuşlardır buradaki suyu da
+teflondan yapılmış tüpün içine
+koymuşlardır aynı Su iki farklı şekil
+alabilir buna dikkat edin ezbere soru
+çözmeyin ikinci öncüle kesin doğru
+diyemem K ve L sıvıları Aynı tür
+olabilir işte Zaten şimdi bunu açıklamış
+olduk kapları bilmediğim için Kahveyle
+İkisi de su olabilir farklı şekiller
+alabilir soruyu değiştirdiğim için doğru
+şıkkımız yok Bu haliyle 1 ve 3'e
+Doğrudur diyebiliriz yine güzel bir
+noktayı vurgulayan bir soru Bir küp
+şekerin sonucu çaya değdiğinde çayın küp
+şekerin içinde ilerlemeye devam ettiği
+gözlenmektedir bu olayın
+gerçekleşmesinde hangileri etkilidir
+diye sorulmuş Şimdi biz bunun kılcallık
+etkisi olduğunu biliyoruz küp şeklinin
+içerisine küçük küçük boşluklar var konu
+anlatımında kullandığımız gibi şöyle
+İncecik bir boruyu kılcal bir boruyu
+suya Örneğin daldırdığımızda kendi
+kendine bir yükselme söz konusu oluyor
+bu yükselmeyi gördüğümüzde ne diyoruz
+adezyon Bu lezyondan büyüktür diyoruz
+yapışmış Çünkü o cam tüpe su yapışmış ve
+yükselmiş yani kılcallığın oluşmasında
+adezyon etkilidir diyebiliriz çay ve
+şeker molekülleri arasındaki adezyon
+kuvveti etkilidir çayın kendi
+molekülleri arasındaki kohezyon kuvveti
+hocam ilerliyorsa kaçmıyor demektir
+temas etmek istiyor demektir yani çay
+molekülleri şeker moleküllerine temas
+etmek istiyor o yüzden mevzu
+adezyondadır kohezyonla bilgisi yoktur
+derseniz yanılırsınız tabii ki kohezyona
+da bağlı Bakın ben burada dedim ki eğer
+yükselme varsa adezyon kohezyondan
+büyüktür yani işin içerisinde sadece
+adezyon Yok o lezyon da var çayın kendi
+molekülleri arasındaki kohezyon kuvveti
+çok büyük olsaydı o zaman şekerin
+içerisinde ilerleyemezdi Hatta ucu değse
+bile hiç nüfuz etmezdi konu anlatımında
+size bir video izletmiştim bir süngeri
+cıvaya batırıyorduk bakın sünger
+Normalde suyun içine batırılsa baya
+ağırlaşır Çünkü kılcallık etkisiyle çok
+fazla suyu emer ama izlettiğim videoda
+cıvanın içine batırıldığında hiçbir şey
+olmamış gibi çıkıyordu kupkuruydu
+civadan Eser yoktu niye Çünkü cıvanın
+kohezyonu çok fazla kohezyonu çok fazla
+olduğu için kılcallık etkisi ters
+tepiyor alçalma şeklinde söz konusu
+oluyor yani kaçma şeklinde söz konusu
+oluyor o yüzden kupkuru çıkıyor mevzu
+sadece adezyonda değil aynı zamanda
+kohezyonda Yani bunların ortaklaşa
+çalışmasında Sorumun cevabı 1 2 ve 3
+olmalıdır teflon tavaya damlatılan su
+damlası resimdeki gibi kısmen küresel
+kalarak tavayı az miktarda
+ıslatabilmektedir Buna göre
+verilenlerden hangileri yapılırsa su
+damlası daha küresel hale gelir burada
+daha küresel hale gelirden kastımız daha
+az Islatır anlamında Yani şöyle bir
+şekil düşünün bir yüzeye düşünün Bunun
+üzerinde su damlası şöyle duruyor Şu an
+bu kısm atma durumudur çok daha böyle
+yaygın dursaydı daha çok yayılsaydı bu
+daha çok ıslatma durumu olurdu peki
+Şöyle bir top gibi dursaydı o zaman da
+ıslatmamıştır derdik bunu çok bilmenize
+gerek yok ama aslında Şuradaki temas
+açısına bakıyoruz buradaki temas açısı
+yani şurası dar bir açıysa ıslatma var
+deriz bakın buradaki daha da dar bir açı
+iyice ıslatmış Ama buradaki geniş bir
+açı yani şuraya baktığınızda geniş bir
+açı görüyorsunuz küresel kalmış
+ıslatmamıştır bu ıslatmama durumu için
+kohezyonun adezyondan büyük olduğunu
+ıslatma durumları içinde adezyonun
+kohezyondan büyük olduğunu
+söyleyebiliriz kohezyon güçlüyse kendi
+içinde daha güçlü kalıyordur yüzeyle
+muhatap olmak istemiyordur adezyon zayıf
+ama adezyon kuvvetli ise bu sefer yüzey
+onu yapıştırmak ister kohezyon daha
+zayıf kalmış demektir böyle yayıldığını
+görürsünüz bunu aynı zamanda yüzey
+gerilimine de bağlayabiliriz bu üç sıvı
+içerisinde yüzey gerilimi en fazla olan
+bu küresel olandır Çünkü yüzeye gerilimi
+kohezyonla ilgilidir en az yüzey
+gerilimine sahip olan da bu ortadakidir
+çünkü kohezyonun en zayıf olan
+ortadakidir iyice yayılmış yüzey
+gerilimi cismin şeklini korumasını
+kolaylaştıran bir kavram bu arkadaşın
+bir yüzey gerilimi yokmuş ki dağılmış
+yüzeye şeklini koruyamamış su damlasına
+deterjan eklemek konu anlatımından
+hatırlayın yüzey gerilimini azaltıcı bir
+faktördür yüzey gerilimi azalırsa
+küresellikten yayılmış hale dönersiniz
+Hatta konu anlatımında Diyoruz ki
+bulaşık yıkarken sıcak su kullanırız
+Çünkü yüzeye yapışsın kirleri nüfuz
+etsin diye cıva ile bulaşık kıyamazsınız
+Çünkü cıva hiçbir şeyle Muhatap olmuyor
+kohezyon o kadar kuvvetli ki hiçbir şeye
+temas etmiyor ben daha küresel yapmak
+istiyorum yüzey gerilimini arttırmak
+istiyorum o yüzden bu olmaz tavayı
+ısıtmak yüzey gerilimini azaltıcı bir
+faktördür gençler Çünkü tavaya
+ısıtırsanız buradaki su damlası da
+ısınır su damlası ısınırsa su damlasının
+tanecikleri daha hızlı hareket eder daha
+hızlı hareket ederlerse birbirlerinden
+uzaklaşıp kohezyonu zayıflatırlar
+kohezyon zayıflarsa yüzey gerilimi
+azalır yüzey gerilimin azalması da yine
+bu şeklin oluşması demektir küreden daha
+yayvan hale gelmeniz demektir bu bizim
+istediğimizin tam tersi O yüzden ikinci
+öncülde olmaz su damlasına tuz kimyasal
+bağlar sayesinde yüzey gerilimini
+arttırmış olursunuz yüzey geriliminin
+artması kohezyonun arttığını gösterir
+daha yayvan halden biraz daha küresel
+hale yani şu hale geçmeniz Hatta belki
+de bu hale geçmeniz denebilir O yüzden 3
+öncüle doğru diyebiliriz Böylece cevap
+şıkkımızda C şıkkı olacaktır verilen
+düzenekte s kesit alanını kılcal cam
+boru su içerisine daldırılıyor ve su
+şekildeki gibi dengede kalıyor su kılıcı
+alacağım boruda H kadar yükseldiğine
+göre verilenlerden hangileri yapılsaydı
+H yüksekliği artardı denilmiş kılcallığı
+hatırlayalım bu yükselme şeklindeki
+kılcallık yani adezyonun kohezyondan
+büyük olduğu kılcallı şimdi bu sıvının
+yükselme hikayesinin bir daha anlatalım
+adezyon kohezyondan büyükse sıvınız bu
+kılcal Borunun içerisinde kenarlardan
+yapışır tırmanmaya başlar kenarlardan
+tırmanmaya başladığı için burada böyle
+bir çukur oluşturursunuz yüzey gerilimi
+ne yapar minimum yüzey alanı ister O
+yüzden su damlası uzay boşluğunda ki
+konu anlatımında onu da videosunu
+izletmiştim size küresel kalıyor Herkes
+birbirini çekerse oluş şekil bir küredir
+küre nedir minimum yüzey alanlı
+geometrik şekildir Dolayısıyla bu
+kenarlardan tırmanma yüzey alanını
+büyüttü yüzey gerilimi bunu küçültecek
+yani buradaki gerginlik alttaki su
+sütununu yukarı çekecek sizin su
+yüzeyiniz yüzey gerilimi sayesinde
+tekrar düzleşip küçülecek gençler sonra
+bu kenarlardan yine tırmanacak yine
+çukur şekilli olacak yüzey alanı büyüdü
+burayı iyice gerginleştirdik yüzey
+gerilimi bunu küçültecek nasıl
+küçültecek bu hale getirerek küçültecek
+yukarı çekecek yani Ne oldu bak bir sürü
+su sütunu yükselttik Bu sayede burada
+EMG ağırlıklı bir süs otunu yükselttik
+bunu da engelleyen arkadaş kim bunu
+dengeleyen arkadaş buradaki yüzey
+gerilimi Eğer siz buradaki kesit alanını
+değiştirirseniz yüzey geriliminde bir
+değişiklik yapmazsınız daha geniş bir
+kılcal boruyu daha dar bir kılcal boru
+haline getirirseniz buradaki EMG
+ağırlıklı suyunuz daha darlaştırılmış
+şekilde daha yükseğe çıkmak zorundadır
+aynı mg ağırlıklı su olması için basit
+geometri O yüzden ne demiştim konu
+anlatımında akılcal boru inceldikçe
+daraldıkça süs yutunu yükselirse kesit
+alanını azaltmak H yüksekliğini
+arttırıcı bir faktördür düzeneği ay
+yüzeyine götürmek ay yüzey ne demek ayın
+Yerçekimi ivmesi dünyanın yer çekimi
+ivmesinden daha küçük yani ay cisimleri
+kendine daha az çekiyor Siz buradaki
+G'yi azaltmış oluyorsunuz cisminizin
+ağırlığını azaltmış oluyorsunuz yüzey
+gerilimini değiştirmediniz yüzey
+gerilimi sıvının cinsine bağlı sıvının
+sıcaklığına bağlı sıvının özkütlesine
+bağlı bunlar hiç değişmedi O zaman ben
+aynı değişmeyen kuvvetle daha fazla
+kütlede suyu kaldırabilirim yüzey
+gerilimi 10 birimse ağırlıkta 11im bu 10
+bir çarpı 10'dan dolayı 10'du ki
+buradaki 10 dünyanın yer çekimi ivmesi
+olan ge Siz ayda atıyorum bu Yer
+çekimini ikiye düşürdünüz o zaman yine
+10 olması için kütlenin 5'e çıkması
+lazım su aynı Sude = m/v kütle 5 katına
+çıktıysa Özkütle değişmeyeceği için
+hacmin de 5 katına çıkması lazım yani
+daha fazla su taşıyabiliyorsun daha
+fazla suyu yükseltebiliyorsun anlam
+meydana gelir düzeneği ay yüzeyine
+götürürseniz daha fazla yükseklikte su
+sütunu elde edersiniz suyun sıcaklığını
+arttırmak buraya bir ekleme yapmak
+istiyorum Bu eklemeyi yapmazsak bunu
+düşünemeyiz özkütlenin sabit kaldığını
+düşünerek suyun sıcaklığını arttıracağız
+biliyorsunuz suyun sıcaklığı
+arttırılırsa tabi 0,4 derece arasındaki
+mevzudan da bağımsız olarak atıyorum
+buradaki su 10 selsiyustu Ben bunu 20
+celsius'a çıkarttım ne olur D = m/v'den
+genleşmeden dolayı genleşme hacim artışı
+demektir özkütlenin azalması demektir
+Ben bu ihtimalin olmadığını düşünüyorum
+suyun sıcaklığının özkütleyi
+değiştirmediğini varsayarak çözeceğim
+Çünkü burada başka özel bir nokta
+vurgulayacağız bakın gençler suyun
+sıcaklığı arttırılırsa yüzey gerilimi
+azalır biliyorsunuz Az önceki soruda da
+söylemiştim tanecikleriniz daha hızlı
+hareket eder birbirinden uzaklaşır su
+molekülleri birbirinden uzaklaşırsa o
+lezyon zayıflar yüzeye gerilimi azalır
+Yani siz buradaki F kuvvetini azaltmış
+oluyorsunuz Bu sütununu yukarıda tutan F
+kuvveti azaldı O zaman benim
+taşıyabileceğim Em azalır
+taşıyabileceğim engenin azalması benim
+burada yükselttiğim sıvı sütunun daha az
+olması demek yani hush'ın azalması
+anlamına geliyor Ama genelde kitaplarda
+bunu nasıl düşünüyorlar diyorlar ki bu
+niye yükseldi adezyon büyüktür kohezyon
+ondan yükseldi O zaman siz sıvının
+sıcaklığını arttırdınız kohezyona
+azalttınız kohezyon azaldığı için
+adezyon daha da baskın hale gelir daha
+da yukarı çıkar Bu sıvıyı yükselten
+şeyin yüzey gerilimli olduğunu
+düşünmemekten kaynaklanıyor bu doğru bir
+çözüm değil sıvının sıcaklığını
+arttırmak sıvıyı daha çok yükseltmez tam
+tersine alçalmasına sebep olur Çünkü
+dediğim gibi buradaki sıvı sütunun
+ağırlığını yüzey gerilimi dengeler
+sıvının sıcaklığını arttırmak yüzeye
+gerilimini azaltır o zaman
+dengeleyeceğim ağırlıkta azalmalı sıvı
+daha az yükselmeli tekrar söylüyorum bu
+yaptığım yorumların hepsi özkütlenin
+değişmediği varsayılarak yapılmıştır
+Niye bu varsayımı yapmak zorundayız
+Çünkü Özkütle su 10 dereceden 20
+dereceye çıkartıldığında genleşmeden
+dolayı azalacaktır buradaki suyun
+özkütlesi azalırsa taşıdığımız su daha
+hafif gelecektir suyu kaldırmak daha
+kolay olacaktır yani özkütlenin azalması
+yüksekliği arttırıcı bir faktör yüzey
+gerilimin azalması yüksekliği azaltıcı
+bir faktör ikisini yorumlayamayacağı
+için özkütleye hiç düşünmeyelim bunu
+ihmal edelim dedim sadece yüzey
+gerilimine odaklandık Bu yüzden üçüncü
+Öncül yanlıştır Sorumun cevabı 1 ve
+2'dir şunu 2 yapmamız lazım B şıkkıdır
+gençler geldik videomuzun son sorusuna
+kılcallık ve yüzey gerilimi ile ilgili
+yargılarından kaç tanesi yanlıştır diye
+sorulmuş böceklerin su üzerinde batmadan
+durabilmesi suyun yüzey gerilim ile
+ilgilidir Aynen öyledir çok hafif
+canlıları Biz yüzey gerilimi sayesinde
+suyun üzerinde böyle bir çukur
+oluşturduklarını ve orada
+taşıyabildiğimizi biliyoruz bunların
+ayakları ıslanmıyor suya girmiyorlar
+yani yüzey gerilimini sıvının üzerinde
+böyle sarımsı bir yapı olarak Hayal
+edebiliriz onun üzerinde duruyorlar bu
+olayı hafif cisimlerde böceklerde
+ataçlarda iğnelerde bozuk paralarda
+görebiliriz gemilerin su üzerinde
+batmadan durabilmesi suyun yüzeye
+gerilim ile ilgilidir Hayır gemiler çok
+çok ağır cisimler bunları suyun üstünde
+tutan şey kaldırma kuvveti gençler yüzey
+gerilim ile alakasız bir şeydir ve
+gemiler zaten suya batarlar gemi
+dediğiniz şey suyun üzerinde evet ama
+şöyle bir hacmi içeride suyun içine
+batmış durumda yüzey gerilimlik bir şey
+yok yani pipetle ayran içebilmek
+kılcallıkla ilgilidir Hayır pipetle
+ayran içebilmek açık hava basıncı ile
+ilgilidir gençler ayran içerisine pipeti
+soktuğunuzda çok küçücük bir yükselme
+görürsünüz Çünkü pipet kılcal bir boru
+bile sayılmaz nispeten kalın bir borudur
+o yüzden küçücük bir yükselme kılcallık
+etkisiyle olur ağzınıza kadar çıkartacak
+bir kılcallık söz konusu değil öyle
+olsaydı zaten içinize çekmenize de gerek
+kalmazdı Siz Aslında ne yapıyorsunuz
+Buradaki havayı vakumluyorsunuz havayı
+vakumladığınız için burada düşük basınç
+ortam oluşturmuş oluyorsunuz açık hava
+basıncı dışarıdan bastırıyor buradaki
+ayranı yükseltiyor ve açık hava
+basıncının bastırması sayesinde Siz
+ayran içebilmiş oluyorsunuz kılıcı
+allıkla bir ilgisi yok Sudan çıkan
+fırçanın yapışık kalması yüzey gerilim
+ile ilgilidir yine konu anlatımında
+vurguladığımız bir şeydi fırçanın sudan
+çıktığında şöyle yapışık durumda olması
+aslında Bunun içerisinde hala suyun
+olması ile ilgili Bunun için de su
+olduğunda suyun içindeki kohezyon o suyu
+bir arada tutuyor küresel kalmaya
+zorluyor içindeki fırça da o kohezyon
+etkisiyle yapışık kalıyor Bu fırçayı
+suyun içine soktuğumuzda tekrar
+ayrıldığını görüyoruz Niye Çünkü bunun
+içerisindeki su artık bir arada kalmak
+zorunda değil Çünkü bu tarafa da
+çekiliyor bu tarafa da çekiliyor her
+yerde su var artık Tabiri caizse o su
+taneciğinin dağıldığını parçalandığını
+düşün O zaman buradaki tüyler kıllar
+rahat ediyorlar ayrılabiliyorlar yapışık
+kalmıyorlar 4 öncüle doğru diyebiliriz
+Gaz lambasının fitilinin yanması
+kılcallıkla ilgilidir Aynen öyle klasik
+örneklerimizden zaten fitil dediğiniz
+şey bir kumaş parçası sıvı bir yakıtın
+içine dalmış durumda kılcallık etkisi
+ile o kumaş parçasında yakıt yükseliyor
+Yukarıdaki ateşe gidiyor ve Ateş sürekli
+beslenmiş oluyor bize yanlışları
+soruyordu ikiye ve üçe Yanlış dedim O
+yüzden iki tanesi yanlıştır gençler
+Böylece madde ve özellikleri ünitesi
+tamamıyla bitmiş oldu sorularla da
+pekiştirmiş olduk güzel noktalara
+değindik kavram yanılgılarını gidermeye
+çalıştık takıldıklarınızı olduysa alta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

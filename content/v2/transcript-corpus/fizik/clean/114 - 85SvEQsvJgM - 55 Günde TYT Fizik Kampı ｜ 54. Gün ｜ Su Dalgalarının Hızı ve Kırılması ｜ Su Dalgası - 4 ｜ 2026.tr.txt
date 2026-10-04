@@ -1,0 +1,1136 @@
+Bu simülasyonda bir dalga leen
+görüyorsunuz burada doğrusal bir dalga
+kaynağım var doğrusal dalgalar yayıyor
+yeşil renkli ortam Farklı bir ortam mavi
+renkli ortam Farklı bir ortam kaynağı
+çalıştırırsan doğrusal dalgalar yayarsa
+mavi ortama Geçen dalgaların dalga
+boyunda
+küçülmeli renkler dalga çukurlarını açık
+mavi renkler de dalga tepelerini temsil
+ederse üstteki ortamdaki dalga boyu iki
+Tepe arasındaki şu mesafe olarak
+gösterilebilir alttaki ortama geçtiğimde
+mavi yerler dalga tepeleri siyah yerler
+dalga çukurlarını temsil ederse iki mavi
+çizgi arasında Yani iki Tepe arasındaki
+dalga boyu şu mesafeyle ifade edilebilir
+çok bariz deir ki dalga boyu azalmıştır
+neden başka bir ortama geçtiğimde dalga
+boyum azaldı ne değişti veya ben bunu
+tersten yaparsam mavi ortama doğrusal
+dalga kaynağımı koyarsam burada
+çalıştırırsan mavi ortamda oluşturulan
+dalgaların yeşil ortama geçtiklerinde
+dalga boylarının büyüdüğünü görüyorum
+çok daha büyük dalga boyuna sahip
+oluyorlar fark nedir veya Buradaki gibi
+gerçek Çek bir deneyde bir dalga
+leğenine kenardan kesitten baktığımızda
+sağ taraftaki dalga kaynağı
+çalıştırıldığında su dalgalarının nasıl
+ilerlediğini görüyoruz Bu su
+dalgalarının dalga tepelerinin
+arasındaki mesafe yani Dalga boylarına
+baktığımızda bir farklılık görüyoruz
+Nedir o farklılık burada durduralım ve
+konuşalım Bakın şu bir dalga Tepesi şu
+da bir dalga Tepesi aralarındaki dalga
+boyu mesafesi bu kadar Bu da bir dalga
+Tepesi aralarındaki dalga boyu mesafesi
+bu kadar şu da bir dalga Tepesi
+aralarındaki dalga boyu mesafesi bu
+kadar bu ü tane dalga boy aynı boyda
+değil sağ taraftan sol tarafa doğru
+gittikçe dalga boyu azalmış Az önceki
+benim simülasyon daki gibi Az önceki
+simülasyonda anlaşılmıyordu ama burada
+anlaşılıyor ne fark var sağ taraftan sol
+tarafa doğru gittikçe ortam
+sığlaşma kaynağının çalıştığı yerde
+derinlik şöyle bir şeyken daha sonra
+derinlik azalmış daha da azalmış daha da
+azalmış minimuma inmiş diyebiliriz yani
+derinlik azaldıkça dalga boyu azalıyor
+Çünkü derinlik hızı azaltıyor gençler
+dalga boyu hakkında biz nereden yorum
+yapıyoruz genelde Diyoruz ki dalga boyu
+eşittir dalgaların yayılma hızı çarpı
+periyodu dalgaların periyodu kaynağa
+bağlıydı kaynak hep aynı çalıştığı için
+kaynağın periyodu değişmediği için Bu
+arkadaş sabit dalga boyu azalıyorsa
+buradaki matematiğin sağlanması için
+eşitliğin sol tarafı azalıyorsa sağ
+tarafın da azalması lazım Çünkü burada
+bir eşitlik var o zaman hızın azalması
+gerekiyor demek ki ortam derinliği
+azaldıkça hız azalıyor hız azaldığı için
+dalga boyu azalıyor Az önceki
+simülasyonda da yeşil ortamın derinliği
+fazlaydı Dolayısıyla hız fazlaydı
+Dolayısıyla dalga bo fazlaydı mavi
+ortama geçtiğimizde derinlik azaldı aynı
+Buradaki gibi Dolayısıyla hız azaldı
+aynı Buradaki gibi Dolayısıyla dalga
+boyu azaldı Aynı burada olduğu gibi
+kaynak hep aynı frekansta aynı periyotta
+çalışıyor oluşturulan dalgaların
+frekansı periyodu hep aynı ortam
+sığlaştırmak
+dalgaların hızını belirleyen şey
+ortamdır ortam özellikleridir ne
+frekansa bağlıdır ne periyoda bağlıdır
+hızı belirleyen tek şey ortam
+özellikleridir yay dalgalarında bu ağır
+yay hafif yay olarak geçiyordu su
+dalgalarında derin ortam sığ ortam diye
+geçiyor ortamın derin olduğu yerlerde
+hız fazla ortamın sığ olduğu yerlerde
+hız daha az hocam ortam deyince benim
+aklıma sıvının cinsi geldi sıvının cinsi
+değişirse hız değişmez mi Tabii ki
+değişir ama bizim konumuz zaten su
+dalgaları Biz herhangi bir sıvıyı
+işlemiyoruz suyu işliyoruz Dolayısıyla o
+bir değişken değil su aynı su her yerde
+ortamdan tek kastım derinlik olacak
+derinliğin azalması hızı niye azaltıyor
+bu şekli zaten daha önceki derslerden de
+hatırlıyorsunuz buradaki hesabın
+karmaşık bir matematiksel hesabı var
+Oraya Girmeme Gerek yok Biz bunu biraz
+daha düz mantıktan anlamaya çalışalım
+bir su taneciği denge konumunda
+takılırken dalga ona geldiğinde dalganın
+bir parçası olmak istediğinde sıra ona
+geldiğinde önce yukarıya çıkıyor dalga
+tepesini oluşturuyor sonra aşağıya
+iniyor dalga çukurunu oluşturuyor ve
+sonra bulunduğu denge konumuna geri
+geliyor bir çember çiziyor demiştik
+aşağıya doğru indikçe bu çemberler
+çizilmeye devam ediliyor ama daha Küçük
+çapta çiziliyor Yine önceki
+derslerimizde simülasyonlu diplerde
+artık bu o kadar küçük çemberleri ki biz
+onların etkisini gözlemleyen miyuk Hatta
+demiştik ki çok derinlerde canlılar
+Yukarıdaki dalgaları hissedemez Dışarıda
+fırtına Boran bile kopsa içerideki
+balıkların bundan haberi olmaz Çünkü o
+dalga etkisi derinlere ulaşamaz demiştik
+her ne kadar aşağıya doğru indikçe bu
+çembersel hareket
+zayıflasam
+sığlaştırmak şekli bozuluyor tam bir
+çember çizmeye çalışırken buradaki
+zeminle etkileşmeyen başlıyor Bu da onun
+hareketini kısıtlıyor onu yavaşlatıyor
+gibi düşünebilirsiniz aynı şekilde çok
+sığ ortama geldiğimde adam çemberini
+çizecek ama zemine takılıyormuş gibi
+düşünebilirsiniz bu da sığ ortamda
+yavaşlamayı gerektiriyor kesinlikle
+bilmeniz gereken şey derin ortamda
+hızlıyız sığ ortamda derinliğin az
+olduğu ortamda yavaşı ortamın
+özelliklerinden kastımız tamamen budur
+işte Az önce gördüğümüz dalga boyu
+değişiminin sebebi tamamen bu hız
+değişimidir dalga lenine kesitten
+bakıyoruz derin ortam var sığ ortam var
+burada Tabana bir tahta takoz
+konulduğunu düşünün sığ bir ortam
+oluşturulmuş burada derin bir ortam
+oluşturulmuş iki Tepe arasındaki mesafe
+yani şurası dalga boyu iki Tepe
+arasındaki mesafe yani şurası dalga boyu
+burada bir dalga kaynağımız var suya
+giriyor çıkıyor ve dalgaları oluşturuyor
+lambda eşittir yayılma hızı çarpı
+periyot periyot kaynağa bağlı kaynak
+seni oluşturduktan sonra bunu
+değiştirmenin imkanı yok ister kırıl
+ister yansı oluşturulan dalgaların
+başına ne gelirse gelsin oluşum süresi
+sabittir oluşma anında belirlenmiştir
+sığ ortamda yavaşladığı için eşitliğin
+sağ tarafı küçülür Dolayısıyla dalga
+boyu da küçülür lambda sığ küçük lambda
+derin yazabilirim Bu kesitten bakış E
+ben bu dalga lenine tepeden bakarsam
+göreceğim şey çizgilerde hatırlarsanız o
+çizgiler dalga tepelerini temsil
+ediyordu şurada bir dalga tepesi var
+burada bir dalga tepesi var aynı şekilde
+Bunlar da dalga Tepesi çok net
+görüyorsunuz burada dalga boyu büyük
+burada dalga boyu küçük çünkü sığ ortama
+geçtiğimde yavaşlı ve dalga boyum
+küçülüyor bazen de derinlikler sürekli
+değişebilir yani Derin Derin gelip bir
+anda
+sığlaşmak bir değişken olabilir Burada
+gördüğünüz gibi Buralar sığ ortam
+Buralar derin ortam sığ ortama doğru
+gittikçe sağ tarafa doğru gittikçe
+dalgalarım hızı azalacak yayılma hızı
+azalacak Dolayısıyla dalga boyları
+azalacak Ama bu Keskin bir şekilde
+olmayacak yumuşak bir şekilde geçiş
+olacak yani atıyorum Şuradaki dalga boyu
+10 cm ise hep 10 10 gidip bir anda 5'e
+düşmeyecek önce 9A düşecek sonra 8'e
+düşecek sonra 7'ye düşecek çünkü çünkü
+benim derinliğ de ona göre azalıyor
+düzgün azalıyor dalga boyum da düzgün
+azalıyor tepeden baktığımızda da dalga
+tepelerini temsil eden çizgilerin
+arasındaki mesafelerin yani Şunların
+düzgün azaldığını görebiliyorsunuz önce
+sığlaşma var bu tarafa doğru giderken
+sığlaşma boylar mız azalıyor aralardaki
+mesafelere dikkat ederseniz git gide
+azalıyor sonra sığlaşma bitip
+derinleşmeyen geçtiğimde aralarındaki
+dalga boyları tepeler arasındaki dalga
+boyları gitgide artıyor tepeden bakan
+bir göz şöyle bir görüntü görüyor tam bu
+noktada bir uyarı yapmam lazım size bir
+dalga leğeni verdiler dediler ki burada
+ince uzun bir kaynağımız var bir tahta
+parçamız var suya giriyor çıkıyor ve
+dolayısıyla doğrusal dalgalar üretiyor
+tepeden baktığımızda dalga tepelerini
+sağ tarafa doğru gittikçe aralarındaki
+mesafe azalacak şekilde görüyoruz sağ
+tarafa doğru gittikçe lamdanın
+azaldığını görüyoruz hemen ne yorum
+yaparsınız E hocam zaten deminden beri
+bunu söylüyorsunuz lambda eşitt hız
+çarpı periyot ya da lambda eş hız bölü
+frekans Demek ki sağ tarafa doğru git
+dikçe aynı buradaki şekil gibi
+sığlaşması e sağ tarafa doğru gittikçe
+bu tepeler arasındaki mesafeler azalmış
+Dolayısıyla derinlik azalmış hız azalmış
+doğru fakat kesin doğru değil derinliğin
+değişmediği sabit olduğu bir dalga
+leğeninde de bu görüntüyü elde
+edebilirsiniz Tabii bunu zamanla
+düşündüğümüz için şu uyarıyı yapmam
+lazım Daha önceki derslerimde de bunu
+vurgulamıştı şu üretilen arkadaşlar önce
+üretilenler önceden kaynak bunları
+oluşturmuş ve sağ tarafa göndermiş
+bunlar böyle sağ tarafa doğru gidiyorlar
+şu üretilen arkadaşlar sonra
+üretilmişlerdir
+periyotla frekans birbirinin tersi
+olduğu için frekansınız azalıyor
+demektir sizin ilk oluşturduğunuz
+adamların dalga boyu küçük çünkü dalga
+boyu küçükse periyot küçük yani frekans
+büyük yani kaynağınız hızlı hızlı suya
+giriyor çıkıyor suya girip çıkma sıklığı
+fazla frekansı fazla daha sonra
+oluşturduklarını büyük dalga boyu
+büyükse kaynağın periyodu artmış
+olabilir Dolayısıyla kaynağın frekansı
+azalmış olabilir kaynak suya daha aheste
+aheste tembel tembel giriyor çıkıyor
+olabilir Az önce yaptığım hız
+yorumlarının hepsinde kaynağın
+çalışmasının değişmediğini söyledim
+buradaki periyodu sabit aldım ama böyle
+olmak zorunda değil şu görüntüyü her
+gördüğünüzde direkt derinlik değişiyor
+diye atlamamak lazım kaynağın nasıl
+çalıştığına da dikkat etmek lazım Çünkü
+bu görüntü bana sadece dalga boyunun
+değiştiğini söylüyor dalga boyu sadece
+hız tarafından değil aynı zamanda
+periyot ve frekans tarafından da
+belirlenir bunu unutmuyoruz Şimdi biz
+hep böyle yorum yapıyoruz lambda = v x T
+diyoruz ya da v b frekans diyoruz tam
+hesaplamaları nasıl yapabiliriz yani
+hakikaten bir dalganın hızını nasıl
+hesaplarım ya da bir dalganın dalga
+boyunu ölçmek mümkün müdür yani su
+dalgası dediğiniz şey Sürekli hareket
+ediyor Onu bir şekilde durdurmak lazım
+ki iki Tepesi arasına bir cetvel koyayım
+ve onu ölçe tabii ki bunları
+durduramıyoruz Ama bir hile yapıp dur
+yunmuş gibi görebiliyoruz onları bir
+şekilde Durdurabilirsen hileyle de olsa
+şu arkadaşı
+ölçebilirsiniz
+hesaplayabilirim su dalgalarını
+durdurmak mümkün değil ama duruyormuş
+gibi görmek mümkün bu olayı sağlayan
+aletin ismi stroboskop gençler Tabii şu
+an ekranda gördüğünüz ve bizim lise
+müfredatında anlattığımız en ilkel
+versiyonu böyle siyah bir plastik
+düşünün ortasında döndürülebilen Hayal
+Edim bu arkadaşı sağ tarafa doğru ya da
+sol tarafa doğru döndürebilen yarıklar
+var su dalgaları hareket ederken Biz de
+Dalgalara bakıyoruz dalgalarla aramıza
+stroboskop koyup stroboskop çeviriyoruz
+buradaki yarıklardan bir tanesine
+baktığımızda dalgaları oradan gözlemeye
+çalıştığımızda onları durgun hale
+getirebiliyoruz mesela burada dairesel
+dalgalar yayan iki tane noktasal kaynak
+var suya girip çıkıyorlar yukarıdan
+ışığı vurdum aşağıda aydınlık ve
+karanlık çizgiler görüyoruz aydınlıklar
+dalga tepelerini temsil ediyor dön ben
+stroboskobun arkasından baktığımda şu an
+onları durgun görüyorum stroboskop
+onları Durgun muu gibi görmemi sağlıyor
+Halbuki onlar durmadılar Tabii ki
+yayılmaya devam ediyorlar ben şu an bir
+hile yapıyorum Birazdan o hilenin nasıl
+olduğunu anlayacağız stroboskop aradan
+çıkarttığımda direkt Çıplak gözle
+baktığımda Tabii ki dalgaların tekrar
+yayıldığını göreceğim şekilde gördüğünüz
+gibi bunun mantığı çok basit gençler
+şöyle bakın Biz sürekli hep aynı yere
+baktık hep aynı yarığa baktık Tabii ki
+aynı yarığa bakmıyoruz Burada bir sürü
+yarık var gözümüzün önünden stroboskop
+döndükçe bir sürü yarık geçiyor ama biz
+hep aynı konuma bakıyoruz dalgalar sağ
+tarafa doğru ilerliyorlar Ben şu an
+yarığa baktım ve bir dalga tepesini
+yakaladım o yarıkta o Tepeyi gördüm
+sıradaki yarık benim gözümün önüne geldi
+Tam o anda da hemen arkadaki dalga
+tepesi de geldi baktığım yerde bir yarık
+görüyorum ve yine bir Tepe görüyorum
+stroboskop dönmeye devam ediyor Bir
+arkadaki yarık gözümün önüne geldiği
+anda bir arkadaki dalga Tepesi gözümün
+önüne gelirse ben yine bir yarığa
+bakıyorum ve yine bir dalga Tepesi
+görüyorum mevzuyu anladınız daha da
+arkadaki yarık gözümün önüne Geldiğinde
+daha da arkadaki Tepe tam o yarığa denk
+gelirse ben yine bir Tepe görüyorum yani
+stroboskop dönüp duruyor Ben Dalgalara
+bakıyorum ama hep bir Tepe görüyorum bu
+da dalgaları duruyormuş gibi algılamam
+demek tabii ki Hep aynı Tepeyi
+görmüyorum Tabii ki her seferinde farklı
+bir Tepeyi gördüm önce bunu gördüm Sonra
+bunu gördüm Sonra bunu gördüm Sonra bunu
+gördüm İyi de ben bunları ayırt edemem
+ki Tepe tepedir benim için bu bir göz
+yanılması ama dalgaları durgunu gibi
+algılamam sağlayan bir göz yanılması
+buradaki kilit nokta ne yarıklar la o
+dalga tepelerinin aynı aynı anda
+kesişmesi Yani yarıkların gözümün
+önünden geçme sıklığı ile dalgaların
+gözümün önünden geçme sıklığının aynı
+olması lazım E sıklık demek frekans
+demek yani dalgaların frekansıyla
+yarıkların frekansı eşit olursa ben
+onları durgun görürüm yarık frekansı
+demek stroboskobun dönme frekansıyla
+yarık sayısının çarpımı demektir İşte bu
+dalga frekansına eşit olacak şöyle
+düşünün diyelim ki stroboskobun frekansı
+1 Hz yani saniyede bir tur atıyor ve
+üzerinde de seiz tane yarık var Burada
+gördüğünüz gibi stroboskop bir tur
+attığında benim gözümün ön önünden kaç
+tane yarık geçiyor 8 tane yarık geçiyor
+işte yarık frekansı budur 8 Hz saniyede
+8 yarık geçiyor gözümün önünden
+oluşturulan dalgaların yayılan
+dalgaların frekansı da 8 Hz olursa her
+yarık bir tepeye karşılık gelir bunlar
+sürekli çakışır ve ben sürekli Tepe
+görürüm dalgaları durgun görürüm
+dalgaları durgun görme şartımız budur
+Gençler bu stroboskopik etki günlük
+hayatta da karşımıza çıkabilir İlla
+dalgalarla ilgili olmak zorunda değil
+Özellikle kameralarla çekim yapılan
+ortamlarda bunu gözlemleyebiliriz mesela
+Bir evin kamerasından Sokak görüntüsünü
+görüyoruz kameranın önüne bir kuş
+Geliyor ve enteresan bir görüntü
+görüyoruz kuş kanatlarını çırpmak yine
+de havada kalıyor böyle bir şey gerçek
+hayatta mümkün mü kanat çırpmadan kuş
+havada kalabilir mi Tabii ki kalamaz
+zaten bu bir göz yanılması Bu
+stroboskobik bir etki Nasıl oluyor bu iş
+şöyle bizim kamera dediğimiz şeyler
+Aslında çok hızlı fotoğraf çeken
+makineler Eğer bu video işleriyle
+uğraşıyorsanız bilirsiniz der ki mesela
+24 FPS bir film izliyorsun 24 FPS ise
+film saniyede 24 kare gözün önünden
+geçiyor demek bir saniyede gözünden 24
+tane fotoğraf karesi geçiriyorlar o
+kadar hızlı ki sen onu Hareketli bir
+video gibi algılıyorsun Dolayısıyla
+buradaki güvenlik kamerası da saniyede
+24 tane fotoğraf çekiyor gibi düşünelim
+şimdi bu kuşun kanadı yukarıdayken bu
+Kamera fotoğraf çekmiyor kuşun kanadı
+aşağıya indiğinde fotoğraf çekiyor kuş
+tekrar yukarı kaldırıyor kanadını Kamera
+fotoğraf çekmiyor kanat tekrar aşağıya
+indiğinde bir daha fotoğraf çekiyor yani
+kuşun kanadını aşağı indirme sıklığı la
+kameranın fotoğraf çekme sıklığı eşit
+olursa Kanat frekansıyla kamera frekansı
+eşit olursa dalgaları durgun görmek gibi
+bu kanadı durgun görürüz gençler
+stroboskopik etki veya bir helikopter
+pervanesi dönmüyor ama yine de
+havalanıyor muu gibi gözüküyor Tabii ki
+pervanesi dönüyor ama kamerayla Biz bunu
+seçemiyoruz Çıplak gözle izlesek böyle
+olmadığını görürüz Çünkü pervanenin
+dönme frekansıyla kameranın o fotoğraf
+çekme seri şekilde fotoğraf çekme
+frekansı birbirine eşitse durgun
+görürsün bak mesela arka pervanenin
+frekansı tutmamış ki onun döndüğünü
+görebiliyoruz ama üstteki pervanede bu
+frekanslar eşitlendiği için bunu durgun
+halde görebiliyoruz Peki bu frekanslar
+eşitse durgun görüyoruz güzel Peki bu
+eşitlik bozulursa mesela dalgaların
+frekansı yarıkların frekansından büyük
+olursa ne olur e dalgaları gittikleri
+yönde ilerliyor görürsün Herhangi bir
+problem hissetmez mesela uç noktayı
+düşünün yarık frekansı 0 olsun yarık
+frekansının 0 olması demek ne demek
+stroboskop dönmüyor demek Çünkü yarık
+frekansı yarık sayısı çarpı stroboskobun
+frekansı olduğu için yarık sayısı 0
+olamayacağına göre İlla yarıklar mızın
+olması gerektiğine göre stroboskop
+dönmüyorsa yarık frekansı sıfır olur e
+dal dalgaların bir frekansı var her
+halükarda sıfırdan büyük bir sayı
+dolayısıyla stroboskop dönmüyorsa bir
+anlamı yok dalgalar nasıl gidiyorsa öyle
+görür Peki tersi olursa yani dalgaların
+frekansı yarık frekansından küçük olursa
+stroboskop gereğinden hızlı döndürülürse
+o zaman da dalgaları geriye gidiyormuş
+gibi görürsünüz gençler burada bir
+hortumuma yeşil bir sıvıyı Damla Damla
+bırakıyor dikkat ederseniz sanki
+yavaşlatılmış bir videoyu gibi Damlalar
+Böyle ağır ağır aşağı düşüyorlar aslında
+burada stroboskopik bir etki var bu
+damlaların düşme frekansı yani gözümün
+önünden geçme frekansı geçme sıklığı o
+stroboskopik etkinin frekansından büyük
+ama çok da büyük değilmiş ki neredeyse
+birbirlerine eşitmiş ki oldukça yavaş
+düştüklerini görüyorum eşit olsalar
+zaten durgun olduğunu görürüm şimdi
+baktığımda ise yine videoda herhangi bir
+hile yok damlaların yukarıya çıktığını
+görüyorum bir stroboskobun arkasından
+baktığımda bunu görüyorum bunları yukarı
+çıkıyormuş gibi de görebilirim aşağı
+iniyormuş gibi de görebilirim durgun da
+görebilirim hepsi stroboskopik etki
+mesela durmayı görüyorsunuz şu an durgun
+görmeyi görüyorsunuz su damlaları normal
+düşüyorlar sizin kameranız fotoğrafçı
+çekiyor Hep aynı yerden geçerken
+fotoğraf çekiyor yani gözün gördüğü bu
+açık Yeşiller Aslında olanlar bu silik
+olanlar hep aynı yerde fotoğraf
+çekerseniz sizin gördüğünüz video ne
+olur hep yerinde Duran su damlaları olur
+Siz bunları görüyorsunuz kıpırdamadı
+varını görüyorsunuz Çünkü düşme
+frekansıyla kameranın yakalama frekansı
+tutmuş birbirini eşit Eğer kameranın
+yakalama frekansı biraz küçük olursa
+yani stroboskobun frekansı daha küçük
+olursa ilerlediğini görürüm hangi yönde
+gidiyorsa o yönde gittiğini görürüm
+bakın biraz geç kalıyor Aynı yerlerde
+yakalayamıyor her sefer daha aşağıda
+yakalıyor e o yüzden benim gördüğüm bu
+açık Yeşiller git gide aşağıya iniyor
+yani Yavaş yavaş aşağıya indiğini
+görüyoruz ilk izlediğimizi gibi Peki
+kamera olduğundan daha hızlı frekansta
+çalışırsa daha yüksek frekansta
+çalışırsa o zaman da geri gittiğini
+göreceğim Şu an onu görüyorsunuz Her
+seferinde daha erken yakalıyor biz bu
+açık yeşilleri görüyoruz su damlaları
+Her zamanki gibi düşüyorlar ama biz her
+seferinde onu Daha yukarıda yakalıyoruz
+çünkü daha hızlı çalışıyoruz daha hızlı
+fotoğraf çekiyoruz Bu da bizim Damlalar
+sanki yukarı çıkıyormuş gibi algılamam
+sebebiyet veriyor Aynı burada olduğu
+gibi
+şekilde kesiti verilen dalga leğen k l
+ve M bölgelerinde farklı su
+derinliklerine sahiptir Buna göre x
+ucunda oluşturulup y ucuna doğru hareket
+eden doğrusal su dalgalarının üstten
+görünümünü çiziniz Tabii Bu soruda
+kaynağın çalışma frekansının sabit
+olduğunu düşüneceğiz kaynak hep aynı
+şekilde suya girip çıkıyor Dolayısıyla
+dalga boyunu çizeceksi hız bölü
+frekanstan düşündüğümde oluşturduğum
+dalgaların frekansı sabit olacak Bunda
+bir değişiklik yok çünkü kaynakta
+herhangi bir değişiklik yok dalga boyunu
+ne belirleyecek hız belir CK dalgalarda
+hızı ne belirler ortam belirler su
+dalgalarında ortamdan kastımız nedir
+derinlik sığlık tır burada derinlik az H
+küçük burada derinlik çok H büyük Bu da
+ortanca o zaman sığ olduğumuz yerde
+hızımız az olduğu için dalga Boyumuzun
+az olması lazım dalga boyu en küçük
+olacak dalga boyu en büyük olacak dalga
+boyu ortanca olacak üstten görünümü
+çizin diyor tepeden bakan bir arkadaş ne
+görür çizgiler görür Bunlar doğrusal
+dalgalar Dolayısıyla oluşturduğum dalga
+tepeleri başlangıçta dalga boyu küçü
+küçük olacağı için birbirine yakın
+olmalı buralarda yakınlar K bölgesinde
+yakınlar L bölgesine gittiğimizde dalga
+boyu büyüyecek çizgilerin arası açılacak
+şöyle bunu modelleyelim L bölgesinde
+m'ye girdiğimde ortanca yani k'ya göre
+daha geniş ama lye göre daha dar olmalı
+mesela göz kararı herhalde şöyle bir şey
+olması lazım Burası da M bölgesi bu
+Adamların hepsi sağ tarafa doğru
+ilerliyorlar diyebiliriz derin ortamdan
+sığ ortama geçen doğrusal dalgaların
+yavaşladığı için dalga boyları azalıyor
+muu hem derin ortamda hem de sığ
+ortamdaki bu dalgaların dalga boylarının
+eşit olduğu bir görünüm elde etmek
+mümkün müdür demiş güzel Az önce
+vurguladığımız şeyin soru haline
+getirilmiş versiyonu hem derin ortam var
+hem de sığ ortam var hızlar farklı
+Dolayısıyla dalga boylarının farklı
+olmasını bekliyoruz fakat diyor ki Soru
+burada dalga boyları eşit diyor burada
+lambda varsa burada da lambda var diyor
+bu nasıl mümkün olabilir lambda sadece
+hıza bağlı değil lambda aynı zamanda
+frekansa bağlı dalgaların frekansına
+Dolayısıyla kaynağın frekansına bağlı
+şimdi bakın kaynak burada oluşturuyor
+gönderiyor oluşturuyor gönderiyor
+veriyor bu adamlar önce oluşturulan bu
+adamlar daha yeni oluşturulmuş kaynaktan
+uzaklaşamam Bunlar sonra oluşturulmuş
+kaynak hep aynı çalışsaydı yani frekans
+değişmeseydi sığ ortama geçtiğimizde
+yavaşlık yavaşladığını için dalga
+boyumuz küçük olurdu yani buradaki dalga
+boyunun küçük derin ortamda hızlı
+olduğumuz için buradaki dalga boyunun
+büyük olması gerekirdi bunları nasıl
+eşitleyin ortamdaki de küçültmek
+istersem mesela sonra oluşturdukları
+daha küçük dalga boylu nasıl yaparım
+dalga boyunun Küçülmesi için frekans
+arttırmanız gerekir payda büyürse sonuç
+küçülür Yani benim kaynağım çalışıyor
+Güzel güzel çalışıyor sığ ortama
+geçtiklerinde yavaşladığı için dalga
+boyu küçülüyor O zaman ben eşitlemek
+için derindekiler de küçültecek kaynağım
+böyle ahest ahest çalışırken belli bir
+süre sonra frekansı arttırırsan yani
+sonra
+oluşturduklarını arttırırsan dalga
+boyları küçülür sığ ortamdaki ile
+eşitleneceğiz ilen doğrusal dalgalar
+dalga leğeninin x kenarına doğru hareket
+etmektedir soldan sağa doğru
+gidiyorlarmış Tamam hangileri Doğru
+olabilir diye sorulmuş bir kere ben ne
+görüyorum sağ tarafa doğru gittikçe
+dalga boyunun arttığını görüyorum
+tepeler arasındaki mesafenin büyüdüğünü
+görüyorum ya da bunu Zamana Karşı
+yorumlarsa zamanla dalga boyunun
+azaldığını görüyorum niye sürekli
+vurguladığım şey çünkü bunlar önce
+oluşturulup
+gönderilmişlerdir doğru gittikçe dalga
+boyu artıyor ama zamana bağlı olarak
+belli bir süre sonra dalga boyunun
+azaldığını söyleyebilir İkisi de doğru
+dalga kaynağından x kenarına doğru su
+derinliği artmaktadır sağ tarafa doğru
+su derinliği artıyorsa sağ tarafa doğru
+hız artıyor demektir dalgalar gitgide
+daha hızlı yayılacak demektir lambda
+eşittir hız bölü frekans kaynağın hep
+aynı çalıştığını frekansının sabit
+kaldığını düşünürsem dalga boyunun
+artması sağ tarafa doğru artması sağ
+tarafa doğru hızın arttığı anlamına
+gelir yani derinliğin arttığı anlamına
+gelir Aynen öyle dalga kay kaynağının
+periyodu azalmaktadır periyodun azalması
+başladığım yere daha kısa sürede gelmem
+demek yani frekansın artması demek Birim
+zamanda daha çok titreşim yapmam demek
+kaynağım önceden aheste aheste
+çalışıyormuş şunları üretmiş göndermiş
+Sonra daha hızlı çalışmaya başlamış
+üretmiş daha gönderemedi peşine yenisini
+üretmiş daha o gidemeden peşine yenisini
+üretmiş Dolayısıyla bunlar böyle sıkışık
+kalmışlar sıkışık kaldıkları için dalga
+boyu küçük olmuş ikinci öncülü de
+mümkündür tekrarlıyorum dalga boyu
+sadece hıza değil aynı zamanda periyot
+ve frekansa da bağlı dalga leğeninin
+tabanı düz ise leğene su eklenmektedir
+Yani kesitten baktığımızda dümdüz bir
+dalga leğeni var su seviyesi Burası
+olsun Burası suyla dolu işte kaynağımız
+şurada çalışıyor ve sağ tarafa doğru
+dalgalar gönderiyor E şimdi ben buna su
+eklersem Ne bileyim seviyeyi şuraya
+çıkartırsam her yerde aynı derinlik
+artışına sebep olmadık mı sol tarafla
+sağ tarafı ayırt edecek bir şey mi
+söylemiş olduk Yo zaten taban düzse bu
+görüntünün sebebi kaynağın periyodu ile
+ilgilidir Çünkü taban düzse her yerde
+derinlik aynıdır derinlik aynı olduğu
+için dalga boyunu etkileyen diyen şey
+hız olamaz E tamam su ekledim derinliği
+biraz daha arttırdım da her yerde
+arttırdım Dolayısıyla su eklemek bir
+şeyi değiştirmeyecektir üçüncü öncülü
+doğru kabul edemem cevabım 1 olmalıdır
+şimdi az önce bu simülasyonu konuştuk
+iki farklı ortam olduğunu söyledim
+doğrusal dalgalar farklı ortama
+geçtiğinde dalga boylarını değiştirdiler
+mavi ortamda dalga boyu az yeşil ortamda
+dalga boyu arttı kaynak hep aynı
+çalışıyor frekans periyot sabit
+Dolayısıyla yeşil ortamda dalga boyu
+arttığına göre hız fazladır toprak yolda
+ilerleyen arabalar dip dibe ilerleyen
+arabalar yavaş giden arabalar bir anda
+Otobana çıktı gaza bastılar aralarındaki
+mesafe arttı gibi düşünebilirsiniz ya da
+tersten düşünürsem otobanda ilerleyen
+arabalar hızlı arabalar araları açık
+arabalar dalga boyları büyük arabalar
+Toprak yola girdiler bir anda yavaşladı
+dip dibe girdiler trafik oldu
+dolayısıyla dalga boyu küçüldü gibi
+düşünebilirsiniz burada hızlıyız burada
+yavaşı Peki ben doğrultuyu değiştirirsem
+böyle dümdüz göndermezsem ne olur işte o
+zaman kırılma dediğimiz şey olur burada
+doğrusal bir dalga kaynağım var
+dalgaları üretiyor gönderiyor yeşil
+ortamda hızlıyız mavi ortamda yavaşı
+gelmi doğrultusu La diğer ortama
+geçtiğinde doğrultusu aynı değil kırıldı
+doğrultusu değişti aynı ışık gibi
+optikte de ortam değiştirdiğimizde
+ışığımız doğrultusu değişiyordu yani
+kırılıyordu çünkü hız değişiyordu
+hatırlarsanız benzer şekilde dalgalarda
+da hızınız değişti diye belli bir açıyla
+Geliyorsanız doğrultunun değişir yani
+kırılırsınız bunlar gelen dalgalar
+Bunlar da kırılan dalgalar gençler hocam
+şunlar ne Bunlar da yansıyan dalgalar
+bunu yay dalgalarında da gördük gelen
+vardır bir kısmı iletilir bir kısmı aynı
+ortama geri yans optikte de bu vardı
+Işık geliyordu bir ortamda bir kısmı
+diğer ortama geçiyordu bir kısmı geri
+yansıyordu e su dalgalarında da var
+gelen iletilen ve yansıyan Peki neden
+doğrultu değiştiriyoruz optikte bunu
+fermat prensibinden falan açıklamıştık
+en kısa süre prensibiyle açıklamıştık
+dalgalarda nasıl açıklayabiliriz çok
+basit bakın gençler burada derin bir
+ortamım var burada sığ bir ortamım var
+kaynak hep aynı çalışıyor derin ortamda
+hızlı olduğumu Ben biliyorum sığ ortamda
+da yavaş olduğumu biliyorum daha önce
+yansımada da yaptığım bir taktiği
+yapacağım başına bir şey gelecek Mesela
+yansıyacak bir Engele çarpacak çarpmas
+ne olur diye düşündüm Burada da başına
+bir şey gelecek dalgaların başka bir
+ortama geçecek mesela sığ ortama geçecek
+geçmese ne olurdu diye düşünüyorum dalga
+tepelerim böyle güzel güzel sağ tarafa
+doğru geliyorlar tam şurada sığ ortama
+geçen bir parçası var geçmeseydi böyle
+tek parça Gitmeye devam ederdi fakat
+geçti şu alt yarısı sığ ortama geçti E
+sığ ortama geçtiğim anda yavaş ortama
+geçtim
+yavaşlamalar la uyumum bozulması lazım
+aynı doğrultuda kalan geride kalmalıyım
+geç kalmalıyım Dolayısıyla bu yeşil
+konumda bulunamam daha geride bulunurum
+yani şu arkadaş gibi olurum e üstteki
+yeşil parçanın da sığ ortama geçtiğinde
+başına aynı şey gelecek o da kırılacak
+Dolayısıyla doğrulturuz değişmiş olacak
+sağ tarafa doğru gelen dalga tepelerim
+sığ ortama geçtiğinde doğrultularını
+değiştirip şöyle çapraz çapraz gitmeye
+başlayacaklar Bu Derin ortamdaki ve sığ
+ortamdaki dalgaların özelliklerini
+kıyaslarsak aynı şeyi yay dalgalarında
+da yapmıştık frekansları periyotları
+dalga boyları lambda eşittir hız çarpı
+periyot ya da frekans kaynak hep aynı
+çalışıyor Dolayısıyla dalgaların
+frekansı sabit derinde de olsa Sığda da
+olsa oluşturulma süreleri değişmiyor sığ
+ortama geçtiğimde yavaşladığı için dalga
+boyumun azalması lazım dikkat ederseniz
+çizim de ona göre yapılmış zaten
+Buradaki dalga boyu küçük iken buradaki
+dalga boyu daha büyük yani Derin ortamda
+dalga boyum daha büyük sığ ortama
+geçtiğimde belli bir açıyla gelirsem şu
+ayırıcı yüzeye hem doğrultu değişir hem
+de dalga boyum değişir derin ortamdaki
+dalgaların frekansıyla sığ ortamdaki
+dalgaların frekansı Dolayısıyla
+periyotları eşit Çünkü aynı kaynak
+tarafından oluşturuluyor sığ ortamda
+yavaşlar derin ortamda hızlılar derin
+ortamda dalga boyu büyük sığ ortamda
+dalga boyu küçük diyebiliriz Peki sığdan
+Derine geçersek yani yavaş olduğum
+ortamdan hızlı olduğum ortama geçersem
+yine aynı akıl yürütmeyi yapıyorum
+başıma bir şey gelmeseydi ne olurdu
+böyle güzel güzel sağ tarafa geliyorum
+ortam değiştirmesin böyle dümdüz Gitmeye
+devam edecektim ama şu alt kısım derin
+ortama geçti derin ortamda hızlıyım
+üsttek inden daha hızlı olduğum için
+için ondan kopup gideceğim daha ileriye
+gideceğim daha ileriye gittiğim için
+orijinal konumumdan daha ileriye çizdim
+Yani buraya geleceğim e üstteki Kırmızı
+da sığdan Derine geçtiğinde alttakine
+uyum sağlayacak Dolayısıyla doğrult
+umuzu değiştirmiş olacağız böyle güzel
+güzel sağ tarafa doğru giderken sığ
+ortamda derin ortama geçtiğimde yukarı
+çapraz bir doğrultu kazanmış olacağım
+dikkat ederseniz burada dalga boyu büyük
+çizilmiş burada dalga boyu daha küçük E
+çünkü sığ ortamda dalga boyu küçüktür
+derin ortamda dalga boyu daha büyüktür
+kaynak Tabii ki aynı aynı çalışıyor
+frekans sabit hız arttığı için dalga
+boyu arttı Toprak yoldan asfalt yola
+geçtik trafik olan arabalar dip dibe
+olan arabalar gaza bastılar aralarındaki
+mesafeler açıldı kaynak hep aynı
+çalıştığı için sığ ortamdaki frekansla
+derin ortamdaki frekans eşit hızları
+zaten söylemeye gerek yok derinde
+hızlıyız sığ ortamda yavaşı bakın burada
+sol tarafta bir dalga kaynağım var
+doğrusal dalgalar üretiyor Şurada daha
+sığ olduğumuz bir ortam var Nereden
+anladım Çünkü dalga boyu daha küçük ve
+burada doğrultu değiştirme görmüyoruz
+Herkes sağ tarafa doğru gidiyor çün
+çünkü en başta işlediğimiz gibi ayırıcı
+yüzeye paralel geliyor dalgalarım belli
+bir açıyla gelseydi doğrultusu da
+değişirdi şurası benim ayırıcı yüzeyim
+Burası derin ortam Burası sığ ortam
+direkt geçiyorlar optikte ışığın ayrıcı
+yüzeye dik gelmesi gibi hava ortamından
+cam ortamına geldiğinde doğrultu
+değiştirmeyi Aynen geçip gidiyordu
+benzer şekilde Çünkü burada da
+dalgaların ilerleme doğrultusu ayrı
+yüzeye dik diyebilirsiniz hatırlarsanız
+önceki derslerimizde bu ilerleme
+doğrultusunu Işın gibi düşünebileceğiniz
+söylemiştim benzer mantıkta doğrultu
+değiştirmiş dicek iki aydınlık çizgi
+arası lambda dalga boyu burada bu kadar
+burada çok daha fazla Çünkü burada
+yavaşlıyor Burası sığ Burası derin aynı
+şekilde Burası da derin Zaten şu iki
+Ortam aynı ortam buraya Belli ki bir
+tahta takoz konulmuş ve orası
+sığlaştırmak
+boyu burada küçük burada büyütülmüş
+Çünkü burası daha derin ortam dalga boyu
+büyümüş geri kalan yerler şöyle l gibi
+düşünebileceğiniz yerler sığ ortam
+diyebiliriz Peki şimdi belli bir açıyla
+gelelim ve kırılmayı gözlemleyelim
+burada durdurdum neresi derin neresi sığ
+iki şekilde anlayabilirim dalga boyundan
+anlayabilirim bir kere buradaki aydınlık
+çizgiler yani Dalga tepeleri arasındaki
+mesafe fazla Şuradaki mesafe az yani
+burada dalga boyu daha küçük Demek ki
+burası sığ ortam Toprak yola girmiş
+arabalar aralarındaki mesafe azalmış
+Burası derin ortam diyebilirim yani
+dalgalar Burada yavaş burada hızlı
+diyebilirim doğrultu niye değişmiş Bu
+adamlar böyle güzel güzel sağ tarafa
+doğru giderken şöyle bir ayırıcı yüzeye
+belli bir açıyla geldikleri için o
+yavaşlama ya da hızlanma doğrultusunu
+değiştirir Yani seni kırar yine hiçbir
+şey ol olmasaydı prensibini uygulayalım
+mesela şu dalga Tepesi ortam
+değiştirmesi dümdüz burada olacaktı ama
+orada olmamış burada olmuş yani olması
+gereken bu sarı yerden geride kalmış E
+çünkü sığ ortama geçti Çünkü yavaşladı
+üstteki arkadaş da sığ ortama geçtiğinde
+başına aynı şeyler gelecek Dolayısıyla
+belli bir süre sonra komple şuna
+dönüşecek sağ tarafa doğru gelen şöyle
+bir dalga Tepesi şuna dönüşecek doğrultu
+değiştirecek yavaşladığı için
+diyebiliriz Hocam ben optikte Düşünmeyi
+seviyorum Optik gibi yapmak istiyorum
+ilerleme doğrultularını Işın gibi
+düşünmek istiyorum önceki derslerdeki
+gibi diyenler için de bir taktik
+öğretelim derin ortamı kırıcılık indisi
+küçük olan ortama sığ ortamı da
+optikteki kırıcılık indisi büyük olan
+ortama benzetebiliriz Çünkü derin ortam
+demek ne demek dalgaların hızlı olduğu
+ortam demek sığ ortam ne demek
+dalgaların yavaş olduğu ortam demek e
+optikte
+indisinin yavaşlatma
+oranıyla bölünmesiyle bulunuyordu E
+zaten ışığın boşluktaki hızı sabit 3 x
+10 üzeri 8 m b saniye senin ortamdaki
+hızın ne kadar küçükse
+indisinin büyük olması demek o ortamda o
+kadar yavaş ışık var demektir O ortam
+ışığı çok yavaşlatıyor demekti İşte o
+yüzden
+indisinin mantıkta da indisinin küçük
+olması derin ortam gibi düşünülebilir
+yani Derin ortamı hava gibi sığ ortamı
+da cam gibi düşünmek herhangi bir
+sakınca yok Optik
+düşüneceksin açıklamaya çalışayım derin
+ortam dediğim gibi gibi hızlı olduğum
+ortam hava gibi düşünülebilir sığ
+ortamda cam gibi düşünülürse yavaş
+olduğumuz ortam olarak düşünülürse bu
+adam sağ tarafa doğru ilerliyor ilerleme
+doğrultusunda Işın gibi düşünüyorduk
+hatırlarsanız Işın böyle güzel güzel
+ayırıcı yüzeye gelir tabii ki oraya
+hemen bir normal çekmemiz lazım ayırıcı
+yüzeye dik bir normal çektim havadan
+cama geçiyorum az indis çok indis
+geçiyorum normale yaklaşacağım Yani bu
+arkadaş orijinal rotasına gitseydi
+dümdüz gidecekti aşağıdaki normale
+yaklaşmalı Çünkü yavaşlıyor şöyle falan
+gitmeli işte ilerleme doğrultusu böyle
+Kırı ilerleme doğrultusuna dik dalgayı
+çizersen İşte bu arkadaşları elde
+edersiniz Bunlar dalga tepelerini temsil
+eden çizgiler ve ilerleme doğrultularını
+doğaları gereği dik olmak zorundadırlar
+nasıl kırılacaklar ilerleme doğrultusunu
+Işın gibi düşünerek anlayabilirsiniz
+optikte olduğu gibi dalgalarda da gelme
+açımız yansıma açımız kırılma açımız
+vardı hatırlarsanız ve dalgalarda
+optikte olduğu gibi normal çizgisi
+olmadığı için onları nasıl tanımlıyordu
+ayrıcı yüzeyle dalgaların yaptığı açıya
+bakıyorduk Mesela ben sağ tarafa doğru
+böyle güzel güzel gelen bir su dalgası
+bir tane dalga tepesini temsil ediyorum
+bir atma olarak düşünelim bu arkadaş sağ
+tarafa doğru gelirken ayırıcı yüzeyle
+yani şu çapraz Duran yüzeyle yaptığı açı
+yani şurası i açısı gelme açısıdır bu
+arkadaş kırılmış Normalde bu kesikli
+çizgide olması gerekiyormuş daha ileriye
+gitmiş kırılmış doğrultusunu değiştirmiş
+olması gereken yerden daha ileride
+olduğu için Belli ki hızlanmış Çünkü
+derin ortama geçmiş gayet mantıklı İşte
+bu arkadaş kırılan dalga kırılan
+dalganın bu çapraz Duran ayırıcı yüzeyle
+yaptığı bu R açısı kırılma açısı olacak
+ol aktır gördüğünüz gibi R açısı i
+açısından büyüktür Çünkü ben bunun
+devamını çizsem şurası i açısı olur
+burada o çarpı var meşhur çarpı var
+şuraya Şura eşit olmalı e r dediğim yer
+çok daha büyük bir yeri kapsıyor r'den
+büyüktür Gelme açısı küçüktür kırılma
+açısı büyüktür aynı optikteki gibi sığ
+ortam çok indis derin ortam az indis
+demek hızlı olduğumuz yer demek çoktan
+aza geçerken normalden uzaklaşıyordu
+hatırlarsanız su dolu bir ortamım var
+suyun içerisinden bir Işın gönderdim
+kafama göre hava ortamına geçecek
+ayırıcı yüzeye dik normalim mi çektim
+çok indis az indis geçiyorum diye
+normalden uzaklaşacak şöyle falan
+gideceğim e şurası ne Gelme açısı şurası
+ne kırılma açısı çok indis az indis
+geçerken normalden uzaklaşırız kırılma
+açısı daha büyük olacaktır aynı
+dalgalarda olduğu gibi sorularımızı
+çözelim konuyu pekiştirelim ve dersimizi
+bitirelim bir dalga linde K bölgesinde
+oluşturulan atmanın L bölgesine geçiş
+anının üstten görünümü şekildeki gibidir
+L bölgesine geçen atmanın kırılma
+açısını arttırmak için işlemlerinden
+hangilerini yapmamız gerekir kırılma
+açısı ayırıcı yüzeyle yaptığımız açı
+yani buradaki Beta açısı bu arkadaş
+tamamen geçememiş yarısı geçmiş hala bir
+kısmı K ortamında
+l'yi diyebiliriz geride kaldıysam
+yavaşladım anlamına gelir şu geri kalan
+parçaya ayak uyduramadı İsam yavaşladım
+anlamına gelir o zaman k ortamı derin
+ortam L ortamı sığ ortam Alfa gelme
+açısıdır gelen en atmanın ayırıcı
+yüzeyle yaptığı açı Beta kırılma
+açısıdır kırılan atmanın ayırıcı yüzeyle
+yaptığı açı kırılma açısı daha büyük
+olsun diyoruz mesela her şey aynı
+kalırken bu adamın orijinal yerine daha
+Yakın olmasını istiyoruz o kadar geride
+kalmasa şöyle olsa mesela o zaman ne
+demiş olursun kırılma açısı daha büyük
+demiş oluruz yani yavaşlamış ama o kadar
+da geride kalmamış bu ortam çok da sığ
+değil derine yakın bir sığ olarak
+düşünmek mantıklı o zaman yani buradaki
+derinliğe atıyorum 30 cm desem buraya
+Normalde 15 cm demiş sallıyorum tamamen
+e burası 25 cm olsaydı birbirlerine daha
+yakın olurlardı optikteki gibi indisler
+yaklaştıkça kırılma azalır orijinalliği
+yakın oluruz indisler farklılaştı
+Aralarındaki fark arttıkça kırılma artar
+e Burada da aynı şey geçerli derin ortam
+var sığ ortam var Her yer aynı
+derinlikte olursa zaten kırılma olmaz bu
+fark oluştuk çaa kırılma oluyor fark az
+olursa kırılma az olur L ortamının
+derinliği arttırılmalı Evet L ortamı sı
+o kadar da sığ olmasın 15'ten 25'e
+çıkartalım olabilir ya da tersi K
+ortamının derinliğini azaltmak olur
+tamam Burası 25 olmasın 15 olsun burayı
+20'ye indirelim E yine yaklaştırdı yine
+orijinal yerimize yakın olacağız Bu da
+olur Gelme açısı azaltılmalı yani alfayı
+azaltmak diyor alfanın azalması demek
+bunun dik değil daha yatay gelmesi demek
+bu arkadaşı daha yatay göndersem
+herhalde şöyle falan göndermem gerekir E
+yine yavaş olduğum bir ortama geçeceğim
+için orijinalde böyle olmam gerekirken
+daha geride kalacağım şurası benim
+kırılma açım E ne oldu küçücük kaldı bu
+gibi şeylerde uç noktaları düşünün yani
+ben alfayı küçülttüm istediğini yaptım
+alfayı o kadar küçülte ki 0 yapayım ıır
+yapmak ne demek bu arkadaşı ayırıcı
+yüzeye paralel göndermek demek ya da
+Optik düşünürsem ilerleme doğrultusunda
+Işın gibi düşünürsem ayırıcı yüzeye dik
+göndermem demek E ne olacak Aynen
+geçecek gidecek simülasyonlu gibi Gelme
+açısı ısa kırılma açısı da 0 olur burada
+Alfa 0 Beta da 0 Aynen yoluna devam
+edecek sadece dalga boyu azalır ama
+doğrultu değişmez Dolayısıyla Gelme
+açısı azalırsa kırılma açısı da azalır
+Bu bizden artmasını istiyordu O yüzden
+üçüncü öncülü kabul eden demem 1 ve 2
+olacaktır bir dalga linde K ortamında
+oluşturulan doğrusal su dalgalarının L
+ve M ortamlarına geçişi verilmiş
+hangileri doğrudur Şimdi burada üç
+farklı ortam var Kim derin kim sığ
+anlamaya çalışalım K ortamından
+geliyoruz şurada bir yerde
+oluşturulduktan
+değiştirmesi böyle dümdüz geliyordu bu
+adam K'dan lye geçen şu kısım olması
+gereken kırmızı yerden daha ileriye
+gitmiş Demek ki ben burada K ortamına
+göre daha hızlıyım buradaki parçadan
+daha öne gitmişim bunun devamında M
+ortamı Şu kırmızı çizgide olmalıyım Ama
+bunun devamında bu kırmızı çizgide
+olamamış daha geride kalmış Demek ki M
+ortamında k'ya göre daha yavaş yavaşsa
+orası sığ ortamdır hızlıysan orası derin
+ortamdır O zaman ben bu derinlikleri
+kıyaslarsan l'nin derinliği K'dan büyük
+K'nın derinliği m'den büyük M en sığ
+ortam l'nin derinliği K'dan büyüktür
+Evet şimdi söyledim birinci öncülü doğru
+M ortamındaki dalgaların ilerleme hızı
+l'den küçüktür m Zaten benim en yavaş
+olduğum yer değil mi Aynen öyle l'den
+küçü küçüktür doğru 3üncü Öncül de diyor
+ki her üç ortamdaki dalgaların
+frekansları eşittir şimdi buradaki
+kaynak suya girip çıkıyor dalgaları
+oluşturdu onlara bir oluşma süresi
+kodladığı başına ne gelirse gelsin Bu
+bir daha değişmez oluşturulan adamın
+frekansı periyodu değişmez üçünün de
+frekansı periyodu eşit 3üncü öncülü
+doğru cevap 1 2 ve 3 olmalı geldik
+dersimizin son sorusuna tabanı düz olan
+su ile dolu dalga leğeninde üretilen
+doğrusal su dalgalarının üstten görünümü
+şekil 1'deki gibidir Buna göre Şekil
+2'deki görünümün elde edilebilmesi için
+A B C D E kenarlarından hangileri bir
+miktar yükseltilmelidir Bu durumun
+optikteki Serap olayıyla bir bağlantısı
+kurulabilir mi diye sorulmuş son dakika
+golünü atmış bakın sağ tarafa doğru
+giden adamlar bir şey yapılıyor bir şey
+değiştiriliyor ve böyle sola doğru
+kıvrılıyor fakat Keskin bir geçiş yok
+yani şöyle sağ tarafa doğru giderken bir
+anda böyle gitmeye başlamıyor sağ tarafa
+doğru giderken Önce şöyle oluyoruz Sonra
+şöyle oluyoruz sonra böyle oluyoruz
+nereden anlıyorum onu Eğer Keskin bir
+geçiş olsaydı şöyle bir ş olsaydı nasıl
+çizilmesi gerekirdi böyle güzel güzel
+sağ tarafa doğru giderdin sonra hep
+beraber şöyle çapraz yukarıya doğru
+giderdin buradaki dalga boyu hesabıyla
+buradaki dalga boyu hesabı Tabii ki eşit
+olurdu ama benim çizimim de öyle bir şey
+yok buradaki dalga boyu daha küçük
+buradaki dalga boyu daha büyük kaynak
+hep aynı çalışıyorsa frekans periyotta
+bir değişiklik yok lambda eşittir hız
+bölü frekans frekans sabit dalga boyumun
+azaldığı yerlerde hızım azdır üst
+kısımda dalga boyu az olduğuna göre bu
+kısım komple sığ bir ortamdır bu kısım
+komple derin bir ortamdır diyebilirim
+yani bunu bir araba gibi düşünün
+arabanın dör tane tekerleği var şöyle
+yandan çiziyorum böyle dümdüz bir yolda
+giderken yolun şu kısmında üst kısmında
+çamur var alt kısmı beton asfalt üst
+kısmı çamurlu üstteki lastikler çamurlu
+kısma girdiğinde yavaşladığında Bu araba
+dümdüz gidemez bunu Hayal etmeye
+çalışırsanız arabanın döneceğini
+görürsünüz burada dalgalarım başına
+gelen de o üst kısım yavaşlamış diğer
+kısım hızlı olduğu için bükülme
+gerçekleşmiş üst kısım nasıl sığ
+olabilir kenarları yükselt diyordu Eğer
+ben C kenarının altına bir takoz
+koyarsam Yani orayı kaldırırsam şuradan
+bakan bir göz için kesitten çizeyim size
+bunu şöyle çapraz durduğunu Hayal
+etmeliyiz masanın bunun altına bir
+yükselti koyduk bir takoz koyduk suyumun
+seviyesi Tabii ki dümdüz duracak şöyle
+falan durmalı yere paralel olmalı
+Dolayısıyla Burası sığ Burası derin
+Burası C kenarı Burası a kenarı C'nin
+altına bir yükselti koymamız gerekiyor
+Bunun optikteki Serap olayıyla Ne ilgisi
+var optikteki Serap olayında da gençler
+bir a takaki bir elmayı izleyen bir
+çocuk bir göz Bunu direkt böyle
+göremiyordu bu elmadan çıkan ışınların
+şöyle bir rotadan gittiğini düşünmüştük
+göz Bu elma sanki aşağıda bir yerdeymiş
+de ışınlar oradan geliyormuş gibi
+algılarda Çünkü göz kırılmayı yansımayı
+algılayamaz gözüne nasıl geliyorsa orada
+zanneder Dolayısıyla Yukarıdaki elmayı
+aşağıda görür Serap olayı Işık neden
+böyle dümdüz gitmiyordu da böyle bükülü
+oldu çünkü orada indis farkı vardı
+aşağısı sıcaktı asfalt çok sıcaktı
+yukarıya doğru çıktıkça hava soğu
+uyuyordu sıcak Demek az indis demekti
+soğuk demek çok indis demekti katman
+katman yukarıya doğru gittikçe çok indis
+gittiğimiz için Işık böyle bükülü oldu
+çünkü Sürekli ortam değiştiriyordu e
+Aynı şey Burada da var C sığ ortam a
+derin ortam C çok indis a az indis
+sıcaktan soğuğa katman katman indis
+nasıl artıyorsa derinden sığa katman
+katman bir değişim var Dolayısıyla
+dümdüz gitmesi gereken dalgalarım
+bükülerek gidiyor gençler aynı optikteki
+gibi Böylece su dalgalarını bitirmiş
+oluyoruz bir soru çözümü yapacağız ve
+koyacağız takılarınızı alta yazın
+Kendinize iyi bakın
+[Müzik]
+görüşürüz

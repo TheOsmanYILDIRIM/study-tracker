@@ -1,0 +1,841 @@
+gençler Merhaba son dersimizde
+elektroskobu öğrenmiştik bir madde yüklü
+müdür yüksüz müdür yüklüyse Hangi cins
+işaretle yüklüdür bunlara bakmıştık
+şimdi o maddelerin detayına bakacağız
+İletken madde nedir Yalıtkan madde nedir
+Bunları öğreneceğiz Daha sonrasında bu
+bizi Faraday kafesine götürecek ve en
+sonunda da topraklamaya bakıp dersimizi
+bitireceğiz Öncelikle iletken ve
+yalıtkan maddelerde yük dağılımı nasıl
+olur Bunu bir konuşalım ondan da önce
+iletken ne demek yalıtkan ne demek Bunu
+konuşalım zaten isimlerinden belli
+iletken ileten Neyi ileten üzerinden
+yüklerin geçişine izin veren yükleri
+ileten elektrik akımına müsaade eden
+maddeler Bunlar şöyle bir atom çekirdeği
+Hayal edelim Proton olsun nötron olsun
+bu ne etrafında elektronların bulunduğu
+yerleri çizelim Şimdi iki tane atom
+modeli çizdim buraya bunlardan bir
+tanesi iletken atomu Öbürü de yalıtkan
+atomu bu çekirdeğin etrafında
+elektronlar var biliyorsunuz buralarda
+var işte şuralarda var kimyada 28 diye
+öğreniyorsunuz bunları bizi ilgilendiren
+şey son yörüngedeki elektron mesela şu
+arkadaş aynı şekilde yalıtkanlarda da
+var elektronlar bizi ilgilendir son
+yörüngedeki elektron Yani bu arkadaş bu
+elektronlar neden çekirdeğin
+etrafındalar Çünkü çekirdek dediğiniz
+şey pozitif işaretlidir Proton
+pozitiftir nötron lüksüzdür o zaman
+çekirdeğin tamamı düşünüldüğünde pozitif
+işaretidir artı işaretidir diyebiliriz
+elektronlar ise bildiğiniz üzere eksi
+işaretlidir ve artı eksiyi çeker Yani
+bunların arasında bir elektromanyetik
+kuvvet var Eğer maddenin iletkense onun
+atomlarının son yörüngesindeki
+elektronlar çekirdeğe çok zayıf bağlıdır
+Yani bu artı eksi çok az bir kuvvetle
+çekiyor olarak düşünebiliriz Dolayısıyla
+buradaki elektron serbest elektron
+olarak geçer bir dış etkiye maruz
+kaldığında madde mesela iletken bir
+bakır tel düşünün pile bağlarsanız o
+iletken bakır telden elektrik akımı
+geçer yani elektron hareketi vardır İşte
+buradaki elektron Normalde bu çekirdeğin
+çevresinde dolanırken bir dış zorlamaya
+maruz kaldığında bir pil gibi buradan
+başka bir atomu atlayıp onun çevresine
+dönmeye başlayabilir oradan başka bir
+atoma geçebilir böyle böyle madde
+içerisinde ilerleyebilir Çünkü neredeyse
+serbest o kadar zayıf bağlı ki bu
+çekirdeği çok muhatap al olarak
+düşünebilirsiniz işte bu yüzden bunlar
+iletken elektronlar rahatlıkla hareket
+edebiliyor ama yalıtkanlarda dış
+yörüngedeki bu elektron serbest elektron
+olarak geçmez Çünkü çekirdek bunu baya
+kuvvetli çeker en dış yörüngedeki
+elektron çekirdeğine sıkı sıkıya
+bağlıdır Siz buna dışarıdan pil bile
+bağlasanız bir zorlamaya bile maruz
+kalsa gitmek için yandaki atoma başka
+bir atoma hiçbir şekilde gidemez bu
+çekirdek onun gitmesine izin vermez İşte
+bunlar yalıtkandır üzerlerinden elektron
+geçişine izin vermezler Bakır altın
+gümüş alüminyum gibi maddeler iletken
+maddeler Bunlar elektriği de iletirler
+ısıyı da iletirler ikisi de aşağı yukarı
+zaten serbest elektron mantığına
+dayanıyor yalıtkan maddelere örnek ise
+plastik tahta cam kauçuk gibi örnekler
+verilebilir Bunlar da aynı şekilde
+elektriği kötü iletirler Hatta
+iletmezler yalıtkanlar ısıyı da iyi
+iletmezler aynı zamanda ısı
+yalıtkandırırlar diyebiliriz iletkenleri
+bölgesel olarak elektrikleyemiyoruz ama
+yalıtkanları bölgesel olarak
+elektrikleyebiliyoruz önceki
+derslerimizde plastik çubuğu yün kumaşa
+sürttük sadece sürttüğümüz yerler
+elektriklendi eksi al bugün kumaştan
+sadece sürttüğüm yerler eksi aldım
+Burası eksiyle yüklendi her yer değil
+Çünkü bu yalıtkan buradaki elektron
+diğer uca gidemiyor madde ona izin
+vermiyor ama bu bir metal olsaydı ben
+bunu metal iken yün kumaşa sürtseydim
+yine elektriklenirdi yine burada eksiler
+olurdu fakat o eksiler malzeme iletken
+olduğu için hemen her yere dağılırdı
+Çünkü geçişe izin var Eksi eksiği iter
+Bunlar burada nasıl kalsınlar O yüzden
+biz bu deneyleri yaparken işte küçük
+küçük Kağıt parçalarını çekeceksek
+yalıtkanlarla yaparız iletkenle yapmaya
+kalksam her yere hemen dağılır Hatta
+elimle tuttuğum için elimin üzerinden
+topraklama vasıtasıyla nötrlenir
+diyebiliriz Şimdi hemen Bununla ilgili
+bir deney yapalım elimde plastik bir top
+var yalıtkan bir malzeme sadece
+sürttüğüm yer elektriklenir Diğer elimde
+de küçük Kağıt parçaları var Ve böylece
+onları çekebileceğiz Eğer söylediklerim
+doğruysa sadece sürttüğüm yerlerle ben
+bu kağıt parçalarını çekebilirim diğer
+yerlere çekemem bunu tişörtüme
+sürtererek elektrikle yüklüyorum Kağıt
+parçalarına tuttuğumda nasıl çektiğini
+görüyorsunuz Şimdi tam arkasıyla yani
+sürtmediğim tarafıyla Kağıt parçalarını
+çekmeye çalışırsam hiçbir hareket yok
+Çünkü orası elektriklenmedi Çünkü
+buradaki elektronlar sadece orada
+kaldılar top yani Plastik yük geçişine
+izin vermiyor çünkü yalıtkan negatif
+yüklü iletken k ile nötr iletkenle
+küreleri alüminyum zemine ve tahta
+zemine konulurlarsa yük dağılımları
+Nasıl olur bu iki şeklinde farkı var
+Birinde alüminyum zemin var öbüründe
+tahta zemin var alüminyum zemin iletken
+tahta zemin yalıtkan eksiyle yüklenmiş
+bir cismi K cismini iletken bir yüzeye
+koyarsan ve o iletkenin bir tarafında da
+L cismi varsa sanki bu küreler birbirine
+dokunmuş gibi yük paylaşım olacaktır
+Dolayısıyla K eksilerinin bir kısmını l
+ile paylaşacaktır l'de eksi ile
+yüklenecektir diyebiliriz Çünkü bu
+alüminyum yüzey yük geçişine izin
+verecektir tabi çizerken şuna dikkat
+ettim buradaki eksi miktarı ile buradaki
+eksi miktarı aynı değil çünkü önceki
+dersimizde öğrendik biliyorsunuz toplam
+yük ka'dan geldi o toplam yükü
+paylaştılar mecburen Kaya düşen payda
+Başlangıca göre daha az olacaktır Peki
+bunları tahta zemine koysaydık yine K
+eksisi lenotur bu tahta zemin yük
+geçişine izin için koyduğumuz gibi geri
+alacaktık K yine yoğun bir şekilde
+eksiyle yüklü şurada Ne kadar varsa
+burada da o kadar var LD yine aynı
+şekilde nötr kalacaktır diyebiliriz
+şimdi bu iletken işini biraz daha
+kurcalayalım mesela içi boş iletken bir
+küre düşünelim kabuk dediğimiz şekil
+Aslında bu bir küre kabuğu şurası çok
+abartılı bir açıklık içeriye cisim
+sarkıtacağımız için orada ufak bir
+açıklık olması lazım Fakat bunun çok
+küçük olduğunu şeklini aslında bir küre
+olduğunu vurgulamalıyız şimdi bunun
+olayını anlamak için önce şunu anlamamız
+lazım bu bir iletken küre ben bu iletken
+kürenin tam ortasına şöyle 5 tane eksi
+yük bıraksam ne olur hepsi birbirini
+itiyor mümkün olan en uzağa kaçacaklar
+kaçabilecekleri en uzak yer neresi Olur
+tabii ki bu kürenin en dış yüzeyi olur
+Ne kadar uzak o kadar iyi Bunlar burada
+kalamayacaklardır diyelim ki içeriye 5
+tane daha eksik koydum bunları
+bıraktığım anda yine eksi eksiği yeter
+mümkün olan en uzağa kaçacaklar mümkün
+olan en uzak yerkürenin en dış yüzey
+olacaktır bunları da buralara böyle
+yerleştirebiliriz Dolayısıyla ne
+koyarsak koyalım iletken kürede ya da
+küre olmasına iletken bir cisimde yükler
+her zaman en dışta toplanır Çünkü yükler
+birbirini iter Bu da ne anlama geliyor
+iç kısımda yük sıfır anlamına geliyor
+kürenin içerisinde yük toplayamazsınız
+anlamına geliyor orada yük barınamaz
+anlamına geliyor bu bir yalıtkan olsaydı
+olurdu yalıtkan bir kürenin içerisine
+bir tane artı yük koyarsınız o orada
+kalır veya bir tane eksi yük koyarsınız
+o orada kalır Niye Çünkü bu bir yalıtkan
+Bu eksinin buraya gitmesine izin veren
+bir madde değil ama iletkende içerde yük
+0 bu bizim için önemli Şimdi ben sondaki
+şekilden başlayacağım Bu kabuğumuzun
+içerisine yüklü bir L cismini
+getiriyoruz dokunduruyoruz diyelim ki
+eksi yüklü bir cisim olsun bu L cismi
+Hatta -q yüke sahip olsun Şu an kürenin
+içine dokunuyor Az önce ne dedim içerde
+yük barınamaz mümkün olan en uzağa
+gidecekler mümkün olan en uzak ne demek
+bu kürenin en dışı demek herkes giderse
+içeride yük barınmazsa O zaman artık
+leğen Nedir o zaman L artık nötrdür -q
+vardı o nereye gitti o dışarıya gitti şu
+an biz ka küresinin dışını eksi q ile
+yükledik L Küresi nötr'e dönüştü
+diyebilir bütün yükünü verdi hocam iki
+tane küreğe dokundurunca Hani
+yarıçaplarına göre paylaşıyorlardı o
+dıştan dokundurunca içten
+dokundurduğumuzda daha farklı bir durum
+var içten dokunan adam nötrlenir çünkü
+iletkenlerde içeride yük
+barındıramazsınız bunlar zaten birbirine
+dokununca tek bir cisim gibi
+düşünülebilirler İçerisi dediğim şey
+artık bu L küresini de içeriyor k ile
+l'yi kafanızda böyle tek bir cisim gibi
+düşünebilirsiniz L de İçeride olduğu
+için onun da yükü kalmaması gerekiyor
+nötr olması gerekiyor dıştan
+dokundurursam işte Zaten bu bizim
+bildiğimiz Aşina Olduğumuz şey eksi q
+yüklü L cismini dıştan dokunduruyorum
+dışarıda bir sıkıntı yok yine kaçacaklar
+birbirlerinden yine dışarıda duracaklar
+İşte bu sefer Aşina olduğumuz gibi yarı
+çapları oranında paylaşacaklar
+diyebiliriz diyelim ki kümesi iki ra
+yararı çaplı L Küresi R ayarı çaplı K
+başlangıçta nötr haldeydi o zaman toplam
+yükümüz ne l'den gelen eksi q k’dan bir
+şey gelmeyecek toplam kapasitemiz nedir
+3redir bu da R başına eksi q/3 düşüyor
+demektir Bu arkadaşın getirdiği eksiler
+en dışta olacak bu şekilde böyle
+dağılacak L de tabii ki bundan nasibini
+alacak l'ye düşen -q/3 kadar olacak k'ya
+düşen -2 q/3 kadar olacak diyebiliriz
+Peki bu iç bölge iç bölgede yük var mı
+iç bölgede yük Yok iç bölge yine
+nötralde Şimdi geldik bu şekle L cismini
+içi boş küremize sarkıtıyoruz
+değdirmiyoruz -q yüklü bu arkadaş burada
+etkili elektriklenme olacaktır eksi
+sarkıttığım için artıları yakınıma
+çekeceğim eksileri de mümkün olan en
+uzağa iteceğim diyebilirim Dolayısıyla
+kümesinin içi artıyla yüklenir dışı
+eksiyle yüklenir Hocam siz şu an K'nın
+içini yüklediniz Hani Burası hep nötr
+oluyordu artıyla yüklediğiniz adamı bu
+Az önceki ile aynı değil L cismi k'ya
+içten dokunmuyor şu an L cismi bir dış
+etki kayaya dokunsaydı K'nın bir parçası
+olacaktı İçerisi her zaman nötr olduğu
+için de L de kendini nötrleyecektir
+bütün yükünü verecekti Şu an sadece bir
+dış Etki olarak içeriği zorla cebren
+hile ile artı olarak tutuyor ve Aslında
+yine de kuralları çiğnemiyoruz Ben ne
+dedim iletken kürenin içerisinde yük
+barınmaz Q3 sıfırdır Şimdi ben buraya
+eksiq sarkıttıysam buradaki artıların
+toplamı ne biliyor musunuz artık buranın
+içini dikkate aldığımda bir bütün olarak
+baktığımda -q artık q yine içeride Ne
+var içerde toplam sıfır var Bu da bana
+neyi gösteriyor dışarıda da eksi q
+olması gerektiğini gösteriyor Neden
+Çünkü K en başta ne türdü ona Kimse
+değmediğine göre nötr kalmaya devam
+etmeli içeride artık q varsa dışarıda da
+eksik q olmalı ki toplam K Küresi hala
+nötr kalmaya devam etsin yani ben
+içeriye -q sarkıttığım zaman artık q'yu
+çektim -q'yu da dışarıya ettim
+diyebilirim Aa hocam O zaman şöyle mi
+oluyor Biz önceki derslerde etkili
+elektriklenme öğrendik İki tane cisim
+birbirine yaklaştırıldığında Hatta şöyle
+yapalım bu arkadaş nötr olsun bu arkadaş
+eksiyle yüklü olsun -q diyelim Buna da
+ne yapacaktır nötr'e yaklaştırdığımda
+artıları yakında toplayacaktır eksileri
+de uzağa itecektir eksi q
+yaklaştırdıysak o zaman burası artık q
+kadardır hocam Hayır değildir kendisi
+kadar çekemez kendisi kadar çekse saçma
+sapan bir durum elde ederiz nasıl bir
+durumdan bahsediyorum şu an artı q
+çektiğini düşünelim Ben bunu biraz daha
+yaklaştırırsam yükler birbirine yaklaştı
+etkileşim artar ne yapacağım kendimden
+daha büyük mü çekmiş olacağım yani artı
+bir nokta 5q mu çekeceğim kendimden daha
+fazlasını çekemem dolayısıyla böyle bir
+şey Mümkün olmaz etkili elektriklenme de
+şu örnekte Kendinden daha azını çekersin
+-2o yaklaştırdıysan atıyorum 0.6
+q çekersin artı olarak E hocam Kendinize
+çelişiyorsunuz burada eksik q +q çekti
+burada niye olmuyor burası kapalı yüzey
+kapalı yüzeylerde İçerisi toplamda hep
+sıfır olacak ve kapalı yüzey olduğu için
+telafi etme ihtimali var Şunu demek
+istiyorum Sen bu küreyi buraya getirsen
+bu kısımda daha fazla artı toplarsın ama
+ters tarafta da daha az artı toplarsın
+buraya getirsen şu kısımda daha fazla
+artı toplarsın Ama burada da daha az
+artı toplarsın yani toplamda simetri
+olduğu için şeklin içerisinde hep artık
+q'yu toplayabiliyorsun Ama burada öyle
+bir şey yok Sen bu arkadaşı göndersen
+uzağa burada topladığın artı miktarı
+azalıyor e Onu nereden tarif edeceksin
+Burası simetrik kapalı bir sistem değil
+Ama burası öyle O yüzden bu iki şekli
+birbirine karıştırmayın çok kafa
+karıştırmadan buradan çıkarmamız gereken
+en önemli sonucu söylememiz lazım ister
+dokundurun İster sarkıtın ne yaparsanız
+yapın içeride her zaman toplam yüksek
+sıfırdır içten dokundursam da 0 oldu
+dıştan dokundursam da içeride toplam
+yüksek sıfır oldu içeriye bir şey
+sarkıtsam da içeride toplam 3-0 oldu
+çünkü
+q hiç her zaman sıfır Paratoner diye bir
+şey duymuşsunuzdur özellikle
+gökdelenlerin kulelerin yüksek binaların
+tepesine böyle ince uzun bir tel
+takarlar niye Yıldırım düştüğü zaman ona
+gelsin diye Yıldırım Niye ona geliyor
+Yıldırımlar neden sivri uçuyorlar Çünkü
+iletkenlerin sivri uçlarında diğer
+yerlere göre daha çok yük birikiyordu
+ondan Oraların daha fazla yük kapasitesi
+var bu yüzden Yıldırım oraya düşüyor
+mesela burada simetrik bir küre
+görüyoruz burada bir ucu daha sivri bir
+şekil görüyoruz Şuradaki yük
+yoğunluğuyla buradaki yük yoğunluğu aynı
+değil fark ettiğiniz gibi burada yük
+yoğunluğu daha fazla sivri uçlarda daha
+çok yük birikiyor peki neden böyle
+oluyor bunun mantığı nedir şöyle
+düşünebiliriz iki tane küre düşünelim
+Bir tanesi R yarıçaplı olsun Diğeri 2r
+yarıçaplı olsun Şimdi dokunmayla
+elektriklenmede bu kürelerin
+taşıyabileceği yük miktarının
+yarıçaplarıyla orantılı olduğunu
+söylemiştim yani ben bu arkadaşı artık q
+yüklesem bunu da artı 2q ile
+yükleyebilir bunları dokundurup ayırsam
+böyle bir paylaşım Olabilir Peki Sizce
+bu artıları buraya dağıtsam hangisinde
+daha yoğun durur soldakinde mi daha
+yoğun olur sağdakinde mi daha yoğun olur
+hocam aynı olur Çünkü E tamam Sağdaki
+daha büyük ama sağdakinde de daha çok
+yük var olmaz neden buradaki küreleri 3
+boyutlu Hayal etmelisiniz ve yükler o
+yüzey alanına dağılıyorlar geometreden
+hatırlayın kürenin yüzey alanı 4 pi
+r²'dir R ayarı çaplı o zaman bunun yüzey
+alanına Ben 4A desem şurası 4 pi 2 r'nin
+karesinden 16p karedir yani 16A
+q yük 4 aralık alana dağılmış iki q yük
+16 a'lık alana dağılmış büyük iki katına
+çıkmış ama alan 4 katına çıkmış
+Dolayısıyla bu kürede büyük kürede
+Güçler birbirinden daha uzak yük
+yoğunluğu daha az hocam sivri uçla
+küreninle ilgisi var şöyle bunu kocaman
+bir küre gibi düşünebilirim üstünde yük
+yoğunluğu daha az bu sivri kısmı da daha
+küçük bir küre gibi düşünürüm yük
+yoğunluğu daha fazla sivri uçlarda yük
+yoğunluğu daha fazladır nötr iletken Z
+cismi şekildeki gibi içi boş nötr
+iletken y cismini iletken bir telle
+dışarıdan bağlanmış durumdayken negatif
+yüklü x cismi y küresinin içerisine
+sarkıtılıyormuş diyor ki Z küresini yük
+işaretini bulunuz Şimdi burada herkes
+nötr Z'den ötürür y'den ötürür sadece x
+eksi ile yüklenmiş sarkıtma durumu var
+Eksi sarkıttıysam iç kısımda artı
+toplarız dış kısımda da eksi toplarız
+eksileri mümkün olan en uzağa gider
+Hatta Sayısal değer verelim Ben buraya
+-q dağıttıysam içeride artık q topladım
+dışarıda da eksik q topladım Z Küresi
+ile y Küresi bir telle birbirine
+bağlanmışlar Dolayısıyla birbirlerine
+dokunuyorlar gibi düşünebiliriz bu adam
+Başlangıçta ne türdü aslında şu an Z
+Küresi de bu y'nin dıştan bir parçası
+gibi değil mi Aynen öyle o zaman bu
+eksilerden bu da nasibini alacak Z'de
+eksi ile yüklenecektir diyebiliriz Çünkü
+y'nin bir dış uzantısı gibi arkadaş
+Z'nin yük işareti eksi olacaktır x
+Küresi y küresine içten dokundurulursa
+Z'nin yük işaretini bulunuz içten
+dokundurursam burada çok bir şey
+değişmez aslında Sadece x tamamen nötr
+olmuş olur bütün eksi yükünü vermiş olur
+ve onlar da yine dışarıda toplanır yine
+yeğenin de dışı eksi olur Z'nin de dışı
+eksi olur sarkıtmayla Dokunma arasında
+işaret bakımından sadece x değişiyor x
+eksiği nötr oluyor Z yine - işaretli
+olur C şıkkında diyor ki her iki durumu
+için Z küresinin yük miktarını
+kıyaslayınız şimdi şuraya biraz
+temizleyelim ben buraya eksi q sarkıttım
+içerde artık q topladım dışarıda eksik q
+topladım aslında y Küresi hala toplamda
+yeğenin dıştan bir parçası olduğu için
+bu eksi q'yu paylaşacaklar görüntü öyle
+demese de hesap kolaylığı olsun diye
+buna R Yarıçap diyorum Buna da R Yarıçap
+diyorum bu eksi q'yu o zaman eşit
+paylaşacaklar Z'ye -q/2 düşer Y'ye de
+eksik q/2 düşer diyebiliriz Çünkü bunu
+dokundurursam ne değişir ben bu ikisi
+dokundurduğumda İçerisi nötr olmak
+zorunda olduğu için içerideki toplam
+yükün sıfır olması gerektiği için bu -q
+nötrlenecektir sıfır olacaktır nereye
+gidecek bu eksik q dışarıya gidecek
+zaten dışarıya -q gitmemiş miydi
+başlangıçta da Evet yine bu dışarıdaki
+eksik q'yu Z ve y paylaşmayacak mı Evet
+yarıçapları eşit değil mi Evet o zaman
+yine eksik q/2 eksik q/2 olacaktır bir
+şey değişmeyecektir Z için Tek fark ne
+oldu Tek fark görüntüde oldu burada -q
+varken şurada artı q vardı ikinci
+durumda Burası komple nötr oldu dışarısı
+hep eksik q olmaya devam etti Son
+durumda da ilk durumda da dolayısıyla
+her iki durum için Z küresinin yük
+miktarı eşit olacaktır Şimdi geldik bu
+anlattıklarımızın gerçek hayattaki
+karşılığını iletkenlerin iç kısmında yük
+barındıramıyoruz ve biz buna Faraday
+kafes ediyoruz bakın şurada bir Tesla
+bobini var Tesla bobinine ayt'de
+öğreniyorsunuz oldukça yüksek bir
+elektrik enerjisi etrafına dağıtan bir
+alet olarak düşünülebilir o kadar yüksek
+elektrik enerjisi dağıtıyor ki Şuradaki
+iletken metal çubuktan Yıldırımlar
+çıkıyor gibi düşünebilirsiniz Ve bu
+Yıldırımlar doğrudan şu arkadaşın
+üzerine doğru geliyor Normalde çarpılıp
+ölmesi lazım ama ölmüyor Neden Çünkü
+iletken kapalı bir yüzeye hapsetmiş
+Kendini tamamen kapalı bir yüzey içine
+girerse iletken bir yüzeyden
+bahsediyorum içeriye elektrik nüfuz
+edemez Çünkü içerde yük miktarı sıfır
+korunmuş olursun dış etkilerden korunmuş
+oluruz Bu yüzden uçaklara yıldırım
+düşerse içerideki yolculara elektronik
+aletlere hiçbir şey olmuyor asansörde Bu
+yüzden telefonlar çekmiyor yüksek
+gerilim hatlarında çalışanlar Bu yüzden
+örgülü kıyafet giyiyorlar metalden
+adamlar çelik yelek gibi komple iletken
+metal giyiyorlar uçak dediğin şey komple
+kapalı bir metal kutu asansör dediğin
+şey komple kapalı bir metal kutu
+Yıldırım düşse bile içeriye Bu yüzden
+nüfuz edemiyor Uçaklarda veya bir
+arazidesiniz hava bozdu Fırtına çıktı
+Yıldırım Düşmek üzere ne yapabilirsiniz
+bir çöp kovası bulursanız metalden Bir
+konteyner bulursanız içine girin
+kapağını kapatın hiçbir şey olmaz ya da
+daha temiz bir versiyonu Arabanız varsa
+arabanın içine girin o da bir Faraday
+kafesi görevi görecektir Faraday
+kafesini bir deney üzerinden biraz daha
+detaylı anlayalım bakın burada bir
+oyuncağımız var Benjamin Franklin
+Benjamin Franklin sırtına böyle pelerin
+gibi ince şeritler halinde alüminyum
+folyolar takılmış iletken kolaylıkla
+yüklenebilen malzemeler burada bir
+vandall jeneratörü var içeride bir kayış
+var o döndükçe sürtünmenin etkisiyle şu
+küreyi elektrikle yüklüyor eksiyle veya
+artıyla çok önemli değil ama çok büyük
+miktarda yüklendiğini söyleyebiliriz
+etrafındaki cisimleri etkileyecek kadar
+Örneğin Şu an bunun çalıştırmaya
+başladığımızda Benjamin Franklin'in
+pelerinin uçuştuğunu görüyoruz Çünkü şu
+an bu pelerini etkiyle elektrikli
+buradaki jeneratör niye Rüzgar çıkmış
+gibi oluyor şundan dolayı diyelim ki bu
+jeneratör eksiğiyle yüklü olsun buradaki
+nötr folyolarda artıları yakınına
+çekiyor eksileri uzağa atıyor şimdi bu
+eksiler birbirlerini itiyorlar
+birbirlerini ittikleri için bu saçaklar
+açılıyorlar Bu da sanki Rüzgar çıkmış da
+uçuşuyormuş havası veriyor aynı
+elektroskop gibi elektroskopta
+yüklendiği zaman yapraklarını açmıyor
+muydu Bu saçakları da öyle
+düşünebilirsiniz veya buradaki kızcağıza
+bakın metal küreyi tuttu şu an bütün
+vücuduyla Aslında elektrikleniyor
+saçları da uçuşmaya başlıyor Çünkü
+aslında şu an bir elektroskop gibi
+davranıyor buradaki Van dergraf eksi ile
+yüklüyse dokunmayla elektriklenme
+gerçekleşiyor Kızın saçları da eksi ile
+yükleniyor eksi eksi ittiği için bu
+saçlar uçuşuyor bizim deneyimizde
+uzaktan oluyor bu etki burada dokunarak
+oluyor ama aynı şeyler geçerli şimdi bu
+Benjamin Franklin oyuncağını bu
+jeneratörden etkilendiğini gördük acaba
+etkilenmeyebilir mi eğer etrafına bir
+Faraday kafesi koyarsan Evet Bakın şimdi
+Hoca alüminyum folyoyu önce aşağıya
+koyuyor çünkü hiçbir Kaçak olmaması
+lazım Onun üzerine oyuncağa koydu onun
+üzerine de Faraday kafesini yerleştirdi
+hocam Hiçbir Kaçak olmaması lazımdı
+dediniz buradaki kafes delik deşik
+Önemli olan kapalı bir yüzey olması dış
+sistemle bağlantının olmaması buradaki
+delikler buradan yayılan elektromanyetik
+Dalgalara göre küçük kaldığı için
+herhangi bir problem oluşturmuyor bakın
+jeneratör yine çalışmaya başladı
+jeneratörün çalıştığını göstermek için
+kafesin dışında da böyle saç var ve
+onlar da uçuşmaya başladı ama bak
+içerideki oyuncağı görüyor musunuz sıfır
+hareket Çünkü şu an bir Faraday kafesin
+içerisinde içerde yük barınamaz yük
+barınamadığı için de içeride herhangi
+bir hareket yoktur Peki bunu mantığı ne
+mantığını açıkladım içeride yük Yok daha
+açıklayıcı versiyonda şu bakın kafes
+eksiyle yüklü güzel bakın jeneratör
+eksiğiyle yüklü ve Bayağı da güçlü
+etrafını etkiliyor bu kafeste iletken
+kafes iletken olduğu için ne yapacak
+artıları yakınına çekecek kafeste ama
+dışarıdan eksileri de uzağa itecek Hatta
+buradaki saçakları uçuşturan şey de bu
+eksiler O saçaklar da eksiyle yükleniyor
+Az önceki kızın saçları gibi oluyor
+şimdi Normalde buradaki oyuncak nötr ama
+daha kolay anlamanız için ona bir yük
+atayım diyelim ki artı işaretli olsun
+Şimdi jeneratör eksiyle yüklü olduğu
+için bunu kendine doğru çekiyor Bir
+kuvvetle Ama buradaki artılarda itiyor
+Hatta şu eksiler de buna yardımcı oluyor
+bu ikisinin toplamı bunun kadar olduğu
+için burada hiçbir hareket olmuyor
+olayın mantığı budur Şimdi bir de
+asansörde telefon çekmeme mevzusunu evde
+kendi şartlarımız da deneyelim bakın
+telefondan Kendimi arıyorum ve şu an
+telefon gayet de çalıyor gördüğünüz gibi
+kapattım durdu Yanda bir alüminyum folyo
+var Ben bunu alüminyum folyoya sarıp
+Aynı işlemi bir daha tekrarlayacağım
+alüminyum folyo iletken Dolayısıyla şu
+an güzel kapatabilirsem bir Faraday
+kafesi görevi görecek tamamen Kapattım
+şimdi bir daha arayacağım bir daha
+arıyorum
+duydunuz Aradığınız kişiye şu an
+ulaşılamıyor çünkü sinyaller bunun içine
+giremiyorlar o telefonu çaldıracak
+sinyaller paraday kafesine takılıyorlar
+diyebiliriz şimdi daha da tuhaf bir şey
+göreceksiniz açtım kafesi tekrar
+arayabilirim telefon çalacak yani
+gördüğünüz gibi telefon çalıyor çalarken
+kapatırsam ne olur çalarken kapatırsam
+çalmaya devam eder Tuhaf olan şey şu;
+ben telefondan kapat düğmesine bastığım
+halde çalmaya devam eder sesi
+duyuyorsunuz kapattım hala duyuyorsunuz
+Çünkü bu sefer de telefon çalarken kapat
+düğmesine bastığımda telefonun kapanması
+için sinyal girmesi lazım telefona yine
+Faraday kafesinde yine giremiyor
+Dolayısıyla telefona kapat komutu
+gitmiyor telefonda çalmaya devam ediyor
+Evet geldik son kısmımıza yani
+topraklama kısmımıza bunu Aslında
+elektroskop dersimizde Az buçuk
+değinmiştik topraklamak demek yüklü bir
+cismi dünyaya bağlamak demek fakat şöyle
+bir durum var İki tane kürenin dokunması
+gibi kürelerden biri R yarıçaplı diğer
+küre bunun yanında sonsuz R ayarı çaplı
+kabul edilebilir yani dünyanın
+boyutlarının yanında bizim günlük
+hayattaki cisimlerimiz o kadar küçük ki
+yok hükmünde E biz ne yapıyoruz diyelim
+ki bunda artık q var dünyanın nötr Tamam
+toplam yükümüz artık q bunu paylaşacağız
+kimin yarıçapı daha çoksa O daha çok
+alacak adam da sonsuz yarı çap var
+burada bir paylaşım olmaz hepsini o alır
+toprağa bağlanan yüklü cisimler
+nötrlenir gençler ister artı olsun ister
+eksi olsun Toprak cisimlerin ötürler
+bakın eksi yüklü bir cismimiz var Şu
+Toprak sembolüdür toprağa bağlanmış nötr
+hal geçecek nötr hale nasıl geçer
+fazlalık elektronlarından kurtulması
+lazım O fazlalık elektronlar toprağa
+gider diyebiliriz bütün elektronları
+gitmiyor nötr hale geçiyorsa içeride
+artı eksi eşit miktarda olduğunu
+biliyoruz Hocam niye bütün elektronlar
+gitmiyor Sonuçta dünyaya bağlı bütün
+elektronlar gitsin dünyaya bağlılık da
+burada da artılar var bütün eksilerin
+gitmesine müsaade etmeyen artılar Bunlar
+sadece nötr hale gelirsin sadece
+fazlalıkları verirsin Eğer artı
+yüklüysem ne olur yine ben nötrleneceğim
+burada artı fazlalığı var nötr hale
+geçmem için yeni elektronlar gelmesi
+lazım yani topraktan dünyadan cismimizi
+elektronlar gelir bu fazlalık artıları
+da nötrler Dolayısıyla cismimiz nötr
+hale gelir günlük hayatta prizlerimizde
+şu metal kısımlar topraklama
+kısımlarıdır elektrik tesisatlarında
+Toprak hattı Bulunur o toprak hattı da
+şu an sağ tarafta gördüğünüz gibidir
+bayağı burada kalın uzun bakır bir kazık
+var o bakır kazık bütün evin
+tesisatından gelen kabloyla binanın
+toprağa bağlanmasını sağlıyor aslında
+bunun olayı nedir bazen evinize bazı
+şeyler ters gidebilir elektrik
+tesisatında kısa çevre olabilir ve bir
+anda şehir şebekesinden çok fazla akım
+çekiyor olabilirsiniz mahallenizde trafo
+diye bir şey var trafodan size elektrik
+geliyor Evinizdeki bozuk bir alet
+yüzünden bu gelen akımda devasa artış
+olabilir Bu çok tehlikeli Çünkü fazla
+akım demek Isı enerjisi demek Isı
+enerjisi demek yangın demek bu yüzden
+Toprak hattı yapıyoruz ki bu elektrik
+tesisatını böyle bir bakır kazıkla
+toprağa bağlıyoruz ki Şuradaki fazlalık
+yükleri toprağa aktaralım Böylece evi
+korumuş olalım yani Aslında bir nevi
+sigorta görevi görüyor geçen derse
+elektroskop deneyi izlemiştik aynı
+deneyi bir daha izliyoruz Çünkü burada
+topraklama var Orada da azıcık
+bahsetmiştim Ama artık daha detaylı
+biliyoruz eksiyle yüklenmiş bir plastik
+çubuğu Nötr bir elektroskoba
+yaklaştıracak yaprak açıldı neden yaprak
+açıldı Çünkü bu eksi yüklü Çubuk
+artıları kendine çekti eksileri
+yapraklara gönderdi eksi eksi ittiği
+için yaprak Açıldı bu haldeyken parmağı
+ile metal topuza dokundu ve yapraklar
+kapandı Çünkü ben şu an aslında
+elektroskobu toprakladım yani
+elektroskobu nötrledim hocam biz metal
+topuza dokunduk yapraklar nötrlendi fark
+etmez bunlar Bir iletkenle Birbirlerine
+bağlılar bütün elektroskobu nötrlemeye
+çalışıyoruz şu an fakat buradaki eksi
+yüklü Çubuk burada olduğu müddetçe
+Burada bazı artıları tutar tamamen
+nötrleyemezsin bu adam toprak'a kafa
+tutuyor o yüzden gidebilenler yani
+Şuradaki elektronlar adamın parmağı
+üzerinden ayaklarından toprağa ulaştı
+Buralar nötrlendi fakat şurada biraz
+artık aldı Çünkü bu eksi yükü Çubuk
+onları tutuyor bu yüzden adam elini
+bıraktığında yapraklar tekrar açılacak
+Çünkü buradaki artılar bütün
+elektroskoba dağılacak yapraklar artılar
+gelecek birbirini itecek tamamen
+nötrlenseydi böyle bir şey Mümkün
+olmazdı şu an yapraklar açık artıyla
+yüklü ve tekrar parmağıyla dokunuyor ve
+bu sefer Çubuk falan da yok işte şimdi
+tamamen nötrlendi yapraklar kapandı ve
+topuzdan ötürlendi nötr iletken bir küre
+Pozitif yüklü bir cisim şekildeki gibi
+yaklaştırılıyor cisim uzaklaştırılmadan
+anahtar kapatılıp kürenin a noktasından
+Toprak bağlantısı sağlanıyormuş şimdi
+sorunun Geri kalanını okumadan Şuraya
+bir incelemeye çalışalım Ben artı yüklü
+bir cisim yaklaştır eksileri yakınıma
+çekerim artıları da uzağa itelim artılar
+uzakta bu Çubuk buradayken anahtarı
+kapatıyormuşuz yani Toprak bağlantısını
+sağlıyoruz Toprak bağlantısı ne demek bu
+metal nötrlenecek demek her yeri Ama
+müsade edildiği müddetçe aynı deney
+videomuzdaki gibi bu Çubuk burada olduğu
+müddetçe burada biraz eksik kalır
+tamamen bu küre nötrlenemez Buralar
+nötrlenir geri kalan yerler nötrlenir
+Ama şurası eksik kalır bu andan sonra
+anahtar tekrar açılıp cisim
+uzaklaştırılırsa kürenin son yükü ne
+olur her yer nötr oldu burası eksi oldu
+anahtarı açtım Toprak bağlantısını
+kestim hala her yer nötr Burası eksi bu
+çubuğu da gönderirsem buradaki eksiler
+bir arada kalamayacaklar Ne olacaklar
+birbirlerini itip en dış yüzeye
+dağılacaklar Dolayısıyla bizim küremiz
+tamamen eksiyle yüklenmiş olacak son
+işareti eksi olacak Toprak bağlantısı
+kürenin B noktasından yapılıp aynı süreç
+tekrarlansaydı kürenin son yükü ne
+olurdu güzel Bakın ben bu Toprak
+bağlantısını şurada A'dan değil de şöyle
+B'den yapsaydım daha bir anahtar koyup
+öyle çizelim biz buraya eksileri
+toplamıştık artıları da uzağa
+göndermiştik burada çok önemli bir şey
+öğreneceksiniz teli nereye bağladığımın
+hiçbir önemi yok ben iletken metal
+küreyi toprağa bağladım ister A'dan
+bağla ister B'den bağla anahtarı
+kapattığın anda bu Küreğin ütülemeye
+çalışıyorsun müsade edildiği müddetçe de
+her yerinin nötrlersin ister buradan
+bağlanmış olsun ister buradan bağlanmış
+olsun her yer nötr olacak burası da nötr
+olacak buralardan ötürü olacak yine
+Buradaki bazı eksiler gidemeyecek Çünkü
+Çubuk tutuyor yine anahtarı açıp aynı
+süreçleri tekrarladığında yine aynı
+küreği elde edeceğim eksi ile yüklenmiş
+küreği hocam Olur mu öyle şey az önce
+teli buraya bağladığı için artılar
+gitmişti şimdi biz teli B'ye bağlıyoruz
+tam eksilerin olduğu yere orayı nötr
+yaparız yapmayız bu çubuk olduğu
+müddetçe bu eksiler hiçbir yere gidemez
+buraya anlamanız çok önemli terin nereye
+bağlandığının bir önemi yok Tel küreğe
+bağlandı türlenir Ama müsade edildiği
+müddetçe nasıl olacak hocam yani şimdi
+artıların ötürüleceğiz eskiden
+elektronlar direk buradan geldiler
+bunların öttürlediler şimdi elektronlar
+buradan böyle gelip buraya gidip
+götürecekler mi Evet aynen öyle olacak
+Dolayısıyla a şıkkıyla b şıkkının hiçbir
+farkı yok geldik dersimizin son sorusuna
+yüksüz haldeki bir elektroskoba şekil
+birdeki gibi negatif yüklü bir cisim
+yaklaştırılıyormuş elektroskop bu
+haldeyken şekil 2'deki Toprak
+bağlantısını sağlayan anahtar
+kapatılıyormuş yeterince beklendikten
+sonra bağlantı kesiliyormuş ve cisim
+uzaklaştırılıyormuş Buna göre tüm
+süreçte Yaprakların hareket durumunu ve
+yük işaretini açıklayınız bütün olayı
+analiz et diyor yani son dakika golünü
+attı Şimdi bizim elektroskopumuz yüksüz
+yani nötr Aslında yapraklar başlangıçta
+kapalı o zaman güzel ben bunu eksi yüklü
+bir çubuk yaklaştırıyorum artıları o
+zaman topuza çekiyorum eksileri de
+yapraklara gönderiyorum yapraklar
+birbirini itiyor ve yapraklar Açılıyor
+şimdi bu konuma geldik ve eksi yüklüyüz
+güzel bunu buraya taşıyalım buralarda
+eksiler var buralarda da artılar var
+elektroskop bu haldeyken yani Çubuk Hala
+da yanımda yüklenmiş durumdayım anahtarı
+kapatıyorum Böylece Toprak bağlantısını
+sağlamış oluyorum elektroskobu dünyaya
+bağladım Şu an ne olur elektroskop
+dünyaya bağlandığına göre müsaade
+müddetçe nötürlenir Mesela bu Çubuk
+burada olmasa komple nötrlenir topuzla
+nötr olur Yapraklardan ötürü olur ama bu
+Çubuk buradaysa aynı deneyde izlediğimiz
+gibi Şuradaki artıların bir kısmı hiçbir
+yere gidemez geri kalan her yer nötr
+olur yapraklar kapanır yapraklar nötr
+olur buradaki eksiler Bu hat üzerinden
+dünyaya ulaşırlar artılar zaten bir yere
+gidemiyorlardı artıların nötr olması
+için dünyadan elektronların gelmesi
+gerekiyordu gelemiyorlar çünkü bu Çubuk
+da eksi onların gelmesine müsaade
+etmiyor olarak da düşünebilirsiniz peki
+yaprakları kapattık metal topuzumuzda
+hala artılar var bağlantıyı kestik yani
+Dünya ile irtibatımızı kopardık ve cismi
+de gönderdik Aslında benim deneyin sonra
+hali bu birebir aynısı şu an
+yapraklarımız kapalı burada da artılar
+var Çubuk uzaklaştığı anda bunlar böyle
+bir arada kalamayacaklar gidebildikleri
+her yere yayılacaklar Çünkü
+birbirlerinden nefret ediyorlar artı
+artıyı iter ne olur topuzdaki artı
+yoğunluğu biraz azalır yapraklara
+artılar gider yapraklar aynı yüklendiği
+için yapraklar açılır topuz artı
+yapraklar arttı ne soruyordu Bize
+hareket durumunu yük işaretini her
+şeyini Böylece açıklamış oldu Bu video
+bu kadar takıldıklarını alta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,882 @@
+gençler Merhaba bugünkü dersimizin
+konusu ısıl denge kavramı yine bazı
+sorularla başlayalım ve bu sorulara ders
+içerisinde yanıt vermeye çalışalım neden
+bilgisayar işlemciler imizde Ekran
+kartlarımızda büyük büyük fanlar
+kullanıyoruz sıcak çayımızı odaya
+bıraktığımızda ve bir süre dokunmadığım
+da neden soğuyor bir odaya girdiğinizde
+odadaki eşyalar farklı türlerde bile
+olsalar aynı sıcaklıkta olabilirler mi
+duvarın sıcaklığı masanın sıcaklığı
+sandalyenin koltuğun sıcaklıkları eşit
+olabilir mi Bunların hepsinin cevabı
+ısıl den kavramında sıcak madde ile
+soğuk maddeyi yan yana getirirseniz ve
+bunları etraftan izole ederseniz kendi
+aralarında bir Isı alışverişi olur sıcak
+maddeden soğuk maddeye doğru bir ısı
+enerjisi transferi olur diyelim ki sıcak
+maddenin 80 celsa soğuk madden 40 celsa
+Bunlar yeterince bir arada kalırlarsa
+sıcak olan soğuyacak soğuk olan ısınacak
+ve bunlar bir dengede buluşacak lardır
+bir denge sıcaklığında mesela 60 celsa
+arada bir yerde buluşacak lardır 80'den
+daha büyük bir sıcaklık olmayacak Bu
+denge sıcaklığı 40'tan daha küçük bir
+sıcaklık olmayacak Bu denge sıcaklığı
+neden sıcak olan soğuyor Çünkü bu sıcak
+olandan Isı enerjisi veriyoruz
+etrafımıza neden soğuk olan ısınıyor
+Çünkü bu sıcağın verdiği ısı enerjisini
+soğuk olan alıyor Isı enerjisi verdiğim
+için soğuyorum Isı enerjisi aldığım için
+ısınıyorum sıcaklığım artıyor Tabii
+burada hal değişiminin olmadığı
+durumları konuşuyoruz Çünkü hal değişimi
+olursa sıcaklık sabit kalıyor
+biliyorsunuz Peki niye böyle bir
+zorunluluk var niye sıcaktan soğuğa
+doğru Isı enerjisi akıyor da soğuk an
+sıcağa akmıyor bir simülasyonda görelim
+bir modelleme yapacağız iki tane maddeyi
+sıcak ve soğuk maddeyi taneciklerle
+modelleyen tanecikleri gibi
+düşünebiliriz sol tarafa 50 tane tanecik
+atıyorum sağ tarafa da 50 tane tanecik
+atıyorum Bu taneciklerin ikisi de 300
+Kelvin olsun yaklaşık 299 yazıyor ama
+çok önemli değil yani şu an Bunlar eşit
+sıcaklıktan dolayısıyla ortalama kinetik
+Enerjileri aynı zaten bu mavi ve kırmızı
+topların aşağı yukarı aynı hızlarda
+hareket ettiğini görebiliriz Ortalama
+olarak ama ben soldakini daha sıcak
+yapmak istiyorum 500 Kelvin yaptım
+gördüğünüz gibi orası hareketlendi Hatta
+sağdakini de kırmızıları da daha da
+soğuk yapalım 100 Kelvin olsun daha
+yavaşladı solda sıcak var sağda soğuk
+var Bunları bir araya Getirirsem Isı
+alışverişi gerçekleşir sıcak olan soğur
+soğuk olan ısınır bunları bir araya
+getirmem demek aradaki şu bölmeyi
+kaldırmam demek aradaki bölmeyi
+kaldırdığım anda Bunlar
+etkileşmeyen birbirine çarpıp hızlarını
+değiştirmesi gibi iki maddenin atomları
+molekülleri birbirini etkilemeye başlar
+Böylece o maddelerin ortalama kinetik
+Enerjileri değişir yani sıcaklıkları
+değişir ve istatistiki olarak hızlı
+olanlar yavaşlayacak yavaş olanlar
+hızlanacak Çünkü bunlar birbirlerini
+etkileyip en nihayetinde bir dengeye
+gelecekler yeterince beklerseniz birinde
+500 Kelvin vardı birinde 100 Kelvin
+vardı Bunlar arada bir yerde Hatta eşit
+sayıda tanecik verdiğim için tam 300
+civarlarında buluşurlar gördüğünüz gibi
+oralarda geziniyor tam 300 olması
+imkansız tabii ki ama oralarda gezinir
+bu simülasyonda olduğu gibi sıcak
+cisimle soğuk cisim karşılaştığında
+birbirlerinin kinetik enerjilerini
+etkileyip bir dengede buluşuyorlar ona
+da denge sıcaklığı diyoruz demirin
+sıcaklığını termometre ile ölçüyorum
+tuğlanın sıcaklığını termometreyle
+ölçüyorum Hatta buradan suya da bir tane
+termometre koyalım demiri ısıtıyorum
+sıcaklığını arttırıyorum Böylece
+termometre genleşip yükseliyor
+gördüğünüz gibi şu an Demir daha sıcak
+pozisyonda tuğla daha soğuk pozisyonda
+bunları bir araya Getirirsem demiri
+tuğlanın üzerine koyarsam termometreler
+dikkat edin gördüğünüz gibi tuğla
+ısınmaya başladı sıcaklığı arttı Demir
+de azalmaya başladı çünkü bunlar bir
+yerde
+dengelenebilir soğuğa yani demirden
+tuğlaya Isı enerjisi transfer edildiği
+için demirin sıcaklığı azaldı tuğlanın
+ki arttı Şu an bunların ikisi de suya
+göre daha sıcak Örneğin ben buradan
+demiri alsam suya atarsam Demir biraz
+daha soğuyacak su biraz daha ısınacak
+Evet gördüğünüz gibi demirin sıcaklığı
+azaldı suyun K arttı yine bir yerde
+dengeye geldiler Demir şu an tuğlaya
+göre daha soğuk tekrar demirle tuğlayı
+buluşturur bu sefer Demir ısınacak
+sıcaklığı artacak tuğla soğuyacak çok
+belli olmadı yakınlarda ama Evet şu an
+net bir şekilde gözüküyor tuğlada azalma
+var Demirde artma var sıcaklıklar
+farklıysa kesinlikle arada bir ısı
+alışveriş olur Bunu unutmayın Peki hocam
+bu sıcaklığın nerede olacağını denge
+sıcaklığının ne olacağını ne belirliyor
+Yani siz dediniz ki 80 celsus var 40
+celcius var Bunlar 60'ta buluşurlar İlla
+tam ortada mı buluşmak zorundalar
+simülasyonda da öyle oldu birinde 500
+Kelvin Vardı öbüründe 100 Kelvin vardı
+Siz bunları 300' de buluşturdu 400'de
+buluşamadım mı 150' de
+buluşamıyorum bakın sıcakla soğuğu yan
+yana getirdim Hatta şöyle yazalım x
+maddesi var y b maddesi var 80 celus 40
+celus Ben bunların şu an 60'ta
+buluştuğunu iddia ediyorum Bu hangi
+koşullarda böyle olmuştur sıcakla soğuk
+bir araya geldiğinde sıcaktan soğuğa
+doğru yani x'ten Y'ye doğru bir ısı
+enerjisi transfer edilecek y bir ısı
+enerjisi alacak alınan ısı x Isı
+enerjisi verecek verilen ısı şuna y
+diyelim Şuna da x diyelim Bunlar eşit
+Niye Çünkü X'in verdiğini y aldı bunlar
+izoleli var etrafları la iletişim
+halinde değiller sıcaklık değişimi var
+mı Tabii ki var Bakın bu arkadaş 80'den
+60'a düşmüş yani 20 celsus luk bir
+sıcaklık değişimi var bu arkadaş da
+40'tan 60'a çıkmış Burada da 20 celsus
+lü bir sıcaklık değişimi var o zaman Ben
+buradaki ısı enerjilerini açarken
+sıcaklık değişiminin olduğu ısı enerjisi
+ifadesini yazmalıyım yani MC Delta t'yi
+yazmalıyım Y için yazarsam myy CY Delta
+t y olacaktır x için yazarsam MX CX
+Delta T X olacaktır y'nin sıcaklık
+değişimi ne 40'tan 60'a çıktı Yani 20
+celsus luk bir değişim var X'in ne
+buraya My y C'yi aynen yazdım çünkü
+onlar hakkında bir fikrim yok x' deki
+sıcaklık değişimi de 80'den 60'a o da 20
+kadar hocam birinde azalıyor birinde
+artıyor O yüzden birine + 20 öbürüne -20
+mi yazacağız Hayır Delta değişim değişim
+miktarına bakıyoruz ister azalsın ister
+artsın 20'lik bir değişim var burada da
+MX cxi aynen yazdım buradaki 20 ile
+buradaki 20 birbirini götürürse MX CX
+ile myy CY birbirine eşittir anlamına
+geliyor kütle çarpı öz ısı ne demek ısı
+sığası demek yani X'in ısı sahasıyla
+y'nin ısı sıas sahası eşit olduğu için
+bunlar tam ortada buluştular Isı sahası
+büyük olan maddelerin sıcaklıklarını
+Değiştirmek zor Isı sahası küçük olan
+maddelerin sıcaklıklarını değiştirmek
+kolay ikisinin de Isı sahası aynıysa o
+zaman ikisinin de sıcaklık değişiminin
+aynı olması gayet doğaldır başka bir
+örnek verelim Bunlar 60 celciusa
+Buluşmasın mesela 50 celciusa buluşsun
+denge sıcaklığı bu olsun yine alınan ısı
+verilen ısıya eşit yine sıcak olanın
+verdiği ısıyı soğuk olan alacak yine
+aynı denklemleri yazacağım Tek fark ne
+az öncekinden değişimler farklılaştı
+bakın y 40'tan 50'ye çıktı 10'luk bir
+değişim var o zaman y' Deek sıcaklık
+değişimine 10 yazıyorum x'te ise 80'den
+50'ye bir düşüş var 30'luk bir değişim
+var buraya 30 yazıyorum sadeleştirirsek
+Burası 1E 3 olur şurası y'nin Isı sahası
+Burası X'in ısı sığası o zaman CY = 3
+tane CX çıkar Bu ne anlama geliyor y'nin
+ısı sığası X'in 3 katı demek oluyor yani
+y'nin sıcaklığını değiştirmek x'e göre 3
+kat daha zor E öyle olmuş zaten bak
+y'nin sıcaklığı 10 derece değişmiş X'in
+sıcaklığı 30 derece değişmiş Çünkü y'nin
+Isı sahası büyük onun sıcaklığını
+Değiştirmek zor Demek ki denge
+sıcaklığını belirleyen şey Maddelerin
+ısı sahasıdır tek başına öz ısı değil
+tek başına kütle değil bu ikisinin
+beraber düşünülmüş Hali olan ısı
+sahasıdır Marmara Denizi'nin sallıyorum
+deniz suyu sıcaklığı 25 celcius Sen
+şimdi bir çaydanlık su kaynattım 100
+derecede Marmara denizine döktün orada
+bir karışım gerçekleşti kendi aralarında
+bir ısı transferi oldu benim kaynattığım
+su soğuyacak Marmara Denizi ısınacak
+birinde 25 var dedim birinde 100 var
+dedim Şimdi bunlar arada bir yerde
+buluşacaklar ama 60 celciusa 70 celciusa
+buluşacaklar Hayır tabii ki 25 celciusa
+çok çok çok yakın bir değerde
+buluşacaklar mesela
+25.00 0 artık Kaç tane s0 varsa en
+sonunda bir tane 1 koyabiliriz yani
+pratikte hiçbir anlamı yok hala Marmara
+Denizinin sıcaklığı 25 olarak
+düşünülebilir senin döktüğün su çok
+soğuyup 25'e inmiştir neredeyse Niye
+Çünkü Marmara Denizinin senin döktüğün
+suya göre kütlesi o kadar büyük ki Isı
+sahası devasa Isı sahası büyükse
+sıcaklığını değiştiremez işte
+değiştiremedik Marmara Denizi'nin
+sıcaklığı pratikte hala 25 olarak
+düşünülebilir Az önceki simülasyonda
+tanecik sayılarına eşit vermiştik bu
+sefer eşit vermeyeceğim tanecik sayısını
+burada Isı sahası olarak
+düşünebilirsiniz Hatta maddelerin
+türleri aynıysa Öz ısıları aynıysa
+buradaki topların kütlesi fazla olan
+Dolayısıyla Isı sahası fazla olan
+demektir diye de düşünebilirsiniz
+soldakine 50 tane tanecik attım
+sağdakine 10 tane attım yani soldakinin
+Isı sahası 5 kat daha fazla soldaki 500
+Kelvin olsun Sağdaki 100 Kelvin olsun Az
+önceki simülasyonda gibi eşit sayıda
+tanecik attığımda 300' de buluşmuşlardır
+yaklaşık şimdi mavinin Isı sahası daha
+büyük olduğu için ona daha yakın çıkacak
+kaç kat yakın çıkacak 5 kat yakın
+çıkacak Çünkü ısı Sahaları arasında 5
+katlık bir oran var mavinin sıcaklığı
+500 Kırmızının sıcaklığı 100 ısı
+Sahaları eşit olsalardı 300'ler de
+olacaktı şimdi maviye daha yakın işte
+400 civarlarında bir denge sıcaklığı
+bekleriz bakalım aradaki bölmeyi
+kaldırdığı ğım anda Isı alışverişi
+başlıyor gibi düşünebilirim bölmeyi
+kaldırdım ve yeterince bekliyorum
+tanecikler etkileşmeyen başladılar
+birbirlerinin ortalama kinetik
+enerjilerini değiştiriyorlar Bu da
+sıcaklıkların değişmesi demek Evet
+gördüğünüz gibi 400 civarlarına 400'den
+Biraz daha büyük değerlere gelmeye
+başlıyorlar niye 300'ler de buluşmadık
+Çünkü Isı sahası büyük olana denge
+sıcaklığı daha yakın oldu Güzel bir
+yorum sorumuz var denge sıcaklığı
+kavramı düşünülürse termometrelerle
+doğru ölçümler yapılabilir mi tam tyt
+lik soru Bunlar termometreyle Biz vücut
+sıcaklığımızı ölçüyoruz sıvılı
+termometreler nasıl çalışıyorlar
+içindeki civa ya da Alkol genleşiyor Isı
+enerjisi alıp genleşmeye başlıyor nerede
+durursa vücut sıcaklığı odur diyorsun
+Şimdi sen çekmeceden termometreyi
+çıkarttın orada duruyor oda sıcaklığında
+odanın sıcaklığı 25 celciusa yeterince
+beklediğinde Bunlar dengeye gelecekler
+Dolayısıyla senin termometr eki civa da
+25 celsus Adır diyebiliriz Vücut
+sıcaklığını ölçüyorsunuz sıcaklığın da
+38 celsus olsun Normalde bu termometreyi
+ve vücudunu iki ayrı madde gibi
+düşünürsen termometreyi kolunun altına
+sıkıştırdım Bu maddelerden Biri sıcak
+biri soğuk sıcak olan şu arkadaş Isı
+enerjisi verip soğumaya başlayacak bunun
+verdiği bu ısı enerjisini soğuk olan
+arkadaş alıp sıcaklığını arttıracak ve
+bunlar bir dengede buluşacaklar bu denge
+sıcaklığı 25'ten büyük 38'den küçüktür
+nerede olacağını belirleyen şey de ısı
+sahasıdır civayla benim Vücudumun Öz
+ısıları farklı ama ben burada kütleden
+düşünürsem termometre küçücük bir şey
+benim vücudum kocaman bir şey
+Dolayısıyla benim ısı sıam büyüktür
+civanın ısı sığası küçüktür dersem
+herhalde benim vücut sıcaklığım yakın
+olur ama ama 38 olmaz atıyorum
+37,8 olur bu arkadaş buraya soğur bu
+arkadaş buraya ısınır İşte bu denge
+sıcaklığıdır Aslında termometrelerle biz
+vücudumuzu % 10000 doğru sıcaklıkta
+ölçemiyorum Çünkü tekrar söylüyorum
+soğukla sıcak yan yana geldiğinde arada
+bir yerde buluşurlar O yüzden aslında
+termometreler mümkün olduğunca az
+miktarda sıvıyla yapılmalı az miktarda
+sıvının da başka sakıncaları var
+genleşme iyi olmuyor o zaman
+hatırlarsanız hazne büyük olmalı sıvı
+miktarı çok olmalı falan demiştik ama
+genleşme büyük olsun diye de 2 metre
+boyunda termometre kullanamayız Çünkü o
+zaman Isı sahası çok büyür Termometrenin
+25 derecedeki termometre ile 38
+derecedeki vücut bir araya geldiğinde
+atıyorum Bunlar 30 celsa buluşurlar yani
+Senin vücudun 38 ama termometre 30
+gösteriyor saçma sapan bir durum
+verilenlerden hangileri Termal dengede
+kabul edilebilir Termal denge demek ne
+demek sıcakla soğuk yeterince
+beklemişler bir arada etkileşimden sonra
+bir denge sıcaklığına ulaşmışlar
+sıcaklıklar eşitlendiği anda artık Isı
+alışverişi durur yani 60 celsa bir madde
+50 celsa bir madde Bunlar 57' de
+buluştular bu arkadaş buraya indi bu
+arkadaş buraya çıktı artık İkisi de 57
+olduğu için sıcaklık farkı olmadığı için
+ısı transferi yoktur buzdolabında
+yeterince beklemiş su diyelim ki
+buzdolabınız içeriği + 4 derece yapıyor
+içeriye koyduğunuz her şey yeterince
+beklerse bu sıcaklığa ulaşır Hayır hocam
+az önce termometre örneği verdiniz + 4
+olmaz + 4'ten daha büyük bir şey olur
+Çünkü biz oraya sıcak bir şey koyuyoruz
+buzdolabı + 4 Sen 30 derecelik bir şey
+koyu diyorsun arada buluşurlar 4'ten
+daha büyük bir şey çıkar pek değil bizim
+termometre örneğimiz de aynı şey değil
+Çünkü buzdolabı dışarıdan sürekli enerji
+alıp içeriyi sürekli + 4'te tutan bir
+sistem izole bir sistem değil yani
+buzdolabı ve içindekiler buzdolabı
+sürekli dışarıdan Elektrik enerjisiyle
+içeriği 4'te tutuyor Dolayısıyla içeriye
+koyduğun Her şey belli bir süre sonra o
+sıcaklığa gelir sıcaklıklar aynı
+olduğunda da termal dengededir sıcak
+fırından çıkartılıp masaya konmuş börek
+ve oda Şimdi senin Odan 25 celus 300
+celsus sıcaklık Aki fırından böreği
+çıkarttın koydun o zaman senin böreğin
+de bu sıcaklıkta sıcaklık farkı var mı
+var Börek Isı enerjisi verecek O da bu
+ısı enerjisini alacak börek Isı enerjisi
+verdiği için soğumaya başlayacak O da
+Isı enerjisi aldığı için ısınmaya
+başlayacak bunlar bir denge noktasında
+Termal dengeye gelecekler ve tahmin
+edebileceğiniz üzere Bu arada bir yerde
+olacak ama 150 celsus 250 celus
+olmayacak nerede olacak işte 25,2 celsus
+olacak odaya çok yakın olacak Niye Çünkü
+odanın Isı sahası böreğe göre çok daha
+Faz fazla da ondan yani bir tepsi börek
+çıkardın diye mutfakta duramıyorum
+mutfak çok sıcak oldu demeyiz hava
+sıcaklıklarının aynı olduğu
+İstanbul'daki Bank ve Bursa'daki Bank
+güzel hocam hava sıcaklıkları aynıymış
+İstanbul'da hava 20 celsius Muş Bursa'da
+hava 20 celsius Muş sıcaklıklar eşitse
+Bunlar Termal dengededir Hayır değildir
+sıcaklığı eşit olan her şey Termal
+dengededir anlamına gelmiyor iki
+maddenin Termal dengede kabul
+edilebilmesi için birbirleriyle
+etkileşebilecek
+İstanbul'daki Bank nerede Bursa'daki
+Bank nerede birbirleriyle ısı
+alışverişleri yok Evet sıcaklıkları aynı
+Termal dengede gibi duruyorlar Ama
+bunlar Is alışveriş yapmıyorlar ki zaten
+yapamayacak kadar uzaktalar Dolayısıyla
+Bunlar Termal dengede kabul edilemez ha
+bunları yan yana getiririm İstanbul'dan
+10u alırım Bursa'dan 10u alırım bunları
+Kocaeli'nde buluşturur İkisi de hala 20
+celsius Adır Bunlar yan yana geldiğinde
+ısı transferi olur mu Olmaz çünkü
+sıcaklık farkı yok sıcak olan yok soğuk
+olan yok işte o zaman Termal dengede
+olurlar ama yan yana olurlarsa
+içilmediği için odas sıcaklığında
+yeterince beklemiş çay börek örneğiyle
+aynı dersin başında zaten Sorduğum bir
+soruydu Bu sizin çayınız 100 celsa
+odanız 25 celsa Biri sıcak biri soğuk
+bunlar arasında ısı transferi olur biri
+ısı verir öbürü ısı alır arada bir yerde
+buluşurlar odanın Isı sahası çok büyük
+olduğu için atıyorum 25,5 derecede
+Bunlar buluşurlar Dolayısıyla senin
+çayın 100'den 25'e iniyor yani soğuyor
+bizim vücut sıcaklığımız 37 celsus
+olduğu için bu 25 bize daha soğuk
+geliyor Neden soğuk geliyor bana soğuk
+gelmesi demek ne demek onu da konuşmuş
+olalım benim elimde 37 derece var Elim
+37 derece 25 derecelik bir şey
+tuttuğumda yine ısı alışveriş olur soğuk
+bir şey tutuyorum ben elim enerji
+kaybeder 25 derecedeki çay enerji alır
+Benim elim Isı enerjisi kaybettiği için
+soğuma hissi yaşarım o yüzden bu çay
+soğuk derim çay 100 Derece olduğunda ve
+ben onu 37 derecelik elimle tuttuğumda
+ne oluyor bu sefer çay benden daha sıcak
+ısı transferi olduğunda o bana Isı
+enerjisi verecek benim vücudum Isı
+enerjisi aldığı için onun sıcak olduğunu
+söyleyeceğim yine dersin başında
+sorduğum kafa karıştırıcı örneklerden
+bir başkası odada yeterince beklemiş
+koltuklar sandalyeler Masalar duvarlar
+perdeler aklınıza ne geliyorsa ısıl
+dengededir mi Aynen öyle yeterince
+beklediler aralarında sıcak olan da
+soğuk olan da bir dengeye gelecek bütün
+oa bir dengeye gelecek duvar da 25
+derecedir koltuk da 25 derecedir Demir
+sandalye de 25 derecedir olur mu hocam
+Ben demire dokunuyorum onu soğuk
+hissediyorum koltuğa dokunuyorum sıcak
+hissediyorum O da zaten bir sonraki
+dersimizin konusu ısıl iletkenlik konusu
+bir odadaki cis ller eğer kendileri bir
+ısı kaynağı değilse yeterince bekler
+lers aynı sıcaklıkta dengeye gelirler
+önceki derslerimizde vurgulamıştı Ama bu
+notu buraya da yazmışız Dolayısıyla
+tekrar bahsedelim Isı alan maddenin iç
+enerjisi artarken ısı veren maddenin iç
+enerjisi azalır madde hal değiştirse de
+bu böyledir sıcaklığı değişmese de bu
+böyledir Çünkü biliyorsunuz madde hal
+değiştirirken sıcaklığı değişmez yani
+aslında Termal denge durumunda sıcak
+olan ısı enerjisi verdiği için iç
+enerjisini azaltmış oluyor soğuk olan
+ısı enerjisi aldığı için iç enerjisini
+arttırmış oluyor hocam iç enerjiler de
+bir dengede buluşurlar Var mı öyle bir
+şey yok Sakın bunu kafanızı öyle
+kodlamayı sıcaklık dengeye gelir iç
+enerji dengeye gelmez Neden sizin küçük
+bir demir parçanız var 80 celsa 10 gram
+bir de kocaman bir demir parçanız var
+200 celsus da atıyorum 100 gram şimdi bu
+iki madde karşılaştırılırken kesinlikle
+dersiniz ki bunun iç enerjisi büyüktür
+bunun iç enerjisi küçüktür nasıl anladım
+ben onu E çünkü hem sağdakinin sıcaklığı
+daha fazla yani kinetik enerjisi daha
+fazla hem de madde miktarı daha fazla
+İkisi de demir olduğu için hangisinde
+daha çok bağ varsa o kadar çok
+potansiyel enerji vardır oradaki bağ
+miktarını da tabii ki madde miktarı
+belirler e bunda 100 gram var bunda 10
+gram var Dolayısıyla sağdakinin hem
+kinetik enerjisi büyük hem potansiyel
+enerjisi büyük Dolayısıyla iç enerjisi
+daha büyük Şimdi ben bunları yan yana
+Getirdiğimde sıcaklıkları Termal dengeye
+gelecek bu 80 bu 200 sağdakinin Isı
+sahası daha büyük olduğu için 200'e daha
+yakın bir şey çıkacak tam ortada
+çıkmayacak Yani bunların tam ortası 140
+yapar sağdakine yakın çıkacağı için
+atıyorum 170 celsa Bunlar denge
+sıcaklığına ul L Sizce Şu an bunların iç
+Enerjileri de mi eşitlendi sıcaklıkları
+gibi Hayır şu an bunların kinetik
+Enerjileri eşitlendi Çünkü ikisinin de
+sıcaklığı 170 ama hala sağdakinden daha
+büyük potansiyel enerji var soldakinden
+daha küçük potansiyel enerji var çünkü
+sağdakinin madde miktarı hala daha fazla
+Dolayısıyla sağdakinin iç enerjisi hala
+daha fazla Bu iç enerji yorumu çok
+önemli buraya dikkat edin ısıca
+yalıtılmış bir ortamda bir kapta bulunan
+20 celsus sıcaklıktaki suyun içerisine
+-10 celus sıcaklıkta buz konulmuş
+yeterince beklenmiş oluşan sıcaklık
+zaman grafiği de böyle olmuş buna göre
+hangileri doğrudur meşhur Su buz
+soruları dikkatli dinlemeniz lazım önce
+Soruyu bir Görselleştirmek apta 20
+derecede suyumuz var Tamam çizelim şöyle
+Su doldurdum ve bu suyun sıcaklığı 20
+celus dce bunun içerisine -10 derecede
+buz koyuyoruz suyun içerisine buzu
+attığımızda yüzeceğim biliyorsunuz bunun
+sıcaklığı -10 derece sıcaklık farkı var
+mı iki madde arasında var Bunlar ısıca
+yalıtılmış ortamdan Yani bu ısı
+transferi sadece buzla su arasında
+olacak havayla falan hiçbir işimiz yok
+etrafla işimiz yok Dolayısıyla 20
+derecedeki arkadaş bu buza Isı enerjisi
+verecek 20 derecedeki su ne kadar Isı
+enerjisi verirse buz da o kadarını
+alacak yani alınan ısı verilen ısıya
+eşit bu buzu atar atmaz hocam Isı
+enerjisi de alıyor hemen erimeye başlar
+mı hayır önceki dersimizde hal değişim
+dersimizdin buzun erimesi için 0
+celciusa ulaşması lazım erime noktasına
+ulaşması lazım orada değil ki adam -10
+bu aldığı enerjiyle önce oraya çıkmaya
+çalışacak yani kafa erime başlamaz belli
+bir süre geçmesi lazım zaten grafikte de
+onu görüyoruz bakın -10 derecedeki buz
+zamanla sıcaklığını arttırmış arttırmış
+arttırmış Hatta enteresan bir şey olmuş
+bu grafiğe göre 0 celsa doğru ulaşamamış
+bakın şurada sabitlenmiş atıyorum -5 de
+sabitlenmiş buz suya bakalım suya ne
+olmuş suyun içerisine buz attığım anda
+bu 20 derecedeki sıcak olan Su enerji
+verdiği için direkt sıcaklığı azalmaya
+başladı gayet mantıklı sıcaklığı azalmış
+azalmış 0 dereceye kadar inmiş 0 derece
+buzun erime noktası olduğu gibi suyun da
+donma noktasıdır Yani bu arkadaş o kadar
+enerji vermiş ki şuraya geldiğinde benim
+elimde 0 derecede su varken hala enerji
+vermeye devam ediyor zaman geçiyor hal
+değiştiriyor Yani bizim suyumuz burada
+donuyor Buraya geldiğinde elimizde 0
+derecede buz var artık yetmemiş hala Isı
+enerjisi veriyor artık bizim 0
+derecedeki buzum sıcaklığı eksilere
+düşmüş nereye kadar düşmüş -5 kadar
+düşmüş ve artık buradan sonra hiç
+kimsenin sıcak lığı değişmiyor Çünkü
+ikisi de - 5'e İndi Termal dengede bunun
+içine buz attım diye içerinin tamamı
+donmuş gençler olan olay bu Biz günlük
+hayattta hep buzun suyun içinde
+erimesine alışığız Hayır böyle olmak
+zorunda değil Peki bunu ne belirledi
+niye buz erimedi de su Dondu yine dersin
+başına dönüyoruz bunu belirleyen şey ısı
+sı ağasıdır denge sıcaklığının nerede
+olacağını belirleyen şey ısı sığası -10
+daki buz -5 kadar çıkmış ama 20
+derecedeki su -5 kadar inmiş buradaki
+sıcaklık değişimi daha az buradaki sıcak
+değişimi devasa buzun dediği olmuş Isı
+sahası kütle çarpı öz ısı olduğuna göre
+bunu bilmek zorunda değilsiniz gerekirse
+sorular verir suyun öz ısısı 1 ken buzun
+öz ısısı 0.5 Yani aslında buzun öz ısısı
+da küçük Fakat artık buzun kütlesi ne
+kadar büyükse sudan daha fazla ısı
+sahasına sahip olmuş aslında o zaman bu
+çizimimi güncellememiz lazım bizim
+kabımız daki su ve buz ilişkisi görsel
+olarak şöyle falan çizilmeli az miktarda
+suyumuz var çok miktarda buzum var E o
+zaman mantıklı olur tabii ki yani
+genişçe bir kaba bir çay bardağı su
+dökün devasa buz kütleleri atın
+içerisine buz erimez su donar Tabii ki
+T1 anında su donmaya başlamamıştır T1
+anı Burası Evet orada 0 derece su var
+bunun bir tık ötesine geçtiğimizde artık
+donmaya başlıyor Dolayısıyla bu donmanın
+başlangıç noktası T1 olarak kabul
+edilebilir su T1 T2 arasında buza Isı
+enerjisi vermemiştir hocam T1 T2
+arasında suyun sıcaklığı değişmiyor
+suyun sıcaklığı değişmiyorsa o zaman
+burada Isı alışverişi durmuştur Çünkü
+siz dediniz ki sıcaklık farkı varsa Isı
+alışverişi olur Evet öyle dedim ve hala
+arkasındayım su burada hal değiştirirken
+donarken 0 celsa Peki bu zaman
+aralığında bizim buzum sıcaklığı kaç
+atıyorum -7 Hala sıcaklık farkı var mı
+var 0 derecedeki donmaya çalışan su hala
+bizim buzum muza Isı enerjisi veriyor mu
+Veriyor o yüzden buzum sıcaklığı -7 de
+kalmıyor -5 doğru yükseliyor O yüzden
+suyumuz da donmaya devam ediyor zaten su
+donarken etrafına Isı enerjisi vermek
+zorunda sadece sıcaklığı azalırken değil
+donarken de bunu yapmak zorunda nasıl ki
+buz erirken Isı enerjisi almak
+zorundaysa su donarken de enerji vermek
+zorunda su sıcaklığını 20'den 0a
+indirirken enerji vermiştir hal
+değiştirirken enerji vermiştir 0'dan -5
+inerken de enerji vermiştir suyun
+verdiği bütün bu Enerjileri kim almıştır
+buz -10 danan -5 çıkmak için almıştır
+diyebiliriz ikinci öncülü yanlış T2 T3
+arasında ortamda sadece buz olduğu için
+Isı alışverişi durmuştur T2 T3 arası
+Yani bu bölgeden bahsediyor Isı
+alışverişi nerede durdu bunların
+sıcaklıklarının eşit olduğu yerde durdu
+yani Isı alışverişi burada durdu burada
+Hala sıcaklık farkı var Bak burada artık
+bizim suyumuz dondu atıyorum -3 lde
+buzum -4 lde hala bir sıcaklık farkı var
+İkisi de -5 olduğunda bu durur Bunu niye
+koydum buraya Çünkü biz günlük hayatta
+buzu standart olarak koyuyoruz Kafamızda
+Sanki her buzun sıcaklığı aynıymış gibi
+Hayır -50 celciusa da buz olur -1
+celciusa da buz olur -50 celsus Aki
+buzla -1 caki buz yan yana gelirse ısı
+alışveriş olmaz mı Tabii ki olur -50
+Deek ısınır -1 deki daha da soğur
+Dolayısıyla 3üncü öncülü de yanlış
+Sorumun cevabı Yalnız 1 olmalıdır Şahane
+soru ısıca yalıtılmış ortamda 0 celus
+sıcaklıkta M kütleli buz ile 0 celus
+sıcaklıkta M kütleli su bulunmaktadır
+Buna göre hangileri doğrudur böyle bir
+şey Mümkün olduğunu konu anlatımlarında
+konuşmuştuk yine o grafiği hatırlarsak 0
+derece suyumuz da olabilir 0 derece
+buzum da olabilir kafadan 3üncü Öncül le
+başlamak istiyorum Bunlar bir araya
+getirildikleri de buz erir mi Yine
+günlük hayattaki bu yanılgıları gidermek
+için koydum Bunu suyla buz temas ederse
+buz erir hocam Hayır ermez Eğer Öyle
+düşünüyorsanız ezbere konuşuyorsunuz
+demektir bakın buraya Suyu koydum 0
+celsa içine buz attım o da 0 celsa buz
+erimeye hazır erime noktasında en ufak
+bir enerji alsa erir su da donmaya hazır
+donma noktasında en ufak bir enerji
+verse donar E hocam İkisi de aç işte
+biri enerji vermeye aç öbürü enerji
+almaya aç biri erimeye hazır öbürü
+donmaya hazır Evet ama bunu yapamazlar
+niye yapamazlar Çünkü ikisinin de
+sıcaklığı aynı ısı alışveriş olması için
+sıcaklık farkı olmalı Biri sıcak biri
+soğuk olmalı ikisi de aynı sıcaklıktan
+Bunlar Termal dengededir Isı alışverişi
+olmaz bir araya getirdiklerinde buz
+erimez Bunlar sonsuza kadar böyle
+kalırlar Tuhaf ama gerçek gerçek hayatta
+buz niye eriyor hocam e Çünkü gerçek
+hayatta sizin suyunuz 0 celsa değil
+atıyorum 20 celsa E zaten soğusun diye
+buz atıyorsun içine 20 celsus taki su
+Tabii ki 0 celciusa gelmiş buzu eritmeye
+başlayacaktır ama suyumuz da sıfırsa
+olmaz bunların iç Enerjileri aynı mıdır
+yine şahane bir Öncül ki ÖSYM bunu
+sorguladı daha önce hocam bunların iç
+Ener Enerjileri aynıdır Çünkü M kütleli
+buz M kütleli su kütleleri eşit bunların
+yani madde miktarları eşit Dolayısıyla
+potansiyel Enerjileri eşit hocam 0
+celsus sıcaklık 0 celsus sıcaklık e
+kinetik Enerjileri de eşit hocam iç
+enerji zaten kinetik artı potansiyel o
+zaman bunların iç Enerjileri aynıdır
+Hayır değildir Çünkü iç enerjideki
+potansiyel enerji moleküller arasındaki
+bağ enerjisidir kütleleri eşit diye sen
+bunların potansiyel enerjine eşit
+diyemez çünkü bunlar birebir aynı madde
+değil her ikisi de H2O olsa bile Biri
+katı halde biri sı halde e nasıl ayırt
+edeceğim hocam o zaman Hangisi büyük
+Hangisi küçük Ben nereden bileyim şöyle
+bir akıl yürütme yapabiliriz 0 derecede
+M kütleli buz var benim elimde ben size
+diyorum ki bunu 0 derecede M kütleli su
+yap Ne yaparsınız E buna q verirsiniz
+Yani bunu ısıtırsın bu zaten erime
+noktasında enerji almaya başladığı anda
+erimeye başlayacak bu buz suya dönüşecek
+kütlesi değişmeyecek Sıcaklığı da
+değişmeyecek Çünkü hal değiştiriyor
+Dolayısıyla buza enerji verirsen Su
+haline geçer aynı şartlarda buz enerji
+alınca şu arkadaşa dönüştü enerji alınca
+benim iç enerjim artmıyor mu evet Demek
+ki 0 celsius taki suyun iç enerjisi
+büyüktür 0 caki buzun iç enerjisinden
+Şahane Öncül ikinci öncülü yanlış 30
+celsus sıcaklıktaki maddeyle ayrı ayrı
+bir araya getirildikleri de maddeyi
+soğutma miktarları aynı olur Bakın ben
+buraya bir sıcaklık ısı grafiği
+çiziyorum meşhur grafiğimiz biz bu
+grafikte ne yaptık buzu erittik gaz
+haline getirdik şunu şöyle biraz Daha
+uzatayım eksi değerlerde bir buzum vardı
+buna Isı enerjisi verdik sıcak sıcaklığı
+arttı 0 derecede buz oldu enerji vermeye
+devam ettik Eridi 0 derecede su oldu
+enerji vermeye devam ettik ve 100
+dereceye doğru kaynamaya doğru gitti
+bizim kaynamayla şu an işimiz yok şu
+nokta 0 derece buz demekti şu nokta da 0
+derece su demekti güzel şimdi ben
+bunları 30 derecedeki başka bir madde
+ile karşılaştırırsak Hatta o madde de su
+olsun Aynı tür olsun ki aynı grafik
+üzerinden
+konuşabilecek Hayal ediyoruz şurada bir
+yerde 30 derece şimdi bu adam suyla
+karşılaşsa 30' la 0 karşılaşsa arada bir
+yerde buluşacaklar Hatta bunların ısı
+Sahaları da eşit olsun denge sıcaklığı
+tam ortada olur yani tam 15 celsus da
+buluşur bu iki arkadaş yatay Eksen ısı
+enerjisiyle çıktı 30 derecedeki suyumuz
+yani 3 maddemiz 30 dereceden 15 dereceye
+soğudu etrafına şu kadarlık Isı enerjisi
+verdi yani bu 30 derecelik madde bu
+kadarlık enerjiyle orantılı olarak
+soğudu Çünkü o kadarını verdi Ben bu
+adamı buzla karşılaştırsın devreye bir
+de buz buzun erimesi girerdi yani bu 30
+derecedeki arkadaş Bir de buzu eritmek
+le uğraşacak ona da enerji verecekti
+Daha Çok Soğuyacak Yani bu adam 0
+derecedeki suyla tam ortada
+karşılaştılar o 0 derecedeki suyu oraya
+kadar ısıtabilir ama 0 derecedeki su
+deseydi ki ben vazgeçtim su olmaktan Ben
+0 derecedeki buz olacağım bu 0
+derecedeki buzu buraya getirmek daha
+meşakkatli olacaktı daha fazla enerji
+ihtiyacı olacaktı Dolayısıyla bu 30' la
+buradaki
+sıfırdı imkansız olacaktı bu 30'luk
+arkadaş daha da soğuyacak olacaktı
+atıyorum burada bir yerde karşılaşacak
+lardı Çünkü buz erimek için 30'dan daha
+fazlasını talep edecekti buradaki 0
+derecedeki suya göre bunu önceki
+dersimizde de konuşmuştuk o yüzden
+içeceklerimiz içerisine biz hal
+değiştirebilen bir şey atıyoruz Çünkü
+bir de hal değiştirmek için gereken
+enerji de çok biliyorsunuz ısı sahasına
+bağlı olmak üzere buradaki buz 30
+derecedeki 3 maddemiz dondurabilir bile
+Bırak 15 dereceyi 10 dereceyi 0 derecede
+bile Buluşabilir her şey mümkün hocam
+bir dakika ben anlamadım 0 derecedeki
+buz la 30 derecedeki o 3üncü sıvı yani
+şundan farklı olan sıvı yine 0 derecede
+Buluşabilir mi hani arada çıkıyordu
+denge sıcaklığı denge sıcaklığı hal
+değişimi yoksa arada çıkar hal değişimi
+varsa burada buzun erimesi söz konusuysa
+0 derecede Buluşabilir şimdi bu konuda
+sayısal işlemlere girmiyoruz ama 30
+derecedeki suyla 0 derecedeki buzun 0
+derecede buluşabilecek
+istiyorum ki bunu daha iyi oturtun o
+yüzden size bazı sayısal veriler
+vereceğim Bir kere ben bu buzla suyu yan
+yana Getirdiğimde sıcaklık farkı var mı
+var o zaman kesinlikle Is alışveriş
+olacak soğuk olan buz Isı enerjisi
+alacak kim verecek onu sıcak olan su
+verecek yine q alınan eş q verilen
+olacak buzun erime ısısı 80 kalori B
+gram suyun öz ısısı 1 kalori B gram
+celsus 30 derecedeki adam Isı enerjisi
+veriyor O kadar versin ki şu an bir akıl
+yürütme yapıyorum 0 ains ne kadar
+vermesi gerekir sıcaklık değişimi var MC
+Delta T yazıyorum Tabii bunları kütle de
+vereyim İkisi de aynı olsun Su da 10
+gram olsun buz da 10 gram olsun kütleye
+10 yazdım öz ısı 1 sıcaklığı 30 30'dan
+0'a indi yani değişim 30 kadar 300
+kalori yapar yani 30 derecedeki su 0
+dereceye indiğinde etrafına 300 kalori
+vermiş olur Kim alacak bu 300 kaloriyi
+buz alacak bu buz 300 kaloriyi aldığında
+tamamen erir mi acaba bu buzun tamamen
+eriyip şuraya gelmesi için Acaba ne
+kadar enerji gerekiyor Onu da
+hesaplayalım burada Hal değiştirme var
+direkt ml üzerinden hesaplamalı Yım
+kütlesi buzun 10 erime ısısı 80 Vay anam
+vay 800 kalori oldu bu ne anlama geliyor
+30 derecedeki suyum ııa kadar inse bile
+buzun tamamının erimesi için gereken
+enerjiyi veremiyor bu 300'lük enerji
+buzun Ancak bir kısmını eritir Yani bu
+buz şuraya falan gelebildi anca bu
+noktaya ulaşamadı E artık bizim 30
+derecedeki adamımız da 0 derece e buz da
+derecedeyim Durdu mu Durdu Hal
+değiştirme varsa denge sıcaklığı arada
+olmak zorunda değildir düşey kesitleri
+şekildeki gibi olan ısıca yalıtılmış klm
+kaplarında H yüksekliğinde ve T
+sıcaklığında su vardır kaplara TK TL TM
+sıcaklıkların su yükseklikler 2h
+oluncaya kadar doldurulduğunda denge
+sıcaklıkları eşit ve T den büyük
+oluyormuş Buna göre Bu dışarıdan
+sonradan koyduğumuz sıvıların
+sıcaklıkları arasındaki ilişki nedir
+diye sormuş soruyu işleyelim başlangıçta
+hepsinde T sıcaklığında su var Hepsine
+t'yi yazdım bu şekillerin ne farkı var
+biri düzgün bir kap biri genişleyen bir
+kap biri Daralan bir kap üçüne de aynı
+seviyeye kadar su koyuyoruz 2 Haa kadar
+bunu yaptığımda denge sıcaklıkları yine
+eşit oluyormuş yani başlangıçta TDi yeni
+sıvılar koydum Son durumda da da t' den
+büyük ama yine aynı oluyor sayı verelim
+T dediğim şey 20 celus olsun hepsinde
+yeni sıvılar konduğunda denge sıcaklığı
+t'en büyük ve eşit olacaksa eğer
+hepsinde denge sıcaklığımız 25 celus
+olsun denge sıcaklığının nerede
+olacağını ne belirliyor Isı sahası yani
+kütle çarpı öz ısı her yerde su var mı
+Evet o zaman öz ısı zaten Ortak o zaman
+ısı sahasını ne belirler kütle işte
+kabın şekilleri burada devreye giriyor
+gençler burada M kütleli su varsa şekil
+düzgün olduğu için H yükseklik H
+yükseklik olduğu için burada da M
+kütleli su var yani biz bu iki kısımda
+aynı ısı sığalı iki sıvıyı karıştırdık
+Dolayısıyla denge sıcaklığı tam ortada
+olmuştur buraya 30 celsi usluk su
+koymuşuz demektir 30 Koydum 20 vardı
+25'te buluştuk Çünkü ısı sığarım eşit
+Burada ise Bakın şu hacim buraya
+koyduğum su miktarı kap genişlediği için
+alttakinden daha büyük yani burada Isı
+sahası daha büyük alttakinden denge
+sıcaklığı Dışarıdan konulana daha yakın
+çıkacak Yani 25 şu adamın sıcaklığına
+yakın olacak 20'ye göre mesela o O zaman
+bu ne olabilir 28 Olabilir değil mi
+buradaki fark 3 buradaki fark 5 Bana
+daha yakın çıktı Aynı şey Burada tam
+tersi bu Daralan bir kap Şuradaki
+sıvının hacmi Dolayısıyla kütlesi
+Dolayısıyla Isı sahası alttakinden dahaa
+küçük o zaman bunun dediği olacak 20'ye
+daha yakın çıkacak ne koymuşuz durur o
+zaman buraya mesela 32 koymuşuz durur
+aradaki fark 7 aradaki fark 5 20'ye daha
+yakın soruyu Böylece bulmuş oluyoruz TM
+> TK O da ü TL Bu da bambaşka bir soru
+tipimiz takıldığınız yerleri al yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

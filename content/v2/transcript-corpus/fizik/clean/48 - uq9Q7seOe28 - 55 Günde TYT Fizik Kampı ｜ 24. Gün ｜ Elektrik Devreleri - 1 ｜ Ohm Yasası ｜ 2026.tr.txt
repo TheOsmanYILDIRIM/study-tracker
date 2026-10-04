@@ -1,0 +1,1205 @@
+gençler merhaba Bu dersimizde birlikte
+artık elektrik devrelerine başlıyoruz
+bunun için gerekli olan 3 tane kavramı
+öğrendik elektrik akımı nedir öğrendik
+Potansiyel fark nedir öğrendik ve Direnç
+nedir öğrendik Bu 3 arkadaş elektrik
+devrelerinde sürekli bahsettiğimiz
+şeyler olacak bunları İyi öğrenmiş
+olmanız gerekiyor Basit bir elektrik
+devresi dediğimiz şey aslında bu solda
+gördüğünüz şeydir birkaç tane devre
+elemanı ve teller burada bir güç
+kaynağımız var burada bir ampulümüz var
+ki ampul dediğiniz şey bir direnç olarak
+kabul edilebilir önceki dersimizde
+konuşmuştuk Şuradaki Tunç Dental direnç
+etkisiyle ısınıp Işık yayan bir madde
+ile Dolayısıyla burada bir direncimiz
+var burada da bir anahtarımız var
+anahtarı açıp kapatarak bu devrede
+akımın dolaşmasını ya da dolaşmamasını
+sağlarız basit bir devre bu kadardır
+burada çok kolay bir şekilde ampul
+yakabiliriz bunun şematik gösterimi
+lambanın gösterimini böyle bir yuvarlak
+içerisinde tırtıklı olarak gösteriyoruz
+ki aslında tırtıklı olarak direnci
+gösteriyoruz böylece bir kez daha
+ampulün aslında bir direnç olduğunu
+görmüş oluyoruz direnç işaretinin
+etrafına şöyle bir yuvarlak çizersen
+ampul camı Gibi Onun bir lamba bir ampul
+olduğunu görürüz anahtar dediğimiz şey
+bu arkadaştır açılıp kapatılabilir Ama
+bu günlük hayatta terstir Örneğin
+anahtarı aç denir ışık yansın istiyorsan
+Normalde fakat bizim gösterimimizde
+devrenin tamamlanması gerekiyor Yani
+Şuradaki çizginin kapatılması gerekiyor
+buraya gelmesi gerekiyor anahtarı
+kapattığın zaman tel bir bütünlük arz
+eder kapalı bir devre elde edersin devre
+de elektrik akımı dolaşır ve Lambayı
+yakarsın anahtar kapalı devre de
+elektrik akımı dolaşıyor ampul yanıyor
+anahtar açık yani şu konum Burası boşluk
+devrede akım Dolaşamaz Çünkü kapalı bir
+devre değil buradaki ampulümüz yani
+lambamız söndü anlamına geliyor günlük
+hayattaki anahtarı aç kapa ile bizim
+burada kullanacağımız anahtar açık
+anahtar kapalı birbirlerinin tam tersi
+siler güç kaynağı dediğimiz şey bir pil
+olabilir bir akü olabilir bunun artı
+Kutbu var Eksi Kutbu var biliyorsunuz
+ilk defa görmüyoruz bunu bunun da
+şematik gösterimi bir tane uzun çizgi
+bir tane kısa çizgi uzun çizgimiz artık
+kutuptur kısa çizgimiz eksik kutuptur
+diyebiliriz Dolayısıyla Biz her
+seferinde böyle
+lambanın Kendi resmi anahtarın Kendi
+resmi pilin kendi resmini
+kullanmayacağız buradaki şematik
+gösterimleri elektrik devrelerinde
+simülasyonumuzda kendi basit devremizi
+kuralım bir tane güç kaynağı atalım
+şuraya tellere ihtiyacımız olacak şöyle
+yanına sağına soluna teller koyalım
+buraya bir anahtar koyalım anahtarla
+devredeki akımı kontrol edelim açalım
+veya kapatalım yine şuraya bir tel
+koyalım buraya artık bir ampul takalım
+telden devam ve şöyle devreyi tamamlamış
+olduk şu an devrede
+lamba yanmıyor Çünkü şu an devrede
+elektrik akımı dolaşmıyor buradaki güç
+kaynağımız hatırlarsanız devrede bir
+Potansiyel fark oluşturuyordu yani
+devrede akımı dolaşmasını sağlıyordu
+Fakat şu an anahtar açık konumda olduğu
+için devrede dolaşacak elektronların
+tamamlayabileceği bir devre olmadığı
+için lamba yanmıyor akım oluşmamış
+oluyor burada güç kaynağı olmasına ve
+devrede Potansiyel fark olmasına rağmen
+ne zaman ki ben bu anahtarı kapatırım
+gördüğünüz gibi elektronlar harekete
+geçer bu elektronlar ampulden geçmeye
+başlar oradaki telde telin içerisindeki
+atomlarla etkileşir o direnç etkisine
+maruz kalır bu tunçtenin içerisindeki
+maddenin atomları daha çok titreşirler
+sıcaklığı artar o kadar artar ki Işık
+yaymaya başlar işte ampul odayı
+aydınlatıyor deriz Tabii şu an elektron
+hareketini görüyorsunuz pilin eksik
+Kutbu Burası artı Kutbu Burası eksiden
+artıya doğru devreye dolaşıyorlar
+elektrik akımı dediğimiz şey bir kabul
+gereği bunun tersiydi yani elektrik
+akımı artıdan eksiye idi elektron
+hareketini değil akımı görmek istersem
+gördüğünüz gibi artıdan eksiye doğru
+devrede dolaşan şey elektrik akımıdır
+anahtar açarsam bu Elektrik akımını
+kesmiş olur şimdi direnç dediğimiz şey
+günlük hayatta kullandığımız birçok ev
+aleti olabilir önceki derste
+konuştuğumuz gibi ütünün içerisine
+rezistans var bir dirençtir elektrik
+enerjisini ısı enerjisine dönüştürür
+fırında aynı mantık kettle'da aynı
+mantık saç kurutma makinesinde aynı
+mantık Bunları özellikle ısı üretsin
+diye zaten kullanıyoruz Bir de bizim
+elektronik devrelerde kullandığımız
+dirençler var Örneğin bir ana kartın
+üzerinde Mesela bilgisayarın kasasını
+açarsınız kocaman bir anakart görürsünüz
+o anakartın üzerinde böyle küçük küçük
+aletler görürsünüz Bunlar dirençtir özel
+olarak üretirler fabrika üründür Yani
+bunlar Bir iletkenin doğal olarak sahip
+olduğu dirençten farklıdır O zaman bizi
+Şu soru karşılıyor Biz Manyak mıyız
+hocam direnç akıma karşı gösterilen
+zorluk ise Neden devrelere özellikle
+direnç koyalım bu adamlar istenmeyen bir
+şey değil mi akımı azaltan bir olay
+değil mi bu iyi de fazla akım
+istediğimizi kim söyledi her zaman
+yüksek akıma çalışmak istemeyiz Neden
+özellikle elektronik devreler için bunu
+kullanıyoruz Çünkü elektronik devreler
+hassas devrelerdir Örneğin bir cep
+telefonu anakart küçücük akımlarla
+çalışıyoruz sen devreye özellikle direnç
+koyarsın özellikle direnci arttırırsın
+ki devrede dolaşan elektrik akımı daha
+az olsun Böylece o elektronik kartımız
+bozulmasın ısınmasın yanmasın direnç
+etkisi istenmeyen bir şey değil
+Çoğunlukla işimize yarayan bir şey
+günlük hayatı zaten söylemiyorum
+fırındır ütüdür bir de elektronik
+devrelerimizi korumak için özellikle
+devrelere yerleştirdiğimiz özel üretilen
+parçalar bunlar hocam Bunun içerisinde
+ne var özel olarak ne üretiyorlardı buna
+koyuyorlar diyebilirsiniz kauçuk benzeri
+malzemeler var Rose yani öz direnç
+katsayısı çok fazla olan ama aşırı
+yalıtkan da olmayan arada bir yerde
+malzemelerle dolduruyorlar bunu direnci
+yalıtkan seviyesine gelmeyecek kadar
+arttırmış oluyoruz Çünkü tamamen
+yalıtkan olsa hiçbir Elektrik akımını
+geçirmez Bu da istediğimiz bir şey değil
+Basit bir elektrik devresinde anahtar
+güç kaynağı ve bir lamba yeterli yani
+direnç Bir de bazen ölçüm yapmak için
+oraya yeni aletler takarız mesela
+voltmetre metre Metre ifadesini
+gördüysen Onun bir ölçü aleti olduğunu
+anladın volt dediğin şey potansiyel
+farkın birimi O zaman voltmetre dediğin
+alet Potansiyel fark ölçer devrelerde
+şekil olarak şuna benzer
+laboratuvarlarda bunu görürsünüz Bu
+girişlerden Birine bir kablo takarsınız
+diğerine bir kablo takarsınız ve o iki
+kablo ile devreye bağlarsınız buradaki
+ibrenin gösterdiği değer o iki nokta
+arasında ölçtüğünüz potansiyel farklı
+değeridir voltmetre dediğiniz şey devre
+elemanına paralel bağlanır paralel
+bağlama ne demek hatta birazdan da seri
+bağlamayı duyacağız Bunlar ne anlama
+geliyor Aslında bir sonraki dersimizin
+konusu olan dirençlerin bağlanmasında
+bunları detaylı olarak öğreneceğiz ama
+kısaca şöyle bir açıklama yapabilirim
+paralel bağlamak kabaca akımın
+gidebileceği farklı yollar demek diyelim
+ki şöyle bir teliniz var bu telden Bir
+akım geliyor İki tane direnci biri
+yukarıda biri aşağıda şöyle olacak
+şekilde çizersem ve bu teli de devam
+ettirirse yukarıda R1 direnci var R2
+direnci var şu an bu iki direnci paralel
+bağlamış olduk Çünkü buradan gelen I
+akımının önüne farklı yollar açmış Oldu
+diyelim ki buradan 5 amperlik akım
+geliyor bu 5 amperlik akım geldi yol
+ikiye ayrıldı bunun bir kısmı yukarıdan
+gidecek sallıyorum 3 amper bir kısmı
+aşağıdan gidecek O da 2 amper Çünkü
+toplamı 5 amper olmalı bir nehir yatağı
+gibi düşün su geliyor İki kola ayrılırsa
+bir kısmı soldan gider geri kalan kısmı
+da sağdan gider akım farklı yollardan
+gittiği için o farklı yollar paralel
+bağlanmış demektir bu dirençle bu direnç
+paralel bağlıdır voltmetreyi niye
+paralel bağlıyoruz şöyle bir lamba
+düşünelim O da bir direnç buraya bir güç
+kaynağı bağlayalım güç kaynağımız
+devrede Potansiyel fark oluşturarak
+akımın oluşmasını elektronların hareket
+etmesini sağlıyor diyelim ki 20 voltluk
+bir Potansiyel fark oluşturuyor bizim
+güç kaynağımız elektro motor kuvveti 20
+volt Bu ne demek ben bu kadar fark
+oluşturuyorum artı Kutup eksi Kutup artı
+Kutup yüksek potansiyel eksi Kutup alçak
+potansiyel Ben şuraya 20 desem şuraya 0
+demeliyim farkı 20 olacak çünkü bu
+sayıları kafama göre bildiğim önceki
+derste konuşmuştuk 0'a 20 yazmak zorunda
+değilim şuraya 5 o zaman buraya 25 de
+yazabilirdim yeter ki fark 20 olsun
+Çünkü bizim güç kaynağımız 20 voltluk
+fark oluşturmak zorunda devrede bu 20
+voltu şuraya taşırım bu 0 voltu buraya
+taşırım şimdi ben bu lambanın uçları
+arasındaki potansiyel farkı ölçmek
+istiyorum Acaba kaç volt var diyorum bir
+voltmetre kullanacağım bir şeyin farkını
+nasıl alırsın iki şeyi birbirinden
+çıkartırsın o iki şey hakkında bilgi
+sahibi olman lazım yani bu voltmetrenin
+iki tane ucu var İki tane giriş var bu
+voltmetre dediğimiz arkadaşı ki devrede
+şöyle gösterilir bir ucundan bu noktaya
+diğer ucundan bu noktaya bağlarım ki şu
+ucu 20 voltu ölçmüş olsun bu ucu 0 volta
+ölçmüş olsun desin ki He bir uçta 20 var
+Öbür uçta sıfır var Bak iki uç hakkında
+fikir sahibi oldu şimdi bunların farkını
+alacak çıkartacak 20 - 0'dan diyecek ki
+bu ampulün uçları Arasında 20 voltluk
+Potansiyel fark diyecek işte bu ölçümü
+yapıp söyleyecek bize bu İki noktadan
+aynı anda bilgi alabilmesi için bu
+şekilde bağlanmalı bu şekilde paralel
+bağlama bak Buradakine benziyor buradan
+bir elektrik akımı geldiğini düşünsem bu
+elektrik akımının önüne şu an iki kol
+çıktı bu lambanın üzerinden gidebilir
+voltmetrenin üzerinden gidebilir akım
+farklı yollara ayrılıyorsa o farklı
+yollar yani buradaki voltmetre ve
+buradaki lamba paralel bağlanmıştır
+burada önemli bir durum daha var Her ne
+kadar voltmetre paralel bağlanmak
+zorunda olsa da iki farklı yoldan birini
+oluştursa da üzerinden akım geçmesini
+istemeyiz Yani buradan gelen I akımı İki
+kola ayrılacak ama voltmetrenin üzerine
+akım gitmesini istemeyiz bütün buradaki
+ı akımının bu lambadan geçmesini isteriz
+Çünkü ben lambanın uçları arasındaki
+potansiyel farkı ölçmek istiyorsan bütün
+akım bu lambanın üzerinden geçmeli Eğer
+bir kısmı voltmetreye giderse o zaman
+devreyi bozmuş olurum ölçmek istediğim
+şeyi bozamam o zaman doğru bir ölçüm
+yapmış olmam Bu yüzden bu voltmetreler
+tasarlanırken nasıl tasarlanıyorlar
+sonsuz dirence sahipmiş gibi
+tasarlanıyorlar içlerindeki direnç o
+kadar büyük ki yalıtkan gibi Dolayısıyla
+bunların üzerinden akım geçmiyor yani
+şuradan 10 amper geliyorsa Normalde Evet
+iki kola ayrılacak paralel bağlı Bunlar
+ama yukarıya sıfır aşağıya 10 amper Yani
+direkt lambanın üzerinden 10 amper
+gidecek Ve böylece buradaki 10 amperi
+bozmamış olacağız ölçmek istediğimiz bu
+lambanın uçları arasındaki potansiyel
+farkı devreyi bozmadan ölçebileceğiz bu
+önemlidir voltmetrenin iç direnci o
+kadar büyüktür ki sonsuz kabul edilir
+peki Arkadaşım biri çıktı dedi ki hocam
+ben paralel bağlamak istemiyorum
+voltmetreyi seri bağlamak istiyorum
+Bakın bu paralel bağlama şeklidir Az
+önce çizdiğim şeydir zaten atıyorum
+buradaki güç kaynağımız devrede 25
+voltluk bir Potansiyel fark oluşturuyor
+sayıları kafamdan sallıyorum şurası 3
+voltsa o zaman burası 28 volttur yüksek
+potansiyel alçak potansiyel şimdi bu 28
+voltu Ben şuraya kadar taşıyabilirim
+burada 28 volt var Bu 3 voltu da buraya
+kadar taşırsam Burada da 3 volt var
+voltmetre ne ölçer bu noktayı ve bu
+noktayı ölçer bu noktada 28 var bu
+noktada 3 var 2 koluyla bunları alır ve
+farkını alır 28 - 3'ten voltmetre der ki
+bu lambanın uçları arasında 25 volt var
+der zaten bu mantıkta paralel
+bağlıyorduk ama seri bağlarsan yine
+ölçüm diyebilir miyim yapamam Bu lamba
+yanmaz bu lambanın üzerinden akım geçmez
+Neden Çünkü voltmetreler neredeyse
+sonsuz dirençli kabul edilir Ya sen
+buraya bir yalıtkan bağladın bu devrede
+herhangi bir akım Dolaşamaz ki güç
+kaynağı da olsa Hatta denir ki
+voltmetreler açık anahtar gibi
+davranırlar buraya voltmetreyi
+bağladıysan bunu şöyle Hayal edebilirsin
+demek oluyor burada pilin var voltmetre
+yerine açık bir anahtar çiz sonra lamba
+çiz ve devreyi tamamla Şimdi ben size
+kafadan şu devreyi verseydim lamba yanar
+mı deseydim ne derdiniz ne hocam burada
+anahtar açık Bu lamba Tabii ki yanmaz
+derdiniz işte voltmetre Aynen böyle
+davranıyor aslında burada da öyle
+davranıyor açık anahtar gibi o yüzden
+yukarıya akım gitmediğini Düşünebilirsin
+Bu da başka bir bakış açısı sadece
+ölçümü yapıyor başka hiçbir şeye
+karışmıyor devreyi de bozmuyor Walk
+metreler devre elemanlarına seri
+bağlanmazlar seri bağlandığı anda bütün
+devredeki akımı keserler gelelim diğer
+devre elemanımıza yine bir ölçü
+aletimize Çünkü içinde metre ifadesi var
+ampermetre Amper nedir akım birimidir O
+zaman bu arkadaş ne ölçüyormuş akım
+ölçüyormuş aynı voltmetreye benzer bir
+şekli şemali var voltmete de şurada V
+yazıyordu ampermetrede burada A yazıyor
+zaten bunların çalışma sistemleri çok
+benzer bunlara galvanometre denir Hatta
+bunların çalışma prensibi 2023 ayt'de
+çıkmış bir sorudur Biz şu an tyt'de
+olduğumuz için bizi ilgilendirmiyorlar
+burada da iki tane uç var gördüğünüz
+gibi bir telle buradan giriş yaparız
+başka bir telle buradan çıkış yaparız ve
+neyi ölçmek istiyorsak oraya bağlarız
+diyor ki üzerinden geçen akım şiddeti
+ölçüleceği için devre elemanına seri
+bağlanır voltmetreler devre elemanına
+paralel bağlanıyorlardı ampermetreler
+seri bağlanıyorlar paralel farklı yollar
+demekti akımın gidebileceği farklı
+yollar olması demekti seride ise tam
+tersi akımın gidebileceği tek yol var
+tek bir tel var Mesela sizin burada Yine
+Bir ampulünüz Var Bir lambanız var Hemen
+Bunun yanına a harfi ile göstereceğim
+ampermetreyi bağlarsanız seri bağlamış
+olursunuz şu an bu lamba ile bu
+ampermetre seri bağlıdır Neden Çünkü
+buradan bir akımın geldiğini düşünürsen
+bu akımın gidebileceği Şu an tek bir yol
+var herhangi bir yol ayrımı yok bu
+lambanın üzerinden geçer ampermetrenin
+üzerinden geçer ve tamamlar farklı bir
+yola ayrılmadı farklı yola ayrılmadığı
+için tek bir tel olduğu düşünülür tek
+bir tel varsa buradaki bağlanma şekline
+seri bağlama deriz Peki niye seri
+bağlıyoruz ampermetreyi Çünkü ampermetre
+akım ölçmek istiyor sen bu ampermetre
+Lambaya seri bağlıysan
+lambadan geçen akımı ölçmek
+istiyorsundur şimdi buradan gelen I
+akımına ben 5 amper desem Buradan böyle
+5 amper geliyor
+lambadan 5 amper geçti ampermetrenin
+ölçüm yapabilmesi için bu 5 amperin
+ampermetreden de geçmesi lazım ki ölçsün
+o yüzden hemen yanına bağlıyorum aynı
+tele bağlıyorum yani seri bağlıyor yolun
+kenarında durup oradan geçen arabaları
+saymak istiyorsanız O yola inmeniz lazım
+yolda olmanız lazım ampermetrede işte o
+akımın yolu üzerinde duruyor Şimdi
+burada çok ciddi bir kavram yanılgısını
+hemen giderelim hocam burada lamba
+dediğin şey aslında bir direnç akıma
+karşı gösterilen bir zorluk Siz buradan
+5 amper geliyor diyorsunuz Akın burada
+dirençle boğuşacağı için dirençle akımı
+azaltıcı bir faktör olduğu için
+lambadan sonra 5 amper yoluna devam
+etmez ki Hocam mesela 3 amper yoluna
+devam eder ampermetrede 3 amper ölçmüş
+olur ve yanlış bir ölçüm yapmış olur
+Hayır gençler buradaki akım Lambayı
+geçtikten sonra da yoluna 5 amper olarak
+devam eder Biz potansiyel farkı akımı
+direnci benzetmelerle öğrenmiştik ilk
+dersimizde Mesela bir su tesisatı
+oradaki akan su elektrik akımına
+benzetiliyordu güç kaynağı dediğim pil
+Oradaki bir su pompasına su motoruna
+benzetiliyordu suyu daha yüksek bir yere
+taşımakta kullanılıyorduk o yüksekten
+alçağa su kendi akıyordu Potansiyel fark
+oluşturuyordu güç kaynağı şimdi bir su
+tesisatında su motoruna gelen su bütün
+devreyi dolaşıp her ne kadar yolda
+zorluklarla karşılaşsa da aynı şekilde
+geri gelmiyor mu su buharlaşıp uçuyor mu
+başka bir yere mi gidiyor Hayır aynısı
+dolaşıyor aynı su dolaşıyorsa Burada da
+aynı akım dolaşıyor yani Ben şuradan
+geçince 3 ampere düşmem Evet sizin su
+tesisatınıza bazı yerler daralıyordur
+bazı yerler geniştir Bazı yerlerde böyle
+ufak tıkanıklıklar vardır onları direnç
+gibi kabul edebilirsin Ama ama su
+dönmeye devam ediyorsa akış devam
+ediyorsa buradaki su motorundan ne
+geçtiyse Aynen o su geri gelir hocam o
+zaman direnç akımı nasıl azaltacak
+hiçbir şey azaltmıyor bu adam bunun
+detaylarına
+bakacağız ama buradaki direnç
+başlangıçta gelecek olan akımı zaten
+kafadan azaltmış oluyor yani buradaki Bu
+lamba olmasaydı zaten 5 amper
+gelmeyecekti atıyorum 8 amper gelecekti
+buraya o Lambayı bağladığın anda sen onu
+5'e düşürmüş oluyorsun kafadan o düşmüş
+hali ama bütün devreye dolaşır bu
+Yazacağım notu Kesinlikle unutmuyorsun
+iyi öğreniyorsun tek telden tek akım
+geçer Burada bir tane tel var o zaman
+bütün bu tel boyunca hangi devre
+elemanını koyarsan koy
+lamba koy ampermetre koy hepsinde aynı
+akım dolaşır miktarı değişmez
+ampermetreyi devre elemanına paralel
+bağlarsak ne olur Neden seri bağlandınız
+Şimdi konuştuk zaten
+lambanın üzerinden ne kadar akım
+geçtiğini ölçmek İstiyorsan onun hemen
+yanına aynı tele bağlanman gerekiyor
+buradan 10 amper geliyorsa bu lambadan
+10 amper geçer bu ampermetreden de 10
+amper geçer ve lambadan ne kadar akım
+geçtiğini bu ampermetre ölçmüş olur
+voltmetre'deki direnç şartının benzeri
+ampermetrede de var Şimdi biz bu
+arkadaşı buraya seri bağladıysak Bu
+arkadaşın herhangi bir direnç etkisinin
+olmaması gerekiyor ampermetrelerin iç
+direnci sıfır kabul edilir Çünkü
+ampermetrenin de kendi iç direnci olursa
+buradan geldiğini düşündüğüm 10 amper
+başlangıçta daha küçük amper olarak
+gelir Yani yine ölçüm yapacağın yeri
+bozmuş olursun Biz bunu yapamayız ölçü
+aletleri ölçeceği şeyi bozamazlar
+etkisiz eleman olmak zorundalar ki doğru
+ölçüm yapsınlar bu arkadaş seri
+bağlandığı için direncinin sıfır olması
+lazım direnci sıfır olmazsa başlangıçta
+gelen akım değerinde azalma olur
+Dolayısıyla Normalde lambadan geçecek
+olan akım daha az bir akım olmuş olur
+biz de bunu istemeyiz voltmetrelerin iş
+direnci sonsuz kabul edilecek kadar
+büyük ampermetrelerin iç direncide 0
+kabul edilebilecek kadar küçüktür bu
+yüzden sen ampermetreyi paralel
+bağlarsan işler karışır buradan bir akım
+gelir anahtar kapalı bu Akın buradan
+geçti önüne iki tane yol çıktı Bu
+ampermetreyle bu lamba paralel bağlı bu
+akımın bir kısmı yukarıdan bir kısmı
+aşağıdan gidecek Hatta sen bu arkadaşa
+sıfır direnç dediğin için buradan gelen
+bütün akım ampermetreden geçecek buradan
+geçecek olan akım Lambaya gidecek olan
+akım 0 olacak çünkü burada hiç direnç
+yok biz buna kısa devre diyoruz şu an
+lamba kısa devre olur yani bu yanmaz
+söner Çünkü lambanın üzerinden akım
+geçmiyor ampermetrelerde kapalı anahtar
+gibi davranırlar buradaki ampermetre
+etkisiz eleman düz bir telden hiçbir
+farkı yok yani Ben şu devreyi
+lamba var bir tane kapalı anahtar var
+burada ve güç kaynağı var olarak
+çizseydim bu devreyle bu devre arasında
+hiçbir fark olmaz çünkü anahtarın da iç
+direnci yok bu ampermetrenin de iç
+direnci yok ama buradaki kapalı anahtar
+boş tel 0 direnç işleri karıştırır
+lambanın kısa devre olmasına yani
+sönmesine sebep olur Bunu potansiyel
+farktan da açıklayabiliriz neden
+lambanın yanmayacağını şöyle şimdi
+dediğim gibi ampermetre Aslında direnci
+olmadığı için bomboş bir tel olarak
+düşünülebilir buradaki güç kaynağı
+diyelim ki 30 voltluk Potansiyel fark
+oluşturuyor devrede alçak potansiyel
+kısmına 0 volt yüksek potansiyel kısmına
+30 volt dersem ben bu 30 voltu önüme bir
+direnç çıkana kadar taşıyabilirim buraya
+da 30 volt derim buraya da 30 volt derim
+burada önüme direnç çıktı buraya gelirim
+Burası da 30 volttur ve Burası boş tel
+ampermetre etkisiz eleman Burası da 30
+volttur o zaman Burası da 30 volttur
+şimdi bak Bu lamba solda 30 volt sahada
+da 30 volt'a Mar çalıyor ben size desem
+ki gençler bir direnç var solunda 30
+volt var sağında da 30 volt var hangi
+yönde akım geçer diye sorsam ne cevap
+verirsiniz dersiniz ki hocam burada akım
+geçmez ki Niye Çünkü akımın geçmesi için
+akım bir yerden bir yere gidiyorsa
+yüksek potansiyelden alçak potansiyele
+gidiyordur bunun uçları arasında
+Potansiyel fark yok ki Potansiyel fark
+yoksa akım yoktur akım dediğin şey her
+zaman yüksek potansiyelden alçak
+potansiyele gider o yüzden artıdan
+eksiye doğru gidiyor çünkü artı yüksek
+potansiyeldir - alçak potansiyeldir iki
+ucu arasında da aynı potansiyel oluştuğu
+için bu lambanın üzerinden herhangi bir
+akım geçmeyecektir O yüzden bu lamba
+yanmayacaktır Bu da kısa devrenin Bir
+Başka yorumu mudur hocam boş tel boş tel
+deyip duruyorsunuz Biz önceki direnç
+dersimizde Tellerin direncini konuştuk
+hatta bu Tellerin direncine R = ro çarpı
+L bölü a dedik uzunluk alan telin cinsi
+gibi şeyler söyledik burada niye hiç
+Tellerin direncinden bahsetmiyorsunuz
+Evet gerçek hayatta Tellerin direnci var
+fakat bizim buradaki lambamızın direnci
+o kadar büyük ki şu Tellerin direncinin
+yanında biz bu Tellerin Diren ihmal
+ederiz Sanki hiç direnç yokmuş gibi
+düşünürüz derlerdi bu noktada önemli bir
+noktadır Az önce gördüğünüz ampermetre
+ve voltmetreler günlük hayatta da
+kullanıyorlar ama o haliyle değil onlar
+genelde okul laboratuvarlarındalar bir
+elektrikçiye gittiğinizde o da akım
+ölçümü yapar potansiyel ölçümü yapar ama
+buradaki gibi bir avometre ile yapar ya
+da diğer ismiyle multimetre avometre
+nereden geliyor a dediğim şey amper V
+dediğim şey volt o dediğim şey de 10
+yani akım Potansiyel fark ve direkt
+direnç ölçüyor hepsini birden ölçüyor O
+yüzden Multi metre çoklu ölçen alet
+üzerinde ayarlar var buradaki düğmeyi
+çevirdikçe akım ölçmek istiyorsan akıma
+denk getiriyorsun Potansiyel fark ölçmek
+istiyorsan v'ye denk getiriyorsun direnç
+ölçmek istiyorsan r'ye denk getiriyorsun
+hepsi bir arada elektrikçilerde
+göreceğiniz alet budur tekrar basit
+devremize geldik anahtar açık olduğu
+için şu an Lambayı almıyor Ben buradan
+anahtarı kapatırsam akım dolaşmaya
+başlar ve lamba yanmaya başlar
+ampermetre ve voltmetre öğrendik
+ampermetreyi bağlayacağım ve buradan kaç
+amper akım geçtiğini ölçmeye çalışacağım
+Şuraya bir yere ampermetre bağlıyım
+buradaki teli keseyim şuraya bağlayayım
+hemen yanına bağladım Yani aynı tel
+üzerine bağladım o zaman seri bağladım
+doğru bir bağlantı olmuş oldu 0.90 amper
+geçiyormuş şu an bütün devrede dolaşan
+akım değeri budur Peki ben bu arkadaşı
+paralel bağlamamalıydım Çünkü ampul kısa
+devre oluyordu Çünkü ampermetre kapalı
+anahtar gibiydi boş tel gibiydi o zaman
+paralel bağlamayı deneyelim tekrar
+şuraya telimizi takalım buradan
+ampermetremizi şöyle alalım tellerle
+bunu farklı bir yol oluşturacak şekilde
+şöyle paralel bağlamaya çalışalım dikkat
+ederseniz lambası söndü ve şu an pilimiz
+yanıyor aşırı ısındı Neden Çünkü sen
+buradaki
+lambanın direncini iptal ettin Çünkü
+üzerinden akım geçmiyor kısa devre
+devrede direnç o kadar azaldı ki sıfıra
+yaklaştı O yüzden akım da o kadar çok
+arttı ki neredeyse sonsuza yaklaştı
+Hatta bakın burada yazıyor
+89.917 amper akla hayale sığmayacak Bir
+akım değeri bu daha bahsetmedim ama
+pillerin de iç dirençleri var pilin
+içerisindeki o direnç etkisiyle devasa
+bir akım geçtiği için şu an pilimiz
+gerçek hayatta olsa patlamıştı
+ampermetre Bu yüzden paralel bağlanmaz
+çok tehlikeli iştir kısa devre dikkate
+alınması gereken bir durumdur Şu
+anahtarı açıp pilimizi kurtarıyoruz
+ampermetreyi Sökelim Hatta tekrar bunu
+pile seri bağlayalım anahtarımızı
+kapatalım yine ölçümünün 100 gündüz gün
+yapsın Şimdi bir de voltmetre ile ölçüm
+yapalım voltmetreyi paralel bağlayacağım
+bu lambanın uçları arasındaki potansiyel
+farkı ölçeceksem voltmetrenin Bir ucunu
+lambanın soluna diğer ucunu sağına
+bağlarsam gördüğünüz gibi 9 volt Ölçtü
+Bu da şu anlama geliyor bu nokta ile bu
+nokta Arasında 9 voltluk fark var demek
+oluyor peki neresi daha büyük neresi
+daha küçük önemli bir nokta akımın
+yönüne dikkat et akım nereden nereye
+gider yüksek potansiyelden alçak
+potansiyeli şu an Akın burada sola doğru
+gidiyorsa lambanın üzerinden sola doğru
+geçiyorsa Burası yüksek potansiyel
+Burası alçak potansiyeldir O zaman şu
+pembe noktaya ya 9 volt dersem bu pembe
+noktaya sıfır volt demem lazım ya da bu
+pembe noktaya 32 volt dersem bu pembe
+noktaya 23 volt demem lazım fark 9 olsun
+yeter ve yüksekten alçağa doğru Ak
+olacaklar devrenin analiz kısmı bu kadar
+Şimdi ben sadece bu yansın istiyorum
+diğerleri yanmasın istiyorum üzerinden
+akım geçmesin istiyorum şimdi şuradan
+bir akım geldi diyelim ki 10 amperlik
+Bir akım geldi bunun Nasıl yanmamasını
+sağlayabilir ya ampermetre bağlayacaksın
+diyor ya voltmetre bağlayacaksın diyor
+buraya voltmetre bağlasam voltmetre
+sonsuz dirençtir bu 10 amper gelir İki
+kola ayrılması gerekir Ama burada sonsuz
+direnç olduğu için yukarıya hiç gitmez
+10 amper buradan güzel güzel yoluna
+devam eder lambamız da yanlış olur ama
+ben yanmasını istiyorum o zaman buraya
+bağlanamam gereken bir şeye bağlamalıyım
+Az önceki simülasyondaki gibi buraya
+ampermetre bağlamalıyım Çünkü ampermetre
+boş teldir neredeyse sıfır dirençtir bu
+10 amper İki kola ayrılacak Ama yukarıda
+hiç direnç olmadığı için bütün 10 amper
+yukarıya gidecek bu arkadaş kısa devre
+olacak Bu lamba yanmayacak 10 amper
+buradan yoluna devam eder buraya kadar
+gelir bu 10 amperin İki kola
+ayrılacağını söyledim bir kısmı yukarıya
+bir kısmı aşağıya gidecek Çünkü burada
+da paralel bağlama var ama ben ye
+yanmasın istiyorum En azından soru öyle
+istiyor Bu iki numaraya ne bağlayın
+ampermetre bağlasam Şahane boş der akım
+gelir geçer ama ben buraya voltmetre
+bağlarsam arkadaş sonsuz direnç Burası
+yalıtkan ortam gibi olur buraya akım
+gitmez bu lamba yanmaz voltmetreler seri
+bağlanmaz E o zaman bu 10 amper mecburen
+tamamen aşağı inecek Bu da sorunsuz
+yansın istiyorum Burası boş tel gibi
+olsun o zaman sakın voltmetre bağlama ne
+bağlayacağız ampermetre bağlayacağız
+ampermetre seri bağlanır güzel güzel
+ölçümünü yapar bu 10 amper böyle yolunu
+tamamlar ve kapalı bir devre oluşturmuş
+oluruz pilden 10 amper çıkıyormuş gibi
+düşündüm pile tekrar 10 amper geliyormuş
+gibi düşündüm al sana su tesisat
+buradaki su motorundan ne kadar suyu
+yukarı bastıysak aynı su geri gelecek
+mecburen 10 gittiyse 10 geri gelmek
+zorunda yolda su buharlaşmıyor kayıp
+kaçağımız yok tekrar hatırlatıyorum
+önemli kavram yanılgısını hocam burdaki
+lamba bir dirençtir 10 amper geliyor o
+zaman buradan 8 amper yoluna devam eder
+diyemezsin Çünkü o zaman buradan 8 amper
+getirmen gerekirdi su motorda derdi ki
+Ben 10 bastım 8 niye geri geldi derdi
+iki nereye uçtu derdi öyle bir şey
+olmayacaktır Şimdi geldik en önemli yere
+yani 10 Aslında farkında değilsiniz Ama
+bunu çok iyi öğrendiniz bu 3 tane
+kafadarı birbiriyle eşleştireceğiz Nedir
+o 3 tane Kafadar Potansiyel fark akım ve
+direnç Aslında V potansiyel demek Ama
+Delta ve genelde gösterilmez kitaplarda
+Biz bunu Potansiyel fark olarak
+düşüneceğiz Öncelikle bunların
+tanımlarını bir tekrar hatırlayalım
+burada bir eşleştirme yapalım direnç ne
+demek Potansiyel fark ne demek akım ne
+demek bir bakalım birim yükün devreye
+dolaşması için harcanan enerjidir enerji
+denilince aklına pil gelsin pil devreye
+enerji sağlıyor ki o elektronlar devreye
+dolaşabilsin Yani bir elektrik akımı
+oluşsun devreye enerji sağlaması demek
+aslında Zaten Potansiyel fark
+oluşturabilmesi demek aynı bir su
+motorunun devredeki suyu
+dolaştırabilmesi için enerji harcaması
+gibi Dolayısıyla bu potansiyel farkın
+tanımıdır Bir iletkenin dik kesitinden
+Birim zamanda geçen yük miktarıdır Bak
+ben bu cümleyi formülüne döküyorum telin
+kesitinden Birim zamanda geçen yük
+miktarı bu sana neyi hatırlatıyor Tabii
+ki akımı hatırlatıyor O zaman bu arkadaş
+akım şiddetidir Bir maddenin yüklerin
+hareketine karşı gösterdiği doktorluk
+yine adından da gayet anlaşılıyor ki
+dirençtir bu tanımları biliyorsan
+Aslında bu üç arasındaki ilişkide şu an
+kurmuş olmalıyız Potansiyel fark dediğim
+volt devredeki elektronları hareket
+ettirir akım oluşturmaya zorlar Bu
+karikatürde onu anlatıyor volt buradan
+geçmeye çalışan telden geçmeye çalışan
+akımı arkadan tekmeliyor gitsin diye
+zorluyor o zaman Potansiyel fark ne
+kadar büyükse devredeki akım da o kadar
+fazla olacaktır yine benzetme yapalım
+kütle çekimine benzetelim Potansiyel
+fark ne kadar büyükse bir misketi o
+kadar yukarıdan bırakıyorsun demektir
+daha yukarıdan bırakılan misketler daha
+hızlı hareket ederler o misketlerin
+hareketi de akım olarak düşünülürse daha
+yüksek Potansiyel fark daha yüksek akım
+demek buradaki on ne yapıyor yani direnç
+ne yapıyor bu akımın gitmesini
+engellemeye çalışıyor Onu sıkıştırmaya
+çalışıyor karikatürde O zaman bu akımla
+direnç ters orantılı Eğer direnç
+artmışsa bir elektrik devresinde oradaki
+akımın azalması gerekir gitmesini
+zorlaştırıyor Çünkü o zaman ben bu
+söylediklerimi bir formül haline
+Getirirsem potansiyel farklı akım doğru
+orantılı eşitliğin solo büyürse sağı da
+büyür Ama bu akım dirençle ters orantılı
+potansiyel farkın sabit olduğunu
+düşünürsem direnç artarsa akımın
+azalması lazım Neden Çünkü eşitliğin sol
+tarafı şu an sabit o zaman eşitlik
+olduğu için sağının da sabit olması
+lazım E sen r'yi arttırıyorsun sabit
+kalması için o zaman azalması gerekiyor
+Bu bizim meşhur vır dediğimiz formüldür
+Potansiyel fark eşittir akım çarpı
+direnç İşte biz buna 10 yasası diyoruz
+bazı arkadaşlar buna direnç yasası
+diyorlar buradaki 10 lafını gördükleri
+için hayır gençler George Simon on diye
+bir bilim insanı var Bu üçlü arasındaki
+ilişkiyi bulan insan bu çalışmasından
+dolayı direncin birimine onun ismini
+veriyorlar yani buradaki on dediğim şey
+direnç demek değil adamın adı Bunu
+karıştırmayın şimdi v = ı çarpı r diye
+denklemimiz varsa o zaman ben buradan
+r'yi çekersem ve böyle ı diye bir
+denklemimiz olur devredeki direncin
+sabit olduğunu düşünürsek Mesela bir
+tane ampulüm var sadece onun direncinden
+bahsedebiliyoruz sellerin dirençlerini
+ihmal ediyoruz ampul aynı ampul ampulü
+fiziki özellikleri değiş dedikçe
+içindeki o Tunç tentenin uzunluğu
+kalınlığı ya da tunçten olma özelliği
+değişmedikçe direnç sabittir Bu da ne
+demektir devredeki Potansiyel fark
+artarsa devredeki akım da artacak
+demektir potansiyel farkı devrede pil
+oluşturduğuna göre ne kadar güçlü bir
+pil o kadar fazla akım demek Bunu
+grafiğe dökersek V potansiyel farkı ı
+akım demektir 2v Potansiyel fark 2 ı
+demektir çünkü bunlar doğru orantılılar
+hiç Potansiyel fark olmazsa devrede pil
+olmazsa o zaman akım oluşmaz O da sıfır
+olur potansiyel farklı akım arasındaki
+grafik böyle düzgün artan bir grafiktir
+burada biraz matematik yapalım biz Çünkü
+grafiklerin eğimlerini alanlarını
+hesaplamayı seviyoruz biliyorsunuz Bu
+grafikte eğim hesaplasak yani bölme
+işlemi yapsak Şuraya bir Alfa açısı
+kondursak burada bir üçgen Hayal etse
+şöyle bir üçgen bu açının karşısında şu
+kenarı yok mu düşeyde Bir kenar Evet
+aynı bunun gibi Ne bu düşey Eksen
+Potansiyel fark eksileni O zaman ben bu
+kenara V desem potansiyel farkı temsil
+ediyor desem yatayda da bu kenar var bu
+açının komşusu yatay Eksen akım şiddeti
+ekseni Yani bu da Iğdır
+ne demek matematikte karşı kenar bölü
+komşu kenar demek bu açının karşısında
+Potansiyel fark var komşusunda akım var
+O zaman bu grafiğin eğimi v/ıdır Biz
+v/ı'ya fizikte direnç diyoruz o zaman bu
+grafiğin eğimi dirençtir Örneğin ikinci
+bir direncin grafiğini şöyle çizsem
+mavinin mi direnci fazladır Kırmızının
+direnci fazladır dediğimde hiç hesap
+kitap yapmaya gerek yok eğim direnci
+veriyor hangisi daha dik mavi daha dik o
+zaman mavinin direnci fazladır Bu
+Matematik yorumu Fizikle yorumlayalım
+Mesela şöyle bir Eksen düşünelim bu
+kesinlikle çizginin üzerinde bu noktaya
+aldım Bir de şu noktayı aldım Bak bu
+yeşil nokta kırmızıyla ilgili bir şey
+diyor ki bu yeşil nokta kırmızı dirence
+V Potansiyel fark uygularsan ı kadarlık
+akım geçer yani ve eşittir ı çarpı r'nin
+ta kendisi Ama buradaki yeşil nokta
+diyor ki bu mavinin temsil ettiği
+direnci 2 ve Potansiyel fark uygularsan
+yine ı akımı geçer buradaki matematiğin
+sağlanması için buradaki direncin 2r
+olması lazım yani daha çok zorluyoruz
+daha çok akım geçsin istiyoruz ama yine
+geçmiyor Demek ki direnç daha fazla
+buradan tekmeleyen daha güçlü ama sıkan
+da güçlü o zaman akımın gitmesi aynen
+devam ediyor diyebiliriz bu
+simülasyonumuzda Om yasasının görelim
+burada bir direncimiz var doğal bir
+direnç değil yapay bir direnç fabrika'da
+üretilmiş 500 onluk değeri var bu bizim
+güç kaynağımız İlla pil olmak zorunda
+değil böyle güç kaynaklarımız da
+olabilir 30 volt Potansiyel fark
+oluşturuyor Bu da bizim ampermetremiz
+Size az önce gösterdiğim avometre ya da
+multimetre yani modern bir ölçü aleti
+diyor ki şu an 60 miliamper akım var
+yani
+0.06 amper Nereden buldu bunu vırdam
+buldu akımı yalnız bırakırsam volt böyle
+direnç olur volt 30 volt direnç 53500'e
+bölersem 0.06 çıkar o da 60 miliamperdir
+bakın buradaki grafik az önce çizdiğimiz
+grafiğin tam tersi Biz Az önce volt akım
+grafiği çizmiştik Bu akım volt grafiği O
+zaman az önce söylediklerimin tam tersi
+grafiğin eğimi direnç hakkında bize
+bilgi veriyor eğim ne kadar büyükse
+direnç o kadar büyük demiştik ama burada
+bu işaretler yer değiştirdiği için ı ile
+göre tam tersi olacak eğim ne kadar
+küçükse direnç o kadar büyük olacak
+direnç dediğimiz şey ve bölü Iğdır
+direnç sabit olduğu için şu aletin
+fiziksel özellikleri değişmediği
+müddetçe 500 kalacağı için voltajı
+arttırmak akımı da arttırır direncin
+değişmemesine sebebiyet verir direnç
+sabit kalır deneyelim güç kaynağını
+arttırıyorum 40 volt 50 volt diye
+arttırıyorum hep mavi çizgi üzerinde
+kalıyor Çünkü o mavi çizgi direnci
+temsil ediyor direnç değişmiyor ki ben
+buradaki voltajı arttırdıkça bu
+ampermetreki amper değerini de arttığını
+görüyorum ve artarsa da artar ama direnç
+sabit Peki direnci değiştirirsem o zaman
+grafik değişir eğim değişir Mesela daha
+büyük bir dirence geçelim 10 Yani bir
+kilo noktamız buraya geldi 36,5 volt
+potansiyel farkımız var binom yani 1
+kilo direncimiz var Bunları böldüğümüzde
+36 buçuk miliamper ampermetrede
+gördüğünüz gibi bir akım okuyoruz
+potansiyel farkı arttırırsam aynı direnç
+çizgisi üzerinde akım da artar
+Potansiyel fark azaltırsam akım da
+azalır diyebiliriz direnci küçültüyorum
+mesela 250 Om potansiyel farkı
+arttırıyorum azaltıyorum hep aynı çizgi
+üzerinde gidip geliyoruz Çünkü direnç
+hep 250 on eğim sabit kalmalıdır bu
+grafik ters olduğu için direnç
+küçüldükçe çizgilerimizde dikleştiler
+Çünkü bu akım voltaj grafiği günlük
+hayatta rastladığımız bir şey konuşalım
+bir telefonu ya da bir dizüstü
+bilgisayarı kullanırken ya da şarj
+ederken ısındığı gözlemlenir neden
+gençler elektriksel bir Alette Isı
+enerjisi açığa çıkıyorsa kesinlikle
+orada bir direnç etkisi vardır elektrik
+akımı bir yerlerden geçmeye çalışıyordur
+o malzemenin içerisindeki atomlarla
+etkileşiyordur o malzemenin atomların
+titreşimlerini arttırıyordu yani
+sıcaklığını arttırıyordur Bu da ısınma
+demektir fakat ısınan şeyler Neler
+piller dizüstü bilgisayarın pili
+ısınıyor cep telefonunun pili ısınıyor
+bu ne anlama gelir Demek ki o
+üreteçlerin yani o pillerinde
+kendilerine ait İçlerinde bir direnç var
+tabii ki var Onların da içlerinde
+iletkenler var iletken olan her yerde
+direnç var üreteçlerin de iç direnci var
+ama biz onun detaylarını üreteçler
+kısmında bakacağız burada çözdüğümüz
+bütün sorularda üreteçlerimiz iç
+dirençsiz kabul edil olacak iç
+dirençleri ihmal edilecek Örneğin bu
+devreye baktığımda pilde direnç var
+demeyeceğim sadece şu R vardır diyeceğim
+Aynı zamanda bu Tellerin dirençlerin de
+ihmal ettiğimi tekrar hatırlatayım
+şekildeki elektrik devresinde pilin
+devrede oluşturduğu Potansiyel fark 30
+volt iken dirençten geçen akım 5
+amperdir Buna göre R direncinin kaç 10
+olduğunu bulunuz demiş Şimdi Normalde
+direkt formülde yerine koyar işin
+içinden çıkarız ama biliyorsunuz Biz
+ezbere iş yapmıyoruz Ne olduğunu daha
+detaylıca konuşalım bu arkadaş devrede
+30 voltluk bir Potansiyel fark oluşturan
+güç kaynağı o zaman alçak potansiyel
+kısmına sıfır volt dersem yüksek
+potansiyel kısmına 30 volt dersem önüme
+bir direnç çıkana kadar bu
+potansiyelleri taşıyabilirim buraya
+kadar 30 voltu taşırım aynı şekilde 0
+volta da buraya kadar taşırım direncin
+uçları arasında şu an Potansiyel fark
+var mı var yani ben Şuraya bir voltmetre
+bağlasam paralel bir şekilde kaç
+okuyacaktır bir ucunda 30 var öbür ucuna
+sıfır var 30 volta okuyacaktır ve Biz ne
+konuştuk sizinle yüksek potansiyelden
+alçak potansiyele doğru elektrik akımı
+geçer işte bak elektrik akımı geliyor 5
+amper değil mi Burası da yüksek
+potansiyel Burası alçak potansiyel
+yüksekten alçağa doğru bu adam böyle
+bütün devreye dolaşıyor Aslında artıdan
+eksiye gitmek demek Başka bir açıdan bu
+demek şimdi O zaman ben bu R için vır
+yazarsam uçlar arasında ne kadar
+Potansiyel fark var 30 volt üzerinden ne
+kadar akım geçecek burada tek tel var
+buradaki 5 amperin gidebileceği
+alternatif bir tel var mı başka bir yol
+var mı hayır yok bütün devreyi bu 5
+amper dolaşacak o zaman buradaki ı
+yerine 5 yazarım çarpı r direnç
+değerimiz buradan 6 Ohm çıkacaktır Şimdi
+gelelim başlarda konuştuğumuz şeye Hocam
+bu tek telde tek akım mantığı benim
+aklıma yatmıyor Çünkü direnci etkisiz
+elemanmış gibi düşünüyorum Ben hep
+buradan 5 amper geliyor diyorsunuz
+Buradan da 5 devam eder diyorsunuz
+direnç ne işe yarıyor o zaman nerede
+zorluk bak zorluk şurada buradaki
+direncin değerini biz altı bulduk değil
+mi diyelim ki bu direnç 6 değil de 10
+olsaydı o zaman ne olurdu pil aynı pil
+30 volt Potansiyel fark Aynı burada R
+yerine 10 yazardın O zaman senin akımın
+5 değil 3 amper olurdu bütün devrede
+yine aynı akım dolaşırdı Ama bu sefer 5
+amper değil 3 amper dolaşırdı bu direnci
+geçince yine 3 amper olarak yoluna devam
+ederdi adam yani yapacağın en başta
+yapıyor kendi üzerinden geçerken
+yapmıyor o beşi üçe düşürüyor
+Dolayısıyla direnç etkisiz eleman değil
+tek telde tek akım olur Bunu sakın
+unutmayın şekildeki devre parçasını
+direnç değerine sahip lambanın iki ucu
+arasındaki potansiyel değerleri 18 volt
+ve 10 volttur Buna göre akım hangi yönde
+kaç amper şiddetindedir burada 18 volt
+var burada 10 volt var O zaman burada
+bir Potansiyel fark var Burası yüksek
+potansiyel Burası alçak potansiyel
+yüksek potansiyelden alçak potansiyele
+doğru elektrik akımı hareket eder Yani
+A'dan B'ye doğru bir akım oluşacak vır
+yazacağım ben burada değerini hesaplamak
+için buradaki V yerine ne yazacağım
+18'imi Yazacağım onu mu yazacağım İkisi
+de değil Çünkü buradaki votansiyel değil
+aslında az önce söyledim bu Potansiyel
+fark Aslında Delta ve yazmalıyız ama
+işte herkesin alışkanlığı V diye
+gidiyoruz buraya voltmetre bağlasam bir
+ucu buraya bir ucu buraya 18'i ölçer onu
+ölçer bunların farkına alır der ki
+buradaki fark 8 volt O zaman sende
+dersin ki bu lambanın uçları Arasında 8
+Volt fark var ne kadar akım geçecek
+bilmiyorum bunu arıyorum zaten nedir
+bunun direnci 2 O zaman burada geçen
+akım 4 amperlik bir akımdır ve bir
+yönündedir Potansiyel fark akım
+grafikleri şekildeki gibi olan a ve b
+lambalarının dirençlerini oranlayınız Az
+önce simülasyonda da gördük ama o tersi
+bu volt akım grafiği yani düşey Eksen
+Potansiyel fark yatay Eksen akım bu
+grafikte eğim bize ve bölü ı'yi verir
+Şuraya bir açı yazarsam burada bir üçgen
+yaparsam karşı bölü komşu düşey bölü
+yatay düşeyde Potansiyel fark yatayda
+akım V bölü fizikte nedir dirençtir
+içler dışlar yaparsam buradan vırı
+bulursun Çünkü o zaman ben bu mavinin ve
+Kırmızının eğimlerini hesapladığım anda
+Aslında dirençlerin de hesaplamış
+oluyorum mesela şu noktayı incelesem
+kırmızıda burada bir üçgen varmış gibi
+düşünsem buraya bir açık koysam şurası
+kaç bir ucuz sıfırda diğer ucu 20'de o
+zaman burası 20 komşu şurası komple bir
+ucu sıfırda öbür ucu dörtte Burası 4
+20/4'ten 5 onluk bir dirençten bahsetmiş
+oluruz
+bakıyoruz şu noktayı incelesem şöyle bir
+açık kondurabilirsin Şu kenara Ve bu
+kenara bakabilirsin burada ne var bir
+ucu sıfırda öbürcü 40'ta burada 40 var
+komşusunda Ne var bir ucu sıfırda öbür
+ucu 4'te komşusunda 4 var O zaman burada
+da 40/4'ten 10 onluk bir dirençten
+bahsederiz eğim ne kadar büyükse direnç
+de o kadar büyüktür mavi kırmızıya göre
+daha dik eğimi daha fazla Bu yüzden
+direnci daha fazla çıktı bize oran
+soruyordu 10/5'ten 2 çıkacaktır son
+olarak daha önce bahsini geçirdiğimiz
+reostayı devrede görelim şemasını
+görelim reosta dediğim şey
+değiştirilebilir bir dirençti hatta bir
+videosunu izlemiştik Dimmer anahtar
+vardı onu çevirdiğimizde evimizdeki
+odanın lambası yavaş yavaş sönüp yavaş
+yavaş parlıyordu bir anda Yanıp Bir anda
+sönmüyordu kademeliydi Çünkü oradaki
+direnci kademeli olarak değiştirip akımı
+kademeli olarak değiştirmiş oluyorduk Bu
+da parlaklığı aşama aşama değiştirmek
+anlamına geliyordu reostanın gerçek
+versiyonu bu şuradan bir tel giriş
+yaparsın şuradan bir yerden çıkış
+alırsın buradan gelen akım Burayı takip
+eder
+üzerinden gelir Şuradaki Silindirde
+dirence maruz kalır bu telin üzerinden
+yoluna devam eder önceki dersimizde
+zaten konuşmuştuk Mesela ben bu sürgüyü
+sol tarafa çeksem ne olur bu sürgü
+şuraya gelse akım gelir yine aynı
+şekilde ama artık sürgü burada olduğu
+için buradan silindire iner daha fazla
+dirence maruz kalır ve yoluna devam eder
+Yani buradaki sürgüyü sola çektim diye
+direnci arttırmış oldum Çünkü direnç ro
+çarpı L bölü a'dır ilk durumda sürgü
+ortadayken Şu kırmızı uzunluktaki
+dirence maruz kalıyordum sola çektiğimde
+şu mavi uzunluktaki dirence maruz
+kalıyorum yani ben direncin boyunu
+arttırdım o zaman direncin kendisini
+arttırdım sürgüyü hareket ettirerek
+dirençle oynayabiliyoruz İşte o yüzden
+şemasında da böyle bir sürgü var bakın
+güç kaynağı var Buradan Bir akım geliyor
+buradan gelen akım aynı Buradaki gibi şu
+yolu takip eder Buradan böyle gelir
+sürgünün üzerinden şu tırtıklı yapıyla
+muhattap olur işte direnç kısmı
+burasıdır bizim için ve buradan akım
+yoluna devam eder şurayla bir işimiz yok
+ama ben bu sürgüyü bu sefer de sağ
+tarafa şunun tersi olsun sağ tarafa
+çeksem bir yönünde çeksem ne olur akım
+bu sefer buradan gelecek sürgü sağda
+olduğu için buradan gelecek ve şu
+kadarlık dirence maruz kalacak daha da
+az dirence maruz kalacak Çünkü biz bu
+sefer l'yi azalttık o zaman maruz
+kaldığımız direnç de azaldı yani ben
+bunu bir yönünde çektiğimde devredeki
+direnç azaltmış oldum iki yönünde
+çekseydim Aynı bunun gibi devredeki
+direnci arttırmış olurdu Bu bir kanun
+değil sağa çekince azalıyor sola çekince
+artıyor Sadece bu şekil için geçerli
+soruda bambaşka bir şekilde
+karşılaşabilirsiniz O yüzden
+ezberlemiyorsunuz mantığını öğrenmiş
+oluyorsunuz yine Basit elektrik
+devremize döndük anahtarı kapattığımız
+zaman 0.90 amperlik akım dolaşıyor
+devrede ben buraya bir reosta
+bağlayacağım ve o reosta ile oynayıp
+lambanın parlaklığını ve buradaki akımı
+nasıl değiştiğini göreceğim mesela şu
+teli iptal edelim Dolayısıyla Burası
+açık oldu açık anahtar gibi oldu lamba
+söndü kapalı devre olması lazım akımın
+artı kutuptan eksik kutup'a doğru
+ulaşabilmesi lazım reostayı şöyle
+sembolize etmiş simülasyon Ben bunu
+aldım şuraya şöyle direkt bağlayabilirim
+şekle takılmayın şu an seri bağlı Burada
+her şey çünkü tek tel var yamuk durması
+bizi ilgilendirmiyor 0.45 ampere düştü
+direkt neden akım azaldı parlaklık da
+azaldı Dolayısıyla Çünkü buraya bir
+direnç bağladım bunu buraya bağlamam
+bile devrenin direncini arttırdı akımı
+azalttı vır yaptığımda devredeki
+potansiyel farkı sağlayan arkadaş sabit
+direnç arttığı için akım azalacaktır
+Tabii ki şimdi ben bu reosta ile
+oynayacağım Bakın Şu an 10 değeri varmış
+arttırıyorum direnç akımın nasıl
+azaldığına bakın 0.20 ampere düştü
+parlaklık iyice azaldı azaltıyorum
+direnci reosta ile oynuyorum iki Oma
+düşürdüm 0.75 ampere çıktı akım lambanın
+parlaklığı da arttı Çünkü reostanın
+direncini azalttım pili aynı pil
+devredeki Potansiyel fark aynı
+potansiyel farkı Art işte Evinizdeki O
+din ve anahtarla da böyle oynuyorsunuz
+odanızın lambasını kısıyorsunuz ya da
+açıyorsunuz olay reosta da bitiyor
+gelelim dersimizin son sorusuna reosta
+ile ilgili bir uygulama yapacağız
+şekildeki devre parçasında görülen
+reostanın AC noktaları arasındaki direnç
+değeri 10 olmuş Ace hemen bunu işleyelim
+şu uzunluktan dolayı odaklanan direnç 10
+olmuş buna göre reostanın sürgüsü B
+noktasındayken oluşan direnç değeri ile
+E noktasındayken oluşan direnç değerini
+oranlayınız noktalar arası uzaklıklar
+eşittir şimdi direnç dediğimiz şey ro
+l/a burada direncin kesit alanın arttığı
+ya da azaldı yani kalınlaştı inceldiği
+bir yer yok bu bizim için bir değişken
+değil buradaki direncin cinsi değişmiyor
+hangi malzemeden yapıldıysa her yerde o
+var O zaman buradaki direnci belirleyen
+şey o reosta'daki boy olacaktır sürgünün
+nerede olduğu olacaktır a ile C arasına
+10 Om dediyse noktalar arası
+uzaklıklarda eşitse o zaman bunların her
+biri 5 odur diyebiliriz a b arası BC
+arası her biri 5 10 şimdi sürgü B
+noktasındayken yani buradayken hangi 5'i
+alacağım devredeki direnç kaç Tabii ki
+akıma bakacağız bak akım buradan
+geliyorsa bu 5 home'dan geçer bu
+sürgüden yoluna devam eder O zaman şu
+arkadaşların hepsini pas geçti mi
+Bunların hepsini pas geçti maruz kaldığı
+tek direnç budur o zaman B
+noktasındayken oluşan direnç 5 homdan
+ibarettir şimdi bir sürgü E'ye çekelim
+bunları silelim bu sürgüyü Ta böyle en
+sağ tarafa şuraya çekmem gerekiyormuş
+artık burada sürgü falan yok o zaman
+akım geldi mecburen buradaki dirençlerin
+hepsinden geçecek sürgüye geldikten
+sonra yoluna devam edecek Bunların hepsi
+ile muhatap oldu 5 10 15 20 yani e
+noktasındaykenki direnç değeri 20 10'dur
+birinde 5 çıktı birinde 20 çıktı
+oranlayın diyor 5/20'den Sorumun cevabı
+1/4 olacaktır bu dersimiz bu kadardı bir
+sonraki dersimizde dirençleri seri
+bağlayacağız paralel bağlayacağız
+onların akımlarını potansiyel farklarını
+ölçeceğiz devre analizinin gözüne gözüne
+vuracağız takıdıklarınızı alta yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

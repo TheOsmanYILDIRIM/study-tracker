@@ -1,0 +1,1157 @@
+Normalde şeffaf renkte olan ışığı
+geçiren suyun içerisine ışığı
+hapsedecek var o lazer ışığı suyun
+içerisine hapsediliyor oradaki su
+kırmızı renkte gözüküyor lazerin
+renginde gözüküyor bunu hangi fizik
+kurallarına dayanarak yapabiliyoruz veya
+fiberoptik kablo teknolojisi dediğimiz
+kıvrılabilen Hatta buradaki gibi
+dairesel hale getirilmiş bir kablonun
+ucundan lazer tuttuğumuzda diğer ucunda
+ışığı nasıl elde ediyoruz yani o Işık
+dümdüz gitmiyor mu bizim bildiğimiz
+Işığın doğrusal yayılması lazım dümdüz
+gitmesi lazım ama burada defalarca
+dolanmış bir kablonun ucundan Işık elde
+edebiliyoruz tamamen buradan
+gönderdiğimiz ışığı elde ediyoruz
+çıkıştan Işık Hani doğrusal gidiyordu
+bugünkü dersimizin konusu ışığın tam
+yansıma olayı ve sınır açısı Gençler biz
+önceki derslerimizde kırılma olayını
+öğrendik indis kavramını öğrendik
+optiksel olarak az yoğun olmak Yani az
+indis sahibi olmak optiksel olarak çok
+yoğun olmak Yani çok indis sahibi olmak
+ne demektir Azdan çoka geçerken ne olur
+çoktan aza geçerken ne olur bunları
+konuştuk şimdi burada özel bir durum
+inceleyeceğiz Biz ışığı çok indis az
+indis göndereceğiz mesela sudan havaya
+göndereceğiz önceki dersimizde öğrendik
+Eğer çok indis az indis geçiyorsanız
+normalden uzaklaşıyordu yani ışığın
+yavaş olduğu bir yerden ışığın daha
+hızlı olduğu yere geçiş yaparken ışığın
+Normalden uzaklaştığını daha önce
+konuştuk neden öyle olduğunu
+bilmiyorsanız Lütfen önceki kırılma
+videosunu izleyiniz Şimdi benim burada
+noktasal bir ışık kaynağım var ben
+bundan ışınlar çık artıyorum sudan
+havaya geçtiğimizi düşünüyorum N1 indis
+hava ortamında N2 indis su ortamında var
+diyebilirim suyun indisinin havadan
+büyük olduğunu biliyorum yani n2n N1 den
+büyük olduğunu biliyorum Şimdi bir tane
+normalin üzerinden Işın gönderiyorum
+yani ayırıcı yüzeye dik normal
+çizgisinin tam üzerinden gelen kırmızı
+bir Işın var ne demiştik normalin
+üzerinden geliyorsan Aynen yoluna devam
+edersin bu adam dümdüz yoluna devam etti
+Daha sonra şu noktaya ışık kaynağından
+Işık gönderiyorum normalim ii çektik
+gelme açımız burada 20 derece Bu
+arkadaşın orijinal Rotası şöyle bir şey
+kırılmasaydı ortam değiştirmesi böyle
+gitmesi gerekirdi çoktan aza geçtiği
+için normalden yani solunda kalan bu
+Normalden daha uzağa gidecek kaçacak
+normalden uzaklaşacak çoktan aza
+geçerken böyle oluyordu Eğer ben bu
+noktaya Işın gönderirsem daha geniş
+açıyla göndermem gerekir gelme açım 30
+derece olur 20'den daha büyük olur gelme
+açın büyüdüyse kırılma açın da büyür
+yani orijinal rotan daha çok saparsın
+normal rotan buysa Şuradaki Normalden
+daha da uzağa kaçarsın niye e sinal
+bağıntısında konuşmuştuk bunları N2
+ortamından geliyorum O ortamdaki açının
+sinüsü Gelme açısı diyelim buna buraya i
+demiş oldum N1 ortamına geçiyorum o
+ortamdaki kırılma açısının sinüsü
+kırılma açısı kırılan ışının normalle
+yaptığı açı bu bizim normalim kırılma
+açım şurası buraya R dedik sinüs R
+yazacağım N2 ortamı aynı N2 ortamı N1
+ortamı aynı M1 ortamı su hava Bunlar
+sabit bunları değiştirmedim gelme açımı
+20 değil de 30 yaparsam i açısını
+büyütmüş olurum Dolayısıyla komple
+sinüsü büyütmüş olurum eşitliğin sol
+tarafını büyütmüş olduk burada bir
+eşitlik var o zaman sağ tarafta
+büyüyecek e N1 sabit oldu olduğuna göre
+o zaman sinüs R büyüyecek sinüs r'nin
+büyümesi için buradaki r'nin büyümesi
+lazım yani kırılma açım büyür O yüzden
+20 ile geldiğimde normalden şu kadar
+uzaklaştı İsam 30' la geldiğimde
+normalden çok daha fazla uzaklaşmam
+gerekiyor daha da büyük bir açıyla
+gönderirsem normalim mi Çektim açıyı
+daha da büyüttüm mesela 40 derece yaptım
+normalim Şu Arkadaş orijinal rotam bu
+daha da uzaklaştım Hatta o kadar
+uzaklaştım ki sınır dediğim ayırıcı
+yüzeye paralel gittim işte bu özel bir
+durumdur şu an tamamen salladığım
+sayılara bakarsak buradaki 40 dereceye
+Biz sınır açısı ismini veririz kırılma
+açısının 90 D olduğu duruma Biz sınır
+açısı diyoruz bu arkadaş bizim gelen
+ışınımı bu arkadaş kırılan ışınımı
+normal çizgimiz şu kesikli çizgi şu
+yeşil çizgi bizim orijinal
+rotamızdan ışının yani şu arkadaşın
+normalle yaptığı açıdır kırılma açısı 90
+derece ise yani sınırdan gidiyorsan
+ayırıcı yüzeyin üzerinden gidiyorsan
+işte oradaki gelme açısına Biz sınır
+açısı diyoruz Peki bundan da büyük bir
+açıyla gönderirsem Yani bu kaynaktan şu
+ışını çıkartırsam e burası 40 İsa Burası
+daha da büyük bir açı sallıyorum 60 dce
+e gelme açım iyice büyüdü normalden
+iyice uzaklaşmam lazım da Daha ne
+uzaklaşacak işte bundan sonrası artık
+kırılma değildir bundan sonrası
+yansımadır Yani senin gönderdiğin Işın
+diğer ortama geçemez bulunduğu ortamda
+kalır buradaki ayrıcı yüzey Bir ayna
+gibi davranır Ayna demiyorum ayna gibi
+diyorum öyle davranır normalini ışığın
+çarptığı yere çekersin 60 dereceyle
+geliyorsa senin ışının 60 derece ile
+yansır yansıma kuralları geçerlidir
+dediğim gibi bu bir kırılma değil değil
+yansımadır işte biz buna tam yansıma
+diyoruz tam yansıma dediğimiz şey ışığın
+bulunduğu ortamı terk edememesi demektir
+diğer ortama geçememesi demektir ve bu
+Ancak ve ancak çok indis az indis
+geçerken mümkündür sudan havaya geçerken
+olur camdan havaya geçerken olur havadan
+cama geçerken bunu yaşaman mümkün değil
+havadan suya geçerken bunu yaşaman
+mümkün değil gönderdiğin Işın diğer
+ortama geçebilir ama çoktan aza geçerken
+sınır açısından daha büyük bir açıyla
+gönderdiğinde artık Normalden daha fazla
+tam yansıma yaparız Peki neden çoktan
+aza geçerken mümkün de Azdan çoka
+geçerken tam yansıma olmuyor dikkat
+ederseniz tam yansıma dediğim şey sınır
+açısından sonra oldu yani gönderdim
+normalden uzaklaştı Biraz daha büyük
+açıyla gönderdim daha çok uzaklaştı
+Biraz daha büyük açıyla gönderdim daha
+da çok uzaklaştı tam sınırdan gitti
+Şuradaki sinal bağıntısını yazsam N2
+ortamından belli bir açıyla geliyorum
+sinüs i diyelim buna Şuradaki iyi
+silelim kafamız karışmasın buradaki
+gelme açısına Ben şu an i dedim eşittir
+M1 ortamı çarpı oradaki açının sinüsü
+oradaki açı sınır durumunda 90° yani
+sin90 yazmalıyım sin90 matematikte 1'dir
+Dolayısıyla N2 x sinüs i = N1 gibi bir
+şey elde ediyoruz sinüs i dediğin şey
+dar açılar için ki biz burada hep dar
+açılarla uğraşıyoruz 0 la 1 arasında bir
+değer alıyor iye 0 yazarsan Sinüs 0
+Matematikte 0 demektir iye 90 yazarsan
+yani dar açının maksimumun yazarsan
+sin90 = 1 demektir sin30 sin60 sin80 hep
+bu Aralıkta yani 0 la 1 arasında değer
+alıyor e 0 virgüllü bir sayı çarptığın
+sayıyı küçültür yani atıyorum sinüs i
+dediğin şey 0.5 ise N1 dediğin şey n2n
+yarısı kadardır Yani bu denklem diyor ki
+bana N2 > N1 dirir diyor N2 ne N2 benim
+Işık kaynağım olduğu ortamın indisi N1
+ne ışığı göndermeye çalıştığım ortamın
+indisi işte ben uydurdum dedim ki burası
+su olsun burası hava olsun dedim kırılma
+açısının sinüs 90 olması bu şartı
+gerektiriyor ışığı gönderdiğin ortamın
+indisinin ışığın geçmeye çalıştığı
+yerden büyük olmasını gerektiriyor
+tersini düşünelim Şuraya bir normal
+çektim Işığımı az yoğun ortamdan az
+indis çok indis geçiriyorum sınırdan
+gitme durumunu incelemeye çalışıyorum
+burada bir Alfa açısıyla geldik ışığımız
+sınırdan gitti buranın 90 olduğunu iddia
+ediyoruz N1 az indisi olduğu için bunu
+sallıyorum 1 dedim N2 çok indis
+sallıyorum Buna da 2 dedim şimdi burada
+sin L yazsam ne yazarım N1 x sin Alfa =
+N2 x kırılma açısı yani şurası 90° sinüs
+90 buradaki aynısı yani E şimdi sinüs 90
+1 n1 de 1 N2 kaç 2 e 2 x 1 burayı 2
+yaptı bu eşitliğin sağlanabilmesi için
+sinüs alfaya 2
+sinüs dediğin değer 0 la 1 arasında
+değerler alabilir E o zaman böyle bir
+eşitlik olmaz o zaman sınır açısı
+muhabbeti Ancak ve ancak çoktan aza
+geçerken olur Tam yansıma da sınır
+açısının Bir tık Ötesi olduğu için o
+açıdan biraz daha büyük açı gerektirdiği
+için tam yansıma da ancak ve ancak
+çoktan aza geçerken olur burada
+konuştuğum şeyler önemli ezber
+yapmıyoruz test kitaplarında bize çok
+sorulan bir soru tipi var sınır açı
+değerlerine bakarak Su cam Elmas gibi
+ortamların kırıcılık indislerini
+var sudan havaya geçiş camdan havaya
+geçiş elmastan havaya geçiş Bu tablo
+diyor ki bana sudan havaya geçerken
+sınır yaptığın Gelme açısı 48.825183
+durumu yaşamamız muhtemeldir İşte bu
+açılarda gönderirsen sınır oluyor bu
+açıları Bir tık aşarsan tam yansı mı
+olur diyor acaba bu değerlere bakarak
+suyun indisi daha büyük camın indisi
+daha büyük elmasın indisi daha büyük
+nasıl anlarız hava ortamı var bilmediğim
+x ortamı var Normal çizgimi çektim
+ayırıcı yüzeye dik şöyle kafama göre bir
+Işın gönderiyorum çoktan aza geçerken
+sınır açısı yapma durumumuz var Eğer
+buradaki açıyı uygun bir şekilde
+gönderirsen ışınını sınırdan gidebilir
+Şimdi ben buraya Alfa dedim kırılan Işın
+Yani bu sınırdan giden adamın normalle
+yaptığı açı ki 90 O zaman ne yazabilirim
+NX Ç buradaki gelme açısının sinüsü
+sinüs Alfa eş n hava çarpı oradaki
+kırılma açısının sinüsü sinüs 90 n
+havanın 1 olduğunu biliyor muyuz Evet
+sinüs 90'ın 1 olduğunu biliyor muyuz
+Evet o zaman NX dediğim şey 1 B sinüs
+Alfa ile bulunabilir mi Evet dar
+açılarda ki tekrar söylüyorum Bizim
+işimiz hep dar açıyla Alfa büyükse onun
+sinüsü de büyüktür yani sinü 31/2 dirir
+sinü 60 √3 B 2'dir daha üy sinü 60 sin90
+2/2 dirir yani 1'dir açı büyüdükçe
+sinüsü de büyür şimdi buradaki Alfa
+gelme açı açısı Alfa ne kadar büyükse
+sinüs Alfa da o kadar büyük buradaki
+matematikte payda kısmı büyürse sonuç
+küçülür yani NX küçülür yani o çok
+indisli ortamın indisi daha küçük olur
+bu tabloda en büyük sınır açısı kimde
+suda sudan havaya geçerken şu açının 8.8
+olması gerekiyormuş açı büyükse indis
+küçüktür suyun indisi zaten yanlış
+hatırlamıyorsam 1.33 mesela elmasta 24
+derece var Bu ne demek açı küçük Gelme
+açısı küçük Gelme açısı küçükse sinüs
+Alfa küçük matematikte payda kıs kı
+küçükse sonuç büyük bu çok
+indisinin ortamda
+indisinin ortamında Ben ışığı şöyle
+gönderirsem daha küçük bir açıyla
+gönderirsem sınırdan gider demek elmasa
+Gelme açısı 24.4 olmalı o zaman ne
+diyebiliriz Elmas ortamının indisi
+büyüktür su ortamının indisi diyebiliriz
+bu tabloda Ortada ne var cam var 41.2
+ortadaki açı ortadaki indis demektir
+Demek ki camın indisi de ortaya
+yazılmalıdır bu tabloya göre elmasın
+indisi cam an büyük Onun da indisi sudan
+büyük gelme açılarıyla ters orantılıdır
+diyebiliriz mantığı da Şuradaki ifadeden
+çıkmaktadır ya da tersten düşüneceğim
+bir mantık öğreteyim ben size Işık ters
+inebilir biliyorsunuz ve önceki
+dersimizde öğrendiğimiz çok önemli bir
+not vardı ortamlar arasındaki indis
+farkı büyürse kırıcılık artar Işık daha
+çok kırılır havanın indisi 1 zaten bu x
+ortamının indisi ne kadar büyükse o
+zaman bu iki ortam arasındaki indis
+farkı o kadar büyüktür Şimdi ben buradan
+kırmızı Işın da gönderiyorum siyah Işın
+da gönderiyorum ayırıcı yüzeye paralel
+gönderiyorum Bu bir akıl yürütme Bunu
+unutmayın Bu adam normalde dümdüz
+gidecek kırmızı orijinal rotasından
+sapmış buraya kırılmış siyah orijinal
+rotasından sapmış buraya kırılmış Kim
+daha çok kırılmış siyah siyah elmas
+ortamında ışığın izlediği yol kırmızı su
+ortamında ışığın izlediği yol Demek ki
+hava Elmas ilişkisinde Delta n büyük
+indis farkı büyük havaya 1 dediysem
+elmasın indisine 3 diyeceğim sayıyı
+salladım bu kırmızı Işın hava su
+ikilisinden meydana geliyor daha az
+kırılmış yolundan daha az sapmış Demek
+ki hava su ikilisinden indis farkı daha
+az havaya bir dediğ isem suya 2 indis
+diyebilirim burada fark bir burada fark
+daha fazla 2 bu akıl yürütme de elmasın
+indisinin sudan büyük olması gerektiğini
+bana söylüyor beyaz ortam hava ortamı
+mavi ortam mor ortam Neyse artık bu
+rengi tanımlayamıyorum şu an cam ortamı
+havanın indisi 1 camın indisi 1,5
+buradan gönderdiğim Işın normale
+yaklaşarak kırılır Çünkü az indis çok
+indis gönderiyorum hangi açıyla
+Gönderirsen gönder cam ortamına ışığın
+geçtiğini görüyorsun sınır açısı tam
+yansıma gibi şeyler olmuyor yansıma
+oluyor önceki dersimizde konuşmuştuk
+gönderdiğin ışığın % y00 karşıya geçmez
+çoğunluğu geçer azı yansır mesela 101'
+im Işık göndermiş % 187 isi geçmiş % 122
+isi yansımış tam yansımada adından da
+anlaşılabileceği gibi tamamının
+yansıması lazım Burada tam yansıma olayı
+gerçekleşmez Çünkü az önce ispatladığı
+üzere Azdan çoka Geçerken Bu olay
+gerçekleşmez O zaman yer değiştirelim
+Yukarıyı cam ortamı yapıyorum aşağıyı
+hava ortamı yapıyorum bakın gönderdiğim
+Işın çoktan aza geçiyor normalden
+uzaklaşmış Bu arkadaşın orijinal Rotası
+şöyle bir şeyken normal solunda kalmış
+bu sağa doğru kaçmış normalden
+uzaklaşmış çok çoktan aza geçerken böyle
+olur Ben bunu daha büyük bir açıyla
+gönderirsem gördüğünüz gibi Normalden
+daha çok uzaklaşıyor kırılma açısı
+artıyor Biraz daha büyük açı kırılma
+açısı daha da arttı Normalden daha da
+uzaklaştı Biraz daha büyük açı daha da
+uzaklaştı Gelme açısı büyüdükçe kırılma
+açısı büyüdü öyle bir açı değeri denk
+gelecek ki tam ayırıcı yüzeyin üzerinden
+Gideceksin ama bu simülasyon buna pek
+izin vermiyor Bu çok zor bir şey çünkü
+biz şu arkadaşı kabul edelim sınırdan
+gidiyor bu arkadaş buraya Gönyeli koydum
+sınır açısı değerini ölçüyorum camdan
+havaya geçiyoruz şurası 30 her bir uzun
+çizgi onu temsil ediyor şurası 40 40'tan
+Az daha ileride Az önceki tabloyu
+incelerseniz 41 42 gibi bir değerdi Şu
+an onu görüyoruz buradaki açı sınır
+açısıdır Bu açıdan Bir tık daha büyük
+açıyla gönderirseniz gönderdiğiniz
+ışığın tamamı yansır İşte gördüğünüz şey
+Tam yansımadır 100 birim Işın
+gönderirsiniz 100'ü de yansır tam
+denmesinin sebebi tekrar söylüyorum
+budur Çünkü zaten yansıma vardı ama azdı
+% 5'i yansıyordu yansıma arttı yansıma
+arttı artık tamamı yansıyor tam yansıma
+Bakın şimdi yapacağım akıl yürütme size
+çok soru çözdürebilirim iki ortamda hava
+indis farkı yok kırılma yok indis farkı
+artarsa kırılma artar üstteki ortamı
+değiştiriyorum hava değil başka indisli
+bir şey yapıyorum 1.07 1.08 diye
+arttırıyorum gördüğünüz gibi kırılma
+başladı orijinal rotasından sapıyor
+normalden uzaklaşıyor Burada ufak ufak
+Yansımalar başladı kırılma artıyor Çünkü
+Yukarıdaki indis 1.3 oldu aşağısı hava
+ortamı hala 1 su yaptım böyle bir
+kırılma görüyoruz Yukarının indisini
+daha da çok arttırıyorum bu iki ortam
+arasındaki indis farkı artıyor kırılma
+artıyor daha çok sapıyor indis farkı
+arttı kırılma arttı Mesela şu an cam
+yaptım böyle bir kırılma var camın da
+ötesine geçersek daha da büyük bir indis
+yaparsak sınırdan gittiği bir değer var
+daha da ötesine geçersek indis farkı
+daha da artarsa tam yansıma yapar yani
+tam yansıma her ne kadar kırılma olmasa
+da bütün bu sürecin son noktasıdır size
+şöyle çok soru gelecek hava ortamından
+bir x ortamına Işın gönderiyorum böyle
+kırılıyor aynı havadan aynı açıyla gelme
+açısını hiç değiştirmeden y ortamına
+Işın gönderiyorum tam yansıma yapıyor o
+x ortamıyla y ortamının indisini
+kıyaslayın diyecekler size Sen de o
+zaman diyeceksin ki Eğer iki ortam
+arasındaki indis farkı fazlaysa kırılma
+fazla hava ortamı var x ortamı var
+kırılma dediğin şey şöyle ışığın gelip
+diğer ortama geçerek normalden
+uzaklaşarak böyle olması var hava ortamı
+var y ortamı var Işın aynı şekilde
+geliyor hiçbir farkı yok Bu ikisinin bu
+adam sınırdan gidiyor ya da tam yansıma
+yapıyor işte sınırdan gitmekle tam
+yansıma yapmak bunun daha çok kırılmış
+versiyonudur hava 1 ise bu 2'dir hava 1
+ise bu adam 3'tür buradaki Delta n indis
+farkı daha büyüktür Çünkü bu buradaki
+olaylar şuna göre daha çok kırılma
+demektir orijinal rotadan daha çok sapma
+demektir geldim sınırdan gittim orijinal
+rotadan bu kırmızıya göre daha çok
+saptım geldim tam yansıma yaptım
+orijinal rotadan iyice daha fazla saptım
+tam yansıma kırılmanın son noktasıdır
+her ne kadar kendisi kırılma değil
+yansıma olsa da bir de bunun gerçek
+versiyonunu görelim burada cam ortamım
+var geri kalan her yer hava ortamı Tabii
+ki ışığı dik gönderiyorum 90 derece ile
+gönderiyorum Aynen çıkıyor gidiyor
+ışığın gelme açısını arttırıyorum
+Şuradaki siyah çizgimiz normal çizgimiz
+Gelme açısı Art attıkça kırılma açısı da
+artıyor sebebi sinal yasası biliyorsunuz
+normalden uzaklaşarak kırılıyorum
+orijinal rotanın şöyle bir şey olduğuna
+dikkat edin normal solda Biz sağa
+kaçıyoruz normalden uzaklaşıyoruz Çünkü
+çok Hindistan az indis geçiyoruz bu
+belli bir değere kadar böyle olacak
+gelme arttıkça kırılma artacak öyle bir
+değer gelecek ki tam sınırdan gidecek
+camdan havaya geçiyorsa bu yaklaşık 4142
+derece demiştim Bakın Şu an tam 40'lara
+yaklaşmış durumdayız normalden iyice
+uzaklaştık Yansımalar burada belirmeye
+başladı tam çok belli olmasa da 41 42'de
+Şu an burada ufacık parıltılar var
+sınırdan gidiyor diyebiliriz işte
+Şuradaki açı şu an sınır açısıdır bunun
+ötesine geçtiğinizde artık bütün Işık
+yansıyordu tamamen yansıyordu tam
+yansımadır buradan sonrası kırılma
+değildir Gençler bu önemli bu bizim
+normal çizgimiz şurası Gelme açısı İsa
+Burası yansıma açısıdır Sanki burada bir
+ayna varmış gibi düşünebilirsiniz sen
+gelme açısını arttırdıkça yansıma açısı
+da artacaktır buradan sonra öyle indis
+mindiz yok çoktan aza geçme Azdan çoka
+geçmek yok Çünkü biz hiçbir yere
+geçmiyoruz Bu ortamın içinde kalıyoruz
+yani yansıyor bu yüzden Gelme açısı
+büyüdükçe yansıma açısı da büyüyor
+Burası bir ayna gibi davranıyor
+diyebiliriz belli bir değerden sonra tam
+yansıma gerçekleştiği için genelde büyük
+açılarla göndermeye çalışırız bakın
+şöyle bir lazer cam Bir prizmanın
+içerisine gönderiliyor ama Işın hava
+ortamına geçemiyor Çünkü burada kocaman
+bir gelme açısına sahibiz bakın Ben
+şuradan normalim mi çeksem Gelme açısı
+burada devasa bir açı yansıma açısı
+devasa bir açı e Bunlar paralel kenar
+olduğu için paralel bir normal çekmiş
+olduğum şu arkadaşa Burası da alfadır
+burası da alfadır sanki bu üst ve alt
+yüzeyler aynay mış gibi ışığı diğer
+ortama çıkamaz İçeride kalır tam yansıma
+yapar şekilde bunu net bir şekilde
+görebiliyoruz videonun başında
+izlediğimiz suyun içerisine ışığı
+hapsetme de benzer bir mantık Aslında
+Bakın bu su değil Yine camdan yapılmış
+böyle kargacık burgacık bir şekil ve bu
+arkadaş şeffaf Ama içeride yeşil lazeri
+haps etmişiz gibi duruyor içeride bu
+Işın parlıyor Çünkü burada büyük bir
+açıyla gönderdiğinde yeşil lazer içeride
+tam yansıma yapa yapa içeriye hapsoluyor
+bu camdan dışarıya havaya kaçamıyor
+orada kalmış oluyor aynı mantık
+90'lardan kalma bir süs eşyasında da var
+bunun alt kısmında bir ışık kaynağı var
+üzerinde böyle bir sürü küçük incecik
+Plastikler var buradaki ışık kaynağı o
+plastiklerin içine ışınları gönderiyor
+büyük bir açıyla geldiği için tam
+yansıma yapıyorlar işte siz o
+parıltıları bu plastiklerin uç
+kısımlarında görüyorsunuz buradaki ışık
+kaynağının ışığı bunların uçlarında Siz
+bunları ne kadar kıvırır kıvırın açı çok
+büyük geldiği için sürekli herhangi bir
+kayıp yaşamıyorsunuz hep oradaki
+parıltıyı görüyorsunuz buradaki Işık bu
+plastiklerin içerisine hapsedilmiş
+durumda İşte bu da bizi kazanımlarda yer
+alan bir günlük hayat örneğine götürüyor
+yani fiber optik kablolara götürüyor
+videonun başında da bahsettiğim gibi
+defalarca dolanmış bir kablom var
+kablonun bir ucundan lazer ışığı tutuyor
+o lazer ışığını buradan çıkış olarak
+alabiliyoruz Işık dümdüz gidiyorsa nasıl
+bunun içinde kalıp bu dairesel Yolları
+izleyebiliyor Tabii ki tam yansıma
+yoluyla yapabiliyor bunları ışığı
+içeride tam yansımayla haps ediyoruz
+fiberoptik kablo dediğiniz şey gerçekte
+böyle bir şey şematik olarak böyle bir
+şey şurası plastik tarzı bir malzemeden
+yapılma burası hava plastik çok indis
+hava az indis olarak düşünülebilir
+çoktan aza geçerken sınır açısından
+büyük bir açıyla Işın gönderirseniz
+buraya bir normal çektim Şuradaki Alfa
+açısı sınır açısından büyükse Işın hava
+ortamına geçemez tam yansıma yapar e
+Burada da o büyük açı devam ediyor tam
+yansıdı Burada da büyük açı devam ediyor
+tam yansıdı böylece ışığı içeriye
+hapsetmiş oluyorsun fiber kablo demek
+Optik Işık demek Işık kablosu gibi bir
+anlamı var internetin çok hızlı olmasını
+sağlıyor fiber optik kablolar Çünkü
+internet Aslında elektrik sinyalleriyle
+iletilir Bilgisayardan bilgisayara ama
+fiber optik kabloda bir bilgisayardaki
+bilgi başka bir bilgisayara yani
+internet alemine Işık ışık hızıyla
+iletiliyor Işık götürüyor o bilgiyi ışık
+hızında internet denildiğinde Aslında
+gerçek manada bunu kullanıyorlar O
+yüzden Oldukça hızlı bir teknolojiden
+bahsediyoruz endoskopi de benzer bir
+mantık midenizde ne var ne yok
+boğazınızdan fiberoptik kabloyu
+sallandırılan
+ışık alabiliyoruz ışık dışarıya
+kaçamıyor içeriye haps ediyoruz buradaki
+tam Yansımalar sayesinde kamerayı
+vücudunuza gönderiyorlar bağırsağını
+midenize o kamerayla bakıyorlar ne var
+ne yok ekranında görüyorsun bir kabımız
+var burası delik su Ak akmıyor neden su
+akmıyor Başka konulara atıfta bulunmuş
+olalım Çünkü açık hava basıncı var açık
+hava basıncı buradaki delikten suyun
+akmasını engelliyor ne zaman ki buradaki
+kapağı açıyoruz yukarıdan da açık hava
+basıncı etki ediyor dışarıdan açık hava
+basıncı açık kapaktan açık hava basıncı
+iki etki birbirini sıfırlıyor buradaki
+suyun basıncını dengeleyen bir şey
+kalmadığı için su fışkırmıyor basınç
+hatırlatmamız da yaptıktan sonra bu su
+Niye kırmızı gözüküyor diye sormuştum
+size Çünkü buradan bir lazer tutulmuş E
+hocam lazer dümdüz gitsin şöyle doğrusal
+Rota izlesin niye içeride kalıyor e tam
+yansıma öğrendiniz artık bunu fark
+edebil Gor zaten bakın Işık gelmiş Tam
+yansıma yapmış Şuraya bir yere gitmiş
+burada bir daha tam yansıma yapmış Hatta
+buradaki suyun akış hızı azaldıkça o tam
+yansımaları daha net görebileceğiz
+suyumuz hala gayet kırmızı ışığı içeride
+hapsettik bakın görüyor musunuz Işık
+geliyor tam yansıma yapıp buralara
+gidiyor Buralarda da tam yansıma var
+iyice azaldı Bakın Şu an çok net Buradan
+gelmiş Tam yansıma yapmış burada bir
+daha tam yansıma yapmış bir daha tam
+yansıma yapmış şöyle tam yansıma yapa
+yapa suyun içinde kalmış Çünkü buradaki
+gelme açıları suyun havadan geçişteki
+sınır açısından Yani yaklaşık 48
+dereceden daha büyük açılar bir kavram
+yanılgısını daha giderelim resimdeki
+yansıma tam yansımadır mı diye sorulmuş
+resimde ne görüyorum burada bir göl var
+pürüzsüz bir su yüzeyi Durgun bir su
+yüzeyi buradaki dağların burada
+görüntüsünü görüyorum bu bizim
+bildiğimiz yansıma buradaki su Bir ayna
+gibi davranıyor Güneşten gelen Işık dağa
+çarpıyor dağdan yansıyor suya çarpıyor
+sudan yansıyor Benim buradaki gözüme
+geliyor ve ben Bu doğrultuda bir yerde
+işte dağın şu noktası var diyorum onun
+görüntüsünü görüyorum Sudaki yansıması
+bu demek buradaki yansıma tam yansıma
+mıdır tam yansıma dediğim şey çoktan aza
+geçerken olur çok indis az indis
+geçerken olur Siz burada hava ortamından
+su ortamına geçmeye çalışıyorsunuz Azdan
+çoka geçerken tam yansıma olmaz Hatta
+size şunu bile söyleyebilirim hava
+ortamından 100 birim Işık geliyorsa
+sudan yansıyıp sizin gözünüze 100 birim
+gelmiyor Siz Aslında o 20 birimi 10
+birimi falan görüyorsunuz burası hava
+ortamı Burası su ortamı ışığı gönderdim
+havadan suya 100 birim Işık gönderdim
+bunun 94'ü geçti zaten bunun 5'i yansıdı
+bu tam yansıma değil Çünkü tamamı
+yansımadı çoktan aza geçerken tamamı
+yansıyabilir burada bir ağaç varsa sen
+şuradan bakıyorsan Bu ağacın görüntüsü
+sudan yansır Senin gözüne gelir Sen de
+bunu burada bir görüntü olarak algılarsa
+işte Sudaki yansıma dediğim şey budur
+Ama o gönderilen ışığın zaten Büyük bir
+kısmı suya geçti bu tam yansıma değil
+tam yansıma çoktan aza geçerken olur
+Azdan çoka geçerken değil bir başka
+günlük hayat örneği tam yansıma havuz
+aydınlatmalarında kullanılır gençler
+havuza bakarsınız Havuzun içerisinde
+lambalar vardır oradaki lambalar sizin
+gözünüzü rahatsız etmez çünkü o lambalar
+öyle yerlere yer yerleştirilir ki o
+kaynaktan çıkan ışınlar yüzeyde büyük
+oranda tam yansıma yaparlar O yüzden
+havuza bakanlar ışığın tamamını
+görmedikleri için bir kısmını gördükleri
+için rahatsız olmadan Havuzun
+aydınlandığını görebilirler bakın Burası
+havuz Havuzun dibine bir ışık kaynağı
+koyduk Bu adam her yöne Işık gönderiyor
+o ışınlardan bazılarını görüyorsunuz Biz
+de dışarıdan bir yerden Bu havuza doğru
+bakıyoruz bu kaynaktan ayırıcı yüzeye
+dik yani normalin üzerinden direkt bir
+Işın çıkarttım Aynen benim gözüme geldi
+Işığı Gördüm ikinci bir Işın çıkarttım
+sudan havaya geçiyoruz çoktan aza
+geçiyoruz normalden uzaklaştık göze
+ulaştı üçüncü bir Işın gönderdim Gelme
+açısı geometri gereği daha büyük olduğu
+için Normalden daha çok uzaklaştı göze
+geldi dördüncü bir Işın çıkarttım şunu
+çıkarttım Gelme açısı sınır açısına
+geldiği için şu arkadaşlara göre daha
+büyük açıyla geldi Normalden daha çok
+uzaklaştı Hatta tam sınır açısı olduğu
+için kırılan ışınımı sınırdan gitti
+ayırıcı yüzeyden gitti bu benim gözüme
+ulaşmadı bundan bir tık daha büyük gelme
+açılı Işın yani şu arkadaş normalim mi
+çektiğimde sınır açısından daha büyük
+açıyla gelen ışın tam yansıma yapacak
+bırak göze gelmeyi hava ortamına bile
+geçemeyecektir benim gözüme gelebilen şu
+noktada kaldılar bundan ötesi benim
+gözüme gelmez buradan Işın çiz çok büyük
+açıyla geliyor sınır açısından daha
+büyük tam yansıma yapar şu Işın tam
+yansıma yapar Dolayısıyla bundan ötesi
+benim gözüme ulaşamayacak aynı şey bunun
+sol tarafı için de geçerli Bu geldi
+normalden uzaklaştı göze ulaştı bu geldi
+sınırdan gitti Bundan sonrası mesela şu
+artık tam yansımadır bu artık tam
+yansımadır bundan sonra çizeceğiniz
+bütün ışınlar tam yansıyacaktır hava
+ortamına bile geçemeyecektir benim
+gözüme gelen ışınlar sadece buradaki
+dairesel bölgeden gelebiliyorlar büyük
+kısmı eleniyor içeride kalıyor O yüzden
+ben bütün ışığı göremiyorum havuzu
+aydınlanmış görüyorum ışığı içeride
+hapsettim aynı fiberoptik kablo gibi
+aynı o fışkıran su gibi Havuzun
+içerisini ışıkla hapsedilmiş olarak
+aydınlanmış olarak görüyorum ve ve
+baktığımda da gözüm rahatsız olmuyor
+çünkü az miktarda Işık doğrudan gözüme
+geliyor bakın bunun gerçek bir fotoğrafı
+var şurası su dolu bir havuz burası hava
+ortamı şurada bir ışık kaynağım var ışık
+kaynağından çıkan ışınlar direkt geçmiş
+normalden uzaklaşarak geçmiş biraz daha
+uzaklaşmış biraz daha uzaklaşmış Şu
+Arkadaş artık sınır açısından büyük
+açıyla geldiği için tam yansımış bu
+arkadaş tam yansımış bunun sol tarafı da
+aynı normalden uzaklaşmış daha çok
+uzaklaşmış daha çok uzaklaşmış tam
+yansıma Bundan sonrası Dolayısıyla Işık
+sadece şuradan bir yerden dışarıya
+çıkabiliyor böyle dairesel bir alandan
+dışarıya çıkabiliyor bunun tersi de
+doğru şimdi size bir iki tane fotoğraf
+göstereceğim bu fotoğrafları
+yorumlayacak Ben denizin içindeyim
+denizin içinden elinde balık tutan bir
+abla Bakıyorum bu da denizin içerisinde
+ve dışarıyı görüyorum şöyle dairesel bir
+bölgenin iç kısmından gökyüzünü
+görüyorum ağaçları görüyorum ama sadece
+o daireden görebiliyorum mesela
+buralarda dışarıyla ilgili hiçbir bilgi
+yok bu daha da Net bir görüntü Ben
+denizin içindeyim bir dalgıca bakıyorum
+bir dairenin içerisinden de dışarıyı
+görebiliyorum gökyüzünü görebiliyorum
+güneşi görebiliyorum neden buralarda
+göremiyorum da bir dairede görebiliyorum
+Az önce anlattığımı tam tersi Çünkü biz
+Az önce gözü dışarıya koymuştuk Şimdi
+ben gözü içeriye koyuyorum suyun
+içerisinde şu şuradan bir yerden yüzeye
+bakmaya çalışıyorum burada Işık kaynağım
+yok bu sefer burada göz var dışarıya
+bakıyorum suyun yüzeyine bakıyorum E o
+zaman ışık tersine bilil olduğu için
+dışarıya çıkan ışınların içeriye
+girdiğini hayal edin dışarıda ağaçlar
+var güneş var Ne bileyim gökyüzü var
+şimdi bu ağaçtan gelen ışın hava
+ortamından gelir su ortamına giriyor
+Azdan çoka geliyor normale yaklaşır
+benim gözüme gelir Ne bileyim şu Işın
+Oradaki bir cisimden gelir normale
+yaklaşır benim gözüme gelir ben bunları
+görürüm buradan gelen ışını da görürüm
+dışarıdaki hangi bilgiyi taşıyorsa benim
+gözüme onu ulaştırır aynı şey sağ
+taraftaki ışınlar için de geçerli
+buradaki ağaçtan bir Işın gelir suya
+Böyle girer benim gözüme ulaşır Ben
+onları görebilirim ama o bölgenin
+sınırlı olduğunu söylemiştim şöyle bir
+dairenin içerisinden o ışınlar bu
+şekilde davranıp kırılıyor lardı mesela
+şu ışını tersten düşünelim şu ışını
+tersten düşünelim Bunlar neyin bilgisini
+banaana getiriyor burada bir balık
+vardır o balıktan çıkan şu Işın tam
+yansıma yapar benim gözüme gelir
+Dolayısıyla Burası ayna gibi davrandığı
+için ben bu balığın görüntüsünü görürüm
+su yüzeyinde ayna gibi düşünmem gerekir
+gökyüzünü göremem buradaki balığı
+görürüm su yüzeyinde Ne bileyim bu
+Şuradaki kabı yeterince büyük düşünün
+şurada Denizin dibinde bir çakıl taşı
+vardır o çakıl taşından çıkan Işın suyun
+yüzeyine çarpar büyük bir açıyla
+geliyordur zaten şunun tersi Işık
+terslenebilir mantığını kullanıyorum tam
+yansıma yapar benim gözüme gelir E ben
+suyun yüzeyine baktığımda Burası ayna
+gibi davrandığı için bu çakıl taşının
+görüntüsünü su yüzeyinde görmüş olurum
+ben dışarıyla ilgili bilgiyi Sadece bu
+dairenin içerisinden alabilirim bu
+dairenin dışındakileri göremem bu
+dairenin dışındakiler denizin içi ile
+ilgili bilgilerdir Çünkü oradan çıkan
+ışınlar tam yansıma yapıp gözüme
+ulaşıyor dışarıyla ilgili bilgi bu
+dairenin içinden geliyor ağaçları o
+daireden görüyorum Buralar ne Buralar
+denizin içi Denizin Dibi dışarısı la
+ilgili bu daireden geldi Buralar niye
+siyah Çünkü oralar ayna gibi davranıyor
+ve denizin dibini gösteriyor E bu Deniz
+çok derinse Denizin Dibi çok uzaktaysa
+onu siyah olarak görüyorum diyebilirim
+Bakın Şu an biz bir Havuzun
+içerisindeyiz burada bir adam var bu
+adam sanki dört kollu gibi duruyor bu
+adam dört kollu falan değil bu adamın
+kolları bunlar bu arkadaş suyun
+yüzeyinde duruyor Şu an biz suyun
+yüzeyine baktığımızda Bunun tam
+yansımasını görüyoruz suyun yüzeyini
+ayna gibi görüyoruz bu kollar Aslında
+orijinal kolların görüntüleri su
+yüzeyindeki görüntüleri burada tam
+yansıma olayı gerçekleşmiş burada bir
+cisim var Mesela bu adam Sen buradan
+yüzeye bakıyorsun denizin yüzeyine
+bakıyorsun bu cisimden çıkan şu Işın çok
+büyük bir açıyla geldiği için su
+ortamından hava ortamına geçemiyor tam
+yansıyor ve benim gözüme ulaşıyor ben de
+zannediyorum ki burada bir şey var
+oradan çıkan Işın gözüme ulaşıyor İşte
+buradaki su yüzeyi ayna gibi davranıyor
+Ben denizin içindeki adamın kolunu Daha
+yukarıda bir yerde görüyorum aynı
+Şuradaki olay gibi mevzu budur Havuzun
+içerisindeyiz Havuzun içerisine kamera
+açmışız suyun yüzeyine tutuyoruz suyun
+yüzeyine tuttuğumuzda ne görüyoruz
+dikkat edin dışarıyla ilgili bilgi
+alıyoruz İşte o daire şu an bu
+kenarlarda ne görüyoruz böyle çizgiler
+görüyoruz Burası da suyun yüzeyi o
+çizgiler nerede olur Olimpik havuzların
+dibinde olur yarış kulvarları belirler
+Şu an ben Havuzun tabanındaki çizgileri
+suyun yüzeyinde görüyorum çünkü o
+dairenin dışı tam yansıma bölgesidir
+Havuzun dibindeki bilgi suyun yüzeyinden
+çarpıp tam yansıyıp Havuzun içerisindeki
+benim gözüme gelmiştir orası ayna gibi
+davranmıştır Hocam ben şu an seçemiyorum
+ki Belki Burası hakikaten şu an havuzun
+dibi Hayır bak havuzun dibi Burası ne
+kadar net düzgün bir çizgi Bu da suyun
+yüzeyi suyun yüzeyi zaten hareketli
+olduğu için buradaki çizgilerin de böyle
+tırtıklı olduğunu görüyorsunuz tam
+yansıma dediğimiz olay tam olarak budur
+gençler Burası suyun yüzeyi tam yansıma
+Burası bilgi aldığım yüzey dışarıdan
+gelen bilginin kırılarak içeriye girdiği
+yüzey kazanımlarda yer alan bir başka
+günlük hayat örneği Serap olayı yolda
+gidiyorsunuz Yaz ayları hava çok sıcak
+gidiyorsunuz ve ileride sanki bir su
+birikintisi var zannediyorsunuz Halbuki
+ileride bir su birikin intisi yok çünkü
+oraya bir türlü ulaşamıyorsunuz Siz
+gittikçe o da yok oluyor işte biz buna
+kamerayı sabit tutabilir Göreceğiz ama
+Serap olayı diyoruz bakın gittikçe yok
+oluyor Bir türlü oraya ulaşamıyorum
+Çünkü bu Optik bir ilüzyon gerçekten
+orada su yok Hatta o su bile değil
+aslında bu gökyüzünün ta kendisi
+gökyüzünün rengiyle bu yerde su
+birikintisi zannettiğimiz şeyin renginin
+aynı olduğuna dikkat edin gençler Peki
+bu serap etkisi dediğimiz şey ne oluyor
+bu Optik ilüzyon nasıl bir şey genelde
+filmlerden bunun daha çok Çöllerde
+olduğunu görüyoruz ama az önce videosunu
+izledik çölde olmasına gerek yok yaz
+aylarında sıcak memleketlere giderken
+otobanda asfaltta Bunu siz bile fark
+edebilirsiniz ama biz burada çöl örneği
+üzerinden gidelim hava çok sıcak kumlar
+iyice sıcak kumlar çok sıcak olduğu için
+etrafındaki yani zemindeki Havayı
+ısıtıyor zemindeki hava çok sıcak hava
+yukarılara doğru çıktıkça bu hava daha
+soğuyor yukarıda soğuk hava var aşağıda
+sıcak hava var diyebiliriz tabii böyle
+Keskin bir ayrım yok Bunlar katman
+katman birbirine girmiş durumda
+Photoshop falan kullanmayı biliyorsanız
+gradyan dediğimiz şey kademeli kademeli
+geçişler var bu kademeler o kadar küçük
+ki fark edemiyorsun Keskin geçişler yok
+yani sıcaktan soğa şiddetli bir şekilde
+geçmiyoruz yumuşak yumuşak geçiyoruz
+Eğer sen havayı ısıtırsan ısınan hava
+yükselir sıcak olan kuma yakın olan
+bölgede hava daha seyrektir Çünkü herkes
+yukarıya çıkıyor ısınan hava genleşiyor
+yukarıya çıkıyor Yukarıdaki soğuk hava
+Bu yüzden yoğunlaşıyor o yüzden aşağıda
+optiksel olarak az yoğun ortam var
+yukarıda optiksel olarak çok yoğun ortam
+var aşağıyı az indis Yukarıyı çok indis
+olarak düşünebilirsin Dolayısıyla
+yukarıdan bir yerden bir Işın geldi
+Yukarının çok indis aşağının az indis
+olduğunu unutmuyoruz çoktan aza geçerken
+ne oluyor normalden uzaklaşıyor katman
+katman olduğu için başka bir katmana
+geçtiğinde normalden biraz daha
+uzaklaşıyor başka bir katmana geçtiğinde
+normalden biraz daha uzaklaşıyor map
+kitabı ve birçok kaynak tam bu noktada
+diyor ki buradaki Gelme açısı çok büyük
+sınır açısından büyük bir açı
+Dolayısıyla burada tam yansıma yapar ve
+geriye Seker ışık ve böyle bir Rota
+izlemiş olur diyor şimdi bunun Serap
+olayıyla Ne ilgisi var şöyle diyelim ki
+bu Ağacın üzerindeki bir elmayı görmek
+istiyorsun Burası çok sıcak ortam Burası
+da nispeten daha soğuk bir ortam sıcak
+ortamda hava Daha seyrek çünkü hepsi
+ısındı ve yukarıya çıktılar hava seyrek
+olduğu için Burası az indis Burası çok
+indis olarak düşünülebilir şimdi
+Normalde benim bu elmayı görmem için
+ışığın direkt buradan gözüme gelmesi
+lazım benim gözüme böyle bir ışık
+geldiğinde Aa elma orada deriz Fakat bu
+Işık böyle dümdüz bir Rota izleyemez
+fermat prensibini unutmayın Işık iki
+nokta arasında mümkün olan en kısa
+sürede gidebileceği yolu tercih eder
+böyle katman katman farklı ortamların
+olduğu yerde dümdüz Rota en kısa süre
+Rotası değildir Bu arkadaş o düz yol
+yerine şu yolu izlediğinde parabolik bir
+rota izlediğinde daha kısa sürede göze
+ulaşıyor senin gözüne gelen Işık Bu
+doğrultuda geldi bu taktiği defalarca
+kullandık göz ışığın kırıldığını
+yansıdığını göremez anlayamaz bu göz
+diyecek ki Aa şurada bir cisim var O
+cisimden benim gözüme Işık geliyor
+diyecek yani Yukarıdaki elmayı yerde
+zannedecek Yukarıdaki gökyüzünü asfaltta
+zannedecek İşte biz buna Serap diyoruz
+su birikintisi dediğimiz şey gökyüzünün
+görüntüsünden başka bir şey değil Az
+önce dediğim gibi map kitabı ve birçok
+kaynak buna tam yansıma diyor bu tam
+yansıma değil bu kırılmanın ta kendisi
+iki farklı ortam Keskin bir şekilde
+ayrıldığında gelen Işık çoktan aza
+geçerken böyle Keskin bir şekilde
+kırılabilir kademeli değişme varsa
+neredeyse milyonlarca katman varsa
+burada o zaman izleyeceğimiz Rota bu
+kadar keskin olmaz bir parabol olur
+Bunun matematiksel ispatları var tabii
+ki oralara girmeyeceğiz Bu tamamen
+fermat'ın en kısa süre prensibiyle
+ilgili bir Rota buna çağrışım yaptırması
+için bir deney var üç tane topu farklı
+yollardan şuraya ulaştırmaya çalışıyoruz
+düz bir Rota şöyle parabolik bir Rota
+biraz daha böyle kavisli bir Rota Bu
+üçünü bırak kırsam hangisi daha önce
+buraya ulaşır ışık da buna benzer
+davranıyor bakın çalıştırdığımda
+hangisinin birinci olduğuna dikkat edin
+ortadaki arkadaş birinci oldu Işığın bir
+noktadan başka bir noktaya en kısa
+sürede gitmesi kırılmayla açıklanır tam
+yansımayla değil bu olayın neden tam
+yansıma olamayacağını da söylemek lazım
+tabii ki çok hen az hindis geçiyoruz
+ışığı gönderdim bu katmanda normalden
+uzaklaştım sonraki katmanda Normalden
+daha çok uzaklaştım tam yansıma yapmadan
+önce bizim bir durumumuz daha vardı
+hatırlarsanız neydi o sınır
+açısıyla yapmadan önce bir sınır açısı
+yapt yapmam gerekir sınırdan Gitmem
+gerekir bundan sonraki aşama Tam
+yansımayı burada böyle milyonlarca
+katman olduğu için illaki bu durumu
+yaşamam gerekiyor E şimdi sen sınır
+açısı yaptığında tam yansımadan bir
+önceki kademede E bu yüzeye paralel
+gidiyorsun diğer ortama geçemezsin ki
+sınırdan gidersen ışığın böyle yatayda
+yoluna devam eder diğer kademeye geçemez
+diğer kademeye geçemeyeceği için tam
+yansıma yapma imkanı bulamaz Bu olayı
+tam yansımayla Bu yüzden açıklayamayız
+bu çok katmanlı çok indisli bir ortamda
+ışığın en kısa sürede gittiği yoldur Bu
+da bir parabolda sınavda çıkarsa Biz ne
+yapalım tam yansıma işaretlemeyi mi
+kırılma mı diyelim sadece Şimdi sizin
+amacınız net kazanmak ı 1 net ders
+kitabı ne diyorsa onu işaretleyin tam
+yansıma diyorsa tam yansıma yapın ama
+ben doğrusunu anlatmakla mükellefim
+doğrusunu anlattım sınavda doğrusunu
+sormak isterlerse de tam yansıma olmaz
+derlerse de ders kitabını kaynak olarak
+gösterirsiniz ders kitabınızda
+anlattığınız şeyle çelişiyorsun dersiniz
+soruyu iptal ettirirsiniz O yüzden Siz
+yine ders kitabını baz alın ama
+doğrusunu da öğrenin havadaki cismi
+yerde görme Serap olayı bunun tersi de
+mümkün denizdeki gemileri olduğundan da
+Daha yukarıda da görebilirsiniz Çünkü
+süreç ters işler denizler soğuktur
+yukarılara doğru çıktıkça Bu havalar
+ısınır sıcak hava az indis demektir
+soğuk hava çok indis demektir bu görüntü
+gerçek bir görüntü yelkenli havada
+süzülüyor Bu da Serap olayı ama tersten
+dediğim gibi deniz soğuk hava
+oluşturuyor yukarılara gittikçe ısınıyor
+aşağıda çok indis var yukarıda az indis
+var bu tekneden gelen ışın çöldeki tam
+tersine Azdan çoka gelirken normale
+yaklaşıyor Azdan çoka gelirken normale
+yaklaşıyor ve göze şu doğrultuda
+ulaşıyor göz hangi doğrultuda ışığı
+görüyorsa cismi orada zanneder
+Dolayısıyla bu göz ne zannedecek bu
+yelkenli Daha yukarıda bir yerde
+zannedecek Aynı burada olduğu gibi tek
+renkli ı ışınının x y z ortamlarında
+izlediği Yollar şekillerdeki gibiymiş
+Buna göre hangileri doğrudur ortamların
+kırıcılık indislerini sormuş Gelme açısı
+kırılma açılarını sormuş Beta açısını
+arttırırsak tam yansıma yapabilir gibi
+şeyler sormuş Öncelikle ortamların
+indiklerini anlamaya çalışalım Işın y
+ortamından geliyor x ortamına Geçiyor
+Bak bu orijinal Rotası hiç kırılmasaydı
+böyle dümdüz gidecekti normal sol
+tarafta E bu sağa doğru kaçmış normalden
+uzaklaşmış normalden uzaklaşma çok indis
+az indice geçerken olur ikinci şekilde
+Işın gelmiş Z ortamına geçememiş tam
+yansıma yapmış bu da çok indis az indice
+geçerken olur 3üncü şekli incelediğimde
+x ortamından gelmişiz orijinal Rotası bu
+kesikli çizgi normalim burada normale
+yaklaşmış Bu da az indis çok indis
+geçerken olur şimdi burada kıyaslamalar
+baktığımızda birinci şekil diyor ki bana
+y ortamının indisi x'ten büyük ikinci
+şekil diyor ki bana y ortamının indisi
+Z'den büyük 3üncü şekilde x ortamının
+indisi Z'den küçük diyor o zaman y x'ten
+büyük y Z'den büyük Z de x'ten büyükse
+şöyle bir sıralama yapabilirim y > z o
+da ü x birinci öncülü tam olarak bunu
+söylüyordu birinci öncülü doğru şekil
+2de hem Gelme açısı hem de kırılma açısı
+alfadır şekil 2'de tam yansıma var yani
+bir yansıma var kırılma yok Alfa gelme
+açısıdır doğru gelen ışının normalle
+yaptığı açıdır Ama bu Alfa kırılma açısı
+değildir Bu Alfa bir yansıma açısıdır
+Çünkü olay kırılma değil yansıma bu
+önemli bir bir kavram yanılgısı ydı
+ikinci öncülü yanlış şekil 3'te Beta
+açısı arttırılırsa ı ışını tam yansıma
+yapabilir tam yansıma her ne kadar
+yansıma olsa da kırılmanın son
+noktasıydı çoktan aza geçerken olur
+normalden uzaklaşırsın uzaklaşırsın
+uzaklaşırsın artık o kadar çok
+kırılmışsındır ki sınırdan gidersin
+Bunun bir tık Ötesi artık ortam
+değiştiremezsin tam yansıma yaparsın
+diyor ki burada betayı arttıralım yani
+x'ten daha büyük açıyla Işın gönderelim
+acaba tam yansır mı acaba bu sınır
+açısından büyük bir değer midir iyi de
+Azdan çoka geçiyoruz tam yansıma olması
+mümkün değil gelen ışının açısını
+büyüttü isen kırılan ışının da açısı
+büyür şöyle falan gider ama gider Z'ye
+geçer tam yansıma yapamaz üçüncü öncülü
+yanlış Sorumun cevabı Yalnız 1 y saydam
+ortamından x saydam ortamına gönderilen
+tek renkli ışının izlediği yol şekildeki
+gibidir Buna göre ı ışınının tam yansıma
+yapabilmesi için hangilerini yapmalıyız
+tam yansıma Son Nokta kırılmanın son
+noktası olduğu için bir kere mesela
+indis farkları çok büyük olmalı sınır
+açısından daha büyük açıyla gelmelisin
+mümkün olduğu kadar büyük bir açıyla
+gelmelisin normale bu gibi şartlarla Tam
+yansıma yapabiliriz ışınımı gelmiş
+orijinal Rotası şu Normal Burada
+normalden uzaklaşmış Demek ki çok indis
+az indis geçmiş y ortamının indisi x'ten
+Büyük sayı veriyorum x ortamının
+indisine 2 dedim y ortamının indisine 3
+dedim y ortamının kırıcılık indisi
+arttırılmalı Mesela ben y'yi 3 değil de
+4 yapsam fark arttı mı arttı fark
+artarsa kırılma artar mı Evet yani şu
+arkadaş Aynen gelip daha çok kırılıp
+böyle gidebilir veya farkı daha da çok
+arttırdı isan sınırdan gidebilir veya
+farkı daha da çok arttırdı isan mesela 4
+değil de 7 yaptıysan tam yansıma
+yapabilir tam yansıma kırılma sürecinin
+en son noktasıdır bu olabilir x
+ortamının indisini azaltmak Yani biz
+y'yi yine 4 olarak düşünelim bunu 1
+yapalım E aynı şey yine fark arttı fark
+arttıysa şu arkadaşlar oluşabilir bunu
+sağlayabiliriz tam yansıma yapabiliriz
+Alfa açısı azaltılmalı alfanın nasıl bir
+açı olduğuna dikkat edin ha hocam açıyı
+arttırmak lazım dediniz o gelme açısıyla
+Gelme açısı değil Gelme açısı normalle
+yapılan açıdır burasıdır alfanın
+azalması ışığınız şöyle falan gelmesi
+demek Bak kocaman bir aç açıyla
+geliyorum Normalde büyük bir açı
+yapıyorum sınır açısından büyükse tam
+yansıma ihtimalim var çoktan aza geçmeye
+çalışıyorum bu olabilir Sorumun cevabı 1
+2 ve 3'tür geldik son sorumuza tek
+renkli ı Işık ışınının izlediği yol
+şekildeki gibidir Buna göre ortamların
+kırıcılık indislerini kıyasla
+ortamlardaki ışığın ortalama hızlarını
+kıyasla l'den geliyorum m'ye
+geçebilmesine çoktan aza geçmeye
+çalışıyorum l'nin indisi m'den büyük
+Alfa açısıyla gelip tam yansıma yaptık
+Demek ki bu Alfa açısı sınır açısından
+büyük bir değer Şimdi burada böyle
+gitmişiz k'ya geçmeye çalışırken ayırıcı
+yüzeyin üzerinden gitmişiz yani buradaki
+Alfa değeri LK ilişkisinde sınır açısı
+değeridir l'den m'ye geçerken Alfa bize
+tam yansıma yaptırdı l'den k'ya geçerken
+Alfa bizi sınırdan götürdü nasıl
+kıyaslayacak işte deminden beri
+özellikle vurguladığım şey indis farkı
+büyükse kırıcılık fazladır tam yansıma
+kırıcılığının l'nin indisine ben 3 desem
+k'ya 2 derim m'ye 1 derim Bu ikisi
+arasında ındaki indis farkı çok büyüktür
+o kadar büyük ki adam m ile hiç muhatap
+olmamış oraya geçmemiş yani normalden
+uzaklaşacak o kadar uzaklaşmış ki kendi
+ortamında kalmış Bu ikisi birbirine daha
+yakın daha insaflı En azından sınırdan
+gitmiş şöyle Hayal edebilirsiniz mesela
+3'e birken tam yansıma yaptı 3'e 2 iken
+ne olur daha az kırılır sınırdan gider
+3'e 2.2 iken daha da az kırılır
+normalden uzaklaşma 3'e 2,5 Ken daha da
+az kırılır Mesela 3'e üçken ne olur hiç
+kırılmaz dümdüz gider İşte bu adam o
+yüzden Son Nokta diyorum o yüzden indis
+farkı büyük diyorum o zaman l > k o da Ü
+M Sorumun cevabı olur B şıkkında
+ortalama hız kıyaslıyor indis ne demek
+indis ışığın boşluktaki hızının o
+ortamdaki hızına oranıdır indis büyükse
+ışığı çok yavaşlatmış tır o ortam hız
+çok küçüktür bu C'nin sabit olduğunu
+biliyoruz O zaman indis kıyaslamasını
+tam tersi hız kıyaslaması dır yani M
+ortamında Işık çok hızlı K ortamından o
+da daha hızlı L ortamından diyebiliriz
+bu soruyla beraber tam yansımayı sınır
+açısını Hallettik çok fazla günlük hayat
+konuştuk günlük hayatların her biri tyt
+için çok önemli bir sonraki dersimiz
+küresel yüzeylerden geçiş olacak
+takıldıkları alta yazın Kendinize iyi
+bakın
+[Müzik]
+görüşürüz

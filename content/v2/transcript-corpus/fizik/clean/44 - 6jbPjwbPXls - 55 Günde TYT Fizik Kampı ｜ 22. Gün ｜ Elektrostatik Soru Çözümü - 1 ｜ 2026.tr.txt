@@ -1,0 +1,763 @@
+gençler Merhaba bugünkü dersimizde
+elektrostatikle ilgili soru çözümleri
+yapacağız iki tane uygulama testimiz var
+güzel sorular var Hemen başlayalım
+yarıçapları R ve 2 r olan X ve Y yüklü
+iletken küreleri birbirlerine
+dokundurulduklarında aralarında yük
+alışverişi olmamaktadır Bu ne anlama
+geliyor başlangıçta sahip oldukları
+yükler son durumda da aynı kalıyorsa
+sahip oldukları yükler bu yarı çaplarla
+orantılıdır anlamına geliyor Yani
+tamamen sallıyorum diyelim ki x
+küresinde + q yükü var y küresinde artı
+2q yükü var x Küresi R yere çaplı y
+Küresi 2 R ayarı çaplı Ben bunların
+paylaşımını yaptığımda toplam büyük bölü
+toplam kapasite yapacağım toplam yukarı
+3G toplam kapasite başına artık q
+düşecek Bu arkadaşlar R var yine artık q
+alacak bu arkadaşta 2 R var yine +2 q
+alacak o zaman kesinlikle başlangıç
+yükleri Arasında 1'e 2 oran var bu
+q'uysa bu iki q2'ye 4 3A 6 bilemiyorum
+sallıyorum şu an -4 q yüke sahip Z
+küresini önce artı 12 q yüklü x süresi
+sonra y Küresi sırasıyla
+dokundurulduğunda ilksinin son yükü artı
+2 olduğuna göre Z'nin son yükü kaç
+küpüdür Bak az önce bilemiyorum Dediğim
+şeyi soru bana vermiş +12q yüklü x
+Küresi diyor o zaman x Küresi +12
+q yüklüyse kesinlikle y Küresi +24
+q yüklüdür Az önce anlattığım
+sebeplerden dolayı şimdi biz bu x'i -4q
+yüke sahip Z ile dokunduruyormuşuz Tamam
+şu x olsun Şu da Z olsun x de
+başlangıçta artı 12 q olduğunu vermiş
+bana soru Z'de -4 q varmış Bunları
+dokundurduğumda + 8 q toplam yükümüz
+olur Z'nin kapasitesi hakkında hiçbir
+bilgim yok ama soru diyor ki bana x ile
+Z dokundurulduğunda X'in son yükü artı 2
+oluyor yani artı 8'den +2q pay aldıysam
+geri kalan +6 q Z'ye gitmiş demektir
+X'in yarıçapına R dediysem Z'nin
+yarıçapına 3 r demeliyim Çünkü benden 3
+kat fazla almış Z'ye x dokundurulduktan
+sonra y Küresi de dokunduruluyormuş Z'ye
+x dokundurulduktan sonra +6 kalmıştı
+Z'de yeni bir durum yazalım Z var y var
+Z de artı altı var y'de Kaç vardı
+başlangıç en başta bulmuştuk artı 24
+vardı bunda +24 var Z'nin yarıçapını 3r
+olarak bulmuştuk y'nin yarıçapına da
+başlangıçta 2 R demiştik o zaman toplam
+yükümüz artı 30q'dur toplam kapasitemiz
+5 r'dir Buradan da R başına artı 6q
+düşer diyebiliriz Z'nin son yükü diyor
+Z'de 3r olduğu için R başını +6
+düşüyorsa 3r'ye artı 18q düşer Sorumun
+cevabı C seçeneğidir büyük miktarda yük
+içeren cisimler birbirlerine temas
+etmeseler bile yakınlaştıklarında
+yüklerini aktarabilirler şekilde
+bulutlar arasında ve bulutlar ile yer ve
+paratoner arasında elektriksel boşalma
+gözükmektedir Buna göre aşağıdaki
+ifadelerden hangisi yanlıştır konu
+anlatım derslerinde çeşitli deney
+videoları izletmiştim Mesela bir çölde
+Bazı insanların saçlarının böyle
+elektroskop yaprağı gibi dikleştiğini
+açıldığını görmüştük Bu oradaki
+bulutların çok yüklü olduğu anlamına
+geliyordu Bu da Yıldırım Düşmek üzere
+anlamına geliyordu Aslında oradaki
+insanlar çok büyük tehlike altındaydılar
+bir an önce Faraday kafesi görecek bir
+yere girmeleri gerekiyordu Mesela bir
+arabanın içerisine buradaki resmi in
+bulutlar çok şiddetli artı yüklenmiş
+Yeryüzüyle arasında çok büyük bir
+Potansiyel fark oluştuğunda elektrik
+akımı yalıtkan olan havayı yarar geçer
+sanki kablo varmış gibi akım iletilir ne
+kadar büyük bir enerji farkı olduğunu
+Siz hayal edin veya illa bu bulutla yer
+arasında olmak zorunda değil bulutla
+Bulut arasında da olabilir bulutun bir
+kısmı artı yüklenmiştir diğer kısmı
+eksiyle yüklenmiştir yine ikisi arasında
+büyük bir enerji farkı vardır ikisi
+arasında elektrik akımı oluşur yani
+Şimşek oluşur diyebiliriz Peki Bulutlar
+niye böyle yükleniyorlar sonra onu
+soruyor mu bilmiyorum ama işte büyük
+rüzgarlar çıktığı zaman sürtünme
+etkisiyle Bulutlarda bu tarz yüklenmeler
+görebiliriz yerküre nötrü kabul edilir
+ancak yüklü bulutların olduğu bölgelerde
+kutuplaşma olur yerküre Evet nötr niye
+yerküreye ekledim ben az önce etkili
+elektriklenme bir cismi Nötr bir başka
+cisme yaklaştırsan Senin cismin
+sallıyorum artıyla yüklü olsa bu nötr
+cisimde eksileri yakınına çekersin
+artıları uzağa itersin Burada gördüğünüz
+olayın aynısı işte burada da yaşanıyor
+Dolayısıyla a şıkkı Doğrudur B şıkkını
+sona bırakalım yeryüzünde Bulutlara
+yakın yerlerde Bu olay daha sık yaşanır
+şimdi bu Çubuk Şuradaki nötr cismi ne
+kadar daha yakın olursa o kadar iyi
+kutuplama yapmaz mı O zaman bu Bulut
+yeryüzüne ne kadar yakın olursa
+Yeryüzüyle arasındaki bu kutuplaşma daha
+sık gerçekleşir doğru kabul edilebilir
+su molekülleri elektrik yüklerinin
+taşınmasında rol oynadığından yağmurlu
+ve nemli havalarda bu durum görülür
+şimdi Normal şartlar altında hava
+dediğiniz şey yalıtkandır Elektrik
+akımının iletmez Aslında yıldırımın
+oluşamaması lazım Ama dediğim gibi bu
+artı eksi kutuplaşması o kadar şiddetli
+oluyor ki yalıtkan mı yalıtkan
+dinlemiyor Elektrik akımını zorla
+gönderiyor işte Hava yağmurlu ve nemli
+olduğunda o yalıtkanlık da azalıyor
+havada dolayısıyla daha da kolay
+gerçekleşiyor bu olay diyebiliriz bu
+olayın temelinde zıt yüklerin birbirini
+çekmesi ilkesi vardır Evet buradaki
+etkiyle elektriklenme zıt yüklerin
+birbirini çekmesi temeline dayanıyor Bu
+da yıldırımın düşmesini sağlıyor B
+şıkkına gelelim Paratoner üzerinde
+yüklerin toplanmasını engellediği için
+korunmayı sağlar Hayır tam tersi
+paratonerler ile etken sivri çubuklardan
+ibarettir sivri olması konu
+anlatımlarında konuştuğumuz gibi
+oralarda yük yoğunluğunun daha fazla
+olması demek bu Yıldırım'ın orayı daha
+çok tercih edeceği anlamına gelir E bu
+iletken olduğu için de korunmayı
+sağlıyor aslında Yıldırım buraya düşüyor
+Ve bu devasa elektrik akımı Paratoner
+üzerinden toprağa iletiliyor Senin
+binanın dairenin elektronik cihazlarını
+herhangi bir hasar vermiyor engelleme
+yok tam tersine kendini feda edip evi
+kurtarma var yanlış olanı soruyordu
+sorunun cevabı B seçeneğidir yüklü bir x
+Küresi yalıtkan destek üzerinde bulunan
+şekil 1'deki gibi bir ucundan
+topraklanmış y metaline
+yaklaştırılıyormuş bu durumda y'nin
+toprakla bağlantısı kesilip x Küresi
+uzaklaştırılıyormuş daha sonra y metali
+şekil 2'deki gibi yüklü bir
+elektroskobun topuzuna yaklaştırılınca
+da Yaprakların açıklığının arttığı
+gözlemleniyormuş Buna göre hangileri
+kesinlikle doğrudur denilmiş Şimdi bu
+adamların yüklerinin işaretleriyle
+ilgili hiçbir bilgim yok Sadece demiş ki
+x yüklü bir küre sallıyorum o zaman
+diyelim ki bu arkadaş eksiyle yüklü
+olsun y Küresi başlangıçta nötr bunun
+içerisindeki eksileri mümkün olan en
+uzağa eğitecek mümkün olan en uzak yer
+neresi Toprak Dolayısıyla eksiler
+toprağa gidecekler artıları yakınında
+tutacak eksiler toprağa gidecek Toprak
+bağlantısını şu an bizim y metalimiz sol
+tarafından artıyla yüklenmiş oldu geri
+kalan yerler nötr bunu da gönderdim ve
+bu artılar burada kalamayacaklar
+birbirini itecekler Dolayısıyla y
+küresinin her yeri artı ile yüklü olacak
+diyebiliriz bu artı adamı elektroskoba
+yaklaştırdığını yapraklar daha çok
+açılıyormuş artı yaklaştırmak yapraklara
+artı göndermek demek topuzdan
+yapraklarda da daha önce artı varmış ki
+yeni artılar Geldiğinde daha da çok
+açılmış artı artıyı daha çok itmiş Demek
+ki elektroskobun başlangıçtaki yük
+işareti de artıymış bize hangileri
+kesinlikle doğrudur diye soruyordu Fakat
+bu soruya şöyle bir ekleme yapmamız
+lazım sorunun cevabını buradaki Toprak
+bağlantısı kesildikten sonra oluşan
+duruma göre yorumlayacağız X ve y'nin
+yük işaretleri zıttır Evet bütün Bu
+olaylardan sonra biz y'yi artı ile
+yükledik ikisini de başlangıçta eksi
+olduğunu kabul etmiştik 7 hocam onu Siz
+kabul ettiniz belki x başlangıçta
+artıydı o zaman yeydi eksi yüklerdi
+buradaki olayların tam tersi olurdu
+dolayısıyla bir kesinlikle doğrudur
+Toprak bağlantı kesildikten sonra
+öncesini konuşuyor olsaydık öncesinde ye
+Zaten toprağa bağlanmıştı
+yaklaştırılmadan önce toprağa bağlı
+olduğu için ye nötr haldeydi başlangıçta
+biz bunların yüklendikten sonraki
+durumlarını konuşuyoruz y ile
+elektroskobun yük işaretleri aynıdır
+Evet y + ise elektroskop da artıdır y -
+olsaydı bütün olaylar tam tersi olsaydı
+yapraklar yine açılıyor yorumunu
+yaptığımda elektroskobun eksi ile
+yüklüğü olmuş olduğunu kabul etmem
+gerekirdi iki de kesinlikle doğru y'nin
+etkisi altında elektroskopun topuzuyla
+yapraklarının yük işareti farklıdır
+y'nin etkisi altında Şu an buradaki
+elektroskop elektroskop zaten artı
+yüklüydü topuzu da artı yaprakları da
+artıydı yeni bir artı geldiğinde
+yapraklar daha da çok açıldı Niye Çünkü
+biz topuzdan yaprakları artı gönderdik
+aslında olan ne artılar hareket
+edemezler Yapraklardan yukarıya eksiler
+gitti demeliyiz buradaki eksiler
+azaldığı için artı fazlalığı arttı O
+yüzden daha çok gitti yorumunu
+yapmalıyız şimdi buraya eksiler
+geldiğinde zaten artı olan topuzu ne
+hale getirdi acaba bu topuzdaki artı
+miktarını biraz azaltmış da olabilir
+tamamen nötrlemiş de olabilir veya o
+kadar çok eksi gelmiştir ki topuz artık
+eksi işareti de olabilir yani topuzun
+artı olma nötr olma olma ihtimali var
+soru bize kesinlikle dediği için bu
+üçüncü öncülü alamam Maalesef bu yüzden
+Sorumun cevabı 1 ve 2 olmalıdır gelelim
+dördüncü soruya aynı cinsel elektrikle
+yüklü Özdeş M ve n iletken kürelerinin
+yük miktarları farklıdır yalıtkan X ve Y
+lastikleri ile bağlı olan M ve n
+küreleri şekildeki gibi dengededir bu
+durumda n Küresi m'ye dokundurulup
+bırakıldığında lastiklerin boyları nasıl
+değişir diye sorulmuş hem mekanik
+içeriyor hem elektrostatik içeriyor
+bizim için önemli bir soru M ve n
+iletken küreleri özdeşmiş o zaman
+Bunların aynı yarıçaplı olduğunu
+düşünebilirim Aynı cins metalden
+yapıldıklarını düşünebilirim bunları
+dokundurup ayırdığımda toplam yükü eşit
+paylaşacaklarını söyleyebilirim Fakat
+bunların yük miktarları farklı bunlar
+aynı cins elektrikle yüklüler sallıyorum
+İkisi de artı işaretli ama bunların yük
+miktarları farklı diyelim ki tamamen
+yine sallıyorum m + 3q n de artı 1K
+olsun bu dokundurma işlemini yapmadan
+önce şu anın mekaniğini anlamalıyız bu
+sistem dengede hem me cismi hem M cismi
+dengede duruyorlar ve durmaya devam
+ediyorlar o zaman üzerlerindeki Net
+kuvvetin sıfır olması gerekiyor Örneğin
+ben n cisminin fotoğrafını çeksem bu
+arkadaşı kesip şuraya yapıştırsam
+üzerine etki eden kuvvetler nelerdir Bir
+kere aşağıya doğru ağırlığı var tabii ki
+gn diyelim buna buradan bir lastikle
+bağlanmış lastik itemeyecektir
+çekecektir Dolayısıyla yukarıya doğru TY
+diyelim y lastiğindeki gerilme olarak E
+bir de elektriksel bir kuvvet var
+sonuçta bu da Artı bu da artı Bu ikisi
+birbirini iter M n'yi aşağıya doğru iter
+Yani bunun üzerinde bir de aşağıya doğru
+bir elektriksel kuvvet var başka bir
+kuvvet görüyor muyuz Hayır görmüyoruz bu
+üç kuvvet var n cismi durmaya devam
+ettiği için Net kuvvet sıfır o zaman
+yukarıya doğru olan t y eşittir aşağıya
+doğru olan elektriksel kuvvet ve cismin
+ağırlığıdır diyebiliriz böyle bir
+denklemimiz var bu dursun işimize
+yarayacak mesela M cismi için bir
+denklem yazsam nasıl yazarım Onun da
+fotoğrafını çeksem M cisminin
+fotoğrafını çektim kestim şuraya
+yapıştırdım üzerine etki eden kuvvetler
+Tabii ki ağırlığı var aşağıya doğru g
+yine buradan bir lastikle bağlanmış x
+lastiği lastik itemeyecek çekecek
+yukarıya doğru TX diyelim ona da böyle
+bir kuvvet uyguluyor bu elektriksel
+kuvvetin aynısı m
+[Müzik]
+uzaklığın karesi birinci yükümüz 3q 2
+yükümüz 1q işte aralarındaki uzaklık
+dediğim şey de Şuradaki lastiğin boyu
+olarak düşünülebilir buraya D demiş
+olduk yukarıda 3q kare var Dolayısıyla
+şu an elektriksel kuvvet 3 sayısı ile
+orantılı 3F diyebiliriz buna bunları
+dokundurup ayırırsam ne olur bu 3q ile
+q'yu paylaşırlar toplamda ne kadar
+yükleri var Toplamda 4q yükleri var R
+Yarıçap R Yarıçap toplamda 2r kapasite
+var o zaman R başına artı 2q'luk yük
+düşer yani m'nin yeni yükü artı 2q n'nin
+yeni yükü artı 2 q İkisi de artı İkisi
+de birbirini itmeye devam edecek ama bu
+elektriksel kuvvet değişecek Çünkü artık
+q m2 qn de 2q bunları çarptığımda 4
+q'nun karesi gelir 3F dediğin kuvvet
+olur sana 4 ef yani elektriksel kuvvet
+bu yeni durumda artmış olur Örneğin
+y'nin denklemine baktığımda elektriksel
+kuvvetin arttığını iddia ediyorsam
+ağırlığı Tabii ki değişmeyecektir dünya
+ile arasındaki olan çekimden
+bahsediyoruz onda bir değişiklik yok bu
+denklemde şu an Sağ taraf büyüdü o zaman
+eşitliğin devam etmesi için sol
+tarafında Büyüm lazım yani y
+lastiğindeki gerilme artar y lastiğini
+daha çok çekiyoruz bu da lastiğin
+uzaması demek y lastiğinin boyu
+kesinlikle artar diyebiliriz Peki x için
+ne diyeceğiz burada çok ince bir nokta
+var buraya dikkat edin hocam X'in
+denklemi de buydu Burada da elektriksel
+kuvvetin arttığını iddia ediyoruz ama
+burada TYD artar dediniz eşitliğin
+sağında da bir artış var Nasıl
+yorumlayacağız bunu buraya biraz daha
+kurcalarsak nasıl yorumlayacağımızı çok
+net göreceksiniz bakın ty'nin denklemi
+neydi elektriksel kuvveti artı n'nin
+ağırlığı Burada da TY var geleceğim Onu
+yerine yazacağım bunun hemen altına TY
+yerine elektriksel kuvvet artı n'nin
+ağırlığı diyeceğim artı bir de burada
+m'nin ağırlığı var eşitliğin sol
+tarafında da elektriksel kuvvet artı x
+gerilmesi var Her iki tarafta da aynı
+elektriksel kuvvet var Bunlar birbirini
+götürür o zaman denklemde geriye kalır
+ilk lastiğindeki gerilme nelere
+bağlıymış M cisminin ağırlığıyla n
+cisminin ağırlığına bağlıymış enteresan
+bir sonuç elektriksel kuvvetten tamamen
+bağımsız çıktı Yani şu lastikteki
+gerilme sadece ve sadece bunun
+ağırlığıyla bunun ağırlığını taşıyor
+diyebiliriz bunların birbirini itmesini
+çekmesinden bağımsız bir şey hocam Öyle
+şey olur mu elektriksel kuvvet artıyor
+dediniz O zaman bu m daha çok
+itilecektir yukarıya doğru n tarafından
+Bu da lastiği gevşetir 7 aynı şekilde n
+cismi de daha çok itilecek aşağıya doğru
+Bu da lastiği tekrar gerginleştirir
+sistem bazında baktığımda m'yi ve n'yi
+ortak düşündüğümde bunu Newton
+yasalarında konuşmuştuk oradaki soru
+çözümlerinde de vardı bu şu elektriksel
+kuvvet de bu elektriksel kuvvet
+birbirini götürebilir etki tepki
+birbirini götürebilir sistem bazında
+bakarsan cisim bazında bakarsan götürmez
+Çünkü M cismini incelersen Sadece buna
+odaklanırsan ona etki eden bir tane
+elektriksel kuvvet var diğer elektriksel
+kuvvet m'ye etki etmiyor ki götürsün
+n'yi incelediğimde ona etki eden bir
+tane elektriksel kuvvet var tepki
+kuvveti olsun Mesela bu sadece bu var
+Öbür elektriksel kuvvet n'yi etki
+etmiyor ki götürsün ama bunların hepsini
+bütüncül düşündüğümde buradaki etki ile
+buradaki tepki birbirini götürebilir O
+yüzden x lastiği sadece ağırlıkları
+taşıyor diyebiliriz bu çok Klasik bir
+soru tipidir aslında aynı soru tipi
+elektrikte olduğu gibi manyetizmada da
+var İki tane cisim birbirini itiyor veya
+çekiyor bunları mıknatıs olarak da
+düşünebilirsiniz onlar da birbirlerini
+itebilirler ya da çekebilirler bunları
+tavana astığınızda tavana bağlı olan
+ipteki lastikteki gerilme sadece
+cisimlerin ağırlıklarını taşır benim
+klasik bir örneğim var Bununla ilgili
+elinize böyle bir halat aldınız halatta
+da iki tane yavru kedi tırmanmışlar ve o
+halatın üzerinde birbirleriyle
+oynuyorlar o onun üzerine atlıyor o Onu
+tutuyor Çekiyor o ona pati Atıyor falan
+yani aralarında bir etkileşim var
+itmeler çekmeler var siz ne taşıyorsunuz
+Siz iki tane kedi taşıyorsunuz onların
+birbirini itmesi çekmesi Sizi
+ilgilendirmez sizin elinizdeki kuvvet O
+iki tane kedinin ağırlığından ibarettir
+Dolayısıyla Bu soruda elektriksel
+kuvvetlerin artması azalması buradaki T
+eksi bağlamaz M cisminin ağırlığı
+değişmediği n cisminin ağırlığı
+değişmediği müddetçe ki değişmiyor bizim
+İkisi de ki gerilmemiz değişmez
+Dolayısıyla boyu da değişmez Sorumun
+cevabı x değişmez y artar yani e
+seçeneğidir hepsinin yük depolama
+kapasitelerinin eşit olduğu X ve Y
+küreleri ile Z elektroskobu yatay
+düzlemde etki mesafesinin burada
+şekildeki gibi yerleştirilmişler yalnız
+A2 anahtarı kapatıldığında Z
+elektroskobunu yaprakları biraz
+kapanırken sonrasında A2 açılıp A1
+kapatıldığında elektroskobun yaprakları
+biraz açılarak aralarındaki açıyı yine
+teta oluyormuş başlangıçta tetaymış son
+durumda yine teta Buna göre hangileri
+doğru olabilir Şimdi böyle uzun soluklu
+uzun uzun anlatan soruları adım adım
+götürmeliyiz hepsinin yük kapasitesi
+eşit O zaman bu R yarıçaplı bir küre bu
+R yarıçaplı bir küre Bu elektroskobu da
+bir küre olarak Hayal edersen Buna da R
+Yarıçap diyeceğim yani bunlar paylaşım
+eşit yapacaklar Her koşulda Şu an
+elektroskopta bir açıklık var zaten
+yapraklar açılmış Demek ki bu
+elektroskop yüklü ama ekimi artı mı
+bilmiyoruz A2 anahtarını kapatıyorum
+elektroskopla buradaki küre telle
+birbirine bağlanmış olur yani Dokunma
+işlemi yapmış gibi olur birbirleri
+arasında yük paylaşımı olur Bunu
+yaptığımda yapraklar biraz kapanıyormuş
+Yani artık bu Z nasıl yüklüyse o yük
+miktarı azalmış diyelim ki bu
+elektroskop -3q yüke sahipmiş anahtar
+kapatıldığında eksi 2q'ya düşmüş o zaman
+y ile ilgili nasıl bir yorum yapabiliriz
+Z elektrosk eksildi ise nereye gitti bu
+Y'ye gitti y aldı o zaman y nasıl bir
+şey olabilir mesela -q olabilir mi Bu
+eleman eksik qdur bu eleman -3q'dur
+anahtarı kapattığımda temas ettiler
+toplam -4 oldu -2 -2 paylaştılar yani
+yeni durumda bu -2 q oldu bu da -2 q
+oldu gayet de olabilir işte bu -q Y'ye
+böyle gider veya daha büyük bir yüke
+sahip olabilir mi mesela -5 q yüke sahip
+olabilir mi diye bunu da eksi 5q var
+Z'de -3q var anahtarı kapattım -8 oldu
+Nasıl paylaşacaklar -4 q -4 q bu olmaz
+Niye Çünkü sen şu an elektroskobunun yük
+miktarını arttırmış oldum Yaprakların
+açılması gerekirdi Demek ki
+yelektroskobu negatif ise eksiyse
+elektroskoptan daha büyük -3'ten daha
+büyük olmayacak daha küçük olacak bu
+ihtimali sildik Peki artı olabilir mi
+İlla eksi mi olmak zorunda y dediğim
+adam mesela artı q olsa Z dediğim adama
+da -3 q demiştim bunları toplarsam -2 q
+olur -2 q'yu Nasıl paylaşırlar -q -q
+diye paylaşırlar benim eksi iki q sayımı
+elde etmedik zaten amacımızı -2'yi elde
+etmek değil Yaprakların kapanması Evet
+bu durumda yapraklar biraz kapanır eksi
+üçtüm -1'e düştü Demek ki artı da
+olabiliyor ama artı olacaksa da miktar
+olarak her halükarda Z'den küçük olmalı
+Çünkü Z'den büyü vereyim dikkat edin
+diyelim ki y dediğim adam + 5q'e sahip
+elektroskopumuz -3q'ydu birleştirdim
+bunları toplam artı 2 olur Nasıl
+paylaşacaklar artık q artık q Hocam
+bakın yine azaldı olur ayrı olmaz burada
+işaret değiştiriyorum sonra o zaman bize
+derdi ki yapraklar biraz kapanıyor değil
+Tamamen kapanıyor sonra tekrar açılıyor
+derdi yani böyle bir ihtimal de yok Artı
+olabilirim ama yine miktar olarak
+elektroskoptan daha küçük olacağım
+Dolayısıyla bu ihtimalde olur bu
+ihtimalde olur bu y ve z ilişkisine
+bakarsak y'nin ilk yükü Z'den büyüktür
+Hayır olmaz y'nin ilk yükü her halükarda
+elektroskoptan küçük olacak şimdi sorun
+ikinci kısmı elektroskobun yaprakları
+biraz kapandı biz tekrar bu anahtarı
+açıyoruz elektroskop eksi durumda hala
+buralarda yazdığım gibi Ve bu anahtarı
+kapatıyoruz Yani artık x ile
+elektroskobu sağlamış oldum yine bir yük
+paylaşım olacak soru diyor ki bu sefer
+yapraklar biraz açılıyor ve açıyı ne
+tete oluyor Yani tekrar -3'e geri
+dönüyoruz Buradan -3'e geri dönmüş
+olabilirim buradan -3'e de geri dönmüş
+olabilirim ama geri döneceğim Yani
+elektroskobun yük miktarı artacak
+nereden gelecek bu eksiler Tabii ki
+x'ten gelecek O zaman az önce söylediğim
+şeylerin tam tersi olmayacak mı Aynen
+öyle X'in yükünün Z'den daha büyük
+olması lazım Mesela x - 4 q olsa Z eksi
+2q olsa toplarım bunları -6 olur Nasıl
+paylaştırırım -3 q -3q elektroskobun yük
+miktarı arttı mı arttı yapraklar açılır
+mı açılır X'in ilk yükü Z'den büyük oldu
+ve istediğim şey gerçekleşti Ama birinci
+Öncül de bana x ile y'yi kıyaslamamı
+istiyor y'nin ilk yüküne zaten ya -q
+dedik ya artık q dedik her halükarda
+elektroskoptan küçük bir değerdi Biz
+diyoruz ki şimdi x elektroskoptan da
+büyük ya o zaman X'in ilk yükü Tabii ki
+y'den büyük olabilir Adama -4 dedim X ve
+Y küreleri zıt yüklü olabilir mi Evet
+olabilir çünkü bakın y'nin artı olma
+ihtimali vardı bu ihtimal soruyu
+sağlıyor x-4 olduğunda zıt olma durumunu
+sağlamış oluyorum bu da bir ihtimaldir
+bire ve Üçe doğru dedim Sorumun cevabı e
+seçeneğidir şekilde verilen eşit bölmeli
+düzlemde artı q yükünün K noktasındaki
+elektrik alan vektörü verilmiş Buna göre
+-4q yükünün K noktasındaki elektrik alan
+vektörü aşağıdakilerden hangisidir şimdi
+noktasal bir yükün elektrik alanı ortama
+bağlı yüküne bağlı ve O yükten Ne kadar
+uzakta elektrik alan bulmaya
+çalışıyorsun ona bağlı Burası birim
+karelere bölünmüş bir düzlem yani
+ölçekli bir çizim şurası bir birimse
+Burası 1 birimse Burası 90° olduğu için
+burada dik üçgen olduğu için şurası kök
+2 birimdir pisagor'dan Ben buradaki kök
+2 birimlik mesafeyi D olarak
+tanımlıyorum ve buradaki kök 2 birimlik
+vektörü de e olarak tanımlıyorum bu
+tanımlar üzerinden soru inşa edeceğim
+şimdi bir de bizim -4 q yükümüz varmış
+aynı K noktasında nasıl bir elektrik
+alan vektörü oluşturur Bir kere
+başlangıçta yük artı olduğu için zaten
+dışarıya doğru vektör çizilmiş Çünkü
+oraya artı işareti kabul edilen test
+yükünü koyarsam o onu iter zaten birim
+yükü etki eden elektriksel kuvvet
+elektrik alanı olduğu için itmeye
+benzeyen bir elektrik alan vektörü
+çizmiş oluruz -4q yükümüz eksi olduğu
+için senin burada kesinlikle çizeceğim
+vektör bir kere yüke doğru çizilmeli
+çünkü o test yükünü çekme şeklinde Klon
+kuvveti oluşacak Peki tamamen ölçekten
+bağımsız şöyle bir yön belirten vektör
+çiziyorum acaba bu kaç e olur yük 4 kat
+daha fazla Buna göre Dolayısıyla buraya
+4q yazıyorum eksi ye takılmıyorum Çünkü
+ben şu an elektrik alanı şiddetiyle
+ilgileniyorum yönü zaten vektörü çizerek
+gösteriyorum bölü uzaklığa da şu
+mesafeyi yazacağım Burası 2 kök 2 birim
+kök 2'ye D dediysem o zaman burası 2
+d'dir 2d'nin karesini alırsam 4d'nin
+karesi yapar Ortam aynı ortam O yüzden
+burası K ise Burası da ka bununla bu
+gitti yine K çarpı q/d² olmadı mı bunun
+gibi aynen öyle O zaman bu da E'ye
+eşittir Bu vektör şiddet olarak ne
+kadarsa ki kök 2 birim uzunluğundaydı
+Demek ki bizim buradaki vektörümüz de
+aynısı olacak ama bu yönde olacak kök 2
+birimlik bir vektör olacak sorumuzun
+cevabı B seçeneğidir yalıtkan iplerle
+asılıp pozitif yüklü Özdeş küreler
+başlangıçta nötr olan içleri boş x y z
+iletken kürelerinde şekildeki
+konumlarında tutulurken
+topraklanıyorlarmış önce toprak
+bağlantılarını kesiyorum sonra pozitif
+yüklü küreleri uzaklaştırıyorum x y
+Z'nin son yük işaretleri ne olur şimdi
+Bakın bu adam artı mı Evet bu adam nötr
+mü Evet içten dokunmuş mu evet
+iletkenlerin içinde yük
+barındıramazsınız Çünkü aynı işareti
+yükler birbirini iteceği için mümkün
+olan en uzağa Yani en dışa giderler Sen
+Nötr bir küreye içerden bu rt'yi
+dokundurursan bütün artılar birbirini
+iteceği için dışarıda toplanırlar
+diyebiliriz İçerisi her zamanki gibi
+nötr olacak ve buradan bir de toprak
+bağlantısı yaptın o zaman Aslında bu
+artılar birbirini itip en uzağa gidiyor
+ya en uzak yer neresidir topraktır Sen
+dışarıyı da artıyla yükleyemezsin bu
+durumda bütün kürena türlenir artıların
+gideceği en uzak topraktır Diyebiliriz
+ama artıları hareket etmediği için
+aslında Biz topraktan eksiler gelecek ve
+bütün bu şekli nötrleyecek diyebiliriz
+ya da bunu şöyle düşünün iki tane
+iletken birbirine değiyorsa onları tek
+bir cisim gibi hayal edebilirsin Yani bu
+şekli şöyle çizseydim farklı bir yorumu
+yapacaktınız Sanki başka bir küre yokmuş
+gibi tek bir cisim varmış gibi şöyle
+mükemmel bir çizim yaptım böyle bir
+iletkenim var bunu buradan toprağa
+bağladık komple iletken ne olur iletkeni
+toprağa bağlarsam toprağa bağlanan her
+şey nötrlendiği için Burası komple nötr
+olur dersin hiç kafa karıştırmaya gerek
+yok şeklini şemalini de bir önemi yok
+Şurada ufak bir çıkıntı var diye
+herhangi bir nötrlenme durumu söz konusu
+olmaz topraklandığın halde nötrlenmeme
+durumu nasıl olur dışarıdan zorla bir
+dış etkinliği vardır bir etkiyle
+elektriklenme yapıyorsundur o zaman
+Toprak her yerin ötürleyemez o dışarıdan
+zorla getirdiğin etki bazı yükleri tutar
+geri kalan her yerine türlenir bunu ders
+anlatımlarında bolca konuştuk Örneğin ye
+şimdi bu arkadaş artı içeriye
+sarkıtılmış toprağı unutalım Başlangıçta
+ne olur eksileri en yakınına çeker
+içeriye çeker artıları da mümkün olan en
+uzağa yeter diyeceğim ama dışarıda
+Toprak bağlantısı olduğu için en uzak
+yer neresi Toprak o zaman bütün artılar
+toprağa gidecek ya da topraktan eksiler
+gelip dışarı götürülecek diyebiliriz
+Dolayısıyla şu an içerde eksi yükler var
+Buranın dışı nötrü oldu hocam burada
+komple her şeye nötr olur dediniz Burada
+da aynı toprak var burada Niye her şey
+nötr olmuyor Az önce söyledim burada bir
+dış zorlama var bu artıyı yaklaştırdım O
+yüzden bir kısım eksiği içeride zorla
+tutuyorum Toprak her yerin nötrleyemez
+nötrleyebildiği yerlerin nötrler bu
+eksiler de normalde toprağa gitmek
+isteyecekler Ama bu artı onların
+gitmesine müsaade etmeyecek hocam Burada
+da aynı artı vardı bu artı toprağın
+çekimine kapıldı bu artı toprakla direkt
+bağlantı halinde iletkene değmiş bu
+değmemiş Biz şu an Bu sarkıttığımız
+cismi toprağa bağlamadık O havada
+duruyor hem olaylara karışmıyor hem de
+etkisiyle içeride eksileri tutuyor
+Dolayısıyla Toprak her yerin nötrleyemez
+şu an içerisidir dışarısını ötürüdür bu
+duruma baktığımda ikisine ne konuştuysam
+Z'de de aynı şey var Bunlar birbirine
+temas ediyor mu ediyor O zaman ben bunu
+tek bir cisim gibi düşünebilirim size
+soruyu şöyle sorsaydım şurada hafif bir
+çıkıntı var gençler şöyle kargacık
+burgacık bir il etkenimiz var Ben bunu
+şuradan toprakladım ne olur Hocam
+iletkeni direkt toprağa bağlamışsınız
+dışarıdan bir etki de yok burada olduğu
+gibi komple her yerde türlenir dersiniz
+Evet burada da her yer komple
+nötrlenecektir Ama hocam Toprak buradaki
+mavi cisme yapılmış bizim bu gri
+küremize yapılmamış ki fark etmez bunlar
+temas ediyorlar maviye ne oluyorsa griye
+de aynı şeyler olacaktır temas eden bu
+cisimleri tek bir cisim gibi
+düşünebiliriz Peki bunların toprak
+bağlantılarını kestik küreleri de
+uzaklaştırdık E zaten x şeklinde her
+yerin nötrlemiştik küreden ötürü adamı
+götür hiçbir şey değişmez x Küresi içi
+boş küremiz nötr halde kalacaktır Z de
+aynı şekilde ben herkesin nötrledim
+zaten toprağı kessem artık nötrlenmiş
+olan bu maviyi uzaklaştırsam bir şey
+değişmez Benim buradaki gri zürem nötr
+olacaktır Ama Y'ye bakarsak toprağı
+kestim dışarısını öttürdü içeride
+eksiler vardı bu arkadaşı da
+uzaklaştırırsam dış etki ortadan
+kalktığında içerisine nötr kalmak
+zorunda ne yapacak bu eksiler
+birbirlerini ittikleri için en uzağa
+gidecekler artık Toprak da yok en uzak
+neresi tekrar Tabii ki dış kısmı olacak
+yani yöresi dışarıdan eksiyle
+yüklenecektir iç kısmı yine
+nötrlenecektir çünkü dış etki gitmiştir
+bu mavi küre uzaklaştırılmıştır
+diyebiliriz sorumuzun cevabı C
+seçeneğidir testimizin son sorusu
+başlangıçta nötraldeki Ali şekildeki
+gibi bir süre nötr halı üzerine
+yürüdükten sonra kapıyı açmak için elini
+met olan Kapı kolunu uzattığında eliyle
+kapı kolu arasında bir kıvılcım
+sıçraması oluyor simülasyonda görmüştük
+bunu halıyı ayağımızı sürttüğümüzde
+ayağımız nötr Halıdan ötür Ama senin
+ayakkabın çorabın Neyse plastik gibi
+düşün halıyı yün gibi düşün plastiği
+yine sürttüğümüzde bir eksi yüklenir bir
+artı yüklenir sürtünmeyeli elektriklenme
+bu çocuğun ayakları eksiyle
+yüklenecektir bu eksiler vücuda dağılır
+ele kadar gelir iletken olan bu Kapı
+kolunu tuttuğumda yük paylaşım olur yani
+vücudundaki eksilerin bir kısmı Buradaki
+kapı koluna aktarılır vücudunda
+elektronlar başka bir yere aktarılırken
+vücudun bunu kıvılcım olarak hisseder
+çarpıldım dersiniz sürtünmeyle
+elektriklenme sonucunda Ali ile halı zıt
+yüklerle yüklenmiştir Evet Ali'nin
+ayakları eksi yüklendi ise kesinlikle
+halıda artı yüklenmiştir diyebiliriz bu
+kesin doğru Ali ile halının yük
+miktarları aynıdır Evet çünkü yük
+korunumu olur başlangıçta halı da nötrdü
+Ali de nötrdü toplam yükümüz sıfırdı
+şimdi Ali eksi q ile yüklendi ise o
+zaman mecburen halıda artı q ile
+yüklenmek zorunda çünkü toplam yükümüz
+hala 0 kalmaz ikide Kesinlikle doğru
+kolu ile halının yük işaretleri aynıdır
+Şimdi kapı kolu normalden ötür eksiyle
+temas ettiğinde yani Ali ile temas
+ettiğinde yük paylaşım olur kapı kolu
+eksiyle yüklenmiş olabilir halı artıydı
+Dolayısıyla aynı olamaz veya başka bir
+ihtimal Bu kapı topraklama etkisi de
+gösteriyor olabilir kapasitesi çok
+büyüktür kapasitesi çok büyük olduğu
+için buradaki eksiler onun hayatını çok
+etkilemez nötr kalmaya devam ediyor gibi
+düşünebiliriz ama hangisi olursa olsun
+halıyla yük işaretlerini aynı olma
+imkanları yok Sorumun cevabı C seçeneği
+olacaktır bu soruyla beraber birinci
+testimizi bitirdik takıldıklarınızı alta
+yazın ikinci testimizde görüşürüz
+[Müzik]

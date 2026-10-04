@@ -1,0 +1,818 @@
+gençler Merhaba bugünkü dersimizde
+üreteçlerle ilgili daha detaylı bilgiler
+öğreneceğiz şu ana kadar bütün devre
+elemanlarını tanıdık bir elektrik
+devresi gördüğümüzde karşımıza çıkacak
+her şeyi öğrendik ama şu ana kadar hep
+bir tane üreteçle uğraştık bir tane
+pilimiz vardı Halbuki gerçek hayat böyle
+değil uzaktan kumanda da bile 2 tane pil
+var birden fazla güç kaynağı olursa
+onları nasıl sadeleştiririm Çünkü benim
+ana amacım hep sade düşünmek 3 tane 5
+tane direnç varsa onları teke
+düşürüyordum ona eşdeğer direnç diyorduk
+Şimdi de 3 tane 5 tane pilim varsa
+onları nasıl teke düşüreceğim bunu
+öğreneceğiz Hemen başlayalım diyelim ki
+bir elektrik devreniz var şurada bir
+lambanız var şurada bir piliniz var
+hatta bunun yanına bir tane daha pil
+bağlanmış böyle bir elektrik devresi bu
+Lamba yanıyor Çünkü bu devrede bir
+elektrik akımı dolaşır Çünkü buradaki
+piller devrede bir Potansiyel fark
+oluştururlar bu lambanın da bir direnç
+olduğunu tekrar hatırlayalım İşte
+buradaki iki üretici tek bir üreteç Gibi
+Düşünmek isteyebilir o zaman onun da eş
+değerini bulacağım aynı dirençlerde
+olduğu gibi bu piller üreteçler nasıl
+bağlandı Buna dikkat etmeliyim İki tür
+bağlama var seri bağlama ve paralel
+bağlama iki tane etkili böyle yan yana
+aynı hat üzerine bağlarsan bu seri
+bağlamadır tek bir tele bağlanmışlar
+üzerlerinden aynı akım geçer sol tarafa
+doğru ı akımı soldaki pilden de geçer
+Sağdaki pilden de geçer hocam pillere
+direnç muamelesi yapıyorsunuz pillerden
+akım geçmez piller akım üretir
+diyorsanız yanlış düşünüyorsunuz diyelim
+ki Şurada 4 amperlik akım var buradaki
+lambadan 4 amper geçiyor şöyle der
+misiniz hocam bu 4 amperin atıyorum 3
+amperini soldaki pil üretmiştir bir
+amperini Sağdaki pil üretmiştir toplam O
+yüzden 4 amper vardır tamamen yanlış bir
+yorum pillerin hiçbir şey ürettiği yok
+Tekrar hatırlayalım piller bu tellerdeki
+serbest elektronları
+hareketlendiriyorlar sadece akım
+oluşmasına sebep oluyorlar akımı
+sıfırdan üretmiyorlar piller sıfırdan
+elektron üretip devreye salmıyor sadece
+Potansiyel fark oluşturuyorlar devrede o
+Potansiyel fark yüzünden elektronlar
+hareket ediyor Böylece elektrik akım
+oluşuyor buraya 3 1 yazarsanız Bizim
+daha önce öğrendiğimiz kuralı da ihlal
+etmiş olursunuz bakın burada komple tek
+bir hat var tek metal var Bunların hepsi
+seri bağlı tek telde tek akım olur Sen
+şuradan 4 amper geçiyor diyorsan bu 4
+amper lambadan da geçiyor buradaki
+pillerden de geçiyor bu pilden de 4
+amper geçer bu pilden de 4 amper geçer
+çünkü bunlar seri bağlıdır önce bu mevzu
+iyi anlamak lazım Peki bunları nasıl
+teke düşüreceğiz eş değerini nasıl
+yazacağız ben bu devreyi şöyle bir tane
+lamba bir tane pil haline nasıl
+getirebilirim soldaki pilimizin
+oluşturduğu Potansiyel fark ve bir
+Sağdaki pilimizin oluşturduğu Potansiyel
+fark ve ikiyse tek pile düşürdüğümüzde
+buna ve eş deriz Yani bu ikisinin
+oluşturduğu potansiyel farkın eş değer
+değeri Peki bu nasıl bulunuyor Bunlar
+Nasıl bağlılar seri bağlılar daha önce
+dirençlerin bağlanmasında devre analizi
+yaptığımızda seri bağlıda potansiyel
+farkları ne yapıyorduk topluyorduk O
+yüzden eş değeri bulurken V1 + V2 artı
+kaç tane varsa bunları topluyoruz
+diyelim ki V1 dediğim şey 3 volt V2
+dediğim şey 5 volt O zaman biz bunları
+teke düşürdüğümüzde Şuraya da yazalım
+Burası 3 volt Burası 5 volt tek bir
+pilmiş gibi düşündüğümde buna 8 volt
+Yazmam gerekir bunu nokta potansiyel
+yöntemiyle de ispatlayabiliriz şimdi biz
+bu pile 5 volt dedik O zaman alçak
+potansiyel kısmında yani eksik kısmında
+0 volt var deriz 5 voltluk fark
+oluşturduğuna göre bu artı kısmında 5
+volt var deriz bu noktayı devam
+ettirebilirim geldim soldaki pile onun
+eksi kısmında şu an 5 volt var peki bu
+arkadaş kaç volt fark oluşturuyor 3 volt
+o zaman buraya ne yazacağım 8 volt
+yazacağım ki fark 3 olsun hocam iki
+voltla yazabilirdiniz İyi de burası artı
+kısmı yani yüksek potansiyel kısmı O
+yüzden beşten büyük bir sayı yazmam
+gerekiyordu Peki ben bu iki üretici
+kapsayacak şekilde Şuraya bir voltmetre
+bağlasam bu voltmetre kaç okur Sağdaki
+ucu 0'da soldaki ucu 8'de farkını söyle
+8 volt E tamam işte burayı tek bir pil
+gibi düşündüğümde neden onun yerine 8
+volt yazdığımızı böylece çok rahat
+anlıyoruz pillerin artı eksi Kutbu
+olduğu için aynı hatta bağlamana rağmen
+seri bağlamana rağmen ters
+bağlayabilirsin bizim Az önce
+öğrendiğimiz düz bağlamaydı yani düz
+bağlama ne eksi artı eksi artı bu düz
+bağlama ters bağlamada eksi artı artı bu
+iki pil ters bağlanmış bunları teke
+düşürmek istediğimde tek bir pil gibi
+yazmak istediğimde ne yazacağım ikisinin
+potansiyel farkını birbirinden
+çıkartacağım diyelim ki V1 dediğim şey 3
+volt V2 dediğim şeyde 5 volt olsun neden
+çıkartmam gerektiğine bakayım nokta
+potansiyel yapıyorum şurasına 0 desem
+Burası artı taraf yüksek potansiyel
+farkla 5 olacağı için buraya 5 volt
+yazmış olurum o zaman Burası da 5 volt
+olur Sağdaki pilin artı kısmında 5 volt
+var ve kendisi 3 voltluk fark
+oluşturuyor o zaman eksi kısmında alçak
+potansiyel kısmında iki volt olmalı yine
+buraya bir voltmetre bağlasam pilleri
+kapsayacak şekilde bir ucu sıfırda öbür
+ucu ikide kaç okuyacak 2 volt okuyacak
+Yani bu 5'le bu üçün farkını okuyacak
+sen bunları tek bir pil Gibi Düşünmek
+istediğinde şöyle bir pil çizersin ve
+değerine de 2 volt ders Hocam bunu niye
+ekşisi oldu artı sağda şeklinde çizdiniz
+şöyle de çizebilirdiniz bu da olurdu
+niye böyle çizmediniz çünkü büyük olanın
+dediği olur 5 mi büyük 3 mü büyük Tabii
+ki 5 büyük Peki 5 nasıldı sol eksi sağ
+artıydı o zaman onun gibi sol eksi sağ
+artı ya da daha mantıklı bir açıklama bu
+voltmetre okurken sol tarafı alçak
+potansiyel okudu sağ tarafı yüksek
+potansiyel okudu ben de ona göre yazdım
+sol taraf eksi taraf olmalı alçak
+potansiyel Sağ taraf artı yüksek
+potansiyel her seferinde böyle Alçak
+yüksek diye düşünmeye gerek yok büyük
+olanın dediği olur gibi düşünebilirsiniz
+o yüzden mutlak değer içerisinde
+çıkartıyoruz buradaki işlemi sonuç
+pozitif çıkacak ama eksi artı işaretli
+pili de ona göre yönlendireceksin
+buradaki pillerin voltajları eşit
+olsaydı oluşturdukları potansiyel
+farklar eşit olsaydı ne olurdu yani bu
+arkadaş 3 volt bu arkadaşta 3 volt seri
+bağlanmışlar ama ters bağlanmışlar
+ikisini çıkartacaksam o zaman elimde ne
+olur sıfır volt olur yani sanki hiç pil
+yokmuş gibi olur hiç kumanda hep pil
+takmayı denediniz mi pilleri ters
+taktığınızda ne oluyor Kumanda
+çalışmıyor Çünkü ikisi de bir buçuk volt
+olan iki tane pili ters bağlıyorsunuz
+İyi de Hocam onlar seri bağlı değil ki
+onlar Şuradaki gibi birazdan
+öğreneceğimiz paralel bağlı değiller mi
+böyle üst üste duruyorlar Hayır onlar
+seri bağlı ben o yüzden seriyi paraleli
+şekil anlatmayı sevmiyorum yani üst üste
+duruyorsa paralel yan yana duruyorsa
+seri her zaman işe yaramayabilir işte
+bir kumanda da iki tane pili şöyle
+çiziyorum Burası artı Burası eksi
+diğerini ters takıyoruz değil mi Şöyle
+takıyoruz Burası artı Burası eksi
+paralelmiş gibi dursalar da Aslında
+Bunlar Bir iletkenle şu an buradan
+buraya bağlılar ben bu 2 pil uçlarından
+tutup şöyle açsam düzleştirsem şekil
+neye benzer soldaki pil eksi artı
+buradan kabloyla bağlanmış Sağdaki pil
+onun eksisine geliyoruz eksi artı bu
+görüntüsü size neyi çağrıştırıyor seri
+ve düz bağlama bir buçuk voltluk iki
+tane pilisi seri ve düz bağlarsınız
+kumandada Dolayısıyla 3 voltluk bir
+Potansiyel fark oluşturursunuz O da
+kumandayı çalıştırır Ama sen bu
+pillerden bir tanesini ters takarsan şu
+sivri uç Burada da üste gelirse yani
+Burası artı Burası eksi olursa bak artı
+ile artıyı bağlamış oluruz yani şu
+arkadaşı ters bağladığımı düşün şöyle
+yapmış oluruz bununla bu seri ama ters
+pahalı o zaman bunun bir buçuk volt ile
+bunun bir buçuk voltunu çıkartman
+gerekir O da ne yapar sıfır volt yapar
+Kumandan O yüzden çalışmıyor zaten ters
+bağlayınca önceki derslerimizde
+üreteçlerin iç dirençleri olduğunu
+söylemiştim hatta cep telefonlarının
+laptopların şarj olurken ya da
+kullanırken pillerinin ısındığını
+bildiğimizi söylemiştim Çünkü pillerin
+içinde iletkenler var akım geçtikçe
+direnç etkisiyle ısınıyorlar Biz onları
+şimdiye kadar dikkate almamıştık ama
+burada biraz bahsetmemiz lazım ister
+seri bağlayalım ister paralel Bağlayalım
+şu arkadaşın bir iç direnci varsa buna
+küçük R1 diyeyim şu arkadaşın iç direnci
+varsa buna küçük R2 diyeyim bu
+dirençlerde şu an yan yana bağlılar seri
+bağlılar seri bağlı dirençler Ne
+yapıyoruz direkt topluyoruz o zaman
+buradaki reş'te pili teke düşürdüğümüzde
+iç dirençlerin toplanması ile bulunur R1
++ R2 yapmalısınız Çünkü bunların iç
+dirençleri de aynı hattalar seri
+bağlılar Peki bu pilleri ters
+bağladığımızda bunların iç dirençlerini
+çıkartacak mıyız aynı potansiyel
+farklarda olduğu gibi teke
+düşürdüğümüzde buradaki R eşi R1 - R2 mi
+yapacağız Hayır yine R1 + R2 yapacağız
+ters bağlanmasının bir önemi yok Ben
+size hiç dirençleri ters Bağlamışlar
+diye daha önce böyle bir şey anlattım mı
+anlatmadım şöyle bir şey yok çünkü
+direncin artısı eksisi olmaz ters
+bağlamak ne demek yan yana bunları
+bağlarsan boyu arttırırsın direnç artar
+her türlü üreteçleri ister düz bağla
+ister ters bağla iç dirençler her zaman
+toplanacaktır pillerimizi paralel
+bağlıyoruz iki farklı Hatta bağlıyoruz
+bu telden geçen akımla bu telden geçen
+akım farklı olabilirler ve bunlar burada
+birleşip toplam başka bir akımla devam
+edebilirler Yollarına bu iki tane
+paralel pili teke düşürmek istediğimde
+tek bir pil gibi hayal etmek istediğimde
+potansiyel farkına ne yazmalıyım yine
+nokta potansiyel yapalım bakın üstteki
+pilde V Potansiyel fark var o zaman
+bunun eksik kısmına 0 yazdım artı
+kısmına veya yazdım ben bunu
+taşıyabilirim Burası da 0 olacaktır bunu
+da taşıdım Burası da V olacaktır e bak
+ne güzel zaten alttaki pil de v'ye kadar
+Potansiyel fark oluşturuyordu ona da
+uygun oldu bunlar ikisinin de uçlar
+arasındaki potansiyel farklar eşit olmak
+zorunda eğer paralelsen o zaman ben
+bunların uçları arasında bir voltmetre
+bağlarsam bu voltmetre ne okur bir
+ucunda sıfır var öbür ucunda veya var bu
+voltmetre de okur yani sen şu adamları
+silip burada tek bir Pil varmış gibi
+hayal ettiğinde diğer pili çizdiğinde
+Onun da bir ucunda ve öbür ucuna sıfır
+olacak onun da oluşturduğu Potansiyel
+fark V olacak Yani bunu teke
+düşürdüğümüzde sahip olacağı Potansiyel
+fark V kadardır birinci pil V kadar
+ikinci pilde paralel bağlı olduğu için
+ona eşit O da V kadar eşdeğer dediğin
+toplamda V kadar nokta potansiyelden
+Niye öyle olduğunu çok rahat
+görebiliyoruz hocam pillerin potansiyel
+farkları farklı olsaydı ne olurdu mesela
+Tamam üstteki V kadar ama alttaki 2v
+olsaydı bu V kadar fark oluşturuyor
+şuraya 0 yazdık buraya V yazdık bu 0'ı
+buraya taşıdık Ama bu adam 2v'lik fark
+oluşturuyor burada 0 varsa buraya iki
+veya yazmam lazım nasıl olacak bu iş bu
+bizim müfredatımızda yok böyle iki
+farklı pili paralel bağladığınızda Bir
+de yakmak için Şuraya bir ampul
+bağladığınızda bu ampulün yanmasından
+çok bu pillerin içerisinde Bir akım
+döndüğünü görürsünüz piller bir anda
+aşırı derecede ısınırlar çünkü kendi
+içlerinde Potansiyel fark var piller
+birbirlerini bitirirler şu Potansiyel
+fark 2 V olan arkadaşa yazık olur çünkü
+bunlar paralel bağlı oldukları için en
+eşitlenmek zorundalar O yüzden
+Lambayı yakmak yerine kendi içlerinde
+akım döndürürler fakat Ne mutlu size ki
+bu durum bizim müfredatımızda yok Eğer
+sizde paralel pil vereceklerse
+kesinlikle bunların potansiyel farkları
+eşit olacak Yani bu 3 voltsa Bu da 3
+volt olacak bu 5 voltsa bu da 5v olacak
+Siz de onları teke indirdiğinizde İkisi
+de 3 voltsa teke indirdiğiniz şey de 3
+volt olacak Gayet basit bunların da iç
+dirençleri varsa şurada küçük bir R1
+yazalım şuraya küçük bir R2 yazalım biz
+bunları teke düşürdük tek bir pil gibi
+hayal ettik buradaki reş'e Ne yazacağız
+bakın burada direnç var burada direnç
+var Bunlar nasıl bağlı paralel E o zaman
+paralel bağlama kuralı önceki dersimizin
+konusu diyeceksiniz ki diğeri bölü R eş
+eşittir 1 bölü R1 + 1 / R2 buradan
+işlemini yapacaksın R eşi bulacaksın
+geleceksin burada yerine ne yazacaksın
+bildiğimiz şeyler bu seri ve paraleli
+simülasyonda görelim Şuraya bir plattım
+hemen bir voltmetre alıyorum uçlar
+arasındaki potansiyel farkı ölçüyorum
+pilimiz 9 voltluk bir pil sağlam bir pil
+bir tane daha pil alıyorum seri ve düz
+bağlat nereden anladığım ve Düzü e
+burası eksi Burası artı Sağdaki pil de
+Burası - burası artı yani eksi artı eksi
+artı yaptım ve yan yana bağladım seri ve
+düz bağladım seri ve düz de bunları teke
+düşürdüğümüzde tek bir pil gibi Hayal
+ettiğimizde onun potansiyel farkı
+ikisini toplamıydı e Bunlar 9'ar volttu
+o zaman toplam kaç çıkmalı buraya
+dokundurduğum anda gördüğünüz gibi 18
+volt çıkmalı pillerden birini ters
+çeviriyorum şu arkadaşı ters çevirirsem
+kaç okuyacağım seri ve ters bağlamış
+olacağım İkisi de 9 volt o zaman
+potansiyel farkı çıkartmalıyım Bakın Şu
+an 0 volt okuyorum eksi artı artı eksi
+bağladım Çünkü Hatta Şuraya bir lamba
+bağlayalım ve o lambanın yanma
+durumundan zaten akım geçiyor mu
+geçmiyor mu Potansiyel fark ne oldu
+anlayabiliriz şu an devrede güç
+kaynağımızda var direncimiz de var
+lambanın yanması lazım yanmıyor Niye
+Çünkü toplamda 0 volt var çünkü
+kumandanın pillerini ters taktım gibi
+pillerden bir tanesini ters çevirirsem
+18 volt oldu ve lambamız paralı paralı
+parlıyor şimdi buradaki parlaklığa
+dikkat edin çünkü bir tane daha pil
+bağlayacağım O zaman ne olur Sizce
+Şuradaki bağlantıyı koparıp buradan bir
+pil daha Alıyorum 3 pil oldu hepsi 9
+Bakın şu 27 voltumuz var o yasası
+Potansiyel fark artarsa direnç sabit
+Çünkü ampul aynı ampul akım da artar
+akım da artacağı için lamba daha da
+parlak yanacak az öncekine göre çok daha
+parlak yanıyor pillerden bir tanesini
+ters çeviriyorum bu sefer lamba sönmedi
+Neden Çünkü 3 tane pil var Bunlar seri
+ve düz bağlılar 9+9'dan 18 bir tanesi
+ters pahalı O da 9 18 - 9'dan 9 Bakalım
+dediklerim doğru mu uçlarına bağladım
+voltmetreyi şu anda 9 volt var tabii ki
+lamba yanacak paralel bağlama Yapalım
+iki tane pili paralel bağlıyorum
+eksisiyle eksisini bağladım artısıyla
+artısını bağladım şu an pillerimiz
+paralel bağlandı buraya da bir tane
+lamba bağlayalım gördüğünüz gibi
+lambamız yanıyor bu pilin uçları
+Arasında 9 volt var bu pilin uçları
+Arasında 9 volt var
+lambamızın uçları Arasında 9 volt var
+Çünkü bunların üçü de paralel paralel
+olan her şeyin potansiyel farkı
+birbirine eşittir Hocam ben paralel
+bağlamanın mantığını anlamadım Seri
+bağlamada daha çok akımı elde ediyoruz
+Az önce simülasyonda gördük zaten seri
+ve düz bağlanmış pillerin sayısını
+arttırdıkça voltaj arttı voltaj
+çıkarttığı için pil daha parlak yandı
+ama pilleri paralel bağladığımızda
+pillerden birinin uçlarına 9 volt var
+öbüründe de 9 volt var lambada da 9 volt
+var ne anladım ki ben oraya üçüncü bir
+pil bağlasam yine herkes 9 volt olacak
+lambanın parlaklığı artmıyor azalmıyor
+amaç nedir Bakın iki tane pili paralel
+bağladım Bunların hepsi 9 volt burada 9
+volt var burada 9 volt var
+lambanın uçları Arasında 9 volt var bu
+pillerden birini çıkartsam mesela tek
+pil kalsa şu lambanın sarı çizgilerine
+dikkat edin acaba artma azaldı yani
+parlaklığında bir değişme var mı bu pili
+sildim Hiçbir şey değişmedi E bu etkisiz
+eleman mıydı bu pili tekrar takıyorum
+Biraz yamuk oldu ama hala paralel üçüncü
+bir plakliyorum şöyle tellerimizle
+üçüncü paralelimizi bağlayalım üç tane
+pilotu artık lamba herhalde daha parlak
+olur Bakalım yine Hiçbir şey değişmedi
+bu paralel bağlamanın mantığı nedir Niye
+yapıyoruz biz bu işi bakıyorum Hala
+lambamızın uçları Arasında 9 volt var
+Çünkü herkes paralel gençler amaç her
+zaman lambaların parlaklığını arttırmak
+değildir ya da ne kullanıyorsak hep
+lamba üzerinden örnek veriyoruz ama her
+zaman daha fazla güç istemeyiz bazen de
+önemli olan
+evlenme süresidir pillerin bir ömrü var
+fizikte Her şeyden kazanamazsınız bir
+yerden kazanıyorsanız bir yerden
+kaybetmeniz lazım Mesela seri bağlı ve
+düz bağlı iki tane pilimizle bir lamba
+yakıyoruz burada bunları Özdeş olsunlar
+ve Potansiyel fark V Potansiyel fark
+buradaki lambamız da R dirençli ben bu
+devreyi sadeleştirsem aynı bunların yönü
+gibi tek bir pilimiz olur seri ve düz
+bağlandıkları için 2 veya Yazarım bir
+tane lambamız olur R dirençli Mesela bu
+lambanın üzerinden ne kadar akım geçer
+Vur formülünde yerine yazacağım
+devredeki Potansiyel fark 2 ve lambamız
+R kadar buradaki iki kat sayısını
+sağlamak için akım yerine iki ı yazarsın
+Yani bizim buradaki lambamızın üzerinden
+iki ılık akım geçiyor diyebiliriz Peki
+Burası tek hat mı Yani bunlar seri mi
+bağlı Aynen öyle bütün tel boyunca her
+yerde bu iki ağı dolaşıyor diyebiliriz
+Yani bu pilden de iki ağı geçiyor bu
+pilden de iki ağı geçiyor dersin başında
+bunu konuşmuştuk Sakın ha hocam lambadan
+2 yıl geçiyor o zaman bunlardan birer ı
+geliyordur demiyoruz pilden bir gelmiyor
+Çünkü pilden gelen tek şey enerji
+kimyasal enerjiyi elektrik enerjisine
+dönüştürüyor Potansiyel fark oluşturmak
+için şu an bu pillerin üzerinden iki
+ılık akım geçiyor diyebiliriz iki ılık
+katkı veriyor bu adamlar gelelim paralel
+bağlamaya aynı pilleri söktüm ve bu
+şekilde bağladım her şey aynı lamba da
+aynı yine bu arkadaş ve Potansiyel fark
+bu arkadaş ve Potansiyel fark bu da R
+bunu sadeleştiriyorum tek bir direnci
+tek bir üretici dönüştüreceğim Zaten
+bunlar paralel oldukları için teke
+düşürdüğümde de yine V potansiyel farklı
+bir pilimiz olacak
+lambamız aynı lamba R yarı çaplı bir
+lambamız olacak Burada vır yaptığımızda
+devredeki Potansiyel fark ve kadar
+direnç r'ye kadar o zaman akıllı kadar
+yani bizim buradaki lambamızdan ı kadar
+akım geçiyor diyebiliriz şuradan ı
+geçiyorsa bakın Bunlar paralel bağlı
+buradan gelen de buradan gelenin toplamı
+bu pillerimiz Özdeş olduğu için buradan
+ı/2 geliyordur buradan ı/2 geliyordur bu
+ikisinin toplamı bize bu ana kol akımını
+veriyor hangi lamba daha parlak soldaki
+lamba daha parlak niye üzerinden Çünkü
+iki II geçiyor Sağ
+bakın iyice azaldı şu arkadaştaki ve
+diğerlerindeki ama lamba hala aynı
+çalışıyor tek birimizle lambamızı
+yakıyoruz Şimdi ben İkinci bir pili seri
+bağlayacağım hem lambanın parlaklığına
+dikkat edin hem de pilden geçen akıma
+dikkat edin bu iki arkadaşı seri ve düz
+bağladım bakın lamba daha parlak oldu ve
+bizim birinci pilimizden daha çok akım
+geçiyor parlaklık arttı ama pillerin
+ömrü kısaldı üçüncü bir pil bağlayalım
+yine seri ve düz bağladığım anda
+parlaklık iyice arttı ama pillerin
+ömrüleri daha da kısaldı televizyon
+kumandası pillerini az önce konuştuk
+paralel bağlı gözükseler de seri
+bağlılar E hocam paralel bağlasınlar o
+zaman kumandamızın pili o daha uzun süre
+gider İyi de o kumandanın çalışması için
+bir potansiyel farka ihtiyacımız var bir
+minimuma ihtiyacımız var o da 3 voltmuş
+bunu sağlaman lazım E bizim de
+pillerimiz bir buçuk volt o boyutlarda
+iki tanesini böyle seri bağlıyorum bir
+buçuk bir buçuktan toplamda 3 volt elde
+ediyorum Yok hocam Ben illa uzun ömürlü
+olsun istiyorum dersen E tamam 2-3 tane
+pil bul bunları paralel bağla ama bu 3
+volta elde edeceksin Bunları tek bir pil
+gibi düşündüğünde de 3 volt çıkacak
+bunların her biri kaç volt olmalı 3 volt
+olmalı Çünkü bu paralelleri teke
+düşürdüğümüzde O da 3 volt oluyor böyle
+bir sistem kurabilirsen şuna göre daha
+uzun ömürlü olacağı kesindir cep
+telefonları dizüstü bilgisayarlar gibi
+cihazların pilleri var şarj edilirken
+ısınıyorlar bu da onların da iç dirence
+sahip olduğunu gösteriyor tekrar
+vurgulamış olalım Şimdi biraz da bu
+işlerin tarihçesine bakalım Pili kim
+buldu nasıl buldu galvani ve volta
+pilleri kazanımlarda geçiyor genelde
+test kitaplarında Bununla ilgili soru
+görmüyorsunuz ama tyt'den bahsediyoruz
+ve özellikle galvani pilinde çok
+enteresan durumlar olduğu için bilinmesi
+gerekli olan şeyler bunlar hayvansal
+elektrik diye bir şey iddia ediyor
+galiba Hani şimdi bunu deneyeni
+anlatayım ben size galvani tamamen başka
+amaçlarla kurbağalarla oynuyor ölmüş bir
+kurbağanın bacağını böyle kesiyor
+biçiyor içinde ne var diye bakıyor bir
+gün bir metalle bacağı sabitliyor bir
+yere neşter benzeri yine metal olan bir
+kesici aletle kesmeye başlıyor ve bacağı
+kendi kendine titrediğini görüyor
+hareket ettiğini görüyor tek başına bir
+bacak kurbağadan bağımsız diyor ki bu
+nasıl olur böyle bir şey Mümkün değil
+başka şekillerde deniyor başka bir
+kurbağa bacağı alıyor Onunla da Ayn
+yapıyor bir metalle sabitliyor yine bir
+metal olan kesici neşterle kesmeye
+başladığında yine böyle ufak bir titreme
+fark ediyor bacakta diyor ki bu bacağı
+titreten şey bu bacağın içerisinde var
+olan bir enerji İşte o enerjiyi
+hayvansal elektrik diyor bu hayvansal
+elektrik bu bacakta depolanmıştır ben o
+depolanmış şeyi açığa çıkartıyorum
+aslında diyor arkadaşı var bunun volta
+bayağı bizim Potansiyel fark birimimiz
+var volt biliyorsunuz voltadan gelir
+Çünkü daha mantıklı bir açıklama olan
+volta pilinin mucididir volta onun ismi
+verilmiştir potansiyel farka volta
+galvaninin bu deneyini Görüyor ve diyor
+ki bu bacağın titremesini açıklaması bu
+olamaz Başka şeylere odaklanıyor o
+metallere odaklanıyor galvanenin
+kurbağanın bacağını tuttuğu bir metal
+var kurbağanın bacağını kestiği bir
+metal var ve kurbağanın bacağın
+içerisinde bir vücut sıvısı var bu iki
+metal arasında yük alışverişi olabiliyor
+buradan buraya yükler geçiyor bunlardan
+bir tanesi eksiyle yükleniyor diğeri
+artıyla yükleniyor bu geçişi sağlayan da
+bir sıvı ortamı var pil dediğiniz şey
+nedir günümüzde pil dediğiniz şey bir
+Kutbu artı olan diğer Kutbu eksi olan
+Dolayısıyla 2 nokta arasında Potansiyel
+fark oluşturan bir sistemdir O
+potansiyel farkla tellerdeki
+elektronları harekete geçiriyoruz yani
+akım oluşturuyoruz pil dediğiniz şey bu
+kutuplamadır mevzu kurbağanın bacağına
+saklanmış olan enerji değil hayvansal
+enerji diye bir şey yok mevzu o
+metallerde ve o sıvıda ve volta kendi
+pilini icat ediyor Bir çinko metali
+alıyor bir bakır metali alıyor bunların
+arasına da ıslanmış kumaş benzeri bir
+malzeme koyuyor ama saf suyla ıslanmış
+bir şeyden bahsetmiyoruz buradaki
+iyonların geçişine izin veren bir ortam
+lazım Mesela tuzlu su olabilir kimyada
+görmüşsünüzdür zaten tuzlu suyla pil
+deneyini Bu gördüğünüz şey basit bir
+pildir bunlardan üst üste yığarsanız
+seri bağlı bir sürü pil elde edersiniz
+İngilizcede Şu kelime payel yığın demek
+istif demek üst üste istiflenmiş bir
+sürü pil seri bağlanmış bir sürü pil
+kelimesi de buradan gelir niye seri
+bağlıyor Çünkü bu adam tek başına çok
+küçük bir Potansiyel fark sağlıyorum bir
+volt Potansiyel fark oluşturuyor bu
+sistem bunlardan bir iki üç 4 5 6 7 8 9
+10 11 tane yaparsan burada ne vardır Şu
+an seri ve düz bağlanmış güç kaynakları
+Burası toplamda 11 volt yapar daha işe
+yarar bir Potansiyel fark oluşturur
+günümüzde kullandığımız bu pillerin
+mucidi voltadır bunu Kendi evinizde bile
+yapabilirsiniz çok basit bakırdan
+yapılmış metaller bulabilirsiniz bozuk
+paralar da işe yarar Onlarla aynı
+boyutta alüminyum folyolar keseceksiniz
+Onlarla aynı boyutta tuzlu ve böyle
+sirkeli Bir sıvının içerisine batırılmış
+kartonlar keseceksiniz ve bunlar üst
+üste yığacaksınız istifleyeceksiniz pil
+yapacaksınız önce bakır araya yük
+geçişine izin veren sıvıya batırılmış
+bir karton sonra da bir alüminyum iki
+metal dediğimiz şey bunlar işte Şu an
+bir tane pil yapmış oldunuz yine bir
+bakır Yine yük geçişine izin veren bir
+karton yine bir alüminyum folyo şu anını
+yaptığı pili elde ediyoruz acaba bu kaç
+voltluk bir pil oldu Şu an bunu bir
+voltmetre ile ölçeceğiz bakın multimetre
+daha önce göstermiştim size bunu iki
+ucuna tuttuğunda 4 voltluk bir pil elde
+ettik Bayağı da güzel uzaktan kumandayı
+çalıştırırız Çünkü uzaktan kumanda 3
+voltla çalışıyor bakın artısına
+kabloları sağladı bunu bir ampule
+takarsam ampul Yanar Bir kumandaya
+bağlarsam televizyonu değiştirir bir led
+ampulü bunlara bağlayacak bakalım pil
+çalışıyor mu evet gördüğünüz gibi parıl
+parıl parlıyor lamba Hatta kumandaya
+bağlıyor Bunlardan biri artı biri eksi
+Lambaya Bağlar gibi bağladı ve gerçekten
+şu an televizyonu açıyor sesini açıyor
+kanal değiştiriyor Breaking bad'de
+Walter white'da benzer bir şekilde araba
+çalıştırmıştı yani fizik bilmek hayat
+kurtarıyor sorularımızı çözelim konumuzu
+bitirelim iç dirençleri önemsiz
+üreteçler ve 20 onluk dirençle şekildeki
+gibi elektrik devresi kurulmuştur Buna
+göre K üreticinden kaç amperlik akım
+çekilmektedir onun üzerinden kaç amper
+akım geçiyor diyor bakın tek direncimiz
+var Gayet basit ve sade ama 3 tane
+üreteç var Bunları teke düşüreceğim
+Çünkü ben her zaman şunu hedefliyorum
+bir tane direnç olsun bir tane üreteç
+olsun En basiti bu burada çok kolay Vur
+yazılıyor Bu iki arkadaş nasıl bağlı bu
+iki arkadaş paralel bağlı bunları teke
+düşürmek istediğimde bu 5 voltsa bu 5
+voltsa teke düşürdüğüm eş değerde 5 volt
+kadardır çünkü hepsinin uçları arasında
+aynı Potansiyel fark var görselin
+bozulmasın diye ben şun siliyorum artık
+çünkü onların yerine eş değerini yazdım
+bu 5 voltla Bu 5v Nasıl pahalı seri
+bağlılar bir kere aynı hat üzerindeler
+ve düz Bağlar eksi artı eksi artı o
+zaman Burası komple ne olur Burası
+komple 10 volt olur tek pil tek direnç
+Burası 10 volt Burası 20 10 pilin iç
+direnci Yok iç direnci olsaydı onu da
+hesaba katardık ama hiç dirençle ilgili
+sayısal işlemlere girilmez diye
+kazanımımız var o yüzden varlığını bilin
+işlemlere gerek yok bu pil devrede 10
+voltluk Potansiyel fark oluşturuyor
+direncimiz 20 10 o zaman buradaki
+akımımız 0.5 amperdir yani 1/2 amperdir
+soru bize ne soruyordu K üreticinden kaç
+amper geçiyor diye soruyordu o zaman
+devreyi orijinaline döndürmem lazım Ben
+ne buldum bu 20 onluk dirençten geçen
+akımı buldum 0.5 amper geldim bunu
+buraya taşıyorum Burası 0.5 ampermiş o
+zaman buradan 0.5 amper geliyormuş Bu
+iki pil Özdeş olduğuna göre şuradan
+gelen akımla şuradan gelen akımın
+toplamıdır bu 0.5 o zaman buralardan ne
+geliyordur
+0.25'er amper geliyordur devreyi
+tamamlayalım 0.5 amper geldi bu pilden
+bu geçti dirençten bu geçti 0.5 buraya
+kadar geldi İki kola ayrıldı yukarıya
+0.25 gitti aşağıya 0.25 gitti Tekrar
+birleşip 0.5 olarak Yollarına devam
+ettiler iç dirençleri önemsiz Özdeş
+üreteçlerle kurulmuş şekildeki Elektrik
+devresini ampermetre 2 amper değerini
+gösterdiğine göre üreteçlerin elektro
+motor Kuvvetleri kaç volttur denilmiş
+ampermetre 2 amper gösteriyormuş yönü
+henüz anlamadım ama ya bu yönde ya da bu
+yönde iki amperlik akım geçiyor bu
+telden sonra diyor ki bunların hepsi
+Özdeş üreteç hepsi Özdeş olduğu için
+hepsinin kafasına V yazabilirim bu da ve
+bu da B Bu da B bu iki paraleli teke
+düşürürsem şuraya bunların yönüne dikkat
+ederek yapıyorum tabii ki eksi artı 1 V
+yazar ve bu arkadaşları siler bunların
+yönlerine dikkat ederek bu ve bu ve teke
+düşürdüğümde Bu da V olacak bunları da
+sildim Şu an elimde tek bir hat kaldı
+takip ediyoruz bakın burada tek bir tel
+var o zaman bütün bu hattı tek bir akım
+dolaşıyor ve değeri de ne iki amper geri
+kalan her şey seri bağlı bu üreteçler bu
+direnç süpermetre hepsi seri bağlı Ama
+hocam üst ve alt var Paralel gibi
+duruyorlar önceki derste konuştuk mesela
+şuralardan teller olsaydı Evet Çünkü
+buradan gelen akım İki kola ayrılırdı
+Ama öyle teller yok Tek bir hat hepsi
+seri bu arkadaş ve bu arkadaş da ve ters
+bağlı değil mi Bunlar Evet bak burası
+eksi Burası artı Burası artı Burası eksi
+o zaman bu iki arkadaş birbirini götürür
+orası böyle dümdüz bir tel gibi
+düşünülebilir tek elemanımız bu kaldı
+değeri de V kadardı akımımızın yönü
+Neymiş o zaman bunun artısından eksisine
+doğru bir akım çizersem şöyle bir akım
+dolanıyor bu devreyi yani bizim
+devredeki ampermetrenin okuduğu akımımız
+yukarı yönlü iki ampermiş devre şuna
+döndü bir tane direncim var on on şöyle
+bir pilim var ve değeri var ve Buradan
+da 2 amperlik akım gidiyor o zaman
+burada bir vır yazarsam ve bilmiyorum
+akım 2 direnç 10 o zaman ve buradan 20
+volt çıkar bütün piller 20'şer voltmuş
+çünkü hepsi ve kadardı geldik dersimizin
+son sorusuna Özdeş lamba ve iç
+dirençleri önemsiz Özdeş üreteçlerle
+şekildeki gibi x y ve z kuruluyor Buna
+göre devrelerdeki lambaların yanma
+sürelerini kıyaslayınız
+lambanın yanma süresini belirleyen şey
+onu yakan üreteçlerin tükenme süresidir
+bir üreticinin ömrünü belirleyen şey de
+üzerinden ne kadar akım geçtiğidir
+üreteçten ne kadar çok akım çekiliyorsa
+o kadar kısa ömürlü ne kadar az akım
+çekiliyorsa o kadar uzun ömürlüdür O
+zaman benim üreteçlerden geçen akımları
+bulmam lazım soruyu çözmek için bütün
+mevzuyu özetleyen güzel bir soru
+sorudaki her şey Özdeş bu V Potansiyel
+fark Bunlar da V Potansiyel fark bu R
+direnç Bu da R direnç Bunlar da R direnç
+şimdi zaten burada bir V var bir V var
+Ben burada vır yazdığımda ve var R var o
+zaman akıma da ı kadarlık akım
+diyebilirim bu üreteçten ıh kadarlık
+akım geçiyor lambadan ağı kadarlık akım
+geçiyor geldim buraya burayı biraz
+sadeleştirmeliyim iki tane paralel pil
+var teke düşürsem şöyle bir tane pil
+olur değeri de V kadar olur ve bir tane
+de lamba var çiziyorum R direnç ve
+üreteç yine vır yaptığımda Bu arkadaşın
+üzerinden de ı akımı geçecek yani
+lambanın üzerinden
+ığı geçiyor ama üreteçlerden ı/2
+çekiliyor Çünkü ı/2 ı/2 gelip burada ı
+olarak yoluna devam edecek geldim
+üçüncüye iki tane seri ve düz bağlanmış
+pil var burası 2v'lik pil demektir bu
+v'leri toplamalıyım iki tane paralel
+bağlanmış direnç var Bunları da teke
+düşüreceğim tek bir
+lambaymış gibi tek bir dirençmiş gibi
+düşünmek istiyorum çarp bunları R kare
+topla bunları 2 r² ile buradaki R gider
+o zaman bu direnç r/2 kadarmış bu devre
+ile bu devre Aynı şey Burada Vur
+yazarsam ne çıkar 2v var r/2 var o zaman
+buradaki matematiğin sağlanması için
+buraya 4 ı yazmam lazım bu 4 ile 2
+sadeleşsin ki burada da iki kalsın solda
+iki sağda iki olsun yani şuradan 4 ı'lık
+akım geçmeli Orası neresi üreteçlerden
+gelen tel bu üreteçler burada buradan 4
+ı'lık akım geliyor bu pillerden
+Dolayısıyla 4 ırılık akım geçiyor
+ikisinden de bununla işim yok ama yapmak
+istiyorum 4 ılık akım iki tane Özdeş
+direnç olduğu için 2 ı 2 ı diye
+dağılacak Potansiyel fark işte olacak
+iki ı r Potansiyel fark 2 ı r Potansiyel
+fark çünkü bunlar paralel bağlı İyi de
+hocam buradaki lambadan 4ı geçiyor niye
+burada 2 ı 2ı oldu Çünkü buradaki lamba
+devredeki bir lamba değil devredeki
+lambaların eş değeri bu birinci ve
+ikinci devre ile aynı şey değil Bunu
+Sakın karıştırmayın bizim işimiz
+pillerle zaten onların ömürleri için
+üzerlerinden geçen akıma bakmalıyım x
+pilinden ı kadar akım geçiyor y pilinden
+ı/2 kadar akım geçiyor Z pillerinden 4ü
+akım geçiyor geçen akım büyükse Ömür
+kısadır o zaman z'deki Ömür en kısa
+sonra x'teki Ömür en uzun ömür de y'de
+Çünkü oradaki pillerden ı / 2 akımlar
+çekiliyor pillerin ömürleriyle
+lambaların yanması süreleri de orantılı
+olduğu için sorumuzun cevabı y büyüktür
+x büyüktür Z olacaktır dersimiz bu
+kadardı devre analizini bitirmiş
+oluyoruz bunlarla ilgili Genel bir soru
+çözümü yapacağız ama sonrası elektrik
+bitmiyor elektriksel güç lamba
+parlaklığı gibi konulara gideceğiz
+takıldıklarınızı alta yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

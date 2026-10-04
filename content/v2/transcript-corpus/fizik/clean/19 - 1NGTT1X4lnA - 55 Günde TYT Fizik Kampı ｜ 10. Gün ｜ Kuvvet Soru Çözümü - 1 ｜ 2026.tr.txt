@@ -1,0 +1,585 @@
+gençler Merhaba bugünkü dersimizde
+kuvvet ünitesi ile ilgili soru çözümü
+yapacağız iki testten oluşacak soru
+çözümümüz bütün konuyu tarayacağız yorum
+gücümüzü geliştireceğiz Hemen başlayalım
+Can oyuncaklarından bazılarını kutuya
+koyup şekil 1'deki gibi sürtünmesiz
+düzleme paralel F kuvvetiyle çektiğinde
+kutu a ivmesi ile hareket ederken diğer
+oyuncakların Özdeş başka bir kutuya
+koyup şekil 2'deki gibi aynı F
+kuvvetiyle çektiğinde kutu 2A ivmesi
+hareket ediyormuş Buna göre Can bütün
+oyuncaklarını aynı kutuya koyup aynı
+kuvvette çekerse ivme kaç a Olur demiş
+zeminde sürtünme söz konusu değil
+buradaki oyuncaklar ve kutu sisteminin
+serbest cisim diyagramını çizsem yani
+kutuya etki eden kuvvetler nelerdir
+desem aşağıya doğru ağırlığının olduğunu
+dünyanın onu çektiğini söyleyebilirim
+aşağıya doğru düşmüyor Çünkü zemin ona
+bir normal kuvvet uyguluyor ve düşeyde
+normal kuvvetle ağırlık Aynı büyüklükte
+olduğu için birbirini götürüyor buna
+etki eden sadece sağ tarafa doğru ev
+kuvveti var sola doğru sürtünme yok
+başka hiçbir şey yok Dolayısıyla bu
+cismin üzerindeki Net kuvvet f'tir
+newtonun ikinci yasası Yani eşreme bir
+cismin üzerinde Net kuvvet varsa o cisim
+bir ivmeye sahip olur yani hızı değişir
+hızlanma olabilir yavaşlama olabilir
+bunlar zaten başlangıçta Duran kutular
+Dolayısıyla Duran cisim
+yavaşlayamayacağına göre burada
+bahsettiğimiz ivme hızlanma ivmesi
+olacaktır birinci şekilde ikinci şekilde
+aynı F kuvvetiyle çekiliyor ama birinci
+şekilde a ivmesi varken ikinci şekilde
+ikiye ayrılması var a ivmesi varken F
+kuvveti ile çekiliyor 2A ivmesi var yine
+F kuvveti ile çekiliyor bu denklem nasıl
+sağlanabilir kesinlikle şurada kütlenin
+en bölü 2 olmasıyla sağlanabilir yani
+ikinci şekilde kütle hem bölü 2 birinci
+şekilde kütle endir diyebiliriz daha az
+kütle olduğu için aynı kuvvet daha iyi
+hızlandırma yapmış ve bütün oyuncakları
+üçüncü şekilde dolduruyoruz kutuya
+kutunun kütlesi ihmal en oyuncak buradan
+gelecek en bölü 2 oyuncak buradan
+gelecek Dolayısıyla burada 3m/2'lik
+Toplam kütlemiz var ve aynı f var f =
+3m/2 çarpı a üssü dersem şu denklemlerle
+uyuşması için buradaki ağanın ne olması
+gerekir 2A bölü 3 olması gerekir
+Dolayısıyla veya sorunun cevabı B
+seçeneğidir kütle çok arttı ama aynı
+kuvvetle çekmeye çalışıyoruz O zaman
+hızlanmam en kötü olacaktır a vardı 2A
+vardı burada ise 2A bölü 3 oldu Sorumun
+cevabı B seçeneğidir Newton'un
+eylemsizlik kanununa göre cisme etki
+eden Net kuvvet sıfır ise cisim
+duruyorsa durmasına devam eder Hareket
+ediyorsa da sabit hızla hareketine devam
+eder eylemsizliği tanımlamış Buna göre
+hangileri bu kanunun anlatırken örnek
+olarak kullanılabilir eylemsizlik
+yasasının çıkış noktası Bir cismin
+üzerindeki Net kuvvetin sıfır olmasıdır
+O zaman benim Okuyacağım bütün
+örneklerde Aslında ben bu durumu
+aramalıyım Net kuvvet sıfırsa halimi
+korurum hareketimi korurum hareketimi
+durmaksa durmayı korurum yani durmaya
+devam ederim Hareketim gitmekse gitmeyi
+korurum Ama bu gitme sabit Hızlı olmak
+zorunda hızlanmam yavaşlamam yön
+değiştirmemem gerekir otoyolda 120
+km/saat sabit hızla giden bir arabanın
+100 km/saat sabit hızla giden başka bir
+arabayı sollamaz Burada iki tane araba
+var bizim bir tane arabamız olup hızı
+120'den 100'e düşmemiş iki tane sabit
+hızla giden araba var bu arabaların
+İkisi de eylemsizlik yasasına Uyar Çünkü
+sabit hızla gidiyorlar Demek ki
+üzerlerindeki Net kuvvet sıfır At
+yarışında koşarken aniden Duran atın
+üzerindeki binicinin yere düşmesi hocam
+at burada durmuş Dolayısıyla bu
+eylemsizlik yasasına uymaz şöyle Şu
+bizim atımız olsun Bu da üzerindeki
+Binici olsun muhteşem bir çizim Şimdi at
+ve hızıyla koşuyordu üzerindeki Binici
+de dolayısıyla ve hızına sahipti Çünkü
+beraber gidiyorlar at bir anda ben
+koşmayacağım derse hızını sıfırlarsa
+üstündeki binicinin bundan haberi var mı
+üstteki binicinin üzerindeki Net kuvvet
+sıfırdı sabit ve hızıyla gidiyordu Bu
+arkadaş altında giden şey durursa bunun
+da durabilmesi için sol tarafa doğru bir
+kuvvete maruz kalmalı bu kuvvet Ancak
+onu yavaşlatabilir ve atın üzerinde
+kalabilir bunun için neyi tutuyorsa daha
+sıkı tutabilir Ata daha sıkı sarılabilir
+Neyse artık bu kuvvetin oluşması lazım E
+bu yoksa Net kuvvet sıfır olmaya devam
+eder bu arkadaş ve hızıyla Gitmeye devam
+eder at durdu Ama sen gidiyorsun işte
+biz buna düşmek diyoruz Dolayısıyla bunu
+kullanabiliriz at arabasında atların
+arabayı çekerken yorulması bu Newton'un
+üçüncü yasasıyla ilgilidir etki tepki
+ile ilgilidir yine bu benim atım Olsun
+bu da o atın çektiği araba olsun at
+arabayı çekmek için sağ tarafa doğru bir
+F kuvveti uyguluyor Bu etkiyse araba da
+Ata sol tarafa doğru bunun tepkisini
+uyguluyor Yani ben burada atın
+fotoğrafını çektiğimde bu fotoğraf
+içerisinde sol tarafa doğru bir kuvvete
+maruz kaldığını görüyorum ama bu arkadaş
+sağ tarafa gitmeye çalışıyor işte o
+kuvvet onu yorar Çünkü bunu da yenmeye
+çalışıyor Bu etki tepki ile ilgili
+eylemsizlikle değil Dolayısıyla Sorumun
+cevabı D seçenektir sürtünmesiz yatay
+düzlemde hareket eden x y ve z
+cisimlerinin hareket yönleri şekil bir
+de eşit bölmeli düzlemde uygulanan
+kuvvetler şekil 2'de verilmiştir Bu
+durumda x yavaşlarken y sabit hızlı
+hareket etmekte Z cismi de
+hızlanmaktaymış buna göre bu cisimlere
+uygulanan kuvvetlerin eşleştirilmesi
+hangisinde doğru olarak verilmiştir
+şimdi 1 2 ve 3 numaralı şekillerde
+kuvvetler var ve onların yönleri var
+büyüklükleri var x cismi y cismi Z cismi
+de üzerlerinde verilen bu Oklar yönünde
+hareket ediyorlarmış Yani bunlar hız
+vektörleri gittikleri yönü gösteriyor
+X'in yavaşlamasını istiyorum x sağ
+tarafa doğru giden bir cisim yavaşlaması
+için kesinlikle sol tarafa doğru bir net
+kuvvete maruz kalmalı ye cismi sabit
+hızla hareket ediyormuş y cismi sabit
+hızla hareket ediyorsa kesinlikle
+üzerindeki Net kuvvet sıfır olmalı Z
+cismi hızlanıyormuş Z cismi hızlanıyorsa
+hareket yönüyle Yani sağ tarafa doğru
+aynı yönde bir net kuvvete maruz kalması
+gerekir İşte bu bir iki üçten bu
+Kuvvetleri elde etmeye çalışacağım sola
+doğru Net kuvvet hangisinde elde edilir
+birinci şekli inceliyorum sağ tarafa 3
+var sol tarafa 2 var sol tarafa bir var
+şu ikisini topladığımda zaten sol tarafa
+doğru 3 birimlik bir kuvvet olur 3F E bu
+da 3fti Dolayısıyla Bu ikisi birbirini
+götürür birinci şekilde Net kuvvet
+sıfırdır ikinci şekilde sağ tarafa doğru
+4F var şu iki arkadaşı toplarsam sol
+tarafa doğru 3F olur 4 fle3f beraber
+düşünüldüğünde burada Net kuvvet sağ
+tarafa doğru EFT olur burada Net kuvvet
+sağ tarafa doğru F kadar olur üçüncü
+şekli incelersem sol tarafa doğru 4 F
+var şu ikisini toplarsam sağ tarafa
+doğru 3F oluyor 4F 3 toplarsam sol
+tarafa doğru F kadar oluyor kimin sol
+tarafa doğru Efe ihtiyacı vardı içsin o
+zaman x 3 numara kimin sağ tarafa doğru
+Efe ihtiyacı vardı Z'nin o zaman Z 2
+numara kimin net kuvvetinin 0 olması
+gerekiyordu y'nin o zaman y1 numara
+sorumuzun cevabı 3 1 2 olmalı yani C
+seçeneği temas gerektir kuvvetler doğada
+var olan doğal kuvvet kaynaklarıdır bu
+kuvvetler kendi aralarında 4 gruba
+ayrılır hatırlarsak güçlükler kuvvet
+zayıf nükleer kuvvet elektromanyetik
+kuvvet ve kütle çekim kuvveti bu 4
+kuvvet doğadaki bütün kuvvetlerin
+temeliydi kuvvet diyebildiğimiz Her şey
+bu dördünden birine giriyordu hangileri
+doğrudur denilmiş bunlarla ilgili zayıf
+ve güçlü nükleer kuvvetlerin etki alanı
+atom bombasının yıkıcı etki alanıyla
+sınırlıdır bir yere atom bombası
+attığınızda Bir Şehri Yok edebilecek
+kadar bir güce sahip bir şehri de 100
+km200 km² kabul edebiliriz yani kocaman
+bir alandan bahsediyoruz acaba bu zayıf
+ve güçlü nükleer kuvvetlerin etki alanı
+bu mudur olabilir hocam Çünkü zayıf
+nükleer kuvvet konu anlatımından
+hatırlıyorum radyoaktivite ile ilgiliydi
+atom bombası Nükleer santraller Bu
+mantıkla Çalışıyordu bu kuvvetin
+etkisiyle çalışıyordu O zaman mantıklı
+olabilir Hayır olamaz çünkü bu kuvvetler
+nükleer kuvvet bu kuvvetler çekirdek
+kuvveti bu kuvvetlerin etki alanı bir
+atom çekirdeğinin boyutları kadar o
+çekirdeğin içerisinde etkili bombanın
+etki alanıyla hiçbir alakası yok bu
+durumu birinci öncülüm elektromanyetik
+kuvvetler sadece durgun elektrik yükleri
+ve durgun mıknatıslar arasında
+gözlemlenir elektromanyetik kuvvet neydi
+yükler arasında oluşan elektriksel
+kuvvet ya da mıknatıslar arasında oluşan
+manyetik kuvvet bunların durgun mu
+olması gerekiyor Yani bir mıknatıs
+hareket ederken başka bir mıknatısa
+kuvvet uygulayamıyor mu Ya da hareket
+halindeki bir elektron yani eksi yüklü
+bir tanecik etrafına elektriksel
+manyetik herhangi bir kuvvet
+uygulayamıyor mu Tabii ki uyguluyor O
+yüzden bu da doğru değil kütle çekim
+kuvveti temel kuvvetler arasındaki en
+zayıf kuvvettir Aynen öyle hatta ders
+anlatırken demiştim ki Koskoca
+yıldızları gezegenleri galaksileri bir
+arada tutan kütle çekim kuvveti
+evrendeki en zayıf kuvvetti
+elektromanyetik kuvvetten daha zayıftı
+Örneğin iki tane mıknatısı birbirine
+yaklaştırdığınızda o kuvveti çok bariz
+hissedersiniz o elektromanyetik kuvvet
+günlük hayatta hissedilebilirdir ama
+kütlesi olan iki tane parmağımı
+yaklaştırdığımda birbirlerini
+çektiklerini hissetmem zayıflığı Buradan
+da aklınıza gelebilir kütle çekim
+kuvvetini hissedilebilir olması için
+kütlelerin çok büyük olması lazım
+dünyanın Yerçekimi aklınıza gelsin veya
+çok büyük bir kütle ancak öyle onu
+Yerçekimi kuvvetini yani kütle çekim
+kuvvetini hissedebiliyoruz sorumuzun
+cevabı C seçeneğidir sürtünmeli yatay
+düzlemde durgun halde bulunan x y ve z c
+cisimlerinden y ve Z'ye düzleme paralel
+F Kuvvetleri şekildeki gibi
+uygulanmışlar y cismi hareketsiz
+kalırken Z cismi dengelenmemiş
+kuvvetlerin etkisinde hareket etmektedir
+Yani duran cisim durmaya devam ediyor
+demek ki y cisminin üzerindeki Net
+kuvvet sıfır Hocam bu nasıl mümkün
+olabilir sağ tarafa doğru Efe çekiliyor
+bu arkadaş nasıl Net kuvvet sıfır Demek
+ki sol tarafa doğru da bir ev var ne
+olabilir sürtünme olabilir burada F
+kadarlık bir sürtünme kuvveti mümkündür
+Böylece bu ikisi birbirini götürür Net
+kuvvet sıfırdır düşeyden bahsetmiyorum
+zaten düşeydeki ağırlık kuvveti ile
+zeminden gelen normal kuvvet birbirini
+götürüyor öyle olmasaydı Ya yerin dibine
+girerdi ya da havaya uçardı Z cismi
+dengelenmemiş kuvvetlerin etkisinde yani
+Z'nin üzerindeki Net kuvvet sıfır değil
+ha hocam Demek ki burada sürtünme yok
+olabilir sürtünme olmayabilir ama
+sürtünme ola da bilir Ben daha küçüktür
+sadece buradaki sürtünme kuvveti f/2
+olabilir yine Net kuvvet ortaya çıkar
+sağ tarafa doğru f/2'lik bir net
+kuvvetiniz olur bu durumda da soru zaten
+kesinlikle sorusu Buna dikkat etmemiz
+lazım ihtimalleri düşünmemiz gerekir X
+ve Y cisimlerini etki eden sürtünme
+kuvvetleri eşittir x'i hiç konuşmadık
+buna Çünkü bir kuvvet uygulanmıyordu Ama
+hocam sürtünmeli bir yüzeyde olabilir x
+cismi Dolayısıyla ona da sürtünme
+kuvveti etki edebilir Y'ye zaten etki
+ediyordu bire doğru diyebiliriz
+diyemeyiz x cismine dışarıdan çekme itme
+uygulanmıyor böyle bir ev kuvveti yok
+Dolayısıyla buradaki sürtünme kuvveti
+sıfırdır zaten bu duran bir cisim bir
+sürtünme etki etse statik sürtünme etki
+edecek ilk etapta harekete geçirilene
+kadar Örneğin y cisminde f kuvvetini
+uyguluyorum harekete geçmiyor sürtünme
+kuvveti statik sürtünme kuvveti de kadar
+Eğer ben y cismine f/2 kadarlık kuvvet
+uygulasaydım dışarıdan o zaman sürtünme
+kuvveti de f/2 kadar olurdu konu
+anlatımını hatırlayın statik sürtünme
+senin uyguladığın kuvvete göre değişir
+kuvvete arttırırsın statik sürtünme de
+artar cismi kıpırdatamazsın Tabi onun
+bir maksimum var sonsuza kadar sürtünme
+kuvveti artmıyor hiç kuvvet uygulamazsam
+x cisminde olduğu gibi hiç sürtünme
+olmaz Eğer yatay düzlemdeyse Dolayısıyla
+birinci öncülü doğru kabul edemem Çünkü
+ilk cismin etki eden sürtünme kuvveti
+sıfırdır Z cismin etki eden sürtünme
+kuvveti y cismin etki eden sürtünme
+kuvvetinden küçüktür bir kere şunda
+hemfikiriz y dediğim adama kesinlikle
+fedarlık sürtünme etki ediyor Çünkü ben
+onu fle çekiyorum ve kıpırdamıyor z
+cismine F etki edemez Çünkü o zaman Net
+kuvvet sıfır Olmazdı çünkü biz Z'yi de f
+ile çekiyoruz o yüzden ikinci öncülüğün
+Kesinlikle doğru Z'nin kütlesi y'nin
+kütlesinden küçüktür Hocam çok mantıklı
+sürtünme kuvveti demek K çarpı normal
+kuvvet demek buradaki normal kuvvetler
+zaten cisimlerin ağırlığına eşit K çarpı
+mg olarak yazabiliriz bu sürtünmeyi
+veriyor Z'nin sürtünme kuvveti küçük
+bunlar aynı ortamdalar yer çekimi
+ivmeleri aynı Dolayısıyla Demek ki bu
+adamın Kütlesi küçük Bu da kesin doğru
+değil Burada tek değişken kütle ve yer
+çekim üyesi mi Hayır bakın burada kabak
+gibi sürtünme katsayısı var yani
+sürtülen yüzeyle İşte buradaki zem
+cisimler arasındaki sürtünme katsayısı
+önemli bu yüzey hemx hem ye hem Z için
+ortak olabilir ama y ve Z'nin hangi tür
+madde olduğunu bilmiyorum ki belki y
+tahtadan yapıldı Z camdan yapıldı bu
+sürtünme katsayısını farklılaştırır
+sürtünme katsayısı Z'de daha küçük
+olduğu için sürtünme kuvveti daha küçük
+olmuş olabilir tek faktör kütle değil
+Dolayısıyla üçüncü Öncül hakkında
+kesinlikle doğrudur diyemem Sorumun
+cevabı B seçeneğidir öğretmen sürtünme
+kuvveti konusunda işlerken sınıfı okul
+bahçesine çıkarır Osman'a bahçede
+bulunan şekil 1'deki sandığı önce
+tekeriyle sonra iki eliyle itmesini
+ister Osman tek eliyle sandığı yerinden
+oynatamazken İki eliyle İterek hareket
+ettirebilir bunun üzerine öğretmen
+bahçede bulunan tahtaya şekil 2'deki
+gibi sürtünme kuvvetinin uygulanan
+kuvvete bağlı grafiğini çizer şimdi bu
+grafik zaten sorunun ana fikri duran bir
+sandık var hızlı sıfır olan bir sandık
+var Ben bunu itmeye çalışıyorum ve
+gitmiyor kesinlikle statik sürtünme ile
+muhattabız şu an durgun cisimler etki
+eden sürtünme kuvveti şimdi bu çocuk sol
+tarafa doğru ev kuvveti uyguluyor tek
+eliyle ve gitmiyor demek ki kuvvet 0
+hareket durumumuzu koruyoruz duruyoruz
+ve durmaya devam ediyoruz sürtünme
+kuvveti sağ tarafa doğru F kadar ben ne
+kadar kuvvet uyguladıysam sürtünme
+kuvveti de o kadar oldu çünkü statik
+sürtünme değişkendir Sen ne uygularsan
+Onu vermeye çalışır F kuvveti uyguladım
+statik sürtünmede ef kadar oldu bir
+buçuk F uygulasaydım statik sürtünmede
+bir buçukf olurdu fakat bu çocuk ne
+yapmış İki eliyle hareket ettirmiş İki
+eliyle ittiği zaman Harekete geçmiş
+demek ki iki f yaptığımda bu maksimum
+sürtünme değerini aşmışız hareket
+ettirebilmişiz sürtünme sonsuza kadar
+artmayacaktır iki ev kuvveti iki elle
+ettiğim için iki f diyorum Tek el f'
+demiştim Çünkü buradaki 160 newton'dan
+büyüktür diyebiliriz yani statik
+sürtünmenin maksimum değerinden Osman
+sandığı tek eliyle elini Newton kuvvet
+uygulamış Olabilir evet ben 50'nin son
+kuvvet uygulamış olursa statik sürtünme
+de elini Newton oluyor ve hareket
+etmiyor grafiğe göre 160'a kadar bu
+cisim hareket etmeyecek Çünkü biri
+olabilir Osman sağında iki yüz Newton
+kuvvet uyguladığında Sandığa etki eden
+sürtünme kuvveti yüz newtondur Şimdi biz
+200 Newton kuvvet uygularsak sol tarafa
+doğru 160'tan büyük mü büyük hareket
+edecek mi edecek hareket ediyorsa artık
+maruz kaldığımız sürtünme kinetik
+sürtünmedir Yani bu grafiğin bu kısmıdır
+ve kinetik sürtünme grafiğe göre
+gördüğünüz gibi sabit bir değer seninle
+uygularsan uygula konu anlatımlarında
+bunu vurgulamıştım ve o değerde 100
+Dolayısıyla bu cisim harekete geçtikten
+sonra maruz kalacağınız sürtünme artık
+budur ve Bu değişmez hep yüzdür 500
+newtonla çeksenizde 100000 newtonuna
+çeksenizde 100 O yüzden ikinci öncülüm
+doğur Osman Sandığa 130 Newton kuvvet
+uygulandığında Sandığa etki eden Net
+kuvvet 30 newtondur şimdi bir kere şunu
+anlamaya çalışalım bu 130 Newton cismi
+hareket ettirebiliyor mu ettiremiyor mu
+bakıyorum 160 Maximum 130 hala statik
+sürtünme bölgesine karşılık gelen bir
+değer yani biz burada 130 Newton
+uygulasaydık Bu cismi hareket
+ettiremezdik hareket ettiremiyorsak Net
+kuvvet sıfır kalmaya devam ediyor
+demektir sürtünme kuvveti de 130
+newtondur anlamına geliyor yani Net
+kuvvet 30 değil sıfırdır cisim
+kıpırdamamıştır ama sorudan bağımsız çok
+güzel bir noktaya vurgulayalım 2 ile 3'ü
+birleştirelim mesela Osman bu sanda 200
+Newton kuvvet uygulasa maksimum
+sürtünmeden büyük mü büyük bu cisim
+hareket edecek mi edecek bu cisim sol
+tarafa doğru bir hız kazanacak güzel
+artık gidiyoruz hali hazırda giderken
+durgun değil giderken bu 200 newtonluk
+kuvveti ben 130'a düşürsem o zaman ne
+olur işte o zaman sürtünme kuvveti 100
+Newton olur çünkü ben gidiyorum
+gidiyorsam kinetik sürtünmeye maruz
+kalıyorum kinetik sürtünme sabit senin
+uyguladığın kuvvetten Bağımsız ve bu
+durumda Net kuvvet sola 130 sağ yüz otuz
+Newton olur ve üçüncü Öncül doğru olmuş
+olur ama bana üçüncü öncülde hareket
+halindeyken böyle bir kuvvet
+uyguladığını söylemiyor diyor ki Osman
+Sandığa 130 nitronu uygularsa Sandığa
+etki eden Net kuvvet 30dur yani durgun
+kabul etmem lazım sandığı başlangıç
+koşullarına dönmem lazım bu önemli nokta
+ince bir nokta buraya kavramanız önemli
+bir eve ikiye doğru dedim Sorumun cevabı
+B seçeneğidir hava sürtünmesinin ihmal
+edildiği ortamda şekildeki gibi dalından
+elma yere düşüyormuş Buna göre
+yargılarından hangileri doğrudur
+denilmiş elma yere düşene kadar
+dengelenmemiş kuvvetlerin etkisindedir
+yani Net kuvvet sıfır değildir diyor
+yere düşene kadar havadayken şimdi şu
+havadaki elmayı düşünelim Bu elmanın
+üzerine etki eden kuvvetler neler
+aşağıya doğru ağırlığı var hava
+sürtünmesi ihmal Dolayısıyla başka bir
+kuvvet var mı havadayken hayır yok bu
+adamın üzerinde Şu an bir Net kuvvet var
+Net kuvvet olduğu için bir ivmesi var o
+yüzden cisim aşağıya doğru düşerken
+hızlanıyor zaten hızlanma yemesi var
+birinci öncülüm Doğrudur elma yere
+düşerken ağırlık kuvvetinin tepki
+kuvveti yoktur bu öncülü niye koydum
+ağırlıkla normal kuvvet etki tepki
+düşüncesini yıkmak için bir kez daha
+yani işte aşağıya doğru ağırlık var
+yukarıya doğru normal kuvvet var cisim
+zemindeyken bu G ile ne etki tepkidir O
+zaman burada zemin olmasa normal kuvvet
+olmaz normal kuvvet olmazsa ağırlığın
+tepkisi Olmaz öyle şey olur mu kuvvet
+varsa onun tepkisi de vardır Peki bu
+ağırlık kuvvetinin tepkisi nerede
+dünyada Bunu dünya olarak düşünün elma
+hiçbir cisim aniden duramaz önce hızını
+azaltman lazım Sen böyle gidiyorsun bir
+kuvvet sana ters yönde etki eder
+yavaşlarsın yavaşlarsın ve durursun
+yavaşlama süreci geçirmek zorundasın
+Dolayısıyla normal kuvvet için bu
+aşamada çığır açıcı bir şey duyacaksınız
+bu elma geldi yere değdi belli bir hızı
+vardı o hızın azalması ve sıfıra
+ulaşması gerekiyor yavaşlaması gerekiyor
+aşağıya doğru inen cismin yavaşlaması
+için kesinlikle yukarıya doğru bir net
+kuvvete maruz kalması gerekir Bu cismin
+üzerindeki kuvvetler nelerdir aşağıya
+doğru ağırlık kuvveti yere değdiği anda
+da oluşmaya başlayan normal kuvvet başka
+bir kuvvet yok ve bu ikisinin toplamı
+yani Net hali yukarıya doğru çıkmak
+zorunda başka türlü yavaşlayamaz ki yani
+yere değdiği anda bu n kuvveti g'den
+büyük gençler bak ne ile G'nin etki
+tepki olmadığını bir kez daha görüyoruz
+etki tepki olsa hep eşit olmaları
+gerekir Ama ben ne diyorum yere çarpma
+anında normal kuvvet g'den büyüktür
+zeminin sana uyguladığı kuvvet senin
+ağırlığından büyüktür başka türlü
+yavaşlayamazsın Çünkü yavaşlar yavaşlar
+yavaşlar ve durur yani şu hale gelir bu
+hale geldiğinde Evet o zaman
+geliştirmeye yazarsınız yani buradaki n
+değişken değerler alır sayılar vereyim
+Bununla ilgili sizin ağırlığınız 20
+newtondur yere değdiğiniz anda normal
+kuvvet sallıyorum 25 newtondur yukarıya
+doğru 5 newtonluk Net kuvvet sizi
+yavaşlatır yavaşlatır ve durdurur
+durduğunuz anda artık dengedesiniz G ile
+n'nin eşit olması lazım benim ağırlığım
+değişmez ağırlığım 20 Newton olmaya
+devam eder artık normal kuvvetinizde
+20'ye düşmüştür Yani normal kuvvet
+değişebilir üçüncü öncülüm yanlıştır
+başlangıç anında dengelenmemiş
+kuvvetlerin etkisindeyiz Net kuvvet var
+çok iyi soru lütfen Bu soruda
+söylediklerimi iyi anlamaya çalışın
+Sorumun cevabı a seçeneğidir şekil
+1'deki yatay km yolunun sürtünmesi LM
+bölümü sürtünmelidir K noktasında durgun
+halde bulunan cisme km arasında düzleme
+paralel ev kuvvet uygulanmaktadır Bu
+sırada cismin hız zaman grafiği
+şekildeki gibi olduğuna göre LM arasında
+cisme etki eden sürtünme kuvveti nedir
+diye sormuş şimdi şu Aralıkta sürtünme
+yok bu Aralıkta sürtünme var bu ne
+anlama gelir k aralığında yatayda benim
+üzerimde sadece bu var düşeyde zaten Net
+kuvvet sıfır Ama yatayda bu Fi
+dengeleyen hiçbir şey yok Dolayısıyla
+toplamda Net kuvvetin Bu evin kendisidir
+Net kuvvet varsa ivme vardır net
+kuvvetle aynı yönde Yani sağ tarafa
+doğru bir a ivmesine sahibiz yani
+hızlanıyoruz durgun haldeki cisim ancak
+hızlanabilir Çünkü zaten grafiğimizin
+ilk bölümünde de bunu anlatıyor grafik
+önce hızlanarak başlıyor hızımız durgun
+halden artmaya başlıyor güzel demek ki
+burası k l arasını temsil ediyor sonra
+ne olmuş da bizim hızımız sabitlenmiş
+hız sabitse ivme yok demektir ivme yoksa
+Net kuvvet yok demektir yani bu bölgede
+ne olduysa net kuvvetimiz sıfırlanmış
+acaba buradaki kuvveti mi ortadan
+kaldırdık yani çekiyorduk çekmekten mi
+vazgeçtik Hayır soru ne diyor km
+arasında düzleme paralel F kuvveti
+uygulanmaktadır diyor yani yolun
+başından sonuna kadar bu ev kuvveti var
+demek ki Net kuvvetin sıfır olması sol
+tarafa doğru ef kadarlık bir sürtünmenin
+olması anlamına geliyor başka türlü Net
+kuvvet sıfır olamaz sabit hızla gidemem
+bakın burada bir şey daha görüyoruz
+sürtünmeli yola girdiysek yavaşlarız ve
+dururuz Hayır sürtünmeli yolda olmamıza
+rağmen bir sürtünmeye maruz kalmamıza
+rağmen aynı F kuvvetiyle hala
+hızlandırılmaya çalışıldığımız için
+sürtünmeli yolda sabit hızla gidebiliriz
+Tabii ki Üzerimizdeki Net kuvvet sıfırsa
+hareket durumumuzu koruruz Biz l'ye
+girdiğimizde bir hızımız vardı Net
+kuvvet sıfır o hızla sabit hızla
+yolumuza devam ediyoruz Peki sonra diyor
+ki LM arasında cisme etki eden sürtünme
+kuvveti nedir sol tarafa doğru f'tir
+şıklara dikkat ederseniz hep vektörler
+verilmiş yani vektörel bir ifade olması
+lazım cevabımızın cevabı F diyemeyiz
+bizim fector'ümüz sağ tarafa doğru bir
+vektörse sürtünmede sola doğru Efe
+olduğu için Sorumun cevabı -efektör
+olacaktır B seçenektir Böylece birinci
+testimizin sonuna geliyoruz çok güzel
+sorular çözdük takıldıklarınızı alta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

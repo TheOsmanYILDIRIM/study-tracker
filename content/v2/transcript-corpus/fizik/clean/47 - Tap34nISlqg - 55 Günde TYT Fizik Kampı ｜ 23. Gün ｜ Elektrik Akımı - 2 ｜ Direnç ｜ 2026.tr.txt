@@ -1,0 +1,737 @@
+Elektrik akımının ne olduğunu öğrendik
+potansiyel farkının ne olduğunu öğrendik
+Bu ünitenin bel kemiklerinden üçüncüsünü
+yani direnç konusunu öğreneceğiz direkt
+şöyle bir soruyla başlayalım
+tunçtantel'e sahip bir ampul üzerinden
+akım geçince neden yanar bu lamba
+dediğimiz şey içerisinde şöyle sarmal
+yapıda helezonik dediğimiz bir tel olan
+üzerinden elektrik akımı geçen bir yapı
+Bu neden Işık veriyor bunun olayı nedir
+Tabii ki bunun dirençle ilgisi var ama
+direnç dediğimiz şeyin Öncelikle ne
+olduğunu anlamamız lazım Böyle bir tel
+Hayal edelim iletken bir tel olsun bu bu
+iletken telin üzerinde önceki derste
+öğrendiklerimizi hatırlarsak elektronlar
+Serseri Mayın gibi dolaşıyorlardı bunlar
+serbest elektronlardı zaten
+çekirdeklerini çok zayıf bağlılardı
+sürekli komşu atomları atlayıp
+duruyorlardı Ama ben bu Selin uçları
+arasında bir Potansiyel fark
+oluşturursam ki onu bir güç kaynağı ile
+yapıyorum Burası artı Kutup Burası eksik
+Kutup artı kutbun bağlandığı yer yüksek
+potansiyel eksik kutbun bağlandığı yer
+alçak potansiyel yüksek potansiyelden
+alçak potansiyele doğru bir elektrik
+akımı akıyordu aynı yüksek seviyedeki
+sudan alçak seviyedeki suya suyun akması
+gibi tabi Bizim taşıyıcılarımız akım
+taşıyıcılarımız elektron olduğu için
+içeride bulunan serbest elektronlar
+Alçak potansiyelden yüksek potansiyele
+doğru gidiyorlardı kendi hallerinde
+takılan kaotik olan bu gezinme buradaki
+güç kaynağının oluşturduğu elektrik alan
+sayesinde artıdan eksiye doğru olan bu
+elektrik alan sayesinde elektronlara bu
+yönde bir elektriksel kuvvet etki
+etmesine bu kuvvetinde elektronları
+böyle sol tarafa doğru hareket
+ettirmesine sebebiyet veriyordu niye
+hocam Elektrik alana ters yönde kuvvet
+etki ediyor elektronlara Çünkü
+elektrostatikte öğrendiğimiz üzere
+elektrik alan artıdan eksiye doğru
+çizilir ve elektron dediğimiz şey eksi
+tarafından itilir artı tarafından
+çekilir Yani bir elektrik alana yüklü
+bir cisme elektriksel kuvvetin etki
+edeceği bir bölgeye bir elektron
+koyarsan oradaki elektrik alan vektörü
+ile ters yönde bir kuvvete maruz kalıyor
+İşte o pil bu elektrik alanı oluşturuyor
+Dolayısıyla bu elektriksel kuvveti
+oluşturuyor elektronlar üzerinde
+bunlarda elektrik akımı oluşturuyor
+diyebiliriz bu akımın kuvvet yorumu
+enerji yorumu da yine suyun akışından
+geliyordu yüksek potansiyelden alçak
+potansiyele doğru elektrik akım
+baktığını Hayal ediyoruz ama aslında
+elektronlar Alçak potansiyelden yüksek
+potansiyele gidiyorlar potansiyel enerji
+ile ilgiliydi bir tane elektronun
+devreye dolaşması için güç kaynağı
+tarafından devreye verilmesi gereken
+enerji ile ilgili bir kavramdı
+Potansiyel fark onu da buradaki pil
+sağlıyordu şimdi bunların
+dirençlenilgisi var bu elektronlar
+sürükleniyorlar sol tarafa doğru fakat
+kafalarına göre sürüklenemiyorlar Çünkü
+buradaki iletkenin içerisinde o iletkeni
+oluşturan atomlar moleküller var bunu
+böyle bir kristal yapı gibi çizersem
+buradaki bu kırmızı noktalar bu telin
+atomlarını oluşturursun bu atomların
+içerisinde çekirdek var etraflarında
+elektronlar var Bir de bizim dolaşan
+serbest elektronlarımız var senin
+elektronun böyle dümdüz gidemez sürekli
+etrafındaki atomlarla etkileşir onların
+arasında krom Kuvvetleri oluşur atomun
+elektronu bizim serbest elektronumuzu
+iter falan Dolayısıyla dümdüz değil
+böyle o onu iter bu bunu iter oradan
+itilir buradan kakılır derken böyle
+tuhaf rotalardan ilerler çok yavaş
+gitmesinde Bu da etkili zaten bir türlü
+ilerleyemiyor ki adam malzemenin
+içerisindeki atomlar onu engelliyor
+buradaki bu zorluk r harfi ile
+gösterdiğimiz direnç olarak ifade
+ediliyor rezistanstan Geliyor
+direnmekten geliyor şimdi zaten Buradaki
+tanecikler atomlar titreşim halindeler
+değil mi ısı sıcaklık ünitesinde
+öğrendik sıcaklığı olan her şey hareket
+ediyordur zaten sıcaklığın tanımı
+Maddeyi oluşturan taneciklerin ortalama
+kinetik enerjisinin bir ölçüsüydü katı
+tanecikleri titreşiyorlar şimdi
+elektronla etkileştiğinde elektron sanat
+çarptığında daha çok titremeye başlarsın
+bir enerji alırız daha çok titremek
+demek daha çok sıcaklık demek bu yüzden
+iletkenlerden akım geçerken sıcaklık
+artar Çünkü elektronlar oradaki
+atomlarla çarpışıyordur o çarpışmayla
+titreşimler artıyordur bu sıcaklık o
+kadar artabilir ki iletkenleriniz 1500
+selsiyuslara çıkabilir 1500
+selsiyuslarda maddenin artık ısınmakla
+kalmamıştır Işık yaymaya başlamıştır Köz
+gibi yani Köz dediğiniz şey o kadar
+ısınır ki belli bir süre sonra ışık
+kaynağının kendisi olur mangalda bizim
+buradaki Akkor ampul dediğimiz filamanla
+ampul dediğimiz klasik ampullerin
+hepsinin çalışma mantığı budur sistem o
+kadar ısınıyor ki Işık yaymaya başlıyor
+çünkü
+buradaki tungsten telin direnci buna
+sebep oluyor Biz İlla ışık yaysın da
+istemeyiz oradaki ısıyı günlük hayatta
+kullanırız mesela
+ütü dediğin şey fırın dediğin şey saç
+kurutma makinesi dediğin şey kettle
+dediğin şey bunların hepsinde
+elektrikten Isı enerjisi üretiyoruz Ne
+alaka Bu ikisi Çünkü iletkenlerden akım
+geçiriyoruz o iletkenlerden elektronlar
+geçerken Oradaki atomlarla
+etkileşiyorlar bir direnç oluşuyor o
+direnç etkisi ısıya dönüşüyor o ısı
+enerjisini kullanarak ütü yapıyorsun
+Oğuzhan enerjisini kullanarak fırında
+yemek pişiriyorsun Oğuz senaryosini
+kullanarak sıcak hava üflenmesini
+sağlıyorsun su ısıtıyorsun bütün
+elektrikten ısı üretme sistemlerinde
+dirençler kullanılır Bu yüzden bakın
+burada Basit bir elektrik devremiz var
+burada pil var Bu kırmızıyla gördüğünüz
+dikdörtgen bir direnci temsil ediyor
+şunlarda teller olsun burada hareket
+eden şeyleri elektron olarak
+düşünebilirsiniz burada bir rüzgar gülü
+görüyorsunuz Bir Pervane görüyorsunuz O
+da buradan geçen akımı ölçen bir
+ampermetre ampermetre ilerde öğreneceğiz
+akımın miktarı ile alakalı daha çok akım
+geçerse daha hızlı döner diyebiliriz
+buradaki simülasyonda direnç dediğimiz
+şey tam olarak şu an burada olan şey
+gördüğünüz buz gibi pil devrede bir
+Potansiyel fark oluşturuyor bu iki nokta
+88 voltmuş bu Potansiyel fark sayesinde
+telin içerisindeki serbest elektronlar
+bu mavi kürecikler telin içerisinde
+bulunan tele ait serbest elektronlar
+pilin üretmediği şeyler pil sadece
+Bunları Potansiyel fark sayesinde
+hareket ettirmiş oluyor bu elektronlar
+direncin içerisinden geçerken bu yeşil
+küreciklerle etkileşiyor İşte o yeşil
+kürecikleri atom gibi düşünün direnci
+oluşturan malzeme gibi düşünün onlara
+vakit kaybettiriyor onlara zorluk
+çıkartıyor onları itiyor çekiyor kilom
+Kuvvetleri ile zorluk oluşturuyor İşte
+biz buna direnç diyoruz mesela direnci
+arttırırsam ne değişiyor gördüğünüz gibi
+çok daha fazla o yeşil küreciklerden
+oluştu daha çok etkileşim daha çok vakit
+kaybı daha çok zorluk demek direnci
+arttırdım dikkat ederseniz Rüzgar
+gülümüz de çok daha yavaş dönmeye
+başladı çünkü akımı azalttık Yani sen
+akıma karşı gösterilen zorluğu
+arttırırsan akımı azaltmış olursun
+direnci azaltalım daha az direnç daha az
+yeşil bölge demek daha az muhatap olma
+daha az zorlukla karşılaşma direnci
+azalttım akıma karşı gösterilen zorluk
+azaldı gördüğünüz gibi rüzgar gülü çok
+daha hızlı dönüyor yani devredeki akımı
+arttırdım diyebilir burada sıcaklık
+göstergesi de var buradaki yeşil
+tanecikleri atom gibi düşünürsem o
+malzemenin atomları daha çok titremeye
+başlarsa elektronlarla etkileşim
+sonucunda sıcaklık artmış olur Mesela
+ben buraya daha güçlü bir pil takarsam
+devredeki akım inanılmaz arttırmış
+oluyorum görüyor musunuz etkileşimi deli
+gibi titriyor yeşil bölgeler Dolayısıyla
+şu an direncini çok ısındı Hatta rengi
+beyaza döndü bunu Şu an bir ampul gibi
+bile düşünebilirsiniz maddelerin
+elektronların hareketlerine yani
+elektrik akımına karşı gösterdiği
+zorluğa direnç diyoruz devrelerde direnç
+R sembolü ile gösteriliyor İngilizce
+rezistten yani direnmekten geldiğini
+söylemiştim hatta Elektrikçilerin
+kullandığı bir kelime vardır rezistans
+diye Yani aslında direncin Türkçesi ve
+biz bunu reklamlarda da zamanında çok
+duyduk İşte bu çamaşır makinesi
+reklamlarında eve usta çağırıyorsun
+Çamaşır makinesini Söküyor elinde bu
+demiri tutuyor böyle diyor ki
+rezistansınız kireçlenmiş o yüzden
+çamaşırlarınız İyi yıkanmıyor işte bu
+aslında direnç Bunun içerisinde elektrik
+akımı geçiriyorsun bu ısınıyor ve
+çamaşır makinesinin suyu ısıtıyor
+Böylece çamaşırları daha iyi yıkıyorsun
+işte kireçlendiği için daha iyi
+ısıtamıyormuş falan filan ütü de
+kettle'da fırında çamaşır makinesinde
+suyu ısıtan direncin ismi rezistans
+direncin birimi 10 George Simon Om diye
+bir bilim insanı var Bu elektrik
+akımıyla ilgili yaptığı çalışmalar var
+ki on kanun diye bir şey öğreneceğiz bir
+sonraki dersimizde onun ismi direnç
+birimi olarak verilmiştir ve Omega
+harfiyle gösterilir direncin birimi
+şöyle at nalına benzeyen Yunan
+alfabesindeki Omega harfidir bu 3 Om
+yazdığımda dirençten bahsettiğim
+anlamanız gerekiyor dersin en önemli
+yeri test kitaplarında en çok karşımıza
+çıkacak olan yer Bir iletkenin direnci
+nelere bağlıdır
+a ro dediğim şey öz direnç malzemenin
+cinsi ile alakalı her malzemenin kendine
+has bir öz direnci var altının Öz
+direnci farklı Bakırın Öz direnci farklı
+gümüşün Öz direnci farklı bu öz direnç
+katsayısından dolayı bazı malzemelere
+iletken bazı malzemelere yalıtkan
+diyoruz Bu çoksa direnç de çok demek
+direnç o kadar büyük olabilir ki malzeme
+yalıtkan deriz Peki niye her malzemenin
+farklı çünkü direnç dediğim şey atomik
+boyutta gerçekleşiyor her malzemenin de
+kendine has atomik yapısı dizilimi
+olduğu için herkesin ön direnci farklı
+oluyor haliyle L dediğim şey akım
+doğrultusundaki uzunluk teliniz var Bir
+tanesinin uzunluğu böyle aynı kalınlıkta
+aynı malzemeden yapılmış bir de daha
+uzun bir teliniz var şunun boyu Neyse
+bunun boyu 2 ile elektrik akımı Bu
+doğrultuda geçmeye çalışıyor gibi
+düşünebiliriz burada iki kat fazla
+direnç var bunun direnci R ise bunun
+direnci iki kere uzunluk arttıkça direnç
+artar neden Hocam şimdi bunu bir
+Akademik olarak açıklayabiliriz Bir de
+böyle aklımıza yatan bir somutlaştırma
+ile açıklayabiliriz önce Akademik olarak
+açıklayalım şimdi Elektrik akımını sağa
+doğru çizdiysem elektronlar bu sol
+tarafa doğru gidiyorlar Çünkü buraya
+bağladığım güç kaynağı burada bir
+elektrik alan oluşturdu o elektrik alan
+içine koyduğun eksi yüklü tanecikler bir
+kuvvete maruz kalır o elektriksel kuvvet
+bu adamları hareket ettirir akımın
+sebebi bu bu uzunluk arttıkça buradaki
+elektrik alan azalıyor elektrostatikten
+hatırlayın elektrik alan ne demek yük
+başına düşen kuvvet Ben burada kuvveti
+çekersem yük çarp elektrik alan yük
+zaten elektron bunu E harfiyle
+gösteriyorum bu sabit elektrik alan
+azalırsa o elektronu etki eden kuvvet
+azalır telin boyu arttıkça bu bölgede
+oluşturduğun elektrik alan azalıyor
+elektrik alanın azalması elektronlara
+daha az kuvvet etki etmesi demek
+elektronların hareketinin daha kötü
+olması demek yani buradaki direncin daha
+fazla olması demek ya da düz mantık
+somutlaştıralım Sonuçta direnç dediğimiz
+şey bunun içerisindeki taneciklerle
+etkileşim atomlarla etkileşim şimdi tel
+kısa olursa bu kadarcık atomla
+etkileşirsin ve yoluna devam edersin ama
+tel uzun olursa bu yol bir türlü bitmez
+sürekli bir atomla boğuşmak zorunda
+kalırsın direncini arttığını böyle
+somutlaştırabiliriz bu tamamen aklınıza
+çağrışım yapsın diye uydurduğumuz bir
+şey asıl mevzu buradan kaynaklanmaktadır
+Bunu hemen bir uygulamasını görelim
+bakın burada Uzunca bir tel var Ve bunun
+da bir direnci var haliyle iki ucundan
+kablolarla bir güç kaynağına bağlanmış
+Şimdi ben buna bir ampul yaklaştıracağım
+gördüğünüz gibi yukarıdan şuradan da bir
+ampul bağlanmış bu ampulün Bir ucunu
+şuraya tuttuğum
+lamba yanmıyor diğer ucunu böyle
+kaydırıyorum sol tarafa doğru
+kaydırıyorum lamba yanmaya başladı sola
+doğru kaydırdıkça da lambanın
+parlaklığını arttığını gözlemliyorum
+Niye böyle oluyor şöyle düşünün Burada
+bir yerde pil bağlı pilin artı Kutbu
+eksi Kutbu Artı kutbundan Elektrik
+akımının geldiğini düşünürsem şu telin
+üzerinden geçiyor burada bir direnci
+maruz kalıyor sonra adamın eliyle
+tuttuğu telin üzerinden gidip Lambayı
+yakıyor ve devreyi tamamlıyor Bizim
+elektrik akımımız Dolayısıyla burada bir
+dirençle mücadele ediyor elektrik
+akımımız bu kısımda tel uzun oldukça
+direnç fazla direnç fazla olduğu için
+zorluk fazla akım daha az akım daha az
+olduğu için de lamba az parlak yanıyor
+Hatta şu adamın elinde tuttuğu tel
+buralardayken hiç yanmıyordu Çünkü telin
+boyu devasaydı o zaman adam elini sola
+doğru kaydırdıkça buradaki telin boyu
+kısalıyor Mesela bu kadar oluyor bayağı
+azaldığı için direnç azalıyor direnç
+azaldığı için akımı artıyor parlaklık
+artıyor bakın elini sola kaydırdıkça
+lambanın çok daha parlak yandığını
+görüyoruz Çünkü direnci azaltıyoruz
+Çünkü boya azaltıyoruz a dediğim şey de
+akım doğrultusundaki dik kesit yani
+akımın geçmeye çalış bir yerdeki
+kalınlık olarak düşünülebilir yine iki
+tane tel düşünelim biri incecik olsun
+Öbürü de çok kalın olsun diğer şeyler
+aynı olsun aynı malzemeden yapılsınlar
+aynı uzunlukta olsunlar diğer
+değişkenlerimiz sabit olsun sadece
+şurası ince bir kiste sahipken Burası
+daha kalın bir keste sahip Bu doğrultuda
+elektrik akımı göndermeye çalışıyoruz Bu
+doğrultuda elektrik akımı göndermeye
+çalışıyoruz Bu ifade bana diyor ki alan
+ne kadar büyükse direnç o kadar küçüktür
+yani kalın telde daha az direnç var
+sebep Çünkü akım demek elektron hareketi
+demek elektronlar ters yönde bu tarafa
+doğru gitmeye çalışıyorlar ve karşısında
+atomlar var onlarla mücadele ede ede
+gitmeye çalışıyorlar her ne kadar dar
+olursa kaçabileceğin alternatifler o
+kadar az olur tel ne kadar kalın olursa
+kaçabileceğin alternatifler o kadar çok
+olur yani burada alternatif çok yol çok
+böyle üstten gelen bir elektron oradan
+geçemezse biraz daha aşağı gider oradan
+geçemezse biraz daha aşağıya gider İlla
+bir yol bulur geçer ama dar bir telde
+zaten daracık tel yol yok Nereden
+gidecek çok takılır ve bunun gitmesi
+daha zorlaşır O yüzden ne ne kadar kalın
+tel o kadar az direnç Evinizdeki
+Elektrikli aletlerin kablolarına bakın
+eğer çok akım isteyen aletlerse genelde
+kabloları kalındır çok az akımla çalışan
+genellikle hassas bir aletse İncecik bir
+kablosu vardır mesela fırının kettle'ın
+saç kurutma makinesinin Bunlar çok
+akımla çalışan aletler O yüzden Elektrik
+faturasını çok kabartırlar her gün 3
+saat fırında yemek yapın bakalım ne
+kadar fatura geliyor ay sonunda dikkat
+ederseniz Bu saydığım her şey başta
+saydığım her şey yani elektrikten ısı
+ürettiğimiz her şey bunlar çok elektrik
+enerjisi tüketiyorlar çok akım
+çekiyorlar çok akım çektikleri için de
+kabloları daha kalın yapılıyor o akımı
+alabilmek için direnç daha az olsun ve o
+akıma dayanabilsin diye sistem ama bir
+cep telefonu kablosunu düşün şarj
+aletinin kablosunu düşün İncecik bir şey
+Çünkü zaten cep telefonu dediğin şey kaç
+amperle çalışıyor küçücük bir şey hassas
+alet Bunlar incecik tellerle
+çalıştırılırlar Bu da direncin daha
+fazla olması demek Böylece daha az akım
+çekmek demek bakın hocanın önünde 12
+voltluk bir pil var bu 12 voltluk pilin
+artı ucuna ve eksi ucuna İncecik bir
+kablo değdirecek o iletken telden
+kablodan Elektrik geçecek ama o kadar
+ince ki ve buradaki güç kaynağı ona göre
+o kadar güçlü ki büyük bir akım geçmeye
+çalışacak tel de çok ince olduğu için ki
+gözükmüyor neredeyse bir saç teli
+kalınlığında tel de o kadar ince ki
+direnci çok fazla hem akım çok fazla hem
+direnç çok fazla Bu da deli gibi bir ısı
+enerjisi demektir O ısı enerjisini
+gözünüze göreceksiniz artı kutba ve eksi
+Kutbu değdirdiği anda yüksek bir akım
+yüksek dirençle birleşecek ve deli gibi
+bir ısı enerjisi gördüğünüz gibi tel
+koptu gitti hocamız doyamıyor bir daha
+yapıyor aynı deneyi acaba farklı bir şey
+bulur muyuz diye yine yandı bu ifadeyi
+unutmayacaksınız direnç dediğimiz şey ro
+çarpı L bölü a ro dediğim şey p veya g
+değil Yine Yunan alfabesinden böyle
+tuhaf bir harf malzemenin Öz direnci
+malzemenin cinsi ile ilgili bir şey
+malzemenin uzunluğu böyle alan öz direnç
+katsayısına kadar büyükse direnç o kadar
+büyük bu iletkenin uzunluğu ne kadar
+fazlaysa direnç o kadar fazla iletkenin
+kalınlığı ne kadar fazlaysa direnç o
+kadar az diyebiliriz Bununla ilgili son
+bir modellememiz var bir masamız var
+ayaklarına takoz konmuş yani masa
+yükselt Sizce şu an neyi temsil ediyor
+Bu potansiyel farkı temsil ediyor
+buradaki takozlar Şu an bir güç kaynağı
+görevi görüyor Çünkü masada bir eğim
+oluşturdum oraya bir misket koyarsam
+yüksek potansiyelden alçak potansiyele
+doğru akacaktır elektrik akımına
+benzetebiliriz bu şekilde masanın
+üzerinde bir sürü misket var bu misket
+dar bir aralığa sıkıştırılmış bunu
+iletken tel gibi düşün onun direncini
+konuşacağız biz bunları serbest
+bıraktığımız zaman bunları elektron gibi
+düşünürsen şu an Elektrik akımını
+gözlemliyorsun bütün hepsinin hareketi
+altı küsür saniye sürüyor Eğer ben araya
+engeller koyarsam telin içerisindeki
+atomları temsil etsin bu Bakalım yine
+bütün misketlerin gitme süresi aynı
+olacak mı bakın Bunlar burada nasıl
+takılıyorlar nasıl zorlanıyorlar Az önce
+6 küsür saniyede boşalmıştı her yer
+şimdi 8 oldu 9 oldu 10 oldu hatta bir
+tanesi hiç gidemedi direncin arttığını
+gösteriyor Daha kalın yaptı buradaki
+aralığı Selin kesit alanını arttırdı
+gibi düşün aynı miktarda misket var bu
+Az önceki kalınlık Bu da şimdiki
+kalınlık alan artarsa direnç azalır
+Dolayısıyla buradaki bilyelerin mis Daha
+Hızlı Daha rahat akmasını bekleriz
+bakıyoruz Evet 3 saniyede halletmiş oldu
+şimdi hem uzun hem de buraya engeller
+koymuş bunu bizim konumuza uyarlarsak bu
+engeller maddenin Öz direncini temsil
+ediyor Daha yalıtkanımsı bir madde hem
+de teli uzattık İkisi de direnci
+arttırıcı faktörler 6 saniyeye göre
+bakalım kaç saniyede hallolacak iş 4
+saniye oldu 5 saniye oldu bayağı uzadı
+işler 7 Evet gördüğünüz gibi 10 saniyeyi
+geçti bütün olayı böyle modelleyebiliriz
+Elektrik tesisatlarında neden bakır
+kablo kullanıyoruz ve bu bakır
+kabloların neden farklı kesit alanları
+var bakır kablo kullanıyoruz Çünkü bu
+iletken bir kablo hem de iyi bir iletken
+Çünkü bunun rosu yani öz direnç
+katsayısı oldukça küçük buradaki incelik
+kalınlık mevzusu da yine dirençle ilgili
+Eğer fazla akım çekmek istiyorsan kalın
+teller tercih edersin az akım çekmek
+istiyorsan ince teller tercih edersin
+bir tablomuz var inceleyelim bakın bazı
+malzemelerini öz direnç katsayılarını
+görüyorsunuz Gümüş 1,59 x 10 üzeri -8
+Bakır 1,710
+-8 mesela ampul içerisindeki tunçtan tel
+O da iyi bir iletken sayılır 5,6 x 10
+üzeri eksi 8 10 üzeri -8 oldukça küçük
+bir sayı bu malzemeleri Bu yüzden
+iletken diyoruz ama bakın cam sert
+plastik kükürt Quartz 10 üzeri 14 10
+üzeri 15 10 üzeri 16 Bunlar da devasa
+dirençler bu malzemelere de zaten biz
+yalıtkan diyoruz R = ro XL bölü A'da bu
+roller o kadar fazla ki devasa dirençler
+çıkıyor elektriği hiç iletmiyorlar
+yaygın bilinenin aksini altın çok
+pahalıdır çünkü en iyi iletkendir Hayır
+en iyi iletken değil üçüncü sırada Gümüş
+en iyi iletken bakır ikinci sırada hocam
+Gümüş iyi bir iletkense neden elektrik
+tesisatlarımıza Gümüş kullanmıyoruz
+Çünkü ekonomik olarak pahalıya denk
+geliyor bakır ideal Hem iyi bir etken
+hem de daha ucuz Hocam ben bu ampul
+mantığını anlamadım ampulde niye tunçten
+tel kullanıyoruz Siz dediniz ki direnç
+etkisiyle Isı enerjisi açığa çıkıyor o
+zaman direnç ne kadar fazlaysa ısı da o
+kadar fazla olmaz mı yani biz ampulün
+içine niye tunçten koyuyoruz ki kükürt
+koyalım kuvars koyalım gençler mevzu
+sadece dir simülasyonu hatırlayın ben
+simülasyonda ilk anlattığım simülasyonda
+pilin gücünü arttırdım ısı devasa oldu
+çünkü potansiyel farkı arttırırsan akım
+artar akım artarsa elektronlar daha
+fazla yükle geçmeye çalışırlar daha
+fazla elektron geçmeye çalışması daha
+çok atomla etkileşim daha çok titreşim
+kinetik enerjisi daha çok ısı enerjisi
+demek Ama sen direnci devasa boyutlara
+çıkartırsan akım çok az olur yani
+elektronlar geçmeye çalışmıyor ki biz
+oradan ısı üretelim ikisini Optimum
+tutmak lazım hem akımımız çok olacak
+elektronlar Çok geçmeye çalışacak hem de
+direncimiz çok olacak ki o elektronlar
+bir sürü atomla boğuşsunlar onlarla
+muhatap olsunlar o yüzden tunçten tel
+kullanıyoruz ki akım geçsin ve oradaki
+direnç etkisiyle Isı enerjisi açığa
+çıksın Az önce kalın kablo ince kablo
+mevzusunu konuşmuştuk daha az akımla
+çalışan şarj aleti ampul gibi cihazlar
+ince kablo kullanıyor fırın su ısıtıcısı
+saç kurutma gibi cihazlar kalın kablo
+kullanıyorlar Çünkü fazla amperle
+çalışıyorlar direnç dediğimiz şey
+değiştirilebiliyor Yani bir tane telin
+direncinden bahsediyoruz tamam bir de
+bizim devreye ekstradan eklediğimiz
+dirençler olabiliyor ve bunları
+değiştirebiliyoruz mesela reosta
+dediğimiz şey değiştirilebilir direnç
+demek bu böyle okul laboratuvarlarında
+gördüğünüz bir şey olabilir Bunu
+şurasından bir tel bağlarsın giriş
+şuradan bir yerden bir çıkış alırsın
+bunun ucuna bir pil bağlarsın Bir tane
+de ampul bağlarsın böyle bir elektrik
+devresi oluştururuz şimdi bu bir direnç
+buradaki sürgüyü sola sağa çekerek bu
+direnci arttırabiliyoruz ya da
+azaltabiliyoruz Bu kablodan elektrik
+akımı geldiğini düşünsek bu elektrik
+akımı reostaya girer Şuradaki direnç
+kısmından geçer sürgünün üzerinden
+yoluna devam eder bu telden Lambayı
+Yakar devreyi tamamlar Sen bu sürgüyü
+sağ tarafa çekersen sürgü artık burada
+olursa buradan gelen akımın artık daha
+çok silindirle muhatap olur Daha fazla
+yol Kat etmek zorunda olur sonra
+sürgünün üzerinden yoluna devam eder
+Yani sen R = ro çarpı L bölü A da l'yi
+arttırdın Dolayısıyla direnç arttı
+direnç artacağı için buradaki akım
+azalacak akım azaldığı için buradaki
+ampul daha sönük yanacak diyebiliriz bu
+sürgüyü sol tarafa yüksek ucu buraya
+gelse buradan gelen akımın şu kadarlık
+silindirli muhattap olur burası zaten
+reosta'nın direnç kısmı sonra hemen
+Sürgün üzerinden şuradan yoluna devam
+eder direnç azalmış olur akım artmış
+olur lamba daha parlak yanar günlük
+hayatta Dimmer anahtar diye bir şey var
+Belki sizin evinizde vardır böyle
+döndürülebilen bir anahtar Normalde
+Lambayı açarsın veya kapatırsın Ama bu
+anahtarı döndürüyorsun
+lambanın parlaklığı kademe kademe
+artıyor kademe kademe azalıyor ya aç ya
+Kapat değil kademeli Çünkü Bu sistemin
+içerisinde reosta var buradaki sürgünün
+hareketi gibi kademe kademe Ben bunu
+hareket ettiriyorum akımı kademe kademe
+değiştiriyorum lambanın parlaklığını
+kademe kademe değiştiriyorum
+değiştirilebilir dirence reosta ismini
+veriyoruz hemen bir uygulama yapalım
+aynı maddeden yapılmış Yani bunların
+rolları aynı Öz dirençleri aynı K ve
+telleri şekildeki gibidir bu Tellerin
+dirençleri RK ve rl olduğuna göre bu
+dirençlere oranlayınız direkt formül
+sorusu R = ro çarpı L bölü a benim
+burada roaya bakmama gerek yok çünkü
+aynı maddeden yapılmışlar maddenin cinsi
+ile öz direnç Bu arkadaşım boyu 2l kadar
+bu arkadaşın kesit alanı şu kadar bunu
+hesaplamam lazım bana Yarıçap vermiş Bu
+bir daire dairenin alanı pire kare ben
+buna a dedim burada 3r Yarıçap var o
+zaman p çarpı 3r'nin karesi yazmalıyım
+Bu da 9p kare demektir ve kareye a
+dediysem 9p yere kare 9A olacaktır o
+zaman birinci terimde 2 l/a yapmam
+gerekiyor ikinci terimde bunun L boyu
+var bölü 9 a yapmam gerekiyor Bunları
+taraf tarafa bölersem l'ler gider ağlar
+gider yukarıda iki var aşağıda 1/9 var
+1/9 yukarıya çarpı olarak geçer 2 çarpı
+9 olacaktır sorumuzun cevabı 18
+çıkacaktır yani şu R kadarlık dirençse
+bu 18r'lik dirençmiş 18 Kat daha
+büyükmüş sebep çünkü adam bir kere daha
+uzun direnci arttırıcı bir faktör ve
+daha ince Bu da direnci arttırıcı bir
+faktör iki yönden de daha fazla dirence
+sahip olması gayet normal R direncine
+sahip l uzunluklu a kesit alanında Demir
+parça şekildeki gibidir bu parçalardan
+bir tanesi ile ve bir üreteçle elektrik
+devresi kurulmak isteniyormuş bu
+elektrik devresinde maksimum ve minimum
+direnç elde etmek için Demir parçaları
+nasıl bağlanmalıdır güzel şimdi burada
+bir demir parçası gözüküyor ama ben
+bunlardan iki tane kullanacağım maksimum
+direnç ve minimum direnç elde etmek
+istiyorum direnç dediğim şey maddenin
+cinsi maddenin uzunluğu bölümü maddenin
+kalınlığı gibi düşünülebilir bu
+parçaları nasıl birleştirirsem
+birleştireyim hep Demir olacakları için
+robi değişken değil bizim için direncin
+fazla olması için uzunluğun fazla kesit
+alanının az olması lazım yani uzun
+olacaksın ince olacaksın bu direnci
+arttırıyor direncin küçük olması için
+uzunluğun az olacak kesit alanın fazla
+olacak kısa ve kalın olacaksın E o zaman
+soru çok basitleşti bunun hemen arkasına
+Aynısından bir tane daha koyarsam L
+boyunda yine a kesit alanını direnç ne
+olur 2 l/a olur ikinci şekilde üst üste
+koyarsam şöyle yaparsam bu yine L kadar
+olmuş olur ama alan Burada da a var
+burada da a var 2A olmuş olur hocam
+önceki soruda karesini falan almıştınız
+burada niye direkt topladınız iki A'nın
+yapmayacak mıyız Hayır yapmayacağız
+oradakiler yarıçaptı oradan alan
+hesaplamıştık alan dediğim şey Pierre
+kareydi burada direkt alan vermiş
+uzunluk vermemiş ki bize buraya dikkat O
+yüzden direkt topladım iki a oldu e
+buradaki dirence 2 R dersem buradaki
+direnci r/2 derim Yani 4 kat oran elde
+etmiş olurum Bu maksimum dirençtir Bu da
+minimum dirençtir Dolayısıyla bu
+arkadaşları böyle bağlamalıyız konuyu
+önceden dinleyen mezunlar buradaki seri
+bağlama paralel bağlama mantığını kapmış
+olmalılar seri bağlayınca niye dirençler
+artıyor paralel bağlayınca bileşke
+direnç eşdeğer direnç niye azalıyorum
+mantığını anlattım Aslında konuyu ilk
+defa dinleyenler Az önce söylediklerimi
+hiç duymamış gibi yapsınlar Ben onları
+ileride anlattığımda buraya atıfta
+bulunurum ne demek istediğimi o zaman
+anlamış olursunuz geldik konumuzun son
+sorusuna tongsten filamanla ampullerin
+içindeki telin ince ve sarmal yapıda
+olmasının sebebi ne olabilir konuştuk
+Bunun içerisinde tunçtan bir tel var
+tunçten Aslında iyi bir iletken sayılır
+Bizim amacımız nedir bunun aşırı
+ısınması Hatta 1500 selsiyuslara
+ulaşması ve böylece o kadar anlıyor ki
+Işık yaymaya başlıyor zaten amacımız
+bizim aydınlanmak niye ısınıyor bu
+arkadaş Çünkü direnç etkisi bu telin
+atomlarıyla oradan geçmeye çalışan
+elektronlar etkileşiyorlar atomlar
+enerji kazanıyor daha çok titriyor
+sıcaklık artıyor Az önce konuştuğumuz
+gibi burada o zaman direnç çok olursa
+çok ısınır mantığı Çok doğru değil
+direnç fazla olsun Evet bu iyi ama akım
+da fazla olsun yani direnci devasa
+boyutlara ulaştırıp akımı minimumda
+tutamam İkisi de uygun değerlerde olmalı
+akım çok olsun diye zaten iletken
+tunçten kullanıyoruz ama direncini de
+çok olmasını istiyoruz o yüzden ne
+yapıyoruz işte burada biraz geometri
+farklı Bunu ilk defa görenler Şurayı
+dümdüz bir tel olarak görebilirler öyle
+düşünebilirler ama değil o böyle sarmal
+yapıda bir teldir incecik yaya benzeyen
+bir teldir niye böyle yapılıyor ince
+Çünkü direnç dediğim şey rolü A ne kadar
+küçükse direnç etkisi o kadar fazladır O
+yüzden ince yapıyoruz niye sarmal niye
+dümdüz bir tel değil Çünkü şurası
+atıyorum iki santimetre Yani ben 2
+santimetrelik tel kullanmak istemiyorum
+Ben 10 santim metrelik tel kullanmak
+istiyorum l'yi büyük tutmak istiyorum ki
+direnç büyüsün ben nasıl sığdıracağım
+buraya 10 santimetreyi sarıyorum İşte o
+yüzden sen şu arkadaşı böyle dümdüz
+yapsan tutsan köşelerinden Açsan ne olur
+böyle upuzun bir tel yaparsın yerden
+kazanıyor yani Bu ince ve sarmal olmanın
+özelliği L ve a ile ilgili direnci
+arttırmakla ilgili iletken olduğu için
+akım fazla bu geometriden dolayı direnç
+fazla Bu ikisi bir araya geldiğinde
+yüksek Isı enerjisi açığa çıkıyor Hatta
+bu ampulleri hiç değiştirmeye
+çalıştıysanız yeni patladı değiştirmek
+istiyorsun değiştiremezsin elin yanar
+önce soğumasını beklersin Çünkü dediğim
+gibi İçerisi devasa boyutlarda ısınıyor
+ve dersimiz bu kadardı bir sonraki
+dersimiz devre analizi olacak elektrik
+devrelerine başlayacağız artık bu derse
+takıldıklarımızın Kendinize iyi bakın
+görüşürüz
+[Müzik]

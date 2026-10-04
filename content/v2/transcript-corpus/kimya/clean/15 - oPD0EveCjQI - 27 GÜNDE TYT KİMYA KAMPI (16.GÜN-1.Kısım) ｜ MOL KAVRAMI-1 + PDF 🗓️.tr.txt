@@ -1,0 +1,939 @@
+kimyanın işlemli kısımlarına devam
+ediyoruz mol kavramında Bugün şu mol
+kavramının içinden Geçelim hadi bakalım
+neler var bu avogadro sayısı neydi
+bunlarla işlemler yapılırken nelere
+dikkat etmemiz gerekiyor Matematikteki
+nereleri bilirsek Burada rahat ederiz
+Bugün bunlardan bahsetme vakti Ama şunu
+sakın unutma ben ne kadar örnek çözersem
+çözeyim Sen ekstradan çözmek zorundasın
+Bunu sakın unutma Yani mol kavramı
+Birazcık böyle nazlı bir konudur sürekli
+soru çözmekte fayda var ve her soru
+çözdüğünde k kendini birazcık daha
+geliştireceksiniz ya hocam buradan Altı
+üstü bir tane soru geliyor bu kadar
+çalışmaya gerek var mı kesinlikle var
+Çünkü burası AYT kimya için de lazım
+olacak ha nedir kütleyle mole geçiş işte
+taneden mole geçiş hacimden mole geçiş
+gibi daha kolay kısımlar olacak diğer
+taraflarda Ama ne olur ne olmaz Her
+detayını Ben öğreteyim Sen de öğrenmeye
+çalış ama bol miktarda soru çözmen
+gerektiğini de sakın unutma hadi vakit
+kaybetmeyelim hazırsan başlayalım mol
+kavramına neyle başlayalım Önce Tabii ki
+tanımı ile başlayalım şöyle bir şey
+söyleyeyim sana dostum mesela Bir düzine
+dedim mi aklına ne geliyor 12 geliyor
+değil mi peki bir deste dedim mi ne
+oluyor 10 tane aklına geliyor hocam
+benim aklıma gelmiyor sakın deme bak
+bunları ilkokulda öğretiyorlar Ha işte
+avogadro sayısı diye bir sayı var Bu da
+6,02 x 10 üzeri 23 tane demektir
+avogadro sayısı kadar taneciğe biz 1 mol
+diyoruz yani avogadro sayısı kadar atom
+1 mol avogadro sayısı kadar molekül 1
+mol avogadro sayısı kadar iyon yine 1
+moldür yani bu kadar tane 6 02 x 10
+üzeri 23 tane tanecik bir araya gelirse
+bunu 1 mol diye ifade ediyoruz Aynı 12
+tanenin Bir düzine etmesi gibi dostum
+burada da bunu söylüyor işte avogadro
+sayısı kadar tanecik 1 mol olarak ifade
+ediliyor diyebilirsin ya hocam bu sayıya
+nasıl ulaşmış şöyle bir çalışma yapıyor
+eşit hacimler eşit sayılar diye bir
+kuralı vardır avogadro'nun oradan
+geliştirilen bir şeydir ve ne yapıyorlar
+mesela 16 gram oksijeni alıyor Sonra bir
+tane oksijenin kütlesine böldüğünde bu
+avogadro sayısı karşısına çıkıyor Daha
+sonra işte hidrojenle yapıyor aynısını
+azotla yapıyor farklı elementlerle
+yaptığında Hep aşağı yukarı o 6,02 x 10
+üzeri 23 sayısını elde ediyor ve oradan
+diyor ki işte biz buna bir mol diyelim
+diyor bu kadar tane bir araya geldim mi
+İşte ne oluyor eşit hacim eşit sayılar
+yasasına uyuyor diyor buradan
+geliştiriyorlar ve işte mol kavramı bu
+şekilde ortaya çıkıyor Dostum şimdi bak
+dedik ya 6,02 x 10 üzeri 23 taneye
+avogadro sayısı diyoruz bazı kaynaklar
+bunu n ile bazıları na ile bazıları da
+n0 la göstermekte üçü de doğrudur üç
+şekilde gösterim Doğrudur bazen n e
+azotla karıştırılıyor o yüzden onun
+yerine na ya da n0 ifadesi daha çok
+kullanılmakta onu da söylemiş olalım
+Mesela bak 1 mol neon atomu dediğimde
+Aklıma ne gelecek 6,02 x 10 üzeri 23
+tane ya da diğer ismiyle na tane ne
+gelecektir neon atomu gelecektir e 1 mol
+H2 molekülü dediğimde 6,02 x 10 üzeri 23
+tane H2 molekülü akla gelecek Yani H2 H2
+H2 K işte Şu an bunları Yazmaya kalksam
+bu kadar yazamam Tabii ki de ne olacak
+işte bu kadar tane H2 dediğimizde 1 mol
+olacak e 1 mol BR - iyonu dediğimizde
+avogadro sayısı kadar yani 6,02 x 10
+üzeri 23 tane ne demektir BR - iyonu
+demektir Peki 05 mol deseydim ne
+olacaktı e 1 mol 6,02 x 10 üzeri 23 tane
+isse 05 mol yarısı değil mi bunun He o
+zaman 3,01 x 10 üzeri 23 tane olacak ya
+da 05n tane e 1 mol n tane ise 05 mol
+olacaktır 05n tane o da n B2 tane
+şeklinde gösterilebilir mi Evet
+gösterilebilir veya dedik ki 2 mol
+magnezyum atomu e 1 mol 6,02 x 10 üzeri
+23 ise 2 mol bunun 2 katıdır yani 12,0 x
+10 üzeri 23 tane ya da diğer ismiyle 2n
+tane magnezyum atomu anlamına gelecek e
+burada ne demiş 0,05 mol cetvel acaba
+Dünyada bu kadar cetvel var mı O da ayrı
+bir şey Tabii ki birazdan bu sayının ne
+kadar büyük bir sayı olduğunu da şöyle
+gözünde canlandırmaya çalışacağım Bu ne
+demek biliyor musun 0,05 1/20 demektir 1
+mol n tane ise 0,05 1/20 olduğuna göre n
+b20 tane diyebilirsin ya da avogadro
+sayısının 0,05 ile çarpımı ya da 20'ye
+bölümü şeklinde de ne yapabiliriz
+söyleyebiliriz şöyle yaparsak Eğer
+burada Mesela ne çıkacaktır
+0,31 x 10 üzeri 23 çıkar o da 3,01 x 10
+üzeri 22 tane anlamına gelmektedir Heh
+geldik şimdi şuraya ya hocam sen bunları
+söylüyorsun da ben bazen bu işlemleri
+yaparken çok zorlanıyorum 0,05 Neden
+1/20 dedin Sen çünkü bu şu demektir bak
+% 5 demektir % 5 e ne demektir O da işte
+5/100 1/20 edecek Bak bu sayı
+dönüşümlerini iyi bilmen lazım ya da
+işte 0,5 1/2 di ya E 0,05 bir tane daha
+kaydıracak sın ne olacaktır 1/20
+olacaktır Mesela e işte bu dönüşümler
+lazım sana ne kesirli sayılar lazım üslü
+sayılar lazım ondalık sayılar lazım oran
+orantı lazım bunları çok iyi öğrenmen
+gerekiyor ki bu konuda rahat edesin
+dostum Heh bu avogadro sayısının ne
+kadar büyük bir sayı olduğundan
+bahsedecek tik değil mi Bak bu sayı
+nedir biliyor musun 6,02 x 10 üzeri 23
+bu sıfırları koyalım o 2 virgülü de
+götürsem Aslında şöyle oluyor 602 x 10
+üzeri 21 oluyor bak Şuradaki sayı bu
+kadar ıır var Şöyle kocaman bir sayı
+Gördüğün gibi He bak çok büyük bir sayı
+acaba bu kadar tane yani şu aşağıda
+gördüğün sayı kadar tane atom ne
+oluyordu 1 mol oluyordu Peki bu kadar
+tane fasülyenin Bak bu kadar tane
+fasulyenin Bir düşün bakalım kafadan bir
+düşün bakalım ne kadar sürede
+sayabilirsin veya sayabilir misin hocam
+Ben bunu İşte 10 yılda sayarım
+sayamazsın mümkün değil Ben evce bütün
+ev otururuz saniyede de iki tane sayarız
+otururuz Biz bunu bitiririz ya Bir
+seneye bitiririz bitiremezsin ya Bizim
+mahalle komple oturup saniyede iki tane
+saysak Biz bunu bitiririz yine
+bitiremezsin sana şöyle bir hesap
+yapayım kendin de yazıp bakabilirsin
+buna Tüm Dünya nüfusu Hepsi bir araya
+gelse saniyede iki tane fasulye
+sayabilir bu kadar fasulyeyi saymak için
+şöyle söyleyeyim bir insan ömrü de aşağı
+yukarı 70 yıl desek uyduruyorum Şu anda
+hepsi öldüğünde çoğu sayılmamış olarak
+kenarda kalıyor hesap ettim 10 üzeri 19'
+larda falan kalıyor çok büyük bir
+sayıdan bahsediyorum şimdi atomun ne
+kadar küçük bir şey olduğuna geleceğim
+burada bu kadar tane karbon atomu bir
+araya geliyor 12 gram avucuna sığıyor
+bak atom da bu kadar küçük bir şey işte
+tamam mı dostum veya bu kadar tane
+fasulyenin olsaydı Türkiye'nin üzerine
+serseydin ne kadar bir yer kaplardı
+şöyle söyleyeyim Türkiye'nin tamamını
+kaplardı ve 30 km kalın lığında bir
+tabaka oluştururdu Bak bu sayı çok büyük
+bir sayı atom da çok küçük bir şey işte
+bu kadar tane atom bir araya geliyor
+mesela karbon dedim 12 gram avcuma
+sığıyor veya işte ne bileyim Gümüş dedim
+108 gram Şu kadar bir şey işte ne
+bileyim yani atomda çok küçük bir şeydir
+buradan Bu da ortaya çıkmış oluyor ha
+Dünya kuruldu kurula bu kadar tane
+fasulye de üretilmemiş olabilir o da
+ayrı bir şey Evet şimdi gel bakalım
+burada örnekler üzerinde görelim önce
+mol tanecik sayısı ilişkisi ne demiştik
+mol eşittir verilen tanecik sayısı şöyle
+formül çıkaracağım ortaya tanecik sayısı
+bölü avogadro sayısıdır Hocam bu formülü
+yazmamıştım Şimdi ben bunu yazayım mı
+ezberleyeyim Mi Gerek yok bu şu demek
+aslında 1 mol 6,02 x 10 üzeri 23 ise
+verilen tanecik sayısı kaç moldür oran
+orantı Aslında İlla formüle gerek yok
+Bak ne diyor 1,24 x 10 üzeri 23 tane C3
+h8 molekülü kaç moldür diyor şöyle bak 1
+mol 6,02 x 10 üzeri 23 olduğuna göre
+1,24
+10 üzeri 23 kaç tanedir bak oran orantı
+kurdum İçler dışlar çarpımı yaptım
+buradan karşıma soru işareti eşittir ne
+çıkacak
+1,24 x 10 üzeri 23 verilen tanecik
+sayısı bö 6,02 x 10 üzeri 23 avogadro
+sayısı çıktı şu aklına gelebilir hocam
+benim matematiğim kötü Bunu niye şöyle
+yazmadın 1 mol 6,02 x 10 üzeri 23 ise
+1,24 x 10 üzeri 23 nedir Bak aynı
+birimler alt alta yazılır Sen böyle
+çapraz yazamazsın bak matematik
+kuralıdır Buradan da hatırlatmış olayım
+Heh şimdi Şurayı hesaplayacağız Ya şu 10
+üzeri 2'ler birbirini götürdü yani
+sıfırların birbirini götürmesi gibi
+düşün gerye ne kaldı 1,24 x 10 üzeri on
+RAL gitmişti 1,24 aşağıda da 6,02 bak
+Yukarısı şöyle olsaydı
+12,0 x 01 demektir Aslında Yukarısı bu
+demektir aşağısı da 602 Ya pardon 6,02
+ne yaptım bak şununla şu
+sadeleştirici 01 ile 2'yi çarptık Demek
+ki 0,2
+molmed B seçeneğinde şöyle de
+yapabilirdiniz aşağıyı da şöyle yapalım
+602 x 10 üzeri -2 yazabilirim şununla şu
+birbirini götürür Burada 2 kalır şununla
+şu birbirini götürür burada 10 üzeri -1
+kalır 2 x 10 üzeri -1 de ne demektir 0,2
+Demektir bak Buradan da bulabilirsin
+üslü sayıları kullanarak da çözülebilir
+buraya bakalım Diyor ki ki 0,25 mol ne
+demir katısı kaç tane Demir atomu içerir
+diyor aynı mantık 1 mol 6,02 x 10 üzeri
+23 tane içeriyorsa 0,25 mol Hocam bunu
+niye bunun altına yazdın bak aynı
+birimler alt alta yazılır ne kadar
+tanedir bunu buluyorum işte ya da mol
+eşittir verilen tanecik sayısı şöyle
+verilen tanecik sayısı bölü avogadro
+sayısı bu formülü de kullanabilirsin
+Burası 0,25 eş verilen tanecik sayısı bö
+6,02 x 10 üzeri 23 bak böyle de
+yapabilirsin çaprazlayarak He şimdi
+burada soru işareti eşittir 0,25 x 6,02
+x 10 üzeri 23 Hocam ben bunu Bununla
+nasıl çarpım şu an aklına bu geliyor
+değil mi bir şey söyleyeceğim 025 ne
+demektir 1/4 Demektir bak 1/4 025 bir
+bütünün 1i çeyrek ya 1/4 x Aslında 6,02
+x 10 üzeri 23 demektir burada ne
+yapıyorsun Biliyor musun 6,02 yi 4'e
+bölmüş oluyorsun Bu da 1 virgül şöyle
+yazamadım ha 505 x 10 üzeri kaç kaldı 23
+kalır mı 10 üzeri 23 kaldı Evet burada
+bitti şu da aklına gelebilir hocam 4E
+böldüm 10 üzeri 23'ü de 4E böler miyim
+Hayır sadece sayısal kısım 4E bölünüyor
+diğer kısım Aynen kalıyor 1,5 x 10 üzeri
+23 cevap da ne oldu e seçeneği oldu Bak
+burada güzel bir soru var diyor ki bir
+çekirdek paketinde 600 tane çekirdek
+bulunmaktadır ne güzel Buna göre 1 mol
+çekirdek olması için kaç paket almak
+gerekir diye soruyor şimdi dostum 1 mol
+ne demekti 6 x 10 üzeri 23 burada böyle
+verdiği için bunu kullanabilirim şimdi
+bu kadar Tanesi 1 moldu e bir pakette
+kaç tane vardı bir pakette 600 tane
+vardı O zaman şöyle yapabilirim bak bir
+paket 600 tane içeriyorsa 6 x 10 üzeri
+23 tane içermesi için kaç pakete
+ihtiyacım vardır buradan x = ne
+çıkacaktır e 6 x 10 üzeri 23 / 600'ü de
+şöyle yazayım 6 x 10 üzeri 2 diye
+yazayım şu 6'lar birbirini götürsün
+Şununla da şu götürsün 10 üzeri 21
+pakete ihtiyacım varmış cevap da ne oldu
+B seçeneği oldu bu da güzel bir soru
+bunu da şöyle örneklendir sana gine
+şöyle bir yaklaşalım beraber bakalım
+şimdi Dostum bak dedi ki sana bir karton
+bir büyük karton yumurta dediğinde kaç
+yumurta vardır içerisinde bunları
+öğrenin ha lazım olacak Size 30 tane
+yumurta vardır bak bir kartonda bir
+büyük kartonda 30 tane yumurta vardır
+Sana dediler ki git 10 karton yumurta al
+gel Böylelikle kaç yumurtan oldu 300
+tane değil mi Çünkü bir kartonda 30
+varsa 10 karton alıyorum 300 tane bak
+Aynı bu mantıklı veya işte şöyle dedi
+bir paket e şeyde kötü içecekte var ya
+uzun böyle elde tutulan ismini bile
+söylemek istemiyorum şimdi bir pakette
+kaç tane var 20 mi Nereden biliyorsun
+sayısını bak bildiğini kimseye söyleme
+sonra sıkıntı olur bak onu ben şimdiden
+uyarayım sana bak tamam bir pakette 20
+tane o dallardan var işte o mereden var
+diyelim e dediler ki bir karton aldın
+bir kartonda da 10 tane şey var o
+paketten var Ne oldu o zaman bir pakette
+20 vardı bir kartonda 10 paket vardı Aa
+200 tane dal oldu mesela bak Buradan
+yorumluyoruz değil mi İşte aynı mantık
+molde de böyle bir ifade vardır şöyle
+örneğimiz bak diyor ki 1 mol c3h 6'da
+toplam kaç mol atom vardır diyor bak
+içerisindeki atomları görüyor musun
+hemen renk değiştirelim 3 karbon var ya
+3 x 1 mol ne yaptık Hani 10 karton
+dediğimizde 30 yumurta vardı ya 30 x 10
+dedim ya işte aynı mantık 1 mol x 3'ten
+burada 3 mol karbon atomu vardır hemen
+şuraya geldim e 6 x 1'den şöyle 6 mol de
+hidrojen atomu vardır toplamda 9 mol
+atom vardır diyoruz Var mı öyle bir
+ifade var çok güzel Eğer bak mol
+demeseydi deseydi ki 1 mol c3h 6'da kaç
+tane atom vardır deseydi şöyle olsaydı
+sen bunun 9 mol atom olduğunu bulmuş
+muydun Evet şimdi bulduk değil mi 9 mol
+atom dedik Şuradaki gibi e kaç tane
+diyorsa 1 mol n tane demek değil miydi
+ya da 6,02 x 10 üzeri 23 tane demek
+değil miydi Bunu o zaman 9n tane
+ifadesini de kullanabilirsin ya da 9 x
+6,02 10 üzeri 23 tane ifadesini de
+kullanabilirsin dostum eğer tane
+Sorsaydı Bak bu da güzel bir soru diyor
+ki 0,2 mol H3 po4 bileşiğinde toplam kaç
+mol atom vardır atom sayısını soruyor
+mol olarak Bak şimdi burada hidrojen 3
+tane var 3 x 02 oradaki molü ile
+çarpıyorsun onu ya aslında bu şuna
+benziyor biliyor musun 02 parantezinde
+3x + y + 4z bunu nasıl açar 0,6 x + 0,2
+y + ne olur 0,8 Z tamamen aynı mantık
+dostum yani içeriye dağıtma olayı var
+burada hemen pde bir tane var 1 x 02
+şunları yazalım 0,6 mol hidrojen çıktı
+0,2 mol ne çıktı P çıktı şuraya
+bakıyorum 4 x 0,2 0,8 mol de o çıktı
+Bana toplam atom sayısını soruyor 1,6
+mol atom olacaktır ya hocam niye
+kulağını böyle gösteriyorsun bunun
+içindeki atom sayısı 3 1 daha 4 4 daha 8
+e 8 atom var 0,2 x 8 Böylelikle 1,6 mol
+ediyor Doğru söylüyorsun Çok doğru
+söylüyorsun ama bir de böyle detayl Amak
+istedim Hani içindekileri tam gör diye
+Neyse ben buldum 1,6 mol atom olmalı
+cevap da C seçeneği Bak bu sefer de
+diyor ki 1,8 mol atom içeren H2 co3 kaç
+moldür bak sorunun ne demek istediğini
+anlarsan kafan çok rahat eder Neyi
+vermiş Bu sefer atom sayısını vermiş
+yani ben bileşiğin mol Sayısını
+bilmiyorum x mol var H2 co3 bunun
+içindeki toplam atom sayısı 1,8 molmed
+yapacağım şekli göstereyim Önce şöyle
+hidrojen 2 karbon 1 etti 3 3 de burada 6
+atom var değil mi Ben 6 ile kaçı
+çarparsam 1,8 mol atom eder 0 3'ü Aha 03
+moldür deyip yapıştırıp geçebilirim ama
+sana detaylı anlatıyorum Bak bileşiği x
+mol desem burada 2 hidrojen olduğu için
+2x mol ne olacaktır hidrojen e burada ne
+var karbon 1 x mol olduğu için 1x mol
+karbon var ne bu oksijen 3 x mol olduğu
+için 3x mol oksijen var Toplamda 6x mol
+atom bulunmakta bana ne söylüyor soru
+1,8 mol atom bulunmaktayım E bu da 6x mo
+eşit değil mi Şöyle götürelim E buradan
+6x = 1,8 her iki tarafı 6'ya bölersek
+0,3 mol bileşik olduğunu buluruz bak ne
+dedi mol olarak soruyor değil mi Kaç
+moldür kaç moldür 03 mol kaç tanedir
+deseydi 0,3 n tane derdim ama molü
+sorduğu için cevabım Ne oldu C seçeneği
+oldu Bak burada ne diyor 0,4 mol al4 C3
+bileşiğinde ha bileşiğin molünü vermiş
+0,4 mol al4 C3 bileşiğinde kaç mol
+karbon atomu bulunur diyor Kaç tane
+dememiş kaç mol demiş çok güzel karbon
+burada 3 çarpı mol sayısı kaç 0,4 1,2
+mol karbon atomu vardır ya hazır elim
+değmişken alüminyumu da bulayım 4 x 0
+4'ten 1,6 mol alüminyum bulunmaktadır
+toplam atom sayısını Sorsaydı Bu ikisini
+toplardım ne ederdi 2,8 mol atom ederdi
+de bana bunu soruyor zaten 1,2 mol
+karbon atomu vardır kaç tane deseydi
+cevaba e diyecektim 1,2 n tane ama mol
+dediği için 1,2 mol karbon atomu O da a
+seçeneğinde dostum Heh bu sefer bak tane
+demiş diyor ki
+9,0 x 10 üzer 22 tane oksijen atomu
+içeren co3 molekülü kaç tanedir Şimdi
+ben bileşiğin x tane olduğunu söylesem
+bilmiyorum şu anda co3 bileşiğinde
+toplam oksijen miktarı 3x değil midir
+Çünkü bileşik x tane ise 3x tane oksijen
+olacaktır işte bunun 9,0 x 10 üzeri
+22'ye eşit olduğunu söylüyor o zaman her
+iki tarafı 3'e böleyim şu Sayısal
+kısımlar bölündü Burası Ne kalacaktır
+böldüğümüzde 3,01 kalacaktır He Demek ki
+3,01 x 10 üzeri 22 tane değeri ortaya
+çıkacaktır var mı bakıyoruz Evet var
+cevap D seçeneğidir istersem bir iki
+tane de ben yazayım mesela desem ki
+desem ki desem ki ne uydursam Eee dur la
+uyduramadım Ha 6,02 x 10 üzeri 23 tane
+atom içeren toplamda bu kadar atom
+içeren ch4 molekülü kaç moldür dedim
+mesela böyle bir soru sordum şimdi 6,02
+x 10 üzeri 23 tane atom içermiş Yani
+bunun içindeki toplam atom sayısı neymiş
+6,02 x 10 üzeri 23 tane sakın bak şöyle
+bir hata yapma 6,02 x 10 üzeri 23 tane
+ch4 diyor Hayır toplam atom sayısına
+bunu söylüyor yani şöyle ben bu
+bileşiğin x mol olduğunu söylersem Eğer
+ch4 burada karbon bir tane var x mol
+karbon vardır hidrojen 4 tane var 4x mol
+hidrojen vardır toplam 5x mol atom
+bulunmaktadır e 1 mol 6,02 x 10 üzeri 23
+taneydi 5x mol nedir 5x Ç 6,02 x 10
+üzeri 23 tane atom bulunmaktayım E bu
+neye eşitmiş işte 5x x 6,02 x ne biçim
+yazdım lan he 6,02 x 10 üzeri 23 eştir
+Bak bu kadar tane atomm Muş 6,02 x 10
+üzeri 23'e eşitmiş Oh süper E ben burada
+ne güzel sadeleştirme yapalım gitti E ne
+oldu 5x = 1 çıktı x = 1/5 05 mi Sakın ha
+1/5 0,2 moldür Bunun cevabı bu olacaktır
+Mesela bir tane daha yapayım istersen
+ona da mesela nasıl uyduralım dedim ki
+0,3 mol ne olsun a Değişik olsun Bir
+dakika dur bir dakika 0,3 mol hidrojen
+atomu içeren nh3 bileşiği kaç tanedir
+dedi hocam tam küfürlü adamsın sakın
+etmeyin lütfen Ben Siz öğrenin diye
+böyle değişik değişik örnekler yazıyorum
+Bak şimdi 0,3 mol hidrojen atomu
+içeriyor muu dikkat et bak buras çok
+önemli yani nh3ün içerisindeki hidrojeni
+biliyorum ben nh3ün mol Sayısını
+bilmiyorum yani burada 0,3 mol nh3
+demiyor ne diyor bileşik x
+molmed hidrojen 3x değil mi Bu da 0 3'e
+eşitmiş bunu söylüyor Aslında tamam mı
+hidrojeni Biliyorum ben ya da şöyle
+düşünebilirsin bak nh3 yazdım şöyle
+burada 0,3 mol hidrojen varsa 3'ü ben
+kaçla çarparsam 03 eder 0,1 mol değil mi
+he Buradan da 3x = 0,1 den bileşiğin 0 1
+mol olduğunu buldum yani benim elimde
+0,1 mol nh3 bulunmakta E bana bunun kaç
+tane olduğunu söylüyor e 1 mol ne
+kadardı şöyle yazalım 1 mol 6,02 x 10
+üzeri 23 taneydi e 01 mol dediğine göre
+bir virgül at ya ya da bir 0 sil ne
+olacaktır 6,02 x 10 üzeri 22 tane nh3
+bulunacaktır Ya da şöyle de diyebiliriz
+1 mol neydi na taneydi 01 mol nedir 01
+na tane de diyebilirsin bazen kıllık
+olsun diye soruda şöyle yapar na B10
+tane de diyebilir 01 yerine 1/10 da
+yazabiliyoruz Çünkü çok çok değerli
+dostum sana bir kaç tane şey vereceğim
+ki en çok karşına çıkacak şeylerdir 6,02
+x 10 üzeri 23 tane derse 1 mol Eyvallah
+3,01 x 10 üzeri 23 tane Derse bak yarısı
+değil mi 0,5 mol şunları yanınıza
+yazayım na tane Buraya mesela 05 na ya
+da na / 2 böyle de yazabiliriz mesela
+mesela çok kullanılan bir şeydir
+12,0 x 10 üzeri 23 tane dedi Mesela bu
+ne olacaktır birincinin 2 katı değil mi
+yani 2 moldür ya da 2na tane
+diyebilirsin Peki
+1,24 x 10 üzeri 23 derse ne anladık bak
+1i değil mi 0,2 mol ya da 02 na tane ya
+da na / 5 tane ifadesi karşına çıkar
+dostum başka yine çok çıkanları böyle
+yazayım ki kafamız rahat olsun 6,02 x 10
+üzeri 22 tane dedi bak 6,02 x 10 üzeri
+23'e 1 mol dedim 10 üzeri 22 bir 0
+kaydırmış 0,1 mol ya da ne diyeceğiz 0,1
+na tane ya da na B10 tane ifadesini ne
+yapabilirim kullanabilirim hadi bir tane
+daha yazıyorum O da iyice kılla ştı bak
+iyice 1,50 5 x 10 üzeri 22 tane dedim
+Hocam ben sen yok Lütfen sövmek Yok önce
+orayı 23 gibi düşün Bak burası 1,5 x 10
+üzeri 23 gibi düşün
+yukarıda 6,02 x 10 üzeri 23'ün 1i
+olacaktır bu yani 0,25 gibi düşünüyorsun
+Ama 10 üzeri 22 dediği için bir tane
+daha kaydırdık 0,025 moldür
+0,025 mol ya da
+0,025 na tane ya da iyice küfürlü na /
+40 tane diyebiliriz 40'ı da severim
+biliyorsun Şimdi bir de hacimle ilgili
+durum vardı hacim de şuydu dostum bilmen
+gereken çok önemli ifade Bu da nedir
+gazlar 0 s derece bir atmosferde ki biz
+buna Normal şartlar altında diyoruz
+Normal şartlar altında 1 mol gaz 22,4 L
+hacim kaplamaktadır Bak o zaman tekrar
+söylüyorum 0 derece olacak 1 atmosfer
+basınç olacak gaz olacak 1 mol olacak bu
+durumda 22,4 L oluyor ama bu şartlardan
+herhangi biri değiştiği anda 22,4
+bahsedemezsin dedi ki 0 sant derecede 1
+mol gaz 22,4 L Ne bileyim ben basıncı
+Bilmiyorum ki basıncı da bilmem lazım
+veya dedi ki bir atmosfer basınç altında
+1 mol gaz 22 litredir sıcaklığı
+Bilmiyorum yine yorumlayan veya dedi ki
+0 C D 1 atmosferde 1 mol H2O 22,4
+litredir Yanlış ya hocam işte tamam 0
+sant derece dedin 1 atmosfer dedin 1 mol
+dedin Niye 22,4 lre değil ya H2O su
+değil mi su 0 derecede gaz mı değil bak
+gaz olmak zorunda tekrar söylüyorum
+şartları 0 derece 1 atmosfer gaz 1 mol
+gaz ne olacak o zaman 22,4 L tamam mı
+dostum bir de oda sıcaklığı var 25 s d 1
+atmosfer durumu bu durumda da 1 mol gaz
+24,5 lre hacim kaplamaktadır işte burada
+da bunları söylemiş işte Hadi örneğe
+bakalım Diyor ki 2,5 mol karbonmonoksit
+gazı normal koşullarda kaç litre hacim
+kaplar diyor Bakalım şimdi 1 mol ne
+kadar hacim kaplıyordu
+22,4 L hacim kaplıyordu normal
+koşullarda demiş normal koşullar dediği
+anda 0 derece 1 atmosfer E şimdi ne
+diyor 2,5 mol karbon monoksit diyor
+Allah'tan şey dememiş Hani 2,5 mol atom
+içeren falan dememiş direkt 2,5 mol
+demiş E buradan ne olacak dostum hemen
+hesap edersek 2,5 la 22,4 ü Çarpacağım
+2'yi çarp Saydım 44,8 2,5 Aha 56 L 56 L
+cevap da C seçeneği Kusura bakmayın
+biraz matematiği hızlı yapıyorum bazen
+bazen de matematiksel Hatalar yapıyorum
+şimdiden özürlerimi diliyorum şuna
+bakalım Diyor ki normal koşullarda 8,96
+lre hacim kaplayan ch4ün içerdiği toplam
+atom sayısı hangisinde doğru vermiştir
+Bak iki kademeli bir soru var önce molü
+bulacağız sonra Doğan atom sayısına
+geçeceğiz Bak şöyle bir formül
+kullanabilirsin dostum Bak n = v / 22,4
+l Normal şartlar için söylüyorum verilen
+hacim 8,96 l b 22,4 l hocam formülsüz
+yapabilir misin Tabii ki yaparsın 1 mol
+22,4 L ise 8,96 L kaç moldür İçler
+dışlar çarpımı zaten aynı sonucu verecek
+bak 89,6 mol olsaydı 4 mol ol şey 89,6 L
+olsaydı 4 mol olurdu Demek ki bu 0,4
+molmol ne var elimde 0,4 mol ch4 var
+Bana buradaki toplam atom sayısını
+soruyor E şimdi karbon bir tane var
+hidrojen de 4 tane var toplam 5 atom yok
+mu 5 x 0,4 Burada 2 mol atom
+bulunmaktadır ama detaylı göstereyim
+karbon 0,4 mol hidrojen 4 x 0 4'ten 1,6
+mol Al sana 2 molü ne yaptı verdi cevap
+da D seçeneğidir Burada ne diyor bak oda
+koşullarında diyor He oda koşullarında 1
+mol gaz 24,5 lydi o detayı kaçırmadan
+devam edelim 1,2 n tane atom içeren
+diyor toplam atom sayısını vermiş bana
+1,2 n tane demek 1,2 mol demektir Hani n
+tane mol demek ya 1,2 n tane dediği için
+1,2 mol atom içeriyor burada bak nh3 Kaç
+atomlu nh3 dedim nh4 yazdım L He toplam
+4 atomlu değil mi N1 H3 toplam 4 atom
+var 4 ile Ben kaçı çarparsam 1,2 mol
+eder 0,3 mol Demek ki bileşik 0,3 molmed
+yap tamam bileşiğe x mol desem x mol nh3
+deki atom sayısı 4x değil midir 4x 1,2
+eşitmiş x buradan 0,3 mol çıktı 4 yaz
+yazdım ha bulduk tamam artık mol
+sayısını biliyorum 0,3 mol ne var benim
+elimde nh3 var şimdi Normal şartlar
+altında olsaydı 1 mol gaz 22,4 L hacim
+kaplayacak oda sıcaklığında 1 mol gaz
+24,5 L hacim kaplıyorsa 03 mol gaz ne
+kadar hacim kaplar diye bakıyoruz la
+bunun işlemi nasıl çıkacak hemen yapalım
+24,5 la ben 3'ü çarpım sonra bir tane
+virgül kaydırırım 03' de Çarpacağım ya
+şöyle bakalım 5 Elde var 1 tamam 12 13
+Elde var 1 1 e burası 7 2 tane
+kaydıracağı 7 35 oldu Cevap da e
+seçeneği dostum Bak en çok karşımıza
+çıkacak Normal şartlar altında karşımıza
+çıkacak değerler var ki orada gazla
+ilgili olarak bu detaylar hep çıkar onu
+söyleyeyim mesela 22,4 L diyorsa 1 mol
+11,2 L diyorsa yarısı bak 0,5 mol E
+bunun yarısı nedir 5,6 l e 0 5'in de
+yarısı demektir 0,25 mol Bunlar çok
+çıkar karşına da o yüzden yazıyorum
+mesela bak Eee burada 22,4 ile 11,2 yi
+toplasan 33,6 L ifadesini görürsem 1,5
+mol ediyor Şunların toplamı gibi düşün
+veya veya veya başka ne olabilir şöyle
+düşünüyorum 44,8 L derse 22,4 2 katı
+olduğu için 2 mol şu ikisini toplasam ne
+çıkar 16,8 çıkar değil mi bakayım doğru
+değil mi Evet 16,8 L derse E bu da
+bunların toplamı
+0,75 mol ifadesi karşımıza çıkmış oluyor
+bunlar çok çıkan ifadelerdir O yüzden
+belirtmek istedim hadi şimdi soru çözme
+zamanı bakalım ne diyor 18,6 x 10 üzeri
+22 tane O2 molekülü kaç moldür diye
+soruyor şimdi 1 mol 6,02 x 10 üzeri 23
+taneydi çok güzel Peki benim elimde ne
+var
+18,6 x 10 üzeri 22 tane var Bu kaç
+moldür diye soruyor E buradan x eş
+Aslında verilen tanecik sayısı şu bölü
+avogadro sayısı 6,02 x 10 üzeri 23 değil
+mi Ha Yukarısı 22'yi la Ha karıştırdım
+şimdi Evet işlemlerimizi yapalım şununla
+şu sadeleş burada 3 kalacak 18 06 6 0
+2'nin 3 katıydı e şununla şu gitti
+aşağıda 10 kaldı karşımıza 3/10 değeri
+çıktı ki bu da 0,3 moldür cevap da B
+seçeneğidir geldik 2ci sorumuza diyor ki
+avogadro sayısı kadar atom içeren diyor
+içindeki toplam atom sayısı neymiş
+avogadro sayısı kadar avogadro sayısı
+dediğimiz neydi 1 mol demek değil miydi
+Heh içerisinde toplam 1 mol atom varmış
+Ben bu bileşiğe x mol desem h2co
+4 buradan gelecek 2x buradan gelecek x
+buradan gelecek 4x toplamda 7x mol atom
+yok mu 7x mol atom 1 mol atoma eşitmiş
+bunu söylüyor bana e 7x = 1 ise buradan
+bileşiğin mol sayısı 1/7 mol çıkacaktır
+cevabımız da ne oldu e seçeneği oldu 3'e
+Bak 3 var ya çok kral bir soru ha Bak
+çok güzel bir soru kimya bilimi
+ünitesini de birleştiren bir soru 0,3
+mol kireç taşı bileşiğinin içerdiği
+toplam atom sayısı kaç moldür hocam O ne
+ya kireç taşı ne hatırla işte kimya
+bilimi ünitesinin Önemi ortaya çıkıyor
+kireç taşı kalsiyum karbonatı Eğer
+Sönmemiş kireç deseydi kalsiyum oksit
+coo olacaktı sönmüş kireç deseydi coh2
+olacaktı mesela yani Bak güzel bir soru
+0,3 mol Ne varmış caco3 varmış 0,3 mol
+C3 varmış buradaki atom sayısı ile
+ilgili soru soruyor kalsiyum bir tane
+yaz 0,3 x 1'den 03 mol bu geldi e karbon
+bir tane 0,3 x 1'den 0,3 bu Tamam e
+oksijen 3 tane 0,3 x 3'ten Ne oldu 0,9
+oldu e toplarsak da karşımıza ne
+çıkacaktır 1,5 mol atom çıkacaktır ya da
+1,5 n tane tane olarak Sorsaydı 1,5 n
+tane ama mol sorduğu için 1,5 mol cevap
+da D seçeneği 4 sorumuza geldik diyor ki
+eşit sayıda oksijen atomu içeren
+karbonmonoksit ve karbondioksit gazları
+için bak şimdi karbon monoksit ve
+karbondioksit eşit sayıda oksijen atomu
+içeriyor mesela desem ki şimdi Şuradaki
+Ben dedim ki 1 mol oksijen atomu şimdi o
+zaman bunun da 1 mol oksijen atomu
+içermesi demek E ne demektir bunun x mol
+olduğunu söylesem bunun da y mol Hatta
+şöyle ya İlk baştakine x denir değil mi
+Şöyle yapayım şuna x mol diyeyim Şuna da
+y mol diyeyim mesela şimdi oksijen
+sayıları eşit şimdi Normalde oksijen bir
+tane var yani x mol oksijen 1 mo eşit X1
+e burada y mol oksijen 1 mole eşit ama
+dikkat et Pardon y mol oksijen değil 2
+ile çarptım 2 y mol oksijen 1'e eşit o
+zaman y'nin mol sayısı 0,5 mol olmalı ya
+da diğer ifadeyle Bak burada oksijen bir
+tane var burada oksijen iki tane var 1er
+mol oksijen olduğunu düşünsem 1 ile 1'i
+çarparsam 1 mol olduğunu anlarım bunun
+ama 2 ile kaçı çarparsam 1 eder 0,5 mol
+mesela buradan da yorumlayabilirsiniz
+hocam onu nasıl anlarız hemen göstereyim
+sana dostum 1 mol olduğunu söyledik ya 1
+mol Co gazı karbon 1 oksijen 1 Burada 2
+mol atom bulunm e 0,5 mol ne kadar kötü
+yazdım ya hiç şey yapmıyorsunuz ha he
+0,5 mol karbondioksit e 3 atom var
+karbon 1 oksijen 2 3 x 0 5'ten burada
+1,5 mol atom oldu Yani toplam atom
+sayıları farklı mıdır farklıdır diyor ki
+kütlece karbon yüzdeleri E bu da
+farklıdır Hemen onu da şöyle göstereyim
+Bir karbon bir oksijen var burada Bir
+karbon 2 oksijen var ya bu zaten nerede
+sabit oranlar kanunundan olan bir şeydir
+e haliyle buradaki oksijen oranı burada
+hani bireb ya şöyle oksijenin mol
+kütlesi 16 Karbonun 12 e burada
+oksijenin mol kütlesi 16 için olduğu
+için 2 tane var 32'ye 12 e buranın
+toplamı 28 28'de 12 karbon var burada
+44' 12 karbon var haliyle içerdikleri
+karbon yüzdeleri de ne olacaktır farklı
+olacaktır cevabımız 1 2 3 e seçeneği
+oldu 5 sorumuz da diyor ki 0,8 mol C2 H4
+ve 0,4 mol C3 H6 moleküllerinde toplam
+kaç mol hidrojen atomu vardır ikisinde
+ileri toplayarak bulmanı istiyor 0 8 mol
+C2 H4 şöyle bak karbonu da bulalım
+hidrojeni de bulalım hepsini yapmış
+olalım bu ne olacaktır 0,8 x 2'den 1,6
+mol karbon buradan geldi hidrojen ne
+olacaktır 08 x 4'ten 3,2 mol hidrojen
+oldu Aynısını diğerine uyguluyorum 0,4
+mol C3 H6 şuraya bakarsan 0,3 x Pardon
+0,4 x 3'ten 1,2 mol karbon oldu şurası
+ise 0,4 x 6'dan 2,4 mol hidrojen oldu
+bana toplam hidrojeni soruyor 3,2 + 2,4
+karşımıza 5,6 mol hidrojen değeri
+çıkacaktır O da e seçeneği demektir
+dostum 6 sorumuza bakalım Diyor ki 6
+milyar milyon Sen nasıl bir sayısın
+böyle ha 6 milyar samaryum varmış elimde
+bu kadar atom varmış bunun kaç mol
+olduğunu söylüyor bakalım şimdi hemen
+halledelim şimdi 6 milyar ne demektir 6
+milyarı şöyle yazalım Bu ne olmaz bu ne
+yok olmaz Aha 6 milyar bu yani diğer bir
+ifadeyle 6 x 10 üzeri 9 tane ne var
+burada atom var çok güzel peki burada
+şöyle bakacaksın dostum 1 mol 6 x 10
+üzeri 23 alınmış burada belirtiliyor çok
+güzel E o zaman 6 x 10 üzeri 9 kaç
+moldür bu şekilde bakacağım dostum ya da
+şöyle yapabilirsin mol eşittir verilen
+tanecik sayısı 6 x 10 üzeri 9 bölü
+avogadro sayısı bu şunlar gitti Burası
+ne çıkacaktır yukarıya atarsak 1 x 10 üz
+üzeri -14 çıkacaktır O da cevabın C
+seçeneği olması demektir 7'ye bakalım
+çok güzel a bak bu sefer atom yapısı ile
+birleştirerek güzel bir soru yapılmış
+0,1 mol karbonat iyonunda toplam kaç mol
+elektron bulunur diye soruyor önce
+karbonattan kapsamaktadır karbon 6 nötr
+Ken 6 Proton 6 elektron vardır 6
+elektron buradan geldi e oksijen 8 3 x 8
+elektron da buradan geldi -2 Demek
+dışarıdan 2 elektron almış demektir
+bunları toplarsak 6 + 24 + 2'den 32
+elektron bulunmakta 1 molünde 32 mol 0,1
+mol dediği için 01 x şöyle 3,2 yazdım
+32'den karşımıza ne çıkacaktır 3,2 mol
+elektron çıkacaktır cevap da D
+seçeneğidir 8 sorumuza bakalım Diyor ki
+0,1 molünde 1,24 x 10 üzeri 23 tane
+karbon atomu içeren Organik bileşiğin
+formülü hangileri olabilir diye sormuş
+ya şöyle bakalım önce 1,24 x 10 üzeri 23
+tane nedir Kaç moldür onu bulalım Hemen
+hemen hemen Şöyle 1 mol 6,02 x 10 üzeri
+23 olduğuna göre 1,24 x 10 üzer 23 kaç
+tanedir dedik Değil mi Şöyle
+baktığımızda x =
+1,24 x 10 üzeri 23 b 6,02 x 10 üzeri 23
+şunlar gitti
+0,2 mol karbon atomu olduğunu anlamış
+olduk bak 01 molünde 02 mol karbon varsa
+bu bileşiğin 1 molünde 2 k karb
+olacaktır hemen bakalım 2 karbon var mı
+var olur 2 karbon var mı var olur 3 var
+olmaz cevap Ne oldu 1 ve 2 D seçene
+geldik 9 sorumuza diyor ki normal
+koşullarda 0,44 4 lre hacim kaplayan
+karbondioksit bileşiği için hangileri
+doğrudur önce şunu ne yapacağız mole
+çevireceğiz neydi mol eşittir verilen
+hacim
+0,44 4 / 22,4 tü değil mi normal
+koşullarda böyle bir durum vardı
+Yukarıyı şöyle desem 44,8 x 10 üzer -2
+diye yaz yazabilirim bö 22,4 yazsam
+şunlar gitti 2 kaldı
+0,02 mol olduğunu anlamış oldum çok
+güzel 0,02 mol 0,0 yazamadım Heh 0,02
+mol karbondioksitten bahsediyoruz Şimdi
+burada karbon bir tane var o zaman 0,02
+mol karbon e oksijen 2 var
+0,04 mol oksijen toplamda
+0,06 mol atom bulunmaktadır birincisi
+Doğrudur Peki 0,02 mol kaç tane demek
+onu bulalım 0,02 ile avogadro sayısını
+çarparsan 6,02 x 10 üzeri 23'ü çarparsan
+kaç tane olduğunu bulursun 2 ile
+çarpsaydı Eğer
+12,0 x 10 üzeri 23 olurdu ama 0,02 2
+tane kaydırdım Ne oldu 12,0 x 10 üzeri
+21 böyle yazabilir ya da 1,24 x 10 üzeri
+22 de yazabilir di ki öyle yazmış bu da
+doğrudur 0,2 mol karbon atomu içerir onu
+bulmuştum zaten Doğrudur cevap 1 2 3 e
+seçeneği olacak 10 sorumuza bakalım
+Diyor ki aşağıdaki bileşiklerden
+hangisinin n tane molekülü yani 1
+molünde 11 mol atom bulunur n tane
+molekülü 1 mol demektir ya hangisinde 1
+molünde 11 mol atom bulunur bunu soruyor
+E bak 6 14 daha 20 mol olur buna bak 1
+burada 3 burada 4 5 6 7 8 var bunda
+olmadı Şuna bak 2 5 daha 7 8 9 10 11 Aha
+bu tutuyor gibi 5 11 16 17 18 etti buna
+şuna bakalım burası 8 o h 2 2 kere 3 6 8
+14 eti E biz zaten bulduk cevabımız C
+seçeneğidir sonuncusunu bir daha yapayım
+lan matematiksel olarak bir hata
+yapmayayım da H 6 Tamam 8 Evet 14' müş
+Tamam 11 sorumuza geldik diyor ki H2
+gazına ait miktarlardan hangisi
+anlamsızdır bak dostum sana çok önemli
+bir şey söyleyeceğim Eğer molle ilgili
+ifadeyi görürsen virgüllü olabilir
+virgüllü kesirli şu bu mol 0,05 mol
+0,002 mol falan Bunların hepsi olabilir
+ama tane ile ilgili ifadeler virgüllü
+olmaz 05 tane hidrojen atomu lan atomun
+yarısını mı alacaksın Olur mu öyle bir
+şey olmaz tane ile ilgili ifadelerde tam
+sayı olması gerekiyor Bunu sakın unutma
+aklına şu gelebilir hocam 6,02 x 10
+üzeri 23 dediğimizde de virgül var Bak
+bakayım var mı orada virgül 6,02 x 10
+üzeri 23 diyorsun O iki tane sıırı
+Kaydır zaten bu ne oldu tam sayıya
+dönüştü bu kesirli değildir yani tane
+ile ilgili ifadelerde ne olacaktır tam
+sayıdan bahsedeceğiz şimdi bakalım o
+zaman burada diyor ki normal koşullarda
+11,2 L hacim kaplar ifadesi mantıksız
+değil 0,5 mol demektir 1 mol 22,4 tü 05
+mol böyle bir şey yapılabiliyor mu evet
+yapılabiliyor n tane atom içerir diyor
+H2 gazına ait diyor bak H2 gazı n tane
+atom içerir demek 1 mol atom içerir
+demektir şimdi H2 de kaç atom var 2 2
+tane atom içeren bir molekülde toplamda
+1 mol atom olması demek bunun 0,5 mol
+olması demektir 05 ile 2'yi çarparsan 1
+mol atom olur yani n tane atom olur
+ifadesi Bu da hatalı bir şey değil
+Olabilir 0,5 mol dediği da sıkıntı yok
+molekül içerir olabilir bunda da sıkıntı
+yok 02 tane molekül içerir ya H2 en
+küçük bir tane molekül olabilir en küçük
+bu Molekülün 02 tanesi olur mu Saçma
+olur ya bu şuna benziyor ya Eee Bana
+oradan bir göz ver ama 02 tane göz olsun
+Ne yaparsan parçalayıp mı verecek sana
+birden daha küçük olabilir mi yani atom
+sayısında virgüllü sayı olmayacaktır
+burada cevap D gibi 2 molekül tam sayı
+sıkıntı yok molekül Sonuçta o zaman
+cevabımız D seçeneğidir 12'ye bakalım
+normal koşullarda eşit hacim kaplayan X2
+y ve Y2 gazları için eşit hacim kaplayan
+bak aynı şartlarda eşit hacim kapladığı
+anda mol sayıları eşittir yani buna da n
+mol diyorsan Buna da n mol dersin aynı
+şartlarda hacimleri eşit olan gazların
+mol sayıları eşittir Bakalım burada ne
+diyor oda koşullarında hacimleri eşit
+zaten eşit hacim kaplayan dediğimiz için
+normal koşulda eşit hacim kaplıyorsa oda
+koşullarında da eşit hacim kaplayacaktır
+doğru y2n molekül sayısı daha fazladır
+yanlış ne dedik aynı şartlarda hacimleri
+eşitse mol say eşittir toplam atom
+sayıları eşittir Bu da yanlıştır n mol
+x2y diyoruz X2 y'de 3 atom var yani
+burada 3N mol atom bulunacaktır diğerine
+bak n mol Y2 diyorsun o zaman burada 2n
+mol atom bulunacaktır atom sayıları
+eşittir yanlış oldu Cevap Yalnız bir a
+seçeneği olacaktır 13 sorumuza geldik
+normal koşullarda 11,2 L hacim kaplayan
+CO2 gazı oda koşullarında kaç litre
+hacim kaplar diyor şimdi normal
+koşullarda 11,2 lre ise n = 11,2 2/22
+4'ten 0,5 mol olduğunu bulduk Şimdi
+normal şartlarda 05 mol gaz oda
+koşullarındaki bakacağız şimdi 1 mol gaz
+24,5 lre hacim kaplar oda koşullarında
+0,5 mol gaz dediğinde bunun yarısı
+olacaktır yani 12,25 L cevabını görürüz
+O da C seçeneği olur dostum bakalım son
+sorumuz ne diyor 0,3 mol no2 e ha önce
+bir soru kökünü okusaydık La diyor ki
+Yukarıdaki gazların normal koşullardaki
+hacimlerinin karş karşılaştırılmasını
+soruyor o zaman mol sayılarını bulursam
+zaten aynı şartlarda hacimlerini de
+kıyaslamam olurum Bu 0,3 mol çok güzel
+Şuna bak 0,4 mol O2 demiyor bak 0,4 mol
+atom içeren O2 diyor Şimdi ben buna n
+mol O2 dersem burada 2n mol oksijen
+atomu bulunmaktadır Bu da 04e eşitmiş
+yani 04 = 2n bu bileşik Pardon bileşik
+dedim ya bu molekül 0,2 mol oldu Aha
+bunun mol sayısını buldum bunun kini de
+biliyorum diyor ki ne 24,00 8 x 10 üzeri
+22 tane H2 hemen bunu da mole çevirelim
+verilen tanecik sayısı
+24,8 x 10 üzeri 22 avogadro sayısına
+bölüyorsun la şu gitti burada 4 kaldı
+şununla şu gitti burada 10 kaldı 0,4
+çıktı Aha bu da 0,4
+molmol sayısı büyükse aynı şartlarda
+hacmi büyüktür E o zaman 3 en büyük oldu
+sonra 1 oldu Sonra da 2 oldu 3 1 2 var
+mı bu var cevap D seçeneği molden bu
+kadar kolay kurtulan asın daha var molle
+İlgili kısım var ama bir dinlenme vakti
+geldi sonra diğer videoyu izleyerek mol
+konusunu bitireceksin Gördüğün gibi bak
+ne yapıyorsun matematiksel işlemleri bol
+miktarda çevirip çevirip kullanıyorsun o
+yüzden dikkatli olmaya çalış bu
+işlemleri bol miktarda tekrar et bol
+soru çözmeyi sakın unutma dostum iki
+fosfor bir asit kimya Bu kadar basit bir
+sonraki derste görüşmek üzere hoşça kal

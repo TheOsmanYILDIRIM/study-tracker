@@ -1,0 +1,689 @@
+gençler Merhaba bugünkü dersimizde
+elektriksel güç ve lambalarla ilgili
+soru çözümü yapacağız ÖSYM'nin sevdiği
+bir yer özellikle lambalar lamba
+parlaklığını sorar anahtarı açarsam
+hangi lamba söner kapatırsam hangi
+lambalar yanar gibi sorular sorar Hemen
+başlayalım hiç direnci önemsiz üreteç
+Özdeş kv L lambaları ile kesit alanları
+eşit uzunlukları farklı olan xs'ye
+iletkenleri ile bir devre kurulmuş Buna
+göre yargılarından hangileri doğrudur
+diye sorulmuş şimdi şurada bazı
+iletkenler var Bunlar direnç etkisi
+gösterecekler onların direnç etkisini de
+öğrenmiştik R dediğimiz şey malzemenin
+cinsi malzemenin uzunluğu bölü akımın
+geçtiği kesit alanı olarak
+söyleyebiliriz sonra da bunların kesit
+alanları eşit dediği için buradaki abi
+değişken değil Eğer bunlar aynı maddeden
+yapıldıysa Roda bir değişken değil
+uzunluk burada direnci belirler
+diyebiliriz Kabe L lambaları özdeşmiş
+Dolayısıyla bu iki arkadaşın direncini
+de eşit kabul edebilirim birinci Öncül
+de diyor ki X ve Y iletkenleri aynı
+maddeden yapılmışsa yani roller aynıysa
+o zaman l'ye bakacağımı söylemiştim 2 l
+dediğim şey 2 R direnç derim L dediğim
+şeye bir R direnç derim diyor ki K
+lambasının par l'den fazladır Bakalım
+burada bir güç kaynağımız var diyelim ki
+bu arkadaş V kadarlık bir Potansiyel
+fark oluşturuyor eksi potansiyelinde 0
+var Artı potansiyelinde V var Bu v'yi
+buraya taşıdım ampermetre boş tel
+gibidir direnci olmadığı için aynı
+potansiyeli taşıyabilir Burası 0 Burası
+da 0 Burası da 0 gördüğünüz gibi şu
+kısmın bir ucunda V var diğer ucuna
+sıfır var aynı şekilde bu kısmında bir
+ucunda V var diğer ucunda 0 var yani
+uçlar arasındaki potansiyel farklar eşit
+Yani bunlar paralel bağlı lamba
+parlaklığı soruluyor bana lamba
+parlaklığı güçle ilgiliydi güç dediğim
+şey akımın karesi çarpı dirençle
+bulunabileceği gibi güç dediğim şey
+potansiyel farkın karesi böyle dirençle
+de bulunabilir K ve L lambaları özdeşti
+bu da onların dirençlerinin aynı olduğu
+anlamına gelir o zaman ya üzerinden
+geçen akımdan anlarım güçlerini
+Dolayısıyla parlaklıklarını ya da uçları
+arasındaki potansiyel farklarından anlar
+sakın Bu soruda buradaki Lambalarda bir
+direnç atayıp işte eşdeğer direnç
+bulayım hocam bunlar seri bağlı
+toplayayım Bunlar da seri bağlı bunlarda
+toplayayım sonra onlar paralel işte
+yapayım pil kaç amper geliyor diye
+bulmaya çalışayım falan hiç o toplara
+girmeye gerek yok yapamazsınız da zaten
+Çünkü dirençler de bilinmiyor
+varsayımsal şeyler konuşacağız burada o
+yüzden direkt Potansiyel fark eşitliğini
+kullanmam mantıklıdır Yani yukarıda da V
+Potansiyel fark var aşağıda da
+votansiyel fark var Bunlar paralel
+bağlılar ve eşittir ı çarpı r bunlar
+aynı olduğu için üst kolda ve alt kolda
+bunların ı çarpı r'leri de aynıdır
+yorumunu yapacağım ona göre akım
+dağıtacağım diyeceğim ki yüksek direncin
+olduğu yerden daha düşük akım geçer
+düşük direncin olduğu yerden daha yüksek
+akım geçer diyeceğim K ve L lambaları
+Özdeş olduğu için burada R üssü varsa
+burada da R üssü direnci var diyebilirim
+üst kısımda daha çok direnç yok mu Evet
+iki r + r üssü var alt kısımda r+ R üssü
+var Yani yukarıda direnç fazla direnç
+fazlaysa o kola daha az akım gider
+tamamen sallıyorum şu an buraya bir akım
+gittiyse buraya İki akım gitmiştir
+diyebilirim güç kaynağından da 3 yıl
+gelmişti diyorum Böylece böyle bir kabul
+yapmış oluyorum K lambasından ı akım
+geçiyor L lambasından 2 ı akım geçiyor
+dirençler aynı akım fazlaysa güç fazla
+güç fazlaysa parlaklık fazla Kaan'ın
+parlaklığı l'den fazladır Birinci
+öncülüm Doğrudur Hocam ben potansiyel
+farktan V den yapmaya çalıştım ama
+bulamadım Oradan da bulabiliriz konu
+anlatımında söylemiştim parlaklık
+sorularında İlla akımdan yapacağım ya da
+İlla v'den potansiyel farktan yapacağım
+diye bir kural yok soruda hangisi
+müsaitse hangisi daha kolaysa oradan
+yaparsın o yüzden sorularla haşır neşir
+ol durumlara Aşina olup Neyi kullanmanız
+gerektiğini hissedebilmeniz lazım Bunun
+için de çok soruyla uğraşmanız gerekiyor
+X ve y'nin Öz dirençleri farklıysa
+lambaların parlaklıkları eşit olabilir
+güzel şimdi ben Şunlara iki r'ye r
+demiştim Çünkü uzunluklarına bakmıştım
+Bunların aynı maddeden yapıldığını Yani
+rollerin eşit olduğunu söylemiştim Şimdi
+işin içerisinde Roda girerse bu roalar
+farklıysa adamın uzunluğu 2 ile olmasına
+rağmen ro'su ro/2 olur daha iletken bir
+malzemedir şu arkadaşım boyu L olmasına
+rağmen ve bunun rosu da bir rodur daha
+yalıtkan bir malzemedir E bu mavilerle
+bu yeşilleri çarptığınızda aynı Rey
+vermiyor mu veriyor Dolayısıyla alttaki
+R ise şu da R Olabilir mi Olabilir e
+Bunlar da zaten aynıydı Yani yukarıda da
+R + R üssü direnç var altta da r+ R üssü
+direnç var paralel bağlı bu kollarda
+dirençler eşitse o zaman akımlar da
+eşittir yani yukarıya ne kadar akım
+gittiyse aşağıya da o kadar akım gider o
+zaman parlaklıklar eşit gayet de
+olabilir L lambasından geçen akım
+şiddeti ideal ampermetrede okunan akım
+şiddetinden büyüktür şimdi buradaki
+malzemelerin cinsleri ne olursa olsun
+uzunlukları ne olursa olsun pilden
+geldiği düşünülen ana kol akımı Burada
+iki kolay ayrılacak bir kısmı buradan
+gidecek bir kısmı yukarıya gidecek
+parçalanacak Yani bu da ne demek her
+halükarda ana koldan gelen akım bu
+kollara giden akımlardan daha büyüktür L
+lambasından geçen akım şiddeti
+ampermetreden okunan akım şiddetinden
+daha büyük değil daha küçüktür sorunun
+cevabı C seçeneğidir ama sorunun cevabı
+B olarak verilmiş bir yanlışmış neden
+yanlışmış X ve Y iletkenleri aynı
+maddeden yapılmışsa K'nın parlaklığı
+l'den fazladır Evet ben buna niye doğru
+demişim ki bu yanlış Çünkü ben Kaya ı
+akım göndermiştim dünyaya iki ı akım
+göndermiştim Yani l'den daha çok akım
+geçiyor Tabii ki L daha fazladır Bu
+öncülde daha fazladır diyor Burada
+yanlış işaretlemişim O yüzden Sorumun
+cevabı B seçeneğidir iç direnci önemsiz
+üreteç ve xyz lambalarıyla kurulan
+şekildeki devrede bütün lambalar Işık
+vermektedir
+lambaların parlaklıkları arasında x
+eşittir y büyüktür Z ilişkisi olduğuna
+göre
+lambaların dirençleri arasındaki ilişki
+nedir bu dersin konu anlatımında bu
+şeklin öneminden bahsetmiştim ve şu
+durumun ispatını yapmıştım hangi durumu
+lambalar özdeşse Yani bunların hepsinin
+R direnci varsa güç kaynağımız da
+diyelim ki 3v'lik bir Potansiyel fark
+oluşturuyorsa bunun uçları Arasında 2 V
+Potansiyel fark bunların da uçları
+arasında votansiyel fark olur demiştim
+neden XT 2 kat daha fazla oluyor çünkü
+ana koldan geldiği düşünülen akım
+Şuradan iki olarak Geliyorsa buraya bir
+ı buraya bir ı olarak aktarılıyor ı
+çarpı r'den ve potansiyel farkı elde
+ediyorsam iki ı çarpı r'den 2 ve
+Potansiyel fark elde etmem gayet doğal
+yani bu devrede X'in y ve Z'ye göre daha
+parlak bir lam olduğunu söyleriz y ve z
+ise paralel bağlandıkları için ikisinin
+de uçları arasında aynı potansiyel farkı
+olduğu için aynı parlaklıkta olduğunu
+söyleriz bunu daha detaylı olarak konu
+anlatımında konuştuk zaten bilmeyenler
+orayı Tekrar izleyebilir
+lambalar Özdeş olsaydı parlaklıklar
+potansiyel farklar böyle oluyordu ama
+olmamış diyor ki; x ile y'nin parlaklığı
+eşit olmuş diyor Onlar da Z'den büyükmüş
+diyor hocam böyle bir şey olamaz ki bir
+kere y ile Z paralel y ile Z paralel
+oldukları için eşit olmak zorunda
+parlaklıkları değil eğer böyle
+düşünüyorsan kavram yanılgım var yine
+konu anlatımda bunu çok vurguladım
+parlaklık üzerinden geçen akıma bağlı
+değil Sadece potansiyel farka bağlı
+değil Sadece güce bağlı güç dediğim şey
+potansiyel farkın karesi bölü direnç
+lambaları özdeyse R1 değişken değil
+Herkes de aynı o yüzden potansiyel farka
+bakabilirsin bunlarda eşit olduğu için
+parlaklıklar eşittir ama dirençler aynı
+olmazsa hepsini bir bütün olarak
+düşünmeliyim buradaki R sonucu
+değiştirir bir kere yz'den büyükse
+kesinlikle paralel bağlı oldukları için
+potansiyel farkları Aynı bu arkadaşların
+gücü fazla olanın direnci daha azdır yyr
+desem z'ninki mesela 2 r'dir Z'nin
+direnci fazladır direnci fazla olduğu
+için parlaklığı daha azdır öyle diyor
+işte parlaklık daha az diyor ama paralel
+bağlı oldukları için uçları arasında
+hala V var o zaman diyebiliriz ki Z'nin
+direnci büyüktür y'nin direnci x'le
+y'nin parlaklığı nasıl eşit olabilir
+burada kesin olan şey ne burada kesin
+olan şey X'in üzerinden geçen akım ikiye
+ayrılıyor bir kısmı Y'ye gidiyor bir
+kısmı Z'ye gidiyor bunların dirençleri
+ne olursa olsun kesinlikle ilk
+lambasından çok akım geçecek diğerlerine
+göre çünkü o geçen parçalanıp gidiyor
+Diğerlerine kesinlikle içten geçen akım
+büyüktür y'den geçen akım x'ten geçen
+akım büyüktür Z'den geçen Şimdi biz x y
+ilişkisine bakıyoruz güç dediğimiz şey
+akımın karesi çarpı direnç olduğuna göre
+bu iki arkadaşın parlaklıklara eşitse
+güçleri eşit içten daha çok akım geçiyor
+o zaman X'in direnci daha az X'in
+direnci y'den daha küçük olmalı bu
+eşitsizliğe şöyle bir rx'i de eklemem
+gerekir Böylece Sorumun cevabı a
+seçeneği olacaktır Ahmet arkadaşlarına
+lambaların parlaklığı konusunu
+anlattıktan sonra 3 Özdeş lambayla yani
+hepsini direnci re kurulan bir devrede
+lambaların parlaklığını gösteren
+şekildeki sütun grafiğini tahtaya çizmiş
+daha sonra arkadaşlarından bu devreyi
+defterlerine çizmelerini istemiş Acaba
+hangi deftere çizilen hangi devre şeması
+Doğrudur diye soruluyor şimdi Grafik ne
+diyor X'in parlaklığı ile y'nin
+parlaklığı eşit z10'dan büyük o zaman
+Z'nin gücü büyüktür x ile y'nin gücü
+eşittir diyebiliriz Özdeş lambaları
+oldukları için r'lere eşit O zaman şöyle
+de diyebiliriz Z'nin potansiyel farkı
+büyüktür x ile y'nin potansiyel farkları
+eşittir ya da Z'nin akımı büyüktür x ile
+y'nin akımları eşittir Bu yorumların
+hepsi doğru r'ler aynıysa buna uygun
+devreye bakacağız Peki akımdan mı
+gideceğiz potansiyel farktan mı
+gideceğiz hepsinden gidilebilir
+tercihinize kalmış mesela önce akımdan
+gitsek bu güç kaynağından geldiği
+düşünülen akım Neyse devre seri bağlı
+olduğu için hepsinden aynı akım geçmiyor
+mu Evet o zaman hepsinden aynı akım
+geçiyorsa benim şartlarımı sağlamıyor
+Z'den daha çok akım geçmesi gerektiğini
+söyledi bu olmaz Bu da olmaz yani lam
+yerlerini değiştirdim diye hepsinden
+aynı akım geçeceği gerçeğini değiştirmez
+yine seri bağladılar bu devreye
+baktığımda y'den hangi akım geçiyorsa
+Z'den de o akım geçmeli çünkü bunlar
+aynı dirence sahip oldukları için ve
+paralel bağlı oldukları için potansiyel
+farkları v'leri yani ı çarpı r'lere eşit
+olmalı o zaman buradan ne geliyordur 2
+iyi geliyordur zaten bu şekli bilin
+demiştim dirençler aynıysa Bu lamba pile
+seri bağlanmış olan x lambası daha
+parlak olacaktır Biz Z'nin daha parlak
+olmasını istiyoruz Bu da olmaz Bunların
+hepsi paralel bağlanmış hepsinin direnci
+aynı o zaman hepsinden aynı akım geçiyor
+hepsinin parlaklığı eşit olur Bu da
+olmaz ama Z olur Neden Çünkü Zile seri
+bağlanmış buradan iki iyi Geliyorsa
+buraya bir iyi gider buraya bir iyi
+gider bu arkadaş olur Bu arada Buraya
+yazdım akımların Hepsi kendi içlerinde
+yani D şıkkındaki devreyle E şıkkındaki
+devreyi kıyaslayıp hocam e şıkkındaki z
+lambası daha parlaktır Çünkü üzerinden
+iki iyi gidiyor Z'de bir iyi gidiyor
+diyemezsiniz hepsinde eş değer direnç
+hesaplayıp pilden kaç amper geldiğini
+bulmanız lazım öncelikle O yüzden o
+toplara girilmez ha öyle bir topa
+gireceksek devreleri de kendi içinde
+kıyaslamak istiyorsak o zaman potansiyel
+farktan gitmek daha mantıklıdır yani
+pili kendimize baz alıp Onu referans
+alıp potansiyel farktan gitmeliyiz
+hepsinde ortak olan şey hepsinde V
+Potansiyel fark oluşturan tek bir pil
+var hepsi seri bağlı hepsi aynı dirence
+sahip ve bölü 3 v/3 v/3 potansiyel farka
+sahiptir üçü de üçünün toplamı seri
+olduğu için pili vermeli potansiyel
+farkları eşit hepsi aynı parlaklıkta
+Bunlar da aynı şekilde hepsi seri
+bunlarda uçları arasında ve bölü 3
+potansiyel farka sahip olur Bunların
+hepsi paralel pilde V var pilde
+paraleller bunların hepsinin uçları
+arasında votansiyel fark vardır Bu şekli
+konu anlatımından biliyoruz az önceki
+soruda da konuştuk pile V dediysem Şu
+arkadaş ve bölü 3 bu arkadaş ve bölü 3
+bu arkadaş 2v/3'tür niye bölü 3 geldi
+bunlara Çünkü burası komple paralel
+olduğu için teke düşürüldüğünde yine v/3
+olacak 2
+v/3 yani 1 ve pili verecek aynı şekilde
+Bunlar da 2v/3 ve bölü 3 v/3 olur bir
+sorumuzun cevabını yine buluruz Z
+büyüktür x eşittir y olur e olur ama şu
+an bu pot genel farktan yapma taktiğimle
+bütün devreleri de kıyaslayabilirsiniz
+mesela C şıkkındaki lamba
+parlaklıklarıyla D şıkkındakileri
+kıyaslayabilirim dekiler daha parlaktır
+Çünkü hepsinde V vardır Akkor ampuller
+tungsten olarak bilinen bir flemenden
+yapılır tungstente Elektrik enerjisiyle
+ısıtıldıkça parlamaya başlar ve ışık
+verir gücü yüksek olan ampulün filament
+teli Düşük olana göre daha kalındır Niye
+daha kalındır kalın olması neyi
+değiştirir bir iletkende malzemenin
+cinsi malzemenin uzunluğu malzemenin
+kalınlığı malzemenin kalınlığı arttıkça
+o iletkenin direnci azalır Lambayı prize
+taktınız prize 220 volt var bu standart
+ve eşittir ı çarpı r prizdeki Potansiyel
+fark ampuldeki potansiyel farkın aynısı
+direncin azsa senden daha çok akım geçer
+parlaklık güçle ilgilidir akımın karesi
+çarpı direnç direncin az olduğu için
+kalınsın ve direncinaz parlaklığının az
+olması beklenir ama akımın fazla ve daha
+çok fazla Çünkü akımın karesini alıyoruz
+Yani senin R dediğin şey azalıp r/2'ye
+düştüğünde ı dediğin şeyde artıp iki ı
+ile çıkar re/2'ye düştüğü için gücün
+yarıya düşer ama akımın hakikatına çıkıp
+karesini aldığın için 4 ı kare olur
+burası bu da gücünün 2p olması demek
+daha parlak olman demek Buna göre
+marketten aldığımız 75 Watt ve 100
+watt'lık ampullerle ilgili hangileri
+doğrudur 100 wattlık ampulün gücü daha
+fazla gücü daha fazlaysa daha kalın tele
+sahiptir diyebiliriz daha kalın tel
+ağının büyük olması direncin daha küçük
+olması demek 100 wattlık ampulün direnci
+daha düşüktür Aynen öyle ampuller seri
+bağlanıp prize takıldığında 75 wattlık
+ampul daha parlak yanar Şahane soru
+bırakın öğrencileri birçok öğretmeni
+bile tongaya düşürebilecek bir soru buna
+çok dikkat edin hocam bu mümkün olmaz
+çünkü 75 wattlık ampul diyorsunuz bu
+arkadaş 100 wattlık ampule göre daha
+parlak yanmaz yanabilir Şimdi sen bu
+adamları seri bağlıyorsun bir tane güç
+kaynağına bağlı olduğumuzu düşünelim 100
+wattlık ampulün direncinin daha düşük
+olduğunu şimdi konuştuk yani bu 100
+wattlık ampul olsun bu 75 wattlık ampul
+Olsun bunda R direnç varsa bunda iki r
+direnç var seri bağlandıkları için
+hepsinden aynı akım geçiyor mu ikisinden
+de aynı akım geçiyor Şu halde hesap
+yaparsak güç dediğimiz şey akımın çarpı
+direnç ikisinden de aynı akım geçiyor bu
+sabit kimin direnci fazlaysa onun gücü
+daha fazladır 75 wattlık ampulün direnci
+daha fazla o zaman onun gücü daha fazla
+O zaman o daha parlak yani ikinci
+öncülüm doğru İyi de hocam burada eşek
+kadar 100 watt yazıyor Nasıl gücü daha
+fazla olabilir 75'liğin 75 100'den büyük
+müdür diyorsunuz Hayır tabii ki öyle
+demiyorum Bu iki Lambayı seri bağlarsan
+100 wattlık ampul Tam kapasite çalışmaz
+diyorum Aslında 75 Daha tam kapasitesine
+yakınken 100 watt olabileceğinin daha
+azında çalışıyor o yüzden daha az parlak
+yanıyor Çünkü hesap ortada ikisi seri
+bağlı mecburen aynı akım geçecek direnci
+fazla olanın gücü fazladır gücü fazla
+olanın parlaklığı fazladır O zaman biz
+buna niye 100 wattlık ampul diyoruz ki
+bu adam kapasitesini duruma göre
+değiştiriyorsa bunun belli bir değeri
+olmaz ki bunlar birbirinden bağımsız
+düşünülebildiğinde kapasiteleri tam
+ortaya çıkmış olur birbirinden bağımsız
+ne demek paralel bağlamak demek yani iki
+tane ampulü paralel bağlayacağım üstteki
+yüzlük ampul alttaki 75'lik ampul bir
+güç kaynağına bunları paralel bağladı
+üsttekinin direncius alttakinin direnci
+fazla işte birbirinden bağımsız burada
+ikisinden de aynı akım geçmek zorundaydı
+ama burada öyle bir şey yok direncin
+neyse ona göre alırız üsttekinden İki
+ı'lık akım gider alttakinden bir ığılık
+akım gider çünkü potansiyel farkları
+aynı olmak zorunda iki I r'ye I çarpı 2r
+olmak zorunda üsttekinin Gücü bu
+hesaptan yine hı'nın karesi çarpı r'den
+düşünürsem 4ı çarpı r olur alttakinin
+gücü ıhının karesi çarpı 2 R olur
+Hangisi büyük üstteki büyük Bu sayıları
+Tabii salladım kafamdan Yani tam iki kat
+olması lazım 75'e 150 olması lazım da
+onu anlatmaya çalışmıyorum üsttekinin
+daha çok çıkacağını anlatmaya
+çalışıyorum dolayısıyla bunları paralel
+bağlayıp prize takarsam 100 wattlık
+ampul daha parlak yanar Çünkü tam
+kapasitesini kullanmış olur seri
+bağladığımda ben bu 100 wattlık ampulü
+kısıtlamış oluyorum bir nevi çok önemli
+şahane bir soru Sorumun cevabı e
+seçeneğidir şehir şebekesinden gelen ve
+Etkin değeri 220 volt olan gerilimle
+çalışan bir evde kullanılan bazı
+elektrikli cihazların güçleri şekildeki
+gibidir evin sigortası ancak 15 ampere
+dayanabildiğine göre yargılarından
+hangileri doğrudur sigorta dediğimiz
+şeyi konu anlamında bir simülasyon
+üzerinden görmüştük özellikle eski tip
+sigortalarda aslında bir tel olarak
+hayal edin üzerinden akım geçtikçe tel
+ısınıyor bir dayanma gücü var o akım
+miktarı çok arttı o sigortanın dayanma
+gücü aşılırsa tel ısınır ısınır ısınır
+ve kopar devreye de seri bağlandığı için
+akımı kesmiş olur Çünkü orası açık
+anahtar olur işte o telin kopmadan önce
+dayanabildiği son değer 15 ampermiş bu
+elektrik aletleri kullanırken şehir
+şebekesinden akım çekiyorsun 8 amper 9
+amper 10 amper ne ihtiyacım varsa
+çekiyorsun sigortada problem yok ama ne
+zaman ki O çektiğin akım 15'i aşar o
+zaman Sigorta attı dediğimiz olay
+gerçekleşir ütü fişten çekildiğinde
+diğer cihazlar çalışmaz bu aletler
+serimi bağlılar paralel mi bağlılar daha
+doğrusu onların bağlandığı bu prizler
+serimi bağlıdır paralel mi bağlıdır Eğer
+bunlar seri bağlıysa böyle yan yana aynı
+hat üzerine bağlandılarsa bir tanesini
+iptal ettiğimizde onu oradan
+koparttığımızda Burası açık anahtar
+olacaktır bu devreden akım geçmeyecektir
+Yani biz ütüyü fişten çektik diye
+mikrodalga fırında çalışmayı
+durduracaktır saç kurutma makinesi de
+çalışmaya durduracaktır böyle bir şey
+oluyor mu olmuyor çünkü bu prizler
+Dolayısıyla bu prizlere takılan ev
+aletleri paralel bağlıdır Sen bu
+arkadaşı devreden çıkartsan bile Tabi bu
+teli götürmüyor bu geri kalan arkadaşlar
+çalışır Çünkü pilde V Potansiyel fark
+varsa Bunlarda da aynı Potansiyel fark
+olmaya devam ediyor paralel bağlamada Bu
+cihazlar birbirinden bağımsız çalışıyor
+birinci öncülüm yanlış
+ütü saç kurutma makinesi ve fırın aynı
+anda çalışamaz Yani bunlar aynı anda
+çalışırsa 15 amper değerini geçer diyor
+Böylece sigorta atar diyor hesaplayalım
+Şimdi benim prizlerinde 220 volt var
+Etkin değer ne demek Hocam falan diye
+kafanıza takılmasın ayt'de alternatif
+akım konusunu öğrendiğimiz bir şey bize
+lazım değil buranın 220 volt olduğunu
+düşüneceğim hepsi paralel bağlı olduğu
+için hepsinin uçları arasında bu 220
+volt vardır sigorta dediğim şey de
+elektrik tesisatına seri bağlanır yani
+sigortayı şuraya bağladığımızı
+düşünebiliriz bu aletlerin bana
+güçlerini vermiş güçlerinden ben
+bunların dirençlerini hesaplarım
+dirençlerinden de üzerlerinden geçen
+akımları hesapları akımı hesapladığımda
+da toplamın 15'e geçip geçmediğine
+bakarım güç bir şey potansiyel farkın
+karesi bölü direnç zaten Potansiyel fark
+hepsinde 220 olduğuna göre bunun
+karesini alacağız 220 çarpı 220 bölü saç
+kurutma makinesinin direncini bilmiyorum
+bunu arıyorum kaçmış 1100 watt gücü
+varmış Bu sıfırla bu sıfır gider bu iki
+sıfır gider bu 11 ile bu 22 şurada 2
+olacak şekilde sadeleşir 22 x 2'den R
+dediğim şey 44 10'dur saç kurutma
+makinesi en üstteki Olsun bunda 44 10
+varmış
+ütü 2200 watmış yani şuraya 2200
+Yazacağım bu 0 bu 0 yine bunları götürdü
+bu 22 ile bu 22 gitti o zaman reen'e
+geldi Buradan r22 geldi bu da ütü olsun
+22.10 mikrodalga fırında 880 watt varmış
+Buraya 880 watt yazacağım 220 ile 880
+sadeleşirse şurada 4 kalır r'yi buraya
+4'ün bunu altına atarsam R dediğim şey
+55 10 olur yani mikrodalga fırın 55
+olmuş mikrodalga fırın 55 10 uçları
+arasında 220 volt var vır yapacağız ve
+eşittir ı çarpı r220 = akım çarpı 55
+buradan geçmesi gereken akım 4 amper 220
+volt Potansiyel fark var 22 10 direnç
+var buradan geçmesi gereken akım 10
+amperdir 220 volt Potansiyel fark var 44
+10 direnç var buradan geçmesi gereken
+akım 5 amperdir 5 amper yukarıdan 10
+amper buradan geldi toplam 15 4 de
+buradan geldi o zaman şuradan kaç amper
+geçiyor 19 amper geçiyor sigorta kaça
+kadar dayanıyordu 15'e kadar 19'da ne
+olur buradaki tel aşırı ısınır ve kopar
+bir anahtar gibi burası açık anahtar
+olur ve devrenin bütün ana kol akımını
+kesmiş olursun bu üç alet aynı anda
+çalışamazlar bu doğrudur elektrik
+tesisatını sigortanız buna uygun değilse
+başınıza gelmiştir böyle bir sürü güçlü
+aleti aynı anda çalıştırmaya
+çalıştığınızda sigorta atar Nedir o
+güçlü aletler işte fırınlar
+ütüler ketıllar saç kurutma makineleri
+genelde Isı enerjisi üreten şeyler
+bunların hepsini aynı anda çalışması
+elektrik tesisatına bayağı yük bindirmek
+demek oluyor Bütün cihazlar ayrı ayrı
+bir saat çalıştırılırsa harcanan toplam
+enerji 4.18 kilowatt saat olur bize
+enerjiyi soruyor güç dediğimiz şey birim
+zamanda harcanan enerji demek
+dediğimiz şey güç çarpı zaman demek
+şimdi bunların hepsi 1 saat çalışıyor
+Dolayısıyla ben bunların çalışma
+süresini buradaki t'ye 1 saat yazacağım
+Güçler ile çarparsam bu zamanı ne kadar
+enerji harcadığını bulurum saç kurutma
+makinesi 1100 watt'mış bana kilo watt
+saat sorduğu için bunu kilowatt'a
+çevireceğim kilo 1000 demek Bunu
+kilovata çevirmek demek binde birini
+almak demek bir nokta Birdir bir nokta
+bir çarpı birden bir nokta bir kilowatt
+saat yapar 2200 watt 2.2 kilowatt'tır
+bunu da 1 ile çarparsam 2.2 kilowatt
+saattir 880 watt
+0.88 kilovattır bine bölüyorum bunda bir
+saatle çarparsam 0.80 8 kilo watt saat
+yapar hepsini topladığımda 3.3 4.18
+kilowatt saat yapar üçüncü öncülüğümde
+Doğrudur Sorumun cevabı D seçenektir bir
+inşaatta elektrik motorunun bağlı olduğu
+ağırlığı önemsiz bir vinç 50 kilogram
+kütleli çimento torbasını sabit hızla 20
+metre yüksekliğe 10 saniyede
+çıkartıyormuş motorun bağlı olduğu şehir
+şebekesinde gerilim değeri 200 volt
+olduğuna göre motorun üzerinden en az
+kaç amper değerinde akım geçer Hocam bu
+ne iş güç enerji mi çözüyoruz
+diyebilirsiniz ama kazanımlarda
+elektriksel güçle mekanik gücün
+eşleştirilmesi beraber düşünülmesi
+gerektiği söyleniyor Dolayısıyla bizim
+için bu çok önemli bir soru tipidir
+şimdi bizim bir Çimento torbamız var
+bunu yukarıya çıkartacağız şurası yer
+seviyesi olsun çimento torbamız burada
+olsun Ben bunu 20 metre yukarıya
+çıkarttım buraya getirdim ve bunu buraya
+çıkartırken 10 saniye süre geçti bu
+arkadaş yer seviyesine göre bir
+potansiyel enerji kazandı mı yer çekim
+potansiyelisi Evet nasıl hesaplıyoruz
+mght'tan hesaplıyoruz 50 kilogram
+kütlesi var Bu arkadaşın hem yerini 50
+yazdım yer çekimi ivmesi 10 20 metre
+yukarıya çıktı 500 x 20'den 10.000 jul
+potansiyel enerjisi var bu arkadaş Peki
+bu potansiyel enerji nereden geldi e
+Hocam işte elektrik motoru var elektrik
+motoru Onu yukarıya çıkarttı Bu
+arkadaşın kazandığı Mekanik enerjinin
+sebebi motorun şehir şebekesinden aldığı
+Elektrik enerjisidir Motor o elektrik
+enerjisini mekanik enerjiye çevirmiştir
+Dolayısıyla bu 10.000 julün kaynağı
+şehir şebekesinden alınan 10.000 güç
+eşittir enerji bölü zaman enerji eşittir
+güç çarpı zaman bu enerji dediğim şey
+gücü açarsam akım çarpı voltaj olarak
+çarpı zaman olarak ifade edilebilir
+hocam gücünü yakın çarpı voltaj olarak
+açtınız genelde akımın karesi çarpı
+direnç olarak falan açıyoruz Şu an ben
+elektrik motorunun enerjisi ile
+ilgileniyorum elektrik motorunun
+üzerinden geçen akımı sorduğu için
+buraya akımlı versiyonu yazdım ama bana
+elektrik motorunun direnciyle ilgili
+hiçbir şey vermemiş yani R yazsam
+değerini yerine koyamayacağım ki ama
+motorun uçları arasındaki potansiyel
+farkı vermiş onu prize takıyoruz prize
+de bu kadar voltaj var o yüzden bu
+versiyonu yazdım yani güç eşittir akım
+çarpı voltaj Peki bu elektrik motoru ne
+kadar enerji harcıyor ne kadar çekiyordu
+elektrik şebekesinden 10.000 jul Buraya
+yazdım bunun için üzerinden ne kadar
+akım geçiyor bilmiyorum bunu soruyor
+Zaten prizde 200 volt var ne kadar süre
+çalışıyor Bu motor 10 saniye çalışıyor
+Bu 0 bu 0 bu 0 3 tane 0 buradan 3 tane
+sıfırı götürdü ikiyi buraya atarsam akım
+dediğim şey 5 amperdir kitabınızdaki
+dizgide problem yoktur ama benim dizimde
+beşamper burada kalmış cevap C şıkkı
+soruyu geçmeden önemli bir şey sormak
+istiyorum gözünüze takılmış olmalı En
+azından takıldığını ve üzerinde
+düşündüğünüzü hayal etmek istiyorum
+Neden motorun üzerinden en az kaç amper
+geçmiştir diye sormuş niye en az diye
+belirtmiş Bunun iki tane sebebi var
+Birincisi Ben neden kazanılan Mekanik
+enerjiyi sadece potansiyelden hesapladım
+Belki biz bu arkadaşa kinetikte
+kazandırdık Ben şu an bu soru çözümünü
+yaparken hiç kinetik enerjiyi
+kazandırmışım gibi düşünmedim Çünkü ben
+bunun sabit hızla yukarı çıktığını hayal
+ettim çözerken Çünkü ben en az ifadesini
+görmüştüm Yani bir ilk hareketi verdik
+çok küçük bir zaman diliminde Onu ihmal
+edersek Hep Aynı hızda çıkıyorsa ama o
+zaman kinetik enerjisine bir değişiklik
+olmamıştır sadece potansiyel enerjisi
+değişmiştir O potansiyel enerjiyi
+vermiştir bizim motorumuz Eğer bunu
+hızlandırarak çıkartsaydım motor yani
+bir de kinetik enerjide değişim
+oluştursaydı bu 10.000 jürinin yanına
+bir de kinetik enerji yazmanız gerekirdi
+buradaki 10.000 sayısı büyüdüğü için
+aklımda daha fazla olması gerekirdi ama
+en aza sorduğu için hiç kinetik enerjiyi
+düşünmedim potansiyel düşündüm mecburen
+ikinci ihtimalde Ben bütün elektrik
+enerjisinin mekaniğe dönüştüğünü hayal
+ettim mesela sürtünme olursa bir kayıp
+yaşarsın ama sürtünme varmış enerjimizin
+bir kısmı da oraya gidiyormuş gibi
+düşünmedim Niye çünkü en az yazıyor Eğer
+bir de sürtünme enerji harcasaydık o
+zaman şehir şebekesinden 10 binden daha
+fazla çekmek zorunda kalırdık motordan
+geçen akımda 5'ten fazla olurdu En az
+dediği için %100 verimli bir makine
+düşündüm yani sürtünmeler önemsizdir
+dedim ve sabit hızla çıktığını hayal
+ettim sadece potansiyel enerji
+kazandırdığımızı düşündüm bizim için
+önemli bir soru
+[Müzik]

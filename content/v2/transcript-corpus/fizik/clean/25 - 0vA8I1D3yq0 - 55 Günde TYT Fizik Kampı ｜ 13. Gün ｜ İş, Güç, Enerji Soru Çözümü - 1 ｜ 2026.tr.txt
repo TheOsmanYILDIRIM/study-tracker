@@ -1,0 +1,645 @@
+gençler Merhaba bugünkü dersimizde iş
+güç enerji ile ilgili soru çözümü
+yapacağız Bütün soru tiplerini tarayıp
+konu anlatımımızı pekiştirmiş olacağız 1
+sorudan başlıyoruz bir cisim üzerinde
+fiziksel anlamda bir iş yapılabilmesi
+için cisme uygulanan kuvvet ile cismin
+yer değiştirme vektörlerinin aynı
+doğrultula olması gerekir Bu zaten bizim
+iş yapma şartımız biliyorsunuz Buna göre
+hangilerin üzerinde Fiziksel anlamda iş
+yapılmıştır tarif edilen bilgiyi yazalım
+iş dediğimiz şey bir cisme etki etmesi
+gereken kuvvet çarpı o cismin yer
+değiştirmesi ve bu iki vektörün aynı
+doğrultuda olması aynı yönlü de
+olabilirler zıt da olabilirler Yeter ki
+aynı doğrultuda olsunlar işin bir başka
+tarifi daha var Onu da yazalım belki
+işimize yarar İş dediğimiz şey
+cisimlerin enerjisini değiştiriyor
+biliyorsunuz Peki sabit hızla yürüyen
+bir çocuğun sırtındaki çanta Bu öncülü
+ikinci formülden düşünmek sanki daha
+kolay enerji değişiyor mu Değişmiyor mu
+buna bakacağız burada kastettiğimiz
+enerji Tabii ki mekanik enerji yani
+kinetik artı potansiyel kinetik enerji
+Hatırlarsan 1/2m² ile bulunuyordu hızda
+bir değişim oluyorsa kinetik enerjide
+bir değişim olmuş demektir potansiyel
+enerjiden kas Yerçekimi potansiyel
+enerjisi yani mgh genelde yükseklik
+değiştiğinde potansiyel enerjimize
+değişmiş olacaktır kütle ile Yerçekimi
+ivmesinin değiştiğini pek görmeyin zaten
+bir tane cisimden bahsediyoruz kütlesi
+niye değişsin Bir Çocuk sabit hızla
+yürüyorsa sırtındaki çanta da sabit
+hızlıdır sabit hız demek ne demek bu
+çantanın üzerindeki Net kuvvet sıfır
+demek Newton'un birinci yasası böyle
+söylüyor Eğer cisim hızını koruyorsa
+üzerinde Net kuvvet yoktur demek bu
+çocuk sabit hızla yürüyorsa kinetik
+enerjisi değişmiyordur sırtımda Ben
+zıplamıyorum eğilmiyorum dümdüz
+yürüyorum Dolayısıyla o çantanın yerden
+yüksekliği de değişmiyor yani potansiyel
+enerjisi değişmiyor Dolayısıyla birinci
+şekilde yapılan iş sıfırdır diyebiliriz
+Ya da ben birinci ifadeden fx'ten
+düşüneceğim hocam diyenler için şu benim
+çantam olsun çantanın üzerine etki eden
+kuvvetler aşağıya doğru çantanın
+ağırlığı yukarıya doğru çocuk bunu
+tutuyor omuzlarıyla düşmesin diye ve bu
+çanta sağ tarafa doğru yatayda yer
+değiştiriyor buradaki kuvvet vektörü ile
+yer değiştirme vektörü birbirine dik
+olduğu için Yani aynı doğrultuda olmadık
+için iş yapılmaz diyebiliriz Buradan da
+düşünebiliriz durgun halden koşmaya
+başlayan bir çocuğun sırtındaki çanta
+hocam 1 ile 2 aynı şey Hayır değil çocuk
+durgun halde Yani hızı sıfır sonra
+koşmaya başlıyor Yani bir hız kazanmış
+Dolayısıyla başlangıçta bir kinetik
+enerjisi yoktu artık bir kinetik
+enerjisi var Bu arkadaşın enerjisinde
+bir değişiklik meydana geldi O zaman bu
+arkadaşın üzerinde bir iş yapıldı
+Kesinlikle burada yapılan iş sıfır değil
+sıfırdan farklı Burada iş yapılmış hocam
+buradaki kuvvetler yine aynı kuvvetler
+değil mi yine burada üfle Delta x
+birbirine dik değil mi aynı doğrultuda
+değiller ki Nasıl iş olacak Bunu konu
+anlatımında da konuşmuştuk çanta aynı
+çanta üzerindeki kuvvetler aşağıya doğru
+çantanın ağırlığı düşmesin diye biz bunu
+eflatıyoruz güzel Fakat bu sefer Net
+kuvvet sıfır değil Çünkü bizim hızımızda
+bir artış var olmayan hızımız oluştu
+Bunun için Newton yasalarını
+öğrendiğimiz bir şey var kesinlikle bu
+cismin atıyorum sağ tarafa doğru
+hareketlendiyse sağ tarafa doğru bir net
+kuvvetinin olması lazım
+Dolayısıyla Evet yine şunlar birbirini
+götürür Fakat bu F üssü cismi yani
+çantayı hızlandırır hız kazanmasının
+sebebidir cisim Zaten yatayda yer
+değiştiriyordu sağ tarafa doğru yer
+değiştiriyordu buradaki Delta XL
+buradaki F üssü aynı doğrultuda
+oldukları için ikinci öncülde iş
+yapılmıştır E hocam o siyah kuvveti F
+kuvvetini çocuğun omuzları uyguluyordu
+bu sarı ffüsünü kim uyguluyor iğne
+çocuğun omuzları uyguluyor çocuğun
+omuzları İlla düşeyde bir kuvvet
+uygulamak zorunda değil ki bu iki
+kuvveti beraber oluşturabilir bu
+ikisinin bileşkesi şeklinde bunların
+bileşkesini almayı bir henüz öğrenmedik
+ama böyle çapraz bir kuvvet şeklinde
+omuzlar çantaya kuvvet uygulayabilir
+birle iki aynı şey değil buna dikkat
+kafanızda şöyle bir ezber olmasın çanta
+taşıyan çocuk çanta taşıyan adam yük
+taşıyan hamal iş yapmaz Hayır böyle bir
+ezber Yok hızlanıyorsa iş yapılır
+yavaşlıyorsa iş yapılır sabit hızla
+gidiyorsa iş yapılmaz sebebi de deminden
+beri açıkladığım şeyler yerden alınıp
+masaya konulan oyuncak bir oyuncağımız
+var burası yer olsun bu oyuncağın
+aşağıya doğru bir ağırlığı var yukarı
+çıkartıyorsak yukarıya doğru bir kuvvet
+uygulamamız gerekiyor ve bu oyuncak
+yukarıya doğru yer değiştiriyormuş soru
+öyle diyor Delta x vektörü de buymuş
+benim dışarıdan uyguladığım bu ev
+kuvvetiyle deltx vektör aynı doğrultulu
+mu Evet aynı doğrultulu o zaman
+kesinlikle Bunun üzerinde bir iş
+yapılmıştır iş sıfır değildir soruyu
+çözdük ama burada başka bir şey daha
+konuşalım sorudan bağımsız öğrencilerin
+kafasını karıştığı bir yer burası Çünkü
+hocam Burada işi cisim yukarıya doğru
+çıktığı için F kuvveti yapmıştır ağırlık
+kuvveti Burada iş yapmamıştır yanlış
+benim dışarıdan uyguladığım kuvvet
+pozitif iş yapmıştır ağırlık kuvveti
+negatif iş yapmıştır ağırlık kuvveti de
+iş yapmıştır çünkü oda yer değiştirme
+vektörü ile aynı doğrultuda yer
+değiştirme vektörü düşey eksende
+ağırlıkta düşerek sende ama ters yönlü
+oldukları için aynı sürtünme gibi
+düşünebilirsiniz negatif iş olduğunu
+söyleyebiliriz Bu da aklınızda bulunsun
+iki ve üçte iş yapılmış Böylece Sorumun
+cevabı e seçeneği olacaktır kütlesi em
+olan bir cisim şekildeki sürtünmesiz
+yolun k noktasından ve hızıyla
+fırlatılmış cisim klm yolunu izlediğine
+göre aşağıdakilerden hangisi Doğrudur
+denilmiş aşağıda da bir sürü şık var
+şimdi önce biz bir şekli anlamaya
+çalışalım sonra aşağıdaki şıklara
+bakarız Orada ne diyor inceleriz yolda
+sürtünme yok sürtünme yoksa hemen
+yapıştırabilirim burada mekanik enerji
+korunacak Yani benim kinetik +
+potansiyelim her zaman aynı kalacak bu
+seviye de mekanik enerjim Neyse yolun
+şurasında da mekanik enerjim olur
+burasında da budur burasında da odur
+burasında da olur M noktasında da olur
+her yerde aynı mekanik var peki
+başlangıçta hangi tür Enerjileri var yer
+seviyesine göre konuşursam iki aşı
+yükseklikte Dolayısıyla Bu arkadaşın 2mg
+harçlık bir potansiyel enerjisi var bir
+hızı olduğuna göre bunu serbest
+bırakmamış bir V hızıyla fırlatmış 1/2m
+ile orantılı kütlesi de M olarak
+verilmiş bir de kinetik enerjisi var bu
+ikisinin toplamı da beni mekanik
+enerjimin ta kendisidir cismin L
+noktasındaki mekanik enerjisi en
+büyüktür yanlış mekanik enerji her yerde
+aynıdır L noktasında ne olur L
+noktasında artık cismi noktasal kabul
+edersem yer seviyesine göre potansiyel
+enerji sıfır olmuş olur E bu iki
+emgâhlık potansiyel enerji nereye gitti
+kinetiğe dönüştü benim zaten bir 1/2
+Enve kareli kinetik enerjim vardı buna
+bir de iki mgh daha enerji eklenecek ama
+toplam aynı kalacak Hatta şöyle yapalım
+düşünmesi kolay olsun potansiyel
+enerjiye Ben 100 jul diyorum kinetik
+enerjiye de yüzül diyorum o zaman Benim
+mekanik enerjim toplamda kaçtır şuan 200
+juldur yere indiğimde potansiyel sıfırsa
+toplam hala 200 olmalı elinde tek enerji
+türü var buradan belli bir hızla
+geçiyoruz kinetik enerjimiz var o
+Kinetik enerjinin değeri yerden geçerken
+200 julidir Bu da cismin hızlandığını
+gösterir Evet cisimler aşağıya doğru
+indikçe genelde hızlanırlar yukarıya
+doğru çıktık M noktasına geldik burada H
+ile orantılı bir potansiyel enerjim var
+şimdi ben burada iki mgh Haşa 100 Yıl
+dediysem burada mghh kadar potansiyel
+enerjimi olduğu için yarısı kadar yani
+50 jurluk bir potansiyel enerjim var
+unutmayın benim mekaniğim hala 200
+toplama hala 200 olmalı Demek ki Buradan
+geçerken de bir hızımız var onda ve 2
+üssü diyelim Bu hızlar bambaşka hızlar
+buradaki kinetik enerji değeri 150 juli
+olmak bütün mekanik enerjiler her yerde
+aynı cismin L noktasındaki sürati K ve M
+süratlerinin toplamıdır yani madem sayı
+verdim tam olsun kütleye de 2 kilogram
+desem bu kütleyle bu iki birbirini
+götürür ve kare yüzse O zaman benim
+başlangıçtaki hızım 10 metre bölü saniye
+olur yüzün karekökü aynı mantıkta
+kinetik enerjim İki Yüzü olduğunda yine
+kütle ile 2 birbirini götürecek ve kare
+eşittir 200 ise V dediğim şey kök
+içerisinde 200 olur hatta V üssü
+demiştik buna Pardon M noktasına
+Geldiğimde yine kütle ile 2 birbirini
+götürdük Kinetik enerjinin 150 ise
+buradaki hızın V2 üssü kök 150'dir
+l'deki sürat k ile m'nin toplamı mı yani
+k'da 10 var her yerde kök olduğu için
+bunda kök 100 olarak yazalım kök 100 de
+kök 150'yi toplayınca kök 200 mü oluyor
+böyle bir işlem mi var Hayır yok demek
+ki bu da yanlış bir ışık C'yi atlayalım
+m'deki mekanik kdakinin yarısıdır Hayır
+bunu A şıkkına da konuş mekanik her
+yerde aynı sürtünme yok korunacaktır
+cismin kadaki yere göre potansiyel
+enerjisi l'deki kinetik enerjisine
+eşittir kadaki potansiyel l'deki
+kinetiğe eşit mi k'den ne kadar
+potansiyel var 100 l'de ne kadar kinetik
+var 200 Dolayısıyla bu da yanlış ce
+okursak cisim l'den m'ye gelirken
+kaybettiği ikinetik enerji o andaki yere
+göre potansiyel enerjisine eşittir l'den
+m'ye geliyoruz kaybettiğimiz kinetik
+l'd'deyken 200 jul kinetiğimiz var m'ye
+geldiğimizde 150 jul kinetiğimiz var ne
+kadar kaybetmişiz kinetik 50 jul İşte bu
+M noktasındaki potansiyele eşit mi Evet
+eşit Demek ki C şıkkımız Doğrudur
+gençler Ahmet VG 5 kilogram kütleli 2
+koliyi bir Apartmanı merdivenlerinden
+çatı katına çıkartıyorlarmış Ahmet koli
+sabit hızla Ege ise hızlanarak
+çıkarttığına göre yargılarından
+hangileri doğrudur denilmiş Şimdi bizim
+bir kolimiz var Hatta iki tane kolimiz
+var ikisi de aynı yüksekliğe çıkıyorlar
+yerden çatı katına çıkıyorlar iki
+kütlede Beşer kilogram bu Ahmet Olsun bu
+da Ege Olsun ikisi de H yüksekliğe
+çıkartıyorlar şimdi Birinci Öncül diyor
+ki Ege'nin Koli üzerinde yaptığı iş
+Ahmet'in kolye üzerinde yaptığı işten
+büyüktür iki formülle de düşüneceğim
+birincisi enerjiden iş dediğimiz şey
+enerjiyi değiştirir buradaki cisminin
+enerjisini nasıl çalışıyor İkisi de ilk
+hareketi verdiler Ahmet sabit hızla
+devam etti Ege ise daha da çok
+hızlandırdı Dolayısıyla cisimler
+yukarıya çıktığında Ahmet'in kolisi de
+EMG Ege'nin kolisi de mgh potansiyel
+enerji kazandı Özdeş koliler en kötü
+Deliler aynı yüksekliğe çıktılar
+Ahmet'te artı mg harçlık bir değişim
+oldu o zaman enerji olarak Ege'de de bu
+artı mght gerçekleşti fakat Ege
+hızlandırdığı için ekstra ekstra bir de
+kinetik enerji geldi yani şöyle düşünün
+başlangıçta bunlara hız kazandırmıştık e
+kadar kinetik enerji vardı Ahmet sabit
+hızla götürdüğü için yukarıya çıktığında
+da e kadarlık kinetik enerji var Ege de
+e ile başlatmıştı fakat gitgide hızlandı
+atıyorum yukarıya çıktığında 2 e ile
+kinetik enerjisi var artık Dolayısıyla
+burada Ege'nin cisim üzerinde yaptığı
+enerji değişimine Bir de artı e'yi
+eklemeliyiz Çünkü e'den 2'ye çıkartmış
+İşte bu Ahmet'in yaptığı iştir Bu da
+Ege'nin yaptığı iştir Ege'nin yaptığı iş
+daha büyüktür ya da bunu nasıl
+düşünebilirdik iş eşittir kuvvet çarpı
+yer değiştirme yer değiştirmeler ortak
+Zaten ikisi de H kadar yer değiştiriyor
+Fakat bu sefer f'ler aynı değil Ahmet
+yukarıya çıkartmak için kesinlikle 50
+newtonluk bir kuvvet uygulamalı Çünkü
+cismin ağırlığı elini Newton sabit hızla
+gidiyorsam Net kuvvet sıfır olmalı
+newtonun birinci yasası ilk hareketi
+verdikten sonra 50'ye 50 sabit hızla
+çıkartabilirim Ege'de de aşağıya doğru
+linkonluk ağırlık var ama Ege
+hızlandıracak bir cisim yukarıya doğru
+hızlanıyorsa yukarıya doğru net kuvvete
+ihtiyacı var yani Ege'nin uygulayacağı
+kuvvet Kesinlikle 50'den daha büyük bir
+şey olmalı mesela 60 Newton O yüzden
+Ahmet'in yaptığı işi 50 çarpı haştan
+bulursun Ege'nin yaptığı işi 60 çarpı
+ağaçtan buluruz Buradan da görürüz
+egenin daha çok iş yaptı İki de diyor ki
+Ahmet ve Ege'nin Yerçekimi kuvvetine
+karşı yaptıkları işler eşittir Bunu da
+çeşitli açılardan düşünelim ders
+anlatımında kesinlikle bilmeniz gereken
+bir ifade kullanmıştım Bu tanımın bir
+karşılığı var Yerçekimi kuvvetine karşı
+yapılan iş eşittir cismin potansiyel
+enerjisindeki değişim yukarı kaldırılan
+cisimlerde bunu söyleyebiliriz Ahmet'in
+cismi hem yağış kadar potansiyel enerji
+kazandı Ege'nin cismi de en genç kadar
+potansiyel enerji kazandı yani ikisinin
+de potansiyel enerji değişimi aynı
+Dolayısıyla ikinci Öncül Doğrudur
+diyebiliriz ya da bir başka bakış açısı
+yine fx'ten düşünsem Ahmet'in yaptığı
+işin tamamı potansiyel enerji değiştirdi
+çünkü kinetiği değiştiremiyordu yani
+Ahmet 50 haraçlık bir iş yaptı ve bu
+tamamen potansiyel enerjiyi değiştirdi
+Demek ki bu Yerçekimi kuvvetine karşı
+yapılan işin ta kendisidir Ege 60 yaptı
+bunun 50'si 50 çarpı hı potansiyel
+enerjiye gitti 10 çarpı Haşa da kinetik
+enerjiye gitti Ege kinetik enerjiyi
+değiştiriyor da Bunu unutmayın yani Ege
+toplam 60'lık iş yaparken bunun 50'sini
+yer çekimine sus payı olarak verdi ona
+karşı kullandı Tamam sen bunu al dedi
+ben bu 10 ağaçla Bu cismi
+hızlandırıyorum dedi ama Ahmet bunu
+yapamadı Çünkü ellinin tamamını yer
+çekimine karşı verdi Dolayısıyla cisim
+hızlanamadı hangi hıza sahipse Oğuzla
+çıktı diyebiliriz bu yorumlar çok önemli
+buraları anlamaya çalışın anlayana kadar
+dinleyin son durumda kolilerin mekanik
+Enerjileri eşittir mekanik enerji son
+durumda kinetikartı potansiyel Ahmet de
+sadece emgh+ e Ege'de mgh şartı 2E var
+Dolayısıyla bunların mekanik Enerjileri
+aynı değil sorunun cevabı 1 ve 2 yani D
+seçeneği olacaktır Hava direnci önemsiz
+olduğu ve Yerçekimi ivmesini sabit kabul
+edildiği ortamda Orhan en kütleli cismi
+yerden H kadar yükseklikten serbest
+bıraktığı anda mekanik enerjisi 6e
+olmaktadır Bunu hemen görselleştirelim
+şurası bizim zeminimiz olsun H kadar
+yüksekliğimiz olsun En kütleli
+cismimizde böyle olsun Şu an bizim
+mekanik enerjimiz
+serbest bıraktığımıza göre ilk kızım yok
+yani kinetik enerjim yok Dolayısıyla Bu
+tamamen potansiyel enerjidir diyebiliriz
+Orhan aynı cismi e kinetik enerjisi ile
+yerden belli bir yükseklikten
+fırlattığında mekanik enerjisi yine altı
+E oluyormuş şimdi bu nasıl mümkün
+olabilir fırlatıyoruz yani bir hız
+kazandırıyoruz yani bir kinetik
+enerjimiz de var artık potansiyelin
+yanında ama mekanik hala 6 Bu ancak
+potansiyele düşen payın azalmasıyla
+Mümkün olabilir yani cismin haçtan daha
+alçaktan bir yerden fırlatılmasıyla
+Mümkün olabilir cismimiz Daha aşağıda
+bir yerde buna haş üssü diyelim haş üssü
+dediğimiz şey hacdan daha küçük buradan
+fırlatılıyoruz bir V hızımız var ve bu V
+hıza karşılık gelen kinetik enerjiye
+kitap e kadar demiş Demek ki bizim artık
+buradaki potansiyel enerjimiz 5e bu
+ikisinin toplamı sorununu da belirttiği
+gibi 6e cismin yerden yüksekliği H
+kadardır Hayır daha aşağıdan
+fırlatıyoruz dolayısıyla haçtan daha
+küçük olacak cisim fırlatıldığı anda
+yere göre potansiyel enerjisi 5 e'dir
+Evet aynen öyle yazdık cisim yere
+çarptığı anda mekanik enerjisi 7E olur
+hocam bu adam aşağıya doğru hızlanacak
+hızlandığı için mekanik enerjisi de
+artar Çünkü kinetiği artıyor yanlış bir
+yorum Çünkü aşağıya doğru düştükçe Evet
+hızlanacağım ama aşağıya doğru da
+düşüyorum Dolayısıyla buradaki yer
+seviyesine göre potansiyel enerjinin
+daha da azalacak Hava direnci önemsiz
+olduğu için yani sürtünme olmadığı için
+mekanik enerji korunur her yerde 6 e'lik
+mekaniğim olmalı bu arkadaş yere
+çarptığı anda da 6 e'lik mekaniğimi
+olmalı Hatta bu tamamen kinetiktir
+diyebiliriz Çünkü yere düştüğü anda
+artık potansiyel yoktur diyebiliriz
+üçüncü öncüllüm yanlış bize hangileri
+yanlıştır diyordu 1 ile 3 yanlış Sorumun
+cevabı D seçeneğidir Eğer Can
+laboratuvarda yüzeyin cismin hareketini
+etkilerini araştırmak için elle kurulan
+oyuncak Bir arabayı şekildeki gibi kum
+tahta ve cam yüzeyleri bırakarak
+arabanın aldığı mesafeler ölçmüştür
+Oyuncak arabayı her yüzeyde ayrı ayrı
+kullanırken kurma sayılarını aynı
+tutmuştur Yani bu arabalar fullerken Hep
+Aynı hızda fırlayacaklar sonra onu
+anlatmaya çalışıyor Buna göre hangileri
+doğrudur denilmiş Şimdi şekli
+inceliyorum kum zeminde x kadar yol
+almış Durmuş tahtada 2x kadar yol almış
+Durmuş camda 3x kadar yol almış Durmuş
+doğrusal gittiğim için bunlar aynı
+zamanda yer değiştirmedir de diyebiliriz
+Bunları kim durduruyor Tabii ki hız
+vektörüne ters yönde olan sürtünme
+kuvvetleri durduruyor kum zeminle
+arabanın tekerlekleri arasında sürtünme
+oluşuyor hızımı azaltıp beni durduruyor
+tahta zemin arabanın tekerlekleri
+arasında sürtünme kuvveti oluşuyor beni
+durduruyor cam zemin araba arasında
+sürtünme kuvveti oluşuyor beni
+durduruyor Fakat neden hep farklı
+mesafelerde durdurmuş Halbuki Bunların
+hepsi Aynı hızla fırlıyorlar sonra öyle
+diyordu kurma sayıları aynı diyordu
+şimdi önce buradaki
+mevzusunu konuşalım bizim başlangıçta
+hızımız var son durumda hızımız yok
+bizim başlangıçtaki kinetik enerjimiz
+var ki bu 1/2m² kadar ve son durumda bu
+yok Dolayısıyla Benim buradaki değişim
+dediğim şey yani Delta e dediğim şey
+1/2m ve kare kadardır değişim yapılan iş
+tarafından belirlenir Burada işi yapan
+adam yer değiştirme vektörüyle aynı
+doğrultuda olan sürtünme kuvvetidir
+Tabii ki arabanın ağırlığı ve normal
+kuvvet yer değiştirme vektörüne dik
+olduğu için bunları iş yapmaz demek ki
+buradaki iş sürtünme kuvveti çarpı yer
+değiştirme ile bulunur diyebiliriz ve bu
+negatif iştir Dolayısıyla azaltıcı yönde
+bir enerji değişimi gerçekleşmiştir 3
+zemin içinde şu ortak Delta x ne kadar
+büyükse o zaman o kadar az sürtünmeye
+maruz kaldın demektir x mesafede
+durduysak buradaki sürtünme 3ftir dersem
+2x mesafede durduysak buradaki sürtünme
+bir buçuk ev 3x mesafede durduysak
+buradaki sürtünme ffir diyebilirim
+kuvvet ne kadar azsa o kadar uzun
+mesafede durursun aynı enerjiyi yiyip
+bitir soruyu çözdük arabaya etki eden en
+büyük sürtünme kuvveti kum yüzeydedir
+Evet kum zeminde 3F sürtünme oluştu
+Aynen öyle oyuncak arabanın başlangıçta
+sahip olduğu yay potansiyel kinetik
+enerjiye dönüşmüştür kimi hiç
+düşünmediğimiz bir şey aslında bu
+kinetik enerji nereden geliyor
+dediğimizde içeride bir yayı kuruyoruz o
+yayı sıkıştırıyoruz bıraktığımız anda
+yay tekrar eski haline gelirken
+tekerlekleri döndürmeye başlıyor ve
+arabayı fırlatıyor Böylece araba kinetik
+enerji kazanmış oluyor 3 şekilde de aynı
+hızı kazandığıma göre araba aynı
+olduğuna göre kütleler de aynı olduğuna
+göre 3 şekilde de kinetik enerjiler aynı
+Dolayısıyla 3 şekilde de Gerçi onu
+sormuyormuş bana aynı yay potansiyel
+kinetiğe dönüşmüştür diyebiliriz Evet
+zaten aynı miktarda kurduysam 3 arabada
+da aynı esneklik potansiyel enerjisi
+vardır başlangıçta ve onlar kinetiye
+dönüşmüştür diyebiliriz arabaya
+aktarılan kinetik enerji sürtünme
+kuvveti tarafından ısıya harcanmıştır
+yay serbest kaldığında arabaya bir
+kinetik enerji kazandırdı ve o kinetik
+enerji en sonunda yok oldu Niye sürtünme
+negatif iş yaptı Peki o enerji nasıl yok
+oluyor arabadan bağımsız hale geliyor
+tabii ki Is dönüşüp doğaya karışarak
+Elimizi birbirine sürttüğümüzde açığa
+çıkan ısı gibi sürtünme kuvveti iş
+yaptığında
+Isı enerjisi açığa çıkar ve kinetik
+enerjiyi sıfırlar 3 de doğru hepsi doğru
+Sorumun cevabı e seçeneğidir Enerji
+doğada yoktan Vardan yok edilemez yani
+enerji asla kaybolmaz ancak bir enerji
+türü başka bir enerji türüne dönüşebilir
+Buna göre hangilerinde potansiyel enerji
+kinetik enerjiye dönüşmüştür ağaç
+dalında durmakta olan elma ağaç dalında
+duruyorum belli bir yükseklikteyim benim
+bir emgim var Ee orada duruyorum kızım 0
+ve 0 olmaya devam ediyor buradaki
+kinetik enerji ortaya çıkmış mı çıkmamış
+sıkıştırılmış bir yayın önüne bir cisim
+konulup yayın serbest bırakılması
+potansiyel deyince aklımıza hoş
+gelmeyecek yayda depo edilen şey de
+potansiyeldir biri / 2kx kare yayı
+sıkıştırdım sıkıştırdım bir potansiyel
+depoladım bıraktığımda öyle duramam
+artık fırlayacağım bir hız kazanacağım
+bir kinetik enerji kazanacağım
+potansiyel kinetiye dönüşecek Barajlarda
+biriken suların türbinleri döndürmesi
+baraj dediğim şey ne Bir duvar var suyu
+biriktirdim oradaki o Simge Haşa sahip
+yani Yerçekimi potansiyel enerjisine
+sahip suyu serbest bıraktığında aşağıya
+dökülmeye başlayacak ve bir kinetik
+enerji kazanacak o kinetik enerjiyle
+türbinlere çarpıp onları döndürmeye
+başlayacak dolayısıyla potansiyelden
+kinetiğe bir dönüşüm var Sorumun cevabı
+D seçeneği Özdeş K ve L cisimleri
+kütlesi önemsiz ve esnemeyen eşit
+uzunluktaki iplerin ucuna şekil 1'deki
+gibi asılmıştır bu durumda kar cisminin
+bağlı olduğu ipteki gerilme kuvveti L
+cisminin bağlı olduğu ipteki gerilme
+kuvvetinden daha büyüktür hemen bu
+bilgiyi bir işleyelim kayaya bağlanmış
+olan ipteki gerilme kuvveti l'ye
+bağlanmış olandan daha büyük T büyüktür
+T üssü şimdi K nasıl duruyor burada
+duruyor ve durmaya devam ediyor O zaman
+Net kuvvet sıfır kanun ağırlığına GK
+dersen Kaan'ın serbest cisim diyagramını
+çizdiğimde onu buraya aldığımda üzerine
+etki eden kuvvetler neler aşağıya doğru
+ağırlığı var GK niye düşmüyor Çünkü bunu
+tutan yukarıya doğru ip gerilmesi var
+Net kuvvet sıfırsa bu ikisinin birbirini
+götürmesi lazım yani Kaan'ın ağırlığıyla
+ip gerilmesi birbirine eşittir aynı şeyi
+L içinde söyleyebilirim l'nin
+arkadaşlar 2mg l'de ne kadar potansiyel
+vardı başlangıçta mgh o zaman toplam
+potansiyel neymiş 3mg K aynen duruyor
+bunun 2mgh'ı aynen devam ama L Ne oldu
+daha aşağıya indi artık l'yi şu
+mesafeden hesaplayacaksın mesela Burası
+Höyüğü 2 m kütleli cisim artık l'nin
+potansiyeli
+mgh/2'dir toplam ne olur toplam 2,5 mghh
+olur toplam potansiyel enerji azalmıştır
+l'nin bağlı olduğu ipteki gerilme
+kuvveti artmıştır güzel Ben şu l'nin
+bağlı olduğu ipi düşünmek için l'nin
+serbest cisim diyagramını çizsem l'yi
+kestim buraya yapıştırdım üzerine etki
+eden kuvvetler l'nin ağırlığı düşmüyor
+çünkü onu bir ip tutuyor Var mı başka
+bir kuvvet hocam Kai bağlayan ip O ipi
+de çizmeniz gerekmiyor mu hayır Bu
+fotoğrafta bu kırmızı çerçeve içerisinde
+Yukarıdaki ip yok Bu çerçevede kaç ismi
+yok Bu çerçevede sadece L cismi var
+l'nin serbestçe diyagramını çiziyorum
+Lütfen bu serbest çizim diyagramlarını
+iyi öğrenin Newton yasalarında bunları
+konuşmuştuk şimdi başlangıçta da aynı
+şeyi çizmemiş miydik yani şurada
+konuştuğum serbest cisim diyagramı bunun
+ta kendisi ile hiçbir farkı yoktu bu ip
+L cismini taşıyordu E bu şekilde de L
+cismini taşıyor bir şey değişmedi ki
+Dolayısıyla l'yi Taşıyan ipte gerilme
+değişmemiştir kimde değişmiştir kağıda
+değişmiştir k'yı Taşıyan ip artık daha
+fazla gerilmeye sahiptir Neden Çünkü
+başlangıçta Kaan'ın serbest cisim
+diyagramı buydu şimdi bak Kaya Bir ip
+daha bağladık Yani ben artık Kaan'ın
+serbest resim diyagramını çizdiğimde
+üzerine etki eden kuvvetler nelerdir
+dediğimde Kaan'ın ağırlığı var derim
+yukarıya doğru ip var derim Artık burada
+bir ip daha etki ediyor Kaya ve ipler
+itemezler her zaman çekerler aşağıya
+doğru çeken yeni bir gerilme var
+yukarıya doğru Taşıyan gerilme artık bu
+ikisinin toplamını taşıyor bu ipteki
+gerilme artar Ama şu arkadaşlar herhangi
+bir değişiklik olmaz üçüncü öncülüm
+yanlış Sorumun cevabı 1 ve 2 olmalıdır
+bir otobüs motoru petroldeki kimyasal
+enerjiyi arabanın kinetik enerjisini
+aynı zamanda motordaki ısı ve ses
+enerjisine çevirir evrende enerji
+korunur biliyorsunuz toplam enerji
+hiçbir zaman değişmez mekanik
+değişebilir sürtünme Var veya yok
+durumuna göre ama toplam hiçbir zaman
+değişmez mekanik deyince aklıma kinetik
+potansiyel geliyordu ama toplam
+denilince her türlü enerji türü kimyasal
+ısı Güneş vs arabalar nasıl kinetik
+enerji kazanıyorlar Yani nasıl
+gidiyorlar Tabii ki ona benzin
+koyduğumuzda Petrol koyduğumuzda onun
+içerisindeki o bağlardaki kimyasal
+enerji kinetik enerjiye dönüşüyor ve
+motor ısınıyor Niye Çünkü oradaki o
+mekanik aksamlar pistonlar birbirine
+sürtüyorlar sürtünme kuvveti hep orada
+iş yapıyor ve ısı enerjisi açığa çıkıyor
+bu aynı zamanda ses çıkartıyor motor
+sesi diye bir şey var ısının olduğunu da
+çok rahat gözlemleyebilirsiniz bir
+yerden bir yere gittiniz Hele bir de
+uzun bir yolculuksa arabanın yanına
+gelin o Arabanın önündeki ızgaraya
+elinizi yaklaştırın bariz bir sıcaklık
+hissedersiniz işte O motorun
+sıcaklığıdır O sıcaklığın kaynağı nedir
+sürtünmenin yaptığı iştir içeride ısıya
+dönüşen enerjidir Peki bu dönüşümü
+anlattıktan sonra 240 jul arabaya verdik
+bunun 108'i ısıya ve sese dönüşmüş bu
+bizim istediğimiz bir şey mi yani biz
+bir arabadan ses çıkmasını mı istiyoruz
+Hayır biz bir arabadan gitmesini
+istiyoruz Eğer bu yüzde yüz
+[Müzik]

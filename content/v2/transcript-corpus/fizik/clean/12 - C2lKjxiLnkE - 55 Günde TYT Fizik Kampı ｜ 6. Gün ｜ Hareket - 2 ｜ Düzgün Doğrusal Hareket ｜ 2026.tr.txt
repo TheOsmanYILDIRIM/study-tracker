@@ -1,0 +1,864 @@
+Şimdi geldik düzgün doğrusal harekete
+temel kavramları İyi öğrenmiş olmamız
+lazım alınan yol ne demek yer değiştirme
+ne demek sürat ne demek hız ne demek
+süratle hızın farkı nedir Bunları iyi
+öğrendikten sonra düzgün doğrusal
+harekete geçebiliriz Aslında Bunun
+Türkçesi sabit hızlı hareket olarak da
+geçer düzgün kelimesi varsa fizikte bir
+yerde orada sabit bir şeylerden
+bahsediliyor demektir burada sabit olan
+şey hız yani Bizim burada bir
+hareketlimiz var mesela Buradaki gibi
+bir arabamız var Bu araba Hep Aynı hızla
+gidecek hızı artmayacak ya da hızı
+azalmayacak Bu arada hız vektörel
+büyüklük Dolayısıyla yöne sahip Ama
+burada yön değişebilir sağ tarafa
+giderken sol tarafa dönebilir ama hız
+büyüklüğü hep aynı kalacak yavaşlama
+hızlanma durumları şu an bizim için söz
+konusu değil Burada bir grafik görüyoruz
+aşağıda konum değerleri var yukarıda
+zaman değerleri var Bunu bir sayı
+doğrusu gibi düşünebilirsiniz yani
+şurası sayı doğrusu ekseni gibi burası 0
+Burası 30 metre Hatta bunu bir cetvel
+gibi de düşünebilirsiniz burası 60 metre
+Burası 90 metre Burası 120 metre
+bunların Her biri bir konum anlatıyor
+hocam konum Sektörel değil miydi Bir
+referans noktasından vektör çizmiyor
+muyduk Evet mesela 30 metre konumu demek
+referans noktasını sıfır kabul edersem
+şöyle bir vektördür 60 metre konumu
+şöyle bir vektördür diyebilirim ve ben
+sağ tarafa artı yön dersem Bunlar
+sıfırın hep sağında kaldığı için artı 30
+artı 60 artı 90 gibi şeyler yazmam bu
+vektörleri silebilirim anlamına geliyor
+Çünkü buradaki artılar yön belirtiyor
+referans noktasının sağında kalan
+noktalar Bunlar şimdi araba başlangıçta
+sıfır konumunda kronometrede sıfırda
+kronometreyi başlattım araba gaza bastı
+gidiyor 5 saniye sonra 30 metre
+konumunda 10 saniyede 60 metre konumuna
+gelmiş 15 saniyede 90'a gelmiş 20
+Saniyede 120 metreye gelmiş Siz bunu
+daha da somutlaştırabilirsiniz bu
+konumlara bir şehir ismi de
+verebilirsiniz işte Burası istanbuldur
+burası kocaeli'dir Burası boludur burası
+Ankara'dır Burası sivas'tır böyle
+gidiyor Tabi bizim konumuz doğru sal
+hareket Yani bir doğru üzerinde
+gideceğiz iki boyutlu hareket değil tek
+boyutlu hareket yapıyoruz Dolayısıyla bu
+İstanbul Kocaeli Bolu hattını dümdüz
+hayal et bir tren yolu gibi şimdi
+kronometrm 0'da arabada sıfır konumunda
+İstanbul'da araba gaza bastı Ben de
+kronometreyi çalıştırdım 5 saniye sonra
+30 metre konumuna geldi kocaeli'deyiz 10
+saniyede Bolu'ya geldik 15 saniyede
+Ankara'ya geldik 20 Saniyede Sivas'a
+geldik gibi düşünebilirsiniz tabi bu
+şehirler benzetme 20 Saniyede nasıl
+Sivas'a Geldik diye şu an İnşallah kafa
+yormuyorsunuzdur bu söylediğim şeyleri
+burada tablo olarak da görüyorsunuz 5
+saniyede 30 konumunda 10 saniyede 60
+konumunda falan şimdi bu düzgün doğrusal
+hareket midir hocam dümdüz bir yolda
+gidiyor bu doğrusal hareket güzel Peki
+düzgün doğrusal mıdır yani sabit hızla
+mı gidiyor bu adam hız büyüklüğü hiç
+değişiyor mu hızlanma yavaşlama var mı
+hız ne demek hız dediğimiz şey birim
+zamanındaki yer değiştirme demek Delta x
+bölü Delta T demek hız vektörel bir
+büyüklük Şimdi mesela bu adam sıfırıncı
+saniyeden 5 saniye kadar ne kadar yer
+değiştirdi sıfır konumundan 30 konumuna
+geldiğine göre artı 30 metre yer
+değiştirdi kaç saniyede yaptı bunu
+sıfırdan 5'e 5 saniyede yaptı O zaman bu
+arkadaşın hızı 6 m/s Hatta yön olarak
+söylersek artı 6 m/s diyebiliriz Çünkü
+yer değiştirme Artı o zaman hızla artı
+çıkacak yer değiştirme vektörü sağ
+tarafa doğru o zaman hız vektörü de sağ
+tarafa doğru araba nereye gidiyorsa hız
+vektörü de orayı gösterir başka bir yere
+yapalım 15 saniyeyle 25 saniye arasına
+bakalım bu iki süre arasında kaç metre
+yer değiştirmiş yer değiştirme vektörü
+Şu 90 konumundan 150 konumuna gitmiş
+yani artı 60 metrelik bir yer değiştirme
+var Artı 60 metre bölü zaman yapmam
+gerekiyor 15 saniyeden 25 saniyeye
+gittik 10 saniye zaman geçmiş bunu 10'a
+bölersek yine artı 6 metre bölü saniye
+çıktı Nereden bakarsanız bakın hangi iki
+noktayı incelerseniz inceleyin hep artı
+6 çıkacak Yani bu arkadaş sabit hızlı
+hareket yapıyor bir doğru üzerinde
+gittiği için de düzgün doğrusal hareket
+yapıyor Bunun konum zaman grafiğini
+çizeceğiz en önemli şey bu grafikler
+düşerek Sen konum ekseni yatay Eksen
+zaman ekseni olsun zaman 05 10 diye
+Saniyeler var bunları buraya
+yerleştiriyorum 05.10 diye konum
+eksenine de konum değerlerini
+yerleştiriyorum grafiği beraber
+oluşturalım sıfırıncı saniyede 0
+konumundayız o zaman sıfıra sıfırı
+işaretledim böyle bir nokta beşinci
+saniyede 30 metre konumundayız 5 saniye
+ile 30'u birleştirmem lazım yine şöyle
+bir yeşil nokta 10 saniyede 60
+konumundayız 10 ile 60'ı birleştirmem
+gerekiyor 15 saniyede 90 konumundayız 15
+ile 90'ı birleştiriyorum bakın düzgün
+bir çizim yaptıysanız bu yeşil noktaları
+birleştirdiğinizde düzgün artan bir
+grafik elde edersiniz işte düzgün
+doğrusal harekette konum zaman grafiği
+bu kırmızı çizgidir Peki ben bu
+grafikten hız hesaplayabilir miyim hız
+nasıl bulunuyordu tekrar yazalım yer
+değiştirmenin zamanı bölünmesiyle
+bulunuyor Ve yukarıda biz bunun değerini
+hep kaç bulduk 6 metre bölü saniye
+bulduk formül kullanmadan Acaba ben bu
+grafikte 6 metre/saniyeyi nasıl elde
+ederim eğimden elde ederim Bunu hiçbir
+zaman unutmuyorsunuz konuğun zaman
+grafiğinin eğimi bize hızı verir konum
+zaman hız eğim ne demek Hocam 9 sınıflar
+daha tanjant Alfa falan bilmez ama eğim
+kavramını bilmek zorundalar kolumun şu
+hali eğimin sıfır olduğu hal bu koluma
+biraz açık kazandırırsam belli bir eğim
+oluşturdum biraz daha kazandırdım eğim
+arttı biraz daha kazandırdım eğim arttı
+yani eğim Aslında açıyla ilgili kolumun
+yatağıyla yaptığı açı arttıkça gitgide
+dikleştikçe Bu kol eğim artıyor
+Dolayısıyla ben grafikteki açıyı
+incelersem onun eğimi ile ilgili fikir
+sahibi oluyor açıda benim aklıma üçgeni
+getiriyor Örneğin şöyle bir çizgi
+düşünelim Bir de şöyle bir çizgi
+düşünelim bunların eğimlerini kıyaslamak
+istiyorum E hocam soldaki daha dik onun
+eğimi daha fazla Evet ama bunu biraz
+daha sayısal yolla yapacağım bunu üçgene
+tamamla şöyle üçgene tamamladım Diğerini
+de aynı şekilde üçgene tamamlıyorum
+soldakinin eğimi büyük Çünkü şu açı
+büyük Sağdaki eğimi küçük çünkü şu açı
+küçük bunun sayısal değerini de açının
+büyüklüğünü gösteren ifadeyi de karşı
+böyle komşu kenarla anlıyoruz eğim demek
+Seçtiğiniz açının karşı kenarını komşu
+kenarına bölerek yapabileceğiniz bir şey
+soldaki eğimi niye fazla Çünkü karşı
+uzunluğu fazla sağdakinin eğimini yaz
+Çünkü karşı uzunluğu çok az Bu da aynı
+zamanda bunun komşusunun çok büyük
+olmasını getiriyor ki komşunun büyük
+olması eğimi azaltır ve bunun komşusu
+daha az karşı büyük komşu küçük Çok dik
+Örneğin daha da dik versiyon Şu karşı
+çok çok büyük komşu çok çok küçük Tabii
+ki açımız şurası açının temas ettiği
+kenara yani şuralara komşu diyoruz
+karşısındaki kenara karşı diyoruz aynı
+üçgeni bu grafikte oluşturuyorum diyelim
+ki Şurada bir üçgen oluşturalım bak açı
+bu bunun karşısında şöyle bir uzunluk
+var bu uzunluk düşeydeki bir uzunluk bu
+uzunluk Aslında şunun ta kendisi bu
+bölge konum ekseninde konumdaki bir
+değişim ifade ediyor O zaman burası
+Delta yatayda yani şurayla eş değer
+Burası zaman ekseninde O zaman bu
+uzunluk zamandaki değişimi temsil ediyor
+eğim ne demekti karşı böyle komşu
+demektir O zaman Ben buradaki bu üçgenin
+eğimin hesaplarsam alfanın karşısında
+Delta x var komşusunda Delta T var biz
+buna ne diyoruz
+deltex/deteye hız diyoruz işte o yüzden
+konum zaman grafiğinin eğimi hız verir
+bölme işlemi varsa orada eğim vardır
+eğim de bu grafikte hız verecektir
+sayısal olarak ispatlayalım bu sarı
+bölge Delta x dedim sarının üst ucu 90'a
+karşılık geliyor sarının alt ucu 60'a
+karşılık geliyor o zaman buradaki
+değişim 30 yani şu uzunluk 30 kadar
+maviye bakarsam sol ucu Ona karşılık
+geliyor sağ ucu 15'e karşılık geliyor o
+zaman bu arası beştir karşı bölü komşu
+deltx bölü Delta t30/5'ten 6 metre bölü
+saniye yapacaktır başka bir yer
+inceleyelim hocam başka üçgen inceleyin
+bak Şurayı inceleyelim üçgen Burası
+olsun açıyı yine buraya kondurdum Alfa
+bunun karşısı bu düşeydeki sarı bir ucu
+60'ta öbür ucu sıfırdı o zaman burası 60
+yataya baktığım zaman bir ucu sıfırda
+öbür ucu onda o zaman burası 10 karşı
+bölü Komşu 60/10 yine 6 metre bölü
+saniye Çünkü açı yine Alfa Aynı burada
+olduğu gibi bu sabit hızla hareket
+grafiğidir Çünkü bizim grafiğimizin
+eğimi hiç değişmemiş Yani şöyle bir
+eğimde giderken birden daha dik hale
+gelmemiş veya böyle bir eğimle giderken
+eğim azalmamış hep aynı nereyi
+incelerseniz inceleyin hep aynı açı var
+Burası da Alfa olur burası da Alfa olur
+geometreden anlarsınız Bunlar yöndeş
+açılar Tamam hocam biz burada büyüklüğü
+anladık 6 metre bölü saniye çıkıyor da
+yönü nasıl anlayacağız sağ tarafa mı
+gidiyor sol tarafa mı Gidiyor bunu nasıl
+anlayacağız matematikte grafiğini sağa
+yatıksa şöyle bir şeyse bunun eğimi
+pozitiftir grafiğini sola yatıksa şöyle
+bir şeyse bunun eğimi negatiftir bizim
+grafiğimizdeki bu kırmızı çizgi sağa
+yatık Dolayısıyla bulduğumuz bütün
+sonuçlar artı altı altıydı sola yatık
+olsaydı kırmızı gibi değil de şu mavi
+gibi bir grafik elde etseydik İşte o
+zaman eğim negatif çıkardı eğim de hız
+demek olduğuna göre hızın negatif olması
+bir sol tarafa doğru gidiyoruz demek
+olurdu ispatlayalım saniye sıfırken 90
+konumundayız saniye 5 iken 60
+konumundayız bu mavi grafiğe göre önce
+90'dayız sonra 60'tayız önce 90 sonra
+60'taysam ben nereye doğru gidiyorumdur
+Ben sola doğru gidiyorumdur eğim negatif
+o zaman hız negatif O zaman ben sola
+gidiyorum demektir bu kısmı unutmuyoruz
+konum zaman grafiğin eğimi hız verir
+hemen bunun Hız zaman grafiğini vt
+grafiğini çizelim zaman aynı zaman 0.5
+10 15 diye giden bir zamandan
+bahsediyoruz hangi üçgeni incelersem
+inceleyeyim ister şu üçgeni inceleyeyim
+ister bu üçgeni inceleyeyim ister bu
+üçgeni inceleyeyim hepsinde eğim altı
+çıkıyordu Hatta kocaman bir üçgen
+inceleyin yani Şurayı inceleyin yine 6
+çıkar bak bir ucu 90'da öbür ucu sıfırda
+şurası 90 bir ucu sıfırda öbür ucu 15'te
+Burası 15 90/15 yine 6 Dolayısıyla ben
+sabit hızla gittiğime göre sıfırıncı
+saniyede hızım 6 5 saniyede hızım yine 6
+10 saniyede hızım yine altı 15'te yine 6
+E bu noktaları birleştirdiğimde dümdüz
+bir grafik elde ediyorum çünkü sabit
+hızla hareket yapıyorum bunları bir
+simülasyonda görelim bakın burada
+doğrusal yolumuz var 0 metre referans
+noktası kabul edilirse sol tarafa doğru
+konumlarım -2 -4 -6 metre diye gidiyor
+sağ tarafa doğru artı 2 artı 4 artı 6
+metre diye konumlarım gidiyor yataydaki
+bu sayısal değerler konumlar Şu an ben 0
+konumundayım Eğer hızımı artı 2
+ayarlarsam sağ tarafa doğru artı
+seçtiğim için saniye Başına 2 metre yer
+değiştireceğim demektir hız eşittir
+birim zamandaki yer değiştirme saniye 1
+ise hızım artı 2 ise o zaman yer
+değiştirmem de +2 çıkmalıdır her saniye
+artı 2 sağ tarafa doğru 2 metre
+gideceğim başlatıyorum 1 2 3 4 saniyede
+8 metre konumuna geldim diyebilir geri
+dönmek için ne yapmalıyım buradaki
+ayarlarla nasıl oynamalıyım hızımı bir
+kere eksi değer girmeliyim Çünkü eksi
+hız demek artık yön değiştirdin sola
+gidiyorsun demek hem sola gidelim Hem de
+daha hızlı gidelim O yüzden ben bunu -4
+yaptım saniye Başına 4 metre sola doğru
+yer değiştireceğim bakın 8'deyim bir
+saniye sonra sola gittiğim için dörde
+gelmem gerekiyor sonra sıfıra gelmem
+gerekiyor başlattım bir iki üç dört bu
+şekilde 4 metre yer değiştirerek sola
+doğru gitti Bunun grafiklerine bakarsak
+yine sıfır konumundayım artı 2 yaptığım
+hızımı başlattım grafiklerimi oluşsun
+bakın Konumum gitgide artıyor düzgün
+artıyor eğiminde herhangi bir değişiklik
+yok daha dikleşmiyor ya da daha eğimi
+azalmıyor daha düzleşmiyor hep aynı
+eğimle gidiyor çünkü hızım sabit hep 2
+ortadaki de zaten hız zaman grafiği
+gördüğünüz gibi hiç değişmiyor hep artı
+2 değerinde tam bu konumdayken yine yön
+değiştirelim yön değiştirmem için hızımı
+negatif yapmam lazım bu sefer eksi 4
+yapalım daha hızlı geri dönelim konum
+zaman grafiğine dikkat edin gördüğünüz
+gibi sola yatık bir grafik elde ediyorum
+çünkü hızım eksi o zaman eğimi Maxi
+Çünkü konum zaman grafiğinin eğimi hızı
+veriyor incelediğimde neyi fark ediyorum
+şu mavi grafikle şu mavi grafik
+kıyaslandığında hangisi daha dik Tabii
+ki Sağ taraftaki Çünkü oradaki hızım
+eksi 4'tü başlangıçtaki hızım artı
+ikiydi artı eksiye takılmayın onlar yön
+belirtiyorlar burada 4 kadar hızın var
+burada 2 kadar hızım var o yüzden daha
+hızlı olduğum yerde eğimin fazla Hız
+zaman grafiğini incelediğimde
+başlangıçta +2'de sabittim son durumda
+-4'te sabit Bu simülasyonda da yine Hız
+zaman grafiklerini ve konum zaman
+grafiklerini göreceğiz şu grafik konum
+zaman grafiği şu Sağ üstteki de hız
+zaman grafiği onun altındaki şu an ivme
+zaman onu henüzü öğrenmedik başlatalım
+arabamız ilerliyor şu an Arabamızın hızı
+18 kilometre/saat yani 5 metre bölü
+saniye konum zaman grafiğini
+görüyorsunuz konumu düzgün olarak
+artıyor Çünkü bu arkada sağ tarafa doğru
+ilerliyor sayı doğrusu gibi cetvel gibi
+düşünürseniz sağ tarafa doğru gittikçe
+cetveldeki numaralar büyür ve sabit
+hızla gittiği için eğimimiz hiç
+değişmiyor Çünkü konum zaman grafiğinin
+eğimi hızı verir Bu arkadaşın hızı
+değişmiyor O yüzden eğim sabit git gide
+daha dik hale gelmiyor Daha düz hale
+gelmiyor Hız zaman grafiğine
+geçtiğimizde hızın değişmediğini zaten
+görüyoruz 5 metre bölü saniyelik hızla
+hep aynı değerle ilerliyoruz şimdi araba
+değişecek başka yorumlar yapacağız başka
+bir araba göreceğiz Evet yeşil Bir araba
+daha hızlı 10 metre bölü saniye hızı var
+gördüğünüz gibi konum zaman grafiği daha
+dik Çünkü bu adam daha hızlı eğim arttı
+Çünkü hız arttı Hız zaman grafiğinde de
+zaten artık 10 değerinde sabit bir
+grafik oluştuğunu görüyoruz daha da koyu
+yeşil bir araba bu arkadaş 15 metre bölü
+saniye daha da dik bir grafik konum
+zaman grafiği en hızlısı 20 metre bölü
+saniye ile giden bir araba Şimdi geldik
+en yavaş arabaya en yavaş araba
+gördüğünüz gibi 2 metre bölü saniyeyle
+gidiyor eğimi En küçük olan grafik oldu
+konum zamanda hız zamanında da en altta
+oldu 2 metre bölü saniyelik hızla sabit
+olarak ilerlediğini söyleyebiliriz Peki
+biz yine 6 ile giden arabamıza dönelim
+Hız zaman grafiğini çizmiştik demiştik
+ki kesinlikle bilinmesi lazım konum
+zaman grafiğinde eğime bakarsanız hızı
+bulursunuz hız hakkında fikir sahibi
+olursunuz grafik sağa yatıksa
+pozitifeyim araba artı yönde gidiyor
+grafik sola yatıksa negatifeyim araba
+sol tarafa gidiyor Şimdi ben bu
+grafikten şu Hız zaman grafiğinden acaba
+ters işlem yapıp yer değiştirmeyi
+hesaplayabilir miyim yani konum zamanın
+eğimine bakıp hızı buluyorsan acaba daha
+Hız zaman grafiğinin Nesine bakarak yer
+değiştirmeyi bulurum bunu anlamak
+Aslında çok kolay Biz burada geometrik
+işler yapıyoruz eğim dediğimiz şey
+geometrik bir olaydı bu grafikte de yani
+Hız zaman grafiğinde de hız değerlerini
+gösteren grafikte de nereye bakacağımızı
+yine formülden çıkartabiliriz hız
+dediğimiz şey birim zamandaki yer
+değiştirme demek ben yer değiştirmeyi
+bulmak istiyorsam onu yalnız bırakırım
+yani içler dışlar yaparım o zaman Delta
+ikisi yalnız bıraktığımda hızla zamanı
+çarpmam gerektiğini görüyor hız vektör
+ile zamanı çarpacağız şimdi Hız zaman
+grafiğinde şu Eksen hızı tarif ediyor
+düşeye baktığımda hız hakkında fikir
+sahibiyim güzel E bu Eksen zaten zaman
+ekseni Burası da bana zaman hakkında
+fikir veriyor Ben bu hızla zamanı
+çarpınca yer değiştirmeyi buluyorsam o
+zaman buradaki hızla zamanı çarparım bu
+sarı kenarla mavi kenarı çarptığımda
+geometrik olarak Şuradaki dikdörtgenin
+alanını hesaplamış oluyor işte bu alan
+yer değiştirmenin ta kendisidir yani Hız
+zaman grafiğinde alana bakarsanız
+grafikle Yani bu kırmızı çizgiyle zaman
+ekseni arasındaki alana bakarsanız yer
+değiştirmeyi bulursunuz bulabildik mi
+sağlamasını yapalım Şu Eksen kaç
+sıfırdan altıya o zaman buradaki hız
+değeri 6 hız değişimi altı o zaman
+buradaki hız değeri 6 0'dan 5'e o zaman
+buradaki zaman değeri 5 e Bu ikisini
+çarpacaksak wt yapacaksak 6 x 5'ten 30
+metre artı 30 metre yer değiştirmiş
+olmamız lazım 5 saniyede öyle olmuş
+muydu 30 metre yer değiştirmiş miydik 5
+saniyede tekrar en başa dönersek
+sıfırıncı saniyede 0 konumundaydık 5
+saniyede 30 metre konumundaydık yani ne
+kadar yer değiştirdik 30 metre yer
+değiştirdik Demek ki doğru yaptık burada
+düşülen en büyük hata şu Hız zaman
+grafiğinde alana bakarsak konumu
+buluyoruz hocam ikisi buluyoruz Yanlış
+yer değiştirmeyi buluyorsun E hocam 30
+Bulduk işte 30 konum Burası 0 olduğu
+için denk geldi Normalde Senin bulduğun
+şey şu uzunluk yani yer değiştirme
+grafikte başka yerlere inceleyelim ne
+demek istediğimi anlayacaksın Örneğin
+ben şu dikdörtgenin alanını hesapladığım
+ne yapmış oluyorum düşeceksen hız
+ekseniydi yani şunun Ta kendisiydi
+Burası V demekti yatay Eksen zaman
+demekti Burası T idi Ve x = vt Aslında
+doğru formül yazarsak Delta x eşittir V
+çarpı Delta T yani yer değiştirmeyi
+veriyor hızla zamanı çarptığınızda
+burası 6 Burası kaç bir ucunda 5 var
+öbür ucunda 15 var o zaman oradaki fark
+10 6 çarpı 10'dan Burası 60 metre yapar
+artı 60 metre Yani biz 60 metre
+konumunda mıyız en sonunda 15 saniyede
+Hayır bu bizim yer değiştirmemiz Biz
+beşinci saniyeden 15 saniye kadar 60
+metre yer değiştirmişiz bakalım 5 saniye
+Burası 15 saniye Burası 5 saniyede Biz
+30 metre konumundayız 15 saniyede 90
+metre konumundayız ne kadar yer
+değiştirmişiz 60 metre yer değiştirmişiz
+eğer o grafiğin alanı konumu veriyor
+olsaydı cevabın 90 çıkması gerekirdi
+Hayır konumu vermedi yer değiştirmeyi
+verdi Çünkü yer değiştirmemiz 60 metre
+çıktı Dolayısıyla unutmayacağımız iki
+şey telefonum zaman grafiği hızı verir
+Hız zaman grafiğinin alanı yer
+değiştirmeyi verir bunları ezberleyin
+diye söylemiyorum bunların hepsini ve
+eşittir Delta x bölü Delta t'den
+anlayabilirsiniz bölme işlemi varsa eğim
+hesaplıyorsunuzdur konum zaman
+grafiğinde konumu zamana bölerseniz
+eğimi bulursunuz hızı bulmuş olursunuz
+İçler dışlar yapıp vt yaparsanız hızla
+zamanı çarparsanız Hız zaman grafiğinde
+alan bulmuş olursunuz O da size yer
+değiştirmeyi verir çarpma alan bölme
+Eğil doğrusal yolda farklı noktalardan
+harekete başlayıp eksi yönlerde giden
+araçların konum zaman ve hız zaman
+grafikleri nasıl olur şurada iki tane
+grafik var Bunları bir yorumlayalım
+bakın bu konum zaman grafiği Aslında
+bizim çizdiğimiz sayı doğrusunun düşey
+versiyonu yani şurası 0 konumu bu
+arkadaş Burası artı x konumu Yani bu
+arkadaş şurası -x konumu bu arkadaş
+Burası -2x konumu O da bu arkadaş Yani
+aslında yataydaki Yolumuzun düşeydeki
+versiyonu gibi grafik buradaki sarı
+kırmızı mavi renkli grafiklere bakarak 3
+tane araba olduğunu anlayabilirim sarı
+arabanın başlangıçtaki konumu +x bu
+arkadaş burada bu sola mı gidiyor sağa
+mı gidiyor nasıl anlarım Hızlan anlarım
+çünkü hızın yönü gittiğim yönü verir hız
+vektörüm nereye gösteriyorsa ben de
+oraya gidiyorumdur konum zaman grafiği
+var elimde XT var x'i t'ye böldüğümde
+hızı buluyorum bölme işlemi eğim demek
+yani konum zaman grafiğinin eğimi hızı
+veriyor buradaki 3 grafikte sola yatık
+sola yatık demek eğim negatif demek
+Dolayısıyla bu 3 aracın da hızı sol
+tarafa doğru üçü de sola gidiyor kırmızı
+araba başlangıçta sıfır konumunda burada
+o da sola gidiyor mavi araba başlangıçta
+eksi x konumunda yani şurada O da sola
+gidiyor Ben bunların hepsinin hız
+büyüklüğüne V yazdım hepsi Aynı hızda mı
+gidiyor Hayır Çünkü eğimler farklı
+Buradaki en dik grafik hangisi şu sarı
+olan sonra kırmızı sonra mavi hesap
+yapmıyorum tamamen kafamdan sallıyorum
+mavinin hız büyüklüğüne V dediysem
+kırmızı ya iki ve sarıya da 3v
+diyebilirim çünkü en dik olan sarı en
+düz olan mavi açı düşüneceksem açıları
+şuraya kondurabilirim açısı küçük olan
+eğimi de küçük olan demektir bu grafiğe
+bakarak hız zaman grafiği yorumlarsam
+zaten yorumlamış oldum aslında bir kere
+bütün hızlar eksi taraftalar Hız zaman
+grafiğinin eksi tarafında çizilmişler en
+büyük hız sarıda olduğu için en aşağıda
+çizilmiş yani şurası 1 ise şurası 2'dir
+şurası 3'tür İyi de hocam bunların
+başında eksi var ve biz biliyoruz ki
+matematikte -3 küçüktür -2'den O da
+küçüktür -1'den yani Buradaki en hızlı
+olan M olması gerekmiyor mu gerekmiyor
+Çünkü buradaki eksiler yön Bildirir
+Matematikteki eksiyle karıştırmamak
+lazım eksi 3v'lik hız büyüktür -2v'lik
+hızdan O da eksi v'lik hızdan
+diyebiliriz Çünkü hızımızın büyüklüğü
+eksiği unutun 3 ve burada hızımız 2 ve
+Burada 1v sadece eksi olması demek
+yönünü anlatıyor bu gibi konular soru
+çözdükçe gelişir soru çözelim bir
+hareketlinin zamana bağlı konum değişim
+grafiği verilmiş hareketlinin 10
+saniyelik zaman dilimi için Hız zaman
+grafiğini çiziniz Bu bir konum zaman
+grafiği benden Hız zaman çizmemi istiyor
+şuraya hızlı kondurdum şuraya Zamanı
+kondurdum 5 10 15'lik saniyeleri buraya
+yapıştırıyorum Aynen şimdi hız
+değerlerine Ne yazacağız Tek bildiğim
+şey hız demek Delta x bölü Delta T demek
+bölme işlemi var yani eğim var Karşıyı
+komşuya böleceğim demektir bu konum
+zaman grafiğinde x'i t'ye bölmek demek
+hızı bulmak demek konum zaman grafiğinde
+eğim hızı veriyor demek önce şu 5 saniye
+kadar olan grafiğin eğimini hesaplayayım
+bunun için onu bir üçgene tamamlamam
+lazım şöyle bir üçgen gibi hayal edersem
+onu açıyı şuraya kondurdum karşısında şu
+kenar var bu kenar buraya eşit Burası 30
+birim Dolayısıyla Burası 30 komşusu bu
+kenar açının temas ettiği kenar orası da
+sıfırla 5 arası E5 birim karşı bölü
+komşu eğimi belirler
+30/5'ten 6 metre bölü saniyelik hız var
+Ben buna şuradan bir üçgen oluştursaydım
+da altı çıkacaktı şuradan bir üçgen
+oluştursaydım da 6 çıkacaktı çünkü hep
+aynı Alfa açısı var Alfa aynı ise eğim
+aynı eğim aynı aynı yani nereden
+bakarsan bakayım Hep 6 çıkacağı için
+sıfırıncı saniyeyle 5 saniye arasında
+hızım hep 6'dır sabit bir grafik çizerim
+şimdi 5 ile 10 arasına baktığımda dümdüz
+bir çizgi görüyorum Bunun eğimi var mı
+açı yazsam Nereye yazacağım Yazacak bir
+yer yok açı oluşmamış o zaman burada
+eğim sıfır dümdüz bir yol yokuş değil bu
+Sen şimdi buraya eğim sıfır dersen o
+zaman hız sıfır demiş oluyoruz Evet
+çünkü sen 30 metre konumundasın 5
+saniyede 6 saniyede de 30 metre
+konumdasın 7'de de 30'dasın onda da
+30'dasın yani sen Kocaeli'ye gelmişsin
+ve orada durmuşsun konumun hiç
+değişmiyor ki hızın yok çünkü
+Dolayısıyla 5 ile 10 arasında hızım yok
+o yüzden ben bunu 0'da işaretledim Şimdi
+gelelim 10-15 arasına bir kere Bu sola
+yatık bir grafik dikkat ederseniz Bu
+sola yatmış o zaman bunun eğimin negatif
+çıkacak Yani hızı eksi yönde sola
+gidiyor bu adam hız değerleri negatif
+bunu üçgene tamamladığımda açıyı şuraya
+kondurduğumu varsayın şöyle bir üçgen
+düşüneceğim
+karşısı bu kenar yani şurası ki bunun
+aynısı Burası da 30 açının temas ettiği
+kenar komşusu Burası bir ucunda 10 var
+öbür ucunda 15 var o zaman arası farkı 5
+kadar orası 5 birim uzunluk karşı bölü
+Komşu 30/5'ten yine 6 çıkacak fakat sola
+yatık olduğu için eğim eksi altıdır eğim
+hız olduğuna göre ben şu grafiği eksi
+tarafta uzatırsam burada eksi 6
+işaretlerim onla on beş arasında
+Dolayısıyla bizim Hız zaman grafiğimiz
+bu şekilde başlangıçta artı yönde 6 ile
+gidiyor Sonra durmuş Sonra geri dönüp
+altıyla gitmiş Gerçi soru bize 10
+saniyelik zaman dilimi için soruyormuş
+Biz bütün yolu 15 saniye yaptık normalde
+sadece Şurayı yapsaymışız yetermiş ama
+olsun Bizimki daha güzel oldu bir
+hareketliliğe ait zamana bağlı hız
+değişim grafiği verilmiş ama bu konum
+zaman gözüküyor şu an bunu yanlış
+yapmışız buraya hız diyeceğiz
+hareketlinin konum zaman grafiğini
+çiziniz bakın 10 saniye boyunca 6 ile
+sağ tarafa gitmiş sonra biraz hızlı
+Gitmiş dokuzla gitmiş sonra Durmuş değil
+mi hızı sıfır dikkat edin düşerek Sen
+hız bu sefer hep hız yorumluyorum konum
+değil Sonra hız değeri -3 olmuş bu ne
+demek geri döndüm demek hızın eksi
+olması ters yönde gidiyorum Demek benden
+konum zaman çizmemi istiyor bunun hemen
+altına tam zamanları da denk getirerek
+grafiğimizi yapıştırabiliriz şurası
+konum ekseni şurası zaman ekseni hız
+eşittir yer değiştirme böyle zaman yer
+değiştirmeyi yalnız bırakırsam hız çarpı
+zaman olur yani Hız zaman grafiğinde bu
+ikisini çarparsam yer değiştirmeyi
+buluyorum çarpmak alan demek Dolayısıyla
+sıfırıncı saniyeyle 10 saniye arasında
+şu alanı hesaplarsam oradaki yer
+değiştirmeyi hesaplamış oluyor çünkü
+düşey Eksen hız ekseni yatay Eksen zaman
+ekseni Bu ikisini çarpmam yer
+değiştirmeyi ve buradaki alanı bulmam
+demek aynı anda Tabii şu zamanları da
+bizim grafiğimize yerleştirelim burası
+10 saniye Burası 20 hız ekseninde ne var
+düşeyde 6 var şurası 6 şurası 10 o zaman
+burası artı 60 metredir başlangıçta bu
+arkadaşın sıfır konumunda olduğunu
+varsayarsam
+Biz bunu 60'a kadar çıkartacağız şurası
+artı 60 metre Hocam niye böyle direkt 60
+da sabit çizmediniz de sıfırdan 60'a
+götürdünüz Çünkü bu yer değiştirme bu
+adam gidiyor yani şurası sizin yolunuzsa
+Siz başlangıçta 0 metre konumundaysanız
+Biz ne bulduk dedik ki bu adam 60 metre
+yer değiştirecek 0 konumundan 60 metreye
+gitmesi lazım ki artı 60'a ulaşsın
+toplamda 60 metre yer değiştirmiş olsun
+ışınlanmıyor ki yani bu arkadaş
+sıfırdaydı sonra bir anda 60'ta
+belirmedi ki artı ona gitti artı 20'ye
+gitti +30'a gitti artı 40'a gitti işte
+oralar Buralar artı 10 artı 20 artı 30 O
+yüzden direkt 60 da çizmedim sıfırdan
+60'a götürdüm Çünkü biz İstanbul'dan
+Ankara'ya giderken Ankara'da
+ışınlanmıyoruz arada Kocaeli'den
+Bolu'dan geçiyoruz Şimdi 10 saniyeyle 20
+saniye arasına gelelim Şuradaki alan
+bize yer değiştirmeyi verecek Şu kenar
+sıfırla 9 arası olduğu için 9 şu kenar
+onla 20 arası olduğu için 10 o zaman
+buraya çarparsam artı 90 metre demek Ben
+şu an artı 60'dayım 90 daha gideceğim
+Nereye giderim 150'ye Giderim Bu
+arkadaşı 60'tan 150'ye götüreceğiz Peki
+nasıl götüreceğiz aynı eğim de mi
+götüreceğiz Hayır daha dik götüreceğiz
+niye Hocam daha dik E çünkü konum zaman
+grafiğinin eğimi hızı verir alttaki
+grafik konum zaman Şuradaki eğim 6 iken
+Şuradaki eğimin 9 olması lazım
+başlangıçta hızım 6'ydı sonra 9'a çıktı
+adam daha hızlı gidiyor o zaman eğimin
+artması lazım simülasyonu hatırlayın 90
+metre yer değiştireceğim için ilk
+Konumum 60 o zaman Benim buradaki son
+Konumum Nereye denk gelmeli artı 150
+metreye denk gelmeli Yani bu arkadaş 90
+metre yer değiştirip şurada 150 metre
+konumuna geldi buradaki yer değiştirme
+artı 90 metre diyebiliriz sonra ne oldu
+20 ile 30 arasında hız var mı Yok hızım
+yoksa durdum demektir Ben bir yere
+gitmiyorum demektir 150 metre konumunda
+kalmaya devam edeceğim Bu adam Mola
+vermiş yani 20 Saniyede 150 metre
+konumunda
+üçüncü saniyede 150 metre konumunda hız
+yok ki Durmuş ya da tersten düşünürsem
+konum zaman grafiğinin eğimi hızı verir
+şu çizginin eğimine 0 hız ne 0 Evet
+çünkü hız burada 0 Şurayı biraz
+kaydırayım karışmasın yukarıyla geldik
+son kısmımıza 30 saniyede 40 saniye
+arasında hız değerim negatifte
+gördüğünüz gibi -3'te bu adam geri
+dönecek Biz sıfırdan hep sağa doğru
+gitmiştik ya şimdi sola gideceğiz ama
+biz neredeyiz şu an artı 150'deyiz sola
+gideceğiz zaman ekseniyle arasındaki
+alana bakacaksınız yani şu alana
+bakacağız bu kenar kaç 3 Hatta -3 bu
+kenar biri 30 biri 40 aradaki fark 10 o
+zaman buranın alanı eksi 30 metredir
+yani 30 metre sola doğru yer
+değiştireceğim ben 150'deyim 30 metre
+sola doğru gidersem nereye gelirim artı
+120'ye gelirim çünkü sola doğru 30 metre
+yer değiştirmek bunu gerektirir
+Dolayısıyla 150'den 30 metre geriye
+dönersem artı 120'ye gelirim şöyle bir
+şey çizmem lazım bunun da karşılığı
+grafikte artı 120 olacaktır bütün
+grafiği tek tek analiz ettik bu soru çok
+önemli bir soruydu buradaki dönüşümü
+anladıysanız mevzu kalmamış demektir
+bunu anlayana kadar lütfen kendinizle
+çalışın sayıları değiştirin grafiği
+değiştirin üzerinde uğraşın üzerinde
+düşünün yorum yapın Bunlar ancak böyle
+gelişebilir başka bir soru tipimiz konum
+zaman grafiği verilen hareketlinin 40
+saniye sonundaki toplam yer
+değiştirmesini ve aldığı toplam yolu
+soruyor bana hocam Eymen bakacağız alana
+mı bakacağız hız soruyor mu sormuyor
+konum zaman grafiğinde eğim hızı verir o
+zaman eğimle falan işim yok aslında soru
+çok basit düşündüğümüzden basit bir soru
+yer değiştirme son konumdan ilk konumun
+çıkması değil miydi Evet bu adam
+başlangıçta Hangi konumda 0 konumunda
+sonra gezmiş dolaşmış En son nereye
+gitmiş en son artı 60 konumuna gitmiş
+isterseniz bunu bir görselleştirelim şu
+Bizim Yolumuz şurası sıfır konum olsun
+60 metre konumu 80 metre konumu 100
+metre konumu Olsun eksi değerler
+yazmadım Çünkü eksi konum yok grafikte
+başlangıçta Ben neredeyim sıfırdayım
+Nereye gideceğim artı 80'e gideceğim
+yani ben buradan buraya yer değiştirdim
+sonra nereye gideceğim 100'e gideceğim
+80'den 100'e gittim Sonra yüzde biraz
+durmuşuz bak 10 saniye boyunca yüzde
+durmuşuz Tamam sonra 100'den 60'a geri
+dönmüşüz 100'den 60'a geri döndük
+hareketimiz budur ilk konum sıfır son
+konum atmış O zaman yer değiştirme
+vektörü ilk konumdan son konuma doğru
+çizilen bu vektördür büyüklüğüne kadar
+60 metre sağ tarafa doğru olduğu için
+artı 60 metrelik bir yer değiştirmeden
+bahsedebiliriz toplamda aldığı toplam
+yol nedir toplam yol neydi gittiğim
+bütün yolları toplayacağım arabanın
+kronometresi yani geri gidince geri
+gitmiyor arabanın kronometresi hep
+artıyor Şimdi ben sıfırdan 80'e
+gitmiştim burada bir 80 metre yazdık
+80'den 100'e gittim bir 20 metre daha
+yazdık Sonra 100'den 60'a gittim Bir 40
+metre daha yazdık tekrar söylüyorum
+sakın çıkartmayın alınan yol toplanır
+hep E bunların hepsini toplarsam ne
+yapar 80 20 daha 100 100 daha 140 140
+milimetre yol almışız aldığımız yol
+budur diyebiliriz soru sormuyor ama
+hemen ben soruyorum önceki sorular
+bakalım aklınızda kalmış mı Şuradaki
+geri dönmeyi nasıl anlayabilirdik bu
+grafikten Hocam işte 100'den 60'a dönmüş
+Evet öyle anlayabilirdik ama grafiğin
+eğiminden anlayabiliriz sağa yatık
+grafik sağa yatık grafik sola yatık
+grafik konum zaman grafiğinin eğimi hızı
+verir buradaki sola yatıklık negatif hız
+demektir negatif hız Sola Döndüm
+demektir Buradan da anlayabilirdik hız
+zaman grafiği verilen hareketlinin 14
+saniye sonunda yaptığı yer değiştirme
+kaç metredir diye sorulmuş hız zaman
+grafiği verilmiş ve Delta x soruluyor
+Delta x eşittir hız çarpı zaman tabii ki
+çarpma var alana bakacağız şurası hız
+ekseni şurası zaman ekseni hızla zamanı
+çarptığımda Şuradaki alanı bulurum
+dikdörtgenin Kısa kenarı ile uzun kenarı
+buranın alanını bana verir e burası da
+yer değiştirmedir şu uzunluk 40 olduğuna
+göre şu uzunluk 10 olduğuna göre Burası
+artı 400 metrelik bir yer değiştirme
+demek
+alan hesaplayacağım hiçbir şey yok yer
+değiştirme sıfır zaten şuradan da
+anlayabilirim bu hız zaman grafiği hızım
+0'da Yani ben durmuşum orada 10 saniye
+ile 12 saniye arasında hızım yok
+durmuşum Dolayısıyla yer değiştirmem de
+yok Şuradaki alan negatif bir alan yani
+yer değiştirme vektörün terse dönmüş
+Çünkü hızım -20 hızım terse dönmüş
+şurası -20 şurası 2 12 ile 14 arası 2
+Dolayısıyla buranın alanı eksi 40 m
+olarak isimlendirilebilir hocam alan
+nasıl negatif çıkar diye şaşırmayın
+oradaki negatif yer değiştirmeyi
+tanımlıyor bu adamın başlangıçta 0
+konumunda olduğunu düşünürsek önce artı
+400 metre yer değiştirip 400 metre
+konumuna gelmiş Çünkü burası 0 Burası
+artı 100 olsaydı o zaman burası +500
+metre olurdu bunları karıştırmayın sonra
+ne olmuş eksi 40 metre geri gelmiş
+Dolayısıyla eksi 40 metre yer
+değiştirdiğimde 400'den 40 sola
+giderseniz Nereye gelmiş olursunuz artı
+360 metre konumuna gelmiş olursunuz
+sormuyor ama olsun kon grafiği Sorsaydı
+360 da bitirmeniz gerektiğini anlardınız
+Evet bu dersimizin son kısmı günlük
+hayatta bağdaştıracağımız bir yer yeşil
+dalga sistemi bunu bazı şehirlerde
+görmüşsünüzdür özellikle şehirler arası
+yollarda şehrin içinden geçen şehirler
+arası yollarda yeşil dalga sistemi
+kullanılır Çünkü oralarda çok ışık olur
+yani burada bir kırmızı ışık burada bir
+kırmızı ışık burada bir kırmızı ışık
+bunları böyle yüzer metre arayla
+diziyorlar bazı şehirlerde özellikle
+Ege'de Akçay Altınoluk taraflarında
+Bazen öyle denk geliyor ki burada
+kırmızı yakalıyorsunuz sonra hepsinde
+kırmızıya yakalanıyorsun yani hepsinde
+bekliyorsun hiç yeşile denk gelmiyorsun
+yeşil dalga sisteminde böyle bir tabela
+var ve 50 diyor Bu şu anlama gelir Ha
+demek ki hızımız en fazla 50 olacak
+değil hep 50 ile gidersen burada yeşil
+yanarken yakalarsan ışığı hızın bundan
+sonra hep 50 metre bölü saniye olursa
+hızını değiştirmezsen ortalama 50 ile
+gidersen diğerlerinde de yeşile denk
+geleceksin Sana bunu temin ediyoruz
+diyor trafik Böylece durumu olmadığı
+için trafik rahatlamış oluyor yani bu
+hız sınırı tabelası değil o hızla git
+hep demek bunun altına da çok inme
+üstüne de çok çıkma başlangıçta yeşile
+denk gelirsen ve hep eliyle gidersen
+sonralarında da yeşille muhatap
+olacaksın anlamına geliyor Evet bu
+dersimizde bu kadar takıldıktan azaltta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

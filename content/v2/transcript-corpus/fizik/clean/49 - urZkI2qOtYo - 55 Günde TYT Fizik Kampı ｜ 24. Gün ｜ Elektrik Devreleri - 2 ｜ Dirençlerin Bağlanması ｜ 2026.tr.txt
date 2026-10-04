@@ -1,0 +1,1073 @@
+artık devre elemanlarını tanıdık Pil ne
+demek anahtar ne demek direnç ne demek
+ampermetre voltmetre bunların hepsini
+tanıdığımıza göre artık devre analizine
+başlayabiliriz dirençleri bağlayacağız
+dirençleri iki türlü bağlayacağız seri
+bağlayacağız ve paralel bağlayacağız
+zaten önceki dersimizde Buna az buçukta
+indim seri ne demek Paralel ne demek
+Biraz konuştuk daha detaylı bakacağız
+Ama öncelikle öğrenmemiz gereken bir
+kavram var eşdeğer direnç kavramı var
+şimdi sizin karşınıza karmaşık devreler
+çıkabilir içinde 3 tane 5 tane 8 tane
+direnç olabilir hepsi ile ayrı ayrı
+uğraşmak çok zor o yüzden biz genelde
+sadeleştirme yaparız gördüğümüz devreyi
+en basit hale sokmaya çalışırız atıyorum
+3 tane direnç vardır bir tane devrede
+bir tane güç kaynağınız vardır Ne
+bileyim şöyle bir tane daha direnç
+vardır 4 tane direnciniz vardır bu devre
+gözünüze karmaşık gelir dersiniz ki ya
+Ben bunu daha basit halini çizebilir
+miyim çizersiniz Tek bir dirence dönüşür
+yine aynı güç kaynağınız burada durur
+İşte bu tek başına olan direnç buradaki
+bütün dirençlerin yaptığı işin toplamını
+yapar onların yaptığını eş değer bir iş
+yapar işte Siz o dirence bu yüzden R eş
+diyoruz yani eşdeğer direnç diyoruz Bu 4
+tane direnci Şu hale sokuyoruz Nasıl
+yapacağız bunu belli kuralları var ve o
+kuralları bilmek zorundayız seri
+bağlamayla başlayalım burada 3 tane
+ampul görüyorsun bunların her biri birer
+direnç zaten içindeki Tunç ten teller
+üzerinden akım geçtikçe ısınıyorlar
+Çünkü direnç görevi görüyorlar oradaki
+tanecikleri titreştiriyor elektronlar
+geçiş yapmaya çalışırken O yüzden
+sıcaklığı artıyor sıcaklığı çok arttığı
+için de Işık yaymaya başlıyor Bu ampulü
+bir direnç gibi düşünsem buna R1 direnci
+buna R2 direnci Buna da r3 direnci
+diyebilirim buradaki güç kaynağımız
+votansiyel farkı oluşturuyor bu 3 tane
+direnç seri bağlıdır Çünkü bu 3 tane
+direnç aynı tel üzerine bağlanmışlardır
+önceki dersimizi hatırlayın pilin artı
+kutbundan eksi kutbuna doğru bir
+elektrik akımının dolaştığını Biz
+biliyoruz bu elektrik akımının gideceği
+başka bir yol varsa paralel olur ama
+gideceği başka bir yol Yoksa hep aynı
+Tel üzerinden gidiyorsa İşte o telde
+bağlı olan her şey seridir buradan
+mesela Bir akım geldi Bu akım mecbur bu
+hattı takip etmek zorunda 5 amperlik Bir
+akım olduğunu düşündük birinci ampulden
+5 amperlik akım geçer ikinci ampulden de
+5 amper akım geçer 3 ampulden de 5
+amperlik akım geçer ve devreyi de bu 5
+amperlik akım tamamlar ki zaten buradan
+da o 5 amperlik akım çıkmıştı önceki
+dersimizde Bunu size anlatmıştım tekrar
+ufak bir hatırlatma yapıyorum
+benzetmelerimize geri dönersek bu bizim
+su motorumuzdu Bu da bizim su
+tesisatımızdı akım dediğim şeyde akan
+suyuydu buradaki su motoru suyu basıyor
+yukarıya ve bütün tesisatı dolaştırıyor
+su motorundan ne kadar çok su çıktıysa o
+kadar su geriye döner Çünkü bizim
+tesisatımızda Kaçak yok su bir yere
+sızıp Gitmiyor ya da buharlaşıp uçmuyor
+O yüzden 5 çıktıysa 5 geri dönecek o
+yüzden tek telde tek akım olmalı burada
+R direnci var bu adam akımı zorlaştırır
+ona zorluk çıkartır buraya beş geldiyse
+Buradan sonra yoluna 3 devam eder
+diyemezsin Çünkü aynı Hatta iki farklı
+akım tanımlamış oluruz o zaman buradan
+iki gidiyor Dersim buradan bir gidiyor
+dersin buradaki su motorundan 5 çıktı
+geriye bir döndü 4 nerede Bunların hepsi
+saçma dirençlerin nasıl akımı
+azalttığını önceki derste yine
+konuşmuştuk bunu başlangıçta yapıyor
+yani burada 3 tane direnç Olmasaydı da
+bir tane direnç olsaydı zaten buradan 5
+amper geliyor diye düşünülmezdi atıyorum
+10 amper geliyor diye düşünülür tek
+telde tek akım olur seri bağlı bütün
+dirençlerden aynı akım geçer hepsinden
+aynı akım geçiyorsa Bunlar seri bağlıdır
+tersten düşünürsek Şimdi gelelim
+kesinlikle bilmeniz gereken kurallara şu
+sağ taraftaki çerçeve içerisinde akımlar
+arasındaki ilişki potansiyel faktör
+arasındaki ilişki ve dirençler
+arasındaki ilişkiyi görüyoruz bunları
+Bileceksiniz bunları bilmezseniz
+soruları çözemezsiniz devre analizi
+bunlarla yapılıyor Peki bu kurallar
+neler niye öyleler beraber bakalım 3
+tane direncim var R1 R2 r3 Az önceki
+ampuller gibi düşünebilirsiniz bunların
+uçlarına voltmetreler bağlanmış buradaki
+voltmetre V1 ölçüyor buradaki voltmetre
+V2 buradaki voltmetre V3 güç kaynağımız
+var ve kadarlık Potansiyel fark
+oluşturuyor devrede Hocam bu R1 R2 r3
+seri bağlı değil ki siz niye bunu seriyi
+bağlı devre örneği diye önümüze koydunuz
+bakın burada paralel bağlı voltmetreler
+var Ne dedim ben size voltmetreler
+sonsuz dirençlidir dirençler o kadar
+büyüktür ki üzerlerinden akım geçmez Ben
+burada akımın izlediği yolu takip
+ediyorum akımın gitmediği yeri
+silebilirim o zaman yani Evet burada
+voltmetre var ölçüm yapacak Mesela bu V1
+bu direncin uçları arasındaki potansiyel
+farkı ölçecek Ama ben bunu devreden
+silebilirim şekli daha kolay düşünmek
+adına bunu yapabilirim aynı şekilde bu
+voltmetreyi de silebilirim Çünkü
+bunların üzerinden akım geçmeyecek Benim
+için yok hükmünde Bunlar Ben akımın
+gittiği yolları takip edeceğim Bak şimdi
+ne oldu tek hat oldu bütün akım bu üç
+direncin üzerinden gidip tek hat
+üzerinden bütün devreyi tamamlayacak
+Yani bunlar seri bağlı şimdi o zaman
+akımı düşünmek çok kolay artı kutuptan
+eksi kutup'a doğru devrede akım
+dolaşıyor bu gelen akıma toplam akım
+diyebiliriz ya da ana kol akımı
+diyebiliriz böyle iki isimlendirmeyi de
+kullanabiliriz buradan gelen akım az
+önce de söylediğim gibi zaten tek Tel
+üzerinden geldiğine göre her yerde aynı
+akım yok mudur Tabii ki vardır buradan 5
+amper geliyorsa her yerde 5 amper var
+burada demişiz ki R1 direncinden geçen
+akıma Iğdır desek O da 5 amperdir R2
+direncinden geçen akıma ı2 desek O da
+amperdir r3 direncinden geçen akıma ı3
+desek O da 5 amperdir Hocam bu devrede 5
+10 15 amper Akım mı dolaşıyor Hatta bir
+de burada da 5 yazdınız 20 amper akımı
+dolaşıyor Hayır bunların hepsi zaten
+aynı akım burada 4 farklı akım yok Tek
+akım var o da 5 amper Bu yüzden toplam
+akım aynı zamanda ı1'in ta kendisidir
+aynı zamanda ı2'nin ta kendisidir aynı
+zamanda Bundan geçen ı3'ün ta kendisidir
+bütün akımlar aynıdır bu basit devreyi
+sadeleştirelim demiştim Az önce 3 tane
+direnç var Ben bunu tek direnç gibi
+yazabilir miyim yani bu devreyi şu hale
+sokabilir miyim Bir tane direnç Bir tane
+de güç kaynağı güç kaynağı ve Potansiyel
+fark oluşturuyor buradaki direnç de eş
+değer direnç Yani bu üç arkadaşın
+yaptığını tek başına yapabilen direnç bu
+Kural diyor ki seri bağlıların Hepsini
+topla eş değeri bulursun Niye bunları
+toplamamız gereksiz direnç videosunda
+mezunların anladığı ama konu ilk defa
+dinleyenlerin ileride anlayacağı bir
+şeyden bahsetmiştim böyle Demir
+çubuklarla direncin maksimum minimum
+olma durumunu konuşmuştuk işte şimdi
+oradayız Demir çubukları uç uca
+eklediğimde yan yana koyduğumda oradaki
+direnci nasıl bul uzunluk arttığı için
+direnç de artar dedik Değil mi direkt
+topladık Çünkü onlar seri bağlıydı
+aslında aynı buradakiler gibi biz
+direnci ro çarpı L bölü A'dan
+düşünebiliriz buradaki 3 direnç de aynı
+kalınlığa sahip olsunlar aynı malzemeden
+yapılmış olsunlar uzunluklarına bakarak
+dirençler hakkında yorum yapabilirim
+diyelim ki buradaki direnç tamamen
+sallıyorum kafamdan 2 metre uzunluğunda
+abartılı şeyler buradaki direnç 3 metre
+uzunluğunda buradaki dirençte 4 metre
+uzunluğunda uzunlukla direnç orantılı
+olduğuna göre 2 metre uzunluğundaki
+dirence 2 10 derim 3 metreye 3 10 derim
+4 metre 4 10 Der şimdi ben bu üç tane
+direnci yan yana bağlamış uca koymuşum
+ben bu 3 arkadaşı toplamda 9 metrelik
+tek direnç gibi düşünemez miyim
+düşünürüm o zaman 9 metreye de 9 10
+Yazmam gerekir 9 10 ne demektir 2.10 + 3
+Ohm + 4 10 demektir yani bu 3 direnci
+Teke düşürürken ne yapmam gerekiyor
+bütün dirençleri direkt toplamam
+gerekiyor R1 + R2 + r3= buradaki Rh eş
+olacaktır Sanki burada ayrı ayrı 2 3 4
+yokmuş da bir tane 9-10 varmış gibi
+düşünebilir Şimdi gelelim sonuncusuna
+potansiyel farklara tekrar buradaki
+voltmetrelerimizi görünür yapalım çünkü
+onlarla işimiz var artık şimdi ben bu
+devreyi basitleştirip şu hale
+sokabildiğimi söyledim pilden geldiğini
+düşündüğüm akıma ı toplam demiştim ya da
+bu kitaptaki gibi ı diyelim Buna da
+buradan gelen I re işin üzerinden geçip
+gidiyor E zaten aynı ı olduğuna göre ı1
+Dediğim ı2 dediğim adamlar da aynı şeydi
+şu özellikte olduğu gibi hepsi aynı
+akımda zaten şimdi benim bu
+basitleştirilmiş devremde bu direncin
+uçları arasında ne kadar Potansiyel fark
+var E buradaki pil ve kadar Potansiyel
+fark oluşturduğuna göre alçak potansiyel
+kısmına 0 volt yüksek potansiyel kısmına
+bir volt yani V yazabilirim Hatta şu
+v'yi sileyim kafamız karışmasın sıfıra
+veya olsun bu sıfırı buraya kadar
+taşıyabilirim bu v'yi de buraya kadar
+taşıyabilirim Dolayısıyla bizim eş değer
+direncimizin uçları arasında bir
+voltmetre bağlasam bir ucunda veya var
+öbür ucunda 0 var ne okur ikisinin farkı
+ve eksi sıfırdan ve ok yani eş değer
+direncimizin uçları arasında bu pilin
+oluşturduğu Potansiyel fark var veya
+kadar aynı benim asıl devremde de
+yapabilirim bu pil aynı pil ve kadar
+Potansiyel fark oluşturuyor alçak
+potansiyel kısmında 0 var yüksek
+potansiyel kısmında V var Bu v'yi buraya
+kadar taşıyabilirim bu sıfırı buraya
+kadar taşıyabilirim buraya komple böyle
+voltmetre bağlarsam O voltmetre'de bir
+uçta v'yi diğer uçta 0 ikisinin farkını
+ve eksi sıfırdan v'yi okuyacaktır aynı
+Buradaki gibi Çünkü bu ikisi aynı şey
+Çünkü ben bu üç tane direnci tek bir
+direnç gibi yazmıştım sadece şimdi bizim
+10 yasamız var v = ı * r bunu
+kullanacağız ve daha önce konuştuğumuz
+şu eşdeğer direnci kullanacağız R eş
+dediğim şey nasıl yazılır bu formülde R
+yalnız bırakırsan ve böyle Iğdır Şimdi
+ben bunu Rh için yazıyorum R Şu Arkadaş
+uçlar arasında ne kadar Potansiyel fark
+var ve kadar üzerinden ne kadar akım
+geçiyor ıh kadar yazdım eşittir ne var
+R1 var şimdi R1 burada geldim buraya
+r1'in uçları arasını bu voltmetre okuyor
+ve kaç okuyor V1 okuyor O zaman V yerine
+V1 yazdım Böyle üzerinden ne kadar akım
+geçiyor ı1 geçiyor ama o da zaten ıhının
+ta kendisi değil miydi buradaki denkleme
+hatırlayın Evet o zaman buraya da ı
+yazacağım artı ne var var R2 şu direnç
+uçlar arasındaki potansiyel fark bu
+voltmetre diyor ki V2 var V2 bölü bunun
+üzerinden ne kadar akım geçiyor ı2
+Geçiyor O da zaten bizim başlangıçtaki
+ıhımızın aynısıydı artı V3 bölü
+anladınız mevzuyu buradaki bütün ı'lar
+birbirini götürürse geriye ne kalır ve
+eşittir ki kendisi pilin vs ta
+kendisidir V1 + V2 artı V3 pilin
+oluşturduğu Potansiyel fark eşittir
+dirençlerin uçları arasındaki potansiyel
+farkların toplamı Yani sen bu Potansiyel
+fark Artı bu Potansiyel fark Artı bu
+Potansiyel fark yaparsan bu v'yi
+buluyorsun Dolayısıyla pilin toplamda
+oluşturduğu potansiyel farkı buluyorsun
+bunun ispatı budur Bu çerçeve
+içerisindeki kuralları iyi bilmek
+zorundasınız kendiniz oturun benim
+yaptığım gibi çıkartmaya çalış
+çıkartamadığınız yerde tekrar videoyu
+izleyin takıldığınız yere bakın Sonra
+tekrar devam edin takıldıkça bakın ve
+mevzuyu tam olarak kafada oturtun Şimdi
+hemen bunun bir uygulamasını yapalım
+şekilde 3ohm 4 10 ve 5 onluk dirençler
+ve 60 volt elektro motor kuvvete sahip
+üreteçle oluşturulmuş bir devre
+gösterilmektedir a ve D noktaları
+arasındaki eşdeğer direnci bulunuz her
+bir dirençten geçen akımı bulunuz
+potansiyel farkı bulunuz yani devreye
+analiz et diyor Kısacası ne bulmak
+istiyorsak ne bulabiliyorsak bulmaya
+çalışalım bir kere diyor ki A ve D
+arasındaki eşdeğer direnci bul yani A
+ile D arasında bütün dirençler var ya
+aslında diyor ki bu devreyi sadeleştir
+sadeleştirelim bu devrede dirençler
+nasıl bağlı seri bağlılar yan yana
+getirilmiş çubuklar gibiler Bu da boyu
+arttırır boy arttıkça direnç artar
+Dolayısıyla direkt toplayabilirim Çünkü
+boyu ne kadar arttı diye merak etsem
+boyları toplamış olur ve boylarda direnç
+orantılı olduğu için dirençleri direkt
+toplayacağım yukarıda konuştuğumuz
+kurallar ben bu devri'yi tek bir
+dirençli tek bir pilli hale Getirirsem
+sadeleştirmiş olurum Burada 3 var burada
+4 var burada 5 var Hepsini topla 7 12 o
+zaman buradaki eş değer direnç 12 10'dur
+bu üçünün yaptığını tek başına yapan
+adamdır bu Pil ne kadar devrede
+Potansiyel fark oluşturuyor 60 volt
+Aynen bunu da buraya yazdım a şıkkının
+cevabını buldum 12 10 kadar her bir
+dirençten geçen akım değerini bulunuz
+şimdi bu adamlar nasıl bağlılar seri hep
+tel var değil mi hepsi tek parça telin
+üzerine bağlanmışlar akımın gidebileceği
+ikinci bir yol yok buradan yola
+çıktığında mecburen buraları kat edecek
+ve piline geri dönecek devreyi
+tamamlamış olacak o zaman zaten
+hepsinden aynı akım geçiyor Bunları
+buradan çıkan akım Neyse ana kol akımı
+toplam akım Neyse bunların hepsinin
+üzerinden aynı ı akımı geçiyor
+diyebiliriz Şimdi ben sadeleşmiş devreme
+geri dönsem pil 60 volt Potansiyel fark
+oluşturuyor şuraya 0 derim şuraya 60
+derim bu 60'ı buraya taşıyabilirim
+burada 60 var bu sıfırı buraya
+taşıyabilirim benim eşdeğer direncimin
+uçları arasında ne kadar Potansiyel fark
+var 60 O zaman burada hemen bir vır
+yazıyorum ve yerine 60 yazdım işte eğer
+direncinden ne kadar akım geçtiğini
+bilmiyorum ama eş değer direncimin 12
+olduğunu biliyorum demek ki benim
+eşdeğer direncimden 5 amper akım
+geçiyormuş buradan geçen 5 amperlik akım
+zaten devrede dolaşan tek akım değil mi
+Evet pilden çıkan akım 5 amper değil mi
+Evet orijinal devreme dönersem Bunun
+değeri 5 ampermiş bunların hepsinin
+üzerinden geçen akım da 5 ampermiş her
+bir dirençten geçen akım değeri 5 her
+bir direncin uçları arasındaki
+potansiyel farkı bulunuz yani diyor ki
+ben Şuraya bir voltmetre bağlarsam bu ne
+okur buraya bir voltmetre bağlarsam bu
+ne okur buraya bir voltmetre bağlarsan
+Bu ne okur soru bu dirençlere ayrı ayrı
+incelersek bunu çok kolay bulabiliriz
+Hani mekanikte fotoğraf çekme mantığımız
+var ya cismin fotoğrafını çekiyoruz
+kesiyoruz yapıştırıyoruz aynı şeyi
+burada yapıyorum direncin fotoğrafını
+çekeceğim Sadece bu direnci inceliyorum
+Sadece bunun özelinde vırf formülünü
+uygulayacağım buna özel bu direncin
+üzerinden kaç amper akım geçiyor zaten
+hepsini üzerinden 5 amper geçiyor O
+zaman ben direkt akım yerine 5 yazdım bu
+direncin değeri kaç 3 O zaman bu
+direncin uçları arasında 15 volt var
+yani şu uçla şu uç arası 15 volt oraya
+kim okuyor bu voltmetre okuyor Demek ki
+bu 15 volt'u okuyacak geldim buna yine
+vırı yapacağım bunun üzerinden ne kadar
+akım geçiyor 5 amper ne kadar direnç 4 O
+zaman bunları çarparsam 20 volt yapar
+yani bu arkadaşın uçları Arasında 20
+volt var bu noktayla bu nokta Arasında
+20 volt var Yani bu voltmetre okuyacak
+geldim buna üzerinden 5 amper geçiyor
+direnç değerimiz 5 o zaman bunun uçları
+arasında 25 volt var Yani bu noktayla bu
+nokta arasında oraya bağlanan voltmetre
+diyecek ki burada 25 volt fark var pil
+kaç volt'tu 60 volt 25 20 15
+toplandığında kaç olur 60 işte
+Yukarıdaki kuralı sağlamasını yaptık
+Çünkü ben yukarıda size ne anlattım Bu
+v1'i V2 V3 toplarsanız pili bulursunuz
+öyle oldu Demek ki doğru yapmışız Şimdi
+geldik Buradaki en önemli yere her şey
+daha anlamlı hale getireceğiniz yere a b
+c ve d noktalarının potansiyel
+değerlerini bulunuz D noktasını sıfır
+kabul ediniz niye parantez içerisinde
+böyle bir kabulden bahsediyor Çünkü bir
+noktanın potansiyelini yazarken kafama
+göre yazabilirim aynı kütle çekim
+potansiyel enerjisini kafama göre
+yazdığım gibi yani şöyle bir cisim var
+yere göre bunu kütle çekim potansiyel
+enerjisini yazarsan Bu yükseklikten
+yazarım Ne bileyim şu seviyeye göre
+kütle çekim potansiyel enerjisini
+yazarsam bu yükseklikten yazarım değil
+mi Hangi seviyeyi belirleyeceğim tamamen
+keyfiydi o potansiyelle bu potansiyel
+çok benziyor Ama tabii bu elektrik
+potansiyeli ben size önceki derslerde
+demiştim pil 60 volt Potansiyel fark
+oluşturuyor buraya 0 buraya 60
+diyebilirsin ama böyle bir zorunluluk
+yok buraya 10 buraya 70 de diyebilirdin
+işte Bu keyfi olduğu için soru demiş ki
+D noktasını sıfır kabul et Ee o zaman
+Aslında ben burayı 0 kabul etmiş
+oluyorum Çünkü bu 0 buraya kadar
+gelebilir O zaman buraya da 60 yazmak
+zorundayım çünkü pil 60'lık fark
+oluşturuyor Burası da 60 volt
+potansiyeldir Burası da 60 volt
+potansiyeldir a noktasını bulmuş olduk
+bile şu sarı noktada 60 volt oldu şimdi
+buradaki voltmetre 15 volt fark okuyor
+mu okuyor burası atmışsa o zaman B
+noktası kaç volttur 15 fark olacağına
+göre hocam 405 volttur voltmetrenin bir
+ucu 60 da diğer ucu 45'te aradaki farkı
+bana söylüyor yani buradaki 15'i
+söylüyor mantıklı ama bazı öğrencilerin
+şu an şöyle itiraz ettiğini
+duyabiliyorum hocam 60'a 45 niye olsun
+60'a 75 de olabilir yine 15 fark olur
+çok haklı bir itiraz Ama şunu
+düşünmeliyiz elektrik akımı nereden
+nereye gider yüksek potansiyelden alçak
+potansiyele gider biz bu dirençlerin
+üzerindeki akımın sağ tarafa doğru
+gittiğini söylem en başta bütün akım
+böyle gidiyordu o zaman Sol taraftaki 60
+büyük olmalı sağ taraftaki nokta daha
+küçük olmalı o yüzden 45 yazdım 75
+yazamam 75 yazarsam akımın sola gitmesi
+gerekir Ama öyle bir şey yok Peki geldim
+Burası 45 v2'nin bir ucu 45'te öbür ucu
+acaba kaçtı V2 20 okuduğuna göre 20
+farkı olacak 25 mi yazacağım 65 mi
+yazacağım yine akım sağa gidiyor o zaman
+45 yüksek potansiyel olmalı Demek ki C
+noktasına alçak potansiyeli yazacağım
+yani 25 volt yazacağım ve 3
+voltmetresinin bir ucu 25 voltta öbür
+ucu sıfırda Evet çünkü 25 okuyor bakın
+tam denk geldi yanlış bir şey yapsaydım
+Burası tam denk gelmeyebilirdi en başta
+buranın sıfır olduğunu söyledim Buranın
+da 25 olduğunu buldum E bu voltmetre
+zaten 25 okuyor her şey kitabına uygun
+devrelerde böyle her noktanın
+potansiyelini bulabilirsiniz 60-45 25
+gibi buna nokta potansiyel yöntemini
+deniyor ben Bunu en başından beri
+yapıyorum zaten Örneğin kısa devreye
+anlatırken boş telde bütün potansiyeli
+taşıdım direncim 2 tane aynı potansiyeli
+arasında kaldı pot gel fark olmadı yani
+Potansiyel fark olmaz akım geçmez akım
+geçmez sonra kısa devre deriz nokta
+potansiyel yöntemini öğrenmek devreler
+üzerindeki yorum gücünüzü bayağı
+geliştirir buraları iyi anlamanız lazım
+şimdi hemen bunu simülasyonda görelim
+bir tane güç kaynağı teller Şuraya bir
+tane ampul takalım seri olacak aynı
+hattın üzerine bir tane daha ampul
+takalım seri olduğu için aynı hattın
+üzerine bir tane daha ampul takalım ve
+bu tellerle devremizi tamamlayalım şöyle
+birleştirirsem tek bir hat elde etmiş
+olurum elektronları değil Elektrik
+akımını görelim anahtarı kapatırsam
+devrenin çalışması lazım anahtarı
+kapattım ve devre çalışıyor artı uç
+Burası artı uçtan - uca doğru şu an Bir
+akım dolaşıyor lambalarımız yanıyor
+hemen bir ampermetre alıyorum bu amper
+metreyi devreye seri bağladığım zaman
+0.3 amper devrede dolaştığını görüyorum
+bu anakol akımı pilden geldiği düşünülen
+akım her yerde aynı olmalı Bunu farklı
+yerlere bağlayalım mesela şu iki ampulün
+arasına bağlayalım bakın yine 0.3 amper
+buradan gelen 0.3 ampulü geçince
+azalmadı şu teli iptal edip oraya
+ampermetre bağlayalım seri olarak yine
+amper bütün hepsinde toplanan akım pile
+geri dönen akım O da 0.3 amper Çünkü tek
+bir hat var Tek Bir akım var çünkü
+bunlar seri bağlı Çünkü voltmetre ile de
+önce pilimizin voltajını ölçelim bakalım
+kaç volt 9 voltmuş ampullerin ayrı ayrı
+uçları arasındaki potansiyel farkları
+ölçüyorum 3 volt bunda var 3 volt bunda
+var 3 volt bunda var 3+3+3 9 volt Az
+önce gördük Bu arkadaşların uçlar
+arasındaki potansiyel farkların toplamı
+bize pili veriyor geldik ikinci bağlama
+türümüze yani paralel bağlama yani
+akımın alternatifli yollardan
+gidebildiği bağlanma şekli buradaki 3
+ampul şu an paralel bağlanmış durumda
+Neden Çünkü bu pilden geldiğini
+düşündüğüm ana kol akımı buradaki
+anahtarımız kapalı Tabii ki şuradan bir
+akım geldiğini düşünsem gördünüz mü
+burada önüne iki tane yol çıkıyor sonra
+buraya gidenin önünde de iki tane yol
+çıkıyor falan Yani aslında ana kol akımı
+parçalanıyor bir kısmı bu ampulün
+üzerinden gidiyor bir kısmı bu ampulün
+üzerinden gidiyor bir kısmı da bu
+ampulün üzerinden gidiyor farklı yollara
+gidiyorlar o zaman buradaki bu ampuller
+paralel bağlı ampuller Çünkü Hepsi
+farklı teller tek bir hat yok burada bu
+farklı akımlar ampulleri geçtikten sonra
+tekrar birleşecekler burada nasıl
+ayrıldılarsa tekrar ı'yi oluşturup
+devreyi tamamlayacaklar pilden ı çıktı ı
+geri döndü gibi düşünebiliriz bu
+arkadaşın kuralları da burada bunları da
+bileceğiz seriyi nasıl öğrendiyse
+paraleli de öğreneceğiz yine önce
+akımdan başlayalım seride neydi zaten
+tek bir hat vardı hep aynı akım
+dolaşıyordu Herkes birbirine eşitti ama
+burada parçalanıyoruz pilden geldiği
+düşünülen ana kol akımı Iğdır ı2 diye
+ayrılıyor Yani bir Dere yatağında su
+geliyor 3 farklı yol var bir kısmı
+soldakine bir kısmı ortadakine bir kısmı
+sağdakine giderse 3'e bölünmüş olur O
+yüzden biz deriz ki toplam akım ana kol
+akımı Iğdır artı ı2 artı ı3'tür kaç tane
+akım varsa hepsini toplayacaksın
+potansiyel farkı konuşursak hepsi
+eşittir diyor pilde ne varsa her
+dirençte de o vardır bakalım niye öyle
+olsun Az önce detayını öğrendiğimiz
+nokta potansiyelden bunu çok kolay
+anlarız şimdi pil ve kadar Potansiyel
+fark oluşturuyorsa Ben Şurayı sıfır
+kabul Şurayı V kabul etsem o zaman
+Burası da v'dir burası da v'dir burası
+da v'dir burası da v'dir önüme bir devre
+elemanı çıkana kadar potansiyel farkı
+değiştirecek bir şey çıkana kadar
+bunları taşıyabilirim Burası sıfır
+Burası sıfır Burası sıfır Burası sıfır
+daha fazla sola doğru gidemem Çünkü
+orada dirençler var şimdi ben o zaman R1
+direncin uçlarına bir voltmetre bağlasam
+O da V1 okusa bu V1 nedir bunun bir
+ucunda Şuradaki V var diğer ucunda
+buradaki 0 var Bunun farkını aldığında
+V1 diyecek ki burada V kadar Potansiyel
+fark var aynısını buraya bağladım V2
+potansiyel farkı ölçecek buradaki
+voltmetre R2 direncinin uçları arasında
+ve bu ve buraya da gelir bu 0 buraya da
+gelir ikisinin farkı bu adam da ve ölçer
+voltmetre bağladım r3'ün uçları
+arasındaki potansiyel farkı ölçüyorum bu
+ve buraya geldi bu 0 buraya geldi
+farkına aldım Bu da ve ölçecektir pilin
+Kendisi de ve yani buradaki bütün
+potansiyel farklar birbirine eşit Bunu
+kesinlikle unutmamalısın bunu da çok
+kullanıyoruz paralel bağlı devre
+elemanlarının uçları arasındaki
+potansiyel farklar eşittir sebep nokta
+potansiyel seride ne yapıyorduk bu
+potansiyel farkları topluyorduk pile
+eşitliyorduk burada toplamıyoruz hepsi
+birbirine eşit seride akımların Hepsi
+eşitti Burada da akımları topluyoruz
+yani İkisi ters oldu aslında Şimdi
+gelelim son olarak dirençlere yine 3
+tane direnç var Ben bu devreyi
+basitleştirmek isteyebilirim tek bir
+dirençli Gibi Düşünmek isteyebilirim ona
+da eşdeğer direnç diyebilirim bu
+arkadaşı tek dirençli tek güç kaynaklı
+hale dönüştürmek istersem buna R5 dersem
+bu R eşi nasıl bulacağım R1 R2 r3
+cinsinde şöyle de tuhaf bir formülü var
+işte 1/r'ye eşittir 1/r1+1/2 niye 1 bölü
+bu nereden geliyor bakalım bu sefer de
+gençler şu denklemi kullanalım yine 10
+kanununu kullanacağım ve eşittir ı r
+yazacağım benim basit devremde buradaki
+veya üreteç buradaki V üreteç aynısı
+bundan çıkan ana kol akımına ı dersem
+buradan çıkan anakol akımı da aynı Iğdır
+hiçbir fark yoktur Çünkü bu iki devre
+Aynı sadece görünümleri değişik İşte bu
+anakol akımı ya da burada Toplam akım
+diye geçen şey Bu akım buradaki R eş
+direncinden geçiyor Ben 10 kanununda
+akımı yalnız bırak ortam ne buluyorum
+Potansiyel fark bölü direnç buluyorum o
+zaman bu ana kol akımı için şurası
+incelenerek ne yazılır bu direncin
+uçları arasındaki potansiyel fark ki o
+da pile eşit v/ direncin kendisi r = ı1
+ne demek ı1 bu dirençten geçen akım
+bunun uçları arasındaki potansiyel fark
+V değil miydi Bir ucunda V var öbür
+ucuna sıfır var o zaman bunun üzerinde
+vır yaptığımda Potansiyel fark ve ama
+direnç ne R1 + ı2 nerede Bakı bu bu
+direncin üzerinden geçiyor bunun da
+uçları arasında votansiyel fark var V
+yazdım Böyle direncin değerini R2 + ı3
+Şu arkadaş bu da V bölü r3 olacaktır
+buradaki v'ler birbirini götürürse
+geriye ne kalır gençler Bunların Hepsi 1
+olur 1/5
+= 1 / R1 + 1/r2 dirençleri teke düşürmek
+istiyorsanız eş değer bulmak
+istiyorsanız bu tuhaf formülü uygulamak
+zorundasınız ispatı da buradadır hemen
+bir uygulama yapalım pekiştirelim 6 Ohm
+9 10 18 onluk dirençler ve 36 volt
+elektro motor kuvvete sahip üreteç ile
+şekildeki elektrik devresi kuruluyor
+Güneş değer direncini bul her bir
+dirençten geçen akımı bul her bir
+direncin uçları arasındaki potansiyel
+farkı bul yani devreyi analiz et diyor
+yapalım Önce eşdeğer direnci bulunuyor
+Yani bu devreyi sadeleştirelim tek
+dirençli bir hale sokalım pilimiz 36
+volt Az önce öğrendik ne yapacağız
+direnci teke düşürüyorsak
+1/r=1/ R1 Yani 1/6 + 1/r2 yani 1/9 + 1 /
+r3 Yani 1/18 bunu 3'le bunu 2 ile bunu 1
+ile genişletirsem
+1/r=6/18 olur bana 1/r5 lazım değil Rh
+lazım o zaman bunu ters çevireceğim o
+zaman Burayı da ters çevireceğim
+18/6'dan R eş dediğim şey 3 10 olur
+Gençler bu 6 9 18'in yaptığını tek
+başına yapan adam 3 olmuş o zaman hemen
+ben bu basit devremde pilden geldiği
+düşünülen ana kol akımını bulabilirim
+vır yaptığımda pilde 36 var akımı
+Bilmiyorum direncimiz kaç direncimiz 3 o
+zaman buradaki akım 12 amperdir yani
+pilden geldiği düşünülen akım 12
+amperdir geldim bu bilg asıl devreme
+uyguluyorum Çünkü devreler aynı devreler
+buradan 12 amper geliyor burada 12 amper
+var önüne 3 tane Yol Çıktı çünkü bunlar
+paralel bağlılar bu 12 amperin bir kısmı
+Buraya gidecek bir kısmı Buraya gidecek
+bir kısmı Buraya gidecek Acaba nasıl
+gidecekler eşit mi gidecekler dört dört
+mü gidecekler Hayır Potansiyel fark
+kuralını uygulayacağız pil 36 volt mu
+evet şuraya 0 dersen Burası 36 mı Evet
+bu 36'yı buraya buraya Buraya Hatta
+buralara taşıyabilir Bunların hepsi 36
+volt bu 0 da aynı şekilde buralara
+taşıyabilirim Bunların hepsi sıfır volt
+6 onluk direncin bir ucunda 36 volt var
+bir ucunda 0 var uçları arasına bir
+voltmetre bağlarsam der ki burada 36
+volt Potansiyel fark var derler 9'da da
+aynı şey bir uçta 36 öbür uçta 0 Bu da
+36 voltu okuyacaktır Bu da 36 voltu
+okuyacaktır Çünkü az önce bunu konuştuk
+Çünkü az önce bunu konuştuk paralel
+bağlı devre elemanlarının uçlar
+arasındaki potansiyel farkların hepsi
+eşittir Hatta Pide değiştir hepsi 36
+bunların özelinde vır yaparsak bu
+altılık arkadaşın uçları arasında ne var
+36 volt var ne kadar akım geçeceğini
+bilmiyorum R kaç R6 O zaman bu ığının ne
+olması lazım 6 amper olması lazım Bu
+9'luk arkadaşın uçları arasında 36 var
+buraya 36 yazdım ama direnç yerine 9
+yazacağım o zaman bunun üzerinden 4
+amperlik akımın geçmesi lazım 36 volt
+var 18 onluk direnç var o zaman bunun
+üzerinden 2 amperlik akım geçmesi lazım
+Bakalım sağlamasını yapalım 6 var 4 var
+2 var toplam kaç 12 zaten 12 geliyordu
+İşte o 12'yi böyle paylaşmışız dikkat
+ederseniz ne olmuş Çok dirençten az akım
+geçmiş az dirençten çok akım geçmiş
+Çünkü formül vır Eğer bu sabitse paralel
+bağlılarda bu eşit direncin fazla olması
+akımın az olmasını gerektiriyor Bu
+yüzden voltmetreyi paralel
+bağladığımızda üzerinden akım geçmiyor
+çünkü voltmetre sonsuz dirençli direnç
+sonsuza giderse akım minimuma iner
+sıfıra iner üzerinden hiç akım geçmez Bu
+yüzden ampermetreyi paralel bağladığımda
+bütün akım ampermetrenin üzerinden
+gidiyor çünkü ampermetrenin direnci
+sıfır direnç sıfıra inerse maksimuma
+çıkar bütün akım ampermetre'ye gider
+olay bundan ibarettir bunun da hemen
+simülasyonda devresini kuralım şu an iki
+tane ampulü paralel bağladım Bir tane de
+üçüncüyü bağlayalım 3 farklı hat çektik
+oraya sonra bunları getirelim pile
+tekrar geri döndürelim tabi Şuraya bir
+anahtar koyalım ki kontrol edebilelim
+anahtarı kapatırsam bütün ampullerim
+yanıyorlar şu an elektron hareketini
+görüyoruz biz yine akıma bakalım pilini
+artı ucundan bütün devreye dolaşan
+akımları görüyorsunuz Aslında bu okların
+hızından akımların şiddetlerini de
+anlayabilirsiniz bakın burada yüksek
+akım geliyor sonra 3 kola ayrıldığı için
+bu üç kolda daha az akım var o yüzden
+buradaki okları yavaş hareket ediyor
+çizmişler sonra bunlar burada birleşip
+daha büyük amperle akımla Yollarına
+devam ediyorlar şimdi bu akımları
+ölçelim bakalım pilden kaç çıkıyormuş
+gibi 2,70 amper buraya geldiğimizde 2,70
+amper üstteki ampulün üzerine 0.9 gitmiş
+üçte biri gitmiş ortadaki ampule 0.9
+amper gitmiş o da üçte bir alttaki
+ampule O da 0.9 amper yani 3 eşit
+parçaya bölünmüş sonra bu akımlar tekrar
+birleşip 2,70 olmuş arkadaşlar buradan
+çıktığı gibi tekrar geriye dönmüş
+potansiyel farklara bakalım bir
+voltmetre ile pilin uçlarına bakalım
+Öncelikle bir sağına bir soluna Koydum 9
+voltmuş bizim pilimiz geldim bunu en
+üstteki ampulün uçları arasına koydum O
+da 9 volt Çünkü pille paralel bağlı
+ortadaki ampul oda 9 volt En alttaki
+ampul O da 9 volt paralel bağlılarda
+potansiyel farklar birbirine eşittir
+Peki bunların hepsinden aynı akım
+geçmesini nasıl açıklayabiliriz Tabii ki
+Om yasasından 10 kanundan
+açıklayabiliriz 3 ampulün de uçlar
+arasındaki potansiyel farklar eşitti
+zaten akımların da eşit olduğunu
+söylüyorsam Demek ki bunların dirençlere
+eşit hepsinde R direnç varsa hepsinden
+aynı akım geçecektir Demek ki bu piller
+özdeşmiş bütün olayın özeti budur biraz
+daha değişik bir devremiz var eş değer
+direnci bulun her bir dirençten geçen
+akımı bulun C noktasının potansiyelini
+sıfır kabul ederek a ve B'nin
+potansiyellerini bulun şimdi acaba
+burada nasıl bir basitleştirme yapacağız
+Burada iki bağlama türü de var paralel
+bağlama da var Seri bağlamada var
+buradaki 3 ile 6 paralel bağlan
+Arkadaşlar nereden anladın Ben onu Çünkü
+şuradan bir akımın geldiğini düşünsem bu
+akımın bir kısmı yukarıya gider bir
+kısmı alta gider farklı yollar ya da
+şöyle anlayabilirim paralel olduklarını
+şuranın potansiyeline V desem sallıyorum
+bu da v'dir bu da v'dir şuranın
+potansiyeline V üssü desem Burası da V
+üssüdür Burası da v üssüdür 3 onluk
+direnç de v v üssü arasında kalıyor 6
+onluk direnç de ve V3 arasında kalıyor
+yani uçlar arasındaki potansiyel farklar
+eşit E bu paralelde oluyordu bu ikisi
+paralel bağlı bunları teke düşürüp şöyle
+tek bir direnç gibi hayal edebilirim
+sonra onları silebilirim 3 ve 6'yı nasıl
+sadeleştireceğiz paralelde
+1/r=1/ R1 + 1/r2 yapacağım 1/3 + 1/6
+yapacağım bunu 2 ile genişleteceğim 2/6
+1/6 ile toplarsam 3/6
+= 1/r5 ters çevirirsek Reş dediğimiz şey
+2 10 olur yani şu arkadaş 2 olmuş artık
+3'ü ve 6'yı silebilir Bunlar yokmuş gibi
+düşünebilirim bu 2 kolay bir yöntemle de
+bulabilirdik Aslında Şuradaki
+matematiğin daha sade hali payda
+eşitlediğimiz işlemin daha net görüntüsü
+çark bölü topla yapacaksınız yani R1 x
+r2/ R1 + R2 yapacaksınız paydaları
+burada eşitledin üstleri topladın sonra
+da ters çevirdin çünkü biz 1/rşe en
+sonunda ters çeviriyoruz 3 vardı 6 vardı
+çarparsam 18 olur 3 ile 6'yı toplarsam 9
+olur 18 9'a bölersem direk 2 olmuş şu
+arkadaşı çark bölü toplayı ile bulabilir
+Şimdi ben o iki arkadaşı sildim tek bir
+direnci dönüştüler Çünkü bu 5'le bu iki
+nasıl bağlıymış Bunlar seri bağlılar
+değil mi tek hatalar şu anda o zaman bu
+devrenin en sade hali tek bir direnç tek
+bir pil 5 ile 2 seri olduğu için direkt
+toplayacağım 7 omm'dur pilimiz de 21
+volttur o zaman vır yaptığımda
+potansiyel farkı 21 eş değer direnç 7
+akımımızın kaç olması lazım 3 olması
+lazım demek ki bizim buradan pilimizden
+3 amper akım geliyor gibi düşünebilirim
+aynısını buraya da çizebilirim buraya 3
+amper geliyor bu 5 onluk dirençten 3
+amperlik akım geçiyor a şıkkını bulduk
+Eğer direnci bulunuz diyordu bulduk 7 10
+her bir dirençten geçen akım değerini
+bulunuz şimdi o zaman orijinal devreye
+geri dönmeliyim çünkü onları ayrı ayrı
+hesaplayacağım buradan gelen 3 amper 2
+yola ayrılacak bir kısmı yukarıya bir
+kısmı aşağıya kaç kaç ayrılacaklar acaba
+bu iki arkadaş paralel değil mi paralel
+uçlar arasındaki potansiyel farklar aynı
+değil mi Evet yani bunların uçları
+arasındaki potansiyel farkların İkisi de
+V ise vır formülünde şunlar eşit o zaman
+Burası da eşit bu adamların ı çarpı
+r'lere eşit 3 onluk dirençten 2 ılık
+akım geçiyor dersem 6 onluk dirençten
+Bir ı'lık akım geçiyor demek zorundayım
+çünkü 2 x 3'ten 6 gelecek 1 x 6'dan 6
+gelecek bunların ı çarpı r'lere eşit
+olmalı Çünkü uçlar arasındaki potansiyel
+farkları eşit 3 amperlik akım 2 ı ve ı
+olarak ayrıldıysa ne demiş oluyorum Ben
+3 amper 3 Iğdır o zaman ı dediğim şey 1
+amperdir Demek ki bu iki II dediğim şey
+2 ampermiş bir ı dediğim şey bir
+ampermiş her bir dirençten geçen akım
+değerinde Böylece bulmuş olduk C
+noktasının potansiyelini sıfır kabul
+ederek ağ ve B noktalarının
+potansiyellerini bulunuz şimdi C
+noktasını sıfır kabul etmek Aslında
+pilin eksi ucuna sıfır demek oluyor
+tersten gidersen bu sıfır buraya kadar
+gelir pil 21 voltluk fark oluşturuyorsa
+o zaman burası 21 olmak zorunda Çünkü 21
+eksi sıfırdan o zaman Burası da 21 volt
+Burası da 21 volt acaba B'ye ne
+yazacağım Şahane buraları çok iyi
+dinleyin şuraya voltmetre bağlasam 15
+voltu gösterir nasıl anladınız Hocam bu
+5 onluk direnç üzerinde vır yaptım
+adamın üzerinden 3 amper akım geçiyor
+adamın direnci 5 3 çarpı 5'ten demek
+uçları arasında 15 volt Potansiyel fark
+olmalı o yüzden bir voltmetre bağlarsam
+15 ölçer bu voltmetrenin sol ucu 21'de o
+zaman sağ ucu kaçta olacak 15 fark
+olması gerekiyorsa altı da olacak Hocam
+niye 36 değildi 6 Çünkü akım sağ tarafa
+gidiyor yüksek potansiyelden alçak
+potansiyele gitmeli 36 yazarsan daha da
+yükseğe gitmeye çalışır ki Bu mümkün
+değil güzel B noktasına 6 volt buldum
+Demek ki Burası da 6 volt Burası da ve
+bu 0 buralara taşınamaz mı Tabii ki
+taşınır buralarda sıfırdır bir şeyin
+sağlamasını yapmış oluyoruz bu 3 onluk
+dirençten kaç amper geçiyor 2 amper vır
+yaparsak ı çarpı r yaparsak 2 x 3'ten 6
+volt mu yapıyor yani ben buraya
+voltmetre bağlarsam 6 voltu gösterir
+Evet bak sağında sıfır var solunda 6 var
+Aynı şey Burada da geçerli buraya
+voltmetre bağlarsam 1 çarpı 6'dan 6 volt
+gösterir Evet solunda 6 varsa sağında
+var bütün devrenin her yerini her
+noktasını incelemiş her noktasından
+haberdar olmuş oluyorum Böylece devre
+analizi dediğimiz şey tam olarak budur
+ilk etapta kalem elinize aldığınızda Siz
+yapmakta zorlanacaksınız Yeter ki
+dediklerimi iyi anlayın üzerinde düşünün
+ezberlemeyin yapamazsın Bir daha
+izlersin yapamazsın Bir daha izlersin
+zamanla soru gördükçe pratiğin arttıkça
+çerez gibi böyle tak tak buranın voltajı
+bu buranın akımı bu buranın direnci bu
+diye yapabildiğini fark edeceksin şahane
+bir kavram yanılgısının yine ezbere
+öğrenilen bir şeyin doğrusunu
+öğreneceğiz şekilde gösterilen devre
+parçasında a ve b noktaları arasındaki
+eşdeğer direnci buldunuz karmaşık bir
+devre gibi duruyor bir sürü direnç var
+Bunları teke düşüreceğiz Yani bir a
+noktası var bir de B noktası var
+Bunların arasında bir tane direnç olacak
+şekilde sadeleştir diyor O da Reş olacak
+şu iki arkadaş nasıl bağlı paralel
+bağlılar çark bölü topla yapabilirim 6
+çarpı 6 36'dır 6 artı 6 12'dir 36/12'den
+Burası ne yapar 3 10 yapar o zaman
+üşenmiyorum burayı komple siliyorum
+onların yerine 3 onluk bir direnç
+yazıyorum Burada bir tane dirence
+dönüştü bu iki arkadaş değeri 3 10 kadar
+şimdi bu 9 ile 3 nasıl bağlı Bak tek hat
+üzerinde deler seri bağlılar O zaman ben
+bunları On İki on olarak yazarım serisi
+direkt topluyorum ve bu 4 ile 2 de zaten
+tek hat üzerindeler onları da direkt
+toplayıp 6-10 yazacağım şuradan a teli
+çıkıyor Buradan da BT çıkıyor bu 12 ile
+altı nasıl bağlı paralel bağlı Yine bu
+iki arkadaş arasında çarp böyle topla
+yaparsam çarparsam 72 toplarsam 18 72/18
+4 10 yapacaktır yani a ile b arasında
+Artık tek bir direncimiz var ve değ 4
+omur a şıkkının cevabı bu gelelim B
+şıkkına ki Bu soruda benim önemsediğim
+yer b şıkkı kırmızı renkli teller
+olmasaydı eşdeğer direnç kaç 10 olurdu
+hocam kırmızı telleri ne alakası var
+bütün dirençler buradalar oteller olsa
+ne olur olmasa ne olur O kırmızı teller
+şunlar Aslında değil mi Ben bunları
+silsem Mesela bu yok Bu da yok acaba bu
+12 ile 6 hala paralel mi değil şu an
+Bunlar seri bağlılar Çünkü buradan geçen
+bir akım başka bir yola sapamaz Burada
+şu an tek hat var soru Bu haliyle seri
+bağlandığı için 12 + 6'dan 18 çıkardı
+ama sen buraya Şu kırmızı telleri tekrar
+takarsan burada Artık tek Hat olmaz bu
+12 ile 6 seri olmaktan çıkar paralel
+olurlar Çünkü şuradan gelen akım Buraya
+geldiğinde iki kolay ayrılacak Artık tek
+at değil bu bu çok önemli bizim için
+bazı öğrenciler hiçbir şey fark etmez
+gibi düşünseler de şu kırmızı Tellerin
+buradaki varlığı burayı bütünde komple
+paralel yapıyor bunlar olmasaydı tek hat
+olurdu hepsi seri olurdu Bunlar olmazsa
+12 ile 6 seri olur toplarız 18 Ohm olur
+diyebiliriz son olarak harflendirme
+yöntemi diye bir şey öğreneceğiz
+karmaşık devreleri çok daha basit
+düşünebilmek için kullandığımız bir
+taktiktir mesela burada 4 tane direnç
+var Kim seri kim paralel bunu anlamak
+çok kolay değil Burada Çünkü böyle
+aradan boş teller falan çıkartmış Ben
+nereden anlayayım kim seriyi kim paralel
+o zaman harflendirme dediğimiz taktiği
+yaparız bakalım neymiş o şurada a harfi
+var Ben bu A harfini buraya
+taşıyabilirim önüme bir direnç çıkana
+kadar taşıyabilirim Burası da a harfidir
+Burası da a harfidir Burası da A
+harfidir burada b var Burası da B
+harfidir Burası da B harfidir Ya bunlar
+burada tıkandılar şu noktalara A'dan da
+gelemedim B'den de gelemedim Ne olacak o
+zaman oraya Başka bir harf vereceksin
+diyeceksin ki burası c'dir o zaman bu C
+buraya da gelir her kesişim noktasına
+bir harf verdi bana ne soruyor a ve b
+noktaları arasındaki eşdeğer direnci
+bulunuz diyor A ve B arası dediği için
+en başa A harfini koyacağım en sona b
+harfini koyacağım araya da diğer
+harfleri serpiştireceğim ki diğer harf
+dediğim zaten sadece c var Ve devreyi
+yine çizeceğim mesela a ile C arasında
+ne var 4 onluk bir direnç var çiziyorum
+a ile C arasına 4 onluk direnci koyduk
+Bak burada a ile C arasında bir 4 onluk
+daha direnç var a ile C arasında bir 4
+onluk direnç daha koydu bu iki arkadaşın
+ne olduğu Aslında çok belli değildi ama
+şu an ya sanki bunlar paralelmiş diye
+biliyorum bakar fillendirme devreyi daha
+basit görmemizi sağlıyor a ile b
+arasında 12 var O zaman ben buradan
+A'dan çıkacağım B'ye kadar araya 12
+yapıştıracağım Bu da gitti c ile b
+arasında 4 var c ile b arasına şu dördü
+yazdım bu da gitti 4 tane direnç var 4
+tane direnç var şu an herkesin ne olduğu
+gayet açık ve net Bu iki arkadaş nasıl
+bağlı paralel çarp 16 topla 8-16/8 2 O
+zaman burada 2 onluk direnç var bunun
+hemen yanında 4 var Şu ikiyle bu 4
+Buradaki gibi tek kat üzerindeler Yani
+bunlar nasıl bağlı şu an Bunlar seri
+bağlılar 2+4'ten Burası komple 6 olur
+yukarıda 12 var aşağıda 6 var Bunlar
+seri mi paralel mi bak çıkıntıları
+görüyor musun Dolayısıyla bu arkadaşa şu
+çıkıntıları yapmak lazım Bunlar şu an
+paraleller 12 ile altı paralel yine
+çark/topla yaparsam
+72/18'den 4 10 Sorumun cevabıdır eşdeğer
+direnç 4 odur her kesişim noktasına bir
+harf veriyorum ve devreyi yeniden
+çiziyorum her harfin arasında hangi
+direnç geliyorsa ve devreyi daha basit
+görüyorum Bu arada bunu ilk defa mı
+gördünüz Hayır bu Benim sabahtan beri
+yaptığım nokta potansiyel yöntemi
+buradaki harfler bizim
+potansiyellerimizin ta kendisi 3 volt 5
+volt dediğimiz şeyler Sadece onların
+yerine harf kullanmış oluyor Hatta bu
+kuralı anlatan öğretmenler der ki; bir
+direnç aynı harf arasında kalıyorsa a
+ile a arasında kalıyorsa mesela kısa
+devre olur üzerinden akım geçmez niye
+Sizce Çünkü o a harfi potansiyel yani
+Sen aslında 10 voltla 10 volt arasında
+kalıyorsun 10 voltla 10 volt arasında
+kalınca Potansiyel fark var mı Yok
+Potansiyel fark olmaz akım geçer mi
+geçmez İşte o yüzden kısa devre diyoruz
+harflendirme yöntemi dediğin şey size
+daha önce çokça anlattığım nokta
+potansiyelin ta kendisidir
+ampermetrelerin Bence paralel
+bağlılığında neden kısa devre yaptığını
+nokta potansiyel yöntemiyle tekrar
+düşününüz Biz bunu yaptık zaten aslında
+şurada bir
+lambamız var bir direncimiz var şöyle
+bir devre var gerisini çizmiyorum ben
+buna paralel bir şekilde bir ampermetre
+bağlarsam işler sakata girer niye
+harflendirme yapalım şurası x harfi
+Burası da x harfi Burası da x harfi
+ampermetre dediğin şey dirence sahip
+olmadığı için düz bir tel gibi
+düşünülebilir O yüzden burası da x
+harfidir Burası da x harfidir iki aynı
+harf arasında kaldığın için kısa devre
+ya da bunlar zaten potansiyel değeri Şu
+Arkadaş 5 voltsa Burası da 5 volt Burası
+da 5 volt her yer 5v bu 5v tamamen
+salladım
+lambamızın bir ucunda 5 volt var diğer
+ucunda da 5 volt var Potansiyel fark yok
+üzerinden akım geçmez buradan gelen akım
+hiç direncin olmadığı bu boş telden
+geçer Lambayı kısa devre yapar ve geçer
+gider Böylece bu dersimiz de noktalamış
+oluyoruz karışık gelmiş olabilir
+Korkacak bir şey yok pratik yaptıkça
+gelişecek şeyler zaten karşına hiçbir
+zaman Çok karmaşık devreler çıkmayacak
+basit devreler çıkacak takıldıklarınızı
+alta yazın Kendinize iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,709 @@
+gençler Merhaba hareket konusunu tamamen
+bitirmiştik birçok soru tipine zaten
+konu anlatımlarına bakmıştık Şimdi
+toplamda iki testle bütün konuyu
+tarayacağız her bir soru siz kendiniz
+soruları önceden çözseniz bile
+çözümlerini dinleyin Çünkü ben bir soru
+içerisinde ufak bir tüyo vermiş
+olabilirim yeni bir konu anlatımı yapmış
+olabilirim bir konu anlatımında sizin
+farkına varmadığınız bir noktayı
+vurgulamış olabilirim başka bir bakış
+açısı kazandırmış olabilirim lütfen her
+soruyu tekrar dinleyin çözmüş olsanız
+bile Hemen başlayalım öğretmen yer
+değiştirme ile alınan yolun farklı
+kavramlar olduğunu anlatmak için
+aşağıdaki örnekleri tahtaya yazar Buna
+göre örneklerden hangileri kavram
+farkını anlatmak için kullanılabilir
+alınan yol ve yer değiştirme farklı
+kavramlar biliyorsunuz hangi örnek bu
+ikisinin farkını vurguluyor diye soruyor
+soru alii şekildeki x noktasından
+koşmaya başlamış ve y noktasına
+ulaştıktan sonra geri dönerek x
+noktasında durmuştur şimdi ben bu
+örnekte alınan yolla yer değiştirmenin
+farklı şeyler olduğunu anlayabilir miyim
+Ali x noktasından koştuğu yaya gitti
+sonra tekrar y'den x'e geri döndü 100
+metre ilerledi
+kilometre Geriye döndü Ali toplamda 200
+metre yol gitti Peki Ali bu yolculukta
+ne kadar yer değiştirdi yer değiştirme
+son konum eksi ilk konum son konumla ilk
+konum arasındaki en kısa mesafe Bu
+arkadaşın ilk konumu x'di ve son konumu
+da x Dolayısıyla toplamda Aslında bu yer
+değiştirmemiş oldu son konumu ilk konumu
+aynı o yüzden bu arkadaşın alınan yolu
+200 metre iken yer değiştirmesi 0 farklı
+sonuçlar çıktı Dolayısıyla alınan Yolun
+ve yer değişiminin farklı olduğunu bu
+örnekten anlayabiliyorum Aişe şekildeki
+gibi orman içerisinde bulunan 40 metre
+yarı çaplı çembersel yürüyüş yolunun k
+noktasından yürüyüşe başlayıp L
+noktasında durmuştur Burada alınan yol
+ve yer değiştirmeyi kıyaslayabiliyor
+muyuz farklı mı bunlar ka’dan çıktım
+l'ye gittim herhangi bir hesap kitapla
+uğraşmayacağım bu siyah Rotayı izledim
+bu siyah rotanın toplamıdır alınan yol
+Peki yer değiştirme nedir son konunun
+ilk konum arasındaki en kısa mesafe
+kağıdaydım l'ye gittim işte yer
+değiştirme vektörü Bu arkadaşın ta
+kendisidir şimdi bu mavi vektörün
+uzunluğu ile ki o yer değiştirme oluyor
+bu siyah yolun uzunluğu aynı mı değil
+farklı Dolayısıyla alınan yol ve yer
+değiştirmenin farklı şeyler olduğunu
+sonuçlardan anlayabiliyorum ikinci
+öncülde olabilir üçüncü örnek de diyor
+ki; Nazlı koşmaya başladıktan sonra
+kendisinden daha önde koşan Mete'yi p
+noktasına yakalamıştır şimdi Nazlı p
+noktasına gittiğinde şu Rotayı izliyor
+diyelim ki 100 metre koştu bu onun
+alınan yoldur Peki nazlının yer
+değiştirmesi nedir dediğimde yine ben
+buradan ne çizerim ilk konumundan son
+konumuna bu vektörü çizerim ve bu da
+onun yer değiştirmesidir Bunun uzunluğu
+nedir dediğimde yine 100 metredir ayırt
+edebiliyor muyum ikisini uzunluk olarak
+edemiyorum ya da Mete için düşündüğümde
+Mete Bu yolu takip etti 50 metre yol
+aldı alınan yolu bu yer değiştirmesini
+yazalım dediğimde bu arkadaş da 50 metre
+uzunluğunda bir yer değiştirmeye sahip
+oldu alınan yolda yer değiştirmeyi Sonuç
+olarak ayırt edemiyorum o yüzden üçüncü
+öncülük kullanmak çok Doğru olmayabilir
+bir eve ikiye olur demiştik Sorumun
+cevabı C seçeneğidir çiçek ve Buket
+Kardeşler antrenman için yarıçapı 40
+metre olan şekildeki çembersel Pistin
+aynı noktasından şekilde belirtilen yön
+ve sabit süratlerle aynı anda koşmaya
+başlıyorlarmış ona göre Kardeşler ilk
+defa koşuya başladıktan kaç saniye sonra
+karşılaşırlar denilmiş pi 3 alınız diyor
+Şimdi bunlar sabit süratle hareket
+ediyorlar Dolayısıyla bu doğrusal olmasa
+bile düzgün bir hareket Çünkü hızımız
+artmıyor veya azalmıyor sabit süratle
+gidiyoruz Bunun için ilk eşittir vt'yi
+kullanabilirim x Burada alınan yol ve
+burada benim süratim T de hareket sürer
+bu soruyu iki yöntemle çözeceğim 2
+yöntem çok daha kolay 1 yöntem asıl
+yöntemdir işte pi sayısını bana vermiş
+bu çemberin çevresini hesaplatacak
+hesaplayalım iki pire çember çevresidir
+2 çarpı pi'yi 3'e aldım yarıçapımızda 40
+metre olduğuna göre 240 metrelik bir
+çemberden bahsediyoruz ikisi de aynı
+noktadan harekete başladılar Şimdi çiçek
+koştu koştu koştu Şuraya bir yere geldi
+Nereye geldiğini bilmiyorum Buraya geldi
+diyelim ki bu mesafe x kadarlık bir
+mesafe olmuş olsun Ben şimdi çiçek için
+bir hareket denklemi yazarsam x kadar
+yol aldı sürati 20 metre bölü saniye
+çarpı ne kadar süre koştu bilmiyorum T
+yaz bu çiçek için yazdığım bir denklem
+şimdi Buket için bir denklem yazalım
+Buket de şu Rotayı karşılaşana kadar Bu
+ikisi bu yolu gitmiş oldu bu yol nasıl
+tarif edilebilir e tamamına Biz 240
+demiştik Bu çemberde E bunun x'ini zaten
+çiçek koştu o zaman geri kalanı da Buket
+tarafından koşulu yani Burası 240 -
+x'lik Bir Mesafe denklem yazıyorum Buket
+240x kadar koştu alınan yolu bu onun
+sürati Nedir onun süration'dur süre aynı
+süre Çünkü ikisi de Kronometre sıfırken
+başladılar karşılaştılar Kronometre
+durduğunda ikisi için aynı şeyi gösterir
+Kronometre bu iki denklemi çözersem
+soruyu bulmuş olurum bana zaten süreyi
+Soruyor yani t'yi bulmam lazım x'leri
+Yok etmem lazım bu iki denklemi taraf
+tarafa toplasam bu denklemi diğerinin
+altına yazarsam 240 - x = 10t taraf
+tarafa topladım bu x ile Bu ikisi
+birbirini götürür soldan 240 geldi
+eşittir 20t yukarıda 10t aşağıda
+Toplamda 30 TL oldu T buradan 8 saniye
+çıktı diyebiliriz yani soru basit bir x
+eşittir vt sorusu iki hareketli içinde x
+eşittir vt yazdım alınan Yollar süratler
+ve bu denklemi taraf tarafa topladım
+sorunun cevabını Böylece a şıkkı buldum
+Fakat bunun daha da kolay bir yöntemi
+var aslında AYT konusu olan bağıl
+hareketle ilgili bir çözüm bu Hocam biz
+tyt öğrencisiyiz AYT ile bizi uğraştırma
+diyebilirsiniz Ama bu günlük hayattan
+çok iyi bildiğiniz bir şey olduğu için
+bu çözümden ufacık bahsetmek istiyorum
+Bunlar zıt yönde koşuyorlar birbirlerine
+doğru geliyorlar her ne kadar çember
+çizseler de birbirlerine doğru
+geliyorlar biri 20 hızla geliyor biri 10
+hızla geliyor Normalde otobanda giderken
+zıt yönlerde giden arabalara hiç dikkat
+ettiniz mi mesela Siz bir arabadasınız
+gidiyorsunuz böyle başka bir araba zıt
+yönde yanınızdan geçti olduğundan çok
+daha hızlı geçtiğini fark ettiniz mi Siz
+bu arabayı normal hızından çok daha
+büyük bir hızla gidiyormuş gibi
+algılarsınız Yani siz 120 ile gidersiniz
+o da 120 ile geçiyordur yanınızdan Ama
+siz onu sanki 240'la gidiyormuşsunuz
+gibi hissedersiniz Burada da benzer bir
+mantık yapabilirim şöyle bir şey
+yapabilirim mesela Buket koşmasın Buket
+Burada dursun ben bunun hızını sıfır
+kabul edeyim Ama hocam O zaman yanlış
+çıkar sorumuzun cevabı hayır çıkmaz
+Çünkü çiçeğin hızını da 20 değil bu
+sefer 30 kabul edeceğim aynı senin öbür
+arabaya bakman gibi sen arabanın
+içerisinde duruyorsun kendi arabanın
+gitmediğini varsayarsan öbürü senin
+yanından sanki 240'la geçiyormuş gibi
+Halbuki İkisi de 120'erle gidiyor benzer
+bir şey yaptım Buket kendini durgun
+kabul etsin o zaman çiçek ikisini
+toplamı kadar hızla geçer zıt yönde
+Şimdi bunlar koşmaya başladıklarında bu
+kötü duruyor kabul ettik ya çiçek O
+zaman ne kadar yol Kat etmek zorunda
+bütün Çemberi dönecek dönecek dönecek
+buketle karşılaşacak çiçek ne kadar yol
+gitmek zorunda 240 metre çiçeğin Bu
+benim hesabımdaki hızı kaç 30 metre bölü
+saniye sürati x eşittir vtr'de yerine
+koyarsanız buraya 240 yazdığın buraya 30
+yazdın o zaman TN ne olur sekiz saniye
+olur karşılaşma süresini bu taktikle çok
+kolay bulabilirsiniz Tabii ki bunlar şu
+noktada karşılaşmayacaklar benim asıl
+soru çözümünde yaptığım gibi burada bir
+yerde karşılaşacaklar ama süreyi
+bulurken böyle bir akıl yürütme
+yapabilirim bağıl hareket yapabilirim
+iki yolla da çözdüm hangisi kolay
+geliyorsa siz onunla çözebilirsiniz
+doğrusal bir yolda hareket eden x y ve z
+araçlarının konum zaman
+mesafe gitmiş hız dediğim şey yer
+değiştirme bölü zaman zaman bütün
+arabalar için ortak O zaman yer
+değiştirmeye bakarak hız anlayabilirim
+yer değiştirmem çoksa hızım da çoktur ve
+X'in yer değiştirmesi bu sarı kadar
+y'nin yer değiştirmesi şu kadar z'ninki
+çok daha az Dolayısıyla ben burada
+hızları kıyaslarsam X'in hızı büyüktür
+y'den O da büyüktür Z'den diyebilirim ya
+da daha kolay yöntem Az önce ne dedim bu
+grafiğin eğimi hızı verir hangi grafik
+daha dikse o daha hızlıdır hangi grafik
+daha düzse o daha yavaştır görüyorsunuz
+burada x en dik grafik Z en düz grafik
+açılardan anlaşılıyor Z'nin açısı şu
+Alfa iken X'in açısı şöyle beta olarak
+yazılabilir Dolayısıyla araçların
+hızlara eşit değil x büyüktür y büyüktür
+Z X ve Y araçları T anana kadar bir kez
+yön değiştirmiştir burada yön değiştirme
+var mı Hayır burada yön değiştirme
+Adamların hepsi sola doğru gittiler Bunu
+zaten az önce konuştuk üçüncü öncülüğüm
+yanlış bu 3 Öncül niye koydum Sonra ya
+Çünkü öğrenciler ezber yaptıkları için
+grafikleri karıştırıyorlar mesela bazı
+öğrenciler şunu biliyorlar ha böyle bir
+grafik artıdan eksiye geçince yön
+değiştiriyordu doğru öyle bir şey var
+ama konum zaman grafiğinde değil o Hız
+zaman grafiğinde hız artıysa artı yönde
+gidiyorsundur hız eksiyse eksi yönde
+gidiyorsundur Yani bu grafik bir hız
+zaman grafiği olsaydı şu düşey
+eksendekiler hız değerleri olsaydı
+atıyorum burada +5 hızının olur burada 0
+hızını olur yani artı 5'ten sıfıra indin
+durdun sonra -5 hızın olur yani eksi
+yönde gitmeye başladım O yüzden burada
+yön değiştirme söz konusu olurdu fakat
+bu hız zaman grafiği değil ki hız zaman
+grafiği olmadığına göre öyle bir durum
+söz konusu değil de ben zaten bunların
+hepsini aynı yönde gittiğini söylemiştim
+üçüncü öncülüm yanlıştır Sadece 1'e
+doğru demiştik sorumuzun cevabı a
+seçeneğidir doğrusal yolda hareket eden
+K ve L araçlarının hız zaman grafiği
+şekildeki gibiymiş Buna göre sıfır to
+zaman aralığında yargılarından hangileri
+Doğru olabilir diye sormuş Hız zaman
+grafikleri var K ve l'nin ortalama
+hızları eşittir ortalama hız dediğim şey
+nasıl bulunur toplam yer değiştirmeyi
+toplam zamana bölerek bulunur Hız zaman
+grafiğindeyiz toplam Yer değiştir nasıl
+buluyoruz Hız zaman grafiğinde alana
+bakarsam yer değiştirmeyi bulurum çünkü
+şu grafiği bir takla attıralım İçler
+dışlar yapsak Delta x eşittir V çarpı
+Delta T olur yani sen hızla zamanı
+çarparsan yer değiştirme hakkında fikir
+sahibi oluyorsun şu Eksen hız ekseni bu
+Eksen zaman ekseni bunları çarptığımda
+geometrik olarak bu üçgenin alanı ile
+ilgili fikir sahibi olduğuma göre Hız
+zaman grafiğinde alan yer değiştirmeyi
+verir yani şurası artı Delta xlik bir
+yer değiştirmeye tekabül ediyorsa ki
+kendisi ve çarpı T bölü 2'ye karşılık
+gelir Çünkü bu kenar B'ye kadar bu kenar
+T kadar üçgende iki kenarı çarpıp 2'ye
+bölüyoruz biliyorsunuz aşağıdaki
+arkadaşın alanı X ekseniyle arasındaki
+alana bakacağız Burası da V kadar Burası
+da T kadar Ee Burası da V çarpı T bölü 2
+Fakat bu arkadaş eksi hız değerlerine
+sahip Yani aslında şurası - V gibi
+düşünebilirsiniz o yüzden buradaki yer
+değiştirme eksi Delta x'tir hocam Tamam
+işte bunların hızları aynı Zaten ikisi
+de 0 T aralığında ikisi de aynı yerde
+değiştirmeyi yaptı o zaman bunların
+ortalama hızları da aynıdır Hayır
+değildir Çünkü hız vektörel büyüklük
+artı Delta x demek şöyle bir yol çizelim
+görselleştirelim K dediğim adam sağ
+tarafa doğru yer değiştirdi demek
+Dolayısıyla hız vektörüm sağ tarafa
+doğru demek bu ortalama hız bile olsa L
+dediğim adam eksi Delta x yer
+değiştiriyor yani vektör sol tarafa
+doğru yer değiştirmede bir vektör sola
+doğru gidiyorsa bunun hız vektörü de
+sola doğru olmalı Dolayısıyla bu yeşille
+kırmızı vektörler hız vektörlerinin
+büyüklükleri aynı doğru Ama ortalama
+hızları eşittir diyemeyiz Çünkü yönleri
+farklı 1 öncülüm yanlıştır ya da
+grafikler düzgün olduğu için aritmetik
+ortalama yapabiliriz ikisi için de süre
+ortak Çünkü bunun ilk hızı ve son hızı
+sıfır o zaman topla ikiye bölden +
+v/2'lik bir ortalama hız demektir Bunun
+ilk hızı eksi ve son hızı 0 o zaman
+topla bölü 2'den - v/2'lik ortalama
+hızdır biri sağa gidiyor biri sola
+gidiyor çünkü biri artı çıktı biri -
+çıktı K ve l'nin ivmeleri eşittir Hız
+zaman grafiğinde biz bir şey daha
+buluyoruz Hız zaman grafiğinde eğime
+bakarsak ivmeyi bul Çünkü ivme dediğim
+şey birim zamandaki hız değişimi demek
+Dolayısıyla hızla zamanı bölersek eğim
+hakkında bir fikir sahibi oluruz karşı
+bölü komşu O da bize ivmeyi verir bölme
+eğim çarpma alan şimdi K için Şuraya bir
+açık koyduğumda karşı kenarı budur ve
+diyelim komşu kenarı budur T diyelim o
+zaman buradaki ivme V bölü t'dir Ben
+bunu a dedim fakat grafik sola yatık
+olduğu için buradaki ivmem - a olarak
+isimlendirilmelidir Çünkü ivme de bir
+vektör yöne ihtiyacımız var l'deki
+grafik ise sağa yatık bir grafik sağa
+yatık olduğu için burada da aynı şekilde
+şöyle yatayını çizersek Bunun buraya
+açıyı koydum şöyle üçgene tamamlıyorum
+bunun karşısı şu uzunluk demektir yani V
+kadardır komşusu T kadardır ve bölü t'ye
+gelir bu artı a'dır Çünkü grafik sağa
+yatık yani Kaan'ın ivme vektörü sol
+tarafa doğru a iken l'nin ivme vektörü
+sağ tarafa doğru a'dır Büyüklükler aynı
+ama iyi ivmeler eşit değil yönleri zıt
+şuradan da anlayabilirdik başka bir
+yöntem K dediğim adam artıyor Gidiyor mu
+Gidiyor hızı ne oluyor gitgide azalıyor
+yani K dediğim adam sağa giderken
+yavaşlıyor sağa giderken yavaşlamak için
+sol tarafa doğru bir kuvvete maruz
+kalmalısın ki o seni yavaşlatsın zıt
+yönde kuvvet seni yavaşlatır
+fiştiremadan düşünürsem kuvvet bir
+vektör ivme bir vektör kuvvet vektörü
+nereyi gösterirse ivme vektörü de oraya
+gösterir ve kuvvet sola O yüzden ivme de
+sola l'ye baktığımda ne görüyorum -v'den
+hızını sıfıra düşürmüş Bu arkadaşlar
+yani bu da yavaşlıyor eksiği yönde giden
+adam yavaşlıyorsa o zaman L dediğim adam
+da zıt yönde bir kuvvete maruz
+kalıyordur kuvvet sağa doğru olduğu için
+bunun da ivmesi sağ tarafa doğru çıkar
+hiç grafikle uğraşmadan böyle de
+anlayabilirdiniz kahve L araçları
+birbirine yaklaşmaktadır Hayır hocam
+biri sağa gidiyor biri sola gidiyor
+bunlar birbirlerine yaklaşamazlar bakın
+sorudan şüpheleninin ne diyor olabilir
+sorusu diyor 1 ile 2 de olabilirlik yok
+Kesin yorumlar yaptık Ama üçüncüde biraz
+daha esnek düşünmemiz lazım bu adamların
+ilk konum hakkında size fikir verdiler
+mi soruda öyle bir metin var mı aynı
+yerden harekete başladılar mı öyle bir
+şey yok mesela ben şöyle çizseydim bunu
+yol bu olsaydı L burada olsaydı K burada
+olsaydı L sola gidiyor k'da sağa gidiyor
+aynı Buradaki gibi şu an birbirlerine
+yaklaşmıyorlar mı yaklaşıyorlar o zaman
+mümkündür bana ilk konum hakkında bilgi
+vermediği için böyle bir olayda
+mümkündür böyle bir olayda mümkündür bir
+eve iki ya yanlış dedi ki sorumuzun
+cevabı C seçeneği olacaktır T = 0 anında
+x aracı k noktasından 10 metre bölü
+saniye sabit hızla geçtiği anda
+şekildeki L noktasında bulunan L aracı
+durgun halden sabit ivme ile harekete
+başlıyormuş yani şu x aracı sabit hızla
+gidiyor sağa doğru 10'la gidiyor y aracı
+ise birden hızlanmaya başlıyor sabit
+ivmeli yani hız değişimi hep aynı olacak
+araçlar T süre sonra o noktasında
+karşılaştıklarına göre Hız zaman
+grafikleri hangisi gibi olur denilmiş
+Şimdi bir kere direkt şöyle elemeler
+yapabiliriz Kaan'ın hızı 10 metre bölü
+Saniye ve bu değişmeyecek o zaman
+Kaan'ın hız grafiğinde Hep onun sabit
+olduğu şeyleri aramalısınız ağda sabit
+B'de sabit CD sabit DD sabit e de sabit
+hiçbir şey elemedik Peki acaba yönden
+alabilir miyiz soruyu ben sağ tarafa
+artı yön kabul ettim sol tarafı eksi yön
+kabul ettim bu kabulde X'in hızı artı
+10'dur yani -10'da çizilmemesi gerekir
+A'da artı çizilmiş B de artı çizilmiş C
+de artı D'de artı e de artı hepsinde
+artı çizilmiş iğneleyemedik y'yi
+düşünelim o zaman y'nin ilk hızı 0'dı ve
+hızlanmaya başladı sol tarafa doğru
+gidiyor dikkat edin Dolayısıyla bunun
+hız vektörü eksiği gösteriyor bunun hız
+vektörü eksi değerler almalı işte şimdi
+eleyebiliyoruz bir kere A şıkkını Eledim
+Çünkü y'nin hızını sabit vermiş Hayır bu
+adam hızlanacak B şıkkını da Eledim
+Çünkü bunu artı hız değerlerinde vermiş
+Bu adam eksi gidiyor şöyle itiraz
+ettiğinizi duyar gibiyim İyi de hocam o
+artı eksiyi Siz kabul ediyorsunuz belki
+soruyu yazan adam tam tersi kabul etti
+Dolayısıyla y artı yönde gidiyor
+olabilir Çok mantıklı bir itiraz ama o
+zaman ikisi burada çizemez çünkü X'in
+-10'da çizilmesi gerekir Çünkü x ile y
+zıt yönlerde gidiyorlar İkisi de artıda
+çizilemez bir artıda çizildiyse öbür
+ekside çizilecek C şıkkında 0'dan
+başlatmış eksi hızlara götürmüş doğru D
+şık sıfırdan başlatmış eksi hızlara
+götürmüş doğru e şıkkını eleyebilirim
+sabit hızla götürmüş Peki c ile D'yi
+nasıl ayırt edeceğiz sayısal verilerden
+yani y'nin ulaşacağı son hızı bulduruyor
+bana mecbur yapacağız şimdi Bunlar kaç
+saniyede karşılaşırlar onu Ben şuradan
+bulurum zaten ne kadar yol gidiyor bu
+arkadaş x eşittir vt'den düşündüğümde
+100 metre yol gidiyor hızı nedir sabit
+bir şekilde 10 metre bölü saniye o zaman
+buradan t'nin 10 saniye çıkması
+gerektiğini çok rahat anlarım bunların
+hareket süresi 10 saniye aynı anda yola
+çıkıp aynı anda karşılaştıklarına göre
+demek ki burada y aracı için de hareket
+süresi 10 saniye şimdi bak y aracı 200
+metre yol gidecek 10 saniyede gidecek
+Buna da x = vt yapalım hocam diyor
+musunuz buraya 10 yazalım hocam 200
+metre gidecek buraya 200 yazalım o zaman
+Şuradaki hızın 20 olması lazım Böyle bir
+işlem yapabilirsiniz Ama bu 20 doğru
+yorumlamalısınız bu 20 nedir bu 20 y'nin
+ortalama hızıdır Çünkü sen buraya sabit
+bir hız yazdın ye sabit hızla gitmiyor
+ki bu adam 0 hızdan hızlanmaya başlıyor
+ortalaması 20 ise ilk hız o zaman son
+hızı nedir bu arkadaş ilk hız 0 son hız
+40 metre bölü saniye olmalı ki aritmetik
+ortalaması 20 çıksın sanki hep 20 ile
+gidiyormuş gibi düşünebileyim o yüzden
+ben bunu sıfırdan başlatıp eksi 40'a
+götüreceğim sola doğru gittiği için yani
+D şıkkı gibi olması gerekecek x aracına
+ait ivme zaman ve y aracına ait Hız
+zaman grafikleri şekildeki gibidir Buna
+göre hangileri kesinlikle doğrudur diye
+sorulmuş bu çok önemli bir soru ivme
+videosunu sonlarında Özellikle bu durumu
+belirtmiştim ivme zaman grafiğine
+bakarak ya da ivme hakkında fikir sahibi
+olmak aracın hangi yönde gittiği hangi
+hıza sahip olduğu hakkında size bilgi
+vermez ivme hız değişimi demek Ve bu
+grafiğin altındaki alan hız değişimini
+verirdi nereden geliyordu o iş ivme
+birim zamandaki hız değişimi hız
+değişimini yalnız bırakırsam a çarpı T
+olur yani ivme ile zamanı çarptığında
+hız değişimini buluyorum şurası ivme
+şurası zaman bu ikisini çarpmak demek bu
+dikdörtgenin alanı demek Fizikte de hız
+değişimi demek şurası 6 5 olduğuna göre
+Burası artı 30 metre bölü saniyedir bu
+ne anlama gelir aracın hızı 30 mu demek
+5 saniye sonunda Hayır aracın hızı 5
+saniyede artı 30 değişmiş demek bu kadar
+eksi yönde giderken de artı 30 değişmiş
+olabilir artı yönde giderken de artı 30
+değişmiş olabilir x aracının yönüyle
+ilgili hiçbir yorum yapılamaz yani
+Mesela x aracı sol tarafa doğru eksi
+20'lik hızla gidiyordur sola doğru -20
+sabit hızı vardır artı 30'luk hız
+değişimi sağ tarafa doğru artı 10'luk
+hızının olması demektir yani bu ivme hız
+değişimi aracın yavaşlatmış yavaşlatmış
+yavaşlatmış durdurmuş geri döndürmüş
+hızlandırmış hızlandırmış ve onluk hıza
+ulaştırmış artı 30 hız değişimi şöyle
+bir değer için budur ya da ne olmuş
+olabilir bu arkadaş sağ tarafa
+gidiyordur atıyorum artı 20 hızı vardır
+hız değişimi +30'sa hızı artı 50'ye
+çıkar yani bu zaten sağ tarafa
+gidiyordur artı 30'u hız değişimi sadece
+hızlanması anlamına gelir İkisi de
+doğrudur ama ye için kesin yorum
+yapabilirim Çünkü bu hız zaman grafiği
+hız nereye göster yoksa hangi işaretli
+ise yönde olur gitme yönünde olur hız
+gördüğünüz gibi hep eksi değerler almış
+Dolayısıyla Bu arkadaşın eksi yönde
+gittiğini söyleyebilirim birinci Öncül
+soru kesinlikle sorusu olduğu için doğru
+kabul edilemez araçların ivmelerinin
+büyüklükleri eşittir Hız zaman
+grafiğinde eğim bize ivmeyi verir bu
+grafik sola yatık bir grafik bir kere
+negatif eğim çıkacak negatif ivme
+çıkacak şuraya açıyı yapıştırdım buranın
+mesafesi 30 kadar buranın mesafesi 5
+kadar Dolayısıyla karşı bölü komşu
+yaptığımda 6 metre bölü saniye karelik
+eksi 6 metre bölü saniye karelik bir
+ivme demek Çünkü sola yatmış Peki x
+arabasının ivmesi kaçtı artı altıydı
+ivmelerinin büyüklüklerini sorduğu için
+Evet bunu doğru kabul edebilir oradaki
+artı ve eksi yöndü hatırlarsanız x aracı
+hızlanırken y aracı yavaşlamıştır bir
+kere soru y aracında patlıyor Çünkü y
+aracı eksi 10 hızdan eksi 40 hıza çıkmış
+yani eksi yönde hızlanmış bu adam
+yavaşlamıyor ama yine ben sonradan
+bağımsız ikisi konuşmak istiyorum x ne
+yapıyor ivme Sana bunlar hakkında hiçbir
+fikir vermez bak Az önce çizdim aynı
+ivme eksi yöndeki arabayı yavaşlatır
+yavaşlatır yavaşlatır durdurur geri
+döndürür ve tekrar hızlandırır aynı ivme
+aynı grafik artı yönde giden arabayı
+direkt hızlandırır İkisi de doğru
+Dolayısıyla 3 öncülde x aracı hakkında
+da yorum yapamam kesinlikle yorum
+yapabildiğim sadece 2 oldu Sorumun
+cevabı 5 katıdır aynı noktadan harekete
+başlayan X Y ve z araçlarının Hız zaman
+grafikleri verilmiş y aracı T süre sonra
+doğuya doğru 40 metre yer değiştirdiğine
+göre X ve z araçlarının yer
+değiştirmeleri ile ilgili hangisi
+doğrudur denilmiş Şimdi yer değiştirme
+soruyor ve bana hız zaman grafiği vermiş
+defalarca usanmadan yazıyorum bunları
+hızla zamanı çarptığımda elde ettiğim
+şey yer değiştirmedir çarpma işlemi alan
+demektir Dolayısıyla y'nin zaman ekseni
+ile arasındaki bu alan y'nin yer
+değiştirmesi demektir X'in zaman ekseni
+ile arasındaki bu alan x sinyal
+değiştirmesi demektir Z'nin zaman ekseni
+ile arasındaki alan Z'nin yer
+değiştirmesi demektir soru bana ne demiş
+tanım olarak demiş ki y aracı doğuya
+doğru 40 metre yer değiştiriyor yani şu
+kırmızıyla taradığım yer Doğuyu Sağ
+taraf artı kabul edelim artık 40
+metreymiş Bu arkadaşın alanın
+hesaplarken şu kenarını V alırım şu
+kenarını T alırım yani bu aslında V
+çarpı t'nin ta kendisi x için hesap
+yapsam bu kenar 2 ve bu kenar T bu mavi
+alan 2vt'dir Dolayısıyla Bu da 80
+metredir Peki yönü ne yapacağız ve İkisi
+de x ekseninin yukarısında T ekseninin
+zaman ekseninin yukarısında artı 80
+metre ya da şuradan anlayabilirsin y
+aracı artı ve hızına sahip değil mi y
+aracı sağ tarafa gitmiyor mu Evet x
+aracı da artı 2v hıza sahip x aracı daha
+büyük hızla yine artı hızı olduğu için
+sağ tarafa Doğu yönünde gidiyor ama
+Z'nin hızı gördüğünüz gibi -2 ve Yani bu
+kesinlikle batıya gidiyor ki zaten yer
+değiştirmesi zaman ekseninin altında
+yani burada negatif yer değiştirme var
+değerin de hesaplarsam 2 ve çarpı t'den
+-80 metre yani Batı yönünde gitme
+diyebiliriz x'e Doğu yönünde 80 Z'ye de
+Batı yönünde 80 demiştik Dolayısıyla
+sorumuzun cevabı e seçeneğidir Evet
+şimdi gelelim meşhur tren sorularını
+öğrencilerin çok kafasını karıştıran bir
+soru tipine hiç kafa karışacak bir şey
+yok Çok kolay yöntemler üreteceğim Size
+aynı anda şekildeki köprünün K hizasına
+gelen trenlerden x Treni ve sabit
+hızıyla giderken y treni 2 ve sabit
+hızıyla gidiyormuş Bir süre sonra
+doğrusal raylarda hareket eden xtrenin
+ön ucu lizasına gelirken y trenin arka
+ucu K hizasındadır baya karışık şeyler o
+oraya gitti bu buraya gitti öncülere
+baktığımızda daha da kafa karışıyor
+diyor ki köprünün uzunluğu x treninden
+uzundur köprü nereden çıktı Onun boyuyla
+ilgili bilgi vermedi ki işte yeğenin
+uzunluğu köprüden büyüktür falan filan
+çok kolay gençler Bu soruda neden kafa
+karışıyor Aslında soru bildiğimiz ilk =
+vt sorusu yani yer değiştirme eşittir
+hız çarpı zaman doğrusal gittikleri için
+direkt yer değiştirmeyi düşünebilirim
+Burada öğrencilerin kafasını karıştıran
+şey şu x'i almak Çünkü trenler uzun
+araçlar ne kadar gittiğini
+anlayamayabiliyor trenin boyu da işin
+içine girdiği için orası nereye geldi
+Burası nereye geldi trenin boyuyla
+uğraşmamak için şöyle bir taktiğimiz var
+trenin küç bir nokta gibi düşünelim Onu
+hareket ettirelim koca treni hareket
+ettirmeyelim mesela x trenin ön ucunu
+işaretledim böyle bir kırmızı nokta
+olarak düşünüyorum ve ben o Sadece
+kırmızı noktayı hareket ettireceğim
+onunla muhatap olacağım y treninin de ön
+ucunu işaretledim sadece o mavi noktayla
+uğraşacağım soru bana diyor ki bir süre
+sonra ilk sirinin ön ucu lizasına
+geliyor yapalım Tam şu an ka'dayız bir
+süre sonra bu L hizasında şuraya
+gelecekmiş burada denklem yazsam x
+eşittir vt yazıyorum x tr'nin ne kadar
+yer değiştirdi buradan buraya geldi bu
+yer değiştirme köprünün boyu kadar değil
+mi Aynen öyle O zaman ben buraya x
+yerine biz köprüyü kat ettik yazacağım
+trenin hızı xr'nin hızı ve çarpı hareket
+süresi İşte bu birinci denklemi soruda
+tarif edilen ikinci kısım y treni ile
+ilgili diyor ki y trenin aynı sürede
+arka ucu kaizasında'dır şimdi bu Mavi
+Nokta hareket edecek gidecek bir yerlere
+Bunu nereye geldiğini ben bilmiyorum
+mesela Şuraya bir yere gelmiş olsun y
+treni devamını çizdiğimde Bunun arkası
+Kaya denk gelecek şöyle bir şey çizmem
+gerekiyor hocam nereden biliyorsunuz Bu
+mavinin buraya kadar geldiğini Belki
+daha ileride olacak Belki köprünün
+üzerine denk gelecek belki tam L
+hizasında olacak bilmiyorum ki kafama
+göre salladım çünkü bununla ilgili bilgi
+yok Hepsi olabilir Ben denklemini
+yazmaya çalışacağım sadece y treni ne
+kadar gitti Mavi Nokta buradaydı buraya
+geldi ne kadar gitmiş oldu Kendi boyu
+kadar gitmiş oldu e treni zaten bu kadar
+Bak işte az önce söylediğim şeyler bir
+önem arz etmiyor bu Mavi Nokta köprünün
+üzerinde kalsaydı da ye treni kendi
+kadar gitmiş olacaktı çok daha ilerilere
+gitseydi de kendi kadar gitmiş olacaktı
+Çünkü arka ucu kayaya denk gelecek sonra
+öyle diyor Dolayısıyla buradaki denklem
+y treni kendi boyu kadar gitti hız nedir
+hız 2 v'dir 2v çarpı t'ler aynı Çünkü
+aynı süreden bahsediyor soru işte bu iki
+denklemi yorumlayacağım ve soruyu çözmüş
+olacağım öncülere bakalım köprünün
+uzunluğu x trenin uzunluğuna eşittir 2
+tane denklem çıkartabildim Ben soruda bu
+denklemlerde x trenin boyu ile ilgili
+bir şey var mı Yok o zaman Ben bununla
+ilgili yorum yapamam köprüden büyük
+olabilir köprüden küçük olabilir köprüye
+eşit olabilir soru O yüzden kesinlikle
+sorusu zaten
+bana verdiği bütün bilgileri Ben denklem
+olarak yazdım Demek ki bununla ilgili
+yeterli bilgi Elimde yok y trenin
+uzunluğu köprünün uzunluğundan büyüktür
+şimdi denklemlerimi kurcalıyorum burada
+köprüyle de ilgili bilgi var y treni ile
+de ilgili bilgi var köprü vt'ye eşitken
+y treni 2vt'ye eşit çok bariz ki bu
+trenin boyu köprüden çok daha büyük
+ikinci öncülüm Kesinlikle doğru x trenin
+en ucu köprüyü geçmeye başladıktan bir
+süre sonra y trenin arka ucuyla aynı
+hizaya gelir şimdi x trenin en ucu Şu
+kırmızı nokta köprüyü geçmeye başlıyor
+Yani bu kırmızı nokta ilerlerken bu mavi
+trenin arkasıyla bir yerde denk gelirler
+diyor Evet doğru Çünkü bunların hızları
+farklı Bizim uçlarımız aynı hizada
+sorunun başında ben gidiyorum ama y
+treni çok daha hızlı beni geçip gidecek
+dolayısıyla bir yerlerde onun arkasıyla
+benim ucum denk gelecek ya bu kesin
+olacak bir şey 3 öncülüm doğru ikiye
+doğru dedim Üçe doğru dedim Sorumun
+cevabı 2 ve 3D şıkkıdır ilk testimiz
+böyleydi ikinci testi de daha da farklı
+soru tiplerine bakacağız
+takıldıklarınızı alta yazın Kendinize
+iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,600 @@
+[Müzik]
+bir iletken telden elektrik akımı
+geçirildiğinde telin çevresine şekildeki
+gibi modellenen manyetik alan
+oluşuyormuş Buna göre o noktasında
+oluşan manyetik alan şiddeti
+verilenlerden kaç tanesine bağlı
+değildir diye sormuş güzelliğine kavram
+yanılgılarını yeneceğimiz bir soru bakın
+o noktası burası burada manyetik alan
+vektörü çizilirse buradan geçen bu
+çembersel manyetik alan çizgisine teğet
+şube vektörü çizilmiş manyetik alan
+budur peki bunun şiddeti nelere bağlıdır
+bunun şiddeti ortama bağlı telden geçen
+akıma bağlı tele olan dik uzaklığa bağlı
+telin etrafındaki manyetik alan bunlara
+bağlı bunları konu anlatımında
+konuşuyoruz bunları bilmelisiniz yorum
+sorusu olarak işte bu şekilde karşımıza
+çıkabilir burada D'den kastımız
+neresidir TL olan o noktasının manyetik
+alanını merak ettiğimiz noktanın dik
+uzaklığıdır Yani bu mesafedir Hocam soru
+Çok basitmiş buradaki değişkenlere
+bakacağım işte Elektrik akımının
+büyüklüğüne bağlı mı burada iyi var mı
+var ya o zaman buna bağlı o noktasının
+telediği uzaklığı yani D'den bahsediyor
+Evet formülde var buna bağlı Elektrik
+akımının yönü Elektrik akımının yönü
+manyetik alan vektörünün yönünü
+değiştirir baş parmağınızı akım yönünde
+tutarsanız 4 parmağınız manyetik alanın
+yönünü verecektir Eğer siz baş
+parmağınızı aşağıya doğru tutarsanız 4
+parmağınız tam tersi yönde döner
+Dolayısıyla akım yukarı doğru giderken
+soruda olduğu gibi manyetik alan vektörü
+buysa akım aşağıya doğru giderken tam
+tersi yönde Dolanım olacağı için
+manyetik alan vektörü tam tersi yönde
+olur ama sadece yön değişir şiddet yine
+B Çünkü ne K değişti ne ortam değişti ne
+akım değişti şiddet olarak ne dedik
+uzaklık değişti yine o noktasından
+bahsediyoruz Dolayısıyla akımın yönüne
+bağlı değil manyetik alanın şiddeti
+burada dikkatli olmak lazım manyetik
+alan şiddeti dediği için ben buna bağlı
+değildir diyorum manyetik alan deyip
+virgül koysaydı şiddeti demeseydi o
+zaman manyetik alanı bütünsel düşünmemiz
+gerekirdi manyetik alan dediğin şey B
+üzerinde ok işareti var yani bir vektör
+vektör Önceden bu iken sonra bu olduysa
+manyetik alan değişmiş demektir ama
+tekrar söylüyorum soru bize şiddetini
+sorduğu için
+bağlı değiliz o noktasının bulunduğu
+ortamın cinsi k’dan bahsediyor formülde
+var mı var buna bağlı gelelim en önemli
+iki tane öncüle telin uzunluğu ve
+dünyanın manyetik alanı Hocam bu
+formülde telin uzunluğu yok telin
+uzunluğu yoksa buna bağlı değildir Hayır
+Buna da bağlıdır ders kitabındaki bir
+soruda bu hata var maalesef konu
+anlatımında bunu Özellikle vurgulamıştım
+bu formül tel uzunluğu içermiyor doğru
+ama bu formülün hesabı yapılırken ispatı
+yapılırken telin uzunluğunun manyetik
+alanı ölçeceğiniz D uzaklığında çok çok
+büyük olması düşünülerek çıkartılan bir
+formül O yüzden bu sorularda sonsuz
+uzunlukta tel diye sorulara giriş
+Görürsünüz sonra öyle başlar sonsuz
+uzunluklu telin Bilmem neresindeki
+manyetik alanı bulun diye yani siz bu
+formülü düşünmek istiyorsanız bu şartı
+kabul etmişsiniz demektir 10 santimetre
+uzunluğundaki Bir telin 10 santimetre
+uzağındaki bir noktanın manyetik alanını
+hesaplarken bu formülü kullanamazsınız
+Gençler bu formülü kullanıyorsak telin
+uzunluğuna bağlıdır telin çok çok uzun
+ölçeceğimiz bu D mesafesinin de çok çok
+küçük olması gerekiyor dünyanın manyetik
+alanına bağlı mıdır bu Biraz detay gibi
+gözükebilir ama Akademik olarak
+düşündüğümüzde dünyanın manyetik alanına
+da bağlıdır tabii ki o noktasında Sadece
+bu telden kaynaklı manyetik alan yok ki
+hatta o noktasındaki manyetik alan bu
+kırmızı vektör bile olmayabilir Örneğin
+o noktasında dünyanın manyetik alanı
+şöyle olsa koyduğumuz pusulalar bu yönde
+sapıyor olsa dünyanın manyetik alanın
+böyle bir mavi vektör olsa bu kırmızı
+vektör telden kaynaklı manyetik alan
+olsa o noktasındaki manyetik alan yani
+sorunun sorduğu manyetik alan şöyle bir
+şeydir gençler yani buradaki mavi vektör
+dünyanın manyetik alan vektörü de
+belirleyicidir bir etmendir soru bana
+tel tarafından o noktasında oluşturulan
+manyetik alan dememiş o noktasında
+oluşan manyetik alan demiş dünyanın
+manyetik alanı ihmal edememiş O zaman
+ben sadece o noktasındaki manyetik alana
+odaklanıyorsan dünyayı da düşünmek
+zorundayım dünyanın manyetik alanına da
+bağlıdır bu Biraz detay gibi gelebilir
+bazı öğrencilere ama sorular doğru
+sorulmalı O yüzden bu testteki çoğu
+soruda dünyanın manyetik alanını ihmal
+diye özel bilgi veriyorum size ki onu
+düşünmeyelim diye çünkü onu düşünürsem o
+nokt manyetik alan değişir Buna dikkat
+etmek lazım kaç tanesine bağlı değildir
+diyordu sadece üçe bağlı değil çıktı
+Sorumun cevabı a şıkkıdır gençler
+dünyanın manyetik alanını ihmal edildiği
+aynı ortamda bulunan ve birbirlerini
+etkilemeyen sonsuz uzunluktaki x y z
+tellerinden şekildeki gibi akımlar
+geçiriliyormuş Buna göre hangileri
+doğrudur diye sorulmuş x teli sayfa
+düzleminde ytli sayfa düzleminde ne
+demek sayfa düzleminde yani sizin
+kitabınızın elinizdeki A4 kağıdının
+üzerinde tel yatıyor kalemi kağıdınızın
+üzerine koymuşsunuz gibi
+düşünebilirsiniz Z teli ise sayfa
+düzlemine dik gördüğünüz gibi Burada şu
+an tel gözükmüyor tel neden gözükmüyor
+Çünkü biz şu an sayfaya dik bakıyoruz
+Yani siz A4 kağıdınıza böyle tepeden
+bakıyormuşsunuz gibi hayal edin Bu sizin
+kağıdınızsa tel sayfaya dik durduğu için
+yani böyle durduğu için Ve siz de bunun
+tepesinden baktığınız için ne görürsünüz
+telinizin kesitini Görürsünüz bir daire
+görürsünüz İşte o daire Şuradaki
+dairedir gençler şimdi bu teller
+etraflarında manyetik alan
+oluşturacaklar biliyorsunuz Bunlar bxby
+ve bz'ymiş bunların yönleri ile ilgili
+büyüklükleri ile ilgili klasik bir soru
+O zaman bu manyetik alanları çizmeye
+çalışalım belirtilen bu noktalarda da
+manyetik alan vektörlerini çizelim x
+sterilinin sağındaki şu noktada nasıl
+bir manyetik alan vektörü var diye
+düşüneceğiz Bir kere biz şunu biliyoruz
+ki telin etrafında çembersel bir
+manyetik alan olacak Tam Bu noktadan
+geçecek şekilde çizmem lazım tabii ki
+böyle bunu çizebilirim burada nasıl bir
+manyetik alan vektörü var diye merak
+ediyorum sağ el kuralı ile bunu
+buluyoruz baş parmağım akımı
+gösteriyordu 4 parmağımı Bu akım
+etrafında döndürdüğümde bu manyetik alan
+çizgisini çembersel olarak elde etmiş
+oluyordu şimdi bu sizin sayfanız
+sayfanızın üzerinde baş parmağınız
+yukarıya doğru olacak elektrik akımı
+Çünkü yukarıya doğru elimi çevirdiğimde
+bakın sayfanızın sağ tarafında 4
+parmağım içeriye giriyor sağdan içeriye
+giren soldan ne yapar dışarıya çıkar
+Dolayısıyla Burası sayfanın sağa olduğu
+için bu noktada sayfadan içeriye doğru
+bir manyetik alan varken bu noktada
+sayfadan dışarıya doğru bir manyetik
+alan vardır diyebiliriz Bunlar manyetik
+alan vektörleri sayfaya giren bir vektör
+sayfadan çıkan bir vektör bu manyetik
+alanın hemen şiddetini de bulalım
+manyetik alanı şiddeti ne olacaktır 2K
+akım/ TL olan dik uzaklık kadar TL olan
+dik uzaklık değer verilmiş K zaten ortam
+o zaman B dediğim şey budur Bu burada
+kalsın bize lazım olacak şimdi gelelim
+ytline ytl'de sayfanın üzerinde yatan
+bir tel etrafındaki manyetik alan
+çizgisi yine bu noktadan geçecek şekilde
+şöyle çizilebilir şöyle bir çembersel
+manyetik alan çizgisi var Bu benim
+sayfam baş parmağım sayfanın solunu
+gösterecek 4 parmağın bakın yukarıda
+içeriye giriyor yukarıda içeriye giren
+aşağıda dışarıya çıkar Dolayısıyla
+Yukarıdaki bu nokta sayfadan içeriye
+doğru giren bir manyetik alan vektörü
+var demektir orada aşağıdaki bu noktada
+da sayfadan dışarıya doğru çıkan bir
+manyetik alan vektörü var demektir bana
+yukarıdaki nokta lazımdı sayfadan
+içeriye doğru giren bir manyetik alan
+Peki bunu şiddeti nedir 2K Ortam aynı
+ortam elektrik akımı iki iyi dikkat edin
+bölü dik uzaklığımız D'ye kadar Şimdi
+gelelim ZT teline burada tel ortada yok
+Niye Çünkü sayfaya dik olduğunu
+söylemiştim size buradaki nokta sayfadan
+dışarıya doğru çıkan 3 iyilik Bir akım
+olduğunu bana söylüyor Bu benim sayfam
+baş parmağım sayfadan dışarı çıkacak
+bize doğru gelecek Siz buradan
+bakıyorsunuz aklımda size doğru gidiyor
+baş parmağım sayfadan dışarı çıkıyorsa 4
+parmağın bakın sayfaya girmiyor çıkmıyor
+sayfa düzleminde dönüyor Bu hangi yönde
+dönmektir saat yönünde dönmek midir saat
+yönünün tersine dönmek midir Bu saat
+yönünün tersine dönmek demektir
+Dolayısıyla telinizin etrafına bir
+çember çizeceksiniz sayfada ve bu
+noktadan geçecek şekilde çizmelisiniz
+Yani büyük bir çember çizmelisiniz ve bu
+Dolanım saat yönünün tersine doğru
+olmalı yani şöyle bir dolanımdan
+bahsediyoruz bizim noktamız burada bu
+noktadaki manyetik alan vektörün nasıl
+çizmeliyiz Tabii ki manyetik alan
+çizgisine Evet bu şekilde saat yönünün
+tersine doğru geliyorsan bu çizgiye
+teğet aşağıya doğru olan bir manyetik
+alan vektördür gençler Hocam nereden
+biliyorsunuz tam aşağı şöyle hafif
+çapraz olmaz mı Biraz matematik Bilginiz
+varsa buradaki çemberin yarıçapına
+teğetlerin dik olması gerektiğini
+biliyorsunuzdur O yüzden Yarıçap dediğim
+şöyle yataydaki bir çizgi ise manyetik
+alan vektörü buna dik olacak ve aşağı
+olacak şekilde çizilmelidir teğetin
+anlamı bu zaten Peki bu B'nin değeri
+nedir bu B'nin değeri de 2K Ortam aynı
+ortam ne kadarlık akım var 3 iyilik akım
+Ortak bu bir değişken değil bizim için
+burada iyi bölü D var burada 2'yi bölü D
+var burada da iyi bölü D var yani
+gençler X'in şiddeti ile Z'nin
+şiddetinin eşit olduğunu görüyorum iyi
+bölü D katsayı y'de 2i bölü D olduğu
+için y'nin şiddeti daha büyüktür
+Dolayısıyla 3 öncülüm doğru sorunun
+cevabı D şıkkıdır aşağıdaki düzeneklerin
+hangisinde elektron mıknatıs kullanılmaz
+diye sorulmuş konu anlatımındaki
+örnekleri iyi hatırlamamız lazım bu
+soruyu çözebilmek için kapı zili
+dediğimiz şeyde elektro mıknatıs
+kullanılır hatırlarsanız kapı zilinde
+şöyle bir zil vardı Bunun tepesinde
+Duran şöyle bu Zile çarpacak olan tokmak
+vari bir yapı vardı Bu arkadaşın uçları
+Şuradaki bir elektro mıknatısa değiyordu
+bu tokmağın metal ucu Şuradaki bir
+elektro mıknatısa yakın durumdaydı Siz
+kapı Ziline bastığınızda buradaki
+tellerden akım geçiriyorsunuz
+Dolayısıyla bu elektro mıknatıs bir
+mıknatıs haline geliyor ve bu tokmağı
+kendine doğru çekiyor Dolayısıyla bu uç
+da bu Zile çarpmış oluyor Bu akım
+kesildiğinde bu arkadaş geriye gidiyordu
+tekrar akım geçtiğinde tekrar çarpıyordu
+sürekli çarpma geri gelme çarpma geri
+gelme zil sesi çıkartıyordu
+elektromıknatıs kullanılır kapı
+otomatiğinde de elektromıknatıs
+kullanılır benzer bir mantık var bunu
+konu anlatımında konuşmuştuk ama şurada
+hemen yine böyle bir basit şekil
+üzerinden hatırlayalım şu D'ye benzeyen
+şekli kapının dili olarak düşünün
+kilidin dil kısmı Yani siz Kapı kolunu
+aşağı çektiğinizde Aslında bunu böyle
+sola doğru çekiyorsunuz şu kesikli
+çizgide kapı olarak düşünürseniz dil
+oradan kurtuluyor ve Kapı açılıyor
+kapıyı kapattığınızda bu dil tekrar o
+yuvaya giriyor yani şu kesikli çizgiyle
+buluşuyor kapı kapanmış oluyor gibi
+düşünebiliriz şimdi Siz bunun arkasına
+bir elektro mıknatıs koyarsanız
+yukarıdan Otomatiğe bastığınızda Aslında
+buradaki elektro mıknatıs üzerinden
+elektrik akımı geçirirsiniz bu arkadaş
+bir mıknatıs haline gelir mıknatıs
+olduğu için şu metal kapı dilini kendine
+doğru çeker Böylece bu kesikli çizgiyi
+de kapı olarak düşünelim demiştim o
+zaman yuvadan o dil ayrılmış olur ve
+kapı açılmış olur siz Otomatiğe basmayı
+bıraktığınızda buradaki Elektrik akımını
+iptal etmiş oluyorsunuz elektro
+mıknatısınız artık bir mıknatıs olmuyor
+sıradan bir demir parçası oluyor ve
+burada da bir yay olduğunu düşünelim Bu
+Yay kapı dilini tekrar ne yapacak sağ
+tarafa doğru itecek ve tekrar kilidini
+oturtacak kapı otomatiğinde bu durumu
+kullanıyoruz hoparlör dediğim şeyin
+içerisinde de elektronık mıknatıs vardı
+hatta hoparlörde iki tane mıknatıs vardı
+bir tane standart normal bir mıknatıs
+vardı şöyle dairesel bir mıknatısı vardı
+Bunun içerisinde bir elektron mıknatıs
+vardı Şurada da hoparlörün o diyafram
+kısmı vardır kumaş fareyi yapısı vardı
+Siz mikrofonla konuştukça mikrofon Sizin
+ses sinyallerinizi elektrik sinyallerine
+çeviriyor sesinizin frekansına göre
+buradaki elektrik akımı değişiyor
+elektrik akımı elektro mıknatısı
+mıknatıs haline getirip bir manyetik
+alan oluşturuyor bu manyetik alan
+Şuradaki yeşille çizdiğim standart
+mıknatıs etkileşim bir kuvvet
+oluşturuyor oluşan manyetik kuvvet şu
+diyaframı hareket ettiriyor bunu aşağıya
+yukarıya doğru titreştiriyor Buradaki
+her titreşim yukarıya aşağıya hareket
+buradan ses dalgalarının yayılmasına
+sebebiyet veriyor ve böylece ses çıkıyor
+sesin çıkması için buradaki diyaframın
+titreşmesi lazım onu titreştirecek olan
+şeyde bir manyetik kuvvet o manyetik
+kuvvet oluşturan şey de elektro mıknatıs
+ve kalıcı başka bir mıknatısın
+etkileşmesinden başka bir şey değil
+hızlı tren magle zaten magle'ın
+açılımını biliyorsanız bunu da
+yaparsınız manyetik levitasyon manyetik
+yükseltme hızlı trenler Niye hızlılar
+Çünkü sürtünme kuvvetine minimum maruz
+kalıyorlar raylara değmiyorlar Bunlar
+raylardan bir santim bir buçuk santim
+yükseltilip havada süzülüyorlar uçaklar
+gibi aslında Peki koca tren nasıl
+yükseltiliyor trenin alt kısmında
+şuralarda elektro mıknatısları var
+raylarda da mıknatıslar var bu treni
+süren sürücü bu elektromıknatıslardan
+elektrik akımı geçirdiği anda bunlar
+mıknatıs haline gelip raylardaki
+mıknatıslarla birbirlerini itiyorlar ve
+tren yükseliyor su ısı gençler elektro
+mıknatıslar kullanılmaz su
+ısıtıcılarında direnç etkisi gören
+rezistanslar vardır buralardan elektrik
+akımı geçirirsiniz doğru elektrik akımı
+geçer manyetik alan da oluşur Elektrik
+akımının geçtiği tellerde manyetik alan
+oluşur ama manyetik alan suyu ısıtmıyor
+Hiç mevzuyla alakası olan bir durum
+değil bu telden akım geçtikçe direnç
+olduğu için bu açığa Isı enerjisi
+çıkıyor açığa çıkan Isı enerjisi su
+ısıtıyor yani elektromıknatısla Hiç
+alakası olan bir durum değil yüksek
+gerilim hattına Çok yakın bir bölgede
+kurulan bal arısı kovanından çıkan
+arıların bir kısmının kovanı bulamayıp
+geri dönemedikleri ve ara ölümlerinin bu
+bölgede arttığı görülmüştür
+yargılarından hangileri bal arılarının
+kovanı bulamama nedeni olabilir diye
+sorulmuş gençler bal arıları Leylekler
+Su kaplumbağaları Hatta İnekler gibi
+bazı canlılar dünyanın manyetik alanını
+algılayabiliyorlar ve böylece yer yön
+duyuları çok gelişmiş oluyor dünyanın
+manyetik alanını kendilerine referans
+kabul edip ne tarafa gideceklerini
+anlayabiliyorlar bal arısı yolunu
+kaybetti ise bu manyetik alan
+etkileşmesini kaybetmiş demektir
+civarda yüksek gerilim hattı olabilir
+yüksek gerilim hattı varsa etraflarında
+manyetik alan oluşur o manyetik alan
+dünyanın manyetik alanından baskın hale
+gelip oradaki arıların yolu şaşırmasına
+sebep olabilir çünkü atıyorum dünyanın
+manyetikalının bu yönde arı biliyor
+referans noktasını Orada yüksek gerilim
+hattı varsa yüksek gerilim hattı da çok
+farklı bir yönde manyetik alan
+oluşturursa o dünyanın manyetik alanı
+hissedilemez olabilir etkisi farklılaşır
+ve bu da arının kafasını karıştırır
+yüksek gerilim hatlarının yakınlarında
+arı kovanları olmaz bu yüzden küresel
+ısınmanın arıların ömrü ile ilgili Tabii
+ki etkileri var ama yer yön duyularını
+kaybetmeleriyle ilgili bir ilgisi yok
+dünyanın manyetik kutuplarının zaman
+içinde değişmesi Bu da arıların yönünü
+kaybetmesine sebep olabilir ama dünyanın
+manyetik kutuplarının zaman içinde yer
+değiştirmesindeki zaman milyon yıl
+olarak tabir edilebilir Bu bir döngü
+değil aslına bakarsanız ne zaman ne
+olacağı belli değil Bir sonraki Kutup
+değişimi dünyanın nesi ile sesini yer
+değişimi 3 milyon yıl sonra olacak diye
+Bilim insanlarının bir bilgisi yok 50
+yıl içinde de olabilir 10 yıl içinde de
+olabilir 3 milyon yıl sonra da olabilir
+ama bir insan ömrü içerisinde bunun
+değiştiğini görmemiz çok zor bir arı
+ömrü içerisinde değiştiğini görmemiz
+arıların Bundan dolayı yön kaybetmelere
+imkansız Dolayısıyla sorumuzun cevabı
+yalnız 2 olacaktır şekildeki mıknatıslar
+dünyanın farklı ülkelerinde tavana
+asılarak dengeye gelmiştir Buna göre
+mıknatısların bulunduğu ülkeler
+hangileri olabilir konu anlatımında bunu
+simülasyonla konuşmuştuk Bu soruda da bu
+simülasyonu hatırlayalım burası dünya
+içerisinde sanki böyle bir çubuk
+mıknatıs varmış gibi düşünebiliyoruz
+Yukarısı Yani bizim coğrafi Kuzey
+kutbumuza yakın olan yerse coğrafi Güney
+kutbumuza yakın olan yer n kutbuydu yani
+coğrafi kuzeyde manyetik Güney kutbumuz
+var coğrafi güneyde manyetik Kuzey
+kutbumuz var şurası dünyanın ekvatorluğu
+ise eğer şöyle bir Eksen çizersem
+dünyanın yüzeyini yeryüzü gibi düşünelim
+şurası ekvatordaki Bir ülkenin zeminini
+temsil etsin şurası kuzey yarım küredeki
+Bir ülkenin zeminini temsil etsin şurası
+da güney yarım küredeki Bir ülkenin
+zeminini temsil etsin Şimdi ben Pusula
+mı ekvatora götürdüğümde gördüğünüz gibi
+manyetik alan çizgilerinden dolayı zem
+paralel duruyor pusulamızın kırmızı ucu
+n kutbudur n Kutbu s'yi Arar çizgiler
+n'den çıkıp S'ye doğru giderler
+gördüğünüz gibi etrafında gördüğünüz bu
+çizgiler manyetik alan çizgileri
+Dolayısıyla buradan geçen çizgilere
+paralel duracaktır buradaki geometri
+zemine de paralel durması anlamına
+geliyor yani ekvatorda bir mıknatısı
+iple tavana asarsanız zemine paralel
+durur herhangi bir eğilme yaşamayız Ama
+siz bu arkadaşı Kuzey kutbuna
+yaklaştırırsanız yani dünyanın Kuzey
+yarım küresine götürürseniz bakın mavi
+yer zemin sizin pusulanız ise manyetik
+alan çizgisini takip edip şöyle duruyor
+Şu an Yani bu ne demek burası zeminse bu
+mıknatısı tavana iple astığınızda şöyle
+zemine doğru gidiyor Yani şöyle Çapraz
+duruyor bu arkadaş iğneyi Böyle hayal
+etmem gerekiyor Şu ucu kırmızı ucu gibi
+düşünebilirsiniz buradaki durumu yataya
+çevirdim Şu hale getirdim hangi Kutbu
+eğildi ne Kutbu yere doğru eğildi
+kırmızı ucu yere doğru eğildi Peki ben
+Pusula mı alıp güneye doğru götürseydim
+zemine doğru tuttum zemine paralel
+koymaya çalışıyorum ama bu seferde
+gördüğünüz gibi beyaz ucuz zemini
+gösteriyor yani Bunu da
+görselleştirirsek burası güneydeki zemin
+bizim pusulamız yine eğildi bu sefer
+kırmızı ucu yukarı doğru oldu beyaz ucu
+zemini gösteriyor dikkat edin beyaz ucu
+zemini gösteriyor beyaz Ucun sko
+olduğunu kırmızı ucu n Kutbu olduğunu
+söyleyebiliriz yani s u aşağıya
+gösterecek niye s ucu aşağıyı gösteriyor
+Çünkü burada manyetik Kuzey var n var
+sne'yi Arar yukarıda da tam tersiydi
+burada s olduğu için n ucu orayı
+gösteriyordu olay buydu tavana astığımda
+şurası benim zeminimi temsil ediyorsa
+hiçbir eğilme yok eğilme açısı sıfır O
+zaman bu adam ekvatordadır gençler şu
+benim yatayım ne ucu eğilmiş ne ucu s'yi
+Arar s nerede coğrafi kuzeyde yukarıda
+Kuzey yarım küre bu adam Kuzey yarım
+kürede şurası yatay s ucu eğilmişse n'yi
+Arar n nerede aşağıda bu adam nerede
+Güney Yarım Kürede Bundan sonrası
+coğrafya bilgisi Ekvador denilen ülke
+ekvator düzleminde böyle bir ülke var
+yani Ekvator çizgisinden bahsetmiyoruz
+Dolayısıyla birinci Öncül Ekvador
+ülkesidir Kuzey Yarım sürede olmalı
+ikinci ülke Avustralya güneydedir
+Ekvator Ekvator bölgesi nedir Norveç
+kuzeydedir 3 mıknatısımız Güney Yarım
+Kürede olmalı Avustralya bunu örnek
+verilebilir o zaman sorumuzun cevabı C
+şıkkıdır gelelim son sorumuza bu soru
+size tuhaf gelebilir ama kazanımlarda
+var gençler tyt'de böyle soru gelirse
+kimse şaşırmaz Hatta tyt ruhuna çok
+uygun bir soru kazanımlarda öğrencilerin
+pusulalarla yön bulması sağlanır diye
+kazanım var dolayısıyla bir pusula ile
+yönümüzü nasıl anlıyoruzu soru olarak
+karşınızda görebilirsiniz ki öyle bir
+soru hazırladı Aşağıda verilen haritanın
+üzerine Pusula konulduğunda Pusula
+şekildeki gibi yöneliyormuş şimdi Pusula
+dediğim şey şu iğne kırmızı ucu var mavi
+ucu var Buna biraz daha yaklaşalım
+kırmızı ucunun kuzeyi gösterdiğini
+biliyoruz coğrafi kuzeyi gösterdiğini
+biliyoruz Yani aslında mevzunun tam öyle
+olmadığını da biliyoruz Çünkü biz
+hatırlayın gençler şurası dünya ise
+şurası coğrafi Kuzey ise Kuzey kutbuysa
+yani Burası coğrafi Güney bizim
+mıknatısımız Aslında şöyle falan
+duruyordu içeride Burası Seydi Burası
+neydi Yani aslında Pusulanın kırmızı ucu
+yani pusulanın nesi s'yi gösterir burayı
+gösterir manyetik güneyi gösterir ama
+manyetik Güneş de kuzeyde olduğunu
+coğrafi kuzeyde olduğunu biliyoruz Ve
+yine hatırlamamız gereken başka bir
+nokta aslında şu coğrafi eksenle
+manyetik Eksen arasında da bir açı
+olduğu şurada 11 derecelik küçücük bir
+açı olduğunu biliyoruz Yani aslında Siz
+Pusulayı kullanarak kuzeye gittiğinizi
+zannediyorsunuz Evet öyle kullanıyoruz
+çok detaya girmeden ama aslında sürekli
+Pusulayı kullanarak Gideceğiniz yer tam
+coğrafi Kuzey Kutbu olmaz manyetik Güney
+Kutbu olur bunlar Birbirlerine yakın
+yerler arada 11 derece bir fark var ama
+günlük hayatta bunu düşünmüyoruz Tabii
+ki pusulalar coğrafi kuzeyi gösterir
+deyip geçiyoruz Ama hocam pusulanın n'si
+şurada gösteriliyor Evet Pusulayı siz
+ayarlarsınız Pusulayı masanın üzerine
+koyduğunuzda iğne bir tarafa yönelir
+iğnenin yönelmesi ne demektir yine böyle
+yöneldiyse burada manyetik alan dünyanın
+manyetik alan çizgisi böyle geçiyor
+demektir dünyanın manyetik alanı bu
+oklarla gösterilebilir Bunu siz
+ayarlarsınız bu Pusulayı çevireceksiniz
+şurasının ne olduğunu biliyorsan Bu n'yi
+buraya getireceksin Pusulayı masanın
+üzerinde döndüreceksin Dolayısıyla ne
+buraya gelir Bunun tam tersi güneydir
+Siz Pusulayı çevirdiğinizde buradaki s
+de o zaman şuraya gelmiş olacaktır
+Burası s olur önünüz kuzey arkanız güney
+sağınız doğu solunuz batı o zaman şurası
+Doğu olacaktır Burası da Batı olacaktır
+Pusulayı çevirdiğinizde Aslında buradaki
+Doğu Ne oldu buraya geldi buradaki
+batıda buraya geldi harfleri değiştirmiş
+oldunuz Kısacası Pusulayı ayarlamanız
+gerekir harfleri bu iğneyi uyumlu hale
+getirmeniz gerekir Bunun için de
+Pusulayı döndürürsünüz soru diyor ki
+Pusulanın kırmızı ucu kuzeyi
+gösterdiğine göre Üsküdar Devlet
+Hastanesi Kuzey yönündedir Evet burası
+Kuzey Üsküdar Devlet Hastanesi de
+kuzeyde kalıyor evet böyle kabul
+edilebilir Zeynep Kamil Hastanesi
+Kuzeydoğu yönündedir Zeynep Kamil
+haritaya göre şurada ben o harfe ne
+dedim yeni Harf dönüştürdüğüm harf bu
+batıya denk geliyor gençler buradaki ve
+West demek o da Batı demek İngilizcede
+Zeynep Kamil Kuzey doğuda değil Batı
+yönündedir gençler Hababam Sınıfı Müzesi
+Güneydoğu yönündedir Şimdi ben şuraya
+Kuzey dedim bu doğrultu Doğu Hababam
+Sınıfı şöyle çapraz kalıyor Kuzey ile
+doğunun arasında yani bu arkadaş
+Kuzeydoğu yönünde Bu ne diyor Güneydoğu
+diyor yanlış bir doğru iki ve üçe yanlış
+dedik Dolayısıyla Sorumun cevabı a şık
+olacaktır Böylece tyt manyetizmayı
+tamamen bitirmiş oluyoruz tyt ruhuna
+uygun sorular çözmeye çalıştık hemen
+hemen bütün soru tiplerine de baktık
+kaçırdığımız soru tipi olduğunu
+düşünmüyorum takıldıklarınız olduysa
+alta yazın Kendinize iyi bakın görüşürüz
+[Müzik]

@@ -1,0 +1,1163 @@
+özel ışınları öğrendik geldik bunun
+uygulama alanına yani ince ve kalın
+kenarlı merceklerde görüntüye günlük
+hayatta kullandığımız bir sürü alet var
+büyüteç var teleskop var mikroskop var
+kamera var Gözümüz var Bunların hepsi
+mercek kullanıyorlar mercekler Çünkü
+ışığı kontrol etmemize yarıyorlar ışığı
+kırıyorlar doğrultusunu değiştiriyorlar
+ve yeni bir görüntü oluşturuyorlar
+cisimleri daha büyük görmemizi
+sağlıyorlar daha küçük görmemizi
+sağlıyorlar uzaktaki cisimleri daha
+yakına Getiriyorlar Etrafı ımızı nasıl
+algıladığımız belirliyorlar Peki biz bu
+görüntüyü nasıl oluşturuyoruz Öncelikle
+ince kenarlı merceklerle başlayacağız
+çukur aynadaki görüntünün çok benzeri
+özel ışınları da öğrendiysen zaten
+mevzuyu biliyorsunuz demektir birazdan
+simülasyonla deneyle de iyice
+pekiştirecek çok çok çok uzaktaysa o
+uzaktaki cisimden ışınlar paralel
+çizilir ince kenarlı mercek onu odakta
+ne bileyim şuradan bir Işın
+çizersin ince kenarlı mercek onu odakta
+buradan bir Işın çizersin ince
+kenarlı mercek onu odakta o
+yüzden ne deriz sonsuzdaki Bir cismin
+görüntüsü odaktan bir görüntüdür
+boyutları önemsizdir çok çok küçüktür
+diyebiliriz biraz daha yakına
+getirdiğimizde sonsuzla 2f arasında
+mesela 3F getirdiğimizde 3F deki cismin
+görüntüsü nerededir aklıma hangi Kural
+gelecek 3F 1,5 F kuralı gelecek 3 f'
+deki cismin görüntüsü 1,5 fedir neden
+şurada yeşil bir nokta var bu yeşil
+noktanın görüntüsünü bulmak istiyorum
+ondan en az iki tane Işın çıkartmalıyız
+bir tane asal eksene paralel Işın
+çıkartmış odaktan geçecek şekilde kırmış
+bir tane de Tepe noktası çizersek Aynen
+geçer gider düzgün bir çizim
+yaptığınızda bu iki arkadaşın burada
+kesiştiğini bulursunuz cisim dediğimiz
+şey asal eksenden bu yeşil noktaya
+çizildiyse görüntü dediğim şey asal
+eksenden bu yeşil noktaya çizilir Nasıl
+bulduk merceğe buradan bakan bir göz
+Sanki burada bir yeşil nokta var da
+ışınlar oradan gözüne geliyormuş
+zannedecek ışınların kendilerinin
+kesiştiği gerçekten sanki ışınlar oradan
+geliyormuş gibi orada bir noktada
+kesiştiler Çünkü Dolayısıyla bu
+görüntünün ismi gerçek görüntü ışınların
+kendileri kesiştiler uzantıları
+kesişince sanal görüntü diyorduk
+kendileri kesişince gerçek görüntü
+diyorduk cismin boyu H kadarsa
+görüntünün boyu h / 2 kadar yarısı kadar
+aynalarda da aynı şeyi söylemiştim Optik
+araca uzaksan mesafen fazlaysa boyun
+büyüktür Optik araca yakınsan mesafen
+kısaysa boyun küçüktür 3F deki adamın
+merceğe uzaklığı 3F 1,5 f' deki adamın
+merceğe uzaklığı 1,5 F 1E 2 oran olduğu
+için boylarda da 1'e 2 oran var asıl
+mantık nereden geliyor Aslında
+geometriden Geliyor benzerlikten geliyor
+şurada bir üçgen görüyorsunuz burada bir
+üçgen görüyorsunuz e burada kelebek var
+benzerlik var Şuradaki açıyla Şuradaki
+açı eşit burada Z var buradaki açıyla
+buradaki açı eşit E zaten buralar dik
+90° şu kenar 3F bu kenar 1,5 f o zaman
+benzerliğin 1E 2 olduğunu anlıyorsun o
+zaman burada H kadar mesafe varsa
+alfanın karşısında H kadar uzunluk varsa
+buradaki alfanın karşısında yarısı kadar
+H B2 kadar uzunluk olması gerektiğini
+benzerlikten de anlayabiliriz gerçek
+görüntü küçük görüntü ve ters görüntü
+cismimiz merceğin sol tarafında
+görüntümüz merceğin sağ tarafında ben bu
+gerçek görüntüyü başka nasıl
+algılayabilir perdeyle algılayabilir
+gerçek görüntüler perdeye düşürülebilir
+aynalarda da benzer şeyden bahsetmiştim
+Eğer Şuraya bir perde koyarsanız buraya
+düşen ışınlar perdeye çarpar oradan
+yansır perdeye buradan bakan göze ulaşır
+ve görüntüyü perdede görmüş olursunuz 3
+fen cismimi 2 f' getirdim 2f 2f kuralı
+var Merkez merkez kuralı olarak
+öğrendiğimiz Kural Aslında şurada bir
+Mavi Nokta seçtim Bir tane asal eksene
+paralel Işın gönderdim ki cismim nerede
+olursa olsun Zaten bu Işın standart
+olacak asal eksene paralel dakta kırdım
+bir tane Optik merkeze çizdiğimde şöyle
+düzgün bir çizim yaptığımda bu siyahla
+mavi Işın şurada kesiştiler cismim asal
+eksenden mavi noktaya çizildiyse
+görüntüm de asal eksenden mavi noktaya
+çizilmiştir 2f de cisim var 2f de
+görüntü var merceğe uzaklıklar eşit
+bunun boyu H kadar bunun boyu H kadar
+yine üçgen benzerliği yaparsanız bu iki
+üçgenin eş üçgenler olduğunu bulursunuz
+Çünkü 2f 2f o zaman açılar da aynı
+olduğu için Haa H olmak zorunda ters
+görüntü oluştu ışınlar kesiştiler
+şuradan bakacak olan yeşil göz bu siyah
+ışınla mavi ışını algılar ve bu ikisi
+buradaki mavi noktadan Aslında
+çıkıyorlarmış gibi düşünüp görüntüyü
+burada zanneder gerçek bir görüntü olur
+ışınların kendileri kesiştiği için
+perdeye düşürülebilir ters görüntü aynı
+boyda görüntü Çünkü merceğe uzaklıklar
+mız aynı hem cismimiz hem görüntümüzü ve
+gerçek görüntü biraz daha yaklaştırdı 2f
+ile finin arasına soktuk yani 1,5 f'
+soktuk 1,5 F 3F kuralı tersten cismim
+1,5 fte görüntüm nerede olacak 3 fte Şu
+Arkadaş Olacak şurada yeşil noktam var
+bu yeşil noktadan yine standart paralel
+mii çektim odaktan geçti Optik merkeze
+çektim Bu ikisi tam bu noktada
+kesiştiler cisim dediğim şey asal
+eksenden yeşil noktaya çizildi görüntü
+dediğim şey asal eksenden bu yeşil
+noktaya çizildi üçgen benzerliğinden
+bunun boyu H kadarsa bunun boyu 2h neden
+E çünkü burada 1,5 F uzaklık var burada
+3F uzaklık var 1E 2 oran var ters
+görüntü gerçek görüntü yine ışınların
+kendileri kesiştiler büyük görüntü Bir
+tık daha yerleştirdim odağa getirdim
+Odak ne kuralı var Paralel kuralı yani
+sonsuz kuralı var odağa koydum cismin
+görüntüsü o kadar uzaktadır ki sonsuza
+gitmiştir ve kocaman olmuştur boyutları
+belirsizdir şuraya sarı bir nokta koydum
+standart asal eksene paralel ışınımı
+çizdim odaktan geçirdim Optik merkeze
+çizdiğimde bu iki ışının paralel
+olduğunu Dolayısıyla sonsuzda kesişecek
+o yüzden görüntümüzü sonsuzda
+oluşacağını tanımsız olacağını
+söyleyebiliriz cismimiz sonsuz dayken
+odakta bir noktaydı merceğe doğru
+yaklaştıkça ters bir şekilde oluştuk
+büyüdük uzaklaştık büyüdük uzaklaştık
+cismimiz odağa geldiğinde görüntü çok
+büyümüştür ve çok uzaklaşmıştır sonsuza
+gitmiştir diyebiliriz aynı çukur
+aynadaki gibi burayı bir adım daha
+geçtiğimizde odağın ötesine geçtiğimizde
+istisna durum oluyordu Şu ana kadar
+bütün görüntülerim tersi mesela bütün
+görüntülerim gerçekti mesela Ama ben
+buradaki odağı geçtiğim anda bakalım ne
+oluyor odağı geçtim bu sarı cisimden
+bahsediyorum asal eksene paralel ışınımı
+çizdim odakta kırdım bir tane Optik
+merkeze çizdim her ne kadar burada t
+harfi olsa da buraya o yazalım Optik
+Merkez Tepe noktası değil Orası şu siyah
+ışınla sarı Işın birbirinden uzaklaşıyor
+bunlar bunların kesişme ihtimali yok ama
+bunların uzantıları şurada bir yerde
+kesişecek cisim dediğim şey asal
+eksenden bu sarı noktaya çizildiyse
+görüntü dediğim şeyde asal eksenden bu
+uzantıların kesiştiği noktaya
+çizilecektir buradan bakan bir göz
+merceğe doğru bakan bir göz ne
+görecektir a şurada bir sarı nokta var
+bu ışınlar buradan geliyormuş zannedecek
+Halbuki orada Işın falan yok bizim
+ışınlar mız buradalar İşte o yüzden biz
+buna ne diyoruz biz buna sanal görüntü
+diyoruz olmayan ışınların kesişmeyen
+ışınların oluşturduğu görüntü
+uzantıların oluştur durduğu görüntü ince
+kenarlı mercekte ilk defa sanal görüntü
+oluştu ilk defa düz bir görüntü oluştu
+ilk defa büyük bir görüntü oluştu
+diyemiyorum Çünkü 1,5 F 3 fte de
+görüntümüz daha büyük oluyordu cismimiz
+1 buçuğa koyduğumuzda görüntümüz 3F
+deydi merceği uzak ve daha büyük
+oluşuyordu sanal düz ve büyük bir
+görüntü oluşturduk bunları simülasyonda
+görelim bakın burada cismimiz bir mum
+ince kenarlı merceğin var ben bunu çok
+uzağa koyuyorum şu an görüntüsü odağın
+az ilerisinde küçük ve ters oluştu
+sonsuza götürebilen odakta bir nokta
+olacaktı asal eksene paralel Işın çizmiş
+odaktan geçirmiş Optik merkeze çizmiş Bu
+ikisi burada kesiştiler görüntüyü
+oluşturdular buradan bakan gözle ışınlar
+sanki şurada oluştu buradan geliyormuş
+zannedecek ve burada gerçek bir görüntü
+görecek Ben bunu yaklaştırdı çaa ters
+görüntü büyüyor mercekten uzaklaşıyor
+Örneğin şu an 3F deyim görüntümüz 1,5
+fte küçük ve ters 2 f' geldim Burası F
+ise Burası 2f görüntümüz 2 f' geldi ters
+ve aynı boyda Çünkü merceğe uzaklıklar
+mız eşit 1,5 f' geldim görüntümüz 1 2 3
+f' gitti 1,5 F 3F daha büyük hale geldi
+hala ters f' geldiğimde artık sonsuza
+gitti ve kocaman bir hal aldı f' in
+ötesine geçtiğimde arkadan dolaştı düz
+ve büyük halde cisimle görüntü aynı
+tarafta oldu merceklerde cisimle görüntü
+hep farklı taraft dalardı biri solda
+biri sağay ama bu istisna durumumuzda
+ilk defa düz oldu ilk defa sanal oldu ve
+ilk defa cisimle görüntü aynı yerde oldu
+ben bu görüntüyü perdeye düşürebilir
+miyim yani Şuraya bir perde koysak
+perdeye buradan bakıyor olsak perdede
+bunu görebilir miyim miyiz Tabii ki
+göremeyiz aynısını aynalarda da
+konuşmuştuk sanal görüntüler perdeye
+düşürülemez Çünkü burada bir Işın Yok
+burada bir Işın yok ışınlar Bu
+arkadaşlar Bunlar uzantı oradan
+geliyormuş gibi biz bu görüntüyü nasıl
+göreceğiz E bu göz buradan merceğe
+bakacak merceğe baktığında Şuradaki
+noktalardan ışınlar gözüne geliyormuş
+zannedecek ve sanal görüntüyü merceğe
+bakarak görebilecek perdede göremeyecek
+günlük hayatta bu görüntü bizim işimize
+yarıyor şimdi ince kenarlı mercek hep
+ters görüntü oluşturdu çok işimize
+yarayan bir şey değil çukur aynadaki
+gibi Çukur ayna da hep ters görüntü
+oluşturuyordu pek işimize yaramıyordu
+günlük hayatta Çünkü biz ters görüntüyü
+Ne yapalım çukur aynanın istisna
+durumunda düz ve büyük görüntü elde
+ediyorduk neydi onlar Dişçi aynasıyla
+makyaj aynasıyım düz ve büyük görüyorduk
+Böylece bunlarla daha rahat
+çalışabiliyor olduk ince kenarlı
+mercekte de benzer bir şey var düz ve
+büyük görüntü ince kenarlı mercekte de
+hep ters oluşuyor Ben onları ne yapayım
+düz ve büyük işime yarar Bu ne biliyor
+musunuz şu an bu büyüteç gençler
+büyüteçle bir yazı okumaya çalıştığında
+atıyorum küçücük bir yazı okuyorsun
+küçücük bir a harfi Bu mum işte onun
+görüntüsü kocaman bir a harfi oluyor Sen
+bu büyüte açe baktığında bunun çok büyük
+versiyonunu
+okuyabiliyorsunuz Kesinlikle o cisim
+merceğin odağı ile mercek arasına girmiş
+demektir Çünkü düz ve büyük görüntü
+Ancak bu Aralıkta gerçekleşebiliyor
+burada bir ince kenarlı merceğin var 0
+cye konulmuş 20 cm Odak uzaklığı varmış
+sağ tarafta ve sol tarafta Odak
+noktalarını görüyorsunuz 40 cm
+uzaklıklarda da 2 F nok aları var şimdi
+ben bu ince kenarlı mercekte görüntü
+oluşturacağım ve bu görüntüleri gerçek
+görüntüleri perdede oluşturacağım cismim
+sonsuzda İsa görüntüm küçücük odakta
+sayılabilecek bir noktada bakın perdeyi
+nereye yerleştirdiğim dikkat edin perde
+Şuradaki F2 de yani Odak noktasında
+küçük noktasal sayılabilecek bir
+görüntüden bahsediyoruz cisim daha da
+uzağa konursa buradaki görüntü daha da
+küçülüp noktaya yaklaşır perdeye düşürdü
+mü düşürdüm gerçek görüntü merceğe
+bakmıyorum perdeye bakıyorum ve
+görüyorum Bunun ışınlarla çizilmiş
+versiyonu da görüyorsunuz Çok uzaklardan
+gelen ışınlar paralel gibi oluyorlar
+işte sonsuzdan gelen ışınlar paralel
+gibi olur ince kenarlı mercekte
+kırılıyor ve buradaki Odak noktasında
+toplanıyorlar ve oradaki o küçük
+görüntüyü oluşturuyorlar cismimiz biraz
+yaklaştırdı 2 f' in dışında yani 3 fte
+diye düşünebiliriz bakın perdeyi Nereye
+koymuş odağın hemen dışına koymuş yani
+1,5 f' koymuş 3F 1,5 F kuralı görüntü
+merceğe yakın küçük ve ters olacak o
+zaman perdeye düştüğü için de gerçek
+görüntü olacaktır bakın fle 2f arasında
+yani 1,5 f' de perde var görüntümüz ters
+ve küçük şekilde gördüğünüz gibi perde
+üzerinde Bu gerçek görüntüyü
+görebiliyorum ışınları çizdiğimizde de
+nasıl kesiştikleri perdeye düştüklerini
+ve görüntü oluştuklarını görüyorsunuz
+biraz daha yaklaştırdı 2 f' koydum 2f 2f
+kuralı bakın merceğin diğer tarafında
+perde 2 fte niye perdeyi oraya koyuyor
+Çünkü Net görüntü Ancak orada oluşabilir
+mecburen perdeyi 2 f' koymak zorunda
+perde 1 buçukta kalsaydı görüntü net
+olmazdı cisim ve görüntünün merceğe
+uzaklıkları aynı olduğu için
+boyutlarının aynı olması gerekiyor Yani
+mum alevim neye benziyorsa perdedeki Bu
+görüntü de ona benzemeli aşağı yukarı
+yine ters olduğuna dikkat edin perdede
+oluştuğu için gerçek olduğuna dikkat
+edin ışınlar çizildiğinde perdede bu
+görüntüyü 2 fte oluşturabiliyor 1,5 f'
+getirdim 1,5 F 3F kuralı bakın perdeyi
+ta 3 f' koymuş 2 f' dışına koymuş daha
+büyük bir görüntü ve ters bir görüntü
+elde ettim çünkü görüntüm merceğe uzakta
+daha büyük ters gerçek görüntü ışınlar
+mız da tam olarak bunlardır odağa koydum
+1,5 fen de yakına Getirdiğimde artık
+Odak noktasında Odak sonsuz kuralı
+perdeyi 2 f' in bayağı dışına koymuş
+görüntümüz zaten İyice büyüye büyüye
+gitmişti perdemiz çok uzakta görüntü
+devasa boyutta Arda ve hala ters olarak
+isimlendirilebilir gerçekten sonsuza
+koyarsanız tanımsız kocaman bir görüntü
+elde edersiniz ışınların neredeyse
+paralel olduğuna dikkat edin çünkü bu
+ışınlar sonsuza gidiyorlar teorik olarak
+sonsuzda kesiştikleri söyleyebiliriz
+İşte Geldik istisna durumumuza mercek ve
+Odak arasına girdik bakın burada perde
+var perdede anlamlı bir görüntü yok
+perdede görüntü yok çünkü bu Artık sanal
+görüntü buradan çıkan ışınlar perde
+üzerinde kesişmez der
+kesişmediğine
+perdeye düşüremiyorum mercek üzerinde
+görmen gerekir perdeyi İstediğiniz yere
+koyun herhangi bir görüntü elde
+edemezsiniz yani acaba yanlış yere mi
+koyduk diye düşünmeyin diye hareket
+ettirdik nasıl görebilirim ben o düz ve
+büyük görüntüyü merceğe bakarak
+görebilirim işte merceğe baktığımda düz
+ve büyük görüntü elde ediyorum Aynı
+düzlem aynaya bakmam gerektiği gibi
+Çünkü sanal görüntüler o Optik araçtan
+görülebilirler Çünkü uzantılar o Optik
+araç sayesinde arka tarafta bir yerde
+kesişiyor lardır mecburen oraya doğru
+Bakacağız perdeler işe yaramıyor bakın
+merceği çıkartacak şu an görüntümüz düz
+ve büyük işte orijinal hali bu merceği
+taktığımda daha büyük ve düz görüntüyü
+sanal görüntüyü elde ediyorum ışınları
+baktığımızda yaklaşık aynı yerden
+ışınları göndermeye çalışıyor şu iki
+ışının kesişmeyen bunların uzantılarının
+Görüntü oluşturacağını çok net bir
+şekilde görebiliyoruz ince kenarlı
+mercekler çukur Aynalar gibi biraz
+çetrefilli ydi ters görüntü var büyük
+görüntü var sanal görüntü var düz
+görüntü var her türlüsü var tümsek Ayna
+çok basitti Hep görüntümüz Düz küçük
+odakla ayna arasında oluyordu kalın
+kenarlı mercek de tümsek aynanın çok
+benzeri görüntü müz Hep Düz küçük odakla
+mercek arasında olacak başka bir ihtimal
+yok Neden bakalım cismin çok çok
+uzaktaysa mesela sonsuzda İsa ışınları
+paralel çizersin Bir tane asal eksene
+paralel kalın kenarlı mercek ışığı
+dağıtır uzantısı odaktan geçer bir tane
+daha paralel çizsem Bu da uzantısı Odak
+olacak şekilde şöyle kırılacak bu
+arkadaşların uzantıları odakta kesişecek
+ve odakta noktasal bir görüntü
+oluşturacaklar sonsuz Odak ilişkisi bir
+noktasal görüntü elde ediyorsunuz sanal
+bir görüntü elde ediyorsunuz şuraya
+koyduğum göz merceğe bakan göz sanki
+cisim sonsuzda değil de şurada yeşil bir
+nokta var ışınlar oradan geliyormuş
+zannedecek O yüzden sanal bir görüntü
+görecek noktasal bir görüntü görecek
+diyebiliriz bunu görebilmek için
+kesinlikle merceğe bakmamız gerekiyor
+Buraya perde koysam işe yaramaz Çünkü
+burada Işın yok Peki bu arkadaşı
+yaklaştıracak nereye koyarsak koyalım
+bunların Tepe noktalarındaki noktaların
+görüntülerini bulurken bir tane asal
+eksene paralel çizeceğim uzantısı Odak
+olacak şekilde kırılacak Mesela bu mor
+arkadaşın ikinci bir ışına ihtiyacı var
+görüntü için ne yapacağım Optik merkeze
+Işın çizeceğim Şu kırmızı ışınla şu
+siyah ışının kesişme ihtimali var mı
+hayır yok bu ikisinin kesişme ihtimali
+yok ama bunların uzantılarının hem
+Siyahın hem Kırmızının uzantıları şurada
+bir yerde kesişir bizim cismimiz asal
+eksenden bu mavi noktaya çizilen cisim
+se görüntümüz de asal eksenden buradaki
+siyah noktaya çizilen görüntüdür küçük
+ve düz oluştu uzantılar kesiştikleri
+için sanal geometri gereği küçük ve düz
+bir görüntü elde ettim bu kadar başka
+bir şey yok mesela 2 f' getirdim paralel
+Işın standart Optik merkeze bir Işın
+çiziyorum bu mavi ile bu Siyahın kesişme
+ihtimali yok ama bunların uzantıları şu
+ve şu işte Burada bir yerde kesiştiler
+görüntü bu küçük mavi oldu düz sanal ve
+küçük bir görüntü yaklaştırdı çaa
+paralel Işın değişmiyor Optik merkeze
+gönderdiğin Işın dikleşiyor kesişme
+ihtimalleri yok bu uzantıyla bu uzantı
+kesişir şu noktada birleşirler asal
+eksenden buraya çizdiğin şey bu sarının
+görüntüsü olur merceğe bakan kocaman göz
+bu ışını algılar bu ışını algılar
+Şuradaki siyah nokta ışınlar geliyor
+zanneder sanal düz ve küçük görüntüyü
+görür kalın kenarlı merceklerde başka
+ihtimal yok hep küçük hep düz aynı
+tümsek Aynalar gibi Kapı çaldığında Kim
+geldi diye baktığınızda kapı dürbünleri
+kalın kenarlı
+merceklerdeki
+kere ince kenarlı mercekte genelde ters
+görüntü oluşturuyorsun gelen adamı niye
+ters görelim Hadi düz göreceksin Onda da
+senin cisminden daha büyük görüntü elde
+ediyordum büyüteç mantığı Ben niye adamı
+kocaman göreyim küçük göreyim düz
+göreyim
+seçebileceği geçiş yaptık yine sağ
+taraftan biz merceğe doğru bakıyoruz
+ışınları algılıyoruz görüntü göreceğiz
+cismim çok uzaklarda görüntüm Şurada
+odağa çok yakın küçük sonsuzda olsa
+odakta bir nokta ben bunu yaklaştırdı
+çaa görüntüm düz kalıyor büyüyor merceğe
+yaklaşıyor cisim yaklaştıkça görüntü
+merceğe yaklaşıyor Bunlar mercekte
+yaklaşık aynı boya gelip üst üste
+çakışıyor diyebiliriz bu cisim nerede
+olursa olsun görüntü hep düz ve küçük bu
+ışınla bu ışının kesişme ihtimalleri Yok
+Bunların uzantıları şurada kesişip bu
+noktada görüntüyü oluşturuyorlar Bu
+Senin cismin Bu da senin görüntün oluyor
+uzantılar kesiştiği için her türlü sanal
+görüntü oluyor o yüzden benim bu açıdan
+bakmam gerekiyor merceğe bakmam
+gerekiyor Buraya perde koyup şuradan
+perdeye bakarak herhangi bir görüntü
+göremiyorum bir şeye dikkat ettiniz mi
+gerçek görüntü oluşturduğunuzda cisim ve
+görüntü ters taraftar biri solda Biri
+sağda e mantıklı buradan cisimden
+çıkarttığın ışınlar merceğin diğer
+tarafında kesişebilir O yüzden gerçek
+görüntüler diğer tarafta oluşuyor Biz
+bunu ince kenarlı mercekte görüyoruz
+cisim Bu da görüntü ışınlar kesiştiler
+gerçek görüntüyü oluşturdular ters
+taraftar Ben bunu odağın içine
+soktuğumda uzantılar kesişti sanal cisim
+ve sanal görüntü aynı tarafta kalın
+kenarlı mercek yaptığımda cisim ve
+görüntü hep aynı tarafta Çünkü görüntü
+hep sanal görüntü çünkü şu ışınların
+merceğin diğer tarafına Geçmiş olan
+ışınların kesişme ihtimali yok mecburen
+cismin olduğu tarafta uzantılar
+kesişiyor ve sanal oluşturu duruyorlar
+iki tane merceğin var biri ince kenarlı
+mercek biri kalın kenarlı mercek şu an
+mesela ince kenarlı merceğe bakıyorsunuz
+ortası daha şişkin kenarları ince Çünkü
+şekilde gördüğünüz gibi ortadan biraz
+daha şişkinliğini görüyorsunuz Bu
+arkadaş da kalın kenarlı mercek ortası
+daha ince kenarları daha kalın bayağı
+kavanoz dibi dediğimiz mercek tipi Şimdi
+kalın kenarlı mercekte görüntümüz Hep
+Düz küçük ve sanal oluyordu kalın
+kenarlı mercekle etrafa bakıyor
+cisimleri olduklarından daha küçük
+gördüğümüze dikkat edin gençler gördünüz
+mü yani şu dış kısmıyla mercek
+tarafındaki görüntüleri kıyaslayın hep
+küçük çünkü kalın kenarlı mercek hep
+size düz ve küçük görüntüyü veriyor işte
+duvardaki tabloya bakıyor nasıl onu
+küçülttüğümde
+bakıyor etrafa gözlüğü de aslında
+cisimleri daha küçük tutuyor Demek ki
+gözlüğü de kalın kenarlı bir mercekten
+yapılmış Muhtemelen miyop Onun da nasıl
+olduğunu birazdan konuşacağız şimdi ince
+kenarlı merceği aldı ince kenarlı
+mercekte bir sürü şey vardı büyüteç
+görevi görüp daha büyük yapabilir ki şu
+an onu görüyorsunuz şu an bu süs eşyası
+Bu ince kenarlı merceğin odağı ile
+merceği arasına girdi biz onu düz
+görüyoruz büyük görüyoruz sanal bir
+görüntüdür kendisi tabloya bakıyoruz
+tabloya bakarken enteresan bir şey
+göreceksiniz buna dikkat edin tabloyu Şu
+an ben ters görüyorum tablonun
+orijinalinde bu sarı mor renkler
+tablonun alt kısmında gökyüzü dediğimiz
+şey tablonun üst kısmında Ben şu an
+merceğin içerisinde Bunu tam tersi
+olarak görüyorum Neden E çünkü ince
+kenarlı mercek genelde ters görüntü
+oluşturur çünkü şu bizim merceğin bu
+bizim asal eksenim şurası F şurası 2f
+şurada bir F daha var burada bir 2f var
+şimdi cismimiz uzakta diyelim ki o cisim
+Tablo 3 fte şurada bir yerde bunun
+görüntüsü 1,5 F de oluşur küçük oluşur
+ters oluşur E biz bu taraftan bakıyoruz
+merceğe doğru bakıyoruz merceğin
+arkasında tablo var Bundan çıkan ışınlar
+şurada kesiştiler oradan çıkıp benim
+gözüme geldiler ışınları hakikaten
+buradan çıkıyormuş gibi gördüm gerçek
+bir görüntü gördüm İlla perdeye düşürmek
+zorunda değilim Gerçek görüntüyü
+algılamak için bunu çukur aynada Tümsek
+aynada da konuşmuştuk ters bir görüntü
+gör gördüm şu an şahit olduğum olay tam
+olarak budur gökyüzü altta çiçekler
+yukarıda perde mevzusu kalın kenarlı
+merceği aldı dışarıdaki pencerenin
+görüntüsünü oluşturmaya çalışıyor
+dışarıdaki manzaranın şu beyaz kağıt
+üzerindeki görüntüsünü oluşturmaya
+çalışıyor Bunun üzerinde bir yansıma var
+o yansımaya aldırmayın biz bu kağıt
+üzerinde görüntü oluşturmaya çalışıyoruz
+Bakın bu beyaz kağıt üzerinde hiçbir şey
+yok görüntü oluşturamayan kenarlı mercek
+sanal görüntü oluşturur sanal görüntüler
+perdeye düşürülemez ince kenarlı mercek
+gerçek görüntü oluşturur ve perdede
+görüntü oluşturur şu an ben merceğe
+bakmıyorum perdeye bakıyorum ve
+görüntüyü görüyorum dışarıdaki pencere
+manzarasını görüyorum ve şuna dikkat
+edin gençler aşağısı mavimsi yukarıda
+böyle kahverengiler yeşillikler var
+dışarının da ters görüntüsünü görüyorum
+çünkü dışarısı uzakta mesela 3 fte e
+görüntü burada 1,5 fte küçük ve ters
+İşte bu da dışarısının manzarası gökyüzü
+yukarıda yeşillikler kahverengilik
+aşağıda gökyüzü aşağıda yeşillikler
+kahverengiler yukarıda dışarısı 3F
+Burası 1,5 F gibi düşünülebilir son
+olarak Aklıma gelmişken şununla ilgili
+bir şey daha söyleyeyim Bir dahaki
+sefere yağmur yağdığında pencerede asılı
+kalan Yağmur damlalarına dikkat edin
+onlar da şekilleri itibariyle ince
+kenarlı mercek gibi düşünülebilir
+dışarıdaki ağaçlar apartmanlar ters ve
+küçük gözükür o Yağmur damlalarında
+buradaki mantığın aynısıdır Siz Yağmur
+damlasının bu tarafından bakıyorsunuz
+uzakta bir apartman var çok çok uzakta
+sonsuz kabul edebiliriz bu bizim Yağmur
+damlamı Biz Yağmur damlasına şu taraftan
+bakıyoruz çok uzakta bir apartman var
+sonsuzda kabul edilebilecek Bu arkadaşın
+görüntüsü odağa çok yakın küçücük bir
+görüntüdür bu ışınlar buradan çıkıyormuş
+gibi benim gözüme gelir ve ben o
+Apartmanı ters ve küçük görürüm Bir
+dahaki sefere o Yağmur damlalarına
+dikkat edin aklınıza ben geleyim Odak
+noktalarından biri F olan hava
+ortamındaki ince kenarlı merceğin asal
+eksenindeki k l m n cisimlerinin boyları
+eşittir buna göre Hangi cisimlerin
+görüntülerinin boyu kendi boyundan daha
+küçüktür denilmiş hava ortamında ince
+kenarlı bir mercek var görevini yapacak
+karakter değiştirme yok ışığı
+artık aklınıza ne gelirse bunların
+hepsinin boyu aynıymış soru diyor ki
+hangilerinin görüntüsü kendin den
+küçüktür aslında az önce bunların
+çizimini yaptık hepsi standart olduğu
+için Hepsinin en üstünden asal eksene
+paralel Işın çizersiniz hepsi odaktan
+geçer bunların dördünün de görüntüsü şu
+çapraz ışınla alakalı bu yeşil arkadaşın
+görüntüsü için Optik merkeze bir Işın
+çizersiniz kırmızı ile yeşil burada
+kesiştiler bu 3F de kabul edebileceğim
+arkadaşın görüntüsü 1,5 fte ters ve daha
+küçük oluştu bu H İsa bu H2 2 f'
+konulmuş arkadaş Optik merkeze Işın
+çizdim kırmızıyla mavi şu noktada
+kesiştiler cisim asal eksenden yukarıya
+İsa görüntümüz asal eksenden buraya 2f
+uzaklık 2f uzaklık H boy O zaman bu da H
+kadar boy görüntü git gide daha çok
+büyüyor Dolayısıyla bundan sonra küçük
+olma ihtimali kalmadı Aslında sorunun
+cevabını bulduk sorumuzun cevabı K ama
+diğerlerini de yapalım 1,5 fte arkadaş
+var 1,5 f' TKİ arkadaşın ikinci ışınını
+çizdiğimde kırmızı ışınla bu siyah Işın
+Burada bir yerde kesişti bizim
+görüntümüz şudur Burası da 3 ftir
+diyebiliriz Çünkü 1,5 F 3F kuralı H
+kadar boyumuz varsa görüntümüzü boyu 2 H
+kadardır Çünkü merceğe iki kat daha
+uzağız odakla mercek arasına girmiş bu
+arkadaş istisna bir durum oluşturuyordu
+Optik merkeze Çizdiğim bu sarı ışınla bu
+kırmızı ışının kesişme ihtimali yok ama
+bunların uzantıları kesişir bu
+Kırmızının uzantısını şöyle çizerim bu
+sarının uzantısını şöyle çizerim bu sarı
+cismimiz görüntüsü şurada bir yerde bu
+olacaktır cismimiz H kadar görüntümüz bu
+has'tan daha büyük atıyorum 3 aş kadar
+şu an zaten büyüteç görevi gören bir
+ince kenarlı mercek düz ve büyük görüntü
+Hangi cisimlerin görüntüleri daha
+küçüktür diyordu Az önce cevabını verdik
+sadece K'nın görüntüsü daha küçük hava
+ortamında bulunan 2 F noktasına bir mum
+yerleştirilmiş ince kenarlı merceğe
+merceğin solundan G1 gözlemcisi sağından
+G2 gözlemcisi bakmaktayım Buna göre
+mumun mercekteki görüntüsü ile ilgili
+hangileri doğrudur diye sorulmuş 2 f'
+bir mum konulmuş ince kenarlı mercek 2f
+2f kuralı ters ve aynı boyda bir görüntü
+elde edeceğiz şu ok kısmı mum alevini
+temsil etsin bunun boyu H kadarsa bunun
+boyu da H kadardır artık çizim yapmaya
+üşeniyorum anladınız ama hadi bir kere
+daha çizelim odaktan geçirdim Bir tane
+de optik merkeze çizdim çizimimi idare
+ediverin şurada kesiştikleri düşünelim
+mumun bulunduğu yerde mi oluştu görüntü
+2f 2f kuralı var da cisim 2 fte ise
+diğer taraftaki 2 fte görüntü oluşuyor
+mumun bulunduğu yerde değil bu yanlış G1
+gözlemcisi görebilir Ken G2 gözlemcisi
+bu görüntüyü göremez şimdi bu ışınlar
+kendileri kesiştiler bu gözlemcinin
+yeterince büyük ve şuradan baktığını
+düşünürsem bu kırmızı ışınla bu kırmızı
+Işın göze geldi göz Bu mum alevinden
+çıkan ışınları şuradan çıkıyormuş
+zannetti ve orada görüntüyü gördü
+ışınlar hakikaten oradan çıkıyorlarmış
+gibi oldukları için gerçek bir görüntü
+gördü Dolayısıyla G2 görüyor G1
+görebilir mi E hocam G1 de buraya doğru
+bakıyor işte bunu da görebilir burada
+gençler burada cisim falan yok bu
+görüntü Bu bir ilüzyon maddesel bir şey
+değil elini buraya getirdiğinde
+çarpıyorsun görüntüye Dolayısıyla senin
+görüntüyü görebilmen için O görüntüyü
+oluşturan ışınların o göze gelmesi lazım
+O yüzden bu taraftan bakmalıyım bu adam
+göremez burada bir şey yok ki normalde
+yani Güneşten gelen ışın şuna çarpar
+yansır bu göze gelir gibi bir şey yok
+çünkü burada maddesel bir şey yok
+Dolayısıyla G1 hiçbir şey göremeyecektir
+bu görüntüyü görebilmek için ya merceğe
+doğru bakacaksın şu doğrultuda bu
+görüntüyü yakalayacaksın Bu ışınları
+yakalayacaksın ya da illa bu adamın
+görmesini istiyorsam ne yapmam lazım
+Buraya bir perde koyarım güneş
+ışınlarına ihtiyac olmaz ama şu ışınlar
+perdeye çarpar bu görüntüyü oluşturur
+oradan Yansıyan ışınlar bu göze ulaşır
+ve perdede bu adam görüntüyü görebilir
+deney videolarında izledik merceğe hiç
+merceğe hiç bakmadık sadece perdeye bak
+baktık ve görüntüyü gördük perde olsaydı
+bu görebilirdi Ama şu an perde olmadığı
+için G1 göremez G2 görür Yani ikinci
+öncülün tam tersi mum biraz ilerletip F
+noktasıyla mercek arasına getirilirse G1
+gözlemcisi görebilir çok güzel soru bu
+adamı aldım Şuraya koydum odakla mercek
+arasına koydum istisna durumum oluştu
+Bunun görüntüsü Burada bir yerde büyük
+kocaman bir şey oluştu sanal görüntü
+oluştu buradan çıkan Işın od daa gitti
+Optik merkeze Işın çizdim bu ikisinin
+kesişme ihtimali yok bunların uzantıları
+şurada bir yerde kesişip görüntüyü
+oluşturdular Hocam bakın bu G1
+gözlemcisinin baktığı yerde görüntü
+oluştu o zaman G1 gözlemcisi görebilir
+Bak yine aynı şey bu bir ilüzyon görüntü
+dediğiniz şey bir madde değildir buradan
+ışınlar yansıyıp gözüme gelmiyor
+mecburen buradan bakacağız şu ışınları
+göreceğiz bu ışınlar sanki buradan
+geliyormuş gibi olduğu için oradaki
+görüntüyü algılayacak ve bu sefer G1 in
+görmesi için perde de yetmez Çünkü bu
+sanal bir görüntü buraya perde koysak
+perdeye Işın düşmüyor ki bu kesikli
+çizgiler Işın değil ki perdeye Işın
+düşmüyorsa görüntü nasıl oluşsun Hiçbir
+türlü bu adam göremez üçüncü öncülü de
+doğru değil hangileri doğrudur diyor
+Hiçbiri doğru değildir gençler noktalar
+arası mesafelerin eşit olduğu düzlemde
+bir düzlem aynı asal eksenleri çakışık
+ince kenarlı mercek ve kalın kenarlı
+mercek şekildeki gibidir merceklerin
+Odak uzaklıkları eşit ve F kadardır x
+noktasal ışık kaynağından çıkan
+ışınların önce düzlem aynada yansıyıp
+Sonra ince kenarlı ve kalın kenarlı
+merceklerde kırılmasıyla oluşan
+görüntüsü hangi nokta ya da noktalar
+arasında oluşur diye sorulmuş Optik
+boyunca yaptığımız bir soru tipi bu
+düzlem aynalarla başladık sonra işin
+içerisinde ine küresel aynaları kattık
+Şimdi de mercekleri katıyoruz yani
+bundan çıkan ışınlar önce şuna gidiyor
+oradan çıkıyor buna gidiyor tarzında
+sorular ve bize sorulan şey son görüntü
+neydi taktik hakikaten Işın
+çıkartabilirsin ve denileni yapabilirsin
+Oradan Oraya gönderirsin ya da direkt
+görüntü bulmaya başlarsın hangisi
+kolayınıza geliyorsa onu yapabilirsiniz
+bu noktasal ışık kaynağından çıkan
+ışınlar önce düzlem aynada yansıyor muu
+görüntü bulma yöntemiyle yapalım Önce
+ışın çizmeyin düzlem aynadan Yansıyan
+ışınlar düzlem aynada bir görüntü
+oluşturacaklar E simetrik bir birim
+uzaklık var aynı aynanın arkasında bir
+birimde şurada bir görüntü oluşturduk
+düzlem aynadan Yansıyan ışınlar bunu
+oluşturdu o Yansıyan ışınlar ince
+kenarlı merceğe gidip kırılacaklar ve
+yeni bir görüntü oluşacak Yani aslında
+bu görüntünün ince kenarlı mercekteki
+görüntüsünü bulacağız ince kenarlı
+merceğe 1 2 3 birim mesafede e 1 birim
+Odak uzaklığı mış Yani bu şu an ince
+kenarlı merceğin 3F Dee 3F ne kuralı var
+1,5 F kuralı var 3F deki cismin
+görüntüsü burada 1,5 fte ince kenarlı
+mercek tarafından oluşturulacaktır bu
+kırılan ışınlar bunu oluşturdu sonra bu
+ışınlar Bir de kalın kenarlı mercekle
+kırılacak Yani bu görüntünün kalın
+kenardaki görüntüsünü soruyor E kalın
+kenarlı mercek cisim nerede olursa olsun
+Bütün görüntülerini sanal oluşturuyordu
+cisimle aynı tarafta oluşturuyordu
+odakla mercek arasında oluşturuyordu şu
+an biz görüntünün görüntüsünü bulduğumuz
+için bu bizim için bir cisim artık kalın
+kenarlı mercekte bu cismin görüntüsü
+cisimle aynı tarafta odakla mercek
+arasında bir yerde yani şurada bir yerde
+bir görüntü elde edeceğiz bu kırmızı
+nokta sorumuzun cevabıdır diyebiliriz
+Hocam biz sizin gibi yapamayız bunları
+aklımız da tutamayız ne yapalım E o
+zaman Işın çizin sorunun dediği gibi
+önce düzlem aynaya Işın çiziyorum Aynen
+bunu yansıtıyorum düzlem ayna simetri
+demektir burada bir birim uzaklıktan
+geliyormuş gibi çizdiğim ışınlar şurada
+bir görüntü oluştururlar sanki buradan
+geliyormuş gibi bir Birimden
+geliyorlarmış gibi ince kenarlı merceğe
+geldim az önce söylediğim gibi 1 2 3
+birim uzaklık var burası ince kenarlı
+merceğin 3 Fi ince kenarlı merceği 3 fen
+gelen ışın nereye gider 1,5 f' gider bu
+arkadaş böyle gitti görüntü için ikinci
+bir ışına ihtiyacımız var Bir tane de
+şöyle gönderdim uzantısı böyle olacak
+şekilde bu arkadaş düzlem aynadan
+yansıdı ince kenarlı merceği yine 3F
+doğru geliyor bu nereye gidecek 1,5 f'
+gidecek kırmızı ile mavi burada
+kesiştiler İşte bu ince kenarlı
+mercekteki görüntüdür kimin görüntüsüdür
+şunun görüntüsüdür düzlem aynada oluşan
+görüntünün görüntüsüdür şimdi bu mavi
+ile kırmızı kalın kenarlı geldiler kalın
+kenarlı ışığı dağıtır Bak bu adamın
+orijinal Rotası bu bu adamın orijinal
+Rotası bu kalın kenarlı asal eksenden
+uzaklaştırır bu mavi Işın bu tarafa
+doğru kırılırsa asal eksen tarafına
+kırılmış olur orijinal rotasından daha
+yukarıya gidecek asal eksenden
+uzaklaşacak şöyle falan kırılacak bu
+kırmızı arkadaş orijinal Rotası bu asal
+eksen tarafına kırılırsa toplanmış olur
+kalın kenarlı dağıtır Bu da bunu böyle
+dağıttı bu mavinin uzantısıyla
+Kırmızının uzantısı Az önce dediğim gibi
+odakla mercek arasında bir yerde
+kesişirler ve görüntüyü oluştururlar
+Sorumun cevabı bu kırmızı noktadır hangi
+nokta ya da noktalar arasında diye
+soruyordu l ile m arasında oluşmuştur
+diyebiliriz kapı zili çaldığında Kimin
+geldiğini görmek için kapı dürbününden
+bakan Mercan şekildeki görüntüyü
+görüyormuş Buna göre yargılarından
+hangileri doğrudur denilmiş kapı dürbünü
+neydi kapı dürbünü kalın kenarlı mercek
+düz bir görüntü oluşturuyordu küçük bir
+görüntü oluşturuyordu standart Yani bu
+adam geri gitse ileri gitse kapının
+dibine gitse Merdivenden yukarı çıksa ne
+yaparsa yapsın Her zaman düz küçük sanal
+görüntü başka bir ihtimal yok ince
+Kenarda Bir sürü ihtimal var kalın
+kenara yok gelen kişinin görüntüsü
+sanaldır Aynen öyle ispatını Az önceki
+şekillerde yapmıştık gelen kişinin
+mercana uzaklığı görüntüsünün mercana
+uzaklığından büyüktür Şimdi bunu kabaca
+çizelim şu kalın kenarlı mercek şu asal
+eksen burada Odak var burada iki Odak
+var aynı şekilde Burada da şimdi bu
+kapıdaki Adam nerede olursa olsun şöyle
+bir H boylu bir adam paralel çektim
+kalın kenarlı dağıttı uzantısı Odak
+olacak şekilde Optik merkeze gönderdim
+Direkt gitti bu iki arkadaşın kesişme
+ihtimali yok uzantıları şurada bir yerde
+kesiştiler Al sana görüntü küçük düz ve
+sanal şimdi Mercan merceğin diğer
+tarafından buradan bir yerden bakıyor
+adamın mercana uzaklı bu mesafe
+görüntünün mercana uzaklığı bu mesafe
+adam biraz daha sağ tarafa gelirse bu
+Işın standart Optik merkeze daha dik bir
+Işın çizersin görüntü merceğe biraz daha
+yaklaşmış olur biraz daha büyümüş olur
+ama hala adam mercana uzak görüntü
+mercana yakın ikinci öncülü her türlü
+Doğrudur görüntüyü oluşturan mercek
+gerçek görüntü oluşturamaz kalın kenarlı
+mercek gerçek görüntü oluşturabilir mi
+oluşturamaz Bunların hepsi sanal görüntü
+hep uzantılar kesişiyor 3üncü öncülü
+doğru Sorumun cevabı 1 2 ve 3 son olarak
+geldik merceklerin kullanım alanlarına
+yani günlük hayat örneklerine yani tyt
+için çok önemli bir yere göz dediğimiz
+şey Görme olayını nasıl gerçekleştiriyor
+Gözümüz aslında bir mercek içeriyor o
+merceğin kırdığı ışınlar gözümüzün arka
+tarafındaki retinaya düşüyorlar oradaki
+sinirler bilgiyi alıp beyne iletiyorlar
+ve görme olayı gerçekleşiyor göz
+bebeğimizin fazla ışıkta küçüldüğünü Az
+ışıkta büyüdüğünü biliyoruz Bu da gelen
+ışığın miktarını ayarlamak için
+görüntünün bozulmaması için vücudun
+aldığı bir önlem Aslında perde gibi
+kapatıyor çok parlak Bir ışığa maruz
+kaldığımızda onun miktarını azaltıyor Az
+ışık varsa etrafımızda perdeyi açıyor
+Göz bebeğimiz Büyüyor o Az ışık
+miktarını arttırmaya çalışıyor görüntü
+net olsun diye şimdi dışarıdan gelen
+Işık gözümüzdeki ince kenarlı mercek
+tarafından kırılıyor ve retinada
+odaklanıyor retinada bir görüntü
+oluşumuna sebebiyet veriyoruz buradaki
+sinirler bunu beyne iletiyorlar bu
+gözümüzdeki mercek sabit bir mercek
+değil Odak noktası değişebilen bir ince
+kenarlı mercek göz Aslında eğrilik
+yarıçapını arttırıp azaltarak Odak
+noktasını değiştiriyor Odak noktası
+değişen İnce kenarlı merceğin
+oluşturduğu görüntünün yeri değişiyor
+işte yaşlandıkça buradaki eğrilik
+yarıçapının değişmesine sebep olan bu
+göz kasları bozuluyor ya da ne bileyim
+buradaki ince kenarlı merceğin
+esnekliğini kaybediyor böyle düzleş
+kavisle emiyor Gözümüz bozuldu oluyor
+yaşlandıkça Bu arada gözümüzde mercek
+var Aa gözümüzde cam var falan gibi
+düşünmeyin bu yağ dokusundan sudan
+oluşmuş bir mercek ortamı İlla
+mercekleri camdan yapmak zorunda değiliz
+canlı bir dokua mercek görevi görebilir
+Tabii ki Örneğin burada gözümüzde bir
+kelebeği izliyoruz kelebek gözümüze
+Yaklaşıyor ya da uzak uzaklaşıyor bu
+görüntünün sürekli retinaya düşmesi
+lazım ki Net bir görüntü elde edelim
+merceklerle ilgili özellikle ince
+kenarlı mercekle ilgili deney videoları
+izledik cismi hareket ettirdikçe perdeyi
+başka yerlere koymamız gerekti Çünkü net
+görüntü elde etmek için görüntünün
+oluştuğu yere perde koymamız lazım ama
+burada bizim perdemiz retina ve yeri
+sabit perdeyle oynayamıyorum o zaman net
+görüntüyü sürekli
+sağlayabilmek imizin kavisini eğrilik
+yarıçapını değiştirmesi gerekiyor Odak
+noktasının yerini değiştirmesi gerekiyor
+buna göre görüntüyü hep aynı perdeye
+aynı retinaya düşürmeye çalışıyoruz Yani
+bizim göz merceği sürekli kasılır ve
+gevşer eğrilik yarıçapını Dolayısıyla
+Odak noktasının yerini değiştirir Bu bir
+göz modeli buradaki ince kenarlı mercek
+bizim göz merceği temsil ediyor şurada
+retinam var görüntümüzü sürekli buraya
+düşmesi lazım eğer biz Miyop göz
+kusuruna sahipsek görüntü retinanın
+önüne düşüyordu bakın ışınlar geliyor
+göz merceğinde ince kenarlı mercekte
+kırılıyor ve retinaya düşmesi gereken
+ışınlar görüntü oluştururken önde
+kesişiyor ve önde bir görüntü
+oluşturuyorlar benim Bunu retinaya
+Düşünmem lazım şu an ben net göremiyorum
+bu görüntü daha arkaya kaydırılmış daha
+ötelenmiş ihtiyacım var gözümün önüne
+kalın kenarlı bir mercek koyarsam
+gördüğünüz gibi paralel gelen ışınlar
+biraz daha dağıtıldı Ondan sonra ince
+kenarlı mercek tarafından toplandılar
+Dolayısıyla görüntü arkaya kaymış oldu
+retinanın üzerine denk geldi net görüntü
+elde ettim işte bu gözümün önüne
+koyduğum kalın kenarlı mercek bir miyop
+gözlüğü dür miyoplar kalın kenarlı
+mercek kullanırlar görüntüyü arkaya
+kaydırmak için biraz daha ışığı dağıtmak
+için gözlük yokken görüntü önde gözlük
+varken görüntü retinada Eğer bizim
+hipermetrop göz kusurumuz varsa tam
+tersi görüntü retinanın arkasında
+oluşuyor bunu öne çekmemiz lazım yani
+ışığı biraz daha toplamamız lazım O
+yüzden ekstra bir mercek daha
+kullanıyoruz yani bir gözlük
+kullanıyoruz gözümüzün önüne ince
+kenarlı bir mercek koyarsak bu gelen
+ışığı toplarız sonra göz merceği ekstra
+bir daha ve görüntü öne doğru
+kaydırılır retinaya düşürülür ve net
+görüntü görmüş oluruz hipermetrop göz
+kusuruna sahip insanlar ince kenar
+mercekli gözlük takarlar miyoplar yakını
+görüp uzağa net göremezken
+hipermetroplar uzağa görüyorlar Bunlar
+da yakını net göremiyorlar bir kişiye
+baktığınızda miyop mu hipermetrop mu
+olduğunu çok rahat anlayabilirsiniz
+gözlerine ve gözlüğün arkasındaki
+şakaklarına bakmanız yeterlidir Örneğin
+bu fotoğraftaki kişinin orijinal hali bu
+gözlük takmış hali Bu gördüğünüz gibi
+Gözleri daha küçük gözüküyor çünkü bu
+arkadaş miyop Çünkü kalın kenarlı mercek
+kullanıyor kalın kenarlı mercekler
+Cisimlerin daha küçük görüntülerini bize
+veriyordu hatırlarsanız kapı dürbününü
+hatırlayın kapı dürbününden baktığımızda
+gelen kişiyi küçük görüyorduk Çünkü
+kalın kenarlı mercek bu kalın kenarlı
+mercek bu kişinin gözü burada ben bunu
+bir cisim gibi düşünüyorum ve dışarıdan
+ben bakıyorum Bu benim gözüm gözlüğü
+takanın değil gözlüğü takanın gözü bu e
+Deminden beri konuşuyoruz kalın kenarlı
+mercek odakla mercek arasında düz küçük
+bir görüntü oluşturur işte ben dışarıdan
+baktığımda bu kişinin gözünü küçük düz
+bir şekilde aynı burada olduğu gibi
+görüyorum şakaklarını Daha böyle
+diye yapıştırabilirsiniz hipermetroplar
+baktığınızda da gözlerini olduğundan çok
+daha büyük görürsünüz Çünkü hipermetrop
+gözlüğü ince kenarlı mercektir ince
+kenarlı mercek Eğer cisim odakla merkez
+arasına girdiyse büyüteç görevi görür
+Sen buradan baktığında gözlük takan
+kişinin gözlerini daha büyük ve düz
+görüyorsun Çünkü bu gözlük Şu an bir
+büyüteç gibi davranıyor Çünkü ince
+kenarlı mercek merceklerin kullanıldığı
+başka yerler mikroskoplar dürbünler
+teleskoplar uzağa yakın edenler küçük
+cisimleri büyütenler Bakın bu bir
+teleskop modeli teleskopla buradaki
+çocuk gökyüzüne bakıyor Gökyüzünde bir
+uzaylıya bakıyor uzaylı çok uzakta Siz
+bunu bir gezegen olarak düşünün çok
+Uzaktaki bir cisimden gelen ışınlar
+dediğim gibi sonsuzdan geliyormuş gibi
+kabul edildiği için bizim teleskobum
+muza Aslında paralel geliyorlar teleskop
+dediğimiz şeyi iki tane ince kenarlı
+mercekle yapabilirsiniz solda bir tane
+ince kenarlı var sağda bir tane ince
+kenarlı var Biz de bu Sağdaki ince
+kenarlarının arkasından bakıyoruz Şimdi
+paralel gelen ışınlar birinci ince
+kenarlı mercekte kırıldılar sonsuzdan
+geliyorlar birinci ince kenarlı merceğin
+odağına geliyorlar odakta küçücük bir
+görüntü oluşturduk bu ışınlar yoluna
+devam edip Yani bu görüntüyü oluşturan
+ışınlar yoluna devam edip ikinci ince
+kenarlı merceğe çarpıyorlar ve orada
+yeni bir görüntü oluşturuyorlar birinci
+ince kenarlı mercekte oluşan görüntü
+ikincinin odağının ötesinde yani odakla
+mercek arasında Yani bu mercek şu an
+büyüteç görevi görüyor bakın bunun
+oluşturduğu görüntü ta nereye gidiyor
+dikkat edin işte bu böylece sen Uzaktaki
+bir cismi yakındayım gibi daha büyük
+elde ediyorsun daha büyük görüyorsun
+paralel ışınlar geliyor sonsuzdan
+birinci ince kenarlı mercek onu
+neredeyse odağında topluyor orada
+küçücük bir görüntü elde ediyorsun O
+nokta ikinci ince kenarlı merceğin Odak
+noktasının sağ tarafı yani ikinci ince
+kenarlarının odağı la merceği arasında
+bir görüntü var bu artık bizim için bir
+cisim se bu cismin odakla mercek arasına
+girmiş cismin görüntüsü düz sanal bir
+şekilde burada oluşacaktır büyüteç
+görevi görecektir bu uzaylıyı böyle net
+büyük bir şekilde teleskop sayesinde
+görmüş olacağım mikroskop dediğiniz şey
+de benzer bir sistem içeride böyle bir
+bir sürü mercek var ama temelde iki tane
+ince kenarlı mercekle işi çözebiliyor
+bak şu küçücük Artık tek hücreli canlı
+mı dersin böcek mi dersin küçücük bir
+canlı ince kenarlı merceğin 1,5 fine
+konulmuş ince kenarlı merceğin Odak
+noktası Burası az ötesinde 1,5 einde
+bunun görüntüsü ters bir şekilde şurada
+3F de oluştu bu merceğin 3 e'deki Bu
+görüntü ikinci merceğin odağı ile mercek
+arasında yine büyüteç görevi ikinci
+merceğin odağının ötesinde bu artık bir
+cisim benim için bu cismin Bu mercekteki
+görüntü büyüteç gibi düz sanal bir
+görüntüdür Biz de şuradan baktığımızda
+bu küçücük canlının görüntüsünü burada
+kocaman olarak görüyoruz buradaki ayar
+düğmeleriyle oynayarak Odak
+uzaklıklarını değiştirerek biz bu
+görüntünün boyutlarını değiştirebiliriz
+işte Şu an son görüntü budur canlımı
+küçücük son görüntümüz kocaman aynı
+teleskoptaki gibi iki tane mercekle ben
+bu işi yapıyorum teleskopta mikroskopta
+Aslında görüntüyü büyütüyorlar benzer
+sistemler teleskopta sonsuzdaki ışığı
+iki mercekli sisteme sokuyoruz
+mikroskopta dibimizdeki ışığı iki
+mercekli sistem sisteme sokuyoruz Hocam
+biz bunları ezbere bilmek zorunda mıyız
+bunları böyle anlatıyorsunuz ama tabii
+ki ezbere bilmek zorunda değilsiniz
+kimse size mikroskobun teleskobun iç
+düzenini ezberden soramaz ama mercek
+kullanıldığını ve öğrendiklerimizi
+uygulayacak şekilde o merceklerin nasıl
+konumlandırılması gerektiğini
+yorumlayabilme sizin avantajınız olur
+büyüteçten zaten defalarca bahsettik
+Şimdi de bahsettik teleskop
+mikroskopların içerisinde bile benzer
+bir sistem var ince kenarlı merceğin od
+dağıyla mercek arasına cismi sokarsanız
+düz sanal bir görüntü elde edersiniz
+buradaki küçücük yazıları bu büyüteçte
+ince kenarlı mercekte kocaman elde
+edersiniz ve son olarak fotoğraf
+makineleri ve kameralar bunlar zaten
+insan gözünden esinlenilerek tasarlanmış
+aletler İnsan gözü nasıl görüyorsa
+bunların mercek sistemleri de retina
+sistemleri de aynı bizim retinam onların
+sensörü Bakın bu İnsan gözü ince kenarlı
+merceğin var retinam var merceğin
+kasılıyor gevşiyor Odak Uzaklığını
+değiştiriyor sabit retinada Net bir
+görüntü elde etmemizi sağlıyor Bu da
+kamera burada bir cisim var burada bir
+sensör var retina gibi orada görüntü
+oluşturuyoruz neyle ince kenarlı bir
+mercekle kameraların lensleri dediğimiz
+şey işte bu mercekten ibaret cisim
+hareket ettikçe fotoğrafını videosunu
+çekeceğin cisim hareket ettikçe
+gördüğünüz gibi buradaki görüntü
+bozuluyor Net bir görüntü elde etmek
+için sürekli lensle oynamanız lazım
+mercekle oynamanız lazım ya bunu manuel
+yapacaksınız ya da Otomatik olacak işte
+lensle oynadığınızda bunu ileri geri
+hareket ettirdiğinizde daha net görüntü
+elde etmeye çalışırsınız Mesela bu
+burada Bulanık bir görüntü var Ben
+burada mercekle oynuyorum daha net bir
+görüntü elde ediyorum bunu buraya
+getirdim görüntü değişti mercekle
+oynuyorum onu netleştirmeye çalışıyorum
+kameralarda aynı İnsan gözü gibi ince
+kenarlı mercekler kullanılır Böylelikle
+mercekleri de bitirmiş oluyoruz
+takıldıkları alta yazın Kendinize iyi
+bakın
+[Müzik]
+görüşürüz

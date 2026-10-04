@@ -1,0 +1,910 @@
+gençler Merhaba enerji ünitesindeyiz
+işin ne olduğunu öğrendik enerjinin ne
+olduğunu öğrendik Bu ikisi arasındaki
+ilişkiyi öğrendik ve Mekanik enerjiyi
+öğrendik mekanik enerji neydi kinetik
+enerji ile potansiyel enerjinin
+toplamıydı potansiyel enerji dediğim şey
+de iki çeşitti Bunlar Yerçekimi
+potansiyel enerjisi ve esneklik
+potansiyel enerjisiydi şimdi
+öğreneceğimiz konu enerjinin korunumu
+Yani bir Evren yasası toplam enerji her
+zaman korunur gençler sonra söyleyeceğim
+şeyi kafadan söylüyorum hangi tür enerji
+olursa olsun ister mekanik enerji olsun
+yani kinetik potansiyel olsun ister
+diğer enerji türleri Mesela bu
+fotoğrafta gördüğünüz gibi gitar teline
+vurduğumuzda açığa çıkan Ses enerjisi
+veya sürtünmeye maruz kaldığımızda açığa
+çıkan Isı enerjisi toplam miktar her
+zaman aynıdır toplam miktar her zaman
+aynıysa Bu bize şunu gösterir enerji
+birbirine dönüşüyor artmıyor azalmıyor
+yeni enerji gelmiyor mevcut enerji bir
+yere gitmiyor o zaman Bunlar kendi
+içlerinde dönüşüp duruyorlar Örneğin
+gitar çalarken tele vurdunuz elinizle
+tele Bir Kuvvet uyguladığınız tel
+üzerinde bir iş yaptınız o iş TL bir
+enerji kazandırdı bu kinetik enerji
+olarak kazanıldı kinetik enerjisi
+sayesinde tel titremeye başladı tel
+titremeye başlayınca etrafındaki havayı
+titreştirdik biz buna ses diyoruz ve
+okinetik enerji ses enerjisine dönüşmüş
+oldu bu ses yayıldıkça sürtünmenin
+etkisiyle o taneciklerin hava
+taneciklerinin titreşimi azaldı azaldı
+azaldı ve ses duyulmaz oldu sürtünme de
+enerjiyi ısı enerjisine dönüştüren bir
+şey olduğuna göre benim en başta tere
+verdiğim iş kinetik enerji kazandırmıştı
+İşte o kinetik enerji en sonunda tamamen
+sürtünme yüzünden ısı enerjisine dönüştü
+başlangıçta 100 juli kinetik enerji
+kazandıysak en sonda 100 Yıl Isı
+enerjisi elde ettik diyebiliriz toplam
+enerji miktarı değişmemiştir korunmuştur
+buradaki Kızcağızın elinde bir top var
+bunu havaya atıyor sonra tekrar tutuyor
+sürtünmeleri ihmal edelim ısı enerjisine
+dönüşümün olmadığını düşünelim elindeki
+topu havaya fırlatmak için bir kuvvet
+uygulaması lazım yani bir iş yapması
+lazım O iş bu topa bir kinetik enerji
+kazandıracak bu kinetik enerji yukarıya
+doğru top çıktıkça azalacak günlük
+hayattan bunu gayet bilirsiniz cisim
+yukarıya doğru çıktıkça yavaşlar kinetik
+enerji azalıyor Peki nereye gidiyor
+kinetik enerji yok mu oluyor Hayır
+enerji korunur potansiyel enerjiye
+dönüşüyor bu sistemde top yükseliyor
+Belli bir yerden yukarıya doğru çıkıyor
+dünyadan uzaklaşıyor o zaman bunun
+potansiyel enerjisi artar top çıktı
+Çıktı Tepe noktasında anlık olarak durdu
+Sonra oradan tekrar aşağıya doğru
+düşecek anlık olarak durduysa hızı sıfır
+kinetik enerjisi sıfır diyelim ki
+başlangıçta 100 Yıl kinetik enerjisi
+vardı nereye gitti bu 100 ülkenin enerji
+kinetik enerjisi sıfır olmuş doğru
+tahmin ettiğiniz potansiyel enerjiye
+dönüştü benim elimde şu an 100 jul
+potansiyel enerji var başlangıçta da
+Yüzyıl enerjim vardı Son durumda da
+yüzül enerjim var yani enerji yine
+korundu Hatta burada korunan enerjinin
+ismi mekanik enerjidir Çünkü mekanik
+enerji ne demek kinetik enerji arttı
+potansiyel enerji demek top elimdeyken o
+seviyeye göre potansiyel enerjim yoktu
+bu sıfırdı sadece 100 Yıl kinetiğin
+vardı buna 0 yazarsam buna 100 yazarsam
+Yani benim elimde 100 Yıl mekanik enerji
+vardı top tepeye çıktığında elinde
+kinetik kalmadı kinetik 0 oldu ama
+potansiyel yüzü oldu yani filmde hala
+Yüzyıl mekanik enerji var sürtünme
+olmadığı için
+Isı enerjisi olarak kayıp yaşamadığımız
+için mekanik enerjimiz korunmuştur
+enerji hiçbir zaman Yoktan var ya da
+Vardan Yok olmaz ancak bir tür enerjiden
+diğerine dönüşebilir Şimdi burada bazı
+enerji sütunlarımız var grafiğe dökülmüş
+haldeler bunlar bunları Zaten birazdan
+simülasyon üzerinde de göreceğiz ama
+şurada bir konuşalım konu başlığımız
+nedir bize neyi sorgulatıyor burada
+diyor ki sürtünme olmazsa mekanik enerji
+ve toplam enerji nasıl değişir mekanik
+enerji diyorsa kinetik enerjiyle
+potansiyel enerjinin toplamını düşünmem
+gerekir ki buradaki potansiyel enerjinin
+içerisinde esneklik potansiyel de
+olabilir sadece Yerçekimi potansiyel de
+olabilir toplam enerji diyorsa kinetiği
+düşünebilirim potansiyel enerjiyi
+düşünebilirim ve diğer bütün enerji
+türleri
+Isı enerjisi olabilir Ses enerjisi
+olabilir ışık enerjisi olabilir Falan
+filan her türlü enerjiden bahsediyoruz
+bu sistemde şu an sürtünme yok sürtünme
+yoksa ısı enerjisine dönüşme yok
+Dolayısıyla kayıp yok çünkü sürtünme
+kuvveti hareket yönüne genelde zıt
+olduğu için negatif iş yapıyor ve Benim
+buradaki mekanik enerjimi azaltıyor Ama
+eğer sürtünme kuvveti yoksa negatif iş
+yok enerjiyi azaltıcı bir faktör yok o
+zaman Benim mekanik enerjim sabit
+kalacaktır diyebilirim yer seviyesine
+göre bu arkadaşın Şu an bir potansiyel
+enerjisi var buradaki turuncu sütundan
+görüyoruz Hatta mgh olarak yazabilirim
+bunu Çünkü şu an H yüksekliğinde bir
+toptan bahsediyoruz burada tutulduğu
+için bunun şu an kinetik enerjisi yok
+hızı yok çünkü kinetik enerji grafiği
+elde etmedik toplam enerjiğim de o zaman
+potansiyel enerji kadardır Sayısal değer
+verelim 100 Yıl olsun mu bu toplam
+enerji bu soru için aynı zamanda mekanik
+enerji Çünkü dediğim gibi sürtünme
+olmadığı için Kinetik ve potansiyelin
+haricinde bir enerji türü açığa
+çıkmayacak Ben bunu serbest bıraktım
+aşağıya doğru bir ağırlık kuvveti var bu
+kuvvetin etkisiyle aşağıya doğru
+hızlanmaya başlayacak bu ağırlık kuvveti
+bir iş yapacak Dolayısıyla enerjimiz
+değişecek ama bu değişim nasıl olacak
+top buraya geldiğinde hızlandığı için
+artık bir hızı var Dolayısıyla artık bir
+kinetik enerjisi var ve dikkat ederseniz
+artık h/2 yükseklikteyiz Yani bizim
+potansiyel enerjimiz azaldı potansiyel
+enerji sütunu azaldı kinetik enerji
+sütunum oluştu Peki Sizce bu iki süt
+toplasak uç uca koysak ne elde ederiz
+Tabii ki toplam enerji elde ederiz
+toplam enerji seviyem burada neyse
+burada da o hiç değişmedi Hatta
+potansiyel enerjinin başta kaçtı 100
+mghh 100'e eşitti e şimdi h/2
+yükseklikteyiz o zaman benim şu anki
+potansiyel enerjim mgh/2 üzerinden
+düşünüleceği için 50 juli olacaktır geri
+kalan 50 juli'lerde Tabii ki kinetik
+enerjide ikisinin toplamı hala 100 Yıl
+Bu arkadaş da 50 var bu arkadaş da 50
+var Toplamda 100 var Düşmeye devam
+ediyor düştükçe hızlanmaya Devam ediyor
+sürtünmemiz yok cismimiz tam yere çarpma
+anında yere çarptım ve orada duruyorum
+demiyorum tamam yere çarpma anında daha
+da büyük bir hızı var veya üstü diyelim
+ve üstü hızı v'den daha büyük aşağı
+düştükçe daha çok hızlandım Dolayısıyla
+kinetik enerjisi sütunum daha da arttı
+ve potansiyel artık yok çünkü yer
+seviyesindeyim cismi de noktasal kabul
+ettim cisim Şu an burada bir nokta
+olarak düşünülebilir potansiyel enerjim
+sıfır nereye gitti bütün enerji kinetiğe
+gitti demek ki şu an 100 Yıl kinetik
+enerjin var demek ki 100 jul toplam
+enerjim var hatta mekanik enerjimde var
+diyebilir hala kinetik kartı potansiyel
+yüzücü Peki sürtünme olursa ne olur
+sürtünme olursam mekanik enerji korunmaz
+gençler kinetik artı potansiyelinizin
+toplamı değişir Çünkü sürtünme Isı
+enerjisi oluşturur ve sizin enerjinizi
+azaltır o Isı enerjisi doğaya karışır
+cisminizde kalmaz artık iki elinizi
+birbirine sürttüğünde eliniz nasıl
+ısınıyorsa cisim de hava ortamını
+ilerlerken hava tanecikleriyle
+çarpıştığı ve etkileştiği için orada
+ellerin birbirine sürtünmesi gibi havaya
+sürülür ve ısı açığa çıkar Bu da kayıp
+demektir Yine ben haş yüksekliğindeyim
+emgh kadar potansiyel enerjim var yine
+buna yüzül diyelim hızım olmadığı için
+kinetik enerjim sıfır mekanik enerjim şu
+an 100 yıl kadar bu ikisinin toplamı
+kadar grafiği incelersem kinetiğim yok
+potansiyeli var Bu da 100 seviyesinde
+henüz Isı enerjisi açığa çıkmadı çünkü
+harekete geçmedim böyle diyebiliriz Ben
+bunu serbest bıraktım aşağıya doğru
+hızlanmaya başladı geldi Buraya belli
+bir hız kazandı Az önceki gibi
+Dolayısıyla artık bir kinetik enerji
+sütunumuz var potansiyel enerjimiz
+yarıya düştü Çünkü artık haç bölü 2
+yükseklikteyim yani şu an 50 jul
+potansiyel enerjim var ama kinetik
+enerjim 50 joul değil Az önceki gibi
+aynı seviyede değil potansiyel enerji
+grafiğiyle az öncekinde nasıldı bak
+bunlar yan yanalardı ama şimdi kinetik
+enerji seviyesi daha aşağıda Nerede o
+Fark işte burada
+ısı enerjisinde şöyle diyebiliriz şu an
+benim kinetik enerjim 50'den
+mesela 30'muş 20 juli nerede 20 jul
+sürtünme yüzünden ısı enerjisine dönüştü
+sürtünme negatif iş yapıp Benim mekanik
+enerjimi azalt O da ısıya dönüştü Benim
+şu an mekanik enerjim kaç joul
+kinetikard potansiyel mekanik biliyorsun
+30 artı 50'den 80 jul yere indim tam
+buraya bir hızla çarptım bu anı
+konuşuyorum yer seviyesindeyim o yüzden
+potansiyel enerjim yok Kinetik enerjinin
+biraz daha artmış biraz daha hızlanmışım
+burada 30 demiştik bunu biraz daha
+fazlası olacak şu an kinetik enerjim
+sallıyorum 50 jür o zaman mekanik
+enerjiğim şu an nedir şu an mekanik
+enerjiyim 50 jürgüldür potansiyel yok
+Sadece kinetik var o da 50 biz yola 100
+ile çıkmıştık elimizde 50 mekanik kaldı
+Nerede bu 50
+ısıda İşte buradaki ıssız sütunu 503
+sürtünme varsa mekanik enerji korunmaz
+gençler kinetik kartı potansiyeliniz
+azalır hocam şurada bir lacivert sütun
+var toplam enerji sütunu onu hiç
+konuşmadınız soruda da zaten toplam
+enerji nasıl değişir diye soruyordu ve
+ben görüyorum ki hiç değişmemiş hocam o
+kaçtı biliyor musunuz o başlangıçta
+yüzüldü hep yüzül kalmaya devam et hocam
+o mekanik enerji değil mi Hayır o toplam
+enerji mekanik enerji sadece kinetik
+potansiyel toplam enerji ise bütün
+enerji türleri ki benim burada şu an 3
+tane var kinetik potansiyel ısı
+başlangıçta 100 potansiyelim Vardı 100
+toplam enerjim vardı top biraz düştü 30
+kinetiğim var 50 potansiyelim var 80
+20'si ısıya dönüştü toplam yine kaç yine
+100 toplam enerji değişmez yere çarptım
+ne kadar kinetiğin var dedim 50 ne kadar
+ısın var dedim O da 50 toplam kaç yine
+100 işte enerjinin korunumu tam olarak
+budur evrendeki toplam enerji hiçbir
+zaman değişmez ama sürtünme varsa
+mekanik enerji azalır bunları bir de
+simülasyonda görelim burada bir
+çocuğumuz var
+sürtünmenin olmadığı bir ortam
+oluşturacağım buraya enerji grafiğimi
+ekliyorum
+ısı enerjisini sildim sürtünme olmasını
+istiyorum bu çocuğu bu yolun en üstünden
+serbest bırakıyorum bıraktığım anda
+ağırlığın etkisiyle hızlanacak Yukarı
+çıkarken ağırlığın etkisiyle
+yavaşlayacak ve bu şekilde hareketine
+devam edecek sürtünme olmadığı için
+mekanik enerjimiz korunacak yani kinetik
+artı potansiyelimiz hep korunacak
+kinetik artı potansiyelimiz korunuyor
+toplama hiç değişmiyor ısı da olmadığı
+için toplam sütunum hep aynı ki şu an bu
+mekanik olarak da düşünülebilir Isı
+enerjisi olmadığı için aşağı indikçe
+hızlanıyor kinetik sütunu artıyor
+potansiyel azalıyor Çünkü yer seviyesine
+göre potansiyel enerji azalıyor yukarı
+çıktıkça da potansiyel sütunu artıyor
+kinetik seviyesi azalıyor toplam hiç
+değişmiyor şuna dikkat ettiniz mi bu
+çocuk bırakıldığı nokta seviyesine kadar
+çıkabiliyor Yani tekrar gelsin şuraya Bu
+noktadan harekete başladı çıkabildiği
+seviye aynı seviye Neden acaba bu bir
+tesadüf mü Niye daha aşağıda değil çünkü
+yer seviyesine göre diyelim ki bu
+arkadaşın 100 jul potansiyel enerjisi
+vardı orada ilk hız harekete başladığı
+için kinetik enerjisi yoktu mekanik
+enerjisi yüzüyor sürtünme olmadığı için
+her yerde bu enerjiyi koruyacağız
+Dolayısıyla ben en alt noktayı
+incelersem de mekanik enerjim yüzül
+olmalı en üst noktayı incelersem de
+mekanik enerjim yüzül olmalı en alttan
+geçerken potansiyelin var mı Çocuğu
+noktasal kabul ediyorum Şu kırmızı nokta
+olarak düşünüyorum en alttan geçerken
+yüksekliğim olmadığı için yer seviyesine
+göre burada potansiyel enerji sıfırdır o
+zaman tamamı kinetik enerjidir yani
+aşağıdan geçerken 100 jülümüz var
+kinetik olarak en yukarıya Geldiğimde
+yine Çıktım Çıktım Çıktım durdum artık
+orada hızım yok yani kinetiğim sıfır
+enerji kaybetmedim mekaniğim yine yüzü
+olacak o zaman potansiyel enerjiğim ne
+olmak zorunda 100 olmak zorunda
+başlangıçta da 100 potansiyelim vardı
+Son durumda da 100 olmak zorunda
+potansiyel EMG çocuğun kütlesi yol
+boyunca değişmiyor Yerçekimi ivmesinin
+yol boyunca değişmediğini kabul ettim bu
+sonuç sabit kalacaksa o zaman haşin da
+sabit kalması lazım yani başlangıçta
+nasıl bir haçtan yukarıya çıktıysa
+muhteşem bir ok çizdim o zaman son
+oyunda da aynı H yüksekliğine
+çıkabilmelidir sürtünme eklersem sisteme
+ne olur aynı yüksekliğe çıkamaz sisteme
+sürtünme ekleyip çocuğu tekrar aynı
+seviyeden bırakacağım karşı tarafta aynı
+noktaya kadar çıkabilecek mi Hayır Çünkü
+Sürtünme kuvvetini
+azaltacak Dolayısıyla en son
+çıkabildiğim noktada potansiyelim
+Normalden daha az olacak o yüzden daha
+yukarıya değil daha aşağıya
+çıkabileceğim potansiyel daha az olmalı
+bıraktım sürtünme kuvveti var gördünüz
+mü Bak şuraya kadar falan çıkabildi geri
+döndüğünde daha da az ve gitgide daha az
+çıkabildiği için en nihayetinde çukurda
+bir yerde kalıyor Tekrar baştan yapalım
+ve grafikleri inceleyelim şu an 100
+potansiyelim var Ben bunu bıraktıkça
+bakın Isı enerjisi açığa çıkıyor kinetik
+eskisi kadar yükselemiyor her seferinde
+yol gittikçe ısı artıyor Çünkü iş
+eşittir kuvvet çarpı yer değiştirme
+çocuk ne kadar yol giderse sürtünme o
+kadar iş yapar bu negatif İş olduğu için
+benim enerjimi azaltır ve en nihayetinde
+bütün enerjim ısıya dönüştü elimde ne
+kinetik kaldı ne potansiyel kaldı o
+yüzden hız kinetik olmamalı artık ve
+potansiyel enerjinde artık olmamalı O
+yüzden tam o en alt seviyede potansiyel
+enerjiyi aldığım noktada kaldım Ve yine
+şu toplam sütununda gram oynama olmadı
+başlangıçta 100 jul toplam enerjim varsa
+yine yüzül toplam enerjim var sadece bu
+ne olarak artık gözüküyor
+Isı enerjisi olarak gözüküyor mekanik
+enerjiyle toplam enerjiyi karıştırmayın
+elimizde mekanik yok ama toplam enerji
+sabit yolu değiştirdim yine sürtünmeyi
+ihmal ettim acaba çıkabileceğimiz
+seviyede bir değişiklik olur mu Ara
+yolların bir önemi var mı Hayır hiçbir
+önemi yok sürtünme yok Dolayısıyla
+başlangıçtaki mekanik enerjim Neyse son
+durumda da olmak zorunda Son durumdan
+kastımız sol tarafta yukarı çıkacağız
+anlık olarak duracağız geri dönmeden
+önceki anı konuşacağız Yani kinetiğin 0
+olduğu Mekanik enerjinin tamamen
+potansiyel olduğu durumu konuşacağız
+başlangıçta nasıl bir potansiyelim varsa
+son durumda da o kadar olmalı Çünkü
+sürtünme yok o zaman aynı seviyeye
+çıkmalıyım aradaki rotanın yolların
+değişmesini hiçbir önemi yok bıraktım
+değişik hareketler yapıyor az öncekinden
+farklı olarak yine aynı seviyeye çıktı
+başka olsaydı da aynı seviyeye çıkardı
+değiştiriyorum Rotayı böyle bir şey
+yaptım bıraktığım seviyeye çıkacak
+bıraktık ve gördüğünüz gibi aynı
+seviyeye çıkıyor enerjinin korunumuna
+bir başka örnek bir kaykaycı şekildeki
+düzenekte k noktasından kendisini
+serbest bırakıp sırasıyla L ve M
+noktalarından geçmektedir sürtünmeler
+ihmal edilmediğine göre buraya dikkat
+kaykayıcının KL ve M noktalarındaki
+mekanik enerjilerini toplam enerjilerini
+kıyaslayınız mekanik enerji tekrar
+hatırlatıyorum kinetik artı
+potansiyeldir gençler toplamda ise Allah
+ne verdiyse mekanik korunmayabilir ki
+sürtünme olduğu için kesinlikle
+korunmayacak ama toplam enerji her zaman
+korunur K noktasında ilk hızsız harekete
+başlıyorum hızım 0 kinetiğim sıfır
+nerede anladınız hocam ilk hızsız
+olduğunu çünkü serbest bırakmak diyor
+belli bir hızla atılmamış bırakmış
+kendini potansiyel enerjim var o zaman
+bunun değerinde yine yüzül diyelim
+sayıdan şaşmayalım mekanik enerjimde 100
+jc'dir kinetik kartı potansiyel sürtünme
+varsa bu mekanik değişecek gitgide
+azalacak ısıya dönüştükçe azalacak
+aşağıya doğru iniyor bu mekanik azalıyor
+Buraya geldiğinde artık mekaniğin
+atıyorum 80 juldür nerede 20'si şu yolda
+sürtünme kuvveti negatif iş yaptı bu da
+bana -20 jul kaybettirdi diye salladım
+sayıları yola devam ediyorum sürtünme
+negatif iş yapmaya devam ediyor O zaman
+mekanik enerjim daha da azaldı atıyorum
+50 jul kaldı Neden Çünkü burada da
+sürtünme negatif iş yapmaya devam ediyor
+Bu da -30 olarak tarafından sallandı o
+zaman a şıkkının cevabını verdik K
+noktasında 100 L noktasında 80 M
+noktasında 50 yani K'nın mekanik
+enerjisi büyüktür l'den O da büyüktür
+m'den diyebiliriz sürtünmeye en az maruz
+kalmıştan en çok maruz kalmışa doğru
+sıraladık Aslında bir nevi toplam
+enerjilerini kıyaslayınız başlangıçta
+toplam enerjim zaten mekanik kadardı
+yani 100 kadardı bunda problem yok
+şuraya geldiğimde 80 mekaniğim var 20
+ısıya dönüşmüştü O da toplama dahil
+Dolayısıyla 80 + 20'den yine yüzül
+toplamım var buraya geldiğimde 50
+mekaniğim kalmıştı bu 50'nin yanında
+yolda tuz ısı 20 ısı kaybetmiştim
+Dolayısıyla bunların hepsini toplarsam
+50 + 30 + 20'den buraya geldiğimde de
+toplam enerji 100 Yıl olacaktır Tabii ki
+nereden bakarsak bakalım toplam
+enerjimiz hiçbir zaman değişmeyecektir k
+eşittir l o da eşittir M diyebiliriz
+gönül rahatlığıyla şekildeki 2 kilogram
+kütleli cisim 25 n'luk kuvvetle
+çekilmekteyken 5 newtonluk sürtünme
+kuvvetine maruz kalmaya başlıyormuş
+cisim bu şekilde 10 metre yol alıyormuş
+cismin ilk hızı 5 metre bölü saniye
+olduğuna göre cismin Yolun sonundaki
+hızını bulunuz denmiş başlangıçta
+durmuyoruz başlangıçta bir hızımız var
+zaten sağ tarafa gidiyoruz sağ tarafa
+doğru olan bu 25 newtonluk kuvvet bizim
+bu beşli kızımızı daha da arttırmak
+istiyor ters yönü olan 5 newtonluk
+sürtünme kuvveti ise bizim hızımızı
+azaltmaya çalışıyor bunun net haline
+bakacağız önceki derslerimizde ne
+öğrettim ben size Net kuvvet sistemin
+kinetik enerjisini değiştirir sağ tarafa
+25 var sol tarafa 5 var O zaman şu an
+zıt vektörler olduğu için çıkarttım sağ
+tarafa doğru 20 newtonluk bir Net kuvvet
+var aşağıya doğru olan ağırlıkla
+yukarıya doğru olan Normal kuvvet
+birbirini götürüyor onları hiç
+düşünmüyor yine aklında şu beşi de dahil
+etmeyeceğiz mi diye ufak soru işareti
+kırıntıları kalanlara elin saf dercesine
+Bakıyorum bu hız kuvvetlerle toplanmaz
+çıkartılmaz bir kez daha söylemiş olalım
+Peki 20 Newton Net kuvvetin var ne kadar
+yer değiştirme var 10 metre yani şu an
+FX yapıyorum 20 x 10'dan 200'ül artı 200
+jul bizim kinetik enerjimiz değişmeli
+artı çıktığı için artma şeklinde olmalı
+başlangıçta kaçtı ki bizimkinin kinetik
+enerjimiz kinetik enerji
+1/2m² ile hesaplanır cismin kütlesi
+zaten 2 kilogram yani şunun yerine 2
+yazsam buradaki 2 ile götürecek hızım 5
+karesini alırsam benim 25 juli zaten
+mevcut bir kinetik enerjim varmış
+üzerine 200 daha eklenirse son kinetik
+enerji
+2205 yapar bana bunu sormuyor hızı
+soruyor şuradan geçerken nasıl bir hızım
+olur diyor
+1/2m5 rulse yine kütlemiz 2 olduğu için
+bunlar götürdü v'nin karesi 225 V
+dediğim şey 15 metre bölü saniyedir bu
+arkadaş hızlandırmaya Çalışıyordu bu
+arkadaş yavaşlatmaya çalışıyordu Ve bu
+daha büyük olduğu için Tabii ki onun
+dediği oldu ve benim hızım 5'ten 15'e
+çıktı sürtünmelerin ihmal edildiği
+ortamda platformun üzerinden bir yük
+şekildeki gibi serbest bırakılıyor Buna
+göre yükün K sabitli yayı maksimum
+sıkıştırma miktarını nelere bağlıdır
+denilmiş neler verilmiş H yüksekliği
+verilmiş şu eğik düzlemin a uzunluğu
+verilmiş şu yataydaki B uzunluğu
+verilmiş bir yayımız var onun da sabiti
+ka kadar sürtünme var mı sürtünme yok o
+zaman yapıştır mekanik enerji korunur
+kinetikartı potansiyelin toplamı
+değişmez Başlangıçta ne kadar mekanik
+enerjin varsa bütün yol boyunca neresini
+incelersen incele ister bu noktayı
+incele ister bu noktayı incele ister bu
+noktayı incele ister bu noktayı incele
+istersen yaya çarptın yayı biraz
+sıkıştırdın oraya incele ya da yayı
+tamamen sıkıştırdın orayı incele burada
+sarıyla çizdiğim bütün yuvarlaklardaki
+mekanik enerjiler birbirine eşittir
+sadece dönüşüm vardır potansiyel
+kinetiye dönüşmüştür kinetik esneklik
+potansiyele dönüşmüştür falan Şimdi ben
+o zaman bu sarı yuvarlakların eşitliğini
+kullanıyorum yayın maksimum sıkışmasını
+sorduğu için en sondaki yuvarlağı
+kullanıyorum o noktayı inceleyeceğim Bir
+de en başı inceleyeceğim Çünkü arada bir
+yerde yazabileceğim tanımlanmış
+Büyüklükler yok Bak burada tanımlanmış
+bir haç var O zaman onu kullanayım
+başlangıçta burada duruyoruz serbest
+bırakıldığı için hızım yok Dolayısıyla
+kinetik enerjim de yok Ne var elimde
+sadece potansiyel enerji var Ve bunun
+değeri nedir
+kinetik 0 potansiyel hem Gear O zaman bu
+ikisinin toplamı mekanik enerji harçtır
+yazdım bütün Bu yuvarlakların hepsinde
+mgh kadarlık mekanik enerji var hocam Şu
+aşağıda Nasıl emganik olsun aşağıda
+potansiyel enerji yok ki ben zaten
+Bunlar potansiyel enerji demiyorum ki
+bunlar mekanik enerji sadece büyüklük
+olarak potansiyele benziyor ifade
+benziyor burada tanımladığım şey Mekanik
+enerjiyi potansiyel değil Örneğin şu
+emgaj tamamen kinetik enerjiye dönüşmüş
+bir EMG ağaçtır büyüklük olacak çünkü
+ben aşağıya doğru indikçe yere göre
+benim yüksekliğim azalacak yani
+potansiyel enerjim azalacak ve
+hızlanıyorum kinetiğimi artacak yer
+seviyesine indiğimde artık potansiyelim
+kalmadı tamamen neyim var Tamamen
+kinetiğim var yaya çarptım yayı
+sıkıştırıyorum Siz bir yayı sıkıştırmaya
+başladığınızda ne hissedersiniz geriye
+doğru zorlanma hissedersiniz Çünkü yay
+size ters yöne bir kuvvet uygular sizi
+yavaşlatır o zaman kinetik enerjiye
+sahip olan bu yük yaya çarptıktan sonra
+ters kuvvete maruz kaldığı için
+yavaşlayacak yavaşlayacak yavaşlayacak
+ve buradaki maksimum sıkışma durumunda
+anlık olarak tamamen duracak Elinde hiç
+kinetik kalmayacak Bu durgunluktan sonra
+ya onu geriye fırlatacak ve süreç başa
+dönecek ama biz onlarla ilgilenmiyoruz O
+zaman bu son sarı yuvarlakta ne var son
+sarı yuvarlakta sadece 1/2k x kare var
+çünkü yer seviyesindeyim benim burada
+yer çekimi potansiyel enerjim yok anlık
+olarak durdum kinetik enerjim yok ama
+benim mgh kadarlık mekaniğimin olması
+lazım Kim var esneklik potansiyel
+enerjisi yani şu arkadaş var Bu da
+mekanik enerjiydi Bu da mekanik
+enerjiydi ve Bütün bunların eşit
+olduğunu söylemiştim o zaman ben bunları
+birbirine eşitlersem sıkışma miktarı
+olan Şuradaki X'in nelere bağlı olduğunu
+görmüş olurum x yalnız bırakacağım
+Bundan sonrası matematik Aslında
+2mghh bölü k = x karedir her iki tarafın
+karekökünü alırsam x dediğim şey
+2mgh/√ içerisinde kaldır yani maksimum
+sıkışma miktarı cismin kütlesine
+Yerçekimi ivmesine nasıl bir
+yükseklikten bırakıldığında ve yay
+sabitine bağlıymış Örneğin arada
+kazandığı hıza falan bağlı mıymış Hayır
+değilmiş Burada hızla ilgili bir şey
+görmüyorum hocam hıza nasıl bağlı olmaz
+buradaki hıza göre yani sıkışacak çok
+hızlı gelirse yani daha çok sıkışır evet
+ama zaten yere inmesindeki hızı
+belirleyen şey buradaki yükseklik
+yükseklik ne kadar fazla olursa o kadar
+fazla hızla aşağı iner Dolayısıyla ben
+burada haşı yazdıysam tekrar hız Yazmama
+gerek kalmıyor Güzel soru işi hallettik
+enerji Hallettik ve güç kavramındayız
+aynı işte olduğu gibi güçte günlük
+hayattaki kullanımla aynı değil fiziksel
+bir karşılığı var güç dediğimiz şey
+fiziksel anlamdaki işin yapılma hızıdır
+yani yolda bir adam gördün 2 metreye 2
+metre kaslı kapı gibi bir adam çok güçlü
+bir adam ifadesi o günlük hayatta
+sınırlı bir şey fiziksel olarak bir
+karşılığı yok çok zayıf cılız gözüken
+bir adam o kapı gibi abimizden çok daha
+güçlü olabilir yaptıkları işe bakmamız
+gerekiyor ki buradaki iş de fiziksel
+anlamdaki iş ve o işi ne kadar sürede
+yaptıklarına yani hızlarına bakmamız
+gerekiyor kafadan bunu öğrenmeniz
+gerekiyor günlük hayattaki güç ile
+fiziksel anlamdaki güç aynı şey değil
+Peki gücün tanımı nedir fizikte zaten
+şimdi söyledik bunu formülize edelim güç
+bir kere p harfi ile gösteriliyor
+power'dan geliyor Birim zamanda yapılan
+iş miktarıdır yani işin yapılma hızından
+kastımız Bu bir şeyi zamana bölüyorsak
+Zaten onun oluşum hızını konuşuyoruz
+demektir İşte enerji değişimi olduğuna
+göre o zaman birim zamanındaki enerji
+değişikliği harcanan enerji olarak da
+düşünebiliriz gücü gücün birimi watt
+bildiğimiz anlamda buharlı motorun
+mucidi olan James watt'dan bahsediyoruz
+birim analizinde buradaki iş dediğimiz
+zamanın birimi saniye olduğuna göre o
+zaman What dediğimiz şey yani güç
+dediğimiz şey jul / saniye olarak da
+yazılabilir iş skaler büyüklük zaman
+skaler büyüklük Dolayısıyla Tabii ki
+güçte skaler Bir büyüklüktür bir işi
+daha kısa sürede yaparsan güçlüsün ya da
+bir maddenin Bir cismin enerjisini ne
+kadar kısa sürede değiştirebiliyorsan o
+kadar güçlüsün günlük hayatta motor gücü
+diye bir şey biliyoruz kırmızı ışıkta
+bir Ferrari ile bir Şahin yan yana
+durduğunda yarış yapmaya çalıştıklarında
+kimin motoru daha güçlü ise o daha iyi
+hızlanacaktır ve yarışı o kazanacaktır
+Şahin gaza bastı gidiyor Ferrari onu
+bekliyor aynı tavşan kaplumbağa
+hikayesinde olduğu gibi ama bu sefer
+kaplumbağa kazanmıyor yarışı Ferrari
+yola çıkıp çok önceden başlamış olan
+Şahin'i geçiyor çok daha yüksek hızlara
+ulaşıyor kısa zamanda yüksek kinetik
+enerjiye ulaşıyor Çünkü motoru daha
+güçlü diyebiliriz ikisini de başlangıçta
+kinetik enerjisi yoktu yarışa başladılar
+ikisi için de aynı süre geçti diyelim ki
+5 saniye geçti Ferrari bu 5 saniyede 100
+kilometre bölü saat hıza ulaştı Şahin
+daha 40 metre bölü saat hıza ulaştı
+Bunların kütlelerine aynı kabul edersek
+kinetik enerji 1/2 nv kare Dolayısıyla
+süreler eşit hız büyük olduğu için
+Ferrari çok daha büyük bir kinetik
+enerjiye ulaştı Şahin daha az kinet
+enerji ulaştı aynı sürede Kim daha çok
+enerji kazandıysa ona o enerjiyi
+kazandıran motor Yani iş yapan motor
+daha güçlüdür diyebiliriz sürtünmeden
+ihmal edildiği ortamda toplam yükü 400
+kilogram olan asansör bir metre bölü
+saniye sabit hızla 20 metre yükseğe
+çıkarıldığına göre asansörün motorunun
+gücü kaç watt olur denilmiş güç dediğim
+şey Birim zamanda yapılan iş ya da
+dediğim gibi harcanan enerji asansörü
+sabit hızla 20 metre yukarıya
+çıkartıyoruz şurası yer seviyesi olsun
+Burası bizim asansörümüz olsun bu
+arkadaş sabit hızla çıktı diyelim ki
+buraya geldi şu mesafe 20 metre bu
+arkadaş sabit hızla çıktığı için kinetik
+enerjisine bir değişiklik var mı Yok
+hangi tür enerjisi değişiyor tabii ki
+potansiyel enerjisi değişiyor
+Dolayısıyla ne kadar potansiyel enerjiyi
+ne kadar sürede kazandığına bakarak
+asansörü çalıştıran motorun gücü
+hakkında fikir sahibi olabiliriz
+başlangıçta potansiyel enerji yoktu bu
+kırmızı seviyeye göre 20 metre yukarıya
+çıktığında mg x 20 lik bir potansiyel
+enerji kazandı ne kadar sürede çıktı
+peki bu bakın soruda bir bilgi daha var
+diyor ki 1 metre bölü saniye hızla 20
+metre yol gidiyoruz diyor hızı sabit ama
+hız 1 metre bölü saniye o zaman bir
+hareket denklemi yapalım x eşittir vt
+yapalım 20 metre yol gittik Birlik hızla
+gittik Dolayısıyla süremiz 20 saniye
+olacaktır buraya 20 yazdım asansörün 400
+kilogram olduğu söylenmiş kütlesi 400
+yer çekimi ivmesini de 10 olarak
+yazarsam buradaki matematik sorunun
+cevabını verir bu sıfırla bu 0 gitti bu
+2 ile bu iki gitti Yani 20 ile 20
+götürdü Aslında Tabii ki 400 x 10'dan
+4.000 watt bu asansörü Taşıyan motorun
+gücüdür mesela 8.000 wattlık Bir asansör
+olsaydı yine sabit hızla çıkartacak yine
+20 metre yukarıya çıkartacak bu ne
+anlama gelirdi bu sonucun 8.000 çıkması
+için asansör aynı asansör çıkartılacak
+mesafe aynı mesafe 20 saniyenin 10
+saniyeye düşmesi gerekirdi Yani gücün
+tanımını yine görüyoruz güç Birim
+zamanda yapılan iştir birim zamandaki
+enerji değişiminizdir O ne kadar kısa
+sürede oluyorsa o kadar güçlüsünüzdür
+Emre ve Fuat Bir binanın çatı katına
+Özdeş kiremitleri sabit süratlerle
+taşımaktaymış Emre 10 kiremiti tek
+seferde 10 dakikada Fuat 2 kiremiti tek
+seferde 1 dakikada çıkartıyormuş Buna
+göre Emre ve Fuat'ın kiremitlere
+uyguladıkları kuvvet ve harcadıkları
+güçleri kıyaslayınız denmiş şimdi
+kiremitler Özdeş diyelim ki bir tanesi 1
+kilogram 10 tane kiremit taşıyormuş Emre
+10 kilogramlık yük taşıyor diyebiliriz
+iki tane kiremit taşıyormuş Fuat 2
+kilogramlık yük taşıyor diyebiliriz
+sabit süratlerle mi çıkartıyoruz Aynen
+öyle o zaman bir tane kiremit
+düşünüldüğünde üzerindeki Net kuvvetin
+ne olması lazım sabit sürat için 0
+olması lazım Sen iki kilogramlık toplam
+kütlede bir kiremit taşıyorsan bunu yer
+çekimi ivmesi ile çarptığında 20
+newtonluk bir yükü taşıyorsun Net
+kuvvetin sıfır olması için yukarıya
+doğru 20 newtona uygulamalısın yani Fuat
+20 newtonluk kuvvet uyguluyor bu
+kiremitlere Emre ise 100 new bir kuvvet
+uyguluyor bu kiremitlere diyebiliriz
+Kuvvetleri Böylece bulmuş olduk
+harcadıkları güçleri konuşalım şimdi
+kuvvetlere baktığımızda emrenin 100 n
+uyguladığını Fuat'ın 20 Newton
+uyguladığını görüyoruz Bu atın ki
+sempatik güçsüz az kuvvet uygulamış mı
+acaba bu günlük hayat yorumu İşte biz
+fiziksel yoruma odaklanacağız güç günlük
+hayattan farklı güç dediğim şey Birim
+zamanda yapılan iş ya da birim zamandaki
+enerji değişimi kiremitleri sabit hızla
+yukarıya çıkartıyoruz kinetik enerjim
+değişmiyorsa sabit hızdan dolayı ama
+potansiyel enerji kazanıyorum iki çocuk
+da çatıya çıkartıyorlar Dolayısıyla EMG
+yazacağım buradaki haşherk herkes için
+ortak g de herkes için ortak bakacağım
+şey kütle olacaktır böyle zaman şimdi
+Emre için yazıyorum kaç kilo taşıyor bu
+arkadaş 10 kilogram taşıyor G'yi Ha şey
+yazmıyorum onlar değişken değil ne kadar
+sürede yapıyor Bunu 10 dakikada yapıyor
+ölü zaman Fuat için yazıyorum Ne kadar
+yük taşıyor 2 kilogram ne kadar sürede
+taşıyor 1 dakikada taşıyor şimdi
+Şuradaki güce 10/10'dan p desem buradaki
+güce 2/1'den 2p demem gerekmez mi Evet O
+zaman o çok az kuvvet uyguluyor
+dediğimiz zayıf zannettiğimiz Fuat daha
+güçlüdür emreden iki kat daha güçlüdür
+diyebilir miyiz diyebiliriz işte gücün
+günlük hayattan farkı tam olarak Bu
+soruda ortaya çıktı Biz watt birimine
+elektrikle de çok kullanırız bir
+elektrikli ev aleti aldığınızda bir saç
+kurutma makinesi bir ütü bir elektrik
+süpürgesi bunların hepsinin üzerinde bir
+yerlerde etiketinde bilmem ne watt yazar
+yani onun gücü hakkında size bilgi verir
+ve genelde ısıtan cihazlar saç kurutma
+Fırın ütü gibi cihazlar yüksek güçlüdür
+işte 3000 watt yazar 4000 watt yazar
+üzerinde Bunlar bayağı güç değerleri
+Mesela bir ampul özellikle led ampul
+falansa 10 watt gibi daha sempatik
+değerlere sahiptir Bir ay boyunca
+elektrik enerjisi harcadığınız
+faturanıza çok kabarık geldi ne kadar
+geldiğini merak ediyorsunuz faturaya
+baktınız dediniz ki acaba biz ne kadar
+elektrik enerjisi harcadık hoca bize
+öğretmişti
+fakat göremiyorsunuz genelde şöyle ka'da
+whloat saat diye açılan bir birim
+görüyorsunuz diyor ki faturada bu ayki
+elektrik tüketim işte sallıyorum 100
+kilowatt saat tükettiğim şey enerji ama
+birimin içinde watt var güç birimiydi bu
+ne alaka veya işte burada bir elektrik
+sayacı görüyorsunuz yani ne kadar
+elektrik enerjisi tükettiğinizi
+gösteriyor ve üzerinde kw saat yazıyor
+kilowatt saat bir Güç birimi değildir
+içinde watt lafı geçiyor diye bu bir
+enerji birimidir Ne alaka Nereden
+geliyor E tabii ki formülden geliyor güç
+eşittir enerji bölü zamandan
+düşündüğümde enerjiyi çektiğimde güç
+çarpı zaman elde ediyorum buradaki güç
+watt birimine sahip zaman saniye
+birimine sahip enerji jul birimine sahip
+O zaman benim jül dediğim şey What çarpı
+saniyedir diyebilirim bunu biraz daha
+günlük hayata uyarlarsak genelde saniye
+değil saat kullanıyoruz elektrik
+birimlerini tarif ederken watt çarpı
+saat yazabiliriz çokça What tükettiysen
+sayılar büyümesin diye biz bunun başına
+ne ekliyoruz kilo What saat ekliyoruz
+kilowatt saat bir enerji birimidir ÖSYM
+bunu defalarca sordu kesinlikle bilmeniz
+gerekiyor Hatta sorduğu soruda şuna
+benziyordu bir evdeki bazı Elektrik
+Günlük çalışma süreleri ve güçleri
+verilmiştir Evde sadece bu aletler 30
+gün boyunca çalıştırıldığına ve
+elektriğin 1 kilovat saati 0.5 TL
+olduğuna göre bu eve ay sonunda kaç TL
+elektrik faturası gelir şimdi tüketilen
+enerji kilovat saatle ifade ediliyorsa
+yani güç çarpı zamanla bulunuyorsa gücü
+çok olan araçlar aynı zamanda çok
+elektrik enerjisi tüketiyor demektir ama
+sadece güç önemli değil o aletlerin ne
+kadar süre çalıştırıldığı da tabii ki
+enerjiyi belirliyor o yüzden
+ütü çok çalıştırılırsa çok fatura gelir
+fırın çok çalıştırılırsa çok fatura
+gelir Çünkü bunlar çok güçlü araçlar
+3000 watt 4000 watt demiştim ama bütün
+gün ampul yanıyor 10 wattlık ampulü
+bütün dünyansan olur fatura çok gelmiyor
+Klimayı 4 saat çalıştırıyoruz bir günde
+ve gücü 0.5 kw Bu ikisini çarptığımda p
+çarpı T yaptığında enerjiyi elde
+ediyorum o zaman burası 2 kilowatt
+saatlik enerji demek buzdolabı 24 saat
+çalışıyor Bir günde gücü 0.5 kiloat
+çarparsam 12 kilowatt saat bir günde
+ütüyü bir saat çalıştırmışız her gün
+gücü de 2 kilovat O zaman bu 2 kw saat
+yapar süpürge bir saat çalışmış gücü 3
+kw yani 3.000 watt Bu da 3 kilowatt saat
+enerji demek fırın her gün yarım saat
+çalışmış gücü 4.000 watt 4 kilowatt 2
+kilowatt saat yapar Bakın bu 1 gün 2/14
+16 19 21 kilowatt saat Bu evin günlük
+elektrik tüketimi bir aylık faturadan
+bahsediyorum Biz bunu 30 gün boyunca
+tekrarlıyoruz 30 çarpı 21 kilowatt saat
+Bu evin bir aylık elektrik enerjisi
+tüketimi Bu da 630 kilowatt saat yapıyor
+sanırım devlet diyor ki ben 1 kilowatt
+saati 0.5 TL istiyorum o zaman 630'a 315
+TL Yani bunun yarısı kadar bir fatura
+gönderecektir diyebiliriz vergiler hariç
+neden bazı arabalar daha hızlanır zaten
+dersin başında konuştuk videosunu da
+izledik Çünkü bazı arabaların beygir
+gücü yani fiziksel gücü What değeri
+yüksektir bir ruhsatı açın şurada motor
+gücü Yazar işte 80 kilowatt yazmış
+beygir yazmaz ruhsat beygir günlük
+hayattaki kullanımdır fakat bilimsel bir
+tabiri var bir beygirin bir karşılığı
+var 746 watt Dolayısıyla sizin 100
+beygirlik sıradan bir Arabanız varsa
+yollarda görebileceğiniz arabalar bunu
+746 ile çarparsanız
+74.600 wattlık bir motor gücüne sahip
+olduğunu anlarız bunu da 1000'e
+bölerseniz yani kiloya çevirirseniz
+74,600 kilowatt güç olduğunu
+söyleyebiliriz Yukarıdaki soruda gördük
+bir elektrik süpürgesi 3 kw falan bu
+arabaysa 74 kw arada bayağı fark var
+motorunuz ne kadar güçlüyse o kadar çok
+kinetik enerji değişimi yaşayabilirsiniz
+O yüzden bu arabaların motorların
+güçlerini ifade etmek için ne
+kullanılıyor deniyor ki 0'dan 100'e 6
+saniyede çıkıyormuş sıfırdan 100'e
+çıkmak demek belli bir kinetik enerjisi
+kazanmak demek güç eşittir enerji bölü
+zaman olduğuna göre 0 yüzde Şurayı
+sabitlemiş oluyorsun Bu zaman ne kadar
+kısa ise motor o kadar güçlü anlamına
+geliyor
+[Müzik]

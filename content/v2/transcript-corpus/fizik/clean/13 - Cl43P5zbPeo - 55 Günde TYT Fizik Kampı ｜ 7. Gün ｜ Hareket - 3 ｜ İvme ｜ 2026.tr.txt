@@ -1,0 +1,848 @@
+gençler Merhaba bugünkü dersimizin
+konusu ivme olacak Biz şimdiye kadar
+derslerimizde alınan yolun ne olduğunu
+öğrendik yer değiştirmenin ne olduğunu
+öğrendik alınan yoldan sürat diye bir
+büyüklük türettik yer değiştirmeden de
+hız diye bir büyüklük türettik konumumuz
+değişirse ortaya yer değiştirme kavramı
+çıkıyordu ve bu konum Değişimi de yani
+yer değiştirmede Hız kavramını
+doğuruyordu şimdi bugünkü dersimizde
+hızı değiştireceğiz hız değiştiğinde
+ortaya yeni bir kavram çıkacak Ve bu
+kavramımızın ismi de ivme olacak ivme
+demek Birim zamanda meydana gelen hız
+değişimi demektir a harfi ile
+gösteriyoruz aksarayation'dan Geliyor
+araba yarışı oyunu oynayanlar bilir
+arabalarda akseleration diye bir özellik
+vardır O özelliği büyük olan arabalar
+daha büyük ivmeye sahip arabalar
+demektir hız değişimleri daha büyük
+demektir kırmızı ışıktasınız eski bir
+araba var bir de son model bir araba var
+bir yarış arabası var Şahin var
+Lamborghini var gibi düşünün yeşil
+yandığında ikisi de aynı anda gaza
+bastığında kim daha çok öne fırlıyor
+hızını en fazla arttırabilen kısa sürede
+daha çok öne fır yani hız değişimi büyük
+olan yani ivmesi aksederasyonu büyük
+olan araç öne fırlıyor Dolayısıyla bu
+söylediklerimi formülize edersek ivme
+dediğimiz şey a harfiyle gösterdiğimiz
+ivme birim zamandaki hız değişimidir hız
+vektörel bir büyüklük üzerinde ok
+işareti var Neden Çünkü hız değişimi
+vektörel bir büyüklük hızın kendisi
+vektör bunun Değişimi de bir vektör
+vektörü bir sayıya skaler olan zamana
+bölerseniz elde ettiğiniz şey yine bir
+vektör olacaktır ivme vektörel Bir
+büyüklüktür yani yönü vardır birimi
+metre bölü saniye karedir O nereden
+geliyor kendimiz türetebiliriz hızın
+birimi metre bölü saniye Dolayısıyla
+değişim de metre bölü saniye cinsinden
+ifade edilir bölü zaman o da saniye
+buradaki saniye yukarıya ters çevrilip
+çarpılarak çıkar Dolayısıyla metre bölü
+saniye çarpı şu sahneyi ters çevirirsem
+1 bölü saniye olur Bu da bana metre bölü
+saniye kareyi verir yani ivmenin
+birimini verir Biz Delta ve yani
+değişimi nasıl açarız Tabii ki sondan
+ilki çıkartarak buluruz yani son hızdan
+İlk hızlı çıkartacağım ama bu beşten üçü
+çıkartmak gibi bir sayısal problem değil
+Burada bir vektör çıkartmasından
+bahsediyoruz buraya Dikkat bu iki
+vektörü çıkarttığımda geçen zamana
+böldüğümde bulduğum şey o aracın hız
+değişimi yani ivmesidir Peki ivmeli
+hareket nasıl olabilir hız değişimi kaç
+farklı şekilde olabilir msü de bununla
+ilgili bir soru çıktı bu yıl ve bununla
+ilgili çok güzel bir görsel var bir
+arabaya baktığınızda sol taraftaki
+fotoğraf normal insanların gördüğü sağ
+taraftaki fotoğrafta fizikçilerin
+gördüğü ne anlatıyor bu işte direksiyon
+yönle ilgili bir alettir gaz arabayı
+hızlandırır fren araba yavaşlatır bütün
+fizikçiler direksiyonu da ivmelendirici
+olarak görür gazı da ivmelendirici
+olarak görür freni değinmelendirici
+olarak görür sebep Çünkü ivme hız
+değişimi buradaki gaz arabayı
+hızlandırır hızını değiştirir
+dolayısıyla bir ivme kaynağıdır ivme
+sadece hızlanmakla ilgili değil frene
+bastığınızda araba yavaşlar hızınız
+azalır Yani yine değişir dolayısıyla
+frende bir ivme kaynağıdır hızlanmak ve
+yavaşlamak ivmeli hareket demektir Peki
+direksiyon Ne alaka çoğu öğrenci ivme
+deyince sadece hızlanmayı ve yavaşlamayı
+direksiyonda bir ivme kaynağıdır Çünkü
+bizim formülümüz birim zamandaki hız
+değişimi demek vektörel bir çıkartma
+işlemi demek viraja girdiniz şöyle bir
+hız vektörü ile gidiyordunuz viraja
+girdiniz arabanın ucunu döndürdünüz
+direksiyon sayesinde hız vektörünüz de
+dolayısıyla arabayla beraber dönmüş oldu
+araba hangi yöne gidiyorsa hız vektör
+orayı gösteriyordur biraz daha döndünüz
+hız vektörünüz böyle oldu biraz daha
+döndünüz hız vektörünüz böyle oldu yani
+U dönüşü yapıyormuşsunuz gibi oldu şimdi
+ben burada bir sürü hız vektörü çizdim
+şu vektörle şu vektör aynı mı bu aynı mı
+bunların hiçbiri aynı vektör değil Olur
+mu hocam Bunların hepsi aynı ve Yani biz
+viraja 10 metre bölü saniyelik hızla
+girdiysek Bu da 10 metre bölü saniye Bu
+da 10 metre bölü saniye hepsi 10 metre
+bölü saniye Evet hızımızın büyüklüğü
+değişmiyor olabilir ama bu hızımızın
+değişmediği anlamına gelmez Çünkü hız
+vektörel bir büyüklük işin içerisinde
+yön de var yön değişirse hız değişmiş
+demektir hız değişimi varsa yani Delta
+ve varsa o zaman ivme vardır Dolayısıyla
+ivme iki değil 3 şekilde olur Hızlanma
+yavaşlama yön değiştirme zaten vücudumuz
+günlük hayatta ivmeye tepki verir
+kırmızı ışıkta duruyorsunuz araba bir
+anda gaza bastı yeşil yandığında bir
+anda hızlanmaya başladı vücudunuz böyle
+geriye doğru savrulur Çünkü hızlanmaya
+tepki veriyoruz veya hızlı bir şekilde
+gidiyorsun önüne bir şey çıktı aniden
+frene bastın yavaşladın hızını
+değiştirdin ivmeli hareket yaptın Ne
+oluyorsun arabayla beraber öne
+gidiyorsun Eğer bir yeri tutmuyorsan ön
+cama yapışıyorsun aynı şekilde Biz bir
+Viraj döndüğümüzde de sağa veya sola
+kaykılıyoruz Çünkü Viraj dönmekte ivmeli
+harekettir hız büyüklüğümüz hep aynı
+kalsa bile Zaten vücudun Bu ivmeli
+hareketlere tepki vermesi lunaparkların
+ana mantığıdır gondollar roller
+coasterlar sürekli hızlanırlar
+yavaşlarlar yön değiştirirler ivmeli
+hareket yaparlar vücudunuz bunlara tepki
+verir Siz de eğlenirsiniz Örneğin Vur
+roller coaster önce yavaşlıyor
+yavaşlıyor yavaşlıyor yukarı çıktıkça Bu
+bir ivmeli hareket yavaşlama hareketi
+olduğu için hızım değişiyor sonra aniden
+hızlanmaya başlıyor hız değişimi oluyor
+bu da bir ivmeli hareket daha sonra yön
+değiştiriyor hız vektörünüz değişiyor
+Dolayısıyla Bu da bir ivmeli hareket
+Bunların hepsi roller coaster'ın tamamı
+neredeyse ivmeli hareketle dolu
+diyebiliriz Hareketli bir şeyin
+içerisinde biz nasıl Yaşam sürebiliyoruz
+Örneğin Cruz gemilerinde işte havuza
+giriyorlar koşuyorlar eğleniyorlar
+rahatlıkla ayakta durabiliyorlar
+herhangi bir Sarsıntı yaşamıyorlar ve
+futbol bile oynayabiliyorlar Bu gemi
+hareket etmiyor mu ediyor ama nasıl
+hareket ediyor sabit hızla hareket
+ediyor sabit hızla hareket ettiği için
+lunaparktakinin tam tersine vücudumuz
+herhangi bir farklı etki hissetmiyor
+sanki duruyormuş gibi şimdi beyzbol
+maçındaki topun durumunu inceleyelim
+ivmeli hareket yapıyor mu yapmıyor mu şu
+an sporcunun elinde sporcunun elinde
+hızı olmayan bir toptan bahsediyoruz
+sporcu bunu fırlattığı anda hız kazandı
+Dolayısıyla ivmeli hareket yaptı Çünkü
+hızı değişti karşıdaki sporcuda o topu
+tuttu yani Hızlı olan bir şeyi durdurdu
+hızını değiştirdi ve sıfırladı bu da
+ivmeli hareket bir başka atışta ise
+vurdu ve bu sefer sopayla da vurabildik
+ona sopa deniyor mu bilmiyorum şu an çok
+büyük bir cehalet sergiliyor olabilirim
+ama bu da ivmeli hareket Çünkü top
+geliyordu sen ona vurduğun zaman yönünü
+değiştirdim başka bir yere gönderdin hız
+vektörünün yönü değişti o zaman o da
+ivmeli hareket ivme ile ilgili son
+görüntümüzde bir yarış var yarış
+başladığı anda bir araba öne fırlıyor
+buradaki araba Birinci Şu Arkadaş ikinci
+şu da üçüncü Bunlar arasındaki fark
+nedir motor gücüdür ivme farkıdır üçü
+içinde aynı süre geçti ama öne fırlayan
+arkadaş çok daha iyi hızlanabiliyor
+ivmesi çok daha büyük sonuncu olan
+arkadaş o kadar iyi hızlanamamış
+Dolayısıyla geride kalıyor ivmesi daha
+küçük diyebiliriz Aşağıda verilen
+hareket örneklerinde ivmeli hareket
+yapanları işaretleyiniz denilmiş kırmızı
+ışıkta bekleyen Aracın yeşil ışık
+yanınca harekete geçmesi zaten az önce
+videosunu izledik hızım yok ve bir anda
+hız kazandım hızım değişti o zaman
+burada bir ivmeli hareket var Sabit
+hızla ilerleyen vapurda oturan insan
+sabit hız demek hızım değişmiyor demek
+Delta ve 0 demek Dolayısıyla ivme sıfır
+demek içerisindeki insan da içinde
+bulunduğu vapurun hızına sahip olduğu
+için Bu arkadaş ivmeli bir hareket
+yapmıyordur bisikletiyle giderken önüne
+çıkan yayaya çarpmamak için basan çocuk
+frene bastım yavaşladım hızım değişti
+Delta w var Delta V varsa ivme var
+diyebiliriz Viraj dönen araba hızının
+büyüklüğü artsa da azaltsa da sabit de
+kalsa fark etmez yönü değiştiği için
+kesinlikle ivmeli hareket yapar
+diyebiliriz şimdi biraz daha işin
+içerisine girmeye çalışalım grafiklere
+bakmaya başlayalım burada bir araç var
+başlangıçta sıfırıncı saniyede herhangi
+bir hıza sahip değil yeşil yandı ve bir
+anda gaza bastı hız kazanıyor 10 metre
+bölü saniye hız kazandı birinci saniyede
+sonra bir bir saniye daha geçti ikinci
+saniyede hızı 20 oldu Sonra bir saniye
+daha geçti 3 saniyede hızı 30 oldu yani
+Buradaki her Aralık bir saniyeye tekabül
+ediyor süre olarak diyebiliriz şu ana
+kadar öğrendiğimiz harekette Biz hep
+sabit hızlıydık düzgün doğrusal hareket
+yapıyorduk yani hızım ondu ve hep onunla
+devam ediyordu ama şimdi hızımın
+arttığını gördüm Dolayısıyla hızım
+değiştiği için burada bir Delta ve söz
+konusu olduğu için kesinlikle bu bir
+ivmeli harekettir artık düzgün doğrusal
+hareket değil Çünkü düzgün doğrusaldaki
+düzgün kelimesi sabit hızla karşılık
+geliyordu burada hızım Sabit değil o
+zaman bu iv harekettir düzgün doğrusal
+hareket değildir diyebiliriz Burada şunu
+görüyoruz Bu adam sabit hızla gittiğinde
+hep aynı mesafelere gidiyordu Çünkü hız
+eşittir yer değiştirme bölü zaman ben
+burada yer değiştirmeyi çektiğim zaman
+hız çarpı zamanı buluyorum ve zaman hep
+bir saniye olsun Hep bir saniye
+aralıkları için konuşalım hızım sabit
+ise hep 10 saat Dolayısıyla hep 10 metre
+10 metre yer değiştiriyordum Fakat
+burada hızım sabit olmadığı için hızım
+gitgide artacağı için zaman aralığı hep
+bir saniye kalsa bile yer
+değiştirmelerinde gitgide artacak
+Örneğin başlangıçta x kadar yer
+değiştirdiyse bu araba sonraki saniyede
+3x kadar yer değiştiriyor daha çok yer
+değiştiriyor sonraki saniyede 5x yer
+değiştiriyor daha da çok yer
+değiştiriyor zaman aynı zaman ama hızım
+gitgide arttığı için gitgide daha çok
+mesafeler katediyor Aslında bunun
+mantığı da basit Normalde ivmeli hareket
+denklemleri yazmamız gerekir Ama o ayete
+konusudur tyt olarak da çok basit şunun
+üzerinden anlatabilirim ben size burada
+niye x3x5x Hocam niye x2x3x değil bu
+oran neye göre şuna göre şimdi bu gitmiş
+onunla gitmiş düzgün hızlanıyor
+ışınlanmadı hızım sıfırdı bir anda 10
+olmadı 1 oldu 2 oldu 3 oldu 4 oldu böyle
+artıyor hızın O zaman şöyle diyebilirim
+bu ikisinin ortalaması yazılı gibi
+düşünün aritmetik ortalama alın 5 metre
+bölü saniye sanki sabit hızla ve 5 ile
+gidiyormuş gibi düşünebiliriz e Hocam
+siz daha önceki bir soruda ortalama hızı
+bulurken aritmetik ortalama yapamazsınız
+demiştiniz onunla bu farklı Oradaki
+soruda süreler farklıydı 2 saat bir
+hızla gidiyordu 3 saat başka bir hızla
+gidiyordu burada biz hep aynı zaman
+aralıklarına bakıyoruz hızımızın düzgün
+arttığını biliyoruz Dolayısıyla burada
+aritmetik ortalama yapılabilir 10 var 20
+var sürekli hızlanıyor ama ben Sanki
+burada sabit hızla ve 15 metre bölü
+saniye hızla gidiyormuş gibi
+düşünebilirim 20 var 30 var burada da
+sanki 25 metre bölü saniye ile
+gidiyormuş gibi düşünebilirim aritmetik
+ortalamalarını aldım Şimdi ben şurada
+bir x eşittir vt yapsam x kadar yer
+değiştireceğim 5 ile gidiyorum gibi
+düşüneceğim Bir saniye benim yolculuk
+sürem o zaman 5 metre yer değiştiririm
+aynısını burada yaptığımda 15 ile
+gidiyorum yine bir saniye gidiyorum
+burada 15 metre yer değiştirir aynısını
+burada yaptığımda 25 hızla gidiyorum
+yine 1 saniye gidiyorum Dolayısıyla
+Burada da 25 metre giderim diyebilirim
+yani önce 5 metre gittim sonra 15 metre
+gittim sonra 5 metre gittim yani
+x3x5x hızlandıkça yer değiştirmelerimde
+artar Ben bunun Hız zaman grafiğini
+çizersem zamanlarımızı 0 1 2 3 diye
+yerleştirelim sıfırıncı saniyede hızım
+yok duruyorum 1 saniyede hızım 10'a
+çıkmıştı Dolayısıyla şöyle bir nokta
+işaretledim ikinci saniyede hızım 20'ye
+çıkmıştı şöyle bir nokta üçüncü saniyede
+de hızım 30'a çıkmıştı o da böyle bir
+nokta bu noktaları birleştirirsem Eğer
+elde ettiğim çizgi Hız zaman grafiğidir
+şu ana kadar Bizim Hız zaman
+grafiklerimiz hep böyle sabit çıkıyordu
+ya bu tarafta çıkardı ya eksi tarafta
+çıkardı ama sabit çıkardı Çünkü sabit
+hızla hareket öğrenmiştik ama şimdi ne
+görüyoruz hızlanma görüyoruz hızımın
+gitgide arttığını ve Birazdan da
+yavaşladığını göreceğiz Peki biz bu Hız
+zaman grafiğine bakarak yine grafik
+yorumlayacağız ivmeyi anlayabilir miyiz
+önce gereksiz anlayalım bu hareketlinin
+Acaba ivmesi nedir bunu bulmaya
+çalışalım Bu arkadaşın ivmeli hareketi
+yaptığını anladık ivme demek birim
+zamandaki hız değişimi demek Delta ve
+bölü Delta T demek aslında vektörel bir
+çıkartma işlemi yapmanız lazım hızları
+çıkartırken Ama biz burada tek boyutlu
+hareket yaptığımız için doğrusal hareket
+yaptığımız için illa vektör çizmemize
+gerek yok vektörlerin yönlerini anlamak
+için sağ tarafa artıyor derim sol tarafa
+eksi yönlerim sağ bakan hız vektörleri
+artı hız demektir sola bakan hız
+vektörleri eksi hız demektir Delta ve
+sondan İlkin çıkartılmasıyla bulunur
+yani son hız vektörü eksi ilk hız
+vektörü yapmam gerekir böyle geçen zaman
+Örneğin başlangıcı yapalım benim ilk
+kızım sıfırdı son hızım 10 metre bölü
+saniye o zaman son hızı artı 10
+yazıyorum yönü de işin içine katarak
+Çünkü hız vektör sağ tarafı gösteriyor
+araba sağa gidiyor yönü artı eksi ilk
+hız vektörü 0 oda bölü ne kadar süre
+geçti bir saniye geçti Dolayısıyla Bu
+aracın ivmesi 10 metre bölü saniye
+karedir bu da bir vektör buradaki
+işlemin sonucu arttı çıktığı için bu da
+artı 10 metre bölü saniye karedir Bu şu
+anlama geliyor şu an bu aracın ivme
+vektörü artı olduğuna göre sağ tarafı
+gösteriyordur ve değeri de büyüklüğü de
+10 metre bölü saniye karedir başka bir
+yere bakalım Mesela bu noktayla şu nokta
+arasında yapalım İlla birer saniye almak
+zorunda değilim son hızım kaç son hızım
+artı 30 eksi ilk kızım kaç artı 10 bölü
+bu iki nokta arasında ne kadar süre
+geçti bir saniye burada var Bir saniye
+burada var 2 saniye geçti Dolayısıyla
+artı 20 bölü 2'den artı 10 m/s² çıktı
+diyebilirim yani bizim bu yolculukta Bu
+arada da ivme vektörümüz yine artı çıktı
+sağ tarafa doğru ve değeri yine 10 metre
+bölü saniye kare Çünkü bu hareket sabit
+ivmeli bir hareket sabit ivme demek
+sabit hız değişimi demek Evet hızımız
+değişiyor ama hep sabit değişiyor bir
+saniyede hep 10 10 artıyor 0'dan 10'a
+çıkıyor ondan 20'ye çıkıyor 20'den 30'a
+çıkıyor hız değişimi sabit ivme sabit
+Dolayısıyla evime zaman grafiğini
+çizerken ister birinci saniyeye bakayım
+ister ikinci saniyeye bakayım ister 3
+saniye bakayım hangi zamana bakarsan
+bakayım ivmem Hep 10 çıkacak Dolayısıyla
+bütün zamanları onda birleştirmek
+zorundayız bu da böyle dümdüz bir grafik
+anlamına geliyor sabit ivmeli hareket
+grafiği Bir önceki dersimizde konum
+zaman grafiğinden Hız zaman grafiğini
+çizmiştik sonra demiştik ki acaba hız
+zamandan da tekrar konum zamanı
+anlayabilir miyiz Aynı şey Burada da
+yapacağız biz Hız zaman grafiğine
+bakarak ivme zaman grafiğini çizdik
+şimdi ivme zaman grafiğine bakarak acaba
+hız hakkında yorum yapabilir miyim
+Sadece bu grafiğe bakarak hızı
+yorumlayabilir miyim yorumlayabilirim
+peki formülden yapmasaydık biz bir
+önceki dersimizde konum zaman
+grafiğinden Hız zaman grafiğini
+çizmiştik formülle de hesaplamıştık
+sonra geometrik olarak da hesaplamıştık
+demiştik ki konum zaman grafiğinin eğimi
+bize hızı verir Onun mantığı neydi hız
+dediğimiz şey birim zamandaki yer
+değiştirmeydi Delta x bölü Delta T idi
+burada bir bölme işlemi vardı
+Dolayısıyla XT grafiğinde bölme işlemi
+eğim demekti o grafiğin eğimi bize hızı
+veriyordu şimdi aynı şeyi Burada da
+yapıyorum bu bir hız zaman grafiği Ben
+buradan ivme anlayacağım hızla ivme
+arasındaki ifade nasıl yazılıyor ivme
+eşittir hız değişimi bölü zaman o zaman
+Hız zaman grafiğinde yani bu arkadaşta
+bölme işlemi ivmeyi veriyor yani eğim
+ivmeyi veriyor Hız zaman grafiğinde eğim
+ivme verir ispatlayalım şu mavi çizgi
+bizim Hız zaman grafiğimiz Şuraya bir
+açı koysam bunu böyle bir üçgene
+tamamlasam eğimi nasıl hesaplamamız
+gerektiğini önceki derste öğrenmiş
+olmalısınız karşı bölü komşu yapıyoruz
+yani şu açının karşı kenarını temas
+ettiği komşu kenara bölersek o çizginin
+o mavi çizginin eğimini anlarsınız şimdi
+karşıda ne var Şu düşeydeki Eksen var ya
+bu düşeydeki Eksen Burası yani hızdaki
+değişimi tanımlayan bir bölge yani
+Burası Delta ve komşu ekseni yatay Eksen
+zaman ekseni Dolayısıyla bu bölgede
+zamandaki değişimi temsil eden bir yer o
+zaman karşı bölü komşu Delta v/ Delta T
+demektir yani eğim Delta ve bölü Delta T
+demektir Bu da fizikte ivme demek Hız
+zaman grafiğinin eğimi ivmeyi verir Az
+önce Biz ivmeyi formülden on bulmuştuk
+buradan bulabilir miyiz bu büyük üçgeni
+de hesaplayabilirsiniz fark etmez
+Şuradaki Delta V değeri bu mavi çizgi
+olduğuna göre 0,30 arasındaki değişim 30
+kadar yatayda da 0-3 arası olduğu için
+Delta T3 diyebiliriz 30/3'ten 10 metre
+bölü saniye kare çıkar sabit ivmeli
+hareket demiştim bu yani ivme hiç
+değişmiyor hep 10 mesela ikinci saniyeli
+3 saniye arasında bir üçgen oluştursam
+şurada buraya Alfa açısı dediysem Burası
+da Alfa açısı değil mi yöndeş açı Bunlar
+bunun karşısı şurası bir ucunda 20 var
+bir ucunda 30 var o zaman burası 10
+kadardır komşusunda bu bölge bir ucunda
+iki var bir ucunda 3 var burası birdir
+karşı bölü Komşu 10/1'den yine 10 m/s²
+çıkar ivme hep 10 Peki yön için ne
+yapabiliriz yine daha önce söylemiştik
+grafiğini sağa yatıksa pozitif evime
+sola yatıksa negatif evime bizim
+buradaki grafiğimiz sağa yatık
+Dolayısıyla bulduğumuz bütün ivme
+değerleri artıdır yani ivme vektörüm sağ
+tarafı gösteriyordur E ben zaten burada
+hareketi anlatırken ivme vektörlerin hep
+sağ tarafa çizdim şimdi tersten
+yapacağız ivme zaman grafiğinden hızı
+anlayabilir miyiz işin mantığını kaptıy
+benim Bunu anlatmama gerek yok ivme ile
+hız arasındaki ilişkiyi yazdım elimde ne
+var benim ivme zaman var ne anlamak
+istiyorum hız hakkında bilgi sahibi
+olmak istiyorum O zaman sen burada hızı
+yalnız bırak içler dışlar yap a çarpı
+Delta T yani ivme ile zamanı çarparsan
+hız değişimi hakkında bilgi sahibi
+oluruz Bakın bu grafikte şu çizgi ivme
+ekseninde yani Burası ivmeyi anlatan bir
+yer Şu çizgi komple zaman ekseninde yani
+Burası da zamanı anlatan bir yer ben bu
+iki kenarı çarptığımda buradaki
+dikdörtgenin alanını buluyorum
+geometrede aynı zamanda bu iki kenarı
+çarpmak demek ivme ile zamanı çarpmak
+demek ve fizikte ivmeyle zamanı çarpmak
+hız değişimi olduğu için diyebilirim ki
+bu grafiğin alanı hız değişimini verir
+bakın hızı verir değil hız değişimini
+verir Örneğin birinci saniye ile 3
+saniye arasında ben inceliyorum buradaki
+alanı bulsam Acaba ne bulur şu düşeydeki
+kenar 10 kadar yataydaki kenarın bir
+ucunda bir var öbür ucunda 3 var o zaman
+burası 2 kadar Dolayısıyla buranın alanı
+taradığım yer artı metre bölü saniye hız
+değişimi +20 hızım 20 değil yani üçüncü
+saniyede hızım 20 anlamına gelmiyor 1
+saniye ile 3 saniye arasında hızım 20
+arttı demek oluyor bu e bakalım bizim 1
+saniyede hızımız artı 10'du 3 saniyede
+hızımız kaç artı 30 Biz Neyi bulmuşuz
+değişimi bulmuşuz artı 20 dediğimiz şey
+buradaki değişimdir Biz hızı bulmadık 30
+falan bulmadık sadece bunu bulduk
+Dolayısıyla kesinlikle bilmeniz gereken
+ikinci şey ivme zaman grafiğinde alan
+hız değişimini verir gençler kesinlikle
+bilmeniz gerekiyor şimdi önceki video
+ile hepsini birleştirelim kafanızda
+böyle bir görsel kalsın bakın hareket
+konusunda 3 tane kavram var konum hız ve
+irmi Aslında bunların hepsini zamana
+bağlı grafiklerini çizdik konum zaman
+grafiği hız zaman grafiği ivme zaman
+grafiği konumu yazdım hızı yazdım ivme
+yazdım bunların hepsinin zamana bağlı
+grafiklerini düşündüğümüzde konum zaman
+grafiğinin eğimine bakarsan önceki
+videoyu hatırla hızı buluruz şimdi
+öğrendik Hız zaman grafiğinin eğimine
+bakarsan ivmeyi buluruz ter gidersek
+ivme zaman grafiğinin alanına bakarsan
+hız değişimini bulursun burada V yazıyor
+diye hızı buluruz demiyoruz az önce
+konuştuk Hız zaman grafiğinin alanına
+bakarsam yer değiştirmeyi bulurum yine
+burada x yazıyor diye konumu bulurum
+anlamayın yer değiştirmeyi buluruz
+Dolayısıyla şu görseli biliyorsan bayağı
+bir şeyi halletmişsin demektir oturup
+ezberlemeyin o kadar ders anlattım
+hepsinin mantığını öğrenin Biz deminden
+beri artı yönde hızlanan Bir aracın
+ivmesini konuştuk artıyor önde bu araç
+hızlanıyordu ve ivme vektörümüzde sağ
+tarafa doğru yani artı yönde çıkmıştı
+yani hız vektörünün yönüyle ivme
+vektörünün yönü aynı çıkmıştı ve bunu
+formülden çıkartmıştım A eşittir Delta
+v/ Delta t'den yaptım son hızlanan ilk
+hızı çıkarttığınızda sonuç pozitif
+çıkıyordu bu durum farklı olabilir yani
+hız vektörü ile ivme vektörü her zaman
+aynı yönlü olmayabilir Örneğin yavaşlama
+durumunu konuşalım artıyor yavaşlıyoruz
+aracımız 72 kilometre/sa yani 20
+metre/saniyelik hızla sağ tarafa doğru
+gidiyor Ama dikkat ederseniz yavaşlamış
+yavaşlamış ve Durmuş Dolayısıyla bu araç
+sağ tarafa doğru yavaşlıyor acaba bunun
+da ivme vektörü sağ tarafa doğru mudur
+artı yönde midir eksi yönde midir
+grafiğine bakalım önce oradan anlamaya
+çalışalım aracın ilk hızı 20 değil mi
+sağ tarafa gidiyor artı 20 sonra
+yavaşlıyor işte artı 15 oluyor +13
+Oluyor +5 oluyor ve 0 oluyor arkadaşın
+hız zaman grafiği budur Bu grafik artı
+yönde yavaşlamayı anlatır Az önce
+öğrendik Hız zaman grafiğinde eğim Neyi
+veriyordu bana eğim ivmeyi veriyordu
+buradaki grafik sola yatık değil mi
+Aynen öyle açı sola yazılmamış mı Aynen
+öyle O zaman burada eğim negatiftir eğim
+negatife olduğu için iyi mi negatiftir
+yani sağ tarafa doğru giden Bu aracın
+yavaşlaması ivme vektörünün sol tarafa
+doğru olmasını gerektiriyor formülden
+anlayalım A eşittir son hız - ilk hız
+bölü zaman son hızım kaç sıfır buraya
+sıfır yazdım ilk kızım kaç artı 20
+Buraya +20 yazdım arada eksi işareti
+olduğunu unutma Şimdi o zaman Yukarısı
+kaç çıktı sıfır eksi artı 20'den -20
+çıktı bölü zaman işte Bir saniye iki ne
+yazarsanız gördüğünüz gibi ivmenin
+işareti eksi çıkıyor böyle de
+anlayabilirsiniz ama ben size çok daha
+temel bir şey öğreteceğim Hiç böyle
+formül grafik falan uğraşmanıza da gerek
+kalmayacak bizim bir sonraki konumuz
+kuvvette öğreneceğimiz ama hepinizin
+ortaokuldan duyduğunuzu bildiğim F = ma
+diye bir Newton yasası var biliyorsunuz
+yani cismin üzerine bir kuvvet
+uyguladığınızda O bir ivme oluşturur
+burada bir eşitlik var yani kuvvet
+vektörü cisme etki eden kuvvet vektörü
+nereyi gösteriyorsa o cismin ivmesi de o
+yöndedir Örneğin Başlangıca geri dönelim
+bizim arabamız duruyordu bir anda
+hızlanmaya başladı sağ tarafa doğru
+duran araba bir anda bir yöne doğru
+hızlanıyorsa O yöne doğru çekilmesi
+lazım O yöne doğru bir kuvvete maruz
+kalması lazım yani bu arkadaşın üzerinde
+sağ tarafa doğru bir kuvvet vardı
+Aslında o yüzden hızlandı motor bu
+kuvveti sağladı kuvvet sağ tarafa doğru
+mu o zaman ivme de sağ tarafa doğru
+zaten öyle olduğunu konuştuk bu araç sağ
+tarafa doğru giderken yavaşlıyor Siz bir
+yöne doğru koşuyorsunuz sizi arkadan
+birisi çekse ters yönde çekse ne olur
+yavaşlarsınız Hatta durabilirsiniz
+Dolayısıyla bu arkadaş sağ tarafa doğru
+giderken yavaşlaması için kesinlikle sol
+tarafa doğru bir kuvvete maruz kalması
+lazım kuvvet hangi yönü gösteriyorsa
+ivme vektörü de oyunu gösterir
+Dolayısıyla burada ivme vektörün sol
+tarafı gösterir Az önce öyle olduğunu
+söyledik zaten ne grafiğe bakmaya gerek
+var ne formülü kuvvete bak ivmeyi anla
+kuvvet sebeptir ivme sonuçtur K ve L
+arabalarının Hız zaman grafikleri
+şekildeki gibidir Buna göre arabaların
+ivmelerini bulunuz denmiş Hız zaman
+grafiğinden ivme anlamamız isteniyor A
+eşittir Delta ve bölü Delta tızı hızı
+zamana böleceğiz bunu grafikte
+yaptığımda eğimi buluyordum Dolayısıyla
+bu grafiğin eğiminin ivmeyi verdiğini
+bileceğim önce L arabasını yapalım sağ
+tarafa doğru yatık şöyle kırmızı bir
+grafik Şuradaki açı teta açısıymış Ben
+bunu bir üçgene tamamlasam şöyle açının
+karşı kenarı şu düşeydeki kenar Yani
+aslında Burası sıfırdan 30'a 30 metre
+bölü Saniyelik bir hız değişimi var bir
+Delta V var burada yatay Eksen zaman 0
+ile 10 Dolayısıyla Burası 10 saniye
+Burası da Delta T yani karşı bölü komşu
+yaptığımda eğim hesapladığımda
+30/10'dan artı 3 metre bölü saniye
+karelik bir ivme demektir L aracının
+ivmesi budur K arabasına bakarsam Bu
+sola yatık bir grafik bir kere
+kesinlikle ivmesi negatif çıkacak Çünkü
+eğimli Şuraya bir açık koyarım açı sola
+bakıyor şöyle bir üçgen oluştururum bu
+mavi çizginin eğimini bulacağım karşıda
+ne var 30 var komşuda ne var 10 var yine
+30'u 10'a bölüyorum ama cevabı bu sefer
+-3 buluyor çünkü sola yatık eğim negatif
+Burası da Kaan'ın ivmesidir soru
+sormuyor ama biz her şeyi anlamaya
+çalışıyoruz yorumlamaya çalışıyoruz Bu
+arabalar nereye gidiyor olabilirler
+mesela Zıt yönde mi gidiyorlar acaba
+hızlanıyorlar mı yavaşlıyorlar mı
+Örneğin L arabasının hız değerlerine
+baktığınızda ne görüyorsunuz önce 0
+sonra artı 10 artı 20 artı 30 diye
+hızlanmış Yani şöyle bir yol düşünelim L
+arabası burada başlangıçta hızı sıfır
+yani duruyor Sonra hızı artı 10 hızın
+artı olması artı yönde gidiyorum demek
+Çünkü hız vektörü nereyi gösteriyorsa
+araba oraya gidiyordur sonra hızı artı
+20 olmuş L sağ tarafa doğru giderken
+hızlanmış sonra artı 30 olmuş bu arkadaş
+sağ tarafa doğru hızlanıyor hocam K
+arabası terse dönmüş O zaman bu zıt
+yönde gidiyor Hayır K arabasının hız
+değerleri de artı 30 artı 20 artı 10
+değil mi yani artı değil mi Evet artı
+hız artı yönde gitmek demek Evet
+Dolayısıyla K arabası da artı yönde
+gidiyor ilk hızı 30 sonra hızı 20'ye
+düşmüş Sonra ona düşmüş Sonra da durmuş
+Bu iki araç artı yönde gidiyor biri
+hızlanıyor öbürü yavaşlıyor hızlananın
+ivmesi +3 yavaşlayanın inmesi -3 1
+trenin belirli zamanlardaki hız
+büyüklükleri tabloda verilmiş hareketli
+-x yönünde ilerlediğine göre
+hareketliliğe ait Hız zaman grafiğini ve
+ivme zaman grafiğini çizin demiş şimdi
+bakın gençler Bu arkadaşın Hız zaman
+grafiğini çizeceğim ama biz Yolu bir
+görselleştirelim dümdüz bir yol var
+artıyor Olsun eksi yön olsun bizim
+aracımızda burada olsun araç - x yönünde
+gidiyormuş yani sol tarafa gidiyor yani
+hız vektörleri solu gösteriyor yani hız
+vektörleri negatif O yüzden grafiği
+çizerken negatif tarafta çizmem lazım
+sıfırıncı saniyede kronometreyi tam
+başlattığım anda hızım 20'ymiş ama -x
+yönünde gittiğim için bunu -20 olarak
+işaretlemeliyim Dolayısıyla başlangıçta
+sıfıra -20 var şöyle bir nokta 5
+saniyede hızım -30 olacak Dolayısıyla
+şurada -30 işaretledim 5 ile -30'u
+eşleştirdim 10 saniyede -40 onla - 40 15
+ile de -50 bunları birleştirdiğimde bu
+arkadaşın hız zaman grafiği böyle çıkar
+hemen ivmesini yorumlayalım hız zaman
+grafiği eğimi ivmeyi verir grafik nereye
+yatık sola yatık sola yatıksa kesinlikle
+bu arkadaşın ivmesi negatif çıkmak
+zorunda eksiği yönde hızlanıyorsam iyi
+Bilmem eksidir bu Araç eksi yönde
+hızlanıyor hızı 20 olmuş 30 olmuş 40
+olmuş 50 olmuş sola doğru hızlanıyor bu
+adam ivmenin eksi olduğunu şöyle de
+anlayabilirsiniz sola doğru
+hızlanıyorsan beni hızlandıran bir etki
+olması lazım bir dış etki olması lazım
+sola doğru hızlanmak için sola doğru
+kuvvete maruz kalmalıyız o kuvvet bizi
+hızlandıracak ve yine efeştiremadan
+düşünürsem kuvvet vektörü nereye
+gösteriyorsa ivme vektörü de orayı
+gösterir kuvvet solu gösteriyorsa o
+zaman ivme vektörü de solu göstermeli
+yani ivme vektörü eksi çıkmalı ister
+grafikten anlayın ister eşleştire maldan
+anlayın Bu yüzden ben ivme zaman
+grafiğimi çizerken eksi tarafta
+çizmeliyim Peki değerine ne yazacağım
+yine eğimden hesaplayabilirim şöyle bir
+üçgen oluşturayım bir yerlerde
+istediğiniz yerde yapın Mesela ben
+Şurayı seçtim şurada oluşturacağım açıyı
+buraya koydum sola yatık buranın
+uzunluğu nedir bir ucunda 20 var öbür
+ucunda kırk var miktar olarak burası 20
+yatayın uzunluğu nedir Burası bir ucu
+sıfırda öbür ucu onda Dolayısıyla Burası
+miktar olarak 10 20/10'dan buradaki
+ivmemiz 2 ama -2 metre bölü saniye kare
+diyebiliriz ben bu grafikte ister
+buradan bakayım açı Alfa buradan baksam
+yine Alfa buradan baksam yine Alfa eğim
+değişiyor mu değişmiyor o zaman ivme de
+değişmiyor yani grafiğim -2 de sabit
+ivmeli bir hareket grafiğidir son olarak
+simülasyonlarda bu üzerinde biraz daha
+çalışalım biraz daha anlamaya çalışalım
+pekiştirelim ortadaki Hız zaman
+grafiğimiz en sağdaki de ivme zaman
+grafiğimiz burada tuhaf bir Hızlanma
+yavaşlama durumu var ivme zaman böyle
+oluşur diyor mesela biz burada sabit
+hızla hareket yapsak ne olur şu an artı
+yönde hep V hızıyla giden bir arkadaşın
+grafiğini işaretledim ivme zaman grafiği
+yok sıfırda çünkü sabit hızla gidiyor
+sabit hızla gidiyorsam ivmem yoktur hız
+değişimim yoktur sıfırdır Hız zaman
+grafiğinin eğimi ivmeyi verir e burada
+eğim yok ki dümdüz bir çizgi evime sıfır
+Bakın şu noktayı birazcık yukarı
+kaydırsam ne olur Bunu bir yorumlayalım
+Burada hemen bir ivme grafiği oluştu
+Çünkü burada bir eğim oluşturdum birinci
+bölmede sağa yatık Yani pozitifte bir
+hız değişimi var işte pozitif tarafta
+bir ivme oluştu ikinci bölmede de bir
+hız değişimi var yavaşlama artı yönde
+yavaşlıyorum hızım değişti bak hemen
+ivme oluştu niye eksi tarafta oluştu
+Çünkü bu çizgi sola yatık diğer
+taraflarda hız değişimi yok ivme hala
+sıfırda mesela diğer taraflarda da
+yapalım şöyle bir hız değişimi yapalım
+gördünüz mü 3 bölmede birinciye göre çok
+daha şiddetli bir hız değişimi yaptım
+sağa yatık bir grafik O yüzden buradaki
+A'dan Daha yukarıda bir yerde daha
+şiddetli bir ivme oluştu pozitif ivme
+burada sol ayak atık daha şiddetli bir
+yavaşlama var sola yatık olduğu için
+negatif ivme O yüzden eksi tarafta ivme
+oluştu diyebiliriz Peki yine şöyle iken
+Bunu ben böyle yapsam ne olur burası çok
+önemli burayı iyi dinleyin birinci
+bölmede şöyle sola yatık bir çizgi var
+Eksi ivme O yüzden ekside burada bir
+ivme işaretledik ikinci bölmede sağa
+yatık bir ivme var pozitif evime O
+yüzden burada pozitif tarafta bir ivme
+işaretledik sonrasında ivme Yok evime
+sıfır Burada şunu fark etmenizi
+istiyorum Bakın şu bölgede araç nasıl
+hareket ediyor hız değerleri artı ve
+yavaşlıyor Yani biz burada artı yönde
+yavaşlıyoruz artı yönde yavaşlıyorsam
+eksi yönde bir kuvvete maruz kalıyorum
+buraya gittiğim yönün tersine kuvvete
+maruz kalayım ki yavaşlayayım o yüzden
+ivme eksi işte eksi de işaretlendi Peki
+bu bölmede ne oluyor Bir kere hız
+değerlerim eksikse dikkat ederseniz Yani
+ben eksiye yönde gidiyorum ve
+hızlanıyorum şurası -5 ise sallıyorum
+şurası -10 eksiği yönde hızlanıyoruz Biz
+burada ve yine Çünkü eksi yönde
+hızlanmak için eksi yönde kuvvete maruz
+kalmalısınız hızlanmak için gittiğiniz
+yönle aynı yönde kuvvete maruz
+kalmalısınız ki hızlanasınız ve
+Birincisinde de eksi yönde kuvvete maruz
+kalıyordum ikincisinde de eksi yönde
+kuvvete maruz kalıyorum o yüzden ivmemin
+işareti hep aynı Halbuki araçlar farklı
+yönlerde gidiyor farklı davranıyorlar
+artı yönde giden araç yavaşladı
+yavaşladı yavaşladı durdu ters döndü
+hızlandı hızlandı hızlandı ve devam etti
+ivmem Hep eksi tarafta sabit birime bu
+söyleyeceğim Çok önemli Bunu not alın
+aracın gittiği yönle ivmenin yönü
+arasında direkt bir bağlantı yok Artı
+yönde gitse de eksi olabilir eksi yönde
+gitse de eksi olabilir veya tam tersi
+kuvvete bakacaksınız bu çok önemliydi
+test kısmımızda Bununla ilgili sorular
+var orada daha iyi anlarsınız son olarak
+bir simülasyon daha görelim -10 metre
+konumunda bir arkadaş var Bu arkadaşın
+şu an hızı sıfır duruyor Ben buna ivmeli
+hareket yaptıracağım artı beşlik ivme
+ile hareket etsin dediğimde artı yönde
+bir kuvvete maruz kalacak hızı saniye
+Başına 5 5 artacak evime hız değişimi
+demek çünkü Dolayısıyla sağ tarafa doğru
+hızlandığını görmem lazım başlattığım
+zaman bu arkadaş sağ tarafa doğru
+gittikçe hızlandığını söyleyebilirim
+gördüğünüz gibi hızı düzgün olarak
+artıyor eğimine baksanız 5 çıkar ve ivme
+zaman grafiğine baktığınızda da sıfırın
+az üzerinde karşılığı 5 olan dümdüz bir
+çizgi görüyorsunuz Çünkü sabit ivmeli
+hareket hız değişimi hep 5 Peki ben şu
+anki konumumdan onu eksi yönde
+hızlandırmak istersen eksi yönde
+hızlanması için eksi yönde kuvvete maruz
+kalmalı Bu da eksi ivme demek o yüzden
+-5 yaptım bu sefer bu arkadaş ters yönde
+eksi 5'lik ivme ile hızlanacak hızlı bu
+sefer sol tarafa doğru 5-5 artıyor
+diyebiliriz gördüğünüz gibi terse
+döndüğü için hız değerleri negatife
+geçti sola gidiyor çünkü sol tarafa
+doğru hızlanıyor ivme de sıfırını
+azaltında beşe karşılık gelen sabit bir
+grafik olacaktır bu dersimiz bu kadardı
+bir sonraki dersimizde bütün hareketle
+ilgili soru çözeceğiz ve konuyu
+pekiştireceğiz sorularınız olduysa alta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

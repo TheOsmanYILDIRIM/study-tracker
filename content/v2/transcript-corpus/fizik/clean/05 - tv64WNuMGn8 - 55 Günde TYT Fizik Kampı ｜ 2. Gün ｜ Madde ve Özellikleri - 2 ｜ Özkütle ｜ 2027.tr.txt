@@ -1,0 +1,711 @@
+[Müzik]
+Gençler merhaba. Önceki dersimizde kütle
+kavramını hallettik. Hacim kavramını
+hallettik. Bugünkü dersimizde
+öğreneceğimiz şey öz kütle kavramı
+olacak. Kütleyi ve hacmi kullanarak yeni
+bir kavram türeteceğiz. Ona da öz kütle
+diyeceğiz. Aslında size bir soru
+soracağım ve o sorunun cevabı zaten beni
+yeni bir kavrama götürecek. Yani öz
+kütleye götürecek. Soru şu: Şekil ve
+büyüklük olarak aynı olan alüminyum
+çaydanlık ve çelik çaydanlık. Bu ikisini
+bir hayal edin. Dışarıdan baktığınızda
+birebir aynı duruyorlar. Boyları aynı,
+enleri aynı. Yani şekil olarak aynılar,
+boyut olarak aynılar. Bunları iki
+elinize aldığınızda bir farklılık
+hissedersiniz. Bu arkadaşların nesi
+farklıdır? Bu arkadaşların ağırlıkları
+farklıdır. Hepiniz dersiniz ki, "Hocam,
+çelik olan çaydanlığı ben daha ağır
+hissettim." dersiniz. Neden birini
+farklı hissediyoruz? İşte bu sorunun
+cevabı gençler bizim için öz kütledir.
+Öz kütlenin tanımı size cevabı verecek.
+Maddenin birim hacmindeki kütlesine biz
+öz kütle diyoruz. Bu cümleyi formül
+haline getirelim. Yani matematiksel
+modelini düşünelim. Birim hacimdeki
+kütle miktarına biz öz kütle diyoruz.
+Fizikte bu taktiği çok kullanırız. Birim
+büyüklükteki bir şey dendiği zaman o
+birim büyüklük bölü olarak yazılır.
+Birim hacimdeki kütle bu şekilde
+yazılır. Birim zamandaki yer değiştirme
+dediğimizde de fizikte biz hız kavramını
+elde etmiş oluyoruz. Bu ifadeyi konu
+anlatımlarımda çokça kullanacağım.
+Şimdiden aklınızda bulunsun. Peki
+sorumuza geri dönelim. Neden çelik
+çaydanlığı aynı tipteki, aynı
+boyutlardaki alüminyum çaydanlıktan daha
+ağır hissediyor? Boyutları aynıysa
+ikisinin de hacminin aynı olduğunu
+söyleyebilirsiniz. Buna bakmama gerek
+yok. O zaman öz kütlesi büyük olanın
+kütlesi büyüktür de ondan gençler.
+Alüminyum çaydanlık 100 cm³ hacme sahip
+olsun. Çelik çaydanlık da 100 cm³ hacme
+sahip olsun. Alüminyum çaydanlık 500 gr
+ise çelik çaydanlık 1000 gramdır.
+Tamamen salladığım sayılar. Dolayısıyla
+ben alüminyum çaydanlığın öz kütlesine 5
+gr/ cm³ dedim. Çelik çaydanlığın öz
+kütlesine 10 gr/ cm³ dedim. Çelik
+çaydanlığın öz kütlesi fazla. Yani birim
+hacminde daha fazla kütle var. Aynı
+hacmi düşünün. Çelik çaydanlıkta daha
+fazla kütle sığmış o hacme. Daha yoğun
+bir madde. Öz kütlesi daha fazla bir
+madde. Şöyle bir örnekle aklınızda
+kalsın. Boğaz köprüsünü düşünün. Pazar
+sabahı üzerinden nadir araba geçer.
+Üzerinde çok az sayıda araba vardır.
+Trafik akıcı dersiniz. Trafik yoğun
+değil dersiniz. Ama cuma akşamı Boğaz
+Köprüsü trafiğinde iğne atsan yere
+düşmez. Her yer araba kaynar. Trafik
+yoğun dersiniz. İki örnekte de köprü
+aynı köprü. Yollar aynı yollar. Yolların
+boyutları aynı. İkisinde de hacimler
+aynı. Hangisinde daha fazla araba varsa
+orada trafik daha yoğundur, öz kütlesi
+daha fazladır gibi bir çağrışım
+yapabilirsiniz. Öz kütleyi D sembolüyle
+gösteriyoruz. Yine İngilizcedeki baş
+harfinden geliyor. Density'den geliyor.
+Kütlenin birimini biz m olarak
+biliyoruz. Hacmin birimini zaten vuz.
+Hemen bir birim analizi yaparsam
+kütlenin birimi kilogram, hacmin birimi
+Sı birim sisteminde metre³. Dolayısıyla
+öz kütlenin birimi kilogram/ met³'tür
+gençler. Fakat bu birimi kullandığımız
+zaman maddelerin öz kütleleri çok büyük
+çıkıyor. Binlerde on binlerde sayılar
+çıkıyor. Biraz daha insani boyutlara
+indirmek için sayıları biz genelde gram/
+cm³ birimini kullanırız. Birimleri
+değiştiririz. Sayılar da değişir. Bu
+dönüşüm nasıl yapılır? Bunu bir
+öğrenelim. Bakın buraya bir not
+yazmışım. 1 gr/ cm³ 1000 kg/ m³'tür
+demişim. Genelde ortaokulda falan
+görmüşsünüzdür. Suyun öz kütlesi 1 gr/
+cm³ kabul edilir. Yani 1 cm³ hacminde
+bir su alırsanız onu tartın. Kütlesini
+ölçmeye çalışın 1 gram çıkar. Fakat
+cmre³pü metre³ olarak düşünürseniz 1 m³
+hayal edin. 1 m boy, 1 metre derinlik, 1
+metre uzunluk böyle bir şey hayal edin.
+Oraya su doldurduğunuzda o doldurduğunuz
+su 1000 kg oluyor. Gramı da kilograma
+çevirmiş olacaksınız. O da 1000 kilogram
+yapıyor. Suyun öz kütlesi 1 mi 1000 mi?
+Şu birimden ifade ederseniz 1dir. Bu
+birimden ifade ederseniz 1000'dir. Neden
+böyle olduğunu ispatlayalım. Birim
+dönüşümlerini önceki derste öğrenmiştik.
+Ben şunu merak ediyorum. 1 gr/ cm³ demek
+eşittir nokta nokta nokta kog/ m³
+demektir. Şimdi ben gramı kilograma
+çevireceğim. Önceki dersten hatırlayın.
+Kilogram ne demekti? 1000 gr demekti.
+Kilogram büyük bir sayı. Bu küçük bir
+sayı. O zaman kilogramın yanına şu
+eşitliğin sağlanabilmesi için küçük bir
+sayı yazmalıyız. Bu 1 sayısını 1000 ile
+çarpmalı mıyız? 1000'e bölmeli miyiz? E
+küçük bir sayı yazmam gerekiyorsa 1000'e
+bölmeliyim. Onu da nasıl ifade ederim?
+Matematikte çarpı 10 üzeri -3 olarak
+ifade ederim. 10 üzeri -3 ile çarpmak
+demek bir sayıyı 1000'e bölmek demek. Bu
+arada bu sayı hangi sayı? Tabii ki
+burada 1 olduğu için 1 sayısı. Peki
+smetre³pü metre³ü çevirelim. Buradaki
+dönüşümü nasıl yapıyorduk? Metre³,
+desimetre³, cm³. Yine bunlarda da
+binerlik oran vardı. Simetre³ mü büyük?
+Metre³ mü büyük? Metre³ daha büyük. O
+zaman buraya küçük bir sayı yazmalıyım
+ki bu eşitlik sağlansın. Yani bölme
+işlemi yapmalıyım. Sm³ile metre³
+arasında 1 milyon oran var. Niye? E
+çünkü cmre³, desm³, met³. 1000 burada
+var. Desim³üpe çıkarken 1000 de m³üe
+çıkarken var. 1 milyon oluyor o yüzden.
+Yani sizin bölme işleminiz çarp 10 üzeri
+-6 gibi olacak. 1 milyona bölmek demek
+bu demektir. Buradaki matematiği
+yaparsanız şurada bölü işareti olduğu
+için burada da bölü işareti var. 10
+üzeri -3 var. 10 üzeri -6 var. 10 üzeri
+-6 yukarıya 10 üzeri 6 olarak geçer.
+Yani 1 x 10 üzeri -3 x 10 üzeri 6 oldu.
+Şurası da 10 üzeri 3 yapar. Dolayısıyla
+1 x 10 üzeri 3'tür benim sonucum. 1 x 10
+üzeri 3 kaç yapıyor gençler? Komple
+burası 1000 yapıyor. Zaten bunu daha
+önce söylemiştim. Bu sayımız 2 olsaydı
+yani ben 2 gr/ cm³'ü kilogram/ m³'e
+çevirseydim o zaman sonuç 2000
+çıkacaktı. Yine 1000 ile çarpılmış hali.
+Çünkü zaten şurası 1000 çarpı bu sayı.
+Dolayısıyla yine daha önceden
+bilebilirsiniz civanın öz kütlesi d civa
+e= 13,6 gr/ cm³ olarak bilinir. Ben bunu
+kogram/ m³ olarak yazacaksam 1000 ile
+çarpmalıyım. 13.600
+kg/ m³ yazmalıyım. Aklınızda bulunsun.
+Kütlesi 60 gr olan bir taş şekil 1'deki
+gibi dereceli silindire konulduğunda
+sıvı seviyesi şekil 2'deki gibi
+oluyormuş. Ne olmuş bir bakalım.
+Dereceli kabımızda 20 cm³ seviyesinde su
+var. Bu ne demektir? Buradaki suyun
+hacmi 20 cm³ demektir. Bunun içerisine
+şu arkadaşı attığımız zaman sıvı
+yükselmiş. Evet. Çünkü sıvıyı
+sıkıştıramıyorum. Sıkıştıramadığım için
+içeriye yeni bir hacim girdiğinde
+herkesin yerini değiştirmesi gerekiyor.
+Suyun başka yere gitmesi gerekiyor. E bu
+20 seviyesindeydi. Nereye gitmiş? 40
+seviyesine gitmiş. Yani burada 20 cm³
+hacim artışı var. İşte bu arkadaşın
+hacmi de 20 cm³'tür diyebilirim. İçeriye
+yattığım taş 20 cm³. Soru ne? Soru bu
+cismin öz kütlesi nedir? Şimdi öğrendik.
+Öz kütle dediğim şey kütlenin hacme
+bölünmesiyle bulunuyor. Cismimizin hacmi
+20 cm³. Cismimizin kütlesi 60 gr
+verilmiş soru tarafından. Dolayısıyla
+cevap 3 gr/ cm³ olacaktır. Şimdi bu
+konuştuğumuz şeyleri bir grafiğe
+dökelim. Ne grafiğinden bahsediyorum
+ben? Kütle hacim grafiğinden
+bahsediyorum gençler. Örneğin sudan
+bahsediyoruz. Suyun öz kütlesini ben 1
+gr/ cm³ kabul edebilirim. Acaba suyun
+miktarı artsa öz kütlesi de değişir mi?
+Yani bu ne anlama geliyor? D = N/V'den
+düşünürseniz 1 cm³ su hacmi aldığınızda
+öz kütle 1 çıkması gerektiği için
+kütlenin de 1 gram olması gerekiyor ki
+1/1'den 1 çıksın. Acaba ben suyun
+kütlesini 2 gram yapsam yani üzerine
+biraz su eklesem öz kütleyi de arttırmış
+mı olurum? E bardağa koyduğunuz su
+miktarı arttığında, yukarıdan su
+döktüğünüzde içindeki kütle miktarı
+artacak. Doğru. Ama su da yükselecek.
+Dolayısıyla hacmi de artacak. Yani siz 2
+gram su elde ettiğinizde onun hacmi de 2
+cm³e çıkmış olacak. Özkütle yine 1
+kalacak. Biraz daha su döktünüz.
+İçerideki su miktarı 5 gram oldu. Bilin
+ki suyunuz daha da yükseldi. Hacmi de 5
+cm³e çıktı. Yani bu birlik oran hiç
+bozulmuyor bu şartlar altında. Bunu
+grafiğe dökersem kütlenin belli bir
+değeri var. Onun karşılık geldiği bir
+hacim değeri var. Kütleyi biraz
+arttırdınız. Hacim de arttı. Kütleyi
+biraz daha arttırdınız. Daha yukarıda
+bir değer aldınız. E hacim de daha sağda
+bir yerde değer aldı. Bu noktaları
+birleştirirseniz sizin grafiğiniz hep bu
+şekilde çıkacaktır gençler. Böylece bu
+grafik bana şunu söylüyor. Belli
+koşullar altında öz kütle dediğimiz
+kavram madde miktarına bağlı değil.
+Maddeyi ne kadar arttırırsanız arttırın,
+kütlesini ne kadar arttırırsanız
+arttırın hacmi de büyüyor. Ya da tersten
+düşünün, hacmi ne kadar arttırırsanız
+arttırın kütlesi de büyüyeceği için öz
+kütle sabit kalacaktır. Ama tekrar
+söylüyorum altını çiziyorum. Belirli
+koşullar altında bazı koşullar değişirse
+bunlar da değişebilir. Birazdan
+konuşacağız. Şimdi bu grafik bizim için
+önemli. Kazanımlarda yer alıyor. Kütle
+hacim grafiğini biraz daha yorumlayalım.
+Bu grafiğin eğimi bize öz kütleyi verir.
+Neden? Bakın şurada bir P noktasını
+inceleyelim. P noktasının burada
+karşılık geldiği bir kütle değeri var. O
+kütlenin değeri şu uzunlukla orantılı. E
+o uzunluğun aynısı burada da var. Eş
+uzunluk bunlar. Bu noktanın karşılık
+geldiği bir de hacim değeri var. O hacim
+değeri de hacim ekseninde bu noktadır. O
+zaman bu hacmin değeri de şu uzunlukla
+orantılıdır. Bakın gençler ben burada
+bir üçgen oluşturdum. Bu üçgende şuraya
+alfa açısını kondurursanız karşı bölü
+komşu tanjant alfayı verir. Tanjant alfa
+bir grafiğin eğimidir. Karşıda ne var? M
+uzunluğuyla ilgili bir bilgi var. Şu
+kırmızı çizgi, bu kırmızı çizgi. E
+burası da kütle. Dolayısıyla karşı kenar
+kütledir. Tanjant alfa olması için bunun
+da komşusunu almam lazım. Komşusu şu
+okun gösterdiği şu siyah çizgidir.
+Burası da şurayı düzeltelim. Burası
+hacim olacak. Hacim ekseni yataydaki
+eksen hacim hakkında bana bilgi veriyor.
+Dolayısıyla tanjant alfa yani eğim
+m/v'dir. M/v fizikte öz kütle olarak
+geçtiğine göre kütle hacim grafiğinin
+eğimi öz kütleyi verir. Gençler bu
+grafiğin eğimi arttıkça o maddenin öz
+kütlesi fazla demektir. Grafiğin eğimi
+azalmışsa daha küçük bir eğimle
+karşılaştıysanız o maddenin öz kütlesi
+daha az demektir. Yani siz şöyle bir
+çizgi gördünüz. Bu A maddesine ait bir
+grafik. Kırmızı B maddesine ait bir
+grafik. Şu da C maddesine ait bir grafik
+dersek bunlara numara verelim. Bu 1
+numara, bu 2 numara, bu 3 numara olsun.
+Üç farklı maddenin kütle hacim grafiği
+çizilmiş. Hangisinin öz kütlesi en
+fazladır? Eğimi en fazla olanı. Kim daha
+dik? 1 numara. En dik. O zaman 1
+maddesinin öz kütlesi büyüktür. Sonra
+kim daha dik? 2 numara. Sonra en az dik
+olan hangisi? 3 numara. Böylece bu
+grafiğin eğiminin tanjantının öz kütleyi
+verdiğini söylemiş oluyoruz. Sabit
+sıcaklık ve basınç altında K ve L
+maddelerine ait kütle cisim grafiği
+şekildeki gibidir. K maddesinin öz
+kütlesi ile L maddesinin öz kütlesini
+oranlayınız demiş. Şimdi yaptığım şeyin
+uygulaması. Bir kere kesinlikle şunu
+söyleyebilirim. Hangisi daha dik
+duruyor? Tabii ki K daha dik. O zaman K
+maddesinin öz kütlesi L maddesinin öz
+kütlesinden fazladır. Değerini
+hesaplayalım. Şöyle bir nokta seçtiniz.
+Burayı üçgene tamamlayın. Burası dik
+kenar. Burası da yatay kenar. Bu da
+bizim üçgenimizin hipotenüsü. Açıyı
+buraya yerleştirdim. Şurası kaç gençler?
+Buraya eşit bir değer yani 60. Yatay
+kaç? 30'a karşılık geldiğine göre burası
+komple 30. tanjant alfa karşı bölü
+komşu. Karşıda 60 var. Komşuda 30 var.
+Dolayısıyla sonuç 2 gr/ cm³'tür. Bu
+K'nın öz kütlesidir. L için de bir nokta
+seçelim. İstediğim yeri seçebilirim. Şu
+noktayı seçtim. Eğim hesaplayacağım.
+Burayı bir üçgene tamamlayalım. Şöyle
+bir kenar var. Bu kenarın uzunluğu yine
+aynı. Burası 60. Yataydaki kenar şudur.
+E o da 60'a eşit. E hipotenüs dediğimiz
+şey de grafiğin kendisi zaten şurası.
+Açıyı buraya kondurdum. Karşıda 60 var.
+Komşuda da 60 var. Dolayısıyla 60/
+60'tan 1 gr/ cm³'tür. Bu kim? Bu da L
+maddesidir. İkisini oranla diyor. Biri 2
+çıktı, öbürü 1 çıktı. 2/1'den sonuç
+2'dir. Eğime bakmak, tanjanta bakmak, bu
+soruyu matematikten çözmek gibi. Bunun
+fiziksel kısmını düşünelim. Gözümüzde
+canlandıralım, somutlaştıralım. Öz kütle
+ne demek gençler? Öz kütle d = m/v
+demek. Kimin öz kütlesinin büyük
+olduğunu anlamak istiyorsanız ikisinden
+de eşit hacimde alırsınız. Hacimleri
+götürürsünüz. Kimin o hacimdeki kütlesi
+fazlaysa öz kütlesi de fazla demektir.
+Bakın bu grafikte şöyle bir çizgi
+çekiyorum. Hayali bir çizgi. Bu hayali
+çizgi üzerinde L grafiğinde şu mavi
+nokta denk geldi. K grafiğinde de bu
+kırmızı nokta denk geldi. Şimdi bu
+hayali çizgi ne demek biliyor musunuz? K
+maddesinden de L maddesinden de ben 30
+cm³ alıyorum demek. İkisinden de 30 cm³
+aldım. Bunları sıvı gibi düşünün. İki
+tane aynı bardak. İkisini de tamamen
+doldurdum. İkisi de 30 cm³ hacim
+kapladı. K ne kadarlık kütleye karşılık
+geliyor? 60 grama. Peki L ne kadarla
+kütleye karşılık geliyor? 30 gr. Yani
+iki tane aynı bardak var. İkisi de
+ağzına kadar dolu. Hacimler eşit. Biri
+60 gram diğeri 30 gr. 60 gr olan daha
+ağır hissedersin. Çünkü aynı hacimde
+daha fazla kütle içeriyor. Köprü aynı
+köprü. Üstüne daha çok araba var. Daha
+yoğun. Öz kütle büyük. Olay bu kadar
+basit aslında. Milli Eğitim sizden üç
+tane grafik hakkında yorum yapabilmenizi
+istiyor. Birincisini öğrendik. Birinci
+grafiğimiz neydi? Kütle hacim
+grafiğiydi. Bu grafikte bir maddenin
+kütlesi arttıkça hacminin de arttığını
+gördük. Bu eğimi büyük olup öz kütlesi
+büyük bir madde de olabilir. Eğimi küçük
+olup öz kütlesi küçük bir madde de
+olabilir. Biz şöyle ortalama bir grafik
+çizmiş olalım. Bu grafik bana ne
+söylüyor? Öz kütle madde miktarına bağlı
+değil. Çünkü öz kütle d = m/v. Hacmin
+arttıkça, hacim ekseninde ilerledikçe
+kütle ekseninde de ilerlemiş oluyorsun.
+Noktaların yukarı kaymış oluyor.
+Matematikten düşünürseniz kütle arttı,
+hacim arttı. O zaman öz kütle ne oldu?
+Sabit kaldı. Öz kütle madde miktarına
+bağlı değil. Bu cümlelerin grafiklerini
+de o zaman konuşalım. Öz kütle kütle
+grafiği çizsem yani bir maddenin 1
+kilogramını aldınız, 2 kilogramını
+aldınız, 3 kilogramını aldınız kütlesini
+arttırıyorsunuz. 1 kilogram
+aldığınızdaki öz kütle değeri ile 2 kg
+aldığınızdaki öz kütle değeri aynı şeye
+karşılık geliyor. 3 kilogram alsanız da
+aynı şeye karşılık geliyor. Çünkü kütle
+artıyor. E hacim de artıyor ama öz kütle
+sabit kalıyor. Aynı şeyi öz kütle hacim
+grafiği için de söyleyebilirim. Siz
+hacmi istediğiniz kadar arttırın. 1 cm³,
+2 cm³, 3 cm³, 100 cm³ hepsinde hangi
+hacim değerini alırsanız alın aynı öz
+kütle değerine karşılık geleceksiniz.
+Buradan baksanız da aynı öz kütle,
+buradan baksanız da aynı öz kütle. Çünkü
+hacim arttıkça kütle de artar. Bir kaşık
+suyun öz kütlesi ile bir havuz dolusu
+suyun öz kütlesi aynı. Birinin hacmi
+küçük, öbürünün çok büyük. Hacmi küçük
+olanın kütlesi de küçük, hacmi büyük
+olanın kütlesi de büyük. Öz kütle hep
+aynı. Bu da beni çok önemli bir başka
+yere götürdü. Öz kütle ayırt edici bir
+özelliktir. O ne demek? Her maddenin
+kendine has özle değeri vardır. Suyun öz
+kütlesi 1 gr/ cm³, demirin öz kütlesi
+7,8 gr/ cm³, bakırın öz kütlesi 8,90 gr/
+cm³. Burada bir sürü farklı madde var.
+Bir sürü farklı öz kütle değeri var. Öz
+kütle ayırt edici. Az önce söylediğim
+gibi bunları kilogram/ metre³ cinsinden
+düşünürsek burası metre³üp olacak. Bir
+grafik hatası var. Bunları 1000 ile
+çarpmış olmanız gerekir. 19,3'ü 1000 ile
+çarparsanız 19.300 olur. 13,6'yı 1000'le
+çarparsanız 13.600 olur. Nasıl
+dönüştürüldüğünü, niye 1000'le
+çarptığımızı az önce ispatlamıştık.
+Hocam neden burada parantez içerisinde
+15 Celsius, sıcaklık, 1 atmosfer, basınç
+diye özel bir uyarı var. Yani bu
+değerler sadece bu koşullara mı özgü?
+Aynen öyle. Özkütle hiç değişmez. Ayırt
+edici bir özelliktir dedim. Doğru dedim
+ama eksik söyledim. Öz kütle sabit
+sıcaklık ve sabit basınç altındayken hiç
+değişmeyen değerlere sahiptir. Örneğin
+az önce tabloda gördük. Demirin öz
+kütlesi 7,8 gr/ cm³ demek. Bu ne anlama
+geliyor? Ayırt edici özellik olduğuna
+göre dünyadaki madde miktarına
+bakılmaksızın bütün demirler, saf
+demirler 7,8 öz kütleye sahip. Bir
+demirden yapılmış çivi parçası da 7,8.
+Kocaman demirden yapılmış bir yatak da
+7,8. Efel kulesini demirden yaptığınızı
+düşünün. O da 7,8. Ama siz demirin öz
+kütlesinin 7,7 olduğunu da
+görebilirsiniz. 7,6 olduğunu da
+görebilirsiniz. Halbuki atomları yine
+demir atomlarıdır. Molekülleri aynı
+moleküllerdir. Bu nasıl mümkün olabilir?
+Sıcaklık değişirse mümkün olabilir. O
+yüzden sabit sıcaklık ve basınç altında
+madde miktarına bağlı değildir. Özkütle
+hep aynı değer çıkar diyoruz. O yüzden o
+tabloda 15 Celsius derecede değerler
+bunlardır denmiş. Niye böyle oluyor?
+Bakın öz kütle formülümüz d = m/v. Daha
+öğrenmediğiniz ileride öğreneceğiniz bir
+konu var. Genleşme bir maddenin
+sıcaklığını arttırırsanız genleşir. O ne
+demek? Hacmi büyür. E kütlesinde yani
+madde miktarında herhangi bir değişiklik
+olmaz. Atom sayısı artmaz. Atom sayısı
+azalmaz. Kütle aynı kütledir. 50
+Celsiustaki demir parçasıyla 70
+Celustaki demir parçasını eşit kütlede
+kabul edebilirim. Klasik fizikte en
+azından. Ama 70 Celsiustaki demir
+parçasının hacmi büyümüştür. Atomları
+biraz birbirinden uzaklaşmıştır. E
+buradaki matematik gereği öz kütlenin ne
+olması gerekir? azalması gerekir. Yani
+15 Celsius'ta demirin öz kütlesi 7,8 ise
+atıyorum 60 Celusa da 7,7'ye düşer. O
+yüzden sabit sıcaklıkta bu değer
+önemlidir bizim için. Peki basıncı nasıl
+düşünebiliriz? Basınç nasıl etkiler?
+Basıncı da gazlar için düşünebilirsiniz
+gençler. Gazlarda da özkütle ayırt edici
+bir özellik. Şöyle bir kap düşünün.
+Hatta burası pistonlu olsun. İçeride bir
+gaz var. Biliyorsunuz gazlar içinde
+bulunduğu kabın hacmini alırlar. Yani
+şuradaki boşluk ne kadar hacme sahipse
+içindeki gaz hacmi de odur. İçerideki
+gazın bir kütlesi var. Dolayısıyla bir
+öz kütlesi var. N/V düşünebiliriz. Şimdi
+ben buradaki pistonu aşağıya doğru
+itsem, bu pistonu şuraya kadar itmiş
+olsam ne olur? İçerideki gazı buraya
+sıkıştırmış olursunuz. Bu gazın hacmi
+artık şu kadarlık boşluktur. Yani hacmi
+ne yaptınız? Hacmi küçülttünüz. Peki
+kütlede bir değişiklik oldu mu? Hayır.
+İçeriye gaz girdi mi? Girmedi. Kütle
+artmadı. Dışarıya gaz çıktı mı? Hayır.
+Bir çıkış da yok. Kütle azalmadı. O
+zaman kütle sabit. E buradaki matematik
+bana öz kütlenin artması gerektiğini
+söylüyor. Yani basınç değişti. Pistonu
+ittiğinizde buradaki basıncı
+arttırdınız. Bu basınç artışı hacmin
+değişmesine sebep oldu. Hacmin değişmesi
+de öz kütlenin değişmesine sebep oldu.
+Dolayısıyla herhangi bir madde için öz
+kütlesi şudur dendiğinde o kesinlikle
+belli bir sıcaklığa ve belli bir basınç
+değerine göre tanımlanmıştır. Gençler
+mesela ders kitabında bu konuda bir hata
+var. Bu tablo ders kitabındaki tabloyla
+aynı tablo. Suyun öz kütlesine 1 demiş.
+15 celaki suyun öz kütlesi 1 değil.
+Suyun öz kütlesi ilerleyen dakikalarda
+göreceğiz. + 4 Celsiustayken bir
+değerini bana veriyor. Bunu düzeltmek
+lazım. Su 15'te değil 4teyken bu değeri
+verir. Şimdi bu konuştuklarımızı bir
+simülasyonda da görelim. İlk olarak
+sıcaklığımızın ve basıncımızın
+değişmediğini, sabit olduğunu
+söyleyeceğiz. Şu an tahtayı
+görüyorsunuz. Tahta suya atıldığında
+yüzüyor. Bu öz kütle ile ilgili bir
+kavram. Suyun öz kütlesi büyük, tahtanın
+öz kütlesi küçük olduğu için yüzme
+durumunda. Bakın tahtanın öz kütlesi
+0.40 kg/ L olarak verilmiş. Çok alışık
+olmadığımız bir birim ifadesi. Kilogram/
+m³ yazması lazım ama litre cinsinden
+yazmış. Litrede bir hacim birimi. Böyle
+yazabiliriz. Aslında litreyi sıvılar
+için daha çok kullanıyoruz ama çok fark
+etmez. Ben tahtanın kütlesini azaltsam
+ne olur? Öz kütlesi değişir mi?
+Sıcaklığın ve basıncın sabit olduğunu
+vurguluyorum. Şu an 4 kilogram tahta.
+Bakın tahtanın kütlesini azalttım. 2
+yaptım. 1,5 yaptım. 1 yaptım. 060
+yaptım. 1 yapalım mesela. Ne değişti?
+Hala yüzüyor. Hem de aynı oranda
+yüzüyor. Batan ve dışarıda kalan
+miktarları aynı. Öz kütlesi hala 0.40.
+Bakın kütlesi 1 olduğunda hacmi de 2,5
+Lre oldu. Öz kütlesi 4en hacmi 10 L.
+Oran hep 0.4 çıkıyor. Çünkü sıcaklık
+sabitse, basınç sabitse öz kütle madde
+miktarına bağlı değil. Artsa da azalsa
+da hep 0.40 tahta için. Peki maddeyi
+değiştirelim. Buz yapalım. Bakın buz
+biraz daha battı. Niye? Çünkü buzun öz
+kütlesi 0.92 kg/ L. Buzun kütlesini
+azaltıyorum. Aynı şekilde batıyor. Çünkü
+hacmi de küçülüyor. Arttırsam da aynı
+şekilde batıyor. Çünkü hacmi de artıyor.
+Öz kütlesi hep 0.92 92 kalacak şekilde
+değişiyor. 3üncü bir madde tuğla. Tuğla
+battı. Öz kütlesi 2. Buradaki sudan daha
+büyük bir değer olduğu için battı. Suyu
+1 gibi düşünün. Küçük bir tuğla da
+batar. Büyük bir tuğla da batar. Fark
+etmez. Her türlüsü batar. Çünkü öz
+kütlesi daha büyük. Aklınıza şu
+takılabilir. Burası çok önemli. Buradaki
+yorumları iyi anlamanız önemli. Hocam 20
+kilogramlık tuğla batıyor. Anlıyorum.
+Güzel. Ama 2 kilogram yaptığınızda
+batması bana biraz tuhaf geldi. Yüzmesi
+gerekmez mi? Sonuçta hafifledi. Yine
+öğrenmediğiniz bir konu var ama detaya
+girmeyeceğim zaten. O cismin nerede
+duracağını belirleyen şey kaldırma
+kuvveti. Yani cismin ağırlığı var
+aşağıya doğru. E sıvı da onu yukarı
+kaldırmaya çalışıyor. Bu ikisinin
+ilişkisine göre cisim bir yerde duruyor.
+Batıyor, askıda kalıyor veya yüzüyor.
+Kaldırma kuvveti hacimle alakalı.
+Sıvının içerisindeki cismin hacmi ne
+kadar büyükse o kadar çok kaldırma
+kuvveti etki eder. 2 kilogram olduğunda
+kütlesi az. Kütlesi az olduğu için
+yüzeceğini düşünüyorsun ama kaldırma
+kuvveti de az. Çünkü hacim küçük. Ben
+kütleyi 20 yaptığımda hacim çok büyüyor.
+Kaldırma kuvvetinin artması lazım.
+çıksın yukarıya. Çıkamaz. Niye? E
+kütlede 20 kilograma çıktı. Oran hiç
+değişmediği için cismin yeri de
+değişmiyor gençler. O yüzden batma,
+yüzme, askıda kalma, öz kütleyle ilgili.
+Bunu gerçek hayat videosunu izleyelim.
+Evet bakın gençler, şimdi burada cıvanın
+içerisine yaklaşık 50 kilogram
+ağırlığında bir demir atacağız. Tabloyu
+incelerseniz daha önce gösterdiğim
+civanın öz kütlesi 13,6 gr/ cm³, demirin
+öz kütlesi yaklaşık 7,8 gr/ cm³.
+Dolayısıyla bu kadar ağır demiri civan
+içine attığınızda yüzmesi lazım. Çünkü
+daha küçük öz kütleli. Zaten bu videoda
+da yüzdüğünü görüyorsunuz. Bakın adam
+batırmaya çalışıyor, gezdiriyor. Resmen
+suyun üzerindeki bir plastik gibi
+yüzdüğünü görüyorsunuz. Çünkü öz kütlesi
+küçük olan yüzer. Gençler bu demiri suya
+atsaydım tabii ki batardı. Çünkü suyun
+öz kütlesi 1 ama batırmaya çalıştığım
+şeyin öz kütlesi, civanın öz kütlesi
+13,6. Batırdı ve tekrar yüzeye çıktı.
+Sebep öz kütle. Bir başka öz kütle
+deneyinde de bir kabın içerisine bal
+koyuyor. Sonra mısır şurubu koyuyor.
+Sonrasında sabun koyuyor. Su koyuyor.
+Yağ koyuyor, alkol koyuyor. Bunların
+hepsine baktığınızda altı çeşit sıvı
+var. Hepsi farklı yerlerde duruyor.
+Birbirine karışmıyor. Bunlar neye göre
+sıralandılar? Öz kütleye göre
+sıralandılar. En büyük öz kütleli bal
+aşağıda, en az öz kütleli alkol yukarıda
+diyebiliriz. Şimdi elinde katı bir demir
+var. Onu da bıraktığı zaman demirin öz
+kütlesi hepsinden büyük ve direkt
+battığını göreceksiniz. elinde böyle
+zeytinimsi bir şey var. Attığı zaman
+onun sabunda kaldığını göreceksiniz. Bu
+ne demek? Bu zeytinimsi şeyin öz kütlesi
+mısır şurubundan küçük, baldan küçük ama
+atıyorum üstündeki sudan büyük batmış
+onda. Yağdan büyük onun daha aşağısında
+sıvı sabunla neredeyse aynı orada askıda
+kalmış gibi düşünebiliriz. Plastiğimsi
+bir şey var şimdi de elinde. Onu da
+attığında en üstte kaldığını görüyoruz.
+Demek ki o plastiğin öz kütlesi bunların
+arasında en küçükmüş. Bu farkı
+belirleyen şey yine öz kütle. Aşağıda
+verilen tabloda K, L ve Mdelerinin
+belirli sıcaklıklardaki kütle ve hacim
+değerleri verilmiştir. Buna göre
+maddelerin aynı cins olup olmadığını
+belirleyiniz denmiş. Parantez içinde de
+basınçların eşit olduğu söylenmiş. Bakın
+her maddenin öz kütlesi kendine hastır
+demiştim ama belli sıcaklık ve basınç
+altında. Ortamların basınçları eşitse
+basınçtan yana bir sıkıntım yok
+demektir. Sıcaklıktan yana da bir
+sıkıntım yoksa tek bakmam gereken şey ne
+olur? Öz kütle olur. Öz kütlelerini
+bilirsem bunların aynı olup olmadığını
+anlayabilirim. İki maddeden de aldım.
+İkisinin de öz kütlesi 5 çıktı.
+Sıcaklıklar da aynı, basınçlar da aynı.
+İkisinin de öz kütlesi de 5 çıkıyorsa
+bunlar aynı madde olabilir. Hocam
+kesinlikle aynı maddedir demez miyiz?
+Hayır demeyiz. Başka şeylere de bakmak
+lazım. Başka ayırt edici özelliklerin de
+en az 3 tanesinin aynı olması gerekir.
+İki madde kesinlikle aynıdır dememiz
+için olabilir yorumu yaparız. Öz
+kütleler aynı çıkarsa bunlar aynı
+olabilir deriz ama farklı çıkarsa
+kesinlikle farklı olur. Bir maddenin öz
+kütlesi 3 çıktı. Öbürününki 7 çıktı.
+Bunlar kesinlikle farklıdır. Sıcaklıklar
+ve basıncın aynı olduğu şartlarda. Şimdi
+bakalım öz kütleye bakacağız. K
+maddesinin kütlesi 60, hacmi 15. N/ V
+yaparsanız buradaki öz kütle ne çıkar? 4
+gr/ cm³ çıkar. L''nin kütlesi 40, hacmi
+20. Bölerseniz 2 gr/s cm³ük bir öz kütle
+yapar. M'nin kütlesi 80, hacmi 20.
+Bölerseniz 4 gr/ cm³ük bir öz kütle
+yapar. Hocam cevap çıktı. K'nın öz
+kütlesi ile M'nin öz kütlesi aynı.
+Dolayısıyla K ile M aynı maddedir. Hemen
+atlamamak lazım. Basınçları aynı. Evet.
+Ama sıcaklıklara da bakın. Tabloda
+sıcaklık da var. K'nın sıcaklığı kaç? 30
+Celsius. M'nin kaç? O da 30 Celsius.
+Sıcaklıklar aynı, basınçlar aynı. Öz
+kütleler de aynı çıktı mı? Çıktı. O
+zaman ben K ile M'nin aynı madde
+olabileceğini söylüyorum. Bakın yine
+kesinlikle olur demiyorum. Başka ayırt
+edici özelliklerin de aynı olması lazım.
+Öz ısı olabilir, iletkenlik katsayısı
+olabilir, genleşme katsayısı olabilir
+ama en azından kesinlikle farklıdırlar
+demiyorum. Sıcaklıklar aynı, basınçlar
+aynı, öz kütleler de aynı. O zaman
+bunlar aynı olabilir. Hocam L kesin
+farklıdır. Çünkü L''nin öz kütlesi 2
+çıktı. Öz kütle farklı. O zaman L''yi
+alamayız. Bu sorunun cevabı K ile M
+olur. Yanlış gençler. L''yi de alırız.
+Bu sorunun cevabı K, L, M olabilir.
+Nereden vardın bu kanıya? Her şey farklı
+hocam. Evet, her şey farklı olduğu için
+zaten öz kütle ne demek? D = m/v demek.
+Hacim artarsa öz kütle azalıyor. Hacim
+azalırsa öz kütle artıyor. Bakın bu
+madde 70 Celsius sıcaklığa sahip. Üçünü
+de aynı koşullara getirelim. Yani ben bu
+adamı 30 Celsius yapsam bu ne demek?
+Soğuması demek. Soğumak demek ne demek?
+Maddenin hacminin küçülmesi demek. Çünkü
+sıcaklık arttığında genleşiyorsak
+sıcaklık azaldığında da büzülürüz.
+Hacmin küçülmesi öz kütlenin artmasını
+gerektirir. Bu arkadaşın öz kütlesi kaç
+gençler? Bu arkadaşın öz kütlesi 2. Ben
+bunu soğuttuğumda hacmi küçülecek, öz
+kütlesi büyüyecek. E 2'den 4e çıkabilir
+mi? Belki çıkabilir. Hepsi 30 derecede,
+hepsi aynı basınçta. Üçünün de öz
+kütlesi 4 olabilir. O zaman benim
+sorumun cevabı üç maddede aynı olabilir.
+Tekrar vurguluyorum. Kökümüz olabilir.
+Kesin yargıya varama. Bu da önemli bir
+soru tipiydi. Böylece bu dersin de
+sonuna gelmiş oluyoruz. Karışımların öz
+kütlesinden falan devam edeceğiz. Öz
+kütlenin ikinci bölümü gelecek. Yani
+takıldıklarınızı alta yazın. Kendinize
+iyi bakın. Görüşürüz.
+[Müzik]

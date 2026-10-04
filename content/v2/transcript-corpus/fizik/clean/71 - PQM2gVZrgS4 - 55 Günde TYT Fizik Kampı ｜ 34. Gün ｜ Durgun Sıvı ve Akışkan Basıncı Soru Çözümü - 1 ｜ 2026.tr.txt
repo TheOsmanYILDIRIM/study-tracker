@@ -1,0 +1,693 @@
+gençler Merhaba bugünkü dersimizde sıvı
+basıncı ve akışkan basıncını ortak
+testlerle beraber bitireceğiz yorum
+gücümüzü geliştireceğiz Hemen başlayalım
+düşer kesitleri şekildeki gibi olan k l
+ve M kaplarının taban alanları sırasıyla
+a2a ve 3a'dır kaplara öz kütleleri d2d
+ve 3D olan xyz sıvılarından konulmuş
+sıvıların kapların tabanlarına
+uyguladıkları sıvı basınç kuvvetlerinin
+de eşit olması hedefleniyormuş buna göre
+hangilerinde hedefe ulaşılmış olabilir
+diye sorulmuş basınç dediğimiz şey ister
+katı basıncı olsun ister durgun sıvı
+basıncı olsun Hatta istersen atmosfer
+basıncı olsun birim alanındaki kuvvet
+miktarıdır basıncın sebebi buradaki
+kuvvettir ki biz buna basınç kuvveti
+diyoruz o zaman basınç kuvvetini yalnız
+bırakırsak basın çarpı alan diye bir
+ifade buluruz yani biz a alanlı bir
+yüzeydeki toplam kuvveti bulmak
+istiyorsak o alanla oradaki basıncı
+çarpmamız gerekiyor şimdi buradaki K
+kabında D özkütlesi sıvı var L kabında
+2D özkütleli sıvı var M kabında da 3D
+özkütleli sıvı var Bunları dolduruyoruz
+ve hepsinin tabanındaki sıvı basınç
+kuvvetlerinin eşit olmasını istiyoruz
+önce basıncı bulacağım sonra onu o
+alanda Çarpacağım birinci öncülde hepsi
+aynı seviyede Dolayısıyla hepsinin
+Haşhaşı ortak ki şunu da söyleyelim
+Tabii ki basınç sıvılarda HD bulunuyor
+biliyorsunuz hepsinde H ortak olduğuna
+göre burada 3D olduğu için tabanda 3B
+basınç burada 2D olduğu için tabanda 2p
+basınç burada D olduğu için tabanda p
+basınç var diyebiliriz Yerçekimi ivmesi
+de hepsi için ortak olduğu için basıncı
+alanla çarpıyorum 3p çarpı A'dan Bu
+tabanda 3f'lik bir basınç kuvveti 2padan
+4 f'lik bir basınç kuvveti p x 3a'dan 3
+f'lik bir basınç kuvveti olduğunu
+söyleyebiliriz hocam burada genişleyen
+kaplar Daralan kap var konu anlatımları
+da öyle bir şey hatırlıyorum Daralan
+olunca basınç kuvveti büyük oluyordu
+genişleyen olunca küçük oluyordu falan
+hatırlarsanız onlar bu sıvıların
+ağırlıklarıyla tabandaki basınç
+kuvvetleri arasındaki ilişkiler için
+konuştuğumuz şeylerdi burada direkt bize
+basınç kuvvetlerinin değerini soruyor O
+yüzden p çarpı A'dan yapmalıyım kabın
+şeklinin şemalinin bir önemi yok basıncı
+bulurum taban alanını bulurum çarparım
+ikinci şekle bakıyorum şurası H kadar
+derinlik olsun 3D Özkütle olduğu için
+burada 3B basınç var diyorum yani H
+çarpı
+bu şekil H derinlikte aynı Şunun gibi
+tabanda htg'den dolayı p basınç var p
+çarpı 3a'dan Burada da 3F basınç
+kuvvetimiz var ortadaki şekle baksam
+bunun da derinliği bu kadar olsaydı H
+kadar olsaydı 2D Özkütle olduğu için H2
+dg'den 2p basınç olurdu 2p 2a'dan
+tabanda 4F basınç kuvveti olurdu Ama
+burası H değil daha küçük Dolayısıyla
+tabandaki basınç 2p'den daha küçük
+Mesela bir buçuk B 1,5 p çarpı 2a'dan
+burada 3f'lik bir basınç kuvveti
+oluşturabilirim bir olmadı iki olmadı üç
+ihtimal dahilinde Dolayısıyla Sorumun
+cevabı C seçeneği olacaktır Su cenderesi
+sıvı ve hareketli pistonlarla
+oluşturulmuş düzeneklerdir küçük pistona
+uygulanan kuvvetle büyük pistonda daha
+büyük bir basınç kuvveti elde edilir
+Evet su cenderesinin mantığı buydu
+günlük hayattaki birçok örneği
+konuşmuştuk arabaların krikolarla havaya
+kaldırılması ayağımızın küçücük bir
+kuvvetiyle koca arabayı fren yaptırıp
+durdurabilmemiz Bunların hepsi buradaki
+Fizikle açıklanabilen şeyler Özdeş meyve
+kasalarıyla oluşturulan cenderelerden
+hangileri dengede kalabilir diye
+sorulmuş Pascal yapıyorduk hatırlarsanız
+şuradan seviye çektiğimde bu kırmızı
+noktadaki basınçla bu kırmızı noktadaki
+basıncın aynı olması lazım Çünkü aynı
+seviyedeler ve aynı sıvıyla temas
+halindeler bu kırmızı noktadaki basınç
+ne ise aynen bu sıvı tarafından buraya
+da aktarılacaktır ne var bu kırmızı
+noktada Ben şu meyve kasasının
+ağırlığına g desem g kadarlık bir
+ağırlık var buradaki pistonun alanı a
+diyorum buradaki piston daha büyük
+olduğu için atıyorum buna 2A diyorum bu
+kırmızı noktada g/a'lık bir basınç var
+bu g/a'lık basınç Aynen buraya aktarıldı
+peki bu kırmızı noktanın üzerinden ne
+var E Burada da bir kasa meyve var yani
+O da g ağırlıklı orada g/2a var çünkü
+pistonun alanı iki a kadar şimdi
+aşağıdan bu bastırıyor yukarıdan onu
+dengeleyebilecek bir arkadaş yok ondan
+daha küçük değil mi g/a g/2a'dan daha
+büyük bunlar böyle dengede kalamazlar bu
+Sağdaki piston yukarıya doğru hareket
+edecektir Çünkü eşitliği sağlayamadık
+birinci öncülüm olmaz ikiye bakarsam
+buradan seviyeye çektim Eğer dengedeyse
+bu iki kırmızı noktanın basınçları eşit
+olmalı bu sefer sağ taraftan bakayım 3
+tane kasa var 3G ağırlık var buradaki
+pistona 2A dedim buradaki piston daha
+küçük buna bir a diyelim o zaman bu
+kırmızı noktada Şu an
+3g/2a'lık bir basınç var bu basınç Aynen
+buraya aktarıldı şu an Yukarıyı 3g/2a
+ile zorluyoruz acaba buna karşı
+koyabilecek mi bu Kırmızının üstü g
+ağırlıklı bir kasa var şurada o zaman
+g/a'lık bir basınç var Artı şu kadarlık
+sıvı sütunu var o da ağırlığından dolayı
+bu kırmızı noktaya basınç uyguluyor Yani
+g/a + bu derinliğe de H dersem HD bir
+basınç acaba 3g/2a tarafından
+dengelenebilir mi şurası 1,5 katsayı
+3/2'den e burası 1 katsayı hg'nin
+değerine göre bu ikisinin toplamı bu bir
+buçuk katsayılı ifadeyi verebilir tam
+Sayısal değer bilmediğim için ikinci
+öncüle olabilir diyebilirim üçüncü şekle
+baktığım zaman seviyemizi buradan çektik
+tek bir kasa olduğu için g/a'lık basınç
+var bu piston alanı a kadar bu piston
+alan iki a kadar burada da bir tane kasa
+olduğu için burada da g var Şuradaki
+g/a'lık basınç Aynen buraya aktarıldı bu
+mavi noktada Yukarıyı zorluyoruz g/a'yla
+yukarıdan karşı koyabiliyor muyuz
+Şuradaki g/2a buraya Aynen aktarıldı g
+bölü 2A + bu sıvı sütunun da basıncı var
+Ona da htg diyelim böyle bir eşitlik
+yazabilir miyiz Bunlar dengeleyebilir mi
+burası 1 katsayı Burası 0.5 katsayı
+HD'de 0.5 kat sayılık bir katkıda
+bulunursa bu matematiksel denklem gayet
+de doğru olur o zaman üçüncü öncülümüz
+de doğru olabilir Bir mümkün değil iki
+ve üç olabilir sınırlar dahilindedir
+sorumuzun cevabı D seçeneğidir
+ısıtıcı yalıtılmış bir ortamda şekildeki
+kabın içinde 10 veya hacminde buz
+bulunmaktadır Bu durumda kabın tabanına
+yapılan basınç p basınç kuvveti F
+olmaktaymış kabın genleşmesi ihmal
+edildiğine göre buzun tamamı
+eritildiğinde p ve F nasıl değişir diye
+sorulmuş güzel bakın Gençler bu suya
+atıldığında yüzen bir maddedir istisnai
+bir durumdur katı hali sıvı haline göre
+daha küçük özkütlelidir yüzmesinden onu
+anlıyoruz Hatta bilmek zorunda
+değilsiniz Ama bilseniz çok İşinize
+yarar buzun özkütlesi 0.9 gram
+santimetre küp iken suyun özkütlesidir
+Şimdi burada 10 ve hacminde buz var
+dediği için bir akıl yürütme yapacağım
+Bakın bu 09 özkütleye şöyle açabilirim
+Ben sonuçta Özkütle dediğim şey en bölü
+ve bu buzun hacmi 10 vs Ben buradaki V
+yerine 10 V yazsam O zaman bu 09 katsayı
+için kütle yerine de 9 M yazarım
+9/10'dan 0,9 gelsin diye Şimdi ben bu
+arkadaşı eritsem su yapsam özkütlesinin
+1 olması gerekmiyor mu Evet bu 0.9'luk
+Özkütle 1'e dönüşecek mi Evet ben bunu
+erittim diye H2O moleküllerinde artma
+azalma söz konusu mudur Hayır aynı H2O
+molekülü sadece birbirlerine göre
+konumları değişiyor katı sıvı gazda
+bunların sayıları artmıyor ya da
+azalmıyor buharlaşma ihmal Dolayısıyla
+bu Buz eridiğinde kütlesi 9 M ise suya
+dönüştüğünde de 9 m'lik suyumuz olacak
+Fakat Özkütle 1 olacaksa eğer buradaki
+hacim yerine 9 veya yazmam lazım Bu da
+bana neyi gösterir ben bu eritirsem 10
+ve eğik buz olur sana 9v'lik su bunu
+Basıncın hal değişmeye etkisinde de
+konuşmuştuk basınç buzun erimesini
+kolaylaştırıyordu sebep Çünkü zaten buz
+eridiğinde hacmi küçülen bir madde Adam
+zaten küçülmeye çalışıyor suya
+dönüşürken Sen bir de basınç uygularsan
+ekmeğine daha da çok yağ sürüyorsun Bunu
+kolaylaştırıyorsun o yüzden basınç buzun
+erimesini kolaylaştırır diye yorum
+yapmıştık son dersimizde o zaman
+buradaki buz eridiğinde daha az yer
+sağlayan mesela şu kadar yer kaplayan 9
+ve hacminde suya dönüşmüş olacak bu suya
+dönüştüğünde kabın tabanındaki basınç ve
+kuvvet değişmiş olabilir mi hocam
+basıncı yorumlayamam ki yani katıyken
+buzun ağırlığı böyle alan yapacaktım ve
+sıvıyken de hdg yapacağım Yani ben
+bunları nasıl yapacağım ki bambaşka
+şeyler Hayır bambaşka şeyler değil
+hdg'yi de ben buradan türetmiştim konu
+anlatımını hatırlarsanız Yani ben suya
+dönüştüğünde de g/a'dan düşünebilirim
+rahatlıkla bu kabın tabanındaki şu alana
+a kadar desem erime olsa da olmasa da bu
+A aynı a o zaman benim burada bakacağım
+yukarıdan gelen kuvvette bir değişiklik
+var mı g'de bir değişiklik var mı 9m
+kütleli buz 9 M kütleli su oldu kütle
+değişti mi değişmedi O zaman yer çekimi
+ivmesi değişmediğine göre ağırlıkta
+değişmedi yani basıncımız değişmez
+gençler aynı yüzeye aynı ağırlıkla
+basıyorum ister katı olayım ister sıvı
+olayım maddenin türünün ne önemi var hem
+katı hem sıvı ağırlıklarından dolayı
+basınç uyguluyorlar HD bambaşka bir
+formül değil bu da buradan türetilmişti
+İkisi aynı şey zaten o yüzden basınç
+değişmez ve bu g zaten basınç kuvvetini
+temsil ettiği için bizim ağırlığımız
+değişmediği için basınç kuvveti de
+değişmez Diyebiliriz ama bir noktayı da
+konuşmak lazım bazı öğrenciler şunu
+düşünmüş olabilirler Hocam yine konu
+anlatımından şunu hatırladım Biz düzgün
+katılarda da yani zeminle 90 derece
+yapan katılarda da işte silindir
+dikdörtgen prizma küp gibi katılarda HD
+yapabiliyorduk Evet yapabiliyorduk
+sıvılarda da işte GG yapabiliyoruz Evet
+yapabiliyoruz O zaman ben Haçlı g'lerden
+düşünmek istiyorum Bu katı için bu sıvı
+için Tamam düşünelim bu sahilindeyken bu
+adamın haşı daha fazla idi suya
+dönüştüğünde hacmi küçüldüğü için bunun
+Haşa azaldı o zaman sıvı hale geçtiğinde
+basıncının azalması gerekmez miydi hocam
+ve öz kütlesi arttı katı haldeyken
+buraya 0.9 yazıyordun sıvı hale
+geçtiğinde buraya bir yazıyorsun yani bu
+adamın Evet yüksekliği azaldı ama öz
+kütlesi Art matematiksel olarak Hesap
+yapmak isteyen hesaplasın yine bu
+ikisinin eşit olduğunu bulur Ama orayla
+uğraşmaya gerek olmadığı için ben direkt
+g/a'dan bütün soru yorumlayabilirim
+Sorumun cevabı e seçeneğidir düşey kesti
+şekilde verilen K ve L kaplarında
+belirtilen yüksekliklerde aynı
+sıcaklıkta su bulunmaktadır vana Kapalı
+durumdayken ka kabındaki x noktasına
+etki eden sıvı basıncı px3b'ymiş Bunu
+hemen tanımlayalım burada Bir vana var
+ama kapalı dolayısıyla iki kap arasında
+bağlantı şu an yok x noktasında bir
+basınç tanımlanmış değeri 3b'ymiş
+buradaki basıncın sebebi bu arkadaşın
+üzerindeki sıvı sütunun ağırlığıdır onu
+da HD ile hesaplayabilirim ne kadar
+buradaki H 1 2 3h 3h dgy kitap 3p basınç
+demiş tamam vanayı açıyoruz suyun akışı
+duruyor l kabındaki y noktasına etki
+eden sıvı basıncı kaç B olur şu y'nin
+basıncını konuşacağız bu vana
+açıldığında bu sular böyle kalabilir mi
+yoksa bir akış mı başlar önce bunu
+anlamamız lazım günlük hayat
+tecrübelerinizden hocam tabii ki sağ
+tarafa doğrusu Akar diyebilirsiniz ama
+yine de bir konuşalım Pascal yapıyorum
+şuradan bir seviye Çektim Her yerde aynı
+su var o zaman aynı seviyedeki bu x ile
+şu noktanın basınçları eşit olmalı bunun
+tepesinde ne var 3 yaş yükseklik var o
+zaman 3p'lik bir basınç var bunun
+tepesinde haş var O zaman burada pelik
+basınç var Sen bu vanayı açtığın anda Bu
+ikisi arasında bağlantı kurulduğu anda
+burası yüksek basınç Burası Alçak basınç
+olduğu için bu aradaki su kütlesi yüksek
+basınçtan alçak basınca doğru hareket
+edecek yani su akmaya başlayacak ve
+buradan su eksildikçe Burası azalacak
+Burası artacak diyebiliriz ne zaman
+duracak bunlar bu Mavi Nokta ile bu Mavi
+noktanın üzerindeki basınçlar eşitlenene
+kadar hareket olacak E zaten HG
+yaptığımız için ikisinin de üzerinde
+aynı H olması lazım ki basınçlar
+eşitlensin bu da ne demek sol taraftaki
+sıvının üst seviyesi ile sağ taraftaki
+sıvının üst seviyesi aynı olacak demek E
+o zaman şekil de kolay bir şekilde
+aslında şu adamı ben direkt şuraya alsam
+seviyeler eşitlenmiyor mu bakın burada
+alanlar verilmiş s alan s alan o zaman
+şurası komple 2 S alan uzunluk gibi
+duruyor ama kesitten konuştuğumuz için 3
+boyutlu hayal edin e burası s alan
+Burası s alan Burası da s alan
+Dolayısıyla toplam Burada da iki s alan
+var bu bir bölme Hayal edildiğinde H
+çarpı 2 senelik hacim demek ben bunu
+buraya aldığımda tam sığıyor mu buraya
+Evet bu da Hacc çarpı 2 ise aynı hacim
+bu siyah artık yok bu siyah buraya geldi
+seviyelerimiz eşitlendi mi soldaki kapta
+bu seviyedeyiz Sağdaki kapta da bu
+seviyedeyiz eşitlendi bakın yeni durumda
+X'in üzerinde 2h yükseklik var 2p basınç
+oldu bu Mavi noktanın üzerinde iki H
+yükseklik var 2p basınç oldu basınç
+farkı kalmadı su akışı durdu bana y'yi
+soruyordu y noktası ne kadar derinlikte
+şu an 1 2 3 buradan düşündüğümde bu
+arkadaş 3h derinlikte Dolayısıyla 3hg
+kadar basınç var 3hg 3p demiştim yine
+3hg var o zaman kaç B olmuş yine 3B
+olmuş Sorumun cevabı e seçeneğidir
+laboratuvarda gruplara Özdeş boş plastik
+şişeleri dağıtan öğretmen şişeleri
+şekildeki gibi Masanın kenarına
+koyduktan sonra şişenin ağzına sığacak
+büyüklükte kağıttan hazırlıkları topu
+şişenin ağzına yerleştirmelerini söyler
+sonra şişenin ağzına doğru hızlıca
+üfleyerek Kağıt topu şişenin içine
+atmaya çalışmalarını ister gruplara
+Başaran var mı diye sorduğunda
+başaramadıklarının görür ve bunun
+nedenini sorar Buna göre hangileri bu
+olaydaki aynı ilke ile açıklanabilir
+Gerçekten bunu deneyin bunu yapmanız çok
+zordur Tabii küçücük bir kağıdı çiçeğini
+ağzına koyup üfleyin demiyorum burayı
+kapatacak kadar çok da sıkışmasına da
+gerek yok ama kapatacak kadar bir kağıda
+sıkıştırın ve üflemeye çalışın boş
+şişeye atabiliyor musunuz biraz zordur
+Neden şimdi Normal şartlar altında şişe
+boşken içerisinde hava vardı dışarısında
+hava vardır buradaki şeyi atmosfer
+basıncı olarak tanımlarsak içerideki
+şeyi de atmosfer basıncı kadar basınç
+olarak tanımlayabiliriz Çünkü burada
+Kağıt yokken rahatlıkla hava geçişi
+oluyordu burada içeride P0 var dışarıda
+P0 var yorumunu yapabilirdik ben buraya
+kağıtla kapattıktan sonra da içeride
+hala P0 var sonuçta buradaki hacmi
+değiştirmedim bu P0 oluşturacak kadar
+gaz miktarı var burada belli bir hacimde
+Dolayısıyla İçerisi P0 dışarısı f0 Sen
+burada üflediğinde bernoli prensibi
+gereği Buradaki havayı hızlandırıyorsun
+hızı artan akışkanın basıncı azalır Yani
+diyelim ki İçeride 76 santimetre civa ya
+da bir atmosfer açık hava basıncı kadar
+basınç var dışarıda da aslında bu vardı
+Ama sen bu 76 santimetre cıvayı oradaki
+havayı hızlandırdığın için düşürdün
+dışarıda daha az Basınç var mesela 70 cm
+civalık bir basınç var Şu an dışarıda ya
+da ne bileyim 0.9 atmosferlik basınç var
+şişenin içi yüksek basınç olduğu şişenin
+hemen dışı Alçak basınç oldu akışkanlar
+yüksek basınçtan alçak basınca doğru
+hareket etmeye zorlanırlar Yani aslında
+şu an bırak buradaki kağıdın içeriye
+girmesini içerideki hava yüksek
+aramızda suyun daha hızlı fışkırması
+hortumun ucunu sıktığımızda Niye daha
+hızlı fışkırıyor Çünkü akışkanlar daha
+dar bir alandan geçerken hızını
+arttırıyorlar bu süreklilik prensibi
+konu anlatımında bunun ispatını
+yapmıştık Eğer akışkanlık bozmuyorsa
+akan suda böyle kesikli Yapı oluşmuyorsa
+bir bütün halinde su akıyorsa kütle
+korunumu vardır hacim korunumu vardır
+yani Birim zamanda o hortumun içinden
+geçen su miktarı bellidir ve hacim
+gereği alan küçüldüğünde mecburen aynı
+hacmi yakalamak için daha hızlı hareket
+etmen gerekir yani silindir geometrisi
+düşünelim şöyle bir hacimde suyun var
+Sen diyorsun ki sen daha küçük alana
+sahip olacaksın aynı hacmi yakalamak
+için daha uzun bir silindirin olacak
+Yani aslında işte su bir saniyede şu
+kadar yer değiştiriyorsa şimdi bu kadar
+yer değiştirmek zorunda Bu da hızının
+artması demek İşte buna süreklilik
+prensibi diyoruz bu sorunun cevabını iki
+üç açmışız Ama ben bu üçüncü öncülük
+kabul edemeyeceğim Çünkü bu Berna ilkesi
+değil Berna ilkesi bunun devamında
+hızımızın arttığı yerde de basıncımızın
+azaldığını söylüyoruz ama suyun daha
+hızlı fışkırmasıyla oradaki basıncın
+azalması arasında bir bağlantı kuram bu
+örnekte Mesela herhangi bir alan
+küçülmesi büyümesi gibi bir durum var mı
+hayır yok çünkü o örnek direkt
+bernholin'in kendisi ile ilgiliydi
+Dolayısıyla sorunun cevabı C değil 5
+olmalı düşey kesti şekildeki gibi olan
+kapalı bir kap sıvı ile doludur
+şişirilmiş esnek bir balon yumuşak ve
+esnek bir lastikle x noktasına
+bağlanmıştır pistona uygulanan F kuvveti
+balonu şekildeki konumda dengede
+tutmaktadır F kuvveti arttırıldığında
+yargılarından hangileri doğru olur diye
+sorulmuş Şimdi bu sistem dengede bu
+sistemi bir konuşmamız lazım Örneğin
+buradaki balon esnek büyüyebiliyor
+küçülebiliyor böyle duruyorsa balon
+içerisindeki havanın basıncıyla bunun
+etrafındaki sıvı basıncı dengede
+demektir dengede olmasaydı balon daha
+çok büyürdü ya da daha çok küçülürdü
+aynı şekilde pistonu incelediğinde de
+buradaki F kuvveti Aslında Neyi tutuyor
+bu su sol tarafa doğru akmaya çalışıyor
+Bu piston su tarafından bir basınç
+kuvveti ile itiliyor buradaki Suyun bu
+piston üzerinde bir basıncı var bir p
+var O P ile bu pistonun alanını
+çarparsam basınç kuvvetini bulurum Çünkü
+basınç kuvveti basınç çarpı bütün yüzey
+alanıdır ve bu pistonda dengede ise
+basınç kuvveti dolarlık bir kuvvetle
+tutuyorum demektir soru diyor ki bu F
+kuvvetini arttır ben bu F kuvvetini 2f
+yaparsam basınç kuvvetinden daha büyük
+bir değere sahip olurum Bu piston sağ
+tarafa doğru gitmeye başlar yani
+atıyorum şuraya gelir suyu sıkıştırmış
+olurum hocam suyun gideceği bir yer yok
+ki su nereye gidecek balonu küçültecek
+Çünkü sen şu an bu sisteme ekstra bir
+basınç aktardım bu arkadaş sayesinde şu
+an sistemdeki toplam basıncı arttırmak
+zorundasın çünkü sisteme dışarıdan bir
+basınç eklendi Pascal prensibi gereği
+artan bu basınç sıvı tarafından her yere
+Aynen aktarılır kabın bu duvarına
+aktarılır kabın bu duvarına aktarılır
+buraya aktarılır buraya aktarılır ve
+hatta balona aktarılır şimdi balon zaten
+güzel güzel dengede duruyordu şimdi ne
+oldu dıştaki su basıncı arttı kendisi
+küçük kaldı balon küçülecek ama bir de
+şu var balonun hacmi küçüldükçe balonun
+içerisindeki havanın basıncı da
+büyüyecek yani sonsuza kadar
+küçülmeyecek balon dıştaki basınç
+balonun içerisindeki basınca eşit
+oluncaya kadar küçülecek sonra tekrar
+bir denge durumu oluşmuş olacak yani
+balon küçüldü şu kadar kaldı içinde
+artık daha fazla basınç var çünkü dış
+sıvıda daha fazla basınç var pistonu
+etki eden basınç artar Evet Eskiden f/a
+yapıyorduk bu pistonun alanına a dersek
+f/a'lık bir basınç oluşturuyorduk şimdi
+2f/a'lık basınç oluşturduk dışarıdan
+piston etki eden basıncı arttırdığımız
+için zaten sağ tarafa doğru hareket etti
+balonun hacmi küçülür Aynen öyle olur
+balonun içindeki hava basıncı artar
+Aynen öyle olur bütün bunları Zaten
+konuştuk Sorumun cevabı e seçeneğidir
+düşey kesti şekildeki gibi olan eşit
+bölmelere ayrılmış bileşik kapta D2 D3 D
+özkütledi sıvılar dengedeymiş Buna göre
+k l m n p noktalarının basınçları ile
+ilgili hangileri doğrudur denilmiş güzel
+bakalım öncüllerde şu eşittir Bu eşittir
+gibi şeyler var burada 3 farklı sıvı var
+3D de 2D özkütleli bu sorular Pascal
+sorularıdır şuradan bir seviyeyi
+çekersin burada L noktası var burada L
+noktası var burada da ben bir nokta
+belirledim bu 3 tane kırmızı nokta mavi
+sıvıyla temas halinde mi Evet hepsi aynı
+seviyede mi Evet o zaman hepsinde aynı
+basınç var bu l'nin üzerinde 3 birimlik
+yani 3h yüksekliğinde sıvı var ve öz
+kütlesi 3 de o zaman bu noktasında 9
+hg'lik bir su basıncı var bu basınç
+Aynen buraya da aktarılır Aynen buraya
+da aktarılır M noktasında da 9 HG var bu
+kırmızı noktada da 9 HD var hocam Yanlış
+Hesap yapıyorsunuz Burada 9hg olamaz
+çünkü bunun üstünde o kadar basınç Yok
+burada 9 açtı Ege varsa yukarıya doğru
+iter itemez ki burası kapalı sistem
+dengede Burası 9 HG olmak zorunda şimdi
+bunun üzerinde iki H yükseklikli pembe
+sıvı var öz kütlesi de de o zaman şu an
+bu kırmızı noktada iki ağaç DG var 9'u
+Nasıl tutacak bu adam 9 yukarıya doğru
+itiyor bizi ikiyle karşı koyamam ki kap
+var kapı delersek zaten su fışkırır Evet
+tutamazsın ikiyle ama kap bizi tutuyor
+bize yardımcı oluyor Ne kadarla yardımcı
+oluyor Sizce tahmin edebileceğiniz üzere
+7 hg'lik basınçla yardımcı oluyor burada
+etki tepki var bu pembe sıvı Yukarıyı
+bir basınç kuvveti ile zorluyor kabın
+tavanına etki eden bu kuvvet etki
+kuvveti ise o zaman kapta sıvıya bunun
+tepkisini uyguluyor İşte bu tepki basınç
+kuvveti 7 HD bir basınç oluşmasına sebep
+oluyor 7A DG artı sıvının elinden gelen
+iki ağaç DG toplamda 9 aştı ege'dir Yani
+bu n noktasında gençler kabın tavanında
+7h DG basınç var aynı şeyi üçüncüsü için
+de yapabiliriz burada 9 var ama bunun
+tepesine baktığında H derinlikli iki de
+özkütleli sıvı var yani Sanki şu an
+burada iki HD varmış gibi var sıvıdan
+kaynaklı O var bu p noktasını dellasem
+sıvı fışkırır Çünkü 2 ile 9'u tutamazsın
+tuttuğumuza göre sıvı bize yardım ediyor
+ne kadar ihtiyacımız var 7h dg'ye
+ihtiyacımız var O zaman bu p noktasında
+7h DG var 7 + 2'den 9'u tutuyoruz L
+noktasında 9 M noktasında 9 nd 7 p'de 7
+var diyebiliriz k'yi de soruyordur k'yi
+hiç konuşmadık K basit Zaten üzerinde
+bir bölme var 3D özkütleli sıvı 3hd'lik
+basınç var K noktasında diyebiliriz
+hocam buradaki tavanı saymıyor musunuz
+oraya değmiyoruz ki oraya Öyle bir etki
+tepki etkileşimimiz yok ki Burası da boş
+Gaz falan da yok Dolayısıyla K
+noktasında Sadece bu sıvı sütunun
+ağırlığından kaynaklı basınç var k ile n
+eşittir Hayır n'de 7 var k'da 3 var
+bakın bunu buraya niye koyduk bazı
+öğrenciler Pas yarım yamalak
+öğreniyorlar seviye çekiyor bak Buradan
+seviye çekiyor Diyor ki k ile ne aynı
+seviyede diyor bu arada Bunlar gözüksün
+bir Çok karmaşık oldu burası k ile Hani
+aynı seviyede diyor basınçları eşittir
+diyor Pascal prensibini böyle
+uygulayamazsın aynı seviyede olacaklar
+ve aynı sıvıyla temas edecekler K mavi
+sıvıda n pembe sıvıda böyle bir eşitlik
+yazamazsınız sebeplerini konu
+anlatımlarında konuştuk bu yanlış l ile
+M eşit mi l'de 9 var l'de de 9 var Aynen
+öyle Bu doğru n ile p eşit mi n ile 7
+var p'de 7 var demiştim Evet bu da doğru
+2 ile 3'e doğru dedik sorumuzun cevabı D
+seçeneği Geldik Bu testimizin Son
+sorusunu Ama buradaki şekil için sizden
+özür diliyorum Çünkü bir dizgi hatamız
+olmuş sizin kitabınızdaki Şeklin bu
+olması gerekiyor Başka bir sorunun
+şekliyle karışmış maalesef bir kenara şu
+şekli Çizi verin üzerinden konuşalım
+şekildeki gibi ağırlığı önemsiz pistonla
+dengede olan sistem su buharlaşmayacak
+şekilde alttan ısıtılıyor Isı alışverişi
+Sadece su ve gaz arasında olduğuna ve
+kabın genleşmesi önemsiz olduğuna göre
+yargılarından hangileri doğrudur
+denilmiş Şimdi Isı alışverişi sadece
+suyla gaz arasında ben bunu alttan
+çıktığında suyu ısıtmış oluyorum
+konveksiyon yoluyla buradaki enerji gaza
+aktarılacak ve gaz da ısınmaya
+başlayacak Neticede biz şu an aslında
+gazın sıcaklığını arttırıyoruz pv
+nrt'den düşünürsek hocam sıcaklık
+artıyorsa oradaki gazın basıncı artıyor
+hemen dememek lazım Çünkü burada hacimde
+var dikkat ederseniz burada ağırlığı
+önemsiz rahatlıkla hareket edebilen bir
+piston var mevcut durumu incelesem
+dışarıdan açık hava basıncı etki ediyor
+piston aşağıya doğru hareket etmediğine
+göre bunu tutan burada bir Gaz basıncı
+var pistonun ağırlığı önemsiz olduğu
+için de açık hava basıncı kadar Gaz
+basıncı olmalı bu eşitlik sağlanmalı ki
+orada dengede kalabilsin piston Şimdi
+sen gazın sıcaklığını arttırdığında ilk
+an için gazın basıncını arttırmış
+olursun p gaz daha büyük hale gelir o
+yüzden bu piston yukarı çıkmaya başlar
+fakat yukarı çıktıkça hacmi artar
+Dolayısıyla basınca azalır yani O
+sıcaklığın artışından kaynaklanan basınç
+tekrar azalır ve yine bu eşitliği
+yakaladığında piston durur yani biz bu
+gazın sıcaklığını sonsuza kadar
+arttırmıyorsak bu pistonda sonsuza kadar
+yükselmeyecektir sıcaklığın arttırdık ve
+kestik olarak düşünebiliriz en
+nihayetinde bu piston dengeye gelecek ve
+yine son durumda şu eşitliği yakalamış
+olacaksın gazın basıncını değiştirememiş
+olacaksın İlk duruma göre Ama bunun için
+ne Bedel ödedik piston Daha yukarıda
+dengede kaldı haş mesafesi arttı gazın H
+yüksekliği değişmez diyor Hayır artar
+gazın basıncı değişmez Evet değişmez P0
+kalmaya devam eder Tabana etki eden
+toplam basınç değişmez bir kere önce
+toplam basıncı konuşalım Bu suyun
+tabanındaki toplam Basınç nedir
+üzerindeki bütün ağırlıkların
+oluşturduğu basınçtır P0 dediğin şey
+atmosfer kaynaklı bir basınçtır
+atmosferin ağırlığından dolayıdır
+Dolayısıyla burada atmosfer basıncı
+Aynen var Artı buradaki sıvı
+ağırlığından dolayı basınç uygular şu
+mesafeye de H üssü diyeyim H üssü DG
+kadarlık sıvı basıncı vardır kapalı
+kaplardaki gazın basınçları ihmal olduğu
+için o adam ekstra bir basınç katkısında
+bulunmaz Dolayısıyla bu kırmızı
+noktadaki toplam basınç budur konu
+anlatımında da benzer bir şey
+konuşmuştuk 7 hocam buradaki gazında bir
+basıncı var gazda suyu aşağı doğru
+itiyor nasıl toplan basınca katkısı
+olmaz hatırlayın yine aynı demiştim ki
+bu suyun fotoğrafını çeksek Evet
+yukarıdan p gaz etki ediyor Doğru O
+zaman bu kırmızı noktadaki basınç
+yukarıdan etki eden p gaz + suyun
+basıncıdır hocam atmosfer basıncı Niye
+yazmıyorsunuz Ben şu an suyun
+fotoğrafını çektim newton'da yaptığımız
+gibi Aslında atmosferin suyla bağlantısı
+yok ki o bağlantıyı kuran gaz suya
+direkt etkisi olan gaz O yüzden onu yaz
+ama bu iki denklem aynı şey zaten p gaz
+P0 eşit değil mi Evet buraya P0 yazarsan
+Bu denklemi buluyorum zaten Yani
+buradaki gazın işlevi Aslında aracı
+görevi görmek Yukarıdaki p0'lık basıncı
+Aynen aşağıya aktarıyor kendisinden de
+bir şey katmıyor çünkü Kendisinden bir
+şey katması için ağırlığının etkili
+olması lazım kapalı kaplarda gazların
+ağırlıkları ihmal Çünkü gaz miktarı az
+Tamam hocam toplan basınç bu olsun ama
+biz ne yaptık suyu ısıttık su ısındığı
+için genleşmiştir genleştiği için
+yükselmiştir buradaki H üssü artmıştır O
+yüzden toplam basınç artar Hayır
+değişmez bakın suyun da ağırlığından
+dolayı basınç olduğu için suyun ağırlığı
+böyle alandan basınca hesaplayabilirim
+tabağındaki bu alan değişti mi Hayır bu
+sabit suyu ısıttık diye ağırlığında bir
+değişiklik oldu mu Hayır olmadı su
+aynısı o zaman suyun tabandaki basıncı
+değişmez Ama hocam su genleştiği için H3
+artmıştır su genleştiyse öz kütlesi de
+azalmıştır değiştiren böyle ve basıncı
+arttı Çünkü yüksekliği arttı diyorsun
+yani hacmi arttı diyorsun e burada hacmi
+artarsa Özkütle azalacaktır Dolayısıyla
+bu toplamı değiştiremezsin üçüncü
+öncülüm Doğrudur Sorumun cevabı b
+seçeneğidir
+[Müzik]

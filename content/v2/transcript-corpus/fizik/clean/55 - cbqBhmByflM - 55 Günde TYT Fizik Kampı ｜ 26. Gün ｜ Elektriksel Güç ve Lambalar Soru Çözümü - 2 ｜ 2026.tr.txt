@@ -1,0 +1,508 @@
+iç direnci önemsiz piller bir reosta
+Özdeş iletkenler lamba ve anahtarlarla
+şekildeki devre oluşturulmuştur
+yargılarından hangileri doğrudur sanırım
+sağlam bir analiz yapmamız gerekecek bu
+devrede bakalım şimdi burada
+anahtarların açık olduğu yerler var
+Anahtar açıksa Onlar benim için yok
+hükmündedir Çünkü oradan akım geçmez
+akımın geçmediği yerde Beni
+ilgilendirmez buradaki güç kaynağının da
+önünde bir anahtar var bu güç kaynağı
+devreye herhangi bir katkıda
+bulunamayacaktır o anahtar açık olduğu
+müddetçe devremiz bu kadar yine tek bir
+hat elde ettik Dolayısıyla Buradaki her
+şey seri bağlı Bu lamba buradaki reosta
+buradaki iletken ki o da bir direnç
+etkisi gösterecek ve buradaki ampermetre
+Şimdi öyle bir şey yok ama kolay
+düşünmek adına buradaki iletkene R
+direnç desem buradaki reostaya da R
+direnç desem buradaki Lambaya da R
+direnç desem Şu an bunların hepsi seri
+bağlı olduğu için devrede 3r eş değer
+direnç var diyebilirim bu güç kaynağı
+devrede ve Potansiyel fark oluşturuyorsa
+o zaman devrenin potansiyel farkı veya
+olacaktır devrede de dolaşan akım da ı /
+3'tür diyebilir bu lambadan ı / 3 akım
+geçiyor bu ampermetre ı/ takım okuyor bu
+güç kaynağından ı/3 akım çekiliyor
+diyebiliriz yalnızca ilk anahtarı
+kapatıldığında lambanın Işık verme
+süresi artar lambanın Işık verme süresi
+güç kaynağı ile ilgilidir güç
+kaynağından çok akım çekilirse güç
+kaynağı çabuk biter çabuk tükenir lamba
+da söner az akım çekilirse de tam tersi
+olur şimdi ilk anahtarı şuradaydı onu
+devreye geri Getiriyorum o zaman bu hat
+bozulacak serilik bozuldu burayı
+kapattım Özdeş iletkenler dediği için
+buna R dediysem Buna da R demiş oldum bu
+hat paralel olduğu için komple 1/r +
+1/r'den 2/r ters çevir buranın r/2
+olduğunu düşünürüm burayı tek
+düşündüğümde tekrar seri olur bütün
+devre R burada var R burada var 2 r/2 de
+burada var 2,5 R Yani bizim devre
+direncimiz 2,5 R oldu devre direncimiz
+azaldı Çünkü paralel bir şey bağlı aldık
+sisteme paralel dirençler eklediğimizde
+eş değer direnç azalıyordu Çünkü
+iletkenden düşün üst üste Demir çubuklar
+koyduğumuzda kesit alanı büyüdüğü için
+iletkenin direnci azalıyordu benzer
+mantık pil ile aynı pil ve aynı ve
+direnç azaldığı için buradaki akımın
+artması lazım şimdi bunun matematiğini
+yapamayacağım Ama mesela ı/2'ye
+çıkmıştır 0.3 den 0.5'e çıkmıştır gibi
+bir yorum yapabilirim devre akımımız
+arttı devreden geçen akım arttığı için
+pilin ömrü azaldı pilin ömrü azaldığı
+için lambanın Işık verme süresi azaldı
+artar diyor birinci öncülüm yanlıştır
+yalnızca y anahtarını kapatırsam
+lambanın parlaklığı değişmez şimdi
+burayı Tekrar sileceğim çünkü x açık g
+kapalı olacak Buraya yeniden sildim
+buraya geri getiriyorum Şu anahtarı
+kapattım ne değişir yeni bir pil eklemiş
+oldum paralel olarak eklemiş oldum
+orijinal pilimizde V vardı bu arkadaş da
+Özdeş bir üreteç olduğu için burada da V
+var Bunları teke düşürdüğümde paralel
+bağlı iki tane üreteç tek bir üreteçmiş
+gibi düşünüldüğünde O da V oluyordu
+hatırlarsanız yani sanki Bunlar yokmuş
+da burada bir tane şöyle web potansiyel
+farkı oluşturan bir tane üreteç varmış
+gibi düşünebilir bir şey değişti mi
+devrenin potansiyel farkı yine ve bir
+şey değişmedi dirençlerimiz yine ilk
+hale döndü üçre o zaman yine devredene
+dolaşacak yine devrede ı/3 dolaşacak en
+baştaki gibi
+lambada başlangıçta da ı/3 akım
+dolaşıyordu Şimdi de 2/3 akım dolaşıyor
+lambanın parlaklığı güçle ilgilidir
+akımın karesi çarpı dirençten
+düşünülürse lambanın direncinde bir
+değişiklik olmadı üzerinden geçen akımda
+da bir değişiklik olmadı o zaman güçte
+de bir değişiklik olmadı lambanın
+parlaklığı değişmez Doğrudur reostanın
+sürgüsü ok yönünde çekildiğinde
+ampermetre'de okunan değer küçülür yine
+en başa dönelim yani buradaki y
+anahtarını yine açık konuma getireceğiz
+Dolayısıyla bu pilin büyük mü kalmayacak
+şu an yine ı/3'lük akım dolaşıyor reosta
+sürgüsünü ok yönünde hareket ettiriyorum
+bu arkadaşı şuraya getiriyorum Normalde
+Bizim akımımız tek bir hattan böyle
+dolaşıyordu eskiden şu kadarlık
+dirençten geçiyordu şimdi bu kadarlık
+dirençten geçecek reostanın orijinal
+haline Biz R direnç demiştik bunu
+azaltmış olduk diyelim ki bunu r/2'ye
+düşürmüş olduk bizim 3r direncimiz vardı
+şimdi bir yere iki R2 buçuk R oldu aynı
+buradaki durum gerçekleşti devre direnci
+azaldı o zaman devre akımı artacak Çünkü
+güç kaynağımız aynı güç kaynağımız
+devreden ı / 3 değil matematiğini
+Tamamen salladığım ı/2 geçecek daha
+büyük bir akım geçecek ampermetrede
+okunan değer de dolayısıyla
+üzülmeyecek büyüyecek üçüncü öncülüm
+yanlış cevap yalnız iki olmalı ama
+şıklarımız da yok burada bir dizgi
+hatamız olmuş C şıkkının cevabı yalnız 2
+olarak değiştirelim Cevabı da C olarak
+işaretleyelim iç direnci önemsiz üreteç
+ve Özdeş lambalar ile şekildeki devre
+kurulmuştur bu durumda bütün lambalar
+Işık vermektedir Buna göre devredeki K
+anahtarı açılırsa hangi lambalar söner
+denilmiş Bu da çok olta çok önemli bir
+soru şimdi ilk bakışta sanki şöyle
+anlaşılıyor hocam bütün lambaları Işık
+veriyor burayı açarsam ve bunun hemen
+yanındaki şu lamba söner buradan akım
+geçmez diğerlerinde bir problem olmaz
+Hocam işte burada güç kaynağı var
+buradan akım gelir İki kola ayrılır Bir
+kısmı Buradan gider bir kısmı Buradan
+gider Z'nin üzerinden geçer y'nin
+üzerinden geçer Burası açık anahtar
+olduğu için buraya akım gitmez sonra
+buradan gelir buradaki akım da buradan
+gelir ve böylece devreyi tamamlamış
+olurlar Yani bütün Lambalarda bir hat
+var Dolayısıyla sadece ve söner Hayır
+öyle olmaz bakalım öyle akım takip etmek
+çok kolay iş değildir nereye gideceğini
+kestirmek zordur Şimdi ben bu anahtarı
+açsam o telden akım geçmeyeceği kesin
+yani bu hattı direkt silebilirsin bu
+Allah'ın emri bunu da bir şey yok şu
+haldeyken bütün lambalar yanar mı nokta
+potansiyel yaparsak bunu anlamak çok
+kolaylaşır akım dediğim şey yüksek
+potansiyelden alçak potansiyele gider o
+potansiyelleri anlamam lazım diyelim ki
+bizim güç kaynağımız 10 voltluk bir güç
+kaynağı şurası 0 olsun şurası 10 olsun
+bu 10 Burası aynı zamanda burasıdır
+diyebiliriz Aynı zamanda burasıdır da
+diyebiliriz şurası da sıfırdır
+diyebiliriz şimdi bak bazılarınız
+yakaladı bile Z lambası y lambası ve x
+lambası aynı hat üzerinde değil mi Evet
+Normalde buralara da bir voltaj yazmam
+lazım ama gerek yok Bunlar seri bağlı
+oldukları için Şuradaki akım mecburen
+hepsinin üzerinden geçmek zorunda olduğu
+için aralara yazmama gerek yok Bunları
+direkt toplayadabilirim eş değerini
+bulabilirim Ama bu sarıyla çizdiğim
+yerden akım geçer mi buradan akımın
+gitmesi için yüksek potansiyelden alçak
+potansiyele gitmeli geldiği yerde 10
+volt var gittiği yerde 10 volttan küçük
+bir şey olmalı yolun sonunda bu arkadaş
+nereye ulaşıyor yine 10 volta ulaşıyor
+Dolayısıyla bu sarıyla çizdiğim hat
+üzerinde Potansiyel fark yok ki O yüzden
+oradan akım geçmez burada Bizim elektrik
+akım sadece şu Hatta Dolanır sadece T
+lambasını Yakar Geri kalanlar Söner Bu
+lambadan akım geçer çünkü bunun sol
+ucunda 10 volt var sağ ucunda 0 volt var
+buradan akım geçecektir yüksek
+potansiyelden alçak potansiyel akım
+gider E hocam siz Şurayı yazmadınız ki
+Belki Z'den de geçecek yani belki şurası
+5 volt bakın burada 10 var burada 5 var
+sağa doğru akım gidecek buradan yazmama
+gerek yok yolun sonuna bakmam yeterlidir
+Mesela ben bu t'nin yanına bir lamba
+daha koysam O da yanar Çünkü Yolun
+Başında 10 var sonunda sıfır var ya da
+yolu uzatalım yani plakalara ulaşalım
+şurada sıfır var işte burada ne var on
+var yani ondan sıfıra doğru dönecektir
+buraya kaç tane lamba koyarsan hepsi
+yanacaktır ama burada Yolun Başında da
+10 var sonunda da 10 var sorumuzun
+Cevabı D seçeneği olacaktır yine birçok
+öğrenciyi düşürecek şahane bir soru hiç
+direnci önemsiz üreteç ve x y z Özdeş
+lambalarıyla şekildeki devre kurulmuş
+devre de K ve L anahtarları da açık
+durumdaymış hangileri doğrudur açık
+anahtarları hemen siliyorum Onlarla
+uğraşmak istemiyorum Burası yok şurası
+da yok devre bu kadar yine tek Ata oldu
+Ne güzel herkes seri buradan gelen akım
+bütün lambalarımızdan geçer aynı akım
+geçer hepsi seri bağlı Hatta lambalar
+Özdeş olduğu için hepsinin güçleri de
+aynı parlaklıkları da aynı diyebiliriz
+r'ler aynı akımlar aynı o zaman Güçler
+aynı anahtarlar açıkken lambaların
+parlaklıkları eşittir Evet yalnızca K
+anahtarı kapatılırsa y'nin parlaklığı
+artar Şimdi burada potansiyel farktan
+düşürmek Daha kolay olabilir o yüzden
+ben bu parlaklık kıyaslaması yapacaksam
+mevcut durumun potansiyel farklarında
+yazayım sonra yeni durumlarla kıyaslıyım
+film izle ve potansiyel farkı var dersek
+bunun uçları arasında v/3 bunun uçları
+arasında v/3 bunun da uçları arasında
+v/3 vardır Çünkü bu seri olan
+arkadaşların toplamı pili verecektir
+şimdi ben ka'yı kapatıyorum o zaman
+burayı tekrar devreye geri alıyoruz o
+zaman hat değişir şurası kapalı burası
+bir boş telde O zaman burada x kısa
+devredir yani Sen şurada a potansiyeli
+var dersen buraya da a potansiyeli
+dersin buraya da a potansiyeli dersin
+ikisinin uçuşlar arasında Potansiyel
+fark yok ki bunun üzerinden akım geçmez
+bu İptal o zaman yeni hattımız şu olur
+Yine Bunlar seri bağlı ama kimler seriyi
+bağlı y ile Z seri gibi film izle ne
+kadar Potansiyel fark vardı Ve artık Z
+kaldı Sadece elimde o zaman Bunlar v/2
+v/2 potansiyel farka sahip olacaklar
+y'de başlangıçta v/3 vardı şimdi v/2'ye
+çıktı Potansiyel fark arttı gücü arttı
+parlaklığı arttı Çünkü güç v'nin karesi
+bölü r ile bulunur bakın burada
+potansiyel farktan bulmak daha kolay
+akımdan düşünmeye çalışsaydım her
+seferinde yeni eşdeğer direnç
+hesaplamalıydı Çünkü pil aynı pil akım
+çarpı direnç yapacaksın ve Sen şimdi
+burada ikisi kapattığında devrenin eş
+değeri değişti o zaman yeni bir akım
+çekilecek pilden sonra onu bir daha
+dağıtacaksın uzun iş ama potansiyel
+farktan düşünürsem hiç böyle ekstra vır
+yapmama gerek kalmaz direkt
+dağıtabilirim ve ikinci öncülüm de doğru
+kw birlikte kapatılırsa X ve ye söner
+Z'nin de parlaklığı artar şimdi Kai
+zaten kapatmıştık y'yi de kapatacağız
+hattımız değişecek yine Şurayı aktif
+edeceğiz En başa geri döndüm ve bölü 3
+vardı hepsinde k ile l'yi birlikte
+kapattım artık Burası da var ve Burası
+da boş tel o zaman Ne olur Bak burada a
+vardı Burası a olmuştu k- kapatıldığı
+için Burası da a boş telden dolayı
+Burası da A oldu Şuraya da a gelir
+buraya ulaşamadım zaten pilin bir UC
+demiş oldum diğer ucuna da B demiş
+olalım pilimizi a ile b arasında z
+lambamız a ile b arasında geri kalan
+bütün lambalarımız a ile a arasında Şu
+an devre nasıl bir şey biliyor musunuz
+herkes kısa devre Z hariç şöyle bir hat
+üzerinden devre tamamlanacaktır Hatta
+bunu çizmek istersem a ile b arasında
+pilimi yerleştiririm a ile b arasında Z
+lambamı yerleştirir pil de V Potansiyel
+fark var o zaman Z lambasında da V
+Potansiyel fark var Z'de v/3 vardı
+başlangıçta şimdi ne oldu İki anahtar
+birden kapatılırsa ve oldu parlaklığı
+arttı Parlaklığı 3 kat mı arttı Hayır 9
+kat arttı Neden Çünkü Normalde buraya
+v/3'ün karesi yazıyorduk yani v²/9
+geliyordu Bu da p bölü 9 denebilir Şimdi
+direkt v'nin karesi yazıyoruz v'nin
+karesi olduğu için direkt p yazacağız
+p/9'dan p'ye çıktı gücü parlaklığı 9 kat
+arttı diyebiliriz üçüncü öncülüğünde
+doğru oldu Sorumun cevabı e seçeneğidir
+iç direnci önemsiz üreteç ve Özdeş
+lambalarla şekildeki devre kurulmuştur
+devrede k l ve M anahtarları açık
+durumdadır Buna göre hangileri doğrudur
+açık Burası yok hükmünde L anahtarı açık
+Burası yok hükmünde M anahtarı açık
+Burası yok hükmünde şu telin ucu boşta
+kaldı o zaman Burası da yok hükmünde
+akım oradan atlayıp gitmeyeceğine göre
+bu da yok devre bu kadar 3 tane lamba
+seri bağlı tek bir hat var anahtarların
+hepsi açıkken sadece 3 lamba yanar evet
+Bu üç arkadaş yanar birinci öncülüğüm
+doğru lambaların hepsinin yanması için
+bütün anahtarlar kapatılmalıdır bütün
+anahtarları geri getirelim o zaman
+Hepsini kapatalım Şurayı kapatalım
+Şurayı kapatalım Şurayı kapatalım kısa
+devre ihtimalleri olabilir bakmak lazım
+ki hemen gördüm Aslında bir tane mesela
+şuraya Ben A harfini versem Burası da A
+olur şurası da A olur boş tel Burada da
+a var hatta Burada da a var bakın Bu
+lamba 2 tane anın arasında kaldı
+Dolayısıyla uçlar arasında Potansiyel
+fark yok Dolayısıyla bu arkadaş kısa
+devre'dir bütün anahtarları kapatırsam
+bütün lambalar yanmıyor me anahtarı
+kapatılırsa yanan lamba sayısı artar
+Yine başa dönelim Yani bütün anahtarları
+açık duruma döneceğiz m'yi kapatıyorum
+yani m'yi geri getireyim şimdi L hala
+açık olduğu için şurası yine yok m'yi
+kapatıyorum burası kapalı nasıl bir şey
+oldu orijinalde Şu
+lambanın yandığını hatırlayalım acaba bu
+lambada yanar mı Ben burayı kapattım
+diye yanar gibi duruyor değil mi hocam
+şuradan akım gelir Buradan böyle geçer
+şuraya gelir İki kola ayrılır birazı
+soldan gider birazı sağdan gider soldan
+giden akım sayesinde üstteki lamba yanar
+devreyi tamamlarlar falan akım takip
+etmek tekrar söylüyorum kolay iş
+değildir çok hakim değilsiniz mevzuya
+yapmayın başka taktikler deneyin buradan
+sola doğru akım gider mi gitmez neden
+nokta potansiyel a harfi a harfi
+buraların hepsi a harfi Bak yine kısa
+devre oldu bu adam Evet bu hattı buraya
+kadar doğru çizdik Ama dediğim gibi kısa
+devre olur bu arkadaş buradaki boş teli
+tercih eder bu Lambayı Yakar ve devreyi
+tamamlamış olur Yine üç tane lamba yanar
+M anahtarını kapattık diye Bu lamba
+yanmaz yanan lamba sayısı artmaz
+yalnızca 1'e Doğru demiş olduk sanırım
+sorumuzun cevabı a seçeneğidir iç
+direnci önemsiz üreteç reosta ve Özdeş
+lambalarla şekildeki devre kurulmuştur
+reostanın sürgüsü x noktasına doğru
+getirildiğinde klm lambalarının
+parlaklıkları İlk duruma göre nasıl
+değişir diye sorulmuş güzel çok kolay
+bir soru değil Şimdi biz burada takım
+dağıtalım Potansiyel fark dağıtalım ama
+sakın şöyle yapmaya yeltenmeyin yine
+Hocam ben bunların hepsine R diyeceğim
+sonra bir eşdeğer direnç bulacağım
+vırdan da pilden ne kadar akım geçtiğini
+bulacağım falan Hiç oralara girmeyin
+çıkamazsınız işin içerisinden başka
+şeyler yapmak lazım Mesela daha önce
+yaptığımız bir taktiği kullanabiliriz
+direkt oranla'ya oranla ya kendim akım
+uydurabilirim yani Ben bunların hepsini
+R diyeyim ki zaten Özdeş lambalar bunu
+diyebilirim şurada reostanın akımın
+geçtiği bu kadarlık bir direnç kısmı var
+buraya da R diyorum Çünkü buradan gelen
+akım bu sürgüden gelip böyle sağ tarafa
+gidip bu kadarlık dirençle muhatap
+olacak Bak şimdi akım dağıtıyorum buraya
+dikkat et şu üst kısımla şu kısım
+paralel bağlı değil mi Evet paralel
+bağlı uçlar arasındaki potansiyel
+farklar aynı o zaman aşağıda 2 R var
+aşağı bir iyi akım gidiyor dersem
+yukarıya iki iyi akım gidiyor demem
+gerekir Yukarıdaki Potansiyel fark 2 iyi
+yere aşağıdaki Potansiyel fark iyi çarpı
+iki kere eşit Çünkü paraleller Demek ki
+buradan ne geliyor 3 iyi geliyor demek
+ki hala lambasından 3 iyi geçiyor
+parlaklık dediğim şey akım üzerinden
+düşünülürse akımın karesi çarpı direnç
+Ben burada reosta ile oynayacağım
+birazdan
+var yukarıda 2B aşağıda 2 ve bunlar
+paralel teke düşerse yine 2B bu 3v ile
+bu 2v seri 5v Demek ki pil de ben şu an
+5v Potansiyel fark varmış gibi kabul
+etmiş oluyorum şimdi ben reosta ile
+oynadım bunu x'e kadar çekiyorum bu
+arkadaşı şuraya kadar çekersem buradan
+gelen akım artık daha fazla dirence
+maruz kalır sen buradaki r'yi arttırmış
+oldun sallıyorum artık burada r yok 3r
+var ne olur her şey değişir Bir kere
+devrenin eş değeri değişir devrenin eş
+değeri değiştiği için plan aynı pil buna
+5v diyelim akım değişir buradan gelen 3
+iyi değişir Dolayısıyla farklı
+dağıtacağız akımlar değiştiği için
+potansiyel farklarda değişecek ne
+değişmeyecek tek değişmeyen şey 5v kabul
+ettiğimiz pil şimdi yeni akımlar
+uyduruyorum şunları sildim Şimdi aşağıda
+4rev var yukarıda R var Yeni akımları
+dağıtırken buna uygun vereceğim bunlar
+hala paraleller ıçer preler akım çarpı
+dirençler aynı olacak buradan iyi üssü
+gidiyorsa buradan 4 iyi üssü gidiyor
+Hocam niye iyi demediniz Çünkü İyiler
+artık farklılaştı onlarla karıştırmamak
+adına başka bir akım tanımıyorum buradan
+ne geliyor 5 i üssü geliyor o zaman k
+lambasından da 5 en iyi üssü akımı
+geçiyor pilden de bu geliyor pilimiz
+hala 5 volt dirençler de değişmedi K
+lambasını direnci R 5i üssü geçiyorsa
+ben buna şu an 5v üssü diyorum L
+lambasına R direnç var 4i üssü geçiyorsa
+buna 4 V üssü Potansiyel fark diyorum i
+üssü var burada 3r var O zaman burada 3v
+üssü Potansiyel fark bu i üssü M
+lambasından geçecek i üssü çarpı r'den V
+üssü Potansiyel fark yukarıda 4V üssü
+var aşağıda da 4V üssü var burası teke
+indiğinde 4 ve üstü 5v üssü k ile seri
+9v üssü Yani ben şu an pile ne demiş
+oldum 9 ve üstü var demiş oldum O zaman
+V üssü dediğim şey 5v/9'dur şimdi soru
+bitti k'da normalde en başta ne vardı
+k'da 3v vardı şimdi ne var 5v üssü var V
+üssü 5/9 olduğuna göre 25 ve 9 Var 25 ve
+bölü 9 3v'den küçüktür 27 olsa 3 olurdu
+çünkü o zaman K'nın parlaklığı azalmış
+l'de Normalde 2v vardı sonra bu 4V üssü
+oldu V üssü 5/9 olduğuna göre ne olmuş
+20 ve 9 18/9 olsaydı 2 olur eşit olurdu
+20/9 olduğu için daha büyük yani l'nin
+parlaklığı artmış m'de başlangıçta V
+vardı şimdi V üssü var V üssüne 5v/9
+yani v'den küçük bir sayı o zaman m'nin
+parlaklığı azalmış K azalır L artar M
+azalır sorunun cevabı e seçeneği
+olacaktır Bu soru ortalamanın çok
+üzerinde bir soru bunda sıkıntı
+yaşıyorsanız çok kafanıza takmanıza
+gerek yok ama meraklıları için böyle bir
+soru koymak istedim açıkçası bir reosta
+ile oynadığınızda oradaki durumu komple
+değiştirirsiniz yeni durum adapte olmak
+için yeni akımlar yeni potansiyel
+farklar tanımlamanız gerekir Ben de Bu
+soruda onu yapmaya çalıştım Ama dediğim
+gibi bu soruyu anlamayanlar Eyvah tyt'de
+böyle bir şey çıkar mı diye üzülmesinler
+bu biraz meraklısına bir soruydu Ama bu
+soru tyt'de çıkar iç direnci önemsiz
+üreteç ve Özdeş bir iki üç dört beş altı
+lambaları ile şekildeki devre
+kurulmuştur bu durumda devrede en parlak
+yanan lambalar hangisidir Hocam bu da
+çıkmasın Bu da çok karışık kim seri kim
+Paralel ne yapacağım harflendirme yapıp
+devreye yeniden mi çizeyim hiçbirine
+gerek yok sorumuzun cevabı e seçeneğidir
+gençler ben bu soruya kalem bile
+oynatmam Neden Çünkü bir devrede en
+parlak yanan lamba pile seri bağlanan
+lambadır sebep akımdan düşün güç eşittir
+lambadan geçen akımın karesi çarpı
+lambanın direnci soruda bütün lambalar
+Özdeş Dolayısıyla bütün lambaların r'si
+aynı kimden çok akım geçiyorsa o daha
+parlaktır şimdi bu pilden Bir akım
+çıkacak ne çıkarsa çıksın diyelim ki 10
+amper akım çıktı birazı buraya gitti
+birazı buraya gitti Sonra buradan geldi
+Buraya giden var Sonra buraya geldi
+Buraya geldi yani bir sürü akım dağıldı
+birinden 3 gidiyor birinden 5 gidiyor
+fark etmez sonra buradan bir şey geldi
+Buradan geldi bunlar en nihayetinde
+şurada birleşip 10 amper olacaklar mı
+olacaklar Çünkü Ne çıktıysa o geri
+gelmeli Yani 6 numaralı lambadan 10
+amper geçecek diğerlerinden parçalanmış
+10 amper geçecek ikisi birinden üçü
+birinden dördü birinden ayrı ayrı
+geçecek güç kaynağına seri bağlanmış
+olan lamba potansiyel olarak
+geçirebileceği en yüksek akım üzerinden
+geçirir diğer yerlerde kollara ayrılma
+olur akımlar azalır O yüzden burada hiç
+işleme gerek yok sorumuzun cevabı E
+seçeneğidir bu soruyla beraber bu test
+le beraber elektrik ünitesinde tamamen
+bitirmiş oluyoruz takıldıklarınızı alta
+yazın Kendinize iyi bakın görüşürüz
+[Müzik]

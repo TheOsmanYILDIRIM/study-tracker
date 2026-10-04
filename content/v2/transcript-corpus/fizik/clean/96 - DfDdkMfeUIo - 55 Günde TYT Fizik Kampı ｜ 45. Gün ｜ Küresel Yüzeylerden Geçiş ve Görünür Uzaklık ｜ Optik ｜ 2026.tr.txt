@@ -1,0 +1,768 @@
+son dersimizde sınır açısını ve tam
+yansımayı öğrenmiştik o dersimizde
+kullandığımız bir deneyi bugünkü
+dersimizde de kullanacağız bugünkü
+dersimiz küresel yüzeylerden ışığın
+geçişi olacak ve sonrasında görünür
+derinlik kavramları olacak Öncelikle şu
+küresel yüzeylerden ışığın nasıl
+geçeceğini nasıl kırılacağını konuşmamız
+lazım bakın Burada yarım daire şeklinde
+bir cam prizma var burada bir ışık
+kaynağım var bu ışık kaynağından şu en
+parlak olanına dikkat edelim küresel bir
+yüzeyden geçiyor Aynen geçiyor herhangi
+bir kırılmaya maruz kalmıyor sonra
+burada düz bir yüzeye alışk olduğumuz
+bir yüzeye denk geliyor oradan da aynen
+geçiyor gidiyor Hiç kırılmamış bu adam
+ama bir başkasına baktığımda Mesela
+şöyle çapraz bir Işın geliyor Bu çok
+belli belirsiz silik ama az buçuk
+anlaşılıyor bu adam gelmiş burada başka
+bir doğrultuya geçmiş sonra bu yüzeye
+Muhtemelen dik geldiği için Aynen geçmiş
+gitmiş bir benzeri burada da var O adam
+nereden geldi şuradan bir Işın geldi
+farklı bir doğrultuda kırıldı sonra
+Muhtemelen bu yüzeye dik geldi geçti
+gitti bunları nasıl çizeceğiz bunu nasıl
+çizeceği göster serelim şimdi bizim cam
+bilyelerim var hava ortamında bilyelerim
+camdan yapılmış hava ortamının indisinin
+küçük olduğunu biz biliyoruz cam
+ortamının indisinin büyük olduğunu
+biliyoruz Dolayısıyla en hava küçüktür n
+camı buraya yapıştırdım az indis çok
+indis geçerken normale yaklaşırız çok
+indis az indis geçerken normalden
+uzaklaşırız normalin üzerinden
+geliyorsak gelme açımız 0 derece isse
+kırılma açımız da 0 derecedir indis
+farkına bakılmaksızın Aynen yolumuza
+devam ederiz yani bir ayırıcı yüzeye dik
+geliyorsak doğrulturuz değişmez dümdüz
+gideriz bunları önceki derslerde
+konuştuk şimdi böyle küre bir yüzeye
+ışınımı geliyor ama alelde bir Işın
+değil bu o kürenin merkezini hedefleyen
+bir Işın oraya doğru geliyor Küresel
+aynalarda konuşmuştuk Küresel aynalarda
+o küresel kısımda şöyle ufacık bir teet
+hayal etsem merkezden çizilen Yarıçap
+doğrultusundaki çizgi o te diktir O
+yüzden Küresel aynalarda normal çizgisi
+çekerken merkezden çekmiştik Aynı şey
+Burada da geçerli Burada da bir küre var
+ışığın geldiği şu noktaya normal çizgisi
+çekeceğim ona göre nasıl kırılacağına
+bakacağım o normal çizgisini kürenin
+merkezinden çekmeliyim O zaman bu Bu
+benim normalim is kırmızı ışınım
+normalin üzerinden geliyor nasıl gidecek
+Aynen yoluna devam edecek Çünkü n hava
+çarpı gelme açısının sinüsü ki kendisi 0
+derece normalin üzerinden geliyorum
+herhangi bir açı yok eşittir n cam çarpı
+kırılma açısı şu an kırılma açısını
+bilmediğimi varsayıyorum buna R dedim e
+Sinüs 0 Matematikte 0 demek o zaman
+Burası komple 0 yaptı 0'la Bir sayıyı
+çarparsan sonuç 0 olur o zaman Burası da
+komple 0 olmalı n camın 0 olma ihtimali
+yok indis dediğiniz şey birden büyük
+olmalı sinüs R 0 olmak zorunda sinüsün
+hangi değeri 0 0 0 derece açısı 0 o
+zaman kırılma açısı da 0 yani kırılan
+Işın da normalin üzerinden gidecek bu
+ışınımı merkeze hedefleyen ışınımı
+normalin üzerinden geldiği için Aynen
+yoluna devam edecek peki Buraya kadar
+geldik Buradan nasıl çıkacağız ışığın
+geldiği bu noktaya normal çekeceğim
+nereden çekeceğim Tabii ki merkezden E
+ben yine normalin üzerinden geliyor
+muyum Evet nasıl devam edeceğim aynen
+devam edeceğim doğrultu hiç değişmeyecek
+biz burada bu en parlak ışını nereye
+hedefleyerek göndermiş bu yarım dairenin
+merkezine göndermiş Dolayısıyla ben
+ışığın geldiği şu nokta noktaya bir
+normal çekersem bunu merkezden çekeceğim
+Şu Arkadaş ki videoda da belli normal
+çizgisi diye yazılmış Bizim normal
+çizgimizdir Işın normalin üzerinden
+geliyor Yani aslında tam bu noktaya dik
+çarpıyor diyebiliriz Aynen yoluna devam
+ediyor hocam peki burada niye Aynen
+yoluna devam etmiş burada camdan havaya
+geçerken niye kırılmamış E çünkü bu
+kesikli çizgi buraya da dik bu yüzeye
+dik durumda şu an o yüzden senin ışının
+yine normalin üzerinden geldiği için
+Aynen yoluna devam etmiş Peki şu arkadaş
+Merkezi hedeflemiş bunu Nasıl kıracağız
+merkezden normalini çek Gelme açısı şu
+an Burası orijinal rotamız bu kesikli
+çizgi kırılmasaydı böyle dümdüz
+gidecektim havadan cama geçiyor muyum
+Evet az indis çok indis geçiyor muyum
+Evet o zaman normale yaklaşacağım
+orijinal rotam da gitmeyeceğim Altımdaki
+bu normale daha yakın gideceğim şöyle
+falan peki Buraya geldim buradan camdan
+havaya geçeceğiz nasıl geçeceğiz ışığın
+geldiği bu noktaya merkezden normalim mi
+Çektim orijinal rotam bu ortam
+değiştirmesiyle dümdüz gidecektim camdan
+havaya geçiyorum çoktan aza geçiyorum o
+zaman normalden uzaklaşacak orijinal
+Rota Bu normal bu tarafta Ben ondan
+kaçacağım şöyle falan gitmem gerekiyor
+Bakın şu belli belirsiz ışına
+odaklanalım bu adam nasıl böyle gitmiş
+onu anlamaya çalışıyoruz merkezden bu
+ışığın geldiği yeri şöyle düşünürsem
+normal çizgim şöyle bir şey ışınım
+normale geldi havadan cama geçiyorum
+normale yaklaşacağım Benim orijinal
+rotam böyle bir şeyken normale yaklaşmam
+gerekiyor böyle gittim Belli ki şu
+yüzeye Şu an 90 derece ile çarpıyoruz
+yani o yüzeyin normalinin üzerinden
+geliyoruz o yüzeyin normal çizgisi şu bu
+da 90 yapıyor ışınım normalin üzerinden
+geldiği için 90 dereceyle geldiği için
+yani yüzeye ay Aynen yoluna devam ediyor
+benzer bir şey burada da var geldi
+normale yaklaştı 90 dereceye denk geldi
+normalin üzerinden geldi yani yoluna
+aynen devam etti şöyle ve aynen devam
+ister Buradaki gibi küresel yüzey
+düşünelim istersek Alışık olduğumuz gibi
+buradaki gibi düz yüzey düşünelim
+yaptığımız tek şey kırılma kanunlarını
+uygulamaktır normale yaklaşma normalden
+uzaklaşma bakın burada cam bir kürem var
+burada bir lazerim var Işığımı gönderdim
+küreye geçtiğinde kırıldı dışarı
+çıkarken bir daha kırıldı bu kürenin
+merkezini şöyle bir nokta kabul edersem
+ışığın geldiği birinci noktaya merkezden
+geçecek şekilde bir normal çekiyorum
+orijinal Rotası yatayda havadan cama
+geçtiğim için normale yaklaşmış çıktığı
+noktada yine bir normal çekiyorum
+merkezden camdan havaya geçtiğimiz için
+orijinal Rotası şöyle bir şeyken
+normalden uzaklaşmış ben bu ışını
+merkeze doğru gönderirsem bakın Işık
+dümdüz gidiyor Az önceki deneyde de
+gördük Çünkü normalin üzerinden geliyor
+normalin üzerinden geçiyor gidiyor bu
+şekilde küresel yüzeylerde kırılmayı
+merkezden normaller çekerek çok rahat
+anlayabilirsiniz burada bir şey daha
+anlatmak istiyorum bir soru tipi Aslında
+bu Alfa açısıyla geldi kırıldı çıkarken
+bir daha Kırıldı Şimdi bu adam Alfa
+gelme açısına sahipse normalle Alfa
+yapıyorsa gelen ışın buradan çıkarken
+normal çizgisiyle yapacağı açı yine
+alfadır niye Alfa ile geldim Beta ile
+kırıldım Burası bet İsa Burası da badır
+o yüzden Beta ile gelirim Alfa ile
+kırılırım niye hocam Buralar aynı oldu
+betaya Beta Çünkü burada ikizkenar bir
+üçgen var Şu kenar bu kürenin yarıçapı
+bu kenar da aynı kürenin yarıçapı burada
+bir üçgen var gördüğünüz gibi Yarıçap
+Yarıçap Şu kırmızı çizgi üçgeni E o
+zaman buradaki açı Neyse buradaki açı da
+odur O optikte Işık tersine bilil
+geldiği rotadan geri dönebilir Yani
+benim Şu gönderdiğim Işın Aynen geriye
+gönderil Seydi bu Rotayı izleyip devam
+edecekti geri gönderil Beta ile gelip
+Alfa ile kırılmış olurdu E bu sağ
+tarafta olan şey de o bu arkadaş geldi
+Beta ile geldi Nasıl kırılacak kırılan
+ışığının normalle yapacağı açı ne olacak
+Alfa olacak bu sorula karşınıza çıkar
+dikkat edin tek renkli x y z ışınları
+camdan yapılmış o merkezli yarı küre
+biçimindeki cisme gönderiliyor Buna göre
+x y z ışınlarının izleyeceği Yolları
+çiziniz e simülasyon deney falan derken
+bunları ığını Düşünüyorum şimdi burada
+iki tane yüzey var eğrisel bir yüzey var
+bir de düz bir yüzey var bizim deneyimiz
+Deek gibi x ışınının düz bir yüzeye
+geldiğini görüyorum o zaman o düz yüzeye
+dik normal çizgimi çekeceğim aynı normal
+çizgisinden Y'ye de çekiyorum aynı
+normal çizgisinden Z'ye de çekiyorum Bu
+arkadaşların hepsi o yüzeye Dikler çünkü
+normalin olayı budur X ışını havadan
+cama geçiyor az indis çok indis geçiyor
+O zaman ne yapacak orijinal rotasından
+normale yaklaşarak kırılacak normale
+yaklaşıp Şuraya bir yere gidecek hocam y
+merkeze geliyor Bu yarım kürenin
+merkezine geldiği için az önce gördük
+aynen devam et eder aynen devam etmen
+için normalin üzerinden gelmen lazım tüm
+mevzu normalle alakalı Ama hocam olur mu
+burada Merkezi hedefleyen bir Işın
+çizdirdim bize bu adam Merkezi
+hedefliyor diye aynen geçer gider
+dediniz Evet öyle dedim ama asıl sebep
+neydi ben bu yüzeye ışığın geldiği bu
+noktaya normal çektiğimde merkezden
+çektiğim için Aynen geçer gider dedim bu
+adam normalin üzerinden geldiği için
+geçer gider dedim y'nin geldiği noktanın
+normali bu kesikli çizgi ona uygun
+davranmak zorunda burada eğrisel bir
+yüzey var burada düz bir yüzey var aynı
+şey değil bunlar o zaman y'nin Gelme
+açısı şöyle bir şey aynı x gibi hava
+ortamından cam ortamına geçiyor normale
+yaklaşmalı Bu arkadaşın orijinal Rotası
+böyle bir şey normale yaklaşacak İsa
+eğer buradan şöyle falan kırılması lazım
+Z dediğim arkadaş İşte bu normalin
+üzerinden geliyor bak ayırıcı yüzeye dik
+geliyor işte bu Aynen yoluna devam
+edecektir buraya kadar gelecek x buradan
+çıkacak camdan havaya geçeceğiz
+normalden uzaklaşacak normalim ii
+çekelim eğrisel yüzeyde merkezden
+çekilir normal y'nin normali merkezden
+çekilir şöyle Z'nin normali merkezden
+çekilir şöyle işte bu çizgiler normal
+çizgileri bulundukları yüzeylere
+şuralara 90 derecelik açı yapan çizgiler
+x şöyle bir açıyla geliyor orijinal
+Rotası bu ama orijinal rotasında gidemez
+hava ortamına geçiyor camdan havaya
+geçeceğim çoktan aza geçiyorum normalden
+uzaklaşacak Normal bu tarafta orijinal
+rotam bu uzaklaşacak şöyle falan
+gideceğimi söyleyebilirim Bu X'in Rotası
+dır Y'ye baktım y'nin normali bu E bu
+kesikli çizgi y'nin üzerinden geldiği
+bir şey değil mi Evet E çünkü y
+merkezden geliyor E normal de merkezden
+çizildi y şu an normalin üzerinden
+geliyor o zaman y dediğim adam Aynen
+yoluna devam eder çünkü bu yüzeye dik
+çarpıyor Aynen geçecek E hocam burada
+merkeze geldi kırdınız burada merkezden
+geldi kırmadın ezber yapmıyoruz normale
+bakıyoruz normal çiziyoruz buradaki
+normalle arasında bir açı vardı buradaki
+normalle arasında bir açı yok açı 0
+olduğu için Aynen geçti gitti açı 0
+olmadığı için normale yaklaşarak kırıldı
+başka şeyler bunlar mesela Z burada
+normalin üzerinden geldiği için Aynen
+geldi geçti burada da aynen geçip
+gidecek mi Hayır gitmeyecek bak Z'nin
+normali merkezden çizilen şu kesikli
+çizgi Gelme açısı var Bu arkadaşın ıır
+değil normal üzerinden gelmiyor camdan
+havaya geçtiği için normalden
+uzaklaşacak başka renkle çizelim iyice
+karışmasın orası orijinal Rotası bu
+kırılmasaydı dümdüz gidecekti Normal bu
+tarafta normalden uzaklaşacak Yani şöyle
+falan gidecek bu arkadaşın Rotası budur
+diyebiliriz bu X'in Rotası bu y'nin
+Rotası Bu da Z'nin Rotası gençler şimdi
+enteresan bir soruyla değişik bir
+tecrübeyle devam edelim suyun
+içerisindeki metal parayı almaya
+çalıştığımızda bir tuhaflık hisseder
+miyiz bunu illaki denize gittiğinizde
+plajda sahilde tecrübe etmişsinizdir
+deniz kenarına inersiniz bir taş
+görürsünüz çok hoşunuza gider Çok
+yakında durur elinizi bir dal aldırırsın
+farklı bir algıya kapılırsınız taşı
+başka bir yerde yakalarsınız sanki
+günlük hayattaki deneyimlerinizden biraz
+daha farklı gelir size Mesela bir
+Balıkçı Denizin içerisindeki bir balığı
+elindeki zıpkınla ya da başka bir şeyle
+denizin dışından suyun dışından
+yakalamaya çalıştığında Ona Doğru Bu
+zıpkını tuttuğunda bakın onu hedefliyor
+fakat balığı pas geçiyor balığı
+yakalayamıyor çünkü balık orada değil
+başka bir yerde biz farklı algılıyoruz
+hava ortamında olduğu yerde gördüğünüz
+balığı suya soktuğunuz Onun başka bir
+yerde de algılandığını görürsünüz balık
+aslında diptedir ama gözler onu daha
+Yukarıda bir yerde kendilerine daha
+yakın bir yerde algılarlar balığı
+orijinal yerinde göremezsiniz işte hava
+ortamından denize Bakıp Bir taşı
+beğendiğinize elinizi daldırdığı da
+aslında şunu yakalamaya çalışıyorsunuz
+da o daha derinde sen yanlış yerde
+arıyorsun o yüzden farklı bir algıya
+kapılıyorsunuz günlük hayattaki
+deneyimlerinden farklı bir şey
+yaşıyorsun orada Peki neden böyle oluyor
+e bakalım ben hava ortamında burada bir
+para var suyun içerisinde benim bu
+parayı görmem için bu paradan çıkan
+ışınların gözüme ulaşması lazım Mesela
+şöyle bir Işın çıkarttım tamamen kafama
+göre uyduruyorum böyle bir Işın
+çıkarttım suyun yüzeyine kadar getirdim
+bu Işın sudan havaya geçecek normalden
+uzaklaşarak kırılmalı Yani bu ışının
+çarptığı yere yüzeye dik bir normal
+çekiyorum orijinal Rotası bu ama
+normalden uzaklaşacak için normalden
+kaçacağı için şöyle kırılır ve göze
+ulaşır paradan çıkan Işın göze bu
+şekilde ulaştı veya aynı noktadan başka
+bir Işın çıkartalım benzer bir normal
+var Bu da normalden uzaklaşacak şöyle
+falan göze ulaşacak paradan çıkan
+ışınlar yolda başlarına bir şey gelerek
+göze ulaştılar fakat fakat göz o ışığın
+başına yolda ne geldi bilmez göz der ki
+bu iki Işın şuradan bir yerden bana
+dümdüz geldi der bu iki mavi Işın Şu
+kırmızı noktadan değil de buradaki bir
+kırmızı noktadan çıkmış zanneder O
+kırmızı nokta Daha yukarıda algılanır
+para Daha yukarıda algılanır az indisli
+hava ortamından çok indisli su ortamına
+bakıyorsan cisimleri bulunduğu yerden
+kendine yani göze daha Yakında görürsün
+Bu önemli Azdan çoka bakıyorsan kendine
+yakın görürsün o yüzden Balıkçı balığı
+avlayıcı
+çıkan ışınlar normalden uzaklaşarak göze
+gidiyorlar fakat göz ne zannediyor Bu
+ışınlar şuradan bir yerden geliyor
+buradaki balıktan geliyor zannediyor
+balığı kendine daha yakın algılıyor
+Dolayısıyla bu zıpkını Algıladığı yere
+gönderiyor E orada Balık yok ki Tabii ki
+pas geçeceksin Tabii ki yakalayamayacağı
+ne yapması gerekir Bunu tahmin ederek
+daha aşağıya göndermesi gerekir ben onu
+orada algılıyorum ama balık Orada
+aslında değil daha aşağıda bir yerde
+demesi lazım Bak şu an daha aşağıya bir
+yere gönderiyor ve balığı bu sefer
+tutturabilir ışığın kırılmasını dikkate
+alarak başarıya ulaşıyor gözlemci
+dışarıdayız hava ortamında İsa az indis
+isse çok indisli suyun içerisindeki bir
+balığa bakıyorsa bunu Daha yukarıda
+algıların ispatını yaptık Peki her zaman
+böyle mi olur her zaman gözlemci az
+indisli yerde mi olur Hayır olmayabilir
+bu sefer suyun içerisindeki balık
+gökyüzündeki havadaki kuşa baksın Yani
+biz bu sefer çok indisli ortamdan az
+indisli ortama bakıyoruz balığın bu kuşu
+görmesi için kuştan çıkan ışınlar
+balığın gözüne gelmeli Ama bu ışınlar
+dümdüz gelemez ortam değiştirince
+kırılır Mesela şöyle bir Işın ayırıcı
+yüzeye dik normalim mi Çektim Azdan çoka
+geçiyor bu Işın orijinal rotasından
+normale yaklaşarak kırılacaktır ve
+balığın gözüne gelecektir Dolayısıyla
+kuş hakkında bir fikir verdi şu an bu
+Işın veya aynı noktadan şöyle bir Işın
+çizsem yine normale yaklaşarak kırılır
+balığın gözüne gelir ve balık da
+zanneder ki bu kırmızı Işın Aslında
+şuradan bir yerden geliyor bu mavi Işın
+Aslında şuradan bir yerden geliyor
+Dolayısıyla bu kuş aslında burada bir
+yerde kuşu olduğu yerden çok daha uzakta
+görüyor kendine daha uzak görüyor Demek
+ki çok indisli ortamdaki gözlemci az
+indisli ortamdaki cismi kendisinden daha
+uzak görür Azdan çoka bakarken kendimize
+yakın görüyoruz çoktan aza bakarken
+kendimizden uzakta görüyoruz şimdi bazı
+örnekler izleyelim Azdan çoka bakma
+durumundan yani cisimlerin görünür
+derinliğinin daha az olduğu durumları
+kendimize daha yakın olduğumuz durumları
+göreceğiz Adamın elinde yarısı sarıya
+boyanmış bir tahta parçası var buradaki
+sarı bölmenin uzunluğuyla kahverengi
+bölmenin uzunluğu aynı biz bu kalası
+sopayı Neyse artık suya soktuğumuzda çok
+değişik bir görüntüyle karşılaşacağız
+bakın Tam burada durdurdum buradaki
+tahta parçasının yarısı kahverengi sarı
+da bunun kadardı Ama şu an Sarı ne kadar
+gözüküyor kısacık gözüküyor Neden Çünkü
+bu sarının en alt ucu Aslında çok
+derinlerde fakat biz dışarıdan bakan
+gözlemciler Onu kendimize daha yakın
+gördüğümüz için şurada olması gereken
+tabanı Daha yukarıda görüyoruz
+Dolayısıyla bu sarı bölgeyi daha kısa
+algılıyoruz mevzu tamamen görünür
+derinlikle ilgili orijinal derinlikte
+değil algıladığımız derinlikte görüyoruz
+Bu Kalasın yarısı içeride yarısı
+dışarıda sarı bölge komple içeride
+Kalasın tabanından gelen ışın normalden
+uzaklaşarak kameraya gidiyor Bizim
+gözümüze geliyor bu kamera Yani bizim
+Gözümüz nerede algılıyor bunu tabii ki
+ışığın geldiği doğrultuda zannediyor O
+doğrultuya baktığımda bu tabanı çok daha
+yukarıda algılıyor O yüzden daha kısa
+görüyoruz diyebiliriz adamın boyuna
+dikkat edelim Normal insan boyutlarında
+suya girdiğinde havuza girdiğinde
+yarısına kadar suya girdiğinde geri
+kalan kısmına bakalım şu an aslında
+bütüncül olarak baktığımızda çok komik
+duruyor belden aşağısı kısacık duruyor
+çocuk gibi belden Yukarısı normal bakın
+belden aşağısı normal Havuzun içerisinde
+Burası iyice küçücük kalmış Azdan çoka
+bakarsak cisimleri orijinal
+derinliklerde değil kendim daha yakın
+yerlerde algılarız L ortamında bulunan
+bir çocuk K ve M ortamlarında bulunan
+Özdeş topları bulundukları noktalardan
+farklı yerlerde görüyormuş çocuk K
+ortamındaki topu kendisinden 4D kadar
+uzakta M ortamındaki Topu da kendisinden
+2D kadar uzakta gördüğüne göre bu
+ortamların kırıcılık indislerini
+kıyaslayınız demiş Şimdi burada 3 tane
+ortam var Çocuk L ortamında KD ki topu
+kendisinden 4D uzakta orijinalde 3D ymiş
+4D demek ne demek daha sol tarafta bir
+yerde yani şuradan D kadar ekstra daha
+uzakta görüyormuş m'yi de kendinden 2D
+uzakta görüyormuş E normalde 3D ymiş 2D
+demek ne demek bu tarafta bir yerde
+demek şu mesafe 2D olacak demek
+burasının 4 olduğunu tekrar söylemiş
+olalım cismi kendime daha yakın
+görüyorsam Azdan çoka bakıyorumdur balık
+örnekleri kalas örnekleri aklınıza
+gelsin ben bu MD ki adamı kendime daha
+yakın gördüm mü gördüm Demek ki ben
+Azdan çoka bakıyorum L ortamının indisi
+küçüktür M ortamının indisi diyebilirim
+orijinalde burada olan cismi kendimden
+daha uzakta gördün mü Evet 3D'de ama ben
+4D de algılıyorum balık kuşa bakıyor çok
+indis az indis bakıyoruz l'nin indisi
+K'dan büyüktür bunu da buraya böyle
+ekleyebiliriz bu arkadaş bizim sorumuzun
+cevabıdır hava ortamındaki bir gözlemci
+sıvı dolu kapta H derinlikteki cismin
+görüntüsünü h b 2'de görüyormuş burada
+değil Burada görüyormuş görünür
+derinliği buymuş Buna göre görüntünün
+bulunduğu H B2 kadarlık derinliğin
+azalması için hangileri doğrudur demiş H
+B2 derinliğin azalması demek ne demek bu
+adamı daha da yakında görelim demek bu
+daha da yukarıda
+algılansa şimdi bakın Eskiden bunların
+formülleri vardı işte adamın orijinal
+derinliği görünür derinliği ortamların
+indisi falan filan böyle bir formül
+vardı bu formüller kaldırıldı artık
+Sadece yorum yapabiliyoruz yorum yapmak
+da çok basit Aslında biz neden bu adamı
+orijinal yerinde değil de bambaşka
+yerlerde algılıyoruz niye böyle bir
+ilüzyon var çünkü Işık kırılıyor
+doğrultu değiştiriyor doğrultu
+değiştirdiği için beni yanıltıyor ben
+onu başka bir yerde zannediyorum bu
+illüzyonun sebebi kırılma o zaman ışık
+ne kadar çok kırılırsa o kadar farklı
+yerlerde algılarım Yani şöyle bir
+ayırıcı yüzey var burada hava var burada
+su var Şu gönderdiğin Işın böyle de
+kırılabilir ya da aynı Işın şöyle de
+kırılabilir burada daha çok kırılıyor
+neden kırılma arttı Demek ki bu mavi
+ışını gönderdiğimde Artık burası
+atıyorum su değil cam yapılmış havadan
+cama gönderirsen böyle kırılırsın
+havadan suya gönderirsen böyle
+kırılırsın Çünkü havanın indisine 1
+dersem suyun indisi 1.3 iken camın
+indisi yaklaşık 1,5 indis farkı artarsa
+ortamlar arasında kırıcılık artar
+buradaki indis farkı 0.3 buradaki indis
+farkı 0.5 burada
+bunun indisine 1 dedim Bunun indisine 2
+dedim o zaman Delta n 1 sıvının
+kırıcılık indisi arttırılmalıdır Yani
+sen bu 2'yi 3 yaparsan Delta n'yi
+arttırdım mı Evet kırılma artacak mı
+Evet daha çok yanılacak mısın Evet o
+zaman bunu burada değil Daha yukarıda
+algılayabilir bu olur veya baktığımız
+ortamın indisi azaltılsın da olurdu
+önemli olan şu arkadaşı arttırmak
+gözlemci cisme daha yakından bakmalıdır
+gençler bütün mevzu Şuradaki kırılma
+gözün nerede durduğunun çok bir önemi
+yok göz başka yerde duruyorsa oraya göre
+Işın çizerim Önemli olan burada nasıl
+kırıldığı hangi açıyla kırıldı normalden
+ne kadar uzaklaştı Dolayısıyla gözün
+nerede olduğunun bir önemi yok bütün
+olay burada cereyan ediyor Çünkü bu adam
+burada baksaydı da aynı şekilde
+algılayacak Daha yukarıda baksaydı da
+aynı şekilde algılayacak bununla bir
+ilgisi yoktur mesela buradaki göz bu
+parayı yukarıda algıladı E bu göz Daha
+yukarıda bir yerde olsaydı şimdi farklı
+Işın çizmek istemediğim için doğrultu
+aynı kalacak şekilde suyun seviyesinden
+daha yukarıya çıkartıyorum gözü mesela
+göz burada olsaydı E bu ışınlar aynı
+şekilde göze geleceklerdi Bunların
+doğrultuları aynı bu kırmızılar olacaktı
+bu kırmızı noktadan çık çıkıyormuş gibi
+olacaklardı bu gözün Daha yukarıda
+olmasının ya da daha yakında olmasının
+şuradan bakmasının ne önemi var hiçbir
+farkı yok bunların ikinci öncülü
+alamayız cismin bulunduğu H derinliği
+azaltılmalıdır mesela sıvının seviyesini
+azaltabilirsiniz
+ya da Bu cismi daha yukarıya
+çıkartabilirsin orijinal derinliğini
+azaltırsınız yaparak anlayabiliriz Ama
+şöyle bir mantık da yürütebiliriz bizim
+cismimiz burada duruyor kırılmalar
+sonucunda tam ortada mı görüyormuş Biz
+bunu Evet E o zaman ben cismi tam buraya
+getirseydim hakikaten burada olsaydı
+yani cismin bulunduğu asıl der derinliği
+azaltsın aynı kırılmaları yaşayacağız
+Çünkü sıvı aynı hava aynı E yine aynı
+oranda yakınlaştırılır şu an üzerimde H
+B2 kadar su var görüntü nerede olacak h
+b 4'te olacak şu mesafe H B4 olacak yine
+1E 2 oran olacak çünkü aynı kırılma var
+açılarda bir değişiklik yok Sadece
+geometri değişiyor bu cisim buradayken
+Şundan bir Işın çıkartırım normalden
+uzaklaştırırım kırarım bunun uzantısı
+buraya gider görüntü budur derim Peki
+ben cismi hakikaten buraya Getirirsem
+yani sorunun istediği gibi derinliğini
+azaltırsam bu ışının aynısını çizerim
+bütün koşulları aynı olsun diye paralel
+çekerim e aynı açıyla kırarım Bunlar da
+paralel olur uzantısı nereye gider bu
+sefer buraya gider bak görünür derinlik
+azaldı Hatta tam H B4 oldu diyebilirim
+Az önceki gibi veya diğer ihtimal neydi
+cisim aynı yerinde durur suyun
+seviyesini azaltırım o zaman cismin
+bulunduğu H derinliği yine azalmış olur
+Bir de bunu deneyelim Şimdi suyun
+seviyesi şurası olsaydı Burada su yok
+artık burası hava oldu su bu kadar H B2
+derinlikli suyum var E ben yine aynı
+kırmızı ışını çizdim aynı şekilde
+normalden uzaklaştırdım bunun uzantısı
+yine buraya bir yere geldi şurada oldu
+Sizce bu ne kadar derinlikte şu an
+algılanan derinlik görünür derinlik E
+yine H B4 Çünkü sıvı aynı sıvı cins aynı
+havanın cinsi aynı o zaman gelme açıları
+kırılma açıları da aynı oran Aynı bu
+şekilde H derinlikteki adam h b 2'de
+algılanıyor Ola sen bunu 5h yaparsan
+algılanan derinlikte 2,5 Aş Olur balığın
+orijinal yeri Burası görünür derinlik
+Burası Bakın şu kadarlık bir derinlikte
+algılanıyor balığı yukarı çıkartırsam
+algılandığı yer de yukarı çıktı
+algılandığı yerin görünür derinliğin de
+değeri azaldı veya balık bu derinlikte
+algılandığı ğı yer görünür derinlik
+Burası suyun seviyesini azaltırsam
+gördünüz mü görüntü suyun yüzeyine Çok
+yaklaştı belki görüntü aşağıya inmiş
+oldu ama önemli olan derinlik su bu
+kadarken çok derinde üzerinde çok Su var
+su bu kadarken üzerinde çok az su var
+daha sığa geldi kalan suya göre
+Dolayısıyla 3üncü öncülü de olur Sorumun
+cevabı 1 ve 3'tür farklı ortama
+bakıyorsak her zaman farklı yerlerde mi
+algılarız her zaman görünür bir derinlik
+mi olur kendimize daha yakın kendimizden
+daha uzakta mı görürüz oladabilir
+olmayadabilir bakalım bir cam bilye var
+cam bilyenin merkezine konulmuş bir
+cismi nasıl algılarız nerede algılarız
+farklı algılamanın bu illüzyonun sebebi
+kırılma kırılma varsa farklı algılarsa
+yoksa o zaman farklı algılamaz sın tam
+merkeze bir cisim koyduysan bu cisimden
+çıkarttığın ışınlar şu geldi göze gözü
+Biraz daha büyük çizelim daha çok Işın
+üzerinden düşünmek istiyorum göz şöyle
+olsun E böyle bir Işın çıkarttım
+merkezden geliyor Normal çeksem onu da
+merkezden Çekeceğim yani şu an normalin
+üzerinden geliyor dik çarpıyor bu
+yüzeylere diyebiliriz e Kırılmaz bu da
+kırılmaz e cisim burada benim gözüme
+gelen ışınlar da onun oradan geldiğini
+işaret ediyor O zaman ben bu K cismini
+orijinal yerinde görürüm daha Yakında
+daha uzakta görmem Halbuki hava
+ortamından cam ortamına bakıyordum o
+zaman Azdan çoka bakıyorsak kesinlikle
+kendimize daha yakında görürüz her zaman
+diyemeyiz ayırıcı yüzey düzse deminden
+beri uğraştığımız gibi su yüzeyi ise
+problem yok ama böyle eğrisel yüzeylere
+İşler değişir eğrisel yüzeyin
+merkezindeki adamı olduğu yerde görürsün
+bilyem var cismi K cismini tam Şuraya
+koydum bu ortadaki küreye şöyle bakan
+bir göz olsun daha rahat anlamak için
+karşıdan baktırıyorum K'dan bir Işın
+çıkartmış merkezden normalim ii çekmiş
+camdan havaya geçiyoruz normalden
+uzaklaşarak kırılmış bunun uzantısı
+böyle gitti Ne bileyim şöyle bir Işın
+çizse diim merkezden normalim mi
+Çekiyorum orijinal Rotası bu normalden
+uzaklaşacak şöyle falan gidecek bir tane
+de bu tarafa gönderelim şöyle bir Işın
+merkezden normal çekildi camdan havaya
+geçtiğim için normalden uzaklaşarak
+kırıldım göze geldi bu yeşil bu mavi
+hatta yeterince büyük göz Hayal edersem
+bu kırmızı göze geliyor ama nereden
+geliyor Kırmızının uzantısı buraya gitti
+yeşilin uzantısı buraya gitti mavinin
+uzantısı buraya gitti merkezin sağındaki
+cismi merkezin sağından bakan adam
+kendine daha yakında gördü bizim Alışık
+olduğumuz şekilde burada kırılma
+olmadığı için orijinal yerinde gördük
+burada kırılmalar olduğu için farklı
+yerde algıladık şu küreye bakan kocaman
+bir göz hayal ediyorum bu sefer bizim
+cismimiz merkezin soluna konulmuş Biz
+sağdan bakıyoruz bizden uzağa konulmuş
+kitap bir tane Işın çıkartmış merkezden
+normalini çekmiş camdan havaya geçiyorum
+orijinal rotam şu iken normalden kaçmış
+uzaklaşmış böyle gittik göze ulaştık Bak
+bunun uzantısı ta Şuraya bir gidiyor
+başka bir Işın çizdim şöyle merkezden
+normalini çektim camdan havaya
+gittiğimiz için orijinal rotamız buyken
+normalden uzaklaşacak şöyle falan göze
+geldiğimizi düşünelim çizimi de düzgün
+yapmaya çalışıyorum ama biraz zor bu
+bunun uzantısı da aşağı yukarı şöyle bir
+yere gidiyor dersem Bu ikisi burada
+kesiştiler merkezin solundaki adamı
+sağdan bakan adam Kendinden daha uzakta
+görür aynı küre aynı yerden bakan üç
+tane göz birinde orijinal yerinde
+görüyor birinde kendine daha yakında
+görüyor birinde kendine daha uzakta
+görüyor oturup Ezber izlemiyoruz çizim
+yapıyoruz çizimleri anlıyoruz bu şekilde
+öğrenirseniz çok basit geldik dersimizin
+son sorusuna hava ortamından içi tamamen
+suyla dolu küresel akvaryumun merkezi
+olan o noktasındaki balığa bakan x y z
+gözlemcileri şekildeki gibidir Buna göre
+bu gözlemciler hangileri balığı
+kendisine olduğundan daha yakında görür
+akvaryumun cam kısmındaki kırılmayı
+ihmal et diyor Sadece su ve hava
+ilişkisine bak diyor gayet mantıklı bir
+uyarı Şimdi burada küresel bir akvaryum
+var ama tam bir küre değil şurada düz
+bir yüzey olduğuna dikkat edeceğiz
+mesela y'den bakan gözlemci balıktan
+çıkan ışınları nasıl algılar balıktan
+şöyle bir Işın çıkarttım göze Aynen
+ulaşır mı Aynen ulaşır kırılmaz neden E
+çünkü ışığın geldiği bu noktaya normal
+çekersem Bu normal balığın bulunduğu
+merkezden çizilir yani Işın normalin
+üzerinden geliyor E o zaman kırılmayacak
+Az önce konuştuğumuz gibi bu Işın
+kırılmaz göze ulaşır bu Işın kırılmaz
+göze ulaşır Işın kırılmadığı için Optik
+bir ilüzyon yok yanılsama yok bu adam
+neredeyse orada görürüz y orijinal
+yerinde görür buradan bakan Z y'den
+farklı mı hayır değil eğrisel yüzeyden
+bakıyor eğrisel yüzeylerin normalleri
+merkezden çizilecek e merkezdeki
+balıktan gelen ışınlar normalin
+üzerinden gelmiş olacak kırılma
+olmayacak olduğu yerde göreceğiz
+Diyebiliriz ama x farklı Sen burada
+hangi ışını çizersen çiz kırılmıyor ama
+x'te hangi ışını çizersen çiz kırılmaz
+diyemezsin burada düz bir yüzey var Şu
+bir normal çizgisidir yüzeye dik şu bir
+normal çizgisidir yüzeye dik şu da bir
+normal çizgisidir yüzeye dik balıktan
+çıkan şu Işın direkt normalin üzerinden
+geçer göze ulaşır herhangi bir kırılma
+yok ama balıktan çıkan şu Işın normale
+bir açıyla geldi sudan havaya geçiyor
+çoktan aza geçiyor normalden uzaklaşarak
+kırıldı balıktan çıkan şu Işın sudan
+havaya geçiyor normale bir açıyla geldi
+uzaklaşarak kırıldı Tabii bu gözün bu
+ışınları algılayacak kadar kocaman
+olduğunu düşünüyoruz Bu sarı ışının
+uzantısı burada bu sarı ışının uzantısı
+burada ve bu sarı Işın zaten kendisi
+burada bunlar nerede kesiştiler burada o
+zaman bu balığın şu yeşil noktası burada
+algılanacak balığın geri kalan kısmı da
+burada algılanacak kendisine daha
+yakında algılayacak hangisi kendine
+yakında görür diyordu x kendisine
+yakında görür ve z orijinal yerinde
+görür diyebiliriz bu soruyla beraber bu
+dersimizin de sonuna geldik kırılmanın
+geneli ile ilgili bir soru çözümü
+yapacağız sonra kırılmanın uygulama
+alanlarına geçeceğiz yani merceklere
+geçeceğiz takıldıkları alta yazın
+Kendinize iyi bakın
+[Müzik]
+görüşürüz

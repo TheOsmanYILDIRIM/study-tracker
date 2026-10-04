@@ -1,0 +1,825 @@
+önceki derste öğrendiğimiz Mekanik
+enerjiyi Bu dersimizde çok daha detaylı
+öğreneceğiz formülleri nereden geldiğini
+konuşacağız müfredatın dışında çıkmadan
+yapacağız Tabii ki bunları öteleme
+kinetik enerjisini Yerçekimi potansiyel
+enerjisini ve esneklik potansiyel
+enerjisini konuşacağız bu derste
+konuşacağımız çok önemli iş ve enerji
+arasındaki ilişkiler var Hangi tür iş
+hangi tür enerjiyi değiştirir Bunlar
+öğrencilerin genelde zorlandığı yerler
+bu derste bunları halledeceğiz yine
+öteleme kinetik enerjisi ile başlıyoruz
+bir önceki dersimizden hatırlarsanız bu
+enerji türü hızı olan cisimlerin sahip
+olduğu enerji türüydü bir noktadan bir
+noktaya gitmek için belli bir hızınızın
+olması lazım O yüzden Sahip olduğunuz
+enerji ötelemek net enerjisidir
+kesinlikle bilmemiz gereken şey Kinetik
+enerjinin 1/2m ve kareyle bulunduğu yani
+cisimlerin kütlesine ve sahip oldukları
+öteleme hızına bağlı Peki neden kinetik
+enerji kütleye ve hıza bağlı bunu çok
+basit bir şekilde çıkartabiliriz diyelim
+ki bizim durağan bir cismimiz var Yani
+bu arkadaşın hızı şu an sıfır
+Dolayısıyla herhangi bir kinetik
+enerjisi de söz konusu değil bir net
+kuvvete maruz kalıyor sürtünmesiz bir
+düzlemde sağ tarafa doğru bu ev
+kuvvetiyle çekiliyor Dolayısıyla
+yer değiştirme en son noktada
+kazanacağım enerjiye eşit bakın Şuradaki
+x yer değiştirme önceki ünitemizde
+düzgün doğrusal harekette hız denklemini
+birim zamandaki yer değiştirme olarak
+öğrenmiştik ben burada yer değiştirmeyi
+çekersem yani x'i çekersem V çarpı T
+elde ediyorduk fakat buradaki V sabit
+bir değer normalde Ama bizim burada
+hızımız artıyor sabit bir değer değil
+hızlanıyoruz biz burada o zaman ne
+yapıyorduk ortalamasını alalım aritmetik
+ortalama yapalım diyorduk yani 0 hızdan
+başlayıp V hıza hızlanmış gibi değil de
+sanki 0 artı ve bölü ikiden yani
+aritmetik ortalamadan hep v/2 hızla
+gidiyormuşum gibi düşünebiliyordum
+Dolayısıyla x dediğim yer değiştirme
+ortalama hızımız olan v/2 çarpı hareket
+süresi olarak yazılabilir Ema çarpı ve
+bölü 2 çarpı T yazabilirim X'in yerine
+bu ifadeyi yazmış oldum eşittir
+kazandığım enerji ivme ne demekti Yine
+önceki ünitemizde öğrendik ivme
+dediğimiz şey birim zamandaki hız
+değişimi demek ve bölü T demek demek o
+zaman ivmeyi değerine yazıyorum M çarpı
+ve bölü T çarpı V bölü 2 çarpı t
+kazandığım enerjiyi verecek fark
+ettiğiniz üzere buradan t'ler birbirini
+götürür kazandığı enerji şurada 1/2 var
+n var ve çarpı b var yani 1/2 nv²'nin
+nereden geldiğini görmüş oluyoruz Hocam
+biz tyt yapıyoruz abartmıyor musunuz
+Hayır Abartmıyorum burada anlattığım
+formüllerden daha önce görmediğiniz
+bilmediğiniz bir şey var mı Yok Buradaki
+her şeyi ben size daha önce anlattım
+bunların hepsini bilmeniz gerekiyor
+Milli Eğitim de bilmenizi istiyor
+dolayısıyla daha önce öğrettiğim
+şeylerden yeni bir şey türettim ve bu
+yeni şeyi de bilmeniz gerekiyor
+Dolayısıyla müfredatın hala dahilindeyiz
+bunun hemen altında çok önemli bir not
+var oldukça önemli bir şey Net kuvvetin
+yaptığı iş cismin kinetik enerjisindeki
+değişime eşittir Yani biz hep şunu yazıp
+duruyoruz ünitenin başından beri iş
+enerjiyi değiştiriyor güzel de hangi
+kuvvetin yaptığı iş hangi tür enerjiyi
+değiştiriyor bunları da ayırabiliyoruz
+örneğin; Net kuvvetin yaptığı iş
+cisimlerin kinetik enerjisini değiştirir
+potansiyelini değil kinetiğini
+değiştiriyor sadece Aslında biz şu an
+bunun da ispatını yaptık bu turuncu
+cismin üzerindeki Net kuvvet kim
+düşeydeki ağırlık zeminden gelen normal
+kuvvet tarafından karşılanıyor düşede
+bir Net kuvvet yok sürtünme yok benim
+elimde sadece bu ev var O zaman bu benim
+net kuvvetim E ben o f'in yaptığı işi
+hesapladım Yani ben aslında Net kuvvetin
+yaptığı işe hesapladım Peki ben ne
+buldum yolun sonunda kazandığım kinetik
+enerjiyi buldum 1/2 m²'miş başlangıçtaki
+kinetik enerjim neydi 0 Peki buradaki
+kinetik enerji değişimi nedir 1/2mv²
+eksi sıfırdan 1/2 ve karedir Dolayısıyla
+Aslında bulduğum sonuç aynı zamanda
+Kinetik enerjinin ne kadar değiştiği
+yani şu ifadeyi türetmiş olduk ve bu
+ifadeyi kesinlikle bilmelisiniz hayat
+kurtarır gençler Net kuvvetin yaptığı iş
+kinetik enerjiyi değiştirir Aslında Atla
+deve bir şey de değil Şöyle bir cisim
+hayalet bir hızı var sağ tarafa doğru
+bir V hızı var Ben bunu sağ tarafa doğru
+F kuvveti ile itersem bu ve artmaya
+Başlar hızlanmaya başlar Şu an elimdeki
+Net kuvvet bu et olur Bunun yaptığı iş
+bu kinetik enerjiyi arttırır yani
+değiştirir Peki aynı f'ten ters yönde
+uygularsam bu sefer hızlanamaz şu Net
+kuvvet Yine ne oldu Net kuvvet sıfır
+buradaki Net kuvvet sıfır olduğu için bu
+Net kuvvetin yaptığı iş de sıfır Bu da
+ne demektir benim kinetik enerjim
+değişmeyecek demektir değişim sıfır
+olacak demektir yani hızım hiç
+değişmeyecek demektir Evet öyle zaten
+Newton bunu birinci yasasında söylüyor
+Net kuvvet sıfırsa hızınızı korursunuz
+duruyorsanız sonsuza kadar durursunuz
+gidiyorsanız da sabit hızla gidersiniz
+Net kuvvet sıfır olduğu için ben hep
+sabit hızla gideceğim yani kinetik
+enerjim değişmeyecek bu kuvvet yorumu
+enerji yorumu yaparsam Net kuvvetin
+yaptığı iş sıfır olduğu için kinetik
+enerjim değişmeyecektir yani değişim
+sıfırdır otoyolda gitmekte olan bir
+arabanın hızı düzgün arttırılmasına
+rağmen kaza yaptığında alacağı hasar
+oranı aynı oranda artmaz Bunun sebebini
+açıklayınız güzel bunu özellikle trafik
+kazaları için televizyonlarda böyle Kamu
+Spotu olarak falan yayınlamışlardı bir
+ara diyelim ki siz 10 metre bölü saniye
+hızla gidiyorsunuz hızınızı düzgün
+arttırdınız bir saniye sonra 20 metre
+bölü saniye hızınız oldu düzgün
+arttırdınız 30 metre bölü saniye hızınız
+oldu böyle böyle düzgün hızlanıyorsunuz
+Yani gaza bastınız araba güzel güzel
+hızlanıyor Bu hızlarla bir yere
+vurduğunuzda alacağınız hasar aynı
+oranda artmaz yani 10 ile gidiyorken bir
+duvara çarptığımda alacağım hasarla 20
+ile giderken alacağım hasar
+kıyaslandığında iki katı değil 4 katı
+Neden Çünkü onluk hızla giderken sahip
+olduğun kinetik enerji bir bölü iki Emre
+kareden onun karesinden 100 e gibi bir
+şey gelsin kütleyi 1/2 sabit tutum araba
+aynı araba onun karesinden 100 geldi
+enerjiyi ifade etmesi için de yanına e
+yazdım hızım 20 olduğunda yine ben bunu
+1/2 Enve kareden hesaplayacağım Ama bu
+sefer 20'nin karesini alacağım bunlar
+bir değişken değil 20'nin karesinden ne
+gelecek 400 e gelecek 100 e ile duvara
+vurduğunda alacağın hasar farklı dört
+yüzle vurduğunda alacağına hasar farklı
+hız 2 kat o zaman 2 kat hasar alırım
+değil enerji 4 kat 4 kat hasar alırım
+diye düşünülebilir hızınız 30 olduğunda
+Aa 20'nin bir buçuk katı 30 Hayır değil
+mevzuyu öğrendiniz artık 30'un
+karesinden ne gelecek 900 e gelecek
+gördüğünüz gibi hızınız düzgün artıyor
+ama burada 300 e'lik bir artış var
+burada 500 e'lik bir artış var yani
+Arabanız hızlandıkça belli limitlerin
+üzerine çıktıkça kinetik enerjiniz onun
+karesi ile orantılı büyüdüğü için çok
+daha fazla hasar alıyorsunuz 30
+kilometre bölü saat hızla çarpan araba
+bu kadar hasar alıyor 50 ile geldiğinde
+iki katından daha az böyle bir hasar
+aldı yüzle geldiğinde bu sefer çok daha
+fazlasını alacak 150 ile geliyor
+200 buradan sonrasına zaten bizim
+arabalarımız çıkmıyor ama bakalım 250
+ile ne oluyormuş
+Yani arabanın bagajına kadar girdi 300
+de varmış 300'e De bakalım Geçmiş olsun
+sürtünmeli yatay düzleme sırasıyla V ve
+2 ve hızlarıyla giren Özdeş araçların
+durma mesafelerini kıyaslayınız demişiz
+hocam Ne yapacağız efeştirema mı
+yazacağız xeçtir vt mi yazacağız yani
+oralardan da sorular çözülebilir Ama şu
+an bizim konumuza enerji Dolayısıyla ben
+soruları enerji üzerinden düşüneceğim
+işten düşüneceğim kinetik enerjiden
+düşüneceğim falan filan bakalım
+enerjiden düşüneceğim için Hemen bunları
+kinetik enerjiye çeviriyorum ve hızıyla
+gidiyoruz arabalarımız bu arada Özdeş
+yani ve hızla giden de en kütleli 2B
+hızla giden de hem kütleli dersem ve
+hızla gidenin kinetik enerjisi 1/2m²'dir
+2v hızıyla gideninki 1/2m çarpı 2 v'nin
+karesinden 4 ve karedir Dolayısıyla Bu
+arkadaşın kinetik enerjisini e kadardır
+dersem Bu arkadaşın ki 4E olacaktır
+Çünkü bu da 4 katsayı var bunların durma
+mesafeleri diyor hızlandırdık geldiler
+sürtünmeli yola girdikleri anda bu
+arkadaşlara ters yönde bir sürtünme
+kuvveti etki etmeye başlayacak araçlar
+sağ tarafa doğru gidiyorlar Yani bu
+araçlar sağ tarafa doğru yer
+değiştiriyorlar yer değiştirme vektörü
+ile sürtünme kuvveti ters yönlü olduğu
+için burada yapılan iş negatiftir w =
+kuvvet çarpı deltx yazarken bulduğum
+sonucu eksi işaretli yapacağım Bu da
+bana Aslında enerjinin azalacağını
+söylüyor şimdi biz duracağız son durumda
+duruyoruz benim bu e kadarlık kinetik
+enerjim en son durumda sıfıra kadar
+inmiş olacak duracağız Çünkü 4 Eylül
+Kinetik enerjinin de sıfıra inmiş olacak
+sürtünme kuvveti Benim buradaki aynı
+zamanda net kuvvetimdir benim üzerimde
+yatayda başka kuvvet yok ve ben Öğrendim
+ki Net kuvvetin yaptığı iş cismin
+kinetik enerjisini değiştirir birinci
+cisim için yazıyorum birinci cismin
+kinetik enerjisi e'den 0'a düşecek yani
+e kadarlık bir değişim var Kim yapacak
+bunu sürtünme kuvveti ne kadarlık
+mesafede yapacak bilmiyorum buna X1
+dedim şimdi diğerini yazıyorum 4e'lik
+kinetik enerjisi 0'a inecek bunu kinetik
+enerjisindeki değişim 4 e olacak azalma
+vektörlerin ters olmasından dolayı böyle
+düşünüyorum kim yapacak bu azalmayı
+sürtünme kuvveti yapacak ne kadar
+mesafede yapacak yer değiştirme ne
+olacak X2 bilmiyorum Hocam niye bunların
+yine de aynı Sürtünme kuvvetini yazdınız
+Belki farklı sürtünmelere maruz
+kalacaklar araçlar Özdeş Sürtünme
+kuvvetini hatırlarsanız K çarpı normal
+kuvvet Kütleleri aynı zaten yataydan
+bahsediyoruz normal kuvvetler ağırlığa
+eşit olacak aynı ortamdalar kütleler
+aynı bu bir değişken değil araçlar Özdeş
+olduğu için lastikleri hangi malzemeden
+yapıldıysa İkisinde de aynı zaten yol
+aynı o zaman katsayılar da aynı o zaman
+sürtünme kuvvetleri de aynı Bunlar birer
+değişken değil E'ye X1 O zaman ben buna
+x dersem 4e'ye X2 dediğim şey 4x
+olmalıdır yine trafik için bir Kamu
+Spotu gidiyorsunuz frene bastınız durma
+mesafenizi belirleyecek olan şey hızınız
+hızınız 2 kat fazla olmasına rağmen
+durma mesafeniz 4 kat daha fazla Bu
+yüzden lütfen hız kurallarına uyuz
+geldik potansiyel enerjilere Bunlardan
+birincisi Yerçekimi potansiyel
+enerjisiydi yine bundan bahsetmiştik
+önceki dersimizde potansiyel enerji bir
+bakıma cisimlerin konumlarından dolayı
+sahip oldukları da enerjidir diyebiliriz
+yani buradaki elma şu seviyeye göre
+belli bir konuma sahip o konumda
+bulunduğu için sahip olduğu enerji
+potansiyelin kelime manası neydi daha
+ortaya çıkmamış olan açığa çıkmamış olan
+geçen derste de söylediğim gibi bir
+futbolcu düşünülebilir altyapı da çok
+potansiyelli çocuk dersin ama daha iyi
+bir futbolcu olmamıştır ileride açığa
+çıkacak bir şeyden bahsedersin
+potansiyel kelimesini kullanırken
+buradaki elma burada dururken açığa
+çıkmış bir şey yok ama buradan
+koptuğunda aşağıya düşmeye başladığında
+bir kinetik enerji kazandı işte şimdi
+açığa çıktı Nereden geldi bu enerji Biz
+yoktan enerji var edemiyorduk he Demek
+ki başlangıçta Bir enerjimiz varmış
+bizim o enerjiden gelmiş bu kinetik
+enerji İşte o başlangıçta var olduğuna
+inandığımız şey potansiyel enerjidir
+Buna niye yer çekimi potansiyeli diyoruz
+Çünkü bu cismi düşüren kuvvet ağırlık
+kuvveti yani yer çekimi kuvveti Peki biz
+bunu niye EMG Haçlı hesaplıyoruz zaten
+sorumuzda da o yazıyor Yerçekimi
+potansiyel enerjisi Neden kütleye yer
+çekimi ivmesine ve yüksekliğe bağlıdır
+ispatlayalım zeminde duran bir cisim
+Olduğunu hayal edelim zeminde duruyor
+Bunu sabit bir hızla Burası önemli
+yukarıya doğru F kuvveti sayesinde
+çıkartıyoruz sabit hızla dediğime göre
+bunun üzerindeki Net kuvvetin ne olması
+gerekir Tabi ki sıfır olması gerekir E
+hocam bu da ne anlama geliyor cismin
+üzerindeki kuvvetler neler aşağıya doğru
+ağırlığı var mg Yukarıya doğru da F
+kuvveti uyguluyoruz kaldırmak için o da
+mg kadar olmalı ki bunlar birbirini
+götürsün Net kuvvet sıfır olsun Ege
+hocam O zaman biz cismi kaldıramayız ki
+yukarıya doğru iki kuvvette eşitse Evet
+kaldıramayız ama ilk an için bir hız
+verebildiğimizi düşünelim Yani ilk anda
+şu F değerinin mg'den Bir tık daha büyük
+olduğunu düşünelim Yani bir hız
+kazandıralım sonra mg'ye mg olsun Net
+kuvvet sıfır olsun o hızla yukarıya
+çıkartmış olalım o ilk anı ihmal
+ediyoruz şimdi iş nedir iş enerjideki
+değişimdir burada bu F kuvveti iş
+yapıyor F çarpı Delta x kadar iş yapıyor
+Bu da benim enerjimi değiştiriyor mesela
+kinetik enerjimi mi değiştiriyor Hayır
+sabit hızla gidiyoruz biz Dolayısıyla
+buradaki kinetik enerjim değişmiyor ama
+değişen bir enerji türünün olması lazım
+işte o değişen enerji türüne potansiyel
+enerji diyoruz Peki bunu niye engel
+haçla buluyoruz Çünkü F dediğim şey ne
+kadar mg kadar bu cis ne kadar yer
+değiştiriyor bu konumdan bu konuma
+geliyor H kadar yukarıya çıkıyor yani H
+kadar yer değiştiriyor deltx yerine H
+yazarsam kazandığım enerji mgh kadardır
+yani şu kuvvetin yaptığı iş mgh kadar
+benim elimde başlangıçta hiçbir şey
+yoktu üzerime mgh kadar iş yapılırsa bu
+noktaya geldiğinde sahip olduğum enerji
+mgh kadardır ona da özel bir isim
+verirsem potansiyel enerji derim bu
+yüzden potansiyel enerjiler EMG
+ifadesiyle bulunur yüksekliğe bağlıdır
+cismin ağırlığına bağlıdır cisimler ne
+kadar yüksekten bırakılırlarsa yere
+indiklerinde o kadar çok kinetik
+Enerjileri olur potansiyel kinetiğe
+dönüşür o enerji açığa çıkar 150
+metreden fazla yükseklikten Adam kendini
+aşağıya bırakıyor potansiyel enerjisi
+kinetiğe dönüşüyor ve devasa bir kinetik
+enerjiyle Suya düşüyor şu 2 metreden
+atlasaydı bu enerjiye sahip olmayacaktı
+yükseklik arttı potansiyel arttı
+patlayan abimiz daha Şişman bir abimiz
+olsaydı ağırlığı daha fazla olsaydı suya
+düştüğünde çok daha fazla su kütlesi
+çıkardı açığa Çünkü ağırlık Ar
+potansiyel enerji de artmış olur açığa
+çıkan kinetik enerjiler artmış olur
+şimdi bir başka önemli ifade daha
+çıkartacağız Burada yine çok önemli
+bizim için yer çekimi kuvvetine karşı
+yapılan iş cismin kazandığı potansiyel
+enerjiyi verir bir cismi yukarı
+çıkartıyorsunuz Bu cismi yukarı
+çıkartırken ağırlığa ters yönde bir
+kuvvet uygulamanız lazım Ben az önce
+potansiyel enerji ifadesinin mgh kadar
+olduğunu söylemiştim bu mgh'ı sıfırdan
+kim oluşturdu bu ağırlık kuvvetine yani
+Yerçekimi kuvvetine karşı olan ona ters
+iş yapan kuvvet oluşturmuştu benim
+başlangıçta 0 potansiyel enerjim vardı
+artık mgh kadar potansiyel enerjim var
+yani bu kadar potansiyel enerji kazandım
+bu kazandığım potansiyel enerjinin
+sebebi kim tekrar söylüyorum Yerçekimi
+kuvvetine karşı yapılan iş Yani bu ev
+kuvvetinin yaptığı iş Dolayısıyla bunu
+da bir not alın yer çekimi kuvvetine
+karşı yapılan iş dünyanın en iyi
+kısaltması eşittir potansiyel enerjideki
+değişim daha önce Ne yazmıştık onu da
+bilmelisiniz Tekrar hatırlatalım net
+için yaptığı iş kinetik enerjideki
+değişim şu iki arkadaşı bilirseniz
+sırtınız enerji konusunda yere gelmez
+bir başka çığır açıcı durum önemli durum
+Yerçekimi potansiyel enerjisi bir
+referans noktasına göre tanımlanır
+mutlak değildir kişiden kişiye göre
+referans noktasına göre değişir ne demek
+istiyorum mesela burada tavan asılmış
+bir cisim görüyorsunuz bunun potansiyel
+enerjisini yaz dediğimde Sizin bana şu
+soruyu sormanız lazım hocam nereye göre
+biz genelde yere göre yaz deriz yere
+göre yazarken diyorsun ki E bu adam haş
+yüksekliğinde şu an mgh potansiyel
+enerjisi var Güzel peki yere göre
+değmeseydin bu B seviyesine göre
+deseydin bu seviyeye göre potansiyel
+enerjisini yazdıysa yine mg H yazacaksın
+Ama buradaki haç bu sefer ne 0
+Dolayısıyla bu cismin B seviyesine göre
+potansiyel enerjisi yoktur niye böyle
+kafama göre alıyorum Niye mutlak değil
+Çünkü buradaki Haşhaş aslında bir bakıma
+cismin konum vektörü Yani biz yere göre
+potansiyel enerji yazalım dediğimizde
+haş mesafesini şöyle yapıyoruz ama B
+seviyesine göre yap dediğimizde
+yapabileceğimiz bir konum vektörü yok
+Çünkü zaten referans noktasının
+üzerindeyiz bir sayı doğrusu düşünelim
+şurası 0 Burası +1 burası artı 2 şurası
+-1 şurası -2 Şimdi benim referans noktam
+sıfırsa ve ben buradaysam konum vektörüm
+budur sağ tarafa doğru 1 birimlik bir
+vektördür Peki benim referans noktam+1
+olursa artı bire göre konumunu yaz desem
+E o zaman bir şey yazamaz Aynı burada
+yaptığımız gibi şimdi daha da tuhafı a
+seviyesine göre bu cismin potansiyel
+enerjisini yazsak ne yazarız konum
+vektörü aşağıya doğru olacak bu sefer
+haşı gösterirken referanstan aşağıya
+doğru göstereceksin yukarı yön artı açsa
+o zaman aşağı yön zıt yönde bir vektör
+olduğu için Ne olmalı eksi haş olmalı
+yani bu cismin a seviyesine göre
+potansiyel enerjisi eksi mghter gençler
+hiç yerinden kıpırdamadın burada
+duruyorum referans noktam bu sefer artı
+2 o zaman konum vektörün bu ters yönde
+bir vektör şu Artı haşsa bu da eksi
+harçtır buradaki sayılar nasıl skalerse
+eksileri artıları varsa enerjide de aynı
+şekilde skalerlik var eksileri artıları
+var ya da bir başka bakış açısı şöyle
+bir örnek çizeyim 3 tane cismimiz olsun
+Biri burada biri burada biri de burada
+şuralara mesafeler koyalım Burası H
+kadar olsun şurası da H kadar olsun x
+cismi olsun y cismi olsun Z cismi olsun
+en alt seviyeye göre bu kırmızıyla
+çizdiğim yere göre bu arkadaşım
+potansiyel enerjisi sıfırdır bununki H
+yükseklikte mg kaçtır bununki 2mgh'tır
+Peki bu seviyeye göre gösterirsem bu
+kesikli çizgiye göre gösterirsem O
+noktaya göre potansiyel enerji yazarsam
+bu sefer x 0'dır Çünkü o konumda
+bulunuyor Z artı m g kaçtır y ise onun
+altında olduğu için negatif tarafta
+olduğu için eksi mgh açtır dikkat
+ederseniz isimlendirmeler değişiyor ama
+farklar hiç değişmiyor mg Haşa 2mghtı X
+ve z cisimleri Aralarındaki fark bir
+engel açtı şimdi ne oldu sıfıra artı m g
+yine bir mgh veya x ile Y'ye bakalım
+başlangıçta 0'a artı mg açtı artı 1 mhaç
+fark vardı şimdi ne oldu eksi mg haş'a 0
+yine +1 mg var sadece isimlendirmeler
+değişiyor çünkü potansiyel enerji bir
+referans noktasına göre tanımlanır hangi
+referans noktasına göre yazarsanız haşı
+nereden çizerseniz ona göre potansiyel
+enerjinin ifadesi de değişir Burada şunu
+anlamanızı istiyorum hocam biz bu adamı
+en alt seviyeye göre yazarken artı mgh
+yazmıştık bu B seviyesine göre yazarsak
+0 yazıyoruz Ne yani şimdi biz bunu B
+seviyesine göre yazsak şuradan ipi
+kessek bu adam aşağıya düşmeyecek mi
+Çünkü potansiyel enerjisi yok kinetiğe
+bir şeye dönüşemez mi demiş oluyoruz
+Hayır öyle bir şey demiş olmuyoruz O
+yüzden buradaki farklara atıfta bulundum
+bu seviyeye sıfırsa bu seviyenin
+potansiyel enerjisi eksi mg açtır Yani
+bu arada yine artı mgh'lık fark var
+Başlangıçta ne demiştik başlangıçta
+Burası sıfır Burası hem genç yine Artı
+hem ghaj yani her halükarda sen o ipi
+kesersen bu artı en gençlik potansiyel
+enerji kineteye dönüşür
+isimlendirmelerin bir önemi yok
+Özellikle bu son anlattığım çok önemli
+kahveren cisimlerinin kütleleri ve yer
+düzlemine olan yükseklikleri şekilde
+verilmiştir Buna göre cisimlerin yer
+düzlemine göre potansiyel enerjinin
+oranlayınız demiş gayet basit formül
+sorusu Fakat burada şöyle bir problem
+var Burada da yeni bir şey öğreneceğiz
+hocam potansiyel enerji mght Tamam güzel
+yere göre hesaplayacağız Tamam hacı
+nereden alacağımı da Anladım fakat
+buradaki Hı ben bu cismin neresinden
+alacağım alt seviyesine göre mi alacağım
+üst seviyesine göre mi alacağım kütle
+merkezine göre alacaksın Bunlar düzgün
+şekiller olduğu için bunları kütle
+merkezi zaten geometrik merkezleri
+demektir Dolayısıyla bu bütün K cismi
+sanki tam ortasında şurada toplanmış
+gibi hayal edip haş mesafesini tam
+ortasına göre alacaksın Dolayısıyla
+Kaan'ın potansiyel enerjisi yer
+seviyesine göre 1 2 3 birim olduğu için
+3mg harçtır diyebiliriz l'ye bakarsak
+bunun da tam ortasından düşünmem
+gerekecek potansiyel enerjisi Tam
+ortadan düşünüldüğünde H yükseklikte
+Dolayısıyla buna 3M kütleleri olduğuna
+dikkat ediyoruz Tabii ki 3M çarpı g
+çarpı H yazacağız Bu arkadaşların
+potansiyel Enerjileri İkisi de 3 çıktığı
+için oranlandığında sonuç 1 çıkar
+bunların iplerini kessek sürtünmesi zor
+Tamda ikisi de aynı kinetik enerjiyle
+yere çarpar biri daha yüksekte ama daha
+hafif biri daha alçakta ama daha ağır
+yerde durmakta olan en kütleli cisim
+şekillerdeki gibi k l ve M yollarını
+izleyerek H yüksekliğe çıkartılmaktaymış
+cismin k l ve M Yolları sonundaki
+Enerjileri arasındaki ilişki nedir
+denilmiş Şimdi biz bir kere bunları
+sabit hızla çıkartıyoruz bizim kabulümüz
+bu olmalı yer seviyesine göre konuşsak
+bunların başlangıçta hiçbirinin
+potansiyel enerjisi yer seviyesinde
+olduğu için yok cisimleri noktasal kabul
+ediyorum ortasına göre almıyorum Az
+önceki sorudaki gibi bir nokta olarak
+düşünüyorum ve tam seviyede düşünüyorum
+bunların üçü de H yüksekliğe Çıkmamış mı
+Evet hepsi en kütleli değil mi Evet o
+zaman hepsi tepeye çıktığında aynı
+potansiyel enerjiye sahip olacaktır
+zaten hızları da aynı değişmiyor Yani
+hem sabit hızla çıkartıyorum hem de Aynı
+hızla çıkartıyorum a şıkkının cevabı
+hepsi eşittir hangi yollarda yer çekimi
+kuvvetine karşı iş yapılmıştır bu
+cisimler Kendi kendilerine mi yukarı
+çıkıyorlar Hayır bu cisimlerin aşağıya
+doğru bir ağırlıkları var yukarı
+çıkmaları için kesinlikle yukarıya doğru
+bir kuvvete maruz kalmaları gerekiyor
+hepsini sabit hızla çıkardığım için Net
+kuvvet sıfır ilk hızı verdikten sonra
+tabii ki Dolayısıyla Bunların hepsi yer
+çekimi kuvvetine karşı işe maruz kalmış
+bir başka bakış açısıyla size çok önemli
+Dediğim bazı denklemler vardı Yerçekimi
+kuvvetine karşı yapılan iş Neyi
+veriyordu potansiyel enerjideki değişimi
+veriyordu bunların hepsinin potansiyel
+enerjisi 0'dan mgh Haşa çıkmadı mı Evet
+o zaman bu 3 yolda da yer çekimi
+kuvvetine karşı iş yapılıyor hem de eşit
+işler yapılıyor hocam mümkün değil eşit
+iş olamaz çünkü iş dediğiniz şey kuvvet
+çarpı yer değiştirme burada yer
+değiştirmeler eşit değil ki başlangıçta
+yer değiştirmem şu uzunlukken ortadaki
+şekilde yer değiştirmem şu mesafe bu
+mesafeler eşit değil ki Delta x'ler aynı
+değil f'lerin aynı olduğunu kim söyledi
+aşağıya doğru bunun mg'si var yukarıya
+doğru mg kadar büyüklükte bunu ev
+çekiyor aşağıya doğru mg'si var bunu Bu
+doğrultuda götürmek için şöyle bir
+kuvvet uygulayacağız bu kuvvete mg'ye
+kadar değil bu kuvvet mg'den daha küçük
+eğik düzlem ve vektörleri ayırma
+ayetleri anlatıldığı için burada oralara
+girmiyorum ama buradaki efüstü Şuradaki
+eften daha küçük bir değer F çarpı Delta
+x Evet ortadaki daha büyük Ama orada da
+ef daha küçük Dolayısıyla hangi
+formülden düşünürseniz düşünün bütün
+şekillerde aynı miktarda iş yapılmıştır
+hocam yani yolun bir önemi yok mu ister
+düz götüreyim ister böyle merdiven
+çıkartayım ister çapraz götüreyim Hayır
+hiçbir önemi yok yer çekimi kuvvetine
+karşı yapılan işler eşittir çünkü hepsi
+aynı NBA yarış kazandı hangi yollarda
+yer çekimi kuvveti iş yapmıştır bu da
+çok önemli bizim için çok karıştırılan
+yerlerden hocam bunlar yukarı
+çıkartılıyorlar Dolayısıyla burada
+işleri yapan ev
+kuvvetleridir Hayır iş ne demek iş
+kuvvet çarpı yer değiştirme demek kuvvet
+ve yer değiştirme vektörleri aynı
+doğrultuda olabiliyorlarsa O zaman o
+kuvvet o cisim üzerinde iş yapar bu
+cisim Yukarı çıkarken buradaki EMG
+kuvveti cisme etki etmiyor mu ediyor
+aşağıya doğru yer değiştirme vektörü
+yukarıya doğru 2 vektör zıt olduğu için
+burada Yer çekimi kuvvetini negatif iş
+yapmıştır negatif iş yapmak demek de iş
+yapmak demek sürtünme kuvveti gibi bu ev
+kuvveti pozitif iş yaparken mg kuvveti
+negatif iş yapmıştır hocam bunlar
+birbirini götürmez
+nedir hocam bu cisim yukarı gidiyor
+Yerçekimi kuvveti aşağıya Doğrudur
+Dolayısıyla iş yapmaz Hayır şimdi
+konuştuk yapar negatif iş yapar yer
+değiştirme vektörü yukarıya doğru bu
+vektörler zıt olduğu için yapılan iş
+negatiftir 2 kilogram kütleli G'yi 10
+alırsak bu cismin ağırlığı 20 Newton
+Dolayısıyla kuvvet 20 çarpı 3 metre yer
+değiştiriyoruz 60 fakat negatif İş
+olduğu için eksi 60jul yazıyorum güzel
+yerçekimine karşı yapılan iş nedir bunu
+birinci dersimizde konuşmuştuk
+sürtünmeli versiyonuydu bu yer çekimli
+versiyonu yerçekimi kuvvetinin yaptığı
+60 mı Evet o zaman bunun pozitif
+versiyonu da yer çekimine karşı yapılan
+iştir yani artı 60 ispatını yapalım yer
+çekimi kuvvetine karşı yapılan iş meşhur
+kısaltmamız potansiyel enerjideki
+değişimi vermiyor muydu Aynen öyle Bu
+cisim yer seviyesinde sıfır potansiyel
+enerji buraya çıktı hem ghh 2 kilogram
+kütle Yerçekimi 10 3 metre yukarıya
+çıktı 60 ruj artı 60 rul potansiyelisi
+var bende onu dedim zaten Net kuvvetin
+yaptığı iş nedir ismin üzerine etki eden
+kuvvetler nelerdir dediğimde cismi
+şuraya aldım yukarıya doğru ip
+vasıtasıyla kuvvet 60 Newton aşağıya
+doğru cismin ağırlığı var 20 Newton
+Dolayısıyla benim net kuvvetim yukarıya
+doğru 40 bunu da hesaplarsam F dediğim
+şey 40 3 metre yer değiştiriyoruz 120
+Jule Net kuvvetin yaptığı iş şimdi
+buradaki asıl mesele burayı yorumlamak
+bu çok önemli sayılar değil 4 şıkta Net
+kuvvetin yaptığı iş diyor Net kuvvetin
+yaptığı iş hatırlayın kinetik enerjideki
+değişimi verir yani başlangıçta benim
+hızım yoktu Buradan geçerken bir hızım
+var Dolayısıyla başlangıçta bir kinetik
+enerjim yoktu artık bir kinetik enerjim
+var ve değeri dene 120 jure Çünkü Net
+kuvvet o kadar iş yapmış şimdi bak F
+kuvveti bu sisteme 180 jul verdi bunun
+60ını yer çekimine karşı yerçekimine sus
+payı olarak verdi kendinde Ne kaldı 120
+İşte bu 120 cismin kazandığı kinetik
+enerjidir sisteme aktarılan kayıp elimde
+kalan önemli soru Evet geldik son enerji
+türümüze esneklik potansiyel içerisine
+aynı yer çekim potansiyel enerjisinde
+olduğu gibi bu da cismin konumundan
+dolayı sahip olduğu potansiyel enerji
+bir başka bakış açısıyla açığa çıkmamış
+kinetik enerji olarak da düşünülebilir
+böyle kendi halinde takılan bir yay var
+denge noktasında yani şu an dengede
+Kimse ona dokunmuyor yayda herhangi bir
+sıkışma uzama yok Siz bunu x kadar
+çekiyorsunuz denge noktasından
+uzaklaştırıyorsunuz şu an bu yayda bir
+potansiyel enerji depoladınız bunu
+bırakırsanız yay sizi geriye doğru çeker
+İşte o potansiyel enerji kinetiye
+dönüşmüş olur işte o potansiyel enerjiye
+esneklik potansiyel enerjisi diyoruz
+Çünkü yaydaki kuvvet bizi geriye çekiyor
+o esneklik kuvveti bizi geriye çekiyor
+aynı şeyi sıkıştırma içinde
+düşünebiliriz denge noktasından x kadar
+sıkıştırırsam yayda bir potansiyel
+enerji depolamış olurum bırakırsam O
+potansiyel enerji kinetiye dönüşür Çünkü
+cisim geriye fırlar kim fırlatır yaydaki
+kuvvet bizi fırlatır O yüzden esneklik
+potansiyel enerjisi önceki dersimizde
+1/2kx kareyi Yani bu potansiyel
+enerjinin formülünü öğrenmiştik nereden
+geldiğini şimdi konuşacağız ders
+kitabında bir cümle ile ifad edilen bir
+formül var aslında yay sabitiyle ilgili
+yani bu yayın cinsi uzunluğu geometrisi
+yayın sertliği yumuşaklığı ile ilgili
+yay sabiti dediğimiz k harfi ile ilgili
+diyor ki ders kitabı Kai sabiti
+dediğimiz şey yayı x kadar
+sıkıştırabilmek için uygulanması gereken
+kuvvet miktarıdır ya da uzatabilmek için
+aynı şey bu da şunu söylüyor bana Eğer
+sizin yay sabitiniz büyükse ki bu
+genelde sert yay demektir yayı x kadar
+uzatabilmek için daha fazla kuvvet
+uygulamalısınız Eğer yumuşak bir yayınız
+varsa yay sabitiniz küçükse aynı x
+sıkışmasını oluşturmak için daha küçük
+kuvvet yeterlidir demek oluyor mantıklı
+burada içler dışlar yapsam ev dediğim
+şey K Çarpı x olacaktır bu arkadaş sabit
+bir sayı yaya bağlı bir değer Jinx
+sertlik yumuşaklık ve yayın geometrisi
+elimizde çok sert bir yay var çok kalın
+bir yay var yani Kar yağıyor sabit çok
+büyük Bunu sıkıştırmak çok zor belli bir
+x oluşturabilmek için çok büyük
+kuvvetler gerekiyor Bunun için bir
+hidrolik pres kullanıyoruz Şu an burada
+Yüzlerce belki binlerce Newton kuvvet
+var Dolayısıyla yay sabiti dediğim şey x
+kadar uzatmak ya da sıkıştırmak için ne
+kadar kuvvet uygulamam gerektiğini bana
+söylüyor Bu da beni potansiyel enerjiye
+götürüyor bir grafik çizelim kuvvet
+yayın sıkışma miktarı grafiği olsun bu
+sabit bir sayı K sabit F kuvveti
+uygularsam yay x kadar uzar ikif kuvveti
+uygularsam ya 2x kadar uzar 3F kuvvet
+uygularsam yay 3 x uzar çünkü K sabit bu
+noktaları birleştirdiğimde şöyle bir
+grafik elde ediyorum bakın Gençler bu
+grafiğin altındaki alan şurası artık
+grafik okumayı öğrendik biz ef'le x'in
+çarpımı ile alakalı bir şey aynı hareket
+konusundaki gibi yani buradaki alan F
+Çarpı x ile alakalı F Çarpı x iş değil
+mi Evet o iş de enerji değişimi değil mi
+Evet Yani aslında bu grafiğin altındaki
+alan bana enerjiyi mi veriyor Evet
+neyden bahsediyoruz yaydan yayda
+depoladığımız potansiyel enerjiden Demek
+ki ben bu Üçgen alanını bulsam yayda
+depoladığım potansiyel enerjiyi
+buluyorum düşeyeks Yani yani şurası
+efekt seni yatay Eksen yani Burası X
+ekseni üçgen olduğu için F Çarpı x bölü
+2 yaparsam enerjiyi bulmuş oluyorum F
+dediğim şey burada gördüğün KX K Çarpı x
+çarpı x bölü 2'den enerji dediğim şey
+yaydaki potansiyel enerji
+1/2k Çarpı x karedir Böylece neden 1/2
+var niye x'in karesi olarak öğrenmiş
+oluyoruz bu sorunun cevabını vermiş
+olduk direkt kazanım ondan devam edelim
+esneklik potansiyel enerjisine sahip
+cisimler için hangileri örnek
+verilebilir sırıkla atlayan sporcu şimdi
+hep yay üzerinden anlattım diye
+aklınızda da hep yay kalmasın Bu enerji
+türü sıkışabilen uzayabilen lastikler
+sırıklar bunların hepsinde potansiyel
+enerjiden bahsedebiliriz sporcu düz bir
+Sırrı böyle koşturuyor koşturuyor
+koşturuyor yere koyuyor yere koyduğu
+anda o sırık şöyle bükülüyor yay gibi
+onu böyle geriyor bıraktığında ne olacak
+Kendisi de şurada Tabii ki yay tekrar
+eski haline gelecek sanki bir lastiği
+çekip Bırakmak gibi Dolayısıyla eski
+haline geldiğinde bu sırık adam da
+fırlamış olacak Dolayısıyla tam şu anda
+burada potansiyel enerji depolamış
+oluyoruz o sonra kinetiğe dönüştüğünde
+adamı fırlatmış oluyor duvara çarpma
+sırasında gerekli değişen futbol topu
+futbol topumuz yok ama tenis topumuz var
+bu bir yüzeye çarptığı anda sıkışır
+gençler sıkışma demek aynı yay gibi bir
+potansiyel enerji demektir O potansiyel
+enerji sayesinde de zaten geriye dönüyor
+tam şu anda bu arkadaşın ne kadar böyle
+ezilip büzüldüğünü görüyorsunuz yay gibi
+sıkışmış bıraktığın anda tekrar fırlıyor
+diyebiliriz Dolayısıyla Burada da
+esneklik potansiyel enerjisinden
+bahsedebiliriz 2 de olur Gerilmiş yay
+zaten olur yayı gerdik ucuna okuttuk
+bıraktığım anda ok Niye gidiyor Ben
+fırlatmıyorum ki onu fırlatan şeyine o
+gergin yay orada depolanmış olan
+esneklik potansiyel enerjisi okka
+kinetik enerjisini aktarıyor ve böylece
+ok fırlamış oluyor sorumuzun cevabı 1 2
+ve 3 olacaktır geldik dersimizin son
+sorusuna şekildeki gibi trambolinde
+zıplayan çocuğun sahip olabileceği
+başlıca enerji çeşitlerini yazınız
+demişiz bu çocuk tramboline çarptığı
+anda onu geriyor geriyor Dolayısıyla
+burada bir esneklik potansiyel enerjisi
+depolamış oluyor o sonsuza kadar
+gerilmiyor tabii ki tekrar onu Ne
+yapacak fırlatacak o esneklik potansiyel
+çocuğa yukarıya doğru bir hız
+kazandırıyor Yani bu kinetik enerjiye
+dönüşüyor diyebilirim hızla yukarıya
+fırladı belli bir yüksekliğe doğru
+çıkıyor Dolayısıyla yer seviyesine göre
+yüksekliği arttığı için potansiyel
+enerji kazanmaya başladı diyebiliriz
+Burada hem esneklik potansiyel enerjisi
+hem kinetik enerji hem de Yerçekimi
+potansiyel enerjisinden bahsedebiliriz
+Evet bu dersimiz bu kadardı Çok yoğun ve
+önemli bir dersi not almamız gereken
+yerleri tekrar edin takıldığınız yerler
+alta yazın Kendinize iyi bakın görüşürüz
+[Müzik]

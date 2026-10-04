@@ -1,0 +1,1125 @@
+gençler Merhaba önceki derslerimizde
+dalganın ne olduğunu öğrendik dalga
+çeşitlerini öğrendik ve onları
+sınıflandırdı mekanik dalgalar
+elektromanyetik dalgalar olarak mekanik
+dalgalar yayılmak için ortama ihtiyaç
+duyuyorlardı yay dalgaları su dalgaları
+ses dalgaları ve deprem dalgaları Milli
+Eğitim diyor ki bu mekanik dalgaları
+ayrıntılı olarak da bilsin öğrenciler O
+yüzden her bir mekanik dalga çeşidi için
+ayrı bir ders yapacağız yay dalgalarıyla
+hemen başlıyoruz zaten Dalgalara giriş
+yaptığımız derslerde Ben dalgaları
+anlatırken simülasyon üzerinden
+anlatırken Aslında yay dalgası üzerinden
+anlatmıştım O yüzden bu derste
+konuşacağım birçok şey size tanıdık
+gelecek Orada periyodik dalgaları
+konuştuk Aslında biz hatırlarsanız
+buradaki kaynak yani elimiz bu yayı
+yukarıya ve aşağıya hareket ettirerek
+şöyle bir şekil almasını sağlıyordu
+yayın İşte bunlar periyodik dalgalardır
+aynı periyotla oluşturulmuş oluşturulma
+süreleri aynı olan art arda gelen bir
+sürü dalga bir sürü lambda bir sürü
+dalga boyu Örneğin şu bir tam dalgadır
+lambda dalga boyu vardır Bu arkadaşın
+bunun oluşturulma süresiyle hemen
+peşindeki aynıdır onun peşindeki aynıdır
+buraya Ben şu an ü tane periyodik dalga
+çizdim Bunlar periyodik dalgalar Peki
+biz bu dalgaları nasıl oluşturuyordu e
+Hocam işte Elimizi yukarıya aşağıya
+hareket ettireceğiz doğru ama eksik bu
+yayda gerginlik oluşturmanız gerekir
+yani yayı sadece yukarıya aşağıya
+hareket ettirmeniz yetmez bu yayı aynı
+zamanda sol tarafa doğru çekmeniz
+gerekir sol tarafa çektikten sonra
+yukarı aşağı hareket ettireceksiniz yayı
+gerginleştirme lazım Çünkü aslında dalga
+hareketi buradaki yayı oluşturan
+taneciklerin bu şekli almasından başka
+bir şey değil buradaki tanecikler ne
+yapıyorlardı yukarıya ve aşağıya
+titreşim hareketi yapıyorlardı bunun
+yanındaki de bunu yapıyordu bunun
+yanındaki de bunu yapıyordu Bunlar
+senkronize çalıştıklarında oluşan şekil
+işte buydu Evet bunların yukarıya
+aşağıya inmesini emreden Elimizin bu
+hareketi ama yayda gerginlik oluşturmaz
+sanız bu adamlar yukarıya çıktıktan
+sonra aşağıya inmekte sıkıntı çekerler
+ya da aşağıya indikten sonra yukarı
+çıkmakta sıkıntı çekerler bu
+simülasyonda bu tanecikleri yay
+parçacıkları gibi düşünelim Burası
+komple tam bir yay gibi düşünelim Biz
+bunu gerdik ve bu kaynağa bağladık yani
+şu an bu yay üzerinde bir gerginlik var
+kaynak yukarıya aşağıya doğru çalışmaya
+başladığında dalga hareketini görüyoruz
+bunu yavaş çekimde izleyelim Tabii ki
+bahsettiğimiz dalga hareketinde Aslında
+o yay tanecikleri yukarıya ve aşağıya
+titreşim yapıyorlar sağ sola gitmiyorlar
+bunları geçen derste konuşmuştuk bu
+dalganın oluşması için kaynak nasıl
+hareket ediyor denge noktasından
+yukarıya çıkıyor sonra aşağıya iniyor
+burada durmuyor aşağıya inmeye devam
+ediyor ve tekrar denge noktasına geri
+geliyor işte bu hareketin sürekli
+tekrarlanması buradaki periyodik
+dalgaları bana veriyor aslında bizim
+kaynağımız sadece yanındaki bu Kırmızı
+taneciğe bağlı onunla iletişim halinde
+kaynak yukarı çıkıyorsa onu yukarı
+çekiyor kaynak aşağıya iniyorsa onu
+aşağı Çekiyor o da yanındakine bağlı
+yukarı çıktıkça yanındakini çekiyor
+aşağı indikçe yanındakini Çekiyor o da
+diğerine bağlı böyle tren gibi
+birbirlerine bağlılar bir diğerini
+etkiliyor tetikliyor ve dalga hareketi
+senkronizasyonu bu şekilde oluşturuluyor
+Örneğin Şuradaki yeşil taneciğe
+odaklanalım bu yeşil tanecik Tepe
+noktasında durdurdum şimdi bu daha fazla
+yukarı çıkmayacak değil mi aşağıya
+inecek Yukarı çıkarken yavaşladı durdu
+ve aşağıya inecek bu niye Aşağıya insin
+Çünkü solundaki kırmızı arkadaş aşağıya
+inecek bu kırmızı arkadaş aşağıya doğru
+inerken bu yaydaki gerginlikten dolayı
+bu yeşili de aşağıya çekecek işte
+yeşilin üzerindeki bu kuvvet bu yaydaki
+gerginlikle ilgili o yeşil tanecik
+aşağıya indi durdurdum daha fazla aşağı
+inmiyor Buradan sonra tekrar yukarı
+çıkacak Neden Çünkü solundaki kırmızı
+yukarı çıkacak ikisi birbirine bu
+yaydaki gerginlikle bağlı oldukları için
+peşinden onu da s sürükleyecek ona bu
+yönde bir kuvvet uygulayacak ve yeşil
+tanecik yukarı çıkmaya başlayacak
+yaydaki gerginlik şu arkadaşların
+doğmasını sağlıyor kaynak hemen
+yanındakini rahatlıkla hareket
+ettirebilir yayda gerginliğe ihtiyaç yok
+ama birbirlerini etkileyebilmek için
+hele kaynaktan çok uzakta Ne bileyim şu
+kırmızıyla şu yeşilin arasındaki
+bağlantının kurulabilmesi için yaydaki
+bu gerginlik şart önceki dersimizde yay
+dalgalarının enine çeşidinin de olduğunu
+boyuna çeşidinin de olduğunu konuşmuştuk
+demiştik ki yayı oluşturan taneciklerin
+mesela Şuradaki bir arkadaşın titreşim
+doğrultusu yla dalgaların ilerleme
+doğrultusu birbirine dikse bu enine bir
+dalga olarak isimlendiriliyor adam Bu
+doğrultuda ilerliyor dalgalar Bu
+doğrultuda ilerliyor onun enine enine
+titreşiyordu
+boyunca boyuna şekilde oluyor Buna da
+boyuna dalgalar diyoruz işte burada
+gördüğümüz yay dalgaları enine dalgalar
+elin titreşim yönüne dikkat edin
+dalgaların ilerleme yönüne dikkat edin
+elin titreşim yönü düşey eksende y
+ekseninde gibi düşünürsem dalgaların
+ilerleme yönü yatay eksende x ekseninde
+el y ekseninde
+titreştirici
+elleri titreştiren hareket yani buradaki
+titreşim yatayda geçen dersteki
+simülasyonları hatırlarsanız mesela şu
+şu an Burası gevşek burada bir yay
+taneciği var sıra ona geldiğinde sol
+tarafa gidecek Ve bu bölgeyi
+sıkıştıracak İşte o sıkışık bölge buraya
+gelmiş olacak sıra kendinden geçtikten
+sonra orijinal yerine geri gelecek orayı
+terk ettiği için bu bölge Tekrar ne
+olacak tekrar gevşek bir bölge olacak
+yani şu görünüme kavuşacak tek yapılan
+şey taneciklerin sağa sola hareket
+ettirmesi aslında tanecikler Sadece
+yatayda titreşiyordu
+aynı yönlü olduğu için paralel olduğu
+için daha doğrusu boyuna dalga Şimdi biz
+bir sürü kavram öğrendik dalga boyu
+öğrendik genlik öğrendik bunları Ben
+size hep enine dalga üzerinden anlattım
+e boyuna dalgalar da birer dalga
+bunlarda dalga boyu neresi bunlarda
+genlik neresi bakın aşağıda gördüğünüz
+şey bir enine dalga yukarıda gördüğünüz
+şey bir boyuna dalga sıkışmış bir
+bölgenin ilerlediğini görüyorsunuz
+peşinden başka bir sıkışmış bölge
+geliyor bunların arasında da gevşemiş
+bölgeler var ve gördüğünüz gibi sıkışmış
+bölgeler Aslında dalga tepesine karşılık
+gelirken gevşemiş bölge Er dalga
+çukurlarına karşılık geliyor O zaman ben
+bunu durdursam benim dalga boyu dediğim
+şey iki Tepe arasındaki şu mesafe değil
+miydi biz buraya lambda demiyor muyduk
+Evet boyuna dalgalarda sıkışmış bölgenin
+tam ortasıyla Ona komşu olan diğer
+sıkışmış bölgenin tam ortası arasındaki
+mesafe lamda yani Dalga boyudur ya da
+enine de iki çukur noktası arasındaki
+Tabii bunlar komşu olacaklar dalga boyu
+iken boyuna da iki gevşemiş bölgenin
+ortası arası Bunlar komşu olacaklar
+lambda dalga boyudur genlik dediğim şey
+enine dalgalarda denge konumundan y
+eksenindeki uzaklıktır yani şuralar
+genlik veya çukur için de genlik
+tanımlayabiliriz buralar genlik boyuna
+da genlik neresi burada düşey Eksen yok
+şimdi enine dalgada Aslında olay denge
+konumunda bulunan taneciğin en yukarıya
+çıkması ve en aşağıya inmesi buradaki
+iki nokta arasında titreşim
+yapmasıyla o kadar büyük oluyordu e
+boyuna dalgalarda aynı tanecikler sağ
+tarafa gidiyorlar sonra sol tarafa
+gidiyorlar işte ne kadar çok sağ tarafa
+gidebilir genlik o kadar fazladır sağ
+tarafa çok gitmesi demek bu sıkışık
+bölgenin daha da sıkışması demek şimdi
+bakın ben burayı çalıştırıyorum genliği
+arttırdığımız daha koyu renk oldu orası
+O sıkışmış bölge daha da çok sıkıştı
+diyebiliriz aynı şekilde çukurun düşey
+mesafesi arttı enine de Boyun da ne oldu
+gevşek bölge daha da gevşedi genlikleri
+azaltıyorum enine dalgamı düze
+yakınlaştı bu düşey mesafeler azaldı
+boyuna dalgamı da da o yoğunluklar
+azaldı bakın sıkışmış bölge artık o
+kadar da sıkışmış değil gevşemiş bölge
+artık O kadar da gevşemiş değil
+genlikleri sıfırlarsam ne olur Tam
+sıfırlıyor simülasyon ama neredeyse
+artık homojenleşme olduğunu görüyoruz
+Hiç genlik olmazsa zaten dalga olmaz
+dümdüz bir çizgi olur buradaki bütün
+turuncu çizgilerin arası da eşit mesafe
+olur minimum genlik maksimum genlik
+Şimdi gelelim konu başlığımız da geçen
+ama hiç bahsetmediğim atma kavramına Biz
+şu ana kadar hep periyodik dalgaları
+konuştuk Dedim bu derste ilk defa
+duyacağınız atma kavramını konuşacağız
+periyodik dalga buysa atma dediğim şey
+bunun en küçük parçası periyodik
+dalgalarda bir sürü Tepe var bir sürü
+çukur var sadece Tepe bir atmadı veyaz
+sadece çukur tek başına bir atmad biz
+bunları tek başına oluşturabiliriz Yani
+bir yay üzerinde sadece bu şekli elde
+edebiliriz niye böyle bir amacımız olsun
+Çünkü incelemeyi kolaylaştırır sonraki
+konularımız da dalgaları yansıtacağız
+dalgaları başka ortamdan geçireceğiz
+periyodik dalgalarda bir sürü tepeler
+çukurlar var Bunlar bir duvara çarpıp
+yansıdıktan ama böyle tek bir Tepe
+şeklinde bir atma aldığımızda bunun
+yansıdığını görmek ve düşünmek çok kolay
+olacak peki bir atmayı nasıl
+oluşturuyoruz yayımı gerdim bir
+gerginlik var tanecikler rahatlıkla
+titreşim hareketi yapabilecekler şu an
+denge konumundayız kaynak önce yukarıya
+çıkacak Sonra denge konumuna geri
+gelecek ama orada durmayacak aşağı
+inmeye devam edecek sonra tekrar denge
+konumuna gelecek şu hareket dalga
+tepesini oluştururken şu harekette dalga
+çukurunu oluşturacak Yukarı çıktı aşağı
+indi aşağıdan tekrar yukarıya çıktı Bunu
+sürekli yaparsa oluşturduğu şey tepeler
+çukurlar ve periyodik dalgalardır E
+benim atma dediğim şey zaten tek bir
+Tepe veya tek bir çukur E o zaman
+bunlardan bir tanesini yapmam bir atma
+oluşturmam demektir şimdi tepeye
+benzeyen baş yukarı atmayı oluşturalım
+kaynağım yukarıya çıktı aşağıya indi
+oluşturduğum şey baş yukarı bir atmadı
+Tepe atmasıdır bunu nasıl oluşturuyoruz
+kaynak yukarıya çıktı durdurdu kaynak
+Aslında bu arkadaşa bağlı kaynak yukarı
+çıktıkça O da yukarı çıkıyor
+gerginlikten dolayı birbirleriyle bağlı
+olduklarından dolayı yanındaki de
+Çekiyor o da diğerini Çekiyor o da
+diğerini çekiyor böyle birbirlerini
+sırayla yukarı çekiyorlar yani kaynağın
+yukarı doğru hareketi o yaydaki bütün
+tanecikleri sırasıyla yukarı çekiyor E
+zaten şu an baş yukarı atmanın Tepe
+atmasının yarısını oluşturduk kaynak
+aşağıya indi denge konumuna geri geldi
+tam bir baş yukarı atma oluştu Çünkü
+kaynak aşağıya indiğinde bağlı olduğu
+arkadaşı aşağıya çekti gerginlikten
+dolayı O da yanındakini Çekti O da
+diğerini diğerini derken kaynağın aşağı
+doğru hareket etmesi herkesin sırayla
+aşağıya doğru inmesi demek oldu bu da
+Bana tam bir Tepeyi verdi denge
+noktasından yukarı çıktım denge
+noktasına geri geldim oluşturduğum şey
+baş yukarı atmadı denge konumundan aşağı
+indim denge konumuna geri geldim baş
+aşağı atma oluşturdum çukur şeklinde bir
+atma oluşturdum Aşağı inmem demek
+herkesin sırayla aşağı inmesini emretmek
+yukarı çıkmam demek tekrar denge
+konumuna geri dönmem demek Ve herkesin
+de bunu yapmasını söylemem demek Bunu
+hızlı bir şekilde yaptığımda
+oluşturduğum şey çukur şeklinde baş
+aşağı bir atma oluşturmak demek yani baş
+aşağı atma için çukur şeklindeki atma
+için denge noktasından uzaklaşacak
+kaynak sonra tekrar geri gelecek Tepe
+için yukarı doğru uzaklaşacak denge
+konumundan sonra tekrar oraya geri
+geleceğiz bunları sırayla yaptığımızda
+tepeler ve peşinden çukurlar Dolayısıyla
+periyodik dalgalar oluşturmuş olacağız
+şimdi tek bir atma incelendiğinde
+düşeydeki bu mesafe şuranın denge konumu
+olduğunu Tabii ki varsayarsak yine a
+harfiyle gösterdiğim genlik Bunda bir
+problem yok yataydaki bu mesafeye
+dalgalarda lambda dalga boyu diyorduk
+mesela çukurun başladığı yerle peşindeki
+tepenin bittiği yer 1 lambda olarak
+isimlendiriliyor oldu dalga boyu olarak
+isimlendiriliyor şimdi aynı mesafe zaten
+elimde bir tane Tepe var baş yukarı atma
+var onun başladığı yerle onun bittiği
+yer arası mesafeye dalga boyu Diyemem
+çünkü bu tam bir dalga değil Bunu x
+harfiyle gösteriyorum ve buna genişlik
+diyorum mesela lambda = v x periyot
+formülünü atma için yazamayız sadece
+değiştirerek yazabiliriz lambda
+kullanamıyorum ama yataydaki mesafeyi
+temsilen genişlik yazabilirim atmanın
+yayılma hızı çarpı süre periyot yazmak
+da doğru değil buraya T yazıyorum ama
+periyot tekrarlayan hareketler için
+yapılır periyodik dalgalar için yazılır
+burada tekrarlayan bir hareket yok Bir
+tane atma oluşturdum O yüzden buradaki
+t'ye periyot yerine atmanın oluşturulma
+süresi diyebilirim sadece ismi değişti
+Aslında farklı bir şey yapmıyorum Şimdi
+sizin karşınıza bir soru tipi çıkacak
+çünkü bununla ilgili bir kazanım var bir
+atmayı incelerken üzerindeki bazı
+taneciklerin anlık olarak hareket
+yönlerini size sorsalar o atmanın nereye
+gittiğini anlayabilir misiniz mesela
+diyecekler ki size şöyle bir baş yukarı
+atma var Tepe şeklinde bir atma var bu
+bir tarafa gidiyor ya sağa gidiyor ya
+sola gidiyor bilmiyoruz ama diyor ki
+bunun bu tarafında bir tane tanecik
+düşün yay taneciği düşün Bu şu an yukarı
+çıkıyor anlık olarak o an diğer
+tarafındaki arkadaş da aşağıya iniyor
+acaba bu atma nereye gidiyordur sağ
+tarafa mı gidiyordur sol tarafa mı
+gidiyordur bunu anlamanızı bekleyecekler
+şimdi bak Ben burada bir baş yukarı atma
+oluşturuyorum oluşturdum ve yoluna devam
+ediyor Buna dikkat edin sağ tarafa doğru
+gidiyor sağ tarafa doğru giderken
+önündeki tanecikleri Önce yukarı
+kaldırıyor geçtikten sonra Aşağı
+indiriyor Aslında atma buna sebebiyet
+vermiyor Aslında tanecikler önce yukarı
+kalkıp sonra aşağı indiği için sağa
+doğru gidiyormuş gibi gözüküyor şimdi
+Şuradaki yeşil taneciğe odaklanmanızı
+istiyorum Nasıl bir hareket yapacak ben
+buradan bir atma gönderiyorum Bu yeşil
+tanecik sırası geldiğinde Yukarı çıktı
+Sonra aşağıya indi ve benim atmam sağ
+tarafa doğru gidiyor Yani aslında
+tanecikler denge konumundan önce denge
+konumundan uzaklaşıyorlar sonra denge
+konumuna geri geliyorlar orijinal
+yerlerine dönüyorlar O zaman ben bu
+atmayı göndersem tam yeşil taneciği
+havaya kaldırdığı anda durdurdum şu an
+bu arkadaş yukarıya doğru çıkıyor anlık
+hareket yönü bu mesela bu yeşil ne
+yapıyor bunun sırası geçti bu denge
+noktasına geri dönüyor Bu benim Az önce
+çizdiğim şekil değil mi baş yukarı bir
+atman var Aynı bunun gibi sağ
+tarafındaki tanecik yukarı çıkıyor sol
+tarafındaki tanecik aşağıya iniyor Peki
+bu atmam nereye gidiyor Benim e sağ
+tarafa doğru gidiyor Meksika dalgası
+önce Ellerimi yukarı kaldırırım sonra
+indiririm elimi indiriyorsun sıra benden
+geçmiştir elimi kaldırıyorsa daha yeni
+gelmiştir Bu atmanın biraz ilerlemiş
+halini çizelim mesela Bir saniye
+sonrasını çizelim bu atma Bir saniye
+sonra sağ tarafa doğru biraz daha
+ilerlemiş olacak bunu şöyle çizebilir
+sağ tarafa doğru gitti sağlamasını
+yapacağız E bu sağ tarafa doğru biraz
+ilerlemiş atmayı da aynı tanecikler
+oluşturmuyor mu Evet tek yaptıkları şey
+bu taneciklerin yukarı aşağı çıkmak
+değil mi Evet mesela Sizce bu pembeyle
+sonradan çizdiğim Bir saniye sonraki
+atmanın tam olarak şu noktasını kim
+oluşturacak Tabii ki yukarıya çıkmakta
+olan bu yeşil oluşturacak o yeşil oraya
+çıkacağı için atmamız Bir saniye sonra
+bu pembe olacak mesela bu bir saniye
+sonraki atmanın şurasını kim oluşturacak
+Tabii ki bir saniye sonra buraya gelecek
+olan bu yeşil oluşturacak O yüzden bu
+atma Bir saniye sonra sağ tarafa doğru
+kaymış olacak mesela bu kırmızı buraya
+inip bu noktayı oluşturacak bu kırmızı
+bur buraya inip bu noktayı oluşturacak
+bu arkadaş buraya inecek atmanın gittiği
+taraftaki Şu Arkadaş yukarı kalkacak
+bunu oluşturacak bu arkadaş yukarı
+kalkacak burayı oluşturacak yani
+atmanızı gittiği taraftakiler yukarı
+kalkıyorlar geçtiği taraftakiler denge
+noktasına geri geliyorlar diyebiliriz
+işte anlatmaya çalıştığım şekil tam
+olarak bu bu bir saniye öncesi Bu da bir
+saniye sonrası Mesela bana dese ki Sağ
+taraftaki tanecikler yukarıya çıkıyorlar
+o an sol taraftakiler de aşağıya
+iniyorlar acaba bu atma nereye gidiyor E
+ben sağ tarafa doğru gittiğini
+ispatladım diyelim ki sola gittiğini
+düşündük nasıl bir tuhaflık olur Bir an
+sonrasını çiziyorum biraz sola gitmiş
+halini buraya çiziyorum bu soluk arkadaş
+bu yeşil oldu diyebilirim E bu yeşili de
+aynı parçacıklar aynı tanecikler
+oluşturuyorlar buradaki soluk yayın şu
+düz çizgiye dönüşmesi lazım yani
+buradaki mavi taneciğin aşağıya inmesi
+lazım E ama yukarı çıkıyormuş O yüzden
+sola doğru gitmiyor veya Şuradaki mavi
+taneciğin bu yeşil oluşturabilmesi için
+bir saniye sonra yukarıya çıkıp burayı
+oluşturması lazım yaama aşağı iniyormuş
+Çünkü sola doğru gitmiyor bu adam sağ
+tarafa doğru gidiyor o yüzden bu mavi
+aşağıya inip bu Kırmızının bir parçası
+oluyor bu mavi yukarıya çıkıp bu
+Kırmızının bir parçası oluyor bunun
+çukurunu yapalım elimi aşağı indirdim
+yukarı çıkarttım baş aşağı yani çukur
+şeklinde bir atma oluşturdum Şu an ben
+bunun sağ tarafa doğru gittiğini
+biliyorum taneciklerin davranışına
+bakacağım mesela Bir saniye sonra bu
+arkadaşın şöyle bir şey olması gerekir
+sağ tarafa doğru biraz ilerlettim Bu baş
+aşağı atmanın gittiği taraftaki Yani sağ
+taraftaki şu tanecik Mesela ne yapmalı E
+bu siyahı oluşturacağız Biz siyahı
+oluşturmak için Bunun buraya gelmesi
+lazım lazım Buraya kadar ilerlemesi
+lazım ki bu siyahı oluşturabilen Onun
+bir parçası olmalı diğer taraftaki
+atmanın geçtiği taraftaki Şu kırmızı
+buraya inmeli bu siyahı oluşturmak için
+Dolayısıyla bizim orijinal çukurum muza
+odaklanırsan orijinal çukuru şuraya
+çizmeye çalışıyorum sağ tarafa doğru
+gittiğini biliyorum gittiği taraftaki
+tanecikleri Mesela şunu denge
+noktasından uzaklaştırıyor şunu geçtiği
+taraftakini denge noktasına geri
+getiriyor işte sen çukur atmayı gördün
+hareket yönlerinin de böyle olduğunu
+gördün o zaman bunun sağ tarafa doğru
+gittiğini anlayacaksın çukur sırası
+geleni denge noktasına uzaklaştırır
+sırası geçenler denge noktasına geri
+döner homojen ve türdeş gergin bir yay
+üzerinde oluşturulmuş dalganın ilerleme
+yönü şekildeki gibidir Buna göre bu an
+için x y ve z noktalarının titreşim
+yönlerini bulunuz denmiş çok basit sağ
+tarafa doğru ilerlediği söylenmiş tam
+bir dalga vermiş fark etmez İlla atma
+olması şart değil mantık Çok basit Ben
+bunu o zaman sağ tarafa doğru gidiyorsa
+Madem sağ tarafa doğru ilerletiyor biraz
+sağ tarafa doğru gitmiş halini çiziyorum
+şöyle bir şey olacak E bu sağ tarafa
+doğru gitmiş hali de aynı tanecikler
+oluşturuyor sadece yukarı aşağı hareket
+ediyorlar Bunlar E bu x Normalde
+buradaymış 1 saniye önce bir saniye
+sonra bu kırmızı çizginin bir parçası
+olmalı yukarıya doğru hareket etmeli y
+dediğim arkadaş Bir saniye önce
+buradaysa Bir saniye sonra bu Kırmızının
+bir parçası olmalı aşağıya doğru inip
+burayı oluşturmalı Z dediğim adam bir
+saniye sonra yukarıya doğru çıkıp bu
+Kırmızının bu parçasını oluşturmalı
+Dolayısıyla x yukarı çıkmıştır y aşağıya
+inmiştir Z yukarı çıkmıştır diyebiliriz
+Bunu istediğiniz her yer için için
+yapabilirsiniz mesela şu nokta bir
+saniye sonra buraya inecek Ne bileyim
+buradaki bir nokta bir saniye sonra
+buraya çıkacak Yani bunlar el birliğiyle
+kırmızıyı oluşturacaklar gençler Buna
+göre nereye doğru titremeleri
+gerektiğini anlayabilirsiniz bütün
+özellikleri her yerinde aynı olan gergin
+yayda iki tane atma oluşturulmuş Bu
+atmaların üzerindeki K ve L noktalarının
+anlık titreşim yönleri şekildeki gibidir
+Buna göre hangileri kesinlikle doğrudur
+denilmiş atmalar zıt yönlerde hareket
+etmektedir bakalım şimdi bunların nereye
+gittiği belli değil üzerlerinde bir
+nokta verilmiş Şu Arkadaş tam bu an
+yukarı doğru hareket ediyormuş bu
+arkadaş da tam bu an aşağı doğru hareket
+ediyormuş acaba bunlar Nereye gidiyorlar
+simülasyon aklınıza gelsin Bu baş yukarı
+bir atma mı Evet Çünkü burası denge
+noktası E bu adam gittiği yöndeki
+tanecikleri Önce yukarı kaldırıp sonra
+tekrar aşağıya indirmiyor mu evet E bu
+arkadaş sağ tarafa gidiyormuş ki k'yı
+denge noktasından uzaklaştırmış yani
+yukarıya kaldırmış sağlamasını yapalım
+sağ tarafa doğru gittiğini varsayıyorum
+atıyorum 1 saniye sonrasını çizdim bu
+mavi olacak Bir saniye sonra dedim Evet
+burada Aki kırmızı nokta yukarı çıkarak
+burayı oluşturur ve bu mavi oluşur Doğru
+bir çizim yaptık Demek ki eğer ben sola
+doğru gittiğini
+varsaysak için bizim bu K noktamızı
+kırmızımı aşağıya inmesi gerekirdi Bunun
+bir parçası olmak için e Ama yukarı
+çıkıyormuş Demek ki sola gitmiyor sağa
+gidiyor bunun doğru çizimi budur gençler
+L de aynı şekilde aşağıya doğru bir
+titreşim var aslında denge noktasından
+uzaklaşma var atma geçtiği yerde önce
+denge noktasından uzaklaştırır sonra
+denge noktasına Geri getirir Demek ki bu
+çukur şeklindeki atma da sağ tarafa
+doğru ilerliyor diyebiliriz Çünkü önce
+denge noktasına uzaklaştıracak bu
+kırmızı l'yi buraya getirecek bu yeşilin
+bir parçası yapacak Örneğin aynı baş
+aşağı çukur atmanın şöyle bir noktasını
+Sorsaydı onun denge noktasına yaklaşması
+gerekirdi ki bu yeşilin bir parçası
+olsun aynı şekilde baş yukarı atmanın
+diğer tarafındaki bir titreşimi Sorsaydı
+Onun da aşağıya doğru inmesi gerekirdi
+ki Şurayı oluşturabiliriz bu arkadaş sağ
+tarafa gidiyor bu arkadaş da sağ tarafa
+gidi gidiyor atmalar zıt yönde gidiyor
+diyor Hayır yanlıştır atmaların
+süratleri eşittir önceki dersimizde
+konuşmuştuk bir dalganın hızı yayıldığı
+ortama bağlıdır ya dalganın bir parçası
+olan atma için de bu geçerli soru bize
+bütün özellikleri her yerde aynı olan
+yay diyor yani ortam değişikliği yok o
+zaman bunların bütün özelliklerinden
+bağımsız süratleri kesinlikle birbirine
+eşittir Çünkü aynı ortamdır atmaların
+genişlikleri eşittir şimdi Normal
+şartlar altında periyodik dalgalar için
+lambda eşittir hız çarpı periyot
+yazıyoruz bunun aynı mantığında
+atmalarda dalga boyu diye bir şey
+olmadığı için o yataydaki mesafeyi
+anlatan genişlik kavramını kullanıyoruz
+genişlik eşittir atmanın yayılma hızı
+çarpı atmanın oluşturulma süresi periyot
+demenin Çok doğru olmadığını söylemiştim
+çünkü bunlar periyodik dalgalar değil
+tek başına bir atma ama periyotla aynı
+anlama gelen oluşturulma süresi
+ifadesini kullanıyorum şimdi bunların
+hızlarının aynı olduğu kesin mi Evet
+çünkü aynı ortamdan o zaman oluşturulma
+süreleri aynıysa kesinlikle genişlikleri
+de aynıdır yani şu mesafeler de aynıdır
+bunu simülasyonda test edelim şimdi
+bakın ben bir atma oluşturdum Baş yuk
+yukarı bir atma gönderdim genişlik
+dediğim yer komple şu mesafedir
+diyebilirim işte burası genişlik ortamı
+değiştirmiyor yay aynı yay Dolayısıyla
+benim hızım sabit genişliği etkileyecek
+olan faktör oluşturulma süresi olacaktır
+şu an benim oluşturulma sürem yarım
+saniye 0.50 saniye tam bunu oluşturmak
+için yarım saniye geçiyormuş Ben bunu
+azaltıyorum 0.2 saniyede oluşturalım
+yani kaynak denge noktasından hızlıca
+uzaklaşsın hızlıca geri gelsin bu
+hareketi hızlıca yapsın Tekrar
+oluşturdum işte genişlik bu kadar kaldı
+yeni genişliğin çok daha küçük oldu
+neden genişlik azaldı Çünkü oluşturulma
+sürem azaldı kaynağım çok daha hızlı
+hareket etti yani yukarı çıktı
+tanecikleri yukarı çıkma emrini verdi E
+Bunlar daha uzaklaşamam hemen aşağıya
+indi uzaklaşamam mevzuyu kapattı herkesi
+aşağı indirdi Aralık çok fazla oluşmadı
+O yüzden Ama sen oluşturulma süresini
+arttırırsan kaynağın çok yavaş hareket
+ediyor oluşturulma süresi çok fazla
+genişlik devasa oldu Neden E çünkü
+aheste aheste yukarı çıkıyorsun yukarı
+çıkma emrini verdin herkes ilerlemeye
+başladı aşağı inme emrini verene kadar
+zaten giden gitti hesabı kapattığımızda
+tek tekrar denge noktasına geldiğimizde
+devasa bir genişlik elde ettik buradaki
+iki atmanın buradaki iki atmanın aynı
+şekilde oluşturulduğu ile ilgili bilgi
+var mı elimizde Şunu şu kadar saniyede
+oluşturduk bunu bu kadar saniyede
+oluşturduk ya da bunların ikisini de
+aynı kaynak oluşturdu gibi bir bilgi yok
+Dolayısıyla bunların oluşturulma
+süreleri ile ilgili bilgim olmadığı için
+hızları aynı olsa bile genişlikleri
+hakkında yorum yapamam eşit de olabilir
+olmayadabilir bilmiyorum Bana kesinlikle
+doğruyu soruyordu Sorumun cevabı yalnız
+2 olmalıdır bütün özellikleri her
+yerinde aynı olan gergin yayda iki tane
+atma oluşturulmuş Bu atmaların
+üzerindeki K ve L noktalarının anlık
+titreşim yönleri şekildeki gibiymiş Buna
+göre bu atmaların birbirlerine
+yaklaşmakta mı uzaklaşmakta mı olduğunu
+belirleyebilir miyiz E hocam belirleriz
+deminden beri bunları anlatıyorsunuz
+Evet mesela Şuradaki baş aşağı atmanın
+şu noktası denge noktasına geri
+dönüyormuş denge noktasına geri
+dönüyorsa iş işten geçmiş görevini
+yapmış önce dengeden uzaklaşmış sonra
+geri dönüyor Demek ki bu arkadaş sağ
+tarafa doğru gidiyor Çünkü diğer
+tarafındaki denge noktasından
+uzaklaşıyor Burası tekrar eski haline
+geliyorsa Burası daha yeni uzaklaşıyordu
+bu düşüncemin doğruluğunu test etmek
+için sağ tarafa doğru gittiğinin
+sağlamasını yapmak için hakikaten sağ
+tarafa götürelim mesela Biraz gitmiş
+halini şöyle çizdim yayım artık bu siyah
+olacak bu Siyahın tam şu mavi noktasını
+kim oluşturacak Tabii ki aynı
+doğrultudaki bu tanecik oluşturacak o
+zaman denge noktasına geri gelmesi
+gerekiyor Bunun için evet oraya doğru
+gidiyor Zaten aynı şekilde bu Siyahın şu
+mavi noktasını kim oluşturacak e o
+doğrultudaki tanecik buraya gelecek ve
+onu oluşturacak Evet zaten Oraya gitmesi
+gerektiğini söylemiştim Demek ki yönü
+doğru seçtim tersi doğru mudur tersini
+test edelim sola gittiğini varsayıyorum
+Ben bunun biraz sola gitmiş halini şöyle
+çizdim bu siyahı oluşturmak için bu
+kırmızı noktanın buraya gelmesi lazım bu
+kırmızı noktanın buraya gelmesi lazım
+ama bu aşağı inmiyor musu ki bu yukarı
+çıkıyormuş denge noktasına gidiyor E
+çünkü bu yanlış bir çizim kesinlikle bu
+sağ tarafa gidiyor şimdi buradaki nokta
+özel bir nokta Bu baş aşağı atmanın yani
+çukur atmasının en alt noktası çukur
+noktası denge noktasına yaklaşmak
+istiyormuş acaba sağa mı gidiyor sola mı
+gidiyor dikkat ederseniz ben şu ana
+kadar bütün şekillerde hep sağ tarafı ve
+sol tarafı konuştum ya yukarı çıkabilir
+ya aşağı inebilir bu da ya aşağı
+inebilir ya yukarı çıkabilir İkisi de
+mümkün ama tam tepe ne olur bilmiyorum
+Çünkü tam tepeye bakarak anlayamam şimdi
+Ben bu arkadaşın biraz sola gittiğini
+varsaysak şöyle biraz sola doğru
+kaydırmış olalım şöyle bir yay Aa hocam
+oldu işte Buradaki en alt noktadaki
+tanecik denge noktasına yaklaşıp Şurayı
+oluşturabilir Demek ki sola gidiyormuş
+hemen kesin karar vermemek lazım Bir de
+sağa gitmeyi deneyelim şu an sola gitme
+sağladı biz aynı yayı Bu sefer de biraz
+sağ tarafa götürelim böyle gidiyoruz
+bakın yine sağladı en alt noktadaki bu
+adam denge noktasına yaklaşıp burayı
+oluşturabilir ve Kırmızının bir parçası
+olabilir Dolayısıyla kesin karara
+varamam Ancak bu yan taraftakiler
+bakarak anlayabilirim Tepedeki adama
+sınırdaki adama bakarak anlayamam İkisi
+de olabilir son olarak gelelim atmaların
+ya da dalgaların yaydaki ilerleme hızına
+dalgaların yayılma hızının ortama bağlı
+olduğunu söylemiştim yay dalgasında da
+ortama bağlı su dalgalarında da ses
+dalgalarında da mekanik hangi dalgayı
+düşünürseniz düşünün ortam özelliklerine
+bağlıydı Çünkü dalga demek zaten
+ortamdaki taneciklerin titreşmesiyle
+titre tişim değişir yayılma hızı değişir
+Peki yay dalgasında ortamdan kastımız
+nedir yay dalgasında ortamdan kastımız
+yayı geren kuvvet ve yayın birim
+uzunluğunun kütlesidir gençler buradaki
+F kuvveti ile ilgili yanılgıyı hemen
+söyleyeyim burada bir kaynağım var bu
+kaynak yukarıya ve aşağıya hareket
+ediyor Dolayısıyla burada enine yay
+dalgaları oluşturuyor bunu yukarıya
+doğru ve aşağıya doğru hareket
+ettirirken uyguladığı kuvvet değil
+Burada kastettiğimiz ne demiştim daha
+önce dalga oluşturabilmek için yayda bir
+gerginlik oluşturmalısınız yayı duvara
+bağlarsınız biraz çekersiniz Ondan sonra
+elinizi yukarı aşağı hareket
+ettirirsiniz yayda gerginliği
+oluşturduğunuz kuvvettir buradaki F
+kuvvet Bunlar değildir yay ne kadar
+gerginse dalgalar o yayda daha hızlı
+yayılır yay ne kadar gevşekse o kadar
+yavaş yayılır neden olduğunu birazdan
+konuşacağız buradaki garip harf mü
+harfidir Yunan alfabesinden bir açılımı
+birim uzunluktaki kütle demektir birim
+uzunluğun kütlesi ne kadar fazlaysa
+yayda mü o kadar fazladır hız o kadar
+azdır diyebiliriz birim uzunluğun
+kütlesi ne demek şöyle bir örnek
+verebilirim diyelim ki iki tane yayım
+var demirden yapılmış bir tane daha
+yayım var Bu da demirden yapılmış aynı
+maddeden yapılmış iki tane yay parçam
+var 10 cm uzunluğu var bunun da 10 cm
+uzunluğu var üstteki yayı ölçüyorum 100
+gram geliyor alttaki yayı ölçüyorum 200
+gr geliyor böyle bir şey Mümkün olabilir
+mi olursa nasıl olur hocam böyle bir şey
+Mümkün olmaz Çünkü 10'ar cimlik iki tane
+yayınız var İkisi de demirden yapılmış
+alttaki daha ağır Ancak şöyle mümkün
+olabilir bu alttaki yay daha kalın
+yapıldıysa daha kalın bir yaysa İkisi de
+10'ar s olmasına rağmen İkisi de
+demirden yapılmasına rağmen alttaki daha
+ağır olacaktır yani uzunluklar aynı
+birim uzunluk aynı o uzunlukta kütlem
+fazla olduğu için mü fazladır mü
+fazlaysa hız azdır Dolayısıyla kalın
+yayda yay dalgaları daha yavaş ilerler
+diyebiliriz Çünkü buradaki tanecikleri
+hareket ettirmek daha zordur kalın bir
+yaydır bu adam daha ağır bir yaydır eğer
+aynı maddeden yapıldıysa buradaki yaylar
+mız müü kalınlık incelik olarak
+düşünebilirsiniz ama burada bir uyarı
+yapmam lazım yaylar aynı maddeden
+yapılmadıysa demirden bir yayınız var 10
+cm bir de çelikten bir yayınız var o da
+10 cm şimdi üsttekini ölçtüm 100 gr
+kütleye sahip alttakini ölçtüm 200 gr
+kütleye sahip alttaki daha kalındır
+diyebilir misiniz kesinlikle alttakinin
+msü daha büyüktür Çünkü ikisi de 10'ar
+cmet Yani l'ler eşit alttaki 200 gram
+olduğu için kütlesi fazla olduğu için
+msü daha fazladır ama ikisi de aynı
+kalınlıkta Olabilir çünkü bunlar farklı
+tür metaller Öz kütleleri farklı çeliğin
+öz kütlesi demirden büyüktür O yüzden
+aynı boyda aynı kalınlıkta daha ağır
+geliyordur gayet mümkün yani müü
+kalınlık incelik olarak kafadan ezber
+yapmıyorsunuz mü dediğimiz şey birim
+uzunluğun kütlesidir eğer yaylarını aynı
+maddeden yapıldıysa Evet kalınlık
+incelik olabilir ama farklı maddeden
+yapıldıysa kalınlık incelik değildir
+aynı kalınlıkta olmalarına rağmen müler
+farklılaşabilir o zaman daha doğru ifade
+hafif yay ağır yay demektir birim
+uzunlukta kütleni bir yayındır mü
+küçüktür birim uzunlukta kütlem fazlaysa
+ağır bir yayındır mü fazladır böylece
+cinsin bir önemi kalmayacaktır bu
+formülü mantığını simülas As yonda
+görelim Şimdi öncelikle ifademizi
+yazalım dalgaların yayılma hızı kök
+içerisinde yayı geren kuvvet bölü yayın
+birim uzunluğunun kütlesi ağır olması
+hafif olması ya da yay her yerde aynı
+madde ise kalın olması ince olması neden
+kök içerisinde olduğu bizi
+ilgilendirmiyor bu formülün Tam olarak
+nereden çıktığı bizi aşar ben size
+formülün mantığını vereceğim ama sayısal
+işlemlere girilmez diye ifade olduğu
+için köklü işlemlerle falan işlem
+yapmayacağım için orada kök olması beni
+ilgilendirmiyor benim tek bakacağım şey
+gerginlik arttıkça yayılma hızı artar mü
+arttıkça yayılma hızı az alır tek
+bakacağım şeyler bunlar şimdi 1,5 Hz
+frekansla kaynağımı çalıştırıyorum yay
+dalgaları şekildeki gibi ilerliyorlar şu
+an gerginliğim maksimum seviyede kuvvet
+maksimum seviyede hız maksimum seviyede
+gerginliği azaltırsam yayılma hızım
+azalır baştan başlatalım gerginliği
+azalttım tekrar kaynağı çalıştırıyorum
+az öncekine göre daha yavaş ilerliyor
+dalgalarım biraz daha azaltalım
+durdurdum gerginliği azalttım yine
+çalıştırdım en yavaş halini görüyorsunuz
+Çünkü minimum gerginlik var çok gevşek
+şu an bu yay çok gevşek olduğu için
+ilerleme hızı daha az Şimdi bunu şöyle
+açıklamak çok doğru değil ki çok yaygın
+bir açıklama şekli bu hocam gerginlik
+azsa buradaki tanecikler yavaş hareket
+ederler yavaş hareket ettikleri için
+dalgalarda yavaş yayılırlar bu
+açıklamanın şöyle bir falsosu var benim
+kaynağım 1,5 Hz frekansla çalışıyor
+kaynak çalıştıkça taneciklere titreşim
+emri veriyor yukarıya gideceksiniz benim
+gibi aşağıya gideceksiniz benim gibi
+diyor e kaynak 1,5 Hz frekansta
+çalışıyorsa o tanecikler de onun
+hareketiyle uyum içinde çalıştıkları
+için Aslında onlar da 1,5 Hz frekansta
+çalışıyorlar yani şu yeşil t taneciğin
+üst genliğe ve alt genliğe gelmesi de
+1,5 Hz le alakalı Hatta dikkat ederseniz
+simülasyona kaynağın yeşil noktasıyla şu
+yeşil tanecik senkronize hareket
+ediyorlar O yukarı çıkıyor o da yukarı
+çıkıyor kaynak aşağıya iniyor bu yeşil
+de Aşağı iniyor O zaman ben kaynağın
+frekansını değiştirmedikçe kaynağın
+çalışmasını hızlandırm adık çaa Ya da
+yavaşlatmadan buradaki taneciklerin
+frekansında da hareketlerinde de bir
+Hızlanma yavaşlama Görmemem gerekir
+frekansın sabit kalması gerekir
+deneyelim mesela gerginliği biraz daha
+arttıracağı şu yeşile odaklanın
+senkronize de o gerginliği arttır ım
+Yeniden başlatıyorum tekrar çalışıyoruz
+Bu yeşile odaklanın kaynağa odaklanın
+yine senkronize değiller mi dalgalarım
+benim şu an daha hızlı yayılıyor Eğer
+taneciklerin daha hızlı hareket etmesine
+bağlarsam Ben buradaki hız mevzusunu bu
+yeşil taneciğin çok daha hızlı hareket
+etmesi lazım Az öncekine göre ama az
+önce de kaynakla senkronizeyi şimdi de
+kaynakla senkronize E çünkü frekansı
+değiştirmedim ki ben frekans 1,5a
+buradaki taneciklerin frekansı da 1,5
+olmaya devam ediyor demek ki bu Hızlı
+gitme yavaş gitme mevzusu bu
+taneciklerin daha hızlı hareket
+etmesiyle alakalı değil başka bir şey
+var bakın Olay aslında F = ma A'dan
+düşünülebilir dediğim gibi kaynağın
+frekansını değiştirmedikçe taneciklerin
+frekansını da değiştiremiyorsan CK Hep
+Aynı hızla hareket ediyorlar iki nokta
+arasında Dolayısıyla bunların
+hızlanmaları yavaşlamaları yön
+değiştirmeleri değişmemeli Yani ivmeleri
+değişmemeli daha önceki derslerimde de
+vurgulamıştı bu taneciklerin yukarıya
+aşağıya hareketinin sebebi gerginlik bu
+yeşil tanecik şu an aşağıya iniyor neden
+E çünkü yanındaki kırmızı aşağıya iniyor
+ve bunlar birbirlerine bağlılar İşte
+buradaki bu gerginlik bu yeşil aşağıya
+doğru zorluyor şimdi ben burada bir
+mantık yürüteceğiz buradaki taneciklerin
+her birine 1 gram diyorum bu böyle bir
+kalsın bir atma üzerinden düşünelim daha
+kolay düşünelim gerginliğim orta
+seviyede bir tane atma oluşturdum
+gönderdim Bakın Şu an atmam ilerliyor
+kaç tane tanecik hareketlendi kaç tane
+tanecik şu an hareket ediyor aktif 1 2 3
+4 5 6 Hadi şunu da sayalım 7 tane 7 tane
+taneciği hareketlendiriyor bu yaydaki
+gerginlik Dolayısıyla toplam 7 gramlık
+bir hareket var hadi kuvvet olsun 7 New
+7 n'luk gerginlik toplam 7 gramlık
+kütleyi hareketlendiriyor sistemde
+gerginliği arttırırsan sıfırlıyorum bir
+atma daha gönderiyorum şu anki harekete
+bakın durdurdum 1 2 3 4 5 6 7 8 9 10 11
+şu an 11 tane tanecik aktif hareket
+ediyor Yani hareketlenen 11 gram var
+hareketlenen tanecik sayısı niye arttı E
+çünkü gerginliği arttırdım atıyorum şu
+an 11 New yaptım gerginlik arttığı için
+daha fazla tanecik hareketleniyor Ee ne
+olmuş Daha fazla taneciğin hareketli
+olması dalgaların daha hızlı yayılması
+demek zaten dalga dediğimiz şey ya da
+atma dediğimiz şey buradaki taneciklerin
+hareketlenmeleri titreşmesi deil değil
+mi Evet ne kadar çok tanecik titreşim
+yapıyorsa burada oluşturduğun dalga o
+kadar büyük oluyor Örneğin ben buradaki
+gerginliği daha da arttırabilir şu
+adamların Hepsini aynı anda titreştiren
+bir anda komple şöyle bir atma
+oluşturmuş olursun bak bu yeşil tanecik
+anında titremeye başladı Yani burada
+oluşan atman bir anda buraya geldi hızlı
+yayılma budur işte sen böyle az az
+tanecik titreştirir bu yeşilin
+titreşmesi daha çok zaman var Sen İşte
+buna ne diyorsun atma yavaş diyorsun Ne
+kadar çok tanecik aynı anda titreşirse
+burada verdiğin enerji hızlıca buraya
+gel demektir yani dalgalar Ya da atmalar
+neyse artık hızlı yayılıyor demektir
+gerginliği minimum yaptım kaynağı
+çalıştırdım şu an durdurdum 1 2 3 4 tane
+tanecik var aynı anda D tane taneciği
+çalıştırabiliyor gerginliğim çok az
+Dolayısıyla hareketlendirdi kütle
+miktarı az tanecik sayısı az E böyle az
+az taneciği hareketlendirir bu enerjinin
+bu yeşil taneciğe gelmesi çok uzun sürer
+İşte biz buna atma yavaş ilerliyor deriz
+gerginliği maksimum yaparsam Fi
+arttırdım aynı anda çok fazla kütle
+hareketlendiği için enerji bir an anda
+bu yeşil taneciğe gelecek işte biz de
+buna atma hızlanmış diyeceğiz peki müü
+Nasıl yorumlayabiliriz yani birim
+uzunluktaki kütle miktarını Nasıl
+yorumlayabiliriz Bunun her yerinin
+demirden yapıldığını düşünürsem kalınlık
+incelikten düşünebilirim gerginlik
+sabitken mü artarsa yay kalınlaşır İsa
+yayılma hızımız azalır bunu da Şöyle
+düşünebiliriz mesela gerginliğim
+maksimum bir tane atma oluşturdum bu
+arkadaş gidiyor Az önce bunu konuşmuştuk
+gerginlik maksimum sallıyorum kafamdan
+11 n'luk gerginlik 11 gramlık kütleyi
+hareket ettiriyor aynı anda Yani 11 tane
+tanecik aynı anda aktif titriyor şu an E
+şimdi bu yay daha kalın olsaydı bu
+taneciklerin üzerinde birer tane daha
+tanecik varmış gibi düşünseydik birim
+uzunlukta daha fazla kütle var demiş
+olsaydık e kuvvet 11 n Ben 11 gramı
+hareketlendirecek
+etlendirme daha az tanecikte elde
+ediliyor çünkü bunlar ağırlaştı
+kalınlaştı daha az taneciğin
+hareketlenmesi az önce söylediğim gibi
+daha yavaş ilerleme demek bu
+simülasyonda müü değiştiremiyorum O
+yüzden onu gösteremiyorum Ama şuna
+benziyor işte daha az tanecik
+hareketlenir kaynağın verdiği enerjinin
+buralara gelme bu yeşil taneciği
+titreştirme süresi çok uzuyor Çünkü az
+az ilerleyebiliyor çünkü atmam yavaşladı
+ortamın ne olduğunu öğrendikten sonra
+sorularımızı çözelim ve pekiştirelim bir
+ucundan sabitlenmiş diğer ucundan F
+kuvvetiyle gerilen esnek bir yay
+şekildeki gibidir yayda oluşturulan at
+ın genişliği x mesafesi zamanla
+arttığına göre yargılarından hangileri
+Doğru olabilir diye sorulmuş bu x
+mesafesini dalgalardaki lambda gibi
+dalga boyu gibi düşünebileceğiniz
+söylemiştim Ama buna lambda
+diyemeyeceğimi Çünkü burada tam bir
+dalga olmadığını söylemiştim Dolayısıyla
+lambda eşittir dalganın yayılma hızı
+çarpı periyodu atma için neye dönüşmüştü
+genişlik eşittir atmanın yayılma hızı
+çarpı atmanın oluşturulma süresi burada
+oluşturduğum atma sağ tarafa doğru
+giderken x mesafesi artıyormuş x
+mesafesi artıyorsa matematiks olarak ya
+hızı artıyordu ya da oluşturulma süresi
+artıyordu son söylediğim size saçma
+geldi değil mi oluşturulma süresi nasıl
+artsın oluşturulma süresi zaten oluşma
+anında belirlendi onu bir daha
+değiştiremezsin ki o sabittir Artık
+yolda başına ne gelirse gelsin Sizin bir
+doğum süreniz var mesela anneniz
+doğumhaneye girdi ve doğum bir saat
+sürdü Siz doğdunuz büyüdünüz yaşlandınız
+Hayatınız boyunca başınıza bir sürü şey
+geldi doğum saatiniz değişiyor mu doğma
+anında kaç saat sürdüyse doğum Ömrünüz
+boyunca da budur Dolayısıyla buradaki
+tleri aynı şekilde düşünebilirsiniz bu
+bir daha değil değmez o zaman kesinlikle
+ne oluyor hız artıyor Bu arkadaş daha
+hızlı yayılıyor yaylarda hızı belirleyen
+şey neler Tabii ki ortam ama ortamdan
+kastım nedir gerginlik bölü birim
+uzunluğun kütlesi mesela F kuvveti
+zamanla artmış Olabilir mi Olabilir niye
+olmasın mü sabittir yay her yerde aynı
+yaydır herhangi bir kalınlaşma hafifleme
+ya da başka tür bir yaya geçiş yoktur
+kuvvet arttığı için gerginliği zamanla
+arttırdığımız için hız artmış olabilir
+hız arttığı için genişlik artmıştır
+yayın her yeri aynı kalınlıkta değildir
+Evet yay gitgide inceliyordu mesela
+şuralar kalın yaydır geri kalan yerler
+ince yaydır E şimdi benim atmam kalından
+inceye doğru geçerken birim uzunluktaki
+kütle azalıyor yani yay hafifliyor yani
+mü azalıyor mü azalırsa hız artar hız
+artarsa genişlik artar olabilir Her yer
+aynı kalınlıkta olmayabilir ya da yay
+türdeş değildir türdeş Ne demek yani bu
+yayın her yerinde aynı tür Malzeme mi
+var homojen mi dağılmış ya da ne bileyim
+bazı yerler bakırdan bazı yerler
+demirden mi yapılmış olabilir bu da m'ye
+etkiler birim uzunluğun kütlesini
+etkiler Burası demirden yapılmıştır
+Burası alüminyumdan yapılmıştır birim
+uzunluğun kütleleri değişir hafiflik
+ağırlık değişir hız değişir gayet
+mümkündür hepsi olabilir geldik
+dersimizin son sorusuna kalınlığı her
+yerde aynı olan türdeş bir yay şekildeki
+gibi tavana bağlanmıştır Buna göre
+dışarıdan uygulanmış yayı geren herhangi
+bir kuvvet olmamasına rağmen atma nasıl
+yay üzerinde ilerleyebilmek değil mi
+yayda atma oluşturabilmek için bir
+gerginlik olması gerektiğini söylemiştim
+Bir hızın olabilmesi için hızdan
+bahsedebilmek gerekir Ama burada
+dışarıdan tutup çeken birisi yok Evet
+bir el tutup çekmiyor ama bu yayın
+aşağıya doğru kendi ağırlığı yok mu evet
+E bu ağırlık yayda herhangi bir
+gerginlik oluşturacak mı Tabii ki
+oluşturacak e Dolayısıyla F var tavana
+bağladığınız yaylar böyle açılmaz mı
+sanki biri Tutmuş da çekmiş gibi tabii
+ki açılır E çünkü ağırlıkları var o
+zaman a şıkkının cevabı yayın
+ağırlığıdır diyebiliriz zamanla atmanın
+hızı nasıl değişir bu atma yukarıya
+doğru ilerliyor acaba bu hızda bir
+değişiklik olur mu güzel şimdi kalınlık
+her yerde aynı türdeş bir yay demirden
+yapılmış her yeri Demir ve her yeri aynı
+kalınlıkta bu bana şunu anlatmak istiyor
+bunun msü sabit E hocam yayın da
+ağırlığı her yerde aynı o yüzden F de
+sabittir hız da sabittir değil maalesef
+yayın ağırlığı her yerde aynı değil
+böyle bir yorum yanlış Aslında F
+değişken burada Bakın ben bu yayı şöyle
+dümdüz çizsem herhangi bir atma
+düşünmeyelim Sizce yayın en üstündeki
+bir noktanın gerilmesiyle ortasındaki
+bir noktanın gerilmesi en altındaki
+noktanın gerilmesi aynı mıdır değildir
+En alttaki nokta altındaki yayı taşıyor
+ortadaki nokta altındaki yayı taşıyor en
+üstteki nokta altındaki yayı taşıyor
+taşıdıkları yay miktarları aynı mı hayır
+değil şu nokta çok az bir yay parçasını
+taşırken ortadaki biraz daha fazla en
+üstteki bütün yayı taşıyor Dolayısıyla
+sallıyorum şurada 100 n'luk bir gerilme
+varsa yayın buralara 50 n'luk gerilme
+şuralarında 5 n'luk bir gerilme var gibi
+düşünebilirsiniz aklına yatmayanlar için
+şöyle bir örnek vereyim Burası bir
+uçurum olsun filmlerdeki bir sahne gibi
+insanlar uçuruma düşmek üzereler el ele
+tutuşmuşlar burada böyle bir sürü insan
+var 20 tane insan var Herkes birbirinin
+elinden tutmuş böyle zincir
+oluşturmuşlar sizce en çok eforu kim
+sarf ediyor en çok kuvveti kim uyguluyor
+e Şuradaki bir adam belki altındaki bir
+kişiyi taşıyor Ama uçurumun tepesindeki
+adam buradaki 20 adamı birden taşıyor
+Aslında o yüzden yukarıda gerilme
+fazladır aşağıda gerilme azdır E o zaman
+bu atma yukarı doğru çıktıkça gerilmenin
+fazla olduğu bir yere mi gidiyor Aynen
+öyle E gerilme fazlalaşırsa O zaman ne
+olur hız artar zamanla atmanın hızı
+artar diye İriz güzel bir soruydu bu
+soruyla beraber yay dalgalarına bir
+giriş yapmış olduk Bir sonraki
+dersimizde yay dalgalarını yansıtacağız
+ve yay dalgalarına girişim yaptıracağız
+takıldıkları alta yazın Kendinize iyi
+bakın
+[Müzik]
+görüşürüz

@@ -1,0 +1,1077 @@
+sahip diyor Bunların hepsi elektriksel
+güçle ilgili kavramlar Dolayısıyla
+elektrik enerjisi ile ilgili kavramlar
+4000 wattlık elektrik süpürgesi neden
+3000 watt'a göre daha iyi çekiş gücüne
+sahip Bu arkadaşın gücü 4.000 watt ise
+eğer Bu şu anlama gelir 1 saniyede 4000
+enerji harcıyor demektir Bu arkadaşın
+gücü 3.000 watssa Eğer aynı bir saniyede
+3000 jul enerji harcıyor demektir ve o
+kadarlık iş yapıyor anlamına gelir %100
+verimle çalışıyorlarsa daha çok enerji
+harcıyor Çünkü daha çok çekiş gücüne
+sahip aynı sürede daha az enerji
+harcıyor Çünkü daha az çekiş gücüne
+sahip çok enerji çok çekiş gücü demek
+ama aynı zamanda bu elektrik faturanızın
+da daha kabarık olması anlamına gelir
+dediğim gibi verimleri eşitse doksanlı
+yıllarda bizim ampulümüz patladığında
+Biz bakkaldan alırdık bunları 50 wattlık
+ampul alabilirdik 75 wattlık ampul
+alabilirdik ya da 100 wattlık ampul
+alabilirdik 100 wattlık ampul
+aldığımızda O da çok parlak olurdu 50
+wattlık ampul aldığımızda O da loş
+olurdu Neden Çünkü 100 wattlık ampul
+daha güçlü bir ampul Birim zamanda
+harcadığı enerji daha fazla o yüzden
+Daha aydınlık yapıyor 50 watt'lık ampul
+Birim zamanda daha az enerji harcıyor
+odaya Daha az ışık enerjisi veriyor O da
+daha loş oluyor ama biz her zaman gidip
+100 wattlık ampul almıyorduk Çünkü bu
+arkadaş daha fazla elektrik faturası
+demektir daha çok aydınlık ama o
+enerjiyi de nereden alıyor şehir
+şebekesinden alıyor sende daha çok
+elektrik kullanmış oluyorsun faturada
+daha çok gelmiş oluyor bu dersimizin
+sonlarına doğru lamba parlaklıklarını
+konuşacağız
+lamba parlaklığını belirleyen şey o
+zaman bu örnekler üzerinden düşünürsen
+güçtür lambanın gücü ne kadar fazla ise
+buradaki P ne kadar fazlaysa Birim
+zamanda Mesela bir saniyede o kadar çok
+enerji harcıyorsun demektir O kadar çok
+iş yapıyorsun demektir Bu da odayı iyi
+aydınlatıyorsun demektir Birim zamanda
+daha çok ışık enerjisi veriyorsun
+demektir bu yüzden lamba parlaklığı
+denilince aklımıza güç gelmesi gerekiyor
+şimdi şöyle Basit bir elektrik devremiz
+var bir güç kaynağımız var Bir
+ampermetremiz Var Bir direncimiz var ve
+direncimizin uçları arasına bağlanmış
+bir voltmetremiz var buradaki
+direncimizi bir lamba gibi düşünebiliriz
+bir ütü gibi düşünebiliriz bir saç
+kurutma makinesi gibi düşünebiliriz
+Herhangi bir elektrikli alet bu
+üzerinden akım geçiyor Eğer bu bombaysa
+bu akımın etkisiyle ısınıyor ve ışık
+yaymaya başlıyor bu lambanın gücü nasıl
+hesaplanır bu lambanın gücü uçları
+arasındaki potansiyel fark ve üzerinden
+geçen akımla hesaplanır neden potansiyel
+farkın tanımını hatırlayalım potansiyel
+farkı ben ilk videoda şöyle açıklamıştım
+Potansiyel fark demek birim yükü devrede
+dolaştırmak için gereken enerji demek
+bir pil devrede V Potansiyel fark
+oluşturuyorsa buradaki elektronu
+dolaştırmak için bir tane elektrona bu
+kadar enerji veriyor demektir Eğer sen
+buraya bu pili değil de 2v'lik bir pili
+bağlarsan daha çok Potansiyel fark
+oluşturan bir pil olduğunu düşünürsen o
+elektronun başına iki kat daha fazla
+enerji düşüyor demektir 5v'lik pil
+bağlarsan 5 kat daha fazla enerji demek
+o zaman ben bu söylediklerimi bir formül
+haline Getirirsem Potansiyel fark
+dediğim şey yük başına düşen enerjidir
+buradan enerjiyi çekersem yük çarpı
+Potansiyel fark olur buradaki enerji
+elektriksel enerji işin içine gücü
+katmak istiyorum Çünkü ben buradaki p'yi
+bulmak istiyorum güç dediğim şey birim
+zamanda harcanan enerjiydi E bölünteydi
+o zaman enerji dediğim şey güç çarpı
+zaman geldim Bu enerji yerine güç çarpı
+zaman yazdım eşittir yük çarpı
+Potansiyel fark gücü çektiğimde enerji
+bölü zamanı q çarpı V bölü T olarak
+yazar şimdi
+q/t yine İlk derslerde öğrendiğimiz bir
+şey birim zamanda geçen yük miktarı
+telin kesitinden Birim zamanda geçen yük
+miktarını Biz ne diyoruz akım diyoruz o
+zaman benim güç dediğim şey o direncin o
+elektrikli ev aletinin üzerinden geçen
+akım çarpı uçları arasındaki potansiyel
+fark yani şu arkadaşı bu şekilde ifade
+edebilir Burada iki tane daha ifade
+görüyorsunuz onlar bambaşka formüller
+değiller buradaki 3 formül de aynı şey
+birbirinden türetilmiştir bunu kendiniz
+de düşünerek bulabilirsiniz ki böyle
+yapmanızda tavsiye ederim her zaman
+anlatılanlar üzerinde düşünmelisiniz
+Aynen kabul etmemelisiniz Mesela bu da
+güç formülü Bu da güç formülü ama
+ortadakinin içerisinde direnç katılmış
+direnci işin içine nasıl sokabilirim
+Tabii ki vırdan Yardım alarak
+yapabilirim ben bunu V yerine ı çarpı r
+yazabilirim Ben burada V yerine ı çarpı
+r yazsam bir ı burada var bir IDE burada
+var O zaman ne olur olur güç dediğim şey
+ı’nın karesi çarpı r ile de bulunabilir
+ya da v'nin karesi bölü r ile de
+bulunabiliyormuş E onu nasıl elde
+edebilirim ı yalnız bıraksam yine Vur
+formülünde v/r olur şunun yerine V bölü
+R yazarsam r x B'den v^2/ r'yi elde eder
+Bu da bir güç formülüdür hangisi işimize
+yarayacaksa soruyu çözerken onu
+kullanırız Hatta genelde Biz şu ortadaki
+ile en sondakini kullanırız Çünkü bize
+bir direnç verir yani bu r'ler Bellidir
+sen onun üzerinden geçen akımı bulursun
+ve gücünü hesaplarsın ya da uçlar
+arasındaki potansiyel farkı bulursun
+gücünü hesaplarsın dediğim gibi bu üç
+formül farklı şeyler değil aynı şeyin
+farklı yüzleri gücün biriminin watt
+olduğunu zaten iş güç ve enerjiden
+biliyoruz ama bunu elektriksel olarak da
+ifade ettiğimizde güç dediğimiz şey akım
+çarpı Potansiyel fark olduğu için akımın
+birimi amper potansiyel farkın birimi
+volt Dolayısıyla Volt amper de bata
+eşittir diyebiliriz elektrikte şimdi
+günlük hayatta elektrik enerjisi ile
+ilgili bir şeyden bahsetmemiz gerekiyor
+ki ÖSYM buraları sorguladı diyelim ki ay
+sonunda faturanız çok geldi dediniz ki
+biz acaba bu ay ne kadar klasik enerjisi
+harcadıkta bu kadar çok fatura geldi
+faturayı açıyorsun Acaba ne kadar
+elektrik enerjisi harcadım Diye
+bakıyorsun ve Jule arıyorsun haliyle
+Çünkü fizik öğretmenin sana dedi ki
+enerjinin birimi joulder birim
+sisteminde Sende diyorsun ki acaba
+nerede juli yazıyor oradan elektrik
+enerjisine bakayım ama bulamıyorsun
+Neden Çünkü biz elektrik enerjisi olarak
+kilowatt saat kullanıyoruz şöyle bir
+yazım görüyoruz faturada Hocam bu enerji
+birim olamaz ki burada What diyor bu
+olsa olsa bir güç birimidir Hayır burası
+kilowatt çarpı saat güç ne demek güç
+dediğim şey birim zamanda harcanan
+enerji buradan enerjiyi çekersem enerji
+dediğim şey güç çarpı zaman olur gücüm
+birimi watt olduğuna göre zamanın birimi
+saniye olduğuna göre watt çarpı saniye
+aslında bir enerji birimidir günlük
+hayatta Biz büyük sayılarla uğraştığımız
+için bu Batı genelde faturalarda kilo
+watt olarak görüyoruz kilo bin demektir
+hatırlarsanız O zaman 1 kilowatt 1000
+watt anlamına geliyor çarpı saniye
+yerine de saat kullanıyoruz saatin
+İngilizce baş harfinden geliyor
+Dolayısıyla kilowatt saat bir Güç birimi
+değil bir enerji birimidir sen turan'da
+ne kadar elektrik enerjisi harcadığını
+bulmak istiyorsan kilowatt saat
+ifadesini bulmalıyız o zaman yeni bir
+ifade türetelim enerji dediğim şey güç
+çarpı zaman olduğuna göre güç yerine
+akım çarpı Potansiyel fark Yazarsan bunu
+zamanla çarptığımda bir enerji bulmuş
+olurum hatta bunun daha akılda kalıcı
+hali ve çarpı ı çarpı t'dir evet diye
+bunu aklınızda tutabilirsiniz veya güç
+yerine yukarıda yazdığımız gibi bir kare
+R yazarsak çarpı zaman yine bir enerji
+anlatır veya güç yerine yukarıda
+yazdığımız gibi ve kare bölü R yazarsak
+bunu zamanla çarptığımda yine bir enerji
+anlatacaktır dolayısıyla bir elektrikli
+aletin Mesela bir su ısıtıcısının
+kettle'ın ne kadar elektrik enerjisi
+harcadığı gücüyle alakalı ama sadece o
+değil tabii ki ne kadar süre
+çalıştırıldığıyla da alakalı senin
+kettle'ın 3.000 wattlık bir kettle Tamam
+bunu bir saat çalıştırırsan Buna göre
+enerji harcarsın 2 saat çalıştırırsan
+Bunun iki katını harcarsın senin
+kettle'ın daha güçsüzdür 1500 wattlık
+bir ketıldır bunu bir saat
+çalıştırdığında şu arkadaşın yarısı
+kadar harcamış olursun Çünkü gücü yarısı
+kadar yani bir elektrikli adaletini ne
+kadar elektrik enerjisi harcadığı sadece
+güce bağlı değil zamanla da alakalı
+mesela ısınma prensibine göre çalışan
+elektrikli ev aletlerinin güçleri hep
+fazladır işte fırınlar 3000 watt 4000
+watt ketıllar 3000 watt Ne bileyim
+ütüler işte 3.500 watt sallıyorum Ama bu
+sayılardalar aşağı yukarı bunları o
+yüzden çok çalıştıramıyoruz ama bir
+televizyon mesela 500 watt televizyon
+bir gün içerisinde Ortalama bir evde 12
+saat boyunca çalışabilir hiç de bu ay
+televizyonu çok açık tuttuk fatura çok
+geldi demez Ama hiçbir anne de 12 saat
+boyunca fırın çalıştırmaz 12 saat
+boyunca ütü çalıştırmaz Eğer bunu
+yaparsa faturanın ne olduğunu görürüz
+Bunun sebebi güçle alakalıdır ama Günde
+1 saat ütü yaptın diye de ekstra çok
+fazla fatura gelmez gücü fazla olmasına
+rağmen E bu sefer de zaman daha az
+tutulduğu için daha az elektrik enerjisi
+harcamışsındır az önce söylediğim gibi
+lambaların parlakları güçleriyle
+orantılı Çünkü güç Birim zamanda
+harcadığın enerji bir lambanın gücü
+fazlaysa Birim zamanda daha çok ışık
+enerjisi yayıyor demektir Bu da ortalığı
+daha iyi aydınlatır demektir ama yine
+günlük hayatta karşılaştığımız bir durum
+var benim az önce bahsettiğim 90'lı
+yıllardaki ampuller şu arkadaşlardı bunu
+daha önce de konuştuk sizinle tunçtan
+ampul bu flamanlı ampul olarak da geçer
+Şuradaki iletkenin üzerinden akım geçip
+aşırı ısınmasıyla Işık yayan bir alet Az
+önce bahsettiğim bu 100 wattlar 50
+wattlar bu arkadaşa aitti ama Yeni
+teknoloji tasarruflu ampul çıktı Yeni
+teknoloji led ampul çıktı mesela bakın
+burada bir görsel var diyor ki bu led
+ampul aslında diyor 9 watt'lık bir ampul
+ama o görselde 9 watt eşittir 60 Watt
+yazıyor böyle bir matematik olabilir mi
+9 watt nasıl eşittir 60 Watt Olabilir
+böyle bir matematik olmaz ama kastettiği
+bir şey var bizim kafa eski olduğu için
+daha şu teknolojik lambalar
+alışamadığımız için bize flamanlı ampul
+düşündüğümüz için sen diyor 60 wattlık
+bir filamanlı ampulle alacağın
+aydınlatmayı bunun 9 wattlık
+versiyonuyla alabilirsin diyor bu
+ampulle işte burada devreye verim
+kavramı giriyor Evet bu 100 wattlık bir
+ampuldü Biz bununla aydınlanıyorduk Ama
+bunun 90 watı ısıya gidiyordu Bu tel
+neden ışık yayıyordu Çünkü aşırı
+ısınmıştı bir de benim amacım
+aydınlanmak ısınmak değil Ben bunu fırın
+olarak kullanmıyorum ki çok verimsizdi
+bu ampuller bunların verimi %10 kabul
+edilir O yüzden 100 wattlık ampulde Ben
+10 wattlık ışık enerjisi elde ediyorum
+bunun 90'ı kayıptı Ama bu arkadaş
+atıyorum 10 watt'lık bir ampul bunun 9
+watt'ı ışığa dönüşürken bir watı ısıya
+dönüşüyor buradaki verim çok daha yüksek
+%90 bir verim var daha az kayıp var Bu
+yüzden bu iki arkadaşın aydınlatmasını
+neredeyse denk ama burada önemli olan ne
+bu adam 10 wattlık bir ampul olduğu için
+elektrik şebekesinden Buna göre enerji
+çekiyor Bu 100 wattlık bir ampul olduğu
+için elektrik şebekesinden ona göre
+elektrik çekiyor çok elektrik harcıyor
+10 wattlık Işık veriyor az elektrik
+harcıyor 9 wattlık Işık veriyor O yüzden
+artık evlerde Bunlar pek kalmadı ya
+tasarruflusunu kullanıyoruz ya led
+kullanıyoruz daha verimli aletler Çünkü
+daha az ısıya dönüşme daha çok ışığa
+dönüşme var şimdi burada ev tesisatında
+bazı Elektrikli aletlerin güçlerinin
+nasıl olduğunu üzerlerinden ne kadar
+akım geçtiğini dirençleriyle Ne ilgisi
+olduğunu konuşacağız burada bir priz
+görüyorsunuz ve burada da sol tarafta da
+bazı elektrikli aletler var işte
+Televizyon var kettle var çamaşır
+makinesi var Normal bir ampul
+üzerlerinde güç değerleri yazıyor 100
+watt 1 kw yani 1000 watt 300 watt 30
+watt gibi değerler Şimdi ben buradaki
+Bir ampulü fişe takacağım iki tane
+iletkenle yapıyorum bunu birinci
+iletkeni prizime taktım ikinci
+iletkenimi de diğer kısma takıyorum
+bunları fiş gibi düşündüm Böylece şu an
+lambam yanıyor 30 watt'lık bir lamba bu
+şu an şehir şebekesinden 136
+miliamperlik akım çekiyormuşuz bu
+lambanın üzerinden Bu akım geçiyormuş
+şehir şebekesi 220 volttur gençler
+sağlamasını yapalım güç dediğim şey bu
+lambanın üzerinden geçen akım çarpı
+lambanın uçları arasındaki potansiyel
+fark ve prizde 220 volt varsa bu benim
+güç kaynağım şu an o zaman lambanın
+uçları arasında 220 volt var ne kadar
+akım geçiyormuş 136 miliamper geçiyormuş
+136 çarpı 10 üzeri -3 amper olarak
+düşünmeliyim Çünkü mili binde bir
+demekti ampere dönüştürüyorum ki watt
+cinsinden bir şey bulayım 136 ile 220'yi
+çarparsanız hemen yapıyorum 136 çarpı
+220 eşittir
+29.920 Aslında bu 29.920 tabii ama 10
+üzeri -3 olduğu için yaklaşık 30 Watch
+işte böyle hesaplayabiliriz ya da bunu
+dirençten de hesaplayabilirdim Çünkü
+direnç değeri de var lambanın bir nokta
+61 kilo olmuş bir kare R yaparak da
+akımın karesi çarpı direnç yaparak da
+yaklaşık 30 watı buldunuz Bakın bu
+Lambayı söktüm buraya bir kettle
+takıyorum bayağı güçlü 1000 wattlık bir
+arkadaş bu yine ı çarpı v'den
+hesaplayacağım volt güç kaynağı ile
+ilgili 220 volt zaten bu sabit O zaman
+bu kettle daha fazla akım çekecek şehir
+şebekesinden zaten bu yüzden bunu
+çalıştırdığımızda daha çok fatura
+geliyor bağladığım anda kettle şu an
+çalışıyor bakın 4.55 amper oldu Az önce
+miliamper mertebesindeydi kaç katına
+çıktı yine Hesap yapıyorum güç dediğim
+şey bu kettle'ın üzerinden geçen akım
+çarpı uçlar arasındaki potansiyel fark
+bizim şehir şebekemizde prizlerimizde
+220 volta olduğu düşünülürse 4.55
+amperle Ben bunu çarparsam yine hesap
+makinemize çarpalım 4.55 çarpı 220
+eşittir 1000 çıktı yaklaşık E çünkü bu
+arkadaş 1 kw yani 1000 watt şekildeki su
+ısıtıcısının maksimum gücü 2.2 kw yani
+2200 watmış bu arkadaş bu su ısıtıcısı
+220 volt potansiyel farkın olduğu
+takılıp çalıştırıldığında şehir
+şebekesinden kaç amper akım çeker suyu
+ısıtan rezistansı kaç 10'dur yani
+direnci kaç odur diye soruyor
+simülasyonda yaptık Aslında güç dediğim
+şey bu ısıtıcının üzerinden geçen akım
+çarpı uçlar arasındaki potansiyel fark
+prize takıyoruz bunu prizde 220 voltluk
+bir Potansiyel fark var güç kaynağımızın
+değeri bu akımı bulmaya çalışıyorum ve
+buraya da 2200 Yazdım şu Arkadaşlar şu
+Arkadaş sadeleşirse buradan akımın 10
+amper olması gerektiğini anlar Şimdi bu
+suyu ısıtan şey bunun tabanında bulunan
+rezistans yani direnç bunun üzerinden
+akım geçtikçe ısınıyor bu arkadaş Onun
+değeri kaç odur diye soruyor işin içine
+direnci nasıl katarım güç dediğim şey
+akımın karesi çarpı direnç burada volt
+yerine ı çarpı r yazarsanız bu arkadaşı
+buluyorsunuz az önce konuştuk güç 2200
+watt ne kadar akım çekiliyordu 10
+karesini alırsak 100 olacaktır çarpı rı
+buradan r'yi çekersem 22 onluk bir
+direnç olduğunu anlayabilir bir evin
+elektrik tesisatının bir kısmı şematik
+olarak şekildeki gibidir devredeki su
+ısıtıcısı klima ve fırının direnç
+değerleri 20 10 40 10 ve 10'dur buna
+göre bu aletlerin her birinin gücünü
+bulunuz bunları çalıştırdığında ne kadar
+fatura gelir ev aletleri neden paralel
+bağlanmıştır Özellikle bu üçüncü öncülük
+konuşmamız lazım ÖSYM oraları sorguladı
+ve gayet de mantıklı bir soru Şimdi
+öncelikle bunların her birinin gücünü
+hesaplayalım güç kaynağımız bir priz
+gibi düşünülürse kendisi 200 volt olarak
+verilmiş hesap kolaylığı olsun diye o
+zaman bunların hepsinin uçları arasında
+200 voltluk Potansiyel fark olmalı
+diyebiliriz çünkü bunlar paralel
+bağlılar buradaki güç kaynağının alçak
+potansiyel kısmına 0 yüksek potansiyel
+kısmına 200 yazarsan Bu 200'ü buraya da
+taşırım bütün bu kırmızı noktalara da
+taşıyabilir aynı şekilde sıfırı buraya
+taşırım ve bütün bu kırmızı noktalara
+taşıyabilirim gördüğünüz gibi kettle'ın
+uçları arasında 200 var klimada 200 var
+fırında 200 var bunların hepsinin direnç
+değerini vermiş bana yani benim elimde
+hangi bilgi var şu an bu aletlerin
+uçları arasındaki potansiyel fark
+bilgisi var ve direnç bilgisi var o
+zaman kullanacağım güç ifadesi Tabii ki
+p eşittir ve kare bölü R olacaktır
+kettle için yazarsan uçlar arasında 200
+var 200'ün Karesi bölü direnç değeri
+yani 20 olacaktır 200
+200/20 demek bu şununla şu sadeleşirse
+burada 10 kalır 200 çarpı 10'dan 2000
+watt anlamına gelir bu su ısıtıcısı
+2.000 watt'mış geldim klimaya yine ve
+kare bölü R yapıyorum uçları arasında
+yine 200 volt var karesini alacağım 200
+çarpı 200 olacak orası bölü klimanın
+direnç kısmı 40 olmuş buraya 40 Yazdım
+şu arkadaşta Şu arkadaş sadeleşti burada
+5 oldu 200 çarpı 5'ten klimamız 1000
+wattlık güce sahipmiş geldim fırına 10
+onluk bir dirence sahip yine uçlar
+arasında 200 volt var 200 çarp 200 bölü
+bunun direnci olan 10 bununla bu
+sadeleşti burası 20 olur 200 çarpı
+20'den 4.000 wattlık bir aletmiş bizim
+fırınımız Böylece a şıkkını halletmiş
+oluyoruz su ısıtıcısı günde 10 dakika
+klima 2 saat fırının da günde 1 saat
+çalıştırıldığını düşünürsek 30 Günün
+Sonunda eve ne kadar fatura gelir diye
+sorulmuş fatura hesaplayacaksak ne kadar
+para istendiğini de bilmemiz lazım
+parantez için Nedenmiş ki 1 kilowatt
+saat enerji 0.5 TL imiş o zaman enerjiyi
+hesaplayalım sonra o para kısmıyla
+çarparsak faturanın miktarını görmüş
+oluruz şuraları bir temizleyeyim
+Öncelikle artık enerji hesaplıyoruz güç
+dediğim şey enerji bölü zaman ben
+buradan enerjiyi çekersem güç çarpı
+zaman olur su ısıtıcısını
+hesaplayacaksam Eğer bunun gücü 2000
+watt parantez içindeki bilgide kilovat
+saat dediği için bu güç değerlerini ve
+zaman değerlerini ona uygun yazmam daha
+da mantıklı olur Yani buraya Aslında
+2000 watt değil de kilowatt halini yani
+2 kilowattlık halini yazmam daha
+mantıklı olacaktır 10 dakikayı da saate
+çevireceğim 1 saatte 60 dakika varsa 10
+dakika bunun altıda biridir yani 1/6
+saat anlamına gelir 2 çarpı 1/6'dan 1/3
+kilo watt saatlik bir enerji harcıyor su
+ısıtıcısı bir günde Klimayı hesaplayalım
+klimamız 1000 watt gücüne sahip o zaman
+bunun güç yerine 1 kw yazıyorum Ne kadar
+çalıştırıyoruz 2 saat çalıştırıyoruz
+direkt saat cinsinden vermiş zaten o
+zaman bu arkadaş 2 kilowatt saat enerji
+harcar bir günde fırın 4000 watt güce
+sahip kilowatt'a çevirirsem 4 kilovat
+olur Ne kadar çalıştırılıyor bir saat
+çalıştırılıyor her gün çalıştırılıyormuş
+4x1'den bu da 4 kilowatt saat yapacaktır
+O zaman bizim bir günlük enerji
+sarfiyatımız
+4+2+1/3'ten yaklaşık 6.3 kilowatt
+saattir diyebiliriz bana 30 günü Soruyor
+yani birayı soruyor o zaman bunu 30'la
+çarparsam aylık tüketimi bulmuş olurum
+Bu da yaklaşık 190 kilowatt saat gibi
+bir şey yapar devlet bizden 1 kilowatt
+saati 0.5 TL istiyormuş O zaman bunu da
+0.5 ile çarparsam Aslında yarıya bölmüş
+olmam demek 95 TL'lik bir fatura
+çıkacaktır Sadece bu 3 aleti kullandığım
+için Böylece bunu da halletmiş olduk ev
+aletleri neden paralel bağlanmıştır
+çünkü ev aletlerinin bir standardı var
+Ev Aletleri üretilirken belli bir
+potansiyel farka göre üretilirler biz ev
+aletlerimizi prize takıyoruz her prizde
+aynı Potansiyel fark olmalı ki
+standartlara uysun senin prizinde 200
+volt varsa bütün aletleri 200 volta
+bağlamış oluyorsun paralel bağlandıkları
+için bunları seri bağlasaydım ciddi
+problemler ortaya çıkardı Mesela bu
+kettle bu klima Bu da fırın seri
+bağladım hepsini şöyle de bir güç
+kaynağımız var güç kaynağı dediğim
+şeylerde prizler prizin de 120 volt
+varsa bu 220 voltu bu 3 seri arkadaş
+paylaşır hatırla devre analizi konumuzu
+bunun uçları arasındaki potansiyel farkı
+artı bunun artı bunun güç kaynağını
+veriyordu o zaman bunların her birinin
+başına 220'den az düşerdi hocam O zaman
+biz de burayı 660 yapardık 660'ı
+bölerdik yine 2220 düşerdi İyi de biz
+nereden bilelim sen evinde kaç tane
+elektrikle ev alet kullanıyoruz 5 tane
+priz seri bağlanırsa her birinin başına
+başka düşer 10 tane seri priz bağlanırsa
+her birinin başına başka düşer ikinci ve
+daha büyük bir problem Bunlar seri
+bağlanırsa Eğer bir tanesini çalışmaktan
+vazgeçirdiniz yani sabah kahve
+yapacaksın Kettle'ı çalıştırdın Tamam
+çalışırken problem yok kliman da
+çalışıyor fırının da çalışıyor lamban da
+yanıyor sonra Su kaynadı kahveni
+yapıyorsun kettle bitti Kettle'ı
+kapattın Yani bu direnci devreden
+çıkardın o direnci devreden çıkartırsan
+Burası açık anahtar olur yani bu yoksa
+kettle yok Klima var fırın var Burası
+boş bu devrede Akın nasıl dolaşacak su
+ısıtıcısı kapandı diye klimayla Fırında
+mı kapansın Bu yüzden paralel bağlılar
+mesela avizelerimiz var avizelerimizde
+bir sürü ampul var böyle 5 tane ampulü
+fiziksel bir şekilde takıyoruz hepsi
+yanıyor Bunlardan biri patladı diğerleri
+sönüyor mu sönmüyor Demek ki bu ampuller
+de paralel bağlılar Eğer bu ampuller
+seri bağlansaydı biri patladığında biri
+çalışmadığında üzerinden akım geçemezdi
+seri bağlamak demek tek bir hat olması
+demek olduğu için Diğerleri de
+çalışamazdı Evinizdeki bütün elektrikle
+çalışan aletler birbirinden bağımsız
+olmalılar ki birindeki bozukluk
+değerlerini etkilemez O yüzden hepsi
+birbirine paralel bağlanıyorlar hepsinin
+uçları arasında prizinizdeki 220 volt
+var Farklı voltajlara maruz kalmıyorlar
+ve birbirlerinden bağımsız çalışıyorlar
+Şimdi gelelim lamba parlaklığına Bununla
+ilgili bir simülasyon yapacağız orada
+hesap kitap yapacağız ama önce şöyle bir
+soru çözelim bir elektrik devresinde x y
+ve z lambalarının direnç değerleri
+şekildeki gibidir üreticinin iç direnci
+önemsiz olduğuna göre lamba
+parlaklıklarını kıyaslayınız hocam
+lambadan çok akım geçiyorsa çok
+parlaktır ya da hocam lambanın uçları
+arasındaki potansiyel fark fazlaysa çok
+parlaktır yanlış
+lamba parlaklığı güçle ilgilidir güç
+dediğim şey akımın karesi çarpı dirençle
+bulunabilir ya da potansiyel farkın
+karesi bö dirençle bulunabilir
+lambanın üzerinden geçen akım fazlaysa
+güç fazla olur doğru ama burada bir
+faktör daha var direnç var
+lambanın uçları arasındaki potansiyel
+fark fazlaysa güç fazla olur daha parlak
+olur doğru ama burada bir faktör daha
+var direnç var eğer sana soru lambalar
+özdeştir derse bu ne anlama geliyor
+Bütün fiziki özellikleri aynı yani
+direnci de aynı direnç bir değişken
+olmaktan çıkarsa o işte o zaman
+yapabilirsin dersin ki akım fazlaysa güç
+fazla voltaj fazlaysa güç fazla ama soru
+sana
+lambalar özdeştir demezse sadece akım ve
+voltaja bakmak çok tehlikelidir Burası
+önemli çoğu öğrenci bu ezberden gidiyor
+bu sorudaki gibi dirençlere bir farklı
+verir patlar gidersin hocam akımdan mı
+yapacağız voltajdan mı yapacağız
+parlaklık soruyorsa ya geçen akımları
+bulmalıyız ya voltajları bulmalıyız
+sorusuna göre değişir bazen potansiyel
+farktan gitmek çok basittir bazen
+akımdan gitmek çok basittir bunun
+tercihi size kalmıştır mesela Bu soruda
+İkisi de kullanılabilir yukarıda 5 onluk
+bir lamba var aşağıda 5 10 artı 15 onluk
+seri bağlanmış iki tane lamba var O
+zaman şöyle yapabilir miyiz devreyi
+biraz sade Hayal etmeye çalışsam şurada
+20 on var yukarıda 5 10 var yani
+yukarıya 4ı akım gitse aşağıya bir ı
+akım gitmeli Neden Çünkü bunlar paralel
+bağlılar bütün olarak bakıldıklarında
+güç kaynağımız 20 voltsa şurası 20'dir
+şurası 20'dir şurası da 20'dir burası
+sıfırdır Burası 0'dır burası da 0'dır
+üstteki lambamızın da uçları Arasında 20
+var alttakilerin de uçları Arasında 20
+var Paralel bağlıda potansiyel farklar
+eşit yani ı çarpı r'ler eşit O yüzden
+5'e 4 yazdıysam 20'ye 1 yazmalıyım şimdi
+bu arkadaşın uçları Arasında 20 volt
+varmış bunun özelinde bir vır yapsam
+uçları Arasında 20 var direnç değeri 5 o
+zaman buradaki akım 4 amper olmalı yani
+benim 4ı dediğim şey zaten 4 ampermiş
+bir ı dediğim şeydi o zaman bir amperdir
+x lambasının gücünü hesaplarsam p
+dediğim şey 4'ün karesinden 16 şu an
+akımın karesi çarpı direnç yapıyorum
+çarpı direnç eşittir 80 wattlık bir
+ampul bu arkadaş üzerinden bir amper
+geçiyor birin karesi çarpı 5 bu 5
+wattlık bir ampul bu arkadaş üzerinden
+yine bir amper çıkıyor birin karesi
+çarpı 15 Bu da 15 wattlık bir ampul
+bunların parlaklıklarını kıyasla diyordu
+ilk lambasının parlaklığı büyüktür Z
+lambasından O da büyüktür y lambasından
+diyebiliriz bakın y'den de Z'den de aynı
+akım geçti ama Z lambası daha parlak
+Niye Çünkü direnci fazla Çünkü sadece
+akıma bakamam Bir de bunun yanında
+direnç var burası çok önemli soruyu
+Hallettik Ama bazılarınızın aklına
+takıldığına emin olduğum bir durumu da
+gidermek isterim açıkçası ki en sevdiğim
+yerler buralardır konuları daha çok
+öğrendiğimiz yerlerdir Buralar soruyu
+herkes çözer Hocam bu formüllerde benim
+kafama takılan bir şey var İkisi de güç
+anlatıyor Evet ama birinde dirençle
+doğru orantılı öbüründe dirençle ters
+orantılı Şimdi ben nasıl bir yorumda
+bulunacağım lambanın direnci fazlaysa
+gücü fazla mıdır az mıdır bunu nasıl
+anlayacağım burada bir çelişki yok mu
+aslında yok varmış gibi dursa da yok
+bakın gençler ve eşittir ı çarpı bir
+lambanın uçları arasında sabit bir
+Potansiyel fark var yani bir pile bağlı
+ya da bir prize taktım 220 var bu sabit
+Bu değişmiyor çünkü onu güç kaynağı
+belirliyor lambanın direnci R iken
+üzerinden ı akım geçiyor 2 R iken ı/2
+akım geçer değil mi direnç artarsa akım
+azalır Ben bunu birinci güç formülünden
+hesaplasam direnç fazla olduğu için yani
+r'den 2r'ye çıktığı için güç artarmış
+gibi duruyor Evet ama senin direncin 2
+katına çıktığı için akımın da yarıya
+indi ve akımın karesi var formülde
+Burası daha da çok azalıyor R2 kat
+artıyor Akın kareden dolayı 4 kat
+azalmış oluyor bu da gücün azalması
+anlamına gelir aynı şey buradan
+düşündüğümde zaten voltajın sabit
+olduğunu 220 olduğunu düşündük bu aynı
+direncin artması gücü azaltıyor bak aynı
+olayı üstteki formülden de yorumladım
+alttakinden de yorumladım direncin
+artması akımı azalttı güç kaynağı sabit
+olarak düşünüldüğünde bu yorum
+yapabiliriz herhangi bir çelişki yoktur
+İki tane seri bağlanmış güç kaynağım var
+Toplamda 3 volt yapıyor 2 tane seri
+bağlanmış lambam var Bunları aktif hale
+getirdiğinde lambalar aynı parlaklıkta
+yanar mı hocam Burası seri bağlı bir
+devre O yüzden ikisinden de aynı akım
+geçer aynı parlaklıkta yanarlar bakalım
+gördüğünüz gibi Sağdaki daha parlak
+yanıyor soldaki daha soluk kalmış daha
+az parlak Neden Çünkü 3 voltluk bir
+Potansiyel fark var devrede Bir onluk
+dirençli lamba 2 onluk dirençli lamba
+Ben burada vır yaptığımda 3 volt var
+Toplam direncimiz 3 10 Dolayısıyla
+devrede dolaşan akım 1 amperdir güç
+hesaplıyorum p eşittir akımın karesi
+çarpı r ikisinden de aynı akım geçiyor
+ikisinden de bir amper geçiyor bu
+arkadaşta 1 Ohm olduğu için bu 1 watt
+güce sahip Bu arkadaşlar 2 Om olduğu
+için buraya 2 yazdığım için 2 watt güce
+sahip O yüzden bu arkadaş daha parlak
+yanıyor Çünkü direnci fazla Peki bu
+arkadaşları Paralel bağlasaydık ne
+olurdu şöyle tam tersi oldu bu sefer 1
+onluk direnç daha parlak yandı niye öyle
+oldu akımdan da gidebilirsin potansiyel
+farktan da gidebilirsin Biz Az önce
+akımdan gittiğimiz için yine akımdan
+düşünelim herkes paralel bu pil 3
+voltluk fark oluşturuyorsa eksi tarafa 0
+derim buraya 3 derin Bu üçü buraya kadar
+taşıyabilirim Burada da 3 volt var
+burada da 3 volt var burada da 3 volt
+var buralarda da sıfır var bu lambada 3
+voltluk potansiyel farkı altında bu
+lambada 3 voltluk potans güzel farkı
+altında bir onluk direnç olduğu için şu
+an bunun üzerinden 3 amper akım gider
+vırdan dolayı 2 onluk direnç olduğu için
+bunun üzerinden bir buçuk amperlik akım
+gider güç eşittir akımın karesi çarpı
+direnç akım 3 karesini al 9 direnç bir
+9w yapar akım bir buçuk karesini al 2.25
+gibi bir şey direnç 2 çarpı 2 yaparsan
+4,5 watt yapar üstteki daha parlak
+oluyor çünkü gücü fazla ya da direkt V
+kare bölü r'den de düşünebilirdik
+İkisinde de 3 volt var İkisinde de
+buraya 9 yazacaksın bunun direnci bir
+olduğu için 9/1'den 9 watt gelecek bunun
+direnci 2 olduğu için 9/2'den 4,5 watt
+gelecek duruma göre her şey değişir bir
+güç kaynağımız var gördüğünüz gibi bir
+modelleme olarak bir Potansiyel fark
+oluşturmuş bu potansiyel farkla anahtarı
+kapattığımda yüksek potansiyelden alçak
+potansiyele doğru şu an akımın Aktığını
+görüyorsunuz böyle bir modelleme
+yapılmış ve lambamız yanıyor lambanın
+uçları arasında pile eşit bir Potansiyel
+fark var yani Pil ne kadarlık bir
+yükseklik oluşturduysa lambada o
+yükseklikte şu an Tabii bu
+yüksekliklerin hepsi benzetme çekimi
+potansiyeliyle elektrik potansiyeli
+benzetiyoruz bunu konu anlatımlarında
+yapmıştık Özdeş bir tane paralel lamba
+bağladığımda parlaklıkları aynı oldu
+Hiçbir şey değişmedi Neden Çünkü bunlar
+paralel bağlılar pil bir buçuk volt ise
+İkisi de bir buçuk volt dirençlere de
+aynı Çünkü lambalar Özdeş dedim aynı
+parlaklıktalar Bunlardan bir tanesine
+seri bağlarsam Bakın bu arkadaşların
+parlaklığı düştü bu hala aynı hiç
+etkilenmedi Neden Çünkü hala bu arkadaş
+pile paralel bağlı pilde bir buçuk volt
+Varsa bunun da uçlar arasında bir buçuk
+volt var şurada da hala bir buçuk volt
+var çünkü pile paralel bağlı ama burada
+iki tane lamba olduğu için ve bunlar
+seri olduğu için bunun uçları arasında
+0.75 volt var bunun uçları arasında 0.75
+volt var güç dediğimiz şey ve kare
+bölünüre buradaki bütün lambaları Özdeş
+olduğu için R bir değişken değil
+Potansiyel fark azsa güç az güç azsa
+parlaklık az gördüğünüz gibi yeni
+lambalar eklemem bunun parlaklığını hiç
+etkilemedi Çünkü bunun uçları arasındaki
+potansiyel fark hala pilav eşit Ama
+bunun da yanına bir tane seri eklersem
+parlaklıklar düşer Çünkü toplam bir
+buçuk voltu paylaşmak zorunda kaldı iç
+direnci önemsiz üreteç ve Özdeş
+lambalarla oluşturulan şekil 1'deki
+elektrik devresi şekil 2'deki Elektrik
+devresine dönüştürülüyormuş Buna göre A
+ve B lambalarının parlaklıkları nasıl
+değişir diye sormuş bu bizim için önemli
+bir soru tipidir özellikle şu şekil bu
+elektrik devresi çok kullanılan bir
+elektrik devresidir şimdi parlaklık
+nasıl değişiyor diyorsa ve Bu arkadaşlar
+Özdeş lambalarsa hepsinin direnci aynı
+hepsinde R var parlaklık güçle ilgili
+Ben bunu akımın karesi çarpı dirençten
+ya da potansiyel farkın karesi bölü
+dirençten bulacağım R bir değişken
+olmadığı için direkt akım kıyaslaması ya
+da Potansiyel fark kıyaslaması yapacağım
+devreyi değiştirdiğimde lambaların
+üzerinden geçen akımlar değiştiyse
+parlaklıkta değişmiştir ya da lambaların
+uçları arasındaki potansiyel fark
+değiştiyse parlaklıklar değişmiştir o
+zaman onları anlamalıyım yani akım nasıl
+değişiyor Potansiyel fark nasıl
+değişiyor bakın kolay olsun diye ben bu
+dirençlerin hepsini 10 10 diyeceğim ve
+böylece sayısal bir işlem yapıp daha
+kolay anlamanızı sağlayacağım Bunların
+hepsi seri bağlı buranın eş değeri nedir
+Yani şöyle tek bir direnç varmış tek bir
+lamba varmış gibi düşünürsem O arkadaş
+30 onluk bir lamba olur güç kaynağımız
+da 30 voltmuş ve işte ı r yaparsanız
+şuranın 1 amper olması gerektiğini
+anlarsınız Dolayısıyla ana koldan gelen
+pilden geldiği düşünülen akım bir
+amperdir seri bağlı olduğu için tek bir
+hat olduğu için bunların hepsinin
+üzerinden bir amperlik akım geçiyordur
+diyebiliriz parlaklıkları da bunun
+üzerinden hesaplanacaktır p eşittir
+akımın karesi çarpı dirençten dirençler
+bir değişken değil Bu bir amperde bir
+değişiklik olursa o zaman güçte bir
+değişiklik olmuştur O zaman parlaklıkta
+bir değişiklik olmuştur diyebiliriz
+şimdi geldim buraya burada 10 var burada
+on var Bunlar nasıl bağlı paralel bağlı
+bunları teke düşürsem tek bir lamba gibi
+hayal etmek istesem 1/r falan yapmam
+lazım ya da çark böyle topla yapmam
+lazım Onunla onu çarp 100 10'la onu
+topla 20 100/20 5 10 demek yani bunu sil
+bunu da sil burada 5 10 var Yaz Bu
+arkadaşlar bu arkadaş seri bağlılar
+birinde 10 var Birinde 15 var tek bir
+lamba gibi düşünürsem değeri 15-10
+olmalıdır yine 30 voltluk güç
+kaynağımızı buraya yazdık o zaman
+buradan 2 amper geliyor ve eşittir 3 x 2
+amperi buraya başladım şimdi orijinal
+devreye geri getiriyorum Çünkü her bir
+Lambaya ihtiyacım var İki amper bunun
+üzerinden geldi 2 kola ayrılacak
+yukarıda da 10 10 var aşağıda da 10 10
+var Bunları paylaşacaklar dirençler eşit
+olduğu için eşit paylaşacaklar çünkü
+yüksek dirençten az akım alçak dirençten
+çok akım geçer İkisi de eşitse o zaman
+ikisinden de eşit geçer bir amper buraya
+bir amper buraya gider şimdi bak a
+lambamız var b lambamız var a
+lambasından başlangıçta kaç amper
+geçiyordu bir amper B lambasından da bir
+amper geçiyordu son durumda a
+lambasından kaç amper geçiyor 2 amper
+geçiyor B lambasından yine bir amper
+geçiyor bu ne anlama gelir hâlenbası
+parlaklığını arttırdı anlamına gelir B
+lambasının parlaklığını herhangi bir
+değişiklik olmadığını anlamına gelir
+Peki aile lambası parlaklığını iki
+katına mı çıkarmıştır Hayır 4 katına
+çıkarmıştır Neden Çünkü parlaklık güçle
+ilgili akımın karesi çarpı direnç
+başlangıçta birin karesi çarpı 10'dan 10
+wattlık bir güce sahipti lambamız şimdi
+ikinin karesi 4 çarpı yine 10 onluk
+direnç olduğu için 40 wattlık bir güce
+sahip parlaklığı 4 kat artmıştır
+diyebiliriz Bir de potans farktan
+gidelim yani akım üzerinden değil de
+potansiyel farktan bakmaya çalışalım
+Normal şartlar altında a lambasının
+uçları arasında bir voltmetre bağlarsam
+üzerinden bir amper geçiyor 10 onluk
+direnç v = ı r yaparsam buraya bir
+yazacağım buraya 10 yazacağım 10 volt
+potansiyel farka sahiptir B de aynısı o
+da 10 volt diğer lamba da aynısı o da 10
+volt Zaten bunlar seri bağlı bu 10
+voltların toplamı güç kaynağını verecek
+yani 30 volt doğru bir işlem yapmışız
+yeni durumda A'nın uçları arasında ne
+kadar var İki amper akım geçiyor 10
+onluk direnç 2 x 10'dan 20 volt var
+artık B lambası bir amper geçiyor 10
+onluk direnç 10 volt buradaki lambamız
+da 10 volt Bu ikisini teke düşürdüğümde
+O da 10 volt oluyordu hatırlarsanız yani
+şu uçla şu uç Dolayısıyla bu uçla bu uç
+arası 10 volt 20 burada var 10 burada
+var ikisi seri bağlı toplamda pil yani
+30 volt verecektir Buradan da anlıyoruz
+hala lambamız 10 volt potansiyel farktan
+20 volta çıktı parlaklığı arttı B
+lambamız 10 volt potansiyel farktan 10
+voltta kalmaya devam etti parlaklığı
+değişmedi dediğim gibi bu şekli
+unutmuyoruz ispatını yaptığıma göre
+şöyle akılda kalıcı olması için bir
+bilgi verebilirim Eğer güç kaynağı 3 ve
+potansiyel farka sahipse ve lambaların
+özdeşse hepsi R dirence sahipse bunda V
+Potansiyel fark bunda V Potansiyel fark
+bunda 2v Potansiyel fark vardır bu
+arkadaş iki kat daha fazla potansiyel
+farka sahiptir Çünkü bunun üzerinden
+gelen akım ikiye ayrılıyor buraya bir
+gidiyor buraya bir gidiyor
+lambaları Özdeş olduğuna göre Burada 2 i
+r'lik voltaj var burada i çarpı r'lik
+burada i çarpı r'lik voltaj var o yüzden
+bu ve bu ve bu 2v bu şekli
+unutmuyorsunuz bu şekil hayat kurtarır
+hiç direnci önemsiz üreteç ve Özdeş
+lambalarla oluşturulmuş elektrik
+devresinde reosta sürgüsü ok yönünde
+çekiliyor Buna göre A ve B lambalarının
+parlaklıkları nasıl değişir Az önce
+simülasyonda bunu konuştuk ağlamasında
+hiçbir şey değişmez neden hocam Çünkü
+güç kaynağı ve burada V var burada 0 var
+burada V var burada da V var burada 0
+var burada da 0 var a lambasının uçları
+arasında ve kadarlık Potansiyel fark var
+yani pile eşit Sen burada neyi
+değiştirirsen değiştir a lambası tam
+buraya bağlı olduğu müddetçe uçları
+arasında hep aynı V var a lambasının
+potansiyel farkı değişmiyor direnci
+değişmiyor o zaman gücü de değişmiyor o
+zaman parlaklığı da değişmiyor ama B
+değişir burayla Burası arasında V
+kadarlık Potansiyel fark var bu toplam
+değişmiyor Tamam bu iki arkadaş seri
+bağlı olduğu için paylaşıyorlar bu
+potansiyel farkı sen buradaki dirençte
+bir değişiklik yaptığında bu paylaşımda
+değişecektir Peki nasıl değişir bakalım
+sürgüyü sağ tarafa çekiyorum Yani
+normalde şuradan bir akım geliyordu şu
+kadarlık bir direnci geçip sürgünün
+üzerinden yoluna devam ediyordu Sen bu
+sürgüyü sağ tarafa Mesela bu tarafa
+çekersen Artık buradan gelen akım daha
+çok direncin üzerinden geçip sürgünün
+üzerinden yoluna devam eder Yani sen
+buradaki direnci arttırıyorsun B
+lambasını direnci ise sabit burada bir
+değişiklik yok şimdi burayı bir bütün
+olarak düşünüyorum ben seri bağlı iki
+tane direnç var burada uçları arasında
+votansiyel fark var akım çarpı direnç ve
+sabit Çünkü pil sabit reosta ile bu
+şekilde oynarsan bu r'yi arttırıyorsun
+lamba sabit olduğuna göre toplam r'yi
+arttırmış oluyorsun Bu da oraya giden
+akımı azaltmış oluyor Yani diyelim ki
+normalde yukarıya 3 amper gidiyordu
+aşağıya 2 amper gidiyordu reosta ile
+oynadın diye yukarıya giden 3 amper
+değişmez Çünkü hala bu lambanın üzerinde
+aynı V var hala lambanın direnci R A'dan
+bahsediyorum o zaman üzerinden geçen
+akım da değişmeyecektir başlangıçta bu
+güç kaynağından 5 amper çekiyoruz reosta
+ile oynadığım anda bu 3 amper
+değişmeyecek Ama bu iki amper değişecek
+Bu iki amper azalacak az önce söylediğim
+gibi mesela bir ampere düşecek B
+lambasını incelesem B lambasının gücü
+akımın karesi çarpı dirençten bulunuyor
+bu adamın direnci değişmedi ki lamba
+aynı lamba ama üzerinden geçen akım Sen
+reosta ile oynadın diye değişti önceden
+iki amper geliyordu buradan şimdi bir
+amper geliyor bu akımı azaldı o zaman
+gücü azaldı o zaman B lambasının
+parlaklığı azaldı yani a lambasının
+parlaklığı değişmedi ve lambasının
+parlaklığı azaldı diyebiliriz Bu arada
+güç kaynağından da daha az akım
+çekiyorsunuz Şu an burada reosta ile
+oynadığınız için Çünkü üçe ikiden beş
+amper çekiliyordu Şimdi siz 3'e birden
+artık 4 amper çekiyorsunuz gibi
+düşünebilirsiniz B lambasında
+parlaklığını azalmasını Buradan da
+görebiliriz geldik son kısmımıza yine
+test kitaplarında çok göremediğimiz ama
+hepimizin evinde olan hayatımızın içinde
+olan bir devre elemanına yani sigortaya
+sigorta nedir elektrik tesisatındaki
+işlevi nedir elektrik tesisatına nasıl
+bağlanır Adı üzerinde bu arkadaş sigorta
+yani kötü bir şey başımıza geldiğinde
+onu önlüyor sizin evinizde sigorta
+attıysa evinizde kötü bir şeyler
+oluyordur Mesela bir kısa devre vardır
+şehir şebekesinden bir anda çok akım
+çekiyorsunuz demektir sigorta yangın
+çıkmasını engellemek için Çünkü çok akım
+Çok ısı enerjisi demek kablolar aşırı
+ısınır trafolarınız patlar Bu da yangın
+demek sigorta atar ve akımı Keser Yani
+aslında sigorta bir anahtar görevi görür
+Biz de ne yaparız sigortayı indiririz
+yani anahtarı kapatırız ve tekrar
+Hayatımıza devam ederiz hiçbir şey
+olmamış gibi Bu çok yanlış bir şey
+kettleınızı prize takıyorsunuz
+çalıştırdığınız anda Sigorta atıyor
+sigortayı kaldır tekrar Kettle'ı tak
+tekrar Sigorta atıyor işte bununla
+cebelleşmemek lazım yani o kettle'da bir
+kısa devralar Belli ki onu kullanma
+yoksa yangın çıkar bir simülasyonda
+inceleyelim Şuraya bir güç tellerle
+tesisatımızı oluşturalım Şuraya bir
+anahtar koyalım bir ampulümüz olsun
+şöyle kapatmış olalım anahtarı
+kapatırsam ampulüm yanacaktır şimdi ben
+bu anahtarı açıp bir kısa devre
+oluşturacağım boş tel atacağım ampule
+paralel olarak Hatta buraya da bir
+anahtar koyalım o kısa devreyi de ben
+kontrol etmiş olayım şu an benim ampulüm
+güzel güzel yanıyor Çünkü Yukarıdaki boş
+telin ucundaki anahtar açık Ben bunu
+kapatırsam kısa devre olur devredeki
+akım aşırı yükselir pilim yanar Çünkü
+pilin de bir iç direnci vardır aşırı
+akım o iç direnç yüzünden aşırı Isı
+enerjisi üretir Hatta bu akım ölçmek
+için şuraya seri bir şekilde bir
+ampermetre bağlayalım Mesela bu teli
+İptal edeyim oraya bir ampermetre
+bağlayayım bakın kısa devre aktifken
+Yaklaşık 90 bin amper yani kelimelerle
+ifade edilemeyecek kadar büyük bir akım
+geçiyor şu an evinize yangın çıkıyor
+yani sigorta dediğim şey bu akımı
+kesmeli bir anahtar bu akımı nasıl
+kesersin mesela şu teli koparsam bak
+akım kesildi İşte oraya sigorta bağlıyor
+pile seri bir sigorta bağlıyor ben bu
+devreye çalıştırıyorum yukarıda şu an
+kısa devre yok Onu iptal ettim lambam
+güzel güzel çalışıyor Hatta Şuraya da
+bir ampermetre bağlıyım şu teli iptal ed
+seri bir şekilde bir ampermetre bağladım
+bakın 0.9 amper geçiyor güzel güzel
+yanıyoruz kısa devreye aktif edersem
+pilim yanıyordu az önce Şimdi ne olacak
+Sigorta attı pilde hiçbir hareket yok
+devredeki bütün elektrik kesildi sigorta
+bir anahtar görevi gördü ve güç
+kaynağına seri bağlandı Çünkü akımı
+kesebilmek için seri bağlanmak lazım
+sigortanın üzerinden de aynı akım
+geçmeli ki onu kesebilelim sigorta
+devreye ev tesisatına seri bağlanır Bu
+sigorta olmasaydı kısa devreden dolayı
+film yanıyordu 90.000 amper çekiliyordu
+şehir şebekesinden ama ben buraya
+sigorta bağladığım anda direkt atıyor ve
+çalışmıyor bu simülasyonda eski tip bir
+sigorta görüyorsunuz yani üzerinden
+belli değerlerde akım geçmesine izin
+veriyor O akım aşırı arttığında aşırı
+ısınan bir tel disigorta O kadar aşırı
+ısınıyordu ki kopuyordu ter ve devreyi
+bu şekilde kesmiş oluyordu açık anahtar
+oluyordu yeni tiplerde biraz daha böyle
+manyetizma kullanılıyor ayette de
+öğrenirsiniz detaylarını 0.9 amper
+geçerken sigortadan bir sıkıntı yok ama
+kısa devre yaptığım anda direkt bakın
+aradaki tel kopuyor Çünkü 90 bin amper
+bu teli kopartıyor aşırı ısı
+enerjisinden dolayı Böylece bizim
+hayatımızı kurtarıyor Böylece bu
+dersimizin Sonuna Geldik Bu güç ve lamba
+parlaklığıyla da ilgili soru çözümü
+yapacağız bu konu aslında çok önemli
+çünkü günlük Hayatın ta kendisi ev
+aletleri ile sigortayla ütüyle fırınla
+çalıştık tyt için devre analizi kısmına
+göre bence çok daha önemli bir yer
+takıldıklarınızı alta yazın burada
+Kendinize iyi bakın görüşürüz
+[Müzik]

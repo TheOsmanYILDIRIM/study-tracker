@@ -1,0 +1,2089 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.199 --> 00:00:03.919
+mol kavramını gördük Ondan sonra
+kimyasal denklemlerden kimyasal
+
+00:00:03.919 --> 00:00:08.440
+tepkimelerden bahsettik şimdi sırada
+kimyasal hesaplamalar var bu kısım
+
+00:00:08.440 --> 00:00:12.920
+tyt'nin sayısal olarak belki de sizi en
+çok Zorlayacak kısmıdır dikkatli
+
+00:00:12.920 --> 00:00:16.600
+dinlemeni istiyorum teknikleri var önce
+neye dikkat etmen gerektiğini
+
+00:00:16.600 --> 00:00:20.199
+söyleyeceğim Bunlar üzerinden soruya
+nasıl bir bakış açısıyla bakman
+
+00:00:20.199 --> 00:00:24.320
+gerektiğinden bahsedeceğim dostum
+örnekleri çözdükçe Zaten yavaş Yavaşla
+
+00:00:24.320 --> 00:00:28.480
+oturacak kendin de çözüp Ondan sonra
+soru bankasından yaptığında da ne olacak
+
+00:00:28.480 --> 00:00:33.360
+bu iş oturmuş olacak ben derse geçiyorum
+Sen de şu abone olma işini halledersin
+
+00:00:33.360 --> 00:00:37.320
+mutlu olurum hadi başlıyoruz konumuz
+kimyasal
+
+00:00:37.320 --> 00:00:42.239
+hesaplamalar biraz böldüm yanlış anlama
+Şimdi burada çeşit çeşit soru tipleri
+
+00:00:42.239 --> 00:00:46.440
+var ki bunlardan bir tanesi maddelerden
+biri ile ilgili bilgi veriyor sana
+
+00:00:46.440 --> 00:00:50.399
+diğerleri ile ilgili bilgiler soruyor
+burada nasıl yapman gerektiğine dair
+
+00:00:50.399 --> 00:00:54.359
+aşağıda bir açıklama yapacağım ama bak
+sana şunu söyleyeyim En önemli ifade
+
+00:00:54.359 --> 00:01:00.000
+şudur kimyasal hesaplamalarda Önemli
+olan mole geçmektir bak molü biliyorsan
+
+00:01:00.000 --> 00:01:03.039
+kat sayılarla molü
+
+00:01:08.720 --> 00:01:13.159
+yorumlarsınız dostum bakalım şimdi
+burada açıklamalar üzerinden gidelim Ne
+
+00:01:13.159 --> 00:01:17.960
+diyor madde miktarının birinin verildiği
+problemler diye söylemiş işte harcanan
+
+00:01:17.960 --> 00:01:22.119
+veya elde edilen maddelerden bir tanesi
+ile ilgili Sana bilgi veriyor bu kütle
+
+00:01:22.119 --> 00:01:26.159
+olabilir hacim olabilir başka tanecik
+sayısı olabilir Yoksa direkt mol de
+
+00:01:26.159 --> 00:01:30.479
+olabilir Bunları birini verdiğinde
+katsayılar arasında yorum yaparak diğer
+
+00:01:30.479 --> 00:01:34.479
+maddelerle ilgili bilgilere ulaşıyorsun
+ki burada da onu söylüyor işte bir
+
+00:01:34.479 --> 00:01:38.520
+tepkime denklemindeki maddelerin önünde
+bulunan katsayılar mol olarak ifade
+
+00:01:38.520 --> 00:01:43.159
+edilebilir yani molü oranlı mız kısım
+onlardır ve herhangi birini bildikten
+
+00:01:43.159 --> 00:01:48.079
+sonra Diyelim onun katsayısı 2
+diğerininki 3 ha 2'ye 3 ise atıyorum
+
+00:01:48.079 --> 00:01:53.399
+işte bulduğun madde 04 mol 0 4'e kaçtır
+bak oran 2'ye 3 oranında olacak ya işte
+
+00:01:53.399 --> 00:01:57.479
+ötekine oluyor 06 oluyor gibi İşte bu
+katsayılar arasında yorum yapıyorsun
+
+00:01:57.479 --> 00:02:02.079
+dostum denklemdeki miktarlarla soruda ve
+verilen ve istenen ifadeler ne yapılır
+
+00:02:02.079 --> 00:02:05.840
+karşılaştırılır bunların arasında orantı
+kurulur Şimdi istersen bakalım
+
+00:02:05.840 --> 00:02:09.759
+örneklerimiz var burada bir tablo
+vermişiz Bak bu tabloda yukarıda bir
+
+00:02:09.759 --> 00:02:15.440
+denklem var Şu 1'i yazmayi N2 + 3h 2 2
+nh3 şeklinde verebilirdi bak ne olmuş
+
+00:02:15.440 --> 00:02:20.360
+diyor ki 1 mol azot molekülü vermiş
+katsayısı 1 mi 1 şimdi bunun katsayısı 1
+
+00:02:20.360 --> 00:02:24.920
+ken bunun katsayısı kaç 3 Eğer bu 1 mol
+verildiyse kırmızı ile gösterdikleri Ben
+
+00:02:24.920 --> 00:02:28.959
+veriyorum gibi düşün E bu 1 mol
+verildiyse 1E 3 olduğuna göre demek ki
+
+00:02:28.959 --> 00:02:34.920
+Bundan 3 mol mol kullanmam gerekiyormuş
+1E 2 olduğu için 1 mol bundan aldıysam 2
+
+00:02:34.920 --> 00:02:41.120
+mol bundan oluşmaktadır E hocam 4 mol
+girdi 2 mol çıktı ne demiştik mol sayısı
+
+00:02:41.120 --> 00:02:46.239
+değişebilen bir özellik kütle değişmiyo
+neydi Proton nötron sayısı değişmiyo
+
+00:02:46.239 --> 00:02:50.599
+toplam elektron sayısı değişmiyo ama mol
+sayısı molekül sayısı değişebiliyor
+
+00:02:50.599 --> 00:02:53.959
+ikinciye bak hacim de değişen
+özelliklerden bir tanesidir gaz
+
+00:02:53.959 --> 00:02:59.400
+tepkimelerinde diyor ki 22,4 L azot gazı
+vermiş şimdi 1 birim değil mi bu bu kaç
+
+00:02:59.400 --> 00:03:05.120
+birim 3 birim gazlarda hacimleri de aynı
+şekilde yorumlayabilirsiniz
+
+00:03:29.799 --> 00:03:35.879
+Yani şöyle bak 6 gr H2 vermiş ya ha 3'e
+1 ise 6'ya 2 gram Hayır bak moller
+
+00:03:35.879 --> 00:03:40.920
+hacimler Bunlar kıyaslanabilir ama
+kütleleri böyle kıyaslayın E peki hocam
+
+00:03:40.920 --> 00:03:46.200
+Ne yapacağız şöyle yapacaksın önce 6 gr
+H2 yi hemen mole çevireceksin h2n 1 molü
+
+00:03:46.200 --> 00:03:52.519
+2 gramdı e 6 gram varsa 6/2 den kaç mol
+buldum 3 mol buldum çok dikkat et Şimdi
+
+00:03:52.519 --> 00:03:56.879
+bak bir ifade kullanacağım bazılarınız
+bu hatayı çok yapıyor diyor ki ya hocam
+
+00:03:56.879 --> 00:04:01.799
+ben bunu 3 buldum tamam 3 mol buldum ama
+denklemde bunun katsayısı 3 Ya ben
+
+00:04:01.799 --> 00:04:07.879
+buraya 9 mol mü yazacağım 3 katı Hayır
+dostum sana verilen miktarı Aynen
+
+00:04:07.879 --> 00:04:13.120
+yazacaksın yani 3 molü yazdın ya E ne
+olacak o zaman bak şimdi kullanıyorsun
+
+00:04:13.120 --> 00:04:18.560
+bak verilen miktarı Aynen oraya yazdın
+ya 3E 1 E o zaman Bundan 3 mol tepkimeye
+
+00:04:18.560 --> 00:04:23.120
+girdiyse Bundan 1 mol tepkimeye
+girecektir e 3'e 2 olduğu için Bundan 3
+
+00:04:23.120 --> 00:04:28.199
+mol tepkimeye girdiyse 2 mol nh3
+oluşacaktır Bak şimdi Hemen yapalım
+
+00:04:28.199 --> 00:04:34.080
+azotun mol kütlesi N2 Daha doğrusu
+azotun mol kütlesi 14 n2n 28 e 1 mol N2
+
+00:04:34.080 --> 00:04:39.280
+dediği için 28 gram kullanmış oldum E
+tepkime sonucunda nh3 17'dir e kaç mol
+
+00:04:39.280 --> 00:04:45.199
+elde ettim 2 mol elde ettim o zaman ne
+olacaktır 2 x 17'den 34 gram bak kütle
+
+00:04:45.199 --> 00:04:50.600
+korunmak zorunda 28 6 daha 6 gözükmüyor
+tabii hemen sileyim göstereyim şurada 28
+
+00:04:50.600 --> 00:04:53.120
+6 daha
+
+00:04:57.680 --> 00:05:03.520
+34'ten 2 gram de veya işte bunun 3 mol
+olduğunu buldum katsayısı 3 olduğu için
+
+00:05:03.520 --> 00:05:07.320
+bir daha gidip 3'le çarpmadım zaten
+elimdeki o kadar tamam mı dostum dikkat
+
+00:05:07.320 --> 00:05:13.240
+et bu ayrıntıya tanecik sayısını da
+kıyaslayın şöyle bir birime mesela 6,02
+
+00:05:13.240 --> 00:05:19.919
+x 10 üzeri 23 tane diyorsam E bu 3 birim
+olduğu için 3 x 6,02 x 10 üzeri 23 olur
+
+00:05:19.919 --> 00:05:27.400
+yani 18,6 x 10 üzeri 23 olacaktır e 1E 2
+olduğu için bu 6 6,02 x 10 üzeri 23 ise
+
+00:05:27.400 --> 00:05:34.560
+bu 2 x 6,02 10 üzeri 23 olur O da 12,0 x
+10 üzeri 23 tane demek tanecik sayısını
+
+00:05:34.560 --> 00:05:39.479
+da böyle kıyaslayın mol hacim tanecik
+Bak kıyasladı bunları altta da atom
+
+00:05:39.479 --> 00:05:46.360
+sayısı üzerinden de kıyaslanır zaten bak
+bu 6,02 x 10 üzeri 23 tane N2 ise N2 ise
+
+00:05:46.360 --> 00:05:53.319
+e azot 2 tane değil mi o zaman 2 x 6,02
+x 10 üzeri 23 tane Azot atomu olacaktır
+
+00:05:53.319 --> 00:06:00.479
+E buna bakalım buna ne demiştik 3 x 10
+üzer 3 x 6 x 10 üzer -23 demiş 10 üzer +
+
+00:06:00.479 --> 00:06:05.039
+23 demiştik E o zaman H2 dediğinde 2
+atom var O zaman ne olacak bu da bunu
+
+00:06:05.039 --> 00:06:09.880
+bir de 2 ile çarparsam bu değer çıkacak
+şuraya bakalım nh3 de kaç atom var nh3
+
+00:06:09.880 --> 00:06:16.800
+de 4 atom var E bu neydi 2 x 6,02 10
+üzeri 23'tür E bunu 4 atomla çarparsam 8
+
+00:06:16.800 --> 00:06:21.680
+xpı bu olacak ki Zaten atom sayısı da
+korunmak zorunda yani şöyle bunların
+
+00:06:21.680 --> 00:06:26.199
+toplamı buraya eşit olmak zorunda bak
+molekül sayısı korunmaya gördün mü
+
+00:06:26.199 --> 00:06:32.440
+değişiyor girenlerde 4 x 6,02 üzeri 23
+varken ürünlerde 2 çarpı var ama atom
+
+00:06:32.440 --> 00:06:36.319
+sayısı korunmak zorunda tamam mı dostum
+Bunu daha önceki derslerden birinde
+
+00:06:36.319 --> 00:06:40.479
+söylemiştim Nerede bu temel kimya
+kanunlarında ifade etmiştim artansız
+
+00:06:40.479 --> 00:06:44.919
+tepkime girenlerin hepsinin bittiği
+tepkimedir tam verimli tepkime ise
+
+00:06:44.919 --> 00:06:50.000
+girenlerden en az bir tanesinin bittiği
+tepkimedir hepsi bitebilir mi Evet hepsi
+
+00:06:50.000 --> 00:06:53.080
+de bitebilir ona tam verimli
+diyebilirsin o zaman buradan şu anlam
+
+00:06:53.080 --> 00:06:57.280
+çıkıyor artansız Her tepkime tam
+verimlidir ama tam verimli her tepkime
+
+00:06:57.280 --> 00:07:01.000
+artansız değildir Çünkü tam verimli de
+en en az birisi tükenmek zorunda
+
+00:07:01.000 --> 00:07:05.120
+diğerlerinden artabilir ama artansız
+tepkimede girenlerin hepsi tükenmek
+
+00:07:05.120 --> 00:07:09.360
+tamam mı dostum sorularda zaten artansız
+ifadesinin dışında mesela tam verimli
+
+00:07:09.360 --> 00:07:12.919
+ifadesini farklı şekillerde de
+gösterebilir tam verimli ifadesini
+
+00:07:12.919 --> 00:07:17.960
+yeterli miktarda bilmem ne alındığında
+dediğinde de tam verimlidir demektir
+
+00:07:17.960 --> 00:07:22.360
+yeterli miktarda alınıyor dediğinde
+diğeri bitmiş anlamında olmaktadır veya
+
+00:07:22.360 --> 00:07:26.479
+işte en fazla şu kadar alınmaktadır
+ifadesi de yine tam verimli tepkimeyi
+
+00:07:26.479 --> 00:07:30.919
+ifade etmektedir ya Şimdi konuştuk
+konuştuk da örnek çözmeden bu iş olur mu
+
+00:07:30.919 --> 00:07:36.000
+Olmaz kimyasal hesaplamalarda örnek
+çözeceksin diyor ki tepkimesine göre 0,6
+
+00:07:36.000 --> 00:07:42.000
+mol Co gazının yeterli F2 o3 ile
+tepkimesinden kaç mol Demir oluşur diye
+
+00:07:42.000 --> 00:07:47.800
+soruyor aa ne kadar güzel bana mol
+sayısını vermiş şundan 0,6 mol tepkimeye
+
+00:07:47.800 --> 00:07:52.599
+giriyormuş çok güzel insan Bak bunun
+katsayısına bakar mısın 3 Peki oluşan
+
+00:07:52.599 --> 00:07:58.120
+demiri soruyor demirin katsayısı kaç 2
+şöyle yorumlayabilirsiniz
+
+00:07:59.479 --> 00:08:06.360
+2 ise 0 6'ya ne kadar oluşur E bu 3'e 06
+diyorsam 1 birim 02 gibidir E bu 2 birim
+
+00:08:06.360 --> 00:08:11.440
+olduğuna göre 0,4 mol Demir meydana
+gelecektir Diğerlerini de bulabilirsin
+
+00:08:11.440 --> 00:08:16.479
+Bak 3'e 3 olduğu için bundan 0,6 mol
+oluşacaktır oluşanlar artıyla
+
+00:08:16.479 --> 00:08:21.280
+harcananlar eksiyle ifade ediliyor e 3'e
+1 olduğuna göre bundan 06 giriyorsa
+
+00:08:21.280 --> 00:08:26.120
+bundan da 02 tepkimeye girmiş olacaktır
+buradaki eksi harcandığını ifade etmekte
+
+00:08:26.120 --> 00:08:30.520
+başka bir anlamı yok E tamam bana neyi
+soruyordu kaç mol Demir oluşur e 04
+
+00:08:30.520 --> 00:08:34.279
+bulduk cevabımız D seçeneğidir şuna
+bakalım Heh bak mole çevirmemiz
+
+00:08:34.279 --> 00:08:40.039
+gerekiyor demiştim ya 8 gr HF
+oluşabilmesi için yeterli miktarda F2
+
+00:08:40.039 --> 00:08:45.880
+kaç gram H2O ile tepkimeye girmelidir
+bak F2 den yeterli miktarda varsa H2O
+
+00:08:45.880 --> 00:08:50.040
+bitiyor demektir Çünkü F2 var diyor sen
+diğerine bak diyor diğeri bittiğinde
+
+00:08:50.040 --> 00:08:54.640
+tepkime bitiyor o zaman H2O ne yapıyor
+bitiyor anlamına gelmektedir Bu birinden
+
+00:08:54.640 --> 00:08:58.920
+yeterli miktarda varsa diğer madde
+tükeniyor anlamındadır bana H2 O'nun kaç
+
+00:08:58.920 --> 00:09:03.399
+gram olduğunu söylüyor şöyle yapmam
+lazım önce verileni mole çevireceksin
+
+00:09:03.399 --> 00:09:09.240
+nhf kaç gram 8 gram verelim de e 1 molü
+kaç gram H v'nin şuradan hesap edersem
+
+00:09:09.240 --> 00:09:15.600
+20 çıkıyor E bu galiba 0,4 mol oldu Bak
+şu denklemi tekrar alıyorum aşağıya
+
+00:09:15.600 --> 00:09:22.240
+yerine yazalım şundan 0,4 mol oluşmasını
+istiyormuş Ben bana neyi soruyor H2O
+
+00:09:22.240 --> 00:09:29.519
+danan kaç gram kullanmalıyım e 4E 2 ise
+yarısı değil mi o zaman 04e bundan 0,2
+
+00:09:29.519 --> 00:09:33.959
+mol tepkimeye girmesi gerekiyor tamam mı
+dostum Bak şunu yapmadım Dikkat ettiysen
+
+00:09:33.959 --> 00:09:38.959
+Tamam 0,2 mol hemen şeye geçeyim de
+sonra tekrar yazacağım onu 0,2 mol
+
+00:09:38.959 --> 00:09:46.440
+bulduk H2O kütlesi 18 02 mol olduğu için
+bunu 18 ile çarptım 3,6 gr su
+
+00:09:46.440 --> 00:09:50.600
+gerekiyormuş ki cevabım A seçeneğidir
+bak şöyle bir şey yapmıyorsun denklemi
+
+00:09:50.600 --> 00:09:56.120
+yapıştırdım ne bulmuştum 04 mol a
+katsayısı 4 o zaman bunu 4 ile çarptım
+
+00:09:56.120 --> 00:10:02.279
+1,6 mol yanlış verilen miktarı Aynen
+yazıyorsun zaten katsayıyı burada
+
+00:10:02.279 --> 00:10:04.800
+yorumluyorsunuz
+
+00:10:14.800 --> 00:10:20.680
+soruyor hemen şöyle yapabiliriz burada
+biliyorsun hacim de gaz katsayılarına
+
+00:10:20.680 --> 00:10:25.320
+yorumlanabilir mol hepsinde yorumlanıyor
+ama Hacim ne yapılabiliyordu sadece
+
+00:10:25.320 --> 00:10:30.399
+gazlar arasında
+yorumlanabilir mole çevir yim n
+
+00:10:30.399 --> 00:10:39.880
+karbondioksit 33,6 L var 1 mol gaz 22,4
+lydi hani 1 mol gaz 22,4 L ise 33,6 L
+
+00:10:39.880 --> 00:10:44.519
+kaç moldür bunu Aslında bu işlemle
+yapmış oluyorum 1,5 mol değerini Buldum
+
+00:10:44.519 --> 00:10:49.920
+Dostum bak denklemi tekrar yazıyorum Ne
+olmuştu şundan 1,5 mol oluştuğunu buldum
+
+00:10:49.920 --> 00:10:56.480
+Harika Ee katsayılara bakar mısın Güzel
+insan ne olacaktır 3'e 1 E o zaman 1,5'a
+
+00:10:56.480 --> 00:11:03.399
+1/33 biri 0,5 mol bund tepkimeye girecek
+şöyle de yorumlayabilirsiniz
+
+00:11:04.320 --> 00:11:12.160
+1'e 4,5 İsa 0 5'in 4,5 katı tepkimeye
+girmeli yani 2,25 mol oksijen tepkimeye
+
+00:11:12.160 --> 00:11:18.240
+girmeli e 3'e 3 olduğu için bu 1,5 mol
+is Bu da 1,5 mol olmalı Bak şuraya kadar
+
+00:11:18.240 --> 00:11:23.120
+çok güzel şeyler bulduk harika hemen
+bakalım 2,25 mol oksijen harcanmıştır
+
+00:11:23.120 --> 00:11:28.440
+hemen yapıştırdım doğru diye ne diyor
+bana 21 gr C3 H6 harcanmıştır diyor
+
+00:11:28.440 --> 00:11:33.959
+Hocam 1'e bakma 1 Çünkü çok önemli O
+yüzden onu sona bırakıyorum Şimdi 21 gr
+
+00:11:33.959 --> 00:11:39.279
+C3 H6 harcanmıştır hemen hesap edeceğim
+önce c3h 6'nın 1 molü kaç gram e ne
+
+00:11:39.279 --> 00:11:46.560
+oluyor 36 + 6 42 1 molü 42 benim ne
+kadar kullandığımı öğrendim 0,5 mol e
+
+00:11:46.560 --> 00:11:55.440
+0,5 x 42'den 21 gr C3 H6 harcanmıştır Bu
+da doğru şimdi bakalım buraya a 1,5 mol
+
+00:11:55.440 --> 00:12:06.240
+su oluşmuş e 1 mol 22,4 l dei Bak 1 mol
+22,4 L ise 1,5 mol ne olacaktır 33,6 L
+
+00:12:06.240 --> 00:12:11.240
+olacaktır gaz olsaydı doğruydu ama H2O
+hangi halde görüyor musun sıvı halde
+
+00:12:11.240 --> 00:12:17.760
+carting stra gazlar için geçerlidir bu
+molle hacim yorumu gazlarda geçerlidir O
+
+00:12:17.760 --> 00:12:23.680
+yüzden birincisi Ne oldu yanlış oldu Çok
+iyi bir tuzaktır o yüzden
+
+00:12:24.480 --> 00:12:28.639
+yememenin la İçimden geldi Bir tane de
+ben soru yazacağım Bak şimdi uyduralım
+
+00:12:28.639 --> 00:12:33.639
+beraber uyduralım Ne diyelim Ne diyelim
+şöyle böyle değişik bir denklem mi
+
+00:12:33.639 --> 00:12:41.560
+yazsam Tamam şöyle yazayım dedim ki 6 gr
+6 gr sirke ruhunun yeterli Oksijen ile
+
+00:12:41.560 --> 00:12:50.680
+tepkimesi sonucunda normal koşullarda
+kaç litre CO2 ve kaç gram su oluşur
+
+00:12:50.680 --> 00:12:58.000
+Güzel soru oldu ha hidrojen 1 oksijen 16
+karbon da 12 diye belirttim Hım Bak
+
+00:12:58.000 --> 00:13:03.240
+şimdi gel beraber çözüyoruz burada önce
+sirke ruhu neydi Onu hatırlaman
+
+00:13:03.240 --> 00:13:08.079
+gerekiyor Bak görüyor musun kimya bilimi
+ünitesine bir ne yaptık orada gönderme
+
+00:13:08.079 --> 00:13:14.519
+yaptık sirke ruhunu orada söylemiştim
+neydi formülü sirke ruhunun Ch3 cooh tı
+
+00:13:14.519 --> 00:13:18.399
+sirke ruhu buydu bunun tepkimesinden
+bahsediyor neyle tepkimesinden
+
+00:13:18.399 --> 00:13:22.399
+bahsediyor oksijenle tepkimesinden
+bahsediyor e organik bir bileşik
+
+00:13:22.399 --> 00:13:27.199
+yandığında Geçen ders söylemiştik ne
+oluyordu daima karbondioksit ve su
+
+00:13:27.199 --> 00:13:30.880
+meydana geliyordu Yani karbon hidrojen
+den oluşan ya da karbon hidrojen
+
+00:13:30.880 --> 00:13:36.839
+oksijenden oluşan bileşikler yandığında
+karbondioksit ve su oluşuyordu gel
+
+00:13:38.680 --> 00:13:42.800
+denkleştirilir tane karbon var diye bak
+Arada bir tane daha var hidrojeni say 3
+
+00:13:42.800 --> 00:13:47.959
+burada bir de burada 4 hidrojen var o
+zaman şuraya 2 yazdım bunu da
+
+00:13:47.959 --> 00:13:53.720
+denkleştirmek burada 4 2 de burada var 6
+E ikisi Burada 4 tane daha lazım Aha
+
+00:13:53.720 --> 00:13:59.079
+bunu da buraya yazdım bitti ama ne lazım
+bana şimdi bana verilen 6 Gramın mol
+
+00:13:59.079 --> 00:14:03.040
+mole çevrilmesi lazım ki diğerleri
+hakkında yorum yapabile hadi onu mole
+
+00:14:03.040 --> 00:14:07.959
+çevirelim bakalım önce C3 h8 mol
+kütlesini bulacağım da şöyle mol
+
+00:14:07.959 --> 00:14:13.480
+sayısını bulmak için şöyle yazalım
+verilen kütle 6 gr bö
+
+00:14:13.480 --> 00:14:20.800
+ch3cooh hesap edelim karbon 12 2 tane
+var 24 e oksijen 2 tane var 32 e 4te o
+
+00:14:20.800 --> 00:14:26.440
+var E ne oldu bu hesap ettiğimizde Eee
+galiba 60 yapıyor bir daha bakayım şöyle
+
+00:14:26.440 --> 00:14:33.839
+Heh Ch3 cooh ama orayı doldurmayın La
+dur aşağıya yapalım onu dur şuraya Ch3
+
+00:14:33.839 --> 00:14:41.360
+cooh 2 karbon 24 4 de şey var hidrojen
+var e 32 de bu Evet 60' mış Tamam aha
+
+00:14:41.360 --> 00:14:47.279
+0,1 mol bulduk Şimdi bunu denklemde
+yerine yazacağım rengi değiştirelim 0,1
+
+00:14:47.279 --> 00:14:51.440
+mol bundan tepkimeye girerse bak
+katsayısı 1 bir şey yazılmıs 1 demek E o
+
+00:14:51.440 --> 00:14:56.600
+zaman bundan 0,2 mol harcanacak Zaten
+ondan yeterince vardı ona bakmıyoruz
+
+00:14:56.600 --> 00:15:03.560
+zaten Ee 1E 2 olduğu için demek ki 02
+mol karbondioksit meydana gelecek e 0,2
+
+00:15:03.560 --> 00:15:08.959
+mol de H2O meydana gelecek ne olacak o
+zaman hemen hesaplama yapacağız Normal
+
+00:15:08.959 --> 00:15:14.959
+şartlar altında 1 mol gaz 22,4 lydi o
+zaman 02 molü ne kadardır dediğimizde
+
+00:15:14.959 --> 00:15:22.759
+0,2 x 22,4 E bu da 4,48 L karbondioksit
+anlamına gelmektedir e H2O ya bakalım
+
+00:15:22.759 --> 00:15:30.120
+h2n mol kütlesi 18 neden 16 + 2'den H2O
+e 02 mol değil mi çar 0 2 E ne oldu o
+
+00:15:30.120 --> 00:15:36.160
+zaman 3,6 gram da su meydana gelmiş oldu
+Al sana sorunun cevabı dostum bir tane
+
+00:15:36.160 --> 00:15:40.600
+daha mı uydursam ne yapsak ya gel bir
+tane daha uyduralım şöyle Ne yazalım bu
+
+00:15:40.600 --> 00:15:45.199
+sefer düşünüyorum düşünüyorum şöyle bir
+şey yapabiliriz diyelim
+
+00:15:45.199 --> 00:15:53.959
+ki 5,6 gr N2 ile yeterli h2n ama bir
+dakika ya Yok 5,6 demeyeceğim bu sefer
+
+00:15:53.959 --> 00:16:00.040
+şöyle diyeceğim x gr N2 ile yeterli h2n
+H2 yeterli isse demek ki x gram ne
+
+00:16:00.040 --> 00:16:05.040
+oluyor N2 bitiyor buradan bunu anlıyorum
+h2n tepkimesi sonucunda tam verimli
+
+00:16:05.040 --> 00:16:10.240
+tepkimesi oluyor bu işte sonucunda
+neşeli anlarda şey pardon ya Normal
+
+00:16:10.240 --> 00:16:15.199
+şartlar altında Bu neydi 0 sant dce 1
+atmosfer Diyorum ki diyorum ki ne
+
+00:16:15.199 --> 00:16:23.519
+diyorum hadi bir şey desem iyi olur he
+4,48 L nh3 gazı oluşuyor Buna göre x
+
+00:16:23.519 --> 00:16:29.519
+değeri kaçtır şimdi hidrojen 1 Eyvallah
+yazdık e azot 10
+
+00:16:29.519 --> 00:16:32.680
+Tamam Buna göre yapacağız E hocam
+denklem yok Ben bu soruyu nasıl
+
+00:16:32.680 --> 00:16:38.160
+çözeceğim var ya Nasıl yok Bak ne diyor
+N2 ile H2 tepkimeye giriyormuş tepkime
+
+00:16:38.160 --> 00:16:45.279
+sonucunda nh3 oluşuyormuş Al sana
+denklem E şöyle denkleştirmesi 2 ile
+
+00:16:52.160 --> 00:16:59.079
+genişletemiyorum bana zaten nh3 gazı
+diyor ya şimdi hemen hesabımıza geçelim
+
+00:16:59.079 --> 00:17:04.319
+yapacağım ya dur ne diyor 4,48 L nh3
+oluşuyormuş hemen nh3ün mol sayısını
+
+00:17:04.319 --> 00:17:11.400
+bulalım verilen hacim 4,48 e Normal
+şartlar 22,4 E o zaman ne çıktı buradan
+
+00:17:11.400 --> 00:17:19.480
+0,2 mol çıktı E bu 02 mol is 2'ye 1 ise
+0 2'ye Demek ki 0,1 mol N2 tepkimeye
+
+00:17:19.480 --> 00:17:26.160
+girmiş e 2'ye 3 ise 0 2'ye Demek ki 0,3
+mol de H2 tepkimeye girmiş H2 den
+
+00:17:26.160 --> 00:17:31.520
+yeterince vardı zaten ben neye bakıyorum
+N2 bakıyorum x gramı tepkimeye girmişti
+
+00:17:31.520 --> 00:17:38.360
+hemen hesap edeceğim n2n kütlesi 28 e
+0,1 mol bulduk 28 ile çarparsak Demek ki
+
+00:17:38.360 --> 00:17:46.280
+2,8 gr N2 harcanmış harcanmış ha Zaten
+bu x değeri de buydu Cevap 2,8 gram
+
+00:17:46.280 --> 00:17:51.039
+olacaktır Bir de şöyle problemler vardır
+Aynı anda oluşan tepkimeler Yani bir
+
+00:17:51.039 --> 00:17:55.480
+kapta karışım var bu karışımda e İkisi
+birden tepkimeye girebiliyor böyle
+
+00:17:55.480 --> 00:18:00.760
+tepkimeler var bakalım Bununla ilgili
+sorular nasıl oluyormuş nasıl türetilişi
+
+00:18:00.760 --> 00:18:05.360
+ki aynı anda birden çok maddenin
+tepkimeye girdiği soru türleridir diye
+
+00:18:05.360 --> 00:18:09.720
+söylüyor denklemlerini ayrı ayrı yazarak
+oradan bazen bir bilinmeyeni Bazen iki
+
+00:18:09.720 --> 00:18:13.600
+bilinmeyenli denklemler kurarak sonuca
+ulaşıyoruz bakalım örnekler üzerinde
+
+00:18:13.600 --> 00:18:19.320
+anlatalım bunu diyor ki normal
+koşullarda 56 L hacim kaplayan C2 H6 ve
+
+00:18:19.320 --> 00:18:24.240
+C4 h10 gazları karışımı tamamen
+yakıldığında 7 mol karbondioksit elde
+
+00:18:24.240 --> 00:18:29.799
+edilmiştir karışımdaki C2 H6 kaç gramdır
+diye soruyor yok kaç moldür diye soruyor
+
+00:18:29.799 --> 00:18:33.679
+süper şimdi bak bu tip sorularda sana
+pratik bir yöntem söyleyeyim sana kimi
+
+00:18:33.679 --> 00:18:37.840
+soruyorsa ona x mol de Çünkü x'i
+bulduğunda direkt sonucu bulmuş olursun
+
+00:18:37.840 --> 00:18:43.799
+Peki Normal şartlarda 56 L dediğimiz
+karışım hemen molünü bulalım 56 B Normal
+
+00:18:43.799 --> 00:18:52.600
+şartlarda 22,4 l 1 moldür 22,4 kaç katı
+a 2,5 katı bu 2,5
+
+00:18:53.840 --> 00:19:00.240
+molmol dikkat et Şimdi bak Dikkat et Ne
+oldu ben C2 H6 ya x mol demedin mi o
+
+00:19:00.240 --> 00:19:06.280
+zaman C4 h10 ne olacaktır 2,5 - x mol
+olmayacak mıdır Evet Bak tek bilinen
+
+00:19:06.280 --> 00:19:10.880
+liğe düşürdüm Normalde şöyle de
+yapabilirdim diğerine C4 h10 y derdim x
+
+00:19:10.880 --> 00:19:15.520
++ y = 2,5 derdim sonra alttaki
+denklemlerden bir tane daha bulurdum 2
+
+00:19:15.520 --> 00:19:19.600
+Bilim yenli denklemle de çözebilirim ama
+böyle yapınca tek Bilimli denkleme
+
+00:19:19.600 --> 00:19:24.640
+dönüşüyor şimdi bak Yanma tepkimesi
+diyor ya C2 H6 da yanar oksijenle yanar
+
+00:19:24.640 --> 00:19:30.240
+karbondioksit ve su meydana getirir aynı
+durum c4h 10 için de geçerlidir Bu da
+
+00:19:30.240 --> 00:19:35.799
+yanar yanma sonucunda da karbondioksit
+ve su meydana gelir şimdi bu tepkimeleri
+
+00:19:35.799 --> 00:19:42.960
+denkleştirmede 2 karbon 2 karbondioksit
+6 hidrojen E ne olacak burası 3 H2O Ee
+
+00:19:42.960 --> 00:19:47.440
+devam ediyorum devam ediyorum Bakalım E
+ne olacak oksijeni sayıyorum 7 Aha 7/2
+
+00:19:47.440 --> 00:19:50.640
+Burası da böyleymiş tam sayıya
+çevirmedim şu anda çünkü en küçük tam
+
+00:19:50.640 --> 00:19:55.640
+sayılarla ilgili bir durum yok burada C4
+h10 diyor 4 karbon Aha 4 e 10 hidrojen 5
+
+00:19:55.640 --> 00:20:01.520
+H2O e topladım 8 5 13 tane oksijen var
+133/2 yi de buraya yazdım şimdi bak ben
+
+00:20:01.520 --> 00:20:05.880
+şuna x mol dedim mi Dedim bana neyi
+vermiş karbondioksit miktarını E bu x
+
+00:20:05.880 --> 00:20:11.760
+ise 1E 2 ise x'e 2x bundan olacaktır Aha
+buradaki karbondioksiti buldum E buna ne
+
+00:20:11.760 --> 00:20:19.520
+demiştim 2,5 - x demiştim 1'e 4 ise 2,5
+- X'in 4 katı yani 10 - 4x olacaktır Bu
+
+00:20:19.520 --> 00:20:25.039
+da neyi söylüyor bunların toplamının 7 7
+mol olduğunu söylüyor yani toplarsam
+
+00:20:25.039 --> 00:20:35.919
+eğer 10 - 4x + 2x = 7 10 - 2x = 7 değil
+mi bakıyorum Evet 10 - 2x = 7 2x = ne
+
+00:20:35.919 --> 00:20:41.919
+çıkacaktır 3 çıkacaktır x = 1,5 mol
+bulduk Bana da bunu soruyor cevabım d
+
+00:20:41.919 --> 00:20:45.880
+seçeneğidir e diğeri de ne oluyor 1 mol
+oluyor çünkü toplamı 2,5 mol değil miydi
+
+00:20:45.880 --> 00:20:49.039
+buradan gidebilirsin bakalım bu
+örneğimizde ne diyor N2 ve H2
+
+00:20:49.039 --> 00:20:54.480
+gazlarından oluşan bir karışım varmış
+yeterli oksijenle no2 ve H2O gazlarını
+
+00:20:54.480 --> 00:20:59.200
+oluşturmak üzere artansız yakıldığında 2
+mol oksijen gazı harcan
+
+00:20:59.200 --> 00:21:06.159
+82 gr ürün elde ediliyormuş şimdi bak
+buradaki iki denklemi yazayım N2 + O2 ne
+
+00:21:06.159 --> 00:21:11.840
+oluyormuş no2 denkleştirmek için Şurayı
+2 ile genişletemiyorum Çok güzel diğer
+
+00:21:11.840 --> 00:21:19.000
+tepkime ise H2 + O2 burada ne olacak H2O
+oluşacak şunun Başına 2 yazarsam o zaman
+
+00:21:19.000 --> 00:21:22.400
+şuraya 2 yazdığımda Evet
+
+00:21:23.200 --> 00:21:27.880
+denkleşmesi
+imi düşünelim x mol y mol 2 bilinmeyen
+
+00:21:27.880 --> 00:21:33.400
+denklemden diyeceğim e Burada 1'e 2
+olduğu için şundan 2x mol oluşmuş olacak
+
+00:21:33.400 --> 00:21:38.120
+2'ye 2 olduğu için bundan eşit olacak bu
+y mol is Bu da y mol olacak katsayıları
+
+00:21:38.120 --> 00:21:43.720
+aynı Çünkü şimdi bak dikkatli ol
+oksijene bak e 1E 2 ise bu x'e ne
+
+00:21:43.720 --> 00:21:50.120
+olacaktır 2x olacak E bu 2'ye 1 ise Y'ye
+y / 2 olacaktır bana ne demişti soruda
+
+00:21:50.120 --> 00:21:57.520
+demişti ki 2 mol oksijen harcanıyor
+şurası 2 molmo ki toplam 82 gramlık bir
+
+00:21:57.520 --> 00:22:02.240
+ne oluşuyormuş ürün oluşuyormuş yani
+Şunların toplamı da 82 grammış Peki bir
+
+00:22:02.240 --> 00:22:09.360
+şey söyleyeceğim no2 kütlesi 46'dır E o
+zaman çarpı 46 dediğimde 92x gr ediyor
+
+00:22:09.360 --> 00:22:16.440
+bu Diğeri ise H2O nn kütlesi mol kütlesi
+ise 18'dir E bunu 18 ile çarptım 18 yd
+
+00:22:16.440 --> 00:22:20.360
+değil mi Heh şu ana kadar her şeyimiz
+güzel Şimdi benim elimde 2 bilinmeyenli
+
+00:22:20.360 --> 00:22:28.559
+bir denklem var birinci denklem yazalım
+Şöyle 1 denklem 2x + y / 2 = 2'dir güzel
+
+00:22:28.559 --> 00:22:37.720
+diğer denklemin ne onu da yazalım
+92x + 18y = 82'de Şöyle yapsam Bu y'
+
+00:22:37.720 --> 00:22:42.559
+elleri götürmeye kalksam y' nasıl
+götürürüm Düşünüyorum Düşünüyorum şöyle
+
+00:22:42.559 --> 00:22:47.720
+yapayım mesela Şurayı 36 ile Çarpsam ne
+olur o zaman karşıma çıkan değerleri
+
+00:22:47.720 --> 00:22:55.320
+şuraya tekrar yazıyorum ne olacaktır
+72x + 18y eşit ha bunları bir de eksi
+
+00:22:55.320 --> 00:23:00.360
+ile çarpıyordum değil mi Şöyle eksi
+alalım ek - Tamam şu eksi tam Olmadı bir
+
+00:23:00.360 --> 00:23:12.919
+dakika He şöyle ek eş ne olacak
+-72 Aşağıya bak 92x + 18y = 82 şimdi şu
+
+00:23:12.919 --> 00:23:17.840
+iki denklemi şey yapalım sadeleştir
+toplayalım alt alta şunlar birbirini
+
+00:23:17.840 --> 00:23:27.440
+götürdü burada Ne kaldı 20x = 10 kaldı
+buradan x = 1/2 yani 0,5 mol çıktı bitti
+
+00:23:27.440 --> 00:23:32.120
+mi işimiz bitmedi şimdi x'i buldum
+Harika Şimdi neyi bulmam lazım y'yi de
+
+00:23:32.120 --> 00:23:37.799
+bulmam lazım onu da nasıl bulacağım 2x +
+y / 2'nin 2 olduğunu bilmiyor muyum x
+
+00:23:37.799 --> 00:23:46.440
+yerine 05 yazdığımızda Burası 1 + y / 2
+= 2 karşıya attım y / 2 = 1 y = 2 çıktı
+
+00:23:46.440 --> 00:23:53.080
+Yani çok güzel Benim n2m 0,5 mol ken h2m
+ne oluyormuş 1 mol oluyormuş değil mi
+
+00:23:53.080 --> 00:23:57.480
+Yok 2 mol oluyormuş la Olur mu öyle şey
+he şimdi bakalım başlangıçtaki N2 ve H2
+
+00:23:57.480 --> 00:24:04.120
+kütleleri toplamı 32'dir E ne 05 mol N2
+vardı e 05 mol N2 dediğimizde kaç gram
+
+00:24:04.120 --> 00:24:10.600
+oluyor 14 gram oluyor çünkü N2 28' di e
+devam ediyorum E şey ne hidrojen neydi 2
+
+00:24:10.600 --> 00:24:15.799
+molü Yani o da ne olacaktır 4 gram
+olacaktır 1 molü Çünkü 2 gr E buradan ne
+
+00:24:15.799 --> 00:24:22.480
+çıktı Burası 18 çıktı bu olmadı diyor ki
+36 gram su oluşmuştur diyor Ne bulmuştuk
+
+00:24:22.480 --> 00:24:27.720
+18y bulmuştuk değil mi e y yerine ne
+yazıyoruz y yerine 2 yazıyoruz y yerine
+
+00:24:27.720 --> 00:24:34.159
+2 yazdık yağımızda 36 çıkıyor Yani doğru
+bir ifadedir oluşan no2 oda koşullarında
+
+00:24:34.159 --> 00:24:40.799
+24,5 lre hacim kaplar 2x mol oluşmamış
+mıydı Onu söylüyoruz e x neydi 05 2x ne
+
+00:24:40.799 --> 00:24:46.840
+olacaktır 1 mol no2 olacak Ee normal
+şartlarda 1 mol gaz 22,4 lydi oda
+
+00:24:46.840 --> 00:24:51.919
+koşullarında neydi 24,5 lydi yani bu
+ifade de doğru oldu Cevap 2 ve 3
+
+00:24:51.919 --> 00:24:56.320
+olacaktır D seçeneği sağlam işlemli
+güzel bir soruydu mesela Bakalım bu
+
+00:24:56.320 --> 00:25:02.159
+sorumuz nasılmış şöyle bir yak aşalım
+diyor ki ch4 SO3 ve Co gazlarından
+
+00:25:02.159 --> 00:25:07.440
+oluşan 5 mollü karışımın tamamen
+yakılması için toplam 3,5 mol oksijen
+
+00:25:07.440 --> 00:25:12.440
+gazı harcanmış ve toplam ne oluyormuş 4
+mol karbondioksit gazı oluşuyormuş
+
+00:25:12.440 --> 00:25:16.600
+burada bir şey bilmen gerekiyor o da ne
+biliyor musun yanma kuralları vardı
+
+00:25:16.600 --> 00:25:22.919
+neydi s3'e bakar mısın buradaki s + 6
+alıyor neydi Grup numarasına ulaştığında
+
+00:25:22.919 --> 00:25:27.279
+yani Grup numarası kadar yükseltgenme
+basamağına ulaştığında + 6'ya ulaşmış ne
+
+00:25:27.279 --> 00:25:32.440
+oluyordu yanmıyordu bunun oksijenle
+tepkimesi yoktu ama karbonmonoksit
+
+00:25:32.440 --> 00:25:37.159
+yanıyor karbonmonoksit yanarsa E
+karbondioksite dönüşüyordu tamam bunun
+
+00:25:37.159 --> 00:25:42.360
+kini yazdık E ch4 zaten organik madde
+yandığında ne olacaktır karbondioksit ve
+
+00:25:42.360 --> 00:25:46.279
+su meydana gelecektir E bu da
+
+00:25:53.640 --> 00:25:59.240
+denkleştirmek mesela şuna x mol buna y
+mol Buna da Z mol desem öyle bir durum
+
+00:25:59.240 --> 00:26:04.440
+oluştursa Hatta Tamam öyle yap E buna ne
+olacaktır bu he karbonmonoksit Z mol
+
+00:26:04.440 --> 00:26:09.120
+demiştim çok güzel E buna da x mol
+demiştim e Oksijen ne oldu burada Z / 2
+
+00:26:09.120 --> 00:26:19.240
+oldu E bu ne oldu 2x oldu yani İlk
+denklemin Z / 2 + 2x = ne çıktı 3,5
+
+00:26:21.120 --> 00:26:28.320
+molmed daları da eşitleyip yaparsam Z +
+4x = 7 çıktı bu kalsın kenarda Peki bir
+
+00:26:28.320 --> 00:26:33.120
+şe söyleyeceğim Bu 1 Bu da 1 Demek ki Z
+mol karbondioksit meydana geldi Ee
+
+00:26:33.120 --> 00:26:41.279
+şuraya bakalım ch4 deki Burası x ise
+şurası da x' dir x + z = 4 molmo bana
+
+00:26:41.279 --> 00:26:46.320
+alan hiç a bitti soru bitti la çok güzel
+Şimdi şu var 2 bilinmeyen denklem Tamam
+
+00:26:46.320 --> 00:26:50.520
+buradan tek tek şeyleri bulabilirim
+neydi diğer maddeleri bulabilirim de x +
+
+00:26:50.520 --> 00:26:55.159
+Z'yi biliyorum ben bak bunla bunun
+toplamı neymiş 4
+
+00:26:55.159 --> 00:27:00.720
+molmol o zaman buna ne kaldı 1 mol
+kalmadı mı dostum ee 1 mol Tamam 1 mol
+
+00:27:00.720 --> 00:27:08.039
+co3 O da kaç gram ediyor 80 gram ediyor
+dostum Hiç uğraşmadı bile ha Ne
+
+00:27:09.200 --> 00:27:16.840
+yapabilirdiniz + 4x = 7 şöyle Yukarıyı
+eksi ile Çarpsam 3x = 3 x = 1 mol çıktı
+
+00:27:16.840 --> 00:27:20.880
+Aha bunun da 1 mol olduğunu bulduk o
+zaman buna ne kaldı toplamları 5 olduğu
+
+00:27:20.880 --> 00:27:26.000
+için 3 mol de buna kaldı dostum bakalım
+bu soru ne diyor PBS ve cs2
+
+00:27:26.000 --> 00:27:30.799
+maddelerinden oluşan 0,6 mollü karışım
+yeterli oksijenle denklemine göre
+
+00:27:30.799 --> 00:27:36.480
+yakıldığında 64 gr CO2 gazı elde
+edildiğine göre oluşan karbon dioksit
+
+00:27:36.480 --> 00:27:41.880
+kaç moldür diye soruyor bakalım şimdi
+şöyle karışım 0,6 mol ye karbondioksitin
+
+00:27:41.880 --> 00:27:48.039
+olduğu kısma dikkat ederek ben şuna x
+mol dersem bu ne olur 0,6 - x mol olmaz
+
+00:27:48.039 --> 00:27:54.279
+mı Evet olur o zaman şuraya yazalım 0,6
+- x mol şurası ne olacaktır x mol şimdi
+
+00:27:54.279 --> 00:27:59.080
+şu var CO2 llerin toplam miktarını
+vermiş 64 gr CO2 2 hemen molünü
+
+00:27:59.080 --> 00:28:04.760
+buluyorum CO2 1 molü 64 gr zaten Aha 1
+
+00:28:09.399 --> 00:28:16.600
+molmol e 1'e 2 ise bu x ise bu 2x olacak
+bak buranın toplamı 1
+
+00:28:18.320 --> 00:28:26.919
+molmol CO2 den bahsediyor yani 06 + x =
+1 x = 0,4 mol bulduk Aha da bu E bu da
+
+00:28:26.919 --> 00:28:31.679
+zaten karbondioksit 0,4 mol oluşmuyor mu
+diğer tepkimede karbondioksit oluşmuyor
+
+00:28:31.679 --> 00:28:36.919
+bana oluşan karbondioksit kaç moldür
+diye soruyor x' yani 0,4 cevap da B
+
+00:28:36.919 --> 00:28:41.840
+seçeneğidir bu soru çok güzel bir soru
+geçmiş yıllarda ÖSYM buna benzer bir
+
+00:28:41.840 --> 00:28:46.919
+soru sormuştu 3 madde üzerinden gitmişti
+Burada şunu bilmen gerekiyor dostum bir
+
+00:28:46.919 --> 00:28:51.960
+metal asitle tepkimeye girdiğinde çıkan
+hidrojenin katsayısı metalin değerliğ
+
+00:28:51.960 --> 00:28:56.760
+inin yarısı kadardır burada öyle bir
+durum söz konusu kalsiyum metali de hcl
+
+00:28:56.760 --> 00:29:01.559
+ile tepkimeye giriyor bu burada potasyum
+metali de hcl ile tepkimeye giriyor ve
+
+00:29:01.559 --> 00:29:06.799
+bu tepkimeler sonucunda H2 gazı oluşuyor
+şöyle tuz ve H2 gazı oluşacak ya H2 gazı
+
+00:29:06.799 --> 00:29:11.399
+H2 gazı şu var kalsiyum bileşiklerinde +
+2 almaktadır o zaman bunun katsayısı
+
+00:29:11.399 --> 00:29:16.360
+1'dir e potasyum 1A grubu elementi
+bileşiklerinde + 1 almaktadır Bundan
+
+00:29:16.360 --> 00:29:21.200
+dolayı bunun katsayısı 1/2 ama sağ olsun
+parantez içinde ne demiş kalsiyum ve e
+
+00:29:21.200 --> 00:29:26.519
+potasyumun Her ikisi de hcl ile tepkime
+verir burada C2 oluşur diyor
+
+00:29:26.519 --> 00:29:33.000
+denkleştirmek kolaylık sağlamış
+diğerinde de kcl oluşur diyor Al sana
+
+00:29:39.240 --> 00:29:44.960
+denkleşmesi
+bu da ne oldu denklemi yazmakta bize
+
+00:29:44.960 --> 00:29:48.960
+fayda sağladı şimdi devam edelim
+istersen diyor ki kalsiyum ve potasyum
+
+00:29:48.960 --> 00:29:54.240
+metallerinden oluşan 15,9 gramlık bir
+karışım varmış E bu karışımda hcl
+
+00:29:54.240 --> 00:29:56.760
+çözeltisini
+
+00:29:57.039 --> 00:30:01.559
+hatırlıyormusun 5 mol oluştuğuna göre
+kalsiyum metalinin kütlesi kaç gramdır
+
+00:30:01.559 --> 00:30:05.480
+diye soruyor şuna x mol Buna da y mol
+dedim Şu anda bu şekilde gittim e
+
+00:30:05.480 --> 00:30:11.880
+kalsiyumun 1 molü 40 grams x molü 40x
+gramdır e potasyumun 1 molü 39 grams 1
+
+00:30:11.880 --> 00:30:17.159
+molü 30 yani y molü 1 molü demeyeyim
+Tabii ki y molü ne olacaktır 39y gr
+
+00:30:17.159 --> 00:30:22.480
+olacaktır bunların toplamının 15,9 gr
+olduğunu söylüyor soruda E ben şuna x
+
+00:30:22.480 --> 00:30:27.000
+mol Buna da y mol dediğime göre niye
+renk değiştirmiyorsa He şuna x mol Şuna
+
+00:30:27.000 --> 00:30:29.960
+da y mol dediğimde
+
+00:30:30.240 --> 00:30:38.039
+hidrojenleme yarımsa bu y / 2'dir şimdi
+diyor ki x + y / 2 H2 lin toplamı 0,35
+
+00:30:38.039 --> 00:30:41.880
+miş bunu veriyor Hatta şu şeyden
+kurtulabiliriz mesela küsürattan
+
+00:30:41.880 --> 00:30:49.039
+kurtulabiliriz her iki tarafı ne yapalım
+2 ile genişletelim Burası 2x + y = 07
+
+00:30:49.039 --> 00:30:58.279
+oluyor diğer denklem de neydi şöyle
+yazmıştık 40 yazamadım He 40x + 39y = 15
+
+00:30:58.279 --> 00:31:04.000
+9 küfür yok Küfür yok Şimdi burada en
+kolay kimi götürebilirim biliyor musun
+
+00:31:04.000 --> 00:31:10.519
+4xe ulaşmak daha kolay ya şöyle yapayım
+mesela Yukarıdaki tepkimeyi -20 ile
+
+00:31:10.519 --> 00:31:19.799
+Çarpsam ne olur o zaman tekrar yazıyorum
+-40 x - 20y = ne olacaktır - 1,4
+
+00:31:19.799 --> 00:31:25.720
+olacaktır değil mi bakıyoruz 7 14
+olacaktır l ne 1,4 he 14 oldu E tamam E
+
+00:31:25.720 --> 00:31:31.840
+aşağıya bakalım onu Aynen yazdık 4x +
+39y =
+
+00:31:31.840 --> 00:31:41.600
+15,9 E ne olacak bunlar gitti burada 19y
+kaldı burada da 1,9 kaldı y = 0,1
+
+00:31:41.600 --> 00:31:44.600
+molmed
+
+00:31:48.039 --> 00:31:53.519
+potasyumdan yerine yazalım
+bunları karıştırdık şurası ne olacaktır
+
+00:31:53.519 --> 00:32:03.360
+2x + 01 = 07 e karşıya attık 2x = 06 x =
+0,3 mol bana bunun neyini soruyor
+
+00:32:03.360 --> 00:32:09.880
+gramını soruyor 0,3 molü xarp 40'tan ne
+olacaktır 12 gram edecektir cevap da D
+
+00:32:09.880 --> 00:32:13.960
+seçeneğidir Hadi şimdi soru çözelim
+bakalım İlk sorumuz ne diyormuş CO2
+
+00:32:13.960 --> 00:32:18.080
+gazının yeterli miktarda oksijenle
+tepkimesinden tam verimli tepkime
+
+00:32:18.080 --> 00:32:23.440
+sonucunda 2 mol CO2 gazı oluşuyormuş
+tepkimede harcanan CO2 ve O2 gazları
+
+00:32:23.440 --> 00:32:27.480
+karışımı kaç moldür diye soruyor şu
+denklemi şöyle alıyorum aşağıya al
+
+00:32:27.480 --> 00:32:33.200
+yazıyorum yapıştırdı He şimdi ne diyor
+bana 2 mol bundan meydana gelmiş E çok
+
+00:32:33.200 --> 00:32:38.760
+güzel 1E bir olduğuna göre demek ki
+bundan 2 mol harcanmıştır 1E yarım
+
+00:32:38.760 --> 00:32:43.960
+olduğuna göre Bundan 1 mol harcanmıştır
+bana neyi soruyor tepkimeye giren CO2 ve
+
+00:32:43.960 --> 00:32:48.960
+o2'nin toplam kaç mol olduğunu soruyor 3
+mol oldu Cevap da b seçeneğidir 2
+
+00:32:48.960 --> 00:32:54.639
+sorumuza bakalım denklemine göre sodyum
+metalinin aşırı miktarda H2O ile ne Tam
+
+00:32:54.639 --> 00:32:58.639
+verimli tepkimesi sonucunda aşırı
+miktarda dediği anda Demek ki sodyum
+
+00:32:58.639 --> 00:33:03.600
+bitiyor sudan yeterince var elimde Ee
+tepkimesi sonucunda normal koşullarda
+
+00:33:03.600 --> 00:33:08.799
+1,12 L hacim kaplayan hki gazı açığa
+çıktığına göre kaç gram Sodyum metali
+
+00:33:08.799 --> 00:33:12.519
+harcanmıştır diyor hemen mole geçiyorduk
+değil mi molü bulmadan bu işlemler
+
+00:33:12.519 --> 00:33:19.519
+yapılamıyordu 1,12 L ise normal
+şartlarda neydi 22,4 lydi şimdi 11,2 L
+
+00:33:19.519 --> 00:33:25.799
+olsaydı 05 derdim e 1,12 dediği için
+0,05 mol olacaktır bunun mol sayısı
+
+00:33:25.799 --> 00:33:34.200
+Şimdi bunu yerine yazdım 0,0 5 mol
+yarıma 1 ise 0,05 2 katı yani 0,1 mol
+
+00:33:34.200 --> 00:33:38.080
+sodyum tepkimeye girecek bana bunun kaç
+gram olduğunu söylüyor soruyor Daha
+
+00:33:38.080 --> 00:33:44.279
+doğrusu e sodyum 23'tür 01 molü ne
+olacaktır 2,3 gram olacaktır cevap da A
+
+00:33:44.279 --> 00:33:49.080
+seçeneğidir 3 sorumuza geldik diyor ki
+tarımda ne yaygın olarak kullanılan
+
+00:33:49.080 --> 00:33:54.720
+amonyum sülfat gübresi şu şekilde elde
+ediliyormuş çok güzel diyor ki 66 kg
+
+00:33:54.720 --> 00:34:01.039
+amonyum sülfat elde etmek için aşırı
+miktarda bak aşırı miktarda H2 co4 ile
+
+00:34:01.039 --> 00:34:05.760
+kaç mol nh3 tepkimeye girmelidir aşırı
+miktarda H2 co4 kullanıyorsan Demek ki
+
+00:34:05.760 --> 00:34:10.119
+nh3 bitiyor diğer madde bitiyor anlamına
+gelmekte Tamam tam verimli tepkimeden
+
+00:34:10.119 --> 00:34:15.119
+bahsediyoruz Süper çok güzel Şimdi ben
+bunu 66 kilogram olarak düşünmeyeceğim
+
+00:34:15.119 --> 00:34:22.119
+şöyle 66 kilogram dediğimiz şey 66 x 10
+üzeri 3 gram değil midir ben en sonunda
+
+00:34:22.119 --> 00:34:27.679
+Neyi ekleyeceğim biliyor musun O 10
+üzeri 3'ü en son ekleyeceğim şimdi nh4 2
+
+00:34:27.679 --> 00:34:36.760
+Co 4'ün önce mol kütlesini hesap etmem
+lazım nh4 2 co4 azot 14 Burası da 4 18
+
+00:34:36.760 --> 00:34:43.520
+Parantezi içeriye dağıttım 36 Burası +
+s32 + 64 la Bura kaç ediyor Dur bakayım
+
+00:34:43.520 --> 00:34:52.760
+hesap etmemiz lazım E 132 132 66 05
+dikkat et bak 0,5 mol gibi düşünebilirim
+
+00:34:52.760 --> 00:34:59.920
+ama xar 10 üzeri 3 Ne oldu o zaman 500
+mol oldu Hoppa 500 mol ne var benim
+
+00:34:59.920 --> 00:35:05.160
+elimde bundan varmış 500 mol çok güzel
+Şimdi bunun mol sayısını biliyorsam
+
+00:35:05.160 --> 00:35:09.160
+katsayılarına bakarak diğerlerinin mol
+sayısını bulurum bunun katsayısı 1 ise
+
+00:35:09.160 --> 00:35:14.560
+ne olacak o zaman bu da 500 mol olacak E
+1E 2 olduğu için demek ki Bundan 1000
+
+00:35:14.560 --> 00:35:20.359
+mol almam gerekiyormuş bunu öğrendim E
+neyi soruyor bize e tepkimeye kaç mol
+
+00:35:20.359 --> 00:35:25.079
+şey girmelidir diyor nh3 1000 mol yani
+10 üzeri 3 olacaktır cevap da B
+
+00:35:25.079 --> 00:35:29.839
+seçeneğidir 4 sorumuz dayız diyor ki
+Sanay de metalik Demir aşağıdaki gibi
+
+00:35:29.839 --> 00:35:33.880
+bir dizi işlem
+basamaklarından basamakları sonucunda
+
+00:35:33.880 --> 00:35:39.079
+elde ediliyormuş Tamam e Yukarıdaki
+tepkimelere göre 18 gram Karbonun tam
+
+00:35:39.079 --> 00:35:44.400
+verimli tepkimesinden kaç gram
+karbondioksit gazı elde edilir dostum
+
+00:35:44.400 --> 00:35:47.960
+sana çok önemli bir şey söyleyeceğim
+burada bu bir kademeli reaksiyondur
+
+00:35:47.960 --> 00:35:52.560
+kademeli reaksiyonlarda şöyle bir kural
+vardır üstteki tepkimede ki dur Şuraya
+
+00:35:52.560 --> 00:35:57.640
+da bir tane artı yapalım l o böyle Arada
+kalmasın He şöyle üstteki tepkimede elde
+
+00:35:57.640 --> 00:36:03.599
+ettiğin maddenin miktarı Neyse bunu
+buraya Aynen yazıyorsun Bak çok önemli
+
+00:36:03.599 --> 00:36:10.200
+katsayısı 2 3 Sakın ha Aa bu 2 iken Şua
+bu 3 Ken şudur diye Sakın yapma Ne
+
+00:36:10.200 --> 00:36:15.040
+yapıyorduk elimizdeki miktar o kadar o
+miktarı aynen diğer tepkimeye yazıyorsun
+
+00:36:15.040 --> 00:36:19.000
+tamam mı Bak çok önemli bir şeydir bu
+altını böyle çize çize söylüyorum bunu
+
+00:36:19.000 --> 00:36:23.119
+şimdi bak diyor ki neydi Heh 18 gram
+karbon kullanılıyordu hemen molünü
+
+00:36:23.119 --> 00:36:28.760
+bulalım Karbonun 18/12 den 1,5 mol
+karbon kullanıyorum şu denklemleri Öyle
+
+00:36:28.760 --> 00:36:33.000
+bir yazayım ki şöyle Dur lan ne biçim
+yapıyorum ben ya H şöyle temizleyeyim de
+
+00:36:33.000 --> 00:36:37.480
+şöyle yapalım Önce şu denklemi bir
+alayım yapıştıralım sonra diğerini
+
+00:36:37.480 --> 00:36:45.560
+alacağım şimdi 1,5 mol bundan tepkimeye
+giriyorsa 2'ye 2 olduğu için 1,5'a 1,5
+
+00:36:45.560 --> 00:36:51.880
+mol karbon monoksit oluşmuş Bak bunu
+aynen buraya yazıyorsun 1,5 mol var
+
+00:36:51.880 --> 00:36:58.720
+benim elimde e 3'e 1 ise demek ki bundan
+05 mol tepkimeye girmiş 3'e 2 ise bundan
+
+00:36:58.720 --> 00:37:05.319
+1 mol oluşmuş 3'e 3 ise bundan da 1,5
+mol oluşmuş katsayıları yorumladım Bana
+
+00:37:05.319 --> 00:37:10.240
+da neyi soruyor karbondioksitin gramını
+soruyor 1,5 mol bulduk mu bulduk e 1,5
+
+00:37:10.240 --> 00:37:15.760
+mol karbondioksit e karbondioksitin 1
+molünü hesap edelim 44 ediyor 32 +
+
+00:37:15.760 --> 00:37:22.960
+12'den dolayı e 1,5 x 44 66 gram
+edecektir ki cevabım da D seçeneğidir
+
+00:37:22.960 --> 00:37:28.480
+bir aynı anda gerçekleşen tepkime sorusu
+daha var ch4 ve so2 2'den oluşan bir gaz
+
+00:37:28.480 --> 00:37:34.480
+karışımı varmış 0,4 mollü Bir karışımmı
+16 grammış diyor Tamam e tam verimle
+
+00:37:34.480 --> 00:37:38.520
+yakılıyor muu karışımı yakmak için
+kullanılan hava oda koşullarında kaç
+
+00:37:38.520 --> 00:37:42.760
+litredir diye soruyor Şimdi şöyle bir
+durum var ben şuna mesela x mol dersem
+
+00:37:42.760 --> 00:37:48.400
+karışım 04 mol olduğu için bu da 04 - x
+mol olacaktır ki toplamının 16 gram
+
+00:37:48.400 --> 00:37:53.560
+olduğunu söylüyor ch4ün hesap edelim 16
+olduğunu söylemiş o zaman x molü 16x
+
+00:37:53.560 --> 00:38:01.839
+gramdır Artı bu 64 ise 04 - x molünün
+olacaktır 64 x 04 - x olacaktır eşittir
+
+00:38:01.839 --> 00:38:08.760
+Burası 16Y mış Şurayı bir işlemle
+bakalım 16x + burası ne olur
+
+00:38:08.760 --> 00:38:21.119
+25,6 - 64x = 16 Şurayı toplarsam Eğer
+48x = 9,6 çıkacak Hım A bir dakika 96
+
+00:38:21.119 --> 00:38:28.280
+olsa 2 mol olurdu Aha x 0,2
+molmol değil miydi o zaman bu 0 2 mol is
+
+00:38:28.280 --> 00:38:32.040
+Bu da 02 moldür Ama hocam katsayısı
+2'ydi onu niye 2 ile çarpmadım bak ne
+
+00:38:32.040 --> 00:38:36.000
+demiştim vururum bak ha kötü vururum Ne
+yapıyorduk Aynen yazıyorduk bulduğumuz
+
+00:38:36.000 --> 00:38:41.240
+molü Aynen yazıyorduk Çünkü karışım 04
+mol is Bu da 02 molmol müş çünkü onu
+
+00:38:41.240 --> 00:38:45.280
+bulduk Aynen yazıyorsun yerine şimdi
+zaten katsayıları kullanacaksın bak
+
+00:38:45.280 --> 00:38:49.920
+dostum e 1E bana neyi soruyordu hava
+kullanılmıştır diyor Şu oksijeni bulayım
+
+00:38:49.920 --> 00:38:55.800
+Çünkü oradan havaya geçebilirim 1E 2 ise
+0 2'ye 04 mol oksijen kullanılmıştır
+
+00:38:55.800 --> 00:39:02.400
+2'ye 1 ise 0 0 2'ye 01 mol oksijen
+kullanılmıştır toplam kullanılan oksijen
+
+00:39:02.400 --> 00:39:09.160
+04 + 0 1'den nedir 0,5 mol değil midir
+kullanılan oksijen bu bana ne kadar hava
+
+00:39:09.160 --> 00:39:12.920
+kullanılmıştır diye soruyor bir şey
+soracağım havanın Beşte biri oksijeni
+
+00:39:12.920 --> 00:39:18.880
+değil mi O zaman şöyle diyebiliriz 5
+birim havanın 1 birimi oksijene benim
+
+00:39:18.880 --> 00:39:25.160
+elimde 0,5 mol oksijen var O zaman ne
+kadar hava kullanmışım dır 2,5 mol hava
+
+00:39:25.160 --> 00:39:29.760
+kullanmışım Bana da neyi soruyor Kaç
+litredir diye soruyor nerede Ama oda
+
+00:39:29.760 --> 00:39:35.079
+koşullarında 24,5 lre değil miydi 1 mol
+gaz e 2,5 mol olduğunu biliyorum ben
+
+00:39:35.079 --> 00:39:40.520
+buradan kaç çıkacaktır
+61,25 çıkacaktır cevap da C seçeneğidir
+
+00:39:40.520 --> 00:39:45.000
+da sıcaktan terlemeye başladım ha Hemen
+devam edelim bakalım eşit sayıda molekül
+
+00:39:45.000 --> 00:39:52.040
+içeren ch4 c2h 4 ve C3 h8 gaz karışımını
+tamamen yakmak için normal koşullarda ne
+
+00:39:52.040 --> 00:39:57.800
+oluyormuş 22,4 L oksijen gazı harcanıyor
+musu Ee buna göre karışımdaki g ların
+
+00:39:57.800 --> 00:40:02.040
+kütleleri toplamı kaçtır diye soruyor
+şimdi eşit molekül sayısında diyorsa
+
+00:40:02.040 --> 00:40:06.680
+şöyle düşün Şu x mol is Bu da x moldür
+Bu da x moldür bunları söylüyor bana Ben
+
+00:40:06.680 --> 00:40:14.839
+bunun yanma tepkimelerini yazayım şöyle
+ch4 + O2 CO2 + H2O şuraya 2 yazdık
+
+00:40:14.839 --> 00:40:17.800
+buraya 2 yazdık
+
+00:40:26.319 --> 00:40:36.240
+denkleştirici yazdık çok güzel 3üncü yü
+de yazalım c3h 8 + O2 3co 2 + 4h 2o
+
+00:40:36.240 --> 00:40:42.000
+Burası da 5 olacak Heh şimdi bak şimdi
+dostum bu x mol Bu da x mol Bu da x mol
+
+00:40:42.000 --> 00:40:47.760
+O zaman burada kullanılan oksijen 2x
+Burası 3x ir Burası da 5x ir diyor ki
+
+00:40:47.760 --> 00:40:54.319
+toplam kullanılan oksijen 22,4 litredir
+Normal şartlar altında 1 mol gaz 22,4 L
+
+00:40:54.319 --> 00:40:58.880
+olduğuna göre demek ki 1 mol oksijen
+gazı kullanmış ş şuranın toplamı Ne oldu
+
+00:40:58.880 --> 00:41:02.520
+10x = 1
+
+00:41:04.680 --> 00:41:09.800
+molmol varmış Onu anladım Bana karışımın
+kütlesini soruyor ya E şimdi bu da 01
+
+00:41:09.800 --> 00:41:15.960
+mol Bu da 01 mol Bu da 01 mol ch4ün 1
+molü kaç gram 16 gram o zaman 01 molü
+
+00:41:15.960 --> 00:41:28.200
+1,6 C2 H4 24 8 28 Tamam 24 4 28 etti 01
+molü 2,8 + C3 h8 ise 36 40 4' müş O da o
+
+00:41:28.200 --> 00:41:32.560
+zaman demek ki bu da 4,4 bunların
+toplamı işte kaç çıkıyor bakalım hesap
+
+00:41:32.560 --> 00:41:38.280
+etsek
+5,6 6 8,8 mi çıktı Hah cevabımız da c
+
+00:41:38.280 --> 00:41:44.119
+seçeneğidir 7 sorumuza bakalım Diyor ki
+80 gram magnezyum ve bakır karışımı
+
+00:41:44.119 --> 00:41:49.599
+neymiş aşırı miktarda aşırı miktarda
+diyorsa Demek ki ne oluyor magnezyum ve
+
+00:41:49.599 --> 00:41:53.480
+bakır karışımının tamamı tepkimeye
+giriyor tepkimeye girebilenler Tabii ki
+
+00:41:53.480 --> 00:41:58.640
+E ne oluyormuş hbr sulu çözeltisine
+atılıyormu aşırı miktardaki hbr solu
+
+00:41:58.640 --> 00:42:03.960
+çözeltisine kütlece % 3030 harcanıp bir
+miktar H2 gazı açığa çıkıyormuş şimdi 80
+
+00:42:03.960 --> 00:42:10.280
+gram karışım varsa 80 gramlık karışımın
+% 30'u harcanıyorsun şöyle sadeleştir
+
+00:42:10.280 --> 00:42:15.880
+diim 24 gramı
+harcanıyorsun hcl ile tepkimesi
+
+00:42:15.880 --> 00:42:19.920
+verilmiştir diyor bakırsülfat
+
+00:42:27.359 --> 00:42:31.839
+burada azalma tepkimedeki madde
+miktarındaki azalma bakırdan değil de
+
+00:42:31.839 --> 00:42:36.319
+kimden kaynaklanıyormuş magnezyumdan
+kaynaklanıyormuş Yani bu 24 grammış e
+
+00:42:36.319 --> 00:42:40.960
+karışım 80 gram olduğuna göre geriye
+kalan kaç gram hesap edersek dur kaç
+
+00:42:40.960 --> 00:42:47.160
+kalıyor la geriye matematiğim gitti la e
+burası 4 6 Tamam E ne olacak 56 gram mı
+
+00:42:47.160 --> 00:42:52.000
+yok evet evet 56 gram olacaktır Tamam 56
+gram da bundan varmış Tamam çok güzel
+
+00:42:52.000 --> 00:42:57.400
+diyor ki alaşımda 56 gram bakır bulunur
+doğru tepkimede kullanılan hbr ya da HC
+
+00:42:57.400 --> 00:43:01.280
+Neyse artık 2 moldür diyor
+Aşağıdakilerin hbr olduğunu düşünelim
+
+00:43:01.280 --> 00:43:06.640
+Neyse Yukarıdaki değiştirmeyin de şunun
+hbr olduğunu düşünelim Tamam E ne oldu
+
+00:43:06.640 --> 00:43:15.760
+tepkimede kullanılan hbr 2 moldür diyor
+acaba bakalım mg + 2 hbr den mgbr2 + H2
+
+00:43:15.760 --> 00:43:21.200
+meydana geliyordu e magnezyum zaten 24
+gram 1 molü 24 gr olduğuna göre ben de
+
+00:43:21.200 --> 00:43:26.280
+24 gram bulduğuma göre demek ki 1 mol
+magnezyum tepkimeye girmiş e 1E 2
+
+00:43:26.280 --> 00:43:31.359
+olduğuna göre Demek ki 2 mol hbr
+tepkimeye girmiştir doğru oluşan H2 gazı
+
+00:43:31.359 --> 00:43:36.960
+Normal şartlarda 22,4 litredir çok güzel
+insan bakar mısın denklemi vermiş bana e
+
+00:43:36.960 --> 00:43:41.160
+bunun katsayısı 1 bunun katsayısı da 1
+yani bundan 1 mol tepkimeye giriyorsa
+
+00:43:41.160 --> 00:43:46.880
+Bundan 1 mol oluşur H2 gazı 1 mol is
+normal şartlarda 1 mol gaz 22,4 L olduğu
+
+00:43:46.880 --> 00:43:51.760
+için bu ifade de doğrudur cevap 1 2 3
+oldu yani D seçeneği küfür yok Az kaldı
+
+00:43:51.760 --> 00:43:56.200
+bak ben de yoruldum ama devam etmemiz
+lazım Bak bu sorular çok önemli Çünkü ne
+
+00:43:56.200 --> 00:44:01.480
+yapman lazım sabretmenin Durdur Durdur
+bir git bir çayını mayını iç ama ben
+
+00:44:01.480 --> 00:44:05.559
+çözmeye devam edeceğim zaten bak Terim
+tırnağımdan çıktı ama anlatacağım ben
+
+00:44:05.559 --> 00:44:09.040
+İnat ettim anlatacağım sen de dinle
+tamam mı dostum Hadi devam ediyorum bak
+
+00:44:09.040 --> 00:44:13.480
+ne diyor 90 litrelik bir gaz karışımı
+varmış Çok güzel yüksek sıcakta
+
+00:44:13.480 --> 00:44:17.240
+tepkimesine göre tam verimli reaksiyona
+giriyormuş Yani en az birisi tükeniyor
+
+00:44:17.240 --> 00:44:22.920
+demektir bu tepkime sonunda kaba 5 L N2
+gazı gönderildiğinde ha bu tepkime de
+
+00:44:22.920 --> 00:44:27.440
+artansız gerçekleşiyor musu e Buna göre
+karışımda kaç litre H2 gazı
+
+00:44:27.440 --> 00:44:33.119
+bulunmaktadır diyor Çok güzel insan Bak
+burada 5 L bundan tepkimeye girerse 1E 3
+
+00:44:33.119 --> 00:44:37.720
+olduğu için Bundan 15 L tepkimeye
+girecek midir Evet girecektir Peki bir
+
+00:44:37.720 --> 00:44:42.480
+şey söyleyeceğim şundan n mol ya da 2n
+mol tepkimeye girerse bundan n mol
+
+00:44:42.480 --> 00:44:48.960
+tepkimeye girmez mi girer Demek ki Bak
+ilk tepkimede 15 L H2 arttı ki N2 ile
+
+00:44:48.960 --> 00:44:55.599
+tepkimeye girdi yani başlangıç karışımı
+90'dır 15 litresi yani 15 L H2 tepkimeye
+
+00:44:55.599 --> 00:45:01.040
+girdiği için demek ki baş başlangıçtaki
+gaz karışımı 75 lym miş o da ne oluyor
+
+00:45:01.040 --> 00:45:10.839
+2n + n = 75 oluyor 3N = 75 ise n = 25
+oldu şimdi H2 den ne kadar vardı 2n
+
+00:45:10.839 --> 00:45:16.720
+bundan n ama artan 15 de vardı h2n
+başlangıçtaki miktarını soruyor ya E ne
+
+00:45:16.720 --> 00:45:24.599
+olacaktır 50 + 15'ten 65 L olacaktır
+cevabım da c seçeneğidir bak denklemi
+
+00:45:24.599 --> 00:45:30.800
+yazabildi dostum diyor ki c 3 h8 O2
+diyor ki ne oluyor yakılıyor muu Tamam
+
+00:45:30.800 --> 00:45:34.160
+oksijenle tepkimeye giriyorsa
+karbondioksitle su oluşur organik
+
+00:45:34.160 --> 00:45:38.280
+bileşikler yandığında diyor ki kaç litre
+karbondioksit gazı meydana gelir ya şunu
+
+00:45:38.280 --> 00:45:41.359
+bir denkleştirmesi
+
+00:45:57.040 --> 00:46:05.599
+bir hesap edelim 3 karbon 36 + 8 + 2
+tane oksijen var 32 Burası ne oldu 40 +
+
+00:46:05.599 --> 00:46:10.680
+oradan 76 gr 1 molü 76Y mış hemen mole
+çeviriyorum
+
+00:46:10.680 --> 00:46:19.319
+1,50 52 / 76 değil mi Ha 152 olsa 2 mol
+0,02
+
+00:46:19.839 --> 00:46:26.599
+molmol is o zaman bundan 0,08 mol
+kullanılır 3 katı olduğu için 0,06 mol
+
+00:46:26.599 --> 00:46:31.640
+bundan oluşur E bu da 4 katı olduğu için
+0,08 mol bundan oluşur kaç litre
+
+00:46:31.640 --> 00:46:38.920
+karbondioksit diyor 0,06 bulmadık mı çar
+22,4 bunu 22,4 ile çarptığında ne
+
+00:46:38.920 --> 00:46:43.880
+yaparsın hacmi bulmuş olursun hemen
+hesap edelim Bu da ne çıkıyor Eğer 06
+
+00:46:43.880 --> 00:46:50.480
+olsaydı 13,4 Demek ki 1,34 4 lre olur
+cevap da B seçeneğidir 10 sorumuz dayız
+
+00:46:50.480 --> 00:46:55.520
+diyor ki tepkimesine göre 1 mol kalsiyum
+metali hcl çözeltisine atıldığında
+
+00:46:55.520 --> 00:47:02.319
+normal koşullarda en fazla 8,96 L H2
+gazı oluşmaktaydı diyor He peki bakalım
+
+00:47:02.319 --> 00:47:06.920
+en fazla şu kadar oluşuyor diyorsa Demek
+ki 1 mol kalsiyumu tüketiyoruz buradan
+
+00:47:06.920 --> 00:47:10.640
+bu anlam çıkıyor hemen şunu mole
+çevirelim mole çevirecek bir şeyimiz var
+
+00:47:10.640 --> 00:47:17.480
+8,96 L kaç mol demektir 22,4
+böldüğümüzde 0,4 mol demek Bak mole
+
+00:47:17.480 --> 00:47:21.280
+çevirecek bir şey bulduk ya hemen
+çevirdim denklemde yerine yazıyorum ama
+
+00:47:21.280 --> 00:47:25.720
+bu denklemi şöyle aşağıya alalım bak mis
+gibi yer var aşağıda şöyle kopyalayın H
+
+00:47:25.720 --> 00:47:32.079
+şuraya yapıştıralım Bak şimdi bundan ne
+oluşmuş H2 nerede la HH Şimdi bundan 0,4
+
+00:47:32.079 --> 00:47:37.839
+mol oluşmuştu Ee 1'e 1 olduğu için demek
+ki bundan da 04 mol oluşur 1'e 2 olduğu
+
+00:47:37.839 --> 00:47:44.280
+için 0,8 mol bundan harcanır 1E 1 olduğu
+için 0,4 mol de bundan harcanır şimdi
+
+00:47:44.280 --> 00:47:49.599
+diyor ki 2 mol hcl tepkimeye girmiştir
+Hayır canım 0,8 mol hcl tepkimeye
+
+00:47:49.599 --> 00:47:55.040
+girmiştir o gitti 16 gr kalsiyum metali
+çözünmüştür 0,4 molü e kalsiyum 40
+
+00:47:55.040 --> 00:47:59.599
+olduğu için çarparsak Evet 10 16 gram
+olacaktır Doğrudur diyor ki hcl
+
+00:47:59.599 --> 00:48:04.440
+çözeltisindeki hidrojen iyonları sayısı
+azalmıştır Evet hcl çözeltisindeki H
+
+00:48:04.440 --> 00:48:08.480
+iyonları neye dönüşmüştür h2e
+dönüşmüştür yani h+ iyonu sayısı
+
+00:48:08.480 --> 00:48:13.200
+azalmıştır ifadesi Doğrudur cevap 2 ve 3
+D seçeneği olacaktır burada diyor ki
+
+00:48:13.200 --> 00:48:19.280
+sarı Kurşun iki oksit Cevheri He tamam
+metalik renkli sıvı Kurşun metali
+
+00:48:19.280 --> 00:48:23.800
+oluşturmak üzere fırında kömürle
+ısıtılmaktadır
+
+00:48:26.760 --> 00:48:30.920
+kurş metali üretildiğine göre kaç gram
+karbondioksit gazı oluşur hemen şunu bir
+
+00:48:30.920 --> 00:48:38.240
+mole çevireyim de n =
+414/1 7'den 2 mol olduğunu buldum yani 2
+
+00:48:38.240 --> 00:48:43.960
+mol ne oluşmuş Kurşun e 2 mol bundan
+oluşmuş da şu tepkimeyi bir
+
+00:48:46.440 --> 00:48:49.960
+denkleştirilmiş itl demek için burayı 2
+ile genişletti Burayı da 2 ile
+
+00:48:49.960 --> 00:48:52.839
+genişletti tamam
+
+00:48:55.720 --> 00:49:02.200
+denkleştirici olacaktır e karbondioksit
+1 molmol 44 gramdı Ne oldu 44 gram cevap
+
+00:49:02.200 --> 00:49:06.319
+da e seçeneği oldu dostum bir şey
+diyeyim mi Bak sağlam yoruldum Gerçekten
+
+00:49:06.319 --> 00:49:10.680
+güzel sorular vardı işlemlerin içinden
+geçtik Dikkat ettiysen bak amacın
+
+00:49:10.680 --> 00:49:15.480
+verilerini bir mole çevir mol üz molü
+bulduktan sonra da katsayılar üzerinde
+
+00:49:15.480 --> 00:49:19.559
+ne yap yorum yap onun katsayısını yaz
+onun katsayısını verilenin katsayısından
+
+00:49:19.559 --> 00:49:23.200
+diğerlerinin katsayılarına geç bak çok
+önemli bir şey öğrettim sana bugün o da
+
+00:49:23.200 --> 00:49:27.880
+ne biliyor musun bulunan molü yazarken
+sakın katsayıyla Ç çarpma bak çok önemli
+
+00:49:27.880 --> 00:49:32.000
+bir ayrıntı Sen zaten onu yazdın ya
+denkleme yazdıktan sonra o katsayıyla
+
+00:49:32.000 --> 00:49:36.200
+diğerinin katsayısını yorumlarken onu
+kullanıyorsun o yüzden bir daha çarpma
+
+00:49:36.200 --> 00:49:39.640
+tamam mı Bak çok önemli bir ayrıntıdır
+Onun dışında ne yapacağız bir sonraki
+
+00:49:39.640 --> 00:49:43.760
+dersimizde bu kimyasal hesaplamalarla
+ilgili daha soru tipleri var Onları
+
+00:49:43.760 --> 00:49:48.880
+göstereceğim dostum sakın bırakma bak
+sakın vazgeçme
+
+00:49:49.200 --> 00:49:53.200
+çözebileceğiniz ki Soru bankasında
+örnekleri çözüp Ondan sonra da
+
+00:49:53.200 --> 00:49:56.839
+çözümlerine bakarsan daha da iyi
+olacağına eminim dostum Hadi dinlenme
+
+00:49:56.839 --> 00:50:00.799
+vakti ne yapıyoruz iki fosfor bir asit
+kimya Bu kadar basit diyoruz sonra da şu
+
+00:50:00.799 --> 00:50:05.400
+kanala abone oluyoruz görüşmek üzere
+

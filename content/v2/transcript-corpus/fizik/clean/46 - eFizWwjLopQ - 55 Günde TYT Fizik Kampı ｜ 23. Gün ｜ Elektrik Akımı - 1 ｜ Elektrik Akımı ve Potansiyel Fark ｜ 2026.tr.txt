@@ -1,0 +1,1099 @@
+gençler Merhaba Bugünkü dersimizde
+elektrik akımı ünitesine başlıyoruz
+önceki videolarımızda elektrostatio
+öğrendik bitirdik elektrostatik Türkçesi
+durgun elektrik demekti yani orada
+yüklerimiz hareket ettiler ve bir
+dengeye geldiler Biz o denge durumunu
+inceledik bugün işleyeceğimiz bugün
+başlayacağımız konu elektrik akımı yani
+burada sürekli akmaktan bahsediyoruz
+buradaki yüklerimiz Sürekli hareket
+halindeler durgun değiller öğrencilerin
+genelde bu konuyu duyduklarında
+akıllarına elektrik devreleri geliyor ve
+o elektrik devrelerini analiz etmekte
+çözmekte zorlanabiliyorlar fakat içiniz
+müşteriye olsun ÖSYM son 5-6 yıldır
+2018'deki müfredat değişikliğinden beri
+neredeyse çok basit seviyede çok temel
+kavramsal sorular soruyorlar Yani bir
+elektrik devresi soracaksa da çok basit
+seviyede oluyor öyle Çok karmaşık
+fantazi sorular çözmenize gerek yok her
+zamanki gibi ben yine kavramlar üzerinde
+çok duracağım ÖSYM'nin istediği gibi siz
+de bu kavramları çok iyi öğreneceksiniz
+3 tane Temel kavram üzerine oturur bütün
+elektrik akımı ünitesi birincisi
+elektrik akımı ikincisi direnç üçüncüsü
+de Potansiyel fark bu 3 kavramın ne
+olduğunu ezberlem tamamen mantığınıza
+oturtarak öğrenmelisiniz elektrik
+akımından başlayalım şu an katı bir
+madde olan iletken tel inceliyoruz bakır
+bir tel olduğunu düşünelim içerde bu
+bakır telin atomlarının bir gösterimini
+görüyorsunuz işte atom çekirdeği var
+etrafında elektronlar var falan filan
+bakır tel iletken bir malzemedir iletken
+malzeme elektrostatikte Az buçuk
+konuştuk atomlarındaki en dış
+yörüngedeki elektronlar o atomun
+çekirdeğini çok zayıf bağladılar zayıf
+bağlı oldukları için kolaylıkla komşu
+atomlara kaçabiliyorlar kendi atomunu
+terk edip başka atomlara gidebiliyor
+buradaki gösterimde olduğu gibi Şuradaki
+bir elektron bu bakır telin içerisinde
+böyle hareket edip buraya gidebilir ya
+da ne bileyim Şuradaki bir elektron
+böyle bir Rota izleyip buraya gidebilir
+buradaki bir elektron şuraya Şuradaki
+bir elektron buraya gidebilir kafalarına
+göre takılıyorlar Fakat burada fark
+etmeniz gereken ilk şey burada belli bir
+düzen yok Tamamen kaotik bir ortam
+Kadıköy iskelede bin kişi var ama Herkes
+farklı yönlere gidiyorlar belli bir
+düzen tertip yok burada yük hareketi
+olmasına rağmen buradaki eksi yüklü
+elektronlar hareketli olmalarına rağmen
+Bizim bildiğimiz manada bir elektrik
+akımından bahsedilemez Çünkü bizim
+bildiğimiz manada Elektrik olması için
+bir düzen tertip Olması lazım Ben bu
+iletken bakır telin uçları arasına bir
+güç kaynağı Mesela bir pil bağlarsam güç
+kaynağının iki Kutbu var bir Kutbu artı
+diğer Kutbu eksi bu telin sol tarafın
+artı ile yüklemiş olurum sağ tarafını
+eksiyle yüklemiş olur Ve böylece bu
+telin üzerinde bir elektrik alan
+oluşturmuş olursunuz önceki dersimizden
+hatırlayın elektrik alan artıdan çıkar
+eksiye doğru gider yani bu telde Şu an
+bir elektrik alan var elektrik alanda
+bulunan elektronlar bir elektriksel
+kuvvete maruz kalırlar aynı yer çekimi
+alanında bulunan bu kalemin bir yer
+çekimi kuvvetine maruz kalması gibi ben
+bunu dünyanın yer çekimi alanından
+çıkartırsam yani sıfır yer çekimi
+alanında olursa dünyaya doğru düşmez
+çünkü yer çekimi kuvveti olmaz elektrik
+alan ne demekti yük başına düşen Klon
+kuvveti demekti buradaki yükü bir
+elektronu yükü olarak düşünürsem
+elektrik alan varsa kuvvette vardır
+elektrik alan sıfırsa o zaman kuvvette
+yoktur buradaki pil Bu tel üzerinde bir
+elektrik alan oluşturuyor artıdan eksiye
+doğru Bu yüzden bu telin içerisinde
+kafalarına göre takılan Bu elektronlar
+bir elektriksel maruz kalıyorlar o
+kuvvette elektronları belli bir düzen
+içinde sürüklemeye başlıyor ya da hiç
+elektrik alanla kafanızı karıştırmayın
+Burası artı mı Evet burası eksi mi Evet
+elektron dediğin şey şurada bir eksi
+olarak düşünülürse artı eksiyi kendine
+doğru çeker böyle bir kuvvet eksi eksiği
+uzağı iter Bu da böyle bir kuvvet Yani
+bu ikisinin net hali işte buradaki
+elektronun üzerinde oluşan net
+elektriksel kuvvettir bu elektron sol
+tarafa doğru gidecektir ve burada
+kafasına göre takılan bir sürü elektron
+vardı Bu da sol tarafa gidecek buradaki
+kafasına göre takılan elektron da bu
+tarafa gidecek Yani bir düzen tertip
+oluştu herkes sol tarafa doğru gidiyor
+Kadıköy iskeledeki O 1000 kişiyi asker
+gibi düşünün Herkes kafasına göre
+takılmış hiçbir düzen tertip yok oraya
+bir komutan geldi ve emir verdi Dedi ki
+hizaya gir sola dön marş marş bütün o
+kavotiç elektronlar sol tarafa doğru
+akmaya başladılar işte artık bir
+elektrik akımınız var Fakat burada bir
+kabulü hemen söylemem lazım elektronlar
+şu an hareket ediyorlar eksiden artıya
+doğru çünkü eksi eksi olan elektronları
+itiyor artı eksi olan elektronları
+çekiyor elektr hareketi bu yönde fakat
+tamamen tarihsel kabuller gereği
+elektrik akımı kavramı daha elektron
+keşfedilmeden önce ortaya atıldığından
+dolayı elektrik akımı artıdan eksiye
+doğru hareket ediyor kabul edilir Yani
+bu yeşil tel üzerinde sol tarafa doğru
+elektron hareketi var Evet ama benim
+kabulüm gereği elektrik akımı sağ tarafa
+doğrudur yani pilin artı kutbundan eksik
+kutbuna Doğrudur Eskiden elektrik akımı
+ile ilgili fikir yürütüyorlardı
+elektriğin ilk keşifleriyle birlikte
+Fakat onun taşıyıcılarının katılarda
+elektron olduğu bilinmiyordu elektron
+çok sonra keşfedildi bu akan Şeyh
+artıdan eksiye doğru Hayal ettiler ama
+sonra keşfedildi ki aslında akan şey
+elektronlar ve o da eksiden artıya doğru
+ama bu o kadar yaygınlaşmıştı ki böyle
+bir kabul olarak bir çelişki olarak
+kaldı ama bu çelişki sadece katılarda
+var Birazdan sıvılara baktığımız zaman
+Nehir referansı aldığına bağlı olarak
+bunun değiştiğini göreceksin şimdi hemen
+burada bir kavram yanılgısını giderelim
+buradaki iletken telin içerisinde kendi
+de aynı takılan elektronlar vardı
+elektronların Bu hareketinden bir
+elektrik akımı olarak bahsedemiyorduk
+Çünkü bir düzen tertip yoktu Ben buraya
+güç kaynağı bağladığım zaman bir
+elektrik akımı oluşur dedim artı eksiye
+doğru olan bu Elektrik akımını Taşıyan
+elektronlar pil tarafından mı üretiliyor
+hocam pil taktığınız akım oluştu demek
+ki bu İşin kaynağı pil Yani oradaki o
+akım taşıyıcısı olan elektronlar pilde
+üretiliyorlar pil bir elektron
+fabrikasıdır tamamen bir kavram
+yanılgısı zaten mevzuyu iyi
+dinlediyseniz anlamışsınızdır buradaki
+elektronlar bu bakır telin elektronları
+Bunlar kafalarına göre takılıyorlardı
+pil geldi bunları bir düzene koydu dedi
+ki hepiniz aynı tarafa gideceksiniz ve
+bunlar sürüklenmeye başladılar ona akım
+dedik bu elektronlar pilden gelmedi ki
+zaten telde mevcut bulunan elektrondu
+Bunlar pil bir elektron fabrikası
+değildir pil elektron üretmez pil Sadece
+elektronların belli yönde gitmesini
+zorlayan bir dış etkidir bir Tabur asker
+yürürken askerlerin yürümesini sağlayan
+bir Emir gibidir Yani bir komutan
+gibidir Buna dikkat şimdi biraz daha
+işin akademik boyutuna bakalım Elektrik
+akımının tam tanımı nedir hangi harfle
+gösterilir birimi nedir Bir telin
+kesitinden Birim zamanda geçen toplam
+yük miktarına Biz akım şiddeti diyoruz
+ve bu arkadaşı ı harfiyle gösteriyoruz
+Yani yine bakır telimize geri dönelim bu
+bakır telde şöyle bir kesit hayal
+ediyorum bakır telin kalınlığını hayal
+ediyorum bu kesitten sol tarafa doğru
+elektronlar geçiyorlar gidiyorlar bu
+elektronların her birinin bir yükü var
+bunun da değeri ezbere bilmek zorunda
+değilsiniz 1,6 x 10 üzeri eksi 19 Klon
+bir tane elektron bu kadar yüke sahip
+100 tane elektron geçtiyse 100 çarpı bu
+kadar yük geçmiştir Nereden bu kesitten
+işte bu kesitten geçen yük miktarına Biz
+akım diyoruz Bu cümleyi Formula dökersek
+elektrik akımı dediğimiz şey birim
+zamanda geçen toplam yük miktarıdır O
+kesitten ne kadar çok yük geçiyorsa
+mesela 1 saniyede akım şiddeti o kadar
+fazladır Eğer kesitten yük geçmiyorsa o
+zaman akım sıfırdır Elektrik akımının
+birimi vesaire amper Amper elektrik ve
+manyetizma ile ilgili çok önemli
+çalışmalar olan bir bilim insanı akım
+birimi olarak onun yaptığı çalışmalar
+onuruna ismi verilmiştir yüküm birimi
+klong biliyorsunuz zamanın birimi saniye
+dolayısıyla klong böyle saniye amperdir
+akım birimidir diyebiliriz elektrik
+akımı skaler midir vektörel midir hocam
+doğru 4 amperlik akım gider bu İki akım
+bu noktada birleşir Çünkü akım skaler
+büyüklüktür yönün bir önemi yoktur yük
+miktarıdır nehir gibi düşünün buradan su
+kütlesi geliyor buradan su kütlesi
+geliyor İki Nehir yatağı birleşiyorlar
+buradan beraber akıyorlar iki su
+kütlesinin toplamı kadar Akarlar akım da
+buna benziyor Elektrik akımının yönü
+artıdan eksiye elektronların hareket
+yönü eksiden artıya Çünkü eksi eksi iter
+artı eksiyi çeker elektrik akımı skaler
+büyüklüktür bunları bilmelisiniz şimdi
+gelelim bir başka kavram yanılgısına
+ortamlarda hava atacağınız bir bilgiye
+bir elektrik devresi düşünelim bu
+elektrik devresinde bir lambamız olsun
+burada bir anahtarımız olsun burada da
+bir güç kaynağımız pilimiz olsun Şimdi
+ben buradaki anahtarı kapattığım anda
+devrede bir elektron akışı olacaktır
+pilin uzun çizgisi artık Kutup kısa
+çizgisi eksi Kutup elektronlar eksiden
+artıya doğru hareket etmeye
+başlayacaklardır ama bizim kabulümüz
+gereği elektrik akımı artıdan eksiye
+doğru oluşacaktır deriz elektrik akımı
+bu lambadan geçtikçe ya da elektronlar
+bunun üzerinden geçtikçe lamba yanarız
+ben bu anahtarı kapatır kapat günlük
+hayatta lambanın yandığını görüyor muyum
+Evet Demek ki hocam elektronlar Işık
+hızıyla hareket ediyor Yani ben
+basıyorum Lamba yanıyor anında yanıyor
+istersen 20 metrelik kablo ile elektrik
+tesisatını döşe elektronlar o kadar
+hızlı ki Lambayı anında yakıyorlar bakın
+burada kastettiğimiz elektron hızı
+çekirdeğinin çevresinde dönen elektron
+hızı değil O çok büyük yanlış
+hatırlamıyorsam 10 üzeri 6 metre bölü
+saniye yani saniyede 1 milyon metre gibi
+muazzam bir hız çekirdek çevresindeki
+elektronik fakat Elektrik akımını
+oluşturan elektronlar sürüklenme hızına
+sahiptir O ne demek buradaki pil Teldeki
+bütün elektronlara belli bir yönde
+akımalarını söyleyince oluşturduğu
+elektrik alan sayesinde Bunlar harekete
+geçiyorlar tel içerisinde sürüklerine
+sürüklerine gidiyorlar ve bu hızda bir
+saatte Yaklaşık 90 santimetrelik bir hız
+1 metre bile değil ki bu yaklaşık 10
+amperlik akım için geçerli ki 10 amper
+çok büyük bir değer hocam Öyle şey olur
+mu yani şimdi Şuradaki telin boyuna Biz
+2 metrede desek elektron eksiden artıya
+gidecek buradan yola çıksa bir tane
+elektron 2 metre yol gidecek
+10 cm yol gidecek 2 saatten fazla mı
+sürecek hocam lambanın yanması anahtarı
+kapatacağım 2 saat sonra lamba yanacak
+öyle olmuyor demek ki anlattıklarınız
+yanlış hayır değil buradaki kavram
+yanılgısı nerede buradaki kavram
+yanılgısı buradaki pili yine bir fabrika
+gibi düşünmekte elektronları üretmiyor
+pil anahtarı kapatınca bu pil buradan
+eksiler fırtlatmıyor buradaki devreye
+Doğru zaten bütün elektronlar telin
+üzerinde o serbest elektron her yerde
+burada var burada var burada var burada
+var şurada var
+lambanın dibinde var Sen anahtarı
+kapattığın anda bu pil emri vermiş oldu
+dedi ki herkes harekete geçsin bütün
+elektronlar harekete geçiyor ve hemen
+dibindeki elektron anında lambayla
+etkileşime geçiyor ve Lambayı yakmış
+oluyor Emir ışık hızıyla gider ki Emir
+dediğim şey elektrik alan bu pilin bütün
+tel üzerindeki emri ışık hızında her
+yere iletilir ama burada harekete geçen
+elektronlar ışık hızında değil yaklaşık
+bir saatte 90 santimetre gibi küçücük
+bir hızda sürüklenirler bir salyangozdan
+bile daha yavaşlardır şuna benziyor
+Elinizde bir bahçe hortumu var suyu
+açtınız su musluğun ağz kadar geldi
+elinizle tutuyorsunuz musluğu kapattınız
+yani şu an bütün hortumunuzda su var
+Tekrar musluğu açtığımda parmağınızla
+çektiğinizde su anında akmaya başlamaz
+mı musluktan suyun gelmesi için vakit
+geçmesini bekler misiniz Hayır su anında
+akmaya başlar Çünkü su zaten dibindeydi
+musluk zorlamaya başladığı anda ucundaki
+su hemen akmaya başladı bu da benzer bir
+şey yine aynı kavram yanılgısını
+söylüyorum pil elektron üretmez telin
+üzerindeki elektronlardan akım oluşturur
+başka bir günlük hayata örneği
+yapmamanız gereken bir şey yapıyorsunuz
+elektrik bilmediğiniz halde böyle
+prizlerle falan oynuyorsunuz hem de bir
+de elinizde iletken tornavidalarla
+diyelim ki Yanlışlıkla tornavidayı prize
+soktunuz ve çarpılıyorsunuz sizi çarpan
+şey prizden Yani bizim buradaki pilimiz
+gibi gelen elektronlar mıdır Yoksa
+vücudunuzdaki elektronlarmıdır sizi
+çarpan şey vücudunuzdaki elektronlardır
+çünkü vücudunuzdaki elektronlar bir anda
+prizin Emir vermesiyle harekete
+geçiyorlar sürüklenmeye başlıyorlar
+bütün vücudunuz boyunca Yani bütün
+vücudunuzu elektrik akımı dolaşmaya
+başlıyor ve bu yüzden çarpılıyorsunuz
+dokularınız zarar görüyor sizi kendi
+elektronlarınızı yakıyor yani bunları
+öğrenin hem bunlardan mükemmel tyt
+sorusu elde edilir hem de ortamlarda
+hava atarsınız Biz hep elektrik akımı
+deyince elektronlardan bahsediyoruz
+fakat elektrik akımı taşıyıcısı her
+zaman serbest elektronlar olmak zorunda
+değil eksi işaretli olmak zorunda değil
+maddesine göre değişir Eğer sen katı bir
+iletkensen evet serbest elektronlar ama
+sen bir sıvıysan sıvının içerisinde artı
+ve eksi iyonlar hareket edebilirler
+Çünkü sıvılar akışkandır eksilerin
+yanında artılarda akım taşıyıcısı
+olabilirler birazdan deneni izleyeceğiz
+Saf su dediğin şey yalıtkandır elektrik
+akımın iletmez Ama onun içerisinde tuz
+çözersen sodyum klorür çözersen sodyum
+artı işaretli Klor eksi işaretli suyun
+içerisinde artı ve eksi iyonların olur
+ve bunlar suyun içerisinde hareket
+edebilirler yük hareketi elektrik akımı
+demek eksilerin yanında artılar da akım
+Taşıyıcı hale gelebilir gazlar
+yalıtkanlardır Neden Çünkü bunların
+yapısında serbest elektron ya da iyon
+bulunamıyor iyon bulunmuş haline zaten
+biz plazma diyoruz Örneğin bir ateş
+yakarsanız oradaki gazı plazma haline
+getirirsiniz yüksek sıcaklık gaz
+atomlarını iyonlaştırır elektronlarını
+kopartır Sen bir gaz atomunun elektronu
+kopartırsan ortalıkta serbest elektron
+dolaşır nötr Atom elektron kaybettiği
+için artı iyon haline gelir Dolayısıyla
+ortamda hem eksi işareti serbest
+elektron olur hem de artı işaretli iyon
+olur gazlar da akışkan olduğu için bu
+elemanlar rahatlıkla hareket edebildiği
+için gaz içerisinde Bunlar da elektrik
+akımı taşıyıcısı olabilirler yani akım
+deyince aklına sadece elektron gelmez
+sadece eksi işaret gelmesin artılar da
+bu işe dahil olabilirler bunları
+Deneylerle görelim Öncelikle valtry
+livinin bir deneyimini izleyeceğiz
+gazların yalıtkanlığı ile ilgili havanın
+yalıtkanlığı ile ilgili bir deneyeceğiz
+hava Normal şartlar altında elektrik
+iletmez bakın burada bir elektroskobumuz
+var bu elektroskobu yükledi nasıl
+yükledi bir cam çubuğa ipek kumaş
+sürtüyor ve hocam çubuğu elektrikle
+yüklüyor buradaki elektroskopa
+dokundurduğunda nötr elektroskobu
+yüklemiş olursun yapraklarda yüklendiği
+için açıldı elektrostatik ünitesinde
+bunu bol bol konuştuk zaten soru şu; bu
+elektroskopa dokun bir saat sonra geri
+dön Yaprakların hala böyle açık
+kaldığını görürüz hocam bundan doğal ne
+var diyelim Sen bu elektroskopu eksiyle
+yükledin ve bunu da eksiyle yükledin
+eksi eksiyi itiyor Dolayısıyla açık
+kalıyor bunun bulunduğu ortam yalıtkan
+olduğu için açık kalıyor bunun bulunduğu
+ortam hava ortamı özellikle kış
+ayındaysan Hava Kuru bir havaysa nem
+Yoksa ortalıkta yalıtkanlığı havanın
+iyice artar Bir saat sonra deney başına
+geri dönsen yine açık olduğunu görürsün
+ama hava az buçuk iletken hale geçerse
+mesela plazma haline dönüştürülürse
+yüksek sıcaklıkla sanki buraya bir metal
+değdirmişsin gibi olur buradaki
+elektronlar metal üzerinden Yollarına
+devam ederler elektroskobun yaprakları
+elektron kaybeder ve kapanırlar hava
+yalıtkan olduğu için bu elektronları
+Aslında bir nevi buraya hapsetmiş
+oluyoruz o yüzden açık kalıyor O zaman
+biz de havayı iletken hale getirelim
+bakın Hoca orada bir mumu yakacak mumun
+alevini kullanarak onun yüksek
+sıcaklığını kullanarak havayı
+iyonlaştıracağız Dolayısıyla havayı
+iyonlaşmış bir gaz yani plazma haline
+getireceğiz plazma hal iletken demektir
+malzeme iletken olduğunda oradaki
+elektronlar özgürlüğüne kavuşacak
+demektir Bu da eksiler terk edilecek
+yani elektroskobun yaprakları kapanacak
+demektir Evet çok dikkatle izleyin
+yapraklar yavaş yavaş kapanıyorlar bu
+morda olduğu müddetçe ortam plazma olur
+ve elektron kaybedersin bakın mumu
+tekrar yaklaştırıyor ve kapanma devam
+ediyor mumu çektiğinde duruyor Çünkü
+oranın sürekli plazma olması lazım mum
+Durdukça kapandı ve nötr hale geldi
+Çünkü ortam iletken hale geldi plazma
+hale geldi plazmalarla ilgili ilginç bir
+özellik plazmalar çok iyi bir iletken
+sayılan bakırdan 100 kat daha iyi bir
+iletkendir neden bir kere plazma dediğin
+şey akışkan tanecikler rahatlıkla
+hareket edebiliyorlar katılardaki
+serbest elektronlar da rahatlıkla
+hareket edebiliyorlar ama bin türlü
+zorlukla karşılaşıyorlar Çünkü orada çok
+atom var çok sıkılar çok düzenliler çok
+yakınlar etkiliyor elektronları plazma
+dediğin şey iyonlaşmış gaz zaten
+gazların atomları çok uzakta birbirinden
+akım taşıyıcılar çok bol serbest
+elektronlar ve artı iyonlar çok bol ve
+bunlar çok rahat hareket edebiliyorlar
+bu yüzden en iyi iletkenler plazmalardır
+diyebiliriz bizim bütün elektrik
+tesisatlarında kullandığımız bakırdan
+100 kat daha iyi iletken Şimdi de
+sıvıların iletkenliği ve yalıtkanlığı
+üzerine biraz konuşalım bakın burada bir
+var içerisinde iki tane iletken metal
+levha var ama bunlar birbirlerine
+değmiyorlar ve bunlar saf suyun içine
+daldırılmışlar saf suyun içerisinde
+çözünmüş iyonlar olmadığı için burada
+akım Taşıyıcı yoktur Dolayısıyla Saf su
+yalıtkandır elektrik akımın iletmez
+buradaki metal plakaların ucuna şurada
+bir lamba bağlanmış Eğer ben bu sisteme
+bir güç kaynağı bağlarsam Bu lamba
+yanacaktır ama gerekli iletkenliğin
+sağlanması koşuluyla yanacaktır Hoca
+elindeki fişi güç kaynağına takacak yani
+sistem elektrik enerjisi verecek
+lambanın yanıp yanmayacağına bakacağız
+Evet prize takıyor ve lambada hiçbir
+hareket yok lamba yanmıyor niye lamba
+yanmıyor biliyor musunuz Çünkü buradaki
+iki metal levhanın arasındaki Saf su
+yalıtkan da ondan yani şöyle burada
+lambamız var burada bir güç kaynağımız
+var şu iki Teli birleştirirsem kapalı
+bir devre elde ederim elektronlar
+hareket ederler ve lamba yanar ama
+buraya yalıtkan bir malzeme koyarsam ki
+Şuradaki Saf su şu an o görevi görüyor
+elektron hareketi olmayacağı için ben
+bayanmayacaktır ki yanmıyor tesisatta
+Bir problem olmadığını göstermek için
+bakın iki tane metal levhayı birbirine
+değdirecek Hoca iki met ilk defa
+birbirine değdiğinde lambanın yandığını
+görüyorsun Çünkü aslında şu an ne yapmış
+oldu aslında benim çizimimdeki şu telle
+şu teli birleştirmiş oldu yalıtkanı pas
+geçmiş oldu ya da ne yapabiliriz
+buradaki suyu iletken hale getirebiliriz
+içerisine tuz atarak sodyum klorür
+çözerek bunu halledebiliriz tuzu attı
+biraz karıştırdığında Lambaya dikkat
+edin lambanın yandığını görüyorsunuz
+Çünkü Şuradaki yalıtkan artık iletken
+hale geçti sodyum klorür dediğin şey şu
+arkadaş sofra tuzu bildiğin bunu suya
+attığında su bunu çözdü sodyum artı Klor
+eksi iyonlarına dönüştü şu an suyun
+içerisinde artı iyon var Eksi iyon var
+güç kaynağı bunlara diyor ki belli bir
+yönde hareket edin Bunlar da belli bir
+yönde hareket ediyorlar ve Elektrik
+akımını oluşturuyorlar Lambayı
+yakıyorlar hemen bir uygulama yapalım
+şekildeki plazma tüpünün birim
+kesesinden dakikada toplamda 3 kg sahip
+elektronlar iki yönünde geçiyorlarmış
+Buna göre şunu bul bunu bul gibi sorular
+var şimdi plazma tüpü ne demektir
+içerisinde plazma olan yani iyonlaşmış
+gaz olan plazma olduğu için de oldukça
+iletken olan bir ortamdan bahsediyoruz
+burada bir tel var burada bir tel var bu
+teller bağlı değiller o zaman elektrik
+akımı geçmez diye yorum yapmayız Çünkü
+iletkenlik plazma sayesinde devam ediyor
+buraya bağlayacağın telden daha da iyi
+bir iletken plazma sorunun tarif ettiği
+şey not ediyorum diyor ki elektronlar
+iki yönünde hareket ediyor Yani bu
+plazma içerisinde bulunan serbest
+elektronlar sol tarafa doğru iki yönünde
+hareket ediyorlarmış şöyle gidiyorlarmış
+Tamam gitsinler ne kadarmış değerleri 3
+kilo bu elektronlar niye sol tarafa
+gidiyorlar onları zorlayan şey ne Tabii
+ki bir güç kaynağı Yani bu plazma
+tüpünün uçları arasında bir güç kaynağı
+bağlamalısın ki elektronlara git emri
+verebiliriz peki Nasıl bağlayacağım artı
+Nereye gelecek eksi Nereye gelecek
+elektronlar sola gidiyorsa artılar
+tarafından çekiliyorlar eksiler
+tarafından itiliyorlar demektir Burası
+niye artı olsun Çünkü bir pilin artı
+kutbunu oraya bağlamışız Burası niye
+eksi olsun Çünkü bir pilin eksi kutbunu
+buraya bağlamışız diye yorum yapabiliriz
+a şıkkı diyor ki elektrik akımının
+yönünü bulunuz elektrik akımı artıdan
+eksiye doğru kabul edilmiyor mu evet
+pilin artısı burada eksisi buradaysa o
+zaman elektrik akımı dediğim şey artıdan
+eksiye doğru şöyle akan bir şey olarak
+Hayal edilir
+ığ dediğim elektrik akımı budur yani bu
+tüpün içerisinde sağ tarafa doğru bir
+elektrik akımı var bir yönünde elektrik
+akımı var diyebilir elektronların
+hareket yönüne ters Elektrik akımının
+şiddetini bulunuz Elektrik akımının
+tanımı nedir Bir iletkenin kesitinden
+Birim zamanda geçen yük miktarıdır ne
+kadar süreden bahsediyoruz dakikada
+diyor buraya bir dakika mı yazacağım
+Hayır Esra'da yazıyoruz 60 saniye
+yazacağım bu plazma tüpünün Bir kesitini
+Hayal etsem şöyle bir şey hayal etmem
+gerekir buradan 60 saniyede 3 kilomluk
+elektron geçiyormuş yük miktarımız 3
+kilo o zaman burası bir bölü 20 amper
+yapacaktır elektrik akımımızın şiddeti
+budur geldik sorunun en önemli şıkkına
+elektronların hareketinin yanında üç
+klong'luk artı yüklü iyonlar da hareket
+etseydi Elektrik akımının şiddeti kaç
+amper olurdu şimdi ben sadece eksiler
+hareketliymiş gibi düşündüm Sonra öyle
+tarif etti diyor ki artılar da hareket
+etsin hocam artıları hareket etmez ki
+eğer bu soruyu soruyorsan iyi
+dinlemiyorsun demektir artılar katılarda
+hareket etmez Çünkü katılarda artı
+dediğin şey protonun ta kendisidir atom
+çekirdeği bir yerden bir yere gitmez
+katılarda aslında plazmalarda da atom
+çekirdeği bir yerden bir yere gitmiyor
+artı dediğim şey ne artı iyon yani
+elektron kaybetmiş bir gaz atomu bir
+yerden bir yere gidiyor çünkü plazma
+dediğin şey iyonlaşmış gaz yani akışkan
+atomlar moleküller öteleme hareketi
+yapabilirler bir yerden bir yere
+gidebilirler burada katıdan
+bahsetmiyoruz bir plazma ortamından
+bahsediyoruz şimdi bu plazma ortamında
+artı iyonlar nereye doğru gidecekler
+artı artı iter - artıyı çeker Demek ki
+bizim buradaki artılarımız sağ tarafa
+doğru gidecekler ve Onların değeri de 3
+krom kadarmış Elektrik akımının yönüyle
+buradaki artıların yönü aynı en başta
+demiştim ya elektrik akımıyla
+elektronların hareketi terstir Bu da bir
+çelişki midir Acaba nereden baktığına
+bağlı plazma ortam düşünüyorsam
+artıların hareket yönüyle Elektrik
+akımını yönünü aynı yönünü kabul edilir
+eksileri düşünüyorsam sadece katılara
+bakıyorsam çelişi gibi duruyor ama
+plazmalarda bir problem yok Nereden
+baktığına bağlı olaya Peki bize Elektrik
+akımının şiddetini soruyor hocam birim
+kesit Burası sağ tarafa doğru burada 3
+kilom artı geçiyor sol tarafa doğru 3 kg
+eksi geçiyor E o zaman bu birim kesitten
+toplamda 0 krom büyük geçer akım da 0
+amper olur saçma sapan yorumlar Yine
+elektrik akımının tanımına geliyoruz
+elektrik akımı birim kesitten geçen
+toplam yük miktarıdır sağ tarafa 3 kg
+geçiyor sol tarafa 3 kilom geçiyor
+toplam kaç kilom geçmiştir dersem yük
+miktarı nedir dersem 6 kilom yazarsın
+klasik örneğim boğaz köprüsündesin
+anadolu yakasına arabalar geçiyor Avrupa
+yakasına arabalar geçiyor 1 dakika
+bekledin arabaları sayıyorsun anadolu
+yakasına 100 tane geçti aynı sürede
+Avrupa yakasına da 100 tane geçti
+köprüden araba Geçmedi mi diyorsun hayır
+200 tane araba geçti diyorsun Çünkü ben
+sana köprüden geçen araba miktarını
+sordum skaler bir şey sordum yük de
+skaler bir şey işte bunun miktarı da
+akım Dolayısıyla Bunlar ters yöndeler
+Bunlar birbirini götürür diye bir mantık
+yok bu vektör değil ki altı kilom toplam
+yük geçer 60 saniyede Bu da 1/10 amper
+demektir yani 1/20'den 1/10'a yükseldi
+akım şiddetimiz Çünkü yük taşıyıcısı
+arttı bu bir kesitten daha fazla yük
+geçiyor Önceden sadece elektronlar
+geçiyordu şimdi artılar da
+hareketlendiler Dolayısıyla akım
+şiddetimiz artmıştır özellikle c şıkkı
+çok önemli iletken bir tele bağlanan
+ölçüm aletiyle telden 8 amper değerinde
+akım geçtiği ölçülmektedir Buna göre
+telin kesitinden bir saniyede kaç tane
+elektron geçmektedir bakın 8 amperlik
+akım değeri ile günlük hayatta
+elektrikli hale çalıştırabilirsiniz
+Mesela bir fırın çalıştırabilirsiniz
+börek pişiriyorsunuz fırında acaba
+atomik boyutta mikro boyutta elektrik
+dünyasında o kabloların içerisinde neler
+dönüyor bu soru bize onu gösterecek
+fırının kablosundan Onun kesitinden bir
+saniyede kaç tane elektron geçecek ki
+sen o böreği pişirebil akım dediğim şey
+iletkenin kesitinden Birim zamanda geçen
+yük miktarı Bir saniye dediği için zaman
+yerine bir saniye yazdım ne kadar yük
+geçtiğini bilmiyorum ama olması gereken
+akım değerimin 8 amper olduğunu biliyor
+Şimdi bir tane elektronun yükü kaç 1,6 x
+10 üzeri eksi 19 Klon buradaki q dediğim
+şey milyonlarca elektronun toplam yükü
+Yani ben bu q'yu elektron sayısı çarpı
+bir tane elektronun yükü olarak Açabilir
+böyle zaman eşittir 8 amper buradaki bir
+tane elektronun yükü yerine 1,6 x 10
+üzeri -19 yazacağım T yerine 1 yazacağım
+o zaman elektron sayısı nedir 8 bölü 1,6
+x 10 üzeri eksi 19'dur şu arkadaşta şu
+arkadaşı bölersem 5 olur 10 üzeri -19
+yukarıya 10 üzeri +19 olarak geçer o
+zaman N = 5 x 10 üzeri 19'dur 10 üzeri
+19 nasıl bir sayı biliyor musunuz 10
+üzeri 6 x 10 üzeri 6 çarpı 10 üzeri 6
+çarpı 10 yani milyon çarpı milyon çarpı
+milyon çarpı 10 tane elektron 1 saniyede
+şu telin kesitinden geçiyor Sen börek
+pişir 8 amperlik akım elde et diye telin
+içerisine fırtınalar kopuyor b şıkkı
+direkt yine bir kavram yanılgısı vurmak
+için buraya koyduğum bir şık daha kalın
+bir telde aynı akımı ölçseydik telin
+kesitinden geçen elektron sayısında bir
+değişiklik olur muydu güzel Bakın iki
+tane tel hayal ediyorum bunun birim
+kesiti şu kadar buradan trilyonlarca
+artık Kaç taneyse elektron geçti neden 8
+amperlik akım elde etmek için Acaba
+bizim fırınımız tablosu daha kalın
+olsaydı aynı 8 amperlik akımı elde etmek
+için bunun daha geniş birim kesitinden
+daha fazla sayıda elektron geçerdi Çünkü
+bu daha geniş Hocam daha çok elektron
+geçer Burası daha geniş diye birim kesit
+alanı büyüdü diye daha çok elektron
+geçmez çok basit 8 amper için kaç tane
+elektron lazım bu kadar elektron lazım o
+zaman kalın telden de bu kadar elektron
+geçecek Elektrik akımının tanımına bir
+kez daha dönüyorum iletkenin kesitinden
+Birim zamanda geçen yük miktarı
+iletkenin boyutları ile ilgili bir ön
+koşul var mı iletkenin şu kadar
+kalınlıkta olacak bu kadar kalıntı
+olacak diyor mu demiyor birim kesitine
+bak diyor inceyse daha ince bir kesit
+kalınsa daha kalın bir kesit fark etmez
+önemli olan oradan ne kadar yük geçiyor
+dolayısıyla daha kalın bir tel olsaydı
+da elektron sayısı aynı kalırdı değişmez
+Şimdi geldik Potansiyel fark kavramına
+soyut bir kavram ayt'de bunun daha
+detayları anlatılıyor fakat biz
+tyt'deyiz o yüzden böyle benzetmelerle
+falan Anlatmaya çalışacağım Aslında Siz
+potansiyel farkı öğrendiğiniz farkında
+değilsiniz Potansiyel fark ne biliyor
+musunuz komutanın Emir komutan emir
+verdi diye elektronlar belli bir yönde
+harekete geçiyorlar daha fizikçesini
+söylersem Potansiyel fark var diye
+elektronlar harekete geçiyorlar bakın
+elektrostatikleri çokça uğraştığımız iki
+tane iletken küre bir artı yüklü bir
+eksi yüklü diyelim ki soldaki artı 10q
+olsun Sağdaki de eksi 4K olsun tamamen
+kafamdan salladım bunlar aynı kapasiteye
+sahip olsunlar eşit yarıçapa sahip
+olsunlar buradaki anahtarı kapatırsam ne
+olur Hocam yük paylaşım olur
+paylaştıralım toplam yükümlü olur artı
+altı q olur toplam kapasitem r+ r'den 2
+R olur R başına +3q yük düşer Yani bu
+artı 10çuluk arkadaş olur Artı 3q bu
+eksi 4q'luk arkadaş olur artı 3 küh
+şimdi bu Kırmızının 10 q'dan 3q'ya
+düşmesi için yani artılığının azalması
+için eksi gelmesi lazım Evet bu maviden
+kırmızıya elektronlar geçmiştir eksi
+yükler geçmiştir diyebiliriz Peki ne
+kadarq -7q artı 10 q -7 q aldığı için
+artı 3'e düşmüştür mavi küremiz eksik
+kaybetti Adam zaten eksiydi eksilerini
+kaybederse pozitife yaklaşır -4'ten
+-7'yi çıkartırsan artı 3 elde edersin o
+yüzden yeni yükümüz artı 3 o kadar eksik
+kaybetmişiz ki eksiliğimiz bitmiş bir de
+artıya dönüşmüşüz yük geçişi oldu mu
+Oldu Şuradaki telin birim kesitinden
+yükler mi geçti Evet bu elektrik akımı
+değil mi Evet Yani aslında bu iki telin
+arasındaki anahtarı kapattığımda bir
+elektrik akımı oluştu Aynen öyle
+elektronlar sola doğru geçtiyse elektrik
+akımımız sağa Doğrudur diyebiliriz Peki
+bu elektrik akımı sonsuza kadar mı
+geçecek Hep mi olacak Hayır belli bir
+yerde durdu ne zaman durdu yükler
+eşitlenince durdu artı ona -4 iken akış
+başladı ama bu sonsuza kadar devam
+etmedi yük paylaşımı bittiğinde artık
+elektron geçişi olmadı durdu lastik
+ayakkabınızda halılara sürtüyorsunuz
+sonra iletken bir kapı koluna
+dokunduğunuzda çarpılıyorsunuz Ama
+sonsuza kadar çarpılmıyorsunuz değil mi
+çarpılıyorsun bitiyor Aslında orada da
+parmağın ve kapı kolu arasında elektrik
+akım oluşuyor ve bitiyor çünkü paylaşımı
+duruyor Şimdi bunu benzetirsek bir
+bileşik kabımız var burada yüksek
+potansiyel enerjili bir sıvı var burada
+alçak potansiyel enerji şu seviyeye göre
+konuşursam burada yüksek potansiyel
+enerji var burada alçak potansiyel
+enerji var burada kastettiğim potansiyel
+enerji kütle çekim potansiyel enerjisi
+diyelim ki bunların arasında böyle bir
+musluk var şimdi ben bu musluğu açarsam
+ne olur su seviyeleri eşitlenir Yani bu
+su seviyeleri eşitlenene kadar buradan
+buraya Su akar Ama sonsuza kadar değil
+seviyeler eşitlenene kadar yüksek olan
+yerdeki aşağıya inecek alçak olan
+yerdeki yukarıya çıkacak bu seviyeler
+eşitlendiğinde akış duracak bu su
+örneğinde yüksek potansiyel enerjiden
+alçak potansiyel enerjiye doğru su akışı
+oldu potansiyel enerjiler eşitlendiğinde
+akış durdu şimdi bunun elektrik
+versiyonunu söylüyorum Bizim bu kırmızı
+küremizde elektriksel olarak yüksek
+potansiyel vardı mavi küremizi
+elektriksel olarak alçak potansiyel
+vardı Sen anahtarı kapattığın anda
+buradaki vanayı açmak gibi yüksek
+potansiyelden alçak potansiyele doğru
+bir akış başladı İşte biz o akışı
+elektrik akımı diyoruz sonsuza kadar
+devam etti mi Hayır etmedi bu yüksek
+potansiyel azaldı akış devam ettikçe
+alçak potansiyel arttı bunlar
+eşitlendiler yani iki
+potansiyelleri eşit olduğu anda akış
+durdu buradaki su seviyelerin
+eşitlendiğinde suyun durması gibi yani
+başlangıçta bu küreler arasında bir
+Potansiyel fark vardı Biri yüksekti bir
+alçaktı bu fark kapanana kadar akış olur
+işte Potansiyel fark Emir'in etkisi
+geçene kadar akış olur emrin etkisi
+geçerse akış durur Peki ben bunu sürekli
+olmasını istersem ne yapmalıyım Yani
+sürekli akış olsun istiyorum anlık
+olmasın istiyorum kapı koluna
+dokunduğumda Sürekli çarpılmak istiyorum
+su dolu kap için Neye ihtiyacın var
+mesela bir su motoruna ihtiyacım var bir
+pompaya ihtiyacım var burada yüksek
+potansiyel var suyun seviyesi yüksek
+burada alçak potansiyel var suyun
+seviyesi alçak hiçbir şey yapmasan bile
+su yüksekten alçağa doğru akacak bu akış
+yüzünden yüksek potansiyel azalmaya
+başlayacak alçak potansiyel artmaya
+başlayacak eşitlendiğinde duracaklar
+Çünkü Potansiyel fark kalmayacak ama sen
+buraya bir su motoru koyarsan bu su
+motoru buradaki suyu tekrar yukarıya
+basarsa buradaki suyun eksilmesine izin
+vermez Dolayısıyla bu su seviyesi hep
+yukarıda kalır bu su seviyesi hep
+aşağıda kalır bu iki arasındaki
+potansiyel fark korunur O zaman bu su
+akışı sonsuz olur hep Akar Çünkü sürekli
+bir Potansiyel fark var bu adamın
+elektrik devresinde ne görevi gördüğünü
+Anladınız değil mi bu güç kaynağı işte
+komutan bu adam sürekli emir veriyor
+emrinin etkisi sürekli devam ediyor
+Sürekli bir fark var yüksekten alçağa
+doğru sürekli bir akış var bu adam Artı
+10qdu bu adam - 4q'ydu anahtarı
+kapattığımda yük alışverişi başladı
+potansiyeller eşitlendiğinde akım durdu
+Fakat ben buraya bir güç kaynağı
+bağlarsam yine buradan buraya
+elektronlar geçer Dolayısıyla bunun
+tersi yönünde kabul ettiğin bir elektrik
+akımı oluşur Ama bu sefer bu sürekli
+olur Çünkü güç kaynağının eksi Kutbu
+buradaki eksi küreye bağlanmış artı
+Kutbu buradaki artı küreye bağlanmış
+Yani bu adam eksik kaybediyor eksi 3'e
+düşüyor -2'ye düşüyor pil buna takviye
+yapıyor tekrar bunu -4'e Çıkartıyor bu
+adam elektron aldığı için artı
+özelliğini kaybediyor artı 9 oluyor artı
+8 oluyor pil buna artı takviyesi yapıyor
+ve bunu hep artı 10 q’da tutuyor yani
+sen buraya pil bağladığın için Artı 10q
+bu hep -4q gibi oluyor bu pil bir
+Potansiyel fark oluşturuyor aynı
+buradaki su motoru gibi ve akış sürekli
+oluyor sürekli bir elektron geçişi
+oluyor pil sayesinde Burası sürekli
+yüksek potansiyel Burası sürekli alçak
+potansiyel o zaman kesinlikle öğrenmen
+gereken şey elektrik akımı nereden
+nereye akar yüksek potansiyelden alçak
+potansiyel Akar artı yüksek
+potansiyeldir - alçak potansiyeldir ama
+elektronlar nereden nereye yakıyor
+elektron bu maviden kırmızıya doğru
+akmadı mı yani Alçak potansiyelden
+yüksek potansiyel aktı Dolayısıyla
+elektronlarımız Alçak potansiyelden
+yüksek potansiyele doğru hareket eder
+biraz zihnimizde canlandırabildiysek
+akademik tanımlara geri dönelim
+Potansiyel fark aslında şu demek bir
+elektronun devreye dolaşabilmesi için
+gereken enerjiye Potansiyel fark denir
+yani pilin Aslında yaptığı şey devrede
+Potansiyel fark oluşturmak yani devreye
+bir elektrik enerjisi vermek o
+potansiyel farkı nasıl oluşturuyor
+devreye verdiği enerjiyle oluşturuyor
+pilden bahsediyorsak içindeki kimyasal
+enerjiyi elektrik enerjisine dönüştürür
+aynı buradaki su motorunun bu suların
+seviyelerinin farklı olm sürekli
+sağlamak için bir enerji harcaması gibi
+düşünebilirsiniz bu sisteme bir enerji
+aktarıyor ki o fark sürekli korunsun pil
+de bunu yapıyor bir tarafın yüksek bir
+tarafın alçak kalması için sürekli
+devreye bir enerji veriyor işte Ona biz
+Potansiyel fark diyoruz yani Potansiyel
+fark nedir dendiğinde enerji ile ilgili
+bir kavram olduğunu bilmeniz önemli Biz
+bunu V sembolü ile gösteriyoruz birimi
+volt Volta pili diye bir şey duymuş
+olabilirsiniz kimyada ileride Biz de
+bahsedeceğiz yine oradaki çalışmalardan
+dolayı potansiyel farkın birimi volt
+olarak isimlendiriliyor şimdi bu piller
+devrede Potansiyel fark oluşturuyorlar
+ama onun da özel bir ismi var elektro
+motor kuvvet olarak isimlendirilir yani
+siz bir pil çizdiğinizde şöyle 3 voltluk
+pil dediğinizde Aslında tanım gereği
+şöyle dersiniz bu pilin elektron motor
+kuvveti 3 volttur bu pil devrede iki
+nokta arasında 3 voltluk Potansiyel fark
+oluşturur şöyle bir lamba Olduğunu hayal
+edelim burada 3 yazıyorsa pilin
+bağlandığı bu uçla diğer uç Arasında 3
+voltluk bir fark var demektir Bakın bu
+fark buranın potansiyeline sıfır
+yazarsan Burası 3 olur buranın
+potansiyeline tamamen sallayabilirim Bu
+sayıları 2 yazarsam Burası 5 olur bu
+arkadaş Delta v'yi yani potansiyel farkı
+tanımlar V dediğim şey potansiyelken
+Delta V dediğim şey potansiyel farktır
+Dolayısıyla aslında burada V sembolünü
+düzeltmemiz lazım Burası Delta V olacak
+sadece V dediğim şey elektriksel
+potansiyel olarak geçer fizikte yani
+sadece Şuradaki Suyun yer çekimi
+potansiyel enerjisi gibi düşün
+potansiyeli bu seviyeden bu seviyeyi
+çıkarttığımda şu fark Potansiyel fark
+tabii onun elektrikteki versiyon Hocam
+niye buna elektro motor kuvvet diyoruz
+bunun birimine volt dediğiniz e kuvvet
+diyor Newton olması gerekmiyor mu yine
+bu tarihsel sebeplerden elektriğin ne
+olduğunu tam anlamadığımız tarihlerde
+isimlendirme yaptığımız için
+karşılaştığımız saçmalıklar elektro
+elektron demek motor Latince de hareket
+demek Yani aslında pilin yaptığı işi
+tarif ediyor Bu bir güç kaynağı devrede
+elektronları hareketlendirir onlara
+hareketlendirecek kuvveti sağlar Evet
+pil devrede bir elektrik alan
+oluşturuyordu o elektrik alan
+içerisindeki eksi yüklü tanecikler
+fiziksel kuvvete maruz kalıyorlardı ve
+hareket ediyorlardı bu kuvvet yorumu
+enerjiden yorumlarsak potansiyel farkı
+olduğu için elektrik yükleri hareket
+ediyorlar aynı suyun yüksek
+potansiyelden alçak potansiyeli
+akmasıydı elektro motor kuvveti
+epsilonla gösteriyoruz Yani bir üreteç
+için yazılacak Epsilon eşittir 10 volt
+ifadesinin görürseniz anlayacaksınız ki
+o pil o üreteç devrede 10 voltluk bir
+fark oluşturuyor Şimdi şöyle bir
+uygulama yapalım Bizim bir lambamız
+olsun Lambayı şöyle sembolle gösterelim
+bu lambanın bir ucunda 5 volt olsun
+diğer ucunda 2 volt olsun bu 5 volt
+yüksek potansiyel mi Evet 2 volt alçak
+potansiyel mi Evet o zaman yüksek
+potansiyelden alçak potansiyele doğru
+elektrik akımı oluşur mu oluşur Bu lamba
+şu an anlık olarak yanar Fakat sürekli
+yanmaz Çünkü akım devam ettikçe bu
+yüksek potansiyel azalmaya alçak
+potansiyel artmaya başlayacak su
+seviyelerindeki gibi eşitlendiklerinde
+atıyorum Şu adam iki buçuğa geldi bu
+adam da iki buçuğa geldi Potansiyel fark
+0 oldu akım 0 oldu Ben bunun korunmasını
+istiyorsam ne yapmalıyım bu lambanın
+uçları arasına bağlamalıyım Peki pilin
+elektro motor kuvveti kaç volt olmalı 3
+volt olmalı yani devrede oluşturduğu
+Potansiyel fark bu kadar olmalı Çünkü
+lambanın uçları arasında şu an 3 volt
+var bir ucunda 5 var bir ucunda 2 var az
+önce dediğim gibi bu sayıları Ben
+uydurabilirim 5'in 2'nin bir önemi yok
+Önemli olan fark buraya 0 volt buraya 3
+volt yazsam da aynı şey olur 10 volt 13
+volt yazsam da aynı şey olur anlamanız
+gereken en önemli şey akım olması için
+devrede Potansiyel fark olması yine
+burada bir notumuz var Daha önce
+konuştuk üreteçler elektron üretmezler
+tellerdeki mevcut serbest elektronların
+hareket etmesini sağlarlar buradaki su
+pompası su mu üretiyor Hayır zaten kapta
+bulunan suyun hareket etmesini sağlıyor
+şimdi bütün bu söylediklerimi özetleyen
+bir simülasyon izleyelim şimdi burada
+bir elektrik devremiz var güç kaynağımız
+var lambamız var anahtarımız açık burada
+da bir modellememiz var potansiyel
+farkın Elektrik akımının ne olduğunu
+bize anlatan bir modelleme anahtar açık
+olduğu için herhangi bir hareket yok
+şimdi buradaki kürecikleri elektron gibi
+düşünebiliriz Tellerin kendi
+elektronları az önce söylediğim gibi
+pilin üretmediği şeyler bunlar
+arkadaşlar bakır bir telse bakır
+elektronları Bunlar Fakat bu
+simülasyonda bu kürecikleri elektrik
+akımı olarak Hayal edeceğiz Çünkü
+artıdan eksiye Doğru bir hareket
+olduğunu göreceğiz yani bunu bir
+elektrik akımı olarak düşünelim şimdi
+anahtarı kapattım devrede hareket
+başladı gördüğünüz gibi bu benzetmede
+şurası Yüksek seviye şurası alçak seviye
+misket gibi düşünürsen bir misketi
+yukarıdan bıraktığında aşağıya doğru
+hızlanır elektriğe dönüştürürsek bunu
+burada Yüksek seviye var yani yüksek
+potansiyel var burada alçak seviye var
+yani alçak potansiyel var elektrik akımı
+yüksek potansiyelden alçak potansiyele
+doğru akıyor şimdi Akar ve biter misket
+kendi kendine yukarı çıkamaz onu kim
+yukarı çıkartacak işte burada gördüğüm
+pil çıkartacak pilin tek yaptığı şey bu
+aşağıdaki misketi alıyor yukarıya
+çıkartıyor sonra o tekrar yukarıdan
+aşağıya kendi iniyor bu pil devrede
+sürekli bir Potansiyel fark oluşturuyor
+burayı sürekli yüksek potansiyel yapıyor
+burayı sürekli alçak potansiyel yapıyor
+O yüzden sürekli yüksek potansiyelden
+alçak potansiyele doğru bir elektrik
+akımı oluyor pil hiçbir şey üretmiyor
+sadece mevcudu döndürüyor anahtar ampul
+ve bir pil ile şekildeki ilk devresi
+oluşturulmuştur Buna göre hangileri
+doğrudur bütün Konuştuklarımızı bir
+özetleyelim soru üzerinde anahtar
+kapatılır kapatılmaz pilin eksi ucundaki
+elektronlar ampulün üzerinden geçerek
+yanmasını sağlar Hayır burada sürüklenen
+elektronlar oldukça yavaş hareket
+ediyorlardı Neredeyse 1 metreyi 1
+saatten Uzun sürede alıyorlardı
+Dolayısıyla Sen bu anahtarı kapattığında
+lambanın anında yandığını görüyorsan
+Bunun sebebi bu pilin devrede
+oluşturduğu potansiyel farkın
+Dolayısıyla devrede oluşturduğu elektrik
+alanın her yere anında ulaşması ışık
+hızıyla ulaşması Ama buradaki
+elektronların çok yavaş hareket etmesi
+lamba niye anında yanıyor Çünkü bu
+lambanın dibinde de elektron var Çünkü
+bu serbest elektronlar tele ait
+elektronlar Anında bu ampulle etkileşir
+ve Lambayı Yakar birinci öncülüm
+yanlıştır buradaki elektronun buraya
+gelmesini beklersek 4-5 saat beklememiz
+gerekir pil devrede Potansiyel fark
+oluşturarak elektronların hareket
+etmesini sağlar Aynen öyle pil atıyorum
+10 voltluk bir pil O zaman bu devrede 10
+voltluk bir Potansiyel fark oluşturur
+lambanın uçlarına bağlandığına göre
+sallıyorum a noktası 10 vol olur B
+noktası 0 volttur diyebilirim buranın
+farkı da pilin oluşturduğu 10 volt
+olacaktır potansiyel farkı olduğu için
+elektron hareketi Dolayısıyla elektrik
+akımı olacaktır ampulün üzerinden geçen
+elektrik akımı a noktasından B noktasına
+Doğrudur pilin sol tarafı artı Kutbu sağ
+tarafı eksi Kutbu elektrik akımı artıdan
+çıkıp eksiye doğru hareket edeceği için
+A'dan B'ye doğru bir elektrik akımı
+olduğunu söyleyebiliriz ya da şuradan
+anlayabiliriz a noktası yüksek
+potansiyeldir pilin artısına bağlandığı
+için B noktası alçak potansiyeldir pilin
+eksisine bağlandığı için elektrik akımı
+dediğimiz şey yüksek potansiyelden alçak
+potansiyele Doğrudur yani A'dan B'ye
+Doğrudur 3 de doğru sorumuzun cevabı 2
+ve 3 bu derste öğrendiğimiz elektrik
+akımı ve Potansiyel fark kavramları
+özellikle Potansiyel fark kavramı soyut
+kavramlar Bu ders çok iyi anlamaya
+çalışın ezbere iş yapmıyoruz takıldık
+yalnız alta yazın Kendinize iyi bakın
+görüşürüz
+[Müzik]

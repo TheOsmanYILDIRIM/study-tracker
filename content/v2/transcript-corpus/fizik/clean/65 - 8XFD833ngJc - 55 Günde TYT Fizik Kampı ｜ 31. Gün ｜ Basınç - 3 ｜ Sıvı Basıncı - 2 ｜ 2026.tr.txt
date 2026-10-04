@@ -1,0 +1,697 @@
+Şimdi farklı şekillerdeki kapların
+tabanlarındaki sıvı basınçlarının
+yükseklikle ilişkilerini konuşacağız.
+Onların zamanla ilişkilerini
+konuşacağız. Üç farklı kabımız var.
+Düzgün bir kabımız var. Git gide daralan
+bir kabımız var. Git gide genişleyen bir
+kabımız var. Yukarıdan özdeş tane
+musluğu açıyoruz. Bunlar sabit debili
+musluklar. Sabit debi ne demek? Birim
+zamanda hep aynı miktarda su akıtıyor
+demek. Mesela 1 dakikada hep 1 litre su
+akıtıyor. Dolayısıyla 2 dakika
+geçtiğinde 2 lre, 5 dakika geçtiğinde 5
+lre suyun olmuş oluyor kabın içerisinde.
+Aynı zamanda aynı miktarda su akıtıyor
+bu arkadaşlar. Bu kapları bir
+inceleyelim bakalım. Önce düzgünle
+başlayalım. Dediğim gibi musluğumuz
+sabitle biliyim ki dakikada 1 Lre su
+akıtıyor olsun. 1 dakika geçtiğinde
+burada 1 Lre suyum olmuş olur. Bir 1 bir
+dakika daha geçerse bir 1 Lre daha suyum
+olmuş olur. Bir 1 bir dakika daha bir 1
+Lre daha su. Buradaki hacim dediğim şey
+kap düzgün olduğu için burası 90° olduğu
+için taban alanı çarpı yükseklikten
+düşünülürse taban alanı hep aynı. Hepsi
+1 Lre hepsi aynı hacim. O zaman burada H
+yüksekliğinde su varsa burada da H
+yüksekliğinde aynı su var. Burada da H
+yüksekliğinde aynı su var. Başlangıçta
+hiç su yoktu. 1 dakika geçtiğinde h
+yüksekliğinde suyum oldu. 2 dakikaya
+ulaştığımda bir H daha eklendi. Toplamda
+2H suyum oldu. Toplamda 3 dakika
+geçtiğinde 3H suyum oldu diyebilir. Bu
+noktaları birleştirirsem şu
+arkadaşlardan bahsediyorum ki 0 dakikada
+da 0 H suyumuz var. Elde ettiğim grafik
+şöyle düzgün artan bir grafik olacaktır.
+Sıvı yüksekliği, zaman grafiği budur.
+Basıncı da soruyor. Basınç dediğim şey
+HDG olduğuna göre öz kütle
+değişmediğine, yer çekim ivmesi
+değişmediğine göre yükseklik nasıl
+değişiyorsa basınç da o kadar
+değişiyordur. Yani sen H yükseklikte
+sıvı var dersen tabanda P basınç var
+demiş olursun. Bu 2H'a çıktığında
+tabandaki bir noktada 2P basıncın olmuş
+olur. Bu 3H'a çıktığında tabandaki bu
+noktada basıncın 3P olmuş olur. Yine 1ci
+dakikadan, 2ci dakikadan ve 3 dakikadan
+bahsediyoruz. E aynı grafiği elde
+edeceğiz. Kap düzgün olduğu için
+yükseklik düzgün artıyor. Yükseklik
+düzgün arttığı için basınç düzgün
+artıyor diyebiliriz ve böyle
+çizebiliriz. Ama benim kabım daralan bir
+kapsa. Şimdi buradaki musluğum aynı
+musluk. Yani yine dakikada 1 Lre akıtan
+bir musluktan bahsediyoruz. Bir dakika
+geçti. Su doldu. Şu an burada 1 Lre
+hacminde su var ya da sıvı var fark
+etmez. Bir dakika daha geçtiğinde aynı 1
+litreyi musluktan kaba göndermiş
+oluyoruz. Ama dikkat ederseniz şekilde
+azıcık farklılık var. Buradaki
+yüksekliğe h dediysem buradaki h'tdan
+daha fazla sallıyorum 1,5h. Neden daha
+çok yükseldi? Çünkü buradaki suyun hacmi
+ile buradaki suyun hacmi aynı. Aynı
+miktarda su var ama kap daralıyor. Kap
+daraldığı için aynı miktarda su daha
+yükseğe çıkmak zorunda. Mesela yine 1
+litre su akıtsam şöyle bir şekil olur.
+Aslında burada da aynı miktarda su var
+ama buradaki yükseklik 1,5h'tan da büyük
+2H olur. Sallıyorum sayıları. Bir önceki
+dersimizdeki 1 litrelik mavi sıvıyı ince
+bir hortuma sıkıştırdığımızda nasıl
+yükseldiğini hatırlayın. Tamamen
+geometrik. Dolayısıyla dakikalar yine 1
+2 3 diye işaretlenirse 1ci dakikada H
+yüksekliğine ulaştık ama 2 dakikada H
+daha çıkmadık. 1,5 H daha çıktık. Yani
+2,5'ğa ulaştık. 3. dakikada 1,5'tan da
+fazla 2H daha çıktık. Yani 4,5H'a
+çıktık. Düzgün bir çizim yaparsak
+şuradaki oranlara dikkat ederek çizersek
+atıyorum 4,5h'ı buraya bir yere çizmem
+lazım. Şimdi noktalara dikkat edin. Bu
+noktaları birleştirdiğimde nasıl bir
+grafik elde etmeliyim? Artarak artan
+dediğim grafiği elde etmeliyim. Şöyle
+bir grafik. Kap daraldığı için git gide
+yüksekliğim olması gerekenden daha da
+çok artıyor. Git gide daha da
+dikleşiyor. E P = Hdg olduğuna göre
+bunlar sabit olduğuna göre yüksekliğin
+başına zamana karşı ne geliyorsa
+basıncın da başına zamana karşı o
+gelmeli. O yüzden tabandaki bir noktada
+sıvı basıncı artarak artan olur. Yani
+git gide artma miktarı da artar. Kap
+genişleyen olduğunda musluk aynı musluk
+dakikada 1 Lre akıtıyoruz. 1 litrelik
+sıvıyı akıttık. Şu an burada 1 Lre var.
+Diyelim ki H yüksekliğine çıkardık. Kap
+genişliyor. Su yayılıyor. Aynı
+miktardaki su o kadar da çok
+yükselemeyecek. Şu kadar yükselecek. Bu
+da 1 Lre. Diyelim ki 0.75H
+daha yükselebildik. Sonraki 1 Lre daha
+da az yükselecek. Çünkü kap daha da
+genişledi. Sıvı iyice yayıldı.
+Yükselemiyor bir türlü. Diyelim ki 0.5h
+yükselebildi. Düşünsenize abartılı
+düşünüyorum. Kabın genişliği sonsuz
+olursa sıvı artık hiç yükselemiyordur. O
+kadar geniş ki dolduramıyorum. 1ci
+dakikam, 2ci dakikam, 3 dakikam. 1ci
+dakikada h yükselebildim. Bu nokta 2
+dakikada 0,75 yükselebildim. Yani 1.75'e
+çıktım. 2'ye ulaşamadım. 1.75 şurası
+olsun. Şöyle bir nokta. 3. dakikada 05
+daha yükseldim. 225 oldu. Şöyle bir
+nokta. Bunları birleştirirsem azalarak
+artar dediğim grafiği elde etmiş oluruz.
+Yani sıvı yüksekliğim artıyor. Bunda bir
+sıkıntı yok. Ama git gide artma miktarı
+azalıyor. Git gide daha azalıyor. Önce
+bu kadar arttım. Sonra daha az arttım.
+Sonra daha da az arttım. Dediğim gibi
+sonsuz genişliğe ulaşırsak artma
+miktarım 0 olur. Zaten dikkat ederseniz
+grafiğe git gide artmamaya başlıyor.
+Zaman sonsuza gittikçe, kabın genişliği
+sonsuza gittikçe yüksekliğim artık
+artmıyor diyebilirim. Yine aynı mantık.
+Yüksekliğin başına zamana karşı ne
+geldiyse basıncın da başına o
+gelecektir. Basınç da tabii tabanda bir
+noktanın sıvı basıncı da azalarak artan
+dediğimiz grafik şeklinde olacaktır.
+Şimdi bu iki şekli özellikle size
+sorularda verip bir olta yapabilirler.
+Burada konuştuğumuzdan farklı bir grafik
+sorabilirler. Ne grafiğinden
+bahsediyorum? Basınç yükseklik grafiği
+verebilirler size. Bakın ben hep zamana
+karşı grafiklerden bahsettim. Basınç,
+zaman grafiği, yükseklik zaman grafiği.
+Bu sefer basınç yükseklik grafiği
+soruyorum. E hocam kaba bakıyorum. Kap
+daralan kap. Daralanda ben ezberledim.
+Böyle oluyor hocam. Zamana karşıysa
+evet. Basınç yükseklik grafiğinde grafik
+böyle olmaz. Böyle olur. Düzgün artar.
+Doğru orantı grafiğidir. Çünkü basınçla
+yükseklik doğru orantılı. Bu sabit, bu
+sabit. H katına çıkarsa basınç da 2
+katına çıkar. H 10 katına çıktıysa
+basınç da 10 katına çıktı. H'ın başına
+ne geliyorsa basıncın da başına o
+geliyor. Biz buna matematikte doğru
+orantı diyoruz. Doğru orantı grafiği de
+bu arkadaşın ta kendisidir. Kabın
+şekliyle hiçbir alakası yoktur.
+Genişleyen kap için de aynı şeyi
+çizerdi. Düzgün kap için de aynı grafiği
+çizerdi. Bu artarak artma, azalarak
+artma ya da düzgün artma mevzuları
+zamana karşı grafiklerde. Ama basınç
+yükseklik grafiğinde bu ikisi doğru
+orantılı olduğu için kabın şeklinden
+bağımsız direkt düzgün artan bir grafik
+çizersiniz. Buraya dikkat. Düşey kesti
+şekildeki gibi olan taban alanları A
+kadar olan KLM kaplarından K kabında bir
+miktar sıvı bulunmaktadır. Bu sıvı ayrı
+ayrı L ve M kaplarına tamamen dökülüyor
+ve kaplardan sıvı taşmıyormuş. Buna göre
+kap tabanlarında oluşan sıvı
+basınçlarını kıyaslayınız demiş. A
+şıkkı. Önce A'yı halledelim. Hocam aynı
+miktarda suyu bir buna dökeceğim. Sonra
+aynı miktarda suyu bir de buna
+dökeceğim. Hepsinin taban alanı da eşit.
+Basınç dediğimiz şey kuvvet bölü alan.
+Sıvılarda basınç sıvının ağırlığı ile
+ilgili. Dolayısıyla ağırlık aynı. E
+taban alanları da aynı. O zaman
+basınçlar da aynıdır hocam. Yanlış bir
+yorum maalesef. Basınç dediğim şey
+sıvılarda HDG. HDG'yi biz düzgün
+şekiller için konuşuyoruz. Yani
+kenarları zeminle 90° yapan silindir,
+dikdörtgen, prizma, küp gibi şekiller
+için konuşuyoruz. Ve sıvı basıncı
+dediğimiz şey de bulmak istediğimiz
+noktanın üzerindeki sıvı sütunu. Kabın
+şeklinden bağımsız. Sen şimdi şuradaki H
+yüksekliğindeki sıvıyı bu genişleyen
+kaba dökersen daha az yükseklikte bir
+sıvı elde edersin. Burada V hacminde
+sıvı varsa burada da V hacminde sıvı
+var. Yükseklik H'tdan daha küçük olur.
+Mesela H/2 olur. Salladım. Hocam bu
+benim aklıma yatmadı. Niye daha az
+yükseklikte oldu diyenler şöyle bir
+mantık yapabilirler. Gayet kolay bir
+düşünme biçimi. Diyelim ki bu düzgün
+kabın yan yüzeyleri hareket edebiliyor.
+Sağa sola. Şuralarda menteşe varmış gibi
+düşünün. Ben bu sağdaki adamı biraz bu
+tarafa doğru kaydırdım. Şöyle yaptım.
+Soldaki adamı da biraz bu tarafa
+kaydırdım. Onu da böyle yaptım. Yani
+yanlardan böyle açtım. Ne olur? Buralar
+boşluk olur. Sıvının yanlarında da
+basınç var. Unutmayın. Sıvılar akışkan.
+Yanlardan da zorluyor. Akmak istiyor. Ne
+olacak? Bu sıvı bu boşluğu dolduracak.
+Buradaki sıvı bu boşluğu dolduracak.
+Sıvı yanlara dökülecek. Sıvının yanlara
+dökülmesi demek sıvı seviyesinin
+azalması demek. E ben de öyle çizdim
+zaten. Aynısının ters mantığını yaparsam
+bu yan yüzeyleri daraltırsam 3.üncü
+şekli elde etmeye çalışıyorum. Bunu
+böyle yaptım. Bunu da böyle yaptım. E
+buradaki sıvılar ne olacak?
+Buharlaşmayacaklar tabii ki.
+Sıkışacaklar. Sıkışan sıvı, sıvılar
+sıkıştırılamıyor kabul edildiği için
+yükselecekler. Yani buradaki sıvının
+yüksekliği artacak. Çünkü bu sıvılar
+buraları dolduracak. O yüzden burada
+normalden daha fazla yükseklikte mesela
+2H yüksekliğinde sıvı olacak. Bunların
+taban alanları aynı. Yanlardan açarsam
+seviye azalır. Daraltırsam seviye artar.
+Şurada bir nokta düşünüyorum. Bu
+noktadaki sıvı basıncının sebebi bunun
+üzerindeki sıvı sütunu. Ne kadar
+yüksekliği var bunun? H kadar. O zaman
+buradaki basınç HDG. Şurada bir nokta
+düşünüyorum. Bunun üzerindeki sıvı
+basıncının sebebi şu sıvı sütunu.
+Buralar 90. Hg'den düşünebilirim. Ne
+kadar? H, h/2. O zaman buradaki basınç
+h/2dg. Buradaki noktanın üzerindeki
+basıncın sebebi bu. Sıvı sütunu. Bu
+silindir ne kadar yükseklikte? 2H. O
+zaman 2HD. Bakın geri kalan kısımda ne
+kadar sıvı var ilgilenmedim. Ya da
+buralar genişleyen kap mı? Buralar
+daralan kap mı? Hiç ilgilenmedim.
+Üstümdeki sıvı sütununa bakıyorum.
+Onların da yükseklikleri dolayısıyla
+derinlikleri farklı. O zaman basınçlar
+farklı. Burada P basınç, burada P/2
+basınç, burada 2P basınç var
+diyebiliriz. B şıkkında diyor ki,
+"Kapları ağırlıksız kabul et. Yatay
+zeminde oluşan basınçları kıyasla."
+Hocam, bulduk ya işte yatay zemindeki
+basınçlar. Hayır, bunlar kapların
+tabanlarındaki bir noktadaki sıvı
+basıncıydı. Bana direkt yatay zeminde
+diyor. Yatay zemine sıvı değmiyor ki.
+Yatay zemine ne değiyor? Kaplar değiyor.
+Yani katı cisimler değiyor. Katı cisim
+dendiğinde direkt kuvvet bölü alandan
+düşünebilirim. Üçünde de alan aynı mı?
+Evet, üçünde de alan aynı. Katılarda
+basıncın sebebi ağırlık. Direkt G olarak
+düşündüm. Üç kabına içinde aynı miktarda
+su yok mu? Evet. Burada da G var. Burada
+da G var. Burada da G var. Nasıl
+göründükleri beni ilgilendirmez. Su aynı
+su. Taban alanları hepsi A. O zaman
+hepsinde zeminde G/ A basınç var.
+Dolayısıyla hepsinin zeminde oluşturduğu
+basınçlar eşittir. Sıvı basıncı farklı
+sonuç veriyor. Katı basıncı farklı sonuç
+veriyor. Şimdi günlük hayattan bir
+örnekle devam edelim. Pompa
+kullanılmayan su depoları neden yükseğe
+konulur? Şimdi günümüzde daha teknolojik
+aletler var. Bir apartmanın bahçesine
+hidrofor dediğimiz bir makine
+koyuyorlar. Suyu oradan 10 kata kadar
+pompalayabiliyor. Çok yükseklere
+çıkartabiliyor. Fakat böyle bir
+teknoloji yokken eskiden su depoları
+mecburen evlerin, apartmanların
+çatılarına konulurdu. E bunun sebebi de
+fizik yasaları tabii ki. Şu örneği
+inceleyelim. Bakın burada bir su depomuz
+var. Burada da üç katlı bir apartmanımız
+var. Bu su deposu ağzına kadar suyla
+dolu olsun. Şurada H yüksekliğimiz
+olsun. Pascal'da biz ne öğrendik? Aynı
+seviyede, aynı sıvıların içerisinde
+basınçlar birbirine eşittir. O zaman ben
+tam şuradan bir sıvı seviyesi çeksem
+burası A noktası olsun. Şurası da B
+noktası olsun. Tabii buraya da şöyle bir
+depo yerleştirelim. 3üncü katın suyu
+olsun bu. Şimdi A noktasında üzerindeki
+sıvıdan dolayı bir sıvı basıncı var.
+Nedir o? H DG kadardır. D öz kütleli bir
+sıvı. Su mesela. E bu 3 numaralı evin
+deposu boş. Burada basınç yok. Bu ne
+demek? Şu su kütlesinin bir tarafında
+yüksek basınç var. Bir tarafında alçak
+basınç var. Yani basınç yok aslında. E o
+zaman bu arkadaş buradan böyle
+zorlanacak. Su akmaya başlayacak. Su
+akmaya başladıkça buradaki seviye
+azalacak. Su seviyesi azalacak. Buradaki
+su seviyesi artmaya başlayacak. Bu ne
+zamana kadar akar? Basınçlar eşitlenene
+kadar akar. Örneğin depomuzdaki su
+seviyesi buraya gelir. 3 numaralı evin
+deposundaki su seviyesi de buraya gelir.
+O zaman şu noktadaki basınç bu yükseklik
+üzerinden hesaplanır. Aynı seviyede bu
+noktadaki basınç da aynı yükseklik
+üzerinden hesaplanır. Basınçlar eşit
+olduğu için akış durur. E zaten bu da
+depodaki suyun neredeyse bitmesi
+demektir. 3üncü kata kadar bu suyu
+ulaştırmış oluruz. E 3'e ulaştırdığımız
+suyu 2'ye ve 1'e zaten ulaştırırız.
+Dolayısıyla yükseğe koyuyoruz ki bir
+basınç farkı olsun arada. Yer çekiminin
+etkisinden yararlanalım ve suyu evlere
+ulaştıralım. Bu arada su deposu demişken
+bir görsel göstermek istiyorum. Bunlar
+su depoları. Evlerin çatılarına
+yerleştirilmişler. Eski zamanlarda
+bunlar tahtadan, ahşaptan yapılırlardı.
+O ahşap bir arada kalsın diye de
+etrafına böyle demir halkalar
+geçirilirdi. Bir şey fark etmenizi
+istiyorum. Neden aşağılara indikçe bu
+demir halkalar git gide daralmış? Daha
+sık dizilmişler. E HTG tabii ki derine
+indikçe üzerimizdeki su miktarı arttıkça
+basınç artar. Basınç arttıkça su
+kenarları, yan duvarları daha çok
+zorlar. E buna karşı koymak için o demir
+halkaları sıklaştırırsın tabii ki. Aynı
+baraj duvarlarının derine indikçe daha
+kalın yapılması gibi. Bundan da sınavda
+şahane soru olur. Anlatmaya çalıştığım
+şey bu şekildi zaten. Burada musluğu
+açtığım anda bu su seviyeleri böyle
+kalamazlar. Yüksekten alçağa doğru akış
+başlar. Neden? Çünkü Pascal yaptığımda
+şuradan bir seviye çeksem bakın buradan
+bir seviye çektim. Burada A noktası var.
+Burada B noktası var. Bunlar aynı
+seviyede mi? Evet. Aynı sıvıyla temas
+halindeler mi? Evet. O zaman A ile B'nin
+basıncı eşittir. Burada P basınç varsa
+burada da P basınç olmak zorundadır. Ama
+şu an bunlar eşit değil. Açık hava
+basıncını ihmal edersek bu arkadaşın
+üzerinde buraya basınç uygulayacak
+ağırlığından kaynaklı bir basınç
+uygulayacak sıvı yok. Yani burası sıfır.
+Şu an aslında basınç olarak ben bu
+musluğu açtığım anda teması
+gerçekleştirdiğim anda bu su kütlesinin
+bir ucunda P var diğer ucunda 0 var.
+Yüksek basınçtan alçak basınca doğru bu
+su akacak. Su bu yönde hareket edecek.
+Dolayısıyla buradaki su seviyesi
+azalacak. Buradaki su seviyesi artacak.
+Ne zamana kadar bu olacak? Aynı seviyede
+basınçlar eşitlenene kadar bu olacak.
+Bakın diyelim ki buraya geldiler.
+Durduklarını iddia ediyorum. Neden
+durduklarını da söyleyelim. Yine bu
+seviyeyi çektim. Şurada noktam var.
+Burada bir noktam var. Burada h kadar
+yükseklik varsa burada da h kadar
+yükseklik vardır. O zaman bu A
+noktasında şu an HDG'lik bir sıvı
+basıncı varken B noktasında da HDG'lik
+bir sıvı basıncı var. Aynı su kütlesinin
+bir ucunda HDG var. Diğer ucunda da HDG
+var. Eşit mi? Eşit. E o zaman böyle
+kalabilir bu arkadaşlar. Nereden seviye
+çekersem çekeyim derinlik aynı olacağı
+için her iki tarafta da sıvı akışı artık
+durmuştur. İster buradan bakalım
+istersek de buradan bakalım. Hepsinde
+aynı h derinliğinde olacağız. Basınçlar
+birbirine eşit olacak ve böylece dengeye
+gelmiş olacağız. Bakın kabın şeklinden
+bağımsız tuhaf tuhaf şekillere bile
+sahip olsak hepsinde seviye aynı olmak
+zorunda. Çünkü su kütlesi duruyor hiçbir
+yere gitmiyor. O zaman böyle bir seviye
+çeksem şuradaki basınca şu yükseklikten
+dolayı HDG dersem aynı seviye aynı sıvı
+olduğu için burada da HDG olmak zorunda.
+O yüzden bu da h kadar derinlikte olması
+mantıklı. Burada da HDG olmalı. E o
+zaman burası da HDG derinlikte olması
+gayet mantıklıdır. Ama hocam geçen
+derste şöyle bir şekil vardı. Biz bunu
+bir sıvıyla doldurmuştuk. Şöyle şurada
+bir K noktası, şurada bir L noktası
+incelemiştik. Siz yine demiştiniz ki
+bunlar aynı seviyedeler, aynı sıvıdalar.
+O zaman basınçları birbirine eşittir.
+Bunun üzerinde tamam HDG var da bunun
+üzerinde OHDG yoktu. İyi de ben burada
+kapların ağzının açık olduğu durumları
+inceliyorum. Burası açık değil ki.
+Burası kapalı burada. O yüzden zaten bir
+tane sıvı seviyem var. Buradaki gibi ü
+tane açıklık yok ki. Bunların neden eşit
+olduğunu da Pascal prensibinden o derste
+anlatmıştım. Kafanızda soru işareti
+varsa orayı tekrar dinleyebilirsiniz.
+Bakın o tuhaf bir sürü kabın
+birleştirildiği bileşik kap burada. Hoca
+yukarıdan suyu döktüğü zaman hepsinin
+ağzı açık olduğu için hepsinin en üst
+seviyesi birbirine eşit olmak
+zorundadır. Kabın şekillerinden
+bağımsızdır ki burada bayağı tuhaf
+şekilli kaplar görüyoruz. Gördüğünüz
+gibi sıvı yükseliyor ve dikkat ederseniz
+gözünüz seçebiliyor mu bilmiyorum hepsi
+aynı seviyede yükseliyorlar. Fark olsa
+bile yeterince beklerseniz hepsi
+eşitlenecektir. Şu an şöyle bir
+seviyeden bahsedebiliriz. Bunların hepsi
+aynı seviyedeler. Hatta burada bile aynı
+seviyedeler. Çünkü hepsinin tabanındaki
+bir noktayı incelediğimde hepsi aynı
+seviyedeler. Aynı basınca sahip olmak
+zorundalar. Çünkü aynı sıvıdalar.
+Hepsinden HDG gelecektir. Kabın
+şeklinden bağımsızdır. Hepsi H
+derinliktedir diyebiliriz ki yakından
+çekildiğinde de bunların hepsinin aynı
+seviyede olduğunu çok net görebiliyoruz.
+Düşey kesitleri verilen X Y Z bileşik
+kapları şekildeki gibidir. Eşit bölmeli
+kaplardaki K ve L muslukları açılıp Y
+kabında bulunan suyun dengeye gelmesi
+bekleniyormuş. Son durumda x, y, z
+kaplarının tabanlarındaki basınçlar kaç
+p olur? demiş. Şimdi öncelikle şurası
+boşluk. Onu bir düzeltelim. Sorudaki
+önce tanımı bir kurcalayalım. Diyor ki,
+"Y kabının tabanındaki basınç P'miş.
+Yani ben şuradaki bir noktayı düşünsem 1
+2 3 4 birim derinlikte 4HDG basınç
+vardır diyebilirim. Bu 4HDG'lik sıvı
+basıncına kitap P demiş. Tamam. Bu
+muslukları açtığım zaman 3 tane kabın da
+ağzı açık olduğuna göre seviyeleri aynı
+olacak mı? Evet, aynı seviyede
+buluşacaklar. Ama hangi aynı seviyede?
+Bu suyu nasıl paylaştıracağız? Bu
+sorular biraz da deneyeme yanılma
+sorularım maalesef. Burada 1 2 3 4 5 6 7
+8 birimlik su var. 8V hacimde su var
+diyebiliriz. Ne kadarı x'te ne kadarı
+y'de kalır. Şöyle bir göz kararı şuraya
+kadar gelirler desem acaba tutturmuş
+olur muyum? 4 birim burada sıvı olacak.
+2 birim burada sıvı olacak. 6. 2 birim
+de burada olacak. 8. Tamam. Tam denk
+getirdik. Dolayısıyla bu seviyeye kadar
+3 kapta da sıvı olacağını
+söyleyebiliriz. Soruyu da buradan sonra
+çok kolay çözebiliriz ama yine ezberleş
+yapmayalım. Buranın fiziğini konuşalım.
+Neden su akmak zorunda kaldı ve neden
+durduyu anlamanız lazım çünkü. Şimdi
+bakın şöyle bir seviye çeksem bu noktada
+4HDG var yukarıdan ama burada hiçbir şey
+yok. Boş. Yüksek basınç var, alçak
+basınç var. Yüksek basınçtan alçak
+basınca doğru bu sıvıyı göndereceğiz. Bu
+sıvı buradan buraya akmaya başlayacak.
+Aynı şey sağ taraf için de geçerli.
+Burada 4hDG var ama burada hiçbir şey
+yok. Boş. O zaman biz bu suyu buradan
+göndereceğiz. Ne zamana kadar bu akış
+devam edecek? Bir taraf yüksek, bir
+taraf alçak olmayıncaya kadar, ikisi de
+eşit oluncaya kadar. İşte dedim ki bu
+seviyede bunlar buluşur. Tamam buraya
+gelsek burası komple suyla doldu. Tabii
+altı da boş. Orası öyle boş kalmayacak.
+Orası da dolacak. Aynı şekilde burası da
+suyla doldu. E 2 birim de burada kaldı.
+Şimdi aynı seviyeyi yine konuşalım.
+Burada şu an ne kaldı? 1 birim
+yüksekliğinde su kaldı. Yani şu an
+burada HDG var. Peki burada ne var? E
+burada da 1 birim var. Burada da HDG
+var. Burada ne var? Burada da 1 birim
+var. Yani burada da HDG var. Her yerde
+basınçlar eşit mi o seviyede? Evet. E o
+zaman örneğin şuradaki su kütlesi niye
+hareket etsin ki? Solunda da htg,
+sağında da htg. İşte bu yüzden hareket
+etmiyor. Bu durumun sağlanması için
+kaplarımızın ağzı açık ise üçünde de
+sıvıların en üst seviyesinin eşit olması
+gerekiyor. Sorumuza geri dönersek
+kapların tabanlarını soruyor. X kabının
+tabanı burası. Üzerinde 2 birimlik su
+var. 2HDG'lik basınç var. 4HDG'ye P
+dersem burası P/2 olmuş olur. Y'ye
+baktığımda tabanda şurası 1 birimlik su
+var. Yani HDG var. E o zaman bu da P/4
+demektir. Z'nin tabanı burası. Üzerinde
+2 birim var. 2HDG'lik bir basınçtan
+bahsedebiliriz. Bu da P/2 olacaktır
+diyebiliriz. Sorumun cevabı bunlar olur.
+İki farklı sıvı varsa bu dediğim şeyler
+geçerli olur mu? Seviyeler yine aynı
+kalır mı? Kalmaması lazım. Neden? Şimdi
+ben bu musluğu açtığım zaman sol taraf
+ve sağ taraf etkileşime girdiği zaman
+yine bir seviye çekelim. Tam şuradan
+çekiyorum. Çünkü ben bu mavi sıvıyla
+temas halinde kalmalıyım. Çünkü Pascal
+diyor ki bana aynı seviyede aynı sıvıda
+basınçlar eşit. Örneğin şu noktayı
+incelesem bu mavi sıvıdayız. Bu noktayı
+incelersem de bu mavi sıvıyla temas
+halindeyiz. Yani mavi sıvının etkisi
+oraya etki edebiliyor hala. O zaman bu
+seviyeyi kullanabiliriz. Ama şöyle bir
+seviyeyi bu noktadaki basınçla bu
+noktadaki basınç eşittir diye
+kullanamam. Çünkü bu sağdaki mavi sıvın
+içindeyken soldaki bu garip renkli sıvın
+içerisinde aynı sıvıyla temas halinde
+olmalıyız. O yüzden bu seviye benim
+işime şu an yaramaz. Buradaki basınçlar
+eşit olmalı. Peki bu haliyle eşit olur
+mu? Diyelim ki şurası h yükseklikli. E
+burası da h yükseklikli. Çünkü buradaki
+seviyeler aynı verilmiş. Bu kırmızı
+noktada ne var? H x d1g var. Bu kırmızı
+noktada ne var? H x dg var. Bunlar
+birbirine eşitse eğer buradaki su
+kütlesi durmaya devam edebilir burada.
+Çünkü iki ucunda aynı basınç var derim.
+H x d1g ile h x d2g eşit mi acaba?
+Değil. Neden değil? Çünkü burada d2 >
+d1. Bu arkadaşın öz kütlesi bu arkadaşın
+öz kütlesinden büyük. Nasıl anladım ben
+onu? E çünkü iki tane sıvıyı aynı kaba
+koyduğunda karışmıyorlarsa öz kütlesi
+büyük olan sıvı altta kalıyordu. Bak
+mavi sıvı altta. Bu garip renkli sıvı
+üstte. Zeytinyağı su gibi. D2 D1'den
+büyük olduğu için HD2G'lik basınç
+büyüktür. H1G'lik basınç demem gerekir.
+Yani şu siyahla işaretlediğim noktada
+daha fazla basınç var. Bu kırmızıda daha
+az basınç var. Sarıya boyadığım bu kütle
+gençler buradan buraya doğru akmak
+zorunda. Buradaki seviye azalmak
+zorunda. Buradaki seviye artmak zorunda.
+Bak şimdi ne oldu? Şöyle bir şekil elde
+ettim. Benzer bir seviye çektiğimde
+artık bu K noktasının basıncıyla L
+noktasının basıncına eşittir
+diyebilirim. Buradaki sıvı sütunu burada
+kalabilir. Çünkü D2 D1 şartını
+unutmayalım. D2 öz kütleli sıvı altta
+kalıyor D1'e göre. Bu noktada ne var? Şu
+kadarlık sıvının ağırlığından kaynaklı
+bir basınç var. Buna H2 dersek H2D2g
+var. Eşittir buradaki basınca yani bu
+sıvının ağırlığından kaynaklı basınç H1
+D1G. D2 D1'den büyük mü? Evet. Peki H2
+küçü H1 büyük mü? Evet. Bakın H2 burada
+küçük H1 daha büyük. E bunun büyüklüğü
+bunun küçüklüğüyle, bunun küçüklüğü
+bunun büyüklüğüyle birbirini telafi
+edebileceği için böyle bir eşitlik gayet
+de yazılabilir. Yani buradaki büyük öz
+kütleli sıvının L noktasındaki
+basıncıyla küçük öz kütleli sıvının K
+noktasındaki basıncının eşit olabilmesi
+için bu soldakinin daha yüksek olması
+lazım. Basıncını başka türlü arttıramaz.
+Çünkü adamın öz kütlesi az. Ancak öyle
+dengeleyebilir ve böylece bu kırmızıyla
+taradığım sütun orada hareketsiz
+kalabilir. Aslında bu kırmızıyla
+taradığım adamın tek yaptığı şey ne?
+Basıncı iletmek. Pascal prensibi L
+noktasında bu sarıyla boyadığım yerin
+basıncını bu arkadaş buraya aynen
+taşıyor. Aslında burayı yukarıya doğru
+zorluyoruz. İşte bu sütunun ağırlığı da
+aşağıya doğru bunu dengeliyor
+diyebiliriz. Sıvılar farklı cins
+seviyeler aynı olmak zorunda değildir.
+Hatta böyle bir şekilde aynı olması
+imkansızdır. Çünkü öz kütleler farklı.
+Geldik bu dersimizin son sorusuna. Güzel
+şeyler konuşacağımız bir başka soruya.
+Yatay düzlemde durmakta olan düşey
+kesiti verilen bileşik kap içindeki dd
+5D öz kütleli sıvılarla şekildeki gibi
+dengededir. Buna göre X noktasındaki
+basıncı bulunuz. Yani hiçbir sıvı hiçbir
+yere gitmiyor. Musluk yok. Yani musluk
+açtığımızda basınç farkından dolayı bir
+akış olabilir ama zaten şu an bunlar
+dengede. Bir seviye çeksem aynı seviyede
+aynı sıvıda basınçlara direkt eşittir
+diyebilirim. Bir hareket
+gözlemlemeyeceğim. Mümkün olan en alttan
+ama sıvıların da birbirine temas ettiği
+noktalardan çekmeliyiz. Mesela şurası
+iyi bir seviye. Bu kırmızı noktayla bu
+kırmızı noktanın basıncı eşit. Çünkü
+seviyeler aynı. İkisi de sarı sıvıyla
+temas halinde. Şimdi bu kırmızı noktada
+ne var? Soldakini konuşuyorum. İki tane
+sıvı var. Mavi var, sarı var. Mavinin
+burasındaki basınç HDG'dir. Bu buraya
+aynen aktarıldı. Şu an burada HDG var.
+Artı e bir de 1 birimlik sarı sıvının
+kendi basıncı var. O da H yüksekliğine
+sahip. Ama o 5 H xdg yazarsam şu an bu
+kırmızı noktada toplamda 6HDG'lik bir
+basınç var. O zaman burada da bu
+6HDG'lik basınç var. Çünkü Pascal
+prensibi bu basınç aynen buraya
+aktarılıyor. E niye yukarı çıkmıyor
+burası? E çünkü bu pembe sıvı
+ağırlığından kaynaklanan basınçla bunu
+dengeliyor. 7. Hocam burada hesap hatası
+çıkacak. Bu pembe sıvının buradaki
+basıncı 2H derinlik var. 2D öz kütle
+var. 4hDG'dir. Aşağıdan 6H yukarı
+geliyor. Biz 4'ile karşı koymaya
+çalışıyoruz. Akması lazım. Akamıyor.
+Neden? Çünkü burası kapalı. Açık olsaydı
+evet bu sistem yukarı çıkardı. Yani bu
+pembe sıvı şu an kabın şu üst tavanını
+yukarı zorluyor. Burada da etki tepki
+var diyebilirsiniz. Bu sistem yukarıya
+doğru gitmediğine göre kabın tabanı
+pembe sıvıya yardım ediyor diyebilir
+miyiz? Deriz. Ne kadarla yardım
+ediyordur? Ne kadar ihtiyacımız var? 6
+zorluyor. Bizde 4 var. O zaman 2HD
+kadarlık bir yardımı var bu arkadaşın.
+Etki tepkiden düşünürsem pembe sıvı
+yukarıyı 2HDG ile zorladığı için
+yukarısı da yani tavan da pembe sıvıya
+2HDG'lik bu basıncı geri veriyor.
+Dolayısıyla sistem dengede kalıyor. Bize
+sorulan şey X noktasındaki basınçtı. X
+noktasındaki basınç 2HDG'dir gençler.
+Hocam orada basınç yok ki. Onun üzerinde
+sıvı yok. Fark etmez. Orada bir basınç
+var. Nasıl ispatlarız bunu? E ben elime
+bir çivi alsam şurayı delsem buradan
+sıvı fışkırmaz mı yukarıya? Fışkırır.
+Demek ki orada bir basınç var. Değeri de
+bu kadar. Bu önemli bir soruydu. Mevzuyu
+anlamanızı gerektiren bir soruydu. Bunu
+da böylece halletmiş olduk. Böylece
+bileşik hapları da halletmiş oluyoruz.
+Su cenderelerine kadar gelmiş olduk.
+Günlük hayat örneği çok fazla olduğu
+için bir sonraki videomuz özellikle TYT
+açısından büyük önem arz ediyor.
+Takıldıklarınızı alta yazın. Kendinize
+iyi bakın. Görüşürüz.
+[Müzik]
