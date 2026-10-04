@@ -23,13 +23,18 @@
       "sourceTopic": [
         "Üç Üst Âlem (Domain) Sisteminde Yer Alan Canlılar ve Genel • Özellikleri [Bakteriler, Arkeler, Ökaryotlar (Protistler, Bitkiler, Mantarlar, Hayvanlar)]"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7b54e005ca676c94",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

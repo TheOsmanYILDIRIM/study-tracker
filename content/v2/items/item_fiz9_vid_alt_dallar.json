@@ -8,17 +8,23 @@
   "orderKey": 1000,
   "title": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
   "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L25",
       "sourceSection": "Fizik Biliminin Alt Dalları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "f643ca89c63459fd",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.tr.vtt",
+      "transcriptFingerprint": "950a6c9a5591fd65"
     },
     "provider": "Özcan Aykın FİZİK"
   }

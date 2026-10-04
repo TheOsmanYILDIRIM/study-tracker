@@ -29,7 +29,13 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "213d0fa320eab97e",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.tr.vtt",
+      "transcriptFingerprint": "e1ccaec372a5b2e7"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true

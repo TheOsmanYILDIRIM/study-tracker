@@ -18,7 +18,12 @@
       "reviewStatus": "verified",
       "fingerprint": "90fcf5e5109d9a94",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.tr.vtt",
+      "transcriptFingerprint": "a7e85c308adb2be2"
     },
     "provider": "Dr. Biyoloji"
   }

@@ -28,7 +28,12 @@
       "fingerprint": "a1236e99cf9b3210",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.tr.vtt",
+      "transcriptFingerprint": "495f9cf4d24ea6bd"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",

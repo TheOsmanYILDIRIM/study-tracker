@@ -19,7 +19,12 @@
       "reviewStatus": "verified",
       "fingerprint": "53a3486c1bec7ce8",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt",
+      "transcriptFingerprint": "a9429fca5308feaa"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",

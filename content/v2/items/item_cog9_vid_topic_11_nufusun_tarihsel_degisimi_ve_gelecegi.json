@@ -28,7 +28,12 @@
       "fingerprint": "c1d387e435963950",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.tr.vtt",
+      "transcriptFingerprint": "685ca31f6189386c"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",

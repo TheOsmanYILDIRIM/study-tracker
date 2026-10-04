@@ -7,8 +7,8 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "provenance": {
@@ -16,8 +16,18 @@
       "sourceSection": "Orta Çağ'da Devletler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "65523afb0a6483eb"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "65523afb0a6483eb",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.tr.vtt",
+      "transcriptFingerprint": "4cda05dbcaa616a7"
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler"
   }
 }

@@ -28,7 +28,12 @@
       "fingerprint": "cd63658988c81780",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.tr.vtt",
+      "transcriptFingerprint": "685ca31f6189386c"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",

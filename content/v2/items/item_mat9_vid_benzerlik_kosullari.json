@@ -8,15 +8,22 @@
   "orderKey": 2000,
   "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
   "contentUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L165",
       "sourceSection": "Eşlik ve Benzerlik Koşulları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "37b5d36c1eebc4ba"
+      "reviewStatus": "verified",
+      "fingerprint": "37b5d36c1eebc4ba",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.tr.vtt",
+      "transcriptFingerprint": "1784cbe68f7fba31"
     },
     "provider": "Rehber Matematik"
   }

@@ -15,10 +15,15 @@
       "sourceSection": "Canlılar Dünyası",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "6442c0e6c046456f",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "missing",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "YouTube videosunda erişilebilir Türkçe altyazı/otomatik altyazı bulunamadı."
     },
     "provider": "Tonguç Akademi"
   }

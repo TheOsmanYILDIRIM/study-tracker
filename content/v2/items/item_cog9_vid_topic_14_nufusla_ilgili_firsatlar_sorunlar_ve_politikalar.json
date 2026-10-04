@@ -28,7 +28,12 @@
       "fingerprint": "8718a402403df86d",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.tr.vtt",
+      "transcriptFingerprint": "b6f5548490fc2f0f"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",

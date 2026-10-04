@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Isıl Denge ve Denge Sıcaklığı",
   "contentUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Isıl Denge",
@@ -27,7 +27,13 @@
       "fingerprint": "19d67d9d3a2db21c",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

@@ -84,7 +84,7 @@ function runOne(job){
   const prov=item.payload.provenance;
 
   const existingPath=prov.transcriptPath ? path.join(ROOT,prov.transcriptPath) : null;
-  if(ONLY_MISSING && existingPath && fs.existsSync(existingPath) && prov.transcriptFingerprint){
+  if(ONLY_MISSING && existingPath && fs.existsSync(existingPath) && prov.transcriptFingerprint && prov.sourceVideoUrl === url){
     summary.reused++;
     summary.details.push({itemId:item.id,status:"reused",path:prov.transcriptPath});
     return;

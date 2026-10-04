@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "6930cb3832e890be",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.tr.vtt",
+      "transcriptFingerprint": "6ce56406f481cfb3"
     },
     "provider": "Kimya Adası"
   }

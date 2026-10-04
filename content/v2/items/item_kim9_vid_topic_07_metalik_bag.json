@@ -26,7 +26,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "93a0fad38719f363",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.tr.vtt",
+      "transcriptFingerprint": "bef8bd6ebb81bf54"
     }
   }
 }

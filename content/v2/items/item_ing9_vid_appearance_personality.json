@@ -16,10 +16,15 @@
       "sourceSection": "Theme 3: Personal Life",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "5d544133f66ebdeb",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     },
     "provider": "Özer Kiraz"
   }

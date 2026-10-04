@@ -30,7 +30,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "1196ee5c0603a2b1",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.tr.vtt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

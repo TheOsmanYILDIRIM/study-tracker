@@ -27,7 +27,11 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.tr.vtt",
-      "transcriptFingerprint": "32ccc8dd260d8ebe"
-    }
+      "transcriptFingerprint": "32ccc8dd260d8ebe",
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "reviewedOverride": true
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "2) Tarihin Sınıflandırılması ve Kaynaklar"
   }
 }

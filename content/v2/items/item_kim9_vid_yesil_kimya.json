@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "ee46e61d9bd98733",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.tr.vtt",
+      "transcriptFingerprint": "7c070ce680ca133c"
     },
     "provider": "Meschemy Kimya"
   }

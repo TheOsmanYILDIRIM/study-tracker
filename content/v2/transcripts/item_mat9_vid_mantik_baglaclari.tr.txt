@@ -1,0 +1,1156 @@
+Evet, herkese selamlar, sevgili 9.
+sınıflar. Ne haber, nasılsınız? Umarım
+keyifler yerinde, her şey yolunda
+gidiyordur. Evet, evlat olsa sevilmez
+konu başlıklı
+derslerimize devam ediyoruz açıkçası.
+Algoritmanın 3. dersine geldik. İlk iki
+derste ne yaptık? Önce ilk dersimizde
+algoritmayı tanıdık biliyorsun. İkinci
+derste biraz daha şova kalktık artık
+böyle daha detaylara gittik. Öğeler
+mevzularından falan bahsetmiştim
+biliyorsun. Orada çok güzel bir taktik
+verdik sana yurt dışı
+tatille ilgili. Şimdi bu dersimizde de
+yine acayip işlerden bahsedeceğiz.
+Mantık ve bağlaçlar. Öncelikle bu dersin
+temeli %95'ini oluşturacak kısım. Mantık
+ve bağlaçlar, niceleyiciler. Bunları
+nasıl kullanacağız, bundan bahsedeceğim
+algoritma içerisinde. Ve tabii ki de
+ondan sonra da bir Kadane problemi
+teoremi var ki
+oralarda sular biraz bulanıklaşacak.
+Dolayısıyla çok dikkatli bir şekilde
+dersi dinlemeni istiyorum. Tabii ki de
+neredeyiz? 27. dersteyiz. Yani 9. sınıf
+Mortosuncuk'tan video ders kitabımızdan
+ilerliyoruz. 27. dersimizde de yine
+süpersonik bir şekilde sayfalarımızı
+dolduracağız. Birebir özel ders
+formatında. Bence hala almadıysan kitabı
+edinip bu dersten itibaren devam et.
+Çünkü içerisinde pekiştirme soruları,
+yazılı uygula soruları vesaire hani size
+de ödev olarak bıraktığım, çözüm
+videoları olan sorular da var.
+Hem kendinizi pekiştirmiş hem de yazılı
+örnek soru sorularıyla aslında bir
+sonraki yazılımıza da hazırlanmış
+oluruz. Ama en en önemlisi kitabın tabii
+ki de ilk 200 sayfasını boş
+bırakmayacaksın. 10. sınıfa geçerken bir
+9. sınıfı da
+tekrar etmek gerekecek. Çünkü açıkçası
+özellikle mesela fonksiyonlar var. E 10.
+sınıfta onun üstüne koya koya
+ilerleyeceğiz. Dolayısıyla tekrar
+etmekte çok çok büyük fayda olduğunu
+söyleyebilirim. Hani ister Haziran'da
+yap, ister Ağustos'ta yap. Ama 10.
+sınıfa geçmeden bir 9 tekrarı bence şart
+diyebilirim. Onun dışında hocam iyi hoş
+da bizim matematik temeli zayıf diyorsan
+da Haziran ayında şu arkadaşla kampımıza
+başlıyoruz. Haberiniz olsun. Mat Kor 14
+günde sıfırdan matematik video ders
+kitabıyla tamamen sıfırdan matematiğin
+şöyle bir içinden geçeceğiz. Temelini
+vereceğiz. Zemini gerçekten sağlam bir
+yere oturtacağız. Mat Kor çekirdekte
+yani kor ne demek? Çekirdek. Matematiğin
+çekirdeğine indik bu kitapta.
+Dolayısıyla da 14 günde süpersonik bir
+kamp planlıyoruz. Ne zaman? Yazın
+yapacağız Haziran'da. Takvim netleşince
+onları da duyururuz, paylaşırız.
+Şimdiden kitabı edinip istersen sen de
+başlayabilirsin. Böyle çıtır çerez.
+Amacımız elimiz alışsın, matematikle
+aramızdaki o buzları eritelim istiyoruz.
+Anlaştık mı? Haydi o zaman ne yapalım?
+Ders ekranımıza şöyle ben seni bir
+alayım. Alamadık mı? Dur, gelmedin.
+Evet, klasikleşmiş tablet arızalarımızı
+da giderdikten sonra 27. dersimizde
+başlıyoruz. Gençler, yaklaşalım mı şöyle
+ve başlıyorum.
+Şimdi öncelikle mantık bağlaçları
+dediğimiz mevzu aslında şu, önermeler
+arasındaki ilişkileri belirlerken
+niceleyiciler önermelerin kapsamını
+tanımlıyorlar. Şimdi bu böyle havada
+kalacak cümleler ama birazdan ben sana
+mevzuyu çok netleştireceğim. Nesneleri
+veya kişileri sınıflandıran
+problemlerde, çizge veya şifreleme
+işlemlerinde bu bağlaç ve niceleyicileri
+sıklıkla kullanacağız. Şimdi
+Türkçedeki bağlaçlardan bahsetmiyoruz.
+Birazcık tabii oraya da göz kırpan
+durumlar var ama bizim mevzumuz
+matematiksel olarak biz bunları nasıl
+kullanacağız? Şimdi bağlaçlarımız şu
+kardeşlerimiz. Eskiden bunlar zaten 9.
+sınıfın biliyorsun ilk ya da bilmiyorsun
+nereden bileceksin ilk konusuydu
+müfredat değişmeden önce mantık başlığı
+altında. Hepsini detaylı tek tek uzun
+uzun anlatıyorduk ama yeni müfredatta
+bir tık daha yüzeysel geçiliyor. Hepsi
+verilmiyor ve kitabınızda yani yeni
+Maarif modelde olduğu kadar ile şimdi
+anlatacağım. Birincisi V bağlacı. Haydi
+başlıyoruz. Ne demekmiş V bağlacı?
+Hocam, ne işe yarar bu? Şimdi iki veya
+daha fazla önermenin, bunu şöyle de
+düşünebilirsin. Yani iki veya daha fazla
+cümle. Yani önerme dediğimiz şey, ıı,
+matematiksel bir, ıı, mevzu karşına
+gelecek. İki veya daha fazla, biz iki
+ile kalacağız, merak etme. Burada
+hepsinin doğru olup olmadığını kontrol
+eder diyor. Zaten V bağlacı nedir? Iı,
+annen seni bakkala gönderdi. Bak, ekmek
+ve süt al dedi. Ne yaparsın? İkisini
+alırsan o iş olur, değil mi? O iş
+doğruya gider. Ama ikisinden birini
+almazsan ne yaparsın? Ya da ikisini
+birden almazsan naneyi yersin.
+Dolayısıyla V bağlacı aslında bir, ıı,
+iki tarafın da olması koşuludur. Zaten
+onu söylüyoruz, bak. Hepsinin doğru olup
+olmadığını kontrol eder. V bağlacı
+budur. Sembolü de şöyle ters V
+şeklindedir. Oradan anla mevzunun ne
+kadar önemli olduğunu. V bağlacını ters
+yapmışlar. Yani bu kadar dikkat çekmeye
+çalışıyorlar. Herkes doğru olacak diyor.
+Anlaştık mı?
+İkinci bağlacım veya bağlacı. Şimdi
+burada bak Y harfi var ya, bu ne demek
+biliyor musun? Yumuşak kalpli demek.
+Yani yumuşak kalpli bir anne gibi
+anlatırdık biz bunu eskiden. Iı,
+ben öyle anlatırdım tabii. Bizim gibi
+kırık baş hoca olmadığı için. Şimdi veya
+bağlacını gerçekten öyle düşüneceksin.
+Yumuşak kalpli. Neden?
+Çünkü mevzu şu. Burada yine iki veya
+daha fazla önerme karşına geliyor. Veya
+bağlacı varsa en az birinin doğru olması
+yetiyor.
+Şimdi annen sana dedi ki, git bakkala.
+Ekmek veya süt al dedi. E sen şimdi
+burada ekmek alırsan anneden bir gülücük
+onay alırsın, değil mi?
+Iı, süt alırsan sadece, e orada da onay
+alırsın. Çünkü anne öyle demiş. Ekmek
+veya süt al demiş. Ama ikisini birden de
+alırsan yine bu, herkes mutlu. Yine bir
+sıkıntı olmaz. Ama hiçbirini almazsan
+anne sana basar tekmeyi, tekrar bakkala
+gönderir, değil mi? Yani, olay
+yanlış sonuçlanır. Demek ki veya bağlacı
+neymiş? En azından biri doğru olursa
+çalışıyormuş. En azından biri bak. Ve
+bağlacı neydi? Bunu da biz böyle
+kaşlarını çatmış, sert baba gibi
+anlatırız. Yani, kaşlar çatık, her şeyi
+doğru istiyor. Baba 99 aldım. Neden 100
+almadın lan diye böyle atarlanan babalar
+var ya, onun gibi düşünün. Herkes, her
+şey, hepsi, tüm önermeler doğru olacak
+ve bağlacında. Kaşlar çatık çünkü.
+Veya bağlacı yumuşak kalpli anne. En
+azından birini yapsan tamam diyor.
+İkisini de yaparsan o şahane, sıkıntı
+yok. O da tamam. Ama hiçbir şey
+yapmıyorsan, anne de artık yani biz
+her şeyin bir sınırı var.
+Ya da bağlacına geldim. Şimdi dikkat. Ya
+da bağlacında
+iki önermeden yalnızca birinin doğru
+olup olmadığını kontrol ediyor. Şimdi ya
+da bağlacı şöyle çalışıyor. Yani, bu ya
+da bu şeklinde. Yani, ikisinden yalnızca
+biri olacak.
+İki tane mesela, bunu da birazcık eee
+liseli ergen tripleriyle anlatmıştık
+önceki yıllarda. Mevzu şu. Hani,
+bunu ya da bunu
+eee yani sen iki tane şey sunuyorsun,
+hediye götürüyorsun mesela. Arkadaş
+diyor ki, "Onu ya da bunu istiyorum."
+Sen diyorsun ki, "İkisini de al."
+"Hayır." diyor ya. "İkisini de
+almayacağım." diyor. "O zaman hiçbirini
+vermem." diyorsun mesela. "Onu da
+olmaz." diyor. Ona da üzülüyor. O zaman
+ya bir tanesi şunu vereceksin ya da bunu
+vereceksin yani, ikisinden birini demek
+bu.
+Ya da bağlacı
+yalnızca birini istiyor. Bak, veya
+bağlacı en az birini doğru istiyordu. Ya
+da bağlacı yalnızca birini doğru
+istiyor. Tamam? Yani, veya bağlacında
+ikisi de doğru olabilir. İki önerme de
+doğruysa sonuç seni doğruya götürür. Ama
+ya da bağlacında sadece yalnızca biri
+doğru olacak. E hocam ikisini de doğru
+verelim ne olur? Olmaz. Bu seni yanlışa
+götürüyor işte. Yani sonuç olarak hatalı
+bir sonuca ulaşıyorsun. Anlatabildim mi?
+Bu arada veya bağlacının sembolü normal
+V harfi, ya da bağlacına da yine
+matematikçi amcalar çok kasmamışlar
+biliyorsun bunlar tembel amcalar.
+V harfinin altına şöyle çizik atmışlar.
+Sadece bu kadar.
+Anlatabildim mi? Bak V bağlacı herkes
+doğru istiyor. Sağını solunu herkes
+doğru olacak yoksa
+hatalı çıkarsın.
+Veya bağlacı yumuşak kalp bende. En az
+birini doğru istiyor.
+İkisi de hatalıysa, ikisi de yanlış
+söylüyorsan
+o hatalı sonuç verir. Ama en azından
+birini doğru yaptıysan tamam diyor.
+İkisini de doğru yapabilirsin.
+Sadece bunu yapabilirsin doğru ya da
+sadece bunu doğru yaparsın sıkıntı yok.
+Ya da bağlacı yalnızca birini istiyor.
+İki önerme var. Ya sadece bu doğru
+olacak ya da sadece bu doğru olacak.
+İkisi birden doğru olamaz. İkisi birden
+yanlış olamaz.
+Kapiş? O zaman ise bağlacı diyelim.
+Şimdi bir koşulun sağlanması durumunda
+belirli bir komutun yerine getirilmesini
+sağlar. Aslında bu
+if clause'lu cümle dediğimiz mevzular.
+Hani ise şudur gibi bir durum var. Çok
+detaya girmiyorum. İsenin aslında daha
+detayları var mantık konu başlığında.
+Dilersen geçmiş müfredattaki mantık
+videolarını izleyebilirsin ama gerek
+yok. Kitabınız ne kadar aldıysa,
+müfredat ne kadar girdiyse ben de o
+kadar
+kurcalayacağım. Haberin olsun. Şimdi iki
+tane de niceleyicimiz var. Dört tane
+bağlaç attık yeter.
+Yeter. Her şeyin bir sınırı var. Bir de
+niceleyicilerimiz var iki tane. Bunlar
+da yine matematik matematikçede
+matematikçede çok kullanılan
+arkadaşlarımız sembollerimiz. Bunlar
+sembol aslında. Ben sana şu an
+matematikçeyi anlatıyorum. Yani amca
+oraya V yazmayacak. Şu sembolü
+kullanacak. Mesela ise yazmayacağız
+artık, şunu kullanacağız. Tamam? Mevzu
+bu yani.
+Şimdi
+yani sen şu sembolü gördüğünde ne
+anlaman gerektiğini anlattım şu an.
+Şimdi iki tane de niceleyicimiz var, o
+da şu. Birincisi her niceleyicisi bir
+önermenin herhangi bir öğe için doğru
+olduğunu ifade edecek.
+Her yani herhangi bir şey, ne verirsen
+ver, herhangi bir şey ver, doğru gibi
+kabul edeceğiz. Yani şöyle her x mesela
+elemanıdır reel sayı dediğimde buradaki
+x'ler x'i ne seçersen seç reel sayı
+olması gerekiyormuş. Anlatabildim mi?
+Ama bazı niceleyicisi en az bir öğe için
+doğru. Mesela sen bir denklem yazdın,
+bana dedin ki hani bu denklemde bence en
+az bir tane x vardır doğal sayı olan
+mesela. Bu ne demek? En az bir tane
+doğal sayı senin işine yarıyor demek
+mesela. Ya da bunu cümle kurarken bu
+sembolü kullanacağız. Ya da bundan sonra
+sen bu sembolü görünce nasıl
+okuyacakmışsın?
+En az bir tane x
+reel sayıda yani reel sayı olarak, reel
+sayı kümesine ait, reel sayılara dahil
+en az bir tane x demekmiş. Eğer şu
+sembol ters A harfine döndü mü ne
+oluyormuş? Her oluyormuş. Yine
+matematikçi amcalar kasmamış. Ulan ters
+A nereden aklınıza geliyor ya? Ters A
+yapmışlar hani A'yı çevirelim. Bazıda da
+E'yi çevirmişler, ters yazmışlar. Tamam?
+Hadi bir tane de soru çözelim de şöyle
+bir kafamıza iyice yatsın. Aşağıda ne
+var? Tabloda bir sınıftaki öğrenciler
+bir deneme sınavında sayısal, sözel
+bölümlerde çözdükleri doğru cevap
+sayılarını vermişler. Mesela Alper ne
+yapmış?
+Alper eee sayısalda 36 yapıştırmış,
+sözelde de 26 yapıştırmış gibi gibi
+öğrenciler var. Burada doğru sayıları
+verilmiş. Soru şu. Aşağıdaki koşulu
+içeren sözel ifadeleri mantık bağlaçları
+ve niceleyicilerle ifade edeceğiz.
+Sonra da koşulu sağlayan öğrencileri
+bulacağız.
+Şimdi önce teknik çalışalım. Yani biz
+bunları mantık bağlaçları ve
+niceleyicilerle önce bir ifade edelim.
+Yani dersimiz şu an ne? Türkçeden
+matematikçeye çevireceğiz. Tamam? Şimdi
+A'da ne diyor? Sayısal doğru cevap
+sayısı 28'den fazla, sözel doğru cevap
+sayısı 34'ten az olan öğrenciler.
+Aradaki bağlacım ne? Ve bağlacı. Yani şu
+an seçeceğim öğrenciler
+sayısalda, sayısalda 28'den fazla
+ve
+ve bak sayısalda 28'den fazla yapacaksın
+1. şart, 2. şartı da sağlayacaksın.
+2.'si ne? Sözelde de 34'ten az
+yapacaksın. Şimdi ben bunu nasıl
+söyleyeceğim sana? Yani matematikçeye
+nasıl çevireceğim? Şöyle çeviriyorum.
+Diyorum ki
+sayı yazalım. Uzun uzun bana sayısal
+yazdırmayın bu yaşta. 28'den fazla. Ne
+demek 28'den fazla? E büyüktür 28 demek
+değil mi? 28'den fazla araya ne
+koyuyorum? Ve bağlacı koyuyorum ve sözel
+için de ne diyorum? 34'ten az yani
+küçüktür 34 diyeceğim. Şimdi bu iki
+koşulu da sağlayan öğrencileri,
+students, bunları bulacağız. Kimmiş bu
+yavrucaklar?
+Şimdi sayısalı 28'den fazla mesela Alper
+buraya girdi. Ama sözelin de 34'ten az
+olmasını istiyorum. Oldu mu? Oldu. O
+zaman ben Alper'i aldım gençler.
+Hayırlısı uğurlusu olsun.
+Diğer öğrencimize bakalım. Buse
+sayısalda 30. Aa tamam Buse sen
+bana sayısalda uyuyorsun. Peki sözelin
+kaç senin? 32. 34'ten az. Aha ben
+Buse'yi de aldım gençler. Buse de oldu
+bana. Haydi devam edelim. Şimdi
+Ceren'deyim. Sayısal 28'den fazla tik
+attım. Sözel 34'ten fazla. Hayır 34'ten
+az istiyordum Ceren, ne yaptın ya?
+Geçiyorum bunu. Şimdi de çok da polemiğe
+girmeyelim Ceren'le. Duygu'ya geldim.
+28'den fazla sayısallı tutturdu.
+Sözelini bakıyorum, 30. 34'ten az
+istiyordum, tamam. Ben
+Ceren'i alamadım, Duygu'yu aldım. Geldim
+Ersin Koç'a. Ersin Koç tam sınırda.
+28'den büyük istiyordum. Ersin seni
+üzgünüm ama alamıyorum. 28'den büyük
+olacaktın. Geçtim. Fehmi'ye geldim.
+28'den büyük değil bir kere, geçtim.
+Bak, ve bağlacını direkt geçebiliyorum.
+Anlatabildim mi? Çünkü ikisini de kesin
+sağlaması gerekiyor. Sağlanmayan,
+herhangi birini sağlamıyorsan, dızıt,
+almıyorum seni.
+Şimdi Fehmi'yi de alamadık. Gül
+sayısaldan kurtardı.
+28'in üstü. Sözelde ne yapmış? 26,
+34'ten. Gül'ü aldım. Tamam, Gül, sen
+bizdensin. Gel, ekibe katıl. Ve de
+Halit'e geldim. Halit sayısaldan
+istediğimiz gibi, sözelde de istediğimiz
+gibi. O zaman Halit'i de ben alırım,
+yüksek müsaadelerinizle.
+Şimdi geçiyorum B'ye. Sayısaldan en az
+30 diyor. Ne yazacağım gençler? En az 30
+ne demek? 30, 31, 32, 33, öyle gidecek,
+değil mi? En az 30. O zaman sayısal için
+büyük eşittir 30 diyeceğim.
+Arada veya bağlacım var. Veya bağlacımı
+koydum oraya. Ve ne istiyorsun? Erkek
+öğrenci istiyorsun. Çok güzel. Şimdi
+bak.
+Arada veya bağlacı var. Veya bağlacı
+neydi? İkisinden bir tanesi de olsa
+olur. İkisi aynı anda sağlamak zorunda
+değilsiniz, tamam mı?
+Şimdi o yüzden ben şunu yapacağım.
+Öncelikle sayısal
+30'u geçen, 30 ve 30 üstündeki
+arkadaşları alacağım. Kim bunlar? Alper,
+şurada netlerin yanında yapalım. Alper
+geçmiş.
+Tamam, Buse bana uyuyor. Ceren, olur.
+Duygu, seni de alalım. Eee, Gül, 30'u
+geçiyor. Halit de 30'u geçiyor. E tamam,
+ben sizi alırım gençler. O zaman ne
+yapıyorum? Alper, Buse, Ceren, Duygu.
+Bunlar sayısallığı 30'dan geçtiği için
+alıyorum. Eee, kimi alacağım başka? Gül
+ve Halit'i de alacağım. Ama eee, eğer
+erkekse de alabilirim. Mesela Ersin,
+erkek kontenjanından beni yakaladı.
+Ersin'i de alacağım. Fehmi de yine erkek
+kontenjanından beni yakaladı.
+Dolayısıyla Fehmi'yi de ne yapıyoruz?
+Alıyoruz. Tamam, hepsini almış olduk.
+Şimdi geldim sözel bölümüme. Şimdi sözel
+bölümde
+sözel bölümde olalım. C şıkkına geldim.
+Sözel bölümden doğru cevap sayısı en çok
+32.
+Şimdi ya, önce bir ne yapalım bunu?
+Mantık bağlaçları ve niceleyicilerle
+matematikçe yazalım.
+Sözel bölüm, şöyle sözel diyorum, tamam
+mı? Doğru cevap sayısı en çok 32. Yani
+ben ne istiyorum? 32 olabilir, ama küçük
+olsun. Ya da bağlacı var. Ya da
+bağlacımı koydum. Bu sefer ne istiyorum?
+Kız istiyorum. Şimdi gençler, çok çok
+dikkat ediyoruz. Çünkü ya da bağlacı ne
+istiyordu? İkisinden sadece biri doğru
+doğru olacak.
+Şimdi o yüzden ben kızlardan başlayayım.
+Tamam mı? Kız öğrencileri şöyle bir
+işaretliyorum. Öncelik tanıdığım Buse,
+Ceren, Duygu, Ersin, Fehmi, Gül. Eee,
+tamam, bunlar kız öğrencilerimiz.
+Kız kontenjanından ben bunları
+alabilirim. Ama bak, şuraya da
+sataştılarsa, sözelde 32'den az 32 ve
+32'den azsa almam. İkisini de sağlamış
+olurlar. Hayır, ben onları istemiyorum.
+Şimdi Buse'ye bakalım. Buse sözelde ne
+yaptın? 32 yaptın. Olmadı be.
+Yapma be Buse. İkisini de sağlattın.
+İptal. Buse, çiziktirdim. Şimdi Ceren'e
+geliyorum. Ceren ne yapmış? 36 yapmış.
+Ben ne istiyordum? 32'den az istiyordum.
+Tamam, 32'den az kontenjanına giremedi.
+Bu Ceren daha çok yapmış çünkü. Sadece
+kız kontenjanında burayı sadece
+doğrulattı. Bak, burası iptal. Sen
+göremiyorsun tabii oralara. Şöyle bak.
+Sözel kısım şurası iptal, tamam mı?
+Sözele çarpı. Kıza tik. Tamam, ben kız
+kontenjanından alırım. Kimi alıyorum?
+Ceren'i alabiliyorum. O zaman ben şuraya
+Ceren'i aldım.
+Şimdi Duygu'ya bakalım. Duygu 30 yapmış.
+Bir kere Duygu zaten kız kontenjanından
+giriyordu. 30 yaptığı için bu
+kontenjandan da girdi. İkisine de tik
+attı Duygu. Bize gelmez. Ya da
+bağlacında sadece birini istiyordum.
+Duygu da iptal.
+Hemen Buse'yi çizdik. Duygu'yu da
+çizelim. Bunları almayacağım. Gül'e
+bakıyorum. Şimdi Gül zaten kız
+kontenjanından girdi. Yani kız
+önermeme tik attım.
+Ama Gül ne yapmış? 26 yapmış. Buraya da
+tik atıyor Gül. Olmaz Gül. İkisine de
+tik at de tik attığın için seni de
+almıyorum. O da iptal.
+Şimdi gelelim diğerlerine. Şimdi bak.
+Diğerleri erkek. Zaten kız kontenjanına
+buraya zaten komple çarpı atıyoruz
+erkekler için. Sadece sözele bakacağım.
+Ama onu da doğrulatmaları lazım. Çünkü
+yalnızca birinin doğru olması gerekiyor.
+Şimdi Alper girer mi? Alper 26'yla
+girer. Çünkü diğerine tik attı Alper.
+Sözel 32'den az. Alper'i aldım.
+Eee, Ersin'e bakalım. Ersin 30
+yapıştırmış. Olur, Ersin'i de alırım.
+Kızdan giremedi. Orası hatalı. Ama
+sözelden girdi. O birinci önermemde
+doğruyu yakaladı. Ersin'i aldım.
+Fehmi'ye bakıyorum. 20 yapmış. Fehmi'yi
+de alırım.
+Halit 32 yapmış. Halit'i de alırım.
+Mevzu tam olarak işte bu şekilde.
+Şimdi birinci soru nakavt. O zaman haydi
+gelelim ikinci sorumuza. Buralar biraz
+daha tıkır tıkır geçeceğimiz yerler
+gençler. Hemen ikinci soruya bakıyorum.
+Yine ne yapacağız? Sözel ifade verecek
+bize. Yani bunu yazılığınızda da
+muhtemelen çıkacaktır. Bunu bağlaçlar ve
+niceleyicilerle sen ne yazacaksın?
+Matematikçesini yazacaksın aslında. Yani
+Türkçeden matematikçeye çeviri
+yapacağız. Birinciden başlayalım.
+Matematik dersinin sınavından matematik
+dersinin sınavından en az 60 ve
+ve diyor Türkçe dersi sınavından en çok
+70 alanlar. Ben bunu nasıl yazarım?
+Birinci parantezime matematik en az 60.
+En az 60. 60'ı kabul ediyorum ama üstü
+istiyorum. Dolayısıyla büyük eşittir 60
+diyeceğim. Arada ve bağlacım var. Türkçe
+dersi için de en çok 70 istiyorum.
+Dolayısıyla küçük eşit 70'i
+yapıştıracağım geçeceğim. Sadece bunu
+yazıp geçiyoruz. Burada bir öğrenci
+seçme durumu yok. Tarih dersine bakalım.
+50 ve 50'den fazla.
+Şimdi tarih için 50 ve 50'den fazla
+büyük eşittir 50 şeklinde gösteririm.
+Arada veya var. Veya bağlacımı
+yapıştırdım. Fizik dersimi yazıyorum. En
+az 80. En az 80 ne? 80, 85, 90. Bunları
+istiyoruz. O zaman fizik için büyük
+eşittir ne dedim? 80'imi yapıştırdım.
+Geldim üçüncüye. Bu sefer kimya
+konuşacağız. 30 ve 30'dan az. Hmm. Ne
+yapalım? K diyelim. Küçük eşittir 30.
+Arada ya da bağlacı var. Coğrafya için
+de ne istiyoruz? C diyelim ona da. 40 ve
+40'tan fazla. Büyük eşittir 40. Yani ne
+yapıyoruz? Sözelci öğrencileri
+seçeceğiz. Coğrafyayı 40'tan fazla,
+kimyayı 30'dan az alanlar. Tamam?
+Mevzu bu. Matematikçe yazdım geçtim.
+Haydi üçüncü soru. Şimdi A B sıfırdan
+farklı tam sayılar olmak üzere bir
+algoritma ya ait akış şeması verilmiş.
+Tamam şemayı görüyoruz. Buna göre
+ifadelerden hangilerinin doğru olduğunu
+bulacağız. Hadi gel bakalım.
+Şimdi algoritmam başlıyor. Bak A ve B
+gir demiş. A küçük 0 evet diyorsan yeşil
+yap ekranı ya da ekran mavi çıkıyor
+vesaire vesaire. Şimdi gel birinciye bir
+bakalım.
+Birincide bağlacım veya bağlacı. Yumuşak
+kalp. İkisinden biri olsa olur. Şimdi
+birinciye bakıyorum A küçük 0 tamam ben
+bunu doğru kabul edeyim.
+A küçük 0'a evet dersem ekran yeşil
+oluyor mu? Oluyor. O zaman ekran yeşil
+olur ha ben buraya doğru derim.
+Birinci öncül doğru.
+Bitti.
+Polemiğe gerek yok. Detaya girmeye gerek
+yok. Burada olayı kapat.
+Çünkü veya bağlacı böyle bir bağlaç. En
+az bir tane doğru buluyorsan bitti.
+Şimdi ikinci öncüle gel.
+Burada V bağlacı var. Bak kaşlar
+çatılmış. Sinirli asabi baba. İkisini de
+istiyor.
+Şimdi sen buraya bakıyorsun A büyük 0.
+Şimdi A küçük 0'a o zaman ben ne
+diyeceğim? Hayır diyeceğim. Buradan
+çıkmam lazım. B'ye de büyük 0 demem
+lazım. B büyük 0'a da evet diyeceğiz
+yani. O zaman ekran ne oluyormuş? Mavi
+oluyormuş. Hadi oradan sarı değil
+maviymiş.
+Tamam?
+Mevzu anlaşıldı değil mi? V bağlacı
+olduğu için.
+Geldim üçüncüye. Ya da bağlacındayız.
+Şimdi ya da bağlacı neydi? Ya sen doğru
+olacaksın ya da sen doğru olacaksın
+değil mi? Fakat her durumda sağlanması
+gerekiyor ki ekran mavi olsun.
+Yani mesela ben buna doğru buna yanlış
+diyerek bir bakacağım. Bakalım ekran ne
+oluyor? Sonra bir de buna doğru buna
+yanlış diyerek bakacağım ekran ne
+oluyor?
+Her durumda ekranın mavi olması lazım.
+Anlatabildim mi? Yani şuradaki önermeler
+her zaman doğru olması lazım.
+İçlerinde ama
+içlerine baktım detaya baktım da
+parantez içinde bir tanesi doğru bir
+tanesinin yanlış çıkması gerekiyor.
+Tamam?
+Şimdi o zaman hadi gel bakalım. A küçük
+0 demiş. Bak, bunu doğru kabul edelim. A
+küçük 0'a evet dersem ekranı ne yapar?
+Yeşil yapar. Bak. Şurayı bir
+temizleyeyim. Bak şimdi, yola çıktım. A
+küçük 0'a evet dediğim anda ekran yeşil
+olur. Ekran mavi olur cevabı zaten
+yanlış patladı.
+Değil mi? Ekran yanlış olur cevabı
+patladı. Yani bu 1, bu 0'ken ekran mavi
+falan olmuyor.
+Yeşil oluyor. Tamam?
+Ha diyeceksin ki hocam ama bak büyük 0'ı
+kabul yani bunu yanlış, bunu doğru kabul
+edince oluyor. Bir bakalım. Bunu yanlış
+kabul edelim gençler. A küçük 0'ı yanlış
+kabul edelim. Yani A küçük 0'a biz
+yanlış dedik. Hayır. B büyük 0'a ise
+doğru dedik. Evet, ekran mavi oldu.
+Hocam dediği oldu. Tamam ama bu yanlış,
+bu doğruyken oldu. Tam tersinde bu
+doğru, bu yanlışken
+olmadı.
+Olacak mıydı? Olmak zorundaydı. Tamam? O
+yüzden ya da bağlacında da işleri
+yapamadık. Yanlış [homurdanır] dedik.
+Dolayısıyla sadece birinci öncül doğru
+olur.
+Kapiş? Haydi o zaman geçtim. 4. soru.
+Şimdi buraları bence seri geçeriz. Şimdi
+bak A, B gerçek sayı olmak üzere demiş.
+A x B 0 eşitliği verilmiş.
+Biliyorsun değil mi?
+İki sayının çarpımı 0 mevzusunun nasıl
+gerçekleştiğini biliyorsun. En az birisi
+0 olacak.
+En az biri dedim. Ah! Acaba hangi
+bağlaçla bunu yazacağız? Mantık
+bağlaçları ve durumlarını gösteren
+ifadeyi demiş ki sembol
+lerle, sembolik dil ile ifade ediniz.
+Şimdi ben ne diyeceğim? Bir kere sen
+bana A, B'yi tanımlamışsın. Ben bir kere
+buraya yazarım. A, B elemanıdır reel
+sayı mevzusunu önce bir yazarım. Gerçek
+sayı demiş çünkü. Tamam?
+Bunun için, bunun için
+bana bir şey veriyor.
+İşte a çarpı b sıfır diyor. a çarpı b
+sıfır ise
+şimdi durumları gösteren mevzuya geldim.
+Şimdi o diyordu ki a çarpı b'yi bir
+incele. Ben de yazdım. Bak matematikçeye
+çevirdim. Şurada yazılanları
+matematikçeye yazdım. a b eleman r için
+a çarpı b sıfır ise
+kardeş burada tek bir durum var. Yani
+daha doğrusu şöyle bir şey var. En az
+biri sıfır olmalı değil mi? En az biri.
+Bak. a sıfır olabilir. Tamam kabul.
+b sıfır olabilir. Kabul. İkisi de sıfır
+olabilir. Kabul.
+Oğlum bu kadar yumuşak kalpli bir bağlaç
+nerede var?
+Aynen öyle. Veya bağlacında var. O zaman
+ben bu işi şöyle yazarım. Derim ki a
+eşittir sıfır veya b eşittir sıfır.
+Mevzu bu kadar.
+Mantığı kavradık mı? Matematikçeye yazma
+olayını. Hadi beşe de bakalım. Pratik
+olsun.
+İki negatif gerçek sayının çarpımı
+pozitif bir gerçek sayıdır önermesini
+sembolik dil ile ifade edeceğiz.
+Şimdi sen bana diyorsun ki bütün
+diyorsun, her diyorsun.
+İki tane bana harf atın. x ve y olsun. x
+ve y gerçek sayı diyorsun. Tamam
+elemanıdır gerçek sayı diyorum. Her x y
+elemanı pardon negatif gerçek sayı
+demiş. Özürs. Hemen eksimi de çakarım.
+Eksi r gerçek sayı. Yani negatif gerçek
+sayı. Tamam.
+Bunların çarpımı yani bunlar için her x
+y negatif
+reel sayılardan aldığım her x y için
+negatif olarak
+çarpımı demiş. Yani ne yazacağım? x
+çarpı y
+büyüktür sıfır diyeceğim. Pozitifi biz
+nasıl söyleriz gençler? Sıfırdan büyük
+sayı demektir. O yüzden büyüktür sıfır
+dedim. Bitti.
+Bu kadar. Sembolik dille yazdım. Bundan
+sonrası tatava. Geçtim 6. soruma.
+Şimdi bakın, bu soru birazcık değişik,
+garip bir soru. Bakalım. Bir öğretmen
+demiş, "Üçgenin kenar uzunlukları ile
+üçgenin çeşitleri arasındaki ilişkiyi
+açıklayan bir algoritmanın akış şemasını
+aşağıdaki gibi çizmiş." Şimdi bakın,
+böyle bir akış şeması olduğunda, hani
+mevzu algoritma diye de çok hani
+kafanızdaki matematiği de resetlemeyin
+bir zahmet, tamam mı? Bütün matematik
+bilgilerini unutmayın. Bir bakın, ne
+anlatıyor? Matematik
+dilinde ne anlaşılıyor, anlatılıyor
+burada? Bir bakalım.
+Şimdi demiş ki, "Önce başla." Başladım.
+"A, B, C kenarlarının uzunluklarını
+santimetre cinsinden al."
+A, B, C kenar uzunluklarını al. He,
+üçgenle ilgili bir şey yapıyoruz. Hatta
+bak yukarıda da aslında söylüyor. Kenar
+uzunlukları ile üçgenin çeşitleri
+arasındaki ilişkiyi inceleyecek bu
+algoritma.
+Tamam.
+Şimdi burada bir önerme var. İşte, daha
+doğrusu eşitsizlik var. A
+toplamlarından küçük, farklarından büyük
+mevzusu. Aa, bu üçgen eşitsizliği değil
+mi ya? Kenarlarına göre bakacak. Hatta
+bu eşitsizlik sağlanmıyorsa, sen diyor
+bir yürü git diyor. Hani bizim
+yanımızdan ayrıl, çünkü üçgen
+oluşturmazsın. Algoritmayı kapat diyor.
+Fişi çek.
+Tamam? Dolayısıyla kenarlarını bana
+uygun vermelisin, üçgen eşitsizliğine
+göre. Tamam? Ondan sonra da işte
+eşkenar, ikizkenar bir şeyler çıkacak.
+Oraya bakarız. Soru ne? Benden ne
+isteniyor? Akış şemasında kullanılan
+mantık bağlaçlarını belirleyiniz diyor.
+Şimdi, bağlaç belirleyeceğiz.
+Direkt yazmamış. Direkt yazsa onu 1.
+sınıfa soruyoruz zaten.
+Direkt yazıp hemen gördüğünü alsın,
+cevaba yazsın. O 1. sınıf işi.
+Sen 9. sınıf olarak
+kendin birazcık çözümleyeceksin.
+Şimdi bir kere dakika bir gol bir.
+Kardeş, burada
+iki taraflı bir kesinlik isteniyor,
+değil mi?
+Yani A kenarı diyor, herhangi bir kenar,
+hem diyor toplamlarından küçük olacak
+hem de farklardan büyük olacak. Aynı
+anda olacak. Hani hocam bu olsa bu ol,
+aa ikisi de olacak. Aa bu kadar sert, bu
+kadar asabi bir bağlaç kim olabilir?
+Tabii ki de ve bağlacı. Tamam mı? Hatta
+bunu şimdiden söyleyelim mi? İkinci
+sorunun da cevabı olacak. Mantık
+bağlaçlarından birinin algoritmada ki
+işleyişinin rolünü açıklayınız demiş.
+Ben burada kimi açıklayacağım? En kolayı
+ve bağlacı.
+Burada ve bağlacı beni nerede,
+daha doğrusu bana nerede iş görüyor,
+nerede bunu
+görebiliyorum, açıklayabiliyorum? Ve
+bağlacı
+nerede diyelim? Üçgen eşitsizliğinde
+eşitsizlik kısmında daha doğrusu üçgen
+eşitsizlik kısmında
+rol oynamış yazabilirsin. Ben doktorca
+yazımı yazdım orada bırakıyorum. Daha da
+fazla doktorca yazabilirim ama o zaman
+kimse okuyamaz. Tamam mı? Şimdi ve
+bağlacını yazdık. Hatta birazcık
+matematikçe yapalım ya. Ve bağlacı al.
+Bu şekil sembolle geldim.
+Şimdi başka başka. Gençler bir de ne var
+biliyor musunuz? Aslında akış şemasının
+tamamında gördüğümüz bir ise bağlacı
+var.
+İse burada
+her karar düğümünü aslında birbirine
+bağlıyor. Mesela burada a eşittir b evet
+ise buraya
+hayır ise bu tarafa git. Dolayısıyla
+burada kesinlikle bir ise bağlacı
+kullanıldığını de söyleyebilirim.
+Son bir tane daha var. O da şu. Tabii ki
+de olmaz yumuşak kalpler ne olacak?
+Nedir? Veya bağlacı. Şimdi biz veya
+bağlacını aslında farklı yolların
+aynı kapıya çıkmasında görebiliyoruz.
+Mesela ikizkenar üçgen. E şimdi
+ikizkenar üçgen için sadece bu yoldan mı
+geliyorsun? Hayır, bak buradan da
+gelebiliyormuşsun.
+Hatta buradan da gelebiliyormuşsun. Ha o
+zaman burada bir yumuşak kalplilik var.
+Bunu aklında böyle tutabilirsin. Hani
+oradan da gelebiliyor, buradan da
+gelebiliyor. Ha o zaman orada bir veya
+bağlaç kullanımından
+söz edebiliriz. Tamam? Mevzu anlaşıldı
+mı? Bak, mesela A = B. Eğer evet
+diyorsan
+B = C'ye de hayır diyorsan, yani A B
+sadece iki tane kenar eşit. A o zaman
+ikizkenar diyebiliyoruz. Ama A = B'ye
+mesela hayır diyebilirsin. O zaman A = C
+mi? Eğer buna evet diyorsan yine sen iki
+kenara evet dedin, o zaman ikizkenar
+üçgene çıkıyoruz yine.
+Yine çıkıyoruz. Yani bir oradan
+gelebilir, bir buradan. Bunu nerede
+göreceğim? Her yerden böyle birden fazla
+farklı yollardan aynı kapıya çıkıyorsam
+yumuşak kalpten de var. Tamam?
+Şimdi bağlaçlar,
+niceleyiciler mevzusu bu.
+Sana nereden soru gelecek? Yine
+söylüyorum, şu 4 ve 5. sorudan kesin
+gelecek.
+2. soru gelecek. Tamam mı?
+Bunlara bir bakalım. Yazılıdan önce
+mutlaka bakalım. Anlaştık?
+Şimdi gelelim kitabınızda çok çok fazla
+yer almasa da önemli bir mevzu, tüketme
+yaklaşımı ve Kadane algoritması. Şimdi
+bu mevzu nedir? Menü Hoca bunun yine
+abidik gubidik yöntemlerini bulmuştur.
+Tamam, bize böyle saçma sapan yerlerden
+dalış yaparak anlatır diyeceksin. Evet.
+Şimdi bir kere oğlum bunlar çok
+ciddi
+zihinlerde
+alev alan, alev aldırmaya sebep olan
+yerler. Gerçekten sağlam
+algoritmalar bunlar. Tamam? Kadane
+galiba kendi adını vermiş hatta. Adam o
+yani.
+Tamam, ben buldum, başkasına yedirir
+miyim kafasında.
+Şimdi
+gençler, bunun mevzusu ne biliyor
+musunuz?
+Ben sana kısaca şöyle söyleyeyim. Sen
+şimdi bak sınıfa girdin. Öğretmenin,
+öğrenciler işte sana bir sürpriz
+yapmışlar.
+Öğretmen beş altı tane diyelim, altı
+öğrenciyi tahtaya çıkartıyor. Hepsinin
+de boynuna bir tane kağıt asıyor, tamam
+mı? Bak şimdi, olayın neden bu konuyu
+gördüğünü anla.
+Anlaştık mı? Önce mantığını anlatıyorum,
+sonra nasıl yapıldığını anlatacağım.
+Neden bunu görüyoruz? Nedeni şu, sen
+sınıfa girdin, öğretmen ve öğrenciler
+sana sürpriz yapıyorlar. Öğretmen
+kaldırmış öğrencileri, hepsinin boynunda
+bir kağıt, böyle kurbanlık dana gibi,
+hepsinde künye var, tamam [kahkaha] mı?
+Orada üstlerinde sayılar yazıyor. Altı
+öğrencinin üstünde sayı yazıyor. Bu ne
+sayılar? Cebindeki para olabilir ya da
+borcu olabilir. Mesela
+sırayla birinci öğrencide atıyorum
+yedi yazıyor. O ne demek? Yedi lirası
+var anlamında demek, tamam?
+Sonra hemen yanındaki ikinci öğrencide
+eksi dört yazıyor. Bu da onun dört lira
+borcu var demek.
+Şimdi öğretmen sana diyor ki, sana
+sürpriz hazırlamışlar.
+Nazlıcan,
+&gt;&gt; [kahkaha]
+&gt;&gt; Güllüşah, sana eee
+bir oyun sunuyoruz.
+Şimdi bu arkadaşların arasında, altı
+öğrenci tahtada dizili,
+ardışık olarak bir grup seç ve o grubun
+sayılarının toplamı kadar parayı sana
+vereceğiz diyor.
+Ha.
+Şimdi bak, sen ne yapabilirsin? Mesela
+şu örnekten hatta anlatayım. Mesela
+yediyi alabilirsin hemen. Hocam ben yedi
+liramı alıp gideyim. Hani bir sakız
+alırım falan.
+Hani burada mantığı anlayın.
+Yediyi alabilirsin. Ya da şöyle, bak
+şunu yapma hakkın yok ama, hocam buradan
+yediyi alayım, buradan üçü alayım,
+buradan ikiyi alayım. Hayır. Ardışık
+seçeceksin. İkili grup seç, tekli grup
+seç, üçlü grup seç, fark etmez. Hepsini
+seç, o da olur. Ama ardışık olacak. Yani
+sırayla olacak. Hepsini aldın mı zaten
+hepsi sırayla, hepsini almış olursun.
+Ama belki de bunların hepsinin toplamı
+yedi yapmayabilir, bak. Zararlı
+çıkarsın. Hadi böyle bir açgözlü
+kafasıyla dalarsan işin içine, hocam ben
+tümünü hepsini alıyorum. O zaman ne olur
+bak biliyor musun? Şurası üç, iki daha
+beş, üç daha sekiz, şunu çıkarttım 3.
+Bir topladım 4 alırsın bak mesela.
+Halbuki sadece birinci öğrenciyi
+alıyorum desen 7. Ama belki de öyle bir
+grup var ki, mesela atıyorum ikinci,
+üçüncü, dördüncü şunu seçtin. Belki de
+7'den fazla çıkacak.
+Olayın mantığını anladık mı?
+Sıralı öğrenci seçeceğiz ve en büyük
+sayıyı yakalamak istiyoruz. Toplamada en
+büyük sayıyı yakalamak istiyoruz. Tamam,
+olay anlaşıldı.
+Şimdi bunun için iki yaklaşım var.
+Birincisi tüketme yaklaşımı. Bunu çok
+hızlı geçeceğim. Çünkü bu aslında
+neden Kadane algoritmasını
+kullanıyoruzun cevabı. Çünkü bununla
+çözmeye çalışırsak 1 yıl sürer, bununla
+çözmeye çalışırsak 1 dakika sürecek.
+Yani Kadane böyle bir olayı halletmiş.
+Şimdi tüketme yaklaşımı şu gençler.
+Tüketme yaklaşımında elde edilen
+toplamalardan, hani bak biz de toplamak
+istiyoruz ya, en büyüğünü bulmak için
+bir döngü kullanır. Bu döngüde kümenin
+her elemanını birer birer ele alarak
+toplamları hesaplar ve karşılaştırır.
+Şimdi hemen örnekten de gideceğim.
+Burada bir sayı grubu var. İşte tahtaya
+çıkan 6 öğrenci var. Burada herhangi bir
+elemandan başlayarak birbiri ardına
+gelen elemanların toplamlarını
+hesaplayıp en büyük olanın tüketme
+yaklaşımını Kadane ile bulunuz diyor.
+Tüketme ile yapalım önce. Şimdi ne
+yaparsın? Sen yani bilmiyorsun Kadane
+algoritması falan. Cahil, tamam mı?
+Cahilsin.
+Ayıp değil. Öğrenmemek ayıp. Şimdi
+burada tek tek sayarsın. Dersin ki lan
+ben birinci öğrenciyi alsam 7 eşittir 7.
+Yani 7 lira alırım.
+Birinci, ikinciyi alsam, ha o zaman 7
+artı eksi 4'ten 3. Hayda, bu beni çok
+şey yapmadı, sarmadı. Birinci, ikinci,
+üçüncüyü alayım. Mesela şöyle yaptın.
+Eksi 4 ve ikinci, üçüncüyü de aldın.
+Yani şöyle üçlü grup aldın, tamam mı?
+Bunu hesapladın. İşte bir 5 oldu. Sonra
+işte diğerini aldın, bir daha
+hesapladın. Bir sonrakini aldın, hepsini
+aldın. Eee, ben bunları yapayım ya, dur.
+Yedi
+eksi dört, tamam mı? İkiyi aldım, bir de
+diğer öğrenciyi aldık, üçü, sekiz yaptı.
+Bak, bak sekizi bulduk işte. Gördün mü
+bak işte? Bunu bulmayı öğreneceğiz.
+Belki ama bir sekizden de daha büyüğü
+var, nereden biliyorsun? Sonra işte eksi
+beş eklenecek. Bu şu kısma denden
+koyuyorum, artı eksi beş, mı?
+Matematikte de böyle işlem, ya başka
+yerde göremezsin.
+O yüzden sen de yapma, sadece mevzuyu
+anla. Buradan üç mü geliyor? Sonra
+buraya denden koyup en son biri yazan
+arkadaşı da ekleyelim, dört geliyor
+mesela. Tamam? Yani böyle böyle tek tek
+toplayacaksın. Sonra bunu kapatacaksın.
+Tamam mı? Şunu kapatıyorsun.
+Eee, tüketme yaklaşımı böyle. Birinciden
+başlamıştın, belki de ikinciden
+başlayınca olacak. Eksi dört ile
+başlayacaksın, eksi dört. Sonra eksi
+dördün yanına iki ekleyeceksin, işte
+artı iki. Sonra eksi dördün yanına iki
+eklemiştin ya, bak, sırasıyla. Sonra bir
+de üçü ekleyeceksin.
+Ne gelecek? Beş. Eksi dördün yanına iki
+eklemiştin, sonra üç eklemiştin, sonra
+da eksi beşi ekle bakalım. Eksi beşi de
+ekleyince buradan sıfır. Sonra eksi
+dördün yanına, ikinin yanına, üçün
+yanına, bir de eksi beşin yanına, en son
+arkadaş biri de eklediğinde biri
+çıkacak. Bla bla bla bla. Melih hocaya
+bunu
+mümkün değil doldurtamazsınız, tamam mı?
+Sen doldur.
+Maksat mevzuyu anladın mı? Ben bu
+amelelikle uğraşmayacağım. O sizin
+işiniz.
+Boşuna mı okuduk yıllarca, dirsek
+çürüttük? Şimdi
+tüketme yaklaşımı bu gençler. Tek tek
+bulmaya yönelik ve hani altı tane sayı
+olsa hadi halledersin, yüz tane sayı
+olursa orada bilgisayar patlar.
+Dolayısıyla Kadane algoritması diye bir
+şey var. Şimdi onu anlatacağım.
+Verilen sayı kümesindeki ardışık
+elemanların, bak yine işimiz ardışık
+olması,
+toplanması ile elde edilen toplam lardan
+değeri en büyük olanını bulmak için
+Kadane algoritması kullanılabilir. Gel
+şimdi Kadane algoritmasına bakalım.
+Şimdi ne demiştik? Öğrenciler çıktı ve
+kurbanlık dana gibi burada künye vardı
+değil mi? Hah, danadan yola çıkarak
+şimdi ben sana MÖ kuralı anlatacağım.
+MÖ kuralı, tamam?
+Amacımız ne? Maksimumu bulmak.
+Maksimumun M'sini aldım. Ö de önceki
+toplamlardan aklına gelsin.
+Şimdi gençler, bana ilk sayıyı söyler
+misiniz? Kadane algoritması yapıyoruz.
+İlk sayımız kim? 7. Tamam mı? O zaman
+birinci adımda ben 7'yi alırım.
+Hatta şöyle yapacağız bak, dur. Onu uzun
+uzun yapacağım.
+Sayıları gençler öncelikle şöyle yan
+yana şey alt alta yazın. Yan yana
+nereden çıktı ya? Şöyle tek tek hepsini
+alt alta yazın. Yanlarına da maksimum ve
+önceki toplam diye şöyle MÖ harflerimizi
+yazalım. Yani öğretmen seni tahtaya
+kaldırdı.
+Tabii ki de MÖ kuralı diye bir şey yok.
+Bak bir daha söylüyorum, beni rezil
+etmeyin sağda solda. Bu tamamen sen daha
+iyi anla diye benim uydurduğum bir şey.
+M ve Ö ama şey değil hani kafamdan
+atmadım yani. Mantıklı bir şekilde
+sadece birazcık böyle
+entertainment yapıyoruz, tamam?
+Şimdi birinci sayımızı aldık, 7.
+Maksimumumuz kaç şu an? Elimizdeki en
+büyük sayı 7. E önceki Ö'ye de yine
+yazacağım, 7 yazacağım. Yani önceki diye
+bir şey yok çünkü 7'yi aynen
+alıyorsunuz.
+Şimdi ikinci sayı geldi. Yani birinci
+öğrenciyi gördün, ikinci öğrencinin
+künyesinde ne yazıyor? -4. Şimdi
+yapacağın şey şu.
+sayını yaz.
+-4'ü yaz.
+2 -4'le bir öncekini toplayıp yaz. Ne
+yapıyor toplam? 3 yapıyor.
+Ve üçüncü olarak da şu ana kadar
+gördüğün en büyük sayıyı yaz. Şu ana
+kadar gördüğüm en büyük toplam 7'ydi.
+Şimdi bu üçünden bana söyle, maksimum
+kim? 7'dir. O zaman senin maksimumun
+değişmedi.
+Diğer ikisinde de en büyük kim kalıyor?
+Üç mü kalıyor? O zaman önceki kısmına da
+üç yazıyorsun. Yani aslında bununla
+öncekinin toplanması üçtür ya, oradan
+geliyor.
+Şimdi -4'ü hallettik. Bak, 7'yi, -4'ü
+hallettim. Şimdi 2'ye geldim. Bak, ne
+yapıyorduk?
+Sayını yaz.
+Sayıyı öncekiyle topla. 2 3 daha 5.
+Sonra bugüne kadar gördüğün maksimumunu
+yaz. 7.
+Şimdi bana söyle bakayım. Maksimum kaç?
+En büyük sayı? 7. Aa, 7 değişmedi. Hemen
+oraya yazalım. Peki,
+bu diğer ikisi arasından en büyük kim?
+5. O zaman 5'i alıyorsun. Yani bu o, şu
+demek aslında. Önceden gördüğün,
+öncekilerden gördüğün en büyük sayı kaç?
+Onun gibi düşünebilirsin.
+Bunu da yazdım.
+Şimdi geldim 3'e. Bak, 2'yi de
+hallettik. Şimdi sayımı yazıyorum. 3.
+Bir öncekiyle toplam 8. Aha, bizim max
+geldi.
+Eee, ne yazıyorduk? Sayımızı yazdık.
+Öncekiyle toplamı yazdık ve elimizde şu
+ana kadarki maksimumu yazıyoruz. 7.
+Şimdi bakın.
+Burada, üçlüde
+maksimum kim? 8. Bak, benim maksimumum
+7'ydi ama artık ne gördüm ben? 8 gördüm.
+Dolayısıyla maksimum değiştiği anda
+önceki değer kısmı da değişir.
+Çünkü şöyle düşün. Sen artık 8'i gördün
+ya,
+ondan önce gördüğün düşük sayılar
+umrunda olmaz. Dolayısıyla maksimuma da
+öncekilere de 8 yaz.
+Yani yeni gördüğün maksimum değerini
+yazıyorsun.
+Geçtim -5'e. Şimdi sıradaki sayım geldi.
+-5.
+Ne yazıyordum? Sayımı yazıyordum. -5.
+Daha önce, eee, -5'in öncekiyle
+toplamını yazıyorum. -5 8 daha 3. Daha
+önce gördüğüm maksimum kim? 8. Bana
+bunların içinden maksimumu söyler misin?
+En büyük kim? Sekiz. Hala max değişmedi.
+Eee, diğer ikisi arasındaki en büyük
+kim? Üç. Yani önceden gördüğüm en büyük
+sayı gibi de düşünebilirsin. Üçü yazdım.
+Şimdi
+geliyorum bire.
+Bunu da hallettim. Biri yazıyorum.
+Öncekiyle toplam dört. Bugüne kadar
+gördüğüm maksimum sekiz. En büyüğü söyle
+bana, sekiz. Max yine değişmedi. Bundan
+sonrakilerin büyüğü de dört. Buraya da
+dört yazdım ama daha devam etmeyeceğim.
+Dolayısıyla lafı uzatmaya gerek yok. En
+büyük arkadaşımız sekizmiş. Tamam mı?
+Hatta bunu nerede görüyoruz? Bak, sekizi
+nerede yakaladık? Az önce yakalamıştık
+aslında. Şurada. Yedi, eksi dört, iki ve
+üç. Yani şu dörtlü grubu aldığımda, yani
+öğretmen seni tahtaya çıkartmıştı ya,
+ardışık arkadaşlarından seç, maksimum
+parayı kazan dedi.
+Birinciyi seçip yedi lira alabilirdin
+ama o doğru cevap değil. Maksimum değil.
+Birinci, ikinci, üçüncü ve dördüncü
+arkadaşları alıyorum dediğin anda en
+fazla parayı elde etmiş oluyorsun.
+Mantığı anladık yani, değil mi? Hani
+sebebini anladık, değil mi?
+Biz bu işi niye yapıyoruz? Sebebini
+anladıktan sonra da şu yaklaşımı
+bir daha izle, son on dakikayı, iyice
+oturtacaksın. O zaman ne diyorum? Melih
+Hoca'dan mevzu
+burada biter. Tamam mı? Evet, sevgili
+dokuzuncu sınıflar, 27. dersimizin
+sonuna geldim.
+Eee, buradaki dediğim gibi daha da
+pekiştirmek için bak, uygula, pekiştir
+ve yazılı sorularımız var. Kaymak gibi,
+cillop gibi sorular. Mutlaka çözün.
+Eee, bunları çözüp bir de çözüm
+videolarını da izlediğinde daha da
+akılda kalıcı olacak, daha iyi
+anlayacaksınız. Onu söyleyebilirim.
+Eee, yazılı sorularımız da bak, tam
+yazılıda çıkacak sorular ya. Şemalar,
+tüketme yaklaşımı var falan.
+Tam böyle
+yüz aldıracak kitap.
+Bundan sonra tek, eee, dersimiz var,
+algoritma ile ilgili 28. dersimiz kaldı.
+Orada da ispat yapacağız. Tek sayfa. Tek
+sayfalık dersimiz var ama içerik
+içerik tek sayfaya
+eee, rahmet okutur öyle söyleyeyim.
+Ondan sonra da artık 6. temamıza geçiş
+yapacağız sevgili 9. sınıflar.
+Eh, hadi bakalım o zaman. Kapanış
+İstiklal Marşı ve kapanış diyelim.
+Ne diyoruz? Bir sonraki ders yeniden
+görüşünceye dek, kendinize çok iyi bakın
+ve matematikle kalın. Hoşça kalın.
+&gt;&gt; Artık [müzik] yön matematik
+herkes için kolaylık.
+&gt;&gt; [müzik]
+&gt;&gt; Sen de katıl bu öğretme eğlence dolu
+pratik

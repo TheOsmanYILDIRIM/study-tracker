@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
   "contentUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L90",
@@ -18,7 +18,13 @@
       "reviewStatus": "needs_review",
       "fingerprint": "8dc3509e9793b3d3",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     },
     "provider": "Özcan Aykın FİZİK"
   }

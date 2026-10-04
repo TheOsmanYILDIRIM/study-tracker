@@ -19,7 +19,12 @@
       "reviewStatus": "verified",
       "fingerprint": "8b460fc3d1c4e78e",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.tr.vtt",
+      "transcriptFingerprint": "c3de10c38f4b78ec"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",

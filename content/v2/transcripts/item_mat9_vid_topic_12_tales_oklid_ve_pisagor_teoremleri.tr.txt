@@ -1,0 +1,1328 @@
+Selamlar, hoş geldiniz. Paralel doğrular
+ve kesenler teoremindeyiz. Sanki
+yukarıda bir şeyler daha vardı. Orada
+değilmişiz arkadaşlar. Talya söklü
+Pisagor teoremlerindeymişiz. Şimdi bu
+teoremleri anlattığımda burayı da iyi
+anladığınız zaman yukarıdaki
+bilgilerinizi artık çok daha rahat
+kullanıyor olacaksınız. Yine söylüyorum,
+bir önceki kayıtta kullandığımız
+yöntemler, tekniklerin hepsini aslında
+burada da bir noktada kullanacağız. Ben
+her dersin eee öncesinde bir sonraki
+dersle alakalı bir şeyler anlatıyorum.
+Buraya kadar izliyorsanız zaten
+alışmışsınızdır. O yüzden burada da
+geçen derste konuştuklarımızın pratiği
+gibi düşünebilirsiniz. Burayı
+öğrendiğinizde yine söylüyorum artık
+işler sizin için çok daha basit olacak.
+Merak etmeyin. Şimdi gelelim Tales
+teoremi benzerlik kavramının en temel
+uygulamalarından biridir. İki ana
+şekilde ifade edilir. Burada benzerlik
+yapacakmışız. Bakalım ne demek? Temel
+orantı teoremi olarak geçiyormuş
+üçgenlerde. Ben bu teorem isimlerini
+kullanmayı sevmiyorum. O yüzden ne
+olduğunu anlayalım. Bizim için önemli
+olan o. Tamam mı? Sürekli işte temel
+orantı teoreminden dolayı şudur, bundan
+dolayı budur demeyeceğiz. Zaten hepsi
+benzerlik temasından ortaya çıkıyor.
+Şöyle düşünelim. Buraya isterseniz
+boyalı açı diyelim. Ve bize iki tane
+paralellik verilmiş. Bu paralellikler
+sizin için hayati öneme sahip. Eğer
+burası boncuksa burası boncuk. Burası
+çizgiyse burası çizgi. Zaten bu noktaya
+gelene kadar soru çözümlerinde de
+bunları defalarca uyguladık
+biliyorsunuz. Madem öyle boyalı açı
+boncuk çizgi yani ADE üçgeni ile kim
+benzer olacaktır? AB C üçgeni boyalı açı
+boncuk çizgi. Dolayısıyla bunlar
+benzerlerse AD'nin AD'nin AB'ye oranı
+gördüğünüz gibi neye eşit olacak?
+İsterseniz yazalım. Yine şöyle AD'nin
+ben yine farklı mı gidiyorum? Bakayım.
+Yook doğru gidiyorum herhalde. AD'nin
+AB'ye oranı. Bunlar başka vermiş de onu
+çıkartacağız biz şimdi. AE'nin AE'nin
+AC'ye oranına. Peki bunlar neye eşit
+gelecektir? De'nin tabii ki de BC'ye
+oranına eşit gelecektir. Biz bunu
+benzerlikten yazıyorduk. Yine kalemle
+gösterdim. AB AAB
+AE AC diğeri kimmiş bakın? DEB BC. Bu
+oranlar birbirlerini koruyorlarsa. Şimdi
+biz temel orantı teoreminde şunu da
+söyleyebiliyoruz. O zaman AD'nin DB'ye
+oranıyla buradan yola çıkarak AE'nin
+EC'ye oranları da birbirlerine eşit
+olmak zorundadır. Neden? Çünkü toplam
+oranınız korunduğu için bunların da
+kendi arasında oranları korunmak
+zorundadır. Şöyle düşünün. Eğer buraya
+2m deseydim buraya da ya da m diyelim.
+Buraya da k diyelim. Buraya başka bir
+şey dememiz gerekecek. Mesela ne olsun?
+Burası da a olsun. Burası da b olsun.
+Biz günün sonunda neyi görüyoruz? M'nin
+A + M'ye oranının K'nin K + B'ye oranına
+eşit geldiğini görüyoruz. Tamam. Şimdi
+içler dışlar çarpımı yapsaydık MK + MB
+ne gelecekti? AK + MK. Bunları da
+sadeleştirdiğimizde bakın m x a = a x k
+gelecekmiş. Demek ki bununla bunun
+çarpımıyla bununla bunun çarpımları da
+birbirlerine bu oranda eşit geliyor. O
+zaman şöyle yapalım. Her tarafı A'ya
+bölelim burada. Olur mu? M/ M x B/ A = A
+x K/ A. A'lar gidecekti burada. O zaman
+her tarafı bir de B'ye bölelim
+isterseniz. Şöyle bulduk. Buradan ne
+bulduk? Tekrar yazıyorum. m x b/ a = k
+bulduk. Şimdi her tarafı b'ye bölseydim,
+b'ye böldüm, b'ye böldüm. Günün sonunda
+ne görmüş olacaktık? B'ler gitseydi M/ A
+dediğimiz ifade K/ B'ye. Yani bunun buna
+oranıyla bunun da buna oranı
+birbirlerini korumak zorunda. Ama yine
+söylüyorum bu özelliği kullanmaktansa
+zaten hep bu noktaya gelene kadar da
+soru çözümünde bir küçük bir tamamı, bir
+küçük bir tamamı benzerlikten de
+gidebilirsiniz. bir şey size
+kaybettirmeyecek. Zaten bu da
+benzerlikten geliyor. Tamam. Bunu
+kullanacakmışız. Yanında da bunun
+açıklamasını vermiş. Şimdi gelelim
+örnekler üzerinde gösterelim.
+KLM üçgeninde PR paraleldir LM. Size ne
+dedim? Paralellikleri daha soruya
+başlamadan ilk yapacağınız şey
+paralellikleri göstermek olsun. Tamam.
+Bunları göstermiş. 3kp = 5PL. O zaman KP
+yerine 3'ün bir 5'in bir katını PL
+yerine de 3'ün bir katını koyalım. LM
+uzunluğu 24 verilmiş. Şimdi yine neyi
+söyleyebiliriz? Burası boyalı açı
+olsaydı yine boncuk boncuk derdik.
+Bunlar çizgi çizgi olurdu. Ha demek ki
+şu üçgen ile şu üçgen benzer. O halde
+buranın buraya oranı yani 5k'nin 8k'ye
+oranı ya şunu da diyebilirsiniz. 5k'nin
+3K'ye oranıyla bunun buna oranı da
+diyebilirdiniz. Bunun da buna oranı da
+diyebilirdiniz. Tamam. Ama ben dediğim
+gibi genellik benzerliği kullanmak
+istiyorum. Benzerlikten yola çıkıyorum.
+Tekrar yazayım. Boyalığı boncuk çizgi
+KPR üçgeni benzerdir. KL M üçgeni 5K/8K
+PR/
+LM olacaktır. PR/ LM. Tamam. Burası da
+5/8 gelecekti. PR/
+LM nedir? 24. Aşağısı 3 katına çıkmışsa
+bur da 3 katına çıkacaktır. O zaman
+PR'si
+15 gelecektir. Bize neyi soruyor? Burası
+15 oldu. P'yi bulunuz diyor. Ha şurayı
+bulunuz diyor. O zaman K hakkında mı
+yorum yapmamız lazım? Bir bilgi daha
+var. Ben onu okumadım. Burayı 15 buldum
+ama KP + PR de 23'müş. Tamam şimdi oldu.
+O zaman şu PR'si 23 PR'si 15 gelecekse
+KP'ye kaç kaldı? 8. KP dediğimiz yer
+burasıydı. O zaman 5K'miz 8 geliyorsa
+K'miz de buradan 8/5 gelecekmiş. Bizden
+PL isteniyordu. PL de 3K'dir. K 8/5 ise
+o zaman PL'nin uzunluğu ne gelecekmiş?
+24/5
+birim cantim. Her neyse bulacakmışız.
+Tamam. Yana geliyorum. 29 diyelim. AB
+paralel EF paralel CD gösterilmiş. Şimdi
+paralellikler varsa gelin biz B'den
+CD'ye yine paralel olacak şekilde bir H
+noktası oluşturalım. O zaman şu
+paralellikleri görün. Burası 5 ise
+burası 5 olsun. Hadi buraya H dedik.
+Buraya K'yi kullanıyorum ama T diyeyim.
+O zaman ET de AB'ye paralel. Hatta eşit
+olsunlar. Aynı şekilde CH'ye de eşit
+olsunlar. Burada 5. Eğer tüm uzunluk 21
+ise 5'ini çıkarttık. HD'ye 16 kalsın.
+Tamam. Bunu niye yaptım? Şimdi
+arkadaşlar gözden kaçan ufak bir nokta
+var. Belki de kaçmamıştır ama TF de hala
+ED'ye paralel. E ne işimize yarayacak?
+Benzerlik göreceğiz çünkü. Yakaladınız
+mı? Şöyle göstereyim. İşte bu
+benzerlikten yorum yapmaya çalışacağım.
+Tamam. Aşağıdaki bilgileri okuyalım. CE3
+AE'ye eşitmiş. Yani AE yerine K deseydik
+CE 3K olacakmış. Tamam. O halde bu
+paralellikten bura K iken burası 3K
+olacakmış. CD 21 diğeri 5. Bunları
+kullandık. Ne diyeceksiniz? K'nin 4K'ye
+oranı TF'nin buraya oranına eşit olmak
+zorundadır. Yine yazıyorum. Artık
+benzerlikleri yazmıyorum. çizdiğinizde
+siz yapabilirsiniz. Hani boyalı açı
+dersiniz. Boncuk boncuk, çizgi çizgi.
+Yine buradan kendiniz yazabilirdiniz.
+K/4k
+eşit gelecektir TF uzunluğu böl HD. HD
+de 16. K'leri sildim. Bakın 4'ten 16'ya
+gitmişse burası da 1 ise 1in 4 katı
+olacaktır. O zaman TF de 4 gelecektir.
+Tamam. Bizden neyi istiyor? Şimdi burayı
+da 4 bulduk.
+Gerçi bulduk değil mi ya? Şuraya 5
+demedik mi? Tabii canım. ET5 burası 5
+burası 4 ise o zaman EF uzunluğumuz kaç
+gelecektir? 9 gelecektir. Evet gerçekten
+bir fail anı yaşandı az önce. Tamam bu
+anı olmamış gibi varsayarak devam
+ediyoruz. Şimdi paralel doğrular ve
+kesenler teoremi. Yine burada
+yaptıklarınızı zaten biliyorsunuz. Daha
+da iyi öğrendiniz ama tekrar
+gösteriyoruz. Şimdi elimizde 5 tane
+doğru var. Bu doğrular bazı noktalarda
+kesişmişler ve buralarda da uzunluklar
+oluşmuş. Benim size buradaki tavsiyem
+şu. Gelin biz bu doğruları iyice
+uzatalım.
+Yine tepede bir yerde de buluşsunlar.
+Hatta şu buluştukları noktaya A diyeyim.
+Kalemimi de bir tane büyüteceğim. Daha
+rahat yazmak istiyorum. Madem o nokta A,
+o zaman şuralarda B ve C olsun. Neyi
+görüyorsunuz şu anda? Az önce
+oluşturduğumuz üçgenlere benzer bir
+üçgen oluşmadı mı? Hadi burayı yine
+boyuyorum. Bunlar birbirlerine neler? En
+az doğru bir kesen üzerinde orantılı
+ayrılıyorlarsa bu doğrular ikinci bir
+eksen üzerinde de orantılı parçalara
+ayrılır demiş. Tamam. Birbirine paralel
+en az ü doğru. Bunlar birbirlerine
+paraleller. Şimdi burası boncuksa
+boncuksa boncuk. Çizgi ise çizgi çizgi.
+E ABC üçgeni. Devam ediyorum. D E F G
+olsun. AC kimle benzerdir? ADE ile.
+Kimle benzerdir? AFG ile. Hepsi
+birbirleriyle de benzer. O zaman neyi
+yorumlayabiliriz? Zaten bu noktaya
+gelene kadar hep yaptık. Bunun buna
+oranı hatta bunun buna oranıyla bunun
+buna oranı eşittir veya bunun buna
+oranıyla bunun buna oranı eşittir. Hatta
+buradan yola çıkarak da ne
+diyebilirsiniz? Madem öyle o zaman
+buranın buraya oranıyla da buranın
+buraya oranı birbirlerine eşit
+geleceklerdir. İlk baştaki örnekte
+gösterdik yukarıda az önce yaptığımız.
+Sonuç olarak burayı eğer görmezden
+gelseydik, niye görmezden gelseydik
+diyorum. Az önce soruyu çözerken de ne
+demiştik? Yukarıdaki o teoremden temel
+orantı teoreminde bunun buna oranı
+yapmak yerine bunun buna oranı diye de
+bakabilirsiniz. Tamam. Ben o zaman
+buranın buraya oranı demek yerine de
+şunu söyleyebilirim. Buranın buranın
+tamamına oranı ya da buranın buraya
+oranı ile buranın buraya oranı. Tamam.
+Bunu yine kendimiz çıkartabiliriz
+arkadaşlar. Hepsi benzerlikten geliyor.
+O yüzden tekrar açıkça göstermeyeceğim.
+Bu üçgen bu üçgenle benzer olduğu için
+bunlar kendi aralarında oranlıdır. Hatta
+bu üçgen bu üçgene benzer olduğu için
+bunlar da kendi aralarında orantılıdır.
+Günün sonunda şunları A'nın B'ye
+oranıyla C'nin D''ye oranı birbirlerini
+korumalı diyoruz. Birbirine paralel en
+az üç doğrunun kendilerini kesen
+doğrular üzerinde oluşturdukları
+karşılıklı doğru parçaların uzunlukları
+orantılıdır. Sizin için önemli olan yer
+burası. Biz buranın orantılı olduğunu
+söyledik. Altlarını da çizdik. Bir dik
+üçgende hipotenize ait yükseklik
+çizildiğinde oluşan dik üçgenler
+birbirine ve başlangıçtaki üçgene
+benzerdir. Bunu da biliyoruz. Öklit ve
+teles teoremleri bir üçgenden harekette
+o üçgene benzer üçgen oluşturma yoluyla
+da elde edilebilir. Bunu da zaten şimdi
+aşağıda bir daha göstereceğiz. Önce şu
+iki sorumuza bakalım. Örnek 30. ABC
+üçgeninde DE paralel FG DE FG FG'ye
+paralelse arkadaşlar FK'ya da
+paraleldir. BL'ye de bunlar
+paralellerdir. Bunları özellikle
+göstereyim. Şimdi aşağıda bir tane oran
+verilmiş. DK'ye 5'in bir katı dersek
+PL'ye 2'nin bir katı diyeceğiz. Şimdi
+bunlar FBL üçgeni ile DFK üçgeni benzer
+üçgenlerdir. Değil mi? Dolayısıyla şu
+benzerliği kullanmak isteseydik ne
+derdik? Eğer burası 2nin bir katı ise
+demek ki şu BL de 2nin bir katı olmalı.
+Ama K değil artık M katı olsun. Eğer
+burası 5'in bir katıysa PK de 5'in 1
+katı olmalı. Bak 5k/ 5m 2k/ 2m. Bu
+oranlar korundu. Şöyle düşünün. Burasını
+boncuk düşünün. Bur da boncuk. Boncuğun
+karşısı 5g aşağısı 5m. Oranları k/ m.
+Boncuğun karşısı 2s aşağısı 2m. Oranları
+K/ M. Anlaştık. Bunu yaptık. Peki bize
+KG'nin tamamı 14 mü denmiş? Yok. FG'nin
+tamamı 14'müş. O zaman KG'ye kaç kaldı?
+14 - 5m kaldı. Buranın tamamı 14'müş
+arkadaşlar. Yukarıya da 4 kalmış. Gelin
+isterseniz biz az önce uyguladığımız
+gibi bir paralellik oluşturalım. Bunu
+indiriyorum. Bu arada bu 5m'leri sadece
+burada kullanmak zorunda değildik. Onu
+da hemen söylemiş olalım. Madem öyle şu
+açıklamayı da yapmadan geçmeyeyim.
+İçimde kalacak. Yoksa bu DK dediğimiz
+yere 5K dediysek eee ve FL'ye 2K
+dediysek aynı şekilde bunların uzun
+kenarları hipotenüsleri hakkında da bu
+oranları koruyabilirdik. Yani buraya 2m
+derken buraya da 5m diyebilirdik. Niye?
+5m'nin 2m'ye oranı 5'in aslında burada
+tamamı gibi düşünün. Tamamı gibi
+düşünün. Bak şurası 2k. Burası 2k oldu.
+Ha o zaman 5'in 7'ye oranı gibi. Bunu
+koruyor olacaktık. Tamam. Gözlerden
+kaçmasın. Peki burada da verebilirdim.
+Bir bakalım hangisi işime yarayacak. Ben
+yine paralellik oluşturmak istiyorum.
+Madem öyle şu paralellikleri koruyorum.
+Burası 4 gelecekse de 4 gelecekse F E
+yok gibi. Hadi buraya kadar yine 4
+diyelim. Yine şuranın tamamı da kaç
+gelecek? 4. Burada T olsun. Anlaştık.
+Şimdi buranın tamamı 14 ise HG'ye kaç
+kaldı? 10 kaldı. Yine biz buradaki
+paralellikleri tabii ki de gözetmek
+durumundayız. Tamam. Benden ne
+isteniyor? Benden BC isteniyordu. Ben
+şuranın tamamını bulmak istiyorum.
+Elimde bir oran oluştu artık. Ne oluştu?
+Paralellikten dolayı 5m varsa şurası
+5m'dir. 2m varsa şurası da 2m'dir. Bu
+üçgeni görüyor musunuz? Ehg üçgeni ETC
+üçgeni. Yakaladınız mı? 5 7. Aa o zaman
+bu oranlar yine korunacaktır. Tabii ki
+de 5'in tamamına oranı ya da 5'in 2'ye
+oranı da diyebilirsiniz. Ben tamamı
+olarak alacağım. Benzerlik yapıyorum.
+10unc'ye oranına eşit gelecektir. 10/ TC
+5/7 = 10/ TC. Aşağı değil, yukarının kaç
+katına çıkmışız? 2. O zaman aşağısının
+da kaç katına çıkmak durumundayım? 2. O
+halde TC uzunluğumuz 14 gelecektir.
+TC'yi 14 bulduğumuza göre bizden istenen
+BC uzunluğunun tamamı da ne gelecekti?
+BC BT + TC olduğuna göre bu da 14 + 4
+sırayla yazalım. 4 + 14'ten 10 8 olarak
+bulunacakmış. Hemen yana geldim. ABC bir
+dik üçgen ve BDEF bir dikdörtgen. AF 3FE
+2FB 2 3 4 En küçük ortak katları 12. O
+zaman 12'de buluşturalım. AF'ye 3'ün bir
+katını koyalım. PE'ye 4'ün bir katını
+koyalım. Dikkat edin burası bir dik
+üçgen. ABC bir dik üçgenmiş. O zaman
+şunlar birbirlerine paralellerse burada
+bir dik üçgendir değil mi? Çünkü buranın
+bir dikdörtgen olduğu bilgisi verilmiş
+arkadaşlar. 3 4 ne üçgeni vardı? 5. O
+zaman burada 5'in bir katı olacak.
+İhtiyacımız olur mu bilmiyorum. Yine de
+yazmak istedim. Devam ediyorum. TB
+yerine kaç kaldı o zaman? 6nın bir katı
+kaldı. Çok güzel. Şimdi lütfen şuraya
+odaklanın. Harika gözüküyor zaten. Bu
+üçgen ve şu üçgene odaklanın. Gördünüz
+mü? Neyi görelim? 3'ün tamamına oranı
+4'ün burada 4K'nin 3k'nin 9K'ye oranı
+4K'nin BC'ye oranına eşit gelecektir.
+Şimdi bize neyi soruyor? Bir önce onu
+algılamaya çalışalım. Ec'miş arkadaşlar.
+Şunu şöyle koyayım. Şu EC uzunluğu.
+Evet. Şu an hareketi yapabilirsem
+bildiniz değil mi? Şu hocaların derste
+yapabildiği o şu şekil. Bak yapamıyorum
+lan. Demek ki kendim hala yapamıyorum.
+Hoca oldum hala yapamıyorum arkadaşlar.
+Evet neyse burası 8 olacakmış.
+Uzatmayalım. Buna göre bir yorum yapsak.
+Nasıl yorum yapalım? E 3'ün 9'a oranı
+diyorsak burada da 5'in tamamına oranı
+diyebilirdik. Tamam şunu sildim. Kafamız
+karışmasın. Yazıyorum. 3k/ 9k = 5k/ 5k +
+8. İsterseniz şu k'leri, soldakileri
+sadeleştirelim. İşlem yapalım. 3'e
+böldüm. 1 3'e böldüm. 9'u 3'e böldüm. 3.
+İçler dışlar çarpımı yapalım. 15k = 5k +
+8 gelecek. Demek ki 10k 8'miş. Aha
+buradan K kaç gelecekmiş? 8/10 ya da 4/5
+gelecekmiş. Bizden de AB uzunluğu
+isteniyor. AB uzunluğunun tamamı ne
+kadardır? 9K. K'yi kaç bulduk? 4/5. O
+halde AB dediğimiz 36/5
+cm olmak zorundaymış. Bazen birimleri
+yazmıyorum ama kıymetlidir. Lütfen siz
+notlarınızı güzel tutun. Şimdi geldik en
+önemli teoremlerden birisi Öklit
+teoremi. Bunu çok fazla kullanacaksınız.
+O yüzden iyi anlamanız önemli. İspatını
+da yapacağız. İspatı da gerçekten kolay.
+Bakalım neymiş. Bir dik üçgende
+hipotenüse ait yüksekliğin karesi. Şimdi
+bir dik üçgende ABC bir dik üçgen.
+Hipotenüse ait yükseklik neresi? H
+yüksekliği. Bunun karesi bu yüksekliğin
+hipotenüs üzerinde ayırdığı parçaların
+bu yüksekliğin hipotenüs üzerinde
+buranın hipotenüsü burası dikkat edin.
+90'ın karşısı hipotenüsün üzerinde
+ayırdığı parçaların çarpımlarına
+eşittir. Yani yüksekliğin karesi P ve
+K'nin çarpımına eşitmiş. Bunu
+göstereceğiz. Şimdi teoremin CBA dik
+üçgeninde hipotenüse ait yüksekliğin
+çizilmesi ile ortaya çıkan ABH ve Cah
+üçgenlerini kullanarak ispatlayınız.
+Bariz olan şey nedir burada? ABH üçgeni
+ile C ya onu gösterelim. Bu arada buraya
+boncuk koyayım. Burası dikse buraya
+çizgi kalsın. Toplamları 90'sa bakın
+burası çizgi geldiyse buraya boncuk
+kalacak. O zaman buraya da çizgi
+kalacak. Dolayısıyla
+çizgi boncuk 90 çizgi
+nasıl söyleyeyim? Çizgi boncuk 90. O
+zaman C olacakmış. Evet. Buradan ne
+deriz? AB'nin
+C'ya oranı eşit gelecektir. Biraz okunur
+yazayım. Çivi yazısı gibi olduğu için.
+Evet. Bh'nin
+AH'ye oranına bu da eşit gelecektir.
+AH'nin kime oranı olacaktır? CH'ye
+oranına. Şimdi bakalım. AB dediğimiz C
+böl C dediğimiz bakıyorum CA dediğimiz
+şurası B C/ B = BH/ AH BH'miz P gelecek
+ah'miz kaç gelecek? H gelecek. Güzel. E=
+AH/ CH. AH'miz yine H gelecek. CH'miz
+nerede? İşte şurada K gelecek. Şimdi şu
+ikisini yakalayın. Birinciyi boş verin.
+Ne bulmuş olduk? P/ H = H/ K. İçler
+dışlar çarpımı yapıyor olsaydık buradan
+neyi görecektiniz? H x = p x k ise kares
+= p x k gelecek. İşte bunu çok sık
+kullanacağız. Nedir? Eğer 90 dereceden
+dikten bir dik indirdiyseniz bu
+indirdiğimiz yüksekliğin karesi
+ayırdığımız parçaların çarpımına eşit
+gelecektir. Şöyle düşünün. Burası 6,
+burası 4 olsun. O zaman 36 = 4 x bir şey
+işte bu bir şey de 9 olacakmış. Tamam.
+uygulamalarını aşağıda yapacağız zaten.
+Şimdi devam ediyorum. CBA, ABH ve CAH
+dik üçgenleri arasında herhangi bir
+benzerlik kuralı var mıdır? Şimdi zaten
+yukarıda yazdık. Bir bakayım siz ne
+kadarını görüyorsunuz. Tamam, şu anda
+görüyorsunuz. CBA, CBA
+bu büyük üçgen ve ABH ile CAH demiş.
+Zaten biz şunların birbirlerine benzer
+olduğunu yazdık. Şimdi bu artık bir daha
+yazmaya gerek yok. Sorgulamaya kapalı.
+Burada da yazmışım. Bunu da getirip bir
+daha yazdığımı düşünün. Peki başka ne
+söyleyebilirim? E şunu
+söyleyebilirsiniz. Burada da boncuk 90
+çizgi var. Ha az önce boncuk 90 çizgiyi
+kimle yazmıştık mesela? AB. Bir daha
+bakalım. AB gerçi bizim için neymiş?
+Çizgi eee boncuk 90'mış. Biz de onu
+uygun ona uygun yazalım. Çizgi boncuk
+90. O zaman bu da CBA üçgeniyile benzer
+olacakmış. Aa o zaman aynı şeyleri
+yazabiliriz. Ne demek o? Yukarıdakilerin
+şu oranıyla kimler çünkü birbirlerine
+benzerdi arkadaşlar. Bakın AB'nin CB'ye
+oranı. Ben bunları şöyle yazayım. CB'ye
+oranı. Bu neye eşit gelecektir? AB'nin
+CB'ye,
+BH'nin BA'ya. Aşağı alacağım bunu merak
+etmeyin. AH'nin de CA'ya oranlarına eşit
+gelecek. İşte bunu da alıp şuraya
+koyalım. Tamam mı? Şimdi bunlar da
+birbirlerine tabii ki ne olacak? Oran
+olarak eşit olacaklar. Nedenini
+anladınız değil mi? Şu eşitlikler
+yukarıda kalmış. Çünkü çünküsü çünkü bir
+öğrencim öyle diyordu. Çünküsü çünkü
+arkadaşlar şöyle bulduk. Şimdi buradan
+ne diyeceğiz? Bakın madem öyle şu
+eşitlikler elimizde var. O zaman ortak
+olan bir yer var. Görebiliyor musunuz?
+Ortak olan bir yer. İkisinin de üstü.
+Şunlar birbirlerine eşit mi? Peki şöyle
+düşünseydiniz. K/ M gibi bir şey var
+elimizde. Aşağıda da K/ T gibi bir şey
+var. Eğer biz bu iki sayıyı birbirlerine
+oranlasaydık ne bulurduk? K/ M x T/ K.
+Yakaladınız mı? Ha buralar K, buralar M
+ise, buralar K, buralar M ise gelin
+hepsini birbirlerine şöyle oranlayalım.
+Elimizde ne kalacakmış? Bu T olacaksı.
+Demek ki sonucumuz ne gelecekmiş?
+Şunları çarptığımız zaman K'ler
+gidecekti ya. T/ M yani bu bölü bu
+gelecekmiş. Yakaladınız mı? Bir daha
+söylüyorum. Bu dört ifadeyi birbirlerine
+bölelim. Şimdi niye bölüyoruz? Ya oran
+bulacağız çünkü ve size bir şey
+anlatacağım. Yani bunu yapmam lazım.
+Böldüğüm zaman bakalım ne ortaya çıkmış.
+Tekrar söylüyorum. Şu ifade olacaktı.
+Açıkça göstereyim. Hatta sonrasında biz
+bu ifadeye bir de ne koyacaktık? Bölü
+dediğimiz için buradaki ifade çarpım
+olarak yukarı gelecekti. Yakaladınız mı?
+Şöyle koydum.
+Evet. Bölü. Bu bu ifadeler niye böyle
+geldi? Hiçbir fikrim yok. Geri alayım.
+Ben güya kopyalamıştım.
+Evet. Şöyle yapacağım. Bu ifade gelecek.
+Bunu lacivert yapayım çünkü takla
+attırdım.
+Bölü bölü bölü eşittir eşittir. Aşağıda
+da şunlar gelecek. Hadi bir kere daha
+yazalım. Ah b ah. Bunları çarparsak
+hepsini çarparsak şöyle ne görüyorsunuz?
+Bakın yukarıdaki oranların aynısı
+aşağıda da var. Artık elimizde ne kaldı?
+Her birini ayrı ayrı oranlıyoruz. Bu
+arada öyle düşünün. Artık burada
+elimizde kalan şey şu. CB'nin CA'ya
+oranı eşittir BA'nın
+AH'ye oranı eşittir CA'nın CH'ye
+oranına. Buradan ne bulursunuz? Bakın.
+CBA
+yukarısı CBA üçgeniymiş. Aşağısı
+nereymiş? C Aa.
+Ne bulmuş olduk acaba arkadaşlar? Hiç
+şaşırılacak bir şey değil. Şöyle yana
+taşıyorum sizi. Bakın bulduğumuz şey şu.
+Elimizde eğer ABh üçgeni varsa bu AB
+üçgeni kiminle benzer olacaktı? Cah ile
+benzer olacaktı. Bu CAH üçgeni aynı
+zamanda kiminle benzerdir? Onu
+göstermeye çalışıyoruz. Bu AB üçgeni CBA
+büyük üçgeni ile benzerdi. Yani şu üçgen
+hem şununla hem de şununla benzer. O
+zaman şunu diyebilir miyiz? Bu bununla
+benzerse ve bununla benzerse o zaman bu
+ikisi de birbiriyle benzerdir deriz.
+İşte dedik bak ne dedik. CBA üçgeni
+kiminle benzer olacakmış? C üçgeni ile
+benzer olacakmış. Burada da şu vardır. A
+üçgeni A gibi bir üçgen olsun. B ile
+benzer. B üçgeni C ile benzerse A da C
+ile benzerdir. Tamam. Benzerlik
+geçişmeli olacak. Buna da cebirde öyle
+denir. İleride belki matematik bölümü
+okursanız bunu göreceksiniz zaten. Peki
+bakalım. Benzerlik kuralı var mıdır?
+Vardır. Paşa gibi gösterdik. İşte vardır
+burada. Evet. Çok önemli. Başka bir
+ispata geldik. Bunları yanda tutmak
+zorundayım. Silmeyeyim. Kitabın
+çözümlerini belki size yüklersem
+ulaşırsınız. Yaptığınız ispatta
+kullandığınız yöntemi değerlendirmek
+için bu üçgenler arası benzerlik
+kurallarını kullanarak C'nin karesi
+P'nın çarpımına. Şimdi onlar ne demek?
+Bir daha yukarı inçik yapmayalım. Ben
+şunu kopyalayayım. Gelin aşağı
+yapıştıralım. Burada görmeye çalışalım.
+Tamam. Göstereceğimiz şey şu. Çok
+kullanışlı bu arada ve soruların
+içerisinde milyon kez kullanacağız. Bu
+ifadenin karesi bununla bunun çarpımı
+bununla bunun çarpımına eşitmiş. Aynı
+şekilde bununla bunun çarpımı yani B'nin
+karesi de K ve A'nın çarpımına burası
+çarpı buranın tamamına eşitmiş. Tamam.
+Bunu göstermek istiyoruz. Yukarıda neyi
+bulmuştuk? CBA üçgenimiz C üçgeni ile
+benzerdi. O zaman gelin buradaki
+benzerlikleri kullanmaya çalışalım. Ne
+gelecektir? Şurada yazmışım gerçi. Bir
+daha yazmayayım. Şu oran gelecekti.
+Tamam. CB neye eşittir? Bakalım. CB
+buranın tamamı yani A'ya eşittir. A/ CA
+neye eşittir? Bakıyorum B'ye. A/ B = BA
+neye eşittir? C'ye. AH neye eşittir?
+E'ye. C neye eşittir? Bir daha bakalım
+buradan. by CH neye eşittir? K'ye. Şimdi
+şu ikisiyle sadece odaklanıp düşünürsek
+H'yi boş verin. Şu baş ve sondakilere
+bakalım. O zaman A/ B neye eşit
+gelecektir? B/ K'ye. A/ B = B/ K ise
+B'nin karesi ne gelecektir arkadaşlar? A
+x K gelecektir. İşte bak bunu göstermiş
+olduk. Yakaladınız mı? B'nin karesi A x
+K. Aynı şeyi şu CBA CBA ABH üçgeni
+benzerliği için göstermeye çalışalım.
+Oranları burada. Bunu da alayım. Zaman
+kazanalım. Nerede? Şurada. C B CB
+uzunluğu ne gelecekmiş? A E= BH uzunluğu
+PA uzunluğu C = AH uzunluğu E. C
+uzunluğu B. Yine nereye odaklanalım?
+C'liler lazımdı bize. Görüyor musunuz? A
+x P neye eşit gelecekmiş? C'nin
+karesine. İşte iki özelliği de göstermiş
+oldum. Ben bunları şöyle farklı bir
+kutucuğa alayım. En azından ne
+yaptığımızı siz de çok rahat bir şekilde
+görün. Burası ve burası olacak.
+Aklımızda nasıl kalsın? Eğer dikten dik
+indiriyorsak şuradaki kenarın karesi
+burası çarpı burasına, buradaki kenarın
+karesi burası çarpı burasına eşit
+gelecek. H'nin karesi burayla buranın
+çarpımına eşit gelecek. Üç özelliğin
+üçünü de ispatlamış olduk. Şimdi bununla
+alakalı soru çözelim. İyice içinize
+sinsin. Havada kalmasın. ABC ikizkenar
+üçgen. Geçmiş bilgilerinizi de
+unutmuyorsunuz. Şimdi ikizkenar bir
+üçgen varsa elimizde zaten burada bakın
+noktaları da verilmiş. ABC ikizkenar
+üçgen. O zaman şu kenarlar birbirlerine
+eşitler. O zaman ikizkenar bir üçgende
+arkadaşlar bir açıortay varsa elimizde
+bu aynı zamanda nedir? Kenarortaydır.
+Hatta tabana ne iner? Açıortay aynı
+zamanda yükseklikti değil mi? İkizken
+yazalım. İkiz kenarda açıortayımız neye
+eşit gelecekti? Kenarortaya.
+Kenarortayımız neye eşit gelecekti? Aynı
+zamanda yüksekliğe eşit gelecekti. Niye
+yükseklik önemli burada? Çünkü
+indirdiğimizden dolayı burası yükseklik
+olacaksa 90° olacaktır. Yani dik
+olacaktır. Aa o zaman burası da dik
+olacaktır. Şimdi işin rengi değişti.
+Niye? ADB üçgenine odaklanın dikten dik
+inmiş. Biz az önceki formüllerimizin
+hepsini dikten dik indiği durumlarda
+uygulamıştık. O halde buradan yorum
+yapabiliriz. Şimdi gelin bize verilen
+bilgileri yazmaya çalışalım. Ne demiş?
+AB'si BC'ye eşit. Bu arada bunu zaten
+kullandık soruda. HB dediğimiz ifade
+3'ün bir katı olsun. HB 3'ün katı. AH ne
+olsun? K olsun. HD de 6 olsun. HD şurası
+da 6. Peki yüksekliğin karesi 6ın karesi
+36 neye eşit gelecekti? Burası çarpı
+buraya. Yani k x 3k'ye. O zaman 3k'nin
+karesi 36 gelecekse k'nin karesi 12
+gelecek. K ne gelecektir? 2√3
+gelecektir. İşte bu kadar. Hemen yana
+geldim. 33. soru. ABC dik üçgen. AH
+diktir. BC olarak verilmiş. BD DA AH 6
+cm. Şimdi BD ve DA verilmiş. ah
+verilmemiş. Burası da kaç gelecekmiş? 6
+cm gelecekmiş. Lütfen dikkat edin.
+Dikten dik inmiş. Peki o zaman burada
+6ın karesi neye eşit gelecekti? Şunların
+çarpımlarına eşit gelecekti. Tamam.
+Başka ne diyebiliriz? Bir dakika. Bunlar
+6ysa biz bunları bir koyalım. O yüzden
+göremiyoruz. Burası 90 derece değil mi?
+Tamam. Şimdi oldu. 6 ve 2 tane 6. Yine
+hatırlatırken hep size dediğim bunları
+bilin. Bunlar önemli. Birkaç kez
+söylesem de bir kere daha söyleyeceğim
+bir üçgen. Ne üçgeni? söyleyenlere bravo
+artık. 30 60 90 üçgeni. Ne dedik? 30 60
+90 üçgeninde eğer 30 derecenin karşısı x
+geliyorsa
+90 derecenin karşısı 2x, 60°cenin
+karşısı x√3. Bakar mısınız? 6nın 2 katı
+var. Ha demek ki burası 90 derecenin
+karşısı 6ın 2 katıysa 6'yı gören açı 30°
+olmak zorundadır. O zaman tepeye
+mecburen 60° kalacaktır. Burası 60°erece
+ise toplam 90 olacaksa buraya 30°
+kalacaktır. Burası 90 burası 30'sa o
+zaman buraya kaç derece kalacaktır? 60°
+kalacaktır. Tamam. Şimdi şuna dikkat
+edin. 60°cenin karşısı 6. Ha burada
+nasıl yorum yapacağız? Az önce ne
+demiştik? 60'ın karşısı x√3 ise
+demiştik. Gelin x√3 değerimiz burada
+kafanız karışabilir. x√3 değerimiz 6
+olsun. Bu bize neyi verir? 30'un
+karşısını artık verir, değil mi? Buradan
+x'i buldursak o zaman x değerine
+gelecek. 6/√ö3 ya da 6√3/3 ya da 2√3.
+Demek ki 30°cenin karşısı yani HC
+kenarının uzunluğu 2√3. Hatta 90°cenin
+karşısı da 30'un 2 katı olacağı için 4√3
+olmak zorundaymış. Peki tekrar
+anlatıyorum. 30'un karşısı 2√3 olmalı ki
+60 derecenin karşısı onun √3 katı olsun.
+2√3ile √3'ü çarptık 6. E 90 derece de
+buranın 2 katı. 30'un gördüğünün 2 katı
+olmalı. Tamam. Her şeyi bulduk. Ne kaldı
+elimizde yorum yapacağımız? Dikten dik
+inmiştik. Orayı gözden kaçırmayın. ABC
+üçgeninde biz dikten dik indiğimiz için
+Evet. Yine sonlarını uzata uzata
+anlattığıma göre bir şey görmeniz
+gerekiyor. 6ın karesi neye eşit
+gelecekti? Buradaki P ve K'nin, az önce
+P ve K demiştik. Burada BH ve HC'nin
+çarpımlarına eşit gelecektir. Tamam. HC
+dediğimiz kenar 2√3. BH'yi bilmiyoruz.
+Zaten BH'yi bulursak yanıta gideceğiz
+sanki, değil mi? Peki BH'yi bulmaya
+çalışalım. X HC. HC de 2√3. Burası 36
+gelecek. 2'ye böldüm. 18 18/√3 ya da
+18√3/3
+ya da 6√3. Bu da B H uzunluğuna eşit
+gelecekmiş. Düzgünce koyalım. Burası 6√3
+olacak. Şimdi bizden istediği şey nedir?
+DH uzunluğu. Burayı da gördüyseniz
+gerçekten sizi tebrik ederim. Bence
+burası da görülmesi zor bir yerdi.
+Lütfen şuraya odaklanın. Renkleri
+sildim.
+DC üçgenine odaklanın. Ne görüyorsunuz
+arkadaşlar? Burası 90°.
+E tamam hocam bize ne faydası var
+diyorsanız bizden DC uzunluğu isteniyor.
+DC peki nerede? Tam 90'ın karşısında. E
+diğer kenarları biliyorsunuz. Ben şurayı
+fazladan bulmuşum. Hatta bak buraya da
+gerek yokmuş. Şu 6√3'ü fazladan bulduk
+ama önemli değil. Belki şu 6 verilmese
+hani bura verilse güzel olabilirdi.
+Önemli değil. Biz hepsini göstermiş
+olalım da 90'ın karşısını arıyorsunuz.
+Bir kenar 6, bir kenar 4√3. O zaman DC
+kenarının karesi ne gelecektir? 36 +
+4√3'ün karesi 16 x 3 48 ikisini buraya
+versek 50 54 84 mü geliyor DC DC sanırım
+84 geliyor buradan da karesi tabii ki
+DC'nin uzunluğu ne gelir karekök
+içerisine aldınız 2√21
+cm gelecekmiş Evet o son yeri görmek
+bence gerçekten zordu. Gördüyseniz
+tebrik ederim. Şimdi Pisagor teoremi
+diyelim. Pisagor teoremini yine 8.
+sınıfta LGS sınavına hazırlanırken de
+çok fazla göstermiştiniz. Burada artık
+ispatlarından bir tanesini yapacağız.
+Yanlış olmasın. Yaklaşık 4 ya da 5 ispat
+şu an kafamda var ki bu sadece benim
+hatırladıklarım ve bildiklerim. Eee,
+Pisagor ispatının çok fazla şekilde
+gösterildiğini biliyorum. İsterseniz
+internetten bakabilirsiniz. Yani farklı
+ispatları nedir? Dilerseniz yani böy üç
+ispatı görmek size araştırma ödevi
+olsun. Ama bazılarına şu anki bilginiz
+yetmeyebilir. Yine de bakmak isterseniz
+size bir ödev ev ödevi bırakmış olayım.
+Şimdi elimizde bir dik üçgen var.
+Bildiğimiz şey ne? Dik kenarın karesi
+diğer kenarların kareler toplamıdır.
+Hadi bunu şimdi bildiğimiz konuyla,
+eşlik konusuyla ve benzerlik konusuyla
+göstermeye çalışalım. Tabii dikten
+dikeneceğiz. Onu da unutmayın. Burada
+bir diklik varsa gelin biz şu AC
+kenarına bir dik inelim ve buraya H
+köşesi diyelim. Buranın tamamı B oldu
+arkadaşlar. O zaman şu kenara isterseniz
+D kalsın. HC uzunluğu. Burası D olsun.
+Buraya AH'ye ne kaldı? Ben şu B'yi
+boyuyorum. Olur mu? Kafa karıştırmasın.
+Bu AH'ye de B - D kalmış olsun. Biz
+yükseklik indirdiğimiz için dikten dik
+indik. O zaman elimizde artık Ökledi
+kullanacağımız da bir yer var, değil mi?
+İki tane yer var. Hatta ne
+diyebilirsiniz? A'nın karesi. Bakın
+şurada bir dik üçgen oluştu. A'nın
+karesi neye eşitlik gelecektir? Not
+olarak yazayım ben onu. HBC üçgeninden.
+Yoksa havada kalacak. HBC üçgeninden.
+Bu bir dik üçgen. HBC dik üçgen diyelim.
+O zaman ne diyebilirsiniz? A' karesi E=
+BH'nin karesi. Buraya da hatta H diyelim
+mi? Tekrar uzun uzun yazmayalım. H'² +
+D''nin karesi olacaktı. Hatta bir şey
+söyleyeceğim. Biz burada dikliklerden
+gidiyorsak, dikten dik indirdiysek
+onları yazayım. Daha güzel gösterelim.
+Burada H neye eşit gelecektir? H'nin
+karesi. Ya da önce A'nın karesi ile
+başlayalım. A' kes² = D x tamamı B. O
+zaman A² = D gelecektir. Aynı şeyi kim
+için söyleyebilirsiniz?
+Cöyleyebilirsiniz. CDE B - D gelecektir.
+C'nin karesi B - D gelecektir. Buradan
+neyi söyleyebilirdik aslında? B - D
+gelecektir. B'in karesi - BD gelecektir.
+Değil mi? BD dediğimiz şey ne?
+DB ya da BD önemli değil. Burası A'nın
+karesine eşit gelecek. Yerine
+koysaydınız arkadaşlar C'es = Bin kares
+- A'ın karesi olurdu. O halde C'nin
+kares + A'ın karesi de eş B'nin karesi
+gelmiş olacaktı. Bak göstermek
+istediğimiz şeyi buradan göstermiş
+olduk. E şuralardan da bir şey
+gelebilir. Ben yarıda kestim ama a² h² +
+d² ya buradan diğer üçgenden, şu dik
+üçgenden neyi söyleyebilirsiniz? C² = E²
++ B - D'nin karesi. Belki buradan da
+taraf tarafa toplayıp bir şeyler
+getirebilir miydik? Ama 2BD'ler kalıyor
+sanırım. Herhalde buradan çok daha rahat
+gösteremiyoruz. Aşağıdaki gibi göstermiş
+olayım. Peki bundan sonra bu teoremi de
+bilinçli bir şekilde kullanalım. Pisagor
+teoremi. Gelelim çok basit ama sizler
+için hayati derecede önleme sahip bir
+soruya. Bulduğumuz bağıntıyı kullanarak
+üçgenin bir iç açısının ölçüsü 90
+dereceden büyükse eğer elimizde 90
+dereceye sahip bir üçgen olsaydı
+hipotenüsünün kenarı ile alakalı neyi
+söyleyebilirdik? Burası C kadarmış
+arkadaşlar. C'nin karşısı ya. Şöyle ben
+rengimi değiştireyim. Eğer bura C
+kadarsa bura 90° olsaydı A'² + C'nin
+karesi B'nin karesine eşit gelecekti.
+Neyi biliyorsunuz? Küçük dereceli açının
+karşısındaki uzunluk küçük, büyük
+dereceli açının karşısındaki uzunluk da
+büyük olmak zorunda. Yani elimizde bir
+50 60 70 üçgeni olsaydı 70'in karşısı
+diğer kenarlara göre daha uzun olmak
+zorundaydı. Bunu biliyoruz. Buradan yola
+çıkarak elimizdeki bir dik üçgenin en
+uzun kenarı doğal olarak neresi gelecek?
+Hipotenüsü gelecek. Ama biz bu üçgeni
+geniş açılı yapsaydık, bu üçgenin a
+kenarını birazcık daha böyle
+devirdiğinizde, geniş açılı bir üçgen
+haline getirdiğinizde artık bu aradaki
+açı 90 dereceden büyük olduğu için yeni
+oluşturduğunuz bu A üssü, C üssü artık
+az önceki hipotenüsümüzden daha ne
+gelecektir? büyük gelecektir. Yani B
+üssü daha büyük gelecektir. O zaman
+burası bir dik üçgenden daha geniş açıya
+sahip olduğu, daha büyük açıya sahip
+olduğu için geniş açıda olduğu için
+A'nın karesi ve C'nin karesi B üssünün
+karesinden küçük kalır. Eğer 90° olsaydı
+yazalım. Geniş açılı da geniş açı.
+Düzgün yazayım şu kalemi bir tane
+büyüteyim. Geniş açı. Neyi söyledik?
+A'ın karesi + C'es &lt; B üssünün karesi.
+Peki dik üçgende ne olacaktı? Dik açıda
+ne olacaktı? a' kares + c kares = b'n
+kares peki dar açıda ne olur sizce?
+Bence çok e yani çok açık göstermesi,
+çok açık düşünmesi. Dar açı konuşamadım.
+A' karesi + c'nin karesi de küçüktür
+değil. Bu sefer büyüktür. B üssünün
+karesi olacak. Değil mi? Bunu nasıl
+söylersiniz? 90 da B'ye eşitse 90'dan
+daha küçük bir şey aldığımızda şöyle bir
+şey aldığımızda açısı dar açı oldu. Şu
+anda gördüğünüz gibi burada da normalde
+olan bu B uzunluğundan artık daha küçük
+bir uzunluğa sahip olacaktınız. Tamam.
+Bu yorumları yapabilmemiz mümkün
+olacaktı. Peki burada açıklamalar var.
+Pisagor teoremi ve Pisagorla alakalı.
+Kendiniz okuyabilirsiniz. Nerelerde
+kullanıldığı çok basit bir şekilde
+kitapta aktarılmış. Biz gelelim soru
+çözümlerimize. Soru 34. Evet. Güzel,
+yorucu bir soruya benziyor. Bakalım
+neler yapacağız. Buna göre çizim yapan
+kağıdın çevresini soruyor. Tamam, sizi
+yerleştirebildim. Şimdi şuralar eşit
+olarak verilmiş. Demek ki biz bu kağıdı
+ben şöyle çizmek istiyorum. Tam ortadan
+burada bölmüşüz. Elimizde bir diklik
+var. Buraya gördüm. Burası 4. Hatta
+şurası k ise arkadaşlar, şöyle rengimi
+değiştireyim. Bakın şurası 2K'ye k
+bölünmüş ya burayı uzatıyorum. Burada
+bir benzerlik görüyorum. 4 var. Nerede?
+2K'de. Buranın tamamı 3 ise buranın
+tamamı ne olacaktır? 6 olacaktır. Değil
+mi? 2K'ye 4 düştüyse 3K'ye 6 düşer.
+Buranın tamamının 6 olması için şuraya E
+diyeyim isterseniz bu noktaya ya da
+hiçbir şey demeyelim. Buraya 2 kalmak
+zorundadır. Şimdi dikten dik inmişiz.
+Bunu da kullanmak istiyorum. Şöyle yorum
+yapalım. Sildim bunları. Kafa
+karışıklığı olmasın. Burası 2k. Burası k
+ise o zaman burası 2h olacaksa şuranın
+tamamı da ne olacaktır? 3 H olacaktır.
+Dikkat edin. 3H burası, 1 burası.
+Buranın tamamı kaç geldi? 3h + 1. Burada
+3 varsa ne ile 3'ü toplarsak 3h + 1
+eder? 3h - 2 ile. Demek ki şurası da
+şunu yukarı 2'yi şuraya alayım. Şu
+kısımda 3h - 2 olmalı ki 3 ile
+toplayınca 3h + 1 olsun. Burada da 3h +
+1 çünkü yazdık. Yakaladınız mı şurayı?
+Burayla buranın çarpımı neyi verecektir?
+Yüksekliğin karesini. Çünkü dikten dik
+inmişiz. O halde 4'ün karesi h² = pk
+vardı. Hatırlayın. Hep böyle aklınıza
+gelsin. Ha. h² = pk. O zaman h² = 2h x p
+x k. 16 = 6h kares - 4h. Böyle mi
+olacak? Doğru mu buldum? Sadeleştirme
+yapalım. Her tarafı 2'ye bölelim. 8 =
+3h² - 2h. 3h karesi -2h -8 0 gelecek. O
+zaman bu 3h h gelecek. çarpanlarını
+ayırıyorum. + 4'e -2 mi gelir? Yani 3h +
+4'e h - 2 olacak değil mi? 3h²
+-6 4 daha -2 -8. O zaman h'miz buradan
+kaç gelecekmiş? 2 gelecekmiş. H yerine 2
+koyduğumuz zaman ne buluyoruz? Şurayı
+siliyorum. Kopmayın lütfen. Burası 4
+geliyormuş. Burası 6 geliyormuş. Şimdi
+elimizde şurada bir dik üçgen daha var
+ve dikten yine ne inmişim? Dik inmişim.
+Yakaladınız mı? O zaman buranın karesine
+gelecektir. Burası çarpı burası.
+Yakaladık mı? Bir daha gösteriyorum.
+Farklı renklerle gösteriyorum.
+Şöyle büyüteyim.
+Buranın karesi için bu üçgene bakacağız.
+Burası için 6 çarpı buraya ne kalmak
+zorundadır? Şu uzunluğa artık 6 kalmak
+zorundadır. Burayı da koyduk. Peki
+sanırım her uzurluğu göstermiş oldum. 3
+6 daha 9 2 daha 11 4 daha 15 3 daha kaç
+geldi? 18 buranın tamamı yatayda 18'miş.
+Burada ne kadar? H'yi az önce 2
+bulmuştuk. 2 3 6 1 daha 7 burada 7. O
+zaman şurası da kaç geliyor? 14 geliyor.
+Gerçekten çok güzel bir soruymuş bu. 14
++ 18 diyecektik tabii ki. Çevresine
+bakıyorsak çevre yine not olarak
+yazayım. Buranın 2 katı olacakmış. Bu da
+kaç gelirdi? 32 mi geliyor? 22 32 x 2 64
+cm olarak yanıtınızı bulacaktınız.
+Çözdüyseniz tebrik ederim.
+Gelelim şu iki sorumuza. 35.
+AB FC AC DF. Bunlar verilmiş zaten bize.
+Uzunlukları da yazmış. Şöyle yapalım.
+Buradaki açıyı boyayalım arkadaşlar.
+Burası dik olsun. Buraya boncuk koyayım.
+Dolayısıyla bura boncuk olsun. Hatta
+burayı da çizgi yapayım. Boyamıyorum.
+Vazgeçtim. Çizgi ile boncuğun toplamı
+90° ediyor. Burası boncuk olduğuna göre
+buraya da çizgi koyalım. Burada 90°
+edecek. Yakalayın. Burası 90, burası
+çizgiyse buraya da ne kalacak? Boncuk
+kalacak. O zaman bir sürü benzerlik var
+burada. Hangisinden yola çıkalım? Şu
+olabilir belki. DFC olabilir. Çizgi 90
+boncuk FDC oldu. Çizgi onu da şurada
+bakmaya çalışayım. Çizgi A 90 B boncuk
+C. Hadi bakalım. FD uzunluğu ihtiyacımız
+yok. Veriler çok eksik. PC uzunluğu 16.
+AC uzunluğu yine veriler eksik. Sanırım
+buradan gelmeyecek. O zaman başka bir
+şeye odaklanalım. Ya şu ikisine
+baksaydık. Ne dersiniz? Belki buradan
+daha güzel olurdu. Hadi bu ikisini
+değerlendirelim. Buradan bulamadım.
+Çıkmıyor. Yapacak bir şey yok.
+Elimizdeki ilk üçgen F çizgi boncuk dik
+olsun. Çizgi boncuk dik. Bu üçgen
+kiminle benzeri olacaktır? AC
+B üçgeni de benzer olacaktır. FE'yi
+bilmiyorum. İstesek buluruz gerçi. 5 ve
+10 var. Dursun. FB nedir? FB 10 böl AB
+nedir? AB'ye bakıyorum. X +
+5. EB nedir? EB 5. CB'ye bakıyorum. CB
+6. Buranın 2 katına çıktıysak buranın 2
+katına çıkmalıyım. O zaman x + 5 12
+gelmeli. X'imiz de buradan 7 gelmeli.
+Bize de x soruluyormuş. Yanıtımız
+buradan 7 olacaktı. Tamam. Kolay bir
+soruydu bu. Belki şu uzunluğu bulup
+buradan da gidebilirdiniz. Emin değilim.
+Hani buradan bir şeyler gelebilirdi.
+ABC ikizkenar üçgeninde ikizkenar üçgen
+AB'ler kime eşit? BC'lere eşit. O zaman
+şurasının da tamamı 2√15 olacak. Şimdi
+dikkat edin. İkizkenar üçgende açıortay,
+kenarortay aynı zamanda yükseklik.
+Dolayısıyla bu açılarınız dik açı
+olacak. Tamam. Bunu da koyduk. Yine neyi
+gördük? Dikten. Bu rengi sevmiyorum.
+Dikten dik inmişiz. Şu üçgenimize
+odaklanalım. Burada da bir yüksekliğimiz
+var. H dedim. Sırayla alakalı neyi
+biliyorsunuz? Buradaki hatta şu DC'yi
+bulabilirim, değil mi? Önce DC'yi
+bulalım. DC'yi bulursam tabana
+indirdiğim için bunlar eşit olacak.
+Burayı bulurum. Anlaştık. 2√15'in
+karesi. Evet, birden akşam oldu ama
+yapacak bir şey yok. Ufak bir işim
+çıktığı için kaydı bu kısımdan devam
+ettiriyorum. Bunu da söylemek istedim
+böyle çünkü biraz doğallığı kaçmış gibi
+olacak kaydın ama evet arkadaşlar önemli
+bir işim olduğu için burayı durdurmak
+zorundaydım. Bunları aldanmadan
+çözümlerimize devam edelim. Evet. Ne
+demiştik? 2√15. 2√15'in karesi. Şimdi
+şurada bir dik üçgen görmüştük.
+Yakaladınız değil mi? Bunu değil pardon.
+Şunu yakaladınız değil mi? Bir dik üçgen
+görmüştük. Bu dik üçgen içerisinde
+2√15in karesi 4 x 15'ten 60 gelecekti.
+Eşittir şuranın karesi ne geliyor?
+4√3'ün karesi. 16 x 3'ten 48 + şuradaki
+uzunluk isterseniz buraya x diyelim. Bu
+da xin karesi gelecek. O zaman x kares =
+12. x dediğimiz şey 4 x 3'ten 2√3
+gelecek. O halde şu uzunluk 2√3. Demek
+ki bunlar ikisi de köşelerin ikisi de
+eşit uzunluktaysa burası da 2√3.
+Anlaştık. Bunları bunları değil şunları
+siliyorum. 2√3. Lütfen dikkat edin.
+Dikten dik inmişti. Hangi üçgende? ADB
+üçgeninde. Dikten dik indiği için burada
+artık şu kenarın uzunluğuyla alakalı bir
+yorum yapma şansımız var. Ne diyecektik?
+Buranın karesi bura çarpı buranın tamamı
+olacaktı. Dikten dik indiği için. Ah
+uzunluğunu bilmiyorum. Gelin buraya da A
+diyelim. Burası A olsun. O zaman buraya
+ne kalacaktır? 2√15 - A kalacaktır. Da
+ihtiyacımız yoktur. Neyse. 2√3'ün karesi
+12 neye eşit gelecekti? Ah uzunluğu yani
+A x tamamı. Tamamı ne? 2√15.
+Yakaladık mı? [kahkaha] He. Şimdi bunu
+çözmeye çalışalım. Her tarafı 2'ye
+bölseydik 6 = a x √15. O zaman 6/√15'ya.
+O halde 6√15/15
+yani 2√15/5
+bu da A'ya eşit gelecekti. İşte bu da A
+kenarının uzunluğu yani şu AH'deki A'nın
+uzunluğu 2√15/
+5 gelecekmiş. Tamam. 3'e böldük. 3'e
+böldük. Tabii böyle olacak. Şimdi artık
+H'yi bulabilirsiniz. Ne diyecektik?
+2√3'ün karesi. Şurası yine bir dik
+üçgen. Gördüğünüzü düşünüyorum. Hızlıca
+işlem yapmaya çalışayım. 2√3ün kares 12
+= a'nın karesi yani şuranın karesi 4 x
+15 60/25
+60/25 + e'nin karesi olacak. Yana
+atalım. E'nin kares = 12 - 60/25.
+Buradan kaç buluyoruz? 250 50 daha 300
+300 - 60/25 bulacağız h'nin karesini.
+240/25.
+Evet. √240 kaç gelir? Düşünüyorum. √240/
+25 karekök dışına 5 diye çıkacak. Burayı
+4'e bölsek 60 kalıyor. 2√60 desek sonra
+bir daha 4e bölsek e değil mi? Bir daha
+4'e bölsek 15. O zaman burası 4√15 mi
+çıkıyor? Şöyle mi olacak? 16 x 15
+gerçekten öyle mi geliyor? Bakayım. 5 x
+6 30 tabii 240 geliyor. O zaman 4√15/5
+olarak bulacakmışız. Bu da bizim H
+uzunluğumuz. T'nin karesi buysa T de
+şuna eşit gelecekmiş. O halde doğru
+yanıtımız ne geliyor? 4√15/5h
+uzunluğunu buluyoruz. Kolay bir soru
+değildi. Peki aşağı geliyorum. Örnek 37.
+37. sorudayız. Ön yüzü yeşil, arka yüzü
+mavi renkte olan şekil 1'deki ABD üçgeni
+biçimindeki kağıt şekli 2'deki gibi AD
+diktir AC olacak şekilde AD boyunca
+katlanmış. Şimdi katlama işlemi
+yapıyorsak siz burayı ben şunun rengini
+bir değiştireyim. Siz burayı buna
+katlıyorsanız arkadaşlar ne olacaktır?
+Bakın şu uzunluklarınız bir kere eşit
+gelecek. Hatta burası buraya dönecektir
+katlandığı için. Yakaladınız mı? Demek
+ki bu uzunlukla bu uzunluk da
+birbirlerine eşit olacaktır. Hatta
+katlama olduğu için bu iki açımız da
+birbirlerine yine eşit gelecektir. Şimdi
+aynı şeyleri uygulayalım. Madem öyle o
+zaman AB uzunluğu A B üssü uzunluğuna
+eşit. Tamam. BD uzunluğu DB üssü
+uzunluğuna ki BD'ye 5 birim demiş.
+Yerine koyuyorum hızlıca. Şuralar 5
+olacak.
+Bunu böyle uzatıyorum. Dikindiği belli.
+Şunu da unutmayın. Burası da dikti. Yani
+biz dikten dikindik. Şu iki açı da
+birbirlerine nelerdi arkadaşlar? Şöyle
+gösteriyorum. Eşitlerdi çünkü
+katlamışız. Peki HD 4. Buraya da 4'ü
+koyduk. Neyi görüyorsunuz? Şu küçük
+üçgende hipotenüsü 5, bir kenarı 4. O
+zaman diğer kenarına 3 kalacaktır. Gelin
+AH uzunluğuna H diyelim. ahh olsun. Eğer
+ah's h ise biz neyi biliyoruz? AB üssü
+ile şöyle göstereyim. AB üssü ile AB
+birbirlerine eşitlerdir. AB üssü H + 3
+olduğuna göre AB de H + 3 uzunluklu
+olmak zorundadır. Şimdi AB üçgenine
+odaklanım. Bu bir ne üçgendir? Dik
+üçgendir. Tekrar gösteriyorum. AB burası
+bir dik üçgen. Bir kenarı 9. Yüksekliği
+burada yüksekliği demeyeyim özür
+dilerim. Bir kenarı e, dik kenarının
+karşısı da H + 3 gelecek. Ne yapacaktık?
+H + 3ün karesi = E'nin kares + 9un
+karesinden 81. 1incinin karesi 1inci ile
+2incinin çarpımının 2 katı 2incinin
+karesi e² + 81 h²areler gitti. 6h = 72 h
+de buradan 12 dolayısıyla şuraya 12
+şuraya da 15 kaldı. Yani bu 9 12 15
+üçgeniymiş. 3 4 5 üçgeninin her bir
+kenarın 3 kat büyütülmüş hali. Peki
+benden DC uzunluğu isteniyor.
+Konuşmadığımız bir yer kaldı zaten. Onu
+da şimdi çizdiğimizde daha net
+göreceksiniz. Lütfen ADC üçgenine
+odaklanın. ADC üçgeninde dikten dik
+inmiştir. O halde dikten dik indiyse
+buranın karesi neye eşit geliyordu?
+P² = PK gibi. PK. Hım. O zaman H'nin
+karesi 144 = 4 x HC gelecekmiş. O zaman
+2'ye bölsek 72, bir daha 2'ye bölsek 36.
+HC uzunluğu kaç gelecekmiş? 36. Burası
+da 36. Bizden ne isteniyor? Bizden DC
+uzunluğu isteniyor arkadaşlar. D noktası
+burada, C noktası burada. Buranın
+toplamı da gördüğünüz gibi 40 olacaktı.
+Tamam. Gayet güzeldi. Yine birçok şeyi
+bir arada kullanmış olduk. 39. Diğer
+sorulardan sonra bence sizi çok kesecek
+bir soru değil. Çok da böyle
+zorlanacağınız bir soru değil. Hatta
+hemen çözeceğiniz bir soru. AC AC D
+birer dik üçgen olmak üzere diklikler
+verilmiş. Paralellikler önemli. DC AB
+paralel koydum. O zaman şurası boncuksa
+şurası da boncuk gelecektir. Boncukla
+neyi toplarsam 90 etsin? Çizgiyi. Boncuk
+var 90 var. Mecburen çizgi. Zaten burada
+benzerlikler gayet net gözüküyor değil
+mi? Ne diyecektik? Çizgi 90 boncuk.
+Hadi. Çizgi 90 boncuk.
+Çizgi 90 boncuk. B C A üçgeni. Pekala.
+Ne yapalım? AD uzunluğu böl BC'ye
+bakalım. E= DC uzunluğu/ C olacaktır. E=
+AC/ BA olacaktır. AD uzunluğu neyi
+bilmiyoruz. DC uzunluğu ne? Şurada
+gördük. 6. O zaman 6/ burası CA. C'ya
+bakıyorum. Şu kısım. Yine burayla ilgili
+bir bilgimiz yok, değil mi? Başka bir
+şey verilmemiş sanırım. C diyelim. Ya da
+biz burada bir şeyleri indirsek mi? Ben
+indireyim. Yoksa böyle zor olacak.
+Benzerlikten gitmeyelim. Bir dakika.
+Şunu indirelim. Eğer bunu indirirsek
+burası 6ysa paralel olduklarından dolayı
+buraya da 6 kalacaktır. Şu uzunluğu
+bilmiyorum. Buraya ne kaldıysa kaldı.
+Buraya x diyelim. O zaman biz de dikten
+dik inmiş olduk. Tamam. 3√3'ün karesi ne
+olacaktır? Evet. Ya buradan göstereyim.
+x + 6 olacaktır. 3√3 karesi ne gelir?
+3√3'ün yazalım. 3√3'ün kares = 6 x
++ 6. 3√3'ün kares 27 = x + 6. Buradan
+görüyor musunuz? X yerine 3 kayarsak 3 x
+9'dan 27 gelir. O zaman x'imiz 3
+olacakmış. E bize neyi soruyor? Şuraya x
+demiştim. AB uzunluğunun tamamını
+soruyor. Eğer burası 3 olacaksa 6 +
+3'ten 9 gelecekmiş. Evet. Ben yine
+uzatıyordum az daha. uzatmadım
+arkadaşlar. Kararında bıraktım. Gelelim
+yana. Son iki sorumuz kaldı bu sayfada.
+39. soru. Şimdi burada sizler için hazır
+hazırlayacağım. Evet burada sizler için
+anlatacağım önemli bir yer var. Önce onu
+konuşmak istiyorum. Yine eğitim öğretim
+hayatınızda sık sık karşınıza çıkacak
+bir üçgen tipi. Bunu bilmeniz lazım.
+Evet. Bu üçgene arkadaşlar bir muhteşem
+üçlü diyeceğiz. Muhteşem üçlü. Nedir
+bakalım? Bu muhteşem üçlü? Bu muhteşem
+üçlü kuralı size şunu söylüyor. Eğer
+elinizde bir dik üçgen varsa ve biz bu
+dik üçgenden bir kenarortay
+oluşturduysak, burayı iki eş parçaya
+ayırdıysak o zaman bu oluşturduğumuz AB
+HC diyorum. AH uzunlukları da BH ve
+HC'ye eşit olmak zorundadır. Peki bu
+niye böyle oldu? Hangi koşullarda olur?
+Onu şimdi konuşalım. Üç durumu da
+değerlendirelim. Ben şekilleri çizip
+geliyorum. Evet birinci duruma bakalım.
+Elimizde bir üçgen var. İki kenar
+verilmiş ve aşağıda da iki tane eş
+parçaya ayrıldığını görüyorsunuz. Şimdi
+şöyle ilerleyelim. Eğer bu parçadan
+buraya bir doğru parçası uzatsaydık ve
+bu kısımda paralel olduğunu düşünseydik
+neyi söyleyebilirdiniz arkadaşlar? Bu
+üçgenler arasında 1'e 2 oranı
+oluşacaktı. O halde eğer şuraya a
+deseydiniz buraya da mecburen ne demek
+zorunda kalacaktınız? A demek zorunda
+kalacaktınız. Aynı şekilde burada tabanı
+iki parçaya ayırdığımızı görüyorsunuz.
+Ve bu doğru parçası aynı zamanda bu
+üçgenin şu üçgenin yüksekliği olmuş.
+Yükseklik aynı zamanda kenarortay
+olduğuna göre burada ne söylememiz
+gerekiyor? Bir ikizkenar üçgen olduğunu
+söylememiz gerekiyor. O zaman ikizkenar
+üçgen olacaksa bu çizgimiz burada da
+olmak zorundaydı. Demek ki 90° varsa ve
+bu ikisi eşitse ortadaki eşitliği biz
+koymalıyız. Gelelim ikinci duruma. Eğer
+90° var ve bunlar birbirlerine eşitse
+burası niye eşit olmak zorunda? Madem
+açıları eşit burada bir ikizkenar üçgen
+vardır. O zaman buraya alfa derseniz
+buraya alfa. Hadi buraya beta diyelim.
+90 derece ile toplam alfa ve betanın
+toplamı 90 olsun. Tamam. Şeklin
+tamamında alfa var 90 var. Geriye ne
+kaldı? Beta kaldı. Beta da mecburen bura
+olacak. Bu üçgene odaklanırsanız burada
+bir ikizkenar üçgen bulduğumuz için
+burada betanın gördüğü yer olduğu için
+birbirlerine eşit gelmeliymiş. Tamam.
+Yani şunlar eşitken bu var. Yine 90°
+altında bunlar eşitse bu eşit midir?
+Evet. Az öncekinin aynısı. Alfa beta
+diyelim. Alfa ve betanın toplamı 90'mış.
+Eee, pardon şöyle yapalım. İkizkenarlık
+var. Buraya da beta diyeyim. O zaman
+buraya alfa diyeyim. Alfa ve betanın
+toplamı 90'mış. 90 var, beta var. Buraya
+alfa kalsın. Tamam. Alfaların gördüğü
+çizgiler eşit olacaksa işte bunlar yine
+eşit. Şimdi son durum. Bunlar
+birbirlerine eşitlerse neden burası 90°
+olmak zorunda? Bunu görmeye çalışalım.
+Buraya alfa, buraya alfa deseydik
+ikizkenarlıktan dolayı. Buraya beta,
+buraya beta deseydik ikizkenarlıktan
+dolayı büyük üçgene odaklanın. 2αfa + 2
+beta 180 gelecekti. Derece alfa + beta
+toplamda 90° gelecekti. O halde burası
+da alfa + beta olduğuna göre burası da
+90° olacaktı. Bu kurala muhteşem üçü
+diyoruz. Anlaştık mı? Şimdi biz bunu
+kendi sorumuzla uygulayacak mıyız?
+Elbette uygulayacağız. Size bir dik
+üçgen verilmiş. Bunu unutmayın lütfen.
+Önemli bir nottu bu. AB BC'ye diktir. BD
+DC DE'ye eşit. Bakın 3 tane eşitlik
+verilmiş burada. Yakaladınız mı? Şimdi
+biz neyi söyleyebiliriz? Eğer B'den E
+noktasına bir doğru parçası uzatsaydık,
+buradaki üç noktanın eşit olduğunu
+biliyorsak o zaman BEC açısının 90°
+geldiğini söylemeliyiz. Nereden?
+Muhteşem ölçüden dolayı. Tamam mı? Yanda
+da konuştuk zaten bunu. Peki ya da yine
+diğer özelliklerden kullanarak da
+gösterebilirdiniz. İşte bunlar
+birbirlerine eşit, bunlar birbirlerine
+eşit. Toplamları 180 geliyorsa burası
+dik olmalı diyebilirdiniz. Anlaştık.
+Madem burası dik, dikten artık ne inmiş
+oldunuz? Dikten dik inmiş olduk. Tamam.
+P ve K'si var. Burası P, burası K gibi
+düşünün. Yani H'nin karesi, şurası Be'ye
+H dedim. Burada H'nin karesi ne
+gelecektir? Yazalım. H² = 4 x 8 yani 32.
+O zaman bu 4√2 gelecekmiş. Tamam. Şurası
+4√2. Bunu bulmuş olduk. Şimdi burada da
+bir dik üçgen var. Burası 4√2. Burası 4.
+O zaman şurayı bulabilirim. Hadi gelin
+burayı bulalım. Buraya x dediysek burada
+x, burada x gelecek. Tamam.
+B C üçgeni şurada görüyorsunuz. BC
+üçgeni
+4√2 kares 32 + 4ün kares 16 = 2x kares
+yani 4x² buradan ne buldunuz? 48 = 4x²
+12 = x² 4 x 3'ten 2√3 = x burası 2√3
+burası 2√3 o zaman burası da ne olmak
+zorunda 2√3 bizden zaten x'i istiyordu
+de uzunluğumuz da 2√3 olmak zorundadır.
+Çok önemli bir soruydu. Soru 40. Evet.
+Eşitlik ve benzerlikle ilgili açık uçlu
+sorulardan önceki son birlikte
+çözdüğümüz soru işaretli sorumuz.
+KLMN dik yamuğunda KL 8 birim 2√3 KN 3
+birim de bu aşırı kolay bir soru. Ne
+yapacaksınız ya? Bu son değil belki ilk
+soru olsa daha güzel olurmuş. Hadi
+şurası H olsun. Burası 3 ise
+paralellikten dolayı arkadaşlar buraya
+da 3 kalacak. Bu bir klmn
+dik yamukmuş. O zaman khmn dikdörtgen
+oldu. 2√3 buradaysa burası da ne olmak
+zorunda? 2√3. Görüyor musunuz? Burada ne
+oluştu? Bir dik üçgen oluştu. Dikliği
+koydum buraya. 3 5 toplamı 8 kaldı.
+2√3ün kares + 5² = x² 4 x 3 12 + 25 = x²
+ise x = √37
+olarak son sorumuzu da işaretleyecektik.
+Evet bu. sayfamızın son sorusuydu. Şimdi
+gelelim eşitlik ve benzerlikle ilgili
+açık uçlu sorularımıza. Birazcık daha
+böyle yeni nesil sorulardan konuşuyoruz.

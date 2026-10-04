@@ -8,17 +8,23 @@
   "orderKey": 1000,
   "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
   "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L140",
       "sourceSection": "Isı ve Sıcaklık",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "e546c866395ea3a9",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
+      "transcriptFingerprint": "55aad1981b5f804a"
     },
     "provider": "Özcan Aykın FİZİK"
   }

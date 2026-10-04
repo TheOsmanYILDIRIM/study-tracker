@@ -8,15 +8,22 @@
   "orderKey": 2000,
   "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
   "contentUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L125",
       "sourceSection": "Üçgen Eşitsizliği",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "8d096350f5994c96"
+      "reviewStatus": "verified",
+      "fingerprint": "8d096350f5994c96",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.tr.vtt",
+      "transcriptFingerprint": "ec3f8b6edc092099"
     },
     "provider": "Rehber Matematik"
   }

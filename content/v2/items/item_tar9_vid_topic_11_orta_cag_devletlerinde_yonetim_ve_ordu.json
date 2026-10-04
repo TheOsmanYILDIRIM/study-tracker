@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -24,11 +24,21 @@
       "sourceTopic": [
         "Orta Çağ’daki Başlıca Devletlerin Yönetim ve Ordu Yapıları"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "62f8726e32ec4f1b",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
+      "transcriptFingerprint": "4cda05dbcaa616a7"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "12) Orta Çağ Devletlerinde Yönetim ve Ordu"
   }
 }

@@ -28,7 +28,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "b06056bc42d0242b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.tr.vtt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

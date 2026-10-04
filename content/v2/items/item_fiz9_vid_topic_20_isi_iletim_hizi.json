@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık",
   "contentUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Isı İletim Hızı",
@@ -27,7 +27,13 @@
       "fingerprint": "721e3a4904c0d2e6",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

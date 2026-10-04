@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Katılarda Basınç ve Basınç Kuvveti",
   "contentUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Katılarda Basınç",
@@ -33,7 +33,13 @@
       "fingerprint": "2b71d12fcf09403a",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

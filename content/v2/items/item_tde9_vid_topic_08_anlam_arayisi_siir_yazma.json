@@ -30,7 +30,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "b6ee6c916a64e857",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.tr.vtt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb"
     }
   }
 }

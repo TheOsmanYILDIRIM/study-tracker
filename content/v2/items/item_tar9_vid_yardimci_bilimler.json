@@ -7,7 +7,7 @@
   "displayLabel": "2.2",
   "orderKey": 3000,
   "title": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
-  "contentUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+  "contentUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
   "publishingStatus": "active",
   "payload": {
     "teacher": "Mehmet Celal ÖZYILDIZ",
@@ -22,12 +22,16 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "36da09cd4e03a26f",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.tr.vtt",
-      "transcriptFingerprint": "32ccc8dd260d8ebe"
-    }
+      "transcriptFingerprint": "32ccc8dd260d8ebe",
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "reviewedOverride": true
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "3) Tarihe Yardımcı Bilim Dalları ve Takvimler"
   }
 }

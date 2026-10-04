@@ -8,17 +8,23 @@
   "orderKey": 2000,
   "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
   "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L160",
       "sourceSection": "Hâl Değişimi ve Isıl Denge",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "026003d46f482694",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
+      "transcriptFingerprint": "751b67c63da7e410"
     },
     "provider": "Özcan Aykın FİZİK"
   }

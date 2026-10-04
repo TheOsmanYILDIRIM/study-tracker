@@ -7,8 +7,8 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Anadolu Medeniyetleri, Eski Hukuk ve Türklerde Konargöçer Yaşam",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=s0HxKUMdT98",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "provenance": {
@@ -16,8 +16,18 @@
       "sourceSection": "Anadolu ve Konargöçer Yaşam",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "8f063a2d3ac90f28"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "8f063a2d3ac90f28",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=s0HxKUMdT98",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.tr.vtt",
+      "transcriptFingerprint": "083232b309e687da"
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "6) Anadolu Medeniyetleri ve Kadim Dünya"
   }
 }

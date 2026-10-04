@@ -16,10 +16,15 @@
       "sourceSection": "4. Hafta: Geçmiş Alışkanlıklar & Kibar İstekler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "346b706e304348ab",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     },
     "provider": "Özer Kiraz"
   }

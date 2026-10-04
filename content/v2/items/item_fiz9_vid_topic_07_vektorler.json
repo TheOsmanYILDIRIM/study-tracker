@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Vektörler ve Vektörlerde Bileşke (Uç Uca Ekleme & Paralelkenar Yöntemi)",
   "contentUrl": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Vektörler",
@@ -22,13 +22,19 @@
       "sourceTopic": [
         "Vektörler"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "3d4fff85c5c56723",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.tr.vtt",
+      "transcriptFingerprint": "e8c5e91b6c42e91e"
     }
   }
 }

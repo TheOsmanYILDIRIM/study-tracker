@@ -27,7 +27,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "7bca883f24e6e1cf",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.tr.vtt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

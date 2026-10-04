@@ -28,7 +28,12 @@
       "fingerprint": "2bbe1719c7c6b7d4",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.tr.vtt",
+      "transcriptFingerprint": "aab5f78e7ef39d5d"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",

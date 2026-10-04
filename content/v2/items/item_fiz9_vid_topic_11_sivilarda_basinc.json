@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Sıvılarda Basınç ve Pascal Prensibi",
   "contentUrl": "https://www.youtube.com/watch?v=q6M0P-RzZkY",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Sıvılarda Basınç",
@@ -28,7 +28,13 @@
       "fingerprint": "46a64780b021df7d",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=q6M0P-RzZkY",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

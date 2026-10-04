@@ -23,12 +23,17 @@
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat)",
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "6bf5b624cc60ee4b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

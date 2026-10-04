@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "d149100b0d230265",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.tr.vtt",
+      "transcriptFingerprint": "384dfc22c8b7c3e0"
     },
     "provider": "Meschemy Kimya"
   }

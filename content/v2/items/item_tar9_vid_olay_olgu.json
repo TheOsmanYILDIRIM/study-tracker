@@ -27,7 +27,11 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.tr.vtt",
-      "transcriptFingerprint": "79f3890b713032ec"
-    }
+      "transcriptFingerprint": "79f3890b713032ec",
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "reviewedOverride": true
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "1) Geçmişin İnşa Sürecinde Tarih: Olay ve Olgu"
   }
 }

@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "97ad2f7839dbed29",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

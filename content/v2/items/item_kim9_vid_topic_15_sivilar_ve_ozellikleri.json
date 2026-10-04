@@ -33,7 +33,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "f313b0e4edef204d",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.tr.vtt",
+      "transcriptFingerprint": "49fb8f209e6affb0"
     }
   }
 }

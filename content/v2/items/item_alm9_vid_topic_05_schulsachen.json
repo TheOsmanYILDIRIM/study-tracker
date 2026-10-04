@@ -29,7 +29,13 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "164ed0dfd692a990",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.tr.vtt",
+      "transcriptFingerprint": "e1ccaec372a5b2e7"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true

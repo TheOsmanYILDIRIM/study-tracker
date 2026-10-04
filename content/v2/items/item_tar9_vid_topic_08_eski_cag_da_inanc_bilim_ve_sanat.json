@@ -7,10 +7,10 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Eski Çağ'da İnanç, Bilim ve Sanat",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22,11 +22,21 @@
       "sourceTopic": [
         "Eski Çağ’da İnançlar ile Bilim ve Sanat Anlayışları"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "d89acdc401b5f4d7",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.tr.vtt",
+      "transcriptFingerprint": "76cabd323bdcaa9e"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "8) Eski Çağ’da İnanç, Bilim ve Sanat"
   }
 }

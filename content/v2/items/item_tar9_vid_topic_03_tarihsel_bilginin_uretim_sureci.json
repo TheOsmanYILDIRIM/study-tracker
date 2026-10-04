@@ -7,10 +7,10 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Tarihsel Bilginin Üretim Süreci",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Tarihsel Bilginin Üretim Süreci",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,11 +23,21 @@
       "sourceTopic": [
         "Tarihsel Bilginin Üretim Süreci"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "def5ab848821d2d6",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.tr.vtt",
+      "transcriptFingerprint": "3e5f752c04d5c2e0"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "3) Tarihsel Bilginin Üretim Süreci"
   }
 }

@@ -26,7 +26,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "50d646c2d6e8f6e7",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
+      "transcriptFingerprint": "ed0db4f712979546"
     }
   }
 }

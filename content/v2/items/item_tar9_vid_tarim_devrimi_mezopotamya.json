@@ -7,8 +7,8 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "provenance": {
@@ -16,8 +16,18 @@
       "sourceSection": "Eski Çağ Medeniyetleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "aeab39970dddc1bb"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "aeab39970dddc1bb",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.tr.vtt",
+      "transcriptFingerprint": "e8841adfdc1f3a65"
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "5) İlk Çağ Uygarlıkları: Mezopotamya ve Mısır"
   }
 }

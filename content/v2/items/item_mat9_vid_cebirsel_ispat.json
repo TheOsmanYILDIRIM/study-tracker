@@ -8,15 +8,22 @@
   "orderKey": 2000,
   "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
   "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provenance": {
       "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L80",
       "sourceSection": "6. Hafta: Cebirsel İfadeler ve İspat",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "5a4a81bbfad7b8d8"
+      "reviewStatus": "verified",
+      "fingerprint": "5a4a81bbfad7b8d8",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.tr.vtt",
+      "transcriptFingerprint": "1184ee0b138df4fd"
     },
     "provider": "Rehber Matematik"
   }

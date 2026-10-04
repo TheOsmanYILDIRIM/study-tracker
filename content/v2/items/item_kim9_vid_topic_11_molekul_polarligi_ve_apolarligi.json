@@ -26,7 +26,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "bd63b99923a6aa21",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.tr.vtt",
+      "transcriptFingerprint": "744af4c1e15053fc"
     }
   }
 }

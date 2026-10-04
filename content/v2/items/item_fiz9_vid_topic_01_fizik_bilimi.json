@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
   "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Fizik Bilimi",
@@ -27,13 +27,19 @@
         "Fizik Bilimine Yön Verenler",
         "Fizik Bilimi İle İlgili Kariyer Keşfi"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "518744d6a9ffdaa1",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.tr.vtt",
+      "transcriptFingerprint": "950a6c9a5591fd65"
     }
   }
 }

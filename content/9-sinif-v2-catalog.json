@@ -1265,15 +1265,22 @@
               "orderKey": 2000,
               "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
               "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L80",
                   "sourceSection": "6. Hafta: Cebirsel İfadeler ve İspat",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "5a4a81bbfad7b8d8"
+                  "reviewStatus": "verified",
+                  "fingerprint": "5a4a81bbfad7b8d8",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.tr.vtt",
+                  "transcriptFingerprint": "1184ee0b138df4fd"
                 },
                 "provider": "Rehber Matematik"
               }
@@ -1470,7 +1477,7 @@
               "orderKey": 1000,
               "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
               "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
                 "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
@@ -1485,11 +1492,18 @@
                     "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme",
                     "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme • Doğrusal Fonksiyonlar ve Nitel Özellikleri"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "c278a711cea31ad8",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.tr.vtt",
+                  "transcriptFingerprint": "1184ee0b138df4fd"
                 }
               }
             },
@@ -1844,7 +1858,7 @@
               "orderKey": 1000,
               "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
               "contentUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
                 "topic": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
@@ -1861,11 +1875,18 @@
                     "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
                     "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler • Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "fd97e61063237a3b",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.tr.vtt",
+                  "transcriptFingerprint": "3389c7e3a5ebb774"
                 }
               }
             },
@@ -2081,15 +2102,22 @@
               "orderKey": 2000,
               "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
               "contentUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L125",
                   "sourceSection": "Üçgen Eşitsizliği",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "8d096350f5994c96"
+                  "reviewStatus": "verified",
+                  "fingerprint": "8d096350f5994c96",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.tr.vtt",
+                  "transcriptFingerprint": "ec3f8b6edc092099"
                 },
                 "provider": "Rehber Matematik"
               }
@@ -2450,15 +2478,22 @@
               "orderKey": 2000,
               "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
               "contentUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L165",
                   "sourceSection": "Eşlik ve Benzerlik Koşulları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "37b5d36c1eebc4ba"
+                  "reviewStatus": "verified",
+                  "fingerprint": "37b5d36c1eebc4ba",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.tr.vtt",
+                  "transcriptFingerprint": "1784cbe68f7fba31"
                 },
                 "provider": "Rehber Matematik"
               }
@@ -2778,7 +2813,7 @@
               "orderKey": 1000,
               "title": "Tales, Öklid ve Pisagor Teoremleri",
               "contentUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
                 "topic": "Tales, Öklid ve Pisagor Teoremleri",
@@ -2793,11 +2828,18 @@
                     "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
                     "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "f3a0d0748ab34b21",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.tr.vtt",
+                  "transcriptFingerprint": "c1689ad19c926f66"
                 }
               }
             },
@@ -3372,15 +3414,22 @@
               "orderKey": 1000,
               "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
               "contentUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Matematik_Yillik_Plan_AL9.md#L225",
                   "sourceSection": "Mantık Bağlaçları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "3c037fb942c0c06a"
+                  "reviewStatus": "verified",
+                  "fingerprint": "3c037fb942c0c06a",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.tr.vtt",
+                  "transcriptFingerprint": "b00eee0f3fe03369"
                 },
                 "provider": "Rehber Matematik"
               }
@@ -3710,7 +3759,7 @@
               "orderKey": 1000,
               "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
               "contentUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Rehber Matematik",
                 "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
@@ -3723,11 +3772,18 @@
                   "sourceTopic": [
                     "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "225e5725c7008897",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.tr.vtt",
+                  "transcriptFingerprint": "ee1923b0c53d5dbb"
                 }
               }
             },
@@ -4182,7 +4238,7 @@
               "orderKey": 1000,
               "title": "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
               "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Fizik Bilimi",
@@ -4201,13 +4257,19 @@
                     "Fizik Bilimine Yön Verenler",
                     "Fizik Bilimi İle İlgili Kariyer Keşfi"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "518744d6a9ffdaa1",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.tr.vtt",
+                  "transcriptFingerprint": "950a6c9a5591fd65"
                 }
               }
             },
@@ -4312,17 +4374,23 @@
               "orderKey": 1000,
               "title": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
               "contentUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L25",
                   "sourceSection": "Fizik Biliminin Alt Dalları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "fingerprint": "f643ca89c63459fd",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.tr.vtt",
+                  "transcriptFingerprint": "950a6c9a5591fd65"
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -4428,7 +4496,7 @@
               "orderKey": 1000,
               "title": "Fizik Bilimine Yön Verenler ve Bilim İnsanları",
               "contentUrl": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Fizik Bilimine Yön Verenler",
@@ -4441,7 +4509,7 @@
                   "sourceTopic": [
                     "Fizik Bilimine Yön Verenler"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": 2.9,
                   "videoCandidateTitle": "Those Leading the Science of Physics - Science Centers | 9th grade physics new curriculum (maarif...",
                   "fingerprint": "d16568f2f820ce4f",
@@ -4452,7 +4520,8 @@
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.tr.vtt",
                   "transcriptFingerprint": "dbd42f4bde0e667a",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true
                 }
               }
             },
@@ -4774,7 +4843,7 @@
               "orderKey": 1000,
               "title": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
               "contentUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Temel ve Türetilmiş Nicelikler",
@@ -4787,13 +4856,19 @@
                   "sourceTopic": [
                     "Temel ve Türetilmiş Nicelikler"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "f5a27920afa1cdff",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
+                  "transcriptFingerprint": "532569ac8750adbf"
                 }
               }
             },
@@ -5115,7 +5190,7 @@
               "orderKey": 1000,
               "title": "Vektörler ve Vektörlerde Bileşke (Uç Uca Ekleme & Paralelkenar Yöntemi)",
               "contentUrl": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Vektörler",
@@ -5129,13 +5204,19 @@
                   "sourceTopic": [
                     "Vektörler"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "3d4fff85c5c56723",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.tr.vtt",
+                  "transcriptFingerprint": "e8c5e91b6c42e91e"
                 }
               }
             },
@@ -5240,17 +5321,23 @@
               "orderKey": 1000,
               "title": "Doğadaki 4 Temel Kuvvet ve Temas Gerektiren/Gerektirmeyen Kuvvetler",
               "contentUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L60",
                   "sourceSection": "Doğadaki Temel Kuvvetler",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "fingerprint": "09cb02d72bd03694",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.tr.vtt",
+                  "transcriptFingerprint": "532569ac8750adbf"
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -5356,7 +5443,7 @@
               "orderKey": 1000,
               "title": "Hareket ve Hareket Türleri (Öteleme, Dönme, Titreşim & Konum-Zaman)",
               "contentUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Hareket ve Hareket Türleri",
@@ -5379,7 +5466,13 @@
                   "fingerprint": "a8740b024faed0d6",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -5484,7 +5577,7 @@
               "orderKey": 1000,
               "title": "Katılarda Basınç ve Basınç Kuvveti",
               "contentUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Katılarda Basınç",
@@ -5509,7 +5602,13 @@
                   "fingerprint": "2b71d12fcf09403a",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -5614,7 +5713,7 @@
               "orderKey": 1000,
               "title": "Sıvılarda Basınç ve Pascal Prensibi",
               "contentUrl": "https://www.youtube.com/watch?v=q6M0P-RzZkY",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Sıvılarda Basınç",
@@ -5634,7 +5733,13 @@
                   "fingerprint": "46a64780b021df7d",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=q6M0P-RzZkY",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -5739,7 +5844,7 @@
               "orderKey": 1000,
               "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
               "contentUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L90",
@@ -5749,7 +5854,13 @@
                   "reviewStatus": "needs_review",
                   "fingerprint": "8dc3509e9793b3d3",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -5847,7 +5958,7 @@
               "orderKey": 2000,
               "title": "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
               "contentUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L110",
@@ -5857,7 +5968,13 @@
                   "reviewStatus": "needs_review",
                   "fingerprint": "f597e4070d0f7987",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -6059,7 +6176,7 @@
               "orderKey": 1000,
               "title": "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)",
               "contentUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Kaldırma Kuvveti",
@@ -6079,7 +6196,13 @@
                   "fingerprint": "39daf54d66b918d2",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -6184,7 +6307,7 @@
               "orderKey": 1000,
               "title": "Bernoulli İlkesi ve Akışkanlar Mekaniği",
               "contentUrl": "https://www.youtube.com/watch?v=FR0u-IglzGd",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Bernoulli İlkesi",
@@ -6204,7 +6327,13 @@
                   "fingerprint": "bfd47c34771ad993",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=FR0u-IglzGd",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -6309,17 +6438,23 @@
               "orderKey": 1000,
               "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
               "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L140",
                   "sourceSection": "Isı ve Sıcaklık",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "fingerprint": "e546c866395ea3a9",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
+                  "transcriptFingerprint": "55aad1981b5f804a"
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -6417,17 +6552,23 @@
               "orderKey": 2000,
               "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
               "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provenance": {
                   "sourceRef": "10-Projects/Fizik_Yillik_Plan_AL9.md#L160",
                   "sourceSection": "Hâl Değişimi ve Isıl Denge",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "fingerprint": "026003d46f482694",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
+                  "transcriptFingerprint": "751b67c63da7e410"
                 },
                 "provider": "Özcan Aykın FİZİK"
               }
@@ -6887,7 +7028,7 @@
               "orderKey": 1000,
               "title": "Isıl Denge ve Denge Sıcaklığı",
               "contentUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Isıl Denge",
@@ -6906,7 +7047,13 @@
                   "fingerprint": "19d67d9d3a2db21c",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -7011,7 +7158,7 @@
               "orderKey": 1000,
               "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
               "contentUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Isı Aktarım Yolları",
@@ -7031,7 +7178,13 @@
                   "fingerprint": "a356dd6da629eec6",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -7136,7 +7289,7 @@
               "orderKey": 1000,
               "title": "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık",
               "contentUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
-              "publishingStatus": "draft",
+              "publishingStatus": "active",
               "payload": {
                 "provider": "Özcan Aykın FİZİK",
                 "topic": "Isı İletim Hızı",
@@ -7155,7 +7308,13 @@
                   "fingerprint": "721e3a4904c0d2e6",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
-                  "provider": "Özcan Aykın FİZİK"
+                  "provider": "Özcan Aykın FİZİK",
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -7399,7 +7558,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "9083b0011b7c547a",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
+                  "transcriptFingerprint": "ed0db4f712979546"
                 },
                 "provider": "Meschemy Kimya"
               }
@@ -7617,7 +7781,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "50d646c2d6e8f6e7",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
+                  "transcriptFingerprint": "ed0db4f712979546"
                 }
               }
             },
@@ -7848,7 +8017,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "6930cb3832e890be",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.tr.vtt",
+                  "transcriptFingerprint": "6ce56406f481cfb3"
                 },
                 "provider": "Kimya Adası"
               }
@@ -8326,7 +8500,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "f042d1294a03fda1",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.tr.vtt",
+                  "transcriptFingerprint": "6ce56406f481cfb3"
                 }
               }
             },
@@ -8447,7 +8626,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "93a0fad38719f363",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.tr.vtt",
+                  "transcriptFingerprint": "bef8bd6ebb81bf54"
                 }
               }
             },
@@ -8950,7 +9134,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "bd63b99923a6aa21",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7DmnzxY73Ik",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.tr.vtt",
+                  "transcriptFingerprint": "744af4c1e15053fc"
                 }
               }
             },
@@ -9190,7 +9379,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "b3ac44607a0489ab",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
+                  "transcriptFingerprint": "e0e330ee30a12087"
                 },
                 "provider": "Meschemy Kimya"
               }
@@ -9295,7 +9489,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "09566b06fd2755f6",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.tr.vtt",
+                  "transcriptFingerprint": "34a035e730bc990b"
                 },
                 "provider": "Meschemy Kimya"
               }
@@ -9646,7 +9845,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "f313b0e4edef204d",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.tr.vtt",
+                  "transcriptFingerprint": "49fb8f209e6affb0"
                 }
               }
             },
@@ -9889,7 +10093,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "d149100b0d230265",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.tr.vtt",
+                  "transcriptFingerprint": "384dfc22c8b7c3e0"
                 },
                 "provider": "Meschemy Kimya"
               }
@@ -9994,7 +10203,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
                   "fingerprint": "ee46e61d9bd98733",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.tr.vtt",
+                  "transcriptFingerprint": "7c070ce680ca133c"
                 },
                 "provider": "Meschemy Kimya"
               }
@@ -11910,7 +12124,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "90fcf5e5109d9a94",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.tr.vtt",
+                  "transcriptFingerprint": "a7e85c308adb2be2"
                 },
                 "provider": "Dr. Biyoloji"
               }
@@ -12064,13 +12283,18 @@
                   "sourceTopic": [
                     "Üç Üst Âlem (Domain) Sisteminde Yer Alan Canlılar ve Genel • Özellikleri [Bakteriler, Arkeler, Ökaryotlar (Protistler, Bitkiler, Mantarlar, Hayvanlar)]"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "7b54e005ca676c94",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -12181,10 +12405,15 @@
                   "sourceSection": "Canlılar Dünyası",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "6442c0e6c046456f",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "missing",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "YouTube videosunda erişilebilir Türkçe altyazı/otomatik altyazı bulunamadı."
                 },
                 "provider": "Tonguç Akademi"
               }
@@ -12330,8 +12559,12 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_birey_toplum.tr.tr.vtt",
-                  "transcriptFingerprint": "79f3890b713032ec"
-                }
+                  "transcriptFingerprint": "79f3890b713032ec",
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "reviewedOverride": true
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "1) Geçmişin İnşa Sürecinde Tarih"
               }
             },
             {
@@ -12447,8 +12680,12 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.tr.vtt",
-                  "transcriptFingerprint": "79f3890b713032ec"
-                }
+                  "transcriptFingerprint": "79f3890b713032ec",
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "reviewedOverride": true
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "1) Geçmişin İnşa Sürecinde Tarih: Olay ve Olgu"
               }
             },
             {
@@ -12668,8 +12905,12 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "32ccc8dd260d8ebe"
-                }
+                  "transcriptFingerprint": "32ccc8dd260d8ebe",
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "reviewedOverride": true
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "2) Tarihin Sınıflandırılması ve Kaynaklar"
               }
             },
             {
@@ -12765,7 +13006,7 @@
               "displayLabel": "2.2",
               "orderKey": 3000,
               "title": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
-              "contentUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+              "contentUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
               "publishingStatus": "active",
               "payload": {
                 "teacher": "Mehmet Celal ÖZYILDIZ",
@@ -12780,13 +13021,17 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "36da09cd4e03a26f",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lqEZ19uwyas",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.tr.vtt",
-                  "transcriptFingerprint": "32ccc8dd260d8ebe"
-                }
+                  "transcriptFingerprint": "32ccc8dd260d8ebe",
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "reviewedOverride": true
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "3) Tarihe Yardımcı Bilim Dalları ve Takvimler"
               }
             },
             {
@@ -13008,10 +13253,10 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Tarihsel Bilginin Üretim Süreci",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Tarihsel Bilginin Üretim Süreci",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13024,12 +13269,22 @@
                   "sourceTopic": [
                     "Tarihsel Bilginin Üretim Süreci"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "def5ab848821d2d6",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.tr.vtt",
+                  "transcriptFingerprint": "3e5f752c04d5c2e0"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "3) Tarihsel Bilginin Üretim Süreci"
               }
             },
             {
@@ -13129,10 +13384,10 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "Tarih Araştırma ve Yazımında Dijitalleşme",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Tarih Araştırma ve Yazımında Dijitalleşme",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13145,12 +13400,22 @@
                   "sourceTopic": [
                     "Tarih Araştırma ve Yazımında Dijitalleşme"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "4405ca5e1fe3423b",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.tr.vtt",
+                  "transcriptFingerprint": "a29c9a2b11abb467"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "4) Tarih Yazımı ve Tarih Öncesi Devirler"
               }
             },
             {
@@ -13250,10 +13515,10 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13265,12 +13530,22 @@
                   "sourceTopic": [
                     "Tarım Devrimi’nin Eski Çağ Medeniyetlerindeki Yerleşmeye ve Ekonomiye Etkisi"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "52fa9ef277c91305",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.tr.vtt",
+                  "transcriptFingerprint": "e8841adfdc1f3a65"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "5) Tarım Devrimi ve Eski Çağ Medeniyetleri"
               }
             },
             {
@@ -13370,10 +13645,10 @@
               "displayLabel": "6.1",
               "orderKey": 1000,
               "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=umZ1I3gYXMk",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13386,12 +13661,22 @@
                   "sourceTopic": [
                     "Eski Çağ Medeniyetlerinde Yönetim ve Ordu"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "30ab39c08f7c0249",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=umZ1I3gYXMk",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.tr.vtt",
+                  "transcriptFingerprint": "028ab43911cbe10f"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "7) İlk Çağ Uygarlıkları: Yönetim ve Ordu"
               }
             },
             {
@@ -13491,10 +13776,10 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Eski Çağ Medeniyetlerinde Hukuk",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Eski Çağ Medeniyetlerinde Hukuk",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13507,12 +13792,22 @@
                   "sourceTopic": [
                     "Eski Çağ Medeniyetlerinde Hukuk"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "b9f7243cb348f0f5",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.tr.vtt",
+                  "transcriptFingerprint": "76cabd323bdcaa9e"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk (Hammurabi, Hitit Kanunları)"
               }
             },
             {
@@ -13612,10 +13907,10 @@
               "displayLabel": "8.1",
               "orderKey": 1000,
               "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Eski Çağ'da İnanç, Bilim ve Sanat",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -13627,12 +13922,22 @@
                   "sourceTopic": [
                     "Eski Çağ’da İnançlar ile Bilim ve Sanat Anlayışları"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "d89acdc401b5f4d7",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.tr.vtt",
+                  "transcriptFingerprint": "76cabd323bdcaa9e"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "8) Eski Çağ’da İnanç, Bilim ve Sanat"
               }
             },
             {
@@ -13732,8 +14037,8 @@
               "displayLabel": "3.1",
               "orderKey": 1000,
               "title": "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+              "publishingStatus": "active",
               "payload": {
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "provenance": {
@@ -13741,9 +14046,19 @@
                   "sourceSection": "Eski Çağ Medeniyetleri",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "aeab39970dddc1bb"
-                }
+                  "reviewStatus": "verified",
+                  "fingerprint": "aeab39970dddc1bb",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.tr.vtt",
+                  "transcriptFingerprint": "e8841adfdc1f3a65"
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "5) İlk Çağ Uygarlıkları: Mezopotamya ve Mısır"
               }
             },
             {
@@ -13835,8 +14150,8 @@
               "displayLabel": "3.2",
               "orderKey": 2000,
               "title": "Anadolu Medeniyetleri, Eski Hukuk ve Türklerde Konargöçer Yaşam",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=s0HxKUMdT98",
+              "publishingStatus": "active",
               "payload": {
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "provenance": {
@@ -13844,9 +14159,19 @@
                   "sourceSection": "Anadolu ve Konargöçer Yaşam",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "8f063a2d3ac90f28"
-                }
+                  "reviewStatus": "verified",
+                  "fingerprint": "8f063a2d3ac90f28",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=s0HxKUMdT98",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.tr.vtt",
+                  "transcriptFingerprint": "083232b309e687da"
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "6) Anadolu Medeniyetleri ve Kadim Dünya"
               }
             },
             {
@@ -14042,10 +14367,10 @@
               "displayLabel": "10.1",
               "orderKey": 1000,
               "title": "Orta Çağ'da Kitlesel Göçler",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ'da Kitlesel Göçler",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -14057,12 +14382,22 @@
                   "sourceTopic": [
                     "Orta Çağ’da Yaşanan Kitlesel Göçler"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "1c579ba988d26132",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.tr.vtt",
+                  "transcriptFingerprint": "4cda05dbcaa616a7"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ’da Yaşanan Kitlesel Göçler"
               }
             },
             {
@@ -14162,10 +14497,10 @@
               "displayLabel": "11.1",
               "orderKey": 1000,
               "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -14179,12 +14514,22 @@
                   "sourceTopic": [
                     "Orta Çağ’daki Başlıca Devletlerin Yönetim ve Ordu Yapıları"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "62f8726e32ec4f1b",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
+                  "transcriptFingerprint": "4cda05dbcaa616a7"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ Devletlerinde Yönetim ve Ordu"
               }
             },
             {
@@ -14284,8 +14629,8 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+              "publishingStatus": "active",
               "payload": {
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "provenance": {
@@ -14293,9 +14638,19 @@
                   "sourceSection": "Orta Çağ'da Devletler",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "65523afb0a6483eb"
-                }
+                  "reviewStatus": "verified",
+                  "fingerprint": "65523afb0a6483eb",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.tr.vtt",
+                  "transcriptFingerprint": "4cda05dbcaa616a7"
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler"
               }
             },
             {
@@ -14387,8 +14742,8 @@
               "displayLabel": "4.2",
               "orderKey": 2000,
               "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+              "publishingStatus": "active",
               "payload": {
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "provenance": {
@@ -14396,9 +14751,19 @@
                   "sourceSection": "Ticaret Yolları ve Medeniyet Havzaları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "needs_review",
-                  "fingerprint": "28f7f3fd5bad8f77"
-                }
+                  "reviewStatus": "verified",
+                  "fingerprint": "28f7f3fd5bad8f77",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.tr.vtt",
+                  "transcriptFingerprint": "4cda05dbcaa616a7"
+                },
+                "provider": "Benim Hocam",
+                "verifiedLectureTitle": "12) Orta Çağ Ticaret Yolları"
               }
             },
             {
@@ -14594,10 +14959,10 @@
               "displayLabel": "13.1",
               "orderKey": 1000,
               "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
-              "contentUrl": null,
-              "publishingStatus": "draft",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+              "publishingStatus": "active",
               "payload": {
-                "provider": null,
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -14611,12 +14976,22 @@
                   "sourceTopic": [
                     "Orta Çağ’daki Başlıca Medeniyet Havzalarında Bilim, Kültür ve Sanat"
                   ],
-                  "reviewStatus": "needs_review",
+                  "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "938683d6cd434189",
-                  "schemaVersion": "v2"
-                }
+                  "schemaVersion": "v2",
+                  "reviewedOverride": true,
+                  "teacher": "Mehmet Celal ÖZYILDIZ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.tr.vtt",
+                  "transcriptFingerprint": "4cda05dbcaa616a7"
+                },
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat"
               }
             },
             {
@@ -14862,7 +15237,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "8b460fc3d1c4e78e",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.tr.vtt",
+                  "transcriptFingerprint": "c3de10c38f4b78ec"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
@@ -14973,7 +15353,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "1f3480b9f4892e43",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.tr.vtt",
+                  "transcriptFingerprint": "514291f0451e6158"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
@@ -15879,7 +16264,12 @@
                   "fingerprint": "a1236e99cf9b3210",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.tr.vtt",
+                  "transcriptFingerprint": "495f9cf4d24ea6bd"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
@@ -15996,7 +16386,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "db6d6a33b24d6013",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
+                  "transcriptFingerprint": "495f9cf4d24ea6bd"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
@@ -16107,7 +16502,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "c40e0c518894cbcd",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.tr.vtt",
+                  "transcriptFingerprint": "aab5f78e7ef39d5d"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
@@ -16331,7 +16731,12 @@
                   "fingerprint": "0992da6f9c2eb1ae",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.tr.vtt",
+                  "transcriptFingerprint": "aab5f78e7ef39d5d"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
@@ -16459,7 +16864,12 @@
                   "fingerprint": "2bbe1719c7c6b7d4",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.tr.vtt",
+                  "transcriptFingerprint": "aab5f78e7ef39d5d"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
@@ -16585,7 +16995,12 @@
                   "fingerprint": "c1d387e435963950",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.tr.vtt",
+                  "transcriptFingerprint": "685ca31f6189386c"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
@@ -16713,7 +17128,12 @@
                   "fingerprint": "cd63658988c81780",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.tr.vtt",
+                  "transcriptFingerprint": "685ca31f6189386c"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
@@ -16974,7 +17394,12 @@
                   "fingerprint": "8718a402403df86d",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.tr.vtt",
+                  "transcriptFingerprint": "b6f5548490fc2f0f"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=PUu7cEjrBng",
@@ -17478,7 +17903,12 @@
                   "reviewStatus": "verified",
                   "fingerprint": "53a3486c1bec7ce8",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt",
+                  "transcriptFingerprint": "a9429fca5308feaa"
                 },
                 "video": {
                   "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
@@ -17971,13 +18401,18 @@
                     "Sub-themes: &quot;Students of different countries, nationalities, and languages; capitals of their countries, and tourist attractions; activities in their capitals and countries; national days and celebrations&quot; • Target Vocabulary in Use (with revisional vocabulary) • Countries • Türkiye, the • UK • United Kingdom (England, Scotland, Wales, Northern Ireland). the USA (the United States of America), Canada, Australia, New Zealand, South Africa, Italy, France, Germany, Spain, Russia, India, Japan, China, Mexico • Nationalities &amp; Languages • Turkish/Turkish, British/English, Scottish/English, Irish/English, American/English, Canadian/English- French Australian/English, New Zealander/English, South African/English, Italian/Italian, French/French, German/German, Spanish/Spanish, Russian/Russian, Indian/Hindi/Urdu/ English, Japanese/Japanese, Chinese/Chinese, Mexican/Spanish. • Target Vocabulary • Countries: South Korea, Poland, Chile, Peru, Thailand, Norway, Hungary, Bulgaria, Azerbaijan, Uzbekistan, Turkmenistan, Turkish Republic of Northern Cyprus, Kazakhstan, Kyrgyzstan. • Nationalities/Languages • South Korean/Korean, Polish/Polish, Chilean/Spanish, Peruvian/Spanish, Thai/Thai, Norwegian/Norwegian, Hungarian/Hungarian, Bulgarian/Bulgarian, Azerbaijani/ Azerbaijani, Uzbek/Uzbek, Turkmen/Turkmen, Turkish Cypriot/Turkish, Kazakh/Kazakh, Kyrgyz/Kyrgyz. • Tourist attractions and activities • Nouns: Sightseeing, a tourist attraction, a trip, a journey, a location, a historical/ancient ruin, a historical site, a palace, a square, a tower, a castle, a monument, an art museum, baths, a boat ride, native language, fjords, UNESCO World Heritage Site, tourist spots. Verbs: To head to, to join, to be famous for. Adjectives: fascinating, ancient, native. Adverbs: Fluently • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Grammatical Structures in Use • - “To be” (present) for the following: (Where are you from? I’m/am from Türkiye.) (What’s/is your nationality? I’m/am Turkish.) • - Modal “Can”: (What language (s) can you/we/they/she/he speak? I can speak Turkish. What is the capital of Türkiye? The capital of Türkiye is Ankara. Where can tourists visit in İstanbul? They can visit Sultanahmet Square/Galata Bridge/ Dolmabahçe Palace, etc. in İstanbul. What can tourists do in İstanbul? They can take a boat trip on the Bosphorus etc. in İstanbul. I can speak Japanese.) • Functions of the Target Grammatical Structures in Use • - Use of “To be” in the Simple Present Tense (am, is, are): Introducing home countries, nationalities, languages, capitals, and historical places/ activities in capitals and/or home countries in English in the present time. • - Use of “Can”: Describing possibility and opportunity: Describing (language) ability. • Target Social Language Expressions in Use • Hello! Hi! Hi there! • Let me introduce myself. This is Yasemin from Türkiye. • Wow! This palace/tower/etc. is excellent/great/perfect! I like it here/there! • Let’s grab our trays! • Chat about..! • Target Phonological Sounds in Use • Long and short vowels • a: (/ae/; /aeı/; /ə/; /a:/; /eɪ/; /a:/; /a/; /ɔː/; /eə/) Consonants: b: (/b/); silent /b/ c (/si/; /k/) d: /d/ • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.)",
                     "Sub-themes: &quot;Students of different countries, nationalities, and languages; capitals of their countries, and tourist attractions; activities in their capitals and countries; national days and celebrations&quot; • Target Vocabulary in Use (with revisional vocabulary) • Countries • Türkiye, the • UK • United Kingdom (England, Scotland, Wales, Northern Ireland). the USA (the United States of America), Canada, Australia, New Zealand, South Africa, Italy, France, Germany, Spain, Russia, India, Japan, China, Mexico • Nationalities &amp; Languages • Turkish/Turkish, British/English, Scottish/English, Irish/English, American/English, Canadian/English- French Australian/English, New Zealander/English, South African/English, Italian/Italian, French/French, German/German, Spanish/Spanish, Russian/Russian, Indian/Hindi/Urdu/ English, Japanese/Japanese, Chinese/Chinese, Mexican/Spanish. • Target Vocabulary • Countries: South Korea, Poland, Chile, Peru, Thailand, Norway, Hungary, Bulgaria, Azerbaijan, Uzbekistan, Turkmenistan, Turkish Republic of Northern Cyprus, Kazakhstan, Kyrgyzstan. • Nationalities/Languages • South Korean/Korean, Polish/Polish, Chilean/Spanish, Peruvian/Spanish, Thai/Thai, Norwegian/Norwegian, Hungarian/Hungarian, Bulgarian/Bulgarian, Azerbaijani/ Azerbaijani, Uzbek/Uzbek, Turkmen/Turkmen, Turkish Cypriot/Turkish, Kazakh/Kazakh, Kyrgyz/Kyrgyz. • Tourist attractions and activities • Nouns: Sightseeing, a tourist attraction, a trip, a journey, a location, a historical/ancient ruin, a historical site, a palace, a square, a tower, a castle, a monument, an art museum, baths, a boat ride, native language, fjords, UNESCO World Heritage Site, tourist spots. Verbs: To head to, to join, to be famous for. Adjectives: fascinating, ancient, native. Adverbs: Fluently • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Grammatical Structures in Use • - “To be” (present) for the following: (Where are you from? I’m/am from Türkiye.) (What’s/is your nationality? I’m/am Turkish.) • - Modal “Can”: (What language (s) can you/we/they/she/he speak? I can speak Turkish. What is the capital of Türkiye? The capital of Türkiye is Ankara. Where can tourists visit in İstanbul? They can visit Sultanahmet Square/Galata Bridge/ Dolmabahçe Palace, etc. in İstanbul. What can tourists do in İstanbul? They can take a boat trip on the Bosphorus etc. in İstanbul. I can speak Japanese.) • Functions of the Target Grammatical Structures in Use • - Use of “To be” in the Simple Present Tense (am, is, are): Introducing home countries, nationalities, languages, capitals, and historical places/ activities in capitals and/or home countries in English in the present time. • - Use of “Can”: Describing possibility and opportunity: Describing (language) ability. • Target Social Language Expressions in Use • Hello! Hi! Hi there! • Let me introduce myself. This is Yasemin from Türkiye. • Wow! This palace/tower/etc. is excellent/great/perfect! I like it here/there! • Let’s grab our trays! • Chat about..! • Target Phonological Sounds in Use • Long and short vowels • a: (/ae/; /aeı/; /ə/; /a:/; /eɪ/; /a:/; /a/; /ɔː/; /eə/) Consonants: b: (/b/); silent /b/ c (/si/; /k/) d: /d/ • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.) • Sub-themes: &#039;&#039;Classmates, friendships, daily and study routines, habits, and activities&#039;&#039; • Vocabulary for daily routines, habits, and activities • Verbs: To wake up, to get out of bed, to make (my) bed, to clean (my) face, to have/take a bath/shower, to comb (my) hair, to take clothes off, to get dressed, to put clothes on, to (re)charge (my) phone, to check emails/ messages, to leave home, to take the (school) bus/train/taxi to school, to walk to school, to attend classes, to have a break, to leave school, to return home, to arrive home, to watch series/ films/documentaries, to relax, to go shopping, to do household chores, to run errands. • Vocabulary for study routines, habits and activities • Nouns: A task. • Verbs: To plan, to work on (my) tasks, to participate (activities), to read silently/aloud etc., to repeat, to take notes, to last, to focus, to highlight, to keep up with, to get back to (studying) • Time expressions: Every day, every Monday/Tuesday etc., on Mondays/Tuesdays, always, often, sometimes, occasionally, rarely, never. • Adverbs of manner: Slowly, quickly, carefully, neatly. • - The Simple Present Tense (Subject verb agreement with subject pronouns “I, we, you, she, he, they, it”.) (I always walk to school.) • - Use of the Simple Present Tense: Describing daily and study routines, habits, and activities. • Bright and early! • I call it a day! • Hit the books! • I learn by heart! • Work hard, play later! • Vowels: e: (/e/; /ae/) • Consonants: f: (/f/), g: (/g/, /dʒ/), h: (/h/)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "e551f0c91aaeacf3",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -18090,10 +18525,15 @@
                   "sourceSection": "1. Hafta: Orientation & Okul Yaşamına Giriş",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "595d65faa853e4c2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özer Kiraz"
               }
@@ -18199,10 +18639,15 @@
                   "sourceSection": "2. Hafta: Geniş Zaman vs Şimdiki Zaman",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "b1ca43fc855c2981",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=A8vN6o44m2Y",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özer Kiraz"
               }
@@ -18434,10 +18879,15 @@
                   "sourceSection": "Theme 3: Personal Life",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "5d544133f66ebdeb",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özer Kiraz"
               }
@@ -18647,10 +19097,15 @@
                   "sourceSection": "3. Hafta: Yetenek ve Zorunluluk Kipleri",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "08dae6fa8fdeda08",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özer Kiraz"
               }
@@ -18756,10 +19211,15 @@
                   "sourceSection": "4. Hafta: Geçmiş Alışkanlıklar & Kibar İstekler",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "346b706e304348ab",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 },
                 "provider": "Özer Kiraz"
               }
@@ -18978,13 +19438,18 @@
                     "Sub-themes: “Family members’ jobs, work routines, work activities and workplaces” • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for jobs • Nouns: A bank clerk, a security guard, a pharmacist, a photographer, a journalist, an architect, a lawyer, an accountant, a businessperson, a computer programmer, a scientist, a psychologist, a content creator, a virtual assistant, a digital marketer, a counsellor, a client, a patent (holder) • Vocabulary for workplaces • Nouns: A bank, a shopping centre, a pharmacy, a photography studio, a news agency, an architecture/ architectural firm, a law firm, an accounting firm, a business office, an IT company, a science lab, a clinic, a social media platform, leisure centre, Additional Nouns: brand, brand awareness, Adverbs: remotely. • Vocabulary for action verbs representing family members’ work routines and activities: • Verbs: To serve (customers), to check (IDs), to shoot (photographs), to report (news), to design (buildings), to defend (people), to advise (on finances), to manage (a business), to develop (software), to research, to counsel (people), to publish (online), to organise (organize-AmE) (emails), to promote (products), to retire, to run (a workplace) • Vocabulary for family members: A cousin, a nephew, a niece, stepfather, stepmother, stepson, stepdaughter, relative. • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Grammatical Structures in Use • - The Simple Present Tense: (affirmative, negative, interrogative) (Subject verb agreement with subject pronouns “I, we, you, she, he, they, it”.) • What is her/his job? S/he’s/is a scientist. • What does s/he do? S/he researches a new project. • What’s/is your job? I’m/am a photographer. • What do you do? I shoot photographs. • What are your parents’ job? They’re/are architects. What do they do? They design buildings. • - Prepositions of place: at, in, on • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Asking and answering about family members’ and other people’s jobs, describing work activities, identifying workplaces. • - Use of the prepositions of place: Describing where people work. • Target Social Language Expressions in Use • Great job! • S/he made it! • S/he’s/ is in charge of the building. • S/He’s/is responsible for designing the plans. • Target Phonological Sounds in Use • Vowels: o: (/o/, /ɒ/, /ɔ:/) Consonants: m: (/m/), n: (/ŋ/, p: /p/ • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.) • Sub-themes: “Types of houses, rooms, furniture and activities in the house” • Vocabulary for types of houses: A detached house (a single-family house-AmE), a semi-detached house (a duplex-AmE), a terraced house (a row house-AmE), a block of flats (an apartment building-AmE.), a villa (a vacation home-AmE), a cottage, a bungalow (a ranch house-AmE), a penthouse. • Vocabulary for rooms and places in the house • (For revision): Nouns: a bedroom, a sitting-room (a living room-AmE), a garden (a yard-AmE), a kitchen, a bathroom, a toilet (a restroom-AmE), a utility room (a laundry room-AmE), a dining room, a corridor-a hall (a hallway-AmE), a garage, upstairs, downstairs, a terrace (patio-AmE). • Vocabulary for furniture and appliances in the house • A sofa (a couch-AmE), a table, a chair, an armchair, a coffee table, a wardrobe (a closet-AmE), a bedside table (a nightstand-AmE), a cupboard, a bathtub, a shower, a basin (a sink-AmE), a hoover (a vacuum cleaner- AmE), an oven, a fridge (a refrigerator-AmE, a freezer, a dishwasher, a cooker (a stove-AmE). • Vocabulary for household items and decorative items • Nouns: A cushion, a pillow, curtains, a carpet, a rug. Adjectives: Spacious, stylish, harmonious. Vocabulary for the activities to be done at home: • (For revision): Verbs: to have breakfast/dinner/lunch, to have a shower/ bath, to make (the bed), to clean, to watch TV, to play computer games, to read. • To prepare the table (to set the table for breakfast/lunch/dinner-AmE), to relax, to iron, to brush (teeth, hair), to tidy up, to wash the dishes, to wash/do the laundry. • - The Simple Present Tense: (Subject verb agreement with subject pronouns: I/you/ we/they/he/she/it). (Affirmative, negative, interrogative): (Where do you live? I live in a flat.) (What type of a house is it? It’s/is a cottage.) • - Time expressions for the present time: Now, at the moment, at present • - The Present Progressive Tense: (What are you doing at home now? I’m/am cleaning our house now. (Subject verb agreement with subject pronouns: I/you/we/they/he/she/it). (Affirmative, negative, interrogative) • - Possessive adjectives: My, our, your, his, her, its, our, their. • - Use of the Simple Present Tense: Asking and answering about types of houses (What kind of a house is it? It’s/is a cottage.) Asking and answering about where people live in terms of house types. • - Use of the Present Progressive Tense: Describing present activities in the house. What is s/he doing now? S/he’s/is having breakfast in the kitchen now.) • Make yourself at home! • Home sweet home! • There’s no place like home! • What a nice house! • Vowels: - no vowels • Consonants: q: (/k/); r: (/r/); s:(/s/) sh: /ʃ/",
                     "Sub-themes: “Types of houses, rooms, furniture and activities in the house” • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for types of houses: A detached house (a single-family house-AmE), a semi-detached house (a duplex-AmE), a terraced house (a row house-AmE), a block of flats (an apartment building-AmE.), a villa (a vacation home-AmE), a cottage, a bungalow (a ranch house-AmE), a penthouse. • Vocabulary for rooms and places in the house • (For revision): Nouns: a bedroom, a sitting-room (a living room-AmE), a garden (a yard-AmE), a kitchen, a bathroom, a toilet (a restroom-AmE), a utility room (a laundry room-AmE), a dining room, a corridor-a hall (a hallway-AmE), a garage, upstairs, downstairs, a terrace (patio-AmE). • Vocabulary for furniture and appliances in the house • A sofa (a couch-AmE), a table, a chair, an armchair, a coffee table, a wardrobe (a closet-AmE), a bedside table (a nightstand-AmE), a cupboard, a bathtub, a shower, a basin (a sink-AmE), a hoover (a vacuum cleaner- AmE), an oven, a fridge (a refrigerator-AmE, a freezer, a dishwasher, a cooker (a stove-AmE). • Vocabulary for household items and decorative items • Nouns: A cushion, a pillow, curtains, a carpet, a rug. Adjectives: Spacious, stylish, harmonious. Vocabulary for the activities to be done at home: • (For revision): Verbs: to have breakfast/dinner/lunch, to have a shower/ bath, to make (the bed), to clean, to watch TV, to play computer games, to read. • To prepare the table (to set the table for breakfast/lunch/dinner-AmE), to relax, to iron, to brush (teeth, hair), to tidy up, to wash the dishes, to wash/do the laundry. • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Grammatical Structures in Use • - The Simple Present Tense: (Subject verb agreement with subject pronouns: I/you/ we/they/he/she/it). (Affirmative, negative, interrogative): (Where do you live? I live in a flat.) (What type of a house is it? It’s/is a cottage.) • - Time expressions for the present time: Now, at the moment, at present • - The Present Progressive Tense: (What are you doing at home now? I’m/am cleaning our house now. (Subject verb agreement with subject pronouns: I/you/we/they/he/she/it). (Affirmative, negative, interrogative) • - Possessive adjectives: My, our, your, his, her, its, our, their. • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Asking and answering about types of houses (What kind of a house is it? It’s/is a cottage.) Asking and answering about where people live in terms of house types. • - Use of the Present Progressive Tense: Describing present activities in the house. What is s/he doing now? S/he’s/is having breakfast in the kitchen now.) • Target Social Language Expressions in Use • Make yourself at home! • Home sweet home! • There’s no place like home! • What a nice house! • Target Phonological Sounds in Use • Vowels: - no vowels • Consonants: q: (/k/); r: (/r/); s:(/s/) sh: /ʃ/ • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "bbb07afc20222551",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=mZ6Yf4vK8mU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -19106,13 +19571,18 @@
                     "Sub-themes: &#039;&#039;Local and international food culture and food festivals in the city&#039;&#039; • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for food events and festivals • Nouns: A cuisine, traditional (food), international (food), street food, a (food) fair, an international/regional/ local dish, a feast. • Vocabulary for food items • Nouns: Ingredients, cream, sweetcorn (corn-AmE), cereal, yoghurt (yogurt-AmE), seafood, salmon, beef, duck, tuna, a mushroom, a pineapple, a coconut, aubergine (eggplant-AmE), spinach, vinegar herbs, courgette (zucchini-AmE). • Vocabulary for international dishes • Nouns: Turkish pizza (lahmacun), couscous, barbecue (barbeque-AmE), a lamb chop, a kebab (shish kebab), a stew, noodles, a curry, tacos, a falafel, an omelette (an omelet-AmE), a burger, a biscuit (cookie-AmE), pasta, dessert, soup. Adjectives: Spicy, salty, hot, sweet, sour, bitter, savoury (savory-AmE), juicy, creamy, tender, giant. Verbs: To taste, a stall, a (street) vendor, to crack (eggs), to stir • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Language Grammatical in Use • - The Simple Present Tense with “or”: (Is this a local or an international festival? This is a local festival in Türkiye.) • - The Simple Present Tense with “Wh- question words”: (What festival is this? It is the Orange Festival.) (What do you cook at the Orange Festival? We cook/make orange jam at the Orange Festival.) • (Where is the Omelette Festival? It is in France. What do they cook? They cook omelette in a very big pan.) (What are the ingredients? The ingredients are eggs, milk, cheese, green peppers and mushrooms.) • (How do they cook it? They put some milk, some eggs, and some mushrooms in a pan, they stir it and cook it.) • - The Present Progressive Tense: (What are you cooking now? We are cooking orange cake now.) • - The Simple Present Tense vs the Present Progressive Tense: (How do they serve it? They serve it with salad and bread but we’re/are serving it with green pepper now.) • Functions of Target Language Grammar in Use • - Use of “Or”: Asking for options to help someone choose something by using the word “or”. • - Use of the Simple Present Tense: Describing habits, routines, regular and repeated actions. • - Use of the Present Progressive Tense: describing actions happening at or around the time of speaking. • - Use of “Wh-questions”: Asking and answering about factual information in the present time with Wh- questions and with the pronouns we/you/they by using the Present Simple Tense and Present Progressive Tense. • - Use of the Simple Present Tense vs the Present Progressive Tense: Comparing the descriptions of general truths, routines and habits by using the Simple Present Tense with actions happening at the present moment and/or around the current time by using the Present Progressive Tense. • Target Social Language Expressions in Use • This tastes amazing! • What a delicious meal! • I’m full, but I can’t stop eating! You’re/ are good at/bad at cooking! • Target Phonological Sounds in Use • Vowels: u: (/u/, /u:/) • Consonants: t: (/t/, /ð/, /θ/); v: (/v/) • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.)",
                     "Sub-themes: &#039;&#039;Local and international food culture and food festivals in the city&#039;&#039; • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for food events and festivals • Nouns: A cuisine, traditional (food), international (food), street food, a (food) fair, an international/regional/ local dish, a feast. • Vocabulary for food items • Nouns: Ingredients, cream, sweetcorn (corn-AmE), cereal, yoghurt (yogurt-AmE), seafood, salmon, beef, duck, tuna, a mushroom, a pineapple, a coconut, aubergine (eggplant-AmE), spinach, vinegar herbs, courgette (zucchini-AmE). • Vocabulary for international dishes • Nouns: Turkish pizza (lahmacun), couscous, barbecue (barbeque-AmE), a lamb chop, a kebab (shish kebab), a stew, noodles, a curry, tacos, a falafel, an omelette (an omelet-AmE), a burger, a biscuit (cookie-AmE), pasta, dessert, soup. Adjectives: Spicy, salty, hot, sweet, sour, bitter, savoury (savory-AmE), juicy, creamy, tender, giant. Verbs: To taste, a stall, a (street) vendor, to crack (eggs), to stir • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Language Grammatical in Use • - The Simple Present Tense with “or”: (Is this a local or an international festival? This is a local festival in Türkiye.) • - The Simple Present Tense with “Wh- question words”: (What festival is this? It is the Orange Festival.) (What do you cook at the Orange Festival? We cook/make orange jam at the Orange Festival.) • (Where is the Omelette Festival? It is in France. What do they cook? They cook omelette in a very big pan.) (What are the ingredients? The ingredients are eggs, milk, cheese, green peppers and mushrooms.) • (How do they cook it? They put some milk, some eggs, and some mushrooms in a pan, they stir it and cook it.) • - The Present Progressive Tense: (What are you cooking now? We are cooking orange cake now.) • - The Simple Present Tense vs the Present Progressive Tense: (How do they serve it? They serve it with salad and bread but we’re/are serving it with green pepper now.) • Functions of Target Language Grammar in Use • - Use of “Or”: Asking for options to help someone choose something by using the word “or”. • - Use of the Simple Present Tense: Describing habits, routines, regular and repeated actions. • - Use of the Present Progressive Tense: describing actions happening at or around the time of speaking. • - Use of “Wh-questions”: Asking and answering about factual information in the present time with Wh- questions and with the pronouns we/you/they by using the Present Simple Tense and Present Progressive Tense. • - Use of the Simple Present Tense vs the Present Progressive Tense: Comparing the descriptions of general truths, routines and habits by using the Simple Present Tense with actions happening at the present moment and/or around the current time by using the Present Progressive Tense. • Target Social Language Expressions in Use • This tastes amazing! • What a delicious meal! • I’m full, but I can’t stop eating! You’re/ are good at/bad at cooking! • Target Phonological Sounds in Use • Vowels: u: (/u/, /u:/) • Consonants: t: (/t/, /ð/, /θ/); v: (/v/) • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.) • Sub-themes: &#039;&#039;Nature, endangered animals, their natural living conditions and habitats, and protection of them&quot; • Vocabulary for endangered animals • Nouns: A polar bear, a sea turtle, an Asian elephant, a tiger, a whale, a great white shark, a penguin, a panda, a dolphin, a chimpanzee, a cheetah. • Vocabulary for their habitats • Nouns: Grasslands, rainforests, woodlands, jungles, oceans, deserts. Verbs: To need, to survive, to lessen, to breed, to hunt, to hide, to donate, to save, to protect, to produce, to prevent, to threaten, to reduce, to be at risk, to support, to affect. • Other related vocabulary • Nouns: A shelter, a disease, a food source, wildlife, volunteer, overhunting, overfishing, sea/marine pollution, air pollution, habitat loss, safety, population, survival, existence. Adjectives: dedicated, renewable, illegal. • Target Grammatical Structures in Use • -The Simple Present Tense • (Which animals are endangered? Leopards, cheetahs, elephants etc. are endangered animals.) (Where do endangered animals live? They live in their habitats.) • (What are their habitats? Their habitats are oceans, deserts, woodlands etc.) • (What are the reasons for their endangerment? Overhunting, water pollution, etc. are the reasons for their endangerment.) • - The Simple Past Tense with Verb “To be”: Was/were; there was/there were (Affirmative, negative, and question forms): • (What was the population of the leopards in the past? There were about 700.000 leopards in the world 50 years ago.) (What is the population of the leopard now? -There are about 250.000 leopards in the world today.) (What was the main habitat of leopards/elephants etc..? Their main habitat was the jungle.) • (Where were the habitats of elephants? Their habitats were woodlands and forests.) • (What were the habitats of endangered animals like 50 years ago? They were cleaner and safer etc. than they are today.) • - Use of “should” as a modal verb: (What should we do to protect endangered animals? We should protect their habitats. We should reduce water/air pollution. We should create safe areas for them.) • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Describing facts, situations, and conditions in the past. • - Use of the Simple Past Tense “Verb to be (Was/were)”: Asking and answering for information at a specific time in the past. • - Use of the Simple Past Tense “There was/There were”: Asking and answering about factual information and questioning the existence of things, people, and animals at a specific time in the past. • - Use of the modal “Should”: Describing advice, recommendation (and expectation), describing obligation (and expectation). • It’s too late! / It’s not too late! Every little bit helps! • Spread the word! • In safe hands! • Diphthongs: ea: (/eə/), ee: /ɪə/ Consonants: w: (/w/); x: (/ks/)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "bfcf430488d1fc82",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=N9y7e8kZ1jU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -19234,13 +19704,18 @@
                     "Sub-themes: &#039;&#039;Local and international food culture and food festivals in the city&#039;&#039; • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for food events and festivals • Nouns: A cuisine, traditional (food), international (food), street food, a (food) fair, an international/regional/ local dish, a feast. • Vocabulary for food items • Nouns: Ingredients, cream, sweetcorn (corn-AmE), cereal, yoghurt (yogurt-AmE), seafood, salmon, beef, duck, tuna, a mushroom, a pineapple, a coconut, aubergine (eggplant-AmE), spinach, vinegar herbs, courgette (zucchini-AmE). • Vocabulary for international dishes • Nouns: Turkish pizza (lahmacun), couscous, barbecue (barbeque-AmE), a lamb chop, a kebab (shish kebab), a stew, noodles, a curry, tacos, a falafel, an omelette (an omelet-AmE), a burger, a biscuit (cookie-AmE), pasta, dessert, soup. Adjectives: Spicy, salty, hot, sweet, sour, bitter, savoury (savory-AmE), juicy, creamy, tender, giant. Verbs: To taste, a stall, a (street) vendor, to crack (eggs), to stir • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Language Grammatical in Use • - The Simple Present Tense with “or”: (Is this a local or an international festival? This is a local festival in Türkiye.) • - The Simple Present Tense with “Wh- question words”: (What festival is this? It is the Orange Festival.) (What do you cook at the Orange Festival? We cook/make orange jam at the Orange Festival.) • (Where is the Omelette Festival? It is in France. What do they cook? They cook omelette in a very big pan.) (What are the ingredients? The ingredients are eggs, milk, cheese, green peppers and mushrooms.) • (How do they cook it? They put some milk, some eggs, and some mushrooms in a pan, they stir it and cook it.) • - The Present Progressive Tense: (What are you cooking now? We are cooking orange cake now.) • - The Simple Present Tense vs the Present Progressive Tense: (How do they serve it? They serve it with salad and bread but we’re/are serving it with green pepper now.) • Functions of Target Language Grammar in Use • - Use of “Or”: Asking for options to help someone choose something by using the word “or”. • - Use of the Simple Present Tense: Describing habits, routines, regular and repeated actions. • - Use of the Present Progressive Tense: describing actions happening at or around the time of speaking. • - Use of “Wh-questions”: Asking and answering about factual information in the present time with Wh- questions and with the pronouns we/you/they by using the Present Simple Tense and Present Progressive Tense. • - Use of the Simple Present Tense vs the Present Progressive Tense: Comparing the descriptions of general truths, routines and habits by using the Simple Present Tense with actions happening at the present moment and/or around the current time by using the Present Progressive Tense. • Target Social Language Expressions in Use • This tastes amazing! • What a delicious meal! • I’m full, but I can’t stop eating! You’re/ are good at/bad at cooking! • Target Phonological Sounds in Use • Vowels: u: (/u/, /u:/) • Consonants: t: (/t/, /ð/, /θ/); v: (/v/) • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.) • Sub-themes: &#039;&#039;Nature, endangered animals, their natural living conditions and habitats, and protection of them&quot; • Vocabulary for endangered animals • Nouns: A polar bear, a sea turtle, an Asian elephant, a tiger, a whale, a great white shark, a penguin, a panda, a dolphin, a chimpanzee, a cheetah. • Vocabulary for their habitats • Nouns: Grasslands, rainforests, woodlands, jungles, oceans, deserts. Verbs: To need, to survive, to lessen, to breed, to hunt, to hide, to donate, to save, to protect, to produce, to prevent, to threaten, to reduce, to be at risk, to support, to affect. • Other related vocabulary • Nouns: A shelter, a disease, a food source, wildlife, volunteer, overhunting, overfishing, sea/marine pollution, air pollution, habitat loss, safety, population, survival, existence. Adjectives: dedicated, renewable, illegal. • Target Grammatical Structures in Use • -The Simple Present Tense • (Which animals are endangered? Leopards, cheetahs, elephants etc. are endangered animals.) (Where do endangered animals live? They live in their habitats.) • (What are their habitats? Their habitats are oceans, deserts, woodlands etc.) • (What are the reasons for their endangerment? Overhunting, water pollution, etc. are the reasons for their endangerment.) • - The Simple Past Tense with Verb “To be”: Was/were; there was/there were (Affirmative, negative, and question forms): • (What was the population of the leopards in the past? There were about 700.000 leopards in the world 50 years ago.) (What is the population of the leopard now? -There are about 250.000 leopards in the world today.) (What was the main habitat of leopards/elephants etc..? Their main habitat was the jungle.) • (Where were the habitats of elephants? Their habitats were woodlands and forests.) • (What were the habitats of endangered animals like 50 years ago? They were cleaner and safer etc. than they are today.) • - Use of “should” as a modal verb: (What should we do to protect endangered animals? We should protect their habitats. We should reduce water/air pollution. We should create safe areas for them.) • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Describing facts, situations, and conditions in the past. • - Use of the Simple Past Tense “Verb to be (Was/were)”: Asking and answering for information at a specific time in the past. • - Use of the Simple Past Tense “There was/There were”: Asking and answering about factual information and questioning the existence of things, people, and animals at a specific time in the past. • - Use of the modal “Should”: Describing advice, recommendation (and expectation), describing obligation (and expectation). • It’s too late! / It’s not too late! Every little bit helps! • Spread the word! • In safe hands! • Diphthongs: ea: (/eə/), ee: /ɪə/ Consonants: w: (/w/); x: (/ks/)",
                     "Sub-themes: &#039;&#039;Nature, endangered animals, their natural living conditions and habitats, and protection of them&quot; • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for endangered animals • Nouns: A polar bear, a sea turtle, an Asian elephant, a tiger, a whale, a great white shark, a penguin, a panda, a dolphin, a chimpanzee, a cheetah. • Vocabulary for their habitats • Nouns: Grasslands, rainforests, woodlands, jungles, oceans, deserts. Verbs: To need, to survive, to lessen, to breed, to hunt, to hide, to donate, to save, to protect, to produce, to prevent, to threaten, to reduce, to be at risk, to support, to affect. • Other related vocabulary • Nouns: A shelter, a disease, a food source, wildlife, volunteer, overhunting, overfishing, sea/marine pollution, air pollution, habitat loss, safety, population, survival, existence. Adjectives: dedicated, renewable, illegal. • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Target Grammatical Structures in Use • -The Simple Present Tense • (Which animals are endangered? Leopards, cheetahs, elephants etc. are endangered animals.) (Where do endangered animals live? They live in their habitats.) • (What are their habitats? Their habitats are oceans, deserts, woodlands etc.) • (What are the reasons for their endangerment? Overhunting, water pollution, etc. are the reasons for their endangerment.) • - The Simple Past Tense with Verb “To be”: Was/were; there was/there were (Affirmative, negative, and question forms): • (What was the population of the leopards in the past? There were about 700.000 leopards in the world 50 years ago.) (What is the population of the leopard now? -There are about 250.000 leopards in the world today.) (What was the main habitat of leopards/elephants etc..? Their main habitat was the jungle.) • (Where were the habitats of elephants? Their habitats were woodlands and forests.) • (What were the habitats of endangered animals like 50 years ago? They were cleaner and safer etc. than they are today.) • - Use of “should” as a modal verb: (What should we do to protect endangered animals? We should protect their habitats. We should reduce water/air pollution. We should create safe areas for them.) • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Describing facts, situations, and conditions in the past. • - Use of the Simple Past Tense “Verb to be (Was/were)”: Asking and answering for information at a specific time in the past. • - Use of the Simple Past Tense “There was/There were”: Asking and answering about factual information and questioning the existence of things, people, and animals at a specific time in the past. • - Use of the modal “Should”: Describing advice, recommendation (and expectation), describing obligation (and expectation). • Target Social Language Expressions in Use • It’s too late! / It’s not too late! Every little bit helps! • Spread the word! • In safe hands! • Target Phonological Sounds in Use • Diphthongs: ea: (/eə/), ee: /ɪə/ Consonants: w: (/w/); x: (/ks/) • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "c7059fbdd366f27c",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=b4Y7e8kZ2kU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -19361,13 +19836,18 @@
                   "sourceTopic": [
                     "Sub-themes: “Films, film genres, futuristic films with futuristic ideas, and technology” • Target Vocabulary in Use (with revisional vocabulary) • Vocabulary for film genres • Nouns: Film (movie-AmE), comedy, action, cartoon (animated-AmE), romantic (romance-AmE), family film, adventure, science fiction, detective film, historical film, thriller, mystery, horror, musical, documentary, biographical, crime, martial arts. • Vocabulary for futuristic film genres • Nouns: Space adventure, robots, alien invasion, time travel, time loop, space exploration, adventure, superheroes, science (sci-fi) fantasy, an invention, a discovery, a survival, an actor, an actress, a director, a crew, virtual reality, a myth. Verbs: To discover, to explore, to invent, to adapt, to control, to be into sth. Adjectives: Futuristic, robotic, artificial, virtual, technological, horrific, world-saving, legendary, global, optimistic, intelligent, epic. • *National and religious days, festivals and celebrations • “29 October Republic Day”, “23 April National Sovereignty and Children’s Day”, “19 May Commemoration of Atatürk, Youth and Sports Day”, “15 July Democracy and National Unity Day”, “30 August Victory Day”, &quot;Eid al- Fitr (Eid-al-Ramadan)&quot;, &quot;Festival of Sacrifice (Eid-al-Adha)&quot;. • * (Relevant language content and (communicative) activities related to these national and religious days, festivals and celebrations will be developed and integrated across all themes and in all appropriate sections wherever and whenever possible.) • * Local Cultural, Social and Moral Considerations of the Theme • In this theme, specific examples, cases, situations, events, and practices reflecting Turkish social, cultural, and moral customs, traditions, and heritage will be included across all sub-topics. This consideration will be age-and-level appropriate and selected with the Turkish learners’ social and cultural context in mind. A table of contents for this section is provided in the introduction to the whole English Language Curriculum. • Background Grammatical Structures in Use • - The Simple Present Tense: (Adventure films show exciting places and happening.) • *About “Background Grammatical Structures in Use” • The “Background Grammatical Structures” in this section are not only revisional but also serve as contextual support and contribute to meaning-making. They are intended to be used within the theme to help students grasp the meaning of the language constructed through the use of “Target Grammatical Structures” without being explicitly taught. These structures are not considered “Target Grammatical Structures” themselves rather they function as a part of the facilitation process, supporting both the target forms and the contexts in which they are used. They provide opportunities for learning through revised and scaffolded language. • Target Grammatical Structures in Use • - The Simple Future Tense (Positive, negative, Interrogative): (What (do you think) will happen in the future? (I think) robots will help people in the future. People will travel to other planets. Scientists will invent new machines to explore space. Time travellers will change history. People will live in virtual reality worlds.) • Functions of the Target Grammatical Structures in Use • - Use of the Simple Present Tense: Describing events and happenings (in films). • - Use of the Simple Future Tense: Describing predictions, expressing what speakers believe and expect, explaining speakers’ opinions or guesses about the future, describing advice, recommendations (and expectations). • Target Social Language Expressions in Use • This (film) is a breath of fresh air! This (film) is not my cup of tea! • I’m not brave enough to watch this! What’s next? • Target Phonological Sounds in Use • Diphthong: o, oe, owoa, ou, eau: /əʊ/ Consonants: y: (/j/, /i/; z: (/z/) • * (Phonetic symbols will not be taught. Only sounds will be practised through the target words in the theme.)"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "146e6b2991f5220f",
                   "schemaVersion": "v2",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=g5Y7e8kZ3mU",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -19503,7 +19983,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "841d70169514c38b",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -19620,7 +20106,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
-                  "fingerprint": "2bafa93bc0d93e82"
+                  "fingerprint": "2bafa93bc0d93e82",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -19730,7 +20222,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
-                  "fingerprint": "ff41a131eaf524d1"
+                  "fingerprint": "ff41a131eaf524d1",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -19840,7 +20338,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
-                  "fingerprint": "15fb458cf92cbc54"
+                  "fingerprint": "15fb458cf92cbc54",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -19950,7 +20454,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
-                  "fingerprint": "c3f21f3eed9df052"
+                  "fingerprint": "c3f21f3eed9df052",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -20194,7 +20704,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "38f5c12a31439337",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -20321,7 +20837,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "477f80bad92a1e8c",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -20450,7 +20972,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "164ed0dfd692a990",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -20575,7 +21103,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "08658ac468fd853c",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -20692,7 +21226,13 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "needs_review",
-                  "fingerprint": "4cca94e386ebe6bd"
+                  "fingerprint": "4cca94e386ebe6bd",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -20918,7 +21458,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "b75859fc218c963e",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21051,7 +21597,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "e7a396de87e57ffa",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21178,7 +21730,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "a5e031267e28ad85",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21307,7 +21865,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "213d0fa320eab97e",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21434,7 +21998,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "3fe88a8ce7466ee2",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21565,7 +22135,13 @@
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "78a4929264d79e17",
-                  "schemaVersion": "v2"
+                  "schemaVersion": "v2",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
+                  "transcriptFingerprint": "e1ccaec372a5b2e7"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21802,9 +22378,14 @@
                   "sourceSection": "1. Tema: Sözün İnceliği",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "fingerprint": "b52a5298377cff88",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -22021,7 +22602,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "89f32a59f4939423",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.tr.vtt",
+                  "transcriptFingerprint": "ce3abaffa6c6dffb"
                 }
               }
             },
@@ -22138,12 +22724,17 @@
                     "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat)",
                     "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "6bf5b624cc60ee4b",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -22262,12 +22853,17 @@
                     "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme",
                     "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme • OKUL TEMELLİ PLANLAMA*"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "needs_review",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "7f3b56f0dc074870",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "error",
+                  "transcriptPath": null,
+                  "transcriptFingerprint": null,
+                  "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
                 }
               }
             },
@@ -22378,7 +22974,12 @@
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
                   "fingerprint": "97ad2f7839dbed29",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -22722,7 +23323,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "6757286a6ebe308c",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.tr.vtt",
+                  "transcriptFingerprint": "ce3abaffa6c6dffb"
                 }
               }
             },
@@ -22846,7 +23452,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "b6ee6c916a64e857",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.tr.vtt",
+                  "transcriptFingerprint": "ce3abaffa6c6dffb"
                 }
               }
             },
@@ -23191,7 +23802,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "b8921c881a371c12",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23313,7 +23929,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "5bc617370a699705",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23437,7 +24058,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "d002cc935d09c7d4",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23559,7 +24185,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "b06056bc42d0242b",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23680,7 +24311,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "7bca883f24e6e1cf",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23802,7 +24438,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "e915a2c7cafa2e4b",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },
@@ -23926,7 +24567,12 @@
                   "videoCandidateTitle": null,
                   "fingerprint": "1196ee5c0603a2b1",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg"
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.tr.vtt",
+                  "transcriptFingerprint": "b942c35900634519"
                 }
               }
             },

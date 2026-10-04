@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "09566b06fd2755f6",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.tr.vtt",
+      "transcriptFingerprint": "34a035e730bc990b"
     },
     "provider": "Meschemy Kimya"
   }

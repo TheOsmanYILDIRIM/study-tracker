@@ -1,0 +1,829 @@
+Herkese selamlar sevgili 9. sınıflar
+nasılsınız bakalım? Umarım keyifler
+yerinde her şey yolunda gidiyordur. Yine
+enerjik bir giriş yapıyoruz. Konumuz ne?
+14. derse geldik. Doğrusal
+fonksiyonlarda eşitsizlik içeren
+problemler çözeceğiz. Ya da bir diğer
+eşitsizlikleri göreceğiz. Hani hem
+doğrusal denklemler hem eşitsizlikler.
+Yani bu konuyu işlerken şöyle olacaksın.
+Hafif bir kekremsi tat gelecek ağzında.
+Lan bu LGS konusu mu? 8. konusu mu diye
+ufaktan düşüneceksin. Eee, birazcık
+benziyor. Ben de zaten sana o bağlamları
+hatırlata hatırlata ilerleyeceğim ve
+böylece de eee, mevzuyu daha iyi
+kavrayacağız. Neredeyiz? Tabii ki de
+Moros Tuncuk'tayız. Yine kitabımızı
+elimize aldık. 102. sayfadan başlıyoruz.
+103 104 tokatlaya tokatlaya gidiyoruz.
+Mükemmel sorularımız ve tabii ki de konu
+anlatımımız var. Yeni Maarif Modele
+uygun kitabı hala edinmediysem bence hiç
+geç değil. Çünkü en sağlam konulardayız.
+Hemen buradan başlayabilirsin. Yarı yıl
+tatilinde de eksiklerini de
+kapatabilirsin. Eğer hala edinmediysen
+yeni marif modele uygun şöyle tuğladan
+hallice kitabımızda kendini 9. sınıfta
+çok iyi bir yere getirebilirsin.
+Anlaştık dedim. Hatırlattım. İstersen
+açıklama kısmında da eee linkini
+bırakıyoruz. Oradan da bir
+inceleyebilirsin. Tabii ki de kalan eee
+sayfaları hemen sana ödev olarak eee
+vereceğim. Sayfa 105'te, 106'da ve
+107'de şahane sorularımız var. Yine
+çözüm videoları var. Kare kodlarla
+çözümlere de ulaşabileceksin. Hiç
+problem yok. O zaman ne diyoruz? Abone
+olmadıysan oluyoruz. Önce bir abone
+olalım ki gerçek anlamda bir eee
+desteğimizi gösterelim. Videoyu
+beğenerek de yine bize desteklerinizi
+gösterebilirsiniz. Yorumlarınızı
+bekliyorum. Herkes hangi konuda? Ya
+şöyle bir kargaşa var yorumlarda. Biri
+diyor ki hocam çok hızlısınız. Bir başka
+yorumda da görüyorum ki hocam biz daha
+buralara gelmedik ki. Yani bir
+ortalamayı alalım. Herkes an itibariyle
+yorum yazdığı an itibariyle hangi konuda
+olduğunu bir söylesin. Biz de hızımızı
+ayarlayalım. O zaman ders ekranındayız.
+Şimdi kendisini görüyorsunuz. Eee 16
+kelimeden oluşan başlığımız doğrusal
+fonksiyonlarla ifade edilebilen denklem
+ve eşitsizlik içeren yani aslında
+fonksiyonlarda denklem ve eşitsizlik
+muhabbetine geçiyoruz bu ders ile
+beraber.
+Benden o zaman bu kadar giriş bu kadar.
+2 dakikadır nefesim kesildi. Hadi o
+zaman başlıyoruz. Hemen zoom'umu attım.
+öğren diyerek başlıyoruz. Neyi
+öğrenecekmişiz bakalım. Aslında bir
+ufaktan eee ne diyelim? Hatırlatma gibi
+de düşünebilirsin bunu. Şimdi en az biri
+0dan farklı diyoruz. Kimlerin eee a ve c
+gerçek sayılarından bahsediyoruz. Gerçek
+sayılarda tanımlı f ve g
+fonksiyonlarının cebirsel temsillerini
+ne olarak düşünüyorduk gençler? fx = ax
++ b. Gx = cx + d olsun. Tamam. Buradan
+elde edilen f(x) = g(x). Yani aslında
+iki tane e cebirsel ifadeyi, cebirsel
+temsili diyoruz artık listede 9. sınıfta
+böyle kelimeler değişti. İki cebirsel
+temsili eşitlediğimizde biz buna 1inci
+dereceden bir bilinmeyenli denklem adını
+vereceğiz. Yani aslında bildiğin denklem
+ya x'lerin havalarda uçuştuğu denklem
+muhabbeti. Peki denklem olayını anladık.
+Hani ikisinin eşitliği varsa denklem ama
+arada böyle küçüktür, küçük eşittir,
+büyüktür ya da büyük eşittir gibi
+ifadeler varsa da bu sembolleri
+görüyorsan o zaman ne diyecektik? 1.ci
+dereceden bir bilinmeyenli eşitsizlik
+diyecektik. Yani denklem olması için
+arada bir eşitlik olması gerekiyor.
+Eşitsizlik olması için de arada
+eşitsizlik sembollerinden biri olması
+gerekiyor. Yani eşittir varsa denklem,
+eşittir yoksa eşitsizlik diyoruz. Tamam.
+Şimdi burada f(x) = g(x) denkleminden
+biz bunları tek bir tarafa toplayıp 0
+elde ediyoruz ya hani denklem nasıl
+çözüyorduk? Herkesi diyorduk bir tarafa
+salla salla salla salla. Bu şekilde
+salladığında a - c yani x'in bak burada
+neyi aslında? A - c dediğimiz olay x'in
+başındaki arkadaşlar. İşte bunu cepte
+tut. Bir de B - D var. Şu B - D de
+aslında X'in yanında olmayanlar diyelim.
+Buradan hareketle mx + n = 0 elde edilir
+aslında. Yani şu hemen tarıyorum daha
+net olsun. Bir saniye. Şu ifadeyi tamam
+mı? Şu ifadeyi birazcık elini yüzünü
+düzelttik. Ne yaptık? A - C'ye M dedik.
+B - D şu kısma da N dedik aslında. Tamam
+mı? Şimdi bu denklemde eş 0 yaptım.
+Artık denklem çözümüne geçiyoruz. Burada
+tabii ki de x'imiz bilinmeyen m ve
+n'mizde katsayı, n ise sabit terim
+olarak söyleyeceğiz. Tamam mı? Hani
+katsayıdır sorarsam ne diyordun? M n.
+Orada gördüğün sayılar diyorduk.
+Hatırladık mı? Katsayı sorarsam sayıları
+söyleyeceksin. Sabit terim sorarsam
+başında daha doğrusu özür dilerim
+yanında x olmayan ifadeyi söyleyeceğiz.
+O da bizim sabit terimimiz. Şimdi eğer
+şunu yapmaya kalkışırsan mx + n = 0
+denkleminde x'i bulmaya kalkışırsan biz
+o x'e ne diyoruz? Denklemin kökü
+diyoruz. Denklemde x bulmak ne demek?
+Aslında denklemin kökünü bulmak demek.
+Ama karşında bir eşitsizlik varsa da
+orada bulacağın x haliyle bir aralık
+olacak. Mesela diyeceksin ki eksi
+sonsuzdan 2'ye kadar falan. O zaman da
+bu eşitsizliği sağlayan değerlerin
+aralığına da ne diyoruz? eşitsizliğin
+çözüm aralığı diyoruz. Laf da kalmasın.
+Biz matematiği sorularla öğreniriz
+hocam. Sorularımız geldi. Şimdi ufaktan
+ısınma turları denklemin köklerini
+bulacağız. Nasıl buluyoruz? E x'i yalnız
+bırakacağız. -6'yı karşıya şutladığımda
+ne olacak? x = 4 + 6 gelecek.
+Dolayısıyla buradan ne bulacağım? 10.
+Yani x = 10. Denklemin kökü 10
+diyeceğim. Geçeceğim. 2incide + 3'ü
+karşıya -3 olarak zıplattığımda ne
+kalacak ortada? 2x = 12. E buradan da
+bir tanesi 6 diyeceksin. Denklemin kökü
+6'ymış diyeceğiz. 3üncüye baktım. + 4'ü
+bu sefer zıplatalım karşıya. -4 geçsin.
+Dolayısıyla -3x = 8 - 4'ten 4. Her iki
+tarafı neye böleceğim? X'i yalnız
+istiyorum. Başında -3 var. O zaman -3'e
+böleceksin. Her iki tarafı -3'e bölersem
+de 4/ -3 ya da şöyle eksiyi başa alıp
+daha şık gözüksün. Bu şekilde de
+yazabilirsin. -4/3. Denklemin kökü -4/3
+diyeceğiz. İlerledim. Denklem biraz daha
+sevimsiz gelirse karşımıza hocam ne
+yapacağız? Gerekli işlemleri yapacaksın.
+Tamam mı? Önce mesela 2'yi dağıtacaksın
+bir parantez varsa. Yine bizim tablet
+gitti. Hemen ayarlayalım. Kaldığımız
+yerden devam ediyoruz. 2'yi dağıtıyorum.
+Hemen buraya ne yazdım? 2 x x 2x + 2 x 3
+6 = 8 e bu 1. soruya döndü. Bundan
+sonrasını biliyorsun. 6'yı karşıya
+tekmeledim. + 6 -6 geçti. Buradan da
+bana ne kaldı? 2x 2 kaldı. Demek ki x
+neymiş? 1'miş. Bak tertemiz denklemin
+kökünü buldum. Sıradaki gelsin. Hemen
+baktım -3'ü belli ki dağıtacağım. -3x
+-3 ile +1'i çarptım. -3 = 2x. Şimdi
+burada ne yapalım? Eksili kardeşlerimizi
+karşıya zıplatalım ki artıya
+dönüşsünler. Burada -3 yalnız kalsın. Bu
+-3x'i
++ 3x attım. Yani sağ taraf etti bana 5x.
+Bir tane x'i arıyorsam 5'e böleceğim.
+Demek ki x'imiz -3/5'miş.
+Yani denklemimizin kökü -3/5.
+Geçtim sıradakine. Burada iyice kaosa
+döndürdük. Yani ne varsa bütün
+klavyedeki sayılara bastık. Dağıtacağız.
+eksi ya da dağıtmayacağız. Vazgeçtim ya.
+İlle de dağıt dağıt dağıt. Nereye kadar?
+Şunu yapabilirsin. Her iki eşitliğin her
+iki tarafında da çarpma durumunda
+sayılarda sadeleştirme yapabiliyorsun.
+Ne var burada? 2 var. 2'ye böldüm. 1
+yani hatta pazara gönderdik. E -4'ü de
+2'ye bölebilirim. Eşitliğin her iki
+tarafını da aynı pozitif sayıya
+bölebiliriz. Dolayı negatif sayıya da
+bölebilirim bu arada. Hani eşittir
+olduğu için eşitsizliklerde bir yön
+değiştirme vardı. Bu da neyni yön
+değiştirecek? eşittir zaten. Dolayısıyla
+-4'ü 2'ye böldüm. -2. Şimdi ne
+yapıyorum? Dağıtma işlemi yapıyorum.
+Çarpmanın çıkarmaya dağılması. -2 ile
+1'i çarptım. -2. -2 ile -x'i çarptım. +
+2x e= sağ tarafta zaten katsayıyı pazara
+göndermiştik. Bir etkisiz eleman yazma.
+x + 4'ü direkt geçir. x + 4 yani 1 kere
+x 1 kere 4 x + 4 yani. Şimdi olaya son
+noktayı koyalım. Burada büyük abi 2x.
+Burada bir tane x var. X'i sol tarafa
+eksi gönderiyorum. Yani 2x'in yanına -x
+geldi. Sağ tarafta ev sahibim 4. Bu
+-2'yi de diğer tarafa 4'ün yanına + 2
+geçirdim. 2x'ten x çıkarsa x kalır. Yani
+bir tane x kaldı. 4 ile 2'yi topladım. 6
+geçmiş olsun. Denklemin kökünü bulduk.
+Şimdi iyice zıvanaadan çıkıyoruz.
+Zıvana'dan çıktım. Buradaki denklemin
+kökünü bulacağız. Rasyonelse ne
+yapacağız hocam? Rasyonelse ne
+yapıyordun? İçler dışları göm. Hemen ne
+yapıyorum? 2 ile bunu çarpıyorum. X +
+4'ü. İstersen bir adım da şöyle yazalım.
+Hani ne yapacağımı yazayım önce. 2 ile x
++ 4'ü çarpacağım. 3 ile de x - 2'yi
+çarpıp eşitleyeceğim. Yani ne yapıyorum?
+Bunun adı ne? Matematikteki bu işlemin
+adı içler dışlar çarpımı. Oğlum çok
+melodik bir tanım aslında. Çok severiz
+içler dışlar çarpımını. Bundan sonrası
+çayda çıra dağıta dağıta yazacaksın. 2
+ile x'i çarptın 2x + 2 x 4 8 = 3'ü
+dağıtıyorum 3x 3 kere -2'den -6 ve
+bundan sonra da artık 1. soruya
+döndürdüm. Küçük kardeşimizi büyük
+abisinin yanına gönderiyorum. 3x'in
+yanına -2x geldi. Solda zaten 8'im var.
+-6'yı da tekmeledin. + 6 geldi. 3x'ten
+2x çıktı. Bir tane x kaldı. Laps diye de
+x'i buluyorum bak. 8 + 6 14. Denklemin
+kökü 14'müş. Geldim sıradakine. Heh.
+Hadi hocam. Hadi burada da içler dışlar
+yap diyemezler. Burada içler dışlar
+yapamam. Dolayısıyla ne yapacağım? Payda
+eşitleme. Niye içler dışlar yapamıyorsun
+hocam? Çünkü burada bir toplama işlemi
+var. İçler dışlar yapabilmem için direkt
+her iki tarafta da birer rasyonel ifade
+olması lazım ki çat çat hemen içler
+dışlara başlayayım. Ama bir toplama
+çıkarma muhabbeti varsa bak
+rasyonellerin arasında bana şunu deme
+hocam burada da çıkarma var. Hayır lan
+öyle değil. Bu burada kusura bakmayın
+biraz bazen yükseliyorum. Burada
+rasyonellerin arasında bir toplama
+çıkarma var. O yüzden içler dışlara
+kalkışamıyoruz. Öyle bir operasyon
+yapamayız ama payda eşitleriz. En büyük
+kardeşimiz 8. O zaman bunu 2 ile
+çarparım 8 olur. Bunu 4 ile çarparım 8
+olur. Şimdi bütün paydaları aslında
+eşitledim. Ne yapacağım? Üsttekilerle
+paylarla olaya devam edeceğim. 2 ile x'i
+çarptım 2x + Şimdi 4'ü çarpa çarpa
+yazıyorum bak. 4x
+- 4. Tamam. 1 diyenin kalemi kırılsın.
+Sağ tarafta da payımız 1. Hocam
+paydaları ne yaptın? Uçurdun mu?
+Uçurdum. Hepsini pazara gönderdim. Sebep
+çünkü paydalar eşit. Zaten rasyonellerde
+biz payda niye eşitliyoruz? Paydayı
+görmemek için. Zaten hepsi eşit
+olduğundan dolayı sadece paylarla işlem
+yapabilelim diye paydaları eşitleyip yok
+ediyoruz. Sonracığıma 2x ile 4x toplandı
+6x -4'ü karşıya + 4 zıplattım. 1 + 4'ten
+orası da 5. Her iki tarafı 6 ile
+tokatlarsam
+x = 6'lar uçtu zaten. X yalnız kaldı.
+Demek ki buradaki kökümüz de neymiş? 5/6
+şiir gibi çözdük değil mi? Bence bir
+edebiyat kitabından koparılmış sayfa
+gibi. Şimdi abartı seviyem 4. soru ve
+ufaktan eşitsizlik diyoruz. Şimdi basit
+eşitsizlikler bunlar. 1inci dereceden
+bir bilinmeyenli yani eşitsizlik çözümü
+gibi düşünebilirsin. Ne yapacağız? -10'u
+karşıya şutlayacağız. Aynı denklem çözer
+gibi çözeceğiz. Bir farkı yok. Sadece
+araya eşittir değil küçüktür koyuyorsun.
+-10 karşıya geçti. + 10 oldu. Her iki
+tarafı 2 ile tokatladım ki x'i yalnız
+bırakayım. x&lt; 10/2'den 5. Mevzu bu.
+Çözüm aralığını soruyorsa burada
+bırakmak ayıp olur. Tamam mı?
+Matematiksel bir ayıp yaparız.
+Dolayısıyla ne diyeceğiz? Aralık dediği
+için Kasım deseydi farklı çözecektim ama
+aralık dediği için böyle çözeceğim.
+[kahkaha] Buradan buz kesti. Şimdi eksi
+sonsuzdan
+5'e kadar diyeceğim ve 5 dahil değil.
+Aralık böyle gösterilir. Tamam. Geldim
+B'ye. Şimdi burada ne halt yiyeceğiz?
+Mevzu aynı. + 12 misin sen? Karşıya geç.
+-12 ol. Burada 4x kaldı. 4x aradaki
+işaretim eşit -12. Her iki tarafı x'i
+yalnız bırakabilmek adına 4e bölüyorum.
+Tak tuk 4leri pazara gönderdim. X &lt;
+-12'yi 4'e böl -3 buldum. Burada bak
+kafan karışmasın. Eksiye bölme gibi bir
+işlem yapmadığımdan dolayı eşitsizlik
+yön değiştirmez. Eşitsizlik ne zaman yön
+değiştiriyordu?
+Her iki tarafı eksi ile çarpmada ya da
+bölmede eşitsizlik yön değiştiriyordu.
+Ama burada öyle bir şey yok. Şimdi tabii
+bize aralık dediği için ne yapıyorsun?
+küçük eşittir diyor. Yani x'ler -3'ten
+de küçükmüş. Yani eksi sonsuzdan
+geliyorlarmış bunlar. Tamam. Nereye
+kadar? -3'e kadar. -3 kapalı aralık.
+Çünkü dahiliyet var. -3 eşit küçük
+eşitleri var ya. O yüzden köşeli
+parantezle göstereceğiz. Geldim C
+seçeneğine. Hemen -9'a vurduk. Tekmeyi.
+Karşıya zıplattık. +9 geçti. Her iki
+tarafı da 3 ile tokatladığımızda taktuk
+x &gt; 9/3'ten 3 buldum. Nasıl göstereceğim
+şimdi? Bak x'ler 3'ten büyükmüş.
+Aralığını bulacağız. Aralık şöyle 3'ten
+başlayacağım. 3 dahil değil. O yüzden
+normal parantez attım. Nereye kadar?
+Sonsuza kadar. Sonsuz her zaman zaten
+normal parantezle gösterilir. Şimdi bu
+soruyu da tokatladık. Adcuk vitesi
+arttıralım ve ne var? 5. sorudayız.
+Hemen A seçeneğine baktım. Bu direkt
+eksi ha kafa yanıltmasın. Kafa
+yanıltmasın de ya bizi yanıltmasın.
+Şimdi ne yapacağız? Denklem çözer gibi
+bak. Eşitsizlik çözmek ekstra bir bilgi
+gerektirmiyor aslında. %99. Dolayısıyla
+hani ekstra gereken şey ne? Hani eksi
+ile çarpma bölme yaparsan o zaman işin
+yönü değişir muhabbetini unutmaman
+lazım. Ama burada ben mümkün olduğu
+kadar o işlere bulaşmayacağım ki
+ekstraya girmeyelim. Tamam mı oğlum?
+Ekstra su yakmıyoruz burada. Yani şimdi
+tamam mı? 3 ile x'i çarptım. 3x 3 x -4
+-12. Hemen -2'yi dağıtıyorum. -2x - 2 &lt;
+0. X'leri burada bir tutalım. Bunlar bir
+birlesin. 3x - 2x'ten 1x kaldı. Aa laps
+diye geldi elime. Hemen -12 karşıya + 12
+zıpladı. -2 karşıya + 2 zıpladı. 12 2
+daha 14. Aradaki işaret küçüktürdü. O
+zaman x&lt; 14. Yani ek sonsuzdan geliyorum
+14'e kadar. Ama 14 dahil değil.
+Tokatladık. Tertemiz. Patates ettik.
+Geçtik. Şimdi burada her iki tarafı
+dağıtacağım. Dağıtalım bakalım. 4x - 4 x
+2 8. Arada bir yük eşit var. 2'yi
+dağıtıyorum. 2x + 2 x 4 8. Tertemiz.
+Şimdi kankalar buluşsun. 2x tekmeledin.
+4x'in yanına eksi geçti. 2x kaldı.
+Burada + 8 var. -8 hop + 8 geçti 8 16
+Her iki tarafı 2'ye böldüm x &gt; 8'i
+buldum bir de aralık olarak yazalım.
+Şimdi 8 dahil 8'den başlıyorum ama
+büyükmüş. Artı sonsuza kadar gideceğim.
+Anlaştık. Bu da tamam. Artık şu fmesi
+gerekiyordu. 6. soru itibariyle bu işi
+fonksiyonlara bulaştırıyoruz. Şimdi f ve
+g fonksiyonlarımız r'den r'ye. Yani
+diyor ki en geniş sayıları kümeni düşün.
+Sıkıntı yok diyor. Herhangi bir yerde
+bizi kısıtlamamış. Fonksiyonlar
+verilmiş. Buna göre aşağıdaki sağlayan
+en geniş çözüm aralıklarını cebirsel
+temsil yönteminden faydalanarak
+bulunuruz. Cebirsel temsil ne demek
+aslında? Diyor ki x'lerle y adam gibi
+diyor denklem çöz. Benim canımı sıkma
+diyor. Yine gerildim. Benim gerilme
+saatlerim gelmiş. Şimdi yaşlandıkça
+böyle oluyor. Ara ara. Yapacağın şey şu.
+Sana f(x)'i vermiş ya. FX yerine ahan da
+şu cebirsel temsilini yazacaksın. Yani
+diyeceksin ben a'yı burada çözeceğim ya.
+Beni oraya sığdıramazsınız.
+f(x) yerine -2x + 4 yazıyorum. Ü 0
+diyorum ve ben bunu çözüyorum. Bunun
+çözüm aralığını bulacağım. Yapacağım şey
+şu. Eksi ile çarpmaktan kaçındığım için
+-2x'i karşıya göndereyim de + 2x olsun
+diyorum. Burası da 4. Şimdi her iki
+tarafı temizinden bir 2 ile tokatlarsam
+cart curt. Ne oldu? Sağ tarafta x kaldı.
+Sol tarafta 4'ü 2'ye böldüm. 2 tertemiz.
+2 &gt; eş x buldum. Ya da sağdan sola
+okursam x &lt; 2 buldum aslında. Tamam mı?
+Şimdi ben onu çözeyim. Hatta niye ben
+onu şöyle yazmadım ki? X &lt; 2 bulduk.
+Ayıp mı canım böyle yazmak? Aynı şey.
+Çözüm aralığı şu. 2'den başlıyoruz ama
+daha küçüğüz. Demek ki eksi sonsuza eksi
+sonsuzdan geliyorum. 2'ye kadar 2'yi de
+dahil edeceğim köşeli parantezle.
+Şimdi geldim Bursa'ya. Canımda bir
+şeftali çektik. Kimse de demiyor hocaya
+bir şeftali gönderelim. Belki mevsimi
+değil diye de göndermiyor olabiliriz.
+Şimdi B'ye geldim.
+Şeftali ne arar? Bursa'da diyorsunuz.
+GX'in X - 6 olduğunu biliyoruz. O zaman
+cevirsel temsilini yazdım. X - 6 ne var?
+Üç 0 var. O zaman ü0 derim. Hemen -6'yı
+tokatlarım. Karşıya gönderirim. + 6
+geçer. Bitti. X 6 buldum. O zaman ne
+diyeceğim?
+Eksi sonsuzdan 6'ya kadar 6 dahil değil.
+Tertemiz çözdüm. Sıradaki gelsin. O f(x)
+&gt; g(x) demişiz. O zaman hemen sen bana
+bir f(x)'i söyler misin? f(x) neydi? -2x
++ 4 yazıyorum. -2x + 4 &gt; eşit diyorum.
+Şimdi bir de g(x) patlatın bana. O da
+neydi? x - 6. Hemencik x - 6 yazdım.
+Şimdi eksilerle canım sıkılmasın diye şu
+-2x'i karşıya göndereceğim. Yani x'in
+yanına + 2x geçecek. Sol tarafta bir
++4'üm var. -6 durur mu? Hani bana hani
+bana diyor. Onu da +6 olarak
+gönderiyorum. Sol taraf ne oldu? 10
+oldu. Çok güzel. 10 &gt;=
+3x olarak buldum. Ya da sağdan sola
+okuyalım. Hani x başa gelsin. 3x &lt;&lt;= 10
+diye de söyleyebiliriz. Herkesi şöyle
+bir 3 ile tokatlayalım. 3'leri pazara
+gönderdim. X &lt; 10/3 buldum. Ben bunu
+aralık olarak yazarım. küçük dediği için
+belli ki sonsuzdan geliyorum. Nereye
+kadar? 10/3'e kadar. Dahil mi? Dahil
+tabii. Çünkü küçük eşittir demiş. Eşitti
+de var. O yüzden köşelimi çaktım. Hop.
+7. sorudayım. Şimdi fonksiyonu verilmiş.
+Eşitsizinin çözüm aralığını fonksiyon
+grafik temsilinden faydalan faydalanarak
+bulunuz diyor. Oo dikkat dikkat grafik
+temsil ediyor. O zaman ne yapacağız?
+Kolları sıvayacağız grafik çizeceğiz.
+Neyin grafiği hocam? fonksiyonunun
+grafiği. Başka bir şey mi var ortada?
+Şimdi gel önce bunu bir çizelim. Önce
+ben bir dağıtayım mı bunu? Dağıtayım.
+3'ü dağıtıyorum. Ne olacak? 3x/ 2 - 3
+olacak değil mi? Çok güzel. Yani bunu
+şöyle düşünebilirsin. y = 3x/ 2 - 3 gibi
+de düşünebilirsin. Şimdi bana bir
+fonksiyonun şey lazım. Grafiği lazım.
+fonksiyonunun grafiği lazım. Dolayısıyla
+hemen kendime bir koordinat sistemi
+çizdim. Burada
+x'e 0 vereyim. Y'yi nereden kesiyor
+bulayım. X'e 0 verirsem ne olur gençler?
+Burayı tak diye yutarsınız değil mi? X
+gitti. E ne kaldı? Y = -3 kaldı. Demek
+ki x'in 0 olduğu yerde y -3'müş. Yani
+grafik ekseni y eksenini -3'te kesiyor.
+Cart diye bu noktayı işaretledim. Temiz.
+Şimdi bir de tersten girişelim. Y'ye 0
+verip x'i bulayım. Bunun için bir şöyle
+denklem yapalım. 3x/ 2 - 3. Bak y'ye 0
+verdim. Gördün değil mi? -3 karşıya + 3
+geçirdim. 3 = 3x/ 2. Her iki tarafı 3'e
+böldüm. Burası 1. 2'yi de karşıya
+şutlarsam x = 2 çıkar. Ahan da y'ye 0
+verdiğimde x2'ymiş. O da şurası
+x2. Tamam. Bak istersen deneyelim. X'e 2
+verdiğimde ne oluyor? 2/2 1 oluyor.
+1'den 1 çıkarttım. Parantezin içi 0.
+Demek ki x y de 0 çıkıyor. Yani x'e 2
+verirsem y yok. 0. Tamam. Şimdi ne
+yapıyoruz? Bunu birleştiriyoruz. Şöyle
+tak diye iki noktadan geçecek şekilde bu
+arkadaşı birleştirdim. Hocam sen ne
+yaptın şu an? Ne çizdin hocam? Ne çizdin
+biliyor musun? y = f(x) grafiğini çizmiş
+oldum. Sen şimdi ne istiyorsun benden?
+İstediğin şey f(x) &gt; 0.
+fonksiyonunun 0'dan büyük olduğu yerleri
+istiyorsun benden. Oralar neresi? Ben
+sana tarıyayım. Hemen de tarım. Bak F
+neydi? F şu Y'ydi. Y değerinin 0'dan
+büyük olduğu yer ne demek? Şunun üstü
+demek. asansörün zeminin üst katları
+demektir. Yani şurası, şurası, şurası.
+Bak buralarda hep y değerlerine git. Ne
+var? Pozitif değerler var. Ama mesela
+şurada y değeri nedir? Negatif bir
+sayıdır. Mevzuyu çakozladık mı? O zaman
+nereyi tarıyorum? İşte tam olarak şu
+kısmı tarıyorum. Tamam. Bir de bunu
+tabii şıklık olsun. Çözüm aralığı olarak
+da yazalım. Bak, x'in 2den büyük olduğu
+yerlerde neymişiz biz? Y değerimiz. Yani
+fonksiyonumuz pozitifmiş. Dolayısıyla da
+çözüm aralığımızı bu şekilde, çözüm
+aralığını da bul demiş ya. Çünkü çözüm
+aralığını da 2'ye ve sonsuza şeklinde
+aralık olarak yazabiliriz. Çünkü aralık
+ayındayız. Kasım ayında çekiyor olsaydım
+ben burada farklı çözüm yapardım. Ocak
+ayında çekiyor olsaydım bambaşka şeyler.
+7. soru bitti. Şimdi o zaman geliyorum.
+Geliyorum babalara. 8 ve 9. sorudu.
+Soruda aşırtlı blackboard yapacağız.
+Sert sorular. Dolayısıyla eğer eee
+kalpten bir sorununuz varsa gerekli
+işlemleri yapıp öyle ilerleyin. Tamam
+mı? Babalara geldik. Zor değil ha.
+Sadece bir tık daha farklı. Gördüğün
+gibi zaten biz 8. soruyu yazdık. 4 tane
+şıkkı var.
+Şimdi
+60 cm uzunluğunda dikilip sabit hızla
+uzayan bir fidankonun boyu 2. yılın
+sonunda 90'a ulaşmış. Tak diye 90'a
+ulaşıyor. Bu fidanın zamana yani yıldan
+bahsediyoruz bağlı olarak boyunu
+gösteren fonksiyon fonksiyonuymuş.
+Buna göre soruları cevaplayacağız. Bir
+kere bu fonksiyonun cebirsel temsilini
+yazınız. Ben seninle bunu 8. sınıfta çok
+fazla çözdüm. Fonksiyon demedik o zaman.
+Doğrusal denklem dedik. Hep ne yaptık?
+Taksiciye örnek verdik. Ne demiştik?
+Taksinin ücreti taksiye ödeyeceğim ücret
+Y dedim. Bak örneğimiz buydu. İşte bu
+ücret demişti ki taksinin kapının
+kapısının koluna değdiğinde bir açılış
+ücreti var. Atıyorum 20 lira 20 + her
+gittiğim kilometre için 5 lira yazıyorsa
+5x. Buradaki x de kilometre demiştik.
+İşte bu da ödeyeceğimiz TL olarak para
+demiştik. Bunları çözdük biz seninle.
+Ufaktan bir tekrar etmek istiyorsan 8.
+sınıf doğrusal denklemler, partikül,
+matematik yazarak izleyebilirsin. Bence
+izlemeni de tavsiye ederim. Şimdi
+yapacağım şey şu. O zaman y =
+yazmayacağım artık çünkü 9. sınıfı ben
+liseli oldum. Bayağı fonksiyon filan
+biliyorum. Dolayısıyla
+f(x) yazacağım. f(x) = diyeceğim.
+Bu f(x) nedir? boydur. Tamam mı? Bu
+fidanın boyu. FX çünkü bağımlı değişken
+y bu arkadaşımız. Y neye bağlı? İşte
+yıllara bağlı. Sen bana 5 yılı
+soruyorsan 5 yıl sonrasını bulurum. 10
+yıl sonra 10 yıl sonrası daha da uzar.
+Yıla bağlı olarak değişiyor. O yüzden
+bağımlı arkadaşımız bu. Peki nereden
+başlıyor? Sen buna hiçbir şey yapmasan
+bu arkadaşın zaten boyu 60 cm. Ama bu
+uzuyor tabii yerinde de durmuyor. Ne
+yapmış bak yılda 90'a ulaşmış. Hemen
+şöyle bir ufak 1. sınıf işlemleri
+yapalım. 90'a ulaşmış. E ilk boyu 60'tı.
+Demek ki 30 cm uzamış. Kaç yılda uzamış?
+2 yılda. O zaman bunu 2'ye bölersem 1
+yılda 15 cm uzar. Demek ki 60'ın üstüne
+15 x x diyeceğim. Hemen kontrol
+ediyoruz. 2. yılda 90 oluyordu. Bakalım.
+X yerine 2 yazdığımda çünkü buradaki x
+zamandır. Bak yıl bağımsız değişkenim.
+Fidanın boyu da yıla bağlı bağımlı
+değişken. Şimdi buradaki zaman sen
+buraya kalkıp 2 yazarsan 15 x 2'den
+burası 30 olur. E bir de başında 60'ım
+vardı. 60 30 topladım 90. Oldu mu?
+Olacak tabii lan. Biz bunun için
+yıllarca okul okuduk. Şimdi gelelim
+grafik temsiline. Bunu çizittireceğiz.
+Çok basit. Hiç stres yapma. Sadece
+yapacağın şey iki tane düz çizik atmak.
+Şöyle grafiğin daha doğrusu koordinat
+sistemini çiz. Şuralar y ekseni
+biliyorsun. Buralar da x. X neydi? Yıl
+yani zaman. Y neydi? Boy. Yani
+santimetre cinsinden. Tamam. Şimdi 1ci
+yılım var, 2inci yılım var. Fakat bir de
+0 yılım var. Yani nokta atış başlangıç
+noktası. Bu kardeşimiz nereden başlıyor?
+60'tan. O zaman Y zaten hiçbir şey
+yapmasan 60'tan başlayacak. Ondan sonra
+bu böyle uzaya uzaya gidecek değil mi?
+Fakat bu uzadığında 1ci yıla geldiğinde
+karşıl şöyle büyüt ya. 1ci yıla
+geldiğinde karşılığında ne göreceksin?
+Bir 15 cm uzayacak. 75. Çünkü her yıl 15
+uzadığını bulmuştum. 2inci yıla
+geldiğinde de ne göreceğiz? Karşısında
+90'ı göreceğiz. Bak 75'ten bir 15 daha
+uzadım. Mevzu bu. Grafik temsilinde
+çizittirdim. Şimdi soru diyor ki, "Kaç
+yıl sonra o zaman 135 olur?" Ney? O 135
+olan fonksiyonu. Yani benim f(x)
+fonksiyonumda
+şu f(x)'in yani y değerinin 135 olduğu
+yılı soruyor. 135 olduğu x'i soruyor.
+Yani hemen denklemi kurar patır kütür
+çözerim. 135 = 60 + 15x
+60'ı buraya eksi gönderdim. Ne çıkıyor?
+75 mi kalıyor? 135'ten 60 çıktı. Bak 75
+değilse sizden bilirim ha. 75'tir. 15x.
+Her iki tarafı da 15'e böldüğümde
+tak 15'ler pazara gitti. X e= buradan da
+5 kaldı. Demek ki 5 yıl sonunda ben 135
+cm olacağını biliyorum. Tamam. Şimdi
+diğer sorum. Kaç yıl sonra 300'ü geçer?
+Kim geçer? f(x) y değeri. Ne zaman 300'ü
+geçer diyor. Yani kuracağım şey şu. f(x)
+&gt; 300.
+Bunu yazacağım. E f(x)'in cebirsel
+temsilini biliyorum ki ben. f(x)'in
+cebirsel temsilini aa yukarıda yazdım.
+Yani 60 + 15x
+&gt; 300. Ben bunu çözeceğim. Hemen
+başlıyorum. Şimdi 60'ı şöyle sağ tarafa
+sıpıtalım. 15x &gt; 300'den 60 çıktı 240.
+Şimdi her ikisi tarafı da neye
+böleceğim? 15'e böleceğim ki x'i yalnız
+bulayım. Tenh da kıstırayım. 240'ı 15'e
+böl bölebilirsen inşallah tam bölünür
+diyerek niyet ediyorum. Ve başlıyorum.
+Şimdi burada 8 desem yer misin?
+Yemezsin. Yavaş. Bir kere var oğlum. Kim
+dedi lan? 8 çıksın dışarı. 1 kere 15
+çıkarttım 9. 9da 15 yok. 0a indirdim.
+90'da 6 kere var değil mi? 33 6 kere
+var. O zaman her iki tarafı 15'e
+böldüğümde x &gt; 6'yı buluyorum. Peki ne
+diyeceğim? Kaç yıl sonra 300'ü geçer? 6
+yıl sonra geçemez. 6 yıl sonra 300 olur.
+O zaman ne diyeceğim? 7 yıl sonra
+diyeceğim. Anlaştık mı? Tabii. Tabii.
+Benim gibi işlem hatası yapmayacaksınız.
+Burası 16'ydı. Oğlum kim 6 dedi?
+Çıldıracağım ya. 16'dan büyük 17
+diyeceğiz. Bir 7 deyince orayı bir
+durdurdum. Bir kontrol ettim lan nereden
+çıktı 7 diye. 17 17 Tamam sakin. X'i
+burada 240'ı 15'e böldüğümüzde 16 çıktı.
+Ama 16'dan büyük olacağız diye ne dedik?
+17 yıl sonra dedik. Şimdi aynısının
+laciv verdi. Bir sorum daha var. Last
+question diyoruz. Tamam. Olaya noktayı
+koyacağız. A ve B tabletlerimiz var. Gid
+tabletlerin bataryaları tam doluymuş. Ne
+güzel. İnsanların çalışan, donmayan
+tabletleri var. İken tabletler
+kullanılmaya başlanmış ve tabletler
+şarjları bitene kadar kullanılmaya devam
+edilmiş. Tabletlerin birim zamanda
+harcadıkları şarj miktarları eşitmiş.
+Güzel. A ve B tabletlerinde kalan şarj
+miktarları zamana bağlı olarak sırasıyla
+uygun aralıklarda tanımlı fg
+fonksiyonlarıyile ifade edilmiş.
+F'ten başlayalım. Aha dur bir saniye.
+Lan telefonları kapatın diyorum size ya.
+Tamam kapattık telefonları. Şimdi burada
+yapacağım şey ne? Ha, f ile g'yi
+anlatıyordum. Şimdi bak, bu fonksiyonu
+sırasıyla demişiz, değil mi? Eee,
+sırasıyla demişiz. Tamam. A tabletinin
+fonksiyonu yani A tabletinin kalan şarj
+miktarı. Mevzu bu. Kalan şarj miktarını
+gösteriyormuş fonksiyonlar. Diğeri de B
+tabletinin. Şimdi bana diyor ki A ve B
+marka tabletlerde başlangıçtaki şarj
+kaçtır? Diyor. Bak, işlem yapanın kalemi
+kırılsın.
+işlemsiz çözeceğiz. Nasıl hocam? Sen
+münecip misin? Nasıl? Zihinden mi?
+Hayır. Buradaki FX nereden başlıyor?
+7,2'den. O zaman A marka tabletin şarjı
+7,2'dir başlangıçta. Çünkü fonksiyon
+bana kalanı söylüyor.
+Demek ki en başta bunun 7.2'si var. Her
+saatte 06 düşüyor. En son sıfırlanacak
+bir yerde. Anladık mı mevzuyu? 7.2.
+Şimdi o zaman B'yi sen söyle. B
+tabletinin başlangıçtaki şarjı tabii ki
+de 5,4'tür.
+Tertemiz. Kılçıksız çözdüm. 2inci soru.
+Birer saatte harcadıkları şarj
+miktarları diyor ya. Ben az önce sana
+taksi örneğini verdim ya. Ne demiştim? y
+= işte taksi başlangıçta 20 lira alıyor.
+Sonra da kilometre başı ne alıyorsa x'in
+başına onu yazıyoruz demiştim. Yani
+birim zamandaki artışı ya da azalışı
+x'in başına yazıyoruz. O zaman burada
+x'in başında yazanlar belli. 06 diğeri
+de 02. Yine işlemsiz çözüyorum.
+O zaman A marka tablet için 1 saatte 06
+tükettiğini söyleyebilirim. Bak 1 saatte
+harcadıklarını sormuş. Kalanı sormamış.
+Fonksiyonda niye yerine yazmadın hocam
+ya? Niye yazayım? Fonksiyon bana kalan
+şarjı söyler ama ben bunun bir saatte
+tabletin yediği şarjı zaten şurada
+görüyorum. B tabletinin şarjı için B 0.2
+diyeceğim. Geçeceğim. Tertemiz akıyor
+sorular. Şimdi tamamen tükeneceği zamanı
+bulalım. İşte şimdi gel. Önce A'dan
+başlıyorum. A için fonksiyonumuz F. f(x)
+= 7,2 x özür dilerim 7,2 - 0,6x.
+Ne istiyorum? Şarjın tamamen tükenmesini
+istiyorum. Yani kalanın
+0 olmasını istiyorum. Bu da nedir?
+fonksiyonun 0 olmasını istiyorum
+demektir. Yani şuranın 0 olmasını
+istiyorum. Anlaştık mı? O zaman 0'a
+eşitlerim. Ben bu denklemi pataküte
+çözerim. Hemen şu 06'yı karşıya atacağım
+ki artılı olsun. Yani 06x = 7,2. Her iki
+tarafı 10'la çarpayım. Şu virgüller
+canımı çok sıktı. Şimdi x'i bulabilirim.
+72'yi 6'ya böl ne olacak? 12. A tableti
+12 saat gidiyormuş. Tamam mı? Bu yarım
+elmalardan herhalde. Şimdi diğerine
+bakalım. Tamam mı? Orada da G
+fonksiyonumuz var. GX fonksiyonu e= 54 -
+02x.
+Burada da g'nin sıfırlanmasını
+istiyoruz. Hemen 0 e= diyerek denklemi
+tekrar yazdım. Eksili kardeşimizi bu
+tarafa alıyorum ki artılı olsun. 0x =
+5.4. Her iki tarafı yine virgüllerden
+kurtulmak için 10'la çarptım ki bunu
+yapabilirim.
+2x 54 mü? O zaman x kaç çıkıyor? 27.
+Güzel. Bu kardeşimiz B marka tablette 27
+saat akıyormuş. Akıyor. Bu acaba
+hangisi? Bu da armutlardan mı? Şimdi son
+sorum. Bunların eşit olacağı zamanı bul
+diyor. Neyin eşit olacağı? tabletlerin
+şarjlarının yani kalan şarjlarının
+ikisinin de eşit olacağı yer. Mesela
+%60'a %60 kaldı ikisinde de. Kalanı
+soruyor bana. Kalanı veren kimdi?
+Fonksiyonların kendisiydi.
+O yüzden ne yapacağım? f(x) = g(x)
+isteyeceğim. Bana öyle bir x ver ki
+ikisi eşit olsun. Dolayısıyla bunların
+cebirsel temsillerini alıyorum. Pataküte
+çözüyorum. f(x) neydi?
+7,2 - 06x'ti.
+Eşitleyeceğim. Diğerinin kalanı g
+fonksiyonunda 5.4 - 0.2x.
+Şimdi 5.4'ü 7.2'nin yanına eksi
+atacağım. 0,6'yı da diğer tarafa artı
+atacağım. Bir daha yazıyorum. Yaklaş.
+Şimdi 7,2
+-5,4
+= 06 + geldi. 06 yani pozitif geldi. 06x
+02x'ten
+02xi çıkaracağım. Sağ taraf 0 4x değil
+mi? Orada bir çok cereyan yok. Orayı
+hallettik. 72'den 5.4'ü çıkaracağım.
+Hadi bu sefer kendimi ondalıktan
+kurtarmadım. Risk alıyorum. İşte hayatta
+alacağın en büyük risk bu olsun. Şimdi
+[kahkaha]
+burada da 8 6 kaldı. 1 mi? 1.8 Tamam.
+Ondalıklarla benim mesaim buraya kadar.
+Bundan sonra çıldırırım. Hemen her iki
+tarafı 10'la çarpıyorum. 18 = 10'la
+çarptım 4x. Şimdi 18'i de 4'e böldüğümde
+zaten sağdaki 4'ler gitti. Amacımız oydu
+zaten. X'i yalnız bıraktık. X'i ne
+bulacağız şimdi? Hadi söyle. 18'i 4'e
+bölün. Kaç çıkıyor? 4 kere 4 16 mı? Çat
+çut. Hop hop 2 hop. Bir 0 1 virgül. Hop
+5. 4,5 saat sonra iki tabletinde kalan
+şarjları aynı olur. Tamam der. Ben de bu
+dersi
+bitiririm. Yeter ya. Yorulduk. Boğaz 36
+dakikadır. Konuş konuş konuş konuş. Hiç
+de demiyorsunuz ki hocaya bir destek
+atalım, bir yardım edelim, bir like, bir
+abonelik bile bizim şarjımızı yükseltir.
+Oradan hesap edebilirsiniz. Evet 9.
+sınıflar. Bu dersi burada noktaladım.
+Önümüzdeki derste yine gelene kadar ne
+yapıyorsun? Ödevlerini yapmayı
+unutmuyorsun. Çözüm videolarından da
+faydalanabilirsin. Şahane sorularım var.
+Kitabı dediğim gibi hala edinmediysen
+bence geç kalmadın. Yarı yıl tatili de
+geliyor. Orada da tokatlarsın. Bu
+kardeşimiz kaç sayfa biliyor musun?
+Soranlar oluyor. 280 sayfaymış. Yani
+dediğim gibi baştan tuğla yapmaya hani
+inşaat işine girelim dedik. Sonra baktık
+biz eğitimciyiz. Oğlum bu olmaz deyip
+tuğlayı kitaba dönüş. Öyle kalın, öyle
+de bol soru var içinde. Her dersin
+sonunda yazılı örnekleri de var
+biliyorsun. Dolayısıyla şu an 9. sınıfta
+okula yardımcı ek bir kaynak alayım.
+Özel derslerle devam edeyim. Bak bu
+birebir derstir. Kitabı birlikte
+işliyoruz. Ondan sonra da ödevlerini
+yapacaksın. 9. sınıfı tas tamam
+halledeceksin. Derdimiz bu. 10. sınıfa
+sağlam geçelim. Çünkü 10. sınıf ders
+videolarından da anlamışsındır. Şu an 35
+ders falan çektik 10. sınıflara. Çünkü
+çok yoğun. Yetişemiyoruz. Çok fazla.
+Oraya geldiğinde işte 9'dan bir şeyin
+kalmaması lazım. 9'u çok iyi halledersen
+o 10. sınıfta pat pat devam edeceksin.
+Hatırlatmamı yapayım. Sonra siz Melih
+hoca dediydi dersiniz. Bir sonraki ders
+o zaman yeniden görüşünceye dek
+kendinize çok iyi bakın ve matematikle
+kalın. Hoşça kalın.

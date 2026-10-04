@@ -17,7 +17,13 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
-      "fingerprint": "2bafa93bc0d93e82"
+      "fingerprint": "2bafa93bc0d93e82",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.tr.vtt",
+      "transcriptFingerprint": "e1ccaec372a5b2e7"
     },
     "provider": "Almanca Kolay (Erhan Özdemir)",
     "reviewStatus": "verified",

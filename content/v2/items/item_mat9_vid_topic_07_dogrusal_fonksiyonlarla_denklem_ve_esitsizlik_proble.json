@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
   "contentUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
     "topic": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
@@ -25,11 +25,18 @@
         "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
         "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler • Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "fd97e61063237a3b",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.tr.vtt",
+      "transcriptFingerprint": "3389c7e3a5ebb774"
     }
   }
 }

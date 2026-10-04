@@ -7,8 +7,8 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "publishingStatus": "active",
   "payload": {
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "provenance": {
@@ -16,8 +16,18 @@
       "sourceSection": "Ticaret Yolları ve Medeniyet Havzaları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "28f7f3fd5bad8f77"
-    }
+      "reviewStatus": "verified",
+      "fingerprint": "28f7f3fd5bad8f77",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.tr.vtt",
+      "transcriptFingerprint": "4cda05dbcaa616a7"
+    },
+    "provider": "Benim Hocam",
+    "verifiedLectureTitle": "12) Orta Çağ Ticaret Yolları"
   }
 }

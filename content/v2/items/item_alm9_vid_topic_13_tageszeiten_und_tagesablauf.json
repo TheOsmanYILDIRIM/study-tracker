@@ -31,7 +31,13 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "78a4929264d79e17",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
+      "transcriptFingerprint": "e1ccaec372a5b2e7"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true

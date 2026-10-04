@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
   "contentUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
     "topic": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
@@ -23,11 +23,18 @@
         "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme",
         "Gerçek Sayıların İşlem Özelliklerini Cebirsel Olarak İfade Etme • Doğrusal Fonksiyonlar ve Nitel Özellikleri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "c278a711cea31ad8",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.tr.vtt",
+      "transcriptFingerprint": "1184ee0b138df4fd"
     }
   }
 }

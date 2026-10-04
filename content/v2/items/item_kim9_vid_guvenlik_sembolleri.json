@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "9083b0011b7c547a",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
+      "transcriptFingerprint": "ed0db4f712979546"
     },
     "provider": "Meschemy Kimya"
   }

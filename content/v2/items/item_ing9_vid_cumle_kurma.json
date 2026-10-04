@@ -16,10 +16,15 @@
       "sourceSection": "1. Hafta: Orientation & Okul Yaşamına Giriş",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "fingerprint": "595d65faa853e4c2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     },
     "provider": "Özer Kiraz"
   }

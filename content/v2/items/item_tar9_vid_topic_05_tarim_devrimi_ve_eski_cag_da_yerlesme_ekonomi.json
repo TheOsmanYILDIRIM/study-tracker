@@ -7,10 +7,10 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -22,11 +22,21 @@
       "sourceTopic": [
         "Tarım Devrimi’nin Eski Çağ Medeniyetlerindeki Yerleşmeye ve Ekonomiye Etkisi"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "52fa9ef277c91305",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.tr.vtt",
+      "transcriptFingerprint": "e8841adfdc1f3a65"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "5) Tarım Devrimi ve Eski Çağ Medeniyetleri"
   }
 }

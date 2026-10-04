@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Hareket ve Hareket Türleri (Öteleme, Dönme, Titreşim & Konum-Zaman)",
   "contentUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Hareket ve Hareket Türleri",
@@ -31,7 +31,13 @@
       "fingerprint": "a8740b024faed0d6",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "error",
+      "transcriptPath": null,
+      "transcriptFingerprint": null,
+      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
     }
   }
 }

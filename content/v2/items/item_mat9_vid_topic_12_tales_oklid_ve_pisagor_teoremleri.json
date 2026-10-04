@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Tales, Öklid ve Pisagor Teoremleri",
   "contentUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
     "topic": "Tales, Öklid ve Pisagor Teoremleri",
@@ -23,11 +23,18 @@
         "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
         "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f3a0d0748ab34b21",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.tr.vtt",
+      "transcriptFingerprint": "c1689ad19c926f66"
     }
   }
 }

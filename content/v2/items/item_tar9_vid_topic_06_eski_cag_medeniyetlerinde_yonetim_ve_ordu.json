@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=umZ1I3gYXMk",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Eski Çağ Medeniyetlerinde Yönetim ve Ordu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,11 +23,21 @@
       "sourceTopic": [
         "Eski Çağ Medeniyetlerinde Yönetim ve Ordu"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "30ab39c08f7c0249",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=umZ1I3gYXMk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.tr.vtt",
+      "transcriptFingerprint": "028ab43911cbe10f"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "7) İlk Çağ Uygarlıkları: Yönetim ve Ordu"
   }
 }

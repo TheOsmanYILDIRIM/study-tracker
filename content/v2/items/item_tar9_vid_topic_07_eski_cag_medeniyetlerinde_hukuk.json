@@ -7,10 +7,10 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Eski Çağ Medeniyetlerinde Hukuk",
-  "contentUrl": null,
-  "publishingStatus": "draft",
+  "contentUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+  "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Benim Hocam",
     "topic": "Eski Çağ Medeniyetlerinde Hukuk",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,11 +23,21 @@
       "sourceTopic": [
         "Eski Çağ Medeniyetlerinde Hukuk"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "b9f7243cb348f0f5",
-      "schemaVersion": "v2"
-    }
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "teacher": "Mehmet Celal ÖZYILDIZ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.tr.vtt",
+      "transcriptFingerprint": "76cabd323bdcaa9e"
+    },
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk (Hammurabi, Hitit Kanunları)"
   }
 }

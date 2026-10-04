@@ -19,7 +19,12 @@
       "reviewStatus": "verified",
       "fingerprint": "1f3480b9f4892e43",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.tr.vtt",
+      "transcriptFingerprint": "514291f0451e6158"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",

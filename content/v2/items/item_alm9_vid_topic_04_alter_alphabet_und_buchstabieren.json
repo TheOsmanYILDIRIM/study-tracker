@@ -27,7 +27,13 @@
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "477f80bad92a1e8c",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.tr.vtt",
+      "transcriptFingerprint": "e1ccaec372a5b2e7"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true

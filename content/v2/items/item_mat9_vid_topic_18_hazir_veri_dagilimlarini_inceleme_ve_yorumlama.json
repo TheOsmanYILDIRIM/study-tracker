@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
   "contentUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
     "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
@@ -21,11 +21,18 @@
       "sourceTopic": [
         "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "225e5725c7008897",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "reviewedOverride": true,
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.tr.vtt",
+      "transcriptFingerprint": "ee1923b0c53d5dbb"
     }
   }
 }

@@ -8,7 +8,7 @@
   "orderKey": 1000,
   "title": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
   "contentUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-  "publishingStatus": "draft",
+  "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
     "topic": "Temel ve Türetilmiş Nicelikler",
@@ -21,13 +21,19 @@
       "sourceTopic": [
         "Temel ve Türetilmiş Nicelikler"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f5a27920afa1cdff",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-      "provider": "Özcan Aykın FİZİK"
+      "provider": "Özcan Aykın FİZİK",
+      "reviewedOverride": true,
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
+      "transcriptFingerprint": "532569ac8750adbf"
     }
   }
 }

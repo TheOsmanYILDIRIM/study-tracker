@@ -17,7 +17,12 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "b3ac44607a0489ab",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
+      "transcriptFingerprint": "e0e330ee30a12087"
     },
     "provider": "Meschemy Kimya"
   }

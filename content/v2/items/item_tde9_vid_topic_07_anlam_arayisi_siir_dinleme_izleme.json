@@ -28,7 +28,12 @@
       "videoCandidateTitle": null,
       "fingerprint": "6757286a6ebe308c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E"
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.tr.vtt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb"
     }
   }
 }
