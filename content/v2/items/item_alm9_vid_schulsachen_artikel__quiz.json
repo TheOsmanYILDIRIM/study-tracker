@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_schulsachen_artikel",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "3639e1470a7f8837",
+      "transcriptFingerprint": "fcdb8085fd36c0c3",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -86,7 +86,7 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir."
     }
   }
 }

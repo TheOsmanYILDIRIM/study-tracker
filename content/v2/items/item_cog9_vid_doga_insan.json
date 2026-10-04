@@ -7,36 +7,40 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
-  "contentUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+  "contentUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L14",
       "sourceSection": "1. Hafta: Coğrafya Biliminin Konusu, Doğal Ortamlar ve Bölümleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "af2dc2a8b44b10e3",
+      "fingerprint": "41014f278aab603f",
       "sourceWeeks": [
         1
       ],
       "sourceTheme": "COĞRAFYANIN DOĞASI",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "1.ünite 📕 Coğrafya Bilimi | Coğrafya biliminin konusu ve bölümleri-1 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt",
-      "transcriptFingerprint": "9c4e775068919daa",
-      "reviewedOverride": true
+      "transcriptFingerprint": "0d2f46b4dbd67ca4",
+      "reviewedOverride": true,
+      "teacher": "Yunus Hoca",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler."
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Coğrafya Biliminin Konusu ve Bölümleri",
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025"
   }
 }

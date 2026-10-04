@@ -224,7 +224,7 @@ burada bir soru var arkadaşlar. Bir X
 canlısının kanı şekildeki gibi A, B ve C
 gibi 3 farklı canlının kanı ile
 karıştırıldıktan sonra çökelme
-oranlarına bakmışlar. A, B&gt; C olarak
+oranlarına bakmışlar. A, B> C olarak
 saptanmış. Buna göre X canlısına olan
 akrabalıkları yakından uzağa doğru
 sıralayınız. Şimdi arkadaşlar bir yerde

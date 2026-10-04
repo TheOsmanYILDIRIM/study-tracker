@@ -17,14 +17,20 @@
       "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
-      "fingerprint": "156d7b115046cade",
+      "reviewStatus": "verified",
+      "fingerprint": "eee9be83c1795b3b",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
-      "transcriptFingerprint": "c81aea17231c58a8",
+      "transcriptFingerprint": "20060ca0310e6ec5",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt"
-    }
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt",
+      "reviewedOverride": true,
+      "teacher": "Deniz Mehmet Hoca",
+      "sharedSource": false,
+      "sharedSourceReason": null
+    },
+    "verifiedLectureTitle": "Köklü İfadeler 1 ｜ 1.Tema Sayılar 8 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+    "teacher": "Deniz Mehmet Hoca"
   }
 }

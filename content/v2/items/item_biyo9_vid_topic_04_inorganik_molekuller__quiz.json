@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_04_inorganik_molekuller",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "95b1175967d50ac1",
+      "transcriptFingerprint": "dfb768cecb565a84",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "cf4952b309d58212",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

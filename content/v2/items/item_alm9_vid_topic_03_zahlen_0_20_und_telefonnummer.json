@@ -7,10 +7,10 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Zahlen 0–20 und Telefonnummer",
-  "contentUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+  "contentUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Zahlen 0–20 und Telefonnummer",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -24,21 +24,22 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "38f5c12a31439337",
+      "fingerprint": "998c6376344c2df6",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.tr.vtt",
-      "transcriptFingerprint": "e10726e05dc42bb1",
+      "transcriptFingerprint": "bf03fc0cb878dddc",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+      "teacher": "Tonguç Akademi"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma"
   }
 }

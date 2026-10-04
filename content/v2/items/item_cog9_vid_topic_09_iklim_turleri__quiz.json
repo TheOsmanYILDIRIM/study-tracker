@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_09_iklim_turleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,8 +83,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
-      "transcriptFingerprint": "ad176ff63339b48f",
-      "sharedSource": false
+      "transcriptFingerprint": "b1ad3ef0f9b4870f",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=dDXeN9Oll4I",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,7 +83,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.txt",
-      "transcriptFingerprint": "4cec61ccf59f829c"
+      "transcriptFingerprint": "8cdc03da528942a5",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_10_lewis_nokta_yapisi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,7 +82,9 @@
       "fingerprint": "5b1a65bc9ad021b8",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
-      "transcriptFingerprint": "1aac0c26e1ac566f"
+      "transcriptFingerprint": "34afc097a77c7e1a",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar."
     }
   }
 }

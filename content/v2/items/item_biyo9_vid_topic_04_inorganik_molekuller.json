@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "İnorganik Moleküller",
-  "contentUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+  "contentUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -25,14 +25,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
-      "fingerprint": "7902a9df4e886d4d",
+      "fingerprint": "832ca288da814255",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.tr.vtt",
-      "transcriptFingerprint": "95b1175967d50ac1"
-    }
+      "transcriptFingerprint": "dfb768cecb565a84",
+      "reviewedOverride": true,
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": false,
+      "sharedSourceReason": null
+    },
+    "verifiedLectureTitle": "İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+    "teacher": "Dr. Biyoloji"
   }
 }

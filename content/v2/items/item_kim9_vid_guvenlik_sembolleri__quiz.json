@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_guvenlik_sembolleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,9 +82,9 @@
       "fingerprint": "39997150af41c60e",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
-      "transcriptFingerprint": "ed0db4f712979546",
+      "transcriptFingerprint": "375d92366dc8fbda",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar."
     }
   }
 }

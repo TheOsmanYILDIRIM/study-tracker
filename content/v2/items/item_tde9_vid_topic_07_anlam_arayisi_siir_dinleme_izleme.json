@@ -7,7 +7,7 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
-  "contentUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
+  "contentUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
   "publishingStatus": "active",
   "payload": {
     "provider": "Deniz Hoca",
@@ -26,17 +26,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "6757286a6ebe308c",
+      "fingerprint": "059a700a077e9be8",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.tr.vtt",
-      "transcriptFingerprint": "b8f22d58a10084f3",
-      "sharedSource": false
+      "transcriptFingerprint": "75722c04ad981b6c",
+      "sharedSource": true,
+      "reviewedOverride": true,
+      "teacher": "Deniz Hoca",
+      "sharedSourceReason": "Kapsamlı Deniz Hoca şiir dersi; şiirin yapı unsurları, ahenk ögeleri, dinleme/izleme ve yazma süreçlerini birlikte açıklar."
     },
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "9.SINIF TÜRK DİLİ VE EDEBİYATI ŞİİR ÜNİTESİ +PDF 📌 - 9.Sınıf Edebiyat Şiir Ünitesi Hazırlık 📕📘"
+    "verifiedLectureTitle": "ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca"
   }
 }

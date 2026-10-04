@@ -84,7 +84,9 @@
       "fingerprint": "c9d9c8f547d51d8c",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.txt",
-      "transcriptFingerprint": "d19b4dc3a37361cb"
+      "transcriptFingerprint": "3eb96428a5969dec",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

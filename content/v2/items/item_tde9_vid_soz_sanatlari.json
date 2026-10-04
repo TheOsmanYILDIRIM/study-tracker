@@ -16,17 +16,20 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "9482d8d5961e7046",
+      "fingerprint": "d529c838a700fe29",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt",
-      "transcriptFingerprint": "29d50a7fc53c9a99",
-      "sharedSource": false
+      "transcriptFingerprint": "35937afd2c101d48",
+      "sharedSource": false,
+      "reviewedOverride": true,
+      "teacher": "Deniz Hoca",
+      "sharedSourceReason": null
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
+    "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝"
   }
 }

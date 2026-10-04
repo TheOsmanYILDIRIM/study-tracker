@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Prokaryot ve Ökaryot Hücre, Sitoplazma ve Organeller",
-  "contentUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+  "contentUrl": "https://www.youtube.com/watch?v=4wHBI6iwHno",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,8 +15,8 @@
       "sourceSection": "Hücre ve Organeller",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "6658bb39628f117a",
+      "reviewStatus": "verified",
+      "fingerprint": "94c1a9da30564c33",
       "sourceWeeks": [
         27,
         28,
@@ -28,11 +28,17 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt",
-      "transcriptFingerprint": "d7768ba742236519",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.tr.vtt"
+      "transcriptFingerprint": "226f7f0548db61f6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4wHBI6iwHno",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.tr.vtt",
+      "reviewedOverride": true,
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "provider": "Dr. Biyoloji",
-    "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek"
+    "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek",
+    "verifiedLectureTitle": "Hücre Organelleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "teacher": "Dr. Biyoloji"
   }
 }

@@ -10,7 +10,7 @@
   "contentUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
   "publishingStatus": "active",
   "payload": {
-    "provider": "MEB / İngilizce TV",
+    "provider": "Ms. Jasmin ELT",
     "topic": "Theme 8: Life in the Universe & Future",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,17 +27,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "146e6b2991f5220f",
+      "fingerprint": "284b36408b23eb5c",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt",
-      "transcriptFingerprint": "9d0133ea1496c227",
-      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.tr.vtt"
+      "transcriptFingerprint": "9e98300ccf9faa83",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.tr.vtt",
+      "teacher": "Ms. Jasmin ELT",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI | LIFE IN THE UNIVERSE & FUTURE"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE"
   }
 }

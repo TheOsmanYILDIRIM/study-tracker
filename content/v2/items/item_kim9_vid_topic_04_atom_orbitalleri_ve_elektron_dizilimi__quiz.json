@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hDUv4CkJDCM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -84,7 +84,9 @@
       "fingerprint": "28a2200b4b8455da",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
-      "transcriptFingerprint": "ea98a3ebca4304a2"
+      "transcriptFingerprint": "3f00052c4579af1a",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

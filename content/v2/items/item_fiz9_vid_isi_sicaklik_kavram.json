@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
-  "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+  "contentUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,18 +16,21 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "e546c866395ea3a9",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "fingerprint": "f980e8bc42d259fe",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
-      "transcriptFingerprint": "55aad1981b5f804a",
-      "sharedSource": true,
-      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+      "transcriptFingerprint": "ec7d086901e292be",
+      "sharedSource": false,
+      "sharedSourceReason": null,
+      "teacher": "Özcan Aykın FİZİK"
     },
-    "provider": "Özcan Aykın FİZİK"
+    "provider": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026",
+    "teacher": "Özcan Aykın FİZİK"
   }
 }

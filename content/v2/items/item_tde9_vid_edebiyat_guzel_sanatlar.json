@@ -16,18 +16,20 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "b52a5298377cff88",
+      "fingerprint": "4ca14242badee505",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
+      "transcriptFingerprint": "4aa551c0a51c273f",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.tr.vtt",
       "reviewedOverride": true,
-      "sharedSource": false
+      "sharedSource": false,
+      "teacher": "Deniz Hoca",
+      "sharedSourceReason": null
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 / 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
+    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝"
   }
 }

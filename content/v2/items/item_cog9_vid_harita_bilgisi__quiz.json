@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_harita_bilgisi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pPeiiLXr-aU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "92ed5bed2a0c5a22",
+      "transcriptFingerprint": "b20b33e2e84f5ee3",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "3568e9b1c8681887",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

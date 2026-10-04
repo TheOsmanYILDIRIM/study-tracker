@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "721e3a4904c0d2e6",
+      "fingerprint": "e320c1d1d2b03ec3",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "provider": "Özcan Aykın FİZİK",
@@ -32,10 +32,13 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
-      "transcriptFingerprint": "7e71f18b7d18be73",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt"
+      "transcriptFingerprint": "2f4ccf0688ff0d7a",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt",
+      "teacher": "Özcan Aykın FİZİK",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar."
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 6 | Enerji İletim Yolları ve Hızı | 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026"
   }
 }

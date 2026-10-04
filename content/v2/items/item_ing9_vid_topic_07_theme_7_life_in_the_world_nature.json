@@ -10,7 +10,7 @@
   "contentUrl": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
   "publishingStatus": "active",
   "payload": {
-    "provider": "MEB / İngilizce TV",
+    "provider": "Ms. Jasmin ELT",
     "topic": "Theme 7: Life in the World & Nature",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,17 +28,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "c7059fbdd366f27c",
+      "fingerprint": "d861380598dca3a3",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.txt",
-      "transcriptFingerprint": "d19b4dc3a37361cb",
-      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.tr.vtt"
+      "transcriptFingerprint": "3eb96428a5969dec",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.tr.vtt",
+      "teacher": "Ms. Jasmin ELT",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI | LIFE IN THE WORLD & NATURE"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE"
   }
 }

@@ -7,10 +7,10 @@
   "displayLabel": "16.1",
   "orderKey": 1000,
   "title": "Isı, Öz Isı ve Isı Sığası",
-  "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+  "contentUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Fizikfinito",
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Isı, Öz Isı ve Isı Sığası",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,16 +25,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
-      "fingerprint": "f7e19b86593dad2b",
+      "fingerprint": "ae00a7d158949ebc",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.tr.vtt",
-      "transcriptFingerprint": "55aad1981b5f804a",
-      "sharedSource": true,
-      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
-    }
+      "transcriptFingerprint": "222323b2324f3f14",
+      "sharedSource": false,
+      "sharedSourceReason": null,
+      "reviewedOverride": true,
+      "teacher": "Özcan Aykın FİZİK"
+    },
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
+    "teacher": "Özcan Aykın FİZİK"
   }
 }

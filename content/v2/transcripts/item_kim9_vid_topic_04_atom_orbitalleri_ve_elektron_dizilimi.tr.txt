@@ -1,905 +1,1021 @@
-atom modellerini anlattık sonra Orbital
-dedik yörünge dedik Peki Orbital neydi
-Orbital çeşitleri nasıldı Bu ders
-bunlardan bahsedeceğim mes kemi kimya
-kanalına Hoş geldin dostum konunun pdf'i
-Açıklama kısmında var zeda comom a
-girerek oradan ne yapabilirsin
-indirebilirsin dostum o zaman vakit
-kaybetmiyoruz hazırsan başlayalım atom
-modelleri ve elektron dizilimi
-dediğimizde şöyle bir şey vardı Bor atom
-modelinde bahsettik yörünge kavramı
-vardı ama daha sonradan gelen modern
-atom modelinde yani kuantum atom
-modelinde Orbital kavramından
-bahsediyorlardı
-Vital dediğimiz şey nasıl ortaya çıktı
-şöyle söyleyeyim Öncelikle Schrödinger
-kuantum sayılarından bahsetti bu kuantum
-sayılarını şöyle ifade etti Baş kuantum
-sayısı açısal Momentum kuantum sayısı
-manyetik kuantum sayısı ve Spin kuantum
-sayısı şeklinde ifade etti burada açısal
-Momentum kuantum sayısı ile Baş kuantum
-sayısını söyleyeceğim dostum çünkü
-bunlar neyi ifade ediyor Onu açıklamam
-gerekiyor Mesela Baş kuantum sayısı
-enerji seviyesini yani hangi katmanda
-olduğunu belirtiyor katman yok da işte
-hangi elektron bulutunda olduğunu
-belirtiyor açısal Momentum kuantum
-sayısı ise orbitalin türünü belirtiyor
-Normalde müfredat içerisinde çok detaylı
-bir şekilde görmeyeceksin ama
-orbitallerin enerjilerini kıyaslarken
-çok faydası oluyor o yüzden kısaca
-bahsedeceğim dostum İşte bu atomun
-enerji seviyelerinin Bir de alt enerji
-seviyeleri vardı işte açısal Momentum
-kuantum sayısı dediğimiz şey buydu Bu da
-orbitallerin türünü ifade ediyor dör
-tane Orbital imiz var şöyle yakından
-göstereyim s orbitali p orbitali d
-orbitali ve F orbitalinden bahsediyoruz
-Bu dört tane orbitalin şöyle ifade
-ediyoruz bak katman sayıları bu mesela
-birinci katman ikinci katman 3üncü
-katman veya işte enerji seviyesi Bunlar
-da bak her bölüm is böyle farklı
-bölümler var ya bunlar da işte o
-katmandaki neyler orbitaller şeklinde
-düşünebilirsin dostum ve elektron
-çekirdeğe ne kadar yakınsa enerjisi o
-kadar düşük ne kadar dışarıdayız yani
-enerji seviyesi ne kadar büyükse haliyle
-oradaki orbitalin ve elektronun da
-enerjisi o kadar büyük olacak Dostum
-şimdi sana şöyle bir pratik not
-vereceğim şöyle bir ifade kullanmak
-istiyorum boş bir sayfa açayım şimdi
-Normalde n dediğimiz şey işte Baş
-kuantum sayısı 1 2 3 4 5 6 ve 7 7 katman
-var ya o mantıkla düşünebilirsin Baş
-kuantum sayısı bu Bir de açısal Momentum
-kuantum sayısı dediğimiz bir şey var l
-harfiyle gösteriliyor Biz 0 1 2 ve 3'ü
-bileceğiz 0 olduğunda s orbitalin 1
-olduğunda p orbitalin 2 olduğunda D
-orbitalin ve 3 olduğunda F orbitalin
-ifade ediyor dediğim Bak bu Normalde
-müfredat içerisinde detaylı bir şekilde
-gösterilmiyor sadece Enerjileri bulurken
-kullanacağım dolayı bunu veriyorum sana
-ve şöyle bir şey var mesela birinci
-katmanda sadece s orbitali var diyoruz
-ikinci katmanda s ve p orbitali var ya
-Bunu nasıl söyleyebiliyoruz onu
-açıklamak için bunu yapıyorum Dostum
-şimdi şöyle bir şey vardır bir
-katmandaki en büyük Orbital türü Aslında
-en büyük L değeri diye ifade etmek
-istiyorum n - 1 ile bulunur şimdi o
-zaman n = 1 ise burada L en fazla 0
-Olabilir bak En fazla 0 olabilir 0
-olduğunda s Orbital Demek ki 1ci
-katmanda sadece 1 S orbitali bulunabilir
-2ci katmana geldiğimizde ise n = 2 ya L
-en fazla n - 1'den 2 - 1'den 1 olabilir
-1 varsa 0 da vardır daha küçük sayılar
-olabilir dostum o zaman 2ci katmanda 2s
-orbitali ve 2p orbitali olacaktır 3
-katmana bakarsak n = 3 L en fazla 2
-olacaktır Demek ki 1 ve 0 da
-bulunabilecek 3 katmanda 3S 3p 3D
-orbitalleri bulunabilir ve 4 katmana
-bakarsak şöyle yazalım ha n = 4 şeklinde
-belirtelim Bu da L en fazla 3 demektir
-Demek ki 2 1 ve 0 da bulunabilir e 0
-olduğunda s orbitali yani 4 S orbitali
-vardır 4p orbitali 4D orbitali ve 4F
-orbitali varmış o zaman s orbitalleri
-dediğimizde s orbitali nereden başlıyor
-1 2 3 diye gidiyor p orbitali
-dediğimizde 2 katmandan başlıyor 2 3 4
-diye gidiyor D orbitali 3 katmandan
-başlıyor 3 4 5 diye gidiyor ve F
-orbitali 4 katmandan başlıyor 5 6 7 diye
-gidiyor Dostum şimdi artık S
-orbitalinden bahsedebilirim şöyle bir
-şey vardır s orbitali her katmanda
-bulunur ve şekli böyle daireseldir yani
-açısal koordinatlara bağlı değildir yani
-x düzlemi y düzlemi Z düzlemi böyle bir
-düzlemde yoktur dostum toparlak böyle
-top şek şeklinde düşünebilirsin S
-orbitali böyle nedir küre şeklindedir ve
-katman sayısı arttıkça bu kürre de
-büyümektedir o zaman bunların
-enerjilerini kıyasla Dersem ne olacaktır
-1 s'nin en küçük sonra 2s en büyük
-bunların arasında 3S olacaktır Tabii 7s
-en büyük onu söyleyebiliriz s
-orbitalleri içerisinde ve çok önemli bir
-bilgi vardır en fazla iki elektron
-alabilir Çünkü s orbitali bir tanedir
-bak çok önemli bir şey s orbitali bir
-tanedir Bundan dolayı da ne yapacaktır
-en fazla ik elektron alabilecektir yani
-s'nin üzer yerine en fazla kaç
-yazabiliyoruz 2 yazabiliyoruz ya da s
-üzeri 1 de yazabilirsin 1 ya da 2
-alabilmektedir şimdi şöyle bir şey düşün
-işte neden sebebi şu S orbitalinin bir
-tane olmasından kaynaklanıyor böyle
-gösterebilirsin veya böyle
-gösterebilirsin bunları Mesela şöyle bir
-yukarı bir aşağı Böyle yazılır onların
-hepsini açıklayacağım veya işte şöyle
-yazılabilir veya şöyle yazılabilir bu
-şekilde gösterilecek s orbitali bir
-tanedir onu da söylemiş olalım p
-orbitaline geldiğimizde ise p orbitali
-açısal koordinatlar bağlıdır yani x y z
-düzlemler doğru gidecektir düzlemde
-böyle iki ayrı labut şeklinde
-gözükmektedir He Burada da yazıyor işte
-çekirdeğin iki tarafında zıt yönelmiş
-iki loptan oluşmaktadır Böyle gördüğün
-gibi işte sonsuzluk işaretine benziyor
-bu x düzlemi üzerinde olursa px orbitali
-y düzlemi üzerinde olursa işte py
-orbitali Z düzleminde olursa da pz
-orbitali ifadesini kullanıyoruz o zaman
-p orbitali kaç taney demiş şöyle
-bakarsak p orbitali 3 taney demiş dostum
-böyle de yazabilirsin şu şekilde de
-gösterebilirsin dostum ve şu vardır bir
-Orbital türünün alt orbitalleri yani p
-orbitali dediğimizde 3 tane var ya
-buradaki px p y pz aynı enerjiye
-sahiptir tamam mı Bir orbitalin
-içerisindekiler hepsi aynı enerjiye
-sahiptir tekrar söylüyorum Bir Orbital
-türünün içerisindeki orbitaller aynı
-enerjiye sahiptir o zaman bir Orbital 2
-elektron alabildiğine göre p en fazla
-kaç alabilir 6 elektron alabilir yani
-P'nin üzerine en fazla kaç
-yazabiliyormuyuz
-D orbitaline geldiğimizde ise D orb al 5
-tanedir bunların İşte bu isimlerini
-vermiş DX y dyz dxz DX k y k x k - y k
-ve dz K Bunlar ne demek şöyle bu x y
-demek görüyor musun şöyle göstereyim x
-düzlemi ve y düzleminin arasında kalıyor
-bak X ve Y düzlemleri Bunlar aralarında
-kalmış görüyor musun böyle nedir Kelebek
-gibi düşünebilirsin bunların basit
-gösterimi de var önemlidir basit
-gösterimi daha çok çıkar karşına şöyle
-yazar mesela şuna y düzlemi Şuna da x
-düzlemi yazar şu şekilde gösterir Bak
-şöyle düzlemsel olarak gösterirsek böyle
-gösterebiliriz ikincisi neymiş D yz yani
-y ve z düzlemleri arasında kalıyor bunun
-da şekli şöyle olacaktır dostum şurası Z
-düzlemi Burası y düzlemi dersen bunların
-arasında olacaktır yani şekil 4 yapraklı
-yonca sadece x y z yönleri değişmekte
-Gördüğün gibi E bu da aynı X ve z
-düzlemi arasında şu x k - y k de şu
-demektir tam X ve Y koordinatları
-üzerinde Bak görüyor musun tam koordin
-ordinat üzerinde olduğu için böyle
-gösteriliyor ve dz kare O da böyle bir
-emzik şeklinde Gördüğün gibi önemlidir
-özellikle dz kare üniversite sınavında
-da sorulmuştur bu şekil bilmende fayda
-var dostum İşte diyor ki D orbitalleri
-karmaşık şekillere sahiptir nedir 3üncü
-enerji seviyesinden itibaren her enerji
-seviyesinde bulunur s her enerji
-seviyesinde bulunur p 2'den itibaren
-başlıyordu D 3'ten itibaren başlıyordu
-f'den bahsedeceğim O da 4'ten itibaren
-başlayacak 5 tane
-orbitaldeki D orbitali ne dedim 5 tane
-dedim yan yana çizdim E bir Orbital en
-fazla kaç elektron alabiliyordu 2
-elektron alabiliyordu o zaman D'nin
-üzerine yazabileceğim en büyük sayı
-kaçmış 10m Dostum bunlar önemli şeyler
-devam edersek işte ne diyor açısal
-olarak koordinatlara bağlıdır yani Ne
-oldu X ve z düzlemi X ve Y düzlemi
-üzerinde falan yani açısal olarak neye
-bağlıymış neymiş bulunma olasılığı
-açısal koordinatlara bağlıdır bu ifadeyi
-aklında tut sorularda gelecek çünkü
-neymiş D orbitalinin elektronun bulunma
-olasılığı aç açısal koordinatlara
-bağlıdır yani belirli şekilleri vardır
-böyle açısal olarak x düzlemi y düzlemi
-Z düzleminde bulunabilmektedir bir tek
-Kimde yok bu s orbitalinde yok tamam mı
-s Çünkü nedir küre şeklindedir gelelim f
-orbitaline f orbitalinin şekilleri çok
-karışıktır böyle 8 parçalı falandır
-burada Görüyorsun bak şöyle yakından
-göstereyim sana burada Bak görüyor musun
-1 2 3 ne 6ı parçaymış özür 6ı
-karışık He Bunu bilmek zorunda mıyız o
-zaman değiliz bak şekillerden sorumlu
-değilsin Sadece çok karışık şekil
-gelirse anla ki F orbitalinden
-bahsediyor görüyor musun şekilleri
-bunların hiçbirini bilmek zorunda
-değilsin tamam mı Yani şunları
-ezberlemek zorunda değilsin ha ama s p d
-bunlardaki bilmende fayda var sadece FD
-kini bilmeyebilir bu isimlerini ne
-demiştim 4ün enerji düzeyinden itibaren
-her enerji düzeyinde bulunur bunların da
-haliyle elektronun bulunma olasılığı
-açısal koordinatlara bağlıdır ifadesi ne
-olacaktır doğru olacaktır 7 tane Orbital
-var O zaman şöyle çizersem Eğer 7 taney
-demiş 1 2 3 4 5 6 ve 7 E 7 Orbital varsa
-ve bir Orbital en fazla 2 elektron
-alabiliyorsa F orbitali toplamda ne
-yapacaktır en fazla 14 alabilecektir
-yani üzerine yazabileceğimiz en büyük
-sayı kaçmış 14' müş dostum Ve tabii ki
-bu 7 orbitalin enerjisi de nedir
-birbirine eşittir zaten bir Orbital
-grubunun hepsinin enerjisi eşit oluyor
-Ama şöyle bir şey söylesem mesela 4 f'
-nin enerjisiyle 5fn enerjisi eşit mi
-Hayır değil ama 4 f' nin içerisindeki şu
-7 tane var ya bu 7 tanenin enerjisi
-birbirine eşit mi Evet bunlar birbirine
-eşit ama 5fn ki tabii ki 4 f'den daha
-büyük olacaktır şimdi gel bakalım
-sorularımız da ne diyor Diyor ki modern
-atom teorisine göre H yargılarından
-hangileri doğrudur elektronlar hem
-tanecik hem dalga özelliğine sahiptir
-Evet zaten Bor atom modelinden ayıran
-şey buydu elektronun dalga ve tanecik
-ikiliği dediğimiz iki özelliğinin de
-olduğunu söyledikleri için zaten bu yeni
-Orbital kavramı ve yeni atom modeli
-ortaya çıkmıştır bu doğru bir ifade
-herhangi bir elektronun aynı anda hızı
-ve konumu tespit edilebilir Hayır
-Heisenberg Belirsizlik İlkesi vardı
-neydi elektronun hızı konumu aynı anda
-belirlenemiyorsa
-da geçerlidir e hangileri doğrudur
-dediği için cevap Ne oldu 1 ve 3 D
-seçeneği oldu bu soruya bakalım Diyor ki
-aynı atoma ait X ve Y orbitallerinin
-sınır yüzey diyagramın yukarıda
-verilmiştir yani orbitallerin şekilleri
-verilmiştir Bu daha küçük bir s orbitali
-bu daha büyük bir s orbitali örnek
-veriyorum Mesela bu 1 s ise bu 2s veya
-bu 2s ise 3S 4S Neyse Art diğeri daha
-büyük ha X ve y'nin İkisi de s Orbital
-bir doğru toparlak gördüğün anda s
-orbitali ydi diyor ki X'in enerjisi
-y'nin kinden düşüktür Evet daha küçük
-oldu mu daha küçük enerjiye sahiptir
-Doğrudur diyor ki y'nin alabileceği
-elektron sayısı x' ininden fazladır ya s
-orbitali bir taneydi E bir tane olduğu
-için bu da en fazla 2 elektron al
-olabilir bu da en fazla 2 elektron
-alabilir alabilecekleri maksimum
-elektron sayıları eşittir O yüzden
-üçüncüsü yanlış oldu Cevap da ne
-olacaktır a seçeneği yalnız 3 olacaktır
-Burada ne diyor Bakalım P orbitalleri
-ile ilgili ikinci enerji seviyesinden
-itibaren her enerji seviyesinde bulunur
-Evet p orbitali 2'den başlıyordu O
-yüzden doğru bir ifade 3p orbitallerinin
-Özdeş durumda Enerjileri birbirine
-eşittir diyor He bakalım şimdi p
-orbitali 3 tane değil miydi Evet
-sığdırdık mı sığdırdık biraz aşağı
-alayım 3p orbitali E bu p px bu py bu da
-pz orbitali bunların enerjisi eşit miydi
-eşitti Bunu da söylemiştik Doğrudur
-elektronların bulunma olasılıkları
-açısal koordinatlara bağlı olup
-şekilleri aşağıdaki gibidir diyor Evet
-px p y pz doğru bir ifadedir o zaman
-hepsi doğru Burada da D seçeneğine
-koyulmuş dostum bakalım Bu soruda ne
-diyor Yukarıdaki orbitalin bulunduğu
-enerji seviyesinde Bak bu 4t yapraklı
-yoncayı gördüğümüzde D Orbital didir He
-bu en az 3D orbitali Olabilir değil mi D
-orbitalleri 3'ten başlıyordu 3D 4D 5D
-herhangi birisi ama Sonuçta en az 3
-olabilir diyor ki bu enerji seviyesinde
-yani 3üncü enerji seviyesinden
-bahsedebiliriz şekli küresel olan
-Orbital bulunabilir mi yani 3S orbitali
-bulunabilir mi Evet bulunabilir eş
-enerjili 7 Orbital yani F orbitalinden
-bahsediyor atıyorum bu 3D değil de 4D
-olamaz mıydı olabilirdi E bundan dolayı
-4F orbitali de burada olabilir mi 4
-periyotta olsa F orbitali de olabilir
-Demek ki bu da bulunabilir diyor ki
-elektron bulunma olasılığı açısal
-koordinatlara bağlı olmayan Orbital
-bağlı olmayan Orbital s orbitali demekti
-zaten bulunabileceğini söylemiştik her
-neydi her enerji seviyesinde bulunu
-biliyordu Doğrudur E o zaman Ne oldu
-hepsi doğru oldu Cevap da e seçeneği
-burada diyor ki orbitaller ile ilgili
-yargılarından hangileri doğrudur
-elektronun bulunma ihtimalinin yüksek
-olduğu sınır yüzey diyagramları dır Evet
-bu ifadeyi kullanmıştık elektronun
-bulunma olasılığının yüksek olduğu yere
-Orbital diyorduk değil mi farklı
-şekilleri olan elektron yoğunluklu
-bölgelerdir elektronun yoğun olarak
-bulunabileceği şekilleri birbirinden
-farklı şeylerde değil mi Bunlar
-orbitaller böyleydi şekilleri
-birbirinden farklıydı Bu da doğrudur
-diyor ki elektronun üç boyutlu
-hareketini temsil eder katmanda neydi
-iki boyutlu temsil ediyordu orbitalde üç
-boyutlu temsil ediyordu söylemiştik Bu
-da doğru bir ifadedir o zaman hepsi
-doğru cevabımız D seçeneğidir şimdi şu
-sorumuza bakalım Diyor ki atomdaki 3üncü
-enerji seviyesinden itibaren her enerji
-seviyesinde bulunan bir Orbital ile
-ilgili hım çok güzel bir Orbital 3üncü
-enerji seviyesinden itibaren bulunan
-Orbital D Orbital didir bundan
-bahsediyor diyor ki aynı enerji
-seviyesinde kendisiyle eş enerjili bir
-Orbital bulunabilir ya D orbitali 5
-taneydi neydi DX y dxz d yz DX k - y k d
-z k Bunların hepsi vardı E o zaman Evet
-Bunlardan herhangi birini seçtiysen eş
-enerjili başka orbitaller var mıymış
-varmış Bunu söyleyebiliriz diyor ki
-sınır yüzey diyagramı bu şekilde yani dz
-karenin şekliydi bu olabilir mi Evet
-olabilir En fazla 2 elektron alabilir
-diyor E bir Orbital en fazla 2 elektron
-alıyor diyor Yani bu ifade de nedir
-Doğrudur cevabımız ne olacaktır e
-seçeneği olacaktır şimdi şu soruya
-bakalım Diyor ki n = 2 olan herhangi bir
-Orbital için n = 2 dediği Baş kuantum
-sayısı 2 olan neler vardı 2s vardı ya da
-2p orbitali vardı küreseldir e s
-orbitali olursa evet küreseldir bu
-doğrudur yani Olabilir mi Olabilir p
-Orbital E bu da olabilir bu da bir
-ihtimaldir doğrudur çekirdek etrafında
-zıt yönelmiş iki lobdan oluşur diyor iki
-lobdan oluşan neydi şöyle çiki loptu
-değil mi yani p orbitalinden bahset
-ediyoruz bu ifade nedir Doğrudur yani
-hepsi Olabilir mi Olabilir cevap da E
-seçeneğidir şimdi elektron dizilimi
-elektron dağılımı ya da elektronik
-konfigürasyon dediğimiz şeyden
-bahsedelim İstersen şimdi çok
-elektronları açıklayamamıştır ya Bor E
-ne oluyor işte modern atom modeli çıktı
-burada da bu elektronların orbitallere
-yerleşmesinde şimdi çekirdek etrafında
-yerleşmeye başladı Tamam birinci katmana
-yerleşti sonra ikinci katmana geldik
-elektron sayısı artacak daha fazla
-elektron yerleşecek ama işte bu
-yerleşirken Enerjileri farklı olduğu
-için için ne yapacak farklı şekillerde
-yönelmeye başlayacak O yüzden 2s 2p gibi
-atom orbitalleri ortaya çıkacak bunların
-erisinde de enerji farkları artmaya
-başlayacak yani 2 S'ye yerleşen
-elektronla 2pe yerleşen elektronun
-Enerjileri aynı olmayacak dış katmanlara
-çıktıkça bu daha da değişmeye başlayacak
-elektronlar buralara yerleşecek dostum e
-haliyle bu elektronlar yerleştik çe bir
-itme meydana getirecek yani elektron
-yerleşti ikinci katmana elektron
-yerleştiğinde Tamam çekirdek onu çekmeye
-çalışıyor ama birinci katmandaki
-elektronlar da onu itme çalışıyor e
-haliyle ne yapacak kaçmamak için
-dışarıya gitmemek için orada durabilmek
-için enerjisini arttırması gerekiyor
-Bundan dolayı işte O ne oluyor dışarı
-doğru çıktıkça enerji artıyor ifadesini
-kullanıyoruz ya dış katmanların enerjisi
-fazladır diyoruz ya sebebi ne bunun İşte
-bu itme kuvvetini yenebilmek dostum ve
-şöyle bir şey vardır bir katmanda
-olabilecek maksimum elektron sayısını
-bulmamız gerekiyor Onu da işte 2n kare
-formülüyle buluyoruz dostum Bak burada
-gösteriyor 2n K Peki n burada neydi
-katman sayısı mesela birinci katman yani
-k katmanı klmn Opr diye gidiyordu ya da
-işte klmn neyse artık e 1ci katman 2 x
-1in karesi Demek ki 1ci katmana en fazla
-2 elektron gelebiliyor 2 elektron
-gelebiliyor bu s orbitali demekti değil
-mi s orbitali 2 elektron oluyor demek ki
-birinci katmanda sadece s orbitali var
-buradan bunu anlayabiliyoruz sonra 2ci
-katmana geldiğimizde 2 x 2in karesi 8
-elektron ediyor Ee 2'si s orbitaline
-yerleşecek Geriye kalıyor 6 O da p'ye
-yerleşecek değil mi 2ci katmanda da s ve
-p orbitalleri olacak 3üncü katmana
-geldiğimizde 2 x 3'ün karesi 18 elektron
-bak 2 s orbitaline 6 p orbitaline geriye
-kaldı 10 O da nereye D orbitaline
-yerleşecek etti sana 18 e 4 katmana
-geldiğimizde 2 x 4'ün karesinden 32 2 s
-orbitali 6 p orbitali 10 da D orbitali
-kaç etti Burası 18 e geriye kaldı kaç 14
-O da F orbitaline yerleşecek değil mi
-İşte onu da şöyle buluyoruz bir
-katmandaki Orbital sayılarını da şöyle
-buluyoruz n kare formülüyle buluyoruz
-şimdi 1ci katmanda 1in karesinden 1 S
-orbitali var çok güzel 2ci katmana
-geldiğimizde 2nin karesinden 4 et e s
-orbitali bir taneydi p orbitali 3
-taneydi kaç etti toplam 4 Orbit E buraya
-geldik 3C katman 3'ün karesi 9 Orbital
-olması lazım bu 1 E bu 3 Bu da 5 kaç
-etti 9 etti değil mi E 4C katman 4'ün
-karesinden 16 e bunda 1 var bunda 3 var
-bunda 5 var bunda da 7 var Kaç etti 16
-etti Dostum orbitali nasıl gösteriyoruz
-ya yuvarlak ya kare şeklinde
-gösteriyoruz elektronları da işte bunun
-içerisine yerleştiriyoruz tam dolu
-dediğimizde elektronları zıt yönde
-göstermemiz lazım bir biri yukarı yönlü
-isse biri aşağı yönlü ya da şöyle biri
-bu yönde isse biri bu yönde gösteriyoruz
-buna tam dolu diyoruz yarı doluay İsa
-elektron ne olacaktır ya böyle ya böyle
-ya da işte böyle ya da böyle ya da şöyle
-ya da şöyle yerleşecek Dostum şimdi çok
-elektronlarda bu elektronları
-orbitallere Yazacağım da bunun kuralı
-var enerjiye göre yazılmakta Peki bu
-enerji nasıl değişiyor onu sana İşte o n
-ve L değerleri var ya ona göre
-anlatacağım şimdi bak Birinci katmanda
-en fazla 1 S vardı ikinci katmanda 2 S
-varı Bir de 2p vardı 3 katmanda 3S
-olabiliyordu 3p olabiliyordu 3D
-olabiliyordu 4 katman 4S 4p 4D 4F
-olabiliyordu 5 katmanda 5S 5p 5D 5f 6
-katman 6s 6p 6D 6f yazıyorum 7 katman 7s
-yazdım yeterli şimdi bir orbitalin
-enerjisi n + l değeriyle bulunur n + l
-değeriyle bu büyükse enerjisi büyüktür
-ha Peki n + l'si eşit olanlarda ne
-yapacağız n değeri büyük olan şöyle eşit
-değil büyük olanın enerjisi daha
-büyüktür şimdi bak s orbitalinin şöyle s
-p d f vardı L değerleri s'nin 0'dı P'nin
-1'di D'nin 2'ydi fninternbasvuru
-n sayısı büyük olan E bu gördüğün gibi
-Demek ki 3 s'nin enerjisi daha büyükmüş
-şuraya geldik 3 + 1 değil mi 4 bu 3 + 2
-kaç etti 5 şöyle yazamadık He şu 4 + 0
-Ne oldu 4 4 + 1 5 Bu da ev gibi oldu lan
-4 + 2 kaç etti 6 4 + 3 kaç etti 7 E bu 5
-+ 0 değil mi 5 bu 5 + 1 kaç etti 6
-Burası 5 + 2'den 7 5 + 3'ten 8 Ya
-bunları kullanmayacağım da bir kıyaslama
-yapmak için gösteriyorum bu 6 6 0'dan 6
-+ 0'dan söyleyemedim bu 6 + 1'den 7 E bu
-6 + 2 8 Buna gerek yok Bu da 7 + 0'dan 7
-şimdi dedik ya elektronlar enerjiye göre
-yerleşiyor şöyle bir şey vardır albağ
-kuralından bahsedeceğim birazdan albağ
-kuralı enerjisi düşükten başlayarak
-elektronları yerleştirir o zaman Buraya
-bakarsak şöyle enerjisi en düşük olan 1s
-oldu değil mi Sonra Sırada ne var Bak bu
-1 olduğu için sonra 2 s var o da gitti
-sonra bak 3 olan ik tane var E ne
-yapacağız enerjisi Düşük olana önce
-yerleşi oldu 2p Sonra 3S geldi sonra bak
-Dikkat et renk değiştiriyorum şuradan 4
-olan şu var Ve şu var Gördün mü o zaman
-3p Sonra da 4S Aha bak bak çok önemli
-bir şey var burada görüyor musun Hemen
-bir daha renk değiştiriyorum 5 olan
-hangisi var bu var başka şu var Başka
-var mı Evet bu da var düşükten
-başlıyordu 3D sonra 4p sonra da 5 sonra
-6lar başlıyor bak 6 olanlar hangisi
-şurada var başka şurada var şurada var
-onları yazalım Ne oldu 4E 5p 6s He bir
-de ne var 7'ler var bak 7 olanlar burada
-burada ve şurada onu da siyahla
-Göstereceğim ne olacak o zaman 4F 5D 6p
-ve 7s şeklinde olacak işte sıralama bu
-şekilde ortaya çıkmakta bunun bir kuralı
-var basit bir kuralı var s' den 2 tane p
-s'en 2 tane DP s'en 2 tane fdp s'en bir
-tane yazarak aynı sıralamaya
-ulaşabilirsin nasıl hemen yazıyorum Bak
-şimdi s' den iki tane yazdım s s ik tane
-PS yazdım PS PS sonra 2 tane dps d p s d
-p s sonra bir tane f d p s yazdım şimdi
-ne demiştik S'ler birden başlıyordu 1 2
-3 4 5 6 7 p' 2'den başlıyordu 2 3 sonra
-4 5 6 sonra d'ler 3'ten başlıyordu 3 4 5
-ve f' 4'ten başlıyordu bak aynı
-sıralamaya ulaştık dostum İşte geldim
-bak nereye aufbau ilkesine kurallarımız
-şu aufbau kuralında şöyle söyler temel
-haldeki atomlarda elektronlar en düşük
-enerjiye sahip orbitalden başlayarak
-sırasıyla yüksek enerjiye doğru
-dolmaktadır Burada da gösteriyor işte 1
-S 2 S bak s'leri p' hepsini yazmış sonra
-bak ne yapmış gelmiş 1 S 2 s 2p 3S sonra
-3p 4S gelmiş 3D 4p 5S bu şekilde gidiyor
-dostum benim say say para say para say
-daha para say daha para say Fatma daha
-para say şeklindeki kodlamam daha da
-güzel olacaktır hemen aşağıya da
-göstereyim istersen Bak burada da
-yazmışız neydi s' den 2 tane psen 2 tane
-DP s'en 2 tane fdp s'en bir tane
-yazarsan aynı sıralama çıkıyor bak say
-say para say para say daha para say daha
-para say Fatma daha para say diye
-gidiyor işte en düşük
-enerjilenme gerekiyor öyle söyleyeyim
-sana en fazla genel olarak çıkan şudur
-1s 2s 2p 3S 3p 4S 3D 4p 5S genellikle
-buraya kadar çıkıyor Hadi bir de
-devamına 4D yi ekleyelim Ama genellikle
-buraya kadar çıkıyor ikinci kuralımız da
-şunu söyler Hun kuralı eş enerjili
-orbitalleri mesela p orbitali var ya 3
-tane orbitalden oluşuyordu İşte bu eş
-enerjili orbitallere elektronlar
-yerleşirken önce boş orbitale yerleşiyor
-boşlar dolduktan sonra yanlarına
-diğerleri yerleşiyor Ben bunu şuna
-benzetiyorum dostum otobüse metrobüs
-diyelim ya Metrobüs daha iyi bir örnek
-metrobüse bindiğinde Ne oluyor dostum
-metrobüste o kapı açılacak diyelim ilk
-duraktı diyelim oturabileceğin yani çok
-zor da diyelim hadi metrobüse
-oturabildiği düşünelim şanslı
-insanlardan birisin Kapılar Bir açılıyor
-hurra millet bir dalıyor ne oluyor
-dikkat et hepsinin ikili koltuk olduğunu
-düşünürsek önce cam kenarları tık tık
-tık tık tık tık hepsi doluyor cam
-kenarları dolduktan sonra yanlarına tık
-tık tık tık diğerleri gelmeye başlıyor
-işte aynı onun gibi dostum ne oluyor
-biliyor musun Şöyle mesela p
-orbitalinden bahsedelim şöyle ü tane
-Orbital var önce bir tanesi geldi Buraya
-yerleşti diğeri buraya yerleşmek zorunda
-değil sonuçta aynı enerjiye sahip buraya
-da yerleşebilir sıkıntı yok ama üçüncü
-kişi yani 3üncü elektron nereye
-yerleşmek zorunda buraya gelmek zorunda
-dördüncü elektron hangisine yerleşir ya
-istediğini tercih eder isterse bundan
-başlar Çünkü eş enerjili sonraki gelecek
-diyelim buraya yerleşti He sonuncu
-mecburen buraya yerleşmek zorunda Peki
-diyelim p4 var p4u şöyle yazdım diyelim
-şu şekilde şöyle olur mu Olur p4 Mesela
-şöyle olur mu tık tık tık tık olur mu bu
-da olur Mesela p4 şöyle olur mu olmaz
-Ben bunu şuna benzetiyorum diyelim
-fatura yatıracaksın fatura yatırırken L
-ekrana sığdıramam şım iyi mi Heh biraz
-küçülte şöyle biraz biraz şöyle içeri
-alayım da siz de görmüş olun He şöyle
-söylüyordum fatura yatıracaksın diyelim
-3 tane ane vezne var bu ü tane vezneye
-gittin üçü de boş ne yaparsın istediğin
-vezneye seçersin değil mi diyelim Sen
-sıraya girdin peşine birisi daha geldi
-gelen kişi senin arkanda mı bekler Gider
-yan taraftaki
-boşlu gider değil mi üçüncü kişi ne
-yapar gider diğer boşa değil mi E gidip
-de senin arkanda bekler mi salak değil
-herhalde beklemez e Düşünsene ü tane
-vezne var dör kişi gelmiş ikişer ikişer
-bekliyorsunuz ya vezne kapalıysa ancak
-girmemiş olursunuz veya başka bir işle
-uğraşıyordu ama hani şey şartlar Türkiye
-şartlarından bahsetmiyorum ben hani
-genel olarak ifade ediyorum yani ne olur
-orada önce birer tane dolar 4C kişi de
-istediğini tercih eder değil mi dostum
-işte Bak burada azot 7'den bahsetmiş
-neydi 1s Tamam 2s 2p böyle gidiyor Hatta
-yazayım Bak 1s 2s 2p bu elektronlar
-nasıl yerleşiyor şöyle göstereyim 7
-değil mi nötral de 7 protonu varsa 7 de
-elektronu var s en fazla kaç
-alabiliyordu 2 alabiliyordu yazdık
-geriye kaç kaldı 5 bu s en fazla 2
-alabiliyordu bunu da yazdık geriye ne
-kaldı 3 o zaman 3 de buna kaldı ha bu
-3'e elektronlar nasıl yerleşecek şöyle
-gelip de önce birer tane böyle
-yerleşecek Hocam niye yukarı yönlü
-çizdin şöyle olmaz mı biri yukarı biri
-aşağı böyle olmaz önce aynı yönde sonra
-zıt yönde tamam mı dostum İşte böyle
-yerleşir mi yerleşemez önce birer tane
-de olacak sonra he böyle yerleşebilir mi
-yerleşemez peki bu Evet olur doğrusu bu
-zaten bu bu da olur sonuçta aynı yönde
-yerleşmesi gerekiyor tamam mı dostum
-hauli dışlama ilkesi var Bu da aslında
-gerçekte şunu söyler bir atomdaki iki
-elektronun kuantum sayılarının hepsi
-aynı olamaz en az birisi farklı olmak
-zorunda ki bu da zaten Spin kuantum
-sayısı yani elektronun yönü demektir
-dostum burada ne oluyor Bir orbitalde
-bulunan iki elektron aynı spinli olamaz
-aynı yönde olamaz demek istiyor Peki
-Spin dediğimiz şey ne elektronun dönüş
-yönü biri saat yönünde döner Diğeri de
-saat yönünün zıttına döner bir
-orbitaldeki elektron O yüzden zaten
-birini yukarı birini aşağı çiziyoruz
-yukarı çizdiğimiz saat yönü aşağı
-çizdiğimiz saat yönünün tersi olarak if
-ifade edilmektedir bunu şöyle söyleyeyim
-sana dostum Bak iki tane elektron tamam
-mı birisi işte bu yönde dönüyor Diğeri
-ise bu yönde dönüyor Yani iki elektron
-bu şekilde zıt yönlerde dönebilmektedir
-dostum Tamam bunu yapabilen varsa görmek
-isterim açıkçası He o zaman helyumun
-mesela iki tane elektronu var değil mi
-bu iki elektronu nasıl
-yerleştirirseniz
-yapamazsın dostum tamam mı Çünkü bir
-orbitale iki elektron zıt yönde
-yerleşmek zorunda tamam mı dostum Mesela
-bak diyor ki Yukarıdaki elektronların
-orbitallere yerleşimlerinden hangileri
-hund kuralına uymaz diyor Hunt kuralı He
-ne oluyordu Hunt kuralında önce birer
-tane dolacak sonra diğerleri dolmaya
-başlayacak bu olur mu olabilir sıkıntı
-yok p4 Böyle olur mu Olmaz önce birer
-tane sonra diğeri değil mi D2 diyor olur
-sonuçta aynı enerjiye sahip bununla buna
-yerleşmiş ya isterse bununla Buna da
-yerleşebilir de sıkıntı yok yani bu da
-olabilir uymaz sorduğu için cevap Ne
-oldu B seçeneği y yız 2 oldu burada Ne
-diyor bakalım Yukarıdaki ifadelerden
-hangileri doğrudur Alba kuralına göre
-elektronlar yüksek enerjili orbitalden
-başlayarak Hayır afba ne diyordu düşük
-enerjilenme yani zıt yönde olmak zorunda
-hund kuralına göre eş enerjili
-orbitallere elektronlar Önce tek tek
-yerleşir sonra diğer yönde yerleşir
-doğru bir ifade cevap ne olacaktır 2 ve
-3 doğruları sorduğu için D seçeneği
-buraya bakalım Diyor ki elektron Orbital
-şeması yukarıda verilen x element atomu
-ile ilgili ifadelerinden hangileri
-doğrudur diye soruyor şimdi Buraya
-bakarsak ilki neydi s orbitali ydi 1s Bu
-ne 2s Buraya bakarsak 3 tane Orbital var
-bu nedir 2p orbitali e Sırada ne var 3S
-orbitali var E bir dakika şimdi birini
-doldurmadan diğerine nasıl geçiyorsun
-sen arkadaş burada toplamda bak sayarsak
-2 4 6 8 10 tane elektron var bu x'i
-yazıyorum bak 10 elektronu şöyle
-yazıyorum 1s 2s 2p 3S diye kalsın da
-kullanacak mıyım kullanmayacak mıyım
-öğreneceğim şimdi s en fazla 2
-alabiliyordu yazdık şöyle zoomlayan
-Hatta E diğer s en fazla 2 alabiliyordu
-kaç etti 4 e 10 vardı geriye ne kaldı 6
-kaldı E bunu dolduracak sonra diğerine
-geçecek yani Buraya elektron gelmemesi
-lazımdı dizilim böyle olması gerekiyordu
-He bakalım şimdi diyor ki albağ kuralına
-Uygundur diyor Hayır alt enerji
-seviyesini doldurmadan üst enerji
-seviyesine geçmiş o yüzden bu yanlıştır
-elektron içeren orbitalleri tam doludur
-e verdikleri bu hali Evet hepsi tam dolu
-Gördüğün gibi bir yukarı bir aşağı
-şekilde Doğrudur çekirdek yükü 10'dur
-diyor e toplam 10 elektronu varsa temel
-halde E ne olacaktır 10 da protonu
-olacaktır yani proton sayısı çekirdek
-yükü 10 demektir Doğrudur cevap 1 ve 3
-olmalı C seçeneği şim şu soruya bakalım
-zaten kuralı verdiğim için kafam rahat
-neydi s p d f orbitali ydi L değerlerini
-vermiştim 0 1 2 3 şimdi Bu ne 2 + 1
-değil mi 2 + 1'den bunun enerjisi 3
-birim Bu da 3 + 0'dan bunun enerjisi de
-3 birim e Bunlar eşit olduğunda n sayısı
-büyük olanın enerjisi daha büyük oluu
-yani sıralama böyle olmalı Buraya
-bakarsak 4 + 3'ten 7 e burası 5 + 0'dan
-kaç etti 5 Evet bu doğrudur enerjisi
-büyük olan 4F imiş şuraya geldiğimizde
-ise 3 + 2'den 5 4 + 0dan 4 evet bu daha
-büyüktür Bu da doğrudur cevap ne
-olacaktır D seçeneği olacaktır işte sana
-o yüzden öğrettim bu kuralı bir daha
-ezberleme o sıralamada hangisi şöyleydi
-hangisi böyleydi diye ezberleme diye
-sana bunu öğrettim yani L değerlerini ve
-n değerlerini bindiğinde n değerleri
-işte O baştaki sayılar 3 4 5 diye
-gidiyor L değerleri ise s orbitali için
-0 p orbitali için 1 D orbitali için 2 ve
-F orbitali için 3 değeridir bu şekilde
-kafanda tutarsan bu soruları yanlış
-yapmazsın dostum bu sorumuza Bakalım 3
-S1 ve 4 S1 orbitalleri ile ilgili
-yargılarından hangileri doğrudur s
-orbitalinin şekli böyle yuvarlak değil
-miydi yani şekilleri aynıdır doğru 4
-s'nin enerjisi 3 c'den büyüktür Evet
-S'ler olduğunda 4 olduğunda Tabii ki
-enerjisi daha büyük olacaktır Doğrudur 4
-s'nin çekirdeğe uzaklığı 3 s'nin kinden
-büyüktür şimdi 3S buysa 4S budur e
-haliyle 4S çekirdeğe daha uzaktır doğru
-bir ifadedir cevap 1 2 3 burada a
-seçeneğinde dostum burada diyor ki
-toplam 32 elektron alabilen enerji
-seviyesi ile ilgili Yukarıdaki
-ifadelerden hangis hangileri doğrudur
-Hım toplam 32 elektron alabilen 2n kare
-formülüne göre buranın 32 olması demek n
-k = 16 n = 4 demektir 4 katmandan
-bahsediyor 4 enerji seviyesi olabilir mi
-olabilir Bunu söyleyebiliriz diyor ki s
-p d f orbitallerin içerir n = 4'te s
-vardı p vardı D vardı F vardı o yüzden
-Doğrudur diyor ki içerdiği tüm
-elektronların temel enerji seviyesi
-aynıdır e haliyle hepsi aynı aynı
-katmanda temel enerji seviyesi olarak
-yani 4 katmanda doğru bir ifadedir
-Enerjileri aynıdır demiyor bak temel
-enerji seviyeleri yani katman sayıları
-aynıdır demek istiyor o yüzden cevap 1 2
-3 e seçeneği olacak Dostum şimdi burada
-Ne diyor bakalım bir enerji sıralaması
-vermiş kesinlikle yanlıştır soruyor Hım
-şimdi 5p yani 5 + 1 bunun enerjisi 6 bu
-neymiş en büyükmüş Bu ne 3D 3D olduğuna
-göre 3 + 2'den Aha bu da ne bu 5 He
-şeymiş 6 zannettim He 5'mi o zaman
-Şuradaki 6 da olabilir 5 de olabilir bak
-6 da olabilir 5 de olabilir buraya
-gelecekleri yazıyorum Burası 5p ise
-şuraya gelebilecekler 5S olabilir başka
-toplamları 6 olan bir şey düşünelim
-şöyle ne olabilir 4D olabilir mi 4D
-olabilir Sonuçta 5p den daha düşük
-enerjiye sahip toplamı 6 ama baştaki
-sayı küçük olduğu için Başka ne olabilir
-Düşünüyorum Düşünüyorum Burası 6s olamaz
-çünkü 6 + 0 xi de 6 ama baştaki sayı
-büyük olduğu için bunu yazamayız 6 s
-olamayacaktır başka başka düşünelim
-Başka ne olabilir buranın toplamı 6
-olacak başka bir örnek var mıdır 4F
-olmaz o 7 olmadı başka başka 5'ler
-düşünelim mesela 5S yazılabilir mi
-yazılabilir olur Başka ne olabilir 4p
-Olabilir mi E bu da olabilir 4 + 1'den
-dolayı bu da olabilir başka düşünüyorum
-düşünüyorum Başka Şu an aklıma gel 5S
-zaten iki kere yazmışım Gördüğün gibi
-şöyle onu kaldıralım şimdi o zaman
-bakalım Diyor ki N = 5 olabilir mi
-olabilir diyor ki x F orbitali olabilir
-diyor ya bak F orbitali olsa bak F
-orbitali olsa burası 3F olmaz En az 4
-olmak zorunda e 4 + 3'ten dolayı 7 olur
-yani buranın F orbitali olma ihtimali 0
-hiç yok diyor ki A = 2 olabilir diyor
-Hım bakalım şimdi yani üzerindeki
-elektron sayısı örnek veriyorum işte 5
-S2 Olamaz mı olabilir bunda sıkıntı yok
-diyor ki A = 10 10 olabilir diyor bak 4D
-orbitali olsa burası 10 Olamaz mı
-olabilir bunda da sıkıntı yok n = 4 yani
-4D 4p Bunlar olabileceği için n = 4 de
-olabilir ama kesinlikle olmayacak şey
-buradaki orbitalin F orbitali olmasıdır
-cevap o yüzden B seçeneğidir Şimdi
-burada Ne diyor bakalım NS üzeri a ile
-np üzeri B orbitalleri için
-yargılarından hangileri doğrudur diyor A
-= B olabilir ya sonuçta şöyle NS 2 np2
-Olamaz mı olabilir Sonuçta p 6'ya kadar
-alabiliyor 6'nın altındaki her sayıyı
-alabilir O yüzden bu olabilir n eş 1
-olamaz Doğru söylüyor Çünkü 1 S orbitali
-vardır ama 1 p orbitali yoktur yani
-şunun 1 olma ihtimali yok p 2'den
-başlıyordu O yüzden bu da doğru bir
-ifadedir burada ne demiş np üzeri B'nin
-enerjisi NS üzeri A'nın enerjisinden
-yüksektir örnek veriyorum 4p üzeri 6 Bu
-da 4S üzeri 2 ya Bun buların önemi yok 4
-+ 1'den 5 4 + 0'dan 4 ya da şöyle düşün
-n + 1 Burası Aslında bu da n + 0 e
-haliyle 4 P'nin enerjisi Daha doğrusu
-şöyle söyleyeyim n P'nin enerjisi daha
-yüksektir Doğrudur cevap Ne oldu 1 2 3
-burada a seçeneğine koyulmuş Dostum Evet
-Bence ara verme vakti geldi Bir sonraki
-derste bu elektron dizilimlerini devam
-edeceğim daha detaylı örnekler vereceğim
-sen bu ders yaptıklarımızı bir sindir
-Nelerden bahsettik bak çok önemli
-şeylerden bahsettik Orbital şekilleri
-önemli D'ye kadar tabii ki başka neyden
-bahsettik Bu enerji sıralaması vardı 1 S
-2 S falan var ya işte o sıralama ona bir
-bak Mümkünse şeye kadar bu 5 p'ye kadar
-kısma baksan iyi olur ezberlemeye
-çalışsan iyi olur diye düşünüyorum Hun
-kuralı auf B kuralı pauli dışlama ilkesi
-Bunların ne olduğuna bir daha bak çok
-önemlidir Çünkü buradan çok patates
-ederler adamı O yüzden oraya dikkat
-etmeni istiyorum Bir de tabii ki Ne
-yapıyorsun Soru çözüyorsun OGM materyal
-kullanabilirsin Milli Eğitim
-Bakanlığı'nın kitapları size verdiği
-kitapların sorularını çözebilirsin
-bunlardan faydalanmanın istiyorum Ayrıca
-IQ 9 sınıf kimya soru bankası da
-alabilirsin orada da çok kıyak sorular
-var çok güzel sorular var bazılarını
-çözeceğim ben onlara da bakabilirsin
-dostum o zaman ara verme vakti iki
+atom ve periyodik sistem konusuna
+devam ediyorduk neredeyiz periyodik
+özelliklerde yiz burada nelerden
+bahsedeceğim atom yarıçapı var iyonlaşma
+enerjisi var elektron ilgisi var
+elektronegatiflik var metalik özellik
+ametalik özellik ve bunları toplu halde
+güzel pratik bir yöntemle ne yapacağım
+hepsini tekrar edeceğim güzel de sorular
+çözeceğiz o zaman vakit kaybetmiyoruz
+hazırsak başlayalım Evet bakalım İlk
+başlığımız neymiş atom yarıçapı atom
+yarıçapı ne demektir Aslında şöyle bir
+şey ir atomun çekirdeği ile en dıştaki
+elektron arasında kalan mesafeye Biz ne
+diyoruz atom yarıçapı diyoruz ve Her
+atomun kendine özgü bir yarıçapı olması
+gerekiyor farklı atomların yarıçapları
+eşit olabilir mi Hayır eşit olamaz
+diyoruz genel olarak bakalım şimdi
+burada Mesela işte göstermiş i de bir
+atomun çekirdeği ile en dış noktadaki
+elektron arasındaki mesafeye Biz atom
+yarıçapı ifadesini kullanıyoruz ve şunu
+bilmen gerekiyor bir Atom elektron
+aldığında çapı büyür elektron verdiğinde
+ise çapı küçülür Burada da bunu gösteri
+işte sodyumun çapı mesela 190 Ken sodyum
+elektron verdiğinde çapı küçüldü flor
+atom yarıçapına İşte biz ne demişiz
+burada 64 elektron aldığında ne olmuş
+136 olmuş bu da önemli bir ifadedir bunu
+bilmen gerekiyor tekrar hatırlatıyorum
+bir Atom elektron verdiğinde çapı
+küçülür elektron aldığında çapı büyür
+diyoruz bir de şöyle bir ifade
+kullanayım dostum Bak şöyle bir şey var
+diyelim 11 kişi 11 kişiyle ip çekme
+yarışması yapıyor o Oradan çekiyor o
+Oradan çekiyor ne olur eşit güçte isse
+Her iki taraf herhangi bir hareket olmaz
+değil mi şöyle düşün Ben çekirdek
+tarafıyım elektron tarafı var 11 kişi
+Biz buradayız 11 kişi de orada 11
+kişiden biri gitti diyelim elektron
+tarafından biri gitti Ne yaparım ben
+kendime doğru çekerim değil mi Ne oldu
+çap küçüldü değil mi düşün bak elektron
+tarafı Proton tarafı artık daha büyük
+kalmış oldu Ne oldu çap küçüldü proton
+sayısı değişti mi Hayır değişmedi yani
+çekirdeğin çekim gücü değişti mi Hayır
+değişmedi ama elektron sayısı azaldı mı
+azaldı o zaman 10 tane elektron var 11
+tane Proton var yani her bir elektron
+başına düşen çekim gücü artmış oldu
+dostum Yani şunu unutma bir Atom
+elektron verdiğinde çekirdeğin çekim
+gücü değişmez ama elektron başına düşen
+çekim gücü arttığı için çap küçülür
+tersini düşünelim şimdi bu sefer 9 tane
+Proton var 9 tane elektron var tamam mı
+ip çekme yarışması yapıyoruz yine bu
+sefer elektron tarafına bir kişi geldi
+diyelim Ne olur ben diyelim gitmek
+istemiyorum sabitim ya ipi bırakmaya
+başladım Ne oldu onlar çekmeye başladığı
+için çap arttı yani elektron aldığında
+çap Ne oldu artmış oldu dostum çekirdek
+TKİ proton sayısı değişti mi Hayır
+değişmedi ama elektron sayısı arttığı
+için her bir elektron başına düşen çekim
+gücü azalmış oldu elektron başına düşen
+çekim gücü azalınca çap Ne oldu artmış
+oldu işte burada da yazmışız işte
+taneciklerin yarıçapları kıyaslanır Ken
+neye dikkat etmem gerekiyor Öncelikle
+katman sayısına dikkat etmem gerekiyor
+dostum şöyle bir şey var katman sayısı
+fazlaysa çap büyüktür Burada da ya da
+Yarıçap büyüktür diyoruz mesela kalsiyum
+ve sodyum var değil mi kalsiyuma bakar
+mısın 1 2 3 4 tane katmanı var ama
+sodyuma bakar mısın 1 2 3 tane katmanı
+var O zaman burada şunu söyleyebilirsin
+kalsiyumun yarıçapı sodyumdan daha
+büyüktür yorumunu yapabilirsin katman
+sayısı arttıkça çap artmaktadır Bu da
+önemli bir ifadedir bir diğeri de şudur
+Eğer katman sayıları aynıysa yani İkisi
+de aynı katman sayısına sahipse bu
+durumda da Proton sayısına bakıyorsun
+proton sayısı fazla olanın çapı küçük
+olacaktır hocam Ne alaka diyeceksin bak
+şöyle şuraya göstereyim burada Mesela ne
+vermiş 15 Proton vermiş şu tarafta da
+toplamda Bak en dış 3 tane katman var ya
+en dış katmanda 5 tane elektron var 15
+Proton şu 5 tane elektrona çekim kuvveti
+uyguluyor diğeri ne bak 12 Proton var
+çekirdekte Bu da 3 katmanlı ama dışta
+iki tane elektron var çok mühim değil
+bak 12 Proton bu dıştaki elektronlara
+çekim uyguluyor 15 Proton dıştaki
+elektrona şurada bir tane elektron düşün
+Bu elektrona çekim uyguluyor burada 12
+Proton çekim uyguluyor e haliyle ne
+olacaktır en dıştaki elektrona 15
+protonun uyguladığı çekim daha fazla
+olmayacak mıdır bunu şöyle de
+yorumlayabilirsiniz bir tane güçlü bir
+mıknatıs koydun şuraya 10 tane bilye
+koydun kaç tane bilye olduğunun önemi
+var mı orada yok dostum Çünkü sonuçta o
+bilyeler metal bilye isse Eğer ne
+olacaktır Mıknatıs tarafından
+çekilecektir Mıknatıs ne kadar güçlüyse
+o kadar çok çekilmeyecek mi Evet o
+yüzden de aynı mantık Eğer katman
+sayıları aynıysa proton sayısı büyük
+olanın çapı ne olacaktır küçük olacaktır
+Şimdi burada da işte bunu gösteriyor
+görüyor musun İkisi de 1 2 3 kat K mana
+sahip e haliyle bunun proton sayısı 15
+bunun ikisi 12 o zaman magnezyumun çapı
+ne olacaktır fosfordan daha büyük
+olacaktır diyoruz ve Şurayı siliyorum
+Bak burada da ne yazıyor periyodik
+sistemde sağdan sola doğru gidildikçe ne
+olacaktır atom yarıçapı artacaktır ters
+yönde de azalacaktır yani şöyle bir
+periyodik tablo oturtur bak şu aşağıya
+şöyle bir periyodik tablo Yaparsam eğer
+şöyle çizdim bu tarafa doğru çap artar
+aşağıya doğru çap artar aşağıya doğru
+niye artıyor Çünkü katman sayısı artıyor
+E bu tarafa doğru niye artıyor Çünkü
+aynı katmandaki katman sayıları aynı
+proton sayısı azaldığı için son katmana
+uygulanan çekim gücü azaldığı için
+çapartı oluyor işte Bak burada da
+gösteriyor aynı neye benzetiyoruz kardan
+adam aşağıya doğru kardan adamın vücudu
+gibi düşün Bu tarafa doğru da kardan
+adamın burnu gibi düşünebilirsin Ne
+olacak bu tarafa doğru çap azalacak
+aşağıya doğru çap artacak şeklinde
+söylüyoruz bunu tabii genel olarak biz a
+gruplarında kullanıyoruz B gruplarından
+bahsetmiyoruz bir de şu var dostum eğer
+elektron sayıları aynıysa proton sayısı
+büyük olanın çapı daha küçüktür Neden
+Çünkü son katmanda aynı sayıda elektron
+var ama proton sayısı fazlaysa
+çekirdekteki proton sayısı fazlaysa
+onlara daha fazla çekim uygulanmaz mı
+Evet bundan dolayı çap ne olur küçülür
+Burada da bunu gösteriyor bak şimdi
+oksijeni vermiş 88'e -2 O zaman 10 tane
+elektronu vardır hocam Ne alaka -2 ile
+kaçı toplarsam 8 eder 10'u değil mi he
+2'ye 8 yazdım şöyle Eee ikinciye bakalım
+floru vermiş 9 demiş -1 demiş E bunun da
+10 elektron elektronu var 2'ye 8 Bak
+gördün mü Son katmanda İkisi de eşit
+katmana sahip son katmanda eşit
+elektronu var çok mühim değil sonuçta
+neye bakıyoruz katman sayılarına
+bakıyoruz bir de şuna bakalım sodyum
+11'e + 1 + 1 dediği için 10 elektronu
+var 2'ye 8 bak elektron sayıları aynı e
+proton sayısı büyük olan kim burada
+sodyum O zaman en fazla çekimi o
+uygulayacaktır yani çapı En küçük olan
+sodyum oldu sonra kim olacaktır flor
+olacaktır en büyük de kim olacaktır
+burada oksijen -2 olacaktır Bana da bu
+sıralamayı soruyor nerede var a
+seçeneğinde var dostum şu soruya bakalım
+Diyor ki xa taneciğinin elektron
+alışveri alışverişi sonucunda çekirdeğin
+birim elektrona uyguladığı çekim kuvveti
+arttığına göre bak elektron başına düşen
+çekim gücü artıyor şöyle bir şeydir bak
+elektron başına düşen çekim gücünü şöyle
+düşünebilirsin Proton bölü elektron
+şeklinde düşünebilirsin elektron başına
+düşen çekim gücü artıyorsa e proton
+sayısı değişmiyo o zaman çekirdeğin
+uyguladığı çekim gücü değişmiyor ama
+elektron başına uygulanan çekim gücü
+artıyorsa Bu neden demektir elektron
+sayısının azalması anlamına gelmektedir
+tamam mı dostum yani elektron başına
+düşen çekim gücü dediğinde Proton bölü
+elektron yaz e Proton değişmeyeceğine
+göre elektron sayısının nasıl
+değiştiğini anlayabilirsin e burada ne
+olacak Demek ki Elektron vermiş demektir
+He xa taneciğinin elektron başına
+uyguladığı çekim kuvveti neymiş
+arttığına göre diyor katona dönüşmüştür
+diyor Hım kesin değil Neden biliyor
+musun şöyle bir şey var Bak x diyelim -2
+di x - 1'e dönüştü örnek veriyorum e
+burada Ne oldu elektron sayısı azalmadı
+mı azaldı o zaman elektron başına düşen
+çekim gücü artmış oldu hocam neden
+azaldı Bak şöyle düşün şuraya p dersen
+şurası P nedir + 2'dir şuraya bakarsan
+proton sayısı aynı ya E ne olacaktır p +
+1'dir Bak bu hale dönüştüğünde elektron
+sayısı azalmış oldu Bundan dolayı
+söylüyorum bunu işte e haliyle katona
+dönüştü mü burada Hayır hala eksi yüklü
+anyon olarak kalmış olabilir kesinlikle
+doğrudur dediği için bu gitti çekirdeğin
+çekim gücü artmıştır ya çekirdeğin çekim
+gücü proton sayısı demekti bir Atom
+elektron alsa da verse de proton sayısı
+değişiyor muydu Hayır değişmiyo o yüzden
+bunu da ne yaptık eledik Ama bir Atom
+elektron alsa da verse de bunu yaptığı
+anda ne olacaktır dostum kimyasal
+özelliği değişecektir Yani bu kesinlikle
+doğrudur cevabımız ne olacaktır yalnız 3
+C seçeneği şimdi atom yarıçapını
+bitirdik iyonlaşma enerjisine geçeceğiz
+Ama şöyle bir atom yarıçapını tekrar
+hatırlayalım neden bahsettik Dedik ki
+işte çekirdekle en dıştaki elektron
+arasındaki mesafeyi Evet Periyodik
+tabloda nereden nereye doğru artıyordu
+1A grubuna doğru artıyordu ve Aynı
+grupta aşağıya doğru artıyordu yani
+katman sayısı arttıkça artıyordu o zaman
+katman sayısı büyük olanın yarıçapı
+büyüktür yorumunu yapabiliriz Aynı
+grupta ve aynı periyotta bahsediyorsak
+proton sayısı küçük olanın çapı büyüktür
+ifadesini kullanıyorduk ve şu vardı bir
+Atom elektron aldığında çapı artıyordu
+elektron verdiğinde çapı küçülüyordu bu
+ifadeleri kullandık Eğer elektron
+sayıları aynıysa proton sayısı büyük
+olanın çapı küçüktür yorumunda ne
+yapıyoruz Yapıyoruz dostum o zaman
+iyonlaşma enerjisine geçebiliriz
+iyonlaşma enerjisi ne demektir
+tanımından bahsedelim önce gaz halinde
+deki bak burası önemli bir atomdan
+elektron koparmak için verilmesi gereken
+enerjiye Biz iyonlaşma enerjisi diyoruz
+Eğer Nötr atomdan bir elektron
+koparıyorsun bu birinci iyonlaşma
+enerjisidir + 1 yüklü den bir elektron
+koparıyorsun daha önce bir tane kopmuş
+demektir + 1'den elektron koparıyorsun +
+2'ye dönüşecek ya Yani atomun ikinci
+elektronunu koparıyor demektir O da
+ikinci iyonlaşma enerjisidir + 2'den
+elektron koparıyorsun 3üncü iyonlaşma
+enerjisi oluyor burada da bunu
+gösteriyor işte bak gaz halinde nötr
+atom bir elektron kopardık birinci
+iyonlaşma enerjisi gaz halinde Art bir
+yüklü bundan bir elektron kopardık +
+2'ye dönüştürdük yani ikinci elektronunu
+kopardık atomun Bu da ikinci iyonlaşma
+enerjisi Ama şuna bak Gaz halindeki nötr
+atom burada ne olmuş x + 2'ye dönüşmüş
+yani 2 elektron birden kopmuş 2 elektron
+burayı Ben tamamlıyorum 2 elektron
+birden koptuğunu göre bu birinci
+iyonlaşma enerjisi de değil ikinci
+iyonlaşma enerjisi de değil Peki Bu ne
+biliyor musun dostum bu 1 ile 2nin
+toplamı bak Bu ikisini toplarsan Eğer
+Neyi vermiş oluyor Hatta şuna E3 diyelim
+E3 de demeye bilil biriz buna e de diye
+İriz fark etmez E ne olacak dostum
+burada birinci ve ikinci yon laşma
+enerjilerinin toplamı olacak ve bu değer
+bu değer ne demektir i1 + i2 şeklinde
+olacaktır dostum şu vardır bir atomdan
+elektron kopardıkça elektron başına
+uygulanan çekim gücü artıyor demiştik ya
+o zaman bir sonraki elektronu koparmak
+için daha fazla enerji vermek gerekir Bu
+da şu demektir bir atomun her iyonlaşma
+enerjisi bir öncekine göre daha büyük
+olacaktır Yani birinci yon laşma
+enerjisi en küçüktür ikinci daha
+büyüktür 3 daha daha büyüktür böyle
+gider bu şekilde artarak gitmektedir
+Hatta bu aralarındaki artış oranı var ki
+ona da birazdan geleceğim dostum
+önemlidir bu işte Atom elektron verdikçe
+elektron başına düşen çekim gücü artar
+diyor Bundan dolayı ne olacaktır bir
+sonraki iyonlaşma eni daha büyük
+olacaktır diye de yazmışız işte Heh sana
+söylediğim şey burada İşte bu birbirini
+takip eden iyonlaşma enerjilerine
+bakıyorsun birinci iyonlaşma enerjisi
+ikinci iyonlaşma enerjisi 3 4 5 diye
+gidiyor Şimdi burada birbirini takip
+eden iyonlaşma Enerjileri arasındaki
+artış farkı böyle ciddi iyi bir
+şekildeyse minimum 3,5 4 kat veya daha
+fazlaysa biz buraya işaret koyuyoruz
+Çünkü orada atom artık soygaza benzemiş
+demektir yani soygaza benzediğinden
+dolayı da bir kararlılık kazanmıştır
+oradan elektron koparmak zorlaşır Bak bu
+atom birinci yön aşma enerjisinden sonra
+ciddi bir artış gerçekleştiriyor Şuraya
+bak ne yapmış bir çizgi çekmişiz işaret
+koymuşuz işte Demek ki bu bu atom bir
+elektron verdikten sonra soygaza
+benziyor E bu da 1A grubu elementi
+olması demektir 1 A grubu bir elektron
+verdiğinde artık soy soy gaza
+benzemektedir değil mi Son katmanda bir
+elektronu vardı ya onu verdi E ne oldu
+soygaza benzedi O yüzden de 1 ile 2
+arasında böyle ciddi bir artış varsa 1A
+grubu elementidir diyebilirsin Şuna
+bakar mısın Berilyum diyor burada
+birinci elektronu verdi sonra iki katına
+yakın bir artış var Tamam çok güzel ama
+sonra ne oluyor 14.000 küsur ciddi bir
+artış var görüyor musun 2 elektron
+verdikten sonra soygaza benzemiş
+demektir Bu da 2A grubu elementi
+anlamına gelmektedir Eğer bu artış 3 ile
+4 arasında olursa 3A grubu 4 ile 5
+arasında olursa 4A grubu diyelim ilk
+5'inde yok İlk 5'inde yoksa şurada bir
+yerde olabilir değil mi yani 5 le 6
+arasında olabilir 6 ile 7 arasında
+olabilir mesela 5 ile 6 arasında olsa
+biz buna 5A grubu diyeceğiz ama nerede
+olduğunu bilmiyorum değil mi ilk 5'ini
+verdi ve o istediğimiz artış yok veya
+ilk dördünü verdi istediğimiz artış yok
+mesela Burası için şunu söyleyebilirim
+Buradan sonra bir yerde olursa en az 5A
+grubu elementi ifadesini kullanabilirim
+dostum İşte burada Bak ne olacaktır
+lityum 1A grubu elementi Berilyum 2A
+grubu elementi burada alüminyuma bakar
+mısın Burada yok istediğimiz artış 3 kat
+gibi e burada da yok ama burada ciddi
+bir artış var 3A grubu elementi veya
+Şuna bak burada istediğimiz artış yok
+Burada da istediğimiz artış Yok burada
+da yok ama bak Görüyor musun Ciddi bir
+artış var 4356 danan 16.000 küsur ciddi
+bir artış var haliyle ne olacaktır Bu da
+4A grubu elementi olacaktır bu şekilde
+anlayabiliriz dostum ve şöyle bir şey
+var burada lityumla ilgili bir şey
+söyleyeyim lityuma bakar mısın birinci
+elektronunu verd Bak şöyle 2ci elektronu
+verdi 3 elektronu verdi sonrasındaki
+çizgiler ne demek biliyor musun
+elektronu kalmamış demek eğer sana bir
+tablo verdiyse ve bu şekilde böyle boş
+yerler gözüküyorsa o kadar elektronu
+vardır demektir 1 2 3 elektronu vardır O
+zaman direkt elektron dizil dizilişi
+2'ye 1 şeklinde söyleyebiliriz veya
+burada Berilyum 1 2 3 4 var 5'incisi boş
+değil mi o zaman Berilyum da 2ye 2
+şeklinde yazılabilir değil mi Ama
+alüminyum a 5 tane varmış o zaman Bu da
+2'ye 3 mü Ne bileyim ben bunun devamı
+olup olmadığını bilmiyorum ki bundan
+dolayı bu böyle olmaz işte şöyle isse
+bir boş çizgi görüyorsan bunun elektron
+sayısını belirleyebilirsin ama şöyle
+olursa devamı olabilir onunla ilgili
+yorum yapamazsın dostum şu var dostum
+taneciklerin iyonlaşma enerjisi
+kıyaslanır Ken kurallarımız var ilk
+kuralımız şudur önce son katmandaki
+elektron sayısına bakacağız yani
+değerlik elektron sayısına bakacağız
+değerlik elektron sayısı büyük olanın
+iyonlaşma enerjisi genellikle büyük
+olacaktır genellikle diyorum Çünkü bazı
+istisnaları var Onları da söyleyeceğim
+Mesela bak ben burada karbon ve sodyumu
+kıyaslarsan eğer sodyumun K 2 8 1 son
+katmanda 1 elektronu var Karbonun K ise
+2'ye 4 4 elektronu var o zaman Karbonun
+birinci iyonlaşma enerjisi sodyumun Ken
+büyüktür yorumunu ne yapabilirim
+yapabilirim Eğer son katmandaki elektron
+sayıları eşitse yani Aynı gruptayız bu
+durumda da çapı büyük olanın ya da
+katman sayısı büyük olanın iyonlaşma
+enerjisi daha küçüktür sebebi ise şu
+katman sayısı büyük olunca son
+katmandaki elektronu koparmak daha kolay
+olur Neden Çünkü katman sayısı fazlaysa
+çekirdeğin O son katman uyguladığı çekim
+düşüyor E bundan dolayı çapı küçük
+olanın ne olacaktır iyonlaşma enerjisi
+daha büyük olacaktır Burada da onu
+söylüyor işte bak ikisinin de son
+katmanında Beşer elektron var ama bu iki
+katmanlı bu 3 katmanlı e haliyle Bu ne e
+azotun k fosfordan daha büyüktür
+yorumunu yapabiliriz Ama dedim ya bak bu
+genelleme diye son katmandaki elektron
+sayısına dikkat ettiğimizde 5A 6a Bir de
+2A 3A da bir değişiklik vardır Onu da
+şurada söylüyoruz dostum 2A 3A danan
+daha büyüktür 5A da 6a A'dan daha
+büyüktür Çünkü 2 A'da ve 5 A'da küresel
+simetri vardır küresel simetri özelliği
+varsa Kendisinden bir sonraki gruba göre
+daha yüksek iyonlaşma enerjisine sahip
+oluyorlar Bu kuralı sakın unutma Eğer
+bak genelleme ile gitseydik şöyle bir
+şey olacaktı Şuradaki boşluğa yapacağım
+1 A'nın en küçük sonra 2A sonra 3A sonra
+4A sonra 5A sonra 6a 7A ve 8A olacaktı
+ama küresel simetri olduğu için şöyle
+renk değiştiriyorum şu şunla şu yer
+değiştiriyor yani 3 aşağıya gidiyor
+Şununla da şu yer değiştiriyor 5 yukarı
+gidiyor ve sıralamamız şu oluyor 1A 3A
+2A 4A 5A ne Pardon 6a 5A 7A 8A şeklinde
+oluyor biz buna 3 aşağı 5 yukarı kuralı
+diyoruz dostum tamam mı Yani 5A 6 A'dan
+büyük 2A da 3 A'dan büyük O yüzden de
+grafiğimiz şöyle oluyor bak dostum
+görüyor musun 1 A'dan sonra şurası 1A
+grubu elementi 2A geliyor 2A da artıyor
+3A nın K bundan küçük görüyor musun
+aşağı düşüyor sonra 4A geliyor 5A ıni
+artıyor 6a da düşüyor 7A 8A şeklinde
+gidiyor Burada çok benzeyen birbirine
+çok benzeyen yerler var görüyor musun
+Eğer soruda sana şöyle bir şekil verirse
+Bak şöyle çizeyim şuraya Heh şu şekilde
+da düz ol Heh çizdim iyonlaşma enerjisi
+atom numarası diye bir grafik verdi sana
+şöyle bir görsel verirse dostum burada
+dikkat etmen gereken nokta buna x buna y
+Buna da Z atomları dedi Dedi ki Tom
+numaraları ardışık x y z için nay nay
+nay hangileri doğrudur falan diye bir
+soru sordu yeşil yapacağım mesela x'e 1A
+grubu diyebilirim Çok güzel Y'ye 2A
+grubu diyebilirim Z'ye de 3A grubu
+diyebilirim ama kesin midir değildir
+şöyle de olabilir böyle verdiğinde
+Burası 4A grubu şurası 5A grubu şurası
+6a grubu da olabilir bununla ilgili
+böyle istisnai sorular gelebilir ama
+burada kesin olan bir şey vardır ki Y
+nedir küresel simetri özelliği gösterir
+2A da olsa 5A da olsa bu grafiğe bakarak
+şunu söyleyebilirsin zıplamalar olduğu
+yerlerde küresel simetri özelliği vardır
+diyebiliriz dostum gel şimdi örneklere
+bakalım Diyor ki sodyum flor ve lityum
+elementlerinin birinci iyonlaşma
+enerjilerini kıyaslamam istiyor sodyum
+11 2 8 1 flor var 9 2'ye 7 ne var lityum
+var 3 2'ye 1 ne demiştik önce Grup
+numarasına bakıyorduk bu 1A grubu bu 7A
+grubu Bu da 1A grubu 7A grubunun
+iyonlaşma enerjisi 1A grubundan büyüktü
+o zaman iyonlaşma enerjisi flor en büyük
+olacaktır şimdi şu da 1A grubu şu da 1A
+grubu Aynı grupta ne yapıyorduk çapı
+küçük olanın yani katman sayısı az
+olanın neydi iyonlaşma enerjisi Daha
+büyüktü yani lityum en küçük de ne oldu
+burada sodyum oldu o zaman felina felina
+felina nerededir cevabımız a seçeneğidir
+tablomu bakalım bana güzel bir tablo
+vermiş diyor ki baş Grup elementi olan
+ve iyonlaşma enerj enerjisi değerleri kj
+B mol cinsinden verilen atomlarla ilgili
+hangileri doğrudur diye soruyor şimdi
+şuna bakarsak bunların arasında
+istediğimiz artış yok Ama şundan
+sonrasının boş olduğunu görüyor musun
+Yani x 2 tane elektronu olan nötr halde
+de 2 protonu olan elementtir bu da 2
+Yani bu 8A grubudur 1 periyot 8A helyum
+elementinden bahsediyor şimdi şuna
+bakalım 1400 küsur 2800 küsür Yani iki
+katlık bir artış var burada da ya iki
+kat bile yok burada var mı o yok Evet
+ilk dördünde istediğim artış yok o zaman
+şunla sonra bir yerde olabilir yani Y
+için ne diyebiliriz en az 4A grubu
+elementi diyebiliriz şimdi şuna bakalım
+700 küsür 1400 2 kat 1400 küsür 7.000
+küsur ha bak istediğimiz artış var Z
+için 2A grubu elementi diyebiliriz t'ye
+bakalım tde 500 küsur 1000 küsur 2 kat
+gibi burada 1000 küsur 4900 var
+istediğim artış var burada o zaman bu da
+2A grubu elementidir Bunu da belirttik
+çok güzel diyor ki x soygazdan bariz
+belli buradan gözüküyor helyum olduğu
+için bunu yapıştırdık şimdi Z ve t ile
+ilgili bunların Aynı grupta olduğunu
+görüyor muyuz İkisi de 2A grubu elementi
+değil mi şöyle bir şey vardır Aynı
+grupta iyonlaşma enerjisi ne oluyordu
+çapla ters orantılı yani çapı büyük
+olanın iyonlaşma enerjisi küçük çapı
+küçük olanın iyonlaşma enerjisi büyüktü
+şimdi ikisi de 2A grubu elementi
+olduğuna göre iyonlaşma enerjisi büyük
+olan Z olduğuna göre çapı küçük olan Z
+olmalı çap aşağıya doğru arttığı için Z
+yukarıda olmalı T de aşağıda olmalı He
+bakalım şimdi Z'nin çapı t'nin kinden
+büyüktür Hayır küçüktür yanlıştır Çünkü
+çapla iyonlaşma enerjisi ters orantılı
+ydı Aynı grupta y'nin değerlik elektron
+sayısı en az 4'tür en az 4A grubu olduğu
+için bu ifadeyi ne yapabilirim
+kullanabilirim cevabım 1 ve 3 oldu yani
+C seçeneği bir sonraki sorumuza geçelim
+bakalım ne diyor Yukarıdaki periyodik
+sistemde yerleri belirtilen element
+atomları ile ilgili aşağıdaki
+ifadelerden hangisi yanlıştır diyor Hım
+bana bazı elementler vermiş bak Z'yi
+vermiş ya Z'nin olduğu yer bizim için
+çok önemli Hemen onun hidrojen olduğunu
+belirtelim hidrojen 1 grubunda ama metal
+değil alkali metal değil [ __ ] metaldir
+önemli bir ayrıntı onu belirtmek lazım
+Bir de burada y'yi vermiş y'nin de
+helyum olduğunu unutmayalım Bu da önemli
+bir ayrıntı bakalım şimdi diyor ki Z'nin
+Grup numarası ile atom numarası aynıdır
+Z 1A grubu elementi e atom numarası
+hidrojen olduğu için 1 Evet Grup
+numarasıyla ne aynı atom numarası
+aynıdır Doğrudur diyor ki 1 yon aşma
+enerjisi en büyük olan yd doğru çünkü
+iyonlaşma enerjisi bu tarafa doğru ve
+yukarıya doğru arttığında karşımıza kim
+denk geliyor helyum denk geliyor
+Doğrudur at atom çapı en büyük olan xir
+atom çapı ne tarafa doğru artıyordu renk
+değiştirerek gösteriyorum dostum bu
+tarafa doğru ve aşağıya doğru artıyor
+bunların arasında kim denk geldi x denk
+geldi o yüzden bu da doğru bir ifadedir
+diyor ki t elementinden bir elektron
+koparmak için verilmesi gereken enerji
+x' ininden büyüktür bir elektron
+koparmak için verilmesi gereken enerjiye
+Biz Ne diyorduk iyonlaşma enerjisi
+diyorduk Yani şunu söylüyor 3A grubunda
+olan t'nin 2A grubundaki x'ten daha
+yüksek iyonlaşma enerjisine sahip
+olduğunu söylüyor y yanlıştır 2A
+grubunun iyonlaşma enerjisi 3 A'dan
+büyüktü O yüzden Aynı periyotta bu
+yanlış bir ifadedir diyor ki Z2 ve y oda
+koşullarında homojen karışım oluşturur y
+helyumdan Bu da gaz halindedir gazların
+oluşturduğu karışımlar her zaman
+homojendir o yüzden doğru bir ifadedir
+biz yanlışı bulduk cevabımız D
+seçeneğidir güzel bir soru daha var
+diyor ki periyodik sistemde ikinci
+periyotta bulunan ve atom numaraları
+ardışık olan neymiş birin yon aşma
+Enerjileri verilen bir tablo verilmiş bu
+tabloda dikkat et x'i y'yi kyi ve Z'yi
+göstermiş atom numaraları ardışık dediği
+şu şöyle şöyle şöyle şöyle gidiyor bir
+tablo vermiş bu tabloda x y k ve z var
+Gördüğün gibi diyor ki Buna göre
+aşağıdaki ifadelerden hangisi yanlıştır
+diye soruyor değerlik elektron sayısı en
+fazla olan ZD diyor hemen belirtelim bak
+dostum bu 1A grubu elementi bu 2A grubu
+elementi Burası 3A şöyle 4A 5A var
+burada k'ye 6a denk geldi bu 7A Bu da 8A
+Evet değerlik elektron sayısı en büyük
+olan kim burada ZD Çünkü 8A grubu
+elementi doğru y elementi Toprak alkali
+metalidir diyor Toprak alkali 2A grubu
+Evet y de 2A grubu elementi olduğu için
+doğrudur tamamı metaldir diyor Bir
+dakika x 1A grubunda metal diyeceksin
+hocam hidrojen olamaz mı ya olamaz
+ikinci periyotta çünkü bunlar E o zaman
+bu lityum gibi düşünebiliriz Tamam x
+metal y de metal Eyvallah z ne şey
+burada ne var Z 8A grubu elementi soygaz
+e k de 6a grubunda ametal Demek ki
+tamamı metaldir ifadesi yanlış oldu
+diyor ki K elementi kalkojenler
+grubundadır yani 6a grubundadır Doğrudur
+Z elementi oda koşullarında tek atomlu
+gaz halindedir Soygazlar oda
+koşullarında tek atomlu gaz halinde
+bulunur ifadesi doğruydu Biz yanlışı
+bulduk cevabımız C seçeneğidir Hadi
+bakalım şimdi soru çözme zamanı bakalım
+ne diyor bana ne vermiş iki tane atom
+vermiş Pardon tanecik vermiş Ee Bununla
+ilgili olarak hangileri doğrudur x'e
+bakar mısın X'in toplamda 13 protonu var
+ama Şurayı saydığımda 10 tane elektronu
+var yani 2'ye 8 Eyvallah Y'ye bakalım
+haliyle bunun da yükünün ne olması lazım
++ 3 olması lazım Y'ye bakarsak 9 protonu
+var sayıyorum burayı 1 2 3 4 5 6 7 8 9
+mu oldu he E ne oldu nötr müş bu çok
+güzel 2'ye 7 olarak da bunu belirttik
+çok güzel diyor ki X ve y'nin
+yarıçapları eşittir diyor e Hayır
+değildir bir kere şöyle bir durum var
+dostum 13 Proton var 10 elektronu var 9
+Proton var 9 elektronu var E katman
+sayısı aynı katman sayıları aynı
+olduğunda E ne olacak proton sayısı
+büyük olanın çapı daha küçük olacak yani
+burada y'nin çapı x + 3'ten daha büyük
+olacağı için bu ne oldu yanlış oldu
+diyor ki birer elektron koparmak için
+x'e verilmesi gereken enerji y'nin
+kinden fazladır diyor şöyle bir şey
+vardı eğer katman sayıları aynı e
+baktığımızda bu 13 Proton 10 elektronu
+çekiyor yani Proton bölü elektron oranı
+elektron başına uygulanan çekim gücü
+daha fazla Bundan dolayı x'e verilmesi
+gereken enerji daha fazladır doğru
+Doğrudur diyor ki x katyon y ise nötrdür
+Evet doğrudur çünkü x + 3 yüklü y ise
+Elektron ve proton sayısı eşit olduğu
+için nötr Doğrudur biz yanlışı mı
+arıyoruz doğruları arıyoruz cevabımız D
+seçeneği olacak dostum 2'ye bakalım
+şöyle dur renk de değiştireceğim Heh 2de
+diyor ki Aşağıda verilen elementlerden
+hangisinin birinci iyonlaşma enerjisi
+daha büyüktür iyonlaşma enerjisi neydi
+Grup numarası arttıkça genellikle
+artıyordu yani 8 A'nın en büyüktü sonra
+7A sonra 5A 6a diye gidiyordu
+Hatırlarsan şimdi 8A güzel başka bu 7A
+bir tane daha 8A var şimdi şunları o
+zaman eleyelim Çünkü son katmandaki
+elektron sayısı en büyük olan yani 8
+olanların K Daha büyüktü peki iki tane 8
+olan var bu durumda ne yapıyorduk son
+katmandaki elektron sayısı yani değerlik
+elektron sayıları eşitse bu durumda da
+katman sayısı az olan ya da çapı küçük
+olanın iyonlaşma enerjisi daha büyüktür
+diyorduk E bu 3 katmanlı bu iki katmanlı
+O zaman cevap D seçeneği olacak dostum
+3ün soruya geldik diyor ki periyodik
+sistemde ilk 4 periyodun A gruplarında
+bulunan x y z ve t elementlerinin kesit
+gösterimi yukarıda verilmiştir Tamam
+verilmiş Peki ne ilk 4 periyodun A
+gruplarında ilk dör periyotta Tamam öyle
+dursun bakalım şimdi atom çapı en büyük
+olan yd atom çapı bu tarafa doğru ve
+aşağıya doğru arttığında karşımıza y
+denk geliyor Yani doğru bir ifadedir
+diyor ki y ve T alaşım
+oluşturabiliyorsunuz değerlik elektron
+sayısı 7 olamaz Hım şu var y ve T alaşım
+oluşturuyorsa metal olmak zorunda yani T
+7A grubunda olursa olmaz ilk dör
+periyotta T elementi ne olmak zorunda
+ametal olmak zorunda o yüzden Z 7A
+grubunda olabilir mi olamaz O yüzden bu
+ifade Doğrudur diyor ki Z'nin birinci
+iyonlaşma enerjisi x' ininden küçüktür
+diyor Z'nin iyonlaşma enerjisi x'
+ininden nasıl küçük olabilir bu 6a grubu
+olur Bu da 5A grubu olur o zaman aynı
+periyotta 5 A'nın iyonlaşma yanası 6
+A'dan büyük olduğu için bu ifade
+olabilir mi Evet olabilir cevap Ne oldu
+e seçeneği oldu 4 sorumuza geldik diyor
+ki periyodik sistemde baş Grup
+elementleri olan x y z elementlerinden y
+ve z Aynı grupta X ve Y ise aynı
+periyottadır diyor Hım şöyle bakalım şu
+şekilde belirtelim şöyle çizdim Bak
+şimdi diyor ki y ve z Aynı grupta X ve Y
+aynı periyotta şöyle yazalım mesela y ve
+z x ile de y Şöyle mesela olabilir Daha
+birçok ihtimal var Mesela şöyle bir
+ihtimal de söz konusu x burada olur y ve
+z böyle de olabilir mesela Bakalım şimdi
+diyor ki y'nin birinci yoğunlaşma
+enerjisi en büyüktür kesin mi değil
+Çünkü y bu tarafta mı bu tarafta mı
+Kesin bir bilgim yok bundan dolayı
+birinci hakkında kesin yorum yapamam
+atom numarası en büyük olan xir diyor
+şöyle bir şey var biz mesela böyle
+çizdik de şöyle çizemez miydik şu
+şekilde mesela çizdim diyelim x'i buraya
+yaptım y ve Pardon şöyle y ve z böyle de
+yapamaz mıyım yapabilirim yani y'nin en
+büyük olabilir veya şöyle çizsem x
+Burada olsa y burada Z burada E bu da
+olabilir bu sefer xin en büyük olabilir
+Yani kesin bir durum var mı Yok onu da
+eledik diyor ki Z Toprak alkali metali
+ise yani Ne demek bu Z 2A
+grubundayım Bak şimdi diyelim 2A
+grubunda Z buradaymış diyelim tamam y
+oda koşullarında katı halde bulunur e y
+ile Z Aynı grupta değil miydi yani y de
+burada olmak zorunda yani y de metal
+olmak zorunda E bundan dolayı oda
+koşullarında 2A grupu elementleri katı
+halde bulunduğu için üçüncüsü kesinlikle
+doğrudur cevap da ne oldu B seçeneği
+oldu 5 sorumuza geldik diyor ki x 17'nin
+3 tane iyonunu vermiş bana bunların
+yarıçaplarının toplamda 20 elektron oldu
+ilginç bir örnek olmuş x'e bakalım bu 17
+bu + 5 demiş hım çok güzel Bunu da şöyle
+diyelim mesela şurası da ne olur 12 olur
+e x 17'ye -1 18 oldu ne demiştik proton
+sayıları aynı olduğunda elektron sayısı
+büyük olanın çapı büyüktür Çünkü
+elektron başına uygulanan çekim kuvveti
+düşüyor ya da şöyle düşün bir Atom
+elektron aldıkça çapı artıyordu elektron
+verdikçe yarıçapı azalıyordu E o zaman
+elektron sayısı en büyük olan x -3
+olduğu için çapı en büyük olan x -3
+sonra x -1 sonra da x + 5 olmalı cevap
+da C seçeneği olmalı bu teorik bir soru
+zaten Yani x 17'ye -3 aldıramıyorum
+tabii ki ama bu teorik bir soru olduğu
+için bunu yorumlayabiliriz 6 soruya
+bakalım bana ne ver vermiş Yukarıdaki
+periyodik sistemin baş grubunda yer alan
+a b c d elementlerinin iyonlaşma
+enerjisi tablosu verilmiştir diyor buna
+göre hangisi yanlıştır diye soruyor
+şimdi 493 4500 küsür Aha ciddi bir artış
+var 1 ile 2 arasında Olduğunda biz buna
+1A grubu elementi diyorduk B'ye bakalım
+589 1000 küsur 2 kat civarı ama burada
+ciddi bir artış var demek ki B de 2A
+grubu elementi olacaktır çok güzel
+buraya bakalım C elementine bakar mısın
+C elementi 518 ciddi Bak bu 7000 O zaman
+bu da 1A grubu elementi ama C için şunu
+da söyleyebilirim bak 4C bir elektronu
+Yok ya C şudur Aslında 3 elektronu
+vardır Çünkü toplamda 3 tane iyonlaşma
+enerjisi varsa 3 elektronu vardır
+diyebilirsin 2'ye birdir Aslında bunu
+belirtebiliriz devam ediyorum D elementi
+ne olmuş 800 2400 küsür 3 kat civarı Ama
+bak burada 25.000 küsur çıkıyor yani bu
+da 3A grubu elementidir Hım şimdi çok
+dikkatli dinle Ne yapacağım biliyor
+musun B'den başlayarak gideceğim a'yı
+sona bırakıyorum muhteşem bir soru Çünkü
+bak diyor ki A alkali metaldir Evet
+doğrudur e Ama hocam hidrojen olamaz mı
+1A grubunda diyorsun y hidrojen olsa bir
+tane elektron olduğu için bir tane
+iyonlaşma enerjisi olması gerekiyor
+Burada 2 var 3 var 4 var Yani bu 1A
+grubunda Ama birinci periyotta değildir
+yani hidrojen olamaz hidrojen değilse
+alkali metaldir O yüzden a alkali
+metaldir ifadesi kesinlikle doğrudur
+diyor ki C elementi periyodik sistemde
+atom numarası En küçük olan metaldir
+Doğrudur Çünkü 2'ye 1 ya Yani 2ci
+periyot 1A grubu alkali metalidir doğru
+ondan önce ne var 2 var yani helyum
+soygaz ondan önce 1 var hidrojen ondan
+öncekiler ya ametal ya soygaz Yani ilk
+metal bu O yüzden doğru bir ifadedir
+diyor ki A'nın çapı C'nin kinden
+büyüktür ne diyor büyüktür diyor Evet
+şimdi Aynı grupta ne demiştik iyonlaşma
+enerjisi büyükse çap küçüktü Şimdi
+bakıyoruz 493 518 Demek ki C burada A da
+burada olmalı yani A'nın çapı daha büyük
+olmalı iyonlaşma yisi daha küçük olduğu
+için aynı gruptakileri kıyaslarsan
+burada o yüzden Doğrudur değerlik
+elektron sayısı en büyük olan DD dir
+doğru çünkü 3A grub elementi değerlik
+elektron sayısı 3'tür gelelim A'ya sanki
+şöyle düşünüyorsun birisi 2A grubu
+birisi 3A grubu o zaman bunlar aynı
+periyotta olabilir Ne olacak sanki
+sonuçta biri 2A biri de 3A Ama şöyle bir
+şey var aynı periyotta olsa 2A nn
+iyonlaşma enerjisi 3A danan büyük olması
+lazım ama bunun ikisi 589 bunun ikisi
+800 Aha 3A grubundaki demek daha büyük
+Bu da şu anlama geliyor demek ki
+periyodu küçük periyodu çok küçük olduğu
+için mesela 3 A'daki bir element 2
+A'daki büyük Olabilir mi Olabilir ama
+kesin olmayacak bir şey söyleyeyim
+bunlar aynı periyotta olamaz aynı
+periyotta olsaydı 2 a'nın daha büyük
+olurdu o yüzden burada cevabımız A
+seçeneğidir çok ince Çok klas bir soru
+dostum 7 soruya geldik diyor ki X ve Y
+periyodik sistemde farklı gruplarda
+bulunan baş Grup elementlerdir Peki öyle
+olsun Buna göre bu elementlerin
+niceliklerinden hangileri kesinlikle
+aynı olamaz diyor Hım neymiş farklı
+gruplarda bulunan A grubu elementleri
+baş Grup A grubu elementi ya şimdi
+periyodik sistemde grupları farklı
+periyotları aynı olamaz mı birisi ikinci
+periyot 2 birisi 2 periyot 5A Olamaz mı
+olabilir yani bu aynı olabilir aynı
+olabilir diyor ki değerlik elektron
+sayıları aynı olabilir desem hocam nasıl
+ya biri 8A olsa birisi 2A olsa birinimi
+8 birinimi 2 oluyor Yani kesin aynı
+olmaz ya bunlar diye düşünüyorsun Ama
+mesela ben buna helyum desem 2 değerlik
+elektron sayısı 2 Evet 8A grubu ama
+değerlik elektron sayısı 2 Buna da
+mesela şey desem Berilyum desem 4 2'ye 2
+bak değerlik elektron sayısı 2 ama 2A
+grubu elementinde farklı gruplar ama
+değerlik elektron sayıları eşit Yani
+kesin aynı olamaz diyemem buna aynı
+olabilir ama atom çapı Sonuçta farklı
+elementlerin atom çapı asla aynı olamaz
+kesinlikle aynı olamaz aradığımız için
+cevabımız B seçeneği olacaktır 8
+sorumuza bakalım Diyor ki Z'nin 1 yş
+mayası x' ininden büyüktür y'nin nükleon
+sayısı x' ininden küçüktür diyor
+periyodik sistemde 3 periyotta bulunan x
+y z elementleri ile ilgili bilgiler
+veriyormuş Şimdi şöyle bir şey var
+çizelim ihtimaller Dünyası değil mi
+Burası şöyle yaptım mesela diyor ki
+Z'nin birin yon aşma enerjisi x' ininden
+büyük mesela Z burada olsun x burada
+olsun örnek veriyorum 7A grubu 6a grubu
+gibi diyor ki y'nin nükleon sayısı x'
+ininden küçük yani y burada olabilir
+değil yükle numarası 1 A'ya doğru
+azalıyor gibi düşünebiliriz Proton ve
+nötronun toplamı ya Y genelleme olarak
+söyleyebiliriz O zaman böyle
+baktığımızda y'nin çapı en büyük sonra x
+sonra Z böyle bir şey var mı y x z var
+gibi Peki başka ihtimal olamaz mıydı
+diyeceksin ki ya hocam şöyle bir şey
+vardı Sonuçta Z'nin birinci anlaşma
+enerjisi X'in kinden büyük olduğu için
+örnek veriyorum Z'ye Ben 5A grubu
+elementi desem x'e 6a grubu desem mesela
+y de böyle olsa olamaz mı bu da olabilir
+doğru yani y ZX de olabilir ama şıklarda
+böyle bir şey var mı Yok olabiliri
+sorduğu için biz Neyi arıyoruz yxz Cevap
+da ne oldu D seçeneği oldu dostum 99'a
+bakalım Diyor ki elektron katman
+dizilimi yukarıda verilen x y z element
+atomları ile ilgili ifadelerinden
+hangileri doğrudur diye bir şey sormuş
+bakalım şimdi atom çapı en büyük olan ZD
+1 2 3 4 katmanlı 1 2 3 katmanlı 1 2 3
+katmanlı katman sayısı arttıkça çap
+artıyordu O yüzden Z'nin çapı en
+büyüktür tak diye doğruyu işaretledikten
+A'dan büyüktü aynı periyotta Bunlar da 1
+A'dan büyük oluyordu çünkü hem çapı
+büyük hem de periyodu küçük o yüzden
+Z'nin en küçük olacak yani sıralamam y
+bü Pardon x ü y b z olmalıydı burada ne
+demiş yxz demiş gitti bir o istisnayı
+göz ardı etmiş demiş ki Z elementi Z
+elementi X ve Y ile iyonik bağlı bileşik
+oluşturabilir e Bunlar ametal 5A ve 6a
+grubu 3 periyotta Bunlar ametal E bu da
+metal e metalle ametal arasında iyonik
+bağlı bileşik oluşabilir Doğrudur cevap
+1 3 olmalı yani C seçeneği 10 sorumuza
+bakalım katman Elektron dizilimlerini
+vermiş bana nötr x yz için sorular
+soruyor şimdi art1 yüklü hali buysa yani
+18 elektronu varsa nötr X'in 19
+elektronu olacaktır 19 da protonu
+olacaktır yani nötr halde 2 8 8 1'dir
+Y'ye bakalım -3 yüklü halinde 10
+elektronu var 2 8 daha 10 E o zaman y ne
+olacaktır nötr halde 7 olacaktır 2'ye 5
+Z'ye bakalım -1 yüklü hali 18' mii o
+zaman nötr hali 17 olacak şöyle Z'yi de
+yazalım h z 17 2 8 7 olacak şimdi
+bakalım X ve z aynı periyottadır Şimdi x
+4 periyotta Hatta şöyle yazalım 4
+periyot 1A grubu z ne olacaktır 3
+periyot 7A grubu y ise 2 periyot 5A
+grubu olacaktır E o zaman X ve z aynı
+periyottadır yanlış y'nin çekirdek yükü
+yani proton sayısı 10'dur Hayır bu nedir
+7'dir görüyorsun burada görüldüğü gibi x
+alkali metaldir Evet 1A grubu elementi
+olduğu için doğrudur ama devam edelim 1
+iyonlaşma yisi En küçük olan ZD diyor
+Hayır en büyük olan odur Çünkü 7A grubu
+elementi O yüzden gitti periyodik
+sistemde X'in bulunduğu periyottaki tüm
+elementler baş Grup elementidir diyor
+Bakalım X'in bulunduğu periyot X'in
+bulunduğu periyot 4 periyot 4 periyotta
+B grupları da vardır yani yan Grup
+elementleri de vardır O yüzden gitti
+cevabımız nedir c seçeneğidir 11
+sorumuza geldik bana bir tane ne vermiş
+şekil vermiş bir iyonlaşma enerjisi atom
+numarası grafiği atom numaraları Ardışık
+ne atomları vermiş baş Grup elementi
+Şimdi x burada 1A gruba elementi
+olabilir şöyle Yazalım bakalım 1A grubu
+oldu bu o zaman 2A grubu olacaktır Bu da
+3A grubu olacaktır Peki başka ihtimal
+yok mu var bu 4A grubu olabilir bu 5A
+grubu olabilir bu da 6a grubu olabilir
+şimdi bakalım kesinlikle doğrudur
+soruyor x alkali metaldir kesin değil 4A
+grubu elementi de olabilir X ve Y aynı
+periyotta Z farklı periyottadır y
+yanlıştır Çünkü şöyle bir şey var Bu
+görüntü 2A Pardon 1A 2A 3A da ya da 4A
+5A 6a da vardır yani üçü de aynı
+periyotta olacaktır şöyle olsaydı dediği
+doğru olurdu şöyle olsaydı 7A 8A 1A
+şeklinde derdik farklı periyotta
+olduğunu söylerdik ama bu değil diyor ki
+x yarı metal ise x yarı metal x hangi
+durumda yarı metal olabilir silisyum
+olduğunda yani 4A grubu olduğunda yarım
+metal is Z'nin değerlik elektron sayısı
+artırır Yani bu 4A olursa Z 6a olur evet
+bu kesin doğru oldu Gördüğün gibi
+değerlik elektron sayıları toplamı 6 ise
+E şimdi bak 1A 2A 3A değerlik elektron
+sayıları toplamı 6 etti Gördüğün gibi
+eğer böyle olursa bu x bu y bu Z olduğu
+için Y'ye 2A grubu denk geliyor yani
+Toprak alkali metalidir ifadesi
+Kesinlikle doğru oluyor bu çok güzel bir
+soru olmuş cevap 3 ve 4 oldu yani D
+seçeneği dostum Haydi bakalım dinlenme
+vakti geldi güzel sorular çözdük ne
+yaptık atom yarıçapından ve iyonlaşma
+enerjisinden bahsetmiş olduk şöyle
+kısaca hatırlayalım atom yarıçapın neye
+dikkat ediyorduk önce katman sayısı
+katman sayısı büyük olanın çapı büyüktü
+eğer aynı katman sayısına sahiplere
+proton sayısı küçük olanın çapı büyüktü
+Bir de ne demiştik elektron aldığında
+çap artıyordu elektron verdiğinde çap
+azalıyordu demiştik sonra iyonlaşma
+enerjisi dedik Gaz halindeki Nötr bir
+atomdan bir elektron kopardığımız
+birinci iyonlaşma enerjisi oluyordu + 1
+yüklen bir elektron kopardığımız da
+ikinci iyonlaşma enerjisi o şekilde
+gidiyordu ve her seferinde iyonlaşma
+enerjisi bir öncekine göre daha büyük
+oluyordu Yani birinci iyonlaşma yisi en
+küçük sonra ne oluyordu 2 ikinci
+iyonlaşma yisi daha büyük üçüncü daha
+büyük öyle gidiyordu sonra ne bakıyorduk
+artışlara bakıyorduk birbirini takip
+eden artışlara bakarak ne yapıyorduk
+Grup numarasını belirleyebiliyorsunuz
+belirleyebiliyorsunuz
+vardı 2A 3A danan büyüktü 5A da 6 A'dan
+büyüktü neden küresel simetri özelliği
+olduğu için küresel simetri kararlılık
+veriyordu sonra eğer aynı gruptayız neye
+bakıyorduk Çapa bakıyorduk yani katman
+sayısına katman sayısı küçük olanın yani
+çapı küçük olanın iyonlaşma enerjisi
+daha büyüktür yorumunu yapıyorduk Dostum
+Evet bunları hatırlamış olduk Sen de ne
+yapıyorsun şimdi soru çözerek tekrar
+ediyorsun ödevlendirme beleri Biliyorsun
+oradan devam et ödevini bitir sonra gel
+kaldığımız yerden devam edelim iki
 fosfor bir asit kimya Bu kadar basit bir
-sonraki derste görüşmek üzere hoşça kal
+sonraki derste görüşmek üzere hoşça
+kal an

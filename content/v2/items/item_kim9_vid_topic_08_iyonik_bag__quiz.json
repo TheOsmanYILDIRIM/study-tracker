@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_08_iyonik_bag",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e0e330ee30a12087",
+      "transcriptFingerprint": "4d4b87ca2f499bfc",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -83,8 +83,8 @@
       "fingerprint": "8e2a97a4d99988f4",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

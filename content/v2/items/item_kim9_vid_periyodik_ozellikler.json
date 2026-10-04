@@ -7,7 +7,7 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
-  "contentUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+  "contentUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,16 +16,20 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "6930cb3832e890be",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "fingerprint": "a5bab5c9b7bd0b6d",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.tr.vtt",
-      "transcriptFingerprint": "6ce56406f481cfb3",
+      "transcriptFingerprint": "3667e4e4ae442b90",
       "sharedSource": true,
-      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.",
+      "reviewedOverride": true,
+      "teacher": "Meschemy Kimya"
     },
-    "provider": "Kimya Adası"
+    "provider": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

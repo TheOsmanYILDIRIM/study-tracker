@@ -7,17 +7,29 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Biyolojiye Giriş: Yaşam Nedir?",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/introduction-to-biology",
+  "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L14",
       "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "d2c241ae0e658169"
-    }
+      "fingerprint": "ed36315bc515aff4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.tr.vtt",
+      "transcriptFingerprint": "a698fecff5e7f6c6",
+      "reviewedOverride": true,
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar."
+    },
+    "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "teacher": "Dr. Biyoloji"
   }
 }

@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=glDg6lFPsag",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,9 +82,9 @@
       "fingerprint": "c0f31bdc59156db6",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_14_katilar_ve_ozellikleri.tr.txt",
-      "transcriptFingerprint": "384dfc22c8b7c3e0",
-      "sharedSource": true,
-      "sharedSourceReason": "Katı türleri, amorf katılar ve kristal katılar (iyonik, moleküler, kovalent, metalik) ortak video kapsamı"
+      "transcriptFingerprint": "29f78b3c3b6663e8",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

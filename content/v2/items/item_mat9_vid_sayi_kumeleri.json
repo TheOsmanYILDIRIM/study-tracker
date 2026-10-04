@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Doğal, Tam, Rasyonel ve Gerçek Sayı Kümeleri",
-  "contentUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+  "contentUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,21 +16,27 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "2556b7bfa19188aa",
+      "fingerprint": "5728be6b47f88498",
       "sourceWeeks": [
         5
       ],
       "sourceTheme": "SAYILAR",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "Sayı Kümelerinin Özellikleri 1 | 17.DERS 9.Sınıf Matematik | Yeni Müfredat 2025",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.tr.vtt",
-      "transcriptFingerprint": "426e959c263c3dbc"
+      "transcriptFingerprint": "821e10f9fddb72f8",
+      "reviewedOverride": true,
+      "teacher": "Deniz Mehmet Hoca",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "provider": "Rehber Matematik",
-    "topic": "Sayı Kümeleri ve İşlem Özellikleri"
+    "topic": "Sayı Kümeleri ve İşlem Özellikleri",
+    "verifiedLectureTitle": "Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026",
+    "teacher": "Deniz Mehmet Hoca"
   }
 }

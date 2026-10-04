@@ -7,7 +7,7 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
-  "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+  "contentUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,18 +16,21 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "026003d46f482694",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "fingerprint": "cf28a06c956ef134",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
+      "teacher": "Özcan Aykın FİZİK"
     },
-    "provider": "Özcan Aykın FİZİK"
+    "provider": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
+    "teacher": "Özcan Aykın FİZİK"
   }
 }

@@ -76,7 +76,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "29d50a7fc53c9a99",
+      "transcriptFingerprint": "35937afd2c101d48",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,7 +85,8 @@
       "fingerprint": "f196dc4fb7af0ee9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

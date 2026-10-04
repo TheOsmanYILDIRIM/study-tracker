@@ -7,10 +7,10 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Alter, Alphabet und Buchstabieren",
-  "contentUrl": "https://www.youtube.com/watch?v=j6s-y9cBUv0",
+  "contentUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Alter, Alphabet und Buchstabieren",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,19 +26,22 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "477f80bad92a1e8c",
+      "fingerprint": "8074f2684918c77c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=j6s-y9cBUv0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.tr.vtt",
-      "transcriptFingerprint": "9cecb4b75b531a32",
-      "reviewedOverride": true
+      "transcriptFingerprint": "bf03fc0cb878dddc",
+      "reviewedOverride": true,
+      "teacher": "Tonguç Akademi",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar."
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Bogaç ile Kolay Almanca",
-    "verifiedLectureTitle": "Almanca #Hal hatır sormak  /#Wie geht’s?"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma"
   }
 }

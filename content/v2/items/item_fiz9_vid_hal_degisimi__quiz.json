@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_hal_degisimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -84,9 +84,9 @@
       "fingerprint": "2d7a053d4edfd176",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar."
     }
   }
 }

@@ -7,30 +7,31 @@
   "displayLabel": "2.3",
   "orderKey": 3000,
   "title": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
-  "contentUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+  "contentUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Meltem Hoca ile Almanca",
+    "teacher": "Tonguç Akademi",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L40",
       "sourceSection": "3. Hafta: Sayılar ve Telefon Numarası",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "15fb458cf92cbc54",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "fingerprint": "a22af857c4cd7234",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_sayilar.tr.tr.vtt",
-      "transcriptFingerprint": "e10726e05dc42bb1",
+      "transcriptFingerprint": "bf03fc0cb878dddc",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+      "teacher": "Tonguç Akademi"
     },
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
+    "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Türkiye'nin Coğrafi Konumu",
-  "contentUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+  "contentUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -24,19 +24,24 @@
       "reviewStatus": "verified",
       "videoSearchScore": 9.6,
       "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
-      "fingerprint": "eb36fc978686bf81",
+      "fingerprint": "ff56685c84c65640",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.tr.vtt",
-      "transcriptFingerprint": "b0e60d4115d77a24",
-      "reviewedOverride": true
+      "transcriptFingerprint": "7ec5056e4ee20481",
+      "reviewedOverride": true,
+      "teacher": "Yunus Hoca",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025",
+    "teacher": "Yunus Hoca"
   }
 }

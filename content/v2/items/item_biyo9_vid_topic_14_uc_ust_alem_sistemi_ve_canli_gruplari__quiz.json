@@ -74,7 +74,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "88134c031c8b28bc",
+      "transcriptFingerprint": "b49f8bc7b982f3c7",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "bc940718542a3767",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar."
     }
   }
 }

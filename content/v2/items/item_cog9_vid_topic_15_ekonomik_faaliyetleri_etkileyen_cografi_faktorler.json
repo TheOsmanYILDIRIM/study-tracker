@@ -7,7 +7,7 @@
   "displayLabel": "15.1",
   "orderKey": 1000,
   "title": "Ekonomik Faaliyetleri Etkileyen Coğrafi Faktörler",
-  "contentUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+  "contentUrl": "https://www.youtube.com/watch?v=dDXeN9Oll4I",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -25,19 +25,24 @@
       "reviewStatus": "verified",
       "videoSearchScore": 4.79,
       "videoCandidateTitle": "Ekonomik faaliyetler ve etkileri konu anlatımı 🔴 9.sınıf coğrafya | 2025",
-      "fingerprint": "15bdfeaccab4d735",
+      "fingerprint": "79dcfb71707b8088",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=dDXeN9Oll4I",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler.tr.tr.vtt",
-      "transcriptFingerprint": "4cec61ccf59f829c",
-      "reviewedOverride": true
+      "transcriptFingerprint": "8cdc03da528942a5",
+      "reviewedOverride": true,
+      "teacher": "Yunus Hoca",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=Zy_6Fgs84N4",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍GÖÇ-EKONOMİK FAALİYETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-37🟡10.SINIF COĞRAFYA  📌2025",
+    "teacher": "Yunus Hoca"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
-  "contentUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
+  "contentUrl": "https://www.youtube.com/watch?v=4cbRTAG8M4U",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -25,22 +25,24 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "c1d387e435963950",
+      "fingerprint": "dfba02644556cc01",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4cbRTAG8M4U",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.tr.vtt",
-      "transcriptFingerprint": "9558e6703fcdd696",
-      "sharedSource": false
+      "transcriptFingerprint": "817ac47059bc76ed",
+      "sharedSource": false,
+      "teacher": "Yunus Hoca",
+      "sharedSourceReason": null
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
       "provider": "Coğrafyanın Kodları"
     },
     "teacher": "Yunus Hoca",
-    "verifiedLectureTitle": "Nüfusun önemi ve özellikleri konu + soru | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 27"
+    "verifiedLectureTitle": "🌍NÜFUS 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-33 🟡 10.SINIF COĞRAFYA KAMPI 📌2025"
   }
 }

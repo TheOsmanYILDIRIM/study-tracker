@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_cumle_kurma",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7hlpdxnFQ5o",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
@@ -84,8 +84,9 @@
       "fingerprint": "7778a80ff0cab5e5",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt",
-      "transcriptFingerprint": "1a6b863c3bd960a4",
-      "sharedSource": false
+      "transcriptFingerprint": "bf6f4cf0d4ef8443",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

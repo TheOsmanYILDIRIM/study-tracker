@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "46a64780b021df7d",
+      "fingerprint": "230105f287260002",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
       "provider": "Özcan Aykın FİZİK",
@@ -33,12 +33,13 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.txt",
-      "transcriptFingerprint": "f84f31b764e1a206",
+      "transcriptFingerprint": "0435f6d045b785f2",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı"
+      "sharedSource": false,
+      "sharedSourceReason": null,
+      "teacher": "Özcan Aykın FİZİK"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026"
   }
 }

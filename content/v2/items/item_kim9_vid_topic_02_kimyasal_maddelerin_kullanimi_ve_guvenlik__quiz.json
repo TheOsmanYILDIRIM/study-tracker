@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,9 +82,9 @@
       "fingerprint": "c7bf0a4466575520",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
-      "transcriptFingerprint": "ed0db4f712979546",
+      "transcriptFingerprint": "375d92366dc8fbda",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar."
     }
   }
 }

@@ -10,7 +10,7 @@
   "contentUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Dr.Biyoloji",
+    "provider": "Dr. Biyoloji",
     "topic": "Üç Üst Âlem Sistemi ve Canlı Grupları",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,17 +26,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "7b54e005ca676c94",
+      "fingerprint": "9200d0364682db6e",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
-      "transcriptFingerprint": "88134c031c8b28bc",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt"
+      "transcriptFingerprint": "b49f8bc7b982f3c7",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt",
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar."
     },
-    "teacher": "Dr.Biyoloji",
-    "verifiedLectureTitle": "Canlıların Sınıflandırılması | Dr. Biyoloji | Dönem 2026 - 2027"
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
   }
 }

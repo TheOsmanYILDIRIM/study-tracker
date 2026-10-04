@@ -7,10 +7,10 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Tageszeiten und Tagesablauf",
-  "contentUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+  "contentUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Tageszeiten und Tagesablauf",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,19 +30,22 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "78a4929264d79e17",
+      "fingerprint": "fe8fadaae154d245",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
-      "transcriptFingerprint": "85c8f13c7e0ce76b",
-      "sharedSource": false
+      "transcriptFingerprint": "514c8d83e5c7741c",
+      "sharedSource": false,
+      "reviewedOverride": true,
+      "teacher": "Tonguç Akademi",
+      "sharedSourceReason": null
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca",
-    "verifiedLectureTitle": "Günün Vakitleri | die Tageszeiten-25.DERS ALMANCA|9.sınıf 4.ÜNİTE"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Moleküller Arası Zayıf Etkileşimler ve Hidrojen Bağı",
-  "contentUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+  "contentUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,15 +15,21 @@
       "sourceSection": "Zayıf Etkileşimler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
-      "fingerprint": "09566b06fd2755f6",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+      "reviewStatus": "verified",
+      "fingerprint": "09f30005a99a4906",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.tr.vtt",
-      "transcriptFingerprint": "34a035e730bc990b"
+      "transcriptFingerprint": "92b98bc529a7d5ec",
+      "reviewedOverride": true,
+      "teacher": "Meschemy Kimya",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar."
     },
-    "provider": "Meschemy Kimya"
+    "provider": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

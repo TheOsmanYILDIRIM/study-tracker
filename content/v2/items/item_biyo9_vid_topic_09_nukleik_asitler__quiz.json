@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_09_nukleik_asitler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "22d93c8cd6749c93",
+      "transcriptFingerprint": "da19c5fcfa0642d6",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "ef6174d521f70434",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

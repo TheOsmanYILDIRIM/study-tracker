@@ -7,10 +7,10 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
-  "contentUrl": "https://www.youtube.com/watch?v=e35E93fV4cg",
+  "contentUrl": "https://www.youtube.com/watch?v=ij26b-lboNY",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rüştü Hoca ile Türkçe",
+    "provider": "Deniz Hoca",
     "topic": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,17 +25,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "89f32a59f4939423",
+      "fingerprint": "5b4a09d83c69e57d",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=e35E93fV4cg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ij26b-lboNY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.tr.vtt",
-      "transcriptFingerprint": "4014bd282e4a8547",
-      "sharedSource": false
+      "transcriptFingerprint": "c5d0a2b5f8936f00",
+      "sharedSource": false,
+      "reviewedOverride": true,
+      "teacher": "Deniz Hoca",
+      "sharedSourceReason": null
     },
-    "teacher": "Rüştü Hoca",
-    "verifiedLectureTitle": "9.SINIF | Şiir | Sözün İnceliği | 1.TEMA | Açık, Örtük İleti, Sembol, Çağrışım, Edebi Dil vs."
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "ANLATIM BİÇİMLERİ ⧸ DÜŞÜNCEYİ GELİŞTİRME YOLLARI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca"
   }
 }

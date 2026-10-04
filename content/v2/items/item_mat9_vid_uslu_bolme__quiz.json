@@ -75,10 +75,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_uslu_bolme",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "72a42480cb471e64",
+      "transcriptFingerprint": "bd69e1fbf5237ef4",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -86,7 +86,9 @@
       "schemaVersion": "v2",
       "fingerprint": "a8378a6503065942",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar."
     }
   }
 }

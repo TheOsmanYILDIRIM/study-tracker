@@ -7,17 +7,29 @@
   "displayLabel": "1.3",
   "orderKey": 3000,
   "title": "Kontrollü Deney Örnekleri",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/controlled-experiments",
+  "contentUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L16",
       "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "f2d122a451808fa3"
-    }
+      "fingerprint": "c86ee07fe19872dc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.tr.vtt",
+      "transcriptFingerprint": "cb719c3766fcb2ca",
+      "reviewedOverride": true,
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler."
+    },
+    "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+    "teacher": "Dr. Biyoloji"
   }
 }

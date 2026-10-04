@@ -7,7 +7,7 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Vitaminler",
-  "contentUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+  "contentUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -32,14 +32,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 7.4,
       "videoCandidateTitle": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
-      "fingerprint": "8b13c3e9e5c6d261",
+      "fingerprint": "e3517561e442c85f",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.tr.vtt",
-      "transcriptFingerprint": "17ad44db420bf034"
-    }
+      "transcriptFingerprint": "cabe6ad1b250f5c0",
+      "reviewedOverride": true,
+      "teacher": "Dr. Biyoloji",
+      "sharedSource": false,
+      "sharedSourceReason": null
+    },
+    "verifiedLectureTitle": "Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "teacher": "Dr. Biyoloji"
   }
 }

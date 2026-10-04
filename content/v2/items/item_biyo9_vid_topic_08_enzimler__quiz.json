@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_08_enzimler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=56fiFbIYsS0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "a7e85c308adb2be2",
+      "transcriptFingerprint": "8a014a2c2ddfc891",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -83,8 +83,8 @@
       "fingerprint": "7295c1a96daa26f5",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Enzimlerin yapısı, özellikleri, apoenzim/kofaktör ve çalışma mekanizması ortak video kapsamı"
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

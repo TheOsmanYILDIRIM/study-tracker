@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_kendini_tanitma",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
+      "transcriptFingerprint": "315b1e8be11fe5f4",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,7 +85,8 @@
       "fingerprint": "e477067137f66f91",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

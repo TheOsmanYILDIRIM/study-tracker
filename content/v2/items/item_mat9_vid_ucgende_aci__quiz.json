@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_ucgende_aci",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
       "transcriptLanguage": "tr",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
@@ -80,7 +80,9 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
-      "transcriptFingerprint": "c24a297ec4ace9fd"
+      "transcriptFingerprint": "787ef9a225a25899",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

@@ -84,7 +84,9 @@
       "fingerprint": "72f966a8c36b4183",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
-      "transcriptFingerprint": "7e71f18b7d18be73"
+      "transcriptFingerprint": "2f4ccf0688ff0d7a",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar."
     }
   }
 }

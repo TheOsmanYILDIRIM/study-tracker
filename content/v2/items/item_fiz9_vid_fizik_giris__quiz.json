@@ -76,7 +76,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "950a6c9a5591fd65",
+      "transcriptFingerprint": "11420f9aa96c6564",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -86,7 +86,7 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı TYT Fizik dersi; fizik bilimine giriş, fiziğin alt dalları ve temel kavramları bir bütün olarak kapsar."
     }
   }
 }

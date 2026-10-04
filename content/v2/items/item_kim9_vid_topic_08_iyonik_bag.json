@@ -7,7 +7,7 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "İyonik Bağ",
-  "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+  "contentUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -25,16 +25,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 6,
       "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
-      "fingerprint": "671459f1d63c868d",
+      "fingerprint": "61b7832a269a6722",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt",
-      "transcriptFingerprint": "e0e330ee30a12087",
-      "sharedSource": true,
-      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
-    }
+      "transcriptFingerprint": "4d4b87ca2f499bfc",
+      "sharedSource": false,
+      "sharedSourceReason": null,
+      "reviewedOverride": true,
+      "teacher": "Meschemy Kimya"
+    },
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }

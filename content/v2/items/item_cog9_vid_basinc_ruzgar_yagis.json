@@ -7,7 +7,7 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
-  "contentUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
+  "contentUrl": "https://www.youtube.com/watch?v=aweDcCk0fJ0",
   "publishingStatus": "active",
   "payload": {
     "teacher": "Yunus Hoca",
@@ -17,21 +17,23 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "c40e0c518894cbcd",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
+      "fingerprint": "739cfe11d04d7e42",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aweDcCk0fJ0",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.tr.vtt",
-      "transcriptFingerprint": "2866c76a83106119",
-      "sharedSource": false
+      "transcriptFingerprint": "27adcace9ed94fc5",
+      "sharedSource": false,
+      "teacher": "Yunus Hoca",
+      "sharedSourceReason": null
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
       "provider": "Coğrafyanın Kodları"
     },
     "provider": "Coğrafyanın Kodları",
-    "verifiedLectureTitle": "Basınç konu anlatımı ve soru çözümü 📕 3.ünite 🔴 9.SINIF COĞRAFYA | 2025"
+    "verifiedLectureTitle": "🌍BASINÇ VE RÜZGARLAR🔴 39 GÜNDE TYT COĞRAFYA KAMPI-11📌2025"
   }
 }

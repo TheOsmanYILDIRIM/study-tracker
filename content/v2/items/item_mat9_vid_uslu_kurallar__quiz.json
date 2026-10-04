@@ -76,7 +76,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "b7b70dc9fcea4c1f",
+      "transcriptFingerprint": "2d8b5b1db7a025d3",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "da78d859892e45a7",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

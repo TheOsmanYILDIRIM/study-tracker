@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Uhrzeiten",
-  "contentUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
+  "contentUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Uhrzeiten",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,19 +26,22 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "3fe88a8ce7466ee2",
+      "fingerprint": "9193a3f125c422c4",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.tr.vtt",
-      "transcriptFingerprint": "40208cbbff2a8ea7",
-      "reviewedOverride": true
+      "transcriptFingerprint": "5990ef8ffd5d5eb1",
+      "reviewedOverride": true,
+      "teacher": "Tonguç Akademi",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Saatler -24.DERS ALMANCA|9.sınıf 4.ÜNİTE"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： Die Uhrzeiten und Die Wochentage ｜ Saatler, 100'e Kadar Sayılar ve Günler"
   }
 }

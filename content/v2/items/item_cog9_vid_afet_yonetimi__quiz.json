@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_afet_yonetimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,9 +83,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
-      "transcriptFingerprint": "a9429fca5308feaa",
+      "transcriptFingerprint": "dd6b0aef7e5df09f",
       "sharedSource": true,
-      "sharedSourceReason": "Doğal afet türleri, tehlike ve risk analizi ile bütüncül afet yönetimi evreleri ortak video kapsamı"
+      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar."
     }
   }
 }

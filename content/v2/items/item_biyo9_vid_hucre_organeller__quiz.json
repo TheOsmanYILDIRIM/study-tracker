@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_hucre_organeller",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FKGwJ7crMm0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4wHBI6iwHno",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "d7768ba742236519",
+      "transcriptFingerprint": "226f7f0548db61f6",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "ab8396f743192656",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_hucre_organeller.tr.txt",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

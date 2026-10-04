@@ -84,7 +84,9 @@
       "fingerprint": "ea9c84aa2105e929",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
-      "transcriptFingerprint": "cc0fc06a47315a01"
+      "transcriptFingerprint": "01d6aee429aec22a",
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

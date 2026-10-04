@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
-  "contentUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+  "contentUrl": "https://www.youtube.com/watch?v=jOKADXphfC8",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,20 +16,21 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "8dc3509e9793b3d3",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+      "fingerprint": "74830cb2bf0d91e7",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jOKADXphfC8",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
-      "transcriptFingerprint": "f84f31b764e1a206",
+      "transcriptFingerprint": "4492ad0a645fc937",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı"
+      "sharedSource": false,
+      "sharedSourceReason": null,
+      "teacher": "Özcan Aykın FİZİK"
     },
     "provider": "Özcan Aykın FİZİK",
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026"
   }
 }

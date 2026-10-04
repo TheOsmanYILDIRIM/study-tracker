@@ -7,7 +7,7 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Yazma",
-  "contentUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
+  "contentUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
   "publishingStatus": "active",
   "payload": {
     "provider": "Deniz Hoca",
@@ -28,17 +28,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "b6ee6c916a64e857",
+      "fingerprint": "cf54c2a36269641c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.tr.vtt",
-      "transcriptFingerprint": "a4d5b62306d5d7be",
-      "sharedSource": false
+      "transcriptFingerprint": "75722c04ad981b6c",
+      "sharedSource": true,
+      "reviewedOverride": true,
+      "teacher": "Deniz Hoca",
+      "sharedSourceReason": "Kapsamlı Deniz Hoca şiir dersi; şiirin yapı unsurları, ahenk ögeleri, dinleme/izleme ve yazma süreçlerini birlikte açıklar."
     },
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "ŞİİR BİLGİSİ: Nazım Birimi, Ölçü, Kafiye Şeması / 9.Sınıf 3.Tema Anlamın Yapı Taşları / Deniz Hoca"
+    "verifiedLectureTitle": "ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "19.1",
   "orderKey": 1000,
   "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
-  "contentUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+  "contentUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -25,18 +25,21 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "a356dd6da629eec6",
+      "fingerprint": "e167d5f11671e7b8",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
-      "transcriptFingerprint": "8306abb2ef86d11e",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.tr.vtt"
+      "transcriptFingerprint": "2f4ccf0688ff0d7a",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.tr.vtt",
+      "teacher": "Özcan Aykın FİZİK",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar."
     },
-    "teacher": "Altuğ Güneş FİZİK",
-    "verifiedLectureTitle": "9. Sınıf Yeni Fizik - Enerji 6. Adım /  Isı İletim Yolları"
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026"
   }
 }

@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "55aad1981b5f804a",
+      "transcriptFingerprint": "222323b2324f3f14",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -83,8 +83,8 @@
       "fingerprint": "fca64f24445587a5",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
+      "sharedSource": false,
+      "sharedSourceReason": null
     }
   }
 }

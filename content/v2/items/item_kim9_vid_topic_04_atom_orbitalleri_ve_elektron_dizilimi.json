@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Atom Orbitalleri ve Elektron Dizilimi",
-  "contentUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+  "contentUrl": "https://www.youtube.com/watch?v=hDUv4CkJDCM",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -26,14 +26,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.95,
       "videoCandidateTitle": "Atom Orbitalleri ve Elektron Dizilimi+ PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-5",
-      "fingerprint": "95595f44444eaaf9",
+      "fingerprint": "243987014857fc21",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=IZPnDJ13BWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hDUv4CkJDCM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.tr.vtt",
-      "transcriptFingerprint": "ea98a3ebca4304a2"
-    }
+      "transcriptFingerprint": "3f00052c4579af1a",
+      "reviewedOverride": true,
+      "teacher": "Meschemy Kimya",
+      "sharedSource": false,
+      "sharedSourceReason": null
+    },
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-1.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-3 + PDF 🗓️",
+    "teacher": "Meschemy Kimya"
   }
 }
