@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "5d35dbf43a608945"
+      "fingerprint": "5d35dbf43a608945",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme.tr.txt",
+      "transcriptFingerprint": "3b2beb53ba1ecedd"
     }
   }
 }

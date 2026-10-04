@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "d955a58bbc158409"
+      "fingerprint": "d955a58bbc158409",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb"
     }
   }
 }

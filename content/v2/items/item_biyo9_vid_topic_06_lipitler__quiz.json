@@ -76,13 +76,15 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "5a6b7c8d9e0f1a2b",
+      "transcriptFingerprint": "a30bd103306267d1",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "de5063c410e69323"
+      "fingerprint": "de5063c410e69323",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt"
     }
   }
 }

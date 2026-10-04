@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tde9_vid_soz_sanatlari",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FqGgZz2-a-k",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "ce3abaffa6c6dffb",
@@ -82,7 +82,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "f196dc4fb7af0ee9"
+      "fingerprint": "f196dc4fb7af0ee9",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt"
     }
   }
 }

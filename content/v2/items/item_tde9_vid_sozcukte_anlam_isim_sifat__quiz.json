@@ -71,16 +71,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=nwxahzEub9I",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "b942c35900634519",
+      "transcriptFingerprint": "48b2f9ed812159e9",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "d26e671110a521b2"
+      "fingerprint": "d26e671110a521b2",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt"
     }
   }
 }

@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_basinc_prensipleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "51f864878ab87ddf"
+      "fingerprint": "51f864878ab87ddf",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
+      "transcriptFingerprint": "f84f31b764e1a206"
     }
   }
 }

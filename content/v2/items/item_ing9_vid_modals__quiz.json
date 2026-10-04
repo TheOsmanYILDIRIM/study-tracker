@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_modals",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pGb-ujyyuQE",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "6aeb6f68fd378db2"
+      "fingerprint": "6aeb6f68fd378db2",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_modals.tr.txt",
+      "transcriptFingerprint": "62deded9ca0e5664"
     }
   }
 }

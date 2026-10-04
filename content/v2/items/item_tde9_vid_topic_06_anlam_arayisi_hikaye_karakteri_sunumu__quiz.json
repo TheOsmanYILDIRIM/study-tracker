@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "3a6767cc214f9122"
+      "fingerprint": "3a6767cc214f9122",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

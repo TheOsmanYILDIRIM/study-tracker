@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "58176f3862b2b64f"
+      "fingerprint": "58176f3862b2b64f",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
+      "transcriptFingerprint": "7c070ce680ca133c"
     }
   }
 }

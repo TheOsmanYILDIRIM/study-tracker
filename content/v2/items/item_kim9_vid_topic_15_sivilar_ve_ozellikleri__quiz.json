@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "a13f92cb593fecb6"
+      "fingerprint": "a13f92cb593fecb6",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
+      "transcriptFingerprint": "49fb8f209e6affb0"
     }
   }
 }

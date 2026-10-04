@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "1b85ce56f62371b5"
+      "fingerprint": "1b85ce56f62371b5",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
+      "transcriptFingerprint": "4cda05dbcaa616a7"
     }
   }
 }

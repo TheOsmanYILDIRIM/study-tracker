@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_topic_08_theme_8_life_in_the_universe_future",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=g5Y7e8kZ3mU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "9cf8cace7a91677a"
+      "fingerprint": "9cf8cace7a91677a",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt",
+      "transcriptFingerprint": "9d0133ea1496c227"
     }
   }
 }

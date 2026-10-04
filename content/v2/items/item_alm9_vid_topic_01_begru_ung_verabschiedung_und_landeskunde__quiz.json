@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "5345de3392fa2020",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "14c1b0c025d854bf",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "2efde138411a36d9"
+      "fingerprint": "2efde138411a36d9",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt"
     }
   }
 }

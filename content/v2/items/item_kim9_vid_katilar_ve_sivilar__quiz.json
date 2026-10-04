@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "cb1c6cdf222acb7b"
+      "fingerprint": "cb1c6cdf222acb7b",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt",
+      "transcriptFingerprint": "384dfc22c8b7c3e0"
     }
   }
 }

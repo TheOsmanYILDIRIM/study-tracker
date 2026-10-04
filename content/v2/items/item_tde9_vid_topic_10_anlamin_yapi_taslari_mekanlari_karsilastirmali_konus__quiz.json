@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "efb909ffd2d39d7a"
+      "fingerprint": "efb909ffd2d39d7a",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GQvSuJ-pL2M",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
+      "transcriptFingerprint": "794e62530bbd8ebe"
     }
   }
 }

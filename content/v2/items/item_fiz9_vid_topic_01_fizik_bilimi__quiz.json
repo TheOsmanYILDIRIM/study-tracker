@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "25c3ba6d60fe69d9"
+      "fingerprint": "25c3ba6d60fe69d9",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
+      "transcriptFingerprint": "950a6c9a5591fd65"
     }
   }
 }

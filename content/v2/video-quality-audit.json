@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T07:43:17.873Z",
+  "generatedAt": "2026-10-04T07:47:33.906Z",
   "totalVideos": 174,
-  "uniqueUrls": 131,
+  "uniqueUrls": 129,
   "noUrlCount": 0,
   "statusDistribution": {
     "active": 174
@@ -24,8 +24,7 @@
     "Kimya Adası": 3,
     "Kimyanın Kimyası": 1,
     "Rehber Matematik": 27,
-    "Benim Hocam": 14,
-    "Mehmet Celal ÖZYILDIZ": 3,
+    "Benim Hocam": 17,
     "Deniz Hoca": 7,
     "MEB / Edebiyat TV": 1,
     "Rüştü Hoca ile Türkçe": 1,
@@ -295,8 +294,52 @@
   "missingProvenance": [],
   "changedUrlVsTranscriptMismatchesCount": 0,
   "changedUrlVsTranscriptMismatches": [],
-  "duplicateUrlGroupsCount": 31,
+  "duplicateUrlGroupsCount": 32,
   "duplicateUrlGroups": [
+    {
+      "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "count": 5,
+      "courses": [
+        "course_tar_9"
+      ],
+      "items": [
+        {
+          "id": "item_tar9_vid_orta_cag_gocler_devletler",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
+          "status": "active"
+        },
+        {
+          "id": "item_tar9_vid_orta_cag_ticaret_yollari",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
+          "status": "active"
+        },
+        {
+          "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+          "title": "Orta Çağ'da Kitlesel Göçler",
+          "status": "active"
+        },
+        {
+          "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+          "status": "active"
+        },
+        {
+          "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+          "status": "active"
+        }
+      ]
+    },
     {
       "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
       "count": 5,
@@ -374,43 +417,6 @@
           "courseId": "course_alm_9",
           "lessonId": "lesson_alm9_modul1_hallo",
           "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
-      "count": 4,
-      "courses": [
-        "course_tar_9"
-      ],
-      "items": [
-        {
-          "id": "item_tar9_vid_orta_cag_gocler_devletler",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
-          "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_orta_cag_ticaret_yollari",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
-          "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
-          "title": "Orta Çağ'da Kitlesel Göçler",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-          "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
           "status": "active"
         }
       ]
@@ -1021,6 +1027,29 @@
           "courseId": "course_tar_9",
           "lessonId": "lesson_tar9_kaynaklar_takvimler",
           "title": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "count": 2,
+      "courses": [
+        "course_tar_9"
+      ],
+      "items": [
+        {
+          "id": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "title": "Eski Çağ Medeniyetlerinde Hukuk",
+          "status": "active"
+        },
+        {
+          "id": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
           "status": "active"
         }
       ]

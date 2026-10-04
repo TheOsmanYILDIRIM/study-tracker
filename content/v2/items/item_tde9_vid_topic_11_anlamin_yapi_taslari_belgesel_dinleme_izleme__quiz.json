@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "b74f486189cb6fb7"
+      "fingerprint": "b74f486189cb6fb7",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.txt",
+      "transcriptFingerprint": "3d6e7d833d615b72"
     }
   }
 }

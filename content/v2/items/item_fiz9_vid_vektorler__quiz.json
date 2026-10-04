@@ -82,7 +82,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "d4cebe5e27b02e81"
+      "fingerprint": "d4cebe5e27b02e81",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt"
     }
   }
 }

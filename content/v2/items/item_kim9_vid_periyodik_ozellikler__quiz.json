@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "15e3c2e0f956a095"
+      "fingerprint": "15e3c2e0f956a095",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
+      "transcriptFingerprint": "6ce56406f481cfb3"
     }
   }
 }

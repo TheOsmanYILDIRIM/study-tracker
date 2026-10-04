@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=N9y7e8kZ1jU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=yw9XaqgKTmo",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "87ba973cddeb2c36"
+      "fingerprint": "87ba973cddeb2c36",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_06_theme_6_life_in_the_city_country.tr.txt",
+      "transcriptFingerprint": "20d6e1019d3f052c"
     }
   }
 }

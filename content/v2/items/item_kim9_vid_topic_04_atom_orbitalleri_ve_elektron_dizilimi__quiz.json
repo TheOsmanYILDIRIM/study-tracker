@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "28a2200b4b8455da"
+      "fingerprint": "28a2200b4b8455da",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi.tr.txt",
+      "transcriptFingerprint": "ea98a3ebca4304a2"
     }
   }
 }

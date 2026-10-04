@@ -71,16 +71,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "1b2c3d4e5f6a7b8c",
+      "transcriptFingerprint": "88134c031c8b28bc",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "bc940718542a3767"
+      "fingerprint": "bc940718542a3767",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt"
     }
   }
 }

@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "1244f8e62d53736f"
+      "fingerprint": "1244f8e62d53736f",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb"
     }
   }
 }

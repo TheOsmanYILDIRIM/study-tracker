@@ -75,14 +75,16 @@
       "derivedFromItemId": "item_alm9_vid_topic_06_im_klassenzimmer",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "ba1b7f86ab507e77",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "e1ccaec372a5b2e7",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "f0e72b767fd8d70b"
+      "fingerprint": "f0e72b767fd8d70b",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt"
     }
   }
 }

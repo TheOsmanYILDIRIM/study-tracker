@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_05_karbonhidratlar",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY0p71h3aL0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "aa74139f85af8015",
@@ -82,7 +82,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "7d16397f9cd214f0"
+      "fingerprint": "7d16397f9cd214f0",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt"
     }
   }
 }

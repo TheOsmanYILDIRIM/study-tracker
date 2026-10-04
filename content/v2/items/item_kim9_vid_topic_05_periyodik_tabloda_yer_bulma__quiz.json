@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "824b461629b0644f"
+      "fingerprint": "824b461629b0644f",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_05_periyodik_tabloda_yer_bulma.tr.txt",
+      "transcriptFingerprint": "9013d1eb8739b56a"
     }
   }
 }

@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_appearance_personality",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "61eec1502e0c4ca3"
+      "fingerprint": "61eec1502e0c4ca3",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
+      "transcriptFingerprint": "edd896d72a92bd9c"
     }
   }
 }

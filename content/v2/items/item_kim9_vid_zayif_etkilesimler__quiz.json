@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "0d2663c31e98c6ff"
+      "fingerprint": "0d2663c31e98c6ff",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
+      "transcriptFingerprint": "34a035e730bc990b"
     }
   }
 }

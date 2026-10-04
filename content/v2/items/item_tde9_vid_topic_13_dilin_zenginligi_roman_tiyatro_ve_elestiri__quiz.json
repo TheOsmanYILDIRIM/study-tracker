@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "70562718bd902b7d"
+      "fingerprint": "70562718bd902b7d",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hzkJNg-50Ko",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
+      "transcriptFingerprint": "c898b64c4911b372"
     }
   }
 }

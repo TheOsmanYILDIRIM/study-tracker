@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "e9bf373c1a07a523"
+      "fingerprint": "e9bf373c1a07a523",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
+      "transcriptFingerprint": "b942c35900634519"
     }
   }
 }

@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_selamlasma_alfabe",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "a79b24cf733bf17f",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "14c1b0c025d854bf",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "19359c9274202cab"
+      "fingerprint": "19359c9274202cab",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt"
     }
   }
 }

@@ -84,7 +84,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "9851e46eca78b27d"
+      "fingerprint": "9851e46eca78b27d",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt"
     }
   }
 }

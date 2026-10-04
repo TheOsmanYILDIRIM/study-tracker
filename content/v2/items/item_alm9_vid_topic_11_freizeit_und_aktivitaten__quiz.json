@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hhwi_RpIJS4",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "1b84c30149523ec1",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "cc2867fdc14d02a6",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "b3602b8814057f92"
+      "fingerprint": "b3602b8814057f92",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt"
     }
   }
 }

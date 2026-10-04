@@ -74,13 +74,15 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "7a8b9c1d2e3f4a5b",
+      "transcriptFingerprint": "768ae0dbf1fd24f0",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "bf3841a298c47101"
+      "fingerprint": "bf3841a298c47101",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt"
     }
   }
 }

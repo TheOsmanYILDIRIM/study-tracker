@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_08_iyonik_bag",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm3KkQ1p4jM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "e0e330ee30a12087",
@@ -80,7 +80,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "8e2a97a4d99988f4"
+      "fingerprint": "8e2a97a4d99988f4",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt"
     }
   }
 }

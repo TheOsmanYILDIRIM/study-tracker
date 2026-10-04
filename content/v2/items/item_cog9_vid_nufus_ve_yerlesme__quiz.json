@@ -73,14 +73,17 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_nufus_ve_yerlesme",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=U22oGb3dJL8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
+      "transcriptFingerprint": "549f10ac813004d4"
     }
   }
 }

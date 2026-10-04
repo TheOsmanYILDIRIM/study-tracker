@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "9a28fc5cf450e49f"
+      "fingerprint": "9a28fc5cf450e49f",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
+      "transcriptFingerprint": "e0e330ee30a12087"
     }
   }
 }

@@ -76,7 +76,11 @@
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "groundingType": "transcript_grounded",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt",
+      "transcriptFingerprint": "1184ee0b138df4fd"
     }
   }
 }

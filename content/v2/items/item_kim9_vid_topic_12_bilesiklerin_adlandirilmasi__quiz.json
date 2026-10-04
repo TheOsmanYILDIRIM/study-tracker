@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "274eef158a12c7fa"
+      "fingerprint": "274eef158a12c7fa",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.txt",
+      "transcriptFingerprint": "e17c90c0e4a30a86"
     }
   }
 }

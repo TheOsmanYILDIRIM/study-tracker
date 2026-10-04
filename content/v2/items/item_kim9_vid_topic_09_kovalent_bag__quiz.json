@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_09_kovalent_bag",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Jm3KkQ1p4jM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "895c0a3f6faf371f",
@@ -80,7 +80,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "ace38b2c09957f1c"
+      "fingerprint": "ace38b2c09957f1c",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt"
     }
   }
 }

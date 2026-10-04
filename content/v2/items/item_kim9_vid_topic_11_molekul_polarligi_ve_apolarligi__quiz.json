@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "bb5071a414158e16"
+      "fingerprint": "bb5071a414158e16",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
+      "transcriptFingerprint": "744af4c1e15053fc"
     }
   }
 }

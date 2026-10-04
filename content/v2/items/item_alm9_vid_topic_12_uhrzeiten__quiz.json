@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_12_uhrzeiten",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "837c4e0a0bd574c9",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "40208cbbff2a8ea7",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "12d7fb4b1eae299d"
+      "fingerprint": "12d7fb4b1eae299d",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt"
     }
   }
 }

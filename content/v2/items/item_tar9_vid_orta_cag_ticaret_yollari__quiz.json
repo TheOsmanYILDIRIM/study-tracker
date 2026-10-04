@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "e31b14a5b69eadc4"
+      "fingerprint": "e31b14a5b69eadc4",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
+      "transcriptFingerprint": "4cda05dbcaa616a7"
     }
   }
 }

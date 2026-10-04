@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "9b93dbabe249f575"
+      "fingerprint": "9b93dbabe249f575",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
+      "transcriptFingerprint": "76cabd323bdcaa9e"
     }
   }
 }

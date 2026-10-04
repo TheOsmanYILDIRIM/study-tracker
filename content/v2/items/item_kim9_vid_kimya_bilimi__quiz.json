@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_kimya_bilimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Fj22h84a9qL",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "e17c0606ddfc4fc4",
@@ -82,7 +82,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "aed4463d5bcd6994"
+      "fingerprint": "aed4463d5bcd6994",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt"
     }
   }
 }

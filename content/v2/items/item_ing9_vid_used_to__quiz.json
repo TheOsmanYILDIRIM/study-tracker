@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_used_to",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lK3CgfdyZh8",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "6d2fcfda1e33f69f"
+      "fingerprint": "6d2fcfda1e33f69f",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.txt",
+      "transcriptFingerprint": "4b0329e9aa172d59"
     }
   }
 }

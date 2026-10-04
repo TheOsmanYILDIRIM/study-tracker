@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "ae1c6cfd6a9d5163"
+      "fingerprint": "ae1c6cfd6a9d5163",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BMaVTFcOC2c",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.txt",
+      "transcriptFingerprint": "bd1ce85232163199"
     }
   }
 }

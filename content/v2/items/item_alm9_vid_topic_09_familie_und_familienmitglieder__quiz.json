@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "5547b3a4088d36fd",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "ca9fa7525984ad57",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "63703df717ecd477"
+      "fingerprint": "63703df717ecd477",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt"
     }
   }
 }

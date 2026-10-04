@@ -338,9 +338,33 @@ function validateModularTree(sourceDir) {
           videoCount++;
         } else if (itemData.itemType === 'QUIZ') {
           quizCount++;
-          if (itemData.payload?.provenance?.derivedFromItemId) {
+          const prov = itemData.payload?.provenance || {};
+          const isMicro = Boolean(prov.derivedFromItemId);
+          if (isMicro) {
             microQuizCount++;
           }
+
+          // Provenance Validation
+          const groundingType = prov.groundingType || (prov.transcriptFingerprint ? 'transcript_grounded' : 'curriculum_grounded');
+          if (groundingType === 'transcript_grounded') {
+            if (!prov.derivedFromItemId) {
+              errors.push(`Transcript-grounded quiz "${itemId}" missing required "derivedFromItemId"`);
+            }
+            if (!prov.sourceVideoUrl) {
+              errors.push(`Transcript-grounded quiz "${itemId}" missing required "sourceVideoUrl"`);
+            }
+            if (!prov.transcriptLanguage) {
+              errors.push(`Transcript-grounded quiz "${itemId}" missing required "transcriptLanguage"`);
+            }
+            if (!prov.transcriptFingerprint || typeof prov.transcriptFingerprint !== 'string' || prov.transcriptFingerprint.length !== 16) {
+              errors.push(`Transcript-grounded quiz "${itemId}" missing valid 16-hex "transcriptFingerprint"`);
+            }
+          } else if (groundingType === 'curriculum_grounded') {
+            if (!prov.sourceRef && !prov.curriculumRef) {
+              errors.push(`Curriculum-grounded quiz "${itemId}" missing required source provenance (sourceRef or curriculumRef)`);
+            }
+          }
+
           // Validate Quiz payload schema
           if (itemData.payload?.quiz) {
             const quizVal = validateQuizSchema(itemData.payload.quiz);

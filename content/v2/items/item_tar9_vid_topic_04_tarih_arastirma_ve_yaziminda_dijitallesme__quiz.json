@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "548d78a1882c2fa3"
+      "fingerprint": "548d78a1882c2fa3",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GmBrSdlmuqE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.txt",
+      "transcriptFingerprint": "a29c9a2b11abb467"
     }
   }
 }

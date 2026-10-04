@@ -76,13 +76,15 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=ywcTnm7b4eo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "6b7c8d9e0f1a2b3c",
+      "transcriptFingerprint": "95b1175967d50ac1",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "cf4952b309d58212"
+      "fingerprint": "cf4952b309d58212",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_04_inorganik_molekuller.tr.txt"
     }
   }
 }

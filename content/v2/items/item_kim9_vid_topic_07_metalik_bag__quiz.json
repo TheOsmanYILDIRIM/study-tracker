@@ -79,7 +79,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "22603c5f85f551fa"
+      "fingerprint": "22603c5f85f551fa",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
+      "transcriptFingerprint": "bef8bd6ebb81bf54"
     }
   }
 }

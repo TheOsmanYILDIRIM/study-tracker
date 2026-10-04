@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_05_turkiye_nin_cografi_konumu",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "b0e60d4115d77a24",
@@ -80,7 +80,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "8867c088917f0d07"
+      "fingerprint": "8867c088917f0d07",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_05_turkiye_nin_cografi_konumu.tr.txt"
     }
   }
 }

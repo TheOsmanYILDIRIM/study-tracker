@@ -74,13 +74,15 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "3b4c5d6e7f8a9b0c",
+      "transcriptFingerprint": "17ad44db420bf034",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "fa7285e632081545"
+      "fingerprint": "fa7285e632081545",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt"
     }
   }
 }

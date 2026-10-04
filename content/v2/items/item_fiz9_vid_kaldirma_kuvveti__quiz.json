@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_kaldirma_kuvveti",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "c139f9e9b9c710ea"
+      "fingerprint": "c139f9e9b9c710ea",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
+      "transcriptFingerprint": "c16d306cf7d143df"
     }
   }
 }

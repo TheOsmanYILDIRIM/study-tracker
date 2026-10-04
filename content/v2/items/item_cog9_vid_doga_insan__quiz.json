@@ -80,7 +80,10 @@
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
+      "transcriptFingerprint": "9c4e775068919daa"
     }
   }
 }

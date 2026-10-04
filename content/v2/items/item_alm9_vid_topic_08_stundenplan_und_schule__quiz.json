@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_08_stundenplan_und_schule",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hUB77C1fKOE",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "1b3c384addd52fe3",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "c2e974dea05bb308",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "a809fcf8456d5d78"
+      "fingerprint": "a809fcf8456d5d78",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt"
     }
   }
 }

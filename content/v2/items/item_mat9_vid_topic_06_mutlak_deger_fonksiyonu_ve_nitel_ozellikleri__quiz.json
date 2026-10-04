@@ -76,7 +76,11 @@
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
-      "schemaVersion": "v2"
+      "schemaVersion": "v2",
+      "groundingType": "transcript_grounded",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.txt",
+      "transcriptFingerprint": "7dc77c5e46819a43"
     }
   }
 }

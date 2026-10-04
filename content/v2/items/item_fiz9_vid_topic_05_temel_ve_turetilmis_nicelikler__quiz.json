@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "2ae5cb8b6bdc2de1"
+      "fingerprint": "2ae5cb8b6bdc2de1",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
+      "transcriptFingerprint": "532569ac8750adbf"
     }
   }
 }

@@ -75,14 +75,16 @@
       "derivedFromItemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "f1f441fa5578f8ad",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "e1ccaec372a5b2e7",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "9a81eb4ed1648ff3"
+      "fingerprint": "9a81eb4ed1648ff3",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt"
     }
   }
 }

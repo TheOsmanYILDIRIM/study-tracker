@@ -82,7 +82,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "c331da795f447f87"
+      "fingerprint": "c331da795f447f87",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt"
     }
   }
 }

@@ -78,7 +78,13 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "c252980214953a44"
+      "fingerprint": "c252980214953a44",
+      "groundingType": "transcript_grounded",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=umZ1I3gYXMk",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
+      "transcriptFingerprint": "028ab43911cbe10f"
     }
   }
 }

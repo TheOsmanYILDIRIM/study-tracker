@@ -7,10 +7,10 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
-  "contentUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Mehmet Celal ÖZYILDIZ",
+    "provider": "Benim Hocam",
     "topic": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -31,14 +31,16 @@
       "schemaVersion": "v2",
       "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.tr.vtt",
-      "transcriptFingerprint": "7ae4826cded28498"
+      "transcriptFingerprint": "4cda05dbcaa616a7",
+      "sharedSource": true,
+      "sharedSourceReason": "Orta Çağ medeniyet havzaları, bilim, kültür ve sanat ortak video kapsamı"
     },
-    "teacher": "Ardıç Tarih",
-    "verifiedLectureTitle": "9.Sınıf Tarih - Orta Çağda Bilim Kültür Sanat📌Yeni Müfredat Tarih"
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "12) Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat"
   }
 }

@@ -80,7 +80,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "fca64f24445587a5"
+      "fingerprint": "fca64f24445587a5",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt"
     }
   }
 }

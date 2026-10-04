@@ -73,15 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_simple_present",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=A8vN6o44m2Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=QUVscCzjlEg",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
+      "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-02T12:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "f2f566ebcefcfb9c"
+      "fingerprint": "f2f566ebcefcfb9c",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_simple_present.tr.txt",
+      "transcriptFingerprint": "e5170e104e5b5a59"
     }
   }
 }

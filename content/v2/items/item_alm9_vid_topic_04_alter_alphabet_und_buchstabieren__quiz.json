@@ -73,16 +73,18 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=j6s-y9cBUv0",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "00e90e134969d61b",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "9cecb4b75b531a32",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "14d69339b3568c38"
+      "fingerprint": "14d69339b3568c38",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt"
     }
   }
 }

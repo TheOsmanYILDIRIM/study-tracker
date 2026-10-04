@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -81,7 +81,10 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T20:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "8c6da4c1ddd2885a"
+      "fingerprint": "8c6da4c1ddd2885a",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
+      "transcriptFingerprint": "8306abb2ef86d11e"
     }
   }
 }

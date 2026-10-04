@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=F0k9y9a3xL0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptFingerprint": "0243614dcf9148b2",
@@ -80,7 +80,9 @@
       "reviewedOverride": true,
       "importedAt": "2026-10-03T18:30:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "c8e647a78c164d52"
+      "fingerprint": "c8e647a78c164d52",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt"
     }
   }
 }

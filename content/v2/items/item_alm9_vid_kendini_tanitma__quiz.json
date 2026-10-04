@@ -75,14 +75,16 @@
       "derivedFromItemId": "item_alm9_vid_kendini_tanitma",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
       "transcriptLanguage": "tr",
-      "transcriptKind": "curriculum_grounded",
-      "transcriptFingerprint": "9fcabfdd7bf13584",
+      "transcriptKind": "subtitle",
+      "transcriptFingerprint": "e1ccaec372a5b2e7",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "e477067137f66f91"
+      "fingerprint": "e477067137f66f91",
+      "groundingType": "transcript_grounded",
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt"
     }
   }
 }
