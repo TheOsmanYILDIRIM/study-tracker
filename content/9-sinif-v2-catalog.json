@@ -10760,18 +10760,27 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Biyolojiye Giriş: Yaşam Nedir?",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/introduction-to-biology",
+              "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L14",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "d2c241ae0e658169"
-                }
+                  "fingerprint": "1e5385efb3414748",
+                  "teacher": "Dr. Biyoloji",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.tr.vtt",
+                  "transcriptFingerprint": "31cbd287f0cc1e39"
+                },
+                "teacher": "Dr. Biyoloji",
+                "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri | Dr. Biyoloji | Dönem 2026 - 2027"
               }
             },
             {
@@ -10781,18 +10790,27 @@
               "displayLabel": "1.2",
               "orderKey": 2000,
               "title": "Bilim Nedir ve Nasıl Çalışır? (Bilimsel Yöntem)",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/the-scientific-method",
+              "contentUrl": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L15",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "a7fe85134f094b5e"
-                }
+                  "fingerprint": "7d235832852eedd9",
+                  "teacher": "Dr. Biyoloji",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.tr.vtt",
+                  "transcriptFingerprint": "96f14baed6f5a2ea"
+                },
+                "teacher": "Dr. Biyoloji",
+                "verifiedLectureTitle": "Biyolojinin Önemi ve Geleceği | 9. Sınıf Maarif Model | Dr. Biyoloji"
               }
             },
             {
@@ -10802,18 +10820,29 @@
               "displayLabel": "1.3",
               "orderKey": 3000,
               "title": "Kontrollü Deney Örnekleri",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/controlled-experiments",
+              "contentUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L16",
                   "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "f2d122a451808fa3"
-                }
+                  "fingerprint": "e8bf405e33c4866a",
+                  "teacher": "Dr. Biyoloji",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.tr.vtt",
+                  "transcriptFingerprint": "442aaa539e0c43a3",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive lecture by Dr. Biyoloji covering scientific method steps, hypothesis testing, controlled experiments, and scientific ethics."
+                },
+                "teacher": "Dr. Biyoloji",
+                "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji"
               }
             },
             {
@@ -10823,18 +10852,27 @@
               "displayLabel": "1.4",
               "orderKey": 4000,
               "title": "Hipotez, Teori ve Kanun Arasındaki Fark",
-              "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/hypotheses-theories-and-laws",
+              "contentUrl": "https://www.youtube.com/watch?v=FFgIKxEeFbE",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Khan Academy",
+                "provider": "Dr. Biyoloji",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L21",
                   "sourceSection": "3-4. Hafta: Biyolojide Dönüm Noktaları & Bilimsel Bilginin Gelişimi",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "ed7b85c3da2da5fb"
-                }
+                  "fingerprint": "b071603e6a907989",
+                  "teacher": "Dr. Biyoloji",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FFgIKxEeFbE",
+                  "transcriptLanguage": "tr",
+                  "transcriptKind": "subtitle",
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_teori_yasa.tr.txt",
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_teori_yasa.tr.tr.vtt",
+                  "transcriptFingerprint": "f04fce40d94eda28"
+                },
+                "teacher": "Dr. Biyoloji",
+                "verifiedLectureTitle": "9. Sınıf Yeni Müfredat | 1. Ders: Biyolojideki Dönüm Noktaları"
               }
             },
             {
@@ -10974,7 +11012,9 @@
                   "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
                   "transcriptFingerprint": "768ae0dbf1fd24f0",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=V0SzzIeniHc",
-                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive lecture by Dr. Biyoloji covering scientific method steps, hypothesis testing, controlled experiments, and scientific ethics."
                 }
               }
             },
@@ -11060,7 +11100,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "bf3841a298c47101",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive lecture by Dr. Biyoloji covering scientific method steps, hypothesis testing, controlled experiments, and scientific ethics."
                 }
               }
             }

@@ -7,17 +7,26 @@
   "displayLabel": "1.4",
   "orderKey": 4000,
   "title": "Hipotez, Teori ve Kanun Arasındaki Fark",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/hypotheses-theories-and-laws",
+  "contentUrl": "https://www.youtube.com/watch?v=FFgIKxEeFbE",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L21",
       "sourceSection": "3-4. Hafta: Biyolojide Dönüm Noktaları & Bilimsel Bilginin Gelişimi",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "ed7b85c3da2da5fb"
-    }
+      "fingerprint": "b071603e6a907989",
+      "teacher": "Dr. Biyoloji",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FFgIKxEeFbE",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_teori_yasa.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_teori_yasa.tr.tr.vtt",
+      "transcriptFingerprint": "f04fce40d94eda28"
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "9. Sınıf Yeni Müfredat | 1. Ders: Biyolojideki Dönüm Noktaları"
   }
 }

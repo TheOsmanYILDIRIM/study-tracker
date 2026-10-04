@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-10-04T15:35:00.000Z",
+  "totalSubjectsAudited": 8,
+  "subjects": [
+    {
+      "courseId": "course_mat_9",
+      "courseTitle": "9. Sınıf Matematik",
+      "primaryTeacher": "Rehber Matematik",
+      "playlistUrl": "https://www.youtube.com/@RehberMatematik",
+      "playlistTitle": "Rehber Matematik 9. Sınıf Matematik Yeni Maarif Modeli 2026",
+      "transcriptsDownloaded": 13,
+      "totalVideoItems": 29,
+      "fullyCovered": 14,
+      "partiallyCovered": 15,
+      "notCovered": 0,
+      "changedUrls": 27
+    },
+    {
+      "courseId": "course_fiz_9",
+      "courseTitle": "9. Sınıf Fizik",
+      "primaryTeacher": "Özcan Aykın FİZİK",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLnegWKEvMTVvceCvpqMVTJ0XUxdufpP9Z",
+      "playlistTitle": "55 Günde TYT Fizik Kampı | 2026/2027",
+      "transcriptsDownloaded": 117,
+      "totalVideoItems": 22,
+      "fullyCovered": 21,
+      "partiallyCovered": 1,
+      "notCovered": 0,
+      "changedUrls": 11
+    },
+    {
+      "courseId": "course_kim_9",
+      "courseTitle": "9. Sınıf Kimya",
+      "primaryTeacher": "Meschemy Kimya",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLBals97P4r_YU0m0vJQSM_MJzM-k0p1Vu",
+      "playlistTitle": "27 GÜNDE TYT KİMYA KAMPI 2025 | Meschemy Kimya",
+      "transcriptsDownloaded": 34,
+      "totalVideoItems": 21,
+      "fullyCovered": 9,
+      "partiallyCovered": 12,
+      "notCovered": 0,
+      "changedUrls": 21
+    },
+    {
+      "courseId": "course_biyo_9",
+      "courseTitle": "9. Sınıf Biyoloji",
+      "primaryTeacher": "Dr. Biyoloji",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLkZV8IatjzAD9WYrlTekqZik3WeTW4Cqk",
+      "playlistTitle": "2026 TYT DR. BİYOLOJİ KAMPI",
+      "transcriptsDownloaded": 56,
+      "totalVideoItems": 19,
+      "fullyCovered": 14,
+      "partiallyCovered": 5,
+      "notCovered": 0,
+      "changedUrls": 19
+    },
+    {
+      "courseId": "course_cog_9",
+      "courseTitle": "9. Sınıf Coğrafya",
+      "primaryTeacher": "Coğrafyanın Kodları",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLnBnugScc-7LUk8uedC4Vwx2iumUJ3LO5",
+      "playlistTitle": "39 GÜNDE TYT COĞRAFYA KAMPI 2025 | Coğrafyanın Kodları",
+      "transcriptsDownloaded": 41,
+      "totalVideoItems": 23,
+      "fullyCovered": 16,
+      "partiallyCovered": 7,
+      "notCovered": 0,
+      "changedUrls": 23
+    },
+    {
+      "courseId": "course_ing_9",
+      "courseTitle": "9. Sınıf İngilizce",
+      "primaryTeacher": "Ms. Jasmin ELT",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLZZxCcMnDgTY",
+      "playlistTitle": "9. Sınıf İngilizce Maarif Modeli | Ms. Jasmin ELT",
+      "transcriptsDownloaded": 9,
+      "totalVideoItems": 10,
+      "fullyCovered": 10,
+      "partiallyCovered": 0,
+      "notCovered": 0,
+      "changedUrls": 7
+    },
+    {
+      "courseId": "course_alm_9",
+      "courseTitle": "9. Sınıf Almanca",
+      "primaryTeacher": "tonguç 9. SINIF",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLatGE2NfKm5FT1pOuAiG0-5zJ5cVkZm-x",
+      "playlistTitle": "9. Sınıf Almanca | tonguç 9. SINIF",
+      "transcriptsDownloaded": 12,
+      "totalVideoItems": 16,
+      "fullyCovered": 13,
+      "partiallyCovered": 3,
+      "notCovered": 0,
+      "changedUrls": 15
+    },
+    {
+      "courseId": "course_tde_9",
+      "courseTitle": "9. Sınıf Türk Dili ve Edebiyatı",
+      "primaryTeacher": "Deniz Hoca",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL8_9wYRykg9LxWCdAplWGXys-VC7ddgdi",
+      "playlistTitle": "9.Sınıf Edebiyat Maarif Konu Anlatımı 2026 +PDF | Deniz Hoca",
+      "transcriptsDownloaded": 33,
+      "totalVideoItems": 17,
+      "fullyCovered": 15,
+      "partiallyCovered": 2,
+      "notCovered": 0,
+      "changedUrls": 14
+    }
+  ]
+}

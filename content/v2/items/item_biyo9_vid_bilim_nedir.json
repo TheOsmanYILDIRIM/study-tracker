@@ -7,17 +7,26 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Bilim Nedir ve Nasıl Çalışır? (Bilimsel Yöntem)",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/the-scientific-method",
+  "contentUrl": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L15",
       "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "a7fe85134f094b5e"
-    }
+      "fingerprint": "7d235832852eedd9",
+      "teacher": "Dr. Biyoloji",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=6ObFP2ZRIws",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_bilim_nedir.tr.tr.vtt",
+      "transcriptFingerprint": "96f14baed6f5a2ea"
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Biyolojinin Önemi ve Geleceği | 9. Sınıf Maarif Model | Dr. Biyoloji"
   }
 }

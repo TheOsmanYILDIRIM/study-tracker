@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "bf3841a298c47101",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Comprehensive lecture by Dr. Biyoloji covering scientific method steps, hypothesis testing, controlled experiments, and scientific ethics."
     }
   }
 }
