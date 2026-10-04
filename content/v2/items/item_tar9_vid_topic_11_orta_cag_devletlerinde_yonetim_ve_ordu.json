@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "contentUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Benim Hocam",
+    "provider": "Ardıç Tarih",
     "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -31,16 +31,16 @@
       "schemaVersion": "v2",
       "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7",
-      "sharedSource": true,
-      "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı"
+      "transcriptFingerprint": "12da589d04587aed",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     },
-    "teacher": "Mehmet Celal ÖZYILDIZ",
-    "verifiedLectureTitle": "12) Orta Çağ Devletlerinde Yönetim ve Ordu"
+    "teacher": "Ardıç Tarih",
+    "verifiedLectureTitle": "9.sınıf tarih 3. Ünite 2. Bölüm I Orta Çağ’daki Siyasi ve Askerî Gelişmeler 1/ Zeduva maarif model"
   }
 }

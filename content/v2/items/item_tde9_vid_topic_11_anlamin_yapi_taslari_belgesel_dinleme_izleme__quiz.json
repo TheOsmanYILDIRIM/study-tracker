@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.txt",
-      "transcriptFingerprint": "3d6e7d833d615b72"
+      "transcriptFingerprint": "3d6e7d833d615b72",
+      "sharedSource": true,
+      "sharedSourceReason": "MEB 9. sınıf Nevruz belgeseli dinleme/izleme ve belgeseli infografiğe dönüştürme atölye ünitesi ortak video kapsamı"
     }
   }
 }

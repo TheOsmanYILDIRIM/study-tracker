@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qqqvMfEmuB0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -81,7 +81,8 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
-      "transcriptFingerprint": "aab5f78e7ef39d5d"
+      "transcriptFingerprint": "f02c6b395241b95b",
+      "sharedSource": false
     }
   }
 }

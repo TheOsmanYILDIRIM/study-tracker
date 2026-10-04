@@ -85,8 +85,7 @@
       "fingerprint": "63703df717ecd477",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
+      "sharedSource": false
     }
   }
 }

@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Berufe",
-  "contentUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+  "contentUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "Easy German",
     "topic": "Berufe",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,19 +28,18 @@
       "videoCandidateTitle": null,
       "fingerprint": "a5e031267e28ad85",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
-      "transcriptFingerprint": "ca9fa7525984ad57",
+      "transcriptFingerprint": "90658fd49668e2cd",
       "reviewedOverride": true,
-      "sharedSource": true,
-      "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
+      "sharedSource": false
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE"
+    "teacher": "Erhan Özdemir",
+    "verifiedLectureTitle": "Almanca Temel A1/A2 Ders - 14 Almanca Meslekler - Die Berufe - Yeni Almanca Kelimeler, Cümleler"
   }
 }

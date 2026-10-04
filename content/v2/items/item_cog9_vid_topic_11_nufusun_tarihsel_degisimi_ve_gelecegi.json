@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
-  "contentUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+  "contentUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Coğrafyanın Kodları",
     "topic": "Nüfusun Tarihsel Değişimi ve Geleceği",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,19 +27,20 @@
       "videoCandidateTitle": null,
       "fingerprint": "c1d387e435963950",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.tr.vtt",
-      "transcriptFingerprint": "685ca31f6189386c",
-      "sharedSource": true,
-      "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı"
+      "transcriptFingerprint": "9558e6703fcdd696",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "teacher": "Yunus Hoca",
+    "verifiedLectureTitle": "Nüfusun önemi ve özellikleri konu + soru | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 27"
   }
 }

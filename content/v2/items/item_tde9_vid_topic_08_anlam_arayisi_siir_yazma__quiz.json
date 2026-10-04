@@ -80,13 +80,12 @@
       "schemaVersion": "v2",
       "fingerprint": "d56f06ea796bf255",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
+      "transcriptFingerprint": "a4d5b62306d5d7be",
+      "sharedSource": false
     }
   }
 }

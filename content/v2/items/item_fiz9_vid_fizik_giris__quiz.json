@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "8250ab955eea87c1",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
     }
   }
 }

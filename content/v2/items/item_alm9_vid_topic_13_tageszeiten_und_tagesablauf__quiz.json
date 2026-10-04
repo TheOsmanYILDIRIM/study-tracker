@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
+      "transcriptFingerprint": "85c8f13c7e0ce76b",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,8 +85,7 @@
       "fingerprint": "9a81eb4ed1648ff3",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
+      "sharedSource": false
     }
   }
 }

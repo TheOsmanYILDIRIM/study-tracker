@@ -41,8 +41,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
       "transcriptFingerprint": "ca9fa7525984ad57",
       "reviewedOverride": true,
-      "sharedSource": true,
-      "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
+      "sharedSource": false
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,

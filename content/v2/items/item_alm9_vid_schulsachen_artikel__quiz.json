@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "073952b3b3e719ae",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
     }
   }
 }

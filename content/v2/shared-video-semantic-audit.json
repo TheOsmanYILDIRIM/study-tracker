@@ -1,0 +1,1030 @@
+{
+  "generatedAt": "2026-10-04T09:42:04.666Z",
+  "totalGroupsAudited": 32,
+  "verdictCounts": {
+    "LEGITIMATE_SHARED": 24,
+    "MIXED_NEEDS_SPLIT": 7,
+    "WRONG_SHARED": 1
+  },
+  "totalReplacementsMade": 19,
+  "groups": [
+    {
+      "groupIndex": 1,
+      "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "videoTitle": "12) Orta Çağda Avrupa | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+      "channel": "Retro Yayıncılık",
+      "courseId": "course_tar_9",
+      "itemCount": 5,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video Batı Avrupa feodalitesi, Kavimler Göçü'nün sonuçları, Skolastik düşünce ve Haçlı Seferlerine odaklıdır; Orta Çağ ticaret yolları, Orta Asya/kitlesel göçler, farklı medeniyet havzalarında bilim/sanat ve İslam/Doğu ordu teşkilatını kapsamamaktadır. Bu nedenle yalnızca Kavimler Göçü & Feodalizm öğesi desteklenmektedir, diğer 4 öğe müstakil videolara ayrılmıştır.",
+      "items": [
+        {
+          "itemId": "item_tar9_vid_orta_cag_gocler_devletler",
+          "itemTitle": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kavimler Göçü (375), Roma'nın bölünmesi, feodalite/derebeylik yapısı (süzeren, vassal, serf, şato) ve skolastik kilise baskısı kapsamlıca anlatılmaktadır."
+        },
+        {
+          "itemId": "item_tar9_vid_orta_cag_ticaret_yollari",
+          "itemTitle": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "classification": "NOT_COVERED",
+          "evidence": "İpek, Baharat ve Kürk yollarının güzergahları, ticaret kervanları, ribat/kervansaraylar videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
+            "channel": "Ardıç Tarih",
+            "title": "9.sınıf tarih 3. Ünite - Orta Çağ’da Ticaret Yolları/ Zeduva maarif model"
+          }
+        },
+        {
+          "itemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+          "itemTitle": "Orta Çağ'da Kitlesel Göçler",
+          "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+          "classification": "PARTIALLY_COVERED",
+          "evidence": "Kavimler Göçü Avrupa tarihi ekseninde geçmektedir ancak Orta Çağ kitlesel göçlerinin genel yapısı ve diğer göç hareketleri kapsanmamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+            "channel": "Ardıç Tarih",
+            "title": "9.sınıf tarih 3. Ünite 1. Bölüm I Orta Çağ’da Kitlesel Göçler / Zeduva maarif model"
+          }
+        },
+        {
+          "itemId": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "itemTitle": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+          "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "classification": "PARTIALLY_COVERED",
+          "evidence": "Feodalite şövalyeleri ve derebeylik ordusu kısaca geçmektedir; genel Orta Çağ devlet teşkilatı ve askeri organizasyonlar işlenmemiştir.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+            "channel": "Ardıç Tarih",
+            "title": "9.sınıf tarih 3. Ünite 2. Bölüm I Orta Çağ’daki Siyasi ve Askerî Gelişmeler 1/ Zeduva maarif model"
+          }
+        },
+        {
+          "itemId": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "itemTitle": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+          "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "classification": "NOT_COVERED",
+          "evidence": "Skolastik düşünce ve Rönesans'a atıf yapılmakta ancak İslam, Sasani ve Doğu havzalarında bilim, felsefe ve sanat işlenmemektedir.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+            "channel": "Ardıç Tarih",
+            "title": "9.Sınıf Tarih - Orta Çağda Bilim Kültür Sanat📌Yeni Müfredat Tarih"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 2,
+      "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "videoTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 / 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝",
+      "channel": "Deniz Hoca",
+      "courseId": "course_tde_9",
+      "itemCount": 5,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video münhasıran edebiyatın güzel sanatlarla ilişkisi ve güzel sanatların sınıflandırılmasına odaklanmıştır; söz sanatları, şiir dili inceleme, şiir dinleme/izleme ve şiir yazma etkinliklerini içermemektedir.",
+      "items": [
+        {
+          "itemId": "item_tde9_vid_edebiyat_guzel_sanatlar",
+          "itemTitle": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "classification": "FULLY_COVERED",
+          "evidence": "Güzel sanatların sınıflandırılması (fonetik/plastik/ritmik), edebiyatın işitsel sanat olması, sanat dallarıyla ortak ve farklı yönleri doğrudan işlenmektedir."
+        },
+        {
+          "itemId": "item_tde9_vid_soz_sanatlari",
+          "itemTitle": "TDE: Metinde Anlam & Söz Sanatları",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "classification": "NOT_COVERED",
+          "evidence": "Teşbih, istiare, mecaz-ı mürsel, tezat, teşhis gibi edebi sanatlar bu videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
+            "channel": "Deniz Hoca",
+            "title": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
+          }
+        },
+        {
+          "itemId": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "itemTitle": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+          "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "classification": "NOT_COVERED",
+          "evidence": "Şiir dili çözümleme, açık/örtük ileti, çağrışım ve şiiri betimleme paragrafına dönüştürme yazma atölyesi bu videoda yoktur.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=e35E93fV4cg",
+            "channel": "Rüştü Hoca ile Türkçe",
+            "title": "9.SINIF | Şiir | Sözün İnceliği | 1.TEMA | Açık, Örtük İleti, Sembol, Çağrışım, Edebi Dil vs."
+          }
+        },
+        {
+          "itemId": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "itemTitle": "Anlam Arayışı: Şiir Dinleme/İzleme",
+          "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "classification": "NOT_COVERED",
+          "evidence": "Şiir tahlili ve dinleme/izleme etkinlikleri bu videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
+            "channel": "Deniz Hoca",
+            "title": "9.SINIF TÜRK DİLİ VE EDEBİYATI ŞİİR ÜNİTESİ +PDF 📌 - 9.Sınıf Edebiyat Şiir Ünitesi Hazırlık 📕📘"
+          }
+        },
+        {
+          "itemId": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+          "itemTitle": "Anlam Arayışı: Şiir Yazma",
+          "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+          "classification": "NOT_COVERED",
+          "evidence": "Şiir yazma kuralları, nazım birimi, kafiye ve redif bilgisi bu videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
+            "channel": "Deniz Hoca",
+            "title": "ŞİİR BİLGİSİ: Nazım Birimi, Ölçü, Kafiye Şeması / 9.Sınıf 3.Tema Anlamın Yapı Taşları / Deniz Hoca"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 3,
+      "url": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "videoTitle": "Almanca Temel A1/A2 Ders - 1 Almanca Selamlaşma, Vedalaşma, Tanışma Kalıpları | Merhaba Almanca",
+      "channel": "Easy German",
+      "courseId": "course_alm_9",
+      "itemCount": 4,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video yalnızca temel selamlaşma, vedalaşma ve tanışma kalıplarını öğretmektedir. Sınıf eşyaları/yönergeleri (Im Klassenzimmer), günün vakitleri/günlük akış (Tageszeiten/Tagesablauf) ve ülkeler/diller konularını içermemektedir.",
+      "items": [
+        {
+          "itemId": "item_alm9_vid_kendini_tanitma",
+          "itemTitle": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "classification": "FULLY_COVERED",
+          "evidence": "Guten Morgen, Hallo, Wie geht's, Auf Wiedersehen, Tschüss gibi tanışma ve selamlaşma kalıpları adım adım öğretilmektedir."
+        },
+        {
+          "itemId": "item_alm9_vid_topic_06_im_klassenzimmer",
+          "itemTitle": "Im Klassenzimmer",
+          "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
+          "classification": "NOT_COVERED",
+          "evidence": "Sınıf içi eşyalar ve yönergeler videoda hiç geçmemektedir.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=hUB77C1fKOE",
+            "channel": "Meltem Hoca ile Almanca",
+            "title": "Okul ve Dersler -12.DERS ALMANCA|9.sınıf 2.ÜNİTE"
+          }
+        },
+        {
+          "itemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+          "itemTitle": "Tageszeiten und Tagesablauf",
+          "lessonId": "lesson_alm9_topic_13_tageszeiten_und_tagesablauf",
+          "classification": "NOT_COVERED",
+          "evidence": "Günün vakitleri ve günlük rutin (Tagesablauf) bu videoda işlenmemektedir.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+            "channel": "Meltem Hoca ile Almanca",
+            "title": "Günün Vakitleri | die Tageszeiten-25.DERS ALMANCA|9.sınıf 4.ÜNİTE"
+          }
+        },
+        {
+          "itemId": "item_alm9_vid_ulkeler_diller",
+          "itemTitle": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "classification": "NOT_COVERED",
+          "evidence": "Ülkeler, diller ve milliyet kalıpları (Woher kommst du? Ich komme aus...) bu videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=MEc5TetduSQ",
+            "channel": "Meltem Hoca ile Almanca",
+            "title": "Ülkeler, Diller ve Milliyetler-6.DERS ALMANCA | 9.Sınıf 1.ÜNİTE"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 4,
+      "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "videoTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
+      "channel": "Coğrafyanın Kodları",
+      "courseId": "course_cog_9",
+      "itemCount": 3,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "41 dakikalık kapsamlı ders videosu 9. sınıf 6. ünite Doğal Afetler müfredatının tamamını (Tehlike ve Risk kavramları, Jeolojik/Hidrolojik/Klimatik Afet türleri ve Bütüncül Afet Yönetimi) tek parça halinde eksiksiz öğretmektedir.",
+      "items": [
+        {
+          "itemId": "item_cog9_vid_afet_yonetimi",
+          "itemTitle": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
+          "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Afet kavramı, deprem, kütle hareketleri, sel ve afet öncesi/sırası/sonrası yönetim evreleri anlatılmaktadır."
+        },
+        {
+          "itemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+          "itemTitle": "Tehlike, Risk ve Afet",
+          "lessonId": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+          "classification": "FULLY_COVERED",
+          "evidence": "Tehlike ve risk tanımları, kırılganlık ve zarar görebilirlik parametreleri detaylıca karşılaştırılmaktadır."
+        },
+        {
+          "itemId": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+          "itemTitle": "Bütüncül Afet Yönetimi",
+          "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Zarar azaltma, hazırlık, müdahale ve iyileştirme adımları şemalarla öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 5,
+      "url": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "videoTitle": "2.ünite 📕 Haritalarda dağılışları gösterme yöntemleri 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
+      "channel": "Coğrafyanın Kodları",
+      "courseId": "course_cog_9",
+      "itemCount": 3,
+      "verdict": "WRONG_SHARED",
+      "verdictRationale": "Mevcut video 2. ünite Harita Bilgisi (dağılış gösterme yöntemleri: nokta, çizgi, alan) konusunu işlemektedir. Ancak bu gruba bağlanan 3 öğe 3. ünite İklim Bilgisi (Basınç, Rüzgârlar, İklim Tipleri ve Küresel İklim Değişimi) ile ilgilidir ve videoda tamamen yoktur. 3 öğenin tamamı ilgili konu anlatım videolarıyla değiştirilmiştir.",
+      "items": [
+        {
+          "itemId": "item_cog9_vid_basinc_ruzgar_yagis",
+          "itemTitle": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
+          "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+          "classification": "NOT_COVERED",
+          "evidence": "Harita bilgisi videosunda atmosfer basıncı, rüzgar çeşitleri ve yağış oluşum mekanizmaları bulunmamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
+            "channel": "Coğrafyanın Kodları",
+            "title": "Basınç konu anlatımı ve soru çözümü 📕 3.ünite 🔴 9.SINIF COĞRAFYA | 2025"
+          }
+        },
+        {
+          "itemId": "item_cog9_vid_topic_09_iklim_turleri",
+          "itemTitle": "İklim Türleri",
+          "lessonId": "lesson_cog9_topic_09_iklim_turleri",
+          "classification": "NOT_COVERED",
+          "evidence": "Ekvatoral, Muson, Akdeniz, Tundra vb. makroklima tipleri videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+            "channel": "Coğrafyanın Kodları",
+            "title": "İklim tipleri konu anlatımı 📕 3.ünite 🔴 9.sınıf coğrafya | 2025"
+          }
+        },
+        {
+          "itemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+          "itemTitle": "İklim Sisteminde Yaşanan Değişiklikler",
+          "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+          "classification": "NOT_COVERED",
+          "evidence": "Sera gazları, küresel ısınma ve iklim sistemi değişimleri videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=qqqvMfEmuB0",
+            "channel": "Coğrafyanın Kodları",
+            "title": "Küresel iklim değişimi konu anlatım ve soru çözümü 📕 3.ünite 🔴 9.sınıf coğrafya | 2025"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 6,
+      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "videoTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
+      "channel": "Coğrafyanın Kodları",
+      "courseId": "course_cog_9",
+      "itemCount": 3,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Video 9. sınıf Coğrafya 1. ünitesinin kapanış bölümünü (Coğrafya biliminin tarihsel gelişimi: İlk Çağ, Orta Çağ, Yeni Çağ, Yakın Çağ ve Coğrafya öğrenmenin amaçları) bir bütün olarak işlemektedir.",
+      "items": [
+        {
+          "itemId": "item_cog9_vid_tarihsel_gelisim",
+          "itemTitle": "Coğrafya Biliminin Tarihsel Gelişimi",
+          "lessonId": "lesson_cog9_dogal_sistemler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Eratosthenes, Strabon, Biruni, Evliya Çelebi, Humboldt gibi öncülerle tarihsel çağlar eksiksiz anlatılmaktadır."
+        },
+        {
+          "itemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+          "itemTitle": "Niçin Coğrafya Öğrenmeliyiz?",
+          "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+          "classification": "FULLY_COVERED",
+          "evidence": "Doğal çevre ve insan etkileşimi, çevre bilinci ve mekan algısı gibi coğrafya öğrenme hedefleri öğretilmektedir."
+        },
+        {
+          "itemId": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+          "itemTitle": "Coğrafya Biliminin Gelişimi",
+          "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Bilimsel metodolojinin gelişimi ve modern coğrafyanın kuruluşu açıklanmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 7,
+      "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "videoTitle": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
+      "channel": "Coğrafyanın Kodları",
+      "courseId": "course_cog_9",
+      "itemCount": 3,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video ağırlıklı olarak Demografik Dönüşüm Modeli ve Nüfus Piramitleri (kenarları içe dönük, düz üçgen, arı kovanı, çan) konusuna odaklanmıştır. Nüfusun tarihsel sıçrama dönemleri ve nüfusun dağılışı/göçler konuları müstakil ders videoları gerektirmektedir.",
+      "items": [
+        {
+          "itemId": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+          "itemTitle": "Nüfusun Tarihsel Değişimi ve Geleceği",
+          "lessonId": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+          "classification": "PARTIALLY_COVERED",
+          "evidence": "Tarihsel sıçrama dönemleri (alet yapımı, tarım, sanayi) piramit videosunda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
+            "channel": "Coğrafyanın Kodları",
+            "title": "Nüfusun önemi ve özellikleri konu + soru | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 27"
+          }
+        },
+        {
+          "itemId": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+          "itemTitle": "Nüfusun Dağılışı ve Hareketleri",
+          "lessonId": "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
+          "classification": "PARTIALLY_COVERED",
+          "evidence": "Nüfus dağılışını etkileyen faktörler ve göç hareketleri yalnızca genel atıflarla geçmektedir.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=NQ1QXL62Lpc",
+            "channel": "Coğrafyanın Kodları",
+            "title": "Nüfusun dağılışı ve hareketleri göçler📕 4.ünite nüfusun dinamikleri 🔴 9.sınıf coğrafya | 2025"
+          }
+        },
+        {
+          "itemId": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+          "itemTitle": "Demografik Dönüşüm ve Nüfus Piramitleri",
+          "lessonId": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Demografik dönüşümün 5 evresi ve tüm nüfus piramit türleri ile yaş grupları detaylıca işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 8,
+      "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "videoTitle": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 1 | Fiziğin Alt Dalları | 2027",
+      "channel": "Özcan Aykın FİZİK",
+      "courseId": "course_fiz_9",
+      "itemCount": 3,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Fizik biliminin tanımı, incelediği doğa olayları ve KAMYONET (katıhal, atom, mekanik, yüksek enerji/plazma, optik, nükleer, elektromanyetizma, termodinamik) alt dallarını eksiksiz kapsayan temel ders videosudur.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_alt_dallar",
+          "itemTitle": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
+          "lessonId": "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+          "classification": "FULLY_COVERED",
+          "evidence": "Fiziğin 8 alt dalı somut günlük hayat örnekleriyle anlatılmaktadır."
+        },
+        {
+          "itemId": "item_fiz9_vid_fizik_giris",
+          "itemTitle": "Fizik Bilimine Giriş (Temel Prensipler ve Alt Dallar)",
+          "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+          "classification": "FULLY_COVERED",
+          "evidence": "Fiziğin neyi incelediği ve alt dalların çalışma alanları öğretilmektedir."
+        },
+        {
+          "itemId": "item_fiz9_vid_topic_01_fizik_bilimi",
+          "itemTitle": "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
+          "lessonId": "lesson_fiz9_topic_01_fizik_bilimi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Fizik biliminin doğası, uzay, zaman, madde, enerji etkileşimi öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 9,
+      "url": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "videoTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE",
+      "channel": "Meltem Hoca ile Almanca",
+      "courseId": "course_alm_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Almanca 0-20 arası sayıların okunuşu ve telefon numarası söylerken sayıların kullanımını doğrudan ve eksiksiz öğreten 1. ünite videosudur.",
+      "items": [
+        {
+          "itemId": "item_alm9_vid_sayilar",
+          "itemTitle": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "classification": "FULLY_COVERED",
+          "evidence": "0 (null) ile 20 (zwanzig) arası tüm sayılar ve telefon numarası kalıpları öğretilmektedir."
+        },
+        {
+          "itemId": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+          "itemTitle": "Zahlen 0–20 und Telefonnummer",
+          "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
+          "classification": "FULLY_COVERED",
+          "evidence": "Zahlen 0-20 telaffuzları ve Wie ist deine Telefonnummer sorusu işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 10,
+      "url": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "videoTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE",
+      "channel": "Meltem Hoca ile Almanca",
+      "courseId": "course_alm_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Almanca 2. ünite okul eşyaları (das Buch, der Stift, die Schere vb.) ve der/die/das artikelleri ile ein/eine/kein kullanımını eksiksiz işleyen birleşik derstir.",
+      "items": [
+        {
+          "itemId": "item_alm9_vid_schulsachen_artikel",
+          "itemTitle": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Keine)",
+          "lessonId": "lesson_alm9_schule_und_alltag",
+          "classification": "FULLY_COVERED",
+          "evidence": "Okul eşyaları, belirli ve belirsiz artikeller örnek cümlelerle öğretilmektedir."
+        },
+        {
+          "itemId": "item_alm9_vid_topic_05_schulsachen",
+          "itemTitle": "Schulsachen",
+          "lessonId": "lesson_alm9_topic_05_schulsachen",
+          "classification": "FULLY_COVERED",
+          "evidence": "Sınıf ve çanta eşyalarının Almanca karşılıkları işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 11,
+      "url": "https://www.youtube.com/watch?v=OUujiEHfams",
+      "videoTitle": "Almanca Harfleri Animasyon-2.DERS ALMANCA | 9.sınıf",
+      "channel": "Meltem Hoca ile Almanca",
+      "courseId": "course_alm_9",
+      "itemCount": 2,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video yalnızca Almanca alfabe ve özel seslerin (ä, ö, ü, ß, eu, ei, ch) telaffuzuna odaklanmıştır; selamlaşma/vedalaşma ve landeskunde konularını içermemektedir.",
+      "items": [
+        {
+          "itemId": "item_alm9_vid_selamlasma_alfabe",
+          "itemTitle": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "classification": "FULLY_COVERED",
+          "evidence": "Almanca harf kuralları ve fonetik telaffuzlar detaylıca öğretilmektedir."
+        },
+        {
+          "itemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "itemTitle": "Begrüßung, Verabschiedung und Landeskunde",
+          "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "classification": "NOT_COVERED",
+          "evidence": "Selamlaşma, vedalaşma ve ülke bilgisi harf animasyonu videosunda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=o_uY9FxropI",
+            "channel": "Meltem Hoca ile Almanca",
+            "title": "Selamlaşma & Vedalaşma & Tanışma-4.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 12,
+      "url": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "videoTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE",
+      "channel": "Meltem Hoca ile Almanca",
+      "courseId": "course_alm_9",
+      "itemCount": 2,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video münhasıran Aile Bireyleri (die Familie: Mutter, Vater, Bruder vb.) konusunu işlemektedir; meslekler (Berufe) konusunu içermemektedir.",
+      "items": [
+        {
+          "itemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+          "itemTitle": "Familie und Familienmitglieder",
+          "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+          "classification": "FULLY_COVERED",
+          "evidence": "Aile üyeleri, akrabalık bağları ve iyelik zamirleri öğretilmektedir."
+        },
+        {
+          "itemId": "item_alm9_vid_topic_10_berufe",
+          "itemTitle": "Berufe",
+          "lessonId": "lesson_alm9_topic_10_berufe",
+          "classification": "NOT_COVERED",
+          "evidence": "Meslekler (Arzt, Lehrer, Ingenieur vb.) ve meslek sorma kalıpları bu videoda yoktur.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+            "channel": "Easy German",
+            "title": "Almanca Temel A1/A2 Ders - 14 Almanca Meslekler - Die Berufe - Yeni Almanca Kelimeler, Cümleler"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 13,
+      "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "videoTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
+      "channel": "Dr.Biyoloji",
+      "courseId": "course_biyo_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Enzimlerin yapısı (basit/bileşik enzim, apoenzim, kofaktör, koenzim), aktivasyon enerjisi ve etki mekanizması konusunu doğrudan işleyen temel biyoloji dersidir.",
+      "items": [
+        {
+          "itemId": "item_biyo9_vid_enzimler_nukleik",
+          "itemTitle": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
+          "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Enzimlerin genel yapısı ve biyokimyasal reaksiyonlardaki işlevi anlatılmaktadır."
+        },
+        {
+          "itemId": "item_biyo9_vid_topic_08_enzimler",
+          "itemTitle": "Enzimler",
+          "lessonId": "lesson_biyo9_topic_08_enzimler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Apoenzim, koenzim, substrat uyumu ve enzim çalışma prensipleri işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 14,
+      "url": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+      "videoTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026",
+      "channel": "Özcan Aykın FİZİK",
+      "courseId": "course_fiz_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Sıvılarda basınç (P = h.d.g), sıvı basınç kuvveti ve Pascal prensibini (su cendereleri, hidrolik frenler) eksiksiz açıklayan temel fizik dersidir.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_basinc_prensipleri",
+          "itemTitle": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
+          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+          "classification": "FULLY_COVERED",
+          "evidence": "Sıvı basıncı prensipleri ve Pascal kanunu detaylıca işlenmektedir."
+        },
+        {
+          "itemId": "item_fiz9_vid_topic_11_sivilarda_basinc",
+          "itemTitle": "Sıvılarda Basınç ve Pascal Prensibi",
+          "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
+          "classification": "FULLY_COVERED",
+          "evidence": "Sıvı basıncının derinlik ve özkütleye bağlılığı ile Pascal prensibi formülleri öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 15,
+      "url": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "videoTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
+      "channel": "Fizikfinito",
+      "courseId": "course_fiz_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Maddenin hâl değişimleri (erime, donma, buharlaşma, yoğuşma, süblimleşme), erime ve buharlaşma ısıları (Q = m.L) ile sıcaklık-zaman grafiklerini eksiksiz anlatan Maarif Modeli dersidir.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_hal_degisimi",
+          "itemTitle": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
+          "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Hâl değişim sıcaklıkları ve ısı alışverişi grafikleri öğretilmektedir."
+        },
+        {
+          "itemId": "item_fiz9_vid_topic_17_hal_degisimi",
+          "itemTitle": "Hâl Değişimi",
+          "lessonId": "lesson_fiz9_topic_17_hal_degisimi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Erime, kaynama ve hâl değişimi formülleri (Q=m.L) detaylıca işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 16,
+      "url": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "videoTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
+      "channel": "Fizikfinito",
+      "courseId": "course_fiz_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Isı, sıcaklık, iç enerji kavramları arasındaki farklar, öz ısı (c), ısı sığası (C) ve temel ısı formülü (Q = m.c.Δt) eksiksiz öğretilmektedir.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_isi_sicaklik_kavram",
+          "itemTitle": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
+          "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Isı ve sıcaklık arasındaki kavramsal farklar ve matematiksel bağıntılar öğretilmektedir."
+        },
+        {
+          "itemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+          "itemTitle": "Isı, Öz Isı ve Isı Sığası",
+          "lessonId": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Öz ısı tanımı, birimleri ve ısı sığası hesaplamaları işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 17,
+      "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+      "videoTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+      "channel": "Özcan Aykın FİZİK",
+      "courseId": "course_fiz_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Sıvıların kaldırma kuvveti (Fk = Vbatan . dsıvı . g), Arşimet prensibi, yüzme, askıda kalma ve batma durumlarını eksiksiz açıklayan temel derstir.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_kaldirma_kuvveti",
+          "itemTitle": "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
+          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kaldırma kuvvetinin oluşumu, Arşimet prensibi ve taşırma kapları anlatılmaktadır."
+        },
+        {
+          "itemId": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+          "itemTitle": "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)",
+          "lessonId": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+          "classification": "FULLY_COVERED",
+          "evidence": "Cisimlerin denge durumları (yüzen, askıda kalan, batan cisimler) karşılaştırılmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 18,
+      "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "videoTitle": "55 Günde TYT Fizik Kampı | 1. Gün | Fizik Bilimine Giriş - 2 | Fiziksel Büyüklükler | 2027",
+      "channel": "Özcan Aykın FİZİK",
+      "courseId": "course_fiz_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Temel ve türetilmiş büyüklükler (KISA MUZ), SI birim sistemi ile skaler ve vektörel büyüklüklerin özelliklerini tek derste birleştiren fizik konusudur.",
+      "items": [
+        {
+          "itemId": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+          "itemTitle": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
+          "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kütle, ışık şiddeti, sıcaklık, akım, madde miktarı, uzunluk, zaman kodlaması (KISA MUZ) ve SI birimleri anlatılmaktadır."
+        },
+        {
+          "itemId": "item_fiz9_vid_vektorler",
+          "itemTitle": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
+          "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+          "classification": "FULLY_COVERED",
+          "evidence": "Vektörlerin doğrultu, yön ve büyüklük özellikleri ile skaler-vektörel ayrımı öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 19,
+      "url": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+      "videoTitle": "İngilizcede Cümle Kurma Teknikleri #30",
+      "channel": "İngilizce Konu Anlatımı - Özer Kiraz",
+      "courseId": "course_ing_9",
+      "itemCount": 2,
+      "verdict": "MIXED_NEEDS_SPLIT",
+      "verdictRationale": "Video genel İngilizce cümle kurma ve çeviri revizyonu içermektedir. MEB 9. sınıf Theme 1: School Life müfredatını (okul hayatı, dersler, okul rutinleri) karşılamamaktadır.",
+      "items": [
+        {
+          "itemId": "item_ing9_vid_cumle_kurma",
+          "itemTitle": "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri",
+          "lessonId": "lesson_ing9_orientation_revision",
+          "classification": "FULLY_COVERED",
+          "evidence": "Cümle kurma mekanizması, özne-yüklem dizilişi ve çeviri mantığı öğretilmektedir."
+        },
+        {
+          "itemId": "item_ing9_vid_topic_01_theme_1_school_life",
+          "itemTitle": "Theme 1: School Life",
+          "lessonId": "lesson_ing9_topic_01_theme_1_school_life",
+          "classification": "NOT_COVERED",
+          "evidence": "9. sınıf Tema 1 Okul Hayatı kelimeleri ve müfredat kazanımları bu videoda yer almamaktadır.",
+          "replacement": {
+            "newUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
+            "channel": "Sercanİgrek - English Teacher",
+            "title": "9. SINIF İNGİLİZCE 1. ÜNİTE KONU ANLATIMI 2026 | MAARİF MODELİ"
+          }
+        }
+      ]
+    },
+    {
+      "groupIndex": 20,
+      "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "videoTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
+      "channel": "Meschemy Kimya",
+      "courseId": "course_kim_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağın oluşum mekanizmasını (elektron alışverişi, katyon-anyon çekimi, Lewis yapısı) öğreten 9. sınıf kimya dersidir.",
+      "items": [
+        {
+          "itemId": "item_kim9_vid_bag_turleri",
+          "itemTitle": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+          "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kimyasal bağ kavramı ve güçlü etkileşimlerin temelleri açıklanmaktadır."
+        },
+        {
+          "itemId": "item_kim9_vid_topic_08_iyonik_bag",
+          "itemTitle": "İyonik Bağ",
+          "lessonId": "lesson_kim9_topic_08_iyonik_bag",
+          "classification": "FULLY_COVERED",
+          "evidence": "Metal-ametal arasında elektron alışverişiyle oluşan iyonik kristal örgü yapısı öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 21,
+      "url": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "videoTitle": "Kimya Bilimi 3 - Kimya ve İş Güvenliği Konu Anlatımı | 39 GÜNDE AYRINTILI TYT KİMYA KAMPI 2026 | 3",
+      "channel": "Meschemy Kimya",
+      "courseId": "course_kim_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Laboratuvar güvenlik kuralları, tehlike piktogramları (yanıcı, yakıcı, korozif vb.) ve kimyasal maddelerin çevre/sağlık etkilerini eksiksiz işleyen kimya dersidir.",
+      "items": [
+        {
+          "itemId": "item_kim9_vid_guvenlik_sembolleri",
+          "itemTitle": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
+          "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kimyasal tehlike sembolleri ve laboratuvarda uyulması gereken emniyet kuralları anlatılmaktadır."
+        },
+        {
+          "itemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+          "itemTitle": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+          "lessonId": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Faydalı ve zararlı kimyasal element/bileşiklerin özellikleri öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 22,
+      "url": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "videoTitle": "Katılar ve özellikleri + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 21",
+      "channel": "Meschemy Kimya",
+      "courseId": "course_kim_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Maddenin katı hâli, amorf katılar ve kristal katı türlerini (iyonik, moleküler, kovalent, metalik kristaller) detaylıca anlatan 9. sınıf kimya dersidir.",
+      "items": [
+        {
+          "itemId": "item_kim9_vid_katilar_ve_sivilar",
+          "itemTitle": "Katı Türleri (Amorf, Kristal) ve Sıvılarda Viskozite",
+          "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Katı türlerinin tanecik düzeni ve erime noktası özellikleri öğretilmektedir."
+        },
+        {
+          "itemId": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+          "itemTitle": "Katılar ve Özellikleri",
+          "lessonId": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Amorf ve kristal katıların karşılaştırılması ve kristal türleri işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 23,
+      "url": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "videoTitle": "I 9. SINIF KİMYA I ATOM ÇAPI  - YARIÇAPI - HACMİ I  1. TEMA : ETKİLEŞİM I",
+      "channel": "KİMYA ADASI",
+      "courseId": "course_kim_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Periyodik cetvelde atom çapı, yarıçapı ve periyot/grup boyunca periyodik özelliklerin değişim yönlerini öğreten 9. sınıf kimya dersidir.",
+      "items": [
+        {
+          "itemId": "item_kim9_vid_periyodik_ozellikler",
+          "itemTitle": "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
+          "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+          "classification": "FULLY_COVERED",
+          "evidence": "Periyodik cetvelde soldan sağa ve yukarıdan aşağıya atom yarıçapı ve özellikleri anlatılmaktadır."
+        },
+        {
+          "itemId": "item_kim9_vid_topic_06_periyodik_ozellikler",
+          "itemTitle": "Periyodik Özellikler",
+          "lessonId": "lesson_kim9_topic_06_periyodik_ozellikler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Atom çapının katman ve proton sayısına göre değişimi işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 24,
+      "url": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "videoTitle": "9.Sınıf Matematik | Gerçek Sayıların İşlem Özellikleri | Maarif Model | 8.Ders",
+      "channel": "Partikül Matematik",
+      "courseId": "course_mat_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Gerçek sayıların kapalılık, değişme, birleşme, etkisiz eleman, ters eleman ve dağılma özelliklerini cebirsel ifadeler ve örneklerle kanıtlayan derstir.",
+      "items": [
+        {
+          "itemId": "item_mat9_vid_cebirsel_ispat",
+          "itemTitle": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
+          "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Gerçek sayı aksiyomları ve cebirsel doğrulama adımları gösterilmektedir."
+        },
+        {
+          "itemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+          "itemTitle": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+          "lessonId": "lesson_mat9_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+          "classification": "FULLY_COVERED",
+          "evidence": "Toplama ve çarpma işlemlerinin cebirsel özellikleri işlenmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 25,
+      "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "videoTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+      "channel": "Rehber Matematik",
+      "courseId": "course_mat_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Analitik düzlemde öteleme, eksenlere ve orijine göre yansıma (simetri) ve dönme dönüşümlerini Maarif Modeli kapsamında öğreten derstir.",
+      "items": [
+        {
+          "itemId": "item_mat9_vid_geometrik_donusumler",
+          "itemTitle": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
+          "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+          "classification": "FULLY_COVERED",
+          "evidence": "Nokta ve şekillerin öteleme, yansıma ve dönme kuralları analitik düzlemde çizilmektedir."
+        },
+        {
+          "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
+          "itemTitle": "Geometrik Dönüşümler",
+          "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Dönüşümlerin koordinat formülleri ve geometrik özellikleri öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 26,
+      "url": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "videoTitle": "1) Geçmişin İnşa Sürecinde Tarih | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+      "channel": "Retro Yayıncılık",
+      "courseId": "course_tar_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Tarihin tanımı, konusu, olay ve olgu kavramlarının farkı ile tarih öğrenmenin bireysel ve toplumsal kazanımlarını işleyen giriş dersidir.",
+      "items": [
+        {
+          "itemId": "item_tar9_vid_birey_toplum",
+          "itemTitle": "Tarih Öğrenmenin Bireye ve Topluma Faydaları",
+          "lessonId": "lesson_tar9_gecmisin_insasi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Milli kimlik inşası, empati kurma becerisi ve tarih şuurunun faydaları anlatılmaktadır."
+        },
+        {
+          "itemId": "item_tar9_vid_olay_olgu",
+          "itemTitle": "Tarihin Doğası & Olay-Olgu Ayrımı",
+          "lessonId": "lesson_tar9_gecmisin_insasi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Tarihi olay (somut, başlangıcı-bitişi belli) ve olgu (süreç, soyut) örneklerle karşılaştırılmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 27,
+      "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+      "videoTitle": "5) İlk Çağ Uygarlıkları - 1 | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+      "channel": "Retro Yayıncılık",
+      "courseId": "course_tar_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "İnsanlığın ilk dönemleri, Neolitik Tarım Devrimi, ilk köy ve şehir yerleşmeleri ile Mezopotamya uygarlıklarını (Sümer, Babil, Asur vb.) anlatan derstir.",
+      "items": [
+        {
+          "itemId": "item_tar9_vid_tarim_devrimi_mezopotamya",
+          "itemTitle": "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri",
+          "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+          "classification": "FULLY_COVERED",
+          "evidence": "Tarım devrimi, yerleşik hayat, zigguratlar ve Mezopotamya şehir devletleri öğretilmektedir."
+        },
+        {
+          "itemId": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+          "itemTitle": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+          "lessonId": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+          "classification": "FULLY_COVERED",
+          "evidence": "Üretici yaşama geçiş, artı ürün ve ilk takas-ticaret ekonomisi anlatılmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 28,
+      "url": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+      "videoTitle": "3) Geçmişin İnşa Sürecinde Tarih | Tarihe Yardımcı Bilimler |YKS-Tarih| Mehmet Celal ÖZYILDIZ - 2027",
+      "channel": "Retro Yayıncılık",
+      "courseId": "course_tar_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Tarihsel bilginin üretim basamakları (5T kuralı: tarama, tasnif, tahlil, tenkit, terkip), tarihe yardımcı bilim dalları ve takvim sistemlerini bir arada işleyen derstir.",
+      "items": [
+        {
+          "itemId": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+          "itemTitle": "Tarihsel Bilginin Üretim Süreci",
+          "lessonId": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kaynak tenkiti, birinci elden kaynaklar ve tarih yazımı metodu öğretilmektedir."
+        },
+        {
+          "itemId": "item_tar9_vid_yardimci_bilimler",
+          "itemTitle": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
+          "lessonId": "lesson_tar9_kaynaklar_takvimler",
+          "classification": "FULLY_COVERED",
+          "evidence": "Arkeoloji, kronoloji, nümizmatik, epigrafi vb. bilimler ile 5 Türk takvimi anlatılmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 29,
+      "url": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "videoTitle": "8) İlk Çağ Uygarlıkları - 4 | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027",
+      "channel": "Retro Yayıncılık",
+      "courseId": "course_tar_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "İlk Çağ medeniyetlerinde ilk yazılı kanunlar (Urukagina, Hammurabi, Hitit), çok tanrılı ve tek tanrılı inanç sistemleri ile bilim ve sanat anlayışını anlatan derstir.",
+      "items": [
+        {
+          "itemId": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "itemTitle": "Eski Çağ Medeniyetlerinde Hukuk",
+          "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kısas ilkesi, ilk yazılı kanunlar ve aile-ceza hukuku uygulamaları işlenmektedir."
+        },
+        {
+          "itemId": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "itemTitle": "Eski Çağ'da İnanç, Bilim ve Sanat",
+          "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "classification": "FULLY_COVERED",
+          "evidence": "Ziggurat astronomisi, mumyalama ve tıp bilimi, tapınak mimarisi öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 30,
+      "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "videoTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
+      "channel": "Rüştü Hoca ile Türkçe",
+      "courseId": "course_tde_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Hikâyenin yapı unsurları (kişi/karakter, olay, mekan, zaman), olay hikâyesi (Maupassant) ve durum hikâyesi (Çehov) farkını ve karakter analizini öğreten edebiyat dersidir.",
+      "items": [
+        {
+          "itemId": "item_tde9_vid_hikaye_turleri",
+          "itemTitle": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
+          "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
+          "classification": "FULLY_COVERED",
+          "evidence": "Olay ve durum hikayesi karşılaştırması ve yapı unsurları anlatılmaktadır."
+        },
+        {
+          "itemId": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "itemTitle": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+          "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "classification": "FULLY_COVERED",
+          "evidence": "Hikaye karakteri tahlili, tip ve karakter ayrımı öğretilmektedir."
+        }
+      ]
+    },
+    {
+      "groupIndex": 31,
+      "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "videoTitle": "MEB 9:sınıf Edebiyat Nevruz Belgeseli Tema 3 sayfa 200",
+      "channel": "Edebiyat Hocası",
+      "courseId": "course_tde_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "MEB 9. sınıf Edebiyat ders kitabında Tema 3 için belirlenen Nevruz Belgeselidir; hem dinleme/izleme etkinliği hem de bilgileri infografiğe aktarma atölyesi için ortak kaynak videodur.",
+      "items": [
+        {
+          "itemId": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "itemTitle": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+          "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "classification": "FULLY_COVERED",
+          "evidence": "Nevruz kültürü, baharın gelişi ve gelenekleri içeren MEB kaynak belgeselidir."
+        },
+        {
+          "itemId": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "itemTitle": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+          "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "classification": "FULLY_COVERED",
+          "evidence": "İzlenen belgeselden verilerin çıkarılarak infografik tasarımına dönüştürülmesi amacıyla kullanılmaktadır."
+        }
+      ]
+    },
+    {
+      "groupIndex": 32,
+      "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "videoTitle": "Biyografi - Otobiyografi - Tezkire 📌/ 9.Sınıf Edebiyat Biyografi Ünitesi / Deniz Hoca + PDF 📘📕",
+      "channel": "Deniz Hoca",
+      "courseId": "course_tde_9",
+      "itemCount": 2,
+      "verdict": "LEGITIMATE_SHARED",
+      "verdictRationale": "Biyografi, otobiyografi ve tezkire türlerinin özellikleri, anlatıcı bakış açıları ve otobiyografi yazım ilkelerini birleştiren ünite videosudur.",
+      "items": [
+        {
+          "itemId": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "itemTitle": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+          "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "classification": "FULLY_COVERED",
+          "evidence": "Otobiyografi özellikleri, 1. tekil kişi ağzından anlatım ve biyografiyle farkları öğretilmektedir."
+        },
+        {
+          "itemId": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "itemTitle": "Dilin Zenginliği: Otobiyografi Yazma",
+          "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "classification": "FULLY_COVERED",
+          "evidence": "Kişinin kendi yaşam öyküsünü yazarken dikkat etmesi gereken kronolojik ve anlatım kuralları işlenmektedir."
+        }
+      ]
+    }
+  ]
+}

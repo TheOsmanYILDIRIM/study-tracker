@@ -82,7 +82,9 @@
       "fingerprint": "15e3c2e0f956a095",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
-      "transcriptFingerprint": "6ce56406f481cfb3"
+      "transcriptFingerprint": "6ce56406f481cfb3",
+      "sharedSource": true,
+      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
     }
   }
 }

@@ -15,7 +15,7 @@
       "sourceSection": "Kimyasal Bağlar",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "b3ac44607a0489ab",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
       "transcriptLanguage": "tr",
@@ -24,7 +24,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
       "transcriptFingerprint": "e0e330ee30a12087",
       "sharedSource": true,
-      "sharedSourceReason": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı"
+      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
     },
     "provider": "Meschemy Kimya"
   }

@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "7295c1a96daa26f5",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Enzimlerin yapısı, özellikleri, apoenzim/kofaktör ve çalışma mekanizması ortak video kapsamı"
     }
   }
 }

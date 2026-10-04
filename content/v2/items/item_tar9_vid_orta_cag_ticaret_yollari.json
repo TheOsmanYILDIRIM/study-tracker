@@ -7,10 +7,10 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "contentUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "teacher": "Ardıç Tarih",
     "provenance": {
       "sourceRef": "10-Projects/Tarih_Yillik_Plan_AL9.md#L150",
       "sourceSection": "Ticaret Yolları ve Medeniyet Havzaları",
@@ -20,16 +20,16 @@
       "fingerprint": "28f7f3fd5bad8f77",
       "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7",
-      "sharedSource": true,
-      "sharedSourceReason": "Orta Çağ medeniyetleri, devlet yapıları ve ticaret yolları ortak video kapsamı"
+      "transcriptFingerprint": "87776d5b44d04213",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     },
-    "provider": "Benim Hocam",
-    "verifiedLectureTitle": "12) Orta Çağ Medeniyetleri ve Ticaret Yolları"
+    "provider": "Ardıç Tarih",
+    "verifiedLectureTitle": "9.sınıf tarih 3. Ünite - Orta Çağ’da Ticaret Yolları/ Zeduva maarif model"
   }
 }

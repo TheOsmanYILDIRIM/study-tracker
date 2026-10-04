@@ -82,7 +82,9 @@
       "fingerprint": "c0f31bdc59156db6",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_14_katilar_ve_ozellikleri.tr.txt",
-      "transcriptFingerprint": "384dfc22c8b7c3e0"
+      "transcriptFingerprint": "384dfc22c8b7c3e0",
+      "sharedSource": true,
+      "sharedSourceReason": "Katı türleri, amorf katılar ve kristal katılar (iyonik, moleküler, kovalent, metalik) ortak video kapsamı"
     }
   }
 }

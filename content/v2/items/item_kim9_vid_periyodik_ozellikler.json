@@ -15,7 +15,7 @@
       "sourceSection": "Periyodik Özellikler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "6930cb3832e890be",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
       "transcriptLanguage": "tr",
@@ -24,7 +24,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.tr.vtt",
       "transcriptFingerprint": "6ce56406f481cfb3",
       "sharedSource": true,
-      "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı"
+      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
     },
     "provider": "Kimya Adası"
   }

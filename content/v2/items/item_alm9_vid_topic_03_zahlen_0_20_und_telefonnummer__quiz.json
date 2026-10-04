@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "c37a7a908aa60797",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Almanca 0-20 arası sayılar (Die Zahlen) ve telefon numarası sorma-söyleme kalıpları ortak video kapsamı"
     }
   }
 }

@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "fca64f24445587a5",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
     }
   }
 }

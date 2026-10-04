@@ -84,7 +84,9 @@
       "fingerprint": "2ae5cb8b6bdc2de1",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
-      "transcriptFingerprint": "532569ac8750adbf"
+      "transcriptFingerprint": "532569ac8750adbf",
+      "sharedSource": true,
+      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
     }
   }
 }

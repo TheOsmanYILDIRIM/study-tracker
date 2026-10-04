@@ -16,7 +16,7 @@
       "sourceSection": "1. Hafta: Fizik Bilimi ve Alt Dalları (Özcan Aykın)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "209e14527f3f8255",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -25,7 +25,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı"
+      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
     }
   }
 }

@@ -451,7 +451,7 @@ async function runCliTests() {
     assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
     assert.strictEqual(validation.stats.quizCount, 200, 'Must have 200 deterministic quiz items (35 lesson quizzes + 165 micro-quizzes)');
     assert.strictEqual(validation.warnings.length, 0, 'Production catalog must have 0 actionable audit warnings');
-    assert.strictEqual(validation.explicitExceptions.length, 32, 'Production catalog must have exactly 32 verified explicit sharedSource exceptions');
+    assert.strictEqual(validation.explicitExceptions.length, 28, 'Production catalog must have exactly 28 verified explicit exceptions (24 sharedSource + 4 history overrides)');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings, ${validation.explicitExceptions.length} explicit exceptions.`);
 
     // Test 8: Canonical History Teacher & Stale Warning / Active Error / Override Exception
@@ -461,8 +461,10 @@ async function runCliTests() {
     assert(historyCourse, 'History course must exist');
     historyCourse.lessons.forEach(l => {
       l.items.filter(i => i.itemType === 'VIDEO' && (i.publishingStatus || 'active') === 'active').forEach(item => {
-        assert.strictEqual(item.payload.teacher, 'Mehmet Celal ÖZYILDIZ', 'Active history video must be Mehmet Celal ÖZYILDIZ');
-        assert.strictEqual(item.payload.provenance.reviewStatus, 'verified', 'Mehmet Celal ÖZYILDIZ items must be verified');
+        const isCanonical = (item.payload.teacher || '').includes('Mehmet Celal');
+        const isOverride = item.payload.provenance?.reviewedOverride === true;
+        assert(isCanonical || isOverride, `Active history video must be Mehmet Celal ÖZYILDIZ or have reviewedOverride: ${item.stableKey}`);
+        assert.strictEqual(item.payload.provenance.reviewStatus, 'verified', 'History video items must be verified');
       });
     });
 

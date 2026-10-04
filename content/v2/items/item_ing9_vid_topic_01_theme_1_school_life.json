@@ -7,10 +7,10 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Theme 1: School Life",
-  "contentUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+  "contentUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Özer Kiraz",
+    "provider": "Sercanİgrek - English Teacher",
     "topic": "Theme 1: School Life",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,17 +30,16 @@
       "videoCandidateTitle": null,
       "fingerprint": "e551f0c91aaeacf3",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-      "transcriptFingerprint": "1a6b863c3bd960a4",
+      "transcriptFingerprint": "1489500cad43bc6a",
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı"
+      "sharedSource": false
     },
-    "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
-    "verifiedLectureTitle": "İngilizcede Cümle Kurma Teknikleri #30"
+    "teacher": "Sercan İgrek",
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 1. ÜNİTE KONU ANLATIMI 2026 | MAARİF MODELİ"
   }
 }

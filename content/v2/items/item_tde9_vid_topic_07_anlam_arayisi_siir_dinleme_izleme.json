@@ -7,10 +7,10 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
-  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "contentUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Anlam Arayışı: Şiir Dinleme/İzleme",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,14 +28,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "6757286a6ebe308c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.tr.vtt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
-    }
+      "transcriptFingerprint": "b8f22d58a10084f3",
+      "sharedSource": false
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "9.SINIF TÜRK DİLİ VE EDEBİYATI ŞİİR ÜNİTESİ +PDF 📌 - 9.Sınıf Edebiyat Şiir Ünitesi Hazırlık 📕📘"
   }
 }

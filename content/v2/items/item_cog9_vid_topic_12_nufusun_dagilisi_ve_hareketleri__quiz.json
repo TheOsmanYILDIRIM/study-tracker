@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NQ1QXL62Lpc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,7 +83,8 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt",
-      "transcriptFingerprint": "685ca31f6189386c"
+      "transcriptFingerprint": "378bb18a8ef660c9",
+      "sharedSource": false
     }
   }
 }

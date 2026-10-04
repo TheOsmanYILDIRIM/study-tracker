@@ -7,7 +7,7 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "TDE: Metinde Anlam & Söz Sanatları",
-  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "contentUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -17,14 +17,16 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "9482d8d5961e7046",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
-    }
+      "transcriptFingerprint": "29d50a7fc53c9a99",
+      "sharedSource": false
+    },
+    "provider": "Deniz Hoca",
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
   }
 }

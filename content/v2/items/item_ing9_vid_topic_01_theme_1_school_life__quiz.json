@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_topic_01_theme_1_school_life",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=KfIb0gFvGhA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
@@ -84,7 +84,8 @@
       "fingerprint": "39ba575b8dc72e1b",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
-      "transcriptFingerprint": "1a6b863c3bd960a4"
+      "transcriptFingerprint": "1489500cad43bc6a",
+      "sharedSource": false
     }
   }
 }

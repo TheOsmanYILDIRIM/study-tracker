@@ -7,10 +7,10 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
-  "contentUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+  "contentUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L80",
       "sourceSection": "Basınç ve Rüzgârlar",
@@ -18,19 +18,20 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "c40e0c518894cbcd",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.tr.vtt",
-      "transcriptFingerprint": "aab5f78e7ef39d5d",
-      "sharedSource": true,
-      "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı"
+      "transcriptFingerprint": "2866c76a83106119",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "provider": "Coğrafyanın Kodları",
+    "verifiedLectureTitle": "Basınç konu anlatımı ve soru çözümü 📕 3.ünite 🔴 9.SINIF COĞRAFYA | 2025"
   }
 }

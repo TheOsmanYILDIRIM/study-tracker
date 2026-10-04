@@ -15,7 +15,7 @@
       "sourceSection": "Katılar ve Sıvılar",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "d149100b0d230265",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
       "transcriptLanguage": "tr",
@@ -24,7 +24,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.tr.vtt",
       "transcriptFingerprint": "384dfc22c8b7c3e0",
       "sharedSource": true,
-      "sharedSourceReason": "Katı türleri (amorf ve kristal katılar) ortak video kapsamı"
+      "sharedSourceReason": "Katı türleri, amorf katılar ve kristal katılar (iyonik, moleküler, kovalent, metalik) ortak video kapsamı"
     },
     "provider": "Meschemy Kimya"
   }

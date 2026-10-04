@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Im Klassenzimmer",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=RUXSDOgEH_g",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & MEB EBA",
+    "provider": "tonguch ACADEMY",
     "topic": "Im Klassenzimmer",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21,21 +21,22 @@
       "sourceTopic": [
         "Anweisungen in der Klasse: Fertigkeitstraining"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "08658ac468fd853c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=RUXSDOgEH_g",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
-      "sharedSource": true,
-      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
+      "transcriptFingerprint": "dda292d7511068de",
+      "sharedSource": false
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "tonguch ACADEMY",
+    "verifiedLectureTitle": "Almanca Artikel |  Der - Das - Die | Konu Anlatım"
   }
 }

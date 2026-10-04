@@ -23,7 +23,7 @@
       "sourceTopic": [
         "Periyodik Özellikler (Atom Yarıçapı, İyonlaşma Enerjisi ve Elektronegatiflik)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f042d1294a03fda1",
@@ -35,7 +35,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.tr.vtt",
       "transcriptFingerprint": "6ce56406f481cfb3",
       "sharedSource": true,
-      "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı"
+      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
     }
   }
 }

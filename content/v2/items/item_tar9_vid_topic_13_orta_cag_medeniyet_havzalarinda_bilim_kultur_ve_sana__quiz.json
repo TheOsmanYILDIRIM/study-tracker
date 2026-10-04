@@ -80,11 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "9aabec52612a61c8",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "7ae4826cded28498",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     }
   }
 }

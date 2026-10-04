@@ -7,28 +7,28 @@
   "displayLabel": "2.4",
   "orderKey": 4000,
   "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=R6O9NcPPB2s",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "AlmancaKolay",
+    "teacher": "Tonguç Akademi",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_almanca_video_rehberi.md#L50",
       "sourceSection": "4. Hafta: Ülkeler, Diller ve İkamet",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "c3f21f3eed9df052",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=R6O9NcPPB2s",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
-      "sharedSource": true,
-      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
+      "transcriptFingerprint": "58c6f09ced835962",
+      "sharedSource": false
     },
-    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "verifiedLectureTitle": "9. Sınıf Almanca : Lander Und Sprachen  | Ülkeler ve Diller"
   }
 }

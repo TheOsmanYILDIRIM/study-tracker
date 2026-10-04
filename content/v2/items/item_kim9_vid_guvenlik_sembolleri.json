@@ -15,7 +15,7 @@
       "sourceSection": "2. Hafta (Kitap: Güvenlik)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "9083b0011b7c547a",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
       "transcriptLanguage": "tr",
@@ -24,7 +24,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
       "transcriptFingerprint": "ed0db4f712979546",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı"
+      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
     },
     "provider": "Meschemy Kimya"
   }

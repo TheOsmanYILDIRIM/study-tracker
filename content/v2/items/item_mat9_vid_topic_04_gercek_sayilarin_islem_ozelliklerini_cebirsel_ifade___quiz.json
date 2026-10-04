@@ -80,7 +80,9 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt",
-      "transcriptFingerprint": "1184ee0b138df4fd"
+      "transcriptFingerprint": "1184ee0b138df4fd",
+      "sharedSource": true,
+      "sharedSourceReason": "Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı"
     }
   }
 }

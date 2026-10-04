@@ -84,7 +84,8 @@
       "fingerprint": "7778a80ff0cab5e5",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt",
-      "transcriptFingerprint": "1a6b863c3bd960a4"
+      "transcriptFingerprint": "1a6b863c3bd960a4",
+      "sharedSource": false
     }
   }
 }

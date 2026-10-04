@@ -80,11 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "e31b14a5b69eadc4",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "87776d5b44d04213",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     }
   }
 }

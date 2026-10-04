@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "19359c9274202cab",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt",
+      "sharedSource": false
     }
   }
 }

@@ -80,11 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "d594dc493be8f07e",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "6c10ab237e962c46",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     }
   }
 }

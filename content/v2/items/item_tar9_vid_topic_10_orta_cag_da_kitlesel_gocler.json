@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Orta Çağ'da Kitlesel Göçler",
-  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+  "contentUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Benim Hocam",
+    "provider": "Ardıç Tarih",
     "topic": "Orta Çağ'da Kitlesel Göçler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -29,16 +29,16 @@
       "schemaVersion": "v2",
       "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7",
-      "sharedSource": true,
-      "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı"
+      "transcriptFingerprint": "6c10ab237e962c46",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     },
-    "teacher": "Mehmet Celal ÖZYILDIZ",
-    "verifiedLectureTitle": "12) Orta Çağ’da Yaşanan Kitlesel Göçler"
+    "teacher": "Ardıç Tarih",
+    "verifiedLectureTitle": "9.sınıf tarih 3. Ünite 1. Bölüm I Orta Çağ’da Kitlesel Göçler / Zeduva maarif model"
   }
 }

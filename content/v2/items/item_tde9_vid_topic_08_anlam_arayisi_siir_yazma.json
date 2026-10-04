@@ -7,10 +7,10 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Şiir Yazma",
-  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+  "contentUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Anlam Arayışı: Şiir Yazma",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,14 +30,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "b6ee6c916a64e857",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=kgN7I_2-uAY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.tr.vtt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
-    }
+      "transcriptFingerprint": "a4d5b62306d5d7be",
+      "sharedSource": false
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "ŞİİR BİLGİSİ: Nazım Birimi, Ölçü, Kafiye Şeması / 9.Sınıf 3.Tema Anlamın Yapı Taşları / Deniz Hoca"
   }
 }

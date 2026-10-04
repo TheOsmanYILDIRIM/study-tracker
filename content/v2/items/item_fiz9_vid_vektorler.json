@@ -16,7 +16,7 @@
       "sourceSection": "2. Hafta: Bilim Merkezleri ve Fiziksel Nicelikler (Özcan Aykın)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "6486243db87369b1",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -25,7 +25,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı"
+      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
     }
   }
 }

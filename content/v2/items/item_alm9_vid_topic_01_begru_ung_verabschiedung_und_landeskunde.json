@@ -7,7 +7,7 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Begrüßung, Verabschiedung und Landeskunde",
-  "contentUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
+  "contentUrl": "https://www.youtube.com/watch?v=o_uY9FxropI",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meltem Hoca ile Almanca",
@@ -30,19 +30,18 @@
       "videoCandidateTitle": null,
       "fingerprint": "841d70169514c38b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=o_uY9FxropI",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.tr.vtt",
-      "transcriptFingerprint": "14c1b0c025d854bf",
+      "transcriptFingerprint": "b68399c8ab207cf1",
       "reviewedOverride": true,
-      "sharedSource": true,
-      "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı"
+      "sharedSource": false
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Almanca Harfleri Animasyon-2.DERS ALMANCA | 9.sınıf"
+    "teacher": "Meltem Hoca",
+    "verifiedLectureTitle": "Selamlaşma & Vedalaşma & Tanışma-4.DERS ALMANCA | 9.sınıf 1.ÜNİTE"
   }
 }

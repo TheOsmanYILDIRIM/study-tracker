@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_10_berufe",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "ca9fa7525984ad57",
+      "transcriptFingerprint": "90658fd49668e2cd",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,8 +85,7 @@
       "fingerprint": "f44960e4fb617ffd",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
+      "sharedSource": false
     }
   }
 }

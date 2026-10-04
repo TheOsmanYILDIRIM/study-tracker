@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt",
-      "transcriptFingerprint": "e8841adfdc1f3a65"
+      "transcriptFingerprint": "e8841adfdc1f3a65",
+      "sharedSource": true,
+      "sharedSourceReason": "Tarım devrimi, yerleşik yaşama geçiş ve ilk Mezopotamya uygarlıkları ortak video kapsamı"
     }
   }
 }

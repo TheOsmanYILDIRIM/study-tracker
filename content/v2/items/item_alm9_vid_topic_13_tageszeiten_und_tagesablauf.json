@@ -7,10 +7,10 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Tageszeiten und Tagesablauf",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & MEB Maarif Modeli",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Tageszeiten und Tagesablauf",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,21 +27,22 @@
         "Tagesabläufe: Was machen Defne und Laura wann?",
         "Jetzt seid ihr dran!: Evas Traumtag!"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "78a4929264d79e17",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
-      "sharedSource": true,
-      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
+      "transcriptFingerprint": "85c8f13c7e0ce76b",
+      "sharedSource": false
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca",
+    "verifiedLectureTitle": "Günün Vakitleri | die Tageszeiten-25.DERS ALMANCA|9.sınıf 4.ÜNİTE"
   }
 }

@@ -80,11 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "220021dc359d8149",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "12da589d04587aed",
+      "sharedSource": false,
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
     }
   }
 }

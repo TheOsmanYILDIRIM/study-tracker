@@ -84,7 +84,9 @@
       "fingerprint": "2d7a053d4edfd176",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
-      "transcriptFingerprint": "751b67c63da7e410"
+      "transcriptFingerprint": "751b67c63da7e410",
+      "sharedSource": true,
+      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
     }
   }
 }

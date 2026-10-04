@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "847eb54a0a7a7eaf",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
     }
   }
 }

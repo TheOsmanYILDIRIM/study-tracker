@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "İklim Sisteminde Yaşanan Değişiklikler",
-  "contentUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+  "contentUrl": "https://www.youtube.com/watch?v=qqqvMfEmuB0",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Coğrafyanın Kodları",
     "topic": "İklim Sisteminde Yaşanan Değişiklikler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,19 +27,20 @@
       "videoCandidateTitle": null,
       "fingerprint": "2bbe1719c7c6b7d4",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=qqqvMfEmuB0",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.tr.vtt",
-      "transcriptFingerprint": "aab5f78e7ef39d5d",
-      "sharedSource": true,
-      "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı"
+      "transcriptFingerprint": "f02c6b395241b95b",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "teacher": "Yunus Hoca",
+    "verifiedLectureTitle": "Küresel iklim değişimi konu anlatım ve soru çözümü 📕 3.ünite 🔴 9.sınıf coğrafya | 2025"
   }
 }

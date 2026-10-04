@@ -80,13 +80,12 @@
       "schemaVersion": "v2",
       "fingerprint": "00362f754592c90c",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb",
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
+      "transcriptFingerprint": "b8f22d58a10084f3",
+      "sharedSource": false
     }
   }
 }

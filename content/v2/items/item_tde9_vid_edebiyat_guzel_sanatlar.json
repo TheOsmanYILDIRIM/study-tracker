@@ -24,8 +24,7 @@
       "transcriptFingerprint": "ce3abaffa6c6dffb",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.tr.vtt",
       "reviewedOverride": true,
-      "sharedSource": true,
-      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",

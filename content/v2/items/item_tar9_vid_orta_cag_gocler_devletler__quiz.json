@@ -84,7 +84,8 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "4cda05dbcaa616a7",
+      "sharedSource": false
     }
   }
 }

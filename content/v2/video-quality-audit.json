@@ -1,33 +1,36 @@
 {
-  "generatedAt": "2026-10-04T07:59:32.272Z",
+  "generatedAt": "2026-10-04T09:51:16.398Z",
   "totalVideos": 174,
-  "uniqueUrls": 129,
+  "uniqueUrls": 147,
   "noUrlCount": 0,
   "statusDistribution": {
     "active": 174
   },
   "providerDistribution": {
-    "Almanca Kolay (Erhan Özdemir)": 2,
+    "Almanca Kolay (Erhan Özdemir)": 1,
     "Meltem Hoca ile Almanca": 12,
-    "Almanca Kolay & MEB EBA": 1,
-    "Almanca Kolay & MEB Maarif Modeli": 1,
+    "tonguch ACADEMY": 1,
+    "Easy German": 1,
+    "tonguç 9. SINIF": 1,
     "Khan Academy": 4,
     "Dr. Biyoloji": 13,
     "Dr.Biyoloji": 2,
-    "unassigned": 16,
-    "Coğrafyanın Kodları": 14,
+    "unassigned": 7,
+    "Coğrafyanın Kodları": 19,
     "Özcan Aykın FİZİK": 20,
     "Fizikfinito": 2,
-    "Özer Kiraz": 6,
+    "Özer Kiraz": 5,
+    "Sercanİgrek - English Teacher": 1,
     "MEB / İngilizce TV": 4,
     "Meschemy Kimya": 17,
     "Kimya Adası": 3,
     "Kimyanın Kimyası": 1,
     "Rehber Matematik": 27,
-    "Benim Hocam": 17,
-    "Deniz Hoca": 7,
+    "Benim Hocam": 13,
+    "Ardıç Tarih": 4,
+    "Deniz Hoca": 10,
+    "Rüştü Hoca ile Türkçe": 2,
     "MEB / Edebiyat TV": 1,
-    "Rüştü Hoca ile Türkçe": 1,
     "MEB Maarif Modeli": 3
   },
   "perCourse": {
@@ -294,133 +297,8 @@
   "missingProvenance": [],
   "changedUrlVsTranscriptMismatchesCount": 0,
   "changedUrlVsTranscriptMismatches": [],
-  "duplicateUrlGroupsCount": 32,
+  "duplicateUrlGroupsCount": 24,
   "duplicateUrlGroups": [
-    {
-      "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
-      "count": 5,
-      "courses": [
-        "course_tar_9"
-      ],
-      "items": [
-        {
-          "id": "item_tar9_vid_orta_cag_gocler_devletler",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
-          "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_orta_cag_ticaret_yollari",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
-          "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
-          "title": "Orta Çağ'da Kitlesel Göçler",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-          "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-          "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
-          "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
-      "count": 5,
-      "courses": [
-        "course_tde_9"
-      ],
-      "items": [
-        {
-          "id": "item_tde9_vid_edebiyat_guzel_sanatlar",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_metin_ve_anlam",
-          "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_soz_sanatlari",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_metin_ve_anlam",
-          "title": "TDE: Metinde Anlam & Söz Sanatları",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
-          "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
-          "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
-          "title": "Anlam Arayışı: Şiir Yazma",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=hm1tQdSExLA",
-      "count": 4,
-      "courses": [
-        "course_alm_9"
-      ],
-      "items": [
-        {
-          "id": "item_alm9_vid_kendini_tanitma",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_modul1_hallo",
-          "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_06_im_klassenzimmer",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
-          "title": "Im Klassenzimmer",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_13_tageszeiten_und_tagesablauf",
-          "title": "Tageszeiten und Tagesablauf",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_ulkeler_diller",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_modul1_hallo",
-          "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
-          "status": "active"
-        }
-      ]
-    },
     {
       "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
       "count": 3,
@@ -452,36 +330,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=kAeQTw96EMc",
-      "count": 3,
-      "courses": [
-        "course_cog_9"
-      ],
-      "items": [
-        {
-          "id": "item_cog9_vid_basinc_ruzgar_yagis",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
-          "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_09_iklim_turleri",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_09_iklim_turleri",
-          "title": "İklim Türleri",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
-          "title": "İklim Sisteminde Yaşanan Değişiklikler",
-          "status": "active"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
       "count": 3,
       "courses": [
@@ -507,36 +355,6 @@
           "courseId": "course_cog_9",
           "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
           "title": "Coğrafya Biliminin Gelişimi",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
-      "count": 3,
-      "courses": [
-        "course_cog_9"
-      ],
-      "items": [
-        {
-          "id": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
-          "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
-          "title": "Nüfusun Dağılışı ve Hareketleri",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
-          "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
           "status": "active"
         }
       ]
@@ -613,52 +431,6 @@
           "courseId": "course_alm_9",
           "lessonId": "lesson_alm9_topic_05_schulsachen",
           "title": "Schulsachen",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=OUujiEHfams",
-      "count": 2,
-      "courses": [
-        "course_alm_9"
-      ],
-      "items": [
-        {
-          "id": "item_alm9_vid_selamlasma_alfabe",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_modul1_hallo",
-          "title": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
-          "title": "Begrüßung, Verabschiedung und Landeskunde",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=POJqXZr5CW8",
-      "count": 2,
-      "courses": [
-        "course_alm_9"
-      ],
-      "items": [
-        {
-          "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
-          "title": "Familie und Familienmitglieder",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_10_berufe",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_10_berufe",
-          "title": "Berufe",
           "status": "active"
         }
       ]
@@ -797,29 +569,6 @@
           "courseId": "course_fiz_9",
           "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
           "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
-      "count": 2,
-      "courses": [
-        "course_ing_9"
-      ],
-      "items": [
-        {
-          "id": "item_ing9_vid_cumle_kurma",
-          "courseId": "course_ing_9",
-          "lessonId": "lesson_ing9_orientation_revision",
-          "title": "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri",
-          "status": "active"
-        },
-        {
-          "id": "item_ing9_vid_topic_01_theme_1_school_life",
-          "courseId": "course_ing_9",
-          "lessonId": "lesson_ing9_topic_01_theme_1_school_life",
-          "title": "Theme 1: School Life",
           "status": "active"
         }
       ]

@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "8e2a97a4d99988f4",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
     }
   }
 }

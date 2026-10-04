@@ -21,7 +21,7 @@
       "sourceTopic": [
         "Kimyasal Maddelerin Kullanımı ve Güvenlik"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "50d646c2d6e8f6e7",
@@ -33,7 +33,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
       "transcriptFingerprint": "ed0db4f712979546",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı"
+      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
     }
   }
 }

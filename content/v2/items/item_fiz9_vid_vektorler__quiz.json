@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "d4cebe5e27b02e81",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
     }
   }
 }

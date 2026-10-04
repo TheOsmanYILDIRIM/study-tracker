@@ -81,7 +81,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
-      "transcriptFingerprint": "514291f0451e6158"
+      "transcriptFingerprint": "514291f0451e6158",
+      "sharedSource": true,
+      "sharedSourceReason": "Coğrafya biliminin konusu, bölümleri, tarihsel gelişimi ve niçin coğrafya öğrenmeliyiz ünitesi ortak video kapsamı"
     }
   }
 }

@@ -25,8 +25,7 @@
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt",
       "transcriptFingerprint": "1a6b863c3bd960a4",
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.tr.vtt",
-      "sharedSource": true,
-      "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Özer Kiraz",
     "verifiedLectureTitle": "İngilizcede Cümle Kurma Teknikleri #30"

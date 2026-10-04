@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_ulkeler_diller",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=R6O9NcPPB2s",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e1ccaec372a5b2e7",
+      "transcriptFingerprint": "58c6f09ced835962",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,8 +85,7 @@
       "fingerprint": "5a3a147241f7589b",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
-      "sharedSource": true,
-      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
+      "sharedSource": false
     }
   }
 }

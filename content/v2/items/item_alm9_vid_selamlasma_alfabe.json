@@ -25,8 +25,7 @@
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.tr.vtt",
       "transcriptFingerprint": "14c1b0c025d854bf",
       "reviewedOverride": true,
-      "sharedSource": true,
-      "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Meltem Hoca ile Almanca",
     "reviewStatus": "verified",

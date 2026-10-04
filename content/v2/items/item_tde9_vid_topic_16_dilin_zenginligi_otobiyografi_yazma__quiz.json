@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt",
-      "transcriptFingerprint": "3b2beb53ba1ecedd"
+      "transcriptFingerprint": "3b2beb53ba1ecedd",
+      "sharedSource": true,
+      "sharedSourceReason": "Biyografi ve otobiyografi tür özellikleri, tezkire geleneği ve otobiyografi yazma ilkeleri ortak video kapsamı"
     }
   }
 }
