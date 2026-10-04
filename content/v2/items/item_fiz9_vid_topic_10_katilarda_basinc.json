@@ -7,7 +7,7 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Katılarda Basınç ve Basınç Kuvveti",
-  "contentUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
+  "contentUrl": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -27,19 +27,21 @@
         "Sıvılarda Basınç",
         "Açık Hava Basıncı"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "2b71d12fcf09403a",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UeS-p82_rZk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
+      "transcriptFingerprint": "c183fc7df5a93569",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt"
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026"
   }
 }

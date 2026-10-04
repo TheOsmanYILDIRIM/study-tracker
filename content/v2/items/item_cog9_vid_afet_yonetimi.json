@@ -24,7 +24,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt",
-      "transcriptFingerprint": "a9429fca5308feaa"
+      "transcriptFingerprint": "a9429fca5308feaa",
+      "sharedSource": true,
+      "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",

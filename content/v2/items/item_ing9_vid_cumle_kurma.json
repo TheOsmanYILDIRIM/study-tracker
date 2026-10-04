@@ -7,25 +7,28 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri",
-  "contentUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
+  "contentUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Özer Kiraz",
+    "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L18",
       "sourceSection": "1. Hafta: Orientation & Okul Yaşamına Giriş",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "595d65faa853e4c2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=k5jG583Yl3U",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt",
+      "transcriptFingerprint": "1a6b863c3bd960a4",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı"
     },
-    "provider": "Özer Kiraz"
+    "provider": "Özer Kiraz",
+    "verifiedLectureTitle": "İngilizcede Cümle Kurma Teknikleri #30"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Hareket ve Hareket Türleri (Öteleme, Dönme, Titreşim & Konum-Zaman)",
-  "contentUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
+  "contentUrl": "https://www.youtube.com/watch?v=Qp211SqOGJ4",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -25,19 +25,21 @@
       "sourceTopic": [
         "Hareket ve Hareket Türleri"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "a8740b024faed0d6",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=b4wS9p9s9gE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Qp211SqOGJ4",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.txt",
+      "transcriptFingerprint": "9c3a5cdd2afe45a6",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.tr.vtt"
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 6. Gün | Hareket - 1 | Temel Kavramlar | 2026"
   }
 }

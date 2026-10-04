@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Describing Physical Appearance and Personality Traits",
-  "contentUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+  "contentUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
   "publishingStatus": "active",
   "payload": {
     "teacher": "Özer Kiraz",
@@ -16,16 +16,17 @@
       "sourceSection": "Theme 3: Personal Life",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "5d544133f66ebdeb",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=x7uI_R3xIUk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
+      "transcriptFingerprint": "edd896d72a92bd9c",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt"
     },
-    "provider": "Özer Kiraz"
+    "provider": "Özer Kiraz",
+    "verifiedLectureTitle": "İngilizce Sıfatlar Konu Anlatımı #15"
   }
 }

@@ -1,129 +1,95 @@
 {
   "totalVideos": 174,
   "youtubeVideos": 170,
-  "fetched": 78,
-  "reused": 67,
-  "missing": 1,
-  "failed": 24,
+  "fetched": 0,
+  "reused": 170,
+  "missing": 0,
+  "failed": 0,
   "details": [
     {
       "itemId": "item_alm9_vid_kendini_tanitma",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_sayilar",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_sayilar.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_schulsachen_artikel",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_selamlasma_alfabe",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_selamlasma_alfabe.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_05_schulsachen",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_06_im_klassenzimmer",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_08_stundenplan_und_schule",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_10_berufe",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_12_uhrzeiten",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt"
     },
     {
       "itemId": "item_alm9_vid_ulkeler_diller",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
-      "fingerprint": "e1ccaec372a5b2e7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt"
     },
     {
       "itemId": "item_biyo9_vid_enzimler_nukleik",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.txt",
-      "fingerprint": "a7e85c308adb2be2"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.txt"
     },
     {
       "itemId": "item_biyo9_vid_hucre_organeller",
@@ -142,7 +108,8 @@
     },
     {
       "itemId": "item_biyo9_vid_siniflandirma",
-      "status": "missing"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.txt"
     },
     {
       "itemId": "item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi",
@@ -191,29 +158,23 @@
     },
     {
       "itemId": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_afet_yonetimi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
-      "fingerprint": "a9429fca5308feaa"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_atmosfer_ve_sicaklik",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
-      "fingerprint": "495f9cf4d24ea6bd"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_basinc_ruzgar_yagis",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
-      "fingerprint": "aab5f78e7ef39d5d"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_doga_insan",
@@ -227,10 +188,8 @@
     },
     {
       "itemId": "item_cog9_vid_mekansal_dusunme",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.txt",
-      "fingerprint": "c3de10c38f4b78ec"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_nufus_ve_yerlesme",
@@ -239,10 +198,8 @@
     },
     {
       "itemId": "item_cog9_vid_tarihsel_gelisim",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.txt",
-      "fingerprint": "514291f0451e6158"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
@@ -266,38 +223,28 @@
     },
     {
       "itemId": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
-      "fingerprint": "495f9cf4d24ea6bd"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_09_iklim_turleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
-      "fingerprint": "aab5f78e7ef39d5d"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
-      "fingerprint": "aab5f78e7ef39d5d"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
-      "fingerprint": "685ca31f6189386c"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt",
-      "fingerprint": "685ca31f6189386c"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
@@ -306,10 +253,8 @@
     },
     {
       "itemId": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.txt",
-      "fingerprint": "b6f5548490fc2f0f"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.txt"
     },
     {
       "itemId": "item_cog9_vid_topic_15_ekonomik_faaliyetleri_etkileyen_cografi_faktorler",
@@ -333,22 +278,18 @@
     },
     {
       "itemId": "item_fiz9_vid_alt_dallar",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt",
-      "fingerprint": "950a6c9a5591fd65"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_basinc_prensipleri",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_dogadaki_kuvvetler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
-      "fingerprint": "532569ac8750adbf"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_fizik_giris",
@@ -357,29 +298,23 @@
     },
     {
       "itemId": "item_fiz9_vid_hal_degisimi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
-      "fingerprint": "751b67c63da7e410"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_isi_sicaklik_kavram",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
-      "fingerprint": "55aad1981b5f804a"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_kaldirma_kuvveti",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_01_fizik_bilimi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
-      "fingerprint": "950a6c9a5591fd65"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
@@ -388,42 +323,38 @@
     },
     {
       "itemId": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
-      "fingerprint": "532569ac8750adbf"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_07_vektorler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.txt",
-      "fingerprint": "e8c5e91b6c42e91e"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_09_hareket_ve_hareket_turleri",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_10_katilarda_basinc",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_11_sivilarda_basinc",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_14_bernoulli_ilkesi",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
@@ -437,18 +368,18 @@
     },
     {
       "itemId": "item_fiz9_vid_topic_18_isil_denge",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_topic_20_isi_iletim_hizi",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt"
     },
     {
       "itemId": "item_fiz9_vid_vektorler",
@@ -457,53 +388,53 @@
     },
     {
       "itemId": "item_ing9_vid_appearance_personality",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_cumle_kurma",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_modals",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_modals.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_simple_present",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_simple_present.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_topic_01_theme_1_school_life",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_topic_06_theme_6_life_in_the_city_country.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_topic_07_theme_7_life_in_the_world_nature",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_topic_08_theme_8_life_in_the_universe_future",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt"
     },
     {
       "itemId": "item_ing9_vid_used_to",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_ing9_vid_used_to.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_atom_modelleri",
@@ -512,24 +443,18 @@
     },
     {
       "itemId": "item_kim9_vid_bag_turleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
-      "fingerprint": "e0e330ee30a12087"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_guvenlik_sembolleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
-      "fingerprint": "ed0db4f712979546"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_katilar_ve_sivilar",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt",
-      "fingerprint": "384dfc22c8b7c3e0"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_kimya_bilimi",
@@ -538,17 +463,13 @@
     },
     {
       "itemId": "item_kim9_vid_periyodik_ozellikler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
-      "fingerprint": "6ce56406f481cfb3"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
-      "fingerprint": "ed0db4f712979546"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_04_atom_orbitalleri_ve_elektron_dizilimi",
@@ -562,17 +483,13 @@
     },
     {
       "itemId": "item_kim9_vid_topic_06_periyodik_ozellikler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.txt",
-      "fingerprint": "6ce56406f481cfb3"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_07_metalik_bag",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
-      "fingerprint": "bef8bd6ebb81bf54"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_08_iyonik_bag",
@@ -591,10 +508,8 @@
     },
     {
       "itemId": "item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt",
-      "fingerprint": "744af4c1e15053fc"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_11_molekul_polarligi_ve_apolarligi.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
@@ -608,10 +523,8 @@
     },
     {
       "itemId": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
-      "fingerprint": "49fb8f209e6affb0"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
@@ -620,17 +533,13 @@
     },
     {
       "itemId": "item_kim9_vid_yesil_kimya",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
-      "fingerprint": "7c070ce680ca133c"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt"
     },
     {
       "itemId": "item_kim9_vid_zayif_etkilesimler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
-      "fingerprint": "34a035e730bc990b"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_algoritma_temelleri",
@@ -649,17 +558,13 @@
     },
     {
       "itemId": "item_mat9_vid_benzerlik_kosullari",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
-      "fingerprint": "1784cbe68f7fba31"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_cebirsel_ispat",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt",
-      "fingerprint": "1184ee0b138df4fd"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_geometrik_donusumler",
@@ -673,10 +578,8 @@
     },
     {
       "itemId": "item_mat9_vid_mantik_baglaclari",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.txt",
-      "fingerprint": "b00eee0f3fe03369"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_olasilik_turleri",
@@ -700,10 +603,8 @@
     },
     {
       "itemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt",
-      "fingerprint": "1184ee0b138df4fd"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
@@ -717,10 +618,8 @@
     },
     {
       "itemId": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt",
-      "fingerprint": "3389c7e3a5ebb774"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
@@ -734,10 +633,8 @@
     },
     {
       "itemId": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
-      "fingerprint": "c1689ad19c926f66"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
@@ -746,10 +643,8 @@
     },
     {
       "itemId": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
-      "fingerprint": "ee1923b0c53d5dbb"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_topic_19_deneysel_olasilik",
@@ -758,10 +653,8 @@
     },
     {
       "itemId": "item_mat9_vid_ucgen_esitsizligi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
-      "fingerprint": "ec3f8b6edc092099"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt"
     },
     {
       "itemId": "item_mat9_vid_ucgende_aci",
@@ -795,10 +688,8 @@
     },
     {
       "itemId": "item_tar9_vid_anadolu_ve_turkler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.txt",
-      "fingerprint": "083232b309e687da"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_birey_toplum",
@@ -817,87 +708,63 @@
     },
     {
       "itemId": "item_tar9_vid_orta_cag_gocler_devletler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
-      "fingerprint": "4cda05dbcaa616a7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_orta_cag_ticaret_yollari",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
-      "fingerprint": "4cda05dbcaa616a7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_tarim_devrimi_mezopotamya",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.txt",
-      "fingerprint": "e8841adfdc1f3a65"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_tarim_devrimi_mezopotamya.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.txt",
-      "fingerprint": "3e5f752c04d5c2e0"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.txt",
-      "fingerprint": "a29c9a2b11abb467"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt",
-      "fingerprint": "e8841adfdc1f3a65"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
-      "fingerprint": "028ab43911cbe10f"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt",
-      "fingerprint": "76cabd323bdcaa9e"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
-      "fingerprint": "76cabd323bdcaa9e"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
-      "fingerprint": "4cda05dbcaa616a7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
-      "fingerprint": "4cda05dbcaa616a7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
-      "fingerprint": "4cda05dbcaa616a7"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt"
     },
     {
       "itemId": "item_tar9_vid_yardimci_bilimler",
@@ -906,15 +773,13 @@
     },
     {
       "itemId": "item_tde9_vid_edebiyat_guzel_sanatlar",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_hikaye_turleri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_soz_sanatlari",
@@ -928,20 +793,18 @@
     },
     {
       "itemId": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
-      "fingerprint": "ce3abaffa6c6dffb"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
-      "status": "error",
-      "message": "Command failed: yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs tr,tr-* --sub-format vtt --no-playlist --quiet --no-warnings -o /data/data/com.termux/files/home/projects/study-tracke"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
@@ -950,67 +813,49 @@
     },
     {
       "itemId": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
-      "fingerprint": "ce3abaffa6c6dffb"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
-      "fingerprint": "ce3abaffa6c6dffb"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme.tr.txt"
     },
     {
       "itemId": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
-      "status": "fetched",
-      "kind": "subtitle",
-      "path": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt",
-      "fingerprint": "b942c35900634519"
+      "status": "reused",
+      "path": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt"
     }
   ],
-  "generatedAt": "2026-10-04T07:02:37.877Z"
+  "generatedAt": "2026-10-04T07:43:17.200Z"
 }

@@ -7,7 +7,7 @@
   "displayLabel": "19.1",
   "orderKey": 1000,
   "title": "Isı Aktarım Yolları (İletim, Konveksiyon, Işıma)",
-  "contentUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
+  "contentUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -22,19 +22,21 @@
       "sourceTopic": [
         "Isı Aktarım Yolları"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "a356dd6da629eec6",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Gw0oaj9w5iN",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
+      "transcriptFingerprint": "8306abb2ef86d11e",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.tr.vtt"
+    },
+    "teacher": "Altuğ Güneş FİZİK",
+    "verifiedLectureTitle": "9. Sınıf Yeni Fizik - Enerji 6. Adım /  Isı İletim Yolları"
   }
 }

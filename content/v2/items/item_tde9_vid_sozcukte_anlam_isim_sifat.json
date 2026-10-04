@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Sözcük Türleri: İsimler, Sıfatlar, Zamirler ve Zarflar",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=nwxahzEub9I",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -25,14 +25,17 @@
       "sourceTheme": "3.TEMA ANLAMIN YAPI TAŞLARI",
       "videoSearchScore": 4.97,
       "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=nwxahzEub9I",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
+      "transcriptFingerprint": "48b2f9ed812159e9",
+      "reviewedOverride": true
     },
-    "provider": "Rüştü Hoca ile Türkçe",
-    "topic": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı"
+    "provider": "Deniz Hoca",
+    "topic": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı",
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "SIFATLAR Konu Anlatımı 📌 36 GÜNDE TÜRKÇE KAMPI | 7.Gün"
   }
 }

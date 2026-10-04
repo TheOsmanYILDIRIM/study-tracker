@@ -7,25 +7,26 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Modals: Can, Must, Have to Farkı ve Kullanımı",
-  "contentUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+  "contentUrl": "https://www.youtube.com/watch?v=pGb-ujyyuQE",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Özer Kiraz",
+    "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L40",
       "sourceSection": "3. Hafta: Yetenek ve Zorunluluk Kipleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "08dae6fa8fdeda08",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=8lJm2fP83vU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pGb-ujyyuQE",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_modals.tr.txt",
+      "transcriptFingerprint": "62deded9ca0e5664",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_modals.tr.tr.vtt"
     },
-    "provider": "Özer Kiraz"
+    "provider": "Özer Kiraz",
+    "verifiedLectureTitle": "Must, Should, Have to Kullanımı #36"
   }
 }

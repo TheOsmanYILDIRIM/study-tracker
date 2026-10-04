@@ -33,7 +33,9 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_18_butuncul_afet_yonetimi.tr.tr.vtt",
       "transcriptFingerprint": "a9429fca5308feaa",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",

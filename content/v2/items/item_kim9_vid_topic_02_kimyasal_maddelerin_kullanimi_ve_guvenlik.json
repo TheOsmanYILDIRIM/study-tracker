@@ -31,7 +31,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
-      "transcriptFingerprint": "ed0db4f712979546"
+      "transcriptFingerprint": "ed0db4f712979546",
+      "sharedSource": true,
+      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı"
     }
   }
 }

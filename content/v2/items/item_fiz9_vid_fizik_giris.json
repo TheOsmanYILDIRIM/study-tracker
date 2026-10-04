@@ -23,7 +23,9 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
       "transcriptFingerprint": "950a6c9a5591fd65",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı"
     }
   }
 }

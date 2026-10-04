@@ -7,10 +7,10 @@
   "displayLabel": "16.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Otobiyografi Yazma",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Dilin Zenginliği: Otobiyografi Yazma",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,12 +30,17 @@
       "videoCandidateTitle": null,
       "fingerprint": "1196ee5c0603a2b1",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
-    }
+      "transcriptFingerprint": "3b2beb53ba1ecedd",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Biyografi ve otobiyografi tür özellikleri ve yazma kuralları ortak video kapsamı"
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "Biyografi - Otobiyografi - Tezkire 📌/ 9.Sınıf Edebiyat Biyografi Ünitesi / Deniz Hoca + PDF 📘📕"
   }
 }

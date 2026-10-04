@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=GQvSuJ-pL2M",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,12 +27,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "b8921c881a371c12",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GQvSuJ-pL2M",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
-    }
+      "transcriptFingerprint": "794e62530bbd8ebe",
+      "reviewedOverride": true
+    },
+    "teacher": "Türkçe Saati",
+    "verifiedLectureTitle": "Hikâyede Kavramlar ve Yapı Unsurları / 3. Tema / Anlamın Yapı Taşları /  9. Sınıf/2025 Yeni Müfredat"
   }
 }

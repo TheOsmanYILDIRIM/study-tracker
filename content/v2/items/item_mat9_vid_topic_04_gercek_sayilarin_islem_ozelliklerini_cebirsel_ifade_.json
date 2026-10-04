@@ -34,7 +34,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_.tr.tr.vtt",
-      "transcriptFingerprint": "1184ee0b138df4fd"
+      "transcriptFingerprint": "1184ee0b138df4fd",
+      "sharedSource": true,
+      "sharedSourceReason": "Gerçek sayıların işlem özellikleri ve cebirsel ispat yöntemleri ortak video kapsamı"
     }
   }
 }

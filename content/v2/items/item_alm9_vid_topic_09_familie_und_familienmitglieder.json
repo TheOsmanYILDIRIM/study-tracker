@@ -7,10 +7,10 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Familie und Familienmitglieder",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & MEB Maarif Modeli",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Familie und Familienmitglieder",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -29,19 +29,22 @@
         "Jetzt seid ihr dran!: Ratespiel: Familie Schulze",
         "Berkes Familie: Tims Familie"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "e7a396de87e57ffa",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "ca9fa7525984ad57",
+      "reviewedOverride": true
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE"
   }
 }

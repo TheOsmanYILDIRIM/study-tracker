@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
-  "contentUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
+  "contentUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,16 +15,18 @@
       "sourceSection": "Canlılar Dünyası",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "6442c0e6c046456f",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BeNdzk5wz7k",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "missing",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "YouTube videosunda erişilebilir Türkçe altyazı/otomatik altyazı bulunamadı."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.txt",
+      "transcriptFingerprint": "199ea93e924fce60",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt"
     },
-    "provider": "Tonguç Akademi"
+    "provider": "Dr.Biyoloji",
+    "teacher": "Dr.Biyoloji",
+    "verifiedLectureTitle": "Sınıflandırmaya Giriş | 9. Sınıf Maarif Model | Dr. Biyoloji"
   }
 }

@@ -33,7 +33,9 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.tr.vtt",
       "transcriptFingerprint": "685ca31f6189386c",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",

@@ -7,10 +7,10 @@
   "displayLabel": "14.1",
   "orderKey": 1000,
   "title": "Üç Üst Âlem Sistemi ve Canlı Grupları",
-  "contentUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+  "contentUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Biosem Biyoloji",
+    "provider": "Dr.Biyoloji",
     "topic": "Üç Üst Âlem Sistemi ve Canlı Grupları",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,18 +23,20 @@
       "sourceTopic": [
         "Üç Üst Âlem (Domain) Sisteminde Yer Alan Canlılar ve Genel • Özellikleri [Bakteriler, Arkeler, Ökaryotlar (Protistler, Bitkiler, Mantarlar, Hayvanlar)]"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7b54e005ca676c94",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=qzdFXvCUoqZHHcCSyHkwt31yXZef9RGaqZNRk3mUlyA5PThSOD4BdwQ6Bprofq_JcCYT0f1mqjt8knh7fWz1cTN9C8Ty9GyItvCnys3bdEkcOTNsGEaTqV0Mhrbv4xxee",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
+      "transcriptFingerprint": "88134c031c8b28bc",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt"
+    },
+    "teacher": "Dr.Biyoloji",
+    "verifiedLectureTitle": "Canlıların Sınıflandırılması | Dr. Biyoloji | Dönem 2026 - 2027"
   }
 }

@@ -25,7 +25,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "4cda05dbcaa616a7",
+      "sharedSource": true,
+      "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı"
     },
     "provider": "Benim Hocam",
     "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler"

@@ -24,7 +24,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
-      "transcriptFingerprint": "751b67c63da7e410"
+      "transcriptFingerprint": "751b67c63da7e410",
+      "sharedSource": true,
+      "sharedSourceReason": "Hâl değişimi ve sıcaklık grafikleri konusu ortak video kapsamı"
     },
     "provider": "Özcan Aykın FİZİK"
   }

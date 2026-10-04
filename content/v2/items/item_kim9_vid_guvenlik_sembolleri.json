@@ -22,7 +22,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
-      "transcriptFingerprint": "ed0db4f712979546"
+      "transcriptFingerprint": "ed0db4f712979546",
+      "sharedSource": true,
+      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı"
     },
     "provider": "Meschemy Kimya"
   }

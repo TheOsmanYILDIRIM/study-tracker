@@ -29,7 +29,9 @@
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.tr.vtt",
       "transcriptFingerprint": "32ccc8dd260d8ebe",
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı"
     },
     "provider": "Benim Hocam",
     "verifiedLectureTitle": "3) Tarihe Yardımcı Bilim Dalları ve Takvimler"

@@ -7,7 +7,7 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
-  "contentUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+  "contentUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,17 +15,21 @@
       "sourceSection": "Kaldırma Kuvveti ve Bernoulli",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "f597e4070d0f7987",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
+      "transcriptFingerprint": "c16d306cf7d143df",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı"
     },
-    "provider": "Özcan Aykın FİZİK"
+    "provider": "Özcan Aykın FİZİK",
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
   }
 }

@@ -33,7 +33,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.tr.vtt",
-      "transcriptFingerprint": "685ca31f6189386c"
+      "transcriptFingerprint": "685ca31f6189386c",
+      "sharedSource": true,
+      "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",

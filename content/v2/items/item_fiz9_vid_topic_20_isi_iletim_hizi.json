@@ -7,7 +7,7 @@
   "displayLabel": "20.1",
   "orderKey": 1000,
   "title": "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık",
-  "contentUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
+  "contentUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -21,19 +21,21 @@
       "sourceTopic": [
         "Isı İletim Hızı"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "721e3a4904c0d2e6",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=GIg0fdy68F2",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
+      "transcriptFingerprint": "7e71f18b7d18be73",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt"
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 6 | Enerji İletim Yolları ve Hızı | 2026"
   }
 }

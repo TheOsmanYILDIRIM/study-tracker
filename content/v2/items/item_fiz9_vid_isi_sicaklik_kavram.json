@@ -24,7 +24,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
-      "transcriptFingerprint": "55aad1981b5f804a"
+      "transcriptFingerprint": "55aad1981b5f804a",
+      "sharedSource": true,
+      "sharedSourceReason": "İç enerji, ısı, sıcaklık, öz ısı ve ısı sığası kavramları ortak video kapsamı"
     },
     "provider": "Özcan Aykın FİZİK"
   }

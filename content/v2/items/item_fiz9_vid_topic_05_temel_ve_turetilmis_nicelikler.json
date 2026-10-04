@@ -33,7 +33,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
-      "transcriptFingerprint": "532569ac8750adbf"
+      "transcriptFingerprint": "532569ac8750adbf",
+      "sharedSource": true,
+      "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı"
     }
   }
 }

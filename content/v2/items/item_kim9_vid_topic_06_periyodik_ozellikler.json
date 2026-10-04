@@ -33,7 +33,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.tr.vtt",
-      "transcriptFingerprint": "6ce56406f481cfb3"
+      "transcriptFingerprint": "6ce56406f481cfb3",
+      "sharedSource": true,
+      "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı"
     }
   }
 }

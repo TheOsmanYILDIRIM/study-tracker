@@ -7,10 +7,10 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Begrüßung, Verabschiedung und Landeskunde",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & MEB Maarif Modeli",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Begrüßung, Verabschiedung und Landeskunde",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,19 +25,24 @@
         "Wie heißt du?: Jetzt seid ihr dran!: Rund um den Tag!",
         "Wie ist dein Name?: Hallo, wie geht es dir?: Jetzt seid ihr dran!"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "841d70169514c38b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=OUujiEHfams",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "14c1b0c025d854bf",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı"
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Almanca Harfleri Animasyon-2.DERS ALMANCA | 9.sınıf"
   }
 }

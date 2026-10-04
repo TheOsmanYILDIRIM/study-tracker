@@ -22,7 +22,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb"
+      "transcriptFingerprint": "ce3abaffa6c6dffb",
+      "sharedSource": true,
+      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
     }
   }
 }

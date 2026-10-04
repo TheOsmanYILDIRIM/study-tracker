@@ -35,7 +35,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci.tr.tr.vtt",
-      "transcriptFingerprint": "3e5f752c04d5c2e0"
+      "transcriptFingerprint": "3e5f752c04d5c2e0",
+      "sharedSource": true,
+      "sharedSourceReason": "Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı"
     },
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "verifiedLectureTitle": "3) Tarihsel Bilginin Üretim Süreci"

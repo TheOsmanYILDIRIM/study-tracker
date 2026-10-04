@@ -7,10 +7,10 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
-  "contentUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+  "contentUrl": "https://www.youtube.com/watch?v=1_pJYukLRcE",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "MEB / Edebiyat TV",
     "topic": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,17 +25,20 @@
         "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme",
         "KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme • OKUL TEMELLİ PLANLAMA*"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "7f3b56f0dc074870",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1_pJYukLRcE",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi.tr.txt",
+      "transcriptFingerprint": "63047d6f804f39f5",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi.tr.tr.vtt",
+      "reviewedOverride": true
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "METİN TÜRLERİ - Edebi-Öğretici Metin Özellikleri/ 9.Sınıf 2.Tema / Deniz Hoca +PDF📝"
   }
 }

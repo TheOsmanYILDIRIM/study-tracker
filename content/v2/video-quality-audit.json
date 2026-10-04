@@ -1,34 +1,35 @@
 {
-  "generatedAt": "2026-10-04T07:02:55.920Z",
+  "generatedAt": "2026-10-04T07:43:17.873Z",
   "totalVideos": 174,
-  "uniqueUrls": 112,
+  "uniqueUrls": 131,
   "noUrlCount": 0,
   "statusDistribution": {
     "active": 174
   },
   "providerDistribution": {
-    "Almanca Kolay (Erhan Özdemir)": 7,
-    "Almanca Kolay & MEB Maarif Modeli": 5,
-    "Almanca Kolay & Meltem Hoca": 2,
-    "Almanca Kolay & Tonguç Akademi": 1,
+    "Almanca Kolay (Erhan Özdemir)": 2,
+    "Meltem Hoca ile Almanca": 12,
     "Almanca Kolay & MEB EBA": 1,
+    "Almanca Kolay & MEB Maarif Modeli": 1,
     "Khan Academy": 4,
     "Dr. Biyoloji": 13,
-    "Tonguç Akademi": 1,
-    "Biosem Biyoloji": 1,
-    "unassigned": 28,
-    "Coğrafyanın Kodları": 12,
+    "Dr.Biyoloji": 2,
+    "unassigned": 16,
+    "Coğrafyanın Kodları": 14,
     "Özcan Aykın FİZİK": 20,
     "Fizikfinito": 2,
-    "Özer Kiraz": 5,
-    "Özer Kiraz & MEB Maarif Modeli": 1,
-    "MEB EBA & Tonguç Akademi": 4,
+    "Özer Kiraz": 6,
+    "MEB / İngilizce TV": 4,
     "Meschemy Kimya": 17,
     "Kimya Adası": 3,
     "Kimyanın Kimyası": 1,
     "Rehber Matematik": 27,
-    "Benim Hocam": 17,
-    "Rüştü Hoca ile Türkçe": 2
+    "Benim Hocam": 14,
+    "Mehmet Celal ÖZYILDIZ": 3,
+    "Deniz Hoca": 7,
+    "MEB / Edebiyat TV": 1,
+    "Rüştü Hoca ile Türkçe": 1,
+    "MEB Maarif Modeli": 3
   },
   "perCourse": {
     "course_alm_9": {
@@ -279,14 +280,14 @@
     }
   },
   "transcriptCoverage": {
-    "hasTranscriptPathCount": 145,
-    "hasTranscriptFingerprintCount": 145,
-    "missingTranscriptCount": 29,
+    "hasTranscriptPathCount": 170,
+    "hasTranscriptFingerprintCount": 170,
+    "missingTranscriptCount": 4,
     "manifestSummary": {
-      "fetched": 78,
-      "reused": 67,
-      "missing": 1,
-      "failed": 24,
+      "fetched": 0,
+      "reused": 170,
+      "missing": 0,
+      "failed": 0,
       "youtubeVideos": 170
     }
   },
@@ -294,11 +295,55 @@
   "missingProvenance": [],
   "changedUrlVsTranscriptMismatchesCount": 0,
   "changedUrlVsTranscriptMismatches": [],
-  "duplicateUrlGroupsCount": 27,
+  "duplicateUrlGroupsCount": 31,
   "duplicateUrlGroups": [
     {
+      "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "count": 5,
+      "courses": [
+        "course_tde_9"
+      ],
+      "items": [
+        {
+          "id": "item_tde9_vid_edebiyat_guzel_sanatlar",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_soz_sanatlari",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "title": "TDE: Metinde Anlam & Söz Sanatları",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+          "title": "Anlam Arayışı: Şiir Yazma",
+          "status": "active"
+        }
+      ]
+    },
+    {
       "url": "https://www.youtube.com/watch?v=hm1tQdSExLA",
-      "count": 16,
+      "count": 4,
       "courses": [
         "course_alm_9"
       ],
@@ -311,94 +356,10 @@
           "status": "active"
         },
         {
-          "id": "item_alm9_vid_sayilar",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_modul1_hallo",
-          "title": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_schulsachen_artikel",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_schule_und_alltag",
-          "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_selamlasma_alfabe",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_modul1_hallo",
-          "title": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
-          "title": "Begrüßung, Verabschiedung und Landeskunde",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
-          "title": "Zahlen 0–20 und Telefonnummer",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_04_alter_alphabet_und_buchstabieren",
-          "title": "Alter, Alphabet und Buchstabieren",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_05_schulsachen",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_05_schulsachen",
-          "title": "Schulsachen",
-          "status": "active"
-        },
-        {
           "id": "item_alm9_vid_topic_06_im_klassenzimmer",
           "courseId": "course_alm_9",
           "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
           "title": "Im Klassenzimmer",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_08_stundenplan_und_schule",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_08_stundenplan_und_schule",
-          "title": "Stundenplan und Schule",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
-          "title": "Familie und Familienmitglieder",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_10_berufe",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_10_berufe",
-          "title": "Berufe",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_11_freizeit_und_aktivitaten",
-          "title": "Freizeit und Aktivitäten",
-          "status": "active"
-        },
-        {
-          "id": "item_alm9_vid_topic_12_uhrzeiten",
-          "courseId": "course_alm_9",
-          "lessonId": "lesson_alm9_topic_12_uhrzeiten",
-          "title": "Uhrzeiten",
           "status": "active"
         },
         {
@@ -418,87 +379,8 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
-      "count": 10,
-      "courses": [
-        "course_tde_9"
-      ],
-      "items": [
-        {
-          "id": "item_tde9_vid_hikaye_turleri",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
-          "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_sozcukte_anlam_isim_sifat",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_dilin_yapisi_ve_roman",
-          "title": "Sözcük Türleri: İsimler, Sıfatlar, Zamirler ve Zarflar",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
-          "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
-          "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
-          "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
-          "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
-          "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
-          "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
-          "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
-          "title": "Dilin Zenginliği: Otobiyografi Yazma",
-          "status": "active"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
-      "count": 5,
+      "count": 4,
       "courses": [
         "course_tar_9"
       ],
@@ -530,19 +412,12 @@
           "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
           "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
           "status": "active"
-        },
-        {
-          "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
-          "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
-          "status": "active"
         }
       ]
     },
     {
       "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
-      "count": 4,
+      "count": 3,
       "courses": [
         "course_cog_9"
       ],
@@ -552,13 +427,6 @@
           "courseId": "course_cog_9",
           "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
           "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
-          "status": "active"
-        },
-        {
-          "id": "item_cog9_vid_nufus_ve_yerlesme",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
-          "title": "Nüfus Piramitleri, Göçler ve Yerleşme Dokuları",
           "status": "active"
         },
         {
@@ -573,43 +441,6 @@
           "courseId": "course_cog_9",
           "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
           "title": "Bütüncül Afet Yönetimi",
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
-      "count": 4,
-      "courses": [
-        "course_tde_9"
-      ],
-      "items": [
-        {
-          "id": "item_tde9_vid_soz_sanatlari",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_metin_ve_anlam",
-          "title": "TDE: Metinde Anlam & Söz Sanatları",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
-          "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
-          "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
-          "status": "active"
-        },
-        {
-          "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
-          "title": "Anlam Arayışı: Şiir Yazma",
           "status": "active"
         }
       ]
@@ -735,61 +566,93 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-      "count": 3,
+      "url": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "count": 2,
       "courses": [
-        "course_fiz_9"
+        "course_alm_9"
       ],
       "items": [
         {
-          "id": "item_fiz9_vid_dogadaki_kuvvetler",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_topic_08_dogadaki_temel_kuvvetler",
-          "title": "Doğadaki 4 Temel Kuvvet ve Temas Gerektiren/Gerektirmeyen Kuvvetler",
+          "id": "item_alm9_vid_sayilar",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
           "status": "active"
         },
         {
-          "id": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
-          "title": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
-          "status": "active"
-        },
-        {
-          "id": "item_fiz9_vid_vektorler",
-          "courseId": "course_fiz_9",
-          "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
-          "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
+          "id": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
+          "title": "Zahlen 0–20 und Telefonnummer",
           "status": "active"
         }
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=W45s5vWz3_c",
-      "count": 3,
+      "url": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "count": 2,
       "courses": [
-        "course_tde_9"
+        "course_alm_9"
       ],
       "items": [
         {
-          "id": "item_tde9_vid_edebiyat_guzel_sanatlar",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_metin_ve_anlam",
-          "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+          "id": "item_alm9_vid_schulsachen_artikel",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_schule_und_alltag",
+          "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
           "status": "active"
         },
         {
-          "id": "item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_03_sozun_inceligi_mulakat_dinleme_izleme",
-          "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
+          "id": "item_alm9_vid_topic_05_schulsachen",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_05_schulsachen",
+          "title": "Schulsachen",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OUujiEHfams",
+      "count": 2,
+      "courses": [
+        "course_alm_9"
+      ],
+      "items": [
+        {
+          "id": "item_alm9_vid_selamlasma_alfabe",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
           "status": "active"
         },
         {
-          "id": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
-          "courseId": "course_tde_9",
-          "lessonId": "lesson_tde9_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
-          "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
+          "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "title": "Begrüßung, Verabschiedung und Landeskunde",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "count": 2,
+      "courses": [
+        "course_alm_9"
+      ],
+      "items": [
+        {
+          "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+          "title": "Familie und Familienmitglieder",
+          "status": "active"
+        },
+        {
+          "id": "item_alm9_vid_topic_10_berufe",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_10_berufe",
+          "title": "Berufe",
           "status": "active"
         }
       ]
@@ -818,24 +681,24 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "url": "https://www.youtube.com/watch?v=dkwbOGhBedc",
       "count": 2,
       "courses": [
-        "course_cog_9"
+        "course_fiz_9"
       ],
       "items": [
         {
-          "id": "item_cog9_vid_atmosfer_ve_sicaklik",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
-          "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
+          "id": "item_fiz9_vid_basinc_prensipleri",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+          "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
           "status": "active"
         },
         {
-          "id": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
-          "courseId": "course_cog_9",
-          "lessonId": "lesson_cog9_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
-          "title": "Hava Olayları ve Günlük Hayata Etkileri",
+          "id": "item_fiz9_vid_topic_11_sivilarda_basinc",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
+          "title": "Sıvılarda Basınç ve Pascal Prensibi",
           "status": "active"
         }
       ]
@@ -887,7 +750,7 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "count": 2,
       "courses": [
         "course_fiz_9"
@@ -910,7 +773,30 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=k5jG583Yl3U",
+      "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "count": 2,
+      "courses": [
+        "course_fiz_9"
+      ],
+      "items": [
+        {
+          "id": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+          "title": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
+          "status": "active"
+        },
+        {
+          "id": "item_fiz9_vid_vektorler",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+          "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
       "count": 2,
       "courses": [
         "course_ing_9"
@@ -1048,7 +934,7 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
       "count": 2,
       "courses": [
         "course_mat_9"
@@ -1062,10 +948,10 @@
           "status": "active"
         },
         {
-          "id": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+          "id": "item_mat9_vid_topic_09_geometrik_donusumler",
           "courseId": "course_mat_9",
-          "lessonId": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
-          "title": "Benzer Üçgenler Oluşturma",
+          "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+          "title": "Geometrik Dönüşümler",
           "status": "active"
         }
       ]
@@ -1140,24 +1026,70 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
       "count": 2,
       "courses": [
-        "course_tar_9"
+        "course_tde_9"
       ],
       "items": [
         {
-          "id": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
-          "title": "Eski Çağ Medeniyetlerinde Hukuk",
+          "id": "item_tde9_vid_hikaye_turleri",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
+          "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
           "status": "active"
         },
         {
-          "id": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
-          "courseId": "course_tar_9",
-          "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
-          "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+          "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "count": 2,
+      "courses": [
+        "course_tde_9"
+      ],
+      "items": [
+        {
+          "id": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "count": 2,
+      "courses": [
+        "course_tde_9"
+      ],
+      "items": [
+        {
+          "id": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+          "status": "active"
+        },
+        {
+          "id": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "title": "Dilin Zenginliği: Otobiyografi Yazma",
           "status": "active"
         }
       ]

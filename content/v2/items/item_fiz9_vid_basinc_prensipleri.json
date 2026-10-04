@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
-  "contentUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
+  "contentUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,17 +15,19 @@
       "sourceSection": "Akışkanlar ve Basınç",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "8dc3509e9793b3d3",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=S2fXGO-9Cdk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
+      "transcriptFingerprint": "f84f31b764e1a206",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt"
     },
-    "provider": "Özcan Aykın FİZİK"
+    "provider": "Özcan Aykın FİZİK",
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026"
   }
 }

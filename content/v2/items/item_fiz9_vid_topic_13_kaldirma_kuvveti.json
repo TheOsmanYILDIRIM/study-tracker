@@ -7,7 +7,7 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)",
-  "contentUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+  "contentUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -22,19 +22,23 @@
       "sourceTopic": [
         "Kaldırma Kuvveti"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "39daf54d66b918d2",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=FpC4nmFmSG6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt",
+      "transcriptFingerprint": "c16d306cf7d143df",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı"
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
   }
 }

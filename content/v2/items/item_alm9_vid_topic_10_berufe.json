@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Berufe",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Berufe",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,19 +23,22 @@
         "Was sind eure Eltern von Beruf?: Jetzt seid ihr dran!",
         "Traumberufe: Berühmte Personen und ihre Berufe: Fertigkeitstraining"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "a5e031267e28ad85",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "ca9fa7525984ad57",
+      "reviewedOverride": true
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE"
   }
 }

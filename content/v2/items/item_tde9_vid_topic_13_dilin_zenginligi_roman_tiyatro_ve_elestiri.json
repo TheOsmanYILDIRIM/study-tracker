@@ -7,10 +7,10 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=hzkJNg-50Ko",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,12 +28,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "b06056bc42d0242b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hzkJNg-50Ko",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
-    }
+      "transcriptFingerprint": "c898b64c4911b372",
+      "reviewedOverride": true
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "Eleştiri Nedir? Eleştiri Özellikleri / 9.Sınıf 4.Tema / Deniz Hoca +PDF📝"
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "1.2",
   "orderKey": 3000,
   "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
-  "contentUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+  "contentUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,14 +15,18 @@
       "sourceSection": "1. Tema: Sözün İnceliği",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "b52a5298377cff88",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt",
+      "transcriptFingerprint": "ce3abaffa6c6dffb",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.tr.vtt",
+      "reviewedOverride": true
+    },
+    "provider": "Deniz Hoca",
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 / 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
   }
 }

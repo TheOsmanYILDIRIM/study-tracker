@@ -7,10 +7,10 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Sözün İnceliği: Mülakat Dinleme/İzleme",
-  "contentUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+  "contentUrl": "https://www.youtube.com/watch?v=BMaVTFcOC2c",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Deniz Hoca",
     "topic": "Sözün İnceliği: Mülakat Dinleme/İzleme",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,17 +23,20 @@
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat)",
         "DİNLEME/İZLEME • • Tema içeriğine uygun çok modlu metin • (Mülakat) • KONUŞMA • • Deneme türünde yazılmış metinlerden hareketle fikir geliştirme tekniklerini kullanarak bir konuşma yapabilme"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "6bf5b624cc60ee4b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=W45s5vWz3_c",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BMaVTFcOC2c",
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.txt",
+      "transcriptFingerprint": "bd1ce85232163199",
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_03_sozun_inceligi_mulakat_dinleme_izleme.tr.tr.vtt",
+      "reviewedOverride": true
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "MÜLAKAT NEDİR? / 9.Sınıf Sözün İnceliğİ / Deniz Hoca 2026"
   }
 }

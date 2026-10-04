@@ -24,7 +24,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_tarihsel_gelisim.tr.tr.vtt",
-      "transcriptFingerprint": "514291f0451e6158"
+      "transcriptFingerprint": "514291f0451e6158",
+      "sharedSource": true,
+      "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",

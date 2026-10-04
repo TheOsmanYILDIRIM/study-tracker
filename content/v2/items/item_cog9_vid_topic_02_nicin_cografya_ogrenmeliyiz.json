@@ -32,7 +32,9 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz.tr.tr.vtt",
       "transcriptFingerprint": "514291f0451e6158",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",

@@ -23,7 +23,9 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.txt",
       "transcriptFingerprint": "532569ac8750adbf",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_vektorler.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı"
     }
   }
 }

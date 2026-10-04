@@ -22,7 +22,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
-      "transcriptFingerprint": "e0e330ee30a12087"
+      "transcriptFingerprint": "e0e330ee30a12087",
+      "sharedSource": true,
+      "sharedSourceReason": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı"
     },
     "provider": "Meschemy Kimya"
   }

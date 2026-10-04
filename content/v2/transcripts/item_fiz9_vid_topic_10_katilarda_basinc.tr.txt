@@ -1,0 +1,773 @@
+gençler Merhaba bugünkü dersimizle
+birlikte basınç konusuna başlıyoruz Bu
+dersi Bu sevimli arkadaşla başlamak
+istedim ince bir buz tabakasından
+geçerken Tabii ki tamamen içgüdüsel
+olarak enteresan bir davranış sergiliyor
+normal 4 ayak üzerinde gitmek varken
+böyle Bütün vücudunu yatırarak hareket
+etmeye sürünerek geçmeye çalışıyor
+diyebiliriz daha sonra daha kalın bir
+yere denk geldiğinde normal yürüyüşüne
+devam ediyor Bunu nereden biliyor niye
+böyle yapıyor veya bir balon bir çiviye
+değdirildiğinde yukarıdan bir kuvvetle
+bastırıldığında tahmin edebileceğiniz
+üzere patlarken birden fazla çivinin
+üzerine konulduğunda Yine benzer bir
+kuvvetle sıkıştırıldığında neden hiçbir
+şey olmadığının cevabını bu derste
+öğreneceğiz gördüğünüz gibi yukarıdan
+baya bastırmasına rağmen hiçbir hareket
+yok patlama görmüyoruz Bu soruların
+hepsinin cevabı basınç da Gençler biz
+neden bıçakları bile eğiliyoruz neden
+Karlı yüzeylerde yürürken geniş tabanlı
+kar ayakkabıları giyiyoruz neden baraj
+duvarları inşa ederken bu baraj
+duvarları aşağıya doğru indikçe daha
+kalın yapılıyor neden Şahika encümen
+denize daldığında 100 metre boyunca
+aşağıya indiğinde rekor kırıp Haberlere
+çıkarken Normal bir insan normal bir
+Denizde yüz metre sadece yüzdüğünde Olay
+olmuyor katı basıncını sıvı basıncını ve
+gaz basıncını konuşarak bütün bu
+sorulara cevap vereceğiz Öncelikle
+basınç nedir basınç dediğimiz şey birim
+yüzeye dik olarak etki eden kuvvet
+miktarıdır Bunu hemen Formula dökersek p
+harfi ile gösterdiğim basınç ki kendisi
+Present Tire şuradan gelir pres basmak
+demek biliyorsunuz birim yüzeydeki
+kuvvet miktarıdır basıncın genel ifadesi
+budur birim analizi yaparsak kuvvetin
+birimi Newton alanın birimi metrekare
+Dolayısıyla Eser birim sisteminde Newton
+bölüm metrekare basınç birimidir ama biz
+buna özel bir isim veriyoruz Pascal
+diyoruz kısaca pa harfiyle gösteriyoruz
+Pascal Fransız bir bilim insanı sıvı
+basıncı ile ilgili özellikle çalışmalar
+var O yüzden onu şerefine ismi basınç
+birimi olarak verilmiş basınçla ilgili
+en büyük yanılgılardan bir tanesi basınç
+skaler midir vektörel midir hocam birim
+yüzeydeki kuvvet yazdınız ve burada
+kuvvet vektör olduğuna göre o zaman
+basınç da vektördür hayır değildir
+basınç skaler Bir büyüklüktür gençler
+buna çok dikkat etmeniz lazım tanım
+Aslında anlaşılıyor ama ben size başka
+yollardan da anlatacağım basıncın niye
+skaler olduğunu basınç birim yüzeye dik
+olarak etki eden kuvvet değil kuvvet
+miktarı Yani aslında biz bu ifadeyi
+yazarken şuraya Vector koymamalıyız
+kuvvetin sadece şiddetinden bahsediyoruz
+skaler bir şeyden bahsediyoruz
+Dolayısıyla basıncın kendisi skaler
+olmuş oluyor ya da bambaşka bir açıdan
+basıncın skaler olduğunu şöyle
+ispatlayabilirim size burada biraz
+formül kurcalayalım Biz önceki
+ünitelerimizde iş güç ve enerjiyi
+öğrenmiştik iş dediğimiz şey kuvvet
+çarpı yer değiştirmeyi de hatırlarsanız
+Yani iş dediğim şey Newton çarpı
+metredir birim olarak diyebilirim işin
+birimi de jouldü bunu da hatırlayalım o
+zaman jul eşittir Newton çarpı metre Ben
+buradan newtonunu çekersem yani kuvveti
+çekersem joul//metre olacaktır birim
+analizinde burada yerine yazıyorum
+kuvvet yerine juli metre yazdım bölü
+alan var alanın birimi metrekare eşittir
+basıncın birimi olan Pascal metreyi
+aynen yazdım aşağıdaki metrekare
+yukarıya bir bölüm metrekare olarak
+geçecek Dolayısıyla buradaki işlemin
+sonucu rul bölüm metre küp olacak Pascal
+dediğim şey juli metrek küçüktür bu
+ifadeyi cümle haline getirelim birim
+hacimdeki enerjiye basınç denir enerji
+bir skaler büyüklük olduğuna göre basınç
+bir skaler büyüklüktür bizim Günlük
+hayatta en çok karşılaştığımız madde
+türleri katı sıvı gaz bunların üçünün de
+basıncından bahsedeceğiz önce katıların
+basıncını işleyeceğiz sonra sıvıların
+sonra gazların basıncına bakacağız
+katıların basıncında da sıvıların
+basıncında da daha sonra işleyeceğimiz
+atmosfer basıncında da bu p eşittir f/a
+geçerlidir yani basıncın genel tanımı bu
+birim yüzeydeki kuvvet miktarı basınçtır
+hepsinin çıkış noktasını buradan
+yapacağım katıların basıncı ile
+başlayalım yine Bazı fotoğraflar
+görüyoruz bu fotoğrafları yorumlayalım
+elime bir çivi alsam ben bu çiviyi baş
+parmağım ve işaret Parmağımın arasına
+sıkıştırsam Aynı bu kalem gibi
+parmaklarımız sıktığımda şu an benim
+orta Parmağım acıyor baş parmağım
+acımıyor neden Halbuki iki parmağıma da
+aynı kuvvet etki ediyor Çünkü buradaki
+kalem şu an dengede orta parmağımla 10
+newtonluk kuvvet uyguluyorsam kalem
+gitmediğine göre baş parmağım da ters
+yöne 10 newtonunu kuvvet uyguluyordur ve
+bunların tepkileri de benim
+parmaklarımda acı olarak hissettiğim
+kuvvetlerdir yani orta par Newton var
+Baş parmağımda da 10 Newton var ama aynı
+10 Newton Orta parmağımı acırken baş
+parmağımı acıtmıyor buradaki çivide
+olacağı gibi veya tank dediğin şey
+Tonlarca ağırlıkta bir araç neden normal
+bir otomobil gibi 4 tane tekerlek takıp
+bırakmıyoruz da böyle palet sistemi
+kuruyoruz neden tırlarda gördüğünüz gibi
+böyle bir sürü tekerlek var bunların
+hepsinin sebebi basınçla ilgili basınç
+dediğimiz şey kuvvet böyle alan orta
+Parmağım çok acıdı Çünkü oradaki
+parmağıma temas eden yüzey alanı küçüktü
+kuvvet aynı kuvvet alan küçükse basınç
+artar basınç fazla olduğu için orta
+parmağım acıdı Çünkü buradaki sivri yere
+denk geldi alanın küçük olduğu yere denk
+geldi Baş parmağın acımadı Çünkü
+buradaki alan fazlaydı alan fazlaysa
+basınç azdır tank dediğin araç toprakta
+gider çölde gider çamurda gider
+saplanmaya çok müsait yerlerde gider o
+kadar ağır ki bu arkadaş devasa bir ef
+var ağırlıktan dolayı muhteşem bir ev
+uyguluyor yere Normalde saplanıp kalması
+lazım 4 tane tekerlek yaparsan saplanıp
+kalır ama bir palet sistemi kurduğunda
+yere temas eden alanı büyütmüş oluyoruz
+alanı büyüttüğünde basıncı daha küçük
+yapabiliyorsun Böylece saplanmaktan
+kurtarıyorsun aynı şey tırlarda da
+geçerli bir sürü tekerlek büyük yere
+temas alanı demek o da küçük basınç
+demek aracın asfalt yolu bozmadan
+gidebilmesi demek bir ördek var bir tane
+horoz var diyelim ki bu arkadaşların
+kütlesi Beşer kilogram Olsun bu da 5
+kilogram Olsun bu da 5 kilogram olsun
+bunlar böyle bir kum yüzeydeler aşağıya
+doğru 50 newtonluk bir ağırlığı
+olacaktır bunun da aşağıya doğru 50
+newtonluk bir ağırlığı olacaktır
+Dolayısıyla Bunlar yere aynı kuvvetle
+basıyorlar Acaba ikisi de kuma aynı
+miktarda mı saplanır hocam kuvvetler
+aynıysa Kumla etkileşmeleri de aynı
+olacaktır hayrı olmayacaktır bakın
+Ördeklerin ayakları paletlidir
+horozlarda ise böyle bir şey yok yani
+horozda 3 tane parmak var araları boş
+ördekte bu aralarda dolu Dolayısıyla
+ördek de yere temas eden alan daha büyük
+basınç dediğim şey kuvvet böyle alan Her
+ikisi de 50 newtonluk kuvvetle yere
+basıyor mu Evet o zaman bu kuvvetler
+sabit kimin yere temas eden alanı
+büyükse onun uygulayacağı bas bu kadar
+azdır ördeğin ayağı perdeli olduğu için
+alan daha büyük horozun ayağı perdesiz
+olduğu için alan daha küçük kuvvet aynı
+kuvvet alan küçükse buradaki basınç
+fazladır buradaki basınç azdır horoz
+kuma daha çok saplanır ördek kuma daha
+az saplanır burada süngerimsi bir yapı
+var kırmızı renkli ve mavi renkli iki
+tane cismimiz var Bunlar aynı kütleliler
+Dolayısıyla aynı ağırlığa sahipler
+basınç dediğim şey kuvvet böyle alan bu
+kuvvetin özel bir adı var ondan da
+bahsetmemiz lazım Biz buna basınç
+kuvveti deriz yani basıncın oluşmasına
+sebep olan kuvvet deriz burada bu katı
+cismin ağırlığı var basıncın oluşmasının
+sebebi İşte bu ağırlık kuvvetidir
+Dolayısıyla basınç kuvveti bu adamdır
+diyebiliriz aynı ağırlık Bunda da var
+bunların basınç Kuvvetleri eşit yere
+temas eden alanları İkisinde de s kadar
+olursa basınçlara eşit basma miktarı
+aynı kırmızı üzerine bir tane daha
+aynısından koyarsam bakın Batman miktarı
+arttı Neden Çünkü basınç kuvveti arttı
+Çünkü ağırlık arttı bir tane daha
+koyarsam daha çok batar bir tane daha
+koyarsam daha çok batar alanı konuşursak
+bu temas eden alan küçülürse bas artar
+buradaki payda kısmı küçülürse sonuç
+büyüyecektir yani basınç artacaktır
+Şimdi de bu maviyi mesela çevirelim Daha
+dar yüzeyi üzerine koyalım bakın Daha
+dar yüzey üzerine koydum cisim aynı
+cisim Bu arkadaşın ağırlığında hiçbir
+değişiklik olmadı g aynı g basınç
+kuvveti aynı F yani basıncı oluşturan
+adam aynı ama yere temas eden alan
+küçüldüğü için basınç arttı dolayısıyla
+daha çok saplandı Örneğin Kırmızının
+üzerine böyle bir sürü koydum Şu an bu 4
+adam böyle bir alana oturmuş durumdalar
+bunları çevirirsem bakın çok daha fazla
+battılar Çünkü artık daha küçük bir alan
+üzerine oturmuş durumdalar yani yere
+temas eden alan küçülürse basınç artıyor
+bunu şöyle Hayal edebilirsiniz alan
+küçüldükçe yukarıdan etki eden o kuvveti
+tek bir noktada toplamış oluyorsun
+Birlikten kuvvet doğar gibi alanı
+büyüttüğünde o kuvvet yayılmış oluyor
+yayıldığı için etkisi azalıyor etkisi
+azaldığı için daha az batıyor tahtaya
+çivi çakarken sivri tarafını çakmaya
+çalışırız geniş tarafını çakmayız
+yukarıdan çekiçle bir kuvvet uygularsın
+geniş tarafını koyarsan orayı temas
+ettirirsen kuvvet yayılır etkisi azalır
+yani
+kuvvet bile o kadar büyük bir alana
+yayılıyor ki etkisi azalıyor balonu
+patlatacak şiddete ulaşamıyor olarak
+düşünebiliriz gördüğünüz gibi ne hale
+geldi hala patlama Yok yani içine girdi
+Bütün Çiviler ama hiçbir şey olmuyor bu
+şekilde yumurtaların üzerinde bile
+yürüyebilirsiniz bir tane yumurtaya
+bassanız Çat diye kırılır Ama birçok
+yumurtaya beraber basarsanız ayağınızın
+her yerinde temas olduğu için
+ağırlığınızın uygulayacağı basınç
+kuvveti daha büyük alana yayıldığı için
+yumurtaların üzerine daha az kuvvet
+düşer yumurta başına düşen kuvvet
+azaldığı için yani basınç azaldığı için
+yumurtaları kıramazsınız gördüğünüz gibi
+çocuğun yürüdüğü hiçbir yerde
+yumurtalara hiçbir şey olmuyor bu
+hayvancağız da içgüdüsel olarak bunu
+biliyor Bütün vücudunu yatırdığında
+alanı büyütmüş oluyor Kendi ağırlığından
+dolayı olan basınç kuvveti daha büyük
+alana yayılıyor basınç azalıyor ve o
+buzu kıramıyor 4 ayağıyla geçmeye
+çalışsaydı sadece ayakları temas etseydi
+alan daha küçük olduğu için muhtemelen
+buz kırılır ve içine düşerdi bıçakları
+bileylememizin karda yürürken kar
+ayakkabısı giymemizin sebepleri de
+bunlar bıçağı bileylediğiniz zaman şu
+kısmındaki
+küçültmüş oluyorsunuz alan küçüldüğü
+için kuvvet tek bir noktada toplanıyor
+basınç etkisi artıyor ekmeği daha iyi
+kesiyorsunuz bunun ters tarafıyla ekmek
+kesmeye çalışın bakalım becerebiliyor
+musunuz aynı şekilde kar ayakkabısı
+dediğiniz şey çok büyük alanlı
+ayakkabılardır basınca azaltıcı bir
+faktördür ve karda saplanmamanızı sağlar
+basıncın genel ifadesi kuvvet bölü
+alandır buradaki kuvvet basıncı
+oluşturan basınç kuvveti olarak
+isimlendirilir katıyı tek başına
+kendiniz koyduysanız yere temas etmesini
+sağlayan kuvvet kendi ağırlığı olacaktır
+Dolayısıyla burada basıncın sebebi kendi
+ağırlığıdır diyebiliriz katılarda basınç
+kuvveti cisimlerin ağırlığına eşittir
+diyebiliriz Tabii kendi haline
+bıraktıysam Yani ben bu adamı bir de
+ekstra yukarıdan ittiysem şöyle bir ev
+kuvvetiyle ittiysem O zaman bu zemindeki
+basıncı bulacaksam ki şu temas yüzeyine
+de a diyelim Ne Yazmam gerekir cismin
+kendi ağırlığı artı benim yukarıdan
+uyguladığım ekstra kuvvet bölü alan
+Yazmam gerekir basınç kuvveti bu sefer
+bu ikisinin toplamı olmuş olur ama kendi
+başına bir katıdan bahsediyorsan basınç
+kuvveti cismin ağırlığıdır Özdeş ve
+süreç küpler yapıştırılarak yatay
+zeminde duran bir numaralı şekildeki
+cisim elde ediliyormuş daha sonra bu
+cisim parçalanıp 2 ve 3 numaralı
+şekillerdeki gibi yatay zemine
+konuluyormuş 1 2 3 şekillerindeki
+cisimlerin yatay zeminde oluşturdukları
+basınçları kıyaslayınız Bunların hepsi
+katı Bunların hepsi türdeş Dolayısıyla
+bunların her birine g ağırlıklı cisimler
+diyebilirim birinci şekilde aşağıya
+bastıran ne kadar g var 1 2 3 4 5 basınç
+yazıyorum basınç kuvvetimiz 5g'ye kadar
+bölü biz kesitten görüyoruz ama bunlar
+küp olarak düşünülürse şurada bir a
+alanı var yanında bir tane daha olduğu
+için bir a da burada var O zaman bizim
+buradaki taban alanımız yere temas eden
+alanımız iki a'dır ortadaki şekle
+baktığımda basınç kuvvetimiz 3G temas
+alanımız bira bira da burada var Bira da
+burada var Toplamda 3 ağlık bir alandan
+bahsedebiliriz en son şekilde 2g'lik bir
+basınç kuvvetimiz var ve burada bir
+ağlık temas yüzeyimiz var katsayılara
+baktığımda şurada iki buçuk görüyorum
+şurada bir görüyorum burada iki
+görüyorum o zaman birinci şeklin basıncı
+büyüktür üçüncü şeklin basıncından O da
+büyüktür geçici şeklin basıncından
+diyebiliriz hocam burada alan çok
+küçüktü alan küçülünce basınç artmıyor
+muydu Bu nasıl birinci oldu burada alan
+daha büyük ve burada da bir sürü kuvvet
+var yukarıdan gelen sadece alana bağlı
+değil ki yukarıdan gelen kuvvete de
+bağlı Özdeş küplerin birleştirilmesiyle
+oluşan cisim şekil 1'deki gibidir cisim
+döndürülerek şekildeki hale
+getirildiğinde yatay zeminde oluşan
+basınç ve yatay zemine etki eden basınç
+kuvveti nasıl değişir diye sorulmuş
+bakalım Özdeş küpler diyor yani bunların
+her birinin ağırlığına Ben az önceki
+sorudaki gibi g diyorum Burada toplamda
+4K ağırlık var ve burada da toplamda 4G
+ağırlık var Çünkü sadece cismi Ben ters
+çevirdim başka bir şey yapmadım basınç
+dediğim şey basınç kuvveti böyle alan
+zeminde bir basınç oluşmasına sebebiyet
+veren burada 4K var 1A burada bir a
+burada bir a burada 3 ağırlık temas
+alanı var zemine buranın basıncı 4/3
+katsayısıyla orantılı geldim buraya
+cisim aynı cisim yine 4g'imiz var ama bu
+sefer tek bir a üzerinden bu zemine
+basıyoruz Dolayısıyla gördüğünüz gibi
+bizim basıncımız çarpı 3 oldu burada
+4/3'tü burada 4 oldu Neden Çünkü ben
+cismi daha geniş bir alandan aldım daha
+dar bir alana koydu alan küçüldüğü için
+bu yukarıdan etki eden 4g'nin etkisi
+arttı kuvvetler tek bir noktada
+toplandılar daha dar bir alana
+hapsedildiler O yüzden basıncımız artar
+Peki basınç kuvvetimiz nasıl değişir
+basınç kuvveti zaten basıncın oluşmasına
+sebep olan şey değil mi Evet neden bu
+zeminde basınç var E çünkü yukarıdan bir
+ağırlık var ne kadar o 4G yeni durumda
+ne kadar e o da 4G E o zaman basınç
+kuvveti değişmemiş zaten şimdi söyledim
+yukarıdan gelen şey aynı sadece birini
+geniş bir alana yayıyoruz öbürünü dar
+bir alana hapsediyoruz İşte bu etkiye
+basınç diyoruz Ve şunu da unutmayalım
+basınç kuvveti kendi halindeki katılarda
+ağırlığa eşittir şekil 1 ve şekil ikinin
+ağırlıkları aynı olduğuna göre basınç
+Kuvvetleri de aynıdır Şimdi gelelim
+klasik bir örneğimize bir çekiçle bir
+çiviyi bir duvara bir tahtaya çakıyoruz
+katılar üzerlerine uygulanan bu basıncı
+ve kuvveti Aynen iletir mi diye
+soruyoruz neden sivri tarafını
+çaktırmaya çalıştığımızı az önce
+konuştuk bunu biraz daha sayısal
+verilere oturtacağız şimdi bakın Gençler
+ben bir çekiçle bu çivinin geniş kısmına
+vurduğum kafamdan sayılar uyduruyorum
+diyelim ki 100 newtonluk bir kuvvet
+uygulamış olayım ve burada vurduğum
+yüzeyde diyelim ki bir metrekare olmuş
+olsun çok büyük bir sayı biliyorum ama
+bizim işimiz oran orantı yapmak
+gerçekler uygun olsun diye Çok küçük
+böyle virgüllü sayılar verip uğraşmak
+istemiyorum açıkçası Şimdi genelde şöyle
+anlatılır ben bu çekiçle çiviye vurduğum
+zaman 100 newtonluk bir kuvvetle
+vurduğum zaman bu 100 n Aynen aktarılır
+çivinin bu ucunda da yüzünü Newton
+vardır ama çivinin ucu sivri olduğu için
+bu geniş yüzeye göre çok daha küçük
+kalacaktır geniş yüzeye 1 metrekarede
+değilsem atıyorum Burası 0.1 m²'dir onda
+biri kadar küçüktür O zaman deriz ki
+geniş yüzeyde çekiçle vurduğum yüzeyde
+nasıl bir basınç vardır basınç dediğim
+şey kuvvet böyle alan 100 newtonluk bir
+kuvvet uyguladım çekiçle ne kadarlık bir
+alana etki etti 1 metrekarelik O zaman
+burada 100 Pascal var bu sivri uca da
+100 Newton etki etti ama sivri uç Adı
+üzerinde sivri daha küçük bir alan 0.1 O
+zaman burada 1000 Pascal var Bu da neden
+sivri uçla tahtaya çakmaya çalıştığımıza
+Gayet net bir örnek Az önce videosunu
+izledik Sen geniş yüzeyde çekiçle 100
+Pascal oluşturabiliyorsun ama çivi onu
+sivri ucuna 1000 Pascal olarak iletiyor
+çok daha büyük bir basınç olduğu için bu
+sivri uçta o tarafı Biz tahtaya çakmaya
+çalışıyoruz yani katılar üzerlerine
+uygulanan kuvveti Aynen iletirken
+basıncı iletmeyebilir kuvvet 100 Newton
+da aynen iletti ama basınç 100 paskaldı
+bin Pascal oldu büyüterek iletti Çünkü
+sivri bir uca iletti Buraya kadar bir
+itiraz yok ama benim burada ufak bir
+noktayı açıklamam lazım Ben bunu
+yazarken özellikle dengedeki katılar
+dedim Newton yasalarını hatırlarsanız
+dengedeki katılar ne demek üzerindeki
+Net kuvvetin sıfır olduğu katılardır
+yani ya duruyordur ya da sabit hızla
+gidiyordur dengede olmayan katı üzerinde
+Net kuvvet olan katılarda bu kuvveti
+Aynen iletme olmayabilir ne demek
+istediğim şöyle anlatayım diyelim ki bir
+duvar var bu duvara şöyle bir çubuğu
+yasladım ve buradan bir ev kuvvetiyle
+itiyorum ve burada duruyoruz çivi
+çakmaktan bahsetmiyorum duvara bir
+çubuğu böyle itiyorum yanında gitmiyor
+böyle duruyor Duruyor ve durmaya devam
+ediyor O zaman Net kuvvet sıfır newtonun
+birinci bu cismin üzerine Ben sağ tarafa
+doğru F Kuvveti uyguluyorsan ve
+gitmiyorsa Demek ki duvarda buna sol
+tarafa doğru bir F kuvveti uyguluyor bu
+iki kuvvet birbirini götürdüğü için
+cisim üzerindeki Net kuvvet sıfır ve bu
+cisim duruyor şimdi etki tepkiden
+düşünürsem duvar bu cisme sol tarafa
+doğru ev kuvveti uyguluyorsa bu etkiyse
+o zaman cisim de duvara aynı F kuvvetini
+uyguluyordur Bu da tepkidir işte Bu da
+bizim Az önce konuştuğumuz durumdur Ben
+çubuğa F kuvveti uyguladım Çubuk da bunu
+aynen duvara iletti aynı çivideki gibi
+bunda problem yok ama bu Çubuk ivmeli
+hareket ederse İşler değişir Mesela
+şöyle bir örnek Konuşalım biraz Newton
+yasaları tekrarı yapmış olalım iki tane
+yan yana cisim var biri 3 kilogramlık
+olsun Biri 1 kilogramlık olsun Ben
+şuradan 3 kilogramlık cismi 100 newtonla
+itiyorum sürtünme yok hiçbir şey yok
+sürtünme Yoksa bu sistem sağ tarafa
+doğru hızlanacaktır çünkü burada 100
+newtonluk bir Net kuvvet var f5'te Net
+kuvvetimiz var bu iki cisim birbirine
+değiyorlar tek bir cisim gibi
+düşünülebilirler 4 kilogramlık cisim
+çarpı ivme buradan ne gelir 25 metre
+bölü saniye karelik bir ivme gelir Yani
+bu adamlar saniye başına 25 hızlanarak
+ilerleyecekler bu cisimlere isim de
+Verelim bu ağaç İsmi olsun bu B cismi
+olsun acaba A cismi Üzerine uygulanan bu
+100 newton'u Aynen B'ye iletmiş midir
+Bir de bunu konuşalım bunu anlamak için
+B'nin fotoğrafını çekmem lazım B'nin
+fotoğrafını çektim kestim O arkadaşı
+buraya yapıştırdım B sağ tarafa doğru
+hızlanıyor bunu bulduk 25 metre bölü
+saniye karelik ivme ile hızlanıyor Niye
+kim hızlandırıyor bunu bu 100 Newton
+hızlandırıyor hocam Newton yasalarında
+çokça konuştum Bu fotoğrafın içerisinde
+100 Newton var mı Yok B'yi Dolaylı
+yoldan 100 Newton hızlandırıyor asıl onu
+hızlandıran şey A'nın B'ye uyguladığı bu
+temas kuvvetidir buna F diyelim a B'yi
+ittiği için B hızlanıyor şurada oluşan
+kuvvettir buradaki ev kuvvet Dolayısıyla
+B'nin serbestçe sim diyagramı budur
+yatayda Burada yeni bir F5 yazarsam
+beynin üzerindeki Net kuvvet bu ff'tir
+A'nın B'yi itme kuvveti çarpı Şu an ben
+B'yi inceliyorum kütle olarak o yüzden
+beğenin kütlesini yazdım B'nin ivmesi 25
+Çünkü bu sistem beraberce 25'lik ivme
+ile ilerliyorlar o yüzden beğenin
+ivmesine 25 o zaman ev
+[Müzik]
+davranışları hesaplayalım Tabii önce
+burada bir alan tanımı yapmam lazım şu
+dar yüzeye A alan diyeyim geniş yüzeye
+de 2A alan diyeyim Şu an burada geniş
+yüzey yere temas ediyor O zaman iki A'ya
+oturmuş durumdayız birinci Şeklimiz
+yukarıdan 2g'lik bir basınç kuvvetine
+sahip zemini bu iki g ile zorluyoruz
+tabanda da 2A var İkiler birbirini
+götürsün g bölü A'ya Ben p demiş olayım
+geldim ikinci şekle 2 şeklinde yukarıdan
+yine 2G var Ve yine 2a'lık alana oturmuş
+durumdayız O zaman 2g/2a'dan burada da
+pelik alan var Geldim üçüncü şekle yine
+yukarıdan 2G var ama bu sefer dar yüzeye
+oturmuş durumdayız yani burada a var
+2g/a'dan 2p'lik basınç var diyebiliriz
+Yani en sondaki şeklin basıncı en fazla
+diğerleri eşit üstteki mermer
+parçalarını alttakilere uyguladıkları
+basınçları kıyaslayınız yani sadece
+üsttekilere odaklanacağım Tamam üstte g
+var Ve alttakine şu yüzeyden temas
+ediyor a yüzeyinden temas ediyor O zaman
+burada g/a'lık Yani p'lik bir basınç
+vardır diyebiliriz üstteki cisme
+odaklanıyorum g var İki ağlık alanına
+kurulmuş g/2a'dan p/2 basınç oluşturuyor
+yine g var şuradan temas ediyor
+Dolayısıyla a yüzey alanı o zaman p
+basınç var diyebiliriz bakın birinci
+şekilde üstteki arkadaş alttakine p
+basınç uyguluyor hepsi beraber yere yine
+p basınç uyguluyor yani basınç Aynen
+iletilmemiş Bu adam hiç mi katkı
+sunmamış Tabii ki sunmuş ağırlığı var
+ama zaten katılarda basınç Aynen
+iletilmek zorunda değil işin içerisinde
+yüzey alanı da var işler değişebilir
+üstteki alttakine p/2 yapmış en aşağıda
+p var Hocam bakın bunda p/2 var bunda da
+p/2 var demek ki aynen iletmiş toplamda
+p olmuş çünkü yüzey alanı değişmemiş
+yani burada iki ağlık alana oturmuştuk
+yerde de iki ağırlık alan oturduk g
+ağırlık vardı burada bir g ağırlık daha
+geldi yani bizim çivi sorumuzu şöyle
+güncellesek 2 yüzeyi de aynı alana sahip
+bir çivi sivri tarafı yok buradan 100
+Newton uyguluyorum 1 metrekarelik bir
+alan var buraya 100 naktardım orası da 1
+metre kare buradan hangi basınca
+uyguluyorsam Burada da aynı basınç var
+yani basınç Aynen aktarılmış gibi
+duruyor ama bir ucunu yaparsam Aynen
+aktarılmayabilir burada olduğu gibi
+üsttekinin alttakine uyguladığı basınç p
+kadar alttakiyle beraber düşündüğümüzde
+yerde 2p var a Hocam bakın Bu p
+uygulamış alttaki Dep aktarmış toplam 2p
+olmuş Çünkü yine yüzey alanı değişmedi
+burada a alanına oturmuştuk Burada yine
+a alanına oturduk aynı benim sivri
+tarafı olmayan çivi örneğimdeki gibi ama
+buradaki alan genişlerse basınca Aynen
+aktaramazsın işte bak yukarıdan p geldi
+aşağıda yine p var sanki bu arkadaş hiç
+katkıda bulunmamış gibi Dolayısıyla
+üstteki cisimler basınçları zemine Aynen
+iletmiyorlar Eğer yüzey alanları
+değişirse Şimdi bazen de Test
+sorularında işin içerisine özkütlenin
+katıldığını görürsünüz cisimlerin
+bulundukları zemine uyguladıkları
+basıncın Özkütle ile bir ilgisi var
+mıdır istersem olur basınç Dediğim şeyi
+kuvvet böyle alan olarak yazıyorum Bunun
+içerisine Ben özkütleye dahil edebilirim
+Özkütle dediğim şey en bölü ve nasıl
+yapacağımı bir hayal edeyim Hatta
+videoyu burada durdurup kendinizi Hayal
+edebilirsiniz özkütleyip bu işin
+içerisine nasıl dahil edeceğim ve kütle
+kuvvet benzerliğini kullanabilirim Çünkü
+burada bir katıdan bahsediyoruz basınç
+kuvveti dediğim şey cismin ağır
+olacaktır cismin ağırlığı dediğim şey de
+mg'dir biliyorsunuz Yani ben buradaki
+basıncı mg/a olarak yazabilirim şimdi
+bakın Ben burada m'i yalnız bıraksam
+İçler dışlar yapsak hacim çarpı Özkütle
+olur her iki tarafı da G ile çarparsam
+mg eşittir cismin hacmi cismin özkütlesi
+Yerçekimi ivmesi olur burada gördüğüm
+emg'yi burada yerine yazacağım yani
+cismin hacmi cismin özkütlesi Yerçekimi
+ivmesi bölü alan olarak yazacağım şekil
+düzgünse küp gibi silindir gibi
+dikdörtgen prizma gibi taban alanı
+yukarıya doğru çıktıkça değişmiyorsa
+Silindirde de değişmez tabandaki daire
+Neyse her yerde o vardır dikdörtgen
+prizma da değişmez tabandaki dikdörtgen
+Neyse her yerde o vardır Küpte de
+değişmez biz bu şekillerin hacimlerini
+nasıl buluruz taban alanı çarpı
+yükseklikle buluruz o zaman buradaki
+taban alanıyla Şuradaki H olan
+yüksekliği çarparsam hacmini bulmuş
+oluyorum hacim yerine taban alanına a
+dedim Bu arkadaşın a çarpı hı yazdım
+çarpı cismin özkütlesi çarpı yer çekimi
+bilmesi bölü cismin taban alanı yere
+temas eden yüzey alanı bu A ile bu gider
+o zaman bu katının basıncı H DG olur
+konuyu daha önceden dinlemiş olanlar
+mesela sıvı basıncını dinlemiş olan
+mezun öğrenciler özellikle Hocam bu sıvı
+basınç formülü değil mi diyebilirler
+zaten sıvı basınç formülünün mantığı da
+buradan geliyor bu işin katısı sıvısı ya
+da açık hava basıncı yok hepsi p eşittir
+f/a'dan geliyor genel formül ortak HD
+dediğim formülü Ben sadece sıvılara mal
+etmem katılar içinde kullanabilir Hatta
+açık hava basıncını atmosfer basıncını
+yazarken bile kullanabilirim Bu formül
+bana diyor ki cismin yüksekliği ne kadar
+fazlaysa yere uygulayacağı basınç o
+kadar fazladır cismin öz kütlesi ne
+kadar fazlaysa yere uygulayacağı basınç
+o kadar fazladır Yerçekimi ivmesine
+kadar fazlaysa yere uygulayacağı basın o
+kadar fazladır hemen bunun bir
+uygulamasını yapalım yatay zeminde
+durmakta olan dikdörtgen prizma
+şeklindeki cismin zeminde oluşturduğu
+basınç p1'dir cisim düşey doğrultuda
+kesilerek şekil iki ve şekil üçteki
+parçalara ayrılıyormuş şekil 2 ve şekil
+3'teki parçaların zeminde oluşturdukları
+basınçlar P2 ve P3 olduğuna göre Bunlar
+arasındaki ilişki nedir diye sorulmuş
+güzel bakalım
+burada aslında bir tane şekil var bunu
+şuradan kesmişiz ve iki parçaya
+ayırmışız bunu dik kestiğimizi
+belirtmemiz lazım yalnız buralarında 90
+derece olduğunu tabandaki alanın
+yukarıya doğru çıktıkça Aynen
+korunduğunu bunun klasik bir dikdörtgen
+prizma olduğunu söylememiz lazım cismi
+parçalamadan önceki bütün haline bir
+numara diyorum ortadakine 2 numara
+diyorum en küçük haline de 3 numara
+diyorum hocam 3 numaranın basıncı en
+fazladır Çünkü hocam bunun taban alanı
+çok dar bir zemine oturmuş bunun basıncı
+fazla şu arkadaşın mesela daha fazla
+taban alanı var bunun basınca azdır yine
+hatırlatayım basınç dediğim şey sadece
+alanla ilgili değil yukarıdan ne
+kadarlık bir basınç kuvveti geldiğiyle
+de ilgili Evet bu arkadaş dar bir zemine
+oturmuş Ama adamın Kendisi de küçük
+ağırlığı da küçük Yani evet bu arkadaş
+geniş bir zemine oturmuş ama ağırlığı da
+büyük Yani ben bütün cisme 3G desem
+taban alanına da 3A desem birinci şeklin
+basıncı
+3g/3a'dan p kadardır tam şuradan
+kestiğimde diyelim ki A'ya 2A kesmiş
+olayım düzgün kestiğim için 90 derece
+kestiğim için ağırlıkları da o bölmüş
+olmuyor mu Tabii ki öyle oluyorum
+Sağdaki Şekil A üzerinde g ağırlığa
+sahipse iki a üzerinde 2G ağırlığa
+sahiptir ve o zaman şurası 2A 2G ağırlık
+Burası 1A 1G ağırlık ortadakinin basıncı
+2g/2a'dan yine p kadardır en sondakinin
+basıncı g/a'dan yine p kadardır bu 3
+şeklinde basıncı birbirine eşittir Yani
+bu sorunun cevabı P1 = P2 eşittir p3'tür
+ya da hiçbirine gerek yoktu az önce
+Konuştuk zaten basınç dediğimiz şey şu
+kenarları yere 90 derece yapan düzgün
+şekillerde HD G ile bulunabilir bunların
+üçü de aynı yükseklikte mi Şu haçlar
+aynı mı Evet öyle O Zaman bu herkes için
+ortak hepsi aynı yer çekimi ortamındalar
+hepsi aynı maddeden yapılmışlar Çünkü
+zaten bir tane madde vardı Sadece onu
+bölmüş oldum ve bunların hepsinin
+basıncı aynıdır hdg'den direkt
+çıkartabilir geldik dersimizin son
+sorusuna ortalığı biraz daha
+karıştıralım aynı maddeden yapılmış x y
+z silindirlerinin Denge durumu şekildeki
+gibidir Gerçi X1 silindir değil burayı
+düzeltelim x bir koni
+Dursun kapladığın yeri bulursun 3 boyuta
+geçmiş olursun yükseklikle çarptığında
+Ama senin şeklin bir koni ise
+yüksekliğin H olsa bile yukarıya
+çıktıkça bu alanlar küçülüyorlar Sen H
+çarpı a yazarken hangi a'yı yazıyorsun
+koninin formülü böyle bulunmaz koninin
+formülü tabanını çarpı yükseklik
+değildir koni özelinde yazarsam koninin
+hacim formülü 1/3 taban alanı çarpı
+yüksekliktir yani başında bir 1/3
+katsayısı vardır O yüzden o HD olmaz
+Mesela hdg/3 olur çok bilmenize gerek
+yok böyle şeylere ama koniye aç DG
+yapamazsınız Kısacası hocam nasıl
+yapacağız O zaman bak y ile Z'yi
+düşünebilirim Çünkü ikisi de düzgün
+şuralar 90 derece taban alanları Neyse
+yukarı çıktıkça da o bunların
+hacimlerini bulurken direkt taban alın
+çarpı yükseklik yapabiliyorum başında
+bir katsayı yok konideki gibi 1/3 falan
+yok o zaman y ve z için hdg yapıyorum
+hepsi aynı maddeden yapılmış hepsi aynı
+ortamdalar yüksekliği fazla olanın
+basıncı fazladır Z'nin iki aş yüksekliği
+var o zaman Z'nin basıncı kesinlikle
+y'den büyüktür Şimdi gelelim İkisini
+nasıl yorumlayacağımıza Sonuçta biz tam
+sayı bulmayacağız oran buluyoruz
+kıyaslama Mesela bu x conisi tam bir
+silindir olsaydı şuralar yere dik
+olsaydı Buralar dolu olsaydı y ile x
+aynı boyda olur muydu Evet buna p basınç
+dersen Buna da p basınç der miydim
+zeminde uyguladıkları basınç olarak evet
+derdim basınç dediğim şey yukarıdan
+gelen kuvvet ki katılarda ağırlık böyle
+alan x coni'si şuraları da dolu olsaydı
+tam bir silindir olsaydı y ile aynı
+basınca sahip olurdu çünkü yüksekliklere
+eşit ve aynı maddeden yapılmışlar
+haçtage ama x konisinde Buralar yok
+Buralar boş Buralar boş olduğu için
+olması gerekenden daha hafif bu kısımlar
+dolu olsaydı basınçlar eşit oluyordu
+yani x cismi daha ağır olsaydı Y'ye eşit
+olurdu x cisminin bu boşluk kısımları
+boş olduğu için ağırlığı olması
+gerekenden daha az olduğu için basıncı
+y'den daha azdır diyebilirim x ile y'nin
+basıncını eşitlemek için tekrar
+söylüyorum ikisi tam bir silindiri
+yapman lazım şuraları doldurman lazım
+ekstra ağırlık eklemen lazım ilk ise
+anca o zaman y ile eşit oluyor ama
+ikisini orijinalinde oralar yok yani
+olması gerekenden daha hafif o zaman
+basıncı daha az Sorumun cevabı Z
+büyüktür y büyüktür x olacaktır katı
+basıncını konu anlatım bu kadar bir soru
+çözümü yapacağız Sonra sıvı basıncından
+devam edeceğiz takıldıklarınızı yazın
+Kendinize iyi bakın görüşürüz
+[Müzik]

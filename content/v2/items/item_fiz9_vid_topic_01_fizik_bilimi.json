@@ -39,7 +39,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_01_fizik_bilimi.tr.tr.vtt",
-      "transcriptFingerprint": "950a6c9a5591fd65"
+      "transcriptFingerprint": "950a6c9a5591fd65",
+      "sharedSource": true,
+      "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı"
     }
   }
 }

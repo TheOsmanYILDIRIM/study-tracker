@@ -7,10 +7,10 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
-  "contentUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+  "contentUrl": "https://www.youtube.com/watch?v=4I7VQvNebKc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Benim Hocam",
+    "provider": "Mehmet Celal ÖZYILDIZ",
     "topic": "Eski Çağ'da İnanç, Bilim ve Sanat",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -29,14 +29,14 @@
       "schemaVersion": "v2",
       "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4I7VQvNebKc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.tr.vtt",
-      "transcriptFingerprint": "76cabd323bdcaa9e"
+      "transcriptFingerprint": "bebdf18dbdb7a56f"
     },
-    "teacher": "Mehmet Celal ÖZYILDIZ",
-    "verifiedLectureTitle": "8) Eski Çağ’da İnanç, Bilim ve Sanat"
+    "teacher": "Tarihin Kodları",
+    "verifiedLectureTitle": "9. Sınıf Tarih | 2.4 Eski Çağ'da İnanç, Bilim ve Sanat (Maarif Modeli 2026)"
   }
 }

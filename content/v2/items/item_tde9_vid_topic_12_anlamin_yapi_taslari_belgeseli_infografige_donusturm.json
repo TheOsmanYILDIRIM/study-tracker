@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=50sc1KH0blc",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "MEB Maarif Modeli",
     "topic": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -30,12 +30,17 @@
       "videoCandidateTitle": null,
       "fingerprint": "d002cc935d09c7d4",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=50sc1KH0blc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
-    }
+      "transcriptFingerprint": "3d6e7d833d615b72",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Belgesel dinleme ve infografiğe dönüştürme atölye ünitesi ortak video kapsamı"
+    },
+    "teacher": "Edebiyat Hocası",
+    "verifiedLectureTitle": "MEB 9:sınıf Edebiyat Nevruz Belgeseli Tema 3 sayfa 200"
   }
 }

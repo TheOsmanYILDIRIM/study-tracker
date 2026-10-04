@@ -7,10 +7,10 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Hava Olayları ve Günlük Hayata Etkileri",
-  "contentUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+  "contentUrl": "https://www.youtube.com/watch?v=f57ieCD3tAA",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "Coğrafyanın Kodları",
     "topic": "Hava Olayları ve Günlük Hayata Etkileri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,17 +27,19 @@
       "videoCandidateTitle": null,
       "fingerprint": "a1236e99cf9b3210",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=f57ieCD3tAA",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.tr.vtt",
-      "transcriptFingerprint": "495f9cf4d24ea6bd"
+      "transcriptFingerprint": "0b173a9c3024f844"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "teacher": "Coğrafyanın Kodları",
+    "verifiedLectureTitle": "3.ünite 📕 Hava olayları | Doğal sistemler ve süreçler 🔴 9.SINIF COĞRAFYA | 2025 YENİ MÜFREDAT"
   }
 }

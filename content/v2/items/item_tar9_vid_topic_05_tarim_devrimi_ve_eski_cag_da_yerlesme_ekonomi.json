@@ -34,7 +34,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi.tr.tr.vtt",
-      "transcriptFingerprint": "e8841adfdc1f3a65"
+      "transcriptFingerprint": "e8841adfdc1f3a65",
+      "sharedSource": true,
+      "sharedSourceReason": "Tarım Devrimi, ilk yerleşmeler ve Mezopotamya uygarlıkları ortak video kapsamı"
     },
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "verifiedLectureTitle": "5) Tarım Devrimi ve Eski Çağ Medeniyetleri"

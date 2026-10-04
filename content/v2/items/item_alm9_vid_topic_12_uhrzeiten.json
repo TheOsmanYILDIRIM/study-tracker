@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Uhrzeiten",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Uhrzeiten",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,19 +23,22 @@
         "Die Zeit tickt!: Die Uhrzeit!",
         "Wie spät ist es?: Hast du Zeit?"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "3fe88a8ce7466ee2",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=o7Fw8GnW_jk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_12_uhrzeiten.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "40208cbbff2a8ea7",
+      "reviewedOverride": true
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Saatler -24.DERS ALMANCA|9.sınıf 4.ÜNİTE"
   }
 }

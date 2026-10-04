@@ -7,10 +7,10 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Stundenplan und Schule",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=hUB77C1fKOE",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & Meltem Hoca",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Stundenplan und Schule",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,19 +25,22 @@
         "Wie findest du ...?: So viele Fragen?",
         "Interviews: Wie sind die Schulen?"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "b75859fc218c963e",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=hUB77C1fKOE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "c2e974dea05bb308",
+      "reviewedOverride": true
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Okul ve Dersler -12.DERS ALMANCA|9.sınıf 2.ÜNİTE"
   }
 }

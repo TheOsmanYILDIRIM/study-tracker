@@ -7,25 +7,26 @@
   "displayLabel": "2.2",
   "orderKey": 2000,
   "title": "Simple Present vs Present Continuous (Geniş Zaman - Şimdiki Zaman Farkı)",
-  "contentUrl": "https://www.youtube.com/watch?v=A8vN6o44m2Y",
+  "contentUrl": "https://www.youtube.com/watch?v=QUVscCzjlEg",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Özer Kiraz",
+    "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L29",
       "sourceSection": "2. Hafta: Geniş Zaman vs Şimdiki Zaman",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "b1ca43fc855c2981",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=A8vN6o44m2Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=QUVscCzjlEg",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_simple_present.tr.txt",
+      "transcriptFingerprint": "e5170e104e5b5a59",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_simple_present.tr.tr.vtt"
     },
-    "provider": "Özer Kiraz"
+    "provider": "Özer Kiraz",
+    "verifiedLectureTitle": "Simple Present Tense Konu Anlatımı #25"
   }
 }

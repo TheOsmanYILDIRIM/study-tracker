@@ -23,7 +23,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_enzimler_nukleik.tr.tr.vtt",
-      "transcriptFingerprint": "a7e85c308adb2be2"
+      "transcriptFingerprint": "a7e85c308adb2be2",
+      "sharedSource": true,
+      "sharedSourceReason": "Enzimlerin yapısı ve katalitik çalışma prensipleri ortak video kapsamı"
     },
     "provider": "Dr. Biyoloji"
   }

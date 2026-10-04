@@ -7,7 +7,7 @@
   "displayLabel": "2.1",
   "orderKey": 1000,
   "title": "Atmosferin Katmanları ve Sıcaklık Etmenleri",
-  "contentUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+  "contentUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
   "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
@@ -18,17 +18,19 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "db6d6a33b24d6013",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JrRJFujEIJw",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
-      "transcriptFingerprint": "495f9cf4d24ea6bd"
+      "transcriptFingerprint": "be1bf7a149551eba"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "provider": "Coğrafyanın Kodları",
+    "verifiedLectureTitle": "Atmosferin Katmanları ve Özellikleri Konu Anlatımı | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 3"
   }
 }

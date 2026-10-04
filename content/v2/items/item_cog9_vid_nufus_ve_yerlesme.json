@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Nüfus Piramitleri, Göçler ve Yerleşme Dokuları",
-  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "contentUrl": "https://www.youtube.com/watch?v=U22oGb3dJL8",
   "publishingStatus": "active",
   "payload": {
     "teacher": "Coğrafyanın Kodları",
@@ -24,12 +24,12 @@
       "sourceTheme": "AFETLER VE SÜRDÜRÜLEBİLİR ÇEVRE",
       "videoSearchScore": 6.4,
       "videoCandidateTitle": "Afetler konu anlatımı yeni müfredat 🔴 9.sınıf coğrafya | 2025",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=U22oGb3dJL8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_nufus_ve_yerlesme.tr.tr.vtt",
-      "transcriptFingerprint": "a9429fca5308feaa",
+      "transcriptFingerprint": "549f10ac813004d4",
       "reviewedOverride": true
     },
     "provider": "Coğrafyanın Kodları",
@@ -37,6 +37,7 @@
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "Nüfus piramitleri konu + soru | 39 GÜNDE AYRINTILI TYT COĞRAFYA KAMPI 2026 | 29"
   }
 }

@@ -7,10 +7,10 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Schulsachen",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Almanca Kolay & Tonguç Akademi",
+    "provider": "Meltem Hoca ile Almanca",
     "topic": "Schulsachen",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,19 +25,24 @@
         "Was ist das?: Die Rucksäcke",
         "Singular und Plural: Ratet: Ist das ein/e, kein/e?"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "164ed0dfd692a990",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "3639e1470a7f8837",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı"
     },
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "teacher": "Meltem Hoca ile Almanca",
+    "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE"
   }
 }

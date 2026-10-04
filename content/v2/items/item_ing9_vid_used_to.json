@@ -7,25 +7,26 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Used to ve Could Kullanımı (Geçmiş Alışkanlıklar & Yetenek)",
-  "contentUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+  "contentUrl": "https://www.youtube.com/watch?v=lK3CgfdyZh8",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Özer Kiraz",
+    "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_ingilizce_video_rehberi.md#L51",
       "sourceSection": "4. Hafta: Geçmiş Alışkanlıklar & Kibar İstekler",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "346b706e304348ab",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=kY7m7k98yBw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lK3CgfdyZh8",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.txt",
+      "transcriptFingerprint": "4b0329e9aa172d59",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.tr.vtt"
     },
-    "provider": "Özer Kiraz"
+    "provider": "Özer Kiraz",
+    "verifiedLectureTitle": "İngilizcede Edilgenlik Konu Anlatımı #82"
   }
 }

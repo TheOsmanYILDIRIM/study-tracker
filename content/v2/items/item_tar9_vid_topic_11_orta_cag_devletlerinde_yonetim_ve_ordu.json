@@ -36,7 +36,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7"
+      "transcriptFingerprint": "4cda05dbcaa616a7",
+      "sharedSource": true,
+      "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı"
     },
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "verifiedLectureTitle": "12) Orta Çağ Devletlerinde Yönetim ve Ordu"

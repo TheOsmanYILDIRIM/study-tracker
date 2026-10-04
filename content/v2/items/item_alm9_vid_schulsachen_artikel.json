@@ -7,26 +7,30 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
-  "contentUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+  "contentUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "AlmancaKolay",
+    "teacher": "Meltem Hoca ile Almanca",
     "provenance": {
       "sourceRef": "10-Projects/Almanca_Yillik_Plan_AL9.md#L60",
       "sourceSection": "Meine Schulsachen",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "fingerprint": "4cca94e386ebe6bd",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "3639e1470a7f8837",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı"
     },
-    "provider": "Almanca Kolay (Erhan Özdemir)",
+    "provider": "Meltem Hoca ile Almanca",
     "reviewStatus": "verified",
-    "reviewedOverride": true
+    "reviewedOverride": true,
+    "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE"
   }
 }

@@ -7,10 +7,10 @@
   "displayLabel": "14.1",
   "orderKey": 1000,
   "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=C_dWp6hP_Cg",
   "publishingStatus": "active",
   "payload": {
-    "provider": null,
+    "provider": "MEB Maarif Modeli",
     "topic": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,12 +27,15 @@
       "videoCandidateTitle": null,
       "fingerprint": "7bca883f24e6e1cf",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=C_dWp6hP_Cg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519"
-    }
+      "transcriptFingerprint": "253cf1c3f80fecce",
+      "reviewedOverride": true
+    },
+    "teacher": "adem deliaslan",
+    "verifiedLectureTitle": "TÜRK DİLİ VE EDEBİYATI 9. SINIF 4. TEMA DİLİN ZENGİNLİĞİ - EDEBİYAT ATÖLYESİ: KONUŞMA"
   }
 }

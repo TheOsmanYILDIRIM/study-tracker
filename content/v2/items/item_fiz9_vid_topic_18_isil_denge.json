@@ -7,7 +7,7 @@
   "displayLabel": "18.1",
   "orderKey": 1000,
   "title": "Isıl Denge ve Denge Sıcaklığı",
-  "contentUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
+  "contentUrl": "https://www.youtube.com/watch?v=2-aHeYUXvCI",
   "publishingStatus": "active",
   "payload": {
     "provider": "Özcan Aykın FİZİK",
@@ -21,19 +21,21 @@
       "sourceTopic": [
         "Isıl Denge"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "19d67d9d3a2db21c",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=HnOymIZHEII",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=2-aHeYUXvCI",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
-      "transcriptKind": "error",
-      "transcriptPath": null,
-      "transcriptFingerprint": null,
-      "reviewNote": "yt-dlp transcript indirme hatası; uydurma transcript üretilmedi."
-    }
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
+      "transcriptFingerprint": "cc0fc06a47315a01",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt"
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 5 | Isıl Denge | 2026"
   }
 }
