@@ -7,17 +7,34 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Biyolojiye Giriş: Yaşam Nedir?",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/introduction-to-biology",
+  "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L14",
       "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "d2c241ae0e658169"
-    }
+      "fingerprint": "d2c241ae0e658169",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "reviewedOverride": true,
+      "evidence": "Characteristics-of-living-things lesson directly addresses the card scope.",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_yasam_nedir.tr.tr.vtt",
+      "transcriptFingerprint": "9bd99c4d1169ae77",
+      "sharedSource": true,
+      "sharedSourceReason": "Canlıların ortak özellikleri ve hücresel yaşamın temelleri ortak video kapsamı"
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

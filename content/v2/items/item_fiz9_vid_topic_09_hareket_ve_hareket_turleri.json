@@ -37,9 +37,15 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.txt",
       "transcriptFingerprint": "9c3a5cdd2afe45a6",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.tr.vtt",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026",
+      "evidence": "Movement fundamentals lesson is the closest direct corpus source.",
+      "sharedSource": false
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 6. Gün | Hareket - 1 | Temel Kavramlar | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

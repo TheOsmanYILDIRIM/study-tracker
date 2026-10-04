@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "bc940718542a3767",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Canlıların sınıflandırılması ve âlemler ortak video kapsamı"
     }
   }
 }

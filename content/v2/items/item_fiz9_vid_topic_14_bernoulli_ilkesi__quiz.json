@@ -84,7 +84,9 @@
       "fingerprint": "43abd2ae90baa9b9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
-      "transcriptFingerprint": "dfc3976b956014b2"
+      "transcriptFingerprint": "dfc3976b956014b2",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026",
+      "sharedSource": false
     }
   }
 }

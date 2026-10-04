@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_uslu_giris",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "ec31c704e8e95f10",
+      "transcriptFingerprint": "9c84b59e9e92006a",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "cbe036026bfc4d77",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
+      "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
+      "sharedSource": false
     }
   }
 }

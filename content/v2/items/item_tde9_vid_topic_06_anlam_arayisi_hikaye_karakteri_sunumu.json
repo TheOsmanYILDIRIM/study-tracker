@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
-  "contentUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+  "contentUrl": "https://www.youtube.com/watch?v=3sxZJrvAYIM",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rüştü Hoca ile Türkçe",
+    "provider": "Deniz Hoca",
     "topic": "Anlam Arayışı: Hikâye Karakteri Sunumu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,14 +27,22 @@
       "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
       "fingerprint": "aac4c29540832943",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3sxZJrvAYIM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.tr.vtt",
-      "transcriptFingerprint": "b942c35900634519",
-      "sharedSource": true,
-      "sharedSourceReason": "Hikâye unsurları, olay ve durum hikâyesi (Maupassant ve Çehov tarzı) ile karakter analizi ortak video kapsamı"
-    }
+      "transcriptFingerprint": "fd9f8febb750db21",
+      "sharedSource": false,
+      "provider": "Deniz Hoca",
+      "teacher": "Deniz Hoca",
+      "verifiedLectureTitle": "HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
+      "reviewedOverride": true,
+      "evidence": "Story lesson supplies character/story foundations; presentation task itself is activity-specific."
+    },
+    "teacher": "Deniz Hoca",
+    "verifiedLectureTitle": "HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

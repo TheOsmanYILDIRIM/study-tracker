@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_10_berufe",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "90658fd49668e2cd",
+      "transcriptFingerprint": "e2c95574798e31d8",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,7 +85,8 @@
       "fingerprint": "f44960e4fb617ffd",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "verifiedLectureTitle": "9. Sınıf Almanca： Die Berufe ｜ Meslekler"
     }
   }
 }

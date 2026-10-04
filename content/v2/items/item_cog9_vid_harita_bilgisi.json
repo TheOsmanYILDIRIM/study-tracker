@@ -7,10 +7,10 @@
   "displayLabel": "1.4",
   "orderKey": 1000,
   "title": "Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
-  "contentUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+  "contentUrl": "https://www.youtube.com/watch?v=pPeiiLXr-aU",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L48",
       "sourceSection": "4. Hafta: Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
@@ -26,19 +26,27 @@
       "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pPeiiLXr-aU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.tr.vtt",
-      "transcriptFingerprint": "92ed5bed2a0c5a22",
-      "reviewedOverride": true
+      "transcriptFingerprint": "b71c205400c50012",
+      "reviewedOverride": true,
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca",
+      "verifiedLectureTitle": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025",
+      "evidence": "Projection and scale lesson is the strongest direct map-information source.",
+      "sharedSource": false
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Mekânın Aynası Haritalar",
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

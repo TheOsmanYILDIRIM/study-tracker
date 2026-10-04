@@ -7,17 +7,33 @@
   "displayLabel": "1.3",
   "orderKey": 3000,
   "title": "Kontrollü Deney Örnekleri",
-  "contentUrl": "https://www.khanacademy.org/science/biology/intro-to-biology/what-is-biology/v/controlled-experiments",
+  "contentUrl": "https://www.youtube.com/watch?v=TS-O93Ztv20",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Khan Academy",
+    "provider": "Dr. Biyoloji",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_biyoloji_video_rehberi.md#L16",
       "sourceSection": "1-2. Hafta: Biyolojiye Giriş & Canlılığın Tanımı",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "f2d122a451808fa3"
-    }
+      "fingerprint": "f2d122a451808fa3",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=TS-O93Ztv20",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "verifiedLectureTitle": "Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "reviewedOverride": true,
+      "evidence": "Transcript explicitly explains controlled experiments and variables.",
+      "transcriptLanguage": "tr",
+      "transcriptKind": "subtitle",
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.txt",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_kontrollu_deney.tr.tr.vtt",
+      "transcriptFingerprint": "023b046d2d4e28b1",
+      "sharedSource": false
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

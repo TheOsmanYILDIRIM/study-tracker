@@ -7,7 +7,7 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Üslü Sayılara Giriş (1. Seviye)",
-  "contentUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
+  "contentUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
   "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
@@ -17,14 +17,24 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "893ed24a871bd143",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
-      "transcriptFingerprint": "ec31c704e8e95f10",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "9c84b59e9e92006a",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt",
+      "provider": "Rehber Matematik",
+      "teacher": "Mehmet Hoca",
+      "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
+      "reviewedOverride": true,
+      "evidence": "Transcript directly introduces 9th-grade exponents.",
+      "sharedSource": false
+    },
+    "teacher": "Mehmet Hoca",
+    "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

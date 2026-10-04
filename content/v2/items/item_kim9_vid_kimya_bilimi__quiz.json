@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_kimya_bilimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "e17c0606ddfc4fc4",
+      "transcriptFingerprint": "77f90b471fd6a210",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "aed4463d5bcd6994",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
+      "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️",
+      "sharedSource": false
     }
   }
 }

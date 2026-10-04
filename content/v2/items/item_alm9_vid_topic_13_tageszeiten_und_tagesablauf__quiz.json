@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=T9ojobHMkg0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JPV8sHLi9tY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "85c8f13c7e0ce76b",
+      "transcriptFingerprint": "8d010d85d27ce0c6",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -85,7 +85,8 @@
       "fingerprint": "9a81eb4ed1648ff3",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "verifiedLectureTitle": "9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler"
     }
   }
 }

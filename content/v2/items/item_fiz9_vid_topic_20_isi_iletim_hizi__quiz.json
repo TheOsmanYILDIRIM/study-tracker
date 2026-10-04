@@ -84,7 +84,10 @@
       "fingerprint": "72f966a8c36b4183",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
-      "transcriptFingerprint": "7e71f18b7d18be73"
+      "transcriptFingerprint": "7e71f18b7d18be73",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı iletim yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızı ortak video kapsamı"
     }
   }
 }

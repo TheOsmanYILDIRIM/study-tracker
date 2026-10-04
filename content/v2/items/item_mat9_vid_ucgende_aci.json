@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Üçgende İç ve Dış Açı Bağıntıları",
-  "contentUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+  "contentUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -25,14 +25,24 @@
       "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK",
       "videoSearchScore": 6.4,
       "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=pQZroodk5no",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.tr.vtt",
-      "transcriptFingerprint": "c24a297ec4ace9fd"
+      "transcriptFingerprint": "a6f3262a4db677ad",
+      "provider": "Rehber Matematik",
+      "teacher": "Mehmet Hoca",
+      "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
+      "reviewedOverride": true,
+      "evidence": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory.",
+      "sharedSource": false
     },
     "provider": "Rehber Matematik",
-    "topic": "Üçgende Açı ve Kenar İlişkileri"
+    "topic": "Üçgende Açı ve Kenar İlişkileri",
+    "teacher": "Mehmet Hoca",
+    "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

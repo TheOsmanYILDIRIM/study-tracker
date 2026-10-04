@@ -34,9 +34,15 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
       "transcriptFingerprint": "dfc3976b956014b2",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026",
+      "evidence": "Transcript explicitly explains Bernoulli principle via flowing-fluid pressure.",
+      "sharedSource": false
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 33. Gün | Basınç - 8 | Akışkanların Basıncı | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

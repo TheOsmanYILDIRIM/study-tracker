@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri",
-  "contentUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
+  "contentUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -17,16 +17,24 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "6442c0e6c046456f",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Uv7bnwg9iRE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.txt",
-      "transcriptFingerprint": "199ea93e924fce60",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt"
+      "transcriptFingerprint": "6873891d0cfca012",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "evidence": "Direct classification lesson.",
+      "sharedSource": true,
+      "sharedSourceReason": "Canlıların sınıflandırılması ve âlemler ortak video kapsamı"
     },
-    "provider": "Dr.Biyoloji",
-    "teacher": "Dr.Biyoloji",
-    "verifiedLectureTitle": "Sınıflandırmaya Giriş | 9. Sınıf Maarif Model | Dr. Biyoloji"
+    "provider": "Dr. Biyoloji",
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

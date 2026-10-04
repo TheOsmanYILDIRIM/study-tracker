@@ -26,8 +26,15 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.tr.vtt",
       "transcriptFingerprint": "950a6c9a5591fd65",
       "sharedSource": true,
-      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
+      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+      "evidence": "Transcript explicitly teaches what physics is and its subfields."
     },
-    "provider": "Özcan Aykın FİZİK"
+    "provider": "Özcan Aykın FİZİK",
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

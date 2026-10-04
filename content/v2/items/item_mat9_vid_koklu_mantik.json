@@ -7,7 +7,7 @@
   "displayLabel": "1.5",
   "orderKey": 5000,
   "title": "Köklü Sayılar ve Üslü Sayılar Arasındaki İlişki",
-  "contentUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
+  "contentUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
   "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
@@ -17,14 +17,24 @@
       "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "156d7b115046cade",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
-      "transcriptFingerprint": "c81aea17231c58a8",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "2e72a0053c8c617a",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt",
+      "provider": "Rehber Matematik",
+      "teacher": "Mehmet Hoca",
+      "verifiedLectureTitle": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
+      "reviewedOverride": true,
+      "evidence": "Direct first lesson on radicals.",
+      "sharedSource": false
+    },
+    "teacher": "Mehmet Hoca",
+    "verifiedLectureTitle": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

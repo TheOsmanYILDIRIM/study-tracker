@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_10_vitaminler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mmSJHwyfPMs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "17ad44db420bf034",
+      "transcriptFingerprint": "227878e3a67df0d9",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "fa7285e632081545",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_10_vitaminler.tr.txt",
+      "verifiedLectureTitle": "Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "sharedSource": false
     }
   }
 }

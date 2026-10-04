@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_06_lipitler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "a30bd103306267d1",
+      "transcriptFingerprint": "fd7f37c2762d3caa",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "de5063c410e69323",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
+      "verifiedLectureTitle": "Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "sharedSource": false
     }
   }
 }

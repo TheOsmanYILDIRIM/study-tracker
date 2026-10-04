@@ -84,7 +84,9 @@
       "fingerprint": "e6a4b4ec48319e34",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.txt",
-      "transcriptFingerprint": "9c3a5cdd2afe45a6"
+      "transcriptFingerprint": "9c3a5cdd2afe45a6",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026",
+      "sharedSource": false
     }
   }
 }

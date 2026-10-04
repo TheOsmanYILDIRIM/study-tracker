@@ -34,7 +34,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
       "transcriptFingerprint": "88134c031c8b28bc",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt",
+      "sharedSource": true,
+      "sharedSourceReason": "Canlıların sınıflandırılması ve âlemler ortak video kapsamı"
     },
     "teacher": "Dr.Biyoloji",
     "verifiedLectureTitle": "Canlıların Sınıflandırılması | Dr. Biyoloji | Dönem 2026 - 2027"

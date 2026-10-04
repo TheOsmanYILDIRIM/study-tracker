@@ -24,11 +24,16 @@
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.tr.vtt",
       "transcriptFingerprint": "58c6f09ced835962",
-      "sharedSource": false
+      "sharedSource": false,
+      "provider": "tonguç 9. SINIF",
+      "teacher": "Tonguç Akademi",
+      "verifiedLectureTitle": "9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller",
+      "reviewedOverride": true,
+      "evidence": "Direct countries/languages and origin expressions lesson."
     },
     "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "verifiedLectureTitle": "9. Sınıf Almanca : Lander Und Sprachen  | Ülkeler ve Diller"
+    "verifiedLectureTitle": "9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller"
   }
 }

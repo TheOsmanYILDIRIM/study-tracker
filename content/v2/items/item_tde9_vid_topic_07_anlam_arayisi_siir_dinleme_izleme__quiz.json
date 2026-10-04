@@ -80,12 +80,14 @@
       "schemaVersion": "v2",
       "fingerprint": "00362f754592c90c",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
-      "transcriptFingerprint": "b8f22d58a10084f3",
-      "sharedSource": false
+      "transcriptFingerprint": "b809e5708e197557",
+      "sharedSource": true,
+      "verifiedLectureTitle": "ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca",
+      "sharedSourceReason": "Şiir ve şiir unsurları (nazım birimi, ölçü, kafiye/redif, ahenk) konu anlatımı ortak video kapsamı"
     }
   }
 }

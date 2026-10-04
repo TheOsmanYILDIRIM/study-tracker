@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_appearance_personality",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
@@ -84,7 +84,9 @@
       "fingerprint": "61eec1502e0c4ca3",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
-      "transcriptFingerprint": "edd896d72a92bd9c"
+      "transcriptFingerprint": "1735d4cf0d71d0e6",
+      "verifiedLectureTitle": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)",
+      "sharedSource": false
     }
   }
 }

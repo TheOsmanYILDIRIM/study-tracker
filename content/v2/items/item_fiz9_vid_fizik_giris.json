@@ -25,7 +25,16 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Hg2eF907YA",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı"
-    }
+      "sharedSourceReason": "Fizik bilimine giriş, doğa olayları ve fiziğin alt dalları (KAMYONET) ortak video kapsamı",
+      "provider": "Özcan Aykın FİZİK",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+      "reviewedOverride": true,
+      "evidence": "Direct physics-introduction lesson."
+    },
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

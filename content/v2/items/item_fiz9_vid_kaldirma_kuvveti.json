@@ -26,10 +26,15 @@
       "transcriptFingerprint": "c16d306cf7d143df",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
+      "evidence": "Direct buoyant-force lesson."
     },
     "provider": "Özcan Aykın FİZİK",
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

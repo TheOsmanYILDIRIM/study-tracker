@@ -7,10 +7,10 @@
   "displayLabel": "16.1",
   "orderKey": 1000,
   "title": "Isı, Öz Isı ve Isı Sığası",
-  "contentUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+  "contentUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Fizikfinito",
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Isı, Öz Isı ve Isı Sığası",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,14 +27,22 @@
       "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
       "fingerprint": "f7e19b86593dad2b",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.tr.vtt",
-      "transcriptFingerprint": "55aad1981b5f804a",
-      "sharedSource": true,
-      "sharedSourceReason": "Isı, sıcaklık, iç enerji, öz ısı ve ısı sığası (Q = m.c.Δt) konu anlatımı ortak video kapsamı"
-    }
+      "transcriptFingerprint": "d0c4d5929312bf50",
+      "sharedSource": false,
+      "provider": "Özcan Aykın FİZİK",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
+      "reviewedOverride": true,
+      "evidence": "Direct specific-heat and heat-capacity lesson."
+    },
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
-  "contentUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+  "contentUrl": "https://www.youtube.com/watch?v=t9ejokTLCpg",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -17,15 +17,23 @@
       "schemaVersion": "v2",
       "reviewStatus": "verified",
       "fingerprint": "b3ac44607a0489ab",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=t9ejokTLCpg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
-      "transcriptFingerprint": "e0e330ee30a12087",
-      "sharedSource": true,
-      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+      "transcriptFingerprint": "b9507ec0fb2844fc",
+      "sharedSource": false,
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️",
+      "reviewedOverride": true,
+      "evidence": "Overview transcript explicitly distinguishes ionic, covalent and metallic strong interactions."
     },
-    "provider": "Meschemy Kimya"
+    "provider": "Meschemy Kimya",
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

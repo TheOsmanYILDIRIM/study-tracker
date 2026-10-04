@@ -33,9 +33,16 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.txt",
       "transcriptFingerprint": "7e71f18b7d18be73",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_20_isi_iletim_hizi.tr.tr.vtt",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
+      "evidence": "Same lesson explicitly teaches energy-transfer rate; legitimate shared source.",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı iletim yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızı ortak video kapsamı"
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 6 | Enerji İletim Yolları ve Hızı | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

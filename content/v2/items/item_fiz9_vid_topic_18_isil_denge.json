@@ -32,10 +32,16 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
-      "transcriptFingerprint": "cc0fc06a47315a01",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt"
+      "transcriptFingerprint": "8bf4d425deea8561",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026",
+      "evidence": "Direct thermal-equilibrium lesson.",
+      "sharedSource": false
     },
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 16. Gün | Isı ve Sıcaklık - 5 | Isıl Denge | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

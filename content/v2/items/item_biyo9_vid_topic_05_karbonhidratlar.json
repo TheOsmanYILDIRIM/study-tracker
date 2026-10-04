@@ -7,7 +7,7 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Karbonhidratlar",
-  "contentUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
+  "contentUrl": "https://www.youtube.com/watch?v=MgsF9_Yi6es",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -29,7 +29,7 @@
       "sourceTopic": [
         "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 12. Ders: Organik Bileşikler - Karbohidratlar - 1",
       "fingerprint": "8963e341905f3f05",
@@ -37,9 +37,19 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.txt",
-      "transcriptFingerprint": "aa74139f85af8015",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=PqxN0m0Fcno",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "dcac0fe33a583987",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MgsF9_Yi6es",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_05_karbonhidratlar.tr.tr.vtt",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "verifiedLectureTitle": "Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "reviewedOverride": true,
+      "evidence": "Direct carbohydrates lesson.",
+      "sharedSource": false
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

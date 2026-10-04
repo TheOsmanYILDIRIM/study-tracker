@@ -7,7 +7,7 @@
   "displayLabel": "13.1",
   "orderKey": 1000,
   "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
-  "contentUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+  "contentUrl": "https://www.youtube.com/watch?v=iZ2F-uPaDr8",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -27,18 +27,26 @@
       "videoCandidateTitle": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
       "fingerprint": "7c89d118619e73c1",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=iZ2F-uPaDr8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri.tr.tr.vtt",
-      "transcriptFingerprint": "685ca31f6189386c",
+      "transcriptFingerprint": "de505f3caa498af8",
       "reviewedOverride": true,
-      "sharedSource": false
+      "sharedSource": false,
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca",
+      "verifiedLectureTitle": "🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025",
+      "evidence": "Direct population-pyramids lesson; strongest corpus source for demographic structure."
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "teacher": "Yunus Hoca",
+    "verifiedLectureTitle": "🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

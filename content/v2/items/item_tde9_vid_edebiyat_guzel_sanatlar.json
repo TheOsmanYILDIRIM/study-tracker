@@ -24,10 +24,16 @@
       "transcriptFingerprint": "ce3abaffa6c6dffb",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.tr.vtt",
       "reviewedOverride": true,
-      "sharedSource": false
+      "sharedSource": false,
+      "provider": "Deniz Hoca",
+      "teacher": "Deniz Hoca",
+      "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "evidence": "Direct fine arts and literature lesson; card's metin-türleri tail is broader."
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 / 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝"
+    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

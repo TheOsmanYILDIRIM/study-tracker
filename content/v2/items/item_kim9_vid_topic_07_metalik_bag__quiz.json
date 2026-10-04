@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_07_metalik_bag",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,7 +82,9 @@
       "fingerprint": "22603c5f85f551fa",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
-      "transcriptFingerprint": "bef8bd6ebb81bf54"
+      "transcriptFingerprint": "0c98e80add399a03",
+      "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
+      "sharedSource": false
     }
   }
 }

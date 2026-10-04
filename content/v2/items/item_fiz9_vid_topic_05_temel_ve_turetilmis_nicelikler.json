@@ -35,7 +35,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler.tr.tr.vtt",
       "transcriptFingerprint": "532569ac8750adbf",
       "sharedSource": true,
-      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı"
-    }
+      "sharedSourceReason": "Temel ve türetilmiş büyüklükler (KISA MUZ) ile skaler ve vektörel nicelikler ortak video kapsamı",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027",
+      "evidence": "Transcript directly classifies fundamental/derived physical quantities."
+    },
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

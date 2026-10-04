@@ -7,7 +7,7 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Kovalent Bağ",
-  "contentUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+  "contentUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -27,12 +27,23 @@
       "videoCandidateTitle": "Kovalent bağ nasıl oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 14",
       "fingerprint": "48b1354f19def983",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.tr.vtt",
-      "transcriptFingerprint": "895c0a3f6faf371f"
-    }
+      "transcriptFingerprint": "56e3469e4cdbd423",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+      "reviewedOverride": true,
+      "evidence": "Direct covalent-bond lesson.",
+      "sharedSource": true,
+      "sharedSourceReason": "Kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı ortak video kapsamı"
+    },
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

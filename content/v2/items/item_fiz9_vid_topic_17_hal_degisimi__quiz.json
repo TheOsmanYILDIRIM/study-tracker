@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_topic_17_hal_degisimi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "7b5efa17e7707b0f",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -86,7 +86,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
+      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026"
     }
   }
 }

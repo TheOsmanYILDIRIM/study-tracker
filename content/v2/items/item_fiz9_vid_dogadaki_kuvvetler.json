@@ -24,10 +24,16 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.tr.vtt",
-      "transcriptFingerprint": "cc010a06705ebd53"
+      "transcriptFingerprint": "cc010a06705ebd53",
+      "teacher": "Özcan Aykın",
+      "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026",
+      "evidence": "Transcript directly teaches fundamental forces.",
+      "sharedSource": false
     },
     "provider": "Özcan Aykın FİZİK",
-    "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 8. Gün | Kuvvet - 1 | Temel Kuvvetler ve Bileşke Kuvvet | 2026"
+    "teacher": "Özcan Aykın",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

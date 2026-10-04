@@ -80,12 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "1244f8e62d53736f",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=e35E93fV4cg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ij26b-lboNY",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
-      "transcriptFingerprint": "4014bd282e4a8547",
-      "sharedSource": false
+      "transcriptFingerprint": "e744c9c14ff2b181",
+      "sharedSource": false,
+      "verifiedLectureTitle": "ANLATIM BİÇİMLERİ ⧸ DÜŞÜNCEYİ GELİŞTİRME YOLLARI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca"
     }
   }
 }

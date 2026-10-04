@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=glDg6lFPsag",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,7 +82,10 @@
       "fingerprint": "a13f92cb593fecb6",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
-      "transcriptFingerprint": "49fb8f209e6affb0"
+      "transcriptFingerprint": "1775cba7977354ac",
+      "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (11.GÜN) ｜ MADDENİN HALLERİ - 1 + PDF 🗓️",
+      "sharedSource": true,
+      "sharedSourceReason": "Maddenin fiziksel halleri: katılar (amorf, kristal) ve sıvılar (viskozite, buharlaşma) ortak video kapsamı"
     }
   }
 }

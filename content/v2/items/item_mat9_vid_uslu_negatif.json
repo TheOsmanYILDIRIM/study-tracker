@@ -7,7 +7,7 @@
   "displayLabel": "1.4",
   "orderKey": 4000,
   "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
-  "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+  "contentUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
   "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
@@ -17,14 +17,24 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "6cb73c7f5932687a",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
-      "transcriptFingerprint": "71eb5b21eb0dd86f",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "0b107726bc4d9e40",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt",
+      "provider": "Rehber Matematik",
+      "teacher": "Mehmet Hoca",
+      "verifiedLectureTitle": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
+      "reviewedOverride": true,
+      "evidence": "Second exponent lesson continues exponent rules including negative exponents.",
+      "sharedSource": false
+    },
+    "teacher": "Mehmet Hoca",
+    "verifiedLectureTitle": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

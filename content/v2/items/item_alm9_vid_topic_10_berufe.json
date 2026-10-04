@@ -7,10 +7,10 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Berufe",
-  "contentUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+  "contentUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Easy German",
+    "provider": "tonguç 9. SINIF",
     "topic": "Berufe",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,18 +28,22 @@
       "videoCandidateTitle": null,
       "fingerprint": "a5e031267e28ad85",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=jEjRbCDHqZ8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=Vgt876VAW78",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
-      "transcriptFingerprint": "90658fd49668e2cd",
+      "transcriptFingerprint": "e2c95574798e31d8",
       "reviewedOverride": true,
-      "sharedSource": false
+      "sharedSource": false,
+      "provider": "tonguç 9. SINIF",
+      "teacher": "Tonguç Akademi",
+      "verifiedLectureTitle": "9. Sınıf Almanca： Die Berufe ｜ Meslekler",
+      "evidence": "Direct professions lesson."
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Erhan Özdemir",
-    "verifiedLectureTitle": "Almanca Temel A1/A2 Ders - 14 Almanca Meslekler - Die Berufe - Yeni Almanca Kelimeler, Cümleler"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： Die Berufe ｜ Meslekler"
   }
 }

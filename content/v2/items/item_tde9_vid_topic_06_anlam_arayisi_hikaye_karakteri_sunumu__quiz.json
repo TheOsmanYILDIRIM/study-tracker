@@ -80,13 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "3a6767cc214f9122",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3sxZJrvAYIM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
-      "transcriptFingerprint": "b942c35900634519",
-      "sharedSource": true,
-      "sharedSourceReason": "Hikâye unsurları, olay ve durum hikâyesi (Maupassant ve Çehov tarzı) ile karakter analizi ortak video kapsamı"
+      "transcriptFingerprint": "fd9f8febb750db21",
+      "sharedSource": false,
+      "verifiedLectureTitle": "HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026"
     }
   }
 }

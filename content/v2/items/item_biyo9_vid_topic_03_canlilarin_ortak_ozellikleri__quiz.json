@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "0243614dcf9148b2",
+      "transcriptFingerprint": "9bd99c4d1169ae77",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,10 @@
       "schemaVersion": "v2",
       "fingerprint": "c8e647a78c164d52",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+      "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "sharedSource": true,
+      "sharedSourceReason": "Canlıların ortak özellikleri ve hücresel yaşamın temelleri ortak video kapsamı"
     }
   }
 }
