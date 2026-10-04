@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_periyodik_ozellikler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,9 +82,9 @@
       "fingerprint": "15e3c2e0f956a095",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
-      "transcriptFingerprint": "6ce56406f481cfb3",
+      "transcriptFingerprint": "3667e4e4ae442b90",
       "sharedSource": true,
-      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
+      "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır."
     }
   }
 }

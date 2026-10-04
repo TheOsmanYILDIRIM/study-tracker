@@ -1,515 +1,1042 @@
-Hadi bakalım. Hazır mıyız gençler?
-Kaldığımız yerden 9. sınıf RB tayfam. Ne
-yapıyoruz? Üçgenlerde, açılarda yolumuza
-devam ediyoruz. Önemli konulardan biri
-10da 11'de 12'de karşımızda farklı
-varyasyonlarıyla ilerleyen kısımlarıyla
-gelecek ama bu kısmı bilmeyen o
-sınıflarda gümülecek, patlayacak.
-Patlamak istemiyoruz, yapmak istiyoruz.
-O zaman hadi aç bakalım modül 3'ü. Modül
-3te sayfa 7 8. Bir önceki dersten
-ödevler. Hiç ödevleri kontrol etmediğim
-aklıma geldi. Açın bakacağım dermişim.
-Arkadaş onlar yapılmazsa sadece anlatıp
-geçersem ben tamam hakkını veriyor
-olabilirsin derse ama üstüne sen tek
-başına soru çözmediğin sürece en iyi
-hocayı da koysak burada ne yaparsak
-yapalım mümkün değil öğrenmek için senin
-de çözmen lazım. Bunu bir kere baştan
-bir söyle. Kimse kimseyi kaldırmasın.
-Sayfa 9. Moralleri bozmak için değil
-yükseltmek için söylüyorum bunları.
-Sayfa 9. Sayfa 10'u beraber işleyeceğiz.
-Çok uzun bir dersi olmayacak. Temel
-anlamda üçgenin açılarıyla, iç açılı ve
-dış açıları ile ilgili bilmen gereken
-temel şeyleri anlatacağım. sonraki
-derslerde vitesi yükselteceğiz. Uzattık.
-O zaman gönder gelsin hocam dedim. Bu
-arada yeni çerçeveyi beğendiniz mi,
-beğenmediniz mi? Mutlaka yazın
-arkadaşlar yorumlara ki ben de sonraki
-videolarda çerçeveyi yine o eski çerçeve
-moduna geçelim mi? Gerçi ilk defa beni
-bu versiyonda izleyen arkadaş için bu
-çerçeve nasıl diye soralım. Tamam mı?
-Etraf görünümünden bahsediyorum. Şimdi
-başlık dedik ki üçgende açılar. Bunu
-yani ilkokuldan beri bilmeyenimiz yoktur
-aramızda. Üçgende açılardan bahsederken
-özellikle iç açılardan bahsederken
-toplamının kaç derece olduğunu
-biliyorsun ama üçgenin tanımını
-biliyorsun. Biliyor musun? Üçgen üç tane
-kenar işte hocam falan. Hayır. Düzlemde
-doğrusal olmayan bak bunlar doğrusal
-olursa üçü birden ne olur? Üçgen
-oluşturamazsın. Herhangi üç noktanın
-doğrusal olmayan herhangi üç noktanın
-ikişer ikişer doğrusal olabilirler.
-ikişer ikişer birleştirilmesiyle
-elde edilen şekle üçgen adı verilir.
-Burası önemli bir mevzu. Ben ne yaptım?
-Herhangi üçü doğrusal olmayan üç noktayı
-ikişer ikişer birleştirdim. Üçgenimi
-elde ettim. Elde ettiğim üçgenin iç
-kısmında şuralarda oluşan açılara ne
-dedim? İç açılar adını verdim. Bakalım
-ABC üçgeninde A B C noktaları köşe.
-Köşenin tanımını yapmış olduk. A B C
-noktaları. AB kapalı köşeli bak parantez
-doğru parçasıydı. Geçen dersten hatırla.
-AC BC üçgenin kenarları A BC ACB B AC
-bakurken mesela CBA ya da B AC bunlar
-her biri üçgenin neleridir hocam? İç
-açılarıdır. Her bir iç açısı için başına
-M koyduğumuzda o açının nesi anlamına
-geliyordu? Ölçüsü anlamına geliyordu.
-Alfa ölçüsü. Beta ölçüsünde bir açımız
-var. teta ölçüsünde alfa, beta, teta
-ölçüleri var. Peki en net soruyu sorma
-vakti geldi. Alfa + beta + teta daima
-düzlemde çizdiğimiz bu üçgen için nedir?
-180°erecedir arkadaş. Üçgenin iç açıları
-toplamı bizim için ne olacaktır? 180°
-olacaktır. Bunun ispatını yapalım. Belki
-bugüne kadar bilmiyordun hocam. Tamam
-iyi, güzel söylüyorsun. Üçgenin iç
-açılar toplamı 180 de geometriyi
-öğrenmek istiyorsan her seferinde o
-neden sorusunu sormalısın. Şimdi derdim
-şu BC kenarı var mı elimizde? Var. Bu BC
-kenarına paralel olacak şekilde ve A
-noktasından geçecek şekilde getirdim.
-Buradan doğrumu çektim. Bu doğrunun
-özelliği nedir hocam? BC doğrusuna,
-doğru parçasına paralel çektik. Niye
-böyle bir şey çektim biliyor musun?
-Arkadaş benim derdim şu. Şurada oluşan Z
-harfini sana gösterebilmek. O Z harfi
-oluşmadı tabii. Şimdi daha güzel
-oluşsun. Oluştu. Ters açılardan dolayı
-tetı nereye taşıdım? Buraya taşıdım.
-Aynı şekilde geldim. Şurada da bir Z
-harfi oluşturabilir miyim? Oluşturdum.
-Bu Z'den ötürü de bet'yı nereye taşıdım?
-Buraya taşıdım. Biz yine geçen ders açı
-çeşitlerini gördüğümüzde neyi görmüştük?
-Bak doğru açı. Doğru açı kaç dereceydi?
-180 dereceydi. O hal o halde alfa + beta
-eşittir toplamları hepsinin ne yapıyor?
-doğru açıyı oluşturuyor. E doğru açı da
-180° olduğu için üçgenin iç açılar
-toplamı bu sebeple 180° çık. İşin
-mantığını öğrenmek işi çözmek anlamına
-gelir. Şimdi hep çözdüğümüz soru
-tarzları vardı. O çok kolayları bir
-kenara bırakalım. Direkt harfli sorulara
-bir geçiş yapalım seninle. Tamam. Hani o
-ilkokuldan beri çözdüğün için o kadar
-derine de inmeyelim. O kadar derine
-inmek istersen sıfırdan geometri kampı
-var bizim. Oradaki kitabı alıp o kampı
-bitirebilirsin. Derinde mesela üçgeni
-orada en temelden yani 0dan başlayıp
-öğrenebilirsin. A, B, C, D, E,
-Cenlerinin açılarının ölçüleri yukarıda
-derece türünden verilmiştir. Buna göre
-Açısı ile D açısı arasındaki fark nedir?
-Ben direkt buraya odaklanacağım. Hocam
-benden neyi istiyor bu soru? 2y + x -
-2y'nin sonucu aranıyor değil mi?
-Şuradaki açı benim için a açısıdır.
-Şuradaki açı benim için d açısıdır.
-Çıkardığımda geriye ne kalacak? X. Soru
-benden x'i istiyor. Peki biz neleri
-biliyoruz? Üçgenin iç açılar toplamını
-biliyorum. Önce buradaki ABC üçgeninden
-başlayacağım. Neyi biliyorum? X + Y + 4X
-- Y + 2Y + X. Bütün kenarları topladım.
-Neye eşitledim? 180'e. Etrafı bir
-toparla. 5 tane x yaptı. Bir tane daha
-ne yaptı? 6 tane x yaptı. Şuradan e bir
-tane y var. Bir tane de - y var.
-Birbirini götürdü. 2 tane y oldu kalan.
-Cevap neye eşit? 180'e 1inci denklemi
-buldum. Hemen geldim 2inci denkleme.
-Elimde hangi üçgen var? DEFF üçgeni var.
-Yine benzer şeyler 2 taney 4 tane x + 2y
-- x toplandı. Cevap ne olmak zorunda?
-180° olmak zorunda. Buradaki toplama
-göre bakalım ne kaldı elimizde? 3 tane x
-kaldı. + 2y 2ye buradan ne yaptı? 4 tane
-y yaptı. Cevap kaça eşit olacak? 180'e.
-Benim kimden kurtulmam gerekiyordu
-hocam? Y'lerden kurtulmam gerekiyor.
-X'ler kalsın istiyorum. O halde diyorum
-ki burada her tarafı -2 ile gel çarpalım
-seninle birlikte. -2 ile çarpınca ne
-oldu? -12 tane x -4 tane y'i 2 ile
-çarptım. -360 -2 ile çarptığımız için 3x
-buradan 4y buradan toplam kaça eşitiz?
-180'e. Alt alta toplamayı denedik mi
-hocam? - + 4y'ler birbirini götürür.
-Şurada -9 tane x kalır. 12 taneden 3
-tanesini götürünce -10 burada kalır.
-Eksiler birbirini götürdü. Her tarafı
--9'a böldüm. 2 kere 9 18 olduğu için
-x'in cevabı ne geldi? 20° geldi. Şak
-diye cevabı koyduk. Uzun uzun uğraşmadım
-soruda. Benden önce istenen şey de
-bilinmeyenin ne olduğunu görünce soru
-kolaylaştı benim için. Zaten zor bir
-soru da değil açıkçası onu söyleyeyim.
-Üçgende açılarda yani ilerledikçe
-sorular zorlaşacak. Şimdi burada güzel
-bir taktik öğreteceğim sana. ABC üçgeni
-var elimizde. 3 tane A açısı, 4 tane B
-açısına, 6 tane C açısına eşit. Bunu o
-kekebe gösterdim aslında arkadaş. Bak
-bir şeyin 3 katını, bir şeyin 4 katını,
-bir şeyin 6 katını alınca birbirine eşit
-oluyor. O zaman diyorum ki öyle bir kat
-seçeyim ki hepsi için ortak
-gösterilebilirsin. Yani okeklerini
-seçiyorum. 3'ün 4'ün 6ınnın okeki nedir?
-12'dir. Bu sebeple gel seninle birlikte
-buraya 12x yazalım. Neden bunu
-yazıyorum? 3 tane a açısı 12x'e eşitse
-bir tane açısını bulmak için 12'yi 3'e
-bölersin ne kalır? 4 tane x kalır.
-Anladın mı şimdi neden böyle yazdığımı?
-Tam sayılarla uğraşıyoruz abi. Geldim bu
-tarafa. 4 tanesi 12x'e eşitse B açısının
-o zaman bir tanesi neye eşittir? 3 kere
-4 12 olduğu için 3x'e eşittir. Bitmedi
-derdim. Bir de aynısını C açısı için
-bakalım. C açısı 6'ya böldüm 12x'i ne
-kaldı? 2x kaldı. Demek ki C açısı denen
-şey de 2x eşit. Şimdi getir bütün
-açıları toplayalım. 4x 3x 2x toplandı.
-Cevap ne çıkmalı? Üçgenin iç açılar
-toplamı 180. 7 2 daha ne yaptı? 9x
-yaptı. O da neye eşit? 180'e. X yine
-buradan az önceki gibi 20° çıktı ama
-soru ACB açısını soruyor. Bak ACB açısı
-yani 2 tane x'i istiyor. Ya da biz
-direkt ACB açısının ölçüsü eşittir 20 x
-2'den kaç derece yazacağız buraya? 40°
-yazdık. Olayı bitirdik. Gönder gelsin
-dedik. Zor mu ya? Zor mu bunlar? A yine
-geçen derste öğrettiğim kurallardan
-birini kullanacağız burada. Aslında bu
-ders o kuralı vereceğim. Hatta ispatını
-da yapacağım. Bir güzellik yapacağım
-sana. İspatsız olmaz çünkü. Değil mi?
-Şuraya bırakayım mı kuralımızı? Neydi
-kuralımız? Mehmet hocanın en sevdiği
-kural diye bunu not alabilirsin. Ya da
-hayatın boyunca üçgende açı sorusu
-çözerken %100 söylüyorum sana. Belki de
-en sık kullanacağın eee formüllerden
-biri olacak. Nedir o? ABC üçgeninde
-diyelim ki burası X açısı, burası Y
-açısı, şurası da bizim dış açımız. Hadi
-adı da C açısı olsun. Büyük C açısı
-olsun. Arkadaş formül kural şu iki iç
-açının toplamı geçen ders yorumlarda
-istemiştim. Bunu yazan tüm arkadaşlara
-teşekkürlerimi sunarım. Yazmayan
-arkadaşlara teessüflerimi sunmam ama
-yazarsan öğrenirsin. Hayata dair bir not
-bırakırsın oraya. İki iç açının toplamı
-kendine komşu olmayan dış açıya eşittir.
-Cümle de önemli. İki iç açının toplamı
-bir dış açıya eşittir. Yanlış. Bir dış
-açı dersem burası da olabilir. Oraya
-değil işte. İki iç açının toplamı
-kendilerine komşu olmayan dış açıya
-eşittir üçgende. Anlaştık mı? Bu kural
-güzel bir kural. Neden? Sık
-kullanacağım. Çünkü A BC DF üçgen.
-Noktalar doğrusal paralellikler. Açı
-taşıyacağız belli ki. AB DF'ye BC FC'ye
-paralelmiş. FE'ye paralelmiş. Bunu niye
-verirler hocam? Bunu bileniniz var mı
-aranızda? Ya da sen biliyor musun bunu?
-BC kesişimi doğru parçasıyla DF'nin
-kesişimi G'dir. Bunu neden vermeye
-çalışıyor? Bak diyor bunlar doğrusal
-diyor. Geldiler bu noktada kesiştiler
-diyor. Bazen o kesişimi vermenin anlamı
-doğrusallığın sağlandığını göstermek
-amacıyla olabiliyor. İki tane doğru
-parçası burada kesişti. 57 41 verildi. X
-kaç derecedir? İlk göreceğin benzer özür
-dilerim benzerlik diyorum. Eşitlik
-nedir? Şuradaki paralelliği düşün. Hadi
-bak kırmızıyla çizeyim. Görmesi bir tık
-daha kolaylaşsın senin açından. Hocam
-şuradaki 57 dereceyi aldım. Bu tarafa
-taşıdım. Tamam mıyız? Bitti mi işim?
-Bitmedi. FE uzunluğunu aldım. Şurada BC
-uzunluğunun şu parçasını aldım.
-Paraleller. Yine yöndeş açılardan dolayı
-41 dereceyi buraya taşır mıyım? Taşırım.
-Derdim ne? Şuradaki açıya ulaşmak. Nasıl
-ulaşırım hocam? İki iç açının toplamı
-kendilerine komşu olmayan dış açıya
-eşittir efsanesin. 57 + 41. Bana daha
-kolay geliyor. Buradan farklı yolla da
-çözebilirsin. 8 98° derdimiz ne hocam?
-Artık burası bir doğru açı. Doğru açı
-180°. Sen burayı buldun. 98°. İstersen
-yazalım tepesine. E 180'den 98'i
-çıkarırsam istediğim açıya ulaşmaz
-mıyım? Ulaşırım. O halde orası da kaç
-dereceymiş? 82 dereceymiş. Olay biter
-efendim. Gönder gelsin 4. soru. Soru
-çözmek de çok zevkli ya. Özellikle
-geometride değil mi? Büyüteyim biraz
-daha net gözüksün. ABC üçgen eşit açılar
-verilmiş. 50° 115 derece verilmiş. Hocam
-nereyi istiyor biliyor musun diyor
-burada. Hocam diyor ki BC A açısı
-şuradaki açının tamamını ben senin
-yerinde olsam önce bu soruda ya hocam
-benden istenen yeri ben tam
-algılayamadım. Yani mesela şuna x desem
-bu da x oluyor mu? Oluyor. İstediğim
-yere ulaştım mı? Hayır. O zaman buraya y
-diyelim mi hocam? Yiyelim. Neden bunu
-yazıyorum? Önce benden ne istediğine
-birlikte odaklanalım istiyorum. Hocam
-benden istenen x + y kaçtır? Bunu
-istiyor. O zaman x ile y ile bir şeyler
-bulacağız. Aslında bir önceki derste
-şalvar üçgeni vermiştim hatırlarsan.
-Şalvar üçgenden birinci yol. Of bunu
-yani şu an gördüm açıkçası. Birinci yol
-şalvar üçgen ya da roket üçgen demiştim
-hatırlarsan. Bak düzenleyerek çizeyim
-onu tekrar. O roket üçgeni bir görelim.
-Bir de ispatından çözeceğim çünkü. Ne
-demiştik roket üçgende? Şuradaki
-açıların toplamı buradaki dış açıya
-eşittir ki zaten ters açılardan orası
-da.
-Yani x + y + 50°cenin toplamı 115°cedir.
-50 dereceyi attım karşıya. X + Y'nin
-cevabı ne oldu? Şurası 5, burası 6
-kaldı. 65. Soru çözüldü bitti. Geçmiş
-olsun. İşte geometri böyle. Yani bazen
-inanılmaz hızlı çözebilirsin. Hocam ben
-göremedim onu. Göremediysen şöyle
-çözecektin. Şimdi şu x'i yerine yerini
-yazdım. Şuraya yzdım. 115 yerinde
-kalsın. Bozmayalım onu. Senden şu üçgeni
-görmeni istiyorum. Kırmızı üçgeni
-görebilir misin lütfen? Kırmızı üçgende
-Mehmet hocanın en sevdiği kural neydi?
-İki iç açının toplamı. Kendilerine komşu
-olmayan dış açıya eşit x + 50. Kabul
-müyüz? Güzel. Henüz burada da kalemle
-yapacak bir şey yok. Şimdi şuradaki
-siyah üçgeni görmeni istiyorum. Bu
-üçgende de iki iç açının toplamı yani x
-+ y + 50'nin toplamı kendilerine komşu
-olmayan dış açı burası olduğu için 115'e
-eşit değil mi? O halde ben aslında x +
-y'yi buradan yine 65° bulurum. Şak diye
-vururum cevabı. Orası ucundan açık
-gözüküyor. Yeter o bize. 4. soruyu da
-bitirmiş oluruz efendim. 9. sayfa biter
-modülünde hemen sen de kitabında bunu
-muhakkak tikle. Her sayfayı didik didik
-ediyoruz. anlamadığımız, kafamıza zerre
-yatmayan bir şeyde sayfayı geçmemeye
-özen göster. Şimdi iç açı var, dış açı
-da var. Şimdi dış açıdan bahsedelim
-biraz sana. Genelde öğrenci şeyi çok iyi
-bilir. Hocam üçgenin iç açılar toplamı
-180°. Dış açılar dış bükeyi birçokgende
-üçgen, dörtgen, beşgen, altıgen,
-yedigen, sekizgen, engen, yengen hiç
-fark etmez abi. Hepsinde dış açılar
-toplamı daima bunu net duyalım senden.
-360°
-nedenini açıklayacağım. Önce bir tanıma
-bakalım. Bir üçgenin dış açılar toplamı
-neydi? 360 dereceydi. Xi, Y'yi, Z'yi
-topladık. 360° çıktı. Nasıl bulunacak?
-Bak şimdi sana bu ispatı iki farklı
-yoldan önce bir yoldan anlatalım. Sonra
-orayı bir başka bir yere bağlayayım.
-Hocam öncelikle iç açılar bulunur. Ben
-önce şuradan kendim bulayım istersen.
-Hocam bak içeriye girmek için burası
-doğru açı. 180'den x'i çıkarınca iç
-açıyı bulur muyum? Mantık aynı şekilde
-buradan 180'den y'yi çıkarınca bulur
-muyuz? Burası da 180'den Z'yi çıkarınca
-bulunur mu? Bulunur. Biz bir önceki
-sayfada kimin ispatını yaptık? İç açılar
-toplamının 180° olduğunun ispatını
-yaptık. Madem ispatı yapıldı, biliniyor
-demektir. O halde geldim yine iç açıları
-kendi arasında topladım. Neye eşitlememi
-beklersin? İç açılar toplamı olan 180'e.
-Bak bu 180 bu 180'i yesin. Bu iki tane
-180 topladım. Ne yaptı? 360 burada
-kalsın. X'leri, Y'leri, Z'leri karşı
-tarafa toplu halde gönderdim. Ne yaptı
-bura gençlik? X + Y + Z = 360. Oha
-ispata bak. Dış açılar toplamının 360°
-olduğunun ispatı budur. Peki Mehmet
-hocam sen bir saattir ya da en sevdiğim
-kuraldır deyip deyip şu kuralı bana her
-seferinde anlattın. Biz de sana
-sormadık. Neden? Nedenini sordun mu sen
-bana? Sormadın. İşte o neden önemli
-arkadaş? Gel onun nedenini de burada
-ispatlayalım beraber. Şöyle yapacağız.
-Yine hani 180'de yaptığımız ispata
-benzer bir ispat. Aşağıdaki BC doğrusuna
-paralel olacak şekilde ben de doğrumu
-çektim. Tamam mı arkadaş? Dedim ki
-şuradaki Z'yi sen zaten görebiliyordun.
-Bu B'yi buraya aldık. Tıpkı oradaki
-ispat gibi. Ters duran C'yi de o tarafa
-aldık. İzle bizi. Şuraya da C'yi de
-yazdık mı? Yazdık. Dikkat et. Şuradaki
-açıyla buradaki açı ters açı. Burası B
-olur mu? Olur. Artık burası ne oldu? Dış
-açı oldu. Bak şunun toplamı B + C benim
-için nedir? Dış açıdır. Ve ben ne
-biliyorum? İki iç açının toplamı
-kendilerine komşu olmayan dış açıya eşit
-olduğunun ispatını yapmış. Ha buraya
-şunları yazmanı istiyor senden. 180 -
-x'i ki o da a'ya eşit. Burada 180 - y'yi
-o da b'ye eşit. Bu da 180 - c'ye bu da
-eee pardon z'ye. O da neye eşit? C'ye
-eşit. Anlaştık mı? Bu ispatlar neden
-önemli biliyor musun hocam? İspat ispat.
-Adam ispat sormuyor ki bize sınavda
-diyor. Soruyu yazan kişi ispattan yola
-çıkarak soruyu yazıyor. Bütün sorular
-hemen hemen ispatlardan yola çıkarak
-yazılır. İşte sen ispatı bilirsen belki
-de bugüne kadar çözemediğin o geometriyi
-çözeceksin. Sana bunun garantisini
-veriyorum ben. Ben vermiyorum aslında.
-Geometrinin kendisi veriyor bize bu
-garantiyi. Mesela öğrendiğimiz kuralı
-tekrarlayalım. ABC üçgeninde verilen açı
-ölçülerine göre X kaç derecedir diye
-soruyor. Daha soruya şak diye baktım.
-Direkt dedim ki iki iç açı toplamda
-dışarıdaki komşu olmadıkları dış açıya
-eşit. Bu kadar bu soru. 3x - 5 + 30
-cevap e= x + 75. 3x bir tanesi gitti ne
-kaldı? 2x buranın toplamı ne? 25. Attım
-karşıya ne kaldı hocam? 50. 2x 50'ye
-eşitse x'in cevabı temiz işçilik 25
-derecedir. Kabul müyüz? 5 biter. Gelsin
-6. soru. 6. soruma baktım. Bu üçgende
-verilenlere göre x kaç derecedir? Benden
-onu istiyor. X neredesin hocam? Bir kere
-X şurada bir yerde. Dur onu bir
-işaretleyeyim. Şurada. Oraya nasıl
-çıkarım? En hızlı çıkacağım yer. Hocam
-bak buradan dış açıya pardon iç açıya
-giderim. 180'den 120'yi çıkardık. Kaç
-derece kaldı? 60°. Ardından dedim ki
-Mehmet hocanın kuralı gelsin. Soru
-bitsin. İki iç açının toplamı
-kendilerine komşu olmayan dış açıya
-eşittir. Yani 2x + 20 denen açı aslında
-70 + 60'a eşit. 2x + 20'si vardı da onu
-hesaplayacağım. Bekle. Şu ikisini
-topladım. Kaç derece yaptı? 130° yaptı.
-20 karşıya geçince burada ne kaldı?
-110°. Her tarafı 2'ye bölünce x'ten
-geriye ne kaldı? Sadece 55. Doğru cevap
-55°. Geldi mi 7. soruya? A, BC üçgen.
-Verilenlere göre X kaç derecedir? X.
-Neredesin koçum? Buradasın. Nasıl
-çözeceğiz ya? Yine aynısından git. Dış
-açıdan da gidilebilir. Hani dış açılar
-toplamı 360. Hocam belki de soruyu yazan
-hocamız bunu düşünüp yazdı ama ben
-oradan çözmeyeceğim. Bana daha kolay
-geliyor. Yani gerçekten daha küçük
-sayılarla uğraşıyorum. Buraya kaç derece
-yazarsın? 180'den çıktı 40°.
-Çok özür. X'i bulabilmek için ne
-yaparsın? 75le 40 dereceyi toplarsın.
-X'in değeri buradan ne gelecektir? 115°
-gelecektir. Sorumuz çok hızlı bir
-şekilde bitecektir. Ha sen dilersen
-diğer kuralı da kullanabilirsin. Bu
-arada kime benziyor ya? Hocam bu bizim
-işte roket üçgen. Bu bizim bumerang
-üçgeni. Bu bizim şalvarı üçgen. Sen adın
-kazaya da diyorlar. Ha buna benziyor
-gerçi değil mi? kazayana da benziyor. Y
-sen nereden çözersen çöz normalde bu
-soru ispattan gidildiğinde şöyle
-çözülüyordu. Bir daha yapalım. İspat
-önemli. İki iç açının toplamı
-kendilerine komşu olmayan dış açıya eşit
-95. İki iç açının toplamı kendilerine
-komşu olmayan bir dış açıya eşit. x + 95
-= 125. Bak bunu karşıya attığımda x'in
-cevabı ne gelecektir buradan? 30°
-gelecektir. Bu sorular bu kadar hızlı
-çözülür. çözülmesine de ispatını
-biliyorsan, kuralı biliyorsan artık çok
-da uzatmazsın mevzuyu. Dersin ki, "Hocam
-buradaki 3 tane iç açıyı toplayınca biz
-ispatta biliyoruz, kuralda biliyoruz.
-Geldik neye eşitledik? 125'e eşitledik
-toplamlarını. Buranın toplamı 95 geldi.
-95'i karşıya attığımda x'e kaç derece
-kaldı? 30° kaldı. Bu da benim cevabım
-oldu. Şakti 10 sayfada biter mi? Hadi
-geçmiş olsun. Bu da bitti efendiler. E
-biz yolumuzda vallahi tıngır tıngır
-ilerlemeye devam ediyoruz. Ben bir
-sonraki dersten itibaren bu kısmı
-anlatacağım. Nerenin sonuna kadar
-anlatacağım? Bir sonraki ders şurada 21.
-sorunun sonuna kadar geleceğiz. Burada
-artık ikizkenar üçgende, aç eee eşkenar
-üçgende ya da kenarlarına göre üçgen
-çeşitleri ile ilgili soru tiplerini
-çözeceğiz. Ama en önemli dersi
-söyleyeyim. Tamam bu bilgiler olmazsa
-olmazımız ama ondan sonraki de derste
-açıortay açı ilişkilerine bakacağız. Son
-dönem ÖSYM'nin MEB'in en sevdiği soru
-tipleri. Bak bu soru tipi var ya
-bayılıyor ÖSYM bunlara. Katlama döndürme
-soru tipleri derece tayfa mı olmak
-istiyorsun? Burayı yutacağız uyulacağız.
-Yani harbiden şu soru tarzlarını şu yeni
-nesil soruları çözdüğünüzde gerçekten
-ömünüz [müzik] açılacak. Sonra ben sana
-yine ödevler bırakacağım. Bayağı bayağı
-da ödev bırakacağım. Oo maşallah. Belki
-buradan birkaçını sana çözebilirim. Ha
-çors olarak da gönderebilirim.
-Sonrasında direkt üçgende açık kenar
-ilişkilerine geçeceğiz. Oraya kadar ne
-yapıyorsun? Bu dersle ilgili şöyle bir
-güzel tekrar yapıyorsun. Sonraki testi
-gelmesi için bir beğen bir de yorum
-tuşu. Abone olmayanlar da var. Onları da
-bekleriz efendim. Rehber modalikte
-kaldığımız yerden ben Deniz Mehmet
-hocanız. Anlatmaya devam edeceğim.
-Kendinize çok iyi bakın. Hoşça kalın.
-Hoşça kalın.
+Selamlar güzel arkadaşım. Ben Mehmet
+Hocan. Rehber matematikte 9. sınıf
+matematiği yeni marif modele uygun bir
+şekilde ilerletmeye devam ediyoruz. Sıra
+geldik artık nitelikler, değişimler
+bitti. 3üncü tema yani geometrik
+şekiller. Baştığımız geometrik şekiller
+yine yeni yeniden diyoruz. Yepyeni bir
+fasikül daha alıyorum elime. Evet geldi
+3üncü modülümüz. 3üncü modülün
+içerisinde hem 3üncü tema var hem 4üncü
+tema var. Videonun açıklama kısmına
+ulaşabileceğin linkleri bırakıyorum.
+muhakkak sen de edin. Al önüne kitabını
+aç benimle birlikte. De ki geometrik
+şekiller çok önemli. Gönder gelsin. Lise
+matematiğinde en önemli iki konuyu sana
+söylersem birincisi ikinci temadır
+arkadaşlar. İkinci tema neydi? Tabii ki
+nicelikler, değişimlerde, diğer adıyla
+fonksiyonlardı, doğrusal fonksiyonları
+anlatmıştık. Şimdi geldik artık
+geometrik şekillere. 3ünc tema ve 4.
+tema özellikle ama 3ün tema seni 12.
+sınıfa kadar bırakmayacak. geometrik
+şekillerle ilgili birçok şeyi göreceğiz
+ama bu konu içerisinde bir de içerisine
+eşlik ve benzerliği de anlatacağız.
+Beraber ilerleyeceğiz seninle birlikte.
+Hemen sayfalarımı çevirmeye devam
+ediyorum. İlk olarak doğruda açılarla
+başlayacağım. Bekletmiyorum. Açıyorum.
+Bu ders neler yapacağız? Bak şu 3ün
+sayfayı görüyorsun ya. 3 sayfa, 4. sayfa
+beraber, 5. sayfa beraber, hop bakayım.
+6. sayfayı da beraber yapacağız. Bu
+kısımları ben sana bırakacağım. Bir
+sonraki derste de üçgende açılarla
+yolumuza devam edeceğiz. Ama ben zaten
+üçgende açıların bazı yerlerini beraber
+kullanacağım seninle. Bazı kavramlar var
+bilmemiz gereken. Bu kavramları bilirsek
+konu içerisinde daha rahat ederiz.
+Mesela bunlardan ilki arkadaşlar
+tanımsız olarak kabul eden kavramlar.
+Mesela tanımı olmayan kavramların
+başında nokta, doğru, ışın, doğru
+parçası gelir ki diyeceksin ki hocam
+aşağıda sen bunun tanımını yapmışsın.
+Biz okulda yaptık. Aslında bunlar
+matematikte, matematik literatüründe
+tanımı olmayan kavramlar olarak geçer.
+Çünkü bir şeyi tanımlamak için biz daima
+başka bir şeyden fayda sağlarız. Başka
+bir şeyi kullanırız. Bak mesela en
+basitinden açıyı tanımlamak istiyorum
+hocam. Başlangıç noktaları ortak olan
+iki ışının abi ben sana ışını vermezsem,
+ışının tanımını bilmezsen sen açıyı
+nasıl tanımlayacaksın? Bir şeyi
+tanımlayabilmek için, bir şeyi
+başlatabilmek için önce bir şeyi kabul
+etmemiz gerek. İşte o kabuller bunların
+tanımsız olduğu durumlar. Nokta, doğru,
+ışın ve doğru parçasını tanımsız kabul
+ediyoruz. Ha illa ben bir öğrenciye bunu
+açıklayacak olsaydım nasıl açıklardım?
+İşte buradaki gibi açıklardım. Kalemin
+kağıt üzerinde bıraktığı ize biz nokta
+adını veriyoruz. Gösterimler önemli
+burada. Özellikle bunlara takıl
+tanımlardan çok. Bak nokta. Nokta. A
+yanına da ismi yazılıyor. Genelde büyük
+harflerle yazılıyor. Geldim. Doğru
+nedir? Düz ve iki yönlü sonsuza kadar
+uzanan noktalar kümesine doğru denir.
+Gösterimi bizim için önemli. Dikkat et.
+AB doğrusu yani başlangıç daha doğrusu
+üzerinde iki nokta alıyorum. Bu iki
+nokta üzerinden konuşuyorum. AB doğrusu
+ya da direkt bunun adını küçük harfle D
+doğrusu olarak adlandırıyorum. Biz şimdi
+Öglit geometrisi görüyoruz. Öglit
+geometrisi. Öglit geometrisinde doğru
+için şu tanım da verilebiliyor. Öglit
+geometrisinde düzlemde seçilen herhangi
+farklı iki noktadan sadece tek bir doğru
+geçer. Bak bu noktadan geçebilen başka
+bir doğru çizemezsin. O yüzden
+üzerindeki iki noktayla bu doğruyu
+isimlendirebilirsin. Örneğin bu
+noktalardan geçen başka doğru olsaydı
+eğer o zaman ben buna AB doğrusu
+diyemezdim mantıkken değil mi? Eee bu ne
+hocam? Bu bir eğir zaten. Doğru değil.
+Tamam mı? Işın nedir hocam? Bir tarafı
+sabit olacak onda da değil mi? Gel
+bakalım. Başlangıç noktası belli ama
+bitiş noktası belli olmayan. O zaman ne
+diyorum bak? A başlangıç noktası. A
+tarafı kapalı B tarafı açık. B olabilir.
+Bu C noktası olabilir. İstediğim noktayı
+oraya yazabilirim. Yeter ki doğrunun
+üstünde olsun. Ama A noktası kesinlikle
+sağ B'ye doğru gidiyorsun anlamında.
+Doğru parçası başı sonu belli arkadaş.
+Biz ona ne diyeceğiz? Doğru parçası
+adını vereceğiz. Gösterirken. Bak başı
+da sonu da belli olduğu için hatırla biz
+aralıkları gösterirken kapalı aralığı bu
+şekilde gösteriyorduk. O yüzden doğruyu
+da gösterirken kapalı parantezle
+göstereceksin daha doğrusu doğru
+parçasını. Şimdi artık geldim açıyı
+tanımlamaya. Zaten bu derste de açı
+soruları çözeceğiz beraber. Başlangıç
+noktaları ortak olan iki ışının birleşim
+kümesine açı adı verilir. Şimdi ne demek
+istiyorum hocam? İki tane ışın
+çiziyorum. Başlangıç noktaları belli,
+bitiş noktaları belli değil. Evet.
+Başlangıç noktaları ortak olacak şekilde
+çiziyorum bu iki ışını. O da evet. E
+birleşim kümesinde şuna biz ne diyoruz?
+Bunun tamamına ne diyoruz? Açı adını
+veriyoruz. Bir de açının nesi vardır?
+Ölçüsü vardır. Mesela bu açının ölçüsü
+nedir? Alfaddır. Açıyı yazarken şöyle
+yazıyorum. A OB açısı. A OB açısı
+veyahut BA açısı. Bak B OA açısı ya da A
+OB açısı. Yani açının kollarından
+birinde başlayıp diğerinde bitiriyorsun.
+Ama istediğin koldan başlayabilirsin.
+İlerleyen senelerde yönlü açıyı
+anlatacağız. O zaman bunun bir yönünün
+anlamı da olacak. Şimdilik yok. Peki
+hocam her açının bir de nesi olur?
+ölçüsü olur. Burada alfa ölçüsünü ne ile
+gösteriyoruz? Başına M koyuyoruz. AOB
+açısının ölçüsü alfadır. BA açısının
+ölçüsü alfadır diyeceğiz. AOB açısının
+ölçüsü ve ikisi de aynı şey ifade
+ediyor. Bunu unut. Bak yıllardır
+anlatılıyor. Benim kızım da biliyor
+artık. 4. sınıfta öğrendi. 5. sınıfa
+geldi. Tekrar ettik beraber. Bak sen ne
+de ediyorsun şimdi. Dar açı nedir hocam?
+Burada tanım tanım tanım başka bir şey
+değil. Öyle bir alfa açısı düşün ki abi
+bak şunu söyleyemiyorsan bitmişiz biz.
+90' la 0 arasında ne 90'a eşit ne 0'a
+eşit. Bak eşittir falan koyarsam vallahi
+bozuşur. 90' la 0 arasındaki açılara dar
+açı diyeceğiz. Dik açı nedir? Direkt
+90°ereceye eşit olan açılardır. Direkt
+90 dereceye eşit olacak. Geldim geniş
+açıya. Geniş açı bak yine bir aralık
+kavramı. 90'la 180 arasındaki açılara ne
+denir? Geniş açı adı verilir. Geldim.
+Doğru açı nedir? Bak doğru. Doğruda ne
+çizebilirsin? 180 derecelik açı
+çizebilirsin. Bu da direkt taş. Tamam.
+180 dereceye eşit olan açılardır. Geldim
+tam açıya. Tam açı adı üstünde tam bir
+tur atıyorsun. Tam bir tur attığında ne
+yapıyorsun? 360 derece dönüş dönmüş
+oluyorsun. Şimdi geldim bazı sembolleri
+bir hatırlatmaya. Buradaki ne
+sembolüydi? Şu şekilde yan yazan paralel
+değil mi? İki doğrunun paralel olup
+olmadığını yani doğrultularının aynı
+olup olmadığını buradan anlıyorduk. Bak
+bu D1 doğrusu olsun. Bu D2 doğrusu
+olsun. Ne diyebilirim? D1 doğrusuyla D2
+doğrusu birbirine paraleldir
+diyebilirim. Bunun anlamı neydi? Diklik
+var anlamındaydı. Bunun anlamı neydi?
+Kesişim yani ortak nokta anlamına
+geliyordu. Bu sembolleri de sana
+şöylelikle bir hatırlatıp geldim hemen
+soru çözmeye arkadaş. Şimdi bu
+hatırlatmaların üstüne bu çözeceğimiz
+soruları bence çok seri bir şekilde
+çözmelisin. 3x - 45'lik açı dar açı
+olduğuna göre x'in alabileceği tam sayı
+değerleri kaç tanedir? Benden bunu
+istiyor. Bak 3x -45 dar açıysa 90
+dereceden küçüktür hocam. Ama 0
+dereceden büyüktü. Orada eşittir ibaresi
+yok. 45'i hem sola atıyorum hem sağa
+atıyorum. Elde ettiğim ifade ne oldu? Şu
+tarafta 135° oldu. Diğer tarafta 45. Her
+tarafı 3'e bölüyorum. 3'e böldüğümde sol
+tarafta ne kaldı? 15 kaldı. Şurada x 3'e
+böldüğümde burada ne kaldı? 45. Şimdi bu
+arada kaç tane sayı var? Onu sayacağız.
+Terim sayısı formülünü kullanacağım.
+Kullanırken formülüm şuydu. Hatırla.
+Önce sayabileceğim sayılar kaçtan
+başlıyor? 15'i alamam. Çünkü bu aralıkta
+değil. Bak 16'yı alırım hocam. 17'yi
+alırım hocam. Nokta nokta nokta. 41 42
+43'e kadar alabilirim hocam. Daha
+fazlasını alamam. Terim sayısı nasıl
+bulunur biliyor musun hocam? Burada kaç
+tane terim var sana dediğim diye
+sorduğumda son terimden ilk terimi
+çıkartıyorsun. Çıkarttım hocam. Kaçar
+kaçar gidiyor. O sayıya bölüyorsun. En
+sona 16'yı aslında sen dışarı çıkarmış
+oluyorsun bu kümeden. Bu kümeye geri
+16'yı ekliyorsun. O bir eleman. 16 diye
++ 16 yazılmaz. O bir tane eleman. O bir
+elemanı ekliyorsun. Şimdi buradan ne
+geldi? 4 8 28 Bir daha ne geldi? 29
+geldi. Demek ki cevap nedir? 29 tane.
+Hemen indim aşağıya. 3x + 54 derecelik
+bir dik açı ile bir doğru açının toplamı
+olduğuna göre ha bir dik açı ile dik açı
+90° hocam. Doğru açı kaç derece? 180°
+hocam. Bu ikisinin toplamı 3x + 54'e
+eşit olacak. Hemen bu iki arkadaşı
+topladım. 270 = 3x + 54. 54'ü aldım
+karşıya attım. 3x = sonda 6 kaldı.
+Şurada 1 kaldı 216. Her tarafı 3'e
+böldüm. 3 kere 7 21. Bir de 2 daha. X =
+72. Kolay olduğu için biraz daha hızlı
+gidiyorum. 4 işlem kısmında konu kısmına
+zaten hatırlatıyorum. Bu arada
+hatırlatmış olayım. Yeni çerçevemiz var.
+Beğendin mi yeni çerçevemizi?
+Beğenmediysen eski stile de dönebilirim.
+Şöyle tam boy ekranlarda böyle soruları
+gör diye. Hem böyle nacizane beni de
+burada gör. Rahat rahat beraber yan yana
+bildiğin özel ders konseptinde ders
+yapıyormuşuz csına ilerleyelim istedim.
+Doğru açıyı ikiye bölen iki açıdan
+birinin ölçüsü diğerinin 4 katından 20
+derece eksik olduğuna göre doğru açıyı
+ikiye bölen iki açıdan birinin ölçüsü.
+Şimdi bir doğru açı var. Yani toplamları
+180° diyor. Birinin ölçüsü diyelim ki bu
+x olsun. İki açıdan birinin ölçüsü
+diğerinin ölçüsünün 4 katından 20
+eksiktir demek. O halde ne anlıyorum? 4x
+- 20 ile x'i topladığımda cevap ne
+olacak hocam? 180. -20 karşıya geçti.
+Nasıl? 200 diye. Sol tarafta ne oldu? 5x
+oldu. Her tarafı 5'e böldüm. X kaç
+dereceymiş hocam? 40 derece. Soru benden
+neyi istiyor? Büyük olanın açısını
+istiyor. E zaten toplamları 180an
+çıkarırsam geriye kaç derece kalır?
+140°. Büyük olan açı 140 derecedir.
+Şimdi burada bol bol kurallardan
+bahsedeceğim sana. Bu kuralları çok
+dikkatli dinle. Hatırlamıyorsan hem
+bunları bir hatırlatmış olalım sana.
+Bakacağımız olay ne biliyor musun? Açı
+dediğimiz olay aslında burada başlıyor.
+Açı soruları. Paralel doğruların bir
+kesenle yaptığı açılar. Paralel
+doğrulardan kastım ne? D1 ve D2 doğrusu
+birbirine paralel olsun. Bir tane D3
+kesenini getirdim arkadaş. Oluşan 8 tane
+açı vardı. Anlaştık. Şimdi bu sekiz
+açıyla ilgili buradaki bütün kuralları
+ezbere bilmeyeceksin. Yutacaksın. Asla
+ezberlemeyeceksin. Mantığına
+yerleştireceksin. Yutacaksın. Der ki,
+"Hap misali at gitsin." Ters açılar.
+Şimdi ters açı ne demek? Ters yönlere
+bakan açı demek. Mesela bak A buraya
+bakıyor. Yine orada C aşağıya doğru
+bakıyor. Bunlar ters açıdır. Demek ki A
+ile C açısı birbirine eşit. ters açılar
+birbirine eşittir. Karşılığımız bu
+aslında. B açısının baktığı tarafla tam
+zıttına bakan kim? D açısı. O zaman B
+ile D eşit. K açısıyla kim birbirine
+eşittir? M açısı eşit. L açısıyla kim
+birbirine eşittir? N açısı birbirine
+eşittir. Bunlar birbirinin tersi olan
+ama ters açılar birbirine neymiş? Eşit.
+Peki yöndeş açı nedir hocam? Aynı yöne
+bakanı demek. Mesela bana A ile aynı
+yöne bakan başka bir açı söyle hocam. Ta
+şurada. Evet. Bu ikisi birbirine eşittir
+ama tek bir şart. D1, D2 birbirine
+paralel değilse asla böyle bir şey
+söyleyemez. Çünkü birebir aynı yöne
+bakıyorlar. Bak birebir aynı yöne
+bakıyorlar. E hocam ben bir öyle çizdim,
+böyle çizdim, böyle çizdim. Bu alfaile
+burası da alfa olur mu? Olmaz. Buradaki
+d1 ile d2 birbirine paralel değilse
+burada biraz daha dar açı oluşuyor.
+Burada biraz daha geniş açı oluşuyor.
+Mantık bu doğruların birbirine paralel
+olması lazım. O yöndeş açıların eşit
+olabilmesi için. A ile K aynı yöne
+bakıyorlar arkadaş. Bir dakika K'yi
+maviyle yazalım. B ile kim aynı yöne
+bakıyor? L aynı yöne bakıyor. C ile kim
+aynı yöne bakıyor? M aynı yöne bakıyor.
+Kim o? D ile kim aynı yöne bakıyor? N
+açısı aynı yöne bakıyor. Bunlar yön
+açılarıdır. Devam. İç ters açılar hem
+içeride olacaklar hem de ters yönlere
+bakacaklar anlamına gelir. Şimdi bak iç
+bölgede kim var? C var. Nereye bakıyor?
+Buraya. Aynı şekilde buraya bakan kim
+var? K var. Burada önemli bir hatırlatma
+yapacağım ben sana. Aslında bizim iç
+ters dediğimiz açılar hani bizim Z
+kuralımız vardı. Hatırla. Z kuralının şu
+iç kısımlarında kalan açılardan
+bahsediyor. Ha, iç ters açılar bizim Z
+kuralı. Hatırladın mı Z kuralını? Tekrar
+hatırlatacağım yine burada. Geldim D
+açısına. Hocam D açısı da yine içeride
+ve terste kalacaklar var bak
+birbirlerine. Ama nasıl Z çizmiş oldum
+bu sefer? Ters Z çizdim. Gördün mü?
+Kimle kim birbirine eşit oldu o zaman? D
+ile L birbirine eşit oldu. Bunlar iç
+ters açılar. Şimdi bunun aynısının dışı
+var. Mesela dış ters açılar dışarıda
+olacak. Bak biri bu bölgeye bakıyor. Bu
+da dışarıda. Bu da bu bölgeye bakıyor.
+Hem tersler hem dışarıdalar. M ile kim
+var? A var. Güzel. N ile kim var? B var.
+Müthiş. Karşıt durumlu açılar. Yani D
+ile kim karşıt durumludur? Karşıt
+durumlu açılar. Hop. Burada dur arkadaş.
+Neden burada duruyorum? Burada bir
+eşitlikten vazgeç. Bahsetmeyeceğim ama
+karşıt durumlu açılarda daha sonrasında
+bazı özel durumlar oluşacak. Onlardan
+bahsedeceğim. Dikkat et bak. D ile K
+karşılıklı bakıyorlar birbirlerine.
+Eşittir demiyorum. Buradan gelen özel
+durumlar olacak. Ya da tam tersi yönde
+bak C ile L içeri doğru. Yani ikisi de
+karşılıklı olarak duruyorlar. Bunlara da
+karşıt durumlu açılar denir. Karşıt
+durumlu açılar eşit değildir ya da eşit
+olmak zorunda değildir. Açıortay benim
+en sevdiğim tanımlardan biri. Mustafa
+Kemal Atatürk'ün giy geometri kitabı
+var. Hatta şu an bak yan tarafta var.
+Getireyim göstereyim hemen. Geldim güzel
+arkadaşım. Atatürk'ün geometri kitabının
+içerisinde de yine açıortayın tanımı ilk
+defa orada kullanıldı. Hani geometriyi
+Türkçeleştirmişti Atatürk zamanında.
+Şöyle kaldıralım kitabımızda. O kitabın
+içerisinde de yine ilk defa açıortayın
+tanımı orada geçiyor arkadaşlar. Peki
+şimdi açıortay ne demek? Açının
+kollarına eşit uzaklıktaki noktaların
+oluşturduğu kümeye açıortay adı verilir.
+Ya da bir açıyı tam ortadan ikiye bölen
+ışına açıortay doğrusu adı verilir.
+Mesela bak açıortay doğrusundan kastım
+bu. Şimdi bizim elimizde bir açı var mı?
+Var. Bu açıya ne diyor tanım? Eşit
+uzaklıktaki noktalar kümesi. Üzerindeki
+bir noktadan açının kollarına gittiğimde
+bu uzaklıklar hep birbirine ne çıkmak
+zorundaymış? Demek ki ne anlıyorum?
+Birbirine eşit çıkmak zorundaymış. Bu
+kural bak bu noktalardan çizdiğim
+dikmelerin uzunluklarının birbirine eşit
+olması dışarıya doğru gittikçe. Yani
+şuradaki uzunluk buradaki uzunluğa ayrı
+olarak buradaki uzunluk buradaki
+uzunluğa eşit. İleride çok başımıza yani
+ağrıtacak demeyeyim de çok fazla
+karşımıza çıkacak önemli bir nokta.
+Açıortay doğrusu bir açıyı ne yapar? Tam
+ortadan ikiye bölür. Bunu unutma. Bu
+bilgi bizim için yeterli. Şimdi geldik
+kurallara. En sevdiğim bölüme. Ben
+burada hep ispatlarla ilerleyeceğim.
+Yeri geldiğinde yapılması gereken
+ispatlarda lütfen bunları geçmeye
+çalışma. Bu ispatlar önemli olduğu için
+yapıyorum. Birincisi Z kuralı. En çok
+bilinen kurallardan biridir. Hani Z
+harfini çiziyorsun. Z harfinin iç
+bölgesinde kalan bu açılar birbirine
+eşittir diyorsun. Sebep neden hocam? Bak
+bu doğruları uzat. Bir nevi ispatını
+yapıyoruz şu an. uzattım şunu. Uzattım
+bunu. Az önce bir bilgi verdim hocam. Ne
+dedim? Yöndeş açılar. Bu yöne bakan
+açıyla haliyle bu arkadaş D1 doğrusu, bu
+arkadaş D2 doğrusu. D1 ile D2 birbirine
+paralel ki aslında onu burada veriyor
+bana. Bu doğrular birbirine paralel
+olduğuna göre hocam oradaki x açısıysa
+buradaki de aynı yöne baktığı için bu da
+x açısı olmak zor. Ardından ikinci
+muhabbet. O nedir? Ters açılar. Bak
+birbirinin tersi yöndeler. Birbirinin
+tersi olan bu açılar da birbirine ne
+olmak zorunda? Eşit. O halde ne diyorum?
+Z kuralına göre burası eğer X ise burası
+da X'tir. İşte ispat. İspatlarla
+ilerlemeye devam. En sevdiğim
+kurallardan biri çünkü baş harf. Mehmet
+hocanın M'si. M kuralı. Arkadaş bak her
+seferinde burada paralellik veriliyor.
+Lütfen bu paralelliği görmeden gitme.
+Kural şu: Sola bakan açıların toplamı
+sağa bakan açıların toplamına eşittir.
+Ne diyorsun? Ne diyorsun hocam? Bak sola
+bakan açıların toplamı sağa bakan
+açıların toplamına eşit. X + Y X + Y G.
+ispatını bilmezsen hiçbir şey
+bilmiyormuşçasına
+yani değersizdir bu konu. Gerçekten
+bunun ispatı çok önemli. Çünkü bundan
+sonra gelecek olanların ispatlarına hep
+çanak tutar hep ışık. Şimdi şuradaki iki
+arkadaş birbirine paralel arkadaş. O
+doğrulara paralel olacak şekilde ve
+şuradaki kırılma noktasından geçecek
+şekilde bir doğru çek. Artık bu da
+paralel mi onlara? Paralel hocam. Hani
+az önce bir ne kuralı verdim ben sana? Z
+kuralı. Z kuralına göre hocam şuradaki
+arkadaş A açısıysa şuradaki açı da ne
+olmak zorundadır? A açısı olmak. Geldim.
+Buradaki B açısı ise eğer yine Z
+kuralına göre hocam şuradaki açı da B
+açısı olmak zorunda değil midir? Olmak
+zorundadır. Haliyle sola bakan açıların
+toplamı sağa bakan açıların toplamına
+yani ikisi de a + b'ye eşit çıkar mı?
+Çıkar. İ ispatlarıyla öğren. Bir daha
+asla unutma. Tamam. M kuralı bu. Geldim
+zigzak kuralına. Şimdi yukarıdaki ispatı
+anlayınca buranın mantığı çok daha güzel
+oturacak ama bir paralellik verildi mi?
+verildi hocam. Paralellik verildiyse
+kuralımız şu arkadaşlar. Burada kırılma
+noktaları çok önemli. Bak istersen önce
+çizeyim. Şu kırılma noktalarını birlikte
+bir görelim. Sonra ispatını yine üstüne
+yapacağız. Çok tatlı da güzel bir de
+ispatı var. Şu kırılma noktalarını
+birlikte gördük. Dar açıdan başlıyorsun
+kırılma noktalarında yeşilleri
+toplayalım. Bak kendi arasında alfa beta
+tetanın toplamı kime eşit olacak? X +
+Y'ye eşit olacak. Gerçekten öyle yazmış
+mıyım? Yazmışsın hocam. Doğru ki neden?
+Bana hep bu soruyu sormalısın. Özellikle
+geometri öğrenmek istiyorsan buradaki
+nedenler çok önemli. Şimdi buradaki
+mevzu ne hocam? İspat ne? Hemen
+göstereyim. İlk ispata başlayacağım
+noktalardan biri şurası. Şu betayı tam
+orta, tam ortadan demeyeyim. Şunlara
+paralel olacak şekilde bir doğruyla
+kestim. Kabul müyüz? O kestiğim
+parçalardaki bir parçaya beta 1, bir
+parçaya da beta 2 diyeyim. Anlaştık.
+Yukarıda m kuralı gereğince alfa beta
+2'nin toplamı kime eşit olacak? X'e. Ben
+artık x yerine alfa + beta 2 yazabilir
+miyim? Şimdi yine Z kuralı gereğince abi
+baksana şurada eee pardon yukarıdaki M
+kuralı gereğince M kuralı yok mu? Var.
+Sağa bakan açıların toplamı sola bakan
+açılara eşit olmayacak mı? Olacak. E
+betβa 1 ile tetanın toplamı burada kime
+eşit olmak zorunda? Y'ye. Bak x'in
+eşitini alfa + beta 1 buldum. Y'nin
+eşitini beta 1, pardon yukarıda beta 2
+olacaktı. Beta 1 + teta buldum. Alt alta
+topladığımda x + y aslında alfa + beta1
++ beta2 + teta çıktı mı? Çıktı. Biz
+beta1 ile beta 2'ye aslında ne demiştik?
+Toplamına beta1 ile beta2'nin toplamı
+betaı veriyordu hocam. E beta'yı verdi.
+X + Yαfa + beta + tetayya eşit. Sağa
+bakan açıların toplamı sola bakan
+açıların toplamına eşittir dediler sana
+bugüne kadar. Ama sen belki de ilk defa
+mantığını öğrendin. Lütfen mantığını
+öğrenmeye devam et. Bumerang kuralı
+şalvar kuralı derlerdi eskiden.
+Medeniyet gelişti, büyüdü gitti. Benim
+zamanımdan şalvar kuralıydı bu. Oldu adı
+bumerang kuralı. Abi şimdi benim
+zamanımda değil. Sanki çok yaşlıymışım
+gibi oluyor da bana anlatan hoca belki
+eskilerden olmuş oluyor. Belki de ondan
+öyle olmuş olabilir. Şimdi burada da
+kural şu abim. X Y Z'nin toplamı yani
+içerideki açıların toplamı dışarıdaki
+buradaki alfa açısına eşit. Fakat bu
+kuralın ispatını aslında ben normalde
+daha sonralarında anlatıyorum. Çünkü
+şunu bilince çok lezzetli oluyor. Başka
+ispatları da vardı. Ben buradan
+anlatacağım. Çünkü en sık kullanacağımız
+kurallardan birini veriyorum sana.
+Mehmet Hoca'nın en sevdiği kural değil.
+Geometride karşına çıkan en sık
+kurallardan biri. Şimdi benimle birlikte
+bir rapçi gibi tekrarlamanı istiyorum.
+İki iç açının toplamı kendine komşu
+olmayan bir dış açı. Hocam ne dedin? İki
+iç açının toplamı kendine komşu olmayan
+bir dış açıya eşit. Bir daha söylüyorum
+bak net tanım. İki iç açının toplamı iki
+iç açının toplamı kendilerine komşu
+olmayan, bak bunlar komşuları komşu
+olmayan dış açıya eşit. He burayı
+anladık mı? Geometride karşına en sık
+çıkan kurallardan biri. deyin yorumlara
+yaz bunu. İki iç açının toplamı
+kendilerinde komşu olmayan bir dış açıya
+eşittir. Abi bunu bakmadan yazamıyorsan,
+tekrar dinlemeden yazamıyorsan anlamı
+yok. Lütfen benimle birlikte
+söylüyorsun. İki iç açının toplamı
+kendilerinde komşu olmayan dış açıya
+eşittir. İki iç açının toplamı
+kendilerinde komşu olmayan dış açıya
+eşittir. Vallahi bravo. Söylediysen
+yaptıysan. Şimdi ne yaptık hocam biz? Ne
+işe yarayacak onu göstereyim. Şuradaki
+doğruyu uzatıyorum. Uzattım. Artık
+burada ne oluşturdu? Yani doğrusal bir
+şekilde uzattım. İki iç açının toplamı
+kendilerine komşu olmayan şuradaki dış
+açıya eşit oldu mu? Burası x + y oldu
+mu? oldu. İspatları yapınca güzel. Yine
+şuradaki üçgenin güzelliğine bakar
+mısın? Bu üçgende şurası doğrusalsa
+şurası nedir? Dış açıdır. O halde yine
+iki iç açının toplamı kendilerine komşu
+olmayan bir dış açıya eşit olacağına
+göre buradaki iç açılardan biri x + y,
+diğer iç açı z x + y + z = alfa. A
+üçgenin içerisindeki sayıların toplamı
+üçgenin dışındaki sayıya eşit ya da o
+şuradaki şalvardaki iç kısma eşit. Ha
+neden bum merang yaptıklarını sonradan
+anladım. Medeniyet gelişte için değil.
+Tamam gel buraya. Kopma kopma bendesin.
+Geldim U kuralına. Şimdi bu kuralı
+birincisini çok iyi öğreniyorsun.
+İkincisi burada üçüncüsü ezber değil
+ispattan gelecek. Hatta bundan sonra ben
+10 tane daha genelleme kurallar
+basabilirim sana burada. Şimdi U kuralı
+nedir hocam? U kuralı şudur arkadaş.
+Bizde eğer paralel iki doğru varsa bu
+iki doğrunun oluşturduğu karşılıklı
+açılar demiştim az önce. varsa bu
+karşılıklı açıların toplamı daima 180
+derecedir. Nasıl? Neden? Nereden çıktı
+demiyorsun? Hop burayı uzatıyorsun.
+Uzattım hocam. Onu biraz daha aşağı
+çektim. Çekemedik. Çektim. Uzattıktan
+sonra dedim ki sana bizim Z kuralı
+vardı. Hatırladın mı? Heh. Bildin mi Z
+kuralını? Yaptık. Z kuralını. Y nerede
+artık? Burada. Peki buradaki açı
+doğrusal bir açı oldu mu? Doğru açı kaç
+derecedir? 180. Bu sebeple X ile Y'nin
+toplamı 180. Bitti. Gönder gelsin
+sıradakini. Hocam hocam bu ne hocam?
+Burada bir sürü N'ler falan var. Dur
+bak. N'lere geçmeden önce ben sana bu
+işin mantığını daha güzel öğren diye
+şöyle yapacağım. Şöyle yaptım. Bak şöyle
+yaptım. Şöyle de açtım. A noktası, B
+noktası. Şurası C köşesi diyelim. Burası
+D. Arkadaş X'in, Y'nin, Z'nin, T'nin
+toplamı nedir? Genelleme yapacağız.
+Hazır ol. Muhteşem kural geliyor. Kural
+ne biliyor musun? Bu iki doğru eğer
+birbirine paralelse tabii önceliğimiz
+bu. B'den onlara paralel olacak şekilde
+doğru çekelim. C'den onlara paralel
+olacak şekilde doğrumu çekerim. Çektik
+mi? U kuralına göre şuradaki iki
+parçanın toplamı kaç derecedir? 180.
+Şuradaki iki parçanın toplamı kaç
+derecedir? 180. Şurada kalan iki
+parçanın toplamı kaç derece olmak
+zorunda? 180. Kaç tane 180 var burada
+hocam? 3 tane. O halde oradaki bütün
+açıların toplamı 180 x 3. Yani anladık
+isti. Peki hocam burada kaç tane 180
+oluştuğunu nereden bileceğim? Her
+seferinde o doğruları çekeceğim mi?
+Dikkat et. 1 2 3 4 açı var. 1 eksiği 3
+tane 180 oluşur. Anladın mı? 1 2 3 4 n
+tane açı var. Kaç tane 180 oluşur? N -1
+tane. N -1 x 180. Ama neden hocam öyle
+olması? Hayır öyle olması gerektiği için
+değil. İspatını yaptık bildiğin için.
+Bileceksin abi. İspatlar çok kıymetli.
+Bunları öğrenmeden ilerlemek yok asla.
+Hadi bakalım. Şimdi soru çözüyoruz.
+Yukarıda verilen açı ölçülerine göre y
+kaç derecedir? benden bunu istiyor.
+Şimdi soruya baktığında direkt bodozlama
+anlamayacaksın. Önce plan yap. Plan ne
+hocam? Bak buradaki açı var ya. Evet.
+Buradaki açıya eşit olacak. Sebep ters
+açılar değil mi? İç ters, dış ters
+açılar. Özür dilerim dış ters açılar. O
+halde 5x neye eşittir? 3x + 18'e eşit.
+Yazdık. Ha bu arada paralellik verilmiş
+mi diye bakıyorsun. Hocam verilmemiş. O
+yüzden ben ekliyorum. Yoksa sorumuz
+hatalı olur değil mi? D1 D2'ye paralel
+olmak zorunda. A vermiş lan. Ben ne
+yapıyorum? Vermişti burada. Peki 2x neye
+eşit? 18'e eşit. X neye eşit hocam? 9'a
+eşit. X 9'a eşitse 5 kere 9'dan kaç
+derece oldu bu? 5. Yine geldim yöndeş
+açılardan. Burası 45 ise burası da ne
+olur? 5° olur. Burayı da bulduk mu
+hocam? Bak buranın tamamı 180 derecedir.
+180° aslında Y ile 45'in toplamıdır.
+Y'ye kaç derece kalır? 135. Lütfen adım
+adım tane tane ilerle. Ezbere gitme.
+Öğrenmeye çalış. Yukarıda verilenlere
+göre A OB B O C açılarının açıort Şimdi
+buraya kadar geldi mi hocam bir şey
+söyleyeceğim. Eğer bugüne kadar planlı
+programla çalışmadıysan bu modül 180
+lira bir fiyatı var hatırladığım
+kadarıyla. Belki hani son kargo zammıyla
+200 lira olmuş olabilir. Hem 3üncü hem 4
+modülü elinde bulunduruyorsun. Hem 3üncü
+temayı pardon hem 3üncü temayı hem 4
+temayı elinde buluyorsun ve geometri
+adına her şeyi sana öğretecek burası.
+Lütfen buna edinmeyi unutma. Gerçekten
+senin için çok faydalı olacak. 9.
+sınıfta bu işin pimini çekebilirsin. Pim
+çek bomba at derler. Askerde sen de pemi
+çek bombayı at. Yukarıda verilenlere
+göre AOB B OC açılarının açıortayları
+arasındaki açının ölçüsü kaç derece?
+Şimdi bak açılarının elimde hangi açı
+var hocam? Tane tane ilerle hiç korkma.
+Açısı var hocam. Evet. Şimdi açıortayı
+ne demek? Tam ortadan ikiye bölen demek.
+Birinci açıortayımız bu mu? Bak buna 1
+numara diyelim. Şimdi geldim 2inci
+açıya. Oc açısının açıortayına. Yani bu
+açıyı tam ortadan ikiye bölene geldim.
+Bu da kim? İkinci açıortayımız. Bunlar
+arasında kalan açının ölçüsünü
+istiyorum. Türkçe konuşuyorum. Açıortay.
+Açıyı ortalayan 72'yi 2'ye böldüm.
+Nedir? 37°. Neresi? Burası da 37. 32'yi
+2'ye böldüm hocam. 16° burası da 16°.
+Soru neyi istiyor? 37 ile 16'yı
+toplamamı istiyor. Doğru cevap ne
+olacaktır? 53°. Var mı anlaşılmayan bir
+şey? A bir dakika lan. 37 olur mu?
+Doğru. 2 kere 7 14. Tamam. O 2 kere 6.
+Doğru. Doğru. İşlem hatası var sandım
+da. Yok. Güzel. Hadi bakalım çözmeye
+devam. Hocam bu ne ya? Bir anda çok zor
+geldi. Hayır parça parça gör soruyu.
+Soru neyi istiyor? X'i istiyor. X
+nerede? Burada. Hocam var ya şunu bilsek
+yaparız değil mi? Bak şimdi şunu bilsek
+yapmaz mıyız? Şunu bilsek yapmaz mıyız
+be kardeşim? N üçgeni bumerang. Şalvar
+demiyoruz artık. Şurası A açısı olsa,
+şurası B açısı olsa, X dediğim açının
+aslında artık neye eşit olduğunu
+biliyorum. A + B + dereceye eşit
+olduğunu biliyorum. Doğru mudur? A +
+B'yi bulursak soruyu çözeriz. Peki
+burası neymiş? Açıortay. Adı üstünde
+açıortaysa eğer burası A. Açıortaysa
+eğer burası B. Şimdi senin neyi görmeni
+istiyorum? Neyi görmeni istiyorum?
+Mehmet'in M'sini görmeni istiyorum.
+Rehber matematiğin M'sini görmeni
+istiyorum. Çünkü RMfa bunları görür. M
+kuralına göre sağa bakan açıların
+toplamı sola bakan açıların toplamına
+eşittir. Buradan yazdığın kural ne
+olacakt? A + B. Aldık mı onu? Bak şunun
+toplamını biliyoruz. 40 derece sonuç x =
+80°. Bize bunlarla gelmeyin. Bize
+bunlarla gelmeyin. Geldim buna. AB
+paraleldir DE'ye. Neredesiniz siz?
+Buradayız hocam. Böyle paralellikler
+verdin ama yetmiyor ya. Boyu abi. Boyunu
+uzatıvereceğim. Bunların boyunu
+uzatacağım ki görmesi kolay olsun. Tamam
+mı? Bu tarz sorularda eğer boyu
+yetmiyorsa ne yapıyormuşuz? Boyları
+uzatıyoruz. Bak daha güzel oldu. Alışık
+olduğumuz yöntem neden? Ulan ben bu
+açıyı buraya taşırım. Ne oldu ya? Bir
+anlık gitti geldi ekran. İlk gördüğüm
+şey 2x + 10'dur hocam burası. Kabul
+müyüz? Kabul. Dur lan biraz tepelere
+bakıyormuşum ben. Şöyle yapınca tam
+hizama bakıyor gibi oldu. Şimdi daha
+güzel oldu. Hatta şunu da az şöyle göz
+hizama aldım. Heh güzel oldu. 2x + 10
+oldu mu? Şurası şurayla aynı olmak
+zorunda. Niye? Yönleş açılı. Peki devam
+ettim hocam. Biz ne yapabiliriz? Bak
+şurayı bana söyler misin? Doğru açı
+180'den 140'ı kenarda çıkarttım. Kaç
+derece kaldı? 40°erece. Neresi hocam?
+Bak şurası 40°ce. Mehmet hocanın çok
+sevdiği kural neydi? İki iç açının
+toplamı kendilerine komşu olmayan dış
+açıya eşit. Neden hocam? E üçgeni
+görmezsen vallahi ayıp edersin. Bak
+üçgen. Üçgende iki tane iç açı var.
+Nerede onlar? Birincisi şu koyuyla içini
+boyadım. İkincisi burada. Bu ikisinin
+toplamı dış açıya eşit olacak. Yani 2x +
+10 dediğim açı x - 5 ile 40'ın
+toplamıdır. X'i bu tarafa attım. Şunları
+çıkarttım 35 kaldı. 10'u karşıya eksi
+olarak attım. 25. X'in cevabı 25. Net
+gönder gelsin. 6. soru. 6. Soruda da
+Mehmet Hoca'nın aslında sana yaptığı
+ispatların gerçekten dişe tırnağa
+dokunur olduğu yerlerden biri burası.
+Hocam alfaı istiyorlar bizden. Ne
+yapalım la? Bu kısa kalmış. Bu uzuyor
+gidiyor. Ne güzel mis ya. Bunu da uzat.
+Bu da mis olsun değil mi? Buradan aldım.
+Bu tarafa doğru uzattım. Abi bir dakika
+çok saçma uzadı tabii. Şöyle tam geldi.
+Gözüme benim ne çarptı biliyor musun?
+İnşallah seni de çarpmıştır. Hocam
+burada var ya M kuralı var. Bak M
+kuralını kullanırım. Hatta nasıl
+kullanırım? Bu alfayı aldım. Ters
+açılardan buraya taşıdık mı? Bak adı da
+var. Ters açı. Enteresan bir şeydir.
+Geometride soruyu okumazsan kaybedersin.
+Birinciyi okudum. Buranın birbirine
+paralel olduğunu anladım. İkinciyi kimse
+okudu mu? Aramızda okuyan var mı? Ne
+diyor biliyor musun o? "Hocam" diyor.
+Bak diyor aslında bu doğru diyor kırmızı
+doğru olsun diyor. Mesela bu kırmızı
+doğruyla şuradaki kırmızı doğru
+birbirine paraleldir diyor. Bu doğrular
+birbirine paralelse atıyorum bak Z
+kuralından ötürü burası 90°erece ise
+burası da 90° olmaz mı? Aman ya Rabb.
+Buranın 90° olduğunu göremezsen hani
+geometri derler ya görme işi. Fakat
+görebilmen için bilmen gerekir. Hem
+bileceksin hem göreceksin. Kim sadece
+görme işi diyorsa yalan söylüyor
+geometri için. Severim geometri
+anlatmayı onu söyleyeyim. Şurası 90°ce.
+Bak şurası 90. Buranın neden 90'ı
+anladıysan şunu sileceğim artık.
+İhtiyacım yok ona çünkü değil mi? Ama şu
+dur fazla sildim lan. Kırmızıyı
+sileceğim sadece. Heh. Oradaki Mehmet'in
+M'si bana lazım hocam. Orası. Tamam.
+Eyvallah. Şimdi şunu yapalım. Şurası kaç
+derecedir? 180'den 30 çıktı. Buraya kaç
+kaldı? 50 derece değil mi? E buranın
+tamamı 90'dı. 40'ı 50'sini oraya
+bırakırsam buraya kaç derece kalır? 40
+derece. Mehmet hoca ne dedi? Sağa bakan
+açıların toplamı sola bakan açıların
+toplamına eşittir alfa 40 50 ise pardon
+özür dilerim çünkü orası 90 dereceydi.
+Şuradaki açı buraya alfaya kaç derece
+kalır? 50°. Temiz işçilik derim. 5.
+soruyu bitiririm. Hadi geldi bakalım
+yolumuza devam edelim derim. Son sayfa.
+Burayı bitirdiğimizde dersi bitireceğiz
+ama dediğim gibi çok güzel sorular
+çözüyoruz ve giderek sertleşiyor
+sorular. 7. sorudayız. Paralellikler
+verilmiş mi? Ne dedi Mehmet hoca?
+Geometride soruyu okumazsan çözemezsin.
+Ya da bak soruya. Çözemedin mi? Gel
+soruyu oku. Muhtemelen soruyu okumadık.
+Bir şeyi kaçırdık. Boyları kısa
+geliyorsa uzat dedim. Mehmet hocam sen.
+Benim bunun boyuna biraz ihtiyacım yani.
+Olur olmaz ben biraz uzatayım. Boyu
+kısa. La bunun da boyu kısa. Paralel
+değil mi bunlar? Boyları aynı olmasa da
+en azından belli bir seviyeye kadar
+beraber gitsinler. İstiyorum ki soruyu
+çözerken zorlanmayayım ben de. Süper.
+Boyları uzattım. Ne görüyorsun hocam?
+Bir tane Z yakaladım. Nerede yakaladın?
+Pardon. Z'den daha önemli bir şey
+gördüm. Şurada ne yakaladım? U harfi
+yakaladım. U ne demekti hocam?
+Karşılıklı buradaki açıların toplamı
+180°ereceydi. Tabii kuralları
+bileceksin. İspatlarıyla bileceksin.
+Ezber yok bizde. 2x + 10 = 2x + 10 + 150
+= 180. 150'yi karşıya attım. 2x + 10 =
+30. 2x = 20. x = 10°. Heh. Şurası 10°.
+Orası 10'du. Hocam da şurası kaç derece?
+Sen bana onu söyle. Asıl 20 10 daha
+şurası 30°. Şuranın tamamı kaç derece
+oldu? 40°. Şimdi büyük düşünelim biraz.
+Neden? Şuradaki U harfine bakalım. Ne
+görüyorsun hocam? Buradaki 40'la Y'nin
+toplamı da yine ne yapmak zorunda? 180°
+yap zorunda. Y buradan kaç derece
+gelecektir? 140°. Temiz. Gönder gelsin.
+8. Baktın önce paralele. Bak D1 D2'ye
+paralel. İlk neyi görmeni istiyorum? Bak
+lütfen başka bir şeyle ilgilenme. Bana
+bak sadece buraya bak. Yani şurada
+kırıklı çizgilerimi takip eder misin?
+Bittim hocam da ne alta yarıyor
+söyleyeyim ne alta yaradığını. Sola
+bakıyor, sola bakıyor, sola bakıyor.
+Sağa bakıyor, sağa bakıyor. Bitti. Şimdi
+gel yazalım. İki tane y var sağa bakan.
++ x + 80 + bir de neyim var? 15'im var.
+Doğru mudur? E hocam y'yi bilmeden x'e
+nasıl ulaşacak? O zaman y'yi bulacağız.
+Şimdi sildim şuradaki okları. Biz
+eşitliğimizi zaten kaptık geldik. Belli
+ki şu 120'yi kullandıracak bana, değil
+mi? Sildim şu yeşil çizgiyi de. Hocam
+neyi görmemi istiyorsun? Bence gördün
+bile. Neyi görmeni istiyorum? Yeni bir
+tane Z çizeceğim. Z diyorum, özür
+dilerim. Eee, şu çarpık çizgilerden
+çizeceğim. Yani U harfi, özür dilerim,
+Mehmet'in M'sini çizdim. Bak dikkat et.
+Mehmet'in M'si var burada. Çok şık bir M
+değil ama hani güzel bir M. Yine de sola
+bakan her zaman dar açıya göre başlanır.
+Unut. Sola bakanların toplamı sağa
+bakanların toplamına eşit olacak. Sola
+bakanlardan biri eksik. Şurası 120.
+180'den çıktı. Ne kaldı? 60. O zaman 60
++ 15 neye eşit? Sağa bakan Y'ye eşit. Y
+kaç derece? 75. Getirdim Y'yi şurada
+yerine yazdım. 2 x 75 = X + 95. Şurası
+150° = X + 95. O halde X = kaç derece?
+55'tir. Tanımlarla, ispatlarla,
+kavramlarla devam. Çok kolay bir
+abiciğim. Bak benzerliği anlatacağız
+4üncü itemada. Ama çok basit bir şey
+söyleyeyim ve bunun matematiksel olarak
+doğruluğunu sana göstereyim. Şimdi şöyle
+bir şeyim var. Doğru mudur? Çoğalt dedim
+abi. Bunu çoğalttım. Yani çoğaltınca
+şuradaki alfa açısıyla buradaki alfa
+açısında bir değişiklik var mı? Var mı?
+Yok hocam. Mükemmel bir şey anlatacağım.
+Hazır ol. Büyütüyorum. Oğlum aradaki
+alfa değişmiyor. Neden abi? Ben
+doğrultularını bozmuyorum. Doğruların
+bozmadığım için o alfa açısı ne kadar
+büyütsen de, ne kadar küçüksen de arada
+hep alfa açısın. Şimdi bu bilgi tamam
+mı? İspatını da yaptım. Bak gösterdim.
+Şimdi geldim buna. Ne diyorsun bana?
+Bıdı bıdı bıdı bıdı bıdı bıdı bıdı bıdı.
+Yani bu dördü paralel. Bıdı bıdı bıdı
+bıdı eee cıdı cıdı. Neyse bunlar ya abim
+diyor ben diyor bunu tuttum diyor
+büyüttüm diyor. Bu oluştu diyor. O halde
+de sen de direkt hocam hiç konuşmaya hiç
+mevzuyu uzatmaya gerek yok. Ha bir
+dakika ama burada parça sayısı farklı
+hocam. Vallahi patlıyorduk ha. Parça
+sayısı farklı hocam. Parça sayısı farklı
+olunca işler ne olacak? Değişecek. O
+zaman ben neye bakacağım? Şuna. Şuradaki
+doğruların yönlerine bakacağım. Şu
+doğrudakiyle şu doğrudaki birbirine
+eşit. Yani şurası. Tamam mı? Bak ben
+bunu büyütüyorum aslında. Bak şu köşeyi
+büyütüyorum. O halde diyorum ki şuradaki
+açı eğer B açısıysa şuradaki buradaki de
+B açısıdır. Şuradaki de A açısıdır.
+Kabul müyüz? Şimdi bir kural biyoruz
+biz. Hocam ben buradan aradan doğru
+çekince şu ikisi şu ikisi 180
+= 360 öğrettim az önce kuralını. X + A +
+B'nin toplamı ne olacak? 360. Siz
+kenarda bek gel bakayım sen buraya. Sil
+şunu sen. Gel bakayım buraya. Şuradan
+ayırdım. Şuradan ayırdım. Bitti. Bak şu
+ikisinin toplamı 180. Şu iki parçanın
+şurada yukarıda parça kalıyor. 180. Şu
+iki parçanın toplamı 180. O zaman şunu
+anlıyorum. a + b + 120 + 150 = 180 x 3 e
+çarptım 3'te 540 şunları topladım 270
+karşıya attım 270 demek ki a + b neymiş
+270° a + b yerine 270 yazar karşıya
+atarsam x'e kaç kalır taş gibi bir 90
+kalır vurdum cevabı 90'a sayfayı değil
+soruyu yeniledik geldik sorun o 10'a
+dünya haritası mı bu ya bakalım aşağıda
+bir kuşun göç sürecinde uğradığı a cde
+HF noktaları gösterildi. Göç sırasında
+aldığı bu yollar doğrusal. Paralellik
+verildi. Doğrular kısa kalmış hocam. Ya
+ben hani hızlı gitmek istemiyorum ama
+gerçekten o kadar böyle akıyor ki
+inşallah benim tarafta değil senin
+tarafta da akıyordur. Bak uzattım
+doğruyu. Hocam kuşa bak kuşa. Orada
+duruyor. Anın üstünde duruyormuş. Ben
+kuşu yeni gördüm. 40 65 105 açılar zaten
+üzerinde. X'i istiyorsun. Gidelim ağır
+ağır adım adım gidelim. Hocam bak şurayı
+buluruz. Nedir burası? 180'den
+çıkarttım. 75. Hocam şunu da buluruz be.
+Nedir o? Söyle bakayım. 75 65 toplayalım
+bakalım. 65 75 topladık. 0 şuradan 130
+140 180'den de gözüküyor mu buralar?
+Gözüküyor. 140'ı çıkardık ne kaldı? 40
+şurası 40 hocam. Burası da 40°ce bak
+şuradaki ters açı da 40°erece. Şimdi o
+bölgeyi bir daha çizeyim sana. Hani daha
+net gör diye çizdim. Şuradaki kırmızı
+açı var ya bak o 40°. Şurası x° burası
+40°. Daha fazla uzatayım mı soruyu?
+Mehmet'in M'si sola bakanlar sağa
+bakanlara eşit. x = 80° RM
+yapıştır. 11 numaralı sorudayız. Yan
+yana iki kazık anlamayana çok yazık.
+Bilardo masasının kenarına banta çapan
+top geldiği açıyla eşit ölçüyle ilerler.
+Mesela bak geliyor. Geldiği açı var.
+Geldiği açı ben gideyom yazacağım
+buraya. Şimdi geldiği açı aynı açıyla da
+gider. Hangi açı? Geldiği açıyla gider.
+Soru bana şunu anlatıyor. Sorunun
+başında diyor ki bu nokta açısı kardeş
+haberin olsun.
+bilmem ne de bantlara çarpıyordu bilmem
+ne de. Birinci bantla yaptığı dar açının
+şuradaki açının ölçüsü x'i is adım adım
+ilerliyoruz. Gel gel gel. Şurada bir
+tane üçgen oluşturalım mı? Ki köşedir
+burası. 90 derecedir. O 90° olduğuna
+göre buradaki dik üçgende açı hesabı. 50
++ 90 140 yaptı. 180'den 140'ı çıkardım
+40° kaldı. Neresi 40? Burası geldiği
+açıyla gitti. Burası da 40. Oldu mu?
+oldu. E şimdi ne yapacağız hocam? Şimdi
+doğru. Şimdi burada bir doğru devam
+ediyor aslında. Ulan dedim. Ulan dedim
+bak dedim. Ulan şunu da ona paralel
+çekelim mi? Ne olur? Ne kaybederiz ya?
+Şuradan 40 derecelik açıyı zile buraya
+taşıdım mı? İspattan çözüyorum soruyu.
+Dikkat et. 70° orası. 30 dereceyi buraya
+taşıdım mı? Eyvallah hocam. Orada
+yukarıdaki kırmızı doğruya paralel
+olacak şekilde bir doğru daha çektim.
+Senden de Mehmed'imin M'sini görmeni
+istedim. Arkadaş bu RMfa yerde karşına
+çıkar ve bunlar derece olurlar. Dikkat
+et. Sağa bakanların toplamı sola bakana
+eşit olacak. Şimdi buna Y açısı diyelim.
+Y ile 30'u toplayacaksın. Sola bakan
+90'a eşit olacak. Y buradan ne gelir?
+60°. Ben şunu sildim. Şuraya 60 dereceyi
+yazdım. Hocam bak 80 burada 60 burada.
+Topladım ne yaptı? 140. E doğru açı bir
+zahmet onu da tamamlayalım değil mi?
+180'den 140'ı çıkarttım. 40. Ben bunları
+ezbere yapabiliyorum ama gör dideyi
+yapıyorum aslında. Şurası 40°. Şurada da
+hemfikir miyiz? Hemfikiriz hocam. Şimdi
+ne yapacağız hocam? Şimdi bakalım ne
+yapalım. Ben de bilmiyorum. Deneye
+deneye bulacağız işte yavaş yavaş. Şimdi
+bak şuradaki açıyla geldi ya şöyle
+çarpıyor band. Şuradaki açı yöndeş
+açılar olmaz mı? Olur hocam. Hatta
+uzatırsam belki daha hoş görürsün. Şunu
+uzat. Şunu uzattım. Aa bak yöndeş açı.
+Cızık açısı. Cızık açısı. Kabul müyüz?
+Şunu kaç buldum ben? 40°. Biri 40 diğeri
+85. Üçgenin iç açılar toplamından
+gideceğim. Şurası 125 yaptı mı? Yaptı.
+180'den de 125'i çıkarırsam ne kaldı?
+Şurada 5, şurada 7. İkisi gitti 55.
+Nereye 55 hocam? Şura 55. Nereye 55
+hocam? Şura 55. Diyor ki top diyor banda
+çarpınca diyor burası bant. Banda
+çarpınca aynı açıyla geri döner. 55 de
+gelirse haliyle neyle dönmesini
+beklersin? 55. Artık bence dik üçgenden
+olayı bitirelim. Neden? Bak şurada bir
+dik açı çizdim. Artık sen kabul et.
+Allah kabul etsin. O bir dik üçgen.
+Şurası 90°. Hızlı yoldan söyleyeyim. Bu
+ikisinin toplamı daima 90'dır. Eğer
+karşı açı 90'sa 90'dan 55'i çıkartırım.
+Şurada 5 kaldı. Şurada 8. 5'i gitti. 35.
+Ha İzmir doğuma büyümeli olduğumu, İzmir
+Atatürk Lisesi mezunu olduğumu söylemiş
+miydim bilmiyorum. Türkiye'nin herhalde
+şu an derece liselerinden biri. Biz
+girdiğimizde o kadar değildi ama yine
+derece adayı okullardan biri. Aa dur
+nereye biriydi? Doğru cevabımız 35
+dereceleri vurdum cevabı. 1. Dersi
+bitirdim. Ama bu ders gerçekten önemli.
+Çünkü dediğim gibi 3üncü temanın
+başındayız. Geometrik şekillerin
+başındayız. Sonraki sayfalarda senin
+için bıraktığımız sorular var. Onları
+çözüyorsun. Sonraki derslerde de
+kaldığımız yerden yolumuza devam
+ediyoruz. Abone olmayı unutma. Kendine
+iyi bak. Hoş kal. Hoş kal.

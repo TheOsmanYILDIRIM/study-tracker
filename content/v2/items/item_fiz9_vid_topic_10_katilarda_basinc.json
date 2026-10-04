@@ -30,7 +30,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "2b71d12fcf09403a",
+      "fingerprint": "cdadb0bac5048e35",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=DnQNBoR_Dsw",
       "provider": "Özcan Aykın FİZİK",
@@ -38,10 +38,12 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
-      "transcriptFingerprint": "c183fc7df5a93569",
-      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt"
+      "transcriptFingerprint": "6aa37a6708edd20f",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.tr.vtt",
+      "teacher": "Özcan Aykın FİZİK",
+      "sharedSource": false
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 30. Gün | Basınç - 1 | Katı Basıncı | 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026"
   }
 }

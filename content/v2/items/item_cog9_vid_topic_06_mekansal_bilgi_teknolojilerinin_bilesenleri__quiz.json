@@ -83,7 +83,8 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.txt",
-      "transcriptFingerprint": "e4c41fbce21b506c"
+      "transcriptFingerprint": "e4c41fbce21b506c",
+      "sharedSource": false
     }
   }
 }

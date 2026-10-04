@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=j6s-y9cBUv0",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "9cecb4b75b531a32",
+      "transcriptFingerprint": "bf03fc0cb878dddc",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "14d69339b3568c38",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_04_alter_alphabet_und_buchstabieren.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır."
     }
   }
 }

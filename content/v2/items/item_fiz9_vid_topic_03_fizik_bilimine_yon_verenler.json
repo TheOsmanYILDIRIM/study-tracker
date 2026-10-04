@@ -33,7 +33,8 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler.tr.tr.vtt",
       "transcriptFingerprint": "dbd42f4bde0e667a",
       "provider": "Özcan Aykın FİZİK",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     }
   }
 }

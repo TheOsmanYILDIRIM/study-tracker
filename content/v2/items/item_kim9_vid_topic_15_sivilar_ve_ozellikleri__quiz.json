@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_15_sivilar_ve_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=wbL70rDWleU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,7 +82,8 @@
       "fingerprint": "a13f92cb593fecb6",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
-      "transcriptFingerprint": "49fb8f209e6affb0"
+      "transcriptFingerprint": "ddee1e7b73c21385",
+      "sharedSource": false
     }
   }
 }

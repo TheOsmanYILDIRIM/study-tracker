@@ -7,30 +7,34 @@
   "displayLabel": "3.2",
   "orderKey": 2000,
   "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
-  "contentUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+  "contentUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/Cografya_Yillik_Plan_AL9.md#L130",
       "sourceSection": "Doğal Afetler ve Çevre",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "53a3486c1bec7ce8",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "fingerprint": "ef6469f39aa61501",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt",
-      "transcriptFingerprint": "a9429fca5308feaa",
+      "transcriptFingerprint": "dd6b0aef7e5df09f",
       "sharedSource": true,
-      "sharedSourceReason": "Doğal afet türleri, tehlike ve risk analizi ile bütüncül afet yönetimi evreleri ortak video kapsamı"
+      "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "provider": "Coğrafyanın Kodları",
+    "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025"
   }
 }

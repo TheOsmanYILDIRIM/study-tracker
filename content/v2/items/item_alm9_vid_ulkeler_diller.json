@@ -17,18 +17,21 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "c3f21f3eed9df052",
+      "fingerprint": "4cfb8755cc4f5308",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=R6O9NcPPB2s",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.tr.vtt",
-      "transcriptFingerprint": "58c6f09ced835962",
-      "sharedSource": false
+      "transcriptFingerprint": "919a6e8361911a40",
+      "sharedSource": false,
+      "provider": "tonguç 9. SINIF",
+      "teacher": "Tonguç Akademi",
+      "reviewedOverride": true
     },
     "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "verifiedLectureTitle": "9. Sınıf Almanca : Lander Und Sprachen  | Ülkeler ve Diller"
+    "verifiedLectureTitle": "9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller"
   }
 }

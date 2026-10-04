@@ -84,7 +84,8 @@
       "fingerprint": "903dbc164a3d967c",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_10_katilarda_basinc.tr.txt",
-      "transcriptFingerprint": "c183fc7df5a93569"
+      "transcriptFingerprint": "6aa37a6708edd20f",
+      "sharedSource": false
     }
   }
 }

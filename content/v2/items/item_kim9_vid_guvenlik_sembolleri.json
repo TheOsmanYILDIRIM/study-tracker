@@ -7,7 +7,7 @@
   "displayLabel": "1.2",
   "orderKey": 2000,
   "title": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
-  "contentUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+  "contentUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,16 +16,21 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "9083b0011b7c547a",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "fingerprint": "b1d50e20f5bc3ebb",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt",
-      "transcriptFingerprint": "ed0db4f712979546",
+      "transcriptFingerprint": "375d92366dc8fbda",
       "sharedSource": true,
-      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları, uyarı piktogramları ve kimyasal madde güvenliği ortak video kapsamı"
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true
     },
-    "provider": "Meschemy Kimya"
+    "provider": "Meschemy Kimya",
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️"
   }
 }

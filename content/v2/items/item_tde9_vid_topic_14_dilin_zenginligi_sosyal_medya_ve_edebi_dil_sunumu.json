@@ -33,7 +33,8 @@
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.tr.vtt",
       "transcriptFingerprint": "253cf1c3f80fecce",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "teacher": "adem deliaslan",
     "verifiedLectureTitle": "TÜRK DİLİ VE EDEBİYATI 9. SINIF 4. TEMA DİLİN ZENGİNLİĞİ - EDEBİYAT ATÖLYESİ: KONUŞMA"

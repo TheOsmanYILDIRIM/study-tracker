@@ -7,10 +7,10 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Schulsachen",
-  "contentUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+  "contentUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Schulsachen",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,21 +28,23 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "164ed0dfd692a990",
+      "fingerprint": "ba3f72e74b1e7d49",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_05_schulsachen.tr.tr.vtt",
-      "transcriptFingerprint": "3639e1470a7f8837",
+      "transcriptFingerprint": "fcdb8085fd36c0c3",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Almanca okul eşyaları (Die Schulsachen) ve artikeller (der, die, das / ein, eine, kein) ortak video kapsamı"
+      "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
+      "provider": "tonguç 9. SINIF",
+      "teacher": "Tonguç Akademi"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben"
   }
 }

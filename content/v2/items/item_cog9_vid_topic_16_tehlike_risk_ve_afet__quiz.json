@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -81,9 +81,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_16_tehlike_risk_ve_afet.tr.txt",
-      "transcriptFingerprint": "a9429fca5308feaa",
+      "transcriptFingerprint": "dd6b0aef7e5df09f",
       "sharedSource": true,
-      "sharedSourceReason": "Doğal afet türleri, tehlike ve risk analizi ile bütüncül afet yönetimi evreleri ortak video kapsamı"
+      "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir."
     }
   }
 }

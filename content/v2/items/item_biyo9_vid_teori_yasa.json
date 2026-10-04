@@ -17,7 +17,8 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "ed7b85c3da2da5fb"
+      "fingerprint": "ed7b85c3da2da5fb",
+      "sharedSource": false
     }
   }
 }

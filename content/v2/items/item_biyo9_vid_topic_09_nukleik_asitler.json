@@ -7,7 +7,7 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Nükleik Asitler",
-  "contentUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+  "contentUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -32,14 +32,20 @@
       "reviewStatus": "verified",
       "videoSearchScore": 16.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 18. Ders: Nükleik Asitler",
-      "fingerprint": "2b6a942450399aef",
+      "fingerprint": "b19f436786f7c97f",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=gRpSp2Kg6y4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=gqDpv-_j-m4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_09_nukleik_asitler.tr.tr.vtt",
-      "transcriptFingerprint": "22d93c8cd6749c93"
-    }
+      "transcriptFingerprint": "da19c5fcfa0642d6",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "reviewedOverride": true,
+      "sharedSource": false
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Nükleik Asitler DNA ve RNA ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
   }
 }

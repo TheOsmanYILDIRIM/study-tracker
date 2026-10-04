@@ -33,7 +33,8 @@
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.tr.vtt",
       "transcriptFingerprint": "794e62530bbd8ebe",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "teacher": "Türkçe Saati",
     "verifiedLectureTitle": "Hikâyede Kavramlar ve Yapı Unsurları / 3. Tema / Anlamın Yapı Taşları /  9. Sınıf/2025 Yeni Müfredat"

@@ -29,7 +29,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt",
-      "transcriptFingerprint": "20f59b1eff4fffee"
+      "transcriptFingerprint": "20f59b1eff4fffee",
+      "sharedSource": false
     },
     "provider": "Rehber Matematik",
     "topic": "Eşlik ve Benzerlik Problemleri"

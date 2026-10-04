@@ -7,7 +7,7 @@
   "displayLabel": "1.3",
   "orderKey": 3000,
   "title": "Üslü Sayılarda Bölme İşlemi ve Özellikleri",
-  "contentUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
+  "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
   "publishingStatus": "active",
   "payload": {
     "provider": "Rehber Matematik",
@@ -17,14 +17,21 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
-      "fingerprint": "ed3787346eb0861d",
+      "reviewStatus": "verified",
+      "fingerprint": "4cf5167ced7f1b79",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
-      "transcriptFingerprint": "72a42480cb471e64",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=956XViFFkOk",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "bd69e1fbf5237ef4",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt",
+      "provider": "Rehber Matematik",
+      "teacher": "Deniz Mehmet Hoca",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı"
+    },
+    "teacher": "Deniz Mehmet Hoca",
+    "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027"
   }
 }

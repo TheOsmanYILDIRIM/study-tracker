@@ -84,7 +84,8 @@
       "fingerprint": "43abd2ae90baa9b9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
-      "transcriptFingerprint": "dfc3976b956014b2"
+      "transcriptFingerprint": "4a3c779cf3d70f8d",
+      "sharedSource": false
     }
   }
 }

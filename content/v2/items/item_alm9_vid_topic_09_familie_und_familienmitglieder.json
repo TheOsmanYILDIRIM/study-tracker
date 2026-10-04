@@ -7,10 +7,10 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Familie und Familienmitglieder",
-  "contentUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+  "contentUrl": "https://www.youtube.com/watch?v=4mfOLK3RVT4",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Meltem Hoca ile Almanca",
+    "provider": "tonguç 9. SINIF",
     "topic": "Familie und Familienmitglieder",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -32,20 +32,22 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "e7a396de87e57ffa",
+      "fingerprint": "8ae3f3975de74222",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4mfOLK3RVT4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
-      "transcriptFingerprint": "ca9fa7525984ad57",
+      "transcriptFingerprint": "c81ac22e60c444f8",
       "reviewedOverride": true,
-      "sharedSource": false
+      "sharedSource": false,
+      "provider": "tonguç 9. SINIF",
+      "teacher": "Tonguç Akademi"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,
-    "teacher": "Meltem Hoca ile Almanca",
-    "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE"
+    "teacher": "Tonguç Akademi",
+    "verifiedLectureTitle": "9. Sınıf Almanca： Die Familie ｜ Aile Üyelerini Tanıyalım"
   }
 }

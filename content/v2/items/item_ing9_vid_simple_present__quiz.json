@@ -84,7 +84,8 @@
       "fingerprint": "f2f566ebcefcfb9c",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_simple_present.tr.txt",
-      "transcriptFingerprint": "e5170e104e5b5a59"
+      "transcriptFingerprint": "e5170e104e5b5a59",
+      "sharedSource": false
     }
   }
 }

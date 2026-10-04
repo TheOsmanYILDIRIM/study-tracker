@@ -17,14 +17,20 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
-      "fingerprint": "09e4ff23f901f518",
+      "reviewStatus": "verified",
+      "fingerprint": "1ef39674c376f6f8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
-      "transcriptFingerprint": "b7b70dc9fcea4c1f",
+      "transcriptFingerprint": "2d8b5b1db7a025d3",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=-OYMlnoW9gw",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt"
-    }
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt",
+      "provider": "Rehber Matematik",
+      "teacher": "Deniz Mehmet Hoca",
+      "reviewedOverride": true,
+      "sharedSource": false
+    },
+    "teacher": "Deniz Mehmet Hoca",
+    "verifiedLectureTitle": "Üslü İfadeler 2 ｜ 1.TEMA Sayılar 2 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027"
   }
 }

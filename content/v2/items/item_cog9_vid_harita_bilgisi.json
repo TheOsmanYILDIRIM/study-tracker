@@ -7,17 +7,17 @@
   "displayLabel": "1.4",
   "orderKey": 1000,
   "title": "Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
-  "contentUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+  "contentUrl": "https://www.youtube.com/watch?v=pPeiiLXr-aU",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Coğrafyanın Kodları",
+    "teacher": "Yunus Hoca",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_cografya_video_rehberi.md#L48",
       "sourceSection": "4. Hafta: Mekânın Aynası Haritalar & Projeksiyon Yöntemleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "1974496951ff6ec6",
+      "fingerprint": "c84a52b25df31881",
       "sourceWeeks": [
         4,
         5,
@@ -26,19 +26,23 @@
       "sourceTheme": "MEKÂNSAL BİLGİ TEKNOLOJİLERİ",
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "2.ünite 📕 Harita okuryazarlığı | Mekanın sembolik dili harita 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=pPeiiLXr-aU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_harita_bilgisi.tr.tr.vtt",
-      "transcriptFingerprint": "92ed5bed2a0c5a22",
-      "reviewedOverride": true
+      "transcriptFingerprint": "b20b33e2e84f5ee3",
+      "reviewedOverride": true,
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca",
+      "sharedSource": false
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Mekânın Aynası Haritalar",
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
       "provider": "Coğrafyanın Kodları"
-    }
+    },
+    "verifiedLectureTitle": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025"
   }
 }

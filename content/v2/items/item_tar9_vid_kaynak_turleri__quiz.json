@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "ecec6068677f14af",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_tar9_vid_kaynak_turleri.tr.txt",
+      "sharedSource": false
     }
   }
 }

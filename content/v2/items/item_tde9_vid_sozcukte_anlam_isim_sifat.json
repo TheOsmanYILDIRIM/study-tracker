@@ -31,7 +31,8 @@
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.tr.vtt",
       "transcriptFingerprint": "48b2f9ed812159e9",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "provider": "Deniz Hoca",
     "topic": "Anlamın Yapı Taşları: Hikâye, Şiir ve Gezi Yazısı",

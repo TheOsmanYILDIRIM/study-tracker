@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "c331da795f447f87",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt",
+      "sharedSource": false
     }
   }
 }

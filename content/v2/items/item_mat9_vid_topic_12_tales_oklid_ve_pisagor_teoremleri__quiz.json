@@ -82,7 +82,8 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
-      "transcriptFingerprint": "c1689ad19c926f66"
+      "transcriptFingerprint": "c1689ad19c926f66",
+      "sharedSource": false
     }
   }
 }

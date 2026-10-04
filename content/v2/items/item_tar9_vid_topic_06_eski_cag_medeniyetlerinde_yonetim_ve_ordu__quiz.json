@@ -84,7 +84,8 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
-      "transcriptFingerprint": "028ab43911cbe10f"
+      "transcriptFingerprint": "028ab43911cbe10f",
+      "sharedSource": false
     }
   }
 }

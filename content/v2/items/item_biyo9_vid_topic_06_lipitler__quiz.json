@@ -73,10 +73,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_06_lipitler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "a30bd103306267d1",
+      "transcriptFingerprint": "c2de7ccfc3f9f26c",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "de5063c410e69323",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
+      "sharedSource": false
     }
   }
 }

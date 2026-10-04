@@ -36,7 +36,8 @@
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.tr.vtt",
       "transcriptFingerprint": "cc2867fdc14d02a6",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,

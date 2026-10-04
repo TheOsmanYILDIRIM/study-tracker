@@ -84,9 +84,9 @@
       "fingerprint": "c12bbfbdabea7466",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt",
-      "transcriptFingerprint": "c16d306cf7d143df",
+      "transcriptFingerprint": "2b345b647740cbbe",
       "sharedSource": true,
-      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+      "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir."
     }
   }
 }

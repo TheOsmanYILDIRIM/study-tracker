@@ -7,7 +7,7 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Canlıların Ortak Özellikleri",
-  "contentUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+  "contentUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -23,17 +23,24 @@
       "sourceTopic": [
         "Canlıların Ortak Özellikleri (Hücresel Yapı, Organizasyon • Beslenme, Enerji Üretimi ve Tüketimi, Boşaltım, Büyüme ve Gelişme, Metabolizma • Uyarılara Tepki, Homeostazi, Üreme, Varyasyon ve Adaptasyon)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": 15.2,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
-      "fingerprint": "a1dd1ac7352aab25",
+      "fingerprint": "c64eb713b584f4ac",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
-      "transcriptFingerprint": "0243614dcf9148b2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "a698fecff5e7f6c6",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.tr.vtt",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır."
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
   }
 }

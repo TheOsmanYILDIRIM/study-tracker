@@ -7,7 +7,7 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Nüfusun Dağılışı ve Hareketleri",
-  "contentUrl": "https://www.youtube.com/watch?v=NQ1QXL62Lpc",
+  "contentUrl": "https://www.youtube.com/watch?v=XwwB4_c182w",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -25,22 +25,24 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "cd63658988c81780",
+      "fingerprint": "0fe66be410cd38fa",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NQ1QXL62Lpc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=XwwB4_c182w",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri.tr.tr.vtt",
-      "transcriptFingerprint": "378bb18a8ef660c9",
-      "sharedSource": false
+      "transcriptFingerprint": "eea1558df9c64da1",
+      "sharedSource": false,
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
       "provider": "Coğrafyanın Kodları"
     },
     "teacher": "Yunus Hoca",
-    "verifiedLectureTitle": "Nüfusun dağılışı ve hareketleri göçler📕 4.ünite nüfusun dinamikleri 🔴 9.sınıf coğrafya | 2025"
+    "verifiedLectureTitle": "🌍DÜNYA'DA NÜFUSUN DAĞILIŞI 🔴39 GÜNDE TYT COĞRAFYA KAMPI-34 🟡10.SINIF COĞRAFYA📌2025"
   }
 }

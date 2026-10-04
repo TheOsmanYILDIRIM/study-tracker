@@ -71,7 +71,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_zayif_etkilesimler",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=d1_esDqj9KA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -82,7 +82,9 @@
       "fingerprint": "0d2663c31e98c6ff",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
-      "transcriptFingerprint": "34a035e730bc990b"
+      "transcriptFingerprint": "92b98bc529a7d5ec",
+      "sharedSource": true,
+      "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir."
     }
   }
 }

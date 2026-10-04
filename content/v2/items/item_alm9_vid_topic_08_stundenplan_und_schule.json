@@ -36,7 +36,8 @@
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.tr.vtt",
       "transcriptFingerprint": "c2e974dea05bb308",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,

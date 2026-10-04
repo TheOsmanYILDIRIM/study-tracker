@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "39daf54d66b918d2",
+      "fingerprint": "f92b4c82ced7d672",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "provider": "Özcan Aykın FİZİK",
@@ -33,12 +33,13 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.txt",
-      "transcriptFingerprint": "c16d306cf7d143df",
+      "transcriptFingerprint": "2b345b647740cbbe",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Sıvıların kaldırma kuvveti, Arşimet prensibi ve yüzme/askıda kalma/batma koşulları ortak video kapsamı"
+      "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
+      "teacher": "Özcan Aykın FİZİK"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026"
   }
 }

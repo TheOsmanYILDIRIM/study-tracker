@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BpTQTWQYdnA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "0243614dcf9148b2",
+      "transcriptFingerprint": "a698fecff5e7f6c6",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "c8e647a78c164d52",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_03_canlilarin_ortak_ozellikleri.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır."
     }
   }
 }

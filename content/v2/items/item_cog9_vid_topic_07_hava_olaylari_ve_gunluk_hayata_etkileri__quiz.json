@@ -81,7 +81,8 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
-      "transcriptFingerprint": "0b173a9c3024f844"
+      "transcriptFingerprint": "0b173a9c3024f844",
+      "sharedSource": false
     }
   }
 }

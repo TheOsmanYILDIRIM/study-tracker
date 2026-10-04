@@ -34,7 +34,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.tr.vtt",
-      "transcriptFingerprint": "c1689ad19c926f66"
+      "transcriptFingerprint": "c1689ad19c926f66",
+      "sharedSource": false
     }
   }
 }

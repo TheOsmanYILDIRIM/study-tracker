@@ -7,10 +7,10 @@
   "displayLabel": "15.1",
   "orderKey": 1000,
   "title": "Sıvılar ve Özellikleri",
-  "contentUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+  "contentUrl": "https://www.youtube.com/watch?v=wbL70rDWleU",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Kimyanın Kimyası",
+    "provider": "Meschemy Kimya",
     "topic": "Sıvılar ve Özellikleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -28,17 +28,23 @@
       "sourceTopic": [
         "Sıvılar ve Özellikleri (Kaynama Sıcaklığı ve Buhar Basıncı, Viskozite, Adezyon ve Kohezyon Kuvvetleri, Yüzey Gerilimi)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "f313b0e4edef204d",
+      "fingerprint": "5ae57ba1356c1b15",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=m0SkOXAPJTo",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=wbL70rDWleU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_15_sivilar_ve_ozellikleri.tr.tr.vtt",
-      "transcriptFingerprint": "49fb8f209e6affb0"
-    }
+      "transcriptFingerprint": "ddee1e7b73c21385",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true,
+      "sharedSource": false
+    },
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (12.GÜN) ｜ MADDENİN HALLERİ - 2 + PDF 🗓️"
   }
 }

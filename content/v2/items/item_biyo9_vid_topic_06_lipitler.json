@@ -7,7 +7,7 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Lipitler",
-  "contentUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
+  "contentUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -29,17 +29,23 @@
       "sourceTopic": [
         "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 14. Ders: Organik Bileşikler - Lipitler",
-      "fingerprint": "898f8f9ae6d9a165",
+      "fingerprint": "44b25f29b10f4be3",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.txt",
-      "transcriptFingerprint": "a30bd103306267d1",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NIAOyodMiEk",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "c2de7ccfc3f9f26c",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fG5tAZFYTTM",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_06_lipitler.tr.tr.vtt",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "reviewedOverride": true,
+      "sharedSource": false
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
   }
 }

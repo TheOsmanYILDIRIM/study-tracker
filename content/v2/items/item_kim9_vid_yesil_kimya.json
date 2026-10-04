@@ -22,7 +22,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.tr.vtt",
-      "transcriptFingerprint": "7c070ce680ca133c"
+      "transcriptFingerprint": "7c070ce680ca133c",
+      "sharedSource": false
     },
     "provider": "Meschemy Kimya"
   }

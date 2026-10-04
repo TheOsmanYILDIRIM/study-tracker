@@ -84,7 +84,8 @@
       "fingerprint": "e6a4b4ec48319e34",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.txt",
-      "transcriptFingerprint": "9c3a5cdd2afe45a6"
+      "transcriptFingerprint": "75efbbf5be94264f",
+      "sharedSource": false
     }
   }
 }

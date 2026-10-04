@@ -80,13 +80,12 @@
       "schemaVersion": "v2",
       "fingerprint": "e9bf373c1a07a523",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xGTH9SQLhrE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
-      "transcriptFingerprint": "b942c35900634519",
-      "sharedSource": true,
-      "sharedSourceReason": "Hikâye unsurları, olay ve durum hikâyesi (Maupassant ve Çehov tarzı) ile karakter analizi ortak video kapsamı"
+      "transcriptFingerprint": "496cf7700cf9cc8a",
+      "sharedSource": false
     }
   }
 }

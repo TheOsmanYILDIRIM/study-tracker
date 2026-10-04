@@ -33,7 +33,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.tr.vtt",
-      "transcriptFingerprint": "0b173a9c3024f844"
+      "transcriptFingerprint": "0b173a9c3024f844",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",

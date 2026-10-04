@@ -7,7 +7,7 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Proteinler",
-  "contentUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
+  "contentUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
   "publishingStatus": "active",
   "payload": {
     "provider": "Dr. Biyoloji",
@@ -29,17 +29,23 @@
       "sourceTopic": [
         "Organik Moleküller (Karbohidratlar [Monosakkaritler • (Riboz, Deoksiriboz, Fruktoz, Glikoz, Galaktoz)], Disakkaritler (Sükroz, Maltoz, Laktoz) • Polisakkaritler (Glikojen, Nişasta, Selüloz, Kitin), Lipitler (Yağ Asitleri, Trigliseritler • Fosfolipitler, Steroitler), Proteinler (Amino Asitlerin Yapısı, Enzimler (Basit ve Bileşik • Enzimler, Aktivasyon Enerjisi, Enzim-Substrat İlişkisi, Enzimatik Reaksiyonlara Etki Eden • Faktörler), Nükleik Asitler (DNA ve RNA’nın Yapısı), Vitaminler (Yağda Çözünen Vitaminler • Suda Çözünen Vitaminler)"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
-      "fingerprint": "d1f521ced150fa0f",
+      "fingerprint": "18728dbd03568dd6",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.txt",
-      "transcriptFingerprint": "b5ebaf2a8faa15c2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=EEsy1O9IqMg",
-      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt"
-    }
+      "transcriptFingerprint": "8cad57a123177435",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=H_I4wF3hBOg",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_07_proteinler.tr.tr.vtt",
+      "provider": "Dr. Biyoloji",
+      "teacher": "Dr. Biyoloji",
+      "reviewedOverride": true,
+      "sharedSource": false
+    },
+    "teacher": "Dr. Biyoloji",
+    "verifiedLectureTitle": "Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
   }
 }

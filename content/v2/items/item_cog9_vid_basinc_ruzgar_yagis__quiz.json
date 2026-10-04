@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_basinc_ruzgar_yagis",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=zb1ONuP779Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=aweDcCk0fJ0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,7 +83,7 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
-      "transcriptFingerprint": "2866c76a83106119",
+      "transcriptFingerprint": "27adcace9ed94fc5",
       "sharedSource": false
     }
   }

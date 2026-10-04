@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_ing9_vid_appearance_personality",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "maarif_author",
@@ -84,7 +84,8 @@
       "fingerprint": "61eec1502e0c4ca3",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
-      "transcriptFingerprint": "edd896d72a92bd9c"
+      "transcriptFingerprint": "e294bee2ea8ea040",
+      "sharedSource": false
     }
   }
 }

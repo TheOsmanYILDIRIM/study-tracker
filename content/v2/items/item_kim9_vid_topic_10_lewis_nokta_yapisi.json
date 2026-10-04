@@ -7,7 +7,7 @@
   "displayLabel": "10.1",
   "orderKey": 1000,
   "title": "Lewis Nokta Yapısı",
-  "contentUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+  "contentUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
   "publishingStatus": "active",
   "payload": {
     "provider": "Meschemy Kimya",
@@ -24,14 +24,21 @@
       "reviewStatus": "verified",
       "videoSearchScore": 6,
       "videoCandidateTitle": "Lewis Yapısı Nasıl Yazılır? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 15",
-      "fingerprint": "7d9108520d029e77",
+      "fingerprint": "0e3c2d088e4be49e",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=JlB31tyAEgU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.tr.vtt",
-      "transcriptFingerprint": "1aac0c26e1ac566f"
-    }
+      "transcriptFingerprint": "34afc097a77c7e1a",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir."
+    },
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️"
   }
 }

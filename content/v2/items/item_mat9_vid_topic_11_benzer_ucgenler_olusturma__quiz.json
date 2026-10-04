@@ -80,7 +80,8 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
-      "transcriptFingerprint": "5faa10ff494c65cb"
+      "transcriptFingerprint": "5faa10ff494c65cb",
+      "sharedSource": false
     }
   }
 }

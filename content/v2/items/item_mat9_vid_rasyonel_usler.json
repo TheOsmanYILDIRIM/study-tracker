@@ -24,7 +24,8 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
       "transcriptFingerprint": "701580fd7642654a",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt",
+      "sharedSource": false
     }
   }
 }

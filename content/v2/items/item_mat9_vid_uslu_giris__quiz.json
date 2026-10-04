@@ -76,7 +76,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=ZAqla3j4kLQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "ec31c704e8e95f10",
+      "transcriptFingerprint": "d3d82deaaa5a3410",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "cbe036026bfc4d77",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
+      "sharedSource": false
     }
   }
 }

@@ -7,26 +7,29 @@
   "displayLabel": "3.1",
   "orderKey": 1000,
   "title": "Describing Physical Appearance and Personality Traits",
-  "contentUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+  "contentUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
   "publishingStatus": "active",
   "payload": {
-    "teacher": "Özer Kiraz",
+    "teacher": "Ms. Jasmin ELT",
     "provenance": {
       "sourceRef": "10-Projects/İngilizce_Yillik_Plan_AL9.md#L60",
       "sourceSection": "Theme 3: Personal Life",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "5d544133f66ebdeb",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=uh_ZSEuClEk",
+      "fingerprint": "9442943458559dbf",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
-      "transcriptFingerprint": "edd896d72a92bd9c",
-      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt"
+      "transcriptFingerprint": "e294bee2ea8ea040",
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt",
+      "provider": "Ms. Jasmin ELT",
+      "teacher": "Ms. Jasmin ELT",
+      "sharedSource": false
     },
-    "provider": "Özer Kiraz",
-    "verifiedLectureTitle": "İngilizce Sıfatlar Konu Anlatımı #15"
+    "provider": "Ms. Jasmin ELT",
+    "verifiedLectureTitle": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)"
   }
 }

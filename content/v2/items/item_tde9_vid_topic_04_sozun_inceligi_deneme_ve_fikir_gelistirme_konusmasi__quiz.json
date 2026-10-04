@@ -84,7 +84,8 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi.tr.txt",
-      "transcriptFingerprint": "63047d6f804f39f5"
+      "transcriptFingerprint": "63047d6f804f39f5",
+      "sharedSource": false
     }
   }
 }

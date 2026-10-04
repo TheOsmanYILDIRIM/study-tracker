@@ -80,7 +80,8 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
-      "transcriptFingerprint": "ec3f8b6edc092099"
+      "transcriptFingerprint": "ec3f8b6edc092099",
+      "sharedSource": false
     }
   }
 }

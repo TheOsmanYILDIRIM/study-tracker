@@ -36,7 +36,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.tr.vtt",
-      "transcriptFingerprint": "3389c7e3a5ebb774"
+      "transcriptFingerprint": "3389c7e3a5ebb774",
+      "sharedSource": false
     }
   }
 }

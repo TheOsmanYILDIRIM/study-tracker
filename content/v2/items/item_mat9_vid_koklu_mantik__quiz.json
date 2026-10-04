@@ -76,7 +76,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=k9Gx8yy6xSo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "c81aea17231c58a8",
+      "transcriptFingerprint": "20060ca0310e6ec5",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -84,7 +84,8 @@
       "schemaVersion": "v2",
       "fingerprint": "16a83e193d801d7d",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
+      "sharedSource": false
     }
   }
 }

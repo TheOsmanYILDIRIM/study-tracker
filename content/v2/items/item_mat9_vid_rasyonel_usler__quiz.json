@@ -86,7 +86,8 @@
       "schemaVersion": "v2",
       "fingerprint": "9851e46eca78b27d",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
+      "sharedSource": false
     }
   }
 }

@@ -84,7 +84,8 @@
       "fingerprint": "f5fefbd91d9090a4",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_dogadaki_kuvvetler.tr.txt",
-      "transcriptFingerprint": "cc010a06705ebd53"
+      "transcriptFingerprint": "e1ef9b6427e0cf18",
+      "sharedSource": false
     }
   }
 }

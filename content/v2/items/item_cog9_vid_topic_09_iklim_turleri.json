@@ -7,7 +7,7 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "İklim Türleri",
-  "contentUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+  "contentUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
   "publishingStatus": "active",
   "payload": {
     "provider": "Coğrafyanın Kodları",
@@ -25,22 +25,24 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "0992da6f9c2eb1ae",
+      "fingerprint": "afa0a049695744b3",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=yuYTPw-yrpE",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_09_iklim_turleri.tr.tr.vtt",
-      "transcriptFingerprint": "ad176ff63339b48f",
-      "sharedSource": false
+      "transcriptFingerprint": "b1ad3ef0f9b4870f",
+      "sharedSource": false,
+      "provider": "Coğrafyanın Kodları",
+      "teacher": "Yunus Hoca"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
       "provider": "Coğrafyanın Kodları"
     },
     "teacher": "Yunus Hoca",
-    "verifiedLectureTitle": "İklim tipleri konu anlatımı 📕 3.ünite 🔴 9.sınıf coğrafya | 2025"
+    "verifiedLectureTitle": "🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025"
   }
 }

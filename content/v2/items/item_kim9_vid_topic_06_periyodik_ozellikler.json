@@ -7,10 +7,10 @@
   "displayLabel": "6.1",
   "orderKey": 1000,
   "title": "Periyodik Özellikler",
-  "contentUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+  "contentUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Kimya Adası",
+    "provider": "Meschemy Kimya",
     "topic": "Periyodik Özellikler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,16 +26,21 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "f042d1294a03fda1",
+      "fingerprint": "c8ca11ab89eeb972",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.tr.vtt",
-      "transcriptFingerprint": "6ce56406f481cfb3",
+      "transcriptFingerprint": "3667e4e4ae442b90",
       "sharedSource": true,
-      "sharedSourceReason": "Atom çapı, yarıçapı ve periyodik sistemdeki değişim eğilimleri ortak video kapsamı"
-    }
+      "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true
+    },
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️"
   }
 }

@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=SpqXLtgnHLk",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=CRg4b_g1IXc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -84,7 +84,9 @@
       "fingerprint": "8c6da4c1ddd2885a",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_19_isi_aktarim_yollari.tr.txt",
-      "transcriptFingerprint": "8306abb2ef86d11e"
+      "transcriptFingerprint": "2f4ccf0688ff0d7a",
+      "sharedSource": true,
+      "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızını etkileyen faktörler tek ders videosunda birlikte işlenir."
     }
   }
 }

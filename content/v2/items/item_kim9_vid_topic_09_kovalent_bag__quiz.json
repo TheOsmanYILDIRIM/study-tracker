@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_topic_09_kovalent_bag",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=aJzqsKeB2Zs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=xJ6i_sC7Mcc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "895c0a3f6faf371f",
+      "transcriptFingerprint": "34afc097a77c7e1a",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "ace38b2c09957f1c",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_09_kovalent_bag.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir."
     }
   }
 }

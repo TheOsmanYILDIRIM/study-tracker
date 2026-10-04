@@ -7,7 +7,7 @@
   "displayLabel": "1.1",
   "orderKey": 1000,
   "title": "Kimya Bilimi, Günlük Hayat ve Alt Disiplinleri",
-  "contentUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+  "contentUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -16,21 +16,27 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "b65afee766252e02",
+      "fingerprint": "fbb9ce7d3623ac31",
       "sourceWeeks": [
         1
       ],
       "sourceTheme": "ETKİLEŞİM",
       "videoSearchScore": 7.8,
       "videoCandidateTitle": "Günlük Hayatta Kimya + PDF 📌 9.SINIF KİMYA YENİ MÜFREDAT 2025 📌1.ÜNİTE GÜN-1",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=2MItYrH-QPc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VfexRwrzEDA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.tr.vtt",
-      "transcriptFingerprint": "e17c0606ddfc4fc4"
+      "transcriptFingerprint": "68f80db761bd3906",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "provider": "Meschemy Kimya",
-    "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer"
+    "topic": "Kimya Hayattır: Günlük Hayatta Kimya, Alt Disiplinler ve Kariyer",
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️"
   }
 }

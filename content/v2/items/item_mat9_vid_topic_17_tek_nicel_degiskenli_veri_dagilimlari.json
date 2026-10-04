@@ -39,7 +39,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.tr.vtt",
-      "transcriptFingerprint": "b7ba271a128afd1b"
+      "transcriptFingerprint": "b7ba271a128afd1b",
+      "sharedSource": false
     }
   }
 }

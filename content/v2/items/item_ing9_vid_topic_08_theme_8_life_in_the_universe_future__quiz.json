@@ -84,7 +84,8 @@
       "fingerprint": "9cf8cace7a91677a",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.txt",
-      "transcriptFingerprint": "9d0133ea1496c227"
+      "transcriptFingerprint": "9e98300ccf9faa83",
+      "sharedSource": false
     }
   }
 }

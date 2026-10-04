@@ -80,12 +80,13 @@
       "schemaVersion": "v2",
       "fingerprint": "00362f754592c90c",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=bzYN1Ir36u8",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
-      "transcriptFingerprint": "b8f22d58a10084f3",
-      "sharedSource": false
+      "transcriptFingerprint": "75722c04ad981b6c",
+      "sharedSource": true,
+      "sharedSourceReason": "Kapsamlı Deniz Hoca şiir dersi; şiirin yapı unsurları, ahenk ögeleri, dinleme/izleme ve yazma süreçlerini birlikte açıklar."
     }
   }
 }

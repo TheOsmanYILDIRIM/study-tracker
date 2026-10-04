@@ -84,7 +84,8 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu.tr.txt",
-      "transcriptFingerprint": "253cf1c3f80fecce"
+      "transcriptFingerprint": "253cf1c3f80fecce",
+      "sharedSource": false
     }
   }
 }

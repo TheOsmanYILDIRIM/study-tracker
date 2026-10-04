@@ -71,10 +71,10 @@
     },
     "provenance": {
       "derivedFromItemId": "item_mat9_vid_sayi_kumeleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=1GHVanjXGpU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=OLV5wBFLVsU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "426e959c263c3dbc",
+      "transcriptFingerprint": "821e10f9fddb72f8",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -82,7 +82,8 @@
       "schemaVersion": "v2",
       "fingerprint": "29d46fd5d4e85862",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_sayi_kumeleri.tr.txt",
+      "sharedSource": false
     }
   }
 }

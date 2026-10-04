@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_fiz9_vid_basinc_prensipleri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jOKADXphfC8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -84,9 +84,8 @@
       "fingerprint": "51f864878ab87ddf",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
-      "transcriptFingerprint": "f84f31b764e1a206",
-      "sharedSource": true,
-      "sharedSourceReason": "Sıvılarda basınç formülü, özellikleri ve Pascal prensibi konu anlatımı ortak video kapsamı"
+      "transcriptFingerprint": "4492ad0a645fc937",
+      "sharedSource": false
     }
   }
 }

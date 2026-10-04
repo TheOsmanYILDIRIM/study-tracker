@@ -73,7 +73,7 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=jf_8fVa0CRQ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4cbRTAG8M4U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
@@ -83,7 +83,7 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi.tr.txt",
-      "transcriptFingerprint": "9558e6703fcdd696",
+      "transcriptFingerprint": "817ac47059bc76ed",
       "sharedSource": false
     }
   }

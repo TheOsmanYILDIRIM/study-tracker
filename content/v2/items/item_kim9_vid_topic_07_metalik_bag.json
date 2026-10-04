@@ -7,10 +7,10 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Metalik Bağ",
-  "contentUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+  "contentUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Kimya Adası",
+    "provider": "Meschemy Kimya",
     "topic": "Metalik Bağ",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21,17 +21,24 @@
       "sourceTopic": [
         "Etkileşimler • Metalik Bağ"
       ],
-      "reviewStatus": "needs_review",
+      "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "93a0fad38719f363",
+      "fingerprint": "6ef27824e6c71dc0",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=r80DLJNK-Tg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_07_metalik_bag.tr.tr.vtt",
-      "transcriptFingerprint": "bef8bd6ebb81bf54"
-    }
+      "transcriptFingerprint": "92b98bc529a7d5ec",
+      "provider": "Meschemy Kimya",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true,
+      "sharedSource": true,
+      "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir."
+    },
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️"
   }
 }

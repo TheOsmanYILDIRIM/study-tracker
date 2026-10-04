@@ -7,10 +7,10 @@
   "displayLabel": "17.1",
   "orderKey": 1000,
   "title": "Hâl Değişimi",
-  "contentUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+  "contentUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Fizikfinito",
+    "provider": "Özcan Aykın FİZİK",
     "topic": "Hâl Değişimi",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,16 +25,21 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.05,
       "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
-      "fingerprint": "bf529ca0f714752e",
+      "fingerprint": "b88edeaf7966ca77",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.tr.vtt",
-      "transcriptFingerprint": "751b67c63da7e410",
+      "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Maddenin hâl değişimi (erime, donma, buharlaşma, yoğuşma) ve hâl değişim grafikleri ortak video kapsamı"
-    }
+      "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
+      "provider": "Özcan Aykın FİZİK",
+      "teacher": "Özcan Aykın FİZİK",
+      "reviewedOverride": true
+    },
+    "teacher": "Özcan Aykın FİZİK",
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026"
   }
 }
