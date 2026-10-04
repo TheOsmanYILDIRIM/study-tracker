@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
-      "transcriptFingerprint": "b942c35900634519"
+      "transcriptFingerprint": "b942c35900634519",
+      "sharedSource": true,
+      "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı"
     }
   }
 }

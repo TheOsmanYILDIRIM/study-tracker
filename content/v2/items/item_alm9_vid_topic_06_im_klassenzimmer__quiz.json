@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "f0e72b767fd8d70b",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
     }
   }
 }

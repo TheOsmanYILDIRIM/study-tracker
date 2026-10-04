@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
-      "transcriptFingerprint": "ce3abaffa6c6dffb"
+      "transcriptFingerprint": "ce3abaffa6c6dffb",
+      "sharedSource": true,
+      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
     }
   }
 }

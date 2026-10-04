@@ -5893,7 +5893,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.txt",
                   "transcriptFingerprint": "f84f31b764e1a206",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı"
                 },
                 "teacher": "Özcan Aykın FİZİK",
                 "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026"
@@ -5983,7 +5985,9 @@
                   "fingerprint": "80dc2cf46868c5ed",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.txt",
-                  "transcriptFingerprint": "f84f31b764e1a206"
+                  "transcriptFingerprint": "f84f31b764e1a206",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı"
                 }
               }
             }
@@ -6019,7 +6023,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
                   "transcriptFingerprint": "f84f31b764e1a206",
-                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt"
+                  "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı"
                 },
                 "provider": "Özcan Aykın FİZİK",
                 "teacher": "Özcan Aykın FİZİK",
@@ -6110,7 +6116,9 @@
                   "fingerprint": "51f864878ab87ddf",
                   "groundingType": "transcript_grounded",
                   "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
-                  "transcriptFingerprint": "f84f31b764e1a206"
+                  "transcriptFingerprint": "f84f31b764e1a206",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı"
                 }
               }
             },
@@ -14167,7 +14175,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.tr.vtt",
-                  "transcriptFingerprint": "76cabd323bdcaa9e"
+                  "transcriptFingerprint": "76cabd323bdcaa9e",
+                  "sharedSource": true,
+                  "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı"
                 },
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk (Hammurabi, Hitit Kanunları)"
@@ -14257,7 +14267,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk.tr.txt",
-                  "transcriptFingerprint": "76cabd323bdcaa9e"
+                  "transcriptFingerprint": "76cabd323bdcaa9e",
+                  "sharedSource": true,
+                  "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı"
                 }
               }
             }
@@ -14305,7 +14317,7 @@
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.tr.vtt",
                   "transcriptFingerprint": "76cabd323bdcaa9e",
                   "sharedSource": true,
-                  "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat ortak video kapsamı"
+                  "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı"
                 },
                 "teacher": "Mehmet Celal ÖZYILDIZ",
                 "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk, İnanç, Bilim ve Sanat"
@@ -14395,7 +14407,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat.tr.txt",
-                  "transcriptFingerprint": "76cabd323bdcaa9e"
+                  "transcriptFingerprint": "76cabd323bdcaa9e",
+                  "sharedSource": true,
+                  "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı"
                 }
               }
             }
@@ -20817,7 +20831,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.tr.vtt",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7"
+                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -20908,7 +20924,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "e477067137f66f91",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 }
               }
             },
@@ -21057,7 +21075,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.tr.vtt",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7"
+                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 },
                 "provider": "Almanca Kolay (Erhan Özdemir)",
                 "reviewStatus": "verified",
@@ -21148,7 +21168,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "5a3a147241f7589b",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 }
               }
             },
@@ -21727,7 +21749,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.tr.vtt",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7"
+                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -21817,7 +21841,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "f0e72b767fd8d70b",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 }
               }
             }
@@ -22235,7 +22261,9 @@
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.tr.vtt",
                   "transcriptFingerprint": "ca9fa7525984ad57",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "sharedSource": true,
+                  "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true,
@@ -22327,7 +22355,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "63703df717ecd477",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_09_familie_und_familienmitglieder.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
                 }
               }
             }
@@ -22373,7 +22403,9 @@
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.tr.vtt",
                   "transcriptFingerprint": "ca9fa7525984ad57",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "sharedSource": true,
+                  "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true,
@@ -22465,7 +22497,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "f44960e4fb617ffd",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_10_berufe.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı"
                 }
               }
             }
@@ -22792,7 +22826,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
-                  "transcriptFingerprint": "e1ccaec372a5b2e7"
+                  "transcriptFingerprint": "e1ccaec372a5b2e7",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 },
                 "reviewStatus": "verified",
                 "reviewedOverride": true
@@ -22882,7 +22918,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "9a81eb4ed1648ff3",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
                 }
               }
             }
@@ -23016,7 +23054,9 @@
                   "schemaVersion": "v2",
                   "fingerprint": "f196dc4fb7af0ee9",
                   "groundingType": "transcript_grounded",
-                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt"
+                  "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 }
               }
             },
@@ -23043,7 +23083,9 @@
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt",
                   "transcriptFingerprint": "ce3abaffa6c6dffb",
                   "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.tr.vtt",
-                  "reviewedOverride": true
+                  "reviewedOverride": true,
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 },
                 "provider": "Deniz Hoca",
                 "teacher": "Deniz Hoca",
@@ -23134,7 +23176,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_edebiyat_guzel_sanatlar.tr.txt",
-                  "transcriptFingerprint": "ce3abaffa6c6dffb"
+                  "transcriptFingerprint": "ce3abaffa6c6dffb",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 }
               }
             },
@@ -23364,7 +23408,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm.tr.txt",
-                  "transcriptFingerprint": "ce3abaffa6c6dffb"
+                  "transcriptFingerprint": "ce3abaffa6c6dffb",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 }
               }
             }
@@ -23672,7 +23718,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "b942c35900634519"
+                  "transcriptFingerprint": "b942c35900634519",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı"
                 }
               }
             },
@@ -23760,7 +23808,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
-                  "transcriptFingerprint": "b942c35900634519"
+                  "transcriptFingerprint": "b942c35900634519",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı"
                 }
               }
             },
@@ -23900,7 +23950,9 @@
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.tr.vtt",
-                  "transcriptFingerprint": "b942c35900634519"
+                  "transcriptFingerprint": "b942c35900634519",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı"
                 }
               }
             },
@@ -23988,7 +24040,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.txt",
-                  "transcriptFingerprint": "b942c35900634519"
+                  "transcriptFingerprint": "b942c35900634519",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı"
                 }
               }
             }
@@ -24123,7 +24177,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme.tr.txt",
-                  "transcriptFingerprint": "ce3abaffa6c6dffb"
+                  "transcriptFingerprint": "ce3abaffa6c6dffb",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 }
               }
             }
@@ -24260,7 +24316,9 @@
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_08_anlam_arayisi_siir_yazma.tr.txt",
-                  "transcriptFingerprint": "ce3abaffa6c6dffb"
+                  "transcriptFingerprint": "ce3abaffa6c6dffb",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı"
                 }
               }
             }

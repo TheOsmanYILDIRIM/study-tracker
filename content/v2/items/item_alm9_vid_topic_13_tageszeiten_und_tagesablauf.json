@@ -37,7 +37,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_13_tageszeiten_und_tagesablauf.tr.tr.vtt",
-      "transcriptFingerprint": "e1ccaec372a5b2e7"
+      "transcriptFingerprint": "e1ccaec372a5b2e7",
+      "sharedSource": true,
+      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true

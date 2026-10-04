@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "e477067137f66f91",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_kendini_tanitma.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
     }
   }
 }

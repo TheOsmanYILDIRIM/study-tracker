@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "5a3a147241f7589b",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_ulkeler_diller.tr.txt",
+      "sharedSource": true,
+      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı"
     }
   }
 }
