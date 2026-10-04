@@ -75,18 +75,17 @@
       "derivedFromItemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
-      "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
-      "fingerprint": "d594dc493be8f07e",
+      "fingerprint": "ce14f20d44f7eb63",
       "groundingType": "transcript_grounded",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
-      "transcriptFingerprint": "6c10ab237e962c46",
-      "sharedSource": false,
-      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+      "transcriptFingerprint": "058d72c32401f2db",
+      "sharedSource": true,
+      "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
     }
   }
 }

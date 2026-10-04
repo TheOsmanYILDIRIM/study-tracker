@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-  "contentUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+  "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Ardıç Tarih",
+    "provider": "Benim Hocam",
     "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -27,20 +27,19 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "62f8726e32ec4f1b",
+      "fingerprint": "7092d9f4bc22cd46",
       "schemaVersion": "v2",
-      "reviewedOverride": true,
       "teacher": "Mehmet Celal ÖZYILDIZ",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
-      "transcriptFingerprint": "12da589d04587aed",
-      "sharedSource": false,
-      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+      "transcriptFingerprint": "058d72c32401f2db",
+      "sharedSource": true,
+      "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
     },
-    "teacher": "Ardıç Tarih",
-    "verifiedLectureTitle": "9.sınıf tarih 3. Ünite 2. Bölüm I Orta Çağ’daki Siyasi ve Askerî Gelişmeler 1/ Zeduva maarif model"
+    "teacher": "Mehmet Celal ÖZYILDIZ",
+    "verifiedLectureTitle": "12) Orta Çağ’da Avrupa | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027"
   }
 }

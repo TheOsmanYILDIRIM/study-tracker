@@ -14830,10 +14830,10 @@
               "displayLabel": "10.1",
               "orderKey": 1000,
               "title": "Orta Çağ'da Kitlesel Göçler",
-              "contentUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Ardıç Tarih",
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ'da Kitlesel Göçler",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -14848,21 +14848,20 @@
                   "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
-                  "fingerprint": "1c579ba988d26132",
+                  "fingerprint": "dd2f8b8b54d276da",
                   "schemaVersion": "v2",
-                  "reviewedOverride": true,
                   "teacher": "Mehmet Celal ÖZYILDIZ",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.tr.vtt",
-                  "transcriptFingerprint": "6c10ab237e962c46",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 },
-                "teacher": "Ardıç Tarih",
-                "verifiedLectureTitle": "9.sınıf tarih 3. Ünite 1. Bölüm I Orta Çağ’da Kitlesel Göçler / Zeduva maarif model"
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ’da Avrupa | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027"
               }
             },
             {
@@ -14940,18 +14939,17 @@
                   "derivedFromItemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
-                  "fingerprint": "d594dc493be8f07e",
+                  "fingerprint": "ce14f20d44f7eb63",
                   "groundingType": "transcript_grounded",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
-                  "transcriptFingerprint": "6c10ab237e962c46",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 }
               }
             }
@@ -14970,10 +14968,10 @@
               "displayLabel": "11.1",
               "orderKey": 1000,
               "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
-              "contentUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Ardıç Tarih",
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ Devletlerinde Yönetim ve Ordu",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -14990,21 +14988,20 @@
                   "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
-                  "fingerprint": "62f8726e32ec4f1b",
+                  "fingerprint": "7092d9f4bc22cd46",
                   "schemaVersion": "v2",
-                  "reviewedOverride": true,
                   "teacher": "Mehmet Celal ÖZYILDIZ",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.tr.vtt",
-                  "transcriptFingerprint": "12da589d04587aed",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 },
-                "teacher": "Ardıç Tarih",
-                "verifiedLectureTitle": "9.sınıf tarih 3. Ünite 2. Bölüm I Orta Çağ’daki Siyasi ve Askerî Gelişmeler 1/ Zeduva maarif model"
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ’da Avrupa | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027"
               }
             },
             {
@@ -15082,18 +15079,17 @@
                   "derivedFromItemId": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
-                  "fingerprint": "220021dc359d8149",
+                  "fingerprint": "49df4f56963d9467",
                   "groundingType": "transcript_grounded",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu.tr.txt",
-                  "transcriptFingerprint": "12da589d04587aed",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 }
               }
             }
@@ -15122,16 +15118,16 @@
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
                   "reviewStatus": "verified",
-                  "fingerprint": "65523afb0a6483eb",
-                  "reviewedOverride": true,
+                  "fingerprint": "e72f5990d3ff0ec0",
                   "teacher": "Mehmet Celal ÖZYILDIZ",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.tr.vtt",
-                  "transcriptFingerprint": "4cda05dbcaa616a7",
-                  "sharedSource": false
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 },
                 "provider": "Benim Hocam",
                 "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler"
@@ -15212,17 +15208,17 @@
                   "derivedFromItemId": "item_tar9_vid_orta_cag_gocler_devletler",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
-                  "fingerprint": "1b85ce56f62371b5",
+                  "fingerprint": "3fb6d9c1b5fa6980",
                   "groundingType": "transcript_grounded",
                   "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
-                  "transcriptFingerprint": "4cda05dbcaa616a7",
-                  "sharedSource": false
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 }
               }
             },
@@ -15460,10 +15456,10 @@
               "displayLabel": "13.1",
               "orderKey": 1000,
               "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
-              "contentUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+              "contentUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Ardıç Tarih",
+                "provider": "Benim Hocam",
                 "topic": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -15480,21 +15476,20 @@
                   "reviewStatus": "verified",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
-                  "fingerprint": "938683d6cd434189",
+                  "fingerprint": "b7285e00d1d28eaf",
                   "schemaVersion": "v2",
-                  "reviewedOverride": true,
                   "teacher": "Mehmet Celal ÖZYILDIZ",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
                   "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.tr.vtt",
-                  "transcriptFingerprint": "7ae4826cded28498",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 },
-                "teacher": "Ardıç Tarih",
-                "verifiedLectureTitle": "9.Sınıf Tarih - Orta Çağda Bilim Kültür Sanat📌Yeni Müfredat Tarih"
+                "teacher": "Mehmet Celal ÖZYILDIZ",
+                "verifiedLectureTitle": "12) Orta Çağ’da Avrupa | YKS-Tarih | Mehmet Celal ÖZYILDIZ - 2027"
               }
             },
             {
@@ -15572,18 +15567,17 @@
                   "derivedFromItemId": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
                   "generatedBy": "gemini",
                   "reviewStatus": "verified",
-                  "reviewedOverride": true,
                   "importedAt": "2026-10-03T21:00:00.000Z",
                   "schemaVersion": "v2",
-                  "fingerprint": "9aabec52612a61c8",
+                  "fingerprint": "d9e267ce44317622",
                   "groundingType": "transcript_grounded",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
                   "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana.tr.txt",
-                  "transcriptFingerprint": "7ae4826cded28498",
-                  "sharedSource": false,
-                  "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+                  "transcriptFingerprint": "058d72c32401f2db",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
                 }
               }
             }

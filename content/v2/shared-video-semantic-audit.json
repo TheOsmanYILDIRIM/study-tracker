@@ -6,7 +6,7 @@
     "MIXED_NEEDS_SPLIT": 7,
     "WRONG_SHARED": 1
   },
-  "totalReplacementsMade": 19,
+  "totalReplacementsMade": 16,
   "groups": [
     {
       "groupIndex": 1,
@@ -16,7 +16,7 @@
       "courseId": "course_tar_9",
       "itemCount": 5,
       "verdict": "MIXED_NEEDS_SPLIT",
-      "verdictRationale": "Video Batı Avrupa feodalitesi, Kavimler Göçü'nün sonuçları, Skolastik düşünce ve Haçlı Seferlerine odaklıdır; Orta Çağ ticaret yolları, Orta Asya/kitlesel göçler, farklı medeniyet havzalarında bilim/sanat ve İslam/Doğu ordu teşkilatını kapsamamaktadır. Bu nedenle yalnızca Kavimler Göçü & Feodalizm öğesi desteklenmektedir, diğer 4 öğe müstakil videolara ayrılmıştır.",
+      "verdictRationale": "Mehmet Celal ÖZYILDIZ (7mvoe1vHDqo) dersi Kavimler Göçü (kitlesel göçler), Feodal yönetim/ordular ve Skolastik düşünce/kültür etkileşimini tam kapsamaktadır. Bu 4 öğe Mehmet Celal kanonik videosu ile birleştirilmiştir. Yalnızca İpek/Baharat/Kürk ticaret yolları ve pazar mekanları çalma listesinde müstakil yer almadığından Ardıç Tarih (s7VPaPvveVc) özel inceleme istisnası olarak ayrılmıştır.",
       "items": [
         {
           "itemId": "item_tar9_vid_orta_cag_gocler_devletler",
@@ -26,51 +26,52 @@
           "evidence": "Kavimler Göçü (375), Roma'nın bölünmesi, feodalite/derebeylik yapısı (süzeren, vassal, serf, şato) ve skolastik kilise baskısı kapsamlıca anlatılmaktadır."
         },
         {
-          "itemId": "item_tar9_vid_orta_cag_ticaret_yollari",
-          "itemTitle": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
-          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
-          "classification": "NOT_COVERED",
-          "evidence": "İpek, Baharat ve Kürk yollarının güzergahları, ticaret kervanları, ribat/kervansaraylar videoda yer almamaktadır.",
-          "replacement": {
-            "newUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
-            "channel": "Ardıç Tarih",
-            "title": "9.sınıf tarih 3. Ünite - Orta Çağ’da Ticaret Yolları/ Zeduva maarif model"
-          }
-        },
-        {
           "itemId": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
           "itemTitle": "Orta Çağ'da Kitlesel Göçler",
           "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
-          "classification": "PARTIALLY_COVERED",
-          "evidence": "Kavimler Göçü Avrupa tarihi ekseninde geçmektedir ancak Orta Çağ kitlesel göçlerinin genel yapısı ve diğer göç hareketleri kapsanmamaktadır.",
-          "replacement": {
-            "newUrl": "https://www.youtube.com/watch?v=xgZZGhZ7QkU",
-            "channel": "Ardıç Tarih",
-            "title": "9.sınıf tarih 3. Ünite 1. Bölüm I Orta Çağ’da Kitlesel Göçler / Zeduva maarif model"
+          "classification": "FULLY_COVERED",
+          "evidence": "Kavimler Göçü (Hunların Karadeniz kuzeyinden ilerleyişi, Vizigot, Ostrogot, Frank, Vandal göçleri ve Roma sınırlarının çöküşü) transkriptte (00:00-05:00) ayrıntılı öğretilmektedir.",
+          "canonicalRestored": {
+            "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+            "teacher": "Mehmet Celal ÖZYILDIZ",
+            "channel": "Benim Hocam"
           }
         },
         {
           "itemId": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
           "itemTitle": "Orta Çağ Devletlerinde Yönetim ve Ordu",
           "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
-          "classification": "PARTIALLY_COVERED",
-          "evidence": "Feodalite şövalyeleri ve derebeylik ordusu kısaca geçmektedir; genel Orta Çağ devlet teşkilatı ve askeri organizasyonlar işlenmemiştir.",
-          "replacement": {
-            "newUrl": "https://www.youtube.com/watch?v=qJcA1vcDfqc",
-            "channel": "Ardıç Tarih",
-            "title": "9.sınıf tarih 3. Ünite 2. Bölüm I Orta Çağ’daki Siyasi ve Askerî Gelişmeler 1/ Zeduva maarif model"
+          "classification": "FULLY_COVERED",
+          "evidence": "Feodal yönetim piramidi, süzeren-vassal sözleşmesi, kral ve kilisenin siyasi gücü, şövalye orduları ve Yüzyıl Savaşları transkriptte (05:00-33:00) işlenmektedir.",
+          "canonicalRestored": {
+            "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+            "teacher": "Mehmet Celal ÖZYILDIZ",
+            "channel": "Benim Hocam"
           }
         },
         {
           "itemId": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
           "itemTitle": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
           "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "classification": "FULLY_COVERED",
+          "evidence": "Skolastik düşünce, kilisenin bilimsel dogmaları ve Haçlı Seferleri ile Doğu'dan barut, pusula, kağıt ve matbaanın Avrupa'ya geçişi transkriptte (17:00-25:00 ve 38:00-44:00) öğretilmektedir.",
+          "canonicalRestored": {
+            "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+            "teacher": "Mehmet Celal ÖZYILDIZ",
+            "channel": "Benim Hocam"
+          }
+        },
+        {
+          "itemId": "item_tar9_vid_orta_cag_ticaret_yollari",
+          "itemTitle": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
           "classification": "NOT_COVERED",
-          "evidence": "Skolastik düşünce ve Rönesans'a atıf yapılmakta ancak İslam, Sasani ve Doğu havzalarında bilim, felsefe ve sanat işlenmemektedir.",
+          "evidence": "İpek, Baharat ve Kürk yollarının coğrafi güzergahları ve ticaret mekanları Mehmet Celal çalma listesinde yer almadığından müfredat odaklı Ardıç Tarih videosu kullanılmıştır.",
           "replacement": {
-            "newUrl": "https://www.youtube.com/watch?v=QItqSN9EUEI",
+            "newUrl": "https://www.youtube.com/watch?v=s7VPaPvveVc",
             "channel": "Ardıç Tarih",
-            "title": "9.Sınıf Tarih - Orta Çağda Bilim Kültür Sanat📌Yeni Müfredat Tarih"
+            "title": "9.sınıf tarih 3. Ünite - Orta Çağ’da Ticaret Yolları/ Zeduva maarif model",
+            "reviewedOverride": true
           }
         }
       ]

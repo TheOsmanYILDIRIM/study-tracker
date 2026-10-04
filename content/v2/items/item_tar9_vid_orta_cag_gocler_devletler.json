@@ -17,16 +17,16 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "65523afb0a6483eb",
-      "reviewedOverride": true,
+      "fingerprint": "e72f5990d3ff0ec0",
       "teacher": "Mehmet Celal ÖZYILDIZ",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_gocler_devletler.tr.tr.vtt",
-      "transcriptFingerprint": "4cda05dbcaa616a7",
-      "sharedSource": false
+      "transcriptFingerprint": "058d72c32401f2db",
+      "sharedSource": true,
+      "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
     },
     "provider": "Benim Hocam",
     "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler"
