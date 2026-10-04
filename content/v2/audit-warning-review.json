@@ -1,0 +1,1693 @@
+{
+  "generatedAt": "2026-10-04T08:40:01.075Z",
+  "totalRawWarnings": 32,
+  "classificationSummary": {
+    "false_positive": 32,
+    "obsolete_metadata": 0,
+    "real_content_issue": 0,
+    "intentional_policy_warning": 0
+  },
+  "actionTaken": "Enhanced validateSeed to distinguish legitimate intentional shared sources (where all items have sharedSource=true and sharedSourceReason) from unreviewed duplicate reuses and ambiguous URLs.",
+  "warnings": [
+    {
+      "warningIndex": 1,
+      "url": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "itemCount": 2,
+      "itemIds": [
+        "item_mat9_vid_cebirsel_ispat",
+        "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_"
+      ],
+      "titles": [
+        "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
+        "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Gerçek sayıların işlem özellikleri ve cebirsel ispat yöntemleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Gerçek sayıların işlem özellikleri ve cebirsel ispat yöntemleri ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_mat9_vid_cebirsel_ispat",
+          "stableKey": "mat9_vid_cebirsel_ispat",
+          "courseId": "course_mat_9",
+          "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+          "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
+          "provider": "Rehber Matematik",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Gerçek sayıların işlem özellikleri ve cebirsel ispat yöntemleri ortak video kapsamı",
+          "transcriptFingerprint": "1184ee0b138df4fd",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+          "stableKey": "mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+          "courseId": "course_mat_9",
+          "lessonId": "lesson_mat9_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+          "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+          "provider": "Rehber Matematik",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Gerçek sayıların işlem özellikleri ve cebirsel ispat yöntemleri ortak video kapsamı",
+          "transcriptFingerprint": "1184ee0b138df4fd",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 2,
+      "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "itemCount": 2,
+      "itemIds": [
+        "item_mat9_vid_topic_09_geometrik_donusumler",
+        "item_mat9_vid_geometrik_donusumler"
+      ],
+      "titles": [
+        "Geometrik Dönüşümler",
+        "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Geometrik dönüşümler (öteleme, yansıma, dönme) ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Geometrik dönüşümler (öteleme, yansıma, dönme) ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_mat9_vid_topic_09_geometrik_donusumler",
+          "stableKey": "mat9_vid_topic_09_geometrik_donusumler",
+          "courseId": "course_mat_9",
+          "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+          "title": "Geometrik Dönüşümler",
+          "provider": "Rehber Matematik",
+          "teacher": "Rehber Matematik",
+          "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+          "sharedSource": true,
+          "sharedSourceReason": "Geometrik dönüşümler (öteleme, yansıma, dönme) ortak video kapsamı",
+          "transcriptFingerprint": "2ad01955011f72cc",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_mat9_vid_geometrik_donusumler",
+          "stableKey": "mat9_vid_geometrik_donusumler",
+          "courseId": "course_mat_9",
+          "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+          "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
+          "provider": "Rehber Matematik",
+          "teacher": "Rehber Matematik",
+          "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
+          "sharedSource": true,
+          "sharedSourceReason": "Geometrik dönüşümler (öteleme, yansıma, dönme) ortak video kapsamı",
+          "transcriptFingerprint": "2ad01955011f72cc",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 3,
+      "url": "https://www.youtube.com/watch?v=1Hg2eF907YA",
+      "itemCount": 3,
+      "itemIds": [
+        "item_fiz9_vid_topic_01_fizik_bilimi",
+        "item_fiz9_vid_alt_dallar",
+        "item_fiz9_vid_fizik_giris"
+      ],
+      "titles": [
+        "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
+        "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
+        "Fizik Bilimine Giriş (Temel Prensipler ve Alt Dallar)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_topic_01_fizik_bilimi",
+          "stableKey": "fiz9_vid_topic_01_fizik_bilimi",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_01_fizik_bilimi",
+          "title": "Fizik Bilimi (Fizik Nedir, Doğa Olayları ve Bilimsel Yöntem)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı",
+          "transcriptFingerprint": "950a6c9a5591fd65",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_alt_dallar",
+          "stableKey": "fiz9_vid_alt_dallar",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_02_fizik_biliminin_alt_dallari",
+          "title": "Fiziğin Alt Dalları ve Bilim Araştırma Merkezleri",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı",
+          "transcriptFingerprint": "950a6c9a5591fd65",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_fizik_giris",
+          "stableKey": "fiz9_vid_fizik_giris",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_fizik_bilimine_giris",
+          "title": "Fizik Bilimine Giriş (Temel Prensipler ve Alt Dallar)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Fizik bilimine giriş, fiziğin alt dalları ve bilimsel yöntem konusu ortak video kapsamı",
+          "transcriptFingerprint": "950a6c9a5591fd65",
+          "reviewStatus": "curated"
+        }
+      ]
+    },
+    {
+      "warningIndex": 4,
+      "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "itemCount": 2,
+      "itemIds": [
+        "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+        "item_fiz9_vid_vektorler"
+      ],
+      "titles": [
+        "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
+        "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+          "stableKey": "fiz9_vid_topic_05_temel_ve_turetilmis_nicelikler",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_05_temel_ve_turetilmis_nicelikler",
+          "title": "Temel ve Türetilmiş Nicelikler (SI Birim Sistemi & KISA MUZ)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı",
+          "transcriptFingerprint": "532569ac8750adbf",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_vektorler",
+          "stableKey": "fiz9_vid_vektorler",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+          "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Temel, türetilmiş, skaler ve vektörel fiziksel nicelikler ortak video kapsamı",
+          "transcriptFingerprint": "532569ac8750adbf",
+          "reviewStatus": "curated"
+        }
+      ]
+    },
+    {
+      "warningIndex": 5,
+      "url": "https://www.youtube.com/watch?v=dkwbOGhBedc",
+      "itemCount": 2,
+      "itemIds": [
+        "item_fiz9_vid_topic_11_sivilarda_basinc",
+        "item_fiz9_vid_basinc_prensipleri"
+      ],
+      "titles": [
+        "Sıvılarda Basınç ve Pascal Prensibi",
+        "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_topic_11_sivilarda_basinc",
+          "stableKey": "fiz9_vid_topic_11_sivilarda_basinc",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_11_sivilarda_basinc",
+          "title": "Sıvılarda Basınç ve Pascal Prensibi",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": "Özcan Aykın FİZİK",
+          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026",
+          "sharedSource": true,
+          "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı",
+          "transcriptFingerprint": "f84f31b764e1a206",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_basinc_prensipleri",
+          "stableKey": "fiz9_vid_basinc_prensipleri",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+          "title": "Katı, Sıvı ve Gaz Basıncı (Pascal, Torricelli ve Manometreler)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": "Özcan Aykın FİZİK",
+          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 31. Gün | Basınç - 2 | Sıvı Basıncı - 1 | 2026",
+          "sharedSource": true,
+          "sharedSourceReason": "Sıvılarda basınç, basınç kuvveti ve Pascal prensibi ortak video kapsamı",
+          "transcriptFingerprint": "f84f31b764e1a206",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 6,
+      "url": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
+      "itemCount": 2,
+      "itemIds": [
+        "item_fiz9_vid_kaldirma_kuvveti",
+        "item_fiz9_vid_topic_13_kaldirma_kuvveti"
+      ],
+      "titles": [
+        "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
+        "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_kaldirma_kuvveti",
+          "stableKey": "fiz9_vid_kaldirma_kuvveti",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_akiskanlar_ve_basinc",
+          "title": "Sıvıların Kaldırma Kuvveti ve Arşimet Prensibi",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": "Özcan Aykın FİZİK",
+          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "sharedSource": true,
+          "sharedSourceReason": "Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı",
+          "transcriptFingerprint": "c16d306cf7d143df",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_topic_13_kaldirma_kuvveti",
+          "stableKey": "fiz9_vid_topic_13_kaldirma_kuvveti",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_13_kaldirma_kuvveti",
+          "title": "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": "Özcan Aykın FİZİK",
+          "verifiedLectureTitle": "55 Günde TYT Fizik Kampı | 35. Gün | Kaldırma Kuvveti - 1 | 2026",
+          "sharedSource": true,
+          "sharedSourceReason": "Sıvıların kaldırma kuvveti ve Arşimet prensibi ortak video kapsamı",
+          "transcriptFingerprint": "c16d306cf7d143df",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 7,
+      "url": "https://www.youtube.com/watch?v=Lj_tsZ3QKWM",
+      "itemCount": 2,
+      "itemIds": [
+        "item_fiz9_vid_isi_sicaklik_kavram",
+        "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi"
+      ],
+      "titles": [
+        "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
+        "Isı, Öz Isı ve Isı Sığası"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (İç enerji, ısı, sıcaklık, öz ısı ve ısı sığası kavramları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "İç enerji, ısı, sıcaklık, öz ısı ve ısı sığası kavramları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_isi_sicaklik_kavram",
+          "stableKey": "fiz9_vid_isi_sicaklik_kavram",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+          "title": "İç Enerji, Isı ve Sıcaklık Kavramları ile Termometreler",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "İç enerji, ısı, sıcaklık, öz ısı ve ısı sığası kavramları ortak video kapsamı",
+          "transcriptFingerprint": "55aad1981b5f804a",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+          "stableKey": "fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_16_isi_oz_isi_ve_isi_sigasi",
+          "title": "Isı, Öz Isı ve Isı Sığası",
+          "provider": "Fizikfinito",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "İç enerji, ısı, sıcaklık, öz ısı ve ısı sığası kavramları ortak video kapsamı",
+          "transcriptFingerprint": "55aad1981b5f804a",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 8,
+      "url": "https://www.youtube.com/watch?v=BZ4muY8Bc1Y",
+      "itemCount": 2,
+      "itemIds": [
+        "item_fiz9_vid_hal_degisimi",
+        "item_fiz9_vid_topic_17_hal_degisimi"
+      ],
+      "titles": [
+        "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
+        "Hâl Değişimi"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Hâl değişimi ve sıcaklık grafikleri konusu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Hâl değişimi ve sıcaklık grafikleri konusu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_fiz9_vid_hal_degisimi",
+          "stableKey": "fiz9_vid_hal_degisimi",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_enerji_isi_sicaklik",
+          "title": "Hâl Değişimi, Isıl Denge ve Isı Aktarım Yolları",
+          "provider": "Özcan Aykın FİZİK",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Hâl değişimi ve sıcaklık grafikleri konusu ortak video kapsamı",
+          "transcriptFingerprint": "751b67c63da7e410",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_fiz9_vid_topic_17_hal_degisimi",
+          "stableKey": "fiz9_vid_topic_17_hal_degisimi",
+          "courseId": "course_fiz_9",
+          "lessonId": "lesson_fiz9_topic_17_hal_degisimi",
+          "title": "Hâl Değişimi",
+          "provider": "Fizikfinito",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Hâl değişimi ve sıcaklık grafikleri konusu ortak video kapsamı",
+          "transcriptFingerprint": "751b67c63da7e410",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 9,
+      "url": "https://www.youtube.com/watch?v=vM33JUDUUUM",
+      "itemCount": 2,
+      "itemIds": [
+        "item_kim9_vid_guvenlik_sembolleri",
+        "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik"
+      ],
+      "titles": [
+        "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
+        "Kimyasal Maddelerin Kullanımı ve Güvenlik"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_kim9_vid_guvenlik_sembolleri",
+          "stableKey": "kim9_vid_guvenlik_sembolleri",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_kimya_bilimi_guvenlik",
+          "title": "Laboratuvar Güvenlik Kuralları ve Uyarı Piktogramları",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı",
+          "transcriptFingerprint": "ed0db4f712979546",
+          "reviewStatus": "needs_review"
+        },
+        {
+          "id": "item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+          "stableKey": "kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik",
+          "title": "Kimyasal Maddelerin Kullanımı ve Güvenlik",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kimya laboratuvarı güvenlik kuralları ve uyarı piktogramları ortak video kapsamı",
+          "transcriptFingerprint": "ed0db4f712979546",
+          "reviewStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "warningIndex": 10,
+      "url": "https://www.youtube.com/watch?v=5wTqs5bYmIM",
+      "itemCount": 2,
+      "itemIds": [
+        "item_kim9_vid_periyodik_ozellikler",
+        "item_kim9_vid_topic_06_periyodik_ozellikler"
+      ],
+      "titles": [
+        "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
+        "Periyodik Özellikler"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_kim9_vid_periyodik_ozellikler",
+          "stableKey": "kim9_vid_periyodik_ozellikler",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_atom_ve_periyodik_sistem",
+          "title": "Modern Atom Teorisi ve Periyodik Özelliklerin Değişimi",
+          "provider": "Kimya Adası",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı",
+          "transcriptFingerprint": "6ce56406f481cfb3",
+          "reviewStatus": "needs_review"
+        },
+        {
+          "id": "item_kim9_vid_topic_06_periyodik_ozellikler",
+          "stableKey": "kim9_vid_topic_06_periyodik_ozellikler",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_06_periyodik_ozellikler",
+          "title": "Periyodik Özellikler",
+          "provider": "Kimya Adası",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Periyodik tabloda atom çapı, iyonlaşma enerjisi ve elektronegatiflik değişimi ortak video kapsamı",
+          "transcriptFingerprint": "6ce56406f481cfb3",
+          "reviewStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "warningIndex": 11,
+      "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "itemCount": 2,
+      "itemIds": [
+        "item_kim9_vid_topic_08_iyonik_bag",
+        "item_kim9_vid_bag_turleri"
+      ],
+      "titles": [
+        "İyonik Bağ",
+        "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_kim9_vid_topic_08_iyonik_bag",
+          "stableKey": "kim9_vid_topic_08_iyonik_bag",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_08_iyonik_bag",
+          "title": "İyonik Bağ",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı",
+          "transcriptFingerprint": "e0e330ee30a12087",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_kim9_vid_bag_turleri",
+          "stableKey": "kim9_vid_bag_turleri",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+          "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kimyasal türler arası güçlü etkileşimler ve iyonik bağ oluşumu ortak video kapsamı",
+          "transcriptFingerprint": "e0e330ee30a12087",
+          "reviewStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "warningIndex": 12,
+      "url": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "itemCount": 2,
+      "itemIds": [
+        "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+        "item_kim9_vid_katilar_ve_sivilar"
+      ],
+      "titles": [
+        "Katılar ve Özellikleri",
+        "Katı Türleri (Amorf, Kristal) ve Sıvılarda Viskozite"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Katı türleri (amorf ve kristal katılar) ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Katı türleri (amorf ve kristal katılar) ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_kim9_vid_topic_14_katilar_ve_ozellikleri",
+          "stableKey": "kim9_vid_topic_14_katilar_ve_ozellikleri",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_topic_14_katilar_ve_ozellikleri",
+          "title": "Katılar ve Özellikleri",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Katı türleri (amorf ve kristal katılar) ortak video kapsamı",
+          "transcriptFingerprint": "384dfc22c8b7c3e0",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_kim9_vid_katilar_ve_sivilar",
+          "stableKey": "kim9_vid_katilar_ve_sivilar",
+          "courseId": "course_kim_9",
+          "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+          "title": "Katı Türleri (Amorf, Kristal) ve Sıvılarda Viskozite",
+          "provider": "Meschemy Kimya",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Katı türleri (amorf ve kristal katılar) ortak video kapsamı",
+          "transcriptFingerprint": "384dfc22c8b7c3e0",
+          "reviewStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "warningIndex": 13,
+      "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "itemCount": 2,
+      "itemIds": [
+        "item_biyo9_vid_topic_08_enzimler",
+        "item_biyo9_vid_enzimler_nukleik"
+      ],
+      "titles": [
+        "Enzimler",
+        "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Enzimlerin yapısı ve katalitik çalışma prensipleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Enzimlerin yapısı ve katalitik çalışma prensipleri ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_biyo9_vid_topic_08_enzimler",
+          "stableKey": "biyo9_vid_topic_08_enzimler",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_topic_08_enzimler",
+          "title": "Enzimler",
+          "provider": "Dr. Biyoloji",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Enzimlerin yapısı ve katalitik çalışma prensipleri ortak video kapsamı",
+          "transcriptFingerprint": "a7e85c308adb2be2",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_biyo9_vid_enzimler_nukleik",
+          "stableKey": "biyo9_vid_enzimler_nukleik",
+          "courseId": "course_biyo_9",
+          "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+          "title": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
+          "provider": "Dr. Biyoloji",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Enzimlerin yapısı ve katalitik çalışma prensipleri ortak video kapsamı",
+          "transcriptFingerprint": "a7e85c308adb2be2",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 14,
+      "url": "https://www.youtube.com/watch?v=5QxOpTALmEE",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tar9_vid_birey_toplum",
+        "item_tar9_vid_olay_olgu"
+      ],
+      "titles": [
+        "Tarih Öğrenmenin Bireye ve Topluma Faydaları",
+        "Tarihin Doğası & Olay-Olgu Ayrımı"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Tarihin doğası, olay-olgu ayrımı ve tarih öğrenmenin bireye faydaları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Tarihin doğası, olay-olgu ayrımı ve tarih öğrenmenin bireye faydaları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tar9_vid_birey_toplum",
+          "stableKey": "tar9_vid_birey_toplum",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_gecmisin_insasi",
+          "title": "Tarih Öğrenmenin Bireye ve Topluma Faydaları",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "1) Geçmişin İnşa Sürecinde Tarih",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarihin doğası, olay-olgu ayrımı ve tarih öğrenmenin bireye faydaları ortak video kapsamı",
+          "transcriptFingerprint": "79f3890b713032ec",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_olay_olgu",
+          "stableKey": "tar9_vid_olay_olgu",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_gecmisin_insasi",
+          "title": "Tarihin Doğası & Olay-Olgu Ayrımı",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "1) Geçmişin İnşa Sürecinde Tarih: Olay ve Olgu",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarihin doğası, olay-olgu ayrımı ve tarih öğrenmenin bireye faydaları ortak video kapsamı",
+          "transcriptFingerprint": "79f3890b713032ec",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 15,
+      "url": "https://www.youtube.com/watch?v=v8WWf5qwFwg",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tar9_vid_yardimci_bilimler",
+        "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci"
+      ],
+      "titles": [
+        "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
+        "Tarihsel Bilginin Üretim Süreci"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tar9_vid_yardimci_bilimler",
+          "stableKey": "tar9_vid_yardimci_bilimler",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_kaynaklar_takvimler",
+          "title": "Tarihe Yardımcı Bilim Dalları ve Zamanın Taksimi (5 Takvim)",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "3) Tarihe Yardımcı Bilim Dalları ve Takvimler",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı",
+          "transcriptFingerprint": "32ccc8dd260d8ebe",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+          "stableKey": "tar9_vid_topic_03_tarihsel_bilginin_uretim_sureci",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_03_tarihsel_bilginin_uretim_sureci",
+          "title": "Tarihsel Bilginin Üretim Süreci",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "3) Tarihsel Bilginin Üretim Süreci",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarihsel bilginin üretim süreci, takvimler ve yardımcı bilim dalları ortak video kapsamı",
+          "transcriptFingerprint": "3e5f752c04d5c2e0",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 16,
+      "url": "https://www.youtube.com/watch?v=ptTEW1Ys6Ok",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+        "item_tar9_vid_tarim_devrimi_mezopotamya"
+      ],
+      "titles": [
+        "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+        "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Tarım Devrimi, ilk yerleşmeler ve Mezopotamya uygarlıkları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Tarım Devrimi, ilk yerleşmeler ve Mezopotamya uygarlıkları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+          "stableKey": "tar9_vid_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_05_tarim_devrimi_ve_eski_cag_da_yerlesme_ekonomi",
+          "title": "Tarım Devrimi ve Eski Çağ'da Yerleşme-Ekonomi",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "5) Tarım Devrimi ve Eski Çağ Medeniyetleri",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarım Devrimi, ilk yerleşmeler ve Mezopotamya uygarlıkları ortak video kapsamı",
+          "transcriptFingerprint": "e8841adfdc1f3a65",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_tarim_devrimi_mezopotamya",
+          "stableKey": "tar9_vid_tarim_devrimi_mezopotamya",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_eski_cag_medeniyetleri",
+          "title": "Tarım Devrimi, İlk Şehir Devletleri ve Mezopotamya Medeniyetleri",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "5) İlk Çağ Uygarlıkları: Mezopotamya ve Mısır",
+          "sharedSource": true,
+          "sharedSourceReason": "Tarım Devrimi, ilk yerleşmeler ve Mezopotamya uygarlıkları ortak video kapsamı",
+          "transcriptFingerprint": "e8841adfdc1f3a65",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 17,
+      "url": "https://www.youtube.com/watch?v=XJASq7FFjOA",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+        "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat"
+      ],
+      "titles": [
+        "Eski Çağ Medeniyetlerinde Hukuk",
+        "Eski Çağ'da İnanç, Bilim ve Sanat"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "stableKey": "tar9_vid_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_07_eski_cag_medeniyetlerinde_hukuk",
+          "title": "Eski Çağ Medeniyetlerinde Hukuk",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk (Hammurabi, Hitit Kanunları)",
+          "sharedSource": true,
+          "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı",
+          "transcriptFingerprint": "76cabd323bdcaa9e",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "stableKey": "tar9_vid_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_08_eski_cag_da_inanc_bilim_ve_sanat",
+          "title": "Eski Çağ'da İnanç, Bilim ve Sanat",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "8) İlk Çağ Uygarlıkları: Hukuk, İnanç, Bilim ve Sanat",
+          "sharedSource": true,
+          "sharedSourceReason": "İlk Çağ uygarlıklarında hukuk, inanç, bilim ve sanat anlayışları ortak video kapsamı",
+          "transcriptFingerprint": "76cabd323bdcaa9e",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 18,
+      "url": "https://www.youtube.com/watch?v=7mvoe1vHDqo",
+      "itemCount": 5,
+      "itemIds": [
+        "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+        "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+        "item_tar9_vid_orta_cag_gocler_devletler",
+        "item_tar9_vid_orta_cag_ticaret_yollari",
+        "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana"
+      ],
+      "titles": [
+        "Orta Çağ'da Kitlesel Göçler",
+        "Orta Çağ Devletlerinde Yönetim ve Ordu",
+        "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
+        "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
+        "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı; Orta Çağ medeniyetleri, devlet yapıları ve ticaret yolları ortak video kapsamı; Orta Çağ medeniyet havzaları, bilim, kültür ve sanat ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı; Orta Çağ medeniyetleri, devlet yapıları ve ticaret yolları ortak video kapsamı; Orta Çağ medeniyet havzaları, bilim, kültür ve sanat ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+          "stableKey": "tar9_vid_topic_10_orta_cag_da_kitlesel_gocler",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_10_orta_cag_da_kitlesel_gocler",
+          "title": "Orta Çağ'da Kitlesel Göçler",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "12) Orta Çağ’da Yaşanan Kitlesel Göçler",
+          "sharedSource": true,
+          "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı",
+          "transcriptFingerprint": "4cda05dbcaa616a7",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "stableKey": "tar9_vid_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
+          "title": "Orta Çağ Devletlerinde Yönetim ve Ordu",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "12) Orta Çağ Devletlerinde Yönetim ve Ordu",
+          "sharedSource": true,
+          "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı",
+          "transcriptFingerprint": "4cda05dbcaa616a7",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_orta_cag_gocler_devletler",
+          "stableKey": "tar9_vid_orta_cag_gocler_devletler",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "title": "Kavimler Göçü, Feodalizm ve Orta Çağ'ın Başlıca Devletleri",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "12) Orta Çağ’da Dünya: Feodalizm ve Göçler",
+          "sharedSource": true,
+          "sharedSourceReason": "Orta Çağ'da yaşanan kitlesel göçler (Kavimler Göçü) ve feodalite/ordu yapıları ortak video kapsamı",
+          "transcriptFingerprint": "4cda05dbcaa616a7",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_orta_cag_ticaret_yollari",
+          "stableKey": "tar9_vid_orta_cag_ticaret_yollari",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_orta_cag_medeniyetleri",
+          "title": "Orta Çağ Ticaret Yolları: İpek, Baharat ve Kürk Yolları",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "12) Orta Çağ Medeniyetleri ve Ticaret Yolları",
+          "sharedSource": true,
+          "sharedSourceReason": "Orta Çağ medeniyetleri, devlet yapıları ve ticaret yolları ortak video kapsamı",
+          "transcriptFingerprint": "4cda05dbcaa616a7",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "stableKey": "tar9_vid_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "courseId": "course_tar_9",
+          "lessonId": "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana",
+          "title": "Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+          "provider": "Benim Hocam",
+          "teacher": "Mehmet Celal ÖZYILDIZ",
+          "verifiedLectureTitle": "12) Orta Çağ Medeniyet Havzalarında Bilim, Kültür ve Sanat",
+          "sharedSource": true,
+          "sharedSourceReason": "Orta Çağ medeniyet havzaları, bilim, kültür ve sanat ortak video kapsamı",
+          "transcriptFingerprint": "4cda05dbcaa616a7",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 19,
+      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "itemCount": 3,
+      "itemIds": [
+        "item_cog9_vid_tarihsel_gelisim",
+        "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+        "item_cog9_vid_topic_03_cografya_biliminin_gelisimi"
+      ],
+      "titles": [
+        "Coğrafya Biliminin Tarihsel Gelişimi",
+        "Niçin Coğrafya Öğrenmeliyiz?",
+        "Coğrafya Biliminin Gelişimi"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_cog9_vid_tarihsel_gelisim",
+          "stableKey": "cog9_vid_tarihsel_gelisim",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_dogal_sistemler",
+          "title": "Coğrafya Biliminin Tarihsel Gelişimi",
+          "provider": null,
+          "teacher": "Coğrafyanın Kodları",
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı",
+          "transcriptFingerprint": "514291f0451e6158",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+          "stableKey": "cog9_vid_topic_02_nicin_cografya_ogrenmeliyiz",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_02_nicin_cografya_ogrenmeliyiz",
+          "title": "Niçin Coğrafya Öğrenmeliyiz?",
+          "provider": "Coğrafyanın Kodları",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı",
+          "transcriptFingerprint": "514291f0451e6158",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+          "stableKey": "cog9_vid_topic_03_cografya_biliminin_gelisimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+          "title": "Coğrafya Biliminin Gelişimi",
+          "provider": "Coğrafyanın Kodları",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Coğrafya biliminin gelişimi ve coğrafya öğrenmenin önemi ortak video kapsamı",
+          "transcriptFingerprint": "514291f0451e6158",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 20,
+      "url": "https://www.youtube.com/watch?v=kAeQTw96EMc",
+      "itemCount": 3,
+      "itemIds": [
+        "item_cog9_vid_basinc_ruzgar_yagis",
+        "item_cog9_vid_topic_09_iklim_turleri",
+        "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler"
+      ],
+      "titles": [
+        "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
+        "İklim Türleri",
+        "İklim Sisteminde Yaşanan Değişiklikler"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_cog9_vid_basinc_ruzgar_yagis",
+          "stableKey": "item_cog9_vid_basinc_ruzgar_yagis",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_iklim_ve_hava_olaylari",
+          "title": "Basınç Merkezleri, Rüzgârlar ve Yağış Tipleri",
+          "provider": null,
+          "teacher": "Coğrafyanın Kodları",
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı",
+          "transcriptFingerprint": "aab5f78e7ef39d5d",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_09_iklim_turleri",
+          "stableKey": "cog9_vid_topic_09_iklim_turleri",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_09_iklim_turleri",
+          "title": "İklim Türleri",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı",
+          "transcriptFingerprint": "aab5f78e7ef39d5d",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+          "stableKey": "cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+          "title": "İklim Sisteminde Yaşanan Değişiklikler",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Atmosfer basıncı, rüzgarlar ve dünya iklim tipleri ortak video kapsamı",
+          "transcriptFingerprint": "aab5f78e7ef39d5d",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 21,
+      "url": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
+      "itemCount": 3,
+      "itemIds": [
+        "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+        "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+        "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri"
+      ],
+      "titles": [
+        "Nüfusun Tarihsel Değişimi ve Geleceği",
+        "Nüfusun Dağılışı ve Hareketleri",
+        "Demografik Dönüşüm ve Nüfus Piramitleri"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+          "stableKey": "cog9_vid_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_11_nufusun_tarihsel_degisimi_ve_gelecegi",
+          "title": "Nüfusun Tarihsel Değişimi ve Geleceği",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı",
+          "transcriptFingerprint": "685ca31f6189386c",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+          "stableKey": "cog9_vid_topic_12_nufusun_dagilisi_ve_hareketleri",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_12_nufusun_dagilisi_ve_hareketleri",
+          "title": "Nüfusun Dağılışı ve Hareketleri",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı",
+          "transcriptFingerprint": "685ca31f6189386c",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+          "stableKey": "cog9_vid_topic_13_demografik_donusum_ve_nufus_piramitleri",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_13_demografik_donusum_ve_nufus_piramitleri",
+          "title": "Demografik Dönüşüm ve Nüfus Piramitleri",
+          "provider": "Coğrafyanın Kodları",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Demografik dönüşüm modeli, nüfus piramitleri ve göç hareketleri ortak video kapsamı",
+          "transcriptFingerprint": "685ca31f6189386c",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 22,
+      "url": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
+      "itemCount": 3,
+      "itemIds": [
+        "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+        "item_cog9_vid_afet_yonetimi",
+        "item_cog9_vid_topic_18_butuncul_afet_yonetimi"
+      ],
+      "titles": [
+        "Tehlike, Risk ve Afet",
+        "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
+        "Bütüncül Afet Yönetimi"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
+          "stableKey": "cog9_vid_topic_16_tehlike_risk_ve_afet",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_16_tehlike_risk_ve_afet",
+          "title": "Tehlike, Risk ve Afet",
+          "provider": "Coğrafyanın Kodları",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı",
+          "transcriptFingerprint": "a9429fca5308feaa",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_afet_yonetimi",
+          "stableKey": "item_cog9_vid_afet_yonetimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+          "title": "Doğal Afet Türleri ve Bütüncül Afet Yönetimi",
+          "provider": null,
+          "teacher": "Coğrafyanın Kodları",
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı",
+          "transcriptFingerprint": "a9429fca5308feaa",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_cog9_vid_topic_18_butuncul_afet_yonetimi",
+          "stableKey": "cog9_vid_topic_18_butuncul_afet_yonetimi",
+          "courseId": "course_cog_9",
+          "lessonId": "lesson_cog9_topic_18_butuncul_afet_yonetimi",
+          "title": "Bütüncül Afet Yönetimi",
+          "provider": "Coğrafyanın Kodları",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Doğal afetler, risk değerlendirmesi ve bütüncül afet yönetimi ortak video kapsamı",
+          "transcriptFingerprint": "a9429fca5308feaa",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 23,
+      "url": "https://www.youtube.com/watch?v=NH4IjbtBk_A",
+      "itemCount": 2,
+      "itemIds": [
+        "item_ing9_vid_topic_01_theme_1_school_life",
+        "item_ing9_vid_cumle_kurma"
+      ],
+      "titles": [
+        "Theme 1: School Life",
+        "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_ing9_vid_topic_01_theme_1_school_life",
+          "stableKey": "ing9_vid_topic_01_theme_1_school_life",
+          "courseId": "course_ing_9",
+          "lessonId": "lesson_ing9_topic_01_theme_1_school_life",
+          "title": "Theme 1: School Life",
+          "provider": "Özer Kiraz",
+          "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
+          "verifiedLectureTitle": "İngilizcede Cümle Kurma Teknikleri #30",
+          "sharedSource": true,
+          "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı",
+          "transcriptFingerprint": "1a6b863c3bd960a4",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_ing9_vid_cumle_kurma",
+          "stableKey": "ing9_vid_cumle_kurma",
+          "courseId": "course_ing_9",
+          "lessonId": "lesson_ing9_orientation_revision",
+          "title": "İngilizce Cümle Kurma Mantığı & Günlük Rutin İfadeleri",
+          "provider": "Özer Kiraz",
+          "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
+          "verifiedLectureTitle": "İngilizcede Cümle Kurma Teknikleri #30",
+          "sharedSource": true,
+          "sharedSourceReason": "İngilizce temel cümle kurma ve Theme 1 (School Life) ortak video kapsamı",
+          "transcriptFingerprint": "1a6b863c3bd960a4",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 24,
+      "url": "https://www.youtube.com/watch?v=OUujiEHfams",
+      "itemCount": 2,
+      "itemIds": [
+        "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+        "item_alm9_vid_selamlasma_alfabe"
+      ],
+      "titles": [
+        "Begrüßung, Verabschiedung und Landeskunde",
+        "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "stableKey": "alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+          "title": "Begrüßung, Verabschiedung und Landeskunde",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Almanca Harfleri Animasyon-2.DERS ALMANCA | 9.sınıf",
+          "sharedSource": true,
+          "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı",
+          "transcriptFingerprint": "14c1b0c025d854bf",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_alm9_vid_selamlasma_alfabe",
+          "stableKey": "alm9_vid_selamlasma_alfabe",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Almanca Harfleri Animasyon-2.DERS ALMANCA | 9.sınıf",
+          "sharedSource": true,
+          "sharedSourceReason": "Begrüßung, Verabschiedung ve alfabe temel iletişim konusu ortak video kapsamı",
+          "transcriptFingerprint": "14c1b0c025d854bf",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 25,
+      "url": "https://www.youtube.com/watch?v=hm1tQdSExLA",
+      "itemCount": 4,
+      "itemIds": [
+        "item_alm9_vid_kendini_tanitma",
+        "item_alm9_vid_ulkeler_diller",
+        "item_alm9_vid_topic_06_im_klassenzimmer",
+        "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf"
+      ],
+      "titles": [
+        "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
+        "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
+        "Im Klassenzimmer",
+        "Tageszeiten und Tagesablauf"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_alm9_vid_kendini_tanitma",
+          "stableKey": "alm9_vid_kendini_tanitma",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "Kendini Tanıtma, Adını Söyleme ve Hal-Hatır Sorma",
+          "provider": "Almanca Kolay (Erhan Özdemir)",
+          "teacher": "AlmancaKolay",
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı",
+          "transcriptFingerprint": "e1ccaec372a5b2e7",
+          "reviewStatus": "needs_review"
+        },
+        {
+          "id": "item_alm9_vid_ulkeler_diller",
+          "stableKey": "alm9_vid_ulkeler_diller",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "Ülkeler, Diller ve Nereli Olduğunu Söyleme (Woher kommst du?)",
+          "provider": "Almanca Kolay (Erhan Özdemir)",
+          "teacher": "AlmancaKolay",
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı",
+          "transcriptFingerprint": "e1ccaec372a5b2e7",
+          "reviewStatus": "needs_review"
+        },
+        {
+          "id": "item_alm9_vid_topic_06_im_klassenzimmer",
+          "stableKey": "alm9_vid_topic_06_im_klassenzimmer",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
+          "title": "Im Klassenzimmer",
+          "provider": "Almanca Kolay & MEB EBA",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı",
+          "transcriptFingerprint": "e1ccaec372a5b2e7",
+          "reviewStatus": "needs_review"
+        },
+        {
+          "id": "item_alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+          "stableKey": "alm9_vid_topic_13_tageszeiten_und_tagesablauf",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_13_tageszeiten_und_tagesablauf",
+          "title": "Tageszeiten und Tagesablauf",
+          "provider": "Almanca Kolay & MEB Maarif Modeli",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Kendini tanıtma, adını söyleme ve günlük temel Almanca iletişim kalıpları ortak video kapsamı",
+          "transcriptFingerprint": "e1ccaec372a5b2e7",
+          "reviewStatus": "needs_review"
+        }
+      ]
+    },
+    {
+      "warningIndex": 26,
+      "url": "https://www.youtube.com/watch?v=l0H2RGPsKbY",
+      "itemCount": 2,
+      "itemIds": [
+        "item_alm9_vid_sayilar",
+        "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer"
+      ],
+      "titles": [
+        "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
+        "Zahlen 0–20 und Telefonnummer"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Sayılar 0-20 ve telefon numarası müfredat konusu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Sayılar 0-20 ve telefon numarası müfredat konusu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_alm9_vid_sayilar",
+          "stableKey": "alm9_vid_sayilar",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_modul1_hallo",
+          "title": "0-20 Arası Sayılar (Die Zahlen) ve Telefon Numarası",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Sayılar 0-20 ve telefon numarası müfredat konusu ortak video kapsamı",
+          "transcriptFingerprint": "e10726e05dc42bb1",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+          "stableKey": "alm9_vid_topic_03_zahlen_0_20_und_telefonnummer",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_03_zahlen_0_20_und_telefonnummer",
+          "title": "Zahlen 0–20 und Telefonnummer",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Sayılar 0-20-9.DERS ALMANCA | 9.sınıf 1.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Sayılar 0-20 ve telefon numarası müfredat konusu ortak video kapsamı",
+          "transcriptFingerprint": "e10726e05dc42bb1",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 27,
+      "url": "https://www.youtube.com/watch?v=O2-JsPPahTc",
+      "itemCount": 2,
+      "itemIds": [
+        "item_alm9_vid_topic_05_schulsachen",
+        "item_alm9_vid_schulsachen_artikel"
+      ],
+      "titles": [
+        "Schulsachen",
+        "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_alm9_vid_topic_05_schulsachen",
+          "stableKey": "alm9_vid_topic_05_schulsachen",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_05_schulsachen",
+          "title": "Schulsachen",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı",
+          "transcriptFingerprint": "3639e1470a7f8837",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_alm9_vid_schulsachen_artikel",
+          "stableKey": "item_alm9_vid_schulsachen_artikel",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_schule_und_alltag",
+          "title": "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Okul Eşyaları-14.DERS ALMANCA|9.sınıflar 2.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Okul eşyaları ve artikeller (Schulsachen) konusu ortak video kapsamı",
+          "transcriptFingerprint": "3639e1470a7f8837",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 28,
+      "url": "https://www.youtube.com/watch?v=POJqXZr5CW8",
+      "itemCount": 2,
+      "itemIds": [
+        "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+        "item_alm9_vid_topic_10_berufe"
+      ],
+      "titles": [
+        "Familie und Familienmitglieder",
+        "Berufe"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_alm9_vid_topic_09_familie_und_familienmitglieder",
+          "stableKey": "alm9_vid_topic_09_familie_und_familienmitglieder",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_09_familie_und_familienmitglieder",
+          "title": "Familie und Familienmitglieder",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı",
+          "transcriptFingerprint": "ca9fa7525984ad57",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_alm9_vid_topic_10_berufe",
+          "stableKey": "alm9_vid_topic_10_berufe",
+          "courseId": "course_alm_9",
+          "lessonId": "lesson_alm9_topic_10_berufe",
+          "title": "Berufe",
+          "provider": "Meltem Hoca ile Almanca",
+          "teacher": "Meltem Hoca ile Almanca",
+          "verifiedLectureTitle": "Aile - 16.DERS ALMANCA | 9.sınıf 3.ÜNİTE",
+          "sharedSource": true,
+          "sharedSourceReason": "Aile bireyleri (die Familie) ve meslekler (die Berufe) 3. ünite ortak video kapsamı",
+          "transcriptFingerprint": "ca9fa7525984ad57",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 29,
+      "url": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
+      "itemCount": 5,
+      "itemIds": [
+        "item_tde9_vid_soz_sanatlari",
+        "item_tde9_vid_edebiyat_guzel_sanatlar",
+        "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+        "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+        "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma"
+      ],
+      "titles": [
+        "TDE: Metinde Anlam & Söz Sanatları",
+        "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+        "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+        "Anlam Arayışı: Şiir Dinleme/İzleme",
+        "Anlam Arayışı: Şiir Yazma"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tde9_vid_soz_sanatlari",
+          "stableKey": "tde9_vid_soz_sanatlari",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "title": "TDE: Metinde Anlam & Söz Sanatları",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+          "transcriptFingerprint": "ce3abaffa6c6dffb",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_edebiyat_guzel_sanatlar",
+          "stableKey": "item_tde9_vid_edebiyat_guzel_sanatlar",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_metin_ve_anlam",
+          "title": "Edebiyatın Güzel Sanatlarla İlişkisi ve Metin Türleri",
+          "provider": "Deniz Hoca",
+          "teacher": "Deniz Hoca",
+          "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 / 9.Sınıf Sözün İnceliğİ / Deniz Hoca +PDF📝",
+          "sharedSource": true,
+          "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+          "transcriptFingerprint": "ce3abaffa6c6dffb",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "stableKey": "tde9_vid_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_02_sozun_inceligi_siiri_betimleme_paragrafina_donusturm",
+          "title": "Sözün İnceliği: Şiiri Betimleme Paragrafına Dönüştürme",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+          "transcriptFingerprint": "ce3abaffa6c6dffb",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "stableKey": "tde9_vid_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_07_anlam_arayisi_siir_dinleme_izleme",
+          "title": "Anlam Arayışı: Şiir Dinleme/İzleme",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+          "transcriptFingerprint": "ce3abaffa6c6dffb",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+          "stableKey": "tde9_vid_topic_08_anlam_arayisi_siir_yazma",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_08_anlam_arayisi_siir_yazma",
+          "title": "Anlam Arayışı: Şiir Yazma",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Şiir bilgisi, nazım birimi/ölçü/kafiye ve edebi sanatlar (söz sanatları) ortak video kapsamı",
+          "transcriptFingerprint": "ce3abaffa6c6dffb",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 30,
+      "url": "https://www.youtube.com/watch?v=mM4ZCvBetDg",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tde9_vid_hikaye_turleri",
+        "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu"
+      ],
+      "titles": [
+        "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
+        "Anlam Arayışı: Hikâye Karakteri Sunumu"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tde9_vid_hikaye_turleri",
+          "stableKey": "item_tde9_vid_hikaye_turleri",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_anlam_arayisi_hikaye",
+          "title": "Hikâye Unsurları: Olay ve Durum Hikâyesi Karşılaştırması",
+          "provider": null,
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı",
+          "transcriptFingerprint": "b942c35900634519",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "stableKey": "tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_06_anlam_arayisi_hikaye_karakteri_sunumu",
+          "title": "Anlam Arayışı: Hikâye Karakteri Sunumu",
+          "provider": "Rüştü Hoca ile Türkçe",
+          "teacher": null,
+          "verifiedLectureTitle": null,
+          "sharedSource": true,
+          "sharedSourceReason": "Hikaye türleri (olay ve durum hikayesi) ile hikaye karakter analizi ortak video kapsamı",
+          "transcriptFingerprint": "b942c35900634519",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 31,
+      "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+        "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm"
+      ],
+      "titles": [
+        "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+        "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Belgesel dinleme ve infografiğe dönüştürme atölye ünitesi ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Belgesel dinleme ve infografiğe dönüştürme atölye ünitesi ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "stableKey": "tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+          "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
+          "provider": "MEB Maarif Modeli",
+          "teacher": "Edebiyat Hocası",
+          "verifiedLectureTitle": "MEB 9:sınıf Edebiyat Nevruz Belgeseli Tema 3 sayfa 200",
+          "sharedSource": true,
+          "sharedSourceReason": "Belgesel dinleme ve infografiğe dönüştürme atölye ünitesi ortak video kapsamı",
+          "transcriptFingerprint": "3d6e7d833d615b72",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "stableKey": "tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+          "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
+          "provider": "MEB Maarif Modeli",
+          "teacher": "Edebiyat Hocası",
+          "verifiedLectureTitle": "MEB 9:sınıf Edebiyat Nevruz Belgeseli Tema 3 sayfa 200",
+          "sharedSource": true,
+          "sharedSourceReason": "Belgesel dinleme ve infografiğe dönüştürme atölye ünitesi ortak video kapsamı",
+          "transcriptFingerprint": "3d6e7d833d615b72",
+          "reviewStatus": "verified"
+        }
+      ]
+    },
+    {
+      "warningIndex": 32,
+      "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "itemCount": 2,
+      "itemIds": [
+        "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+        "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma"
+      ],
+      "titles": [
+        "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+        "Dilin Zenginliği: Otobiyografi Yazma"
+      ],
+      "classification": "false_positive",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Biyografi ve otobiyografi tür özellikleri ve yazma kuralları ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Biyografi ve otobiyografi tür özellikleri ve yazma kuralları ortak video kapsamı",
+      "items": [
+        {
+          "id": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "stableKey": "tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+          "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
+          "provider": "Deniz Hoca",
+          "teacher": "Deniz Hoca",
+          "verifiedLectureTitle": "Biyografi - Otobiyografi - Tezkire 📌/ 9.Sınıf Edebiyat Biyografi Ünitesi / Deniz Hoca + PDF 📘📕",
+          "sharedSource": true,
+          "sharedSourceReason": "Biyografi ve otobiyografi tür özellikleri ve yazma kuralları ortak video kapsamı",
+          "transcriptFingerprint": "3b2beb53ba1ecedd",
+          "reviewStatus": "verified"
+        },
+        {
+          "id": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "stableKey": "tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "courseId": "course_tde_9",
+          "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+          "title": "Dilin Zenginliği: Otobiyografi Yazma",
+          "provider": "Deniz Hoca",
+          "teacher": "Deniz Hoca",
+          "verifiedLectureTitle": "Biyografi - Otobiyografi - Tezkire 📌/ 9.Sınıf Edebiyat Biyografi Ünitesi / Deniz Hoca + PDF 📘📕",
+          "sharedSource": true,
+          "sharedSourceReason": "Biyografi ve otobiyografi tür özellikleri ve yazma kuralları ortak video kapsamı",
+          "transcriptFingerprint": "3b2beb53ba1ecedd",
+          "reviewStatus": "verified"
+        }
+      ]
+    }
+  ]
+}
