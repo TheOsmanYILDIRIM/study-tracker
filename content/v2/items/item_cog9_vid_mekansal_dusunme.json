@@ -24,7 +24,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_mekansal_dusunme.tr.tr.vtt",
-      "transcriptFingerprint": "c3de10c38f4b78ec"
+      "transcriptFingerprint": "c3de10c38f4b78ec",
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=PeNG9gQvsj0",

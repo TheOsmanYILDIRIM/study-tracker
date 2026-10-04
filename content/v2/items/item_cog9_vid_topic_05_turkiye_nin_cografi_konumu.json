@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 9.6,
       "videoCandidateTitle": "2.ünite 📕 Türkiye'nin coğrafi konumu konu anlatımı 🔴 9.SINIF COĞRAFYA | 2026 YENİ MÜFREDAT",
-      "fingerprint": "ff56685c84c65640",
+      "fingerprint": "1f23d83452949cf0",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=ymLvyLld3cs",
       "transcriptLanguage": "tr",
@@ -35,13 +35,16 @@
       "reviewedOverride": true,
       "teacher": "Yunus Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "ymLvyLld3cs"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=izcd86rxRDw",
       "provider": "Coğrafyanın Kodları"
     },
     "verifiedLectureTitle": "🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025",
-    "teacher": "Yunus Hoca"
+    "teacher": "Yunus Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

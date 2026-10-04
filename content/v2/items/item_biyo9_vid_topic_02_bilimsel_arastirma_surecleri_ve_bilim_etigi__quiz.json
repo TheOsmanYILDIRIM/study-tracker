@@ -84,7 +84,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler."
+      "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_02_bilimsel_arastirma_surecleri_ve_bilim_etigi.tr.tr.vtt"
     }
   }
 }

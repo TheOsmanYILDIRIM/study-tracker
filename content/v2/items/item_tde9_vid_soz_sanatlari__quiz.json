@@ -86,7 +86,7 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.txt",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_soz_sanatlari.tr.tr.vtt"
     }
   }
 }

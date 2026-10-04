@@ -35,7 +35,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_04_tarih_arastirma_ve_yaziminda_dijitallesme.tr.tr.vtt",
-      "transcriptFingerprint": "a29c9a2b11abb467"
+      "transcriptFingerprint": "a29c9a2b11abb467",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "verifiedLectureTitle": "4) Tarih Yazımı ve Tarih Öncesi Devirler"

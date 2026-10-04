@@ -28,7 +28,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "0ef9b87634c1fd22",
+      "fingerprint": "6c1574ed2c7ec465",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=Qp211SqOGJ4",
       "provider": "Özcan Aykın FİZİK",
@@ -40,9 +40,11 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_09_hareket_ve_hareket_turleri.tr.tr.vtt",
       "teacher": "Özcan Aykın FİZİK",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "videoId": "Qp211SqOGJ4"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

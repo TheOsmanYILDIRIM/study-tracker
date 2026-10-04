@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.4,
       "videoCandidateTitle": "1.ünite 📕 Niçin coğrafya öğrenmeliyiz? Coğrafya biliminin gelişimi 🔴 9.SINIF | 2026 YENİ MÜFREDAT",
-      "fingerprint": "4d518901f47ee5d8",
+      "fingerprint": "d86a8df5e154d094",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=NlHi5ndIjpA",
       "transcriptLanguage": "tr",
@@ -34,14 +34,18 @@
       "transcriptFingerprint": "0d2f46b4dbd67ca4",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler.",
-      "teacher": "Yunus Hoca"
+      "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
+      "teacher": "Yunus Hoca",
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "NlHi5ndIjpA"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=1-AJn6S0syU",
       "provider": "Coğrafyanın Kodları"
     },
     "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
-    "teacher": "Yunus Hoca"
+    "teacher": "Yunus Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

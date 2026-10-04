@@ -82,7 +82,9 @@
       "schemaVersion": "v2",
       "fingerprint": "d26e671110a521b2",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_sozcukte_anlam_isim_sifat.tr.tr.vtt"
     }
   }
 }

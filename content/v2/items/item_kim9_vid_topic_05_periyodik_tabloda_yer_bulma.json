@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.95,
       "videoCandidateTitle": "Periyodik Tabloda Yer Bulma+ PDF 📌 9 SINIF KİMYA YENİ MÜFREDAT 2025 📌1 ÜNİTE GÜN 7",
-      "fingerprint": "afabecd58ec3db32",
+      "fingerprint": "97a00aee04983e1a",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=aVTZGka6GvM",
       "transcriptLanguage": "tr",
@@ -35,9 +35,12 @@
       "reviewedOverride": true,
       "teacher": "Meschemy Kimya",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Meschemy Kimya",
+      "videoId": "aVTZGka6GvM"
     },
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

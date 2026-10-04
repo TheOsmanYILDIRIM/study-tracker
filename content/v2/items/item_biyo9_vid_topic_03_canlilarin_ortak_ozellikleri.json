@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 15.2,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 3. Ders: Canlıların Ortak Özellikleri ve Virüs",
-      "fingerprint": "e7f3125062b312cf",
+      "fingerprint": "c64eb713b584f4ac",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -37,9 +37,13 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar."
+      "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.",
+      "provider": "Dr. Biyoloji",
+      "videoId": "JqVImq7hFjk"
     },
     "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -29,7 +29,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.tr.vtt",
-      "transcriptFingerprint": "887270a366a91271"
+      "transcriptFingerprint": "887270a366a91271",
+      "sharedSource": false
     },
     "provider": "Rehber Matematik",
     "topic": "Mantık Bağlaçları ve Niceleyiciler"

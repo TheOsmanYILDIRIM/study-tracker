@@ -82,7 +82,7 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
       "transcriptFingerprint": "787ef9a225a25899",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.tr.vtt"
     }
   }
 }

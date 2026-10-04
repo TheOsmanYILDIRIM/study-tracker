@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.05,
       "videoCandidateTitle": "Hal Değişimi Konu Anlatımı -  9.sınıf fizik (maarif model)",
-      "fingerprint": "f099a1e37edae6db",
+      "fingerprint": "b88edeaf7966ca77",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "transcriptLanguage": "tr",
@@ -34,11 +34,15 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_17_hal_degisimi.tr.tr.vtt",
       "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
+      "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
       "reviewedOverride": true,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "provider": "Özcan Aykın FİZİK",
+      "videoId": "3pRu3T0Q03U"
     },
     "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
-    "teacher": "Özcan Aykın FİZİK"
+    "teacher": "Özcan Aykın FİZİK",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -84,7 +84,7 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.txt",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt"
     }
   }
 }

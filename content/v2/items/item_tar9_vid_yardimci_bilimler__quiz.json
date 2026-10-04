@@ -86,7 +86,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Tarihsel bilginin üretim aşamaları, tarihe yardımcı bilim dalları ve Türklerin kullandığı takvimler ortak video kapsamı"
+      "sharedSourceReason": "Tarihsel bilginin üretim aşamaları, tarihe yardımcı bilim dalları ve Türklerin kullandığı takvimler ortak video kapsamı",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_yardimci_bilimler.tr.tr.vtt"
     }
   }
 }

@@ -23,8 +23,7 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_katilar_ve_sivilar.tr.tr.vtt",
       "transcriptFingerprint": "384dfc22c8b7c3e0",
-      "sharedSource": true,
-      "sharedSourceReason": "Katı türleri, amorf katılar ve kristal katılar (iyonik, moleküler, kovalent, metalik) ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Meschemy Kimya"
   }

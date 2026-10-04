@@ -84,7 +84,9 @@
       "fingerprint": "87ba973cddeb2c36",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_06_theme_6_life_in_the_city_country.tr.txt",
-      "transcriptFingerprint": "20d6e1019d3f052c"
+      "transcriptFingerprint": "20d6e1019d3f052c",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_06_theme_6_life_in_the_city_country.tr.tr.vtt"
     }
   }
 }

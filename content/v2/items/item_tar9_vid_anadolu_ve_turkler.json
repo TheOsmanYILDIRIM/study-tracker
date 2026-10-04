@@ -25,7 +25,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_anadolu_ve_turkler.tr.tr.vtt",
-      "transcriptFingerprint": "083232b309e687da"
+      "transcriptFingerprint": "083232b309e687da",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "provider": "Benim Hocam",
     "verifiedLectureTitle": "6) Anadolu Medeniyetleri ve Kadim Dünya"

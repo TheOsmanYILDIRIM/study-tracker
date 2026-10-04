@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "50d8f3ffb39f6fa1",
+      "fingerprint": "2cf71fa08a029461",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=8ktg5DqzffM",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -26,8 +26,10 @@
       "transcriptFingerprint": "fcdb8085fd36c0c3",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir.",
-      "teacher": "Tonguç Akademi"
+      "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
+      "teacher": "Tonguç Akademi",
+      "provider": "tonguç 9. SINIF",
+      "videoId": "8ktg5DqzffM"
     },
     "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",

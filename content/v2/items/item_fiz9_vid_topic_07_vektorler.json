@@ -34,7 +34,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_07_vektorler.tr.tr.vtt",
-      "transcriptFingerprint": "e8c5e91b6c42e91e"
+      "transcriptFingerprint": "e8c5e91b6c42e91e",
+      "sharedSource": false
     }
   }
 }

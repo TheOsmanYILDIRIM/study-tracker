@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "41014f278aab603f",
+      "fingerprint": "e3580741ce12c9d5",
       "sourceWeeks": [
         1
       ],
@@ -33,7 +33,9 @@
       "reviewedOverride": true,
       "teacher": "Yunus Hoca",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler."
+      "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "NlHi5ndIjpA"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Coğrafya Biliminin Konusu ve Bölümleri",
@@ -41,6 +43,8 @@
       "sourceUrl": "https://www.youtube.com/watch?v=DzoqD30tomo",
       "provider": "Coğrafyanın Kodları"
     },
-    "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025"
+    "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "41b9bcb0572d14c3",
+      "fingerprint": "cdb3a0335c594096",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=7hlpdxnFQ5o",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -27,9 +27,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.tr.vtt",
       "sharedSource": false,
       "teacher": "Ms. Jasmin ELT",
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "7hlpdxnFQ5o"
     },
     "provider": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 2. ÜNİTE KONU ANLATIMI 2025 ｜ CLASSROOM LIF (Yeni Müfredat)"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 2. ÜNİTE KONU ANLATIMI 2025 ｜ CLASSROOM LIF (Yeni Müfredat)",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

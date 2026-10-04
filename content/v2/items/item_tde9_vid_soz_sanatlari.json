@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "d529c838a700fe29",
+      "fingerprint": "ba096997f3532cb2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -26,10 +26,13 @@
       "sharedSource": false,
       "reviewedOverride": true,
       "teacher": "Deniz Hoca",
-      "sharedSourceReason": null
+      "provider": "Deniz Hoca",
+      "videoId": "3bW8GrvE-fs"
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝"
+    "verifiedLectureTitle": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -80,7 +80,9 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
-      "transcriptFingerprint": "ee1923b0c53d5dbb"
+      "transcriptFingerprint": "ee1923b0c53d5dbb",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.tr.vtt"
     }
   }
 }

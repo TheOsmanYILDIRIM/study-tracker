@@ -36,7 +36,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.tr.vtt",
-      "transcriptFingerprint": "23d6e07723c92c83"
+      "transcriptFingerprint": "23d6e07723c92c83",
+      "sharedSource": false
     }
   }
 }

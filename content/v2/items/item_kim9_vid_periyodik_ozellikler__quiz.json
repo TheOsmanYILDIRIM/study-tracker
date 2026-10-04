@@ -84,7 +84,8 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.txt",
       "transcriptFingerprint": "3667e4e4ae442b90",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar."
+      "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_periyodik_ozellikler.tr.tr.vtt"
     }
   }
 }

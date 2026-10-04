@@ -71,18 +71,21 @@
     },
     "provenance": {
       "derivedFromItemId": "item_kim9_vid_yesil_kimya",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jDdTYBdI-2g",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "fingerprint": "58176f3862b2b64f",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
-      "transcriptFingerprint": "7c070ce680ca133c"
+      "transcriptFingerprint": "31042fdcfa7cfe36",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.tr.vtt",
+      "reviewNote": "Doğa ve kimya/çevresel sürdürülebilirlik güçlü; yeşil kimya ilkelerini eksiksiz işlemiyor."
     }
   }
 }

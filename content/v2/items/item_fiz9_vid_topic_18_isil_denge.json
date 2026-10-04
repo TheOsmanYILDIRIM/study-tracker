@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "4acd3b6bf7ecba6d",
+      "fingerprint": "db4bd221b1ccc97f",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=2-aHeYUXvCI",
       "provider": "Özcan Aykın FİZİK",
@@ -36,9 +36,11 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt",
       "teacher": "Özcan Aykın FİZİK",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "videoId": "2-aHeYUXvCI"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

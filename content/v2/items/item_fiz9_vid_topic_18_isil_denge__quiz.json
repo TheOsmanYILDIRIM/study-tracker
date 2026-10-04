@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.txt",
       "transcriptFingerprint": "01d6aee429aec22a",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_18_isil_denge.tr.tr.vtt"
     }
   }
 }

@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "09f30005a99a4906",
+      "fingerprint": "f04ae8c26f67033e",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=fX3ojMBUxOg",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -26,10 +26,14 @@
       "reviewedOverride": true,
       "teacher": "Meschemy Kimya",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar."
+      "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.",
+      "provider": "Meschemy Kimya",
+      "videoId": "fX3ojMBUxOg"
     },
     "provider": "Meschemy Kimya",
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

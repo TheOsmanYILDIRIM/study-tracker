@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.txt",
       "transcriptFingerprint": "4492ad0a645fc937",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt"
     }
   }
 }

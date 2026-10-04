@@ -85,7 +85,9 @@
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.txt",
       "transcriptFingerprint": "058d72c32401f2db",
       "sharedSource": true,
-      "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange."
+      "sharedSourceReason": "Comprehensive 44-minute Middle Ages lecture by Mehmet Celal ÖZYILDIZ covering Kavimler Göçü (kitlesel göçler), Feodalizm and medieval governance/armies, and scholastic thought / cultural exchange.",
+      "reviewedOverride": true,
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_10_orta_cag_da_kitlesel_gocler.tr.tr.vtt"
     }
   }
 }

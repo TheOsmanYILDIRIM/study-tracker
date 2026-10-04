@@ -27,7 +27,8 @@
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.tr.vtt",
       "transcriptFingerprint": "87776d5b44d04213",
       "sharedSource": false,
-      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts",
+      "sharedSourceReason": null
     },
     "provider": "Ardıç Tarih",
     "verifiedLectureTitle": "9.sınıf tarih 3. Ünite - Orta Çağ’da Ticaret Yolları/ Zeduva maarif model"

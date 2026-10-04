@@ -84,7 +84,8 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.txt",
       "transcriptFingerprint": "34afc097a77c7e1a",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar."
+      "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_10_lewis_nokta_yapisi.tr.tr.vtt"
     }
   }
 }

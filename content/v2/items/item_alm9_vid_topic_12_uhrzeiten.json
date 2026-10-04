@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "9193a3f125c422c4",
+      "fingerprint": "254e35ac16ed2fec",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=mvhqOxWEmBc",
       "transcriptLanguage": "tr",
@@ -37,7 +37,8 @@
       "reviewedOverride": true,
       "teacher": "Tonguç Akademi",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "tonguç 9. SINIF",
+      "videoId": "mvhqOxWEmBc"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,

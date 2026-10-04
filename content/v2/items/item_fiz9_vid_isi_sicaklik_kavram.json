@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "f980e8bc42d259fe",
+      "fingerprint": "f047f2f4db3e399b",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=kGrdvkxHxjA",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
@@ -26,11 +26,13 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_isi_sicaklik_kavram.tr.tr.vtt",
       "transcriptFingerprint": "ec7d086901e292be",
       "sharedSource": false,
-      "sharedSourceReason": null,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "videoId": "kGrdvkxHxjA"
     },
     "provider": "Özcan Aykın FİZİK",
     "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026",
-    "teacher": "Özcan Aykın FİZİK"
+    "teacher": "Özcan Aykın FİZİK",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

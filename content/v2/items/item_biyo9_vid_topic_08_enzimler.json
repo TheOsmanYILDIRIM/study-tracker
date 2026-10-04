@@ -32,7 +32,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 13.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 16. Ders: Enzimler 1",
-      "fingerprint": "bed2256e16e11322",
+      "fingerprint": "72bc74c80bb82121",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=56fiFbIYsS0",
       "transcriptLanguage": "tr",
@@ -41,11 +41,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_08_enzimler.tr.tr.vtt",
       "transcriptFingerprint": "8a014a2c2ddfc891",
       "sharedSource": false,
-      "sharedSourceReason": null,
       "reviewedOverride": true,
-      "teacher": "Dr. Biyoloji"
+      "teacher": "Dr. Biyoloji",
+      "provider": "Dr. Biyoloji",
+      "videoId": "56fiFbIYsS0"
     },
     "verifiedLectureTitle": "Enzimler 1. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

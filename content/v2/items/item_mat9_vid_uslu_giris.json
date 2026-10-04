@@ -18,7 +18,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "60b8243610f74b15",
+      "fingerprint": "82a5d918f27fa3b4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
@@ -28,9 +28,12 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Rehber Matematik",
+      "videoId": "FtJE835vtoM"
     },
     "verifiedLectureTitle": "Üslü İfadeler 1 ｜ 1.TEMA Sayılar 1 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

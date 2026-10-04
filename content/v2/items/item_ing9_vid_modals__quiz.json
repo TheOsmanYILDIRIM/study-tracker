@@ -84,7 +84,9 @@
       "fingerprint": "6aeb6f68fd378db2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_modals.tr.txt",
-      "transcriptFingerprint": "62deded9ca0e5664"
+      "transcriptFingerprint": "62deded9ca0e5664",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_modals.tr.tr.vtt"
     }
   }
 }

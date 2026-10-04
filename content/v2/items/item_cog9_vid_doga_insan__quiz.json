@@ -85,7 +85,8 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.txt",
       "transcriptFingerprint": "0d2f46b4dbd67ca4",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler."
+      "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_doga_insan.tr.tr.vtt"
     }
   }
 }

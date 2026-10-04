@@ -85,7 +85,8 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.txt",
       "transcriptFingerprint": "dd6b0aef7e5df09f",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar."
+      "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt"
     }
   }
 }

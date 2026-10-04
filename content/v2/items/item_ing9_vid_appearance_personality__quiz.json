@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.txt",
       "transcriptFingerprint": "e294bee2ea8ea040",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt"
     }
   }
 }

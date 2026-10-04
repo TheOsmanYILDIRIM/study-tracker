@@ -23,8 +23,7 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_bag_turleri.tr.tr.vtt",
       "transcriptFingerprint": "e0e330ee30a12087",
-      "sharedSource": true,
-      "sharedSourceReason": "Güçlü etkileşimler ve iyonik bağın oluşumu, katyon-anyon elektrostatik çekimi ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Meschemy Kimya"
   }

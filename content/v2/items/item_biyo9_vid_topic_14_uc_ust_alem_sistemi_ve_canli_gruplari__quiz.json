@@ -84,7 +84,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar."
+      "sharedSourceReason": "Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.",
+      "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari.tr.tr.vtt"
     }
   }
 }

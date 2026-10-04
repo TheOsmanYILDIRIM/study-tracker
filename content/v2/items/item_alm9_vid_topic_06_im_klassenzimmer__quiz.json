@@ -85,7 +85,8 @@
       "fingerprint": "f0e72b767fd8d70b",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_06_im_klassenzimmer.tr.tr.vtt"
     }
   }
 }

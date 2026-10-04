@@ -36,7 +36,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik.tr.tr.vtt",
-      "transcriptFingerprint": "91bb8e2321977640"
+      "transcriptFingerprint": "91bb8e2321977640",
+      "sharedSource": false
     }
   }
 }

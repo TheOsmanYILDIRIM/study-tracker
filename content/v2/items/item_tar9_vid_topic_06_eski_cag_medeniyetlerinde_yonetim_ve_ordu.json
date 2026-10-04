@@ -35,7 +35,9 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_topic_06_eski_cag_medeniyetlerinde_yonetim_ve_ordu.tr.tr.vtt",
-      "transcriptFingerprint": "028ab43911cbe10f"
+      "transcriptFingerprint": "028ab43911cbe10f",
+      "sharedSource": false,
+      "sharedSourceReason": null
     },
     "teacher": "Mehmet Celal ÖZYILDIZ",
     "verifiedLectureTitle": "7) İlk Çağ Uygarlıkları: Yönetim ve Ordu"

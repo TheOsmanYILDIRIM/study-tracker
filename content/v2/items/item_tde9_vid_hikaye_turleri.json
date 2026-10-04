@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "e016a6afa03e2f55",
+      "fingerprint": "af33b224d8bc51f1",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=xGTH9SQLhrE",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -24,12 +24,15 @@
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt",
       "transcriptFingerprint": "496cf7700cf9cc8a",
       "sharedSource": false,
-      "sharedSourceReason": null,
       "reviewedOverride": true,
-      "teacher": "Deniz Hoca"
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "videoId": "xGTH9SQLhrE"
     },
     "verifiedLectureTitle": "OLAY VE DURUM HİKAYESİ %100 ÖĞREN! ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
     "provider": "Deniz Hoca",
-    "teacher": "Deniz Hoca"
+    "teacher": "Deniz Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

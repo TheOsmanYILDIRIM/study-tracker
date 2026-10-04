@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "74d3b8446d206788",
+      "fingerprint": "ef6469f39aa61501",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=paXdOyeI8zo",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -26,14 +26,18 @@
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_afet_yonetimi.tr.tr.vtt",
       "transcriptFingerprint": "dd6b0aef7e5df09f",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.",
-      "teacher": "Yunus Hoca"
+      "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
+      "teacher": "Yunus Hoca",
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "paXdOyeI8zo"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UYlpTrZfgA8",
       "provider": "Coğrafyanın Kodları"
     },
     "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
-    "provider": "Coğrafyanın Kodları"
+    "provider": "Coğrafyanın Kodları",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

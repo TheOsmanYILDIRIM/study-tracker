@@ -32,7 +32,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 15. Ders: Organik Bileşikler - Proteinler",
-      "fingerprint": "2f907936a166938b",
+      "fingerprint": "18728dbd03568dd6",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -43,9 +43,12 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Dr. Biyoloji",
+      "videoId": "H_I4wF3hBOg"
     },
     "verifiedLectureTitle": "Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

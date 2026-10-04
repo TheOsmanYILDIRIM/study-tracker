@@ -7,7 +7,7 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Nanoparçacıklar, Ekolojik Sürdürülebilirlik ve Yeşil Kimya",
-  "contentUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+  "contentUrl": "https://www.youtube.com/watch?v=jDdTYBdI-2g",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -17,13 +17,22 @@
       "schemaVersion": "v2",
       "reviewStatus": "needs_review",
       "fingerprint": "ee46e61d9bd98733",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=xgb_cd16Bfg",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jDdTYBdI-2g",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_yesil_kimya.tr.tr.vtt",
-      "transcriptFingerprint": "7c070ce680ca133c"
+      "transcriptFingerprint": "31042fdcfa7cfe36",
+      "sharedSource": false,
+      "videoId": "jDdTYBdI-2g",
+      "teacher": "Meschemy Kimya",
+      "reviewedOverride": true,
+      "reviewNote": "Doğa ve kimya/çevresel sürdürülebilirlik güçlü; yeşil kimya ilkelerini eksiksiz işlemiyor."
     },
-    "provider": "Meschemy Kimya"
+    "provider": "Meschemy Kimya",
+    "teacher": "Meschemy Kimya",
+    "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (14.GÜN) ｜ DOĞA ve KİMYA + PDF 🗓️",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

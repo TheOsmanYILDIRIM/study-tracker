@@ -28,7 +28,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "d861380598dca3a3",
+      "fingerprint": "39b2fdd3e1629523",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=qXhKi2v5EGM",
       "reviewedOverride": true,
@@ -39,9 +39,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_07_theme_7_life_in_the_world_nature.tr.tr.vtt",
       "teacher": "Ms. Jasmin ELT",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "qXhKi2v5EGM"
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "a609872c892ea4d3",
+      "fingerprint": "c27bdb791809a890",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=BMaVTFcOC2c",
       "transcriptLanguage": "tr",
@@ -37,9 +37,12 @@
       "reviewedOverride": true,
       "teacher": "Deniz Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Deniz Hoca",
+      "videoId": "BMaVTFcOC2c"
     },
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026"
+    "verifiedLectureTitle": "MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

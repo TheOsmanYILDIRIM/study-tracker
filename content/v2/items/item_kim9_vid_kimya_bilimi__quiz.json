@@ -86,7 +86,7 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.txt",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_kimya_bilimi.tr.tr.vtt"
     }
   }
 }

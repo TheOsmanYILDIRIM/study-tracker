@@ -82,7 +82,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.txt",
       "transcriptFingerprint": "f02c6b395241b95b",
-      "sharedSource": false
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler.tr.tr.vtt"
     }
   }
 }

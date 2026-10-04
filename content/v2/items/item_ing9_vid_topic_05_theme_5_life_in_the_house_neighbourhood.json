@@ -28,7 +28,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "2499c9002bb740c7",
+      "fingerprint": "17e1a55447af6530",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=GUM8bs1kRwc",
       "reviewedOverride": true,
@@ -39,9 +39,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_05_theme_5_life_in_the_house_neighbourhood.tr.tr.vtt",
       "teacher": "Ms. Jasmin ELT",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "GUM8bs1kRwc"
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

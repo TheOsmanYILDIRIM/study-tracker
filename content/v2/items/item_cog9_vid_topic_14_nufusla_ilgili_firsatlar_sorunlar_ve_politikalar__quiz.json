@@ -81,7 +81,9 @@
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.txt",
-      "transcriptFingerprint": "b6f5548490fc2f0f"
+      "transcriptFingerprint": "b6f5548490fc2f0f",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar.tr.tr.vtt"
     }
   }
 }

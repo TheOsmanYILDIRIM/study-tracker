@@ -32,8 +32,7 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.tr.vtt",
       "transcriptFingerprint": "5faa10ff494c65cb",
-      "sharedSource": true,
-      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
+      "sharedSource": false
     }
   }
 }

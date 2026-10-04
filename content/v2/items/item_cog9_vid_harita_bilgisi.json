@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "910dd307b614662d",
+      "fingerprint": "c84a52b25df31881",
       "sourceWeeks": [
         4,
         5,
@@ -35,7 +35,8 @@
       "reviewedOverride": true,
       "teacher": "Yunus Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "pPeiiLXr-aU"
     },
     "provider": "Coğrafyanın Kodları",
     "topic": "Mekânın Aynası Haritalar",
@@ -43,6 +44,8 @@
       "sourceUrl": "https://www.youtube.com/watch?v=lmFGwdkEURc",
       "provider": "Coğrafyanın Kodları"
     },
-    "verifiedLectureTitle": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025"
+    "verifiedLectureTitle": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

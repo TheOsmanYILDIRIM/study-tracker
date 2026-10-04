@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "a0b380b9d1c5257c",
+      "fingerprint": "afa0a049695744b3",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=9WB1e2c80gA",
       "reviewedOverride": true,
@@ -36,13 +36,16 @@
       "transcriptFingerprint": "b1ad3ef0f9b4870f",
       "sharedSource": false,
       "teacher": "Yunus Hoca",
-      "sharedSourceReason": null
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "9WB1e2c80gA"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",
       "provider": "Coğrafyanın Kodları"
     },
     "teacher": "Yunus Hoca",
-    "verifiedLectureTitle": "🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025"
+    "verifiedLectureTitle": "🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "414b96c3eb7dd062",
+      "fingerprint": "25300426fdcb0e58",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3uhN8JlukLg",
       "transcriptLanguage": "tr",
@@ -33,11 +33,15 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_02_kimyasal_maddelerin_kullanimi_ve_guvenlik.tr.tr.vtt",
       "transcriptFingerprint": "375d92366dc8fbda",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar.",
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
       "reviewedOverride": true,
-      "teacher": "Meschemy Kimya"
+      "teacher": "Meschemy Kimya",
+      "provider": "Meschemy Kimya",
+      "videoId": "3uhN8JlukLg"
     },
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

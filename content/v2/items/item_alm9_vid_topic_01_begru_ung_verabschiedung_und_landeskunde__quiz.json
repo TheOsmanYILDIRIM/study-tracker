@@ -85,7 +85,8 @@
       "fingerprint": "2efde138411a36d9",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.txt",
-      "sharedSource": false
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde.tr.tr.vtt"
     }
   }
 }

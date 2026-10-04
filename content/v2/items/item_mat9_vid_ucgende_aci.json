@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "bf423a81ffb6efd8",
+      "fingerprint": "ba5d7334bb001717",
       "sourceWeeks": [
         14,
         15,
@@ -34,11 +34,14 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Rehber Matematik",
+      "videoId": "sZrQZ7YU5gs"
     },
     "provider": "Rehber Matematik",
     "topic": "Üçgende Açı ve Kenar İlişkileri",
     "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

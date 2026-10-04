@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "ed36315bc515aff4",
+      "fingerprint": "6d7b295e141fa23f",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=JqVImq7hFjk",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -27,9 +27,13 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar."
+      "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.",
+      "provider": "Dr. Biyoloji",
+      "videoId": "JqVImq7hFjk"
     },
     "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

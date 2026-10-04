@@ -84,7 +84,9 @@
       "fingerprint": "274eef158a12c7fa",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.txt",
-      "transcriptFingerprint": "e17c90c0e4a30a86"
+      "transcriptFingerprint": "e17c90c0e4a30a86",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi.tr.tr.vtt"
     }
   }
 }

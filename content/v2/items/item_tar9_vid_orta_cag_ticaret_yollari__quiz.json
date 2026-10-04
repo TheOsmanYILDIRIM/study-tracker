@@ -86,7 +86,8 @@
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.txt",
       "transcriptFingerprint": "87776d5b44d04213",
       "sharedSource": false,
-      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts"
+      "reviewedOverrideReason": "Topic-specific curriculum coverage verified with Turkish transcripts",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_orta_cag_ticaret_yollari.tr.tr.vtt"
     }
   }
 }

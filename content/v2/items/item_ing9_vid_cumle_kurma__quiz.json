@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.txt",
       "transcriptFingerprint": "bf6f4cf0d4ef8443",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_cumle_kurma.tr.tr.vtt"
     }
   }
 }

@@ -71,17 +71,21 @@
     },
     "provenance": {
       "derivedFromItemId": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=f57ieCD3tAA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "generatedBy": "gemini",
-      "reviewStatus": "verified",
+      "reviewStatus": "needs_review",
       "reviewedOverride": true,
       "importedAt": "2026-10-03T21:00:00.000Z",
       "schemaVersion": "v2",
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.txt",
-      "transcriptFingerprint": "0b173a9c3024f844"
+      "transcriptFingerprint": "53e34569e1db2814",
+      "sharedSource": true,
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri.tr.tr.vtt",
+      "sharedSourceReason": "Atmosferin katmanları, sıcaklık etmenleri ve hava olaylarının günlük hayata etkileri ortak video kapsamı",
+      "reviewNote": "Atmosfer/sıcaklık günlük hava olayları temelini verir; yağış-rüzgâr ayrı derslerde."
     }
   }
 }

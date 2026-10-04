@@ -17,14 +17,22 @@
       "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "f2b5f73128476d91",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
-      "transcriptFingerprint": "701580fd7642654a",
+      "transcriptFingerprint": "26c85026e730877c",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
-    }
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt",
+      "sharedSource": false,
+      "videoId": "bXlsejMNF5w",
+      "teacher": "Rehber Matematik",
+      "reviewedOverride": true
+    },
+    "teacher": "Rehber Matematik",
+    "verifiedLectureTitle": "Köklü İfadeler 2 ｜ 1.Tema Sayılar 9 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -18,7 +18,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "8a3384c8985775cc",
+      "fingerprint": "1ef39674c376f6f8",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
@@ -28,9 +28,12 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Rehber Matematik",
+      "videoId": "-OYMlnoW9gw"
     },
     "verifiedLectureTitle": "Üslü İfadeler 2 ｜ 1.TEMA Sayılar 2 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

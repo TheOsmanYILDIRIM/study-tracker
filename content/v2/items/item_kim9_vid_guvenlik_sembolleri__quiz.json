@@ -84,7 +84,8 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.txt",
       "transcriptFingerprint": "375d92366dc8fbda",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar."
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_guvenlik_sembolleri.tr.tr.vtt"
     }
   }
 }

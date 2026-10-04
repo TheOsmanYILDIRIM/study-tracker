@@ -86,7 +86,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir."
+      "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_schulsachen_artikel.tr.tr.vtt"
     }
   }
 }

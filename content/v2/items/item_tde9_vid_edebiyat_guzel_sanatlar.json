@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "4ca14242badee505",
+      "fingerprint": "b83d86d0ed04f097",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=NBhw_SkvV8E",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -26,10 +26,13 @@
       "reviewedOverride": true,
       "sharedSource": false,
       "teacher": "Deniz Hoca",
-      "sharedSourceReason": null
+      "provider": "Deniz Hoca",
+      "videoId": "NBhw_SkvV8E"
     },
     "provider": "Deniz Hoca",
     "teacher": "Deniz Hoca",
-    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝"
+    "verifiedLectureTitle": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

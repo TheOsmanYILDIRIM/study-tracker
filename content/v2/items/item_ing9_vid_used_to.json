@@ -24,7 +24,8 @@
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.txt",
       "transcriptFingerprint": "4b0329e9aa172d59",
-      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.tr.vtt"
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_used_to.tr.tr.vtt",
+      "sharedSource": false
     },
     "provider": "Özer Kiraz",
     "verifiedLectureTitle": "İngilizcede Edilgenlik Konu Anlatımı #82"

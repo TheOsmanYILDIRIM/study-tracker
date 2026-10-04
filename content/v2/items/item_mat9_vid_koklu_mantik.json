@@ -18,7 +18,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "eee9be83c1795b3b",
+      "fingerprint": "ae7f821ad332b6d1",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
@@ -28,9 +28,12 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Rehber Matematik",
+      "videoId": "k9Gx8yy6xSo"
     },
     "verifiedLectureTitle": "Köklü İfadeler 1 ｜ 1.Tema Sayılar 8 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

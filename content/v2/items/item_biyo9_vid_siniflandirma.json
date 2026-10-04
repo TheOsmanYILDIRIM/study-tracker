@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "984b7b3aa4b5399c",
+      "fingerprint": "1960f2dda276ea3f",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=rit0LlD2Fnw",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -26,10 +26,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_biyo9_vid_siniflandirma.tr.tr.vtt",
       "teacher": "Dr. Biyoloji",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar."
+      "sharedSourceReason": "Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.",
+      "provider": "Dr. Biyoloji",
+      "videoId": "rit0LlD2Fnw"
     },
     "provider": "Dr. Biyoloji",
     "teacher": "Dr. Biyoloji",
-    "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027"
+    "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

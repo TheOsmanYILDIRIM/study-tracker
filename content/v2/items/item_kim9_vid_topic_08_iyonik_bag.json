@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 6,
       "videoCandidateTitle": "İyonik Bağ Nasıl Oluşur? + PDF 📌 9. SINIF KİMYA YENİ MÜFREDAT 2025 📌2. TEMA GÜN 13",
-      "fingerprint": "61b7832a269a6722",
+      "fingerprint": "4ef01e6d6cac3944",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=F4eYD8UdDXI",
       "transcriptLanguage": "tr",
@@ -34,11 +34,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_08_iyonik_bag.tr.tr.vtt",
       "transcriptFingerprint": "4d4b87ca2f499bfc",
       "sharedSource": false,
-      "sharedSourceReason": null,
       "reviewedOverride": true,
-      "teacher": "Meschemy Kimya"
+      "teacher": "Meschemy Kimya",
+      "provider": "Meschemy Kimya",
+      "videoId": "F4eYD8UdDXI"
     },
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

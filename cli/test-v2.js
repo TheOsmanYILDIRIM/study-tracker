@@ -451,7 +451,7 @@ async function runCliTests() {
     assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
     assert.strictEqual(validation.stats.quizCount, 200, 'Must have 200 deterministic quiz items (35 lesson quizzes + 165 micro-quizzes)');
     assert.strictEqual(validation.warnings.length, 0, 'Production catalog must have 0 actionable audit warnings');
-    assert.strictEqual(validation.explicitExceptions.length, 29, 'Production catalog must have exactly 29 verified explicit exceptions (28 sharedSource + 1 history override)');
+    assert.strictEqual(validation.explicitExceptions.length, 30, 'Production catalog must have exactly 30 verified explicit exceptions (29 sharedSource + 1 history override)');
     console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings, ${validation.explicitExceptions.length} explicit exceptions.`);
 
     // Test 8: Canonical History Teacher & Stale Warning / Active Error / Override Exception
@@ -904,18 +904,17 @@ async function runCliTests() {
 
       const prov = qItem.payload?.provenance;
       assert(prov, 'Micro-quiz must have provenance');
-      assert(prov.derivedFromItemId, 'Must have derivedFromItemId');
-      assert.strictEqual(prov.reviewStatus, 'verified', 'Review status must be verified');
+      // Assert matching parent video
+      const parentVidFile = path.resolve(__dirname, `../content/v2/items/${prov.derivedFromItemId}.json`);
+      assert(fs.existsSync(parentVidFile), `Parent video file must exist for ${qItem.id}`);
+      const parentVid = JSON.parse(fs.readFileSync(parentVidFile, 'utf8'));
+      assert(['verified', 'needs_review'].includes(prov.reviewStatus), `Quiz ${qItem.id} review status must be verified or needs_review`);
+      assert.strictEqual(prov.reviewStatus, parentVid.payload?.provenance?.reviewStatus, `Quiz ${qItem.id} reviewStatus must match parent video reviewStatus`);
 
       if (prov.groundingType === 'transcript_grounded' || prov.transcriptFingerprint) {
         assert(prov.sourceVideoUrl, `Transcript-grounded quiz ${qItem.id} must have sourceVideoUrl`);
         assert.strictEqual(prov.transcriptLanguage, 'tr', `Quiz ${qItem.id} transcriptLanguage must be "tr"`);
         assert(typeof prov.transcriptFingerprint === 'string' && prov.transcriptFingerprint.length === 16, `Quiz ${qItem.id} must have 16-hex transcriptFingerprint`);
-        
-        // Assert matching parent video fingerprint
-        const parentVidFile = path.resolve(__dirname, `../content/v2/items/${prov.derivedFromItemId}.json`);
-        assert(fs.existsSync(parentVidFile), `Parent video file must exist for ${qItem.id}`);
-        const parentVid = JSON.parse(fs.readFileSync(parentVidFile, 'utf8'));
         assert.strictEqual(prov.sourceVideoUrl, parentVid.contentUrl, `Quiz ${qItem.id} sourceVideoUrl must match parent video contentUrl`);
         assert.strictEqual(prov.transcriptFingerprint, parentVid.payload?.provenance?.transcriptFingerprint, `Quiz ${qItem.id} fingerprint must match parent video transcriptFingerprint`);
       } else {

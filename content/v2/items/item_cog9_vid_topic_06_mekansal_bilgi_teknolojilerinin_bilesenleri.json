@@ -32,7 +32,8 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri.tr.tr.vtt",
       "transcriptFingerprint": "e4c41fbce21b506c",
-      "reviewedOverride": true
+      "reviewedOverride": true,
+      "sharedSource": false
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=AgRlAZjaPE4",

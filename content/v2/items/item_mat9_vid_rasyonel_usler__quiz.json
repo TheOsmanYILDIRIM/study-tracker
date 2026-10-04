@@ -78,7 +78,7 @@
       "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptFingerprint": "701580fd7642654a",
+      "transcriptFingerprint": "26c85026e730877c",
       "generatedBy": "gemini",
       "reviewStatus": "verified",
       "reviewedOverride": true,
@@ -86,7 +86,9 @@
       "schemaVersion": "v2",
       "fingerprint": "9851e46eca78b27d",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
     }
   }
 }

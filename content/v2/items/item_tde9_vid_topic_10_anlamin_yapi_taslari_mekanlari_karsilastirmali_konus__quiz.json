@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.txt",
-      "transcriptFingerprint": "794e62530bbd8ebe"
+      "transcriptFingerprint": "794e62530bbd8ebe",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus.tr.tr.vtt"
     }
   }
 }

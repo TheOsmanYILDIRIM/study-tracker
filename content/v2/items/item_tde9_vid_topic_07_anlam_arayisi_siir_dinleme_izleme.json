@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "059a700a077e9be8",
+      "fingerprint": "01254e48d5402368",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=jBQ6PMMdPDk",
       "transcriptLanguage": "tr",
@@ -37,7 +37,8 @@
       "sharedSource": true,
       "reviewedOverride": true,
       "teacher": "Deniz Hoca",
-      "sharedSourceReason": "Kapsamlı Deniz Hoca şiir dersi; şiirin yapı unsurları, ahenk ögeleri, dinleme/izleme ve yazma süreçlerini birlikte açıklar."
+      "sharedSourceReason": "Kapsamlı Deniz Hoca şiir dersi; şiirin yapı unsurları, ahenk ögeleri, dinleme/izleme ve yazma süreçlerini birlikte açıklar.",
+      "provider": "Deniz Hoca"
     },
     "teacher": "Deniz Hoca",
     "verifiedLectureTitle": "ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca"

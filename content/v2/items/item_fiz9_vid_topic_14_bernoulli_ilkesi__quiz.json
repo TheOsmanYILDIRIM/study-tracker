@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.txt",
       "transcriptFingerprint": "4a3c779cf3d70f8d",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt"
     }
   }
 }

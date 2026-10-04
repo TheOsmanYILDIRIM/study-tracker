@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "1c6bab2b0526646a",
+      "fingerprint": "7e8aadda997ea8ba",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=VwxSW7Rmr2U",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
@@ -27,10 +27,12 @@
       "transcriptFingerprint": "e1ef9b6427e0cf18",
       "teacher": "Özcan Aykın FİZİK",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "videoId": "VwxSW7Rmr2U"
     },
     "provider": "Özcan Aykın FİZİK",
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

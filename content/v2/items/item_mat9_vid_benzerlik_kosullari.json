@@ -24,8 +24,7 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.tr.vtt",
       "transcriptFingerprint": "1784cbe68f7fba31",
-      "sharedSource": true,
-      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
+      "sharedSource": false
     },
     "provider": "Rehber Matematik"
   }

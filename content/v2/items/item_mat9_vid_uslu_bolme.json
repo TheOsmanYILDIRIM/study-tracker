@@ -18,7 +18,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "9804b2b1137f0f3b",
+      "fingerprint": "4cf5167ced7f1b79",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
@@ -28,9 +28,13 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": true,
-      "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar."
+      "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
+      "provider": "Rehber Matematik",
+      "videoId": "uwl25uvO1sQ"
     },
     "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -31,7 +31,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "edb87bf42f64e0c8",
+      "fingerprint": "5ae57ba1356c1b15",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=wbL70rDWleU",
       "transcriptLanguage": "tr",
@@ -42,9 +42,12 @@
       "reviewedOverride": true,
       "teacher": "Meschemy Kimya",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Meschemy Kimya",
+      "videoId": "wbL70rDWleU"
     },
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (12.GÜN) ｜ MADDENİN HALLERİ - 2 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

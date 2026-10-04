@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "97f702e0dc97e79b",
+      "fingerprint": "9442943458559dbf",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=GjocuWHrXyM",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -27,9 +27,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_appearance_personality.tr.tr.vtt",
       "teacher": "Ms. Jasmin ELT",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "GjocuWHrXyM"
     },
     "provider": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)"
+    "verifiedLectureTitle": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -28,7 +28,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "b0731e8f773f94be",
+      "fingerprint": "6c2716194374e09c",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=AhpYrUKeHNE",
       "reviewedOverride": true,
@@ -39,9 +39,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.tr.vtt",
       "sharedSource": false,
       "teacher": "Ms. Jasmin ELT",
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "AhpYrUKeHNE"
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ"
+    "verifiedLectureTitle": "9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

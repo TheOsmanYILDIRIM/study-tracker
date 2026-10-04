@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 11.4,
       "videoCandidateTitle": "Nüfus piramitleri - Demografik dönüşüm modeli 🔴 9.sınıf coğrafya | 2025",
-      "fingerprint": "9b80b9676eb249b4",
+      "fingerprint": "8cb99589e4bb4ca3",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=iZ2F-uPaDr8",
       "transcriptLanguage": "tr",
@@ -36,13 +36,16 @@
       "reviewedOverride": true,
       "sharedSource": false,
       "teacher": "Yunus Hoca",
-      "sharedSourceReason": null
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "iZ2F-uPaDr8"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=SP1MlcvQiAs",
       "provider": "Coğrafyanın Kodları"
     },
     "verifiedLectureTitle": "🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025",
-    "teacher": "Yunus Hoca"
+    "teacher": "Yunus Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

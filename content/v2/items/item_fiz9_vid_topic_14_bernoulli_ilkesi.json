@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "e18a955ea611d7a0",
+      "fingerprint": "1ae29f9f7f343c4a",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=1Q3CtzfV1lQ",
       "provider": "Özcan Aykın FİZİK",
@@ -37,9 +37,11 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_14_bernoulli_ilkesi.tr.tr.vtt",
       "teacher": "Özcan Aykın FİZİK",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "videoId": "1Q3CtzfV1lQ"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

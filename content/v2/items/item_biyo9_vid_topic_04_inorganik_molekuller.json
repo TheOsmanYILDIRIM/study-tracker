@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "9. Sınıf Yeni Müfredat | 10. Ders: İnorganik Bileşikler - Su",
-      "fingerprint": "832ca288da814255",
+      "fingerprint": "5faff8e7f376060e",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=aV3n4v0t2HI",
       "transcriptLanguage": "tr",
@@ -36,9 +36,12 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Dr. Biyoloji",
+      "videoId": "og_SSjAZ7qk"
     },
     "verifiedLectureTitle": "İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

@@ -84,8 +84,9 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.txt",
       "transcriptFingerprint": "53e34569e1db2814",
-      "sharedSource": false,
-      "sharedSourceReason": null
+      "sharedSource": true,
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
+      "sharedSourceReason": "Atmosferin katmanları, sıcaklık etmenleri ve hava olaylarının günlük hayata etkileri ortak video kapsamı"
     }
   }
 }

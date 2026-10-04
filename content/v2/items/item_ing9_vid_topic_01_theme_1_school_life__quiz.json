@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.txt",
       "transcriptFingerprint": "bd55ec1db2796a9b",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_01_theme_1_school_life.tr.tr.vtt"
     }
   }
 }

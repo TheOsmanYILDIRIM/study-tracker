@@ -84,7 +84,8 @@
       "transcriptPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.txt",
       "transcriptFingerprint": "92b98bc529a7d5ec",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar."
+      "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.",
+      "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_zayif_etkilesimler.tr.tr.vtt"
     }
   }
 }

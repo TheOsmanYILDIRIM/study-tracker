@@ -32,7 +32,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 7.4,
       "videoCandidateTitle": "Vitaminler ve Ayıraçlar | 9. Sınıf Maarif Model | Dr. Biyoloji",
-      "fingerprint": "e3517561e442c85f",
+      "fingerprint": "7795e7bd35dedb6e",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=9ONeiMJL6VY",
       "transcriptLanguage": "tr",
@@ -43,9 +43,12 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Dr. Biyoloji",
+      "videoId": "9ONeiMJL6VY"
     },
     "verifiedLectureTitle": "Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

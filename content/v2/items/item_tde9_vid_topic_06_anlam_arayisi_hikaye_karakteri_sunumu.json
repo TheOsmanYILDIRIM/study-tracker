@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 5.4,
       "videoCandidateTitle": "Hikâye | 9.SINIF | 2.TEMA |Türk Dili ve Edebiyatı Dersi",
-      "fingerprint": "6fc8b21df1e1fd76",
+      "fingerprint": "97cde3558b9a88d9",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3sxZJrvAYIM",
       "transcriptLanguage": "tr",
@@ -34,11 +34,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_06_anlam_arayisi_hikaye_karakteri_sunumu.tr.tr.vtt",
       "transcriptFingerprint": "847729350a050682",
       "sharedSource": false,
-      "sharedSourceReason": null,
       "reviewedOverride": true,
-      "teacher": "Deniz Hoca"
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "videoId": "3sxZJrvAYIM"
     },
     "verifiedLectureTitle": "HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
-    "teacher": "Deniz Hoca"
+    "teacher": "Deniz Hoca",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

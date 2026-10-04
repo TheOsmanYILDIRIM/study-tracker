@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "a809fcf8456d5d78",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_08_stundenplan_und_schule.tr.tr.vtt"
     }
   }
 }

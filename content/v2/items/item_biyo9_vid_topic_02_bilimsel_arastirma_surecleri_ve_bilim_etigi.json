@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 10.4,
       "videoCandidateTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği | 9. Sınıf Maarif Model | Dr. Biyoloji",
-      "fingerprint": "ca33648ad6944325",
+      "fingerprint": "8fd84a825fd772f3",
       "schemaVersion": "v2",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -37,9 +37,13 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler."
+      "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
+      "provider": "Dr. Biyoloji",
+      "videoId": "V0SzzIeniHc"
     },
     "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -86,7 +86,8 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.txt",
       "transcriptFingerprint": "11420f9aa96c6564",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik dersi; fizik bilimine giriş, fiziğin alt dalları ve temel kavramları bir bütün olarak kapsar."
+      "sharedSourceReason": "Kapsamlı TYT Fizik dersi; fizik bilimine giriş, fiziğin alt dalları ve temel kavramları bir bütün olarak kapsar.",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_alt_dallar.tr.tr.vtt"
     }
   }
 }

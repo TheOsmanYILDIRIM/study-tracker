@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "74830cb2bf0d91e7",
+      "fingerprint": "23fb933f38b096e0",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=jOKADXphfC8",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
@@ -26,11 +26,13 @@
       "transcriptFingerprint": "4492ad0a645fc937",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_basinc_prensipleri.tr.tr.vtt",
       "sharedSource": false,
-      "sharedSourceReason": null,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "videoId": "jOKADXphfC8"
     },
     "provider": "Özcan Aykın FİZİK",
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

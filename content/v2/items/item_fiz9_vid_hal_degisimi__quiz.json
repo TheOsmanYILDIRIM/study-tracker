@@ -86,7 +86,8 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.txt",
       "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar."
+      "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt"
     }
   }
 }

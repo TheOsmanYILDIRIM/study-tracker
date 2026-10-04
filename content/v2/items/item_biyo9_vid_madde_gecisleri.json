@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "54d0c9a9d634ce1c",
+      "fingerprint": "282dddbd028a5d9c",
       "sourceWeeks": [
         30,
         31,
@@ -35,11 +35,14 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Dr. Biyoloji",
+      "videoId": "NYz4uNbiphU"
     },
     "provider": "Dr. Biyoloji",
     "topic": "Hücre Zarından Madde Geçişleri",
     "verifiedLectureTitle": "Hücre Zarında Madde Alışverişleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

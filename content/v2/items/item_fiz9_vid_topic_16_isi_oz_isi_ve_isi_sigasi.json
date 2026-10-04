@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Öz Isı - Isı Sığası📌Yeni Müfredat Fizik 2025 - 9.Sınıf Fizik 4.Ünite 📌",
-      "fingerprint": "ae00a7d158949ebc",
+      "fingerprint": "53629f8e6454337d",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=VhqHkBN6xMQ",
       "transcriptLanguage": "tr",
@@ -34,11 +34,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_16_isi_oz_isi_ve_isi_sigasi.tr.tr.vtt",
       "transcriptFingerprint": "222323b2324f3f14",
       "sharedSource": false,
-      "sharedSourceReason": null,
       "reviewedOverride": true,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "provider": "Özcan Aykın FİZİK",
+      "videoId": "VhqHkBN6xMQ"
     },
     "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
-    "teacher": "Özcan Aykın FİZİK"
+    "teacher": "Özcan Aykın FİZİK",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

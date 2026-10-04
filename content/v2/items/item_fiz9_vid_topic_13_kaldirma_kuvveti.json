@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "e5498c69ae69f56b",
+      "fingerprint": "f92b4c82ced7d672",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=XQHH2VV1Bbk",
       "provider": "Özcan Aykın FİZİK",
@@ -36,10 +36,13 @@
       "transcriptFingerprint": "2b345b647740cbbe",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_13_kaldirma_kuvveti.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır.",
-      "teacher": "Özcan Aykın FİZİK"
+      "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
+      "teacher": "Özcan Aykın FİZİK",
+      "videoId": "XQHH2VV1Bbk"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -84,7 +84,8 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
       "transcriptFingerprint": "2ad01955011f72cc",
       "sharedSource": true,
-      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı"
+      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma, dönme ve simetri eksenleri ortak video kapsamı",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.tr.vtt"
     }
   }
 }

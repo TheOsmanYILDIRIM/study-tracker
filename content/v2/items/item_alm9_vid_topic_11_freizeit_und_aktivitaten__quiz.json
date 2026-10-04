@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "b3602b8814057f92",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_alm9_vid_topic_11_freizeit_und_aktivitaten.tr.tr.vtt"
     }
   }
 }

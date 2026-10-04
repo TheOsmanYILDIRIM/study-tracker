@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:25:23.109Z",
+  "generatedAt": "2026-10-04T18:35:16.839Z",
   "totalRawWarnings": 28,
   "classificationSummary": {
     "false_positive": 28,
@@ -22,8 +22,8 @@
         "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
       "items": [
         {
           "id": "item_mat9_vid_uslu_bolme",
@@ -35,7 +35,7 @@
           "teacher": "Deniz Mehmet Hoca",
           "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
           "sharedSource": true,
-          "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar.",
+          "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
           "transcriptFingerprint": "bd69e1fbf5237ef4",
           "reviewStatus": "verified"
         },
@@ -49,7 +49,7 @@
           "teacher": null,
           "verifiedLectureTitle": null,
           "sharedSource": true,
-          "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar.",
+          "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
           "transcriptFingerprint": "71eb5b21eb0dd86f",
           "reviewStatus": "curated"
         }
@@ -68,8 +68,8 @@
         "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Gerçek sayıların işlem özellikleri, cebirsel ispat ve modelleme ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Gerçek sayıların işlem özellikleri, cebirsel ispat ve modelleme ortak video kapsamı",
       "items": [
         {
           "id": "item_mat9_vid_cebirsel_ispat",
@@ -81,7 +81,7 @@
           "teacher": null,
           "verifiedLectureTitle": null,
           "sharedSource": true,
-          "sharedSourceReason": "Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı",
+          "sharedSourceReason": "Gerçek sayıların işlem özellikleri, cebirsel ispat ve modelleme ortak video kapsamı",
           "transcriptFingerprint": "1184ee0b138df4fd",
           "reviewStatus": "verified"
         },
@@ -95,7 +95,7 @@
           "teacher": null,
           "verifiedLectureTitle": null,
           "sharedSource": true,
-          "sharedSourceReason": "Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı",
+          "sharedSourceReason": "Gerçek sayıların işlem özellikleri, cebirsel ispat ve modelleme ortak video kapsamı",
           "transcriptFingerprint": "1184ee0b138df4fd",
           "reviewStatus": "verified"
         }
@@ -114,8 +114,8 @@
         "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Geometrik dönüşümler: öteleme, yansıma, dönme ve simetri eksenleri ortak video kapsamı), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma, dönme ve simetri eksenleri ortak video kapsamı",
       "items": [
         {
           "id": "item_mat9_vid_topic_09_geometrik_donusumler",
@@ -127,7 +127,7 @@
           "teacher": "Rehber Matematik",
           "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
           "sharedSource": true,
-          "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+          "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma, dönme ve simetri eksenleri ortak video kapsamı",
           "transcriptFingerprint": "2ad01955011f72cc",
           "reviewStatus": "verified"
         },
@@ -141,7 +141,7 @@
           "teacher": "Rehber Matematik",
           "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
           "sharedSource": true,
-          "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+          "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma, dönme ve simetri eksenleri ortak video kapsamı",
           "transcriptFingerprint": "2ad01955011f72cc",
           "reviewStatus": "verified"
         }
@@ -268,8 +268,8 @@
         "Kaldırma Kuvveti (Yüzme, Askıda Kalma, Batma ve Taşma Kapları)"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
       "items": [
         {
           "id": "item_fiz9_vid_kaldirma_kuvveti",
@@ -281,7 +281,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır.",
+          "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
           "transcriptFingerprint": "2b345b647740cbbe",
           "reviewStatus": "verified"
         },
@@ -295,7 +295,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır.",
+          "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
           "transcriptFingerprint": "2b345b647740cbbe",
           "reviewStatus": "verified"
         }
@@ -314,8 +314,8 @@
         "Hâl Değişimi"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
       "items": [
         {
           "id": "item_fiz9_vid_hal_degisimi",
@@ -327,7 +327,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
+          "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
           "transcriptFingerprint": "0e4338e366f0ad79",
           "reviewStatus": "verified"
         },
@@ -341,7 +341,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
+          "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
           "transcriptFingerprint": "0e4338e366f0ad79",
           "reviewStatus": "verified"
         }
@@ -360,8 +360,8 @@
         "Isı İletim Hızı, Yalıtım ve Hissedilen Sıcaklık"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Isı aktarım yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızını etkileyen faktörler tek ders videosunda birlikte işlenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızını etkileyen faktörler tek ders videosunda birlikte işlenir.",
       "items": [
         {
           "id": "item_fiz9_vid_topic_19_isi_aktarim_yollari",
@@ -373,7 +373,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar.",
+          "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızını etkileyen faktörler tek ders videosunda birlikte işlenir.",
           "transcriptFingerprint": "2f4ccf0688ff0d7a",
           "reviewStatus": "verified"
         },
@@ -387,7 +387,7 @@
           "teacher": "Özcan Aykın FİZİK",
           "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı TYT Fizik ısı aktarımı dersi; iletim, konveksiyon, ışıma yolları ve iletim hızını etkileyen faktörleri birlikte açıklar.",
+          "sharedSourceReason": "Isı aktarım yolları (iletim, konveksiyon, ışıma) ve ısı iletim hızını etkileyen faktörler tek ders videosunda birlikte işlenir.",
           "transcriptFingerprint": "2f4ccf0688ff0d7a",
           "reviewStatus": "verified"
         }
@@ -406,8 +406,8 @@
         "Kimyasal Maddelerin Kullanımı ve Güvenlik"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
       "items": [
         {
           "id": "item_kim9_vid_guvenlik_sembolleri",
@@ -419,7 +419,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar.",
+          "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
           "transcriptFingerprint": "375d92366dc8fbda",
           "reviewStatus": "verified"
         },
@@ -433,7 +433,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; laboratuvar güvenlik kuralları, güvenlik sembolleri ve tehlike işaretlerini birlikte kapsar.",
+          "sharedSourceReason": "Kimya laboratuvarında güvenlik kuralları ve tehlike uyarı piktogramları tek ders videosunda birlikte işlenir.",
           "transcriptFingerprint": "375d92366dc8fbda",
           "reviewStatus": "verified"
         }
@@ -452,8 +452,8 @@
         "Periyodik Özellikler"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
       "items": [
         {
           "id": "item_kim9_vid_periyodik_ozellikler",
@@ -465,7 +465,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.",
+          "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
           "transcriptFingerprint": "3667e4e4ae442b90",
           "reviewStatus": "verified"
         },
@@ -479,7 +479,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.",
+          "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
           "transcriptFingerprint": "3667e4e4ae442b90",
           "reviewStatus": "verified"
         }
@@ -498,8 +498,8 @@
         "Moleküller Arası Zayıf Etkileşimler ve Hidrojen Bağı"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.",
       "items": [
         {
           "id": "item_kim9_vid_topic_07_metalik_bag",
@@ -511,7 +511,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar.",
+          "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.",
           "transcriptFingerprint": "92b98bc529a7d5ec",
           "reviewStatus": "verified"
         },
@@ -525,7 +525,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; metalik bağ doğası ve moleküller arası zayıf etkileşimleri ilişkili olarak açıklar.",
+          "sharedSourceReason": "Metalik bağ modeli ve moleküller arası zayıf etkileşimler (Van der Waals, hidrojen bağı) aynı derste incelenir.",
           "transcriptFingerprint": "92b98bc529a7d5ec",
           "reviewStatus": "verified"
         }
@@ -546,8 +546,8 @@
         "Molekül Polarlığı ve Apolarlığı"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.",
       "items": [
         {
           "id": "item_kim9_vid_topic_09_kovalent_bag",
@@ -559,7 +559,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar.",
+          "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.",
           "transcriptFingerprint": "34afc097a77c7e1a",
           "reviewStatus": "verified"
         },
@@ -573,7 +573,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar.",
+          "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.",
           "transcriptFingerprint": "34afc097a77c7e1a",
           "reviewStatus": "verified"
         },
@@ -587,7 +587,7 @@
           "teacher": "Meschemy Kimya",
           "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Meschemy Kimya dersi; kovalent bağ oluşumu, Lewis nokta yapıları ve molekül polarlığı/apolarlığı analizini bir arada sunar.",
+          "sharedSourceReason": "Kovalent bağ oluşumu, Lewis elektron nokta gösterimleri ve moleküllerin polar/apolar niteliği tek derste kapsamlı biçimde işlenir.",
           "transcriptFingerprint": "34afc097a77c7e1a",
           "reviewStatus": "verified"
         }
@@ -606,8 +606,8 @@
         "Canlıların Ortak Özellikleri"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.",
       "items": [
         {
           "id": "item_biyo9_vid_yasam_nedir",
@@ -619,7 +619,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar.",
+          "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.",
           "transcriptFingerprint": "a698fecff5e7f6c6",
           "reviewStatus": "verified"
         },
@@ -633,7 +633,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; yaşamın tanımı ve canlıların tüm ortak özelliklerini tek bir video kapsamında açıklar.",
+          "sharedSourceReason": "Yaşam bilimi biyolojiye giriş ve canlıların 12 ortak özelliği tek derste eksiksiz anlatılmaktadır.",
           "transcriptFingerprint": "a698fecff5e7f6c6",
           "reviewStatus": "verified"
         }
@@ -654,8 +654,8 @@
         "Bilimsel Araştırma Süreçleri ve Bilim Etiği"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
       "items": [
         {
           "id": "item_biyo9_vid_bilim_nedir",
@@ -667,7 +667,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler.",
+          "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
           "transcriptFingerprint": "cb719c3766fcb2ca",
           "reviewStatus": "verified"
         },
@@ -681,7 +681,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler.",
+          "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
           "transcriptFingerprint": "cb719c3766fcb2ca",
           "reviewStatus": "verified"
         },
@@ -695,7 +695,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; bilimsel yöntem basamakları, kontrollü deney tasarımı ve bilim etiği konularını bir arada işler.",
+          "sharedSourceReason": "Bilimsel araştırma basamakları, kontrollü deney düzenekleri ve bilim etiği aynı ders videosunda bütünsel aktarılmaktadır.",
           "transcriptFingerprint": "cb719c3766fcb2ca",
           "reviewStatus": "verified"
         }
@@ -714,8 +714,8 @@
         "Sınıflandırma İlkeleri, İkili Adlandırma ve Canlılar Âlemleri"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.",
       "items": [
         {
           "id": "item_biyo9_vid_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
@@ -727,7 +727,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar.",
+          "sharedSourceReason": "Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.",
           "transcriptFingerprint": "b49f8bc7b982f3c7",
           "reviewStatus": "verified"
         },
@@ -741,7 +741,7 @@
           "teacher": "Dr. Biyoloji",
           "verifiedLectureTitle": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Dr. Biyoloji dersi; canlıların sınıflandırılması ilkeleri ve üst âlem / âlem gruplarını birlikte kapsar.",
+          "sharedSourceReason": "Canlıların sınıflandırılması ilkeleri, hiyerarşik kategoriler ve üç üst âlem sistemi aynı derste öğretilmektedir.",
           "transcriptFingerprint": "b49f8bc7b982f3c7",
           "reviewStatus": "verified"
         }
@@ -1022,8 +1022,8 @@
         "Niçin Coğrafya Öğrenmeliyiz?"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
       "items": [
         {
           "id": "item_cog9_vid_doga_insan",
@@ -1035,7 +1035,7 @@
           "teacher": "Yunus Hoca",
           "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler.",
+          "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
           "transcriptFingerprint": "0d2f46b4dbd67ca4",
           "reviewStatus": "verified"
         },
@@ -1049,7 +1049,7 @@
           "teacher": "Yunus Hoca",
           "verifiedLectureTitle": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları dersi; doğa-insan etkileşimi, coğrafyanın alt dalları ve coğrafya öğrenmenin önemini bütünleşik olarak işler.",
+          "sharedSourceReason": "Doğa-insan etkileşimi ve coğrafya öğrenmenin önemi Yunus Hoca tarafından tek ders videosunda ele alınmaktadır.",
           "transcriptFingerprint": "0d2f46b4dbd67ca4",
           "reviewStatus": "verified"
         }
@@ -1116,8 +1116,8 @@
         "Bütüncül Afet Yönetimi"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
       "items": [
         {
           "id": "item_cog9_vid_topic_16_tehlike_risk_ve_afet",
@@ -1129,7 +1129,7 @@
           "teacher": "Yunus Hoca",
           "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.",
+          "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
           "transcriptFingerprint": "dd6b0aef7e5df09f",
           "reviewStatus": "verified"
         },
@@ -1143,7 +1143,7 @@
           "teacher": "Yunus Hoca",
           "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.",
+          "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
           "transcriptFingerprint": "dd6b0aef7e5df09f",
           "reviewStatus": "verified"
         },
@@ -1157,7 +1157,7 @@
           "teacher": "Yunus Hoca",
           "verifiedLectureTitle": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Coğrafyanın Kodları afet yönetimi dersi; doğal afet türleri, tehlike ve risk analizi ile afet öncesi/sırası/sonrası bütüncül yönetimi kapsar.",
+          "sharedSourceReason": "Doğal afet türleri, tehlike-risk kavramları ve afet yönetim süreçleri tek derste bütüncül olarak öğretilir.",
           "transcriptFingerprint": "dd6b0aef7e5df09f",
           "reviewStatus": "verified"
         }
@@ -1178,8 +1178,8 @@
         "Alter, Alphabet und Buchstabieren"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.",
       "items": [
         {
           "id": "item_alm9_vid_sayilar",
@@ -1191,7 +1191,7 @@
           "teacher": "Tonguç Akademi",
           "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+          "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.",
           "transcriptFingerprint": "bf03fc0cb878dddc",
           "reviewStatus": "verified"
         },
@@ -1205,7 +1205,7 @@
           "teacher": "Tonguç Akademi",
           "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+          "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.",
           "transcriptFingerprint": "bf03fc0cb878dddc",
           "reviewStatus": "verified"
         },
@@ -1219,7 +1219,7 @@
           "teacher": "Tonguç Akademi",
           "verifiedLectureTitle": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
+          "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.",
           "transcriptFingerprint": "bf03fc0cb878dddc",
           "reviewStatus": "verified"
         }
@@ -1238,8 +1238,8 @@
         "Die Schulsachen und Artikel (Der, Die, Das / Ein, Eine, Kein)"
       ],
       "classification": "false_positive",
-      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
-      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir.",
+      "rationale": "Legitimate intentional shared video resource covering unified curriculum topics (Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.), with explicit sharedSource=true, verified Turkish transcripts, and matching fingerprints.",
+      "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
       "items": [
         {
           "id": "item_alm9_vid_topic_05_schulsachen",
@@ -1251,7 +1251,7 @@
           "teacher": "Tonguç Akademi",
           "verifiedLectureTitle": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir.",
+          "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
           "transcriptFingerprint": "fcdb8085fd36c0c3",
           "reviewStatus": "verified"
         },
@@ -1265,7 +1265,7 @@
           "teacher": "Tonguç Akademi",
           "verifiedLectureTitle": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben",
           "sharedSource": true,
-          "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; okul eşyaları (Schulsachen) ve artikelleri (der, die, das / ein, eine, kein) bir arada öğretir.",
+          "sharedSourceReason": "Okul eşyaları (Schulsachen) ve artikeller (der/die/das/ein/eine/kein) aynı Tonguç dersinde birlikte işlenir.",
           "transcriptFingerprint": "fcdb8085fd36c0c3",
           "reviewStatus": "verified"
         }

@@ -27,7 +27,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "284b36408b23eb5c",
+      "fingerprint": "63a63c081a5a10bb",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=yksFI9sPggY",
       "reviewedOverride": true,
@@ -38,9 +38,12 @@
       "transcriptRawPath": "content/v2/transcripts/item_ing9_vid_topic_08_theme_8_life_in_the_universe_future.tr.tr.vtt",
       "teacher": "Ms. Jasmin ELT",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Ms. Jasmin ELT",
+      "videoId": "yksFI9sPggY"
     },
     "teacher": "Ms. Jasmin ELT",
-    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE"
+    "verifiedLectureTitle": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

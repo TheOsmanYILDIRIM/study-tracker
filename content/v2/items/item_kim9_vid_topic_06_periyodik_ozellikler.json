@@ -26,7 +26,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "a64430b05f26304d",
+      "fingerprint": "c8ca11ab89eeb972",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=_2Lb0ybajvE",
       "transcriptLanguage": "tr",
@@ -35,11 +35,15 @@
       "transcriptRawPath": "content/v2/transcripts/item_kim9_vid_topic_06_periyodik_ozellikler.tr.tr.vtt",
       "transcriptFingerprint": "3667e4e4ae442b90",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Meschemy Kimya periyodik özellikler dersi; atom yarıçapı, iyonlaşma enerjisi, elektronegatiflik ve metalik aktiflik değişimlerini birlikte açıklar.",
+      "sharedSourceReason": "Atom yarıçapı, iyonlaşma enerjisi, elektron ilgisi ve elektronegatiflik gibi periyodik özelliklerin değişimi aynı videoda anlatılır.",
       "reviewedOverride": true,
-      "teacher": "Meschemy Kimya"
+      "teacher": "Meschemy Kimya",
+      "provider": "Meschemy Kimya",
+      "videoId": "_2Lb0ybajvE"
     },
     "verifiedLectureTitle": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️",
-    "teacher": "Meschemy Kimya"
+    "teacher": "Meschemy Kimya",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

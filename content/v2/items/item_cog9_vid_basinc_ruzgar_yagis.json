@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "739cfe11d04d7e42",
+      "fingerprint": "4a83770a1dfadc9a",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=aweDcCk0fJ0",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -27,7 +27,7 @@
       "transcriptFingerprint": "27adcace9ed94fc5",
       "sharedSource": false,
       "teacher": "Yunus Hoca",
-      "sharedSourceReason": null
+      "provider": "Coğrafyanın Kodları"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=kAeQTw96EMc",

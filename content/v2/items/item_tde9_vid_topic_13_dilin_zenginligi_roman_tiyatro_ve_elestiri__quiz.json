@@ -84,7 +84,9 @@
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.txt",
-      "transcriptFingerprint": "c898b64c4911b372"
+      "transcriptFingerprint": "c898b64c4911b372",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri.tr.tr.vtt"
     }
   }
 }

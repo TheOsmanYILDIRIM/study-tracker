@@ -88,7 +88,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar."
+      "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt"
     }
   }
 }

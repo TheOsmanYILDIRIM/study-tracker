@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "f8194c7d796a8464",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.tr.vtt"
     }
   }
 }

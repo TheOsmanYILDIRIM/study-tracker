@@ -17,16 +17,23 @@
       "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "verified",
       "fingerprint": "6cb73c7f5932687a",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
-      "transcriptFingerprint": "71eb5b21eb0dd86f",
+      "transcriptFingerprint": "bd69e1fbf5237ef4",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
       "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt",
       "sharedSource": true,
-      "sharedSourceReason": "Rehber Matematik 9. Sınıf üslü sayılar dersi; üslü ifadelerde bölme işlemi özellikleri ile negatif/sıfır üs kavramlarını birlikte kapsar."
-    }
+      "sharedSourceReason": "Üslü ifadelerde bölme işlemi, taban-üs kuralları ve negatif üs mantığı ortak video kapsamı",
+      "videoId": "uwl25uvO1sQ",
+      "teacher": "Rehber Matematik",
+      "reviewedOverride": true
+    },
+    "teacher": "Rehber Matematik",
+    "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

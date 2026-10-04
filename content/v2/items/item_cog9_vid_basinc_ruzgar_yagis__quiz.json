@@ -85,7 +85,7 @@
       "transcriptPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.txt",
       "transcriptFingerprint": "27adcace9ed94fc5",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_basinc_ruzgar_yagis.tr.tr.vtt"
     }
   }
 }

@@ -82,7 +82,8 @@
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.txt",
       "transcriptFingerprint": "1184ee0b138df4fd",
       "sharedSource": true,
-      "sharedSourceReason": "Gerçek sayıların işlem özellikleri (değişme, birleşme, dağılma) ve cebirsel ispat yöntemleri ortak video kapsamı"
+      "sharedSourceReason": "Gerçek sayıların işlem özellikleri, cebirsel ispat ve modelleme ortak video kapsamı",
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_cebirsel_ispat.tr.tr.vtt"
     }
   }
 }

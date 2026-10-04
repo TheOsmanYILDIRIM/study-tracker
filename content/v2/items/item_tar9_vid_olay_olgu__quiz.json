@@ -86,7 +86,8 @@
       "groundingType": "transcript_grounded",
       "transcriptPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.txt",
       "sharedSource": true,
-      "sharedSourceReason": "Tarihin doğası, olay ve olgu ayrımı ile tarih öğrenmenin bireye ve topluma faydaları ortak video kapsamı"
+      "sharedSourceReason": "Tarihin doğası, olay ve olgu ayrımı ile tarih öğrenmenin bireye ve topluma faydaları ortak video kapsamı",
+      "transcriptRawPath": "content/v2/transcripts/item_tar9_vid_olay_olgu.tr.tr.vtt"
     }
   }
 }

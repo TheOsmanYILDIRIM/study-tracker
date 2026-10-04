@@ -84,7 +84,9 @@
       "schemaVersion": "v2",
       "fingerprint": "bd2613f5d8f16f2d",
       "groundingType": "transcript_grounded",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.txt"
+      "transcriptPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.txt",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.tr.vtt"
     }
   }
 }

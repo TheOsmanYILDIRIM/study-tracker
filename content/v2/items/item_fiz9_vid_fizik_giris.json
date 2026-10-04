@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "3a2905a41e416a8f",
+      "fingerprint": "2d384fd908edccb4",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_fizik_giris.tr.txt",
@@ -27,9 +27,13 @@
       "sharedSource": true,
       "sharedSourceReason": "Kapsamlı TYT Fizik dersi; fizik bilimine giriş, fiziğin alt dalları ve temel kavramları bir bütün olarak kapsar.",
       "reviewedOverride": true,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "provider": "Özcan Aykın FİZİK",
+      "videoId": "1Hg2eF907YA"
     },
     "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
-    "teacher": "Özcan Aykın FİZİK"
+    "teacher": "Özcan Aykın FİZİK",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

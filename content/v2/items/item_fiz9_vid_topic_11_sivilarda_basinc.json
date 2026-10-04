@@ -25,7 +25,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "230105f287260002",
+      "fingerprint": "92554142da684115",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=dkwbOGhBedc",
       "provider": "Özcan Aykın FİZİK",
@@ -36,10 +36,12 @@
       "transcriptFingerprint": "0435f6d045b785f2",
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_topic_11_sivilarda_basinc.tr.tr.vtt",
       "sharedSource": false,
-      "sharedSourceReason": null,
-      "teacher": "Özcan Aykın FİZİK"
+      "teacher": "Özcan Aykın FİZİK",
+      "videoId": "dkwbOGhBedc"
     },
     "teacher": "Özcan Aykın FİZİK",
-    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026"
+    "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

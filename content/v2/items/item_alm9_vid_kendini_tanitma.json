@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "01eeeb7ebf7dced4",
+      "fingerprint": "4ef33e09c58f55eb",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=hRYyziD_8XU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
@@ -27,7 +27,8 @@
       "sharedSource": false,
       "reviewedOverride": true,
       "teacher": "Tonguç Akademi",
-      "sharedSourceReason": null
+      "provider": "tonguç 9. SINIF",
+      "videoId": "hRYyziD_8XU"
     },
     "provider": "tonguç 9. SINIF",
     "reviewStatus": "verified",

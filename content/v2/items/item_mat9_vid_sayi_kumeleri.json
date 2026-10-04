@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "5728be6b47f88498",
+      "fingerprint": "27ab2c3105a6d8df",
       "sourceWeeks": [
         5
       ],
@@ -32,11 +32,14 @@
       "reviewedOverride": true,
       "teacher": "Deniz Mehmet Hoca",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Rehber Matematik",
+      "videoId": "OLV5wBFLVsU"
     },
     "provider": "Rehber Matematik",
     "topic": "Sayı Kümeleri ve İşlem Özellikleri",
     "verifiedLectureTitle": "Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026",
-    "teacher": "Deniz Mehmet Hoca"
+    "teacher": "Deniz Mehmet Hoca",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

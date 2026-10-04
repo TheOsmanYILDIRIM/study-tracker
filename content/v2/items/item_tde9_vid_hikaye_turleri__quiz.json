@@ -86,7 +86,7 @@
       "transcriptPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.txt",
       "transcriptFingerprint": "496cf7700cf9cc8a",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "transcriptRawPath": "content/v2/transcripts/item_tde9_vid_hikaye_turleri.tr.tr.vtt"
     }
   }
 }

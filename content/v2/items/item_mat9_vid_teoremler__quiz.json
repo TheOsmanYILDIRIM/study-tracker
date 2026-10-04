@@ -80,7 +80,9 @@
       "groundingType": "transcript_grounded",
       "transcriptKind": "subtitle",
       "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
-      "transcriptFingerprint": "20f59b1eff4fffee"
+      "transcriptFingerprint": "20f59b1eff4fffee",
+      "sharedSource": false,
+      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt"
     }
   }
 }

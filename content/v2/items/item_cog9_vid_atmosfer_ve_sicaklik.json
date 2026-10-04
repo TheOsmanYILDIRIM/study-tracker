@@ -17,7 +17,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "765c5f19f2947033",
+      "fingerprint": "d090a58b9f8f156c",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
       "reviewedOverride": true,
       "transcriptLanguage": "tr",
@@ -26,14 +26,18 @@
       "transcriptRawPath": "content/v2/transcripts/item_cog9_vid_atmosfer_ve_sicaklik.tr.tr.vtt",
       "transcriptFingerprint": "53e34569e1db2814",
       "teacher": "Yunus Hoca",
-      "sharedSource": false,
-      "sharedSourceReason": null
+      "sharedSource": true,
+      "provider": "Coğrafyanın Kodları",
+      "videoId": "lZDwJNl8OuA",
+      "sharedSourceReason": "Atmosferin katmanları, sıcaklık etmenleri ve hava olaylarının günlük hayata etkileri ortak video kapsamı"
     },
     "video": {
       "sourceUrl": "https://www.youtube.com/watch?v=UGsM0-wcvLU",
       "provider": "Coğrafyanın Kodları"
     },
     "provider": "Coğrafyanın Kodları",
-    "verifiedLectureTitle": "🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025"
+    "verifiedLectureTitle": "🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

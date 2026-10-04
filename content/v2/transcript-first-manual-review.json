@@ -1,378 +1,668 @@
 {
   "version": "1.0.0",
-  "description": "Unresolved / broad video items requiring manual review or multi-video aggregation",
-  "generatedAt": "2026-10-04T18:22:55.919087+00:00",
-  "totalUnresolvedCount": 60,
-  "courseCounts": {
-    "course_alm_9": 5,
-    "course_biyo_9": 3,
-    "course_cog_9": 8,
-    "course_fiz_9": 3,
-    "course_ing_9": 4,
-    "course_kim_9": 5,
-    "course_mat_9": 23,
-    "course_tde_9": 9
-  },
+  "description": "Unresolved non-History video items requiring manual review or multi-video split in future phases",
+  "generatedAt": "2026-10-04T18:43:08.591Z",
+  "totalUnresolved": 60,
   "items": [
     {
-      "courseId": "course_alm_9",
       "itemId": "item_alm9_vid_selamlasma_alfabe",
+      "courseId": "course_alm_9",
+      "lessonId": "lesson_alm9_modul1_hallo",
+      "stableKey": "alm9_vid_selamlasma_alfabe",
       "title": "Almanca Selamlaşma, Vedalaşma ve Alfabe (Das ABC)",
+      "url": "https://www.youtube.com/watch?v=OUujiEHfams",
+      "teacher": "Meltem Hoca ile Almanca",
+      "provider": "Meltem Hoca ile Almanca",
       "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_alm_9",
       "itemId": "item_alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
+      "courseId": "course_alm_9",
+      "lessonId": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
+      "stableKey": "alm9_vid_topic_01_begru_ung_verabschiedung_und_landeskunde",
       "title": "Begrüßung, Verabschiedung und Landeskunde",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=o_uY9FxropI",
+      "teacher": "Meltem Hoca",
+      "provider": "Meltem Hoca ile Almanca",
+      "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_alm_9",
       "itemId": "item_alm9_vid_topic_06_im_klassenzimmer",
+      "courseId": "course_alm_9",
+      "lessonId": "lesson_alm9_topic_06_im_klassenzimmer",
+      "stableKey": "alm9_vid_topic_06_im_klassenzimmer",
       "title": "Im Klassenzimmer",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=RUXSDOgEH_g",
+      "teacher": "tonguch ACADEMY",
+      "provider": "tonguch ACADEMY",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_alm_9",
       "itemId": "item_alm9_vid_topic_08_stundenplan_und_schule",
-      "title": "Stundenplan und Schule",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
       "courseId": "course_alm_9",
+      "lessonId": "lesson_alm9_topic_08_stundenplan_und_schule",
+      "stableKey": "alm9_vid_topic_08_stundenplan_und_schule",
+      "title": "Stundenplan und Schule",
+      "url": "https://www.youtube.com/watch?v=hUB77C1fKOE",
+      "teacher": "Meltem Hoca ile Almanca",
+      "provider": "Meltem Hoca ile Almanca",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
       "itemId": "item_alm9_vid_topic_11_freizeit_und_aktivitaten",
+      "courseId": "course_alm_9",
+      "lessonId": "lesson_alm9_topic_11_freizeit_und_aktivitaten",
+      "stableKey": "alm9_vid_topic_11_freizeit_und_aktivitaten",
       "title": "Freizeit und Aktivitäten",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=hhwi_RpIJS4",
+      "teacher": "Meltem Hoca ile Almanca",
+      "provider": "Meltem Hoca ile Almanca",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_biyo_9",
       "itemId": "item_biyo9_vid_enzimler_nukleik",
+      "courseId": "course_biyo_9",
+      "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+      "stableKey": "biyo9_vid_enzimler_nukleik",
       "title": "Enzimlerin Yapısı, Çalışması ve Nükleik Asitler (DNA / RNA)",
+      "url": "https://www.youtube.com/watch?v=oxACuNnGM6w",
+      "teacher": null,
+      "provider": "Dr. Biyoloji",
       "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_biyo_9",
       "itemId": "item_biyo9_vid_organik_inorganik",
-      "title": "İnorganik ve Organik Bileşikler: Karbonhidratlar, Yağlar ve Proteinler",
-      "reason": "card title spans multiple source videos"
-    },
-    {
       "courseId": "course_biyo_9",
+      "lessonId": "lesson_biyo9_canlilarin_temel_bilesenleri",
+      "stableKey": "biyo9_vid_organik_inorganik",
+      "title": "İnorganik ve Organik Bileşikler: Karbonhidratlar, Yağlar ve Proteinler",
+      "url": "https://www.youtube.com/watch?v=65jjS7xU-Qg",
+      "teacher": null,
+      "provider": "Dr. Biyoloji",
+      "reason": "card title spans multiple source videos"
+    },
+    {
       "itemId": "item_biyo9_vid_teori_yasa",
+      "courseId": "course_biyo_9",
+      "lessonId": "lesson_biyo9_yasam",
+      "stableKey": "biyo9_vid_teori_yasa",
       "title": "Hipotez, Teori ve Kanun Arasındaki Fark",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=V0SzzIeniHc",
+      "teacher": "Dr. Biyoloji",
+      "provider": "Dr. Biyoloji",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_mekansal_dusunme",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_dogal_sistemler",
+      "stableKey": "cog9_vid_mekansal_dusunme",
       "title": "Doğa-İnsan Etkileşimi & Mekânsal Düşünme",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=PeNG9gQvsj0",
+      "teacher": "Coğrafyanın Kodları",
+      "provider": null,
+      "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_nufus_ve_yerlesme",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_beseri_sistemler_ve_afetler",
+      "stableKey": "item_cog9_vid_nufus_ve_yerlesme",
       "title": "Nüfus Piramitleri, Göçler ve Yerleşme Dokuları",
+      "url": "https://www.youtube.com/watch?v=U22oGb3dJL8",
+      "teacher": "Coğrafyanın Kodları",
+      "provider": "Coğrafyanın Kodları",
       "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_tarihsel_gelisim",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_dogal_sistemler",
+      "stableKey": "cog9_vid_tarihsel_gelisim",
       "title": "Coğrafya Biliminin Tarihsel Gelişimi",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "teacher": "Coğrafyanın Kodları",
+      "provider": null,
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_topic_03_cografya_biliminin_gelisimi",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_topic_03_cografya_biliminin_gelisimi",
+      "stableKey": "cog9_vid_topic_03_cografya_biliminin_gelisimi",
       "title": "Coğrafya Biliminin Gelişimi",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=1-AJn6S0syU",
+      "teacher": null,
+      "provider": "Coğrafyanın Kodları",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
+      "stableKey": "cog9_vid_topic_06_mekansal_bilgi_teknolojilerinin_bilesenleri",
       "title": "Mekânsal Bilgi Teknolojilerinin Bileşenleri",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=AgRlAZjaPE4",
+      "teacher": null,
+      "provider": "Coğrafyanın Kodları",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
+      "stableKey": "cog9_vid_topic_07_hava_olaylari_ve_gunluk_hayata_etkileri",
       "title": "Hava Olayları ve Günlük Hayata Etkileri",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=lZDwJNl8OuA",
+      "teacher": "Coğrafyanın Kodları",
+      "provider": "Coğrafyanın Kodları",
+      "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_cog_9",
       "itemId": "item_cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
-      "title": "İklim Sisteminde Yaşanan Değişiklikler",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
       "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+      "stableKey": "cog9_vid_topic_10_iklim_sisteminde_yasanan_degisiklikler",
+      "title": "İklim Sisteminde Yaşanan Değişiklikler",
+      "url": "https://www.youtube.com/watch?v=qqqvMfEmuB0",
+      "teacher": "Yunus Hoca",
+      "provider": "Coğrafyanın Kodları",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
       "itemId": "item_cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+      "courseId": "course_cog_9",
+      "lessonId": "lesson_cog9_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
+      "stableKey": "cog9_vid_topic_14_nufusla_ilgili_firsatlar_sorunlar_ve_politikalar",
       "title": "Nüfusla İlgili Fırsatlar, Sorunlar ve Politikalar",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=PUu7cEjrBng",
+      "teacher": null,
+      "provider": null,
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_fiz_9",
       "itemId": "item_fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
+      "courseId": "course_fiz_9",
+      "lessonId": "lesson_fiz9_topic_03_fizik_bilimine_yon_verenler",
+      "stableKey": "fiz9_vid_topic_03_fizik_bilimine_yon_verenler",
       "title": "Fizik Bilimine Yön Verenler ve Bilim İnsanları",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=DiYbLCxiVMo",
+      "teacher": null,
+      "provider": "Özcan Aykın FİZİK",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_fiz_9",
       "itemId": "item_fiz9_vid_topic_07_vektorler",
-      "title": "Vektörler ve Vektörlerde Bileşke (Uç Uca Ekleme & Paralelkenar Yöntemi)",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
       "courseId": "course_fiz_9",
+      "lessonId": "lesson_fiz9_topic_07_vektorler",
+      "stableKey": "fiz9_vid_topic_07_vektorler",
+      "title": "Vektörler ve Vektörlerde Bileşke (Uç Uca Ekleme & Paralelkenar Yöntemi)",
+      "url": "https://www.youtube.com/watch?v=FQ1lkZ9JQnI",
+      "teacher": null,
+      "provider": "Özcan Aykın FİZİK",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
       "itemId": "item_fiz9_vid_vektorler",
+      "courseId": "course_fiz_9",
+      "lessonId": "lesson_fiz9_kuvvet_ve_hareket",
+      "stableKey": "fiz9_vid_vektorler",
       "title": "Fiziksel Büyüklükler ve Vektörler (Skaler ve Vektörel Nicelikler)",
-      "reason": "card title spans multiple source videos"
+      "url": "https://www.youtube.com/watch?v=7aVrdQ7uSQ4",
+      "teacher": null,
+      "provider": "Özcan Aykın FİZİK",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_ing_9",
       "itemId": "item_ing9_vid_modals",
+      "courseId": "course_ing_9",
+      "lessonId": "lesson_ing9_family_and_world",
+      "stableKey": "ing9_vid_modals",
       "title": "Modals: Can, Must, Have to Farkı ve Kullanımı",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=pGb-ujyyuQE",
+      "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
+      "provider": "Özer Kiraz",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_ing_9",
       "itemId": "item_ing9_vid_simple_present",
+      "courseId": "course_ing_9",
+      "lessonId": "lesson_ing9_orientation_revision",
+      "stableKey": "ing9_vid_simple_present",
       "title": "Simple Present vs Present Continuous (Geniş Zaman - Şimdiki Zaman Farkı)",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=QUVscCzjlEg",
+      "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
+      "provider": "Özer Kiraz",
+      "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_ing_9",
       "itemId": "item_ing9_vid_topic_06_theme_6_life_in_the_city_country",
-      "title": "Theme 6: Life in the City & Country",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
       "courseId": "course_ing_9",
+      "lessonId": "lesson_ing9_topic_06_theme_6_life_in_the_city_country",
+      "stableKey": "ing9_vid_topic_06_theme_6_life_in_the_city_country",
+      "title": "Theme 6: Life in the City & Country",
+      "url": "https://www.youtube.com/watch?v=yw9XaqgKTmo",
+      "teacher": "Ms. Jasmin ELT",
+      "provider": "MEB / İngilizce TV",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
       "itemId": "item_ing9_vid_used_to",
+      "courseId": "course_ing_9",
+      "lessonId": "lesson_ing9_family_and_world",
+      "stableKey": "ing9_vid_used_to",
       "title": "Used to ve Could Kullanımı (Geçmiş Alışkanlıklar & Yetenek)",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=lK3CgfdyZh8",
+      "teacher": "İngilizce Konu Anlatımı - Özer Kiraz",
+      "provider": "Özer Kiraz",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_kim_9",
       "itemId": "item_kim9_vid_bag_turleri",
+      "courseId": "course_kim_9",
+      "lessonId": "lesson_kim9_kimyasal_turler_etkilesim",
+      "stableKey": "kim9_vid_bag_turleri",
       "title": "Güçlü Etkileşimler: İyonik, Kovalent ve Metalik Bağ",
+      "url": "https://www.youtube.com/watch?v=aHEdCmKnCPo",
+      "teacher": null,
+      "provider": "Meschemy Kimya",
       "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_kim_9",
       "itemId": "item_kim9_vid_katilar_ve_sivilar",
+      "courseId": "course_kim_9",
+      "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+      "stableKey": "kim9_vid_katilar_ve_sivilar",
       "title": "Katı Türleri (Amorf, Kristal) ve Sıvılarda Viskozite",
+      "url": "https://www.youtube.com/watch?v=0a4EwSXfhjA",
+      "teacher": null,
+      "provider": "Meschemy Kimya",
       "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_kim_9",
       "itemId": "item_kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
+      "courseId": "course_kim_9",
+      "lessonId": "lesson_kim9_topic_12_bilesiklerin_adlandirilmasi",
+      "stableKey": "kim9_vid_topic_12_bilesiklerin_adlandirilmasi",
       "title": "Bileşiklerin Adlandırılması",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
-      "courseId": "course_kim_9",
-      "itemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
-      "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
-      "courseId": "course_kim_9",
-      "itemId": "item_kim9_vid_yesil_kimya",
-      "title": "Nanoparçacıklar, Ekolojik Sürdürülebilirlik ve Yeşil Kimya",
-      "reason": "corpus does not contain one transcript that fully covers the item"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_algoritma_temelleri",
-      "title": "Algoritma Temelli Problem Çözme ve Adım Mantığı",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_aralik_farki",
-      "title": "Aralık Farkı ve Eşitsizlik Problemleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_araliklar_gosterim",
-      "title": "Gerçek Sayı Aralıkları & Gösterim",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_benzerlik_kosullari",
-      "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_cebirsel_ispat",
-      "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_geometrik_donusumler",
-      "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_mantik_baglaclari",
-      "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_olasilik_turleri",
-      "title": "Deneysel ve Teorik Olasılık Karşılaştırması",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_rasyonel_usler",
-      "title": "Kesirli Üslü ve Köklü İfadeler",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_teoremler",
-      "title": "Tales, Öklid ve Pisagor Teoremleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
-      "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
-      "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
-      "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
-      "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
-      "title": "Geometrik Dönüşümler",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
-      "title": "Benzer Üçgenler Oluşturma",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
-      "title": "Tales, Öklid ve Pisagor Teoremleri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
-      "title": "Tek Nicel Değişkenli Veri Dağılımları",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
-      "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_topic_19_deneysel_olasilik",
-      "title": "Deneysel Olasılık",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_ucgen_esitsizligi",
-      "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_uslu_negatif",
-      "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_mat_9",
-      "itemId": "item_mat9_vid_veri_dagilimlari",
-      "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
-      "reason": "downloaded Rehber Matematik corpus only covers powers/roots/sets/straight-line angles and is incomplete for the rest of the 29 cards"
-    },
-    {
-      "courseId": "course_tde_9",
-      "itemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
-      "title": "Sözcük Türleri: İsimler, Sıfatlar, Zamirler ve Zarflar",
+      "url": "https://www.youtube.com/watch?v=1LcHGeLKs5A",
+      "teacher": null,
+      "provider": "Meschemy Kimya",
       "reason": "card title spans multiple source videos"
     },
     {
+      "itemId": "item_kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "courseId": "course_kim_9",
+      "lessonId": "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "stableKey": "kim9_vid_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
+      "title": "Nanoparçacıklar ve Ekolojik Sürdürülebilirlik",
+      "url": "https://www.youtube.com/watch?v=JXZTb8lRnFU",
+      "teacher": null,
+      "provider": "Meschemy Kimya",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
+      "itemId": "item_kim9_vid_yesil_kimya",
+      "courseId": "course_kim_9",
+      "lessonId": "lesson_kim9_maddenin_halleri_surdurulebilirlik",
+      "stableKey": "kim9_vid_yesil_kimya",
+      "title": "Nanoparçacıklar, Ekolojik Sürdürülebilirlik ve Yeşil Kimya",
+      "url": "https://www.youtube.com/watch?v=jDdTYBdI-2g",
+      "teacher": "Meschemy Kimya",
+      "provider": "Meschemy Kimya",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
+    },
+    {
+      "itemId": "item_mat9_vid_algoritma_temelleri",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_14_algoritma_temelli_problemler",
+      "stableKey": "mat9_vid_algoritma_temelleri",
+      "title": "Algoritma Temelli Problem Çözme ve Adım Mantığı",
+      "url": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_aralik_farki",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+      "stableKey": "mat9_vid_aralik_farki",
+      "title": "Aralık Farkı ve Eşitsizlik Problemleri",
+      "url": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+      "teacher": null,
+      "provider": null,
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_araliklar_gosterim",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_sayilar_araliklar_kumeler",
+      "stableKey": "mat9_vid_araliklar_gosterim",
+      "title": "Gerçek Sayı Aralıkları & Gösterim",
+      "url": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+      "teacher": null,
+      "provider": null,
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_benzerlik_kosullari",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+      "stableKey": "mat9_vid_benzerlik_kosullari",
+      "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
+      "url": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_cebirsel_ispat",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_sayilar_islem_ozellikleri",
+      "stableKey": "mat9_vid_cebirsel_ispat",
+      "title": "İşlem Özelliklerini Cebirsel İfade Etme ve Doğrulama",
+      "url": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_geometrik_donusumler",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_eslik_ve_benzerlik",
+      "stableKey": "mat9_vid_geometrik_donusumler",
+      "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
+      "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "teacher": "Rehber Matematik",
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_mantik_baglaclari",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_algoritma_ve_mantik",
+      "stableKey": "mat9_vid_mantik_baglaclari",
+      "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
+      "url": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_olasilik_turleri",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_veriden_olasiliga",
+      "stableKey": "mat9_vid_olasilik_turleri",
+      "title": "Deneysel ve Teorik Olasılık Karşılaştırması",
+      "url": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_rasyonel_usler",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+      "stableKey": "mat9_vid_rasyonel_usler",
+      "title": "Kesirli Üslü ve Köklü İfadeler",
+      "url": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+      "teacher": "Rehber Matematik",
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_teoremler",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_13_eslik_ve_benzerlik_problemleri",
+      "stableKey": "mat9_vid_teoremler",
+      "title": "Tales, Öklid ve Pisagor Teoremleri",
+      "url": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+      "stableKey": "mat9_vid_topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_",
+      "title": "Gerçek Sayıların İşlem Özelliklerini Cebirsel İfade Etme",
+      "url": "https://www.youtube.com/watch?v=t3MFxbdUS34",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "stableKey": "mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri",
+      "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
+      "url": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "stableKey": "mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri",
+      "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
+      "url": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+      "stableKey": "mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble",
+      "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
+      "url": "https://www.youtube.com/watch?v=goTo5CGult0",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_09_geometrik_donusumler",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_09_geometrik_donusumler",
+      "stableKey": "mat9_vid_topic_09_geometrik_donusumler",
+      "title": "Geometrik Dönüşümler",
+      "url": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "teacher": "Rehber Matematik",
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_11_benzer_ucgenler_olusturma",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_11_benzer_ucgenler_olusturma",
+      "stableKey": "mat9_vid_topic_11_benzer_ucgenler_olusturma",
+      "title": "Benzer Üçgenler Oluşturma",
+      "url": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_12_tales_oklid_ve_pisagor_teoremleri",
+      "stableKey": "mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri",
+      "title": "Tales, Öklid ve Pisagor Teoremleri",
+      "url": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "stableKey": "mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari",
+      "title": "Tek Nicel Değişkenli Veri Dağılımları",
+      "url": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+      "stableKey": "mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama",
+      "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
+      "url": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_topic_19_deneysel_olasilik",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_topic_19_deneysel_olasilik",
+      "stableKey": "mat9_vid_topic_19_deneysel_olasilik",
+      "title": "Deneysel Olasılık",
+      "url": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_ucgen_esitsizligi",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_ucgende_acilar_kenarlar",
+      "stableKey": "mat9_vid_ucgen_esitsizligi",
+      "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
+      "url": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_uslu_negatif",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_sayilar_uslu_koklu",
+      "stableKey": "mat9_vid_uslu_negatif",
+      "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
+      "url": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+      "teacher": "Rehber Matematik",
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_mat9_vid_veri_dagilimlari",
+      "courseId": "course_mat_9",
+      "lessonId": "lesson_mat9_istatistik_veri_dagilimi",
+      "stableKey": "mat9_vid_veri_dagilimlari",
+      "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
+      "url": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+      "teacher": null,
+      "provider": "Rehber Matematik",
+      "reason": "downloaded Rehber Matematik corpus is incomplete beyond powers/roots/sets/straight-line angles"
+    },
+    {
+      "itemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
       "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_dilin_yapisi_ve_roman",
+      "stableKey": "item_tde9_vid_sozcukte_anlam_isim_sifat",
+      "title": "Sözcük Türleri: İsimler, Sıfatlar, Zamirler ve Zarflar",
+      "url": "https://www.youtube.com/watch?v=nwxahzEub9I",
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "reason": "card title spans multiple source videos"
+    },
+    {
       "itemId": "item_tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
+      "stableKey": "tde9_vid_topic_04_sozun_inceligi_deneme_ve_fikir_gelistirme_konusmasi",
       "title": "Sözün İnceliği: Deneme ve Fikir Geliştirme Konuşması",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=1_pJYukLRcE",
+      "teacher": "Deniz Hoca",
+      "provider": "MEB / Edebiyat TV",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
+      "stableKey": "tde9_vid_topic_10_anlamin_yapi_taslari_mekanlari_karsilastirmali_konus",
       "title": "Anlamın Yapı Taşları: Mekânları Karşılaştırmalı Konuşma",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=GQvSuJ-pL2M",
+      "teacher": "Türkçe Saati",
+      "provider": "Deniz Hoca",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
+      "stableKey": "tde9_vid_topic_11_anlamin_yapi_taslari_belgesel_dinleme_izleme",
       "title": "Anlamın Yapı Taşları: Belgesel Dinleme/İzleme",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "teacher": "Edebiyat Hocası",
+      "provider": "MEB Maarif Modeli",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
+      "stableKey": "tde9_vid_topic_12_anlamin_yapi_taslari_belgeseli_infografige_donusturm",
       "title": "Anlamın Yapı Taşları: Belgeseli İnfografiğe Dönüştürme",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=50sc1KH0blc",
+      "teacher": "Edebiyat Hocası",
+      "provider": "MEB Maarif Modeli",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
+      "stableKey": "tde9_vid_topic_13_dilin_zenginligi_roman_tiyatro_ve_elestiri",
       "title": "Dilin Zenginliği: Roman, Tiyatro ve Eleştiri",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=hzkJNg-50Ko",
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "reason": "card title spans multiple source videos"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
+      "stableKey": "tde9_vid_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
       "title": "Dilin Zenginliği: Sosyal Medya ve Edebî Dil Sunumu",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=C_dWp6hP_Cg",
+      "teacher": "adem deliaslan",
+      "provider": "MEB Maarif Modeli",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
+      "stableKey": "tde9_vid_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
       "title": "Dilin Zenginliği: Otobiyografi Dinleme/İzleme",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     },
     {
-      "courseId": "course_tde_9",
       "itemId": "item_tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
+      "courseId": "course_tde_9",
+      "lessonId": "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma",
+      "stableKey": "tde9_vid_topic_16_dilin_zenginligi_otobiyografi_yazma",
       "title": "Dilin Zenginliği: Otobiyografi Yazma",
-      "reason": "corpus does not contain one transcript that fully covers the item"
+      "url": "https://www.youtube.com/watch?v=JPGuz-gG_3A",
+      "teacher": "Deniz Hoca",
+      "provider": "Deniz Hoca",
+      "reason": "downloaded primary corpus has no single transcript that fully covers this item"
     }
   ]
 }

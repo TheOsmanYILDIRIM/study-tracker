@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "94c1a9da30564c33",
+      "fingerprint": "e0acd26df6ffb69d",
       "sourceWeeks": [
         27,
         28,
@@ -34,11 +34,14 @@
       "reviewedOverride": true,
       "teacher": "Dr. Biyoloji",
       "sharedSource": false,
-      "sharedSourceReason": null
+      "provider": "Dr. Biyoloji",
+      "videoId": "4wHBI6iwHno"
     },
     "provider": "Dr. Biyoloji",
     "topic": "Prokaryot ve Ökaryot Hücre, Organeller ve Çekirdek",
     "verifiedLectureTitle": "Hücre Organelleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
-    "teacher": "Dr. Biyoloji"
+    "teacher": "Dr. Biyoloji",
+    "reviewStatus": "needs_review",
+    "reviewedOverride": true
   }
 }

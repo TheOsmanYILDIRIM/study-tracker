@@ -24,7 +24,7 @@
       "reviewStatus": "verified",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
-      "fingerprint": "998c6376344c2df6",
+      "fingerprint": "9078b1bbb69f48f0",
       "schemaVersion": "v2",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=MTYC1fG5Z7Q",
       "transcriptLanguage": "tr",
@@ -34,8 +34,10 @@
       "transcriptFingerprint": "bf03fc0cb878dddc",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı Tonguç 9. Sınıf Almanca dersi; sayılar (Zahlen), W-Fragen soru kalıpları, iyelik ekleri ve alfabe/hecelemeyi birlikte kapsar.",
-      "teacher": "Tonguç Akademi"
+      "sharedSourceReason": "0-20 arası Almanca sayılar, alfabe kodlama ve telefon numarası/yaş sorma diyalogları aynı videoda anlatılmaktadır.",
+      "teacher": "Tonguç Akademi",
+      "provider": "tonguç 9. SINIF",
+      "videoId": "MTYC1fG5Z7Q"
     },
     "reviewStatus": "verified",
     "reviewedOverride": true,

@@ -16,7 +16,7 @@
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
       "reviewStatus": "verified",
-      "fingerprint": "cf28a06c956ef134",
+      "fingerprint": "1d7ed678868fd073",
       "sourceVideoUrl": "https://www.youtube.com/watch?v=3pRu3T0Q03U",
       "provider": "Özcan Aykın FİZİK",
       "reviewedOverride": true,
@@ -26,11 +26,14 @@
       "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_hal_degisimi.tr.tr.vtt",
       "transcriptFingerprint": "0e4338e366f0ad79",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik hal değişimi dersi; hal değişim grafikleri, erime/kaynama ve buharlaşma kavramlarını birlikte kapsar.",
-      "teacher": "Özcan Aykın FİZİK"
+      "sharedSourceReason": "Maddelerde hâl değişimi, erime-donma ve buharlaşma-yoğuşma grafikleri aynı derste eksiksiz anlatılmaktadır.",
+      "teacher": "Özcan Aykın FİZİK",
+      "videoId": "3pRu3T0Q03U"
     },
     "provider": "Özcan Aykın FİZİK",
     "verifiedLectureTitle": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
-    "teacher": "Özcan Aykın FİZİK"
+    "teacher": "Özcan Aykın FİZİK",
+    "reviewStatus": "verified",
+    "reviewedOverride": true
   }
 }

@@ -86,7 +86,8 @@
       "transcriptPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.txt",
       "transcriptFingerprint": "2b345b647740cbbe",
       "sharedSource": true,
-      "sharedSourceReason": "Kapsamlı TYT Fizik kaldırma kuvveti dersi; sıvıların kaldırma prensipleri ve batan/yüzen cisimler konusunu birlikte ele alır."
+      "sharedSourceReason": "Sıvıların ve gazların kaldırma kuvveti konu anlatımı ve prensipleri tek bir bütünleşik derste işlenir.",
+      "transcriptRawPath": "content/v2/transcripts/item_fiz9_vid_kaldirma_kuvveti.tr.tr.vtt"
     }
   }
 }
