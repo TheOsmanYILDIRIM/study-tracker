@@ -386,6 +386,10 @@ async function handleV2Command(parsed, familyCode) {
             console.log(`\n${colors.yellow}⚠️ Tespit Edilen Denetim Uyarıları (${res.warnings.length}):${colors.reset}`);
             res.warnings.forEach(w => console.log(`  - [${w.stableKey || w.url}] ${w.warning}`));
           }
+          if (res.explicitExceptions && res.explicitExceptions.length > 0) {
+            console.log(`\n${colors.cyan}ℹ️ Onaylanmış / Yapısal İstisnalar (${res.explicitExceptions.length}):${colors.reset}`);
+            res.explicitExceptions.forEach(ex => console.log(`  - [${ex.type}] [${ex.url || ex.stableKey}] ${ex.description || ex.reason}`));
+          }
         }
       } else if (action === 'diff') {
         const res = await diffSeed(familyCode, seedFile);

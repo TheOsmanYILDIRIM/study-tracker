@@ -13,7 +13,7 @@ const { saveConfig } = require('./lib/config');
 
 let mockServer;
 let lastReceivedRequest = null;
-const port = 8991;
+let port = 0;
 
 const mockCurriculum = [
   {
@@ -338,12 +338,17 @@ function startMockServer() {
       });
     });
 
-    mockServer.listen(port, () => resolve());
+    mockServer.listen(0, () => {
+      port = mockServer.address().port;
+      resolve();
+    });
   });
 }
 
 async function runCliTests() {
   console.log('🧪 === StudyTracker V2 CLI Tests ===\n');
+
+  await startMockServer();
 
   // Configure CLI to point to local mock server
   saveConfig({
@@ -351,8 +356,6 @@ async function runCliTests() {
     familyCode: 'ST-V2TX-2026-CLI1-1111',
     adminToken: 'test_admin_token'
   });
-
-  await startMockServer();
 
   try {
     // Test 1: Fetch V2 Catalog API
@@ -447,9 +450,11 @@ async function runCliTests() {
     assert.strictEqual(validation.stats.videoCount, 174, 'Must have 174 video items');
     assert.strictEqual(validation.stats.ankiCount, 5, 'Must have 5 ANKI items');
     assert.strictEqual(validation.stats.quizCount, 200, 'Must have 200 deterministic quiz items (35 lesson quizzes + 165 micro-quizzes)');
-    console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings.`);
+    assert.strictEqual(validation.warnings.length, 0, 'Production catalog must have 0 actionable audit warnings');
+    assert.strictEqual(validation.explicitExceptions.length, 32, 'Production catalog must have exactly 32 verified explicit sharedSource exceptions');
+    console.log(`   ✅ Seed schema valid: ${validation.stats.courseCount} courses, ${validation.stats.itemCount} items, ${validation.warnings.length} audit warnings, ${validation.explicitExceptions.length} explicit exceptions.`);
 
-    // Test 8: Canonical History Teacher & Stale Warning / Active Error
+    // Test 8: Canonical History Teacher & Stale Warning / Active Error / Override Exception
     console.log('8️⃣ Testing History Canonical Teacher & Stale Warning...');
     const catalog = require('../content/9-sinif-v2-catalog.json');
     const historyCourse = catalog.courses.find(c => c.id === 'course_tar_9');
@@ -461,28 +466,75 @@ async function runCliTests() {
       });
     });
 
-    // Test active non-canonical teacher fails validation
+    // Test active non-canonical teacher fails validation without override
     const invalidTeacherCatalog = JSON.parse(JSON.stringify(catalog));
     invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].payload.teacher = 'Ramis Hoca Stale';
     const invalidVal = validateSeed(invalidTeacherCatalog);
     assert.strictEqual(invalidVal.valid, false, 'Active non-canonical history video must fail validation');
     assert(invalidVal.errors.some(e => e.includes('Mehmet Celal ÖZYILDIZ')), 'Must error on active non-canonical teacher');
 
-    // Test draft non-canonical teacher generates warning
+    // Test draft non-canonical teacher generates warning without override
     invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].publishingStatus = 'draft';
     const invalidDraftVal = validateSeed(invalidTeacherCatalog);
     assert(invalidDraftVal.warnings.some(w => w.warning.includes('not canonical teacher Mehmet Celal ÖZYILDIZ')), 'Must flag draft non-canonical teacher with warning');
-    console.log('   ✅ History canonical teacher rule and stale detection verified.');
 
-    // Test 9: Ambiguous & Channel URL Warnings
-    console.log('9️⃣ Testing Ambiguous/Channel URL audit warnings...');
+    // Test reviewedOverride on non-canonical teacher becomes explicit exception (no warning, no error)
+    invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].payload.provenance.reviewedOverride = true;
+    invalidTeacherCatalog.courses.find(c => c.id === 'course_tar_9').lessons[0].items[0].payload.provenance.reviewedOverrideReason = 'Teacher approved for special guest lecture';
+    const overrideVal = validateSeed(invalidTeacherCatalog);
+    assert.strictEqual(overrideVal.valid, true, 'Reviewed override on non-canonical teacher must be valid');
+    assert(!overrideVal.warnings.some(w => w.warning?.includes('not canonical teacher Mehmet Celal ÖZYILDIZ')), 'Reviewed override must not produce warning');
+    assert(overrideVal.explicitExceptions.some(e => e.type === 'HISTORY_TEACHER_OVERRIDE'), 'Reviewed override must be listed as explicit exception');
+    console.log('   ✅ History canonical teacher rule, stale detection, and reviewedOverride verified.');
+
+    // Test 9: Ambiguous & Channel URL Warnings & Safe Overrides
+    console.log('9️⃣ Testing Ambiguous/Channel URL audit warnings & safe overrides...');
     const testCatalogWithChannel = JSON.parse(JSON.stringify(catalog));
     testCatalogWithChannel.courses[0].lessons[0].items[0].contentUrl = 'https://www.youtube.com/@cografyaninkodlari';
     testCatalogWithChannel.courses[0].lessons[0].items[0].publishingStatus = 'draft';
+    delete testCatalogWithChannel.courses[0].lessons[0].items[0].payload.current_source;
+    delete testCatalogWithChannel.courses[0].lessons[0].items[0].payload.safe;
+    delete testCatalogWithChannel.courses[0].lessons[0].items[0].payload.provenance.reviewedOverride;
     const channelVal = validateSeed(testCatalogWithChannel);
     const channelWarning = channelVal.warnings.find(w => w.warning.includes('Channel homepage URL'));
-    assert(channelWarning, 'Must flag channel homepage URLs');
-    console.log('   ✅ Channel homepage and ambiguous URLs successfully flagged in audit.');
+    assert(channelWarning, 'Must flag unreviewed channel homepage URLs with warning');
+
+    // Test reviewedOverride on channel homepage becomes explicit exception
+    testCatalogWithChannel.courses[0].lessons[0].items[0].payload.provenance.reviewedOverride = true;
+    testCatalogWithChannel.courses[0].lessons[0].items[0].payload.provenance.reviewedOverrideReason = 'Official verified curriculum channel playlist';
+    const channelOverrideVal = validateSeed(testCatalogWithChannel);
+    assert(!channelOverrideVal.warnings.some(w => w.warning?.includes('Channel homepage URL')), 'Reviewed override must not produce warning for channel URL');
+    assert(channelOverrideVal.explicitExceptions.some(e => e.type === 'AMBIGUOUS_URL_OVERRIDE'), 'Channel URL override must be listed in explicitExceptions');
+    console.log('   ✅ Channel homepage and ambiguous URLs successfully flagged in audit and overridden with explicit metadata.');
+
+    // Test 9.5: Shared Video Source Verification & Duplicate Warnings
+    console.log('9️⃣.5️⃣ Testing Shared Video Source Validation & Unapproved Duplicate Warnings...');
+    const dupTestCatalog = JSON.parse(JSON.stringify(catalog));
+    // Introduce an unflagged duplicate video URL
+    const freshUrl = 'https://www.youtube.com/watch?v=unapprovedDup123';
+    dupTestCatalog.courses[0].lessons[0].items[0].contentUrl = freshUrl;
+    delete dupTestCatalog.courses[0].lessons[0].items[0].payload.provenance.sharedSource;
+    delete dupTestCatalog.courses[0].lessons[0].items[0].payload.provenance.sharedSourceReason;
+    dupTestCatalog.courses[0].lessons[1].items[0].contentUrl = freshUrl;
+    delete dupTestCatalog.courses[0].lessons[1].items[0].payload.provenance.sharedSource;
+    delete dupTestCatalog.courses[0].lessons[1].items[0].payload.provenance.sharedSourceReason;
+
+    const unflaggedDupVal = validateSeed(dupTestCatalog);
+    assert(unflaggedDupVal.warnings.some(w => w.url === freshUrl && w.warning.includes('without explicit sharedSource metadata')), 'Must warn on unflagged duplicate video URL');
+
+    // Test inconsistent sharedSource metadata (one flagged, one not)
+    dupTestCatalog.courses[0].lessons[0].items[0].payload.provenance.sharedSource = true;
+    dupTestCatalog.courses[0].lessons[0].items[0].payload.provenance.sharedSourceReason = 'Topic A and B shared video';
+    const partialDupVal = validateSeed(dupTestCatalog);
+    assert(partialDupVal.warnings.some(w => w.url === freshUrl && w.warning.includes('Inconsistent video URL reuse')), 'Must warn on inconsistent sharedSource metadata');
+
+    // Test both properly flagged with reason -> resolves to explicit exception with 0 warnings
+    dupTestCatalog.courses[0].lessons[1].items[0].payload.provenance.sharedSource = true;
+    dupTestCatalog.courses[0].lessons[1].items[0].payload.provenance.sharedSourceReason = 'Topic A and B shared video';
+    const fixedDupVal = validateSeed(dupTestCatalog);
+    assert(!fixedDupVal.warnings.some(w => w.url === freshUrl), 'Properly flagged sharedSource must not warn');
+    assert(fixedDupVal.explicitExceptions.some(e => e.url === freshUrl && e.type === 'SHARED_SOURCE_EXCEPTION'), 'Properly flagged sharedSource must be in explicitExceptions');
+    console.log('   ✅ Unapproved duplicate warning, inconsistent metadata guard, and valid sharedSource exception verified.');
 
     // Test 10: Seed Diff & Apply Idempotency
     console.log('🔟 Testing Seed Diff & Apply Idempotency...');

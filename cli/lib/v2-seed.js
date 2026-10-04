@@ -63,6 +63,7 @@ function validateSeed(catalogInput) {
   const catalog = typeof catalogInput === 'string' || !catalogInput ? loadCatalogManifest(catalogInput) : catalogInput;
   const errors = [];
   const warnings = [];
+  const explicitExceptions = [];
 
   if (catalog.schemaVersion !== 'v2') {
     errors.push(`Invalid schemaVersion: expected "v2", got "${catalog.schemaVersion}"`);
@@ -70,7 +71,7 @@ function validateSeed(catalogInput) {
 
   if (!Array.isArray(catalog.courses) || catalog.courses.length === 0) {
     errors.push('Manifest must contain a non-empty "courses" array');
-    return { valid: false, errors, warnings, stats: {} };
+    return { valid: false, errors, warnings, explicitExceptions, stats: {} };
   }
 
   const courseIds = new Set();
@@ -156,11 +157,20 @@ function validateSeed(catalogInput) {
           urlUsageMap.set(item.contentUrl, list);
 
           const isAmbiguous = item.contentUrl.includes('youtube.com/@') || item.contentUrl.includes('youtube.com/results?search_query=');
-          const isExplicitSafe = Boolean(item.payload?.current_source) && Boolean(item.payload?.safe);
+          const isExplicitSafe = (Boolean(item.payload?.current_source) && Boolean(item.payload?.safe)) ||
+                                 (provenance.reviewedOverride === true && typeof provenance.reviewedOverrideReason === 'string' && provenance.reviewedOverrideReason.trim().length > 0);
 
           if (isAmbiguous) {
             if (pubStatus === 'active' && !isExplicitSafe) {
               errors.push(`Item "${item.stableKey}" has ambiguous URL "${item.contentUrl}" and cannot be active without current_source & safe: true. Must be publishingStatus: "draft".`);
+            } else if (isExplicitSafe) {
+              explicitExceptions.push({
+                type: 'AMBIGUOUS_URL_OVERRIDE',
+                stableKey: item.stableKey,
+                url: item.contentUrl,
+                reason: provenance.reviewedOverrideReason || 'Explicit safe verified channel source',
+                description: `Ambiguous URL overridden with explicit safe verification for item "${item.stableKey}"`
+              });
             } else {
               warnings.push({
                 stableKey: item.stableKey,
@@ -178,15 +188,37 @@ function validateSeed(catalogInput) {
         if (isHistory && item.itemType === 'VIDEO') {
           const teacher = item.payload?.teacher || '';
           const isCanonical = teacher.includes('Mehmet Celal') || (item.title || '').includes('Mehmet Celal');
+          const hasReviewedOverride = (provenance.reviewedOverride === true) && typeof provenance.reviewedOverrideReason === 'string' && provenance.reviewedOverrideReason.trim().length > 0;
+
           if (pubStatus === 'active' && item.contentUrl && !isCanonical) {
-            errors.push(`Active History video "${item.stableKey}" must have canonical teacher Mehmet Celal ÖZYILDIZ (found: "${teacher || 'none'}")`);
+            if (hasReviewedOverride) {
+              explicitExceptions.push({
+                type: 'HISTORY_TEACHER_OVERRIDE',
+                stableKey: item.stableKey,
+                teacher,
+                reason: provenance.reviewedOverrideReason,
+                description: `History non-canonical teacher overridden for active item "${item.stableKey}"`
+              });
+            } else {
+              errors.push(`Active History video "${item.stableKey}" must have canonical teacher Mehmet Celal ÖZYILDIZ (found: "${teacher || 'none'}")`);
+            }
           } else if (!isCanonical) {
-            warnings.push({
-              stableKey: item.stableKey,
-              title: item.title,
-              warning: 'History item source is not canonical teacher Mehmet Celal ÖZYILDIZ',
-              reviewStatus: 'stale'
-            });
+            if (hasReviewedOverride) {
+              explicitExceptions.push({
+                type: 'HISTORY_TEACHER_OVERRIDE',
+                stableKey: item.stableKey,
+                teacher,
+                reason: provenance.reviewedOverrideReason,
+                description: `Draft history non-canonical teacher overridden for item "${item.stableKey}"`
+              });
+            } else {
+              warnings.push({
+                stableKey: item.stableKey,
+                title: item.title,
+                warning: 'History item source is not canonical teacher Mehmet Celal ÖZYILDIZ',
+                reviewStatus: 'stale'
+              });
+            }
           }
         }
       });
@@ -196,12 +228,41 @@ function validateSeed(catalogInput) {
   // Check repeated video URLs across different topics
   for (const [url, items] of urlUsageMap.entries()) {
     if (items.length > 1 && !url.includes('youtube.com/@')) {
-      const titles = items.map(i => i.title).join(' | ');
-      warnings.push({
-        url,
-        count: items.length,
-        warning: `Video URL reused across ${items.length} items: ${titles}`
+      const titles = items.map(i => i.title || i.displayLabel).join(' | ');
+      const unflaggedItems = items.filter(i => {
+        const prov = i.payload?.provenance || {};
+        const isShared = prov.sharedSource === true && typeof prov.sharedSourceReason === 'string' && prov.sharedSourceReason.trim().length > 0;
+        return !isShared;
       });
+
+      if (unflaggedItems.length === 0) {
+        // All items sharing this URL have explicit structured sharedSource metadata and reason
+        const reasons = [...new Set(items.map(i => i.payload?.provenance?.sharedSourceReason).filter(Boolean))].join('; ');
+        explicitExceptions.push({
+          type: 'SHARED_SOURCE_EXCEPTION',
+          url,
+          count: items.length,
+          itemKeys: items.map(i => i.stableKey || i.id),
+          reason: reasons,
+          description: `Explicit sharedSource verified across ${items.length} items: ${titles}`
+        });
+      } else if (unflaggedItems.length < items.length) {
+        // Partial/inconsistent sharedSource metadata across items reusing the same URL
+        const missingKeys = unflaggedItems.map(i => i.stableKey || i.id).join(', ');
+        warnings.push({
+          url,
+          count: items.length,
+          unflaggedCount: unflaggedItems.length,
+          warning: `Inconsistent video URL reuse: ${unflaggedItems.length}/${items.length} items missing explicit sharedSource metadata (${missingKeys}) for URL: ${url}`
+        });
+      } else {
+        // Entirely unapproved / unflagged duplicate URL
+        warnings.push({
+          url,
+          count: items.length,
+          warning: `Video URL reused across ${items.length} items without explicit sharedSource metadata: ${titles}`
+        });
+      }
     }
   }
 
@@ -210,6 +271,7 @@ function validateSeed(catalogInput) {
     valid,
     errors,
     warnings,
+    explicitExceptions,
     stats: {
       courseCount: catalog.courses.length,
       lessonCount: totalLessons,
@@ -219,7 +281,8 @@ function validateSeed(catalogInput) {
       quizCount,
       verifiedCount,
       reviewCount,
-      warningCount: warnings.length
+      warningCount: warnings.length,
+      exceptionCount: explicitExceptions.length
     }
   };
 }
