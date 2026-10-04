@@ -1,0 +1,2570 @@
+{
+  "version": "1.0.0",
+  "description": "Corpus videos index for compact review",
+  "generatedAt": "2026-10-04T16:43:27.924979+00:00",
+  "totalVideos": 319,
+  "subjectCounts": {
+    "almanca": 12,
+    "biyoloji": 60,
+    "cografya": 41,
+    "fizik": 117,
+    "ingilizce": 9,
+    "kimya": 34,
+    "matematik": 13,
+    "tde": 33
+  },
+  "videos": [
+    {
+      "subject": "almanca",
+      "videoId": "hRYyziD_8XU",
+      "title": "9. Sınıf Almanca ： Begrüben Und Verabschieden ｜ Selamlaşma ve Vedalaşma",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/01 - hRYyziD_8XU - 9. Sınıf Almanca ： Begrüben Und Verabschieden ｜ Selamlaşma ve Vedalaşma.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/01 - hRYyziD_8XU - 9. Sınıf Almanca ： Begrüben Und Verabschieden ｜ Selamlaşma ve Vedalaşma.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "almanca",
+      "videoId": "R6O9NcPPB2s",
+      "title": "9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/02 - R6O9NcPPB2s - 9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/02 - R6O9NcPPB2s - 9. Sınıf Almanca ： Lander Und Sprachen  ｜ Ülkeler ve Diller.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "almanca",
+      "videoId": "MTYC1fG5Z7Q",
+      "title": "9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/03 - MTYC1fG5Z7Q - 9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/03 - MTYC1fG5Z7Q - 9. Sınıf Almanca： W - Fragen, Possesivartikel Und Die Zahlen ｜ İyelik Ekleri, Sayılar ve Soru Sorma.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "almanca",
+      "videoId": "Y6zr_PAi7hk",
+      "title": "9. Sınıf Almanca： Ja⧸Nein Fragen Und Verbkonjugation ｜ Evet - Hayır Soruları ve Fiil Çekimi",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/04 - Y6zr_PAi7hk - 9. Sınıf Almanca： Ja⧸Nein Fragen Und Verbkonjugation ｜ Evet - Hayır Soruları ve Fiil Çekimi.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/04 - Y6zr_PAi7hk - 9. Sınıf Almanca： Ja⧸Nein Fragen Und Verbkonjugation ｜ Evet - Hayır Soruları ve Fiil Çekimi.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "almanca",
+      "videoId": "8ktg5DqzffM",
+      "title": "9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/05 - 8ktg5DqzffM - 9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/05 - 8ktg5DqzffM - 9. Sınıf Almanca： Bestimmte - Unbestimmte Artikel Die Schulsachen Und Die Farben.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "almanca",
+      "videoId": "lcbRfbZS2Ro",
+      "title": "Hızlı Almanca Öğren! #shorts #almanca #deutsch",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/06 - lcbRfbZS2Ro - Hızlı Almanca Öğren! #shorts #almanca #deutsch.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/06 - lcbRfbZS2Ro - Hızlı Almanca Öğren! #shorts #almanca #deutsch.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "almanca",
+      "videoId": "4mfOLK3RVT4",
+      "title": "9. Sınıf Almanca： Die Familie ｜ Aile Üyelerini Tanıyalım",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/07 - 4mfOLK3RVT4 - 9. Sınıf Almanca： Die Familie ｜ Aile Üyelerini Tanıyalım.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/07 - 4mfOLK3RVT4 - 9. Sınıf Almanca： Die Familie ｜ Aile Üyelerini Tanıyalım.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "almanca",
+      "videoId": "Vgt876VAW78",
+      "title": "9. Sınıf Almanca： Die Berufe ｜ Meslekler",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/08 - Vgt876VAW78 - 9. Sınıf Almanca： Die Berufe ｜ Meslekler.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/08 - Vgt876VAW78 - 9. Sınıf Almanca： Die Berufe ｜ Meslekler.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "almanca",
+      "videoId": "mvhqOxWEmBc",
+      "title": "9. Sınıf Almanca： Die Uhrzeiten und Die Wochentage ｜ Saatler, 100'e Kadar Sayılar ve Günler",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/09 - mvhqOxWEmBc - 9. Sınıf Almanca： Die Uhrzeiten und Die Wochentage ｜ Saatler, 100'e Kadar Sayılar ve Günler.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/09 - mvhqOxWEmBc - 9. Sınıf Almanca： Die Uhrzeiten und Die Wochentage ｜ Saatler, 100'e Kadar Sayılar ve Günler.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "almanca",
+      "videoId": "g7AS1OSe5tk",
+      "title": "9. Sınıf Almanca： Akkusativ ｜ İsmin -İ Hali",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/10 - g7AS1OSe5tk - 9. Sınıf Almanca： Akkusativ ｜ İsmin -İ Hali.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/10 - g7AS1OSe5tk - 9. Sınıf Almanca： Akkusativ ｜ İsmin -İ Hali.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "almanca",
+      "videoId": "JPV8sHLi9tY",
+      "title": "9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/11 - JPV8sHLi9tY - 9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/11 - JPV8sHLi9tY - 9.Sınıf Almanca： Mein Alltag ｜ Almanca Bir Günüm - Günlük Rutinler.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "almanca",
+      "videoId": "whJF38Nth5k",
+      "title": "9.Sınıf Almanca：  Adjektive und Aussehen Beschreiben ｜ Almanca Sıfatlar",
+      "cleanPath": "content/v2/transcript-corpus/almanca/clean/12 - whJF38Nth5k - 9.Sınıf Almanca：  Adjektive und Aussehen Beschreiben ｜ Almanca Sıfatlar.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/almanca/raw/12 - whJF38Nth5k - 9.Sınıf Almanca：  Adjektive und Aussehen Beschreiben ｜ Almanca Sıfatlar.tr.vtt",
+      "playlistIndex": 12
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "-6JQFO5HFLo",
+      "title": "TYT Biyoloji Konu Anlatım Kampı YKS 2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/01 - -6JQFO5HFLo - TYT Biyoloji Konu Anlatım Kampı YKS 2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/01 - -6JQFO5HFLo - TYT Biyoloji Konu Anlatım Kampı YKS 2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "JqVImq7hFjk",
+      "title": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/02 - JqVImq7hFjk - Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/02 - JqVImq7hFjk - Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "rHgwoClDprk",
+      "title": "Virüsler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/03 - rHgwoClDprk - Virüsler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/03 - rHgwoClDprk - Virüsler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "rMRCYVlABmY",
+      "title": "Canlıların Karakteristik Özellikleri ve Virüsler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/04 - rMRCYVlABmY - Canlıların Karakteristik Özellikleri ve Virüsler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/04 - rMRCYVlABmY - Canlıların Karakteristik Özellikleri ve Virüsler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "og_SSjAZ7qk",
+      "title": "Mineraller ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/05 - og_SSjAZ7qk - Mineraller ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/05 - og_SSjAZ7qk - Mineraller ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "CoEbUizI0rk",
+      "title": "Su, Asit-Baz ve Tuz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/06 - CoEbUizI0rk - Su, Asit-Baz ve Tuz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/06 - CoEbUizI0rk - Su, Asit-Baz ve Tuz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "aV3n4v0t2HI",
+      "title": "İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/07 - aV3n4v0t2HI - İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/07 - aV3n4v0t2HI - İnorganik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "MgsF9_Yi6es",
+      "title": "Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/08 - MgsF9_Yi6es - Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/08 - MgsF9_Yi6es - Karbohidratlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "fG5tAZFYTTM",
+      "title": "Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/09 - fG5tAZFYTTM - Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/09 - fG5tAZFYTTM - Lipitler - Yağlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "H_I4wF3hBOg",
+      "title": "Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/10 - H_I4wF3hBOg - Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/10 - H_I4wF3hBOg - Proteinler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "y-pV8e3hjk0",
+      "title": "Organik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/11 - y-pV8e3hjk0 - Organik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/11 - y-pV8e3hjk0 - Organik Bileşikler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "56fiFbIYsS0",
+      "title": "Enzimler 1. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/12 - 56fiFbIYsS0 - Enzimler 1. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/12 - 56fiFbIYsS0 - Enzimler 1. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 12
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "ctM-HtOaDSc",
+      "title": "Enzimler 2. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/13 - ctM-HtOaDSc - Enzimler 2. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/13 - ctM-HtOaDSc - Enzimler 2. Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 13
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "9ONeiMJL6VY",
+      "title": "Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/14 - 9ONeiMJL6VY - Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/14 - 9ONeiMJL6VY - Vitaminler ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 14
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "ajDCR1wpbd8",
+      "title": "Enzimler ve Vitaminler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/15 - ajDCR1wpbd8 - Enzimler ve Vitaminler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/15 - ajDCR1wpbd8 - Enzimler ve Vitaminler Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 15
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "gqDpv-_j-m4",
+      "title": "Nükleik Asitler DNA ve RNA ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/16 - gqDpv-_j-m4 - Nükleik Asitler DNA ve RNA ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/16 - gqDpv-_j-m4 - Nükleik Asitler DNA ve RNA ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 16
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "rKp2tRWFOZk",
+      "title": "ATP ve Metabolizma ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/17 - rKp2tRWFOZk - ATP ve Metabolizma ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/17 - rKp2tRWFOZk - ATP ve Metabolizma ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 17
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "Lfcn-a3ktvc",
+      "title": "Nükleik Asitler ve ATP Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/18 - Lfcn-a3ktvc - Nükleik Asitler ve ATP Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/18 - Lfcn-a3ktvc - Nükleik Asitler ve ATP Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 18
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "4wHBI6iwHno",
+      "title": "Hücre Organelleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/19 - 4wHBI6iwHno - Hücre Organelleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/19 - 4wHBI6iwHno - Hücre Organelleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 19
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "4Vk2nvl2lvw",
+      "title": "Hücre Organelleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/20 - 4Vk2nvl2lvw - Hücre Organelleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/20 - 4Vk2nvl2lvw - Hücre Organelleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 20
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "cyMEj_3d0tQ",
+      "title": "Organeller Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/21 - cyMEj_3d0tQ - Organeller Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/21 - cyMEj_3d0tQ - Organeller Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 21
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "NYz4uNbiphU",
+      "title": "Hücre Zarında Madde Alışverişleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/22 - NYz4uNbiphU - Hücre Zarında Madde Alışverişleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/22 - NYz4uNbiphU - Hücre Zarında Madde Alışverişleri 1.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 22
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "hPVhoywCL6I",
+      "title": "Hücre Zarında Madde Alışverişleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/23 - hPVhoywCL6I - Hücre Zarında Madde Alışverişleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/23 - hPVhoywCL6I - Hücre Zarında Madde Alışverişleri 2.Kısım ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 23
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "TS-O93Ztv20",
+      "title": "Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/24 - TS-O93Ztv20 - Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/24 - TS-O93Ztv20 - Bilimsel Yöntem ve Çalışma Basamakları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 24
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "KXBajpW7TXQ",
+      "title": "Hücre Zarı ve Bilimsel Çalışma Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/25 - KXBajpW7TXQ - Hücre Zarı ve Bilimsel Çalışma Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/25 - KXBajpW7TXQ - Hücre Zarı ve Bilimsel Çalışma Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 25
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "rit0LlD2Fnw",
+      "title": "Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/26 - rit0LlD2Fnw - Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/26 - rit0LlD2Fnw - Canlıların Sınıflandırılması ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 26
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "ggP8QRSCHsI",
+      "title": "Bakteri ve Arke ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/27 - ggP8QRSCHsI - Bakteri ve Arke ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/27 - ggP8QRSCHsI - Bakteri ve Arke ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 27
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "WBw3cOO_5wc",
+      "title": "Bakteri ve Arke Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/28 - WBw3cOO_5wc - Bakteri ve Arke Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/28 - WBw3cOO_5wc - Bakteri ve Arke Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 28
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "OhpaSXglVwk",
+      "title": "Protista ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/29 - OhpaSXglVwk - Protista ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/29 - OhpaSXglVwk - Protista ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 29
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "UYmAhMYzB4g",
+      "title": "Bitki ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/30 - UYmAhMYzB4g - Bitki ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/30 - UYmAhMYzB4g - Bitki ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 30
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "XPumM0EblBA",
+      "title": "Mantar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/31 - XPumM0EblBA - Mantar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/31 - XPumM0EblBA - Mantar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 31
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "b81tZACLyJ8",
+      "title": "Protista, Bitki ve Mantar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/32 - b81tZACLyJ8 - Protista, Bitki ve Mantar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/32 - b81tZACLyJ8 - Protista, Bitki ve Mantar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 32
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "WLO7pVNiYrA",
+      "title": "Omurgasızlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/33 - WLO7pVNiYrA - Omurgasızlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/33 - WLO7pVNiYrA - Omurgasızlar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 33
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "Rha8LKPg2to",
+      "title": "Omurgalılar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/34 - Rha8LKPg2to - Omurgalılar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/34 - Rha8LKPg2to - Omurgalılar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 34
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "j1mUKlVnfMM",
+      "title": "Hayvanlar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/35 - j1mUKlVnfMM - Hayvanlar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/35 - j1mUKlVnfMM - Hayvanlar Checkpoint ｜ Biyoloji 2026-2027 ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": 35
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "tSYRVXHb-c8",
+      "title": "Hücre Bölünmeleri - Mitoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/36 - tSYRVXHb-c8 - Hücre Bölünmeleri - Mitoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/36 - tSYRVXHb-c8 - Hücre Bölünmeleri - Mitoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 36
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "LoVRaQay9w4",
+      "title": "Mitoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/37 - LoVRaQay9w4 - Mitoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/37 - LoVRaQay9w4 - Mitoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 37
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "Jw7IsZODmjI",
+      "title": "Hücre Bölünmeleri - Mayoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/38 - Jw7IsZODmjI - Hücre Bölünmeleri - Mayoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/38 - Jw7IsZODmjI - Hücre Bölünmeleri - Mayoz ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 38
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "vR_NrUIgZgQ",
+      "title": "Mayoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/39 - vR_NrUIgZgQ - Mayoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/39 - vR_NrUIgZgQ - Mayoz Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 39
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "lBBD8DWQ5EQ",
+      "title": "Eşeysiz Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/40 - lBBD8DWQ5EQ - Eşeysiz Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/40 - lBBD8DWQ5EQ - Eşeysiz Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 40
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "mAvnsB1hxD8",
+      "title": "Eşeyli Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/41 - mAvnsB1hxD8 - Eşeyli Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/41 - mAvnsB1hxD8 - Eşeyli Üreme ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 41
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "WhQgRd_9zNs",
+      "title": "Eşeysiz ve Eşeyli Üreme Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/42 - WhQgRd_9zNs - Eşeysiz ve Eşeyli Üreme Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/42 - WhQgRd_9zNs - Eşeysiz ve Eşeyli Üreme Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 42
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "aK6e0Od3ppc",
+      "title": "Kalıtıma Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/43 - aK6e0Od3ppc - Kalıtıma Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/43 - aK6e0Od3ppc - Kalıtıma Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 43
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "bQ0eB2RFAEk",
+      "title": "Mendel Genetiği ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/44 - bQ0eB2RFAEk - Mendel Genetiği ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/44 - bQ0eB2RFAEk - Mendel Genetiği ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 44
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "4WpeH6MOqxY",
+      "title": "Mendel'den Sapmalar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/45 - 4WpeH6MOqxY - Mendel'den Sapmalar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/45 - 4WpeH6MOqxY - Mendel'den Sapmalar ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 45
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "pTDGV86GL-c",
+      "title": "Eşeyin Belirlenmesi X ve Y Kromozomları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/46 - pTDGV86GL-c - Eşeyin Belirlenmesi X ve Y Kromozomları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/46 - pTDGV86GL-c - Eşeyin Belirlenmesi X ve Y Kromozomları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 46
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "hGslQhWrmzc",
+      "title": "Kan Grupları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/47 - hGslQhWrmzc - Kan Grupları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/47 - hGslQhWrmzc - Kan Grupları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 47
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "WdM5hSIc3OA",
+      "title": "Genetik Çeşitlilik ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/48 - WdM5hSIc3OA - Genetik Çeşitlilik ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/48 - WdM5hSIc3OA - Genetik Çeşitlilik ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 48
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "EWW2VGa7AaE",
+      "title": "Kalıtım Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/49 - EWW2VGa7AaE - Kalıtım Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/49 - EWW2VGa7AaE - Kalıtım Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 49
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "iCjhMz5PL-s",
+      "title": "Ekoloji Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/50 - iCjhMz5PL-s - Ekoloji Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/50 - iCjhMz5PL-s - Ekoloji Giriş ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 50
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "KBNgGvX9Ik0",
+      "title": "Besin Piramidi ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/51 - KBNgGvX9Ik0 - Besin Piramidi ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/51 - KBNgGvX9Ik0 - Besin Piramidi ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 51
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "G6rmNijDsIA",
+      "title": "Besin Zinciri ve Ağı ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/52 - G6rmNijDsIA - Besin Zinciri ve Ağı ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/52 - G6rmNijDsIA - Besin Zinciri ve Ağı ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 52
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "RNYRPR7RSkA",
+      "title": "Ekoloji Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/53 - RNYRPR7RSkA - Ekoloji Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/53 - RNYRPR7RSkA - Ekoloji Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 53
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "_Lf1zIGoBoQ",
+      "title": "Madde Döngüleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/54 - _Lf1zIGoBoQ - Madde Döngüleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/54 - _Lf1zIGoBoQ - Madde Döngüleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 54
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "z1yOwXzsGsw",
+      "title": "Güncel Çevre Sorunları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/55 - z1yOwXzsGsw - Güncel Çevre Sorunları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/55 - z1yOwXzsGsw - Güncel Çevre Sorunları ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 55
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "uJGaWpE1JP8",
+      "title": "Döngüler ve Kirlilik Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/56 - uJGaWpE1JP8 - Döngüler ve Kirlilik Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/56 - uJGaWpE1JP8 - Döngüler ve Kirlilik Checkpoint ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": 56
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "6ObFP2ZRIws",
+      "title": "Biyolojinin Önemi ve Geleceği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/6ObFP2ZRIws - Biyolojinin Önemi ve Geleceği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/6ObFP2ZRIws - Biyolojinin Önemi ve Geleceği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "FFgIKxEeFbE",
+      "title": "9. Sınıf Yeni Müfredat ｜ 1. Ders： Biyolojideki Dönüm Noktaları",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/FFgIKxEeFbE - 9. Sınıf Yeni Müfredat ｜ 1. Ders： Biyolojideki Dönüm Noktaları.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/FFgIKxEeFbE - 9. Sınıf Yeni Müfredat ｜ 1. Ders： Biyolojideki Dönüm Noktaları.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "JqVImq7hFjk",
+      "title": "Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/JqVImq7hFjk - Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/JqVImq7hFjk - Canlıların Karakteristik Özellikleri ｜ Dr. Biyoloji ｜ Dönem 2026 - 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "biyoloji",
+      "videoId": "V0SzzIeniHc",
+      "title": "Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji",
+      "cleanPath": "content/v2/transcript-corpus/biyoloji/clean/V0SzzIeniHc - Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/biyoloji/raw/V0SzzIeniHc - Bilimsel Yöntem Basamakları ve Bilim Etiği ｜ 9. Sınıf Maarif Model ｜ Dr. Biyoloji.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "cografya",
+      "videoId": "QhxIsRKV6h4",
+      "title": "39 GÜNDE TYT COĞRAFYA KAMPI 📌2025 GİRİŞ",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/01 - QhxIsRKV6h4 - 39 GÜNDE TYT COĞRAFYA KAMPI 📌2025 GİRİŞ.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/01 - QhxIsRKV6h4 - 39 GÜNDE TYT COĞRAFYA KAMPI 📌2025 GİRİŞ.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "cografya",
+      "videoId": "NlHi5ndIjpA",
+      "title": "🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/02 - NlHi5ndIjpA - 🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/02 - NlHi5ndIjpA - 🌍Doğa ve insan konu anlatımı 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-1 📌2025.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "cografya",
+      "videoId": "S3L2pH4b8AQ",
+      "title": "🌍DÜNYA'NIN ŞEKLİ VE HAREKETLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-2 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/03 - S3L2pH4b8AQ - 🌍DÜNYA'NIN ŞEKLİ VE HAREKETLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-2 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/03 - S3L2pH4b8AQ - 🌍DÜNYA'NIN ŞEKLİ VE HAREKETLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-2 📌2025.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "cografya",
+      "videoId": "cfys-1nd1JU",
+      "title": "🌍EKSEN EĞİKLİĞİ-MEVSİMLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-3 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/04 - cfys-1nd1JU - 🌍EKSEN EĞİKLİĞİ-MEVSİMLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-3 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/04 - cfys-1nd1JU - 🌍EKSEN EĞİKLİĞİ-MEVSİMLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-3 📌2025.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "cografya",
+      "videoId": "oDByXwn1-y0",
+      "title": "🌍COĞRAFİ KOORDİNAT SİSTEMİ🔴 39 GÜNDE TYT COĞRAFYA KAMPI-4 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/05 - oDByXwn1-y0 - 🌍COĞRAFİ KOORDİNAT SİSTEMİ🔴 39 GÜNDE TYT COĞRAFYA KAMPI-4 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/05 - oDByXwn1-y0 - 🌍COĞRAFİ KOORDİNAT SİSTEMİ🔴 39 GÜNDE TYT COĞRAFYA KAMPI-4 📌2025.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "cografya",
+      "videoId": "ymLvyLld3cs",
+      "title": "🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/06 - ymLvyLld3cs - 🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/06 - ymLvyLld3cs - 🌍TÜRKİYE'NİN COĞRAFİ KONUMU 🔴 39 GÜNDE TYT COĞRAFYA KAMPI GÜN-5 📌2025.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "cografya",
+      "videoId": "pPeiiLXr-aU",
+      "title": "🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/07 - pPeiiLXr-aU - 🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/07 - pPeiiLXr-aU - 🌍PROJEKSİYON YÖNTEMLERİ VE ÖLÇEK HESAPLAMA 🔴 39 Günde TYT COĞRAFYA KAMPI-6 📌2025.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "cografya",
+      "videoId": "m_Ha_ovlM5A",
+      "title": "🌍UZUNLUK-ALAN-EĞİM HESAPLAMA 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-7 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/08 - m_Ha_ovlM5A - 🌍UZUNLUK-ALAN-EĞİM HESAPLAMA 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-7 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/08 - m_Ha_ovlM5A - 🌍UZUNLUK-ALAN-EĞİM HESAPLAMA 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-7 📌2025.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "cografya",
+      "videoId": "vw7UXohGzng",
+      "title": "🌍HARİTACILIĞIN TARİHSEL GELİŞİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-8 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/09 - vw7UXohGzng - 🌍HARİTACILIĞIN TARİHSEL GELİŞİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-8 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/09 - vw7UXohGzng - 🌍HARİTACILIĞIN TARİHSEL GELİŞİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-8 📌2025.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "cografya",
+      "videoId": "pVVi6ewYPac",
+      "title": "🌍İZOHİPSLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-9 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/10 - pVVi6ewYPac - 🌍İZOHİPSLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-9 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/10 - pVVi6ewYPac - 🌍İZOHİPSLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-9 📌2025.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "cografya",
+      "videoId": "lZDwJNl8OuA",
+      "title": "🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/11 - lZDwJNl8OuA - 🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/11 - lZDwJNl8OuA - 🌍ATMOSFER VE SICAKLIK 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-10 📌2025.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "cografya",
+      "videoId": "aweDcCk0fJ0",
+      "title": "🌍BASINÇ VE RÜZGARLAR🔴 39 GÜNDE TYT COĞRAFYA KAMPI-11📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/12 - aweDcCk0fJ0 - 🌍BASINÇ VE RÜZGARLAR🔴 39 GÜNDE TYT COĞRAFYA KAMPI-11📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/12 - aweDcCk0fJ0 - 🌍BASINÇ VE RÜZGARLAR🔴 39 GÜNDE TYT COĞRAFYA KAMPI-11📌2025.tr.vtt",
+      "playlistIndex": 12
+    },
+    {
+      "subject": "cografya",
+      "videoId": "mBKVfw0ZFTU",
+      "title": "🌍NEM VE YAĞIŞ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-12 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/13 - mBKVfw0ZFTU - 🌍NEM VE YAĞIŞ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-12 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/13 - mBKVfw0ZFTU - 🌍NEM VE YAĞIŞ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-12 📌2025.tr.vtt",
+      "playlistIndex": 13
+    },
+    {
+      "subject": "cografya",
+      "videoId": "9WB1e2c80gA",
+      "title": "🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/14 - 9WB1e2c80gA - 🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/14 - 9WB1e2c80gA - 🌍BÜYÜK İKLİM TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-13 📌2025.tr.vtt",
+      "playlistIndex": 14
+    },
+    {
+      "subject": "cografya",
+      "videoId": "LG5x7e-Smt4",
+      "title": "🌍TÜRKİYE'NİN İKLİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-14📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/15 - LG5x7e-Smt4 - 🌍TÜRKİYE'NİN İKLİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-14📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/15 - LG5x7e-Smt4 - 🌍TÜRKİYE'NİN İKLİMİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-14📌2025.tr.vtt",
+      "playlistIndex": 15
+    },
+    {
+      "subject": "cografya",
+      "videoId": "Q52v5gl5Q2w",
+      "title": "🌍DÜNYADA YERLEŞMELER🔴 39 GÜNDE TYT COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/16 - Q52v5gl5Q2w - 🌍DÜNYADA YERLEŞMELER🔴 39 GÜNDE TYT COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/16 - Q52v5gl5Q2w - 🌍DÜNYADA YERLEŞMELER🔴 39 GÜNDE TYT COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 16
+    },
+    {
+      "subject": "cografya",
+      "videoId": "6l-hodRdDP8",
+      "title": "🌍TÜRKİYE'DE YERLEŞMELER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-16 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/17 - 6l-hodRdDP8 - 🌍TÜRKİYE'DE YERLEŞMELER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-16 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/17 - 6l-hodRdDP8 - 🌍TÜRKİYE'DE YERLEŞMELER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-16 📌2025.tr.vtt",
+      "playlistIndex": 17
+    },
+    {
+      "subject": "cografya",
+      "videoId": "BM78gvglAmY",
+      "title": "🌍BÖLGELER VE BÖLGE SINIRLARI 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-17 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/18 - BM78gvglAmY - 🌍BÖLGELER VE BÖLGE SINIRLARI 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-17 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/18 - BM78gvglAmY - 🌍BÖLGELER VE BÖLGE SINIRLARI 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-17 📌2025.tr.vtt",
+      "playlistIndex": 18
+    },
+    {
+      "subject": "cografya",
+      "videoId": "-11HZhEBEUU",
+      "title": "🌍ÇEVRE VE TOPLUM 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-18 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/19 - -11HZhEBEUU - 🌍ÇEVRE VE TOPLUM 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-18 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/19 - -11HZhEBEUU - 🌍ÇEVRE VE TOPLUM 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-18 📌2025.tr.vtt",
+      "playlistIndex": 19
+    },
+    {
+      "subject": "cografya",
+      "videoId": "cxZ3i58HyQA",
+      "title": "🌍DÜNYA'NIN İÇ YAPISI VE JEOLOJİK ZAMANLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-19 🟡10.SINIF COĞRAFYA -1📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/20 - cxZ3i58HyQA - 🌍DÜNYA'NIN İÇ YAPISI VE JEOLOJİK ZAMANLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-19 🟡10.SINIF COĞRAFYA -1📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/20 - cxZ3i58HyQA - 🌍DÜNYA'NIN İÇ YAPISI VE JEOLOJİK ZAMANLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-19 🟡10.SINIF COĞRAFYA -1📌2025.tr.vtt",
+      "playlistIndex": 20
+    },
+    {
+      "subject": "cografya",
+      "videoId": "HtHDgH9nzx8",
+      "title": "🌍İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-20 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/21 - HtHDgH9nzx8 - 🌍İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-20 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/21 - HtHDgH9nzx8 - 🌍İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-20 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 21
+    },
+    {
+      "subject": "cografya",
+      "videoId": "jemL2K09vpI",
+      "title": "🌍KAYAÇLAR 🔴 39 GÜNDE TYT CORĞAFYA KAMPI-21 🟡 10.SINIF CORĞAFYA KAMPI📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/22 - jemL2K09vpI - 🌍KAYAÇLAR 🔴 39 GÜNDE TYT CORĞAFYA KAMPI-21 🟡 10.SINIF CORĞAFYA KAMPI📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/22 - jemL2K09vpI - 🌍KAYAÇLAR 🔴 39 GÜNDE TYT CORĞAFYA KAMPI-21 🟡 10.SINIF CORĞAFYA KAMPI📌2025.tr.vtt",
+      "playlistIndex": 22
+    },
+    {
+      "subject": "cografya",
+      "videoId": "INxVZtMo0Ag",
+      "title": "🌍TÜRKİYE'DE İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-22 🟡 10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/23 - INxVZtMo0Ag - 🌍TÜRKİYE'DE İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-22 🟡 10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/23 - INxVZtMo0Ag - 🌍TÜRKİYE'DE İÇ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-22 🟡 10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 23
+    },
+    {
+      "subject": "cografya",
+      "videoId": "MGWGrMejEXE",
+      "title": "🌍DIŞ KUVVETLER- AKARSULAR🔴39 GÜNDE TYT COĞRAFYA KAMPI 🟡 10.SINIF COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/24 - MGWGrMejEXE - 🌍DIŞ KUVVETLER- AKARSULAR🔴39 GÜNDE TYT COĞRAFYA KAMPI 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/24 - MGWGrMejEXE - 🌍DIŞ KUVVETLER- AKARSULAR🔴39 GÜNDE TYT COĞRAFYA KAMPI 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 24
+    },
+    {
+      "subject": "cografya",
+      "videoId": "7_nrt6A8dZw",
+      "title": "🌍DIŞ KUVVETLER- KARSTİK, RÜZGAR, BUZUL🔴39 GÜNDE TYT COĞRAFYA KAMPI🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/25 - 7_nrt6A8dZw - 🌍DIŞ KUVVETLER- KARSTİK, RÜZGAR, BUZUL🔴39 GÜNDE TYT COĞRAFYA KAMPI🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/25 - 7_nrt6A8dZw - 🌍DIŞ KUVVETLER- KARSTİK, RÜZGAR, BUZUL🔴39 GÜNDE TYT COĞRAFYA KAMPI🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 25
+    },
+    {
+      "subject": "cografya",
+      "videoId": "nr4u2NAB9BU",
+      "title": "🌍DALGALAR - KIYI TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-25 🟡 10.SINIF COĞRFAYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/26 - nr4u2NAB9BU - 🌍DALGALAR - KIYI TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-25 🟡 10.SINIF COĞRFAYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/26 - nr4u2NAB9BU - 🌍DALGALAR - KIYI TİPLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-25 🟡 10.SINIF COĞRFAYA 📌2025.tr.vtt",
+      "playlistIndex": 26
+    },
+    {
+      "subject": "cografya",
+      "videoId": "2A2wc6ncT8Q",
+      "title": "🌍TÜRKİYE'DE DIŞ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-26 🟡 10.SINIF COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/27 - 2A2wc6ncT8Q - 🌍TÜRKİYE'DE DIŞ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-26 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/27 - 2A2wc6ncT8Q - 🌍TÜRKİYE'DE DIŞ KUVVETLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-26 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 27
+    },
+    {
+      "subject": "cografya",
+      "videoId": "QKUYQrlvycU",
+      "title": "🌍TÜRKİYE'DE DAĞLAR - OVALAR- PLATOLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-27 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/28 - QKUYQrlvycU - 🌍TÜRKİYE'DE DAĞLAR - OVALAR- PLATOLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-27 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/28 - QKUYQrlvycU - 🌍TÜRKİYE'DE DAĞLAR - OVALAR- PLATOLAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-27 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 28
+    },
+    {
+      "subject": "cografya",
+      "videoId": "9L42bZEJInY",
+      "title": "🌍DÜNYA'DA SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-28 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/29 - 9L42bZEJInY - 🌍DÜNYA'DA SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-28 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/29 - 9L42bZEJInY - 🌍DÜNYA'DA SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-28 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 29
+    },
+    {
+      "subject": "cografya",
+      "videoId": "isvYCu1tcDc",
+      "title": "🌍TÜRKİYE'DE SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-29 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/30 - isvYCu1tcDc - 🌍TÜRKİYE'DE SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-29 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/30 - isvYCu1tcDc - 🌍TÜRKİYE'DE SULAR 🔴39 GÜNDE TYT COĞRAFYA KAMPI-29 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 30
+    },
+    {
+      "subject": "cografya",
+      "videoId": "MpTdaHxflIM",
+      "title": "🌍TOPRAK TİPLERİ 🔴39 GÜNDE TYT COĞRAFYA KAMPI-30 🟡10.SINIF COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/31 - MpTdaHxflIM - 🌍TOPRAK TİPLERİ 🔴39 GÜNDE TYT COĞRAFYA KAMPI-30 🟡10.SINIF COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/31 - MpTdaHxflIM - 🌍TOPRAK TİPLERİ 🔴39 GÜNDE TYT COĞRAFYA KAMPI-30 🟡10.SINIF COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 31
+    },
+    {
+      "subject": "cografya",
+      "videoId": "0gjwnedxnkE",
+      "title": "🌍DÜNYA'DA BİTKİLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-31 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/32 - 0gjwnedxnkE - 🌍DÜNYA'DA BİTKİLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-31 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/32 - 0gjwnedxnkE - 🌍DÜNYA'DA BİTKİLER 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-31 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 32
+    },
+    {
+      "subject": "cografya",
+      "videoId": "ghbTlhLvIrY",
+      "title": "🌍TÜRKİYE'DE BİTKİLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-32 🟡10.SINIF COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/33 - ghbTlhLvIrY - 🌍TÜRKİYE'DE BİTKİLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-32 🟡10.SINIF COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/33 - ghbTlhLvIrY - 🌍TÜRKİYE'DE BİTKİLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-32 🟡10.SINIF COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 33
+    },
+    {
+      "subject": "cografya",
+      "videoId": "4cbRTAG8M4U",
+      "title": "🌍NÜFUS 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-33 🟡 10.SINIF COĞRAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/34 - 4cbRTAG8M4U - 🌍NÜFUS 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-33 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/34 - 4cbRTAG8M4U - 🌍NÜFUS 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-33 🟡 10.SINIF COĞRAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 34
+    },
+    {
+      "subject": "cografya",
+      "videoId": "XwwB4_c182w",
+      "title": "🌍DÜNYA'DA NÜFUSUN DAĞILIŞI 🔴39 GÜNDE TYT COĞRAFYA KAMPI-34 🟡10.SINIF COĞRAFYA📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/35 - XwwB4_c182w - 🌍DÜNYA'DA NÜFUSUN DAĞILIŞI 🔴39 GÜNDE TYT COĞRAFYA KAMPI-34 🟡10.SINIF COĞRAFYA📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/35 - XwwB4_c182w - 🌍DÜNYA'DA NÜFUSUN DAĞILIŞI 🔴39 GÜNDE TYT COĞRAFYA KAMPI-34 🟡10.SINIF COĞRAFYA📌2025.tr.vtt",
+      "playlistIndex": 35
+    },
+    {
+      "subject": "cografya",
+      "videoId": "iZ2F-uPaDr8",
+      "title": "🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/36 - iZ2F-uPaDr8 - 🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/36 - iZ2F-uPaDr8 - 🌍NÜFUS PİRAMİTLERİ 🔴 39 GÜNDE TYT COĞRAFYA KAMPI-35 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 36
+    },
+    {
+      "subject": "cografya",
+      "videoId": "yZvh9dvZZzg",
+      "title": "🌍TÜRKİYE'DE NÜFUS🔴39 GÜNDE TYT COĞRAFYA KAMPI-36 🟡10.SINIF CORĞAFYA KAMPI 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/37 - yZvh9dvZZzg - 🌍TÜRKİYE'DE NÜFUS🔴39 GÜNDE TYT COĞRAFYA KAMPI-36 🟡10.SINIF CORĞAFYA KAMPI 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/37 - yZvh9dvZZzg - 🌍TÜRKİYE'DE NÜFUS🔴39 GÜNDE TYT COĞRAFYA KAMPI-36 🟡10.SINIF CORĞAFYA KAMPI 📌2025.tr.vtt",
+      "playlistIndex": 37
+    },
+    {
+      "subject": "cografya",
+      "videoId": "dDXeN9Oll4I",
+      "title": "🌍GÖÇ-EKONOMİK FAALİYETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-37🟡10.SINIF COĞRAFYA  📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/38 - dDXeN9Oll4I - 🌍GÖÇ-EKONOMİK FAALİYETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-37🟡10.SINIF COĞRAFYA  📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/38 - dDXeN9Oll4I - 🌍GÖÇ-EKONOMİK FAALİYETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-37🟡10.SINIF COĞRAFYA  📌2025.tr.vtt",
+      "playlistIndex": 38
+    },
+    {
+      "subject": "cografya",
+      "videoId": "PU8f3WqdNeY",
+      "title": "🌍ULUSLARARASI ULAŞIM HATLARI🔴39 GÜNDE TYT COĞRAFYA KAMPI-38 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/39 - PU8f3WqdNeY - 🌍ULUSLARARASI ULAŞIM HATLARI🔴39 GÜNDE TYT COĞRAFYA KAMPI-38 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/39 - PU8f3WqdNeY - 🌍ULUSLARARASI ULAŞIM HATLARI🔴39 GÜNDE TYT COĞRAFYA KAMPI-38 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 39
+    },
+    {
+      "subject": "cografya",
+      "videoId": "paXdOyeI8zo",
+      "title": "🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/40 - paXdOyeI8zo - 🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/40 - paXdOyeI8zo - 🌍DOĞAL AFETLER 🔴39 GÜNDE TYT COĞRAFYA KAMPI-39 🟡10.SINIF COĞRAFYA 📌2025.tr.vtt",
+      "playlistIndex": 40
+    },
+    {
+      "subject": "cografya",
+      "videoId": "45pbIKYWtsI",
+      "title": "TYT - MSÜ Coğrafya genel tekrar 1 🔴 Zeduva kırmızı hafta full tekrar 2025",
+      "cleanPath": "content/v2/transcript-corpus/cografya/clean/41 - 45pbIKYWtsI - TYT - MSÜ Coğrafya genel tekrar 1 🔴 Zeduva kırmızı hafta full tekrar 2025.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/cografya/raw/41 - 45pbIKYWtsI - TYT - MSÜ Coğrafya genel tekrar 1 🔴 Zeduva kırmızı hafta full tekrar 2025.tr.vtt",
+      "playlistIndex": 41
+    },
+    {
+      "subject": "fizik",
+      "videoId": "1Hg2eF907YA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/01 - 1Hg2eF907YA - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/01 - 1Hg2eF907YA - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 1 ｜ Fiziğin Alt Dalları ｜ 2027.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "fizik",
+      "videoId": "7aVrdQ7uSQ4",
+      "title": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/02 - 7aVrdQ7uSQ4 - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/02 - 7aVrdQ7uSQ4 - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş - 2 ｜ Fiziksel Büyüklükler ｜ 2027.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "fizik",
+      "videoId": "PyTaVJVi21c",
+      "title": "55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş Soru Çözümü ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/03 - PyTaVJVi21c - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş Soru Çözümü ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/03 - PyTaVJVi21c - 55 Günde TYT Fizik Kampı ｜ 1. Gün ｜ Fizik Bilimine Giriş Soru Çözümü ｜ 2027.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Mhgsu-3ZLNA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 1 ｜ Kütle ve Hacim Kavramları ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/04 - Mhgsu-3ZLNA - 55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 1 ｜ Kütle ve Hacim Kavramları ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/04 - Mhgsu-3ZLNA - 55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 1 ｜ Kütle ve Hacim Kavramları ｜ 2027.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "fizik",
+      "videoId": "tv64WNuMGn8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 2 ｜ Özkütle ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/05 - tv64WNuMGn8 - 55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 2 ｜ Özkütle ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/05 - tv64WNuMGn8 - 55 Günde TYT Fizik Kampı ｜ 2. Gün ｜ Madde ve Özellikleri - 2 ｜ Özkütle ｜ 2027.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "fizik",
+      "videoId": "OSpkdUAQ41o",
+      "title": "55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri - 3 ｜ Karışımların Özkütlesi ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/06 - OSpkdUAQ41o - 55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri - 3 ｜ Karışımların Özkütlesi ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/06 - OSpkdUAQ41o - 55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri - 3 ｜ Karışımların Özkütlesi ｜ 2027.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "fizik",
+      "videoId": "H0HZrc9-I04",
+      "title": "55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri Soru Çözümü - 1 ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/07 - H0HZrc9-I04 - 55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri Soru Çözümü - 1 ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/07 - H0HZrc9-I04 - 55 Günde TYT Fizik Kampı ｜ 3. Gün ｜ Madde ve Özellikleri Soru Çözümü - 1 ｜ 2027.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "fizik",
+      "videoId": "UrMwq39KF2c",
+      "title": "55 Günde TYT Fizik Kampı ｜ 4. Gün ｜ Madde ve Özellikleri - 4 ｜ Dayanıklılık ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/08 - UrMwq39KF2c - 55 Günde TYT Fizik Kampı ｜ 4. Gün ｜ Madde ve Özellikleri - 4 ｜ Dayanıklılık ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/08 - UrMwq39KF2c - 55 Günde TYT Fizik Kampı ｜ 4. Gün ｜ Madde ve Özellikleri - 4 ｜ Dayanıklılık ｜ 2027.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Wh0MdHIOWHM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri - 5 ｜ Adezyon ve Kohezyon ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/09 - Wh0MdHIOWHM - 55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri - 5 ｜ Adezyon ve Kohezyon ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/09 - Wh0MdHIOWHM - 55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri - 5 ｜ Adezyon ve Kohezyon ｜ 2027.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "fizik",
+      "videoId": "dhSEXueJg40",
+      "title": "55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri Soru Çözümü - 2 ｜ 2027",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/10 - dhSEXueJg40 - 55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri Soru Çözümü - 2 ｜ 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/10 - dhSEXueJg40 - 55 Günde TYT Fizik Kampı ｜ 5. Gün ｜ Madde ve Özellikleri Soru Çözümü - 2 ｜ 2027.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Qp211SqOGJ4",
+      "title": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/11 - Qp211SqOGJ4 - 55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/11 - Qp211SqOGJ4 - 55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 1 ｜ Temel Kavramlar ｜ 2026.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "fizik",
+      "videoId": "C2lKjxiLnkE",
+      "title": "55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 2 ｜ Düzgün Doğrusal Hareket ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/12 - C2lKjxiLnkE - 55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 2 ｜ Düzgün Doğrusal Hareket ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/12 - C2lKjxiLnkE - 55 Günde TYT Fizik Kampı ｜ 6. Gün ｜ Hareket - 2 ｜ Düzgün Doğrusal Hareket ｜ 2026.tr.vtt",
+      "playlistIndex": 12
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Cl43P5zbPeo",
+      "title": "55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket - 3 ｜ İvme ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/13 - Cl43P5zbPeo - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket - 3 ｜ İvme ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/13 - Cl43P5zbPeo - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket - 3 ｜ İvme ｜ 2026.tr.vtt",
+      "playlistIndex": 13
+    },
+    {
+      "subject": "fizik",
+      "videoId": "w8PKMoRcjI4",
+      "title": "55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/14 - w8PKMoRcjI4 - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/14 - w8PKMoRcjI4 - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 14
+    },
+    {
+      "subject": "fizik",
+      "videoId": "EDbz2IbEc44",
+      "title": "55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/15 - EDbz2IbEc44 - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/15 - EDbz2IbEc44 - 55 Günde TYT Fizik Kampı ｜ 7. Gün ｜ Hareket Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 15
+    },
+    {
+      "subject": "fizik",
+      "videoId": "VwxSW7Rmr2U",
+      "title": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/16 - VwxSW7Rmr2U - 55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/16 - VwxSW7Rmr2U - 55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 1 ｜ Temel Kuvvetler ve Bileşke Kuvvet ｜ 2026.tr.vtt",
+      "playlistIndex": 16
+    },
+    {
+      "subject": "fizik",
+      "videoId": "8pWbsm5Fz9U",
+      "title": "55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 2 ｜ Newton'ın Hareket Yasaları ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/17 - 8pWbsm5Fz9U - 55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 2 ｜ Newton'ın Hareket Yasaları ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/17 - 8pWbsm5Fz9U - 55 Günde TYT Fizik Kampı ｜ 8. Gün ｜ Kuvvet - 2 ｜ Newton'ın Hareket Yasaları ｜ 2026.tr.vtt",
+      "playlistIndex": 17
+    },
+    {
+      "subject": "fizik",
+      "videoId": "DjqPL2eMzVM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 9. Gün ｜ Kuvvet - 3 ｜ Newton'ın Hareket Yasaları ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/18 - DjqPL2eMzVM - 55 Günde TYT Fizik Kampı ｜ 9. Gün ｜ Kuvvet - 3 ｜ Newton'ın Hareket Yasaları ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/18 - DjqPL2eMzVM - 55 Günde TYT Fizik Kampı ｜ 9. Gün ｜ Kuvvet - 3 ｜ Newton'ın Hareket Yasaları ｜ 2026.tr.vtt",
+      "playlistIndex": 18
+    },
+    {
+      "subject": "fizik",
+      "videoId": "1NGTT1X4lnA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/19 - 1NGTT1X4lnA - 55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/19 - 1NGTT1X4lnA - 55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 19
+    },
+    {
+      "subject": "fizik",
+      "videoId": "BhN4puabxW8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/20 - BhN4puabxW8 - 55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/20 - BhN4puabxW8 - 55 Günde TYT Fizik Kampı ｜ 10. Gün ｜ Kuvvet Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 20
+    },
+    {
+      "subject": "fizik",
+      "videoId": "D07mKe56Eis",
+      "title": "55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 1｜ İş Kavramı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/21 - D07mKe56Eis - 55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 1｜ İş Kavramı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/21 - D07mKe56Eis - 55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 1｜ İş Kavramı ｜ 2026.tr.vtt",
+      "playlistIndex": 21
+    },
+    {
+      "subject": "fizik",
+      "videoId": "WXs6nUyVJ28",
+      "title": "55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 2 ｜ Mekanik Enerji ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/22 - WXs6nUyVJ28 - 55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 2 ｜ Mekanik Enerji ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/22 - WXs6nUyVJ28 - 55 Günde TYT Fizik Kampı ｜ 11. Gün ｜ İş, Güç, Enerji - 2 ｜ Mekanik Enerji ｜ 2026.tr.vtt",
+      "playlistIndex": 22
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Bidoa76lgEk",
+      "title": "55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 3 ｜ Enerjinin Korunumu ve Güç ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/23 - Bidoa76lgEk - 55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 3 ｜ Enerjinin Korunumu ve Güç ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/23 - Bidoa76lgEk - 55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 3 ｜ Enerjinin Korunumu ve Güç ｜ 2026.tr.vtt",
+      "playlistIndex": 23
+    },
+    {
+      "subject": "fizik",
+      "videoId": "gK_GV4z-OjU",
+      "title": "55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 4 ｜ Verim ve Enerji Kaynakları ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/24 - gK_GV4z-OjU - 55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 4 ｜ Verim ve Enerji Kaynakları ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/24 - gK_GV4z-OjU - 55 Günde TYT Fizik Kampı ｜ 12. Gün ｜ İş, Güç, Enerji - 4 ｜ Verim ve Enerji Kaynakları ｜ 2026.tr.vtt",
+      "playlistIndex": 24
+    },
+    {
+      "subject": "fizik",
+      "videoId": "0vA8I1D3yq0",
+      "title": "55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/25 - 0vA8I1D3yq0 - 55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/25 - 0vA8I1D3yq0 - 55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 25
+    },
+    {
+      "subject": "fizik",
+      "videoId": "LOpwAg5w_d8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/26 - LOpwAg5w_d8 - 55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/26 - LOpwAg5w_d8 - 55 Günde TYT Fizik Kampı ｜ 13. Gün ｜ İş, Güç, Enerji Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 26
+    },
+    {
+      "subject": "fizik",
+      "videoId": "kGrdvkxHxjA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/27 - kGrdvkxHxjA - 55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/27 - kGrdvkxHxjA - 55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 1 ｜ İç Enerji, Sıcaklık, Isı ｜ 2026.tr.vtt",
+      "playlistIndex": 27
+    },
+    {
+      "subject": "fizik",
+      "videoId": "7HIjhLRs-Dc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 2 ｜ Sıcaklık Ölçekleri ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/28 - 7HIjhLRs-Dc - 55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 2 ｜ Sıcaklık Ölçekleri ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/28 - 7HIjhLRs-Dc - 55 Günde TYT Fizik Kampı ｜ 14. Gün ｜ Isı ve Sıcaklık - 2 ｜ Sıcaklık Ölçekleri ｜ 2026.tr.vtt",
+      "playlistIndex": 28
+    },
+    {
+      "subject": "fizik",
+      "videoId": "VhqHkBN6xMQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/29 - VhqHkBN6xMQ - 55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/29 - VhqHkBN6xMQ - 55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 3 ｜ Öz Isı ve Isı Sığası ｜ 2026.tr.vtt",
+      "playlistIndex": 29
+    },
+    {
+      "subject": "fizik",
+      "videoId": "3pRu3T0Q03U",
+      "title": "55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/30 - 3pRu3T0Q03U - 55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/30 - 3pRu3T0Q03U - 55 Günde TYT Fizik Kampı ｜ 15. Gün ｜ Isı ve Sıcaklık - 4 ｜ Hal Değişimi ｜ 2026.tr.vtt",
+      "playlistIndex": 30
+    },
+    {
+      "subject": "fizik",
+      "videoId": "2-aHeYUXvCI",
+      "title": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/31 - 2-aHeYUXvCI - 55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/31 - 2-aHeYUXvCI - 55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 5 ｜ Isıl Denge ｜ 2026.tr.vtt",
+      "playlistIndex": 31
+    },
+    {
+      "subject": "fizik",
+      "videoId": "CRg4b_g1IXc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/32 - CRg4b_g1IXc - 55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/32 - CRg4b_g1IXc - 55 Günde TYT Fizik Kampı ｜ 16. Gün ｜ Isı ve Sıcaklık - 6 ｜ Enerji İletim Yolları ve Hızı ｜ 2026.tr.vtt",
+      "playlistIndex": 32
+    },
+    {
+      "subject": "fizik",
+      "videoId": "XRHERBB3kI0",
+      "title": "55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/33 - XRHERBB3kI0 - 55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/33 - XRHERBB3kI0 - 55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 33
+    },
+    {
+      "subject": "fizik",
+      "videoId": "L3W9YVviHrU",
+      "title": "55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/34 - L3W9YVviHrU - 55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/34 - L3W9YVviHrU - 55 Günde TYT Fizik Kampı ｜ 17. Gün ｜ Isı ve Sıcaklık Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 34
+    },
+    {
+      "subject": "fizik",
+      "videoId": "brzhvf6-L_I",
+      "title": "55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/35 - brzhvf6-L_I - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/35 - brzhvf6-L_I - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 35
+    },
+    {
+      "subject": "fizik",
+      "videoId": "iOkBQ3GBVk8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/36 - iOkBQ3GBVk8 - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/36 - iOkBQ3GBVk8 - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 36
+    },
+    {
+      "subject": "fizik",
+      "videoId": "YJJfmAinEhI",
+      "title": "55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme Soru Çözümü ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/37 - YJJfmAinEhI - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme Soru Çözümü ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/37 - YJJfmAinEhI - 55 Günde TYT Fizik Kampı ｜ 18. Gün ｜ Genleşme Soru Çözümü ｜ 2026.tr.vtt",
+      "playlistIndex": 37
+    },
+    {
+      "subject": "fizik",
+      "videoId": "jLdxW888qsg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 1 ｜ Elektrik Yükleri ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/38 - jLdxW888qsg - 55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 1 ｜ Elektrik Yükleri ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/38 - jLdxW888qsg - 55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 1 ｜ Elektrik Yükleri ｜ 2026.tr.vtt",
+      "playlistIndex": 38
+    },
+    {
+      "subject": "fizik",
+      "videoId": "xieg5ohrPGs",
+      "title": "55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 2 ｜ Elektriklenme Çeşitleri ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/39 - xieg5ohrPGs - 55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 2 ｜ Elektriklenme Çeşitleri ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/39 - xieg5ohrPGs - 55 Günde TYT Fizik Kampı ｜ 19. Gün ｜ Elektrostatik - 2 ｜ Elektriklenme Çeşitleri ｜ 2026.tr.vtt",
+      "playlistIndex": 39
+    },
+    {
+      "subject": "fizik",
+      "videoId": "NqzDtAGqbQY",
+      "title": "55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 3 ｜ Elektroskop ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/40 - NqzDtAGqbQY - 55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 3 ｜ Elektroskop ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/40 - NqzDtAGqbQY - 55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 3 ｜ Elektroskop ｜ 2026.tr.vtt",
+      "playlistIndex": 40
+    },
+    {
+      "subject": "fizik",
+      "videoId": "AL7H47SY968",
+      "title": "55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 4 ｜ İletken ve Yalıtkanlar, Topraklama ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/41 - AL7H47SY968 - 55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 4 ｜ İletken ve Yalıtkanlar, Topraklama ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/41 - AL7H47SY968 - 55 Günde TYT Fizik Kampı ｜ 20. Gün ｜ Elektrostatik - 4 ｜ İletken ve Yalıtkanlar, Topraklama ｜ 2026.tr.vtt",
+      "playlistIndex": 41
+    },
+    {
+      "subject": "fizik",
+      "videoId": "qb2_VWVm_oQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 5 ｜ Coulomb Kuvveti ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/42 - qb2_VWVm_oQ - 55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 5 ｜ Coulomb Kuvveti ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/42 - qb2_VWVm_oQ - 55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 5 ｜ Coulomb Kuvveti ｜ 2026.tr.vtt",
+      "playlistIndex": 42
+    },
+    {
+      "subject": "fizik",
+      "videoId": "u2Y616NLBBs",
+      "title": "55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 6 ｜ Elektrik Alan ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/43 - u2Y616NLBBs - 55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 6 ｜ Elektrik Alan ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/43 - u2Y616NLBBs - 55 Günde TYT Fizik Kampı ｜ 21. Gün ｜ Elektrostatik - 6 ｜ Elektrik Alan ｜ 2026.tr.vtt",
+      "playlistIndex": 43
+    },
+    {
+      "subject": "fizik",
+      "videoId": "6jbPjwbPXls",
+      "title": "55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/44 - 6jbPjwbPXls - 55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/44 - 6jbPjwbPXls - 55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 44
+    },
+    {
+      "subject": "fizik",
+      "videoId": "VKrJ1GJX0zE",
+      "title": "55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/45 - VKrJ1GJX0zE - 55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/45 - VKrJ1GJX0zE - 55 Günde TYT Fizik Kampı ｜ 22. Gün ｜ Elektrostatik Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 45
+    },
+    {
+      "subject": "fizik",
+      "videoId": "eFizWwjLopQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 1 ｜ Elektrik Akımı ve Potansiyel Fark ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/46 - eFizWwjLopQ - 55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 1 ｜ Elektrik Akımı ve Potansiyel Fark ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/46 - eFizWwjLopQ - 55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 1 ｜ Elektrik Akımı ve Potansiyel Fark ｜ 2026.tr.vtt",
+      "playlistIndex": 46
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Tap34nISlqg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 2 ｜ Direnç ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/47 - Tap34nISlqg - 55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 2 ｜ Direnç ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/47 - Tap34nISlqg - 55 Günde TYT Fizik Kampı ｜ 23. Gün ｜ Elektrik Akımı - 2 ｜ Direnç ｜ 2026.tr.vtt",
+      "playlistIndex": 47
+    },
+    {
+      "subject": "fizik",
+      "videoId": "uq9Q7seOe28",
+      "title": "55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 1 ｜ Ohm Yasası ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/48 - uq9Q7seOe28 - 55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 1 ｜ Ohm Yasası ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/48 - uq9Q7seOe28 - 55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 1 ｜ Ohm Yasası ｜ 2026.tr.vtt",
+      "playlistIndex": 48
+    },
+    {
+      "subject": "fizik",
+      "videoId": "urZkI2qOtYo",
+      "title": "55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 2 ｜ Dirençlerin Bağlanması ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/49 - urZkI2qOtYo - 55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 2 ｜ Dirençlerin Bağlanması ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/49 - urZkI2qOtYo - 55 Günde TYT Fizik Kampı ｜ 24. Gün ｜ Elektrik Devreleri - 2 ｜ Dirençlerin Bağlanması ｜ 2026.tr.vtt",
+      "playlistIndex": 49
+    },
+    {
+      "subject": "fizik",
+      "videoId": "MjctdUFHILE",
+      "title": "55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri - 3 ｜ Üreteçlerin Bağlanması ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/50 - MjctdUFHILE - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri - 3 ｜ Üreteçlerin Bağlanması ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/50 - MjctdUFHILE - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri - 3 ｜ Üreteçlerin Bağlanması ｜ 2026.tr.vtt",
+      "playlistIndex": 50
+    },
+    {
+      "subject": "fizik",
+      "videoId": "9CbekU-8WwQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/51 - 9CbekU-8WwQ - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/51 - 9CbekU-8WwQ - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 51
+    },
+    {
+      "subject": "fizik",
+      "videoId": "RwsGiXMimEw",
+      "title": "55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/52 - RwsGiXMimEw - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/52 - RwsGiXMimEw - 55 Günde TYT Fizik Kampı ｜ 25. Gün ｜ Elektrik Devreleri Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 52
+    },
+    {
+      "subject": "fizik",
+      "videoId": "zN7DKUvyqzA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektrik Devreleri - 4 ｜ Elektriksel Güç ve Lambalar ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/53 - zN7DKUvyqzA - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektrik Devreleri - 4 ｜ Elektriksel Güç ve Lambalar ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/53 - zN7DKUvyqzA - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektrik Devreleri - 4 ｜ Elektriksel Güç ve Lambalar ｜ 2026.tr.vtt",
+      "playlistIndex": 53
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Y8cJuEqETI0",
+      "title": "55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/54 - Y8cJuEqETI0 - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/54 - Y8cJuEqETI0 - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 54
+    },
+    {
+      "subject": "fizik",
+      "videoId": "cbqBhmByflM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/55 - cbqBhmByflM - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/55 - cbqBhmByflM - 55 Günde TYT Fizik Kampı ｜ 26. Gün ｜ Elektriksel Güç ve Lambalar Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 55
+    },
+    {
+      "subject": "fizik",
+      "videoId": "p6zLfL59v8Y",
+      "title": "55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 1 ｜ Mıknatıs ve Manyetik Alan ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/56 - p6zLfL59v8Y - 55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 1 ｜ Mıknatıs ve Manyetik Alan ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/56 - p6zLfL59v8Y - 55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 1 ｜ Mıknatıs ve Manyetik Alan ｜ 2026.tr.vtt",
+      "playlistIndex": 56
+    },
+    {
+      "subject": "fizik",
+      "videoId": "57NKxjQkOoU",
+      "title": "55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 2 ｜ Akım ve Manyetik Alan ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/57 - 57NKxjQkOoU - 55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 2 ｜ Akım ve Manyetik Alan ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/57 - 57NKxjQkOoU - 55 Günde TYT Fizik Kampı ｜ 27. Gün ｜ Manyetizma - 2 ｜ Akım ve Manyetik Alan ｜ 2026.tr.vtt",
+      "playlistIndex": 57
+    },
+    {
+      "subject": "fizik",
+      "videoId": "WT5V4wGrSBM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 3 ｜ Elektromıknatıs ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/58 - WT5V4wGrSBM - 55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 3 ｜ Elektromıknatıs ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/58 - WT5V4wGrSBM - 55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 3 ｜ Elektromıknatıs ｜ 2026.tr.vtt",
+      "playlistIndex": 58
+    },
+    {
+      "subject": "fizik",
+      "videoId": "aMpvY7w8rK4",
+      "title": "55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 4 ｜ Dünya'nın Manyetik Alanı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/59 - aMpvY7w8rK4 - 55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 4 ｜ Dünya'nın Manyetik Alanı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/59 - aMpvY7w8rK4 - 55 Günde TYT Fizik Kampı ｜ 28. Gün ｜ Manyetizma - 4 ｜ Dünya'nın Manyetik Alanı ｜ 2026.tr.vtt",
+      "playlistIndex": 59
+    },
+    {
+      "subject": "fizik",
+      "videoId": "9k17_RBIXeg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/60 - 9k17_RBIXeg - 55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/60 - 9k17_RBIXeg - 55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 60
+    },
+    {
+      "subject": "fizik",
+      "videoId": "OOZ-NFlWebY",
+      "title": "55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/61 - OOZ-NFlWebY - 55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/61 - OOZ-NFlWebY - 55 Günde TYT Fizik Kampı ｜ 29. Gün ｜ Manyetizma Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 61
+    },
+    {
+      "subject": "fizik",
+      "videoId": "DnQNBoR_Dsw",
+      "title": "55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/62 - DnQNBoR_Dsw - 55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/62 - DnQNBoR_Dsw - 55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç - 1 ｜ Katı Basıncı ｜ 2026.tr.vtt",
+      "playlistIndex": 62
+    },
+    {
+      "subject": "fizik",
+      "videoId": "5Hr5osikAlk",
+      "title": "55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç Soru Çözümü - 1 ｜ Katı Basıncı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/63 - 5Hr5osikAlk - 55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç Soru Çözümü - 1 ｜ Katı Basıncı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/63 - 5Hr5osikAlk - 55 Günde TYT Fizik Kampı ｜ 30. Gün ｜ Basınç Soru Çözümü - 1 ｜ Katı Basıncı ｜ 2026.tr.vtt",
+      "playlistIndex": 63
+    },
+    {
+      "subject": "fizik",
+      "videoId": "dkwbOGhBedc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/64 - dkwbOGhBedc - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/64 - dkwbOGhBedc - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 2 ｜ Sıvı Basıncı - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 64
+    },
+    {
+      "subject": "fizik",
+      "videoId": "8XFD833ngJc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 3 ｜ Sıvı Basıncı - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/65 - 8XFD833ngJc - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 3 ｜ Sıvı Basıncı - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/65 - 8XFD833ngJc - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 3 ｜ Sıvı Basıncı - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 65
+    },
+    {
+      "subject": "fizik",
+      "videoId": "jOKADXphfC8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/66 - jOKADXphfC8 - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/66 - jOKADXphfC8 - 55 Günde TYT Fizik Kampı ｜ 31. Gün ｜ Basınç - 4 ｜ Sıvı Basıncı - 3 ｜ 2026.tr.vtt",
+      "playlistIndex": 66
+    },
+    {
+      "subject": "fizik",
+      "videoId": "bYnkDV0LJ5o",
+      "title": "55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 5 ｜ Açık Hava Basıncı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/67 - bYnkDV0LJ5o - 55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 5 ｜ Açık Hava Basıncı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/67 - bYnkDV0LJ5o - 55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 5 ｜ Açık Hava Basıncı ｜ 2026.tr.vtt",
+      "playlistIndex": 67
+    },
+    {
+      "subject": "fizik",
+      "videoId": "8EvdMuWG6kU",
+      "title": "55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 6 ｜ Kapalı Kaplarda Gaz Basıncı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/68 - 8EvdMuWG6kU - 55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 6 ｜ Kapalı Kaplarda Gaz Basıncı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/68 - 8EvdMuWG6kU - 55 Günde TYT Fizik Kampı ｜ 32. Gün ｜ Basınç - 6 ｜ Kapalı Kaplarda Gaz Basıncı ｜ 2026.tr.vtt",
+      "playlistIndex": 68
+    },
+    {
+      "subject": "fizik",
+      "videoId": "pduzOUiY1uM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/69 - pduzOUiY1uM - 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/69 - pduzOUiY1uM - 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 7 ｜ Basınç Ölçen Aletler ve Hal Değişimine Etki ｜ 2026.tr.vtt",
+      "playlistIndex": 69
+    },
+    {
+      "subject": "fizik",
+      "videoId": "1Q3CtzfV1lQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/70 - 1Q3CtzfV1lQ - 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/70 - 1Q3CtzfV1lQ - 55 Günde TYT Fizik Kampı ｜ 33. Gün ｜ Basınç - 8 ｜ Akışkanların Basıncı ｜ 2026.tr.vtt",
+      "playlistIndex": 70
+    },
+    {
+      "subject": "fizik",
+      "videoId": "PQM2gVZrgS4",
+      "title": "55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/71 - PQM2gVZrgS4 - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/71 - PQM2gVZrgS4 - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 71
+    },
+    {
+      "subject": "fizik",
+      "videoId": "2Y3BQddhguA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/72 - 2Y3BQddhguA - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/72 - 2Y3BQddhguA - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Durgun Sıvı ve Akışkan Basıncı Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 72
+    },
+    {
+      "subject": "fizik",
+      "videoId": "PmJmQpttSnY",
+      "title": "55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/73 - PmJmQpttSnY - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/73 - PmJmQpttSnY - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 73
+    },
+    {
+      "subject": "fizik",
+      "videoId": "iUDFx-qjjeM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/74 - iUDFx-qjjeM - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/74 - iUDFx-qjjeM - 55 Günde TYT Fizik Kampı ｜ 34. Gün ｜ Gaz Basıncı Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 74
+    },
+    {
+      "subject": "fizik",
+      "videoId": "XQHH2VV1Bbk",
+      "title": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/75 - XQHH2VV1Bbk - 55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/75 - XQHH2VV1Bbk - 55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 75
+    },
+    {
+      "subject": "fizik",
+      "videoId": "IX2LZ_CYJQI",
+      "title": "55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/76 - IX2LZ_CYJQI - 55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/76 - IX2LZ_CYJQI - 55 Günde TYT Fizik Kampı ｜ 35. Gün ｜ Kaldırma Kuvveti - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 76
+    },
+    {
+      "subject": "fizik",
+      "videoId": "EkNxYWi-uKM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/77 - EkNxYWi-uKM - 55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/77 - EkNxYWi-uKM - 55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 77
+    },
+    {
+      "subject": "fizik",
+      "videoId": "-uyoBz_bC4I",
+      "title": "55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/78 - -uyoBz_bC4I - 55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/78 - -uyoBz_bC4I - 55 Günde TYT Fizik Kampı ｜ 36. Gün ｜ Kaldırma Kuvveti Soru Çözümü - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 78
+    },
+    {
+      "subject": "fizik",
+      "videoId": "1O3Q5X8mleQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Işık Şiddeti ve Işık Akısı ｜ Aydınlanma - 1 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/79 - 1O3Q5X8mleQ - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Işık Şiddeti ve Işık Akısı ｜ Aydınlanma - 1 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/79 - 1O3Q5X8mleQ - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Işık Şiddeti ve Işık Akısı ｜ Aydınlanma - 1 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 79
+    },
+    {
+      "subject": "fizik",
+      "videoId": "T9g5QdOr8Mo",
+      "title": "55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Şiddeti ｜ Aydınlanma - 2 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/80 - T9g5QdOr8Mo - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Şiddeti ｜ Aydınlanma - 2 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/80 - T9g5QdOr8Mo - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Şiddeti ｜ Aydınlanma - 2 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 80
+    },
+    {
+      "subject": "fizik",
+      "videoId": "ceSzQEruRxQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/81 - ceSzQEruRxQ - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/81 - ceSzQEruRxQ - 55 Günde TYT Fizik Kampı ｜ 37. Gün ｜ Aydınlanma Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 81
+    },
+    {
+      "subject": "fizik",
+      "videoId": "dd-BhlkKSuU",
+      "title": "55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 1 ｜ Optik ｜  2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/82 - dd-BhlkKSuU - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 1 ｜ Optik ｜  2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/82 - dd-BhlkKSuU - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 1 ｜ Optik ｜  2026.tr.vtt",
+      "playlistIndex": 82
+    },
+    {
+      "subject": "fizik",
+      "videoId": "9hgQWVXqn6s",
+      "title": "55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 2 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/83 - 9hgQWVXqn6s - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 2 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/83 - 9hgQWVXqn6s - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge - 2 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 83
+    },
+    {
+      "subject": "fizik",
+      "videoId": "0XJt3FaWS5M",
+      "title": "55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/84 - 0XJt3FaWS5M - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/84 - 0XJt3FaWS5M - 55 Günde TYT Fizik Kampı ｜ 38. Gün ｜ Gölge Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 84
+    },
+    {
+      "subject": "fizik",
+      "videoId": "ixgV1NTdISQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Yansıma ve Yansıma Kanunları ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/85 - ixgV1NTdISQ - 55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Yansıma ve Yansıma Kanunları ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/85 - ixgV1NTdISQ - 55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Yansıma ve Yansıma Kanunları ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 85
+    },
+    {
+      "subject": "fizik",
+      "videoId": "6Ol1f4UKsnM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Düzlem Ayna - 1 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/86 - 6Ol1f4UKsnM - 55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Düzlem Ayna - 1 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/86 - 6Ol1f4UKsnM - 55 Günde TYT Fizik Kampı ｜ 39. Gün ｜ Düzlem Ayna - 1 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 86
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Niuye4Sxiio",
+      "title": "55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Görüş Alanı ｜ Düzlem Ayna - 2 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/87 - Niuye4Sxiio - 55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Görüş Alanı ｜ Düzlem Ayna - 2 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/87 - Niuye4Sxiio - 55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Görüş Alanı ｜ Düzlem Ayna - 2 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 87
+    },
+    {
+      "subject": "fizik",
+      "videoId": "PuGnerpUo14",
+      "title": "55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Düzlem Ayna Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/88 - PuGnerpUo14 - 55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Düzlem Ayna Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/88 - PuGnerpUo14 - 55 Günde TYT Fizik Kampı ｜ 40. Gün ｜ Düzlem Ayna Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 88
+    },
+    {
+      "subject": "fizik",
+      "videoId": "9Qv8MXWL4yc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Çukur Aynada Özel Işınlar ｜ Küresel Aynalar - 1 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/89 - 9Qv8MXWL4yc - 55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Çukur Aynada Özel Işınlar ｜ Küresel Aynalar - 1 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/89 - 9Qv8MXWL4yc - 55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Çukur Aynada Özel Işınlar ｜ Küresel Aynalar - 1 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 89
+    },
+    {
+      "subject": "fizik",
+      "videoId": "jczDv1QHAic",
+      "title": "55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Tümsek Aynada Özel Işınlar ｜ Küresel Aynalar - 2 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/90 - jczDv1QHAic - 55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Tümsek Aynada Özel Işınlar ｜ Küresel Aynalar - 2 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/90 - jczDv1QHAic - 55 Günde TYT Fizik Kampı ｜ 41. Gün ｜ Tümsek Aynada Özel Işınlar ｜ Küresel Aynalar - 2 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 90
+    },
+    {
+      "subject": "fizik",
+      "videoId": "JK8l1zMiw0g",
+      "title": "55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Çukur Aynada Görüntü ｜ Küresel Aynalar - 3 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/91 - JK8l1zMiw0g - 55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Çukur Aynada Görüntü ｜ Küresel Aynalar - 3 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/91 - JK8l1zMiw0g - 55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Çukur Aynada Görüntü ｜ Küresel Aynalar - 3 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 91
+    },
+    {
+      "subject": "fizik",
+      "videoId": "W8H3bTK4JxE",
+      "title": "55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Tümsek Aynada Görüntü ｜ Küresel Aynalar - 4 ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/92 - W8H3bTK4JxE - 55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Tümsek Aynada Görüntü ｜ Küresel Aynalar - 4 ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/92 - W8H3bTK4JxE - 55 Günde TYT Fizik Kampı ｜ 42. Gün ｜ Tümsek Aynada Görüntü ｜ Küresel Aynalar - 4 ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 92
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Xn-W093iEGA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 43. Gün ｜ Küresel Aynalar Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/93 - Xn-W093iEGA - 55 Günde TYT Fizik Kampı ｜ 43. Gün ｜ Küresel Aynalar Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/93 - Xn-W093iEGA - 55 Günde TYT Fizik Kampı ｜ 43. Gün ｜ Küresel Aynalar Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 93
+    },
+    {
+      "subject": "fizik",
+      "videoId": "HBGioahDgyA",
+      "title": "55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Kırılma İndisi, Snell Yasası ｜ Işığın Kırılması ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/94 - HBGioahDgyA - 55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Kırılma İndisi, Snell Yasası ｜ Işığın Kırılması ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/94 - HBGioahDgyA - 55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Kırılma İndisi, Snell Yasası ｜ Işığın Kırılması ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 94
+    },
+    {
+      "subject": "fizik",
+      "videoId": "ffttO_LOmR8",
+      "title": "55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Sınır Açısı ve Tam Yansıma ｜ Işığın Kırılması ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/95 - ffttO_LOmR8 - 55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Sınır Açısı ve Tam Yansıma ｜ Işığın Kırılması ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/95 - ffttO_LOmR8 - 55 Günde TYT Fizik Kampı ｜ 44. Gün ｜ Sınır Açısı ve Tam Yansıma ｜ Işığın Kırılması ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 95
+    },
+    {
+      "subject": "fizik",
+      "videoId": "DfDdkMfeUIo",
+      "title": "55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Küresel Yüzeylerden Geçiş ve Görünür Uzaklık ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/96 - DfDdkMfeUIo - 55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Küresel Yüzeylerden Geçiş ve Görünür Uzaklık ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/96 - DfDdkMfeUIo - 55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Küresel Yüzeylerden Geçiş ve Görünür Uzaklık ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 96
+    },
+    {
+      "subject": "fizik",
+      "videoId": "LrekDijm8Qc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Işığın Kırılması Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/97 - LrekDijm8Qc - 55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Işığın Kırılması Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/97 - LrekDijm8Qc - 55 Günde TYT Fizik Kampı ｜ 45. Gün ｜ Işığın Kırılması Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 97
+    },
+    {
+      "subject": "fizik",
+      "videoId": "7UGITYRh8ds",
+      "title": "55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ Mercekler ve Odak Uzaklığının Bağlı Olduğu Faktörler ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/98 - 7UGITYRh8ds - 55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ Mercekler ve Odak Uzaklığının Bağlı Olduğu Faktörler ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/98 - 7UGITYRh8ds - 55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ Mercekler ve Odak Uzaklığının Bağlı Olduğu Faktörler ｜ 2026.tr.vtt",
+      "playlistIndex": 98
+    },
+    {
+      "subject": "fizik",
+      "videoId": "APT59L7PrxQ",
+      "title": "55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Özel Işınlar ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/99 - APT59L7PrxQ - 55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Özel Işınlar ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/99 - APT59L7PrxQ - 55 Günde TYT Fizik Kampı ｜ 46. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Özel Işınlar ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 99
+    },
+    {
+      "subject": "fizik",
+      "videoId": "Kb1V3qLPO8U",
+      "title": "55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Görüntü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/100 - Kb1V3qLPO8U - 55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Görüntü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/100 - Kb1V3qLPO8U - 55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ İnce ve Kalın Kenarlı Merceklerde Görüntü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 100
+    },
+    {
+      "subject": "fizik",
+      "videoId": "EkaOHdAYKzI",
+      "title": "55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ Mercekler Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/101 - EkaOHdAYKzI - 55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ Mercekler Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/101 - EkaOHdAYKzI - 55 Günde TYT Fizik Kampı ｜ 47. Gün ｜ Mercekler Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 101
+    },
+    {
+      "subject": "fizik",
+      "videoId": "gSmX1oqE7sg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Prizmalar ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/102 - gSmX1oqE7sg - 55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Prizmalar ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/102 - gSmX1oqE7sg - 55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Prizmalar ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 102
+    },
+    {
+      "subject": "fizik",
+      "videoId": "gFXIw6RN7cg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Renkler ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/103 - gFXIw6RN7cg - 55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Renkler ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/103 - gFXIw6RN7cg - 55 Günde TYT Fizik Kampı ｜ 48. Gün ｜ Renkler ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 103
+    },
+    {
+      "subject": "fizik",
+      "videoId": "S6wH6_nZoEs",
+      "title": "55 Günde TYT Fizik Kampı ｜ 49. Gün ｜ Prizma ve Renkler Soru Çözümü ｜ Optik ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/104 - S6wH6_nZoEs - 55 Günde TYT Fizik Kampı ｜ 49. Gün ｜ Prizma ve Renkler Soru Çözümü ｜ Optik ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/104 - S6wH6_nZoEs - 55 Günde TYT Fizik Kampı ｜ 49. Gün ｜ Prizma ve Renkler Soru Çözümü ｜ Optik ｜ 2026.tr.vtt",
+      "playlistIndex": 104
+    },
+    {
+      "subject": "fizik",
+      "videoId": "p13oQVkAzR0",
+      "title": "55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Temel Kavramlar ｜ Dalgalar - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/105 - p13oQVkAzR0 - 55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Temel Kavramlar ｜ Dalgalar - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/105 - p13oQVkAzR0 - 55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Temel Kavramlar ｜ Dalgalar - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 105
+    },
+    {
+      "subject": "fizik",
+      "videoId": "1QpDnuEAm2s",
+      "title": "55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Dalgaların Sınıflandırılması ｜ Dalgalar - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/106 - 1QpDnuEAm2s - 55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Dalgaların Sınıflandırılması ｜ Dalgalar - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/106 - 1QpDnuEAm2s - 55 Günde TYT Fizik Kampı ｜ 50. Gün ｜ Dalgaların Sınıflandırılması ｜ Dalgalar - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 106
+    },
+    {
+      "subject": "fizik",
+      "videoId": "bRbvtVB4ZDc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların İlerlemesi ve Hızı ｜ Yay Dalgaları - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/107 - bRbvtVB4ZDc - 55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların İlerlemesi ve Hızı ｜ Yay Dalgaları - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/107 - bRbvtVB4ZDc - 55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların İlerlemesi ve Hızı ｜ Yay Dalgaları - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 107
+    },
+    {
+      "subject": "fizik",
+      "videoId": "IvCvvEQeGrg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların Yansıması ve Girişimi ｜ Yay Dalgaları - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/108 - IvCvvEQeGrg - 55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların Yansıması ve Girişimi ｜ Yay Dalgaları - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/108 - IvCvvEQeGrg - 55 Günde TYT Fizik Kampı ｜ 51. Gün ｜ Atmaların Yansıması ve Girişimi ｜ Yay Dalgaları - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 108
+    },
+    {
+      "subject": "fizik",
+      "videoId": "sPS084MAn88",
+      "title": "55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Atmaların Farklı Ortama Geçişi ｜ Yay Dalgaları - 3 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/109 - sPS084MAn88 - 55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Atmaların Farklı Ortama Geçişi ｜ Yay Dalgaları - 3 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/109 - sPS084MAn88 - 55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Atmaların Farklı Ortama Geçişi ｜ Yay Dalgaları - 3 ｜ 2026.tr.vtt",
+      "playlistIndex": 109
+    },
+    {
+      "subject": "fizik",
+      "videoId": "o4QOA4JWjqo",
+      "title": "55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Yay Dalgaları Soru Çözümü ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/110 - o4QOA4JWjqo - 55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Yay Dalgaları Soru Çözümü ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/110 - o4QOA4JWjqo - 55 Günde TYT Fizik Kampı ｜ 52. Gün ｜ Yay Dalgaları Soru Çözümü ｜ 2026.tr.vtt",
+      "playlistIndex": 110
+    },
+    {
+      "subject": "fizik",
+      "videoId": "W2kxJOz57Bc",
+      "title": "55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal ve Dairesel Su Dalgaları ｜ Su Dalgası - 1 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/111 - W2kxJOz57Bc - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal ve Dairesel Su Dalgaları ｜ Su Dalgası - 1 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/111 - W2kxJOz57Bc - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal ve Dairesel Su Dalgaları ｜ Su Dalgası - 1 ｜ 2026.tr.vtt",
+      "playlistIndex": 111
+    },
+    {
+      "subject": "fizik",
+      "videoId": "HXTKAnIUe1c",
+      "title": "55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal Su Dalgalarında Yansıma ｜ Su Dalgası - 2 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/112 - HXTKAnIUe1c - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal Su Dalgalarında Yansıma ｜ Su Dalgası - 2 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/112 - HXTKAnIUe1c - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Doğrusal Su Dalgalarında Yansıma ｜ Su Dalgası - 2 ｜ 2026.tr.vtt",
+      "playlistIndex": 112
+    },
+    {
+      "subject": "fizik",
+      "videoId": "rvcpdc5-v9w",
+      "title": "55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Dairesel Su Dalgalarında Yansıma ｜ Su Dalgası - 3 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/113 - rvcpdc5-v9w - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Dairesel Su Dalgalarında Yansıma ｜ Su Dalgası - 3 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/113 - rvcpdc5-v9w - 55 Günde TYT Fizik Kampı ｜ 53. Gün ｜ Dairesel Su Dalgalarında Yansıma ｜ Su Dalgası - 3 ｜ 2026.tr.vtt",
+      "playlistIndex": 113
+    },
+    {
+      "subject": "fizik",
+      "videoId": "85SvEQsvJgM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgalarının Hızı ve Kırılması ｜ Su Dalgası - 4 ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/114 - 85SvEQsvJgM - 55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgalarının Hızı ve Kırılması ｜ Su Dalgası - 4 ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/114 - 85SvEQsvJgM - 55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgalarının Hızı ve Kırılması ｜ Su Dalgası - 4 ｜ 2026.tr.vtt",
+      "playlistIndex": 114
+    },
+    {
+      "subject": "fizik",
+      "videoId": "KAmjPBtPfMk",
+      "title": "55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgaları Soru Çözümü ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/115 - KAmjPBtPfMk - 55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgaları Soru Çözümü ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/115 - KAmjPBtPfMk - 55 Günde TYT Fizik Kampı ｜ 54. Gün ｜ Su Dalgaları Soru Çözümü ｜ 2026.tr.vtt",
+      "playlistIndex": 115
+    },
+    {
+      "subject": "fizik",
+      "videoId": "CJh-XzyR6Dg",
+      "title": "55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/116 - CJh-XzyR6Dg - 55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/116 - CJh-XzyR6Dg - 55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları ｜ 2026.tr.vtt",
+      "playlistIndex": 116
+    },
+    {
+      "subject": "fizik",
+      "videoId": "VMGG-hcx5JM",
+      "title": "55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları Soru Çözümü ｜ 2026",
+      "cleanPath": "content/v2/transcript-corpus/fizik/clean/117 - VMGG-hcx5JM - 55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları Soru Çözümü ｜ 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/fizik/raw/117 - VMGG-hcx5JM - 55 Günde TYT Fizik Kampı ｜ 55. Gün ｜ Ses ve Deprem Dalgaları Soru Çözümü ｜ 2026.tr.vtt",
+      "playlistIndex": 117
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "AhpYrUKeHNE",
+      "title": "9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/01 - AhpYrUKeHNE - 9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/01 - AhpYrUKeHNE - 9. SINIF 1.ÜNİTE İNGİLİZCE YENİ MÜFREDAT ｜ SCHOOL LIFE KONU ANLATIMI VE KELİMELERİ.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "7hlpdxnFQ5o",
+      "title": "9. SINIF İNGİLİZCE 2. ÜNİTE KONU ANLATIMI 2025 ｜ CLASSROOM LIF (Yeni Müfredat)",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/02 - 7hlpdxnFQ5o - 9. SINIF İNGİLİZCE 2. ÜNİTE KONU ANLATIMI 2025 ｜ CLASSROOM LIF (Yeni Müfredat).tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/02 - 7hlpdxnFQ5o - 9. SINIF İNGİLİZCE 2. ÜNİTE KONU ANLATIMI 2025 ｜ CLASSROOM LIF (Yeni Müfredat).tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "GjocuWHrXyM",
+      "title": "9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat)",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/03 - GjocuWHrXyM - 9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat).tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/03 - GjocuWHrXyM - 9. Sınıf İngilizce 3. Ünite Konu Anlatımı 2025 ｜ Personal Life (Yeni Müfredat).tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "XB-sfmkA23k",
+      "title": "9. SINIF İNGİLİZCE 4. ÜNİTE KONU ANLATIMI ｜ FAMILY LIFE",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/04 - XB-sfmkA23k - 9. SINIF İNGİLİZCE 4. ÜNİTE KONU ANLATIMI ｜ FAMILY LIFE.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/04 - XB-sfmkA23k - 9. SINIF İNGİLİZCE 4. ÜNİTE KONU ANLATIMI ｜ FAMILY LIFE.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "yksFI9sPggY",
+      "title": "9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/05 - yksFI9sPggY - 9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/05 - yksFI9sPggY - 9. SINIF İNGİLİZCE 8. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE UNIVERSE & FUTURE.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "GUM8bs1kRwc",
+      "title": "9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/06 - GUM8bs1kRwc - 9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/06 - GUM8bs1kRwc - 9. SINIF İNGİLİZCE 5. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE HOUSE NEIGHBOORHOD.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "U3hIk72kca8",
+      "title": "9.SINIF İNGİLİZCE 6.ÜNİTE KONU ANLATIMI ｜ BRIDGING CULTURES",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/07 - U3hIk72kca8 - 9.SINIF İNGİLİZCE 6.ÜNİTE KONU ANLATIMI ｜ BRIDGING CULTURES.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/07 - U3hIk72kca8 - 9.SINIF İNGİLİZCE 6.ÜNİTE KONU ANLATIMI ｜ BRIDGING CULTURES.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "qXhKi2v5EGM",
+      "title": "9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/08 - qXhKi2v5EGM - 9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/08 - qXhKi2v5EGM - 9. SINIF İNGİLİZCE 7. ÜNİTE KONU ANLATIMI ｜ LIFE IN THE WORLD & NATURE.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "ingilizce",
+      "videoId": "qZHDs0kqWVM",
+      "title": "9.SINIF İNGİLİZCE 8.ÜNİTE KELİMELERİ ｜ EMERGENCY AND HEALTH PROBLEMS",
+      "cleanPath": "content/v2/transcript-corpus/ingilizce/clean/09 - qZHDs0kqWVM - 9.SINIF İNGİLİZCE 8.ÜNİTE KELİMELERİ ｜ EMERGENCY AND HEALTH PROBLEMS.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/ingilizce/raw/09 - qZHDs0kqWVM - 9.SINIF İNGİLİZCE 8.ÜNİTE KELİMELERİ ｜ EMERGENCY AND HEALTH PROBLEMS.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "kimya",
+      "videoId": "HhZOAH61fng",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (27.GÜN) ｜ KİMYA HER YERDE - 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/01 - HhZOAH61fng - 27 GÜNDE TYT KİMYA KAMPI (27.GÜN) ｜ KİMYA HER YERDE - 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/01 - HhZOAH61fng - 27 GÜNDE TYT KİMYA KAMPI (27.GÜN) ｜ KİMYA HER YERDE - 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "kimya",
+      "videoId": "NIP7P1qseNQ",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (26.GÜN) ｜ KİMYA HER YERDE - 1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/02 - NIP7P1qseNQ - 27 GÜNDE TYT KİMYA KAMPI (26.GÜN) ｜ KİMYA HER YERDE - 1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/02 - NIP7P1qseNQ - 27 GÜNDE TYT KİMYA KAMPI (26.GÜN) ｜ KİMYA HER YERDE - 1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "kimya",
+      "videoId": "RtDCE-3CWXk",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (25.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/03 - RtDCE-3CWXk - 27 GÜNDE TYT KİMYA KAMPI (25.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/03 - RtDCE-3CWXk - 27 GÜNDE TYT KİMYA KAMPI (25.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "kimya",
+      "videoId": "Nav7IO3U4TQ",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (24.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/04 - Nav7IO3U4TQ - 27 GÜNDE TYT KİMYA KAMPI (24.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/04 - Nav7IO3U4TQ - 27 GÜNDE TYT KİMYA KAMPI (24.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "kimya",
+      "videoId": "jByypE2M6kk",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (23.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/05 - jByypE2M6kk - 27 GÜNDE TYT KİMYA KAMPI (23.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/05 - jByypE2M6kk - 27 GÜNDE TYT KİMYA KAMPI (23.GÜN) ｜ ASİTLER-BAZLAR-TUZLAR - 1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "kimya",
+      "videoId": "cRH_nFLpDnE",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (22.GÜN) ｜ KARIŞIMLAR - 4 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/06 - cRH_nFLpDnE - 27 GÜNDE TYT KİMYA KAMPI (22.GÜN) ｜ KARIŞIMLAR - 4 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/06 - cRH_nFLpDnE - 27 GÜNDE TYT KİMYA KAMPI (22.GÜN) ｜ KARIŞIMLAR - 4 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "kimya",
+      "videoId": "CIEQVZ0zCVg",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (21.GÜN) ｜ KARIŞIMLAR - 3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/07 - CIEQVZ0zCVg - 27 GÜNDE TYT KİMYA KAMPI (21.GÜN) ｜ KARIŞIMLAR - 3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/07 - CIEQVZ0zCVg - 27 GÜNDE TYT KİMYA KAMPI (21.GÜN) ｜ KARIŞIMLAR - 3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "kimya",
+      "videoId": "5FWReuMBF6E",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (20.GÜN-2.Kısım) ｜ KARIŞIMLAR - 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/08 - 5FWReuMBF6E - 27 GÜNDE TYT KİMYA KAMPI (20.GÜN-2.Kısım) ｜ KARIŞIMLAR - 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/08 - 5FWReuMBF6E - 27 GÜNDE TYT KİMYA KAMPI (20.GÜN-2.Kısım) ｜ KARIŞIMLAR - 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "kimya",
+      "videoId": "mbLPuQke93Y",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (20.GÜN-1.Kısım) ｜ KARIŞIMLAR - 1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/09 - mbLPuQke93Y - 27 GÜNDE TYT KİMYA KAMPI (20.GÜN-1.Kısım) ｜ KARIŞIMLAR - 1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/09 - mbLPuQke93Y - 27 GÜNDE TYT KİMYA KAMPI (20.GÜN-1.Kısım) ｜ KARIŞIMLAR - 1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "kimya",
+      "videoId": "VnqQ_5MMIms",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (19.GÜN-2.Kısım) ｜ KİMYASAL HESAPLAMALAR - 3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/10 - VnqQ_5MMIms - 27 GÜNDE TYT KİMYA KAMPI (19.GÜN-2.Kısım) ｜ KİMYASAL HESAPLAMALAR - 3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/10 - VnqQ_5MMIms - 27 GÜNDE TYT KİMYA KAMPI (19.GÜN-2.Kısım) ｜ KİMYASAL HESAPLAMALAR - 3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "kimya",
+      "videoId": "u3wjpF7lOvU",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (19.GÜN-1.Kısım) ｜ KİMYASAL HESAPLAMALAR - 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/11 - u3wjpF7lOvU - 27 GÜNDE TYT KİMYA KAMPI (19.GÜN-1.Kısım) ｜ KİMYASAL HESAPLAMALAR - 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/11 - u3wjpF7lOvU - 27 GÜNDE TYT KİMYA KAMPI (19.GÜN-1.Kısım) ｜ KİMYASAL HESAPLAMALAR - 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "kimya",
+      "videoId": "3ppgNYtsUJI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (18.GÜN) ｜ KİMYASAL HESAPLAMALAR - 1+ PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/12 - 3ppgNYtsUJI - 27 GÜNDE TYT KİMYA KAMPI (18.GÜN) ｜ KİMYASAL HESAPLAMALAR - 1+ PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/12 - 3ppgNYtsUJI - 27 GÜNDE TYT KİMYA KAMPI (18.GÜN) ｜ KİMYASAL HESAPLAMALAR - 1+ PDF 🗓️.tr.vtt",
+      "playlistIndex": 12
+    },
+    {
+      "subject": "kimya",
+      "videoId": "5OH2RRPKI2I",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (17.GÜN) ｜ KİMYASAL DENKLEMLER + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/13 - 5OH2RRPKI2I - 27 GÜNDE TYT KİMYA KAMPI (17.GÜN) ｜ KİMYASAL DENKLEMLER + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/13 - 5OH2RRPKI2I - 27 GÜNDE TYT KİMYA KAMPI (17.GÜN) ｜ KİMYASAL DENKLEMLER + PDF 🗓️.tr.vtt",
+      "playlistIndex": 13
+    },
+    {
+      "subject": "kimya",
+      "videoId": "6EC8ucOEdxw",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (16.GÜN - 2.KISIM) ｜ MOL KAVRAMI-2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/14 - 6EC8ucOEdxw - 27 GÜNDE TYT KİMYA KAMPI (16.GÜN - 2.KISIM) ｜ MOL KAVRAMI-2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/14 - 6EC8ucOEdxw - 27 GÜNDE TYT KİMYA KAMPI (16.GÜN - 2.KISIM) ｜ MOL KAVRAMI-2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 14
+    },
+    {
+      "subject": "kimya",
+      "videoId": "oPD0EveCjQI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (16.GÜN-1.Kısım) ｜ MOL KAVRAMI-1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/15 - oPD0EveCjQI - 27 GÜNDE TYT KİMYA KAMPI (16.GÜN-1.Kısım) ｜ MOL KAVRAMI-1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/15 - oPD0EveCjQI - 27 GÜNDE TYT KİMYA KAMPI (16.GÜN-1.Kısım) ｜ MOL KAVRAMI-1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 15
+    },
+    {
+      "subject": "kimya",
+      "videoId": "Iv4StzU1jQI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (15.GÜN-2.KISIM) ｜ TEMEL KİMYA KANUNLARI-2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/16 - Iv4StzU1jQI - 27 GÜNDE TYT KİMYA KAMPI (15.GÜN-2.KISIM) ｜ TEMEL KİMYA KANUNLARI-2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/16 - Iv4StzU1jQI - 27 GÜNDE TYT KİMYA KAMPI (15.GÜN-2.KISIM) ｜ TEMEL KİMYA KANUNLARI-2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 16
+    },
+    {
+      "subject": "kimya",
+      "videoId": "Eo79cp8_1QI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (15.GÜN-1.KISIM) ｜ TEMEL KİMYA KANUNLARI-1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/17 - Eo79cp8_1QI - 27 GÜNDE TYT KİMYA KAMPI (15.GÜN-1.KISIM) ｜ TEMEL KİMYA KANUNLARI-1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/17 - Eo79cp8_1QI - 27 GÜNDE TYT KİMYA KAMPI (15.GÜN-1.KISIM) ｜ TEMEL KİMYA KANUNLARI-1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 17
+    },
+    {
+      "subject": "kimya",
+      "videoId": "jDdTYBdI-2g",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (14.GÜN) ｜ DOĞA ve KİMYA + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/18 - jDdTYBdI-2g - 27 GÜNDE TYT KİMYA KAMPI (14.GÜN) ｜ DOĞA ve KİMYA + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/18 - jDdTYBdI-2g - 27 GÜNDE TYT KİMYA KAMPI (14.GÜN) ｜ DOĞA ve KİMYA + PDF 🗓️.tr.vtt",
+      "playlistIndex": 18
+    },
+    {
+      "subject": "kimya",
+      "videoId": "dWIk8HrLQJM",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (13.GÜN) ｜ MADDENİN HALLERİ - 3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/19 - dWIk8HrLQJM - 27 GÜNDE TYT KİMYA KAMPI (13.GÜN) ｜ MADDENİN HALLERİ - 3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/19 - dWIk8HrLQJM - 27 GÜNDE TYT KİMYA KAMPI (13.GÜN) ｜ MADDENİN HALLERİ - 3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 19
+    },
+    {
+      "subject": "kimya",
+      "videoId": "wbL70rDWleU",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (12.GÜN) ｜ MADDENİN HALLERİ - 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/20 - wbL70rDWleU - 27 GÜNDE TYT KİMYA KAMPI (12.GÜN) ｜ MADDENİN HALLERİ - 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/20 - wbL70rDWleU - 27 GÜNDE TYT KİMYA KAMPI (12.GÜN) ｜ MADDENİN HALLERİ - 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 20
+    },
+    {
+      "subject": "kimya",
+      "videoId": "glDg6lFPsag",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (11.GÜN) ｜ MADDENİN HALLERİ - 1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/21 - glDg6lFPsag - 27 GÜNDE TYT KİMYA KAMPI (11.GÜN) ｜ MADDENİN HALLERİ - 1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/21 - glDg6lFPsag - 27 GÜNDE TYT KİMYA KAMPI (11.GÜN) ｜ MADDENİN HALLERİ - 1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 21
+    },
+    {
+      "subject": "kimya",
+      "videoId": "sE9MWS16__E",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 2.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-5 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/22 - sE9MWS16__E - 27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 2.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-5 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/22 - sE9MWS16__E - 27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 2.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-5 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 22
+    },
+    {
+      "subject": "kimya",
+      "videoId": "fX3ojMBUxOg",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/23 - fX3ojMBUxOg - 27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/23 - fX3ojMBUxOg - 27 GÜNDE TYT KİMYA KAMPI (10.GÜN - 1.KISIM) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-4 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 23
+    },
+    {
+      "subject": "kimya",
+      "videoId": "xJ6i_sC7Mcc",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/24 - xJ6i_sC7Mcc - 27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/24 - xJ6i_sC7Mcc - 27 GÜNDE TYT KİMYA KAMPI (9.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 24
+    },
+    {
+      "subject": "kimya",
+      "videoId": "F4eYD8UdDXI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/25 - F4eYD8UdDXI - 27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/25 - F4eYD8UdDXI - 27 GÜNDE TYT KİMYA KAMPI (8.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 25
+    },
+    {
+      "subject": "kimya",
+      "videoId": "t9ejokTLCpg",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/26 - t9ejokTLCpg - 27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/26 - t9ejokTLCpg - 27 GÜNDE TYT KİMYA KAMPI (7.GÜN) ｜ KİMYASAL TÜRLER ARASI ETKİLEŞİMLER-1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 26
+    },
+    {
+      "subject": "kimya",
+      "videoId": "_2Lb0ybajvE",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/27 - _2Lb0ybajvE - 27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/27 - _2Lb0ybajvE - 27 GÜNDE TYT KİMYA KAMPI (6.GÜN-2.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-4 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 27
+    },
+    {
+      "subject": "kimya",
+      "videoId": "hDUv4CkJDCM",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (6.GÜN-1.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/28 - hDUv4CkJDCM - 27 GÜNDE TYT KİMYA KAMPI (6.GÜN-1.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/28 - hDUv4CkJDCM - 27 GÜNDE TYT KİMYA KAMPI (6.GÜN-1.Kısım) ｜ ATOM ve PERİYODİK SİSTEM-3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 28
+    },
+    {
+      "subject": "kimya",
+      "videoId": "aVTZGka6GvM",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/29 - aVTZGka6GvM - 27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/29 - aVTZGka6GvM - 27 GÜNDE TYT KİMYA KAMPI (5.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 29
+    },
+    {
+      "subject": "kimya",
+      "videoId": "w4hn63SL3y4",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (4.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/30 - w4hn63SL3y4 - 27 GÜNDE TYT KİMYA KAMPI (4.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/30 - w4hn63SL3y4 - 27 GÜNDE TYT KİMYA KAMPI (4.GÜN) ｜ ATOM ve PERİYODİK SİSTEM-1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 30
+    },
+    {
+      "subject": "kimya",
+      "videoId": "3uhN8JlukLg",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/31 - 3uhN8JlukLg - 27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/31 - 3uhN8JlukLg - 27 GÜNDE TYT KİMYA KAMPI (3.GÜN) ｜ KİMYA BİLİMİ- 3 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 31
+    },
+    {
+      "subject": "kimya",
+      "videoId": "V1cEX5f6exI",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (2.GÜN) ｜ KİMYA BİLİMİ- 2 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/32 - V1cEX5f6exI - 27 GÜNDE TYT KİMYA KAMPI (2.GÜN) ｜ KİMYA BİLİMİ- 2 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/32 - V1cEX5f6exI - 27 GÜNDE TYT KİMYA KAMPI (2.GÜN) ｜ KİMYA BİLİMİ- 2 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 32
+    },
+    {
+      "subject": "kimya",
+      "videoId": "VfexRwrzEDA",
+      "title": "27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/33 - VfexRwrzEDA - 27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/33 - VfexRwrzEDA - 27 GÜNDE TYT KİMYA KAMPI (1.GÜN) ｜ KİMYA BİLİMİ - 1 + PDF 🗓️.tr.vtt",
+      "playlistIndex": 33
+    },
+    {
+      "subject": "kimya",
+      "videoId": "DKB0q4KsovE",
+      "title": "27 GÜNDE TYT KİMYA KAMPI 2025 -TYT Kimya Çalışma Programı - 0. GÜN",
+      "cleanPath": "content/v2/transcript-corpus/kimya/clean/34 - DKB0q4KsovE - 27 GÜNDE TYT KİMYA KAMPI 2025 -TYT Kimya Çalışma Programı - 0. GÜN.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/kimya/raw/34 - DKB0q4KsovE - 27 GÜNDE TYT KİMYA KAMPI 2025 -TYT Kimya Çalışma Programı - 0. GÜN.tr.vtt",
+      "playlistIndex": 34
+    },
+    {
+      "subject": "matematik",
+      "videoId": "-OYMlnoW9gw",
+      "title": "Üslü İfadeler 2 ｜ 1.TEMA Sayılar 2 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/-OYMlnoW9gw - Üslü İfadeler 2 ｜ 1.TEMA Sayılar 2 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/-OYMlnoW9gw - Üslü İfadeler 2 ｜ 1.TEMA Sayılar 2 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "BT1pJb4XFGQ",
+      "title": "Kümeler ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 8.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/BT1pJb4XFGQ - Kümeler ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 8.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/BT1pJb4XFGQ - Kümeler ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 8.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "FtJE835vtoM",
+      "title": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/FtJE835vtoM - Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/FtJE835vtoM - Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "IzK0DWVlTg8",
+      "title": "Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/IzK0DWVlTg8 - Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/IzK0DWVlTg8 - Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "OLV5wBFLVsU",
+      "title": "Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/OLV5wBFLVsU - Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/OLV5wBFLVsU - Sayı Kümeleri ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 9.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "Vp13AV26s58",
+      "title": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/Vp13AV26s58 - Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/Vp13AV26s58 - Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "Vy2T5zrhArg",
+      "title": "Köklü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 5.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/Vy2T5zrhArg - Köklü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 5.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/Vy2T5zrhArg - Köklü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 5.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "ZAqla3j4kLQ",
+      "title": "Üslü İfadeler 1 ｜ 1.TEMA Sayılar 1 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/ZAqla3j4kLQ - Üslü İfadeler 1 ｜ 1.TEMA Sayılar 1 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/ZAqla3j4kLQ - Üslü İfadeler 1 ｜ 1.TEMA Sayılar 1 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "b6Vl-rqqrOg",
+      "title": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/b6Vl-rqqrOg - Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/b6Vl-rqqrOg - Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "bXlsejMNF5w",
+      "title": "Köklü İfadeler 2 ｜ 1.Tema Sayılar 9 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/bXlsejMNF5w - Köklü İfadeler 2 ｜ 1.Tema Sayılar 9 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/bXlsejMNF5w - Köklü İfadeler 2 ｜ 1.Tema Sayılar 9 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "k9Gx8yy6xSo",
+      "title": "Köklü İfadeler 1 ｜ 1.Tema Sayılar 8 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/k9Gx8yy6xSo - Köklü İfadeler 1 ｜ 1.Tema Sayılar 8 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/k9Gx8yy6xSo - Köklü İfadeler 1 ｜ 1.Tema Sayılar 8 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "sZrQZ7YU5gs",
+      "title": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/sZrQZ7YU5gs - Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/sZrQZ7YU5gs - Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "matematik",
+      "videoId": "uwl25uvO1sQ",
+      "title": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
+      "cleanPath": "content/v2/transcript-corpus/matematik/clean/uwl25uvO1sQ - Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/matematik/raw/uwl25uvO1sQ - Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027.tr.vtt",
+      "playlistIndex": null
+    },
+    {
+      "subject": "tde",
+      "videoId": "ZiHwijp5o-A",
+      "title": "9.SINIF EDEBİYAT DERSLERİ BAŞLIYOR! 🎯İşte Bilmen Gerekenler, Sonuna Kadar İZLE✅",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/01 - ZiHwijp5o-A - 9.SINIF EDEBİYAT DERSLERİ BAŞLIYOR! 🎯İşte Bilmen Gerekenler, Sonuna Kadar İZLE✅.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/01 - ZiHwijp5o-A - 9.SINIF EDEBİYAT DERSLERİ BAŞLIYOR! 🎯İşte Bilmen Gerekenler, Sonuna Kadar İZLE✅.tr.vtt",
+      "playlistIndex": 1
+    },
+    {
+      "subject": "tde",
+      "videoId": "UwV2Ej45tb4",
+      "title": "EDEBİYAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/02 - UwV2Ej45tb4 - EDEBİYAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/02 - UwV2Ej45tb4 - EDEBİYAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 2
+    },
+    {
+      "subject": "tde",
+      "videoId": "Ylh8g9sXaHI",
+      "title": "EDEBİYATIN BİLİM DALLARIYLA İLİŞKİSİ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/03 - Ylh8g9sXaHI - EDEBİYATIN BİLİM DALLARIYLA İLİŞKİSİ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/03 - Ylh8g9sXaHI - EDEBİYATIN BİLİM DALLARIYLA İLİŞKİSİ ⧸ 9.Sınıf Sözün İnceliği Teması ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 3
+    },
+    {
+      "subject": "tde",
+      "videoId": "NBhw_SkvV8E",
+      "title": "GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/04 - NBhw_SkvV8E - GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/04 - NBhw_SkvV8E - GÜZEL SANATLAR VE EDEBİYAT 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 4
+    },
+    {
+      "subject": "tde",
+      "videoId": "NChGZ4LFY9w",
+      "title": "EDEBİ SÖYLEYİŞ VE GÜNLÜK SÖYLEYİŞ FARKI 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/05 - NChGZ4LFY9w - EDEBİ SÖYLEYİŞ VE GÜNLÜK SÖYLEYİŞ FARKI 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/05 - NChGZ4LFY9w - EDEBİ SÖYLEYİŞ VE GÜNLÜK SÖYLEYİŞ FARKI 2026 ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 5
+    },
+    {
+      "subject": "tde",
+      "videoId": "d93TyY74XyM",
+      "title": "SÖZCÜKTE ANLAM - Gerçek - Mecaz Anlam ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/06 - d93TyY74XyM - SÖZCÜKTE ANLAM - Gerçek - Mecaz Anlam ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/06 - d93TyY74XyM - SÖZCÜKTE ANLAM - Gerçek - Mecaz Anlam ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 6
+    },
+    {
+      "subject": "tde",
+      "videoId": "ycpYbdBZg7k",
+      "title": "İMGE NEDİR？ Özellikleri ve Örnekleri ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/07 - ycpYbdBZg7k - İMGE NEDİR？ Özellikleri ve Örnekleri ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/07 - ycpYbdBZg7k - İMGE NEDİR？ Özellikleri ve Örnekleri ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 7
+    },
+    {
+      "subject": "tde",
+      "videoId": "o21DP3d_YcA",
+      "title": "AÇIK İLETİ VE ÖRTÜK İLETİ NEDİR？ I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/08 - o21DP3d_YcA - AÇIK İLETİ VE ÖRTÜK İLETİ NEDİR？ I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/08 - o21DP3d_YcA - AÇIK İLETİ VE ÖRTÜK İLETİ NEDİR？ I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 8
+    },
+    {
+      "subject": "tde",
+      "videoId": "3bW8GrvE-fs",
+      "title": "EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/09 - 3bW8GrvE-fs - EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/09 - 3bW8GrvE-fs - EDEBİ SANATLAR (Söz Sanatları) Örnekler + Etkinlik I 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 9
+    },
+    {
+      "subject": "tde",
+      "videoId": "d4y-QQZqSpY",
+      "title": "Ana Düşünce - Yardımcı Düşünce ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/10 - d4y-QQZqSpY - Ana Düşünce - Yardımcı Düşünce ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/10 - d4y-QQZqSpY - Ana Düşünce - Yardımcı Düşünce ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 10
+    },
+    {
+      "subject": "tde",
+      "videoId": "MDE7KwJSFRQ",
+      "title": "SES BİLGİSİ (Ses Olayları) Konu Anlatımı ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/11 - MDE7KwJSFRQ - SES BİLGİSİ (Ses Olayları) Konu Anlatımı ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/11 - MDE7KwJSFRQ - SES BİLGİSİ (Ses Olayları) Konu Anlatımı ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 11
+    },
+    {
+      "subject": "tde",
+      "videoId": "BMaVTFcOC2c",
+      "title": "MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/13 - BMaVTFcOC2c - MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/13 - BMaVTFcOC2c - MÜLAKAT NEDİR？ ⧸ 9.Sınıf Sözün İnceliğİ ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 13
+    },
+    {
+      "subject": "tde",
+      "videoId": "cmx7K-ghCeg",
+      "title": "YAZIM KURALLARI ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/14 - cmx7K-ghCeg - YAZIM KURALLARI ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/14 - cmx7K-ghCeg - YAZIM KURALLARI ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 14
+    },
+    {
+      "subject": "tde",
+      "videoId": "vb3nYPH5Qm4",
+      "title": "NOKTALAMA İŞARETLERİ ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/15 - vb3nYPH5Qm4 - NOKTALAMA İŞARETLERİ ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/15 - vb3nYPH5Qm4 - NOKTALAMA İŞARETLERİ ⧸ 9.Sınıf Sözün İnceliğİ Maarif Modeli ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 15
+    },
+    {
+      "subject": "tde",
+      "videoId": "3sxZJrvAYIM",
+      "title": "HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/16 - 3sxZJrvAYIM - HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/16 - 3sxZJrvAYIM - HİKAYE NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 16
+    },
+    {
+      "subject": "tde",
+      "videoId": "m-uxpVkeqQQ",
+      "title": "ANLATICI BAKIŞ AÇILARI ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/17 - m-uxpVkeqQQ - ANLATICI BAKIŞ AÇILARI ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/17 - m-uxpVkeqQQ - ANLATICI BAKIŞ AÇILARI ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 17
+    },
+    {
+      "subject": "tde",
+      "videoId": "JaX-Tl31ihg",
+      "title": "ANI NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/18 - JaX-Tl31ihg - ANI NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/18 - JaX-Tl31ihg - ANI NEDİR？ ÖZELLİKLERİ NELERDİR？ ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca 2026.tr.vtt",
+      "playlistIndex": 18
+    },
+    {
+      "subject": "tde",
+      "videoId": "Y1BgYzzu7Ig",
+      "title": "EDEBİ METİN-ÖĞRETİCİ METİN ÖZELLİKLERİ ⧸ Metin Sınıflandırması ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/19 - Y1BgYzzu7Ig - EDEBİ METİN-ÖĞRETİCİ METİN ÖZELLİKLERİ ⧸ Metin Sınıflandırması ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/19 - Y1BgYzzu7Ig - EDEBİ METİN-ÖĞRETİCİ METİN ÖZELLİKLERİ ⧸ Metin Sınıflandırması ⧸ 9.Sınıf Anlam Arayışı ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 19
+    },
+    {
+      "subject": "tde",
+      "videoId": "jBQ6PMMdPDk",
+      "title": "ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/20 - jBQ6PMMdPDk - ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/20 - jBQ6PMMdPDk - ŞİİR ÖZELLİKLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 20
+    },
+    {
+      "subject": "tde",
+      "videoId": "J8y3Z3Ru-IU",
+      "title": "ŞİİR TÜRLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/21 - J8y3Z3Ru-IU - ŞİİR TÜRLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/21 - J8y3Z3Ru-IU - ŞİİR TÜRLERİ ⧸ 9.Sınıf 2.Tema Anlam Arayışı ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 21
+    },
+    {
+      "subject": "tde",
+      "videoId": "zieKmR1L_JA",
+      "title": "HİKAYE NEDİR？ HİKAYENİN GELİŞİMİ ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/22 - zieKmR1L_JA - HİKAYE NEDİR？ HİKAYENİN GELİŞİMİ ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/22 - zieKmR1L_JA - HİKAYE NEDİR？ HİKAYENİN GELİŞİMİ ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 22
+    },
+    {
+      "subject": "tde",
+      "videoId": "xGTH9SQLhrE",
+      "title": "OLAY VE DURUM HİKAYESİ %100 ÖĞREN! ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/23 - xGTH9SQLhrE - OLAY VE DURUM HİKAYESİ %100 ÖĞREN! ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/23 - xGTH9SQLhrE - OLAY VE DURUM HİKAYESİ %100 ÖĞREN! ⧸ 9.Sınıf 2.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 23
+    },
+    {
+      "subject": "tde",
+      "videoId": "kgN7I_2-uAY",
+      "title": "ŞİİR BİLGİSİ： Nazım Birimi, Ölçü, Kafiye Şeması ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/24 - kgN7I_2-uAY - ŞİİR BİLGİSİ： Nazım Birimi, Ölçü, Kafiye Şeması ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/24 - kgN7I_2-uAY - ŞİİR BİLGİSİ： Nazım Birimi, Ölçü, Kafiye Şeması ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 24
+    },
+    {
+      "subject": "tde",
+      "videoId": "G8Z8o-1JaVk",
+      "title": "GEZİ YAZISI KONU ANLATIMI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/25 - G8Z8o-1JaVk - GEZİ YAZISI KONU ANLATIMI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/25 - G8Z8o-1JaVk - GEZİ YAZISI KONU ANLATIMI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 25
+    },
+    {
+      "subject": "tde",
+      "videoId": "ij26b-lboNY",
+      "title": "ANLATIM BİÇİMLERİ ⧸ DÜŞÜNCEYİ GELİŞTİRME YOLLARI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/26 - ij26b-lboNY - ANLATIM BİÇİMLERİ ⧸ DÜŞÜNCEYİ GELİŞTİRME YOLLARI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/26 - ij26b-lboNY - ANLATIM BİÇİMLERİ ⧸ DÜŞÜNCEYİ GELİŞTİRME YOLLARI ⧸ 9.Sınıf 3.Tema Anlamın Yapı Taşları ⧸ Deniz Hoca.tr.vtt",
+      "playlistIndex": 26
+    },
+    {
+      "subject": "tde",
+      "videoId": "8uJDnaHEgLA",
+      "title": "ROMAN VE ÖZELLİKLERİ KONU ANLATIMI ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/27 - 8uJDnaHEgLA - ROMAN VE ÖZELLİKLERİ KONU ANLATIMI ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/27 - 8uJDnaHEgLA - ROMAN VE ÖZELLİKLERİ KONU ANLATIMI ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 27
+    },
+    {
+      "subject": "tde",
+      "videoId": "aR0LWcKxcrs",
+      "title": "SIFAT Nedir？ Sıfat Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/28 - aR0LWcKxcrs - SIFAT Nedir？ Sıfat Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/28 - aR0LWcKxcrs - SIFAT Nedir？ Sıfat Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 28
+    },
+    {
+      "subject": "tde",
+      "videoId": "cG75V3scn4I",
+      "title": "ZARF Nedir？ ZARF Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/29 - cG75V3scn4I - ZARF Nedir？ ZARF Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/29 - cG75V3scn4I - ZARF Nedir？ ZARF Çeşitleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 29
+    },
+    {
+      "subject": "tde",
+      "videoId": "hzkJNg-50Ko",
+      "title": "Eleştiri Nedir？ Eleştiri Özellikleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/30 - hzkJNg-50Ko - Eleştiri Nedir？ Eleştiri Özellikleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/30 - hzkJNg-50Ko - Eleştiri Nedir？ Eleştiri Özellikleri ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 30
+    },
+    {
+      "subject": "tde",
+      "videoId": "zLBp4NCB20A",
+      "title": "LGS BİTTİ： 9. Sınıfa Geçen Her Öğrencinin ve Veli̇ni̇n Bilmesi Gerekenler!",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/31 - zLBp4NCB20A - LGS BİTTİ： 9. Sınıfa Geçen Her Öğrencinin ve Veli̇ni̇n Bilmesi Gerekenler!.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/31 - zLBp4NCB20A - LGS BİTTİ： 9. Sınıfa Geçen Her Öğrencinin ve Veli̇ni̇n Bilmesi Gerekenler!.tr.vtt",
+      "playlistIndex": 31
+    },
+    {
+      "subject": "tde",
+      "videoId": "5DY57S4b9a8",
+      "title": "9. Sınıf Edebiyat 2. Tema： ANLAM ARAYIŞI ÖZET ｜ Görsel Hafıza Teknikleriyle",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/32 - 5DY57S4b9a8 - 9. Sınıf Edebiyat 2. Tema： ANLAM ARAYIŞI ÖZET ｜ Görsel Hafıza Teknikleriyle.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/32 - 5DY57S4b9a8 - 9. Sınıf Edebiyat 2. Tema： ANLAM ARAYIŞI ÖZET ｜ Görsel Hafıza Teknikleriyle.tr.vtt",
+      "playlistIndex": 32
+    },
+    {
+      "subject": "tde",
+      "videoId": "0iMH66vRGL0",
+      "title": "ANLATIM TEKNİKLERİ VE ANLATIM ÖZELLİKLERİ ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/33 - 0iMH66vRGL0 - ANLATIM TEKNİKLERİ VE ANLATIM ÖZELLİKLERİ ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/33 - 0iMH66vRGL0 - ANLATIM TEKNİKLERİ VE ANLATIM ÖZELLİKLERİ ⧸ 9.Sınıf 4.Tema ⧸ Deniz Hoca +PDF📝.tr.vtt",
+      "playlistIndex": 33
+    },
+    {
+      "subject": "tde",
+      "videoId": "-yOzGm6OC2I",
+      "title": "9.Sınıf Edebiyatta Bizi Neler Bekliyor？ 📚 (Tüm Detaylar) 2027",
+      "cleanPath": "content/v2/transcript-corpus/tde/clean/34 - -yOzGm6OC2I - 9.Sınıf Edebiyatta Bizi Neler Bekliyor？ 📚 (Tüm Detaylar) 2027.tr.txt",
+      "rawPath": "content/v2/transcript-corpus/tde/raw/34 - -yOzGm6OC2I - 9.Sınıf Edebiyatta Bizi Neler Bekliyor？ 📚 (Tüm Detaylar) 2027.tr.vtt",
+      "playlistIndex": 34
+    }
+  ]
+}
