@@ -1,5 +1,9 @@
 name: Deploy StudyTracker Worker
 
+concurrency:
+  group: studytracker-worker-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches: [ "main" ]
