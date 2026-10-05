@@ -135,3 +135,8 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 ## 9. Qwen MCP Danışmanlık Kuralı (agy'den — karmaşık işlerde zorunlu)
 
 - **Zengin context ile danışma:** Karmaşık algoritmalar, mimari tasarım, procedural generation ve çetrefilli hata ayıklama süreçlerinde `qwen` MCP aracı (`qwen_chat`) üzerinden Qwen modeline danışılır. Asla yüzeysel prompt gönderilmez; kaynak kod, veri yapıları, teknik kısıtlar ve uç durumlar eksiksiz aktarılır.
+
+## CI handoff — 2026-10-05
+- Build workflow no longer runs twice for feature-branch push + PR; feature/main push remains the build trigger.
+- Staging and worker deploy workflows now cancel stale in-progress runs for the same ref.
+- Goal: preserve APK/deploy coverage while reducing redundant GitHub Actions usage.
