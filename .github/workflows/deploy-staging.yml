@@ -1,5 +1,9 @@
 name: Deploy StudyTracker V2 Staging Worker & KV
 
+concurrency:
+  group: studytracker-staging-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   push:
