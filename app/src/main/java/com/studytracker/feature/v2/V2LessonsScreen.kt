@@ -82,12 +82,12 @@ fun V2LessonsScreen(
                     title = {
                         Column {
                             Text(
-                                text = "Üniteler & Konular",
+                                text = "Konular",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Öğrenme Akışını Seçin",
+                                text = "Devam etmek istediğin konuyu seç",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary
                             )
@@ -178,7 +178,7 @@ fun V2LessonsScreen(
                                                     color = ZenSkyCyan.copy(alpha = 0.18f)
                                                 ) {
                                                     Text(
-                                                        text = "KALDIĞIN YER",
+                                                        text = "BURADASIN",
                                                         modifier = Modifier.padding(horizontal = 7.dp, vertical = 3.dp),
                                                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
                                                         color = ZenSkyCyan
@@ -187,7 +187,7 @@ fun V2LessonsScreen(
                                             }
                                         }
                                         Text(
-                                            text = "${lessonProgress.completedItems}/${lessonProgress.totalItems} Modül Tamamlandı",
+                                            text = "${lessonProgress.completedItems}/${lessonProgress.totalItems} adım bitti",
                                             style = MaterialTheme.typography.bodySmall,
                                             color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
                                         )
@@ -238,7 +238,7 @@ fun V2LessonsScreen(
                                             modifier = Modifier.size(16.dp)
                                         )
                                         Text(
-                                            text = "Sıradaki: ${lessonProgress.nextUnfinishedItem.displayLabel} - ${lessonProgress.nextUnfinishedItem.currentVersion?.title ?: lessonProgress.nextUnfinishedItem.displayLabel}",
+                                            text = "Devam et: ${lessonProgress.nextUnfinishedItem.currentVersion?.title ?: lessonProgress.nextUnfinishedItem.displayLabel}",
                                             style = MaterialTheme.typography.bodySmall,
                                             color = ZomoTextPrimary,
                                             maxLines = 1
@@ -256,7 +256,7 @@ fun V2LessonsScreen(
                                             modifier = Modifier.size(16.dp)
                                         )
                                         Text(
-                                            text = "Tüm modüller başarıyla tamamlandı!",
+                                            text = "Bu konuyu bitirdin!",
                                             style = MaterialTheme.typography.bodySmall,
                                             color = ZenForestGreen
                                         )
