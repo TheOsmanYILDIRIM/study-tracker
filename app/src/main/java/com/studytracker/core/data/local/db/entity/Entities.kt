@@ -144,6 +144,7 @@ data class CourseEntity(
     val subject: String,
     @ColumnInfo(defaultValue = "9") val gradeLevel: Int = 9,
     val description: String? = null,
+    val visualJson: String? = null,
     @ColumnInfo(defaultValue = "1000.0") val orderKey: Double = 1000.0,
     @ColumnInfo(defaultValue = "0") val isArchived: Boolean = false,
     val createdAt: Long,
