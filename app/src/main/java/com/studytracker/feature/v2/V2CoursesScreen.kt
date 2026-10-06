@@ -1,6 +1,9 @@
 package com.studytracker.feature.v2
 
 import android.widget.Toast
+import coil.Coil
+import coil.request.CachePolicy
+import coil.request.ImageRequest
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -29,6 +32,7 @@ import com.studytracker.core.domain.engine.V2ProgressEngine
 import com.studytracker.core.domain.model.ItemType
 import com.studytracker.core.domain.model.LearningItem
 import com.studytracker.core.ui.components.LearningItemVisual
+import com.studytracker.core.ui.components.youtubeThumbnailUrl
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
@@ -65,10 +69,9 @@ fun V2CoursesScreen(
 
     val resumeTarget by produceState<StudentResumeTarget?>(
         initialValue = null,
-        courses,
-        allItems,
-        allPrereqs,
-        attempts
+        key1 = courses,
+        key2 = allItems,
+        key3 = Pair(allPrereqs, attempts)
     ) {
         value = null
         for (course in courses) {
@@ -117,6 +120,29 @@ fun V2CoursesScreen(
         if (familyCode.isNotBlank()) {
             refreshCatalog(showToast = false)
         }
+    }
+
+    LaunchedEffect(allItems) {
+        allItems
+            .asSequence()
+            .filter { it.itemType == ItemType.VIDEO }
+            .mapNotNull { item ->
+                val version = item.currentVersion
+                val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                youtubeThumbnailUrl(version?.contentUrl ?: payload.url)
+            }
+            .distinct()
+            .forEach { thumbnailUrl ->
+                Coil.imageLoader(context).enqueue(
+                    ImageRequest.Builder(context)
+                        .data(thumbnailUrl)
+                        .memoryCacheKey("study-video-thumb:$thumbnailUrl")
+                        .diskCacheKey("study-video-thumb:$thumbnailUrl")
+                        .memoryCachePolicy(CachePolicy.ENABLED)
+                        .diskCachePolicy(CachePolicy.ENABLED)
+                        .build()
+                )
+            }
     }
 
     if (showSettingsDialog) {
