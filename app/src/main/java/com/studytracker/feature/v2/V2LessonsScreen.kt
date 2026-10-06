@@ -1,16 +1,13 @@
 package com.studytracker.feature.v2
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.lazy.item
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -20,23 +17,20 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.studytracker.core.data.local.db.AppDatabase
 import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.V2ProgressEngine
-import com.studytracker.core.domain.model.Lesson
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-// Course-first self-paced flow: resume is derived from attempts.
 fun V2LessonsScreen(
     courseId: String,
     onNavigateBack: () -> Unit,
-    onNavigateToLearningFlow: (String) -> Unit
+    onNavigateToLearningFlow: (lessonId: String, itemId: String) -> Unit
 ) {
     val context = LocalContext.current
     val prefs = remember { AppPreferences.getInstance(context) }
@@ -64,13 +58,6 @@ fun V2LessonsScreen(
             )
         }
     }
-    val listState = rememberLazyListState()
-    val resumeLessonId = courseProgress?.resumeLesson?.id
-
-    LaunchedEffect(resumeLessonId, lessons) {
-        val index = lessons.indexOfFirst { it.id == resumeLessonId }
-        if (index >= 0) listState.animateScrollToItem(index)
-    }
 
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground()
@@ -82,12 +69,12 @@ fun V2LessonsScreen(
                     title = {
                         Column {
                             Text(
-                                text = "Konular",
+                                text = currentCourse?.title ?: "Ders",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Devam etmek istediğin konuyu seç",
+                                text = "Tüm çalışmalar tek sayfada",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary
                             )
@@ -102,9 +89,7 @@ fun V2LessonsScreen(
                             )
                         }
                     },
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent
-                    )
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
                 )
             }
         ) { paddingValues ->
@@ -116,153 +101,105 @@ fun V2LessonsScreen(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "Bu derste henüz ünite bulunmuyor.",
+                        text = "Bu derste henüz çalışma bulunmuyor.",
                         style = MaterialTheme.typography.bodyMedium,
                         color = ZomoTextSecondary
                     )
                 }
             } else {
                 LazyColumn(
-                    state = listState,
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(paddingValues)
                         .padding(horizontal = 16.dp, vertical = 8.dp),
-                    verticalArrangement = Arrangement.spacedBy(14.dp)
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
-                    items(lessons, key = { it.id }) { lesson ->
-                        val isResumeLesson = lesson.id == resumeLessonId
-                        val items by curriculumRepo.getLearningItemsForLesson(lesson.id).collectAsState(initial = emptyList())
-                        val lessonProgress = remember(items, allPrereqs, attempts) {
-                            V2ProgressEngine.evaluateLessonProgress(
-                                lesson = lesson,
-                                items = items,
-                                prerequisites = allPrereqs,
-                                attempts = attempts
-                            )
-                        }
+                    lessons.forEach { lesson ->
+                        val lessonItems = allItems
+                            .filter { it.lessonId == lesson.id }
+                            .sortedBy { it.orderKey }
 
-                        Card(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clip(RoundedCornerShape(18.dp))
-                                .clickable { onNavigateToLearningFlow(lesson.id) },
-                            shape = RoundedCornerShape(18.dp),
-                            colors = CardDefaults.cardColors(
-                                containerColor = if (isResumeLesson) ZenSkyCyan.copy(alpha = 0.10f) else ZenNightSurface.copy(alpha = 0.92f)
-                            ),
-                            border = BorderStroke(1.dp, if (isResumeLesson) ZenSkyCyan.copy(alpha = 0.65f) else ZenNightBorder)
-                        ) {
+                        val lessonProgress = V2ProgressEngine.evaluateLessonProgress(
+                            lesson = lesson,
+                            items = lessonItems,
+                            prerequisites = allPrereqs,
+                            attempts = attempts
+                        )
+
+                        item(key = "header_${lesson.id}") {
                             Column(
-                                modifier = Modifier.padding(18.dp),
-                                verticalArrangement = Arrangement.spacedBy(12.dp)
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(top = 10.dp, bottom = 2.dp),
+                                verticalArrangement = Arrangement.spacedBy(5.dp)
                             ) {
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween,
-                                    verticalAlignment = Alignment.CenterVertically
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.SpaceBetween
                                 ) {
-                                    Column(modifier = Modifier.weight(1f)) {
-                                        Row(
-                                            verticalAlignment = Alignment.CenterVertically,
-                                            horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                        ) {
-                                            Text(
-                                                text = lesson.title,
-                                                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                                color = ZomoTextPrimary
-                                            )
-                                            if (isResumeLesson) {
-                                                Surface(
-                                                    shape = RoundedCornerShape(8.dp),
-                                                    color = ZenSkyCyan.copy(alpha = 0.18f)
-                                                ) {
-                                                    Text(
-                                                        text = "BURADASIN",
-                                                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 3.dp),
-                                                        style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                                                        color = ZenSkyCyan
-                                                    )
-                                                }
-                                            }
-                                        }
-                                        Text(
-                                            text = "${lessonProgress.completedItems}/${lessonProgress.totalItems} adım bitti",
-                                            style = MaterialTheme.typography.bodySmall,
-                                            color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
-                                        )
-                                    }
+                                    Text(
+                                        text = lesson.title,
+                                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                                        color = if (lesson.id == courseProgress?.resumeLesson?.id) ZenSkyCyan else ZomoTextPrimary
+                                    )
 
-                                    // Percentage pill
-                                    Box(
-                                        modifier = Modifier
-                                            .clip(RoundedCornerShape(12.dp))
-                                            .background(if (lessonProgress.completionPercentage == 100) ZenForestGreen.copy(alpha = 0.2f) else ZenMoonGold.copy(alpha = 0.15f))
-                                            .padding(horizontal = 10.dp, vertical = 5.dp)
-                                    ) {
-                                        Text(
-                                            text = "%${lessonProgress.completionPercentage}",
-                                            style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                            color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold
-                                        )
-                                    }
-                                }
-
-                                // Linear Progress Indicator
-                                val progressFraction = if (lessonProgress.totalItems > 0) lessonProgress.completedItems.toFloat() / lessonProgress.totalItems.toFloat() else 0f
-                                LinearProgressIndicator(
-                                    progress = { progressFraction },
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .height(8.dp)
-                                        .clip(CircleShape),
-                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenMoonGold,
-                                    trackColor = Color.White.copy(alpha = 0.1f)
-                                )
-
-                                // Next unfinished item badge
-                                if (lessonProgress.nextUnfinishedItem != null) {
-                                    Row(
-                                        modifier = Modifier
-                                            .fillMaxWidth()
-                                            .clip(RoundedCornerShape(10.dp))
-                                            .background(Color.White.copy(alpha = 0.05f))
-                                            .padding(horizontal = 10.dp, vertical = 6.dp),
-                                        verticalAlignment = Alignment.CenterVertically,
-                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                                    ) {
-                                        Icon(
-                                            imageVector = Icons.Default.PlayCircleOutline,
-                                            contentDescription = null,
-                                            tint = ZenSkyCyan,
-                                            modifier = Modifier.size(16.dp)
-                                        )
-                                        Text(
-                                            text = "Devam et: ${lessonProgress.nextUnfinishedItem.currentVersion?.title ?: lessonProgress.nextUnfinishedItem.displayLabel}",
-                                            style = MaterialTheme.typography.bodySmall,
-                                            color = ZomoTextPrimary,
-                                            maxLines = 1
-                                        )
-                                    }
-                                } else if (lessonProgress.totalItems > 0 && lessonProgress.completionPercentage == 100) {
-                                    Row(
-                                        verticalAlignment = Alignment.CenterVertically,
-                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                                    ) {
+                                    if (lessonProgress.completionPercentage == 100) {
                                         Icon(
                                             imageVector = Icons.Default.CheckCircle,
-                                            contentDescription = null,
+                                            contentDescription = "Bitti",
                                             tint = ZenForestGreen,
-                                            modifier = Modifier.size(16.dp)
+                                            modifier = Modifier.size(20.dp)
                                         )
-                                        Text(
-                                            text = "Bu konuyu bitirdin!",
-                                            style = MaterialTheme.typography.bodySmall,
-                                            color = ZenForestGreen
-                                        )
+                                    } else if (lesson.id == courseProgress?.resumeLesson?.id) {
+                                        Surface(
+                                            shape = RoundedCornerShape(8.dp),
+                                            color = ZenSkyCyan.copy(alpha = 0.14f)
+                                        ) {
+                                            Text(
+                                                text = "BURADASIN",
+                                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp),
+                                                style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
+                                                color = ZenSkyCyan
+                                            )
+                                        }
                                     }
                                 }
+
+                                LinearProgressIndicator(
+                                    progress = {
+                                        if (lessonProgress.totalItems == 0) 0f
+                                        else lessonProgress.completedItems.toFloat() / lessonProgress.totalItems.toFloat()
+                                    },
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .height(4.dp)
+                                        .clip(RoundedCornerShape(99.dp)),
+                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenSkyCyan,
+                                    trackColor = Color.White.copy(alpha = 0.08f)
+                                )
                             }
+                        }
+
+                        lessonProgress.itemsProgress.forEach { itemProgress ->
+                            item(key = itemProgress.item.id) {
+                                LearningItemPuzzleCard(
+                                    itemProgress = itemProgress,
+                                    isNextItem = itemProgress.item.id == lessonProgress.nextUnfinishedItem?.id,
+                                    isParent = false,
+                                    onEdit = {},
+                                    onClick = {
+                                        onNavigateToLearningFlow(
+                                            lesson.id,
+                                            itemProgress.item.id
+                                        )
+                                    }
+                                )
+                            }
+                        }
+
+                        item(key = "space_${lesson.id}") {
+                            Spacer(modifier = Modifier.height(8.dp))
                         }
                     }
                 }
