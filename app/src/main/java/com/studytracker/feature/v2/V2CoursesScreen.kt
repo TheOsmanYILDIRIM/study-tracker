@@ -46,6 +46,11 @@ private data class StudentResumeTarget(
     val item: LearningItem
 )
 
+private data class StudentResumeState(
+    val isLoading: Boolean = true,
+    val target: StudentResumeTarget? = null
+)
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun V2CoursesScreen(
@@ -68,13 +73,14 @@ fun V2CoursesScreen(
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
 
-    val resumeTarget by produceState<StudentResumeTarget?>(
-        initialValue = null,
+    val resumeState by produceState(
+        initialValue = StudentResumeState(isLoading = true),
         key1 = courses,
         key2 = allItems,
         key3 = Pair(allPrereqs, attempts)
     ) {
-        value = null
+        value = StudentResumeState(isLoading = true)
+        var found: StudentResumeTarget? = null
         for (course in courses) {
             val courseLessons = curriculumRepo.getLessonsForCourse(course.id).first()
             val progress = V2ProgressEngine.evaluateCourseProgress(
@@ -87,7 +93,7 @@ fun V2CoursesScreen(
             val lesson = progress.resumeLesson
             val item = progress.resumeItem
             if (lesson != null && item != null) {
-                value = StudentResumeTarget(
+                found = StudentResumeTarget(
                     courseTitle = course.title,
                     lessonId = lesson.id,
                     lessonTitle = lesson.title,
@@ -96,6 +102,7 @@ fun V2CoursesScreen(
                 break
             }
         }
+        value = StudentResumeState(isLoading = false, target = found)
     }
 
     var isSyncing by remember { mutableStateOf(false) }
@@ -271,111 +278,30 @@ fun V2CoursesScreen(
                     }
                 }
             } else {
-                LazyColumn(
+                Column(
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(paddingValues)
                         .padding(horizontal = 16.dp, vertical = 8.dp),
-                    verticalArrangement = Arrangement.spacedBy(14.dp)
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    resumeTarget?.let { target ->
-                        item(key = "global_resume") {
-                            val version = target.item.currentVersion
-                            val videoUrl = if (target.item.itemType == ItemType.VIDEO) {
-                                version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
-                            } else null
+                    StudentResumePanel(
+                        state = resumeState,
+                        onResumeLesson = onResumeLesson,
+                        modifier = Modifier.fillMaxWidth()
+                    )
 
-                            Card(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .clip(RoundedCornerShape(20.dp))
-                                    .clickable { onResumeLesson(target.lessonId) },
-                                shape = RoundedCornerShape(20.dp),
-                                colors = CardDefaults.cardColors(
-                                    containerColor = ZenSkyCyan.copy(alpha = 0.12f)
-                                ),
-                                border = BorderStroke(1.5.dp, ZenSkyCyan.copy(alpha = 0.75f))
-                            ) {
-                                Column(
-                                    modifier = Modifier.padding(16.dp),
-                                    verticalArrangement = Arrangement.spacedBy(12.dp)
-                                ) {
-                                    Text(
-                                        text = "Devam Et",
-                                        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                                        color = ZomoTextPrimary
-                                    )
+                    Text(
+                        text = "Dersler",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
 
-                                    Row(
-                                        modifier = Modifier.fillMaxWidth(),
-                                        verticalAlignment = Alignment.CenterVertically,
-                                        horizontalArrangement = Arrangement.spacedBy(12.dp)
-                                    ) {
-                                        LearningItemVisual(
-                                            itemType = target.item.itemType,
-                                            videoUrl = videoUrl,
-                                            modifier = Modifier.size(width = 112.dp, height = 68.dp)
-                                        )
-
-                                        Column(modifier = Modifier.weight(1f)) {
-                                            Text(
-                                                text = target.courseTitle,
-                                                style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
-                                                color = ZenSkyCyan
-                                            )
-                                            Text(
-                                                text = target.lessonTitle,
-                                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                                color = ZomoTextPrimary,
-                                                maxLines = 1
-                                            )
-                                            Text(
-                                                text = version?.title ?: target.item.displayLabel,
-                                                style = MaterialTheme.typography.bodySmall,
-                                                color = ZomoTextSecondary,
-                                                maxLines = 2
-                                            )
-                                        }
-                                    }
-
-                                    Button(
-                                        onClick = { onResumeLesson(target.lessonId) },
-                                        modifier = Modifier.fillMaxWidth(),
-                                        shape = RoundedCornerShape(14.dp),
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
-                                    ) {
-                                        Icon(
-                                            imageVector = when (target.item.itemType) {
-                                                ItemType.VIDEO -> Icons.Default.PlayArrow
-                                                ItemType.QUIZ -> Icons.Default.Quiz
-                                                ItemType.ANKI -> Icons.Default.Layers
-                                            },
-                                            contentDescription = null,
-                                            tint = Color.Black
-                                        )
-                                        Spacer(modifier = Modifier.width(8.dp))
-                                        Text(
-                                            text = when (target.item.itemType) {
-                                                ItemType.VIDEO -> "Videoya Devam Et"
-                                                ItemType.QUIZ -> "Testi Çöz"
-                                                ItemType.ANKI -> "Kartlara Başla"
-                                            },
-                                            color = Color.Black,
-                                            fontWeight = FontWeight.Bold
-                                        )
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    item(key = "courses_header") {
-                        Text(
-                            text = "Dersler",
-                            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = ZomoTextPrimary
-                        )
-                    }
+                    LazyColumn(
+                        modifier = Modifier.fillMaxSize(),
+                        verticalArrangement = Arrangement.spacedBy(14.dp)
+                    ) {
+                        item(key = "courses_header_hidden") { Spacer(modifier = Modifier.height(0.dp)) }
 
                     items(courses, key = { it.id }) { course ->
                         val lessons by curriculumRepo.getLessonsForCourse(course.id).collectAsState(initial = emptyList())
@@ -393,7 +319,14 @@ fun V2CoursesScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .clip(RoundedCornerShape(18.dp))
-                                .clickable { onNavigateToCourse(course.id) },
+                                .clickable {
+                                    val resumeLessonId = courseProgress.resumeLesson?.id
+                                    if (!isParent && resumeLessonId != null) {
+                                        onResumeLesson(resumeLessonId)
+                                    } else {
+                                        onNavigateToCourse(course.id)
+                                    }
+                                },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
                                 containerColor = ZenNightSurface.copy(alpha = 0.92f)
@@ -494,11 +427,24 @@ fun V2CoursesScreen(
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
                                         color = ZenMoonGold
                                     )
-                                    Text(
-                                        text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Bitti ✓" else "Konuları aç →",
-                                        style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                        color = ZomoTextPrimary
-                                    )
+                                    if (!isParent && courseProgress.resumeLesson != null) {
+                                        TextButton(
+                                            onClick = { onNavigateToCourse(course.id) },
+                                            contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
+                                        ) {
+                                            Text(
+                                                text = "Konular",
+                                                style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
+                                                color = ZomoTextPrimary
+                                            )
+                                        }
+                                    } else {
+                                        Text(
+                                            text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Bitti ✓" else "Konuları aç →",
+                                            style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
+                                            color = ZomoTextPrimary
+                                        )
+                                    }
                                 }
                             }
                         }
