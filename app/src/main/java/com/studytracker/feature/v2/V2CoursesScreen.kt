@@ -4,6 +4,7 @@ import android.widget.Toast
 import coil.Coil
 import coil.request.CachePolicy
 import coil.request.ImageRequest
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -461,42 +462,11 @@ private fun StudentResumePanel(
     ) {
         when {
             state.isLoading -> {
-                Row(
+                ResumeSkeletonLoading(
                     modifier = Modifier
                         .fillMaxSize()
-                        .padding(18.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(14.dp)
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .size(width = 112.dp, height = 68.dp)
-                            .clip(RoundedCornerShape(12.dp))
-                            .background(Color.White.copy(alpha = 0.07f)),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        CircularProgressIndicator(
-                            modifier = Modifier.size(24.dp),
-                            strokeWidth = 2.dp,
-                            color = ZenSkyCyan
-                        )
-                    }
-                    Column(
-                        modifier = Modifier.weight(1f),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        Text(
-                            text = "Devam Et",
-                            style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                            color = ZomoTextPrimary
-                        )
-                        Text(
-                            text = "Kaldığın yer hazırlanıyor…",
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = ZomoTextSecondary
-                        )
-                    }
-                }
+                        .padding(14.dp)
+                )
             }
 
             target == null -> {
@@ -593,5 +563,92 @@ private fun StudentResumePanel(
                 }
             }
         }
+    }
+}
+
+
+@Composable
+private fun ResumeSkeletonLoading(
+    modifier: Modifier = Modifier
+) {
+    val transition = rememberInfiniteTransition(label = "resume_shimmer")
+    val alpha by transition.animateFloat(
+        initialValue = 0.16f,
+        targetValue = 0.42f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 850, easing = FastOutSlowInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "resume_shimmer_alpha"
+    )
+    val shimmer = Color.White.copy(alpha = alpha)
+    val soft = Color.White.copy(alpha = alpha * 0.72f)
+
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .width(92.dp)
+                .height(20.dp)
+                .clip(RoundedCornerShape(8.dp))
+                .background(shimmer)
+        )
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Box(
+                modifier = Modifier
+                    .size(width = 104.dp, height = 62.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(shimmer)
+            )
+
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(7.dp)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.48f)
+                        .height(12.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(shimmer)
+                )
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.82f)
+                        .height(14.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(soft)
+                )
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.66f)
+                        .height(11.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(soft)
+                )
+            }
+
+            Box(
+                modifier = Modifier
+                    .size(30.dp)
+                    .clip(RoundedCornerShape(10.dp))
+                    .background(soft)
+            )
+        }
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(9.dp)
+                .clip(RoundedCornerShape(8.dp))
+                .background(soft)
+        )
     }
 }
