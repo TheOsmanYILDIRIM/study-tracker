@@ -321,14 +321,7 @@ fun V2CoursesScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .clip(RoundedCornerShape(18.dp))
-                                .clickable {
-                                    val resumeLessonId = courseProgress.resumeLesson?.id
-                                    if (!isParent && resumeLessonId != null) {
-                                        onResumeLesson(resumeLessonId)
-                                    } else {
-                                        onNavigateToCourse(course.id)
-                                    }
-                                },
+                                .clickable { onNavigateToCourse(course.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
                                 containerColor = ZenNightSurface.copy(alpha = 0.92f)
@@ -429,24 +422,15 @@ fun V2CoursesScreen(
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
                                         color = ZenMoonGold
                                     )
-                                    if (!isParent && courseProgress.resumeLesson != null) {
-                                        TextButton(
-                                            onClick = { onNavigateToCourse(course.id) },
-                                            contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
-                                        ) {
-                                            Text(
-                                                text = "Konular",
-                                                style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                                color = ZomoTextPrimary
-                                            )
-                                        }
-                                    } else {
-                                        Text(
-                                            text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Bitti ✓" else "Konuları aç →",
-                                            style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
-                                            color = ZomoTextPrimary
-                                        )
-                                    }
+                                    Text(
+                                        text = when {
+                                            courseProgress.resumeItem == null && courseProgress.totalItems > 0 -> "Bitti ✓"
+                                            !isParent -> "Çalışmaları aç →"
+                                            else -> "İçeriği aç →"
+                                        },
+                                        style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
+                                        color = ZomoTextPrimary
+                                    )
                                 }
                             }
                         }
