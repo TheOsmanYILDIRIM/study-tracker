@@ -38,6 +38,7 @@ import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryIm
 import com.studytracker.core.domain.engine.*
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.ui.components.LearningItemVisual
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -269,7 +270,27 @@ fun V2LearningFlowScreen(
                                     }
                                     else -> {
                                         when (item.itemType) {
-                                            ItemType.VIDEO -> selectedVideoItem = item
+                                            ItemType.VIDEO -> {
+                                                selectedVideoItem = item
+                                                if (!isParent) {
+                                                    val version = item.currentVersion
+                                                    val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                                                    val url = version?.contentUrl ?: payload.url
+                                                    if (url.isNotBlank()) {
+                                                        try {
+                                                            context.startActivity(
+                                                                Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
+                                                                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                                                                }
+                                                            )
+                                                        } catch (_: Exception) {
+                                                            Toast.makeText(context, "Video açılamadı.", Toast.LENGTH_SHORT).show()
+                                                        }
+                                                    } else {
+                                                        Toast.makeText(context, "Bu video için bağlantı bulunamadı.", Toast.LENGTH_SHORT).show()
+                                                    }
+                                                }
+                                            }
                                             ItemType.QUIZ -> selectedQuizItem = item
                                             ItemType.ANKI -> selectedAnkiItem = item
                                         }
@@ -386,6 +407,7 @@ fun V2LearningFlowScreen(
             VideoItemActionDialog(
                 item = item,
                 videoUrl = videoUrl,
+                autoOpened = !isParent,
                 onDismiss = { selectedVideoItem = null },
                 onComplete = { durationSeconds ->
                     scope.launch {
@@ -633,7 +655,7 @@ private fun LearningItemPuzzleCard(
     val item = itemProgress.item
     val (typeIcon, typeColor, typeName) = when (item.itemType) {
         ItemType.VIDEO -> Triple(Icons.Default.PlayCircle, ZenSkyCyan, "Video")
-        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenMoonGold, "Quiz")
+        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenMoonGold, "Test")
         ItemType.ANKI -> Triple(Icons.Default.Layers, ZenLavender, "Anki Kartları")
     }
 
@@ -660,27 +682,40 @@ private fun LearningItemPuzzleCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Type Icon / Badge
-            Box(
-                modifier = Modifier
-                    .size(44.dp)
-                    .background(typeColor.copy(alpha = 0.15f), CircleShape),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> Icons.Default.CheckCircle
-                        V2ItemState.LOCKED_BY_PREREQUISITE -> Icons.Default.Lock
-                        else -> typeIcon
-                    },
-                    contentDescription = null,
-                    tint = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> ZenForestGreen
-                        V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
-                        else -> typeColor
-                    },
-                    modifier = Modifier.size(24.dp)
+            // A child recognizes the item visually before reading it.
+            // Video thumbnails use Coil memory + disk cache; Anki/Test use local vector assets.
+            if (itemProgress.state == V2ItemState.AVAILABLE) {
+                val version = item.currentVersion
+                val videoUrl = if (item.itemType == ItemType.VIDEO) {
+                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+                } else null
+                LearningItemVisual(
+                    itemType = item.itemType,
+                    videoUrl = videoUrl,
+                    modifier = Modifier.size(width = 72.dp, height = 48.dp)
                 )
+            } else {
+                Box(
+                    modifier = Modifier
+                        .size(width = 72.dp, height = 48.dp)
+                        .background(typeColor.copy(alpha = 0.12f), RoundedCornerShape(12.dp)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = when (itemProgress.state) {
+                            V2ItemState.COMPLETED -> Icons.Default.CheckCircle
+                            V2ItemState.LOCKED_BY_PREREQUISITE -> Icons.Default.Lock
+                            else -> typeIcon
+                        },
+                        contentDescription = null,
+                        tint = when (itemProgress.state) {
+                            V2ItemState.COMPLETED -> ZenForestGreen
+                            V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
+                            else -> typeColor
+                        },
+                        modifier = Modifier.size(26.dp)
+                    )
+                }
             }
 
             // Title & Details
@@ -717,7 +752,7 @@ private fun LearningItemPuzzleCard(
                                 .padding(horizontal = 6.dp, vertical = 2.dp)
                         ) {
                             Text(
-                                text = "Sıradaki Adım",
+                                text = "BURADASIN",
                                 style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.Bold),
                                 color = ZenMoonGold
                             )
@@ -741,7 +776,7 @@ private fun LearningItemPuzzleCard(
                     )
                 } else if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
                     Text(
-                        text = "🔒 Ön koşul kilitli (Detay için dokun)",
+                        text = "Önce bir önceki adımı tamamla",
                         style = MaterialTheme.typography.labelSmall,
                         color = ZenRoseCoral
                     )
@@ -772,6 +807,7 @@ private fun LearningItemPuzzleCard(
 private fun VideoItemActionDialog(
     item: LearningItem,
     videoUrl: String,
+    autoOpened: Boolean,
     onDismiss: () -> Unit,
     onComplete: (durationSeconds: Int) -> Unit
 ) {
@@ -814,7 +850,7 @@ private fun VideoItemActionDialog(
                     }
                 }
 
-                if (videoUrl.isNotBlank()) {
+                if (!autoOpened && videoUrl.isNotBlank()) {
                     Button(
                         onClick = {
                             try {
@@ -837,7 +873,7 @@ private fun VideoItemActionDialog(
                 }
 
                 Text(
-                    text = "Videoyu izledikten sonra 'Tamamladım' butonuna dokunarak ilerlemeni kaydedebilirsin.",
+                    text = if (autoOpened) "Videoyu bitirdin mi?" else "Videoyu izledikten sonra tamamladığını işaretleyebilirsin.",
                     style = MaterialTheme.typography.bodySmall,
                     color = ZomoTextSecondary
                 )
@@ -851,7 +887,7 @@ private fun VideoItemActionDialog(
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Kapat", color = ZomoTextSecondary)
+                        Text(if (autoOpened) "Henüz değil" else "Kapat", color = ZomoTextSecondary)
                     }
 
                     Button(
@@ -865,7 +901,7 @@ private fun VideoItemActionDialog(
                     ) {
                         Icon(Icons.Default.Check, contentDescription = null, tint = Color.Black)
                         Spacer(modifier = Modifier.width(6.dp))
-                        Text("Tamamladım", color = Color.Black, fontWeight = FontWeight.Bold)
+                        Text(if (autoOpened) "Evet, bitirdim" else "Tamamladım", color = Color.Black, fontWeight = FontWeight.Bold)
                     }
                 }
             }
