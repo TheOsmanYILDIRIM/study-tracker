@@ -26,5 +26,14 @@
     "lesson_fiz9_topic_18_isil_denge",
     "lesson_fiz9_topic_19_isi_aktarim_yollari",
     "lesson_fiz9_topic_20_isi_iletim_hizi"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/fizik9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#005F8A",
+    "secondaryColor": "#16779B",
+    "accentColor": "#F47A20",
+    "surfaceColor": "#0B2533",
+    "textColor": "#FFFFFF"
+  }
 }
