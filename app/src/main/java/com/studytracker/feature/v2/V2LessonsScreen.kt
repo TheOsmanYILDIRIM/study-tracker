@@ -22,6 +22,8 @@ import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.V2ProgressEngine
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.ui.components.CourseCoverVisual
+import com.studytracker.core.ui.components.courseVisualColor
 import com.studytracker.core.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -41,6 +43,9 @@ fun V2LessonsScreen(
 
     val courses by curriculumRepo.getCourses(familyCode).collectAsState(initial = emptyList())
     val currentCourse = courses.firstOrNull { it.id == courseId }
+    val coursePrimary = courseVisualColor(currentCourse?.visual?.primaryColor, ZenSkyCyan)
+    val courseAccent = courseVisualColor(currentCourse?.visual?.accentColor, ZenMoonGold)
+    val courseSurface = courseVisualColor(currentCourse?.visual?.surfaceColor, ZenNightSurface)
     val lessons by curriculumRepo.getLessonsForCourse(courseId).collectAsState(initial = emptyList())
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
@@ -66,17 +71,29 @@ fun V2LessonsScreen(
             topBar = {
                 TopAppBar(
                     title = {
-                        Column {
-                            Text(
-                                text = currentCourse?.title ?: "Ders",
-                                style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
-                                color = ZomoTextPrimary
-                            )
-                            Text(
-                                text = "Tüm çalışmalar tek sayfada",
-                                style = MaterialTheme.typography.bodySmall,
-                                color = ZomoTextSecondary
-                            )
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            currentCourse?.let { course ->
+                                CourseCoverVisual(
+                                    visual = course.visual,
+                                    contentDescription = "${course.subject} kapağı",
+                                    modifier = Modifier.size(width = 34.dp, height = 46.dp)
+                                )
+                            }
+                            Column {
+                                Text(
+                                    text = currentCourse?.title ?: "Ders",
+                                    style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                                    color = ZomoTextPrimary
+                                )
+                                Text(
+                                    text = "Tüm çalışmalar tek sayfada",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = coursePrimary
+                                )
+                            }
                         }
                     },
                     navigationIcon = {
@@ -140,7 +157,7 @@ fun V2LessonsScreen(
                                     Text(
                                         text = lesson.title,
                                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                        color = if (lesson.id == courseProgress?.resumeLesson?.id) ZenSkyCyan else ZomoTextPrimary
+                                        color = if (lesson.id == courseProgress?.resumeLesson?.id) coursePrimary else ZomoTextPrimary
                                     )
 
                                     if (lessonProgress.completionPercentage == 100) {
@@ -153,13 +170,13 @@ fun V2LessonsScreen(
                                     } else if (lesson.id == courseProgress?.resumeLesson?.id) {
                                         Surface(
                                             shape = RoundedCornerShape(8.dp),
-                                            color = ZenSkyCyan.copy(alpha = 0.14f)
+                                            color = coursePrimary.copy(alpha = 0.14f)
                                         ) {
                                             Text(
                                                 text = "BURADASIN",
                                                 modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp),
                                                 style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                                                color = ZenSkyCyan
+                                                color = coursePrimary
                                             )
                                         }
                                     }
@@ -174,7 +191,7 @@ fun V2LessonsScreen(
                                         .fillMaxWidth()
                                         .height(4.dp)
                                         .clip(RoundedCornerShape(99.dp)),
-                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else ZenSkyCyan,
+                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else coursePrimary,
                                     trackColor = Color.White.copy(alpha = 0.08f)
                                 )
                             }
