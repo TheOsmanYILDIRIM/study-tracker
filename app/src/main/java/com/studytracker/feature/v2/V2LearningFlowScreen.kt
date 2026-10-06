@@ -18,6 +18,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.room.withTransaction
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -51,6 +52,7 @@ import java.util.UUID
 @Composable
 fun V2LearningFlowScreen(
     lessonId: String,
+    autoStartNext: Boolean = false,
     onNavigateBack: () -> Unit
 ) {
     val context = LocalContext.current
@@ -181,6 +183,41 @@ fun V2LearningFlowScreen(
             prerequisites = allPrereqs,
             attempts = attempts
         )
+    }
+
+    var autoStartHandled by rememberSaveable(lessonId) { mutableStateOf(false) }
+
+    LaunchedEffect(autoStartNext, lessonProgress.nextUnfinishedItem?.item?.id, isParent) {
+        if (!autoStartNext || autoStartHandled || isParent) return@LaunchedEffect
+
+        val progress = lessonProgress.nextUnfinishedItem ?: return@LaunchedEffect
+        if (progress.state != V2ItemState.AVAILABLE) return@LaunchedEffect
+
+        autoStartHandled = true
+        val item = progress.item
+        when (item.itemType) {
+            ItemType.VIDEO -> {
+                selectedVideoItem = item
+                val version = item.currentVersion
+                val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                val url = version?.contentUrl ?: payload.url
+                if (url.isNotBlank()) {
+                    try {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
+                                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                            }
+                        )
+                    } catch (_: Exception) {
+                        Toast.makeText(context, "Video açılamadı.", Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    Toast.makeText(context, "Bu video için bağlantı bulunamadı.", Toast.LENGTH_SHORT).show()
+                }
+            }
+            ItemType.QUIZ -> selectedQuizItem = item
+            ItemType.ANKI -> selectedAnkiItem = item
+        }
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
