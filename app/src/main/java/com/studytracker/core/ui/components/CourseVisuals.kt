@@ -1,6 +1,7 @@
 package com.studytracker.core.ui.components
 
 import android.graphics.Color as AndroidColor
+import android.util.Base64
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -37,11 +38,19 @@ fun CourseCoverVisual(
     val shape = RoundedCornerShape(12.dp)
 
     if (!coverUrl.isNullOrBlank()) {
+        val imageData: Any = if (coverUrl.startsWith("data:image/") && coverUrl.contains(";base64,")) {
+            val encoded = coverUrl.substringAfter(";base64,")
+            runCatching { Base64.decode(encoded, Base64.DEFAULT) }.getOrElse { coverUrl }
+        } else {
+            coverUrl
+        }
+        val cacheKey = "course-cover:" + coverUrl.hashCode()
+
         AsyncImage(
             model = ImageRequest.Builder(LocalContext.current)
-                .data(coverUrl)
-                .memoryCacheKey("course-cover:$coverUrl")
-                .diskCacheKey("course-cover:$coverUrl")
+                .data(imageData)
+                .memoryCacheKey(cacheKey)
+                .diskCacheKey(cacheKey)
                 .memoryCachePolicy(CachePolicy.ENABLED)
                 .diskCachePolicy(CachePolicy.ENABLED)
                 .crossfade(true)
