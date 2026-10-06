@@ -187,14 +187,15 @@ fun V2LearningFlowScreen(
 
     var autoStartHandled by rememberSaveable(lessonId) { mutableStateOf(false) }
 
-    LaunchedEffect(autoStartNext, lessonProgress.nextUnfinishedItem?.item?.id, isParent) {
+    LaunchedEffect(autoStartNext, lessonProgress.nextUnfinishedItem?.id, isParent) {
         if (!autoStartNext || autoStartHandled || isParent) return@LaunchedEffect
 
-        val progress = lessonProgress.nextUnfinishedItem ?: return@LaunchedEffect
+        val item = lessonProgress.nextUnfinishedItem ?: return@LaunchedEffect
+        val progress = lessonProgress.itemsProgress.firstOrNull { it.item.id == item.id }
+            ?: return@LaunchedEffect
         if (progress.state != V2ItemState.AVAILABLE) return@LaunchedEffect
 
         autoStartHandled = true
-        val item = progress.item
         when (item.itemType) {
             ItemType.VIDEO -> {
                 selectedVideoItem = item
