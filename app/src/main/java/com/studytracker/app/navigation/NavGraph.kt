@@ -82,7 +82,7 @@ fun AppNavGraph(
                     navController.navigate(Screen.V2Lessons.createRoute(courseId))
                 },
                 onResumeLesson = { lessonId ->
-                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
+                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId, autoStart = true))
                 }
             )
         }
@@ -105,11 +105,19 @@ fun AppNavGraph(
 
         composable(
             route = Screen.V2LearningFlow.route,
-            arguments = listOf(navArgument("lessonId") { type = NavType.StringType })
+            arguments = listOf(
+                navArgument("lessonId") { type = NavType.StringType },
+                navArgument("autoStart") {
+                    type = NavType.BoolType
+                    defaultValue = false
+                }
+            )
         ) { backStackEntry ->
             val lessonId = backStackEntry.arguments?.getString("lessonId") ?: ""
+            val autoStart = backStackEntry.arguments?.getBoolean("autoStart") ?: false
             V2LearningFlowScreen(
                 lessonId = lessonId,
+                autoStartNext = autoStart,
                 onNavigateBack = {
                     navController.popBackStack()
                 }
