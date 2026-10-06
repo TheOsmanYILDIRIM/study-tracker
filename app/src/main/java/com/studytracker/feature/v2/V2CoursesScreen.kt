@@ -232,7 +232,7 @@ fun V2CoursesScreen(
                                     CircularProgressIndicator(
                                         modifier = Modifier.size(20.dp),
                                         strokeWidth = 2.dp,
-                                        color = coursePrimary
+                                        color = ZenMoonGold
                                     )
                                 } else {
                                     Icon(
