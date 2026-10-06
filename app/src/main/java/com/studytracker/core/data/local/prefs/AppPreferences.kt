@@ -123,6 +123,16 @@ class AppPreferences internal constructor(private val prefs: SharedPreferences) 
         get() = prefs.getString(KEY_LAST_STUDY_REMINDER_DATE, null)
         set(value) = prefs.edit().putString(KEY_LAST_STUDY_REMINDER_DATE, value).apply()
 
+    var courseVisualCatalogCacheJson: String?
+        get() = prefs.getString(KEY_COURSE_VISUAL_CATALOG_CACHE, null)
+        set(value) {
+            if (value.isNullOrBlank()) {
+                prefs.edit().remove(KEY_COURSE_VISUAL_CATALOG_CACHE).apply()
+            } else {
+                prefs.edit().putString(KEY_COURSE_VISUAL_CATALOG_CACHE, value).apply()
+            }
+        }
+
     var studentResumeCacheJson: String?
         get() = prefs.getString(KEY_STUDENT_RESUME_CACHE, null)
         set(value) {
@@ -189,6 +199,7 @@ class AppPreferences internal constructor(private val prefs: SharedPreferences) 
         private const val KEY_LAST_STUDY_REMINDER_DATE = "last_study_reminder_date"
         private const val KEY_LAST_UNREAD_MESSAGE = "last_unread_message"
         private const val KEY_STUDENT_RESUME_CACHE = "student_resume_cache"
+        private const val KEY_COURSE_VISUAL_CATALOG_CACHE = "course_visual_catalog_cache"
         private const val KEY_LAST_KNOWN_RESET_AT = "last_known_reset_at"
         private const val KEY_LAST_KNOWN_SERVER_REVISION = "last_known_server_revision"
 
