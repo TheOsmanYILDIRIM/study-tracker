@@ -36,6 +36,8 @@ import com.studytracker.core.domain.model.CourseVisual
 import com.studytracker.core.ui.components.LearningItemVisual
 import com.studytracker.core.ui.components.CourseCoverVisual
 import com.studytracker.core.ui.components.courseVisualColor
+import com.studytracker.core.ui.components.fetchCourseVisualCatalog
+import com.studytracker.core.ui.components.parseCourseVisualCatalog
 import com.studytracker.core.ui.components.youtubeThumbnailUrl
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
@@ -86,6 +88,20 @@ fun V2CoursesScreen(
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
 
+    var courseVisualCatalog by remember {
+        mutableStateOf(parseCourseVisualCatalog(prefs.courseVisualCatalogCacheJson))
+    }
+
+    LaunchedEffect(Unit) {
+        fetchCourseVisualCatalog().onSuccess { raw ->
+            prefs.courseVisualCatalogCacheJson = raw
+            courseVisualCatalog = parseCourseVisualCatalog(raw)
+        }
+    }
+
+    fun visualFor(courseId: String, fallback: CourseVisual): CourseVisual =
+        courseVisualCatalog[courseId] ?: fallback
+
     val cachedResume = remember(familyCode) {
         prefs.studentResumeCacheJson
             ?.let { raw -> runCatching { Json.decodeFromString<StudentResumeTarget>(raw) }.getOrNull() }
@@ -99,7 +115,7 @@ fun V2CoursesScreen(
         ),
         key1 = courses,
         key2 = allItems,
-        key3 = Pair(allPrereqs, attempts)
+        key3 = Triple(allPrereqs, attempts, courseVisualCatalog)
     ) {
         if (cachedResume == null) {
             value = StudentResumeState(isLoading = true)
@@ -126,7 +142,7 @@ fun V2CoursesScreen(
                 found = StudentResumeTarget(
                     familyCode = familyCode,
                     courseTitle = course.title,
-                    courseVisual = course.visual,
+                    courseVisual = visualFor(course.id, course.visual),
                     lessonId = lesson.id,
                     lessonTitle = lesson.title,
                     itemId = item.id,
@@ -171,22 +187,6 @@ fun V2CoursesScreen(
         if (familyCode.isNotBlank()) {
             refreshCatalog(showToast = false)
         }
-    }
-
-    LaunchedEffect(courses.map { it.visual.coverUrl }) {
-        courses.mapNotNull { it.visual.coverUrl }
-            .distinct()
-            .forEach { coverUrl ->
-                Coil.imageLoader(context).enqueue(
-                    ImageRequest.Builder(context)
-                        .data(coverUrl)
-                        .memoryCacheKey("course-cover:$coverUrl")
-                        .diskCacheKey("course-cover:$coverUrl")
-                        .memoryCachePolicy(CachePolicy.ENABLED)
-                        .diskCachePolicy(CachePolicy.ENABLED)
-                        .build()
-                )
-            }
     }
 
     LaunchedEffect(allItems) {
@@ -376,8 +376,9 @@ fun V2CoursesScreen(
                             )
                         }
 
-                        val coursePrimary = courseVisualColor(course.visual.primaryColor, ZenSkyCyan)
-                        val courseSurface = courseVisualColor(course.visual.surfaceColor, ZenNightSurface)
+                        val effectiveVisual = visualFor(course.id, course.visual)
+                        val coursePrimary = courseVisualColor(effectiveVisual.primaryColor, ZenSkyCyan)
+                        val courseSurface = courseVisualColor(effectiveVisual.surfaceColor, ZenNightSurface)
 
                         Card(
                             modifier = Modifier
@@ -404,7 +405,7 @@ fun V2CoursesScreen(
                                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                                     ) {
                                         CourseCoverVisual(
-                                            visual = course.visual,
+                                            visual = effectiveVisual,
                                             contentDescription = "${course.subject} ders kitabı kapağı",
                                             modifier = Modifier.size(width = 62.dp, height = 84.dp)
                                         )
