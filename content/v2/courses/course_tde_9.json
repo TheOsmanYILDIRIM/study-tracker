@@ -22,5 +22,14 @@
     "lesson_tde9_topic_14_dilin_zenginligi_sosyal_medya_ve_edebi_dil_sunumu",
     "lesson_tde9_topic_15_dilin_zenginligi_otobiyografi_dinleme_izleme",
     "lesson_tde9_topic_16_dilin_zenginligi_otobiyografi_yazma"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tde9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#1E1F26",
+    "secondaryColor": "#454047",
+    "accentColor": "#0D8FA9",
+    "surfaceColor": "#15161B",
+    "textColor": "#FFFFFF"
+  }
 }
