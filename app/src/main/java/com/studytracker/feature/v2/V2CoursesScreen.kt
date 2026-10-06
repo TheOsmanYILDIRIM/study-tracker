@@ -285,11 +285,13 @@ fun V2CoursesScreen(
                         .padding(horizontal = 16.dp, vertical = 8.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    StudentResumePanel(
-                        state = resumeState,
-                        onResumeLesson = onResumeLesson,
-                        modifier = Modifier.fillMaxWidth()
-                    )
+                    if (!isParent) {
+                        StudentResumePanel(
+                            state = resumeState,
+                            onResumeLesson = onResumeLesson,
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                    }
 
                     Text(
                         text = "Dersler",
@@ -448,6 +450,161 @@ fun V2CoursesScreen(
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@Composable
+private fun StudentResumePanel(
+    state: StudentResumeState,
+    onResumeLesson: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val target = state.target
+    val panelShape = RoundedCornerShape(20.dp)
+
+    Card(
+        modifier = modifier.height(176.dp),
+        shape = panelShape,
+        colors = CardDefaults.cardColors(
+            containerColor = ZenSkyCyan.copy(alpha = 0.12f)
+        ),
+        border = BorderStroke(1.5.dp, ZenSkyCyan.copy(alpha = 0.75f))
+    ) {
+        when {
+            state.isLoading -> {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(18.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(14.dp)
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(width = 112.dp, height = 68.dp)
+                            .clip(RoundedCornerShape(12.dp))
+                            .background(Color.White.copy(alpha = 0.07f)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.size(24.dp),
+                            strokeWidth = 2.dp,
+                            color = ZenSkyCyan
+                        )
+                    }
+                    Column(
+                        modifier = Modifier.weight(1f),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Text(
+                            text = "Devam Et",
+                            style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                            color = ZomoTextPrimary
+                        )
+                        Text(
+                            text = "Kaldığın yer hazırlanıyor…",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = ZomoTextSecondary
+                        )
+                    }
+                }
+            }
+
+            target == null -> {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(18.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.CheckCircle,
+                        contentDescription = null,
+                        tint = ZenForestGreen,
+                        modifier = Modifier.size(36.dp)
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "Şimdilik her şey tamam",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
+                    Text(
+                        text = "Aşağıdan istediğin derse göz atabilirsin.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = ZomoTextSecondary
+                    )
+                }
+            }
+
+            else -> {
+                val version = target.item.currentVersion
+                val videoUrl = if (target.item.itemType == ItemType.VIDEO) {
+                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+                } else {
+                    null
+                }
+
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .clickable { onResumeLesson(target.lessonId) }
+                        .padding(14.dp),
+                    verticalArrangement = Arrangement.spacedBy(9.dp)
+                ) {
+                    Text(
+                        text = "Devam Et",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
+
+                    Row(
+                        modifier = Modifier.weight(1f),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        LearningItemVisual(
+                            itemType = target.item.itemType,
+                            videoUrl = videoUrl,
+                            modifier = Modifier.size(width = 104.dp, height = 62.dp)
+                        )
+
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            verticalArrangement = Arrangement.spacedBy(2.dp)
+                        ) {
+                            Text(
+                                text = target.courseTitle,
+                                style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
+                                color = ZenSkyCyan,
+                                maxLines = 1
+                            )
+                            Text(
+                                text = target.lessonTitle,
+                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
+                                color = ZomoTextPrimary,
+                                maxLines = 1
+                            )
+                            Text(
+                                text = version?.title ?: target.item.displayLabel,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = ZomoTextSecondary,
+                                maxLines = 1
+                            )
+                        }
+
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = "Devam et",
+                            tint = ZenSkyCyan,
+                            modifier = Modifier.size(30.dp)
+                        )
                     }
                 }
             }
