@@ -18,7 +18,7 @@ export class CurriculumEngine {
     return await this.storage.getCourseById(familyCode, courseId);
   }
 
-  async createCourse(familyCode, { id, title, subject, gradeLevel = 9, description = '', orderKey = null }) {
+  async createCourse(familyCode, { id, title, subject, gradeLevel = 9, description = '', visual = null, orderKey = null }) {
     if (!title || !subject) throw new Error('title and subject are required for course');
     const courseId = id || `course_${subject.toLowerCase().replace(/[^a-z0-9]/g, '_')}_${Date.now()}`;
     
@@ -37,6 +37,7 @@ export class CurriculumEngine {
       subject: subject.trim(),
       gradeLevel: Number(gradeLevel) || 9,
       description: description ? description.trim() : '',
+      visual: visual && typeof visual === 'object' ? visual : null,
       orderKey: Number(effectiveOrderKey),
       isArchived: false,
       createdAt: now,
