@@ -24,6 +24,8 @@ import com.studytracker.core.domain.engine.V2ProgressEngine
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.components.CourseCoverVisual
 import com.studytracker.core.ui.components.courseVisualColor
+import com.studytracker.core.ui.components.fetchCourseVisualCatalog
+import com.studytracker.core.ui.components.parseCourseVisualCatalog
 import com.studytracker.core.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -43,9 +45,22 @@ fun V2LessonsScreen(
 
     val courses by curriculumRepo.getCourses(familyCode).collectAsState(initial = emptyList())
     val currentCourse = courses.firstOrNull { it.id == courseId }
-    val coursePrimary = courseVisualColor(currentCourse?.visual?.primaryColor, ZenSkyCyan)
-    val courseAccent = courseVisualColor(currentCourse?.visual?.accentColor, ZenMoonGold)
-    val courseSurface = courseVisualColor(currentCourse?.visual?.surfaceColor, ZenNightSurface)
+
+    var courseVisualCatalog by remember {
+        mutableStateOf(parseCourseVisualCatalog(prefs.courseVisualCatalogCacheJson))
+    }
+
+    LaunchedEffect(Unit) {
+        fetchCourseVisualCatalog().onSuccess { raw ->
+            prefs.courseVisualCatalogCacheJson = raw
+            courseVisualCatalog = parseCourseVisualCatalog(raw)
+        }
+    }
+
+    val effectiveCourseVisual = currentCourse?.let { courseVisualCatalog[it.id] ?: it.visual }
+    val coursePrimary = courseVisualColor(effectiveCourseVisual?.primaryColor, ZenSkyCyan)
+    val courseAccent = courseVisualColor(effectiveCourseVisual?.accentColor, ZenMoonGold)
+    val courseSurface = courseVisualColor(effectiveCourseVisual?.surfaceColor, ZenNightSurface)
     val lessons by curriculumRepo.getLessonsForCourse(courseId).collectAsState(initial = emptyList())
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
@@ -77,7 +92,7 @@ fun V2LessonsScreen(
                         ) {
                             currentCourse?.let { course ->
                                 CourseCoverVisual(
-                                    visual = course.visual,
+                                    visual = effectiveCourseVisual ?: course.visual,
                                     contentDescription = "${course.subject} kapağı",
                                     modifier = Modifier.size(width = 34.dp, height = 46.dp)
                                 )
