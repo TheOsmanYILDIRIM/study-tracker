@@ -123,6 +123,16 @@ class AppPreferences internal constructor(private val prefs: SharedPreferences) 
         get() = prefs.getString(KEY_LAST_STUDY_REMINDER_DATE, null)
         set(value) = prefs.edit().putString(KEY_LAST_STUDY_REMINDER_DATE, value).apply()
 
+    var studentResumeCacheJson: String?
+        get() = prefs.getString(KEY_STUDENT_RESUME_CACHE, null)
+        set(value) {
+            if (value.isNullOrBlank()) {
+                prefs.edit().remove(KEY_STUDENT_RESUME_CACHE).apply()
+            } else {
+                prefs.edit().putString(KEY_STUDENT_RESUME_CACHE, value).apply()
+            }
+        }
+
     var lastKnownResetAt: Long
         get() = prefs.getLong(KEY_LAST_KNOWN_RESET_AT, 0L).coerceAtLeast(0L)
         set(value) = prefs.edit().putLong(KEY_LAST_KNOWN_RESET_AT, value.coerceAtLeast(0L)).apply()
@@ -178,6 +188,7 @@ class AppPreferences internal constructor(private val prefs: SharedPreferences) 
         private const val KEY_LAST_NOTIFIED_MESSAGE_TIME = "last_notified_message_time"
         private const val KEY_LAST_STUDY_REMINDER_DATE = "last_study_reminder_date"
         private const val KEY_LAST_UNREAD_MESSAGE = "last_unread_message"
+        private const val KEY_STUDENT_RESUME_CACHE = "student_resume_cache"
         private const val KEY_LAST_KNOWN_RESET_AT = "last_known_reset_at"
         private const val KEY_LAST_KNOWN_SERVER_REVISION = "last_known_server_revision"
 
