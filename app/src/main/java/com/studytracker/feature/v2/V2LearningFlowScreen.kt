@@ -53,6 +53,7 @@ import java.util.UUID
 fun V2LearningFlowScreen(
     lessonId: String,
     autoStartNext: Boolean = false,
+    autoStartItemId: String = "",
     onNavigateBack: () -> Unit
 ) {
     val context = LocalContext.current
@@ -187,10 +188,14 @@ fun V2LearningFlowScreen(
 
     var autoStartHandled by rememberSaveable(lessonId) { mutableStateOf(false) }
 
-    LaunchedEffect(autoStartNext, lessonProgress.nextUnfinishedItem?.id, isParent) {
+    LaunchedEffect(autoStartNext, autoStartItemId, lessonProgress.nextUnfinishedItem?.id, isParent) {
         if (!autoStartNext || autoStartHandled || isParent) return@LaunchedEffect
 
-        val item = lessonProgress.nextUnfinishedItem ?: return@LaunchedEffect
+        val item = if (autoStartItemId.isNotBlank()) {
+            lessonProgress.itemsProgress.firstOrNull { it.item.id == autoStartItemId }?.item
+        } else {
+            lessonProgress.nextUnfinishedItem
+        } ?: return@LaunchedEffect
         val progress = lessonProgress.itemsProgress.firstOrNull { it.item.id == item.id }
             ?: return@LaunchedEffect
         if (progress.state != V2ItemState.AVAILABLE) return@LaunchedEffect
