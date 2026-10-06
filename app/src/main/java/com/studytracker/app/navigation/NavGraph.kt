@@ -97,8 +97,14 @@ fun AppNavGraph(
                 onNavigateBack = {
                     navController.popBackStack()
                 },
-                onNavigateToLearningFlow = { lessonId ->
-                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId, autoStart = true))
+                onNavigateToLearningFlow = { lessonId, itemId ->
+                    navController.navigate(
+                        Screen.V2LearningFlow.createRoute(
+                            lessonId = lessonId,
+                            autoStart = true,
+                            targetItemId = itemId
+                        )
+                    )
                 }
             )
         }
@@ -110,14 +116,20 @@ fun AppNavGraph(
                 navArgument("autoStart") {
                     type = NavType.BoolType
                     defaultValue = false
+                },
+                navArgument("targetItemId") {
+                    type = NavType.StringType
+                    defaultValue = ""
                 }
             )
         ) { backStackEntry ->
             val lessonId = backStackEntry.arguments?.getString("lessonId") ?: ""
             val autoStart = backStackEntry.arguments?.getBoolean("autoStart") ?: false
+            val targetItemId = backStackEntry.arguments?.getString("targetItemId").orEmpty()
             V2LearningFlowScreen(
                 lessonId = lessonId,
                 autoStartNext = autoStart,
+                autoStartItemId = targetItemId,
                 onNavigateBack = {
                     navController.popBackStack()
                 }
