@@ -91,6 +91,7 @@ function decomposeCatalog(catalogObj, targetDir) {
       gradeLevel: course.gradeLevel,
       orderKey: course.orderKey,
       description: course.description || '',
+      visual: course.visual || null,
       lessons: lessonRefs
     };
 
@@ -503,6 +504,7 @@ function compileModularCatalog(sourceDir) {
       gradeLevel: courseData.gradeLevel,
       orderKey: courseData.orderKey,
       description: courseData.description || '',
+      visual: courseData.visual || null,
       lessons: compiledLessons
     };
 
