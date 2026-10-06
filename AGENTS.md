@@ -140,3 +140,11 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 - Build workflow no longer runs twice for feature-branch push + PR; feature/main push remains the build trigger.
 - Staging and worker deploy workflows now cancel stale in-progress runs for the same ref.
 - Goal: preserve APK/deploy coverage while reducing redundant GitHub Actions usage.
+
+
+## StudyTracker handoff — 2026-10-06 — Student simple flow
+- Branch: `feature/student-simple-flow-thumbnails` (do not work directly on main).
+- Goal: keep V2 course/lesson/item/attempt backend intact while restoring V1-like child simplicity.
+- Implemented so far: Coil image cache dependency; YouTube thumbnail resolver with memory+disk cache; local Anki and quiz vector badges; available learning cards show thumbnails/badges; child VIDEO tap immediately opens the video and returns to a simple "Videoyu bitirdin mi?" confirmation; V2/system terminology simplified on Courses/Lessons screens.
+- Verification pending: GitHub Actions Android/unit/worker/CLI/release build. Do not mark backlog complete until CI is green.
+- Next step after green build: add a single prominent global "Devam Et" entry on the child home/course surface and refine card hierarchy without changing progress semantics.
