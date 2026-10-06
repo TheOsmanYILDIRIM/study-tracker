@@ -145,6 +145,8 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 ## StudyTracker handoff — 2026-10-06 — Student simple flow
 - Branch: `feature/student-simple-flow-thumbnails` (do not work directly on main).
 - Goal: keep V2 course/lesson/item/attempt backend intact while restoring V1-like child simplicity.
-- Implemented so far: Coil image cache dependency; YouTube thumbnail resolver with memory+disk cache; local Anki and quiz vector badges; available learning cards show thumbnails/badges; child VIDEO tap immediately opens the video and returns to a simple "Videoyu bitirdin mi?" confirmation; V2/system terminology simplified on Courses/Lessons screens.
-- Verification pending: GitHub Actions Android/unit/worker/CLI/release build. Do not mark backlog complete until CI is green.
-- Next step after green build: add a single prominent global "Devam Et" entry on the child home/course surface and refine card hierarchy without changing progress semantics.
+- Implemented: Coil memory+disk thumbnail cache; eager thumbnail prefetch after catalog load; YouTube watch/youtu.be/shorts/embed resolver; local Anki and custom quiz vector badges; thumbnails remain visible after completion with status overlay.
+- Child VIDEO tap is one action: opens video immediately, then returns to a simple "Videoyu bitirdin mi?" confirmation. Global "Devam Et" card now resolves the first unfinished item and auto-starts VIDEO/QUIZ/ANKI through an `autoStart` learning-flow route.
+- Student surface language simplified; child-only duplicate per-course resume and manual sync controls removed. Parent resume detail remains available.
+- Verification: dedicated thumbnail resolver unit tests added. GitHub Actions should be checked on the latest branch head; do not treat cancelled superseded runs as failures.
+- Next step: fix any CI compile/test issue, then visually refine compact/mobile spacing and only after green CI close backlog / merge decision.
