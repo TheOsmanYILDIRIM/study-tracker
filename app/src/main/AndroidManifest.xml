@@ -23,6 +23,9 @@
         <package android:name="com.studytracker" />
         <package android:name="com.studytracker.debug" />
         <package android:name="com.google.android.youtube" />
+        <!-- AnkiDroid official Play / F-Droid / GitHub package -->
+        <package android:name="com.ichi2.anki" />
+        <package android:name="com.ichi2.anki.debug" />
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="https" />
