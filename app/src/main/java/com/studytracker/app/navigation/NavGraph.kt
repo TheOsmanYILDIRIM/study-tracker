@@ -98,7 +98,7 @@ fun AppNavGraph(
                     navController.popBackStack()
                 },
                 onNavigateToLearningFlow = { lessonId ->
-                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
+                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId, autoStart = true))
                 }
             )
         }
