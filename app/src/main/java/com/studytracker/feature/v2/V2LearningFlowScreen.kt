@@ -719,39 +719,56 @@ private fun LearningItemPuzzleCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // A child recognizes the item visually before reading it.
-            // Video thumbnails use Coil memory + disk cache; Anki/Test use local vector assets.
-            if (itemProgress.state == V2ItemState.AVAILABLE) {
-                val version = item.currentVersion
-                val videoUrl = if (item.itemType == ItemType.VIDEO) {
-                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
-                } else null
-                LearningItemVisual(
-                    itemType = item.itemType,
-                    videoUrl = videoUrl,
-                    modifier = Modifier.size(width = 72.dp, height = 48.dp)
-                )
-            } else {
+            // Keep the visual identity even after completion; status is an overlay.
+            val version = item.currentVersion
+            val videoUrl = if (item.itemType == ItemType.VIDEO) {
+                version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+            } else null
+
+            if (itemProgress.state == V2ItemState.ARCHIVED ||
+                itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE
+            ) {
                 Box(
                     modifier = Modifier
                         .size(width = 72.dp, height = 48.dp)
-                        .background(typeColor.copy(alpha = 0.12f), RoundedCornerShape(12.dp)),
+                        .background(typeColor.copy(alpha = 0.10f), RoundedCornerShape(12.dp)),
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
-                        imageVector = when (itemProgress.state) {
-                            V2ItemState.COMPLETED -> Icons.Default.CheckCircle
-                            V2ItemState.LOCKED_BY_PREREQUISITE -> Icons.Default.Lock
-                            else -> typeIcon
+                        imageVector = if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
+                            Icons.Default.Lock
+                        } else {
+                            typeIcon
                         },
                         contentDescription = null,
-                        tint = when (itemProgress.state) {
-                            V2ItemState.COMPLETED -> ZenForestGreen
-                            V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
-                            else -> typeColor
-                        },
+                        tint = Color.Gray,
                         modifier = Modifier.size(26.dp)
                     )
+                }
+            } else {
+                Box(modifier = Modifier.size(width = 72.dp, height = 48.dp)) {
+                    LearningItemVisual(
+                        itemType = item.itemType,
+                        videoUrl = videoUrl,
+                        modifier = Modifier.fillMaxSize()
+                    )
+                    if (itemProgress.state == V2ItemState.COMPLETED) {
+                        Box(
+                            modifier = Modifier
+                                .align(Alignment.TopEnd)
+                                .padding(3.dp)
+                                .size(20.dp)
+                                .background(ZenForestGreen, CircleShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Check,
+                                contentDescription = "Tamamlandı",
+                                tint = Color.White,
+                                modifier = Modifier.size(14.dp)
+                            )
+                        }
+                    }
                 }
             }
 
