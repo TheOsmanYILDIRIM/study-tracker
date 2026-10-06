@@ -63,9 +63,9 @@ fun V2CoursesScreen(
             isSyncing = false
             if (showToast) {
                 if (res.isSuccess) {
-                    Toast.makeText(context, "V2 müfredat buluttan güncellendi (${res.getOrNull()} öğe)", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Dersler güncellendi.", Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(context, "V2 eşitleme hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, "Dersler yenilenemedi. İnternet bağlantını kontrol et.", Toast.LENGTH_LONG).show()
                 }
             }
         }
@@ -94,12 +94,12 @@ fun V2CoursesScreen(
                     title = {
                         Column {
                             Text(
-                                text = "Öğrenme Akışı (V2)",
+                                text = "Derslerim",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Dersler & Ölçme Tabanlı İlerleme",
+                                text = "Kaldığın yerden devam et",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary
                             )
@@ -175,12 +175,12 @@ fun V2CoursesScreen(
                                 modifier = Modifier.size(56.dp)
                             )
                             Text(
-                                text = "Henüz V2 Dersi Bulunmuyor",
+                                text = "Henüz ders yok",
                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Buluttaki güncel ders ve modülleri çekmek için aşağıdaki butona dokunabilirsin.",
+                                text = "Derslerin hazırlanıyor. Biraz sonra tekrar deneyebilirsin.",
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = ZomoTextSecondary,
                                 modifier = Modifier.padding(horizontal = 8.dp)
@@ -193,7 +193,7 @@ fun V2CoursesScreen(
                             ) {
                                 Icon(Icons.Default.CloudDownload, contentDescription = null, tint = Color.Black)
                                 Spacer(modifier = Modifier.width(8.dp))
-                                Text("Buluttan Dersleri İndir", color = Color.Black, fontWeight = FontWeight.Bold)
+                                Text("Dersleri Yenile", color = Color.Black, fontWeight = FontWeight.Bold)
                             }
                         }
                     }
@@ -329,12 +329,12 @@ fun V2CoursesScreen(
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Text(
-                                        text = "${lessons.size} konu • %${courseProgress.completionPercentage}",
+                                        text = "${lessons.size} konu",
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
                                         color = ZenMoonGold
                                     )
                                     Text(
-                                        text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Tamamlandı ✓" else "Tüm konular →",
+                                        text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Bitti ✓" else "Konuları aç →",
                                         style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
                                         color = ZomoTextPrimary
                                     )
