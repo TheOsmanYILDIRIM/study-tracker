@@ -689,7 +689,7 @@ private fun ParentV2ItemEditorDialog(
     )
 }
 @Composable
-private fun LearningItemPuzzleCard(
+internal fun LearningItemPuzzleCard(
     itemProgress: V2ItemProgress,
     isNextItem: Boolean,
     isParent: Boolean,
