@@ -150,3 +150,12 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 - Student surface language simplified; child-only duplicate per-course resume and manual sync controls removed. Parent resume detail remains available.
 - Verification: dedicated thumbnail resolver unit tests added. GitHub Actions should be checked on the latest branch head; do not treat cancelled superseded runs as failures.
 - Next step: fix any CI compile/test issue, then visually refine compact/mobile spacing and only after green CI close backlog / merge decision.
+
+
+## StudyTracker handoff — 2026-10-07 — Course covers & themes
+- Course visual identity is content-driven, not Kotlin-hardcoded.
+- Each `content/v2/courses/course_*.json` may define `visual`: `coverUrl`, `coverVariants`, `primaryColor`, `secondaryColor`, `accentColor`, `surfaceColor`, `textColor`.
+- Modular compiler, V2 worker import/storage, Android DTO, Room (`visualJson`, DB v9), domain `CourseVisual`, and Compose UI carry/render this metadata.
+- MEB-cover-derived palettes are defined for Matematik, Fizik, Kimya, Biyoloji, Coğrafya, İngilizce, Tarih, TDE; Almanca currently has theme colors but no provided cover. Matematik keeps Book 1/Book 2 cover variants.
+- Never embed per-course covers/colors in Android drawables or subject-name conditionals. Updating a course cover/theme should be a content JSON operation.
+- Student course page remains flat: topic headings are separators and VIDEO/QUIZ/ANKI items are listed directly beneath them.
