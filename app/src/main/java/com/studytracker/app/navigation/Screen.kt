@@ -19,7 +19,8 @@ sealed class Screen(val route: String) {
     object V2Lessons : Screen("v2_lessons/{courseId}") {
         fun createRoute(courseId: String) = "v2_lessons/$courseId"
     }
-    object V2LearningFlow : Screen("v2_learning_flow/{lessonId}") {
-        fun createRoute(lessonId: String) = "v2_learning_flow/$lessonId"
+    object V2LearningFlow : Screen("v2_learning_flow/{lessonId}?autoStart={autoStart}") {
+        fun createRoute(lessonId: String, autoStart: Boolean = false) =
+            "v2_learning_flow/$lessonId?autoStart=$autoStart"
     }
 }
