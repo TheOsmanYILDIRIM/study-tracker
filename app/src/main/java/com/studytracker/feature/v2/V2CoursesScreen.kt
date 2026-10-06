@@ -32,7 +32,10 @@ import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryIm
 import com.studytracker.core.domain.engine.V2ProgressEngine
 import com.studytracker.core.domain.model.ItemType
 import com.studytracker.core.domain.model.LearningItem
+import com.studytracker.core.domain.model.CourseVisual
 import com.studytracker.core.ui.components.LearningItemVisual
+import com.studytracker.core.ui.components.CourseCoverVisual
+import com.studytracker.core.ui.components.courseVisualColor
 import com.studytracker.core.ui.components.youtubeThumbnailUrl
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
@@ -42,6 +45,7 @@ import kotlinx.coroutines.flow.first
 
 private data class StudentResumeTarget(
     val courseTitle: String,
+    val courseVisual: CourseVisual,
     val lessonId: String,
     val lessonTitle: String,
     val item: LearningItem
@@ -96,6 +100,7 @@ fun V2CoursesScreen(
             if (lesson != null && item != null) {
                 found = StudentResumeTarget(
                     courseTitle = course.title,
+                    courseVisual = course.visual,
                     lessonId = lesson.id,
                     lessonTitle = lesson.title,
                     item = item
@@ -129,6 +134,22 @@ fun V2CoursesScreen(
         if (familyCode.isNotBlank()) {
             refreshCatalog(showToast = false)
         }
+    }
+
+    LaunchedEffect(courses.map { it.visual.coverUrl }) {
+        courses.mapNotNull { it.visual.coverUrl }
+            .distinct()
+            .forEach { coverUrl ->
+                Coil.imageLoader(context).enqueue(
+                    ImageRequest.Builder(context)
+                        .data(coverUrl)
+                        .memoryCacheKey("course-cover:$coverUrl")
+                        .diskCacheKey("course-cover:$coverUrl")
+                        .memoryCachePolicy(CachePolicy.ENABLED)
+                        .diskCachePolicy(CachePolicy.ENABLED)
+                        .build()
+                )
+            }
     }
 
     LaunchedEffect(allItems) {
@@ -211,7 +232,7 @@ fun V2CoursesScreen(
                                     CircularProgressIndicator(
                                         modifier = Modifier.size(20.dp),
                                         strokeWidth = 2.dp,
-                                        color = ZenMoonGold
+                                        color = coursePrimary
                                     )
                                 } else {
                                     Icon(
@@ -318,6 +339,9 @@ fun V2CoursesScreen(
                             )
                         }
 
+                        val coursePrimary = courseVisualColor(course.visual.primaryColor, ZenSkyCyan)
+                        val courseSurface = courseVisualColor(course.visual.surfaceColor, ZenNightSurface)
+
                         Card(
                             modifier = Modifier
                                 .fillMaxWidth()
@@ -325,9 +349,9 @@ fun V2CoursesScreen(
                                 .clickable { onNavigateToCourse(course.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = ZenNightSurface.copy(alpha = 0.92f)
+                                containerColor = courseSurface.copy(alpha = 0.94f)
                             ),
-                            border = BorderStroke(1.dp, ZenNightBorder)
+                            border = BorderStroke(1.2.dp, coursePrimary.copy(alpha = 0.65f))
                         ) {
                             Column(
                                 modifier = Modifier.padding(18.dp),
@@ -342,20 +366,12 @@ fun V2CoursesScreen(
                                         verticalAlignment = Alignment.CenterVertically,
                                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                                     ) {
-                                        Box(
-                                            modifier = Modifier
-                                                .size(36.dp)
-                                                .background(ZenMoonGold.copy(alpha = 0.15f), CircleShape),
-                                            contentAlignment = Alignment.Center
-                                        ) {
-                                            Icon(
-                                                imageVector = Icons.Default.MenuBook,
-                                                contentDescription = null,
-                                                tint = ZenMoonGold,
-                                                modifier = Modifier.size(20.dp)
-                                            )
-                                        }
-                                        Column {
+                                        CourseCoverVisual(
+                                            visual = course.visual,
+                                            contentDescription = "${course.subject} ders kitabı kapağı",
+                                            modifier = Modifier.size(width = 62.dp, height = 84.dp)
+                                        )
+                                        Column(modifier = Modifier.weight(1f)) {
                                             Text(
                                                 text = course.title,
                                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
@@ -364,7 +380,7 @@ fun V2CoursesScreen(
                                             Text(
                                                 text = "${course.gradeLevel}. Sınıf • ${course.subject}",
                                                 style = MaterialTheme.typography.bodySmall,
-                                                color = ZomoTextSecondary
+                                                color = coursePrimary.copy(alpha = 0.92f)
                                             )
                                         }
                                     }
@@ -451,14 +467,16 @@ private fun StudentResumePanel(
 ) {
     val target = state.target
     val panelShape = RoundedCornerShape(20.dp)
+    val targetPrimary = courseVisualColor(target?.courseVisual?.primaryColor, ZenSkyCyan)
+    val targetSurface = courseVisualColor(target?.courseVisual?.surfaceColor, ZenNightSurface)
 
     Card(
         modifier = modifier.height(176.dp),
         shape = panelShape,
         colors = CardDefaults.cardColors(
-            containerColor = ZenSkyCyan.copy(alpha = 0.12f)
+            containerColor = targetSurface.copy(alpha = 0.94f)
         ),
-        border = BorderStroke(1.5.dp, ZenSkyCyan.copy(alpha = 0.75f))
+        border = BorderStroke(1.5.dp, targetPrimary.copy(alpha = 0.78f))
     ) {
         when {
             state.isLoading -> {
@@ -536,7 +554,7 @@ private fun StudentResumePanel(
                             Text(
                                 text = target.courseTitle,
                                 style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
-                                color = ZenSkyCyan,
+                                color = targetPrimary,
                                 maxLines = 1
                             )
                             Text(
@@ -556,7 +574,7 @@ private fun StudentResumePanel(
                         Icon(
                             imageVector = Icons.Default.PlayArrow,
                             contentDescription = "Devam et",
-                            tint = ZenSkyCyan,
+                            tint = targetPrimary,
                             modifier = Modifier.size(30.dp)
                         )
                     }
