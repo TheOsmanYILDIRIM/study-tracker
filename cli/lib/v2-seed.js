@@ -468,6 +468,7 @@ async function applySeed(familyCode, catalogInput, { dryRun = false } = {}) {
       subject: course.subject,
       gradeLevel: course.gradeLevel || 9,
       description: course.description || '',
+      visual: course.visual || null,
       orderKey: course.orderKey
     });
     appliedActions.coursesCreated.push(res.course.id);
