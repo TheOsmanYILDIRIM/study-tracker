@@ -441,7 +441,7 @@ fun V2CoursesScreen(
         }
     }
 }
-
+}
 
 @Composable
 private fun StudentResumePanel(
