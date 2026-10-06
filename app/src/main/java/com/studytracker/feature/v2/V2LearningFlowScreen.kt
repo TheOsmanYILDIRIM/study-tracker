@@ -40,6 +40,7 @@ import com.studytracker.core.domain.engine.*
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.components.LearningItemVisual
+import com.studytracker.core.ui.components.launchAnkiDroid
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -1191,30 +1192,30 @@ private fun AnkiItemActionDialog(
 
                 Button(
                     onClick = {
-                        val launched = try {
-                            val pkg = payload.packageUri ?: "com.ichi2.anki"
-                            val pm = context.packageManager
-                            val intent = pm.getLaunchIntentForPackage(pkg)
-                            if (intent != null) {
-                                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                                context.startActivity(intent)
-                                true
-                            } else false
-                        } catch (_: Exception) {
-                            false
-                        }
+                        val result = launchAnkiDroid(
+                            context = context,
+                            preferredPackage = payload.packageUri
+                        )
 
-                        if (!launched && !payload.webUrl.isNullOrBlank()) {
+                        if (!result.launched && !payload.webUrl.isNullOrBlank()) {
                             try {
                                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(payload.webUrl)).apply {
                                     flags = Intent.FLAG_ACTIVITY_NEW_TASK
                                 }
                                 context.startActivity(intent)
                             } catch (_: Exception) {
-                                Toast.makeText(context, "Anki veya web bağlantısı açılamadı.", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(
+                                    context,
+                                    "AnkiDroid açılamadı ve web bağlantısı da çalışmadı.",
+                                    Toast.LENGTH_SHORT
+                                ).show()
                             }
-                        } else if (!launched) {
-                            Toast.makeText(context, "AnkiDroid cihazınızda bulunamadı.", Toast.LENGTH_SHORT).show()
+                        } else if (!result.launched) {
+                            Toast.makeText(
+                                context,
+                                "AnkiDroid bulunamadı. Play Store, F-Droid veya GitHub sürümünü kontrol et.",
+                                Toast.LENGTH_SHORT
+                            ).show()
                         }
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenLavender),
