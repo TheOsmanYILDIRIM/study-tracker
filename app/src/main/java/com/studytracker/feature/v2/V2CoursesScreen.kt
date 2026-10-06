@@ -26,10 +26,21 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.V2ProgressEngine
+import com.studytracker.core.domain.model.ItemType
+import com.studytracker.core.domain.model.LearningItem
+import com.studytracker.core.ui.components.LearningItemVisual
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.first
+
+private data class StudentResumeTarget(
+    val courseTitle: String,
+    val lessonId: String,
+    val lessonTitle: String,
+    val item: LearningItem
+)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -51,6 +62,37 @@ fun V2CoursesScreen(
     val attempts by attemptRepo.getAttempts(familyCode, "student_default").collectAsState(initial = emptyList())
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
+
+    val resumeTarget by produceState<StudentResumeTarget?>(
+        initialValue = null,
+        courses,
+        allItems,
+        allPrereqs,
+        attempts
+    ) {
+        value = null
+        for (course in courses) {
+            val courseLessons = curriculumRepo.getLessonsForCourse(course.id).first()
+            val progress = V2ProgressEngine.evaluateCourseProgress(
+                course = course,
+                lessons = courseLessons,
+                itemsByLessonId = allItems.groupBy { it.lessonId },
+                prerequisites = allPrereqs,
+                attempts = attempts
+            )
+            val lesson = progress.resumeLesson
+            val item = progress.resumeItem
+            if (lesson != null && item != null) {
+                value = StudentResumeTarget(
+                    courseTitle = course.title,
+                    lessonId = lesson.id,
+                    lessonTitle = lesson.title,
+                    item = item
+                )
+                break
+            }
+        }
+    }
 
     var isSyncing by remember { mutableStateOf(false) }
     var showSettingsDialog by remember { mutableStateOf(false) }
@@ -206,6 +248,105 @@ fun V2CoursesScreen(
                         .padding(horizontal = 16.dp, vertical = 8.dp),
                     verticalArrangement = Arrangement.spacedBy(14.dp)
                 ) {
+                    resumeTarget?.let { target ->
+                        item(key = "global_resume") {
+                            val version = target.item.currentVersion
+                            val videoUrl = if (target.item.itemType == ItemType.VIDEO) {
+                                version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+                            } else null
+
+                            Card(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clip(RoundedCornerShape(20.dp))
+                                    .clickable { onResumeLesson(target.lessonId) },
+                                shape = RoundedCornerShape(20.dp),
+                                colors = CardDefaults.cardColors(
+                                    containerColor = ZenSkyCyan.copy(alpha = 0.12f)
+                                ),
+                                border = BorderStroke(1.5.dp, ZenSkyCyan.copy(alpha = 0.75f))
+                            ) {
+                                Column(
+                                    modifier = Modifier.padding(16.dp),
+                                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                                ) {
+                                    Text(
+                                        text = "Devam Et",
+                                        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                                        color = ZomoTextPrimary
+                                    )
+
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                                    ) {
+                                        LearningItemVisual(
+                                            itemType = target.item.itemType,
+                                            videoUrl = videoUrl,
+                                            modifier = Modifier.size(width = 112.dp, height = 68.dp)
+                                        )
+
+                                        Column(modifier = Modifier.weight(1f)) {
+                                            Text(
+                                                text = target.courseTitle,
+                                                style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
+                                                color = ZenSkyCyan
+                                            )
+                                            Text(
+                                                text = target.lessonTitle,
+                                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
+                                                color = ZomoTextPrimary,
+                                                maxLines = 1
+                                            )
+                                            Text(
+                                                text = version?.title ?: target.item.displayLabel,
+                                                style = MaterialTheme.typography.bodySmall,
+                                                color = ZomoTextSecondary,
+                                                maxLines = 2
+                                            )
+                                        }
+                                    }
+
+                                    Button(
+                                        onClick = { onResumeLesson(target.lessonId) },
+                                        modifier = Modifier.fillMaxWidth(),
+                                        shape = RoundedCornerShape(14.dp),
+                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
+                                    ) {
+                                        Icon(
+                                            imageVector = when (target.item.itemType) {
+                                                ItemType.VIDEO -> Icons.Default.PlayArrow
+                                                ItemType.QUIZ -> Icons.Default.Quiz
+                                                ItemType.ANKI -> Icons.Default.Layers
+                                            },
+                                            contentDescription = null,
+                                            tint = Color.Black
+                                        )
+                                        Spacer(modifier = Modifier.width(8.dp))
+                                        Text(
+                                            text = when (target.item.itemType) {
+                                                ItemType.VIDEO -> "Videoya Devam Et"
+                                                ItemType.QUIZ -> "Testi Çöz"
+                                                ItemType.ANKI -> "Kartlara Başla"
+                                            },
+                                            color = Color.Black,
+                                            fontWeight = FontWeight.Bold
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    item(key = "courses_header") {
+                        Text(
+                            text = "Dersler",
+                            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                            color = ZomoTextPrimary
+                        )
+                    }
+
                     items(courses, key = { it.id }) { course ->
                         val lessons by curriculumRepo.getLessonsForCourse(course.id).collectAsState(initial = emptyList())
                         val courseProgress = remember(course, lessons, allItems, allPrereqs, attempts) {
