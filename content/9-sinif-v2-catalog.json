@@ -4400,7 +4400,19 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_kapak.webp",
+        "coverVariants": [
+          "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_1_kapak.webp",
+          "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_2_kapak.webp"
+        ],
+        "primaryColor": "#4B7D83",
+        "secondaryColor": "#244366",
+        "accentColor": "#E86D24",
+        "surfaceColor": "#17292D",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_fiz_9",
@@ -7855,7 +7867,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/fizik9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#005F8A",
+        "secondaryColor": "#16779B",
+        "accentColor": "#F47A20",
+        "surfaceColor": "#0B2533",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_kim_9",
@@ -11073,7 +11094,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/kimya9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#34411E",
+        "secondaryColor": "#849559",
+        "accentColor": "#F07B23",
+        "surfaceColor": "#202819",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_biyo_9",
@@ -13399,7 +13429,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/biyoloji9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#4F5EA4",
+        "secondaryColor": "#96C3E1",
+        "accentColor": "#7FA44D",
+        "surfaceColor": "#17213A",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_tar_9",
@@ -16091,7 +16130,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tarih9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#653628",
+        "secondaryColor": "#A36F56",
+        "accentColor": "#D3AF8D",
+        "surfaceColor": "#2D1D18",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_cog_9",
@@ -19576,7 +19624,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/cografya9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#294177",
+        "secondaryColor": "#192C4F",
+        "accentColor": "#F47A20",
+        "surfaceColor": "#141D35",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_ing_9",
@@ -21236,7 +21293,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/ingilizce9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#07625E",
+        "secondaryColor": "#187F88",
+        "accentColor": "#D2AF63",
+        "surfaceColor": "#102B2A",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_alm_9",
@@ -23688,7 +23754,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": null,
+        "coverVariants": [],
+        "primaryColor": "#5968A8",
+        "secondaryColor": "#303B69",
+        "accentColor": "#F0B44D",
+        "surfaceColor": "#1B2038",
+        "textColor": "#FFFFFF"
+      }
     },
     {
       "id": "course_tde_9",
@@ -26341,7 +26416,16 @@
             }
           ]
         }
-      ]
+      ],
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tde9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#1E1F26",
+        "secondaryColor": "#454047",
+        "accentColor": "#0D8FA9",
+        "surfaceColor": "#15161B",
+        "textColor": "#FFFFFF"
+      }
     }
   ]
 }
