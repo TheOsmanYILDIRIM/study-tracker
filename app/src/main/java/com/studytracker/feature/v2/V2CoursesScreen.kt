@@ -42,13 +42,21 @@ import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.first
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
 
+@Serializable
 private data class StudentResumeTarget(
+    val familyCode: String,
     val courseTitle: String,
     val courseVisual: CourseVisual,
     val lessonId: String,
     val lessonTitle: String,
-    val item: LearningItem
+    val itemId: String,
+    val itemType: ItemType,
+    val itemLabel: String,
+    val itemTitle: String,
+    val videoUrl: String? = null
 )
 
 private data class StudentResumeState(
@@ -78,13 +86,25 @@ fun V2CoursesScreen(
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
 
+    val cachedResume = remember(familyCode) {
+        prefs.studentResumeCacheJson
+            ?.let { raw -> runCatching { Json.decodeFromString<StudentResumeTarget>(raw) }.getOrNull() }
+            ?.takeIf { it.familyCode == familyCode }
+    }
+
     val resumeState by produceState(
-        initialValue = StudentResumeState(isLoading = true),
+        initialValue = StudentResumeState(
+            isLoading = cachedResume == null,
+            target = cachedResume
+        ),
         key1 = courses,
         key2 = allItems,
         key3 = Pair(allPrereqs, attempts)
     ) {
-        value = StudentResumeState(isLoading = true)
+        if (cachedResume == null) {
+            value = StudentResumeState(isLoading = true)
+        }
+
         var found: StudentResumeTarget? = null
         for (course in courses) {
             val courseLessons = curriculumRepo.getLessonsForCourse(course.id).first()
@@ -98,16 +118,33 @@ fun V2CoursesScreen(
             val lesson = progress.resumeLesson
             val item = progress.resumeItem
             if (lesson != null && item != null) {
+                val version = item.currentVersion
+                val resolvedVideoUrl = if (item.itemType == ItemType.VIDEO) {
+                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+                } else null
+
                 found = StudentResumeTarget(
+                    familyCode = familyCode,
                     courseTitle = course.title,
                     courseVisual = course.visual,
                     lessonId = lesson.id,
                     lessonTitle = lesson.title,
-                    item = item
+                    itemId = item.id,
+                    itemType = item.itemType,
+                    itemLabel = item.displayLabel,
+                    itemTitle = version?.title ?: item.displayLabel,
+                    videoUrl = resolvedVideoUrl
                 )
                 break
             }
         }
+
+        if (found != null) {
+            prefs.studentResumeCacheJson = Json.encodeToString(StudentResumeTarget.serializer(), found)
+        } else if (courses.isNotEmpty() && allItems.isNotEmpty()) {
+            prefs.studentResumeCacheJson = null
+        }
+
         value = StudentResumeState(isLoading = false, target = found)
     }
 
@@ -516,13 +553,6 @@ private fun StudentResumePanel(
             }
 
             else -> {
-                val version = target.item.currentVersion
-                val videoUrl = if (target.item.itemType == ItemType.VIDEO) {
-                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
-                } else {
-                    null
-                }
-
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
@@ -542,8 +572,8 @@ private fun StudentResumePanel(
                         horizontalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
                         LearningItemVisual(
-                            itemType = target.item.itemType,
-                            videoUrl = videoUrl,
+                            itemType = target.itemType,
+                            videoUrl = target.videoUrl,
                             modifier = Modifier.size(width = 104.dp, height = 62.dp)
                         )
 
@@ -564,7 +594,7 @@ private fun StudentResumePanel(
                                 maxLines = 1
                             )
                             Text(
-                                text = version?.title ?: target.item.displayLabel,
+                                text = target.itemTitle,
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary,
                                 maxLines = 1
