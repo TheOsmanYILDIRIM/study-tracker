@@ -58,6 +58,7 @@ fun V2CoursesScreen(
     val prefs = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
     val familyCode by prefs.familyPairCode.collectAsState()
+    val isParent = com.studytracker.BuildConfig.APP_ROLE == "PARENT"
 
     val curriculumRepo = remember(db) { LocalV2CurriculumRepositoryImpl(db) }
     val attemptRepo = remember(db) { LocalV2AttemptRepositoryImpl(db) }
@@ -193,23 +194,26 @@ fun V2CoursesScreen(
                             )
                         }
 
-                        IconButton(
-                            onClick = { refreshCatalog(showToast = true) },
-                            enabled = !isSyncing
-                        ) {
-                            if (isSyncing) {
-                                CircularProgressIndicator(
-                                    modifier = Modifier.size(20.dp),
-                                    strokeWidth = 2.dp,
-                                    color = ZenMoonGold
-                                )
-                            } else {
-                                Icon(
-                                    imageVector = Icons.Default.Sync,
-                                    contentDescription = "Yenile",
-                                    tint = ZenMoonGold
-                                )
+                        if (isParent) {
+                            IconButton(
+                                onClick = { refreshCatalog(showToast = true) },
+                                enabled = !isSyncing
+                            ) {
+                                if (isSyncing) {
+                                    CircularProgressIndicator(
+                                        modifier = Modifier.size(20.dp),
+                                        strokeWidth = 2.dp,
+                                        color = ZenMoonGold
+                                    )
+                                } else {
+                                    Icon(
+                                        imageVector = Icons.Default.Sync,
+                                        contentDescription = "Yenile",
+                                        tint = ZenMoonGold
+                                    )
+                                }
                             }
+
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
@@ -454,7 +458,7 @@ fun V2CoursesScreen(
 
                                 HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f), thickness = 0.8.dp)
 
-                                if (courseProgress.resumeLesson != null && courseProgress.resumeItem != null) {
+                                if (isParent && courseProgress.resumeLesson != null && courseProgress.resumeItem != null) {
                                     Surface(
                                         shape = RoundedCornerShape(12.dp),
                                         color = ZenSkyCyan.copy(alpha = 0.10f),
@@ -478,16 +482,6 @@ fun V2CoursesScreen(
                                         }
                                     }
 
-                                    Button(
-                                        onClick = { onResumeLesson(courseProgress.resumeLesson.id) },
-                                        modifier = Modifier.fillMaxWidth(),
-                                        shape = RoundedCornerShape(12.dp),
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
-                                    ) {
-                                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = Color.Black)
-                                        Spacer(modifier = Modifier.width(6.dp))
-                                        Text("Devam Et", color = Color.Black, fontWeight = FontWeight.Bold)
-                                    }
                                 }
 
                                 Row(
