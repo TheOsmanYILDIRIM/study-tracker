@@ -19,5 +19,14 @@
     "lesson_alm9_topic_11_freizeit_und_aktivitaten",
     "lesson_alm9_topic_12_uhrzeiten",
     "lesson_alm9_topic_13_tageszeiten_und_tagesablauf"
-  ]
+  ],
+  "visual": {
+    "coverUrl": null,
+    "coverVariants": [],
+    "primaryColor": "#5968A8",
+    "secondaryColor": "#303B69",
+    "accentColor": "#F0B44D",
+    "surfaceColor": "#1B2038",
+    "textColor": "#FFFFFF"
+  }
 }
