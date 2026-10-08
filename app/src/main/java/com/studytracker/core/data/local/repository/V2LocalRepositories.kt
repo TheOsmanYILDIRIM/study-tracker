@@ -32,6 +32,13 @@ private val json = Json {
 
 // --- Entity <-> Domain Mappings ---
 
+private fun parseCourseVisual(raw: String?): CourseVisual {
+    if (raw.isNullOrBlank()) return CourseVisual()
+    return runCatching {
+        json.decodeFromString(CourseVisual.serializer(), raw)
+    }.getOrDefault(CourseVisual())
+}
+
 fun CourseEntity.toDomain() = Course(
     id = id,
     familyCode = familyCode,
@@ -39,6 +46,7 @@ fun CourseEntity.toDomain() = Course(
     subject = subject,
     gradeLevel = gradeLevel,
     description = description ?: "",
+    visual = parseCourseVisual(visualJson),
     orderKey = orderKey,
     isArchived = isArchived,
     createdAt = createdAt,
@@ -52,6 +60,7 @@ fun Course.toEntity() = CourseEntity(
     subject = subject,
     gradeLevel = gradeLevel,
     description = description,
+    visualJson = json.encodeToString(CourseVisual.serializer(), visual),
     orderKey = orderKey,
     isArchived = isArchived,
     createdAt = createdAt,
@@ -316,6 +325,9 @@ class LocalV2CurriculumRepositoryImpl(
                         subject = cDto.subject,
                         gradeLevel = cDto.gradeLevel,
                         description = cDto.description,
+                        visualJson = cDto.visual?.let {
+                            json.encodeToString(V2CourseVisualDto.serializer(), it)
+                        },
                         orderKey = cDto.orderKey,
                         isArchived = cDto.isArchived,
                         createdAt = if (cDto.createdAt > 0) cDto.createdAt else System.currentTimeMillis(),

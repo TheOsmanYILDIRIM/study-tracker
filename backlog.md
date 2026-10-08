@@ -1,3 +1,6 @@
+## WIP — Öğrenci sade akış + görsel kartlar (2026-10-06)
+- [WIP] V2 backend korunarak öğrenci akışını V1 kadar doğrudan hale getir: tek dokunuş video, cache'li thumbnail, Anki logosu, quiz ikonu, sade metinler.
+
 ## 1. Android Proje İskeleti & CI/CD Kurulumu
 - [x] Android Studio Gradle KTS, Versiyon Kataloğu, Manifest ve GitHub Actions CI/CD Altyapısı
 

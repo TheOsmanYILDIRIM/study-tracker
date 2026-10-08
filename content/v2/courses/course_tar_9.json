@@ -19,5 +19,14 @@
     "lesson_tar9_topic_11_orta_cag_devletlerinde_yonetim_ve_ordu",
     "lesson_tar9_orta_cag_medeniyetleri",
     "lesson_tar9_topic_13_orta_cag_medeniyet_havzalarinda_bilim_kultur_ve_sana"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tarih9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#653628",
+    "secondaryColor": "#A36F56",
+    "accentColor": "#D3AF8D",
+    "surfaceColor": "#2D1D18",
+    "textColor": "#FFFFFF"
+  }
 }

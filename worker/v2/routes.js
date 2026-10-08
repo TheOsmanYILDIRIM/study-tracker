@@ -92,6 +92,7 @@ export async function handleV2Request(request, env, inMemoryStore, familyCode, r
           subject: courseInput.subject,
           gradeLevel: courseInput.gradeLevel || 9,
           description: courseInput.description || '',
+          visual: courseInput.visual || null,
           orderKey: courseInput.orderKey
         });
         courseCount++;

@@ -233,6 +233,18 @@ enum class AttemptStatus {
 
 @Immutable
 @Serializable
+data class CourseVisual(
+    val coverUrl: String? = null,
+    val coverVariants: List<String> = emptyList(),
+    val primaryColor: String = "#4B7D83",
+    val secondaryColor: String = "#244366",
+    val accentColor: String = "#E86D24",
+    val surfaceColor: String = "#16252B",
+    val textColor: String = "#FFFFFF"
+)
+
+@Immutable
+@Serializable
 data class Course(
     val id: String,
     val familyCode: String,
@@ -240,6 +252,7 @@ data class Course(
     val subject: String,
     val gradeLevel: Int = 9,
     val description: String = "",
+    val visual: CourseVisual = CourseVisual(),
     val orderKey: Double = 1000.0,
     val isArchived: Boolean = false,
     val createdAt: Long = System.currentTimeMillis(),

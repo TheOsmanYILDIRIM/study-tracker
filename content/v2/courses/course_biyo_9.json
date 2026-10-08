@@ -21,5 +21,14 @@
     "lesson_biyo9_canlilarin_temel_bilesenleri",
     "lesson_biyo9_topic_14_uc_ust_alem_sistemi_ve_canli_gruplari",
     "lesson_biyo9_siniflandirma_ve_biyocesitlilik"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/biyoloji9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#4F5EA4",
+    "secondaryColor": "#96C3E1",
+    "accentColor": "#7FA44D",
+    "surfaceColor": "#17213A",
+    "textColor": "#FFFFFF"
+  }
 }

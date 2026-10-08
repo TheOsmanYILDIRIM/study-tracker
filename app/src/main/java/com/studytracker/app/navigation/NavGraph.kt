@@ -1,7 +1,9 @@
 package com.studytracker.app.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.animation.*
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
 import androidx.navigation.NavHostController
@@ -36,19 +38,31 @@ fun AppNavGraph(
         startDestination = startDestination,
         enterTransition = {
             fadeIn(animationSpec = tween(190, easing = FastOutSlowInEasing)) +
-                slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, tween(220, easing = FastOutSlowInEasing)) { it / 12 }
+                slideIntoContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Left,
+                    tween(220, easing = FastOutSlowInEasing)
+                ) { it / 12 }
         },
         exitTransition = {
             fadeOut(animationSpec = tween(140)) +
-                slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Left, tween(190)) { it / 16 }
+                slideOutOfContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Left,
+                    tween(190)
+                ) { it / 16 }
         },
         popEnterTransition = {
             fadeIn(animationSpec = tween(190, easing = FastOutSlowInEasing)) +
-                slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(220, easing = FastOutSlowInEasing)) { it / 12 }
+                slideIntoContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Right,
+                    tween(220, easing = FastOutSlowInEasing)
+                ) { it / 12 }
         },
         popExitTransition = {
             fadeOut(animationSpec = tween(140)) +
-                slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(190)) { it / 16 }
+                slideOutOfContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Right,
+                    tween(190)
+                ) { it / 16 }
         }
     ) {
         composable(Screen.RoleSelection.route) {
@@ -101,7 +115,7 @@ fun AppNavGraph(
                     navController.navigate(Screen.V2Lessons.createRoute(courseId))
                 },
                 onResumeLesson = { lessonId ->
-                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
+                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId, autoStart = true))
                 }
             )
         }
@@ -116,19 +130,39 @@ fun AppNavGraph(
                 onNavigateBack = {
                     navController.popBackStack()
                 },
-                onNavigateToLearningFlow = { lessonId ->
-                    navController.navigate(Screen.V2LearningFlow.createRoute(lessonId))
+                onNavigateToLearningFlow = { lessonId, itemId ->
+                    navController.navigate(
+                        Screen.V2LearningFlow.createRoute(
+                            lessonId = lessonId,
+                            autoStart = true,
+                            targetItemId = itemId
+                        )
+                    )
                 }
             )
         }
 
         composable(
             route = Screen.V2LearningFlow.route,
-            arguments = listOf(navArgument("lessonId") { type = NavType.StringType })
+            arguments = listOf(
+                navArgument("lessonId") { type = NavType.StringType },
+                navArgument("autoStart") {
+                    type = NavType.BoolType
+                    defaultValue = false
+                },
+                navArgument("targetItemId") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )
         ) { backStackEntry ->
             val lessonId = backStackEntry.arguments?.getString("lessonId") ?: ""
+            val autoStart = backStackEntry.arguments?.getBoolean("autoStart") ?: false
+            val targetItemId = backStackEntry.arguments?.getString("targetItemId").orEmpty()
             V2LearningFlowScreen(
                 lessonId = lessonId,
+                autoStartNext = autoStart,
+                autoStartItemId = targetItemId,
                 onNavigateBack = {
                     navController.popBackStack()
                 }

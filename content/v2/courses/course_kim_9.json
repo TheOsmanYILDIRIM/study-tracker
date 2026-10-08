@@ -23,5 +23,14 @@
     "lesson_kim9_topic_15_sivilar_ve_ozellikleri",
     "lesson_kim9_topic_16_nanoparcaciklar_ve_ekolojik_surdurulebilirlik",
     "lesson_kim9_maddenin_halleri_surdurulebilirlik"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/kimya9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#34411E",
+    "secondaryColor": "#849559",
+    "accentColor": "#F07B23",
+    "surfaceColor": "#202819",
+    "textColor": "#FFFFFF"
+  }
 }

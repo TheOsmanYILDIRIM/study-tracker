@@ -12,6 +12,18 @@
       "gradeLevel": 9,
       "orderKey": 1000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Matematik Müfredatı (Sayılar, Geometri, Algoritma, İstatistik ve Olasılık)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_kapak.webp",
+        "coverVariants": [
+          "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_1_kapak.webp",
+          "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/matematik9_2_kapak.webp"
+        ],
+        "primaryColor": "#4B7D83",
+        "secondaryColor": "#244366",
+        "accentColor": "#E86D24",
+        "surfaceColor": "#17292D",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_mat9_sayilar_uslu_koklu",
@@ -4409,6 +4421,15 @@
       "gradeLevel": 9,
       "orderKey": 2000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Fizik Müfredatı (Fizik Bilimi, Kuvvet-Hareket, Akışkanlar ve Enerji)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/fizik9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#005F8A",
+        "secondaryColor": "#16779B",
+        "accentColor": "#F47A20",
+        "surfaceColor": "#0B2533",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_fiz9_topic_01_fizik_bilimi",
@@ -7864,6 +7885,15 @@
       "gradeLevel": 9,
       "orderKey": 3000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Kimya Müfredatı (Kimya Bilimi, Atom, Etkileşimler ve Maddenin Halleri)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/kimya9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#34411E",
+        "secondaryColor": "#849559",
+        "accentColor": "#F07B23",
+        "surfaceColor": "#202819",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_kim9_kimya_bilimi_guvenlik",
@@ -11082,6 +11112,15 @@
       "gradeLevel": 9,
       "orderKey": 4000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Biyoloji Müfredatı (Yaşam, Temel Bileşenler, Hücre ve Biyoçeşitlilik)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/biyoloji9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#4F5EA4",
+        "secondaryColor": "#96C3E1",
+        "accentColor": "#7FA44D",
+        "surfaceColor": "#17213A",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_biyo9_yasam",
@@ -13408,6 +13447,15 @@
       "gradeLevel": 9,
       "orderKey": 5000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Tarih Müfredatı (Mehmet Celal ÖZYILDIZ Kanonik)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tarih9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#653628",
+        "secondaryColor": "#A36F56",
+        "accentColor": "#D3AF8D",
+        "surfaceColor": "#2D1D18",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_tar9_gecmisin_insasi",
@@ -16100,6 +16148,15 @@
       "gradeLevel": 9,
       "orderKey": 6000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Coğrafya Müfredatı (Doğal Sistemler, Harita, İklim, Nüfus ve Afetler)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/cografya9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#294177",
+        "secondaryColor": "#192C4F",
+        "accentColor": "#F47A20",
+        "surfaceColor": "#141D35",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_cog9_dogal_sistemler",
@@ -19585,6 +19642,15 @@
       "gradeLevel": 9,
       "orderKey": 7000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf İngilizce Müfredatı (Themes 1 - 8)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/ingilizce9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#07625E",
+        "secondaryColor": "#187F88",
+        "accentColor": "#D2AF63",
+        "surfaceColor": "#102B2A",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_ing9_topic_01_theme_1_school_life",
@@ -21245,6 +21311,15 @@
       "gradeLevel": 9,
       "orderKey": 8000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf Almanca Müfredatı (A1.1 Seviyesi)",
+      "visual": {
+        "coverUrl": null,
+        "coverVariants": [],
+        "primaryColor": "#5968A8",
+        "secondaryColor": "#303B69",
+        "accentColor": "#F0B44D",
+        "surfaceColor": "#1B2038",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_alm9_topic_01_begru_ung_verabschiedung_und_landeskunde",
@@ -23697,6 +23772,15 @@
       "gradeLevel": 9,
       "orderKey": 9000,
       "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf TDE Müfredatı (Sözün İnceliği, Anlam Arayışı, Yapı Taşları, Roman)",
+      "visual": {
+        "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tde9_kapak.webp",
+        "coverVariants": [],
+        "primaryColor": "#1E1F26",
+        "secondaryColor": "#454047",
+        "accentColor": "#0D8FA9",
+        "surfaceColor": "#15161B",
+        "textColor": "#FFFFFF"
+      },
       "lessons": [
         {
           "id": "lesson_tde9_metin_ve_anlam",
