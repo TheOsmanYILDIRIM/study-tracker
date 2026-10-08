@@ -159,3 +159,9 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 - MEB-cover-derived palettes are defined for Matematik, Fizik, Kimya, Biyoloji, Coğrafya, İngilizce, Tarih, TDE; Almanca currently has theme colors but no provided cover. Matematik keeps Book 1/Book 2 cover variants.
 - Never embed per-course covers/colors in Android drawables or subject-name conditionals. Updating a course cover/theme should be a content JSON operation.
 - Student course page remains flat: topic headings are separators and VIDEO/QUIZ/ANKI items are listed directly beneath them.
+
+## Canonical simplified V2 visual rules — 2026-10-08
+- Change V2 student UI on `feature/student-simple-flow-thumbnails` (not default `main`), unless the user explicitly selects another branch.
+- Preserve content-driven cached course covers, flat topics, one-tap VIDEO/QUIZ/ANKI opening and append-only attempts. Completed cards must be clearly gray without disabling navigation.
+- Approved launch animation is the original animated book-and-comet SVG/Android vector. Do not replace it with Solar Odyssey or image-generated splash assets without explicit request.
+- Current progress, test evidence and next action are in this branch's `SESSION_HANDOFF.md`.
