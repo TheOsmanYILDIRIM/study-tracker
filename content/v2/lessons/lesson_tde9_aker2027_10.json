@@ -1,0 +1,19 @@
+{
+  "id": "lesson_tde9_aker2027_10",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_10",
+  "title": "Aker Kartal — Sözcükte Anlam",
+  "orderKey": 1000,
+  "items": [
+    "item_tde9_aker2027_55",
+    "item_tde9_aker2027_56",
+    "item_tde9_aker2027_57"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

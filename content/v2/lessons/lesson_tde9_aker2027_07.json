@@ -1,0 +1,21 @@
+{
+  "id": "lesson_tde9_aker2027_07",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_07",
+  "title": "Aker Kartal — Fiiller ve Fiilimsiler",
+  "orderKey": 700,
+  "items": [
+    "item_tde9_aker2027_43",
+    "item_tde9_aker2027_44",
+    "item_tde9_aker2027_45",
+    "item_tde9_aker2027_46",
+    "item_tde9_aker2027_47"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

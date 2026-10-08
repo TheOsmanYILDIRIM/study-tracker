@@ -1,0 +1,17 @@
+{
+  "id": "lesson_tde9_aker2027_01",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_01",
+  "title": "Aker Kartal — Giriş",
+  "orderKey": 100,
+  "items": [
+    "item_tde9_aker2027_01"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "item_tde9_aker2027_52",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_aker2027_08",
+  "stableKey": "tde9_aker2027_video_52",
+  "itemType": "VIDEO",
+  "displayLabel": "8.5",
+  "orderKey": 5000,
+  "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 52",
+  "contentUrl": "https://www.youtube.com/watch?v=jpfvOAVpyGw",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Aker Kartal",
+    "teacher": "Aker Kartal",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "sourcePosition": 52,
+    "reviewStatus": "source_link_provided_outcome_mapping_pending",
+    "provenance": {
+      "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=jpfvOAVpyGw",
+      "transcriptLanguage": "tr",
+      "reviewStatus": "source_position_only",
+      "curriculumAlignment": "pending_manual_review"
+    }
+  }
+}

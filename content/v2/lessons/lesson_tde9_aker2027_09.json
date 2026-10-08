@@ -1,0 +1,18 @@
+{
+  "id": "lesson_tde9_aker2027_09",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_09",
+  "title": "Aker Kartal — Anlatım Bozukluğu ve Karma Dil Bilgisi",
+  "orderKey": 900,
+  "items": [
+    "item_tde9_aker2027_53",
+    "item_tde9_aker2027_54"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

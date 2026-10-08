@@ -1,0 +1,26 @@
+{
+  "id": "item_tde9_aker2027_18",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_aker2027_04",
+  "stableKey": "tde9_aker2027_video_18",
+  "itemType": "VIDEO",
+  "displayLabel": "4.2",
+  "orderKey": 2000,
+  "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 18",
+  "contentUrl": "https://www.youtube.com/watch?v=gZMekG0GA4g",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Aker Kartal",
+    "teacher": "Aker Kartal",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "sourcePosition": 18,
+    "reviewStatus": "source_link_provided_outcome_mapping_pending",
+    "provenance": {
+      "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=gZMekG0GA4g",
+      "transcriptLanguage": "tr",
+      "reviewStatus": "source_position_only",
+      "curriculumAlignment": "pending_manual_review"
+    }
+  }
+}

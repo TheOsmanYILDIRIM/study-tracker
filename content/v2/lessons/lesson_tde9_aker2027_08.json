@@ -1,0 +1,21 @@
+{
+  "id": "lesson_tde9_aker2027_08",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_08",
+  "title": "Aker Kartal — Cümle Bilgisi",
+  "orderKey": 800,
+  "items": [
+    "item_tde9_aker2027_48",
+    "item_tde9_aker2027_49",
+    "item_tde9_aker2027_50",
+    "item_tde9_aker2027_51",
+    "item_tde9_aker2027_52"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

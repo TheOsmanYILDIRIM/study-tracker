@@ -1,0 +1,26 @@
+{
+  "id": "item_tde9_aker2027_68",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_aker2027_12",
+  "stableKey": "tde9_aker2027_video_68",
+  "itemType": "VIDEO",
+  "displayLabel": "12.8",
+  "orderKey": 8000,
+  "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 68",
+  "contentUrl": "https://www.youtube.com/watch?v=uLJQwncQhMo",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Aker Kartal",
+    "teacher": "Aker Kartal",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "sourcePosition": 68,
+    "reviewStatus": "source_link_provided_outcome_mapping_pending",
+    "provenance": {
+      "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=uLJQwncQhMo",
+      "transcriptLanguage": "tr",
+      "reviewStatus": "source_position_only",
+      "curriculumAlignment": "pending_manual_review"
+    }
+  }
+}
