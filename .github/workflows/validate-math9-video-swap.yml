@@ -1,4 +1,5 @@
 name: Validate Mathematics video source swap
+# Re-run after explicitly documenting the shared Pisagor source.
 
 on:
   push:
