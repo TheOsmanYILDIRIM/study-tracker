@@ -21,6 +21,7 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.V2ProgressEngine
+import com.studytracker.core.domain.engine.V2ItemState
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.components.CourseCoverVisual
 import com.studytracker.core.ui.components.courseVisualColor
@@ -156,8 +157,10 @@ fun V2LessonsScreen(
                             prerequisites = allPrereqs,
                             attempts = attempts
                         )
-                        val lessonCompleted = lessonProgress.totalItems > 0 &&
-                            lessonProgress.completedItems >= lessonProgress.totalItems
+                        // Fade the topic header only when EVERY visible learning item is complete.
+                        // Incomplete/locked items, partial loads and empty topics stay vivid.
+                        val lessonCompleted = lessonProgress.itemsProgress.isNotEmpty() &&
+                            lessonProgress.itemsProgress.all { it.state == V2ItemState.COMPLETED }
 
                         item(key = "header_${lesson.id}") {
                             Column(
