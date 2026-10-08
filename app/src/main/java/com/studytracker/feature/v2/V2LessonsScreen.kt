@@ -156,6 +156,8 @@ fun V2LessonsScreen(
                             prerequisites = allPrereqs,
                             attempts = attempts
                         )
+                        val lessonCompleted = lessonProgress.totalItems > 0 &&
+                            lessonProgress.completedItems >= lessonProgress.totalItems
 
                         item(key = "header_${lesson.id}") {
                             Column(
@@ -172,14 +174,14 @@ fun V2LessonsScreen(
                                     Text(
                                         text = lesson.title,
                                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                        color = if (lesson.id == courseProgress?.resumeLesson?.id) coursePrimary else ZomoTextPrimary
+                                        color = if (lessonCompleted) Color(0xFFAEB0B9) else if (lesson.id == courseProgress?.resumeLesson?.id) coursePrimary else ZomoTextPrimary
                                     )
 
-                                    if (lessonProgress.completionPercentage == 100) {
+                                    if (lessonCompleted) {
                                         Icon(
                                             imageVector = Icons.Default.CheckCircle,
                                             contentDescription = "Bitti",
-                                            tint = ZenForestGreen,
+                                            tint = Color(0xFF969AA5),
                                             modifier = Modifier.size(20.dp)
                                         )
                                     } else if (lesson.id == courseProgress?.resumeLesson?.id) {
@@ -206,7 +208,7 @@ fun V2LessonsScreen(
                                         .fillMaxWidth()
                                         .height(4.dp)
                                         .clip(RoundedCornerShape(99.dp)),
-                                    color = if (lessonProgress.completionPercentage == 100) ZenForestGreen else coursePrimary,
+                                    color = if (lessonCompleted) Color(0xFF868A95) else coursePrimary,
                                     trackColor = Color.White.copy(alpha = 0.08f)
                                 )
                             }
