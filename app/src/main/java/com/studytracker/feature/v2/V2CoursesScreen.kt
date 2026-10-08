@@ -376,6 +376,8 @@ fun V2CoursesScreen(
                             )
                         }
 
+                        val courseCompleted = courseProgress.totalItems > 0 &&
+                            courseProgress.completedItems >= courseProgress.totalItems
                         val effectiveVisual = visualFor(course.id, course.visual)
                         val coursePrimary = courseVisualColor(effectiveVisual.primaryColor, ZenSkyCyan)
                         val courseSurface = courseVisualColor(effectiveVisual.surfaceColor, ZenNightSurface)
@@ -387,9 +389,11 @@ fun V2CoursesScreen(
                                 .clickable { onNavigateToCourse(course.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = courseSurface.copy(alpha = 0.94f)
+                                containerColor = if (courseCompleted) Color(0xFF34373F) else courseSurface.copy(alpha = 0.94f)
                             ),
-                            border = BorderStroke(1.2.dp, coursePrimary.copy(alpha = 0.65f))
+                            border = BorderStroke(1.2.dp,
+                                if (courseCompleted) Color(0xFF777B85) else coursePrimary.copy(alpha = 0.65f)
+                            )
                         ) {
                             Column(
                                 modifier = Modifier.padding(18.dp),
@@ -404,21 +408,30 @@ fun V2CoursesScreen(
                                         verticalAlignment = Alignment.CenterVertically,
                                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                                     ) {
-                                        CourseCoverVisual(
-                                            visual = effectiveVisual,
-                                            contentDescription = "${course.subject} ders kitabı kapağı",
-                                            modifier = Modifier.size(width = 62.dp, height = 84.dp)
-                                        )
+                                        Box(modifier = Modifier.size(width = 62.dp, height = 84.dp)) {
+                                            CourseCoverVisual(
+                                                visual = effectiveVisual,
+                                                contentDescription = "${course.subject} ders kitabı kapağı",
+                                                modifier = Modifier.fillMaxSize()
+                                            )
+                                            if (courseCompleted) {
+                                                Box(
+                                                    modifier = Modifier.fillMaxSize()
+                                                        .clip(RoundedCornerShape(10.dp))
+                                                        .background(Color(0xB04B4C54))
+                                                )
+                                            }
+                                        }
                                         Column(modifier = Modifier.weight(1f)) {
                                             Text(
                                                 text = course.title,
                                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                                color = ZomoTextPrimary
+                                                color = if (courseCompleted) Color(0xFFD1D2D7) else ZomoTextPrimary
                                             )
                                             Text(
                                                 text = "${course.gradeLevel}. Sınıf • ${course.subject}",
                                                 style = MaterialTheme.typography.bodySmall,
-                                                color = coursePrimary.copy(alpha = 0.92f)
+                                                color = if (courseCompleted) Color(0xFF9FA2AA) else coursePrimary.copy(alpha = 0.92f)
                                             )
                                         }
                                     }
@@ -434,7 +447,7 @@ fun V2CoursesScreen(
                                     Text(
                                         text = course.description,
                                         style = MaterialTheme.typography.bodySmall,
-                                        color = ZomoTextSecondary,
+                                        color = if (courseCompleted) Color(0xFF9FA2AA) else ZomoTextSecondary,
                                         maxLines = 2
                                     )
                                 }
@@ -475,11 +488,11 @@ fun V2CoursesScreen(
                                     Text(
                                         text = "${lessons.size} konu",
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                        color = ZenMoonGold
+                                        color = if (courseCompleted) Color(0xFFC1C3CA) else ZenMoonGold
                                     )
                                     Text(
                                         text = when {
-                                            courseProgress.resumeItem == null && courseProgress.totalItems > 0 -> "Bitti ✓"
+                                            courseCompleted -> "✓ Bitti"
                                             !isParent -> "Çalışmaları aç →"
                                             else -> "İçeriği aç →"
                                         },
