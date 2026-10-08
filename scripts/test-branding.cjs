@@ -33,6 +33,9 @@ assert(courses.includes('courseCompleted') && courses.includes('CourseCoverVisua
     'Completed course appearance must preserve its cached cover');
 assert(lessons.includes('lessonCompleted') && lessons.includes('LearningItemPuzzleCard('),
     'Simplified flat lesson list must preserve completion status');
+assert(lessons.includes('lessonProgress.itemsProgress.isNotEmpty()') &&
+    lessons.includes('lessonProgress.itemsProgress.all { it.state == V2ItemState.COMPLETED }'),
+    'Topic header must only fade after ALL active learning items are completed');
 assert(flow.includes('LearningItemVisual(') && flow.includes('Color(0xA43E4049)'),
     'Completed learning cards must keep thumbnail with gray overlay');
 assert(flow.includes('autoOpened') && flow.includes('Intent(Intent.ACTION_VIEW'),
