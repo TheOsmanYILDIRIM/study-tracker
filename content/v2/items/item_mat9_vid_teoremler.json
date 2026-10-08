@@ -31,7 +31,9 @@
       "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
       "playlistPosition": 37,
       "transcriptStatus": "user_supplied_transcript_available",
-      "quizRegroundingStatus": "pending"
+      "quizRegroundingStatus": "pending",
+      "sharedSource": true,
+      "sharedSourceReason": "Tek dik üçgen/Pisagor anlatımı iki mevcut konu kartında kullanılıyor; Tales ve Öklid kapsamı ayrıca doğrulanmalı."
     },
     "provider": "SORU ÇÖZÜM KANALI",
     "topic": "Eşlik ve Benzerlik Problemleri",
