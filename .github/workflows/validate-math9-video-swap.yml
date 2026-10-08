@@ -1,5 +1,5 @@
 name: Validate Mathematics video source swap
-# Re-run after preserving historical quiz provenance with pending regrounding.
+# Re-run after adding two partial interval matches, retaining uncovered math topics.
 
 on:
   push:
