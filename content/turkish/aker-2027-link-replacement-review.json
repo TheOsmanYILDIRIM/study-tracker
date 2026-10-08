@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "pending_verified_video_ids",
+  "courseId": "course_tde_9",
+  "source": "Aker Kartal TYT Türkçe 2027, 71 caption files",
+  "policy": {
+    "replaceOnlyVerifiedMatches": true,
+    "retainExistingVideoUntilVerified": true,
+    "preserveItemIdsAndStableKeys": true,
+    "preserveAttempts": true,
+    "compiledCatalogIsGenerated": true
+  },
+  "reviewedExamples": [
+    {
+      "itemId": "item_tde9_vid_soz_sanatlari",
+      "currentUrl": "https://www.youtube.com/watch?v=3bW8GrvE-fs",
+      "currentTeacher": "Deniz Hoca",
+      "decision": "retain",
+      "reason": "9th-grade literary devices lesson; no verified matching Aker URL or exact outcome coverage"
+    },
+    {
+      "itemId": "item_tde9_vid_sozcukte_anlam_isim_sifat",
+      "currentUrl": "https://www.youtube.com/watch?v=nwxahzEub9I",
+      "decision": "retain_pending_match",
+      "reason": "Topic similarity alone is insufficient; requires caption timestamps and verified Aker YouTube video ID"
+    }
+  ],
+  "pending": [
+    "resolve 71 source video IDs",
+    "timestamp-level outcome mapping",
+    "review remaining 14 TDE lessons and video items",
+    "validate non-destructive migration"
+  ],
+  "appliedUrlReplacements": 0
+}

@@ -1,0 +1,26 @@
+{
+  "id": "item_tde9_aker2027_08",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_aker2027_02",
+  "stableKey": "tde9_aker2027_video_08",
+  "itemType": "VIDEO",
+  "displayLabel": "2.7",
+  "orderKey": 7000,
+  "title": "Aker Kartal 2027 — Ses Bilgisi · Video 8",
+  "contentUrl": "https://www.youtube.com/watch?v=1EHh06Rm6j0",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Aker Kartal",
+    "teacher": "Aker Kartal",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "sourcePosition": 8,
+    "reviewStatus": "source_link_provided_outcome_mapping_pending",
+    "provenance": {
+      "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=1EHh06Rm6j0",
+      "transcriptLanguage": "tr",
+      "reviewStatus": "source_position_only",
+      "curriculumAlignment": "pending_manual_review"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "item_tde9_aker2027_43",
+  "courseId": "course_tde_9",
+  "lessonId": "lesson_tde9_aker2027_07",
+  "stableKey": "tde9_aker2027_video_43",
+  "itemType": "VIDEO",
+  "displayLabel": "7.1",
+  "orderKey": 1000,
+  "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 43",
+  "contentUrl": "https://www.youtube.com/watch?v=rsoA3ggjhkU",
+  "publishingStatus": "active",
+  "payload": {
+    "provider": "Aker Kartal",
+    "teacher": "Aker Kartal",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "sourcePosition": 43,
+    "reviewStatus": "source_link_provided_outcome_mapping_pending",
+    "provenance": {
+      "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=rsoA3ggjhkU",
+      "transcriptLanguage": "tr",
+      "reviewStatus": "source_position_only",
+      "curriculumAlignment": "pending_manual_review"
+    }
+  }
+}

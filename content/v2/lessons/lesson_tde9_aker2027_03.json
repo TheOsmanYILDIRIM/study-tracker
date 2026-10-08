@@ -1,0 +1,24 @@
+{
+  "id": "lesson_tde9_aker2027_03",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_03",
+  "title": "Aker Kartal — Yazım Kuralları",
+  "orderKey": 30,
+  "items": [
+    "item_tde9_aker2027_09",
+    "item_tde9_aker2027_10",
+    "item_tde9_aker2027_11",
+    "item_tde9_aker2027_12",
+    "item_tde9_aker2027_13",
+    "item_tde9_aker2027_14",
+    "item_tde9_aker2027_15",
+    "item_tde9_aker2027_16"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

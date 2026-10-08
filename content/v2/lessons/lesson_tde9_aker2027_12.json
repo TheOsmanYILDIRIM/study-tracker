@@ -1,0 +1,27 @@
+{
+  "id": "lesson_tde9_aker2027_12",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_12",
+  "title": "Aker Kartal — Paragrafta Anlam",
+  "orderKey": 120,
+  "items": [
+    "item_tde9_aker2027_61",
+    "item_tde9_aker2027_62",
+    "item_tde9_aker2027_63",
+    "item_tde9_aker2027_64",
+    "item_tde9_aker2027_65",
+    "item_tde9_aker2027_66",
+    "item_tde9_aker2027_67",
+    "item_tde9_aker2027_68",
+    "item_tde9_aker2027_69",
+    "item_tde9_aker2027_70",
+    "item_tde9_aker2027_71"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

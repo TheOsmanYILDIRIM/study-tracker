@@ -1,0 +1,27 @@
+{
+  "id": "lesson_tde9_aker2027_05",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_05",
+  "title": "Aker Kartal — Sözcükte Yapı",
+  "orderKey": 50,
+  "items": [
+    "item_tde9_aker2027_23",
+    "item_tde9_aker2027_24",
+    "item_tde9_aker2027_25",
+    "item_tde9_aker2027_26",
+    "item_tde9_aker2027_27",
+    "item_tde9_aker2027_28",
+    "item_tde9_aker2027_29",
+    "item_tde9_aker2027_30",
+    "item_tde9_aker2027_31",
+    "item_tde9_aker2027_32",
+    "item_tde9_aker2027_33"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

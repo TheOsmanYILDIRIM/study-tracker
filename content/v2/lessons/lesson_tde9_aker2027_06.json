@@ -1,0 +1,25 @@
+{
+  "id": "lesson_tde9_aker2027_06",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_06",
+  "title": "Aker Kartal — Sözcük Türleri",
+  "orderKey": 60,
+  "items": [
+    "item_tde9_aker2027_34",
+    "item_tde9_aker2027_35",
+    "item_tde9_aker2027_36",
+    "item_tde9_aker2027_37",
+    "item_tde9_aker2027_38",
+    "item_tde9_aker2027_39",
+    "item_tde9_aker2027_40",
+    "item_tde9_aker2027_41",
+    "item_tde9_aker2027_42"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

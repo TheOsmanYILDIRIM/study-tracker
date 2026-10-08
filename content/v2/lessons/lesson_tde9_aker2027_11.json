@@ -1,0 +1,19 @@
+{
+  "id": "lesson_tde9_aker2027_11",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_11",
+  "title": "Aker Kartal — Cümlede Anlam",
+  "orderKey": 110,
+  "items": [
+    "item_tde9_aker2027_58",
+    "item_tde9_aker2027_59",
+    "item_tde9_aker2027_60"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

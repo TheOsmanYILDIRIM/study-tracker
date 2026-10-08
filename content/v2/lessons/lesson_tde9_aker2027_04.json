@@ -1,0 +1,22 @@
+{
+  "id": "lesson_tde9_aker2027_04",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_04",
+  "title": "Aker Kartal — Noktalama İşaretleri",
+  "orderKey": 40,
+  "items": [
+    "item_tde9_aker2027_17",
+    "item_tde9_aker2027_18",
+    "item_tde9_aker2027_19",
+    "item_tde9_aker2027_20",
+    "item_tde9_aker2027_21",
+    "item_tde9_aker2027_22"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}

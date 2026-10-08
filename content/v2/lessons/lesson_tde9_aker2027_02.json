@@ -1,0 +1,23 @@
+{
+  "id": "lesson_tde9_aker2027_02",
+  "courseId": "course_tde_9",
+  "stableKey": "lesson_tde9_aker2027_02",
+  "title": "Aker Kartal — Ses Bilgisi",
+  "orderKey": 20,
+  "items": [
+    "item_tde9_aker2027_02",
+    "item_tde9_aker2027_03",
+    "item_tde9_aker2027_04",
+    "item_tde9_aker2027_05",
+    "item_tde9_aker2027_06",
+    "item_tde9_aker2027_07",
+    "item_tde9_aker2027_08"
+  ],
+  "sourceMeta": {
+    "source": "TYT Türkçe 2027",
+    "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+    "curriculumAlignment": "pending_manual_review",
+    "pacing": "topic_based_not_weekly",
+    "mastery": "requires_assessment_not_video_only"
+  }
+}
