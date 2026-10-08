@@ -18,6 +18,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.room.withTransaction
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -38,6 +39,8 @@ import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryIm
 import com.studytracker.core.domain.engine.*
 import com.studytracker.core.domain.model.*
 import com.studytracker.core.ui.components.ZenParallaxBackground
+import com.studytracker.core.ui.components.LearningItemVisual
+import com.studytracker.core.ui.components.launchAnkiDroid
 import com.studytracker.core.data.package_exchange.StudyPackageExchangeManager
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
@@ -50,6 +53,8 @@ import java.util.UUID
 @Composable
 fun V2LearningFlowScreen(
     lessonId: String,
+    autoStartNext: Boolean = false,
+    autoStartItemId: String = "",
     onNavigateBack: () -> Unit
 ) {
     val context = LocalContext.current
@@ -182,6 +187,46 @@ fun V2LearningFlowScreen(
         )
     }
 
+    var autoStartHandled by rememberSaveable(lessonId) { mutableStateOf(false) }
+
+    LaunchedEffect(autoStartNext, autoStartItemId, lessonProgress.nextUnfinishedItem?.id, isParent) {
+        if (!autoStartNext || autoStartHandled || isParent) return@LaunchedEffect
+
+        val item = if (autoStartItemId.isNotBlank()) {
+            lessonProgress.itemsProgress.firstOrNull { it.item.id == autoStartItemId }?.item
+        } else {
+            lessonProgress.nextUnfinishedItem
+        } ?: return@LaunchedEffect
+        val progress = lessonProgress.itemsProgress.firstOrNull { it.item.id == item.id }
+            ?: return@LaunchedEffect
+        if (progress.state != V2ItemState.AVAILABLE) return@LaunchedEffect
+
+        autoStartHandled = true
+        when (item.itemType) {
+            ItemType.VIDEO -> {
+                selectedVideoItem = item
+                val version = item.currentVersion
+                val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                val url = version?.contentUrl ?: payload.url
+                if (url.isNotBlank()) {
+                    try {
+                        context.startActivity(
+                            Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
+                                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                            }
+                        )
+                    } catch (_: Exception) {
+                        Toast.makeText(context, "Video açılamadı.", Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    Toast.makeText(context, "Bu video için bağlantı bulunamadı.", Toast.LENGTH_SHORT).show()
+                }
+            }
+            ItemType.QUIZ -> selectedQuizItem = item
+            ItemType.ANKI -> selectedAnkiItem = item
+        }
+    }
+
     Box(modifier = Modifier.fillMaxSize()) {
         ZenParallaxBackground()
 
@@ -269,7 +314,27 @@ fun V2LearningFlowScreen(
                                     }
                                     else -> {
                                         when (item.itemType) {
-                                            ItemType.VIDEO -> selectedVideoItem = item
+                                            ItemType.VIDEO -> {
+                                                selectedVideoItem = item
+                                                if (!isParent) {
+                                                    val version = item.currentVersion
+                                                    val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                                                    val url = version?.contentUrl ?: payload.url
+                                                    if (url.isNotBlank()) {
+                                                        try {
+                                                            context.startActivity(
+                                                                Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
+                                                                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                                                                }
+                                                            )
+                                                        } catch (_: Exception) {
+                                                            Toast.makeText(context, "Video açılamadı.", Toast.LENGTH_SHORT).show()
+                                                        }
+                                                    } else {
+                                                        Toast.makeText(context, "Bu video için bağlantı bulunamadı.", Toast.LENGTH_SHORT).show()
+                                                    }
+                                                }
+                                            }
                                             ItemType.QUIZ -> selectedQuizItem = item
                                             ItemType.ANKI -> selectedAnkiItem = item
                                         }
@@ -386,6 +451,7 @@ fun V2LearningFlowScreen(
             VideoItemActionDialog(
                 item = item,
                 videoUrl = videoUrl,
+                autoOpened = !isParent,
                 onDismiss = { selectedVideoItem = null },
                 onComplete = { durationSeconds ->
                     scope.launch {
@@ -623,7 +689,7 @@ private fun ParentV2ItemEditorDialog(
     )
 }
 @Composable
-private fun LearningItemPuzzleCard(
+internal fun LearningItemPuzzleCard(
     itemProgress: V2ItemProgress,
     isNextItem: Boolean,
     isParent: Boolean,
@@ -633,14 +699,14 @@ private fun LearningItemPuzzleCard(
     val item = itemProgress.item
     val (typeIcon, typeColor, typeName) = when (item.itemType) {
         ItemType.VIDEO -> Triple(Icons.Default.PlayCircle, ZenSkyCyan, "Video")
-        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenMoonGold, "Quiz")
+        ItemType.QUIZ -> Triple(Icons.Default.Quiz, ZenMoonGold, "Test")
         ItemType.ANKI -> Triple(Icons.Default.Layers, ZenLavender, "Anki Kartları")
     }
 
     val completed = itemProgress.state == V2ItemState.COMPLETED
-    val muted = Color(0xFF92959F)
+    val completedGray = Color(0xFF969AA5)
     val (cardBorderColor, cardAlpha) = when (itemProgress.state) {
-        V2ItemState.COMPLETED -> Pair(muted.copy(alpha = 0.55f), 0.95f)
+        V2ItemState.COMPLETED -> Pair(completedGray.copy(alpha = 0.65f), 0.97f)
         V2ItemState.AVAILABLE -> if (isNextItem) Pair(ZenMoonGold, 0.95f) else Pair(ZenNightBorder, 0.85f)
         V2ItemState.LOCKED_BY_PREREQUISITE -> Pair(ZenNightBorder.copy(alpha = 0.3f), 0.6f)
         V2ItemState.ARCHIVED -> Pair(ZenNightBorder.copy(alpha = 0.2f), 0.4f)
@@ -652,7 +718,9 @@ private fun LearningItemPuzzleCard(
             .clip(RoundedCornerShape(16.dp))
             .clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = if (completed) Color(0xFF34373F) else ZenNightSurface.copy(alpha = cardAlpha)),
+        colors = CardDefaults.cardColors(
+            containerColor = if (completed) Color(0xFF34373F) else ZenNightSurface.copy(alpha = cardAlpha)
+        ),
         border = BorderStroke(if (isNextItem) 1.5.dp else 1.dp, cardBorderColor)
     ) {
         Row(
@@ -662,27 +730,64 @@ private fun LearningItemPuzzleCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Type Icon / Badge
-            Box(
-                modifier = Modifier
-                    .size(44.dp)
-                    .background((if (completed) muted else typeColor).copy(alpha = 0.15f), CircleShape),
-                contentAlignment = Alignment.Center
+            // Keep the cached thumbnail and one-tap action; mute it visually when complete.
+            val version = item.currentVersion
+            val videoUrl = if (item.itemType == ItemType.VIDEO) {
+                version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+            } else null
+
+            if (itemProgress.state == V2ItemState.ARCHIVED ||
+                itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE
             ) {
-                Icon(
-                    imageVector = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> Icons.Default.CheckCircle
-                        V2ItemState.LOCKED_BY_PREREQUISITE -> Icons.Default.Lock
-                        else -> typeIcon
-                    },
-                    contentDescription = null,
-                    tint = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> muted
-                        V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
-                        else -> typeColor
-                    },
-                    modifier = Modifier.size(24.dp)
-                )
+                Box(
+                    modifier = Modifier
+                        .size(width = 72.dp, height = 48.dp)
+                        .background(typeColor.copy(alpha = 0.10f), RoundedCornerShape(12.dp)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
+                            Icons.Default.Lock
+                        } else {
+                            typeIcon
+                        },
+                        contentDescription = null,
+                        tint = Color.Gray,
+                        modifier = Modifier.size(26.dp)
+                    )
+                }
+            } else {
+                Box(modifier = Modifier.size(width = 72.dp, height = 48.dp)) {
+                    LearningItemVisual(
+                        itemType = item.itemType,
+                        videoUrl = videoUrl,
+                        modifier = Modifier.fillMaxSize()
+                    )
+                    if (completed) {
+                        Box(
+                            modifier = Modifier.fillMaxSize()
+                                .clip(RoundedCornerShape(12.dp))
+                                .background(Color(0xA43E4049))
+                        )
+                    }
+                    if (completed) {
+                        Box(
+                            modifier = Modifier
+                                .align(Alignment.TopEnd)
+                                .padding(3.dp)
+                                .size(20.dp)
+                                .background(Color(0xFF868A95), CircleShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Check,
+                                contentDescription = "Tamamlandı",
+                                tint = Color.White,
+                                modifier = Modifier.size(14.dp)
+                            )
+                        }
+                    }
+                }
             }
 
             // Title & Details
@@ -694,20 +799,20 @@ private fun LearningItemPuzzleCard(
                     Text(
                         text = item.displayLabel,
                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                        color = if (completed) Color(0xFFD0D1D6) else ZomoTextPrimary
+                        color = if (completed) Color(0xFFD1D2D7) else ZomoTextPrimary
                     )
 
                     // Type tag
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(6.dp))
-                            .background((if (completed) muted else typeColor).copy(alpha = 0.15f))
+                            .background((if (completed) completedGray else typeColor).copy(alpha = 0.15f))
                             .padding(horizontal = 6.dp, vertical = 2.dp)
                     ) {
                         Text(
                             text = typeName,
                             style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.SemiBold),
-                            color = if (completed) muted else typeColor
+                            color = if (completed) completedGray else typeColor
                         )
                     }
 
@@ -719,7 +824,7 @@ private fun LearningItemPuzzleCard(
                                 .padding(horizontal = 6.dp, vertical = 2.dp)
                         ) {
                             Text(
-                                text = "Sıradaki Adım",
+                                text = "BURADASIN",
                                 style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.Bold),
                                 color = ZenMoonGold
                             )
@@ -730,7 +835,7 @@ private fun LearningItemPuzzleCard(
                 Text(
                     text = item.currentVersion?.title ?: item.displayLabel,
                     style = MaterialTheme.typography.bodySmall,
-                    color = if (completed) muted else ZomoTextSecondary,
+                    color = if (completed) completedGray else ZomoTextSecondary,
                     maxLines = 1
                 )
 
@@ -739,11 +844,11 @@ private fun LearningItemPuzzleCard(
                     Text(
                         text = "✓ Tamamlandı$scoreText",
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                        color = Color(0xFFD0D1D6)
+                        color = Color(0xFFD1D2D7)
                     )
                 } else if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
                     Text(
-                        text = "🔒 Ön koşul kilitli (Detay için dokun)",
+                        text = "Önce bir önceki adımı tamamla",
                         style = MaterialTheme.typography.labelSmall,
                         color = ZenRoseCoral
                     )
@@ -774,6 +879,7 @@ private fun LearningItemPuzzleCard(
 private fun VideoItemActionDialog(
     item: LearningItem,
     videoUrl: String,
+    autoOpened: Boolean,
     onDismiss: () -> Unit,
     onComplete: (durationSeconds: Int) -> Unit
 ) {
@@ -816,7 +922,7 @@ private fun VideoItemActionDialog(
                     }
                 }
 
-                if (videoUrl.isNotBlank()) {
+                if (!autoOpened && videoUrl.isNotBlank()) {
                     Button(
                         onClick = {
                             try {
@@ -839,7 +945,7 @@ private fun VideoItemActionDialog(
                 }
 
                 Text(
-                    text = "Videoyu izledikten sonra 'Tamamladım' butonuna dokunarak ilerlemeni kaydedebilirsin.",
+                    text = if (autoOpened) "Videoyu bitirdin mi?" else "Videoyu izledikten sonra tamamladığını işaretleyebilirsin.",
                     style = MaterialTheme.typography.bodySmall,
                     color = ZomoTextSecondary
                 )
@@ -853,7 +959,7 @@ private fun VideoItemActionDialog(
                         shape = RoundedCornerShape(12.dp),
                         modifier = Modifier.weight(1f)
                     ) {
-                        Text("Kapat", color = ZomoTextSecondary)
+                        Text(if (autoOpened) "Henüz değil" else "Kapat", color = ZomoTextSecondary)
                     }
 
                     Button(
@@ -867,7 +973,7 @@ private fun VideoItemActionDialog(
                     ) {
                         Icon(Icons.Default.Check, contentDescription = null, tint = Color.Black)
                         Spacer(modifier = Modifier.width(6.dp))
-                        Text("Tamamladım", color = Color.Black, fontWeight = FontWeight.Bold)
+                        Text(if (autoOpened) "Evet, bitirdim" else "Tamamladım", color = Color.Black, fontWeight = FontWeight.Bold)
                     }
                 }
             }
@@ -1097,30 +1203,30 @@ private fun AnkiItemActionDialog(
 
                 Button(
                     onClick = {
-                        val launched = try {
-                            val pkg = payload.packageUri ?: "com.ichi2.anki"
-                            val pm = context.packageManager
-                            val intent = pm.getLaunchIntentForPackage(pkg)
-                            if (intent != null) {
-                                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                                context.startActivity(intent)
-                                true
-                            } else false
-                        } catch (_: Exception) {
-                            false
-                        }
+                        val result = launchAnkiDroid(
+                            context = context,
+                            preferredPackage = payload.packageUri
+                        )
 
-                        if (!launched && !payload.webUrl.isNullOrBlank()) {
+                        if (!result.launched && !payload.webUrl.isNullOrBlank()) {
                             try {
                                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(payload.webUrl)).apply {
                                     flags = Intent.FLAG_ACTIVITY_NEW_TASK
                                 }
                                 context.startActivity(intent)
                             } catch (_: Exception) {
-                                Toast.makeText(context, "Anki veya web bağlantısı açılamadı.", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(
+                                    context,
+                                    "AnkiDroid açılamadı ve web bağlantısı da çalışmadı.",
+                                    Toast.LENGTH_SHORT
+                                ).show()
                             }
-                        } else if (!launched) {
-                            Toast.makeText(context, "AnkiDroid cihazınızda bulunamadı.", Toast.LENGTH_SHORT).show()
+                        } else if (!result.launched) {
+                            Toast.makeText(
+                                context,
+                                "AnkiDroid bulunamadı. Play Store, F-Droid veya GitHub sürümünü kontrol et.",
+                                Toast.LENGTH_SHORT
+                            ).show()
                         }
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = ZenLavender),
