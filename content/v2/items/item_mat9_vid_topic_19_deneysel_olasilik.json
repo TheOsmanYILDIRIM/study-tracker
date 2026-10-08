@@ -7,10 +7,10 @@
   "displayLabel": "19.1",
   "orderKey": 1000,
   "title": "Deneysel Olasılık",
-  "contentUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+  "contentUrl": "https://www.youtube.com/watch?v=vo7JI1Dn3fo",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "İlyas Güneş",
     "topic": "Deneysel Olasılık",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,17 +23,21 @@
         "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık",
         "Deneysel Olasılık • Teorik Olasılık"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": 8.4,
       "videoCandidateTitle": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
       "fingerprint": "17430c9eb80bece0",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=vo7JI1Dn3fo",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.tr.vtt",
-      "transcriptFingerprint": "b41eea550f92d1fb"
-    }
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 59,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
