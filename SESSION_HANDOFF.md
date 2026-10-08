@@ -31,3 +31,11 @@ Updated: 2026-10-08 — main branch
 2. Check cold launch and resume behavior: avoid genuine empty-state flicker if Room data arrives after the ~1.1 s intro; prefer local cache/skeleton over artificial waits.
 3. Stress-test KV attempt concurrency/partial failures and mobile-network reconnect for progress safety. Do not overwrite student history.
 4. Keep brand icon SVG and Android VectorDrawable path shapes synchronized whenever editing; the CI validator enforces this.
+
+## 2026-10-08 — Solar Odyssey vector splash (current)
+- User explicitly requires CODED SVG rather than image-generation output. Keep the launcher SVG `assets/brand/studytracker-icon.svg` and matching Android VectorDrawable intact.
+- New motion source: `assets/brand/studytracker-solar-odyssey.svg` (CSS keyframe animation, sunburst, comet, orbits, Jupiter/Saturn/Earth/Mars, native vector paths, no embedded bitmap).
+- Android counterpart: `feature/launch/SolarOdysseyScene.kt` draws mathematical orbital motion, planet gradients, Saturn rings, twinkling sky and sun with native Compose Canvas; `StudyLaunchOverlay.kt` renders this behind the existing vector icon, ~1.5s entrance then normal 260ms fade out. No WebView or image load. Real NavHost remains composed beneath it.
+- `scripts/test-branding.cjs` extended to enforce animation source features, existing 23-path logo parity, and native scene wiring.
+- Source read-back checks passed (8/8: matching 23 launcher shapes, CSS keyframes, scene objects, gradients, no raster, native planet primitives, Compose integration, test wiring). This is **static** validation, not Android compilation or device QA.
+- Next: inspect GitHub Actions build for latest commit, resolve any compiler error and inspect actual FPS/perceived loading on small Android screens. Do not claim APK tested unless CI artifacts confirm.
