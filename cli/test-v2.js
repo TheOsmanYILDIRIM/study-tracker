@@ -845,8 +845,8 @@ async function runCliTests() {
     const modularVal = validateModularTree(path.resolve(__dirname, '../content/v2'));
     assert.strictEqual(modularVal.valid, true, 'Modular content tree must be valid');
     assert.strictEqual(modularVal.stats.courseCount, 9, 'Must have 9 modular courses');
-    assert.strictEqual(modularVal.stats.lessonCount, 141, 'Must have 141 modular lessons');
-    assert.strictEqual(modularVal.stats.itemCount, 379, 'Must have 379 modular items');
+    assert.strictEqual(modularVal.stats.lessonCount, 153, 'Must have 141 modular lessons');
+    assert.strictEqual(modularVal.stats.itemCount, 450, 'Must have 379 modular items');
     assert.strictEqual(modularVal.stats.microQuizCount, 165, 'Must have 165 transcript-grounded micro-quizzes');
     console.log('   ✅ Modular content source tree validation verified (9 courses, 153 lessons, 450 items, 165 micro-quizzes).');
 
