@@ -1,6 +1,12 @@
 name: Import reviewed LiseDers playlist
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-liseders-playlist.yml'
+      - 'scripts/import-liseders-playlist.py'
+      - 'content/v2/playlist-imports/*.approvals.json'
   workflow_dispatch:
     inputs:
       publish_approved:
