@@ -69,7 +69,7 @@ fun V2LessonsScreen(
 
     LaunchedEffect(resumeLessonId, lessons) {
         val index = lessons.indexOfFirst { it.id == resumeLessonId }
-        if (index >= 0) listState.animateScrollToItem(index)
+        if (index >= 0) listState.scrollToItem(index)
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
@@ -132,7 +132,7 @@ fun V2LessonsScreen(
                 ) {
                     items(lessons, key = { it.id }) { lesson ->
                         val isResumeLesson = lesson.id == resumeLessonId
-                        val items by curriculumRepo.getLearningItemsForLesson(lesson.id).collectAsState(initial = emptyList())
+                        val items = remember(allItems, lesson.id) { allItems.filter { it.lessonId == lesson.id } }
                         val lessonProgress = remember(items, allPrereqs, attempts) {
                             V2ProgressEngine.evaluateLessonProgress(
                                 lesson = lesson,
