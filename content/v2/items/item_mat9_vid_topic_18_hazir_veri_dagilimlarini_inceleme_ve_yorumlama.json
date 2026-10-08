@@ -7,10 +7,10 @@
   "displayLabel": "18.1",
   "orderKey": 1000,
   "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
-  "contentUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+  "contentUrl": "https://www.youtube.com/watch?v=ydelsBSmF40",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "İlyas Güneş",
     "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21,18 +21,22 @@
       "sourceTopic": [
         "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "225e5725c7008897",
       "schemaVersion": "v2",
       "reviewedOverride": true,
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ydelsBSmF40",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.tr.vtt",
-      "transcriptFingerprint": "ee1923b0c53d5dbb"
-    }
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 54,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
