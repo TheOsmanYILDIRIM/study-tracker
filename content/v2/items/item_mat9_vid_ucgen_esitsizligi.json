@@ -7,7 +7,7 @@
   "displayLabel": "4.2",
   "orderKey": 2000,
   "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
-  "contentUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+  "contentUrl": "https://www.youtube.com/watch?v=BVc7pkpAx7E",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,16 +15,20 @@
       "sourceSection": "Üçgen Eşitsizliği",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "8d096350f5994c96",
       "reviewedOverride": true,
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=BVc7pkpAx7E",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.tr.vtt",
-      "transcriptFingerprint": "ec3f8b6edc092099"
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 31,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik"
+    "provider": "SORU ÇÖZÜM KANALI",
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
