@@ -9,7 +9,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.saveable.rememberSaveable
+import com.studytracker.feature.launch.StudyLaunchOverlay
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.AlertDialog
@@ -43,12 +50,26 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             StudyTrackerTheme {
+                // Compose the real navigation underneath the vector launch animation.
+                // Only cold, ordinary launches animate; shared-file imports show consent immediately.
+                var showLaunch by rememberSaveable {
+                    mutableStateOf(savedInstanceState == null && pendingImportIntent == null)
+                }
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val navController = rememberNavController()
-                    AppNavGraph(navController = navController)
+                    Box(modifier = Modifier.fillMaxSize()) {
+                        val navController = rememberNavController()
+                        AppNavGraph(navController = navController)
+                        AnimatedVisibility(
+                            visible = showLaunch,
+                            enter = EnterTransition.None,
+                            exit = fadeOut(animationSpec = tween(260))
+                        ) {
+                            StudyLaunchOverlay(onFinished = { showLaunch = false })
+                        }
+                    }
                 }
 
                 pendingImportIntent?.let { pending ->
