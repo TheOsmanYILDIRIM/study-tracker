@@ -60,3 +60,10 @@ Updated: 2026-10-08 | Canonical development target: **main**
 - Video #24 `GLE_AONYjkg` has clear interval notation at 02:28–05:20 and set intersection/union exercises at 33:30–36:00. Updated existing `araliklar_gosterim` and `aralik_farki` VIDEO URLs to this source, preserving IDs and old quiz provenance; flagged **partial** coverage and review-required. Shared video metadata added to all 3 related cards.
 - Remaining 3 old video sources retained: `cebirsel_ispat`, `sayi_kumeleri`, `topic_04_gercek_sayilarin_islem_ozelliklerini_cebirsel_ifade_`. Their outcomes need a different teacher/source if full replacement is required.
 - CI now expects 26 changed and 3 retained; CLI expects 30 explicit exceptions (29 shared-source + history override). Run #37842470154 completed source coverage and CLI compilation steps successfully, catalog commit was still running when checked. Do not claim live KV rollout.
+
+## 2026-10-08 — PR merge and post-merge Actions
+- Merged the only open PR #8 `docs/aker-turkce-v2-contract` into `main`, merge commit `e0951ff44cab207c708bde8727f79c707d90e812`. Despite PR description, it added 71 Turkish VIDEO items, 12 lessons and changed `course_tde_9`.
+- Updated hard-coded V2 CLI count assertions from 141 lessons/379 items/174 videos to **153 lessons/450 items/245 videos**, preserving 9 courses, 200 quizzes and 5 Anki. Existing Math 9 mappings remain 26 new links/3 old sources.
+- Triggered GitHub Actions on merged `main` via scoped workflow commit. Post-merge validation [run #37842843873](https://github.com/TheOsmanYILDIRIM/study-tracker/actions/runs/37842843873) **success**: Math source coverage, V2 compile, CLI tests. Generated V2 catalog committed to `main` as `57b3982cc2`.
+- APK Build & Release [run #37842843899](https://github.com/TheOsmanYILDIRIM/study-tracker/actions/runs/37842843899) was **in_progress** at last check; verify final conclusion and release artifact before claiming build success.
+- Live Cloudflare KV seed/diff/apply and device rollout still not performed. Historical student progress unchanged by GitHub merge.
