@@ -7,6 +7,7 @@
 import fs from 'fs';
 import path from 'path';
 import worker from './worker.js';
+import { createV2Storage } from './v2/storage.js';
 
 async function mockFetch(method, path, body = null, headers = {}) {
   const url = `https://studytracker-sync.workers.dev${path}`;
@@ -46,6 +47,19 @@ async function runV2Tests() {
   assert(!storageContent.includes('createD1Storage'), 'V2 runtime must not contain a D1 storage fallback');
   assert(storageContent.includes('measurement:attempt:'), 'attempts must use dedicated append-only measurement keys');
   console.log('   ✅ canonical KV storage contract verified.\n');
+
+  // Regression: malformed KV list must not be silently replaced by an empty list.
+  const corruptStore = new Map([['v2:ST-CORRUPT:catalog:courses', { unexpected: 'shape' }]]);
+  const safeStorage = createV2Storage({}, corruptStore);
+  let corruptReadRejected = false;
+  try {
+    await safeStorage.getCourses('ST-CORRUPT');
+  } catch (error) {
+    corruptReadRejected = error instanceof TypeError && error.message.includes('Corrupt KV list');
+  }
+  assert(corruptReadRejected, 'Malformed list records must fail explicitly');
+  assert(corruptStore.get('v2:ST-CORRUPT:catalog:courses').unexpected === 'shape', 'Malformed list must remain intact');
+  console.log('   ✅ malformed KV records rejected without destructive fallback.\\n');
 
   // Setup Test Family
   const pair = await mockFetch('POST', '/api/pair', { familyCode: 'ST-V2TX-2026-TEST-9901' });
