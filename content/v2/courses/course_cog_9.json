@@ -25,5 +25,14 @@
     "lesson_cog9_beseri_sistemler_ve_afetler",
     "lesson_cog9_topic_18_butuncul_afet_yonetimi",
     "lesson_cog9_topic_19_bolge_ve_bolge_siniri"
-  ]
+  ],
+  "visual": {
+    "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/cografya9_kapak.webp",
+    "coverVariants": [],
+    "primaryColor": "#294177",
+    "secondaryColor": "#192C4F",
+    "accentColor": "#F47A20",
+    "surfaceColor": "#141D35",
+    "textColor": "#FFFFFF"
+  }
 }
