@@ -38,33 +38,33 @@
               "displayLabel": "1.1",
               "orderKey": 1000,
               "title": "Üslü Sayılara Giriş (1. Seviye)",
-              "contentUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
+              "contentUrl": "https://www.youtube.com/watch?v=mHq3Dz1Kyw4",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Üslü İfadeler 1",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "893ed24a871bd143",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.txt",
-                  "transcriptFingerprint": "9c84b59e9e92006a",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_giris.tr.tr.vtt",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mHq3Dz1Kyw4",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
                   "reviewedOverride": true,
-                  "evidence": "Transcript directly introduces 9th-grade exponents."
+                  "evidence": "Transcript directly introduces 9th-grade exponents.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=FtJE835vtoM",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 1,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Üslü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 1.Ders ｜ Yeni Maarif Modeli 2026",
-                "reviewStatus": "verified",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -164,33 +164,33 @@
               "displayLabel": "1.2",
               "orderKey": 2000,
               "title": "Üslü İfadelerin Sadeleştirilmesi ve Çarpma",
-              "contentUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
+              "contentUrl": "https://www.youtube.com/watch?v=IsD7EfCBZik",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Üslü İfadeler 2",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "09e4ff23f901f518",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.txt",
-                  "transcriptFingerprint": "7ad1bdf53900ef9e",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_kurallar.tr.tr.vtt",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IsD7EfCBZik",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026",
                   "reviewedOverride": true,
-                  "evidence": "Third exponent lesson is the strongest corpus match for continued exponent rules."
+                  "evidence": "Third exponent lesson is the strongest corpus match for continued exponent rules.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=IzK0DWVlTg8",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 2,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Üslü Sayılar 3 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 3.Ders ｜ Yeni Maarif Modeli 2026",
-                "reviewStatus": "verified",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -290,33 +290,33 @@
               "displayLabel": "1.3",
               "orderKey": 3000,
               "title": "Üslü Sayılarda Bölme İşlemi ve Özellikleri",
-              "contentUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+              "contentUrl": "https://www.youtube.com/watch?v=rYW247wLJes",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Üslü İfadeler 3",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "ed3787346eb0861d",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.txt",
-                  "transcriptFingerprint": "71eb5b21eb0dd86f",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_bolme.tr.tr.vtt",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=rYW247wLJes",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
                   "reviewedOverride": true,
-                  "evidence": "Transcript explicitly starts from division in exponential expressions."
+                  "evidence": "Transcript explicitly starts from division in exponential expressions.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=uwl25uvO1sQ",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 3,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Üslü İfadeler 4 ｜ 1.TEMA Sayılar 4 ｜ 9.Sınıf Matematik ｜ Matbook ｜ Maarif Model 2027",
-                "reviewStatus": "verified",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -418,33 +418,33 @@
               "displayLabel": "1.4",
               "orderKey": 4000,
               "title": "Üssü Sıfır, Negatif Sayı veya Kesir Olan Sayılar",
-              "contentUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
+              "contentUrl": "https://www.youtube.com/watch?v=v4uDnK2mC2E",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Üslü İfadeler 4",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L26",
                   "sourceSection": "1. Hafta: Üslü Sayılar ve Özellikleri (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "6cb73c7f5932687a",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.txt",
-                  "transcriptFingerprint": "0b107726bc4d9e40",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_uslu_negatif.tr.tr.vtt",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=v4uDnK2mC2E",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
                   "reviewedOverride": true,
-                  "evidence": "Second exponent lesson continues exponent rules including negative exponents."
+                  "evidence": "Second exponent lesson continues exponent rules including negative exponents.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=Vp13AV26s58",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 4,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Üslü Sayılar 2 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 2.Ders ｜ Yeni Maarif Modeli 2026",
-                "reviewStatus": "verified",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -544,33 +544,33 @@
               "displayLabel": "1.5",
               "orderKey": 5000,
               "title": "Köklü Sayılar ve Üslü Sayılar Arasındaki İlişki",
-              "contentUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
+              "contentUrl": "https://www.youtube.com/watch?v=af4Mh1FYQmA",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Köklü İfadeler 1",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L28",
                   "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "156d7b115046cade",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.txt",
-                  "transcriptFingerprint": "2e72a0053c8c617a",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_koklu_mantik.tr.tr.vtt",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=af4Mh1FYQmA",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
                   "reviewedOverride": true,
-                  "evidence": "Direct first lesson on radicals."
+                  "evidence": "Direct first lesson on radicals.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=b6Vl-rqqrOg",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 8,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Köklü Sayılar 1 ｜ Sayılar ｜ 9.Sınıf Matematik ｜ 4.Ders ｜ Yeni Maarif Modeli 2026",
-                "reviewStatus": "verified",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -670,25 +670,29 @@
               "displayLabel": "1.6",
               "orderKey": 6000,
               "title": "Kesirli Üslü ve Köklü İfadeler",
-              "contentUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+              "contentUrl": "https://www.youtube.com/watch?v=yw27-zHllXA",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Köklü İfadeler 2",
                 "provenance": {
                   "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L28",
                   "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "curated",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "f2b5f73128476d91",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
-                  "transcriptFingerprint": "701580fd7642654a",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
-                }
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yw27-zHllXA",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 11,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -1708,10 +1712,10 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
-              "contentUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+              "contentUrl": "https://www.youtube.com/watch?v=zylRnR8MB8k",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -1727,18 +1731,22 @@
                     "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
                     "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
                   "fingerprint": "bbb2b75eab91a579",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=zylRnR8MB8k",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.tr.vtt",
-                  "transcriptFingerprint": "23d6e07723c92c83"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 12,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -1842,10 +1850,10 @@
               "displayLabel": "6.1",
               "orderKey": 1000,
               "title": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
-              "contentUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+              "contentUrl": "https://www.youtube.com/watch?v=c5l59kltuTg",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -1858,18 +1866,22 @@
                     "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri",
                     "Mutlak Değer Fonksiyonu ve Nitel Özellikleri • Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 10.12,
                   "videoCandidateTitle": "Mutlak Değer Fonksiyonu 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 11.Ders",
                   "fingerprint": "83e0b0f1e09e1a19",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=c5l59kltuTg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_06_mutlak_deger_fonksiyonu_ve_nitel_ozellikleri.tr.tr.vtt",
-                  "transcriptFingerprint": "7dc77c5e46819a43"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=Y2kflhXCLgU",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 21,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -1971,10 +1983,10 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
-              "contentUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+              "contentUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Doğrusal Fonksiyonlarla Denklem ve Eşitsizlik Problemleri",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -1989,19 +2001,23 @@
                     "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler",
                     "Doğrusal Fonksiyonlarla İfade Edilen Denklem ve Eşitsizlikler İçeren Problemler • Üçgende Açı ve Kenarla İlgili Özellikler ve Bu Özellikler Arasındaki İlişkiler"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "fd97e61063237a3b",
                   "schemaVersion": "v2",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_07_dogrusal_fonksiyonlarla_denklem_ve_esitsizlik_proble.tr.tr.vtt",
-                  "transcriptFingerprint": "3389c7e3a5ebb774"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=goTo5CGult0",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 24,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2103,7 +2119,7 @@
               "displayLabel": "4.1",
               "orderKey": 1000,
               "title": "Üçgende İç ve Dış Açı Bağıntıları",
-              "contentUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+              "contentUrl": "https://www.youtube.com/watch?v=ZqlbnWjvV08",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -2111,7 +2127,7 @@
                   "sourceSection": "Üçgende Açı ve Kenar Özellikleri",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "01d381673776cd57",
                   "sourceWeeks": [
                     14,
@@ -2121,23 +2137,23 @@
                   "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK",
                   "videoSearchScore": 6.4,
                   "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ZqlbnWjvV08",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.tr.vtt",
-                  "transcriptFingerprint": "a6f3262a4db677ad",
                   "provider": "Rehber Matematik",
                   "teacher": "Mehmet Hoca",
-                  "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
                   "reviewedOverride": true,
-                  "evidence": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory."
+                  "evidence": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory.",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 28,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik",
+                "provider": "SORU ÇÖZÜM KANALI",
                 "topic": "Üçgende Açı ve Kenar İlişkileri",
-                "teacher": "Mehmet Hoca",
-                "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
-                "reviewStatus": "verified",
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required",
                 "reviewedOverride": true
               }
             },
@@ -2233,7 +2249,7 @@
               "displayLabel": "4.2",
               "orderKey": 2000,
               "title": "Üçgen Eşitsizliği ve Açı-Kenar İlişkileri",
-              "contentUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+              "contentUrl": "https://www.youtube.com/watch?v=BVc7pkpAx7E",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -2241,17 +2257,21 @@
                   "sourceSection": "Üçgen Eşitsizliği",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "8d096350f5994c96",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=BVc7pkpAx7E",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgen_esitsizligi.tr.tr.vtt",
-                  "transcriptFingerprint": "ec3f8b6edc092099"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=1ocklRxzZ4U",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 31,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik"
+                "provider": "SORU ÇÖZÜM KANALI",
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2449,10 +2469,10 @@
               "displayLabel": "9.1",
               "orderKey": 1000,
               "title": "Geometrik Dönüşümler",
-              "contentUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+              "contentUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "SORU ÇÖZÜM KANALI",
                 "topic": "Geometrik Dönüşümler",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -2467,23 +2487,25 @@
                     "Geometrik Dönüşümler",
                     "Geometrik Dönüşümler • Eşlik ve Benzerlik Koşulları"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
                   "fingerprint": "82fde7766e2f47dd",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.tr.vtt",
-                  "transcriptFingerprint": "2ad01955011f72cc",
                   "reviewedOverride": true,
                   "sharedSource": true,
-                  "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı"
+                  "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 33,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "teacher": "Rehber Matematik",
-                "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli"
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2589,7 +2611,7 @@
               "displayLabel": "5.1",
               "orderKey": 1000,
               "title": "Geometrik Dönüşümler: Öteleme, Yansıma ve Dönme",
-              "contentUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+              "contentUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -2597,7 +2619,7 @@
                   "sourceSection": "Geometrik Dönüşümler",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "b939a3b9811162b0",
                   "sourceWeeks": [
                     18,
@@ -2606,20 +2628,22 @@
                   "sourceTheme": "EŞLİK VE BENZERLİK",
                   "videoSearchScore": 9.55,
                   "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_geometrik_donusumler.tr.tr.vtt",
-                  "transcriptFingerprint": "2ad01955011f72cc",
                   "reviewedOverride": true,
                   "sharedSource": true,
-                  "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı"
+                  "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 33,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik",
+                "provider": "SORU ÇÖZÜM KANALI",
                 "topic": "Eşlik ve Benzerlik Koşulları",
-                "teacher": "Rehber Matematik",
-                "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli"
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2629,7 +2653,7 @@
               "displayLabel": "5.2",
               "orderKey": 2000,
               "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
-              "contentUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+              "contentUrl": "https://www.youtube.com/watch?v=HWMV3a046YU",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -2637,19 +2661,23 @@
                   "sourceSection": "Eşlik ve Benzerlik Koşulları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "37b5d36c1eebc4ba",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=HWMV3a046YU",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.tr.vtt",
-                  "transcriptFingerprint": "1784cbe68f7fba31",
                   "sharedSource": true,
-                  "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
+                  "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 34,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik"
+                "provider": "SORU ÇÖZÜM KANALI",
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2847,10 +2875,10 @@
               "displayLabel": "11.1",
               "orderKey": 1000,
               "title": "Benzer Üçgenler Oluşturma",
-              "contentUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+              "contentUrl": "https://www.youtube.com/watch?v=4qE5YlynFnA",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "SORU ÇÖZÜM KANALI",
                 "topic": "Benzer Üçgenler Oluşturma",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -2861,20 +2889,24 @@
                   "sourceTopic": [
                     "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
                   "fingerprint": "0f4384a467ce5593",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=4qE5YlynFnA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.tr.vtt",
-                  "transcriptFingerprint": "5faa10ff494c65cb",
                   "sharedSource": true,
-                  "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
-                }
+                  "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı",
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 35,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -2976,10 +3008,10 @@
               "displayLabel": "12.1",
               "orderKey": 1000,
               "title": "Tales, Öklid ve Pisagor Teoremleri",
-              "contentUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+              "contentUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "SORU ÇÖZÜM KANALI",
                 "topic": "Tales, Öklid ve Pisagor Teoremleri",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -2992,19 +3024,25 @@
                     "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
                     "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "f3a0d0748ab34b21",
                   "schemaVersion": "v2",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.tr.vtt",
-                  "transcriptFingerprint": "c1689ad19c926f66"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 37,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Tek dik üçgen/Pisagor anlatımı iki mevcut konu kartında kullanılıyor; Tales ve Öklid kapsamı ayrıca doğrulanmalı."
+                },
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3108,7 +3146,7 @@
               "displayLabel": "5.3",
               "orderKey": 1000,
               "title": "Tales, Öklid ve Pisagor Teoremleri",
-              "contentUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+              "contentUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -3116,7 +3154,7 @@
                   "sourceSection": "Tales, Öklid ve Pisagor",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "5cc14f6d3d70445e",
                   "sourceWeeks": [
                     24,
@@ -3125,15 +3163,21 @@
                   "sourceTheme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
                   "videoSearchScore": 8,
                   "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt",
-                  "transcriptFingerprint": "20f59b1eff4fffee"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 37,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Tek dik üçgen/Pisagor anlatımı iki mevcut konu kartında kullanılıyor; Tales ve Öklid kapsamı ayrıca doğrulanmalı."
                 },
-                "provider": "Rehber Matematik",
-                "topic": "Eşlik ve Benzerlik Problemleri"
+                "provider": "SORU ÇÖZÜM KANALI",
+                "topic": "Eşlik ve Benzerlik Problemleri",
+                "teacher": "Nurtaç Kozak",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3235,7 +3279,7 @@
               "displayLabel": "6.1",
               "orderKey": 1000,
               "title": "Algoritma Temelli Problem Çözme ve Adım Mantığı",
-              "contentUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+              "contentUrl": "https://www.youtube.com/watch?v=MjwQGT8Q8RQ",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -3243,7 +3287,7 @@
                   "sourceSection": "Algoritma Temelli Problemler",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "14cd5176628b0ead",
                   "sourceWeeks": [
                     25,
@@ -3254,15 +3298,19 @@
                   "sourceTheme": "EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM",
                   "videoSearchScore": 7.43,
                   "videoCandidateTitle": "Algoritma ve Bilişim 1 | 5.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=MjwQGT8Q8RQ",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_algoritma_temelleri.tr.tr.vtt",
-                  "transcriptFingerprint": "9b90a8e7ecbc81a2"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=WJXe0YVy8X0",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 39,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik",
-                "topic": "Algoritma Temelli Problemler"
+                "provider": "İlyas Güneş",
+                "topic": "Algoritma Temelli Problemler",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3368,7 +3416,7 @@
               "displayLabel": "7.1",
               "orderKey": 1000,
               "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
-              "contentUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+              "contentUrl": "https://www.youtube.com/watch?v=PLSStRWKlD0",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -3376,7 +3424,7 @@
                   "sourceSection": "Tek Nicel Değişkenli Veri Dağılımları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "c3eafe06022cf0c4",
                   "sourceWeeks": [
                     30,
@@ -3385,15 +3433,19 @@
                   "sourceTheme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
                   "videoSearchScore": 6.79,
                   "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=PLSStRWKlD0",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.tr.vtt",
-                  "transcriptFingerprint": "887270a366a91271"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 46,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik",
-                "topic": "Mantık Bağlaçları ve Niceleyiciler"
+                "provider": "İlyas Güneş",
+                "topic": "Mantık Bağlaçları ve Niceleyiciler",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3591,7 +3643,7 @@
               "displayLabel": "6.2",
               "orderKey": 1000,
               "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
-              "contentUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+              "contentUrl": "https://www.youtube.com/watch?v=mSTumj8P24U",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -3599,17 +3651,21 @@
                   "sourceSection": "Mantık Bağlaçları",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "3c037fb942c0c06a",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mSTumj8P24U",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.tr.vtt",
-                  "transcriptFingerprint": "b00eee0f3fe03369"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 44,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik"
+                "provider": "İlyas Güneş",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3807,10 +3863,10 @@
               "displayLabel": "17.1",
               "orderKey": 1000,
               "title": "Tek Nicel Değişkenli Veri Dağılımları",
-              "contentUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+              "contentUrl": "https://www.youtube.com/watch?v=HUj-T1MsSmA",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Tek Nicel Değişkenli Veri Dağılımları",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -3829,18 +3885,22 @@
                     "Tek Nicel Değişkenli Veri Dağılımları",
                     "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 4.4,
                   "videoCandidateTitle": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
                   "fingerprint": "45909eb3b6e78221",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=HUj-T1MsSmA",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.tr.vtt",
-                  "transcriptFingerprint": "b7ba271a128afd1b"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 50,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -3944,10 +4004,10 @@
               "displayLabel": "18.1",
               "orderKey": 1000,
               "title": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
-              "contentUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+              "contentUrl": "https://www.youtube.com/watch?v=ydelsBSmF40",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Hazır Veri Dağılımlarını İnceleme ve Yorumlama",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -3958,19 +4018,23 @@
                   "sourceTopic": [
                     "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": null,
                   "videoCandidateTitle": null,
                   "fingerprint": "225e5725c7008897",
                   "schemaVersion": "v2",
                   "reviewedOverride": true,
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=ydelsBSmF40",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_18_hazir_veri_dagilimlarini_inceleme_ve_yorumlama.tr.tr.vtt",
-                  "transcriptFingerprint": "ee1923b0c53d5dbb"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=7lBahwoY7xI",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 54,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -4072,10 +4136,10 @@
               "displayLabel": "19.1",
               "orderKey": 1000,
               "title": "Deneysel Olasılık",
-              "contentUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+              "contentUrl": "https://www.youtube.com/watch?v=vo7JI1Dn3fo",
               "publishingStatus": "active",
               "payload": {
-                "provider": "Rehber Matematik",
+                "provider": "İlyas Güneş",
                 "topic": "Deneysel Olasılık",
                 "provenance": {
                   "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -4088,18 +4152,22 @@
                     "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık",
                     "Deneysel Olasılık • Teorik Olasılık"
                   ],
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "videoSearchScore": 8.4,
                   "videoCandidateTitle": "Olasılık 1  | 9.Sınıf Matematik 7.Tema Veriden Olasılığa | Maarif Modeli",
                   "fingerprint": "17430c9eb80bece0",
                   "schemaVersion": "v2",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vo7JI1Dn3fo",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_19_deneysel_olasilik.tr.tr.vtt",
-                  "transcriptFingerprint": "b41eea550f92d1fb"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=nI6Ry-iocEU",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 59,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
+                },
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
@@ -4201,7 +4269,7 @@
               "displayLabel": "8.1",
               "orderKey": 1000,
               "title": "Deneysel ve Teorik Olasılık Karşılaştırması",
-              "contentUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+              "contentUrl": "https://www.youtube.com/watch?v=KzIfltoc_zs",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -4209,7 +4277,7 @@
                   "sourceSection": "Deneysel ve Teorik Olasılık",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "topic_aligned_quiz_revalidation_required",
                   "fingerprint": "426bde6faba69afe",
                   "sourceWeeks": [
                     38,
@@ -4219,15 +4287,19 @@
                   "sourceTheme": "VERİDEN OLASILIĞA",
                   "videoSearchScore": 8.9,
                   "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=KzIfltoc_zs",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.tr.vtt",
-                  "transcriptFingerprint": "16557446b5eb8f90"
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 55,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending"
                 },
-                "provider": "Rehber Matematik",
-                "topic": "Teorik Olasılık"
+                "provider": "İlyas Güneş",
+                "topic": "Teorik Olasılık",
+                "teacher": "İlyas Güneş",
+                "reviewStatus": "topic_aligned_quiz_revalidation_required"
               }
             },
             {
