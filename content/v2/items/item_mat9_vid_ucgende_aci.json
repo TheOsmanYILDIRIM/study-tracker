@@ -7,7 +7,7 @@
   "displayLabel": "4.1",
   "orderKey": 1000,
   "title": "Üçgende İç ve Dış Açı Bağıntıları",
-  "contentUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+  "contentUrl": "https://www.youtube.com/watch?v=ZqlbnWjvV08",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,7 +15,7 @@
       "sourceSection": "Üçgende Açı ve Kenar Özellikleri",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "01d381673776cd57",
       "sourceWeeks": [
         14,
@@ -25,23 +25,23 @@
       "sourceTheme": "NİCELİKLER VE DEĞİŞİMLER GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER / GEOMETRİK ŞEKİLLER EŞLİK VE BENZERLİK",
       "videoSearchScore": 6.4,
       "videoCandidateTitle": "Üçgende Açılar 1 | 9.Sınıf Matematik 3.Tema Geometrik Şekiller | 2.Ders | Yeni Maarif Modeli",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=ZqlbnWjvV08",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_ucgende_aci.tr.tr.vtt",
-      "transcriptFingerprint": "a6f3262a4db677ad",
       "provider": "Rehber Matematik",
       "teacher": "Mehmet Hoca",
-      "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
       "reviewedOverride": true,
-      "evidence": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory."
+      "evidence": "Only direct angle lesson in corpus, but it is line angles rather than triangle-angle theory.",
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=sZrQZ7YU5gs",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 28,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik",
+    "provider": "SORU ÇÖZÜM KANALI",
     "topic": "Üçgende Açı ve Kenar İlişkileri",
-    "teacher": "Mehmet Hoca",
-    "verifiedLectureTitle": "Doğruda Açılar ｜ 9.Sınıf Matematik 3.Tema Geometrik Şekiller ｜ 1.Ders ｜ Yeni Maarif Modeli",
-    "reviewStatus": "verified",
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required",
     "reviewedOverride": true
   }
 }
