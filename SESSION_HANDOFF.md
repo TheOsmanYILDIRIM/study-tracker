@@ -30,3 +30,8 @@ Design and test an append-only attempt retrieval/reconciliation strategy under c
 - `1eeaa9a`: completed V2 learning item cards use muted gray card, type icon, labels and an explicit checkmark. This is presentation-only; attempts are unchanged.
 - Verification: GitHub commits confirmed; Android build and real-device latency measurement **not yet run**. Never promise literal 0 ms: asynchronous Room and first-load rendering still take finite time.
 - Next: measure tap-to-first-content on device; reuse cached course/lesson/attempt state across navigation, eliminate additional per-card Room subscriptions, and implement short content-aware enter transition if perceptual latency remains.
+
+## 2026-10-08 — Global navigation motion
+- `3576e4c`: AppNavGraph NavHost now applies consistent 190–220 ms fade + subtle horizontal slide on push, reversed on back; all routes inherit it, including startup's first destination transition.
+- This masks navigation composition changes but does not eliminate actual initial data-fetch latency. No spinner or artificial delay was introduced.
+- Android build/device verification pending. Next: check actual launch and blank-state behavior on hardware; use local cached content or lightweight skeleton for cold-load without hiding genuine errors.
