@@ -7,7 +7,7 @@
   "displayLabel": "5.2",
   "orderKey": 2000,
   "title": "Eşlik ve Benzerlik Koşulları (A.A., K.A.K., K.K.K.)",
-  "contentUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+  "contentUrl": "https://www.youtube.com/watch?v=HWMV3a046YU",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,18 +15,22 @@
       "sourceSection": "Eşlik ve Benzerlik Koşulları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "37b5d36c1eebc4ba",
       "reviewedOverride": true,
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=HWMV3a046YU",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_benzerlik_kosullari.tr.tr.vtt",
-      "transcriptFingerprint": "1784cbe68f7fba31",
       "sharedSource": true,
-      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
+      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı",
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=NK_JR0CLrWA",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 34,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik"
+    "provider": "SORU ÇÖZÜM KANALI",
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
