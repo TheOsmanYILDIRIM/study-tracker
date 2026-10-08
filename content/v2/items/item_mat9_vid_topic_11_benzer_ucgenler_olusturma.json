@@ -7,10 +7,10 @@
   "displayLabel": "11.1",
   "orderKey": 1000,
   "title": "Benzer Üçgenler Oluşturma",
-  "contentUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+  "contentUrl": "https://www.youtube.com/watch?v=4qE5YlynFnA",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "SORU ÇÖZÜM KANALI",
     "topic": "Benzer Üçgenler Oluşturma",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -21,19 +21,23 @@
       "sourceTopic": [
         "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "Üçgende Eşlik 1 | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 2.Ders | Maarif Modeli",
       "fingerprint": "0f4384a467ce5593",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=4qE5YlynFnA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_11_benzer_ucgenler_olusturma.tr.tr.vtt",
-      "transcriptFingerprint": "5faa10ff494c65cb",
       "sharedSource": true,
-      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı"
-    }
+      "sharedSourceReason": "Üçgenlerde eşlik ve benzerlik koşulları ortak video kapsamı",
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=A6dpY6LgHyw",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 35,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
