@@ -7,7 +7,7 @@
   "displayLabel": "5.3",
   "orderKey": 1000,
   "title": "Tales, Öklid ve Pisagor Teoremleri",
-  "contentUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+  "contentUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,7 +15,7 @@
       "sourceSection": "Tales, Öklid ve Pisagor",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "5cc14f6d3d70445e",
       "sourceWeeks": [
         24,
@@ -24,14 +24,18 @@
       "sourceTheme": "EŞLİK VE BENZERLİK / EŞLİK VE BENZERLİK ALGORİTMA VE BİLİŞİM",
       "videoSearchScore": 8,
       "videoCandidateTitle": "Sınav Tadında Eşlik Benzerlik Soru Çözümü | 9. Sınıf Matematik 4.Tema | 7.Ders | Maarif Modeli",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_teoremler.tr.tr.vtt",
-      "transcriptFingerprint": "20f59b1eff4fffee"
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=PqRG_EBnECU",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 37,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik",
-    "topic": "Eşlik ve Benzerlik Problemleri"
+    "provider": "SORU ÇÖZÜM KANALI",
+    "topic": "Eşlik ve Benzerlik Problemleri",
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
