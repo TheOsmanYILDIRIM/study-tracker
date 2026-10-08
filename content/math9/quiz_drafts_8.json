@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "status": "draft_pending_visual_and_curriculum_review",
+  "description": "New concept practice questions. Independent math checks performed; do not mislabel as transcript-extracted questions.",
+  "questions": [
+    {
+      "id": "mat9_draft_q_001",
+      "video_id": "mHq3Dz1Kyw4",
+      "outcome_candidate": "9.1.1",
+      "timestamp_evidence": "00:02:39.280",
+      "question": "(-2)^4 kaçtır?",
+      "options": [
+        "-16",
+        "16",
+        "-8",
+        "8"
+      ],
+      "correct_index": 1,
+      "explanation": "Çift kuvvet sonucu pozitiftir: 2^4=16.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_002",
+      "video_id": "IsD7EfCBZik",
+      "outcome_candidate": "9.1.1",
+      "timestamp_evidence": "00:06:26.880",
+      "question": "3^0 kaçtır?",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "9"
+      ],
+      "correct_index": 1,
+      "explanation": "Sıfırdan farklı sayının sıfırıncı kuvveti 1'dir.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_003",
+      "video_id": "af4Mh1FYQmA",
+      "outcome_candidate": "9.1.1",
+      "timestamp_evidence": "00:02:52.319",
+      "question": "√50 en sade nasıl yazılır?",
+      "options": [
+        "25√2",
+        "5√2",
+        "10√5",
+        "2√5"
+      ],
+      "correct_index": 1,
+      "explanation": "√50=√(25×2)=5√2.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_004",
+      "video_id": "zylRnR8MB8k",
+      "outcome_candidate": "9.2.1",
+      "timestamp_evidence": "00:02:27.519",
+      "question": "f(x)=2x+3 fonksiyonunun eğimi kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "-2",
+        "-3"
+      ],
+      "correct_index": 0,
+      "explanation": "f(x)=ax+b için eğim a'dır.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_005",
+      "video_id": "DiCOq1X9234",
+      "outcome_candidate": "9.2.1",
+      "timestamp_evidence": "00:02:19.000",
+      "question": "30 litre su her saat 4 litre azalırsa 3 saat sonra kaç litre kalır?",
+      "options": [
+        "12",
+        "18",
+        "22",
+        "26"
+      ],
+      "correct_index": 1,
+      "explanation": "30-4×3=18.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_006",
+      "video_id": "c5l59kltuTg",
+      "outcome_candidate": "9.2.2",
+      "timestamp_evidence": "00:05:35.400",
+      "question": "f(x)=|x-3| fonksiyonunun en küçük değeri kaçtır?",
+      "options": [
+        "-3",
+        "0",
+        "3",
+        "6"
+      ],
+      "correct_index": 1,
+      "explanation": "x=3 için 0 olur; mutlak değer negatif olamaz.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_007",
+      "video_id": "twBSWND33J4",
+      "outcome_candidate": "9.2.2 / 9.2.3",
+      "timestamp_evidence": "00:06:44.120",
+      "question": "|x|<3 çözüm kümesi hangisidir?",
+      "options": [
+        "x>3",
+        "x<-3",
+        "-3<x<3",
+        "x≤3"
+      ],
+      "correct_index": 2,
+      "explanation": "Mutlak değeri 3'ten küçük sayılar -3 ile 3 arasındadır.",
+      "publishingStatus": "draft"
+    },
+    {
+      "id": "mat9_draft_q_008",
+      "video_id": "ZqlbnWjvV08",
+      "outcome_candidate": "Geometrik Şekiller (alt kod bekliyor)",
+      "timestamp_evidence": "00:05:49.240",
+      "question": "Bir üçgenin iki iç açısı 50° ve 60° ise üçüncüsü kaç derecedir?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "correct_index": 1,
+      "explanation": "180-50-60=70°.",
+      "publishingStatus": "draft"
+    }
+  ]
+}
