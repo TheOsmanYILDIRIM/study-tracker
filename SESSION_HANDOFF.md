@@ -38,3 +38,11 @@ Updated: 2026-10-08 — main branch; user-requested original animation restored
 2. Check cold launch and resume behavior: avoid genuine empty-state flicker if Room data arrives after the ~1.1 s intro; prefer local cache/skeleton over artificial waits.
 3. Stress-test KV attempt concurrency/partial failures and mobile-network reconnect for progress safety. Do not overwrite student history.
 4. Keep brand icon SVG and Android VectorDrawable path shapes synchronized whenever editing; the CI validator enforces this.
+
+## 2026-10-08 — LiseDers playlist ↔ StudyTracker V2 integration
+- Upstream: `TheOsmanYILDIRIM/lise1-ogrenme-programi` playlist `PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II`; generated `data/video_playlists/<playlist-id>/{playlist-catalog.json,topic-matches.json,transcript-status.json}`.
+- Added `scripts/import-liseders-playlist.py`, empty `content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json`, `.github/workflows/import-liseders-playlist.yml`, and `docs/LISEDERS_PLAYLIST_IMPORT.md`.
+- Import is review-gated: `reviewed:true`, explicit lesson ID and evidence, optional `override:true`, `publish:false` by default. Stable newly appended VIDEO IDs do not overwrite existing items, quizzes, or student progress.
+- Verified second-repository GitHub Action **run #37824593337 success**: reads upstream 60 candidates; approvals=0, importer dry-run succeeds; V2 modular compilation, CLI tests and video audit all succeed; catalog/artifact generated; no new video was published.
+- Upstream bot restriction: no Turkish transcripts retrieved, 2 explicit errors and 58 blocked; title-level matches are not transcript-grounded and must not trigger new transcript-grounded quizzes.
+- To proceed, review per-video mapping, enter approved records, then run **Import reviewed LiseDers playlist** via manual GitHub dispatch with `publish_approved=true`; this intentionally commits only validated additions to the V2 catalog. Recheck APK CI after any publishing commit.
