@@ -147,3 +147,10 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 - Başlık/playlist sırası eşleşme kanıtı değildir. İnsan tarafından video alt konusu, öğretmen ve ilişkili quiz kapsamı onaylanmalı; eski URL'ye karşı optimistic lock uygulanmalı.
 - `transcript_grounded` quizleri yeni videonun transkriptinden üretilmiş gibi etiketleme. Tarihsel quiz kaynağını koru, kaynak farklılığını inceleme raporuna yaz.
 - GitHub katalog commit'i Cloudflare KV canlı veri dağıtımı değildir. Yayına geçiş ayrı, geçmişi koruyan V2 seed/diff/apply kontrolü gerektirir.
+
+## StudyTracker V2 — Canonical main development policy (2026-10-08)
+- **Default development target is `main`**. The former `feature/student-simple-flow-thumbnails` branch has been consolidated into main; do not continue changes on its stale branch unless explicitly requested. For risky work, branch FROM the latest main and merge back.
+- Student V2 is the canonical product: flat topic headings with VIDEO/QUIZ/ANKI items, cached course covers and YouTube thumbnails, one-tap video open followed by simple completion confirmation. Preserve stable IDs, append-only attempts, Room schema, V2 KV synchronization, and independent Math 9 video-review/approval workflow.
+- **Completion visual rule:** Individual finished cards are gray. A topic heading/progress indicator becomes gray **only when its `itemsProgress` list is nonempty and EVERY active item has `V2ItemState.COMPLETED`**. A rounded 100% value, empty/loading list, one unfinished/locked item, or partial progress must never gray a topic heading.
+- Approved branding: hand-coded SVG book with orbiting comet and compact native Compose animation; do not replace with Solar Odyssey or generated raster images. Android launcher vector must match SVG source shapes.
+- Verify GitHub Actions and device behavior, not just checklist or static token tests. Keep `SESSION_HANDOFF.md` as the concise current-state record and avoid accumulating dated history there.
