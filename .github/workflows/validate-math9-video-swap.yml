@@ -33,12 +33,12 @@ jobs:
           replaced = [v for v in videos if v.get('payload',{}).get('provenance',{}).get('sourcePlaylistId') == 'PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II']
           remaining = [v for v in videos if v not in replaced]
           assert len(videos)==29, len(videos)
-          assert len(replaced)==24, len(replaced)
-          assert len(remaining)==5, len(remaining)
+          assert len(replaced)==26, len(replaced)
+          assert len(remaining)==3, len(remaining)
           assert all(v['itemType']=='VIDEO' and v['courseId']=='course_mat_9' for v in videos)
           assert all(v['contentUrl'].startswith('https://www.youtube.com/watch?v=') for v in replaced)
           assert all(v['payload']['provenance']['quizRegroundingStatus']=='pending' for v in replaced)
-          print('PASS: 24 replaced, 5 retained due to missing direct curriculum coverage')
+          print('PASS: 26 replaced, 3 retained due to missing direct curriculum coverage')
           print('Retained:', ', '.join(v['id'] for v in remaining))
           PY
       - name: Compile existing V2 catalog and validate CLI
