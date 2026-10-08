@@ -1,6 +1,10 @@
 package com.studytracker.feature.v2
 
 import android.widget.Toast
+import coil.Coil
+import coil.request.CachePolicy
+import coil.request.ImageRequest
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -26,10 +30,41 @@ import com.studytracker.core.data.local.prefs.AppPreferences
 import com.studytracker.core.data.local.repository.LocalV2AttemptRepositoryImpl
 import com.studytracker.core.data.local.repository.LocalV2CurriculumRepositoryImpl
 import com.studytracker.core.domain.engine.V2ProgressEngine
+import com.studytracker.core.domain.model.ItemType
+import com.studytracker.core.domain.model.LearningItem
+import com.studytracker.core.domain.model.CourseVisual
+import com.studytracker.core.ui.components.LearningItemVisual
+import com.studytracker.core.ui.components.CourseCoverVisual
+import com.studytracker.core.ui.components.courseVisualColor
+import com.studytracker.core.ui.components.fetchCourseVisualCatalog
+import com.studytracker.core.ui.components.parseCourseVisualCatalog
+import com.studytracker.core.ui.components.youtubeThumbnailUrl
 import com.studytracker.core.ui.components.CloudSyncDialog
 import com.studytracker.core.ui.components.ZenParallaxBackground
 import com.studytracker.core.ui.theme.*
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.first
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+
+@Serializable
+private data class StudentResumeTarget(
+    val familyCode: String,
+    val courseTitle: String,
+    val courseVisual: CourseVisual,
+    val lessonId: String,
+    val lessonTitle: String,
+    val itemId: String,
+    val itemType: ItemType,
+    val itemLabel: String,
+    val itemTitle: String,
+    val videoUrl: String? = null
+)
+
+private data class StudentResumeState(
+    val isLoading: Boolean = true,
+    val target: StudentResumeTarget? = null
+)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -43,6 +78,7 @@ fun V2CoursesScreen(
     val prefs = remember { AppPreferences.getInstance(context) }
     val db = remember { AppDatabase.getInstance(context) }
     val familyCode by prefs.familyPairCode.collectAsState()
+    val isParent = com.studytracker.BuildConfig.APP_ROLE == "PARENT"
 
     val curriculumRepo = remember(db) { LocalV2CurriculumRepositoryImpl(db) }
     val attemptRepo = remember(db) { LocalV2AttemptRepositoryImpl(db) }
@@ -51,6 +87,82 @@ fun V2CoursesScreen(
     val attempts by attemptRepo.getAttempts(familyCode, "student_default").collectAsState(initial = emptyList())
     val allItems by curriculumRepo.getLearningItemsForFamily(familyCode).collectAsState(initial = emptyList())
     val allPrereqs by curriculumRepo.getPrerequisites().collectAsState(initial = emptyList())
+
+    var courseVisualCatalog by remember {
+        mutableStateOf(parseCourseVisualCatalog(prefs.courseVisualCatalogCacheJson))
+    }
+
+    LaunchedEffect(Unit) {
+        fetchCourseVisualCatalog().onSuccess { raw ->
+            prefs.courseVisualCatalogCacheJson = raw
+            courseVisualCatalog = parseCourseVisualCatalog(raw)
+        }
+    }
+
+    fun visualFor(courseId: String, fallback: CourseVisual): CourseVisual =
+        courseVisualCatalog[courseId] ?: fallback
+
+    val cachedResume = remember(familyCode) {
+        prefs.studentResumeCacheJson
+            ?.let { raw -> runCatching { Json.decodeFromString<StudentResumeTarget>(raw) }.getOrNull() }
+            ?.takeIf { it.familyCode == familyCode }
+    }
+
+    val resumeState by produceState(
+        initialValue = StudentResumeState(
+            isLoading = cachedResume == null,
+            target = cachedResume
+        ),
+        key1 = courses,
+        key2 = allItems,
+        key3 = Triple(allPrereqs, attempts, courseVisualCatalog)
+    ) {
+        if (cachedResume == null) {
+            value = StudentResumeState(isLoading = true)
+        }
+
+        var found: StudentResumeTarget? = null
+        for (course in courses) {
+            val courseLessons = curriculumRepo.getLessonsForCourse(course.id).first()
+            val progress = V2ProgressEngine.evaluateCourseProgress(
+                course = course,
+                lessons = courseLessons,
+                itemsByLessonId = allItems.groupBy { it.lessonId },
+                prerequisites = allPrereqs,
+                attempts = attempts
+            )
+            val lesson = progress.resumeLesson
+            val item = progress.resumeItem
+            if (lesson != null && item != null) {
+                val version = item.currentVersion
+                val resolvedVideoUrl = if (item.itemType == ItemType.VIDEO) {
+                    version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
+                } else null
+
+                found = StudentResumeTarget(
+                    familyCode = familyCode,
+                    courseTitle = course.title,
+                    courseVisual = visualFor(course.id, course.visual),
+                    lessonId = lesson.id,
+                    lessonTitle = lesson.title,
+                    itemId = item.id,
+                    itemType = item.itemType,
+                    itemLabel = item.displayLabel,
+                    itemTitle = version?.title ?: item.displayLabel,
+                    videoUrl = resolvedVideoUrl
+                )
+                break
+            }
+        }
+
+        if (found != null) {
+            prefs.studentResumeCacheJson = Json.encodeToString(StudentResumeTarget.serializer(), found)
+        } else if (courses.isNotEmpty() && allItems.isNotEmpty()) {
+            prefs.studentResumeCacheJson = null
+        }
+
+        value = StudentResumeState(isLoading = false, target = found)
+    }
 
     var isSyncing by remember { mutableStateOf(false) }
     var showSettingsDialog by remember { mutableStateOf(false) }
@@ -63,9 +175,9 @@ fun V2CoursesScreen(
             isSyncing = false
             if (showToast) {
                 if (res.isSuccess) {
-                    Toast.makeText(context, "V2 müfredat buluttan güncellendi (${res.getOrNull()} öğe)", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Dersler güncellendi.", Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(context, "V2 eşitleme hatası: ${res.exceptionOrNull()?.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, "Dersler yenilenemedi. İnternet bağlantını kontrol et.", Toast.LENGTH_LONG).show()
                 }
             }
         }
@@ -75,6 +187,29 @@ fun V2CoursesScreen(
         if (familyCode.isNotBlank()) {
             refreshCatalog(showToast = false)
         }
+    }
+
+    LaunchedEffect(allItems) {
+        allItems
+            .asSequence()
+            .filter { it.itemType == ItemType.VIDEO }
+            .mapNotNull { item ->
+                val version = item.currentVersion
+                val payload = V2ProgressEngine.parseVideoPayload(version?.payloadJson)
+                youtubeThumbnailUrl(version?.contentUrl ?: payload.url)
+            }
+            .distinct()
+            .forEach { thumbnailUrl ->
+                Coil.imageLoader(context).enqueue(
+                    ImageRequest.Builder(context)
+                        .data(thumbnailUrl)
+                        .memoryCacheKey("study-video-thumb:$thumbnailUrl")
+                        .diskCacheKey("study-video-thumb:$thumbnailUrl")
+                        .memoryCachePolicy(CachePolicy.ENABLED)
+                        .diskCachePolicy(CachePolicy.ENABLED)
+                        .build()
+                )
+            }
     }
 
     if (showSettingsDialog) {
@@ -94,12 +229,12 @@ fun V2CoursesScreen(
                     title = {
                         Column {
                             Text(
-                                text = "Öğrenme Akışı (V2)",
+                                text = "Derslerim",
                                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Dersler & Ölçme Tabanlı İlerleme",
+                                text = "Kaldığın yerden devam et",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = ZomoTextSecondary
                             )
@@ -125,23 +260,26 @@ fun V2CoursesScreen(
                             )
                         }
 
-                        IconButton(
-                            onClick = { refreshCatalog(showToast = true) },
-                            enabled = !isSyncing
-                        ) {
-                            if (isSyncing) {
-                                CircularProgressIndicator(
-                                    modifier = Modifier.size(20.dp),
-                                    strokeWidth = 2.dp,
-                                    color = ZenMoonGold
-                                )
-                            } else {
-                                Icon(
-                                    imageVector = Icons.Default.Sync,
-                                    contentDescription = "Yenile",
-                                    tint = ZenMoonGold
-                                )
+                        if (isParent) {
+                            IconButton(
+                                onClick = { refreshCatalog(showToast = true) },
+                                enabled = !isSyncing
+                            ) {
+                                if (isSyncing) {
+                                    CircularProgressIndicator(
+                                        modifier = Modifier.size(20.dp),
+                                        strokeWidth = 2.dp,
+                                        color = ZenMoonGold
+                                    )
+                                } else {
+                                    Icon(
+                                        imageVector = Icons.Default.Sync,
+                                        contentDescription = "Yenile",
+                                        tint = ZenMoonGold
+                                    )
+                                }
                             }
+
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
@@ -175,12 +313,12 @@ fun V2CoursesScreen(
                                 modifier = Modifier.size(56.dp)
                             )
                             Text(
-                                text = "Henüz V2 Dersi Bulunmuyor",
+                                text = "Henüz ders yok",
                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                                 color = ZomoTextPrimary
                             )
                             Text(
-                                text = "Buluttaki güncel ders ve modülleri çekmek için aşağıdaki butona dokunabilirsin.",
+                                text = "Derslerin hazırlanıyor. Biraz sonra tekrar deneyebilirsin.",
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = ZomoTextSecondary,
                                 modifier = Modifier.padding(horizontal = 8.dp)
@@ -193,19 +331,39 @@ fun V2CoursesScreen(
                             ) {
                                 Icon(Icons.Default.CloudDownload, contentDescription = null, tint = Color.Black)
                                 Spacer(modifier = Modifier.width(8.dp))
-                                Text("Buluttan Dersleri İndir", color = Color.Black, fontWeight = FontWeight.Bold)
+                                Text("Dersleri Yenile", color = Color.Black, fontWeight = FontWeight.Bold)
                             }
                         }
                     }
                 }
             } else {
-                LazyColumn(
+                Column(
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(paddingValues)
                         .padding(horizontal = 16.dp, vertical = 8.dp),
-                    verticalArrangement = Arrangement.spacedBy(14.dp)
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
+                    if (!isParent) {
+                        StudentResumePanel(
+                            state = resumeState,
+                            onResumeLesson = onResumeLesson,
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                    }
+
+                    Text(
+                        text = "Dersler",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
+
+                    LazyColumn(
+                        modifier = Modifier.fillMaxSize(),
+                        verticalArrangement = Arrangement.spacedBy(14.dp)
+                    ) {
+                        item(key = "courses_header_hidden") { Spacer(modifier = Modifier.height(0.dp)) }
+
                     items(courses, key = { it.id }) { course ->
                         val lessons by curriculumRepo.getLessonsForCourse(course.id).collectAsState(initial = emptyList())
                         val courseProgress = remember(course, lessons, allItems, allPrereqs, attempts) {
@@ -218,6 +376,12 @@ fun V2CoursesScreen(
                             )
                         }
 
+                        val courseCompleted = courseProgress.totalItems > 0 &&
+                            courseProgress.completedItems >= courseProgress.totalItems
+                        val effectiveVisual = visualFor(course.id, course.visual)
+                        val coursePrimary = courseVisualColor(effectiveVisual.primaryColor, ZenSkyCyan)
+                        val courseSurface = courseVisualColor(effectiveVisual.surfaceColor, ZenNightSurface)
+
                         Card(
                             modifier = Modifier
                                 .fillMaxWidth()
@@ -225,9 +389,11 @@ fun V2CoursesScreen(
                                 .clickable { onNavigateToCourse(course.id) },
                             shape = RoundedCornerShape(18.dp),
                             colors = CardDefaults.cardColors(
-                                containerColor = ZenNightSurface.copy(alpha = 0.92f)
+                                containerColor = if (courseCompleted) Color(0xFF34373F) else courseSurface.copy(alpha = 0.94f)
                             ),
-                            border = BorderStroke(1.dp, ZenNightBorder)
+                            border = BorderStroke(1.2.dp,
+                                if (courseCompleted) Color(0xFF777B85) else coursePrimary.copy(alpha = 0.65f)
+                            )
                         ) {
                             Column(
                                 modifier = Modifier.padding(18.dp),
@@ -242,29 +408,30 @@ fun V2CoursesScreen(
                                         verticalAlignment = Alignment.CenterVertically,
                                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                                     ) {
-                                        Box(
-                                            modifier = Modifier
-                                                .size(36.dp)
-                                                .background(ZenMoonGold.copy(alpha = 0.15f), CircleShape),
-                                            contentAlignment = Alignment.Center
-                                        ) {
-                                            Icon(
-                                                imageVector = Icons.Default.MenuBook,
-                                                contentDescription = null,
-                                                tint = ZenMoonGold,
-                                                modifier = Modifier.size(20.dp)
+                                        Box(modifier = Modifier.size(width = 62.dp, height = 84.dp)) {
+                                            CourseCoverVisual(
+                                                visual = effectiveVisual,
+                                                contentDescription = "${course.subject} ders kitabı kapağı",
+                                                modifier = Modifier.fillMaxSize()
                                             )
+                                            if (courseCompleted) {
+                                                Box(
+                                                    modifier = Modifier.fillMaxSize()
+                                                        .clip(RoundedCornerShape(10.dp))
+                                                        .background(Color(0xB04B4C54))
+                                                )
+                                            }
                                         }
-                                        Column {
+                                        Column(modifier = Modifier.weight(1f)) {
                                             Text(
                                                 text = course.title,
                                                 style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                                                color = ZomoTextPrimary
+                                                color = if (courseCompleted) Color(0xFFD1D2D7) else ZomoTextPrimary
                                             )
                                             Text(
                                                 text = "${course.gradeLevel}. Sınıf • ${course.subject}",
                                                 style = MaterialTheme.typography.bodySmall,
-                                                color = ZomoTextSecondary
+                                                color = if (courseCompleted) Color(0xFF9FA2AA) else coursePrimary.copy(alpha = 0.92f)
                                             )
                                         }
                                     }
@@ -280,14 +447,14 @@ fun V2CoursesScreen(
                                     Text(
                                         text = course.description,
                                         style = MaterialTheme.typography.bodySmall,
-                                        color = ZomoTextSecondary,
+                                        color = if (courseCompleted) Color(0xFF9FA2AA) else ZomoTextSecondary,
                                         maxLines = 2
                                     )
                                 }
 
                                 HorizontalDivider(color = ZenNightBorder.copy(alpha = 0.5f), thickness = 0.8.dp)
 
-                                if (courseProgress.resumeLesson != null && courseProgress.resumeItem != null) {
+                                if (isParent && courseProgress.resumeLesson != null && courseProgress.resumeItem != null) {
                                     Surface(
                                         shape = RoundedCornerShape(12.dp),
                                         color = ZenSkyCyan.copy(alpha = 0.10f),
@@ -311,16 +478,6 @@ fun V2CoursesScreen(
                                         }
                                     }
 
-                                    Button(
-                                        onClick = { onResumeLesson(courseProgress.resumeLesson.id) },
-                                        modifier = Modifier.fillMaxWidth(),
-                                        shape = RoundedCornerShape(12.dp),
-                                        colors = ButtonDefaults.buttonColors(containerColor = ZenSkyCyan)
-                                    ) {
-                                        Icon(Icons.Default.PlayArrow, contentDescription = null, tint = Color.Black)
-                                        Spacer(modifier = Modifier.width(6.dp))
-                                        Text("Devam Et", color = Color.Black, fontWeight = FontWeight.Bold)
-                                    }
                                 }
 
                                 Row(
@@ -329,12 +486,16 @@ fun V2CoursesScreen(
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Text(
-                                        text = "${lessons.size} konu • %${courseProgress.completionPercentage}",
+                                        text = "${lessons.size} konu",
                                         style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
-                                        color = ZenMoonGold
+                                        color = if (courseCompleted) Color(0xFFC1C3CA) else ZenMoonGold
                                     )
                                     Text(
-                                        text = if (courseProgress.resumeItem == null && courseProgress.totalItems > 0) "Tamamlandı ✓" else "Tüm konular →",
+                                        text = when {
+                                            courseCompleted -> "✓ Bitti"
+                                            !isParent -> "Çalışmaları aç →"
+                                            else -> "İçeriği aç →"
+                                        },
                                         style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
                                         color = ZomoTextPrimary
                                     )
@@ -345,5 +506,211 @@ fun V2CoursesScreen(
                 }
             }
         }
+    }
+}
+}
+
+@Composable
+private fun StudentResumePanel(
+    state: StudentResumeState,
+    onResumeLesson: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val target = state.target
+    val panelShape = RoundedCornerShape(20.dp)
+    val targetPrimary = courseVisualColor(target?.courseVisual?.primaryColor, ZenSkyCyan)
+    val targetSurface = courseVisualColor(target?.courseVisual?.surfaceColor, ZenNightSurface)
+
+    Card(
+        modifier = modifier.height(176.dp),
+        shape = panelShape,
+        colors = CardDefaults.cardColors(
+            containerColor = targetSurface.copy(alpha = 0.94f)
+        ),
+        border = BorderStroke(1.5.dp, targetPrimary.copy(alpha = 0.78f))
+    ) {
+        when {
+            state.isLoading -> {
+                ResumeSkeletonLoading(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(14.dp)
+                )
+            }
+
+            target == null -> {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(18.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.CheckCircle,
+                        contentDescription = null,
+                        tint = ZenForestGreen,
+                        modifier = Modifier.size(36.dp)
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "Şimdilik her şey tamam",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
+                    Text(
+                        text = "Aşağıdan istediğin derse göz atabilirsin.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = ZomoTextSecondary
+                    )
+                }
+            }
+
+            else -> {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .clickable { onResumeLesson(target.lessonId) }
+                        .padding(14.dp),
+                    verticalArrangement = Arrangement.spacedBy(9.dp)
+                ) {
+                    Text(
+                        text = "Devam Et",
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = ZomoTextPrimary
+                    )
+
+                    Row(
+                        modifier = Modifier.weight(1f),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        LearningItemVisual(
+                            itemType = target.itemType,
+                            videoUrl = target.videoUrl,
+                            modifier = Modifier.size(width = 104.dp, height = 62.dp)
+                        )
+
+                        Column(
+                            modifier = Modifier.weight(1f),
+                            verticalArrangement = Arrangement.spacedBy(2.dp)
+                        ) {
+                            Text(
+                                text = target.courseTitle,
+                                style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
+                                color = targetPrimary,
+                                maxLines = 1
+                            )
+                            Text(
+                                text = target.lessonTitle,
+                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold),
+                                color = ZomoTextPrimary,
+                                maxLines = 1
+                            )
+                            Text(
+                                text = target.itemTitle,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = ZomoTextSecondary,
+                                maxLines = 1
+                            )
+                        }
+
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = "Devam et",
+                            tint = targetPrimary,
+                            modifier = Modifier.size(30.dp)
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@Composable
+private fun ResumeSkeletonLoading(
+    modifier: Modifier = Modifier
+) {
+    val transition = rememberInfiniteTransition(label = "resume_shimmer")
+    val alpha by transition.animateFloat(
+        initialValue = 0.16f,
+        targetValue = 0.42f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 850, easing = FastOutSlowInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "resume_shimmer_alpha"
+    )
+    val shimmer = Color.White.copy(alpha = alpha)
+    val soft = Color.White.copy(alpha = alpha * 0.72f)
+
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .width(92.dp)
+                .height(20.dp)
+                .clip(RoundedCornerShape(8.dp))
+                .background(shimmer)
+        )
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Box(
+                modifier = Modifier
+                    .size(width = 104.dp, height = 62.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(shimmer)
+            )
+
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(7.dp)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.48f)
+                        .height(12.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(shimmer)
+                )
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.82f)
+                        .height(14.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(soft)
+                )
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth(0.66f)
+                        .height(11.dp)
+                        .clip(RoundedCornerShape(7.dp))
+                        .background(soft)
+                )
+            }
+
+            Box(
+                modifier = Modifier
+                    .size(30.dp)
+                    .clip(RoundedCornerShape(10.dp))
+                    .background(soft)
+            )
+        }
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(9.dp)
+                .clip(RoundedCornerShape(8.dp))
+                .background(soft)
+        )
     }
 }
