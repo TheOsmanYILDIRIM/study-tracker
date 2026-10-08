@@ -1,6 +1,11 @@
 package com.studytracker.app.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -30,7 +35,35 @@ fun AppNavGraph(
 
     NavHost(
         navController = navController,
-        startDestination = startDestination
+        startDestination = startDestination,
+        enterTransition = {
+            fadeIn(animationSpec = tween(190, easing = FastOutSlowInEasing)) +
+                slideIntoContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Left,
+                    tween(220, easing = FastOutSlowInEasing)
+                ) { it / 12 }
+        },
+        exitTransition = {
+            fadeOut(animationSpec = tween(140)) +
+                slideOutOfContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Left,
+                    tween(190)
+                ) { it / 16 }
+        },
+        popEnterTransition = {
+            fadeIn(animationSpec = tween(190, easing = FastOutSlowInEasing)) +
+                slideIntoContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Right,
+                    tween(220, easing = FastOutSlowInEasing)
+                ) { it / 12 }
+        },
+        popExitTransition = {
+            fadeOut(animationSpec = tween(140)) +
+                slideOutOfContainer(
+                    AnimatedContentTransitionScope.SlideDirection.Right,
+                    tween(190)
+                ) { it / 16 }
+        }
     ) {
         composable(Screen.RoleSelection.route) {
             RoleSelectionScreen(
