@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "playlist_id": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+  "source_zip_sha256": "1c45d1b1e8d4caec312f117dcba4a6bc53b69aa5047d062a42a9c746f830f1d9",
+  "method": "literal Turkish term occurrence counts in normalized timecoded subtitle cues; preliminary, not verified MEB alignment",
+  "video_topic_evidence": [
+    {
+      "position": 12,
+      "video_id": "zylRnR8MB8k",
+      "term_counts": {
+        "dogrusal": 48,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 138
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 13,
+      "video_id": "fsQcnnjziwM",
+      "term_counts": {
+        "dogrusal": 57,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 321
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 14,
+      "video_id": "80yUGtpKNRk",
+      "term_counts": {
+        "dogrusal": 57,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 243
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 15,
+      "video_id": "qKyq21aOvBs",
+      "term_counts": {
+        "dogrusal": 48,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 312
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 16,
+      "video_id": "vLEjnnrmxrk",
+      "term_counts": {
+        "dogrusal": 42,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 150
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 17,
+      "video_id": "syp7iKGIoaM",
+      "term_counts": {
+        "dogrusal": 18,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 159
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 18,
+      "video_id": "18vCl33P6SM",
+      "term_counts": {
+        "dogrusal": 24,
+        "mutlak_deger": 0,
+        "esitsizlik": 12,
+        "fonksiyon": 177
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 19,
+      "video_id": "DiCOq1X9234",
+      "term_counts": {
+        "dogrusal": 42,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 72
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 20,
+      "video_id": "KSyNWDKq2Ok",
+      "term_counts": {
+        "dogrusal": 3,
+        "mutlak_deger": 6,
+        "esitsizlik": 3,
+        "fonksiyon": 150
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 21,
+      "video_id": "c5l59kltuTg",
+      "term_counts": {
+        "dogrusal": 6,
+        "mutlak_deger": 217,
+        "esitsizlik": 0,
+        "fonksiyon": 282
+      },
+      "suggested_review_focus": "mutlak_deger",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 22,
+      "video_id": "2jVU6bnyfg8",
+      "term_counts": {
+        "dogrusal": 18,
+        "mutlak_deger": 0,
+        "esitsizlik": 0,
+        "fonksiyon": 198
+      },
+      "suggested_review_focus": "dogrusal_fonksiyon",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 23,
+      "video_id": "FcBceq3VyX8",
+      "term_counts": {
+        "dogrusal": 0,
+        "mutlak_deger": 15,
+        "esitsizlik": 6,
+        "fonksiyon": 150
+      },
+      "suggested_review_focus": "mutlak_deger",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 24,
+      "video_id": "GLE_AONYjkg",
+      "term_counts": {
+        "dogrusal": 15,
+        "mutlak_deger": 0,
+        "esitsizlik": 24,
+        "fonksiyon": 87
+      },
+      "suggested_review_focus": "esitsizlik",
+      "status": "needs_manual_curriculum_review"
+    },
+    {
+      "position": 25,
+      "video_id": "twBSWND33J4",
+      "term_counts": {
+        "dogrusal": 0,
+        "mutlak_deger": 42,
+        "esitsizlik": 18,
+        "fonksiyon": 24
+      },
+      "suggested_review_focus": "mutlak_deger",
+      "status": "needs_manual_curriculum_review"
+    }
+  ]
+}
