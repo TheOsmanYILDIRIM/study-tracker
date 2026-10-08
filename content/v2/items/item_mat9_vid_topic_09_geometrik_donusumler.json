@@ -7,10 +7,10 @@
   "displayLabel": "9.1",
   "orderKey": 1000,
   "title": "Geometrik Dönüşümler",
-  "contentUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+  "contentUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "SORU ÇÖZÜM KANALI",
     "topic": "Geometrik Dönüşümler",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -25,22 +25,24 @@
         "Geometrik Dönüşümler",
         "Geometrik Dönüşümler • Eşlik ve Benzerlik Koşulları"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli",
       "fingerprint": "82fde7766e2f47dd",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=VWSO0XMx7tQ",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_09_geometrik_donusumler.tr.tr.vtt",
-      "transcriptFingerprint": "2ad01955011f72cc",
       "reviewedOverride": true,
       "sharedSource": true,
-      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı"
+      "sharedSourceReason": "Geometrik dönüşümler: öteleme, yansıma ve dönme dönüşümleri konu anlatımı ortak video kapsamı",
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=k0yL5iVZiAQ",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 33,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "teacher": "Rehber Matematik",
-    "verifiedLectureTitle": "Geometrik Dönüşümler | 9.Sınıf Matematik 4.Tema Eşlik ve Benzerlik | 1.Ders | Maarif Modeli"
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
