@@ -7,10 +7,10 @@
   "displayLabel": "17.1",
   "orderKey": 1000,
   "title": "Tek Nicel Değişkenli Veri Dağılımları",
-  "contentUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+  "contentUrl": "https://www.youtube.com/watch?v=HUj-T1MsSmA",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "İlyas Güneş",
     "topic": "Tek Nicel Değişkenli Veri Dağılımları",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -29,17 +29,21 @@
         "Tek Nicel Değişkenli Veri Dağılımları",
         "Başkaları Tarafından Oluşturulan Tek Nicel Değişkenli Veri Dağılımlarını İnceleme • Deneysel Olasılık"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": 4.4,
       "videoCandidateTitle": "İstatistik 1 | 6.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
       "fingerprint": "45909eb3b6e78221",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=HUj-T1MsSmA",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_17_tek_nicel_degiskenli_veri_dagilimlari.tr.tr.vtt",
-      "transcriptFingerprint": "b7ba271a128afd1b"
-    }
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=IBjCKTtZ0ME",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 50,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
