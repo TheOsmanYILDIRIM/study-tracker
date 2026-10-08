@@ -1,0 +1,46 @@
+name: Validate Mathematics video source swap
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/v2/items/item_mat9_vid_*.json'
+      - '.github/workflows/validate-math9-video-swap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate replacement coverage and preserve unmatched topics
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          items = sorted(Path('content/v2/items').glob('item_mat9_vid_*.json'))
+          videos = [json.loads(p.read_text(encoding='utf-8')) for p in items if not p.name.endswith('__quiz.json')]
+          replaced = [v for v in videos if v.get('payload',{}).get('provenance',{}).get('sourcePlaylistId') == 'PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II']
+          remaining = [v for v in videos if v not in replaced]
+          assert len(videos)==29, len(videos)
+          assert len(replaced)==24, len(replaced)
+          assert len(remaining)==5, len(remaining)
+          assert all(v['itemType']=='VIDEO' and v['courseId']=='course_mat_9' for v in videos)
+          assert all(v['contentUrl'].startswith('https://www.youtube.com/watch?v=') for v in replaced)
+          assert all(v['payload']['provenance']['quizRegroundingStatus']=='pending' for v in replaced)
+          print('PASS: 24 replaced, 5 retained due to missing direct curriculum coverage')
+          print('Retained:', ', '.join(v['id'] for v in remaining))
+          PY
+      - name: Compile existing V2 catalog and validate CLI
+        run: |
+          node scripts/compile-v2-catalog.cjs
+          node cli/test-v2.js
