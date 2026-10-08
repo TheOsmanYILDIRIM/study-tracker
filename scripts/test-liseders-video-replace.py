@@ -120,6 +120,37 @@ class VideoReplacementTests(unittest.TestCase):
         self.assertEqual((self.v2 / "items" / (self.quiz_id + ".json")).read_bytes(), before_quiz)
         self.assertEqual((self.v2 / "lessons" / (self.lesson_id + ".json")).read_bytes(), before_lesson)
 
+    def test_cli_apply_updates_only_existing_video_file(self):
+        import subprocess
+        import sys
+        manifest = self.root / "mapping.json"
+        approvals = self.root / "approved.json"
+        manifest.write_text(json.dumps(self.mapping, ensure_ascii=False), encoding="utf-8")
+        approvals.write_text(json.dumps(self.approvals, ensure_ascii=False), encoding="utf-8")
+        existing_paths = sorted(p for p in self.v2.rglob("*.json"))
+        before = {p.relative_to(self.v2): p.read_bytes() for p in existing_paths}
+        cmd = [
+            sys.executable, str(HERE / "replace-liseders-math-videos.py"),
+            "--root", str(self.root), "--mapping", str(manifest),
+            "--approvals", str(approvals)
+        ]
+        result = subprocess.run(cmd + ["--apply"], text=True, capture_output=True, check=True)
+        report = json.loads(result.stdout)
+        self.assertEqual(report["replace_count"], 1)
+        self.assertTrue(report["applied"])
+        after_paths = sorted(p for p in self.v2.rglob("*.json"))
+        self.assertEqual(existing_paths, after_paths)
+        changed = {p.relative_to(self.v2) for p in existing_paths
+                   if p.read_bytes() != before[p.relative_to(self.v2)]}
+        self.assertEqual(changed, {Path("items") / f"{self.video_id}.json"})
+        item = replacement.read(self.v2 / "items" / f"{self.video_id}.json")
+        self.assertEqual(item["contentUrl"], self.new_url)
+        self.assertEqual(item["title"], self.original_video["title"])
+        self.assertEqual(item["stableKey"], self.original_video["stableKey"])
+        again = subprocess.run(cmd + ["--apply"], text=True, capture_output=True, check=True)
+        self.assertEqual(json.loads(again.stdout)["unchanged_count"], 1)
+        self.assertEqual(json.loads(again.stdout)["replace_count"], 0)
+
     def test_concurrent_old_url_change_is_rejected(self):
         a = copy.deepcopy(self.approvals)
         a["approvals"][0]["expected_old_url"] = "https://www.youtube.com/watch?v=AAAAAAAAAAA"
