@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Validate source SVG and Android launcher vectors
+        run: node scripts/test-branding.cjs
+
       - name: Install Android API 36
         run: |
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
