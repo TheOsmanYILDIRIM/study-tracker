@@ -7,24 +7,28 @@
   "displayLabel": "1.6",
   "orderKey": 6000,
   "title": "Kesirli Üslü ve Köklü İfadeler",
-  "contentUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+  "contentUrl": "https://www.youtube.com/watch?v=yw27-zHllXA",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "İlyas Güneş",
     "topic": "Köklü İfadeler 2",
     "provenance": {
       "sourceRef": "10-Projects/1_ay_matematik_khan_academy_videolari.md#L28",
       "sourceSection": "2. Hafta: Üslü Sayılarda İşlemler & Köklü Sayılar (Rehber Matematik Maarif Modeli)",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "curated",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "f2b5f73128476d91",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.txt",
-      "transcriptFingerprint": "701580fd7642654a",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_rasyonel_usler.tr.tr.vtt"
-    }
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=yw27-zHllXA",
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=bXlsejMNF5w",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 11,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
