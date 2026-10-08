@@ -896,7 +896,7 @@
               "displayLabel": "2.1",
               "orderKey": 1000,
               "title": "Gerçek Sayı Aralıkları & Gösterim",
-              "contentUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+              "contentUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -904,15 +904,27 @@
                   "sourceSection": "3. Hafta: Aralıklar, Haritalar ve Atomun Dünyası",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "partial_topic_match_needs_followup",
                   "fingerprint": "61349661ecacb396",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_araliklar_gosterim.tr.tr.vtt",
-                  "transcriptFingerprint": "8b626f71936a91a8"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=TNw7eEas9Oo",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 24,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending",
+                  "transcriptEvidenceRange": {
+                    "start": "00:02:28",
+                    "end": "00:05:20",
+                    "description": "Açık/kapalı aralık ve eşitsizlik çözüm kümesi gösterimi; temel gerçek sayı aralıklarının tüm kapsamı değildir."
+                  },
+                  "sharedSource": true,
+                  "sharedSourceReason": "Video 24: doğrusal eşitsizlik çözüm aralıkları ve kesişim/birleşim uygulamaları; Açık/kapalı aralık ve eşitsizlik çözüm kümesi gösterimi; temel gerçek sayı aralıklarının tüm kapsamı değildir."
+                },
+                "reviewStatus": "partial_topic_match_needs_followup",
+                "teacher": "İlyas Güneş",
+                "provider": "İlyas Güneş"
               }
             },
             {
@@ -1010,7 +1022,7 @@
               "displayLabel": "2.2",
               "orderKey": 3000,
               "title": "Aralık Farkı ve Eşitsizlik Problemleri",
-              "contentUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+              "contentUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
               "publishingStatus": "active",
               "payload": {
                 "provenance": {
@@ -1018,15 +1030,27 @@
                   "sourceSection": "4. Hafta: Bilim İnsanları, Periyodik Sistem ve 1. Ay Kapanışı",
                   "importedAt": "2026-10-02T09:00:00.000Z",
                   "schemaVersion": "v2",
-                  "reviewStatus": "verified",
+                  "reviewStatus": "partial_topic_match_needs_followup",
                   "fingerprint": "38986b05f958b3b9",
-                  "sourceVideoUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=GLE_AONYjkg",
                   "transcriptLanguage": "tr",
                   "transcriptKind": "subtitle",
-                  "transcriptPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.txt",
-                  "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_aralik_farki.tr.tr.vtt",
-                  "transcriptFingerprint": "fa715604932cb476"
-                }
+                  "previousSourceVideoUrl": "https://www.youtube.com/watch?v=drPKmUSKYCI",
+                  "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+                  "playlistPosition": 24,
+                  "transcriptStatus": "user_supplied_transcript_available",
+                  "quizRegroundingStatus": "pending",
+                  "transcriptEvidenceRange": {
+                    "start": "00:33:30",
+                    "end": "00:36:00",
+                    "description": "Kesişim ve birleşim bağlamında kümeler/çözüm kümeleri; aralık farkı işleminin eksiksiz anlatımı doğrulanmadı."
+                  },
+                  "sharedSource": true,
+                  "sharedSourceReason": "Video 24: doğrusal eşitsizlik çözüm aralıkları ve kesişim/birleşim uygulamaları; Kesişim ve birleşim bağlamında kümeler/çözüm kümeleri; aralık farkı işleminin eksiksiz anlatımı doğrulanmadı."
+                },
+                "reviewStatus": "partial_topic_match_needs_followup",
+                "teacher": "İlyas Güneş",
+                "provider": "İlyas Güneş"
               }
             },
             {
@@ -2014,7 +2038,9 @@
                   "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
                   "playlistPosition": 24,
                   "transcriptStatus": "user_supplied_transcript_available",
-                  "quizRegroundingStatus": "pending"
+                  "quizRegroundingStatus": "pending",
+                  "sharedSource": true,
+                  "sharedSourceReason": "Video 24: doğrusal eşitsizlik çözüm aralıkları ve kesişim/birleşim uygulamaları; Doğrusal eşitsizlik çözüm kümeleri ve aralık gösterimleri ile ortak anlatım."
                 },
                 "teacher": "İlyas Güneş",
                 "reviewStatus": "topic_aligned_quiz_revalidation_required"
