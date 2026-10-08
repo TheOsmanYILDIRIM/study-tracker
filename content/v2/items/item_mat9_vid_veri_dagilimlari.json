@@ -7,7 +7,7 @@
   "displayLabel": "7.1",
   "orderKey": 1000,
   "title": "Tek Nicel Değişkenli Veri Dağılımları ve Grafik Yorumlama",
-  "contentUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+  "contentUrl": "https://www.youtube.com/watch?v=PLSStRWKlD0",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,7 +15,7 @@
       "sourceSection": "Tek Nicel Değişkenli Veri Dağılımları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "c3eafe06022cf0c4",
       "sourceWeeks": [
         30,
@@ -24,14 +24,18 @@
       "sourceTheme": "ALGORİTMA VE BİLİŞİM / ALGORİTMA VE BİLİŞİM İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
       "videoSearchScore": 6.79,
       "videoCandidateTitle": "Sayı Kümeleri 6: Mantık | 2028 Maarif Model Matematik",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PLSStRWKlD0",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_veri_dagilimlari.tr.tr.vtt",
-      "transcriptFingerprint": "887270a366a91271"
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=x0Ad7dDKdMs",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 46,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik",
-    "topic": "Mantık Bağlaçları ve Niceleyiciler"
+    "provider": "İlyas Güneş",
+    "topic": "Mantık Bağlaçları ve Niceleyiciler",
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
