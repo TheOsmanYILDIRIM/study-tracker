@@ -140,3 +140,10 @@ Bu sistem bir **Termux / Android Linux** ortamında çalışmaktadır. Komutlar 
 - Build workflow no longer runs twice for feature-branch push + PR; feature/main push remains the build trigger.
 - Staging and worker deploy workflows now cancel stale in-progress runs for the same ref.
 - Goal: preserve APK/deploy coverage while reducing redundant GitHub Actions usage.
+
+## V2 Matematik Video Kaynağı Değiştirme Kuralı
+- LiseDers playlistleri, mevcut 9. sınıf matematik VIDEO kartlarını **değiştirmek** için kaynak/aday havuzudur. Yeni ders/item oluşturma akışını öğretmen değiştirme amacıyla kullanma.
+- Video güncellemesi yalnız mevcut `id`/`stableKey`/`lessonId`/`orderKey` değerlerini ve öğrenci ilerlemesini koruyan `scripts/replace-liseders-math-videos.py` üzerinden yapılır.
+- Başlık/playlist sırası eşleşme kanıtı değildir. İnsan tarafından video alt konusu, öğretmen ve ilişkili quiz kapsamı onaylanmalı; eski URL'ye karşı optimistic lock uygulanmalı.
+- `transcript_grounded` quizleri yeni videonun transkriptinden üretilmiş gibi etiketleme. Tarihsel quiz kaynağını koru, kaynak farklılığını inceleme raporuna yaz.
+- GitHub katalog commit'i Cloudflare KV canlı veri dağıtımı değildir. Yayına geçiş ayrı, geçmişi koruyan V2 seed/diff/apply kontrolü gerektirir.
