@@ -1,0 +1,29 @@
+name: Validate Math 9 transcript draft
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-math9-transcript-draft.py'
+      - 'scripts/test-math9-transcript-draft.py'
+      - '.github/workflows/math9-transcript-draft.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  draft-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify draft generation with synthetic 60-video ZIP
+        run: python scripts/test-math9-transcript-draft.py
+      - name: Verify existing V2 catalog unaffected
+        run: |
+          node scripts/compile-v2-catalog.cjs
+          node cli/test-v2.js
