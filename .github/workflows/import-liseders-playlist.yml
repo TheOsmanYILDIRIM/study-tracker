@@ -1,29 +1,30 @@
-name: Import reviewed LiseDers playlist
+name: Review and replace existing Math 9 videos
 
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/import-liseders-playlist.yml'
-      - 'scripts/import-liseders-playlist.py'
-      - 'content/v2/playlist-imports/*.approvals.json'
+      - 'scripts/replace-liseders-math-videos.py'
+      - 'scripts/test-liseders-video-replace.py'
+      - 'content/v2/playlist-imports/ilyas-gunes-mat9.replacements.json'
   workflow_dispatch:
     inputs:
-      publish_approved:
-        description: Apply manually reviewed mappings and commit a validated V2 catalog to main
+      apply_replacements:
+        description: Replace only the explicitly reviewed existing Math 9 VIDEO URLs (never create cards)
         required: true
-        default: false
         type: boolean
+        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: studytracker-reviewed-playlist-${{ github.ref }}
+  group: studytracker-math9-video-replacement-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  reviewed-import:
+  review-and-replace:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -41,78 +42,103 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Locate and validate source mapping and reviewed approvals
+      - name: Test replacement-only safeguards
+        run: python scripts/test-liseders-video-replace.py
+      - name: Validate playlist and manual approval contract
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           import json
           from pathlib import Path
-          source = Path("liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json")
-          approvals = Path("content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json")
-          m = json.loads(source.read_text(encoding="utf-8"))
-          a = json.loads(approvals.read_text(encoding="utf-8"))
-          expected = "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II"
-          if m.get("playlist_id") != expected or m.get("course_id") != "course_mat_9" or m.get("schema_version") != 1:
-              raise SystemExit("Unexpected source playlist/course/schema")
-          if a.get("playlist_id") != expected or not isinstance(a.get("approvals"), list):
-              raise SystemExit("Unexpected review approvals file")
-          print(f"Source videos: {len(m['videos'])}, reviewed approvals: {len(a['approvals'])}")
+          playlist = 'PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II'
+          src = Path(f'liseders-source/data/video_playlists/{playlist}/topic-matches.json')
+          approvals = Path('content/v2/playlist-imports/ilyas-gunes-mat9.replacements.json')
+          mapping = json.loads(src.read_text(encoding='utf-8'))
+          reviewed = json.loads(approvals.read_text(encoding='utf-8'))
+          assert mapping.get('playlist_id') == playlist
+          assert mapping.get('course_id') == 'course_mat_9'
+          assert reviewed.get('mode') == 'replace_existing_only'
+          assert reviewed.get('playlist_id') == playlist
+          print(f"Playlist videos: {len(mapping['videos'])}; approved replacements: {len(reviewed['approvals'])}")
           PY
-      - name: Dry-run reviewed V2 import
+      - name: Generate manual replacement review matrix and dry-run report
+        shell: bash
         run: |
-          python scripts/import-liseders-playlist.py \
+          set -euo pipefail
+          mkdir -p review-output
+          python scripts/replace-liseders-math-videos.py \
             --root . \
             --mapping liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json \
-            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json \
-            --report reviewed-import-dry-run.json
-      - name: Apply explicitly reviewed video items
-        if: inputs.publish_approved == true
+            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.replacements.json \
+            --review-csv review-output/math9-video-replacement-candidates.csv \
+            --report review-output/math9-video-replacement-dry-run.json
+      - name: Apply only manually approved source swaps
+        if: inputs.apply_replacements == true
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           import json
           from pathlib import Path
-          a = json.loads(Path('content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json').read_text())
-          if not a["approvals"]:
-              raise SystemExit("No reviewed approvals. Refusing to publish empty import.")
+          approval = json.loads(Path('content/v2/playlist-imports/ilyas-gunes-mat9.replacements.json').read_text(encoding='utf-8'))
+          if not approval['approvals']:
+              raise SystemExit('No reviewed replacements; refusing to alter existing cards')
           PY
-          python scripts/import-liseders-playlist.py \
+          python scripts/replace-liseders-math-videos.py \
             --root . \
             --mapping liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json \
-            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json \
-            --report reviewed-import-applied.json --apply
-      - name: Validate modular V2 sources and compile catalog
+            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.replacements.json \
+            --report review-output/math9-video-replacement-applied.json --apply
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          paths = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
+          for name in paths:
+              if not (name.startswith('content/v2/items/item_mat9_')
+                      and name.endswith('.json') and not name.endswith('__quiz.json')):
+                  raise SystemExit(f'Unexpected edited file: {name}')
+              import json
+              obj = json.loads(Path(name).read_text(encoding='utf-8'))
+              if obj.get('itemType') != 'VIDEO' or obj.get('courseId') != 'course_mat_9':
+                  raise SystemExit(f'Not an existing mathematics VIDEO: {name}')
+          print(f'Changed existing VIDEO files only: {len(paths)}')
+          PY
+      - name: Verify existing modular catalog and CLI contract
         shell: bash
         run: |
           set -euo pipefail
           node scripts/compile-v2-catalog.cjs
           node cli/test-v2.js
-          node scripts/generate-video-audit.cjs
-      - name: Upload dry-run audit and compiled catalog
+      - name: Publish review files and compiled catalog as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: studytracker-liseders-import-review
+          name: studytracker-math9-video-replacement-review
           path: |
-            reviewed-import-dry-run.json
-            reviewed-import-applied.json
+            review-output/
             content/9-sinif-v2-catalog.json
-            content/v2/video-quality-audit.json
           retention-days: 14
           if-no-files-found: error
-      - name: Commit validated, reviewed changes only
-        if: inputs.publish_approved == true
+      - name: Commit reviewed VIDEO URL changes only
+        if: inputs.apply_replacements == true
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/v2/items/ content/v2/lessons/ content/9-sinif-v2-catalog.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('review-output/math9-video-replacement-applied.json')
+          result = json.loads(p.read_text(encoding='utf-8'))
+          if result.get('replace_count', 0) < 1:
+              print('No source URL replacements; nothing to commit.')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/v2/items/item_mat9_*.json content/9-sinif-v2-catalog.json
           if git diff --cached --quiet; then
-            echo "No new items; repository already contains all reviewed videos."
+            echo 'No changes to published Math 9 videos.'
             exit 0
           fi
-          git commit -m "content: import reviewed LiseDers lecture videos"
+          git commit -m 'content: replace reviewed Math 9 video sources without changing item IDs'
           git pull --rebase origin main
           git push origin HEAD:main
