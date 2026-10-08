@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Verify vector icon and simplified V2 launch integration
+        run: node scripts/test-branding.cjs
+
       - name: Install Android API 36
         run: |
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
