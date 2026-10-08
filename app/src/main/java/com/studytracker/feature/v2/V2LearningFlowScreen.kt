@@ -703,8 +703,10 @@ internal fun LearningItemPuzzleCard(
         ItemType.ANKI -> Triple(Icons.Default.Layers, ZenLavender, "Anki Kartları")
     }
 
+    val completed = itemProgress.state == V2ItemState.COMPLETED
+    val completedGray = Color(0xFF969AA5)
     val (cardBorderColor, cardAlpha) = when (itemProgress.state) {
-        V2ItemState.COMPLETED -> Pair(ZenForestGreen.copy(alpha = 0.5f), 0.95f)
+        V2ItemState.COMPLETED -> Pair(completedGray.copy(alpha = 0.65f), 0.97f)
         V2ItemState.AVAILABLE -> if (isNextItem) Pair(ZenMoonGold, 0.95f) else Pair(ZenNightBorder, 0.85f)
         V2ItemState.LOCKED_BY_PREREQUISITE -> Pair(ZenNightBorder.copy(alpha = 0.3f), 0.6f)
         V2ItemState.ARCHIVED -> Pair(ZenNightBorder.copy(alpha = 0.2f), 0.4f)
@@ -716,7 +718,9 @@ internal fun LearningItemPuzzleCard(
             .clip(RoundedCornerShape(16.dp))
             .clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = ZenNightSurface.copy(alpha = cardAlpha)),
+        colors = CardDefaults.cardColors(
+            containerColor = if (completed) Color(0xFF34373F) else ZenNightSurface.copy(alpha = cardAlpha)
+        ),
         border = BorderStroke(if (isNextItem) 1.5.dp else 1.dp, cardBorderColor)
     ) {
         Row(
@@ -726,7 +730,7 @@ internal fun LearningItemPuzzleCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Keep the visual identity even after completion; status is an overlay.
+            // Keep the cached thumbnail and one-tap action; mute it visually when complete.
             val version = item.currentVersion
             val videoUrl = if (item.itemType == ItemType.VIDEO) {
                 version?.contentUrl ?: V2ProgressEngine.parseVideoPayload(version?.payloadJson).url
@@ -759,13 +763,20 @@ internal fun LearningItemPuzzleCard(
                         videoUrl = videoUrl,
                         modifier = Modifier.fillMaxSize()
                     )
-                    if (itemProgress.state == V2ItemState.COMPLETED) {
+                    if (completed) {
+                        Box(
+                            modifier = Modifier.fillMaxSize()
+                                .clip(RoundedCornerShape(12.dp))
+                                .background(Color(0xA43E4049))
+                        )
+                    }
+                    if (completed) {
                         Box(
                             modifier = Modifier
                                 .align(Alignment.TopEnd)
                                 .padding(3.dp)
                                 .size(20.dp)
-                                .background(ZenForestGreen, CircleShape),
+                                .background(Color(0xFF868A95), CircleShape),
                             contentAlignment = Alignment.Center
                         ) {
                             Icon(
@@ -788,20 +799,20 @@ internal fun LearningItemPuzzleCard(
                     Text(
                         text = item.displayLabel,
                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                        color = ZomoTextPrimary
+                        color = if (completed) Color(0xFFD1D2D7) else ZomoTextPrimary
                     )
 
                     // Type tag
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(6.dp))
-                            .background(typeColor.copy(alpha = 0.15f))
+                            .background((if (completed) completedGray else typeColor).copy(alpha = 0.15f))
                             .padding(horizontal = 6.dp, vertical = 2.dp)
                     ) {
                         Text(
                             text = typeName,
                             style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.SemiBold),
-                            color = typeColor
+                            color = if (completed) completedGray else typeColor
                         )
                     }
 
@@ -824,16 +835,16 @@ internal fun LearningItemPuzzleCard(
                 Text(
                     text = item.currentVersion?.title ?: item.displayLabel,
                     style = MaterialTheme.typography.bodySmall,
-                    color = ZomoTextSecondary,
+                    color = if (completed) completedGray else ZomoTextSecondary,
                     maxLines = 1
                 )
 
                 if (itemProgress.state == V2ItemState.COMPLETED) {
                     val scoreText = if (itemProgress.bestScore != null) " • Puan: %${itemProgress.bestScore.toInt()}" else ""
                     Text(
-                        text = "Tamamlandı$scoreText",
+                        text = "✓ Tamamlandı$scoreText",
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                        color = ZenForestGreen
+                        color = Color(0xFFD1D2D7)
                     )
                 } else if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
                     Text(
