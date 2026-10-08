@@ -637,8 +637,10 @@ private fun LearningItemPuzzleCard(
         ItemType.ANKI -> Triple(Icons.Default.Layers, ZenLavender, "Anki Kartları")
     }
 
+    val completed = itemProgress.state == V2ItemState.COMPLETED
+    val muted = Color(0xFF92959F)
     val (cardBorderColor, cardAlpha) = when (itemProgress.state) {
-        V2ItemState.COMPLETED -> Pair(ZenForestGreen.copy(alpha = 0.5f), 0.95f)
+        V2ItemState.COMPLETED -> Pair(muted.copy(alpha = 0.55f), 0.95f)
         V2ItemState.AVAILABLE -> if (isNextItem) Pair(ZenMoonGold, 0.95f) else Pair(ZenNightBorder, 0.85f)
         V2ItemState.LOCKED_BY_PREREQUISITE -> Pair(ZenNightBorder.copy(alpha = 0.3f), 0.6f)
         V2ItemState.ARCHIVED -> Pair(ZenNightBorder.copy(alpha = 0.2f), 0.4f)
@@ -650,7 +652,7 @@ private fun LearningItemPuzzleCard(
             .clip(RoundedCornerShape(16.dp))
             .clickable { onClick() },
         shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = ZenNightSurface.copy(alpha = cardAlpha)),
+        colors = CardDefaults.cardColors(containerColor = if (completed) Color(0xFF34373F) else ZenNightSurface.copy(alpha = cardAlpha)),
         border = BorderStroke(if (isNextItem) 1.5.dp else 1.dp, cardBorderColor)
     ) {
         Row(
@@ -664,7 +666,7 @@ private fun LearningItemPuzzleCard(
             Box(
                 modifier = Modifier
                     .size(44.dp)
-                    .background(typeColor.copy(alpha = 0.15f), CircleShape),
+                    .background((if (completed) muted else typeColor).copy(alpha = 0.15f), CircleShape),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
@@ -675,7 +677,7 @@ private fun LearningItemPuzzleCard(
                     },
                     contentDescription = null,
                     tint = when (itemProgress.state) {
-                        V2ItemState.COMPLETED -> ZenForestGreen
+                        V2ItemState.COMPLETED -> muted
                         V2ItemState.LOCKED_BY_PREREQUISITE -> Color.Gray
                         else -> typeColor
                     },
@@ -692,20 +694,20 @@ private fun LearningItemPuzzleCard(
                     Text(
                         text = item.displayLabel,
                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                        color = ZomoTextPrimary
+                        color = if (completed) Color(0xFFD0D1D6) else ZomoTextPrimary
                     )
 
                     // Type tag
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(6.dp))
-                            .background(typeColor.copy(alpha = 0.15f))
+                            .background((if (completed) muted else typeColor).copy(alpha = 0.15f))
                             .padding(horizontal = 6.dp, vertical = 2.dp)
                     ) {
                         Text(
                             text = typeName,
                             style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, fontWeight = FontWeight.SemiBold),
-                            color = typeColor
+                            color = if (completed) muted else typeColor
                         )
                     }
 
@@ -728,16 +730,16 @@ private fun LearningItemPuzzleCard(
                 Text(
                     text = item.currentVersion?.title ?: item.displayLabel,
                     style = MaterialTheme.typography.bodySmall,
-                    color = ZomoTextSecondary,
+                    color = if (completed) muted else ZomoTextSecondary,
                     maxLines = 1
                 )
 
                 if (itemProgress.state == V2ItemState.COMPLETED) {
                     val scoreText = if (itemProgress.bestScore != null) " • Puan: %${itemProgress.bestScore.toInt()}" else ""
                     Text(
-                        text = "Tamamlandı$scoreText",
+                        text = "✓ Tamamlandı$scoreText",
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                        color = ZenForestGreen
+                        color = Color(0xFFD0D1D6)
                     )
                 } else if (itemProgress.state == V2ItemState.LOCKED_BY_PREREQUISITE) {
                     Text(
