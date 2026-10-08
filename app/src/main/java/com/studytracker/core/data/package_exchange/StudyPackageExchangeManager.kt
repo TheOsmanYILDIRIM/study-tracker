@@ -873,17 +873,15 @@ object StudyPackageExchangeManager {
                             val itemType = runCatching { ItemType.valueOf(item.itemType.uppercase()) }
                                 .getOrElse { throw IllegalArgumentException("Geçersiz V2 öğe tipi: ${item.itemType}") }
 
-                            val fingerprint = runCatching {
-                                item.payload
-                                    ?.jsonObject
-                                    ?.get("provenance")
-                                    ?.jsonObject
-                                    ?.get("fingerprint")
-                                    ?.jsonPrimitive
-                                    ?.contentOrNull
-                            }.getOrNull()?.take(16) ?: "import"
-
-                            val versionId = "ver_${item.id}_$fingerprint"
+                            // Version identity must change when the actual video URL,
+                            // title or payload changes, regardless of a stale source fingerprint.
+                            // Existing item IDs and student attempts remain untouched.
+                            val versionId = V2CatalogVersionIdentity.versionId(
+                                itemId = item.id,
+                                title = item.title.ifBlank { item.displayLabel },
+                                contentUrl = item.contentUrl,
+                                payloadJson = item.payload?.toString()
+                            )
                             val existingVersions = db.learningItemVersionDao().getVersionsForItemOnce(item.id)
                             val existingVersion = existingVersions.firstOrNull { it.id == versionId }
                             val versionNumber = existingVersion?.versionNumber
