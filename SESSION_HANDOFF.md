@@ -24,3 +24,9 @@ Updated: 2026-10-08 (GitHub main)
 
 ## Next step
 Design and test an append-only attempt retrieval/reconciliation strategy under concurrent writes and partial KV failures before changing production write semantics. Prefer narrowly scoped, test-backed improvements. Keep `AGENTS.md` for stable rules and this file for transient state.
+
+## 2026-10-08 — V2 navigation and completion UI
+- `d047c13`: V2 lessons now derive each lesson's items from the already collected family item list instead of starting a separate Room collector for every list row; resume uses immediate `scrollToItem` rather than slow animated scrolling.
+- `1eeaa9a`: completed V2 learning item cards use muted gray card, type icon, labels and an explicit checkmark. This is presentation-only; attempts are unchanged.
+- Verification: GitHub commits confirmed; Android build and real-device latency measurement **not yet run**. Never promise literal 0 ms: asynchronous Room and first-load rendering still take finite time.
+- Next: measure tap-to-first-content on device; reuse cached course/lesson/attempt state across navigation, eliminate additional per-card Room subscriptions, and implement short content-aware enter transition if perceptual latency remains.
