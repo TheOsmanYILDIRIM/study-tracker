@@ -23869,7 +23869,7 @@
       "subject": "Türk Dili ve Edebiyatı",
       "gradeLevel": 9,
       "orderKey": 9000,
-      "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf TDE Müfredatı (Sözün İnceliği, Anlam Arayışı, Yapı Taşları, Roman)",
+      "description": "MEB Türkiye Yüzyılı Maarif Modeli 9. Sınıf TDE Müfredatı (Sözün İnceliği, Anlam Arayışı, Yapı Taşları, Roman) | Aker Kartal TYT Türkçe 2027 konu bazlı video hattı (TYT kaynak; Maarif eşdeğerliği otomatik değildir).",
       "visual": {
         "coverUrl": "https://raw.githubusercontent.com/TheOsmanYILDIRIM/study-tracker/main/content/v2/assets/covers/tde9_kapak.webp",
         "coverVariants": [],
@@ -23880,6 +23880,1806 @@
         "textColor": "#FFFFFF"
       },
       "lessons": [
+        {
+          "id": "lesson_tde9_aker2027_01",
+          "stableKey": "lesson_tde9_aker2027_01",
+          "title": "Aker Kartal — Giriş",
+          "orderKey": 10,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_01",
+              "stableKey": "tde9_aker2027_video_01",
+              "itemType": "VIDEO",
+              "displayLabel": "1.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Giriş · Derse giriş",
+              "contentUrl": "https://www.youtube.com/watch?v=JiIDhhHGRJo",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 1,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=JiIDhhHGRJo",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_02",
+          "stableKey": "lesson_tde9_aker2027_02",
+          "title": "Aker Kartal — Ses Bilgisi",
+          "orderKey": 20,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_02",
+              "stableKey": "tde9_aker2027_video_02",
+              "itemType": "VIDEO",
+              "displayLabel": "2.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 2",
+              "contentUrl": "https://www.youtube.com/watch?v=juJFHVk7ieE",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 2,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=juJFHVk7ieE",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_03",
+              "stableKey": "tde9_aker2027_video_03",
+              "itemType": "VIDEO",
+              "displayLabel": "2.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 3",
+              "contentUrl": "https://www.youtube.com/watch?v=_jpMxZQ3PF0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 3,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=_jpMxZQ3PF0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_04",
+              "stableKey": "tde9_aker2027_video_04",
+              "itemType": "VIDEO",
+              "displayLabel": "2.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 4",
+              "contentUrl": "https://www.youtube.com/watch?v=L0LrvZN0iqY",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 4,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=L0LrvZN0iqY",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_05",
+              "stableKey": "tde9_aker2027_video_05",
+              "itemType": "VIDEO",
+              "displayLabel": "2.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 5",
+              "contentUrl": "https://www.youtube.com/watch?v=Ym4ZBYlY6Q8",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 5,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Ym4ZBYlY6Q8",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_06",
+              "stableKey": "tde9_aker2027_video_06",
+              "itemType": "VIDEO",
+              "displayLabel": "2.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 6",
+              "contentUrl": "https://www.youtube.com/watch?v=pDJsRjdzzlc",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 6,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=pDJsRjdzzlc",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_07",
+              "stableKey": "tde9_aker2027_video_07",
+              "itemType": "VIDEO",
+              "displayLabel": "2.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 7",
+              "contentUrl": "https://www.youtube.com/watch?v=HNLnHGWoa5U",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 7,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=HNLnHGWoa5U",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_08",
+              "stableKey": "tde9_aker2027_video_08",
+              "itemType": "VIDEO",
+              "displayLabel": "2.7",
+              "orderKey": 7000,
+              "title": "Aker Kartal 2027 — Ses Bilgisi · Video 8",
+              "contentUrl": "https://www.youtube.com/watch?v=1EHh06Rm6j0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 8,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=1EHh06Rm6j0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_03",
+          "stableKey": "lesson_tde9_aker2027_03",
+          "title": "Aker Kartal — Yazım Kuralları",
+          "orderKey": 30,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_09",
+              "stableKey": "tde9_aker2027_video_09",
+              "itemType": "VIDEO",
+              "displayLabel": "3.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 9",
+              "contentUrl": "https://www.youtube.com/watch?v=X--d21iqVcc",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 9,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=X--d21iqVcc",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_10",
+              "stableKey": "tde9_aker2027_video_10",
+              "itemType": "VIDEO",
+              "displayLabel": "3.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 10",
+              "contentUrl": "https://www.youtube.com/watch?v=SrjCETJKxPc",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 10,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=SrjCETJKxPc",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_11",
+              "stableKey": "tde9_aker2027_video_11",
+              "itemType": "VIDEO",
+              "displayLabel": "3.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 11",
+              "contentUrl": "https://www.youtube.com/watch?v=U3rtA9J_9Po",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 11,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=U3rtA9J_9Po",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_12",
+              "stableKey": "tde9_aker2027_video_12",
+              "itemType": "VIDEO",
+              "displayLabel": "3.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 12",
+              "contentUrl": "https://www.youtube.com/watch?v=vXa24tRYd54",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 12,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=vXa24tRYd54",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_13",
+              "stableKey": "tde9_aker2027_video_13",
+              "itemType": "VIDEO",
+              "displayLabel": "3.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 13",
+              "contentUrl": "https://www.youtube.com/watch?v=VG7kNIjOym0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 13,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=VG7kNIjOym0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_14",
+              "stableKey": "tde9_aker2027_video_14",
+              "itemType": "VIDEO",
+              "displayLabel": "3.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 14",
+              "contentUrl": "https://www.youtube.com/watch?v=yrDGepjFQjs",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 14,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yrDGepjFQjs",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_15",
+              "stableKey": "tde9_aker2027_video_15",
+              "itemType": "VIDEO",
+              "displayLabel": "3.7",
+              "orderKey": 7000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 15",
+              "contentUrl": "https://www.youtube.com/watch?v=A4TnHAFVMwg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 15,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=A4TnHAFVMwg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_16",
+              "stableKey": "tde9_aker2027_video_16",
+              "itemType": "VIDEO",
+              "displayLabel": "3.8",
+              "orderKey": 8000,
+              "title": "Aker Kartal 2027 — Yazım Kuralları · Video 16",
+              "contentUrl": "https://www.youtube.com/watch?v=_yoaoMfjrX8",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 16,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=_yoaoMfjrX8",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_04",
+          "stableKey": "lesson_tde9_aker2027_04",
+          "title": "Aker Kartal — Noktalama İşaretleri",
+          "orderKey": 40,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_17",
+              "stableKey": "tde9_aker2027_video_17",
+              "itemType": "VIDEO",
+              "displayLabel": "4.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 17",
+              "contentUrl": "https://www.youtube.com/watch?v=CpCxBmpQdjM",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 17,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=CpCxBmpQdjM",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_18",
+              "stableKey": "tde9_aker2027_video_18",
+              "itemType": "VIDEO",
+              "displayLabel": "4.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 18",
+              "contentUrl": "https://www.youtube.com/watch?v=gZMekG0GA4g",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 18,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gZMekG0GA4g",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_19",
+              "stableKey": "tde9_aker2027_video_19",
+              "itemType": "VIDEO",
+              "displayLabel": "4.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 19",
+              "contentUrl": "https://www.youtube.com/watch?v=W7T6nsbB9cQ",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 19,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=W7T6nsbB9cQ",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_20",
+              "stableKey": "tde9_aker2027_video_20",
+              "itemType": "VIDEO",
+              "displayLabel": "4.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 20",
+              "contentUrl": "https://www.youtube.com/watch?v=gBHRbffGkas",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 20,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=gBHRbffGkas",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_21",
+              "stableKey": "tde9_aker2027_video_21",
+              "itemType": "VIDEO",
+              "displayLabel": "4.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 21",
+              "contentUrl": "https://www.youtube.com/watch?v=brj0TtkJ75E",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 21,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=brj0TtkJ75E",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_22",
+              "stableKey": "tde9_aker2027_video_22",
+              "itemType": "VIDEO",
+              "displayLabel": "4.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Noktalama İşaretleri · Video 22",
+              "contentUrl": "https://www.youtube.com/watch?v=zOAdYNi9caY",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 22,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=zOAdYNi9caY",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_05",
+          "stableKey": "lesson_tde9_aker2027_05",
+          "title": "Aker Kartal — Sözcükte Yapı",
+          "orderKey": 50,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_23",
+              "stableKey": "tde9_aker2027_video_23",
+              "itemType": "VIDEO",
+              "displayLabel": "5.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 23",
+              "contentUrl": "https://www.youtube.com/watch?v=63k9-DXYJCI",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 23,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=63k9-DXYJCI",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_24",
+              "stableKey": "tde9_aker2027_video_24",
+              "itemType": "VIDEO",
+              "displayLabel": "5.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 24",
+              "contentUrl": "https://www.youtube.com/watch?v=_muFkFxXZv0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 24,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=_muFkFxXZv0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_25",
+              "stableKey": "tde9_aker2027_video_25",
+              "itemType": "VIDEO",
+              "displayLabel": "5.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 25",
+              "contentUrl": "https://www.youtube.com/watch?v=oC5dD_ash-0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 25,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=oC5dD_ash-0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_26",
+              "stableKey": "tde9_aker2027_video_26",
+              "itemType": "VIDEO",
+              "displayLabel": "5.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 26",
+              "contentUrl": "https://www.youtube.com/watch?v=FpDl_wCVnBQ",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 26,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=FpDl_wCVnBQ",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_27",
+              "stableKey": "tde9_aker2027_video_27",
+              "itemType": "VIDEO",
+              "displayLabel": "5.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 27",
+              "contentUrl": "https://www.youtube.com/watch?v=QM6m4bDJqY8",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 27,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=QM6m4bDJqY8",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_28",
+              "stableKey": "tde9_aker2027_video_28",
+              "itemType": "VIDEO",
+              "displayLabel": "5.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 28",
+              "contentUrl": "https://www.youtube.com/watch?v=NrZD5abwCNc",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 28,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=NrZD5abwCNc",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_29",
+              "stableKey": "tde9_aker2027_video_29",
+              "itemType": "VIDEO",
+              "displayLabel": "5.7",
+              "orderKey": 7000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 29",
+              "contentUrl": "https://www.youtube.com/watch?v=sDav4TFPOYY",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 29,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=sDav4TFPOYY",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_30",
+              "stableKey": "tde9_aker2027_video_30",
+              "itemType": "VIDEO",
+              "displayLabel": "5.8",
+              "orderKey": 8000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 30",
+              "contentUrl": "https://www.youtube.com/watch?v=qm9KYL6vM1I",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 30,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=qm9KYL6vM1I",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_31",
+              "stableKey": "tde9_aker2027_video_31",
+              "itemType": "VIDEO",
+              "displayLabel": "5.9",
+              "orderKey": 9000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 31",
+              "contentUrl": "https://www.youtube.com/watch?v=YMogz5QSaBg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 31,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=YMogz5QSaBg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_32",
+              "stableKey": "tde9_aker2027_video_32",
+              "itemType": "VIDEO",
+              "displayLabel": "5.10",
+              "orderKey": 10000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 32",
+              "contentUrl": "https://www.youtube.com/watch?v=kvhJLr4hyaE",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 32,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=kvhJLr4hyaE",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_33",
+              "stableKey": "tde9_aker2027_video_33",
+              "itemType": "VIDEO",
+              "displayLabel": "5.11",
+              "orderKey": 11000,
+              "title": "Aker Kartal 2027 — Sözcükte Yapı · Video 33",
+              "contentUrl": "https://www.youtube.com/watch?v=kiQ29RXG6Vo",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 33,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=kiQ29RXG6Vo",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_06",
+          "stableKey": "lesson_tde9_aker2027_06",
+          "title": "Aker Kartal — Sözcük Türleri",
+          "orderKey": 60,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_34",
+              "stableKey": "tde9_aker2027_video_34",
+              "itemType": "VIDEO",
+              "displayLabel": "6.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 34",
+              "contentUrl": "https://www.youtube.com/watch?v=cwPVMIgVvwQ",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 34,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=cwPVMIgVvwQ",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_35",
+              "stableKey": "tde9_aker2027_video_35",
+              "itemType": "VIDEO",
+              "displayLabel": "6.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 35",
+              "contentUrl": "https://www.youtube.com/watch?v=q9pDvdrbqhk",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 35,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=q9pDvdrbqhk",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_36",
+              "stableKey": "tde9_aker2027_video_36",
+              "itemType": "VIDEO",
+              "displayLabel": "6.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 36",
+              "contentUrl": "https://www.youtube.com/watch?v=EXiiTMOGmE4",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 36,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=EXiiTMOGmE4",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_37",
+              "stableKey": "tde9_aker2027_video_37",
+              "itemType": "VIDEO",
+              "displayLabel": "6.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 37",
+              "contentUrl": "https://www.youtube.com/watch?v=fGd-GwbDnMs",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 37,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fGd-GwbDnMs",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_38",
+              "stableKey": "tde9_aker2027_video_38",
+              "itemType": "VIDEO",
+              "displayLabel": "6.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 38",
+              "contentUrl": "https://www.youtube.com/watch?v=su0P69I2T-o",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 38,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=su0P69I2T-o",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_39",
+              "stableKey": "tde9_aker2027_video_39",
+              "itemType": "VIDEO",
+              "displayLabel": "6.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 39",
+              "contentUrl": "https://www.youtube.com/watch?v=zCtX9b7WcSM",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 39,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=zCtX9b7WcSM",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_40",
+              "stableKey": "tde9_aker2027_video_40",
+              "itemType": "VIDEO",
+              "displayLabel": "6.7",
+              "orderKey": 7000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 40",
+              "contentUrl": "https://www.youtube.com/watch?v=l4uxhDOHn_g",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 40,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=l4uxhDOHn_g",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_41",
+              "stableKey": "tde9_aker2027_video_41",
+              "itemType": "VIDEO",
+              "displayLabel": "6.8",
+              "orderKey": 8000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 41",
+              "contentUrl": "https://www.youtube.com/watch?v=kc0_tXr25Nw",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 41,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=kc0_tXr25Nw",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_42",
+              "stableKey": "tde9_aker2027_video_42",
+              "itemType": "VIDEO",
+              "displayLabel": "6.9",
+              "orderKey": 9000,
+              "title": "Aker Kartal 2027 — Sözcük Türleri · Video 42",
+              "contentUrl": "https://www.youtube.com/watch?v=XD12rHxxbXk",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 42,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=XD12rHxxbXk",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_07",
+          "stableKey": "lesson_tde9_aker2027_07",
+          "title": "Aker Kartal — Fiiller ve Fiilimsiler",
+          "orderKey": 70,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_43",
+              "stableKey": "tde9_aker2027_video_43",
+              "itemType": "VIDEO",
+              "displayLabel": "7.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 43",
+              "contentUrl": "https://www.youtube.com/watch?v=rsoA3ggjhkU",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 43,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=rsoA3ggjhkU",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_44",
+              "stableKey": "tde9_aker2027_video_44",
+              "itemType": "VIDEO",
+              "displayLabel": "7.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 44",
+              "contentUrl": "https://www.youtube.com/watch?v=nHs5720AusQ",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 44,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=nHs5720AusQ",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_45",
+              "stableKey": "tde9_aker2027_video_45",
+              "itemType": "VIDEO",
+              "displayLabel": "7.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 45",
+              "contentUrl": "https://www.youtube.com/watch?v=Ye3w_BfwFMA",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 45,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Ye3w_BfwFMA",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_46",
+              "stableKey": "tde9_aker2027_video_46",
+              "itemType": "VIDEO",
+              "displayLabel": "7.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 46",
+              "contentUrl": "https://www.youtube.com/watch?v=tHMTj3vbRuA",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 46,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=tHMTj3vbRuA",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_47",
+              "stableKey": "tde9_aker2027_video_47",
+              "itemType": "VIDEO",
+              "displayLabel": "7.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Fiiller ve Fiilimsiler · Video 47",
+              "contentUrl": "https://www.youtube.com/watch?v=rt9596ZV-Sc",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 47,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=rt9596ZV-Sc",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_08",
+          "stableKey": "lesson_tde9_aker2027_08",
+          "title": "Aker Kartal — Cümle Bilgisi",
+          "orderKey": 80,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_48",
+              "stableKey": "tde9_aker2027_video_48",
+              "itemType": "VIDEO",
+              "displayLabel": "8.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 48",
+              "contentUrl": "https://www.youtube.com/watch?v=lpoaJ8wcLr8",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 48,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=lpoaJ8wcLr8",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_49",
+              "stableKey": "tde9_aker2027_video_49",
+              "itemType": "VIDEO",
+              "displayLabel": "8.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 49",
+              "contentUrl": "https://www.youtube.com/watch?v=XBpjVOMMFj8",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 49,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=XBpjVOMMFj8",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_50",
+              "stableKey": "tde9_aker2027_video_50",
+              "itemType": "VIDEO",
+              "displayLabel": "8.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 50",
+              "contentUrl": "https://www.youtube.com/watch?v=Qd6m6FJS-wA",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 50,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Qd6m6FJS-wA",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_51",
+              "stableKey": "tde9_aker2027_video_51",
+              "itemType": "VIDEO",
+              "displayLabel": "8.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 51",
+              "contentUrl": "https://www.youtube.com/watch?v=iegGBThYzMI",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 51,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=iegGBThYzMI",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_52",
+              "stableKey": "tde9_aker2027_video_52",
+              "itemType": "VIDEO",
+              "displayLabel": "8.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Cümle Bilgisi · Video 52",
+              "contentUrl": "https://www.youtube.com/watch?v=jpfvOAVpyGw",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 52,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=jpfvOAVpyGw",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_09",
+          "stableKey": "lesson_tde9_aker2027_09",
+          "title": "Aker Kartal — Anlatım Bozukluğu ve Karma Dil Bilgisi",
+          "orderKey": 90,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_53",
+              "stableKey": "tde9_aker2027_video_53",
+              "itemType": "VIDEO",
+              "displayLabel": "9.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Anlatım Bozukluğu ve Karma Dil Bilgisi · Video 53",
+              "contentUrl": "https://www.youtube.com/watch?v=Lxa2hIvGYCI",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 53,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=Lxa2hIvGYCI",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_54",
+              "stableKey": "tde9_aker2027_video_54",
+              "itemType": "VIDEO",
+              "displayLabel": "9.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Anlatım Bozukluğu ve Karma Dil Bilgisi · Video 54",
+              "contentUrl": "https://www.youtube.com/watch?v=dJ6trEYtQdI",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 54,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=dJ6trEYtQdI",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_10",
+          "stableKey": "lesson_tde9_aker2027_10",
+          "title": "Aker Kartal — Sözcükte Anlam",
+          "orderKey": 100,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_55",
+              "stableKey": "tde9_aker2027_video_55",
+              "itemType": "VIDEO",
+              "displayLabel": "10.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Sözcükte Anlam · Video 55",
+              "contentUrl": "https://www.youtube.com/watch?v=-y5OVO4u9rk",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 55,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=-y5OVO4u9rk",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_56",
+              "stableKey": "tde9_aker2027_video_56",
+              "itemType": "VIDEO",
+              "displayLabel": "10.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Sözcükte Anlam · Video 56",
+              "contentUrl": "https://www.youtube.com/watch?v=imCBdKXdftw",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 56,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=imCBdKXdftw",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_57",
+              "stableKey": "tde9_aker2027_video_57",
+              "itemType": "VIDEO",
+              "displayLabel": "10.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Sözcükte Anlam · Video 57",
+              "contentUrl": "https://www.youtube.com/watch?v=HFV6v9r_pkg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 57,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=HFV6v9r_pkg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_11",
+          "stableKey": "lesson_tde9_aker2027_11",
+          "title": "Aker Kartal — Cümlede Anlam",
+          "orderKey": 110,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_58",
+              "stableKey": "tde9_aker2027_video_58",
+              "itemType": "VIDEO",
+              "displayLabel": "11.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Cümlede Anlam · Video 58",
+              "contentUrl": "https://www.youtube.com/watch?v=5FNTWh8F0uk",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 58,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=5FNTWh8F0uk",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_59",
+              "stableKey": "tde9_aker2027_video_59",
+              "itemType": "VIDEO",
+              "displayLabel": "11.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Cümlede Anlam · Video 59",
+              "contentUrl": "https://www.youtube.com/watch?v=LSmrTEXJkEE",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 59,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=LSmrTEXJkEE",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_60",
+              "stableKey": "tde9_aker2027_video_60",
+              "itemType": "VIDEO",
+              "displayLabel": "11.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Cümlede Anlam · Video 60",
+              "contentUrl": "https://www.youtube.com/watch?v=6OQ_hF5LXFA",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 60,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=6OQ_hF5LXFA",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_tde9_aker2027_12",
+          "stableKey": "lesson_tde9_aker2027_12",
+          "title": "Aker Kartal — Paragrafta Anlam",
+          "orderKey": 120,
+          "items": [
+            {
+              "id": "item_tde9_aker2027_61",
+              "stableKey": "tde9_aker2027_video_61",
+              "itemType": "VIDEO",
+              "displayLabel": "12.1",
+              "orderKey": 1000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 61",
+              "contentUrl": "https://www.youtube.com/watch?v=M2GaVZVhn_4",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 61,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=M2GaVZVhn_4",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_62",
+              "stableKey": "tde9_aker2027_video_62",
+              "itemType": "VIDEO",
+              "displayLabel": "12.2",
+              "orderKey": 2000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 62",
+              "contentUrl": "https://www.youtube.com/watch?v=oxRFRWENjrg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 62,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=oxRFRWENjrg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_63",
+              "stableKey": "tde9_aker2027_video_63",
+              "itemType": "VIDEO",
+              "displayLabel": "12.3",
+              "orderKey": 3000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 63",
+              "contentUrl": "https://www.youtube.com/watch?v=mWdqXtixn9w",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 63,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=mWdqXtixn9w",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_64",
+              "stableKey": "tde9_aker2027_video_64",
+              "itemType": "VIDEO",
+              "displayLabel": "12.4",
+              "orderKey": 4000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 64",
+              "contentUrl": "https://www.youtube.com/watch?v=AJlah914Ybg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 64,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=AJlah914Ybg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_65",
+              "stableKey": "tde9_aker2027_video_65",
+              "itemType": "VIDEO",
+              "displayLabel": "12.5",
+              "orderKey": 5000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 65",
+              "contentUrl": "https://www.youtube.com/watch?v=n0MTZsM_fSg",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 65,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=n0MTZsM_fSg",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_66",
+              "stableKey": "tde9_aker2027_video_66",
+              "itemType": "VIDEO",
+              "displayLabel": "12.6",
+              "orderKey": 6000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 66",
+              "contentUrl": "https://www.youtube.com/watch?v=fxlEeNpy5ww",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 66,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=fxlEeNpy5ww",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_67",
+              "stableKey": "tde9_aker2027_video_67",
+              "itemType": "VIDEO",
+              "displayLabel": "12.7",
+              "orderKey": 7000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 67",
+              "contentUrl": "https://www.youtube.com/watch?v=yG38y_18gGQ",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 67,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=yG38y_18gGQ",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_68",
+              "stableKey": "tde9_aker2027_video_68",
+              "itemType": "VIDEO",
+              "displayLabel": "12.8",
+              "orderKey": 8000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 68",
+              "contentUrl": "https://www.youtube.com/watch?v=uLJQwncQhMo",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 68,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=uLJQwncQhMo",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_69",
+              "stableKey": "tde9_aker2027_video_69",
+              "itemType": "VIDEO",
+              "displayLabel": "12.9",
+              "orderKey": 9000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 69",
+              "contentUrl": "https://www.youtube.com/watch?v=-Wjs5YgIH4Q",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 69,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=-Wjs5YgIH4Q",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_70",
+              "stableKey": "tde9_aker2027_video_70",
+              "itemType": "VIDEO",
+              "displayLabel": "12.10",
+              "orderKey": 10000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 70",
+              "contentUrl": "https://www.youtube.com/watch?v=EjBPGdO3wXs",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 70,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=EjBPGdO3wXs",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            },
+            {
+              "id": "item_tde9_aker2027_71",
+              "stableKey": "tde9_aker2027_video_71",
+              "itemType": "VIDEO",
+              "displayLabel": "12.11",
+              "orderKey": 11000,
+              "title": "Aker Kartal 2027 — Paragrafta Anlam · Video 71",
+              "contentUrl": "https://www.youtube.com/watch?v=dpzPrRuR7M0",
+              "publishingStatus": "active",
+              "payload": {
+                "provider": "Aker Kartal",
+                "teacher": "Aker Kartal",
+                "sourcePlaylistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+                "sourcePosition": 71,
+                "reviewStatus": "source_link_provided_outcome_mapping_pending",
+                "provenance": {
+                  "sourceRef": "User-provided ordered 71-link playlist file and Turkish VTT archive",
+                  "sourceVideoUrl": "https://www.youtube.com/watch?v=dpzPrRuR7M0",
+                  "transcriptLanguage": "tr",
+                  "reviewStatus": "source_position_only",
+                  "curriculumAlignment": "pending_manual_review"
+                }
+              }
+            }
+          ]
+        },
         {
           "id": "lesson_tde9_metin_ve_anlam",
           "stableKey": "lesson_tde9_metin_ve_anlam",
