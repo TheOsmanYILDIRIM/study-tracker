@@ -36,7 +36,11 @@ function createKVStorage(env, inMemoryStore) {
 
   async function readList(key) {
     const value = await readKey(key);
-    return Array.isArray(value) ? value : [];
+    if (value === null) return [];
+    if (!Array.isArray(value)) {
+      throw new TypeError(`Corrupt KV list at ${key}: expected an array`);
+    }
+    return value;
   }
 
   async function upsertListEntry(key, entity, idField = 'id') {
