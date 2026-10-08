@@ -6,7 +6,7 @@ Durum: **Kaynaklar incelendi, plan hazır; canlı V2 kataloğu ve öğrenci iler
 
 Kullanıcının yüklediği `9.SINIF VİDEO DERS KİTABI KONU ANLATIM.zip` arşivi incelendi: İlyas Güneş/Nurtaç Kozak karışık 60 video için 60 Türkçe `.vtt` altyazı; eksik indeks yok. 64.720 zaman kodlu konuşma bloğu ve 3.566.940 normalize karakter çıkarıldı. Metinler otomatik altyazı kaynaklıdır; matematiksel sembollerde ASR hataları olabilir. Doğrulama: [LiseDers transcript_evidence.json](https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi/blob/main/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/transcript_evidence.json).
 
-Tam transkriptler GitHub'ın herkese açık kaynak dosyalarına kopyalanmaz; ZIP/normalize paket ayrı girdi olarak tutulur. Yeniden üretilebilir import: [LiseDers `scripts/import_ytdlnis_subtitles.py`](https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi/blob/main/scripts/import_ytdlnis_subtitles.py) `--complete-index-archive` ile 60/60 indeks doğrulaması. Çıktıdaki `transcripts/manifest.json` ve zaman kodlu `*.cues.json` dosyaları analiz için kullanılır.
+Kullanıcı transkript ZIP'inin GitHub deposunda tutulmasına açıkça izin verdi. Kanonik hedef: LiseDers deposunda `data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/math9_normalized_transcripts.zip`. Dosyanın SHA-256 özeti `1c45d1b1e8d4caec312f117dcba4a6bc53b69aa5047d062a42a9c746f830f1d9`, boyutu 3.754.495 bayt ve içinde 182 kayıt var (60 VTT + 60 TXT + 60 zaman kodlu JSON + kanıt/manifest). Dosya henüz uzak depoya yüklenmiş olarak doğrulanmadı; yükleme sonrasında Actions hash ve bütünlük kontrolü yapılacak. Yeniden üretilebilir import: [LiseDers `scripts/import_ytdlnis_subtitles.py`](https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi/blob/main/scripts/import_ytdlnis_subtitles.py) `--complete-index-archive` ile 60/60 indeks doğrulaması. Çıktıdaki `transcripts/manifest.json` ve zaman kodlu `*.cues.json` dosyaları analiz için kullanılır.
 
 ## Müfredat ve video mimarisi
 
@@ -44,3 +44,20 @@ Sözcük sıklığı **alt kazanım kanıtı değildir**. Özellikle 12–25 ara
 ## Bir sonraki somut geliştirme
 
 LiseDers'teki normalize ZIP ve kanıt manifesti üzerinden her video için kazanım-zaman aralığı haritası üret; özellikle 12–25 videolarını doğrusal fonksiyon, mutlak değer ve eşitsizlik alt konularına gerçek zaman kodlarıyla ayır. Ardından yeni V2 modüler katalog derleyicisine taslak sürüm ekle ve mevcut matematik içerikleriyle diff oluştur.
+
+## Teslim planı ve kabul kriterleri
+
+| Aşama | İş | Kabul kanıtı |
+|---|---|---|
+| P0 | Altyazı ZIP'ini LiseDers'te kanonik yola ekle | GitHub dosya yolu mevcut, SHA-256 tam eşleşiyor, ZIP CRC testi başarılı, 60 benzersiz video ID'si ve üçlü dosya seti var |
+| P1 | Transkript zaman aralığı → kazanım eşlemesi | 60 video için ayrı ID, konu, kazanım, başlangıç/bitiş zamanları, kaynak alıntısı, güven düzeyi ve `needs_review` bayrağı |
+| P2 | Matematik öğrenme akışı | 16 grup / 60 video; ders içi küçük öğrenme hedefleri, bağımlılık sırası, yanlış cevapta tekrar ve kısa ölçme tasarımı |
+| P3 | Yeni V2 matematik katalog sürümü | Eski 9. sınıf Matematik kaynaklarının geri alınabilir arşivi; yeni lesson/item ID alanı; 60/60 geçerli video ve quiz kaynağı kontrolü |
+| P4 | CI ve öğrenci veri güvenliği | Müfredat şema testi, referans bütünlüğü, transcript fingerprint, quiz kaynağı, offline/online senkronizasyon, önce/sonra ilerleme karşılaştırması |
+| P5 | Kademeli yayın | Staging kataloğu → tek test hesabı → cihaz testi → Cloudflare KV güvenli seed/diff/apply → geri alma doğrulaması |
+
+### Sürüm ve kimlik politikası
+- `course_mat_9` uygulamadaki matematik dersinin kalıcı üst kimliği olabilir; yeni öğrenme içeriği için `math9_2026_v2` sürüm namespace'i ve yeni lesson/item ID'leri kullan.
+- Eski matematik VIDEO/QUIZ item kimliklerini yeniden kullanma. Önceki ilerleme/attempt kayıtlarını koru; yeni videoları otomatik tamamlandı sayma.
+- İçerik oluşturma `source → normalize → align → validate → compile → diff → publish` aşamalarına ayrılacak. Her aşamanın JSON manifesti, hata listesi ve deterministik SHA'sı olacak.
+- Otomatik konuşma dökümünde matematik sembollerini doğrudan doğru kabul etme; quiz doğru cevabı ayrıca matematiksel doğrulamadan geçir.
