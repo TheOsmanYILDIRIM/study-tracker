@@ -96,7 +96,8 @@ def prepare(mapping, approvals, root):
             "contentUrl": video["url"],
             "publishingStatus": "active" if approval.get("publish") is True else "draft",
             "payload": {
-                "provider": "İlyas Güneş", "teacher": "İlyas Güneş", "topic": lesson["title"],
+                "provider": video.get("channel") or "Unknown YouTube channel",
+                "teacher": video.get("teacher"), "topic": lesson["title"],
                 "provenance": {
                     "schemaVersion": "v2", "reviewStatus": "verified",
                     "sourceRef": "https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi",
