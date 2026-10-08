@@ -916,8 +916,20 @@ async function runCliTests() {
         const parentVidFile = path.resolve(__dirname, `../content/v2/items/${prov.derivedFromItemId}.json`);
         assert(fs.existsSync(parentVidFile), `Parent video file must exist for ${qItem.id}`);
         const parentVid = JSON.parse(fs.readFileSync(parentVidFile, 'utf8'));
-        assert.strictEqual(prov.sourceVideoUrl, parentVid.contentUrl, `Quiz ${qItem.id} sourceVideoUrl must match parent video contentUrl`);
-        assert.strictEqual(prov.transcriptFingerprint, parentVid.payload?.provenance?.transcriptFingerprint, `Quiz ${qItem.id} fingerprint must match parent video transcriptFingerprint`);
+        const videoProvenance = parentVid.payload?.provenance || {};
+        if (videoProvenance.quizRegroundingStatus === 'pending') {
+          // A changed lecture cannot inherit an old transcript-grounded quiz.
+          // Preserve its historical provenance and explicitly require review.
+          assert.strictEqual(prov.sourceVideoUrl, videoProvenance.previousSourceVideoUrl,
+            `Quiz ${qItem.id} must retain its historical video URL until regrounding`);
+          assert.notStrictEqual(prov.sourceVideoUrl, parentVid.contentUrl,
+            `Quiz ${qItem.id} must not claim grounding in the replacement video`);
+          assert(!videoProvenance.transcriptFingerprint,
+            `Replacement video ${parentVid.id} must not reuse the old transcript fingerprint`);
+        } else {
+          assert.strictEqual(prov.sourceVideoUrl, parentVid.contentUrl, `Quiz ${qItem.id} sourceVideoUrl must match parent video contentUrl`);
+          assert.strictEqual(prov.transcriptFingerprint, videoProvenance.transcriptFingerprint, `Quiz ${qItem.id} fingerprint must match parent video transcriptFingerprint`);
+        }
       } else {
         assert(prov.sourceRef || prov.curriculumRef, `Curriculum-grounded quiz ${qItem.id} must have sourceRef or curriculumRef`);
       }
