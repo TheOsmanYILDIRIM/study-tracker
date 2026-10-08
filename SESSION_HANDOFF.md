@@ -22,3 +22,9 @@ Updated: 2026-10-08 | Canonical development target: **main**
 1. Merge and main source verification completed. Old PR #6 closed. All future StudyTracker work should branch from or update main, not the old V2 feature branch.
 2. Verify current GitHub Actions APK release build and regression tests; diagnose issues before claiming validated success.
 3. Device-check cold-load flicker, 320dp screen and completed/not-completed topic states; check mobile-network sync and KV attempt index concurrency.
+
+## 2026-10-08 — User-supplied 60/60 Mathematics 9 Turkish VTTs
+- User supplied `9.SINIF VİDEO DERS KİTABI KONU ANLATIM.zip`; 60 Turkish VTT files for 60 locked playlist positions, verified offline. Extracted 64,720 timecoded cues / 3,566,940 normalized characters. No missing caption files. Automatic captions may misrecognize math notation.
+- LiseDers repo now has `data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/transcript_evidence.json` with verified coverage and theme signal counts; `scripts/import_ytdlnis_subtitles.py` now supports opt-in complete-index archive matching, guarded by 60/60 unique position validation. Full normalized transcripts are not public Git source; retained in the conversation output ZIP.
+- New canonical implementation plan: `docs/MATH9_TRANSCRIPT_REBUILD_PLAN.md`. 16 course subgroups / 8 broad themes / 60 fixed IDs. New lesson/item identities must not overwrite historical progress. No live V2 course/KV edits or quiz generation performed in this phase.
+- Next: timestamp-level learning-outcome mapping, quiz evidence validation, versioned draft V2 catalog, offline/KV progress migration checks, only then publish.
