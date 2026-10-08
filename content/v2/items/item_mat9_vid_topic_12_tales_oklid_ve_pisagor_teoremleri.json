@@ -7,10 +7,10 @@
   "displayLabel": "12.1",
   "orderKey": 1000,
   "title": "Tales, Öklid ve Pisagor Teoremleri",
-  "contentUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+  "contentUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "SORU ÇÖZÜM KANALI",
     "topic": "Tales, Öklid ve Pisagor Teoremleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -23,18 +23,22 @@
         "Benzer üçgenler Oluşturma • Tales, Öklid ve Pisagor Teoremleri",
         "Tales, Öklid ve Pisagor Teoremleri • Eşlik ve Benzerlik Problemleri"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": null,
       "videoCandidateTitle": null,
       "fingerprint": "f3a0d0748ab34b21",
       "schemaVersion": "v2",
       "reviewedOverride": true,
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=PsZ4tq97HMc",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_12_tales_oklid_ve_pisagor_teoremleri.tr.tr.vtt",
-      "transcriptFingerprint": "c1689ad19c926f66"
-    }
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=Rc98hAnao3U",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 37,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "Nurtaç Kozak",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
