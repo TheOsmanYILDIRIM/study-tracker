@@ -23,44 +23,35 @@
 
 ---
 
-## 📁 Kullanılan Proje-İçi Yerel Kaynak Dosyaları (Source of Truth)
+## 📁 Kullanılan Kaynak Dosyaları ve Maarif Modeli Referansları (Source of Truth)
 
-Tüm ders planları, kazanım haritaları ve soru içerikleri doğrudan yerel proje dosyalarından derlenmiştir (Hiçbir web araştırması yapılmamıştır):
+Tüm ders planları, kazanım haritaları ve soru içerikleri MEB Türkiye Yüzyılı Maarif Modeli (TYMM) kaynaklarından derlenmiştir. Bu içeriklerin tam metinleri hem depo içindeki [`content/curriculum/`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum) dizininde saklanmakta hem de kardeş depo olan **[`TheOsmanYILDIRIM/lise1-ogrenme-programi`](https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi)** üzerinde yayınlanmaktadır:
 
 1. **Yıllık Ders Planları (DefterDoldur AL-9 Maarif Modeli):**
-   - `~/vault/10-Projects/Matematik_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Fizik_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Kimya_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Biyoloji_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Tarih_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Cografya_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/İngilizce_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/Almanca_Yillik_Plan_AL9.md`
-   - `~/vault/10-Projects/TDE_Yillik_Plan_AL9.md`
-   - `projects/lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json`
+   - [`content/curriculum/yillik_planlar/Matematik_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Matematik_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Fizik_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Fizik_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Kimya_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Kimya_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Biyoloji_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Biyoloji_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Tarih_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Tarih_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Cografya_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Cografya_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/İngilizce_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/İngilizce_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/Almanca_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/Almanca_Yillik_Plan_AL9.md)
+   - [`content/curriculum/yillik_planlar/TDE_Yillik_Plan_AL9.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/yillik_planlar/TDE_Yillik_Plan_AL9.md)
+   - GitHub: [lise1-ogrenme-programi/curriculum/yillik_planlar](https://github.com/TheOsmanYILDIRIM/lise1-ogrenme-programi/tree/main/curriculum/yillik_planlar)
 2. **Video Kürasyonu & Öğretmen Eşleştirmeleri:**
-   - `~/vault/10-Projects/1_ay_tarih_video_rehberi.md` (Kanonik Öğretmen: **Mehmet Celal ÖZYILDIZ**)
-   - `~/vault/10-Projects/1_ay_matematik_khan_academy_videolari.md` (Khan Academy Türkçe)
-   - `~/vault/10-Projects/1_ay_biyoloji_video_rehberi.md` (Khan Academy)
-   - `~/vault/10-Projects/1_ay_fizik_video_rehberi.md` (Khan Academy Türkçe)
-   - `~/vault/10-Projects/1_ay_kimya_video_rehberi.md`
-   - `~/vault/10-Projects/1_ay_cografya_video_rehberi.md`
-   - `~/vault/10-Projects/1_ay_ingilizce_video_rehberi.md`
-   - `~/vault/10-Projects/1_ay_almanca_video_rehberi.md`
-3. **Anki Desteleri & Kelime Listeleri:**
-   - `projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_cografya_1_ay.apkg`
-   - `projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_ingilizce_1_ay.apkg`
-   - `projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_almanca_1_ay.apkg`
-   - `projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_tarih_anki.txt`
-   - `projects/lise1-ogrenme-programi/data/anki_decks/9_sinif_biyoloji_anki.txt`
-4. **MEB Ders Kitapları Metinleri:**
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/matematik9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/fizik9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/kimya9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/biyoloji9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/tarih9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/cografya9.md`
-   - `projects/lise1-ogrenme-programi/data/meb_kitaplari/tde9.md`
+   - [`content/curriculum/video_rehberleri/1_ay_tarih_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_tarih_video_rehberi.md) (Kanonik Öğretmen: **Mehmet Celal ÖZYILDIZ**)
+   - [`content/curriculum/video_rehberleri/1_ay_matematik_khan_academy_videolari.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_matematik_khan_academy_videolari.md) (Khan Academy Türkçe)
+   - [`content/curriculum/video_rehberleri/1_ay_biyoloji_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_biyoloji_video_rehberi.md) (Khan Academy)
+   - [`content/curriculum/video_rehberleri/1_ay_fizik_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_fizik_video_rehberi.md) (Khan Academy Türkçe)
+   - [`content/curriculum/video_rehberleri/1_ay_kimya_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_kimya_video_rehberi.md)
+   - [`content/curriculum/video_rehberleri/1_ay_cografya_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_cografya_video_rehberi.md)
+   - [`content/curriculum/video_rehberleri/1_ay_ingilizce_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_ingilizce_video_rehberi.md)
+   - [`content/curriculum/video_rehberleri/1_ay_almanca_video_rehberi.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/video_rehberleri/1_ay_almanca_video_rehberi.md)
+3. **MEB Ders Kitapları Politikası & İndirme Bağlantıları:**
+   - [`content/curriculum/meb_kitap_baglantilari.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/meb_kitap_baglantilari.md) (10 resmî MEB kitabı doğrudan indirme linkleri)
+4. **Çalışma ve Okul Ders Çizelgesi:**
+   - [`content/curriculum/calisma_ve_ders_programi/9-sinif-haftalik-ders-programi-ve-koyrusu.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/calisma_ve_ders_programi/9-sinif-haftalik-ders-programi-ve-koyrusu.md) (40 Saatlik Resmî Haftalık Okul Çizelgesi)
+   - [`content/curriculum/calisma_ve_ders_programi/9_sinif_4_haftalik_studytracker_calisma_plani.md`](file:///data/data/com.termux/files/home/projects/study-tracker/content/curriculum/calisma_ve_ders_programi/9_sinif_4_haftalik_studytracker_calisma_plani.md)
 
 ---
 
