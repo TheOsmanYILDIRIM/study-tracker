@@ -1,0 +1,112 @@
+name: Import reviewed LiseDers playlist
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_approved:
+        description: Apply manually reviewed mappings and commit a validated V2 catalog to main
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: studytracker-reviewed-playlist-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  reviewed-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout StudyTracker
+        uses: actions/checkout@v4
+      - name: Checkout LiseDers source (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: TheOsmanYILDIRIM/lise1-ogrenme-programi
+          path: liseders-source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Locate and validate source mapping and reviewed approvals
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          source = Path("liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json")
+          approvals = Path("content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json")
+          m = json.loads(source.read_text(encoding="utf-8"))
+          a = json.loads(approvals.read_text(encoding="utf-8"))
+          expected = "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II"
+          if m.get("playlist_id") != expected or m.get("course_id") != "course_mat_9" or m.get("schema_version") != 1:
+              raise SystemExit("Unexpected source playlist/course/schema")
+          if a.get("playlist_id") != expected or not isinstance(a.get("approvals"), list):
+              raise SystemExit("Unexpected review approvals file")
+          print(f"Source videos: {len(m['videos'])}, reviewed approvals: {len(a['approvals'])}")
+          PY
+      - name: Dry-run reviewed V2 import
+        run: |
+          python scripts/import-liseders-playlist.py \
+            --root . \
+            --mapping liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json \
+            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json \
+            --report reviewed-import-dry-run.json
+      - name: Apply explicitly reviewed video items
+        if: inputs.publish_approved == true
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a = json.loads(Path('content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json').read_text())
+          if not a["approvals"]:
+              raise SystemExit("No reviewed approvals. Refusing to publish empty import.")
+          PY
+          python scripts/import-liseders-playlist.py \
+            --root . \
+            --mapping liseders-source/data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/topic-matches.json \
+            --approvals content/v2/playlist-imports/ilyas-gunes-mat9.approvals.json \
+            --report reviewed-import-applied.json --apply
+      - name: Validate modular V2 sources and compile catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/compile-v2-catalog.cjs
+          node cli/test-v2.js
+          node scripts/generate-video-audit.cjs
+      - name: Upload dry-run audit and compiled catalog
+        uses: actions/upload-artifact@v4
+        with:
+          name: studytracker-liseders-import-review
+          path: |
+            reviewed-import-dry-run.json
+            reviewed-import-applied.json
+            content/9-sinif-v2-catalog.json
+            content/v2/video-quality-audit.json
+          retention-days: 14
+          if-no-files-found: error
+      - name: Commit validated, reviewed changes only
+        if: inputs.publish_approved == true
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/v2/items/ content/v2/lessons/ content/9-sinif-v2-catalog.json
+          if git diff --cached --quiet; then
+            echo "No new items; repository already contains all reviewed videos."
+            exit 0
+          fi
+          git commit -m "content: import reviewed LiseDers lecture videos"
+          git pull --rebase origin main
+          git push origin HEAD:main
