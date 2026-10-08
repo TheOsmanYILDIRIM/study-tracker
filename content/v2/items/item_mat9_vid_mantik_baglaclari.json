@@ -7,7 +7,7 @@
   "displayLabel": "6.2",
   "orderKey": 1000,
   "title": "Mantık Bağlaçları (∧, ∨, ⇒, ⇔) ve Niceleyiciler (∀, ∃)",
-  "contentUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+  "contentUrl": "https://www.youtube.com/watch?v=mSTumj8P24U",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,16 +15,20 @@
       "sourceSection": "Mantık Bağlaçları",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "3c037fb942c0c06a",
       "reviewedOverride": true,
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=mSTumj8P24U",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_mantik_baglaclari.tr.tr.vtt",
-      "transcriptFingerprint": "b00eee0f3fe03369"
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=k7lBGbgX4zU",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 44,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik"
+    "provider": "İlyas Güneş",
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
