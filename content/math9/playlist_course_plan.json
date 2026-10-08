@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "course_id": "course_mat_9",
+  "content_version": "math9_playlist_v1_20261008",
+  "source_playlist_id": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+  "source_repo": "TheOsmanYILDIRIM/lise1-ogrenme-programi",
+  "source_file": "data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/playlist-catalog.json",
+  "transcript_manifest_file": "data/video_playlists/PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II/transcript-status.json",
+  "expected_video_count": 60,
+  "expected_first_video_id": "mHq3Dz1Kyw4",
+  "expected_last_video_id": "YFLa4qHIfls",
+  "teaching_policy": "Preserve playlist order and actual narrator; only infer broad modules from published titles. Do not generate fabricated transcript-grounded quizzes.",
+  "groups": [
+    {
+      "id": "uslu_sayilar",
+      "title": "Üslü Sayılar",
+      "theme": "Sayılar",
+      "first_position": 1,
+      "last_position": 7,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "koklu_sayilar",
+      "title": "Köklü Sayılar",
+      "theme": "Sayılar",
+      "first_position": 8,
+      "last_position": 11,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "nicelikler_ve_degisimler",
+      "title": "Nicelikler ve Değişimler",
+      "theme": "Nicelikler ve Değişimler",
+      "first_position": 12,
+      "last_position": 25,
+      "coverage": "theme_only"
+    },
+    {
+      "id": "dogruda_acilar",
+      "title": "Doğruda Açılar",
+      "theme": "Geometrik Şekiller",
+      "first_position": 26,
+      "last_position": 27,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "ucgende_acilar",
+      "title": "Üçgende Açılar",
+      "theme": "Geometrik Şekiller",
+      "first_position": 28,
+      "last_position": 30,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "ucgende_aci_kenar",
+      "title": "Üçgende Açı ve Kenar Bağıntıları",
+      "theme": "Geometrik Şekiller",
+      "first_position": 31,
+      "last_position": 31,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "geometrik_baglam",
+      "title": "Geometrik Şekiller — Bağlam Soruları",
+      "theme": "Geometrik Şekiller",
+      "first_position": 32,
+      "last_position": 32,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "geometrik_donusumler",
+      "title": "Geometrik Dönüşümler",
+      "theme": "Geometrik Şekiller",
+      "first_position": 33,
+      "last_position": 33,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "ucgende_eslik",
+      "title": "Üçgende Eşlik",
+      "theme": "Geometrik Şekiller",
+      "first_position": 34,
+      "last_position": 34,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "ucgende_benzerlik",
+      "title": "Üçgende Benzerlik",
+      "theme": "Geometrik Şekiller",
+      "first_position": 35,
+      "last_position": 36,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "dik_ucgen",
+      "title": "Dik Üçgen",
+      "theme": "Geometrik Şekiller",
+      "first_position": 37,
+      "last_position": 37,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "eslik_benzerlik_baglam",
+      "title": "Eşlik ve Benzerlik — Bağlam Soruları",
+      "theme": "Geometrik Şekiller",
+      "first_position": 38,
+      "last_position": 38,
+      "coverage": "title_topic"
+    },
+    {
+      "id": "algoritma_ve_bilisim",
+      "title": "Algoritma ve Bilişim",
+      "theme": "Algoritma ve Bilişim",
+      "first_position": 39,
+      "last_position": 45,
+      "coverage": "theme_only"
+    },
+    {
+      "id": "istatistiksel_arastirma",
+      "title": "İstatistiksel Araştırma Süreci",
+      "theme": "İstatistiksel Araştırma Süreci",
+      "first_position": 46,
+      "last_position": 54,
+      "coverage": "theme_only"
+    },
+    {
+      "id": "veriden_olasiliga",
+      "title": "Veriden Olasılığa",
+      "theme": "Veriden Olasılığa",
+      "first_position": 55,
+      "last_position": 59,
+      "coverage": "theme_only"
+    },
+    {
+      "id": "genel_tekrar",
+      "title": "2. Dönem 2. Yazılı Genel Tekrar",
+      "theme": "Genel Tekrar",
+      "first_position": 60,
+      "last_position": 60,
+      "coverage": "revision"
+    }
+  ]
+}
