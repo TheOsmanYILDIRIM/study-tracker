@@ -7,7 +7,7 @@
   "displayLabel": "8.1",
   "orderKey": 1000,
   "title": "Deneysel ve Teorik Olasılık Karşılaştırması",
-  "contentUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+  "contentUrl": "https://www.youtube.com/watch?v=KzIfltoc_zs",
   "publishingStatus": "active",
   "payload": {
     "provenance": {
@@ -15,7 +15,7 @@
       "sourceSection": "Deneysel ve Teorik Olasılık",
       "importedAt": "2026-10-02T09:00:00.000Z",
       "schemaVersion": "v2",
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "fingerprint": "426bde6faba69afe",
       "sourceWeeks": [
         38,
@@ -25,14 +25,18 @@
       "sourceTheme": "VERİDEN OLASILIĞA",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Olasılık 1 | 7.TEMA 9.Sınıf Matematik | Yeni Müfredat 2025",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=KzIfltoc_zs",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_olasilik_turleri.tr.tr.vtt",
-      "transcriptFingerprint": "16557446b5eb8f90"
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=VpzqYMexyeI",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 55,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
     },
-    "provider": "Rehber Matematik",
-    "topic": "Teorik Olasılık"
+    "provider": "İlyas Güneş",
+    "topic": "Teorik Olasılık",
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
