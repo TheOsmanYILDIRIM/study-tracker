@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108" role="img" aria-label="StudyTracker: yıldızlı kitaptan yükselen öğrenme ışığı">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090B2A"/><stop offset=".55" stop-color="#26216B"/><stop offset="1" stop-color="#110F3D"/></linearGradient>
+    <radialGradient id="halo" cx=".68" cy=".33" r=".72"><stop stop-color="#5E4FC2" stop-opacity=".58"/><stop offset="1" stop-color="#252062" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="108" height="108" rx="25" fill="url(#night)"/>
+  <rect width="108" height="108" rx="25" fill="url(#halo)"/>
+  <path d="M20 56 C27 47 35 48 40 55 C45 51 53 54 55 61 L55 69 L19 69 Z" fill="#4C38AA" opacity=".54"/>
+  <path d="M54 60 C62 53 68 54 72 58 C81 49 90 54 92 63 L92 70 L54 70 Z" fill="#4357BD" opacity=".43"/>
+  <path d="M41 22 C31 23 25 32 27 40 C29 49 37 53 46 49 C37 48 33 42 33 35 C33 29 36 25 41 22 Z" fill="#FFE08A"/>
+  <path d="M21 28 L23 32 L27 34 L23 36 L21 40 L19 36 L15 34 L19 32 Z" fill="#87E9FF"/>
+  <path d="M56 20 L57.5 23 L61 24.5 L57.5 26 L56 29 L54.5 26 L51 24.5 L54.5 23 Z" fill="#FFE08A" opacity=".95"/>
+  <path d="M91 45 L92.5 48.5 L96 50 L92.5 51.5 L91 55 L89.5 51.5 L86 50 L89.5 48.5 Z" fill="#8DEBFF" opacity=".88"/>
+  <path d="M54 70 C52 53 65 35 76 30" fill="none" stroke="#8063ED" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".68"/>
+  <path d="M54 69 C58 49 65 39 76 29" fill="none" stroke="#55DDE2" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M56 65 C61 47 69 39 77 31" fill="none" stroke="#B2FFED" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity=".88"/>
+  <path d="M76 16 L80 23 L88 25 L82 31 L83 39 L76 35 L69 39 L70 31 L64 25 L72 23 Z" fill="#FFE083" stroke="#FFF4B5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 46 C45 44 48 44 49 46 C50 49 47 51 45 49 C44 48 44 47 44 46 Z" fill="#FFE08A"/>
+  <path d="M33 57 C34 55 37 55 38 57 C39 60 36 61 34 60 C33 59 33 58 33 57 Z" fill="#7BE8F5"/>
+  <path d="M78 52 L79.4 54.8 L82 56 L79.4 57.2 L78 60 L76.6 57.2 L74 56 L76.6 54.8 Z" fill="#FFF0A8"/>
+  <path d="M18 70 C31 65 44 70 54 78 C64 70 77 65 90 70 L86 87 C73 83 64 87 54 93 C44 87 35 83 22 87 Z" fill="#4930A8" stroke="#7756F1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 66 C34 62 46 68 54 77 L54 88 C43 77 33 75 21 78 Z" fill="#A9ACFF"/>
+  <path d="M54 77 C62 68 74 62 88 66 L87 78 C75 75 65 77 54 88 Z" fill="#8EBBEF"/>
+  <path d="M25 62 C38 60 47 65 54 76 L54 84 C45 73 35 70 23 73 Z" fill="#EEE7FF"/>
+  <path d="M54 76 C61 65 70 60 83 62 L85 73 C73 70 63 73 54 84 Z" fill="#FFF1CF"/>
+  <path d="M29 58 C40 58 49 65 54 75 L54 81 C47 70 37 66 27 67 Z" fill="#FFF4D4"/>
+  <path d="M54 75 C59 65 68 58 79 58 L81 67 C71 66 61 70 54 81 Z" fill="#FFEDB2"/>
+  <path d="M53.1 75 C53.8 81 53.9 85 54 91 C54.4 85 54.7 81 55 75" fill="#FDF9E8"/>
+  <path d="M23 73 C35 71 46 77 54 86" fill="none" stroke="#FFFCE8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+  <path d="M54 86 C63 77 74 71 86 73" fill="none" stroke="#FFFCE8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+</svg>
