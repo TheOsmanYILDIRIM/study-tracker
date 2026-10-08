@@ -15,6 +15,7 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.saveable.rememberSaveable
 import com.studytracker.feature.launch.StudyLaunchOverlay
 import androidx.compose.material3.MaterialTheme
@@ -31,6 +32,7 @@ import androidx.core.content.ContextCompat
 import com.studytracker.app.navigation.AppNavGraph
 import com.studytracker.core.ui.theme.StudyTrackerTheme
 import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -45,7 +47,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        requestNotificationPermissionIfNeeded()
         queueIncomingIntent(intent)
 
         setContent {
@@ -54,6 +55,15 @@ class MainActivity : ComponentActivity() {
                 // Only cold, ordinary launches animate; shared-file imports show consent immediately.
                 var showLaunch by rememberSaveable {
                     mutableStateOf(savedInstanceState == null && pendingImportIntent == null)
+                }
+                // Do not interrupt the brand reveal with Android's notification dialog.
+                var notificationPromptHandled by rememberSaveable { mutableStateOf(false) }
+                LaunchedEffect(showLaunch, pendingImportIntent) {
+                    if (!showLaunch && pendingImportIntent == null && !notificationPromptHandled) {
+                        notificationPromptHandled = true
+                        delay(300)
+                        requestNotificationPermissionIfNeeded()
+                    }
                 }
                 Surface(
                     modifier = Modifier.fillMaxSize(),
