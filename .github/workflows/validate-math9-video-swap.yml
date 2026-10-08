@@ -1,5 +1,5 @@
 name: Validate Mathematics video source swap
-# Re-run after adding two partial interval matches, retaining uncovered math topics.
+# Post-merge verification of Mathematics sources and full V2 catalog.
 
 on:
   push:
