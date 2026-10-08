@@ -7,10 +7,10 @@
   "displayLabel": "5.1",
   "orderKey": 1000,
   "title": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
-  "contentUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+  "contentUrl": "https://www.youtube.com/watch?v=zylRnR8MB8k",
   "publishingStatus": "active",
   "payload": {
-    "provider": "Rehber Matematik",
+    "provider": "İlyas Güneş",
     "topic": "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
     "provenance": {
       "sourceRef": "lise1-ogrenme-programi/data/defterdoldur_tum_dersler_9al.json",
@@ -26,17 +26,21 @@
         "Doğrusal Fonksiyonlar ve Nitel Özellikleri",
         "Doğrusal Fonksiyonlar ve Nitel Özellikleri • Mutlak Değer Fonksiyonu ve Nitel Özellikleri"
       ],
-      "reviewStatus": "verified",
+      "reviewStatus": "topic_aligned_quiz_revalidation_required",
       "videoSearchScore": 8.9,
       "videoCandidateTitle": "Doğrusal Fonksiyonlar 1 | 9.Sınıf Matematik 2.Tema Nicelikler ve Değişimler | 1.Ders | Maarif Modeli",
       "fingerprint": "bbb2b75eab91a579",
       "schemaVersion": "v2",
-      "sourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+      "sourceVideoUrl": "https://www.youtube.com/watch?v=zylRnR8MB8k",
       "transcriptLanguage": "tr",
       "transcriptKind": "subtitle",
-      "transcriptPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.txt",
-      "transcriptRawPath": "content/v2/transcripts/item_mat9_vid_topic_05_dogrusal_fonksiyonlar_ve_nitel_ozellikleri.tr.tr.vtt",
-      "transcriptFingerprint": "23d6e07723c92c83"
-    }
+      "previousSourceVideoUrl": "https://www.youtube.com/watch?v=yXcmoW3Fsxs",
+      "sourcePlaylistId": "PLSYiXUktJiZeqUJyNFUgFHwOUNydbC-II",
+      "playlistPosition": 12,
+      "transcriptStatus": "user_supplied_transcript_available",
+      "quizRegroundingStatus": "pending"
+    },
+    "teacher": "İlyas Güneş",
+    "reviewStatus": "topic_aligned_quiz_revalidation_required"
   }
 }
