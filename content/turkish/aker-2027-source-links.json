@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "playlistId": "PL5w_hbb3voMkxc2sU0JxNY88-kZ8bVmxq",
+  "source": "user-provided ordered 71 YouTube links",
+  "status": "position_matched_pending_title_and_transcript_review",
+  "courseId": "course_tde_9",
+  "entries": [
+    {
+      "index": 1,
+      "sourceLessonId": "aker-tyt-tr-2027-01",
+      "youtubeVideoId": "JiIDhhHGRJo",
+      "url": "https://www.youtube.com/watch?v=JiIDhhHGRJo",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 2,
+      "sourceLessonId": "aker-tyt-tr-2027-02",
+      "youtubeVideoId": "juJFHVk7ieE",
+      "url": "https://www.youtube.com/watch?v=juJFHVk7ieE",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 3,
+      "sourceLessonId": "aker-tyt-tr-2027-03",
+      "youtubeVideoId": "_jpMxZQ3PF0",
+      "url": "https://www.youtube.com/watch?v=_jpMxZQ3PF0",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 4,
+      "sourceLessonId": "aker-tyt-tr-2027-04",
+      "youtubeVideoId": "L0LrvZN0iqY",
+      "url": "https://www.youtube.com/watch?v=L0LrvZN0iqY",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 5,
+      "sourceLessonId": "aker-tyt-tr-2027-05",
+      "youtubeVideoId": "Ym4ZBYlY6Q8",
+      "url": "https://www.youtube.com/watch?v=Ym4ZBYlY6Q8",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 6,
+      "sourceLessonId": "aker-tyt-tr-2027-06",
+      "youtubeVideoId": "pDJsRjdzzlc",
+      "url": "https://www.youtube.com/watch?v=pDJsRjdzzlc",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 7,
+      "sourceLessonId": "aker-tyt-tr-2027-07",
+      "youtubeVideoId": "HNLnHGWoa5U",
+      "url": "https://www.youtube.com/watch?v=HNLnHGWoa5U",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 8,
+      "sourceLessonId": "aker-tyt-tr-2027-08",
+      "youtubeVideoId": "1EHh06Rm6j0",
+      "url": "https://www.youtube.com/watch?v=1EHh06Rm6j0",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 9,
+      "sourceLessonId": "aker-tyt-tr-2027-09",
+      "youtubeVideoId": "X--d21iqVcc",
+      "url": "https://www.youtube.com/watch?v=X--d21iqVcc",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 10,
+      "sourceLessonId": "aker-tyt-tr-2027-10",
+      "youtubeVideoId": "SrjCETJKxPc",
+      "url": "https://www.youtube.com/watch?v=SrjCETJKxPc",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 11,
+      "sourceLessonId": "aker-tyt-tr-2027-11",
+      "youtubeVideoId": "U3rtA9J_9Po",
+      "url": "https://www.youtube.com/watch?v=U3rtA9J_9Po",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 12,
+      "sourceLessonId": "aker-tyt-tr-2027-12",
+      "youtubeVideoId": "vXa24tRYd54",
+      "url": "https://www.youtube.com/watch?v=vXa24tRYd54",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 13,
+      "sourceLessonId": "aker-tyt-tr-2027-13",
+      "youtubeVideoId": "VG7kNIjOym0",
+      "url": "https://www.youtube.com/watch?v=VG7kNIjOym0",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 14,
+      "sourceLessonId": "aker-tyt-tr-2027-14",
+      "youtubeVideoId": "yrDGepjFQjs",
+      "url": "https://www.youtube.com/watch?v=yrDGepjFQjs",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 15,
+      "sourceLessonId": "aker-tyt-tr-2027-15",
+      "youtubeVideoId": "A4TnHAFVMwg",
+      "url": "https://www.youtube.com/watch?v=A4TnHAFVMwg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 16,
+      "sourceLessonId": "aker-tyt-tr-2027-16",
+      "youtubeVideoId": "_yoaoMfjrX8",
+      "url": "https://www.youtube.com/watch?v=_yoaoMfjrX8",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 17,
+      "sourceLessonId": "aker-tyt-tr-2027-17",
+      "youtubeVideoId": "CpCxBmpQdjM",
+      "url": "https://www.youtube.com/watch?v=CpCxBmpQdjM",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 18,
+      "sourceLessonId": "aker-tyt-tr-2027-18",
+      "youtubeVideoId": "gZMekG0GA4g",
+      "url": "https://www.youtube.com/watch?v=gZMekG0GA4g",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 19,
+      "sourceLessonId": "aker-tyt-tr-2027-19",
+      "youtubeVideoId": "W7T6nsbB9cQ",
+      "url": "https://www.youtube.com/watch?v=W7T6nsbB9cQ",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 20,
+      "sourceLessonId": "aker-tyt-tr-2027-20",
+      "youtubeVideoId": "gBHRbffGkas",
+      "url": "https://www.youtube.com/watch?v=gBHRbffGkas",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 21,
+      "sourceLessonId": "aker-tyt-tr-2027-21",
+      "youtubeVideoId": "brj0TtkJ75E",
+      "url": "https://www.youtube.com/watch?v=brj0TtkJ75E",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 22,
+      "sourceLessonId": "aker-tyt-tr-2027-22",
+      "youtubeVideoId": "zOAdYNi9caY",
+      "url": "https://www.youtube.com/watch?v=zOAdYNi9caY",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 23,
+      "sourceLessonId": "aker-tyt-tr-2027-23",
+      "youtubeVideoId": "63k9-DXYJCI",
+      "url": "https://www.youtube.com/watch?v=63k9-DXYJCI",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 24,
+      "sourceLessonId": "aker-tyt-tr-2027-24",
+      "youtubeVideoId": "_muFkFxXZv0",
+      "url": "https://www.youtube.com/watch?v=_muFkFxXZv0",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 25,
+      "sourceLessonId": "aker-tyt-tr-2027-25",
+      "youtubeVideoId": "oC5dD_ash-0",
+      "url": "https://www.youtube.com/watch?v=oC5dD_ash-0",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 26,
+      "sourceLessonId": "aker-tyt-tr-2027-26",
+      "youtubeVideoId": "FpDl_wCVnBQ",
+      "url": "https://www.youtube.com/watch?v=FpDl_wCVnBQ",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 27,
+      "sourceLessonId": "aker-tyt-tr-2027-27",
+      "youtubeVideoId": "QM6m4bDJqY8",
+      "url": "https://www.youtube.com/watch?v=QM6m4bDJqY8",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 28,
+      "sourceLessonId": "aker-tyt-tr-2027-28",
+      "youtubeVideoId": "NrZD5abwCNc",
+      "url": "https://www.youtube.com/watch?v=NrZD5abwCNc",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 29,
+      "sourceLessonId": "aker-tyt-tr-2027-29",
+      "youtubeVideoId": "sDav4TFPOYY",
+      "url": "https://www.youtube.com/watch?v=sDav4TFPOYY",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 30,
+      "sourceLessonId": "aker-tyt-tr-2027-30",
+      "youtubeVideoId": "qm9KYL6vM1I",
+      "url": "https://www.youtube.com/watch?v=qm9KYL6vM1I",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 31,
+      "sourceLessonId": "aker-tyt-tr-2027-31",
+      "youtubeVideoId": "YMogz5QSaBg",
+      "url": "https://www.youtube.com/watch?v=YMogz5QSaBg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 32,
+      "sourceLessonId": "aker-tyt-tr-2027-32",
+      "youtubeVideoId": "kvhJLr4hyaE",
+      "url": "https://www.youtube.com/watch?v=kvhJLr4hyaE",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 33,
+      "sourceLessonId": "aker-tyt-tr-2027-33",
+      "youtubeVideoId": "kiQ29RXG6Vo",
+      "url": "https://www.youtube.com/watch?v=kiQ29RXG6Vo",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 34,
+      "sourceLessonId": "aker-tyt-tr-2027-34",
+      "youtubeVideoId": "cwPVMIgVvwQ",
+      "url": "https://www.youtube.com/watch?v=cwPVMIgVvwQ",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 35,
+      "sourceLessonId": "aker-tyt-tr-2027-35",
+      "youtubeVideoId": "q9pDvdrbqhk",
+      "url": "https://www.youtube.com/watch?v=q9pDvdrbqhk",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 36,
+      "sourceLessonId": "aker-tyt-tr-2027-36",
+      "youtubeVideoId": "EXiiTMOGmE4",
+      "url": "https://www.youtube.com/watch?v=EXiiTMOGmE4",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 37,
+      "sourceLessonId": "aker-tyt-tr-2027-37",
+      "youtubeVideoId": "fGd-GwbDnMs",
+      "url": "https://www.youtube.com/watch?v=fGd-GwbDnMs",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 38,
+      "sourceLessonId": "aker-tyt-tr-2027-38",
+      "youtubeVideoId": "su0P69I2T-o",
+      "url": "https://www.youtube.com/watch?v=su0P69I2T-o",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 39,
+      "sourceLessonId": "aker-tyt-tr-2027-39",
+      "youtubeVideoId": "zCtX9b7WcSM",
+      "url": "https://www.youtube.com/watch?v=zCtX9b7WcSM",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 40,
+      "sourceLessonId": "aker-tyt-tr-2027-40",
+      "youtubeVideoId": "l4uxhDOHn_g",
+      "url": "https://www.youtube.com/watch?v=l4uxhDOHn_g",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 41,
+      "sourceLessonId": "aker-tyt-tr-2027-41",
+      "youtubeVideoId": "kc0_tXr25Nw",
+      "url": "https://www.youtube.com/watch?v=kc0_tXr25Nw",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 42,
+      "sourceLessonId": "aker-tyt-tr-2027-42",
+      "youtubeVideoId": "XD12rHxxbXk",
+      "url": "https://www.youtube.com/watch?v=XD12rHxxbXk",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 43,
+      "sourceLessonId": "aker-tyt-tr-2027-43",
+      "youtubeVideoId": "rsoA3ggjhkU",
+      "url": "https://www.youtube.com/watch?v=rsoA3ggjhkU",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 44,
+      "sourceLessonId": "aker-tyt-tr-2027-44",
+      "youtubeVideoId": "nHs5720AusQ",
+      "url": "https://www.youtube.com/watch?v=nHs5720AusQ",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 45,
+      "sourceLessonId": "aker-tyt-tr-2027-45",
+      "youtubeVideoId": "Ye3w_BfwFMA",
+      "url": "https://www.youtube.com/watch?v=Ye3w_BfwFMA",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 46,
+      "sourceLessonId": "aker-tyt-tr-2027-46",
+      "youtubeVideoId": "tHMTj3vbRuA",
+      "url": "https://www.youtube.com/watch?v=tHMTj3vbRuA",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 47,
+      "sourceLessonId": "aker-tyt-tr-2027-47",
+      "youtubeVideoId": "rt9596ZV-Sc",
+      "url": "https://www.youtube.com/watch?v=rt9596ZV-Sc",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 48,
+      "sourceLessonId": "aker-tyt-tr-2027-48",
+      "youtubeVideoId": "lpoaJ8wcLr8",
+      "url": "https://www.youtube.com/watch?v=lpoaJ8wcLr8",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 49,
+      "sourceLessonId": "aker-tyt-tr-2027-49",
+      "youtubeVideoId": "XBpjVOMMFj8",
+      "url": "https://www.youtube.com/watch?v=XBpjVOMMFj8",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 50,
+      "sourceLessonId": "aker-tyt-tr-2027-50",
+      "youtubeVideoId": "Qd6m6FJS-wA",
+      "url": "https://www.youtube.com/watch?v=Qd6m6FJS-wA",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 51,
+      "sourceLessonId": "aker-tyt-tr-2027-51",
+      "youtubeVideoId": "iegGBThYzMI",
+      "url": "https://www.youtube.com/watch?v=iegGBThYzMI",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 52,
+      "sourceLessonId": "aker-tyt-tr-2027-52",
+      "youtubeVideoId": "jpfvOAVpyGw",
+      "url": "https://www.youtube.com/watch?v=jpfvOAVpyGw",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 53,
+      "sourceLessonId": "aker-tyt-tr-2027-53",
+      "youtubeVideoId": "Lxa2hIvGYCI",
+      "url": "https://www.youtube.com/watch?v=Lxa2hIvGYCI",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 54,
+      "sourceLessonId": "aker-tyt-tr-2027-54",
+      "youtubeVideoId": "dJ6trEYtQdI",
+      "url": "https://www.youtube.com/watch?v=dJ6trEYtQdI",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 55,
+      "sourceLessonId": "aker-tyt-tr-2027-55",
+      "youtubeVideoId": "-y5OVO4u9rk",
+      "url": "https://www.youtube.com/watch?v=-y5OVO4u9rk",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 56,
+      "sourceLessonId": "aker-tyt-tr-2027-56",
+      "youtubeVideoId": "imCBdKXdftw",
+      "url": "https://www.youtube.com/watch?v=imCBdKXdftw",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 57,
+      "sourceLessonId": "aker-tyt-tr-2027-57",
+      "youtubeVideoId": "HFV6v9r_pkg",
+      "url": "https://www.youtube.com/watch?v=HFV6v9r_pkg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 58,
+      "sourceLessonId": "aker-tyt-tr-2027-58",
+      "youtubeVideoId": "5FNTWh8F0uk",
+      "url": "https://www.youtube.com/watch?v=5FNTWh8F0uk",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 59,
+      "sourceLessonId": "aker-tyt-tr-2027-59",
+      "youtubeVideoId": "LSmrTEXJkEE",
+      "url": "https://www.youtube.com/watch?v=LSmrTEXJkEE",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 60,
+      "sourceLessonId": "aker-tyt-tr-2027-60",
+      "youtubeVideoId": "6OQ_hF5LXFA",
+      "url": "https://www.youtube.com/watch?v=6OQ_hF5LXFA",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 61,
+      "sourceLessonId": "aker-tyt-tr-2027-61",
+      "youtubeVideoId": "M2GaVZVhn_4",
+      "url": "https://www.youtube.com/watch?v=M2GaVZVhn_4",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 62,
+      "sourceLessonId": "aker-tyt-tr-2027-62",
+      "youtubeVideoId": "oxRFRWENjrg",
+      "url": "https://www.youtube.com/watch?v=oxRFRWENjrg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 63,
+      "sourceLessonId": "aker-tyt-tr-2027-63",
+      "youtubeVideoId": "mWdqXtixn9w",
+      "url": "https://www.youtube.com/watch?v=mWdqXtixn9w",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 64,
+      "sourceLessonId": "aker-tyt-tr-2027-64",
+      "youtubeVideoId": "AJlah914Ybg",
+      "url": "https://www.youtube.com/watch?v=AJlah914Ybg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 65,
+      "sourceLessonId": "aker-tyt-tr-2027-65",
+      "youtubeVideoId": "n0MTZsM_fSg",
+      "url": "https://www.youtube.com/watch?v=n0MTZsM_fSg",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 66,
+      "sourceLessonId": "aker-tyt-tr-2027-66",
+      "youtubeVideoId": "fxlEeNpy5ww",
+      "url": "https://www.youtube.com/watch?v=fxlEeNpy5ww",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 67,
+      "sourceLessonId": "aker-tyt-tr-2027-67",
+      "youtubeVideoId": "yG38y_18gGQ",
+      "url": "https://www.youtube.com/watch?v=yG38y_18gGQ",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 68,
+      "sourceLessonId": "aker-tyt-tr-2027-68",
+      "youtubeVideoId": "uLJQwncQhMo",
+      "url": "https://www.youtube.com/watch?v=uLJQwncQhMo",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 69,
+      "sourceLessonId": "aker-tyt-tr-2027-69",
+      "youtubeVideoId": "-Wjs5YgIH4Q",
+      "url": "https://www.youtube.com/watch?v=-Wjs5YgIH4Q",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 70,
+      "sourceLessonId": "aker-tyt-tr-2027-70",
+      "youtubeVideoId": "EjBPGdO3wXs",
+      "url": "https://www.youtube.com/watch?v=EjBPGdO3wXs",
+      "verified": "user_supplied_url_only"
+    },
+    {
+      "index": 71,
+      "sourceLessonId": "aker-tyt-tr-2027-71",
+      "youtubeVideoId": "dpzPrRuR7M0",
+      "url": "https://www.youtube.com/watch?v=dpzPrRuR7M0",
+      "verified": "user_supplied_url_only"
+    }
+  ],
+  "policy": {
+    "existingTdeUrlsUnchanged": true,
+    "replaceAfterOutcomeReview": true,
+    "studentHistoryPreserved": true
+  }
+}
