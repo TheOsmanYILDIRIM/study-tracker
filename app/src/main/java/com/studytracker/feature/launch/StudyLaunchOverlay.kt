@@ -62,7 +62,7 @@ fun StudyLaunchOverlay(onFinished: () -> Unit) {
         initialValue = 0f,
         targetValue = 360f,
         animationSpec = infiniteRepeatable(
-            animation = tween(2200, easing = LinearEasing),
+            animation = tween(2600, easing = LinearEasing),
             repeatMode = RepeatMode.Restart
         ),
         label = "orbit"
@@ -80,9 +80,9 @@ fun StudyLaunchOverlay(onFinished: () -> Unit) {
     LaunchedEffect(Unit) {
         entrance.animateTo(
             targetValue = 1f,
-            animationSpec = tween(650, easing = FastOutSlowInEasing)
+            animationSpec = tween(780, easing = FastOutSlowInEasing)
         )
-        delay(440)
+        delay(710)
         latestOnFinished()
     }
 
@@ -99,77 +99,12 @@ fun StudyLaunchOverlay(onFinished: () -> Unit) {
                 )
             )
     ) {
-        Canvas(modifier = Modifier.fillMaxSize()) {
-            val center = Offset(size.width / 2f, size.height * 0.46f)
-            val orbitWidth = min(size.width * 0.40f, 235.dp.toPx())
-            val orbitHeight = orbitWidth * 0.75f
-
-            drawCircle(
-                brush = Brush.radialGradient(
-                    colors = listOf(Color(0x665C57CC), Color(0x004641B0)),
-                    center = center,
-                    radius = orbitWidth * 1.65f
-                ),
-                center = center,
-                radius = orbitWidth * 1.65f
-            )
-
-            // Deterministic star field; no per-frame allocations of bitmap assets.
-            val starPositions = listOf(
-                .12f to .16f, .24f to .31f, .76f to .18f, .89f to .29f,
-                .13f to .51f, .86f to .54f, .25f to .70f, .75f to .77f,
-                .42f to .11f, .64f to .84f, .18f to .86f, .81f to .91f
-            )
-            starPositions.forEachIndexed { index, pair ->
-                val brightness = 0.50f + 0.44f *
-                    ((1f + sin((twinklePhase + index * 0.73f).toDouble()).toFloat()) / 2f)
-                val point = Offset(size.width * pair.first, size.height * pair.second)
-                if (index % 3 == 0) {
-                    drawMagicStar(point, (5 + index % 4).dp.toPx(), Color(0xFFFFE28E), brightness)
-                } else {
-                    drawCircle(
-                        color = if (index % 2 == 0) Color(0xFFFFE28E) else Color(0xFF8EF4FC),
-                        radius = (1.7f + index % 3).dp.toPx(),
-                        center = point,
-                        alpha = brightness
-                    )
-                }
-            }
-
-            // One orbiting comet sweeps across the book, then exits with the overlay.
-            drawArc(
-                color = Color(0x3349E7EC),
-                startAngle = 0f,
-                sweepAngle = 360f,
-                useCenter = false,
-                topLeft = Offset(center.x - orbitWidth, center.y - orbitHeight),
-                size = Size(orbitWidth * 2f, orbitHeight * 2f),
-                style = Stroke(width = 1.2.dp.toPx())
-            )
-            drawArc(
-                brush = Brush.sweepGradient(
-                    colors = listOf(
-                        Color(0x008D6DFF),
-                        Color(0xFFAD83FF),
-                        Color(0xFF70F7EC),
-                        Color(0x00FFE69B)
-                    ),
-                    center = center
-                ),
-                startAngle = orbitDegrees - 225f,
-                sweepAngle = 135f,
-                useCenter = false,
-                topLeft = Offset(center.x - orbitWidth, center.y - orbitHeight),
-                size = Size(orbitWidth * 2f, orbitHeight * 2f),
-                style = Stroke(width = 3.3.dp.toPx(), cap = StrokeCap.Round)
-            )
-            val cometRadians = Math.toRadians((orbitDegrees - 90f).toDouble())
-            val cometPoint = Offset(
-                center.x + orbitWidth * cos(cometRadians).toFloat(),
-                center.y + orbitHeight * sin(cometRadians).toFloat()
-            )
-            drawMagicStar(cometPoint, 10.dp.toPx(), Color(0xFFFFE6A2), 1f)
-        }
+        // Solar-system spectacle is a separate native vector canvas; no PNG or WebView.
+        SolarOdysseyScene(
+            appearance = entrance.value,
+            orbitPhase = orbitDegrees / 360f,
+            twinklePhase = twinklePhase
+        )
 
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -180,12 +115,12 @@ fun StudyLaunchOverlay(onFinished: () -> Unit) {
                 modifier = Modifier
                     .size(216.dp)
                     .graphicsLayer {
-                        val pop = 0.78f + value * 0.22f
+                        val pop = 0.36f + value * 0.64f
                         scaleX = pop
                         scaleY = pop
-                        rotationZ = (1f - value) * -7f
-                        translationY = (1f - value) * 26.dp.toPx()
-                        alpha = 0.74f + 0.26f * value
+                        rotationZ = (1f - value) * -13f
+                        translationY = (1f - value) * 84.dp.toPx()
+                        alpha = value
                     }
                     .clip(RoundedCornerShape(46.dp))
                     .background(
@@ -194,7 +129,7 @@ fun StudyLaunchOverlay(onFinished: () -> Unit) {
                         )
                     )
                     .border(
-                        width = 1.4.dp,
+                        width = 2.4.dp,
                         brush = Brush.linearGradient(
                             listOf(Color(0xFFAD87F2), Color(0xFF4DE6DC), Color(0xFF6C50BA))
                         ),
