@@ -1,5 +1,5 @@
 name: Validate Mathematics video source swap
-# Post-merge verification of Mathematics sources and expanded Aker V2 catalog.
+# Post-merge verification of Mathematics sources and corrected modular V2 counts.
 
 on:
   push:
